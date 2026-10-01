@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scriptura Lexicon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Noto+Serif+Hebrew:wght@400;500;600&family=Noto+Sans+Syriac:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <header class="header">
+            <div>
+                <div class="project-name">Scriptura Lexicon</div>
+                <div class="project-subtitle">Hebraico · Aramaico · Grego · Português</div>
+            </div>
+
+            <div class="project-short">LEXICON</div>
+        </header>
+
+
+        <!-- ======================================================
+             PESQUISA
+             ====================================================== -->
+
+        <section class="search-section">
+
+            <div class="search-header">
+                <h2>Pesquisa</h2>
+                <span id="search-count" class="search-count">Digite para pesquisar</span>
+            </div>
+
+
+            <div class="search-controls">
+
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M10.5 4a6.5 6.5 0 1 0 4.07 11.57L19 20l1-1-4.43-4.43A6.5 6.5 0 0 0 10.5 4Zm0 1.5a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"/>
+                    </svg>
+
+                    <input
+                        id="search-input"
+                        type="search"
+                        placeholder="Pesquisar lema, tradução ou forma..."
+                        autocomplete="off"
+                        spellcheck="false"
+                        aria-label="Pesquisar verbetes"
+                    >
+                </div>
+
+
+                <div class="source-filter-box">
+                    <select id="source-filter" aria-label="Filtrar por fonte">
+                        <option value="">Todas as fontes</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div id="search-table-wrapper" class="table-wrapper" hidden>
+
+                <table id="search-table">
+                    <thead>
+                        <tr>
+                            <th>Lema</th>
+                            <th>Língua</th>
+                            <th>Classe</th>
+                            <th>Tradução</th>
+                            <th>Fonte</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="search-results">
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-alpha-robinson"
+                            data-source="ROBINSON"
+                            data-search="Α α alpha alfa primeira letra alfabeto grego alef aleph א letra Robinson"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Α</td>
+                            <td>Grego</td>
+                            <td>Letra</td>
+                            <td>alfa</td>
+                            <td><span class="source-pill">ROBINSON</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-alpha-abbott-smith"
+                            data-source="ABBOTT-SMITH"
+                            data-search="Α α ἄλφα alpha alfa primeira letra alfabeto grego numeral prefixo negativo privativo copulativo intensivo ἄγνωστος ἄδικος ἁπλοῦς ἀκολουθέω ἀδελφός ἀτενίζω Abbott-Smith"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Α</td>
+                            <td>Grego</td>
+                            <td>Letra / prefixo</td>
+                            <td>alfa</td>
+                            <td><span class="source-pill">ABBOTT-SMITH</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-alpha-bdag"
+                            data-source="BDAG"
+                            data-search="Α α ἄλφα alpha alfa primeira letra alfabeto grego numeral símbolo simbólico começo princípio fim primeiro último omega Α Ω εἷς πρῶτος πρώτη πρωτέρα πρότερον ἐπιστολή ἐντολή BDAG"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Α</td>
+                            <td>Grego</td>
+                            <td>Letra / numeral</td>
+                            <td>alfa; primeira letra</td>
+                            <td><span class="source-pill">BDAG</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-aaron"
+                            data-source="ROBINSON"
+                            data-search="Ἀαρών ααρων Aaron Arão Aarao אַהֲרֹן nome próprio indeclinável Robinson"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Ἀαρών</td>
+                            <td>Grego</td>
+                            <td>Nome próprio</td>
+                            <td>Arão</td>
+                            <td><span class="source-pill">ROBINSON</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-aaron-thayer"
+                            data-source="THAYER"
+                            data-search="Ἀαρών ααρων Aaron Arão Aarao אַהֲרֹן אָהַר ܐܰܗܻܝܪܳܐ אוֺמָר הַר ὀρεινός nome próprio indeclinável irmão de Moisés sumo sacerdote israelitas ordem sacerdotal Thayer"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Ἀαρών</td>
+                            <td>Grego</td>
+                            <td>Nome próprio</td>
+                            <td>Arão</td>
+                            <td><span class="source-pill">THAYER</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-abaddon"
+                            data-source="ROBINSON"
+                            data-search="Ἀβαδδών αβαδδων Abaddon Abadom אבדון destruição perdição anjo da morte destruidor nome próprio Robinson"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Ἀβαδδών</td>
+                            <td>Grego</td>
+                            <td>Nome próprio</td>
+                            <td>Abadom</td>
+                            <td><span class="source-pill">ROBINSON</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-abares"
+                            data-source="ROBINSON"
+                            data-search="Ἀβαρής αβαρης abarēs abares não pesado nao pesado não oneroso nao oneroso βάρος ἀβαρῆ ἐπιβαρέω βαρύς adjetivo Robinson"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Ἀβαρής</td>
+                            <td>Grego</td>
+                            <td>Adjetivo</td>
+                            <td>não pesado; não oneroso</td>
+                            <td><span class="source-pill">ROBINSON</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-abba"
+                            data-source="ROBINSON"
+                            data-search="Ἀββᾶ αββα Abba Aba אב אבא pai father hebraico caldaico aramaico indeclinável Robinson"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Ἀββᾶ</td>
+                            <td>Grego</td>
+                            <td>Indeclinável</td>
+                            <td>Aba; pai</td>
+                            <td><span class="source-pill">ROBINSON</span></td>
+                        </tr>
+
+                        <tr
+                            class="search-row"
+                            data-target="entry-abel"
+                            data-source="ROBINSON"
+                            data-search="Ἄβελ αβελ Abel הֶבֶל הבל transitoriedade vapor sopro vaidade segundo filho de Adão nome próprio indeclinável Robinson"
+                            tabindex="0"
+                        >
+                            <td class="table-lemma greek">Ἄβελ</td>
+                            <td>Grego</td>
+                            <td>Nome próprio</td>
+                            <td>Abel</td>
+                            <td><span class="source-pill">ROBINSON</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div id="no-results" class="no-results" hidden>
+                    Nenhum verbete encontrado.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================================
+             Α — ROBINSON
+             ====================================================== -->
+
+        <article id="entry-alpha-robinson" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Α</h1>
+
+                    <div class="entry-meta">
+                        <span>alfa</span>
+                        <span class="separator">·</span>
+                        <span>primeira letra do alfabeto grego</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">ROBINSON</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Α, alfa</strong>, a primeira letra do alfabeto grego, correspondente ao
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="heb." data-tooltip-text="hebraico">heb.</span>
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="א" data-transliteration="ʾālep̄" data-meanings="álef|primeira letra do alfabeto hebraico">א</bdi>.
+                    Quanto ao seu valor como sinal numérico e como partícula privativa e intensiva em composição, veja Buttmann § 2, n. 3; § 120, 5, e n. 11.
+                    No
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="N. T." data-tooltip-text="Novo Testamento">N. T.</span>,
+                    <span class="greek">τὸ Α</span> ou <span class="greek">τὸ ἄλφα</span> significa <em>o primeiro</em>,
+                    Ap
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.1.8" target="_blank" rel="noopener noreferrer">1.8</a>,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.1.11" target="_blank" rel="noopener noreferrer">11</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.21.6" target="_blank" rel="noopener noreferrer">21.6</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.22.13" target="_blank" rel="noopener noreferrer">22.13</a>;
+                    uma vez que o próprio escritor o explica por
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πρῶτος" data-meanings="primeiro|principal">πρῶτος</span>
+                    e
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀρχή" data-meanings="princípio|começo|origem">ἀρχή</span>.
+                    Compare
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/ISA.48.12" target="_blank" rel="noopener noreferrer">Is 48.12</a>;
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="cf." data-tooltip-text="compare-se">cf.</span>
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/ISA.41.4" target="_blank" rel="noopener noreferrer">41.4</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/ISA.44.6" target="_blank" rel="noopener noreferrer">44.6</a>.
+                    — Clemente de Alexandria, <em>Stromata</em> IV. 25 [p. 537 C, ed. Sylb.]:
+                    <span class="quotation">“Pois ele mesmo (o Filho) é o círculo de todas as potências, reunidas em uma só e unidas; por isso o Logos é chamado Α e Ω.”</span>
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Α — ABBOTT-SMITH
+             ====================================================== -->
+
+        <article id="entry-alpha-abbott-smith" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Α</h1>
+
+                    <div class="entry-meta">
+                        <span class="greek">α</span>
+                        <span class="separator">·</span>
+                        <span class="greek">ἄλφα</span>
+                        <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="q.v." data-tooltip-text="queira ver; veja o respectivo verbete">q.v.</span>
+                        <span class="separator">·</span>
+                        <span class="greek">τό</span>
+                        <span class="separator">·</span>
+                        <span>indeclinável</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">ABBOTT-SMITH</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Alfa</strong>, a primeira letra do alfabeto grego.
+                    Como numeral, <span class="greek">αʹ = 1</span>, <span class="greek">͵α = 1000</span>.
+                    Como prefixo, parece ter ao menos dois e talvez três sentidos distintos:
+
+                    <span class="sense-number">1.</span>
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀ-" data-meanings="alfa privativo|negação|ausência">ἀ-</span>
+                    (antes de uma vogal,
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀν-" data-meanings="forma do alfa privativo diante de vogal">ἀν-</span>),
+                    <em>negativo</em>, como em
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγνωστος" data-meanings="desconhecido|não conhecido|ignorado">ἄγνωστος</span>,
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄδικος" data-meanings="injusto|iníquo|não justo">ἄδικος</span>.
+
+                    <span class="sense-number">2.</span>
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀ-, ἁ-" data-meanings="prefixo copulativo|união|associação|comunidade">ἀ-, ἁ-</span>
+                    <em>copulativo</em>, indicando comunidade e comunhão, como em
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁπλοῦς" data-meanings="simples|singelo|sem duplicidade">ἁπλοῦς</span>,
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκολουθέω" data-meanings="seguir|acompanhar|ir após">ἀκολουθέω</span>,
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδελφός" data-meanings="irmão|parente próximo">ἀδελφός</span>.
+
+                    <span class="sense-number">3.</span>
+                    Uma força <em>intensiva</em>
+                    (<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="LS" data-tooltip-text="Liddell e Scott">LS</span>,
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="s. α" data-tooltip-text="sob o verbete α">s. α</span>),
+                    como em
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀτενίζω" data-meanings="olhar atentamente|fixar os olhos|contemplar intensamente">ἀτενίζω</span>,
+                    é algumas vezes presumida
+                    (mas <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="v." data-tooltip-text="veja">v.</span>
+                    Boisacq,
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="s.v." data-tooltip-text="sub voce; sob o respectivo verbete">s.v.</span>).
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Α — BDAG
+             ====================================================== -->
+
+        <article id="entry-alpha-bdag" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Α</h1>
+
+                    <div class="entry-meta">
+                        <span class="greek">α</span>
+                        <span class="separator">·</span>
+                        <span class="greek">τό</span>
+                        <span class="separator">·</span>
+                        <span class="transliteration">⟦A⟧</span>
+                        <span class="separator">·</span>
+                        <span>indeclinável</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">BDAG</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    (veja
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλφα" data-meanings="alfa|nome da primeira letra do alfabeto grego">ἄλφα</span>),
+                    primeira letra do alfabeto grego, <em>alfa</em>
+                    (compare
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="SibOr" data-tooltip-text="Oracula Sibyllina — Oráculos Sibilinos">SibOr</span>
+                    5.15);
+                    daí, como numeral, <span class="greek">αʹ = 1</span>
+                    (<em>um</em>
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="εἷς" data-meanings="um|numeral cardinal">εἷς</span>
+                    ou <em>primeiro</em>
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πρῶτος" data-meanings="primeiro|o primeiro em uma série">πρῶτος</span>,
+                    por exemplo,
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="TestSol" data-tooltip-text="Testament of Solomon — Testamento de Salomão">TestSol</span>,
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="PVindobBosw" data-tooltip-text="Papiros de Viena editados por Boswinkel">PVindobBosw</span>
+                    em 18.34; frequentemente nos papiros):
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πρώτη" data-meanings="primeira|forma feminina de πρῶτος">πρώτη</span>
+                    (ou
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πρωτέρα" data-meanings="anterior|primeira, em determinados usos comparativos">πρωτέρα</span>?
+                    nos papiros frequentemente =
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πρότερον" data-meanings="antes|anteriormente|primeiro">πρότερον</span>,
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="q.v." data-tooltip-text="queira ver; veja o respectivo verbete">q.v.</span>)
+                    nos títulos de cartas,
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐπιστολή" data-meanings="carta|epístola">ἐπιστολή</span>:
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="1 Cor" data-tooltip-text="Primeira Epístola aos Coríntios">1 Cor</span>;
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="1 Ts" data-tooltip-text="Primeira Epístola aos Tessalonicenses">1 Ts</span>;
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="1 Tm" data-tooltip-text="Primeira Epístola a Timóteo">1 Tm</span>;
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="1 Pe" data-tooltip-text="Primeira Epístola de Pedro">1 Pe</span>;
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="1 Jo" data-tooltip-text="Primeira Epístola de João">1 Jo</span>;
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="1 Cl" data-tooltip-text="Primeira Epístola de Clemente">1 Cl</span>;
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐντολή" data-meanings="mandamento|ordem|preceito">ἐντολή</span>,
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Hm" data-tooltip-text="Hermas, Mandates — Mandamentos do Pastor de Hermas">Hm</span>
+                    1, título.
+
+                    Como letra simbólica, <span class="greek">Α</span> significa o princípio, <span class="greek">Ω</span> o fim
+                    (<span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="F. Boll, Sphaera" data-tooltip-text="F. Boll, Sphaera, 1903, p. 469 e seguintes">F. Boll, <em>Sphaera</em> 1903, 469 ss.</span>).
+                    As duas passaram a designar o universo e toda espécie de poder divino e sobre-humano.
+                    Veja
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Rtzst., Poim." data-tooltip-text="R. Reitzenstein, Poimandres">Rtzst., <em>Poim.</em></span>
+                    256 ss.,
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Erlösungsmyst." data-tooltip-text="R. Reitzenstein, Das iranische Erlösungsmysterium"><em>Erlösungsmyst.</em></span>
+                    244;
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="F. Boll, Aus d. Offb. Joh." data-tooltip-text="F. Boll, Aus der Offenbarung Johannis, 1914">F. Boll, <em>Aus d. Offb. Joh.</em></span>
+                    1914, 26 s.
+
+                    O anagrama Sator de Pompeia
+                    (<span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="J. Daniélou, Primitive Christian Symbols" data-tooltip-text="J. Daniélou, Primitive Christian Symbols; tradução de D. Attwater, 1964, pp. 99–101">J. Daniélou, <em>Primitive Christian Symbols</em>, trad. D. Attwater, 1964, 99–101</span>)
+                    oferece o mais antigo uso cristão.
+
+                    Na expressão
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐγώ εἰμι τὸ ἄλφα καὶ τὸ ὦ" data-meanings="eu sou o Alfa e o Ômega">ἐγώ εἰμι τὸ ἄλφα καὶ τὸ ὦ</span>,
+                    as letras são explicadas como <em>princípio e fim</em> em
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.1.8" target="_blank" rel="noopener noreferrer">Ap 1.8</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="v.l." data-tooltip-text="varia lectio — leitura variante">v.l.</span>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.21.6" target="_blank" rel="noopener noreferrer">21.6</a>
+                    (veja
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="O. Weinreich, ARW" data-tooltip-text="O. Weinreich, Archiv für Religionswissenschaft 19 (1919), p. 180 e seguinte">O. Weinreich, <em>ARW</em> 19, 1919, 180 s.</span>);
+                    como <em>primeiro e último</em> em
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.1.11" target="_blank" rel="noopener noreferrer">1.11</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="v.l." data-tooltip-text="varia lectio — leitura variante">v.l.</span>;
+                    e como ambos em
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.22.13" target="_blank" rel="noopener noreferrer">22.13</a>
+                    (compare
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Mel., P." data-tooltip-text="Melito de Sardes, Homilia Pascal">Mel., <em>P.</em></span>
+                    105, 812 [B]).
+
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/ISA.44.6" target="_blank" rel="noopener noreferrer">Is 44.6</a>
+                    oferece precedente para
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πρῶτος" data-meanings="primeiro">πρῶτος</span>
+                    /
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἔσχατος" data-meanings="último|derradeiro">ἔσχατος</span>
+                    neste simbolismo e no simbolismo rabínico relacionado.
+
+                    — Veja sobre <span class="greek">Ω</span> e
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="F. Cabrol, Dict. d’Arch." data-tooltip-text="F. Cabrol, Dictionnaire d’archéologie chrétienne et de liturgie">F. Cabrol, <em>Dict. d’Arch.</em></span>
+                    I, 1, 1–25;
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="F. Dornseiff" data-tooltip-text="F. Dornseiff, Das Alphabet in Mystik und Magie, 2ª edição">F. Dornseiff, <em>D. Alphabet in Mystik u. Magie²</em></span>
+                    1925, 17 s.; 122 ss.;
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="R. Charles, HDB" data-tooltip-text="R. Charles, Dictionary of the Bible, editado por J. Hastings">R. Charles, <em>HDB</em></span>
+                    I 70.
+                    —
+                    <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="TW" data-tooltip-text="Theologisches Wörterbuch zum Neuen Testament; tradução inglesa: Theological Dictionary of the New Testament">TW</span>.
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Ἀαρών — ROBINSON
+             ====================================================== -->
+
+        <article id="entry-aaron" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Ἀαρών</h1>
+                    <div class="entry-meta">
+                        <span class="article greek">ὁ</span>
+                        <span class="separator">·</span>
+                        <span>indeclinável</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">ROBINSON</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Arão</strong>, hebraico
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אַהֲרֹן" data-transliteration="ʾahărōn" data-meanings="Arão|nome próprio masculino">אַהֲרֹן</bdi>,
+                    nome próprio de um filho de Anrão e Joquebede, da tribo de Levi,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.6.20" target="_blank" rel="noopener noreferrer">Êx 6.20</a>;
+                    o irmão de Moisés, seu intérprete
+                    (<bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נָבִיא" data-transliteration="nāḇîʾ" data-meanings="profeta|porta-voz|aquele que fala em nome de outrem">נָבִיא</bdi>)
+                    diante de Faraó, o rei egípcio,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.4.14" target="_blank" rel="noopener noreferrer">Êx 4.14</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="e seg." data-tooltip-text="e seguintes">e seg.</span>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.5.1" target="_blank" rel="noopener noreferrer">5.1</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="e seg." data-tooltip-text="e seguintes">e seg.</span>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.7.10" target="_blank" rel="noopener noreferrer">7.10</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="e seg." data-tooltip-text="e seguintes">e seg.</span>;
+                    e o primeiro Sumo Sacerdote,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.28.1" target="_blank" rel="noopener noreferrer">Êx 28.1</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="e seg." data-tooltip-text="e seguintes">e seg.</span>,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.28.40" target="_blank" rel="noopener noreferrer">40</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/EXO.28.12" target="_blank" rel="noopener noreferrer">12</a>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="e seg." data-tooltip-text="e seguintes">e seg.</span> —
+                    no
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="N. T." data-tooltip-text="Novo Testamento">N. T.</span>,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ACT.7.40" target="_blank" rel="noopener noreferrer">Atos 7.40</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/HEB.5.4" target="_blank" rel="noopener noreferrer">Heb 5.4</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/HEB.7.11" target="_blank" rel="noopener noreferrer">7.11</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/HEB.9.4" target="_blank" rel="noopener noreferrer">9.4</a>.
+                    Por hebraísmo, <em>família de Arão</em>,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.1.5" target="_blank" rel="noopener noreferrer">Lucas 1.5</a>.
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Ἀαρών — THAYER
+             ====================================================== -->
+
+        <article id="entry-aaron-thayer" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Ἀαρών</h1>
+
+                    <div class="entry-meta">
+                        <span>nome próprio</span>
+                        <span class="separator">·</span>
+                        <span>indeclinável</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">THAYER</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Arão</strong>
+                    (<span class="greek">ὁ Ἀαρών</span>,
+                    <span
+                        class="greek greek-term tooltip-trigger"
+                        tabindex="0"
+                        data-tooltip-type="greek"
+                        data-tooltip-label="-ῶνος"
+                        data-meanings="terminação genitiva usada por Josefo para Ἀαρών"
+                    >-ῶνος</span>
+                    em Josefo), hebraico
+                    <bdi
+                        class="hebrew hebrew-token tooltip-trigger"
+                        lang="he"
+                        dir="rtl"
+                        tabindex="0"
+                        data-tooltip-type="hebrew"
+                        data-tooltip-label="אַהֲרֹן"
+                        data-transliteration="ʾahărōn"
+                        data-meanings="Arão|nome próprio masculino"
+                    >אַהֲרֹן</bdi>
+                    (de um radical hebraico não usado
+                    <bdi
+                        class="hebrew hebrew-token tooltip-trigger"
+                        lang="he"
+                        dir="rtl"
+                        tabindex="0"
+                        data-tooltip-type="hebrew"
+                        data-tooltip-label="אָהַר"
+                        data-transliteration="ʾāhar"
+                    >אָהַר</bdi>
+                    — siríaco
+                    <span
+                        class="syriac syriac-token tooltip-trigger"
+                        lang="syr"
+                        dir="rtl"
+                        tabindex="0"
+                        data-tooltip-type="syriac"
+                        data-tooltip-label="ܐܰܗܻܝܪܳܐ"
+                        data-transliteration="ʾahîrā"
+                        data-meanings="libidinoso|lascivo"
+                    >ܐܰܗܻܝܪܳܐ</span>,
+                    <em>libidinoso, lascivo</em> —
+                    [<em>iluminado</em>, segundo Fürst; segundo Dietrich,
+                    <em>rico</em> ou <em>fluente</em>, como
+                    <bdi
+                        class="hebrew hebrew-token tooltip-trigger"
+                        lang="he"
+                        dir="rtl"
+                        tabindex="0"
+                        data-tooltip-type="hebrew"
+                        data-tooltip-label="אוֺמָר"
+                    >אוֺמָר</bdi>],
+                    segundo
+                    <span
+                        class="biblio-ref tooltip-trigger"
+                        tabindex="0"
+                        data-tooltip-type="biblio"
+                        data-tooltip-label="Fílon, De ebrietate"
+                        data-tooltip-text="Fílon de Alexandria, De ebrietate (Sobre a embriaguez), § 32"
+                    >Fílon, <em>De ebrietate</em></span>
+                    § 32, de
+                    <bdi
+                        class="hebrew hebrew-token tooltip-trigger"
+                        lang="he"
+                        dir="rtl"
+                        tabindex="0"
+                        data-tooltip-type="hebrew"
+                        data-tooltip-label="הַר"
+                        data-transliteration="har"
+                        data-meanings="montanha|monte"
+                    >הַר</bdi>,
+                    <em>montanha</em>, e equivalente a
+                    <span
+                        class="greek greek-term tooltip-trigger"
+                        tabindex="0"
+                        data-tooltip-type="greek"
+                        data-tooltip-label="ὀρεινός"
+                        data-meanings="montanhoso|das montanhas"
+                    >ὀρεινός</span>),
+                    Arão, o irmão de Moisés, o primeiro sumo sacerdote dos israelitas e o chefe de toda a ordem sacerdotal:
+                    <a
+                        class="reference reference-link"
+                        href="https://www.die-bibel.de/en/bible/NA28/LUK.1.5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >Lc 1.5</a>;
+                    <a
+                        class="reference reference-link"
+                        href="https://www.die-bibel.de/en/bible/NA28/ACT.7.40"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >At 7.40</a>;
+                    <a
+                        class="reference reference-link"
+                        href="https://www.die-bibel.de/en/bible/NA28/HEB.5.4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >Heb 5.4</a>;
+                    <a
+                        class="reference reference-link"
+                        href="https://www.die-bibel.de/en/bible/NA28/HEB.7.11"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >7.11</a>;
+                    <a
+                        class="reference reference-link"
+                        href="https://www.die-bibel.de/en/bible/NA28/HEB.9.4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >9.4</a>.
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Ἀβαδδών — ROBINSON
+             ====================================================== -->
+
+        <article id="entry-abaddon" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Ἀβαδδών</h1>
+                    <div class="entry-meta"><span>indeclinável</span></div>
+                </div>
+
+                <div class="source-tag">ROBINSON</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Abadom</strong>, hebraico
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אֲבַדּוֹן" data-transliteration="ʾăḇaddôn" data-meanings="destruição|perdição|Abadom">אֲבַדּוֹן</bdi>
+                    (<em>destruição</em>),
+                    nome atribuído em
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/REV.9.11" target="_blank" rel="noopener noreferrer">Ap 9.11</a>
+                    ao anjo do Tártaro
+                    (<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄβυσσος" data-meanings="abismo|profundidade insondável">ἄβυσσος</span>,
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="q.v." data-tooltip-text="queira ver; veja o respectivo verbete">q.v.</span>)
+                    e explicado pelo grego
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀπολλύων" data-meanings="destruidor|aquele que destrói">ἀπολλύων</span>,
+                    <em>destruidor</em>, isto é, o anjo da morte.
+                    A palavra hebraica usual é
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="מַשְׁחִית" data-transliteration="mašḥît" data-meanings="destruidor|agente destruidor|aquele que causa destruição">מַשְׁחִית</bdi>,
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="Sept." data-tooltip-text="Septuaginta">Sept.</span>
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὁ ὀλοθρεύων" data-meanings="o destruidor|aquele que extermina">ὁ ὀλοθρεύων</span>,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.12.23" target="_blank" rel="noopener noreferrer">Êx 12.23</a>.
+                    Assim também
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.18.25" target="_blank" rel="noopener noreferrer">Sab 18.25</a>.
+                    Compare
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὀλοθρευτής" data-meanings="destruidor|exterminador">ὀλοθρευτής</span>,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1CO.10.10" target="_blank" rel="noopener noreferrer">1 Cor 10.10</a>.
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Ἀβαρής — ROBINSON
+             ====================================================== -->
+
+        <article id="entry-abares" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Ἀβαρής</h1>
+
+                    <div class="entry-meta">
+                        <span class="greek">έος</span>
+                        <span class="separator">·</span>
+                        <span class="greek">ὁ, ἡ</span>
+                        <span class="separator">·</span>
+                        <span>adjetivo</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">ROBINSON</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    (de
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀ-" data-meanings="alfa privativo|negação|ausência">ἀ-</span>
+                    privativo e
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="βάρος" data-meanings="peso|carga|fardo">βάρος</span>,
+                    <em>peso</em>),
+                    propriamente, <em>não pesado</em>, por exemplo, do ar,
+                    Plutarco, <em>Moralia</em> VI, p. 98, ed. Tauchnitz.
+                    No
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="N. T." data-tooltip-text="Novo Testamento">N. T.</span>,
+                    metaforicamente, <em>não oneroso</em>, isto é, não causando despesa,
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/2CO.11.9" target="_blank" rel="noopener noreferrer">2 Cor 11.9</a>:
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβαρῆ ὑμῖν ἐμαυτὸν ἐτήρησα" data-meanings="mantive-me sem ser oneroso para vós|mantive-me sem vos causar despesa">ἀβαρῆ ὑμῖν ἐμαυτὸν ἐτήρησα</span>.
+                    — Assim
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐπιβαρέω" data-meanings="sobrecarregar|ser oneroso|impor peso ou encargo">ἐπιβαρέω</span>
+                    <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="q.v." data-tooltip-text="queira ver; veja o respectivo verbete">q.v.</span>
+                    e
+                    <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="βαρύς" data-meanings="pesado|oneroso|grave">βαρύς</span>,
+                    Josefo, <em>Antiguidades</em> 1.16.2.
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Ἀββᾶ — ROBINSON
+             ====================================================== -->
+
+        <article id="entry-abba" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Ἀββᾶ</h1>
+                    <div class="entry-meta"><span>indeclinável</span></div>
+                </div>
+
+                <div class="source-tag">ROBINSON</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Aba</strong>, hebraico
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אב" data-transliteration="ʾāḇ" data-meanings="pai|progenitor|antepassado">אב</bdi>,
+                    forma caldaica
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="arc" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אבא" data-transliteration="ʾabbā" data-meanings="pai|forma aramaica de tratamento para pai">אבא</bdi>,
+                    <em>pai</em>.
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.14.36" target="_blank" rel="noopener noreferrer">Mc 14.36</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ROM.8.15" target="_blank" rel="noopener noreferrer">Rm 8.15</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/GAL.4.6" target="_blank" rel="noopener noreferrer">Gl 4.6</a>.
+                </p>
+            </section>
+        </article>
+
+
+        <!-- ======================================================
+             Ἄβελ — ROBINSON
+             ====================================================== -->
+
+        <article id="entry-abel" class="entry-card">
+            <header class="entry-header">
+                <div>
+                    <h1 class="entry-title greek">Ἄβελ</h1>
+
+                    <div class="entry-meta">
+                        <span class="article greek">ὁ</span>
+                        <span class="separator">·</span>
+                        <span>indeclinável</span>
+                    </div>
+                </div>
+
+                <div class="source-tag">ROBINSON</div>
+            </header>
+
+            <div class="entry-divider"></div>
+
+            <section class="entry-section">
+                <div class="section-title">Tradução literal</div>
+
+                <p class="entry-text">
+                    <strong>Abel</strong>, hebraico
+                    <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הֶבֶל" data-transliteration="heḇel" data-meanings="vapor|sopro|transitoriedade|vaidade">הֶבֶל</bdi>
+                    (<em>transitoriedade</em>),
+                    nome próprio do segundo filho de Adão.
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MAT.23.35" target="_blank" rel="noopener noreferrer">Mt 23.35</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.11.51" target="_blank" rel="noopener noreferrer">Lc 11.51</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/HEB.11.4" target="_blank" rel="noopener noreferrer">Heb 11.4</a>;
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/HEB.12.24" target="_blank" rel="noopener noreferrer">12.24</a>.
+                    Veja
+                    <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/BHS/GEN.4.1" target="_blank" rel="noopener noreferrer">Gn 4.1–16</a>.
+                </p>
+            </section>
+        </article>
+
+    </main>
+
+
+    <div
+        id="lexical-tooltip"
+        class="lexical-tooltip"
+        role="tooltip"
+        aria-hidden="true"
+    ></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
