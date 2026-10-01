@@ -309,6 +309,44 @@ function buildTooltipContent(trigger) {
     }
 
 
+    if (type === "syriac") {
+        const transliteration =
+            trigger.dataset.transliteration || "";
+
+        const meanings =
+            parseMeanings(
+                trigger.dataset.meanings
+            );
+
+        let html =
+            '<div class="tooltip-heading syriac-heading">' +
+            escapeHtml(label) +
+            "</div>";
+
+        if (transliteration) {
+            html +=
+                '<div class="tooltip-block">' +
+                '<span class="tooltip-label">Transliteração</span>' +
+                '<div class="tooltip-value">' +
+                escapeHtml(transliteration) +
+                "</div>" +
+                "</div>";
+        }
+
+        if (meanings.length) {
+            html +=
+                '<div class="tooltip-block">' +
+                '<span class="tooltip-label">Significados</span>' +
+                '<div class="tooltip-meanings">' +
+                buildMeaningsHtml(meanings) +
+                "</div>" +
+                "</div>";
+        }
+
+        return html;
+    }
+
+
     if (type === "greek") {
         const meanings =
             parseMeanings(
