@@ -380,6 +380,11 @@ tbody tr:last-child td {
    VERBETES
    ========================================================== */
 
+.entry-card[hidden] {
+    display: none !important;
+}
+
+
 .entry-card {
     padding: 30px;
     margin-bottom: 30px;
@@ -901,7 +906,11 @@ tbody tr:last-child td {
 
     .entry-text {
         font-size: 1.02rem;
-        text-align: left;
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        overflow-wrap: break-word;
     }
 
 

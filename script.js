@@ -8,6 +8,10 @@ const searchRows = Array.from(
     document.querySelectorAll(".search-row")
 );
 
+const entryCards = Array.from(
+    document.querySelectorAll(".entry-card")
+);
+
 const searchCount = document.getElementById("search-count");
 const noResults = document.getElementById("no-results");
 
@@ -84,6 +88,14 @@ function filterEntries() {
     const query = normalizeText(rawQuery);
 
     const selectedSource = sourceFilter.value;
+
+    /*
+     * Ao alterar a busca, fecha qualquer verbete anteriormente aberto.
+     * Os cartões só são revelados quando o usuário escolhe um resultado.
+     */
+    entryCards.forEach(function (card) {
+        card.hidden = true;
+    });
 
 
     /*
@@ -170,6 +182,13 @@ function openEntry(row) {
     if (!target) {
         return;
     }
+
+    /*
+     * Exibe somente o verbete selecionado.
+     */
+    entryCards.forEach(function (card) {
+        card.hidden = card !== target;
+    });
 
     target.scrollIntoView({
         behavior: "smooth",
