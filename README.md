@@ -46,25 +46,32 @@ Regras:
 
 Essa regra aplica-se prospectivamente a todos os novos verbetes e deve ser usada também na revisão de verbetes antigos quando eles forem revisitados.
 
+### Auditoria retroativa do Perseus
+
+As referências já cadastradas a autores antigos devem ser auditadas retroativamente. Quando o Perseus disponibilizar uma edição no idioma original e a passagem puder ser identificada com segurança, a citação na interface deve ser transformada em link direto para essa passagem.
+
+A prioridade é o **texto grego original** para autores gregos e o **texto latino original** para autores latinos. Permanecem sem link apenas as referências cuja obra ou localização não possa ser determinada com segurança a partir da forma bibliográfica da fonte.
+
+
 
 ## Regra editorial — referências bíblicas
 
-Os links bíblicos devem ser escolhidos pelo **contexto da fonte**, e não apenas pelo livro citado.
+Os links bíblicos devem respeitar o dicionário ativo e a tradição textual adotada para aquela seção.
 
-- quando o contexto for o texto hebraico, o Texto Massorético, a Bíblia Hebraica ou uma citação lexical hebraica, usar a **BHS** na Deutsche Bibelgesellschaft;
-- quando a fonte indicar explicitamente a **Septuaginta**, `Sept.`, `LXX`, ou estiver citando o texto grego do Antigo Testamento, usar a **LXX**;
-- livros deuterocanônicos/apócrifos citados como parte da tradição grega devem apontar para a **LXX**;
-- referências ao Novo Testamento grego devem apontar para a **NA28**;
-- não converter automaticamente uma referência veterotestamentária para BHS ou LXX sem verificar o contexto imediato da fonte;
-- todos os links bíblicos devem mostrar, no popup ao passar o mouse ou receber foco, o **nome completo do livro**, tanto para livros canônicos quanto para deuterocanônicos/apócrifos, além da edição textual usada (BHS, LXX ou NA28).
+- no **Grego–Português**, **todas as referências ao Antigo Testamento** devem apontar para a **Septuaginta (LXX)** na Deutsche Bibelgesellschaft, ainda que a fonte lexicográfica não escreva explicitamente `Sept.` ou `LXX`;
+- no **Hebraico–Português**, as referências ao Antigo Testamento devem apontar para a **Bíblia Hebraica (BHS)**, salvo quando o próprio contexto exigir explicitamente outra tradição textual;
+- referências ao **Novo Testamento grego** apontam para a **NA28**;
+- livros deuterocanônicos/apócrifos pertencentes à tradição grega apontam para a **LXX**;
+- nas futuras seções Aramaico–Português e Latim–Português, a tradição textual deverá ser determinada pelo contexto da fonte, salvo regra específica posterior;
+- todos os links bíblicos devem mostrar, no popup ao passar o mouse ou receber foco, o **nome completo do livro** e a edição textual usada.
 
 Exemplos:
 
-- HALOT citando `Gn 42.25` no verbete hebraico → BHS;
-- Robinson escrevendo `Sept.` antes de `Êx 12.23` → LXX;
-- Robinson citando `Sab 18.25` no mesmo contexto da Septuaginta → LXX;
+- Grego–Português: `Is 44.6` → LXX;
+- Grego–Português: `Êx 6.20` → LXX;
+- Hebraico–Português: `Gn 42.25` em HALOT → BHS;
+- `Sab 18.25` → LXX;
 - `Rm 10.7` → NA28.
-
 
 ## Padrão de commits
 
