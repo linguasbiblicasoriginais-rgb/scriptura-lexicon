@@ -541,7 +541,16 @@ const automaticBibliographicTerms = [
     { key: "RSV", type: "biblio", text: "Revised Standard Version" },
     { key: "Hermeneia", type: "biblio", text: "Hermeneia — série de comentários críticos e históricos" },
     { key: "Billerb.", type: "biblio", text: "Strack-Billerbeck, Kommentar zum Neuen Testament aus Talmud und Midrasch" },
-    { key: "Frisk", type: "biblio", text: "H. Frisk, Griechisches etymologisches Wörterbuch" }
+    { key: "Frisk", type: "biblio", text: "H. Frisk, Griechisches etymologisches Wörterbuch" },
+    { key: "PHercul", type: "biblio", text: "Papyri Herculanenses — papiros de Herculano" },
+    { key: "PHal", type: "biblio", text: "Papyrus Halensis; coleção papirológica" },
+    { key: "BZ", type: "biblio", text: "Biblische Zeitschrift" },
+    { key: "ASTI", type: "biblio", text: "Annual of the Swedish Theological Institute" },
+    { key: "Mnemosyne", type: "biblio", text: "Mnemosyne — periódico de filologia clássica" },
+    { key: "Heph. Astr.", type: "biblio", text: "Heféstion de Tebas, Apotelesmatica" },
+    { key: "Philod.", type: "biblio", text: "Filodemo" },
+    { key: "Apollon. Dysc.", type: "biblio", text: "Apolônio Díscolo" },
+    { key: "Gramm. Graeci", type: "biblio", text: "Grammatici Graeci" }
 ];
 
 const automaticNamedAuthors = [
