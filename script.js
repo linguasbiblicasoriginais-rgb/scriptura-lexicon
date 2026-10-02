@@ -600,7 +600,13 @@ const automaticBibliographicTerms = [
     { key: "CurTM", type: "biblio", text: "Currents in Theology and Mission" },
     { key: "TGl", type: "biblio", text: "Theologie und Glaube" },
     { key: "The Bible Today", type: "biblio", text: "The Bible Today" },
-    { key: "Psaltes", type: "biblio", text: "S. Psaltes; referência lexicográfica citada pelo BDAG" }
+    { key: "Psaltes", type: "biblio", text: "S. Psaltes; referência lexicográfica citada pelo BDAG" },
+    { key: "Acta Pilati", type: "biblio", text: "Atos de Pilatos" },
+    { key: "Preisigke", type: "biblio", text: "Friedrich Preisigke" },
+    { key: "Namenbuch", type: "biblio", text: "Namenbuch griechischer Urkunden aus Ägypten" },
+    { key: "NKZ", type: "biblio", text: "Neue kirchliche Zeitschrift" },
+    { key: "GDI", type: "biblio", text: "Sammlung der griechischen Dialekt-Inschriften" },
+    { key: "Epil Mosq", type: "biblio", text: "Epílogo do manuscrito de Moscou; sigla conforme o BDAG" }
 ];
 
 const automaticNamedAuthors = [
