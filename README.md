@@ -1,5 +1,36 @@
 # Scriptura Lexicon
 
+## Princípio prioritário — popups explicativos
+
+Os **popups explicativos são um dos propósitos centrais do Scriptura Lexicon** e devem ser tratados como requisito editorial prioritário, não como enriquecimento opcional.
+
+A interface deve permitir que o leitor compreenda, sem sair do fluxo do verbete, toda informação abreviada, técnica ou referencial cuja identificação possa ser estabelecida com segurança.
+
+Essa prioridade aplica-se a **todos os dicionários, todas as fontes lexicográficas e todos os verbetes**, antigos e futuros.
+
+Devem receber popup, sempre que aplicável e verificável:
+
+- abreviaturas e siglas editoriais;
+- nomes abreviados de autores antigos e modernos;
+- títulos abreviados de obras;
+- periódicos, séries, coleções, corpora, inscrições e papiros;
+- edições críticas e siglas de editores;
+- obras patrísticas, pseudepígrafos, apócrifos e documentos antigos;
+- referências bíblicas, com o nome completo do livro e a edição textual utilizada;
+- termos gregos, hebraicos, aramaicos e latinos para os quais o projeto preveja explicação lexical;
+- qualquer outra forma abreviada ou técnica cuja ausência de explicação force o leitor a consultar uma lista externa.
+
+Regras de prioridade:
+
+1. **Nenhum novo verbete deve ser considerado editorialmente concluído antes da revisão dos popups.**
+2. Ao revisar verbetes antigos, a ausência de popup em uma abreviatura, autor, obra ou referência identificável deve ser tratada como **pendência prioritária**.
+3. A forma visível da fonte deve ser preservada; a expansão pertence ao popup.
+4. **Não inventar expansões.** Quando uma sigla, inicial, autor ou obra não puder ser identificado com segurança, preservar a forma da fonte e deixar sem expansão até confirmação.
+5. Em caso de conflito entre enriquecimento visual secundário e cobertura de popups, **a cobertura correta dos popups tem precedência**.
+6. As listas de abreviaturas do próprio léxico-fonte têm prioridade como autoridade para a expansão das siglas; fontes externas só devem ser usadas para confirmar ou complementar quando necessário.
+7. O mecanismo centralizado de popups deve ser mantido e ampliado continuamente para que correções beneficiem tanto verbetes antigos quanto futuros.
+
+
 Projeto lexicográfico composto por quatro dicionários independentes: **Hebraico–Português**, **Aramaico–Português**, **Grego–Português** e **Latim–Português**. Reúne, com separação rigorosa entre as fontes, dados filológicos de léxicos clássicos e modernos, referências textuais e bibliográficas, tradução e recursos interativos.
 
 ## Interface
@@ -54,6 +85,8 @@ A prioridade é o **texto grego original** para autores gregos e o **texto latin
 
 
 ## Regra editorial — popups bibliográficos
+
+Esta regra é subordinada ao **Princípio prioritário — popups explicativos** acima e deve ser aplicada como parte obrigatória da finalização de cada verbete.
 
 Toda abreviatura, sigla, autor, obra, periódico, coleção epigráfica ou papirológica e referência bibliográfica exibida nos verbetes deve receber **popup explicativo quando sua identificação puder ser estabelecida com segurança**.
 
