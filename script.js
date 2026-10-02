@@ -532,7 +532,16 @@ const automaticBibliographicTerms = [
     { key: "Andoc.", type: "biblio", text: "Andócides" },
     { key: "Anton. Diog.", type: "biblio", text: "Antônio Diógenes" },
     { key: "Ptolem.", type: "biblio", text: "Ptolomeu" },
-    { key: "Ac", type: "biblio", text: "Antike und Christentum; série de F. J. Dölger" }
+    { key: "Ac", type: "biblio", text: "Antike und Christentum; série de F. J. Dölger" },
+    { key: "PEg", type: "biblio", text: "Papyrus Egerton; referência papirológica conforme o BDAG" },
+    { key: "Aq.", type: "biblio", text: "Áquila — versão grega do Antigo Testamento" },
+    { key: "Sym.", type: "biblio", text: "Símaco — versão grega do Antigo Testamento" },
+    { key: "ApcPt Rainer", type: "biblio", text: "Apocalipse de Pedro, fragmento Rainer" },
+    { key: "Ps.-Apollod.", type: "biblio", text: "Pseudo-Apolodoro" },
+    { key: "RSV", type: "biblio", text: "Revised Standard Version" },
+    { key: "Hermeneia", type: "biblio", text: "Hermeneia — série de comentários críticos e históricos" },
+    { key: "Billerb.", type: "biblio", text: "Strack-Billerbeck, Kommentar zum Neuen Testament aus Talmud und Midrasch" },
+    { key: "Frisk", type: "biblio", text: "H. Frisk, Griechisches etymologisches Wörterbuch" }
 ];
 
 const automaticNamedAuthors = [
