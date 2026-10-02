@@ -23,6 +23,8 @@ Regras:
 
 - manter na interface a forma bibliográfica da fonte original, por exemplo `Plat. Apol. 18e`, `Xen. Mem. 3.4.8`, `Thuc. 1.86`;
 - transformar essa referência em link para a passagem exata no Perseus quando a identificação for segura;
+- **preferir sempre a edição no idioma original**: grego para autores gregos e latim para autores latinos;
+- usar uma tradução no Perseus somente quando a edição no idioma original não estiver disponível ou não puder ser identificada com segurança;
 - não alterar silenciosamente a referência da fonte para fazê-la caber no Perseus;
 - se a referência estiver ambígua, incompleta, usar paginação editorial não mapeável ou a obra não estiver disponível no Perseus, manter a referência sem link e preservar o tooltip bibliográfico;
 - quando necessário, pesquisar e confirmar o identificador de obra/edição utilizado pelo Perseus antes de criar o link;
