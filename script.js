@@ -474,7 +474,21 @@ const automaticBibliographicTerms = [
     { key: "AcPhil", type: "biblio", text: "Atos de Filipe" },
     { key: "ISmyrnaMcCabe", type: "biblio", text: "Inscrições de Esmirna na edição de McCabe; referência epigráfica" },
     { key: "Peripl. Eryth.", type: "biblio", text: "Periplus Maris Erythraei" },
-    { key: "Thom. Mag.", type: "biblio", text: "Thomas Magister" }
+    { key: "Thom. Mag.", type: "biblio", text: "Thomas Magister" },
+    { key: "PGiss", type: "biblio", text: "Giessener Papyri" },
+    { key: "PPetr", type: "biblio", text: "The Petrie Papyri" },
+    { key: "Athen.", type: "biblio", text: "Ateneu" },
+    { key: "TestJud", type: "biblio", text: "Testamento de Judá" },
+    { key: "TestZeb", type: "biblio", text: "Testamento de Zebulom" },
+    { key: "REB", type: "biblio", text: "Revised English Bible" },
+    { key: "NRSV", type: "biblio", text: "New Revised Standard Version" },
+    { key: "ABA", type: "biblio", text: "Abhandlungen da Academia citada pelo BDAG; sigla preservada conforme a fonte" },
+    { key: "ZTK", type: "biblio", text: "Zeitschrift für Theologie und Kirche" },
+    { key: "PHarr", type: "biblio", text: "Harris Papyri" },
+    { key: "PUps", type: "biblio", text: "Uppsala Papyri" },
+    { key: "Aberciusins.", type: "biblio", text: "Inscrição de Abércio" },
+    { key: "v", type: "biblio", text: "Pastor de Hermas, Visões; abreviação minúscula preservada conforme a fonte" },
+    { key: "Pol", type: "biblio", text: "Policarpo aos Filipenses" }
 ];
 
 const automaticNamedAuthors = [
