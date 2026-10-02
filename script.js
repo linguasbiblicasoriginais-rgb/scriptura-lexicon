@@ -585,7 +585,14 @@ const automaticBibliographicTerms = [
     { key: "PHerm", type: "biblio", text: "Hermopolis Papyri" },
     { key: "Haenchen", type: "biblio", text: "Ernst Haenchen; comentarista de Atos citado pelo BDAG" },
     { key: "BA", type: "biblio", text: "Biblical Archaeologist" },
-    { key: "Bihlmeyer", type: "biblio", text: "Karl Bihlmeyer; editor/comentarista citado pelo BDAG" }
+    { key: "Bihlmeyer", type: "biblio", text: "Karl Bihlmeyer; editor/comentarista citado pelo BDAG" },
+    { key: "PFay", type: "biblio", text: "Fayum Papyri" },
+    { key: "Kl. T.", type: "biblio", text: "Kleine Texte für Vorlesungen und Übungen" },
+    { key: "Ezk. Trag.", type: "biblio", text: "Ezequiel, o Trágico" },
+    { key: "Bodm.", type: "biblio", text: "Bodmer; testemunho/manuscrito citado pelo BDAG" },
+    { key: "Ch.", type: "biblio", text: "Chester Beatty; testemunho/manuscrito citado pelo BDAG" },
+    { key: "Apollon. Rhod.", type: "biblio", text: "Apolônio de Rodes" },
+    { key: "Nägeli", type: "biblio", text: "T. Nägeli; estudo lexical citado pelo BDAG" }
 ];
 
 const automaticNamedAuthors = [
