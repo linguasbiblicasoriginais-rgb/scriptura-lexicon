@@ -579,7 +579,13 @@ const automaticBibliographicTerms = [
     { key: "Eranos", type: "biblio", text: "Eranos — periódico de estudos clássicos" },
     { key: "Glotta", type: "biblio", text: "Glotta — Zeitschrift für griechische und lateinische Sprache" },
     { key: "Hist. Ztschr.", type: "biblio", text: "Historische Zeitschrift" },
-    { key: "Harv.", type: "biblio", text: "Harvey; edição/referência de Irineu citada pelo BDAG" }
+    { key: "Harv.", type: "biblio", text: "Harvey; edição/referência de Irineu citada pelo BDAG" },
+    { key: "Theoph. Ant.", type: "biblio", text: "Teófilo de Antioquia" },
+    { key: "BCH", type: "biblio", text: "Bulletin de Correspondance Hellénique" },
+    { key: "PHerm", type: "biblio", text: "Hermopolis Papyri" },
+    { key: "Haenchen", type: "biblio", text: "Ernst Haenchen; comentarista de Atos citado pelo BDAG" },
+    { key: "BA", type: "biblio", text: "Biblical Archaeologist" },
+    { key: "Bihlmeyer", type: "biblio", text: "Karl Bihlmeyer; editor/comentarista citado pelo BDAG" }
 ];
 
 const automaticNamedAuthors = [
