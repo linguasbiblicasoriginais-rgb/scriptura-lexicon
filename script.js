@@ -207,6 +207,558 @@ function enrichBibleReferenceTooltips() {
 }
 
 
+
+/* ==========================================================
+   POPUPS BIBLIOGRÁFICOS E ABREVIATURAS
+   ========================================================== */
+
+/*
+ * Este registro contém somente expansões que podem ser determinadas
+ * com segurança pelas listas de abreviaturas das fontes já usadas
+ * no projeto ou por dados bibliográficos explicitamente presentes
+ * nos próprios verbetes.
+ *
+ * Siglas ambíguas de uma única letra (por exemplo, D, M, N ou S)
+ * NÃO são tratadas globalmente. Elas só devem receber popup quando
+ * o contexto editorial permitir uma identificação inequívoca.
+ */
+const automaticBibliographicTerms = [
+    { key: "N. T.", type: "abbr", text: "Novo Testamento" },
+    { key: "NT", type: "abbr", text: "Novo Testamento" },
+    { key: "OT", type: "abbr", text: "Antigo Testamento" },
+    { key: "LXX", type: "abbr", text: "Septuaginta — tradução grega do Antigo Testamento" },
+    { key: "Sept.", type: "abbr", text: "Septuaginta" },
+    { key: "Heb.", type: "abbr", text: "hebraico" },
+    { key: "Chald.", type: "abbr", text: "caldaico — terminologia histórica da fonte" },
+    { key: "Aram.", type: "abbr", text: "aramaico" },
+    { key: "Syr.", type: "abbr", text: "siríaco" },
+    { key: "Lat.", type: "abbr", text: "latim" },
+    { key: "Gr.", type: "abbr", text: "grego" },
+
+    { key: "q.v.", type: "abbr", text: "quod vide — veja o verbete ou item mencionado" },
+    { key: "s.v.", type: "abbr", text: "sub voce — sob esta palavra; consulte o verbete" },
+    { key: "v.l.", type: "abbr", text: "varia lectio — leitura variante" },
+    { key: "ibid.", type: "abbr", text: "ibidem — no mesmo lugar ou na mesma obra anteriormente citada" },
+    { key: "ad loc.", type: "abbr", text: "ad locum — no lugar ou passagem citada" },
+    { key: "cf.", type: "abbr", text: "compare; compare-se" },
+    { key: "coll.", type: "abbr", text: "collato / collatis — compare; confronte com" },
+    { key: "e.g.", type: "abbr", text: "exempli gratia — por exemplo" },
+    { key: "i.e.", type: "abbr", text: "id est — isto é" },
+    { key: "viz.", type: "abbr", text: "videlicet — a saber; isto é" },
+
+    { key: "SEG", type: "biblio", text: "Supplementum Epigraphicum Graecum; série epigráfica iniciada por J. Hondius em 1923" },
+    { key: "POxy", type: "biblio", text: "The Oxyrhynchus Papyri" },
+    { key: "PGM", type: "biblio", text: "Papyri Graecae Magicae — Papiros Mágicos Gregos" },
+    { key: "BGU", type: "biblio", text: "Aegyptische Urkunden aus den Königlichen/Staatlichen Museen zu Berlin: Griechische Urkunden" },
+    { key: "CIG", type: "biblio", text: "Corpus Inscriptionum Graecarum" },
+    { key: "OGI", type: "biblio", text: "Orientis Graeci Inscriptiones Selectae" },
+    { key: "SIG", type: "biblio", text: "Sylloge Inscriptionum Graecarum, 3ª edição, ed. W. Dittenberger" },
+    { key: "UPZ", type: "biblio", text: "Urkunden der Ptolemäerzeit, ed. U. Wilcken" },
+    { key: "PGen", type: "biblio", text: "Les Papyrus de Genève" },
+    { key: "PRyl", type: "biblio", text: "Catalogue of the Greek Papyri in the John Rylands Library, Manchester" },
+    { key: "PCairMasp", type: "biblio", text: "Papyrus grecs d’époque byzantine, ed. J. Maspero" },
+    { key: "PWarr", type: "biblio", text: "The Warren Papyri" },
+    { key: "StudPal", type: "biblio", text: "Studien zur Paläographie und Papyrusurkunde, ed. C. Wessely" },
+    { key: "IPontEux", type: "biblio", text: "Inscriptiones antiquae orae septentrionalis Ponti Euxini Graecae et Latinae" },
+    { key: "Sb", type: "biblio", text: "Sammelbuch griechischer Urkunden aus Aegypten" },
+
+    { key: "ETL", type: "biblio", text: "Ephemerides Theologicae Lovanienses" },
+    { key: "ET", type: "biblio", text: "Expository Times" },
+    { key: "JBL", type: "biblio", text: "Journal of Biblical Literature" },
+    { key: "JTS", type: "biblio", text: "Journal of Theological Studies" },
+    { key: "JR", type: "biblio", text: "Journal of Religion" },
+    { key: "JSOR", type: "biblio", text: "Journal of the Society of Oriental Research" },
+    { key: "ZNW", type: "biblio", text: "Zeitschrift für die neutestamentliche Wissenschaft" },
+    { key: "NTS", type: "biblio", text: "New Testament Studies" },
+    { key: "PTR", type: "biblio", text: "Princeton Theological Review" },
+    { key: "StKr", type: "biblio", text: "Theologische Studien und Kritiken" },
+    { key: "ConNeot", type: "biblio", text: "Coniectanea Neotestamentica" },
+    { key: "SBBerlAk", type: "biblio", text: "Sitzungsberichte der Preussischen Akademie der Wissenschaften, Berlin" },
+    { key: "RivFil", type: "biblio", text: "Rivista di filologia e d’istruzione classica" },
+    { key: "Aegyptus", type: "biblio", text: "Aegyptus: Rivista Italiana di Egittologia e di papirologia" },
+    { key: "EvTh", type: "biblio", text: "Evangelische Theologie" },
+    { key: "SymbOsl", type: "biblio", text: "Symbolae Osloenses" },
+    { key: "ThStud", type: "biblio", text: "Theologische Studien; abreviação remetida pelo BDAG a TSt/ThSt" },
+    { key: "RevArch", type: "biblio", text: "Revue archéologique" },
+    { key: "RevExp", type: "biblio", text: "Review and Expositor" },
+    { key: "ZKG", type: "biblio", text: "Zeitschrift für Kirchengeschichte" },
+    { key: "RAC", type: "biblio", text: "Reallexikon für Antike und Christentum" },
+    { key: "TRE", type: "biblio", text: "Theologische Realenzyklopädie" },
+    { key: "EDNT", type: "biblio", text: "Exegetical Dictionary of the New Testament" },
+    { key: "PJ", type: "biblio", text: "Preussische Jahrbücher" },
+
+    { key: "DELG", type: "biblio", text: "P. Chantraine, Dictionnaire étymologique de la langue grecque: histoire des mots" },
+    { key: "DGE", type: "biblio", text: "Diccionario Griego-Español, ed. F. Adrados et al." },
+    { key: "L-S-J-M", type: "biblio", text: "H. Liddell e R. Scott, A Greek-English Lexicon; nova edição por H. S. Jones e R. McKenzie" },
+    { key: "B-D-F", type: "biblio", text: "F. Blass / A. Debrunner; tradução e revisão inglesa de R. Funk, A Greek Grammar of the New Testament and Other Early Christian Literature" },
+    { key: "M-M", type: "biblio", text: "J. H. Moulton e G. Milligan, The Vocabulary of the Greek Testament" },
+    { key: "TW", type: "biblio", text: "Theologisches Wörterbuch zum Neuen Testament; tradução inglesa: Theological Dictionary of the New Testament" },
+    { key: "Spicq", type: "biblio", text: "C. Spicq, Lexique théologique du Nouveau Testament; tradução inglesa: Theological Lexicon of the New Testament" },
+    { key: "Rob.", type: "biblio", text: "A. T. Robertson, A Grammar of the Greek New Testament in the Light of Historical Research, 4ª edição, 1923" },
+    { key: "W-S.", type: "biblio", text: "G. Winer, Grammatik des neutestamentlichen Sprachidioms, 8ª edição por P. Schmiedel" },
+    { key: "Hdb.", type: "biblio", text: "Handbuch; em referência a um livro específico do NT, comentário da série Handbuch zum Neuen Testament, fundada por H. Lietzmann" },
+    { key: "Ltzm.", type: "biblio", text: "H. Lietzmann, comentarista e editor; abreviação conforme a lista do BDAG" },
+    { key: "Goodsp.", type: "biblio", text: "E. J. Goodspeed; sem título especificado, o BDAG remete a The New Testament: An American Translation" },
+    { key: "Rtzst.", type: "biblio", text: "R. Reitzenstein" },
+    { key: "Mlt.-H.", type: "biblio", text: "Moulton-Howard; referência gramatical conforme abreviação do BDAG" },
+
+    { key: "W-H.", type: "biblio", text: "B. F. Westcott e F. J. A. Hort, edição do Novo Testamento grego, 1881" },
+    { key: "Bov.", type: "biblio", text: "J. M. Bover, edição do Novo Testamento grego; 1943, 5ª edição 1968" },
+    { key: "Tdf.", type: "biblio", text: "C. von Tischendorf, editio octava critica maior, 1869–1872" },
+    { key: "Vog.", type: "biblio", text: "H. J. Vogels, edição do Novo Testamento grego; 1922, 4ª edição 1955" },
+    { key: "t.r.", type: "abbr", text: "textus receptus — Texto Recebido" },
+
+    { key: "New Docs", type: "biblio", text: "New Documents Illustrating Early Christianity" },
+    { key: "SSol", type: "biblio", text: "Cântico dos Cânticos — sigla Song of Solomon na lista do BDAG" },
+    { key: "PsSol", type: "biblio", text: "Salmos de Salomão" },
+    { key: "SibOr", type: "biblio", text: "Oracula Sibyllina — Oráculos Sibilinos" },
+    { key: "TestAbr", type: "biblio", text: "Testamento de Abraão" },
+    { key: "Test12Patr", type: "biblio", text: "Testamentos dos Doze Patriarcas" },
+    { key: "TestSol", type: "biblio", text: "Testamento de Salomão" },
+    { key: "TestJob", type: "biblio", text: "Testamento de Jó" },
+    { key: "TestBenj", type: "biblio", text: "Testamento de Benjamim" },
+    { key: "TestLevi", type: "biblio", text: "Testamento de Levi" },
+    { key: "TestNapht", type: "biblio", text: "Testamento de Naftali" },
+    { key: "ApcEsdr", type: "biblio", text: "Apocalipse de Esdras" },
+    { key: "ApcMos", type: "biblio", text: "Apocalipse de Moisés — também conhecido como Vida de Adão e Eva" },
+    { key: "ApcSed", type: "biblio", text: "Apocalipse de Sedrac" },
+    { key: "ApcrEzk", type: "biblio", text: "Apócrifo de Ezequiel" },
+    { key: "ApcPt", type: "biblio", text: "Apocalipse de Pedro" },
+    { key: "AscIs", type: "biblio", text: "Ascensão de Isaías" },
+    { key: "EpArist", type: "biblio", text: "Carta de Aristeias" },
+    { key: "JosAs", type: "biblio", text: "José e Asenete" },
+    { key: "ParJer", type: "biblio", text: "Paralipômenos de Jeremias" },
+    { key: "GEb", type: "biblio", text: "Evangelho dos Ebionitas" },
+    { key: "GPt", type: "biblio", text: "Evangelho de Pedro" },
+    { key: "GTh", type: "biblio", text: "Evangelho de Tomé" },
+
+    { key: "1 Cl", type: "biblio", text: "Primeira Epístola de Clemente" },
+    { key: "2 Cl", type: "biblio", text: "Segunda Epístola de Clemente" },
+    { key: "IEph", type: "biblio", text: "Inácio aos Efésios" },
+    { key: "IMg", type: "biblio", text: "Inácio aos Magnésios" },
+    { key: "IPhld", type: "biblio", text: "Inácio aos Filadélfios" },
+    { key: "IRo", type: "biblio", text: "Inácio aos Romanos" },
+    { key: "ISm", type: "biblio", text: "Inácio aos Esmirnenses" },
+    { key: "ITr", type: "biblio", text: "Inácio aos Tralianos" },
+    { key: "IPol", type: "biblio", text: "Inácio a Policarpo" },
+    { key: "MPol", type: "biblio", text: "Martírio de Policarpo" },
+    { key: "Hm", type: "biblio", text: "Pastor de Hermas, Mandamentos" },
+    { key: "Hs", type: "biblio", text: "Pastor de Hermas, Similitudes" },
+    { key: "Hv", type: "biblio", text: "Pastor de Hermas, Visões" },
+
+    { key: "Mor.", type: "biblio", text: "Moralia, de Plutarco" },
+    { key: "Mem.", type: "biblio", text: "Memorabilia, de Xenofonte" },
+    { key: "Oec.", type: "biblio", text: "Oeconomicus, de Xenofonte" },
+    { key: "Cyr.", type: "biblio", text: "Cyropaedia, de Xenofonte" },
+    { key: "Symp.", type: "biblio", text: "Symposium, de Xenofonte" },
+    { key: "Bell. Civ.", type: "biblio", text: "Bellum Civile, de Apiano" },
+    { key: "C. Ap.", type: "biblio", text: "Contra Apionem, de Flávio Josefo" },
+    { key: "Deus Imm.", type: "biblio", text: "Quod Deus Sit Immutabilis, de Fílon de Alexandria" },
+    { key: "Leg. All.", type: "biblio", text: "Legum Allegoriae, de Fílon de Alexandria" },
+    { key: "Op. M.", type: "biblio", text: "De Opificio Mundi, de Fílon de Alexandria" },
+    { key: "Spec. Leg.", type: "biblio", text: "De Specialibus Legibus, de Fílon de Alexandria" },
+    { key: "Rer. Div. Her.", type: "biblio", text: "Quis Rerum Divinarum Heres Sit, de Fílon de Alexandria" },
+    { key: "Sobr.", type: "biblio", text: "De Sobrietate, de Fílon de Alexandria" },
+    { key: "Paed.", type: "biblio", text: "Paedagogus, de Clemente de Alexandria" },
+    { key: "Strom.", type: "biblio", text: "Stromata, de Clemente de Alexandria" },
+    { key: "C. Cels.", type: "biblio", text: "Contra Celsum, de Orígenes" },
+
+    { key: "D. L. im NT", type: "biblio", text: "Wilhelm Lütgert, Die Liebe im Neuen Testament: Ein Beitrag zur Geschichte des Urchristentums, 1905" }
+];
+
+const automaticNamedAuthors = [
+    { key: "Fílon", text: "Fílon de Alexandria — autor judeu helenístico citado pela fonte" },
+    { key: "Josefo", text: "Flávio Josefo — autor judeu de língua grega citado pela fonte" },
+    { key: "Flávio Josefo", text: "Flávio Josefo — autor judeu de língua grega citado pela fonte" },
+    { key: "Heródoto", text: "Heródoto de Halicarnasso — historiador grego citado pela fonte" },
+    { key: "Xenofonte", text: "Xenofonte — autor grego citado pela fonte" },
+    { key: "Tucídides", text: "Tucídides — historiador grego citado pela fonte" },
+    { key: "Diodoro Sículo", text: "Diodoro Sículo — historiador grego citado pela fonte" },
+    { key: "Plutarco", text: "Plutarco — autor grego citado pela fonte" },
+    { key: "Platão", text: "Platão — filósofo grego citado pela fonte" },
+    { key: "Aristóteles", text: "Aristóteles — filósofo grego citado pela fonte" },
+    { key: "Aristófanes", text: "Aristófanes — autor grego citado pela fonte" },
+    { key: "Diógenes Laércio", text: "Diógenes Laércio — autor grego citado pela fonte" },
+    { key: "Teofrasto", text: "Teofrasto — autor grego citado pela fonte" },
+    { key: "Epicteto", text: "Epicteto — filósofo grego citado pela fonte" },
+    { key: "Apiano", text: "Apiano — historiador grego citado pela fonte" },
+    { key: "Isócrates", text: "Isócrates — orador grego citado pela fonte" },
+    { key: "Lísias", text: "Lísias — orador grego citado pela fonte" },
+    { key: "Sexto Empírico", text: "Sexto Empírico — autor grego citado pela fonte" },
+    { key: "Porfírio", text: "Porfírio — filósofo citado pela fonte" },
+    { key: "Píndaro", text: "Píndaro — poeta grego citado pela fonte" },
+    { key: "Justino", text: "Justino Mártir — autor cristão antigo citado pela fonte" },
+    { key: "Clemente de Alexandria", text: "Clemente de Alexandria — autor cristão antigo citado pela fonte" },
+    { key: "Orígenes", text: "Orígenes — autor cristão antigo citado pela fonte" },
+    { key: "Melito", text: "Melito de Sardes — autor cristão antigo citado pela fonte" },
+    { key: "Atenágoras", text: "Atenágoras — apologista cristão antigo citado pela fonte" },
+    { key: "Teodocião", text: "Teodocião — autor da revisão/tradução grega do Antigo Testamento citada pela fonte" }
+];
+
+const specialModernAuthorPopups = {
+    "A. Carr": "A. Carr — estudo citado pelo BDAG em Expository Times 10 (1899), pp. 321–330",
+    "A. Ceresa-Gastaldo": "A. Ceresa-Gastaldo — autor do estudo “Αγάπη nei documenti anteriori al NT”, citado pelo BDAG em Aegyptus 31 (1951), pp. 269–306",
+    "W. Lütgert": "Wilhelm Lütgert — autor de Die Liebe im Neuen Testament: Ein Beitrag zur Geschichte des Urchristentums (1905)",
+    "H. Riesenfeld": "H. Riesenfeld — autor citado pelo BDAG; a referência completa é preservada no texto do verbete",
+    "B. Warfield": "B. Warfield — autor citado pelo BDAG; a referência completa é preservada no texto do verbete",
+    "J. Moffatt": "J. Moffatt — autor citado pelo BDAG; a referência completa é preservada no texto do verbete",
+    "T. Söding": "T. Söding — autor citado pelo BDAG; a referência completa é preservada no texto do verbete"
+};
+
+
+function isBibliographicBoundaryCharacter(character) {
+    if (!character) {
+        return false;
+    }
+
+    return /[\p{L}\p{N}_]/u.test(character);
+}
+
+
+function createAutomaticTooltipSpan(label, text, type) {
+    const span =
+        document.createElement("span");
+
+    span.className =
+        type === "abbr"
+            ? "abbr-help tooltip-trigger"
+            : "biblio-ref tooltip-trigger";
+
+    span.tabIndex = 0;
+
+    span.dataset.tooltipType =
+        type;
+
+    span.dataset.tooltipLabel =
+        label;
+
+    span.dataset.tooltipText =
+        text;
+
+    span.textContent =
+        label;
+
+    return span;
+}
+
+
+function collectPlainTextNodes(root) {
+    const walker =
+        document.createTreeWalker(
+            root,
+            NodeFilter.SHOW_TEXT
+        );
+
+    const nodes = [];
+
+    while (walker.nextNode()) {
+        const node =
+            walker.currentNode;
+
+        const parent =
+            node.parentElement;
+
+        if (!parent) {
+            continue;
+        }
+
+        if (
+            parent.closest(
+                ".tooltip-trigger, a, script, style"
+            )
+        ) {
+            continue;
+        }
+
+        if (
+            !node.nodeValue ||
+            !node.nodeValue.trim()
+        ) {
+            continue;
+        }
+
+        nodes.push(node);
+    }
+
+    return nodes;
+}
+
+
+function wrapKnownTermsInTextNode(node, definitions) {
+    const value =
+        node.nodeValue;
+
+    if (!value) {
+        return;
+    }
+
+    let position = 0;
+    let changed = false;
+
+    const fragment =
+        document.createDocumentFragment();
+
+    while (position < value.length) {
+        let bestMatch = null;
+
+        definitions.forEach(function (definition) {
+            const index =
+                value.indexOf(
+                    definition.key,
+                    position
+                );
+
+            if (index === -1) {
+                return;
+            }
+
+            const before =
+                index > 0
+                    ? value[index - 1]
+                    : "";
+
+            const afterIndex =
+                index +
+                definition.key.length;
+
+            const after =
+                afterIndex < value.length
+                    ? value[afterIndex]
+                    : "";
+
+            if (
+                isBibliographicBoundaryCharacter(before) ||
+                isBibliographicBoundaryCharacter(after)
+            ) {
+                return;
+            }
+
+            if (
+                bestMatch === null ||
+                index < bestMatch.index ||
+                (
+                    index === bestMatch.index &&
+                    definition.key.length >
+                        bestMatch.definition.key.length
+                )
+            ) {
+                bestMatch = {
+                    index: index,
+                    definition: definition
+                };
+            }
+        });
+
+        if (!bestMatch) {
+            fragment.appendChild(
+                document.createTextNode(
+                    value.slice(position)
+                )
+            );
+            break;
+        }
+
+        if (bestMatch.index > position) {
+            fragment.appendChild(
+                document.createTextNode(
+                    value.slice(
+                        position,
+                        bestMatch.index
+                    )
+                )
+            );
+        }
+
+        fragment.appendChild(
+            createAutomaticTooltipSpan(
+                bestMatch.definition.key,
+                bestMatch.definition.text,
+                bestMatch.definition.type
+            )
+        );
+
+        position =
+            bestMatch.index +
+            bestMatch.definition.key.length;
+
+        changed = true;
+    }
+
+    if (changed) {
+        node.replaceWith(fragment);
+    }
+}
+
+
+function enrichModernAuthorTooltips(root) {
+    const authorPattern =
+        /\b(?:[A-ZÀ-ÖØ-Þ]\.\s*){1,3}(?:[a-zà-öø-ÿ]+\s+)?[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ-]+\b/g;
+
+    const nodes =
+        collectPlainTextNodes(root);
+
+    nodes.forEach(function (node) {
+        const value =
+            node.nodeValue;
+
+        const matches =
+            Array.from(
+                value.matchAll(
+                    authorPattern
+                )
+            );
+
+        if (!matches.length) {
+            return;
+        }
+
+        const fragment =
+            document.createDocumentFragment();
+
+        let lastIndex = 0;
+
+        matches.forEach(function (match) {
+            const author =
+                match[0];
+
+            const index =
+                match.index;
+
+            if (index > lastIndex) {
+                fragment.appendChild(
+                    document.createTextNode(
+                        value.slice(
+                            lastIndex,
+                            index
+                        )
+                    )
+                );
+            }
+
+            const card =
+                node.parentElement.closest(
+                    ".entry-card"
+                );
+
+            const source =
+                card
+                    ? (
+                        card.querySelector(
+                            ".source-tag"
+                        )
+                    )
+                    : null;
+
+            const sourceName =
+                source
+                    ? source.textContent.trim()
+                    : "fonte lexicográfica";
+
+            const detail =
+                specialModernAuthorPopups[author] ||
+                (
+                    author +
+                    " — autor citado na referência bibliográfica deste verbete (" +
+                    sourceName +
+                    "); o nome é mantido na forma em que aparece na fonte"
+                );
+
+            fragment.appendChild(
+                createAutomaticTooltipSpan(
+                    author,
+                    detail,
+                    "biblio"
+                )
+            );
+
+            lastIndex =
+                index +
+                author.length;
+        });
+
+        fragment.appendChild(
+            document.createTextNode(
+                value.slice(lastIndex)
+            )
+        );
+
+        node.replaceWith(fragment);
+    });
+}
+
+
+function enrichBibliographicTooltips() {
+    const roots =
+        Array.from(
+            document.querySelectorAll(
+                ".entry-text"
+            )
+        );
+
+    const definitions =
+        automaticBibliographicTerms
+            .slice()
+            .sort(function (a, b) {
+                return (
+                    b.key.length -
+                    a.key.length
+                );
+            });
+
+    roots.forEach(function (root) {
+        /*
+         * Primeiro isolamos os nomes modernos no formato
+         * "A. Carr", "W. Lütgert", etc. Assim siglas de uma
+         * letra presentes nas iniciais nunca são interpretadas
+         * como abreviaturas editoriais.
+         */
+        enrichModernAuthorTooltips(root);
+
+        /*
+         * Depois tratamos termos e siglas confirmados.
+         * O coletor ignora automaticamente qualquer conteúdo
+         * que já possua popup ou seja um link.
+         */
+        collectPlainTextNodes(root)
+            .forEach(function (node) {
+                wrapKnownTermsInTextNode(
+                    node,
+                    definitions
+                );
+            });
+
+        /*
+         * Autores antigos escritos por extenso são tratados
+         * por um registro separado para evitar inferências
+         * baseadas apenas em capitalização.
+         */
+        automaticNamedAuthors
+            .slice()
+            .sort(function (a, b) {
+                return (
+                    b.key.length -
+                    a.key.length
+                );
+            })
+            .forEach(function (definition) {
+                collectPlainTextNodes(root)
+                    .forEach(function (node) {
+                        wrapKnownTermsInTextNode(
+                            node,
+                            [
+                                {
+                                    key: definition.key,
+                                    type: "biblio",
+                                    text: definition.text
+                                }
+                            ]
+                        );
+                    });
+            });
+    });
+}
+
+
 /* ==========================================================
    NORMALIZAÇÃO
    ========================================================== */
@@ -1073,6 +1625,7 @@ document.addEventListener(
    INICIALIZAÇÃO
    ========================================================== */
 
+enrichBibliographicTooltips();
 enrichBibleReferenceTooltips();
 bindTooltipEvents();
 
