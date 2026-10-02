@@ -517,7 +517,22 @@ const automaticBibliographicTerms = [
     { key: "IMagnMai", type: "biblio", text: "Inscrição de Magnésia do Meandro; referência epigráfica citada pelo BDAG" },
     { key: "PPrinc", type: "biblio", text: "Princeton Papyri" },
     { key: "SB", type: "biblio", text: "Sammelbuch griechischer Urkunden aus Ägypten" },
-    { key: "IMagn", type: "biblio", text: "Inscriptiones Magnesiae; referência epigráfica" }
+    { key: "IMagn", type: "biblio", text: "Inscriptiones Magnesiae; referência epigráfica" },
+    { key: "PHeid", type: "biblio", text: "Heidelberger Papyri" },
+    { key: "IBM", type: "biblio", text: "Inscrições do British Museum; referência epigráfica conforme o BDAG" },
+    { key: "PHib", type: "biblio", text: "The Hibeh Papyri" },
+    { key: "BiblSacra", type: "biblio", text: "Bibliotheca Sacra" },
+    { key: "ABComm", type: "biblio", text: "Anchor Bible Commentary" },
+    { key: "TS", type: "biblio", text: "Theological Studies; periódico citado pelo BDAG" },
+    { key: "HTR", type: "biblio", text: "Harvard Theological Review" },
+    { key: "ZWT", type: "biblio", text: "Zeitschrift für wissenschaftliche Theologie" },
+    { key: "PMich", type: "biblio", text: "Michigan Papyri" },
+    { key: "PParis", type: "biblio", text: "Papyrus de Paris; coleção papirológica citada pelo BDAG" },
+    { key: "Vett. Val.", type: "biblio", text: "Vettius Valens" },
+    { key: "Andoc.", type: "biblio", text: "Andócides" },
+    { key: "Anton. Diog.", type: "biblio", text: "Antônio Diógenes" },
+    { key: "Ptolem.", type: "biblio", text: "Ptolomeu" },
+    { key: "Ac", type: "biblio", text: "Antike und Christentum; série de F. J. Dölger" }
 ];
 
 const automaticNamedAuthors = [
