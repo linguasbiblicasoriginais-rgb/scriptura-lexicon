@@ -996,7 +996,9 @@ function bindTooltipEvents() {
             }
         }
     );
-});
+    });
+}
+
 
 window.addEventListener(
     "resize",
