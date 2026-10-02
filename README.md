@@ -1,6 +1,6 @@
 # Scriptura Lexicon
 
-Léxico bíblico multilíngue em desenvolvimento, dedicado ao estudo filológico e lexicográfico do hebraico, aramaico e grego das Escrituras, com tradução e análise em português. Reúne de forma independente dados de léxicos clássicos e modernos, referências textuais, bibliográficas e recursos interativos.
+Projeto lexicográfico composto por quatro dicionários independentes: **Hebraico–Português**, **Aramaico–Português**, **Grego–Português** e **Latim–Português**. Reúne, com separação rigorosa entre as fontes, dados filológicos de léxicos clássicos e modernos, referências textuais e bibliográficas, tradução e recursos interativos.
 
 ## Interface
 
@@ -11,6 +11,19 @@ A versão atual é uma aplicação estática composta por:
 - `script.js`
 
 A pesquisa permanece oculta até que algum texto seja digitado. O seletor de fonte é preenchido automaticamente a partir das fontes presentes nos verbetes e atua como filtro adicional.
+
+## Estrutura dos quatro dicionários
+
+A interface é dividida em quatro seções independentes, acessíveis pelo menu sanduíche:
+
+- **Hebraico–Português**
+- **Aramaico–Português**
+- **Grego–Português**
+- **Latim–Português**
+
+Cada resultado e cada cartão de verbete deve declarar sua seção por meio de `data-dictionary`, com um dos valores: `hebraico`, `aramaico`, `grego` ou `latim`.
+
+Os verbetes atualmente cadastrados pertencem ao dicionário **Grego–Português**. A troca de seção limpa a pesquisa, oculta o verbete aberto e recalcula o filtro de fontes apenas para o dicionário ativo. As seções também podem ser acessadas diretamente por hash: `#hebraico`, `#aramaico`, `#grego` e `#latim`.
 
 
 ## Regra editorial — autores greco-romanos

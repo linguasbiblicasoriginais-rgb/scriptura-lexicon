@@ -15,12 +15,51 @@ const entryCards = Array.from(
 const searchCount = document.getElementById("search-count");
 const noResults = document.getElementById("no-results");
 
+const dictionaryTitle = document.getElementById("dictionary-title");
+const dictionaryDescription = document.getElementById("dictionary-description");
+
+const menuToggle = document.getElementById("menu-toggle");
+const menuClose = document.getElementById("menu-close");
+const dictionaryMenu = document.getElementById("dictionary-menu");
+const menuBackdrop = document.getElementById("menu-backdrop");
+
+const dictionaryOptions = Array.from(
+    document.querySelectorAll(".dictionary-option")
+);
+
 const lexicalTooltip = document.getElementById("lexical-tooltip");
 
 const tooltipTriggers = Array.from(
     document.querySelectorAll(".tooltip-trigger")
 );
 
+const dictionaries = {
+    hebraico: {
+        title: "Hebraico–Português",
+        description: "Léxico hebraico com tradução, referências e análise em português.",
+        placeholder: "Pesquisar no dicionário hebraico–português..."
+    },
+
+    aramaico: {
+        title: "Aramaico–Português",
+        description: "Léxico aramaico com tradução, referências e análise em português.",
+        placeholder: "Pesquisar no dicionário aramaico–português..."
+    },
+
+    grego: {
+        title: "Grego–Português",
+        description: "Léxico grego com tradução, referências e análise em português.",
+        placeholder: "Pesquisar no dicionário grego–português..."
+    },
+
+    latim: {
+        title: "Latim–Português",
+        description: "Léxico latino com tradução, referências e análise em português.",
+        placeholder: "Pesquisar no dicionário latim–português..."
+    }
+};
+
+let activeDictionary = "grego";
 let activeTooltipTrigger = null;
 
 
@@ -39,6 +78,199 @@ function normalizeText(text) {
 
 
 /* ==========================================================
+   MENU
+   ========================================================== */
+
+function openDictionaryMenu() {
+    dictionaryMenu.classList.add("open");
+    dictionaryMenu.setAttribute("aria-hidden", "false");
+
+    menuToggle.setAttribute("aria-expanded", "true");
+
+    menuBackdrop.hidden = false;
+
+    document.body.classList.add("menu-open");
+
+    menuClose.focus();
+}
+
+
+function closeDictionaryMenu(returnFocus) {
+    dictionaryMenu.classList.remove("open");
+    dictionaryMenu.setAttribute("aria-hidden", "true");
+
+    menuToggle.setAttribute("aria-expanded", "false");
+
+    menuBackdrop.hidden = true;
+
+    document.body.classList.remove("menu-open");
+
+    if (returnFocus) {
+        menuToggle.focus();
+    }
+}
+
+
+/* ==========================================================
+   DICIONÁRIOS
+   ========================================================== */
+
+function dictionaryFromHash() {
+    const value =
+        window.location.hash
+            .replace(/^#/, "")
+            .trim();
+
+    return dictionaries[value]
+        ? value
+        : "grego";
+}
+
+
+function rowsForActiveDictionary() {
+    return searchRows.filter(function (row) {
+        return row.dataset.dictionary === activeDictionary;
+    });
+}
+
+
+function cardsForActiveDictionary() {
+    return entryCards.filter(function (card) {
+        return card.dataset.dictionary === activeDictionary;
+    });
+}
+
+
+function resetSearchState() {
+    searchInput.value = "";
+
+    searchRows.forEach(function (row) {
+        row.hidden = true;
+    });
+
+    entryCards.forEach(function (card) {
+        card.hidden = true;
+    });
+
+    searchTableWrapper.hidden = true;
+    noResults.hidden = true;
+
+    searchCount.textContent = "Digite para pesquisar";
+}
+
+
+function populateSourceFilter() {
+    const previousValue = sourceFilter.value;
+
+    sourceFilter.innerHTML =
+        '<option value="">Todas as fontes</option>';
+
+    const sources = [
+        ...new Set(
+            rowsForActiveDictionary()
+                .map(function (row) {
+                    return row.dataset.source;
+                })
+                .filter(Boolean)
+        )
+    ].sort(function (a, b) {
+        return a.localeCompare(b, "pt-BR");
+    });
+
+    sources.forEach(function (source) {
+        const option =
+            document.createElement("option");
+
+        option.value = source;
+        option.textContent = source;
+
+        sourceFilter.appendChild(option);
+    });
+
+    const stillAvailable =
+        sources.includes(previousValue);
+
+    sourceFilter.value =
+        stillAvailable
+            ? previousValue
+            : "";
+}
+
+
+function selectDictionary(dictionary, options) {
+    const settings =
+        Object.assign(
+            {
+                updateHash: true,
+                focusSearch: false
+            },
+            options || {}
+        );
+
+    if (!dictionaries[dictionary]) {
+        dictionary = "grego";
+    }
+
+    activeDictionary = dictionary;
+
+    const config =
+        dictionaries[activeDictionary];
+
+    dictionaryTitle.textContent =
+        config.title;
+
+    dictionaryDescription.textContent =
+        config.description;
+
+    searchInput.placeholder =
+        config.placeholder;
+
+    dictionaryOptions.forEach(function (option) {
+        const isActive =
+            option.dataset.dictionaryTarget ===
+            activeDictionary;
+
+        option.classList.toggle(
+            "active",
+            isActive
+        );
+
+        if (isActive) {
+            option.setAttribute(
+                "aria-current",
+                "page"
+            );
+        } else {
+            option.removeAttribute(
+                "aria-current"
+            );
+        }
+    });
+
+    resetSearchState();
+    populateSourceFilter();
+
+    closeDictionaryMenu(false);
+
+    if (
+        settings.updateHash &&
+        window.location.hash !==
+            "#" + activeDictionary
+    ) {
+        history.replaceState(
+            null,
+            "",
+            "#" + activeDictionary
+        );
+    }
+
+    if (settings.focusSearch) {
+        searchInput.focus();
+    }
+}
+
+
+/* ==========================================================
    CONTADOR
    ========================================================== */
 
@@ -51,58 +283,22 @@ function updateCounter(count) {
 
 
 /* ==========================================================
-   FONTES
-   ========================================================== */
-
-function populateSourceFilter() {
-    const sources = [
-        ...new Set(
-            searchRows
-                .map(function (row) {
-                    return row.dataset.source;
-                })
-                .filter(Boolean)
-        )
-    ].sort(function (a, b) {
-        return a.localeCompare(b, "pt-BR");
-    });
-
-
-    sources.forEach(function (source) {
-        const option = document.createElement("option");
-
-        option.value = source;
-        option.textContent = source;
-
-        sourceFilter.appendChild(option);
-    });
-}
-
-
-/* ==========================================================
    PESQUISA
    ========================================================== */
 
 function filterEntries() {
-    const rawQuery = searchInput.value.trim();
-    const query = normalizeText(rawQuery);
+    const rawQuery =
+        searchInput.value.trim();
 
-    const selectedSource = sourceFilter.value;
+    const query =
+        normalizeText(rawQuery);
 
-    /*
-     * Ao alterar a busca, fecha qualquer verbete anteriormente aberto.
-     * Os cartões só são revelados quando o usuário escolhe um resultado.
-     */
+    const selectedSource =
+        sourceFilter.value;
+
     entryCards.forEach(function (card) {
         card.hidden = true;
     });
-
-
-    /*
-     * Sem texto digitado:
-     * nenhum resultado deve aparecer,
-     * independentemente da fonte selecionada.
-     */
 
     if (query === "") {
         searchRows.forEach(function (row) {
@@ -112,29 +308,35 @@ function filterEntries() {
         searchTableWrapper.hidden = true;
         noResults.hidden = true;
 
-        searchCount.textContent = "Digite para pesquisar";
+        searchCount.textContent =
+            "Digite para pesquisar";
 
         return;
     }
 
-
-    /*
-     * Há texto digitado:
-     * aplica-se busca textual + filtro opcional de fonte.
-     */
-
     searchTableWrapper.hidden = false;
 
     let visibleCount = 0;
-
+    const activeRows =
+        rowsForActiveDictionary();
 
     searchRows.forEach(function (row) {
+        if (
+            row.dataset.dictionary !==
+            activeDictionary
+        ) {
+            row.hidden = true;
+            return;
+        }
+
         const rawSearchText =
             row.dataset.search ||
             row.textContent;
 
         const searchableText =
-            normalizeText(rawSearchText);
+            normalizeText(
+                rawSearchText
+            );
 
         const rowSource =
             row.dataset.source || "";
@@ -157,8 +359,18 @@ function filterEntries() {
         }
     });
 
-
     updateCounter(visibleCount);
+
+    if (
+        visibleCount === 0 &&
+        activeRows.length === 0
+    ) {
+        noResults.textContent =
+            "Nenhum verbete cadastrado neste dicionário.";
+    } else {
+        noResults.textContent =
+            "Nenhum verbete encontrado.";
+    }
 
     noResults.hidden =
         visibleCount !== 0;
@@ -170,22 +382,33 @@ function filterEntries() {
    ========================================================== */
 
 function openEntry(row) {
-    const targetId = row.dataset.target;
+    if (
+        row.dataset.dictionary !==
+        activeDictionary
+    ) {
+        return;
+    }
+
+    const targetId =
+        row.dataset.target;
 
     if (!targetId) {
         return;
     }
 
     const target =
-        document.getElementById(targetId);
+        document.getElementById(
+            targetId
+        );
 
-    if (!target) {
+    if (
+        !target ||
+        target.dataset.dictionary !==
+            activeDictionary
+    ) {
         return;
     }
 
-    /*
-     * Exibe somente o verbete selecionado.
-     */
     entryCards.forEach(function (card) {
         card.hidden = card !== target;
     });
@@ -195,11 +418,15 @@ function openEntry(row) {
         block: "start"
     });
 
-    target.classList.remove("entry-highlight");
+    target.classList.remove(
+        "entry-highlight"
+    );
 
     void target.offsetWidth;
 
-    target.classList.add("entry-highlight");
+    target.classList.add(
+        "entry-highlight"
+    );
 }
 
 
@@ -253,7 +480,6 @@ function buildTooltipContent(trigger) {
         trigger.dataset.tooltipLabel ||
         trigger.textContent.trim();
 
-
     if (type === "abbr") {
         const text =
             trigger.dataset.tooltipText || "";
@@ -270,7 +496,6 @@ function buildTooltipContent(trigger) {
             "</div>"
         );
     }
-
 
     if (type === "biblio") {
         const text =
@@ -289,8 +514,10 @@ function buildTooltipContent(trigger) {
         );
     }
 
-
-    if (type === "hebrew") {
+    if (
+        type === "hebrew" ||
+        type === "syriac"
+    ) {
         const transliteration =
             trigger.dataset.transliteration || "";
 
@@ -299,8 +526,15 @@ function buildTooltipContent(trigger) {
                 trigger.dataset.meanings
             );
 
+        const headingClass =
+            type === "hebrew"
+                ? "hebrew-heading"
+                : "syriac-heading";
+
         let html =
-            '<div class="tooltip-heading hebrew-heading">' +
+            '<div class="tooltip-heading ' +
+            headingClass +
+            '">' +
             escapeHtml(label) +
             "</div>";
 
@@ -326,45 +560,6 @@ function buildTooltipContent(trigger) {
 
         return html;
     }
-
-
-    if (type === "syriac") {
-        const transliteration =
-            trigger.dataset.transliteration || "";
-
-        const meanings =
-            parseMeanings(
-                trigger.dataset.meanings
-            );
-
-        let html =
-            '<div class="tooltip-heading syriac-heading">' +
-            escapeHtml(label) +
-            "</div>";
-
-        if (transliteration) {
-            html +=
-                '<div class="tooltip-block">' +
-                '<span class="tooltip-label">Transliteração</span>' +
-                '<div class="tooltip-value">' +
-                escapeHtml(transliteration) +
-                "</div>" +
-                "</div>";
-        }
-
-        if (meanings.length) {
-            html +=
-                '<div class="tooltip-block">' +
-                '<span class="tooltip-label">Significados</span>' +
-                '<div class="tooltip-meanings">' +
-                buildMeaningsHtml(meanings) +
-                "</div>" +
-                "</div>";
-        }
-
-        return html;
-    }
-
 
     if (type === "greek") {
         const meanings =
@@ -389,7 +584,6 @@ function buildTooltipContent(trigger) {
 
         return html;
     }
-
 
     return (
         '<div class="tooltip-heading">' +
@@ -422,7 +616,6 @@ function positionTooltip(trigger) {
 
     const spacing = 10;
 
-
     let left =
         triggerRect.left +
         (
@@ -440,7 +633,6 @@ function positionTooltip(trigger) {
                 8
             )
         );
-
 
     let top =
         triggerRect.top -
@@ -467,7 +659,6 @@ function positionTooltip(trigger) {
             );
     }
 
-
     lexicalTooltip.style.left =
         String(left) + "px";
 
@@ -477,7 +668,7 @@ function positionTooltip(trigger) {
 
 
 /* ==========================================================
-   MOSTRAR / ESCONDER
+   MOSTRAR / ESCONDER POPUP
    ========================================================== */
 
 function showTooltip(trigger) {
@@ -485,10 +676,13 @@ function showTooltip(trigger) {
         return;
     }
 
-    activeTooltipTrigger = trigger;
+    activeTooltipTrigger =
+        trigger;
 
     lexicalTooltip.innerHTML =
-        buildTooltipContent(trigger);
+        buildTooltipContent(
+            trigger
+        );
 
     lexicalTooltip.classList.add(
         "visible"
@@ -508,7 +702,8 @@ function hideTooltip() {
         return;
     }
 
-    activeTooltipTrigger = null;
+    activeTooltipTrigger =
+        null;
 
     lexicalTooltip.classList.remove(
         "visible"
@@ -522,20 +717,52 @@ function hideTooltip() {
 
 
 /* ==========================================================
-   EVENTOS DA PESQUISA
+   EVENTOS
    ========================================================== */
+
+menuToggle.addEventListener(
+    "click",
+    openDictionaryMenu
+);
+
+menuClose.addEventListener(
+    "click",
+    function () {
+        closeDictionaryMenu(true);
+    }
+);
+
+menuBackdrop.addEventListener(
+    "click",
+    function () {
+        closeDictionaryMenu(true);
+    }
+);
+
+dictionaryOptions.forEach(function (option) {
+    option.addEventListener(
+        "click",
+        function () {
+            selectDictionary(
+                option.dataset.dictionaryTarget,
+                {
+                    updateHash: true,
+                    focusSearch: true
+                }
+            );
+        }
+    );
+});
 
 searchInput.addEventListener(
     "input",
     filterEntries
 );
 
-
 sourceFilter.addEventListener(
     "change",
     filterEntries
 );
-
 
 searchRows.forEach(function (row) {
     row.addEventListener(
@@ -553,17 +780,11 @@ searchRows.forEach(function (row) {
                 event.key === " "
             ) {
                 event.preventDefault();
-
                 openEntry(row);
             }
         }
     );
 });
-
-
-/* ==========================================================
-   EVENTOS DOS POPUPS
-   ========================================================== */
 
 tooltipTriggers.forEach(function (trigger) {
     trigger.addEventListener(
@@ -607,7 +828,6 @@ tooltipTriggers.forEach(function (trigger) {
     );
 });
 
-
 window.addEventListener(
     "resize",
     function () {
@@ -618,7 +838,6 @@ window.addEventListener(
         }
     }
 );
-
 
 window.addEventListener(
     "scroll",
@@ -634,6 +853,18 @@ window.addEventListener(
     }
 );
 
+window.addEventListener(
+    "hashchange",
+    function () {
+        selectDictionary(
+            dictionaryFromHash(),
+            {
+                updateHash: false,
+                focusSearch: false
+            }
+        );
+    }
+);
 
 document.addEventListener(
     "click",
@@ -647,13 +878,21 @@ document.addEventListener(
     }
 );
 
-
 document.addEventListener(
     "keydown",
     function (event) {
-        if (event.key === "Escape") {
-            hideTooltip();
+        if (event.key !== "Escape") {
+            return;
         }
+
+        if (
+            dictionaryMenu.classList.contains("open")
+        ) {
+            closeDictionaryMenu(true);
+            return;
+        }
+
+        hideTooltip();
     }
 );
 
@@ -662,5 +901,22 @@ document.addEventListener(
    INICIALIZAÇÃO
    ========================================================== */
 
-populateSourceFilter();
-filterEntries();
+searchRows.forEach(function (row) {
+    if (!row.dataset.dictionary) {
+        row.dataset.dictionary = "grego";
+    }
+});
+
+entryCards.forEach(function (card) {
+    if (!card.dataset.dictionary) {
+        card.dataset.dictionary = "grego";
+    }
+});
+
+selectDictionary(
+    dictionaryFromHash(),
+    {
+        updateHash: true,
+        focusSearch: false
+    }
+);

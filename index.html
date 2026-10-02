@@ -16,16 +16,91 @@
 </head>
 
 <body>
+
+    <div id="menu-backdrop" class="menu-backdrop" hidden></div>
+
+    <aside
+        id="dictionary-menu"
+        class="dictionary-drawer"
+        aria-label="Dicionários"
+        aria-hidden="true"
+    >
+        <div class="dictionary-drawer-header">
+            <div>
+                <div class="drawer-title">Scriptura Lexicon</div>
+                <div class="drawer-subtitle">Dicionários</div>
+            </div>
+
+            <button
+                id="menu-close"
+                class="menu-close"
+                type="button"
+                aria-label="Fechar menu"
+            >
+                ×
+            </button>
+        </div>
+
+        <nav class="dictionary-nav" aria-label="Escolher dicionário">
+            <button class="dictionary-option" type="button" data-dictionary-target="hebraico">
+                <span class="dictionary-option-name">Hebraico–Português</span>
+                <span class="dictionary-option-code">HE–PT</span>
+            </button>
+
+            <button class="dictionary-option" type="button" data-dictionary-target="aramaico">
+                <span class="dictionary-option-name">Aramaico–Português</span>
+                <span class="dictionary-option-code">AR–PT</span>
+            </button>
+
+            <button class="dictionary-option" type="button" data-dictionary-target="grego">
+                <span class="dictionary-option-name">Grego–Português</span>
+                <span class="dictionary-option-code">GR–PT</span>
+            </button>
+
+            <button class="dictionary-option" type="button" data-dictionary-target="latim">
+                <span class="dictionary-option-name">Latim–Português</span>
+                <span class="dictionary-option-code">LA–PT</span>
+            </button>
+        </nav>
+    </aside>
+
+
     <main class="container">
 
         <header class="header">
-            <div>
-                <div class="project-name">Scriptura Lexicon</div>
-                <div class="project-subtitle">Hebraico · Aramaico · Grego · Português</div>
+            <div class="header-main">
+                <button
+                    id="menu-toggle"
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Abrir menu de dicionários"
+                    aria-controls="dictionary-menu"
+                    aria-expanded="false"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 7h16M4 12h16M4 17h16"/>
+                    </svg>
+                </button>
+
+                <div>
+                    <div class="project-name">Scriptura Lexicon</div>
+                    <div class="project-subtitle">
+                        Hebraico–Português · Aramaico–Português · Grego–Português · Latim–Português
+                    </div>
+                </div>
             </div>
 
             <div class="project-short">LEXICON</div>
         </header>
+
+
+        <section class="dictionary-context" aria-labelledby="dictionary-title">
+            <div class="dictionary-kicker">Dicionário ativo</div>
+            <h1 id="dictionary-title">Grego–Português</h1>
+            <p id="dictionary-description">
+                Léxico grego com tradução, referências e análise em português.
+            </p>
+        </section>
 
 
         <!-- ======================================================
@@ -50,7 +125,7 @@
                     <input
                         id="search-input"
                         type="search"
-                        placeholder="Pesquisar lema, tradução ou forma..."
+                        placeholder="Pesquisar no dicionário grego–português..."
                         autocomplete="off"
                         spellcheck="false"
                         aria-label="Pesquisar verbetes"
@@ -84,6 +159,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-alpha-robinson"
                             data-source="ROBINSON"
                             data-search="Α α alpha alfa primeira letra alfabeto grego alef aleph א letra Robinson"
@@ -98,6 +174,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-alpha-abbott-smith"
                             data-source="ABBOTT-SMITH"
                             data-search="Α α ἄλφα alpha alfa primeira letra alfabeto grego numeral prefixo negativo privativo copulativo intensivo ἄγνωστος ἄδικος ἁπλοῦς ἀκολουθέω ἀδελφός ἀτενίζω Abbott-Smith"
@@ -112,6 +189,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-alpha-bdag"
                             data-source="BDAG"
                             data-search="Α α ἄλφα alpha alfa primeira letra alfabeto grego numeral símbolo simbólico começo princípio fim primeiro último omega Α Ω εἷς πρῶτος πρώτη πρωτέρα πρότερον ἐπιστολή ἐντολή BDAG"
@@ -126,6 +204,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-aaron"
                             data-source="ROBINSON"
                             data-search="Ἀαρών ααρων Aaron Arão Aarao אַהֲרֹן nome próprio indeclinável Robinson"
@@ -140,6 +219,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-aaron-thayer"
                             data-source="THAYER"
                             data-search="Ἀαρών ααρων Aaron Arão Aarao אַהֲרֹן אָהַר ܐܰܗܻܝܪܳܐ אוֺמָר הַר ὀρεινός nome próprio indeclinável irmão de Moisés sumo sacerdote israelitas ordem sacerdotal Thayer"
@@ -154,6 +234,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abaddon"
                             data-source="ROBINSON"
                             data-search="Ἀβαδδών αβαδδων Abaddon Abadom אבדון destruição perdição anjo da morte destruidor nome próprio Robinson"
@@ -168,6 +249,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abares"
                             data-source="ROBINSON"
                             data-search="Ἀβαρής αβαρης abarēs abares não pesado nao pesado não oneroso nao oneroso βάρος ἀβαρῆ ἐπιβαρέω βαρύς adjetivo Robinson"
@@ -182,6 +264,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abiathar"
                             data-source="ROBINSON"
                             data-search="Ἀβιάθαρ αβιαθαρ Abiathar Abiatar אֶבְיָתָר אביתר pai da abundância sumo sacerdote nome próprio indeclinável Marcos 2.26 1 Samuel 22.21 1 Reis 2.26 2.27 2.35 Robinson"
@@ -196,6 +279,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abilene"
                             data-source="ROBINSON"
                             data-search="Ἀβιληνή αβιληνη Ἀβιλήνη Ἀβιλιανή Abilene Abila Abela Anti-Líbano Anti-Libano Damasco Heliópolis Heliopolis Baalbek Lysanias Lisânias tetrarquia Ptolomeu Menneu Cleópatra Augusto Zenodoro Herodes Filipe Calígula Agripa Cláudio Lucas 3.1 nome próprio geográfico Robinson"
@@ -210,6 +294,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abiud"
                             data-source="ROBINSON"
                             data-search="Ἀβιούδ αβιουδ Abiud Abiúde Abiude אֲבִיהוּד אביהוד Judá é seu pai Juda e seu pai filho de Zorobabel Mateus 1.13 1 Crônicas 3.19 nome próprio indeclinável Robinson"
@@ -224,6 +309,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abraham"
                             data-source="ROBINSON"
                             data-search="Ἀβραάμ αβρααμ Abraham Abraão Abraao אַבְרָהָם אברהם pai de uma multidão patriarca fundador nação israelita Mateus 1.1 1.2 22.32 Hebreus 11.8 11.19 nome próprio indeclinável Robinson"
@@ -238,6 +324,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abyssos"
                             data-source="ROBINSON"
                             data-search="Ἄβυσσος αβυσσος abyssos abismo profundo profundidade fundo βύθος βύσσος λίμνη ἄβυσσος תְּהוֹם תהום oceano mundo inferior lugar dos mortos Orcus Orco ᾅδης Hades Tártaro Tartarus Romanos 10.7 Lucas 8.31 Apocalipse 9.1 9.2 9.11 11.7 17.8 20.1 20.3 2 Pedro 2.4 Robinson"
@@ -252,6 +339,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agabus"
                             data-source="ROBINSON"
                             data-search="Ἄγαβος αγαβος Agabus Ágabo Agabo cristão judeu cristao judeu fome aprisionamento Paulo Atos 11.28 21.10 nome próprio Robinson"
@@ -266,6 +354,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agathopoieo"
                             data-source="ROBINSON"
                             data-search="Ἀγαθοποιέω αγαθοποιεω ἀγαθὸν ποιέω agathopoieo fazer o bem agir virtuosamente ἀγαθός ποιέω βύθος Lobeck Phrynichus Marcos 3.4 Lucas 6.9 6.35 Atos 14.17 6.33 Juízes 17.13 Sofonias 1.12 Tobias 12.13 1 Macabeus 11.33 2 Macabeus 1.2 1 Pedro 2.15 2.20 3.6 3.17 3 João 11 1 Pedro 3.11 הֵיטִיב Robinson"
@@ -280,6 +369,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agathopoiia"
                             data-source="ROBINSON"
                             data-search="Ἀγαθοποιΐα αγαθοποιια agathopoiia prática do bem amor da virtude conduta virtuosa beneficência 1 Pedro 4.19 Robinson"
@@ -294,6 +384,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agathopoios"
                             data-source="ROBINSON"
                             data-search="Ἀγαθοποιός αγαθοποιος agathopoios beneficente afável afavel cortês cortes reto virtuoso γυνή Sirácida Eclesiástico 42.14 1 Pedro 2.14 ἀγαθοποιέω Atenágoras Apologia Robinson"
@@ -308,6 +399,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agathos"
                             data-source="ROBINSON"
                             data-search="Ἀγαθός αγαθος agathos bom excelente distinto melhor reto virtuoso útil util benéfico benefico proveitoso agradável agradavel feliz ἄγαν טוב bonus good Mateus Marcos Lucas João Atos Romanos Coríntios Gálatas Efésios Tessalonicenses Filemom Pedro Timóteo Tito Hebreus 3 João Septuaginta Robinson"
@@ -322,6 +414,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agathourgeo"
                             data-source="ROBINSON"
                             data-search="Ἀγαθουργέω αγαθουργεω agathourgeo ἀγαθοεργέω αγαθοεργεω fazer o bem aos outros Atos 14.17 manuscritos MSS Cirilo Contra Juliano Miquéias Robinson"
@@ -336,6 +429,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agathosyne"
                             data-source="ROBINSON"
                             data-search="ἀγαθωσύνη αγαθωσυνη agathosyne bondade probidade virtude beneficência beneficencia disposição caráter carater Romanos 15.14 Efésios 5.9 2 Tessalonicenses 1.11 Gálatas 5.22 Salmos 52.5 2 Crônicas 24.16 Neemias 9.25 טוב טובה ἀγαθοσύνη ἀγαθότης χρηστότης Thomas Magister Planck Biblical Repository Robinson"
@@ -350,6 +444,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-agamos"
                             data-source="ROBINSON"
                             data-search="ἄγαμος αγαμος agamos não casado solteiro celibatário ἀ- γάμος 1 Coríntios 7.32 7.34 7.8 7.11 Xenofonte Banquete 9.7 Homero Ilíada 3.40 Robinson"
@@ -364,6 +459,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abba"
                             data-source="ROBINSON"
                             data-search="Ἀββᾶ αββα Abba Aba אב אבא pai father hebraico caldaico aramaico indeclinável Robinson"
@@ -378,6 +474,7 @@
 
                         <tr
                             class="search-row"
+                            data-dictionary="grego"
                             data-target="entry-abel"
                             data-source="ROBINSON"
                             data-search="Ἄβελ αβελ Abel הֶבֶל הבל transitoriedade vapor sopro vaidade segundo filho de Adão nome próprio indeclinável Robinson"
@@ -406,7 +503,7 @@
              Α — ROBINSON
              ====================================================== -->
 
-        <article id="entry-alpha-robinson" class="entry-card" hidden>
+        <article id="entry-alpha-robinson" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">α</h1>
@@ -459,7 +556,7 @@
              Α — ABBOTT-SMITH
              ====================================================== -->
 
-        <article id="entry-alpha-abbott-smith" class="entry-card" hidden>
+        <article id="entry-alpha-abbott-smith" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">α</h1>
@@ -523,7 +620,7 @@
              Α — BDAG
              ====================================================== -->
 
-        <article id="entry-alpha-bdag" class="entry-card" hidden>
+        <article id="entry-alpha-bdag" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">α</h1>
@@ -638,7 +735,7 @@
              Ἀαρών — ROBINSON
              ====================================================== -->
 
-        <article id="entry-aaron" class="entry-card" hidden>
+        <article id="entry-aaron" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀαρών</h1>
@@ -694,7 +791,7 @@
              Ἀαρών — THAYER
              ====================================================== -->
 
-        <article id="entry-aaron-thayer" class="entry-card" hidden>
+        <article id="entry-aaron-thayer" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀαρών</h1>
@@ -834,7 +931,7 @@
              Ἀβαδδών — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abaddon" class="entry-card" hidden>
+        <article id="entry-abaddon" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀβαδδών</h1>
@@ -880,7 +977,7 @@
              Ἀβαρής — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abares" class="entry-card" hidden>
+        <article id="entry-abares" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀβαρής</h1>
@@ -930,7 +1027,7 @@
              Ἀβιάθαρ — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abiathar" class="entry-card" hidden>
+        <article id="entry-abiathar" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀβιάθαρ</h1>
@@ -1024,7 +1121,7 @@
              Ἀβιληνή — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abilene" class="entry-card" hidden>
+        <article id="entry-abilene" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀβιληνή</h1>
@@ -1207,7 +1304,7 @@
              Ἀβιούδ — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abiud" class="entry-card" hidden>
+        <article id="entry-abiud" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀβιούδ</h1>
@@ -1266,7 +1363,7 @@
              Ἀβραάμ — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abraham" class="entry-card" hidden>
+        <article id="entry-abraham" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἀβραάμ</h1>
@@ -1335,7 +1432,7 @@
              Ἄβυσσος — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abyssos" class="entry-card" hidden>
+        <article id="entry-abyssos" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἄβυσσος</h1>
@@ -1596,7 +1693,7 @@
              Ἄγαβος — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agabus" class="entry-card" hidden>
+        <article id="entry-agabus" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἄγαβος</h1>
@@ -1644,7 +1741,7 @@
              Ἀγαθοποιέω — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agathopoieo" class="entry-card" hidden>
+        <article id="entry-agathopoieo" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀγαθοποιέω</h1>
@@ -1868,7 +1965,7 @@
              Ἀγαθοποιΐα — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agathopoiia" class="entry-card" hidden>
+        <article id="entry-agathopoiia" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀγαθοποιΐα</h1>
@@ -1904,7 +2001,7 @@
              Ἀγαθοποιός — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agathopoios" class="entry-card" hidden>
+        <article id="entry-agathopoios" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀγαθοποιός</h1>
@@ -1990,7 +2087,7 @@
              Ἀγαθός — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agathos" class="entry-card" hidden>
+        <article id="entry-agathos" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀγαθός</h1>
@@ -2343,7 +2440,7 @@
              Ἀγαθουργέω — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agathourgeo" class="entry-card" hidden>
+        <article id="entry-agathourgeo" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀγαθουργέω</h1>
@@ -2429,7 +2526,7 @@
              ἀγαθωσύνη — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agathosyne" class="entry-card" hidden>
+        <article id="entry-agathosyne" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀγαθωσύνη</h1>
@@ -2596,7 +2693,7 @@
              ἄγαμος — ROBINSON
              ====================================================== -->
 
-        <article id="entry-agamos" class="entry-card" hidden>
+        <article id="entry-agamos" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἄγαμος</h1>
@@ -2641,7 +2738,7 @@
              Ἀββᾶ — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abba" class="entry-card" hidden>
+        <article id="entry-abba" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">ἀββᾶ</h1>
@@ -2674,7 +2771,7 @@
              Ἄβελ — ROBINSON
              ====================================================== -->
 
-        <article id="entry-abel" class="entry-card" hidden>
+        <article id="entry-abel" class="entry-card" data-dictionary="grego" hidden>
             <header class="entry-header">
                 <div>
                     <h1 class="entry-title greek">Ἄβελ</h1>
