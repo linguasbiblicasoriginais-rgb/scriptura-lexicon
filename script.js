@@ -550,7 +550,17 @@ const automaticBibliographicTerms = [
     { key: "Heph. Astr.", type: "biblio", text: "Heféstion de Tebas, Apotelesmatica" },
     { key: "Philod.", type: "biblio", text: "Filodemo" },
     { key: "Apollon. Dysc.", type: "biblio", text: "Apolônio Díscolo" },
-    { key: "Gramm. Graeci", type: "biblio", text: "Grammatici Graeci" }
+    { key: "Gramm. Graeci", type: "biblio", text: "Grammatici Graeci" },
+    { key: "Contemp. Rev.", type: "biblio", text: "Contemporary Review" },
+    { key: "PEnteux", type: "biblio", text: "Papyrus Enteuxeis; coleção papirológica" },
+    { key: "PStras", type: "biblio", text: "Strasbourg Papyri" },
+    { key: "PAdl Gk.", type: "biblio", text: "Adler Greek Papyri" },
+    { key: "Vorsokrat.", type: "biblio", text: "Die Fragmente der Vorsokratiker" },
+    { key: "Meisterhans", type: "biblio", text: "Grammatik der attischen Inschriften de Meisterhans; referência citada pelo BDAG" },
+    { key: "Stephan. Byz.", type: "biblio", text: "Estêvão de Bizâncio" },
+    { key: "Posidippus", type: "biblio", text: "Posidipo" },
+    { key: "Warnecke", type: "biblio", text: "H. Warnecke; autor citado pelo BDAG" },
+    { key: "Hyperid.", type: "biblio", text: "Hipérides" }
 ];
 
 const automaticNamedAuthors = [
