@@ -592,7 +592,15 @@ const automaticBibliographicTerms = [
     { key: "Bodm.", type: "biblio", text: "Bodmer; testemunho/manuscrito citado pelo BDAG" },
     { key: "Ch.", type: "biblio", text: "Chester Beatty; testemunho/manuscrito citado pelo BDAG" },
     { key: "Apollon. Rhod.", type: "biblio", text: "Apolônio de Rodes" },
-    { key: "Nägeli", type: "biblio", text: "T. Nägeli; estudo lexical citado pelo BDAG" }
+    { key: "Nägeli", type: "biblio", text: "T. Nägeli; estudo lexical citado pelo BDAG" },
+    { key: "OxfT", type: "biblio", text: "Oxford Classical Texts" },
+    { key: "AJP", type: "biblio", text: "American Journal of Philology" },
+    { key: "Philol. Suppl.", type: "biblio", text: "Philologus, Supplementband" },
+    { key: "ETR", type: "biblio", text: "Études théologiques et religieuses" },
+    { key: "CurTM", type: "biblio", text: "Currents in Theology and Mission" },
+    { key: "TGl", type: "biblio", text: "Theologie und Glaube" },
+    { key: "The Bible Today", type: "biblio", text: "The Bible Today" },
+    { key: "Psaltes", type: "biblio", text: "S. Psaltes; referência lexicográfica citada pelo BDAG" }
 ];
 
 const automaticNamedAuthors = [
