@@ -463,7 +463,18 @@ const automaticBibliographicTerms = [
     { key: "AcPlCor", type: "biblio", text: "Atos de Paulo e os Coríntios" },
     { key: "TestDan", type: "biblio", text: "Testamento de Dã" },
     { key: "TT", type: "biblio", text: "Theologisch Tijdschrift" },
-    { key: "RSR", type: "biblio", text: "Recherches de Science Religieuse" }
+    { key: "RSR", type: "biblio", text: "Recherches de Science Religieuse" },
+    { key: "ISyriaW", type: "biblio", text: "Inscrições da Síria; sigla preservada conforme o BDAG" },
+    { key: "PRein", type: "biblio", text: "Papyrus Reinach; coleção papirológica" },
+    { key: "PTebt", type: "biblio", text: "The Tebtunis Papyri" },
+    { key: "PHamb", type: "biblio", text: "Hamburger Papyri" },
+    { key: "PMeyer", type: "biblio", text: "Papyrus Meyer; referência papirológica conforme o BDAG" },
+    { key: "StTh", type: "biblio", text: "Studia Theologica" },
+    { key: "AcJ", type: "biblio", text: "Atos de João" },
+    { key: "AcPhil", type: "biblio", text: "Atos de Filipe" },
+    { key: "ISmyrnaMcCabe", type: "biblio", text: "Inscrições de Esmirna na edição de McCabe; referência epigráfica" },
+    { key: "Peripl. Eryth.", type: "biblio", text: "Periplus Maris Erythraei" },
+    { key: "Thom. Mag.", type: "biblio", text: "Thomas Magister" }
 ];
 
 const automaticNamedAuthors = [
