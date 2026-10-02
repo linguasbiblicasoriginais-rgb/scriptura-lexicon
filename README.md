@@ -45,3 +45,89 @@ Regras:
   - `Plat. Apol. 18e` → `https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Apol.+18e&fromdoc=Perseus%3Atext%3A1999.01.0169`.
 
 Essa regra aplica-se prospectivamente a todos os novos verbetes e deve ser usada também na revisão de verbetes antigos quando eles forem revisitados.
+
+
+## Regra editorial — referências bíblicas
+
+Os links bíblicos devem ser escolhidos pelo **contexto da fonte**, e não apenas pelo livro citado.
+
+- quando o contexto for o texto hebraico, o Texto Massorético, a Bíblia Hebraica ou uma citação lexical hebraica, usar a **BHS** na Deutsche Bibelgesellschaft;
+- quando a fonte indicar explicitamente a **Septuaginta**, `Sept.`, `LXX`, ou estiver citando o texto grego do Antigo Testamento, usar a **LXX**;
+- livros deuterocanônicos/apócrifos citados como parte da tradição grega devem apontar para a **LXX**;
+- referências ao Novo Testamento grego devem apontar para a **NA28**;
+- não converter automaticamente uma referência veterotestamentária para BHS ou LXX sem verificar o contexto imediato da fonte;
+- todos os links bíblicos devem mostrar, no popup ao passar o mouse ou receber foco, o **nome completo do livro**, tanto para livros canônicos quanto para deuterocanônicos/apócrifos, além da edição textual usada (BHS, LXX ou NA28).
+
+Exemplos:
+
+- HALOT citando `Gn 42.25` no verbete hebraico → BHS;
+- Robinson escrevendo `Sept.` antes de `Êx 12.23` → LXX;
+- Robinson citando `Sab 18.25` no mesmo contexto da Septuaginta → LXX;
+- `Rm 10.7` → NA28.
+
+
+## Padrão de commits
+
+Todos os commits do projeto devem ser escritos **em português** e conter um **título objetivo** seguido de uma **descrição detalhada**.
+
+### Título
+
+O título deve:
+
+- começar com verbo no infinitivo;
+- indicar claramente a ação principal realizada;
+- mencionar o verbete, recurso ou área afetada quando isso ajudar a identificar a alteração;
+- evitar títulos genéricos como `Atualizações`, `Correções`, `Mudanças` ou equivalentes;
+- preferencialmente permanecer em uma única linha.
+
+Modelo:
+
+`<verbo no infinitivo> <objeto principal da alteração>`
+
+Exemplos:
+
+- `Adicionar o verbete כֶּסֶף do HALOT ao dicionário Hebraico–Português`
+- `Corrigir a acepção 4 de כֶּסֶף e restaurar remissões lexicais do HALOT`
+- `Implementar navegação entre os quatro dicionários por menu lateral`
+- `Remover a coluna redundante de língua dos resultados de pesquisa`
+- `Vincular referências greco-romanas ao texto original no Perseus`
+
+### Descrição
+
+A descrição deve explicar, de forma detalhada e verificável:
+
+- **o que foi alterado**;
+- **por que a alteração foi feita**, quando houver motivo editorial ou técnico relevante;
+- **quais arquivos ou áreas foram afetados**;
+- **quais regras editoriais foram introduzidas ou modificadas**;
+- **quais referências, fontes ou comportamentos foram preservados**;
+- **eventuais limitações, ambiguidades ou decisões conservadoras**.
+
+A descrição deve usar frases completas e pode conter vários parágrafos ou marcadores.
+
+Modelo recomendado:
+
+```
+<TÍTULO>
+
+- Alteração principal realizada.
+- Ajustes complementares.
+- Regras editoriais ou técnicas aplicadas.
+- Arquivos ou componentes afetados.
+- Observações de preservação da fonte, quando relevantes.
+```
+
+### Exemplo completo
+
+```
+Corrigir a acepção 4 de כֶּסֶף e padronizar referências bíblicas
+
+- Restaura literalmente as formas e remissões lexicais presentes na acepção 4 do verbete כֶּסֶף em HALOT.
+- Remove a paráfrase editorial que descrevia as remissões como ação do próprio dicionário.
+- Adiciona tooltips com o nome completo dos livros bíblicos.
+- Passa a identificar no tooltip a edição textual utilizada: BHS, LXX ou NA28.
+- Documenta a regra contextual para escolher entre Bíblia Hebraica e Septuaginta.
+- Atualiza index.html, script.js e README.md.
+```
+
+Este padrão deve ser usado em todos os commits futuros do projeto.
