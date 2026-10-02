@@ -570,7 +570,16 @@ const automaticBibliographicTerms = [
     { key: "Papias", type: "biblio", text: "Pápias de Hierápolis" },
     { key: "Boll", type: "biblio", text: "F. Boll; autor citado pelo BDAG" },
     { key: "Harmodius", type: "biblio", text: "Harmódio; autor antigo citado pelo BDAG" },
-    { key: "Qua.", type: "biblio", text: "Quadrato; fragmento/apologia citada pelo BDAG" }
+    { key: "Qua.", type: "biblio", text: "Quadrato; fragmento/apologia citada pelo BDAG" },
+    { key: "PRossGeorg", type: "biblio", text: "Papyri Russischer und Georgischer Sammlungen" },
+    { key: "PIand", type: "biblio", text: "Iandanae Papyri" },
+    { key: "IDefixWünsch", type: "biblio", text: "Defixionum Tabellae Atticae de R. Wünsch; coleção de inscrições mágicas" },
+    { key: "Slav. En.", type: "biblio", text: "Enoque Eslavo (2 Enoque)" },
+    { key: "TQ", type: "biblio", text: "Theologische Quartalschrift" },
+    { key: "Eranos", type: "biblio", text: "Eranos — periódico de estudos clássicos" },
+    { key: "Glotta", type: "biblio", text: "Glotta — Zeitschrift für griechische und lateinische Sprache" },
+    { key: "Hist. Ztschr.", type: "biblio", text: "Historische Zeitschrift" },
+    { key: "Harv.", type: "biblio", text: "Harvey; edição/referência de Irineu citada pelo BDAG" }
 ];
 
 const automaticNamedAuthors = [
