@@ -884,6 +884,34 @@ tbody tr:last-child td {
     vertical-align: baseline;
 }
 
+
+.hebrew-title {
+    direction: rtl;
+    unicode-bidi: isolate;
+
+    font-family: var(--font-hebrew);
+    text-align: left;
+}
+
+
+.hebrew-table-lemma {
+    direction: rtl;
+    unicode-bidi: isolate;
+
+    color: var(--text-primary);
+
+    font-family: var(--font-hebrew);
+    font-size: 1.22rem;
+    font-weight: 600;
+
+    text-align: left;
+}
+
+
+.entry-paragraph {
+    margin-top: 1.05rem;
+}
+
 .syriac {
     color: var(--interactive);
 
