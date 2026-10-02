@@ -45,3 +45,22 @@ Regras:
   - `Plat. Apol. 18e` → `https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Apol.+18e&fromdoc=Perseus%3Atext%3A1999.01.0169`.
 
 Essa regra aplica-se prospectivamente a todos os novos verbetes e deve ser usada também na revisão de verbetes antigos quando eles forem revisitados.
+
+
+## Regra editorial — referências bíblicas
+
+Os links bíblicos devem ser escolhidos pelo **contexto da fonte**, e não apenas pelo livro citado.
+
+- quando o contexto for o texto hebraico, o Texto Massorético, a Bíblia Hebraica ou uma citação lexical hebraica, usar a **BHS** na Deutsche Bibelgesellschaft;
+- quando a fonte indicar explicitamente a **Septuaginta**, `Sept.`, `LXX`, ou estiver citando o texto grego do Antigo Testamento, usar a **LXX**;
+- livros deuterocanônicos/apócrifos citados como parte da tradição grega devem apontar para a **LXX**;
+- referências ao Novo Testamento grego devem apontar para a **NA28**;
+- não converter automaticamente uma referência veterotestamentária para BHS ou LXX sem verificar o contexto imediato da fonte;
+- todos os links bíblicos devem mostrar, no popup ao passar o mouse ou receber foco, o **nome completo do livro**, tanto para livros canônicos quanto para deuterocanônicos/apócrifos, além da edição textual usada (BHS, LXX ou NA28).
+
+Exemplos:
+
+- HALOT citando `Gn 42.25` no verbete hebraico → BHS;
+- Robinson escrevendo `Sept.` antes de `Êx 12.23` → LXX;
+- Robinson citando `Sab 18.25` no mesmo contexto da Septuaginta → LXX;
+- `Rm 10.7` → NA28.

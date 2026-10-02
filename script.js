@@ -29,9 +29,7 @@ const dictionaryOptions = Array.from(
 
 const lexicalTooltip = document.getElementById("lexical-tooltip");
 
-const tooltipTriggers = Array.from(
-    document.querySelectorAll(".tooltip-trigger")
-);
+let tooltipTriggers = [];
 
 const dictionaries = {
     hebraico: {
@@ -61,6 +59,152 @@ const dictionaries = {
 
 let activeDictionary = "grego";
 let activeTooltipTrigger = null;
+
+
+/* ==========================================================
+   REFERÊNCIAS BÍBLICAS
+   ========================================================== */
+
+const bibleBookNames = {
+    GEN: "Gênesis",
+    EXO: "Êxodo",
+    LEV: "Levítico",
+    NUM: "Números",
+    DEU: "Deuteronômio",
+    JOS: "Josué",
+    JDG: "Juízes",
+    RUT: "Rute",
+    "1SA": "1 Samuel",
+    "2SA": "2 Samuel",
+    "1KI": "1 Reis",
+    "2KI": "2 Reis",
+    "1CH": "1 Crônicas",
+    "2CH": "2 Crônicas",
+    EZR: "Esdras",
+    NEH: "Neemias",
+    EST: "Ester",
+    JOB: "Jó",
+    PSA: "Salmos",
+    PRO: "Provérbios",
+    ECC: "Eclesiastes",
+    SNG: "Cântico dos Cânticos",
+    ISA: "Isaías",
+    JER: "Jeremias",
+    LAM: "Lamentações",
+    EZK: "Ezequiel",
+    DAN: "Daniel",
+    HOS: "Oseias",
+    JOL: "Joel",
+    AMO: "Amós",
+    OBA: "Obadias",
+    JON: "Jonas",
+    MIC: "Miqueias",
+    NAM: "Naum",
+    HAB: "Habacuque",
+    ZEP: "Sofonias",
+    HAG: "Ageu",
+    ZEC: "Zacarias",
+    MAL: "Malaquias",
+
+    TOB: "Tobias",
+    JDT: "Judite",
+    WIS: "Sabedoria",
+    SIR: "Eclesiástico (Sirácida)",
+    BAR: "Baruc",
+    "1MA": "1 Macabeus",
+    "2MA": "2 Macabeus",
+    "3MA": "3 Macabeus",
+    "4MA": "4 Macabeus",
+    "1ES": "1 Esdras",
+    "2ES": "2 Esdras",
+
+    MAT: "Mateus",
+    MRK: "Marcos",
+    LUK: "Lucas",
+    JHN: "João",
+    ACT: "Atos dos Apóstolos",
+    ROM: "Romanos",
+    "1CO": "1 Coríntios",
+    "2CO": "2 Coríntios",
+    GAL: "Gálatas",
+    EPH: "Efésios",
+    PHP: "Filipenses",
+    COL: "Colossenses",
+    "1TH": "1 Tessalonicenses",
+    "2TH": "2 Tessalonicenses",
+    "1TI": "1 Timóteo",
+    "2TI": "2 Timóteo",
+    TIT: "Tito",
+    PHM: "Filemom",
+    HEB: "Hebreus",
+    JAS: "Tiago",
+    "1PE": "1 Pedro",
+    "2PE": "2 Pedro",
+    "1JN": "1 João",
+    "2JN": "2 João",
+    "3JN": "3 João",
+    "1JO": "1 João",
+    "2JO": "2 João",
+    "3JO": "3 João",
+    JUD: "Judas",
+    REV: "Apocalipse"
+};
+
+const bibleEditionNames = {
+    BHS: "Bíblia Hebraica (BHS)",
+    LXX: "Septuaginta (LXX)",
+    NA28: "Novo Testamento grego (NA28)"
+};
+
+
+function enrichBibleReferenceTooltips() {
+    const links = Array.from(
+        document.querySelectorAll(
+            'a.reference-link[href*="die-bibel.de/en/bible/"]'
+        )
+    );
+
+    links.forEach(function (link) {
+        const href =
+            link.getAttribute("href") || "";
+
+        const match =
+            href.match(
+                /\/bible\/(BHS|LXX|NA28)\/([0-9A-Z]+)\./i
+            );
+
+        if (!match) {
+            return;
+        }
+
+        const editionCode =
+            match[1].toUpperCase();
+
+        const bookCode =
+            match[2].toUpperCase();
+
+        const bookName =
+            bibleBookNames[bookCode] ||
+            bookCode;
+
+        const editionName =
+            bibleEditionNames[editionCode] ||
+            editionCode;
+
+        link.classList.add(
+            "tooltip-trigger"
+        );
+
+        link.dataset.tooltipType =
+            "bible";
+
+        link.dataset.tooltipLabel =
+            bookName;
+
+        link.dataset.tooltipText =
+            editionName;
+    });
+}
 
 
 /* ==========================================================
@@ -497,6 +641,24 @@ function buildTooltipContent(trigger) {
         );
     }
 
+    if (type === "bible") {
+        const text =
+            trigger.dataset.tooltipText || "";
+
+        return (
+            '<div class="tooltip-heading">' +
+            escapeHtml(label) +
+            "</div>" +
+            '<div class="tooltip-block">' +
+            '<span class="tooltip-label">Texto</span>' +
+            '<div class="tooltip-value">' +
+            escapeHtml(text) +
+            "</div>" +
+            "</div>"
+        );
+    }
+
+
     if (type === "biblio") {
         const text =
             trigger.dataset.tooltipText || "";
@@ -786,7 +948,15 @@ searchRows.forEach(function (row) {
     );
 });
 
-tooltipTriggers.forEach(function (trigger) {
+function bindTooltipEvents() {
+    tooltipTriggers =
+        Array.from(
+            document.querySelectorAll(
+                ".tooltip-trigger"
+            )
+        );
+
+    tooltipTriggers.forEach(function (trigger) {
     trigger.addEventListener(
         "mouseenter",
         function () {
@@ -900,6 +1070,10 @@ document.addEventListener(
 /* ==========================================================
    INICIALIZAÇÃO
    ========================================================== */
+
+enrichBibleReferenceTooltips();
+bindTooltipEvents();
+
 
 searchRows.forEach(function (row) {
     if (!row.dataset.dictionary) {
