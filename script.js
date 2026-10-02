@@ -503,7 +503,21 @@ const automaticBibliographicTerms = [
     { key: "Aen. Tact.", type: "biblio", text: "Eneias Tático" },
     { key: "Anth. Pal.", type: "biblio", text: "Anthologia Palatina" },
     { key: "Ps.-Theocr.", type: "biblio", text: "Pseudo-Teócrito" },
-    { key: "Harpocration", type: "biblio", text: "Harpocracião" }
+    { key: "Harpocration", type: "biblio", text: "Harpocracião" },
+    { key: "PEdgar", type: "biblio", text: "Papiros editados por C. C. Edgar; coleção papirológica" },
+    { key: "Exp.", type: "biblio", text: "The Expositor" },
+    { key: "GereformTT", type: "biblio", text: "Gereformeerd Theologisch Tijdschrift" },
+    { key: "Artem.", type: "biblio", text: "Artemidoro" },
+    { key: "Arrian", type: "biblio", text: "Arriano" },
+    { key: "TestSim", type: "biblio", text: "Testamento de Simeão" },
+    { key: "AcPt", type: "biblio", text: "Atos de Pedro" },
+    { key: "PAmh", type: "biblio", text: "The Amherst Papyri" },
+    { key: "PEleph", type: "biblio", text: "Elephantine Papyri" },
+    { key: "PCairGoodsp", type: "biblio", text: "Cairo papyrus edition cited by Goodspeed; referência preservada conforme o BDAG" },
+    { key: "IMagnMai", type: "biblio", text: "Inscrição de Magnésia do Meandro; referência epigráfica citada pelo BDAG" },
+    { key: "PPrinc", type: "biblio", text: "Princeton Papyri" },
+    { key: "SB", type: "biblio", text: "Sammelbuch griechischer Urkunden aus Ägypten" },
+    { key: "IMagn", type: "biblio", text: "Inscriptiones Magnesiae; referência epigráfica" }
 ];
 
 const automaticNamedAuthors = [
