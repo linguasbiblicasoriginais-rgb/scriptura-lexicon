@@ -488,7 +488,22 @@ const automaticBibliographicTerms = [
     { key: "PUps", type: "biblio", text: "Uppsala Papyri" },
     { key: "Aberciusins.", type: "biblio", text: "Inscrição de Abércio" },
     { key: "v", type: "biblio", text: "Pastor de Hermas, Visões; abreviação minúscula preservada conforme a fonte" },
-    { key: "Pol", type: "biblio", text: "Policarpo aos Filipenses" }
+    { key: "Pol", type: "biblio", text: "Policarpo aos Filipenses" },
+    { key: "MAI", type: "biblio", text: "Mitteilungen des Deutschen Archäologischen Instituts, Athenische Abteilung" },
+    { key: "SBWienAk", type: "biblio", text: "Sitzungsberichte der Kaiserlichen/Österreichischen Akademie der Wissenschaften in Wien" },
+    { key: "NJklA", type: "biblio", text: "Neue Jahrbücher für das klassische Altertum" },
+    { key: "RhM", type: "biblio", text: "Rheinisches Museum für Philologie" },
+    { key: "Beginn.", type: "biblio", text: "The Beginnings of Christianity" },
+    { key: "PHolm", type: "biblio", text: "Papyrus Holmiensis" },
+    { key: "PGissUniv", type: "biblio", text: "Giessener Universitäts-Papyri" },
+    { key: "TLZ", type: "biblio", text: "Theologische Literaturzeitung" },
+    { key: "Aeg.", type: "biblio", text: "Aegyptus; abreviação citada pelo BDAG" },
+    { key: "EphemEpigr", type: "biblio", text: "Ephemeris Epigraphica" },
+    { key: "TGF", type: "biblio", text: "Tragicorum Graecorum Fragmenta" },
+    { key: "Aen. Tact.", type: "biblio", text: "Eneias Tático" },
+    { key: "Anth. Pal.", type: "biblio", text: "Anthologia Palatina" },
+    { key: "Ps.-Theocr.", type: "biblio", text: "Pseudo-Teócrito" },
+    { key: "Harpocration", type: "biblio", text: "Harpocracião" }
 ];
 
 const automaticNamedAuthors = [
