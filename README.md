@@ -48,22 +48,21 @@ Essa regra aplica-se prospectivamente a todos os novos verbetes e deve ser usada
 
 ### Auditoria retroativa do Perseus
 
-As referências já cadastradas a autores antigos devem ser auditadas retroativamente. Quando o Perseus disponibilizar uma edição no idioma original e a passagem puder ser identificada com segurança, a citação na interface deve ser transformada em link direto para essa passagem.
+As referências já cadastradas a autores antigos devem ser auditadas retroativamente. Quando o Perseus disponibilizar uma edição no idioma original e a passagem puder ser identificada com segurança, a citação deve se tornar um link direto para essa passagem.
 
-A prioridade é o **texto grego original** para autores gregos e o **texto latino original** para autores latinos. Permanecem sem link apenas as referências cuja obra ou localização não possa ser determinada com segurança a partir da forma bibliográfica da fonte.
-
+A prioridade é o **texto grego original** para autores gregos e o **texto latino original** para autores latinos. Referências baseadas apenas em paginação editorial, sem identificação segura da obra e da passagem, devem permanecer sem link até que a equivalência possa ser confirmada.
 
 
 ## Regra editorial — referências bíblicas
 
-Os links bíblicos devem respeitar o dicionário ativo e a tradição textual adotada para aquela seção.
+Os links bíblicos devem respeitar a seção linguística do projeto.
 
-- no **Grego–Português**, **todas as referências ao Antigo Testamento** devem apontar para a **Septuaginta (LXX)** na Deutsche Bibelgesellschaft, ainda que a fonte lexicográfica não escreva explicitamente `Sept.` ou `LXX`;
-- no **Hebraico–Português**, as referências ao Antigo Testamento devem apontar para a **Bíblia Hebraica (BHS)**, salvo quando o próprio contexto exigir explicitamente outra tradição textual;
-- referências ao **Novo Testamento grego** apontam para a **NA28**;
-- livros deuterocanônicos/apócrifos pertencentes à tradição grega apontam para a **LXX**;
-- nas futuras seções Aramaico–Português e Latim–Português, a tradição textual deverá ser determinada pelo contexto da fonte, salvo regra específica posterior;
-- todos os links bíblicos devem mostrar, no popup ao passar o mouse ou receber foco, o **nome completo do livro** e a edição textual usada.
+- no **Grego–Português**, **todas as referências ao Antigo Testamento** devem apontar para a **Septuaginta (LXX)** na Deutsche Bibelgesellschaft, independentemente de a fonte lexicográfica escrever explicitamente `Sept.` ou `LXX`;
+- no **Hebraico–Português**, as referências ao Antigo Testamento devem apontar para a **Bíblia Hebraica (BHS)**, salvo indicação explícita em contrário;
+- referências ao **Novo Testamento grego** devem apontar para a **NA28**;
+- livros deuterocanônicos/apócrifos da tradição grega devem apontar para a **LXX**;
+- nas futuras seções Aramaico–Português e Latim–Português, a tradição textual será definida pelo contexto da fonte até que haja regra específica;
+- todos os links bíblicos devem mostrar, no popup ao passar o mouse ou receber foco, o **nome completo do livro** e a edição textual utilizada.
 
 Exemplos:
 
