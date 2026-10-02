@@ -560,7 +560,17 @@ const automaticBibliographicTerms = [
     { key: "Stephan. Byz.", type: "biblio", text: "Estêvão de Bizâncio" },
     { key: "Posidippus", type: "biblio", text: "Posidipo" },
     { key: "Warnecke", type: "biblio", text: "H. Warnecke; autor citado pelo BDAG" },
-    { key: "Hyperid.", type: "biblio", text: "Hipérides" }
+    { key: "Hyperid.", type: "biblio", text: "Hipérides" },
+    { key: "PBodm", type: "biblio", text: "Papyri Bodmeriani — Papiros Bodmer" },
+    { key: "ABD", type: "biblio", text: "Anchor Bible Dictionary" },
+    { key: "IHierapJ", type: "biblio", text: "Inscrição de Hierápolis citada pelo BDAG" },
+    { key: "NovT", type: "biblio", text: "Novum Testamentum" },
+    { key: "CMG", type: "biblio", text: "Corpus Medicorum Graecorum" },
+    { key: "Antig. Car.", type: "biblio", text: "Antígono de Caristo" },
+    { key: "Papias", type: "biblio", text: "Pápias de Hierápolis" },
+    { key: "Boll", type: "biblio", text: "F. Boll; autor citado pelo BDAG" },
+    { key: "Harmodius", type: "biblio", text: "Harmódio; autor antigo citado pelo BDAG" },
+    { key: "Qua.", type: "biblio", text: "Quadrato; fragmento/apologia citada pelo BDAG" }
 ];
 
 const automaticNamedAuthors = [
