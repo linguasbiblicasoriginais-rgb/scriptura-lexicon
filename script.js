@@ -223,6 +223,10 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "PFrankf", type: "biblio", text: "Griechische Papyri aus Frankfurt, ed. H. Lewald, 1920" },
+    { key: "PLeid", type: "biblio", text: "Papyri Graeci Musei Antiquarii Publici Lugduni-Batavi" },
+    { key: "ApcPt Bodl.", type: "biblio", text: "Apocalypse of Peter, Bodleian; M. R. James, Additional Notes on the Apocalypse of Peter, JTS 12 (1910–1911), 157; 367–369" },
+    { key: "ISBE", type: "biblio", text: "International Standard Bible Encyclopedia, edição revista" },
     { key: "PBour", type: "biblio", text: "Les Papyrus Bouriant, ed. P. Collart, 1926" },
     { key: "CPR", type: "biblio", text: "Corpus Papyrorum Raineri" },
     { key: "P72", type: "biblio", text: "Papyrus Bodmer VII–IX" },
