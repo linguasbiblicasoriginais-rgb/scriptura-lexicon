@@ -223,6 +223,8 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "PVindobBosw", type: "biblio", text: "Einige Wiener Papyri, ed. E. Boswinkel, 1942" },
+    { key: "PMert", type: "biblio", text: "A Descriptive Catalogue of the Greek Papyri in the Collection of Wilfred Merton I–III, vários editores, 1948–1967" },
     { key: "PFrankf", type: "biblio", text: "Griechische Papyri aus Frankfurt, ed. H. Lewald, 1920" },
     { key: "PLeid", type: "biblio", text: "Papyri Graeci Musei Antiquarii Publici Lugduni-Batavi" },
     { key: "ApcPt Bodl.", type: "biblio", text: "Apocalypse of Peter, Bodleian; M. R. James, Additional Notes on the Apocalypse of Peter, JTS 12 (1910–1911), 157; 367–369" },
