@@ -223,6 +223,13 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "ClJ", type: "biblio", text: "Classical Journal (Chicago)" },
+    { key: "CPJ", type: "biblio", text: "Corpus Papyrorum Judaicarum" },
+    { key: "TestAdam", type: "biblio", text: "Testamento de Adão; edição de S. Robinson (1982)" },
+    { key: "Preis.", type: "biblio", text: "F. Preisigke, Wörterbuch der griechischen Papyrusurkunden, vols. I–IV e suplementos" },
+    { key: "Michel", type: "biblio", text: "C. Michel, Recueil d’inscriptions grecques (1900; suplemento 1912)" },
+    { key: "Kühner-Bl.", type: "biblio", text: "R. Kühner, Ausführliche Grammatik der griechischen Sprache, 3ª ed., revisão de F. Blass" },
+    { key: "N25", type: "biblio", text: "Nestle–Aland, Novum Testamentum Graece, 25ª edição" },
     { key: "N. T.", type: "abbr", text: "Novo Testamento" },
     { key: "NT", type: "abbr", text: "Novo Testamento" },
     { key: "OT", type: "abbr", text: "Antigo Testamento" },
