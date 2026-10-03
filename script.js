@@ -223,6 +223,9 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "IKosPH", type: "biblio", text: "The Inscriptions of Cos, ed. W. Paton / E. Hicks, 1891" },
+    { key: "EncBibl", type: "biblio", text: "Encyclopaedia Biblica, ed. T. Cheyne e J. Black, 4 vols., 1899–1903" },
+    { key: "Kaibel", type: "biblio", text: "Epigrammata Graeca ex Lapidibus Conlecta, ed. G. Kaibel, 1878" },
     { key: "PtK", type: "biblio", text: "Petruskerygma — Preaching of Peter (Pregação de Pedro)" },
     { key: "Agr", type: "biblio", text: "Agraphon; E. Preuschen, Antilegomena² (1905), 26–31: Herrenlose Herrnworte — ditos não canônicos atribuídos a Jesus" },
     { key: "JHS", type: "biblio", text: "Journal of Hellenic Studies" },
