@@ -223,6 +223,8 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "AcPl Ant", type: "biblio", text: "Acta Pauli, P. Antinoopolis 13, em The Antinoopolis Papyri I, ed. C. H. Roberts, 1950, pp. 26–28" },
+    { key: "Aa", type: "biblio", text: "Acta apostolorum apocrypha — Atos apócrifos dos apóstolos" },
     { key: "PFlor", type: "biblio", text: "Papiri Fiorentini I–III, vários editores, 1906–1915" },
     { key: "Mlt-H.", type: "biblio", text: "J. H. Moulton / W. F. Howard, A Grammar of New Testament Greek II: Accidence and Word-Formation" },
     { key: "W.-S.", type: "biblio", text: "G. Winer, Grammatik des neutestamentlichen Sprachidioms, 8ª edição por P. Schmiedel" },
