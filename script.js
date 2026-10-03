@@ -223,6 +223,11 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "PtK", type: "biblio", text: "Petruskerygma — Preaching of Peter (Pregação de Pedro)" },
+    { key: "Agr", type: "biblio", text: "Agraphon; E. Preuschen, Antilegomena² (1905), 26–31: Herrenlose Herrnworte — ditos não canônicos atribuídos a Jesus" },
+    { key: "JHS", type: "biblio", text: "Journal of Hellenic Studies" },
+    { key: "ClR", type: "biblio", text: "Classical Review" },
+    { key: "IAsMinLyk", type: "biblio", text: "Reisen im südwestlichen Kleinasien I: Reisen in Lykien und Karien, ed. O. Benndorf / G. Niemann, 1884; II: Lykien, Milyas und Kibyratis, ed. E. Petersen / F. von Luschan, 1889" },
     { key: "PVindobBosw", type: "biblio", text: "Einige Wiener Papyri, ed. E. Boswinkel, 1942" },
     { key: "PMert", type: "biblio", text: "A Descriptive Catalogue of the Greek Papyri in the Collection of Wilfred Merton I–III, vários editores, 1948–1967" },
     { key: "PFrankf", type: "biblio", text: "Griechische Papyri aus Frankfurt, ed. H. Lewald, 1920" },
