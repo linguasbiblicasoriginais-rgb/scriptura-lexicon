@@ -223,6 +223,10 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "PBour", type: "biblio", text: "Les Papyrus Bouriant, ed. P. Collart, 1926" },
+    { key: "CPR", type: "biblio", text: "Corpus Papyrorum Raineri" },
+    { key: "P72", type: "biblio", text: "Papyrus Bodmer VII–IX" },
+    { key: "MPG", type: "biblio", text: "Migne, Patrologia Graeca" },
     { key: "AcPl Ant", type: "biblio", text: "Acta Pauli, P. Antinoopolis 13, em The Antinoopolis Papyri I, ed. C. H. Roberts, 1950, pp. 26–28" },
     { key: "Aa", type: "biblio", text: "Acta apostolorum apocrypha — Atos apócrifos dos apóstolos" },
     { key: "PFlor", type: "biblio", text: "Papiri Fiorentini I–III, vários editores, 1906–1915" },
