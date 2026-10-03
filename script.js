@@ -223,6 +223,12 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "Lghtf.", type: "biblio", text: "J. B. Lightfoot" },
+    { key: "Schwyzer", type: "biblio", text: "E. Schwyzer, Griechische Grammatik, 3 vols., 1950–1953" },
+    { key: "PTurin", type: "biblio", text: "Papyri graeci Regii Taurinensis Musei Aegyptii, ed. A. Peyron, 1827–1829" },
+    { key: "Mlt-Turner", type: "biblio", text: "J. H. Moulton / N. Turner, A Grammar of New Testament Greek III: Syntax; IV: Style" },
+    { key: "Pfuhl-Möbius", type: "biblio", text: "E. Pfuhl / H. Möbius, Die ostgriechischen Grabreliefs, 2 vols., 1977–1979" },
+    { key: "CTM", type: "biblio", text: "Concordia Theological Monthly" },
     { key: "ClJ", type: "biblio", text: "Classical Journal (Chicago)" },
     { key: "CPJ", type: "biblio", text: "Corpus Papyrorum Judaicarum" },
     { key: "TestAdam", type: "biblio", text: "Testamento de Adão; edição de S. Robinson (1982)" },
