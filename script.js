@@ -223,6 +223,11 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "PFlor", type: "biblio", text: "Papiri Fiorentini I–III, vários editores, 1906–1915" },
+    { key: "Mlt-H.", type: "biblio", text: "J. H. Moulton / W. F. Howard, A Grammar of New Testament Greek II: Accidence and Word-Formation" },
+    { key: "W.-S.", type: "biblio", text: "G. Winer, Grammatik des neutestamentlichen Sprachidioms, 8ª edição por P. Schmiedel" },
+    { key: "Qua", type: "biblio", text: "Fragmento de Quadrato; Die Ältesten Apologeten, ed. E. J. Goodspeed, 1911, p. 1; também Bihlmeyer" },
+    { key: "AcPt Ox 849", type: "biblio", text: "Acta Petri, P. Oxy. 849" },
     { key: "Lghtf.", type: "biblio", text: "J. B. Lightfoot" },
     { key: "Schwyzer", type: "biblio", text: "E. Schwyzer, Griechische Grammatik, 3 vols., 1950–1953" },
     { key: "PTurin", type: "biblio", text: "Papyri graeci Regii Taurinensis Musei Aegyptii, ed. A. Peyron, 1827–1829" },
