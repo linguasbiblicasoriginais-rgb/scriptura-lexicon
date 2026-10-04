@@ -223,6 +223,7 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "Boffo", type: "biblio", text: "L. Boffo, Iscrizioni greche e latine per lo studio della bibbia, 1994" },
     { key: "IKosPH", type: "biblio", text: "The Inscriptions of Cos, ed. W. Paton / E. Hicks, 1891" },
     { key: "EncBibl", type: "biblio", text: "Encyclopaedia Biblica, ed. T. Cheyne e J. Black, 4 vols., 1899–1903" },
     { key: "Kaibel", type: "biblio", text: "Epigrammata Graeca ex Lapidibus Conlecta, ed. G. Kaibel, 1878" },
