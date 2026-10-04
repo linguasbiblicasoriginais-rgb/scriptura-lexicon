@@ -223,6 +223,12 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "IPriene", type: "biblio", text: "Die Inschriften von Priene, ed. H. von Gaertringen, 1906" },
+    { key: "ByzZ", type: "biblio", text: "Byzantinische Zeitschrift, 1892ss." },
+    { key: "ATR", type: "biblio", text: "Anglican Theological Review, 1918ss." },
+    { key: "JAC", type: "biblio", text: "Jahrbuch für Antike und Christentum, 1958ss." },
+    { key: "Rdm.", type: "biblio", text: "L. Radermacher, Neutestamentliche Grammatik" },
+    { key: "Dalman", type: "biblio", text: "Gustaf Dalman; no BDAG, entre outras obras, Die Worte Jesu e Jesus-Jeschua" },
     { key: "Boffo", type: "biblio", text: "L. Boffo, Iscrizioni greche e latine per lo studio della bibbia, 1994" },
     { key: "IKosPH", type: "biblio", text: "The Inscriptions of Cos, ed. W. Paton / E. Hicks, 1891" },
     { key: "EncBibl", type: "biblio", text: "Encyclopaedia Biblica, ed. T. Cheyne e J. Black, 4 vols., 1899–1903" },
