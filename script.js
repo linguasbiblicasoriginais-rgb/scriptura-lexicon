@@ -1,5 +1,59 @@
 "use strict";
 
+/* ==========================================================
+   FONTES LEXICOGRÁFICAS EXTERNAS
+   ========================================================== */
+
+/*
+ * Cada fonte pode registrar seus próprios blocos de linhas, cartões e
+ * abreviaturas em window.ScripturaLexicons antes da carga deste arquivo.
+ * Os fragmentos são montados de forma síncrona porque os arquivos de fonte
+ * são carregados antes de script.js no fim do <body>.
+ *
+ * Isso permite que BDAG e LEH sejam editados em branches independentes
+ * sem disputar os mesmos blocos de index.html ou o registro bibliográfico
+ * comum.
+ */
+const externalLexiconSources =
+    Object.values(
+        window.ScripturaLexicons || {}
+    );
+
+externalLexiconSources.forEach(function (source) {
+    const searchAnchor =
+        document.getElementById(
+            source.searchAnchorId || ""
+        );
+
+    if (searchAnchor) {
+        if (source.rowsHtml) {
+            searchAnchor.insertAdjacentHTML(
+                "beforebegin",
+                source.rowsHtml
+            );
+        }
+
+        searchAnchor.remove();
+    }
+
+    const entryAnchor =
+        document.getElementById(
+            source.entryAnchorId || ""
+        );
+
+    if (entryAnchor) {
+        if (source.cardsHtml) {
+            entryAnchor.insertAdjacentHTML(
+                "beforebegin",
+                source.cardsHtml
+            );
+        }
+
+        entryAnchor.remove();
+    }
+});
+
+
 const searchInput = document.getElementById("search-input");
 const sourceFilter = document.getElementById("source-filter");
 const searchTableWrapper = document.getElementById("search-table-wrapper");
@@ -223,6 +277,16 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "Wlh.", type: "biblio", text: "J. Wellhausen, Einleitung — abreviação bibliográfica do BDAG" },
+    { key: "Rossberg", type: "biblio", text: "C. Rossberg, De praepositionum Graecarum in chartis Aegyptiis Ptolemaeorum aetatis usu, diss. Jena, 1909" },
+    { key: "Schürer", type: "biblio", text: "E. Schürer, The History of the Jewish People in the Age of Jesus Christ (175 b.c.–a.d. 135), versão inglesa nova e revista de Geschichte des jüdischen Volkes, 3 vols. em 4, 1973–87" },
+    { key: "Mlt.", type: "biblio", text: "J. H. Moulton; no BDAG, quando seguida apenas de página, a abreviação remete a A Grammar of New Testament Greek, vol. I: Prolegomena, 1908" },
+    { key: "Mayser", type: "biblio", text: "E. Mayser, Grammatik der griechischen Papyri aus der Ptolemäerzeit, 2 vols.; no BDAG, o primeiro volume pode ser citado sem indicação de volume" },
+    { key: "Crönert", type: "biblio", text: "W. Crönert, Memoria Graeca Herculanensis, 1903" },
+    { key: "Thackeray", type: "biblio", text: "H. St. J. Thackeray, A Grammar of the Old Testament in Greek according to the Septuagint" },
+    { key: "Dssm.", type: "biblio", text: "A. Deissmann; no BDAG, B = Bibelstudien (1895), NB = Neue Bibelstudien (1897), BS = Bible Studies (1901) e LO = Licht vom Osten" },
+    { key: "Reinhold", type: "biblio", text: "H. Reinhold, De graecitate patrum apostolicorum librorumque apocryphorum NTi quaestiones grammaticae, diss. Phil. Hal. XIV/1 (1898), 1–115" },
+    { key: "IPergamon", type: "biblio", text: "Die Inschriften von Pergamon, ed. M. Fränkel, 1890 e 1895" },
     { key: "IAndrosIsis", type: "biblio", text: "Der Isishymnus von Andros und verwandte Texte; inclui textos de Andros, Cirene, Ios, Kyme e o hino de Ísis de Mesomedes" },
     { key: "PCorn", type: "biblio", text: "Greek Papyri in the Library of Cornell University, ed. W. Westermann e C. Kraemer Jr., 1926" },
     { key: "PECS", type: "biblio", text: "Princeton Encyclopedia of Classical Sites" },
@@ -985,6 +1049,76 @@ function enrichModernAuthorTooltips(root) {
 }
 
 
+
+function getBibliographicDefinitionsForRoot(root) {
+    const definitionsByKey =
+        new Map();
+
+    automaticBibliographicTerms
+        .forEach(function (definition) {
+            definitionsByKey.set(
+                definition.key,
+                definition
+            );
+        });
+
+    const entryCard =
+        root.closest(
+            ".entry-card"
+        );
+
+    const sourceName =
+        entryCard
+            ? (
+                entryCard.dataset.source ||
+                (
+                    entryCard.querySelector(
+                        ".source-tag"
+                    )?.textContent || ""
+                ).trim()
+            )
+            : "";
+
+    const sourceConfig =
+        externalLexiconSources.find(
+            function (source) {
+                return (
+                    source.source ===
+                    sourceName
+                );
+            }
+        );
+
+    if (
+        sourceConfig &&
+        Array.isArray(
+            sourceConfig.bibliographicTerms
+        )
+    ) {
+        sourceConfig.bibliographicTerms
+            .forEach(function (definition) {
+                /*
+                 * A definição da própria fonte prevalece sobre uma
+                 * definição comum de mesma chave.
+                 */
+                definitionsByKey.set(
+                    definition.key,
+                    definition
+                );
+            });
+    }
+
+    return Array.from(
+        definitionsByKey.values()
+    ).sort(function (a, b) {
+        return (
+            b.key.length -
+            a.key.length
+        );
+    });
+}
+
+
 function enrichBibliographicTooltips() {
     const roots =
         Array.from(
@@ -993,17 +1127,11 @@ function enrichBibliographicTooltips() {
             )
         );
 
-    const definitions =
-        automaticBibliographicTerms
-            .slice()
-            .sort(function (a, b) {
-                return (
-                    b.key.length -
-                    a.key.length
-                );
-            });
-
     roots.forEach(function (root) {
+        const definitions =
+            getBibliographicDefinitionsForRoot(
+                root
+            );
         /*
          * Primeiro isolamos os nomes modernos no formato
          * "A. Carr", "W. Lütgert", etc. Assim siglas de uma
