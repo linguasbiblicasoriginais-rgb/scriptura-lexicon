@@ -223,6 +223,13 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "Mlt.", type: "biblio", text: "J. H. Moulton; no BDAG, quando seguida apenas de página, a abreviação remete a A Grammar of New Testament Greek, vol. I: Prolegomena, 1908" },
+    { key: "Mayser", type: "biblio", text: "E. Mayser, Grammatik der griechischen Papyri aus der Ptolemäerzeit, 2 vols.; no BDAG, o primeiro volume pode ser citado sem indicação de volume" },
+    { key: "Crönert", type: "biblio", text: "W. Crönert, Memoria Graeca Herculanensis, 1903" },
+    { key: "Thackeray", type: "biblio", text: "H. St. J. Thackeray, A Grammar of the Old Testament in Greek according to the Septuagint" },
+    { key: "Dssm.", type: "biblio", text: "A. Deissmann; no BDAG, B = Bibelstudien (1895), NB = Neue Bibelstudien (1897), BS = Bible Studies (1901) e LO = Licht vom Osten" },
+    { key: "Reinhold", type: "biblio", text: "H. Reinhold, De graecitate patrum apostolicorum librorumque apocryphorum NTi quaestiones grammaticae, diss. Phil. Hal. XIV/1 (1898), 1–115" },
+    { key: "IPergamon", type: "biblio", text: "Die Inschriften von Pergamon, ed. M. Fränkel, 1890 e 1895" },
     { key: "IAndrosIsis", type: "biblio", text: "Der Isishymnus von Andros und verwandte Texte; inclui textos de Andros, Cirene, Ios, Kyme e o hino de Ísis de Mesomedes" },
     { key: "PCorn", type: "biblio", text: "Greek Papyri in the Library of Cornell University, ed. W. Westermann e C. Kraemer Jr., 1926" },
     { key: "PECS", type: "biblio", text: "Princeton Encyclopedia of Classical Sites" },
