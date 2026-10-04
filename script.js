@@ -223,6 +223,10 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "IAndrosIsis", type: "biblio", text: "Der Isishymnus von Andros und verwandte Texte; inclui textos de Andros, Cirene, Ios, Kyme e o hino de Ísis de Mesomedes" },
+    { key: "PCorn", type: "biblio", text: "Greek Papyri in the Library of Cornell University, ed. W. Westermann e C. Kraemer Jr., 1926" },
+    { key: "PECS", type: "biblio", text: "Princeton Encyclopedia of Classical Sites" },
+    { key: "PThéad", type: "biblio", text: "Papyrus de Théadelphie, ed. P. Jouguet, 1911" },
     { key: "Mel.", type: "biblio", text: "Melito de Sardes, séc. II d.C." },
     { key: "Jac.", type: "biblio", text: "F. Jacoby, Die Fragmente der griechischen Historiker, 1923ss." },
     { key: "NouvRT", type: "biblio", text: "Nouvelle revue théologique, 1869ss." },
