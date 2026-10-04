@@ -223,6 +223,12 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "Mel.", type: "biblio", text: "Melito de Sardes, séc. II d.C." },
+    { key: "Jac.", type: "biblio", text: "F. Jacoby, Die Fragmente der griechischen Historiker, 1923ss." },
+    { key: "NouvRT", type: "biblio", text: "Nouvelle revue théologique, 1869ss." },
+    { key: "BKT", type: "biblio", text: "Berliner Klassikertexte, 7 vols., 1904–1939" },
+    { key: "CIL", type: "biblio", text: "Corpus Inscriptionum Latinarum, iniciado por T. Mommsen, 1863ss." },
+    { key: "Rouffiac", type: "biblio", text: "J. Rouffiac, Recherches sur les caractères du Grec dans le NT d’après les inscriptions de Priène, 1911" },
     { key: "IPriene", type: "biblio", text: "Die Inschriften von Priene, ed. H. von Gaertringen, 1906" },
     { key: "ByzZ", type: "biblio", text: "Byzantinische Zeitschrift, 1892ss." },
     { key: "ATR", type: "biblio", text: "Anglican Theological Review, 1918ss." },
