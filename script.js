@@ -1,5 +1,59 @@
 "use strict";
 
+/* ==========================================================
+   FONTES LEXICOGRÁFICAS EXTERNAS
+   ========================================================== */
+
+/*
+ * Cada fonte pode registrar seus próprios blocos de linhas, cartões e
+ * abreviaturas em window.ScripturaLexicons antes da carga deste arquivo.
+ * Os fragmentos são montados de forma síncrona porque os arquivos de fonte
+ * são carregados antes de script.js no fim do <body>.
+ *
+ * Isso permite que BDAG e LEH sejam editados em branches independentes
+ * sem disputar os mesmos blocos de index.html ou o registro bibliográfico
+ * comum.
+ */
+const externalLexiconSources =
+    Object.values(
+        window.ScripturaLexicons || {}
+    );
+
+externalLexiconSources.forEach(function (source) {
+    const searchAnchor =
+        document.getElementById(
+            source.searchAnchorId || ""
+        );
+
+    if (searchAnchor) {
+        if (source.rowsHtml) {
+            searchAnchor.insertAdjacentHTML(
+                "beforebegin",
+                source.rowsHtml
+            );
+        }
+
+        searchAnchor.remove();
+    }
+
+    const entryAnchor =
+        document.getElementById(
+            source.entryAnchorId || ""
+        );
+
+    if (entryAnchor) {
+        if (source.cardsHtml) {
+            entryAnchor.insertAdjacentHTML(
+                "beforebegin",
+                source.cardsHtml
+            );
+        }
+
+        entryAnchor.remove();
+    }
+});
+
+
 const searchInput = document.getElementById("search-input");
 const sourceFilter = document.getElementById("source-filter");
 const searchTableWrapper = document.getElementById("search-table-wrapper");
@@ -995,6 +1049,76 @@ function enrichModernAuthorTooltips(root) {
 }
 
 
+
+function getBibliographicDefinitionsForRoot(root) {
+    const definitionsByKey =
+        new Map();
+
+    automaticBibliographicTerms
+        .forEach(function (definition) {
+            definitionsByKey.set(
+                definition.key,
+                definition
+            );
+        });
+
+    const entryCard =
+        root.closest(
+            ".entry-card"
+        );
+
+    const sourceName =
+        entryCard
+            ? (
+                entryCard.dataset.source ||
+                (
+                    entryCard.querySelector(
+                        ".source-tag"
+                    )?.textContent || ""
+                ).trim()
+            )
+            : "";
+
+    const sourceConfig =
+        externalLexiconSources.find(
+            function (source) {
+                return (
+                    source.source ===
+                    sourceName
+                );
+            }
+        );
+
+    if (
+        sourceConfig &&
+        Array.isArray(
+            sourceConfig.bibliographicTerms
+        )
+    ) {
+        sourceConfig.bibliographicTerms
+            .forEach(function (definition) {
+                /*
+                 * A definição da própria fonte prevalece sobre uma
+                 * definição comum de mesma chave.
+                 */
+                definitionsByKey.set(
+                    definition.key,
+                    definition
+                );
+            });
+    }
+
+    return Array.from(
+        definitionsByKey.values()
+    ).sort(function (a, b) {
+        return (
+            b.key.length -
+            a.key.length
+        );
+    });
+}
+
+
 function enrichBibliographicTooltips() {
     const roots =
         Array.from(
@@ -1003,17 +1127,11 @@ function enrichBibliographicTooltips() {
             )
         );
 
-    const definitions =
-        automaticBibliographicTerms
-            .slice()
-            .sort(function (a, b) {
-                return (
-                    b.key.length -
-                    a.key.length
-                );
-            });
-
     roots.forEach(function (root) {
+        const definitions =
+            getBibliographicDefinitionsForRoot(
+                root
+            );
         /*
          * Primeiro isolamos os nomes modernos no formato
          * "A. Carr", "W. Lütgert", etc. Assim siglas de uma
