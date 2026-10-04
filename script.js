@@ -223,6 +223,8 @@ function enrichBibleReferenceTooltips() {
  * o contexto editorial permitir uma identificação inequívoca.
  */
 const automaticBibliographicTerms = [
+    { key: "Rossberg", type: "biblio", text: "C. Rossberg, De praepositionum Graecarum in chartis Aegyptiis Ptolemaeorum aetatis usu, diss. Jena, 1909" },
+    { key: "Schürer", type: "biblio", text: "E. Schürer, The History of the Jewish People in the Age of Jesus Christ (175 b.c.–a.d. 135), versão inglesa nova e revista de Geschichte des jüdischen Volkes, 3 vols. em 4, 1973–87" },
     { key: "Mlt.", type: "biblio", text: "J. H. Moulton; no BDAG, quando seguida apenas de página, a abreviação remete a A Grammar of New Testament Greek, vol. I: Prolegomena, 1908" },
     { key: "Mayser", type: "biblio", text: "E. Mayser, Grammatik der griechischen Papyri aus der Ptolemäerzeit, 2 vols.; no BDAG, o primeiro volume pode ser citado sem indicação de volume" },
     { key: "Crönert", type: "biblio", text: "W. Crönert, Memoria Graeca Herculanensis, 1903" },
