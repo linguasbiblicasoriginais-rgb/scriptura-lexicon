@@ -219,6 +219,16 @@ window.ScripturaLexicons.LEH = {
             key: "TURNER 1926",
             type: "biblio",
             text: "C. H. Turner, “Ὁ υἱός μου ὁ ἀγαπητός”, Journal of Theological Studies 27 (1926), pp. 113–129"
+        },
+        {
+            key: "HORSLEY 1989",
+            type: "biblio",
+            text: "G. H. R. Horsley, New Documents Illustrating Early Christianity, vol. 5: Linguistic Essays, Macquarie University, N.S.W., 1989"
+        },
+        {
+            key: "LE BOULLUEC 1989",
+            type: "biblio",
+            text: "A. Le Boulluec e P. Sandevoir, La Bible d’Alexandrie II. L’Exode, Paris, 1989"
         }
     ],
 
@@ -343,6 +353,36 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-agauriaomai-leh" data-source="LEH" data-search="ἀγαυριάομαι agauriaomai verbo orgulhar-se jactar-se Jó neologismo HELBING LSJ LEH" tabindex="0">
     <td class="table-lemma greek">ἀγαυριάομαι</td><td>Verbo</td><td>orgulhar-se; jactar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-angeion-leh" data-source="LEH" data-search="ἀγγεῖον angeion substantivo vaso recipiente Gênesis Levítico Números HARL LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγγεῖον</td><td>Substantivo</td><td>vaso; recipiente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-angelia-leh" data-source="LEH" data-search="ἀγγελία angelia substantivo mensagem notícias novas relato 1 Samuel 2 Samuel 2 Reis Isaías LARCHER TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγγελία</td><td>Substantivo</td><td>mensagem; notícias; novas; relato</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-angello-leh" data-source="LEH" data-search="ἀγγέλλω angello verbo remissão compostos TWNT prefixos LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγγέλλω</td><td>Verbo</td><td>remissão aos compostos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-angelos-leh" data-source="LEH" data-search="ἄγγελος angelos substantivo mensageiro anjo Gênesis Juízes 2 Reis Jó aramaico hebraico MT HARL HORSLEY LE BOULLUEC WALTERS WEVERS NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἄγγελος</td><td>Substantivo</td><td>mensageiro; anjo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-angos-leh" data-source="LEH" data-search="ἄγγος angos substantivo vaso cuba recipiente cesto Deuteronômio 1 Reis Jeremias Ezequiel Amós Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄγγος</td><td>Substantivo</td><td>vaso; cuba; recipiente; cesto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-age-leh" data-source="LEH" data-search="ἄγε age interjeição imperativo ἄγω vamos 2 Reis Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄγε</td><td>Interjeição</td><td>vamos!</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agelaios-leh" data-source="LEH" data-search="ἀγελαῖος agelaios adjetivo em grupo em bando 2 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγελαῖος</td><td>Adjetivo</td><td>em grupo; em bando</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agelazomai-leh" data-source="LEH" data-search="ἀγελάζομαι agelazomai verbo remissão συν composto LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγελάζομαι</td><td>Verbo</td><td>remissão ao composto com συν-</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agele-leh" data-source="LEH" data-search="ἀγέλη agele substantivo rebanho manada companhia assembleia 1 Samuel Isaías Provérbios Cântico dos Cânticos 4 Macabeus WALTERS Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγέλη</td><td>Substantivo</td><td>rebanho; manada; companhia; assembleia</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ageledon-leh" data-source="LEH" data-search="ἀγεληδόν ageledon advérbio em grupos em bandos 2 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγεληδόν</td><td>Advérbio</td><td>em grupos; em bandos</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -739,6 +779,100 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>orgulhar-se; jactar-se</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
         <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.3.14" target="_blank" rel="noopener noreferrer">Jó 3.14</a>.</p>
         <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 261-262; → <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="LSJ RSuppl" data-tooltip-text="Liddell–Scott–Jones, Revised Supplement; ed. P. G. W. Glare, com assistência de A. A. Thompson, 1996 (→ LIDDELL)">LSJ RSuppl</span>.</p>
+    </section>
+</article>
+<article id="entry-angeion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγγεῖον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγγεῖον, -ον · angeion" data-transliteration="angeion" data-meanings="vaso|recipiente">ἀγγεῖον, -ον</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 6-3-9-2-4=24</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vaso, recipiente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.42.25" target="_blank" rel="noopener noreferrer">Gn 42.25</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.43.11" target="_blank" rel="noopener noreferrer">43.11</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.11.34" target="_blank" rel="noopener noreferrer">Lv 11.34</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.14.5" target="_blank" rel="noopener noreferrer">14.5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.4.9" target="_blank" rel="noopener noreferrer">Nm 4.9</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 280-281.</p>
+    </section>
+</article>
+
+<article id="entry-angelia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγγελία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγγελία, -ας · angelia" data-transliteration="angelia" data-meanings="mensagem|notícias|novas|relato">ἀγγελία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-3-6-3-1=13</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>mensagem; notícias; novas; relato</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.4.19" target="_blank" rel="noopener noreferrer">1Sm 4.19</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.4.4" target="_blank" rel="noopener noreferrer">2Sm 4.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.19.7" target="_blank" rel="noopener noreferrer">2Re 19.7</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.28.9" target="_blank" rel="noopener noreferrer">Is 28.9</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.37.7" target="_blank" rel="noopener noreferrer">37.7</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1984, 371 (Sb 5.9); → TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-angello-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγγέλλω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγγέλλω · angellō" data-transliteration="angellō" data-meanings="remissão do LEH aos compostos do verbo">ἀγγέλλω</span><span class="separator">·</span><span>verbo</span><span class="separator">·</span><span>sem estatística própria no LEH</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Remissões da fonte</div>
+        <p class="entry-text">O LEH não fornece glossa autônoma neste ponto; remete a <strong>TWNT</strong> e aos compostos com os prefixos <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀν- · an-" data-transliteration="an-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">ἀν-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀπ- · ap-" data-transliteration="ap-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">ἀπ-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="δι- · di-" data-transliteration="di-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">δι-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐξ- · ex-" data-transliteration="ex-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">ἐξ-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐπ- · ep-" data-transliteration="ep-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">ἐπ-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="κατ- · kat-" data-transliteration="kat-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">κατ-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="παρ- · par-" data-transliteration="par-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">παρ-</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="προαπ- · proap-" data-transliteration="proap-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">προαπ-</span> e <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="προς- · pros-" data-transliteration="pros-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">προς-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-angelos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄγγελος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγγελος, -ου · angelos" data-transliteration="angelos" data-meanings="mensageiro|anjo">ἄγγελος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 42-150-43-51-64=350</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>mensageiro</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.32.4" target="_blank" rel="noopener noreferrer">Gn 32.4</a>); <strong>anjo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.16.7" target="_blank" rel="noopener noreferrer">Gn 16.7</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 16.7,8,9,10,11.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span>Jz<sup>B</sup> 5.16 <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγγέλων · angelōn" data-transliteration="angelōn" data-meanings="anjos">ἀγγέλων</span> <strong>anjos</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="עירין · aramaico" data-transliteration="ʿyrin" data-meanings="vigilantes">עירין</bdi> (aramaico), <strong>vigilantes</strong>, por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="עדרים" data-transliteration="ʿdrim" data-meanings="rebanhos">עדרים</bdi> <strong>rebanhos</strong>; ou <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγγέλων · angelōn" data-transliteration="angelōn" data-meanings="anjos">ἀγγέλων</span> corrigido para <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγελῶν · agelōn" data-transliteration="agelōn" data-meanings="rebanhos">ἀγελῶν</span>, <strong>rebanhos</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.7.17" target="_blank" rel="noopener noreferrer">2Re 7.17</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὸν ἄγγελον · ton angelon" data-transliteration="ton angelon" data-meanings="o mensageiro">τὸν ἄγγελον</span> <strong>o mensageiro</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="המלאך" data-transliteration="hmlʾk" data-meanings="o mensageiro|o anjo">המלאך</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="המלך" data-transliteration="hmlk" data-meanings="o rei">המלך</bdi> <strong>o rei</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.36.14" target="_blank" rel="noopener noreferrer">Jó 36.14</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὑπὸ ἀγγέλων · hypo angelōn" data-transliteration="hypo angelōn" data-meanings="por mensageiros">ὑπὸ ἀγγέλων</span> <strong>por mensageiros</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="קדושׁים/ב" data-transliteration="qdwšym/b" data-meanings="por seres santos|por seres celestes">קדושׁים/ב</bdi> <strong>por seres santos, por seres celestes</strong>, por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="קדשׁים/ב" data-transliteration="qdšym/b" data-meanings="por prostitutos masculinos">קדשׁים/ב</bdi> <strong>por prostitutos masculinos?</strong></p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 53-54; HORSLEY 1989, 72-73; LE BOULLUEC 1989, 103 (Êx 4.24); WALTERS 1973, 225, 279 (Jz 5.16); WEVERS 1990, 54, 369, 540; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-angos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄγγος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγγος, -ους · angos" data-transliteration="angos" data-meanings="vaso|cuba|recipiente|cesto">ἄγγος, -ους</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 1-1-4-0-0=6</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vaso, cuba, recipiente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.23.26" target="_blank" rel="noopener noreferrer">Dt 23.26(25)</a>); <strong>cesto</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/AMO.8.1" target="_blank" rel="noopener noreferrer">Am 8.1</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Dt 23.26(25); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.17.10" target="_blank" rel="noopener noreferrer">1Re 17.10</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.19.11" target="_blank" rel="noopener noreferrer">Jr 19.11</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.4.9" target="_blank" rel="noopener noreferrer">Ez 4.9</a>; Am 8.1.</p>
+    </section>
+</article>
+
+<article id="entry-age-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄγε</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγε · age" data-transliteration="age" data-meanings="vamos!">ἄγε</span><span class="separator">·</span><span>interjeição (I)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">Imperativo de <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγω · agō" data-transliteration="agō" data-meanings="conduzir|levar">ἄγω</span>, usado como interjeição: <strong>vamos!</strong></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.4.24" target="_blank" rel="noopener noreferrer">2Re 4.24</a>.</p>
+    </section>
+</article>
+
+<article id="entry-agelaios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγελαῖος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγελαῖος, -α, -ον · agelaios" data-transliteration="agelaios" data-meanings="em grupo|em bando">ἀγελαῖος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>em grupo, em bando</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.14.23" target="_blank" rel="noopener noreferrer">2Mc 14.23</a>.</p>
+    </section>
+</article>
+
+<article id="entry-agelazomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγελάζομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγελάζομαι · agelazomai" data-transliteration="agelazomai" data-meanings="remissão do LEH ao composto com συν-">ἀγελάζομαι</span><span class="separator">·</span><span>verbo</span><span class="separator">·</span><span>sem estatística própria no LEH</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Remissão da fonte</div>
+        <p class="entry-text">O LEH não fornece glossa ou estatística autônoma neste ponto; remete ao composto com <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="συν- · syn-" data-transliteration="syn-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">συν-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-agele-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγέλη</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγέλη, -ης · agelē" data-transliteration="agelē" data-meanings="rebanho|manada|companhia|assembleia">ἀγέλη, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-2-1-6-1=10</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>rebanho, manada</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.17.34" target="_blank" rel="noopener noreferrer">1Sm 17.34</a>); <strong>companhia, assembleia</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.5.4" target="_blank" rel="noopener noreferrer">4Mc 5.4</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Sm 17.34; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.24.4" target="_blank" rel="noopener noreferrer">24.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.60.6" target="_blank" rel="noopener noreferrer">Is 60.6</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.27.23" target="_blank" rel="noopener noreferrer">Pv 27.23</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SNG.1.7" target="_blank" rel="noopener noreferrer">Ct 1.7</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 279 (Jz 5.16).</p>
+    </section>
+</article>
+
+<article id="entry-ageledon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγεληδόν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγεληδόν · agelēdon" data-transliteration="agelēdon" data-meanings="em grupos|em bandos">ἀγεληδόν</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>em grupos, em bandos</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.3.18" target="_blank" rel="noopener noreferrer">2Mc 3.18</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.14.14" target="_blank" rel="noopener noreferrer">14.14</a>.</p>
     </section>
 </article>`
 };
