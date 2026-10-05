@@ -389,6 +389,21 @@ window.ScripturaLexicons.LEH = {
             key: "semit.",
             type: "abbr",
             text: "semitism — semitismo; no LEH, indica construção ou expressão de caráter semítico"
+        },
+        {
+            key: "D’HAMONVILLE 2000",
+            type: "biblio",
+            text: "D.-M. D’Hamonville, La Bible d’Alexandrie XVII. Les Proverbes, Paris, 2000"
+        },
+        {
+            key: "LEE, J. 1969",
+            type: "biblio",
+            text: "J. A. L. Lee, “A Note on Septuagint Material in the Supplement to Liddell and Scott”, Glotta 47 (1969), pp. 234–242"
+        },
+        {
+            key: "ADRADOS",
+            type: "biblio",
+            text: "F. R. Adrados, Diccionario griego-español: vol. I α–ἀλλά, Madrid, 1980 (= 1989); vol. II ἄλλᾳ–ἀποκοινώνητος, 1986 (= 1995); vol. III ἀποκοιτέω–βασιλεύς, 1991; vol. IV βασιλευτός–δαίμων, 1994; vol. V δαίνυμι–διώνυχος, 1997"
         }
     ],
 
@@ -667,6 +682,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-adoketos-leh" data-source="LEH" data-search="ἀδόκητος adoketos adjetivo inesperado Sabedoria Sb LEH" tabindex="0">
     <td class="table-lemma greek">ἀδόκητος</td><td>Adjetivo</td><td>inesperado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-adokimos-leh" data-source="LEH" data-search="ἀδόκιμος adokimos adjetivo não aprovado sem valor com escória prata não genuíno dinheiro Isaías Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδόκιμος</td><td>Adjetivo</td><td>não aprovado; sem valor; com escória; não genuíno</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adolescheo-leh" data-source="LEH" data-search="ἀδολεσχέω adolescheo verbo falar ociosamente tagarelar falar meditar queixar-se Gênesis Salmos Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδολεσχέω</td><td>Verbo</td><td>falar ociosamente; tagarelar; falar; meditar; queixar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adoleschia-leh" data-source="LEH" data-search="ἀδολεσχία adoleschia substantivo histórias ociosas conversa fala meditação Samuel Reis Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδολεσχία</td><td>Substantivo</td><td>histórias ociosas; conversa; fala; meditação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adolos-leh" data-source="LEH" data-search="ἀδόλως adolos advérbio sem dolo honestamente Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδόλως</td><td>Advérbio</td><td>sem dolo; honestamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adoxeo-leh" data-source="LEH" data-search="ἀδοξέω adoxeo verbo nenhuma estima má reputação desprezível Isaías LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδοξέω</td><td>Verbo</td><td>ser tido em nenhuma estima; ter má reputação; ser desprezível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adoxia-leh" data-source="LEH" data-search="ἀδοξία adoxia substantivo má reputação Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδοξία</td><td>Substantivo</td><td>má reputação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adoxos-leh" data-source="LEH" data-search="ἄδοξος adoxos adjetivo inglório desonroso Macabeus Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἄδοξος</td><td>Adjetivo</td><td>inglório; desonroso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adranestatos-leh" data-source="LEH" data-search="ἀδρανέστατος adranestatos adjetivo superlativo ἀδρανής totalmente impotente mais fraco neologismo Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδρανέστατος</td><td>Adjetivo</td><td>totalmente impotente; o mais fraco</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hadros-leh" data-source="LEH" data-search="ἁδρός hadros adjetivo adulto homens poderosos chefes príncipes Samuel Reis Isaías Jó LEH" tabindex="0">
+    <td class="table-lemma greek">ἁδρός</td><td>Adjetivo</td><td>adulto; poderoso; chefe; príncipe</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hadrynomai-leh" data-source="LEH" data-search="ἁδρύνομαι hadrynomai verbo amadurecer ser engrandecido metaforicamente Êxodo Juízes Samuel Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἁδρύνομαι</td><td>Verbo</td><td>amadurecer; ser engrandecido</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -1415,5 +1461,86 @@ window.ScripturaLexicons.LEH = {
 
 <article id="entry-adikos-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀδίκως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδίκως · adikōs" data-transliteration="adikōs" data-meanings="injustamente|indevidamente|falsamente|sem razão">ἀδίκως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 2-0-2-16-6=26</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>injustamente, indevidamente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.20.15" target="_blank" rel="noopener noreferrer">Jó 20.15</a>); <strong>injustamente, falsamente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.5.22" target="_blank" rel="noopener noreferrer">Lv 5.22</a>); <strong>sem razão</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.34.19" target="_blank" rel="noopener noreferrer">Sl 34(35).19</a>).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Lv 5.22,24; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.49.24" target="_blank" rel="noopener noreferrer">Is 49.24</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.13.22" target="_blank" rel="noopener noreferrer">Ez 13.22</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.34.19" target="_blank" rel="noopener noreferrer">Sl 34(35).19</a>.</p><p class="entry-text">→ NIDNTT; TWNT.</p></section></article>
 
-<article id="entry-adoketos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀδόκητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδόκητος, -ος, -ον · adokētos" data-transliteration="adokētos" data-meanings="inesperado">ἀδόκητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>inesperado</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.18.17" target="_blank" rel="noopener noreferrer">Sb 18.17</a>.</p></section></article>`
+<article id="entry-adoketos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀδόκητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδόκητος, -ος, -ον · adokētos" data-transliteration="adokētos" data-meanings="inesperado">ἀδόκητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>inesperado</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.18.17" target="_blank" rel="noopener noreferrer">Sb 18.17</a>.</p></section></article>
+
+<article id="entry-adokimos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδόκιμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδόκιμος, -ος, -ον · adokimos" data-transliteration="adokimos" data-meanings="não aprovado|sem valor|com escória|não genuíno">ἀδόκιμος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-1-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não aprovado, sem valor, com escória</strong> (da prata: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.25.4" target="_blank" rel="noopener noreferrer">Pv 25.4</a>); <strong>não genuíno</strong> (do dinheiro: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.1.22" target="_blank" rel="noopener noreferrer">Is 1.22</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Is 1.22; Pv 25.4.</p>
+        <p class="entry-text"><strong>Cf.</strong> D’HAMONVILLE 2000, 311; LEE, J. 1969, 239; SPICQ 1982, 165; → LSJ RSuppl; NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-adolescheo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδολεσχέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδολεσχέω · adolescheō" data-transliteration="adolescheō" data-meanings="falar ociosamente|tagarelar|falar|meditar|queixar-se">ἀδολεσχέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-9-2=12</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>falar ociosamente, tagarelar</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.7.14" target="_blank" rel="noopener noreferrer">Sr 7.14</a>); <strong>falar</strong>, em sentido geral (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.68.13" target="_blank" rel="noopener noreferrer">Sl 68(69).13</a>); <strong>meditar</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.24.63" target="_blank" rel="noopener noreferrer">Gn 24.63</a>); <strong>queixar-se</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.76.4" target="_blank" rel="noopener noreferrer">Sl 76(77).4</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 24.63; Sl 68(69).13; 76(77).4,7,13.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 204–205.</p>
+        <p class="entry-text">→ <span class="greek">κατ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-adoleschia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδολεσχία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδολεσχία, -ας · adoleschia" data-transliteration="adoleschia" data-meanings="histórias ociosas|conversa|fala|meditação">ἀδολεσχία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-3-0-2-0=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>histórias ociosas</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.118.85" target="_blank" rel="noopener noreferrer">Sl 118(119).85</a>); <strong>conversa, fala</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.9.11" target="_blank" rel="noopener noreferrer">2Re 9.11</a>); <strong>meditação</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.18.27" target="_blank" rel="noopener noreferrer">1Re 18.27</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐκ πλήθους ἀδολεσχίας · ek plēthous adoleschias" data-transliteration="ek plēthous adoleschias" data-meanings="da abundância de fala">ἐκ πλήθους ἀδολεσχίας</span>: <strong>da abundância de fala</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.1.16" target="_blank" rel="noopener noreferrer">1Sm 1.16</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.118.85" target="_blank" rel="noopener noreferrer">Sl 118(119).85</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδολεσχίας · adoleschias" data-transliteration="adoleschias" data-meanings="histórias ociosas">ἀδολεσχίας</span> <strong>histórias ociosas</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="שׂיחות" data-transliteration="śyḥwt" data-meanings="histórias ociosas">שׂיחות</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="שׁיחות" data-transliteration="šyḥwt" data-meanings="armadilhas">שׁיחות</bdi> <strong>armadilhas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 1Sm 1.16; 1Re 18.27; 2Re 9.11; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.54.3" target="_blank" rel="noopener noreferrer">Sl 54(55).3</a>; Sl 118(119).85.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 204–205.</p>
+    </section>
+</article>
+
+<article id="entry-adolos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδόλως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδόλως · adolōs" data-transliteration="adolōs" data-meanings="sem dolo|honestamente">ἀδόλως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem dolo, honestamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.7.13" target="_blank" rel="noopener noreferrer">Sb 7.13</a>.</p>
+    </section>
+</article>
+
+<article id="entry-adoxeo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδοξέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδοξέω · adoxeō" data-transliteration="adoxeō" data-meanings="ser tido em nenhuma estima|ter má reputação|ser desprezível">ἀδοξέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ser tido em nenhuma estima, ter má reputação, ser desprezível</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.52.14" target="_blank" rel="noopener noreferrer">Is 52.14</a>.</p>
+    </section>
+</article>
+
+<article id="entry-adoxia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδοξία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδοξία, -ας · adoxia" data-transliteration="adoxia" data-meanings="má reputação">ἀδοξία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>má reputação</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.3.11" target="_blank" rel="noopener noreferrer">Sr 3.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-adoxos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄδοξος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄδοξος, -ος, -ον · adoxos" data-transliteration="adoxos" data-meanings="inglório|desonroso">ἄδοξος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>inglório, desonroso</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.2.8" target="_blank" rel="noopener noreferrer">1Mc 2.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.10.31" target="_blank" rel="noopener noreferrer">Sr 10.31</a>.</p>
+    </section>
+</article>
+
+<article id="entry-adranestatos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδρανέστατος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδρανέστατος, -η, -ον · adranestatos" data-transliteration="adranestatos" data-meanings="totalmente impotente|o mais fraco">ἀδρανέστατος, -η, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">Superlativo de <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδρανής · adranēs" data-transliteration="adranēs" data-meanings="fraco|impotente">ἀδρανής</span>: <strong>totalmente impotente, o mais fraco</strong>.</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὸ ἀδρανέστατον ταῖς χερσὶν εὐδράνειαν αἰτεῖται · to adranestaton tais chersin eudraneian aiteitai" data-transliteration="to adranestaton tais chersin eudraneian aiteitai" data-meanings="pede força a uma coisa cujas mãos não têm força">τὸ ἀδρανέστατον ταῖς χερσὶν εὐδράνειαν αἰτεῖται</span>: <strong>pede força a uma coisa cujas mãos não têm força</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.13.19" target="_blank" rel="noopener noreferrer">Sb 13.19</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1985, 785–786; → ADRADOS.</p>
+    </section>
+</article>
+
+<article id="entry-hadros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁδρός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁδρός, -ά, -όν · hadros" data-transliteration="hadros" data-meanings="adulto|poderoso|chefe|príncipe">ἁδρός, -ά, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-4-2-2-0=8</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>adulto</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.1.9" target="_blank" rel="noopener noreferrer">1Re 1.9</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="οἱ ἁδροί · hoi hadroi" data-transliteration="hoi hadroi" data-meanings="homens poderosos|chefes|príncipes">οἱ ἁδροί</span>: <strong>os homens poderosos, chefes, príncipes</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.15.18" target="_blank" rel="noopener noreferrer">2Sm 15.18</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.34.19" target="_blank" rel="noopener noreferrer">Jó 34.19</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁδροῖς · hadrois" data-transliteration="hadrois" data-meanings="aos homens poderosos">ἁδροῖς</span> <strong>aos homens poderosos</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="גדול" data-transliteration="gdwl" data-meanings="grande|poderoso">גדול</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="דל" data-transliteration="dl" data-meanings="pobre">דל</bdi> <strong>o pobre</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 2Sm 15.18; 1Re 1.9; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.10.6" target="_blank" rel="noopener noreferrer">2Re 10.6</a>,11; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.34.7" target="_blank" rel="noopener noreferrer">Is 34.7</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 86.</p>
+    </section>
+</article>
+
+<article id="entry-hadrynomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁδρύνομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁδρύνομαι · hadrynomai" data-transliteration="hadrynomai" data-meanings="amadurecer|ser engrandecido">ἁδρύνομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-5-0-2-1=9</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>amadurecer</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.2.10" target="_blank" rel="noopener noreferrer">Êx 2.10</a>); <strong>ser engrandecido</strong> (metaforicamente: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.8.14" target="_blank" rel="noopener noreferrer">1Mc 8.14</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 2.10; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.11.2" target="_blank" rel="noopener noreferrer">Jz 11.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.13.24" target="_blank" rel="noopener noreferrer">13.24</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.12.3" target="_blank" rel="noopener noreferrer">2Sm 12.3</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 82–83; WALTERS 1973, 86; WEVERS 1990, 16.</p>
+    </section>
+</article>`
 };
