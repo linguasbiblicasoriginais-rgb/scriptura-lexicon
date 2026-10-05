@@ -229,6 +229,81 @@ window.ScripturaLexicons.LEH = {
             key: "LE BOULLUEC 1989",
             type: "biblio",
             text: "A. Le Boulluec e P. Sandevoir, La Bible d’Alexandrie II. L’Exode, Paris, 1989"
+        },
+        {
+            key: "GEHMAN 1951=1972",
+            type: "biblio",
+            text: "H. S. Gehman, “The Hebraic Character of Septuagint Greek”, VT 1 (1951), pp. 81–90; reimpresso em R. A. Kraft (ed.), Septuagintal Lexicography, 1972, pp. 92–101"
+        },
+        {
+            key: "HARLÉ 1988",
+            type: "biblio",
+            text: "P. Harlé e D. Pralon, La Bible d’Alexandrie III. Le Lévitique, Paris, 1988"
+        },
+        {
+            key: "LEE, J. 1983",
+            type: "biblio",
+            text: "J. A. L. Lee, A Lexical Study of the Septuagint Version of the Pentateuch (SCS 14), Chico, CA, 1983"
+        },
+        {
+            key: "BARR 1961",
+            type: "biblio",
+            text: "J. Barr, The Semantics of Biblical Language, Oxford, 1961"
+        },
+        {
+            key: "DIHLE 1988",
+            type: "biblio",
+            text: "A. Dihle, “Heilig”, Reallexikon für Antike und Christentum 14 (1988), pp. 2–66"
+        },
+        {
+            key: "DIMANT 1981",
+            type: "biblio",
+            text: "D. Dimant, “A Cultic Term in the Psalms of Solomon in the Light of the Septuagint”, Textus 9 (1981), p. 136"
+        },
+        {
+            key: "FRIDRICHSEN 1916",
+            type: "biblio",
+            text: "A. Fridrichsen, Hagios-qados. Ein Beitrag zu den Voruntersuchungen zur christlichen Begriffsgeschichte, Kristiana, 1916"
+        },
+        {
+            key: "GEHMAN 1954",
+            type: "biblio",
+            text: "H. S. Gehman, “Ἅγιος in the Septuagint, and Its Relation to the Hebrew Original”, VT 4 (1954), pp. 337–348"
+        },
+        {
+            key: "MOTTE 1987",
+            type: "biblio",
+            text: "A. Motte, “Ἅγιος chez Platon”, em J. Servais, T. Hackens e B. Servais-Soyez (eds.), Stemmata. Mélanges de philologie, d’histoire et d’archéologie grecques offerts à Jules Labarbe, Liège–Louvain-la-Neuve, 1987, pp. 135–152"
+        },
+        {
+            key: "NUCHELMANS 1989",
+            type: "biblio",
+            text: "J. Nuchelmans, “A propos de Hagios avant l’époque hellénistique”, em A. R. Bastiaensen, A. Hilhorst e C. H. Kneepkens (eds.), Fructus centesimus. FS G. J. M. Bartelink (Instrumenta Patristica 19), Steenbrugge–Dordrecht, 1989, pp. 239–258"
+        },
+        {
+            key: "WEVERS 1998",
+            type: "biblio",
+            text: "J. W. Wevers, Notes on the Greek Text of Numbers (SCS 46), Atlanta, 1998"
+        },
+        {
+            key: "WILLIGER 1922",
+            type: "biblio",
+            text: "E. Williger, Ἅγιος. Untersuchungen zur Terminologie des Heiligen in den hellenisch-hellenistischen Religionen (Religionsgeschichtliche Versuche und Vorarbeiten 19/1), Giessen, 1922"
+        },
+        {
+            key: "WOLFSON 1947",
+            type: "biblio",
+            text: "H. A. Wolfson, “On the Septuagint Use of τὸ ἅγιον for the Temple”, JQR 38 (1947), pp. 109–110"
+        },
+        {
+            key: "inf. ni.",
+            type: "abbr",
+            text: "infinitivo nifal"
+        },
+        {
+            key: "corr.",
+            type: "abbr",
+            text: "correção; a fonte propõe ou registra uma forma corrigida"
         }
     ],
 
@@ -383,6 +458,36 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-ageledon-leh" data-source="LEH" data-search="ἀγεληδόν ageledon advérbio em grupos em bandos 2 Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀγεληδόν</td><td>Advérbio</td><td>em grupos; em bandos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agerochia-leh" data-source="LEH" data-search="ἀγερωχία agerochia substantivo arrogância folia insolente 2 Macabeus 3 Macabeus Sabedoria neologismo LARCHER LSJ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγερωχία</td><td>Substantivo</td><td>arrogância; folia insolente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agerochos-leh" data-source="LEH" data-search="ἀγέρωχος agerochos adjetivo arrogante altivo 3 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγέρωχος</td><td>Adjetivo</td><td>arrogante; altivo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiazo-leh" data-source="LEH" data-search="ἁγιάζω hagiazo verbo santificar tornar sagrado consagrar santo Gênesis Êxodo Neemias 2 Crônicas Amós 1 Samuel Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγιάζω</td><td>Verbo</td><td>santificar; tornar sagrado; consagrar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiasma-leh" data-source="LEH" data-search="ἁγίασμα hagiasma substantivo santuário objeto santo santidade Zacarias Levítico Ezequiel Êxodo hebraico MT neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγίασμα</td><td>Substantivo</td><td>santuário; objeto santo; santidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiasmos-leh" data-source="LEH" data-search="ἁγιασμός hagiasmos substantivo consagração santificação Juízes Ezequiel Amós 2 Macabeus hebraico MT neologismo Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγιασμός</td><td>Substantivo</td><td>consagração; santificação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiasterion-leh" data-source="LEH" data-search="ἁγιαστήριον hagiasterion substantivo lugar santo santuário Levítico Salmos neologismo LEE LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγιαστήριον</td><td>Substantivo</td><td>lugar santo; santuário</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiastia-leh" data-source="LEH" data-search="ἁγιαστία hagiastia substantivo correção ἁγιστεία rito serviço 4 Macabeus WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγιαστία</td><td>Substantivo</td><td>rito; serviço (forma corrigida: ἁγιστεία)</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagios-leh" data-source="LEH" data-search="ἅγιος hagios adjetivo sagrado santo puro santuário templo Santo dos Santos Cidade Santa Jerusalém Êxodo Salmos Neemias Isaías hebraico MT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἅγιος</td><td>Adjetivo</td><td>sagrado; santo; puro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiotes-leh" data-source="LEH" data-search="ἁγιότης hagiotes substantivo santidade sacralidade 2 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγιότης</td><td>Substantivo</td><td>santidade; sacralidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hagiosyne-leh" data-source="LEH" data-search="ἁγιωσύνη hagiosyne substantivo santidade sacralidade Salmos 2 Macabeus neologismo Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἁγιωσύνη</td><td>Substantivo</td><td>santidade; sacralidade</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -873,6 +978,113 @@ window.ScripturaLexicons.LEH = {
     <section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>em grupos, em bandos</strong>.</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.3.18" target="_blank" rel="noopener noreferrer">2Mc 3.18</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.14.14" target="_blank" rel="noopener noreferrer">14.14</a>.</p>
+    </section>
+</article>
+<article id="entry-agerochia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγερωχία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγερωχία, -ας · agerōchia" data-transliteration="agerōchia" data-meanings="arrogância|folia insolente">ἀγερωχία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>arrogância</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.9.7" target="_blank" rel="noopener noreferrer">2Mc 9.7</a>); <strong>folia insolente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.2.9" target="_blank" rel="noopener noreferrer">Sb 2.9</a>); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 9.7; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.2.3" target="_blank" rel="noopener noreferrer">3Mc 2.3</a>; Sb 2.9.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1983, 233-234; → <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="LSJ RSuppl" data-tooltip-text="Liddell–Scott–Jones, Revised Supplement; ed. P. G. W. Glare, com assistência de A. A. Thompson, 1996 (→ LIDDELL)">LSJ RSuppl</span>.</p>
+    </section>
+</article>
+
+<article id="entry-agerochos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγέρωχος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγέρωχος, -ος, -ον · agerōchos" data-transliteration="agerōchos" data-meanings="arrogante|altivo">ἀγέρωχος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>arrogante, altivo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.1.25" target="_blank" rel="noopener noreferrer">3Mc 1.25</a>.</p>
+    </section>
+</article>
+
+<article id="entry-hagiazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγιάζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιάζω · hagiazō" data-transliteration="hagiazō" data-meanings="santificar|tornar sagrado|consagrar">ἁγιάζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 88-36-34-11-27=196</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>santificar, tornar sagrado</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τι · ti" data-transliteration="ti" data-meanings="algo; acusativo de pronome indefinido">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.2.3" target="_blank" rel="noopener noreferrer">Gn 2.3</a>); <strong>consagrar a</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τί τινι · ti tini" data-transliteration="ti tini" data-meanings="algo a alguém ou a algo; acusativo + dativo">τί τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.12.47" target="_blank" rel="noopener noreferrer">Ne 12.47</a>).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>ser santificado, ser santo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.29.21" target="_blank" rel="noopener noreferrer">Êx 29.21</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἡγιασμένος · hēgiasmenos" data-transliteration="hēgiasmenos" data-meanings="santificado|sagrado">ἡγιασμένος</span>: <strong>santificado, sagrado</strong> (de pessoas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.26.18" target="_blank" rel="noopener noreferrer">2Cr 26.18</a>); <strong>consagrado, nazireu</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/AMO.2.12" target="_blank" rel="noopener noreferrer">Am 2.12</a>); <strong>sagrado</strong> (de lugares: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.7.16" target="_blank" rel="noopener noreferrer">1Sm 7.16</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 2.3; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.13.2" target="_blank" rel="noopener noreferrer">Êx 13.2</a>,12; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.19.14" target="_blank" rel="noopener noreferrer">19.14</a>,22.</p>
+        <p class="entry-text"><strong>Cf.</strong> GEHMAN 1951=1972, 98 (Lv 25.11); HARL 1986a, 99; HARLÉ 1988, 29, 114-115, 178-181; → NIDNTT; TWNT. Remissão da fonte: <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="καθ- · kath-" data-transliteration="kath-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">καθ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-hagiasma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγίασμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγίασμα, -ατος · hagiasma" data-transliteration="hagiasma" data-meanings="santuário|objeto santo|santidade">ἁγίασμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 9-7-11-14-26=67</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>santuário</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.15.17" target="_blank" rel="noopener noreferrer">Êx 15.17</a>); <strong>objeto santo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.20.40" target="_blank" rel="noopener noreferrer">Ez 20.40</a>); <strong>santidade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.28.36" target="_blank" rel="noopener noreferrer">Êx 28.36</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ZEC.7.3" target="_blank" rel="noopener noreferrer">Zc 7.3</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὸ ἁγίασμα · to hagiasma" data-transliteration="to hagiasma" data-meanings="o santo|a oferta santa?">τὸ ἁγίασμα</span> <strong>a (oferta) santa?</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נזר/ה" data-transliteration="nzr/h" data-meanings="forma hebraica pressuposta pelo grego segundo o LEH">נזר/ה</bdi> ? por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הנזר" data-transliteration="hnzr" data-meanings="abster-se; forma citada pelo LEH">הנזר</bdi> (<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="inf. ni." data-tooltip-text="infinitivo nifal">inf. ni.</span>), <strong>guardar abstinências</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.25.5" target="_blank" rel="noopener noreferrer">Lv 25.5</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="σταφυλὴν τοῦ ἁγιάσματος · staphylēn tou hagiasmatos" data-transliteration="staphylēn tou hagiasmatos" data-meanings="uvas de tua oferta santa?">σταφυλὴν τοῦ ἁγιάσματος</span> <strong>uvas de tua oferta santa?</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נזרך ענבי" data-transliteration="nzrk ʿnby" data-meanings="uvas de tua oferta santa?; leitura refletida pelo grego segundo o LEH">נזרך ענבי</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נזירך ענבי" data-transliteration="nzyrk ʿnby" data-meanings="uvas separadas, retidas do cultivo?|uvas de teu nazireu?">נזירך ענבי</bdi> <strong>uvas separadas, retidas do cultivo?; ou uvas de teu nazireu?</strong></p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 15.17; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.25.8" target="_blank" rel="noopener noreferrer">25.8</a>; Êx 28.36; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.29.6" target="_blank" rel="noopener noreferrer">29.6</a>,34.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span> <strong>Cf.</strong> HARLÉ 1988, 178-181, 197 (Lv 25.5); → NIDNTT.</p>
+    </section>
+</article>
+
+<article id="entry-hagiasmos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγιασμός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιασμός, -οῦ · hagiasmos" data-transliteration="hagiasmos" data-meanings="consagração|santificação">ἁγιασμός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-1-2-0-6=9</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>consagração, santificação</strong> (Jz<sup>A</sup> 17.3).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/AMO.2.11" target="_blank" rel="noopener noreferrer">Am 2.11</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="εἰς ἁγιασμόν · eis hagiasmon" data-transliteration="eis hagiasmon" data-meanings="para consagração">εἰς ἁγιασμόν</span> <strong>para consagração</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נזר/ל" data-transliteration="nzr/l" data-meanings="para consagração; forma pressuposta pelo grego segundo o LEH">נזר/ל</bdi> ? por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נזרים/ל" data-transliteration="nzyrym/l" data-meanings="para nazireus">נזרים/ל</bdi> <strong>para nazireus</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jz<sup>A</sup> 17.3; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.45.4" target="_blank" rel="noopener noreferrer">Ez 45.4</a>; Am 2.11; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.2.17" target="_blank" rel="noopener noreferrer">2Mc 2.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.14.36" target="_blank" rel="noopener noreferrer">14.36</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span> → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-hagiasterion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγιαστήριον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιαστήριον, -ου · hagiasterion" data-transliteration="hagiasterion" data-meanings="lugar santo|santuário">ἁγιαστήριον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-3-0=4</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>lugar santo, santuário</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.12.4" target="_blank" rel="noopener noreferrer">Lv 12.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.72.17" target="_blank" rel="noopener noreferrer">Sl 72(73).17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.73.7" target="_blank" rel="noopener noreferrer">73(74).7</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.82.13" target="_blank" rel="noopener noreferrer">82(83).13</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LEE, J. 1983, 52.</p>
+    </section>
+</article>
+
+<article id="entry-hagiastia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγιαστία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιαστία, -ας · hagiastia" data-transliteration="hagiastia" data-meanings="forma transmitida; corrigida pelo LEH para ἁγιστεία">ἁγιαστία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="corr." data-tooltip-text="correção; a fonte propõe ou registra uma forma corrigida">corr.</span> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιστεία · hagisteia" data-transliteration="hagisteia" data-meanings="rito|serviço">ἁγιστεία</span>: <strong>rito, serviço</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.7.9" target="_blank" rel="noopener noreferrer">4Mc 7.9</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 38.</p>
+    </section>
+</article>
+
+<article id="entry-hagios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅγιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅγιος, -α, -ον · hagios" data-transliteration="hagios" data-meanings="sagrado|santo|puro">ἅγιος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 260-76-186-146-164=832</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sagrado, santo</strong> (de coisas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.3.5" target="_blank" rel="noopener noreferrer">Êx 3.5</a>); <strong>santo, puro</strong> (de pessoas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.19.6" target="_blank" rel="noopener noreferrer">Êx 19.6</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὸ ἅγιον · to hagion" data-transliteration="to hagion" data-meanings="lugar santo|santuário|templo">τὸ ἅγιον</span>: <strong>lugar santo, santuário, templo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.26.33" target="_blank" rel="noopener noreferrer">Êx 26.33</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὁ ἅγιος · ho hagios" data-transliteration="ho hagios" data-meanings="o Santo">ὁ ἅγιος</span>: <strong>o Santo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.77.41" target="_blank" rel="noopener noreferrer">Sl 77(78).41</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὸ ἅγιον τῶν ἁγίων · to hagion tōn hagiōn" data-transliteration="to hagion tōn hagiōn" data-meanings="Santo dos Santos">τὸ ἅγιον τῶν ἁγίων</span>: <strong>Santo dos Santos</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.26.34" target="_blank" rel="noopener noreferrer">Êx 26.34</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="πόλις ἡ ἁγία · polis hē hagia" data-transliteration="polis hē hagia" data-meanings="Cidade Santa|Jerusalém">πόλις ἡ ἁγία</span>: <strong>a Cidade Santa, Jerusalém</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.11.1" target="_blank" rel="noopener noreferrer">Ne 11.1</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.35.35" target="_blank" rel="noopener noreferrer">Êx 35.35</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τοῦ ἁγίου · tou hagiou" data-transliteration="tou hagiou" data-meanings="do santuário">τοῦ ἁγίου</span> <strong>do santuário</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="קדשׁ" data-transliteration="qdš" data-meanings="santuário|santo">קדשׁ</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="חרשׁ" data-transliteration="ḥrš" data-meanings="artífice">חרשׁ</bdi> <strong>de um artífice</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.27.1" target="_blank" rel="noopener noreferrer">Is 27.1</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγίαν · hagian" data-transliteration="hagian" data-meanings="santa">ἁγίαν</span> <strong>santa</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="קדשׁה" data-transliteration="qdšh" data-meanings="santa; leitura pressuposta pelo grego segundo o LEH">קדשׁה</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="קשׁה" data-transliteration="qšh" data-meanings="dura">קשׁה</bdi> <strong>dura</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 3.5; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.12.16" target="_blank" rel="noopener noreferrer">Êx 12.16</a> (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.15.11" target="_blank" rel="noopener noreferrer">15.11</a>,13.</p>
+        <p class="entry-text"><strong>Cf.</strong> BARR 1961, 282-286; DIHLE 1988, 1-63; DIMANT 1981, 136; FRIDRICHSEN 1916; GEHMAN 1954, 337-348; HARLÉ 1988, 30, 114-115, 123, 132-133, 178-181; MOTTE 1987, 137, 151; NUCHELMANS 1989, 239-258; WEVERS 1998, 96, 299; WILLIGER 1922, 85-88; WOLFSON 1947, 109-110; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-hagiotes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγιότης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιότης, -ητος · hagiotēs" data-transliteration="hagiotēs" data-meanings="santidade|sacralidade">ἁγιότης, -ητος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>santidade, sacralidade</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.15.2" target="_blank" rel="noopener noreferrer">2Mc 15.2</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-hagiosyne-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁγιωσύνη</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁγιωσύνη, -ης · hagiōsynē" data-transliteration="hagiōsynē" data-meanings="santidade|sacralidade">ἁγιωσύνη, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-4-1=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>santidade, sacralidade</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.29.5" target="_blank" rel="noopener noreferrer">Sl 29(30).5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.95.6" target="_blank" rel="noopener noreferrer">95(96).6</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.96.12" target="_blank" rel="noopener noreferrer">96(97).12</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.144.5" target="_blank" rel="noopener noreferrer">144(145).5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.3.12" target="_blank" rel="noopener noreferrer">2Mc 3.12</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
     </section>
 </article>`
 };
