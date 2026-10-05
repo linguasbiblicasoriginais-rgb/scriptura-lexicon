@@ -109,6 +109,21 @@ window.ScripturaLexicons.LEH = {
             key: "neol.?",
             type: "abbr",
             text: "neologismo? — classificação dubitativa do LEH"
+        },
+        {
+            key: "LARCHER 1983",
+            type: "biblio",
+            text: "C. Larcher, Le livre de la Sagesse ou la Sagesse de Salomon I (ÉtB NS 1), Paris, 1983"
+        },
+        {
+            key: "ind.",
+            type: "abbr",
+            text: "indicative — indicativo"
+        },
+        {
+            key: "inf.",
+            type: "abbr",
+            text: "infinitive — infinitivo"
         }
     ],
 
@@ -173,6 +188,36 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-agathopoieo-leh" data-source="LEH" data-search="ἀγαθοποιέω agathopoieo verbo fazer o bem beneficiar Números Juízes Sofonias Tobias 2 Macabeus Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀγαθοποιέω</td><td>Verbo</td><td>fazer o bem; beneficiar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathopoios-leh" data-source="LEH" data-search="ἀγαθοποιός agathopoios adjetivo benfazejo beneficente Sirácida Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθοποιός</td><td>Adjetivo</td><td>benfazejo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathos-leh" data-source="LEH" data-search="ἀγαθός agathos adjetivo bom bem-nascido gentil belo fino bens melhor Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθός</td><td>Adjetivo</td><td>bom; bem-nascido; gentil; belo; fino</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathotes-leh" data-source="LEH" data-search="ἀγαθότης agathotes substantivo bondade disposição amistosa neologismo Sabedoria Sirácida Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθότης</td><td>Substantivo</td><td>bondade; disposição amistosa</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathoo-leh" data-source="LEH" data-search="ἀγαθόω agathoo verbo beneficiar fazer bem 1 Samuel Jeremias Sirácida neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθόω</td><td>Verbo</td><td>beneficiar; fazer bem a</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathyno-leh" data-source="LEH" data-search="ἀγαθύνω agathyno verbo honrar engrandecer adornar consolar alegrar fazer bem regozijar-se favor aceitável LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθύνω</td><td>Verbo</td><td>honrar; adornar; fazer bem; alegrar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathos-adverb-leh" data-source="LEH" data-search="ἀγαθῶς agathos advérbio bem completamente interjeição 1 Samuel 2 Reis Tobias LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθῶς</td><td>Advérbio</td><td>bem; completamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathosyne-leh" data-source="LEH" data-search="ἀγαθωσύνη agathosyne substantivo bondade benevolência gentileza neologismo Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθωσύνη</td><td>Substantivo</td><td>bondade; benevolência</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agalliama-leh" data-source="LEH" data-search="ἀγαλλίαμα agalliama substantivo alegria regozijo alegria religiosa culto jubiloso Isaías neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαλλίαμα</td><td>Substantivo</td><td>alegria; regozijo; culto jubiloso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agalliaomai-leh" data-source="LEH" data-search="ἀγαλλιάομαι agalliaomai verbo alegrar-se exultar regozijar-se 2 Samuel 1 Crônicas Isaías Tobias Salmos neologismo Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαλλιάομαι</td><td>Verbo</td><td>alegrar-se; exultar; regozijar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agalliasis-leh" data-source="LEH" data-search="ἀγαλλίασις agalliasis substantivo grande alegria exultação oração regozijo Isaías Salmos Tobias neologismo Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαλλίασις</td><td>Substantivo</td><td>grande alegria; exultação</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -361,6 +406,110 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>fazer o bem</strong> [<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="abs." data-tooltip-text="absolute — uso absoluto, sem complemento expresso">abs.</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ZEP.1.12" target="_blank" rel="noopener noreferrer">Sf 1.12</a>); <strong>fazer o bem a</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém; pronome indefinido no acusativo">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.17.13" target="_blank" rel="noopener noreferrer">Jz<sup>A</sup> 17.13</a>); <strong>fazer bem a alguém em algo</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τί · ti" data-transliteration="ti" data-meanings="algo; pronome interrogativo/indefinido no acusativo">τί</span> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém; pronome indefinido no acusativo">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.10.32" target="_blank" rel="noopener noreferrer">Nm 10.32</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> Nm 10.32; Jz<sup>A</sup> 17.13; Sf 1.12; Tb<sup>BA</sup> 12.13; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.1.2" target="_blank" rel="noopener noreferrer">2Mc 1.2</a>.</p>
         <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 9; SPICQ 1978a, 11; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-agathopoios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοποιός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθοποιός, -ός, -όν · agathopoios" data-transliteration="agathopoios" data-meanings="benfazejo|beneficente">ἀγαθοποιός, -ός, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>benfazejo, beneficente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.42.14" target="_blank" rel="noopener noreferrer">Sr 42.14</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1978a, 13(n.1); → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agathos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθός, -ή, -όν · agathos" data-transliteration="agathos" data-meanings="bom|bem-nascido|gentil|belo|fino">ἀγαθός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 39-133-52-223-152=599</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bem-nascido, gentil</strong> (Tb 7.6); <strong>bom</strong> (em sentido moral, de pessoas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.25.15" target="_blank" rel="noopener noreferrer">1Sm 25.15</a>); <strong>belo</strong> (Dn<sup>Th</sup> 1.15); <strong>bom</strong> (de coisas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.3.8" target="_blank" rel="noopener noreferrer">Êx 3.8</a>); <strong>fino</strong> (de metais: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZR.8.27" target="_blank" rel="noopener noreferrer">Es 8.27</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὰ ἀγαθά · ta agatha" data-transliteration="ta agatha" data-meanings="bens|coisas boas">τὰ ἀγαθά</span>: <strong>bens</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.24.10" target="_blank" rel="noopener noreferrer">Gn 24.10</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="εἰς ἀγαθά · eis agatha" data-transliteration="eis agatha" data-meanings="para o bem">εἰς ἀγαθά</span>: <strong>para o bem</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.50.20" target="_blank" rel="noopener noreferrer">Gn 50.20</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐν πολιᾷ ἀγαθῇ · en polia agathē" data-transliteration="en polia agathē" data-meanings="em velhice abençoada">ἐν πολιᾷ ἀγαθῇ</span>: <strong>em velhice abençoada</strong> (Jz<sup>A</sup> 8.32).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὁ καρπός σου ἔσται ἐν ἀγαθοῖς · ho karpos sou estai en agathois" data-transliteration="ho karpos sou estai en agathois" data-meanings="teu fruto ou rendimento será bom|irá bem com teu fruto">ὁ καρπός σου ἔσται ἐν ἀγαθοῖς</span>: <strong>teu fruto ou rendimento será bom; irá bem com teu fruto</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.22.21" target="_blank" rel="noopener noreferrer">Jó 22.21</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="εὐαγγελία ἀγαθή · euangelia agathē" data-transliteration="euangelia agathē" data-meanings="boas novas|notícia alegre">εὐαγγελία ἀγαθή</span>: <strong>boas novas</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.18.27" target="_blank" rel="noopener noreferrer">2Sm 18.27</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθὸς δρομεύς · agathos dromeus" data-transliteration="agathos dromeus" data-meanings="mensageiro veloz">ἀγαθὸς δρομεύς</span>: <strong>mensageiro veloz</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.6.11" target="_blank" rel="noopener noreferrer">Pv 6.11</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθὸν ὅτι · agathon hoti" data-transliteration="agathon hoti" data-meanings="é bom que">ἀγαθὸν ὅτι</span> [<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="ind." data-tooltip-text="indicative — indicativo">ind.</span>]: <strong>é bom que</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.18.3" target="_blank" rel="noopener noreferrer">2Sm 18.3</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθώτερος · agathōteros" data-transliteration="agathōteros" data-meanings="melhor">ἀγαθώτερος</span>: <strong>melhor</strong> (Jz<sup>B</sup> 11.25). Ver <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄριστος · aristos" data-transliteration="aristos" data-meanings="melhor|excelente">ἄριστος</span>, <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="βελτίων · beltiōn" data-transliteration="beltiōn" data-meanings="melhor">βελτίων</span> e <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="βέλτιστος · beltistos" data-transliteration="beltistos" data-meanings="o melhor|excelentíssimo">βέλτιστος</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 24.10; 45.18,20,23; 50.20.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agathotes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθότης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθότης, -ητος · agathotēs" data-transliteration="agathotēs" data-meanings="bondade|disposição amistosa">ἀγαθότης, -ητος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-4=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bondade; disposição amistosa</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.1.1" target="_blank" rel="noopener noreferrer">Sb 1.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.7.26" target="_blank" rel="noopener noreferrer">7.26</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.12.22" target="_blank" rel="noopener noreferrer">12.22</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.45.23" target="_blank" rel="noopener noreferrer">Sr 45.23</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1983, 165-166.</p>
+    </section>
+</article>
+
+<article id="entry-agathoo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθόω · agathoō" data-transliteration="agathoō" data-meanings="beneficiar|fazer bem a alguém">ἀγαθόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-2-2-0-1=5</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>beneficiar, fazer bem a alguém</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινι · tini" data-transliteration="tini" data-meanings="a alguém; dativo de pronome indefinido">τινι</span>], <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.25.31" target="_blank" rel="noopener noreferrer">1Sm 25.31</a>; idem [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém; acusativo de pronome indefinido">τινα</span>], <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.49.9" target="_blank" rel="noopener noreferrer">Sr 49.9</a>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 1Sm 25.31 (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.39.41" target="_blank" rel="noopener noreferrer">Jr 39(32).41</a>; Jr 51(44).27; Sr 49.9.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 9.</p>
+    </section>
+</article>
+
+<article id="entry-agathyno-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθύνω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθύνω · agathynō" data-transliteration="agathynō" data-meanings="honrar|engrandecer|adornar|consolar|fazer bem|alegrar-se">ἀγαθύνω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-15-0-12-1=28</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>honrar, engrandecer</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém; acusativo de pronome indefinido">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.1.47" target="_blank" rel="noopener noreferrer">1Re 1.47</a>); <strong>adornar</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τι · ti" data-transliteration="ti" data-meanings="algo; acusativo de pronome indefinido">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.9.30" target="_blank" rel="noopener noreferrer">2Re 9.30</a>); <strong>consolar, alegrar</strong> (Jz<sup>B</sup> 19.22); <strong>fazer bem a</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινι · tini" data-transliteration="tini" data-meanings="a alguém; dativo de pronome indefinido">τινι</span>] (Jz<sup>B</sup> 17.13); <strong>proceder bem</strong> (2Re 10.30); <strong>agir moralmente bem</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.35.4" target="_blank" rel="noopener noreferrer">Sl 35(36).4</a>).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>estar de bom ânimo, alegrar-se muito, regozijar-se</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.16.25" target="_blank" rel="noopener noreferrer">Jz 16.25</a>); <strong>achar favor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.2.5" target="_blank" rel="noopener noreferrer">Ne 2.5</a>); <strong>considerar aceitável</strong> [+<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="inf." data-tooltip-text="infinitive — infinitivo">inf.</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZR.7.18" target="_blank" rel="noopener noreferrer">Es 7.18</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jz 16.25; Jz<sup>B</sup> 17.13; Jz 18.20.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 10-11.</p>
+    </section>
+</article>
+
+<article id="entry-agathos-adverb-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθῶς · agathōs" data-transliteration="agathōs" data-meanings="bem|completamente">ἀγαθῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-2-0-0-1=3</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bem, completamente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.11.18" target="_blank" rel="noopener noreferrer">2Re 11.18</a>); <strong>bem!</strong> (como interjeição: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.20.7" target="_blank" rel="noopener noreferrer">1Sm 20.7</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 1Sm 20.7; 2Re 11.18; Tb<sup>BA</sup> 13.11.</p>
+    </section>
+</article>
+
+<article id="entry-agathosyne-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθωσύνη</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθωσύνη, -ης · agathōsynē" data-transliteration="agathōsynē" data-meanings="bondade|benevolência">ἀγαθωσύνη, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-3-0-11-1=15</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bondade, benevolência</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.9.25" target="_blank" rel="noopener noreferrer">Ne 9.25</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="εἰς ἀγαθωσύνην · eis agathōsynēn" data-transliteration="eis agathōsynēn" data-meanings="para o bem">εἰς ἀγαθωσύνην</span>: <strong>para o bem</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.13.31" target="_blank" rel="noopener noreferrer">Ne 13.31</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="εἰ ἀγαθωσύνην ἐποιήσατε μετὰ Ιεροβααλ · ei agathōsynēn epoiēsate meta Ierobaal" data-transliteration="ei agathōsynēn epoiēsate meta Ierobaal" data-meanings="se tivésseis procedido bem com Jerobaal">εἰ ἀγαθωσύνην ἐποιήσατε μετὰ Ιεροβααλ</span>: <strong>se tivésseis procedido bem com Jerobaal</strong> (Jz<sup>B</sup> 9.16).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jz<sup>A</sup> 8.35; Jz<sup>B</sup> 9.16; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.24.16" target="_blank" rel="noopener noreferrer">2Cr 24.16</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.51.5" target="_blank" rel="noopener noreferrer">Sl 51(52).5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ECC.4.8" target="_blank" rel="noopener noreferrer">Ec 4.8</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span> <strong>Cf.</strong> SPICQ 1978a, 13-14; → NIDNTT.</p>
+    </section>
+</article>
+
+<article id="entry-agalliama-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαλλίαμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαλλίαμα, -ατος · agalliama" data-transliteration="agalliama" data-meanings="alegria|regozijo|alegria religiosa|culto jubiloso">ἀγαλλίαμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-9-4-10=23</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>alegria, regozijo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.16.10" target="_blank" rel="noopener noreferrer">Is 16.10</a>); <strong>alegria religiosa, culto jubiloso</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.35.10" target="_blank" rel="noopener noreferrer">Is 35.10</a>); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Is 16.10; 22.13; 35.10; 51.3,11.</p>
+    </section>
+</article>
+
+<article id="entry-agalliaomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαλλιάομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαλλιάομαι · agalliaomai" data-transliteration="agalliaomai" data-meanings="alegrar-se|exultar|regozijar-se">ἀγαλλιάομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-2-12-53-7=74</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>alegrar-se intensamente, exultar</strong> [<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="abs." data-tooltip-text="absolute — uso absoluto, sem complemento expresso">abs.</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.1.20" target="_blank" rel="noopener noreferrer">2Sm 1.20</a>); <strong>alegrar-se em</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τι · ti" data-transliteration="ti" data-meanings="algo; acusativo de pronome indefinido">τι</span>] (Tb<sup>BA</sup> 13.9, <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="secundo" data-tooltip-text="Transliteração: secundo. Latim: segundo; aqui, segunda ocorrência">secundo</span>); idem [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém ou algo; acusativo de pronome indefinido">τινα</span>] (Tb<sup>BA</sup> 13.9, <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="primo" data-tooltip-text="Transliteração: primo. Latim: primeiro; aqui, primeira ocorrência">primo</span>); idem [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινι · tini" data-transliteration="tini" data-meanings="em alguém ou algo; dativo de pronome indefinido">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.80.2" target="_blank" rel="noopener noreferrer">Sl 80(81).2</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.74.10" target="_blank" rel="noopener noreferrer">Sl 74(75).10</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαλλιάσομαι · agalliasomai" data-transliteration="agalliasomai" data-meanings="exultarei">ἀγαλλιάσομαι</span> <strong>exultarei</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אגיל" data-transliteration="ʾgyl" data-meanings="exultarei">אגיל</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אגיד" data-transliteration="ʾgyd" data-meanings="declararei">אגיד</bdi> <strong>declararei</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 2Sm 1.20; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.31" target="_blank" rel="noopener noreferrer">1Cr 16.31</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.12.6" target="_blank" rel="noopener noreferrer">Is 12.6</a>; 25.9; 29.19.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span> <strong>Cf.</strong> HELBING 1928, 255-257; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agalliasis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαλλίασις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαλλίασις, -εως · agalliasis" data-transliteration="agalliasis" data-meanings="grande alegria|exultação">ἀγαλλίασις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-16-2=19</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>grande alegria, exultação</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.29.6" target="_blank" rel="noopener noreferrer">Sl 29(30).6</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="προσευχὴ εἰς ἀγαλλίασιν · proseuchē eis agalliasin" data-transliteration="proseuchē eis agalliasin" data-meanings="oração para regozijo">προσευχὴ εἰς ἀγαλλίασιν</span>: <strong>oração para regozijo</strong> (Tb<sup>BA</sup> 13.1).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.51.11" target="_blank" rel="noopener noreferrer">Is 51.11</a>; Sl 29(30).6; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.41.5" target="_blank" rel="noopener noreferrer">41(42).5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.44.8" target="_blank" rel="noopener noreferrer">44(45).8,16</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span> → NIDNTT; TWNT.</p>
     </section>
 </article>`
 };
