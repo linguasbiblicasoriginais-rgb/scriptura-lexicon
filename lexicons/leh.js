@@ -54,6 +54,61 @@ window.ScripturaLexicons.LEH = {
             key: "neol.",
             type: "abbr",
             text: "neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta"
+        },
+        {
+            key: "AMUSIN 1986",
+            type: "biblio",
+            text: "I. D. Amusin, “I termini designanti la schiavitù dell’Egitto ellenistico in base ai dati dei Settanta”, em I. Biezunska Malowist (ed.), Schiavitù e produzione nella Roma repubblicana (Problemi e Ricerche di Storia Antica 9), Roma, 1986, pp. 107–146"
+        },
+        {
+            key: "HARL 1986a",
+            type: "biblio",
+            text: "M. Harl, M. Alexandre, C. Dogniez et al., La Bible d’Alexandrie I. La Genèse, Paris, 1986"
+        },
+        {
+            key: "WEVERS 1990",
+            type: "biblio",
+            text: "J. W. Wevers, Notes on the Greek Text of Exodus (SCS 30), Atlanta, 1990"
+        },
+        {
+            key: "LARCHER 1984",
+            type: "biblio",
+            text: "C. Larcher, Le livre de la Sagesse ou la Sagesse de Salomon II (ÉtB NS 3), Paris, 1984"
+        },
+        {
+            key: "SCHMITT 1974",
+            type: "biblio",
+            text: "A. Schmitt, “Interpretation der Genesis aus hellenistischem Geist”, ZAW 86 (1974), pp. 137–163"
+        },
+        {
+            key: "HELBING 1928",
+            type: "biblio",
+            text: "R. Helbing, Die Kasussyntax der Verba bei den Septuaginta. Ein Beitrag zur Hebraismenfrage und zur Syntax der Κοινή, Göttingen, 1928"
+        },
+        {
+            key: "SPICQ 1978a",
+            type: "biblio",
+            text: "C. Spicq, Notes de lexicographie néo-testamentaire. Tome I/II (OBO 22/1 e 2), 2 vols., Fribourg/Suisse–Göttingen, 1978"
+        },
+        {
+            key: "NIDNTT",
+            type: "biblio",
+            text: "The New International Dictionary of New Testament Theology, ed. C. Brown, 3 vols., Exeter, 1975/1976/1978"
+        },
+        {
+            key: "TWNT",
+            type: "biblio",
+            text: "G. Kittel e G. Friedrich, Theologisches Wörterbuch zum Neuen Testament, 11 vols., Stuttgart, 1933–1979"
+        },
+        {
+            key: "abs.",
+            type: "abbr",
+            text: "absolute — uso absoluto, sem complemento expresso"
+        },
+        {
+            key: "neol.?",
+            type: "abbr",
+            text: "neologismo? — classificação dubitativa do LEH"
         }
     ],
 
@@ -88,7 +143,37 @@ window.ScripturaLexicons.LEH = {
 <tr class="search-row" data-dictionary="grego" data-target="entry-abira-leh" data-source="LEH" data-search="αβιρα abira substantivo בירה cidade fortificada cidadela Neemias Ne WALTERS LEH" tabindex="0">
     <td class="table-lemma greek">αβιρα</td><td>Substantivo</td><td>cidade fortificada; cidadela</td><td><span class="source-pill">LEH</span></td>
 </tr>
-`,
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-ablabes-leh" data-source="LEH" data-search="ἀβλαβής ablabes adjetivo inofensivo ileso Sabedoria Sb LEH" tabindex="0">
+    <td class="table-lemma greek">ἀβλαβής</td><td>Adjetivo</td><td>inofensivo; ileso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aboethesia-leh" data-source="LEH" data-search="ἀβοηθησία aboethesia substantivo desamparo Sirácida Sr LEH" tabindex="0">
+    <td class="table-lemma greek">ἀβοηθησία</td><td>Substantivo</td><td>desamparo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aboethetos-leh" data-source="LEH" data-search="ἀβοήθητος aboethetos adjetivo desamparado sem auxílio Salmos 2 Macabeus Sabedoria neol LEH" tabindex="0">
+    <td class="table-lemma greek">ἀβοήθητος</td><td>Adjetivo</td><td>desamparado; que não presta auxílio</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-abouleutos-leh" data-source="LEH" data-search="ἀβουλεύτως abouleutos advérbio temerariamente irrefletidamente 1 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀβουλεύτως</td><td>Advérbio</td><td>temerariamente; irrefletidamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aboulia-leh" data-source="LEH" data-search="ἀβουλία aboulia substantivo imprudência irresolução indecisão Provérbios Baruc LEH" tabindex="0">
+    <td class="table-lemma greek">ἀβουλία</td><td>Substantivo</td><td>imprudência; irresolução; indecisão</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-habra-leh" data-source="LEH" data-search="ἅβρα habra substantivo companheira favorita escrava fiel dedicada aramaico Gênesis Êxodo Ester LEH" tabindex="0">
+    <td class="table-lemma greek">ἅβρα</td><td>Substantivo</td><td>companheira; favorita; escrava fiel ou dedicada</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-abrochia-leh" data-source="LEH" data-search="ἀβροχία abrochia substantivo falta chuva seca Jeremias Sirácida Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀβροχία</td><td>Substantivo</td><td>falta de chuva; seca</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-abrotos-leh" data-source="LEH" data-search="ἄβρωτος abrotos adjetivo não comestível Provérbios Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄβρωτος</td><td>Adjetivo</td><td>não comestível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-abyssos-leh" data-source="LEH" data-search="ἄβυσσος abyssos adjetivo substantivado sem fundo profundo mar abismo cósmico Gênesis Deuteronômio Isaías Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄβυσσος</td><td>Adjetivo / substantivado</td><td>sem fundo; profundo; mar; abismo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agathopoieo-leh" data-source="LEH" data-search="ἀγαθοποιέω agathopoieo verbo fazer o bem beneficiar Números Juízes Sofonias Tobias 2 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαθοποιέω</td><td>Verbo</td><td>fazer o bem; beneficiar</td><td><span class="source-pill">LEH</span></td>
+</tr>`,
 
     cardsHtml: String.raw`
 <article id="entry-a-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
@@ -185,5 +270,97 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 304-305.</p>
     </section>
 </article>
-`
+
+<article id="entry-ablabes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀβλαβής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβλαβής, -ής, -ές · ablabēs" data-transliteration="ablabēs" data-meanings="inofensivo|ileso">ἀβλαβής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>inofensivo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.18.3" target="_blank" rel="noopener noreferrer">Sb 18.3</a>); <strong>ileso</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.19.6" target="_blank" rel="noopener noreferrer">Sb 19.6</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Sb 18.3; 19.6.</p>
+    </section>
+</article>
+
+<article id="entry-aboethesia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀβοηθησία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβοηθησία, -ας · aboēthēsia" data-transliteration="aboēthēsia" data-meanings="desamparo">ἀβοηθησία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desamparo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.51.10" target="_blank" rel="noopener noreferrer">Sr 51.10</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aboethetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀβοήθητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβοήθητος, -ος, -ον · aboēthētos" data-transliteration="aboēthētos" data-meanings="desamparado|que não presta auxílio">ἀβοήθητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-2=3</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desamparado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.12.6" target="_blank" rel="noopener noreferrer">Sb 12.6</a>); <strong>que não presta auxílio</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.3.28" target="_blank" rel="noopener noreferrer">2Mc 3.28</a>); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.87.5" target="_blank" rel="noopener noreferrer">Sl 87(88).5</a>; 2Mc 3.28; Sb 12.6.</p>
+    </section>
+</article>
+
+<article id="entry-abouleutos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀβουλεύτως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβουλεύτως · abouleutōs" data-transliteration="abouleutōs" data-meanings="temerariamente|irrefletidamente">ἀβουλεύτως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>temerariamente, irrefletidamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.5.67" target="_blank" rel="noopener noreferrer">1Mc 5.67</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aboulia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀβουλία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβουλία, -ας · aboulia" data-transliteration="aboulia" data-meanings="imprudência|irresolução|indecisão">ἀβουλία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>imprudência; irresolução; indecisão</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.14.17" target="_blank" rel="noopener noreferrer">Pv 14.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/BAR.3.28" target="_blank" rel="noopener noreferrer">Br 3.28</a>.</p>
+    </section>
+</article>
+
+<article id="entry-habra-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅβρα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅβρα, -ας · habra" data-transliteration="habra" data-meanings="companheira|favorita|escrava fiel ou dedicada">ἅβρα, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 3-0-0-5-7=15</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הברה · aramaico" data-transliteration="hbrh" data-meanings="companheira|favorita|escrava fiel ou dedicada">הברה</bdi> (aramaico): <strong>companheira, favorita, escrava fiel ou dedicada</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.24.61" target="_blank" rel="noopener noreferrer">Gn 24.61</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.2.5" target="_blank" rel="noopener noreferrer">Êx 2.5</a> (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.2.9" target="_blank" rel="noopener noreferrer">Et 2.9</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.4.4" target="_blank" rel="noopener noreferrer">4.4</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> AMUSIN 1986, 121; HARL 1986a, 204; WEVERS 1990, 13.</p>
+    </section>
+</article>
+
+<article id="entry-abrochia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀβροχία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβροχία, -ας · abrochia" data-transliteration="abrochia" data-meanings="falta de chuva|seca">ἀβροχία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-1=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>falta de chuva, seca</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.14.1" target="_blank" rel="noopener noreferrer">Jr 14.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.17.8" target="_blank" rel="noopener noreferrer">17.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.35.24" target="_blank" rel="noopener noreferrer">Sr 35.24</a>.</p>
+    </section>
+</article>
+
+<article id="entry-abrotos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄβρωτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄβρωτος, -ος, -ον · abrōtos" data-transliteration="abrōtos" data-meanings="não comestível">ἄβρωτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não comestível</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.24.22" target="_blank" rel="noopener noreferrer">Pv 24.22e</a>.</p>
+    </section>
+</article>
+
+<article id="entry-abyssos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄβυσσος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄβυσσος, -ος, -ον · abyssos" data-transliteration="abyssos" data-meanings="sem fundo|profundo|mar|profundeza cósmica|abismo">ἄβυσσος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 5-0-9-23-12=49</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem fundo, profundo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.33.13" target="_blank" rel="noopener noreferrer">Dt 33.13</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἡ ἄβυσσος · hē abyssos" data-transliteration="hē abyssos" data-meanings="o mar|a profundeza|o abismo">ἡ ἄβυσσος</span>: <strong>o mar</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.44.27" target="_blank" rel="noopener noreferrer">Is 44.27</a>); <strong>a profundeza cósmica, o abismo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.1.2" target="_blank" rel="noopener noreferrer">Gn 1.2</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 1.2; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.7.11" target="_blank" rel="noopener noreferrer">7.11</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.8.2" target="_blank" rel="noopener noreferrer">8.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.8.7" target="_blank" rel="noopener noreferrer">Dt 8.7</a>; Dt 33.13.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 87; LARCHER 1984, 644-645; SCHMITT 1974, 149-150; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agathopoieo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοποιέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθοποιέω · agathopoieō" data-transliteration="agathopoieō" data-meanings="fazer o bem|beneficiar">ἀγαθοποιέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-1-1-0-2=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>fazer o bem</strong> [<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="abs." data-tooltip-text="absolute — uso absoluto, sem complemento expresso">abs.</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ZEP.1.12" target="_blank" rel="noopener noreferrer">Sf 1.12</a>); <strong>fazer o bem a</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém; pronome indefinido no acusativo">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.17.13" target="_blank" rel="noopener noreferrer">Jz<sup>A</sup> 17.13</a>); <strong>fazer bem a alguém em algo</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τί · ti" data-transliteration="ti" data-meanings="algo; pronome interrogativo/indefinido no acusativo">τί</span> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τινα · tina" data-transliteration="tina" data-meanings="alguém; pronome indefinido no acusativo">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.10.32" target="_blank" rel="noopener noreferrer">Nm 10.32</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Nm 10.32; Jz<sup>A</sup> 17.13; Sf 1.12; Tb<sup>BA</sup> 12.13; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.1.2" target="_blank" rel="noopener noreferrer">2Mc 1.2</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 9; SPICQ 1978a, 11; → NIDNTT; TWNT.</p>
+    </section>
+</article>`
 };
