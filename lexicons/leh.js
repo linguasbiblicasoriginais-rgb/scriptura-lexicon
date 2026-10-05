@@ -409,6 +409,16 @@ window.ScripturaLexicons.LEH = {
             key: "KASE 1938",
             type: "biblio",
             text: "E. H. Kase, “The nomen sacrum of Ezekiel”, em A. C. Johnson, H. S. Gehman & E. H. Kase, The John H. Scheide Biblical Papyri: Ezekiel, Princeton, NJ, 1938, pp. 48–51"
+        },
+        {
+            key: "SHIPP 1979",
+            type: "biblio",
+            text: "G. P. Shipp, Modern Greek Evidence for the Ancient Greek Vocabulary, Sydney, 1979"
+        },
+        {
+            key: "DOGNIEZ 1992",
+            type: "biblio",
+            text: "C. Dogniez & M. Harl, La Bible d’Alexandrie. V. Le Deutéronome, Paris, 1992"
         }
     ],
 
@@ -749,6 +759,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-aei-leh" data-source="LEH" data-search="ἀεί aei advérbio sempre para sempre perpétuo eternidade Juízes Isaías Salmos Ester Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀεί</td><td>Advérbio</td><td>sempre; para sempre; perpétuo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aenaos-leh" data-source="LEH" data-search="ἀέναος aenaos adjetivo sempre fluente perene perpétuo eterno Gênesis Deuteronômio Jó Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀέναος</td><td>Adjetivo</td><td>sempre fluente; perpétuo; eterno</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aergos-leh" data-source="LEH" data-search="ἀεργός aergos adjetivo ocioso inativo não trabalhando Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀεργός</td><td>Adjetivo</td><td>ocioso; inativo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aetos-leh" data-source="LEH" data-search="ἀετός aetos substantivo águia Êxodo Levítico Deuteronômio LEH" tabindex="0">
+    <td class="table-lemma greek">ἀετός</td><td>Substantivo</td><td>águia</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-azymos-leh" data-source="LEH" data-search="ἄζυμος azymos adjetivo ázimo sem fermento pão bolos pães festa dos ázimos Gênesis Êxodo Crônicas LEH" tabindex="0">
+    <td class="table-lemma greek">ἄζυμος</td><td>Adjetivo</td><td>ázimo; sem fermento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aedia-leh" data-source="LEH" data-search="ἀηδία aedia substantivo desagrado desagradabilidade Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀηδία</td><td>Substantivo</td><td>desagrado; desagradabilidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aer-leh" data-source="LEH" data-search="ἀήρ aer substantivo ar céu Samuel Salmos Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀήρ</td><td>Substantivo</td><td>ar; céu</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athanasia-leh" data-source="LEH" data-search="ἀθανασία athanasia substantivo imortalidade Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθανασία</td><td>Substantivo</td><td>imortalidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athanatos-leh" data-source="LEH" data-search="ἀθάνατος athanatos adjetivo imortal Macabeus Sabedoria Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθάνατος</td><td>Adjetivo</td><td>imortal</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athemitos-leh" data-source="LEH" data-search="ἀθέμιτος athemitos adjetivo ilícito contrário à lei ímpio Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθέμιτος</td><td>Adjetivo</td><td>ilícito; contrário à lei; ímpio</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athesia-leh" data-source="LEH" data-search="ἀθεσία athesia substantivo infidelidade deslealdade neologismo Jeremias Daniel Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθεσία</td><td>Substantivo</td><td>infidelidade; deslealdade</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -1658,6 +1699,85 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>sempre, para sempre</strong> (JgsA 16.20); como adjetivo, <strong>perpétuo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.3.21" target="_blank" rel="noopener noreferrer">3Mc 3.21</a>).</p>
         <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὁ ἀεὶ χρόνος · ho aei chronos" data-transliteration="ho aei chronos" data-meanings="eternidade">ὁ ἀεὶ χρόνος</span>: <strong>eternidade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.3.29" target="_blank" rel="noopener noreferrer">3Mc 3.29</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> JgsA 16.20; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.42.14" target="_blank" rel="noopener noreferrer">Is 42.14</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.51.13" target="_blank" rel="noopener noreferrer">51.13</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.94.10" target="_blank" rel="noopener noreferrer">Sl 94(95).10</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.3.13" target="_blank" rel="noopener noreferrer">Est 3.13b</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aenaos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀέναος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀέναος, -ος, -ον · aenaos" data-transliteration="aenaos" data-meanings="sempre fluente|perpétuo|eterno">ἀέναος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 3-0-0-1-3=7</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sempre fluente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.11.6" target="_blank" rel="noopener noreferrer">Sb 11.6</a>); <strong>perpétuo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.49.26" target="_blank" rel="noopener noreferrer">Gn 49.26</a>); <strong>eterno</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.19.25" target="_blank" rel="noopener noreferrer">Jó 19.25</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 49.26; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.33.15" target="_blank" rel="noopener noreferrer">Dt 33.15</a>,27; Jó 19.25; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.36" target="_blank" rel="noopener noreferrer">2Mc 7.36</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aergos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀεργός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀεργός, -ός, -όν · aergos" data-transliteration="aergos" data-meanings="ocioso|inativo">ἀεργός, -ός, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ocioso</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.13.4" target="_blank" rel="noopener noreferrer">Pv 13.4</a>); <strong>sem trabalhar, ocioso</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.19.15" target="_blank" rel="noopener noreferrer">Pv 19.15</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Pv 13.4; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.15.19" target="_blank" rel="noopener noreferrer">15.19</a>; 19.15.</p>
+        <p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 44.</p>
+    </section>
+</article>
+
+<article id="entry-aetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀετός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀετός, -οῦ · aetos" data-transliteration="aetos" data-meanings="águia">ἀετός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 5-1-11-11-1=29</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>águia</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.19.4" target="_blank" rel="noopener noreferrer">Êx 19.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.11.13" target="_blank" rel="noopener noreferrer">Lv 11.13</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.14.12" target="_blank" rel="noopener noreferrer">Dt 14.12</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.28.49" target="_blank" rel="noopener noreferrer">28.49</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.32.11" target="_blank" rel="noopener noreferrer">32.11</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 44.</p>
+    </section>
+</article>
+
+<article id="entry-azymos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄζυμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄζυμος, -ος, -ον · azymos" data-transliteration="azymos" data-meanings="ázimo|sem fermento">ἄζυμος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 35-17-1-1-3=57</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ázimo, sem fermento</strong> (de pão ou bolos: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.12.39" target="_blank" rel="noopener noreferrer">Êx 12.39</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὰ ἄζυμα · ta azyma" data-transliteration="ta azyma" data-meanings="pão ázimo">τὰ ἄζυμα</span>: <strong>pão ázimo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.12.8" target="_blank" rel="noopener noreferrer">Êx 12.8</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄζυμοι (sc. ἄρτοι) · azymoi" data-transliteration="azymoi" data-meanings="pães ázimos">ἄζυμοι (sc. ἄρτοι)</span>: <strong>pães ázimos</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.19.3" target="_blank" rel="noopener noreferrer">Gn 19.3</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐν τῇ ἑορτῇ τῶν ἀζύμων · en tē heortē tōn azymōn" data-transliteration="en tē heortē tōn azymōn" data-meanings="na festa dos pães ázimos">ἐν τῇ ἑορτῇ τῶν ἀζύμων</span>: <strong>na festa dos pães ázimos</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.8.13" target="_blank" rel="noopener noreferrer">2Cr 8.13</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 19.3; Êx 12.8,15,18,20.</p>
+        <p class="entry-text"><strong>Cf.</strong> DOGNIEZ 1992, 215; HARL 1986a, 68,179; HARLÉ 1988, 188; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aedia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀηδία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀηδία, -ας · aēdia" data-transliteration="aēdia" data-meanings="desagrado|desagradabilidade">ἀηδία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desagrado, desagradabilidade</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.23.29" target="_blank" rel="noopener noreferrer">Pv 23.29</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aer-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀήρ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀήρ, ἀέρος · aēr" data-transliteration="aēr" data-meanings="ar|céu">ἀήρ, ἀέρος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-1-8=10</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ar, céu</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.22.12" target="_blank" rel="noopener noreferrer">2Sm 22.12</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.17.12" target="_blank" rel="noopener noreferrer">Sl 17(18).12</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.5.2" target="_blank" rel="noopener noreferrer">2Mc 5.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.2.3" target="_blank" rel="noopener noreferrer">Sb 2.3</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.5.11" target="_blank" rel="noopener noreferrer">5.11</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-athanasia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθανασία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθανασία, -ας · athanasia" data-transliteration="athanasia" data-meanings="imortalidade">ἀθανασία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-7=7</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>imortalidade</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.14.5" target="_blank" rel="noopener noreferrer">4Mc 14.5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.16.13" target="_blank" rel="noopener noreferrer">16.13</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.3.4" target="_blank" rel="noopener noreferrer">Sb 3.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.4.1" target="_blank" rel="noopener noreferrer">4.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.8.13" target="_blank" rel="noopener noreferrer">8.13</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT (sub <span class="greek">θάνατος</span>).</p>
+    </section>
+</article>
+
+<article id="entry-athanatos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθάνατος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθάνατος, -ος, -ον · athanatos" data-transliteration="athanatos" data-meanings="imortal">ἀθάνατος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-5=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>imortal</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.7.3" target="_blank" rel="noopener noreferrer">4Mc 7.3</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.14.6" target="_blank" rel="noopener noreferrer">14.6</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.18.23" target="_blank" rel="noopener noreferrer">18.23</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.1.15" target="_blank" rel="noopener noreferrer">Sb 1.15</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.17.30" target="_blank" rel="noopener noreferrer">Sr 17.30</a>.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-athemitos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθέμιτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθέμιτος, -ος, -ον · athemitos" data-transliteration="athemitos" data-meanings="ilícito|contrário à lei|ímpio">ἀθέμιτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-4=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ilícito, contrário à lei</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.6.5" target="_blank" rel="noopener noreferrer">2Mc 6.5</a>); <strong>ímpio</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.5.20" target="_blank" rel="noopener noreferrer">3Mc 5.20</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 6.5; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.1" target="_blank" rel="noopener noreferrer">7.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.10.34" target="_blank" rel="noopener noreferrer">10.34</a>; 3Mc 5.20.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-athesia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθεσία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθεσία, -ας · athesia" data-transliteration="athesia" data-meanings="infidelidade|deslealdade">ἀθεσία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-1-2=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>infidelidade, deslealdade</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.20.8" target="_blank" rel="noopener noreferrer">Jr 20.8</a>; DnTh 9.7; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.16.17" target="_blank" rel="noopener noreferrer">1Mc 16.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.15.10" target="_blank" rel="noopener noreferrer">2Mc 15.10</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
     </section>
 </article>`
 };
