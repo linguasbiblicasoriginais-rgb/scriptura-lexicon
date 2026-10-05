@@ -404,6 +404,11 @@ window.ScripturaLexicons.LEH = {
             key: "ADRADOS",
             type: "biblio",
             text: "F. R. Adrados, Diccionario griego-español: vol. I α–ἀλλά, Madrid, 1980 (= 1989); vol. II ἄλλᾳ–ἀποκοινώνητος, 1986 (= 1995); vol. III ἀποκοιτέω–βασιλεύς, 1991; vol. IV βασιλευτός–δαίμων, 1994; vol. V δαίνυμι–διώνυχος, 1997"
+        },
+        {
+            key: "KASE 1938",
+            type: "biblio",
+            text: "E. H. Kase, “The nomen sacrum of Ezekiel”, em A. C. Johnson, H. S. Gehman & E. H. Kase, The John H. Scheide Biblical Papyri: Ezekiel, Princeton, NJ, 1938, pp. 48–51"
         }
     ],
 
@@ -713,6 +718,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-hadrynomai-leh" data-source="LEH" data-search="ἁδρύνομαι hadrynomai verbo amadurecer ser engrandecido metaforicamente Êxodo Juízes Samuel Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἁδρύνομαι</td><td>Verbo</td><td>amadurecer; ser engrandecido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-adunameo-leh" data-source="LEH" data-search="ἀδυναμέω adunameo adynamēo verbo ser incapaz neologismo Sirácida prólogo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδυναμέω</td><td>Verbo</td><td>ser incapaz</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adunamia-leh" data-source="LEH" data-search="ἀδυναμία adunamia adynamia substantivo falta de força debilidade incapacidade Amós Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδυναμία</td><td>Substantivo</td><td>falta de força; debilidade; incapacidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adunateo-leh" data-source="LEH" data-search="ἀδυνατέω adunateo adynateo verbo ser incapaz não poder ser fraco estar sem força ser impossível Gênesis Levítico Deuteronômio Crônicas Isaías Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδυνατέω</td><td>Verbo</td><td>ser incapaz; ser fraco; estar sem força; ser impossível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adunatos-leh" data-source="LEH" data-search="ἀδύνατος adunatos adynatos adjetivo sem força impotente fraco indefeso impossível intolerável pobres cego Joel Jó Provérbios Sabedoria Tobit LEH" tabindex="0">
+    <td class="table-lemma greek">ἀδύνατος</td><td>Adjetivo</td><td>sem força; impotente; fraco; indefeso; impossível; intolerável</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ado-verb-leh" data-source="LEH" data-search="ᾄδω ado adō verbo cantar entoar cântico Êxodo Números Juízes Crônicas Salmos semitismo LEH" tabindex="0">
+    <td class="table-lemma greek">ᾄδω</td><td>Verbo</td><td>cantar; entoar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adon-leh" data-source="LEH" data-search="αδων adon substantivo אדון Senhor Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">αδων</td><td>Substantivo</td><td>Senhor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adonai-leh" data-source="LEH" data-search="αδωναι adonai substantivo אדני Senhor dirigindo-se a Deus Samuel Ezequiel manuscrito B LEH" tabindex="0">
+    <td class="table-lemma greek">αδωναι</td><td>Substantivo</td><td>Senhor (dirigindo-se a Deus)</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adonaie-leh" data-source="LEH" data-search="αδωναιε adonaie substantivo אדני Senhor dirigindo-se a Deus Juízes manuscrito B LEH" tabindex="0">
+    <td class="table-lemma greek">αδωναιε</td><td>Substantivo</td><td>Senhor (dirigindo-se a Deus)</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-adoreem-leh" data-source="LEH" data-search="αδωρηεμ adoreem substantivo אדיריהם seus nobres Neemias LEH" tabindex="0">
+    <td class="table-lemma greek">αδωρηεμ</td><td>Substantivo</td><td>seus nobres</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aei-leh" data-source="LEH" data-search="ἀεί aei advérbio sempre para sempre perpétuo eternidade Juízes Isaías Salmos Ester Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀεί</td><td>Advérbio</td><td>sempre; para sempre; perpétuo</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -1541,6 +1577,87 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>amadurecer</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.2.10" target="_blank" rel="noopener noreferrer">Êx 2.10</a>); <strong>ser engrandecido</strong> (metaforicamente: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.8.14" target="_blank" rel="noopener noreferrer">1Mc 8.14</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 2.10; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.11.2" target="_blank" rel="noopener noreferrer">Jz 11.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.13.24" target="_blank" rel="noopener noreferrer">13.24</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.12.3" target="_blank" rel="noopener noreferrer">2Sm 12.3</a>.</p>
         <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 82–83; WALTERS 1973, 86; WEVERS 1990, 16.</p>
+    </section>
+</article>
+
+<article id="entry-adunameo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδυναμέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδυναμέω · adynamēō" data-transliteration="adynamēō" data-meanings="ser incapaz">ἀδυναμέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ser incapaz</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sr, prólogo 20.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+    </section>
+</article>
+
+<article id="entry-adunamia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδυναμία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδυναμία, -ας · adynamia" data-transliteration="adynamia" data-meanings="falta de força|debilidade|incapacidade">ἀδυναμία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-1=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>falta de força, debilidade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/AMO.2.2" target="_blank" rel="noopener noreferrer">Am 2.2</a>); no plural, <span class="greek">ἀδυναμίαι</span>: <strong>incapacidade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.2.13" target="_blank" rel="noopener noreferrer">3Mc 2.13</a>).</p>
+    </section>
+</article>
+
+<article id="entry-adunateo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδυνατέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδυνατέω · adynateō" data-transliteration="adynateō" data-meanings="ser incapaz|não poder|ser fraco|estar sem força|ser impossível">ἀδυνατέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 3-1-3-5-2=14</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ser incapaz, não poder</strong> (de pessoa: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.12.9" target="_blank" rel="noopener noreferrer">Sb 12.9</a>); <strong>ser fraco</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.8.15" target="_blank" rel="noopener noreferrer">Is 8.15</a>); <strong>estar sem força</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.25.35" target="_blank" rel="noopener noreferrer">Lv 25.35</a>); <strong>ser impossível</strong> (de coisas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.18.14" target="_blank" rel="noopener noreferrer">Gn 18.14</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδυνατεῖ [+inf.] · adynatei" data-transliteration="adynatei" data-meanings="é impossível">ἀδυνατεῖ [+inf.]</span>: <strong>é impossível</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.13.16" target="_blank" rel="noopener noreferrer">Sb 13.16</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 18.14; Lv 25.35; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.17.8" target="_blank" rel="noopener noreferrer">Dt 17.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.14.10" target="_blank" rel="noopener noreferrer">2Cr 14.10</a>; Is 8.15.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 176 (Gn 18.14); → TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-adunatos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀδύνατος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδύνατος, -ος, -ον · adynatos" data-transliteration="adynatos" data-meanings="sem força|impotente|fraco|indefeso|impossível|intolerável|pobre|cego">ἀδύνατος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-15-11=27</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem força, impotente, fraco</strong> (de pessoa: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.5.15" target="_blank" rel="noopener noreferrer">Jó 5.15</a>); <strong>indefeso</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.30.25" target="_blank" rel="noopener noreferrer">Jó 30.25</a>); <strong>impossível</strong> (de coisas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.30.18" target="_blank" rel="noopener noreferrer">Pv 30.18</a>); <strong>intolerável</strong> (de coisas: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.17.13" target="_blank" rel="noopener noreferrer">Sb 17.13</a>).</p>
+        <p class="entry-text"><span class="greek">ἀδύνατοι</span>: <strong>os pobres</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.31.20" target="_blank" rel="noopener noreferrer">Jó 31.20</a>); <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀδύνατος τοῖς ὀφθαλμοῖς · adynatos tois ophthalmois" data-transliteration="adynatos tois ophthalmois" data-meanings="cego">ἀδύνατος τοῖς ὀφθαλμοῖς</span>: <strong>cego</strong> (TobS 2.10).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.24.22" target="_blank" rel="noopener noreferrer">Jó 24.22</a> <span class="greek">ἀδυνάτους</span> <strong>os indefesos</strong> — <bdi class="hebrew" lang="he" dir="rtl">אביונים</bdi> (? cf. Jó 5.15) por MT <bdi class="hebrew" lang="he" dir="rtl">אבירים</bdi> <strong>os poderosos</strong>; ou <span class="greek">ἀδυνάτους</span> seria correção de <span class="greek">δυνατούς</span>?</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jl 4.10; Jó 5.15,16; 20.19; 24.4.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1978a, 44; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-ado-verb-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ᾄδω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ᾄδω · adō" data-transliteration="adō" data-meanings="cantar|entoar">ᾄδω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 4-13-4-49-3=73</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cantar (um cântico)</strong> [uso absoluto] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.9" target="_blank" rel="noopener noreferrer">1Cr 16.9</a>); <strong>cantar a respeito de, entoar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.88.2" target="_blank" rel="noopener noreferrer">Sl 88(89).2</a>); <strong>cantar com</strong> [<span class="greek">ἔν τινι</span>] — semitismo, vertendo o hebraico <bdi class="hebrew" lang="he" dir="rtl">שׁיר</bdi> no piel com <bdi class="hebrew" lang="he" dir="rtl">ב־</bdi> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.23.13" target="_blank" rel="noopener noreferrer">2Cr 23.13</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ᾀσάτωσαν ἐν ταῖς ὁδοῖς κυρίου · asatōsan en tais hodois kyriou" data-transliteration="asatōsan en tais hodois kyriou" data-meanings="cantem nos caminhos do Senhor">ᾀσάτωσαν ἐν ταῖς ὁδοῖς κυρίου</span>: <strong>cantem nos caminhos do Senhor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.137.5" target="_blank" rel="noopener noreferrer">Sl 137(138).5</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ᾖσεν τὴν ᾠδὴν ταύτην · ēsen tēn ōdēn tautēn" data-transliteration="ēsen tēn ōdēn tautēn" data-meanings="cantou este cântico">ᾖσεν τὴν ᾠδὴν ταύτην</span>: <strong>cantou este cântico</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.15.1" target="_blank" rel="noopener noreferrer">Êx 15.1</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 15.1 (bis),21; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.21.17" target="_blank" rel="noopener noreferrer">Nm 21.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.5.1" target="_blank" rel="noopener noreferrer">Jz 5.1</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 69; → NIDNTT; TWNT.</p>
+        <p class="entry-text">→ <span class="greek">ἐπ-</span>, <span class="greek">συν-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-adon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αδων</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αδων · adōn" data-transliteration="adōn" data-meanings="Senhor">αδων</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אדון</bdi>: <strong>Senhor</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.41.5" target="_blank" rel="noopener noreferrer">Jr 41(34).5</a>.</p>
+    </section>
+</article>
+
+<article id="entry-adonai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αδωναι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αδωναι · adōnai" data-transliteration="adōnai" data-meanings="Senhor, dirigindo-se a Deus">αδωναι</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אדני</bdi>: <strong>Senhor</strong>, dirigindo-se a Deus.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.1.11" target="_blank" rel="noopener noreferrer">1Sm 1.11</a>. Ver também <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.36.33" target="_blank" rel="noopener noreferrer">Ez 36.33</a>,37 no manuscrito B.</p>
+        <p class="entry-text"><strong>Cf.</strong> KASE 1938, 48–51 (Ez 36.33,37).</p>
+    </section>
+</article>
+
+<article id="entry-adonaie-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αδωναιε</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αδωναιε · adōnaie" data-transliteration="adōnaie" data-meanings="Senhor, dirigindo-se a Deus">αδωναιε</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-2-0-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אדני</bdi>: <strong>Senhor</strong>, dirigindo-se a Deus.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> JgsB 13.8; 16.28.</p>
+    </section>
+</article>
+
+<article id="entry-adoreem-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αδωρηεμ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αδωρηεμ · adōrēem" data-transliteration="adōrēem" data-meanings="seus nobres">αδωρηεμ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אדיריהם</bdi>: <strong>seus nobres</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.3.5" target="_blank" rel="noopener noreferrer">Ne 3.5</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aei-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀεί</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀεί · aei" data-transliteration="aei" data-meanings="sempre|para sempre|perpétuo">ἀεί</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-1-2-4-7=14</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sempre, para sempre</strong> (JgsA 16.20); como adjetivo, <strong>perpétuo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.3.21" target="_blank" rel="noopener noreferrer">3Mc 3.21</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὁ ἀεὶ χρόνος · ho aei chronos" data-transliteration="ho aei chronos" data-meanings="eternidade">ὁ ἀεὶ χρόνος</span>: <strong>eternidade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.3.29" target="_blank" rel="noopener noreferrer">3Mc 3.29</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> JgsA 16.20; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.42.14" target="_blank" rel="noopener noreferrer">Is 42.14</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.51.13" target="_blank" rel="noopener noreferrer">51.13</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.94.10" target="_blank" rel="noopener noreferrer">Sl 94(95).10</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.3.13" target="_blank" rel="noopener noreferrer">Est 3.13b</a>.</p>
     </section>
 </article>`
 };
