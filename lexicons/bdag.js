@@ -22,6 +22,11 @@ window.ScripturaLexicons.BDAG = {
     entryAnchorId: "bdag-entry-anchor",
 
     bibliographicTerms: [
+        { key: "REJ", type: "biblio", text: "Revue des études juives, 1880ss." },
+        { key: "NThSt", type: "biblio", text: "Nieuwe theologische Studiën, 1918–1942" },
+        { key: "TTK", type: "biblio", text: "Tidsskrift for Teologi og Kirke (Oslo), 1930ss." },
+        { key: "Muratori", type: "biblio", text: "L. A. Muratori, Novus thesaurus veterum inscriptionum in praecipuis earundem collectionibus hactenus praetermissarum, 4 vols., 1739–1742" },
+        { key: "Sv", type: "biblio", text: "H. J. Sieben, Voces: Eine Bibliographie zu Wörtern und Begriffen aus der Patristik (1918–78), 1980" }
     ],
 
     rowsHtml: String.raw`
@@ -1358,6 +1363,26 @@ window.ScripturaLexicons.BDAG = {
 <tr class="search-row" data-dictionary="grego" data-target="entry-analempsis-bdag" data-source="BDAG" data-search="ἀνάλημψις analempsis ἀνάληψις ascensão morte falecimento partida Lucas BDAG" tabindex="0"><td class="table-lemma greek">ἀνάλημψις</td><td>Substantivo feminino</td><td>ascensão; morte; falecimento</td><td><span class="source-pill">BDAG</span></td></tr>
 
 <tr class="search-row" data-dictionary="grego" data-target="entry-analisko-bdag" data-source="BDAG" data-search="ἀναλίσκω analisko ἀναλόω destruir consumir gastar completamente aniquilar dissipar BDAG" tabindex="0"><td class="table-lemma greek">ἀναλίσκω</td><td>Verbo</td><td>consumir; destruir; gastar completamente</td><td><span class="source-pill">BDAG</span></td></tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anallomai-bdag" data-source="BDAG" data-search="ἀνάλλομαι anallomai ἄλλομαι saltar pular saltar para cima Atos 14.10 D BDAG" tabindex="0"><td class="table-lemma greek">ἀνάλλομαι</td><td>Verbo</td><td>saltar para cima</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-analogia-bdag" data-source="BDAG" data-search="ἀναλογία analogia proporção relação correta acordo fé compromisso fidelidade Romanos 12.6 BDAG" tabindex="0"><td class="table-lemma greek">ἀναλογία</td><td>Substantivo feminino</td><td>proporção; relação correta</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-analogizomai-bdag" data-source="BDAG" data-search="ἀναλογίζομαι analogizomai raciocinar deliberar cuidadosamente considerar Hebreus 12.3 BDAG" tabindex="0"><td class="table-lemma greek">ἀναλογίζομαι</td><td>Verbo</td><td>considerar; refletir cuidadosamente</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-analos-bdag" data-source="BDAG" data-search="ἄναλος analos sem sal privado teor sal sal insípido Mar Morto Marcos 9.50 BDAG" tabindex="0"><td class="table-lemma greek">ἄναλος</td><td>Adjetivo</td><td>sem sal; privado de seu teor de sal</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-analoo-bdag" data-source="BDAG" data-search="ἀναλόω analoo veja ἀναλίσκω consumir destruir BDAG" tabindex="0"><td class="table-lemma greek">ἀναλόω</td><td>Verbo</td><td>veja ἀναλίσκω</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-analysis-bdag" data-source="BDAG" data-search="ἀνάλυσις analysis soltura partida morte falecimento 2 Timóteo 4.6 BDAG" tabindex="0"><td class="table-lemma greek">ἀνάλυσις</td><td>Substantivo feminino</td><td>partida; morte</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-analyo-bdag" data-source="BDAG" data-search="ἀναλύω analyo soltar desatar partir retornar morrer Lucas 12.36 Filipenses 1.23 BDAG" tabindex="0"><td class="table-lemma greek">ἀναλύω</td><td>Verbo</td><td>soltar; partir; morrer</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamartetos-bdag" data-source="BDAG" data-search="ἀναμάρτητος anamartetos sem pecado não ter pecado João 8.7 BDAG" tabindex="0"><td class="table-lemma greek">ἀναμάρτητος</td><td>Adjetivo</td><td>sem pecado; que não pecou</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamarukaomai-bdag" data-source="BDAG" data-search="ἀναμαρυκάομαι anamarukaomai ruminar remoer palavra Senhor pensar repetidamente Barnabé BDAG" tabindex="0"><td class="table-lemma greek">ἀναμαρυκάομαι</td><td>Verbo</td><td>ruminar; pensar repetidamente</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anameno-bdag" data-source="BDAG" data-search="ἀναμένω anameno esperar aguardar expectativa Messias Filho Deus céu 1 Tessalonicenses 1.10 BDAG" tabindex="0"><td class="table-lemma greek">ἀναμένω</td><td>Verbo</td><td>esperar; aguardar</td><td><span class="source-pill">BDAG</span></td></tr>
+
 `,
 
     cardsHtml: String.raw`
@@ -7867,5 +7892,72 @@ Futuro 2ª sg. <span class="greek greek-term tooltip-trigger" tabindex="0" data-
 <p class="entry-text">Figuradamente, de <strong>aniquilação</strong> — compare Gn 41.30; Pr 23.28; En 103.9; SibOr 3.646; Josefo, <em>Ant.</em> 2.287 —, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/2TH.2.8" target="_blank" rel="noopener noreferrer">2Ts 2.8</a> v.l.; veja <span class="greek">ἀναιρέω</span> 2. Ael. Dion. α, 121: <span class="greek">ἀναλοῦντες· ἀντὶ τοῦ ἀναιροῦντες</span>. Também <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.9.49" target="_blank" rel="noopener noreferrer">Mc 9.49</a> v.l.</p>
 <p class="entry-text">Semanticamente mais complexo é <span class="greek">βλέπετε μὴ ὑπ’ ἀλλήλων ἀναλωθῆτε</span>, com <span class="greek">κατεσθίειν</span> como em Pr 30.14, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/GAL.5.15" target="_blank" rel="noopener noreferrer">Gl 5.15</a>. Para uma provável metáfora comercial: <strong>cuidai para que não sejais dissipados uns pelos outros</strong>; veja os verbetes <span class="greek">λόγος</span> e <span class="greek">πληρόω</span>. — DELG s.v. <span class="greek">ἁλίσκομαι</span>. Frisk s.v. <span class="greek">ἀναλίσκω</span>. M-M.</p>
 </section></article>
+<article id="entry-anallomai-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνάλλομαι</h1><div class="entry-meta"><span class="transliteration">⟦anállomai⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">ἄλλομαι</span>, “saltar, pular”; Aristófanes, Xenofonte e posteriores; PGM 36, 138. <strong>Saltar para cima</strong>: <span class="greek">ἀνήλατο</span>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ACT.14.10" target="_blank" rel="noopener noreferrer">At 14.10</a> D.</p>
+</section></article>
+
+<article id="entry-analogia-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναλογία</h1><div class="entry-meta"><span class="greek">ας, ἡ</span><span class="separator">·</span><span class="transliteration">⟦analogía⟧</span><span class="separator">·</span><span>substantivo feminino</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">λόγος</span>; pré-socráticos e outros; Fílon; Josefo, <em>Ant.</em> 15.396; Justino, <em>A I</em> 17.4; Atanásio, <em>R.</em> 75, 28; Irineu 1.14.5 [Harv. I 139, 3]. <strong>Estado de relação correta que envolve proporção, proporção</strong>. <span class="greek">κατὰ (τὴν) ἀναλογίαν</span>, <strong>em relação correta com, de acordo com, ou em proporção a</strong> — Platão, <em>Polit.</em> 257b; PFlor 50, 91 [séc. III d.C.]; Lv 27.18 segundo Field, <em>Hexapla</em>, <span class="greek">κατὰ ἀναλογίαν τῶν ἐτῶν</span>; compare Fílon, <em>Virtut.</em> 95.</p>
+<p class="entry-text"><span class="greek">κατὰ τὴν ἀ. τῆς πίστεως</span>, <strong>de acordo com — ou em proporção à — parcela de compromisso que alguém possui</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ROM.12.6" target="_blank" rel="noopener noreferrer">Rm 12.6</a>. REB: “em proporção à nossa fé”; isto é, cada dom é acompanhado por uma distribuição de compromisso ou fidelidade adequada à implementação do dom; veja <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ROM.12.3" target="_blank" rel="noopener noreferrer">Rm 12.3</a>, <span class="greek">ὡς ὁ θεὸς ἐμέρισεν μέτρον πίστεως</span>. Para a compreensão de <span class="greek">πίστις</span> aqui no sentido de “a fé cristã”, veja <span class="greek">πίστις</span> 3. — DELG s.v. <span class="greek">λέγω</span>. M-M. TW. Sv.</p>
+</section></article>
+
+<article id="entry-analogizomai-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναλογίζομαι</h1><div class="entry-meta"><span class="transliteration">⟦analogízomai⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">1º aoristo <span class="greek">ἀνελογισάμην</span>; veja <span class="greek">λογίζομαι</span>. Tucídides 8.83.3 e outros; <em>Stoic.</em> III p. 246, 15; Políbio 10.37.10; Diodoro Sículo 20.8.1; Plutarco, <em>Anton.</em> 951 [75, 6]; Luciano, <em>Tox.</em> 17; PTebt 183, termo comercial; 3 Macc 7.7; Wsd 17.12 v.l.; PsSol 8.7; Josefo, <em>Ant.</em> 4.312. <strong>Raciocinar com cuidadosa deliberação, considerar</strong>; <span class="greek">τινά</span>, alguém — Diodoro Sículo 4.83.2 —, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/HEB.12.3" target="_blank" rel="noopener noreferrer">Hb 12.3</a>. Absolutamente: <span class="greek">ἀναλογισώμεθα</span>, <strong>consideremos</strong>, 1 Cl 38.3. — M-M.</p>
+</section></article>
+
+<article id="entry-analos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἄναλος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦ánalos⟧</span><span class="separator">·</span><span>adjetivo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Aristóteles, <em>Probl.</em> 21.5.1; Plutarco, <em>Mor.</em> 684f; Áquila, Ez 13.10; 22.28. <strong>Sem sal, privado de seu teor de sal</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.9.50" target="_blank" rel="noopener noreferrer">Mc 9.50</a>. O sal produzido por evaporação natural nas margens do Mar Morto nunca é puro; quando a umidade o decompõe, o resíduo é inútil. — FPerles, <em>La parab. du Sel sourd</em>: REJ 82, 1926, 119–23; JdeZwaan, <em>Het smakelooze zout bij Mc 9:50</em>: NThSt 11, 1928, 176–78; veja <span class="greek">ἅλας</span>.</p>
+</section></article>
+
+<article id="entry-analoo-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναλόω</h1><div class="entry-meta"><span class="transliteration">⟦analóō⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀναλίσκω</span>.</p>
+</section></article>
+
+<article id="entry-analysis-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνάλυσις</h1><div class="entry-meta"><span class="greek">εως, ἡ</span><span class="separator">·</span><span class="transliteration">⟦análusis⟧</span><span class="separator">·</span><span>substantivo feminino</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀναλύω</span>; Sófocles e outros. Literalmente, <strong>“soltura”</strong>; depois, como o nosso “desmonte”, <strong>partida</strong> — Fílon, <em>In Flacc.</em> 115; Josefo, <em>Ant.</em> 19.239. Eufemisticamente, da partida da vida, <strong>morte</strong> — Fílon, <em>In Flacc.</em> 187, <span class="greek">τ. ἐκ τοῦ βίου τελευταίαν ἀνάλυσιν</span>; <span class="greek">ἀνάλυσις</span> sozinho = “morte”, em contraste com <span class="greek">γένεσις</span>, em Joannes Sard., <em>Comm. in Aphth.</em> p. 87, 4; Irineu 5.2.3 [Harv. II 324, 2], sobre o fim do mundo.</p>
+<p class="entry-text"><span class="greek">καιρὸς τῆς ἀ. μου</span>, <strong>o tempo de minha partida</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/2TI.4.6" target="_blank" rel="noopener noreferrer">2Tm 4.6</a>. <span class="greek">ἔγκαρπον καὶ τελείαν ἔχειν τ. ἀνάλυσιν</span>, <strong>ter uma partida frutífera e perfeita</strong>, isto é, depois de uma vida frutífera e perfeita, 1 Cl 44.5; veja <span class="greek">ἀναλύω</span> 2. — TW. Sv.</p>
+</section></article>
+
+<article id="entry-analyo-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναλύω</h1><div class="entry-meta"><span class="transliteration">⟦analúō⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">1º aoristo <span class="greek">ἀνέλυσα</span>; particípio perfeito <span class="greek">ἀναλελυκώς</span>, 2 Macc 9.1; aoristo passivo <span class="greek">ἀνελύθην</span>, LXX, Taciano 12.4; Homero e posteriores.</p>
+<p class="entry-text"><span class="sense-number">1.</span> Transitivo: <strong>soltar, desatar</strong> — Calímaco, <em>Del.</em> 237, <span class="greek">ζώνην</span>; IAndrosIsis 144f, <span class="greek">δεσμῶν ἀνάγκαν</span>. Passivo: <span class="greek">τὰ δεσμὰ ἀνελύθη</span>, <strong>as cadeias foram soltas</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ACT.16.26" target="_blank" rel="noopener noreferrer">At 16.26</a> v.l. Justino, <em>A I</em> 20.2, segundo os estoicos: <span class="greek">θεὸν εἰς πῦρ ἀναλύεσθαι</span>, <strong>Deus se transforma em fogo</strong>.</p>
+<p class="entry-text"><span class="sense-number">2.</span> Intransitivo: <strong>partir, retornar</strong> — Políbio; papiro em APF 1, 1901, p. 59, linha 10; Tb 2.9; 2 Macc 8.25; 12.7; Josefo, <em>Ant.</em> 6.52; 11.34, depois de um jantar. <span class="greek">ἔκ τινος</span>, <strong>de alguma coisa</strong> — Eliano, <em>VH</em> 4.23 v.l., <span class="greek">ἐκ συμποσίου</span>; Wsd 2.1; 2 Macc 9.1 —; <span class="greek">ἐκ τῶν γάμων</span>, <strong>das bodas</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.12.36" target="_blank" rel="noopener noreferrer">Lc 12.36</a>.</p>
+<p class="entry-text">Figuradamente, <strong>partir</strong>, subentendido <span class="greek">ἐκ τοῦ ζῆν</span>, eufemisticamente <strong>morrer</strong> — Luciano, <em>Philops.</em> 14, <span class="greek">ὀκτωκαιδεκαέτης ὢν ἀνέλυεν</span>; Sócrates, <em>Ep.</em> 27.5; IG XIV 1794, 2; Diógenes de Enoanda 58 I, 11 [BCH 21, 1897, 401] = Fgm. 2 II, 11 Ch., <span class="greek">ἀ. [ἐκ τ]οῦ ζῆν</span> —; <span class="greek">ἐπιθυμίαν ἔχων εἰς τὸ ἀναλῦσαι</span>, <strong>tendo o desejo de partir</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/PHP.1.23" target="_blank" rel="noopener noreferrer">Fp 1.23</a>. — GOsnes, TTK 11, 1940, 148–59. M-M. TW.</p>
+</section></article>
+
+<article id="entry-anamartetos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναμάρτητος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦anamártētos⟧</span><span class="separator">·</span><span>adjetivo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἁμαρτάνω</span>; Heródoto 5.39.2 e posteriores; Musônio 6.16 H.; Epicteto 4.8.6; 4.12.19; Plutarco, <em>Mor.</em> 419a; Apiano, <em>Liby.</em> 51 §224, <span class="greek">πρὸς τ. θεούς</span>; inscrição [Muratori, <em>Nov. Thes. vet. ins.</em> IV, p. 2062, 6, <span class="greek">Ναρκίσσῳ τέκνῳ ἀναμαρτήτῳ</span>]; papiros; Dt 29.19; 2 Macc 8.4; 12.42; En 99.2; TestBenj 3.8; ApcSed 14.8 p. 136, 11 Ja; EpArist 252; Fílon, <em>Mut. Nom.</em> 51; Josefo, <em>Bell.</em> 7.329, <span class="greek">πρὸς τ. θεόν</span>; Ar. 15.11 [Milne 76, 41]; Justino, <em>D.</em> 47.5 e outros; <span class="greek">ἀναμαρτῆτως</span> 44.4. <strong>Sem pecado</strong>, isto é, <strong>não tendo pecado</strong> — Teles p. 55, 13 = <span class="greek">ἐκτὸς ἁμαρτίας</span> —; <span class="greek">ὁ ἀ. ὑμῶν</span>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JHN.8.7" target="_blank" rel="noopener noreferrer">Jo 8.7</a>. — M-M.</p>
+</section></article>
+
+<article id="entry-anamarukaomai-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναμαρυκάομαι</h1><div class="entry-meta"><span class="transliteration">⟦anamarukáomai⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">μηρυκάομαι</span>, “ruminar, mastigar o bolo alimentar”; Luciano, <em>Gall.</em> 8; Lv 11.26 v.l.; Dt 14.8 v.l. <strong>Ruminar</strong>, figuradamente, com referência a Lv 11.3; Dt 14.6: <span class="greek">τὸν λόγον κυρίου</span>, <strong>ruminar sobre a palavra do Senhor</strong>, isto é, <strong>pensar nela repetidas vezes</strong>, B 10.11. — Veja <span class="greek">μαρυκάομαι</span>.</p>
+</section></article>
+
+<article id="entry-anameno-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀναμένω</h1><div class="entry-meta"><span class="transliteration">⟦anaménō⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Futuro 2ª pl. <span class="greek">ἀναμενεῖτε</span>, Jr 13.16; 1º aoristo <span class="greek">ἀνέμεινα</span>; imperativo <span class="greek">ἀνάμεινον</span>. Homero e outros; papiros, LXX; pseudepígrafos, Fílon, Josefo; Justino, <em>D.</em> 11.4 e outros. Absolutamente: Ps.-Calístenes 2.19.5; POxy 1773, 32; Justino, <em>D.</em> 115.3.</p>
+<p class="entry-text"><strong>Esperar por, aguardar</strong> alguém ou alguma coisa — autores áticos; Epicteto 4.8.42; Jt 8.17; Sir 2.7; Is 59.11; JosAs 24.9; Josefo, <em>Bell.</em> 3.72; ApcSed 14.8; Justino, <em>D.</em> 32.1 —, especialmente o Messias: <span class="greek">ἀ. τ. υἱὸν αὐτοῦ ἐκ τῶν οὐρανῶν</span>, <strong>esperar o Filho de Deus, vindo do céu</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1TH.1.10" target="_blank" rel="noopener noreferrer">1Ts 1.10</a>. <span class="greek">ὃν δικαίως ἀνέμενον</span>, IMg 9.3. Com <span class="greek">εἰς αὐτὸν ἐλπίζειν</span>, IPhld 5.2. <span class="greek">ἀνάμεινον τὸ τρίτον (ἔτος)</span>, <strong>espera até o terceiro ano!</strong>, GJs 7.1.</p>
+<p class="entry-text">Figuradamente, do tempo: <span class="greek">μακάριος αὐτὸν ἀναμένει χρόνος</span>, <strong>um tempo bem-aventurado o aguarda</strong>, isto é, ao devoto, 2 Cl 19.4; compare TestAsh 5.2. — P-ÉLangevin, <em>Jésus Seigneur</em> 1967, 67–73; GFriedrich, TZ 21, 1965, 504s., sobre 1Ts 1.10. — M-M.</p>
+</section></article>
+
 `
 };
