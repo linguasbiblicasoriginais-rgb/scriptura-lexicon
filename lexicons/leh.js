@@ -419,6 +419,16 @@ window.ScripturaLexicons.LEH = {
             key: "DOGNIEZ 1992",
             type: "biblio",
             text: "C. Dogniez & M. Harl, La Bible d’Alexandrie. V. Le Deutéronome, Paris, 1992"
+        },
+        {
+            key: "FERNÁNDEZ MARCOS 1994",
+            type: "biblio",
+            text: "N. Fernández Marcos, Scribes and Translators. Septuagint and Old Latin in the Books of Kings (SVT, 54), Leiden – New York – Köln, 1994"
+        },
+        {
+            key: "HAUSPIE 2002",
+            type: "biblio",
+            text: "K. Hauspie, “The LXX Quotations in the Supplements of 1968 and 1996 of LSJ”, em J. A. L. Lee, P. R. Burton, B. Taylor & R. E. Whitaker (eds.), Biblical Greek Language and Lexicography: Essays in Honor of Frederick W. Danker, Grand Rapids, MI, 2002 (forthcoming)"
         }
     ],
 
@@ -790,6 +800,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-athesia-leh" data-source="LEH" data-search="ἀθεσία athesia substantivo infidelidade deslealdade neologismo Jeremias Daniel Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀθεσία</td><td>Substantivo</td><td>infidelidade; deslealdade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-athesmos-leh" data-source="LEH" data-search="ἄθεσμος athesmos adjetivo ilícito Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἄθεσμος</td><td>Adjetivo</td><td>ilícito</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athesmos-adv-leh" data-source="LEH" data-search="ἀθέσμως athesmos advérbio ilicitamente Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθέσμως</td><td>Advérbio</td><td>ilicitamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-atheteo-leh" data-source="LEH" data-search="ἀθετέω atheteo verbo tratar como nada rejeitar rebelar-se agir traiçoeiramente quebrar fidelidade Êxodo Deuteronômio Juízes Samuel Reis Ezequiel Isaías semitismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθετέω</td><td>Verbo</td><td>tratar como nada; rejeitar; rebelar-se; quebrar a fidelidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athetema-leh" data-source="LEH" data-search="ἀθέτημα athetema substantivo quebra de fidelidade transgressão neologismo Reis Crônicas Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθέτημα</td><td>Substantivo</td><td>quebra de fidelidade; transgressão</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athetesis-leh" data-source="LEH" data-search="ἀθέτησις athetesis substantivo quebra de fidelidade Samuel LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθέτησις</td><td>Substantivo</td><td>quebra de fidelidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-atheoretos-leh" data-source="LEH" data-search="ἀθεώρητος atheoretos adjetivo não visto que não pode ser visto Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθεώρητος</td><td>Adjetivo</td><td>não visto; que não pode ser visto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athleo-leh" data-source="LEH" data-search="ἀθλέω athleo verbo remissão TWNT composto ἐν LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθλέω</td><td>Verbo</td><td>remissão ao TWNT e ao composto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athletes-leh" data-source="LEH" data-search="ἀθλητής athletes substantivo atleta campeão mestre Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθλητής</td><td>Substantivo</td><td>atleta; campeão; mestre</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athliotatos-leh" data-source="LEH" data-search="ἄθλιώτατος athliotatos adjetivo superlativo ἄθλιος mais miserável Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἄθλιώτατος</td><td>Adjetivo</td><td>o mais miserável</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athlotheteo-leh" data-source="LEH" data-search="ἀθλοθετέω athlotheteo verbo oferecer prêmio recompensas Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθλοθετέω</td><td>Verbo</td><td>oferecer um prêmio; oferecer recompensas</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -1778,6 +1819,85 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>infidelidade, deslealdade</strong>.</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.20.8" target="_blank" rel="noopener noreferrer">Jr 20.8</a>; DnTh 9.7; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.16.17" target="_blank" rel="noopener noreferrer">1Mc 16.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.15.10" target="_blank" rel="noopener noreferrer">2Mc 15.10</a>.</p>
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+    </section>
+</article>
+
+<article id="entry-athesmos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄθεσμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄθεσμος, -ος, -ον · athesmos" data-transliteration="athesmos" data-meanings="ilícito">ἄθεσμος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ilícito</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.5.12" target="_blank" rel="noopener noreferrer">3Mc 5.12</a>.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-athesmos-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθέσμως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθέσμως · athesmōs" data-transliteration="athesmōs" data-meanings="ilicitamente">ἀθέσμως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ilicitamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.6.26" target="_blank" rel="noopener noreferrer">3Mc 6.26</a>.</p>
+    </section>
+</article>
+
+<article id="entry-atheteo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθετέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθετέω · atheteō" data-transliteration="atheteō" data-meanings="tratar como nada|rejeitar|rebelar-se|agir traiçoeiramente|quebrar a fidelidade">ἀθετέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-21-22-9-10=64</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>tratar como nada</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.2.17" target="_blank" rel="noopener noreferrer">1Sm 2.17</a>); <strong>rejeitar</strong> (a lei) [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.22.26" target="_blank" rel="noopener noreferrer">Ez 22.26</a>); <strong>rebelar-se</strong> [uso absoluto] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.8.20" target="_blank" rel="noopener noreferrer">2Re 8.20</a>).</p>
+        <p class="entry-text"><strong>agir traiçoeiramente com, quebrar a fidelidade para com</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.21.14" target="_blank" rel="noopener noreferrer">Dt 21.14</a>); id. [<span class="greek">εἴς τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.12.19" target="_blank" rel="noopener noreferrer">1Re 12.19</a>); id. [<span class="greek">ἔν τινι</span>] — semitismo, vertendo o hebraico <bdi class="hebrew" lang="he" dir="rtl">בגד ב־</bdi> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.21.8" target="_blank" rel="noopener noreferrer">Êx 21.8</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.13.3" target="_blank" rel="noopener noreferrer">1Sm 13.3</a> <span class="greek">ἠθετήκασιν</span> <strong>rebelaram-se</strong> — <bdi class="hebrew" lang="he" dir="rtl">פשׁעו</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">ישׁמעו</bdi> <strong>ouviram</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.27.4" target="_blank" rel="noopener noreferrer">Is 27.4</a> <span class="greek">ἠθέτηκα</span> <strong>pus (rebeldemente)</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">פשׁע</bdi> ? por MT <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">פשׂע</bdi> <strong>darei um passo</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 21.8; Dt 21.14; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.9.23" target="_blank" rel="noopener noreferrer">Jz 9.23</a>; 1Sm 2.17.</p>
+        <p class="entry-text"><strong>Cf.</strong> DOGNIEZ 1992, 245; FERNÁNDEZ MARCOS 1994, 56 (1Sm 13.3); HAUSPIE 2002, forthcoming; HELBING 1928, 92–93; LE BOULLUEC 1989, 216 (Êx 21.8); LEE, J. 1969, 239; SPICQ 1978a, 47–48; WALTERS 1973, 256–257; → ADRADOS; NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-athetema-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθέτημα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθέτημα, -ατος · athetēma" data-transliteration="athetēma" data-meanings="quebra de fidelidade|transgressão">ἀθέτημα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-2-1-0-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>quebra de fidelidade, transgressão</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.8.50" target="_blank" rel="noopener noreferrer">1Re 8.50</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.36.14" target="_blank" rel="noopener noreferrer">2Cr 36.14</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.12.1" target="_blank" rel="noopener noreferrer">Jr 12.1</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+    </section>
+</article>
+
+<article id="entry-athetesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθέτησις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθέτησις, -εως · athetēsis" data-transliteration="athetēsis" data-meanings="quebra de fidelidade">ἀθέτησις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>quebra de fidelidade</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.24.12" target="_blank" rel="noopener noreferrer">1Sm 24.12</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1978a, 47; → TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-atheoretos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθεώρητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθεώρητος, -ος, -ον · atheōrētos" data-transliteration="atheōrētos" data-meanings="não visto|que não pode ser visto">ἀθεώρητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não visto, que não pode ser visto</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.17.18" target="_blank" rel="noopener noreferrer">Sb 17.18</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athleo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθλέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθλέω · athleō" data-transliteration="athleō" data-meanings="remissão do LEH">ἀθλέω</span><span class="separator">·</span><span>verbo</span><span class="separator">·</span><span>sem estatística própria no LEH</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Remissões da fonte</div>
+        <p class="entry-text">O LEH não fornece glossa autônoma nem estatística neste ponto; remete a <strong>TWNT</strong> e ao composto com <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐν- · en-" data-transliteration="en-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">ἐν-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-athletes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθλητής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθλητής, -οῦ · athlētēs" data-transliteration="athlētēs" data-meanings="atleta|campeão|mestre">ἀθλητής, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>atleta</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.6.10" target="_blank" rel="noopener noreferrer">4Mc 6.10</a>); <strong>atleta, campeão</strong> (metaforicamente: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.17.15" target="_blank" rel="noopener noreferrer">4Mc 17.15</a>); <strong>mestre de, campeão em</strong> [<span class="greek">τινος</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.17.16" target="_blank" rel="noopener noreferrer">4Mc 17.16</a>).</p>
+    </section>
+</article>
+
+<article id="entry-athliotatos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄθλιώτατος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄθλιώτατος, -η, -ον · athliōtatos" data-transliteration="athliōtatos" data-meanings="o mais miserável">ἄθλιώτατος, -η, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">Superlativo de <span class="greek">ἄθλιος</span>: <strong>o mais miserável</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.5.37" target="_blank" rel="noopener noreferrer">3Mc 5.37</a>,49.</p>
+        <p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 45.</p>
+    </section>
+</article>
+
+<article id="entry-athlotheteo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθλοθετέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθλοθετέω · athlotheteō" data-transliteration="athlotheteō" data-meanings="oferecer um prêmio|oferecer recompensas">ἀθλοθετέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>oferecer um prêmio, oferecer recompensas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.17.12" target="_blank" rel="noopener noreferrer">4Mc 17.12</a>.</p>
     </section>
 </article>`
 };
