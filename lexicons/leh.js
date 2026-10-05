@@ -124,6 +124,101 @@ window.ScripturaLexicons.LEH = {
             key: "inf.",
             type: "abbr",
             text: "infinitive — infinitivo"
+        },
+        {
+            key: "KOONCE 1988",
+            type: "biblio",
+            text: "K. Koonce, “Ἄγαλμα and εἰκών”, American Journal of Philology 109 (1988), pp. 108–110"
+        },
+        {
+            key: "SPICQ 1982",
+            type: "biblio",
+            text: "C. Spicq, Notes de lexicographie néo-testamentaire. Supplément (OBO 22/3), Fribourg/Suisse–Göttingen, 1982"
+        },
+        {
+            key: "JOLY 1968",
+            type: "biblio",
+            text: "R. Joly, Le vocabulaire chrétien de l’amour est-il original? Φιλεῖν et ἀγαπᾶν dans le grec antique, Bruxelles, 1968"
+        },
+        {
+            key: "SWINN 1990",
+            type: "biblio",
+            text: "S. P. Swinn, “Ἀγαπᾶν in the Septuagint”, em T. Muraoka (ed.), 1990, pp. 49–81"
+        },
+        {
+            key: "BARR 1987",
+            type: "biblio",
+            text: "J. Barr, “Words for Love in Biblical Greek”, em L. D. Hurst e N. T. Wright (eds.), The Glory of Christ in the New Testament. FS G. B. Caird, Oxford, 1987, pp. 3–18"
+        },
+        {
+            key: "CERESA-GASTALDO 1953",
+            type: "biblio",
+            text: "A. Ceresa-Gastaldo, “Ἀγάπη nei documenti estranei all’influsso biblico”, RFIC 31 (1953), pp. 347–355"
+        },
+        {
+            key: "HORSLEY 1987",
+            type: "biblio",
+            text: "G. H. R. Horsley, New Documents Illustrating Early Christianity, vol. 4: A Review of the Greek Inscriptions and Papyri Published in 1979, Macquarie University, N.S.W., 1987"
+        },
+        {
+            key: "KAHANE 1987",
+            type: "biblio",
+            text: "H. e R. Kahane, “Religious Key Terms in Hellenism and Byzantium: Three Facets”, Illinois Classical Studies 12 (1987), pp. 243–263"
+        },
+        {
+            key: "PAESLACK 1954",
+            type: "biblio",
+            text: "M. Paeslack, “Zur Bedeutungsgeschichte der Wörter φιλεῖν ‘lieben’, φιλία ‘Liebe’ ‘Freundschaft’, φίλος ‘Freund’ in der Septuaginta und im Neuen Testament”, Theologia Viatorum 5 (1953–54), pp. 51–142"
+        },
+        {
+            key: "RIESENFELD 1941",
+            type: "biblio",
+            text: "H. Riesenfeld, “Étude bibliographique sur la notion d’ἀγάπη”, Coniectanea Neotestamentica 5 (1941), pp. 1–27"
+        },
+        {
+            key: "SPICQ 1978",
+            type: "biblio",
+            text: "C. Spicq, Notes de lexicographie néo-testamentaire. Tome I/II (OBO 22/1 e 2), 2 vols., Fribourg/Suisse–Göttingen, 1978"
+        },
+        {
+            key: "TARELLI 1950",
+            type: "biblio",
+            text: "C. C. Tarelli, “Ἀγάπη”, Journal of Theological Studies 1 (1950), pp. 64–67"
+        },
+        {
+            key: "WEST, S. 1967",
+            type: "biblio",
+            text: "S. West, “Alleged Pagan Use of agape in P. Oxy 1380”, Journal of Theological Studies 18 (1967), pp. 142–143"
+        },
+        {
+            key: "WEST, S. 1969",
+            type: "biblio",
+            text: "S. West, “A Further Note on ἀγάπη in P. Oxy 1380”, Journal of Theological Studies 20 (1969), pp. 228–230"
+        },
+        {
+            key: "WITT 1968",
+            type: "biblio",
+            text: "R. E. Witt, “Use of H Agape in P Oxy 1380”, Journal of Theological Studies 19 (1968), pp. 209–211"
+        },
+        {
+            key: "SCHLEUSNER",
+            type: "biblio",
+            text: "J. F. Schleusner, Novus Thesaurus Philologico-Criticus, sive Lexicon in LXX et reliquos interpretes graecos ac scriptores apocryphos Veteris Testamenti, 5 vols., Leipzig, 1820–1821"
+        },
+        {
+            key: "ENGEL 1985",
+            type: "biblio",
+            text: "H. Engel, Die Susanna-erzählung: Einleitung, Übersetzung und Kommentar zum Septuaginta-Text und zur Theodotion-Bearbeitung (OBO 61), Fribourg/Suisse–Göttingen, 1985"
+        },
+        {
+            key: "SOUTER 1926",
+            type: "biblio",
+            text: "A. Souter, “Ἀγαπητός”, Journal of Theological Studies 28 (1926–27), pp. 59–60"
+        },
+        {
+            key: "TURNER 1926",
+            type: "biblio",
+            text: "C. H. Turner, “Ὁ υἱός μου ὁ ἀγαπητός”, Journal of Theological Studies 27 (1926), pp. 113–129"
         }
     ],
 
@@ -218,6 +313,36 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-agalliasis-leh" data-source="LEH" data-search="ἀγαλλίασις agalliasis substantivo grande alegria exultação oração regozijo Isaías Salmos Tobias neologismo Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀγαλλίασις</td><td>Substantivo</td><td>grande alegria; exultação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agalma-leh" data-source="LEH" data-search="ἄγαλμα agalma substantivo ídolo estátua imagem Isaías 2 Macabeus KOONCE LEH" tabindex="0">
+    <td class="table-lemma greek">ἄγαλμα</td><td>Substantivo</td><td>ídolo; estátua; imagem</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agamos-leh" data-source="LEH" data-search="ἄγαμος agamos adjetivo não casado solteiro 4 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄγαμος</td><td>Adjetivo</td><td>não casado; solteiro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agan-leh" data-source="LEH" data-search="ἄγαν agan advérbio muito 3 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἄγαν</td><td>Advérbio</td><td>muito</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aganakteo-leh" data-source="LEH" data-search="ἀγανακτέω aganakteo verbo descontente irritado indignação enfurecer-se 4 Macabeus Sabedoria Bel Teodocião SPICQ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγανακτέω</td><td>Verbo</td><td>estar descontente; indignar-se; enfurecer-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agapao-leh" data-source="LEH" data-search="ἀγαπάω agapao verbo amar estimar contentar-se gostar fazer amado Gênesis Crônicas Eclesiastes Provérbios Isaías Salmos MT hebraico Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαπάω</td><td>Verbo</td><td>amar; estimar; contentar-se com; gostar de fazer</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agape-leh" data-source="LEH" data-search="ἀγάπη agape substantivo amor 2 Samuel Jeremias Cântico dos Cânticos Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγάπη</td><td>Substantivo</td><td>amor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agapesis-leh" data-source="LEH" data-search="ἀγάπησις agapesis substantivo afeição amor 2 Samuel Jeremias Oseias Habacuque hebraico MT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγάπησις</td><td>Substantivo</td><td>afeição; amor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agapetos-leh" data-source="LEH" data-search="ἀγαπητός agapetos adjetivo desejável amável amado Gênesis Juízes Isaías Salmos Sirácida hebraico MT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαπητός</td><td>Adjetivo</td><td>desejável; amável; amado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agauriama-leh" data-source="LEH" data-search="ἀγαυρίαμα agauriama substantivo orgulho jactância Isaías Jeremias Jó Baruc neologismo LSJ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαυρίαμα</td><td>Substantivo</td><td>orgulho; jactância</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-agauriaomai-leh" data-source="LEH" data-search="ἀγαυριάομαι agauriaomai verbo orgulhar-se jactar-se Jó neologismo HELBING LSJ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀγαυριάομαι</td><td>Verbo</td><td>orgulhar-se; jactar-se</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -510,6 +635,110 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="προσευχὴ εἰς ἀγαλλίασιν · proseuchē eis agalliasin" data-transliteration="proseuchē eis agalliasin" data-meanings="oração para regozijo">προσευχὴ εἰς ἀγαλλίασιν</span>: <strong>oração para regozijo</strong> (Tb<sup>BA</sup> 13.1).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.51.11" target="_blank" rel="noopener noreferrer">Is 51.11</a>; Sl 29(30).6; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.41.5" target="_blank" rel="noopener noreferrer">41(42).5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.44.8" target="_blank" rel="noopener noreferrer">44(45).8,16</a>.</p>
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span> → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-agalma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄγαλμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγαλμα, -ατος · agalma" data-transliteration="agalma" data-meanings="ídolo|estátua|imagem">ἄγαλμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-1=3</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ídolo; estátua; imagem</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.19.3" target="_blank" rel="noopener noreferrer">Is 19.3</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.21.9" target="_blank" rel="noopener noreferrer">21.9</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.2.2" target="_blank" rel="noopener noreferrer">2Mc 2.2</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> KOONCE 1988, 108-110.</p>
+    </section>
+</article>
+
+<article id="entry-agamos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄγαμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγαμος, -ος, -ον · agamos" data-transliteration="agamos" data-meanings="não casado|solteiro">ἄγαμος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não casado; solteiro</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.16.9" target="_blank" rel="noopener noreferrer">4Mc 16.9</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agan-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄγαν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄγαν · agan" data-transliteration="agan" data-meanings="muito">ἄγαν</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>muito</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.4.11" target="_blank" rel="noopener noreferrer">3Mc 4.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aganakteo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγανακτέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγανακτέω · aganakteō" data-transliteration="aganakteō" data-meanings="estar descontente|estar irritado|mostrar indignação|enfurecer-se">ἀγανακτέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-4=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>estar descontente; estar irritado; mostrar indignação</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.12.27" target="_blank" rel="noopener noreferrer">Sb 12.27</a>); <strong>enfurecer-se</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.5.22" target="_blank" rel="noopener noreferrer">Sb 5.22</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.4.21" target="_blank" rel="noopener noreferrer">4Mc 4.21</a>; Sb 5.22; Sb 12.27; Bel<sup>Th</sup> 28.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1982, 5-7.</p>
+    </section>
+</article>
+
+<article id="entry-agapao-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαπάω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαπάω · agapaō" data-transliteration="agapaō" data-meanings="amar|estimar|contentar-se com|gostar de fazer">ἀγαπάω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 42-37-49-89-66=283</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>amar</strong> — entre seres humanos, do amor de Deus pelo homem e do homem por Deus (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.22.2" target="_blank" rel="noopener noreferrer">Gn 22.2</a>); <strong>amar, estimar</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τι · ti" data-transliteration="ti" data-meanings="algo; acusativo de pronome indefinido">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.29.17" target="_blank" rel="noopener noreferrer">1Cr 29.17</a>); <strong>contentar-se com</strong> [<span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τι · ti" data-transliteration="ti" data-meanings="algo; acusativo de pronome indefinido">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ECC.5.9" target="_blank" rel="noopener noreferrer">Ec 5.9</a>); <strong>gostar de fazer, amar fazer</strong> [+<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="inf." data-tooltip-text="infinitive — infinitivo">inf.</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.20.13" target="_blank" rel="noopener noreferrer">Pv 20.13</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἠγαπημένος · ēgapēmenos" data-transliteration="ēgapēmenos" data-meanings="amado">ἠγαπημένος</span>: <strong>amado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.44.2" target="_blank" rel="noopener noreferrer">Is 44.2</a>). <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τὴν ἀγάπην, ἣν ἠγάπησεν αὐτήν · tēn agapēn, hēn ēgapēsen autēn" data-transliteration="tēn agapēn, hēn ēgapēsen autēn" data-meanings="o amor com que a amara">τὴν ἀγάπην, ἣν ἠγάπησεν αὐτήν</span>: <strong>o amor com que a amara</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.13.15" target="_blank" rel="noopener noreferrer">2Sm 13.15</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.7.18" target="_blank" rel="noopener noreferrer">2Sm 7.18</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἠγάπηκάς με · ēgapēkas me" data-transliteration="ēgapēkas me" data-meanings="tu me amaste">ἠγάπηκάς με</span> <strong>tu me amaste</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אהבתני" data-transliteration="ʾhbtny" data-meanings="tu me amaste">אהבתני</bdi> ? por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הביאותני" data-transliteration="hbyʾtny" data-meanings="tu me trouxeste">הביאותני</bdi> <strong>tu me trouxeste</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.28.6" target="_blank" rel="noopener noreferrer">Sl 28(29).6</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὁ ἠγαπημένος · ho ēgapēmenos" data-transliteration="ho ēgapēmenos" data-meanings="o amado">ὁ ἠγαπημένος</span> <strong>o amado</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="ישרון" data-transliteration="yšrwn" data-meanings="amado; forma pressuposta pelo grego segundo o LEH">ישרון</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="שריון" data-transliteration="śrywn" data-meanings="Sirion">שריון</bdi> <strong>Sirion</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.30.15" target="_blank" rel="noopener noreferrer">Pv 30.15</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="(ἦσαν) ἀγαπήσει ἀγαπώμεναι · (ēsan) agapēsei agapōmenai" data-transliteration="(ēsan) agapēsei agapōmenai" data-meanings="eram muito amadas">(ἦσαν) ἀγαπήσει ἀγαπώμεναι</span> <strong>muito amadas</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אהב" data-transliteration="ʾhb" data-meanings="amar">אהב</bdi> ou <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="חבב" data-transliteration="ḥbb" data-meanings="amar|estimar">חבב</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הב הב" data-transliteration="hb hb" data-meanings="forma do texto massorético citada pelo LEH; sentido incerto no contexto">הב הב</bdi>?; ver também <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HOS.8.13" target="_blank" rel="noopener noreferrer">Os 8.13</a> e <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HAB.3.4" target="_blank" rel="noopener noreferrer">Hb 3.4</a>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 22.2; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.24.67" target="_blank" rel="noopener noreferrer">24.67</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.25.28" target="_blank" rel="noopener noreferrer">25.28</a> (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.29.18" target="_blank" rel="noopener noreferrer">29.18</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> JOLY 1968, 48-51; SWINN 1990, 49-79; → NIDNTT; SCHLEUSNER (2Sm 7.18); TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agape-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγάπη</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγάπη, -ης · agapē" data-transliteration="agapē" data-meanings="amor">ἀγάπη, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-1-1-13-4=19</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>amor</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.13.15" target="_blank" rel="noopener noreferrer">2Sm 13.15</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.2.2" target="_blank" rel="noopener noreferrer">Jr 2.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SNG.2.4" target="_blank" rel="noopener noreferrer">Ct 2.4</a>,5,7.</p>
+        <p class="entry-text"><strong>Cf.</strong> BARR 1987, 3-18; CERESA-GASTALDO 1953, 347-355; HORSLEY 1987, 258-259; KAHANE 1987, 243-263; PAESLACK 1954, 51-142; RIESENFELD 1941, 1-27; SPICQ 1978, 15-30; SWINN 1990, 80-81; TARELLI 1950, 64-67; WEST, S. 1967, 142-143; WEST, S. 1969, 228-230; WITT 1968, 209-211; → LSJ RSuppl; NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agapesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγάπησις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγάπησις, -εως · agapēsis" data-transliteration="agapēsis" data-meanings="afeição|amor">ἀγάπησις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-2-5-1-4=12</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>afeição, amor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.1.26" target="_blank" rel="noopener noreferrer">2Sm 1.26</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Sm 1.26 (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.2.33" target="_blank" rel="noopener noreferrer">Jr 2.33</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.38.3" target="_blank" rel="noopener noreferrer">38(31).3</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HOS.11.4" target="_blank" rel="noopener noreferrer">Os 11.4</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HAB.3.4" target="_blank" rel="noopener noreferrer">Hb 3.4</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγάπησιν · agapēsin" data-transliteration="agapēsin" data-meanings="amor">ἀγάπησιν</span> <strong>amor</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="חבב" data-transliteration="ḥbb" data-meanings="amar|estimar">חבב</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="חביון" data-transliteration="ḥbywn" data-meanings="forma do texto massorético citada pelo LEH">חביון</bdi> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="חבה" data-transliteration="ḥbh" data-meanings="véu">חבה</bdi> <strong>véu</strong>; ver também <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαπάω · agapaō" data-transliteration="agapaō" data-meanings="amar">ἀγαπάω</span>.</p>
+    </section>
+</article>
+
+<article id="entry-agapetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαπητός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαπητός, -ή, -όν · agapētos" data-transliteration="agapētos" data-meanings="desejável|amável|amado">ἀγαπητός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 3-1-7-6-7=24</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desejável, amável</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.83.2" target="_blank" rel="noopener noreferrer">Sl 83(84).2</a>); <strong>amado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.22.2" target="_blank" rel="noopener noreferrer">Gn 22.2</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="καὶ οὐκ ἔστιν ἀγαπητὸν τοῖς φοβουμένοις αὐτόν · kai ouk estin agapēton tois phoboumenois auton" data-transliteration="kai ouk estin agapēton tois phoboumenois auton" data-meanings="e não é amado pelos que o temem">καὶ οὐκ ἔστιν ἀγαπητὸν τοῖς φοβουμένοις αὐτόν</span>: <strong>ele (a abominação) não é amado pelos que o temem; os que temem (a abominação) não o amam</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.15.13" target="_blank" rel="noopener noreferrer">Sr 15.13</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.67.13" target="_blank" rel="noopener noreferrer">Sl 67(68).13</a> <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="τοῦ ἀγαπητοῦ · tou agapētou" data-transliteration="tou agapētou" data-meanings="do amado">τοῦ ἀγαπητοῦ</span> <strong>do amado</strong> — <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="ידד" data-transliteration="ydd" data-meanings="amado; forma pressuposta pelo grego segundo o LEH">ידד</bdi> por MT <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="ידדון" data-transliteration="yddwn" data-meanings="forma do texto massorético citada pelo LEH">ידדון</bdi> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="נדד" data-transliteration="ndd" data-meanings="fugir">נדד</bdi> <strong>eles fogem</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 22.2,12,16; Jz<sup>A</sup> 11.34; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.5.1" target="_blank" rel="noopener noreferrer">Is 5.1</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> ENGEL 1985, 132-133; HARL 1986a, 192-193; HORSLEY 1987, 254-255; PAESLACK 1954, 51-142; SOUTER 1926, 59-60; SWINN 1990, 81; TURNER 1926, 113-129; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-agauriama-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαυρίαμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαυρίαμα, -ατος · agauriama" data-transliteration="agauriama" data-meanings="orgulho|jactância">ἀγαυρίαμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-1-1=4</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>orgulho; jactância</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.62.7" target="_blank" rel="noopener noreferrer">Is 62.7</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.31.2" target="_blank" rel="noopener noreferrer">Jr 31(48).2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.13.12" target="_blank" rel="noopener noreferrer">Jó 13.12</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/BAR.4.34" target="_blank" rel="noopener noreferrer">Br 4.34</a>.</p>
+        <p class="entry-text">→ <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="LSJ RSuppl" data-tooltip-text="Liddell–Scott–Jones, Revised Supplement; ed. P. G. W. Glare, com assistência de A. A. Thompson, 1996 (→ LIDDELL)">LSJ RSuppl</span>.</p>
+    </section>
+</article>
+
+<article id="entry-agauriaomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀγαυριάομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαυριάομαι · agauriaomai" data-transliteration="agauriaomai" data-meanings="orgulhar-se|jactar-se">ἀγαυριάομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header>
+    <div class="entry-divider"></div>
+    <section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>orgulhar-se; jactar-se</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.3.14" target="_blank" rel="noopener noreferrer">Jó 3.14</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 261-262; → <span class="biblio-ref tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="LSJ RSuppl" data-tooltip-text="Liddell–Scott–Jones, Revised Supplement; ed. P. G. W. Glare, com assistência de A. A. Thompson, 1996 (→ LIDDELL)">LSJ RSuppl</span>.</p>
     </section>
 </article>`
 };
