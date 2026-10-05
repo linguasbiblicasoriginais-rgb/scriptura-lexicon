@@ -429,6 +429,11 @@ window.ScripturaLexicons.LEH = {
             key: "HAUSPIE 2002",
             type: "biblio",
             text: "K. Hauspie, “The LXX Quotations in the Supplements of 1968 and 1996 of LSJ”, em J. A. L. Lee, P. R. Burton, B. Taylor & R. E. Whitaker (eds.), Biblical Greek Language and Lexicography: Essays in Honor of Frederick W. Danker, Grand Rapids, MI, 2002 (forthcoming)"
+        },
+        {
+            key: "BICKERMAN 1946=1980",
+            type: "biblio",
+            text: "E. J. Bickerman, “Une proclamation séleucide relative au temple de Jérusalem”, Syria 25 (1946–48), pp. 67–85; reimpresso em Studies in Jewish and Christian History. Part Two (AGJU, 9), Leiden, 1980, pp. 86–104"
         }
     ],
 
@@ -831,6 +836,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-athlotheteo-leh" data-source="LEH" data-search="ἀθλοθετέω athlotheteo verbo oferecer prêmio recompensas Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀθλοθετέω</td><td>Verbo</td><td>oferecer um prêmio; oferecer recompensas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-athlon-leh" data-source="LEH" data-search="ἄθλον athlon substantivo prêmio Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἄθλον</td><td>Substantivo</td><td>prêmio</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athlophoros-leh" data-source="LEH" data-search="ἀθλοφόρος athlophoros adjetivo vitorioso que leva o prêmio Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθλοφόρος</td><td>Adjetivo</td><td>vitorioso; que leva o prêmio</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athoukiin-leh" data-source="LEH" data-search="αθουκιιν athoukiin substantivo nome próprio עתיקים antigos Crônicas LEH" tabindex="0">
+    <td class="table-lemma greek">αθουκιιν</td><td>Substantivo</td><td>nome próprio em lugar de MT עתיקים “antigos”</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athroizo-leh" data-source="LEH" data-search="ἀθροίζω athroizo verbo reunir juntar reunir-se ser reunido Gênesis Números Samuel Reis Jeremias Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθροίζω</td><td>Verbo</td><td>reunir; juntar; reunir-se; ser reunido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athroisma-leh" data-source="LEH" data-search="ἄθροισμα athroisma substantivo multidão reunião assembleia Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἄθροισμα</td><td>Substantivo</td><td>multidão; reunião; assembleia</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athroos-leh" data-source="LEH" data-search="ἀθρόος athroos adjetivo em multidões reunido Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθρόος</td><td>Adjetivo</td><td>em multidões; reunido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athumeo-leh" data-source="LEH" data-search="ἀθυμέω athumeo verbo desanimar-se Deuteronômio Samuel Crônicas LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθυμέω</td><td>Verbo</td><td>desanimar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athumia-leh" data-source="LEH" data-search="ἀθυμία athumia substantivo desânimo abatimento Samuel Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθυμία</td><td>Substantivo</td><td>desânimo; abatimento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athutos-leh" data-source="LEH" data-search="ἄθυτος athutos adjetivo impróprio para ser oferecido Levítico LEH" tabindex="0">
+    <td class="table-lemma greek">ἄθυτος</td><td>Adjetivo</td><td>impróprio para ser oferecido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-athoos-leh" data-source="LEH" data-search="ἀθῷος athoos adjetivo impune inocente sem culpa livre de sangue inocente juramento serviço militar mãos inocentes Gênesis Êxodo Sirácida Jó Samuel Josué Deuteronômio Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθῷος</td><td>Adjetivo</td><td>impune; inocente; sem culpa; livre de</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -1898,6 +1934,87 @@ window.ScripturaLexicons.LEH = {
     <header class="entry-header"><div><h1 class="entry-title greek">ἀθλοθετέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθλοθετέω · athlotheteō" data-transliteration="athlotheteō" data-meanings="oferecer um prêmio|oferecer recompensas">ἀθλοθετέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>oferecer um prêmio, oferecer recompensas</strong>.</p>
         <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.17.12" target="_blank" rel="noopener noreferrer">4Mc 17.12</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athlon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄθλον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄθλον, -ου · athlon" data-transliteration="athlon" data-meanings="prêmio">ἄθλον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>prêmio</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.9.8" target="_blank" rel="noopener noreferrer">4Mc 9.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.4.2" target="_blank" rel="noopener noreferrer">Sb 4.2</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athlophoros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθλοφόρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθλοφόρος, -ος, -ον · athlophoros" data-transliteration="athlophoros" data-meanings="vitorioso|que leva o prêmio">ἀθλοφόρος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vitorioso, que leva o prêmio</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.15.29" target="_blank" rel="noopener noreferrer">4Mc 15.29</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.18.23" target="_blank" rel="noopener noreferrer">18.23</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athoukiin-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αθουκιιν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αθουκιιν · athoukiin" data-transliteration="athoukiin" data-meanings="nome próprio em lugar de MT עתיקים, antigos">αθουκιιν</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Nota da fonte</div>
+        <p class="entry-text"><strong>nome próprio</strong> em lugar de MT <bdi class="hebrew" lang="he" dir="rtl">עתיקים</bdi> <strong>antigos</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.4.22" target="_blank" rel="noopener noreferrer">1Cr 4.22</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athroizo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθροίζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθροίζω · athroizō" data-transliteration="athroizō" data-meanings="reunir|juntar|reunir-se|ser reunido">ἀθροίζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-2-2-0-9=15</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>A:</strong> <strong>reunir, juntar</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.7.5" target="_blank" rel="noopener noreferrer">1Sm 7.5</a>).</p>
+        <p class="entry-text"><strong>M:</strong> <strong>reunir-se</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.1.20" target="_blank" rel="noopener noreferrer">3Mc 1.20</a>).</p>
+        <p class="entry-text"><strong>P:</strong> <strong>ser reunido</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.49.2" target="_blank" rel="noopener noreferrer">Gn 49.2</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.18.21" target="_blank" rel="noopener noreferrer">Jr 18.21</a> <span class="greek">καὶ ἄθροισον</span> <strong>e reúne-os</strong> — <bdi class="hebrew" lang="he" dir="rtl">והאגרם</bdi> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">אגר</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">והגרם</bdi> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">נגר</bdi> <strong>e entrega-os à (espada)?</strong></p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 49.2; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.20.2" target="_blank" rel="noopener noreferrer">Nm 20.2</a>; 1Sm 7.5; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.6.24" target="_blank" rel="noopener noreferrer">2Re 6.24</a>; Jr 18.21.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+        <p class="entry-text">→ <span class="greek">συν-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-athroisma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄθροισμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄθροισμα, -ατος · athroisma" data-transliteration="athroisma" data-meanings="multidão|reunião|assembleia">ἄθροισμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>multidão, reunião, assembleia</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.3.13" target="_blank" rel="noopener noreferrer">1Mc 3.13</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athroos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθρόος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθρόος, -η, -ον · athroos" data-transliteration="athroos" data-meanings="em multidões|reunido">ἀθρόος, -η, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>em multidões, reunido</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.5.14" target="_blank" rel="noopener noreferrer">3Mc 5.14</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athumeo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθυμέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθυμέω · athymeō" data-transliteration="athymeō" data-meanings="desanimar-se">ἀθυμέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-4-1-0-2=8</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desanimar-se</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.28.65" target="_blank" rel="noopener noreferrer">Dt 28.65</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.1.6" target="_blank" rel="noopener noreferrer">1Sm 1.6</a>,7; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.15.11" target="_blank" rel="noopener noreferrer">15.11</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.13.11" target="_blank" rel="noopener noreferrer">1Cr 13.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athumia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθυμία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθυμία, -ας · athymia" data-transliteration="athymia" data-meanings="desânimo|abatimento">ἀθυμία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-1-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desânimo, abatimento</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.1.6" target="_blank" rel="noopener noreferrer">1Sm 1.6</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.118.53" target="_blank" rel="noopener noreferrer">Sl 118(119).53</a>.</p>
+    </section>
+</article>
+
+<article id="entry-athutos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄθυτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄθυτος, -ος, -ον · athytos" data-transliteration="athytos" data-meanings="impróprio para ser oferecido">ἄθυτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>impróprio para ser oferecido</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.19.7" target="_blank" rel="noopener noreferrer">Lv 19.7</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> BICKERMAN 1946=1980, 98 (n. 71).</p>
+    </section>
+</article>
+
+<article id="entry-athoos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθῷος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῷος, -ος, -ον · athōos" data-transliteration="athōos" data-meanings="impune|inocente|sem culpa|livre de">ἀθῷος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 11-15-8-15-8=57</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>impune</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.7.8" target="_blank" rel="noopener noreferrer">Sr 7.8</a>); <strong>inocente, sem culpa</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.23.7" target="_blank" rel="noopener noreferrer">Êx 23.7</a>); <strong>livre de</strong> [<span class="greek">ἀπό τινος</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.10.14" target="_blank" rel="noopener noreferrer">Jó 10.14</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἷμα ἀθῷον · haima athōon" data-transliteration="haima athōon" data-meanings="sangue inocente">αἷμα ἀθῷον</span>: <strong>sangue inocente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.19.5" target="_blank" rel="noopener noreferrer">1Sm 19.5</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῷος ὅρκῳ · athōos horkō" data-transliteration="athōos horkō" data-meanings="livre de um juramento">ἀθῷος ὅρκῳ</span>: <strong>livre de um juramento</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOS.2.17" target="_blank" rel="noopener noreferrer">Js 2.17</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῷος ἔσται ἐν τῇ οἰκίᾳ αὐτοῦ · athōos estai en tē oikia autou" data-transliteration="athōos estai en tē oikia autou" data-meanings="ficará em casa sem estar sujeito ao serviço militar">ἀθῷος ἔσται ἐν τῇ οἰκίᾳ αὐτοῦ</span>: <strong>ficará em casa sem estar sujeito ao serviço militar</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.24.5" target="_blank" rel="noopener noreferrer">Dt 24.5</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῷος χερσί · athōos chersin" data-transliteration="athōos chersin" data-meanings="de mãos inocentes">ἀθῷος χερσί</span>: <strong>de mãos inocentes</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.23.4" target="_blank" rel="noopener noreferrer">Sl 23(24).4</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.24.41" target="_blank" rel="noopener noreferrer">Gn 24.41</a> (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.21.19" target="_blank" rel="noopener noreferrer">Êx 21.19</a>,28; 23.7.</p>
+        <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 218–219; WALTERS 1973, 75,293; WEVERS 1998, 88.</p>
     </section>
 </article>`
 };
