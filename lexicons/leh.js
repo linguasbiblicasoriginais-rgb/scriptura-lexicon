@@ -449,6 +449,11 @@ window.ScripturaLexicons.LEH = {
             key: "HUSSON 1983a",
             type: "biblio",
             text: "G. Husson, Oikia. Le vocabulaire de la maison privée en Égypte d’après les papyrus grecs (Papyrologie, 2), Paris, 1983"
+        },
+        {
+            key: "TOV 1973",
+            type: "biblio",
+            text: "E. Tov, “Transliterations of Hebrew Words in the Greek Versions of the OT. A Further Characteristic of the ‘Kaige’-Th(eodotion) Revision”, Textus 8 (1973), pp. 78–92"
         }
     ],
 
@@ -944,6 +949,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-ailammo-leh" data-source="LEH" data-search="αιλαμμω ailammo substantivo seu pórtico אילמו אלמו Ezequiel texto hebraico MT LEH" tabindex="0">
     <td class="table-lemma greek">αιλαμμω</td><td>Substantivo</td><td>seu pórtico</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aileu-leh" data-source="LEH" data-search="αιλευ aileu substantivo אילו sua ombreira porta Ezequiel LEH" tabindex="0">
+    <td class="table-lemma greek">αιλευ</td><td>Substantivo</td><td>sua ombreira da porta</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ailouros-leh" data-source="LEH" data-search="αἴλουρος ailouros substantivo gato Carta de Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">αἴλουρος</td><td>Substantivo</td><td>gato</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haima-leh" data-source="LEH" data-search="αἷμα haima substantivo sangue vinho parentesco vida derramamento homicídio sangue inocente fluxo menstrual Gênesis Êxodo Números Samuel Ezequiel Levítico LEH" tabindex="0">
+    <td class="table-lemma greek">αἷμα</td><td>Substantivo</td><td>sangue; vinho; parentesco; vida; derramamento de sangue</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haimasso-leh" data-source="LEH" data-search="αἱμάσσω haimasso verbo ensanguentar fazer sangrar Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">αἱμάσσω</td><td>Verbo</td><td>ensanguentar; fazer sangrar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haimoboros-leh" data-source="LEH" data-search="αἱμοβόρος haimoboros adjetivo sanguinário sedento de sangue Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἱμοβόρος</td><td>Adjetivo</td><td>sanguinário; sedento de sangue</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haimorroeo-leh" data-source="LEH" data-search="αἱμορροέω haimorroeo verbo perder sangue Levítico LEH" tabindex="0">
+    <td class="table-lemma greek">αἱμορροέω</td><td>Verbo</td><td>perder sangue</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haimodiao-leh" data-source="LEH" data-search="αἱμωδιάω haimodiao verbo ficar dormente formigar dentes Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">αἱμωδιάω</td><td>Verbo</td><td>ficar dormente ou formigando (dos dentes)</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ain-leh" data-source="LEH" data-search="αιν ain substantivo עין fonte nascente Neemias LEH" tabindex="0">
+    <td class="table-lemma greek">αιν</td><td>Substantivo</td><td>fonte; nascente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ainakim-leh" data-source="LEH" data-search="αινακιμ ainakim forma transliterada נקי אין ninguém estava isento Reis LEH" tabindex="0">
+    <td class="table-lemma greek">αινακιμ</td><td>Forma transliterada</td><td>ninguém estava isento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ainesis-leh" data-source="LEH" data-search="αἴνεσις ainesis substantivo louvor Levítico Crônicas Isaías neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">αἴνεσις</td><td>Substantivo</td><td>louvor</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -2256,6 +2292,90 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אילמו</bdi> ou <bdi class="hebrew" lang="he" dir="rtl">אלמו</bdi>: <strong>seu pórtico</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.24" target="_blank" rel="noopener noreferrer">Ez 40.24</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.21" target="_blank" rel="noopener noreferrer">Ez 40.21</a>,22 (bis),24,25.</p>
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.37" target="_blank" rel="noopener noreferrer">Ez 40.37</a> <span class="greek">καὶ τὰ αιλαμμω</span> <strong>e seu pórtico</strong> — <bdi class="hebrew" lang="he" dir="rtl">ואלמו</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">ואילו</bdi> <strong>e sua ombreira</strong>; ver também <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.38" target="_blank" rel="noopener noreferrer">Ez 40.38</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aileu-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αιλευ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αιλευ · aileu" data-transliteration="aileu" data-meanings="sua ombreira da porta">αιλευ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-10-0-0=10</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אילו</bdi>: <strong>sua ombreira da porta</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.9" target="_blank" rel="noopener noreferrer">Ez 40.9</a>,21,24,26,29.</p>
+    </section>
+</article>
+
+<article id="entry-ailouros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴλουρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴλουρος, -ου · ailouros" data-transliteration="ailouros" data-meanings="gato">αἴλουρος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>gato</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> LtJ 21.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 297.</p>
+    </section>
+</article>
+
+<article id="entry-haima-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἷμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἷμα, -ατος · haima" data-transliteration="haima" data-meanings="sangue|vinho|parentesco|vida|derramamento de sangue|homicídio">αἷμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 156-69-91-36-49=401</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sangue</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.12.7" target="_blank" rel="noopener noreferrer">Êx 12.7</a>); <strong>algo semelhante a sangue, vinho</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.49.11" target="_blank" rel="noopener noreferrer">Gn 49.11</a>); <strong>parentesco sanguíneo, parentesco</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.35.11" target="_blank" rel="noopener noreferrer">Nm 35.11</a>); <strong>sangue, vida</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.16.36" target="_blank" rel="noopener noreferrer">Ez 16.36</a>); plural <span class="greek">αἵματα</span>: <strong>derramamento de sangue, homicídio</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.25.33" target="_blank" rel="noopener noreferrer">1Sm 25.33</a>).</p>
+        <p class="entry-text"><span class="greek">κρίνω αὐτὸν θανάτῳ και αἵματι</span>: <strong>eu o castigo com morte e derramamento de sangue</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.38.22" target="_blank" rel="noopener noreferrer">Ez 38.22</a>).</p>
+        <p class="entry-text"><span class="greek">ἀνὴρ αἱμάτων</span>: <strong>homem cruel</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.16.7" target="_blank" rel="noopener noreferrer">2Sm 16.7</a>).</p>
+        <p class="entry-text"><span class="greek">τὸ αἷμά σου ἐπὶ τὴν κεφαλήν σου</span>: <strong>és culpado pela morte de alguém</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.1.16" target="_blank" rel="noopener noreferrer">2Sm 1.16</a>).</p>
+        <p class="entry-text"><span class="greek">αἷμα ἀναίτιον</span>: <strong>sangue inocente</strong> (Sus 62).</p>
+        <p class="entry-text"><span class="greek">ὁ ἐκχέων αἷμα ἀνθρώπου ἀντὶ τοῦ αἵματος αὐτοῦ ἐκχυθήσεται</span>: <strong>aquele que derrama sangue humano, em lugar daquele sangue, terá seu próprio sangue derramado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.9.6" target="_blank" rel="noopener noreferrer">Gn 9.6</a>).</p>
+        <p class="entry-text"><span class="greek">πηγὴ αἵματος</span>: <strong>fonte de sangue, fluxo menstrual</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.12.7" target="_blank" rel="noopener noreferrer">Lv 12.7</a>); <span class="greek">ῥύσις αἵματος</span>: <strong>fluxo menstrual</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.15.25" target="_blank" rel="noopener noreferrer">Lv 15.25</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.24.17" target="_blank" rel="noopener noreferrer">Ez 24.17</a> <span class="greek">αἵματος</span> <strong>sangue?</strong> — <bdi class="hebrew" lang="he" dir="rtl">דם</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">דם</bdi> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">דמם</bdi> <strong>silêncio?</strong></p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.32.5" target="_blank" rel="noopener noreferrer">Ez 32.5</a> <span class="greek">ἀπὸ τοῦ αἵματός σου</span> <strong>com teu sangue</strong> — <bdi class="hebrew" lang="he" dir="rtl">דמך/מ</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">רמותיך</bdi> <strong>(com) teus escombros?</strong></p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.4.10" target="_blank" rel="noopener noreferrer">Gn 4.10</a>,11; 9.4,5,6 (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> ENGEL 1985, 131; HARL 1986a, 61; HARLÉ 1988, 34; LE BOULLUEC 1989, 45; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-haimasso-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱμάσσω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱμάσσω · haimassō" data-transliteration="haimassō" data-meanings="ensanguentar|fazer sangrar">αἱμάσσω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ensanguentar, fazer sangrar</strong> [<span class="greek">τι</span>].</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.42.5" target="_blank" rel="noopener noreferrer">Sr 42.5</a>.</p>
+    </section>
+</article>
+
+<article id="entry-haimoboros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱμοβόρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱμοβόρος, -ος, -ον · haimoboros" data-transliteration="haimoboros" data-meanings="sanguinário|sedento de sangue">αἱμοβόρος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sanguinário, sedento de sangue</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.10.17" target="_blank" rel="noopener noreferrer">4Mc 10.17</a>.</p>
+    </section>
+</article>
+
+<article id="entry-haimorroeo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱμορροέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱμορροέω · haimorroeō" data-transliteration="haimorroeō" data-meanings="perder sangue">αἱμορροέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>perder sangue</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.15.33" target="_blank" rel="noopener noreferrer">Lv 15.33</a>.</p>
+    </section>
+</article>
+
+<article id="entry-haimodiao-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱμωδιάω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱμωδιάω · haimōdiaō" data-transliteration="haimōdiaō" data-meanings="ficar dormente ou formigando, dos dentes">αἱμωδιάω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ficar dormente ou formigando</strong> (dos dentes).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.38.29" target="_blank" rel="noopener noreferrer">Jr 38(31).29</a>,30.</p>
+    </section>
+</article>
+
+<article id="entry-ain-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αιν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αιν · ain" data-transliteration="ain" data-meanings="fonte|nascente">αιν</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">עין</bdi>: <strong>fonte, nascente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NEH.12.37" target="_blank" rel="noopener noreferrer">Ne 12.37</a>.</p>
+    </section>
+</article>
+
+<article id="entry-ainakim-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αινακιμ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αινακιμ · ainakim" data-transliteration="ainakim" data-meanings="ninguém estava isento">αινακιμ</span><span class="separator">·</span><span>sem código morfológico explícito na linha do LEH</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אין נקי</bdi>: <strong>ninguém estava isento</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.15.22" target="_blank" rel="noopener noreferrer">1Re 15.22</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> TOV 1973, 89.</p>
+    </section>
+</article>
+
+<article id="entry-ainesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴνεσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴνεσις, -εως · ainesis" data-transliteration="ainesis" data-meanings="louvor">αἴνεσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 4-6-9-37-9=65</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>louvor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.7.13" target="_blank" rel="noopener noreferrer">Lv 7.13</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.42.21" target="_blank" rel="noopener noreferrer">Is 42.21</a> <span class="greek">αἴνεσιν</span> <strong>louvor</strong> — <bdi class="hebrew" lang="he" dir="rtl">תודה</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">תורה</bdi> <strong>lei</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.7.12" target="_blank" rel="noopener noreferrer">Lv 7.12</a> (bis),13,15; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.35" target="_blank" rel="noopener noreferrer">1Cr 16.35</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Cf.</strong> HARLÉ 1988, 108; → NIDNTT; TWNT.</p>
     </section>
 </article>`
 };
