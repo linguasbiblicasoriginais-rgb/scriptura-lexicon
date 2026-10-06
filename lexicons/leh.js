@@ -434,6 +434,11 @@ window.ScripturaLexicons.LEH = {
             key: "BICKERMAN 1946=1980",
             type: "biblio",
             text: "E. J. Bickerman, “Une proclamation séleucide relative au temple de Jérusalem”, Syria 25 (1946–48), pp. 67–85; reimpresso em Studies in Jewish and Christian History. Part Two (AGJU, 9), Leiden, 1980, pp. 86–104"
+        },
+        {
+            key: "BONNEAU 1985",
+            type: "biblio",
+            text: "D. Bonneau, “Aigialos (αἰγιαλός), la ‘terre riveraine’ en Egypte, d’après la documentation papyrologique”, em N. Lewis (ed.), Papyrology (Yale Classical Studies, 28), Cambridge, MA, 1985, pp. 131–143"
         }
     ],
 
@@ -867,6 +872,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-athoos-leh" data-source="LEH" data-search="ἀθῷος athoos adjetivo impune inocente sem culpa livre de sangue inocente juramento serviço militar mãos inocentes Gênesis Êxodo Sirácida Jó Samuel Josué Deuteronômio Salmos LEH" tabindex="0">
     <td class="table-lemma greek">ἀθῷος</td><td>Adjetivo</td><td>impune; inocente; sem culpa; livre de</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-athooo-leh" data-source="LEH" data-search="ἀθῳόω athooo verbo deixar impune deixar sem vingança vingar permanecer impune ser sem culpa Juízes Samuel Reis Jeremias Joel neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀθῳόω</td><td>Verbo</td><td>deixar impune; deixar sem vingança; vingar; permanecer impune; ser sem culpa</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aigeios-leh" data-source="LEH" data-search="αἴγειος aigeios adjetivo de cabra caprino Êxodo Números LEH" tabindex="0">
+    <td class="table-lemma greek">αἴγειος</td><td>Adjetivo</td><td>de cabra; caprino</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aigialos-leh" data-source="LEH" data-search="αἰγιαλός aigialos substantivo litoral praia Juízes LEH" tabindex="0">
+    <td class="table-lemma greek">αἰγιαλός</td><td>Substantivo</td><td>litoral; praia</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aigidion-leh" data-source="LEH" data-search="αἰγίδιον aigidion substantivo cabrito cabra jovem Samuel LEH" tabindex="0">
+    <td class="table-lemma greek">αἰγίδιον</td><td>Substantivo</td><td>cabrito; cabra jovem</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aidad-leh" data-source="LEH" data-search="αιδαδ aidad substantivo הידד grito na colheita Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">αιδαδ</td><td>Substantivo</td><td>grito na colheita</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aideomai-leh" data-source="LEH" data-search="αἰδέομαι aideomai verbo envergonhar-se respeitar mostrar parcialidade Provérbios Judite Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰδέομαι</td><td>Verbo</td><td>envergonhar-se; respeitar; mostrar parcialidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aidemon-leh" data-source="LEH" data-search="αἰδήμων aidemon adjetivo modesto Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰδήμων</td><td>Adjetivo</td><td>modesto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aidios-leh" data-source="LEH" data-search="ἀΐδιος aidios adjetivo perpétuo eterno Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀΐδιος</td><td>Adjetivo</td><td>perpétuo; eterno</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aidiotes-leh" data-source="LEH" data-search="ἀϊδιότης aidiotes substantivo eternidade Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀϊδιότης</td><td>Substantivo</td><td>eternidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aidoion-leh" data-source="LEH" data-search="αἰδοῖον aidoion substantivo partes íntimas órgãos genitais Ezequiel LEH" tabindex="0">
+    <td class="table-lemma greek">αἰδοῖον</td><td>Substantivo</td><td>partes íntimas</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -2015,6 +2051,87 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῷος χερσί · athōos chersin" data-transliteration="athōos chersin" data-meanings="de mãos inocentes">ἀθῷος χερσί</span>: <strong>de mãos inocentes</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.23.4" target="_blank" rel="noopener noreferrer">Sl 23(24).4</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.24.41" target="_blank" rel="noopener noreferrer">Gn 24.41</a> (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.21.19" target="_blank" rel="noopener noreferrer">Êx 21.19</a>,28; 23.7.</p>
         <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 218–219; WALTERS 1973, 75,293; WEVERS 1998, 88.</p>
+    </section>
+</article>
+
+<article id="entry-athooo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀθῳόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῳόω · athōoō" data-transliteration="athōoō" data-meanings="deixar impune|deixar sem vingança|vingar|permanecer impune|ser sem culpa">ἀθῳόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-4-8-3-3=18</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>A:</strong> <strong>deixar impune</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.2.9" target="_blank" rel="noopener noreferrer">1Re 2.9</a>); <strong>deixar sem vingança</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOL.3.21" target="_blank" rel="noopener noreferrer">Jl 3.21</a>); <strong>vingar alguém de outra pessoa, tomar vingança de alguém em favor de outra pessoa</strong> [<span class="greek">τινα ἀπό τινος</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.15.15" target="_blank" rel="noopener noreferrer">Jr 15.15</a>).</p>
+        <p class="entry-text"><strong>P:</strong> <strong>permanecer impune</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.26.9" target="_blank" rel="noopener noreferrer">1Sm 26.9</a>); <strong>ser sem culpa</strong> (JgsB 15.3).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀθῷον οὐκ ἀθῳώσω σε · athōon ouk athōosō se" data-transliteration="athōon ouk athōosō se" data-meanings="não te considerarei sem culpa">ἀθῷον οὐκ ἀθῳώσω σε</span>: <strong>não te considerarei sem culpa</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.26.28" target="_blank" rel="noopener noreferrer">Jr 26(46).28</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> JgsB 15.3; 1Sm 26.9; 1Re 2.9,35o; Jr 15.15.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 75,293–294.</p>
+    </section>
+</article>
+
+<article id="entry-aigeios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴγειος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴγειος, -α, -ον · aigeios" data-transliteration="aigeios" data-meanings="de cabra|caprino">αἴγειος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 4-0-0-0-0=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de cabra, caprino</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.25.4" target="_blank" rel="noopener noreferrer">Êx 25.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.35.6" target="_blank" rel="noopener noreferrer">35.6</a>,26; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.31.20" target="_blank" rel="noopener noreferrer">Nm 31.20</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WEVERS 1998, 514.</p>
+    </section>
+</article>
+
+<article id="entry-aigialos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰγιαλός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰγιαλός, -οῦ · aigialos" data-transliteration="aigialos" data-meanings="litoral|praia">αἰγιαλός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>litoral, praia</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> JgsA 5.17.</p>
+        <p class="entry-text"><strong>Cf.</strong> BONNEAU 1985, 131–143.</p>
+    </section>
+</article>
+
+<article id="entry-aigidion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰγίδιον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰγίδιον, -ου · aigidion" data-transliteration="aigidion" data-meanings="cabrito|cabra jovem">αἰγίδιον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cabrito, cabra jovem</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.10.3" target="_blank" rel="noopener noreferrer">1Sm 10.3</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aidad-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αιδαδ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αιδαδ · aidad" data-transliteration="aidad" data-meanings="grito na colheita">αιδαδ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">הידד</bdi>: <strong>grito na colheita</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.31.33" target="_blank" rel="noopener noreferrer">Jr 31(48).33</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.32.30" target="_blank" rel="noopener noreferrer">32(25).30</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aideomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰδέομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰδέομαι · aideomai" data-transliteration="aideomai" data-meanings="envergonhar-se|respeitar|mostrar parcialidade">αἰδέομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-5=6</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>envergonhar-se de</strong> [+inf.] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.12.11" target="_blank" rel="noopener noreferrer">4Mc 12.11</a>); <strong>ter respeito por</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.5.7" target="_blank" rel="noopener noreferrer">4Mc 5.7</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰδεῖσθαι πρόσωπον (ἐν κρίσει) · aideisthai prosōpon (en krisei)" data-transliteration="aideisthai prosōpon (en krisei)" data-meanings="mostrar parcialidade (no julgamento)">αἰδεῖσθαι πρόσωπον (ἐν κρίσει)</span>: <strong>mostrar parcialidade (no julgamento)</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.24.23" target="_blank" rel="noopener noreferrer">Pv 24.23</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Pv 24.23; Jdt 9.3; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.4.34" target="_blank" rel="noopener noreferrer">2Mc 4.34</a>; 4Mc 5.7; 12.11.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 24; → NIDNTT; TWNT.</p>
+        <p class="entry-text">→ <span class="greek">κατ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-aidemon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰδήμων</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰδήμων, -ων, -ον · aidēmōn" data-transliteration="aidēmōn" data-meanings="modesto">αἰδήμων, -ων, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>modesto</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.15.12" target="_blank" rel="noopener noreferrer">2Mc 15.12</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.8.3" target="_blank" rel="noopener noreferrer">4Mc 8.3</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aidios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀΐδιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀΐδιος, -α, -ον · aidios" data-transliteration="aidios" data-meanings="perpétuo|eterno">ἀΐδιος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>perpétuo, eterno</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.10.15" target="_blank" rel="noopener noreferrer">4Mc 10.15</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.7.26" target="_blank" rel="noopener noreferrer">Sb 7.26</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 93; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aidiotes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀϊδιότης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀϊδιότης, -ητος · aidiotēs" data-transliteration="aidiotēs" data-meanings="eternidade">ἀϊδιότης, -ητος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>eternidade</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.2.23" target="_blank" rel="noopener noreferrer">Sb 2.23</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1983, 268; WALTERS 1973, 93.</p>
+    </section>
+</article>
+
+<article id="entry-aidoion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰδοῖον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰδοῖον, -ου · aidoion" data-transliteration="aidoion" data-meanings="partes íntimas">αἰδοῖον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>partes íntimas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.23.20" target="_blank" rel="noopener noreferrer">Ez 23.20</a> (bis).</p>
     </section>
 </article>`
 };
