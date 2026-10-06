@@ -439,6 +439,16 @@ window.ScripturaLexicons.LEH = {
             key: "BONNEAU 1985",
             type: "biblio",
             text: "D. Bonneau, “Aigialos (αἰγιαλός), la ‘terre riveraine’ en Egypte, d’après la documentation papyrologique”, em N. Lewis (ed.), Papyrology (Yale Classical Studies, 28), Cambridge, MA, 1985, pp. 131–143"
+        },
+        {
+            key: "CHANTRAINE 1964",
+            type: "biblio",
+            text: "P. Chantraine, “Grec αἴθριον”, Recherches de Papyrologie 3 (1964), pp. 7–15"
+        },
+        {
+            key: "HUSSON 1983a",
+            type: "biblio",
+            text: "G. Husson, Oikia. Le vocabulaire de la maison privée en Égypte d’après les papyrus grecs (Papyrologie, 2), Paris, 1983"
         }
     ],
 
@@ -903,6 +913,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-aidoion-leh" data-source="LEH" data-search="αἰδοῖον aidoion substantivo partes íntimas órgãos genitais Ezequiel LEH" tabindex="0">
     <td class="table-lemma greek">αἰδοῖον</td><td>Substantivo</td><td>partes íntimas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aidos-leh" data-source="LEH" data-search="αἰδώς aidos substantivo vergonha modéstia reserva Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰδώς</td><td>Substantivo</td><td>vergonha; modéstia; reserva</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aithale-leh" data-source="LEH" data-search="αἰθάλη aithale substantivo fuligem Êxodo LEH" tabindex="0">
+    <td class="table-lemma greek">αἰθάλη</td><td>Substantivo</td><td>fuligem</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aithrion-leh" data-source="LEH" data-search="αἴθριον aithrion substantivo pátio interno luz aposentos adjacentes Ezequiel LEH" tabindex="0">
+    <td class="table-lemma greek">αἴθριον</td><td>Substantivo</td><td>pátio interno que ilumina os aposentos adjacentes</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aithrios-leh" data-source="LEH" data-search="αἴθριος aithrios adjetivo mantido ao ar livre pessoa Jó 1 Esdras LEH" tabindex="0">
+    <td class="table-lemma greek">αἴθριος</td><td>Adjetivo</td><td>mantido ao ar livre</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aikia-leh" data-source="LEH" data-search="αἰκία aikia substantivo tortura Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰκία</td><td>Substantivo</td><td>tortura</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aikizomai-leh" data-source="LEH" data-search="αἰκίζομαι aikizomai verbo maltratar torturar ser torturado torturadores Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰκίζομαι</td><td>Verbo</td><td>maltratar; torturar; ser torturado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aikismos-leh" data-source="LEH" data-search="αἰκισμός aikismos substantivo maus-tratos tortura Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰκισμός</td><td>Substantivo</td><td>maus-tratos; tortura</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ail-leh" data-source="LEH" data-search="αιλ ail substantivo איל ombreira porta Ezequiel LEH" tabindex="0">
+    <td class="table-lemma greek">αιλ</td><td>Substantivo</td><td>ombreira da porta</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ailam-leh" data-source="LEH" data-search="αιλαμ ailam substantivo pórtico אולם אלם אילם Reis Ezequiel texto hebraico MT LEH" tabindex="0">
+    <td class="table-lemma greek">αιλαμ</td><td>Substantivo</td><td>pórtico</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ailammo-leh" data-source="LEH" data-search="αιλαμμω ailammo substantivo seu pórtico אילמו אלמו Ezequiel texto hebraico MT LEH" tabindex="0">
+    <td class="table-lemma greek">αιλαμμω</td><td>Substantivo</td><td>seu pórtico</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -2132,6 +2173,89 @@ window.ScripturaLexicons.LEH = {
     <header class="entry-header"><div><h1 class="entry-title greek">αἰδοῖον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰδοῖον, -ου · aidoion" data-transliteration="aidoion" data-meanings="partes íntimas">αἰδοῖον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>partes íntimas</strong>.</p>
         <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.23.20" target="_blank" rel="noopener noreferrer">Ez 23.20</a> (bis).</p>
+    </section>
+</article>
+
+<article id="entry-aidos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰδώς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰδώς, -οῦς · aidōs" data-transliteration="aidōs" data-meanings="vergonha|modéstia|reserva">αἰδώς, -οῦς</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vergonha, modéstia, reserva</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.1.19" target="_blank" rel="noopener noreferrer">3Mc 1.19</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.4.5" target="_blank" rel="noopener noreferrer">4.5</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 45–47; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aithale-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰθάλη</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰθάλη, -ης · aithalē" data-transliteration="aithalē" data-meanings="fuligem">αἰθάλη, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>fuligem</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.9.8" target="_blank" rel="noopener noreferrer">Êx 9.8</a>,10.</p>
+        <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 130.</p>
+    </section>
+</article>
+
+<article id="entry-aithrion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴθριον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴθριον, -ου · aithrion" data-transliteration="aithrion" data-meanings="pátio interno que ilumina os aposentos adjacentes">αἴθριον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-8-0-0=8</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pátio interno que dá luz aos aposentos adjacentes</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.9.3" target="_blank" rel="noopener noreferrer">Ez 9.3</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.10.4" target="_blank" rel="noopener noreferrer">10.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.14" target="_blank" rel="noopener noreferrer">40.14</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.15" target="_blank" rel="noopener noreferrer">40.15</a> (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> CHANTRAINE 1964, 7–15; HUSSON 1983a, 29–36.</p>
+    </section>
+</article>
+
+<article id="entry-aithrios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴθριος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴθριος, -ος, -ον · aithrios" data-transliteration="aithrios" data-meanings="mantido ao ar livre">αἴθριος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>mantido ao ar livre</strong> (de pessoa).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.2.9" target="_blank" rel="noopener noreferrer">Jó 2.9c</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1ES.9.11" target="_blank" rel="noopener noreferrer">1Es 9.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aikia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰκία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰκία, -ας · aikia" data-transliteration="aikia" data-meanings="tortura">αἰκία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>tortura</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.42" target="_blank" rel="noopener noreferrer">2Mc 7.42</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.4.14" target="_blank" rel="noopener noreferrer">3Mc 4.14</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.6.26" target="_blank" rel="noopener noreferrer">6.26</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 44–45.</p>
+    </section>
+</article>
+
+<article id="entry-aikizomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰκίζομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰκίζομαι · aikizomai" data-transliteration="aikizomai" data-meanings="maltratar|torturar|ser torturado">αἰκίζομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-8=8</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>M:</strong> <strong>maltratar, torturar</strong> [uso absoluto] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.13" target="_blank" rel="noopener noreferrer">2Mc 7.13</a>).</p>
+        <p class="entry-text"><strong>P:</strong> <strong>ser torturado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.1" target="_blank" rel="noopener noreferrer">2Mc 7.1</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="οἱ αἰκισάμενοι · hoi aikisamenoi" data-transliteration="hoi aikisamenoi" data-meanings="os torturadores">οἱ αἰκισάμενοι</span>: <strong>os torturadores</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.1.11" target="_blank" rel="noopener noreferrer">4Mc 1.11</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 2Mc 7.1,13,15; 8.28,30.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 45.</p>
+        <p class="entry-text">→ <span class="greek">κατ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-aikismos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰκισμός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰκισμός, -οῦ · aikismos" data-transliteration="aikismos" data-meanings="maus-tratos|tortura">αἰκισμός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-5=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>maus-tratos, tortura</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.8.17" target="_blank" rel="noopener noreferrer">2Mc 8.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.6.9" target="_blank" rel="noopener noreferrer">4Mc 6.9</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.7.4" target="_blank" rel="noopener noreferrer">7.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.14.1" target="_blank" rel="noopener noreferrer">14.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.15.19" target="_blank" rel="noopener noreferrer">15.19</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 45.</p>
+    </section>
+</article>
+
+<article id="entry-ail-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αιλ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αιλ · ail" data-transliteration="ail" data-meanings="ombreira da porta">αιλ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">איל</bdi>: <strong>ombreira da porta</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.48" target="_blank" rel="noopener noreferrer">Ez 40.48</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.41.3" target="_blank" rel="noopener noreferrer">41.3</a>.</p>
+    </section>
+</article>
+
+<article id="entry-ailam-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αιλαμ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αιλαμ · ailam" data-transliteration="ailam" data-meanings="pórtico">αιλαμ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-12-29-0-0=41</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אולם</bdi> / <bdi class="hebrew" lang="he" dir="rtl">אלם</bdi> / <bdi class="hebrew" lang="he" dir="rtl">אילם</bdi>: <strong>pórtico</strong> (Ez 40.9).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.6.3" target="_blank" rel="noopener noreferrer">1Re 6.3</a>,36; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.7.43" target="_blank" rel="noopener noreferrer">7.43(6)</a> (bis), 43(7).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.25" target="_blank" rel="noopener noreferrer">Ez 40.25</a> <span class="greek">τοῦ αιλαμ</span> <strong>do pórtico</strong> — <bdi class="hebrew" lang="he" dir="rtl">האלם</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">האלה</bdi> <strong>estes</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.49" target="_blank" rel="noopener noreferrer">Ez 40.49</a> <span class="greek">ἐπὶ τὸ αιλαμ</span> <strong>junto ao pórtico</strong> — <bdi class="hebrew" lang="he" dir="rtl">אל האילם</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">אל האילים</bdi> <strong>junto às ombreiras</strong>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.41.1" target="_blank" rel="noopener noreferrer">Ez 41.1</a> <span class="greek">τοῦ αιλαμ</span> <strong>do pórtico</strong> — <bdi class="hebrew" lang="he" dir="rtl">האלם</bdi> ? por MT <bdi class="hebrew" lang="he" dir="rtl">האהל</bdi> <strong>da tenda</strong>.</p>
+    </section>
+</article>
+
+<article id="entry-ailammo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αιλαμμω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αιλαμμω · ailammō" data-transliteration="ailammō" data-meanings="seu pórtico">αιλαμμω</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-16-0-0=16</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">אילמו</bdi> ou <bdi class="hebrew" lang="he" dir="rtl">אלמו</bdi>: <strong>seu pórtico</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.24" target="_blank" rel="noopener noreferrer">Ez 40.24</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.21" target="_blank" rel="noopener noreferrer">Ez 40.21</a>,22 (bis),24,25.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.37" target="_blank" rel="noopener noreferrer">Ez 40.37</a> <span class="greek">καὶ τὰ αιλαμμω</span> <strong>e seu pórtico</strong> — <bdi class="hebrew" lang="he" dir="rtl">ואלמו</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">ואילו</bdi> <strong>e sua ombreira</strong>; ver também <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.40.38" target="_blank" rel="noopener noreferrer">Ez 40.38</a>.</p>
     </section>
 </article>`
 };
