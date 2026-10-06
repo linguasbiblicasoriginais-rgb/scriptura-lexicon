@@ -58,6 +58,7 @@ window.ScripturaLexicons.BDAG = {
         { key: "Vulg.", type: "biblio", text: "Vulgata" },
         { key: "Witkowski", type: "biblio", text: "S. Witkowski, Epistulae Privatae Graecae" },
         { key: "NovT", type: "biblio", text: "Novum Testamentum, 1956ss." },
+        { key: "Socratics", type: "biblio", text: "Cartas atribuídas aos discípulos do filósofo Sócrates, de várias datas" },
     ],
 
     rowsHtml: String.raw`
@@ -1556,6 +1557,28 @@ window.ScripturaLexicons.BDAG = {
 <tr class="search-row" data-dictionary="grego" data-target="entry-andrapodistes-bdag" data-source="BDAG" data-search="ἀνδραποδιστής andrapodistes traficante escravos sequestrador aliciador procurer 1 Timóteo 1.10 BDAG" tabindex="0"><td class="table-lemma greek">ἀνδραποδιστής</td><td>Substantivo masculino</td><td>traficante de escravos; sequestrador</td><td><span class="source-pill">BDAG</span></td></tr>
 
 <tr class="search-row" data-dictionary="grego" data-target="entry-andreas-bdag" data-source="BDAG" data-search="Ἀνδρέας Andreas André nome próprio Simão Pedro Betsaida João Batista Mateus Marcos Lucas João Atos BDAG" tabindex="0"><td class="table-lemma greek">Ἀνδρέας</td><td>Nome próprio masculino</td><td>André</td><td><span class="source-pill">BDAG</span></td></tr>
+
+
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-andreios-bdag" data-source="BDAG" data-search="ἀνδρεῖος andreios varonil corajoso valente feitos heroicos mulheres 1 Clemente BDAG" tabindex="0"><td class="table-lemma greek">ἀνδρεῖος</td><td>Adjetivo</td><td>varonil; corajoso</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-andreios-adv-bdag" data-source="BDAG" data-search="ἀνδρείως andreios corajosamente varonilmente firme Pastor Hermas BDAG" tabindex="0"><td class="table-lemma greek">ἀνδρείως</td><td>Advérbio</td><td>de modo varonil; corajosamente</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-andrizomai-bdag" data-source="BDAG" data-search="ἀνδρίζομαι andrizomai coragem corajoso agir como homem fortalecer 1 Coríntios Policarpo Hermas BDAG" tabindex="0"><td class="table-lemma greek">ἀνδρίζομαι</td><td>Verbo</td><td>portar-se de modo corajoso</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-andronikos-bdag" data-source="BDAG" data-search="Ἀνδρόνικος Andronikos Andrônico nome próprio Júnia Júnias Romanos 16.7 apóstolos BDAG" tabindex="0"><td class="table-lemma greek">Ἀνδρόνικος</td><td>Nome próprio masculino</td><td>Andrônico</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-androphonos-bdag" data-source="BDAG" data-search="ἀνδροφόνος androphonos homicida assassino matador homem mulheres crianças 1 Timóteo 1.9 BDAG" tabindex="0"><td class="table-lemma greek">ἀνδροφόνος</td><td>Substantivo masculino</td><td>homicida; assassino</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aneben-bdag" data-source="BDAG" data-search="ἀνέβην aneben veja ἀναβαίνω remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνέβην</td><td>Remissão</td><td>veja ἀναβαίνω</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anenklesia-bdag" data-source="BDAG" data-search="ἀνεγκλησία anenklesia irrepreensibilidade indemnidade diante Deus Filipenses variante BDAG" tabindex="0"><td class="table-lemma greek">ἀνεγκλησία</td><td>Substantivo feminino</td><td>irrepreensibilidade</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anenkletos-bdag" data-source="BDAG" data-search="ἀνέγκλητος anenkletos irrepreensível irreprochável cristãos líderes 1 Coríntios Colossenses 1 Timóteo Tito BDAG" tabindex="0"><td class="table-lemma greek">ἀνέγκλητος</td><td>Adjetivo</td><td>irrepreensível; irreprochável</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anegnon-bdag" data-source="BDAG" data-search="ἀνέγνων anegnon veja ἀναγιγνώσκω ἀναγινώσκω remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνέγνων</td><td>Remissão</td><td>veja ἀναγι(γ)νώσκω</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anethemen-bdag" data-source="BDAG" data-search="ἀνεθέμην anethemen veja ἀνατίθημι remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνεθέμην</td><td>Remissão</td><td>veja ἀνατίθημι</td><td><span class="source-pill">BDAG</span></td></tr>
 
 
 `,
@@ -8677,6 +8700,68 @@ Futuro 2ª sg. <span class="greek greek-term tooltip-trigger" tabindex="0" data-
 <div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
 <p class="entry-text"><strong>André</strong>, nome grego; Diodoro Sículo 8.24; SIG 649, 5; EpArist; Josefo; um judeu chamado <span class="greek">Ἀνδρέας</span> também em Cássio Dio 68.32.2. André era irmão de Simão Pedro; segundo <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JHN.1.44" target="_blank" rel="noopener noreferrer">Jo 1.44</a>, era de Betsaida, junto ao mar da Galileia, e, segundo <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JHN.1.35" target="_blank" rel="noopener noreferrer">Jo 1.35</a>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JHN.1.40" target="_blank" rel="noopener noreferrer">40</a>, foi originalmente discípulo de João Batista.</p>
 <p class="entry-text">Referências: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MAT.4.18" target="_blank" rel="noopener noreferrer">Mt 4.18</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MAT.10.2" target="_blank" rel="noopener noreferrer">10.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.1.16" target="_blank" rel="noopener noreferrer">Mc 1.16</a>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.1.29" target="_blank" rel="noopener noreferrer">29</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.3.18" target="_blank" rel="noopener noreferrer">3.18</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.13.3" target="_blank" rel="noopener noreferrer">13.3</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.6.14" target="_blank" rel="noopener noreferrer">Lc 6.14</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JHN.6.8" target="_blank" rel="noopener noreferrer">Jo 6.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JHN.12.22" target="_blank" rel="noopener noreferrer">12.22</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ACT.1.13" target="_blank" rel="noopener noreferrer">At 1.13</a>; GPt 14:60 = ASyn. 361, 36; GEb 34, 60s.; Papias (2:4). — P. Peterson, <em>Andrew, Brother of Simon Peter</em>, NovT Suppl. 1, 1958. — M-M.</p>
+</section></article>
+
+
+
+<article id="entry-andreios-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνδρεῖος</h1><div class="entry-meta"><span class="greek">εία, εῖον</span><span class="separator">·</span><span class="transliteration">⟦andreîos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνήρ</span>; trágicos, Heródoto e outros; inscrições; PLips 119 II, 3; LXX; Josefo, <em>C. Ap.</em> 2.292; Test12Patr. <strong>Relativo a ser varonil, varonil, corajoso.</strong> Substantivado, <span class="greek">τὰ ἀνδρεῖα</span>, <strong>feitos heroicos dignos de uma pessoa valente</strong>; Fílon, <em>Mut. Nom.</em> 146. <span class="greek">ἐπιτελεῖσθαι πολλὰ ἀ.</span>, <strong>realizar muitos feitos heroicos</strong>, de mulheres célebres, 1 Cl 55.3; compare Aristóteles, <em>Pol.</em> 1277b, 22. — DELG s.v. <span class="greek">ἀνήρ</span> B. TW.</p>
+</section></article>
+
+<article id="entry-andreios-adv-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνδρείως</h1><div class="entry-meta"><span class="transliteration">⟦andreíōs⟧</span><span class="separator">·</span><span>advérbio</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Aristófanes, <em>Pax</em> 498; 1Mc 9.10 v.l.; 2Mc 6.27; Fílon, <em>Mos.</em> 2.184; Josefo, <em>Ant.</em> 12.302. Advérbio de <span class="greek">ἀνδρεῖος</span>: <strong>de modo varonil, isto é, corajosamente</strong>. <span class="greek">ἀ. ἀναστρέφεσθαι</span>, <strong>portar-se corajosamente</strong>, com <span class="greek">ἰσχυρῶς</span>, Hs 5.6.6. <span class="greek">ἀ. ἑστηκέναι</span>, <strong>permanecer firme</strong>, de jovens mulheres, Hs 9.2.5. Sobre a coragem de mulheres, veja Plutarco, <em>Mor.</em> 242e–263c.</p>
+</section></article>
+
+<article id="entry-andrizomai-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνδρίζομαι</h1><div class="entry-meta"><span class="transliteration">⟦andrízomai⟧</span><span class="separator">·</span><span>verbo</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Futuro <span class="greek">ἀνδριοῦμαι</span>, LXX; imperativo do 1º aoristo médio <span class="greek">ἄνδρισαι</span>, Na 2.2. Veja <span class="greek">ἀνδρεῖος</span>, <span class="greek">ἀνήρ</span>; Platão, Xenofonte e outros; Luciano, <em>Anach.</em> 15 e outros; PSI 402, 3; 512, 29; PPetr II, 40a, 12 [c. 233 a.C.], <span class="greek">μὴ οὖν ὀλιγοψυχήσητε, ἀλλ’ ἀνδρίζεσθε</span>; LXX; JosAs 24.7; Josefo, <em>Bell.</em> 6.50. <strong>Portar-se de modo corajoso.</strong> Com <span class="greek">κραταιοῦσθαι</span>, como <span lang="he" dir="rtl">חֲזַק וֶאֱמָץ</span>; compare 2Km 10.12; Sl 26.14; 30.25: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1CO.16.13" target="_blank" rel="noopener noreferrer">1Co 16.13</a>. Com <span class="greek">ἰσχύειν</span>, Dt 31.6, 7, 23; Js 1.6, 7 e outros: MPol 9.1. <span class="greek">ἀνδρίζου</span>, <strong>porta-te como homem!</strong>, Hv 1.4.3. De um homem idoso cuja esperança na vida foi renovada, Hv 3.12.2. Também de uma mulher cingida e de aparência varonil, Hv 3.8.4. — DELG s.v. <span class="greek">ἀνήρ</span> B. M-M. TW.</p>
+</section></article>
+
+<article id="entry-andronikos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">Ἀνδρόνικος</h1><div class="entry-meta"><span class="greek">ου, ὁ</span><span class="separator">·</span><span class="transliteration">⟦Andrónikos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text"><strong>Andrônico</strong>, nome comum; Diodoro Sículo 19.59.2; Apiano, <em>Maced.</em> 16; índices de SIG² e OGI; IPriene 313 [século I a.C.]; Preisigke, <em>Namenbuch</em>; 2Mc 4.31, 32, 34, 38; 5.23; Josefo, <em>Ant.</em> 13.75; 78. Andrônico é saudado em <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ROM.16.7" target="_blank" rel="noopener noreferrer">Rm 16.7</a>; juntamente com Júnia ou Júnias, ambos são descritos por Paulo como <span class="greek">συγγενεῖς μου καὶ συναιχμάλωτοι</span> e chamados <span class="greek">ἐπίσημοι ἐν τ. ἀποστόλοις</span>. — B. Bacon, ET 42, 1931, 300–304; G. Barton, ibid. 43, 1932, 359–361. — M-M.</p>
+</section></article>
+
+<article id="entry-androphonos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνδροφόνος</h1><div class="entry-meta"><span class="greek">ου, ὁ</span><span class="separator">·</span><span class="transliteration">⟦androphónos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνήρ</span>, <span class="greek">φόνος</span>; Homero e outros; OGI 218, 99 [século III a.C.]; Kaibel 184, 6 [século III a.C.]; POslo 18, 4 [162 d.C.]; 2Mc 9.28; Fílon, Justino; Ath. 35.1; Irineu 1.6.3 [Harv. I 55, 14], como adjetivo. <strong>Homicida, assassino</strong>, literalmente <strong>“matador de homem”</strong>. Lex. Vind. p. 192, 13 observa: assassino de mulheres e crianças, bem como de homens. <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1TI.1.9" target="_blank" rel="noopener noreferrer">1Tm 1.9</a>. — DELG s.v. <span class="greek">ἀνήρ</span> A, <span class="greek">θείνω</span>. M-M.</p>
+</section></article>
+
+<article id="entry-aneben-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνέβην</h1><div class="entry-meta"><span class="transliteration">⟦anébēn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀναβαίνω</span>.</p>
+</section></article>
+
+<article id="entry-anenklesia-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεγκλησία</h1><div class="entry-meta"><span class="greek">ας, ἡ</span><span class="separator">·</span><span class="transliteration">⟦anenklēsía⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">ἀ-</span> + <span class="greek">ἐγκαλέω</span>; veja <span class="greek">ἀνέγκλητος</span>; nos papiros, frequentemente = <strong>indemnidade</strong>. <strong>Irrepreensibilidade.</strong> Bardesanes em Eus., PE 6.10.10 p. 274d. <span class="greek">ἀ. τοῦ θεοῦ</span>, <strong>irrepreensibilidade diante de Deus</strong>, Phil 3.14 v.l. — DELG s.v. <span class="greek">καλέω</span> (<span class="greek">κλη-</span>).</p>
+</section></article>
+
+<article id="entry-anenkletos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνέγκλητος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦anénklētos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνεγκλησία</span>; Platão, Xenofonte e outros; Epicteto 1.28.10; SIG 911, 25 [séculos III/II a.C.]; 556d, 5 [207/6 a.C.]; Socratics 31, 26 p. 298 Malherbe; papiros; 3Mc 5.31; Josefo, <em>Ant.</em> 10.281; 17.289; Justino, <em>D.</em> 35.8. <strong>Irrepreensível, irreprochável.</strong> De cristãos em geral: <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1CO.1.8" target="_blank" rel="noopener noreferrer">1Co 1.8</a>, <strong>“que vos confirmará irrepreensíveis no dia do Senhor”</strong>, isto é, para que sejais irrepreensíveis quando ele vier; com <span class="greek">ἅγιος</span> e <span class="greek">ἄμωμος</span>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/COL.1.22" target="_blank" rel="noopener noreferrer">Cl 1.22</a>. De líderes cristãos, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1TI.3.10" target="_blank" rel="noopener noreferrer">1Tm 3.10</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/TIT.1.6" target="_blank" rel="noopener noreferrer">Tt 1.6</a>s. — M-M. TW.</p>
+</section></article>
+
+<article id="entry-anegnon-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνέγνων</h1><div class="entry-meta"><span class="transliteration">⟦anégnōn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀναγι(γ)νώσκω</span>.</p>
+</section></article>
+
+<article id="entry-anethemen-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεθέμην</h1><div class="entry-meta"><span class="transliteration">⟦anethémēn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνατίθημι</span>.</p>
 </section></article>
 
 
