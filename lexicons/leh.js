@@ -514,6 +514,11 @@ window.ScripturaLexicons.LEH = {
             key: "NORTH 1973",
             type: "biblio",
             text: "J. L. North, “Ἀκηδία and ἀκηδιᾶν in the Greek and Latin Biblical Tradition”, TU 112 (1973), pp. 387–392"
+        },
+        {
+            key: "DES PLACES 1975",
+            type: "biblio",
+            text: "É. des Places, “Un terme biblique et platonicien: ἀκοινώνητος”, em M. Pellegrino et al. (eds.), Forma Futuri. FS M. Pellegrino, Torino, 1975, pp. 154–158"
         }
     ],
 
@@ -1288,6 +1293,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-akmaios-leh" data-source="LEH" data-search="ἀκμαῖος akmaios adjetivo pleno florescimento auge vigoroso Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀκμαῖος</td><td>Adjetivo</td><td>em pleno florescimento; no auge; vigoroso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akme-leh" data-source="LEH" data-search="ἀκμή akme substantivo ponto auge flor culminante melhor momento Ester Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκμή</td><td>Substantivo</td><td>ponto; auge; flor; ponto culminante; melhor momento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akmon-leh" data-source="LEH" data-search="ἄκμων akmon substantivo bigorna Jó Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκμων</td><td>Substantivo</td><td>bigorna</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akoe-leh" data-source="LEH" data-search="ἀκοή akoe substantivo som relato notícia ouvido obediência Êxodo Sabedoria Macabeus Samuel Naum LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκοή</td><td>Substantivo</td><td>som; relato; notícia; ouvido; obediência</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akoimetos-leh" data-source="LEH" data-search="ἀκοίμητος akoimetos adjetivo insone incansável que nunca abandona Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκοίμητος</td><td>Adjetivo</td><td>insone; incansável; que nunca abandona</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akoinonetos-leh" data-source="LEH" data-search="ἀκοινώνητος akoinonetos adjetivo incomunicável Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκοινώνητος</td><td>Adjetivo</td><td>incomunicável</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akolasia-leh" data-source="LEH" data-search="ἀκολασία akolasia substantivo intemperança lascívia devassidão Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκολασία</td><td>Substantivo</td><td>intemperança; lascívia; devassidão</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akolastos-leh" data-source="LEH" data-search="ἀκόλαστος akolastos adjetivo licencioso intemperante lascivo conducente licenciosidade vinho Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκόλαστος</td><td>Adjetivo</td><td>licencioso; intemperante; lascivo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akoloutheo-leh" data-source="LEH" data-search="ἀκολουθέω akoloutheo verbo seguir ir atrás acompanhar obedecer Números Samuel Reis Isaías Ezequiel Judite Rute LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκολουθέω</td><td>Verbo</td><td>seguir; ir atrás de; acompanhar; obedecer</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akolouthia-leh" data-source="LEH" data-search="ἀκολουθία akolouthia substantivo sequência Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκολουθία</td><td>Substantivo</td><td>sequência</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akolouthos-leh" data-source="LEH" data-search="ἀκόλουθος akolouthos adjetivo seguinte apropriado pertencente Esdras Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκόλουθος</td><td>Adjetivo</td><td>seguinte; apropriado a; pertencente a</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3368,6 +3404,82 @@ window.ScripturaLexicons.LEH = {
     <header class="entry-header"><div><h1 class="entry-title greek">ἀκμαῖος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκμαῖος, -α, -ον · akmaios" data-transliteration="akmaios" data-meanings="em pleno florescimento|no auge|vigoroso">ἀκμαῖος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>em pleno florescimento, no auge, vigoroso</strong>.</p>
         <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.4.8" target="_blank" rel="noopener noreferrer">3Mc 4.8</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akme-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκμή</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκμή, -ῆς · akmē" data-transliteration="akmē" data-meanings="ponto|auge|flor|ponto culminante|melhor momento">ἀκμή, -ῆς</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-4=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ponto</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.12.22" target="_blank" rel="noopener noreferrer">2Mc 12.22</a>); <strong>expressão mais plena ou mais elevada, auge, flor</strong> (Est 5.1b); <strong>ponto culminante</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.1.7" target="_blank" rel="noopener noreferrer">2Mc 1.7</a>); <strong>melhor, mais pleno</strong> — de tempo (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.18.9" target="_blank" rel="noopener noreferrer">4Mc 18.9</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Est 5.16; 2Mc 1.7; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.4.13" target="_blank" rel="noopener noreferrer">4.13</a>; 12.22; 4Mc 18.9.</p>
+    </section>
+</article>
+
+<article id="entry-akmon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκμων</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκμων, -ονος · akmōn" data-transliteration="akmōn" data-meanings="bigorna">ἄκμων, -ονος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bigorna</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.41.16" target="_blank" rel="noopener noreferrer">Jó 41.16</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.38.28" target="_blank" rel="noopener noreferrer">Sr 38.28</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akoe-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκοή</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκοή, -ῆς · akoē" data-transliteration="akoē" data-meanings="som|relato|notícia|ouvido|obediência">ἀκοή, -ῆς</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 11-9-16-6-9=51</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>som</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.1.9" target="_blank" rel="noopener noreferrer">Sb 1.9</a>); <strong>relato, notícias</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.23.1" target="_blank" rel="noopener noreferrer">Êx 23.1</a>); <strong>ouvido</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.15.39" target="_blank" rel="noopener noreferrer">2Mc 15.39</a>); <strong>obediência</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.15.22" target="_blank" rel="noopener noreferrer">1Sm 15.22</a>).</p>
+        <p class="entry-text"><span class="greek">ἐὰν ἀκοῇ ἀκούσῃς</span>: <strong>se realmente ouvires</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="semit." data-tooltip-text="semitism — semitismo; no LEH, indica construção ou expressão de caráter semítico">semit.</span>, traduzindo MT <bdi class="hebrew" lang="he" dir="rtl">אם־שׁמוע תשׁמע</bdi> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.15.26" target="_blank" rel="noopener noreferrer">Êx 15.26</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span>Na 1.12 <span class="greek">ἡ ἀκοή σου</span> <strong>teu relato</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">ענה</bdi> I por MT <bdi class="hebrew" lang="he" dir="rtl">ענתך</bdi>, relacionado na fonte a <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">ענה</bdi> II <strong>eu te afligi</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 15.26; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.19.5" target="_blank" rel="noopener noreferrer">19.5</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.22.22" target="_blank" rel="noopener noreferrer">22.22</a>; Êx 23.1,22 (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> HORSLEY 1983, 61; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akoimetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκοίμητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκοίμητος, -ος, -ον · akoimētos" data-transliteration="akoimētos" data-meanings="insone|incansável|que nunca abandona">ἀκοίμητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>insone, incansável, que nunca abandona</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.7.10" target="_blank" rel="noopener noreferrer">Sb 7.10</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akoinonetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκοινώνητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκοινώνητος, -ος, -ον · akoinōnētos" data-transliteration="akoinōnētos" data-meanings="incomunicável">ἀκοινώνητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>incomunicável</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.14.21" target="_blank" rel="noopener noreferrer">Sb 14.21</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> DES PLACES 1975, 154–158.</p>
+    </section>
+</article>
+
+<article id="entry-akolasia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκολασία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκολασία, -ας · akolasia" data-transliteration="akolasia" data-meanings="intemperança|lascívia|devassidão">ἀκολασία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>intemperança, lascívia, devassidão</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.13.7" target="_blank" rel="noopener noreferrer">4Mc 13.7</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akolastos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκόλαστος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκόλαστος, -ος, -ον · akolastos" data-transliteration="akolastos" data-meanings="licencioso|intemperante|lascivo|conducente à licenciosidade">ἀκόλαστος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>licencioso, intemperante, lascivo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.19.29" target="_blank" rel="noopener noreferrer">Pv 19.29</a>); <strong>conducente à licenciosidade</strong> — do vinho (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.20.1" target="_blank" rel="noopener noreferrer">Pv 20.1</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Pv 19.29; 20.1; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.21.11" target="_blank" rel="noopener noreferrer">21.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akoloutheo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκολουθέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκολουθέω · akoloutheō" data-transliteration="akoloutheō" data-meanings="seguir|ir atrás de|acompanhar|obedecer">ἀκολουθέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-2-3-1-6=13</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>seguir, ir atrás de ou com</strong> [<span class="greek">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.22.20" target="_blank" rel="noopener noreferrer">Nm 22.20</a>); <strong>seguir</strong>, metaforicamente [uso absoluto] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDT.12.2" target="_blank" rel="noopener noreferrer">Jdt 12.2</a>); <strong>obedecer</strong> [<span class="greek">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDT.2.3" target="_blank" rel="noopener noreferrer">Jdt 2.3</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span>Rt 1.14 <span class="greek">ἠκολούθησεν</span> <strong>ela seguiu</strong>; correção proposta pela fonte: <span class="greek">ἐκολλήθησε</span>, para MT <bdi class="hebrew" lang="he" dir="rtl">דבקה</bdi> <strong>ela se apegou</strong>; cf. Rt 2.8,21.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 22.20; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.25.42" target="_blank" rel="noopener noreferrer">1Sm 25.42</a>; 1Re 19.20; Is 45.14; Ez 29.16.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+        <p class="entry-text">→ <span class="greek">ἐξ-</span>, <span class="greek">ἐπ-</span>, <span class="greek">κατ-</span>, <span class="greek">παρ-</span>, <span class="greek">συν-</span>, <span class="greek">συνεπ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-akolouthia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκολουθία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκολουθία, -ας · akolouthia" data-transliteration="akolouthia" data-meanings="sequência">ἀκολουθία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sequência</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.1.21" target="_blank" rel="noopener noreferrer">4Mc 1.21</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akolouthos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκόλουθος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκόλουθος, -ος, -ον · akolouthos" data-transliteration="akolouthos" data-meanings="seguinte|apropriado a|pertencente a">ἀκόλουθος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>seguinte</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.4.17" target="_blank" rel="noopener noreferrer">2Mc 4.17</a>); <strong>apropriado a, pertencente a</strong> [<span class="greek">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1ES.8.14" target="_blank" rel="noopener noreferrer">1Es 8.14</a>).</p>
     </section>
 </article>`
 };
