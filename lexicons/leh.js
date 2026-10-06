@@ -454,6 +454,16 @@ window.ScripturaLexicons.LEH = {
             key: "TOV 1973",
             type: "biblio",
             text: "E. Tov, “Transliterations of Hebrew Words in the Greek Versions of the OT. A Further Characteristic of the ‘Kaige’-Th(eodotion) Revision”, Textus 8 (1973), pp. 78–92"
+        },
+        {
+            key: "LEDOGAR 1967",
+            type: "biblio",
+            text: "R. J. Ledogar, “Verbs of Praise in the LXX Translation of the Hebrew Canon”, Biblica 48 (1967), pp. 29–56"
+        },
+        {
+            key: "HORSLEY 1983",
+            type: "biblio",
+            text: "G. H. R. Horsley, New Documents Illustrating Early Christianity. Vol. 3. A Review of the Greek Inscriptions and Papyri Published in 1978, Macquarie University, N.S.W., 1983"
         }
     ],
 
@@ -980,6 +990,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-ainesis-leh" data-source="LEH" data-search="αἴνεσις ainesis substantivo louvor Levítico Crônicas Isaías neologismo LEH" tabindex="0">
     <td class="table-lemma greek">αἴνεσις</td><td>Substantivo</td><td>louvor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-ainetos-leh" data-source="LEH" data-search="αἰνετός ainetos adjetivo louvável digno de louvor seja louvado Levítico Samuel Crônicas Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">αἰνετός</td><td>Adjetivo</td><td>louvável; seja louvado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aineo-leh" data-source="LEH" data-search="αἰνέω aineo verbo louvar glorificar Gênesis Juízes Crônicas Jeremias Jó LEH" tabindex="0">
+    <td class="table-lemma greek">αἰνέω</td><td>Verbo</td><td>louvar; glorificar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ainigma-leh" data-source="LEH" data-search="αἴνιγμα ainigma substantivo dito obscuro enigma Números Deuteronômio Reis Crônicas Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">αἴνιγμα</td><td>Substantivo</td><td>dito obscuro; enigma</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ainigmatistes-leh" data-source="LEH" data-search="αἰνιγματιστής ainigmatistes substantivo aquele que fala por enigmas Números neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">αἰνιγματιστής</td><td>Substantivo</td><td>aquele que fala por enigmas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ainos-leh" data-source="LEH" data-search="αἶνος ainos substantivo louvor cântico de louvor Crônicas Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">αἶνος</td><td>Substantivo</td><td>louvor; cântico de louvor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aix-leh" data-source="LEH" data-search="αἴξ aix substantivo cabra Gênesis Crônicas LEH" tabindex="0">
+    <td class="table-lemma greek">αἴξ</td><td>Substantivo</td><td>cabra</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aipolion-leh" data-source="LEH" data-search="αἰπόλιον aipolion substantivo rebanho de cabras Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">αἰπόλιον</td><td>Substantivo</td><td>rebanho de cabras</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aipolos-leh" data-source="LEH" data-search="αἰπόλος aipolos substantivo pastor de cabras Amós LEH" tabindex="0">
+    <td class="table-lemma greek">αἰπόλος</td><td>Substantivo</td><td>pastor de cabras</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hairesis-leh" data-source="LEH" data-search="αἵρεσις hairesis substantivo livre escolha oferta voluntária escolha própria decisão voluntariamente livremente Gênesis Levítico Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἵρεσις</td><td>Substantivo</td><td>livre escolha; oferta voluntária</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hairetizo-leh" data-source="LEH" data-search="αἱρετίζω hairetizo verbo escolher favorecer aceitar petição Gênesis Números Juízes Samuel Crônicas Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">αἱρετίζω</td><td>Verbo</td><td>escolher; agir em favor de; aceitar uma petição</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -2376,6 +2417,91 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.7.12" target="_blank" rel="noopener noreferrer">Lv 7.12</a> (bis),13,15; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.35" target="_blank" rel="noopener noreferrer">1Cr 16.35</a>.</p>
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
         <p class="entry-text"><strong>Cf.</strong> HARLÉ 1988, 108; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-ainetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰνετός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰνετός, -ή, -όν · ainetos" data-transliteration="ainetos" data-meanings="louvável|seja louvado">αἰνετός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-3-0-9-6=19</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>louvável, digno de louvor; seja louvado</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.19.24" target="_blank" rel="noopener noreferrer">Lv 19.24</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.14.25" target="_blank" rel="noopener noreferrer">2Sm 14.25</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.22.4" target="_blank" rel="noopener noreferrer">22.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.25" target="_blank" rel="noopener noreferrer">1Cr 16.25</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.47.2" target="_blank" rel="noopener noreferrer">Sl 47(48).2</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aineo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰνέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰνέω · aineō" data-transliteration="aineō" data-meanings="louvar|glorificar">αἰνέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-21-7-78-37=144</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>louvar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.49.8" target="_blank" rel="noopener noreferrer">Gn 49.8</a>); id. [<span class="greek">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.36" target="_blank" rel="noopener noreferrer">1Cr 16.36</a>); <strong>glorificar</strong> [<span class="greek">τινα</span>] — especialmente a Deus, em sentido religioso (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.16.4" target="_blank" rel="noopener noreferrer">1Cr 16.4</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.38.5" target="_blank" rel="noopener noreferrer">Jr 38(31).5</a> <span class="greek">αἰνέσατε</span> <strong>louvai</strong> — <bdi class="hebrew" lang="he" dir="rtl">הללו</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">חללו</bdi> <strong>começai a usar, tratai como comum?</strong>; cf. <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.35.14" target="_blank" rel="noopener noreferrer">Jó 35.14</a>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 49.8; JgsA 16.24; 1Cr 16.4,7,10.</p>
+        <p class="entry-text"><strong>Cf.</strong> ENGEL 1985, 174; HELBING 1928, 15–17; LEDOGAR 1967, 34–36; → NIDNTT; TWNT.</p>
+        <p class="entry-text">→ <span class="greek">ἐπ-</span>, <span class="greek">παρ-</span>, <span class="greek">συν-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-ainigma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴνιγμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴνιγμα, -ατος · ainigma" data-transliteration="ainigma" data-meanings="dito obscuro|enigma">αἴνιγμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 2-2-0-2-3=9</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>dito obscuro, enigma</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.12.8" target="_blank" rel="noopener noreferrer">Nm 12.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.28.37" target="_blank" rel="noopener noreferrer">Dt 28.37</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.10.1" target="_blank" rel="noopener noreferrer">1Re 10.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.9.1" target="_blank" rel="noopener noreferrer">2Cr 9.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.1.6" target="_blank" rel="noopener noreferrer">Pv 1.6</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-ainigmatistes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰνιγματιστής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰνιγματιστής, -οῦ · ainigmatistēs" data-transliteration="ainigmatistēs" data-meanings="aquele que fala por enigmas">αἰνιγματιστής, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>aquele que fala por enigmas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.21.27" target="_blank" rel="noopener noreferrer">Nm 21.27</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+    </section>
+</article>
+
+<article id="entry-ainos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἶνος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἶνος, -ου · ainos" data-transliteration="ainos" data-meanings="louvor|cântico de louvor">αἶνος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-5-5=11</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>louvor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.23.13" target="_blank" rel="noopener noreferrer">2Cr 23.13</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἶνος ᾠδῆς · ainos ōdēs" data-transliteration="ainos ōdēs" data-meanings="louvor cantado|cântico de louvor">αἶνος ᾠδῆς</span>: <strong>louvor cantado, cântico de louvor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.90.1" target="_blank" rel="noopener noreferrer">Sl 90(91).1</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 2Cr 23.13; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.8.3" target="_blank" rel="noopener noreferrer">Sl 8.3</a>; Sl 90(91).1; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.92.1" target="_blank" rel="noopener noreferrer">92(93).1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.94.1" target="_blank" rel="noopener noreferrer">94(95).1</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aix-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴξ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴξ, αἰγός · aix" data-transliteration="aix" data-meanings="cabra">αἴξ, αἰγός</span><span class="separator">·</span><span>substantivo masculino/feminino da 3ª declinação (N3M/F)</span><span class="separator">·</span><span>frequência LEH: 54-17-2-9-2=84</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cabra</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.15.9" target="_blank" rel="noopener noreferrer">Gn 15.9</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.31.6" target="_blank" rel="noopener noreferrer">2Cr 31.6</a> <span class="greek">ἐπιδέκατα αἰγῶν</span> <strong>dízimos de cabras</strong>; correção proposta: <span class="greek">ἐπιδέκατα ἁγίων</span>, para MT <bdi class="hebrew" lang="he" dir="rtl">מעשׂר קדשׁים</bdi> <strong>dízimos das coisas santas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 15.9; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.30.32" target="_blank" rel="noopener noreferrer">30.32</a>,33,35; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.31.10" target="_blank" rel="noopener noreferrer">31.10</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aipolion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰπόλιον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰπόλιον, -ου · aipolion" data-transliteration="aipolion" data-meanings="rebanho de cabras">αἰπόλιον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>rebanho de cabras</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.30.31" target="_blank" rel="noopener noreferrer">Pv 30.31</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aipolos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰπόλος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰπόλος, -ου · aipolos" data-transliteration="aipolos" data-meanings="pastor de cabras">αἰπόλος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pastor de cabras</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/AMO.7.14" target="_blank" rel="noopener noreferrer">Am 7.14</a>.</p>
+    </section>
+</article>
+
+<article id="entry-hairesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἵρεσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἵρεσις, -εως · hairesis" data-transliteration="hairesis" data-meanings="livre escolha|oferta voluntária">αἵρεσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 3-0-0-0-1=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>livre escolha</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.8.30" target="_blank" rel="noopener noreferrer">1Mc 8.30</a>); <strong>oferta voluntária</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.22.18" target="_blank" rel="noopener noreferrer">Lv 22.18</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐξ αἱρέσεως · ex haireseōs" data-transliteration="ex haireseōs" data-meanings="por escolha|segundo a própria decisão">ἐξ αἱρέσεως</span>: <strong>por escolha, segundo a própria decisão</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.49.5" target="_blank" rel="noopener noreferrer">Gn 49.5</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="κατὰ πᾶσαν αἵρεσιν · kata pasan hairesin" data-transliteration="kata pasan hairesin" data-meanings="voluntariamente|livremente">κατὰ πᾶσαν αἵρεσιν</span>: <strong>voluntariamente, livremente</strong> (Lv 22.18).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 49.5; Lv 22.18,21; 1Mc 8.30.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARLÉ 1988, 185; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-hairetizo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱρετίζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱρετίζω · hairetizō" data-transliteration="hairetizō" data-meanings="escolher|agir em favor de|aceitar uma petição">αἱρετίζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-7-7-5-8=29</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>A:</strong> <strong>escolher</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.30.20" target="_blank" rel="noopener noreferrer">Gn 30.20</a>).</p>
+        <p class="entry-text"><strong>M:</strong> <strong>escolher</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.24.12" target="_blank" rel="noopener noreferrer">Sl 24(25).12</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ᾑρέτιζα τὸ πρόσωπόν σου · hēretiza to prosōpon sou" data-transliteration="hēretiza to prosōpon sou" data-meanings="agi em teu favor|aceitei tua petição">ᾑρέτιζα τὸ πρόσωπόν σου</span>: <strong>agi em teu favor, aceitei tua petição</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.25.35" target="_blank" rel="noopener noreferrer">1Sm 25.35</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐν ὑμῖν ᾑρέτικεν κύριος · en hymin hēretiken kyrios" data-transliteration="en hymin hēretiken kyrios" data-meanings="o Senhor vos escolheu">ἐν ὑμῖν ᾑρέτικεν κύριος</span>: <strong>o Senhor vos escolheu</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.29.11" target="_blank" rel="noopener noreferrer">2Cr 29.11</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 30.20; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.14.8" target="_blank" rel="noopener noreferrer">Nm 14.8</a>; JgsA 5.8; 1Sm 25.35; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.28.4" target="_blank" rel="noopener noreferrer">1Cr 28.4</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HORSLEY 1983, 25; WALTERS 1973, 142–143; → NIDNTT; TWNT.</p>
     </section>
 </article>`
 };
