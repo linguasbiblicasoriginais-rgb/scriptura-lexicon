@@ -1185,6 +1185,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-akardios-leh" data-source="LEH" data-search="ἀκάρδιος akardios adjetivo sem coração tolo insensato pessoa tola Jeremias Provérbios Sirácida LEH" tabindex="0">
     <td class="table-lemma greek">ἀκάρδιος</td><td>Adjetivo</td><td>sem coração; tolo; insensato</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akariaios-leh" data-source="LEH" data-search="ἀκαριαῖος akariaios adjetivo breve Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκαριαῖος</td><td>Adjetivo</td><td>breve</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akarpia-leh" data-source="LEH" data-search="ἀκαρπία akarpia substantivo esterilidade falta de fruto Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκαρπία</td><td>Substantivo</td><td>esterilidade; falta de fruto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akarpos-leh" data-source="LEH" data-search="ἄκαρπος akarpos adjetivo estéril sem fruto improdutivo Jeremias Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκαρπος</td><td>Adjetivo</td><td>estéril; sem fruto; improdutivo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akatagnostos-leh" data-source="LEH" data-search="ἀκατάγνωστος akatagnostos adjetivo não condenável inocente Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκατάγνωστος</td><td>Adjetivo</td><td>não condenável; inocente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akatakalyptos-leh" data-source="LEH" data-search="ἀκατακάλυπτος akatakalyptos adjetivo descoberto Levítico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκατακάλυπτος</td><td>Adjetivo</td><td>descoberto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akatalytos-leh" data-source="LEH" data-search="ἀκατάλυτος akatalytos adjetivo perpétuo Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκατάλυτος</td><td>Adjetivo</td><td>perpétuo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akatamachetos-leh" data-source="LEH" data-search="ἀκαταμάχητος akatamachetos adjetivo invencível inconquistável Sabedoria neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκαταμάχητος</td><td>Adjetivo</td><td>invencível; inconquistável</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akatapotos-leh" data-source="LEH" data-search="ἀκατάποτος akatapotos adjetivo não engolível impossível de engolir Jó neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκατάποτος</td><td>Adjetivo</td><td>impossível de engolir</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akataskeuastos-leh" data-source="LEH" data-search="ἀκατασκεύαστος akataskeuastos adjetivo não trabalhado informe desorganizado Gênesis LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκατασκεύαστος</td><td>Adjetivo</td><td>não trabalhado; informe; desorganizado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akatastasia-leh" data-source="LEH" data-search="ἀκαταστασία akatastasia substantivo instabilidade confusão Provérbios Tobias LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκαταστασία</td><td>Substantivo</td><td>instabilidade; confusão</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3038,6 +3069,85 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>sem coração, tolo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.10.13" target="_blank" rel="noopener noreferrer">Pv 10.13</a>); <strong>insensato</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.5.21" target="_blank" rel="noopener noreferrer">Jr 5.21</a>); substantivado, <span class="greek">ἀκάρδιος</span>: <strong>pessoa tola</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.6.20" target="_blank" rel="noopener noreferrer">Sr 6.20</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> Jr 5.21; Pv 10.13; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.17.16" target="_blank" rel="noopener noreferrer">17.16</a>; Sr 6.20.</p>
         <p class="entry-text">→ ADRADOS.</p>
+    </section>
+</article>
+
+<article id="entry-akariaios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκαριαῖος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκαριαῖος, -α, -ον · akariaios" data-transliteration="akariaios" data-meanings="breve">ἀκαριαῖος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>breve</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.6.25" target="_blank" rel="noopener noreferrer">2Mc 6.25</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akarpia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκαρπία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκαρπία, -ας · akarpia" data-transliteration="akarpia" data-meanings="esterilidade|falta de fruto">ἀκαρπία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>esterilidade, falta de fruto</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.9.12" target="_blank" rel="noopener noreferrer">Pv 9.12</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akarpos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκαρπος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκαρπος, -ος, -ον · akarpos" data-transliteration="akarpos" data-meanings="estéril|sem fruto|improdutivo">ἄκαρπος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-2=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>estéril, sem fruto</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.2.6" target="_blank" rel="noopener noreferrer">Jr 2.6</a>); <strong>estéril, improdutivo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.15.4" target="_blank" rel="noopener noreferrer">Sb 15.4</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jr 2.6; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.16.7" target="_blank" rel="noopener noreferrer">4Mc 16.7</a>; Sb 15.4.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akatagnostos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκατάγνωστος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκατάγνωστος, -ος, -ον · akatagnostos" data-transliteration="akatagnostos" data-meanings="não condenável|inocente">ἀκατάγνωστος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não condenável, inocente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.4.47" target="_blank" rel="noopener noreferrer">2Mc 4.47</a>.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akatakalyptos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκατακάλυπτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκατακάλυπτος, -ος, -ον · akatakalyptos" data-transliteration="akatakalyptos" data-meanings="descoberto">ἀκατακάλυπτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>descoberto</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.13.45" target="_blank" rel="noopener noreferrer">Lv 13.45</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1984, 390.</p>
+    </section>
+</article>
+
+<article id="entry-akatalytos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκατάλυτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκατάλυτος, -ος, -ον · akatalytos" data-transliteration="akatalytos" data-meanings="perpétuo">ἀκατάλυτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>perpétuo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.10.11" target="_blank" rel="noopener noreferrer">4Mc 10.11</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akatamachetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκαταμάχητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκαταμάχητος, -ος, -ον · akatamachētos" data-transliteration="akatamachētos" data-meanings="invencível|inconquistável">ἀκαταμάχητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>invencível, inconquistável</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.5.19" target="_blank" rel="noopener noreferrer">Sb 5.19</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+    </section>
+</article>
+
+<article id="entry-akatapotos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκατάποτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκατάποτος, -ος, -ον · akatapotos" data-transliteration="akatapotos" data-meanings="impossível de engolir">ἀκατάποτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>impossível de engolir, que não pode ser engolido</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.20.18" target="_blank" rel="noopener noreferrer">Jó 20.18</a>.</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Cf.</strong> HAUSPIE 2002, forthcoming.</p>
+    </section>
+</article>
+
+<article id="entry-akataskeuastos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκατασκεύαστος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκατασκεύαστος, -ος, -ον · akataskeuastos" data-transliteration="akataskeuastos" data-meanings="não trabalhado|informe|desorganizado">ἀκατασκεύαστος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não trabalhado, informe, desorganizado</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.1.2" target="_blank" rel="noopener noreferrer">Gn 1.2</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 87; SCHMITT 1974, 137–163.</p>
+    </section>
+</article>
+
+<article id="entry-akatastasia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκαταστασία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκαταστασία, -ας · akatastasia" data-transliteration="akatastasia" data-meanings="instabilidade|confusão">ἀκαταστασία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>instabilidade, confusão</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.26.28" target="_blank" rel="noopener noreferrer">Pv 26.28</a>; TobBA 4.13.</p>
+        <p class="entry-text">→ TWNT.</p>
     </section>
 </article>`
 };
