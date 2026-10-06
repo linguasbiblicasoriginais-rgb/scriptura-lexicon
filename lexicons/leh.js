@@ -526,6 +526,18 @@ window.ScripturaLexicons.LEH = {
             type: "biblio",
             text: "G. B. Caird, “Towards a Lexicon of the Septuagint. I”, JTS 19 (1968), pp. 453–475; = R. A. Kraft (ed.), Septuagintal Lexicography (SCS 1), Missoula, MT, 1972, pp. 110–132"
         }
+        ,
+        {
+            key: "coll.",
+            type: "abbr",
+            text: "collective — coletivo"
+        }
+        ,
+        {
+            key: "sg.",
+            type: "abbr",
+            text: "singular — singular"
+        }
     ],
 
     rowsHtml: String.raw`
@@ -1392,6 +1404,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-akribasmos-leh" data-source="LEH" data-search="ἀκριβασμός akribasmos substantivo investigação cuidadosa mandamento investigações coração Juízes Reis neologismo LEH" tabindex="0">
     <td class="table-lemma greek">ἀκριβασμός</td><td>Substantivo</td><td>investigação cuidadosa; mandamento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akribeia-leh" data-source="LEH" data-search="ἀκρίβεια akribeia substantivo exatidão precisão significado preciso Daniel Sabedoria Sirácida WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρίβεια</td><td>Substantivo</td><td>exatidão; precisão; significado preciso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akribes-leh" data-source="LEH" data-search="ἀκριβής akribes adjetivo exato preciso acurado significado preciso verdade Ester Daniel Sirácida WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκριβής</td><td>Adjetivo</td><td>exato; preciso; acurado; significado preciso; verdade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akriboo-leh" data-source="LEH" data-search="ἀκριβόω akriboo verbo remissão δι Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκριβόω</td><td>Verbo</td><td>remissão a δι-</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akribos-leh" data-source="LEH" data-search="ἀκριβῶς akribos advérbio exatamente precisamente diligentemente cuidadosamente Deuteronômio Daniel Sabedoria WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκριβῶς</td><td>Advérbio</td><td>exatamente; precisamente; diligentemente; cuidadosamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akris-leh" data-source="LEH" data-search="ἀκρίς akris substantivo gafanhoto enxame Êxodo Oseias WEVERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρίς</td><td>Substantivo</td><td>gafanhoto; enxame de gafanhotos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akritos-leh" data-source="LEH" data-search="ἀκρίτως akritos advérbio sem julgamento injustamente indevidamente ilegitimamente Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρίτως</td><td>Advérbio</td><td>sem julgamento; injustamente; indevidamente; ilegitimamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akroama-leh" data-source="LEH" data-search="ἀκρόαμα akroama substantivo peça recitada cantada Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρόαμα</td><td>Substantivo</td><td>peça recitada ou cantada</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akroaomai-leh" data-source="LEH" data-search="ἀκροάομαι akroaomai verbo escutar Isaías Sabedoria Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκροάομαι</td><td>Verbo</td><td>escutar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akroasis-leh" data-source="LEH" data-search="ἀκρόασις akroasis substantivo audição escuta obediência Reis Isaías Eclesiastes Sirácida Samuel semitismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρόασις</td><td>Substantivo</td><td>audição; escuta; obediência</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akroates-leh" data-source="LEH" data-search="ἀκροατής akroates substantivo ouvinte discípulo aluno Isaías Sirácida Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκροατής</td><td>Substantivo</td><td>ouvinte; discípulo; aluno</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3703,6 +3746,79 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>investigação cuidadosa de algo, mandamento</strong>.</p>
         <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκριβασμοὶ καρδίας · akribasmoi kardias" data-transliteration="akribasmoi kardias" data-meanings="investigações do coração">ἀκριβασμοὶ καρδίας</span>: <strong>investigações do coração</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.5.15" target="_blank" rel="noopener noreferrer">Jz<sup>A</sup> 5.15</a>); ver também <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.11.34" target="_blank" rel="noopener noreferrer">1Re 11.34</a> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="v. l." data-tooltip-text="varia lectio — variante de leitura">v. l.</span>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
         <p class="entry-text"><strong>Cf.</strong> CAIRD 1968b=1972, 113; WALTERS 1973, 205–206.</p>
+    </section>
+</article>
+
+<article id="entry-akribeia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρίβεια</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρίβεια, -ας · akribeia" data-transliteration="akribeia" data-meanings="exatidão|precisão|significado preciso">ἀκρίβεια, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-3=6</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>exatidão, precisão</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.12.21" target="_blank" rel="noopener noreferrer">Sb 12.21</a>); <strong>significado preciso</strong> (Dn 7.16).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Dn<sup>LXX</sup> 7.16; Dn<sup>Th</sup> 7.16 (bis); Sb 12.21; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.16.25" target="_blank" rel="noopener noreferrer">Sr 16.25</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 44.205–209.</p>
+    </section>
+</article>
+
+<article id="entry-akribes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκριβής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκριβής, -ής, -ές · akribēs" data-transliteration="akribēs" data-meanings="exato|preciso|acurado|significado preciso|verdade">ἀκριβής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-4-4=8</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>exato, preciso, acurado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.31.24" target="_blank" rel="noopener noreferrer">Sr 31(34).24</a>); <span class="greek">τὸ ἀκριβές</span>: <strong>o significado preciso, a verdade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.4.5" target="_blank" rel="noopener noreferrer">Est 4.5</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Est 4.5; Dn<sup>LXX</sup> 2.45; 4.27(24); 6.13; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.18.29" target="_blank" rel="noopener noreferrer">Sr 18.29</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 44.205–210.</p>
+    </section>
+</article>
+
+<article id="entry-akriboo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκριβόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκριβόω · akriboō" data-transliteration="akriboō" data-meanings="remissão do LEH ao composto com δι-">ἀκριβόω</span><span class="separator">·</span><span>verbo</span><span class="separator">·</span><span>sem estatística própria no LEH</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Remissão da fonte</div>
+        <p class="entry-text">O LEH não fornece glossa ou estatística autônoma neste ponto; remete ao composto com <span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="δι- · di-" data-transliteration="di-" data-meanings="prefixo indicado pelo LEH; ver composto correspondente">δι-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-akribos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκριβῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκριβῶς · akribōs" data-transliteration="akribōs" data-meanings="exatamente|precisamente|diligentemente|cuidadosamente">ἀκριβῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-1-1=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>exatamente, precisamente, diligentemente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.19.18" target="_blank" rel="noopener noreferrer">Dt 19.18</a>); <strong>cuidadosamente</strong> (Dn<sup>Th</sup> 7.19).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Dt 19.18; Dn<sup>Th</sup> 7.19; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.19.18" target="_blank" rel="noopener noreferrer">Sb 19.18</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 208.</p>
+    </section>
+</article>
+
+<article id="entry-akris-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρίς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρίς, -ίδος · akris" data-transliteration="akris" data-meanings="gafanhoto|enxame de gafanhotos">ἀκρίς, -ίδος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 9-6-12-5-3=35</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>gafanhoto</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.10.19" target="_blank" rel="noopener noreferrer">Êx 10.19</a>); <strong>enxame de gafanhotos</strong> (<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="coll." data-tooltip-text="collective — coletivo">coll.</span> <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="sg." data-tooltip-text="singular — singular">sg.</span>) (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.10.4" target="_blank" rel="noopener noreferrer">Êx 10.4</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HOS.13.3" target="_blank" rel="noopener noreferrer">Os 13.3</a> <span class="greek">ἀπὸ ἀκρίδων</span> <strong>dos gafanhotos</strong> — <bdi class="hebrew" lang="he" dir="rtl">הֶבְּאַר/מֵ</bdi> em lugar do MT <bdi class="hebrew" lang="he" dir="rtl">הָבֻרֲא/מֵ</bdi> <strong>da janela</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 10.4,12,13,14,19.</p>
+        <p class="entry-text"><strong>Cf.</strong> WEVERS 1990, 146.</p>
+    </section>
+</article>
+
+<article id="entry-akritos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρίτως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρίτως · akritōs" data-transliteration="akritōs" data-meanings="sem julgamento|injustamente|indevidamente|ilegitimamente">ἀκρίτως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem julgamento, injustamente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.2.37" target="_blank" rel="noopener noreferrer">1Mc 2.37</a>); <strong>indevidamente, ilegitimamente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.15.33" target="_blank" rel="noopener noreferrer">1Mc 15.33</a>).</p>
+    </section>
+</article>
+
+<article id="entry-akroama-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρόαμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρόαμα, -ατος · akroama" data-transliteration="akroama" data-meanings="peça recitada ou cantada">ἀκρόαμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>uma peça recitada ou cantada</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.32.4" target="_blank" rel="noopener noreferrer">Sr 32.4</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akroaomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκροάομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκροάομαι · akroaomai" data-transliteration="akroaomai" data-meanings="escutar">ἀκροάομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-4=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>escutar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.1.10" target="_blank" rel="noopener noreferrer">Sb 1.10</a>); <strong>escutar</strong> [<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="abs." data-tooltip-text="absolute — uso absoluto, sem complemento expresso">abs.</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.14.23" target="_blank" rel="noopener noreferrer">Sr 14.23</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.21.7" target="_blank" rel="noopener noreferrer">Is 21.7</a>; Sb 1.10; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.6.35" target="_blank" rel="noopener noreferrer">Sr 6.35</a>; Sr 14.23; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.21.24" target="_blank" rel="noopener noreferrer">Sr 21.24</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akroasis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρόασις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρόασις, -εως · akroasis" data-transliteration="akroasis" data-meanings="audição|escuta|obediência">ἀκρόασις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-2-1-1-1=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>audição, escuta</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.18.26" target="_blank" rel="noopener noreferrer">1Re 18.26</a>); <strong>obediência</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.15.22" target="_blank" rel="noopener noreferrer">1Sm 15.22</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρόασαι ἀκρόασιν πολλήν · akroasai akroasin pollēn" data-transliteration="akroasai akroasin pollēn" data-meanings="escutar atentamente">ἀκρόασαι ἀκρόασιν πολλήν</span>: <strong>escutar atentamente</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="semit." data-tooltip-text="semitism — semitismo; no LEH, indica construção ou expressão de caráter semítico">semit.</span>, vertendo MT <bdi class="hebrew" lang="he" dir="rtl">רב־קשׁב קשׁב והקשׁיב</bdi> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.21.7" target="_blank" rel="noopener noreferrer">Is 21.7</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Re 18.26; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.4.31" target="_blank" rel="noopener noreferrer">2Re 4.31</a>; Is 21.7; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ECC.1.8" target="_blank" rel="noopener noreferrer">Ecl 1.8</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.5.11" target="_blank" rel="noopener noreferrer">Sr 5.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akroates-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκροατής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκροατής, -οῦ · akroatēs" data-transliteration="akroatēs" data-meanings="ouvinte|discípulo|aluno">ἀκροατής, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ouvinte</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.3.3" target="_blank" rel="noopener noreferrer">Is 3.3</a>); <strong>discípulo, aluno</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.3.29" target="_blank" rel="noopener noreferrer">Sr 3.29</a>).</p>
     </section>
 </article>`
 };
