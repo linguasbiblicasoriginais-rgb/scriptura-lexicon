@@ -1581,6 +1581,28 @@ window.ScripturaLexicons.BDAG = {
 <tr class="search-row" data-dictionary="grego" data-target="entry-anethemen-bdag" data-source="BDAG" data-search="ἀνεθέμην anethemen veja ἀνατίθημι remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνεθέμην</td><td>Remissão</td><td>veja ἀνατίθημι</td><td><span class="source-pill">BDAG</span></td></tr>
 
 
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anethen-aneis-bdag" data-source="BDAG" data-search="ἀνέθην ἀνείς anethen aneis veja ἀνίημι remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνέθην, ἀνείς</td><td>Remissão</td><td>veja ἀνίημι</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anethrepsamen-bdag" data-source="BDAG" data-search="ἀνεθρεψάμην anethrepsamen veja ἀνατρέφω remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνεθρεψάμην</td><td>Remissão</td><td>veja ἀνατρέφω</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aneila-aneilon-bdag" data-source="BDAG" data-search="ἀνεῖλα ἀνεῖλον aneila aneilon veja ἀναιρέω remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνεῖλα, ἀνεῖλον</td><td>Remissão</td><td>veja ἀναιρέω</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anekdiegetos-bdag" data-source="BDAG" data-search="ἀνεκδιήγητος anekdiegetos indescritível dádiva poder Deus amor juízos submundo 2 Coríntios 1 Clemente BDAG" tabindex="0"><td class="table-lemma greek">ἀνεκδιήγητος</td><td>Adjetivo</td><td>indescritível</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aneklaletos-bdag" data-source="BDAG" data-search="ἀνεκλάλητος aneklaletos inexprimível inexpressível alegria luz estrela nascimento Jesus 1 Pedro Policarpo Inácio BDAG" tabindex="0"><td class="table-lemma greek">ἀνεκλάλητος</td><td>Adjetivo</td><td>inexprimível; inexpressível</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anekleiptos-bdag" data-source="BDAG" data-search="ἀνέκλειπτος anekleiptos inesgotável infalível tesouro boas obras Lucas 12.33 BDAG" tabindex="0"><td class="table-lemma greek">ἀνέκλειπτος</td><td>Adjetivo</td><td>inesgotável; que não falha</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anektos-bdag" data-source="BDAG" data-search="ἀνεκτός anektos suportável tolerável suportar Tiro Sidom Sodoma Mateus Lucas 2 Clemente BDAG" tabindex="0"><td class="table-lemma greek">ἀνεκτός</td><td>Adjetivo</td><td>suportável; tolerável</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aneleemon-bdag" data-source="BDAG" data-search="ἀνελεήμων aneleemon impiedoso sem misericórdia Romanos Tito variante catálogo vícios BDAG" tabindex="0"><td class="table-lemma greek">ἀνελεήμων</td><td>Adjetivo</td><td>impiedoso; sem misericórdia</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-anelein-anelo-bdag" data-source="BDAG" data-search="ἀνελεῖν ἀνέλω anelein anelo veja ἀναιρέω remissão BDAG" tabindex="0"><td class="table-lemma greek">ἀνελεῖν, ἀνέλω</td><td>Remissão</td><td>veja ἀναιρέω</td><td><span class="source-pill">BDAG</span></td></tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-aneleos-bdag" data-source="BDAG" data-search="ἀνέλεος aneleos impiedoso sem misericórdia julgamento Tiago 2.13 variante ἀνίλεως BDAG" tabindex="0"><td class="table-lemma greek">ἀνέλεος</td><td>Adjetivo</td><td>impiedoso; sem misericórdia</td><td><span class="source-pill">BDAG</span></td></tr>
+
+
 `,
 
     cardsHtml: String.raw`
@@ -8762,6 +8784,68 @@ Futuro 2ª sg. <span class="greek greek-term tooltip-trigger" tabindex="0" data-
 <header class="entry-header"><div><h1 class="entry-title greek">ἀνεθέμην</h1><div class="entry-meta"><span class="transliteration">⟦anethémēn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
 <div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
 <p class="entry-text">Veja <span class="greek">ἀνατίθημι</span>.</p>
+</section></article>
+
+
+
+<article id="entry-anethen-aneis-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνέθην, ἀνείς</h1><div class="entry-meta"><span class="transliteration">⟦anéthēn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνίημι</span>.</p>
+</section></article>
+
+<article id="entry-anethrepsamen-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεθρεψάμην</h1><div class="entry-meta"><span class="transliteration">⟦anethrepsámēn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνατρέφω</span>.</p>
+</section></article>
+
+<article id="entry-aneila-aneilon-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεῖλα, ἀνεῖλον</h1><div class="entry-meta"><span class="transliteration">⟦aneîla⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀναιρέω</span>.</p>
+</section></article>
+
+<article id="entry-anekdiegetos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεκδιήγητος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦anekdiḗgētos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">ἀ-</span> + <span class="greek">ἐκδιηγέομαι</span>; Rhet. Gr. III 747, 8; Hesych.; EpArist 99 v.l.; Justino, <em>D.</em> 43.3; 76.2; <em>A I</em> 51.1 [em cada caso, sobre Is 53.8]; Ath. 10.1; Melito, <em>P.</em> 31, 210; 105, 814 [B]. <strong>Indescritível</strong>, em sentido positivo. <span class="greek">ἐπὶ τῇ ἀ. αὐτοῦ δωρεᾷ</span>, <strong>por sua dádiva indescritível</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/2CO.9.15" target="_blank" rel="noopener noreferrer">2Co 9.15</a>. Do poder de Deus: <span class="greek">ἀ. κράτος</span>, 1 Cl 61.1; compare <span class="greek">δυνάμει ἀ.</span>, Ath. 10.1. <span class="greek">τὸ ὕψος, εἰς ὃ ἀνάγει ἡ ἀγάπη, ἀ. ἐστι</span>, <strong>a altura à qual o amor conduz é indescritível</strong>, 1 Cl 49.4. <span class="greek">νερτέρων ἀ. κρίματα</span>, <strong>os indescritíveis juízos do mundo inferior</strong>, 1 Cl 20.5; assim leem os manuscritos: <span class="greek">κλίματα</span> é uma emenda desnecessária. Veja Knopf, <em>Hdb.</em> no local. — DELG s.v. <span class="greek">ἡγέομαι</span>. M-M.</p>
+</section></article>
+
+<article id="entry-aneklaletos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεκλάλητος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦aneklálētos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">ἀ-</span> + <span class="greek">ἐκλαλέω</span>; Diosc., prefácio de Eup., Wellm.; Heliod. 6.15.4; Ps.-Callisth. 1.40.5; Herm Wr. 1.4.31; Eunap. 486 [<em>Vi. Soph.</em> 10.2.1]; Irineu 1.14.5 [Harv. I 137, 11]. <strong>Inexprimível, inexpressível.</strong> <span class="greek">χαρᾷ ἀ. καὶ δεδοξασμένῃ</span>, <strong>com alegria inexprimível e glorificada</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/1PE.1.8" target="_blank" rel="noopener noreferrer">1Pe 1.8</a>; Pol 1.3. <span class="greek">φῶς ἀ.</span>, <strong>luz inexprimível</strong>, compare JosAs 14.3; da radiância da estrela no nascimento de Jesus, IEph 19.2. — DELG s.v. <span class="greek">λαλέω</span> B.</p>
+</section></article>
+
+<article id="entry-anekleiptos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνέκλειπτος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦anékleiptos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">ἀ-</span> + <span class="greek">ἐκλείπω</span>; Hipérides e outros; Diodoro Sículo 1.36.1; 4.84.2; Plutarco, <em>Mor.</em> 438d; OGI 383, 70 [século I a.C.]; PLond III 1166, 7 p. 105 [42 d.C.]; EpArist 89; 185. <strong>Que não falha, inesgotável.</strong> Do tesouro de boas obras: <span class="greek">θησαυρὸς ἀ.</span>; compare Wsd 7.14; 8.18; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.12.33" target="_blank" rel="noopener noreferrer">Lc 12.33</a>. — Veja DELG s.v. <span class="greek">λείπω</span> (*<span class="greek">λειπτος</span>). M-M.</p>
+</section></article>
+
+<article id="entry-anektos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνεκτός</h1><div class="entry-meta"><span class="greek">όν</span><span class="separator">·</span><span class="transliteration">⟦anektós⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀνέχομαι</span>; Homero e outros; SIG² 793, 3; IGR IV, 293 II, 4 [século II a.C., Pérgamo]; Josefo, <em>Bell.</em> 7.68, <em>Ant.</em> 18.348. <strong>Suportável, tolerável.</strong> <span class="greek">ἀνεκτὸν ἦν, εἰ</span>, <strong>se pudesse ser suportado, se</strong>, 2 Cl 10.5. Comparativo <span class="greek">ἀνεκτότερον</span>: Memnon [séculos I a.C./I d.C.], 434, Fgm. 1.2.1 p. 338, 15; 1.6.3 p. 343, 22 Jac.; Cícero, <em>Att.</em> 12.45.2; carta cristã POxy 939, 25, <span class="greek">ἀνεκτότερον ἐσχηκέναι</span>. <span class="greek">Τύρῳ καὶ Σιδῶνι ἀνεκτότερον ἔσται</span>, <strong>será mais tolerável para Tiro e Sidom</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MAT.11.22" target="_blank" rel="noopener noreferrer">Mt 11.22</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.10.14" target="_blank" rel="noopener noreferrer">Lc 10.14</a>. <span class="greek">ἀ. ἔ. γῇ Σοδόμων</span>, <strong>será mais tolerável para a terra de Sodoma</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MAT.10.15" target="_blank" rel="noopener noreferrer">Mt 10.15</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MAT.11.24" target="_blank" rel="noopener noreferrer">11.24</a>; compare <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/MRK.6.11" target="_blank" rel="noopener noreferrer">Mc 6.11</a> v.l.; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/LUK.10.12" target="_blank" rel="noopener noreferrer">Lc 10.12</a>. — DELG s.v. <span class="greek">ἔχω</span> 393. M-M. TW.</p>
+</section></article>
+
+<article id="entry-aneleemon-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνελεήμων</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦aneleḗmōn⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">De <span class="greek">ἀ-</span> + <span class="greek">ἐλεήμων</span>; Aristóteles, <em>Rhet. ad Alex.</em> 1442a, 13; Cat. Cod. Astr. II 173; Pr 5.9; Jó 30.21 e outros; PLond VI, 1915, 7s.; 27, com <span class="greek">ἄθεος</span>. O advérbio <span class="greek">ἀνελεημόνως</span> ocorre em ApcMos 2. <strong>Impiedoso, sem misericórdia.</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/ROM.1.31" target="_blank" rel="noopener noreferrer">Rm 1.31</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/TIT.1.9" target="_blank" rel="noopener noreferrer">Tt 1.9</a> v.l.; em um catálogo de vícios em Ptolem., <em>Apotel.</em> 3.14.28. — DELG s.v. <span class="greek">ἔλεος</span>. TW.</p>
+</section></article>
+
+<article id="entry-anelein-anelo-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνελεῖν, ἀνέλω</h1><div class="entry-meta"><span class="transliteration">⟦aneleîn⟧</span><span class="separator">·</span><span>remissão</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἀναιρέω</span>.</p>
+</section></article>
+
+<article id="entry-aneleos-bdag" class="entry-card" data-dictionary="grego" hidden data-source="BDAG">
+<header class="entry-header"><div><h1 class="entry-title greek">ἀνέλεος</h1><div class="entry-meta"><span class="greek">ον</span><span class="separator">·</span><span class="transliteration">⟦anéleos⟧</span></div></div><div class="source-tag">BDAG</div></header>
+<div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+<p class="entry-text">Veja <span class="greek">ἔλεος</span>; ático <span class="greek">ἀνηλεής</span>, também TestAbr A 12 p. 90, 15 = Stone p. 28; compare Phryn. 710 Lob.; B-D-F §120, 2. TestAbr A 16 p. 96, 18 [Stone p. 4], <span class="greek">βλέμμα</span>; em contraste, A 17 p. 99, 4s. [Stone p. 46], <span class="greek">βλέμματι … ἀνίλεῳ</span>. <strong>Impiedoso, sem misericórdia.</strong> <span class="greek">κρίσις ἀ.</span>, <strong>o julgamento é sem misericórdia</strong>, <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/NA28/JAS.2.13" target="_blank" rel="noopener noreferrer">Tg 2.13</a>, com v.l. <span class="greek">ἀνίλεως</span>. — M-M. TW.</p>
 </section></article>
 
 
