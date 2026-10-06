@@ -1257,6 +1257,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-akidotos-leh" data-source="LEH" data-search="ἀκιδωτός akidotos adjetivo pontiagudo Provérbios neologismo LEH" tabindex="0">
     <td class="table-lemma greek">ἀκιδωτός</td><td>Adjetivo</td><td>pontiagudo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akinakes-leh" data-source="LEH" data-search="ἀκινάκης akinakes substantivo espada curta reta Judite LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκινάκης</td><td>Substantivo</td><td>espada curta e reta</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akinetos-leh" data-source="LEH" data-search="ἀκίνητος akinetos adjetivo imóvel sem movimento difícil mover Êxodo Jó Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκίνητος</td><td>Adjetivo</td><td>imóvel; sem movimento; difícil de mover</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akis-leh" data-source="LEH" data-search="ἀκίς akis substantivo flecha dardo olhos metáfora Jó LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκίς</td><td>Substantivo</td><td>flecha; dardo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aklees-leh" data-source="LEH" data-search="ἀκλεής aklees adjetivo sem fama inglório ignominioso Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκλεής</td><td>Adjetivo</td><td>sem fama; inglório; ignominioso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akleos-leh" data-source="LEH" data-search="ἀκλεῶς akleos advérbio ingloriamente Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκλεῶς</td><td>Advérbio</td><td>ingloriamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aklireo-leh" data-source="LEH" data-search="ἀκληρέω aklereo verbo ser desafortunado infeliz Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκληρέω</td><td>Verbo</td><td>ser desafortunado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akletos-leh" data-source="LEH" data-search="ἄκλητος akletos adjetivo não chamado não convidado Ester LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκλητος</td><td>Adjetivo</td><td>não chamado; não convidado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aklines-leh" data-source="LEH" data-search="ἀκλινής aklines adjetivo sem inclinar vacilar ceder inflexível Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκλινής</td><td>Adjetivo</td><td>sem inclinar-se; sem vacilar; sem ceder; inflexível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akmazo-leh" data-source="LEH" data-search="ἀκμάζω akmazo verbo pleno florescimento maduro Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκμάζω</td><td>Verbo</td><td>estar em pleno florescimento; estar maduro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akmaios-leh" data-source="LEH" data-search="ἀκμαῖος akmaios adjetivo pleno florescimento auge vigoroso Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκμαῖος</td><td>Adjetivo</td><td>em pleno florescimento; no auge; vigoroso</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3265,6 +3296,78 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>pontiagudo</strong>.</p>
         <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.25.18" target="_blank" rel="noopener noreferrer">Pv 25.18</a>.</p>
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+    </section>
+</article>
+
+<article id="entry-akinakes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκινάκης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκινάκης, -ου · akinakēs" data-transliteration="akinakēs" data-meanings="espada curta e reta">ἀκινάκης, -ου</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>espada curta e reta</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDT.13.6" target="_blank" rel="noopener noreferrer">Jdt 13.6</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDT.16.9" target="_blank" rel="noopener noreferrer">16.9</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akinetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκίνητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκίνητος, -ος, -ον · akinētos" data-transliteration="akinētos" data-meanings="imóvel|sem movimento|difícil de mover">ἀκίνητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-1-1=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>imóvel, sem movimento</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.39.26" target="_blank" rel="noopener noreferrer">Jó 39.26</a>); <strong>imóvel, difícil de mover</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.25.15" target="_blank" rel="noopener noreferrer">Êx 25.15</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 25.15; Jó 39.26; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.6.19" target="_blank" rel="noopener noreferrer">3Mc 6.19</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκίς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκίς, -ίδος · akis" data-transliteration="akis" data-meanings="flecha|dardo">ἀκίς, -ίδος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>flecha, dardo</strong> — metaforicamente, dos olhos.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.16.10" target="_blank" rel="noopener noreferrer">Jó 16.10(9)</a>.</p>
+        <p class="entry-text">→ LSJ RSuppl.</p>
+    </section>
+</article>
+
+<article id="entry-aklees-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκλεής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκλεής, -ής, -ές · akleēs" data-transliteration="akleēs" data-meanings="sem fama|inglório|ignominioso">ἀκλεής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem fama, inglório, ignominioso</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.4.12" target="_blank" rel="noopener noreferrer">3Mc 4.12</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akleos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκλεῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκλεῶς · akleōs" data-transliteration="akleōs" data-meanings="ingloriamente">ἀκλεῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ingloriamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.6.34" target="_blank" rel="noopener noreferrer">3Mc 6.34</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aklireo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκληρέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκληρέω · aklēreō" data-transliteration="aklēreō" data-meanings="ser desafortunado">ἀκληρέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ser desafortunado</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.14.8" target="_blank" rel="noopener noreferrer">2Mc 14.8</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akletos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκλητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκλητος, -ος, -ον · aklētos" data-transliteration="aklētos" data-meanings="não chamado|não convidado">ἄκλητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não chamado, não convidado</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.4.11" target="_blank" rel="noopener noreferrer">Est 4.11</a>.</p>
+    </section>
+</article>
+
+<article id="entry-aklines-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκλινής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκλινής, -ής, -ές · aklinēs" data-transliteration="aklinēs" data-meanings="sem inclinar-se para nenhum dos lados|sem vacilar|sem ceder|inflexível">ἀκλινής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem inclinar-se para nenhum dos lados, sem vacilar; sem ceder</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.17.3" target="_blank" rel="noopener noreferrer">4Mc 17.3</a>); <strong>inflexível</strong>, em sentido metafórico (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.6.7" target="_blank" rel="noopener noreferrer">4Mc 6.7</a>).</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1978a, 60.</p>
+    </section>
+</article>
+
+<article id="entry-akmazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκμάζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκμάζω · akmazō" data-transliteration="akmazō" data-meanings="estar em pleno florescimento|estar maduro">ἀκμάζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>estar em pleno florescimento, estar maduro</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.2.3" target="_blank" rel="noopener noreferrer">4Mc 2.3</a>.</p>
+        <p class="entry-text">(→ <span class="greek">παρ-</span>).</p>
+    </section>
+</article>
+
+<article id="entry-akmaios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκμαῖος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκμαῖος, -α, -ον · akmaios" data-transliteration="akmaios" data-meanings="em pleno florescimento|no auge|vigoroso">ἀκμαῖος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>em pleno florescimento, no auge, vigoroso</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.4.8" target="_blank" rel="noopener noreferrer">3Mc 4.8</a>.</p>
     </section>
 </article>`
 };
