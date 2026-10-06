@@ -464,6 +464,16 @@ window.ScripturaLexicons.LEH = {
             key: "HORSLEY 1983",
             type: "biblio",
             text: "G. H. R. Horsley, New Documents Illustrating Early Christianity. Vol. 3. A Review of the Greek Inscriptions and Papyri Published in 1978, Macquarie University, N.S.W., 1983"
+        },
+        {
+            key: "LUST 1995b",
+            type: "biblio",
+            text: "J. Lust, “The Raised Hand of the Lord in Deut 32:40 according to MT, 4QDeut 9, and LXX”, Textus 18 (1995), pp. 33–45"
+        },
+        {
+            key: "ZIEGLER 1934",
+            type: "biblio",
+            text: "J. Ziegler, Untersuchungen zur Septuaginta des Buches Isaias (Alttestamentliche Abhandlungen 12/3), Münster, 1934"
         }
     ],
 
@@ -1021,6 +1031,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-hairetizo-leh" data-source="LEH" data-search="αἱρετίζω hairetizo verbo escolher favorecer aceitar petição Gênesis Números Juízes Samuel Crônicas Salmos LEH" tabindex="0">
     <td class="table-lemma greek">αἱρετίζω</td><td>Verbo</td><td>escolher; agir em favor de; aceitar uma petição</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-hairetis-leh" data-source="LEH" data-search="αἰρετίς hairetis substantivo aquela que escolhe Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">αἰρετίς</td><td>Substantivo</td><td>aquela que escolhe</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hairetos-leh" data-source="LEH" data-search="αἱρετός hairetos adjetivo elegível escolhido Provérbios Macabeus Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">αἱρετός</td><td>Adjetivo</td><td>elegível; escolhido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haireo-leh" data-source="LEH" data-search="αἱρέω haireo verbo tomar selecionar escolher preferir afeiçoar-se Deuteronômio Josué Samuel Crônicas Jeremias Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἱρέω</td><td>Verbo</td><td>tomar; selecionar; escolher; preferir; afeiçoar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-airo-leh" data-source="LEH" data-search="αἴρω airo verbo levantar carregar remover matar vestir excitar eliminar destruir Gênesis Êxodo Deuteronômio Números Juízes Samuel Jeremias Ester Jó Salmos Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἴρω</td><td>Verbo</td><td>levantar; carregar; remover; matar; vestir; excitar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aisthanomai-leh" data-source="LEH" data-search="αἰσθάνομαι aisthanomai verbo perceber sentir compreender notar ter percepção Isaías Jó Provérbios Sabedoria Carta de Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">αἰσθάνομαι</td><td>Verbo</td><td>perceber; sentir; compreender; notar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aisthesis-leh" data-source="LEH" data-search="αἴσθησις aisthesis substantivo percepção conhecimento sentimento inteligência Êxodo Provérbios 1 Esdras LEH" tabindex="0">
+    <td class="table-lemma greek">αἴσθησις</td><td>Substantivo</td><td>percepção; conhecimento; sentimento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aistheterion-leh" data-source="LEH" data-search="αἰσθητήριον aistheterion substantivo sentidos faculdades sensíveis Jeremias Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰσθητήριον</td><td>Substantivo</td><td>sentidos; faculdades sensíveis</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aisthetikos-leh" data-source="LEH" data-search="αἰσθητικός aisthetikos adjetivo sensível Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">αἰσθητικός</td><td>Adjetivo</td><td>sensível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aischros-leh" data-source="LEH" data-search="αἰσχρός aischros adjetivo feio desfavorecido horrível vergonhoso Gênesis Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰσχρός</td><td>Adjetivo</td><td>feio; horrível; vergonhoso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aischros-adv-leh" data-source="LEH" data-search="αἰσχρῶς aischros advérbio vergonhosamente Provérbios Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">αἰσχρῶς</td><td>Advérbio</td><td>vergonhosamente</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -2502,6 +2543,97 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐν ὑμῖν ᾑρέτικεν κύριος · en hymin hēretiken kyrios" data-transliteration="en hymin hēretiken kyrios" data-meanings="o Senhor vos escolheu">ἐν ὑμῖν ᾑρέτικεν κύριος</span>: <strong>o Senhor vos escolheu</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2CH.29.11" target="_blank" rel="noopener noreferrer">2Cr 29.11</a>).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 30.20; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.14.8" target="_blank" rel="noopener noreferrer">Nm 14.8</a>; JgsA 5.8; 1Sm 25.35; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.28.4" target="_blank" rel="noopener noreferrer">1Cr 28.4</a>.</p>
         <p class="entry-text"><strong>Cf.</strong> HORSLEY 1983, 25; WALTERS 1973, 142–143; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-hairetis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰρετίς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰρετίς, -ίδος · hairetis" data-transliteration="hairetis" data-meanings="aquela que escolhe">αἰρετίς, -ίδος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>aquela que escolhe</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.8.4" target="_blank" rel="noopener noreferrer">Sb 8.4</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1984, 524.</p>
+    </section>
+</article>
+
+<article id="entry-hairetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱρετός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱρετός, -ή, -όν · hairetos" data-transliteration="hairetos" data-meanings="elegível|escolhido">αἱρετός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-4=7</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>que pode ser escolhido, elegível</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.16.16" target="_blank" rel="noopener noreferrer">Pv 16.16</a>); <strong>escolhido</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.11.31" target="_blank" rel="noopener noreferrer">Sr 11.31</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Pv 16.16 (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.22.1" target="_blank" rel="noopener noreferrer">22.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.14" target="_blank" rel="noopener noreferrer">2Mc 7.14</a>; Sr 11.31.</p>
+    </section>
+</article>
+
+<article id="entry-haireo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἱρέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἱρέω · haireō" data-transliteration="haireō" data-meanings="tomar|selecionar|escolher|preferir|afeiçoar-se">αἱρέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-4-3-1-3=13</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>A:</strong> <strong>tomar, selecionar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.21.10" target="_blank" rel="noopener noreferrer">1Cr 21.10</a>).</p>
+        <p class="entry-text"><strong>M:</strong> <strong>escolher</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.15.15" target="_blank" rel="noopener noreferrer">2Sm 15.15</a>); <strong>preferir</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.8.3" target="_blank" rel="noopener noreferrer">Jr 8.3</a>); <strong>tomar para si, afeiçoar-se a</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.19.1" target="_blank" rel="noopener noreferrer">1Sm 19.1</a>); <strong>preferir</strong> [+inf.] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.11.25" target="_blank" rel="noopener noreferrer">2Mc 11.25</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.26.17" target="_blank" rel="noopener noreferrer">Dt 26.17</a>,18; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOS.24.15" target="_blank" rel="noopener noreferrer">Js 24.15</a>; 1Sm 19.1; 2Sm 15.15.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 60; → TWNT.</p>
+        <p class="entry-text">→ <span class="greek">ἀν-</span>, <span class="greek">ἀνθυφ-</span>, <span class="greek">ἀνταν-</span>, <span class="greek">ἀφ-</span>, <span class="greek">δι-</span>, <span class="greek">ἐξ-</span>, <span class="greek">ἐπαν-</span>, <span class="greek">ἐπιδι-</span>, <span class="greek">καθ-</span>, <span class="greek">καταδι-</span>, <span class="greek">παρ-</span>, <span class="greek">περι-</span>, <span class="greek">προ-</span>, <span class="greek">ὑφ-</span>, <span class="greek">ὑπεξ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-airo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴρω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴρω · airō" data-transliteration="airō" data-meanings="levantar|carregar|remover|matar|vestir|excitar|destruir">αἴρω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 41-106-68-40-34=289</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>A:</strong> <strong>levantar, erguer</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.46.5" target="_blank" rel="noopener noreferrer">Gn 46.5</a>); <strong>levantar e carregar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.43.34" target="_blank" rel="noopener noreferrer">Gn 43.34</a>); <strong>remover, tirar</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.35.2" target="_blank" rel="noopener noreferrer">Gn 35.2</a>); <strong>matar</strong> [<span class="greek">τινα</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.16.19" target="_blank" rel="noopener noreferrer">1Mc 16.19</a>); <strong>vestir, usar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.2.28" target="_blank" rel="noopener noreferrer">1Sm 2.28</a>); <strong>excitar, suscitar</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.13.17" target="_blank" rel="noopener noreferrer">1Mc 13.17</a>).</p>
+        <p class="entry-text"><strong>P:</strong> <strong>ser levantado, ser carregado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.25.28" target="_blank" rel="noopener noreferrer">Êx 25.28</a>); <strong>ser removido, ser tirado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.38.24" target="_blank" rel="noopener noreferrer">Jr 38(31).24</a>); <strong>ser eliminado, ser destruído</strong> (Est 4.1).</p>
+        <p class="entry-text"><span class="greek">ἦρα τοὺς ὀφθαλμούς μου</span>: <strong>levantei os meus olhos</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.120.1" target="_blank" rel="noopener noreferrer">Sl 120(121).1</a>).</p>
+        <p class="entry-text"><span class="greek">οὐ προσέθεντο ἆραι κεφαλὴν αὐτῶν</span>: <strong>não tornaram a levantar a cabeça</strong> — como sinal de orgulho (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JDG.8.28" target="_blank" rel="noopener noreferrer">Jz 8.28</a>).</p>
+        <p class="entry-text"><span class="greek">ἀρῶ τὴν χεῖρά μου</span>: <strong>levantarei a minha mão</strong> — para juramento ou como intervenção ativa (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.32.40" target="_blank" rel="noopener noreferrer">Dt 32.40</a>).</p>
+        <p class="entry-text"><span class="greek">πῶς ἀρῶ τὸ πρόσωπόν μου πρὸς Ιωαβ</span>: <strong>como poderei olhar honestamente nos olhos de Joabe?</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.2.22" target="_blank" rel="noopener noreferrer">2Sm 2.22</a>).</p>
+        <p class="entry-text"><span class="greek">ὡσεὶ αἴραι τιθηνὸς τὸν θηλάζοντα</span>: <strong>como uma ama toma a criança de peito</strong> — ao peito (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.11.12" target="_blank" rel="noopener noreferrer">Nm 11.12</a>).</p>
+        <p class="entry-text"><span class="greek">ᾖρκε χεῖρας ἐναντίον τοῦ Κυρίου</span>: <strong>levantou as mãos contra o Senhor</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.15.25" target="_blank" rel="noopener noreferrer">Jó 15.25</a>).</p>
+        <p class="entry-text"><span class="greek">ἀρθήσεται ἡ σκήνη</span>: <strong>o tabernáculo será levado adiante, seguirá viagem</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.2.17" target="_blank" rel="noopener noreferrer">Nm 2.17</a>).</p>
+        <p class="entry-text"><span class="greek">τρία ἐγώ εἰμι αἴρω ἐπὶ σέ</span>: <strong>trago três coisas contra ti</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2SA.24.12" target="_blank" rel="noopener noreferrer">2Sm 24.12</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 35.2; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.40.16" target="_blank" rel="noopener noreferrer">40.16</a>; Gn 43.34; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.44.1" target="_blank" rel="noopener noreferrer">44.1</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.45.23" target="_blank" rel="noopener noreferrer">45.23</a> (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> LUST 1995b, 33–45, esp. 39–41 (Dt 32.40); → TWNT.</p>
+        <p class="entry-text">→ <span class="greek">ἀντ-</span>, <span class="greek">ἀπ-</span>, <span class="greek">ἐξ-</span>, <span class="greek">ἐπ-</span>, <span class="greek">μετ-</span>, <span class="greek">ὑπερ-</span>.</p>
+    </section>
+</article>
+
+<article id="entry-aisthanomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰσθάνομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰσθάνομαι · aisthanomai" data-transliteration="aisthanomai" data-meanings="perceber|sentir|compreender|notar|ter percepção">αἰσθάνομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-4-5=11</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>perceber</strong> [uso absoluto] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.40.23" target="_blank" rel="noopener noreferrer">Jó 40.23</a>); <strong>sentir</strong> [<span class="greek">τι</span>] (LtJ 19); <strong>compreender</strong> [<span class="greek">τι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.23.5" target="_blank" rel="noopener noreferrer">Jó 23.5</a>); <strong>notar, ter percepção de, ter sentimento de</strong> [<span class="greek">τινος</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.11.13" target="_blank" rel="noopener noreferrer">Sb 11.13</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.33.11" target="_blank" rel="noopener noreferrer">Is 33.11</a> <span class="greek">αἰσθηθήσεσθε</span> <strong>percebereis</strong> — <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="◊" data-tooltip-text="No LEH, o losango diante de uma palavra hebraica indica que ela é apresentada como raiz, e não como a forma textual ocorrente">◊</span><bdi class="hebrew" lang="he" dir="rtl">חשׁשׁ</bdi> (aramaico?) por MT <bdi class="hebrew" lang="he" dir="rtl">חשׁשׁ</bdi> <strong>erva seca, restolho</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Is 33.11; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.49.26" target="_blank" rel="noopener noreferrer">49.26</a>; Jó 23.5; Jó 40.23; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.17.10" target="_blank" rel="noopener noreferrer">Pv 17.10</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> ZIEGLER 1934, 9–10 (Is 33.11); → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aisthesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἴσθησις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἴσθησις, -εως · aisthēsis" data-transliteration="aisthēsis" data-meanings="percepção|conhecimento|sentimento">αἴσθησις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-22-4=27</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>percepção</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.28.3" target="_blank" rel="noopener noreferrer">Êx 28.3</a>); <strong>conhecimento</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.1.7" target="_blank" rel="noopener noreferrer">Pv 1.7</a>); <strong>sentimento</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1ES.1.22" target="_blank" rel="noopener noreferrer">1Es 1.22</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="*" data-tooltip-text="Marca do LEH para passagem em que o grego difere do hebraico e a diferença pode ser explicada no nível da escrita, leitura ou audição do hebraico, ou como erro na transmissão do texto grego">*</span><a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.14.7" target="_blank" rel="noopener noreferrer">Pv 14.7</a> <span class="greek">ὅπλα δὲ αἰσθήσεως</span> <strong>e as armas da inteligência</strong> — <bdi class="hebrew" lang="he" dir="rtl">וכלי דעת</bdi> por MT <bdi class="hebrew" lang="he" dir="rtl">ובל ידעת</bdi> <strong>e não conhecerás</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 28.3; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.1.4" target="_blank" rel="noopener noreferrer">Pv 1.4</a>,7,22; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.2.3" target="_blank" rel="noopener noreferrer">2.3</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HAUSPIE 2002, forthcoming; LE BOULLUEC 1989, 281–282 (Êx 28.3); WEVERS 1990, 445; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aistheterion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰσθητήριον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰσθητήριον, -ου · aisthētērion" data-transliteration="aisthētērion" data-meanings="sentidos|faculdades sensíveis">αἰσθητήριον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sentidos, faculdades sensíveis</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JER.4.19" target="_blank" rel="noopener noreferrer">Jr 4.19</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.2.22" target="_blank" rel="noopener noreferrer">4Mc 2.22</a>.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aisthetikos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰσθητικός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰσθητικός, -ή, -όν · aisthētikos" data-transliteration="aisthētikos" data-meanings="sensível">αἰσθητικός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-2-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sensível</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.14.10" target="_blank" rel="noopener noreferrer">Pv 14.10</a>,30.</p>
+    </section>
+</article>
+
+<article id="entry-aischros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰσχρός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰσχρός, -ά, -όν · aischros" data-transliteration="aischros" data-meanings="feio|desfavorecido|horrível|vergonhoso">αἰσχρός, -ά, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 6-0-0-0-5=11</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>feio, de má aparência</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.41.3" target="_blank" rel="noopener noreferrer">Gn 41.3</a>); <strong>feio, horrível</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/3MA.3.27" target="_blank" rel="noopener noreferrer">3Mc 3.27</a>); <strong>vergonhoso</strong> [+inf.] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.16.17" target="_blank" rel="noopener noreferrer">4Mc 16.17</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 41.3,4,19 (bis),20.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-aischros-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αἰσχρῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αἰσχρῶς · aischrōs" data-transliteration="aischrōs" data-meanings="vergonhosamente">αἰσχρῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vergonhosamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.15.10" target="_blank" rel="noopener noreferrer">Pv 15.10</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.11.12" target="_blank" rel="noopener noreferrer">2Mc 11.12</a>.</p>
     </section>
 </article>`
 };
