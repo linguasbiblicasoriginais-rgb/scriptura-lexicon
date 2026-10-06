@@ -1324,6 +1324,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-akolouthos-leh" data-source="LEH" data-search="ἀκόλουθος akolouthos adjetivo seguinte apropriado pertencente Esdras Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀκόλουθος</td><td>Adjetivo</td><td>seguinte; apropriado a; pertencente a</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akolouthos-adverb-leh" data-source="LEH" data-search="ἀκολούθως akolouthos advérbio de acordo com por conseguinte Esdras Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκολούθως</td><td>Advérbio</td><td>de acordo com; por conseguinte</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akonao-leh" data-source="LEH" data-search="ἀκονάω akonao verbo afiar línguas metáfora Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκονάω</td><td>Verbo</td><td>afiar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akontizo-leh" data-source="LEH" data-search="ἀκοντίζω akontizo verbo arremessar atingir dardo Samuel LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκοντίζω</td><td>Verbo</td><td>arremessar; atingir com um dardo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akontistes-leh" data-source="LEH" data-search="ἀκοντιστής akontistes substantivo lançador dardo Samuel LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκοντιστής</td><td>Substantivo</td><td>lançador de dardo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akopiatos-leh" data-source="LEH" data-search="ἀκοπιάτως akopiatos advérbio incansavelmente fadiga esforço Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκοπιάτως</td><td>Advérbio</td><td>incansavelmente; sem fadiga; sem esforço</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akosmos-leh" data-source="LEH" data-search="ἄκοσμος akosmos adjetivo desordenado impróprio Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκοσμος</td><td>Adjetivo</td><td>desordenado; impróprio</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akosmos-adverb-leh" data-source="LEH" data-search="ἀκόσμως akosmos advérbio desonrosamente Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκόσμως</td><td>Advérbio</td><td>desonrosamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akousiazomai-leh" data-source="LEH" data-search="ἀκουσιάζομαι akousiazomai verbo pecar inadvertidamente ignorância Números neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκουσιάζομαι</td><td>Verbo</td><td>pecar inadvertidamente; pecar por ignorância</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akousios-leh" data-source="LEH" data-search="ἀκούσιος akousios adjetivo contra vontade involuntário coagido ofensa erro Números Eclesiastes LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκούσιος</td><td>Adjetivo</td><td>contra a vontade; involuntário; coagido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akousios-adverb-leh" data-source="LEH" data-search="ἀκουσίως akousios advérbio involuntariamente Levítico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκουσίως</td><td>Advérbio</td><td>involuntariamente</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3480,6 +3511,79 @@ window.ScripturaLexicons.LEH = {
 <article id="entry-akolouthos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
     <header class="entry-header"><div><h1 class="entry-title greek">ἀκόλουθος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκόλουθος, -ος, -ον · akolouthos" data-transliteration="akolouthos" data-meanings="seguinte|apropriado a|pertencente a">ἀκόλουθος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>seguinte</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.4.17" target="_blank" rel="noopener noreferrer">2Mc 4.17</a>); <strong>apropriado a, pertencente a</strong> [<span class="greek">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1ES.8.14" target="_blank" rel="noopener noreferrer">1Es 8.14</a>).</p>
+    </section>
+</article>
+
+<article id="entry-akolouthos-adverb-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκολούθως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκολούθως · akolouthōs" data-transliteration="akolouthōs" data-meanings="de acordo com|por conseguinte">ἀκολούθως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-6=6</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de acordo com</strong> [<span class="greek">τινι</span>] (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1ES.5.48" target="_blank" rel="noopener noreferrer">1Es 5.48</a>); <strong>por conseguinte</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.6.23" target="_blank" rel="noopener noreferrer">2Mc 6.23</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Es 5.48,68; 7.6,9; 8.12.</p>
+    </section>
+</article>
+
+<article id="entry-akonao-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκονάω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκονάω · akonaō" data-transliteration="akonaō" data-meanings="afiar">ἀκονάω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-6-0=6</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>afiar</strong> [<span class="greek">τι</span>] (Sl 44(45).6); <strong>afiar</strong> [<span class="greek">τι</span>], metaforicamente, de línguas (Sl 63(64).4).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Sl 44(45).6; 51(52).4; 63(64).4; 119(120).4; 139(140).4.</p>
+        <p class="entry-text">(→ <span class="greek">ἐξ-</span>).</p>
+    </section>
+</article>
+
+<article id="entry-akontizo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκοντίζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκοντίζω · akontizō" data-transliteration="akontizō" data-meanings="arremessar|atingir com um dardo">ἀκοντίζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-4-0-0-0=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>arremessar; atingir (com um dardo)</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.20.20" target="_blank" rel="noopener noreferrer">1Sm 20.20</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.20.36" target="_blank" rel="noopener noreferrer">20.36</a> (bis); <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.20.37" target="_blank" rel="noopener noreferrer">20.37</a>.</p>
+        <p class="entry-text">(→ <span class="greek">κατ-</span>).</p>
+    </section>
+</article>
+
+<article id="entry-akontistes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκοντιστής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκοντιστής, -οῦ · akontistēs" data-transliteration="akontistēs" data-meanings="lançador de dardo">ἀκοντιστής, -οῦ</span><span class="separator">·</span><span>substantivo (N1F; código morfológico do LEH)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>lançador de dardo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.31.3" target="_blank" rel="noopener noreferrer">1Sm 31.3</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akopiatos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκοπιάτως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκοπιάτως · akopiatōs" data-transliteration="akopiatōs" data-meanings="incansavelmente|sem se cansar|livre de fadiga|sem esforço">ἀκοπιάτως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>incansavelmente, sem se cansar, livre de fadiga, sem esforço</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.16.20" target="_blank" rel="noopener noreferrer">Sb 16.20</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1985, 924–925.</p>
+    </section>
+</article>
+
+<article id="entry-akosmos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκοσμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκοσμος, -ος, -ον · akosmos" data-transliteration="akosmos" data-meanings="desordenado|impróprio">ἄκοσμος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desordenado</strong>; <span class="greek">ἄκοσμον</span> [+inf.] <strong>é impróprio que</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.25.26" target="_blank" rel="noopener noreferrer">Pv 25.26</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akosmos-adverb-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκόσμως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκόσμως · akosmōs" data-transliteration="akosmōs" data-meanings="desonrosamente">ἀκόσμως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desonrosamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.9.1" target="_blank" rel="noopener noreferrer">2Mc 9.1</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akousiazomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκουσιάζομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκουσιάζομαι · akousiazomai" data-transliteration="akousiazomai" data-meanings="pecar inadvertidamente|pecar por ignorância">ἀκουσιάζομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pecar inadvertidamente, pecar por ignorância</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.15.28" target="_blank" rel="noopener noreferrer">Nm 15.28</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akousios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκούσιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκούσιος, -ος, -ον · akousios" data-transliteration="akousios" data-meanings="contra a vontade|involuntário|coagido|ofensa involuntária ou inadvertida|erro">ἀκούσιος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 3-0-0-1-0=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>contra a vontade, involuntário, coagido</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/NUM.15.25" target="_blank" rel="noopener noreferrer">Nm 15.25</a>); <span class="greek">ἀκούσιον</span> <strong>ofensa involuntária ou inadvertida, erro</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ECC.10.5" target="_blank" rel="noopener noreferrer">Ecl 10.5</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Nm 15.25 (bis), 15.26; Ecl 10.5.</p>
+    </section>
+</article>
+
+<article id="entry-akousios-adverb-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκουσίως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκουσίως · akousiōs" data-transliteration="akousiōs" data-meanings="involuntariamente">ἀκουσίως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 12-2-0-1-1=16</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>involuntariamente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.4.2" target="_blank" rel="noopener noreferrer">Lv 4.2</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.4.13" target="_blank" rel="noopener noreferrer">4.13</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.4.22" target="_blank" rel="noopener noreferrer">4.22</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.4.27" target="_blank" rel="noopener noreferrer">4.27</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.5.15" target="_blank" rel="noopener noreferrer">5.15</a>.</p>
     </section>
 </article>`
 };
