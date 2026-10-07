@@ -1021,3 +1021,54 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 24 — registros 461–480
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "ac. sing.", type: "abbr", text: "acusativo singular" },
+        { key: "ac. pl.", type: "abbr", text: "acusativo plural" },
+        { key: "pl. n.", type: "abbr", text: "plural neutro" },
+        { key: "fem. sing.", type: "abbr", text: "feminino singular" }
+    );
+
+    const entries = [
+        [461, "ἄδδην", "ἄδην.", "ἄδην"],
+        [462, "ἀδδήσειε", "opt. aor. ép. de ἀδέω.", "optativo aoristo épico de ἀδέω"],
+        [463, "ᾄδε", "2ª sing. imper. pres. e 3ª sing. impf. poét. de ᾄδω.", "formas de ᾄδω"],
+        [464, "ἅδε", "3ª sing. aor.2 de ἁνδάνω.", "aoristo de ἁνδάνω"],
+        [465, "ἅδε", "fem. dór. de ὅδε.", "forma feminina dórica de ὅδε"],
+        [466, "ἀδεᾶ", "ac. sing. ou nom. e ac. pl. n. de ἀδεής.", "formas de ἀδεής"],
+        [467, "ἁδέα", "dór. = ἡδεῖα (fem. sing.) ou ἡδέα (n. pl.), de ἡδύς.", "formas dóricas de ἡδύς"],
+        [468, "ἀδεής1, ής, ές", "1 sem medo; sem inquietação; audacioso 2 que não causa medo ♦ τὸ ἀδηές 3 segurança. 〈ἀ-, δέος〉", "sem medo; audacioso; segurança"],
+        [469, "ἀδεής2, ής, ές", "que não tem necessidade de, gen. 〈ἀ-, δεῖ〉", "sem necessidade de"],
+        [470, "ἄδεια, ας (ἡ)", "1 ausência de medo; certeza de vida sã e salva: ἐν πάσῃ ἀδεία com toda a segurança 2 impunidade; anistia: ἄδειαν διδόναι, παρέχειν ou ποιεῖν conceder a impunidade, ἄδειαν λαμβάνειν ou εὑρίσκειν conseguir a impunidade, ἄδειαν ποιεῖσθαι conseguir impunidade para si próprio 3 permissão; autorização; salvo-conduto: ἄδειαν διδόναι ou λαμβάνειν τοῦ, inf. conceder ou obter licença para. 〈ἀδεής1〉", "segurança; impunidade; permissão"],
+        [471, "ἀδείη", "jôn. = ἄδεια.", "forma jônica de ἄδεια"],
+        [472, "ἀδείης", "ép. = ἀδεής.", "forma épica de ἀδεής"],
+        [473, "ἀδείμαντος, ος, ον", "poét. 1 que não se assusta; sem medo; destemido 2 onde não há nada a temer; tranqüilo. 〈ἀ-, δειμαίνω〉", "destemido; tranquilo"],
+        [474, "ἀδειμάντως", "adv. sem medo; intrepidamente.", "sem medo; intrepidamente"],
+        [475, "ἁδεῖν", "inf. aor.2 de ἁνδάνω.", "infinitivo aoristo de ἁνδάνω"],
+        [476, "ἄδειπνος, ος, ον", "que não comeu. 〈ἀ-, δεῖπνον〉", "que não comeu"],
+        [477, "ἀδέκαστος, ος, ον", "não corrompido; incorruptível; íntegro. 〈ἀ-, δεκάζω〉", "incorruptível; íntegro"],
+        [478, "ἀδεκάστως", "adv. com integridade; com retidão; imparcialmente.", "com integridade; imparcialmente"],
+        [479, "ἀδεκάτευτος, ος, ον", "isento do dízimo. 〈ἀ-, δεκατεύω〉", "isento do dízimo"],
+        [480, "ἄδεκτος, ος, ον", "1 que não admite; que não aceita, gen. 2 inaceitável; incompreensível. 〈ἀ-, δέχομαι〉", "inaceitável; incompreensível"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
