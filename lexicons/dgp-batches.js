@@ -593,3 +593,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 15 — registros 281–300
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    const entries = [
+        [281, "ἀγνοιῇσι", "3ª sing. do subj. ép. de ἀγνοέω.", "subjuntivo épico de ἀγνοέω"],
+        [282, "ἁγνόρυτος, ος, ον", "de curso límpido (rio). 〈ἁγνός, ῥέω〉", "de curso límpido"],
+        [283, "ἁγνός, ή, όν", "1 puro; casto; sacro (deuses e coisas divinas) 2 livre de contato maléfico; puro 3 isento de culpa; inocente 4 que não deixa nódoa (alimento).", "puro; casto; sacro"],
+        [284, "ἁγνότης, ητος (ἡ)", "bíbl. pureza; castidade. 〈ἁγνός〉", "pureza; castidade"],
+        [285, "ἄγνυμι", "(fut. ἄξω, aor. ἔαξα; pas. aor.2 ἐάγην) 1 quebrar; rachar; romper ♦ méd. 2 quebrar-se; romper-se; partir-se.", "quebrar; romper"],
+        [286, "ἀγνωμονέω-ῶ", "1 não tomar a decisão correta; ser imprudente; comportar-se mal em rel. a alguém, εἰς ou πρός e ac. 2 tratar mal, de modo injusto. 〈ἀγνώμων〉", "ser imprudente; tratar injustamente"],
+        [287, "ἀγνωμόνως", "adv. 1 sem reflexão; sem prudência 2 sem justiça; injustamente. 〈ἀγνώμων〉", "imprudentemente; injustamente"],
+        [288, "ἀγνωμοσύνη, ης (ἡ)", "1 falta de discernimento; insensatez 2 erro de julgamento; ignorância 3 obstinação insensata 4 insensibilidade; rudeza 4 pl. suspeitas infundadas; mal-entendidos. 〈ἀγνώμων〉", "insensatez; erro; rudeza"],
+        [289, "ἀγνώμων, ων, ον", "gen. ονος 1 imprudente; insensato; desajuizado 2 ignorante; inexperiente 3 insensível; rude; ingrato 4 obstinado; cruel. 〈ἀ-, γνώμη〉", "imprudente; ignorante; cruel"],
+        [290, "ἀγνώς, ῶτος", "(masc., fem.) 1 desconhecido; ignorado 2 que não conhece; que não reconhece; ignorante de algo, gen. 3 obscuro; incompreensível. 〈ἀ-, γιγνώσκω〉", "desconhecido; ignorante"],
+        [291, "ἁγνῶς", "adv. puramente; santamente.", "puramente; santamente"],
+        [292, "ἀγνώσασκε", "3ª sing. aor. iter. de ἀγνοέω.", "aoristo iterativo de ἀγνοέω"],
+        [293, "ἀγνωσία, ας (ἡ)", "1 ignorância 2 desconhecimento; obscuridade 3 bíbl. cegueira; falta de percepção espiritual. 〈ἀγνώς〉", "ignorância; cegueira espiritual"],
+        [294, "ἄγνωστος, ος, ον", "1 desconhecido; ignorado; desconhecido por ou de, dat. 2 que não se pode conhecer; incognoscível 3 incompreensível; irreconhecível 4 não sabedor; sem conhecimento de; ignorante de, gen. 〈ἀ-, γνωστός〉", "desconhecido; incognoscível"],
+        [295, "ἄγνωτος, ος, ον", "desconhecido de, dat. 〈ἀ-, γιγνώσκω〉", "desconhecido"],
+        [296, "ἀγξηράνῃ", "3ª sing. subj. aor. de ἀναξηραίνω.", "subjuntivo aoristo de ἀναξηραίνω"],
+        [297, "ἆγον", "impf. dór. de ἄγω.", "imperfeito dórico de ἄγω"],
+        [298, "ἀγονία, ας (ἡ)", "esterilidade. 〈ἄγονος〉", "esterilidade"],
+        [299, "ἄγονος, ος, ον", "1 não gerado; não nascido 2 improdutivo; estéril; sem prole 3 que não engendra; que não produz algo, gen. 〈ἀ-, γίγνομαι〉", "não gerado; estéril"],
+        [300, "ἄγοος, ος, ον", "não chorado; não lamentado. 〈ἀ-, γόος〉", "não chorado; não lamentado"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
