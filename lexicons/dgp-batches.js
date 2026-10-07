@@ -977,3 +977,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 23 — registros 441–460
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    const entries = [
+        [441, "ἀγωνοθετέω-ῶ", "1 exercer a função de agonóteta 2 exercer a função de árbitro 3 organizar (sedição) 4 incitar à luta. 〈ἀγωνοθέτης〉", "exercer função de agonóteta; arbitrar; incitar"],
+        [442, "ἀγωνοθέτης, ου (ὁ)", "1 agonóteta, organizador, presidente ou árbitro dos jogos públicos. 〈ἀγών, τίθημι〉", "agonóteta; organizador; árbitro dos jogos"],
+        [443, "ἀδαγμός, οῦ (ὁ)", "mordida; laceração. 〈ἀ intens., δάκνω〉", "mordida; laceração"],
+        [444, "ἀδαημονίη, ης (ἡ)", "ép. ignorância; inabilidade, inexperiência. 〈ἀδαήμων〉", "ignorância; inexperiência"],
+        [445, "ἀδαημοσύνη, ης (ἡ)", "ἀδαημονίη.", "ἀδαημονίη"],
+        [446, "ἀδαήμων, ων, ον", "gen. ονος ignorante; inepto; inábil em, gen. 〈ἀ-, δαήμων〉", "ignorante; inábil"],
+        [447, "ἀδαής, ής, ές", "ignorante; inábil em, gen. ou inf. 〈ἀ-, δαῆναι〉", "ignorante; inábil"],
+        [448, "ἄδαιτος, ος, ον", "sem banquete ou que não é para banquete (de sacrifício). 〈ἀ-, δαίνυμαι〉", "sem banquete"],
+        [449, "ἄδακρυς, υς, υ", "gen. υος 1 sem lágrimas; que não chora 2 que não faz chorar. 〈ἀ-, δάκρυ〉", "sem lágrimas"],
+        [450, "ἀδακρυτί", "adv. sem lágrimas. 〈ἀδάκρυτος〉", "sem lágrimas"],
+        [451, "ἀδάκρυτος, ος, ον", "1 que não tem lágrimas; que não chora 2 não chorado; que não vale uma lágrima. 〈ἀ-, δακρύω〉", "não chorado; sem lágrimas"],
+        [452, "ἀδαμάντινος, ος, ον", "de aço; resistente como o aço. 〈ἀδάμας〉", "de aço; resistente"],
+        [453, "ἀδαμαντόδετος, ος, ον", "de elos de aço. 〈ἀδάμας, δέω1〉", "de elos de aço"],
+        [454, "ἀδάμας, αντος (ὁ)", "1 metal inalterável, duro; o aço 2 diamante ♦ adj. 3 inflexível; inquebrável. 〈ἀ-, δαμάω〉", "aço; diamante; inflexível"],
+        [455, "ἀδάμαστος, ος, ον", "1 indomável; inflexível 2 não domado; indômito. 〈ἀ-, δαμάζω〉", "indomável; inflexível"],
+        [456, "ἀδάματος, ος, ον", "1 não domado; indômito 2 intacto; virgem. 〈ἀ-, δαμάω〉", "indômito; intacto; virgem"],
+        [457, "ἀδάπανος, ος, ον", "1 que nada custa; não dispendioso 2 que não gasta ♦ ἀδάπανον adv. 3 bíbl. de graça; gratuitamente. 〈ἀ-, δαπάνη〉", "gratuito; não dispendioso"],
+        [458, "ἄδαστος, ος, ον", "não dividido; indiviso. 〈ἀ-, δαίω1〉", "não dividido; indiviso"],
+        [459, "ἀδδεής", "ἀδεής.", "ἀδεής"],
+        [460, "ἀδδηκότες", "ἀδηκότες.", "ἀδηκότες"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
