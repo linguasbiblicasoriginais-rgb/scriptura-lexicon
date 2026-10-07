@@ -1736,6 +1736,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-alogistos-leh" data-source="LEH" data-search="ἀλόγιστος alogistos irrefletido irracional Sabedoria 3 Macabeus 4 Macabeus LEH" tabindex="0">
     <td class="table-lemma greek">ἀλόγιστος</td><td>Adjetivo</td><td>irrefletido; irracional</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alogistos-adv-leh" data-source="LEH" data-search="ἀλογίστως alogistos irracionalmente 4 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλογίστως</td><td>Advérbio</td><td>irracionalmente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alogos-leh" data-source="LEH" data-search="ἄλογος alogos sem eloquência irracional não contado nulo Êxodo Números Sabedoria Macabeus LE BOULLUEC LEE NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλογος</td><td>Adjetivo</td><td>sem eloquência; irracional; não contado; nulo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alogos-adv-leh" data-source="LEH" data-search="ἀλόγως alogos advérbio irracionalmente 3 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλόγως</td><td>Advérbio</td><td>irracionalmente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aloetos-leh" data-source="LEH" data-search="ἀλοητός aloetos debulha época estação Levítico Amós neologismo WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλοητός</td><td>Substantivo</td><td>debulha; época da debulha</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aloiphe-leh" data-source="LEH" data-search="ἀλοιφή aloiphe substância untar ungir rebocar pintar apagamento Êxodo Ezequiel Miqueias Jó LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλοιφή</td><td>Substantivo</td><td>substância para untar, ungir, rebocar ou pintar; apagamento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hals-leh" data-source="LEH" data-search="ἅλς hals sal Gênesis Levítico HARL WALTERS NIDNTT TWNT ἅλας LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλς</td><td>Substantivo</td><td>sal</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alsos-leh" data-source="LEH" data-search="ἄλσος alsos bosque sagrado Êxodo Deuteronômio Juízes Samuel hebraico WEVERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλσος</td><td>Substantivo</td><td>bosque; bosque sagrado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alsodes-leh" data-source="LEH" data-search="ἀλσώδης alsodes madeira cresce bosques sombreado Reis Crônicas Jeremias Ezequiel LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλσώδης</td><td>Adjetivo</td><td>de madeira; que cresce em bosques; sombreado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halykos-leh" data-source="LEH" data-search="ἁλυκός halykos salgado Mar Salgado Gênesis Números NIDNTT LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλυκός</td><td>Adjetivo</td><td>salgado; Mar Salgado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halysidotos-leh" data-source="LEH" data-search="ἁλυσιδωτός halysidotos corrente malha obra correntes Êxodo Samuel Macabeus LE BOULLUEC WEVERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλυσιδωτός</td><td>Adjetivo</td><td>feito como corrente; em forma de corrente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halysis-leh" data-source="LEH" data-search="ἅλυσις halysis corrente Sabedoria LSJ Revised Supplement LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλυσις</td><td>Substantivo</td><td>corrente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alphiton-leh" data-source="LEH" data-search="ἄλφιτον alphiton grãos triturados cereal Samuel Rute Judite LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλφιτον</td><td>Substantivo</td><td>grãos triturados; cereal</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alphos-leh" data-source="LEH" data-search="ἀλφός alphos eczema doença pele Levítico HARLÉ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλφός</td><td>Substantivo</td><td>eczema; doença de pele</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aloth-leh" data-source="LEH" data-search="αλωθ aloth אהלות aloés Cântico LEH" tabindex="0">
+    <td class="table-lemma greek">αλωθ</td><td>Substantivo</td><td>aloés</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halon-leh" data-source="LEH" data-search="ἅλων halon eira cereal Isaías Gênesis Êxodo Números Sofonias SHIPP WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλων</td><td>Substantivo</td><td>eira; cereal na eira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alopex-leh" data-source="LEH" data-search="ἀλώπηξ alopex raposa Juízes Reis hebraico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλώπηξ</td><td>Substantivo</td><td>raposa</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halos-leh" data-source="LEH" data-search="ἅλως halos eira Números Samuel Reis SHIPP WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλως</td><td>Substantivo</td><td>eira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halosis-leh" data-source="LEH" data-search="ἅλωσις halosis captura Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλωσις</td><td>Substantivo</td><td>captura</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hama-leh" data-source="LEH" data-search="ἅμα hama imediatamente mesmo tempo juntamente ambos Gênesis Josué Macabeus Neemias Deuteronômio NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἅμα</td><td>Advérbio</td><td>imediatamente; ao mesmo tempo; juntamente; ambos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amadaroth-leh" data-source="LEH" data-search="αμαδαρωθ amadaroth מדהרות galope Juízes LEH" tabindex="0">
+    <td class="table-lemma greek">αμαδαρωθ</td><td>Substantivo</td><td>do galope</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -4709,6 +4769,106 @@ window.ScripturaLexicons.LEH = {
     <header class="entry-header"><div><h1 class="entry-title greek">ἀλόγιστος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλόγιστος, -ος, -ον · alogistos" data-transliteration="alogistos" data-meanings="irrefletido| irracional">ἀλόγιστος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-5=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>irrefletido</strong> (Sb 12.25); <strong>desarrazoado, irracional</strong> (3Mc 6.12).</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> 3Mc 6.12; 4Mc 3.11; 6.18; 16.23; Sb 12.25.</p>
+    </section>
+</article>
+<article id="entry-alogistos-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλογίστως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλογίστως · alogistōs" data-transliteration="alogistōs" data-meanings="irracionalmente">ἀλογίστως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>irracionalmente</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> 4Mc 6.14.</p>
+    </section>
+</article>
+<article id="entry-alogos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλογος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλογος, -ος, -ον · alogos" data-transliteration="alogos" data-meanings="sem eloquência| irracional| não contado| nulo">ἄλογος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-0-6=8</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem eloquência</strong> (Êx 6.12); <strong>sem razão, irracional</strong> (Sb 11.15); <strong>não contado, nulo e sem efeito</strong> (Nm 6.12).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 6.12; Nm 6.12; 3Mc 5.40; 4Mc 14.14,18.</p><p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 113; LEE, J. 1983, 50 (Nm 6.12); → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-alogos-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλόγως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλόγως · alogōs" data-transliteration="alogōs" data-meanings="irracionalmente">ἀλόγως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>irracionalmente</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 6.25.</p>
+    </section>
+</article>
+<article id="entry-aloetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλοητός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλοητός, -οῦ · aloētos" data-transliteration="aloētos" data-meanings="debulha| época da debulha">ἀλοητός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 1-0-1-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>debulha; época da debulha</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p><p class="entry-text"><strong>Ocorrências citadas:</strong> Lv 26.5; Am 9.13.</p><p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 226.</p>
+    </section>
+</article>
+<article id="entry-aloiphe-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλοιφή</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλοιφή, -ῆς · aloiphē" data-transliteration="aloiphē" data-meanings="substância para untar, ungir, rebocar ou pintar| apagamento">ἀλοιφή, -ῆς</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 1-0-2-1-0=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>qualquer substância com a qual se pode untar, ungir, rebocar ou pintar</strong> (Jó 33.24); <strong>apagamento, eliminação</strong> (Êx 17.14); <strong>reboco ou pintura</strong> (Mq 7.11).</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 17.14; Ez 13.12; Mq 7.11; Jó 33.24.</p>
+    </section>
+</article>
+<article id="entry-hals-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλς, ἁλός · hals" data-transliteration="hals" data-meanings="sal">ἅλς, ἁλός</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 8-11-3-4-8=34</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sal</strong>, também no plural; ver <span class="greek">ἅλας</span>.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 14.3; 19.26; Lv 2.13 (ter).</p><p class="entry-text"><strong>Cf.</strong> HARL 1986a, 157 (Gn 14.3); WALTERS 1973, 137; → NIDNTT; TWNT (sob <span class="greek">ἅλας</span>).</p>
+    </section>
+</article>
+<article id="entry-alsos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλσος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλσος, -ους · alsos" data-transliteration="alsos" data-meanings="bosque| bosque sagrado">ἄλσος, -ους</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 4-39-4-0-1=48</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bosque, bosque sagrado</strong> (Êx 34.13).</p><p class="entry-text"><strong>Notas textuais do LEH:</strong> *1Sm 7.3, <span class="greek">τὰ ἄλση</span> “os bosques sagrados” — <bdi class="hebrew" lang="he" dir="rtl">האשׁרות</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">העשׁתרות</bdi>, “os Astarotes”; ver também 1Sm 7.4; 12.10. *2Sm 5.24, <span class="greek">τοῦ ἄλσους</span> “do bosque” — <bdi class="hebrew" lang="he" dir="rtl">אשׁרי</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">ראשׁי</bdi>, “os topos de”.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 34.13; Dt 7.5; 12.3; 16.21; Jz<sup>A</sup> 3.7.</p><p class="entry-text"><strong>Cf.</strong> WEVERS 1990, 561.</p>
+    </section>
+</article>
+<article id="entry-alsodes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλσώδης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλσώδης, -ης, -ες · alsōdēs" data-transliteration="alsōdēs" data-meanings="de madeira| que cresce em bosques| sombreado">ἀλσώδης, -ης, -ες</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-3-4-0-0=7</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de madeira</strong> (Ez 27.6); <strong>que cresce em bosques</strong> (2Rs 16.4); <strong>sombreado</strong> (Jr 17.8).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 2Rs 16.4; 17.10; 2Cr 28.4; Jr 3.6,13.</p>
+    </section>
+</article>
+<article id="entry-halykos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλυκός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλυκός, -ή, -όν · halykos" data-transliteration="halykos" data-meanings="salgado| Mar Salgado">ἁλυκός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 6-2-0-0-0=8</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>salgado</strong> (Gn 14.3); <span class="greek">ἡ θάλασσα ἡ ἁλυκή</span>: <strong>o Mar Salgado</strong> (Nm 34.3).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 14.3,8,10; Nm 34.3,12.</p><p class="entry-text">→ NIDNTT.</p>
+    </section>
+</article>
+<article id="entry-halysidotos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλυσιδωτός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλυσιδωτός, -ή, -όν · halysidōtos" data-transliteration="halysidōtos" data-meanings="feito como corrente| em forma de corrente">ἁλυσιδωτός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 2-1-0-0-1=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>feito à maneira de uma corrente, semelhante a uma corrente</strong> (1Sm 17.5); <span class="greek">ἔργον ἁλυσιδωτόν</span>: <strong>trabalho em corrente</strong> (Êx 28.22).</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 28.22,29a; 1Sm 17.5; 1Mc 6.35.</p><p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 287.288 (Êx 28.22,29a); WEVERS 1990, 455.457 (Êx 28.22,29a).</p>
+    </section>
+</article>
+<article id="entry-halysis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλυσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλυσις, -εως · halysis" data-transliteration="halysis" data-meanings="corrente">ἅλυσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>corrente</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Sb 17.16.</p><p class="entry-text">→ LSJ RSuppl.</p>
+    </section>
+</article>
+<article id="entry-alphiton-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλφιτον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλφιτον, -ου · alphiton" data-transliteration="alphiton" data-meanings="grãos triturados| cereal">ἄλφιτον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-2-0-1-1=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>grãos triturados, cereal</strong>.</p><p class="entry-text"><strong>Ocorrências citadas:</strong> 1Sm 25.18; 2Sm 17.28; Rt 2.14; Jt 10.5.</p>
+    </section>
+</article>
+<article id="entry-alphos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλφός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλφός, -οῦ · alphos" data-transliteration="alphos" data-meanings="eczema| doença de pele">ἀλφός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>eczema, doença de pele</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Lv 13.39.</p><p class="entry-text"><strong>Cf.</strong> HARLÉ 1988, 45.139.</p>
+    </section>
+</article>
+<article id="entry-aloth-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αλωθ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αλωθ · alōth" data-transliteration="alōth" data-meanings="aloés">αλωθ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אהלות" data-transliteration="ʾhlwt" data-meanings="aloés">אהלות</bdi>: <strong>aloés</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Ct 4.14.</p>
+    </section>
+</article>
+<article id="entry-halon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλων</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλων, -ωνος · halōn" data-transliteration="halōn" data-meanings="eira| cereal na eira">ἅλων, -ωνος</span><span class="separator">·</span><span>substantivo da 3ª declinação (N3F/M)</span><span class="separator">·</span><span>frequência LEH: 5-8-8-6-0=27</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>eira</strong> (Gn 50.10); <strong>cereal na eira</strong> (Is 25.10).</p><p class="entry-text"><strong>Nota textual do LEH:</strong> *Sf 2.9, <span class="greek">ἅλωνος</span> “na eira”, corr. <span class="greek">ἁλός</span>, para o MT <bdi class="hebrew" lang="he" dir="rtl">מלח</bdi>, “sal”.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 50.10,11; Êx 22.5,28; Nm 15.20.</p><p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 62; WALTERS 1973, 129.137.290.</p>
+    </section>
+</article>
+<article id="entry-alopex-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλώπηξ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλώπηξ, -εκος · alōpēx" data-transliteration="alōpēx" data-meanings="raposa">ἀλώπηξ, -εκος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-5-1-4-0=10</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>raposa</strong> (Jz 15.4).</p><p class="entry-text"><strong>Notas textuais do LEH:</strong> *Jz 1.35, <span class="greek">ἀλώπεκες</span> “raposas” — <bdi class="hebrew" lang="he" dir="rtl">שׁעלים</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">שׁעלבים</bdi>, “Saalbim”. *1Rs 21(20).10, <span class="greek">ταῖς ἀλώπεξιν</span> “para raposas” — <bdi class="hebrew" lang="he" dir="rtl">יםִלָע ֻשְׁל</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">יםִלָע ְשִׁל</bdi>, “por punhados”.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jz 1.35; 15.4; 1Rs 21(20).10.</p>
+    </section>
+</article>
+<article id="entry-halos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλως, ἅλω · halōs" data-transliteration="halōs" data-meanings="eira">ἅλως, ἅλω</span><span class="separator">·</span><span>substantivo da 2ª declinação (N2M/F)</span><span class="separator">·</span><span>frequência LEH: 3-11-1-2-0=17</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>eira</strong> (Nm 15.20).</p><p class="entry-text"><strong>Notas textuais do LEH:</strong> *1Rs 20(21).1, <span class="greek">ἅλῳ</span> “eira”, corr. <span class="greek">ναῷ</span>, para o MT <bdi class="hebrew" lang="he" dir="rtl">היכל</bdi>, “templo, palácio”. *1Sm 19.22, <span class="greek">τοῦ ἅλω</span> “da eira” — <bdi class="hebrew" lang="he" dir="rtl">גורן</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">גדול</bdi>, “grande”.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 15.20; 18.27,30; 1Sm 19.22; 23.1.</p><p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 62; WALTERS 1973, 129.290.</p>
+    </section>
+</article>
+<article id="entry-halosis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλωσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλωσις, -εως · halōsis" data-transliteration="halōsis" data-meanings="captura">ἅλωσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>captura</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Jr 27(50).46.</p>
+    </section>
+</article>
+<article id="entry-hama-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅμα · hama" data-transliteration="hama" data-meanings="imediatamente| ao mesmo tempo| juntamente| ambos">ἅμα</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 14-13-50-18-29=124</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>imediatamente</strong> (Gn 19.4); <strong>ao mesmo tempo</strong> (Sr 45.15); <strong>juntamente, ambos</strong> (Gn 13.6).</p><p class="entry-text"><span class="greek">ἅμα πάντες</span>: <strong>todos juntos</strong> (Js 9.2); [<span class="greek">τινι</span>]: <strong>ao mesmo tempo que</strong> (1Mc 4.6), <strong>juntamente com</strong> (Gn 14.5); <span class="greek">ἕως ἅμα τῷ ἡλίῳ</span>: <strong>até o nascer do sol</strong> (Ne 7.3).</p><p class="entry-text"><strong>Nota textual do LEH:</strong> *Dt 32.43, <span class="greek">ἅμα αὐτῷ</span> “com ele” — <bdi class="hebrew" lang="he" dir="rtl">מּוִֹע</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">מּוַֹע</bdi>, “seu povo”.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 13.6 (bis); 14.5; 19.4; 22.6.</p><p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-amadaroth-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αμαδαρωθ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αμαδαρωθ · amadarōth" data-transliteration="amadarōth" data-meanings="do galope">αμαδαρωθ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="מדהרות" data-transliteration="mdhrwt" data-meanings="do galope">מדהרות</bdi>: <strong>do galope</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Jz<sup>A</sup> 5.22.</p>
     </section>
 </article>`
 };
