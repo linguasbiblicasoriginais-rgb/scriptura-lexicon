@@ -22,3 +22,12 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 ## Regra de preservação editorial
 
 A ingestão no Scriptura Lexicon deve preservar a independência do DGP como fonte lexicográfica. Não devem ser introduzidas silenciosamente definições, acepções, referências, correções ou reconstruções provenientes de BDAG, LEH ou outras obras. Qualquer intervenção editorial do projeto deve permanecer distinguível do conteúdo da fonte.
+
+
+## Regras editoriais específicas do DGP
+
+1. **Abreviaturas gramaticais e editoriais** — formas como `aor.`, `pres.`, `méd.`, `gen.`, `dat.`, `adv.`, `dór.` e semelhantes devem receber popup com sua expansão. A lista de abreviaturas do próprio DGP é a autoridade prioritária.
+2. **Autores, obras e corpora por extenso** — abreviaturas autorais e bibliográficas da fonte, como `hom.`, `dem.`, `plat.` e `n.t.`, devem aparecer no Scriptura Lexicon por extenso, em forma de rubrica, sem eliminar a informação da fonte.
+3. **Popup biográfico/descritivo** — cada rubrica de autor, obra ou corpus deve receber popup com minibiografia ou descrição breve. A descrição deve ser fundamentada prioritariamente na lista de abreviaturas do DGP; detalhes adicionais só podem ser acrescentados quando verificados.
+4. **Nada por conjectura** — quando uma abreviatura autoral ou bibliográfica for ambígua, preservar a forma original e não inventar expansão.
+5. **Aplicação retroativa** — toda entrada DGP já cadastrada deve ser revista segundo estas regras. No momento da adoção desta norma, ainda não havia verbetes DGP inseridos; apenas a infraestrutura da fonte estava preparada.

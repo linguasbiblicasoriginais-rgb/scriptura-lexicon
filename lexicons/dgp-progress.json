@@ -9,7 +9,13 @@
     "initial_letter": "α",
     "batch_size": 20,
     "next_ordinal": 1,
-    "status": "estrutura preparada"
+    "status": "regras editoriais estabelecidas; pronto para o primeiro lote"
   },
-  "batches": []
+  "batches": [],
+  "editorial_rules": {
+    "abbreviation_popups": true,
+    "author_work_rubrics": true,
+    "author_work_popup_description": true,
+    "ambiguous_abbreviations": "preservar sem expansão conjectural"
+  }
 }
