@@ -311,6 +311,126 @@ window.ScripturaLexicons.DGP = {
     <td>sem prejudicar</td>
     <td><span class="source-pill">DGP</span></td>
 </tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0041" data-source="DGP" data-search="ἀβλής, ῆτος não disparado; não lançado DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβλής, ῆτος</td>
+    <td>—</td>
+    <td>não disparado; não lançado</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0042" data-source="DGP" data-search="ἄβλητος, ος, ον não atingido DGP" tabindex="0">
+    <td class="table-lemma greek">ἄβλητος, ος, ον</td>
+    <td>—</td>
+    <td>não atingido</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0043" data-source="DGP" data-search="ἀβληχρός, ά, όν sem forças; fraco; sem violência DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβληχρός, ά, όν</td>
+    <td>—</td>
+    <td>sem forças; fraco; sem violência</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0044" data-source="DGP" data-search="ἀβοήθητος, ος, ον sem socorro; incurável; inútil DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβοήθητος, ος, ον</td>
+    <td>—</td>
+    <td>sem socorro; incurável; inútil</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0045" data-source="DGP" data-search="ἀβόσχητος, ος, ον sem pastagens DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβόσχητος, ος, ον</td>
+    <td>—</td>
+    <td>sem pastagens</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0046" data-source="DGP" data-search="ἀβουκόλητος, ος, ον negligenciado; que não desperta interesse DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβουκόλητος, ος, ον</td>
+    <td>—</td>
+    <td>negligenciado; que não desperta interesse</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0047" data-source="DGP" data-search="ἀβουλία, ας (ἡ) irreflexão; insensatez; indecisão DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβουλία, ας (ἡ)</td>
+    <td>—</td>
+    <td>irreflexão; insensatez; indecisão</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0048" data-source="DGP" data-search="ἄβουλος, ος, ον irrefletido; insensato; imprudente DGP" tabindex="0">
+    <td class="table-lemma greek">ἄβουλος, ος, ον</td>
+    <td>—</td>
+    <td>irrefletido; insensato; imprudente</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0049" data-source="DGP" data-search="ἀβούλως irrefletidamente DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβούλως</td>
+    <td>—</td>
+    <td>irrefletidamente</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0050" data-source="DGP" data-search="ἄβρεκτος, ος, ον ἄβροχος DGP" tabindex="0">
+    <td class="table-lemma greek">ἄβρεκτος, ος, ον</td>
+    <td>—</td>
+    <td>ἄβροχος</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0051" data-source="DGP" data-search="ἁβροβάτης, ου de andar delicado; efeminado DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβροβάτης, ου</td>
+    <td>—</td>
+    <td>de andar delicado; efeminado</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0052" data-source="DGP" data-search="ἁβρόβιος, ος, ον de vida langorosa; efeminado DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβρόβιος, ος, ον</td>
+    <td>—</td>
+    <td>de vida langorosa; efeminado</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0053" data-source="DGP" data-search="ἁβρόγοος, ος, ον que geme delicadamente DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβρόγοος, ος, ον</td>
+    <td>—</td>
+    <td>que geme delicadamente</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0054" data-source="DGP" data-search="ἁβροδίαιτα, ης (ἡ) vida efeminada DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβροδίαιτα, ης (ἡ)</td>
+    <td>—</td>
+    <td>vida efeminada</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0055" data-source="DGP" data-search="ἁβροδίαιτος, ος, ον de vida efeminada; vida efeminada DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβροδίαιτος, ος, ον</td>
+    <td>—</td>
+    <td>de vida efeminada; vida efeminada</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0056" data-source="DGP" data-search="ἄβρομος, ος, ον fragoroso ou silencioso; duvidoso DGP" tabindex="0">
+    <td class="table-lemma greek">ἄβρομος, ος, ον</td>
+    <td>—</td>
+    <td>fragoroso ou silencioso; duvidoso</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0057" data-source="DGP" data-search="ἁβροπενθής, ής, ές entregue a uma dor langorosa DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβροπενθής, ής, ές</td>
+    <td>—</td>
+    <td>entregue a uma dor langorosa</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0058" data-source="DGP" data-search="ἁβρόπλουτος, ος, ον rico de viço; viçoso; sedoso DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβρόπλουτος, ος, ον</td>
+    <td>—</td>
+    <td>rico de viço; viçoso; sedoso</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0059" data-source="DGP" data-search="ἁβρός, ά, όν belo; atraente; terno; refinado DGP" tabindex="0">
+    <td class="table-lemma greek">ἁβρός, ά, όν</td>
+    <td>—</td>
+    <td>belo; atraente; terno; refinado</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-0060" data-source="DGP" data-search="ἀβροτάζω perder-se; extraviar-se DGP" tabindex="0">
+    <td class="table-lemma greek">ἀβροτάζω</td>
+    <td>—</td>
+    <td>perder-se; extraviar-se</td>
+    <td><span class="source-pill">DGP</span></td>
+</tr>
 `,
 
     cardsHtml: String.raw`
@@ -911,6 +1031,306 @@ window.ScripturaLexicons.DGP = {
     <section class="entry-section">
         <div class="section-title">Definição do DGP</div>
         <p class="entry-text">adv. sem prejudicar.</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0041" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβλής, ῆτος</h1>
+            <div class="entry-meta"><span>DGP · ordem 41 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">(masc., fem.) não disparado; não lançado. 〈ἀ-, βάλλω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0042" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἄβλητος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 42 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">não atingido. 〈ἀ-, βάλλω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0043" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβληχρός, ά, όν</h1>
+            <div class="entry-meta"><span>DGP · ordem 43 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">1 sem forças; fraco: ἀ. τείχεα <span class="author-rubric tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Homero" data-tooltip-text="Homero — poeta épico; a lista de abreviaturas do DGP o situa no séc. IX ou VIII a.C."><strong>Homero</strong></span> muralhas frágeis, ἀ. κῶμα <span class="author-rubric tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Aristófanes" data-tooltip-text="Aristófanes — poeta cômico ateniense; a lista de abreviaturas do DGP o situa no séc. V a.C."><strong>Aristófanes</strong></span> sono leve, ἀ. νόσος <span class="author-rubric tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Plutarco" data-tooltip-text="Plutarco — polígrafo; a lista de abreviaturas do DGP o situa nos sécs. I–II d.C."><strong>Plutarco</strong></span> doença branda 2 sem violência: ἀ. θάνατος <span class="author-rubric tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Homero" data-tooltip-text="Homero — poeta épico; a lista de abreviaturas do DGP o situa no séc. IX ou VIII a.C."><strong>Homero</strong></span> doce morte. 〈ἀ- intens., βληχρός〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0044" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβοήθητος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 44 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">1 sem socorro possível; incurável; irremediável (doença); fatal (veneno) 2 sem socorro; desamparado, necessitado (pessoa) 3 inútil; ineficaz. 〈ἀ-, βοηθέω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0045" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβόσχητος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 45 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">sem pastagens. 〈ἀ-, βόσχω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0046" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβουκόλητος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 46 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">que não preocupa; que não desperta interesse; negligenciado. 〈ἀ-, βουκολέω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0047" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβουλία, ας (ἡ)</h1>
+            <div class="entry-meta"><span>DGP · ordem 47 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">1 irreflexão; insensatez 2 indecisão. 〈ἄβουλος〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0048" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἄβουλος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 48 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">1 irrefletido; insensato; imprudente 2 despreocupado de; indiferente a, dat. 3 que não resulta da reflexão; fruto da imprudência 4 absurdo (coisa). 〈ἀ-, βουλή〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0049" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβούλως</h1>
+            <div class="entry-meta"><span>DGP · ordem 49 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">adv. irrefletidamente.</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0050" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἄβρεκτος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 50 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">ἄβροχος.</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0051" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβροβάτης, ου</h1>
+            <div class="entry-meta"><span>DGP · ordem 51 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">(masc.) de andar delicado; efeminado. 〈ἁβρός, βαίνω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0052" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβρόβιος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 52 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">de vida langorosa; efeminado. 〈ἁβρός, βίος〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0053" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβρόγοος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 53 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">que geme delicadamente, como mulher. 〈ἁβρός, γόος〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0054" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβροδίαιτα, ης (ἡ)</h1>
+            <div class="entry-meta"><span>DGP · ordem 54 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">vida efeminada. 〈ἁβρός, δίαιτα〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0055" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβροδίαιτος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 55 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">1 de vida efeminada ♦ τὸ ἁβροδίαιτον 2 vida efeminada. 〈ἁβρός, δίαιτα〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0056" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἄβρομος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 56 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">duv. fragoroso; clamoroso; ou sem rumor; silencioso. 〈ἀ- intens. ou priv., βρέμω〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0057" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβροπενθής, ής, ές</h1>
+            <div class="entry-meta"><span>DGP · ordem 57 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">entregue a uma dor langorosa. 〈ἁβρός, πένθος〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0058" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβρόπλουτος, ος, ον</h1>
+            <div class="entry-meta"><span>DGP · ordem 58 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">rico de viço; viçoso; sedoso (cabelo). 〈ἁβρός, πλοῦτος〉</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0059" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἁβρός, ά, όν</h1>
+            <div class="entry-meta"><span>DGP · ordem 59 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">1 belo; atraente 2 terno; delicado 3 indolente; efeminado 4 fino; refinado; precioso (coisa).</p>
+    </section>
+</article>
+
+<article id="entry-dgp-0060" class="entry-card" data-dictionary="grego" data-source="DGP" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">ἀβροτάζω</h1>
+            <div class="entry-meta"><span>DGP · ordem 60 na letra α</span></div>
+        </div>
+        <div class="source-tag">DGP</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do DGP</div>
+        <p class="entry-text">(só 1ª pl. subj. aor.) perder-se; extraviar-se: μή πως ἀβροτάξομεν ἀλλήλοιιν ἐρχομένω <span class="author-rubric tooltip-trigger" tabindex="0" data-tooltip-type="biblio" data-tooltip-label="Homero" data-tooltip-text="Homero — poeta épico; a lista de abreviaturas do DGP o situa no séc. IX ou VIII a.C."><strong>Homero</strong></span> para que não nos percamos uns dos outros no caminho. 〈ἀμβροτεῖν〉</p>
     </section>
 </article>
 `
