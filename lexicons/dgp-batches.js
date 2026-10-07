@@ -730,3 +730,52 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 18 — registros 341–360
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "sinc.", type: "abbr", text: "sincopado" },
+        { key: "n. romano", type: "abbr", text: "nome romano" }
+    );
+
+    const entries = [
+        [341, "ἄγρη", "jôn. = ἄγρα.", "forma jônica de ἄγρα"],
+        [342, "ἀγριαίνω", "(fut. ἀγριανῶ, aor. ἠγρίανα, perf. desus.) 1 irritar-se; enfurecer-se 2 (animal) ser ou tornar-se selvagem 3 enfurecer; irritar. 〈ἄγριος〉", "irritar-se; enfurecer-se; tornar selvagem"],
+        [343, "ἀγριέλαιος, ος, ον", "1 de oliveira selvagem ♦ ἡ ἀγριέλαιος 2 oliveira selvagem. 〈ἄγριος, ἐλαία〉", "oliveira selvagem"],
+        [344, "ἄγριος, α", "e ος, ον 1 selvagem; agreste; silvestre 2 selvagem; rude; violento 3 rústico; inculto (lugar) ♦ ἄγρια adv. 4 de maneira selvagem ♦ τὸ ἄγριον 5 selvageria. 〈ἀγρός〉", "selvagem; agreste; rude"],
+        [345, "ἀγριότης, ητος (ἡ)", "1 estado selvagem (de animais, plantas, terras) 2 selvageria; crueldade (de homens). 〈ἄγριος〉", "estado selvagem; crueldade"],
+        [346, "ἀγριόφωνος, ος, ον", "de voz selvagem. 〈ἄγριος, φωνή〉", "de voz selvagem"],
+        [347, "ἀγριόω-ῶ", "(3ª sing. aor. ἠγρίωσε) 1 tornar selvagem; exasperar; incitar alguém, ac., contra outrem, dat. ou πρός e ac. ♦ pas. 2 (planta, região) ser selvagem, inculto 3 (homem) ser selvagem, cruel. 〈ἄγριος〉", "tornar selvagem; exasperar"],
+        [348, "Ἀγρίππας, α (ὁ)", "bíbl. Agripa, n. romano.", "Agripa, nome romano"],
+        [349, "ἀγριωπός, ός, όν", "de aspecto ou olhar feroz. 〈ἄγριος, ὤψ〉", "de olhar feroz"],
+        [350, "ἀγρίως", "adv. 1 de maneira selvagem 2 de modo inculto.", "selvagemente; incultamente"],
+        [351, "ἀγροβάτης, ου (ὁ)", "que caminha nos campos. 〈ἀγρός, βαίνω〉", "que caminha nos campos"],
+        [352, "ἀγροβότης, ου (ὁ)", "que apascenta nos campos. 〈ἀγρός, βόσκω〉", "que apascenta nos campos"],
+        [353, "ἀγρόθε", "e ἀγρόθεν adv. vindo do campo. 〈ἀγρός〉", "vindo do campo"],
+        [354, "ἀγροικία, ας (ἡ)", "1 rusticidade 2 estada no campo 3 habitação no campo. 〈ἀγροῖκος〉", "rusticidade; estada no campo"],
+        [355, "ἀγροικίζομαι", "(aor. ἠγροικισάμην, part. perf. ἠγροικισμένος) comportar-se como camponês; comportar-se rusticamente; ser grosseiro. 〈ἀγροῖκος〉", "comportar-se rusticamente"],
+        [356, "ἀγροῖκος", "e ἄγροικος, ος, ον 1 que vive no campo; agreste 2 rústico; grosseiro 3 inculto (lugar) 4 silvestre (fruta). 〈ἀγρός, οἰκέω〉", "que vive no campo; rústico; silvestre"],
+        [357, "ἀγροίκως", "adv. à maneira de camponês; rusticamente; grosseiramente.", "rusticamente; grosseiramente"],
+        [358, "ἀγροιώτης, ου (ὁ)", "1 homem do campo; camponês ♦ adj. 2 rústico; grosseiro. 〈ἀγρός〉", "camponês; rústico"],
+        [359, "ἀγρόμενος", "part. aor.2 méd. sinc. de ἀγείρω.", "particípio aoristo médio sincopado de ἀγείρω"],
+        [360, "ἀγρόνδε", "adv. em direção ao campo. 〈ἀγρός〉", "em direção ao campo"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
