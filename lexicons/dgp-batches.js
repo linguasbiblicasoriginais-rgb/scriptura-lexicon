@@ -681,3 +681,52 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 17 — registros 321–340
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "adj.", type: "abbr", text: "adjetivo" },
+        { key: "exort.", type: "abbr", text: "exortativo" }
+    );
+
+    const entries = [
+        [321, "ἅγος", "e ἄγος, εος-ους (τό) 1 impureza; mácula; profanação 2 pessoa sacrílega, ímpia 3 sacrifício expiatório.", "impureza; profanação; sacrifício expiatório"],
+        [322, "ἀγός, οῦ (ὁ)", "condutor; chefe. 〈ἄγω〉", "condutor; chefe"],
+        [323, "ἀγοστός, οῦ (ὁ)", "1 a palma da mão 2 braço (que se recurva).", "palma da mão; braço"],
+        [324, "ἄγρα, ας (ἡ)", "1 caça; pesca 2 tática para a caçada de, gen. 3 caça; presa 4 bíbl. produto da pesca; pescado.", "caça; pesca; presa"],
+        [325, "Ἀγραΐς, ΐδος (ἡ)", "Agraída, território dos agreus, povo etólio.", "Agraída, território dos agreus"],
+        [326, "ἀγραμματία, ας (ἡ)", "falta de instrução; ignorância. 〈ἀγράμματος〉", "falta de instrução; ignorância"],
+        [327, "ἀγράμματος, ος, ον", "1 analfabeto; ignorante; iletrado 2 não escrito 3 que não pode emitir sons articulados (animal) 4 não articulado; que não se pode articular. 〈ἀ-, γράμμα〉", "analfabeto; ignorante; não escrito"],
+        [328, "ἄγραπτος, ος, ον", "não escrito. 〈ἀ-, γράφω〉", "não escrito"],
+        [329, "ἀγραυλέω-ῶ", "1 morar no campo 2 passar a noite ao ar livre, no campo. 〈ἄγραυλος〉", "morar no campo; passar a noite ao ar livre"],
+        [330, "ἄγραυλος, ος, ον", "1 que vive no campo 2 agreste; feroz (animal) 3 rústico. 〈ἀγρός, αὐλή〉", "campestre; agreste; rústico"],
+        [331, "ἄγραφος, ος, ον", "1 não escrito; não registrado por escrito 2 não inscrito em lista 3 não pintado. 〈ἀ-, γράφω〉", "não escrito; não registrado; não pintado"],
+        [332, "ἄγρει, ἀγρεῖτε", "cf. ἀγρέω.", "cf. ἀγρέω"],
+        [333, "ἀγρεῖος, α, ον", "campestre; rústico; grosseiro. 〈ἀγρός〉", "campestre; rústico; grosseiro"],
+        [334, "ἄγρευμα, ατος (τό)", "1 armadilha para caça; rede 2 caça; presa. 〈ἀγρεύω〉", "armadilha; caça; presa"],
+        [335, "ἀγρεύς, έως (ὁ)", "1 caçador 2 pescador 3 martim-pescador, passáro. 〈ἄγρα〉", "caçador; pescador; martim-pescador"],
+        [336, "ἀγρευτάν", "ac. dór. de ἀγρευτής.", "acusativo dórico de ἀγρευτής"],
+        [337, "ἀγρευτήρ, ῆρος (ὁ)", "ἀγρευτής.", "ἀγρευτής"],
+        [338, "ἀγρευτής, οῦ (ὁ)", "1 caçador ♦ adj. 2 de caça ou pesca. 〈ἀγρεύω〉", "caçador; de caça ou pesca"],
+        [339, "ἀγρεύω", "(fut. ἀγρεύσω, aor. ἤγρευσα, perf. ἤγρευκα; pas. aor. ἠγρεύθην) 1 apanhar; caçar; pescar 2 perseguir; procurar pegar; correr atrás ♦ méd. 3 apanhar; pegar (caça ou pescado). 〈ἀγρεύς〉", "caçar; pescar; perseguir"],
+        [340, "ἀγρέω-ῶ", "(só pres.) 1 tomar; apoderar-se de, ac. ♦ ἄγρει, ἀγρεῖτε imper. 2 usado como interj. exort., vamos! rápido! 〈ἄγρα〉", "tomar; apoderar-se; vamos"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
