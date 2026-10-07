@@ -1208,3 +1208,53 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 28 — registros 541–560
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "Métr.", type: "abbr", text: "métrica" },
+        { key: "Lísias", type: "biblio", text: "Lísias — logógrafo e orador ateniense dos séculos V–IV a.C., tradicionalmente incluído entre os dez oradores áticos." },
+        { key: "Demóstenes", type: "biblio", text: "Demóstenes — orador ateniense do século IV a.C., tradicionalmente incluído entre os dez oradores áticos." }
+    );
+
+    const entries = [
+        [541, "ἀδιαφορία, ας (ἡ)", "indiferença; negligência. 〈ἀδιάφορος〉", "indiferença; negligência"],
+        [542, "ἀδιάφορος, ος, ον", "1 não diferente; igual 2 que não discrimina 3 indiferente; não essencial; acessório 4 Métr. ancípite (sílaba) ♦ τὰ ἀδιάφορα 5 coisas nem boas nem más; objetos individuais, que não têm diferença lógica. 〈ἀ-, διαφέρω〉", "igual; indiferente; não essencial"],
+        [543, "ἀδίδακτος, ος, ον", "1 não instruído; ignorante de, gen. 2 inexperiente; inábil 3 não ensaiado (coro) 3 não representado (drama) 4 que não se ensina; que se sabe naturalmente. 〈ἀ-, διδάσκω〉", "não instruído; inexperiente; não ensaiado"],
+        [544, "ἀδιεξέργαστος, ος, ον", "1 não acabado; não executado; não elaborado 2 que não se consegue deslindar; inextricável. 〈ἀ-, διεξεργάζομαι〉", "não acabado; inextricável"],
+        [545, "ἀδιέξοδος, ος, ον", "sem saída; de onde não se pode sair.", "sem saída"],
+        [546, "ἀδιέργαστος, ος, ον", "ἀδιεξέργαστος.", "ἀδιεξέργαστος"],
+        [547, "ἀδιερεύνητος, ος, ον", "1 que não se pode examinar; impenetrável; inescrutável 2 não examinado; não pesquisado. 〈ἀ-, διερευνάω〉", "impenetrável; inescrutável; não examinado"],
+        [548, "ἀδιήγητος, ος, ον", "1 inexprimível; indescritível 2 tard. não contado. 〈ἀ-, διηγέομαι〉", "inexprimível; indescritível; não contado"],
+        [549, "ἀδίκαστος, ος, ον", "não julgado; não decidido; não condenado. 〈ἀ-, δικάζω〉", "não julgado; não decidido; não condenado"],
+        [550, "ἀδικάστως", "adv. sem julgamento.", "sem julgamento"],
+        [551, "ἀδικέω-ῶ", "(impf. ἠδίκουν, fut. ἀδικήσω, aor. ἠδίκησα, perf. ἠδίκηκα; pas. fut. ἀδικήσομαι, tard. ἀδικηθήσομαι) 1 agir contra a norma; ser injusto: τὸ ἀδικεῖν τοῦ ἀδικεῖσθαι κάκιον Platão [é] pior cometer uma injustiça do que sofrê-la, ἀδικεῖν πολλά cometer muitas ou grandes injustiças, causar muitos danos 2 cometer injustiça contra alguém, ac., em algo, ac., εἰς ou περί e ac., περί e gen.: τοὺς ξένους οὐδεὶς ἔτι ἀδικεῖ Xenofonte ninguém mais faz mal aos estrangeiros, τί ἀδικοῦμεν τοῦτό σε; Aristófanes que injustiça te fazemos nisso? 3 danificar; estragar; lesar ♦ pas. 4 sofrer uma injustiça, um dano, um prejuízo: οἱ ὑπὸ τούτων ἠδικημένοι Lísias os injustiçados por eles. 〈ἄδικος〉", "agir injustamente; lesar; sofrer injustiça"],
+        [552, "ἀδίκημα, ατος (τό)", "1 injustiça; prejuízo; agravo: ἐν ἀδικήματι θέσθαι τι Tucídides ou θεῖναί τι Demóstenes considerar alguma coisa como crime 2 o que é fruto de injustiça 3 duv. erro de julgamento; engano. 〈ἀδικέω〉", "injustiça; prejuízo; agravo"],
+        [553, "ἀδικητέον", "adj. verb. de ἀδικέω.", "adjetivo verbal de ἀδικέω"],
+        [554, "ἀδικητικός, ή, όν", "inclinado à injustiça ou ao mal. 〈ἀδικέω〉", "inclinado à injustiça ou ao mal"],
+        [555, "ἀδικία, ας,", "jôn. ἀδικίη, ης (ἡ) 1 injustiça praticada contra algo, gen., ou alguém, περί e ac.; ἀδικίης ἄρχειν Heródoto ser o agressor, o ofensor 2 injustiça sofrida; dano; ofensa. 〈ἄδικος〉", "injustiça; dano; ofensa"],
+        [556, "ἀδικίου (δίκη) (ἡ)", "ação judiciária por dano causado a alguém. 〈ἄδικος〉", "ação judiciária por dano"],
+        [557, "ἀδικοπραγέω-ῶ", "cometer uma injustiça; agir injustamente. 〈ἄδικος, πράσσω〉", "cometer injustiça; agir injustamente"],
+        [558, "ἄδικος, ος, ον", "1 injusto; iníquo; ilegal 2 indócil; indomável 3 feito contra a regra, contra a lei; injusto: ἄδικος πλοῦτος Isócrates riqueza mal adquirida ♦ ὁ ἄδικος 4 homem injusto, ímpio ♦ τὸ ἄδικον, τὰ ἄδικα 5 injustiça. 〈ἀ-, δίκη〉", "injusto; iníquo; ilegal; injustiça"],
+        [559, "ἀδίκως", "adv. ilegalmente; injustamente.", "ilegalmente; injustamente"],
+        [560, "ἁδινός", "e ἀδινός, ή, ον poét. 1 que se mantém vigoroso por muito tempo: ἁδινῶν Σειρήνων Homero sereias de canto forte e contínuo, ἀ. γόος Homero gemido profundo e contínuo, ἁ. κῆρ Homero coração firme 2 que se agrupa; cerrado; compacto: ἀδινὰ μῆλα Homero carneiros em bando compacto ♦ ἁδινόν, ἁδινά adv. 3 = ἁδινῶς. 〈ἄδος〉", "vigoroso; cerrado; compacto"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
