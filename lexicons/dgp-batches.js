@@ -1171,3 +1171,40 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* LOTE 27 — registros 521–540 */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [521, "ἀδηφαγέω-ῶ", "comer com voracidade; ser glutão. 〈ἀδηφάγος〉", "comer vorazmente; ser glutão"],
+        [522, "ἀδηφάγος, ος, ον", "1 que devora; voraz 2 que consome dinheiro; dispendioso. 〈ἄδην, φαγεῖν〉", "voraz; dispendioso"],
+        [523, "ἀδῄωτος, ος, ον", "não devastado; ileso. 〈ἀ-, δῃόω〉", "não devastado; ileso"],
+        [524, "ἀδιάβατος, ος, ον", "intransponível; impenetrável. 〈ἀ-, διαβαίνω〉", "intransponível; impenetrável"],
+        [525, "ἀδιάβλητος, ος, ον", "1 que não dá ouvidos a calúnia 2 incapaz de caluniar 3 não atingido por delação; irrepreensível; inatacável. 〈ἀ-, διαβάλλω〉", "irrepreensível; inatacável"],
+        [526, "ἀδιακόντιστος, ος, ον", "duv. invulnerável aos dardos. 〈ἀ-, διακοντίζω〉", "invulnerável aos dardos"],
+        [527, "ἀδιάκριτος, ος, ον", "1 indiscernível; indistinto; confuso 2 incompreensível; ininteligível 3 indeciso 4 que não faz distinção; sem preconceitos; imparcial. 〈ἀ-, διακρίνω〉", "indiscernível; confuso; imparcial"],
+        [528, "ἀδιάλειπτος, ος, ον", "bíbl. 1 incessante ♦ ἀδιάλειπτον adv. 2 incessantemente. 〈ἀ-, διαλείπω〉", "incessante; incessantemente"],
+        [529, "ἀδιαλείπτως", "adv. bíbl. constantemente; sempre.", "constantemente; sempre"],
+        [530, "ἀδιάλλακτος, ος, ον", "irreconciliável. 〈ἀ-, διαλλάσσω〉", "irreconciliável"],
+        [531, "ἀδιάλυτος, ος, ον", "indissolúvel; indestrutível. 〈ἀ-, διαλύω〉", "indissolúvel; indestrutível"],
+        [532, "ἀδίαντος, ος", "e poét. η, ον 1 poét. não molhado; não suado ♦ ἡ ἀδίαντος e τὸ ἀδίαντον 2 adianto, planta. 〈ἀ-, διαίνω〉", "não molhado; adianto, planta"],
+        [533, "ἀδιάρθρωτος, ος, ον", "inarticulado; confuso; indistinto. 〈ἀ-, διαρθρόω〉", "inarticulado; confuso"],
+        [534, "ἀδιάσπαστος, ος, ον", "não separado; não interrompido; contínuo. 〈ἀ-, διασπάω〉", "não separado; contínuo"],
+        [535, "ἀδιάστατος, ος, ον", "1 sem intervalo; contínuo 2 sem extensão; sem dimensão 3 crist. indivisível; indiviso. 〈ἀ-, διίστημι〉", "sem intervalo; indivisível"],
+        [536, "ἀδιάστροφος, ος, ον", "1 não desviado; não torcido; reto 2 que não se pode desviar; rígido; inexorável. 〈ἀ-, διαστρέφω〉", "reto; rígido; inexorável"],
+        [537, "ἀδιάφθαρτος, ος, ον", "não corrompido; incorruptível. 〈ἀ-, διαφθείρω〉", "incorruptível"],
+        [538, "ἀδιαφθορία, ας (ἡ)", "bíbl. ausência de mácula; integridade. 〈ἀδιάφθορος〉", "integridade; ausência de mácula"],
+        [539, "ἀδιάφθορος, ος, ον", "1 não corrompido; não maculado; casto 2 incorruptível; imperecível. 〈ἀ-, διαφθείρω〉", "incorruptível; imperecível"],
+        [540, "ἀδιαφθόρως", "adv. com sentimentos puros; com inocência; castamente.", "com sentimentos puros; castamente"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
