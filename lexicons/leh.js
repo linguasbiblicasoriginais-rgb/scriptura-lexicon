@@ -1435,6 +1435,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-akroates-leh" data-source="LEH" data-search="ἀκροατής akroates substantivo ouvinte discípulo aluno Isaías Sirácida Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀκροατής</td><td>Substantivo</td><td>ouvinte; discípulo; aluno</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akrobystia-leh" data-source="LEH" data-search="ἀκροβυστία akrobystia substantivo prepúcio incircuncisão Gênesis Macabeus neologismo HARL TOSATO WALTERS NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκροβυστία</td><td>Substantivo</td><td>prepúcio; incircuncisão</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akrogoniaios-leh" data-source="LEH" data-search="ἀκρογωνιαῖος akrogoniaios adjetivo ângulo extremo pedra angular pedra fundação Isaías neologismo TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρογωνιαῖος</td><td>Adjetivo</td><td>situado no ângulo extremo; pedra angular; pedra de fundação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akrodrya-leh" data-source="LEH" data-search="ἀκρόδρυα akrodrya substantivo fruto casca dura lenhosa árvores frutíferas Cântico Tobias Macabeus HARL LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρόδρυα</td><td>Substantivo</td><td>fruto; árvores frutíferas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akropolis-leh" data-source="LEH" data-search="ἀκρόπολις akropolis substantivo cidadela castelo Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρόπολις</td><td>Substantivo</td><td>cidadela; castelo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akros-leh" data-source="LEH" data-search="ἄκρος akros adjetivo extremo topo fim extremidade orla alturas polegar dedo grande pé Gênesis Êxodo Isaías Ageu Provérbios WEVERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκρος</td><td>Adjetivo</td><td>extremo; topo; fim; extremidade; orla; alturas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akrotomos-leh" data-source="LEH" data-search="ἄκρότομος akrotomos adjetivo cortado lavrado rudemente afiado íngreme duro arestas terreno sílex Deuteronômio Josué Reis Salmos Jó neologismo LARCHER LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκρότομος</td><td>Adjetivo</td><td>cortado; lavrado rudemente; afiado; íngreme; duro; de arestas afiadas; terreno de sílex</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akrophylax-leh" data-source="LEH" data-search="ἀκροφύλαξ akrophylax substantivo governador cidadela guardião Macabeus neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκροφύλαξ</td><td>Substantivo</td><td>governador da cidadela; guardião</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akroteriazo-leh" data-source="LEH" data-search="ἀκρωτηριάζω akroteriazo verbo cortar mãos pés mutilar Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρωτηριάζω</td><td>Verbo</td><td>cortar mãos e pés; mutilar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akroterion-leh" data-source="LEH" data-search="ἀκρωτήριον akroterion substantivo pico montanha extremidades corpo membros cidades fronteiriças pico rochoso Levítico Samuel Ezequiel Jó LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκρωτήριον</td><td>Substantivo</td><td>pico de montanha; extremidades do corpo; membros; cidades fronteiriças</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aktis-leh" data-source="LEH" data-search="ἀκτίς aktis substantivo feixe raio sol Sabedoria Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκτίς</td><td>Substantivo</td><td>feixe; raio do sol</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3819,6 +3850,86 @@ window.ScripturaLexicons.LEH = {
 <article id="entry-akroates-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
     <header class="entry-header"><div><h1 class="entry-title greek">ἀκροατής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκροατής, -οῦ · akroatēs" data-transliteration="akroatēs" data-meanings="ouvinte|discípulo|aluno">ἀκροατής, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>ouvinte</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.3.3" target="_blank" rel="noopener noreferrer">Is 3.3</a>); <strong>discípulo, aluno</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.3.29" target="_blank" rel="noopener noreferrer">Sr 3.29</a>).</p>
+    </section>
+</article>
+
+<article id="entry-akrobystia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκροβυστία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκροβυστία, -ας · akrobystia" data-transliteration="akrobystia" data-meanings="prepúcio|incircuncisão">ἀκροβυστία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 9-4-1-0-2=16</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>prepúcio</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.17.11" target="_blank" rel="noopener noreferrer">Gn 17.11</a>); por extensão, <strong>incircuncisão</strong>.</p>
+        <p class="entry-text"><strong>Etimologia indicada pela fonte:</strong> provavelmente <span class="greek">ἀκρο</span> + <bdi class="hebrew" lang="he" dir="rtl">בשׁת</bdi>, como deformação de <span class="greek">ἀκροποσθία</span>.</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐποίησαν ἑαυτοῖς ἀκροβυστίας · epoiēsan heautois akrobystias" data-transliteration="epoiēsan heautois akrobystias" data-meanings="tornaram-se incircuncisos|fizeram reconstruir o próprio prepúcio">ἐποίησαν ἑαυτοῖς ἀκροβυστίας</span>: <strong>tornaram-se incircuncisos; fizeram reconstruir o próprio prepúcio</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.1.15" target="_blank" rel="noopener noreferrer">1Mc 1.15</a>).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 17.11,14,23,24,25.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1986a, 170; TOSATO 1982, 43–49; WALTERS 1973, 165; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akrogoniaios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρογωνιαῖος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρογωνιαῖος, -α, -ον · akrogōniaios" data-transliteration="akrogōniaios" data-meanings="situado no ângulo extremo|pedra angular|pedra de fundação">ἀκρογωνιαῖος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>situado no ângulo extremo</strong>; <span class="greek">λίθος ἀκρογωνιαῖος</span>: <strong>pedra angular, pedra de fundação</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.28.16" target="_blank" rel="noopener noreferrer">Is 28.16</a>); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akrodrya-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρόδρυα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρόδρυα, -ων · akrodrya" data-transliteration="akrodrya" data-meanings="fruto, especialmente com casca dura e lenhosa|árvores frutíferas">ἀκρόδρυα, -ων</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-2=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>fruto</strong>, especialmente com casca dura e lenhosa (Tb<sup>S</sup> 1.7); <strong>árvores frutíferas</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1MA.11.34" target="_blank" rel="noopener noreferrer">1Mc 11.34</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SNG.4.13" target="_blank" rel="noopener noreferrer">Ct 4.13</a>,16; 7.14; Tb<sup>S</sup> 1.7; 1Mc 11.34.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1992a, 149–150.</p>
+    </section>
+</article>
+
+<article id="entry-akropolis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρόπολις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρόπολις, -εως · akropolis" data-transliteration="akropolis" data-meanings="cidadela|castelo">ἀκρόπολις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cidadela, castelo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.4.12" target="_blank" rel="noopener noreferrer">2Mc 4.12</a>,28; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.5.5" target="_blank" rel="noopener noreferrer">5.5</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκρος, -α, -ον · akros" data-transliteration="akros" data-meanings="extremo|topo|fim|extremidade|orla|alturas">ἄκρος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 37-24-21-9-16=107</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>extremo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/ISA.13.5" target="_blank" rel="noopener noreferrer">Is 13.5</a>); <span class="greek">τὸ ἄκρον</span>: <strong>topo</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.28.18" target="_blank" rel="noopener noreferrer">Gn 28.18</a>); <strong>fim, extremidade</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/GEN.47.21" target="_blank" rel="noopener noreferrer">Gn 47.21</a>); <strong>orla</strong> — de uma veste (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HAG.2.13" target="_blank" rel="noopener noreferrer">Ag 2.13</a>); <span class="greek">ἄκρα</span>: <strong>alturas</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.8.26" target="_blank" rel="noopener noreferrer">Pv 8.26</a>).</p>
+        <p class="entry-text"><span class="greek">ἐπὶ τὸ ἄκρον τῆς δεξιᾶς χειρός</span>: <strong>sobre o polegar da mão direita</strong>; <span class="greek">ἐπὶ τὸ ἄκρον τοῦ ποδός</span>: <strong>sobre o dedo grande do pé</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EXO.29.20" target="_blank" rel="noopener noreferrer">Êx 29.20</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 47.21 (bis),31; Êx 29.20 (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> WEVERS 1990, 474.605.</p>
+    </section>
+</article>
+
+<article id="entry-akrotomos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκρότομος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκρότομος, -ος, -ον · akrotomos" data-transliteration="akrotomos" data-meanings="cortado|lavrado rudemente|afiado|íngreme|duro|de arestas afiadas|terreno de sílex">ἄκρότομος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-3-0-4-3=11</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cortado, lavrado rudemente</strong> — de pedra de construção (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1KI.6.7" target="_blank" rel="noopener noreferrer">1Re 6.7</a>); <strong>afiado</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOS.5.2" target="_blank" rel="noopener noreferrer">Js 5.2</a>); <strong>íngreme</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.40.20" target="_blank" rel="noopener noreferrer">Jó 40.20</a>); <strong>duro, de arestas afiadas</strong> — de pedras (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/DEU.8.15" target="_blank" rel="noopener noreferrer">Dt 8.15</a>); <strong>terreno de sílex</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PSA.113.8" target="_blank" rel="noopener noreferrer">Sl 113(114).8</a>); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Dt 8.15; Js 5.2,3; 1Re 6.7; Sl 113(114).8.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1985, 656 (Dt 8.15; Sb 11.4).</p>
+        <p class="entry-text"><strong>Forma do lema:</strong> preservada exatamente como aparece na extração textual desta edição do LEH, sem normalização editorial.</p>
+    </section>
+</article>
+
+<article id="entry-akrophylax-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκροφύλαξ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκροφύλαξ, -ακος · akrophylax" data-transliteration="akrophylax" data-meanings="governador da cidadela|guardião">ἀκροφύλαξ, -ακος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>governador da cidadela, guardião</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.3.13" target="_blank" rel="noopener noreferrer">4Mc 3.13</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akroteriazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρωτηριάζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρωτηριάζω · akrōtēriazō" data-transliteration="akrōtēriazō" data-meanings="cortar mãos e pés|mutilar">ἀκρωτηριάζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cortar mãos e pés, mutilar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.7.4" target="_blank" rel="noopener noreferrer">2Mc 7.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.10.20" target="_blank" rel="noopener noreferrer">4Mc 10.20</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akroterion-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκρωτήριον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκρωτήριον, -ου · akrōtērion" data-transliteration="akrōtērion" data-meanings="pico de montanha|extremidades do corpo|membros|cidades fronteiriças|pico rochoso de montanha">ἀκρωτήριον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 1-2-1-1-0=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pico de montanha</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.37.9" target="_blank" rel="noopener noreferrer">Jó 37.9</a>); <span class="greek">ἀκρωτήρια</span>: <strong>as extremidades do corpo, os membros</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/LEV.4.11" target="_blank" rel="noopener noreferrer">Lv 4.11</a>).</p>
+        <p class="entry-text"><span class="greek">ἀπὸ πόλεων ἀκρωτηρίων</span>: <strong>das cidades fronteiriças</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EZE.25.9" target="_blank" rel="noopener noreferrer">Ez 25.9</a>); <span class="greek">ἀκρωτήριον πέτρας</span>: <strong>pico rochoso de montanha</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1SA.14.4" target="_blank" rel="noopener noreferrer">1Sm 14.4</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Lv 4.11; 1Sm 14.4 (bis); Ez 25.9; Jó 37.9.</p>
+    </section>
+</article>
+
+<article id="entry-aktis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκτίς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκτίς, -ῖνος · aktis" data-transliteration="aktis" data-meanings="feixe|raio do sol">ἀκτίς, -ῖνος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>feixe, raio</strong> — do sol.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.2.4" target="_blank" rel="noopener noreferrer">Sb 2.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.16.27" target="_blank" rel="noopener noreferrer">16.27</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.43.4" target="_blank" rel="noopener noreferrer">Sr 43.4</a>.</p>
     </section>
 </article>`
 };
