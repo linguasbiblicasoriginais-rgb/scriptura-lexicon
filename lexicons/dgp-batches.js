@@ -828,3 +828,51 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 20 — registros 381–400
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "prep.", type: "abbr", text: "preposição" }
+    );
+
+    const entries = [
+        [381, "ἀγύρτης, ου (ὁ)", "1 mendigo 2 vagabundo 3 charlatão. 〈ἀγείρω〉", "mendigo; vagabundo; charlatão"],
+        [382, "ἀγυρτικός, ή, όν", "1 de vagabundo 2 de charlatão. 〈ἀγύρτης〉", "de vagabundo; de charlatão"],
+        [383, "ἀγύρτρια, ας (ἡ)", "mendiga. 〈ἀγύρτης〉", "mendiga"],
+        [384, "ἀγχέμαχος, ος, ον", "1 que combate de perto 2 bom para combater de perto (arma). 〈ἄγχι, μάχομαι〉", "que combate de perto"],
+        [385, "ἄγχι", "(comp. ἆσσον, superl. ἄγχιστα) adv. 1 (lugar) perto 2 (tempo) quase ♦ prep. 3 perto de; próximo de, gen.", "perto; quase; próximo de"],
+        [386, "ἀγχιάλος, ος, ον", "vizinho do mar. 〈ἄγχι, ἅλς〉", "vizinho do mar"],
+        [387, "ἀγχιβαθής, ής, ές", "1 profundo desde a beira; profundo 2 alto desde a beira (margem). 〈ἄγχι, βάθος〉", "profundo; alto desde a beira"],
+        [388, "ἀγχιγείτων, ων, ον", "gen. ονος vizinho.", "vizinho"],
+        [389, "ἀγχίθεος, ος, ον", "1 semelhante a um deus; quase deus 2 crist. próximo de Deus ♦ ὁ ἀγχίθεος 3 semideus. 〈ἄγχι, θεός〉", "semelhante a deus; próximo de Deus; semideus"],
+        [390, "ἀγχίθυρος, ος, ον", "vizinho de porta. 〈ἄγχι, θύρα〉", "vizinho de porta"],
+        [391, "ἀγχιμαχητής, οῦ (ὁ)", "ἀγχέμαχος.", "ἀγχέμαχος"],
+        [392, "ἀγχίμολος, ος, ον", "1 que vem logo após; que se avizinha; ἐξ ἀγχιμόλοιο de bem perto ♦ ἀγχίμολον adv. 2 bem perto de, dat. 〈ἄγχι, μολεῖν〉", "bem perto"],
+        [393, "ἀγχίνοια, ας (ἡ)", "vivacidade de espírito; perspicácia. 〈ἀγχίνοος〉", "vivacidade de espírito; perspicácia"],
+        [394, "ἀγχίνοος-ους, οος-ους, οον-ουν", "de espírito vivo; perspicaz. 〈ἄγχι, νόος〉", "perspicaz"],
+        [395, "ἀγχίπλοος-ους, οος-ους, οον-ουν", "de navegação curta; de travessia curta. 〈ἄγχι, πλέω〉", "de navegação curta"],
+        [396, "ἀγχίπολις, ιος", "e ἀγχίπτολις, εως (masc., fem.) 1 protetor da cidade 2 vizinho da cidade. 〈ἄγχι, πόλις〉", "protetor ou vizinho da cidade"],
+        [397, "Ἀγχίσης, ου (ὁ)", "Anquises, pai de Enéias.", "Anquises"],
+        [398, "Ἀγχισιάδης, ου (ὁ)", "filho de Anquises. 〈Ἀγχίσης〉", "filho de Anquises"],
+        [399, "ἄγχιστα", "cf. ἄγχιστος.", "cf. ἄγχιστος"],
+        [400, "ἀγχιστεία, ας (ἡ)", "1 parentesco próximo 2 familiaridade; intimidade 3 direito de herança. 〈ἀγχιστεύω〉", "parentesco; intimidade; direito de herança"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
