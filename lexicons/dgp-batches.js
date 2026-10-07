@@ -445,3 +445,54 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 12 — registros 221–240
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "opt.", type: "abbr", text: "optativo" },
+        { key: "ind.", type: "abbr", text: "indicativo" },
+        { key: "freq.", type: "abbr", text: "frequentemente" },
+        { key: "dat. pl.", type: "abbr", text: "dativo plural" }
+    );
+
+    const entries = [
+        [221, "ἀγκάζομαι", "(3ª pl. impf. poét. ἀγκάζοντο) tomar nos braços; abraçar. 〈ἀγκάς〉", "tomar nos braços; abraçar"],
+        [222, "ἄγκαθεν1", "adv. 1 com um abraço 2 com apoio nos cotovelos. 〈ἀγκάς〉", "com um abraço; apoiado nos cotovelos"],
+        [223, "ἄγκαθεν2", "poét. = ἀνέκαθεν.", "forma poética de ἀνέκαθεν"],
+        [224, "ἀγκαλεῖσθε", "2ª pl. imper. e ind. pres. méd. de ἀγκαλέω.", "formas de ἀγκαλέω"],
+        [225, "ἀγκαλέσαιτο", "3ª sing. opt. aor. méd. de ἀγκαλέω.", "optativo aoristo médio de ἀγκαλέω"],
+        [226, "ἀγκαλέω", "poét. = ἀνακαλέω.", "forma poética de ἀνακαλέω"],
+        [227, "ἀγκάλη, ης (ἡ)", "1 braço; freq. no dat. pl. ἀγκάλαις nos braços 2 braço de rio, de mar 3 braçada.", "braço; braço de rio; braçada"],
+        [228, "ἀγκαλίζομαι", "(só pres., aor. ἠγκαλισάμην, perf. ἠγκάλισμαι) 1 levar nos braços ♦ méd. 2 abraçar. 〈ἀγκαλίς〉", "levar nos braços; abraçar"],
+        [229, "ἀγκαλίς, ίδος (ἡ)", "1 braço; freq. no dat. pl. ἐν ἀγκαλίδεσσι nos braços 2 braçada. 〈ἀγκάλη〉", "braço; braçada"],
+        [230, "ἀγκάς", "adv. nos braços.", "nos braços"],
+        [231, "ἀγκίστριον, ου (τό)", "pequeno anzol. 〈ἄγκιστρον〉", "pequeno anzol"],
+        [232, "ἀγκιστροειδής, ής, ές", "em forma de anzol. 〈ἄγκιστρον, εἶδος〉", "em forma de anzol"],
+        [233, "ἄγκιστρον, ου (τό)", "gancho de anzol; anzol. 〈ἄγκος〉", "anzol"],
+        [234, "ἀγκιστρόω-ῶ", "(part. perf. pas. ἠγκιστρωμένος) recurvar em forma de anzol ou de gancho. 〈ἄγκιστρον〉", "recurvar em forma de anzol"],
+        [235, "ἀγκλίνω", "poét. = ἀνακλίνω.", "forma poética de ἀνακλίνω"],
+        [236, "ἄγκοινα, ης (ἡ)", "1 braço 2 abraçamento; envolvimento. 〈ἀγκών〉", "braço; abraçamento"],
+        [237, "ἄγκος, εος-ους (τό)", "1 reentrância; cavidade 2 vale.", "reentrância; cavidade; vale"],
+        [238, "ἀγκρεμάννυμι", "poét. = ἀνακρεμάννυμι.", "forma poética de ἀνακρεμάννυμι"],
+        [239, "ἄγκρισις", "poét. = ἀνάκρισις.", "forma poética de ἀνάκρισις"],
+        [240, "ἀγκροτέω", "ἀνακροτέω.", "ἀνακροτέω"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
