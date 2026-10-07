@@ -637,3 +637,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 16 — registros 301–320
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    const entries = [
+        [301, "ἀγορά, ᾶς (ἡ)", "1 reunião; assembléia deliberativa: ἀγορήνδε καλέσσατο λαόν Homero convocou os guerreiros para uma assembléia, Ζεῦς θεῶν ἀγορὴν ποιήσατο Homero Zeus reuniu a assembléia de deuses 2 discurso proferido em assembléia: ἀγορὰς ἀγόρευον ἐπὶ Πριάμοιο θύρῃσι Homero [os troianos] proferiam discursos diante das portas de Príamo 3 ação de falar em público: νήπιον, οὔ πω εἰδόθ’ ἀγορέων Homero criança, ainda inábil em discursos 4 lugar de reunião; praça pública, mercado: πόλις ναοῖς καὶ ἀγοραῖς κατεσκευασμένη Xenofonte cidade provida de templos e de praças públicas, ἀγορὰ πλήθουσα praça cheia de pessoas, das 9 às 12 horas, horário do mercado, ἐξ ἀγορᾶς πρίασθαι, ὠνεῖσθαι comprar do mercado 5 provisões: αἱ ἀγοραὶ ἀφίκοντο Xenofonte as mercadorias chegaram ♦ ἡ Ἀγορά 6 Ágora, cidade do Quersoneso 7 Κεραμῶν Ἀγορά Mercado dos Oleiros, cidade da Frígia. 〈ἀγείρω〉", "reunião; assembleia; praça pública; mercado"],
+        [302, "ἀγοράασθε", "2ª pl. pres. poét. de ἀγοράομαι.", "forma poética de ἀγοράομαι"],
+        [303, "ἀγοράζω", "1 ir ou freqüentar a praça pública; passear na praça 2 comprar; negociar 3 bíbl. resgatar; remir: ἢ οὐκ οἴδατε ὅτι οὐκ ἐστὲ ἑαυτῶν; ἠγοράσθητε γὰρ τιμῆς Novo Testamento acaso não sabeis que não sois de vós mesmos? Fostes resgastados por um preço ♦ méd. 4 fazer compras para si. 〈ἀγορά〉", "comprar; negociar; resgatar; remir"],
+        [304, "ἀγοραῖος, ος", "e α, ον 1 da ágora; que cuida da ágora (divindade) 2 que freqüenta o mercado; mercador 3 que passeia na ágora; desocupado; ocioso 4 que concerne à assembléia; demagogo 5 que ocorre na praça; vulgar ♦ ἡ ἀγοραῖος [ἡμέρα] 6 dia do mercado; dia de audiência no tribunal ♦ ὁ ἀγοραῖος 7 advogado; notário. 〈ἀγορά〉", "da ágora; mercador; advogado"],
+        [305, "ἀγοραίως", "adv. 1 como na praça pública; de modo vulgar 2 em estilo oratório; forense.", "como na praça; de modo vulgar; forense"],
+        [306, "ἀγορανομέω-ῶ", "1 ser agorânomo 2 em Roma, ser edil. 〈ἀγορανόμος〉", "ser agorânomo; ser edil"],
+        [307, "ἀγορανομία, ας (ἡ)", "1 função de agorânomo 2 em Roma, cargo de edil.", "função de agorânomo; cargo de edil"],
+        [308, "ἀγορανομικός, ή, όν", "1 concernente ao agorânomo 2 em Roma, concernente ao edil.", "concernente ao agorânomo ou edil"],
+        [309, "ἀγορανόμος, ου (ὁ)", "1 agorânomo, fiscal do mercado em Atenas 2 em Roma, edil. 〈ἀγορά, νέμω〉", "agorânomo; fiscal do mercado; edil"],
+        [310, "ἀγοράομαι-ῶμαι", "(impf. ἠγοραόμην-ώμην, aor. ἠγορησάμην) 1 participar de uma assembléia; estar em assembléia 2 discursar na assembléia 3 proferir; dizer algo, ac., a alguém, dat. 〈ἀγορά〉", "participar de assembleia; discursar"],
+        [311, "ἀγοράσθω", "dór. = ἀγοράζω.", "forma dórica de ἀγοράζω"],
+        [312, "ἀγόρασμα, ατος (τό)", "compra; mercadoria; provisão. 〈ἀγοράζω〉", "compra; mercadoria; provisão"],
+        [313, "ἀγοραστής, οῦ (ὁ)", "1 escravo encarregado das compras 2 comprador. 〈ἀγοράζω〉", "encarregado de compras; comprador"],
+        [314, "ἀγορεύω", "(impf. ἠγόρευον, pres. e impf., em prosa át.; em lugar do fut. ἀγορεύσω, aor. ἠγόρευσα, perf. ἠγόρευκα e das formas pas. correspondentes, o át. emprega: fut. ἐρῶ, aor.2 εἷπον, perf. εἴρηκα; pas. fut. εἰρήσομαι e ῥηθήσομαι, perf. εἴρημαι) 1 falar na assembléia; pronunciar um discurso 2 falar; dizer; narrar 3 dizer em voz alta; proclamar ou fazer proclamar publicamente; impor ♦ méd. 4 publicar; proclamar. 〈ἀγορά〉", "falar; dizer; proclamar"],
+        [315, "ἀγορή", "jôn. = ἀγορά.", "forma jônica de ἀγορά"],
+        [316, "ἀγορῆθεν", "adv. vindo da assembléia. 〈ἀγορή〉", "vindo da assembleia"],
+        [317, "ἀγορήνδε", "adv. em direção à assembléia. 〈ἀγορή〉", "em direção à assembleia"],
+        [318, "ἀγορητής, οῦ (ὁ)", "orador. 〈ἀγοράομαι〉", "orador"],
+        [319, "ἀγορητύς, ύος (ἡ)", "eloqüência. 〈ἀγοράομαι〉", "eloquência"],
+        [320, "ἄγορος, ου (ὁ)", "ἀγορά.", "ἀγορά"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
