@@ -70,3 +70,4 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
 `;
 
 document.write('<script src="lexicons/dgp-batch-005.js"><\/script>');
+document.write('<script src="lexicons/dgp-batch-006.js"><\/script>');
