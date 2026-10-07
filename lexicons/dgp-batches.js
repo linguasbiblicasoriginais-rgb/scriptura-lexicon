@@ -876,3 +876,53 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 21 — registros 401–420
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "aor.1", type: "abbr", text: "primeiro aoristo" },
+        { key: "loc.", type: "abbr", text: "locução" },
+        { key: "Menandro", type: "biblio", text: "Menandro — poeta cômico ateniense dos séculos IV–III a.C., principal representante da Comédia Nova." }
+    );
+
+    const entries = [
+        [401, "ἀγχιστεῖον, ου (τό)", "ἀγχιστεία.", "ἀγχιστεία"],
+        [402, "ἀγχιστεύς, έως (ὁ)", "1 parente próximo 2 herdeiro legítimo. 〈ἄγχιστος〉", "parente próximo; herdeiro legítimo"],
+        [403, "ἀγχιστεύω", "(aor. pas. ἠγχιστεύθην) 1 ser próximo; ser vizinho de, gen. ou dat. 2 ser parente próximo de; ser herdeiro legítimo de alguém, dat. 3 bíbl. exercer o direito de parente e tomar posse de herança. 〈ἀγχιστεύς〉", "ser próximo; exercer direito de parente"],
+        [404, "ἀγχιστήρ, ῆρος (ὁ)", "aquele que é causa de, gen. 〈ἄγχι〉", "aquele que é causa de"],
+        [405, "ἀγχιστῖνος, η, ον", "bem próximo; no pl. cerrados uns aos outros. 〈ἄγχιστος〉", "bem próximo; cerrados"],
+        [406, "ἄγχιστος, η, ον", "1 bem próximo; vizinho 2 próximo (pela origem); parente próximo ♦ ἄγχιστον, ἄγχιστα adv. 3 (lugar) bem próximo; o mais próximo; de muito perto 4 (tempo) recentemente. 〈ἄγχι〉", "bem próximo; parente próximo"],
+        [407, "ἀγχίστροφος, ος, ον", "1 rápido em virar-se; versátil ♦ ἀγχίστροφα adv. 2 de maneira versátil. 〈ἄγχι, στρέφω〉", "versátil; rápido em virar-se"],
+        [408, "ἀγχιτέρμων, ων, ον", "gen. ονος limítrofe; vizinho. 〈ἄγχι, τέρμα〉", "limítrofe; vizinho"],
+        [409, "ἀγχόθεν", "adv. vindo de bem perto. 〈ἄγχι〉", "vindo de bem perto"],
+        [410, "ἀγχόθι", "adv. 1 bem perto ♦ prep. 2 bem perto de, gen. 〈ἄγχι〉", "bem perto de"],
+        [411, "ἀγχόνη, ης (ἡ)", "1 laço; corda para estrangular 2 estrangulamento; enforcamento 3 angústia. 〈ἄγχω〉", "laço; estrangulamento; angústia"],
+        [412, "ἀγχότατα, ἀγχοτάτω", "ἀγχοῦ.", "ἀγχοῦ"],
+        [413, "ἀγχότερος, α, ον", "o mais próximo; bem próximo de, gen. 〈ἄγχι〉", "o mais próximo"],
+        [414, "ἀγχοῦ", "adv. 1 próximo; bem perto 2 de igual modo; semelhantemente ♦ prep. 3 perto de, gen. ou dat. 〈ἄγχι〉", "próximo; bem perto"],
+        [415, "ἄγχουσα, ης (ἡ)", "1 ancusa, planta 2 corante para o rosto extraído da raiz da ancusa, ruge. 〈ἄγχω〉", "ancusa; corante para o rosto"],
+        [416, "ἄγχω", "(fut. ἄγξω, aor. ἦγξα, perf. desus.) 1 apertar; sufocar; estrangular ♦ méd. 2 enforcar-se.", "apertar; sufocar; estrangular"],
+        [417, "ἀγχώμαλος, ος, ον", "1 quase igual: ἐγένοντο ἀγχώμαλοι ἐν τῇ χειροτονίᾳ Tucídides ficaram quase iguais na votação 2 incerto; duvidoso: ἀ. μάχη Tucídides combate incerto, ἐν ἀγχωμάλῳ sem resultado decisivo ♦ ἀγχώμαλα adv. 3 de maneira equilibrada; de chances quase iguais: ἀ. ναυμαχεῖν Tucídides realizar combate naval em condições quase iguais, i.e., com equilíbrio de forças. 〈ἄγχι, ὁμαλός〉", "quase igual; incerto; equilibrado"],
+        [418, "ἀγχωμάλως", "adv. com oportunidades quase iguais.", "com oportunidades quase iguais"],
+        [419, "ἄγω", "(fut. ἄξω, aor.2 ἤγαγον, rar. aor.1 ἦξα, perf. ἦχα; pas. fut. ἀχθήσομαι ou ἄξομαι, aor. ἤχθην, perf. ἦγμαι) ativa 1 conduzir; levar; trazer 2 levar sob constrangimento, levar à força, arrastar 3 levar em saque; saquear 4 conduzir para si, atrair 5 dirigir, guiar, educar (pessoas) 6 prolongar; estender; alongar (coisas) 7 conduzir no tempo; fazer durar; manter; celebrar 8 considerar, julgar 9 ter como peso, valer 10 intr. dirigir-se; ir; caminhar ♦ ἄγε e ἄγετε, imper. usado como interj. exort., eia! vamos! continue!, sobretudo nas loc. εἰ δ’ ἄγε, νῦν δ’ ἄγε, ἄγε δή, αλλ’ ἄγε, ἄγε νῦν média 11 levar ou trazer uma coisa para si ou para tê-la consigo 12 conduzir para casa como esposa, tomar por esposa, dar por esposa 1 σχιστὴ δ’ ὁδὸς ἐς ταὐτὸ Δελφῶν κἀπὸ Δαυλίας ἄγει Sófocles uma estrada bifurcada vinda de Delfos e de Dáulia leva ao mesmo lugar, δῶκε δ’ ἄγειν ἑτάροισι ὑπερθύμοισι γυναῖκα Homero permitiu que seus destemidos companheiros levassem a mulher, ἄγω δ’αἴθωνα σίδηρον Homero trago o ferro luzente 2 ἐμέ τινες εἰς δίκας ἄγουσιν Xenofonte alguns me levam aos tribunais, ἡ πεπρωμένη ἄγει θανεῖν ἀδελφὴν ἐμήν Eurípides o destino marcado leva minha irmã à morte, ὁ ἀγαγὼν αὐτὸν ἐπὶ τὸν ὅρκον Plutarco aquele que o constrangeu a jurar. 3 φέρων καὶ ἄγων τὴν Βιθυνίζα Xenofonte carregando e levando toda a Bitínia, i.e., saqueando a Bitínia, ἦγον καὶ ἔκαιον Xenofonte saqueavam e incendiavam 4 τί με πρὸς ναοὺς ἄγαγες; Eurípides por que me atraíste ao templo? λίθος τοὺς δακτυλίους ἄγει σιδηροῦς Platão a pedra atrai os anéis de ferro 5 ἄγει ψυχὴ πάντα τὰ κατ’ οὐρανὸν καὶ γῆν Platão uma alma dirige tudo o que está no céu e na terra, ἄγοντες τὴν πόλιν ἐν ὁμονοίᾳ Demóstenes conduzindo a cidade em harmonia 6 ἧ ἐκεῖνοι ἔμελλον ἄξειν τὸ τεῖχος Tucídides por onde iriam prolongar a muralha 7 ἄγοντες τὴν ἡμέραν ταύτην πάντα τὸν χρόνον Tucídides fazendo este dia durar o tempo todo, ἄγοντας πρὸς Ἀθηναίους δεχημέρους σπονδάς Tucídides observando uma trégua de dez dias com os atenienses, ἐλευθέραν ἦγε τὴν Ἑλλάδα Demóstenes mantinha a Hélade livre, μούνη γὰρ ἄγειν οὐκέτι σωκῶ λύπης ἀντίρροπον ἄχθος Sófocles sozinha não mais sou capaz de suportar um peso equivalente à minha dor, ἄγουσι τοὺς γάμους Menandro celebram as bodas 8 περὶ πλείστου ἦγον τὰ τοῦ θεοῦ πορσύνειν Heródoto consideravam muito importante celebrar o culto do deus, ἃ μάλιστ’ ἦγεν ἐν τιμῇ Platão o que ele acima de tudo honrava 9 χρυσίδες τέτταρες ἄγουσα ἑκάστη μνᾶν Demóstenes quatro vasos de ouro, pesando cada um uma mina, ὁ ἀκινάκης ἦγε τριακοσίους δαρεικούς Demóstenes a cimitarra valia trezentos daricos 10 ἔλεγεν ὅτι ἤδη καιρὸς εἴη ἄγειν ἐπὶ τοὺς πολεμίους Xenofonte dizia que já era hora de avançar contra os inimigos 11 ἴσασι γὰρ ἐφ’ οἷς αὐτοὺς Κυαξάρης ἄγεται συμμάχους Xenofonte sabem sob que condições Ciáxares os levava como aliados, καὶ μ’ ἔφασαν χρυσόν τε καὶ ἄργυρον οἴκαδ’ ἄγεσθαι Homero diziam que eu estava levando para casa ouro e prata 12 γυναῖκα τεκνοποιὸν μὴ ἄγεσθαι ἐς τὰ οἰκία Heródoto não levar para casa uma mulher que possa ter filhos, ὑεῖ δὲ Σπάρτηθεν Ἀλέκτορος ἤγετο κούρην Homero para seu filho trazia de Esparta como esposa a filha de Alector.", "conduzir; levar; trazer; guiar; celebrar"],
+        [420, "ἀγῷ, ῇς, ῇ", "subj. aor.2 pas. de ἄγνυμι.", "subjuntivo aoristo passivo de ἄγνυμι"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
