@@ -544,6 +544,17 @@ window.ScripturaLexicons.LEH = {
             type: "biblio",
             text: "T. K. Sanders, “A New Approach to 1 Corinthians 13.1”, NTS 36 (1990), pp. 614–618"
         }
+        ,
+        {
+            key: "CAIRD 1968b=1972",
+            type: "biblio",
+            text: "G. B. Caird, “Towards a Lexicon of the Septuagint. I”, JTS 19 (1968), pp. 453–475; reimpresso em R. A. Kraft (ed.), Septuagintal Lexicography (SCS 1), Missoula, MT, 1972, pp. 110–132"
+        },
+        {
+            key: "MILLIGAN 1910=1980",
+            type: "biblio",
+            text: "G. Milligan, Selections from the Greek Papyri. Edited with Translations and Notes, Cambridge, 1910; reimpr. Chicago, IL, 1980"
+        }
     ],
 
     rowsHtml: String.raw`
@@ -1513,7 +1524,67 @@ window.ScripturaLexicons.LEH = {
 <tr class="search-row" data-dictionary="grego" data-target="entry-algedon-leh" data-source="LEH" data-search="ἀλγηδών dor; sofrimento; aflição LEH" tabindex="0"><td class="table-lemma greek">ἀλγηδών</td><td>Substantivo</td><td>dor; sofrimento; aflição</td><td><span class="source-pill">LEH</span></td></tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-algema-leh" data-source="LEH" data-search="ἄλγημα dor; aflição LEH" tabindex="0"><td class="table-lemma greek">ἄλγημα</td><td>Substantivo</td><td>dor; aflição</td><td><span class="source-pill">LEH</span></td></tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-algeros-leh" data-source="LEH" data-search="ἀλγηρός doloroso LEH" tabindex="0"><td class="table-lemma greek">ἀλγηρός</td><td>Adjetivo</td><td>doloroso</td><td><span class="source-pill">LEH</span></td></tr>
-<tr class="search-row" data-dictionary="grego" data-target="entry-algos-leh" data-source="LEH" data-search="ἄλγος dor corporal; aflição LEH" tabindex="0"><td class="table-lemma greek">ἄλγος</td><td>Substantivo</td><td>dor corporal; aflição</td><td><span class="source-pill">LEH</span></td></tr>`,
+<tr class="search-row" data-dictionary="grego" data-target="entry-algos-leh" data-source="LEH" data-search="ἄλγος dor corporal; aflição LEH" tabindex="0"><td class="table-lemma greek">ἄλγος</td><td>Substantivo</td><td>dor corporal; aflição</td><td><span class="source-pill">LEH</span></td></tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haleeus-leh" data-source="LEH" data-search="ἁλεεύς haleeus pescador Isaías Jeremias Ezequiel ἁλιεύς LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλεεύς</td><td>Substantivo</td><td>pescador</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aleimma-leh" data-source="LEH" data-search="ἄλειμμα aleimma substância para unção unguento Êxodo Isaías Daniel Theodotion LE BOULLUEC LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλειμμα</td><td>Substantivo</td><td>substância para unção; unguento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aleipho-leh" data-source="LEH" data-search="ἀλείφω aleipho ungir caiar rebocar parede Gênesis Êxodo Números Samuel NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλείφω</td><td>Verbo</td><td>ungir; caiar; rebocar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alektryon-leh" data-source="LEH" data-search="ἀλεκτρυών alektryon galo 3 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλεκτρυών</td><td>Substantivo</td><td>galo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alektor-leh" data-source="LEH" data-search="ἀλέκτωρ alektor galo Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλέκτωρ</td><td>Substantivo</td><td>galo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alemoni-leh" data-source="LEH" data-search="Αλεμωνι Alemoni אלמני certo homem 1 Samuel TOV 1973 LEH" tabindex="0">
+    <td class="table-lemma greek">Αλεμωνι</td><td>Forma transliterada</td><td>certo homem</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aleuron-leh" data-source="LEH" data-search="ἄλευρον aleuron farinha cereal Números Juízes Samuel LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλευρον</td><td>Substantivo</td><td>farinha de cereal</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aleo-leh" data-source="LEH" data-search="ἀλέω aleo moer Juízes Isaías LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλέω</td><td>Verbo</td><td>moer</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aletheia-leh" data-source="LEH" data-search="ἀλήθεια aletheia verdade veracidade símbolo verdade Tumim fidelidade Gênesis Êxodo Levítico Samuel BARR CAIRD HARL LARCHER SPICQ NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλήθεια</td><td>Substantivo</td><td>verdade; veracidade; símbolo da verdade; fidelidade</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aletheuo-leh" data-source="LEH" data-search="ἀληθεύω aletheuo dizer falar verdade comprovar verdadeiro verificar Gênesis Isaías Provérbios Sirácida SPICQ NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀληθεύω</td><td>Verbo</td><td>dizer a verdade; comprovar como verdadeiro; verificar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alethes-leh" data-source="LEH" data-search="ἀληθής alethes verdadeiro veraz honesto genuíno verdadeiramente Gênesis Deuteronômio Isaías Jó Neemias Sabedoria Macabeus SPICQ NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀληθής</td><td>Adjetivo</td><td>verdadeiro; veraz; honesto; genuíno; verdadeiramente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alethinos-leh" data-source="LEH" data-search="ἀληθινός alethinos veraz digno confiança verdadeiro genuíno Êxodo Números Deuteronômio Isaías Jó SPICQ NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀληθινός</td><td>Adjetivo</td><td>veraz; digno de confiança; verdadeiro; genuíno</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alethinos-adv-leh" data-source="LEH" data-search="ἀληθινῶς alethinōs verdadeiramente realmente Números Tobias LEH" tabindex="0">
+    <td class="table-lemma greek">ἀληθινῶς</td><td>Advérbio</td><td>verdadeiramente; realmente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aletho-leh" data-source="LEH" data-search="ἀλήθω aletho moer Números Juízes Eclesiastes LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλήθω</td><td>Verbo</td><td>moer</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alethos-leh" data-source="LEH" data-search="ἀληθῶς alethōs verdadeiramente realmente de fato Gênesis Êxodo Deuteronômio Josué Macabeus Jeremias SPICQ NIDNTT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀληθῶς</td><td>Advérbio</td><td>verdadeiramente; realmente; de fato; realmente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alektos-leh" data-source="LEH" data-search="ἄληκτος alektos incessante 3 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἄληκτος</td><td>Adjetivo</td><td>incessante</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haliaietos-leh" data-source="LEH" data-search="ἁλιαίετος haliaietos águia marinha Levítico Deuteronômio WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλιαίετος</td><td>Substantivo</td><td>águia-marinha</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halieus-leh" data-source="LEH" data-search="ἁλιεύς halieus pescador Jó דיגים דגים HORSLEY MILLIGAN ἁλεεύς LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλιεύς</td><td>Substantivo</td><td>pescador</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halieuo-leh" data-source="LEH" data-search="ἀλιεύω halieuo pescar pegar peixe metaforicamente vingador Jeremias LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλιεύω</td><td>Verbo</td><td>pescar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halizo-leh" data-source="LEH" data-search="ἁλίζω halizo salgar Levítico Ezequiel Tobias NIDNTT LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλίζω</td><td>Verbo</td><td>salgar</td><td><span class="source-pill">LEH</span></td>
+</tr>`,
 
     cardsHtml: String.raw`
 <article id="entry-a-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
@@ -4065,5 +4136,145 @@ window.ScripturaLexicons.LEH = {
 <article id="entry-algedon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀλγηδών</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλγηδών, -όνος · algēdōn" data-transliteration="algēdōn" data-meanings="dor|sofrimento|aflição">ἀλγηδών, -όνος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-15=16</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>dor, sofrimento</strong> (2Mc 6.30); <strong>aflição</strong> (Sl 37(38).18).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Sl 37(38).18; 2Mc 6.30; 7.12; 9.5,9.</p></section></article>
 <article id="entry-algema-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἄλγημα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλγημα, -ατος · algēma" data-transliteration="algēma" data-meanings="dor|aflição">ἄλγημα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>dor, aflição</strong>.</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Sl 38(39).3; Ecl 1.18; 2.23.</p></section></article>
 <article id="entry-algeros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀλγηρός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλγηρός, -ά, -όν · algēros" data-transliteration="algēros" data-meanings="doloroso">ἀλγηρός, -ά, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-3-0-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>doloroso</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p><p class="entry-text"><strong>Ocorrências citadas:</strong> Jr 10.19; 37(30).12,13.</p></section></article>
-<article id="entry-algos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἄλγος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλγος, -ους · algos" data-transliteration="algos" data-meanings="dor corporal|aflição">ἄλγος, -ους</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-4-2=6</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>dor</strong>, do corpo (Sl 68(69).27); <strong>aflição</strong> (Sr 26.6).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Sl 68(69).27; Lm 1.12 (bis),18; 2Mc 3.17.</p></section></article>`
+<article id="entry-algos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἄλγος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλγος, -ους · algos" data-transliteration="algos" data-meanings="dor corporal|aflição">ἄλγος, -ους</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-4-2=6</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>dor</strong>, do corpo (Sl 68(69).27); <strong>aflição</strong> (Sr 26.6).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Sl 68(69).27; Lm 1.12 (bis),18; 2Mc 3.17.</p></section></article>
+<article id="entry-haleeus-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλεεύς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλεεύς, -έως · haleeus" data-transliteration="haleeus" data-meanings="pescador">ἁλεεύς, -έως</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-3-0-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pescador</strong>; ver <span class="greek">ἁλιεύς</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Is 19.8; Jr 16.16; Ez 47.10.</p>
+    </section>
+</article>
+<article id="entry-aleimma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλειμμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλειμμα, -ατος · aleimma" data-transliteration="aleimma" data-meanings="substância para unção| unguento">ἄλειμμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 1-0-1-1-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>qualquer substância usada para unção; unguento</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 30.31; Is 61.3; Dn<sup>Th</sup> 10.3.</p>
+        <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 311.</p>
+    </section>
+</article>
+<article id="entry-aleipho-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλείφω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλείφω · aleiphō" data-transliteration="aleiphō" data-meanings="ungir| caiar| rebocar">ἀλείφω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 4-4-8-4-1=21</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ungir</strong> [<span class="greek">τι</span>] (Gn 31.13); idem, [<span class="greek">τινα</span>] (Êx 40.15); <strong>caiar, rebocar</strong> uma parede [<span class="greek">τι</span>] (Êx 13.15).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="μὴ ἀλείψῃ ἔλαιον · mē aleipsē elaion" data-transliteration="mē aleipsē elaion" data-meanings="não te unjas com óleo">μὴ ἀλείψῃ ἔλαιον</span>: <strong>não te unjas com óleo</strong> (2Sm 14.2).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 31.13; Êx 40.15 (bis); Nm 3.3; 2Sm 12.20.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+        <p class="entry-text">(→ <span class="greek">ἀπ-</span>, <span class="greek">ἐξ-</span>).</p>
+    </section>
+</article>
+<article id="entry-alektryon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλεκτρυών</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλεκτρυών, -όνος · alektryōn" data-transliteration="alektryōn" data-meanings="galo">ἀλεκτρυών, -όνος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>galo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 5.23.</p>
+    </section>
+</article>
+<article id="entry-alektor-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλέκτωρ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλέκτωρ, -ορος · alektōr" data-transliteration="alektōr" data-meanings="galo">ἀλέκτωρ, -ορος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>galo</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Pv 30.31.</p>
+    </section>
+</article>
+<article id="entry-alemoni-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">Αλεμωνι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Αλεμωνι · Alemōni" data-transliteration="Alemōni" data-meanings="certo homem">Αλεμωνι</span><span class="separator">·</span><span>categoria morfológica não indicada no LEH</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אלמני" data-transliteration="ʾlmnī" data-meanings="certo homem">אלמני</bdi>: <strong>certo homem</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 1Sm 21.3.</p>
+        <p class="entry-text"><strong>Cf.</strong> TOV 1973, 89.</p>
+    </section>
+</article>
+<article id="entry-aleuron-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλευρον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλευρον, -ου · aleuron" data-transliteration="aleuron" data-meanings="farinha de cereal">ἄλευρον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 1-11-2-0-0=14</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>farinha</strong>, de cereal, frequentemente no plural.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 5.15; Jz 6.19; 1Sm 28.24; 2Sm 17.28.</p>
+    </section>
+</article>
+<article id="entry-aleo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλέω · aleō" data-transliteration="aleō" data-meanings="moer">ἀλέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-1-1-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>moer</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jz<sup>B</sup> 16.21; Is 47.2.</p>
+        <p class="entry-text">(→ <span class="greek">κατ-</span>).</p>
+    </section>
+</article>
+<article id="entry-aletheia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλήθεια</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλήθεια, -ας · alētheia" data-transliteration="alētheia" data-meanings="verdade| veracidade| símbolo da verdade| fidelidade">ἀλήθεια, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 8-19-24-94-61=206</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>verdade</strong> (Gn 24.27); <strong>veracidade</strong> (Pv 28.6); <strong>símbolo da verdade</strong>, acerca dos Tumim (Lv 8.8); <strong>fidelidade</strong> (Gn 47.29).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="κύριος ποιήσει μετὰ σοῦ ἔλεος καὶ ἀλήθειαν · kyrios poiēsei meta sou eleos kai alētheian" data-transliteration="kyrios poiēsei meta sou eleos kai alētheian" data-meanings="o Senhor tratará contigo com misericórdia e fidelidade">κύριος ποιήσει μετὰ σοῦ ἔλεος καὶ ἀλήθειαν</span>: <strong>o Senhor tratará contigo com misericórdia e fidelidade</strong> (2Sm 15.20).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 24.27,48; 32.11; 47.29; Êx 28.30.</p>
+        <p class="entry-text"><strong>Cf.</strong> BARR 1961, 187–200; CAIRD 1968b=1972, 124 (Lv 8.8; Dt 33.8); HARL 1986a, 301 (Gn 47.29); LARCHER 1983, 290; 1984, 365; SPICQ 1982, 17–19; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-aletheuo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀληθεύω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀληθεύω · alētheuō" data-transliteration="alētheuō" data-meanings="dizer a verdade| comprovar como verdadeiro| verificar">ἀληθεύω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-0-1-1-1=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>dizer a verdade</strong> [abs.] (Gn 42.16); <strong>comprovar como verdadeiro, verificar</strong> [<span class="greek">τι</span>] (Is 44.26).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="καὶ πάντα ἀλήθευσον · kai panta alētheuson" data-transliteration="kai panta alētheuson" data-meanings="e dize a verdade em todas as coisas">καὶ πάντα ἀλήθευσον</span>: <strong>e dize a verdade em todas as coisas</strong> (Gn 20.16).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Gn 20.16; 42.16; Is 44.26; Pv 21.3; Sr 34.4.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1982, 31–32; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-alethes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀληθής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀληθής, -ής, -ές · alēthēs" data-transliteration="alēthēs" data-meanings="verdadeiro| veraz| honesto| genuíno| verdadeiramente">ἀληθής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 2-0-2-9-9=22</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>verdadeiro</strong> (Gn 41.32); <strong>veraz, honesto</strong>, de pessoa (Ne 7.2); <strong>genuíno</strong> (Sb 6.17); <span class="greek">τἀληθές</span>: <strong>verdadeiramente</strong> (3Mc 7.12).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 41.32; Dt 13.15; Is 41.26; 43.9; Jó 5.12.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1982, 33–34; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-alethinos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀληθινός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀληθινός, -ή, -όν · alēthinos" data-transliteration="alēthinos" data-meanings="veraz| digno de confiança| verdadeiro| genuíno">ἀληθινός, -ή, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 5-5-9-22-9=50</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>veraz, digno de confiança</strong>, de pessoa (Êx 34.6); <strong>verdadeiro</strong> (Dt 25.15); <strong>verdadeiro, genuíno</strong> (Is 38.3).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Jó 4.12, <span class="greek">ἀληθινόν</span> “verdade” — talvez correção de <span class="greek">λήθιον</span> “segredo” — diante do MT <bdi class="hebrew" lang="he" dir="rtl">יגנב</bdi>, “foi trazido furtivamente?”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 34.6; Nm 14.18; Dt 25.15 (bis); 32.4.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1982, 34–35; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-alethinos-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀληθινῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀληθινῶς · alēthinōs" data-transliteration="alēthinōs" data-meanings="verdadeiramente| realmente">ἀληθινῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-0-5=7</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>verdadeiramente, realmente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 24.3,15; Tb 14.6; Tb<sup>S</sup> 3.5.</p>
+    </section>
+</article>
+<article id="entry-aletho-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλήθω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλήθω · alēthō" data-transliteration="alēthō" data-meanings="moer">ἀλήθω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-1-0-2-0=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>moer</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Nm 11.8; Jz<sup>A</sup> 16.21; Ecl 12.3,4.</p>
+    </section>
+</article>
+<article id="entry-alethos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀληθῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀληθῶς · alēthōs" data-transliteration="alēthōs" data-meanings="verdadeiramente| realmente| de fato| realmente">ἀληθῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 4-5-2-4-5=20</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>verdadeiramente, realmente, de fato</strong> (Gn 18.13); <strong>realmente, de fato</strong> (2Mc 3.38).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ὡς ἀληθῶς · hōs alēthōs" data-transliteration="hōs alēthōs" data-meanings="de modo verdadeiro; realmente">ὡς ἀληθῶς</span>: <strong>de modo verdadeiro, realmente</strong> (4Mc 6.5).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Jr 28(51).13, <span class="greek">ἀληθῶς</span> “verdadeiramente” — <bdi class="hebrew" lang="he" dir="rtl">אמת</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">אמת</bdi>, “extensão, medida de”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 18.13; 20.12; Êx 33.16; Dt 17.4; Js 7.20.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1982, 36; → NIDNTT.</p>
+    </section>
+</article>
+<article id="entry-alektos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄληκτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄληκτος, -ος, -ον · alēktos" data-transliteration="alēktos" data-meanings="incessante">ἄληκτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>incessante</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 4.2.</p>
+    </section>
+</article>
+<article id="entry-haliaietos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλιαίετος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλιαίετος, -ου · haliaietos" data-transliteration="haliaietos" data-meanings="águia-marinha">ἁλιαίετος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>águia-marinha</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Lv 11.13; Dt 14.12.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 80–81.</p>
+    </section>
+</article>
+<article id="entry-halieus-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλιεύς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλιεύς, -έως · halieus" data-transliteration="halieus" data-meanings="pescador">ἁλιεύς, -έως</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pescador</strong>.</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Jó 40.31(26), <span class="greek">ἁλιέων</span> “pescadores” — <bdi class="hebrew" lang="he" dir="rtl">דיגים</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">דגים</bdi>, “peixes”.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Jó 40.31; ver <span class="greek">ἁλεεύς</span>.</p>
+        <p class="entry-text"><strong>Cf.</strong> HORSLEY 1983, 18–19; MILLIGAN 1910=1980, 34.</p>
+    </section>
+</article>
+<article id="entry-halieuo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλιεύω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλιεύω · halieuō" data-transliteration="halieuō" data-meanings="pescar">ἀλιεύω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pescar, apanhar peixes</strong>, metaforicamente a respeito de um vingador.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Jr 16.16.</p>
+    </section>
+</article>
+<article id="entry-halizo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλίζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλίζω · halizō" data-transliteration="halizō" data-meanings="salgar">ἁλίζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-1-0-1=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>salgar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Lv 2.13; Ez 16.4; Tb<sup>S</sup> 6.5.</p>
+        <p class="entry-text">→ NIDNTT.</p>
+    </section>
+</article>`
 };
