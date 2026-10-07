@@ -1474,3 +1474,46 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 34 — registros 661–680
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "protét.", type: "abbr", text: "protético" }
+    );
+    const entries = [
+        [661,"ἀέκητι","adv. 1 contra a vontade ♦ prep. 2 contra a vontade de, gen. 〈ἀ-, ἕκητι〉","contra a vontade; contra a vontade de"],
+        [662,"ἀεκούσιος, ος, ον","ép., poét., jôn. = ἀκούσιος.","forma épica, poética e jônica de ἀκούσιος"],
+        [663,"ἀέκων, ουσα, ον","ἄκων.","ἄκων"],
+        [664,"ἄελλα, ης (ἡ)","tempestade; ventania; furacão. 〈ἄημι〉","tempestade; ventania; furacão"],
+        [665,"ἀελλάς, άδος (ἡ)","ἄελλα.","ἄελλα"],
+        [666,"ἀελλής","(masc, só no nom.) que redemoinha. 〈ἀ- protét., εἵλω〉","que redemoinha"],
+        [667,"ἀελλόπος, ος, ον","ἀελλόπους.","ἀελλόπους"],
+        [668,"ἀελλόπους, ους, ους","gen. ποδός de pés rápidos como o furacão. 〈ἄελλα, πούς〉","de pés rápidos como o furacão"],
+        [669,"ἀελπτέω-ῶ","(só no part. pres. ἀελπτέοντες) não ter esperanças em; desesperar de, inf. 〈ἄελπτος〉","desesperar; não ter esperanças"],
+        [670,"ἀελπτής","por ἀελπής, ής, ές = ἄελπτος.","forma de ἄελπτος"],
+        [671,"ἄελπτος, ος, ον","poét., jôn. 1 inesperado; ἐξ ἀέλπτου, ἐξ ἀέλπτων contra toda expectativa 2 sem esperança; desesperado ♦ ἄελπτα adv. 3 contra toda expectativa; inesperadamente. 〈ἀ-, ἔλπομαι〉","inesperado; sem esperança"],
+        [672,"ἀέναος, ος, ον","1 que flui sempre 2 que não se esgota (bens); inexaurível; perpétuo. 〈ἀεί, νάω〉","que flui sempre; inexaurível"],
+        [673,"ἀενάων, ουσα, ον","gen. οντος = ἀέναος.","forma de ἀέναος"],
+        [674,"ἀέντος","gen. de ἀείς.","genitivo de ἀείς"],
+        [675,"ἀεξίφυλλος, ος, ον","frondoso. 〈ἀέξω, φύλλον〉","frondoso"],
+        [676,"ἀέξω","(fut. ἀεξήσω, aor. ἠέξησα, perf. desus.) poét. 1 fazer crescer; aumentar 2 elevar; exaltar 3 intr. crescer; aumentar ♦ pas. 4 desenvolver-se.","fazer crescer; aumentar; desenvolver-se"],
+        [677,"ἄεπτος, ος, ον","duv. 1 que não pode seguir 2 insuportável 3 feroz. 〈ἀ-, ἕπομαι〉","duvidoso: impossível de seguir; insuportável; feroz"],
+        [678,"ἀεργία, ας (ἡ)","1 inatividade; inércia; preguiça 2 repouso (da terra); pousio. 〈ἀεργός〉","inatividade; inércia; preguiça"],
+        [679,"ἀεργός, ός, όν","1 inativo; ocioso; preguiçoso 2 inerte (coisa) 3 tard. que enfraquece; que debilita; que torna preguiçoso. 〈ἀ-, ἔργον〉","inativo; ocioso; preguiçoso"],
+        [680,"ἀέρδην","adv. no alto; no ar. 〈ἀείρω〉","no alto; no ar"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
