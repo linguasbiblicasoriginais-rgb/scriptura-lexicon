@@ -496,3 +496,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 13 — registros 241–260
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    const entries = [
+        [241, "ἀγκρούομαι", "poét. = ἀνακρούομαι.", "forma poética de ἀνακρούομαι"],
+        [242, "ἀγκύλη, ης (ἡ)", "1 correia de couro fixada à haste de uma lança pelas duas extremidades; correia recurvada 2 lança com correia ou com alça 3 toda corda que forma um anel: corda de arco; amarra de navio; laço por onde passam os braços de alavanca dos mecanismos de arremesso; coleira; cadarço de calçado 4 articulação; curvatura do braço ou do joelho. 〈ἄγκος〉", "correia; lança; laço; articulação"],
+        [243, "ἀγκυλογλώχιν, ινος", "(masc., fem.) de esporões curvos. 〈ἀγκύλος, γλωχίς〉", "de esporões curvos"],
+        [244, "ἀγκυλομήτης, ου", "(masc., fem.) de espírito ardiloso; astuto. 〈ἀγκύλος, μῆτις〉", "astuto; de espírito ardiloso"],
+        [245, "ἀγκυλόπους, ους, ουν", "gen. ποδος de pés curvos, só com δίφρος, cadeira curul. 〈ἀγκύλος, ποῦς〉", "de pés curvos"],
+        [246, "ἀγκύλος, η, ον", "1 curvo; recurvado 2 ardiloso (caráter) 3 complicado 4 conciso (estilo).", "curvo; ardiloso; complicado"],
+        [247, "ἀγκυλότοξος, ος, ον", "de arco recurvo. 〈ἀγκύλος, τόξον〉", "de arco recurvo"],
+        [248, "ἀγκυλοχείλης, ου", "(masc.) de bico recurvado. 〈ἀγκύλος, χεῖλος〉", "de bico recurvado"],
+        [249, "ἄγκυρα, ας (ἡ)", "1 âncora: ἄγκυραν καθιέναι, μεθιέναι, ἀφιέναι lançar âncora; ἄγκυραν αἴρειν, αἴρεσθαι levantar âncora 2 foice ou podadeira.", "âncora; foice"],
+        [250, "ἀγκυρουχία, ας (ἡ)", "ancoragem de um navio. 〈ἄγκυρα, ἔχω〉", "ancoragem de navio"],
+        [251, "ἀγκύψας", "part. aor. poét. de ἀνακύπτω.", "particípio aoristo poético de ἀνακύπτω"],
+        [252, "ἀγκών, ῶνος (ὁ)", "1 cotovelo 2 articulação de um membro 3 curva; sinuosidade; ângulo. 4 braço de cadeira.", "cotovelo; articulação; ângulo"],
+        [253, "ἀγλαΐα, ας (ἡ)", "1 brilho; esplendor 2 brilho vão; vaidade 3 festa; triunfo; alegria 4 enfeite; adorno 5 Aglaia, uma das três Graças. 〈ἀγλαός〉", "brilho; esplendor; festa; adorno"],
+        [254, "ἀγλαΐζω", "(só pres., impf. ἠγλάϊζον e aor. ἠγλάϊσα; perf. pas. ἠγλάϊσμαι) 1 tornar esplêndido; glorificar 2 rar. considerar como honra ♦ méd. 3 glorificar-se; ornar-se; adquirir brilho 4 experimentar uma forte alegria. 〈ἀγλαός〉", "tornar esplêndido; glorificar"],
+        [255, "ἀγλαΐη", "jôn. = ἀγλαΐα.", "forma jônica de ἀγλαΐα"],
+        [256, "ἀγλαΐηφι", "dat. ép. de ἀγλαΐα.", "dativo épico de ἀγλαΐα"],
+        [257, "ἀγλάϊσμα, ατος (τό)", "brilho; adorno; enfeite. 〈ἀγλαΐζω〉", "brilho; adorno"],
+        [258, "ἀγλαόκαρπος, ος, ον", "que tem ou produz frutos magníficos. 〈ἀγλαός, καρπός〉", "de frutos magníficos"],
+        [259, "ἀγλαός, ή", "e ός, όν 1 brilhante; esplêndido 2 resplandecente de força ou de beleza; esplêndido (homem) 3 ilustre; glorioso.", "brilhante; esplêndido; glorioso"],
+        [260, "ἀγλαοφωτίς, ίδος (ἡ)", "γλυκυσίδη. 〈ἀγλαός, φῶς〉", "γλυκυσίδη"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
