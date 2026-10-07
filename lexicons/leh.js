@@ -706,6 +706,11 @@ window.ScripturaLexicons.LEH = {
             key: "SPICQ 1973",
             type: "biblio",
             text: "C. Spicq, “Note sur μορφή dans les papyrus et quelques inscriptions”, RB 80 (1973), pp. 37–45"
+        },
+        {
+            key: "KATZ 1938",
+            type: "biblio",
+            text: "P. Katz [= P. Walters], “Biblia Hebraica”, ThLZ 63 (1938), cols. 32–34"
         }
     ],
 
@@ -2276,6 +2281,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-anaides-leh" data-source="LEH" data-search="ἀναιδής anaides adjetivo desavergonhado ousado duro peremptório Deuteronômio 1 Samuel Isaías Jeremias Provérbios Daniel hebraico MT Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀναιδής</td><td>Adjetivo</td><td>desavergonhado; ousado; duro; peremptório</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaidos-leh" data-source="LEH" data-search="ἀναιδῶς anaidos advérbio impudentemente de modo ímpio Provérbios LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναιδῶς</td><td>Advérbio</td><td>impudentemente; de modo ímpio</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anairesis-leh" data-source="LEH" data-search="ἀναίρεσις anairesis substantivo destruição matança execução levantamento elevação Números Juízes Judite 2 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναίρεσις</td><td>Substantivo</td><td>destruição; matança; execução; levantamento; elevação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaireo-leh" data-source="LEH" data-search="ἀναιρέω anaireo verbo destruir matar abater levantar carregar adotar retirar Gênesis Êxodo Samuel Daniel hebraico MT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναιρέω</td><td>Verbo</td><td>destruir; matar; levantar; levar; adotar; retirar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaitios-leh" data-source="LEH" data-search="ἀναίτιος anaitios adjetivo inocente Deuteronômio Susana Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναίτιος</td><td>Adjetivo</td><td>inocente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaitios-adv-leh" data-source="LEH" data-search="ἀναιτίως anaitios advérbio sem causa 4 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναιτίως</td><td>Advérbio</td><td>sem causa</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakainizo-leh" data-source="LEH" data-search="ἀνακαινίζω anakainizo verbo renovar Salmos Lamentações 1 Macabeus TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακαινίζω</td><td>Verbo</td><td>renovar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakaio-leh" data-source="LEH" data-search="ἀνακαίω anakaiō verbo acender incendiar atear fogo metáfora Ezequiel Oseias Judite Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακαίω</td><td>Verbo</td><td>acender; incendiar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakaleo-leh" data-source="LEH" data-search="ἀνακαλέω anakaleo verbo chamar convocar clamar Êxodo Levítico Números 4 Macabeus ativo médio LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακαλέω</td><td>Verbo</td><td>chamar; convocar; clamar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakalypto-leh" data-source="LEH" data-search="ἀνακαλύπτω anakalypto verbo descobrir destapar revelar Deuteronômio Isaías Esdras Tobias Jó hebraico MT NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακαλύπτω</td><td>Verbo</td><td>descobrir; destapar; revelar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakampto-leh" data-source="LEH" data-search="ἀνακάμπτω anakampto verbo retornar voltar Êxodo Juízes 2 Samuel 1 Reis HORSLEY Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακάμπτω</td><td>Verbo</td><td>retornar; voltar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakeimai-leh" data-source="LEH" data-search="ἀνάκειμαι anakeimai verbo estar à mesa reclinar-se 1 Esdras Tobias TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάκειμαι</td><td>Verbo</td><td>estar à mesa; reclinar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakerysso-leh" data-source="LEH" data-search="ἀνακηρύσσω anakerysso verbo proclamar 4 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακηρύσσω</td><td>Verbo</td><td>proclamar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaklao-leh" data-source="LEH" data-search="ἀνακλάω anaklao verbo dobrar para trás 4 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακλάω</td><td>Verbo</td><td>dobrar para trás</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaklino-leh" data-source="LEH" data-search="ἀνακλίνω anaklino verbo inclinar-se para trás reclinar-se 3 Macabeus MARGOLIS Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακλίνω</td><td>Verbo</td><td>inclinar-se para trás; reclinar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaklisis-leh" data-source="LEH" data-search="ἀνάκλισις anaklisis substantivo ato de reclinar inclinar Cântico hebraico MT correção dúvida KATZ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάκλισις</td><td>Substantivo</td><td>ato de reclinar-se ou inclinar-se para trás</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakliton-leh" data-source="LEH" data-search="ἀνάκλιτον anakliton substantivo algo sobre que se reclina encosto cadeira Cântico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάκλιτον</td><td>Substantivo</td><td>algo sobre o que se reclina; encosto de cadeira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakoinoo-leh" data-source="LEH" data-search="ἀνακοινόω anakoinoo verbo médio comunicar-se consultar-se aconselhar-se 2 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακοινόω</td><td>Verbo</td><td>comunicar-se com; consultar-se com</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakomizomai-leh" data-source="LEH" data-search="ἀνακομίζομαι anakomizomai verbo médio passivo levar para cima retirar consigo recuperar retornar voltar Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακομίζομαι</td><td>Verbo</td><td>levar para cima; retirar consigo; recuperar; retornar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakopto-leh" data-source="LEH" data-search="ἀνακόπτω anakopto verbo empurrar para trás quebrar deter acalmar ira ser repelido restringido 4 Macabeus Sabedoria ativo passivo Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακόπτω</td><td>Verbo</td><td>empurrar para trás; quebrar; deter; acalmar; ser repelido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anakrazo-leh" data-source="LEH" data-search="ἀνακράζω anakrazo verbo gritar levantar voz bradar Josué Juízes 1 Samuel Joel ativo médio TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνακράζω</td><td>Verbo</td><td>gritar; levantar a voz; bradar</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -6143,6 +6208,142 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>desavergonhado</strong> (1Sm 2.29); <strong>ousado</strong> (Dt 28.50); <strong>duro, peremptório</strong> (Dn<sup>Th</sup> 2.15).</p>
         <p class="entry-text"><strong>Nota textual do LEH:</strong> *1Sm 2.29, <span class="greek">ἀναιδεῖ ὀφθαλμῷ</span> “com um olho mau” — <bdi class="hebrew" lang="he" dir="rtl">מעוין</bdi> ◊<bdi class="hebrew" lang="he" dir="rtl">עין</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">מעון</bdi>, “lugar, templo?”.</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Dt 28.50; 1Sm 2.29; Is 56.11; Jr 8.5; Pv 7.13.</p>
+    </section>
+</article>
+<article id="entry-anaidos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναιδῶς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναιδῶς · anaidōs" data-transliteration="anaidōs" data-meanings="impudentemente|de modo ímpio">ἀναιδῶς</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>impudentemente, de modo ímpio</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Pv 21.29.</p>
+    </section>
+</article>
+<article id="entry-anairesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναίρεσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναίρεσις, -εως · anairesis" data-transliteration="anairesis" data-meanings="destruição|matança|execução|levantamento|elevação">ἀναίρεσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 1-1-0-0-2=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>destruição, matança, execução</strong> (Nm 11.15); <strong>levantamento, elevação</strong> (Jz<sup>B</sup> 15.17).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Nm 11.15; Jz<sup>B</sup> 15.17; Jdt 15.4; 2Mc 5.13.</p>
+    </section>
+</article>
+<article id="entry-anaireo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναιρέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναιρέω · anaireō" data-transliteration="anaireō" data-meanings="destruir|matar|abater|levantar|levar|adotar|retirar">ἀναιρέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 14-14-27-10-25=90</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>destruir</strong> [<span class="greek">τι</span>] (2Sm 10.18); <strong>destruir, matar, abater</strong> [<span class="greek">τινα</span>] (Gn 4.15).</p>
+        <p class="entry-text"><strong>Médio:</strong> <strong>levantar, levar, adotar</strong> [<span class="greek">τι</span>] (Êx 2.5); <strong>retirar</strong> [<span class="greek">τι</span>] (Dn<sup>Th</sup> 1.16).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Êx 15.9, <span class="greek">ἀνελῶ (τῇ μαχαίρῃ μου)</span> “matarei (com a minha espada)” — a extração do LEH associa a leitura a <bdi class="hebrew" lang="he" dir="rtl">אהרג</bdi> ◊<bdi class="hebrew" lang="he" dir="rtl">הרג</bdi>? e <bdi class="hebrew" lang="he" dir="rtl">בחרבי</bdi>, para o MT <bdi class="hebrew" lang="he" dir="rtl">אריק</bdi> ◊<bdi class="hebrew" lang="he" dir="rtl">ריק</bdi> e <bdi class="hebrew" lang="he" dir="rtl">חרבי</bdi>, “desembainharei (a minha espada)”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 4.15; Êx 2.5,10,14 (bis).</p>
+    </section>
+</article>
+<article id="entry-anaitios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναίτιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναίτιος, -οσ/α, -ον · anaitios" data-transliteration="anaitios" data-meanings="inocente">ἀναίτιος, -οσ/α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 4-0-0-0-2=6</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>inocente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Dt 19.10,13; 21.8,9; Sus<sup>LXX</sup> 60.</p>
+        <p class="entry-text">→ NIDNTT.</p>
+    </section>
+</article>
+<article id="entry-anaitios-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναιτίως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναιτίως · anaitiōs" data-transliteration="anaitiōs" data-meanings="sem causa">ἀναιτίως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem causa</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 4Mc 12.14.</p>
+    </section>
+</article>
+<article id="entry-anakainizo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακαινίζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακαινίζω · anakainizō" data-transliteration="anakainizō" data-meanings="renovar">ἀνακαινίζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-4-1=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>renovar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Sl 38(39).3; 102(103).5; 103(104).30; Lm 5.21; 1Mc 6.9.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+<article id="entry-anakaio-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακαίω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακαίω · anakaiō" data-transliteration="anakaiō" data-meanings="acender|incendiar">ἀνακαίω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-4-0-3=7</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>acender, incendiar</strong> (Jdt 7.5); <strong>acender</strong> (metáf.) (Sr 9.8).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Ez 5.2; 24.10; Os 7.6 (bis); Jdt 7.5.</p>
+    </section>
+</article>
+<article id="entry-anakaleo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακαλέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακαλέω · anakaleō" data-transliteration="anakaleō" data-meanings="chamar|convocar|clamar">ἀνακαλέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 5-1-0-0-1=7</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>chamar</strong> [<span class="greek">τινα</span>] (Êx 35.30); <strong>convocar</strong> [<span class="greek">τι</span>] (uma assembleia) (Nm 10.2).</p>
+        <p class="entry-text"><strong>Médio:</strong> <strong>chamar</strong> [<span class="greek">τινα</span>] (Êx 31.2); <strong>clamar</strong> [abs.] (4Mc 14.17).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 31.2; 35.30; Lv 1.1; Nm 1.17; 10.2.</p>
+    </section>
+</article>
+<article id="entry-anakalypto-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακαλύπτω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακαλύπτω · anakalyptō" data-transliteration="anakalyptō" data-meanings="descobrir|destapar|revelar">ἀνακαλύπτω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-11-8-9=28</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>descobrir, destapar</strong> (Dt 23.1); <strong>descobrir, revelar</strong> (1Esd 8.76); <strong>revelar</strong> (Tb 12.7).</p>
+        <p class="entry-text"><strong>Notas textuais do LEH:</strong> *Is 24.1, <span class="greek">καὶ ἀνακαλύψει</span> “e ele exporá, deixará a descoberto” — <bdi class="hebrew" lang="he" dir="rtl">וערה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">ועוה</bdi>, “e ele torcerá, perverterá”; *Jó 28.11, <span class="greek">ἀνεκάλυψεν</span> “explorou” — <bdi class="hebrew" lang="he" dir="rtl">חפשׂ</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">חבשׁ</bdi>, “atou?”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Dt 23.1; Is 20.4; 22.8,9,14.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-anakampto-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακάμπτω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακάμπτω · anakamptō" data-transliteration="anakamptō" data-meanings="retornar|voltar">ἀνακάμπτω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-5-5-1-3=15</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>retornar</strong> (Êx 32.27); <strong>voltar</strong> (2Sm 1.22).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 32.27; Jz<sup>A</sup> 11.39; 2Sm 1.22; 8.13; 1Rs 12.20.</p>
+        <p class="entry-text"><strong>Cf.</strong> HORSLEY 1987, 141.</p>
+    </section>
+</article>
+<article id="entry-anakeimai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάκειμαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάκειμαι · anakeimai" data-transliteration="anakeimai" data-meanings="estar à mesa|reclinar-se">ἀνάκειμαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>estar à mesa, reclinar-se</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 1Esd 4.11; Tb<sup>S</sup> 9.6.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+<article id="entry-anakerysso-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακηρύσσω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακηρύσσω · anakēryssō" data-transliteration="anakēryssō" data-meanings="proclamar">ἀνακηρύσσω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>proclamar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 4Mc 17.23.</p>
+    </section>
+</article>
+<article id="entry-anaklao-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακλάω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακλάω · anaklaō" data-transliteration="anaklaō" data-meanings="dobrar para trás">ἀνακλάω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>dobrar para trás</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 4Mc 11.10.</p>
+    </section>
+</article>
+<article id="entry-anaklino-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακλίνω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακλίνω · anaklinō" data-transliteration="anaklinō" data-meanings="inclinar-se para trás|reclinar-se">ἀνακλίνω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>inclinar-se para trás, reclinar-se</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 5.16.</p>
+        <p class="entry-text"><strong>Cf.</strong> MARGOLIS, M. 1907, 247.</p>
+    </section>
+</article>
+<article id="entry-anaklisis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάκλισις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάκλισις, -εως · anaklisis" data-transliteration="anaklisis" data-meanings="ato de reclinar-se|ato de inclinar-se para trás">ἀνάκλισις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ato de reclinar-se ou inclinar-se para trás</strong>.</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Ct 1.12, <span class="greek">ἐν ἀνακλίσει</span> “à mesa” ou corr.? <span class="greek">ἀνακυκλήσει</span> — <bdi class="hebrew" lang="he" dir="rtl">במסבו</bdi>, “enquanto ele estava nos arredores (de Jerusalém)”; cpr. 2Rs 23.5.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Ct 1.12.</p>
+        <p class="entry-text"><strong>Cf.</strong> KATZ 1938, 34.</p>
+    </section>
+</article>
+<article id="entry-anakliton-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάκλιτον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάκλιτον, -ου · anakliton" data-transliteration="anakliton" data-meanings="algo sobre o que se reclina|encosto de cadeira">ἀνάκλιτον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>algo sobre o que se reclina, encosto de cadeira</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Ct 3.10.</p>
+    </section>
+</article>
+<article id="entry-anakoinoo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακοινόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακοινόω · anakoinoō" data-transliteration="anakoinoō" data-meanings="comunicar-se com|consultar-se com">ἀνακοινόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Médio:</strong> <strong>comunicar-se com, consultar-se com</strong> [<span class="greek">τινι</span>].</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 2Mc 14.20.</p>
+    </section>
+</article>
+<article id="entry-anakomizomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακομίζομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακομίζομαι · anakomizomai" data-transliteration="anakomizomai" data-meanings="levar para cima|retirar consigo|recuperar|retornar|voltar">ἀνακομίζομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Médio:</strong> <strong>levar para cima, tomar, retirar consigo</strong> [<span class="greek">τι</span>] (2Mc 12.39); <strong>recuperar</strong> [<span class="greek">τι</span>] (2Mc 2.22).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>retornar, voltar</strong> (3Mc 1.1).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 2.22; 12.39; 3Mc 1.1.</p>
+    </section>
+</article>
+<article id="entry-anakopto-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακόπτω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακόπτω · anakoptō" data-transliteration="anakoptō" data-meanings="empurrar para trás|quebrar|deter|acalmar|ser repelido|ser restringido">ἀνακόπτω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>empurrar para trás, quebrar</strong> [<span class="greek">τι</span>] (4Mc 13.6); <strong>deter, acalmar</strong> (a ira) [<span class="greek">τι</span>] (Sb 18.23).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>ser repelido, ser restringido</strong> (4Mc 1.35).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 4Mc 1.35; 13.6; Sb 18.23.</p>
+    </section>
+</article>
+<article id="entry-anakrazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνακράζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνακράζω · anakrazō" data-transliteration="anakrazō" data-meanings="gritar|levantar a voz|bradar">ἀνακράζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-7-5-0-3=15</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>gritar, levantar a voz, bradar</strong> (Js 6.5).</p>
+        <p class="entry-text"><strong>Médio:</strong> Jl 3.16.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Js 6.5 (bis); Jz 7.20; 1Sm 4.5.</p>
+        <p class="entry-text">→ TWNT.</p>
     </section>
 </article>`
 };
