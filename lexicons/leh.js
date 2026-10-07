@@ -586,6 +586,11 @@ window.ScripturaLexicons.LEH = {
             key: "HAUSPIE 2001b",
             type: "biblio",
             text: "K. Hauspie, “Neologisms in the Septuagint of Ezekiel”, JNSL 27/1 (2001), forthcoming"
+        },
+        {
+            key: "COX 1990",
+            type: "biblio",
+            text: "C. E. Cox, “Vocabulary for Wrongdoing and Forgiveness in the Greek Translations of Job”, Textus 15 (1990), pp. 119–130"
         }
     ],
 
@@ -1796,6 +1801,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-amadaroth-leh" data-source="LEH" data-search="αμαδαρωθ amadaroth מדהרות galope Juízes LEH" tabindex="0">
     <td class="table-lemma greek">αμαδαρωθ</td><td>Substantivo</td><td>do galope</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amathia-leh" data-source="LEH" data-search="ἀμαθία amathia substantivo ignorância estupidez PSal LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμαθία</td><td>Substantivo</td><td>ignorância; estupidez</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hamaxa-leh" data-source="LEH" data-search="ἅμαξα hamaxa substantivo carroça carro Gênesis Números Isaías hebraico MT LEH" tabindex="0">
+    <td class="table-lemma greek">ἅμαξα</td><td>Substantivo</td><td>carroça; carro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amarantos-leh" data-source="LEH" data-search="ἀμάραντος amarantos adjetivo não murcha imperecível Sabedoria Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμάραντος</td><td>Adjetivo</td><td>que não murcha; imperecível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hamaria-leh" data-source="LEH" data-search="ἁμαρία hamaria sic corrigir ἁμαρτία Deuteronômio LEH" tabindex="0">
+    <td class="table-lemma greek">ἁμαρία</td><td>Forma textual</td><td>sic; corrigir para ἁμαρτία</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hamartano-leh" data-source="LEH" data-search="ἁμαρτάνω hamartano verbo agir mal errar pecar falhar Gênesis Juízes Êxodo Levítico Sirácida Jó Oseias semitismo DANIEL HARL HARLÉ HELBING NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἁμαρτάνω</td><td>Verbo</td><td>agir mal; errar; pecar; falhar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hamartema-leh" data-source="LEH" data-search="ἁμάρτημα hamartema substantivo pecado ofensa oferta pelo pecado morte Gênesis Êxodo Levítico Números Macabeus Deuteronômio DANIEL PASSONI NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἁμάρτημα</td><td>Substantivo</td><td>pecado; ofensa; oferta pelo pecado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hamartia-leh" data-source="LEH" data-search="ἁμαρτία hamartia substantivo culpa pecado oferta pelo pecado Gênesis Levítico COX DANIEL HARL HARLÉ LE BOULLUEC NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἁμαρτία</td><td>Substantivo</td><td>culpa; pecado; oferta pelo pecado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hamartolos-leh" data-source="LEH" data-search="ἁμαρτωλός hamartolos adjetivo pecaminoso pecador Gênesis Números Deuteronômio 1 Reis Salmos hebraico MT NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἁμαρτωλός</td><td>Adjetivo</td><td>pecaminoso; pecador</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amasenith-leh" data-source="LEH" data-search="αμασενιθ amasenith substantivo השמינית sheminith oitavo oitava termo musical 1 Crônicas LEH" tabindex="0">
+    <td class="table-lemma greek">αμασενιθ</td><td>Substantivo</td><td>sheminith; oitavo; oitava? (termo musical?)</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amasetos-leh" data-source="LEH" data-search="ἀμάσητος amasetos adjetivo não mastigado Jó neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμάσητος</td><td>Adjetivo</td><td>não mastigado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amattari-leh" data-source="LEH" data-search="αματταρι amattari substantivo feminino hebraico marcas alvos 1 Samuel TOV LEH" tabindex="0">
+    <td class="table-lemma greek">αματταρι</td><td>Substantivo</td><td>marcas; alvos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amauros-leh" data-source="LEH" data-search="ἀμαυρός amauros adjetivo escuro apagado pouco perceptível Levítico LSJ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμαυρός</td><td>Adjetivo</td><td>escuro; apagado; pouco perceptível</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amauroo-leh" data-source="LEH" data-search="ἀμαυρόω amauroo verbo tornar turvo obscurecer ficar turvo perder brilho Deuteronômio Lamentações Sirácida Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμαυρόω</td><td>Verbo</td><td>tornar turvo; obscurecer; ficar turvo; perder o brilho</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amapheth-leh" data-source="LEH" data-search="αμαφεθ amapheth substantivo המפתן soleira 1 Samuel LEH" tabindex="0">
+    <td class="table-lemma greek">αμαφεθ</td><td>Substantivo</td><td>soleira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amao-leh" data-source="LEH" data-search="ἀμάω amao verbo ceifar Levítico Deuteronômio Isaías Miqueias SHIPP Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμάω</td><td>Verbo</td><td>ceifar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amblakema-leh" data-source="LEH" data-search="ἀμβλάκημα amblakema substantivo erro falta Daniel Teodocião LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμβλάκημα</td><td>Substantivo</td><td>erro; falta</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amblynomai-leh" data-source="LEH" data-search="ἀμβλύνομαι amblynomai verbo visão turva tornar-se cego Gênesis LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμβλύνομαι</td><td>Verbo</td><td>ficar com a visão turva; tornar-se cego</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amblyopeo-leh" data-source="LEH" data-search="ἀμβλυωπέω amblyopeo verbo vista fraca olhos 1 Reis Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμβλυωπέω</td><td>Verbo</td><td>ter a vista fraca</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ambrosios-leh" data-source="LEH" data-search="ἀμβρόσιος ambrosios adjetivo divino celeste Sabedoria LARCHER LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμβρόσιος</td><td>Adjetivo</td><td>divino; celeste</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amethystos-leh" data-source="LEH" data-search="ἀμέθυστος amethystos substantivo ametista Êxodo Ezequiel NIDNTT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμέθυστος</td><td>Substantivo</td><td>ametista</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -4869,6 +4934,114 @@ window.ScripturaLexicons.LEH = {
 <article id="entry-amadaroth-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
     <header class="entry-header"><div><h1 class="entry-title greek">αμαδαρωθ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αμαδαρωθ · amadarōth" data-transliteration="amadarōth" data-meanings="do galope">αμαδαρωθ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="מדהרות" data-transliteration="mdhrwt" data-meanings="do galope">מדהרות</bdi>: <strong>do galope</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Jz<sup>A</sup> 5.22.</p>
+    </section>
+</article>
+<article id="entry-amathia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμαθία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμαθία, -ας · amathia" data-transliteration="amathia" data-meanings="ignorância|estupidez">ἀμαθία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ignorância, estupidez</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> PSal 18.4.</p>
+    </section>
+</article>
+<article id="entry-hamaxa-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅμαξα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅμαξα, -ης · hamaxa" data-transliteration="hamaxa" data-meanings="carroça|carro">ἅμαξα, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 9-12-4-0-2=27</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>carroça, carro</strong> (Gn 45.19).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Is 25.10, <span class="greek">ἐν ἁμάξαις</span> “com carros” — <bdi class="hebrew" lang="he" dir="rtl">מרכבה/ב</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">מדמנה מי/ב</bdi>, “na água de Madmenah, no poço de esterco?”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 45.19,21,27; 46.5; Nm 7.3.</p>
+    </section>
+</article>
+<article id="entry-amarantos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμάραντος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμάραντος, -ος, -ον · amarantos" data-transliteration="amarantos" data-meanings="que não murcha|imperecível">ἀμάραντος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>que não murcha, imperecível</strong> (metáf.).</p><p class="entry-text"><strong>Ocorrência citada:</strong> Sb 6.12.</p>
+    </section>
+</article>
+<article id="entry-hamaria-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁμαρία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁμαρία · hamaria" data-transliteration="hamaria" data-meanings="forma transmitida; sic; corrigida pelo LEH para ἁμαρτία">ἁμαρία</span><span class="separator">·</span><span>forma registrada pelo LEH; sic</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sic</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="corr." data-tooltip-text="correção; a fonte propõe ou registra uma forma corrigida">corr.</span> <span class="greek">ἁμαρτία</span>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Dt 23.22.</p>
+    </section>
+</article>
+<article id="entry-hamartano-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁμαρτάνω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁμαρτάνω · hamartanō" data-transliteration="hamartanō" data-meanings="agir mal|errar|pecar|falhar">ἁμαρτάνω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 59-55-31-61-64=270</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>agir mal, errar, pecar</strong> [abs.] (Gn 4.7); idem [<span class="greek">τινι</span>] (Jz 10.10); idem [<span class="greek">εἴς τινα</span>] (Gn 20.6); idem [<span class="greek">πρός τινα</span>] (Êx 23.33); <strong>agir mal em algo</strong> [<span class="greek">περί τινος</span>] (Lv 5.5); <strong>ofender com algo</strong> [<span class="greek">ἔν τινι</span>] (Sr 19.16); <strong>falhar</strong> [abs.] (Jó 5.24); <span class="greek">ὁ ἁμαρτάνων</span>: <strong>o pecador</strong> (Sr 2.26).</p>
+        <p class="entry-text"><span class="greek">ὑμεῖς ἡμαρτήκατε ἁμαρτίαν μεγάλην</span>: <strong>vós pecastes grandemente</strong> (semit.; tradução do MT <bdi class="hebrew" lang="he" dir="rtl">גדלה חטאה חטאתם</bdi>) (Êx 32.30).</p>
+        <p class="entry-text"><span class="greek">δι᾽ ἀδικίας, ἃς ἥμαρτεν</span>: <strong>por causa dos pecados que cometeu</strong> (Os 12.9(8)); <span class="greek">ἡμαρτηκὼς ἔσομαι</span>: <strong>serei culpado</strong> (Gn 43.9).</p>
+        <p class="entry-text"><span class="greek">ψυχὴ ἐὰν ἁμάρτῃ ἀκουσίως</span>: <strong>a alma que pecar por ignorância, a pessoa que pecar involuntariamente</strong> (Lv 5.15); <span class="greek">ἵνα μὴ ἁμαρτεῖν σε ποιήσωσιν πρός με</span>: <strong>para que não te façam pecar contra mim</strong> (Êx 23.33).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 4.7; 20.6,9; 39.9; 40.1.</p>
+        <p class="entry-text"><strong>Cf.</strong> DANIEL, S. 1966, 308–310; HARL 1986a, 62–63; HARLÉ 1988, 33; HELBING 1928, 215–217; → NIDNTT; TWNT.</p>
+        <p class="entry-text">(→ <span class="greek">δι-</span>, <span class="greek">ἐξ-</span>, <span class="greek">ἐφ-</span>).</p>
+    </section>
+</article>
+<article id="entry-hamartema-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁμάρτημα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁμάρτημα, -ατος · hamartēma" data-transliteration="hamartēma" data-meanings="pecado|ofensa|oferta pelo pecado">ἁμάρτημα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 8-4-6-1-17=36</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pecado</strong> (Gn 31.36); <strong>ofensa</strong> (1Mc 13.39); <strong>oferta pelo pecado</strong> (Lv 4.29).</p><p class="entry-text"><span class="greek">ἁμάρτημα θανάτου</span>: <strong>pecado digno de morte</strong> (Dt 22.26).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 31.36; Êx 28.38; Lv 4.29; Nm 1.53; 18.23.</p><p class="entry-text"><strong>Cf.</strong> DANIEL, S. 1966, 304.308–313; PASSONI DELL’ACQUA 1988, 335–350; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-hamartia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁμαρτία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁμαρτία, -ας · hamartia" data-transliteration="hamartia" data-meanings="culpa|pecado|oferta pelo pecado">ἁμαρτία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 186-54-94-92-119=545</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>culpa, pecado</strong> (Gn 15.16); <strong>oferta pelo pecado</strong> (Lv 4.33).</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 15.16; 18.20; 20.9; 41.9; 42.21.</p><p class="entry-text"><strong>Cf.</strong> COX 1990, 119–130; DANIEL, S. 1966, 301–328; HARL 1986a, 62.63; HARLÉ 1988, 33; LE BOULLUEC 1989, 294.297; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-hamartolos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁμαρτωλός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁμαρτωλός, -ός, -όν · hamartōlos" data-transliteration="hamartōlos" data-meanings="pecaminoso|pecador">ἁμαρτωλός, -ός, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 4-2-10-75-87=178</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>que peca, pecaminoso</strong> (Gn 13.13); substantivado, <span class="greek">ὁ ἁμαρτωλός</span>: <strong>o pecador</strong> (Nm 17.3).</p><p class="entry-text"><strong>Notas textuais do LEH:</strong> *Dt 29.18, <span class="greek">ὁ ἁμαρτωλός</span> “o pecador” — <bdi class="hebrew" lang="he" dir="rtl">רע/ה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">הרוה</bdi>; ?. *Sl 140(141).5, <span class="greek">ἁμαρτωλοῦ</span> “de um pecador” — <bdi class="hebrew" lang="he" dir="rtl">רשׁע</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">ראשׁ</bdi>, “de primeira qualidade”.</p><p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 13.13; Nm 17.3; 32.14; Dt 29.18; 1Rs 1.21.</p><p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-amasenith-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αμασενιθ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αμασενιθ · amasenith" data-transliteration="amasenith" data-meanings="sheminith|o oitavo|oitava? termo musical?">αμασενιθ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">השׁמינית</bdi> (<span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="metath." data-tooltip-text="metathesis — metátese">metath.</span>): <strong>o sheminith, o oitavo, oitava?</strong> (termo musical?).</p><p class="entry-text"><strong>Ocorrência citada:</strong> 1Cr 15.21.</p>
+    </section>
+</article>
+<article id="entry-amasetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμάσητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμάσητος, -ος, -ον · amasētos" data-transliteration="amasētos" data-meanings="não mastigado">ἀμάσητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>não mastigado</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p><p class="entry-text"><strong>Ocorrência citada:</strong> Jó 20.18.</p>
+    </section>
+</article>
+<article id="entry-amattari-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αματταρι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αματταρι · amattari" data-transliteration="amattari" data-meanings="marcas|alvos">αματταρι</span><span class="separator">·</span><span>substantivo feminino (N F)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">ה)מטרים</bdi>: <strong>marcas, alvos</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> 1Sm 20.20.</p><p class="entry-text"><strong>Cf.</strong> TOV 1973, 89.</p>
+    </section>
+</article>
+<article id="entry-amauros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμαυρός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμαυρός, -ά, -όν · amauros" data-transliteration="amauros" data-meanings="escuro|apagado|pouco perceptível">ἀμαυρός, -ά, -όν</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 6-0-0-0-0=6</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>escuro (quanto à cor), apagado, pouco perceptível</strong>.</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Lv 13.4,6,21,26,28.</p><p class="entry-text">→ LSJ RSuppl.</p>
+    </section>
+</article>
+<article id="entry-amauroo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμαυρόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμαυρόω · amaurōō" data-transliteration="amaurōō" data-meanings="tornar turvo|obscurecer|ficar turvo|perder o brilho">ἀμαυρόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-1-2=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>tornar turvos</strong> (os olhos) [<span class="greek">τι</span>] (Sr 43.4); <strong>obscurecer</strong> [<span class="greek">τι</span>] (Sb 4.12).</p><p class="entry-text"><strong>Passivo:</strong> <strong>ficar turvos</strong> (os olhos) (Dt 34.7); <strong>ficar embaciado, perder o brilho</strong> (metais) (Lm 4.1).</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Dt 34.7; Lm 4.1; Sr 43.4; Sb 4.12.</p><p class="entry-text">(→ <span class="greek">ἀπ-</span>).</p>
+    </section>
+</article>
+<article id="entry-amapheth-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αμαφεθ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αμαφεθ · amapheth" data-transliteration="amapheth" data-meanings="soleira">αμαφεθ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew" lang="he" dir="rtl">המפתן</bdi>: <strong>a soleira</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> 1Sm 5.4.</p>
+    </section>
+</article>
+<article id="entry-amao-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμάω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμάω · amaō" data-transliteration="amaō" data-meanings="ceifar">ἀμάω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-0-3-0-0=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ceifar</strong>.</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Lv 25.11; Dt 24.19; Is 17.5; 37.30; Mq 6.15.</p><p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 63.</p>
+    </section>
+</article>
+<article id="entry-amblakema-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμβλάκημα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμβλάκημα, -ατος · amblakēma" data-transliteration="amblakēma" data-meanings="erro|falta">ἀμβλάκημα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>erro, falta</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Dn<sup>Th</sup> 6.5.</p>
+    </section>
+</article>
+<article id="entry-amblynomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμβλύνομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμβλύνομαι · amblynomai" data-transliteration="amblynomai" data-meanings="ficar com a visão turva|tornar-se cego">ἀμβλύνομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ficar com a visão turva</strong> (dos olhos), <strong>tornar-se cego</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Gn 27.1.</p>
+    </section>
+</article>
+<article id="entry-amblyopeo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμβλυωπέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμβλυωπέω · amblyōpeō" data-transliteration="amblyōpeō" data-meanings="ter a vista fraca">ἀμβλυωπέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ter a vista fraca</strong>; <span class="greek">οἱ ὀφθαλμοὶ αὐτοῦ ἠμβλυώπουν τοῦ βλέπειν</span>: <strong>seus olhos ficaram fracos para ver</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> 1Rs 12.24i.</p>
+    </section>
+</article>
+<article id="entry-ambrosios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμβρόσιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμβρόσιος, -α, -ον · ambrosios" data-transliteration="ambrosios" data-meanings="divino|celeste">ἀμβρόσιος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>divino, celeste</strong>.</p><p class="entry-text"><strong>Ocorrência citada:</strong> Sb 19.21.</p><p class="entry-text"><strong>Cf.</strong> LARCHER 1985, 1092.</p>
+    </section>
+</article>
+<article id="entry-amethystos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμέθυστος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμέθυστος, -ου · amethystos" data-transliteration="amethystos" data-meanings="ametista">ἀμέθυστος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 2-0-1-0-0=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ametista</strong>.</p><p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 28.19; 36.19(39.12); Ez 28.13.</p><p class="entry-text">→ NIDNTT.</p>
     </section>
 </article>`
 };
