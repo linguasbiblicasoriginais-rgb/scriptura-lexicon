@@ -1120,3 +1120,54 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 26 — registros 501–520
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "contr.", type: "abbr", text: "forma contraída" },
+        { key: "constr. impes.", type: "abbr", text: "construção impessoal" },
+        { key: "constr. pes.", type: "abbr", text: "construção pessoal" },
+        { key: "Isócrates", type: "biblio", text: "Isócrates — orador e professor ateniense dos séculos V–IV a.C., figura central da tradição retórica grega." }
+    );
+
+    const entries = [
+        [501, "ἀδέψητος, ος, ον", "ép. e poét. não curtido (couro). 〈ἀ-, δέψω〉", "não curtido; forma épica e poética"],
+        [502, "ἀδέω", "estar farto de; estar cansado de; estar abatido por, dat.", "estar farto; cansado; abatido"],
+        [503, "ἀδεῶς", "adv. 1 sem medo; sem escrúpulo; livremente 2 impunemente; facilmente. 〈ἀδεής〉", "sem medo; impunemente"],
+        [504, "ἀδήϊος", "contr. ἀδῇος, ος, ον poét. 1 não devastado; ao abrigo de devastações 2 que não devasta; não hostil.", "forma contraída; não devastado; não hostil"],
+        [505, "ἅδηκα", "perf. de ἁνδάνω.", "perfeito de ἁνδάνω"],
+        [506, "ἀδηκότες", "part. perf. pl. de ἀδέω.", "particípio perfeito plural de ἀδέω"],
+        [507, "ἄδηκτος, ος, ον", "poét. e tard. 1 não mordido; não picado (por animal) 2 não mordido pelo remorso; tranqüilo; sereno 3 que não morde; que não punge. 〈ἀ-, δάκνω〉", "não mordido; sereno; não pungente"],
+        [508, "ἀδήκτως", "adv. 1 sem ser molestado 2 sem remorso.", "sem ser molestado; sem remorso"],
+        [509, "ἀδηλέω-ῶ", "1 estar incerto de, gen. ♦ méd. 2 ser obscuro ♦ pas. 3 (coisa) não se mostrar; não aparecer. 〈ἄδηλος〉", "estar incerto; ser obscuro; não aparecer"],
+        [510, "ἄδηλος, ος, ον", "poét. 1 que não se deixa ver; desconhecido; obscuro 2 de que não se sabe nada; incompreensível; impenetrável; constr. impes. ἄδηλον [ἐστιν] ὅτι ou εἰ não se pode saber que ou se; constr. pes. οὐκ ἄδηλος ἦν ὁ κόσμος λυθησόμενος Isócrates era visível que a ordem ia ser subvertida. 〈ἀ-, δῆλος〉", "desconhecido; obscuro; incompreensível"],
+        [511, "ἀδηλότης, ητος (ἡ)", "1 incerteza 2 insegurança. 〈ἄδηλος〉", "incerteza; insegurança"],
+        [512, "ἀδήλως", "adv. 1 secretamente 2 sem rumo fixo; sem meta.", "secretamente; sem rumo"],
+        [513, "ἀδημονέω-ῶ", "(só pres e inf. aor.) estar inquieto; atormentar-se; angustiar-se por algo, dat., ὑπό e gen., ἐπί e dat.; com ac. de rel. ἀδημονῆσαι τὰς ψυχάς Xenofonte ter a alma inquieta. 〈ἀδήμων〉", "estar inquieto; angustiar-se"],
+        [514, "ἀδημονία, ας (ἡ)", "inquietude; angústia. 〈ἀδήμων〉", "inquietude; angústia"],
+        [515, "ἀδήμων, ων, ον", "gen. ονος inquieto; perturbado. 〈ἀδέω〉", "inquieto; perturbado"],
+        [516, "ἅδην, ἄδην", "e ἄδδην adv. à saciedade; abundantemente; completamente: ἔδεμαι ἄ. Homero comer à saciedade, εἷχον ἄ. κτείνοντες Heródoto estavam saciados de matar, οἱ λόγοι ἅδην ἔχουσιν ἡμῖν Platão esses discursos nos são suficientes.", "à saciedade; abundantemente; completamente"],
+        [517, "ἀδῇος", "cf. ἀδήϊος.", "cf. ἀδήϊος"],
+        [518, "ἀδήριτος, ος, ον", "poét. tard. 1 sem luta; sem contestação 2 invencível; inexpugnável. 〈ἀ-, δηρίω〉", "sem luta; invencível"],
+        [519, "ᾄδης", "Ἅιδης.", "Ἅιδης"],
+        [520, "ἁδήσω", "cf. ἁνδάνω.", "cf. ἁνδάνω"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
