@@ -626,6 +626,41 @@ window.ScripturaLexicons.LEH = {
             key: "MOATTI-FINE 1996",
             type: "biblio",
             text: "J. Moatti-Fine, La Bible d’Alexandrie. VI. Jésus (Josué), Paris, 1996"
+        },
+        {
+            key: "HARL 1999",
+            type: "biblio",
+            text: "M. Harl, C. Dogniez, L. Brottier, M. Casevitz & P. Sandevoir, La Bible d’Alexandrie XXIII 4–9. Les Douze Prophètes: Joël, Abdiou, Jonas, Naoum, Ambakoum, Sophonie, Paris, 1999"
+        },
+        {
+            key: "PETERSEN 1986",
+            type: "biblio",
+            text: "H. Petersen, “Wörter zusammengesetzt mit ἀμφί”, Glotta 64 (1986), pp. 193–213"
+        },
+        {
+            key: "TOV 1976b",
+            type: "biblio",
+            text: "E. Tov, “Three Dimensions of LXX Words”, RB 83 (1976), pp. 529–544"
+        },
+        {
+            key: "WEVERS 1991",
+            type: "biblio",
+            text: "J. W. Wevers, “The Göttingen Pentateuch: Some Post-partem Reflections”, in COX (ed.) 1991, pp. 51–60"
+        },
+        {
+            key: "SOLLAMO 1979",
+            type: "biblio",
+            text: "R. Sollamo, Renderings of Hebrew Semiprepositions in the Septuagint (AASF, 19), Helsinki, 1979"
+        },
+        {
+            key: "MURAOKA 1990b",
+            type: "biblio",
+            text: "T. Muraoka, “Septuagintal Lexicography: Some General Issues”, in T. Muraoka (ed.), Melbourne Symposium on Septuagint Lexicography (SCS, 28), Atlanta, GA, 1990, pp. 17–47"
+        },
+        {
+            key: "LSJ Suppl",
+            type: "biblio",
+            text: "H. G. Liddell & R. Scott, A Greek-English Lexicon, revised and augmented by H. S. Jones with the assistance of R. McKenzie; with A Supplement, ed. E. A. Barber with the assistance of P. Maas, M. Scheller & M. L. West, Oxford, 1968"
         }
     ],
 
@@ -2016,6 +2051,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-amphiazo-leh" data-source="LEH" data-search="ἀμφιάζω amphiazo verbo vestir vestir-se Jó ativo médio metáfora neologismo dúvida ἀμφιέννυμι Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀμφιάζω</td><td>Verbo</td><td>vestir; vestir-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphiasis-leh" data-source="LEH" data-search="ἀμφίασις amphiasis substantivo vestimenta roupa Jó neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφίασις</td><td>Substantivo</td><td>vestimenta; roupa</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphiballo-leh" data-source="LEH" data-search="ἀμφιβάλλω amphiballo verbo lançar atirar ao redor Habacuque HARL Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφιβάλλω</td><td>Verbo</td><td>lançar; atirar ao redor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphiblestron-leh" data-source="LEH" data-search="ἀμφίβληστρον amphiblestron substantivo rede de lançar Habacuque Salmos Eclesiastes PETERSEN Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφίβληστρον</td><td>Substantivo</td><td>rede de lançar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphiboleus-leh" data-source="LEH" data-search="ἀμφιβολεύς amphiboleus substantivo pescador pescador de anzol Isaías neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφιβολεύς</td><td>Substantivo</td><td>pescador; pescador de anzol</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphiennymi-leh" data-source="LEH" data-search="ἀμφιέννυμι amphiennymi verbo médio vestir-se revestir palavras embelezar ocultar planos agir secretamente 2 Reis Jó ἀμφιάζω Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφιέννυμι</td><td>Verbo</td><td>vestir-se de; revestir palavras; ocultar planos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphilaphes-leh" data-source="LEH" data-search="ἀμφιλαφής amphilaphes adjetivo ampla expansão denso espesso folhas plantas Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφιλαφής</td><td>Adjetivo</td><td>de ampla expansão; denso; espesso de folhas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphitapos-leh" data-source="LEH" data-search="ἀμφίταπος amphitapos substantivo tapete dupla face tapeçaria 2 Samuel Provérbios neologismo dúvida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφίταπος</td><td>Substantivo</td><td>tapete de dupla face; tapeçaria</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphodon-leh" data-source="LEH" data-search="ἄμφοδον amphodon substantivo quarteirão casas cercado ruas Jeremias MILLIGAN TOV Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄμφοδον</td><td>Substantivo</td><td>quarteirão de casas cercado por ruas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphoterodexios-leh" data-source="LEH" data-search="ἀμφοτεροδέξιος amphoterodexios adjetivo ambidestro Juízes neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφοτεροδέξιος</td><td>Adjetivo</td><td>ambidestro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphoteroi-leh" data-source="LEH" data-search="ἀμφότεροι amphoteroi pronome ambos ambas razões Gênesis 1 Samuel Sabedoria Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφότεροι</td><td>Pronome</td><td>ambos; por ambas as razões</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amomos-leh" data-source="LEH" data-search="ἄμωμος amomos adjetivo irrepreensível sem defeito sem mancha perfeito Êxodo Levítico 2 Samuel Salmos TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄμωμος</td><td>Adjetivo</td><td>irrepreensível; sem defeito; imaculado; perfeito</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-an-particle-leh" data-source="LEH" data-search="ἄν an partícula modal condições indicativo optativo subjuntivo Gênesis Jó Macabeus Daniel Levítico WEVERS Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄν</td><td>Partícula</td><td>partícula modal condicionada pelo modo, tempo e contexto</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ana-prep-leh" data-source="LEH" data-search="ἀνά ana preposição para cima de baixo para cima distributivamente grupos cada lado entre Gênesis 1 Reis 2 Samuel SOLLAMO WALTERS NIDNTT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνά</td><td>Preposição</td><td>para cima; de baixo para cima; distributivamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anabathmis-leh" data-source="LEH" data-search="ἀναβαθμίς anabathmis substantivo degrau escada Êxodo neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναβαθμίς</td><td>Substantivo</td><td>degrau; escada</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anabathmos-leh" data-source="LEH" data-search="ἀναβαθμός anabathmos substantivo degrau escada grau mostrador 1 Reis 2 Reis 2 Crônicas Isaías Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναβαθμός</td><td>Substantivo</td><td>degrau; escada; grau de um mostrador</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anabaino-leh" data-source="LEH" data-search="ἀναβαίνω anabaino verbo subir montar fluir brotar amanhecer cobrir surgir tornar-se avançar remover entrar sacrifício Gênesis Números Êxodo Isaías Neemias Jonas Reis Levítico HORSLEY MURAOKA LSJ TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναβαίνω</td><td>Verbo</td><td>subir; elevar-se; brotar; amanhecer; surgir; avançar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaballo-leh" data-source="LEH" data-search="ἀναβάλλω anaballo verbo lançar sobre pôr sobre lançar por cima ombro vestir-se 1 Samuel Salmos Tobias 4 Macabeus hebraico MT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναβάλλω</td><td>Verbo</td><td>lançar sobre; pôr sobre; lançar sobre o ombro; vestir-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anabasis-leh" data-source="LEH" data-search="ἀνάβασις anabasis substantivo subida ato de subir estrada caminho passagem Números Josué Juízes Judite Ezequiel hebraico MT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάβασις</td><td>Substantivo</td><td>subida; ato de subir; estrada; caminho; passagem</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anabastazo-leh" data-source="LEH" data-search="ἀναβαστάζω anabastazo verbo levantar Juízes neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναβαστάζω</td><td>Verbo</td><td>levantar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anabates-leh" data-source="LEH" data-search="ἀναβάτης anabates substantivo cavaleiro montador montado a cavalo Êxodo Isaías Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναβάτης</td><td>Substantivo</td><td>aquele que monta; cavaleiro; montado, a cavalo</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -5463,6 +5558,143 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>Médio:</strong> <strong>vestir-se</strong> (metáf.) (Jó 29.14).</p>
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span>; ver <span class="greek">ἀμφιέννυμι</span>.</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> Jó 29.14; 31.19.</p>
+    </section>
+</article>
+<article id="entry-amphiasis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφίασις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφίασις, -εως · amphiasis" data-transliteration="amphiasis" data-meanings="vestimenta|roupa">ἀμφίασις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vestimenta, roupa</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jó 22.6; 24.7; 38.9.</p>
+    </section>
+</article>
+<article id="entry-amphiballo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφιβάλλω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφιβάλλω · amphiballō" data-transliteration="amphiballō" data-meanings="lançar|atirar ao redor">ἀμφιβάλλω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>lançar, atirar ao redor</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Hc 1.17.</p>
+        <p class="entry-text"><strong>Cf.</strong> HARL 1999, 271.</p>
+    </section>
+</article>
+<article id="entry-amphiblestron-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφίβληστρον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφίβληστρον, -ου · amphiblēstron" data-transliteration="amphiblēstron" data-meanings="rede de lançar">ἀμφίβληστρον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-3-2-0=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>rede de lançar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Hc 1.15,16,17; Sl 140(141).10; Ec 9.12.</p>
+        <p class="entry-text"><strong>Cf.</strong> PETERSEN 1986, 198.</p>
+    </section>
+</article>
+<article id="entry-amphiboleus-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφιβολεύς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφιβολεύς, -έως · amphiboleus" data-transliteration="amphiboleus" data-meanings="pescador|pescador de anzol">ἀμφιβολεύς, -έως</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>pescador, pescador de anzol</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Is 19.8.</p>
+    </section>
+</article>
+<article id="entry-amphiennymi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφιέννυμι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφιέννυμι · amphiennymi" data-transliteration="amphiennymi" data-meanings="vestir-se de|revestir palavras|embelezar palavras|ocultar planos|agir secretamente">ἀμφιέννυμι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-1-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Médio:</strong> <strong>vestir-se de</strong> [<span class="greek">τινα</span>] (metáf.) (Jó 40.10).</p>
+        <p class="entry-text"><span class="greek">ἠμφιέσαντο λόγους</span>: <strong>revestiram suas palavras; embelezaram suas palavras; ocultaram seus planos; agiram secretamente</strong> (2Rs 17.9).</p>
+        <p class="entry-text">Ver <span class="greek">ἀμφιάζω</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Rs 17.9; Jó 40.10.</p>
+    </section>
+</article>
+<article id="entry-amphilaphes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφιλαφής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφιλαφής, -ής, -ές · amphilaphēs" data-transliteration="amphilaphēs" data-meanings="de ampla expansão|denso|espesso de folhas">ἀμφιλαφής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de ampla expansão, denso, espesso de folhas</strong> (de plantas).</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 17.17.</p>
+    </section>
+</article>
+<article id="entry-amphitapos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφίταπος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφίταπος, -ου · amphitapos" data-transliteration="amphitapos" data-meanings="tapete de dupla face|tapeçaria">ἀμφίταπος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-1-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>tapete de dupla face</strong> (2Sm 17.28); <strong>tapeçaria</strong> (Pv 7.16); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Sm 17.28; Pv 7.16.</p>
+    </section>
+</article>
+<article id="entry-amphodon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄμφοδον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄμφοδον, -ου · amphodon" data-transliteration="amphodon" data-meanings="quarteirão de casas cercado por ruas">ἄμφοδον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>quarteirão de casas cercado por ruas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jr 17.27; 30.33(49.27).</p>
+        <p class="entry-text"><strong>Cf.</strong> MILLIGAN 1910=1980, 81; TOV 1976b, 530–531.</p>
+    </section>
+</article>
+<article id="entry-amphoterodexios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφοτεροδέξιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφοτεροδέξιος, -ος, -ον · amphoterodexios" data-transliteration="amphoterodexios" data-meanings="ambidestro">ἀμφοτεροδέξιος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-4-0-0-0=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ambidestro</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jz 3.15; 20.16.</p>
+    </section>
+</article>
+<article id="entry-amphoteroi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφότεροι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφότεροι, -αι, -α · amphoteroi" data-transliteration="amphoteroi" data-meanings="ambos|por ambas as razões">ἀμφότεροι, -αι, -α</span><span class="separator">·</span><span>pronome (R)</span><span class="separator">·</span><span>frequência LEH: 50-37-3-14-35=139</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ambos</strong> (1Sm 3.11); <strong>por ambas as razões</strong> (Sb 14.30).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 21.27,31; 22.8; 33.4; 40.5.</p>
+    </section>
+</article>
+<article id="entry-amomos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄμωμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄμωμος, -ος, -ον · amōmos" data-transliteration="amōmos" data-meanings="irrepreensível|sem defeito|sem mancha|perfeito">ἄμωμος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 47-3-12-17-4=83</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>irrepreensível, sem defeito</strong> (2Sm 22.24); <strong>sem defeito</strong> (de vítimas) (Êx 29.1); <strong>imaculado, perfeito</strong> (Sl 18(19).8).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 29.1,38; Lv 1.3,10; 3.1.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+<article id="entry-an-particle-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄν · an" data-transliteration="an" data-meanings="partícula modal; valor condicionado pelo modo, tempo e contexto">ἄν</span><span class="separator">·</span><span>partícula (X)</span><span class="separator">·</span><span>frequência LEH: 273-85-78-129-87=652</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Partícula modal</strong> usada com verbos para indicar que a ação é limitada pelas circunstâncias ou definida por condições. Não pode ser traduzida por uma única palavra portuguesa; o efeito de <span class="greek">ἄν</span> sobre o sentido de sua oração depende do modo e do tempo do verbo com que é usada.</p>
+        <p class="entry-text"><strong>Em orações simples:</strong> “(eu) teria (destruído)” [<span class="greek">ἄν</span> + indicativo em tempos históricos] (irrealidade) (Jó 42.8); “(como) poderíamos (roubar)?” [+ optativo] (desejo em perguntas) (Gn 44.8); “(eu) aconselharia” [<span class="greek">ἄν</span> + optativo] (potencial, na apódose; frequentemente em pergunta direta) (4Mc 1.1).</p>
+        <p class="entry-text"><strong>Em oração dependente:</strong> “(como) te agrade” [<span class="greek">ἄν</span> + subjuntivo] (condição futura ou geral em oração comparativa) (Gn 19.8); “cada vez que (ouvirdes)” [<span class="greek">ὅταν</span> + subjuntivo] (oração temporal) (Dn<sup>LXX</sup> 3.5); “(em) qualquer (dia) que comeres” [<span class="greek">ἄν</span> + subjuntivo] (oração relativa) (Gn 2.17); “(se ele) oferecer” [<span class="greek">κἄν = καὶ ἐάν</span>] (oração condicional) (Lv 7.16(6)); “quem quer que não...” [<span class="greek">ἂν μή</span> + subjuntivo] (Dn<sup>Th</sup> 3.6).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 2.17; 3.5; 6.4; 11.6; 12.1.</p>
+        <p class="entry-text"><strong>Cf.</strong> WEVERS 1991, 53.</p>
+    </section>
+</article>
+<article id="entry-ana-prep-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνά</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνά · ana" data-transliteration="ana" data-meanings="para cima|de baixo para cima|distributivamente">ἀνά</span><span class="separator">·</span><span>preposição (P)</span><span class="separator">·</span><span>frequência LEH: 125-142-64-27-19=377</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">[<span class="greek">τι</span>]: <strong>para cima, de baixo para cima</strong> (de lugar, movimento ascendente); <strong>por, em grupos de</strong> (distributivamente com numerais) (1Rs 18.13); <strong>cada um de</strong> (Gn 24.22).</p>
+        <p class="entry-text"><span class="greek">ἀνὰ χεῖρα</span>: <strong>ao lado de</strong> (2Sm 15.2); <span class="greek">ἀνὰ μέσον τινός</span>: <strong>entre</strong> (Gn 1.4).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 1.4 (bis), 6, 7 (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> SOLLAMO 1979, 254–255.342–343.347–348; WALTERS 1973, 200 (Ml 3.18); → NIDNTT.</p>
+    </section>
+</article>
+<article id="entry-anabathmis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναβαθμίς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναβαθμίς, -ίδος · anabathmis" data-transliteration="anabathmis" data-meanings="degrau|escada">ἀναβαθμίς, -ίδος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>degrau, escada</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Êx 20.26.</p>
+    </section>
+</article>
+<article id="entry-anabathmos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναβαθμός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναβαθμός, -οῦ · anabathmos" data-transliteration="anabathmos" data-meanings="degrau|escada|grau de um mostrador">ἀναβαθμός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-6-6-15-0=27</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>degrau, escada</strong> (1Rs 10.19); <strong>grau</strong> (de um mostrador) (Is 38.8).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Rs 10.19,20; 2Rs 9.13; 20.11; 2Cr 9.18.</p>
+    </section>
+</article>
+<article id="entry-anabaino-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναβαίνω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναβαίνω · anabainō" data-transliteration="anabainō" data-meanings="subir|montar|elevar-se|fluir|brotar|amanhecer|surgir|tornar-se|avançar|afastar-se|entrar">ἀναβαίνω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 116-340-112-60-57=685</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>subir, montar a</strong> [<span class="greek">τι</span>] (Nm 21.33); idem [<span class="greek">εἴς τι</span>] (Nm 14.44); idem [<span class="greek">ἐπί τι</span>] (Êx 17.10); idem [<span class="greek">ἐπί τινα</span>] (Gn 38.12); idem [<span class="greek">πρός τινα</span>] (Gn 44.17); <strong>subir (para fora de)</strong> (Gn 13.1); <strong>elevar-se de, fluir de</strong> (de rios, fontes) (Gn 2.6); <strong>brotar</strong> (de plantas) (Is 11.1); <strong>amanhecer</strong> (da manhã) (Gn 32.27(26)); <strong>montar, cobrir</strong> (Gn 31.10); <strong>surgir</strong> (de ira, sentimentos) (2Sm 11.20); <strong>transformar-se em, tornar-se</strong> [<span class="greek">τι</span>] (Ezr 36.3); <strong>avançar</strong> (Ne 4.1(7)); <strong>ir embora, ser removido</strong> (Jon 2.7); <strong>entrar em</strong> [<span class="greek">ἐπί τι</span>] (2Rs 12.5(4)); <strong>subir</strong> (metáf.) (Êx 2.23); <span class="greek">τὰ βαίνοντα</span>: <strong>a produção</strong> (Lv 25.5).</p>
+        <p class="entry-text"><span class="greek">εἰ ἀναβῶ εἰς πόλεμον</span>: <strong>deveria eu subir à guerra?, se eu fosse à batalha</strong> (1Rs 22.15); <span class="greek">ἀναβαίνει ἐν τοῖς ὠσί τινος</span>: <strong>chega aos ouvidos de alguém</strong> (2Rs 19.28); <span class="greek">ἀναβαίνει ἡ θυσία</span>: <strong>o sacrifício é oferecido</strong> (1Rs 18.29).</p>
+        <p class="entry-text"><strong>Notas textuais do LEH:</strong> *1Sm 2.10, <span class="greek">ἀνέβη</span> “subiu” — <bdi class="hebrew" lang="he" dir="rtl">עלה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">עלו</bdi>, “contra ele”; *2Rs 1.11, <span class="greek">καὶ ἀνέβη</span> “e subiu” — <bdi class="hebrew" lang="he" dir="rtl">ויעל</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">ויען</bdi>, “e respondeu”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 2.6; 13.1; 17.22; 19.28,30.</p>
+        <p class="entry-text"><strong>Cf.</strong> HORSLEY 1981, 55.131; HORSLEY 1982, 62; MURAOKA 1990b, 37.40; → LSJ Suppl; LSJ RSuppl; TWNT.</p>
+    </section>
+</article>
+<article id="entry-anaballo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναβάλλω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναβάλλω · anaballō" data-transliteration="anaballō" data-meanings="lançar sobre|pôr sobre|lançar sobre o ombro|vestir-se de">ἀναβάλλω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-3-2=6</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>lançar sobre</strong> [<span class="greek">τι ἐπί τι</span>] (Tb<sup>BA</sup> 6.3); <strong>pôr</strong> [<span class="greek">τινα ἐπί τι</span>] (4Mc 9.12).</p>
+        <p class="entry-text"><strong>Médio:</strong> <strong>lançar sobre o ombro, vestir-se de</strong> [<span class="greek">τι</span>] (1Sm 28.14).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Sl 88(89).39, <span class="greek">ἀνεβάλου</span> “rejeitaste” — ◊<bdi class="hebrew" lang="he" dir="rtl">עבר</bdi><sup>I</sup> — para o MT <bdi class="hebrew" lang="he" dir="rtl">התעברת</bdi> ◊<bdi class="hebrew" lang="he" dir="rtl">עבר</bdi><sup>II</sup>, “estás enfurecido”; cpr. Sl 77(78).21.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Sm 28.14; Sl 77(78).21; 88(89).39; 103(104).2; Tb<sup>BA</sup> 6.3.</p>
+    </section>
+</article>
+<article id="entry-anabasis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάβασις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάβασις, -εως · anabasis" data-transliteration="anabasis" data-meanings="subida|ato de subir|estrada|caminho|passagem">ἀνάβασις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 1-17-4-8-9=39</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>subida</strong> (Nm 34.4); <strong>ato de subir</strong> (Jz<sup>A</sup> 11.13); <strong>estrada, caminho, passagem</strong> (Jdt 4.7).</p>
+        <p class="entry-text"><strong>Notas textuais do LEH:</strong> *Jz<sup>A</sup> 8.13, <span class="greek">ἀπὸ ἀναβάσεως</span> “da subida” — <bdi class="hebrew" lang="he" dir="rtl">מעלה/מ</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">מלמעלה</bdi>, “de cima”; *Ez 47.12, <span class="greek">ἀνάβασις</span> “subida” — ◊<bdi class="hebrew" lang="he" dir="rtl">עלה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">עלה</bdi>, “folhagem”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 34.4; Js 10.10; 18.17; Jz<sup>A</sup> 8.13; 11.13.</p>
+    </section>
+</article>
+<article id="entry-anabastazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναβαστάζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναβαστάζω · anabastazō" data-transliteration="anabastazō" data-meanings="levantar">ἀναβαστάζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-2-0-0-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>levantar</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Jz 16.3.</p>
+    </section>
+</article>
+<article id="entry-anabates-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναβάτης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναβάτης, -ου · anabatēs" data-transliteration="anabatēs" data-meanings="aquele que monta|cavaleiro|montado|a cavalo">ἀναβάτης, -ου</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 8-0-16-0-6=30</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>aquele que monta, cavaleiro</strong> (Êx 14.23); <strong>montado, a cavalo</strong> (como adjetivo) (Is 21.7).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 14.23,26,28; 15.1,4.</p>
     </section>
 </article>`
 };
