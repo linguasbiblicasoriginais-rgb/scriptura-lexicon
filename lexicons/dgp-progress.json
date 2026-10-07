@@ -1,0 +1,15 @@
+{
+  "source": "DGP",
+  "work_branch": "chat-gpt-dgp",
+  "source_repository": "aniseferreira/Grc-Por-DigDict",
+  "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+  "source_dataset": "DDGP-3x-files/ddgp3x-copia_8nov_22.sql",
+  "auxiliary_alphabetical_list": "DDGP-3x-files/DDGP_3x_entry_lists_in_pdf_alphabetically.zip",
+  "scope": {
+    "initial_letter": "α",
+    "batch_size": 20,
+    "next_ordinal": 1,
+    "status": "estrutura preparada"
+  },
+  "batches": []
+}
