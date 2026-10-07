@@ -676,6 +676,36 @@ window.ScripturaLexicons.LEH = {
             key: "NIEDDU 1988",
             type: "biblio",
             text: "G. F. Nieddu, “Sulla nozione di ‘leggere’ in greco; decifrare [ἀνανέμω, ἐπιλέγομαι, ἀναγιγνώσκω], percorrere [διέρχομαι]”, Giornale Italiano di Filologia 40 (1988), pp. 17–37"
+        },
+        {
+            key: "BICKERMAN 1950=1980",
+            type: "biblio",
+            text: "E. J. Bickerman, “The Date of the Testaments of the Twelve Patriarchs”, JBL 69 (1950), pp. 245–260; reimpresso em BICKERMAN 1980, pp. 1–23"
+        },
+        {
+            key: "QUAST 1990",
+            type: "biblio",
+            text: "U. Quast, “Der rezensionelle Charakter einiger Wortvarianten im Buche Numeri”, in D. Fraenkel, U. Quast & J. W. Wevers (eds.), Studien zur Septuaginta. FS R. Hanhart (MSU, 20), Göttingen, 1990, pp. 230–252"
+        },
+        {
+            key: "DEISSMANN 1901",
+            type: "biblio",
+            text: "G. A. Deissmann, “Anathema”, ZNW 2 (1901), p. 342"
+        },
+        {
+            key: "MENESTRINA 1979",
+            type: "biblio",
+            text: "G. Menestrina, “Κατάθεμα”, BeO 21 (1979), p. 12"
+        },
+        {
+            key: "VAN UNNIK 1973",
+            type: "biblio",
+            text: "W. C. van Unnik, “Jesus: Anathema or Kurios (I Cor. 12:3)”, in B. Lindars (ed.), Christ and Spirit in the New Testament. FS C. F. D. Moule, London, 1973, pp. 113–126"
+        },
+        {
+            key: "SPICQ 1973",
+            type: "biblio",
+            text: "C. Spicq, “Note sur μορφή dans les papyrus et quelques inscriptions”, RB 80 (1973), pp. 37–45"
         }
     ],
 
@@ -2186,6 +2216,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-anagrapho-leh" data-source="LEH" data-search="ἀναγράφω anagrapho verbo gravar inscrever registro público registrar escrever Esdras Macabeus Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀναγράφω</td><td>Verbo</td><td>gravar; inscrever; registrar; escrever</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anago-leh" data-source="LEH" data-search="ἀνάγω anago verbo fazer subir levantar conduzir oferecer guiar retirar ruminação Gênesis Êxodo Ezequiel Josué Samuel Reis Salmos Macabeus Levítico LE BOULLUEC Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάγω</td><td>Verbo</td><td>fazer subir; levantar; conduzir; oferecer; guiar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anagogos-leh" data-source="LEH" data-search="ἀναγώγως anagogos advérbio de maneira mal-educada rudemente 2 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναγώγως</td><td>Advérbio</td><td>de maneira mal-educada; rudemente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anadeiknymi-leh" data-source="LEH" data-search="ἀναδείκνυμι anadeiknymi verbo mostrar revelar proclamar nomear manifestar dedicar consagrar Habacuque Daniel Esdras Macabeus HELBING SPICQ TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναδείκνυμι</td><td>Verbo</td><td>mostrar; revelar; proclamar; nomear; manifestar; dedicar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anadeixis-leh" data-source="LEH" data-search="ἀνάδειξις anadeixis substantivo manifestação declaração Sirácida BICKERMAN SPICQ NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάδειξις</td><td>Substantivo</td><td>manifestação; declaração</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anadendras-leh" data-source="LEH" data-search="ἀναδενδράς anadendras substantivo videira cresce sobre árvores Ezequiel Salmos LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναδενδράς</td><td>Substantivo</td><td>videira que cresce sobre árvores</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anadechomai-leh" data-source="LEH" data-search="ἀναδέχομαι anadechomai verbo aceitar incumbir-se de empreender 2 Macabeus SPICQ Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναδέχομαι</td><td>Verbo</td><td>aceitar; incumbir-se de</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anadidomi-leh" data-source="LEH" data-search="ἀναδίδωμι anadidomi verbo dar irromper brotar emitir 2 Macabeus Sirácida metáfora Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναδίδωμι</td><td>Verbo</td><td>dar; irromper; brotar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anadysis-leh" data-source="LEH" data-search="ἀνάδυσις anadysis substantivo emergência terra água Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάδυσις</td><td>Substantivo</td><td>emergência da terra para fora da água</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anazeugnymi-leh" data-source="LEH" data-search="ἀναζεύγνυμι anazeugnymi verbo levantar acampamento partir mudar de alojamento marchar em direção retornar Êxodo Esdras Judite QUAST LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναζεύγνυμι</td><td>Verbo</td><td>levantar acampamento; partir; mudar de alojamento; retornar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anazeo-leh" data-source="LEH" data-search="ἀναζέω anazeo verbo irromper feridas fazer ferver Êxodo Jó 2 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναζέω</td><td>Verbo</td><td>irromper; fazer ferver</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anazeteo-leh" data-source="LEH" data-search="ἀναζητέω anazeteo verbo investigar esquadrinhar descobrir procurar Jó 2 Macabeus Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναζητέω</td><td>Verbo</td><td>investigar; esquadrinhar; descobrir; procurar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anazyge-leh" data-source="LEH" data-search="ἀναζυγή anazyge substantivo partida marcha retorno para casa jornada Êxodo 2 Macabeus neologismo dúvida LEE LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναζυγή</td><td>Substantivo</td><td>partida; marcha; retorno para casa; jornada</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anazonnumi-leh" data-source="LEH" data-search="ἀναζώννυμι anazonnumi verbo cingir Juízes Provérbios Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναζώννυμι</td><td>Verbo</td><td>cingir</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anazopyreo-leh" data-source="LEH" data-search="ἀναζωπυρέω anazopyreo verbo reacender reavivar Gênesis 1 Macabeus metáfora Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναζωπυρέω</td><td>Verbo</td><td>reacender; reavivar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anathallo-leh" data-source="LEH" data-search="ἀναθάλλω anathallo verbo rebrotar florescer reviver fazer florescer reavivar Ezequiel Oseias Salmos Sabedoria Sirácida WALTERS Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναθάλλω</td><td>Verbo</td><td>rebrotar; florescer; reviver; fazer florescer</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anathema-leh" data-source="LEH" data-search="ἀνάθεμα anathema substantivo coisa devotada à destruição amaldiçoada חרם anátema cidade Números Levítico Deuteronômio DEISSMANN HARLÉ MENESTRINA VAN UNNIK NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάθεμα</td><td>Substantivo</td><td>coisa devotada à destruição; coisa amaldiçoada</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anathematizo-leh" data-source="LEH" data-search="ἀναθεματίζω anathematizo verbo devotar ser devotado ser amaldiçoado Números Deuteronômio Esdras NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναθεματίζω</td><td>Verbo</td><td>devotar; ser devotado; ser amaldiçoado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anathema-eta-leh" data-source="LEH" data-search="ἀνάθημα anathema substantivo oferta votiva dádiva coisa devotada à destruição amaldiçoada Deuteronômio Judite Macabeus NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάθημα</td><td>Substantivo</td><td>oferta votiva; dádiva; coisa amaldiçoada</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaideia-leh" data-source="LEH" data-search="ἀναίδεια anaideia substantivo desvergonha impudência Sirácida SPICQ LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναίδεια</td><td>Substantivo</td><td>desvergonha; impudência</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaides-leh" data-source="LEH" data-search="ἀναιδής anaides adjetivo desavergonhado ousado duro peremptório Deuteronômio 1 Samuel Isaías Jeremias Provérbios Daniel hebraico MT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναιδής</td><td>Adjetivo</td><td>desavergonhado; ousado; duro; peremptório</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -5912,6 +6002,147 @@ window.ScripturaLexicons.LEH = {
     <header class="entry-header"><div><h1 class="entry-title greek">ἀναγράφω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναγράφω · anagraphō" data-transliteration="anagraphō" data-meanings="gravar|inscrever em registro público|registrar|escrever">ἀναγράφω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-6=6</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>gravar</strong> [<span class="greek">τι</span>] (4Mc 17.8); <strong>inscrever, lançar em registro público</strong> [<span class="greek">τινα</span>] (2Mc 4.9); <strong>registrar</strong> [<span class="greek">τι</span>] (1Mc 14.22); <strong>escrever</strong> [<span class="greek">τι</span>] (1Esd 1.22).</p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Esd 1.22,31,40; 1Mc 14.22; 2Mc 4.9.</p>
+    </section>
+</article>
+<article id="entry-anago-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάγω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάγω · anagō" data-transliteration="anagō" data-meanings="fazer subir|levantar|conduzir|oferecer|guiar|retirar-se">ἀνάγω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 22-42-32-7-11=114</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>fazer subir</strong> [<span class="greek">τι</span>] (Êx 8.5); <strong>levantar</strong> [<span class="greek">τινα</span>] (Ez 26.3); <strong>conduzir para cima, levar a</strong> [<span class="greek">τινα</span>] (Js 7.24); <strong>fazer subir</strong> (da sepultura) (1Sm 2.6); <strong>oferecer</strong> [<span class="greek">τινα</span>] (2Rs 10.24); <strong>guiar</strong> [<span class="greek">τινα</span>] (Sl 77(78).52).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>retirar-se para</strong> [<span class="greek">πρός τινα</span>] (2Mc 5.9).</p>
+        <p class="entry-text"><span class="greek">πᾶν κτῆνος ἀνάγον μηρυκισμόν</span>: <strong>todo animal que rumina</strong> (Lv 11.3).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 42.37; 50.24; Êx 8.1,2,3.</p>
+        <p class="entry-text"><strong>Cf.</strong> LE BOULLUEC 1989, 90–91.</p>
+    </section>
+</article>
+<article id="entry-anagogos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναγώγως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναγώγως · anagōgōs" data-transliteration="anagōgōs" data-meanings="de maneira mal-educada|rudemente">ἀναγώγως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de maneira mal-educada, rudemente</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 2Mc 12.14.</p>
+    </section>
+</article>
+<article id="entry-anadeiknymi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναδείκνυμι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναδείκνυμι · anadeiknymi" data-transliteration="anadeiknymi" data-meanings="mostrar|revelar|proclamar|nomear|manifestar|dedicar|consagrar">ἀναδείκνυμι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-2-16=19</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>mostrar, revelar</strong> [<span class="greek">τι</span>] (2Mc 2.8); <strong>proclamar, nomear</strong> [<span class="greek">τινα</span>] (1Esd 8.23).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>ser manifestado</strong> (Hc 3.2); <strong>ser dedicado, ser consagrado</strong> (3Mc 2.14).</p>
+        <p class="entry-text"><span class="greek">ἀνέδειξεν ὁ βασιλεὺς Αἰγύπτου βασιλέα Ιωακιμ βασιλέα τῆς Ιουδαίας καὶ Ιερουσαλημ</span>: <strong>o rei do Egito constituiu Joaquim rei da Judeia e Jerusalém</strong> (1Esd 1.35).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Hc 3.2; Dn<sup>LXX</sup> 1.11,20; 1Esd 1.32,35.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 60; SPICQ 1982, 38–39; → TWNT.</p>
+    </section>
+</article>
+<article id="entry-anadeixis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάδειξις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάδειξις, -εως · anadeixis" data-transliteration="anadeixis" data-meanings="manifestação|declaração">ἀνάδειξις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>manifestação, declaração</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sr 43.6.</p>
+        <p class="entry-text"><strong>Cf.</strong> BICKERMAN 1950=1980, 1–6; SPICQ 1982, 38–39; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-anadendras-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναδενδράς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναδενδράς, -άδος · anadendras" data-transliteration="anadendras" data-meanings="videira que cresce sobre árvores">ἀναδενδράς, -άδος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-1-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>videira que cresce sobre árvores</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Ez 17.6; Sl 79(80).11.</p>
+    </section>
+</article>
+<article id="entry-anadechomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναδέχομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναδέχομαι · anadechomai" data-transliteration="anadechomai" data-meanings="aceitar|incumbir-se de">ἀναδέχομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>aceitar</strong> [<span class="greek">τι</span>] (2Mc 6.19); <strong>incumbir-se de, empreender</strong> [+ inf.] (2Mc 8.36).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 6.19; 8.36.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1978a, 83–84.</p>
+    </section>
+</article>
+<article id="entry-anadidomi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναδίδωμι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναδίδωμι · anadidōmi" data-transliteration="anadidōmi" data-meanings="dar|irromper|brotar">ἀναδίδωμι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>dar</strong> [<span class="greek">τί τινι</span>] (2Mc 13.15); <strong>irromper, brotar</strong> [<span class="greek">τινι</span>] (metáf.) (Sr 1.23).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 13.15; Sr 1.23.</p>
+    </section>
+</article>
+<article id="entry-anadysis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάδυσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάδυσις, -εως · anadysis" data-transliteration="anadysis" data-meanings="emergência da terra para fora da água">ἀνάδυσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>emergência</strong> (da terra para fora da água).</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 19.7.</p>
+    </section>
+</article>
+<article id="entry-anazeugnymi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναζεύγνυμι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναζεύγνυμι · anazeugnymi" data-transliteration="anazeugnymi" data-meanings="levantar acampamento|partir|mudar de alojamento|marchar em direção a|retornar a">ἀναζεύγνυμι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 3-0-0-0-14=17</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>levantar acampamento, mudar de alojamento</strong> [abs.] (Êx 14.15); <strong>levantar acampamento e marchar em direção a</strong> [<span class="greek">ἐπί τι</span>] (Jdt 7.1); <strong>retornar a</strong> [<span class="greek">εἴς τι</span>] (Jdt 16.21).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 14.15; 40.36,37; 1Esd 2.25; 8.60.</p>
+        <p class="entry-text"><strong>Cf.</strong> QUAST 1990, 230–252 (esp. 250–251).</p>
+    </section>
+</article>
+<article id="entry-anazeo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναζέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναζέω · anazeō" data-transliteration="anazeō" data-meanings="irromper|fazer ferver">ἀναζέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-1-1=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>irromper</strong> (de feridas) (Êx 9.9); <strong>fazer ferver</strong> [<span class="greek">τι</span>] (Jó 41.23).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 9.9,10; Jó 41.23; 2Mc 9.9.</p>
+    </section>
+</article>
+<article id="entry-anazeteo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναζητέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναζητέω · anazēteō" data-transliteration="anazēteō" data-meanings="investigar|esquadrinhar|descobrir|procurar">ἀναζητέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-2-1=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>investigar, esquadrinhar, descobrir</strong> [<span class="greek">τι</span>] (Jó 10.6); <strong>procurar</strong> [<span class="greek">τι</span>] (Jó 3.4).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jó 3.4; 10.6; 2Mc 13.21.</p>
+    </section>
+</article>
+<article id="entry-anazyge-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναζυγή</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναζυγή, -ῆς · anazygē" data-transliteration="anazygē" data-meanings="partida do acampamento|marcha|retorno para casa|jornada">ἀναζυγή, -ῆς</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-2=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>partida do acampamento, marcha, retorno para casa</strong> (2Mc 9.2); <strong>jornada</strong> (Êx 40.38); <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Êx 40.38; 2Mc 9.2; 13.26.</p>
+        <p class="entry-text"><strong>Cf.</strong> LEE, J. 1983, 101.</p>
+    </section>
+</article>
+<article id="entry-anazonnumi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναζώννυμι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναζώννυμι · anazōnnymi" data-transliteration="anazōnnymi" data-meanings="cingir">ἀναζώννυμι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-1-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cingir</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jz<sup>B</sup> 18.16; Pv 31.17.</p>
+    </section>
+</article>
+<article id="entry-anazopyreo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναζωπυρέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναζωπυρέω · anazōpyreō" data-transliteration="anazōpyreō" data-meanings="reacender|reavivar">ἀναζωπυρέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>reacender, reavivar</strong> (metáf.).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Gn 45.27; 1Mc 13.7.</p>
+    </section>
+</article>
+<article id="entry-anathallo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναθάλλω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναθάλλω · anathallō" data-transliteration="anathallō" data-meanings="rebrotar|florescer|reviver|fazer florescer|reavivar">ἀναθάλλω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-1-6=9</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>rebrotar, florescer</strong> (Sb 4.4); <strong>rebrotar, reviver</strong> (metáf.) (Sl 27(28).7); <strong>fazer florescer, reavivar</strong> [<span class="greek">τι</span>] (Sr 1.18).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Ez 17.24; Os 8.9; Sl 27(28).7; Sb 4.4; Sr 1.18.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 307.</p>
+    </section>
+</article>
+<article id="entry-anathema-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάθεμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάθεμα, -ατος · anathema" data-transliteration="anathema" data-meanings="coisa devotada à destruição|coisa amaldiçoada|Anátema nome de cidade">ἀνάθεμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 6-13-1-0-1=22</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>qualquer coisa devotada à destruição, coisa amaldiçoada</strong> (semit.; tradução do hebraico <bdi class="hebrew" lang="he" dir="rtl">חרם</bdi>) (Dt 13.18).</p>
+        <p class="entry-text"><span class="greek">ἀναθέματι ἀναθεματιεῖτε αὐτὴν</span>: <strong>devotá-la-eis ao mal ou à destruição, vós a amaldiçoareis</strong> (Dt 13.16); <span class="greek">πᾶν δὲ ἀνάθεμα, ὃ ἐὰν ἀναθῇ ἄνθρωπος</span>: <strong>toda coisa devotada à destruição que um homem tenha dedicado</strong> (Lv 27.28); <span class="greek">Ἀνάθεμα</span>: <strong>Anátema</strong> (nome de uma cidade) (Nm 21.3).</p>
+        <p class="entry-text">Ver <span class="greek">ἀνάθημα</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 21.3; Lv 27.28 (bis); Dt 13.16,18.</p>
+        <p class="entry-text"><strong>Cf.</strong> DEISSMANN 1901, 342; HARLÉ 1988, 214; MENESTRINA 1979, 12; VAN UNNIK 1973, 113–126; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-anathematizo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναθεματίζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναθεματίζω · anathematizō" data-transliteration="anathematizō" data-meanings="devotar|ser devotado|ser amaldiçoado">ἀναθεματίζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 5-7-0-2-1=15</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>devotar</strong> (Nm 21.2).</p>
+        <p class="entry-text"><strong>Passivo:</strong> <strong>ser devotado</strong> (Nm 18.14); <strong>ser amaldiçoado</strong> (Esd 10.8).</p>
+        <p class="entry-text"><span class="greek">ἀναθέματι ἀναθεματιεῖτε αὑτήν</span>: <strong>vós a amaldiçoareis, vós a devotareis ao mal ou à destruição</strong> (Dt 13.16).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Nm 18.14; 21.2,3; Dt 13.16; 20.17.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-anathema-eta-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάθημα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάθημα, -ατος · anathēma" data-transliteration="anathēma" data-meanings="oferta votiva|dádiva|coisa devotada à destruição|coisa amaldiçoada">ἀνάθημα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-0-3=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>oferta votiva, dádiva</strong> (2Mc 9.16); <strong>qualquer coisa devotada à destruição, coisa amaldiçoada</strong> (Dt 7.26).</p>
+        <p class="entry-text">Ver <span class="greek">ἀνάθεμα</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Dt 7.26 (bis); Jdt 16.19; 2Mc 9.16; 3Mc 3.17.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-anaideia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναίδεια</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναίδεια, -ας · anaideia" data-transliteration="anaideia" data-meanings="desvergonha|impudência">ἀναίδεια, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desvergonha, impudência</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sr 25.22.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1973, 49–52.</p>
+    </section>
+</article>
+<article id="entry-anaides-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναιδής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναιδής, -ής, -ές · anaidēs" data-transliteration="anaidēs" data-meanings="desavergonhado|ousado|duro|peremptório">ἀναιδής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-1-2-6-4=14</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desavergonhado</strong> (1Sm 2.29); <strong>ousado</strong> (Dt 28.50); <strong>duro, peremptório</strong> (Dn<sup>Th</sup> 2.15).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *1Sm 2.29, <span class="greek">ἀναιδεῖ ὀφθαλμῷ</span> “com um olho mau” — <bdi class="hebrew" lang="he" dir="rtl">מעוין</bdi> ◊<bdi class="hebrew" lang="he" dir="rtl">עין</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">מעון</bdi>, “lugar, templo?”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Dt 28.50; 1Sm 2.29; Is 56.11; Jr 8.5; Pv 7.13.</p>
     </section>
 </article>`
 };
