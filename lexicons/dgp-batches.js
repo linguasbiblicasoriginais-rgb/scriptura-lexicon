@@ -401,3 +401,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 11 — registros 201–220
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    const entries = [
+        [201, "ἅγημαι,", "dór. = ἥγημαι; cf. ἡγέομαι.", "forma dórica de ἥγημαι"],
+        [202, "ἀγηνορίη, ης (ἡ)", "jôn. 1 mérito; coragem 2 orgulho; arrogância. 〈ἀγήνωρ〉", "mérito; coragem; orgulho"],
+        [203, "ἀγήνωρ, ορος", "(masc.) 1 destemido; corajoso; viril 2 orgulhoso; arrogante 3 magnífico. 〈ἄγαν, ἀνήρ〉", "destemido; corajoso; magnífico"],
+        [204, "ἀγήοχα", "perf. de ἄγω.", "perfeito de ἄγω"],
+        [205, "ἀγήραος, ος, ον", "1 que não envelhece; sempre jovem 2 que não se desgasta; que não se deteriora. 〈ἀ-, γῆρας〉", "sempre jovem; imperecível"],
+        [206, "ἀγήρατος, ος, ον", "1 que não envelhece; imperecível; imortal. 〈ἀ-, γεράσκω〉", "que não envelhece; imortal"],
+        [207, "ἀγήρως", "ἀγήραος.", "ἀγήραος"],
+        [208, "Ἀγησίλαος, ου (ὁ)", "Agesilau, rei de Esparta.", "Agesilau, rei de Esparta"],
+        [209, "ἀγητός, ή, όν", "admirável; maravilhoso; surpreendente. 〈ἄγαμαι〉", "admirável; maravilhoso"],
+        [210, "ἁγήτωρ", "dór. = ἡγήτωρ.", "forma dórica de ἡγήτωρ"],
+        [211, "ἁγιάζω", "(fut. ἁγιάσω, aor. ἡγίασα, perf. desus.) bíbl. 1 dedicar; santificar; consagrar 2 celebrar (festas, rituais). 〈ἅγιος〉", "dedicar; santificar; consagrar"],
+        [212, "ἁγιασμός, οῦ (ὁ)", "bíbl. 1 consagração; dedicação 2 santificação; santidade. 〈ἁγιάζω〉", "consagração; santificação"],
+        [213, "ἁγίζω", "(impf. ἥγιζον, part. aor. pas. ἁγισθείς) 1 consagrar; oferecer em sacrifício ♦ méd. 2 experimentar temor religioso; venerar. 〈ἅγιος〉", "consagrar; venerar"],
+        [214, "ἀγινέω", "1 transportar; conduzir (coisas) ♦ méd. 2 fazer-se conduzir. 〈ἄγω〉", "transportar; conduzir"],
+        [215, "ἅγιος, α, ον", "1 santo; sagrado; consagrado, venerado ♦ τὸ ἅγιον 2 coisa ou lugar sagrado.", "santo; sagrado; consagrado"],
+        [216, "ἁγιότης, ητος (ἡ)", "1 santidade 2 bíbl. pureza moral; sinceridade. 〈ἅγιος〉", "santidade; pureza moral"],
+        [217, "Ἆγις, ιδος (ὁ)", "Ágis, n. de reis de Esparta.", "Ágis, nome de reis de Esparta"],
+        [218, "ἁγιστεία, ας (ἡ)", "cerimônia religiosa; rito sacro; culto. 〈ἁγιστεύω〉", "cerimônia religiosa; rito sacro"],
+        [219, "ἁγιστεύω", "(só pres. e part. aor.) 1 cumprir os ritos sagrados 2 viver santamente 3 santificar; purificar (as mãos). 〈ἁγὶζω〉", "cumprir ritos; viver santamente; purificar"],
+        [220, "ἁγιωσύνη, ης (ἡ)", "bíbl. 1 santidade; castidade 2 consagração. 〈ἅγιος〉", "santidade; consagração"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
