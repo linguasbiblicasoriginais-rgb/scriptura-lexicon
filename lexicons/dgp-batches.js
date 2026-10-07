@@ -926,3 +926,54 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 22 — registros 421–440
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "Mús.", type: "abbr", text: "música" },
+        { key: "Ret.", type: "abbr", text: "retórica" },
+        { key: "Jur.", type: "abbr", text: "jurídico; direito" },
+        { key: "Dram.", type: "abbr", text: "dramático; teatro" }
+    );
+
+    const entries = [
+        [421, "ἁγώ", "crase de ἅ ἐγώ.", "crase de ἅ ἐγώ"],
+        [422, "ἀγωγεύς, έως (ὁ)", "1 condutor 2 correia; rédea. 〈ἄγω〉", "condutor; correia; rédea"],
+        [423, "ἀγωγή, ῆς (ἡ)", "1 direção; condução 2 viagem 3 direcionamento; tendência 4 prisão por ordem judicial 5 educação; instrução 6 modo de conduzir (uma questão, negócios, as festas); conduta; método 7 modo de vida; comportamento 8 transporte (de coisas) 9 Mús. duração. 〈ἄγω〉", "direção; condução; educação; modo de vida"],
+        [424, "ἀγώγιμος, ος, ον", "1 transportável (coisa) 2 passível de ser preso, de ser escravizado (pessoa) 3 suscetível de se deixar arrastar a; inclinado a, πρός e ac. ♦ τὸ ἀγώγιμον 4 encantamento; filtro de amor ♦ τὰ ἀγώγιμα 5 coisas transportáveis, mercadorias. 〈ἀγωγή〉", "transportável; passível de prisão; encantamento"],
+        [425, "ἀγώγιον, ου (τό)", "mercadoria transportada; carregamento. 〈ἀγωγή〉", "mercadoria transportada; carregamento"],
+        [426, "ἀγωγός, ός, όν", "1 que guia; que conduz 2 capaz de atrair; sedutor de, gen. ♦ ὁ ἀγωγός 3 condutor; guia. 〈ἄγω〉", "que guia; condutor; guia"],
+        [427, "ἀγών, ῶνος (ὁ)", "1 assembléia; reunião; conselho 2 jogo; competição; concurso 3 combate; luta 4 debate 5 litígio 6 interesse que leva à luta; luta espiritual ou mental 7 luta mortal; esforço penoso 8 lugar de reunião ou de jogos; campo; arena 9 Ret. veemência do discurso ou do argumento 10 Agón, divindade da competição. 〈ἄγω〉", "assembleia; competição; combate; debate"],
+        [428, "ἀγωνάρχης, ου (ὁ)", "juiz da luta. 〈ἀγών, ἄρχω〉", "juiz da luta"],
+        [429, "ἀγωνία, ας (ἡ)", "1 luta (em jogos); participação nos grandes jogos; concurso 2 exercício físico 3 inquietude; ansiedade; angústia 4 crist. agonia. 〈ἀγών〉", "luta; ansiedade; agonia"],
+        [430, "ἀγωνιάω-ῶ", "(fut. ἀγωνιάσω, aor. ἠγωνίασα, perf. desus.) 1 lutar; competir 2 ter ansiedade; inquietar-se com algo, περί e gen., ἐπί e dat. 3 temer. 〈ἀγωνία〉", "lutar; competir; inquietar-se"],
+        [431, "ἀγωνίζομαι", "(fut. ἀγωνιοῦμαι e ἀγωνίσομαι, aor. ἠγωνισάμην, perf. ἠγώνισμαι) 1 concorrer; disputar (em jogos) 2 lutar; combater por algo, περί e gen.; contra alguém, dat. ou πρός e ac. 3 esforçar-se por; batalhar para, inf. 4 Jur. debater; defender; sustentar; contestar 5 Dram. representar; interpretar. 〈ἀγών〉", "competir; lutar; defender; representar"],
+        [432, "ἀγώνιος, ος, ον", "1 próprio dos jogos; competitivo 2 que preside os jogos (deuses) 3 agitado; inquieto. 〈ἀγών〉", "próprio dos jogos; competitivo; inquieto"],
+        [433, "ἀγώνισις, εως (ἡ)", "luta; combate. 〈ἀγωνίζομαι〉", "luta; combate"],
+        [434, "ἀγώνισμα, ατος (τό)", "1 exercício; luta 2 êxito 3 façanha; proeza 3 exercício de manejo; exercício literário 4 Dram. declamação; representação 5 objeto de contenda. 〈ἀγωνίζομαι〉", "exercício; luta; façanha; representação"],
+        [435, "ἀγωνισμός, οῦ (ὁ)", "luta. 〈ἀγωνίζομαι〉", "luta"],
+        [436, "ἀγωνιστέον", "adj. verb. de ἀγωνίζομαι.", "adjetivo verbal de ἀγωνίζομαι"],
+        [437, "ἀγωνιστής, οῦ (ὁ)", "1 competidor; atleta 2 advogado; orador 3 ator 4 mestre em uma arte ou ciência. 〈ἀγωνίζομαι〉", "competidor; atleta; advogado; ator"],
+        [438, "ἀγωνιστικός, ή, όν", "1 relativo a contenda; agonístico 2 próprio para discussão (estilo) 3 surpreendente; excelente; eficaz 4 amante da discussão ♦ ἡ ἀγωνιστική, τὸ ἀγωνιστικόν 5 a arte de lutar. 〈ἀγωνίζομαι〉", "agonístico; eficaz; arte de lutar"],
+        [439, "ἀγωνιστικῶς", "adv. com disposição para a luta; com obstinação; vigorosamente.", "vigorosamente; com obstinação"],
+        [440, "ἀγωνοθεσία, ας (ἡ)", "função de agonóteta. 〈ἀγωνοθέτης〉", "função de agonóteta"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
