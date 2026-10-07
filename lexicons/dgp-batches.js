@@ -305,3 +305,49 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "epít.", type: "abbr", text: "epíteto" },
+        { key: "dat. instr.", type: "abbr", text: "dativo instrumental" },
+        { key: "instr.", type: "abbr", text: "instrumental" }
+    );
+
+    const entries = [
+        [161, "ἀγελείη, ης (ἡ)", "jôn. aquela que leva os despojos; predadora, epít. de Atena. 〈ἄγω, λεία〉", "predadora; epíteto de Atena"],
+        [162, "ἀγέλη, ης (ἡ)", "1 rebanho, gado 2 grupo organizado 3 grupo de jovens. 〈ἄγω〉", "rebanho; grupo"],
+        [163, "ἀγεληδόν", "adv. em rebanho; em bando; em tropa. 〈ἀγέλη〉", "em rebanho; em bando"],
+        [164, "ἀγέληφι", "dat. instr. ép. de ἀγέλη.", "dativo instrumental épico de ἀγέλη"],
+        [165, "ἀγελοιος, ος, ον", "que não faz rir. 〈ἀ-, γελοῖος〉", "que não faz rir"],
+        [166, "ἀγελοίως", "adv. de modo não risível.", "de modo não risível"],
+        [167, "ἀγέμεν", "inf. pres. poét. de ἄγω.", "infinitivo presente poético de ἄγω"],
+        [168, "ἀγεμονεύω", "dór. = ἡγεμονεύω.", "forma dórica de ἡγεμονεύω"],
+        [169, "ἀγεμών", "dór. = ἡγεμών.", "forma dórica de ἡγεμών"],
+        [170, "ἄγεν", "3ª pl. aor.2 pas. poét. de ἄγνυμι.", "forma poética de ἄγνυμι"],
+        [171, "ἀγενεαλόγητος, ος, ον", "bíbl. sem antepassados conhecidos; sem genealogia. 〈ἀ-, γενεαλογέω〉", "sem genealogia"],
+        [172, "ἀγένεια, ας (ἡ)", "falta de nobreza; baixa linhagem; origem obscura. 〈ἀγενής〉", "falta de nobreza; baixa linhagem"],
+        [173, "ἀγένειος, ος, ον", "1 imberbe; jovem 2 pueril; pouco sério ♦ οἱ ἀγένειοι 3 os adolescentes. 〈ἀ-, γένειον〉", "imberbe; jovem; pueril"],
+        [174, "ἀγενής, ής, ές", "1 ingênito; incriado 2 de baixa linhagem ♦ τὰ ἀγενῆ 3 bíbl. coisas ignóbeis; coisas vis; coisas humildes. 〈ἀ-, γένος〉", "ingênito; incriado; de baixa linhagem"],
+        [175, "ἀγένητος, ος, ον", "1 que não teve início; incriado; ingênito 2 inexistente; irreal 3 que não se pode produzir; irrealizável. 〈ἀ-, γίγνομαι〉", "incriado; ingênito; inexistente"],
+        [176, "ἀγέννεια", "ἀγένεια.", "ἀγένεια"],
+        [177, "ἀγεννής, ής, ές", "1 sem nobreza; de baixa origem; plebeu 2 vulgar; baixo; vil. 〈ἀ-, γέννα〉", "sem nobreza; plebeu; vulgar"],
+        [178, "ἀγέννητος, ος, ον", "1 não gerado; não nascido; ainda não nascido 2 sem origem nobre 3 que não produz; estéril. 〈ἀ-, γεννάω〉", "não gerado; não nascido; estéril"],
+        [179, "ἀγεννήτως", "adv. sem ter sido gerado.", "sem ter sido gerado"],
+        [180, "ἀγεννῶς", "adv. sem nobreza; com baixeza; covardemente. 〈ἀγεννής〉", "sem nobreza; covardemente"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
