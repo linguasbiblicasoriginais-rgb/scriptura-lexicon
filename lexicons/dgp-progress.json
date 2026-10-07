@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 20,
-    "next_ordinal": 601,
-    "status": "lote 30 concluído"
+    "next_ordinal": 621,
+    "status": "lote 31 concluído"
   },
   "batches": [
     {
@@ -279,6 +279,15 @@
       "end_ordinal": 600,
       "start_entry": "ἀδοξέω-ῶ",
       "end_entry": "Ἀδριηνός",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 31,
+      "start_ordinal": 601,
+      "end_ordinal": 620,
+      "start_entry": "Ἀδρίης",
+      "end_entry": "ἀδώρητος, ος, ον",
       "entry_count": 20,
       "status": "concluído"
     }

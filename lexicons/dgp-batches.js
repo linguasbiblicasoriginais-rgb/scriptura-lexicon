@@ -1346,3 +1346,51 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 31 — registros 601–620
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "impes.", type: "abbr", text: "impessoal" }
+    );
+
+    const entries = [
+        [601, "Ἀδρίης", "jôn. = Ἀδρίας.", "forma jônica de Ἀδρίας"],
+        [602, "ἁδρός, ά, όν", "1 bem desenvolvido; formado; robusto (pessoa); gordo (animal); maduro, viçoso (planta, fruto) 2 de posição elevada (pessoa) 3 espesso; maciço; abundante 4 grandioso; vigoroso (estilo). 〈ἅδην〉", "robusto; maduro; espesso; grandioso"],
+        [603, "ἁδροτής, ῆτος (ἡ)", "1 força; vigor; maturidade 2 bíbl. abundância. 〈ἁδρός〉", "força; vigor; maturidade; abundância"],
+        [604, "ἁδρύνω", "(aor. pas. ἡδρύνθην) 1 fazer amadurecer; fazer crescer ♦ pas. 2 crescer; amadurecer; desenvolver-se. 〈ἁδρός〉", "fazer amadurecer; crescer; desenvolver-se"],
+        [605, "ἀδυναμία, ας (ἡ)", "1 fraqueza; impotência para, gen. 2 falta de recursos; pobreza. 〈ἀδύναμος〉", "fraqueza; impotência; pobreza"],
+        [606, "ἀδύναμος, ος, ον", "sem força; fraco. 〈ἀ-, δύναμις〉", "sem força; fraco"],
+        [607, "ἀδυνασία, ας (ἡ)", "ἀδυναμία. 〈ἀδύνατος〉", "ἀδυναμία"],
+        [608, "ἀδυνατέω-ῶ", "1 não ter força; ser fraco; ser incapaz de, inf. 2 ser impossível. 〈ἀδύνατος〉", "ser incapaz; ser impossível"],
+        [609, "ἀδύνατος, ος, ον", "1 impotente; incapaz; fraco: ἀδύνατος χρήμασι Tucídides pobre 2 fora de uso; inutilizado 3 inválido, com direito a pensão de invalidez 4 incapaz de, inf., ac. de rel., εἰς ou κατά e ac. 5 impossível: ἀδύνατόν ἐστι, ἀδύνατά ἐστι é impossível, inf. ♦ τὸ ἀδύνατον 6 o impossível. 〈ἀ,- δύναμαι〉", "impotente; incapaz; impossível"],
+        [610, "ἀδυνάτως", "adv. sem força; debilmente: ἀδυνάτως ἔχειν estar fraco, estar indisposto; com inf. ser incapaz de; impes. ἀ. ἔχει é impossível.", "sem força; ser incapaz; ser impossível"],
+        [611, "ἁδύπνοος", "dór. = ἡδύπνοος.", "forma dórica de ἡδύπνοος"],
+        [612, "ἁδύς", "dór. = ἡδύς.", "forma dórica de ἡδύς"],
+        [613, "ἄδυτος, ος, ον", "1 cujo acesso é vedado; impenetrável; inacessível. ♦ τὸ ἄδυτον, τὰ ἄδυτα 2 santuário, santuários, ádito. 〈ἀ-, δύω〉", "inacessível; santuário; ádito"],
+        [614, "ἁδύφωνος, ος, ον", "dór. = ἡδύφωνος.", "forma dórica de ἡδύφωνος"],
+        [615, "ᾄδω,", "contr. át. de ἀείδω (impf. ῇδον, fut. ᾄσομαι, rar. ᾄσω; aor. ᾖσα; perf. desus.; pas. aor. ᾔσθην, perf. tard. ᾖσμαι) 1 cantar 2 celebrar 3 cantar repetindo; cantar refrão 4 fazer ressoar 5 silvar ♦ pas. 6 ser objeto de cantos 7 (lugar) encher-se de cantos.", "cantar; celebrar; ressoar; silvar"],
+        [616, "Ἀδωνιάζω", "tard., (só part. pres. αἱ Ἀδωνιάζουσαι) celebrar as festas de Adônis. 〈Ἄδωνις〉", "celebrar as festas de Adônis"],
+        [617, "Ἀδωνιασμός, οῦ (ὁ)", "lamentação por Adônis. 〈Ἀδωνιάζω〉", "lamentação por Adônis"],
+        [618, "Ἀδώνιος, ος, ον", "1 de Adônis ♦ τὰ Ἀδώνια 2 festas de Adônis. 〈Ἄδωνις〉", "de Adônis; festas de Adônis"],
+        [619, "Ἄδωνις, ιδος (ὁ)", "1 Adônis, deus sírio e fenício cultuado na Grécia 2 moço encantador.", "Adônis; moço encantador"],
+        [620, "ἀδώρητος, ος, ον", "poét. que não aceita ou não recebe presentes. 〈ἀ-, δωρέομαι〉", "que não aceita ou não recebe presentes"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
