@@ -611,6 +611,21 @@ window.ScripturaLexicons.LEH = {
             key: "GEHMAN 1953",
             type: "biblio",
             text: "H. S. Gehman, “Hebraisms of the Old Greek Version of Genesis”, VT 3 (1953), pp. 141–148"
+        },
+        {
+            key: "CHANTRAINE 1955",
+            type: "biblio",
+            text: "P. Chantraine, “Les noms de l’agneau”, in H. Krahe et al. (eds.), Corolla Linguistica. FS F. Sommer, Berlin, 1955, pp. 12–19"
+        },
+        {
+            key: "TOV 1987",
+            type: "biblio",
+            text: "E. Tov, “Die griechischen Bibelübersetzungen”, ANRW II.20.1 (1987), pp. 121–189"
+        },
+        {
+            key: "MOATTI-FINE 1996",
+            type: "biblio",
+            text: "J. Moatti-Fine, La Bible d’Alexandrie. VI. Jésus (Josué), Paris, 1996"
         }
     ],
 
@@ -1941,6 +1956,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-amnas-leh" data-source="LEH" data-search="ἀμνάς amnas substantivo cordeira Gênesis Levítico hebraico corr dez minas dez vezes neologismo GEHMAN LEE WALTERS Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀμνάς</td><td>Substantivo</td><td>cordeira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amnemoneo-leh" data-source="LEH" data-search="ἀμνημονέω amnemoneo verbo esquecer não se lembrar Sirácida genitivo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμνημονέω</td><td>Verbo</td><td>esquecer; não se lembrar de</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amnesia-leh" data-source="LEH" data-search="ἀμνησία amnesia substantivo esquecimento falta de memória Sirácida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμνησία</td><td>Substantivo</td><td>esquecimento; falta de memória</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amnesikakia-leh" data-source="LEH" data-search="ἀμνησικακία amnesikakia substantivo perdão 3 Macabeus neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμνησικακία</td><td>Substantivo</td><td>perdão</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amnesteutos-leh" data-source="LEH" data-search="ἀμνήστευτος amnesteutos adjetivo ainda não noivo desposado Êxodo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμνήστευτος</td><td>Adjetivo</td><td>ainda não noivo; ainda não desposado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amnestia-leh" data-source="LEH" data-search="ἀμνηστία amnestia substantivo esquecimento falta de memória Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμνηστία</td><td>Substantivo</td><td>esquecimento; falta de memória</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amnos-leh" data-source="LEH" data-search="ἀμνός amnos substantivo cordeiro macho cordeiro sacrificial Gênesis Êxodo hebraico MT CHANTRAINE TOV NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμνός</td><td>Substantivo</td><td>cordeiro; cordeiro sacrificial</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amoiros-leh" data-source="LEH" data-search="ἄμοιρος amoiros adjetivo sem parte genitivo Sabedoria neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἄμοιρος</td><td>Adjetivo</td><td>sem parte em</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amolyntos-leh" data-source="LEH" data-search="ἀμόλυντος amolyntos adjetivo incontaminado Sabedoria neologismo dúvida LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμόλυντος</td><td>Adjetivo</td><td>incontaminado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amora-leh" data-source="LEH" data-search="ἀμόρα amora substantivo bolo doce Cântico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμόρα</td><td>Substantivo</td><td>bolo doce</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amorites-leh" data-source="LEH" data-search="ἀμορίτης amorites substantivo bolo 1 Crônicas neologismo LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμορίτης</td><td>Substantivo</td><td>bolo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amorphos-leh" data-source="LEH" data-search="ἄμορφος amorphos adjetivo sem forma informe Sabedoria LARCHER Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄμορφος</td><td>Adjetivo</td><td>sem forma; informe</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ampelos-leh" data-source="LEH" data-search="ἄμπελος ampelos substantivo videira uva vinha vinhedo vinho Gênesis Levítico Cântico Reis Isaías hebraico שרק NIDNTT TWNT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἄμπελος</td><td>Substantivo</td><td>videira; uva; vinha; vinho</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ampelourgos-leh" data-source="LEH" data-search="ἀμπελουργός ampelourgos substantivo cultivador de vinhas viticultor 2 Reis 2 Crônicas Isaías Jeremias Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμπελουργός</td><td>Substantivo</td><td>cultivador de vinhas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ampelon-leh" data-source="LEH" data-search="ἀμπελών ampelon substantivo vinha vinhedo Gênesis Êxodo Levítico 1 Samuel hebraico MT LEE NIDNTT Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμπελών</td><td>Substantivo</td><td>vinha; vinhedo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amplakia-leh" data-source="LEH" data-search="ἀμπλακία amplakia substantivo erro falta 3 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμπλακία</td><td>Substantivo</td><td>erro; falta</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amygdalon-leh" data-source="LEH" data-search="ἀμύγδαλον amygdalon substantivo amendoeira Eclesiastes SHIPP LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμύγδαλον</td><td>Substantivo</td><td>amendoeira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amythētos-leh" data-source="LEH" data-search="ἀμύθητος amythetos adjetivo inexprimivelmente grande inumerável Jó 2 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμύθητος</td><td>Adjetivo</td><td>inexprimivelmente grande; inumerável</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amyna-leh" data-source="LEH" data-search="ἄμυνα amyna substantivo vingança desforra defesa proteção Sabedoria genitivo LARCHER LEH" tabindex="0">
+    <td class="table-lemma greek">ἄμυνα</td><td>Substantivo</td><td>vingança; desforra; defesa; proteção</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amyno-leh" data-source="LEH" data-search="ἀμύνω amyno verbo médio afastar repelir defender-se Josué Isaías Salmos Ester HELBING MOATTI-FINE Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμύνω</td><td>Verbo</td><td>afastar; repelir; defender-se contra</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-amphiazo-leh" data-source="LEH" data-search="ἀμφιάζω amphiazo verbo vestir vestir-se Jó ativo médio metáfora neologismo dúvida ἀμφιέννυμι Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀμφιάζω</td><td>Verbo</td><td>vestir; vestir-se</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -5254,6 +5329,140 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 21.28,29,30; 31.41; Lv 5.6.</p>
         <p class="entry-text"><strong>Cf.</strong> GEHMAN 1953, 146; LEE, J. 1983, 108; WALTERS 1973, 193–194 (Gn 31.7,41).</p>
+    </section>
+</article>
+<article id="entry-amnemoneo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμνημονέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμνημονέω · amnēmoneō" data-transliteration="amnēmoneō" data-meanings="esquecer|não se lembrar de">ἀμνημονέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>esquecer, não se lembrar de</strong> [<span class="greek">τινος</span>].</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sr 37.6.</p>
+    </section>
+</article>
+<article id="entry-amnesia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμνησία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμνησία, -ας · amnēsia" data-transliteration="amnēsia" data-meanings="esquecimento|falta de memória">ἀμνησία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>esquecimento, falta de memória</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sr 11.25.</p>
+    </section>
+</article>
+<article id="entry-amnesikakia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμνησικακία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμνησικακία, -ας · amnēsikakia" data-transliteration="amnēsikakia" data-meanings="perdão">ἀμνησικακία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>perdão</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 3.21.</p>
+    </section>
+</article>
+<article id="entry-amnesteutos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμνήστευτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμνήστευτος, -ος, -ον · amnēsteutos" data-transliteration="amnēsteutos" data-meanings="ainda não noivo|ainda não desposado">ἀμνήστευτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 1-0-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ainda não noivo, ainda não desposado</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Êx 22.15.</p>
+    </section>
+</article>
+<article id="entry-amnestia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμνηστία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμνηστία, -ας · amnēstia" data-transliteration="amnēstia" data-meanings="esquecimento|falta de memória">ἀμνηστία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>esquecimento, falta de memória</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Sb 14.26; 19.4.</p>
+    </section>
+</article>
+<article id="entry-amnos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμνός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμνός, -οῦ · amnos" data-transliteration="amnos" data-meanings="cordeiro macho|cordeiro sacrificial">ἀμνός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 77-5-11-5-3=101</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cordeiro (macho)</strong> (Gn 30.40); <strong>cordeiro sacrificial</strong> (na maioria das vezes) (Êx 29.39).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Gn 33.19, <span class="greek">ἑκατὸν ἀμνῶν</span> “de cem cordeiros”; corr. <span class="greek">ἑκατὸν μνάς</span> “cem minas” — <bdi class="hebrew" lang="he" dir="rtl">קשׂיטה מאה</bdi>, “cem peças de dinheiro?”, para o MT; ver também Js 24.32; Jó 42.11.</p>
+        <p class="entry-text">Ver <span class="greek">ἀμνάς</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 30.40 (bis); 31.7; 33.19; Êx 29.38.</p>
+        <p class="entry-text"><strong>Cf.</strong> CHANTRAINE 1955, 12–19; TOV 1987, 137; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-amoiros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄμοιρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄμοιρος, -ος, -ον · amoiros" data-transliteration="amoiros" data-meanings="sem parte em">ἄμοιρος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem parte em</strong> [<span class="greek">τινος</span>]; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 2.9.</p>
+    </section>
+</article>
+<article id="entry-amolyntos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμόλυντος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμόλυντος, -ος, -ον · amolyntos" data-transliteration="amolyntos" data-meanings="incontaminado">ἀμόλυντος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>incontaminado</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 7.22.</p>
+    </section>
+</article>
+<article id="entry-amora-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμόρα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμόρα, -ας · amora" data-transliteration="amora" data-meanings="bolo doce">ἀμόρα, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bolo doce</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Ct 2.5.</p>
+    </section>
+</article>
+<article id="entry-amorites-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμορίτης</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμορίτης, -ου · amoritēs" data-transliteration="amoritēs" data-meanings="bolo">ἀμορίτης, -ου</span><span class="separator">·</span><span>substantivo masculino da 1ª declinação (N1M)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>bolo</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol." data-tooltip-text="neologismo; no LEH, indicação usada para palavra considerada provavelmente não anterior ao período de composição da Septuaginta">neol.</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 1Cr 16.3.</p>
+    </section>
+</article>
+<article id="entry-amorphos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄμορφος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄμορφος, -ος, -ον · amorphos" data-transliteration="amorphos" data-meanings="sem forma|informe">ἄμορφος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem forma, informe</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 11.17.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1985, 676–680.</p>
+    </section>
+</article>
+<article id="entry-ampelos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄμπελος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄμπελος, -ου · ampelos" data-transliteration="ampelos" data-meanings="videira|uva|vinha|vinho">ἄμπελος, -ου</span><span class="separator">·</span><span>substantivo feminino da 2ª declinação (N2F)</span><span class="separator">·</span><span>frequência LEH: 11-10-33-11-6=71</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>videira</strong> (Gn 49.11); <strong>uva</strong> (Ct 2.15); <strong>vinha, vinhedo</strong> (Gn 40.9); <strong>vinho</strong> (meton.) (2Rs 18.31).</p>
+        <p class="entry-text"><span class="greek">ἄμπελος σωρηχ</span> (<span class="greek">σωρηχ</span> = <bdi class="hebrew" lang="he" dir="rtl">שׂרק</bdi>): <strong>videira escolhida</strong> (Is 5.2).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 40.9,10; 49.11; Lv 25.3,4.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-ampelourgos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμπελουργός</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμπελουργός, -οῦ · ampelourgos" data-transliteration="ampelourgos" data-meanings="cultivador de vinhas">ἀμπελουργός, -οῦ</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-2-2-0-0=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>cultivador de vinhas</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Rs 25.12; 2Cr 26.10; Is 61.5; Jr 52.16.</p>
+    </section>
+</article>
+<article id="entry-ampelon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμπελών</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμπελών, -ῶνος · ampelōn" data-transliteration="ampelōn" data-meanings="vinha|vinhedo">ἀμπελών, -ῶνος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 18-29-27-18-10=102</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vinha, vinhedo</strong> (Gn 9.20).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *1Sm 15.9, <span class="greek">τῶν ἀμπελώνων</span> “as vinhas” — <bdi class="hebrew" lang="he" dir="rtl">הכרמים</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">הכרים</bdi>, “os carneiros”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 9.20; Êx 22.4 (bis); 23.11; Lv 19.10.</p>
+        <p class="entry-text"><strong>Cf.</strong> LEE, J. 1983, 107; → NIDNTT.</p>
+    </section>
+</article>
+<article id="entry-amplakia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμπλακία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμπλακία, -ας · amplakia" data-transliteration="amplakia" data-meanings="erro|falta">ἀμπλακία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>erro, falta</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 2.19.</p>
+    </section>
+</article>
+<article id="entry-amygdalon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμύγδαλον</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμύγδαλον, -ου · amygdalon" data-transliteration="amygdalon" data-meanings="amendoeira">ἀμύγδαλον, -ου</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>amendoeira</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Ec 12.5.</p>
+        <p class="entry-text"><strong>Cf.</strong> SHIPP 1979, 66.</p>
+    </section>
+</article>
+<article id="entry-amythētos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμύθητος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμύθητος, -ος, -ον · amythētos" data-transliteration="amythētos" data-meanings="inexprimivelmente grande|inumerável">ἀμύθητος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-3-2=5</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>inexprimivelmente grande</strong> (Jó 8.7); <strong>inumerável</strong> (Jó 36.28).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jó 8.7; 36.28; 41.22; 2Mc 3.6; 12.16.</p>
+    </section>
+</article>
+<article id="entry-amyna-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄμυνα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄμυνα, -ης · amyna" data-transliteration="amyna" data-meanings="vingança contra|desforra contra|defesa contra|proteção contra">ἄμυνα, -ης</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vingança contra, desforra contra, defesa contra, proteção contra</strong> [<span class="greek">τινος</span>].</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 5.17.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1984, 388.</p>
+    </section>
+</article>
+<article id="entry-amyno-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμύνω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμύνω · amynō" data-transliteration="amynō" data-meanings="afastar|repelir|defender-se contra">ἀμύνω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-1-1-5-3=10</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Médio:</strong> <strong>afastar, repelir de si</strong> [<span class="greek">τινα</span>] (Sl 117(118).10); <strong>defender-se contra</strong> [<span class="greek">τινα</span>] (Est 8.12s).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Js 10.13; Is 59.16; Sl 117(118).10,11,12.</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 36; MOATTI-FINE 1996, 151.</p>
+        <p class="entry-text">(→ <span class="greek">ἀπ-</span>, <span class="greek">ἐπ-</span>).</p>
+    </section>
+</article>
+<article id="entry-amphiazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀμφιάζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀμφιάζω · amphiazō" data-transliteration="amphiazō" data-meanings="vestir|vestir-se">ἀμφιάζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-2-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>vestir</strong> [<span class="greek">τινα</span>] (Jó 31.19).</p>
+        <p class="entry-text"><strong>Médio:</strong> <strong>vestir-se</strong> (metáf.) (Jó 29.14).</p>
+        <p class="entry-text"><span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span>; ver <span class="greek">ἀμφιέννυμι</span>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jó 29.14; 31.19.</p>
     </section>
 </article>`
 };
