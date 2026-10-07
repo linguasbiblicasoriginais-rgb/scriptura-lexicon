@@ -555,6 +555,27 @@ window.ScripturaLexicons.LEH = {
             type: "biblio",
             text: "G. Milligan, Selections from the Greek Papyri. Edited with Translations and Notes, Cambridge, 1910; reimpr. Chicago, IL, 1980"
         }
+        ,
+        {
+            key: "KRAFT 1992",
+            type: "biblio",
+            text: "R. A. Kraft, “ἁλίσκω (ἁλίσκομαι) in Greek Jewish Scriptures. Profile of a Difficult Greek Verb”, BJRL 74 (1992), pp. 53–66"
+        },
+        {
+            key: "HORSLEY 1982",
+            type: "biblio",
+            text: "G. H. R. Horsley, New Documents Illustrating Early Christianity. Vol. 2. A Review of the Greek Inscriptions and Papyri Published in 1977, Macquarie University, N.S.W., 1982"
+        },
+        {
+            key: "FASCHER 1971",
+            type: "biblio",
+            text: "E. Fascher, “Zum Begriff des Fremden”, TLZ 96 (1971), pp. 161–168"
+        },
+        {
+            key: "LIEBERMAN 1946",
+            type: "biblio",
+            text: "S. Lieberman, “Two Lexicographical Notes”, JBL 65 (1946), pp. 67–72"
+        }
     ],
 
     rowsHtml: String.raw`
@@ -1584,6 +1605,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-halizo-leh" data-source="LEH" data-search="ἁλίζω halizo salgar Levítico Ezequiel Tobias NIDNTT LEH" tabindex="0">
     <td class="table-lemma greek">ἁλίζω</td><td>Verbo</td><td>salgar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-halimos-leh" data-source="LEH" data-search="ἅλιμος halimos do mar litorâneo salgado plantas marítimas armoles Jeremias Jó LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλιμος</td><td>Substantivo</td><td>do mar; lugares litorâneos ou salgados; plantas litorâneas</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alisgeo-leh" data-source="LEH" data-search="ἀλισγέω alisgeo poluir Malaquias Daniel WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλισγέω</td><td>Verbo</td><td>poluir</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-haliskomai-leh" data-source="LEH" data-search="ἁλίσκομαι haliskomai ser tomado conquistado cair mãos inimigo condenado apanhado detectado Êxodo Deuteronômio Isaías Zacarias Sirácida KRAFT LEE LEH" tabindex="0">
+    <td class="table-lemma greek">ἁλίσκομαι</td><td>Verbo</td><td>ser tomado; ser conquistado; cair nas mãos do inimigo; ser condenado; ser apanhado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-aliterios-leh" data-source="LEH" data-search="ἀλιτήριος aliterios desgraçado pessoa má pecador Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλιτήριος</td><td>Adjetivo</td><td>desgraçado; pessoa terrivelmente má; pecador</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alke-leh" data-source="LEH" data-search="ἀλκή alke força poder Daniel LXX Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλκή</td><td>Substantivo</td><td>força; poder</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alla-leh" data-source="LEH" data-search="ἀλλά alla conjunção mas certamente exceto contudo vamos Gênesis Números Samuel Crônicas Jó Isaías Ester Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλά</td><td>Conjunção</td><td>mas; certamente; exceto; contudo; vamos</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allage-leh" data-source="LEH" data-search="ἀλλαγή allage mudança Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλαγή</td><td>Substantivo</td><td>mudança</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allagma-leh" data-source="LEH" data-search="ἄλλαγμα allagma trocado troca resgate recompensa preço Levítico Deuteronômio Samuel Reis Isaías CAIRD LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλλαγμα</td><td>Substantivo</td><td>aquilo que é trocado; resgate; recompensa; preço</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allasso-leh" data-source="LEH" data-search="ἀλλάσσω allasso mudar alterar trocar dar troca receber retorno Gênesis Êxodo Levítico Salmos Isaías Macabeus Reis HELBING HORSLEY NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλάσσω</td><td>Verbo</td><td>mudar; alterar; trocar; dar em troca; receber em retorno</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allache-leh" data-source="LEH" data-search="ἀλλαχῇ allache alhures outro lugar Macabeus Sabedoria LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλαχῇ</td><td>Advérbio</td><td>alhures; em outro lugar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allachothen-leh" data-source="LEH" data-search="ἀλλαχόθεν allachothen de outro lugar 4 Macabeus LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλαχόθεν</td><td>Advérbio</td><td>de outro lugar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allelouia-leh" data-source="LEH" data-search="αλληλουια allelouia הללו יה aleluia louvai Senhor Salmos Macabeus NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">αλληλουια</td><td>Categoria I</td><td>aleluia; louvai ao Senhor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allelous-leh" data-source="LEH" data-search="ἀλλήλους allelous pronome uns outros um ao outro Gênesis Êxodo Susana Sabedoria WALTERS LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλήλους</td><td>Pronome</td><td>uns dos outros; uns aos outros; um ao outro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allogenes-leh" data-source="LEH" data-search="ἀλλογενής allogenes outra raça estrangeiro leigo Gênesis Êxodo Levítico Malaquias BICKERMAN LE BOULLUEC FASCHER NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλογενής</td><td>Adjetivo</td><td>de outra raça; estrangeiro; leigo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alloglossos-leh" data-source="LEH" data-search="ἀλλόγλωσσος alloglossos fala língua estrangeira Ezequiel Baruque LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλόγλωσσος</td><td>Adjetivo</td><td>que fala uma língua estrangeira</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alloethnes-leh" data-source="LEH" data-search="ἀλλοεθνής alloethnes nação estrangeira forasteiro 3 Macabeus BICKERMAN LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλοεθνής</td><td>Adjetivo</td><td>de uma nação estrangeira; forasteiro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-allothen-leh" data-source="LEH" data-search="ἄλλοθεν allothen de outro lugar Ester LEH" tabindex="0">
+    <td class="table-lemma greek">ἄλλοθεν</td><td>Advérbio</td><td>de outro lugar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alloioo-leh" data-source="LEH" data-search="ἀλλοιόω alloioo mudar alterar queimado pior Samuel Reis Malaquias Salmos Sirácida Judite Daniel Lamentações hebraico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλοιόω</td><td>Verbo</td><td>mudar; alterar; ser mudado; ser queimado; mudar para pior</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alloiosis-leh" data-source="LEH" data-search="ἀλλοίωσις alloiosis alteração mudança Salmos Sirácida hebraico LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλλοίωσις</td><td>Substantivo</td><td>alteração; mudança</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-hallomai-leh" data-source="LEH" data-search="ἅλλομαι hallomai saltar lançar sobre pular Juízes Samuel Jó êxtase hebraico LIEBERMAN LEH" tabindex="0">
+    <td class="table-lemma greek">ἅλλομαι</td><td>Verbo</td><td>saltar; lançar-se sobre; pular</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -4275,6 +4356,152 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>salgar</strong>.</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> Lv 2.13; Ez 16.4; Tb<sup>S</sup> 6.5.</p>
         <p class="entry-text">→ NIDNTT.</p>
+    </section>
+</article>
+<article id="entry-halimos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλιμος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλιμος, -η, -ον · halimos" data-transliteration="halimos" data-meanings="do mar| lugares litorâneos ou salgados| plantas litorâneas">ἅλιμος, -η, -ον</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N; código morfológico do LEH)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-2-0=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>do mar</strong>; <span class="greek">ἅλιμα</span>: <strong>lugares litorâneos, lugares salgados</strong> (Jr 17.6); <strong>plantas que crescem à beira-mar, plantas salgadas, armoles-do-mar</strong> (Jó 30.4, segunda ocorrência).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Jr 17.6; Jó 30.4 (bis).</p>
+        <p class="entry-text"><strong>Nota editorial:</strong> preservado o código N2N exatamente como dado pelo LEH, sem normalização da classificação.</p>
+    </section>
+</article>
+<article id="entry-alisgeo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλισγέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλισγέω · alisgeō" data-transliteration="alisgeō" data-meanings="poluir">ἀλισγέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-3-3-1=7</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>poluir</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Ml 1.7 (bis),12; Dn 1.8.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 149.319.</p>
+    </section>
+</article>
+<article id="entry-haliskomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἁλίσκομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἁλίσκομαι · haliskomai" data-transliteration="haliskomai" data-meanings="ser tomado| ser conquistado| cair nas mãos do inimigo| ser condenado| ser apanhado">ἁλίσκομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 2-0-24-5-5=36</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>ser tomado, ser conquistado, cair nas mãos do inimigo</strong> (Zc 14.2); <strong>ser condenado</strong> (Êx 22.8(9)); <strong>ser tomado</strong>, metaforicamente (Sr 9.4); <strong>ser apanhado ou descoberto fazendo algo</strong> [<span class="greek">+ ptc.</span>] (Dt 24.7).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Êx 22.8; Dt 24.7; Is 8.15; 13.15; 14.10.</p>
+        <p class="entry-text"><strong>Cf.</strong> KRAFT 1992, 53–66; LEE, J. 1983, 35.</p>
+        <p class="entry-text">(→ <span class="greek">ἀν-</span>).</p>
+    </section>
+</article>
+<article id="entry-aliterios-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλιτήριος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλιτήριος, -ου · alitērios" data-transliteration="alitērios" data-meanings="desgraçado| pessoa terrivelmente má| pecador">ἀλιτήριος, -ου</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-4=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><span class="greek">ὁ ἀλιτήριος</span>: <strong>desgraçado, pessoa terrivelmente má, pecador</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 12.23; 13.4; 14.42; 3Mc 3.16.</p>
+    </section>
+</article>
+<article id="entry-alke-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλκή</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλκή, -ῆς · alkē" data-transliteration="alkē" data-meanings="força| poder">ἀλκή, -ῆς</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-3=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>força</strong>, de pessoa (2Mc 12.28); <strong>força, poder</strong> (Dn<sup>LXX</sup> 11.4).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Dn<sup>LXX</sup> 11.4; 2Mc 12.28; 3Mc 3.18; 6.12.</p>
+    </section>
+</article>
+<article id="entry-alla-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλά</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλά · alla" data-transliteration="alla" data-meanings="mas| certamente| exceto| contudo| vamos">ἀλλά</span><span class="separator">·</span><span>conjunção (C)</span><span class="separator">·</span><span>frequência LEH: 86-109-97-101-194=587</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>mas</strong> (2Cr 1.4); <strong>mas, certamente, com certeza</strong> (Jó 32.8); <strong>mas, exceto</strong> (Nm 10.30); <strong>mas, contudo</strong> (1Sm 15.30); <strong>vamos!</strong>, com imperativo (1Mc 10.56).</p>
+        <p class="entry-text"><span class="greek">ἀλλ’ ἤ</span>: <strong>mas, exceto</strong> (Is 42.19, bis); <span class="greek">ὅτι ἀλλ᾽ ἤ</span>: <strong>contudo, somente</strong> (2Cr 19.3); <strong>mas (somente)</strong> (2Cr 28.22(21)); <strong>mas, exceto</strong> (Est 5.12); <span class="greek">οὐχί, ὅτι ἀλλά</span>: <strong>não, mas; não somente, mas</strong> (2Sm 24.24).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 15.4; 17.5,15; 18.15; 19.2.</p>
+    </section>
+</article>
+<article id="entry-allage-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλαγή</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλαγή, -ῆς · allagē" data-transliteration="allagē" data-meanings="mudança">ἀλλαγή, -ῆς</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>mudança</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Sb 7.18.</p>
+    </section>
+</article>
+<article id="entry-allagma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλλαγμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλλαγμα, -ατος · allagma" data-transliteration="allagma" data-meanings="aquilo que é trocado| resgate| recompensa| preço">ἄλλαγμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 2ª declinação (N2N)</span><span class="separator">·</span><span>frequência LEH: 3-2-2-3-2=12</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>aquilo que é trocado</strong> (Lv 27.10); <strong>aquilo que é dado em troca, resgate</strong> (Is 43.3); <strong>recompensa, preço</strong> (Dt 23.19(18)).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἐλάμβανον ἐν ἀλλάγματι · elambanon en allagmati" data-transliteration="elambanon en allagmati" data-meanings="recebiam-nos por um preço">ἐλάμβανον ἐν ἀλλάγματι</span>: <strong>recebiam-nos por um preço</strong> (1Rs 10.28).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Lv 27.10,33; Dt 23.19(18); 2Sm 24.24; 1Rs 10.28.</p>
+        <p class="entry-text"><strong>Cf.</strong> CAIRD 1968b=1972, 114.</p>
+    </section>
+</article>
+<article id="entry-allasso-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλάσσω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλάσσω · allassō" data-transliteration="allassō" data-meanings="mudar| alterar| trocar| dar em troca| receber em retorno">ἀλλάσσω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 12-8-7-9-6=42</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>tornar diferente do que é, mudar, alterar</strong> [<span class="greek">τι</span>] (Gn 35.2); <strong>dar em troca de, trocar por</strong> [<span class="greek">τί τινος</span>] (Gn 31.7); <strong>trocar com</strong> [<span class="greek">τί τινι</span>] (Lv 27.10); <strong>trocar algo por outra coisa</strong> [<span class="greek">τι ἔν τινι</span>] (Sl 105(106).20); <strong>ganhar, receber em retorno</strong> [<span class="greek">τι</span>] (Is 40.31).</p>
+        <p class="entry-text"><strong>Nota sintática do LEH:</strong> a construção de Sl 105(106).20 é marcada como semítica, vertendo o hifil hebraico de <bdi class="hebrew" lang="he" dir="rtl">מור</bdi> com <bdi class="hebrew" lang="he" dir="rtl">את</bdi> … <bdi class="hebrew" lang="he" dir="rtl">ב</bdi>.</p>
+        <p class="entry-text"><strong>Médio:</strong> <strong>tomar em troca</strong> [<span class="greek">τι ἀντί τινος</span>] (3Mc 1.29).</p>
+        <p class="entry-text"><span class="greek">ἀλλασσόμενοι</span>: <strong>por turnos</strong> (1Rs 5.28(14)).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 31.7; 35.2; 41.14; Êx 13.13 (bis).</p>
+        <p class="entry-text"><strong>Cf.</strong> HELBING 1928, 246–247; HORSLEY 1982, 63; → NIDNTT; TWNT.</p>
+        <p class="entry-text">(→ <span class="greek">ἀντ-</span>, <span class="greek">ἀντικατ-</span>, <span class="greek">ἀπ-</span>, <span class="greek">δι-</span>, <span class="greek">ἐξ-</span>, <span class="greek">κατ-</span>, <span class="greek">μετ-</span>, <span class="greek">παρ-</span>).</p>
+    </section>
+</article>
+<article id="entry-allache-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλαχῇ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλαχῇ · allachē" data-transliteration="allachē" data-meanings="alhures| em outro lugar">ἀλλαχῇ</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-2=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>alhures, em outro lugar</strong>; <span class="greek">ἄλλος ἀλλαχῇ</span>: <strong>um aqui, outro ali</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> 2Mc 12.22; Sb 18.18.</p>
+    </section>
+</article>
+<article id="entry-allachothen-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλαχόθεν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλαχόθεν · allachothen" data-transliteration="allachothen" data-meanings="de outro lugar">ἀλλαχόθεν</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de outro lugar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 4Mc 1.7.</p>
+    </section>
+</article>
+<article id="entry-allelouia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αλληλουια</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αλληλουια · allēlouia" data-transliteration="allēlouia" data-meanings="aleluia| louvai ao Senhor">αλληλουια</span><span class="separator">·</span><span>categoria I (LEH)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-20-3=23</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הללו־יה" data-transliteration="hallĕlû-yāh" data-meanings="aleluia; louvai ao Senhor">הללו־יה</bdi>: <strong>aleluia; louvai ao Senhor</strong> (Sl 104(105).1).</p>
+        <p class="entry-text"><span class="greek">τὸ αλληλουια</span>: <strong>o hino chamado “Aleluia”</strong> (3Mc 7.13).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Sl 104(105).1; 105(106).1; 106(107).1; 110(111).1; 111(112).1.</p>
+        <p class="entry-text">→ NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-allelous-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλήλους</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλήλους, -ας, -α · allēlous" data-transliteration="allēlous" data-meanings="uns dos outros| uns aos outros| um ao outro">ἀλλήλους, -ας, -α</span><span class="separator">·</span><span>pronome (R)</span><span class="separator">·</span><span>frequência LEH: 10-2-4-7-26=49</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>uns dos outros, uns aos outros, um ao outro</strong>; ocorre somente no genitivo, acusativo e dativo.</p>
+        <p class="entry-text"><span class="greek">ἀπ᾽ ἀλλήλων</span>: <strong>um do outro</strong> (Sus<sup>LXX</sup> 13); <span class="greek">εἰς ἀλλήλους</span>: <strong>um ao outro</strong> (Êx 25.20(19)); <span class="greek">πρὸς ἀλλήλους</span> (Gn 42.28); <span class="greek">ἐξ ἀλλήλων</span>: <strong>um ao outro</strong> (Êx 26.3); <span class="greek">ἐπ᾽ ἀλλήλων</span>: <strong>um sobre o outro</strong> (Sb 18.23).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 15.10; 42.28; Êx 4.27; 14.20; 18.7.</p>
+        <p class="entry-text"><strong>Cf.</strong> WALTERS 1973, 216.338.</p>
+    </section>
+</article>
+<article id="entry-allogenes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλογενής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλογενής, -ής, -ές · allogenēs" data-transliteration="allogenēs" data-meanings="de outra raça| estrangeiro| leigo">ἀλλογενής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 14-0-13-3-17=47</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de outra raça, estrangeiro</strong> (Gn 17.27); substantivado, <strong>estrangeiro</strong> (Êx 30.33); <strong>leigo</strong> (Êx 29.33).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Ml 3.19, <span class="greek">ἀλλογενεῖς</span> “estrangeiros” — <bdi class="hebrew" lang="he" dir="rtl">זרים</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">זדים</bdi>, “os soberbos, arrogantes”; cf. Ml 3.15.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 17.27; Êx 12.43; 29.33; 30.33; Lv 22.10.</p>
+        <p class="entry-text"><strong>Cf.</strong> BICKERMAN 1947=1980, 215; LE BOULLUEC 1989, 312; FASCHER 1971, 163; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+<article id="entry-alloglossos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλόγλωσσος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλόγλωσσος, -ος, -ον · alloglōssos" data-transliteration="alloglōssos" data-meanings="que fala uma língua estrangeira">ἀλλόγλωσσος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-0-1=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>que fala uma língua estrangeira</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Ez 3.6; Br 4.15.</p>
+    </section>
+</article>
+<article id="entry-alloethnes-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλοεθνής</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλοεθνής, -ής, -ές · alloethnēs" data-transliteration="alloethnēs" data-meanings="de uma nação estrangeira| forasteiro">ἀλλοεθνής, -ής, -ές</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de uma nação estrangeira, forasteiro</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> 3Mc 4.6.</p>
+        <p class="entry-text"><strong>Cf.</strong> BICKERMAN 1946=1980, 91; 1947=1980, 215.</p>
+    </section>
+</article>
+<article id="entry-allothen-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄλλοθεν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλλοθεν · allothen" data-transliteration="allothen" data-meanings="de outro lugar">ἄλλοθεν</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>de outro lugar</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> Est 4.14.</p>
+    </section>
+</article>
+<article id="entry-alloioo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλοιόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλοιόω · alloioō" data-transliteration="alloioō" data-meanings="mudar| alterar| ser mudado| ser queimado| mudar para pior">ἀλλοιόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-2-1-35-12=50</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>Ativo:</strong> <strong>mudar, alterar</strong> [<span class="greek">τι</span>] (1Sm 21.14). <strong>Médio:</strong> <strong>mudar</strong> (Sr 27.11). <strong>Passivo:</strong> <strong>ser mudado, ser alterado</strong> (Jt 10.7); <strong>ser mudado, ser queimado</strong> (Dn 3.94(27)); <strong>mudar para pior</strong> (Lm 4.1).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Sl 44(45).1, <span class="greek">τῶν ἀλλοιωθησομένων</span> “os que serão mudados, tornados diferentes” — <bdi class="hebrew" lang="he" dir="rtl">שׁשׁנים◊ שׁנה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">שׁשׁנים◊ שׁושׁן</bdi>, “lírios”; ver também Sl 59(60).1; 68(69).1; 79(80).1.</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Sl 72(73).21, <span class="greek">ἠλλοιώθησαν</span> “foram mudados” — <bdi class="hebrew" lang="he" dir="rtl">השׁתנו◊ שׁנה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">אשׁתונן◊ שׁנן</bdi>, “fui traspassado?”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Sm 21.14; 2Rs 25.29; Ml 3.6; Sl 33(34).1; 44(45).1.</p>
+        <p class="entry-text">(→ <span class="greek">ἐξ-</span>).</p>
+    </section>
+</article>
+<article id="entry-alloiosis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλλοίωσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλλοίωσις, -εως · alloiōsis" data-transliteration="alloiōsis" data-meanings="alteração| mudança">ἀλλοίωσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-2=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>alteração, mudança, mudança de estado</strong> (Sr 37.17).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *Sl 76(77).11, <span class="greek">ἀλλοίωσις</span> “mudança” — <bdi class="hebrew" lang="he" dir="rtl">◊שׁנה</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">שׁנות</bdi>, “anos”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> Sl 76(77).11; Sr 37.17; 43.8.</p>
+    </section>
+</article>
+<article id="entry-hallomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἅλλομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἅλλομαι · hallomai" data-transliteration="hallomai" data-meanings="saltar| lançar-se sobre| pular">ἅλλομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-5-1-2-2=10</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>saltar, lançar-se sobre</strong> (Jz<sup>B</sup> 14.6); <strong>pular de um lado para outro</strong> (Jó 41.17(16)).</p>
+        <p class="entry-text"><strong>Nota textual do LEH:</strong> *1Sm 10.2, <span class="greek">ἁλλομένους</span> “exultantes, saltando de um lado para outro, em comportamento extático” — <bdi class="hebrew" lang="he" dir="rtl">◊צלח</bdi> — para o MT <bdi class="hebrew" lang="he" dir="rtl">צלצח</bdi>, “Zelza”.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jz<sup>B</sup> 14.6,19; 15.14; 1Sm 10.2,10.</p>
+        <p class="entry-text"><strong>Cf.</strong> LIEBERMAN 1946, 67–72.</p>
+        <p class="entry-text">(→ <span class="greek">ἀφ-</span>, <span class="greek">δι-</span>, <span class="greek">ἐν-</span>, <span class="greek">ἐξ-</span>, <span class="greek">ἐφ-</span>, <span class="greek">ὑπερ-</span>).</p>
     </section>
 </article>`
 };
