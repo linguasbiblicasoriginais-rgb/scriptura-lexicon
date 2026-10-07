@@ -540,3 +540,56 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
     ).join("\n");
 })();
 
+/* ==========================================================
+   LOTE 14 — registros 261–280
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+
+    source.bibliographicTerms.push(
+        { key: "adj. verb.", type: "abbr", text: "adjetivo verbal" },
+        { key: "nom.", type: "abbr", text: "nominativo" },
+        { key: "inter. indir.", type: "abbr", text: "interrogação indireta" },
+        { key: "ac. de rel.", type: "abbr", text: "acusativo de relação" },
+        { key: "Medic.", type: "abbr", text: "medicina" },
+        { key: "Eurípides", type: "biblio", text: "Eurípides — poeta trágico ateniense do século V a.C., um dos três grandes tragediógrafos gregos clássicos." }
+    );
+
+    const entries = [
+        [261, "ἀγλαώψ, ῶπος", "(fem.) de aspecto brilhante. 〈ἀγλάος, ὤψ〉", "de aspecto brilhante"],
+        [262, "ἀγλευκής, ής, ές", "sem doçura; amargo. 〈ἀ-, γλεῦκος〉", "sem doçura; amargo"],
+        [263, "ἄγλις, ιθος (ἡ)", "dente de alho.", "dente de alho"],
+        [264, "ἄγλωσσος, ος, ον", "1 sem língua (animal) 2 sem palavra; mudo 3 sem eloqüência 4 que não fala grego; bárbaro. 〈ἀ-, γλῶσσα〉", "sem língua; mudo; bárbaro"],
+        [265, "ἄγλωττος", "át. = ἄγλωσσος.", "forma ática de ἄγλωσσος"],
+        [266, "ἄγμα, ατος (τό)", "fragmento. 〈ἄγνυμι〉", "fragmento"],
+        [267, "ἄγναμπτος, ος, ον", "que não se deixa dobrar; inflexível. 〈ἀ-, γνάμπτω〉", "inflexível"],
+        [268, "ἄγναπτος, ος, ον", "que ainda não foi lavado; novo (tecido). 〈ἀ-, γνάπτω〉", "não lavado; novo"],
+        [269, "ἄγναφος, ος, ον", "bíbl. novo (tecido).", "novo tecido"],
+        [270, "ἁγνεία, ας (ἡ)", "1 ausência de mácula; pureza do sagrado 2 abstinência sexual; castidade 3 pl. consagração; purificação. 〈ἁγνεύω〉", "pureza; castidade; consagração"],
+        [271, "ἅγνευμα, ατος (τό)", "1 pureza 2 castidade feminina. 〈ἁγνεύω〉", "pureza; castidade"],
+        [272, "ἁγνεύω", "(perf. ἥγνευκα) 1 viver sem mácula; ser puro; com ac. de rel. ἁ. χεῖρας Eurípides ter puras as mãos 2 abster-se de algo, inf., por motivação religiosa: ἁγνεύουσι ἔμψυχον μηδὲν κτείνειν Heródoto abstêm-se de matar qualquer ser vivo 3 manter-se puro de, gen. 4 rar. purificar. 〈ἁγνός〉", "viver puro; abster-se; purificar"],
+        [273, "ἁγνίζω", "(aor. ἥγνισα, aor. pas. ἡγνίσθην) 1 tirar mancha; limpar; lavar 2 purificar por batismo de fogo ♦ méd. 3 purificar-se 4 bíbl. abster-se de, ἀπό e gen. 〈ἁγνός〉", "purificar; lavar; abster-se"],
+        [274, "ἅγνισμα, ατος (τό)", "purificação; expiação. 〈ἁγνίζω〉", "purificação; expiação"],
+        [275, "ἁγνισμός, οῦ (ὁ)", "purificação ritual; pureza; santidade. 〈ἁγνίζω〉", "purificação ritual; santidade"],
+        [276, "ἁγνιστέος, α, ον", "adj. verb. de ἁγνίζω.", "adjetivo verbal de ἁγνίζω"],
+        [277, "ἀγνοεῦντες", "nom. pl. part. pres. jôn. de ἀγνοέω.", "forma jônica de ἀγνοέω"],
+        [278, "ἀγνοέω-ῶ", "(impf. ἠγνόουν, fut. ἀγνοήσω, aor. ἠγνόησα; pas. aor. ἠγνοήθην, perf. ἠγνόημαι) 1 ser ignorante em algo, περί e gen.: τὸ γὰρ ἀγνοεῖν δικαίων καὶ ἀδίκων πέρι Platão o ser ignorante nas coisas justas e nas injustas 2 ignorar, não saber; deixar de perceber, ac., part., or. conj. (ὅτι, ὡς) ou inter. indir.: Ἕκτωρ δ’ οὔ τι θεᾶς ἔπος ἠγνοίησεν Homero Heitor não deixou de perceber que era a palavra de uma deusa, τίς ἀγνοεῖ τὸν ἐκεῖθεν πόλεμον δεῦρο ἥξοντα; Demóstenes quem ignora que a guerra de lá chegará aqui? τὸ τῶν παιδιῶν γένος ἠγνοῆσθαι σύμπασιν ὅτι κυριώτατόν ἐστι Platão ser desconhecido de todos que o tipo dos brinquedos é fundamental, ἀγνοοῦντες ἀλλήλων ὅ τι λέγομεν Platão ignorando o que dizemos um ao outro 3 não reconhecer alguém, ac. 4 enganar-se. 〈ἀ-, γιγνώσκω〉", "ignorar; não reconhecer; enganar-se"],
+        [279, "ἀγνόημα, ατος (τό)", "bíbl. 1 erro por ignorância; ignorância 2 pecado cometido por ignorância. 〈ἀγνοέω〉", "erro por ignorância; pecado"],
+        [280, "ἄγνοια, ας (ἡ)", "1 falta de discernimento; ignorância 2. falta cometida por inadvertência; descuido; erro 3 Medic. perda de consciência. 〈ἀγνοέω〉", "ignorância; erro; perda de consciência"]
+    ];
+
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
