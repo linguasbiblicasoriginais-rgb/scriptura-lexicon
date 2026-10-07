@@ -8,10 +8,20 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 20,
-    "next_ordinal": 1,
-    "status": "regras editoriais estabelecidas; pronto para o primeiro lote"
+    "next_ordinal": 21,
+    "status": "lote 1 concluído"
   },
-  "batches": [],
+  "batches": [
+    {
+      "batch": 1,
+      "start_ordinal": 1,
+      "end_ordinal": 20,
+      "start_entry": "Α, α (ἄλφα) (τό)",
+      "end_entry": "ἀβασίλευτος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    }
+  ],
   "editorial_rules": {
     "abbreviation_popups": true,
     "author_work_rubrics": true,
