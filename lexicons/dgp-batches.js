@@ -68,3 +68,5 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
 <article id="entry-dgp-0079" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀγάθεος</h1><div class="entry-meta"><span>DGP · ordem 79 na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">dór. = ἠγάθεος.</p></section></article>
 <article id="entry-dgp-0080" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοεργέω-ῶ</h1><div class="entry-meta"><span>DGP · ordem 80 na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">e ἀγαθουργέω-ῶ bíbl. fazer o bem; ser generoso. 〈ἀγαθοεργός〉</p></section></article>
 `;
+
+document.write('<script src="lexicons/dgp-batch-005.js"><\/script>');
