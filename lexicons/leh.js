@@ -1466,6 +1466,37 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-aktis-leh" data-source="LEH" data-search="ἀκτίς aktis substantivo feixe raio sol Sabedoria Sirácida LEH" tabindex="0">
     <td class="table-lemma greek">ἀκτίς</td><td>Substantivo</td><td>feixe; raio do sol</td><td><span class="source-pill">LEH</span></td>
+</tr>
+
+<tr class="search-row" data-dictionary="grego" data-target="entry-akymatos-leh" data-source="LEH" data-search="ἀκύματος akymatos adjetivo sem ondas calmo metafórico Ester LSJ Revised Supplement LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκύματος</td><td>Adjetivo</td><td>sem ondas; calmo</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akyros-leh" data-source="LEH" data-search="ἄκυρος akyros adjetivo inválido Provérbios D'HAMONVILLE LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκυρος</td><td>Adjetivo</td><td>inválido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akyroo-leh" data-source="LEH" data-search="ἀκυρόω akyroo verbo reduzir a nada tratar como sem efeito destruir tornar impotente Esdras Macabeus TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκυρόω</td><td>Verbo</td><td>reduzir a nada; tratar como sem efeito; destruir; tornar impotente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akolytos-leh" data-source="LEH" data-search="ἀκώλυτος akolytos adjetivo desimpedido independente Sabedoria neologismo LARCHER LEH" tabindex="0">
+    <td class="table-lemma greek">ἀκώλυτος</td><td>Adjetivo</td><td>desimpedido; independente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-akon-leh" data-source="LEH" data-search="ἄκων akon adjetivo involuntário constrangido Jó Macabeus TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἄκων</td><td>Adjetivo</td><td>involuntário; constrangido</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alabastros-leh" data-source="LEH" data-search="ἀλάβαστρος alabastros substantivo vaso redondo sem alças perfume alabastro jarro Reis Novo Testamento LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλάβαστρος</td><td>Substantivo</td><td>vaso redondo sem alças; jarro</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alazoneia-leh" data-source="LEH" data-search="ἀλαζονεία alazoneia substantivo jactância Macabeus LARCHER SPICQ NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλαζονεία</td><td>Substantivo</td><td>jactância</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alazoneuomai-leh" data-source="LEH" data-search="ἀλαζονεύομαι alazoneuomai verbo gabar-se ser jactancioso Provérbios Sabedoria Deus pai LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλαζονεύομαι</td><td>Verbo</td><td>gabar-se; ser jactancioso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alazon-leh" data-source="LEH" data-search="ἀλαζών alazon substantivo jactancioso pretensioso insolente Habacuque Jó Provérbios SPICQ NIDNTT TWNT LEH" tabindex="0">
+    <td class="table-lemma greek">ἀλαζών</td><td>Substantivo</td><td>jactancioso; pretensioso; insolente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-alaimoth-leh" data-source="LEH" data-search="αλαιμωθ alaimoth substantivo עלמות instrumentos musicais não identificados Crônicas LEH" tabindex="0">
+    <td class="table-lemma greek">αλαιμωθ</td><td>Substantivo</td><td>instrumentos musicais não identificados</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -3930,6 +3961,83 @@ window.ScripturaLexicons.LEH = {
     <header class="entry-header"><div><h1 class="entry-title greek">ἀκτίς</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκτίς, -ῖνος · aktis" data-transliteration="aktis" data-meanings="feixe|raio do sol">ἀκτίς, -ῖνος</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
         <p class="entry-text"><strong>feixe, raio</strong> — do sol.</p>
         <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.2.4" target="_blank" rel="noopener noreferrer">Sb 2.4</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.16.27" target="_blank" rel="noopener noreferrer">16.27</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/SIR.43.4" target="_blank" rel="noopener noreferrer">Sr 43.4</a>.</p>
+    </section>
+</article>
+
+<article id="entry-akymatos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκύματος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκύματος, -ος, -ον · akymatos" data-transliteration="akymatos" data-meanings="sem ondas|calmo">ἀκύματος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>sem ondas, calmo</strong>, em sentido metafórico.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/EST.3.13" target="_blank" rel="noopener noreferrer">Est 3.13b</a>.</p>
+        <p class="entry-text">→ LSJ RSuppl.</p>
+    </section>
+</article>
+
+<article id="entry-akyros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκυρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκυρος, -ος, -ον · akyros" data-transliteration="akyros" data-meanings="inválido">ἄκυρος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-2-0=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>inválido</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.1.25" target="_blank" rel="noopener noreferrer">Pv 1.25</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.5.7" target="_blank" rel="noopener noreferrer">5.7</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> D’HAMONVILLE 2000, 165.</p>
+    </section>
+</article>
+
+<article id="entry-akyroo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκυρόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκυρόω · akyroō" data-transliteration="akyroō" data-meanings="reduzir a nada|tratar como sem efeito|destruir|tornar impotente">ἀκυρόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-7=7</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>reduzir a nada, tratar como sem efeito</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1ES.6.31" target="_blank" rel="noopener noreferrer">1Es 6.31</a>); <strong>destruir</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.17.2" target="_blank" rel="noopener noreferrer">4Mc 17.2</a>); <strong>tornar impotente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.2.1" target="_blank" rel="noopener noreferrer">4Mc 2.1</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1Es 6.31; 4Mc 2.1,3,18; 5.18.</p>
+        <p class="entry-text">→ TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-akolytos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀκώλυτος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀκώλυτος, -ος, -ον · akōlytos" data-transliteration="akōlytos" data-meanings="desimpedido|independente">ἀκώλυτος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>desimpedido, independente</strong>; <span class="abbr-help tooltip-trigger" tabindex="0" data-tooltip-type="abbr" data-tooltip-label="neol.?" data-tooltip-text="neologismo? — classificação dubitativa do LEH">neol.?</span></p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.7.23" target="_blank" rel="noopener noreferrer">Sb 7.23</a>.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1984, 478.</p>
+    </section>
+</article>
+
+<article id="entry-akon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄκων</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄκων, -ουσα, -ον · akōn" data-transliteration="akōn" data-meanings="involuntário|constrangido">ἄκων, -ουσα, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>involuntário, constrangido</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.14.17" target="_blank" rel="noopener noreferrer">Jó 14.17</a>; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.11.12" target="_blank" rel="noopener noreferrer">4Mc 11.12</a>.</p>
+        <p class="entry-text">→ TWNT (sob <span class="greek">ἑκών</span>).</p>
+    </section>
+</article>
+
+<article id="entry-alabastros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλάβαστρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλάβαστρος, -ου · alabastros" data-transliteration="alabastros" data-meanings="vaso redondo sem alças para perfumes|jarro">ἀλάβαστρος, -ου</span><span class="separator">·</span><span>substantivo masculino da 2ª declinação (N2M)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>vaso redondo sem alças</strong>, para conter perfumes, frequentemente feito de alabastro; <strong>jarro</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2KI.21.13" target="_blank" rel="noopener noreferrer">2Re 21.13</a>.</p>
+    </section>
+</article>
+
+<article id="entry-alazoneia-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλαζονεία</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλαζονεία, -ας · alazoneia" data-transliteration="alazoneia" data-meanings="jactância">ἀλαζονεία, -ας</span><span class="separator">·</span><span>substantivo feminino da 1ª declinação (N1F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-7=7</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>jactância</strong>.</p>
+        <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/2MA.9.8" target="_blank" rel="noopener noreferrer">2Mc 9.8</a>; 15.6; <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/4MA.1.26" target="_blank" rel="noopener noreferrer">4Mc 1.26</a>; 2.15; 8.19.</p>
+        <p class="entry-text"><strong>Cf.</strong> LARCHER 1984, 369–370; SPICQ 1978a, 64–65; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-alazoneuomai-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλαζονεύομαι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλαζονεύομαι · alazoneuomai" data-transliteration="alazoneuomai" data-meanings="gabar-se|ser jactancioso">ἀλαζονεύομαι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-1=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>gabar-se, ser jactancioso</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.25.6" target="_blank" rel="noopener noreferrer">Pv 25.6</a>).</p>
+        <p class="entry-text"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλαζονεύεται πατέρα Θεόν · alazoneuetai patera Theon" data-transliteration="alazoneuetai patera Theon" data-meanings="ele se gaba de que Deus é seu pai">ἀλαζονεύεται πατέρα Θεόν</span>: <strong>ele se gaba de que Deus é seu pai</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/WIS.2.16" target="_blank" rel="noopener noreferrer">Sb 2.16</a>).</p>
+    </section>
+</article>
+
+<article id="entry-alazon-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀλαζών</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀλαζών, -όνος · alazōn" data-transliteration="alazōn" data-meanings="jactancioso|pretensioso|insolente">ἀλαζών, -όνος</span><span class="separator">·</span><span>substantivo masculino da 3ª declinação (N3M)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-2-0=3</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text"><strong>jactancioso</strong>, como substantivo (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/JOB.28.8" target="_blank" rel="noopener noreferrer">Jó 28.8</a>); como adjetivo, <strong>jactancioso, pretensioso, insolente</strong> (<a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/PRO.21.24" target="_blank" rel="noopener noreferrer">Pv 21.24</a>).</p>
+        <p class="entry-text"><strong>Ocorrências citadas:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/HAB.2.5" target="_blank" rel="noopener noreferrer">Hc 2.5</a>; Jó 28.8; Pv 21.24.</p>
+        <p class="entry-text"><strong>Cf.</strong> SPICQ 1978a, 64–65; → NIDNTT; TWNT.</p>
+    </section>
+</article>
+
+<article id="entry-alaimoth-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">αλαιμωθ</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="αλαιμωθ · alaimōth" data-transliteration="alaimōth" data-meanings="instrumentos musicais não identificados">αλαιμωθ</span><span class="separator">·</span><span>substantivo (N)</span><span class="separator">·</span><span>frequência LEH: 0-1-0-0-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+        <p class="entry-text">= <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="עלמות" data-transliteration="ʿlmwt" data-meanings="forma hebraica reproduzida pelo LEH; instrumentos musicais não identificados">עלמות</bdi>: <strong>instrumentos musicais não identificados</strong>.</p>
+        <p class="entry-text"><strong>Ocorrência citada:</strong> <a class="reference reference-link" href="https://www.die-bibel.de/en/bible/LXX/1CH.15.20" target="_blank" rel="noopener noreferrer">1Cr 15.20</a>.</p>
     </section>
 </article>`
 };
