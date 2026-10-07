@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 20,
-    "next_ordinal": 61,
-    "status": "lote 3 concluído"
+    "next_ordinal": 81,
+    "status": "lote 4 concluído"
   },
   "batches": [
     {
@@ -36,6 +36,15 @@
       "end_ordinal": 60,
       "start_entry": "ἀβλής, ῆτος",
       "end_entry": "ἀβροτάζω",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 4,
+      "start_ordinal": 61,
+      "end_ordinal": 80,
+      "start_entry": "ἁβρότης, ητος (ἡ)",
+      "end_entry": "ἀγαθοεργέω-ῶ",
       "entry_count": 20,
       "status": "concluído"
     }
