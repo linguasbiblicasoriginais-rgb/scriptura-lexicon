@@ -1560,3 +1560,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 36 — registros 701–720
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "pal. inter.", type: "abbr", text: "palavra interrogativa" },
+        { key: "Luciano", type: "biblio", text: "Luciano de Samósata — escritor grego de expressão ática do século II d.C., conhecido sobretudo por diálogos satíricos." }
+    );
+    const entries = [
+        [701,"ἀέσκω","(só aor. ép. ἄεσα) dormir; ἀ. νύκτα ou νύκτας passar a noite.","dormir; passar a noite"],
+        [702,"ἀετιδεύς, έως (ὁ)","filhote da águia. 〈ἀετός〉","filhote da águia"],
+        [703,"ἀετός, οῦ (ὁ)","1 águia (ave) 2 águia (insígnia militar, estandarte) 3 presságio; oráculo 4 espécie de peixe 5 fron­tão; entablamento.","águia; estandarte; presságio; peixe; frontão"],
+        [704,"ἀετοφόρος, ου (ὁ)","porta-estandarte. 〈ἀετός, φέρω〉","porta-estandarte"],
+        [705,"ἀετώδης, ης, ες","tard. semelhante à águia; ἀετῶδες βλέπειν Luciano ter olhar de águia. 〈ἀετός〉","semelhante à águia"],
+        [706,"ἄζα, ης (ἡ)","1 secura; ardor 2 pó; sujeira 3 mofo. 〈ἄζω〉","secura; ardor; pó; mofo"],
+        [707,"ἀζαλέος, α, ον","1 seco; árido 2 duro; cruel 3 que tira a umidade; que seca; que consome. 〈ἄζω〉","seco; árido; duro; que seca"],
+        [708,"ἅζεο","e ἅζευ 2ª sing. imper. pres. méd. de ἅζω.","imperativo presente médio de ἅζω"],
+        [709,"ἀζηλία, ας (ἡ)","1 ausência de inveja; indiferença 2 simplicidade (de estilo). 〈ἄζηλος〉","ausência de inveja; indiferença"],
+        [710,"ἄζηλος, ος, ον","não invejado; que não merece inveja; lamentável. 〈ἀ-, ζῆλος〉","não invejado; lamentável"],
+        [711,"ἀζηλότυπος, ος, ον","isento de inveja.","isento de inveja"],
+        [712,"ἀζήμιος, ος, ον","1 que não sofre dano 2 que não sofre pena; impune 3 que não merece punição 4 isento de multa, de tributo, de pagamento 5 que não causa dano; inofensivo. 〈ἀ-, ζημία〉","impune; isento de multa; inofensivo"],
+        [713,"ἀζηχής, ής, ές","1 contínuo; ininterrupto; incessante ♦ ἀζηχές adv. 2 sem trégua.","contínuo; sem trégua"],
+        [714,"ἄζυμος, ος, ον","1 sem fermento; ázimo (pão) 2 compacto; firme ♦ τὰ ἄζυμα 3 bíbl. festa dos pães ázimos. 〈ἀ-, ζύμη〉","sem fermento; ázimo"],
+        [715,"ἄζυξ, υγος","(masc., fem.) 1 não submetido a jugo; não jungido; não submetido ao jugo de, gen. 2 não submetido ao jugo do casamento; solteiro 3 não unido; solto. 〈ἀ-, ζεύγνυμι〉","não jungido; solteiro; solto"],
+        [716,"ἄζω","(só pres.) queimar; secar.","queimar; secar"],
+        [717,"ἅζω,","ger. ἅζομαι (só pres. e impf.) 1 considerar com temor respeitoso; venerar; temer 2 temer, com inf.; temer que, com μή; perguntar-se com temor, com pal. inter.","venerar; temer; perguntar-se com temor"],
+        [718,"ἄζωστος, ος, ον","1 sem cinta 2 que não se cingiu com o cinturão das armas; não armado. 〈ἀ-, ζώννυμι〉","sem cinta; não armado"],
+        [719,"ἄη","3ª sing. impf. de ἄημι.","3ª singular do imperfeito de ἄημι"],
+        [720,"ἀηδής, ής, ές","desagradável; molesto; repulsivo. 〈ἀ-, ἡδύς〉","desagradável; molesto; repulsivo"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
