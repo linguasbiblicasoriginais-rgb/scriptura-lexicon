@@ -1764,3 +1764,47 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 41 — registros 801–820
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "or.", type: "abbr", text: "oração" }
+    );
+
+    const entries = [
+        [801,"ἀθλητικῶς","adv. como atleta.","como atleta"],
+        [802,"ἄθλιος, α","e ος, ον 1 que concerne ao prêmio da luta 2 que luta por um prêmio; que ganha o prêmio da luta 3 que lu- ta; que sofre; infeliz 4 lastimável; lamentável 5 que faz sofrer; penoso. 〈ἆθλος〉","lutador; infeliz; penoso"],
+        [803,"ἀθλιότης, ητος (ἡ)","infelicidade; sofrimento; desgraça. 〈ἄθλιος〉","infelicidade; sofrimento; desgraça"],
+        [804,"ἀθλίως","adv. miseravelmente.","miseravelmente"],
+        [805,"ἀθλοθέτης, ου (ὁ)","atlóteta, organizador ou presidente de jogos. 〈ἆθλον, τίθημι〉","organizador ou presidente de jogos"],
+        [806,"ἆθλον, ου (τό)","1 prêmio; recompensa 2 pl. concurso; torneio; jogo 3 pl. lugar de competição; arena.","prêmio; concurso; arena"],
+        [807,"ἆθλος, ου (ὁ)","1 luta; competição 2 trabalho; esforço; labor.","luta; competição; esforço"],
+        [808,"ἀθλοφόρος, ος, ον","1 ganhador de prêmios; vitorioso ♦ ὁ ἀθλοφόρος 2 vencedor; campeão. 〈ἆθλον, φέρω〉","ganhador de prêmios; vencedor"],
+        [809,"ἄθολος, ος, ον","sem lodo; límpido; claro. 〈ἀ-, θόλος〉","sem lodo; límpido"],
+        [810,"ἀθόλωτος, ος, ον","não turvado; límpido. 〈ἀ-, θολόω〉","não turvado; límpido"],
+        [811,"ἀθορύβητος, ος, ον","1 não perturbado ♦ τὸ ἀθορυβητό­τατον 2 serenidade; tranqüilidade absoluta. 〈ἀ-, θο­ρυβέω〉","não perturbado; serenidade"],
+        [812,"ἆθος","dór. = ἦθος.","forma dórica de ἦθος"],
+        [813,"Ἀθόως","ép. = Ἄθως.","forma épica de Ἄθως"],
+        [814,"ἄθραυστος, ος, ον","1 não quebrado; intacto; incólume 2 inquebrável; indestrutível. 〈ἀ-, θραύω〉","intacto; inquebrável; indestrutível"],
+        [815,"ἀθρέω-ῶ","1 olhar com atenção; fixar os olhos em, εἰς e ac. 2 observar; considerar; examinar, com or. com ὅτι, εἰ, πότερον, μὴ οὐ que, se, se...não.","olhar; observar; examinar"],
+        [816,"ἀθρητέον","adj. verb. de ἀθρέω.","adjetivo verbal de ἀθρέω"],
+        [817,"ἀθροίζω","e ἁθροίζω (fut. ἀθροίσω, aor. ἥθροισα, perf. ἥθροικα; pas. aor. ἡθροίσθην, perf. ἥθροισμαι) 1 reunir; congregar; convocar (tropas, homens, etc.) 2 recolher; amontoar: ἀ. πνεῦμα Eurípides recuperar o fôlego, recobrar alento ♦ méd. 3 reunir ao redor de si ou para si; juntar; recolher-se; concentrar-se 4 reunir-se em grande número; formar grupo; formar facção. 〈ἀθρόος〉","reunir; congregar; recolher-se"],
+        [818,"ἄθροισις","e ἅθροισις, εως (ἡ) reunião; ajuntamento; acumulação. 〈ἀθροίζω〉","reunião; ajuntamento; acumulação"],
+        [819,"ἀθροιστέον","adj. verb. de ἀθροίζω.","adjetivo verbal de ἀθροίζω"],
+        [820,"ἀθρόος","e ἁθρόος, όα, όον, contr. ἄθρους e ἅθρους, όα, ουν 1 que forma um todo; compacto: ἀ. πόλις Tucídides a cidade como um todo, ἀ. δύναμις Tucídides todas as forças militares reunidas 2 abundante; contínuo: ἀ. δάκρυ Eurípides lágrimas abundantes, ἀθρόαι πέντε νύκτες Píndaro cinco noites seguidas 3 pl. reunidos em grande número; em bloco: ἀθρόα πάντ’ ἀπέπισε Homero expiou tudo de uma só vez.","compacto; abundante; reunido em bloco"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
