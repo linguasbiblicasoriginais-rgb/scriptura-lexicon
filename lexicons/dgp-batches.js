@@ -2011,3 +2011,76 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 46 — registros 931–980
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "person.", type: "abbr", text: "personificação; personificado" }
+    );
+    const entries = [
+        [931,"ἀϊδρεΐη, ης (ἡ)","ignorância; imperícia. 〈ἀ-, ἴδρις〉","ignorância; imperícia"],
+        [932,"ἀϊδρηΐη","jôn. = ἀϊδρεΐη.","forma jônica de ἀϊδρεΐη"],
+        [933,"ἄϊδρις, ις, ι","gen. ιος e εος ignorante; inexperiente. 〈ἀ-, ἴδρις〉","ignorante; inexperiente"],
+        [934,"αΐδω","poét. = ἀείδω.","forma poética de ἀείδω"],
+        [935,"Ἀϊδωνευς, έως (ὁ)","Edoneu, outro n. de Hades.","Edoneu; Hades"],
+        [936,"αἰδώς, όος-οῦς (ἡ)","1 temor respeitoso; respeito; deferência: αἰδῶ ἑαυτοῦ τοῖς στρατιώταις ἐμποιῆσαι Xenofonte infundir um temor respeitoso nos soldados, οἱ τοὺς θεοὺς δι᾽ αἰδοῦς ἔχοντες el. aqueles que reverenciam os deuses 2 sentimento de honra; brio; dignidade de conduta: δι᾽ αἰδοῦς ὄμμ’ ἔχουσα Eurípides tendo pudor nos olhos, αἰδὼς σωφροσύνης πλεῖστον μετέχει Tucídides o sentimento da honra tem muitíssimo de sabedoria, αἰδοῦς ἐμπίπλασθαι Xenofonte estar cheio de modéstia; αἰδώς ἐστι teme-se, com inf. 3 sentimento de vergonha; caráter vergonhoso (de uma ação): δακρύων αἰδῶ Ésquilo vergonha das lágrimas 4 rar. partes pudendas 5 rar. caráter que inspira um temor respeitoso; grandeza respeitável; dignidade 6 compaixão; misericórdia.","respeito; honra; vergonha; compaixão"],
+        [937,"ἄϊε, ἄϊεν","3ª sing. impf. de ἀΐω1.","imperfeito de ἀΐω1"],
+        [938,"αἰεί","poét. = ἀεί.","forma poética de ἀεί"],
+        [939,"αἰειγενέτης, ου","(masc.) poét. imortal. 〈αἰεί, γίγνομαι〉","imortal"],
+        [940,"αἰείμνηστος","poét. = ἀείμνηστος.","forma poética de ἀείμνηστος"],
+        [941,"αἰέλουρος","jôn. = αἴλουρος.","forma jônica de αἴλουρος"],
+        [942,"αἰέν","e αἰές poét. = ἀεί.","formas poéticas de ἀεί"],
+        [943,"αἰετός","poét. = ἀετός.","forma poética de ἀετός"],
+        [944,"αἰζήϊος","ép. = αἰζηός.","forma épica de αἰζηός"],
+        [945,"ἀΐζηλος, ος, ον","invisível. 〈ἀ-, ἰδεῖν〉","invisível"],
+        [946,"αἰζηός, οῦ","(masc.) 1 viril; robusto;vigoroso ♦ οἱ αἰζηοί 2 homens fortes.","viril; robusto; homens fortes"],
+        [947,"Αἰήτας, αο","dór. = Αἰήτης.","forma dórica de Αἰήτης"],
+        [948,"Αἰήτης, ου (ὁ)","Eetes, rei da Cólquida.","Eetes, rei da Cólquida"],
+        [949,"αἴητος, ος, ον","duv. impetuoso; de sopro ruidoso. 〈ἄημι〉","impetuoso; de sopro ruidoso"],
+        [950,"αἴθ’","cf. αἴθε e αἴτε.","cf. αἴθε e αἴτε"],
+        [951,"Αἰθαιεύς, έως (ὁ)","habitante de Etéia, na Lacônia.","habitante de Etéia"],
+        [952,"αἰθαλόεις-οῦς, όεσσα-οῦσσα, όεν-οῦν","1 enegrecido; fusco 2 castanho escuro 3 que queima; que consome. 〈αἴθω〉","enegrecido; castanho; abrasador"],
+        [953,"αἴθαλος, ου (ὁ)","1 fumaça negra e espessa; fuligem ♦ adj. 2 enegrecido pelo fogo 3 castanho escuro. 〈αἴθω〉","fuligem; enegrecido; castanho"],
+        [954,"αἰθαλόω-ῶ","1 reduzir a cinza; consumir 2 sujar com fumaça. 〈αἴθαλος〉","reduzir a cinza; sujar com fumaça"],
+        [955,"αἴθε","εἴθε.","εἴθε"],
+        [956,"αἰθέριος, α, ον","do éter; produzido no éter; etéreo. 〈αἰθήρ〉","etéreo"],
+        [957,"αἰθεροειδής, ής, ές","semelhante ao éter; etéreo. 〈αἰθήρ, εἷδος〉","semelhante ao éter"],
+        [958,"αἰθερώδης, ης, ες","αἰθεροειδής.","αἰθεροειδής"],
+        [959,"αἰθήρ, έρος (ὁ, ἡ)","1 éter, a mais alta região do ar 2 éter, morada dos astros e deuses 3 ar, elemento 4 ar; clima 5 fôlego; respiração 6 Éter, person. filho de Érebo e da Noite. 〈αἴθω〉","éter; ar; Éter personificado"],
+        [960,"Αἰθιοπεύς, έως","e ῆος (ὁ) etíope. 〈Αἰθίοψ〉","etíope"],
+        [961,"Αἰθιοπία, ας (ἡ)","Etiópia.","Etiópia"],
+        [962,"Αἰθιοπίη, ης (ἡ)","jôn. = Αἰθιοπία.","forma jônica de Αἰθιοπία"],
+        [963,"Αἰθιοπικός, ή, όν","Αἰθιόπιος. 〈Αἰθίοψ〉","etíope"],
+        [964,"Αἰθιόπιος, α, ον","etíope. 〈Αἰθίοψ〉","etíope"],
+        [965,"Αἰθιοπίς, ίδος","(fem.) etíope. 〈Αἰθίοψ〉","etíope"],
+        [966,"Αἰθίοψ, οπος","(masc., fem.) 1 etíope: ποταμὸς Αἰθίοψ o rio etíope, o Nilo superior ♦ ὁ Αἰθίοψ 2 o Etíope, epít. de Zeus. 〈αἴθω, ὤψ〉","etíope; epíteto de Zeus"],
+        [967,"αἰθός, ή, όν","1 queimado; escuro 2 cor de fogo; resplandecente. 〈αἴθω〉","queimado; resplandecente"],
+        [968,"αἴθουσα, ης (ἡ)","pórtico; galeria; varanda. 〈αἴθω〉","pórtico; galeria; varanda"],
+        [969,"αἷθοψ, οπος","(masc., fem.) 1 de aspecto abrasador; que esquenta; que queima 2 de aspecto abrasado ou inflamado; cintilante; resplandecente 3 violento; furioso. 〈αἴθω, ὤψ〉","abrasador; cintilante; furioso"],
+        [970,"αἴθρα, ας (ἡ)","brilho do éter; serenidade do céu. 〈αἰθήρ〉","brilho do éter; céu sereno"],
+        [971,"αἰθρηγενέτης, ου (ὁ)","nascido do éter, epit. de Bóreas. 〈αἴθρη, γένος〉","nascido do éter; epíteto de Bóreas"],
+        [972,"αἰθρηγενής, ής, ές","αἰθρηγενέτης.","αἰθρηγενέτης"],
+        [973,"αἰθρία, ας (ἡ)","1 ar puro; céu sereno 2 ar livre. 〈αἴθριος〉","ar puro; ar livre"],
+        [974,"αἰθριάζω","1 intr. estar ao ar livre 2 expor ao ar livre, sob um céu sereno 3 tornar o céu sereno 4 tard. acalmar-se. 〈αἰθρία〉","estar ou expor ao ar livre; acalmar-se"],
+        [975,"αἴθριος, ος, ον","1 puro; sereno 2 exposto ao ar livre ♦ τὸ αἴθριον 3 pátio, considerado como a parte que recebe a influência do éter. 〈αἴθρα〉","puro; sereno; pátio"],
+        [976,"αἷθρος, ου (ὁ)","ar frio; frescor da manhã. 〈αἴθρα〉","ar frio; frescor da manhã"],
+        [977,"αἴθυγμα, ατος (τό)","centelha; clarão. 〈αἰθύσσω〉","centelha; clarão"],
+        [978,"αἴθυια, ας (ἡ)","gaivota.","gaivota"],
+        [979,"αἰθύσσω","1 agitar vivamente; chacoalhar 2 agitar-se; vacilar. 〈αἴθω〉","agitar vivamente; vacilar"],
+        [980,"αἴθω","(só pres. e impf.) 1 acender (o fogo); fazer brilhar (uma luz) 2 queimar (vítimas) 3 intr. queimar; arder ♦ méd. 4 queimar-se; brilhar; arder (de amor).","acender; queimar; arder"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
