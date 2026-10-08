@@ -1,0 +1,33 @@
+RCORRECOES — PROTOCOLO DE AUDITORIA E CORRECOES DO SCRIPTURA LEXICON
+Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
+Branch exclusiva de publicação: chat-gpt-correcoes
+Periodicidade solicitada: diariamente às 05:00, America/Sao_Paulo
+Instituído em 08/10/2026.
+
+1. OBJETIVO
+Revisar diariamente TODO o acervo publicado no estado real da branch, incluindo entradas recém-integradas de BDAG, DGP, LEH, PEREIRA e outras fontes existentes. Corrigir defeitos funcionais, apresentação e marcação com intervenção mínima, mantendo identidade e redação de cada léxico. Nunca realizar incorporação de novos verbetes como parte desta rotina.
+
+2. FONTE DE VERDADE E CONCORRÊNCIA
+Acessar GitHub no início de cada execução; consultar HEAD de main, chat-gpt-correcoes, chat-gpt-commits e das branches de fonte envolvidas, bem como PARALLEL_WORKFLOW.md e as regras canônicas atuais de cada fonte. Não usar SHAs antigos como autoridade.
+A tarefa horária de incorporação de verbetes pode estar ativa. Não iniciar escritas concorrentes sobre arquivos tocados por outro processo. Trabalhar na branch chat-gpt-correcoes; jamais escrever em main, chat-gpt-commits ou branches exclusivas de fontes. Não usar force-push, reescrita destrutiva de histórico, nem cherry-pick cego.
+Antes de publicar, conferir alterações remotas e reconciliar o novo HEAD. Sincronizar com main ou com o ramo de integração somente se a operação não sobrescrever nem duplicar edições; diante de conflito ou incerteza, interromper a escrita e relatar o impedimento. Nenhum processo pode prometer ausência absoluta de conflitos em futuros PRs; deve verificar compatibilidade e parar quando não puder demonstrá-la.
+
+3. VARREDURA SISTEMÁTICA
+a) Integridade estrutural: uma search-row para cada entry-card, unicidade de IDs, data-target válidos, ausência de órfãos, ordem/contagem por fonte, renderização e carregamento de módulos.
+b) Popups: inventariar TODAS as abreviaturas morfológicas, gramaticais, filológicas, editoriais e bibliográficas presentes em todos os cartões; conferir cadastro da chave, reconhecimento, ativação por hover, clique e teclado e conteúdo correto do tooltip. Conferir autores, obras, corpora, manuscritos, abreviações bíblicas e referências externas. Nunca inventar uma expansão incerta.
+c) Tipografia e texto: detectar falta/excesso de espaço (em especial abreviatura + forma grega), pontuação, aglutinações, itálicos indevidos, numeração de acepções, diacríticos Unicode, caracteres gregos politônicos e hebraicos, HTML e estilos claro/escuro.
+d) Referências: verificar hyperlinks e popups internos, URLs proibidas, links quebrados quando verificáveis, data-attributes, atributos acessíveis.
+e) Regressão: preservar integralmente conteúdo filológico e as camadas Fonte/Tradução/Análise/GDHAGP, testando visual e funcionalmente as alterações quando ferramentas permitirem.
+f) Priorizar erros que atinjam muitas entradas; coletar achados de todos os verbetes, não só os da amostra. Persistir inventário de pendências verificáveis para retomar no dia seguinte, sem supor que uma varredura parcial foi completa.
+
+4. CASOS DE REGRESSÃO OBRIGATÓRIOS
+BDAG ἀγαθοεργέω: a referência “Pitágoras, Ep. 10 p. 607” deve ser investigada quanto ao popup bibliográfico apropriado, com expansão baseada em fonte comprovada.
+DGP ἀλείφω: “fut.” deve ter tooltip “futuro” e separação tipográfica correta da forma grega “ἀλείψω”.
+As capturas de tela do usuário servem como relato de defeito, não substituem confronto com os dados e código atuais.
+
+5. EDIÇÃO E TESTES
+Preferir mudanças restritas a definições bibliográficas e ao módulo específico de cada fonte. Alterações globais de script.js, index.html ou style.css são excepcionais e exigem reconciliação com o fluxo de integração. Não modificar lotes nem manifestos de progresso lexicográfico. Adicionar testes de regressão objetivos para classes de bugs corrigidas quando viável. Validar sintaxe, integridade DOM e popups. Quando possível, verificar comportamento em navegador em tema claro/escuro e com navegação por teclado.
+Um commit pequeno por conjunto coerente de correções testadas, com mensagem descritiva; confirmar SHA e diff após gravar. Não publicar correções conjecturais. Se nada puder ser corrigido com segurança, não criar commit artificial.
+
+6. PRs E RELATÓRIO
+Comparar chat-gpt-correcoes com main a cada rodada e verificar possibilidade real de merge antes de sugerir PR. Não criar nem mesclar PR automaticamente sem solicitação do usuário. Não afirmar “sem conflitos” quando as branches divergirem ou sem teste real de merge. Registrar: data/hora, HEADs observados, universo examinado, número de erros encontrados e corrigidos por classe e por léxico, testes executados, arquivos e SHAs de commits, pendências e conflitos detectados. Não inventar contagens de verbetes examinados ou resultados de testes.
