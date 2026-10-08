@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,21 @@
         rel="stylesheet"
     >
 
+    <!-- Restaura a preferência antes de pintar a página, evitando piscar entre temas. -->
+    <script>
+        (function () {
+            try {
+                const savedTheme = localStorage.getItem("scriptura-lexicon-theme");
+                if (savedTheme === "light" || savedTheme === "dark") {
+                    document.documentElement.dataset.theme = savedTheme;
+                    document.querySelector('meta[name="theme-color"]').content =
+                        savedTheme === "light" ? "#f4f7fc" : "#071d3a";
+                }
+            } catch (error) {
+                // O site continua funcional quando o armazenamento é bloqueado.
+            }
+        })();
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,7 +40,7 @@
     <aside
         id="dictionary-menu"
         class="dictionary-drawer"
-        aria-label="Dicionários"
+        aria-label="Dicionários e aparência"
         aria-hidden="true"
     >
         <div class="dictionary-drawer-header">
@@ -65,6 +80,32 @@
                 <span class="dictionary-option-code">LA–PT</span>
             </button>
         </nav>
+
+        <fieldset class="theme-selector">
+            <legend class="theme-selector-title">Aparência</legend>
+            <div class="theme-options">
+                <label class="theme-choice">
+                    <input type="radio" name="site-theme" value="light">
+                    <span class="theme-choice-content">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+                        </svg>
+                        <span>Tema claro</span>
+                    </span>
+                </label>
+
+                <label class="theme-choice">
+                    <input type="radio" name="site-theme" value="dark" checked>
+                    <span class="theme-choice-content">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.8 14.1A9 9 0 0 1 9.9 3.2 9 9 0 1 0 20.8 14.1Z"></path>
+                        </svg>
+                        <span>Tema escuro</span>
+                    </span>
+                </label>
+            </div>
+        </fieldset>
     </aside>
 
 
