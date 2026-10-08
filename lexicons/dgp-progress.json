@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 1131,
-    "status": "lote 49 concluído"
+    "next_ordinal": 1181,
+    "status": "lote 50 concluído"
   },
   "batches": [
     {
@@ -450,6 +450,15 @@
       "end_ordinal": 1130,
       "start_entry": "αἰπυμήτης, ου",
       "end_entry": "αἰσχρολογία, ας (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 50,
+      "start_ordinal": 1131,
+      "end_ordinal": 1180,
+      "start_entry": "αἰσχρόμητις, ιος",
+      "end_entry": "αἰχμάζω",
       "entry_count": 50,
       "status": "concluído"
     }

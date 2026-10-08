@@ -2306,3 +2306,78 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 50 — registros 1131–1180
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Teócrito", type: "biblio", text: "Teócrito — poeta helenístico dos séculos IV–III a.C., tradicionalmente associado ao desenvolvimento da poesia bucólica." },
+        { key: "rec.", type: "abbr", text: "recente" },
+        { key: "eufór.", type: "abbr", text: "eufemístico" }
+    );
+    const entries = [
+        [1131,"αἰσχρόμητις, ιος","(masc., fem.) que dá maus conselhos. 〈αἰσχρός, μῆτις〉","de maus conselhos"],
+        [1132,"αἰσχροποιός, ός, όν","que comete atos infames; que se comporta vergonhosamente. 〈αἰσχρός, ποιέω〉","que comete atos infames"],
+        [1133,"αἰσχρός, ά, όν","(comp. αἰσχίων, superl. αἴσχιστος) 1 objeto de opróbrio; vil; indigno (pessoas) 2 incapaz (animais); indigno; infame (coisas); feio; medonho (pessoas e coisas); funesto; lastimável 3 inconveniente; impróprio para algo, πρός e ac. 4 desonroso; infamante: αἰσχρόν ἐστι é vergonhoso, inf. ♦ τὸ αἰσχρόν 5 vergonha; τὸ καλὸν καὶ τὸ αἰσχρόν o bem e o mal ou a virtude e o vício (para os estóicos).","vil; feio; desonroso; vergonha"],
+        [1134,"αἰσχρότης, ητος (ἡ)","1 feiúra; deformidade 2 bíbl. comportamento indecente. 〈αἰσχρός〉","feiúra; comportamento indecente"],
+        [1135,"αἰσχρουργία, ας (ἡ)","1 conduta vergonhosa 2 obscenidade. 〈αἰσχρός, ἔργον〉","conduta vergonhosa; obscenidade"],
+        [1136,"αἰσχρῶς","adv. vergonhosamente.","vergonhosamente"],
+        [1137,"αἰσχυνέμεν","inf. pres. ép. de αἰσχύνω.","infinitivo presente épico de αἰσχύνω"],
+        [1138,"αἰσχυνέω","fut. jôn. de αἰσχύνω.","futuro jônico de αἰσχύνω"],
+        [1139,"αἰσχύνη, ης (ἡ)","1 causa de vergonha; injúria, opróbrio: αἰσχύνην ἔχειν, φέρειν, προσβάλλειν causar desonra a alguém, dat., γράφεσθαί τινα γένους αἰσχύνης Platão acusar alguém de ação desonrosa contra a estirpe 2 situação vergonhosa; desonra: αἰσχύνη συμβᾶσα τῇ πόλει Demóstenes vergonha que aconteceu à cidade, αἰσχύνῃ πίπτειν Sófocles cair em desonra 3 sentimento de vergonha; comedimento; respeito; αἰσχύνην ἔχειν ter vergonha de, gen., πᾶσαν αἰσχύνην ἀφιέναι Demóstenes perder toda a vergonha, αἰσχύνῃ ἠφείδουν σφῶν αὐτῶν Tucídides por brio não se poupavam, αἰσχύνην ὁμολογουμένην φέρουσι Tucídides [leis não escritas] que gozam de respeito unânime 4 ultraje ao pudor; estupro. 〈αἷσχος〉","vergonha; desonra; pudor; estupro"],
+        [1140,"αἰσχυνοῦμαι","fut. méd. pas. de αἰσχύνω.","futuro médio-passivo de αἰσχύνω"],
+        [1141,"αἰσχυντέον","adj. verb. de αἰσχύνω.","adjetivo verbal de αἰσχύνω"],
+        [1142,"αἰσχυντηλία, ας (ἡ)","pudor; modéstia.","pudor; modéstia"],
+        [1143,"αἰσχυντηλός, ός, όν","1 pudico; modesto 2 que causa vergonha ♦ τὸ αἰσχυντηλόν 3 modéstia; pudor. 〈αἰσχύνω〉","pudico; modesto; vergonha"],
+        [1144,"αἰσχυντήρ, ῆρος (ὁ)","homem que desonra; adúltero. 〈αἰσχύνω〉","homem que desonra; adúltero"],
+        [1145,"αἰσχυντικός, ή, όν","que causa vergonha.","que causa vergonha"],
+        [1146,"αἰσχύνω","(impf. ᾔσχυνον, fut. αἰσχυνῶ, aor. ᾔσχυνα, perf. rec. ᾔσχυγκα) 1 tornar feio: χαριὲν δ’ ᾔσχυνε πρόσωπον Homero desfigurava seu belo rosto, κόμην ᾔσχυνε δαΐζων Homero enfeava a cabeleira arrancando os cabelos 2 ultrajar; profanar; estuprar: αἰσχύνεις πόλιν Sófocles desonras a cidade, ᾔσχυνε ξενίαν τράπεζαν Ésquilo ultrajou a mesa hospitaleira, [εἴ τινες] τούς τε παῖδας καὶ τὰς γυναῖκας αἰσχύνοειν Isócrates se algumas pessoas estuprassem mulheres e crianças 3 desacreditar: ᾔσχυνας μὲν ἐμὴν ἀρετήν Homero denegriste meu valor ♦ méd. 4 ter vergonha de algo, ac., dat., ἐν ou ἐπί e dat., ὑπέρ e gen.: αἰσχυνόμενος τῇ συμφορᾷ Lísias envergonhado com o acontecimento; envergonhar-se de fazer algo, part.: αἰσχύνω ποιῶν tenho vergonha de fazer (mas faço), οὐκ ἂν αἰσχύνοιό σε παρέχων σοφιστήν; Platão tu não te envergonharias de te apresentares como sofista? com inf. ou or. com εἰ, ἤν, μή: αἰσχύνω ποιεῖν tenho vergonha de fazer (e não faço) 5 corar diante de alguém, ac. ou πρός e ac. 〈αἰσχύνη〉","tornar feio; ultrajar; envergonhar-se"],
+        [1147,"Αἴσωπος, ου (ὀ)","Esopo, n. de fabulista e de ator trágico.","Esopo"],
+        [1148,"αἴτε","dór. = εἴτε.","forma dórica de εἴτε"],
+        [1149,"αἰτεύμενος","part. pres. pas. jôn. de αἰτέω.","particípio presente passivo jônico de αἰτέω"],
+        [1150,"αἰτέω-ῶ","(impf. ᾔτουν, fut. αἰτήσω, aor. ᾔτησα, perf. ᾔτηκα; pas. fut. αἰτηθήσομαι, aor. ᾐτήθην, perf. ᾔτημαι) 1 pedir; solicitar; postular a alguém, ac. ou πρός, παρά e gen.; algo, ac. ou or. inf. ou conj. (ὅπως); em benefício de alguém, dat. ♦ méd. 2 pedir para si; implorar; reclamar (com as mesmas construções da at.) ♦ pas. 3 ser solicitado: αἰτηθέντες χρήματα Heródoto solicitados a dar seus bens, αἰτεύμενος Teócrito solicitado a fazer algo, inf.; ἵπποι ᾐτημένοι Lísias cavalos tomados de empréstimo; τὸ αἰτεόμενον Heródoto aquilo que se pede.","pedir; solicitar; implorar"],
+        [1151,"αἴτημα, ατος (τό)","1 pedido; petição 2 princípio de demonstração; postulado. 〈αἰτέω〉","pedido; petição; postulado"],
+        [1152,"αἰτηματώδης, ης, ες","que tem o caráter de hipótese. 〈αἴτημα〉","de caráter hipotético"],
+        [1153,"αἴτησις, εως (ἡ)","1 pedido; súplica 2 postulado. 〈αἰτέω〉","pedido; súplica; postulado"],
+        [1154,"αἰτητικός, ή, όν","1 que gosta de pedir 2 que pode ser pedido; desejável. 〈αἰτέω〉","que gosta de pedir; desejável"],
+        [1155,"αἰτητός, ή, όν","solicitado; desejável. 〈αἰτέω〉","solicitado; desejável"],
+        [1156,"αἰτία, ας (ἡ)","1 princípio; origem: αἱ πρῶται αἰτίαι Platão as causas primeiras 2 razão: δι’ ἣν αἰτίαν ἐπολέμησαν Heródoto motivo pelo qual fizeram a guerra 3 responsabilidade: αἰτία θεοῦ Ésquilo a responsabilidade do deus, τὴν αἰτίαν ἐνδέχεσθαι tomar a responsabilidade, τὴν αἰτίαν εἰς αὑτὸν φέρειν assumir a responsabilidade, αἰτίαν ἀνατιθέναι, ἐπιτιθέναι, ἐπιφέρειν atribuir a responsabilidade a alguém, dat. 4 acusação: ἀφιέναι τινὰ τῆς αἰτίας Lísias absolver alguém de uma acusação, αἰτίαν ἔχειν, ὑπέχειν, ὑπομένειν, φέρεσθαι ou εἰς αἰτίαν ἐλθεῖν, ἐμπίπτειν ou αἰτίας τυγχάνειν ou ἐν αἰτίᾳ εἷναι, γίγνεσθαι ser acusado, sofrer uma acusação, estar sob acusação 5 eufór. reputação: αἰτίαν ἔχουσι βελτίους γεγονέναι Platão têm a reputação de se terem tornado melhores 6 bíbl. condição; situação: εἰ οὕτως ἐστὶν ἡ αἰτία τοῦ ἀνθρώπου μετὰ τῆς γυναικός, οὐ συμφέρει γαμῆσαι Novo Testamento se tal é a condição do homem em relação à mulher, não convém casar. 〈αἴτιος〉","causa; razão; responsabilidade; acusação; condição"],
+        [1157,"αἰτιάζομαι","(impf. ᾐτιαζόμην) ser acusado de algo, gen. 〈αἰτία〉","ser acusado"],
+        [1158,"αἰτίαμα, ατος (τό)","acusação; motivo de queixa; culpa. 〈αἰτιάομαι〉","acusação; queixa; culpa"],
+        [1159,"αἰτιάομαι-ῶμαι","(fut. αἰτιάσομαι, aor. ᾐτιασάμην, perf. ᾐτίαμαι) 1 ver como causa: οὐ τὸ αἴτιον αἰτιᾶσθαι Platão não considerar como causa o que é a causa 2 apresentar como causa; pretextar: τὸν λόγον αἰτιᾶσθαι δυσχερῆ εἷναι Platão alegar que o raciocínio é difícil 3 pôr em discussão; acusar: οἷον θεοὺς βροτοὶ αἰτιόωνται Homero como os mortais acusam os deuses! αἰτιᾶσθαί τινα ποιεῖν τι Heródoto acusar alguém de fazer algo, αἰτίαν κατά τινος αἰτιᾶσθαι Antifonte fazer uma acusação contra alguém 4 rar. louvar: σὲ τίς αἰτιᾶται νομοθέτην ἀγαθὸν γεγονέναι; Platão quem te louva por teres sido um bom legislador? 〈αἰτία〉","considerar causa; pretextar; acusar; louvar"],
+        [1160,"αἰτιατέον","adj. verb. de αἰτιάομαι.","adjetivo verbal de αἰτιάομαι"],
+        [1161,"αἰτίζω","(só pres. e part. aor. poét. αἰτίσσας) pedir com insistência; mendigar algo, ac., a alguém, dat. 〈αἰτέω〉","pedir insistentemente; mendigar"],
+        [1162,"αἰτιολογέω-ῶ","argumentar sobre as causas. 〈αἰτία, λόγος〉","argumentar sobre as causas"],
+        [1163,"αἴτιος, α, ον","1 que é causa de, gen. 2 responsável; culpado; acusado de, gen. ♦ ὁ αἴτιος 3 o acusado ♦ τὸ αἴτιον 4 causa; razão; motivo: τοῦτο αἴτιον ὅτι isso é causa de que. 〈αἰτία〉","causador; responsável; culpado; causa"],
+        [1164,"αἰτίωμα, ατος (τό)","bíbl. = αἰτίαμα.","forma bíblica de αἰτίαμα"],
+        [1165,"αἰτιόωνται","e αἰτιόωντο 3ª pl. pres. e impf. ép. de αἰ­τιάομαι.","formas épicas de αἰτιάομαι"],
+        [1166,"αἰτιόῳο","e αἰτιόῳτο 2ª e 3ª sing. opt. ép. de αἰτιάομαι.","optativo épico de αἰτιάομαι"],
+        [1167,"αἰτναῖος, ου (ὁ)","etneu, peixe do mar.","peixe etneu"],
+        [1168,"Αἰτναῖος, α, ον","1 do Etna 2 grande como o Etna; gigantesco 3 da região do Etna. 〈Αἴτνη〉","do Etna; gigantesco"],
+        [1169,"Αἴτνη, ης (ἡ)","Etna, monte, vulcão e cidade da Sicília .","Etna"],
+        [1170,"Αἰτωλία, ας (ἡ)","Etólia, região da Grécia.","Etólia"],
+        [1171,"Αἰτωλικός, ή, όν","etólio. 〈Αἰτωλία〉","etólio"],
+        [1172,"Αἰτωλίς, ιδος","(fem.) etólia. 〈Αἰτωλία〉","etólia"],
+        [1173,"Αἰτωλός, οῦ","(masc.) etólio. 〈Αἰτωλία〉","etólio"],
+        [1174,"αἴφνης","adv. subitamente; de repente.","subitamente"],
+        [1175,"αἰφνίδιος, α, ον","1 repentino; súbito; imprevisto ♦ αἰφνίδιον adv. 2 subitamente; de repente ♦ τὸ αἰφνίδιον 3 o imprevisto. 〈αἴφνης〉","repentino; súbito; imprevisto"],
+        [1176,"αἰφνιδίως","adv. subitamente; de repente.","subitamente; de repente"],
+        [1177,"ἀΐχθην","aor. pas. de ἀΐσσω.","aoristo passivo de ἀΐσσω"],
+        [1178,"αἰχμά","dór. = αἰχμή.","forma dórica de αἰχμή"],
+        [1179,"αἰχμάεις","dór. = αἰχμήεις.","forma dórica de αἰχμήεις"],
+        [1180,"αἰχμάζω","(fut. αἰχμάσω, aor. ᾔχμασα) 1 brandir ou arremessar a lança 2 ferir. 〈αἰχμή〉","brandir lança; ferir"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
