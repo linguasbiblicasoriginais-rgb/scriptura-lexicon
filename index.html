@@ -140,6 +140,31 @@
                     <select id="source-filter" aria-label="Filtrar por fonte">
                         <option value="">Todas as fontes</option>
                     </select>
+
+                    <div id="source-combobox" class="source-combobox" hidden>
+                        <button
+                            id="source-filter-button"
+                            class="source-filter-button"
+                            type="button"
+                            role="combobox"
+                            aria-label="Filtrar por fonte"
+                            aria-haspopup="listbox"
+                            aria-expanded="false"
+                            aria-controls="source-filter-options"
+                        >
+                            <span id="source-filter-label">Todas as fontes</span>
+                            <svg class="source-filter-chevron" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m6 9 6 6 6-6"/>
+                            </svg>
+                        </button>
+                        <div
+                            id="source-filter-options"
+                            class="source-filter-options"
+                            role="listbox"
+                            aria-label="Fontes lexicográficas"
+                            hidden
+                        ></div>
+                    </div>
                 </div>
 
             </div>
