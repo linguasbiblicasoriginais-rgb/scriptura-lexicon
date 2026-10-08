@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 211,
-    "status": "lote 6 concluído"
+    "next_ordinal": 261,
+    "status": "lote 7 concluído"
   },
   "batches": [
     {
@@ -76,13 +76,24 @@
       "start_source_id": 31973,
       "end_source_id": 32021,
       "status": "concluído"
+    },
+    {
+      "batch": 7,
+      "start_ordinal": 211,
+      "end_ordinal": 260,
+      "start_entry": "Ἀγκιστρόω",
+      "end_entry": "Ἀ-γνοέω",
+      "entry_count": 50,
+      "start_source_id": 32022,
+      "end_source_id": 33199,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 211,
-    "source_id": 32022,
-    "searchable": "αγκιστροω",
-    "lemma": "Ἀγκιστρόω"
+    "ordinal": 261,
+    "source_id": 33200,
+    "searchable": "αγνοημα",
+    "lemma": "Ἀ-γνόημα, ατος"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
