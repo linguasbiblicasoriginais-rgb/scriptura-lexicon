@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 261,
-    "status": "lote 7 concluído"
+    "next_ordinal": 311,
+    "status": "lote 8 concluído"
   },
   "batches": [
     {
@@ -87,13 +87,24 @@
       "start_source_id": 32022,
       "end_source_id": 33199,
       "status": "concluído"
+    },
+    {
+      "batch": 8,
+      "start_ordinal": 261,
+      "end_ordinal": 310,
+      "start_entry": "Ἀ-γνόημα, ατος",
+      "end_entry": "Ἄ-γραπτος, ον",
+      "entry_count": 50,
+      "start_source_id": 33200,
+      "end_source_id": 33249,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 261,
-    "source_id": 33200,
-    "searchable": "αγνοημα",
-    "lemma": "Ἀ-γνόημα, ατος"
+    "ordinal": 311,
+    "source_id": 33250,
+    "searchable": "αγραυλεω",
+    "lemma": "Ἀγρ-αυλέω"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
