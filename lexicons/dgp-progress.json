@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 1231,
-    "status": "lote 51 concluído"
+    "next_ordinal": 1281,
+    "status": "lote 52 concluído"
   },
   "batches": [
     {
@@ -468,6 +468,15 @@
       "end_ordinal": 1230,
       "start_entry": "αἰχμαλωσία, ας (ἡ)",
       "end_entry": "Ἀκαρνάν, ᾶνος (ὁ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 52,
+      "start_ordinal": 1231,
+      "end_ordinal": 1280,
+      "start_entry": "Ἀκαρνανία, ας (ἡ)",
+      "end_entry": "ἀκεστήρ, ῆρος",
       "entry_count": 50,
       "status": "concluído"
     }

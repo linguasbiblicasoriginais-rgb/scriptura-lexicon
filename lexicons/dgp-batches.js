@@ -2457,3 +2457,73 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 52 — registros 1231–1280
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1231,"Ἀκαρνανία, ας (ἡ)","Acarnânia, região da Grécia.","Acarnânia"],
+        [1232,"Ἀκαρνανικός, ή, όν","da Acarnânia.","da Acarnânia"],
+        [1233,"ἀκαρπία, ας (ἡ)","improdutividade; esterilidade. 〈ἄκαρπος〉","esterilidade"],
+        [1234,"ἄκαρπος, ος, ον","1 sem fruto; estéril; infértil 2 infrutífero; sem proveito 3 rar. que torna estéril. 〈ἀ-, καρπός〉","estéril; infrutífero"],
+        [1235,"ἀκάρπως","adv. sem fruto; de modo estéril.","sem fruto; esterilmente"],
+        [1236,"ἀκάρπωτος, ος, ον","que não produz frutos; estéril; inculto. 〈ἀ-, καρπόω〉","estéril; inculto"],
+        [1237,"ἀκαρτέρητος, ος, ον","insuportável. 〈ἀ-, καρτερέω〉","insuportável"],
+        [1238,"ἀκασκᾶ","e ἄκασκα adv. sem ruído; suavemente.","sem ruído; suavemente"],
+        [1239,"ἀκασκαῖος, α, ον","calmo; tranqüilo. 〈ἀκασκᾶ〉","calmo; tranquilo"],
+        [1240,"ἀκατάβλητος, ος, ον","que não se pode abater ou vencer. 〈ἀ-, καταβάλλω〉","invencível"],
+        [1241,"ἀκατάγγελτος, ος, ον","não declarado (guerra). 〈ἀ-, καταγγέλλω〉","não declarado"],
+        [1242,"ἀκατάγνωστος, ος, ον","1 não condenado 2 bíbl. não condenável; inocente, irrepreensível. 〈ἀ-, καταγιγνώσκω〉","não condenado; irrepreensível"],
+        [1243,"ἀκατακάλυπτος, ος, ον","não velado; não coberto. 〈ἀ-, κατακαλύπτω〉","não velado; não coberto"],
+        [1244,"ἀκατακόσμητος, ος, ον","não organizado; não disposto em ordem. 〈ἀ-, κατακοσμέω〉","desorganizado"],
+        [1245,"ἀκατάκριτος, ος, ον","bíbl. não submetido a julgamento legal; não julgado por processo formal; não condenado. 〈ἀ-, κατακρίνω〉","não julgado; não condenado"],
+        [1246,"ἀκατάληπτος, ος, ον","1 que não se pode tomar ou tocar 2 inexpugnável; invencível 3 incompreensível. 〈ἀ-, καταλαμβάνω〉","inapreensível; invencível; incompreensível"],
+        [1247,"ἀκατάλυτος, ος, ον","indestrutível; indissolúvel; perpétuo. 〈ἀ-, καταλύω〉","indestrutível; indissolúvel; perpétuo"],
+        [1248,"ἀκατάπαυστος, ος, ον","1 incessante; interminável 2 que não se pode parar; irresistível. 〈ἀ-, καταπαύω〉","incessante; irresistível"],
+        [1249,"ἀκατάσκευος, ος, ον","não equipado; sem arte; despojado. 〈ἀ-, κατασκευή〉","não equipado; despojado"],
+        [1250,"ἀκαταστασία, ας (ἡ)","1 mobilidade de caráter; instabilidade; inconstância 2 agitação; tumulto 3 insurreição; revolução. 〈ἀκατάστατος〉","instabilidade; tumulto; revolução"],
+        [1251,"ἀκατάστατος, ος, ον","1 instável; agitado; desordenado 2 que não deixa sedimento 3 bíbl. incontrolável; indomável. 〈ἀ-, καθίστημι〉","instável; desordenado; indomável"],
+        [1252,"ἀκαταστάτως","adv. com ἔχειν estar sem repouso.","sem repouso"],
+        [1253,"ἀκατάσχετος, ος, ον","incontrolável; irreprimível; irrefreável. 〈ἀ-, κατέχω〉","irrefreável"],
+        [1254,"ἀκατασχέτως","adv. de modo incontrolável.","incontrolavelmente"],
+        [1255,"ἀκατάψευστος, ος, ον","não imaginário; não fabuloso. 〈ἀ-, καταψεύδομαι〉","não fabuloso"],
+        [1256,"ἀκάτειος, ος, ον","1 de barco ♦ τὸ ἀκάτειον 2 pequena vela de embarcação. 〈ἄκατος〉","de barco; pequena vela"],
+        [1257,"ἀκάτιον, ου (τό)","1 barco ligeiro; barco de pesca 2 espécie de sapato feminino 3 vela auxiliar de embarcação. 〈ἄκατος〉","barco ligeiro; sapato; vela auxiliar"],
+        [1258,"ἀκατονόμαστος, ος, ον","inominável. 〈ἀ-, κατονομάζω〉","inominável"],
+        [1259,"ἄκατος, ου (ἡ","e ὁ) 1 barco ligeiro; barca 2 vasilha em forma de barca.","barco ligeiro; vasilha"],
+        [1260,"ἄκαυστος, ος, ον","1 não queimado 2 não inflamável 3 que não cessa de queimar. 〈ἀ-, καίω〉","não queimado; não inflamável; inextinguível"],
+        [1261,"ἀκαχείατο, ἀκάχημαι, ἀκάχησα, ἀκαχήσω","cf. ἄχω.","cf. ἄχω"],
+        [1262,"ἀκαχίζω","(só pres.) 1 afligir; magoar ♦ méd. 2 sentir dor; sentir aflição; estar atormentado.","afligir; sentir dor"],
+        [1263,"ἀκαχμένος, ος, ον","1 aguçado; pontiagudo 2 armado de, dat. 〈ἀκή〉","pontiagudo; armado de"],
+        [1264,"ἀκαχοίμην, ἀκαχόμην, ἀκαχών","cf. ἄχω.","cf. ἄχω"],
+        [1265,"ἀκειόμενος","part. pres. ép. de ἀκέω.","particípio presente épico de ἀκέω"],
+        [1266,"ἀκείρατος, ος, ον","não cortado. 〈ἀ-, κείρω〉","não cortado"],
+        [1267,"ἀκέλευστος, ος, ον","que não recebeu ordens; que age espontaneamente; voluntário. 〈ἀ-, κελεύω〉","voluntário; espontâneo"],
+        [1268,"ἀκέντητος, ος, ον","1 que não precisa ser estimulado; não aguilhoado 2 não mosqueado. 〈ἀ-, κεντέω〉","não aguilhoado; não mosqueado"],
+        [1269,"ἀκέο","2ª sing. pres. imper. méd. jôn. de ἀκέω1.","imperativo médio jônico de ἀκέω1"],
+        [1270,"ἀκέομαι","cf. ἀκέω1.","cf. ἀκέω1"],
+        [1271,"ἀκέοντο","3ª pl. impf. méd. ép. de ἀκέω1.","imperfeito médio épico de ἀκέω1"],
+        [1272,"ἀκέραιος, ος, ον","1 não misturado; puro (líquido) 2 incólume; intacto; não maculado por algo, gen.; ἐξ ἀκεραίου de novo ou numa situação diferente 3 íntegro; incorruptível; sincero (pessoa) 4 bíbl. simples; inocente; ingênuo. 〈ἀ-, κεράννυμι〉","puro; intacto; sincero; inocente"],
+        [1273,"ἀκερδής, ής, ές","1 sem proveito; não vantajoso; funesto 2 não ávido de ganho; desinteressado. 〈ἀ-, κέρδος〉","sem proveito; desinteressado"],
+        [1274,"ἀκερδῶς","adv. sem proveito; desinteressadamente.","sem proveito; desinteressadamente"],
+        [1275,"ἀκερσεκόμης, ου","(masc.) de cabelo não aparado; de cabelos longos, i.e., em plena juventude. 〈ἀ-, κείρω, κόμη〉","de cabelos longos; jovem"],
+        [1276,"ἀκέσιμος, ος, ον","próprio para curar; salutar. 〈ἀκέομαι〉","salutar; curativo"],
+        [1277,"ἄκεσις, εως (ἡ)","1 cura 2 emplastro. 〈ἀκέομαι〉","cura; emplastro"],
+        [1278,"ἄκεσμα, ατος (τό)","remédio. 〈ἀκέομαι〉","remédio"],
+        [1279,"ἄκεσσαι, ἀκέσσαιο","2ª sing. imper. e opt. aor. méd. poét. de ἀκέω.","imperativo e optativo aoristo médio poético de ἀκέω"],
+        [1280,"ἀκεστήρ, ῆρος","(masc.) que cura; que acalma. 〈ἀκέομαι〉","curador; apaziguador"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
