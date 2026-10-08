@@ -1,0 +1,1049 @@
+Rleh
+REGISTRO PERMANENTE DE CONTINUIDADE DO LEH — GDHAGP / SCRIPTURA LEXICON
+Versão inaugural: 08/10/2026
+Arquivo canônico no GitHub: regras/Rleh.txt
+Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
+Branch exclusiva: chat-gpt-leh
+Documento em texto puro, codificação UTF-8.
+
+================================================================================
+1. FINALIDADE E CARÁTER DESTE ARQUIVO
+================================================================================
+
+Este documento é o protocolo permanente de continuação do trabalho lexicográfico
+relacionado ao LEH dentro do projeto Grande Dicionário Hebraico–Aramaico–Grego–
+Português (GDHAGP), também denominado Scriptura Lexicon.
+
+Este arquivo substitui a dependência da memória de uma conversa específica.
+O próximo assistente deve lê-lo diretamente do GitHub antes de iniciar qualquer
+novo lote. Deve também ler a fonte original LEH e consultar o estado real da
+branch. O arquivo não é autorização para substituir os dados do GitHub nem
+para tratar exemplos ou históricos como informações atuais.
+
+COMANDO DE ATIVAÇÃO:
+Continue o processo (LEH).
+
+Sempre que o usuário escrever exatamente esse comando ou uma variante
+inequívoca, executar o protocolo:
+(1) consultar a branch chat-gpt-leh;
+(2) ler regras/Rleh.txt dessa branch;
+(3) ler lexicons/leh.js no HEAD atual;
+(4) reconciliar o estado;
+(5) consultar diretamente o LEH;
+(6) incorporar apenas os próximos 20 verbetes consecutivos, se solicitada
+    continuidade e se as fontes permitirem;
+(7) auditar;
+(8) fazer apenas um commit para o lote, sem force;
+(9) verificar o resultado;
+(10) atualizar este arquivo quando houver mudança relevante no ponto de
+     continuação, nas regras, na bibliografia ou nas ressalvas filológicas.
+
+Não pedir ao usuário que cole novamente o histórico quando o documento puder
+ser lido diretamente na branch. Se o arquivo estiver indisponível, informar a
+limitação; não inventar seu conteúdo nem prosseguir às cegas.
+
+O trabalho é uma transposição lexicográfica rigorosa, não um glossário
+abreviado, uma paráfrase livre, uma adaptação teológica ou uma síntese do LEH.
+
+Prioridades, em ordem:
+fidelidade filológica;
+conservação das características da fonte;
+completude;
+segurança do GitHub;
+coerência editorial;
+velocidade de execução.
+
+Em conflito entre velocidade e precisão, preferir precisão.
+Em conflito entre simplificação e fidelidade, preferir fidelidade.
+Na dúvida, voltar à fonte.
+
+================================================================================
+2. REPOSITÓRIO, BRANCH E ESCOPO
+================================================================================
+
+Repositório:
+linguasbiblicasoriginais-rgb/scriptura-lexicon
+
+URL:
+https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon
+
+Branch de trabalho:
+chat-gpt-leh
+
+Arquivo lexical:
+lexicons/leh.js
+
+Objeto:
+window.ScripturaLexicons.LEH
+
+Registro permanente:
+regras/Rleh.txt
+
+ESCOPOS PERMITIDOS PARA UM LOTE, APÓS ESTA DECISÃO:
+- lexicons/leh.js: incorporação dos verbetes LEH;
+- regras/Rleh.txt: atualização documental de continuidade, quando necessária.
+
+Esta autorização ao registro regras/Rleh.txt constitui exceção expressa à
+antiga regra de modificar exclusivamente lexicons/leh.js. A preferência é
+modificar ambos em UM ÚNICO commit do lote quando a documentação precisar ser
+atualizada. Não criar um segundo commit apenas para anotar o SHA recém-gerado;
+o próprio HEAD remoto é o registro canônico do SHA. Por ser impossível incluir
+o SHA definitivo de um commit no conteúdo que determina esse mesmo SHA,
+anotações internas poderão registrar o SHA-base ou o estado projetado para
+depois do commit. O SHA definitivo deve sempre ser consultado no GitHub.
+
+ARQUIVOS PROTEGIDOS: não alterar durante lotes LEH:
+- lexicons/bdag.js
+- index.html
+- script.js
+- style.css
+- PARALLEL_WORKFLOW.md
+- outros arquivos compartilhados
+
+BRANCHES PROTEGIDAS CONTRA AÇÕES DESTE PROCESSO:
+- main
+- chat-gpt-bdag
+- chat-gpt-commits
+- outras branches que não sejam chat-gpt-leh
+
+Não sincronizar interface ou paleta visual durante lotes.
+Não refatorar arquivos.
+Não reorganizar funções nem a arquitetura do site.
+Não corrigir outra fonte enquanto estiver fazendo LEH.
+Não usar force push, reset destrutivo, rebase forçado ou overwrite.
+
+================================================================================
+3. FONTES E IDENTIDADE EDITORIAL DO LEH
+================================================================================
+
+Fonte lexical exclusiva:
+LUST, Johan; EYNIKEL, Erik; HAUSPIE, Katrin; MURAOKA, Takamitsu.
+A Greek-English Lexicon of the Septuagint.
+2ª edição. Stuttgart: Deutsche Bibelgesellschaft, 2003.
+
+Sigla de fonte na interface: LEH.
+
+PDF completo disponível no projeto:
+Lust, J.; Eynikel, E.; Hauspie, K.; Muraoka, T. A Greek-English Lexicon of
+the Septuagint. 2ª edição. Stuttgart: Deutsche Bibelgesellschaft, 2003.pdf
+(o nome de arquivo pode variar em grafia e caracteres tipográficos).
+
+Recorte específico do trecho corrente da letra alfa:
+ἁλεεύς–ἄωρος.pdf
+
+Localizar diretamente o lema no TEXTO do PDF. Não inferir o trecho apenas
+pelo nome do arquivo. Em particular, NÃO confundir com o recorte do BDAG
+denominado ἀνθρωποποίητος–ἄωρος.pdf, que pertence a outro léxico.
+
+O recorte ἁλεεύς–ἄωρος.pdf foi utilizado para verbetes nas proximidades das
+páginas físicas 29–36. A numeração física de páginas do PDF e a paginação
+impressa não devem ser equiparadas automaticamente.
+
+O PDF completo do LEH pode servir para:
+- bibliografia geral e expansões de abreviações;
+- códigos, tabelas morfológicas e sinais editoriais;
+- confirmação de referências textuais;
+- verificação de numerações, recensões e livros;
+- solução de ambiguidades de extração;
+- leitura das páginas digitalizadas;
+- confirmação de hebraico/aramaico e caracteres gregos.
+
+O corpo lexical deve provir do LEH. Não:
+- completar com BDAG;
+- harmonizar com BDAG;
+- completar com LSJ;
+- completar com Robinson ou Thayer;
+- substituir sentidos com conhecimento geral de grego;
+- incorporar decisões de outros léxicos silenciosamente;
+- transformar uma hipótese do LEH em certeza;
+- adaptar a lexicografia às convicções religiosas do usuário.
+
+Fontes externas, quando estritamente necessárias para explicar uma sigla ou
+questão editorial, devem permanecer claramente distinguidas da fonte LEH.
+
+================================================================================
+4. CAMADAS INTELECTUAIS DO GDHAGP
+================================================================================
+
+FONTE: conteúdo original do LEH.
+TRADUÇÃO: representação das glosas e informações inglesas em português.
+ANÁLISE: esclarecimentos críticos, sempre identificados como tais.
+GDHAGP: estrutura e forma de apresentação no Scriptura Lexicon.
+
+Não confundir análise própria com o texto do LEH.
+Não atribuir ao LEH um parecer externo.
+Não introduzir acréscimos teológicos ou doutrinários.
+Não eliminar diferenças entre fontes lexicográficas.
+Não corrigir nem modernizar tacitamente formas inesperadas.
+
+O projeto deve manter a identidade editorial de cada léxico, inclusive suas
+preferências, dúvidas, classificações, lacunas e escolhas bibliográficas.
+
+================================================================================
+5. ESTADO HISTÓRICO CONFIRMADO EM 08/10/2026
+================================================================================
+
+AVISO OBRIGATÓRIO: ESTE ESTADO É UM MARCO HISTÓRICO, NÃO UM HEAD FIXO.
+
+Branch: chat-gpt-leh
+HEAD confirmado após o último lote:
+0de9e34683b4b7f9ab162805a62b3f4c8dad94af
+
+Título:
+Adicionar lote de 20 verbetes do LEH: ἀναμίγνυμι → ἀναπαύω
+
+Commit anterior:
+99cb56c377a2f8f428b0b65fcf80fced99d853a4
+
+Tree SHA do último commit:
+0c14402f28eda5cf5a3ba44857f49cb89768acfa
+
+Blob de lexicons/leh.js:
+fcc886caaf07ec91a115061b28a947559a9ad1ac
+
+Blob de lexicons/bdag.js:
+908985bd5adec684439d934b61a0992332c5a651
+
+Blob de index.html:
+cd426250786c88765a86b59ffeded1fcd9284201
+
+Blob de script.js:
+afb47ba66356f6a268a3e63b13d4c3f0c30f048b
+
+Blob de style.css:
+5a24cbcf631d65b7a110b7a093ac151f55d074c1
+
+Último lema incorporado: ἀναπαύω
+Próximo lema confirmado na fonte: ἀναπείθω
+Total LEH: 630 search-row e 630 entry-card.
+
+Auditoria global então confirmada:
+index.html: 22 linhas / 22 cartões.
+lexicons/bdag.js: 451 linhas / 451 cartões.
+lexicons/leh.js: 630 linhas / 630 cartões.
+TOTAL: 1103 search-row e 1103 entry-card.
+
+IDs duplicados: 0.
+data-target duplicados: 0.
+Linhas órfãs: 0.
+Cartões órfãos: 0.
+Ocorrências de beta.perseus.tufts.edu: 0.
+
+O último commit de lote modificou apenas lexicons/leh.js:
+210 linhas adicionadas, nenhuma removida.
+
+O diretório regras não fazia parte desse marco histórico anterior.
+A criação inicial deste documento e sua transferência para regras são
+alterações administrativas posteriores, sem acréscimo de verbetes LEH. Portanto, não tratar todo commit posterior como
+um lote lexicográfico concluído.
+
+================================================================================
+6. CONCORRÊNCIA: HEAD REAL SEMPRE PREVALECE
+================================================================================
+
+Para CADA lote:
+1. Ler a branch chat-gpt-leh e capturar o commit real.
+2. Guardar como EXPECTED_HEAD.
+3. Guardar o tree SHA desse mesmo commit.
+4. Buscar lexicons/leh.js dessa exata revisão.
+5. Guardar seu blob SHA.
+6. Buscar regras/Rleh.txt dessa exata revisão.
+7. Guardar seu blob SHA.
+8. Guardar também os blobs dos arquivos compartilhados protegidos.
+9. Contar linhas/cartões LEH.
+10. Localizar o último lema e sua posição.
+11. Verificar se algum lote antecipado já foi incorporado.
+12. Descobrir o primeiro lema efetivamente ausente.
+
+Se o HEAD mudou em relação ao histórico:
+- NÃO sobrescrever;
+- NÃO reverter;
+- NÃO reconstruir de um arquivo antigo;
+- NÃO usar force;
+- NÃO duplicar o último lote;
+- reconciliar a continuação a partir do HEAD REAL.
+
+Lição histórica em 08/10/2026:
+O documento anterior indicava 590 verbetes, último ἀνακράζω e próximo
+ἀνακρίνω. O GitHub já possuía 610 verbetes, incluindo ἀνακρίνω até
+ἀναμένω. Foi correto iniciar o novo lote em ἀναμίγνυμι. Os dados históricos
+não poderiam ser usados para apagar ou repetir esse trabalho.
+
+Antes de gravar, consultar novamente o HEAD.
+Se HEAD != EXPECTED_HEAD, interromper e reconciliar.
+O commit novo deve ter parent=EXPECTED_HEAD.
+Atualizar a referência da branch com force=false e expected_sha=EXPECTED_HEAD
+ou proteção equivalente. Nunca executar force push.
+Se falhar a atualização, não alegar que a branch foi atualizada.
+
+================================================================================
+7. TAMANHO E DELIMITAÇÃO DOS LOTES
+================================================================================
+
+Padrão atual: EXATAMENTE 20 VERBETES CONSECUTIVOS do LEH por lote.
+
+Não executar dois lotes na mesma resposta.
+Não deduzir a sequência apenas pela ordenação alfabética.
+Confirmar diretamente na fonte o 1º, todos os 20 e também o 21º lema.
+Não saltar entradas pequenas, variantes ou entradas remissivas.
+Não criar verbetes que a fonte não apresente como entradas independentes.
+Se restarem menos de 20 entradas ao fim do trecho ou seção, avaliar a
+exceção explicitamente, sem completar a contagem artificialmente.
+
+Etapas:
+A. Confirmar HEAD e último lema.
+B. Localizar primeiro lema ausente no PDF LEH.
+C. Confirmar 20 lemas consecutivos e o 21º como próximo marco.
+D. Extrair e traduzir os 20 verbetes.
+E. Verificar bibliografia e HTML.
+F. Auditar fonte e estrutura.
+G. Gravar UM commit de lote.
+H. Confirmar branch e arquivo.
+I. Atualizar o checkpoint de regras/Rleh.txt no mesmo commit quando necessário.
+J. Informar SHA final e próximo lema, então parar.
+
+================================================================================
+8. O QUE PRESERVAR DE CADA VERBETE
+================================================================================
+
+Não truncar.
+Não resumir excessivamente.
+Não apagar detalhes por parecerem secundários.
+
+Preservar:
+- lema exato, acentuação, espíritos, subscritos e variantes;
+- paradigma e terminações;
+- código morfológico original;
+- estatística de frequência original;
+- marca +;
+- sentidos e subsentidos distintos;
+- restrições e nuances semânticas;
+- regências e construções em grego;
+- voz ativa, média e passiva (A/M/P);
+- exemplos e expressões em grego;
+- traduções de exemplos;
+- referências bíblicas completas;
+- versões e recensões;
+- hebraico/aramaico;
+- notas textuais e de tradução;
+- símbolos e sinais editoriais;
+- remissões;
+- referências de bibliografia;
+- notas semíticas e etimológicas que o próprio LEH contenha;
+- incertezas, conjecturas e alternativas.
+
+Sinais a manter quando ocorrerem:
+*, ◊, +, sic, corr., corr.?, cpr., cf., neol., neol.?, →.
+Não converter neol.? em neol.
+Não converter corr.? em corr.
+Não transformar dúvida em leitura definitiva.
+
+================================================================================
+9. MORFOLOGIA, FREQUÊNCIA E O SINAL +
+================================================================================
+
+O LEH usa códigos como:
+V, A, D, N1F, N2M, N3F, N3N, entre outros.
+
+Manter o código exatamente como na fonte.
+No cartão, pode haver indicação portuguesa acompanhada do código:
+verbo (V)
+adjetivo (A)
+advérbio (D)
+substantivo feminino da 3ª declinação (N3F)
+substantivo neutro da 3ª declinação (N3N)
+
+Não inventar gênero ou classe.
+Não reconstruir um paradigma ausente.
+Não substituir os códigos por classificação de outro léxico.
+
+Conservar as séries numéricas de frequência, por exemplo:
+0-0-3-6-0=9
+
+Não recalcular com outro corpus, outra LXX ou dados externos.
+A marca + deve permanecer apenas quando a fonte a apresenta.
+No modelo atual, o cartão identifica + com indicação de uso também no NT.
+
+================================================================================
+10. VOZ VERBAL E REGÊNCIAS
+================================================================================
+
+Manter explicitamente A, M, P quando o LEH distingui-las:
+A = ativa;
+M = média;
+P = passiva.
+
+Não fundir glosas de diferentes vozes.
+Não atribuir à ativa o sentido exclusivo da média.
+Não inferir voz não informada.
+
+Preservar precisamente, quando constarem:
+[τι], [τινα], [τινι], [τινος], [εἴς τι], [ἐπί τι],
+[ἐπί τινι], [ἀπό τινος], [μετά τινος], [πρός τινα],
+[+ inf.], [abs.].
+
+A lista é exemplificativa; conferir a fonte para cada entrada.
+Não substituir silenciosamente a preposição ou o caso.
+Preservar o grego e os colchetes.
+Expressões gregas citadas devem acompanhar a tradução portuguesa.
+
+================================================================================
+11. TRADUÇÃO PARA PORTUGUÊS
+================================================================================
+
+Português brasileiro culto, claro, natural e filologicamente fiel.
+Não produzir tradução excessivamente abreviada.
+Não reduzir vários equivalentes ingleses distintos a um só quando perder
+nuances importantes.
+
+Exemplo de integridade:
+"to be taken, to be conquered, to fall into an enemy's hand"
+→ "ser tomado, ser conquistado, cair nas mãos do inimigo".
+
+"thoughtless, unreasonable, irrational"
+→ preservar irreflexão, falta de razoabilidade e irracionalidade.
+
+Conservar alternativas de glosa.
+Conservar preferência ou hesitação do LEH.
+Não transformar significados inesperados em uma glosa comum supostamente
+mais elegante.
+Não introduzir interpretação teológica externa.
+
+================================================================================
+12. HEBRAICO, ARAMAICO, RTL E OCR
+================================================================================
+
+A extração de PDF pode inverter ou embaralhar:
+a ordem dos caracteres semíticos;
+diacríticos;
+parênteses;
+associação de palavras e glosas;
+sinais ◊ e equivalências com MT;
+segmentação de palavras.
+
+PROIBIDO reconstruir livremente por memória ou por outra Bíblia.
+Não corrigir pelo Texto Massorético por iniciativa própria.
+Consultar a imagem da página original do LEH quando possível.
+Se a imagem não estiver acessível, registrar a insuficiência de confirmação.
+
+Padrão HTML:
+<bdi class="hebrew" lang="he" dir="rtl">...</bdi>
+
+O atributo dir="rtl" não corrige caracteres extraídos na ordem errada.
+Se uma forma continuar incerta, manter a dúvida explícita.
+Não converter extração duvidosa em texto definitivo.
+
+Histórico relevante do último lote:
+- ἀνάπαυσις: Jó 7,18, εἰς ἀνάπαυσιν, nota *, ◊,
+  contraposição ao MT e segmento hebraico com RTL incerto.
+- ἀναπαύω: JgsA 4,11 e Prv 21,20; duas notas textuais com *,
+  hebraico e distinções MT, com ressalva na primeira.
+As transcrições desses pontos foram incorporadas com observações de
+incerteza. Isso não equivale a validação textual definitiva. Se mais tarde
+a leitura da imagem permitir correção segura, registrar correção em commit
+próprio, sem inventar o que não se confirmou.
+
+================================================================================
+13. TRADIÇÕES TEXTUAIS E NUMERAÇÕES
+================================================================================
+
+Distinguir LXX, Teodocião, MT e demais tradições citadas.
+Preservar formas como:
+SusLXX / SusTh;
+JgsA / JgsB;
+TobS;
+DnLXX;
+Ps 72(73),4;
+Jer 27(50),27.
+
+Não equiparar automaticamente numerações diversas.
+Não suprimir letras de recensão.
+Não substituir a referência do LEH para adaptá-la a uma URL moderna.
+Não confundir variante textual com sentido novo.
+
+================================================================================
+14. LINKS BÍBLICOS
+================================================================================
+
+Quando a URL puder ser confirmada com segurança, usar a Deutsche
+Bibelgesellschaft para a Septuaginta:
+https://www.die-bibel.de/en/bible/LXX/...
+
+NÃO usar NA28 para links LEH.
+NÃO usar beta.perseus.tufts.edu.
+
+Se recensão, livro, numeração, subversículo ou código de URL não estiver
+claro, deixar a referência em texto sem link. Nunca inventar endereço.
+É melhor uma referência íntegra sem link do que um link errado.
+
+================================================================================
+15. BIBLIOGRAFIA E POPUPS
+================================================================================
+
+bibliographicTerms está em window.ScripturaLexicons.LEH.
+Antes de criar popup:
+1. verificar existência da chave em lexicons/leh.js;
+2. conferir grafia;
+3. localizar expansão na bibliografia geral do LEH;
+4. confirmar autor, título, publicação, volume, ano, páginas;
+5. distinguir publicação original e reimpressão;
+6. criar somente quando a expansão for segura.
+
+Não duplicar.
+Não inventar siglas ou expansões.
+Se não for confirmável, preservar referência textual sem popup novo.
+Não modificar bibliographicTerms sem relação com o lote.
+
+Registros já presentes no marco de 630 verbetes incluem:
+HELBING 1928
+CAIRD 1968b=1972
+DANIEL, S. 1966
+HORSLEY 1983
+SHIPP 1979
+LE BOULLUEC 1989
+WEVERS 1990
+WALTERS 1973
+NIDNTT
+TWNT
+
+Quatro popups acrescentados no último lote, identificados diretamente
+na bibliografia geral do LEH:
+
+KILPATRICK 1975:
+G. D. Kilpatrick, "Anamnesis", Liturgical Review 5 (1975), pp. 35–40.
+
+JONES, D. 1955:
+D. Jones, "Ἀνάμνησις in the LXX and the Interpretation of I Cor. XI. 25",
+JTS 6 (1955), pp. 183–191.
+
+HARLE 1988:
+P. Harlé e D. Pralon, La Bible d'Alexandrie III. Le Lévitique,
+Paris, 1988.
+
+HELBING 1907:
+R. Helbing, Grammatik der Septuaginta. Laut- und Wortlehre,
+Göttingen, 1907.
+
+Não duplicar esses quatro registros.
+A lista de chaves acima não é exaustiva; consultar o arquivo de fato.
+
+================================================================================
+16. ESTRUTURA DE lexicons/leh.js
+================================================================================
+
+Objeto:
+window.ScripturaLexicons.LEH
+
+Campos históricos:
+source
+searchAnchorId
+entryAnchorId
+bibliographicTerms
+rowsHtml
+cardsHtml
+
+Não alterar nomes de propriedades nem arquitetura.
+Não mover conteúdo para outro arquivo durante os lotes.
+Examinar e repetir o padrão dos verbetes existentes.
+
+Cada verbete gera exatamente:
+1 search-row;
+1 entry-card.
+
+Linha:
+<tr class="search-row"
+    data-dictionary="grego"
+    data-target="entry-...-leh"
+    data-source="LEH"
+    data-search="..."
+    tabindex="0">
+
+Cartão:
+<article id="entry-...-leh"
+         class="entry-card"
+         data-dictionary="grego"
+         data-source="LEH"
+         hidden>
+
+O id do cartão deve corresponder EXATAMENTE ao data-target.
+Todos os IDs novos terminam em -leh.
+
+Campos da tabela:
+lema;
+classe gramatical;
+glossas principais em português;
+source-pill LEH;
+data-search útil e sustentado pela fonte.
+
+O data-search pode conter lema, transliteração, classe, glossas,
+referências relevantes e bibliografia, mas não sentidos inventados.
+
+No entry-card preservar, conforme o padrão existente:
+entry-header, entry-title, entry-meta, source-tag, entry-divider,
+entry-section, section-title, entry-text, greek, greek-term,
+tooltip-trigger, separator.
+
+Preservar paradigma, transliteração, código, frequência, marca +,
+tradução, sentidos, exemplos, notas, remissões, referências e bibliografia.
+Não truncar cartões longos para adaptá-los à apresentação de cartões curtos.
+
+================================================================================
+17. TRANSLITERAÇÃO
+================================================================================
+
+Seguir padrão consolidado do próprio lexicons/leh.js.
+Conferir especialmente eta, ômega, acentos, espíritos, ditongos e
+consoantes aspiradas.
+Não modificar lema para facilitar transliteração.
+Não copiar transliteração pronta de outro léxico quando não for adequada.
+Não inventar formas gregas.
+
+================================================================================
+18. AUDITORIA ESTRUTURAL PRÉ-COMMIT
+================================================================================
+
+Obrigatório:
++20 search-row LEH;
++20 entry-card LEH;
+20 lemas consecutivos, efetivamente confirmados no LEH;
+0 lemas omitidos;
+0 lemas extras;
+0 entradas duplicadas;
+data-target ↔ id 1:1;
+data-source="LEH";
+IDs novos terminando em -leh;
+0 IDs duplicados;
+0 data-target duplicados;
+0 linhas órfãs;
+0 cartões órfãos;
+0 novas ocorrências de beta.perseus.tufts.edu;
+0 bibliografias inventadas;
+0 expansões bibliográficas inseguras;
+nenhum verbete truncado;
+nenhum arquivo protegido modificado.
+
+A auditoria HTML DEVE SER INDEPENDENTE DA ORDEM DOS ATRIBUTOS.
+Não depender de regex que só localize "class" antes de "data-target".
+Usar parser HTML ou reconhecimento de tag seguido de extração dos
+atributos, independentemente da ordem.
+
+Conferir também o número de </article> e, quando útil, a sintaxe JS.
+Testar invariantes específicos em verbetes longos.
+
+================================================================================
+19. AUDITORIA GLOBAL
+================================================================================
+
+Auditar conjuntamente:
+index.html
+lexicons/bdag.js
+lexicons/leh.js
+
+Apurar separadamente e no total:
+search-row;
+entry-card;
+id;
+data-target;
+duplicidades;
+linhas órfãs;
+cartões órfãos;
+beta.perseus.tufts.edu.
+
+Também comparar contra os blobs do HEAD INICIAL REAL:
+lexicons/bdag.js;
+index.html;
+script.js;
+style.css.
+
+A existência de regras/Rleh.txt não é um verbete e não entra na contagem.
+regras/Rleh.txt é o único arquivo extra expressamente permitido no escopo
+documental dos lotes LEH.
+
+================================================================================
+20. AUDITORIA FILOLÓGICA
+================================================================================
+
+Conferir novamente os 20 verbetes contra o PDF, depois de estruturar o HTML.
+Pesquisar especialmente:
+- sentidos/subsentidos;
+- todas as regências e A/M/P;
+- frases gregas e traduções;
+- todas as referências e recensões;
+- notas * e ◊;
+- marcas neol., neol.?, corr., corr.?;
+- hipóteses e alternativas;
+- hebraico, aramaico, RTL;
+- cf. e remissões;
+- bibliografia e páginas.
+
+Se um verbete possuir três vozes, afirmar e testar que as três estão presentes.
+Se houver duas notas com *, preservar as duas.
+Se houver regências diferentes, não fundir.
+Se houver dúvida no LEH, não apagar o ponto de interrogação.
+Verificar acentos e espíritos; não fazer normalização cega.
+
+================================================================================
+21. PREPARAÇÃO, COMMIT ÚNICO E LEASE
+================================================================================
+
+Fluxo:
+1. Consultar HEAD e armazenar EXPECTED_HEAD.
+2. Obter árvore e blobs atuais.
+3. Ler este Rleh, LEH JS e PDF fonte.
+4. Preparar exatamente 20 verbetes.
+5. Atualizar Rleh se necessário para refletir novo último lema, próxima
+   entrada, bibliografia nova e ressalvas relevantes.
+6. Auditar filológica e estruturalmente.
+7. Auditar globalmente.
+8. Verificar que o diff contenha somente lexicons/leh.js e, quando
+   necessário, regras/Rleh.txt.
+9. Consultar HEAD NOVAMENTE.
+10. Se HEAD != EXPECTED_HEAD: NÃO escrever; reconciliar.
+11. Criar blobs e árvore em cima da árvore de EXPECTED_HEAD.
+12. Criar UM commit para o lote, com parent=EXPECTED_HEAD.
+13. Reconsultar HEAD.
+14. Mover branch apenas com force=false e expected_sha=EXPECTED_HEAD.
+15. Confirmar sucesso.
+16. Fazer auditoria pós-commit e comparar SHA.
+
+Mensagem preferida:
+Adicionar lote de 20 verbetes do LEH: LEMA_INICIAL → LEMA_FINAL
+
+Corpo:
+lista dos 20 lemas;
+decisões e incertezas filológicas;
+popups bibliográficos;
+contagem LEH antes/depois;
+auditoria global;
+arquivos intocados;
+atualização Rleh, se houver;
+próximo lema.
+
+A atualização do checkpoint Rleh junto ao lote NÃO deve exigir um commit
+adicional. Não tentar inserir o SHA final desconhecido dentro do mesmo
+conteúdo que gera esse SHA; consultar HEAD após a gravação.
+
+================================================================================
+22. VERIFICAÇÃO PÓS-COMMIT
+================================================================================
+
+Confirmar:
+HEAD remoto igual ao SHA do commit criado;
+lexicons/leh.js lido novamente do HEAD;
+regras/Rleh.txt, se modificado, lido novamente;
++20 linhas e +20 cartões realmente presentes;
+últimos 20 lemas iguais à sequência LEH;
+21º lema como próxima entrada;
+0 duplicidades e órfãos;
+0 beta.perseus.tufts.edu;
+diff apenas em caminhos permitidos;
+blobs de BDAG e arquivos protegidos inalterados;
+auditoria global atualizada.
+
+Se algo falhar, relatar, não mascarar.
+Não executar lote adicional para ocultar erro.
+Correções retroativas exigem ação explicitamente delimitada.
+
+================================================================================
+23. HISTÓRICO DE LOTES NO REPOSITÓRIO
+================================================================================
+
+Preparação do paralelismo:
+115a1ab852adaef54de1a1224125ebaf392c0965
+"Preparar desenvolvimento paralelo de BDAG e LEH"
+
+Primeiro lote:
+5a2fc8dd9b0b5ecd0f8df822989d30534a5b0aab
+"Adicionar lote de 10 verbetes do LEH: ἆ → αβιρα"
+
+Revisão do primeiro lote:
+9cb9c55b6989253f3169ec02a7e5a411ce62b030
+"Revisar primeiro lote do LEH: referências e popups"
+
+Fase de lotes de 10 verbetes, na ordem histórica:
+ἀβλαβής → ἀγαθοποιέω
+ἀγαθοποιός → ἀγαλλίασις
+ἄγαλμα → ἀγαυριάομαι
+ἀγγεῖον → ἀγεληδόν
+ἀγερωχία → ἁγιωσύνη
+ἀγκάλη → ἁγνίζω
+ἅγνισμα → ἄγνωστος
+ἄγονος → ἀγριομυρίκη
+ἀγριόομαι → ἀγυιά
+ἀγχιστεία → ἀγωνιάω
+ἀγωνίζομαι → ἀδελφικῶς
+ἀδελφοκτόνος → ἀδιάλυτος
+ἀδιάπτωτος → ἀδόκητος
+ἀδόκιμος → ἁδρύνομαι
+ἀδυναμέω → ἀεί
+ἀέναος → ἀθεσία
+ἄθεσμος → ἀθλοθετέω
+ἄθλον → ἀθῷος
+ἀθῳόω → αἰδοῖον
+αἰδώς → αιλαμμω
+αιλευ → αἴνεσις
+αἰνετός → αἱρετίζω
+αἰρετίς → αἰσχρῶς
+αἰσχύνη → αἰφνίδιος
+αἰφνιδίως → ἀκάθαρτος
+ἄκαιρος → ἀκάρδιος
+ἀκαριαῖος → ἀκαταστασία
+ἀκαταστατέω → ἀκιδωτός
+ἀκινάκης → ἀκμαῖος
+ἀκμή → ἀκόλουθος
+ἀκολούθως → ἀκουσίως
+ἀκουστής → ἀκριβασμός
+ἀκρίβεια → ἀκροατής
+ἀκροβυστία → ἀκτίς
+ἀκύματος → αλαιμωθ
+ἀλαλαγμός → ἄλγος
+
+A partir de então, lotes de 20 verbetes:
+ἁλεεύς → ἁλίζω
+  4e0e2cabe3dac50dbb68f4aba1fdd6332ee43a2e
+ἅλιμος → ἅλλομαι
+  6ac1415c88cc4db347887448b82ff59a9208eb63
+ἄλλος → ἀλόγιστος
+  affbc5dbb5344fc4a8d891986ce4e78a067736b6
+ἀλογίστως → αμαδαρωθ
+  bb46542ee110ceb59f57b45e187f4d70f98bf906
+ἀμαθία → ἀμέθυστος
+  fb52889a19154f228e4b9fc2f0bf4fe09224159e
+ἀμείδητος → ἀμνάς
+  681b755044f253ba514ff3beff47c78ffd6fc371
+ἀμνημονέω → ἀμφιάζω
+  ead84a340d39435c657c8f253fa7d2f117aa9331
+ἀμφίασις → ἀναβάτης
+  891ef656c94d91215fa9cc46ff36da51bdaa8633
+ἀναβιβάζω → ἀναγράφω
+  03d0c45235c42f55bb2c28340a282955673f2673
+ἀνάγω → ἀναιδής
+  0ffcb3a714fd444015ceb0cf03af55abac5a594b
+ἀναιδῶς → ἀνακράζω
+  ee573ac04da24045904e271991ad3d869402be0f
+ἀνακρίνω → ἀναμένω
+  35b5110d2f7462b7224d9092e0a126c1467fbc89
+ἀναμίγνυμι → ἀναπαύω
+  0de9e34683b4b7f9ab162805a62b3f4c8dad94af
+
+Commit visual legítimo entre os dois últimos lotes:
+99cb56c377a2f8f428b0b65fcf80fced99d853a4
+"Sincronizar paleta de fontes e seletor visual com chat-gpt-commits"
+Não reverter essas modificações.
+
+As faixas históricas são marcos de lotes, não substituem uma auditoria
+independente da sequência do LEH e do conteúdo atual da branch.
+
+================================================================================
+24. LOTE MAIS RECENTE CONCLUÍDO: OS 20 LEMAS
+================================================================================
+
+1. ἀναμίγνυμι
+2. ἀναμιμνῄσκω
+3. ἀνάμνησις
+4. ἀναμοχλεύω
+5. ἀναμφισβητήτως
+6. ἄνανδρος
+7. ἀνανεάζω
+8. ἀνανεόω
+9. ἀνάνευσις
+10. ἀνανεύω
+11. ἀνανέωσις
+12. ἀναντλέω
+13. ἀναξηραίνω
+14. ἀνάξιος
+15. ἄναξις
+16. ἀναξίως
+17. ἀνάπαλιν
+18. ἀνάπαυμα
+19. ἀνάπαυσις
+20. ἀναπαύω
+
+Principais decisões:
+ἀναμίγνυμι: distinguir A/P e as regências.
+ἀναμιμνῄσκω: A/P, memorização/proclamação, expressão do cronista.
+ἀνάμνησις: recordação/reminiscência; bibliografia específica.
+ἀνανεόω: distinguir A/M.
+ἀνάνευσις: manter neol.?.
+ἀνάπαυσις: repouso, lugar, terra em pousio, sábado; nota de Jó 7,18.
+ἀναπαύω: A/M/P; notas JgsA 4,11 e Prv 21,20; hebraico incerto.
+
+Popups novos confirmados:
+KILPATRICK 1975
+JONES, D. 1955
+HARLE 1988
+HELBING 1907
+
+Contagens: 610 → 630 LEH.
+Contagens globais: 1083 → 1103.
+Auditoria de 08/10/2026: nenhuma duplicidade, nenhum órfão, nenhum
+beta.perseus.tufts.edu.
+Único arquivo modificado no commit do lote: lexicons/leh.js.
+
+================================================================================
+25. PRÓXIMO LOTE PLANEJADO: CONFERIR NOVAMENTE NA FONTE
+================================================================================
+
+Se o último lema real ainda for ἀναπαύω, os próximos 20 verbetes
+identificados no LEH são:
+
+1. ἀναπείθω
+2. ἀνάπειρος
+3. ἀναπείρω
+4. ἀναπετάννυμι
+5. ἀναπηδάω
+6. ἀναπηδύω
+7. ἀναπίπτω
+8. ἀναπλάσσομαι
+9. ἀναπληρόω
+10. ἀναπλήρωσις
+11. ἀναπνέω
+12. ἀναποδίζω
+13. ἀναποδισμός
+14. ἀναποιέω
+15. ἀναπτερόω
+16. ἀναπτέρωσις
+17. ἀναπτύσσω
+18. ἀνάπτω
+19. ἀναρίθμητος
+20. ἀναρπάζω
+
+21º lema (ponto de continuação posterior):
+ἀναρρήγνυμι
+
+Conferir esta ordem no recorte ἁλεεύς–ἄωρος.pdf, aproximadamente
+páginas 34–36. NÃO presumir que o lote continua pendente se o HEAD
+mais recente já o tiver incorporado. O 21º lema não deve entrar no lote
+de 20.
+
+Notas filológicas preliminares, sujeitas à releitura direta do LEH:
+
+ἀναπείθω: +; persuadir/convencer de modo enganoso; [τινα].
+ἀνάπειρος: +; mutilado, estropiado.
+ἀναπείρω: perfurar, atravessar com perfuração.
+ἀναπετάννυμι: +; estender/desdobrar, de asas.
+ἀναπηδάω: +; erguer-se/saltar; [abs.], [ἀπό τινος].
+ἀναπηδύω: brotar/jorrar, de água.
+ἀναπίπτω: +; cair para trás, sentar-se, deitar-se, reclinar-se.
+ἀναπλάσσομαι: +; M, moldar/modelar [τι].
+ἀναπληρόω: +; A/P; preencher, completar tempo, terminar trabalho.
+ἀναπλήρωσις: cumprimento.
+ἀναπνέω: +; recobrar o fôlego, recuperar-se.
+ἀναποδίζω: retroceder, retornar.
+ἀναποδισμός: retorno; neol.
+ἀναποιέω: preparar.
+ἀναπτερόω: A excitar; P ser caprichoso/volúvel/inconstante.
+ἀναπτέρωσις: clamor; expressão λόγοι ἀναπτερώσεως.
+ἀναπτύσσω: +; A/P, desdobrar/abrir; uso sobre portas.
+ἀνάπτω: +; A/P, acender, incendiar, ser aceso, ser devastado.
+ἀναρίθμητος: +; incontável, inumerável, incomensurável.
+ἀναρπάζω: +; arrebatar, roubar.
+
+NÃO transpor as notas resumidas acima como substituto dos verbetes.
+Consultar os 20 verbetes integrais diretamente no LEH.
+
+================================================================================
+26. COMO ATUALIZAR O CHECKPOINT Rleh
+================================================================================
+
+regras/Rleh.txt permanece como protocolo de referência, mas pode receber
+um bloco de checkpoint atualizado quando um lote for concluído.
+
+Manter sempre:
+- última contagem LEH efetivamente auditada;
+- último lema incorporado;
+- primeiro lema pendente;
+- faixa do lote mais recente;
+- notas sobre bibliografia e dúvidas;
+- blobs de arquivos protegidos apenas quando verificados;
+- registro de concorrência e alterações legítimas;
+- eventuais mudanças expressas de regras.
+
+Caso haja lote novo:
+- atualizar o checkpoint para o estado resultante;
+- incluir novo lote no histórico resumido;
+- preservar todo o protocolo;
+- fazer essa atualização junto ao commit lexical, quando possível;
+- depois consultar o SHA final real na branch.
+
+Não inserir dados provisórios como se já estivessem confirmados.
+Não apagar decisões filológicas antigas relevantes.
+Não repetir indefinidamente grandes históricos se puderem ser resumidos
+sem perda essencial; manter dados de auditoria necessários.
+
+A convenção de UM commit por lote continua válida.
+Commits exclusivamente administrativos, como esta criação inicial de
+regras/Rleh.txt, não contam como lotes de 20 verbetes.
+
+================================================================================
+27. MODELO DE RESPOSTA FINAL APÓS CADA LOTE
+================================================================================
+
+Informar com dados de fato verificados:
+Fonte LEH.
+Branch.
+HEAD inicial.
+Último lema anterior.
+Faixa dos 20 lemas e sua lista.
+Pontos filológicos.
+Incertezas.
+Popups acrescentados.
+Contagem LEH antes/depois.
+Auditoria global.
+Arquivos preservados.
+Atualização do Rleh.
+SHA do commit.
+HEAD final efetivamente confirmado.
+Próximo lema (21º).
+
+Não declarar commit concluído antes de o HEAD remoto confirmar.
+Se houver falha, dizer explicitamente o que falhou.
+Não executar dois lotes em uma única resposta.
+
+================================================================================
+28. REGRAS ABSOLUTAS: NÃO INVENTAR
+================================================================================
+
+Nunca inventar:
+lema, grafia, acento, espírito, flexão, transliteração,
+código gramatical, frequência, marca +, significado, subsentido,
+regência, voz, expressão grega, referência bíblica, recensão,
+leitura textual, hebraico, aramaico, variante, conjectura,
+sigla, autor, título, volume, ano, página ou URL.
+
+Não normalizar automaticamente.
+Não completar lacunas por intuição.
+Não transformar hipótese em fato.
+Não trocar conteúdo LEH por BDAG.
+Não abreviar verbetes longos omitindo material da fonte.
+Não pular lemas.
+Não modificar outros arquivos.
+Não usar force push.
+
+================================================================================
+29. PRINCÍPIO DE PREVALÊNCIA
+================================================================================
+
+EM CONFLITO ENTRE ESTE DOCUMENTO E O HEAD DO GITHUB:
+PREVALECE O ESTADO REAL DO GITHUB, DEPOIS DE VERIFICADO.
+
+O arquivo Rleh serve para conservar instruções, decisões e checkpoints.
+O código do repositório é a evidência do que já está incorporado.
+O PDF do LEH é a evidência do conteúdo lexical.
+Não sobrepor um desses três planos indevidamente.
+
+Rleh deve ser lido sempre que o usuário disser:
+Continue o processo (LEH).
+
+
+================================================================================
+26. NOVO LOTE DE 08/10/2026
+================================================================================
+HEAD inicial: 9d82ba1a8e8979c80b1bf6c180517b9e498e987b.
+Lote de vinte lemas consecutivos: ἀναπείθω; ἀνάπειρος; ἀναπείρω; ἀναπετάννυμι; ἀναπηδάω; ἀναπηδύω; ἀναπίπτω; ἀναπλάσσομαι; ἀναπληρόω; ἀναπλήρωσις; ἀναπνέω; ἀναποδίζω; ἀναποδισμός; ἀναποιέω; ἀναπτερόω; ἀναπτέρωσις; ἀναπτύσσω; ἀνάπτω; ἀναρίθμητος; ἀναρπάζω.
+Faixa: ἀναπείθω → ἀναρπάζω. Próximo: ἀναρρήγνυμι.
+Contagem prevista: 630 → 650 linhas e cartões LEH; 650 pares exatos de IDs e targets, sem colisões.
+Conservar em ἀναπληρόω, ἀναπτερόω, ἀναπτύσσω e ἀνάπτω as vozes A/P, a marca + quando presente e as regências originais; ἀναποδισμός preserva neol. Os caracteres gregos foram conservados; nenhuma referência bíblica foi convertida em link sem validação.
+Arquivos alterados previstos: lexicons/leh.js e regras/Rleh.txt; sem popups novos. Consultar HEAD remoto para obter SHA do commit final.
+
+FIM DO REGISTRO PERMANENTE Rleh.
