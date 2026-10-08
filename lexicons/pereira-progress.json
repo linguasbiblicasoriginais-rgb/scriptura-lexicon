@@ -6,9 +6,9 @@
   "source_policy": "usar exclusivamente o conteúdo fornecido pela aplicação pública dicionariogrego.com e por sua API pública",
   "scope": {
     "initial_letter": "α",
-    "batch_size": 20,
-    "next_ordinal": 61,
-    "status": "lote 3 concluído"
+    "batch_size": 50,
+    "next_ordinal": 111,
+    "status": "lote 4 concluído"
   },
   "batches": [
     {
@@ -43,13 +43,24 @@
       "start_source_id": 30740,
       "end_source_id": 30758,
       "status": "concluído"
+    },
+    {
+      "batch": 4,
+      "start_ordinal": 61,
+      "end_ordinal": 110,
+      "start_entry": "Ἁβρότιμος, ον",
+      "end_entry": "Ἀγαπητῶς",
+      "entry_count": 50,
+      "start_source_id": 30759,
+      "end_source_id": 30804,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 61,
-    "source_id": 30759,
-    "searchable": "αβροτιμος",
-    "lemma": "Ἁβρότιμος, ον"
+    "ordinal": 111,
+    "source_id": 30818,
+    "searchable": "αγαρος",
+    "lemma": "Ἄγαρος, ον"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
