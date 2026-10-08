@@ -2527,3 +2527,73 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 53 — registros 1281–1330
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1281,"ἀκεστικός, ή, όν","1 próprio para curar ou remediar ♦ ἡ ἀκεστική [τέχνη] 2 o ofício de remendão. 〈ἀκέομαι〉","curativo; arte de remendão"],
+        [1282,"ἀκεστός, ή, όν","curável. 〈ἀκέομαι〉","curável"],
+        [1283,"ἀκέστρα, ας (ἡ)","agulha para remendar. 〈ἀκέομαι〉","agulha de remendar"],
+        [1284,"ἀκέστρια, ας (ἡ)","costureira; remendeira. 〈ἀκέομαι〉","costureira; remendeira"],
+        [1285,"ἀκέφαλος, ος, ον","1 sem cabeça 2 sem começo, incompleto 3 Métr. acéfalo, verso com o primeiro pé incompleto 4 privado dos direitos civis; rebaixado. 〈ἀ-, κεφαλή〉","sem cabeça; incompleto; acéfalo"],
+        [1286,"ἀκέω1","freq. ἀκέομαι-οῦμαι (fut. ἀκέσομαι, át. ἀκοῦμαι, aor. ἠκεσάμην, perf. ἤκεσμαι e ἀκήκεσμαι) 1 cuidar de; curar, ac. 2 consertar 3 reparar (um dano); socorrer.","curar; reparar; socorrer"],
+        [1287,"ἀκέω2","estar em silêncio; ficar silencioso; ἀκέων silenciosamente; em silêncio.","ficar em silêncio"],
+        [1288,"ἀκήδεστος, ος, ον","1 negligenciado 2 sem as honras da sepultura; insepulto. 〈ἀ-, κήδομαι〉","negligenciado; insepulto"],
+        [1289,"ἀκηδέστως","adv. sem cuidado; sem piedade.","sem cuidado; sem piedade"],
+        [1290,"ἀκήδευτος, ος, ον","insepulto. 〈ἀ-, κηδεύω〉","insepulto"],
+        [1291,"ἀκηδέω-ῶ","negligenciar; não cuidar de, gen. 〈ἀκηδής〉","negligenciar"],
+        [1292,"ἀκηδής, ής, ές","1 sem preocupação ou temor; negligente; que não cuida de, gen. 2 negligenciado 3 privado de sepultura. 〈ἀ-, κῆδος〉","negligente; insepulto"],
+        [1293,"ἀκήκοα","cf. ἀκούω.","cf. ἀκούω"],
+        [1294,"ἀκηκόειν","m.-q.-perf. jôn. de ἀκούω.","mais-que-perfeito jônico de ἀκούω"],
+        [1295,"ἀκήλητος, ος, ον","1 que não se deixa seduzir ou convencer 2 que não se consegue encantar; intratável. 〈ἀ-, κηλέω〉","não seduzível; intratável"],
+        [1296,"ἄκημα, ατος (τό)","cura; alívio. 〈ἀκέομαι〉","cura; alívio"],
+        [1297,"ἀκήν","adv. tranqüilamente; em silêncio.","em silêncio"],
+        [1298,"ἀκηράσιος, ος, ον","1 intacto; fresco, em pleno vigor 2 pu­ro; sem mistura. 〈ἀ-, κεράννυμι〉","intacto; puro"],
+        [1299,"ἀκήρατος, ος, ον","ἀκηράσιος.","ἀκηράσιος"],
+        [1300,"ἀκήριος, ος, ον1","1 imortal; indestrutível; intacto 2 que não causa a morte; inofensivo. 〈ἀ-, κήρ〉","imortal; inofensivo"],
+        [1301,"ἀκήριος, ος, ον2","1 sem vida; morto 2 desanimado; sem coragem; covarde. 〈ἀ-, κῆρ〉","sem vida; covarde"],
+        [1302,"ἀκηρυκτεί","e ἀκηρυκτί adv. sem a proclamação do arauto; sem proclamação. 〈ἀκήρυκτος〉","sem proclamação"],
+        [1303,"ἀκήρυκτος, ος, ον","1 não proclamado pelo arauto; não declarado 2 desconhecido; sem glória (pessoa) 3 rar. de que não se tem notícias 4 implacável (sentimento). 〈ἀ-, κηρύσσω〉","não proclamado; desconhecido; implacável"],
+        [1304,"ἀκηρύκτως","adv. sem arauto; sem proclamação.","sem proclamação"],
+        [1305,"ἀκηχέδαται, ἀκηχεμένος","cf. ἄχω.","cf. ἄχω"],
+        [1306,"ἀκίβδηλος, ος, ον","1 leal; honesto 2 não falsificado; genuíno. 〈ἀ-, κίβδηλος〉","honesto; genuíno"],
+        [1307,"ἀκιβδήλως","adv. sem falsificação.","sem falsificação"],
+        [1308,"ἀκιδνός, ή, όν","1 fraco; mesquinho 2 insípido.","fraco; mesquinho; insípido"],
+        [1309,"ἀκίθαρις, ις, ι","gen. ιος sem cítara. 〈ἀ-, κιθάρα〉","sem cítara"],
+        [1310,"ἄκικυς, υος","(masc., fem.) 1 sem força 2 que tira a força; enfraquecedor. 〈ἀ-, κίκυς〉","sem força; enfraquecedor"],
+        [1311,"ἀκινάκης, ου (ὁ)","punhal persa. [persa]","punhal persa"],
+        [1312,"ἀκίνδυνος, ος, ον","1 que não corre perigo; seguro 2 que não expõe a risco; garantido. 〈ἀ-, κίνδυνος〉","seguro; sem perigo"],
+        [1313,"ἀκινδύνως","adv. sem perigo.","sem perigo"],
+        [1314,"ἀκινησία, ας (ἡ)","1 ausência de movimento; imobilidade 2 pausa; parada. 〈ἀκίνητος〉","imobilidade; pausa"],
+        [1315,"ἀκίνητος, ος, ον","1 que não se move; inativo; preguiçoso 2 que não é movido por outrem; que não é removido ou transformado; estável 3 que não pode ser movido ou comovido; firme; obstinado 4 que não deve ser removido, tocado ou mencionado; inviolável. 〈ἀ-, κινέω〉","imóvel; estável; inviolável"],
+        [1316,"ἀκινήτως","adv. sem movimento ou sem emoção; imutavelmente; obstinadamente.","sem movimento; imutavelmente; obstinadamente"],
+        [1317,"ἀκίς, ίδος (ἡ)","1 ponta 2 lança; dardo; agulha; espinho; arpão; esporão de navios 3 aguilhão (de sentimento) 4 pl. sofrimentos atrozes; pontadas.","ponta; lança; agulha; espinho"],
+        [1318,"ἀκίχητος, ος, ον","1 que não se pode alcançar; inapreensível; inacessível 2 inexorável. 〈ἀ-, κιχάνω〉","inapreensível; inexorável"],
+        [1319,"ἀκκώ, οῦς (ἡ)","mulher velha de cara feia, espécie de bicho-papão; cuca.","velha feia; bicho-papão"],
+        [1320,"ἄκλαυστος, ος, ον","ἄκλαυτος.","ἄκλαυτος"],
+        [1321,"ἄκλαυτος, ος, ον","1 privado de lamento fúnebre; não chorado 2 que não chora; sem lágrimas. 〈ἀ-, κλαίω〉","não chorado; sem lágrimas"],
+        [1322,"ἀκλεής, ής, ές","1 sem fama; desconhecido; inglório 2 ignominioso. 〈ἀ-, κλέος〉","inglório; ignominioso"],
+        [1323,"ἄκλειστος, ος, ον","não fechado. 〈ἀ-, κλείω〉","não fechado"],
+        [1324,"ἀκλειῶς","ép. = ἀκλεῶς.","forma épica de ἀκλεῶς"],
+        [1325,"ἀκλεῶς","adv. sem glória.","sem glória"],
+        [1326,"ἀκληεῖς","nom. pl. de ἀκλεής.","nominativo plural de ἀκλεής"],
+        [1327,"ἄκληρος, ος, ον","1 que não participa da partilha da herança; pobre 2 não partilhado; sem dono; sem herdeiro. 〈ἀ-, κλῆρος〉","sem herança; pobre; sem dono"],
+        [1328,"ἀκλήρωτος, ος, ον","1 não contemplado na partilha; sem a sua parte de, gen. 2 sem partilha por sorteio. 〈ἀ-, κληρόω〉","sem parte; sem sorteio"],
+        [1329,"ἄκλῃστος","át. = ἄκλειστος.","forma ática de ἄκλειστος"],
+        [1330,"ἄκλητος, ος, ον","não chamado. 〈ἀ-, καλέω〉","não chamado"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
