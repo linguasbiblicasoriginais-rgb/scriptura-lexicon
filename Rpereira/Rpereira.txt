@@ -1,0 +1,1434 @@
+Rpereira
+
+PROMPT PERMANENTE DE CONTINUIDADE — PEREIRA / SCRIPTURA LEXICON
+
+Este arquivo é a referência operacional permanente da frente PEREIRA do projeto GDHAGP / Scriptura Lexicon.
+
+Ele deve ser mantido dentro da branch chat-gpt-pereira e atualizado sempre que o estado, o método, a sequência, as regras, a arquitetura ou as decisões relevantes desta frente mudarem.
+
+COMANDO DE ATIVAÇÃO
+
+Sempre que o usuário escrever exatamente ou de forma claramente equivalente:
+
+Continue o processo (PEREIRA).
+
+o assistente deve, ANTES de realizar qualquer trabalho lexicográfico:
+
+1. acessar este arquivo:
+   Rpereira/Rpereira.txt
+
+2. lê-lo como fonte de continuidade;
+
+3. consultar o estado real de:
+   main
+   chat-gpt-pereira
+
+4. ler:
+   lexicons/pereira.js
+   lexicons/pereira-progress.json
+
+5. confirmar o estado real do trabalho antes de inserir qualquer novo verbete;
+
+6. preservar qualquer trabalho posterior ao que estiver documentado aqui;
+
+7. atualizar este próprio arquivo no mesmo commit do lote sempre que houver:
+   novo lote;
+   mudança de batch_size;
+   mudança de método;
+   mudança de fonte;
+   alteração de arquitetura;
+   mudança de branch;
+   mudança de regra editorial;
+   mudança de regra de auditoria;
+   mudança do próximo lema;
+   correção relevante;
+   novo problema conhecido;
+   nova decisão de continuidade.
+
+Este arquivo deve funcionar como memória operacional persistente entre chats.
+
+======================================================================
+1. PRINCÍPIO DE PRECEDÊNCIA
+======================================================================
+
+Em caso de conflito entre:
+
+este arquivo
+
+e
+
+o estado real do GitHub,
+
+PREVALECE O ESTADO REAL DO GITHUB.
+
+Em caso de conflito entre:
+
+este arquivo
+
+e
+
+lexicons/pereira-progress.json,
+
+o assistente deve investigar o repositório, confirmar qual estado é efetivamente mais recente e atualizar este arquivo para eliminar a divergência.
+
+Nunca reverter trabalho posterior apenas para fazer o repositório coincidir com um checkpoint antigo deste documento.
+
+======================================================================
+2. OBJETIVO
+======================================================================
+
+Continuar a incorporação sistemática dos verbetes do Dicionário Grego-Português de Isidro Pereira ao Scriptura Lexicon.
+
+O trabalho atual está na letra alfa.
+
+A sequência deve avançar rigorosamente segundo a fonte digital pública:
+
+https://dicionariogrego.com/
+
+A API pública utilizada pela aplicação é:
+
+https://api.dicionariogrego.com/
+
+O objetivo da etapa atual é incorporar todos os registros da letra alfa, sem saltos, mantendo a identidade da fonte e sua ordem própria.
+
+======================================================================
+3. FONTE EXCLUSIVA
+======================================================================
+
+Para a frente PEREIRA, a fonte lexical exclusiva é:
+
+https://dicionariogrego.com/
+
+e a API pública utilizada pela própria aplicação:
+
+https://api.dicionariogrego.com/
+
+Não usar conteúdo de outros léxicos para preencher, corrigir, completar, reconstruir ou harmonizar o PEREIRA.
+
+Não usar:
+
+BDAG;
+LEH;
+DGP;
+Robinson;
+Thayer;
+LSJ;
+Bailly;
+outros léxicos.
+
+Outras fontes podem ser consultadas somente em uma futura camada crítica explicitamente autorizada pelo usuário.
+
+Essa camada crítica não faz parte do processo atual.
+
+======================================================================
+4. INDEPENDÊNCIA DAS FONTES
+======================================================================
+
+Cada léxico do Scriptura Lexicon deve conservar sua identidade.
+
+PEREIRA deve refletir PEREIRA.
+
+BDAG deve refletir BDAG.
+
+LEH deve refletir LEH.
+
+DGP deve refletir DGP.
+
+Robinson deve refletir Robinson.
+
+Thayer deve refletir Thayer.
+
+Não homogeneizar silenciosamente.
+
+Não corrigir um léxico com outro.
+
+Não importar definições externas para o corpo do PEREIRA.
+
+======================================================================
+5. REPOSITÓRIO E BRANCH
+======================================================================
+
+Repositório:
+
+linguasbiblicasoriginais-rgb/scriptura-lexicon
+
+Branch de trabalho:
+
+chat-gpt-pereira
+
+Arquivos lexicográficos próprios:
+
+lexicons/pereira.js
+lexicons/pereira-progress.json
+
+Arquivo permanente de continuidade:
+
+Rpereira/Rpereira.txt
+
+Este arquivo de continuidade deve acompanhar a branch PEREIRA.
+
+======================================================================
+6. ARQUIVOS QUE UM LOTE ORDINÁRIO PODE ALTERAR
+======================================================================
+
+Um lote ordinário PEREIRA deve alterar:
+
+lexicons/pereira.js
+lexicons/pereira-progress.json
+Rpereira/Rpereira.txt
+
+Não alterar durante um lote ordinário:
+
+index.html
+script.js
+style.css
+lexicons/bdag.js
+lexicons/leh.js
+arquivos DGP
+arquivos de outras fontes
+arquivos globais
+
+Se mudanças legítimas nesses arquivos já existirem no HEAD:
+
+preservá-las.
+
+Não revertê-las.
+
+Mas o commit do lote não deve introduzir novas alterações neles.
+
+======================================================================
+7. ESTADO DE SINCRONIZAÇÃO CONFIRMADO EM 08/10/2026
+======================================================================
+
+Antes da criação deste arquivo, o estado foi verificado.
+
+chat-gpt-pereira estava em:
+
+2d04135ddf9237ce7605d38326894ba0f26bde02
+
+main estava em:
+
+bada8b32e23ef1c8375fbb3aa6f44d1749ad1abb
+
+A comparação mostrava:
+
+chat-gpt-pereira:
+0 commits à frente
+
+chat-gpt-pereira:
+148 commits atrás
+
+diferenças de conteúdo:
+nenhuma
+
+A branch chat-gpt-pereira foi então atualizada por fast-forward seguro até:
+
+bada8b32e23ef1c8375fbb3aa6f44d1749ad1abb
+
+Esse SHA é apenas um checkpoint histórico.
+
+Sempre consultar o HEAD real antes de começar um novo lote.
+
+======================================================================
+8. REGRA DE SINCRONIZAÇÃO COM MAIN
+======================================================================
+
+Antes de cada lote:
+
+1. consultar main;
+2. consultar chat-gpt-pereira;
+3. comparar as branches.
+
+Se chat-gpt-pereira estiver somente atrás de main e tiver 0 commits exclusivos:
+
+fazer fast-forward seguro para main.
+
+Usar:
+
+force: false
+
+e:
+
+expected_sha = HEAD real de chat-gpt-pereira
+
+Nunca resetar de forma destrutiva.
+
+Nunca usar force para sincronização ordinária.
+
+Se chat-gpt-pereira possuir commits exclusivos:
+
+não substituir;
+não fast-forward cegamente;
+investigar;
+preservar;
+reconciliar.
+
+======================================================================
+9. ARQUITETURA DE BRANCHES
+======================================================================
+
+Há várias branches de fontes.
+
+Exemplos:
+
+chat-gpt-bdag
+chat-gpt-leh
+chat-gpt-dgp
+chat-gpt-pereira
+
+Uma branch de fonte não deve absorver diretamente outra branch de fonte.
+
+Não fazer:
+
+chat-gpt-pereira <- chat-gpt-bdag
+chat-gpt-pereira <- chat-gpt-leh
+chat-gpt-pereira <- chat-gpt-dgp
+
+A convergência deve ocorrer por meio de main.
+
+======================================================================
+10. REGRA DE EXPECTED_HEAD
+======================================================================
+
+Depois de eventual sincronização com main:
+
+capturar o HEAD atual de chat-gpt-pereira como:
+
+EXPECTED_HEAD
+
+Todo o lote deve ser construído sobre esse estado.
+
+Antes de mover a branch para o novo commit:
+
+consultar novamente chat-gpt-pereira.
+
+Se:
+
+HEAD == EXPECTED_HEAD
+
+então atualizar com:
+
+force: false
+expected_sha: EXPECTED_HEAD
+
+Se:
+
+HEAD != EXPECTED_HEAD
+
+não mover a branch.
+
+Não sobrescrever.
+
+Não usar force.
+
+Reconciliar o novo estado.
+
+Recriar árvore e commit sobre o novo HEAD.
+
+======================================================================
+11. API
+======================================================================
+
+Padrão de consulta observado:
+
+POST https://api.dicionariogrego.com/PREFIXO_URL_ENCODED
+
+Cabeçalho:
+
+Content-Type: application/json;charset=UTF-8
+
+Corpo:
+
+{"payload":"PREFIXO"}
+
+Campos observados:
+
+id
+searchable
+name
+etimology
+type
+gender
+meaning
+inflection
+observation
+
+Não inventar campos.
+
+Não preencher null por inferência.
+
+======================================================================
+12. LIMITE DE 30 RESULTADOS
+======================================================================
+
+A API tem retornado no máximo 30 registros por consulta.
+
+Portanto:
+
+uma resposta com exatamente 30 registros deve ser tratada como potencialmente truncada.
+
+Nunca assumir que uma faixa acabou porque a API devolveu 30 resultados.
+
+Refinar o prefixo.
+
+Consultar subdivisões.
+
+Verificar transições.
+
+Somente montar o lote quando houver segurança de que nenhum verbete intermediário foi omitido.
+
+======================================================================
+13. ORDEM
+======================================================================
+
+Preservar a ordem lexicográfica da fonte.
+
+Não ordenar por ID.
+
+Os IDs não representam necessariamente a ordem dos registros.
+
+Exemplo histórico:
+
+Ἀγκκών, ῶνος
+ID 32037
+
+aparece antes de:
+
+ID 32023
+ID 32024
+
+Portanto:
+
+ID = identificador da fonte.
+
+ID não é índice lexical.
+
+======================================================================
+14. DUPLICATAS APARENTES
+======================================================================
+
+Não fundir registros só porque têm o mesmo lema.
+
+Exemplo:
+
+Ἀ-γενής, ές
+ID 31971
+
+e
+
+Ἀ-γενής, ές
+ID 31974
+
+foram preservados separadamente.
+
+Regra:
+
+se a API apresenta dois objetos independentes, manter dois verbetes independentes.
+
+======================================================================
+15. OCR E LEITURAS ESTRANHAS
+======================================================================
+
+Preservar o texto da fonte digital.
+
+Não corrigir silenciosamente possíveis erros de OCR.
+
+Exemplos históricos preservados:
+
+ΑἈνα-τρέχω
+insanciável
+espontânecamente
+sem pecursos
+irreílexão
+pros peridade
+Ἄγκυύυρα, ας
+Ἀγχίσης, ουs
+tansporte
+inteSTO
+
+Classificações aparentemente estranhas também devem ser preservadas.
+
+Não usar conhecimento externo para “consertar” a fonte.
+
+======================================================================
+16. ASTERISCOS E OBSERVAÇÕES
+======================================================================
+
+Preservar asteriscos nos lemas quando presentes.
+
+Exemplos:
+
+*Ἀγάπη, ης
+*Ἁγιάζω
+*Ἁγίασμα, ατος
+*Ἁγιασμός, οῦ
+*Ἁγιαστήριον, ου
+*Ἁγιότης, ητος
+*Ἁγιωσύνη, ης
+*Ἄγναφος, ον
+*Ἅγνευτήριον, ου
+*Ἁγνότης, ητος
+
+Quando observation contiver:
+
+Vocábulo do Novo Testamento
+
+preservar no cartão.
+
+Não inferir para outros registros.
+
+======================================================================
+17. ESTRUTURA DE lexicons/pereira.js
+======================================================================
+
+Estrutura de alto nível:
+
+"use strict";
+
+window.ScripturaLexicons =
+    window.ScripturaLexicons || {};
+
+window.ScripturaLexicons.PEREIRA = {
+    source: "PEREIRA",
+    searchAnchorId: "pereira-search-anchor",
+    entryAnchorId: "pereira-entry-anchor",
+    bibliographicTerms: [...],
+    rowsHtml: String.raw`...`,
+    cardsHtml: String.raw`...`
+};
+
+Não refatorar durante lotes ordinários.
+
+======================================================================
+18. SEARCH-ROW
+======================================================================
+
+Cada verbete deve ter exatamente um:
+
+<tr class="search-row">
+
+A linha deve possuir:
+
+data-dictionary="grego"
+data-target="entry-pereira-XXXX"
+data-source="PEREIRA"
+data-search="..."
+tabindex="0"
+
+Deve conter:
+
+lema
+classe gramatical
+resumo semântico
+source-pill
+
+Etiqueta:
+
+<span class="source-pill">PEREIRA</span>
+
+======================================================================
+19. ENTRY-CARD
+======================================================================
+
+Cada verbete deve ter exatamente um:
+
+<article class="entry-card">
+
+Padrão:
+
+id="entry-pereira-XXXX"
+data-dictionary="grego"
+data-source="PEREIRA"
+hidden
+
+O cabeçalho contém:
+
+lema
+metadados
+source-tag
+
+Padrão de metadados:
+
+PEREIRA · ordem N na letra α · ID ID_DA_FONTE
+
+Etiqueta:
+
+<div class="source-tag">PEREIRA</div>
+
+======================================================================
+20. IDS INTERNOS
+======================================================================
+
+Formato:
+
+entry-pereira-0001
+entry-pereira-0002
+...
+entry-pereira-0360
+entry-pereira-0361
+etc.
+
+Usar ordinal contínuo.
+
+Não pular.
+
+Não repetir.
+
+Não usar o ID da API como id HTML.
+
+======================================================================
+21. CLASSE GRAMATICAL
+======================================================================
+
+Usar type fornecido pela API.
+
+Se type estiver vazio:
+
+—
+
+Se type for Substantivo e gender estiver preenchido:
+
+combinar.
+
+Exemplos:
+
+Substantivo feminino
+Substantivo masculino
+Substantivo neutro
+Substantivo masculino e feminino
+
+Não inferir type ausente.
+
+Não corrigir grafia da fonte.
+
+======================================================================
+22. RESUMO DA TABELA
+======================================================================
+
+O resumo da search-row pode condensar meaning.
+
+Pode:
+
+encurtar;
+trocar barras por ponto e vírgula;
+reduzir redundância.
+
+Não pode:
+
+inventar;
+corrigir;
+importar outro léxico;
+contradizer o cartão.
+
+O cartão deve preservar o conteúdo completo da fonte.
+
+======================================================================
+23. SEÇÕES DO CARTÃO
+======================================================================
+
+Criar Etimologia somente quando etimology estiver preenchido.
+
+Criar Inflecção somente quando inflection estiver preenchido.
+
+Criar Observação somente quando observation estiver preenchido.
+
+Sempre criar:
+
+Definição do PEREIRA
+
+Não criar seções vazias.
+
+======================================================================
+24. bibliographicTerms
+======================================================================
+
+A lista atual já contém abreviações como:
+
+v.
+interj.
+fut.
+aor.
+pf.
+act.
+méd.
+tr.
+intr.
+pass.
+fig.
+contr.
+pl.
+aum.
+pres.
+impf.
+med.
+desus.
+ép.
+subst.
+
+Não refatorar essa lista durante lote comum.
+
+Só acrescentar abreviação quando necessária e segura.
+
+======================================================================
+25. ARQUIVO DE PROGRESSO
+======================================================================
+
+Arquivo:
+
+lexicons/pereira-progress.json
+
+Estrutura:
+
+source
+work_branch
+source_url
+source_api
+source_policy
+scope
+batches
+next_entry
+editorial_rules
+
+scope:
+
+initial_letter
+batch_size
+next_ordinal
+status
+
+batch_size atual:
+
+50
+
+Cada batch registra:
+
+batch
+start_ordinal
+end_ordinal
+start_entry
+end_entry
+entry_count
+start_source_id
+end_source_id
+status
+
+next_entry:
+
+ordinal
+source_id
+searchable
+lemma
+
+======================================================================
+26. TAMANHO DOS LOTES
+======================================================================
+
+Lotes 001–003:
+
+20 verbetes cada.
+
+A partir do lote 004:
+
+50 verbetes por lote.
+
+Regra atual:
+
+um único lote de 50 por solicitação.
+
+Exceção:
+
+último lote da letra alfa, se restarem menos de 50.
+
+======================================================================
+27. HISTÓRICO DOS LOTES
+======================================================================
+
+LOTE 001
+
+Ordinais:
+1–20
+
+Faixa:
+Α, α -> Ἀ-βασίλευτος, ον
+
+Quantidade:
+20
+
+ID inicial:
+29573
+
+ID final:
+29590
+
+Commit:
+0daddc0ca96bcfcd344d7ca499fa0f470d7ea4f8
+
+Mensagem:
+Adicionar o primeiro lote do PEREIRA
+
+-----------------------------------------------------------------------
+
+LOTE 002
+
+Ordinais:
+21–40
+
+Faixa:
+Ἀ-βάστακτος, ον -> Ἄ-βολος, ον
+
+Quantidade:
+20
+
+ID inicial:
+29591
+
+ID final:
+30739
+
+Commit:
+7819bee85e47051abb3dd072c2e289097ad49255
+
+Mensagem:
+PEREIRA lote 002
+
+-----------------------------------------------------------------------
+
+LOTE 003
+
+Ordinais:
+41–60
+
+Faixa:
+Ἀ-βόσκητος, ον -> Ἁβρότης, ητός
+
+Quantidade:
+20
+
+ID inicial:
+30740
+
+ID final:
+30758
+
+Commit:
+f5ae1976f3b437095bed6fd3709c49f4d1e3938a
+
+Mensagem:
+PEREIRA lote 003
+
+-----------------------------------------------------------------------
+
+LOTE 004
+
+Ordinais:
+61–110
+
+Faixa:
+Ἁβρότιμος, ον -> Ἀγαπητῶς
+
+Quantidade:
+50
+
+ID inicial:
+30759
+
+ID final:
+30804
+
+Commit:
+e824f3c0d24f67bbc05e82c6fbe035bc9a58daec
+
+Mensagem:
+PEREIRA lote 004
+
+-----------------------------------------------------------------------
+
+LOTE 005
+
+Ordinais:
+111–160
+
+Faixa:
+Ἄγαρος, ον -> Ἀ-γένητος, ον
+
+Quantidade:
+50
+
+ID inicial:
+30818
+
+ID final:
+31972
+
+Commit:
+96ccf4eed50ee14adf120065c11326ec4b9f2162
+
+Mensagem:
+PEREIRA lote 005
+
+-----------------------------------------------------------------------
+
+LOTE 006
+
+Ordinais:
+161–210
+
+Faixa:
+Ἀ-γέννεια -> Ἄγκίστρον, ου
+
+Quantidade:
+50
+
+ID inicial:
+31973
+
+ID final:
+32021
+
+Commit:
+8b09ae19f6c749c3b5acc936ab38d6625b7043d2
+
+Mensagem:
+PEREIRA lote 006
+
+-----------------------------------------------------------------------
+
+LOTE 007
+
+Ordinais:
+211–260
+
+Faixa:
+Ἀγκιστρόω -> Ἀ-γνοέω
+
+Quantidade:
+50
+
+ID inicial:
+32022
+
+ID final:
+33199
+
+Commit:
+b8c397cc30956961635cf3b48aadb082cb3bcb19
+
+Mensagem:
+PEREIRA lote 007
+
+-----------------------------------------------------------------------
+
+COMMIT VISUAL INTERMEDIÁRIO
+
+Commit:
+f23a54ae726775a7851d709237bd927607893c5f
+
+Mensagem:
+Sincronizar paleta de fontes e seletor visual com chat-gpt-commits
+
+Esse commit é legítimo.
+
+Não reverter.
+
+Não contar como lote lexical.
+
+-----------------------------------------------------------------------
+
+LOTE 008
+
+Ordinais:
+261–310
+
+Faixa:
+Ἀ-γνόημα, ατος -> Ἄ-γραπτος, ον
+
+Quantidade:
+50
+
+ID inicial:
+33200
+
+ID final:
+33249
+
+Commit:
+4819a165145c279c1b5cf879d106af42e2f3aabf
+
+Mensagem:
+PEREIRA lote 008
+
+-----------------------------------------------------------------------
+
+LOTE 009
+
+Ordinais:
+311–360
+
+Faixa:
+Ἀγρ-αυλέω -> Ἀγχί-νοια, ας
+
+Quantidade:
+50
+
+ID inicial:
+33250
+
+ID final:
+34368
+
+Commit:
+2d04135ddf9237ce7605d38326894ba0f26bde02
+
+Mensagem:
+PEREIRA lote 009
+
+======================================================================
+28. ESTADO LEXICOGRÁFICO ATUAL CONHECIDO
+======================================================================
+
+Total incorporado:
+
+360 verbetes.
+
+search-row:
+
+360
+
+entry-card:
+
+360
+
+Último ordinal:
+
+360
+
+Último lema:
+
+Ἀγχί-νοια, ας
+
+Último ID:
+
+34368
+
+Próximo ordinal:
+
+361
+
+Próximo lema:
+
+Ἀγχί-νοος, οον
+
+searchable:
+
+αγχινοος
+
+ID:
+
+34369
+
+Esse estado deve ser confirmado no GitHub antes de qualquer novo lote.
+
+======================================================================
+29. PRÓXIMO LOTE ESPERADO — LOTE 010
+======================================================================
+
+Se o estado real continuar igual, o lote 010 deve cobrir:
+
+ordinais 361–410.
+
+Sequência esperada, sujeita a reconfirmação da API:
+
+361. ID 34369 — Ἀγχί-νοος, οον
+362. ID 34370 — Ἀγχί-πλοος, οον
+363. ID 34371 — Ἀγχί-πολις, εως, ou τος
+364. ID 2262 — Ἀγχίσης, ουs
+365. ID 34372 — Ἀγχί-σπορος, ον
+366. ID 34373 — Ἀγχιστεία, ας
+367. ID 34374 — Ἀγχιστεῖον, ου
+368. ID 34375 — Ἀγχιστεύς, έως
+369. ID 34376 — Ἀγχιστεύω
+370. ID 34377 — Ἀγχιστήρ, ῆρος
+371. ID 34378 — Ἀγχιστῖνος, η, ον
+372. ID 34379 — Ἄγχιστος, η, ον
+373. ID 34380 — Ἀγχί-στροφος, ον
+374. ID 34381 — Ἀγχι-τέρμων, ον
+375. ID 34382 — Ἀγχί-τοκος, ον
+376. ID 34383 — Ἀγχόθεν
+377. ID 34384 — Ἀγχόθι
+378. ID 34385 — Ἀγχόνη, ης
+379. ID 34386 — Ἀγχόνιος, α, ον
+380. ID 34387 — Ἀγχοτάτω
+381. ID 34394 — Ἄγω
+382. ID 34395 — Ἀγῶ, ῇς, ῇ
+383. ID 34396 — Ἁγώ
+384. ID 34397 — Ἀγωγεύς, έως
+385. ID 34398 — Ἀγωγή, ῆς
+386. ID 34399 — Ἀγώγιμος, ον
+387. ID 34400 — Ἀγώγιον, ου
+388. ID 34401 — Ἀγωγός, όν
+389. ID 34402 — Ἀγών, ῶνος
+390. ID 34403 — Ἀγων-άρχης, ου
+391. ID 34404 — Ἀγωνία, ας
+392. ID 34405 — Ἀγωνιάω
+393. ID 34406 — Ἀγωνίζομαι
+394. ID 34407 — Ἀγώνιος, α, ον
+395. ID 34408 — Ἀ-γώνιος, α, ον
+396. ID 34409 — Ἀγώνισις, εως
+397. ID 34410 — Ἀγώνισμα, ατος
+398. ID 34411 — Ἀγωνισμός, οῦ
+399. ID 34412 — Ἀγωνιστής, οῦ
+400. ID 34413 — Ἀγωνιστικός, ή, όν
+401. ID 34414 — Ἀγωνο-θεσία, ας
+402. ID 34415 — Ἀγωνο-θετέω
+403. ID 34416 — Ἀγωνο-θέτης, ου
+404. ID 34417 — Ἀ-δαγμός, οῦ
+405. ID 34418 — Ἄ-δᾳδος, ον
+406. ID 34419 — Ἀ-δαημονίη, ης
+407. ID 34420 — Ἀ-δαήμων, ον
+408. ID 34421 — Ἀ-δαῆς, ἐς
+409. ID 34422 — Ἀ-δάητος, ον
+410. ID 34423 — Ἄ-δαιτος, ον
+
+Próximo verbete esperado depois do lote:
+
+411. ID 34424 — Ἄ-δακρυς, υ
+
+searchable:
+
+αδακρυς
+
+======================================================================
+30. PREFIXOS RELEVANTES PARA REVALIDAÇÃO DO LOTE 010
+======================================================================
+
+Consultas recentes relevantes:
+
+αγχ
+αγω
+αδ
+
+A consulta αγχ retornou 30 registros.
+
+Os primeiros 10 do trecho final foram consumidos no lote 009 até:
+
+Ἀγχί-νοια, ας
+
+Se a fonte não mudou, o próximo registro é:
+
+Ἀγχί-νοος, οον
+
+A consulta αγω retornou 23 registros.
+
+Depois disso, a sequência passa para αδ.
+
+A consulta αδ retornou 30 registros e deve ser tratada como potencialmente truncada para lotes posteriores.
+
+======================================================================
+31. PROBES E WORKFLOWS TEMPORÁRIOS
+======================================================================
+
+Quando o ambiente direto não permitir POST à API, pode ser necessário usar GitHub Actions.
+
+Preferência:
+
+usar uma branch temporária de probe baseada no EXPECTED_HEAD.
+
+Não inserir workflow temporário na branch de produção se isso puder ser evitado.
+
+Se um workflow temporário for usado:
+
+não deixá-lo no commit final;
+não mesclá-lo no lote;
+auditar sua ausência.
+
+======================================================================
+32. AUDITORIA OBRIGATÓRIA
+======================================================================
+
+Para lote normal de 50:
+
+search-row:
+
++50
+
+entry-card:
+
++50
+
+Verificar:
+
+data-target ↔ id:
+50/50
+
+IDs duplicados:
+0
+
+data-targets duplicados:
+0
+
+linhas órfãs:
+0
+
+cartões órfãos:
+0
+
+novos registros com data-source="PEREIRA":
+50/50
+
+source-pill:
++50
+
+source-tag:
++50
+
+ordinais:
+contínuos
+
+ordinais omitidos:
+0
+
+ordinais repetidos:
+0
+
+workflow temporário presente:
+0
+
+======================================================================
+33. AUDITORIA DE CONTEÚDO
+======================================================================
+
+Para cada registro verificar:
+
+id
+searchable
+name
+etimology
+type
+gender
+meaning
+inflection
+observation
+
+Não preencher null.
+
+Não corrigir OCR.
+
+Não remover asterisco.
+
+Não modernizar ortografia.
+
+Não substituir leitura estranha.
+
+======================================================================
+34. AUDITORIA DE ARQUIVOS
+======================================================================
+
+O commit do lote deve alterar somente:
+
+lexicons/pereira.js
+lexicons/pereira-progress.json
+Rpereira/Rpereira.txt
+
+Qualquer outro arquivo modificado pelo lote exige investigação antes do commit.
+
+======================================================================
+35. COMMIT
+======================================================================
+
+Padrão:
+
+PEREIRA lote 010
+
+Depois:
+
+PEREIRA lote 011
+PEREIRA lote 012
+etc.
+
+Um único commit por lote.
+
+Este arquivo Rpereira/Rpereira.txt deve ser atualizado no MESMO commit do lote.
+
+======================================================================
+36. O QUE ATUALIZAR NESTE ARQUIVO APÓS CADA LOTE
+======================================================================
+
+Depois de cada lote, atualizar pelo menos:
+
+histórico dos lotes;
+total acumulado;
+último ordinal;
+último lema;
+último source ID;
+próximo ordinal;
+próximo lema;
+próximo searchable;
+próximo source ID;
+próximo lote esperado;
+eventuais novos prefixos conhecidos;
+eventuais novos erros de OCR importantes;
+eventuais novas decisões editoriais;
+eventuais mudanças de sincronização/arquitetura.
+
+Não é necessário registrar cada HEAD passageiro.
+
+O importante é preservar o estado lexicográfico e as regras permanentes.
+
+======================================================================
+37. FLUXO COMPLETO QUANDO O USUÁRIO DISSER "Continue o processo (PEREIRA)."
+======================================================================
+
+Ao receber o comando:
+
+Continue o processo (PEREIRA).
+
+executar esta sequência:
+
+1. abrir Rpereira/Rpereira.txt;
+
+2. ler as regras e o estado documentado;
+
+3. consultar main;
+
+4. consultar chat-gpt-pereira;
+
+5. comparar;
+
+6. sincronizar por fast-forward seguro se apropriado;
+
+7. capturar EXPECTED_HEAD;
+
+8. ler lexicons/pereira.js;
+
+9. ler lexicons/pereira-progress.json;
+
+10. validar:
+    contagens;
+    último ordinal;
+    último lema;
+    next_entry;
+
+11. consultar dicionariogrego.com/API;
+
+12. confirmar a sequência dos próximos 50;
+
+13. não confiar cegamente na sequência histórica deste arquivo;
+
+14. montar 50 search-row;
+
+15. montar 50 entry-card;
+
+16. atualizar pereira-progress.json;
+
+17. atualizar Rpereira/Rpereira.txt;
+
+18. auditar conteúdo;
+
+19. auditar ordem;
+
+20. auditar duplicatas;
+
+21. auditar correspondência;
+
+22. auditar arquivos alterados;
+
+23. criar um único commit;
+
+24. reconfirmar o HEAD;
+
+25. mover a branch com force=false e expected_sha;
+
+26. confirmar o HEAD final;
+
+27. informar ao usuário:
+    lote;
+    faixa;
+    commit;
+    contagem;
+    auditoria;
+    próximo lema.
+
+======================================================================
+38. RESPOSTA FINAL ESPERADA
+======================================================================
+
+A resposta ao usuário deve ser concisa.
+
+Exemplo de conteúdo:
+
+Concluído.
+
+Lote 010:
+361–410
+
+Faixa:
+LEMA_INICIAL -> LEMA_FINAL
+
+Commit:
+SHA — PEREIRA lote 010
+
+Total:
+410 search-row
+410 entry-card
+
+Auditoria:
+sem duplicatas;
+sem órfãos;
+50/50 correspondências;
+nenhum workflow temporário;
+somente arquivos PEREIRA + Rpereira atualizados.
+
+Próximo:
+ordinal 411
+LEMA
+ID
+
+======================================================================
+39. FILOSOFIA
+======================================================================
+
+O PEREIRA deve ser tratado como testemunho lexicográfico próprio.
+
+Preservar:
+
+estrutura;
+grafia;
+peculiaridades;
+classificações;
+observações;
+possíveis erros de OCR;
+duplicatas reais da fonte.
+
+Não “melhorar” silenciosamente.
+
+A camada de fonte deve permanecer documentalmente fiel.
+
+======================================================================
+40. REGRA FINAL
+======================================================================
+
+Sempre que houver dúvida:
+
+GitHub real antes de checkpoint.
+
+API real antes de sequência histórica.
+
+Fidelidade antes de normalização.
+
+Precisão antes de velocidade.
+
+Preservação antes de harmonização.
+
+E, acima de tudo:
+
+sempre que o usuário disser:
+
+Continue o processo (PEREIRA).
+
+o primeiro passo obrigatório é acessar:
+
+Rpereira/Rpereira.txt
+
+antes de continuar o trabalho.
+
+FIM DO ARQUIVO Rpereira.
