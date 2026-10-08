@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 20,
-    "next_ordinal": 41,
-    "status": "lote 2 concluído"
+    "next_ordinal": 61,
+    "status": "lote 3 concluído"
   },
   "batches": [
     {
@@ -32,13 +32,24 @@
       "start_source_id": 29591,
       "end_source_id": 30739,
       "status": "concluído"
+    },
+    {
+      "batch": 3,
+      "start_ordinal": 41,
+      "end_ordinal": 60,
+      "start_entry": "Ἀ-βόσκητος, ον",
+      "end_entry": "Ἁβρότης, ητός",
+      "entry_count": 20,
+      "start_source_id": 30740,
+      "end_source_id": 30758,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 41,
-    "source_id": 30740,
-    "searchable": "αβοσκητος",
-    "lemma": "Ἀ-βόσκητος, ον"
+    "ordinal": 61,
+    "source_id": 30759,
+    "searchable": "αβροτιμος",
+    "lemma": "Ἁβρότιμος, ον"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",

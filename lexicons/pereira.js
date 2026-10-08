@@ -24,6 +24,7 @@
  *
  * Lote 001: 20 registros, Α, α → Ἀ-βασίλευτος, ον.
  * Lote 002: 20 registros, Ἀ-βάστακτος, ον → Ἄ-βολος, ον.
+ * Lote 003: 20 registros, Ἀ-βόσκητος, ον → Ἁβρότης, ητός.
  */
 
 window.ScripturaLexicons =
@@ -290,6 +291,126 @@ window.ScripturaLexicons.PEREIRA = {
     <td class="table-lemma greek">Ἄ-βολος, ον</td>
     <td>Adjetivo</td>
     <td>cavalo novo que não perdeu os primeiros dentes</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0041" data-source="PEREIRA" data-search="Ἀ-βόσκητος, ον αβοσκητος onde não pastam os rebanhos PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἀ-βόσκητος, ον</td>
+    <td>Adjetivo</td>
+    <td>onde não pastam os rebanhos</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0042" data-source="PEREIRA" data-search="Ἀ-βουκόλητος, ον αβουκολητος descuidado; não atendido PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἀ-βουκόλητος, ον</td>
+    <td>Adjetivo</td>
+    <td>descuidado; não atendido</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0043" data-source="PEREIRA" data-search="Ἀ-βουλέω αβουλεω não querer PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἀ-βουλέω</td>
+    <td>—</td>
+    <td>não querer</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0044" data-source="PEREIRA" data-search="Ἀ-βουλία, ας αβουλια irreílexão; imprudência PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἀ-βουλία, ας</td>
+    <td>Substantivo feminino</td>
+    <td>irreílexão; imprudência</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0045" data-source="PEREIRA" data-search="Ἄ-βουλος, ον αβουλος irreflectido; imprudente; indiferente; hostil PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἄ-βουλος, ον</td>
+    <td>Adjetivo</td>
+    <td>irreflectido; imprudente; indiferente; hostil</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0046" data-source="PEREIRA" data-search="Ἀβραδάτιας, α αβραδατιας Abradata PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἀβραδάτιας, α</td>
+    <td>Substantivo masculino</td>
+    <td>Abradata</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0047" data-source="PEREIRA" data-search="Ἄ-βρεκτος, ον αβρεκτος não molhado; seco PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἄ-βρεκτος, ον</td>
+    <td>Adjetivo</td>
+    <td>não molhado; seco</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0048" data-source="PEREIRA" data-search="Ἀ-βριθής, ἐς αβριθης que não pesa; leve PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἀ-βριθής, ἐς</td>
+    <td>Adjetivo</td>
+    <td>que não pesa; leve</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0049" data-source="PEREIRA" data-search="Ἁβρο-βάτης, ου αβροβατης de andar efeminado PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρο-βάτης, ου</td>
+    <td>Adjetivo</td>
+    <td>de andar efeminado</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0050" data-source="PEREIRA" data-search="Ἁβρό-βιος, ον αβροβιος de vida mole; efeminado PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρό-βιος, ον</td>
+    <td>Adjetivo</td>
+    <td>de vida mole; efeminado</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0051" data-source="PEREIRA" data-search="Ἁβρό-γοος, ον αβρογοος de chorar efeminado PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρό-γοος, ον</td>
+    <td>Adjetivo</td>
+    <td>de chorar efeminado</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0052" data-source="PEREIRA" data-search="Ἁβρο-δίαιτος, ον αβροδιαιτος que vive efeminadamente; vida mole PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρο-δίαιτος, ον</td>
+    <td>Adjetivo</td>
+    <td>que vive efeminadamente; vida mole</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0053" data-source="PEREIRA" data-search="Ἁβρο-κόμης, ου αβροκομης de cabeleira efeminada; folhagem luxuriante PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρο-κόμης, ου</td>
+    <td>Adjetivo</td>
+    <td>de cabeleira efeminada; folhagem luxuriante</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0054" data-source="PEREIRA" data-search="Ἄ-βρομος, ον αβρομος bramante; estrepitoso PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἄ-βρομος, ον</td>
+    <td>Adjetivo</td>
+    <td>bramante; estrepitoso</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0055" data-source="PEREIRA" data-search="Ἁβρο-πενθής, ές αβροπενθης que se queixa de modo efeminado PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρο-πενθής, ές</td>
+    <td>Adjetivo</td>
+    <td>que se queixa de modo efeminado</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0056" data-source="PEREIRA" data-search="Ἁβρό-πλουτος, ον αβροπλουτος opulento; luxuriante; exuberante PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρό-πλουτος, ον</td>
+    <td>Adjetivo</td>
+    <td>opulento; luxuriante; exuberante</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0057" data-source="PEREIRA" data-search="Ἁβρός, ά, όν αβρος delicado; terno; efeminado; mole PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρός, ά, όν</td>
+    <td>Adjetivo</td>
+    <td>delicado; terno; efeminado; mole</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0058" data-source="PEREIRA" data-search="Ἁβροσύνη αβροσυνη v. Ἁβρότης PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβροσύνη</td>
+    <td>Substantivo feminino</td>
+    <td>v. Ἁβρότης</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0059" data-source="PEREIRA" data-search="Ἁβροτάζω αβροταζω perder-se; extraviar-se PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβροτάζω</td>
+    <td>Substantivo feminino</td>
+    <td>perder-se; extraviar-se</td>
+    <td><span class="source-pill">PEREIRA</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-pereira-0060" data-source="PEREIRA" data-search="Ἁβρότης, ητός αβροτης felicidade; pros peridade; magnificência; elegância PEREIRA Isidro Pereira" tabindex="0">
+    <td class="table-lemma greek">Ἁβρότης, ητός</td>
+    <td>Substantivo feminino</td>
+    <td>felicidade; pros peridade; magnificência; elegância</td>
     <td><span class="source-pill">PEREIRA</span></td>
 </tr>
 `,
@@ -968,6 +1089,342 @@ window.ScripturaLexicons.PEREIRA = {
     <section class="entry-section">
         <div class="section-title">Definição do PEREIRA</div>
         <p class="entry-text">que não perdeu ainda os primeiros dentes (cavalo novo)</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0041" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἀ-βόσκητος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 41 na letra α · ID 30740</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἀ, βόσκω)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">onde não pastam os rebanhos</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0042" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἀ-βουκόλητος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 42 na letra α · ID 30741</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἀ, βουκολέω)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">descuidado, não atendido</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0043" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἀ-βουλέω</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 43 na letra α · ID 30742</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">não querer</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0044" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἀ-βουλία, ας</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 44 na letra α · ID 30743</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἀ, βουλή)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">irreílexão, imprudência</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0045" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἄ-βουλος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 45 na letra α · ID 30744</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">irreflectido, imprudente | indiferente à || hostil a</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0046" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἀβραδάτιας, α</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 46 na letra α · ID 2254</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">Abradata</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0047" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἄ-βρεκτος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 47 na letra α · ID 30745</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἀ, βρέχω)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">não molhado, seco</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0048" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἀ-βριθής, ἐς</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 48 na letra α · ID 30746</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἀ, βρίθω)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">que não pesa, leve</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0049" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρο-βάτης, ου</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 49 na letra α · ID 30747</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἁβρός, βαίνω)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">de andar efeminado</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0050" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρό-βιος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 50 na letra α · ID 30748</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">de vida mole, efeminado</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0051" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρό-γοος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 51 na letra α · ID 30749</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">de chorar efeminado</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0052" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρο-δίαιτος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 52 na letra α · ID 30750</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἁβρός, δίαιτα)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">que vive efeminadamente || τὸ ἁβροδίαιτον vida mole</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0053" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρο-κόμης, ου</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 53 na letra α · ID 30751</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">de cabeleira efeminada || fig. de folhagem luxuriante</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0054" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἄ-βρομος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 54 na letra α · ID 30752</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἀ aum., βρέμοω)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">bramante, estrepitoso</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0055" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρο-πενθής, ές</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 55 na letra α · ID 30753</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Etimologia</div>
+        <p class="entry-text greek">(ἁβρός, πένθος)</p>
+    </section>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">que se queixa de um modo efeminado</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0056" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρό-πλουτος, ον</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 56 na letra α · ID 30754</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">opulento, luxuriante, exuberante</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0057" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρός, ά, όν</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 57 na letra α · ID 30755</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">delicado, terno || efeminado, mole</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0058" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβροσύνη</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 58 na letra α · ID 30756</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">v. Ἁβρότης</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0059" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβροτάζω</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 59 na letra α · ID 30757</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">perder-se, extraviar-se/(fut. ἀξω somente em ἁβροτάξομεν)</p>
+    </section>
+</article>
+
+<article id="entry-pereira-0060" class="entry-card" data-dictionary="grego" data-source="PEREIRA" hidden>
+    <header class="entry-header">
+        <div>
+            <h1 class="entry-title greek">Ἁβρότης, ητός</h1>
+            <div class="entry-meta"><span>PEREIRA · ordem 60 na letra α · ID 30758</span></div>
+        </div>
+        <div class="source-tag">PEREIRA</div>
+    </header>
+    <div class="entry-divider"></div>
+    <section class="entry-section">
+        <div class="section-title">Definição do PEREIRA</div>
+        <p class="entry-text">felicidade, pros peridade |) magnificência, elegância</p>
     </section>
 </article>
 `
