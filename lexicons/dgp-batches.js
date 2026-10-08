@@ -1644,3 +1644,43 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 38 — registros 741–760
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [741,"ἄητος, ος, ον","insaciável; louco. 〈ἄημι〉","insaciável; louco"],
+        [742,"ἀθαλλής, ής, ές","sem vegetação; sem folhagem. 〈ἀ-, θάλλω〉","sem vegetação; sem folhagem"],
+        [743,"Ἀθαμαντίς, ίδος (ἡ)","a filha de Atamas, epít. de Hele. 〈Ἀθάμας〉 Ἀθάμας, αντος (ὁ) Atamas, rei de Orcômeno.","filha de Atamas; Atamas, rei de Orcômeno"],
+        [744,"ἀθαμβής, ής, ές","que não teme; intrépido. 〈ἀ-, θάμβος〉","intrépido; sem temor"],
+        [745,"Ἀθάνα, Ἀθᾶναι, Ἀθαναία","dór. = Ἀθῆνα, Ἀθῆναι, Ἀθηναία.","formas dóricas de Ἀθῆνα, Ἀθῆναι, Ἀθηναία"],
+        [746,"ἀθανασία, ας (ἡ)","imortalidade. 〈ἀθάνατος〉","imortalidade"],
+        [747,"ἀθανατίζω","(só pres.) 1 crer-se imortal 2 imortalizar 3 con­siderar imortal. 〈ἀθάνατος〉","crer-se imortal; imortalizar"],
+        [748,"ἀθάνατος, ος","poét. η, ον 1 imortal 2 imperecível; perpétuo; eterno. 〈ἀ-, θανεῖν〉","imortal; imperecível; eterno"],
+        [749,"ἄθαπτος, ος, ον","1 insepulto 2 indigno de sepultura. 〈ἀ-, θάπτω〉","insepulto; indigno de sepultura"],
+        [750,"ἀθάρα, ας,","át. ἀθάρη, ης (ἡ) mingau de farinha; papa. [egípcia]","mingau de farinha; papa"],
+        [751,"ἀθαρσής, ής, ές","que não é ousado; tímido; covarde. 〈ἀ-, θάρσος〉","tímido; covarde"],
+        [752,"ἀθαρσῶς","adv. sem ousadia; covardemente.","sem ousadia; covardemente"],
+        [753,"ἀθέατος, ος, ον","1 que não vê; cego em rel. a, gen. 2 não visto; invisível 3 secreto. 〈ἀ-, θεάομαι〉","cego; invisível; secreto"],
+        [754,"ἀθεεί","adv. sem a ajuda dos deuses. 〈ἀ-, θεός〉","sem a ajuda dos deuses"],
+        [755,"ἀθείαστος, ος, ον","não inspirado pela divindade. 〈ἀ-, θειάζω〉","não inspirado pela divindade"],
+        [756,"ἀθέλεος, ος, ον","contra a vontade. 〈ἀ-, θέλω〉","contra a vontade"],
+        [757,"ἄθελκτος, ος, ον","inflexível; implacável. 〈ἀ-, θέλγω〉","inflexível; implacável"],
+        [758,"ἀθεμίστιος, ος, ον","ilegal, ilícito; criminoso. 〈ἀθέμιστος〉","ilegal; ilícito; criminoso"],
+        [759,"ἀθέμιστος, ος, ον","ἀθεμίστιος. 〈ἀ-, θέμις〉","ἀθεμίστιος"],
+        [760,"ἀθέμιτος, ος, ον","ἀθεμίστιος.","ἀθεμίστιος"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
