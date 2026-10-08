@@ -569,6 +569,170 @@ body.menu-open {
     background: var(--surface-1);
 }
 
+/* Combobox personalizada: o <select> permanece como fallback e fonte de verdade. */
+.source-filter-box {
+    position: relative;
+}
+
+.source-filter-box.is-enhanced #source-filter {
+    display: none;
+}
+
+.source-combobox {
+    position: relative;
+    width: 100%;
+}
+
+.source-filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    width: 100%;
+    height: 50px;
+    padding: 0 18px;
+
+    color: var(--text-primary);
+    background: var(--surface-1);
+
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    outline: none;
+
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: left;
+
+    cursor: pointer;
+
+    transition: border-color 0.15s ease,
+                background-color 0.15s ease,
+                box-shadow 0.15s ease;
+}
+
+.source-filter-button:hover,
+.source-filter-button[aria-expanded="true"] {
+    background: var(--surface-2);
+    border-color: var(--accent-dark);
+}
+
+.source-filter-button:focus-visible {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(100, 155, 240, 0.12);
+}
+
+#source-filter-label {
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.source-filter-chevron {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+
+    fill: none;
+    stroke: var(--accent-light);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    transition: transform 0.15s ease;
+}
+
+.source-filter-button[aria-expanded="true"] .source-filter-chevron {
+    transform: rotate(180deg);
+}
+
+.source-filter-options[hidden],
+.source-combobox[hidden] {
+    display: none !important;
+}
+
+.source-filter-options {
+    position: absolute;
+    z-index: 60;
+    top: calc(100% + 7px);
+    left: 0;
+    right: 0;
+
+    max-height: min(350px, 48vh);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
+    padding: 6px;
+    color: var(--text-primary);
+    background: var(--surface-2);
+
+    border: 1px solid var(--border-tooltip);
+    border-radius: 10px;
+    box-shadow: var(--tooltip-shadow);
+
+    scrollbar-color: var(--border-tooltip) var(--surface-1);
+    scrollbar-width: thin;
+}
+
+.source-filter-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 38px;
+    padding: 8px 10px;
+
+    border-radius: 7px;
+
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.83rem;
+    font-weight: 600;
+    line-height: 1.4;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.source-filter-option::before {
+    content: "";
+    flex: 0 0 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--source-text, var(--accent-light));
+    box-shadow: 0 0 0 3px var(--source-bg, rgba(117, 170, 255, 0.1));
+}
+
+.source-filter-option[data-source=""]::before {
+    background: var(--text-muted);
+}
+
+.source-filter-option:hover,
+.source-filter-option.is-active {
+    background: var(--surface-3);
+}
+
+.source-filter-option[aria-selected="true"] {
+    color: var(--source-text, var(--accent-light));
+    background: rgba(117, 170, 255, 0.09);
+}
+
+.source-filter-option[aria-selected="true"]::after {
+    content: "✓";
+    margin-left: auto;
+    color: var(--source-text, var(--accent-light));
+    font-family: sans-serif;
+    font-size: 0.88rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .source-filter-button,
+    .source-filter-chevron {
+        transition: none;
+    }
+}
+
 
 /* ==========================================================
    TABELA
@@ -662,11 +826,11 @@ tbody tr:last-child td {
 
     padding: 3px 8px;
 
-    color: var(--accent-light);
+    color: var(--source-text, var(--accent-light));
 
-    background: rgba(117, 170, 255, 0.08);
+    background: var(--source-bg, rgba(117, 170, 255, 0.08));
 
-    border: 1px solid rgba(117, 170, 255, 0.18);
+    border: 1px solid var(--source-border, rgba(117, 170, 255, 0.18));
     border-radius: 999px;
 
     font-size: 0.72rem;
@@ -773,11 +937,11 @@ tbody tr:last-child td {
 
     padding: 5px 9px;
 
-    color: var(--accent-light);
+    color: var(--source-text, var(--accent-light));
 
-    background: rgba(117, 170, 255, 0.08);
+    background: var(--source-bg, rgba(117, 170, 255, 0.08));
 
-    border: 1px solid rgba(117, 170, 255, 0.18);
+    border: 1px solid var(--source-border, rgba(117, 170, 255, 0.18));
     border-radius: 6px;
 
     font-size: 0.67rem;
@@ -785,6 +949,67 @@ tbody tr:last-child td {
     letter-spacing: 0.12em;
 
     text-transform: uppercase;
+}
+
+/* Cores consistentes por fonte em resultados e verbetes. */
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"] {
+    --source-text: #a6c8ff;
+    --source-bg: rgba(56, 114, 225, 0.16);
+    --source-border: rgba(111, 165, 255, 0.43);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="ABBOTT-SMITH"] {
+    --source-text: #8fdbef;
+    --source-bg: rgba(28, 142, 179, 0.14);
+    --source-border: rgba(70, 196, 218, 0.36);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="BDAG"] {
+    --source-text: #c5b6ff;
+    --source-bg: rgba(115, 90, 205, 0.17);
+    --source-border: rgba(158, 136, 246, 0.42);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="LEH"] {
+    --source-text: #8be2d6;
+    --source-bg: rgba(38, 147, 131, 0.15);
+    --source-border: rgba(75, 199, 177, 0.39);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="PEREIRA"] {
+    --source-text: #edb3d2;
+    --source-bg: rgba(157, 77, 129, 0.17);
+    --source-border: rgba(212, 131, 177, 0.41);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="DGP"] {
+    --source-text: #f1d096;
+    --source-bg: rgba(159, 117, 49, 0.15);
+    --source-border: rgba(223, 173, 89, 0.40);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="HALOT"] {
+    --source-text: #b5deaa;
+    --source-bg: rgba(99, 151, 85, 0.14);
+    --source-border: rgba(144, 194, 130, 0.37);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="THAYER"] {
+    --source-text: #b8b8ff;
+    --source-bg: rgba(92, 96, 184, 0.17);
+    --source-border: rgba(151, 155, 245, 0.39);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="KBS"] {
+    --source-text: #b1c8d9;
+    --source-bg: rgba(91, 125, 147, 0.16);
+    --source-border: rgba(150, 180, 203, 0.40);
+}
+
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="CLINES"] {
+    --source-text: #ddb8ec;
+    --source-bg: rgba(132, 83, 155, 0.16);
+    --source-border: rgba(182, 134, 211, 0.39);
 }
 
 
