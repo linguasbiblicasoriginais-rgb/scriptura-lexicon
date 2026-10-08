@@ -1,0 +1,61 @@
+{
+  "source": "PEREIRA",
+  "work_branch": "chat-gpt-pereira",
+  "source_url": "https://dicionariogrego.com/",
+  "source_api": "https://api.dicionariogrego.com/",
+  "source_policy": "usar exclusivamente o conteúdo fornecido pela aplicação pública dicionariogrego.com e por sua API pública",
+  "scope": {
+    "initial_letter": "α",
+    "batch_size": 20,
+    "next_ordinal": 61,
+    "status": "lote 3 concluído"
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "start_ordinal": 1,
+      "end_ordinal": 20,
+      "start_entry": "Α, α",
+      "end_entry": "Ἀ-βασίλευτος, ον",
+      "entry_count": 20,
+      "start_source_id": 29573,
+      "end_source_id": 29590,
+      "status": "concluído"
+    },
+    {
+      "batch": 2,
+      "start_ordinal": 21,
+      "end_ordinal": 40,
+      "start_entry": "Ἀ-βάστακτος, ον",
+      "end_entry": "Ἄ-βολος, ον",
+      "entry_count": 20,
+      "start_source_id": 29591,
+      "end_source_id": 30739,
+      "status": "concluído"
+    },
+    {
+      "batch": 3,
+      "start_ordinal": 41,
+      "end_ordinal": 60,
+      "start_entry": "Ἀ-βόσκητος, ον",
+      "end_entry": "Ἁβρότης, ητός",
+      "entry_count": 20,
+      "start_source_id": 30740,
+      "end_source_id": 30758,
+      "status": "concluído"
+    }
+  ],
+  "next_entry": {
+    "ordinal": 61,
+    "source_id": 30759,
+    "searchable": "αβροτιμος",
+    "lemma": "Ἁβρότιμος, ον"
+  },
+  "editorial_rules": {
+    "exclusive_source": "dicionariogrego.com",
+    "preserve_source_reading": true,
+    "silent_correction": false,
+    "cross_lexicon_harmonization": false,
+    "ordinary_commits_touch_shared_files": false
+  }
+}
