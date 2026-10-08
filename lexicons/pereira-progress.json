@@ -1,0 +1,39 @@
+{
+  "source": "PEREIRA",
+  "work_branch": "chat-gpt-pereira",
+  "source_url": "https://dicionariogrego.com/",
+  "source_api": "https://api.dicionariogrego.com/",
+  "source_policy": "usar exclusivamente o conteúdo fornecido pela aplicação pública dicionariogrego.com e por sua API pública",
+  "scope": {
+    "initial_letter": "α",
+    "batch_size": 20,
+    "next_ordinal": 21,
+    "status": "lote 1 concluído"
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "start_ordinal": 1,
+      "end_ordinal": 20,
+      "start_entry": "Α, α",
+      "end_entry": "Ἀ-βασίλευτος, ον",
+      "entry_count": 20,
+      "start_source_id": 29573,
+      "end_source_id": 29590,
+      "status": "concluído"
+    }
+  ],
+  "next_entry": {
+    "ordinal": 21,
+    "source_id": 29591,
+    "searchable": "αβαστακτος",
+    "lemma": "Ἀ-βάστακτος, ον"
+  },
+  "editorial_rules": {
+    "exclusive_source": "dicionariogrego.com",
+    "preserve_source_reading": true,
+    "silent_correction": false,
+    "cross_lexicon_harmonization": false,
+    "ordinary_commits_touch_shared_files": false
+  }
+}
