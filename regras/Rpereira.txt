@@ -4,6 +4,8 @@ PROMPT PERMANENTE DE CONTINUIDADE — PEREIRA / SCRIPTURA LEXICON
 
 Este arquivo é a referência operacional permanente da frente PEREIRA do projeto GDHAGP / Scriptura Lexicon.
 
+O diretório regras/ é o diretório canônico para arquivos permanentes de regras, continuidade e funcionamento das diferentes frentes do projeto. Arquivos semelhantes de BDAG, LEH, DGP e outras funcionalidades devem coexistir nesse mesmo diretório, cada um com seu próprio nome de arquivo.
+
 Ele deve ser mantido dentro da branch chat-gpt-pereira e atualizado sempre que o estado, o método, a sequência, as regras, a arquitetura ou as decisões relevantes desta frente mudarem.
 
 COMANDO DE ATIVAÇÃO
@@ -15,7 +17,7 @@ Continue o processo (PEREIRA).
 o assistente deve, ANTES de realizar qualquer trabalho lexicográfico:
 
 1. acessar este arquivo:
-   Rpereira/Rpereira.txt
+   regras/Rpereira.txt
 
 2. lê-lo como fonte de continuidade;
 
@@ -163,7 +165,7 @@ lexicons/pereira-progress.json
 
 Arquivo permanente de continuidade:
 
-Rpereira/Rpereira.txt
+regras/Rpereira.txt
 
 Este arquivo de continuidade deve acompanhar a branch PEREIRA.
 
@@ -175,7 +177,7 @@ Um lote ordinário PEREIRA deve alterar:
 
 lexicons/pereira.js
 lexicons/pereira-progress.json
-Rpereira/Rpereira.txt
+regras/Rpereira.txt
 
 Não alterar durante um lote ordinário:
 
@@ -1227,7 +1229,7 @@ O commit do lote deve alterar somente:
 
 lexicons/pereira.js
 lexicons/pereira-progress.json
-Rpereira/Rpereira.txt
+regras/Rpereira.txt
 
 Qualquer outro arquivo modificado pelo lote exige investigação antes do commit.
 
@@ -1247,7 +1249,7 @@ etc.
 
 Um único commit por lote.
 
-Este arquivo Rpereira/Rpereira.txt deve ser atualizado no MESMO commit do lote.
+Este arquivo regras/Rpereira.txt deve ser atualizado no MESMO commit do lote.
 
 ======================================================================
 36. O QUE ATUALIZAR NESTE ARQUIVO APÓS CADA LOTE
@@ -1284,7 +1286,7 @@ Continue o processo (PEREIRA).
 
 executar esta sequência:
 
-1. abrir Rpereira/Rpereira.txt;
+1. abrir regras/Rpereira.txt;
 
 2. ler as regras e o estado documentado;
 
@@ -1320,7 +1322,7 @@ executar esta sequência:
 
 16. atualizar pereira-progress.json;
 
-17. atualizar Rpereira/Rpereira.txt;
+17. atualizar regras/Rpereira.txt;
 
 18. auditar conteúdo;
 
@@ -1427,7 +1429,7 @@ Continue o processo (PEREIRA).
 
 o primeiro passo obrigatório é acessar:
 
-Rpereira/Rpereira.txt
+regras/Rpereira.txt
 
 antes de continuar o trabalho.
 
