@@ -1,0 +1,55 @@
+/* DGP: convenções editoriais de exibição. Não afeta BDAG, LEH ou outras fontes. */
+
+.entry-card[data-source="DGP"] .dgp-sense-number {
+    display: inline;
+    padding: 0 0.11em;
+    border-radius: 3px;
+    color: var(--accent-light);
+    background: rgba(117, 170, 255, 0.09);
+    font-weight: 700;
+    font-variant-numeric: lining-nums;
+}
+
+.entry-card[data-source="DGP"] .dgp-citation-source {
+    color: #bdd8ff;
+    font-variant-caps: small-caps;
+    letter-spacing: 0.045em;
+    font-weight: 700;
+}
+
+.entry-card[data-source="DGP"] .dgp-citation-source strong {
+    color: inherit;
+    font-weight: inherit;
+}
+
+.entry-card[data-source="DGP"] .dgp-citation-source:hover,
+.entry-card[data-source="DGP"] .dgp-citation-source:focus {
+    color: #d4e6ff;
+}
+
+.entry-card[data-source="DGP"] .dgp-example {
+    white-space: normal;
+}
+
+.entry-card[data-source="DGP"] .dgp-example-content {
+    padding: 0.06em 0.23em;
+    border-radius: 4px;
+    color: #a0b0ca;
+    background: rgba(100, 130, 172, 0.085);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.entry-card[data-source="DGP"] .dgp-example-greek {
+    color: inherit;
+    font-style: normal;
+}
+
+.entry-card[data-source="DGP"] .dgp-example-meaning {
+    color: inherit;
+}
+
+.entry-card[data-source="DGP"] .dgp-example-meaning::before {
+    content: " — ";
+    color: #889cb9;
+}

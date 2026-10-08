@@ -2296,6 +2296,12 @@ document.addEventListener(
 
 enrichBibliographicTooltips();
 enrichBibleReferenceTooltips();
+
+/* Formatação exclusivamente visual do DGP, após os popups bibliográficos. */
+if (window.ScripturaLexicons?.DGP?.formatCards) {
+    window.ScripturaLexicons.DGP.formatCards();
+}
+
 bindTooltipEvents();
 
 
