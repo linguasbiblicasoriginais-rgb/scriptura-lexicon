@@ -2671,3 +2671,73 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 55 — registros 1381–1430
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1381,"ἀκοντισμός, οῦ (ὁ)","lançamento de dardo. 〈ἀκοντίζω〉","lançamento de dardo"],
+        [1382,"ἀκοντιστήρ, ῆρος (ὁ)","ἀκοντιστής.","ἀκοντιστής"],
+        [1383,"ἀκοντιστής, οῦ (ὁ)","1 lançador de dardo ♦ adj. 2 que fere como dardo. 〈ἀκοντίζω〉","lançador de dardo"],
+        [1384,"ἀκοντιστικός, ή, όν","1 hábil em lançar o dardo ♦ ἡ ἀκοντιστική, τὰ ἀκοντιστικά 2 a arte de lançar o dardo. 〈ἀκοντίζω〉","hábil em lançar dardo; arte do dardo"],
+        [1385,"ἀκοντιστύς, ύος (ἡ)","luta com dardos. 〈ἀκοντίζω〉","combate com dardos"],
+        [1386,"ἀκόντως","adv. de mau grado; a contragosto.","a contragosto"],
+        [1387,"ἄκοπος, ος, ον","1 que não provoca fadiga; que elimina a fadiga ou a dor 2 não fatigado; infatigável 3 não cortado; não estragado; intacto. 〈ἀ-, κόπτω〉","infatigável; intacto"],
+        [1388,"ἀκόρεστος, ος, ον","1 que não ficou saciado; insaciável de, gen. 2 que não produz saciedade; interminável. 〈ἀ-, κορέννυμι〉","insaciável; interminável"],
+        [1389,"ἀκόρετος, ος, ον","ἀκόρεστος.","ἀκόρεστος"],
+        [1390,"ἀκορής, ής, ές","ἀκόρητος.","ἀκόρητος"],
+        [1391,"ἀκόρητος, ος, ον","insaciável de, gen. 〈ἀ-, κορέννυμι〉","insaciável"],
+        [1392,"ἀκορία, ας (ἡ)","desejo insaciável. 〈ἄκορος〉","desejo insaciável"],
+        [1393,"ἄκορος, ος, ον","insaciável. 〈ἀ-, κόρος〉","insaciável"],
+        [1394,"ἄκος, εος-ους (τό)","remédio contra ou para, gen.; ἄκος οὐδέν de nada serve, inf.","remédio"],
+        [1395,"ἀκοσμέω-ῶ","1 perturbar a ordem; agir de modo vil 2 cometer infração. 〈ἄκοσμος〉","perturbar a ordem; cometer infração"],
+        [1396,"ἀκόσμητος, ος, ον","1 não ordenado; não arranjado 2 não ornado; não enfeitado. 〈ἀ, κοσμέω〉","não ordenado; não ornado"],
+        [1397,"ἀκοσμία, ας (ἡ)","1 desordem; desregramento; confusão 2 falta de ornamento. 〈ἄκοσμος〉","desordem; falta de ornamento"],
+        [1398,"ἄκοσμος, ος, ον","1 desordenado; desregrado; confuso 2 que é feito sem ordem; sem beleza. 〈ἀ-, κόσμος〉","desordenado; confuso"],
+        [1399,"ἀκόσμως","adv. 1 em desordem; perturbadamente 2 sem ornamento.","em desordem; sem ornamento"],
+        [1400,"ἀκοστάω","e ἀκοστέω (só part. aor. ἀκοστήσας Homero) comer cevada; nutrir-se. 〈ἀκοστή〉","comer cevada"],
+        [1401,"ἀκοστή, ῆς (ἡ)","cevada.","cevada"],
+        [1402,"ἀκουάζομαι","1 ouvir alguém, gen. 2 sentir-se convidado a, gen. 3 auscultar. 〈ἀκούω〉","ouvir; auscultar"],
+        [1403,"ἀκουέμεν, ἀκουέμεναι","inf. pres. ép. de ἀκούω.","infinitivo presente épico de ἀκούω"],
+        [1404,"ἀκουή","ép. = ἀκοή.","forma épica de ἀκοή"],
+        [1405,"ἄκουκα","dór. = ἀκήκοα.","forma dórica de ἀκήκοα"],
+        [1406,"ἄκουον","impf. poét. de ἀκούω.","imperfeito poético de ἀκούω"],
+        [1407,"ἄκουρος, ος, ον","sem filhos. 〈ἀ-, κοῦρος〉","sem filhos"],
+        [1408,"ἄκουσα1","fem. de ἄκων2.","feminino de ἄκων2"],
+        [1409,"ἄκουσα2","aor. poét. de ἀκούω.","aoristo poético de ἀκούω"],
+        [1410,"ἀκούσιος, ος, ον","át. 1 contrário à vontade; forçado 2 involuntário. 〈ἀ-, ἑκούσιος〉","involuntário; forçado"],
+        [1411,"ἀκουσίως","adv. 1 involuntariamente 2 a contragosto; contra a vontade de alguém, dat.","involuntariamente; a contragosto"],
+        [1412,"ἄκουσμα, ατος (τό)","1 o que se ouve; som (palavra, música) 2 notícia; relato 3 rumor; boato 4 instrução oral. 〈ἀκούω〉","som; notícia; boato"],
+        [1413,"ἀκουστέος, α, ον","adj. verb. de ἀκούω.","adjetivo verbal de ἀκούω"],
+        [1414,"ἀκουστικός, ή, όν","1 próprio para fazer ouvir 2 próprio para ouvir; disposto a ouvir, gen. ♦ τὸ ἀκουστικόν 3 a faculdade de ouvir. 〈ἀκούω〉","auditivo; faculdade de ouvir"],
+        [1415,"ἀκουστός, ή, όν","audível. 〈ἀκούω〉","audível"],
+        [1416,"ἀκούω","(fut. ἀκούσομαι, aor. ἤκουσα, perf. ἀκήκοα, m.-q.-perf. ἠκηκόειν, át. ἠκηκόη; pas. fut. ἀκουσθήσομαι, aor. ἠκούσθην, perf. ἤκουσμαι, m.-q.-perf. ἠκούσμην) 1 ouvir alguém, gen.; algo, ac. ou gen.; de alguém, gen. ou ἀπό, ἐκ, παρά, πρός e gen. 2 ouvir falar de alguém, gen., περί e gen.; ouvir dizer que, or. conj. (ὡς, ὅτι), inter., inf., part. 3 ouvir com atenção; escutar; atender a, gen. 4 ouvir falar de si; ter reputação de, ac., predic. ou adv., às vezes inf. 1 ἄκουσα θεοῦ Homero ouvi um deus, τὰ βέλτιστ’ ἀκούειν Demóstenes ouvir as melhores opiniões, κωκυτοῦ δ’ ἤκουσε Homero ouviu o urro, οὐδεὶς ἤκουσέ σου ταύτην τὴν φωνήν Demóstenes ninguém ouviu de ti essa palavra 2 πατρὸς ἀκούσας Homero tendo ouvido falar de seu pai, περὶ σοῦ ἀκούσαντες πολλὰ ἀγαθά Xenofonte tendo ouvido dizer muitas boas coisas de ti, οὐκ ἀκήκοας ὅτι ἠναγκάζετο δουλεύειν; Xenofonte não ficaste sabendo que ele era reduzido a escravo? ἐπιθυμῶ ἀκοῦσαι τίνας ἔλεγες τὰς τέτταρας πολιτείας Platão desejo ouvir quais são as quatro formas de governo que enunciavas, καὶ σὲ τὸ πρὶν ἀκούομεν ὄλβιον εἷναι Homero e ouvimos dizer que outrora eras feliz, ὡς ἤκουσαν οὐδὲν πεπραγμένον Tucídides quando souberam que nada tinha sido feito 3 λόγων ἀκουσομένους ἀφῖχθαι Platão ter vindo ouvir a discussão, Ἀναξιμάνδρου ἤκουσεν d.l. assistiu aos cursos de Anaximandro, πᾶς ὅστις ἀκούει μου τοὺς λόγους Novo Testamento todo aquele que ouve a minha palavra 4 φήμας κακὰς ἤκουσεν οὐκ αἰτία Eurípides teve má reputação, sem ser culpada, κακὸς ἀκούω Sófocles chamam-me de mau, κακῶς ἤκουεν Demóstenes falavam mal dele, εὖ ἀκούειν at. ter boa reputação, ἤκουον εἷναι πρῶτοι Heródoto tinham a reputação de ser os primeiros.","ouvir; escutar; ter notícia; ter reputação"],
+        [1417,"ἄκρα, ας (ἡ)","cf. ἄκρος.","cf. ἄκρος"],
+        [1418,"ἀκράαντος, ος, ον","ἄκραντος.","ἄκραντος"],
+        [1419,"Ἀκραγαντῖνος, η, ον","de Agrigento. 〈Ἀκράγας〉","de Agrigento"],
+        [1420,"Ἀκράγας, αντος (ὁ, ἡ)","Agrigento, rio e cidade da Sicília.","Agrigento"],
+        [1421,"ἀκραγής, ής, ές","duv. que não grita ou que grita muito forte; feroz. 〈ἀ- priv. ou intens., κράζω〉","de interpretação duvidosa; feroz"],
+        [1422,"ἀκραής, ής, ές","que sopra forte. 〈ἄκρος, ἄημι〉","que sopra forte"],
+        [1423,"ἀκραῖος, α, ον","que está na extremidade ou na parte de cima; que habita as alturas. 〈ἄκρος〉","extremo; das alturas"],
+        [1424,"ἀκραιφνής, ής, ές","1 não misturado; puro 2 intacto 3 isento de, gen. 〈ἀκέραιος, φαίνω〉","puro; intacto"],
+        [1425,"ἄκραντος, ος, ον","1 que não se cumpre; que não se realiza; vão 2 rar. que não realiza nada ♦ ἄκραντα adv. 3 em vão. 〈ἀ-, κραίνω〉","vão; não realizado"],
+        [1426,"ἀκρασία, ας (ἡ)","1 excesso; falta de medida; intemperança 2 intempérie. 〈ἀκρατής〉","excesso; intemperança"],
+        [1427,"ἀκράτεια, ας (ἡ)","1 falta de força; fraqueza 2 falta de autodomínio; intemperança. 〈ἀκρατής〉","fraqueza; intemperança"],
+        [1428,"ἀκρατεύομαι","ser intemperante 〈ἀκρατής〉","ser intemperante"],
+        [1429,"ἀκρατευτικός, ή, όν","relativo à intemperança. 〈ἀκρα­τεύομαι〉","relativo à intemperança"],
+        [1430,"ἀκρατής, ής, ές","1 sem força; débil 2 incapaz de manter o controle de, gen.: ἀ. χειρῶν, γλώσσης sem o controle das mãos, da língua 3 incapaz de moderar-se no uso de; dominado pelo amor de, gen., πρός ou περί e ac., inf.: ἀ. οἴνου ou πρὸς τὸν οἷνον imoderado no vinho, ἀ. κέρδους insaciável de lucro, ἀ. εἴργεσθαί τινος, incapaz de abster-se de alguma coisa 4 que não é senhor de si; incapaz de moderar-se: στόμα ἀ. língua desregrada, ἀ. δαπάνη gasto imoderado. 〈ἀ-, κράτος〉","fraco; sem autodomínio"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
