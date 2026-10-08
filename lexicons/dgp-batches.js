@@ -2597,3 +2597,77 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 54 — registros 1331–1380
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    if (!source.bibliographicTerms.some((term) => term.key === "cop.")) {
+        source.bibliographicTerms.push({ key: "cop.", type: "abbr", text: "copulativo (alfa copulativo)" });
+    }
+
+    const entries = [
+        [1331,"ἀκλινής, ής, ές","que não pende de nenhum lado; sem inclinação; estável; firme. 〈ἀ-, κλίνω〉","estável; firme"],
+        [1332,"ἄκλυστος, ος, ον","não atingido pelas ondas. 〈ἀ-, κλύζω〉","não atingido pelas ondas"],
+        [1333,"ἄκλυτος, ος, ον","1 não ouvido 2 sem rumor; calmo. 〈ἀ-, κλύω〉","não ouvido; calmo"],
+        [1334,"ἀκμά, ᾶς (ἡ)","dór. = ἀκμή.","forma dórica de ἀκμή"],
+        [1335,"ἀκμάζω","(impf. ἤκμαζον) 1 estar com todo o vigor; estar em pleno desenvolvimento; estar no auge 2 desabrochar; florescer; ter a plenitude da força graças a, dat. 3 ter toda a força para, inf.; impes. ἀκμάζει é o momento certo de, é tempo de, inf. 4 (fruto) estar no ponto; estar maduro. 〈ἀκμή〉","florescer; estar no auge"],
+        [1336,"ἀκμαῖος, α, ον","1 que está no auge, na plenitude; florescente; vigoroso 2 no mais alto ponto para, πρός e ac. ♦ ἀκμαῖα adv. 3 no momento apropriado; na ocasião oportuna ♦ τὸ ἀκμαιότατον 4 o ponto mais alto: ἀ. τῆς ἠμέρας o ponto mais alto do dia, i.e., o meio-dia. 〈ἀκμή〉","vigoroso; momento oportuno"],
+        [1337,"ἀκμή, ῆς (ἡ)","1 ponta; extremidade 2 o ponto mais alto; ponto culminante; a melhor fase 3 ápice; apogeu, gen. 4 o melhor momento; momento oportuno para, gen., inf. ♦ ἀκμήν adv. 5 bíbl. ainda; até agora.","ápice; auge; ocasião oportuna"],
+        [1338,"ἀκμηνός, ή, όν","que está com toda a sua força; totalmente desenvolvido; maduro. 〈ἀκμή〉","plenamente desenvolvido; maduro"],
+        [1339,"ἄκμηνος, ος, ον","em jejum de algo, gen.","em jejum"],
+        [1340,"ἀκμής, ῆτος","(masc., fem. e n.) não fatigado; bem disposto. 〈ἀ-, κάμνω〉","não fatigado; bem disposto"],
+        [1341,"ἀκμόθετον, ου (τό)","banca da bigorna. 〈ἄκμων, τίθημι〉","banca da bigorna"],
+        [1342,"ἀκμόνιον, ου (τό)","pequena bigorna. 〈ἄκμων〉","pequena bigorna"],
+        [1343,"ἄκμων, ονος (ὁ)","1 bigorna 2 baluarte.","bigorna; baluarte"],
+        [1344,"ἄκνηστις, ιος (ἡ)","1 espinha dorsal 2 urtiga.","espinha dorsal; urtiga"],
+        [1345,"ἄκνισος, ος, ον","1 sem cheiro de gordura; sem sacrifício 2 sem gordura; magro; frugal (comida). 〈ἀ-, κνῖσα〉","sem gordura; frugal"],
+        [1346,"ἀκοή, ῆς (ἡ)","1 audição (sentido): ἀκοὴν ἢ ὄψιν κτᾶσθαι Platão adquirir a faculdade de ouvir ou de ver 2 ouvido: μολεῖσθαι εἰς ἀκοάν Ésquilo haver de chegar aos ouvidos 3 atenção; obediência: ὀξεῖαν ἀκοὴν τοῖς ἐμοῖς λόγοις διδούς Sófocles concedendo às minhas palavras uma viva atenção; ἀκοῇ ἀκούσετε Novo Testamento ouvireis com atenção 4 som; rumor; notícia; reputação; tradição; relato: ἕκαθεν γίγνετ’ ἀκουή Homero de longe vinha um som, ἔβη μετὰ πατρὸς ἀκουήν Homero foi buscar notícias do pai, ἀκοὰν ἁδεῖαν κλύειν Píndaro ouvir relatos agradáveis, ouvir com agrado elogios a si próprio, ter boa fama, ἀκοῆς κρείσσων Tucídides superior à sua reputação, σκοτειναὶ ἀκοαί Platão tradições obscuras 5 bíbl. pregação: Κύριε, τίς ἐπίστευσεν τῇ ἀκοῇ ἡμῶν; Novo Testamento Senhor, quem deu crédito à nossa pregação? 6 pl. aparelho auditivo; ouvido: περιβρομέεσκον ἀκουαί a.r. seus ouvidos zumbiam.","audição; ouvido; notícia; pregação"],
+        [1347,"ἀκοίμητος, ος, ον","1 que não dorme; insone 2 que não descansa; contínuo 3 sempre desperto; vigilante. 〈ἀ-, κοιμάω〉","insone; vigilante"],
+        [1348,"ἀκοινώνητος, ος, ον","1 não colocado em comum; não partilhado com alguém, gen. 2 que não tem sua parte de, gen. ou dat. 3 que não se comunica; insociável 4 que não pode ser comunicado. 〈ἀ-, κοινωνέω〉","não partilhado; insociável"],
+        [1349,"ἀκοίτης, ου (ὁ)","esposo. 〈ἀ- cop., κοίτη〉","esposo"],
+        [1350,"ἄκοιτις, ιος (ἡ)","1 esposa 2 rar. concubina. 〈ἀ- cop., κοίτη〉","esposa; concubina"],
+        [1351,"ἀκολάκευτος, ος, ον","1 que não é lisonjeado; inacessível à lisonja 2 rar. que não lisonjeia. 〈ἀ-, κολακεύω〉","não lisonjeado; não bajulador"],
+        [1352,"ἀκολασία, ας (ἡ)","falta de repressão; licenciosidade; intemperança. 〈ἀ-, κολάζω〉","licenciosidade; intemperança"],
+        [1353,"ἀκολασταίνω","(só pres., impf. ἠκολάσταινον e fut. ἀκο­λαστανῶ) entregar-se à intemperança. 〈ἀκόλαστος〉","entregar-se à intemperança"],
+        [1354,"ἀκολάστημα, ατος (τό)","ato licencioso; intemperança. 〈ἀκολασταίνω〉","ato licencioso; intemperança"],
+        [1355,"ἀκόλαστος, ος, ον","1 indisciplinado 2 intemperante; licencioso. 〈ἀ-, κολάζω〉","indisciplinado; intemperante"],
+        [1356,"ἀκολάστως","adv. indisciplinadamente; ἀ. ἔχειν ser intemperante.","indisciplinadamente; sem moderação"],
+        [1357,"ἄκολος, ου (ἡ","e ὁ) pedaço de pão; bocado.","pedaço de pão"],
+        [1358,"ἀκολουθέω-ῶ","(fut. ἀκολουθήσω, aor. ἠκολούθησα, perf. desus.) 1 andar com; seguir; acompanhar, dat., μετά e gen., σύν e dat. 2 seguir; obedecer a; conformar-se a, dat.: ἀ. τῷ ἡγουμένῳ obedecer ao chefe, ἀ. τοῖς νόμοις obedecer às leis 3 bíbl. seguir como discípulo; ser discípulo 4 ser conseqüência de; resultar de, dat.: δικαιοσύνῃ ἀκολουθοῦσιν αἱ ἄλλαι ἀρεταί artt. à justiça seguem as outras virtudes; impes. ἀκολουθεῖ segue-se 5 ser análogo ou correspondente a, dat. 〈ἀκόλουθος〉","seguir; acompanhar; obedecer"],
+        [1359,"ἀκολούθησις, εως (ἡ)","1 ação de seguir; acompanhamento; obediência a, dat. 2 conseqüência. 〈ἀκόλουθος〉","acompanhamento; obediência; consequência"],
+        [1360,"ἀκολουθητέον","adj. verb. de ἀκολουθέω.","adjetivo verbal de ἀκολουθέω"],
+        [1361,"ἀκολουθητικός, ή, όν","disposto a seguir, a obedecer de bom grado a, dat. 〈ἀκόλουθος〉","disposto a seguir e obedecer"],
+        [1362,"ἀκολουθία, ας (ἡ)","1 comitiva; acompanhamento 2 con- formidade; obediência 3 sucessão; seqüência. 〈ἀκό- λουθος〉","comitiva; obediência; sequência"],
+        [1363,"ἀκόλουθος, ος, ον","1 que segue; que acompanha; seguidor de, dat. ou gen. 2 que age ou está em conformidade com, dat. ou gen. 3 resultante de; conseqüente de, dat. ou gen. ♦ ὁ, ἡ ἀκόλουθος 4 acompanhante; servidor; οἱ ἀκόλουθοι o séquito ♦ τὸ ἀκόλουθον 5 conseqüência; resultado. 〈ἀ- cop., κέλευθος〉","seguidor; acompanhante; consequente"],
+        [1364,"ἄκολπος, ος, ον","sem entranhas; sem aparelho genital. 〈ἀ-, κόλπος〉","sem entranhas; sem aparelho genital"],
+        [1365,"ἀκόλυμβος, ος, ον","incapaz de nadar. 〈ἀ-, κόλυμβος〉","incapaz de nadar"],
+        [1366,"ἀκομιστία, ας (ἡ)","incúria; negligência. 〈ἀ-, κομίζω〉","negligência; incúria"],
+        [1367,"ἄκομος, ος, ον","sem cabelo; calvo. 〈ἀ-, κόμη〉","sem cabelo; calvo"],
+        [1368,"ἀκόμπαστος, ος, ον","que não se vangloria; modesto. 〈ἀ-, κομπάζω〉","modesto; sem vanglória"],
+        [1369,"ἄκομπος, ος, ον","ἀκόμπαστος.","ἀκόμπαστος"],
+        [1370,"ἄκομψος, ος, ον","não adornado; sem elegância; rude. 〈ἀ-, κομψός〉","rude; deselegante"],
+        [1371,"ἀκόμψως","adv. deselegantemente; de modo rude.","deselegantemente; rudemente"],
+        [1372,"ἀκονάω-ῶ","(fut. ἀκονήσω, aor. ἠκόνησα; perf. pas. ἠκό­νημαι) 1 tornar pontudo; afiar 2 excitar; estimular. 〈ἀκόνη〉","afiar; estimular"],
+        [1373,"ἀκόνδυλος, ος, ον","sem golpes; sem socos. 〈ἀ-, κόνδυλος〉","sem socos; sem golpes"],
+        [1374,"ἀκόνη, ης (ἡ)","1 pedra de amolar 2 pedaço de pedra (de toque, de chumbo, pedra-pomes).","pedra de amolar"],
+        [1375,"ἀκονιτί","adv. sem a poeira da luta; sem luta; sem esforço. 〈ἀ-, κονίω〉","sem luta; sem esforço"],
+        [1376,"ἀκοντί","adv. = ἀκόντως","ἀκόντως"],
+        [1377,"ἀκοντίζω","(impf. ἠκόντιζον, fut. ἀκοντιῶ, aor. ἠκόντισα, perf. desus.) 1 lançar o dardo contra, gen., εἰς e ac., ἐπί e dat. 2 atingir com o dardo 3 lançar; desferir: ἀ. δοῦρα Homero arremessar lanças 4 golpear 5 intr. dardejar, cintilar ♦ méd. 6 penetrar como um dardo. 〈ἄκων1〉","lançar dardo; atingir"],
+        [1378,"ἀκόντιον, ου (τό)","1 dardo 2 exercício com o dardo. 〈ἄκων1〉","dardo; exercício com dardo"],
+        [1379,"ἀκόντισις, εως (ἡ)","lançamento de dardo. 〈ἀκοντίζω〉","lançamento de dardo"],
+        [1380,"ἀκόντισμα, ατος (τό)","1 alcance do dardo 2 dardo lançado; dardo 3 pl. lançadores de dardo. 〈ἀκοντίζω〉","alcance do dardo; dardo; lançadores de dardo"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
