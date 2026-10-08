@@ -2227,3 +2227,82 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 49 — registros 1081–1130
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Teofrasto", type: "biblio", text: "Teofrasto — filósofo grego dos séculos IV–III a.C., discípulo e sucessor de Aristóteles no Liceu." },
+        { key: "Políbio", type: "biblio", text: "Políbio — historiador grego dos séculos III–II a.C., autor das Histórias." },
+        { key: "Septuaginta", type: "biblio", text: "Septuaginta — tradução grega antiga das Escrituras hebraicas e de outros livros judaicos." },
+        { key: "Antifonte", type: "biblio", text: "Antifonte — orador ateniense do século V a.C., tradicionalmente incluído entre os dez oradores áticos." },
+        { key: "Novo Testamento", type: "biblio", text: "Novo Testamento — corpus grego cristão citado pelo DGP." },
+        { key: "predic.", type: "abbr", text: "predicativo" },
+        { key: "suj.", type: "abbr", text: "sujeito" }
+    );
+    const entries = [
+        [1081,"αἰπυμήτης, ου","voc. αἰπυμῆτα (masc.) que tem pensamentos elevados. 〈αἰπύς, μῆτις〉","de pensamentos elevados"],
+        [1082,"αἰπύνωτος, ος, ον","situado no cume da montanha. 〈αἰπύς, νῶτον〉","situado no cume"],
+        [1083,"αἰπύς, εῖα, ύ","poét. 1 alto e escarpado; alto e abrupto; elevado 2 difícil de atingir; árduo: αἰπύ οἱ ἐσσεῖται Homero ser-lhe-á difícil 3 pendurado do alto: ἁψαμένη βρόχον αἰπύν Homero suspensa de laço mortal 4 próprio para precipitar-se 5 profundo 6 que se eleva muito alto; retumbante ♦ τὸ Αἰπύ 7 Epi, “a Escarpada”, cidade do país de Nestor.","alto; escarpado; árduo; profundo"],
+        [1084,"Αἰπύτιος, α, ον","de Épito. 〈Αἴπυτος〉","de Épito"],
+        [1085,"Αἴπυτος, ου (ὁ)","Épito, rei da Arcádia.","Épito"],
+        [1086,"αἱρέσιμος, α, ον","que se pode submeter; conquistável. 〈αἱρέω〉","conquistável"],
+        [1087,"αἵρεσις, εως (ἡ)","1 ação de tomar; tomada; conquista: αἵρεσις δυνάμεως tomada do poder 2 escolha: αἵρεσιν διδόναι ou νέμειν deixar a escolha a alguém, dat.; αἵρεσιν λαμβάνειν ter a escolha, οὐκ ἔχειν αἵρεσιν não admitir escolha 3 escolha por voto; eleição 4 função eletiva; magistratura 5 preferência; inclinação; apego a, πρός e ac. 6 desígnio; intenção 7 estudo específico 8 escola;doutrina filosófica; seita 9 crist. heresia. 〈αἱρέω〉","tomada; escolha; eleição; escola; heresia"],
+        [1088,"αἱρετέος, α, ον","adj. verb. de αἱρέω.","adjetivo verbal de αἱρέω"],
+        [1089,"αἱρετίζω","(aor. ᾑρέτισα, perf. ᾑρέτικα) preferir; aderir a; escolher, ac. ou inf. 〈αἱρετός〉","preferir; escolher"],
+        [1090,"αἱρετικός, ή, όν","1 que escolhe; que adere a, gen. 2 crist. que toma partido; sectário 3 crist. que causa divisão; faccioso; herético 4 Astrol. escolhido ou designado para nascer sob uma constelação. 〈αἱρετός〉","sectário; faccioso; herético"],
+        [1091,"αἱρετός, ή, όν","1 que pode ser tomado 2 que pode ser apreendido ou compreendido 3 que tem probabilidade de ser escolhido; desejável 4 escolhido; eleito: δικασταὶ αἱρετοί juízes eleitos, αἱρετὴ ἀρχή magistratura eletiva ♦ οἱ αἱρετοί 5 os escolhidos ou eleitos para uma delegação; delegados; comissários. 〈αἱρέω〉","tomável; desejável; escolhido"],
+        [1092,"αἱρεύμενος","part. pres. méd. jôn. de αἱρέω.","particípio presente médio jônico de αἱρέω"],
+        [1093,"αἱρέω-ῶ","(impf. ᾕρουν, fut. αἱρήσω, aor.2 εἷλον, perf. ᾕρηκα; pas. fut. αἱρεθήσομαι, aor. ᾑρέθην, perf. ᾕρημαι) ativa 1 pegar; tomar pela força; agarrar 2 capturar; apoderar-se de; vencer 3 prender alguém; surpreender alguém no ato 4 condenar; provar alguma coisa; vencer uma causa 5 conquistar 6 apreender pela razão; compreender média 7 tomar para si 8 escolher; preferir 9 eleger 1 χειρὸς ἑλόντ’ ἀγέμεν Homero tendo[-a] tomado pela mão, conduzi-a, τρίαιναν ἑλὼν χερσὶ στιβαρῇσιν Homero tendo ele agarrado seu tridente com as mãos vigorosas, ἄξω ἑλών Homero tendo[-a] tomado pela força, trarei, i.e., vou trazê-la à força 2 ζωοὺς ἕλον πολλούς Homero capturaram muitos deles vivos, ἡ γὰρ φύσις παραμένουσ’ αἱρεῖ κακά Eurípides a natureza, mantendo-se firme, vence os males, ἐμὲ χλωρὸν δέος ᾕρει Homero invadia-me um lívido temor 3 φῶρα κλοπῇ ἑλεῖν Platão apanhar um ladrão em flagrante, τήνδ’ εἵλομεν θάπτουσαν Eurípides nós a surpreendemos enquanto sepultava (o morto) 4 εἷλε σ’ ἡ Δίκη Eurípides a Justiça te condenou, ἀλλά σε κλέπτονθ’ αἱρήσω Aristófanes mas provarei que roubas, αἱρεῖν δίκην Demóstenes ganhar um processo 5 μεγάλα δ’ ἐπινοεῖς ἑλεῖν Eurípides grandes prêmios planejas conquistar, αἱρεῖν κῦδος Homero obter a glória 6 εἴπερ ἱκανῶς μέλλομεν τὴν ὑφαντικὴν αἱρήσειν Platão se é que vamos compreender suficientemente a arte do tecelão, ὁ λόγος οὕτω αἰρέει Heródoto a razão assim apreende 7 δόρπον ἕλοντο Homero tomaram a refeição, ὅρκον ἕλωμαι Homero se eu obtivesse um juramento 8 ἀλήτην βίον εἵλευ Heródoto escolheste uma vida errante, τοῖς ἄλλοις τὴν δουλείαν αἱρουμένοις συγγνώμην εἷχον Isócrates aos outros, por preferirem a servidão, perdoavam 9 αἱροῦνται αὐτὸν ἄρχοντα τῆς εἰς Μήδους στρατείας Xenofonte elegem-no chefe da expedição contra os medos.","tomar; conquistar; compreender; escolher; eleger"],
+        [1094,"ἄϊρος","em Ἴρος ἄϊρος Homero Iros que não é Iros, Iros infeliz. 〈ἀ-, Ἴρος〉","Iros infeliz"],
+        [1095,"αἴρω","(impf. ᾖρον, fut. ἀρῶ, aor. ἦρα, perf. ἦρχα; pas. fut. ἀρθήσομαι, aor. ἤρθην, perf. ἦρμαι) ativa 1 levantar; erguer 2 pegar para levar ou trazer; transportar 3 tomar; tirar algo, ac., de, ἀπό e gen.; tomar sobre si; suportar 4 elevar; exaltar; exagerar 5 elevar; fazer crescer 6 levar para fora; fazer desaparecer; expulsar algo, ac., de, ἐκ e gen. 7 lançar ao mar (navio); fazer partir 8 intr. partir média 9 erguer; elevar, tomar 10 tomar nas mãos; empreender; assumir; suportar 11 tomar para si; alcançar; obter 12 fazer desaparecer 1 μύδρους αἴρειν χεροῖν Sófocles levantar com as mãos ferros em brasa, αἴρειν μηχανάς Platão erguer a maquinaria (de teatro), ἕως ἂν τὸ τεῖχος ἱκανὸν αἴρωσιν tuc. até que eles ergam um muro que seja suficiente 2 μή μοι οἷνον ἄειρε Homero não me tragas vinho, μῆλα ἄειραν νηυσί Homero transportaram rebanhos nas naus 3 ἄρας τι τῶν ἀπὸ τραπέζης Teofrasto tendo tomado da mesa uma das iguarias, αἴρειν ὕδωρ Aristófanes tirar água, ἄρατε τὸν ζυγόν μου ἐφ’ ὑμᾶς Novo Testamento tomai o meu jugo sobre vós 4 πολλῷ ἐπαίνῳ ὑψηλὸν ἀρῶ Eurípides com muito louvor (te) elevarei às alturas, τῷ λόγῳ τὸ πρᾶγμ’ ἐγὼ νῦν αἴρω Demóstenes agora com a palavra exalto a ação, ἐπὶ μείζον τῷ λόγῳ αἴρειν plut. exagerar com a palavra 5 ὄλβον Δαρεῖος ἦρεν ésql. Dario fez crescer a prosperidade, αἴρειν θάρσος Eurípides tomar coragem 6 τούσδ’ ἱκτῆρας κλάδους ἄρατε Sófocles retirai esses ramos suplicantes, αἴρειν ἐκ πόλεως Platão expulsar (alguém) da cidade, αἴρειν τὸν πόλεμον Políbio fazer cessar a guerra, αἴρειν τὴν ἁμαρτίαν Septuaginta abolir o pecado 7 τὰς ναῦς ἄραντες tuc. tendo eles lançado as naus ao mar, αἴρειν βουλόμενος καὶ πλεῖν ἐπὶ τὸν Ἰσθμόν plut. querendo levantar âncora e navegar para o istmo de Corinto 8 αἴρειν τῷ στράτῳ tuc. partir com o exército 9 αἴρεσθαι τὰ ἱστία plut. içar as velas, αἴρεσθαι φορτίον Demóstenes erguer um fardo, αἴρεσθαι φωνήν Aristófanes elevar a voz 10 πρεσβύτερός τε ἤδη εἰμὶ καὶ βαρὺς ἀείρεσθαι Heródoto já sou muito velho e lento para tomar iniciativa, ἄρασθαι πόλεμον ésql. empreender uma guerra, κίνδυνον ἀράμενος Antifonte tendo ele assumido o perigo, ἐκείνῳ δυσμένειαν ἠράμην Eurípides enfrentei sua inimizade 11 αἴρεσθαι νίκας, κλέος, κῦδος, alcançar vitórias, glória, renome 12 αἴρεσθαι πόλιν Dionísio de Halicarnasso destruir uma cidade.","levantar; transportar; tirar; partir; assumir; obter"],
+        [1096,"Ἄϊς","(só gen. Ἄϊδος, dat. Ἄϊδι, ac. Ἄϊδα) = Ἀΐδης.","forma de Ἀΐδης"],
+        [1097,"αἷσα, ης (ἡ)","1 parte; porção: αἷσα χθονός Píndaro porção de terra 2 parte destinada a cada um; quinhão; destino: αἷσά μοι ἐστί Homero é meu destino, inf. 3 medida; regra; conveniência: κατ’ αἷσαν, ἐν αἷσᾳ como convém; παρὰ ou ὑπὲρ αἷσαν Homero além do conveniente 4 decreto; decisão de um deus: Διὸς ὑπὲρ αἷσαν Homero contra a vontade de Zeus 5 Αἷσα person. Esa, o Destino.","parte; destino; medida; decreto; Esa"],
+        [1098,"αἰσθάνομαι","(impf. ᾐσθανόμην, fut. αἰσθήσομαι, aor.2 ᾐσθόμην, perf. ᾔσθημαι) 1 perceber pelos sentidos ou pela mente; ouvir; ver; sentir; perceber, gen. ou ac., com part. predic. do suj., com ac. ou gen. e part., com ὅτι: ὥς μοι πολλὰς μὲν θρήνων ᾠδάς, πολλὰς δ’ ᾔσθου πλαγάς Sófocles quantos cantos de dor (ouviste) de mim, tantos golpes me (viste dar), ᾔσθησαί μου ψευδομαρτυροῦντος; Xenofonte percebeste que eu dava falso testemunho? 2 ser inteligente; ter consciência de si; estar em plena posse das faculdades: ἐπεβίων δὲ παντὸς αὐτοῦ αἰσθόμενός τε τῇ ἡλικίᾳ tuc. vivi-a [a guerra] inteira, pela idade que tinha, em plena posse de minhas faculdades. 〈ἀΐω〉","perceber; sentir; compreender"],
+        [1099,"ἄϊσθε","3a. sing. impf. poét. de ἀΐσθω.","imperfeito poético de ἀΐσθω"],
+        [1100,"αἴσθημα, ατος (τό)","1 o sentir, sensação 2 o objeto de sen­sação, o sentido. 〈αἰσθάναομαι〉","sensação; objeto de sensação"],
+        [1101,"αἴσθησις, εως (ἡ)","1 percepção pelos sentidos; faculdade de sentir: πᾶσαν αἴσθησιν αἰσθάνεσθαι Platão experimentar toda e qualquer sensação 2 percepção pela inteligência; noção; conhecimento: αἴσθησιν λαμβάνειν, ἔχειν ter a sensação, a percepção de algo, gen., αἴσθησιν παρέχειν, ποιεῖν fazer ver, fazer compreender a alguém, gen. 3 órgão dos sentidos 4 pl. os sentidos 5 rasto; pista. 〈αἰσθάνομαι〉","percepção; conhecimento; sentidos"],
+        [1102,"αἰσθήσομαι","fut. de αἰσθάνομαι.","futuro de αἰσθάνομαι"],
+        [1103,"αἰσθητήριον, ου (τό)","1 órgão dos sentidos 2 bíbl. pl. sentidos, faculdades, poder de discernimento. 〈αἰσθάνομαι〉","órgão dos sentidos; discernimento"],
+        [1104,"αἰσθητικός, ή, όν","1 capaz de perceber algo, gen.: ἡ αἰσ­θητικὴ δύναμις a faculdade de sentir 2 apreensível pelos sentidos; sensível. 〈αἰσθητός〉","capaz de perceber; sensível"],
+        [1105,"αἰσθητικῶς","adv. sensivelmente. 〈αἰσθάνομαι〉","sensivelmente"],
+        [1106,"αἰσθητός, ή, όν","sensível; perceptível. 〈αἰσθάνομαι〉","sensível; perceptível"],
+        [1107,"αἰσθητῶς","adv. de maneira sensível; sensivelmente.","sensivelmente"],
+        [1108,"αἴσθομαι","(só pres.) = αἰσθάνομαι.","forma de αἰσθάνομαι"],
+        [1109,"αΐσθω","(só part. pres. ἀΐσθων e 3ª sing. impf. ép. ἄισθε) exalar, soprar: αὐτὰρ ὁ θυμὸν αἴσθε Homero então exalou seu sopro de vida.","exalar; soprar"],
+        [1110,"αἰσιμία, ας (ἡ)","duv. proveito; fruição ou repartição justa. 〈αἴσιμος〉","proveito; repartição justa"],
+        [1111,"αἴσιμος, ος","e η, ον 1 fixado pelo destino; fatal: αἴσιμόν ἐστι Homero é fatal 2 conforme a norma, conveniente; justo: αἴσιμα εἰδώς Homero de espírito prudente, αἴσιμα εἰπεῖν Homero dizer coisas adequadas, πρὶν δὲ φρένας αἰσίμη ἦσθα Homero outrora eras bem equilibrada de sentimentos ♦ αἴσιμα adv. 4 com medida, com moderação. 〈αἷσα〉","fatal; conveniente; justo"],
+        [1112,"αἰσιόομαι-οῦμαι","considerar de bom augúrio. 〈αἴσιος〉","considerar de bom augúrio"],
+        [1113,"αἴσιος, ος","e α, ον 1 oportuno; favorável 2 que acontece segundo a regra; conveniente; justo. 〈αἷσα〉","oportuno; favorável; justo"],
+        [1114,"ἀΐσσω,","at. ᾄσσω, ᾄττω e ἄττω (impf. ἤϊσσον e ᾖσσον; fut. ἀΐξω e ᾄξω; aor.ἤϊξα e ᾖξα; perf. desus.; pas. aor. ἠΐχθην) 1 mover-se rapidamente; lançar-se; saltar: ἀ. ἔγχεϊ Homero precipitar-se para frente com a lança, δούρατα ἐκ χειρῶν ἤϊξαν Homero as lanças saltaram de suas mãos 2 precipitar-se em; esforçar-se para, inf. ou εἰς e ac.: οὐδ’ ᾖξας εἰς ἔρευναν ἐξευρεῖν γονάς; Eurípides não te apressaste na busca para achar teus pais? 3 (pres. e aor.) mover rapidamente; agitar: ἀ. χέρα Sófocles mover a mão, διά μου κεφαλῆς ᾄσσουσ’ ὀδύναι Eurípides pela minha cabeça agitam-se dores ♦ méd. 4 precipitar-se; agitar-se: πυλάων ἀντίον ἀΐζασθαι Homero lançar-se contra as portas, κόμη δι᾽ αὔρας ᾄσσεται Sófocles os cabelos agitam-se ao vento.","lançar-se; saltar; agitar-se"],
+        [1115,"ἄϊστος,","contr. αἶστος, ος, ον 1 não visto; invisível; desaparecido 2 desconhecido; obscuro 3 que não vê; que não conhece, gen. 〈ἀ-, ἰδεῖν〉","invisível; desconhecido"],
+        [1116,"ἀϊστόω-ῶ","(fut. ἀϊστώσω, aor. ἠΐστωσα e ᾔστωσα, perf. desus.; pas. aor. ép. 3ª pl. ἀϊστώθησαν) 1 tornar invisível; fazer desaparecer; destruir ♦ pas. 2 aor. desaparecer. 〈ἄϊστος〉","fazer desaparecer; destruir"],
+        [1117,"αἰσυλοεργός, ός, όν","que pratica atos ímpios; malvado. 〈αἴσυλος, ἔργον〉","ímpio; malvado"],
+        [1118,"αἴσυλος, ος, ον","ímpio; inconveniente; mau.","ímpio; inconveniente; mau"],
+        [1119,"Αἰσύμηθεν","adv. de Esima, cidade da Trácia.","de Esima"],
+        [1120,"αἰσυμνάω-ῶ","(só pres.) dirigir; governar, gen. 〈αἷσα〉","dirigir; governar"],
+        [1121,"αἰσυμνήτηρ, ῆρος (ὁ)","governador; príncipe.","governador; príncipe"],
+        [1122,"αἰσυμνήτης, ου (ὁ)","organizador de jogos; supervisor; árbitro.","organizador; supervisor; árbitro"],
+        [1123,"Αἰσχίνης, ου (ὁ)","Ésquines, orador ateniense, rival de Demóstenes.","Ésquines"],
+        [1124,"αἴσχιστος, η, ον","superl. de αἰσχρός.","superlativo de αἰσχρός"],
+        [1125,"αἰσχίων, ων, ον","gen. ονος comp. de αἰσχρός.","comparativo de αἰσχρός"],
+        [1126,"αἷσχος, εος-ους (τό)","1 opróbrio; vergonha; infâmia 2 pl. atos ou palavras vergonhosas 3 deformidade física; feiúra.","opróbrio; vergonha; feiúra"],
+        [1127,"αἰσχροκέρδεια, ας (ἡ)","ganância; cupidez. 〈αἰσχροκερδής〉","ganância; cupidez"],
+        [1128,"αἰσχροκερδής, ής, ές","ávido de ganho; cúpido; avaro. 〈αἰσχρός, κέρδος〉","cúpido; avaro"],
+        [1129,"αἰσχροκερδῶς","adv. com ganância; com ambição sórdida.","com ganância"],
+        [1130,"αἰσχρολογία, ας (ἡ)","fala indecente; obscenidade. 〈αἰσχρός, λόγος〉","fala indecente; obscenidade"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
