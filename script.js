@@ -54,8 +54,27 @@ externalLexiconSources.forEach(function (source) {
 });
 
 
+/* As etiquetas usam a mesma cor por fonte, mesmo nos módulos externos. */
+document.querySelectorAll(".source-pill, .source-tag").forEach(function (label) {
+    const sourceName = label.textContent.trim().toUpperCase();
+
+    if (sourceName) {
+        label.dataset.source = sourceName;
+    }
+});
+
+
 const searchInput = document.getElementById("search-input");
 const sourceFilter = document.getElementById("source-filter");
+const sourceFilterBox = document.querySelector(".source-filter-box");
+const sourceCombobox = document.getElementById("source-combobox");
+const sourceFilterButton = document.getElementById("source-filter-button");
+const sourceFilterLabel = document.getElementById("source-filter-label");
+const sourceFilterOptions = document.getElementById("source-filter-options");
+
+let activeSourceOptionIndex = 0;
+let sourceTypeahead = "";
+let sourceTypeaheadTime = 0;
 const searchTableWrapper = document.getElementById("search-table-wrapper");
 
 const searchRows = Array.from(
@@ -80,6 +99,10 @@ const menuBackdrop = document.getElementById("menu-backdrop");
 const dictionaryOptions = Array.from(
     document.querySelectorAll(".dictionary-option")
 );
+const themeInputs = Array.from(
+    document.querySelectorAll('input[name="site-theme"]')
+);
+const themeColorMeta = document.querySelector('meta[name="theme-color"]');
 
 const lexicalTooltip = document.getElementById("lexical-tooltip");
 
@@ -1234,6 +1257,34 @@ function closeDictionaryMenu(returnFocus) {
 
 
 /* ==========================================================
+   APARÊNCIA — ALTERNÂNCIA SEM RECARREGAMENTO
+   ========================================================== */
+
+function applyTheme(theme, persist) {
+    const chosenTheme = theme === "light" ? "light" : "dark";
+
+    document.documentElement.dataset.theme = chosenTheme;
+
+    themeInputs.forEach(function (input) {
+        input.checked = input.value === chosenTheme;
+    });
+
+    if (themeColorMeta) {
+        themeColorMeta.content =
+            chosenTheme === "light" ? "#f4f7fc" : "#071d3a";
+    }
+
+    if (persist) {
+        try {
+            localStorage.setItem("scriptura-lexicon-theme", chosenTheme);
+        } catch (error) {
+            // A alternância funciona mesmo com armazenamento indisponível.
+        }
+    }
+}
+
+
+/* ==========================================================
    DICIONÁRIOS
    ========================================================== */
 
@@ -1316,6 +1367,121 @@ function populateSourceFilter() {
         stillAvailable
             ? previousValue
             : "";
+
+    syncSourceCombobox();
+}
+
+
+/* ==========================================================
+   SELETOR VISUAL DE FONTES
+   ========================================================== */
+
+function syncSourceCombobox() {
+    const selected = sourceFilter.selectedOptions[0];
+
+    sourceFilterLabel.textContent =
+        selected ? selected.textContent : "Todas as fontes";
+
+    sourceFilterOptions.replaceChildren();
+
+    Array.from(sourceFilter.options).forEach(function (option, index) {
+        const item = document.createElement("div");
+
+        item.id = "source-filter-option-" + index;
+        item.className = "source-filter-option";
+        item.dataset.source = option.value;
+        item.setAttribute("role", "option");
+        item.setAttribute(
+            "aria-selected",
+            String(option.value === sourceFilter.value)
+        );
+        item.textContent = option.textContent;
+
+        item.addEventListener("pointerenter", function () {
+            if (!sourceFilterOptions.hidden) {
+                setActiveSourceOption(index, false);
+            }
+        });
+
+        item.addEventListener("click", function () {
+            selectSourceOption(index);
+        });
+
+        sourceFilterOptions.appendChild(item);
+    });
+
+    activeSourceOptionIndex = Math.max(
+        0,
+        Array.from(sourceFilter.options).findIndex(function (option) {
+            return option.value === sourceFilter.value;
+        })
+    );
+
+    closeSourceCombobox(false);
+}
+
+function setActiveSourceOption(index, shouldScroll) {
+    const options = Array.from(sourceFilterOptions.children);
+
+    if (!options.length) {
+        return;
+    }
+
+    activeSourceOptionIndex = Math.max(
+        0,
+        Math.min(index, options.length - 1)
+    );
+
+    options.forEach(function (option, position) {
+        option.classList.toggle(
+            "is-active",
+            position === activeSourceOptionIndex
+        );
+    });
+
+    if (!sourceFilterOptions.hidden) {
+        sourceFilterButton.setAttribute(
+            "aria-activedescendant",
+            options[activeSourceOptionIndex].id
+        );
+    }
+
+    if (shouldScroll !== false) {
+        options[activeSourceOptionIndex].scrollIntoView({
+            block: "nearest"
+        });
+    }
+}
+
+function openSourceCombobox() {
+    sourceFilterOptions.hidden = false;
+    sourceFilterButton.setAttribute("aria-expanded", "true");
+    setActiveSourceOption(activeSourceOptionIndex);
+}
+
+function closeSourceCombobox(restoreFocus) {
+    sourceFilterOptions.hidden = true;
+    sourceFilterButton.setAttribute("aria-expanded", "false");
+    sourceFilterButton.removeAttribute("aria-activedescendant");
+
+    if (restoreFocus) {
+        sourceFilterButton.focus();
+    }
+}
+
+function selectSourceOption(index) {
+    const option = sourceFilter.options[index];
+
+    if (!option) {
+        return;
+    }
+
+    sourceFilter.value = option.value;
+    sourceFilter.dispatchEvent(
+        new Event("change", { bubbles: true })
+    );
+
+    closeSourceCombobox(true);
 }
 
 
@@ -1894,15 +2060,132 @@ dictionaryOptions.forEach(function (option) {
     );
 });
 
+themeInputs.forEach(function (input) {
+    input.addEventListener("change", function () {
+        if (input.checked) {
+            applyTheme(input.value, true);
+        }
+    });
+});
+
 searchInput.addEventListener(
     "input",
     filterEntries
 );
 
-sourceFilter.addEventListener(
-    "change",
-    filterEntries
-);
+sourceFilter.addEventListener("change", function () {
+    syncSourceCombobox();
+    filterEntries();
+});
+
+sourceFilterButton.addEventListener("click", function () {
+    if (sourceFilterOptions.hidden) {
+        openSourceCombobox();
+    } else {
+        closeSourceCombobox(false);
+    }
+});
+
+sourceFilterButton.addEventListener("keydown", function (event) {
+    const key = event.key;
+    const isOpen = !sourceFilterOptions.hidden;
+
+    if (key === "Escape" && isOpen) {
+        event.preventDefault();
+        event.stopPropagation();
+        closeSourceCombobox(true);
+        return;
+    }
+
+    if (key === "Tab") {
+        closeSourceCombobox(false);
+        return;
+    }
+
+    if (key === "Enter" || key === " ") {
+        event.preventDefault();
+
+        if (isOpen) {
+            selectSourceOption(activeSourceOptionIndex);
+        } else {
+            openSourceCombobox();
+        }
+
+        return;
+    }
+
+    if (key === "ArrowDown" || key === "ArrowUp") {
+        event.preventDefault();
+
+        if (!isOpen) {
+            openSourceCombobox();
+        } else {
+            setActiveSourceOption(
+                activeSourceOptionIndex + (key === "ArrowDown" ? 1 : -1)
+            );
+        }
+
+        return;
+    }
+
+    if (key === "Home" || key === "End") {
+        event.preventDefault();
+
+        if (!isOpen) {
+            openSourceCombobox();
+        }
+
+        setActiveSourceOption(
+            key === "Home" ? 0 : sourceFilterOptions.children.length - 1
+        );
+
+        return;
+    }
+
+    if (
+        key.length === 1 &&
+        !event.ctrlKey &&
+        !event.metaKey &&
+        !event.altKey
+    ) {
+        const now = Date.now();
+
+        sourceTypeahead =
+            (now - sourceTypeaheadTime > 650 ? "" : sourceTypeahead) +
+            key.toLocaleUpperCase("pt-BR");
+        sourceTypeaheadTime = now;
+
+        const options = Array.from(sourceFilterOptions.children);
+        let match = options.findIndex(function (option) {
+            return option.textContent.toLocaleUpperCase("pt-BR")
+                .startsWith(sourceTypeahead);
+        });
+
+        if (match === -1) {
+            sourceTypeahead = key.toLocaleUpperCase("pt-BR");
+            match = options.findIndex(function (option) {
+                return option.textContent.toLocaleUpperCase("pt-BR")
+                    .startsWith(sourceTypeahead);
+            });
+        }
+
+        if (match !== -1) {
+            event.preventDefault();
+
+            if (!isOpen) {
+                openSourceCombobox();
+            }
+
+            setActiveSourceOption(match);
+        }
+    }
+});
+
+document.addEventListener("pointerdown", function (event) {
+    if (!sourceFilterBox.contains(event.target)) {
+        closeSourceCombobox(false);
+    }
+});
 
 searchRows.forEach(function (row) {
     row.addEventListener(
@@ -2051,6 +2334,7 @@ document.addEventListener(
    INICIALIZAÇÃO
    ========================================================== */
 
+applyTheme(document.documentElement.dataset.theme, false);
 enrichBibliographicTooltips();
 enrichBibleReferenceTooltips();
 bindTooltipEvents();
@@ -2067,6 +2351,10 @@ entryCards.forEach(function (card) {
         card.dataset.dictionary = "grego";
     }
 });
+
+/* Só ocultar o <select> nativo após instalar a interface personalizada. */
+sourceCombobox.hidden = false;
+sourceFilterBox.classList.add("is-enhanced");
 
 selectDictionary(
     dictionaryFromHash(),

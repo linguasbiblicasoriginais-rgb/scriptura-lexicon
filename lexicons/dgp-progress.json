@@ -1,0 +1,526 @@
+{
+  "source": "DGP",
+  "work_branch": "chat-gpt-dgp",
+  "source_repository": "aniseferreira/Grc-Por-DigDict",
+  "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+  "source_dataset": "DDGP-3x-files/ddgp3x-copia_8nov_22.sql",
+  "auxiliary_alphabetical_list": "DDGP-3x-files/DDGP_3x_entry_lists_in_pdf_alphabetically.zip",
+  "scope": {
+    "initial_letter": "α",
+    "batch_size": 50,
+    "next_ordinal": 1481,
+    "status": "lote 56 concluído"
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "start_ordinal": 1,
+      "end_ordinal": 20,
+      "start_entry": "Α, α (ἄλφα) (τό)",
+      "end_entry": "ἀβασίλευτος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 2,
+      "start_ordinal": 21,
+      "end_ordinal": 40,
+      "start_entry": "ἀβάστακτος, ος, ον",
+      "end_entry": "ἀβλαβῶς",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 3,
+      "start_ordinal": 41,
+      "end_ordinal": 60,
+      "start_entry": "ἀβλής, ῆτος",
+      "end_entry": "ἀβροτάζω",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 4,
+      "start_ordinal": 61,
+      "end_ordinal": 80,
+      "start_entry": "ἁβρότης, ητος (ἡ)",
+      "end_entry": "ἀγαθοεργέω-ῶ",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 5,
+      "start_ordinal": 81,
+      "end_ordinal": 100,
+      "start_entry": "ἀγαθοεργία, ας (ἡ)",
+      "end_entry": "ἄγαλμα, ατος (τό)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 6,
+      "start_ordinal": 101,
+      "end_ordinal": 120,
+      "start_entry": "ἀγαλμάτιον, ου (τό)",
+      "end_entry": "ἀγάομαι",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 7,
+      "start_ordinal": 121,
+      "end_ordinal": 140,
+      "start_entry": "ἀγαπάζω",
+      "end_entry": "ἄγγαρος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 8,
+      "start_ordinal": 141,
+      "end_ordinal": 160,
+      "start_entry": "ἀγγεῖον, ου (τό)",
+      "end_entry": "ἀγέλαστος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 9,
+      "start_ordinal": 161,
+      "end_ordinal": 180,
+      "start_entry": "ἀγελείη, ης (ἡ)",
+      "end_entry": "ἀγεννῶς",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 10,
+      "start_ordinal": 181,
+      "end_ordinal": 200,
+      "start_entry": "ἁγέομαι",
+      "end_entry": "ἄγημα, ατος (τό)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 11,
+      "start_ordinal": 201,
+      "end_ordinal": 220,
+      "start_entry": "ἅγημαι,",
+      "end_entry": "ἁγιωσύνη, ης (ἡ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 12,
+      "start_ordinal": 221,
+      "end_ordinal": 240,
+      "start_entry": "ἀγκάζομαι",
+      "end_entry": "ἀγκροτέω",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 13,
+      "start_ordinal": 241,
+      "end_ordinal": 260,
+      "start_entry": "ἀγκρούομαι",
+      "end_entry": "ἀγλαοφωτίς, ίδος (ἡ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 14,
+      "start_ordinal": 261,
+      "end_ordinal": 280,
+      "start_entry": "ἀγλαώψ, ῶπος",
+      "end_entry": "ἄγνοια, ας (ἡ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 15,
+      "start_ordinal": 281,
+      "end_ordinal": 300,
+      "start_entry": "ἀγνοιῇσι",
+      "end_entry": "ἄγοος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 16,
+      "start_ordinal": 301,
+      "end_ordinal": 320,
+      "start_entry": "ἀγορά, ᾶς (ἡ)",
+      "end_entry": "ἄγορος, ου (ὁ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 17,
+      "start_ordinal": 321,
+      "end_ordinal": 340,
+      "start_entry": "ἅγος",
+      "end_entry": "ἀγρέω-ῶ",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 18,
+      "start_ordinal": 341,
+      "end_ordinal": 360,
+      "start_entry": "ἄγρη",
+      "end_entry": "ἀγρόνδε",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 19,
+      "start_ordinal": 361,
+      "end_ordinal": 380,
+      "start_entry": "ἀγρονόμος, ος",
+      "end_entry": "ἀγυρτάζω",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 20,
+      "start_ordinal": 381,
+      "end_ordinal": 400,
+      "start_entry": "ἀγύρτης, ου (ὁ)",
+      "end_entry": "ἀγχιστεία, ας (ἡ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 21,
+      "start_ordinal": 401,
+      "end_ordinal": 420,
+      "start_entry": "ἀγχιστεῖον, ου (τό)",
+      "end_entry": "ἀγῷ, ῇς, ῇ",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 22,
+      "start_ordinal": 421,
+      "end_ordinal": 440,
+      "start_entry": "ἁγώ",
+      "end_entry": "ἀγωνοθεσία, ας (ἡ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 23,
+      "start_ordinal": 441,
+      "end_ordinal": 460,
+      "start_entry": "ἀγωνοθετέω-ῶ",
+      "end_entry": "ἀδδηκότες",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 24,
+      "start_ordinal": 461,
+      "end_ordinal": 480,
+      "start_entry": "ἄδδην",
+      "end_entry": "ἄδεκτος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 25,
+      "start_ordinal": 481,
+      "end_ordinal": 500,
+      "start_entry": "ἀδελφεά",
+      "end_entry": "ἀδευκής, ής, ές",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 26,
+      "start_ordinal": 501,
+      "end_ordinal": 520,
+      "start_entry": "ἀδέψητος, ος, ον",
+      "end_entry": "ἁδήσω",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 27,
+      "start_ordinal": 521,
+      "end_ordinal": 540,
+      "start_entry": "ἀδηφαγέω-ῶ",
+      "end_entry": "ἀδιαφθόρως",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 28,
+      "start_ordinal": 541,
+      "end_ordinal": 560,
+      "start_entry": "ἀδιαφορία, ας (ἡ)",
+      "end_entry": "ἁδινός",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 29,
+      "start_ordinal": 561,
+      "end_ordinal": 580,
+      "start_entry": "ἁδινῶς",
+      "end_entry": "ἀδόξαστος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 30,
+      "start_ordinal": 581,
+      "end_ordinal": 600,
+      "start_entry": "ἀδοξέω-ῶ",
+      "end_entry": "Ἀδριηνός",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 31,
+      "start_ordinal": 601,
+      "end_ordinal": 620,
+      "start_entry": "Ἀδρίης",
+      "end_entry": "ἀδώρητος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 32,
+      "start_ordinal": 621,
+      "end_ordinal": 640,
+      "start_entry": "ἀδωροδόκητος, ος, ον",
+      "end_entry": "ἀεικείη",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 33,
+      "start_ordinal": 641,
+      "end_ordinal": 660,
+      "start_entry": "ἀεικέλιος, η",
+      "end_entry": "ἀεκήλιος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 34,
+      "start_ordinal": 661,
+      "end_ordinal": 680,
+      "start_entry": "ἀέκητι",
+      "end_entry": "ἀέρδην",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 35,
+      "start_ordinal": 681,
+      "end_ordinal": 700,
+      "start_entry": "ἀερθείς",
+      "end_entry": "ἀεσίφρων, ων, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 36,
+      "start_ordinal": 701,
+      "end_ordinal": 720,
+      "start_entry": "ἀέσκω",
+      "end_entry": "ἀηδής, ής, ές",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 37,
+      "start_ordinal": 721,
+      "end_ordinal": 740,
+      "start_entry": "ἀηδία, ας (ἡ)",
+      "end_entry": "ἀήτης, ου (ὁ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 38,
+      "start_ordinal": 741,
+      "end_ordinal": 760,
+      "start_entry": "ἄητος, ος, ον",
+      "end_entry": "ἀθέμιτος, ος, ον",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 39,
+      "start_ordinal": 761,
+      "end_ordinal": 780,
+      "start_entry": "ἄθεος, ος, ον",
+      "end_entry": "Ἀθηναίη, ης (ἡ)",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 40,
+      "start_ordinal": 781,
+      "end_ordinal": 800,
+      "start_entry": "Ἀθήναιον, ου (τό)",
+      "end_entry": "ἀθλητικός, ή, όν",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 41,
+      "start_ordinal": 801,
+      "end_ordinal": 820,
+      "start_entry": "ἀθλητικῶς",
+      "end_entry": "ἀθρόος",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 42,
+      "start_ordinal": 821,
+      "end_ordinal": 840,
+      "start_entry": "ἀθρόως",
+      "end_entry": "αἵ",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 43,
+      "start_ordinal": 841,
+      "end_ordinal": 860,
+      "start_entry": "αἷ",
+      "end_entry": "Αἴας",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 44,
+      "start_ordinal": 861,
+      "end_ordinal": 880,
+      "start_entry": "αἴγαγρος, ου (ὁ, ἡ)",
+      "end_entry": "αἰγίλιψ, ῖπος",
+      "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 45,
+      "start_ordinal": 881,
+      "end_ordinal": 930,
+      "start_entry": "αἴγιλος, ου (ἡ)",
+      "end_entry": "αἰδόφρων, ων, ον",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 46,
+      "start_ordinal": 931,
+      "end_ordinal": 980,
+      "start_entry": "ἀϊδρεΐη, ης (ἡ)",
+      "end_entry": "αἴθω",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 47,
+      "start_ordinal": 981,
+      "end_ordinal": 1030,
+      "start_entry": "αἴθων, ονος",
+      "end_entry": "αἴνη, ης (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 48,
+      "start_ordinal": 1031,
+      "end_ordinal": 1080,
+      "start_entry": "Αἰνία, ας (ἡ)",
+      "end_entry": "αἰπός, ή, όν",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 49,
+      "start_ordinal": 1081,
+      "end_ordinal": 1130,
+      "start_entry": "αἰπυμήτης, ου",
+      "end_entry": "αἰσχρολογία, ας (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 50,
+      "start_ordinal": 1131,
+      "end_ordinal": 1180,
+      "start_entry": "αἰσχρόμητις, ιος",
+      "end_entry": "αἰχμάζω",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 51,
+      "start_ordinal": 1181,
+      "end_ordinal": 1230,
+      "start_entry": "αἰχμαλωσία, ας (ἡ)",
+      "end_entry": "Ἀκαρνάν, ᾶνος (ὁ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 52,
+      "start_ordinal": 1231,
+      "end_ordinal": 1280,
+      "start_entry": "Ἀκαρνανία, ας (ἡ)",
+      "end_entry": "ἀκεστήρ, ῆρος",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 53,
+      "start_ordinal": 1281,
+      "end_ordinal": 1330,
+      "start_entry": "ἀκεστικός, ή, όν",
+      "end_entry": "ἄκλητος, ος, ον",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 54,
+      "start_ordinal": 1331,
+      "end_ordinal": 1380,
+      "start_entry": "ἀκλινής, ής, ές",
+      "end_entry": "ἀκόντισμα, ατος (τό)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 55,
+      "start_ordinal": 1381,
+      "end_ordinal": 1430,
+      "start_entry": "ἀκοντισμός, οῦ (ὁ)",
+      "end_entry": "ἀκρατής, ής, ές",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 56,
+      "start_ordinal": 1431,
+      "end_ordinal": 1480,
+      "start_entry": "ἀκρατοποσία, ας (ἡ)",
+      "end_entry": "Ἀκροκόρινθος, ου (ὁ)",
+      "entry_count": 50,
+      "status": "concluído"
+    }
+  ],
+  "editorial_rules": {
+    "abbreviation_popups": true,
+    "author_work_rubrics": true,
+    "author_work_popup_description": true,
+    "ambiguous_abbreviations": "preservar sem expansão conjectural"
+  }
+}
