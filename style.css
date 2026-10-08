@@ -662,11 +662,11 @@ tbody tr:last-child td {
 
     padding: 3px 8px;
 
-    color: var(--accent-light);
+    color: var(--source-text, var(--accent-light));
 
-    background: rgba(117, 170, 255, 0.08);
+    background: var(--source-bg, rgba(117, 170, 255, 0.08));
 
-    border: 1px solid rgba(117, 170, 255, 0.18);
+    border: 1px solid var(--source-border, rgba(117, 170, 255, 0.18));
     border-radius: 999px;
 
     font-size: 0.72rem;
@@ -773,11 +773,11 @@ tbody tr:last-child td {
 
     padding: 5px 9px;
 
-    color: var(--accent-light);
+    color: var(--source-text, var(--accent-light));
 
-    background: rgba(117, 170, 255, 0.08);
+    background: var(--source-bg, rgba(117, 170, 255, 0.08));
 
-    border: 1px solid rgba(117, 170, 255, 0.18);
+    border: 1px solid var(--source-border, rgba(117, 170, 255, 0.18));
     border-radius: 6px;
 
     font-size: 0.67rem;
@@ -785,6 +785,67 @@ tbody tr:last-child td {
     letter-spacing: 0.12em;
 
     text-transform: uppercase;
+}
+
+/* Cores consistentes por fonte em resultados e verbetes. */
+:is(.source-pill, .source-tag)[data-source="ROBINSON"] {
+    --source-text: #a6c8ff;
+    --source-bg: rgba(56, 114, 225, 0.16);
+    --source-border: rgba(111, 165, 255, 0.43);
+}
+
+:is(.source-pill, .source-tag)[data-source="ABBOTT-SMITH"] {
+    --source-text: #8fdbef;
+    --source-bg: rgba(28, 142, 179, 0.14);
+    --source-border: rgba(70, 196, 218, 0.36);
+}
+
+:is(.source-pill, .source-tag)[data-source="BDAG"] {
+    --source-text: #c5b6ff;
+    --source-bg: rgba(115, 90, 205, 0.17);
+    --source-border: rgba(158, 136, 246, 0.42);
+}
+
+:is(.source-pill, .source-tag)[data-source="LEH"] {
+    --source-text: #8be2d6;
+    --source-bg: rgba(38, 147, 131, 0.15);
+    --source-border: rgba(75, 199, 177, 0.39);
+}
+
+:is(.source-pill, .source-tag)[data-source="PEREIRA"] {
+    --source-text: #edb3d2;
+    --source-bg: rgba(157, 77, 129, 0.17);
+    --source-border: rgba(212, 131, 177, 0.41);
+}
+
+:is(.source-pill, .source-tag)[data-source="DGP"] {
+    --source-text: #f1d096;
+    --source-bg: rgba(159, 117, 49, 0.15);
+    --source-border: rgba(223, 173, 89, 0.40);
+}
+
+:is(.source-pill, .source-tag)[data-source="HALOT"] {
+    --source-text: #b5deaa;
+    --source-bg: rgba(99, 151, 85, 0.14);
+    --source-border: rgba(144, 194, 130, 0.37);
+}
+
+:is(.source-pill, .source-tag)[data-source="THAYER"] {
+    --source-text: #b8b8ff;
+    --source-bg: rgba(92, 96, 184, 0.17);
+    --source-border: rgba(151, 155, 245, 0.39);
+}
+
+:is(.source-pill, .source-tag)[data-source="KBS"] {
+    --source-text: #b1c8d9;
+    --source-bg: rgba(91, 125, 147, 0.16);
+    --source-border: rgba(150, 180, 203, 0.40);
+}
+
+:is(.source-pill, .source-tag)[data-source="CLINES"] {
+    --source-text: #ddb8ec;
+    --source-bg: rgba(132, 83, 155, 0.16);
+    --source-border: rgba(182, 134, 211, 0.39);
 }
 
 

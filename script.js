@@ -54,6 +54,16 @@ externalLexiconSources.forEach(function (source) {
 });
 
 
+/* As etiquetas usam a mesma cor por fonte, mesmo nos módulos externos. */
+document.querySelectorAll(".source-pill, .source-tag").forEach(function (label) {
+    const sourceName = label.textContent.trim().toUpperCase();
+
+    if (sourceName) {
+        label.dataset.source = sourceName;
+    }
+});
+
+
 const searchInput = document.getElementById("search-input");
 const sourceFilter = document.getElementById("source-filter");
 const searchTableWrapper = document.getElementById("search-table-wrapper");
