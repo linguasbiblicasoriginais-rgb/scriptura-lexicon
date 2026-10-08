@@ -1,0 +1,2356 @@
+RBDAG — REGRAS PERMANENTES PARA CONTINUIDADE DA INCORPORAÇÃO DO BDAG
+GDHAGP — GRANDE DICIONÁRIO HEBRAICO–ARAMAICO–GREGO–PORTUGUÊS
+SCRIPTURA LEXICON
+EDIÇÃO CONSOLIDADA 2026-10-08 — DOCUMENTO DE REFERÊNCIA CANÔNICA
+ARQUIVO CANÔNICO: Rbdag/Rbdag.txt
+REPOSITÓRIO: linguasbiblicasoriginais-rgb/scriptura-lexicon
+BRANCH DE TRABALHO: chat-gpt-bdag
+
+NATUREZA DO DOCUMENTO
+
+Este arquivo de texto simples é a norma de continuidade do processo de incorporação do BDAG ao Scriptura Lexicon. Ele reúne instruções vigentes, estado de trabalho verificado, procedimentos lexicográficos, padrões técnicos e de auditoria, decisões metodológicas e histórico dos lotes realizados.
+
+Este documento é autocontido. Deve permitir que qualquer conversa futura, mesmo sem acesso ao histórico deste chat, retome o projeto sem pedir novamente decisões já estabelecidas e sem sobrescrever trabalho de outras conversas.
+
+A parte inicial, identificada como NORMA OPERACIONAL VIGENTE, tem prioridade sobre o ANEXO HISTÓRICO INTEGRAL. O anexo histórico conserva integralmente o conteúdo do documento original “Regras para o processo do BDAG.txt”, inclusive estados e expectativas que eram corretos no momento da redação, mas que posteriormente ficaram superados. Os princípios metodológicos do anexo continuam válidos naquilo que não contrariar as instruções atualizadas e verificações do repositório.
+
+Nenhum SHA registrado em texto substitui a consulta ao GitHub em tempo real. O HEAD verdadeiro da branch, seu conteúdo e os últimos lemas incorporados sempre prevalecem sobre snapshots.
+
+NORMA OPERACIONAL VIGENTE
+
+01. COMANDO DE ATIVAÇÃO E PRIORIDADE DE LEITURA
+
+O comando literal de ativação é:
+
+Continue o processo (BDAG).
+
+Quando o usuário escrever exatamente esse comando, ou pedir inequivocamente a continuação do trabalho BDAG:
+
+01.01. Acessar PRIMEIRO o GitHub e ler integralmente Rbdag/Rbdag.txt na branch chat-gpt-bdag.
+01.02. Não trabalhar a partir de uma cópia antiga do documento nem somente da memória do chat.
+01.03. Verificar o HEAD atual da branch e reler os dados de lexicons/bdag.js nesse exato commit.
+01.04. Se o documento canônico estiver inacessível, registrar a limitação, tentar obtê-lo por meio alternativo autorizado e não inventar estado; se não for possível confirmar, não publicar alterações.
+01.05. Carregar as fontes filológicas correspondentes ao ponto real da sequência.
+01.06. Seguir este procedimento do início ao fim; executar UM ÚNICO LOTE de vinte verbetes, salvo a exceção expressa para o final de uma letra, e concluir com commit e auditoria.
+01.07. Atualizar Rbdag/Rbdag.txt sempre que novos fatos relevantes ou decisões metodológicas alterarem o estado, o método, as fontes ou o protocolo, na mesma operação controlada de publicação do lote quando possível.
+01.08. Não criar de forma autônoma agendamentos ou tarefas futuras. A atualização será feita quando o assistente for chamado para trabalhar e houver acesso e autorização para a alteração.
+01.09. Se o usuário pedir SOMENTE revisão das regras ou do documento, não executar um lote por conta própria.
+01.10. O usuário poderá chamar este documento de RBDAG, Rbdag ou regras do BDAG; todos designam o arquivo canônico acima.
+
+02. OBJETIVO E IDENTIDADE DO PROJETO
+
+O GDHAGP / Scriptura Lexicon é projeto filológico, lexicográfico e editorial de longo prazo. A tarefa desta branch é traduzir e transpor sistematicamente os verbetes do BDAG para português brasileiro culto, preciso e técnico, mantendo a estrutura e todas as nuances lexicalmente relevantes da fonte.
+
+Não se trata de: resumo; paráfrase livre; comentário teológico; reelaboração religiosa; aplicação devocional; simplificação didática; harmonização com outro léxico; mera lista de equivalentes; reformulação editorial arbitrária.
+
+Trata-se de: tradução fiel e completa do verbete; preservação de arquitetura de sentidos, provas, variantes, debates e bibliografia; inserção no modelo HTML/JavaScript efetivo do projeto; auditoria programática e revisão filológica final; atualização segura da branch do GitHub.
+
+Separar as camadas FONTE, TRADUÇÃO, ANÁLISE e GDHAGP. Não apresentar inferência ou explicação do assistente como se tivesse sido retirada do BDAG. Sempre conservar avaliações probabilísticas e posições expressas do léxico. Não usar outras obras para reescrever silenciosamente o BDAG.
+
+03. REPOSITÓRIO, ORGANIZAÇÃO E BRANCHES
+
+Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon.
+Branch exclusiva do BDAG: chat-gpt-bdag.
+Branch de integração entre fontes: chat-gpt-commits.
+Branch de trabalho LEH: chat-gpt-leh.
+Branch principal: main.
+
+Arquivo lexicográfico da fonte BDAG: lexicons/bdag.js.
+Arquivo canônico desta regra: Rbdag/Rbdag.txt.
+Arquivos de infraestrutura compartilhada e auditoria: index.html, script.js, style.css.
+Arquivo de outra fonte, que NÃO deve ser alterado: lexicons/leh.js.
+Documento de paralelismo existente: PARALLEL_WORKFLOW.md.
+
+Propriedade de fontes: BDAG edita seus dados em lexicons/bdag.js; LEH edita seus dados em lexicons/leh.js. Nunca transplantar conteúdo entre fontes. Evitar alterações em index.html, script.js e style.css, especialmente durante desenvolvimento simultâneo. Ajustes transversais de infraestrutura exigem processo específico de integração entre branches, descrito em PARALLEL_WORKFLOW.md.
+
+EXCEÇÃO DOCUMENTAL NOVA, expressamente determinada pelo usuário: a branch chat-gpt-bdag também pode e deve manter Rbdag/Rbdag.txt quando a regra ou o estado histórico precisar ser atualizado. Essa permissão documental NÃO autoriza refatorações, alterações visuais, edições de LEH ou mudanças de infraestrutura. Em uma incorporação normal, somente lexicons/bdag.js e, quando necessário, Rbdag/Rbdag.txt podem mudar.
+
+04. FONTES E HIERARQUIA FILOLÓGICA
+
+Fonte principal para o trecho corrente da letra alfa:
+ἀνθρωποποίητος–ἄωρος.pdf.
+
+Fonte subsidiária de conferência:
+BAUER, Walter; DANKER, Frederick W.; ARNDT, William F.; GINGRICH, F. Wilbur. A Greek-English Lexicon of the New Testament and Other Early Christian Literature. 4ª ed. Chicago: University of Chicago Press, 2021. PDF integral disponível no projeto.
+
+A fonte principal contém as entradas de ἀνθρωποποίητος até ἄωρος e está em formato extraído; sua diagramação e a leitura do PDF integral devem ser consultadas quando a extração for suspeita.
+
+Conferir visualmente no PDF, quando houver dúvida:
+lema e homógrafos; acentos, espíritos e iota subscrito; separação de palavras; formas flexionadas; grego truncado; números de manuscritos; códices, siglas e papiros; referências bíblicas; abreviações; referências a autores; reconstruções entre colchetes; variantes textuais; pontuação; valores cronológicos; datas; paginação e interpretação de trechos sintaticamente difíceis.
+
+NÃO usar LEH, Robinson, Thayer, Clines, KBS ou outros léxicos como fonte substitutiva do BDAG. Caso o usuário solicite comparação explícita de fontes, mantê-la em camada distinta. Ausência de dado na fonte não autoriza invenção.
+
+Caso histórico de cautela: em ἀντοφθαλμέω, a extração confundiu Wsd 12.14 com Sb 12.14. A correção filológica foi registrada em 7705ff1a1398f2a9c7f8ea3966fdca4a40d21e63; nunca revertê-la.
+
+05. O QUE SE CONTA COMO VERBETE
+
+Todo cabeçalho autônomo do BDAG conta como entrada independente, mesmo quando curto ou remissivo:
+lemas; nomes próprios; homógrafos enumerados I e II; remissões; formas de passado e particípios; variantes; grafias alternativas; formas gregas raras; reconstruções; formas flexionadas.
+
+Entradas que contenham vários flexionamentos num único cabeçalho são UM verbete quando a fonte assim as agrupa. Não dividir um cabeçalho agrupado arbitrariamente; não fundir cabeçalhos separados.
+
+Exemplos conhecidos:
+ἄπειρος I ≠ ἄπειρος II;
+ἄπειμι I ≠ ἄπειμι II;
+ἀπαρτί ≠ ἀπάρτι;
+ἀπαχθῆναι conta sozinho;
+ἀπέβαλον conta sozinho;
+ἀπέβην conta sozinho;
+ἀπεκατεστάθην, ἀπεκατέστην formam UMA entrada, porque assim estão no cabeçalho do BDAG;
+ἀπεστάλην, ἀπέσταλκα, ἀπέστειλα formam UMA entrada;
+ἀπῆλθα, ἀπῆλθον formam UMA entrada.
+
+Nunca pular uma entrada por ser aparentemente óbvia ou apenas remeter a verbo situado em outra letra.
+
+06. REGRA DE LOTE E DELIMITAÇÃO
+
+A cada comando de continuidade, executar EXATAMENTE 20 verbetes consecutivos da fonte, do primeiro ainda não incorporado até o vigésimo. Exceção: restarem menos de 20 até o final da letra alfa, conforme a regra original.
+
+Proibir:
+um lote de 19 ou 21 por comodidade;
+dois lotes na mesma resposta;
+pular remissões ou variantes;
+adicionar mais um verbete “de brinde”;
+antecipar entrada do lote seguinte.
+
+Procedimento:
+A. identificar no código o último verbete REAL;
+B. encontrar o primeiro cabeçalho seguinte no PDF;
+C. enumerar os 20 cabeçalhos consecutivos ANTES de começar a alterar o código;
+D. conferir visualmente fronteiras do primeiro e vigésimo;
+E. traduzir os vinte sem perdas lexicográficas;
+F. incorporar no HTML existente;
+G. executar auditorias;
+H. produzir um único commit do lote (incluindo eventual atualização simultânea desta RBDAG);
+I. mover a branch com proteção de concorrência;
+J. confirmar o resultado remoto, comunicar métricas e identificar o próximo lema.
+
+07. PROTOCOLO DE FIDELIDADE LEXICOGRÁFICA
+
+Preservar a organização do BDAG:
+sentidos numerados 1, 2, 3...;
+subdivisões a, b, c; alfa, beta etc.;
+definições, glosas e sinônimos;
+condições de uso e contrastes entre sentidos;
+regência, transitividade, diátese, formas temporais e paradigmas;
+variantes gráficas, fonéticas, flexionais e de manuscrito;
+registros históricos, distribuição cronológica e atestações;
+ocorrências no Novo Testamento, LXX, literatura cristã primitiva e literatura extrabíblica;
+inscrições, papiros, fragmentos, códices e variantes (v.l.);
+bibliografia primária e secundária, argumentos lexicográficos e sintáticos;
+ressalvas editoriais e de tradutores.
+
+Não eliminar uma referência por parecer secundária. Não omitir uma observação difícil por não ter equivalente português imediato. Não substituir discussão complexa por simples lista de sinônimos.
+
+Manter os exemplos gregos em caracteres gregos politônicos, com transcrição fiel e glosa portuguesa quando a fonte a fornece. Português brasileiro culto e natural, mas sem sacrificar precisão. Marcar de maneira explícita diferenças entre literal, figurado e metonímico; uso substantivado, adjetival, adverbial, ativo, médio e passivo, quando indicados pela fonte.
+
+08. GRAUS DE CERTEZA
+
+É proibido converter em fato categórico aquilo que o BDAG descreve como:
+talvez, pode, possivelmente, provavelmente, aparentemente, parece, é incerto, v.l., leitura discutida, contexto sugere, alguns defendem, outros interpretam, é preferível, não é provável, carece de paralelos.
+
+Ao dar alternativas, conservar:
+o conjunto de hipóteses;
+o argumento que justifica cada uma;
+a posição preferida pelo BDAG, quando explicitada;
+qualquer juízo de improbabilidade ou ausência de paralelo.
+
+Não apresentar comentário filológico do assistente como palavra do BDAG. A fonte pode divergir de preferências interpretativas do usuário: a tradução da fonte deve continuar independente.
+
+09. REFERÊNCIAS, LINKS E SIGLAS
+
+Referências do Novo Testamento: reproduzir padrão da própria lexicons/bdag.js, com URLs NA28 no domínio www.die-bibel.de/en/bible/NA28/ e os códigos de livro já utilizados. Exemplos: MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, HEB, JAS, 1PE, 2PE, 1JN, 2JN, 3JN, JUD e REV.
+
+Não criar URLs de LXX, papiros, pseudepígrafos, Padres Apostólicos, inscrições ou outros materiais por suposição. Não adicionar nenhuma ocorrência do domínio beta.perseus.tufts.edu. Preferir referência textual exata sem hiperlink a link conjectural.
+
+Preservar a forma das siglas obscuras, sem expansões hipotéticas. Se identificação for segura, seguir convenção existente. Evitar substituir 'Wsd' por 'Sb', algarismos romanos por letras, números de papiros por leituras supostas, ou alterar leitura estranha sem verificar o fac-símile da fonte.
+
+10. POPUPS BIBLIOGRÁFICOS E bibliographicTerms
+
+O campo bibliographicTerms é específico de BDAG e prevalece sobre definições genéricas quando as chaves colidem, segundo o mecanismo do projeto. Não alterar definições globais durante o lote.
+
+Só acrescentar definição de popup quando:
+a abreviação realmente aparecer no lote;
+o projeto usar popup para a classe da abreviação;
+não existir já definição adequada;
+a expansão bibliográfica for segura.
+
+Antes de adicionar qualquer popup, procurar definição existente em index.html, script.js, lexicons/bdag.js e nas fontes relevantes; não duplicar. Se não houver identificação segura, conservar sigla não expandida. Auditar bibliographicTerms como inalterado caso não seja necessário adicionar nada. Informar no relatório “Popups BDAG adicionados: nenhum” ou discriminar as chaves efetivamente acrescentadas.
+
+11. ESTRUTURA HTML/JAVASCRIPT
+
+O arquivo lexicons/bdag.js abriga window.ScripturaLexicons.BDAG e seus campos source, searchAnchorId, entryAnchorId, bibliographicTerms, rowsHtml e cardsHtml.
+
+Cada nova entrada deve gerar EXATAMENTE:
+um elemento tr com class="search-row";
+um elemento article com class="entry-card".
+
+A linha deve conter data-source="BDAG", data-target exato do cartão, data-dictionary coerente, lema, classe, resumo semântico, campo de pesquisa e source-pill BDAG.
+O cartão deve conter data-source="BDAG", id único terminado em -bdag, classes e estrutura padrão já existentes: entry-header, entry-title greek, entry-meta, source-tag, entry-divider, entry-section, section-title e entry-text. Preservar greek, transliteration, separator, sense-number, reference, reference-link e demais elementos de modo consistente com os cartões vizinhos.
+
+As entradas novas devem ser acrescentadas APÓS as últimas entradas existentes em rowsHtml e cardsHtml, no mesmo alinhamento lógico, sem reorganizar registros anteriores. Replicar o estilo efetivo do HEAD atual; evitar arquitetura nova ou refatoração. Preservar HTML e JavaScript válidos, String.raw e delimitação das strings. Proteger contra duplicações de IDs, targets e tags de fechamento.
+
+Tratar homógrafos com identificadores distintos; o lema visível pode ser igual, mas os IDs jamais podem coincidir. Em formas remissivas agrupadas, guardar o cabeçalho com suas vírgulas e acentos originais.
+
+12. AUDITORIA PROGRAMÁTICA PRÉ-COMMIT
+
+Validar, contra os dados lidos no EXPECTED_HEAD:
+contagem anterior de search-row e entry-card;
+contagem nova exatamente +20 cada;
+um para um: 20 data-targets novos e 20 IDs novos;
+mesma ordem dos elementos em rowsHtml e cardsHtml;
+IDs duplicados = 0;
+data-targets duplicados = 0;
+linhas órfãs = 0;
+cartões órfãos = 0;
+novos IDs terminados em -bdag = 20/20;
+novos registros com data-source="BDAG" = 20/20;
+novas ocorrências de beta.perseus.tufts.edu = 0;
+bibliographicTerms preservado, a menos que adição necessária e segura;
+cada lema novo aparece exatamente no ponto correto da fonte;
+nenhum lema intermediário foi pulado;
+nenhuma referência, variante ou qualificação do BDAG foi omitida de modo indevido.
+
+Rever também todas as alterações por diff e, sempre que possível, realizar verificação de sintaxe JavaScript e integridade das strings HTML. Não afirmar que um teste foi executado se não foi.
+
+13. AUDITORIA GLOBAL E SEGURANÇA DE INTEGRAÇÃO
+
+Conferir index.html, lexicons/bdag.js e lexicons/leh.js quanto a IDs e data-targets duplicados ou órfãos. Verificar preservação de blobs index.html, script.js, style.css e lexicons/leh.js em relação ao HEAD inicial. A auditoria deve estar baseada no HEAD REAL lido naquele lote, e não em hashes históricos de outro chat.
+
+Recomendação adicional: comparar o commit resultante com o HEAD anterior e verificar os arquivos realmente alterados. Num lote normal, o diff deve mostrar lexicons/bdag.js e, quando atualizado, Rbdag/Rbdag.txt; nenhum outro arquivo.
+
+Se falhar alguma auditoria, não mover a branch e não declarar lote concluído.
+
+14. SEGUNDA LEITURA FILOLÓGICA
+
+Reexaminar sistematicamente os vinte verbetes contra o texto do PDF, com atenção reforçada a:
+accents/diacríticos gregos e acentos portugueses;
+espíritos suaves e ásperos;
+iota subscrito;
+letras confundidas por OCR;
+referências e versículos;
+datas, páginas, séculos e volumes;
+lemas duplicados ou homógrafos;
+formas do aoristo, perfeito, médio e passivo;
+leitura de códice D e siglas críticas;
+passagens lacunosas e palavras reconstruídas;
+itens entre colchetes;
+observações de preferência, probabilidade ou rejeição;
+comentários de traduções modernas;
+ausência de paralelos lexicais;
+identificações de manuscritos e títulos antigos.
+
+A fidelidade vence a velocidade. Havendo dúvida, investigar e não presumir.
+
+15. SEGURANÇA DE GIT E CONCORRÊNCIA
+
+Fluxo obrigatório:
+1. consultar a branch chat-gpt-bdag e registrar EXPECTED_HEAD;
+2. obter o SHA da árvore correspondente ao EXPECTED_HEAD;
+3. ler lexicons/bdag.js no EXPECTED_HEAD, assim como Rbdag/Rbdag.txt;
+4. identificar os blobs de arquivos protegidos;
+5. preparar novo conteúdo e auditar;
+6. criar blob(s) necessários;
+7. criar árvore com base exata na árvore de EXPECTED_HEAD;
+8. criar commit com parent_sha = EXPECTED_HEAD;
+9. consultar NOVAMENTE o HEAD da branch imediatamente antes de atualizar;
+10. se o HEAD estiver diferente, PARAR, refazer conteúdo e commit em cima do novo HEAD após reconciliar; não realizar atualização;
+11. se igual, mover a branch por fast-forward com force=false e expected_sha=EXPECTED_HEAD;
+12. reler a branch, confirmar HEAD final e verificar o diff;
+13. conferir métricas e integridade publicadas.
+
+NUNCA usar force push, force=true, substituição silenciosa de arquivos, recriação baseada em commit antigo ou conflito resolvido apagando alterações mais recentes. Objetos Git criados mas não publicados não devem ser anunciados como commit incorporado à branch.
+
+Em caso de falha de connector ou GitHub: relatar em que estágio o trabalho parou e o que de fato foi publicado. Não simular sucesso.
+
+16. REGRA DO ÚNICO COMMIT E ATUALIZAÇÃO DESTE ARQUIVO
+
+Cada lote lexicográfico deve resultar em UM único commit de publicação.
+
+Se o texto desta RBDAG precisar ser atualizado com o novo último lema, contagem, novas decisões filológicas ou convenções, atualizar Rbdag/Rbdag.txt no MESMO commit que modifica lexicons/bdag.js. A inclusão simultânea de um arquivo documental não representa um segundo lote lexicográfico. Não criar um commit extra apenas para repetir métricas, se for possível atualizá-las no commit do lote.
+
+IMPORTANTE SOBRE SHA AUTORREFERENCIAL: quando Rbdag/Rbdag.txt é incluído no mesmo commit de um lote, o SHA do commit novo não pode estar gravado previamente dentro de seu próprio conteúdo. Registrar o SHA do commit anterior e o estado final de conteúdo previsto; usar o histórico do GitHub para descobrir o SHA do commit que efetivamente publicou o estado. Não tentar resolver isso criando commits recursivos.
+
+Atualizações documentais autônomas são aceitáveis quando solicitadas expressamente pelo usuário ou quando corrigem instrução perigosa; não contam como lote BDAG e não autorizam modificar verbetes.
+
+A cada alteração do documento, preservar sua narrativa histórica, incorporar correções explícitas, atualizar a versão e indicar se a informação é histórica, verificada ou prevista. Evitar apagar registros históricos; corrigir de modo rastreável.
+
+17. COMUNICAÇÃO DO RESULTADO
+
+Após confirmar publicação, informar concisamente:
+fonte BDAG;
+branch;
+HEAD inicial;
+faixa do lote;
+lista dos 20 lemas;
+decisões filológicas significativas;
+incertezas e variantes relevantes;
+popups adicionados;
+contagens anterior e nova de search-row/entry-card;
+duplicações, correspondência e registros órfãos;
+alterações de bibliographicTerms;
+arquivos alterados e protegidos;
+SHA do commit publicado;
+blob de lexicons/bdag.js;
+HEAD final verificado;
+total BDAG;
+primeiro lema seguinte;
+eventual reconciliação de concorrência;
+se a RBDAG foi atualizada no mesmo commit.
+
+Não afirmar conclusão antes de constar no GitHub. Resposta concisa não significa conteúdo lexicográfico resumido.
+
+18. ESTADO VERIFICADO IMEDIATAMENTE ANTES DA PUBLICAÇÃO DESTA RBDAG
+
+Data de verificação: 08/10/2026.
+Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon.
+Branch: chat-gpt-bdag.
+HEAD lexicográfico verificado: 3fe721fa6e02b592e6c7994c7b319523ece06ad1.
+Mensagem: Adicionar lote de 20 verbetes do BDAG: ἀπέπλευσα → ἀπίδω.
+Total confirmado: 881 search-row BDAG e 881 entry-card BDAG, correspondentes.
+Último lema confirmado: ἀπίδω.
+Próximo lema esperado segundo a sequência do PDF: ἀπιστέω.
+Blob lexicográfico no commit 3fe721fa6e02b592e6c7994c7b319523ece06ad1:
+55b2f41601a3217d1e730bfc5c60cddcbe9534dc.
+
+Blobs de arquivos que continuavam inalterados:
+index.html: cd426250786c88765a86b59ffeded1fcd9284201.
+lexicons/leh.js: f1b2792697a797db43b008567b9a1721abd78919.
+script.js: afb47ba66356f6a268a3e63b13d4c3f0c30f048b.
+style.css: 5a24cbcf631d65b7a110b7a093ac151f55d074c1.
+
+No lote anterior, a auditoria confirmou:
+search-row 861 → 881;
+entry-card 861 → 881;
+novos pares 20/20;
+IDs duplicados 0;
+data-targets duplicados 0;
+linhas órfãs 0;
+cartões órfãos 0;
+novos IDs com sufixo -bdag 20/20;
+novos registros BDAG 20/20;
+novas ocorrências beta.perseus.tufts.edu 0;
+bibliographicTerms inalterado;
+popups adicionados nenhum;
+somente lexicons/bdag.js alterado no commit.
+
+ESTE HEAD É UM MARCO HISTÓRICO, NÃO UMA GARANTIA DO HEAD ATUAL. A criação do próprio Rbdag/Rbdag.txt produzirá outro commit na branch sem necessariamente modificar a contagem de verbetes. Qualquer assistente futuro deve ler o HEAD remoto primeiro e distinguir commit documental de novo lote lexicográfico.
+
+19. CRONOLOGIA DOCUMENTADA DOS LOTES E DAS CORREÇÕES
+
+Período anterior aos marcos abaixo:
+O projeto já possuía verbetes BDAG e a integração de outras fontes; a presente RBDAG conserva apenas os estados e commits comprovados no histórico que acompanha este documento. Não inventar SHA ou lemas de lotes mais antigos.
+
+Marco de referência anterior: 741 verbetes BDAG.
+
+Lote 741 → 761.
+Faixa: ἀντιστῆναι → ἄνωθεν.
+Lemas:
+ἀντιστῆναι; ἀντιστρατεύομαι; ἀντιτάσσω; ἀντίτυπος; ἀντίχριστος; ἀντίψυχον; ἀντλέω; ἄντλημα; ἀντοφθαλμέω; ἀνυβρίστως; ἄνυδρος; ἀνυπέρβλητος; ἀνυπόκριτος; ἀνυποκρίτως; ἀνυπότακτος; ἀνυστέρητος; ἄνω; ἀνῶ; ἀνώγαιον, ἀνώγεον; ἄνωθεν.
+Correção posterior comprovada: 7705ff1a1398f2a9c7f8ea3966fdca4a40d21e63, “Corrigir referência Wsd 12.14 em ἀντοφθαλμέω”.
+
+Lote 761 → 781.
+Commit: 62eee7e264b2c6393d5a6281a82d9817c2c20476.
+Faixa: ἀνωτερικός → ἀξίως.
+Lemas:
+ἀνωτερικός; ἀνώτερος; ἀνωφελής; ἀξιαγάπητος; ἀξίαγνος; ἀξιέπαινος; ἀξίνη; ἀξιόαγνος; ἀξιοεπίτευκτος; ἀξιοθαύμαστος; ἀξιόθεος; ἀξιόλογος; ἀξιομακάριστος; ἀξιονόμαστος; ἀξιόπιστος; ἀξιόπλοκος; ἀξιοπρεπής; ἄξιος; ἀξιόω; ἀξίως.
+Notas: em ἀνωφελής, “inútil” é mais provável em Tt 3.9, embora haja a nuance “prejudicial”; em ἀξιόλογος manter texto lacunoso de GMary e atribuição; em ἀξιόπιστος preservar as diferentes acepções; em ἀξιόω, o sentido “tornar digno” em 2Ts 1.11 carece de apoio lexical conforme o BDAG.
+
+Lote 781 → 801.
+Commit: 838ea386b08f72708dcd4a400f3c1aedb3907349.
+Faixa: ἀοίκητος → ἀπαντάω.
+Lemas:
+ἀοίκητος; ἄοικος; ἄοκνος; ἀόκνως; ἀόρατος; ἀόργητος; ἀπαγγέλλω; ἀπάγχω; ἀπάγω; ἀπαθής; ἀπαίδευτος; ἀπαίρω; ἀπαιτέω; ἀπαλγέω; ἀπαλλάσσω; ἀπαλλοτριόω; ἁπαλός; ἀπαναίνομαι; ἀπάνθρωπος; ἀπαντάω.
+Notas: ἀοίκητος/ἄοικος conservam relação de variante em Papias; ἀπαγγέλλω e ἀπάγω preservam regências e sentidos; ἀπαλγέω mantém duas explicações para Ef 4.19 (insensibilidade moral e desalento/desesperança); ἀπαντάω preserva alternância com ὑπαντάω.
+
+Lote 801 → 821.
+Commit: 91c886c2d0d9707a65a4b231953d2597cd65d7ca.
+Faixa: ἀπάντησις → ἀπάτωρ.
+Lemas:
+ἀπάντησις; ἅπαξ; ἁπαξαπλῶς; ἀπαράβατος; ἀπαρασκεύαστος; ἀπαρθῇ, -ῶ; ἀπαρνέομαι; ἀπαρτί; ἀπάρτι; ἀπαρτίζω; ἀπάρτισμα; ἀπαρτισμός; ἀπαρχή; ἅπας; ἀπασπάζομαι; ἀπατάω; ἀπάτη; ἀπατηλός; ἀπατρικός; ἀπάτωρ.
+Notas: ἀπαράβατος em Hb 7.24 é preferivelmente “permanente/imutável”, embora “sem sucessor” seja comum e careça de paralelos; ἀπαρχή inclui interpretação alternativa em Rm 8.23; ἀπατρικός tem restauração errônea e leitura preferida ἀγεννήτου; em ἀπάτωρ, o contexto SUGERE que Melquisedeque seja entendido como uma espécie de ser transcendente, sem converter essa sugestão em afirmação absoluta.
+
+Commit posterior legítimo de sincronização visual:
+b8ba6145b5ab9459fd2e27be08f02826d1236b81.
+Mensagem: Sincronizar paleta de fontes e seletor visual com chat-gpt-commits.
+Afetou index.html, lexicons/bdag.js, script.js e style.css e DEVE ser preservado.
+
+Lote 821 → 841.
+Commit: 33cae708ac474b296526c1be30a2c022ba6c74b2.
+Faixa: ἀπαύγασμα → ἀπείραστος.
+Lemas:
+ἀπαύγασμα; ἀπαφρίζω; ἀπαχθῆναι; ἀπέβαλον; ἀπέβην; ἀπέδειξα; ἀπέδετο; ἀπεδίδουν; ἀπέθανον; ἀπεθέμην; ἀπεῖδον; ἀπείθεια; ἀπειθέω; ἀπειθής; ἀπειλέω; ἀπειλή; ἄπειμι I; ἄπειμι II; ἀπεῖπον; ἀπείραστος.
+Notas:
+ἀπαύγασμα conserva o debate entre sentido ativo “radiância irradiada” e passivo “reflexo”, com preferências contextuais variadas. Remissões contam como entradas próprias. ἀπείθεια/ἀπειθέω preservam a preferência lexicográfica por “desobediência/desobedecer” em vez de equiparação indiscriminada com incredulidade. ἄπειμι I, de εἰμί, e II, de εἶμι, são entradas distintas. ἀπείραστος em Tg 1.13 é, para o BDAG, certamente passivo.
+
+Lote 841 → 861.
+Commit: 5c742e65dd2cb0263096d43507147c58b92eafca.
+Faixa: ἄπειρος I → ἀπέπεσα.
+Lemas:
+ἄπειρος I; ἄπειρος II; ἀπεκαλύφθην; ἀπεκατεστάθην, ἀπεκατέστην; ἀπεκδέχομαι; ἀπεκδύομαι; ἀπέκδυσις; ἀπεκριθείς, ἀπεκρίθην; ἀπεκτάνθην, ἀπέκτεινα; ἀπέλαβον; ἀπελαύνω; ἀπελεγμός; ἀπελεύθερος; ἀπελεύσομαι, ἀπεληλύθειν, ἀπελθών; ἀπέλιπον; Ἀπελλῆς; ἀπελπίζω; ἀπέναντι; ἀπενεγκεῖν, ἀπενεχθῆναι; ἀπέπεσα.
+Notas:
+Os dois ἄπειρος são independentes: I “inexperiente/não familiarizado”, II “ilimitado”. ἀπεκδέχομαι mantém diversos objetos da esperança cristã e alternativa de J. Swetnam. ἀπεκδύομαι distingue despojar-se e desarmar em Cl 2.15. ἀπελαύνω conserva variante do códice D em At 18.16 e tradição textual incerta em GJs 18.3. Ἀπελλῆς guarda variantes de At 18.24 e 19.1. ἀπελπίζω distingue desespero e expectativa de receber algo de volta em Lc 6.35, preservando variante μηδένα. ἀπέναντι conserva funções de advérbio, preposição com genitivo e marcador de oposição.
+Popups acrescentados: nenhum. Contagem auditada: 861/861.
+
+Lote 861 → 881.
+Commit: 3fe721fa6e02b592e6c7994c7b319523ece06ad1.
+Faixa: ἀπέπλευσα → ἀπίδω.
+Lemas:
+ἀπέπλευσα; ἀπεπνίγην; ἀπέραντος; ἀπερινόητος; ἀπερίσπαστος; ἀπερισπάστως; ἀπερίτμητος; ἀπέρχομαι; ἀπεστάλην, ἀπέσταλκα, ἀπέστειλα; ἀπέστην, ἀπέστησα; ἀπεστράφην; ἀπέχω; ἀπήγαγον; ἀπηγξάμην; ἀπῄεσαν; ἀπήλασα; ἀπῆλθα, ἀπῆλθον; ἀπηλλάχθαι; ἀπήρθη; ἀπίδω.
+Notas:
+ἀπέραντος preserva a reconstrução provável de Ox 1081; ἀπερισπάστως conserva discussão sobre concentração no serviço e matrimônio; ἀπερίτμητος separa uso literal e figurado; ἀπέρχομαι mantém as seis divisões, regências e alternativas de Jo 20.10; ἀπέχω mantém cinco sentidos e o debate sobre o impessoal de Mc 14.41, com interpretações concorrentes e variante do códice D. ἀπέχω 5 preserva o emprego com genitivo e ἀπό, inclusive At 15.29.
+Popups acrescentados: nenhum. Contagem auditada: 881/881. Próximo lema confirmado na fonte: ἀπιστέω.
+
+20. ORIENTAÇÃO PARA O PRÓXIMO LOTE
+
+Primeiro candidato a incorporar, se nenhuma outra conversa tiver avançado no repositório: ἀπιστέω.
+
+Após ἀπιστέω, o PDF apresenta ἀπιστία, ἄπιστος, ἀπλανής, ἁπλότης, ἁπλοῦς, ἁπλόω, ἄπλυτος, ἁπλῶς e ἀπό, entre outras entradas posteriores. Não interpretar essa lista de orientação como delimitação fechada do lote: a entrada ἀπό é longa; a escolha exata dos 20 lemas exige leitura sequencial do PDF e confirmação do HEAD real.
+
+Pontos já identificáveis no material para a etapa futura, sujeitos à leitura completa:
+ἀπιστέω distingue não acreditar/recusar crer, não crer em alguém e ser infiel.
+ἀπιστία distingue incredulidade/falta de fé e infidelidade, com referências a ações divinas.
+ἄπιστος inclui inacreditável e incrédulo.
+ἁπλότης exige preservar debate acerca de “simplicidade, sinceridade, integridade” versus “generosidade, liberalidade” em Rm 12.8 e 2Co 8–9; para o BDAG, o segundo sentido é discutido.
+ἁπλοῦς contém controvérsia sobre o “olho simples” em Mt 6.22 e Lc 11.34.
+ἀπό constitui entrada preposicional de grande extensão; respeitar suas divisões e não resumi-la.
+
+21. CÓDIGO DE CONDUTA NA AUSÊNCIA DE ACESSO
+
+Se uma sessão não tiver permissão para escrever no GitHub, pode estudar a fonte, preparar proposta de alteração e entregar material ao usuário, deixando explícito que NÃO publicou o commit. Não atribuir SHA fictício. Não alegar validação de ferramenta que não foi executada. Não substituir acesso ao repositório por suposições do estado. Antes de modificar arquivo canônico, obter sempre versão atual e respeitar concorrência.
+
+22. INSTRUÇÃO FINAL PARA QUALQUER CHAT FUTURO
+
+Ao receber “Continue o processo (BDAG).”, a primeira obrigação é ler Rbdag/Rbdag.txt DIRETAMENTE em chat-gpt-bdag. A segunda é estabelecer o HEAD real da branch, auditar a contagem e o último lema efetivo. A terceira é ler a fonte e adicionar os vinte lemas seguintes com fidelidade integral, cuidado filológico e auditoria. A quarta é atualizar com lease, sem force, preservando todo trabalho concorrente. A quinta é comunicar o HEAD final e o próximo lema.
+
+Se a RBDAG estiver desatualizada, corrigir sua parte operacional de forma conservadora na mesma publicação do lote, preservando o histórico. Não apagar a cronologia; não repetir lote concluído; não modificar outra fonte.
+
+FIM DA NORMA OPERACIONAL VIGENTE.
+
+ANEXO HISTÓRICO INTEGRAL
+DOCUMENTO ORIGINAL: Regras para o processo do BDAG.txt
+NATUREZA: TRANSCRIÇÃO HISTÓRICA PRESERVADA; TRECHOS SOBRE HEAD, CONTAGENS E PRÓXIMOS LOTES PODEM ESTAR SUPERADOS.
+PREVALÊNCIA: OS TÓPICOS 01–22 DA NORMA ACIMA E O ESTADO REAL DO REPOSITÓRIO SUPERAM DADOS TEMPORAIS DESTE ANEXO.
+
+
+PROMPT DE CONTINUIDADE DO PROJETO GDHAGP / SCRIPTURA LEXICON — INCORPORAÇÃO DO BDAG
+
+Este documento deve ser usado como fonte permanente de continuidade do trabalho de incorporação do BDAG ao projeto Scriptura Lexicon.
+
+Seu objetivo é permitir que um novo chat retome o trabalho exatamente do estado real do repositório, preservando todo o método filológico, lexicográfico, técnico e de segurança de Git desenvolvido até aqui.
+
+O trabalho deve ser tratado como parte de um projeto filológico e lexicográfico de longo prazo.
+
+======================================================================
+1. OBJETIVO GERAL
+======================================================================
+
+Continuar a incorporação sistemática do BDAG ao Scriptura Lexicon, verbete por verbete, em ordem rigorosa, traduzindo e transpondo o conteúdo da fonte para português brasileiro culto e filologicamente preciso.
+
+O trabalho NÃO é:
+
+um resumo;
+uma paráfrase livre;
+uma simplificação;
+uma interpretação pessoal;
+uma harmonização com outros léxicos;
+uma reescrita teológica;
+uma adaptação devocional.
+
+O trabalho É:
+
+uma tradução e transposição lexicográfica rigorosa do BDAG;
+uma preservação da estrutura da fonte;
+uma incorporação técnica dos verbetes no arquivo lexicons/bdag.js;
+uma atividade com auditoria filológica e técnica obrigatória;
+uma atividade com controle rigoroso de concorrência no GitHub.
+
+======================================================================
+2. REPOSITÓRIO
+======================================================================
+
+Repositório:
+
+linguasbiblicasoriginais-rgb/scriptura-lexicon
+
+Branch exclusiva do trabalho relacionado ao BDAG:
+
+chat-gpt-bdag
+
+Arquivo principal:
+
+lexicons/bdag.js
+
+Outros arquivos importantes para auditoria:
+
+index.html
+lexicons/leh.js
+script.js
+style.css
+
+Em condições normais, um lote BDAG deve alterar somente:
+
+lexicons/bdag.js
+
+Não alterar outros arquivos salvo necessidade absolutamente comprovada.
+
+======================================================================
+3. ESTADO MAIS RECENTE CONFIRMADO
+======================================================================
+
+ATENÇÃO:
+
+Os dados abaixo são o último estado conhecido e confirmado, mas NÃO devem ser usados cegamente.
+
+ANTES DE QUALQUER MODIFICAÇÃO, consulte novamente a branch chat-gpt-bdag no GitHub e determine o estado real.
+
+Estado confirmado em 08/10/2026:
+
+Branch:
+
+chat-gpt-bdag
+
+HEAD atual confirmado:
+
+b8ba6145b5ab9459fd2e27be08f02826d1236b81
+
+Mensagem desse commit:
+
+Sincronizar paleta de fontes e seletor visual com chat-gpt-commits
+
+Esse commit é posterior ao último lote lexicográfico do BDAG.
+
+Ele introduziu mudanças legítimas de interface e sincronização visual e NÃO deve ser revertido.
+
+Commit imediatamente anterior, correspondente ao último lote lexicográfico de 20 verbetes:
+
+91c886c2d0d9707a65a4b231953d2597cd65d7ca
+
+Mensagem:
+
+Adicionar lote de 20 verbetes do BDAG: ἀπάντησις → ἀπάτωρ
+
+Blob atual conhecido de lexicons/bdag.js no HEAD b8ba6145b5ab9459fd2e27be08f02826d1236b81:
+
+45f639b19b51e5b3cea9598502f35f94109352fe
+
+Blobs conhecidos no mesmo HEAD:
+
+index.html:
+
+cd426250786c88765a86b59ffeded1fcd9284201
+
+lexicons/leh.js:
+
+f1b2792697a797db43b008567b9a1721abd78919
+
+script.js:
+
+afb47ba66356f6a268a3e63b13d4c3f0c30f048b
+
+style.css:
+
+5a24cbcf631d65b7a110b7a093ac151f55d074c1
+
+Contagem conhecida:
+
+821 verbetes BDAG
+
+821 search-row
+
+821 entry-card
+
+Último lema incorporado:
+
+ἀπάτωρ
+
+Próximo lema esperado:
+
+ἀπαύγασμα
+
+Novamente:
+
+CONFIRME TUDO ISSO NO GITHUB ANTES DE COMEÇAR.
+
+======================================================================
+4. REGRA DE CONCORRÊNCIA E EXPECTED_HEAD
+======================================================================
+
+Antes de começar qualquer lote:
+
+1. Consulte o HEAD atual de chat-gpt-bdag.
+2. Armazene esse SHA como EXPECTED_HEAD.
+3. Leia lexicons/bdag.js exatamente nesse commit.
+4. Confirme programaticamente:
+   contagem de search-row;
+   contagem de entry-card;
+   último lema;
+   último data-target;
+   último id;
+   último search-row;
+   último entry-card;
+   blob de lexicons/bdag.js.
+5. Leia também os blobs de:
+   index.html;
+   lexicons/leh.js;
+   script.js;
+   style.css.
+6. Se houver commits posteriores ao estado histórico registrado neste documento:
+   NÃO reverta;
+   NÃO sobrescreva;
+   NÃO faça force;
+   NÃO reconstrua a branch a partir de um estado antigo.
+7. Preserve todo trabalho posterior.
+8. Descubra o último lema efetivamente presente.
+9. Continue a partir do primeiro lema ainda não incorporado.
+
+Antes de mover a branch:
+
+1. Consulte novamente o HEAD.
+2. Compare com EXPECTED_HEAD.
+3. Se forem iguais:
+   pode atualizar a branch.
+4. Se forem diferentes:
+   NÃO mova a branch;
+   NÃO use force;
+   NÃO sobrescreva o novo trabalho;
+   reconcilie o estado;
+   refaça a árvore e o commit sobre o novo HEAD.
+
+A atualização deve usar:
+
+force: false
+
+e:
+
+expected_sha: EXPECTED_HEAD
+
+ou mecanismo equivalente de lease.
+
+NUNCA usar force push.
+
+======================================================================
+5. FONTES
+======================================================================
+
+Fonte principal para os verbetes da parte atual da letra alfa:
+
+ἀνθρωποποίητος–ἄωρος.pdf
+
+Esse PDF contém os verbetes do BDAG desde ἀνθρωποποίητος até o final da letra alfa.
+
+Fonte subsidiária de conferência:
+
+Bauer, Danker, Arndt, Gingrich. A Greek-English Lexicon of the New Testament and Other Early Christian Literature. 4ª edição. Chicago: University of Chicago Press, 2021.
+
+PDF completo disponível no projeto.
+
+O PDF completo deve ser usado quando houver problema de:
+
+extração;
+OCR;
+caractere grego;
+acento;
+espírito;
+iota subscrito;
+abreviação;
+referência;
+paginação;
+texto truncado;
+leitura aparentemente absurda;
+número de papiro;
+número de página;
+nome de autor;
+códice;
+manuscrito;
+sigla bibliográfica;
+referência bíblica.
+
+Caso histórico importante:
+
+No verbete ἀντοφθαλμέω, a extração levou à forma:
+
+Sb 12.14
+
+mas a fonte correta era:
+
+Wsd 12.14
+
+A correção foi feita no commit:
+
+7705ff1a1398f2a9c7f8ea3966fdca4a40d21e63
+
+Mensagem:
+
+Corrigir referência Wsd 12.14 em ἀντοφθαλμέω
+
+Essa correção NÃO deve ser revertida.
+
+Esse caso é um modelo de por que a conferência no PDF completo é obrigatória quando houver suspeita.
+
+======================================================================
+6. REGRA DE LOTE
+======================================================================
+
+Cada lote deve conter EXATAMENTE 20 verbetes consecutivos do BDAG.
+
+Exceção:
+
+se restarem menos de 20 entradas até o final da letra alfa.
+
+Não executar dois lotes na mesma resposta.
+
+O processo de cada lote deve ser:
+
+1. confirmar o primeiro lema ainda não incorporado;
+2. consultar a fonte;
+3. determinar os próximos 20 verbetes consecutivos;
+4. não pular nenhuma entrada;
+5. inserir os 20;
+6. auditar;
+7. fazer um único commit;
+8. mover a branch com segurança;
+9. informar o primeiro lema do lote seguinte.
+
+======================================================================
+7. O QUE CONTA COMO VERBETE
+======================================================================
+
+Contam como verbetes independentes:
+
+remissões;
+formas flexionadas;
+variantes;
+grafias alternativas;
+formas verbais remissivas;
+entradas muito curtas;
+nomes próprios;
+formas raras;
+formas reconstruídas;
+homógrafos separados;
+entradas numeradas separadamente;
+formas apresentadas em linha própria pelo BDAG.
+
+Exemplo importante:
+
+ἀπαχθῆναι
+
+conta como verbete próprio mesmo sendo remissão para:
+
+ἀπάγω
+
+Outros exemplos:
+
+ἀπέβαλον
+ἀπέβην
+ἀπέδειξα
+ἀπέδετο
+ἀπεδίδουν
+ἀπέθανον
+ἀπεθέμην
+ἀπεῖδον
+
+Todos contam como verbetes independentes porque o BDAG os apresenta como entradas.
+
+Não fundir.
+
+Não pular.
+
+======================================================================
+8. MÉTODO LEXICOGRÁFICO
+======================================================================
+
+O corpo do verbete deve refletir o BDAG.
+
+Preservar:
+
+estrutura de sentidos;
+subsentidos;
+numeração;
+letras;
+subdivisões;
+arquitetura lógica;
+distinções semânticas;
+regências;
+construções sintáticas;
+formas flexionadas;
+formas passivas;
+formas médias;
+formas ativas;
+variantes;
+v.l.;
+grafias;
+formas alternativas;
+usos substantivados;
+usos adjetivais;
+usos adverbiais;
+usos transitivos;
+usos intransitivos;
+observações históricas;
+observações morfológicas;
+observações sintáticas;
+observações filológicas;
+observações textuais;
+referências a papiros;
+referências epigráficas;
+inscrições;
+literatura clássica;
+literatura helenística;
+literatura judaica;
+literatura cristã primitiva;
+LXX;
+pseudepígrafos;
+Pais Apostólicos;
+apócrifos;
+referências bíblicas;
+bibliografia secundária;
+comentários sobre traduções;
+comentários sobre manuscritos;
+comentários sobre leitura preferida;
+comentários sobre leitura rejeitada.
+
+Não eliminar elementos porque pareçam secundários.
+
+======================================================================
+9. GRAU DE CERTEZA
+======================================================================
+
+Preservar rigorosamente expressões como:
+
+provavelmente;
+talvez;
+possivelmente;
+parece;
+é preferível;
+é menos provável;
+pode significar;
+alguns entendem;
+outros entendem;
+costuma ser interpretado;
+é incerto;
+a leitura é discutida;
+o contexto sugere;
+v.l.;
+lit.;
+compare;
+mas veja.
+
+Regra fundamental:
+
+NUNCA transformar hipótese em certeza.
+
+Se o BDAG oferece duas interpretações:
+
+preservar ambas.
+
+Se o BDAG prefere uma:
+
+preservar a preferência.
+
+Se rejeita uma:
+
+preservar a rejeição.
+
+Se diz que um sentido é improvável:
+
+não neutralizar isso.
+
+Se diz que um sentido não possui paralelo:
+
+preservar essa observação.
+
+======================================================================
+10. TRADUÇÃO
+======================================================================
+
+Traduzir para português brasileiro culto.
+
+Características desejadas:
+
+precisão filológica;
+proximidade da estrutura do original;
+clareza;
+registro técnico;
+boa sintaxe em português;
+ausência de simplificação desnecessária.
+
+Manter o grego original.
+
+Exemplos gregos permanecem em grego.
+
+Quando o BDAG oferece uma glosa:
+
+fornecer a glosa em português.
+
+Quando há ambiguidade:
+
+preservá-la.
+
+Quando há duas opções:
+
+preservar as duas.
+
+Quando a construção sintática é importante:
+
+explicá-la.
+
+Não transformar explicações lexicais em comentários doutrinários.
+
+Não adaptar o conteúdo às convicções religiosas do usuário.
+
+Não introduzir teologia externa ao BDAG.
+
+======================================================================
+11. INDEPENDÊNCIA DAS FONTES
+======================================================================
+
+O projeto possui várias fontes lexicográficas.
+
+Cada uma deve permanecer independente.
+
+BDAG deve refletir BDAG.
+
+LEH deve refletir LEH.
+
+Robinson deve refletir Robinson.
+
+Thayer deve refletir Thayer.
+
+Os léxicos hebraicos e aramaicos também permanecem independentes.
+
+NUNCA importar silenciosamente conteúdo de outro léxico para completar o BDAG.
+
+Conhecimento externo pode ser usado para conferência, mas deve ser claramente separado.
+
+Não incorporar conteúdo externo ao corpo do verbete como se fosse do BDAG.
+
+======================================================================
+12. REFERÊNCIAS BÍBLICAS
+======================================================================
+
+Referências do Novo Testamento devem usar o padrão do projeto:
+
+https://www.die-bibel.de/en/bible/NA28/...
+
+Exemplos de códigos usados:
+
+MAT
+MRK
+LUK
+JHN
+ACT
+ROM
+1CO
+2CO
+GAL
+EPH
+PHP
+COL
+1TH
+2TH
+1TI
+2TI
+TIT
+HEB
+JAS
+1PE
+2PE
+1JN
+2JN
+3JN
+JUD
+REV
+
+Seguir exatamente o padrão existente em lexicons/bdag.js.
+
+NÃO introduzir links para:
+
+beta.perseus.tufts.edu
+
+Novas ocorrências desse domínio:
+
+0
+
+Referências à LXX, pseudepígrafos, Pais Apostólicos, papiros e inscrições não devem receber URLs inventadas.
+
+======================================================================
+13. ABREVIAÇÕES
+======================================================================
+
+Quando uma abreviação puder ser identificada com segurança:
+
+usar o padrão já existente no projeto.
+
+Quando não for possível expandi-la com certeza:
+
+preservar a abreviação.
+
+Não inventar expansão.
+
+Não adivinhar título bibliográfico.
+
+Não transformar uma sigla obscura em uma referência completa sem comprovação.
+
+======================================================================
+14. POPUPS BIBLIOGRÁFICOS
+======================================================================
+
+Só criar popup se:
+
+1. a abreviação aparece no lote;
+2. o projeto exige popup para esse tipo de abreviação;
+3. o popup ainda não existe;
+4. a expansão é segura.
+
+Antes de criar:
+
+pesquisar no projeto inteiro.
+
+Se já existir:
+
+reutilizar.
+
+Não criar duplicata.
+
+Não inventar expansão.
+
+Ao final declarar explicitamente:
+
+Popups BDAG adicionados: nenhum.
+
+ou:
+
+Popups BDAG adicionados: [lista]
+
+======================================================================
+15. ESTRUTURA TÉCNICA DOS VERBETES
+======================================================================
+
+Cada verbete novo deve possuir:
+
+exatamente um:
+
+<tr class="search-row">
+
+e exatamente um:
+
+<article class="entry-card">
+
+O search-row deve possuir:
+
+data-source="BDAG"
+
+data-target correspondente ao id do cartão.
+
+O entry-card deve possuir:
+
+data-source="BDAG"
+
+id único terminado em:
+
+-bdag
+
+O lema deve estar correto.
+
+A transliteração deve seguir o padrão do projeto.
+
+A classe gramatical deve estar correta.
+
+O resumo semântico da tabela deve representar adequadamente o verbete.
+
+O conteúdo completo deve ser inserido no cartão.
+
+======================================================================
+16. PADRÃO DE HTML
+======================================================================
+
+Antes de escrever novos verbetes:
+
+examinar os verbetes imediatamente anteriores.
+
+Reproduzir:
+
+classes;
+indentação;
+estrutura;
+entry-header;
+entry-title;
+entry-meta;
+source-tag;
+entry-divider;
+entry-section;
+section-title;
+entry-text;
+sense-number;
+greek;
+transliteration;
+separator;
+reference;
+reference-link;
+source-pill.
+
+Não inventar arquitetura nova.
+
+Não refatorar o arquivo.
+
+======================================================================
+17. NÃO FAZER DURANTE UM LOTE
+======================================================================
+
+Não refatorar.
+
+Não reorganizar o código.
+
+Não mover funções.
+
+Não alterar CSS.
+
+Não alterar script.js.
+
+Não alterar index.html.
+
+Não alterar outros léxicos.
+
+Não reformular bibliographicTerms.
+
+Não mudar convenções globais.
+
+Não fazer limpeza arquitetural.
+
+Não sincronizar interface.
+
+Não fazer alterações visuais.
+
+Se alguma dessas mudanças já existir no HEAD:
+
+preservá-la.
+
+======================================================================
+18. AUDITORIA OBRIGATÓRIA PRÉ-COMMIT
+======================================================================
+
+No lexicons/bdag.js, verificar programaticamente:
+
+search-row:
+
+exatamente +20
+
+entry-card:
+
+exatamente +20
+
+Para cada novo verbete:
+
+1 data-target;
+1 id correspondente;
+1 search-row;
+1 entry-card.
+
+Verificar:
+
+IDs duplicados: 0
+
+data-targets duplicados: 0
+
+linhas órfãs: 0
+
+cartões órfãos: 0
+
+todos os novos registros:
+
+data-source="BDAG"
+
+todos os novos IDs:
+
+terminam em -bdag
+
+novas ocorrências de:
+
+beta.perseus.tufts.edu
+
+igual a:
+
+0
+
+Verificar também:
+
+ordem dos 20 verbetes igual à fonte;
+nenhum lema intermediário omitido;
+remissões contadas;
+variantes independentes contadas;
+formas flexionadas independentes contadas;
+bibliographicTerms inalterado, salvo necessidade explícita.
+
+======================================================================
+19. AUDITORIA GLOBAL
+======================================================================
+
+Auditar pelo menos:
+
+index.html
+lexicons/bdag.js
+lexicons/leh.js
+
+Também observar:
+
+script.js
+style.css
+
+especialmente porque o HEAD atual contém mudanças visuais nesses arquivos.
+
+Verificar globalmente:
+
+IDs duplicados;
+data-targets duplicados;
+linhas órfãs;
+cartões órfãos;
+beta.perseus.tufts.edu.
+
+Comparar blobs antes e depois.
+
+IMPORTANTE:
+
+Os blobs atuais devem ser comparados contra o HEAD REAL do início do lote.
+
+Não comparar contra estado histórico antigo.
+
+======================================================================
+20. CONFERÊNCIA FILOLÓGICA FINAL
+======================================================================
+
+Antes do commit, reler os 20 verbetes contra o PDF.
+
+Procurar especialmente:
+
+Wsd confundido com Sb;
+1 confundido com l;
+I confundido com l;
+números;
+datas;
+séculos;
+abreviações;
+nomes próprios;
+papiros;
+referências;
+acentos gregos;
+espíritos;
+iota subscrito;
+genitivos;
+particípios;
+aoristos;
+perfeitos;
+formas passivas;
+formas médias;
+códices;
+manuscritos;
+v.l.;
+Tdf.;
+N.;
+W-H.;
+D;
+colchetes;
+parênteses;
+lacunas;
+reconstruções;
+pontuação.
+
+Não corrigir uma referência porque parece estranha.
+
+Se estiver realmente na fonte:
+
+preservar.
+
+Se parecer erro de extração:
+
+conferir no PDF completo.
+
+======================================================================
+21. HISTÓRICO RECENTE
+======================================================================
+
+Estado anterior:
+
+741 verbetes.
+
+Lote:
+
+ἀντιστῆναι → ἄνωθεν
+
+Contagem:
+
+741 → 761
+
+Lemas:
+
+ἀντιστῆναι
+ἀντιστρατεύομαι
+ἀντιτάσσω
+ἀντίτυπος
+ἀντίχριστος
+ἀντίψυχον
+ἀντλέω
+ἄντλημα
+ἀντοφθαλμέω
+ἀνυβρίστως
+ἄνυδρος
+ἀνυπέρβλητος
+ἀνυπόκριτος
+ἀνυποκρίτως
+ἀνυπότακτος
+ἀνυστέρητος
+ἄνω
+ἀνῶ
+ἀνώγαιον, ἀνώγεον
+ἄνωθεν
+
+Depois:
+
+commit corretivo:
+
+7705ff1a1398f2a9c7f8ea3966fdca4a40d21e63
+
+Correção:
+
+Sb 12.14 → Wsd 12.14
+
+em:
+
+ἀντοφθαλμέω
+
+======================================================================
+
+Lote:
+
+ἀνωτερικός → ἀξίως
+
+Commit:
+
+62eee7e264b2c6393d5a6281a82d9817c2c20476
+
+Contagem:
+
+761 → 781
+
+Lemas:
+
+ἀνωτερικός
+ἀνώτερος
+ἀνωφελής
+ἀξιαγάπητος
+ἀξίαγνος
+ἀξιέπαινος
+ἀξίνη
+ἀξιόαγνος
+ἀξιοεπίτευκτος
+ἀξιοθαύμαστος
+ἀξιόθεος
+ἀξιόλογος
+ἀξιομακάριστος
+ἀξιονόμαστος
+ἀξιόπιστος
+ἀξιόπλοκος
+ἀξιοπρεπής
+ἄξιος
+ἀξιόω
+ἀξίως
+
+Decisões filológicas importantes:
+
+ἀνώτερος:
+preservar posição superior e referência anterior.
+
+ἀνωφελής:
+preservar “inútil” e “prejudicial”.
+Em Tt 3.9, “inútil” é considerado mais provável.
+
+ἀξίαγνος:
+entrada-remissão independente.
+
+ἀξιόλογος:
+preservar reconstrução lacunosa de GMary e atribuição a Otero.
+
+ἀξιόπιστος:
+preservar:
+confiável;
+fidedigno;
+aparentemente confiável;
+pretensioso;
+especioso.
+
+ἄξιος:
+preservar estrutura 1a–c e 2a–b.
+
+ἀξιόω:
+preservar observação de que “make worthy” em 2Ts 1.11 carece de apoio lexical.
+
+======================================================================
+
+Lote:
+
+ἀοίκητος → ἀπαντάω
+
+Commit:
+
+838ea386b08f72708dcd4a400f3c1aedb3907349
+
+Contagem:
+
+781 → 801
+
+Lemas:
+
+ἀοίκητος
+ἄοικος
+ἄοκνος
+ἀόκνως
+ἀόρατος
+ἀόργητος
+ἀπαγγέλλω
+ἀπάγχω
+ἀπάγω
+ἀπαθής
+ἀπαίδευτος
+ἀπαίρω
+ἀπαιτέω
+ἀπαλγέω
+ἀπαλλάσσω
+ἀπαλλοτριόω
+ἁπαλός
+ἀπαναίνομαι
+ἀπάνθρωπος
+ἀπαντάω
+
+Decisões filológicas importantes:
+
+ἀοίκητος / ἄοικος:
+preservar relação de variante em Papias.
+
+ἄοκνος / ἀόκνως:
+preservar “sem hesitação”.
+
+ἀόρατος:
+preservar usos para:
+Deus;
+atributos divinos;
+Cristo;
+mundo invisível.
+
+ἀπαγγέλλω:
+preservar construções sintáticas e sentidos.
+
+ἀπάγω:
+preservar:
+levar;
+conduzir judicialmente;
+levar para execução;
+conduzir uma rota;
+desencaminhar.
+
+ἀπαθής:
+separar:
+livre de sofrimento;
+ileso.
+
+ἀπαίρω:
+preservar leitura incerta em AcPl Ha.
+
+ἀπαιτέω:
+preservar metáfora da vida como empréstimo.
+
+ἀπαλγέω:
+preservar duas interpretações de Ef 4.19:
+insensibilidade moral;
+desalento / desesperança.
+
+ἀπαλλάσσω:
+preservar:
+libertar;
+partir;
+resolver questão com adversário.
+
+ἀπαντάω:
+preservar alternância com ὑπαντάω.
+
+======================================================================
+
+Último lote lexicográfico concluído:
+
+ἀπάντησις → ἀπάτωρ
+
+Commit:
+
+91c886c2d0d9707a65a4b231953d2597cd65d7ca
+
+Contagem:
+
+801 → 821
+
+Lemas:
+
+ἀπάντησις
+ἅπαξ
+ἁπαξαπλῶς
+ἀπαράβατος
+ἀπαρασκεύαστος
+ἀπαρθῇ, -ῶ
+ἀπαρνέομαι
+ἀπαρτί
+ἀπάρτι
+ἀπαρτίζω
+ἀπάρτισμα
+ἀπαρτισμός
+ἀπαρχή
+ἅπας
+ἀπασπάζομαι
+ἀπατάω
+ἀπάτη
+ἀπατηλός
+ἀπατρικός
+ἀπάτωρ
+
+Decisões filológicas importantes:
+
+ἀπάντησις:
+preservar εἰς ἀπάντησιν;
+preservar construções absoluta, dativa e genitiva;
+preservar variantes de Mt 25.6.
+
+ἅπαξ:
+preservar:
+uma vez;
+mais uma vez;
+mais de uma vez;
+de uma vez por todas.
+
+ἀπαράβατος:
+em Hb 7.24, o BDAG informa que costuma ser entendido como “sem sucessor”, mas esse sentido não é encontrado em outros lugares.
+O BDAG prefere:
+permanente;
+imutável.
+
+Essa avaliação deve ser preservada.
+
+ἀπαρθῇ, -ῶ:
+verbete-remissão independente.
+
+ἀπαρνέομαι:
+preservar:
+negar;
+recusar reconhecer;
+negar-se a si mesmo.
+
+ἀπαρτί:
+entrada independente.
+
+ἀπάρτι:
+entrada independente.
+
+Não fundir as duas.
+
+ἀπαρχή:
+preservar:
+primícias cultuais;
+primeira porção;
+uso figurado;
+primeiros convertidos;
+ênfase qualitativa;
+primícias do Espírito;
+proposta alternativa “certificado de nascimento” em Rm 8.23.
+
+ἀπατάω:
+preservar:
+enganar;
+desencaminhar;
+seduzir;
+no médio: deleitar-se / viver prazerosamente.
+
+ἀπάτη:
+preservar:
+engano;
+caráter enganoso;
+prazer que envolve alguém em pecado.
+
+Manter a observação de que o segundo sentido também é provável nas passagens sinóticas e em Hb 3.13.
+
+ἀπατρικός:
+preservar que a restauração é errônea.
+Preservar a preferência pela leitura:
+ἀγεννήτου
+
+ἀπάτωρ:
+preservar a formulação:
+o contexto sugere que Melquisedeque deve ser entendido como uma espécie de ser transcendente.
+
+Não transformar essa formulação em afirmação absoluta.
+
+======================================================================
+22. COMMIT VISUAL POSTERIOR
+======================================================================
+
+Depois do lote ἀπάντησις → ἀπάτωρ houve o commit:
+
+b8ba6145b5ab9459fd2e27be08f02826d1236b81
+
+Mensagem:
+
+Sincronizar paleta de fontes e seletor visual com chat-gpt-commits
+
+Esse commit modificou:
+
+index.html
+lexicons/bdag.js
+script.js
+style.css
+
+Essas mudanças são legítimas.
+
+Devem ser preservadas.
+
+O próximo lote deve ser construído sobre esse estado ou sobre qualquer HEAD posterior real.
+
+======================================================================
+23. PRÓXIMO LOTE ESPERADO
+======================================================================
+
+Se o GitHub confirmar que o último lema continua sendo:
+
+ἀπάτωρ
+
+então o próximo lote esperado é:
+
+1. ἀπαύγασμα
+2. ἀπαφρίζω
+3. ἀπαχθῆναι
+4. ἀπέβαλον
+5. ἀπέβην
+6. ἀπέδειξα
+7. ἀπέδετο
+8. ἀπεδίδουν
+9. ἀπέθανον
+10. ἀπεθέμην
+11. ἀπεῖδον
+12. ἀπείθεια
+13. ἀπειθέω
+14. ἀπειθής
+15. ἀπειλέω
+16. ἀπειλή
+17. ἄπειμι I
+18. ἄπειμι II
+19. ἀπεῖπον
+20. ἀπείραστος
+
+Primeiro lema do lote seguinte:
+
+ἄπειρος I
+
+IMPORTANTE:
+
+ἄπειμι I e ἄπειμι II são entradas independentes.
+
+Não fundir.
+
+======================================================================
+24. OBSERVAÇÕES FILOLÓGICAS JÁ IDENTIFICADAS PARA O PRÓXIMO LOTE
+======================================================================
+
+ἀπαύγασμα
+
+O BDAG distingue:
+
+sentido ativo:
+radiância;
+fulgor;
+brilho proveniente de uma fonte.
+
+sentido passivo:
+reflexo;
+brilho refletido.
+
+A fonte afirma que nem sempre é possível determinar o significado com certeza.
+
+Para Plutarco:
+o passivo é provavelmente preferível.
+
+Para Wsd 7.26 e Fílon:
+o ativo parece preferível.
+
+Fílon emprega a palavra para a relação do Logos com Deus.
+
+Em Hb 1.3:
+
+ἀπαύγασμα τῆς δόξης
+
+Cristo é descrito como:
+
+radiância de sua glória.
+
+Preservar toda a discussão.
+
+Não escolher arbitrariamente apenas “radiância” ou apenas “reflexo” como se a questão fosse simples.
+
+======================================================================
+
+ἀπαφρίζω
+
+Deriva de:
+
+ἀφρίζω
+
+“espumar”.
+
+Sentido:
+
+lançar fora como espuma.
+
+Ocorre em Jd 13 como v.l.
+
+Preservar a informação de variante.
+
+======================================================================
+
+ἀπαχθῆναι
+
+Remissão para:
+
+ἀπάγω
+
+Conta como verbete.
+
+======================================================================
+
+ἀπέβαλον
+
+Remissão para:
+
+ἀποβάλλω
+
+Conta como verbete.
+
+======================================================================
+
+ἀπέβην
+
+Remissão para:
+
+ἀποβαίνω
+
+Conta como verbete.
+
+======================================================================
+
+ἀπέδειξα
+
+Remissão para:
+
+ἀποδείκνυμι
+
+Conta como verbete.
+
+======================================================================
+
+ἀπέδετο
+
+Forma de grego posterior para:
+
+ἀπέδοτο
+
+Ver:
+
+ἀποδίδωμι
+
+Conta como verbete.
+
+======================================================================
+
+ἀπεδίδουν
+
+Remissão para:
+
+ἀποδίδωμι
+
+Conta como verbete.
+
+======================================================================
+
+ἀπέθανον
+
+Remissão para:
+
+ἀποθνῄσκω
+
+Conta como verbete.
+
+======================================================================
+
+ἀπεθέμην
+
+Remissão para:
+
+ἀποτίθημι
+
+Conta como verbete.
+
+======================================================================
+
+ἀπεῖδον
+
+Remissão para:
+
+ἀφοράω
+
+Conta como verbete.
+
+======================================================================
+
+ἀπείθεια
+
+Sentido principal:
+
+desobediência.
+
+Na literatura coberta pelo BDAG:
+desobediência sempre em relação a Deus.
+
+Às vezes:
+há conotação de incredulidade ou recusa do evangelho cristão.
+
+Preservar a nuance.
+
+Exemplos relevantes:
+Ef 2.2
+Ef 5.6
+Cl 3.6
+Rm 11.30
+Hb 4.6
+Hb 4.11
+Rm 11.32
+
+======================================================================
+
+ἀπειθέω
+
+Significa:
+
+desobedecer;
+ser desobediente.
+
+Na literatura coberta:
+a desobediência sempre se dirige a:
+
+Deus;
+ordenanças divinas;
+revelação.
+
+O BDAG observa que NRSV, REB e outras versões traduzem certas ocorrências por:
+
+não crer;
+ser incrédulo;
+equivalentes.
+
+Mas o BDAG considera essa interpretação:
+
+menos provável.
+
+Preservar explicitamente esse juízo.
+
+======================================================================
+
+ἀπειθής
+
+Sentido:
+
+desobediente.
+
+Preservar:
+uso com dativo de pessoa;
+uso com dativo de coisa;
+uso absoluto.
+
+Exemplos:
+pais;
+visão celestial;
+Israel;
+pessoas em geral.
+
+======================================================================
+
+ἀπειλέω
+
+Sentido:
+
+ameaçar;
+advertir.
+
+Preservar formas verbais e construções.
+
+======================================================================
+
+ἀπειλή
+
+Sentido:
+
+ameaça.
+
+Preservar construções como:
+ἐμπνέων ἀπειλῆς καὶ φόνου
+ἀνιέναι τὴν ἀπειλήν
+plural etc.
+
+======================================================================
+
+ἄπειμι I
+
+Deriva de:
+
+εἰμί
+
+Sentido:
+
+estar ausente;
+estar longe.
+
+Forma relevante:
+
+ἀπών
+
+Não confundir com ἄπειμι II.
+
+======================================================================
+
+ἄπειμι II
+
+Deriva de:
+
+εἶμι
+
+Sentido:
+
+ir;
+partir;
+afastar-se;
+ir embora.
+
+Não confundir com ἄπειμι I.
+
+Ambas são entradas independentes.
+
+======================================================================
+
+ἀπεῖπον
+
+Segundo a fonte:
+
+2º aoristo.
+
+Não há presente em uso.
+
+Relaciona-se a:
+
+εἶπον
+
+Formas citadas incluem:
+
+ἀπειπάμην
+
+e formas passivas.
+
+Sentidos:
+
+1. proibir;
+2. repudiar, renunciar.
+
+Preservar os dois.
+
+======================================================================
+
+ἀπείραστος
+
+Pode ser entendido estruturalmente como:
+
+ativo:
+aquele que não tenta.
+
+passivo:
+aquele que não pode ser tentado.
+
+Em Tg 1.13:
+
+ὁ θεὸς ἀπείραστός ἐστιν κακῶν
+
+O BDAG considera o sentido passivo:
+
+CERTAMENTE correto.
+
+A razão dada envolve o fato de que:
+
+δέ
+
+na oração seguinte introduz um novo pensamento.
+
+Assim:
+
+Deus não pode ser tentado a fazer o mal.
+
+Preservar o argumento.
+
+Para humanos:
+
+ἀνὴρ ἀδόκιμος ἀπείραστος
+
+“um homem não tentado é não provado”.
+
+Preservar também.
+
+======================================================================
+25. LEMA POSTERIOR
+======================================================================
+
+Depois de ἀπείραστος:
+
+ἄπειρος I
+
+Depois:
+
+ἄπειρος II
+
+São duas entradas diferentes.
+
+ἄπειρος I:
+não familiarizado com;
+inexperiente em;
+não acostumado a.
+
+Exemplo:
+Hb 5.13
+
+ἄπειρος II:
+sem limite;
+ilimitado.
+
+Não antecipar essas entradas no lote anterior.
+
+======================================================================
+26. MENSAGEM DO COMMIT
+======================================================================
+
+Título obrigatório:
+
+Adicionar lote de 20 verbetes do BDAG: LEMA_INICIAL → LEMA_FINAL
+
+A mensagem deve incluir:
+
+lista dos 20 lemas;
+fonte principal;
+fonte subsidiária usada para conferência;
+principais decisões filológicas;
+distinções semânticas;
+variantes;
+v.l.;
+incertezas;
+remissões;
+formas independentes;
+popups adicionados;
+auditoria;
+contagem anterior → posterior;
+estado de bibliographicTerms;
+arquivos preservados;
+próximo lema.
+
+======================================================================
+27. UM ÚNICO COMMIT
+======================================================================
+
+O lote deve gerar um único commit.
+
+Evitar commit corretivo posterior.
+
+Por isso:
+
+fazer conferência filológica antes.
+
+Se ainda assim for necessário corrigir depois:
+
+correção deve ser commit separado.
+
+Não contar essa correção como parte de um lote novo.
+
+======================================================================
+28. FLUXO TÉCNICO DE GIT
+======================================================================
+
+Fluxo esperado:
+
+1. Consultar branch.
+2. Capturar EXPECTED_HEAD.
+3. Ler arquivos.
+4. Criar conteúdo novo.
+5. Auditar.
+6. Criar blob.
+7. Criar árvore sobre o tree do HEAD atual.
+8. Criar commit com parent=EXPECTED_HEAD.
+9. Consultar branch novamente.
+10. Se HEAD == EXPECTED_HEAD:
+    mover branch com force=false e expected_sha=EXPECTED_HEAD.
+11. Se HEAD != EXPECTED_HEAD:
+    NÃO mover.
+12. Reconciliar.
+13. Recriar commit sobre novo HEAD.
+14. Confirmar HEAD final.
+
+======================================================================
+29. RESPOSTA FINAL DO LOTE
+======================================================================
+
+Depois do commit e da confirmação do novo HEAD, responder de modo conciso contendo:
+
+Fonte: BDAG
+
+Branch
+
+HEAD inicial
+
+Faixa do lote
+
+20 lemas
+
+Principais pontos filológicos
+
+Incertezas relevantes
+
+Popups adicionados
+
+Contagem anterior → nova
+
+Auditoria
+
+Blob de lexicons/bdag.js, se disponível
+
+SHA do commit
+
+HEAD final confirmado
+
+Total atual de verbetes BDAG
+
+Próximo lema
+
+Se houve reconciliação por concorrência:
+
+informar.
+
+======================================================================
+30. FORMULAÇÃO RECOMENDADA DA AUDITORIA FINAL
+======================================================================
+
+Exemplo:
+
+search-row:
+821 → 841 (+20)
+
+entry-card:
+821 → 841 (+20)
+
+data-target ↔ id:
+20/20
+
+IDs duplicados:
+0
+
+data-targets duplicados:
+0
+
+linhas órfãs:
+0
+
+cartões órfãos:
+0
+
+novos IDs terminados em -bdag:
+20/20
+
+novos registros com data-source="BDAG":
+20/20
+
+novas ocorrências de beta.perseus.tufts.edu:
+0
+
+bibliographicTerms:
+inalterado
+
+ordem dos verbetes:
+conferida contra a fonte
+
+======================================================================
+31. FILOSOFIA DO PROJETO
+======================================================================
+
+O Scriptura Lexicon deve ser tratado como obra filológica, não como simples banco de definições.
+
+Cada léxico deve conservar:
+
+sua identidade;
+suas decisões;
+suas preferências;
+suas dúvidas;
+suas limitações;
+sua bibliografia;
+seu modo de organizar os sentidos.
+
+Não “melhorar” o BDAG utilizando outro léxico.
+
+Não eliminar divergências.
+
+Não homogeneizar artificialmente.
+
+A riqueza está precisamente em preservar cada fonte.
+
+======================================================================
+32. PRIORIDADE
+======================================================================
+
+Em caso de conflito entre:
+
+velocidade
+
+e
+
+precisão
+
+preferir:
+
+precisão.
+
+Em caso de conflito entre:
+
+simplificação
+
+e
+
+fidelidade
+
+preferir:
+
+fidelidade.
+
+Em caso de dúvida:
+
+conferir a fonte.
+
+======================================================================
+33. REGRA DE NÃO INVENÇÃO
+======================================================================
+
+Nunca inventar:
+
+referência;
+papiro;
+sigla;
+expansão;
+leitura;
+variante;
+sentido;
+glosa;
+classe gramatical;
+forma grega;
+transliteração;
+URL;
+bibliografia.
+
+Quando a fonte não estiver clara:
+
+dizer que está incerta e investigar.
+
+======================================================================
+34. ESTADO DE PARTIDA PARA O PRÓXIMO CHAT
+======================================================================
+
+Se a branch não tiver mudado:
+
+Repositório:
+
+linguasbiblicasoriginais-rgb/scriptura-lexicon
+
+Branch:
+
+chat-gpt-bdag
+
+HEAD:
+
+b8ba6145b5ab9459fd2e27be08f02826d1236b81
+
+Total:
+
+821
+
+Último lema:
+
+ἀπάτωρ
+
+Próximo lema:
+
+ἀπαύγασμα
+
+Próximo lote esperado:
+
+ἀπαύγασμα
+ἀπαφρίζω
+ἀπαχθῆναι
+ἀπέβαλον
+ἀπέβην
+ἀπέδειξα
+ἀπέδετο
+ἀπεδίδουν
+ἀπέθανον
+ἀπεθέμην
+ἀπεῖδον
+ἀπείθεια
+ἀπειθέω
+ἀπειθής
+ἀπειλέω
+ἀπειλή
+ἄπειμι I
+ἄπειμι II
+ἀπεῖπον
+ἀπείραστος
+
+Próximo lema depois desse lote:
+
+ἄπειρος I
+
+======================================================================
+35. INSTRUÇÃO FINAL PARA O ASSISTENTE QUE RECEBER ESTE DOCUMENTO
+======================================================================
+
+Ao iniciar um novo chat com este documento:
+
+1. Leia este documento como fonte de continuidade.
+2. Não confie cegamente no HEAD aqui registrado.
+3. Consulte imediatamente a branch chat-gpt-bdag.
+4. Determine o HEAD real.
+5. Leia lexicons/bdag.js nesse HEAD.
+6. Confirme contagem e último lema.
+7. Preserve qualquer trabalho posterior.
+8. Consulte ἀνθρωποποίητος–ἄωρος.pdf.
+9. Use o BDAG completo como conferência quando necessário.
+10. Se o último lema ainda for ἀπάτωρ, comece em ἀπαύγασμα.
+11. Trabalhe em exatamente 20 verbetes.
+12. Não pule remissões ou variantes.
+13. Faça tradução rigorosa.
+14. Preserve incertezas.
+15. Faça auditoria técnica.
+16. Faça segunda leitura filológica.
+17. Crie um único commit.
+18. Reconfirme o HEAD.
+19. Atualize com lease e sem force.
+20. Confirme o HEAD final.
+21. Informe o próximo lema.
+22. Não execute dois lotes na mesma resposta.
+
+Em caso de conflito entre este documento e o estado atual do GitHub:
+
+PREVALECE O ESTADO REAL DO GITHUB.
+
+Mas qualquer alteração posterior deve ser preservada e reconciliada.
+
+Nunca reverter trabalho posterior para fazer o repositório coincidir artificialmente com este documento.
+
+FIM DO DOCUMENTO DE CONTINUIDADE DO BDAG.
