@@ -985,61 +985,33 @@ Mensagem:
 PEREIRA lote 009
 
 ======================================================================
-28. ESTADO LEXICOGRÁFICO ATUAL CONHECIDO
+28. ESTADO LEXICOGRÁFICO ATUAL APÓS LOTE 010 — 08/10/2026
 ======================================================================
 
-Total incorporado:
+Total incorporado: 410 verbetes.
+search-row: 410
+entry-card: 410
+Último ordinal: 410
+Último lema: Ἀ-δαγμός, οῦ
+Último ID: 34417
 
-360 verbetes.
+Próximo ordinal: 411
+Próximo lema: Ἄ-δᾳδος, ον
+searchable: αδαδος
+ID: 34418
 
-search-row:
-
-360
-
-entry-card:
-
-360
-
-Último ordinal:
-
-360
-
-Último lema:
-
-Ἀγχί-νοια, ας
-
-Último ID:
-
-34368
-
-Próximo ordinal:
-
-361
-
-Próximo lema:
-
-Ἀγχί-νοος, οον
-
-searchable:
-
-αγχινοος
-
-ID:
-
-34369
-
-Esse estado deve ser confirmado no GitHub antes de qualquer novo lote.
+Estado projetado sobre o HEAD pai ccbd695e4de79f014e05ade01300fb592bbec8e7; confirmação definitiva por leitura do commit e da branch remota.
 
 ======================================================================
-29. PRÓXIMO LOTE ESPERADO — LOTE 010
+29. LOTE 010 — SEQUÊNCIA REVALIDADA DIRETAMENTE NA API
 ======================================================================
 
-Se o estado real continuar igual, o lote 010 deve cobrir:
+Faixa: 361–410
+Lema inicial: Ἀγχί-νοος, οον (ID 34369)
+Lema final: Ἀ-δαγμός, οῦ (ID 34417)
+Contagem: 50.
 
-ordinais 361–410.
-
-Sequência esperada, sujeita a reconfirmação da API:
-
+Identificadores e lemas na ordem real:
 361. ID 34369 — Ἀγχί-νοος, οον
 362. ID 34370 — Ἀγχί-πλοος, οον
 363. ID 34371 — Ἀγχί-πολις, εως, ou τος
@@ -1060,44 +1032,56 @@ Sequência esperada, sujeita a reconfirmação da API:
 378. ID 34385 — Ἀγχόνη, ης
 379. ID 34386 — Ἀγχόνιος, α, ον
 380. ID 34387 — Ἀγχοτάτω
-381. ID 34394 — Ἄγω
-382. ID 34395 — Ἀγῶ, ῇς, ῇ
-383. ID 34396 — Ἁγώ
-384. ID 34397 — Ἀγωγεύς, έως
-385. ID 34398 — Ἀγωγή, ῆς
-386. ID 34399 — Ἀγώγιμος, ον
-387. ID 34400 — Ἀγώγιον, ου
-388. ID 34401 — Ἀγωγός, όν
-389. ID 34402 — Ἀγών, ῶνος
-390. ID 34403 — Ἀγων-άρχης, ου
-391. ID 34404 — Ἀγωνία, ας
-392. ID 34405 — Ἀγωνιάω
-393. ID 34406 — Ἀγωνίζομαι
-394. ID 34407 — Ἀγώνιος, α, ον
-395. ID 34408 — Ἀ-γώνιος, α, ον
-396. ID 34409 — Ἀγώνισις, εως
-397. ID 34410 — Ἀγώνισμα, ατος
-398. ID 34411 — Ἀγωνισμός, οῦ
-399. ID 34412 — Ἀγωνιστής, οῦ
-400. ID 34413 — Ἀγωνιστικός, ή, όν
-401. ID 34414 — Ἀγωνο-θεσία, ας
-402. ID 34415 — Ἀγωνο-θετέω
-403. ID 34416 — Ἀγωνο-θέτης, ου
-404. ID 34417 — Ἀ-δαγμός, οῦ
-405. ID 34418 — Ἄ-δᾳδος, ον
-406. ID 34419 — Ἀ-δαημονίη, ης
-407. ID 34420 — Ἀ-δαήμων, ον
-408. ID 34421 — Ἀ-δαῆς, ἐς
-409. ID 34422 — Ἀ-δάητος, ον
-410. ID 34423 — Ἄ-δαιτος, ον
+381. ID 34388 — Ἀγχότερες, α, ον
+382. ID 34389 — Ἀγχοῦ
+383. ID 34390 — Ἄγχουσα, ης
+384. ID 34391 — Ἄγχω
+385. ID 34392 — Ἀγχ-ωμαλέω
+386. ID 34393 — Ἀγχ-ώμαλος, ον
+387. ID 34394 — Ἄγω
+388. ID 34395 — Ἀγῶ, ῇς, ῇ
+389. ID 34396 — Ἁγώ
+390. ID 34397 — Ἀγωγεύς, έως
+391. ID 34398 — Ἀγωγή, ῆς
+392. ID 34399 — Ἀγώγιμος, ον
+393. ID 34400 — Ἀγώγιον, ου
+394. ID 34401 — Ἀγωγός, όν
+395. ID 34402 — Ἀγών, ῶνος
+396. ID 34403 — Ἀγων-άρχης, ου
+397. ID 34404 — Ἀγωνία, ας
+398. ID 34405 — Ἀγωνιάω
+399. ID 34406 — Ἀγωνίζομαι
+400. ID 34407 — Ἀγώνιος, α, ον
+401. ID 34408 — Ἀ-γώνιος, α, ον
+402. ID 34409 — Ἀγώνισις, εως
+403. ID 34410 — Ἀγώνισμα, ατος
+404. ID 34411 — Ἀγωνισμός, οῦ
+405. ID 34412 — Ἀγωνιστής, οῦ
+406. ID 34413 — Ἀγωνιστικός, ή, όν
+407. ID 34414 — Ἀγωνο-θεσία, ας
+408. ID 34415 — Ἀγωνο-θετέω
+409. ID 34416 — Ἀγωνο-θέτης, ου
+410. ID 34417 — Ἀ-δαγμός, οῦ
 
-Próximo verbete esperado depois do lote:
+CORREÇÃO DA PREVISÃO HISTÓRICA (não da fonte): a consulta αγχ devolvia 30
+resultados, e a previsão anterior ignorava os registros adicionais
+34388 Ἀγχότερες, α, ον, 34389 Ἀγχοῦ,
+34390 Ἄγχουσα, ης, 34391 Ἄγχω,
+34392 Ἀγχ-ωμαλέω, 34393 Ἀγχ-ώμαλος, ον.
+Consultas por subprefixos αγχο e αγχω demonstraram os seis registros.
+Logo, os ordinais 381–386 correspondem a esses seis registros;
+os ordinais 387–409 à sequência αγω e o ordinal 410 à primeira entrada αδ.
+Nunca usar a antiga tabela 361–410 sem esta reconciliação.
 
-411. ID 34424 — Ἄ-δακρυς, υ
+PRÓXIMO LOTE: 011, ordinais 411–460, a revalidar na API;
+primeira entrada verificada Ἄ-δᾳδος, ον (ID 34418).
+NÃO assumir que a API com prefixo αδ e 30 registros inclui toda a
+subdivisão; refinar os prefixos em cada execução.
 
-searchable:
-
-αδακρυς
+Nenhum arquivo compartilhado pode ser modificado neste lote.
+Commit esperado em lexicons/pereira.js, lexicons/pereira-progress.json
+e regras/Rpereira.txt.
+Consultar HEAD remoto para SHA definitivo do próprio commit.
 
 ======================================================================
 30. PREFIXOS RELEVANTES PARA REVALIDAÇÃO DO LOTE 010
@@ -1432,5 +1416,22 @@ o primeiro passo obrigatório é acessar:
 regras/Rpereira.txt
 
 antes de continuar o trabalho.
+
+
+======================================================================
+41. CONTINUIDADE E AUDITORIA DO LOTE 010
+======================================================================
+
+Rodada de 08/10/2026. Branch antes do lote: ccbd695e4de79f014e05ade01300fb592bbec8e7.
+A branch chat-gpt-pereira estava divergente em relação à main
+(3 commits à frente e 7 atrás): não se aplicou fast-forward, reset ou
+mesclagem de branches; todo trabalho exclusivo foi conservado.
+O lote foi obtido exclusivamente da API oficial por POST em prefixos
+αγχ, αγχο, αγχω, αγω, αδ, com refinamento por subprefixos para superar
+a truncagem em 30 resultados. Os nove campos originais, inclusive
+as grafias estranhas e os valores null, permaneceram separados.
+Verificações planejadas: 410 linhas, 410 cartões, 410 IDs únicos e
+410 alvos correspondentes; nenhum workflow dentro do commit da branch;
+nenhuma mudança de outros léxicos. Confirmação do commit no GitHub.
 
 FIM DO ARQUIVO Rpereira.

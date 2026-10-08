@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 361,
-    "status": "lote 9 concluído"
+    "next_ordinal": 411,
+    "status": "lote 10 concluído"
   },
   "batches": [
     {
@@ -109,13 +109,24 @@
       "start_source_id": 33250,
       "end_source_id": 34368,
       "status": "concluído"
+    },
+    {
+      "batch": 10,
+      "start_ordinal": 361,
+      "end_ordinal": 410,
+      "start_entry": "Ἀγχί-νοος, οον",
+      "end_entry": "Ἀ-δαγμός, οῦ",
+      "entry_count": 50,
+      "start_source_id": 34369,
+      "end_source_id": 34417,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 361,
-    "source_id": 34369,
-    "searchable": "αγχινοος",
-    "lemma": "Ἀγχί-νοος, οον"
+    "ordinal": 411,
+    "source_id": 34418,
+    "searchable": "αδαδος",
+    "lemma": "Ἄ-δᾳδος, ον"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
