@@ -99,6 +99,10 @@ const menuBackdrop = document.getElementById("menu-backdrop");
 const dictionaryOptions = Array.from(
     document.querySelectorAll(".dictionary-option")
 );
+const themeInputs = Array.from(
+    document.querySelectorAll('input[name="site-theme"]')
+);
+const themeColorMeta = document.querySelector('meta[name="theme-color"]');
 
 const lexicalTooltip = document.getElementById("lexical-tooltip");
 
@@ -1253,6 +1257,34 @@ function closeDictionaryMenu(returnFocus) {
 
 
 /* ==========================================================
+   APARÊNCIA — ALTERNÂNCIA SEM RECARREGAMENTO
+   ========================================================== */
+
+function applyTheme(theme, persist) {
+    const chosenTheme = theme === "light" ? "light" : "dark";
+
+    document.documentElement.dataset.theme = chosenTheme;
+
+    themeInputs.forEach(function (input) {
+        input.checked = input.value === chosenTheme;
+    });
+
+    if (themeColorMeta) {
+        themeColorMeta.content =
+            chosenTheme === "light" ? "#f4f7fc" : "#071d3a";
+    }
+
+    if (persist) {
+        try {
+            localStorage.setItem("scriptura-lexicon-theme", chosenTheme);
+        } catch (error) {
+            // A alternância funciona mesmo com armazenamento indisponível.
+        }
+    }
+}
+
+
+/* ==========================================================
    DICIONÁRIOS
    ========================================================== */
 
@@ -2028,6 +2060,14 @@ dictionaryOptions.forEach(function (option) {
     );
 });
 
+themeInputs.forEach(function (input) {
+    input.addEventListener("change", function () {
+        if (input.checked) {
+            applyTheme(input.value, true);
+        }
+    });
+});
+
 searchInput.addEventListener(
     "input",
     filterEntries
@@ -2294,6 +2334,7 @@ document.addEventListener(
    INICIALIZAÇÃO
    ========================================================== */
 
+applyTheme(document.documentElement.dataset.theme, false);
 enrichBibliographicTooltips();
 enrichBibleReferenceTooltips();
 bindTooltipEvents();

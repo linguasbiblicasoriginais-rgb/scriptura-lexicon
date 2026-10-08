@@ -1501,3 +1501,284 @@ tbody tr:last-child td {
         display: none;
     }
 }
+
+
+/* ==========================================================
+   APARÊNCIA — TEMAS CLARO E ESCURO
+   O escuro continua sendo o padrão; o claro só substitui
+   os valores cromáticos, sem alterar dimensões nem tipografia.
+   ========================================================== */
+
+:root {
+    color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+    color-scheme: light;
+
+    --bg-main: #f4f7fc;
+    --surface-1: #ffffff;
+    --surface-2: #edf3fa;
+    --surface-3: #e2ebf7;
+
+    --border: #c7d5e7;
+    --border-soft: #dce5f0;
+    --border-tooltip: #9eb6d1;
+
+    --text-primary: #192b43;
+    --text-secondary: #425771;
+    --text-muted: #5a6d85;
+
+    --accent: #245ca7;
+    --accent-light: #285fa8;
+    --accent-dark: #356eae;
+
+    --interactive: #1e5b9d;
+    --interactive-hover: #133f77;
+
+    --reference: #245d9a;
+    --reference-hover: #113f7c;
+
+    --bibliography: #4a598c;
+    --bibliography-hover: #303e76;
+
+    --shadow: 0 14px 38px rgba(31, 63, 100, 0.10);
+    --tooltip-shadow: 0 16px 40px rgba(31, 63, 100, 0.18);
+}
+
+:root[data-theme="light"] body {
+    background:
+        radial-gradient(circle at 10% 0%, rgba(82, 137, 203, 0.11), transparent 30rem),
+        var(--bg-main);
+}
+
+:root[data-theme="light"] .menu-backdrop {
+    background: rgba(37, 56, 85, 0.38);
+}
+
+:root[data-theme="light"] .dictionary-drawer {
+    background: linear-gradient(180deg, #f9fbff, #eaf1fa);
+    box-shadow: 20px 0 55px rgba(31, 63, 100, 0.18);
+}
+
+:root[data-theme="light"] .dictionary-option.active {
+    background: rgba(48, 102, 180, 0.10);
+    border-color: rgba(48, 102, 180, 0.30);
+}
+
+:root[data-theme="light"] .dictionary-context {
+    background: linear-gradient(
+        135deg,
+        rgba(65, 122, 195, 0.12),
+        rgba(65, 122, 195, 0.025)
+    );
+}
+
+:root[data-theme="light"] thead {
+    background: rgba(58, 102, 157, 0.065);
+}
+
+:root[data-theme="light"] .entry-title,
+:root[data-theme="light"] .entry-text strong,
+:root[data-theme="light"] .tooltip-heading {
+    color: var(--text-primary);
+}
+
+:root[data-theme="light"] .entry-text em {
+    color: #334f72;
+}
+
+:root[data-theme="light"] .quotation {
+    color: #334d6c;
+}
+
+:root[data-theme="light"] .lexical-tooltip {
+    background: linear-gradient(
+        180deg,
+        rgba(253, 254, 255, 0.985),
+        rgba(236, 243, 251, 0.985)
+    );
+}
+
+:root[data-theme="light"] .tooltip-meaning {
+    color: var(--accent-light);
+    background: rgba(57, 106, 170, 0.085);
+    border-color: rgba(57, 106, 170, 0.22);
+}
+
+:root[data-theme="light"] .source-filter-option[aria-selected="true"] {
+    background: rgba(57, 106, 170, 0.09);
+}
+
+:root[data-theme="light"] .reference-link:hover,
+:root[data-theme="light"] .reference-link:focus,
+:root[data-theme="light"] .tooltip-trigger:hover,
+:root[data-theme="light"] .tooltip-trigger:focus {
+    background: rgba(48, 102, 180, 0.10);
+    box-shadow: 0 0 0 2px rgba(48, 102, 180, 0.06);
+}
+
+/* Mesmas famílias cromáticas das fontes, com tons legíveis no fundo claro. */
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"] {
+    --source-text: #2459a3;
+    --source-bg: rgba(56, 114, 225, 0.105);
+    --source-border: rgba(56, 114, 225, 0.34);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ABBOTT-SMITH"] {
+    --source-text: #006a84;
+    --source-bg: rgba(28, 142, 179, 0.10);
+    --source-border: rgba(28, 142, 179, 0.32);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="BDAG"] {
+    --source-text: #6144aa;
+    --source-bg: rgba(115, 90, 205, 0.105);
+    --source-border: rgba(115, 90, 205, 0.33);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="LEH"] {
+    --source-text: #147366;
+    --source-bg: rgba(38, 147, 131, 0.105);
+    --source-border: rgba(38, 147, 131, 0.34);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="PEREIRA"] {
+    --source-text: #904265;
+    --source-bg: rgba(157, 77, 129, 0.105);
+    --source-border: rgba(157, 77, 129, 0.32);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="DGP"] {
+    --source-text: #865815;
+    --source-bg: rgba(159, 117, 49, 0.115);
+    --source-border: rgba(159, 117, 49, 0.34);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="HALOT"] {
+    --source-text: #3d6a31;
+    --source-bg: rgba(99, 151, 85, 0.105);
+    --source-border: rgba(99, 151, 85, 0.35);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="THAYER"] {
+    --source-text: #514b9d;
+    --source-bg: rgba(92, 96, 184, 0.105);
+    --source-border: rgba(92, 96, 184, 0.34);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="KBS"] {
+    --source-text: #43657b;
+    --source-bg: rgba(91, 125, 147, 0.105);
+    --source-border: rgba(91, 125, 147, 0.34);
+}
+
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="CLINES"] {
+    --source-text: #7a4b8d;
+    --source-bg: rgba(132, 83, 155, 0.105);
+    --source-border: rgba(132, 83, 155, 0.34);
+}
+
+/* Escolha de tema no menu principal, seguindo o desenho dos dicionários. */
+.theme-selector {
+    min-width: 0;
+    margin: 24px 0 0;
+    padding: 15px 0 0;
+    border: 0;
+    border-top: 1px solid var(--border-soft);
+}
+
+.theme-selector-title {
+    padding: 0 5px;
+    color: var(--text-muted);
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+}
+
+.theme-options {
+    display: grid;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.theme-choice {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.theme-choice input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    opacity: 0;
+}
+
+.theme-choice-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 46px;
+    padding: 10px 14px;
+    color: var(--text-secondary);
+    border: 1px solid transparent;
+    border-radius: 9px;
+    font-family: var(--font-main);
+    font-size: 0.91rem;
+    font-weight: 600;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-choice-content svg {
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.theme-choice-content::after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    margin-left: auto;
+    border: 1px solid var(--text-muted);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.theme-choice:hover .theme-choice-content {
+    color: var(--text-primary);
+    background: var(--surface-3);
+    border-color: var(--border);
+}
+
+.theme-choice input:focus-visible + .theme-choice-content {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.theme-choice input:checked + .theme-choice-content {
+    color: var(--accent-light);
+    background: var(--surface-3);
+    border-color: var(--accent-dark);
+}
+
+.theme-choice input:checked + .theme-choice-content::after {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: inset 0 0 0 3px var(--surface-3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .theme-choice-content {
+        transition: none;
+    }
+}
