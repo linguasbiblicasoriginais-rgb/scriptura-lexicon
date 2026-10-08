@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 111,
-    "status": "lote 4 concluído"
+    "next_ordinal": 161,
+    "status": "lote 5 concluído"
   },
   "batches": [
     {
@@ -54,13 +54,24 @@
       "start_source_id": 30759,
       "end_source_id": 30804,
       "status": "concluído"
+    },
+    {
+      "batch": 5,
+      "start_ordinal": 111,
+      "end_ordinal": 160,
+      "start_entry": "Ἄγαρος, ον",
+      "end_entry": "Ἀ-γένητος, ον",
+      "entry_count": 50,
+      "start_source_id": 30818,
+      "end_source_id": 31972,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 111,
-    "source_id": 30818,
-    "searchable": "αγαρος",
-    "lemma": "Ἄγαρος, ον"
+    "ordinal": 161,
+    "source_id": 31973,
+    "searchable": "αγεννεια",
+    "lemma": "Ἀ-γέννεια"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
