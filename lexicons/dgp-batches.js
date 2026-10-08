@@ -2381,3 +2381,79 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 51 — registros 1181–1230
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Hipócrates", type: "biblio", text: "Hipócrates — médico grego dos séculos V–IV a.C.; o nome também designa tradicionalmente o corpus hipocrático." },
+        { key: "Apiano", type: "biblio", text: "Apiano de Alexandria — historiador grego do século II d.C., autor de uma História Romana." },
+        { key: "Antologia Palatina", type: "biblio", text: "Antologia Palatina — coleção de epigramas gregos preservada sobretudo pelo manuscrito Palatinus gr. 23." },
+        { key: "Calímaco", type: "biblio", text: "Calímaco de Cirene — poeta e erudito helenístico dos séculos IV–III a.C., ligado à Biblioteca de Alexandria." }
+    );
+    const entries = [
+        [1181,"αἰχμαλωσία, ας (ἡ)","1 cativeiro de guerra; cativeiro 2 grupo de cativos de guerra. 〈αἰχμάλωτος〉","cativeiro; grupo de cativos"],
+        [1182,"αἰχμαλωτεύω","bíbl. = αἰχμαλωτίζω.","forma bíblica de αἰχμαλωτίζω"],
+        [1183,"αἰχμαλωτίζω","1 tornar prisioneiro de guerra 2 escravizar; subjugar: ἕτερον νόμον αἰχμαλωτίζοντά με ἐν τῷ νόμῳ τῆς ἁμαρτίας Novo Testamento outra lei que me torna escravo da lei do pecado 3 cativar; seduzir: οἱ αἰχμαλωτίζοντες γυναικάρια σεσωρευμένα ἁμαρτίας Novo Testamento os que seduzem mulherzinhas sobrecarregadas de pecados. 〈αἰχμάλωτος〉","prender; escravizar; cativar"],
+        [1184,"αἰχμαλωτίς, ίδος","(fem.) prisioneira de guerra; cativa. 〈αἰχμάλωτος〉","prisioneira de guerra"],
+        [1185,"αἰχμάλωτος, ος, ον","1 apreendido na guerra: αἰχμάλωτα χρήματα bens apresados na guerra 2 de prisioneiro de guerra: αἰχ. δουλοσύνη servidão reservada aos prisioneiros, αἰχ. εὐνά leito reservado à mulher prisioneira ♦ οἱ αἰχμάλωτοι 3 prisioneiros de guerra; cativos ♦ τὰ αἰχμάλωτα 4 despojos de guerra. 〈αἰχμή, ἁλίσκομαι〉","prisioneiro de guerra; despojos"],
+        [1186,"αἰχμή, ῆς (ἡ)","1 ponta; ponta da lança 2 arma em geral; lança; dardo 3 guerra; luta 4 poder apoiado em força militar; dominação; autoridade 5 espírito belicoso.","ponta; lança; guerra; poder militar"],
+        [1187,"αἰχμήεις, ήεσσα, ῆεν","armado de lança; belicoso. 〈αἰχμή〉","armado de lança; belicoso"],
+        [1188,"αἰχμητά (ὁ)","αἰχμητής.","αἰχμητής"],
+        [1189,"αἰχμητής, οῦ (ὁ)","1 combatente armado de lança; guerreiro ♦ adj. 2 belicoso; terrível 3 pontiagudo. 〈αἰχμή〉","lanceiro; guerreiro; belicoso; pontiagudo"],
+        [1190,"αἰχμοφόρος, ου (ὁ)","portador de lança; guarda-costas armado de lança. 〈αἰχμή, φέρω〉","portador de lança; guarda-costas"],
+        [1191,"αἷψα","adv. imediatamente; rapidamente; prontamente.","imediatamente; rapidamente"],
+        [1192,"αἰψηρός, ά, όν","pronto; rápido. 〈αἷψα〉","pronto; rápido"],
+        [1193,"ἀΐω1","(só pres. e impf.) 1 perceber pela audição, ouvir algo, ac., ou alguém, gen. 2 perceber pelos olhos; ver; notar 3 escutar; dar ouvidos a; obedecer a, gen.","ouvir; ver; perceber; obedecer"],
+        [1194,"ἀΐω2","(só impf. ἄϊον) exalar: φίλον ἄϊον ἦτορ Homero meu espírito exalava.","exalar"],
+        [1195,"ἀϊών1, όνος","e ἀΐων, ονος (ἡ) dór. = ἠΐων.","forma dórica de ἠΐων"],
+        [1196,"αἰών2, ῶνος (ὁ,","poét. ἡ) 1 tempo; duração da vida; vida 2 força vital; alma 3 idade; geração; época: ὁ μέλλων αἰών o tempo futuro, a posteridade, ὁ αἰὼν ἐρχόμενος o tempo vindouro, ὁ αἰὼν οὗτος o tempo presente 4 tempo indefinido; século; eternidade.","tempo; vida; época; eternidade"],
+        [1197,"αἰώνιος, ος, ον","durável; perpétuo; eterno. 〈αἰών2〉","eterno; perpétuo"],
+        [1198,"αἰώρα, ας (ἡ)","1 aparelho para balançar; rede 2 ação de suspender-se, de balançar; oscilação; balanço. 〈ἀείρω〉","rede; suspensão; balanço"],
+        [1199,"αἰωρέω-ῶ","(fut. αἰωρήσω, aor. ᾐώρησα, perf. desus.; pas. aor. ᾐωρήθην, perf. ᾐώρημαι) 1 manter suspenso no ar; balançar: ὄφεις θλίβων καὶ ὑπὲρ τῆς κεφαλῆς αἰωρῶν Demóstenes segurando firme as serpentes e mantendo-as suspensas acima da cabeça, αἰ. γυναῖκα ἐπὶ κλίνης φερομένην Hipócrates balançar uma mulher enquanto é transportada em seu leito 2 pendurar 3 animar; excitar: ᾐώρει δὲ αὐτοὺς ἡ εὐπραξία καὶ ἐλπίς Apiano o sucesso e a esperança os exaltavam ♦ pas. 4 balançar-se; oscilar; flutuar: αἰωρεῖται δὴ ἄνω καὶ κάτω Platão [a água] oscila para cima e para baixo, νῆες αἰωρούμεναι πρὸ λιμένος Platão naus que flutuam diante do porto 5 estar pendurado: αἰγὸς δέρματα περὶ τοὺς ὤμους αἰωρεύμενα Heródoto peles de cabra suspensas de seus ombros 6 ser elevado moralmente; ser arrebatado: αἰωρεῖσθαι τὴν ψυχήν Xenofonte ter a alma arrebatada 7 estar em suspenso; balançar; hesitar: αἰ. ἐν κινδύνῳ Tucídides estar à beira do perigo 8 estar suspenso; ameaçar: ἡ δίκη αἰωρουμένη ὑπὲρ κεφαλῆς Plutarco o castigo suspenso sobre sua cabeça 9 estar suspenso a; depender de: αἰωρεῖσθαι ἔν τινι Platão depender de alguém. 〈αἰώρα〉","suspender; balançar; excitar; flutuar; hesitar"],
+        [1200,"Ἀκαδημαϊκός, ή, όν","da Academia; platônico. 〈Ἀκαδήμεια〉","acadêmico; platônico"],
+        [1201,"Ἀκαδήμεια","e Ἀκαδημία, ας (ἡ) 1 Academia, ginásio de Atenas 2 Academia, escola filosófica platônica.","Academia de Atenas; escola platônica"],
+        [1202,"ἀκαθαρσία, ας (ἡ)","1 sujeira; imundícia 2 impureza; nódoa 3 corrupção; depravação. 〈ἀ-, κάθαρτος〉","sujeira; impureza; corrupção"],
+        [1203,"ἀκάθαρτος, ος, ον","1 impuro; maculado; não purificado 2 bíbl. sem relação com Deus 3 impróprio para purificar. 〈ἀ-, καθαίρω〉","impuro; não purificado"],
+        [1204,"ἀκαιρέω-ῶ","1 não ter tempo ou oportunidade ♦ méd. 2 bíbl. não ter oportunidade. 〈ἄκαιρος〉","não ter tempo ou oportunidade"],
+        [1205,"ἀκαιρία, ας (ἡ)","1 falta de tato; inconveniência 2 carência de tempo; contratempo; estação desfavorável 3 falta de medida (em discurso). 〈ἄκαιρος〉","inconveniência; contratempo; falta de medida"],
+        [1206,"ἄκαιρος, ος, ον","1 inoportuno; fora de época 2 importuno; inconveniente 3 impróprio para algo, inf. ♦ ἄκαιρα adv. 4 inoportunamente. 〈ἀ-, καιρός〉","inoportuno; inconveniente"],
+        [1207,"ἀκαίρως","adv. a contratempo; fora de época; inoportunamente.","inoportunamente"],
+        [1208,"ἀκάκας","dór. = ἄκακος.","forma dórica de ἄκακος"],
+        [1209,"ἀκάκητα","nom. ép. (ὁ) aquele que não faz o mal; benéfico, epít. de Hermes e de Prometeu. 〈ἄκακος〉","benéfico; epíteto de Hermes e Prometeu"],
+        [1210,"ἀκακία, ας (ἡ)","ausência de maldade; inocência; pureza. 〈ἄκακος〉","inocência; pureza"],
+        [1211,"ἄκακος, ος, ον","isento de maldade; ingênuo. 〈ἀ-, κακός〉","inocente; ingênuo"],
+        [1212,"ἀκαλαρρείτης","só gen. ép. ἀκαλαρρείταο (masc.) que corre com tranqüilidade; de suave fluxo. 〈ἀκαλός, ῥέω〉","de suave fluxo"],
+        [1213,"ἀκαλάρροος, ος, ον","ἀκαλαρρείτης.","ἀκαλαρρείτης"],
+        [1214,"ἀκαλλής, ής, ές","sem beleza; sem encanto. 〈ἀ-, κάλλος〉","sem beleza; sem encanto"],
+        [1215,"ἀκαλλιέρητος, ος, ον","não aceito pelos deuses; de mau augúrio. 〈ἀ-, καλλιερέω〉","de mau augúrio"],
+        [1216,"ἀκαλλώπιστος, ος, ον","não ornado; sem adorno. 〈ἀ-, καλλωπίζω〉","sem adorno"],
+        [1217,"ἀκαλός, ή, όν","tranqüilo; silencioso.","tranquilo; silencioso"],
+        [1218,"ἀκάλυπτος, ος, ον","não velado; a descoberto. 〈ἀ-, καλύπτω〉","descoberto; não velado"],
+        [1219,"ἀκαλυφής, ής, ές","ἀκάλυπτος.","ἀκάλυπτος"],
+        [1220,"ἀκάμας, αντος","(masc., fem.) 1 infatigável 2 rar. incessante. 〈ἀ-, κάμνω〉","infatigável; incessante"],
+        [1221,"ἀκάματος, ος","e η, ον 1 infatigável 2 que não causa fadiga ♦ ἀκάματα adv. 3 infatigavelmente.","infatigável; que não causa fadiga"],
+        [1222,"ἄκαμπτος, ος, ον","1 que não se curva; firme; inflexível 2 não dobrado; não curvado; rígido 3 que permanece firme; resistente a, πρός e ac. 〈ἀ-, κάμπτω〉","firme; inflexível; resistente"],
+        [1223,"ἄκανθα, ης (ἡ)","1 acanto; espinho 2 cardo 3 espinho do porco-espinho; língua da serpente 4 espinha de peixe; espinha dorsal 5 coisa espinhosa; dificuldade.","acanto; espinho; espinha"],
+        [1224,"ἀκανθίας, ου (ὁ)","1 espécie de tubarão 2 espécie de cigarra.","tubarão; cigarra"],
+        [1225,"ἀκάνθινος, η, ον","1 cheio de espinhos 2 de espinho; feito de espinho 3 feito com madeira de acácia ou com casca de cardo. 〈ἄκανθα〉","espinhoso; feito de espinho"],
+        [1226,"ἀκανθώδης, ης, ες","1 que tem ou produz espinhos; armado de espinhos 2 espinhoso. 〈ἄκανθα〉","espinhoso"],
+        [1227,"ἄκαπνος, ος, ον","1 que não faz fumaça; sem fumaça: ἄ. θύος Antologia Palatina incenso sem fumaça, ἄκαπνα θύειν Calímaco sacrificar para si sem fumaça, i. e., viver a expensas de outrem 2 onde não há fumaça; não esfumaçado. 〈ἀ-, καπνός〉","sem fumaça; não esfumaçado"],
+        [1228,"ἀκάρδιος, ος, ον","1 sem coração 2 bíbl. sem razão; sem discernimento; leviano 3 sem cerne (madeira). 〈ἀ-, καρδία〉","sem coração; sem discernimento"],
+        [1229,"ἀκαρής, ής, ές","1 que não se pode cortar ou aparar; muito pequeno ou muito curto: ἀκαρῆ [χρόνον] por um instante, οὐδ’ ἀκαρῆ nem um instante, de modo nenhum, παρ’ ἀκαρῆ quase nada, ἐν ἀκαρεῖ [χρόνῳ] em um momento muito curto. 〈ἀ-, κείρω〉","muito pequeno; por um instante"],
+        [1230,"Ἀκαρνάν, ᾶνος (ὁ)","1 Acárnan, ancestral dos acarnânios ♦ adj. 2 acarnânio.","Acárnan; acarnânio"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
