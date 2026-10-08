@@ -1,0 +1,542 @@
+RDGP — PROTOCOLO PERMANENTE DE CONTINUIDADE DO DGP
+Scriptura Lexicon / Grande Dicionário Hebraico–Aramaico–Grego–Português
+Versão inaugural: 08/10/2026
+Caminho: Rdgp/Rdgp.txt
+Branch: chat-gpt-dgp
+Codificação: UTF-8; documento em texto simples, sem sintaxe Markdown.
+
+=====================================================================
+01. COMANDO DE CONTINUIDADE E OBRIGAÇÕES
+=====================================================================
+Comando literal do usuário:
+Continue o processo (DGP).
+
+Sempre que esse comando for apresentado, o assistente deverá, ANTES
+de qualquer lote:
+(1) acessar e ler Rdgp/Rdgp.txt no HEAD REAL da branch chat-gpt-dgp;
+(2) conferir o HEAD e a árvore atuais do repositório;
+(3) ler lexicons/dgp-progress.json, lexicons/dgp-batches.js e
+    lexicons/dgp.js no mesmo HEAD;
+(4) consultar o XML primário para fixar os próximos ordinais;
+(5) executar, sob a regra vigente, três lotes consecutivos de 50
+    verbetes, COM TRÊS COMMITS, um por lote;
+(6) atualizar neste mesmo arquivo o progresso e mudanças relevantes
+    durante cada lote, sem apagar regras e histórico;
+(7) fazer auditoria filológica e técnica, usar lease de Git e informar
+    os novos SHAs e o próximo ordinal.
+
+Não afirmar que Rdgp foi consultado sem tê-lo lido de fato.
+Não depender só do conhecimento de chats anteriores. Se a conexão
+GitHub não estiver disponível, explicar a impossibilidade de acesso.
+A regra de atualização vale durante a execução de solicitações do
+usuário, não implica tarefas em segundo plano.
+O usuário pode também anexar este TXT às fontes permanentes do projeto.
+
+=====================================================================
+02. PROJETO E SEPARAÇÃO DAS FONTES
+=====================================================================
+O trabalho integra o GDHAGP/Scriptura Lexicon. Cada léxico deve
+conservar sua identidade editorial e filológica. BDAG reflete BDAG;
+LEH reflete LEH; DGP reflete DGP. Não completar o DGP com exemplos,
+interpretações, etimologias, glosas ou correções de BDAG, LEH,
+Robinson, Thayer ou qualquer fonte externa.
+
+Distinguir sempre:
+FONTE = testemunho efetivo do léxico consultado.
+TRADUÇÃO = tradução assumida, quando aplicável.
+ANÁLISE = observação ou interpretação editorial explicitada.
+GDHAGP = elaboração lexicográfica própria, distinta dos testemunhos.
+
+O DGP original já está em português. A tarefa é incorporar
+integralmente as definições portuguesas, não retraduzir, reescrever
+ou simplificar seus sentidos. Somente a glosa abreviada para a busca
+pode ser sintetizada, sem contradizer a definição original.
+
+Não interpretar livremente o DGP nem introduzir comentário
+doutrinário ou harmonização teológica.
+
+=====================================================================
+03. REPOSITÓRIO E ARQUIVOS
+=====================================================================
+Destino:
+https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon
+Branch de trabalho: chat-gpt-dgp
+
+Arquivos DGP:
+lexicons/dgp.js — módulo da fonte, popups e entradas iniciais.
+lexicons/dgp-batches.js — registros e cartões acumulados dos lotes.
+lexicons/dgp-progress.json — manifesto de controle de progresso.
+lexicons/dgp-format.js — camada visual e reorganização conservadora.
+lexicons/dgp-format.css — tipografia visual exclusiva do DGP.
+NOTICE-DGP.md — proveniência e licença.
+Rdgp/Rdgp.txt — presente arquivo mestre de continuidade.
+
+Arquivos compartilhados: index.html, script.js, style.css.
+Outras fontes independentes: lexicons/bdag.js e lexicons/leh.js.
+
+Há arquivos auxiliares históricos dgp-batch-*.js na árvore, mas
+verificar index.html para determinar o que realmente é carregado;
+não somar ou duplicar entradas de módulos não carregados.
+
+Ordem dos scripts DGP confirmada em 08/10/2026:
+dgp.js -> dgp-batches.js -> dgp-format.js -> script.js.
+
+Na rotina de novos lotes, alterar apenas:
+lexicons/dgp-batches.js
+lexicons/dgp-progress.json
+Rdgp/Rdgp.txt
+e popups realmente necessários, no próprio módulo apropriado.
+Essa regra de TRÊS arquivos substitui a norma antiga que esperava
+somente dgp-batches.js e dgp-progress.json. Não mexer nos arquivos
+compartilhados nem em BDAG/LEH sem solicitação explícita.
+
+=====================================================================
+04. FONTE DE ORIGEM — SNAPSHOT FIXADO
+=====================================================================
+Repositório:
+https://github.com/aniseferreira/Grc-Por-DigDict
+
+Commit do corpus fixado:
+deb54b426ead447d01ced7534736f3e77be7015b
+
+Arquivo da letra alfa:
+arquivos_xml/01_Alfa.txt.xml
+
+Blob SHA:
+eec318bb6150b6b2f4422ea4a76383ac0a254de2
+
+Total verificado no XML: 7204 registros entryFree.
+Não confundir 7204 disponíveis na fonte com 1480 já incorporados.
+
+Interface pública de origem:
+http://perseidas.fclar.unesp.br/
+
+Documentação de referência:
+NOTICE-DGP.md e README do repositório da fonte.
+O Dicionário Grego-Português é ligado à FCLAr/UNESP e às
+organizadoras Maria Celeste C. Dezotti, Daisi Malhadas e
+Maria Helena de Moura Neves.
+A licença informada pelo repositório de origem é CC BY-NC-SA 4.0;
+preservar as atribuições e as condições não comerciais e
+compartilha-igual. Não apagar NOTICE-DGP.md.
+
+Base auxiliar de referência:
+DDGP-3x-files/ddgp3x-copia_8nov_22.sql
+DDGP-3x-files/DDGP_3x_entry_lists_in_pdf_alphabetically.zip
+
+A fonte primária para cada ordinal é o XML fixado, não um índice
+alfabético reconstruído pelo assistente. Cada entryFree, inclusive
+remissões, variantes, nomes próprios, grafias alternativas e
+formas flexionadas, é verbete independente.
+
+Extrair, preservando a ordem física do arquivo:
+texto do lema antes de <def>;
+texto completo da definição entre <def> e </def>.
+O processo histórico reduziu sequências de whitespace a um espaço e
+removeu whitespace das extremidades, mas não fez modernização
+ortográfica nem correção silenciosa de conteúdo.
+
+Não corrigir por intuição formas como tranqüilamente, seqüência,
+hifens suaves (U+00AD), acentos, espíritos, subscritos, grafias,
+pontuação e numeração possivelmente anômala. Conferir a fonte em caso
+de estranheza; se não se resolver, preservar e registrar a dúvida.
+
+=====================================================================
+05. FIDELIDADE À DEFINIÇÃO E AOS EXEMPLOS
+=====================================================================
+Preservar:
+estrutura de acepções e subsentidos; números; marcas gramaticais;
+regência e caso; construções sintáticas; variantes dialetais;
+formas ativas, médias e passivas; abreviaturas com valor editorial;
+usos literais e figurados; qualificações históricas, poéticas,
+bíblicas, técnicas e raras; exemplos gregos e significados
+portugueses; referências de autores/obras/corpora; remissões,
+observações etimológicas e peculiaridades do texto.
+
+A definição completa deve ser integral; a glosa da busca é auxiliar.
+Apenas expandir nomes de autores e obras quando houver identificação
+segura e regra expressa. Auditar toda divergência produzida por
+essas expansões. Nunca atribuir ao DGP um texto produzido por
+inferência ou por outro léxico.
+
+Um homógrafo separado, um lema remissivo, uma variante isolada ou
+um registro de uma palavra valem uma entrada caso estejam
+representados por entryFree próprios. Proibido fundir ou pular.
+
+IDs: entry-dgp-NNNN, usando pelo menos quatro dígitos.
+Cada ordinal corresponde exatamente a um search-row e um entry-card.
+O data-target da linha deve corresponder ao id do cartão.
+Os marcadores são data-source="DGP" e data-dictionary="grego".
+Nunca reutilizar ordinal, ID ou data-target.
+
+Campos lógicos:
+ordinal | headword | definition | gloss.
+A glosa deve ser fiel e concisa, sem apagar a definição no cartão.
+A montagem de HTML deve escapar &, <, > e aspas adequadamente,
+sem permitir que o texto da fonte se transforme em HTML executável.
+
+=====================================================================
+06. ABREVIATURAS, RUBRICAS E POPUPS
+=====================================================================
+Abreviaturas gramaticais e editoriais devem ter popup com a
+expansão segura, conforme a fonte DGP. Exemplos: aor., pres.,
+perf., impf., méd., pas., gen., dat., adv., dór., jôn., poét.,
+ép. A forma e o significado efetivos precisam ser conferidos;
+não tomar os exemplos deste parágrafo como substitutos do cadastro.
+
+Autores, obras e corpora devem aparecer por extenso quando
+identificáveis, com popup biográfico ou descritivo fundamentado.
+Confirmar antes de criar nova chave em bibliographicTerms;
+reutilizar cadastros anteriores em dgp.js, dgp-batches.js e nas
+rotinas globais de script.js. Evitar duplicações e colisões.
+
+Expansões já empregadas/auditadas em lotes recentes:
+hom. -> Homero; ésql. -> Ésquilo; sóf. -> Sófocles;
+tuc. -> Tucídides; plat. -> Platão; pínd. -> Píndaro;
+n.t. -> Novo Testamento; her. -> Heródoto; eur. -> Eurípides;
+xen. -> Xenofonte; dem. -> Demóstenes;
+hipócr. -> Hipócrates; pol. -> Políbio.
+
+Casos historicamente ambíguos preservados sem conjectura:
+el.; ésqn.; a.r.; artt.
+
+Popup acrescentado pontualmente no lote 54:
+cop. -> copulativo (alfa copulativo).
+
+Nomes atestados em verbetes ou rubricas do projeto incluem:
+Homero, Ésquilo, Sófocles, Eurípides, Platão, Aristófanes,
+Heródoto, Tucídides, Xenofonte, Demóstenes, Isócrates, Lísias,
+Píndaro, Hipócrates, Plutarco, Políbio, Menandro, Luciano,
+Antifonte, Teócrito, Teofrasto, Apiano, Calímaco,
+Dionísio de Halicarnasso, Septuaginta e Novo Testamento.
+A lista não autoriza inventar correspondências contextuais.
+
+Nunca criar uma biografia fictícia para preencher popup.
+Se a fonte ou o contexto não permitir expansão, conservar
+literalmente a abreviatura original.
+
+=====================================================================
+07. NOVA CONVENÇÃO TIPOGRÁFICA — 08/10/2026
+=====================================================================
+Aplicação obrigatória, retroativa e prospectiva, exclusiva do DGP:
+
+1. DESTACAR NÚMEROS DE ACEPÇÃO.
+Aplicar destaque visual a 1, 2, 3 etc. sem alterar a numeração
+autêntica, nem transformar outros números cardinais em sentidos.
+
+2. EXIBIR AUTORES E OBRAS EM VERSALETE.
+Usar small-caps em rubricas bibliográficas de autores, obras e
+corpora, conservando seus popups e o contraste do tema azul.
+
+3. ORDENAR EXEMPLOS COMO:
+AUTOR/OBRA > TEXTO EM GREGO > SIGNIFICADO EM PORTUGUÊS.
+O nome vem antes do exemplo; o conjunto grego + significado
+recebe tonalidade cromática MAIS TÊNUE do que a rubrica de
+autor/obra ou a abreviação bibliográfica.
+
+Exemplo meramente esquemático:
+Homero > [exemplo grego] — [significado em português].
+
+A ordem acima é da APRESENTAÇÃO VISUAL; não adulterar a definição
+bruta do XML para obtê-la. Casos cuja associação entre autor,
+grego e significado é ambígua devem permanecer na ordem original.
+Não deslocar citações somente por heurística insegura.
+
+Implementação publicada no commit:
+d9e9d965035f42754a9f50e95fb6a148310f1105
+Título: Padronizar acepções, autores e exemplos nos verbetes do DGP.
+Foram adicionados:
+lexicons/dgp-format.js
+lexicons/dgp-format.css
+Foram alterados:
+index.html, script.js, NOTICE-DGP.md.
+
+A camada visual de script.js atua DEPOIS da criação dos popups:
+enrichBibliographicTooltips -> enrichBibleReferenceTooltips ->
+DGP.formatCards -> bindTooltipEvents.
+
+Classes aplicadas pelo formatador:
+dgp-sense-number; dgp-citation-source; dgp-example;
+dgp-example-content; dgp-example-greek; dgp-example-meaning.
+
+CSS circunscrito a .entry-card[data-source="DGP"].
+BDAG e LEH não são afetados.
+
+Auditoria da mudança visual:
+JavaScript válido; ordem dos scripts confirmada; chamadas no lugar;
+somente cinco arquivos alterados; módulos lexicais e manifesto intactos.
+IMPORTANTE: a inspeção visual em navegador e uma prova exaustiva
+da correção de cada associação de citação NÃO foram realizadas
+naquele momento. Não afirmar que essas verificações ocorreram.
+Se houver erro, corrigi-lo na camada de apresentação, sem reescrever
+o XML ou confundir mudanças visuais com ingestão de entradas.
+
+=====================================================================
+08. TAMANHO DO LOTE, RODADAS E MANIFESTO
+=====================================================================
+Lotes 1–44: 20 entradas por lote (ordinais 1–880).
+Lotes 45–56: 50 entradas por lote (ordinais 881–1480).
+Regra vigente a partir do lote 45: 50 entradas por lote.
+
+Comando "Continue o processo (DGP)." significa, normalmente,
+TRÊS LOTES de 50, isto é, 150 registros, com UM COMMIT POR LOTE.
+Executar lote 1, auditar, publicar; em seguida repetir com o
+HEAD recém-confirmado nos lotes 2 e 3. Não agrupar 150 registros
+num só commit. A exceção de um lote incompleto somente se aplica
+quando restarem menos de 50 registros no fim do escopo.
+
+Manifesto: lexicons/dgp-progress.json.
+Contém:
+source; work_branch; source_repository; source_commit;
+scope.initial_letter; scope.batch_size; scope.next_ordinal;
+scope.status; array batches; editorial_rules.
+
+Cada item de batches informa:
+batch, start_ordinal, end_ordinal, start_entry, end_entry,
+entry_count, status.
+
+Após um lote bem-sucedido, acrescentar o item respectivo, mudar
+scope.next_ordinal para o primeiro ainda não incorporado,
+scope.status para o lote concluído e atualizar Rdgp/Rdgp.txt.
+Preservar todos os lotes anteriores.
+
+=====================================================================
+09. ESTADO VERIFICADO ANTES DA CRIAÇÃO DESTE DOCUMENTO
+=====================================================================
+Conferência no GitHub em 08/10/2026.
+
+Branch: chat-gpt-dgp.
+HEAD antes da criação de Rdgp/Rdgp.txt:
+d9e9d965035f42754a9f50e95fb6a148310f1105
+
+Este SHA é referência HISTÓRICA. O commit que criar este arquivo
+terá outro SHA; consultar sempre o HEAD real antes de trabalhar.
+Não é possível pré-gravar neste arquivo o SHA do próprio commit
+antes de sua geração.
+
+Lotes concluídos: 56.
+Verbetes incorporados: 1480.
+Último ordinal: 1480.
+Último lema: Ἀκροκόρινθος, ου (ὁ).
+Próximo ordinal: 1481.
+Próximo lema: ἀκρόλοφος, ος, ον.
+scope.batch_size: 50.
+scope.status: lote 56 concluído.
+XML alfa: 7204 entryFree.
+
+Próxima rodada PREVISTA, somente se o estado real confirmar:
+Lote 57 — 1481–1530: ἀκρόλοφος, ος, ον ->
+                         ἀκώλυτος, ος, ον.
+Lote 58 — 1531–1580: ἀκωλύτως ->
+                         ἀλάστωρ, ορος.
+Lote 59 — 1581–1630: ἀλάτας ->
+                         ἀλεκτορίς, ίδος (ἡ).
+Depois: ordinal 1631, ἀλεκτορίσκος, ου (ὁ).
+
+Esses lotes não estão marcados como realizados. Com três commits
+confirmados, o total esperado passaria a 1630 e next_ordinal 1631.
+
+=====================================================================
+10. HISTÓRICO INTEGRAL DE INTERVALOS CONCLUÍDOS (1–56)
+=====================================================================
+Transcrito dinamicamente do manifesto real em 08/10/2026.
+Lemas inicial e final são marcadores; a lista completa dos
+registros internos deve ser consultada na fonte e no repositório.
+
+1. 1-20 (20): Α, α (ἄλφα) (τό) -> ἀβασίλευτος, ος, ον
+2. 21-40 (20): ἀβάστακτος, ος, ον -> ἀβλαβῶς
+3. 41-60 (20): ἀβλής, ῆτος -> ἀβροτάζω
+4. 61-80 (20): ἁβρότης, ητος (ἡ) -> ἀγαθοεργέω-ῶ
+5. 81-100 (20): ἀγαθοεργία, ας (ἡ) -> ἄγαλμα, ατος (τό)
+6. 101-120 (20): ἀγαλμάτιον, ου (τό) -> ἀγάομαι
+7. 121-140 (20): ἀγαπάζω -> ἄγγαρος, ος, ον
+8. 141-160 (20): ἀγγεῖον, ου (τό) -> ἀγέλαστος, ος, ον
+9. 161-180 (20): ἀγελείη, ης (ἡ) -> ἀγεννῶς
+10. 181-200 (20): ἁγέομαι -> ἄγημα, ατος (τό)
+11. 201-220 (20): ἅγημαι, -> ἁγιωσύνη, ης (ἡ)
+12. 221-240 (20): ἀγκάζομαι -> ἀγκροτέω
+13. 241-260 (20): ἀγκρούομαι -> ἀγλαοφωτίς, ίδος (ἡ)
+14. 261-280 (20): ἀγλαώψ, ῶπος -> ἄγνοια, ας (ἡ)
+15. 281-300 (20): ἀγνοιῇσι -> ἄγοος, ος, ον
+16. 301-320 (20): ἀγορά, ᾶς (ἡ) -> ἄγορος, ου (ὁ)
+17. 321-340 (20): ἅγος -> ἀγρέω-ῶ
+18. 341-360 (20): ἄγρη -> ἀγρόνδε
+19. 361-380 (20): ἀγρονόμος, ος -> ἀγυρτάζω
+20. 381-400 (20): ἀγύρτης, ου (ὁ) -> ἀγχιστεία, ας (ἡ)
+21. 401-420 (20): ἀγχιστεῖον, ου (τό) -> ἀγῷ, ῇς, ῇ
+22. 421-440 (20): ἁγώ -> ἀγωνοθεσία, ας (ἡ)
+23. 441-460 (20): ἀγωνοθετέω-ῶ -> ἀδδηκότες
+24. 461-480 (20): ἄδδην -> ἄδεκτος, ος, ον
+25. 481-500 (20): ἀδελφεά -> ἀδευκής, ής, ές
+26. 501-520 (20): ἀδέψητος, ος, ον -> ἁδήσω
+27. 521-540 (20): ἀδηφαγέω-ῶ -> ἀδιαφθόρως
+28. 541-560 (20): ἀδιαφορία, ας (ἡ) -> ἁδινός
+29. 561-580 (20): ἁδινῶς -> ἀδόξαστος, ος, ον
+30. 581-600 (20): ἀδοξέω-ῶ -> Ἀδριηνός
+31. 601-620 (20): Ἀδρίης -> ἀδώρητος, ος, ον
+32. 621-640 (20): ἀδωροδόκητος, ος, ον -> ἀεικείη
+33. 641-660 (20): ἀεικέλιος, η -> ἀεκήλιος, ος, ον
+34. 661-680 (20): ἀέκητι -> ἀέρδην
+35. 681-700 (20): ἀερθείς -> ἀεσίφρων, ων, ον
+36. 701-720 (20): ἀέσκω -> ἀηδής, ής, ές
+37. 721-740 (20): ἀηδία, ας (ἡ) -> ἀήτης, ου (ὁ)
+38. 741-760 (20): ἄητος, ος, ον -> ἀθέμιτος, ος, ον
+39. 761-780 (20): ἄθεος, ος, ον -> Ἀθηναίη, ης (ἡ)
+40. 781-800 (20): Ἀθήναιον, ου (τό) -> ἀθλητικός, ή, όν
+41. 801-820 (20): ἀθλητικῶς -> ἀθρόος
+42. 821-840 (20): ἀθρόως -> αἵ
+43. 841-860 (20): αἷ -> Αἴας
+44. 861-880 (20): αἴγαγρος, ου (ὁ, ἡ) -> αἰγίλιψ, ῖπος
+45. 881-930 (50): αἴγιλος, ου (ἡ) -> αἰδόφρων, ων, ον
+46. 931-980 (50): ἀϊδρεΐη, ης (ἡ) -> αἴθω
+47. 981-1030 (50): αἴθων, ονος -> αἴνη, ης (ἡ)
+48. 1031-1080 (50): Αἰνία, ας (ἡ) -> αἰπός, ή, όν
+49. 1081-1130 (50): αἰπυμήτης, ου -> αἰσχρολογία, ας (ἡ)
+50. 1131-1180 (50): αἰσχρόμητις, ιος -> αἰχμάζω
+51. 1181-1230 (50): αἰχμαλωσία, ας (ἡ) -> Ἀκαρνάν, ᾶνος (ὁ)
+52. 1231-1280 (50): Ἀκαρνανία, ας (ἡ) -> ἀκεστήρ, ῆρος
+53. 1281-1330 (50): ἀκεστικός, ή, όν -> ἄκλητος, ος, ον
+54. 1331-1380 (50): ἀκλινής, ής, ές -> ἀκόντισμα, ατος (τό)
+55. 1381-1430 (50): ἀκοντισμός, οῦ (ὁ) -> ἀκρατής, ής, ές
+56. 1431-1480 (50): ἀκρατοποσία, ας (ἡ) -> Ἀκροκόρινθος, ου (ὁ)
+
+=====================================================================
+11. MARCOS DE COMMIT E AUDITORIA ANTERIOR
+=====================================================================
+Lote 54: 0f00e5a191a1f12f7da1ee9e7bf6952d157b805c
+Ordinais 1331–1380.
+
+Lote 55: 39d2e0c4b32fdaf0209d2ad79276b3103101b723
+Ordinais 1381–1430.
+
+Lote 56: 9d3019f05b44ae7bbb3bbf8ce97f826ad220ea18
+Ordinais 1431–1480.
+
+Revisão tipográfica posterior:
+d9e9d965035f42754a9f50e95fb6a148310f1105
+
+Outros marcos próximos:
+06810ccb60901926636c62718530e2ebac695b08 — lote 53;
+c7da86d0ded9ba8d94ff4f6404e2faaf99da6f92 — lote 52;
+e8453485588a79af4f9c4ee7a8f5fc6d95cd40c9 — lote 51;
+253ad9b6a179224e0218cc243fc69480191c9775 — sincronização visual;
+294d15b98d1321315d83e3efac006e2500321441 — expansões lote 49.
+
+Auditoria dos lotes 54–56:
+150 novos registros, ordinal 1331–1480, sem salto.
+143 definições idênticas à origem normalizada;
+7 com expansões autorais autorizadas e auditadas;
+44 ocorrências de expansão dessas referências;
+novo popup "cop.";
+BDAG, LEH e os demais arquivos não pertencentes ao lote preservados.
+O HEAD dos últimos 3 lotes formou cadeia de 3 commits.
+
+=====================================================================
+12. CONTROLE DE CONCORRÊNCIA — OBRIGATÓRIO
+=====================================================================
+Antes de qualquer edição, capturar o HEAD atual e chamar de
+EXPECTED_HEAD. Ler manifesto e módulos exatamente nesse HEAD.
+Antes de montar commit, verificar novamente o HEAD.
+
+Fluxo:
+A. GET branch; HEAD inicial = EXPECTED_HEAD.
+B. Buscar arquivos e construir conteúdo fiel e auditado.
+C. Criar tree baseada na tree de EXPECTED_HEAD.
+D. Criar commit com parent_sha=EXPECTED_HEAD.
+E. GET branch de novo; exigir SHA == EXPECTED_HEAD.
+F. Mover referência com force=false e
+   expected_sha=EXPECTED_HEAD, para o novo commit.
+G. GET branch; confirmar novo HEAD.
+H. Repetir usando novo HEAD para o lote seguinte.
+
+Nunca force push, nunca apagar commits posteriores, nunca
+reconstruir árvore sobre SHA obsoleto. Havendo concorrência,
+interromper atualização, reconciliar e gerar commit sobre o
+HEAD novo. Nunca afirmar publicação sem confirmação de branch.
+
+Se a ferramenta limitar número de chamadas, executar cada
+commit em etapa independente e conferir a cadeia de parentes.
+
+=====================================================================
+13. AUDITORIA MÍNIMA DE CADA LOTE (50 REGISTROS)
+=====================================================================
+Exigir:
++50 ordinais contíguos na ordem real do XML;
++50 search-row;
++50 entry-card;
+50 correspondências exatas data-target -> id;
+IDs novos únicos;
+nenhum data-target repetido;
+nenhuma linha ou cartão órfão;
+todos com data-source DGP;
+glosa de busca distinta da definição integral;
+definições íntegras, comparadas contra XML;
+diferenças apenas nas expansões editoriais autorizadas;
+abreviaturas e popups seguros e não duplicados;
+manifesto coerente: lote, limites, 50, status, next_ordinal;
+Rdgp/Rdgp.txt atualizado;
+sintaxe JS e JSON válidas;
+preservação exata de caracteres gregos e Unicode;
+nenhuma alteração inesperada em index.html, script.js, style.css;
+BDAG e LEH intactos;
+zero novos links externos inventados.
+
+Para atualizações visuais, auditar separadamente a fonte
+inalterada e a apresentação DOM. Uma auditoria estática não
+substitui inspeção visual real de verbetes complexos.
+
+Checar o diff do commit: no lote rotineiro são esperados
+dgp-batches.js, dgp-progress.json, Rdgp/Rdgp.txt.
+Se existirem alterações suplementares, explicar a necessidade.
+
+=====================================================================
+14. ATUALIZAÇÃO PERMANENTE DO RDGP
+=====================================================================
+O arquivo é a memória operativa oficial desta branch. Atualizá-lo
+a cada avanço regular de lote, no mesmo commit do lote.
+Atualizar também se o usuário alterar normas, fontes, cadência,
+estilos, sistema de popups, procedimentos de auditoria ou
+protocolo de Git; nessas situações, usar commit independente
+quando não houver ingestão de entradas.
+
+Manter as seções:
+comando de ativação;
+fontes e snapshot;
+regras editoriais;
+arquitetura e apresentação;
+progresso real;
+próximos intervalos;
+histórico dos lotes e commits relevantes;
+auditorias, problemas e decisões.
+
+Não remover informações históricas úteis, nem reescrever
+o documento como se decisões recentes sempre tivessem existido.
+Registrar mudanças com data.
+
+Não exigir que o documento contenha o SHA do commit que o próprio
+documento integra. Tal SHA só é conhecido após criar o commit.
+O HEAD real do GitHub prevalece em toda retomada.
+
+Quando o usuário solicitar "Continue o processo (DGP).",
+ler primeiro Rdgp/Rdgp.txt; verificar dados reais e executar
+as etapas autorizadas. Nunca começar diretamente do ordinal
+que aparece neste texto sem verificar a branch.
+
+=====================================================================
+15. PROIBIÇÕES E PRIORIDADES
+=====================================================================
+Não inventar entradas, transcrições, notas, referências,
+sentidos, popups, biografias, URLs nem traduções ausentes.
+Não padronizar gramática histórica do DGP contra a fonte.
+Não fundir remissões. Não antecipar o próximo lote.
+Não usar outras fontes para alterar a redação DGP.
+Não fazer refatoração de interface durante lote ordinário.
+Não tratar commit criado mas não apontado pela branch como
+publicação concluída.
+Não modificar BDAG/LEH ao trabalhar somente com DGP.
+
+Prioridade: fidelidade filológica > velocidade;
+segurança Git > pressa; fonte real > suposição;
+auditoria > afirmações de sucesso sem evidência.
+
+FIM DO PROTOCOLO RDGP, VERSÃO INAUGURAL DE 08/10/2026.
