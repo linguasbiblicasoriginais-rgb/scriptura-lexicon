@@ -7,9 +7,9 @@
   "auxiliary_alphabetical_list": "DDGP-3x-files/DDGP_3x_entry_lists_in_pdf_alphabetically.zip",
   "scope": {
     "initial_letter": "α",
-    "batch_size": 20,
-    "next_ordinal": 881,
-    "status": "lote 44 concluído"
+    "batch_size": 50,
+    "next_ordinal": 931,
+    "status": "lote 45 concluído"
   },
   "batches": [
     {
@@ -406,6 +406,15 @@
       "start_entry": "αἴγαγρος, ου (ὁ, ἡ)",
       "end_entry": "αἰγίλιψ, ῖπος",
       "entry_count": 20,
+      "status": "concluído"
+    },
+    {
+      "batch": 45,
+      "start_ordinal": 881,
+      "end_ordinal": 930,
+      "start_entry": "αἴγιλος, ου (ἡ)",
+      "end_entry": "αἰδόφρων, ων, ον",
+      "entry_count": 50,
       "status": "concluído"
     }
   ],

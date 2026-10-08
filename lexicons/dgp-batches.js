@@ -1938,3 +1938,76 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 45 — registros 881–930
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Dionísio de Halicarnasso", type: "biblio", text: "Dionísio de Halicarnasso — historiador, crítico literário e professor de retórica grego dos séculos I a.C.–I d.C." }
+    );
+    const entries = [
+        [881,"αἴγιλος, ου (ἡ)","erva apreciada pelas cabras. 〈αἴξ〉","erva apreciada pelas cabras"],
+        [882,"Αἴγινα, ης (ἡ)","Egina, n. de ninfa e de ilha do golfo Sa­rônico.","Egina, ninfa e ilha"],
+        [883,"Αἰγιναῖος, α, ον","de Egina. 〈Αἴγινα〉","de Egina"],
+        [884,"Αἰγινήτης, ου (ὁ)","habitante de Egina. 〈Αἴγινα〉","habitante de Egina"],
+        [885,"Αἰγινητικός, ή, όν","de Egina. 〈Αἰγινήτης〉","de Egina"],
+        [886,"αἰγίοχος, ου (ὁ)","portador da égide. 〈αἰγίς, ἔχω〉","portador da égide"],
+        [887,"Αἰγίπαν, ᾶνος (ὁ)","Egipã; Pã de pés de bode. 〈αἴξ, Πάν〉","Egipã; Pã de pés de bode"],
+        [888,"αἰγίπλαγκτος, ος, ον","onde vagueiam cabras. 〈αἴξ, πλάζω〉","onde vagueiam cabras"],
+        [889,"αἰγίπους, ους, ουν","gen. ποδος que tem pés de cabra. 〈αἴξ, πούς〉","com pés de cabra"],
+        [890,"αἰγίπυρος, ου (ὁ)","trigo de cabras. 〈αἴξ, πυρός〉","trigo de cabras"],
+        [891,"αἰγίς, ίδος (ἡ)","1 pele de cabra; capa de pele de cabra 2 égi- de, escudo feito com pele de cabra 3 nó de pinho 4 tem­pestade; furacão. 〈αἴξ〉","pele de cabra; égide; tempestade"],
+        [892,"Αἴγισθος, ου (ὁ)","Egisto, filho de Tieste e assassino de Agamenão.","Egisto"],
+        [893,"αἰγλᾶς","dór. = αἰγλήεις.","forma dórica de αἰγλήεις"],
+        [894,"αἴγλη, ης (ἡ)","1 brilho; claridade 2 esplendor 3 glória 4 pl. tochas acesas.","brilho; esplendor; glória"],
+        [895,"αἰγλήεις, ήεσσα, ῆεν","brilhante; refulgente. 〈αἴγλη〉","brilhante; refulgente"],
+        [896,"αἰγοθηρικός, ή, όν","relativo à caça de cabritos monteses. 〈αἴξ, θηράω〉","relativo à caça de cabritos monteses"],
+        [897,"αἰγόκερως, ως, ων","gen. ω, dat. ῳ, ac. ων, tard. 1 que tem chifres de cabra ♦ ὁ αἰγόκερως 2 Capricórnio, signo do zodíaco. 〈αἴξ, κέρας〉","com chifres de cabra; Capricórnio"],
+        [898,"αἰγοπρόσωπος, ος, ον","que tem cara de bode ou de cabra. 〈αἴξ, πρόσωπον〉","com cara de bode ou cabra"],
+        [899,"Αἰγὸς ποταμοί, ῶν (οἱ)","Egos Pótamos, “Rio da cabra”, rio e cidade do Quersoneso, na Trácia.","Egos Pótamos"],
+        [900,"αἰγυπιός, οῦ (ὁ)","abutre.","abutre"],
+        [901,"αἰγυπτιάζω","1 falar a língua egípcia 2 falar como um egípcio; ser astuto como um egípcio 3 estar como o Egito, i.e., debaixo d’água, inundado. 〈Αἰγύπτιος〉","falar egípcio; agir como egípcio; inundado"],
+        [902,"Αἰγυπτιακός, ή, όν","Αἰγύπτιος. 〈Αἴγυπτος〉","egípcio"],
+        [903,"Αἰγύπτιος, α, ον","1 egípcio ♦ ὁ Αἰγύπτιος 2 Egípcio, n. de homem. 〈Αἴγυπτος〉","egípcio; Egípcio"],
+        [904,"Αἰγυπτιστί","adv. 1 em língua egípcia 2 como egípcio; com astúcia. 〈Αἴγυπτος〉","em língua egípcia; com astúcia"],
+        [905,"Αἰγυπτογενής, ής, ές","1 nascido no Egito 2 descendente de Egípcio. 〈Αἴγυπτος, γίγνομαι〉","nascido no Egito; descendente de Egípcio"],
+        [906,"Αἰγυπτόνδε","adv. em direção ao Egito. 〈Αἴγυπτος〉","em direção ao Egito"],
+        [907,"Αἴγυπτος1, ου (ὁ)","1 Egito, n. de homem 2 o Nilo.","Egito; Nilo"],
+        [908,"Αἴγυπτος2, ου (ἡ)","Egito.","Egito"],
+        [909,"Ἀίδας","dór. = Ἅιδης.","forma dórica de Ἅιδης"],
+        [910,"αἰδεῖο","2ª sing. imper. pres. ép. de αἰδέομαι.","imperativo presente épico de αἰδέομαι"],
+        [911,"αἰδέομαι-οῦμαι","(fut. αἰδέσομαι, aor. ᾐδεσάμην ou ᾐδέσθην, perf. ᾔδεσμαι) 1 ter pudor: οἴη δ’ οὐκ εἴσειμι μετ’ ἀνέρας, αἰδέομαι Homero sozinha não iria para o meio dos homens, por pudor 2 ter escrúpulo; ter vergonha de, temer, inf., part., ἐπί e dat.: ἐκβαλεῖν αἰδοῦμαι δάκρυ Eurípides tenho vergonha de verter uma lágrima, αἴδεσαι μὲν πατέρα τὸν σὸν ἐν λυγρῷ γήρᾳ προλείπων Sófocles tem pudor de abandonar teu pai na triste velhice, οἱ δ’ αἰδεσθέντες ἐπὶ τῷ ἔργῳ Dionísio de Halicarnasso os que se envergonharam dessa ação 3 reverenciar; tratar com deferência: δεῖ τοὺς θεοὺς σέβεσθαι, γονέας τιμᾶν, πρεσβυτέρους αἰδεῖσθαι Plutarco deve-se venerar os deuses, honrar os pais, respeitar os mais idosos, τόνδ’ ὅρκον αἰδεσθεὶς θεῶν Sófocles respeitando este juramento feito aos deuses 4 ter compaixão de; ser indulgente com, ac. e ὑπέρ e gen.: ἕως ἂν αἰδέσηταί τινα τῶν ἐν γένει τοῦ πεπονθότος Demóstenes até que ele tenha acolhido um dos parentes da vítima (para tratar de um acordo sobre um assassínio), αἰδουμένους ὑπὲρ τῆς ἀνθρωπίνης φύσεως Plutarco sendo indulgente com a natureza humana 5 obter o perdão de alguém, ac. 〈αἰδώς〉","ter pudor; envergonhar-se; reverenciar; compadecer-se"],
+        [912,"αἴδεσθεν","3ª pl. aor. pas. de αἰδέομαι.","3ª plural do aoristo passivo de αἰδέομαι"],
+        [913,"αἰδέσιμος, ος, ον","respeitável; venerável; sagrado. 〈αἰδέομαι〉","respeitável; venerável; sagrado"],
+        [914,"αἰδεσίμως","adv. com respeito; respeitosamente.","respeitosamente"],
+        [915,"αἴδεσις, εως (ἡ)","1 piedade; compaixão; perdão 2 respeito; veneração 3 Jur. acordo. 〈αἰδέομαι〉","piedade; respeito; acordo"],
+        [916,"αἴδεσσαι","2ª sing. imper. aor. ép. de αἰδέομαι.","imperativo aoristo épico de αἰδέομαι"],
+        [917,"αἰδέσσομαι","fut. ép. de αἰδέομαι.","futuro épico de αἰδέομαι"],
+        [918,"αἰδεστός, ή, όν","respeitável; venerável. 〈αἰδέομαι〉","respeitável; venerável"],
+        [919,"ἀΐδηλος, ος, ον","1 que faz desaparecer; que destrói; funesto 2 que não se pode olhar; horrível 3 invisível; secreto (ações, ritos); obscuro (palavras) 3 sombrio; obscuro. 〈ἀ-, ἰδεῖν〉","funesto; horrível; invisível; obscuro"],
+        [920,"ἀϊδήλως","adv. de maneira funesta.","de maneira funesta"],
+        [921,"αἰδημόνως","adv. com pudor; com modéstia.","com pudor; com modéstia"],
+        [922,"αἰδήμων, ων, ον","gen. ονος cheio de temor respeitoso; reservado; discreto. 〈αἰδέομαι〉","respeitoso; reservado; discreto"],
+        [923,"Ἅιδης","e ᾅδης, jôn. ép. Ἀΐδης, ου (ὁ) 1 Hades, deus dos infernos; εἰς Ἅιδου, ἐν Ἅιδου na morada de Hades; nos infernos 2 Hades, a morte. 〈ἀ-, ἰδεῖν〉","Hades; morte"],
+        [924,"ἀΐδιος, ος, ον","que dura sempre; eterno; perpétuo; ἐς ἀΐδιον para sempre. 〈ἄϊ〉","eterno; perpétuo"],
+        [925,"ἀϊδής, ής, ές","invisível; sombrio; escuro. 〈ἀ-, ἰδεῖν〉","invisível; sombrio; escuro"],
+        [926,"αἰδοῖος, α, ον","1 venerável; respeitável; sagrado 2 respeitoso; cheio de deferência (palavras, atitudes) 3 vergonhoso; vil ♦ τὸ αἰδοῖον, τὰ αἰδοῖα 4 as partes pudendas. 〈αἰδώς〉","venerável; respeitoso; vergonhoso; partes pudendas"],
+        [927,"αἰδοίως","adv. com respeito; respeitosamente.","respeitosamente"],
+        [928,"αἴδομαι","(só pres. e impf.) = αἰδέομαι.","forma de αἰδέομαι"],
+        [929,"Ἄϊδος, Ἄϊδι, Ἄϊδα","cf. Ἄϊς e Ἁίδης.","cf. Ἄϊς e Ἁίδης"],
+        [930,"αἰδόφρων, ων, ον","gen. ονος 1 respeitoso 2 compassivo; humano. 〈αἰδώς, φρήν〉","respeitoso; compassivo; humano"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
