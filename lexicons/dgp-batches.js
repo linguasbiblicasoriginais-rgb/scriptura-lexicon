@@ -2154,3 +2154,76 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 48 — registros 1031–1080
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "partit.", type: "abbr", text: "partitivo" }
+    );
+    const entries = [
+        [1031,"Αἰνία, ας (ἡ)","Ênia, cidade da Etólia.","Ênia, cidade da Etólia"],
+        [1032,"Αἰνιάν, ᾶνος","(masc., fem., n.) de Ênia; eniano. 〈Αἰνία〉","de Ênia; eniano"],
+        [1033,"αἴνιγμα, ατος (τό)","1 enigma; expressão enigmática; palavra obscura; ἐν αἰνίγματι de maneira confusa 2 alusão; insinuação. 〈αἰνίσσομαι〉","enigma; expressão obscura; alusão"],
+        [1034,"αἰνιγματώδης, ης, εν","enigmático. 〈αἴνιγμα〉","enigmático"],
+        [1035,"αἰνιγμός, οῦ (ὁ)","enigma; δι᾽ αἰνιγμῶν, ἐν αἰνιγμοῖσι por enigmas.","enigma"],
+        [1036,"αἰνίζομαι","(só pres.) = αἰνέω.","forma de αἰνέω"],
+        [1037,"αἰνικτηρίως","adv. por enigmas.","por enigmas"],
+        [1038,"αἰνικτός, ή, όν","expresso por enigmas, por palavras veladas. 〈αἰνίσσομαι〉","expresso por enigmas"],
+        [1039,"Αἴνιος, ου (ὁ)","1 Ênio, n. de homem ♦ adj. 2 de Enos, cidade da Trácia.","Ênio; de Enos"],
+        [1040,"αἰνίσσομαι,","át. -ίττομαι (fut. αἰνίξομαι, aor. ᾐνιξάμην; pas. aor. ᾐνίχθην, perf. ᾔνιγμαι) 1 falar por enigmas; falar obscuramente; fazer uma alusão obscura 2 expressar por enigmas; insinuar. 〈αἶνος〉","falar por enigmas; insinuar"],
+        [1041,"αἰνόθεν","adv. em αἰνόθεν αἰνῶς Homero de mal a pior. 〈αἰνός〉","de mal a pior"],
+        [1042,"Αἰνόθεν","adv de Enos, na Trácia. 〈Αἶνος〉","de Enos"],
+        [1043,"αἰνολαμπής, ής, ές","que tem um brilho terrível. 〈αἰνός, λάμπω〉","de brilho terrível"],
+        [1044,"αἰνόλεκτρος, ος, ον","cujo leito é funesto. 〈αἰνός, λέκτρον〉","de leito funesto"],
+        [1045,"αἰνόμορος, ος, ον","de funesto destino. 〈αἰνός, μόρος〉","de funesto destino"],
+        [1046,"αἰνοπαθής, ής, ές","que sofre terrivelmente. 〈αἰνός, παθεῖν〉","que sofre terrivelmente"],
+        [1047,"Αἰνόπαρις, ιδος (ὁ)","o funesto Páris. 〈αἰνός, Πάρις〉","o funesto Páris"],
+        [1048,"αἰνοπάτηρ","só voc. αἰνόπατερ pai infeliz. 〈αἰνός, πατήρ〉","pai infeliz"],
+        [1049,"αἰνός, ή, όν","1 terrível; medonho; formidável ♦ αἰνά adv. 2 terrivelmente.","terrível; medonho; terrivelmente"],
+        [1050,"αἶνος, ου (ὁ)","1 elogio; louvor 2 conto 3 apólogo; sentença; provérbio.","elogio; louvor; conto; provérbio"],
+        [1051,"Αἶνος, ου (ὁ","e ἡ) 1 masc. Eno, n. de homem 2 fem. Eno, cidade da Trácia.","Eno, homem ou cidade"],
+        [1052,"αἴνυμαι","(só pres. e impf.) pegar; agarrar, apoderar-se de, ac. ou gen. partit.","pegar; agarrar; apoderar-se"],
+        [1053,"αἰνῶς","adv. terrivelmente; grandemente.","terrivelmente; grandemente"],
+        [1054,"αἴξ, αἰγός (ὁ, ἡ)","1 cabra; bode 2 cabra selvagem; cabrito montês 3 espécie de ave aquática 4 Cabra, a estrela Capela 5 meteoro inflamado 6 pl. ondas.","cabra; bode; Capela; ondas"],
+        [1055,"ἀΐξασθαι","inf. aor. méd. de ἀΐσσω.","infinitivo aoristo médio de ἀΐσσω"],
+        [1056,"ἀΐξω,","fut. de ἀΐσσω.","futuro de ἀΐσσω"],
+        [1057,"Αἰολεῖς, έων (οἱ)","os eólios, uma das quatro principais tribos helênicas.","eólios"],
+        [1058,"Αἰολίδης, ου (ὁ)","Eólide, filho ou descendente de Éolo. 〈Αἴολος〉","Eólide; descendente de Éolo"],
+        [1059,"αἰολίζω","1 falar em dialeto eólico 2 cantar ou compor à maneira eólica. 〈Αἰολεῖς〉","falar ou compor em eólico"],
+        [1060,"Αἰολικός, ή, όν","eólico; da Eólia. 〈Αἰολεῖς〉","eólico; da Eólia"],
+        [1061,"Αἰόλιος, α, ον","eólio. 〈Αἰολεῖς〉","eólio"],
+        [1062,"Αἰολίς, ίδος","(masc., fem.) 1 eólio ♦ ἡ Αἰολίς [χώρα] 2 Eó­lia, região da Ásia Menor. 〈Αἰολεῖς〉","eólio; Eólia"],
+        [1063,"αἰόλλω","(só pres.) 1 agitar vivamente; fazer girar 2 ornar com diversas cores; matizar.","agitar; girar; matizar"],
+        [1064,"αἰολοθώρηξ, ηκος","(masc.) jôn. de couraça pintada de várias cores ou de couraça brilhante. 〈αἰόλος, θώραξ〉","de couraça colorida ou brilhante"],
+        [1065,"Αἰολοκένταυρος, ου (ὁ)","Centauro ágil, ser fictício.","Centauro ágil"],
+        [1066,"αἰολόμητις, ιος","(masc., fem.) fértil em astúcias. 〈αἰόλος, μῆτις〉","fértil em astúcias"],
+        [1067,"αἰολομίτρης, ου","(masc.) 1 que tem cinturão de várias cores 2 que tem turbante de várias cores. 〈αἰόλος, μίτρα〉","de cinturão ou turbante multicolor"],
+        [1068,"αἰολόπωλος, ος, ον","que tem corcéis ágeis. 〈αἰόλος, πῶλος〉","de corcéis ágeis"],
+        [1069,"αἰόλος, η","e ος, ον 1 que se agita vivamente; móbil; ágil 2 cambiante; variado 3 de aspecto variável; de cores cam- biantes; matizado ♦ ὁ Αἴολος 4 Éolo, deus dos ventos.","móbil; ágil; matizado; Éolo"],
+        [1070,"αἰολόστομος, ος, ον","de linguagem ambígua. 〈αἰόλος, στόμα〉","de linguagem ambígua"],
+        [1071,"ἄϊον","cf. ἀΐω1 e ἀΐω2.","cf. ἀΐω1 e ἀΐω2"],
+        [1072,"αἰπεινός, ή, όν","1 alto; escarpado; difícil de atingir 2 difícil de compreender; profundo. 〈αἷπος〉","alto; escarpado; profundo"],
+        [1073,"αἵπερ","eól. = εἴπερ.","forma eólica de εἴπερ"],
+        [1074,"αἵπερ","nom. pl. fem. de ὅσπερ.","nominativo plural feminino de ὅσπερ"],
+        [1075,"αἰπήεις, ήεσσα, ῆεν","1 circundado de escarpas 2 impetuoso; violento (furacão). 〈αἷπος〉","escarpado; impetuoso"],
+        [1076,"αἰπολέω-ῶ","(só pres. e impf.) 1 guardar ou guiar cabras ♦ pas. 2 pastar. 〈αἰπόλος〉","guardar cabras; pastar"],
+        [1077,"αἰπόλιον, ου (τό)","1 rebanho de cabras; rebanho 2 pastagem de cabras. 〈αἰπόλος〉","rebanho ou pastagem de cabras"],
+        [1078,"αἰπόλος, ου (ὁ)","cabreiro. 〈αἴξ, πολέω〉","cabreiro"],
+        [1079,"αἷπος, εος-ους (τό)","1 altura; elevação 2 meta difícil de atingir. 〈αἰπύς〉","altura; meta difícil"],
+        [1080,"αἰπός, ή, όν","αἰπύς.","αἰπύς"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
