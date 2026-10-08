@@ -31,3 +31,19 @@ A ingestão no Scriptura Lexicon deve preservar a independência do DGP como fon
 3. **Popup biográfico/descritivo** — cada rubrica de autor, obra ou corpus deve receber popup com minibiografia ou descrição breve. A descrição deve ser fundamentada prioritariamente na lista de abreviaturas do DGP; detalhes adicionais só podem ser acrescentados quando verificados.
 4. **Nada por conjectura** — quando uma abreviatura autoral ou bibliográfica for ambígua, preservar a forma original e não inventar expansão.
 5. **Aplicação retroativa** — toda entrada DGP já cadastrada deve ser revista segundo estas regras. No momento da adoção desta norma, ainda não havia verbetes DGP inseridos; apenas a infraestrutura da fonte estava preparada.
+
+## Padrão tipográfico para todos os verbetes DGP
+
+A apresentação dos verbetes é processada pelo módulo
+`lexicons/dgp-format.js`, com estilos em `lexicons/dgp-format.css`,
+após a geração dos cartões e o enriquecimento de popups em `script.js`.
+
+- Destacar cada **número de acepção** sem alterar sua numeração original.
+- Exibir **autores, obras e corpora com popup bibliográfico em versalete**.
+- Quando a identificação da tríade for inequívoca, apresentar a sequência
+  **autor/obra → texto grego → significado português**, com o texto grego e
+  a tradução em destaque cromático discreto, mais tênue que o da rubrica.
+- Não deslocar nomes quando não houver tradução associada de modo seguro.
+- Aplicar a regra também aos lotes futuros, sem editar as definições brutas
+  dos módulos `dgp.js` e `dgp-batches.js`.
+- Nunca aplicar o formatador às demais fontes lexicográficas.
