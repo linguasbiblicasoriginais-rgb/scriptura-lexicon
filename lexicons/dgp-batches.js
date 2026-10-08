@@ -1808,3 +1808,46 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 42 — registros 821–840
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Plutarco", type: "biblio", text: "Plutarco — escritor, biógrafo e filósofo grego dos séculos I–II d.C., autor das Vidas Paralelas e dos Moralia." }
+    );
+    const entries = [
+        [821,"ἀθρόως","e ἁθρόως adv. 1 em massa 2 de uma só vez 3 coletivamente.","em massa; de uma só vez; coletivamente"],
+        [822,"ἄθρυπτος, ος, ον","1 inquebrável; duro 2 austero; sem afetação (costumes, palavras) 3 que não cede a, dat., εἰς e ac.: ὦτα ἄτρυπτα κολακείᾳ Plutarco ouvidos refratários à bajulação. 〈ἀ-, θρύπτω〉","inquebrável; austero; inflexível"],
+        [823,"ἀθρυψία, ας (ἡ)","ausência de facilidade, de moleza; austeridade. 〈ἄθρυπτος〉","austeridade"],
+        [824,"ἀθυμέω-ῶ","1 estar preocupado; estar inquieto; desalentar-se, com algo, ac., dat., εἰς ou πρός e ac., ἐπί e dat. 2 temer que, com μή, or. conj. (εἰ, ὅτι), inf. ou part. 〈ἄθυμος〉","estar preocupado; desalentar-se; temer"],
+        [825,"ἀθυμία, ας (ἡ)","1 ausência de ânimo 2 falta de coragem; covardia. 〈ἄθυμος〉","ausência de ânimo; covardia"],
+        [826,"ἄθυμος, ος, ον","1 desanimado; desencorajado; abatido 2 covarde 3 sem paixão; sem cólera. 〈ἀ-, θυμός〉","desanimado; covarde; sem cólera"],
+        [827,"ἀθύμως","adv. sem ânimo; sem coragem.","sem ânimo; sem coragem"],
+        [828,"ἄθυρμα, ατος (τό)","1 brinquedo 2 diversão; entretenimento 3 pl. adornos. 〈ἀθύρω〉","brinquedo; diversão; adornos"],
+        [829,"ἄθυρος, ος, ον","1 sem porta 2 sem travas; desenfreado (língua, boca) 3 descomedido (discurso). 〈ἀ-, θύρα〉","sem porta; desenfreado; descomedido"],
+        [830,"ἀθυροστομία, ας (ἡ)","tagarelice. 〈ἀθυρόστομος〉","tagarelice"],
+        [831,"ἀθυρόστομος, ος, ον","tagarela; indiscreto. 〈ἄθυρος, στόμα〉","tagarela; indiscreto"],
+        [832,"ἄθυρσος, ος, ον","sem tirso. 〈ἀ-, θύρσος〉","sem tirso"],
+        [833,"ἀθύρω","(só pres. e impf.) 1 brincar; dançar; cantar 2 representar (comédia).","brincar; dançar; cantar; representar"],
+        [834,"ἄθυτος, ος, ον","1 que não oferece sacrifícios: ἄθυτος ἀπελθεῖν Xenofonte ir embora sem ter oferecido sacrifícios 2 não consagrado por sacrifício: ἄθυτα παλλακῶν σπέρματα Platão filhos não consagrados de concubinas, i.e., ilegítimos 3 tard. impróprio para o sacrifício (vítima) 4 a quem não se oferece nenhum sacrifício (divindade). 〈ἀ-, θύω〉","sem sacrifício; ilegítimo; impróprio para sacrifício"],
+        [835,"ἀθῷος, ος, ον","1 não castigado; impune 2 que não deve ser punido; inocente 3 que não causa mal; inofensivo. 〈ἀ-, θωή〉","impune; inocente; inofensivo"],
+        [836,"Ἀθῶος, η, ον","do Atos. 〈Ἄθως〉","do Atos"],
+        [837,"ἀθωράκιστος, ος, ον","sem couraça. 〈ἀ-, θωρακίζω〉","sem couraça"],
+        [838,"Ἄθως, ω (ὁ)","Atos, monte da Calcídica.","Atos, monte da Calcídica"],
+        [839,"αἱ","nom. pl. do art. fem. ἡ.","nominativo plural do artigo feminino ἡ"],
+        [840,"αἵ","nom. pl. do pron. rel. fem. ἥ.","nominativo plural do pronome relativo feminino ἥ"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
