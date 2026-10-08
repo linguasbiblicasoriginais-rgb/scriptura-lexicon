@@ -1,0 +1,43 @@
+name: "PEREIRA temporary source probe 2026-10-08"
+on:
+  push:
+    branches:
+      - orq-pereira-probe-20261008-1735
+    paths:
+      - .github/workflows/probe_pereira_20261008.yml
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "Read official Pereira API, unmodified"
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,urllib.request,urllib.parse,time,datetime
+          prefixes=["αδ","αδε","αδεα","αδεβ","αδεγ","αδεδ","αδεε","αδεζ","αδεη","αδεθ","αδει","αδεκ","αδελ","αδεμ","αδεν","αδεξ","αδεο","αδεπ","αδερ","αδεσ","αδετ","αδευ","αδεφ","αδεχ","αδεψ","αδεω","αδη"]
+          output={"source":"https://api.dicionariogrego.com/","method":"POST","retrieved_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"prefixes":{}}
+          for pre in dict.fromkeys(prefixes):
+              url="https://api.dicionariogrego.com/"+urllib.parse.quote(pre,safe="")
+              req=urllib.request.Request(url,data=json.dumps({"payload":pre},ensure_ascii=False).encode("utf-8"),headers={"Content-Type":"application/json;charset=UTF-8","Accept":"application/json","User-Agent":"ScripturaLexiconSourceProbe/1.0"},method="POST")
+              try:
+                  with urllib.request.urlopen(req,timeout=20) as resp:
+                      body=resp.read()
+                      data=json.loads(body.decode("utf-8"))
+                      output["prefixes"][pre]={"status":resp.status,"count":len(data) if isinstance(data,list) else None,"data":data}
+              except Exception as exc:
+                  output["prefixes"][pre]={"error":repr(exc)}
+              time.sleep(0.15)
+          with open("pereira_source_probe_20261008_b.json","w",encoding="utf-8") as f:
+              json.dump(output,f,ensure_ascii=False,indent=2)
+          print(json.dumps({k:{"count":v.get("count"),"error":v.get("error")} for k,v in output["prefixes"].items()},ensure_ascii=False))
+          PY
+      - name: "Record result only on temporary probe branch"
+        run: |
+          git config user.name "scriptura-lexicon-source-probe"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pereira_source_probe_20261008_b.json
+          git commit -m "PEREIRA official API source probe 20261008" || exit 0
+          git push origin HEAD:orq-pereira-probe-20261008-1735
