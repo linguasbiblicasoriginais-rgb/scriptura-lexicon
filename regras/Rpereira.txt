@@ -1435,3 +1435,16 @@ Verificações planejadas: 410 linhas, 410 cartões, 410 IDs únicos e
 nenhuma mudança de outros léxicos. Confirmação do commit no GitHub.
 
 FIM DO ARQUIVO Rpereira.
+
+======================================================================
+42. CONTINUIDADE E AUDITORIA DO LOTE 011 — 08/10/2026
+======================================================================
+
+Branch-base: bb86107941abd998f66c270749271f626c0973de.
+Lote 011: ordinais 411–460, 50 verbetes consecutivos.
+Primeiro registro: Ἄ-δᾳδος, ον — source ID 34418.
+Último registro: Ἀ-δέψητος, ον — source ID 34466.
+Próximo registro: ordinal 461, Ἀδέω, source ID 34467, searchable αδεω.
+Total após a publicação: 460 linhas de pesquisa e 460 cartões.
+A fonte exclusiva foi a API oficial, obtida por consultas POST e conferida em dois conjuntos independentes de prefixos: αδ/αδα/αδε, incluindo as subdivisões αδεψ e αδεω. As respostas de 30 registros foram tratadas como potencialmente truncadas; a ordem lexical foi reconstituída mediante subdivisão, sem ordenar por ID. Os cinquenta registros possuem os nove campos esperados. O material bruto da fonte foi conservado nos cartões; eventuais características OCR são preservadas. A branch de sondagem utilizada para obter a fonte não foi mesclada ao lote. A branch PEREIRA tinha commits exclusivos e estava divergente de main; não foi feito fast-forward, reset ou absorção das outras branches.
+Arquivos alterados previstos para o commit: lexicons/pereira.js, lexicons/pereira-progress.json e regras/Rpereira.txt. O SHA final é o HEAD confirmado no GitHub, não uma previsão deste documento.
