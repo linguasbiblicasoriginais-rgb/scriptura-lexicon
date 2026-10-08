@@ -2741,3 +2741,73 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 56 — registros 1431–1480
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1431,"ἀκρατοποσία, ας (ἡ)","ação de beber vinho puro. 〈ἀκρα­τοπότης〉","consumo de vinho puro"],
+        [1432,"ἀκρατοπότης, ου (ὁ)","bebedor de vinho puro. 〈ἄκρατος, πίνω〉","bebedor de vinho puro"],
+        [1433,"ἄκρατος, ος, ον","1 não misturado; puro: ἄ. οἷνος vinho puro, ἄκρατα σώματα Platão corpos simples 2 puro; absoluto; perfeito: νοῦς ἄ. Xenofonte puro pensamento, ἄ. ἐλευθερία Platão absoluta liberdade 3 completo; excessivo; violento: ἄ. ψεῦδος Platão pura mentira, ἄκρατος ὀργήν Ésquilo desmedido em sua cólera ♦ ὁ ἄκρατος, τὸ ἄκρατον 4 vinho puro. 〈ἀ-, κεράννυμι〉","puro; não misturado; absoluto"],
+        [1434,"ἀκράτωρ, ορος (ὁ)","1 sem força; impotente 2 que não tem controle sobre; que não é senhor de, gen. 〈ἀ-, κράτος〉","impotente; sem controle"],
+        [1435,"ἀκράτως","adv. sem mistura; absolutamente; inteiramente.","sem mistura; absolutamente"],
+        [1436,"ἀκραχολέω-ῶ","(só part. pres.) irritar-se. 〈ἀκράχολος〉","irritar-se"],
+        [1437,"ἀκραχολία, ας (ἡ)","irritação. 〈ἀκράχολος〉","irritação"],
+        [1438,"ἀκράχολος, ος, ον","1 colérico; irascível 2 pálido. 〈ἄκρος, χολή〉","irascível; pálido"],
+        [1439,"ἀκρεμών, όνος (ὁ)","a ponta do ramo. 〈ἄκρος〉","ponta de ramo"],
+        [1440,"ἄκρη","jôn. = ἄκρα.","forma jônica de ἄκρα"],
+        [1441,"ἀκρητοποσίη, ἀκρητοπότης, ἄκρητος","jôn. = ἀκρατο­ποσία, ἀκρατοπότης, ἄκρατος.","formas jônicas de ἀκρατοποσία, ἀκρατοπότης, ἄκρατος"],
+        [1442,"ἀκρίβεια, ας (ἡ)","1 exatidão; precisão 2 rigor; severidade; δι᾽ ἀκριβείας, εἰς ou πρὸς ἀκρίβειαν, ἐν ἀκριβείᾳ com todo o rigor; com exatidão 3 economia rígida; parcimônia. 〈ἀκριβής〉","precisão; rigor; parcimônia"],
+        [1443,"ἀκριβής, ής, ές","1 preciso; exato: ἀ. λόγος Platão discurso exato, verdadeiro, σημεῖον ἀ. Tucídides sinal preciso 2 cuidadoso; escrupuloso; severo: ἀ. νομοθέτης Platão legislador competente 3 que se adapta bem; perfeito: θώραξ ἀ. Xenofonte couraça que se ajusta bem, ἀ. δίαιτα Hipócrates regime bem regrado 4 parcimonioso ♦ ἀκριβές ou ἐπ’ ἀκριβές, εἰς τὸ ἀκριβές adv. 5 com exatidão; com precisão ♦ τὸ ἀκριβές 6 verdade 7 rigor absoluto.","preciso; rigoroso; escrupuloso"],
+        [1444,"ἀκριβολογέομαι-οῦμαι","1 apreciar com rigor; pesquisar minuciosamente, περί e gen. 2 ser exato; ser preciso.","pesquisar com rigor; ser exato"],
+        [1445,"ἀκριβολογητέον","adj. verb. de ἀκριβολογέομαι.","adjetivo verbal de ἀκριβολογέομαι"],
+        [1446,"ἀκριβολογία, ας (ἡ)","exatidão; precisão; rigor. 〈ἀκριβής, λέγω〉","precisão; exatidão"],
+        [1447,"ἀκριβόω-ῶ","(fut. ἀκριβώσω, aor. ἠκρίβωτα, perf. ἠκρίβωκα) 1 ser exato; ser preciso 2 tornar exato ou perfeito; fazer com o maior cuidado, ac. 3 pesquisar com rigor; averiguar; verificar a exatidão de, ac. 4 descrever com cuidado ♦ pas. 5 perf. ser perfeito. 〈ἀκριβής〉","tornar exato; averiguar"],
+        [1448,"ἀκριβῶς","adv. com exatidão; rigorosamente.","rigorosamente; com exatidão"],
+        [1449,"ἀκρίς, ίδος (ἡ)","gafanhoto.","gafanhoto"],
+        [1450,"ἄκρις, ιος (ἡ)","1 pico de montanha 2 região montanhosa. 〈ἄκρος〉","pico; região montanhosa"],
+        [1451,"ἀκρισία, ας (ἡ)","1 falta de discernimento; mau julgamento 2 falta de critério; confusão. 〈ἄκριτος〉","mau julgamento; confusão"],
+        [1452,"Ἀκρίσιος, ου (ὁ)","Acrísio, pai de Dânae.","Acrísio"],
+        [1453,"Ἀκρισιώνη, ης (ἡ)","filha de Acrísio (Dânae).","filha de Acrísio"],
+        [1454,"ἀκριτόμυθος, ος, ον","de palavras confusas; de sentido obscuro ou incompreensível; confuso. 〈ἄκριτος, μῦθος〉","confuso; incompreensível"],
+        [1455,"ἄκριτος, ος, ον","1 confuso; indistinto: ἄκριτα πόλλ’ ἀγορεύειν Homero proferir muitas palavras confusas, θύμβος ἄ. Homero túmulo indiferenciado, comum 2 não decidido; indeciso; incessante: ἄκριτα νείκεα Homero querelas não decididas, intermináveis 3 não submetido a julgamento: ἄκριτον ἐκβαλεῖς με γῆς Eurípides tu me expulsarás sem julgamento desta terra, πρύτανις ἄ. ésqn. chefe imune a julgamento 4 sem discernimento; sem juízo; irreflexivo: θόλμα ἄ. Políbio audácia impensada, ὕπνος ἄ. a.p. sono despreocupado 5 sem decidir-se: ἀποπλεόντων ἐς τὴν ἑαυτῶν ἀκρίτων Heródoto navegando de volta [os gregos] para sua terra sem tomar decisão. 〈ἀ-, κρίνω〉","indistinto; não julgado; irreflexivo"],
+        [1456,"ἀκριτόφυλλος, ος, ον","de folhagem espessa. 〈ἄκριτος, φῦλλον〉","de folhagem espessa"],
+        [1457,"ἀκριτόφυρτος, ος, ον","misturado sem discernimento; em total confusão. 〈ἄκριτος, φύρω〉","misturado confusamente"],
+        [1458,"ἀκρίτως","adv. 1 de modo indeciso 2 confusamente 3 sem discernimento.","sem discernimento; confusamente"],
+        [1459,"ἀκρόαμα, ατος (τό)","1 texto poético que se ouve (recitação, canto, representação) 2 pl. aqueles que dizem um texto poético (declamadores, cantores, atores). 〈ἀκροάομαι〉","recitação; declamadores; cantores"],
+        [1460,"ἀκροαματικός, ή, όν","1 que diz respeito à audição: ἀκροαματικαὶ διδασκαλίαι ensinamentos transmitidos oralmente aos ouvintes 2 capaz de ouvir. 〈ἀκρόαμα〉","relativo à audição; capaz de ouvir"],
+        [1461,"ἀκροάομαι-οῦμαι","(fut. ἀκροάσομαι, aor. ἠκροασάμην, perf. ἠκρόαμαι) 1 ouvir com atenção algo, ac. ou gen.; alguém, gen. 2 obedecer a alguém, gen. 3 ser ouvinte; ser discípulo.","ouvir atentamente; obedecer"],
+        [1462,"ἀκρόασις, εως (ἡ)","1 ação de escutar; atenção a, gen. 2 obe­diência a, gen. 3 audição; leitura pública de textos literários. 〈ἀκροάομαι〉","audição; leitura pública"],
+        [1463,"ἀκροατήριον, ου (τό)","tard. sala de audiências; auditório. 〈ἀκροάομαι〉","auditório"],
+        [1464,"ἀκροατής, οῦ (ὁ)","1 que ouve com atenção; ouvinte; discípulo 2 que lê o texto em voz alta; leitor. 〈ἀκροάομαι〉","ouvinte; leitor"],
+        [1465,"ἀκροβατέω-ῶ","(só pres.) tard. 1 andar na ponta dos pés 2 andar de cabeça erguida; ser altivo 3 subir com esforço. 〈ἄκρος, βαίνω〉","andar na ponta dos pés; subir"],
+        [1466,"ἀκροβολίζω,","ger. méd. ἀκροβολίζομαι (aor. ἠκροβο­λισάμην) 1 lançar de longe (projetil) 2 participar de escaramuça. 〈ἀκρόβολος〉","lançar projétil; escaramuçar"],
+        [1467,"ἀκροβόλισις, εως (ἡ)","escaramuça; enfrentamento à distância. 〈ἀκροβολίζομαι〉","escaramuça"],
+        [1468,"ἀκροβολισμός, οῦ (ὁ)","ἀκροβόλισις.","ἀκροβόλισις"],
+        [1469,"ἀκροβολιστής, οῦ (ὁ)","aquele que lança de longe; atirador.","atirador de longe"],
+        [1470,"ἀκρόβολος, ος, ον","golpeado de longe. 〈ἄκρος, βάλλω〉","golpeado de longe"],
+        [1471,"ἀκροβυστία, ας (ἡ)","bíbl. 1 prepúcio; ἀκροβυστίαν ἔχω ter prepúcio, i.e., ser um gentio, um não-judeu 2 incircuncisão 3 o conjunto dos não circuncidados, i.e., os gentios. 〈ἀκρόβυστος〉","prepúcio; incircuncisão; gentios"],
+        [1472,"ἀκρόβυστος, ος, ον","tard. incircuncidado.","incircuncidado"],
+        [1473,"ἀκρογωνιαῖος, α, ον","bíbl. angular. 〈ἀκρος, γωνία〉","angular"],
+        [1474,"ἀκρόδρυον, ου (τό)","1 fruto 2 fruto de casca dura 3 a árvore que produz tais frutos. 〈ἄκρος, δρῦς〉","fruto; árvore frutífera"],
+        [1475,"ἀκροθίνιον, ου (τό)","1 o que está no alto da pilha, i.e., primícias 2 o que há de melhor, com gen. partit. 〈ἄκρος, θίς〉","primícias; melhor parte"],
+        [1476,"ἀκροθώραξ, ακος (ὁ)","meio bêbado.","meio bêbado"],
+        [1477,"ἀκροκελαινιάω-ῶ","(part. pres. ép. ἀκροκελαινιόων) tornar-se escuro na superfície. 〈ἄκρος, κελαινός〉","escurecer na superfície"],
+        [1478,"ἀκροκνεφής, ής, ές","madrugador; de madrugada. 〈ἄκρος, κνέφας〉","madrugador"],
+        [1479,"ἀκρόκομος, ος, ον","1 que prende ou que tem os cabelos no alto da cabeça 2 que tem pêlos na extremidade 3 cheio de folhas na extremidade; que tem copa alta. 〈ἄκρος, κόμη〉","cabelo no alto; copa alta"],
+        [1480,"Ἀκροκόρινθος, ου (ὁ)","Acrocorinto, cidadela de Corinto.","Acrocorinto"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
