@@ -2,7 +2,7 @@ RBDAG — REGRAS PERMANENTES PARA CONTINUIDADE DA INCORPORAÇÃO DO BDAG
 GDHAGP — GRANDE DICIONÁRIO HEBRAICO–ARAMAICO–GREGO–PORTUGUÊS
 SCRIPTURA LEXICON
 EDIÇÃO CONSOLIDADA 2026-10-08 — DOCUMENTO DE REFERÊNCIA CANÔNICA
-ARQUIVO CANÔNICO: Rbdag/Rbdag.txt
+ARQUIVO CANÔNICO: regras/Rbdag.txt
 REPOSITÓRIO: linguasbiblicasoriginais-rgb/scriptura-lexicon
 BRANCH DE TRABALHO: chat-gpt-bdag
 
@@ -26,16 +26,25 @@ Continue o processo (BDAG).
 
 Quando o usuário escrever exatamente esse comando, ou pedir inequivocamente a continuação do trabalho BDAG:
 
-01.01. Acessar PRIMEIRO o GitHub e ler integralmente Rbdag/Rbdag.txt na branch chat-gpt-bdag.
+01.01. Acessar PRIMEIRO o GitHub e ler integralmente regras/Rbdag.txt na branch chat-gpt-bdag.
 01.02. Não trabalhar a partir de uma cópia antiga do documento nem somente da memória do chat.
 01.03. Verificar o HEAD atual da branch e reler os dados de lexicons/bdag.js nesse exato commit.
 01.04. Se o documento canônico estiver inacessível, registrar a limitação, tentar obtê-lo por meio alternativo autorizado e não inventar estado; se não for possível confirmar, não publicar alterações.
 01.05. Carregar as fontes filológicas correspondentes ao ponto real da sequência.
 01.06. Seguir este procedimento do início ao fim; executar UM ÚNICO LOTE de vinte verbetes, salvo a exceção expressa para o final de uma letra, e concluir com commit e auditoria.
-01.07. Atualizar Rbdag/Rbdag.txt sempre que novos fatos relevantes ou decisões metodológicas alterarem o estado, o método, as fontes ou o protocolo, na mesma operação controlada de publicação do lote quando possível.
+01.07. Atualizar regras/Rbdag.txt sempre que novos fatos relevantes ou decisões metodológicas alterarem o estado, o método, as fontes ou o protocolo, na mesma operação controlada de publicação do lote quando possível.
 01.08. Não criar de forma autônoma agendamentos ou tarefas futuras. A atualização será feita quando o assistente for chamado para trabalhar e houver acesso e autorização para a alteração.
 01.09. Se o usuário pedir SOMENTE revisão das regras ou do documento, não executar um lote por conta própria.
 01.10. O usuário poderá chamar este documento de RBDAG, Rbdag ou regras do BDAG; todos designam o arquivo canônico acima.
+01.11. LOCALIZAÇÃO CANÔNICA EXCLUSIVA (MIGRAÇÃO DO DIRETÓRIO DE REGRAS)
+O arquivo normativo do BDAG está no caminho exato regras/Rbdag.txt, na branch chat-gpt-bdag do repositório linguasbiblicasoriginais-rgb/scriptura-lexicon. O nome do diretório é "regras", inteiramente minúsculo; o nome do arquivo mantém "Rbdag.txt", com R maiúsculo. Não confundir o caminho com o nome da regra, RBDAG.
+01.12. A antiga pasta denominada Rbdag foi aposentada. Não recriar essa pasta, não armazenar nela nova cópia da regra, não criar atalhos ou arquivos duplicados e não utilizar localizações registradas em commits históricos como caminhos atuais.
+01.13. Quando receber "Continue o processo (BDAG)." ou qualquer pedido equivalente de continuidade do BDAG, buscar e ler primeiramente regras/Rbdag.txt diretamente no HEAD real de chat-gpt-bdag. Conferir a árvore do commit quando necessário. A ausência do arquivo nesse caminho é uma condição a investigar, não autorização para usar uma cópia antiga ou publicar alterações sem conferir o estado da branch.
+01.14. Atualizações futuras do protocolo BDAG devem modificar SOMENTE regras/Rbdag.txt, preservando seu conteúdo histórico e as convenções documentadas. Quando uma atualização acompanhar um lote lexicográfico, ambos os arquivos, regras/Rbdag.txt e lexicons/bdag.js, poderão integrar um único commit após a auditoria. A alteração da regra não conta como verbete ou lote novo.
+01.15. A migração do arquivo de regras é uma operação exclusivamente documental. Não alterar, por sua causa, lexicons/bdag.js, lexicons/leh.js, index.html, script.js, style.css, PARALLEL_WORKFLOW.md ou README.md, exceto se surgir uma referência REAL ao caminho obsoleto nesses arquivos que necessite de correção pontual e previamente conferida.
+01.16. Em cada publicação de mudança documental, auditar a árvore da branch: deve existir exatamente um arquivo canônico em regras/Rbdag.txt, e a antiga pasta Rbdag não deve existir na árvore atual. A estrutura geral e as informações lexicográficas devem permanecer intactas. Comparar o diff do commit, confirmar o HEAD remoto e não usar force push.
+01.17. A migração de localização não altera a semântica do comando de continuação, a ordem dos lemas, a regra dos vinte verbetes, as exigências filológicas, as referências e links permitidos, as auditorias, as fontes independentes nem os demais fluxos editoriais do Scriptura Lexicon. Estados documentais antigos continuam sendo apenas históricos, nunca substituindo a verificação do estado real no GitHub.
+
 
 02. OBJETIVO E IDENTIDADE DO PROJETO
 
@@ -56,14 +65,14 @@ Branch de trabalho LEH: chat-gpt-leh.
 Branch principal: main.
 
 Arquivo lexicográfico da fonte BDAG: lexicons/bdag.js.
-Arquivo canônico desta regra: Rbdag/Rbdag.txt.
+Arquivo canônico desta regra: regras/Rbdag.txt.
 Arquivos de infraestrutura compartilhada e auditoria: index.html, script.js, style.css.
 Arquivo de outra fonte, que NÃO deve ser alterado: lexicons/leh.js.
 Documento de paralelismo existente: PARALLEL_WORKFLOW.md.
 
 Propriedade de fontes: BDAG edita seus dados em lexicons/bdag.js; LEH edita seus dados em lexicons/leh.js. Nunca transplantar conteúdo entre fontes. Evitar alterações em index.html, script.js e style.css, especialmente durante desenvolvimento simultâneo. Ajustes transversais de infraestrutura exigem processo específico de integração entre branches, descrito em PARALLEL_WORKFLOW.md.
 
-EXCEÇÃO DOCUMENTAL NOVA, expressamente determinada pelo usuário: a branch chat-gpt-bdag também pode e deve manter Rbdag/Rbdag.txt quando a regra ou o estado histórico precisar ser atualizado. Essa permissão documental NÃO autoriza refatorações, alterações visuais, edições de LEH ou mudanças de infraestrutura. Em uma incorporação normal, somente lexicons/bdag.js e, quando necessário, Rbdag/Rbdag.txt podem mudar.
+EXCEÇÃO DOCUMENTAL NOVA, expressamente determinada pelo usuário: a branch chat-gpt-bdag também pode e deve manter regras/Rbdag.txt quando a regra ou o estado histórico precisar ser atualizado. Essa permissão documental NÃO autoriza refatorações, alterações visuais, edições de LEH ou mudanças de infraestrutura. Em uma incorporação normal, somente lexicons/bdag.js e, quando necessário, regras/Rbdag.txt podem mudar.
 
 04. FONTES E HIERARQUIA FILOLÓGICA
 
@@ -217,7 +226,7 @@ Rever também todas as alterações por diff e, sempre que possível, realizar v
 
 Conferir index.html, lexicons/bdag.js e lexicons/leh.js quanto a IDs e data-targets duplicados ou órfãos. Verificar preservação de blobs index.html, script.js, style.css e lexicons/leh.js em relação ao HEAD inicial. A auditoria deve estar baseada no HEAD REAL lido naquele lote, e não em hashes históricos de outro chat.
 
-Recomendação adicional: comparar o commit resultante com o HEAD anterior e verificar os arquivos realmente alterados. Num lote normal, o diff deve mostrar lexicons/bdag.js e, quando atualizado, Rbdag/Rbdag.txt; nenhum outro arquivo.
+Recomendação adicional: comparar o commit resultante com o HEAD anterior e verificar os arquivos realmente alterados. Num lote normal, o diff deve mostrar lexicons/bdag.js e, quando atualizado, regras/Rbdag.txt; nenhum outro arquivo.
 
 Se falhar alguma auditoria, não mover a branch e não declarar lote concluído.
 
@@ -247,7 +256,7 @@ A fidelidade vence a velocidade. Havendo dúvida, investigar e não presumir.
 Fluxo obrigatório:
 1. consultar a branch chat-gpt-bdag e registrar EXPECTED_HEAD;
 2. obter o SHA da árvore correspondente ao EXPECTED_HEAD;
-3. ler lexicons/bdag.js no EXPECTED_HEAD, assim como Rbdag/Rbdag.txt;
+3. ler lexicons/bdag.js no EXPECTED_HEAD, assim como regras/Rbdag.txt;
 4. identificar os blobs de arquivos protegidos;
 5. preparar novo conteúdo e auditar;
 6. criar blob(s) necessários;
@@ -267,9 +276,9 @@ Em caso de falha de connector ou GitHub: relatar em que estágio o trabalho paro
 
 Cada lote lexicográfico deve resultar em UM único commit de publicação.
 
-Se o texto desta RBDAG precisar ser atualizado com o novo último lema, contagem, novas decisões filológicas ou convenções, atualizar Rbdag/Rbdag.txt no MESMO commit que modifica lexicons/bdag.js. A inclusão simultânea de um arquivo documental não representa um segundo lote lexicográfico. Não criar um commit extra apenas para repetir métricas, se for possível atualizá-las no commit do lote.
+Se o texto desta RBDAG precisar ser atualizado com o novo último lema, contagem, novas decisões filológicas ou convenções, atualizar regras/Rbdag.txt no MESMO commit que modifica lexicons/bdag.js. A inclusão simultânea de um arquivo documental não representa um segundo lote lexicográfico. Não criar um commit extra apenas para repetir métricas, se for possível atualizá-las no commit do lote.
 
-IMPORTANTE SOBRE SHA AUTORREFERENCIAL: quando Rbdag/Rbdag.txt é incluído no mesmo commit de um lote, o SHA do commit novo não pode estar gravado previamente dentro de seu próprio conteúdo. Registrar o SHA do commit anterior e o estado final de conteúdo previsto; usar o histórico do GitHub para descobrir o SHA do commit que efetivamente publicou o estado. Não tentar resolver isso criando commits recursivos.
+IMPORTANTE SOBRE SHA AUTORREFERENCIAL: quando regras/Rbdag.txt é incluído no mesmo commit de um lote, o SHA do commit novo não pode estar gravado previamente dentro de seu próprio conteúdo. Registrar o SHA do commit anterior e o estado final de conteúdo previsto; usar o histórico do GitHub para descobrir o SHA do commit que efetivamente publicou o estado. Não tentar resolver isso criando commits recursivos.
 
 Atualizações documentais autônomas são aceitáveis quando solicitadas expressamente pelo usuário ou quando corrigem instrução perigosa; não contam como lote BDAG e não autorizam modificar verbetes.
 
@@ -334,7 +343,7 @@ bibliographicTerms inalterado;
 popups adicionados nenhum;
 somente lexicons/bdag.js alterado no commit.
 
-ESTE HEAD É UM MARCO HISTÓRICO, NÃO UMA GARANTIA DO HEAD ATUAL. A criação do próprio Rbdag/Rbdag.txt produzirá outro commit na branch sem necessariamente modificar a contagem de verbetes. Qualquer assistente futuro deve ler o HEAD remoto primeiro e distinguir commit documental de novo lote lexicográfico.
+ESTE HEAD É UM MARCO HISTÓRICO, NÃO UMA GARANTIA DO HEAD ATUAL. A criação do próprio regras/Rbdag.txt produzirá outro commit na branch sem necessariamente modificar a contagem de verbetes. Qualquer assistente futuro deve ler o HEAD remoto primeiro e distinguir commit documental de novo lote lexicográfico.
 
 19. CRONOLOGIA DOCUMENTADA DOS LOTES E DAS CORREÇÕES
 
@@ -421,7 +430,7 @@ Se uma sessão não tiver permissão para escrever no GitHub, pode estudar a fon
 
 22. INSTRUÇÃO FINAL PARA QUALQUER CHAT FUTURO
 
-Ao receber “Continue o processo (BDAG).”, a primeira obrigação é ler Rbdag/Rbdag.txt DIRETAMENTE em chat-gpt-bdag. A segunda é estabelecer o HEAD real da branch, auditar a contagem e o último lema efetivo. A terceira é ler a fonte e adicionar os vinte lemas seguintes com fidelidade integral, cuidado filológico e auditoria. A quarta é atualizar com lease, sem force, preservando todo trabalho concorrente. A quinta é comunicar o HEAD final e o próximo lema.
+Ao receber “Continue o processo (BDAG).”, a primeira obrigação é ler regras/Rbdag.txt DIRETAMENTE em chat-gpt-bdag. A segunda é estabelecer o HEAD real da branch, auditar a contagem e o último lema efetivo. A terceira é ler a fonte e adicionar os vinte lemas seguintes com fidelidade integral, cuidado filológico e auditoria. A quarta é atualizar com lease, sem force, preservando todo trabalho concorrente. A quinta é comunicar o HEAD final e o próximo lema.
 
 Se a RBDAG estiver desatualizada, corrigir sua parte operacional de forma conservadora na mesma publicação do lote, preservando o histórico. Não apagar a cronologia; não repetir lote concluído; não modificar outra fonte.
 
@@ -436,6 +445,20 @@ A sequência foi conferida no PDF ἀνθρωποποίητος–ἄωρος, p
 A entrada ἀπό conserva seis acepções numeradas e as subdivisões respectivas; ἁπλότης conserva a ressalva sobre o significado «generosidade»; ἀπιστία e ἀπιστέω preservam a distinção entre incredulidade e infidelidade.
 Nenhum popup bibliográfico foi adicionado; nenhum arquivo compartilhado foi alterado.
 Este registro descreve o conteúdo preparado sobre o commit pai, não contém nem pretende antecipar o SHA do próprio commit. Confirmar o HEAD remoto antes de tratar a publicação como concluída.
+
+
+
+24. REGISTRO DA RODADA AUTOMATIZADA — LOTE ἀποδείκνυμι → ἀποθαυμάζω
+
+Estado de base verificado: e287dc514b7ac5d25f779e172a744aeac52145d8.
+Blob BDAG de base: a249766b1e469185fb0cdab379e2447ddd41a8dd.
+Faixa: ἀποδείκνυμι → ἀποθαυμάζω; vinte cabeçalhos autônomos, incluindo as remissões agrupadas ἀποδῴη, ἀποδῷς e ἀποθανοῦμαι.
+Total projetado após a publicação: 921 search-row e 921 entry-card.
+Próximo lema na fonte: ἀπόθεσις.
+Fonte consultada: ἀνθρωποποίητος–ἄωρος.pdf, páginas 25–26.
+Atenção filológica: a extração apresenta ἀπεθαύμασμα no aoristo de ἀποθαυμάζω, leitura assinalada como necessitando conferência visual; não normalizar silenciosamente.
+A transposição mantém os cinco sentidos de ἀποδίδωμι, as três subdivisões de seu segundo sentido e as duas do terceiro, e as quatro acepções de ἀποδείκνυμι. Não foram acrescentados popups.
+O SHA definitivo da publicação deve ser consultado no histórico remoto; o presente registro não o antecipa.
 
 FIM DA NORMA OPERACIONAL VIGENTE.
 
