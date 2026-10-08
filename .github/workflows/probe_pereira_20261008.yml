@@ -17,7 +17,7 @@ jobs:
         run: |
           python - <<'PY'
           import json,urllib.request,urllib.parse,time,datetime
-          prefixes=["αδ","αδα","αδε","αδη","αδι","αδο","αδυ","αδω","αε","αζ","αθ","αδαι","αδελ","αδι","αδικ","αδου","αδυν"]
+          prefixes=["αδ","αδε","αδεα","αδεβ","αδεγ","αδεδ","αδεε","αδεζ","αδεη","αδεθ","αδει","αδεκ","αδελ","αδεμ","αδεν","αδεξ","αδεο","αδεπ","αδερ","αδεσ","αδετ","αδευ","αδεφ","αδεχ","αδεψ","αδεω","αδη"]
           output={"source":"https://api.dicionariogrego.com/","method":"POST","retrieved_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"prefixes":{}}
           for pre in dict.fromkeys(prefixes):
               url="https://api.dicionariogrego.com/"+urllib.parse.quote(pre,safe="")
@@ -30,7 +30,7 @@ jobs:
               except Exception as exc:
                   output["prefixes"][pre]={"error":repr(exc)}
               time.sleep(0.15)
-          with open("pereira_source_probe_20261008.json","w",encoding="utf-8") as f:
+          with open("pereira_source_probe_20261008_b.json","w",encoding="utf-8") as f:
               json.dump(output,f,ensure_ascii=False,indent=2)
           print(json.dumps({k:{"count":v.get("count"),"error":v.get("error")} for k,v in output["prefixes"].items()},ensure_ascii=False))
           PY
@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "scriptura-lexicon-source-probe"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pereira_source_probe_20261008.json
+          git add pereira_source_probe_20261008_b.json
           git commit -m "PEREIRA official API source probe 20261008" || exit 0
           git push origin HEAD:orq-pereira-probe-20261008-1735
