@@ -2084,3 +2084,73 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 47 — registros 981–1030
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [981,"αἴθων, ονος","e ωνος (masc., fem.) 1 resplandecente; brilhante; refulgente 2 da cor do fogo; vermelho escuro; ruivo 3 ardente; fogoso. 〈αἴθω〉","brilhante; ruivo; ardente"],
+        [982,"αἰκάλλω","(impf. ᾔκαλλον) afagar; lisonjear; acolher com alegria.","afagar; lisonjear; acolher"],
+        [983,"αἰκέλιος, ος, ον","ἀεικέλιος.","ἀεικέλιος"],
+        [984,"ἀϊκή, ῆς (ἡ)","impulso; ímpeto. 〈ἀΐσσω〉","impulso; ímpeto"],
+        [985,"αἰκής, ής, ές","ἀεικής.","ἀεικής"],
+        [986,"αἰκία, ας (ἡ)","ultraje; afronta; maus tratos. 〈αἰκής〉","ultraje; afronta; maus tratos"],
+        [987,"αἰκίζω,","contr. de ἀεικίζω (só pres.; méd. mais freq.) at. e méd. maltratar; torturar; ultrajar.","maltratar; torturar; ultrajar"],
+        [988,"αἴκισμα, ατος (τό)","maus tratos; tortura; ultraje. 〈αἰκίζω〉","maus tratos; tortura; ultraje"],
+        [989,"αἰκῶς","ép., e ἀϊκῶς adv. indignamente; injuriosamente.","indignamente; injuriosamente"],
+        [990,"αἴλινος, ος, ον","1 queixoso; desolado; triste ♦ αἴλινον, αἴλινα adv. 2 queixosamente; lastimosamente ♦ ὁ αἴ­λινος 3 lamento fúnebre. 〈αἷ, Λίνος〉","triste; lamento fúnebre"],
+        [991,"αἴλουρος, ου (ὁ, ἡ)","gato; gata. 〈αἰόλος, οὐρά〉","gato; gata"],
+        [992,"αἷμα, ατος (τό)","1 sangue 2 alma; coragem; força 3 derramamento de sangue; homicídio: αἵματος δίκαι Ésquilo acusação de assassínio 4 menstruação 5 laços sangüíneos; parentesco: ἀφ’ αἵματος, ἐξ αἵματος, ἐν αἵματι εἷναι ser do sangue de alguém 6 líquido vermelho; suco; vinho.","sangue; coragem; homicídio; parentesco"],
+        [993,"αἱμακορία","e αἱμακουρία (ἡ) libação de sangue em honra dos mortos. 〈αἷμα, κορέννυμι〉","libação de sangue aos mortos"],
+        [994,"αἱμακτός, ή, όν","ensangüentado. 〈αἱμάσσω〉","ensanguentado"],
+        [995,"αἱμάς, άδος (ἡ)","onda de sangue. 〈αἷμα〉","onda de sangue"],
+        [996,"αἱμασιά, ᾶς (ἡ)","1 espinho; sebe de espinho; sebe 2 muro feito de pedras (sobrepostas, sem argamassa). 〈αἱμός〉","sebe; muro de pedras"],
+        [997,"αἱμάσσω,","át. -άττω (fut. αἱμάξω, aor. ᾕμαξα, perf. desus.) 1 cobrir de sangue; ferir; matar 2 intr. estar ou ficar ensangüentado; cobrir-se de sangue ♦ méd. 3 manchar de sangue. 〈αἷμα〉","ensanguentar; ferir; matar"],
+        [998,"αἱματεκχυσία, ας (ἡ)","bíbl. derramamento de sangue. 〈αἷμα, ἐκχέω〉","derramamento de sangue"],
+        [999,"αἱματηρός, ά","e ός, όν 1 que causa derramamento de sangue; ávido de sangue; assassino 2 ensangüentado 3 de sangue. 〈αἷμα〉","sanguinário; ensanguentado; de sangue"],
+        [1000,"αἱματηφόρος, ος, ον","que causa derramamento de sangue; sangrento. 〈αἷμα, φέρω〉","sangrento"],
+        [1001,"αἱματίζω","1 ensangüentar 2 (inseto) chupar sangue. 〈αἷμα〉","ensanguentar; chupar sangue"],
+        [1002,"αἱματόεις, όεσσα, όεν","1 cheio de sangue; sangrento; ensangüentado 2 da cor do sangue; purpúreo. 〈αἷμα〉","sangrento; purpúreo"],
+        [1003,"αἱματολοιχός, ός, όν","que lambe sangue. 〈αἷμα, λείχω〉","que lambe sangue"],
+        [1004,"αἱματορρόφος, ος, ον","que engole sangue. 〈αἷμα, ῥοφέω〉","que engole sangue"],
+        [1005,"αἱματόρρυτος, ος, ον","que verte sangue; que faz escorrer sangue. 〈αἷμα, ῥέω〉","que verte sangue"],
+        [1006,"αἱματοσταγής, ής, ές","gotejante de sangue. 〈αἷμα, στάζω〉","gotejante de sangue"],
+        [1007,"αἱματόω-ῶ","1 ensangüentar 2 converter em sangue ♦ pas. 3 estar ensangüentado; cobrir-se de sangue. 〈αἷμα〉","ensanguentar; converter em sangue"],
+        [1008,"αἱματώδης, ης, ες","1 sangrento; sanguinolento 2 da natureza do sangue. 〈αἷμα〉","sanguinolento; da natureza do sangue"],
+        [1009,"αἱμοβαρής, ής, ές","cheio de sangue. 〈αἷμα, βάρος〉","cheio de sangue"],
+        [1010,"αἱμόδιψος, ος, ον","sedento de sangue. 〈αἷμα, δίψα〉","sedento de sangue"],
+        [1011,"Αἱμονίδης, ου (ὁ)","descendente de Hêmon. 〈Αἵμων〉","descendente de Hêmon"],
+        [1012,"αἱμορραγής, ής, ές","que perde sangue; que sofre hemorragia. 〈αἷμα, ῥήγνυμι〉","hemorrágico"],
+        [1013,"αἱμόρραντος, ος, ον","orvalhado de sangue; ensopado de sangue. 〈αἷμα, ῥαίνω〉","ensopado de sangue"],
+        [1014,"αἱμορροέω-ῶ","perder sangue; ter hemorragia. 〈αἱμόρροος〉","ter hemorragia"],
+        [1015,"αἱμόρροος-ους, οος-ους, οον-ουν","1 que sofre hemorragia (veia) 2 que causa hemorragia. 〈αἷμα, ῥεω〉","hemorrágico; que causa hemorragia"],
+        [1016,"αἱμοσφαγεῖος, ος, ον","que faz correr sangue. 〈αἷμα, σφάττω〉","que faz correr sangue"],
+        [1017,"αἱμυλία, ας (ἡ)","graça; encanto; lisonja. 〈αἱμύλος〉","graça; encanto; lisonja"],
+        [1018,"αἱμύλιος, ος, ον","ép. = αἱμύλος.","forma épica de αἱμύλος"],
+        [1019,"αἱμύλλω","(só pres.) lisonjear; enganar. 〈αἱμύλος〉","lisonjear; enganar"],
+        [1020,"αἱμύλος, η","e ος, ον poét. 1 ladino; astuto; hábil 2 lisonjeiro; enganador; sedutor (pessoa).","astuto; lisonjeiro; sedutor"],
+        [1021,"αἱμώδης, ης, ες","que é vermelho como sangue. 〈αἷμα〉","vermelho como sangue"],
+        [1022,"αἵμων1, ων, ον","gen. ονος duv. apaixonado por ou hábil em, gen.","apaixonado por ou hábil em"],
+        [1023,"αἵμων2, ων, ον","gen. ονος 1 sangrento; cruento ♦ ὁ Αἵμων 2 Hêmon, filho de Creonte, rei de Tebas. 〈αἷμα〉","sangrento; Hêmon"],
+        [1024,"αἰνά","cf. αἰνός.","cf. αἰνός"],
+        [1025,"αἰναρέτης, ου","voc. αἰναρέτη (masc.) terrivelmente corajoso. 〈αἰνός, ἀρετή〉","terrivelmente corajoso"],
+        [1026,"Αἰνέας","dór., e át. Αἰνείας, ου (ὁ) Enéias, herói troiano, filho de Anquises e de Afrodite.","Enéias"],
+        [1027,"αἴνεσις, εως (ἡ)","bíbl. louvor. 〈αἰνέω〉","louvor"],
+        [1028,"αἰνετός, ή, όν","louvável. 〈αἰνέω〉","louvável"],
+        [1029,"αἰνέω-ῶ","(impf. ᾔνουν, fut. αἰνέσω, aor. ᾔνεσα, perf. desus.; pas. aor. ᾐνέθην, perf. desus.) 1 louvar; elogiar; celebrar 2 aprovar 3 agradecer 4 aquiescer em; permitir, com ac. e part.: ἰόντ’ αἰνέσατ’ ἐκ δόμων Ésquilo deixai-o sair da (vossa) casa 5 contentar-se; resignar-se 6 prometer algo, ac., a alguém, dat. 7 aconselhar; recomendar, inf. 〈αἶνος〉","louvar; aprovar; agradecer; aconselhar"],
+        [1030,"αἴνη, ης (ἡ)","louvor; glória. 〈αἶνος〉","louvor; glória"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
