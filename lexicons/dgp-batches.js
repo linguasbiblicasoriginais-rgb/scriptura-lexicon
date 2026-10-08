@@ -1895,3 +1895,46 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 44 — registros 861–880
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "epit.", type: "abbr", text: "epíteto" }
+    );
+    const entries = [
+        [861,"αἴγαγρος, ου (ὁ, ἡ)","cabra selvagem; cabra montês. 〈αἴξ, ἄγριος〉","cabra selvagem; cabra montês"],
+        [862,"Αἰγαί, ῶν (αἱ)","Egas, n. de cidade e de ilha.","Egas, cidade e ilha"],
+        [863,"Αἰγαῖος, α, ον","de Egas; Egeu; Αἰ. πόντος mar Egeu. 〈Αἰγαί〉","de Egas; Egeu; mar Egeu"],
+        [864,"Αἰγαίων, ωνος","e Αἰγαιών, ῶνος (ὁ) mar Egeu.","mar Egeu"],
+        [865,"αἰγανέη, ης (ἡ)","lança de caça; dardo.","lança de caça; dardo"],
+        [866,"αἰγέη, ης (ἡ)","cf. αἴγεος.","cf. αἴγεος"],
+        [867,"Αἰγείδης1, ου (ὁ)","1 o filho de Egeu, epit. de Teseu 2 pl. οἱ Αἰγεῖδαι os egidas; os descendentes de Egeu. 〈Αἰγεύς〉","filho de Egeu; descendentes de Egeu"],
+        [868,"Αἰγείδης2, ου (ὁ)","cidadão da tribo Egida, da Ática.","cidadão da tribo Egida"],
+        [869,"αἴγειος, α, ον","αἴγεος.","αἴγεος"],
+        [870,"αἴγειρος, ου (ἡ)","álamo negro.","álamo negro"],
+        [871,"αἰγελάτης, ου (ὁ)","cabreiro. 〈αἴξ, ἐλαύνω〉","cabreiro"],
+        [872,"αἴγεος, α, ον","1 de cabra ♦ ἡ αἰγέη jôn. 2 pele de cabra. 〈αἴξ〉","de cabra; pele de cabra"],
+        [873,"αἴγεσι","dat. pl. ép. de αἴξ.","dativo plural épico de αἴξ"],
+        [874,"Αἰγεύς, έως (ὁ)","Egeu, rei de Atenas.","Egeu, rei de Atenas"],
+        [875,"Αἰγηΐς, ΐδος (ἡ)","Egida, tribo ateniense. 〈Αἰγεύς〉","Egida, tribo ateniense"],
+        [876,"αἰγιαλός, οῦ (ὁ)","praia; litoral; costa.","praia; litoral; costa"],
+        [877,"αἰγίβοτος, ος, ον","que é pasto de cabras. 〈αἴξ, βόσκω〉","pasto de cabras"],
+        [878,"αἰγίθαλλος","e αἰγίθαλος, ου (ὁ) abelheiro, n. de pássaro.","abelheiro, pássaro"],
+        [879,"Αἰγικορεῖς, έων (οἱ)","Egicoreus ou Cabreiros, uma das quatro antigas tribos jônicas de Atenas. 〈αἴξ, κορέννυμι〉","Egicoreus; antiga tribo jônica de Atenas"],
+        [880,"αἰγίλιψ, ῖπος","(masc., fem.) 1 escarpado ♦ ἡ Αἰγίλιψ 2 Egí­lipe, cidade do Epiro.","escarpado; Egílipe"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
