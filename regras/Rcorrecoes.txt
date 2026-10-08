@@ -4,6 +4,12 @@ Branch exclusiva de publicação: chat-gpt-correcoes
 Periodicidade solicitada: diariamente às 05:00, America/Sao_Paulo
 Instituído em 08/10/2026.
 
+REGRA DE OURO — PROTEÇÃO ABSOLUTA DA BRANCH DE CORREÇÕES
+Toda correção, ajuste de testes, arquivo de auditoria e atualização deste próprio protocolo pertencente a ESTE processo deve ser commitada SEMPRE E SOMENTE em chat-gpt-correcoes. Informar explicitamente branch: chat-gpt-correcoes em toda ferramenta de escrita; jamais deixar o campo branch vazio (pois o valor padrão seria main). É proibido commitar, mesclar, atualizar refs ou abrir alterações destinadas a main, chat-gpt-commits, chat-gpt-bdag, chat-gpt-dgp, chat-gpt-leh, chat-gpt-pereira e quaisquer outras branches neste processo. Leituras de outras branches são permitidas para auditoria e comparação; ESCRITAS, nunca.
+Antes de cada commit: verificar o HEAD remoto da branch de correções; comparar o conteúdo e as mudanças propostas com main; resolver conflitos somente DENTRO de chat-gpt-correcoes, sem alterar o conteúdo de main, sem apagar trabalho alheio e sem reescrever histórico. Usar mecanismo de controle concorrente, interrompendo diante de atualização remota inesperada. Depois de cada commit: confirmar SHA e branch de destino no GitHub, comparar novamente com main e registrar as pendências de integração.
+A integração segura deve ser demonstrada por verificação de merge quando possível; mera comparação de diffs não garante ausência de conflitos. Se a integração limpa não puder ser confirmada, não afirmar que não haverá conflitos e suspender correções de risco até reconciliação. Um conflito existente na ancestralidade das branches deve ser explicitamente informado: não se admite promessa absoluta de inexistência de conflitos futuros.
+A rotina não faz merge nem atualiza a branch principal. PR para main somente por iniciativa separada e expressa do usuário.
+
 1. OBJETIVO
 Revisar diariamente TODO o acervo publicado no estado real da branch, incluindo entradas recém-integradas de BDAG, DGP, LEH, PEREIRA e outras fontes existentes. Corrigir defeitos funcionais, apresentação e marcação com intervenção mínima, mantendo identidade e redação de cada léxico. Nunca realizar incorporação de novos verbetes como parte desta rotina.
 
