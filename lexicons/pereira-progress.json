@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 20,
-    "next_ordinal": 21,
-    "status": "lote 1 concluído"
+    "next_ordinal": 41,
+    "status": "lote 2 concluído"
   },
   "batches": [
     {
@@ -21,13 +21,24 @@
       "start_source_id": 29573,
       "end_source_id": 29590,
       "status": "concluído"
+    },
+    {
+      "batch": 2,
+      "start_ordinal": 21,
+      "end_ordinal": 40,
+      "start_entry": "Ἀ-βάστακτος, ον",
+      "end_entry": "Ἄ-βολος, ον",
+      "entry_count": 20,
+      "start_source_id": 29591,
+      "end_source_id": 30739,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 21,
-    "source_id": 29591,
-    "searchable": "αβαστακτος",
-    "lemma": "Ἀ-βάστακτος, ον"
+    "ordinal": 41,
+    "source_id": 30740,
+    "searchable": "αβοσκητος",
+    "lemma": "Ἀ-βόσκητος, ον"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
