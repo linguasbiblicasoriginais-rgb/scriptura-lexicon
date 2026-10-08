@@ -14,7 +14,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import urllib.request, urllib.parse, json, base64, time
-          for prefix in ["αγχ","αγχι","αγχισ","αγχο","αγω","αγων","αδ","αδα","αδαι"]:
+          for prefix in ["αγχον","αγχου","αγχυ","αγχω","αγχρ","αγχς","αγχ","αγω"]:
               u="https://api.dicionariogrego.com/"+urllib.parse.quote(prefix,safe="")
               req=urllib.request.Request(u,data=json.dumps({"payload":prefix},ensure_ascii=False).encode("utf-8"),headers={"Content-Type":"application/json;charset=UTF-8","User-Agent":"ScripturaLexiconSourceVerification/1.0"},method="POST")
               try:
