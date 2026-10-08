@@ -1684,3 +1684,43 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 39 — registros 761–780
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [761,"ἄθεος, ος, ον","1 que se afasta dos deuses; ímpio 2 rar. ateu 3 abandonado pelos deuses; sem deus. 〈ἀ-, θεός〉","ímpio; ateu; abandonado pelos deuses"],
+        [762,"ἀθεράπευτος, ος, ον","1 que não recebe cuidados; mal cuidado; negligenciado 2 que não pode ser tratado; incurável. 〈ἀ-, θεραπεύω〉","mal cuidado; incurável"],
+        [763,"ἀθερίζω","fazer pouco caso de; desprezar; negligenciar, gen. ou ac.","desprezar; negligenciar"],
+        [764,"ἀθέρμαντος, ος, ον","1 não esquentado 2 que não se pode esquentar. 〈ἀ-, θερμαίνω〉","não esquentado; impossível de esquentar"],
+        [765,"ἄθερμος, ος, ον","sem calor. 〈ἀ-, θερμός〉","sem calor"],
+        [766,"ἄθεσμος, ος, ον","1 ilegal; ilícito; injusto ♦ οἱ ἄθεσμοι 2 bíbl. os ímpios. 〈ἀ-, θεσμός〉","ilegal; injusto; ímpios"],
+        [767,"ἀθέσφατος, ος, ον","ép. poét. indizível; inefável; extraordinário.","indizível; inefável; extraordinário"],
+        [768,"ἀθετέω-ῶ","(aor. ἠθέτησα; pas. aor. ἠθετήθην, perf. ἠθέτημαι) bíbl. 1 não respeitar; violar (tratado, juramento, promessa) 2 agir com perfídia contra alguém, ac., εἰς e ac. ou ἐν e dat. 3 repelir alguém, ac. 4 recusar o consentimento a, dat. 5 rejeitar como mau (uma palavra) 6 violar a lei (de Deus); rebelar-se. 〈ἄθετος〉","violar; agir com perfídia; rejeitar"],
+        [769,"ἀθέτησις, εως (ἡ)","anulação; abolição; rejeição. 〈ἀθετέω〉","anulação; abolição; rejeição"],
+        [770,"ἄθετος, ος, ον","1 sem lugar; sem posição; mal disposto 2 posto de lado; inválido 3 inútil; impróprio para algo, dat. ou πρός e ac. 〈ἀ-, τίθημι〉","sem lugar; inválido; inútil"],
+        [771,"ἀθέτως","adv. 1 ilegalmente, despoticamente. 2 de modo indesejável.","ilegalmente; despoticamente"],
+        [772,"ἀθεώρητος, ος, ον","1 que não se pode ver; invisível 2 que não se pode investigar 3 não examinado 4 que não viu ou não examinou; ignorante de, gen. 〈ἀ-, θεωρέω〉","invisível; não examinado; ignorante"],
+        [773,"ἀθεωρήτως","adv. sem exame; sem reflexão; inconsideradamente.","sem exame; sem reflexão"],
+        [774,"ἀθέως","adv. 1 impiamente 2 longe dos deuses.","impiamente; longe dos deuses"],
+        [775,"ἄθηλυς, υς, υ","gen. εος não feminino; viril. 〈ἀ-, θῆλυς〉","não feminino; viril"],
+        [776,"Ἀθηνᾶ, ᾶς (ἡ)","Atena, deusa protetora de Atenas.","Atena"],
+        [777,"Ἀθήναζε","adv. para Atenas. 〈Ἀθῆναι〉","para Atenas"],
+        [778,"Ἀθῆναι, ῶν (αἱ)","1 Atenas 2 às vezes, a Ática.","Atenas; Ática"],
+        [779,"Ἀθηναία, ας (ἡ)","Ἀθηνᾶ.","Atena"],
+        [780,"Ἀθηναίη, ης (ἡ)","Ἀθηνᾶ.","Atena"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
