@@ -1604,3 +1604,43 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 37 — registros 721–740
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [721,"ἀηδία, ας (ἡ)","1 caráter repugnante 2 aversão; repugnância; repulsa. 〈ἀηδής〉","caráter repugnante; aversão; repulsa"],
+        [722,"ἀηδονιδεύς, έως (ὁ)","filhote de rouxinol. 〈ἀηδών〉","filhote de rouxinol"],
+        [723,"ἀηδονίς, ίδος (ἡ)","ἀηδών.","rouxinol"],
+        [724,"ἀηδῶ, οῦς (ἡ)","ἀηδών.","rouxinol"],
+        [725,"ἀηδών, όνος (ἡ)","poét. 1 rouxinol 2 cantor; poeta 3 canto poético 4 flauta. 〈ἀείδω〉","rouxinol; cantor; canto poético; flauta"],
+        [726,"ἀηδῶς","adv. 1 sem prazer; sem gosto 2 com sentimentos desagradáveis: ἀ. ἔχειν τινι, ἀ. διακεῖσθαι ou διατεθῆναι πρός τινα estar mal disposto com alguém, πρός τι em relação a alguma coisa. 〈ἀηδής〉","sem prazer; mal disposto"],
+        [727,"ἀήθεια, ας (ἡ)","falta de hábito; inexperiência. 〈ἀήθης〉","falta de hábito; inexperiência"],
+        [728,"ἀηθέσσω","(só pres. e impf.) não estar ou já não estar habituado a, gen. 〈ἀήθης〉","não estar habituado a"],
+        [729,"ἀήθης, ης, ες","1 não habituado a, gen. 2 não habitual; inusitado; estranho 3 sem caracteres (tragédia). 〈ἀ-, ἦθος〉","não habituado; inusitado; estranho"],
+        [730,"ἀήθως","adv. de modo insólito; de modo inesperado. 〈ἀήθης〉","de modo insólito; inesperadamente"],
+        [731,"ἄημα, ατος (τό)","sopro; vento. 〈ἄημι〉","sopro; vento"],
+        [732,"ἀήμεναι","inf. pres. ép. de ἄημι.","infinitivo presente épico de ἄημι"],
+        [733,"ἀήμενος","part. pres. pas. de ἄημι.","particípio presente passivo de ἄημι"],
+        [734,"ἄημι","(inf. ἀῆναι, part. ἀείς, ἀέντος) ép. 1 soprar ♦ méd. pas. 2 ser agitado por um sopro.","soprar; ser agitado por um sopro"],
+        [735,"ἀῆναι","cf. ἄημι.","cf. ἄημι"],
+        [736,"ἀήρ, ἀέρος (ὁ,","poét. ἡ) 1 ar; atmosfera 2 bruma; cerração; nuvem 3 ar que se respira 4 sopro; exalação 4 ar, um dos quatro elementos, junto com o éter ou fogo, a água e a terra 5 firmamento.","ar; atmosfera; bruma; firmamento"],
+        [737,"ἀήσσητος,","át. ἀήττητος, ος, ον não vencido; invencível. 〈ἀ-, ἡσσάομαι〉","não vencido; invencível"],
+        [738,"ἀήσυλος, ος, ον","αἴσυλος.","αἴσυλος"],
+        [739,"ἀήσυρος, ος, ον","poét. ligeiro como o ar; ágil; rápido. 〈ἄημι〉","ligeiro como o ar; ágil; rápido"],
+        [740,"ἀήτης, ου (ὁ)","poét. aquele que sopra; o vento. 〈ἄημι〉","aquele que sopra; vento"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
