@@ -1,0 +1,26 @@
+name: Temporary PEREIRA API probe
+on:
+  push:
+    branches:
+      - gh-probe-pereira-20261008
+jobs:
+  api:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Read lexicographic source
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.parse, json, base64, time
+          for prefix in ["αγχ","αγχι","αγχισ","αγχο","αγω","αγων","αδ","αδα","αδαι"]:
+              u="https://api.dicionariogrego.com/"+urllib.parse.quote(prefix,safe="")
+              req=urllib.request.Request(u,data=json.dumps({"payload":prefix},ensure_ascii=False).encode("utf-8"),headers={"Content-Type":"application/json;charset=UTF-8","User-Agent":"ScripturaLexiconSourceVerification/1.0"},method="POST")
+              try:
+                  with urllib.request.urlopen(req,timeout=25) as res:
+                      value=res.read()
+                  print("PEREIRA_PAYLOAD_"+prefix+"="+base64.b64encode(value).decode("ascii"),flush=True)
+              except Exception as e:
+                  print("PEREIRA_ERROR_"+prefix+"="+str(e),flush=True)
+          PY
