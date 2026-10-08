@@ -741,6 +741,26 @@ window.ScripturaLexicons.LEH = {
             key: "MARGOLIS, M. 1905=1972",
             type: "biblio",
             text: "M. L. Margolis, “Specimen Article for a Revised Edition of the Hebrew-Aramaic Equivalents in the Oxford Concordance to the Septuagint and the Other Greek Versions of the Old Testament”, ZAW 25 (1905), pp. 311–319; reimpresso em KRAFT (ed.), 1972, pp. 52–64"
+        },
+        {
+            key: "KILPATRICK 1975",
+            type: "biblio",
+            text: "G. D. Kilpatrick, “Anamnesis”, Liturgical Review 5 (1975), pp. 35–40"
+        },
+        {
+            key: "JONES, D. 1955",
+            type: "biblio",
+            text: "D. Jones, “Ἀνάμνησις in the LXX and the Interpretation of I Cor. XI. 25”, JTS 6 (1955), pp. 183–191"
+        },
+        {
+            key: "HARLE 1988",
+            type: "biblio",
+            text: "P. Harlé e D. Pralon, La Bible d’Alexandrie III. Le Lévitique, Paris, 1988"
+        },
+        {
+            key: "HELBING 1907",
+            type: "biblio",
+            text: "R. Helbing, Grammatik der Septuaginta. Laut- und Wortlehre, Göttingen, 1907"
         }
     ],
 
@@ -2431,6 +2451,66 @@ window.ScripturaLexicons.LEH = {
 </tr>
 <tr class="search-row" data-dictionary="grego" data-target="entry-anameno-leh" data-source="LEH" data-search="ἀναμένω anameno verbo esperar aguardar permanecer demorar-se Isaías Jeremias Jó Judite Sirácida MARGOLIS Novo Testamento LEH" tabindex="0">
     <td class="table-lemma greek">ἀναμένω</td><td>Verbo</td><td>esperar; aguardar; permanecer; demorar-se</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamignymi-leh" data-source="LEH" data-search="ἀναμίγνυμι anamignymi Verbo misturar; combinar; ser misturado com Ez 22,18 (bis); 46,14; Est 3,13d; Dn 2,41 Cf. HELBING 1928, 250. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναμίγνυμι</td><td>Verbo</td><td>misturar; combinar; ser misturado com</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamimnesko-leh" data-source="LEH" data-search="ἀναμιμνῄσκω anamimnesko Verbo trazer à memória; mencionar; recordar-se; proclamar Gn 41,9; Ex 23,13; Nm 5,15; 10,9; 2 Sm 18,18 Cf. KILPATRICK 1975, 35–40; → NIDNTT. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναμιμνῄσκω</td><td>Verbo</td><td>trazer à memória; mencionar; recordar-se; proclamar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamnesis-leh" data-source="LEH" data-search="ἀνάμνησις anamnesis Substantivo evocação; reminiscência; lembrança Lv 24,7; Nm 10,10; Ps 37(38),1; 69(70),1; Wis 16,6 Cf. CAIRD 1968b=1972, 115; DANIEL, S. 1966, 160–161.226.235–237; JONES, D. 1955, 183–191; KILPATRICK 1975, 35–40; → NIDNTT; TWNT. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάμνησις</td><td>Substantivo</td><td>evocação; reminiscência; lembrança</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamochleuo-leh" data-source="LEH" data-search="ἀναμοχλεύω anamochleuo Verbo arrancar à força; torcer violentamente 4 Mc 10,5  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναμοχλεύω</td><td>Verbo</td><td>arrancar à força; torcer violentamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anamphisbetetos-leh" data-source="LEH" data-search="ἀναμφισβητήτως anamphisbetetos Advérbio sem mais discussão; indiscutivelmente 1 Ezr 6,29  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναμφισβητήτως</td><td>Advérbio</td><td>sem mais discussão; indiscutivelmente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anandros-leh" data-source="LEH" data-search="ἄνανδρος anandros Adjetivo falto de virilidade; fraco; covarde 4 Mc 5,31; 6,21; 8,16  LEH" tabindex="0">
+    <td class="table-lemma greek">ἄνανδρος</td><td>Adjetivo</td><td>falto de virilidade; fraco; covarde</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ananeazo-leh" data-source="LEH" data-search="ἀνανεάζω ananeazo Verbo tornar-se jovem novamente 4 Mc 7,13  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνανεάζω</td><td>Verbo</td><td>tornar-se jovem novamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ananeoo-leh" data-source="LEH" data-search="ἀνανεόω ananeoo Verbo restaurar; renovar Jb 33,24; Est 3,13b; 1 Mc 12,1.3.10 Cf. HORSLEY 1983, 61–62; → NIDNTT; TWNT. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνανεόω</td><td>Verbo</td><td>restaurar; renovar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ananeusis-leh" data-source="LEH" data-search="ἀνάνευσις ananeusis Substantivo rejeição; recusa Ps 72(73),4 Cf. CAIRD 1968b=1972, 115. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάνευσις</td><td>Substantivo</td><td>rejeição; recusa</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ananeuo-leh" data-source="LEH" data-search="ἀνανεύω ananeuo Verbo fazer sinais de recusa; recusar; repudiar Ex 22,16 (bis); Nm 30,6 (ter) Cf. CAIRD 1968b=1972, 115. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνανεύω</td><td>Verbo</td><td>fazer sinais de recusa; recusar; repudiar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-ananeosis-leh" data-source="LEH" data-search="ἀνανέωσις ananeosis Substantivo renovação 1 Mc 12,17  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνανέωσις</td><td>Substantivo</td><td>renovação</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anantleo-leh" data-source="LEH" data-search="ἀναντλέω anantleo Verbo atravessar tribulações Prv 9,12  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναντλέω</td><td>Verbo</td><td>atravessar tribulações</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaxeraino-leh" data-source="LEH" data-search="ἀναξηραίνω anaxeraino Verbo secar; consumir; esgotar Jer 27(50),27; Hos 13,15; Sir 14,9; 43,3  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναξηραίνω</td><td>Verbo</td><td>secar; consumir; esgotar</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaxios-adj-leh" data-source="LEH" data-search="ἀνάξιος anaxios Adjetivo indigno; sem valor Jer 15,19; Est 8,12g; Od 12,14; Sir 25,8 → NIDNTT; TWNT. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάξιος</td><td>Adjetivo</td><td>indigno; sem valor</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaxis-leh" data-source="LEH" data-search="ἄναξις anaxis Substantivo elevação; levantamento PSal 18,5  LEH" tabindex="0">
+    <td class="table-lemma greek">ἄναξις</td><td>Substantivo</td><td>elevação; levantamento</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anaxios-adv-leh" data-source="LEH" data-search="ἀναξίως anaxios Advérbio indignamente 2 Mc 14,42  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναξίως</td><td>Advérbio</td><td>indignamente</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anapalin-leh" data-source="LEH" data-search="ἀνάπαλιν anapalin Advérbio do lado oposto; do outro lado Wis 19,21  LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάπαλιν</td><td>Advérbio</td><td>do lado oposto; do outro lado</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anapauma-leh" data-source="LEH" data-search="ἀνάπαυμα anapauma Substantivo repouso; descanso Is 28,12; Jb 3,23 Cf. HELBING 1907, 113; SHIPP 1979, 69. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάπαυμα</td><td>Substantivo</td><td>repouso; descanso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anapausis-leh" data-source="LEH" data-search="ἀνάπαυσις anapausis Substantivo repouso; descanso; lugar de repouso; terra em pousio; dia de descanso Gn 8,9; 49,15; Ex 16,23; 23,12; 31,15 Cf. DANIEL, S. 1966, 198; HARLE 1988, 155–156 (Lv 16,31); LE BOULLUEC 1989, 57.186.236.317; WALTERS 1973, 160.161.308.320.329.342; WEVERS 1990, 255.514.575; → NIDNTT; TWNT. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀνάπαυσις</td><td>Substantivo</td><td>repouso; descanso; lugar de repouso; terra em pousio; dia de descanso</td><td><span class="source-pill">LEH</span></td>
+</tr>
+<tr class="search-row" data-dictionary="grego" data-target="entry-anapauo-leh" data-source="LEH" data-search="ἀναπαύω anapauo Verbo dar descanso; acalmar; revigorar; permanecer; repousar; cessar; morrer Gn 29,2; 49,14; Ex 23,12; Lv 25,2; Nm 24,9 Cf. HELBING 1928, 168–169; WALTERS 1973, 320.342; → NIDNTT; TWNT. LEH" tabindex="0">
+    <td class="table-lemma greek">ἀναπαύω</td><td>Verbo</td><td>dar descanso; acalmar; revigorar; permanecer; repousar; cessar; morrer</td><td><span class="source-pill">LEH</span></td>
 </tr>`,
 
     cardsHtml: String.raw`
@@ -6572,5 +6652,135 @@ window.ScripturaLexicons.LEH = {
         <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Is 59.11; Jr 13.16; Jó 2.9a; 7.2; Jdt 7.12.</p>
         <p class="entry-text"><strong>Cf.</strong> MARGOLIS, M. 1905=1972, 60.</p>
     </section>
+</article>
+<article id="entry-anamignymi-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναμίγνυμι</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναμίγνυμι · anamignymi" data-transliteration="anamignymi" data-meanings="misturar|combinar|ser misturado com">ἀναμίγνυμι</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-3-6-0=9</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>A:</strong> <strong>misturar, combinar</strong> [<span class="greek">τι</span>] (Ez 46,14).</p><p class="entry-text"><strong>P:</strong> <strong>ser misturado com</strong> [<span class="greek">ἔν τινι</span>] (de pessoas; Est 3,13d); idem [<span class="greek">τινι</span>] (de coisas; Ez 22,18).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Ez 22,18 (bis); 46,14; Est 3,13d; Dn 2,41.</p>
+    <p class="entry-text">Cf. HELBING 1928, 250.</p>
+</section>
+</article>
+<article id="entry-anamimnesko-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναμιμνῄσκω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναμιμνῄσκω · anamimnesko" data-transliteration="anamimnesko" data-meanings="trazer à memória|mencionar|recordar-se|proclamar">ἀναμιμνῄσκω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 4-6-8-2-2=22</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>A:</strong> <strong>trazer à memória, mencionar</strong> [<span class="greek">τι</span>] (Gn 41,9).</p><p class="entry-text"><strong>P:</strong> <strong>lembrar-se, recordar-se</strong> [<span class="greek">τινος</span>] (Ne 9,17); <strong>ser levado a lembrar-se</strong> (Jó 24,20); <strong>proclamar</strong> [<span class="greek">τι</span>] (Ex 23,13).</p><p class="entry-text"><strong>Expressão:</strong> <span class="greek">Ιωσαφατ υἱὸς Αχιλουθ ἀναμιμνῄσκων</span> — “Josafá, filho de Ailude, (era) responsável pelos registros” (2 Sm 20,24).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 41,9; Ex 23,13; Nm 5,15; 10,9; 2 Sm 18,18.</p>
+    <p class="entry-text">Cf. KILPATRICK 1975, 35–40; → NIDNTT.</p>
+</section>
+</article>
+<article id="entry-anamnesis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάμνησις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάμνησις, -εως · anamnesis" data-transliteration="anamnesis" data-meanings="evocação|reminiscência|lembrança">ἀνάμνησις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 2-0-0-2-1=5</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>ato de trazer à memória, reminiscência, lembrança</strong>.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Lv 24,7; Nm 10,10; Ps 37(38),1; 69(70),1; Wis 16,6.</p>
+    <p class="entry-text">Cf. CAIRD 1968b=1972, 115; DANIEL, S. 1966, 160–161.226.235–237; JONES, D. 1955, 183–191; KILPATRICK 1975, 35–40; → NIDNTT; TWNT.</p>
+</section>
+</article>
+<article id="entry-anamochleuo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναμοχλεύω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναμοχλεύω · anamochleuo" data-transliteration="anamochleuo" data-meanings="arrancar à força|torcer violentamente">ἀναμοχλεύω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>arrancar à força, torcer violentamente</strong> (inglês do LEH: <em>to wrench</em>).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 4 Mc 10,5.</p>
+</section>
+</article>
+<article id="entry-anamphisbetetos-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναμφισβητήτως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναμφισβητήτως · anamphisbetetos" data-transliteration="anamphisbetetos" data-meanings="sem mais discussão|indiscutivelmente">ἀναμφισβητήτως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>sem mais discussão, indiscutivelmente</strong>.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1 Ezr 6,29.</p>
+</section>
+</article>
+<article id="entry-anandros-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄνανδρος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄνανδρος, -ος, -ον · anandros" data-transliteration="anandros" data-meanings="falto de virilidade|fraco|covarde">ἄνανδρος, -ος, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-3=3</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>falto de virilidade, fraco</strong> (4 Mc 5,31); <strong>falto de virilidade, covarde</strong> (4 Mc 6,21).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 4 Mc 5,31; 6,21; 8,16.</p>
+</section>
+</article>
+<article id="entry-ananeazo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνανεάζω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνανεάζω · ananeazo" data-transliteration="ananeazo" data-meanings="tornar-se jovem novamente">ἀνανεάζω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>tornar-se jovem novamente</strong>.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 4 Mc 7,13.</p>
+</section>
+</article>
+<article id="entry-ananeoo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνανεόω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνανεόω · ananeoo" data-transliteration="ananeoo" data-meanings="restaurar|renovar">ἀνανεόω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-2-8=10</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>A:</strong> <strong>restaurar</strong> (Jó 33,24).</p><p class="entry-text"><strong>M:</strong> <strong>renovar</strong> (1 Mc 12,1); <strong>restaurar</strong> (Est 3,13b).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jb 33,24; Est 3,13b; 1 Mc 12,1.3.10.</p>
+    <p class="entry-text">Cf. HORSLEY 1983, 61–62; → NIDNTT; TWNT.</p>
+</section>
+</article>
+<article id="entry-ananeusis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάνευσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάνευσις, -εως · ananeusis" data-transliteration="ananeusis" data-meanings="rejeição|recusa">ἀνάνευσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>rejeição, recusa</strong>; <strong>neol.?</strong> (incerteza mantida).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Ps 72(73),4.</p>
+    <p class="entry-text">Cf. CAIRD 1968b=1972, 115.</p>
+</section>
+</article>
+<article id="entry-ananeuo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνανεύω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνανεύω · ananeuo" data-transliteration="ananeuo" data-meanings="fazer sinais de recusa|recusar|repudiar">ἀνανεύω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 9-0-0-1-1=11</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>fazer sinais de recusa, recusar</strong> (Ex 22,16); <strong>repudiar, não reconhecer</strong> (Nm 30,6; inglês do LEH: <em>to disclaim</em>).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Ex 22,16 (bis); Nm 30,6 (ter).</p>
+    <p class="entry-text">Cf. CAIRD 1968b=1972, 115.</p>
+</section>
+</article>
+<article id="entry-ananeosis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνανέωσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνανέωσις, -εως · ananeosis" data-transliteration="ananeosis" data-meanings="renovação">ἀνανέωσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>renovação</strong>.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 1 Mc 12,17.</p>
+</section>
+</article>
+<article id="entry-anantleo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναντλέω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναντλέω · anantleo" data-transliteration="anantleo" data-meanings="atravessar tribulações">ἀναντλέω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-1-0=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>atravessar (tribulações)</strong> [<span class="greek">τι</span>] (sentido figurado; inglês do LEH: <em>to go through (troubles)</em>).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Prv 9,12.</p>
+</section>
+</article>
+<article id="entry-anaxeraino-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναξηραίνω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναξηραίνω · anaxeraino" data-transliteration="anaxeraino" data-meanings="secar|consumir|esgotar">ἀναξηραίνω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 0-0-2-0-2=4</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>secar</strong> [<span class="greek">τι</span>] (Os 13,15); <strong>consumir, esgotar</strong> [<span class="greek">τι</span>] (sentido figurado; Sr 14,9).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jer 27(50),27; Hos 13,15; Sir 14,9; 43,3.</p>
+</section>
+</article>
+<article id="entry-anaxios-adj-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάξιος</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάξιος, -α, -ον · anaxios" data-transliteration="anaxios" data-meanings="indigno|sem valor">ἀνάξιος, -α, -ον</span><span class="separator">·</span><span>adjetivo (A)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-1-2=4</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>indigno</strong> (de pessoas; Sr 25,8); <strong>sem valor</strong> (Est 8,12g).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Jer 15,19; Est 8,12g; Od 12,14; Sir 25,8.</p>
+    <p class="entry-text">→ NIDNTT; TWNT.</p>
+</section>
+</article>
+<article id="entry-anaxis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἄναξις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄναξις, -εως · anaxis" data-transliteration="anaxis" data-meanings="elevação|levantamento">ἄναξις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>elevação, levantamento</strong>.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> PSal 18,5.</p>
+</section>
+</article>
+<article id="entry-anaxios-adv-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναξίως</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναξίως · anaxios" data-transliteration="anaxios" data-meanings="indignamente">ἀναξίως</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>indignamente</strong> (o LEH registra <em>unworthy</em> e o classifica como advérbio).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> 2 Mc 14,42.</p>
+</section>
+</article>
+<article id="entry-anapalin-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάπαλιν</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάπαλιν · anapalin" data-transliteration="anapalin" data-meanings="do lado oposto|do outro lado">ἀνάπαλιν</span><span class="separator">·</span><span>advérbio (D)</span><span class="separator">·</span><span>frequência LEH: 0-0-0-0-1=1</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>do lado oposto, do outro lado</strong>.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Wis 19,21.</p>
+</section>
+</article>
+<article id="entry-anapauma-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάπαυμα</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάπαυμα, -ατος · anapauma" data-transliteration="anapauma" data-meanings="repouso|descanso">ἀνάπαυμα, -ατος</span><span class="separator">·</span><span>substantivo neutro da 3ª declinação (N3N)</span><span class="separator">·</span><span>frequência LEH: 0-0-1-1-0=2</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>repouso, descanso</strong> (Jó 3,23).</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Is 28,12; Jb 3,23.</p>
+    <p class="entry-text">Cf. HELBING 1907, 113; SHIPP 1979, 69.</p>
+</section>
+</article>
+<article id="entry-anapausis-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀνάπαυσις</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀνάπαυσις, -εως · anapausis" data-transliteration="anapausis" data-meanings="repouso|descanso|lugar de repouso|terra em pousio|dia de descanso">ἀνάπαυσις, -εως</span><span class="separator">·</span><span>substantivo feminino da 3ª declinação (N3F)</span><span class="separator">·</span><span>frequência LEH: 15-2-13-13-18=61</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>repouso, descanso</strong> (por vezes plural; Gn 8,9); <strong>lugar de repouso</strong> (Gn 49,15); <strong>terra em pousio</strong> (Is 28,2); <strong>dia de descanso (sábado)</strong> (Lv 16,31).</p><p class="entry-text"><strong>Nota textual (*):</strong> Jb 7,18: <span class="greek">εἰς ἀνάπαυσιν</span> — “até (o momento do) repouso?”; a nota do LEH também fornece “repouso” e, para o MT, “a cada momento”, assinalando ◊.</p><p class="entry-text"><strong>Fragmentos hebraicos extraídos do LEH; ordem RTL incerta:</strong> <bdi class="hebrew" lang="he" dir="rtl">לרגעים</bdi> ◊ <bdi class="hebrew" lang="he" dir="rtl">עֵַגָר</bdi>; <bdi class="hebrew" lang="he" dir="rtl">לרגעים</bdi> ◊ <bdi class="hebrew" lang="he" dir="rtl">עַגֶר</bdi>. A associação gráfica exata não foi reconstruída.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 8,9; 49,15; Ex 16,23; 23,12; 31,15.</p>
+    <p class="entry-text">Cf. DANIEL, S. 1966, 198; HARLE 1988, 155–156 (Lv 16,31); LE BOULLUEC 1989, 57.186.236.317; WALTERS 1973, 160.161.308.320.329.342; WEVERS 1990, 255.514.575; → NIDNTT; TWNT.</p>
+</section>
+</article>
+<article id="entry-anapauo-leh" class="entry-card" data-dictionary="grego" data-source="LEH" hidden>
+    <header class="entry-header"><div><h1 class="entry-title greek">ἀναπαύω</h1><div class="entry-meta"><span class="greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀναπαύω · anapauo" data-transliteration="anapauo" data-meanings="dar descanso|acalmar|revigorar|permanecer|repousar|cessar|morrer">ἀναπαύω</span><span class="separator">·</span><span>verbo (V)</span><span class="separator">·</span><span>frequência LEH: 8-6-30-20-8=72</span><span class="separator">·</span><span>também usado no NT (+)</span></div></div><div class="source-tag">LEH</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Tradução literal</div>
+    <p class="entry-text"><strong>A:</strong> <strong>dar descanso de</strong> [<span class="greek">τινα ἀπό τινος</span>] (2 Sm 7,11); <strong>dar descanso</strong> [<span class="greek">τινι</span>] (1 Kgs 5,18); <strong>dar descanso</strong> [<span class="greek">τινα</span>] (1 Chr 22,18); <strong>aquietar, acalmar</strong> [<span class="greek">τι</span>] (Zech 6,8); <strong>revigorar</strong> [<span class="greek">τι</span>] (1 Sm 16,16); <strong>habitar, permanecer</strong> [<span class="greek">τι</span>] (Sir 18,16).</p><p class="entry-text"><strong>M:</strong> <strong>repousar, descansar</strong> (Gn 49,14); <strong>parar, repousar</strong> (de rebanhos; Gn 29,2); <strong>deitar-se com</strong> [<span class="greek">μετά τινος</span>] (SusLXX 37); <strong>repousar, estabelecer-se sobre</strong> [<span class="greek">ἐπί τι</span>] (Is 11,2); <strong>cessar de</strong> [<span class="greek">ἐπί τινι</span>] (Jer 49,10); <strong>morrer</strong> (Sir 22,11).</p><p class="entry-text"><strong>P:</strong> <strong>ter repouso</strong> (Lam 5,5).</p><p class="entry-text"><strong>Nota textual (*):</strong> Jgs<sup>A</sup> 4,11: <span class="greek">ἀναπαυομένων</span> — “dos que repousam (rebanhos?)”; ◊ <bdi class="hebrew" lang="he" dir="rtl">צעה</bdi> — “inclinar-se?”; MT <bdi class="hebrew" lang="he" dir="rtl">צענים/ב</bdi> — “em Zaannim”; segmentação semítica incerta.</p><p class="entry-text"><strong>Nota textual (*):</strong> Prv 21,20: <span class="greek">ἀναπαύσεται</span> — “repousará”; <bdi class="hebrew" lang="he" dir="rtl">ישׁכון</bdi> para o MT <bdi class="hebrew" lang="he" dir="rtl">ושׁמן</bdi> — “e azeite”.</p>
+    <p class="entry-text"><strong>Ocorrências citadas inicialmente:</strong> Gn 29,2; 49,14; Ex 23,12; Lv 25,2; Nm 24,9.</p>
+    <p class="entry-text">Cf. HELBING 1928, 168–169; WALTERS 1973, 320.342; → NIDNTT; TWNT.</p>
+</section>
 </article>`
 };
