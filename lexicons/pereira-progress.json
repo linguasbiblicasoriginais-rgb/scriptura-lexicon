@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 161,
-    "status": "lote 5 concluído"
+    "next_ordinal": 211,
+    "status": "lote 6 concluído"
   },
   "batches": [
     {
@@ -65,13 +65,24 @@
       "start_source_id": 30818,
       "end_source_id": 31972,
       "status": "concluído"
+    },
+    {
+      "batch": 6,
+      "start_ordinal": 161,
+      "end_ordinal": 210,
+      "start_entry": "Ἀ-γέννεια",
+      "end_entry": "Ἄγκίστρον, ου",
+      "entry_count": 50,
+      "start_source_id": 31973,
+      "end_source_id": 32021,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 161,
-    "source_id": 31973,
-    "searchable": "αγεννεια",
-    "lemma": "Ἀ-γέννεια"
+    "ordinal": 211,
+    "source_id": 32022,
+    "searchable": "αγκιστροω",
+    "lemma": "Ἀγκιστρόω"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",
