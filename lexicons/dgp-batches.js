@@ -2154,3 +2154,660 @@ window.ScripturaLexicons.DGP.cardsHtml += String.raw`
         `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
     ).join("\n");
 })();
+
+/* ==========================================================
+   LOTE 48 — registros 1031–1080
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "partit.", type: "abbr", text: "partitivo" }
+    );
+    const entries = [
+        [1031,"Αἰνία, ας (ἡ)","Ênia, cidade da Etólia.","Ênia, cidade da Etólia"],
+        [1032,"Αἰνιάν, ᾶνος","(masc., fem., n.) de Ênia; eniano. 〈Αἰνία〉","de Ênia; eniano"],
+        [1033,"αἴνιγμα, ατος (τό)","1 enigma; expressão enigmática; palavra obscura; ἐν αἰνίγματι de maneira confusa 2 alusão; insinuação. 〈αἰνίσσομαι〉","enigma; expressão obscura; alusão"],
+        [1034,"αἰνιγματώδης, ης, εν","enigmático. 〈αἴνιγμα〉","enigmático"],
+        [1035,"αἰνιγμός, οῦ (ὁ)","enigma; δι᾽ αἰνιγμῶν, ἐν αἰνιγμοῖσι por enigmas.","enigma"],
+        [1036,"αἰνίζομαι","(só pres.) = αἰνέω.","forma de αἰνέω"],
+        [1037,"αἰνικτηρίως","adv. por enigmas.","por enigmas"],
+        [1038,"αἰνικτός, ή, όν","expresso por enigmas, por palavras veladas. 〈αἰνίσσομαι〉","expresso por enigmas"],
+        [1039,"Αἴνιος, ου (ὁ)","1 Ênio, n. de homem ♦ adj. 2 de Enos, cidade da Trácia.","Ênio; de Enos"],
+        [1040,"αἰνίσσομαι,","át. -ίττομαι (fut. αἰνίξομαι, aor. ᾐνιξάμην; pas. aor. ᾐνίχθην, perf. ᾔνιγμαι) 1 falar por enigmas; falar obscuramente; fazer uma alusão obscura 2 expressar por enigmas; insinuar. 〈αἶνος〉","falar por enigmas; insinuar"],
+        [1041,"αἰνόθεν","adv. em αἰνόθεν αἰνῶς Homero de mal a pior. 〈αἰνός〉","de mal a pior"],
+        [1042,"Αἰνόθεν","adv de Enos, na Trácia. 〈Αἶνος〉","de Enos"],
+        [1043,"αἰνολαμπής, ής, ές","que tem um brilho terrível. 〈αἰνός, λάμπω〉","de brilho terrível"],
+        [1044,"αἰνόλεκτρος, ος, ον","cujo leito é funesto. 〈αἰνός, λέκτρον〉","de leito funesto"],
+        [1045,"αἰνόμορος, ος, ον","de funesto destino. 〈αἰνός, μόρος〉","de funesto destino"],
+        [1046,"αἰνοπαθής, ής, ές","que sofre terrivelmente. 〈αἰνός, παθεῖν〉","que sofre terrivelmente"],
+        [1047,"Αἰνόπαρις, ιδος (ὁ)","o funesto Páris. 〈αἰνός, Πάρις〉","o funesto Páris"],
+        [1048,"αἰνοπάτηρ","só voc. αἰνόπατερ pai infeliz. 〈αἰνός, πατήρ〉","pai infeliz"],
+        [1049,"αἰνός, ή, όν","1 terrível; medonho; formidável ♦ αἰνά adv. 2 terrivelmente.","terrível; medonho; terrivelmente"],
+        [1050,"αἶνος, ου (ὁ)","1 elogio; louvor 2 conto 3 apólogo; sentença; provérbio.","elogio; louvor; conto; provérbio"],
+        [1051,"Αἶνος, ου (ὁ","e ἡ) 1 masc. Eno, n. de homem 2 fem. Eno, cidade da Trácia.","Eno, homem ou cidade"],
+        [1052,"αἴνυμαι","(só pres. e impf.) pegar; agarrar, apoderar-se de, ac. ou gen. partit.","pegar; agarrar; apoderar-se"],
+        [1053,"αἰνῶς","adv. terrivelmente; grandemente.","terrivelmente; grandemente"],
+        [1054,"αἴξ, αἰγός (ὁ, ἡ)","1 cabra; bode 2 cabra selvagem; cabrito montês 3 espécie de ave aquática 4 Cabra, a estrela Capela 5 meteoro inflamado 6 pl. ondas.","cabra; bode; Capela; ondas"],
+        [1055,"ἀΐξασθαι","inf. aor. méd. de ἀΐσσω.","infinitivo aoristo médio de ἀΐσσω"],
+        [1056,"ἀΐξω,","fut. de ἀΐσσω.","futuro de ἀΐσσω"],
+        [1057,"Αἰολεῖς, έων (οἱ)","os eólios, uma das quatro principais tribos helênicas.","eólios"],
+        [1058,"Αἰολίδης, ου (ὁ)","Eólide, filho ou descendente de Éolo. 〈Αἴολος〉","Eólide; descendente de Éolo"],
+        [1059,"αἰολίζω","1 falar em dialeto eólico 2 cantar ou compor à maneira eólica. 〈Αἰολεῖς〉","falar ou compor em eólico"],
+        [1060,"Αἰολικός, ή, όν","eólico; da Eólia. 〈Αἰολεῖς〉","eólico; da Eólia"],
+        [1061,"Αἰόλιος, α, ον","eólio. 〈Αἰολεῖς〉","eólio"],
+        [1062,"Αἰολίς, ίδος","(masc., fem.) 1 eólio ♦ ἡ Αἰολίς [χώρα] 2 Eó­lia, região da Ásia Menor. 〈Αἰολεῖς〉","eólio; Eólia"],
+        [1063,"αἰόλλω","(só pres.) 1 agitar vivamente; fazer girar 2 ornar com diversas cores; matizar.","agitar; girar; matizar"],
+        [1064,"αἰολοθώρηξ, ηκος","(masc.) jôn. de couraça pintada de várias cores ou de couraça brilhante. 〈αἰόλος, θώραξ〉","de couraça colorida ou brilhante"],
+        [1065,"Αἰολοκένταυρος, ου (ὁ)","Centauro ágil, ser fictício.","Centauro ágil"],
+        [1066,"αἰολόμητις, ιος","(masc., fem.) fértil em astúcias. 〈αἰόλος, μῆτις〉","fértil em astúcias"],
+        [1067,"αἰολομίτρης, ου","(masc.) 1 que tem cinturão de várias cores 2 que tem turbante de várias cores. 〈αἰόλος, μίτρα〉","de cinturão ou turbante multicolor"],
+        [1068,"αἰολόπωλος, ος, ον","que tem corcéis ágeis. 〈αἰόλος, πῶλος〉","de corcéis ágeis"],
+        [1069,"αἰόλος, η","e ος, ον 1 que se agita vivamente; móbil; ágil 2 cambiante; variado 3 de aspecto variável; de cores cam- biantes; matizado ♦ ὁ Αἴολος 4 Éolo, deus dos ventos.","móbil; ágil; matizado; Éolo"],
+        [1070,"αἰολόστομος, ος, ον","de linguagem ambígua. 〈αἰόλος, στόμα〉","de linguagem ambígua"],
+        [1071,"ἄϊον","cf. ἀΐω1 e ἀΐω2.","cf. ἀΐω1 e ἀΐω2"],
+        [1072,"αἰπεινός, ή, όν","1 alto; escarpado; difícil de atingir 2 difícil de compreender; profundo. 〈αἷπος〉","alto; escarpado; profundo"],
+        [1073,"αἵπερ","eól. = εἴπερ.","forma eólica de εἴπερ"],
+        [1074,"αἵπερ","nom. pl. fem. de ὅσπερ.","nominativo plural feminino de ὅσπερ"],
+        [1075,"αἰπήεις, ήεσσα, ῆεν","1 circundado de escarpas 2 impetuoso; violento (furacão). 〈αἷπος〉","escarpado; impetuoso"],
+        [1076,"αἰπολέω-ῶ","(só pres. e impf.) 1 guardar ou guiar cabras ♦ pas. 2 pastar. 〈αἰπόλος〉","guardar cabras; pastar"],
+        [1077,"αἰπόλιον, ου (τό)","1 rebanho de cabras; rebanho 2 pastagem de cabras. 〈αἰπόλος〉","rebanho ou pastagem de cabras"],
+        [1078,"αἰπόλος, ου (ὁ)","cabreiro. 〈αἴξ, πολέω〉","cabreiro"],
+        [1079,"αἷπος, εος-ους (τό)","1 altura; elevação 2 meta difícil de atingir. 〈αἰπύς〉","altura; meta difícil"],
+        [1080,"αἰπός, ή, όν","αἰπύς.","αἰπύς"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 49 — registros 1081–1130
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Teofrasto", type: "biblio", text: "Teofrasto — filósofo grego dos séculos IV–III a.C., discípulo e sucessor de Aristóteles no Liceu." },
+        { key: "Políbio", type: "biblio", text: "Políbio — historiador grego dos séculos III–II a.C., autor das Histórias." },
+        { key: "Septuaginta", type: "biblio", text: "Septuaginta — tradução grega antiga das Escrituras hebraicas e de outros livros judaicos." },
+        { key: "Antifonte", type: "biblio", text: "Antifonte — orador ateniense do século V a.C., tradicionalmente incluído entre os dez oradores áticos." },
+        { key: "Novo Testamento", type: "biblio", text: "Novo Testamento — corpus grego cristão citado pelo DGP." },
+        { key: "predic.", type: "abbr", text: "predicativo" },
+        { key: "suj.", type: "abbr", text: "sujeito" }
+    );
+    const entries = [
+        [1081,"αἰπυμήτης, ου","voc. αἰπυμῆτα (masc.) que tem pensamentos elevados. 〈αἰπύς, μῆτις〉","de pensamentos elevados"],
+        [1082,"αἰπύνωτος, ος, ον","situado no cume da montanha. 〈αἰπύς, νῶτον〉","situado no cume"],
+        [1083,"αἰπύς, εῖα, ύ","poét. 1 alto e escarpado; alto e abrupto; elevado 2 difícil de atingir; árduo: αἰπύ οἱ ἐσσεῖται Homero ser-lhe-á difícil 3 pendurado do alto: ἁψαμένη βρόχον αἰπύν Homero suspensa de laço mortal 4 próprio para precipitar-se 5 profundo 6 que se eleva muito alto; retumbante ♦ τὸ Αἰπύ 7 Epi, “a Escarpada”, cidade do país de Nestor.","alto; escarpado; árduo; profundo"],
+        [1084,"Αἰπύτιος, α, ον","de Épito. 〈Αἴπυτος〉","de Épito"],
+        [1085,"Αἴπυτος, ου (ὁ)","Épito, rei da Arcádia.","Épito"],
+        [1086,"αἱρέσιμος, α, ον","que se pode submeter; conquistável. 〈αἱρέω〉","conquistável"],
+        [1087,"αἵρεσις, εως (ἡ)","1 ação de tomar; tomada; conquista: αἵρεσις δυνάμεως tomada do poder 2 escolha: αἵρεσιν διδόναι ou νέμειν deixar a escolha a alguém, dat.; αἵρεσιν λαμβάνειν ter a escolha, οὐκ ἔχειν αἵρεσιν não admitir escolha 3 escolha por voto; eleição 4 função eletiva; magistratura 5 preferência; inclinação; apego a, πρός e ac. 6 desígnio; intenção 7 estudo específico 8 escola;doutrina filosófica; seita 9 crist. heresia. 〈αἱρέω〉","tomada; escolha; eleição; escola; heresia"],
+        [1088,"αἱρετέος, α, ον","adj. verb. de αἱρέω.","adjetivo verbal de αἱρέω"],
+        [1089,"αἱρετίζω","(aor. ᾑρέτισα, perf. ᾑρέτικα) preferir; aderir a; escolher, ac. ou inf. 〈αἱρετός〉","preferir; escolher"],
+        [1090,"αἱρετικός, ή, όν","1 que escolhe; que adere a, gen. 2 crist. que toma partido; sectário 3 crist. que causa divisão; faccioso; herético 4 Astrol. escolhido ou designado para nascer sob uma constelação. 〈αἱρετός〉","sectário; faccioso; herético"],
+        [1091,"αἱρετός, ή, όν","1 que pode ser tomado 2 que pode ser apreendido ou compreendido 3 que tem probabilidade de ser escolhido; desejável 4 escolhido; eleito: δικασταὶ αἱρετοί juízes eleitos, αἱρετὴ ἀρχή magistratura eletiva ♦ οἱ αἱρετοί 5 os escolhidos ou eleitos para uma delegação; delegados; comissários. 〈αἱρέω〉","tomável; desejável; escolhido"],
+        [1092,"αἱρεύμενος","part. pres. méd. jôn. de αἱρέω.","particípio presente médio jônico de αἱρέω"],
+        [1093,"αἱρέω-ῶ","(impf. ᾕρουν, fut. αἱρήσω, aor.2 εἷλον, perf. ᾕρηκα; pas. fut. αἱρεθήσομαι, aor. ᾑρέθην, perf. ᾕρημαι) ativa 1 pegar; tomar pela força; agarrar 2 capturar; apoderar-se de; vencer 3 prender alguém; surpreender alguém no ato 4 condenar; provar alguma coisa; vencer uma causa 5 conquistar 6 apreender pela razão; compreender média 7 tomar para si 8 escolher; preferir 9 eleger 1 χειρὸς ἑλόντ’ ἀγέμεν Homero tendo[-a] tomado pela mão, conduzi-a, τρίαιναν ἑλὼν χερσὶ στιβαρῇσιν Homero tendo ele agarrado seu tridente com as mãos vigorosas, ἄξω ἑλών Homero tendo[-a] tomado pela força, trarei, i.e., vou trazê-la à força 2 ζωοὺς ἕλον πολλούς Homero capturaram muitos deles vivos, ἡ γὰρ φύσις παραμένουσ’ αἱρεῖ κακά Eurípides a natureza, mantendo-se firme, vence os males, ἐμὲ χλωρὸν δέος ᾕρει Homero invadia-me um lívido temor 3 φῶρα κλοπῇ ἑλεῖν Platão apanhar um ladrão em flagrante, τήνδ’ εἵλομεν θάπτουσαν Eurípides nós a surpreendemos enquanto sepultava (o morto) 4 εἷλε σ’ ἡ Δίκη Eurípides a Justiça te condenou, ἀλλά σε κλέπτονθ’ αἱρήσω Aristófanes mas provarei que roubas, αἱρεῖν δίκην Demóstenes ganhar um processo 5 μεγάλα δ’ ἐπινοεῖς ἑλεῖν Eurípides grandes prêmios planejas conquistar, αἱρεῖν κῦδος Homero obter a glória 6 εἴπερ ἱκανῶς μέλλομεν τὴν ὑφαντικὴν αἱρήσειν Platão se é que vamos compreender suficientemente a arte do tecelão, ὁ λόγος οὕτω αἰρέει Heródoto a razão assim apreende 7 δόρπον ἕλοντο Homero tomaram a refeição, ὅρκον ἕλωμαι Homero se eu obtivesse um juramento 8 ἀλήτην βίον εἵλευ Heródoto escolheste uma vida errante, τοῖς ἄλλοις τὴν δουλείαν αἱρουμένοις συγγνώμην εἷχον Isócrates aos outros, por preferirem a servidão, perdoavam 9 αἱροῦνται αὐτὸν ἄρχοντα τῆς εἰς Μήδους στρατείας Xenofonte elegem-no chefe da expedição contra os medos.","tomar; conquistar; compreender; escolher; eleger"],
+        [1094,"ἄϊρος","em Ἴρος ἄϊρος Homero Iros que não é Iros, Iros infeliz. 〈ἀ-, Ἴρος〉","Iros infeliz"],
+        [1095,"αἴρω","(impf. ᾖρον, fut. ἀρῶ, aor. ἦρα, perf. ἦρχα; pas. fut. ἀρθήσομαι, aor. ἤρθην, perf. ἦρμαι) ativa 1 levantar; erguer 2 pegar para levar ou trazer; transportar 3 tomar; tirar algo, ac., de, ἀπό e gen.; tomar sobre si; suportar 4 elevar; exaltar; exagerar 5 elevar; fazer crescer 6 levar para fora; fazer desaparecer; expulsar algo, ac., de, ἐκ e gen. 7 lançar ao mar (navio); fazer partir 8 intr. partir média 9 erguer; elevar, tomar 10 tomar nas mãos; empreender; assumir; suportar 11 tomar para si; alcançar; obter 12 fazer desaparecer 1 μύδρους αἴρειν χεροῖν Sófocles levantar com as mãos ferros em brasa, αἴρειν μηχανάς Platão erguer a maquinaria (de teatro), ἕως ἂν τὸ τεῖχος ἱκανὸν αἴρωσιν Tucídides até que eles ergam um muro que seja suficiente 2 μή μοι οἷνον ἄειρε Homero não me tragas vinho, μῆλα ἄειραν νηυσί Homero transportaram rebanhos nas naus 3 ἄρας τι τῶν ἀπὸ τραπέζης Teofrasto tendo tomado da mesa uma das iguarias, αἴρειν ὕδωρ Aristófanes tirar água, ἄρατε τὸν ζυγόν μου ἐφ’ ὑμᾶς Novo Testamento tomai o meu jugo sobre vós 4 πολλῷ ἐπαίνῳ ὑψηλὸν ἀρῶ Eurípides com muito louvor (te) elevarei às alturas, τῷ λόγῳ τὸ πρᾶγμ’ ἐγὼ νῦν αἴρω Demóstenes agora com a palavra exalto a ação, ἐπὶ μείζον τῷ λόγῳ αἴρειν Plutarco exagerar com a palavra 5 ὄλβον Δαρεῖος ἦρεν Ésquilo Dario fez crescer a prosperidade, αἴρειν θάρσος Eurípides tomar coragem 6 τούσδ’ ἱκτῆρας κλάδους ἄρατε Sófocles retirai esses ramos suplicantes, αἴρειν ἐκ πόλεως Platão expulsar (alguém) da cidade, αἴρειν τὸν πόλεμον Políbio fazer cessar a guerra, αἴρειν τὴν ἁμαρτίαν Septuaginta abolir o pecado 7 τὰς ναῦς ἄραντες Tucídides tendo eles lançado as naus ao mar, αἴρειν βουλόμενος καὶ πλεῖν ἐπὶ τὸν Ἰσθμόν Plutarco querendo levantar âncora e navegar para o istmo de Corinto 8 αἴρειν τῷ στράτῳ Tucídides partir com o exército 9 αἴρεσθαι τὰ ἱστία Plutarco içar as velas, αἴρεσθαι φορτίον Demóstenes erguer um fardo, αἴρεσθαι φωνήν Aristófanes elevar a voz 10 πρεσβύτερός τε ἤδη εἰμὶ καὶ βαρὺς ἀείρεσθαι Heródoto já sou muito velho e lento para tomar iniciativa, ἄρασθαι πόλεμον Ésquilo empreender uma guerra, κίνδυνον ἀράμενος Antifonte tendo ele assumido o perigo, ἐκείνῳ δυσμένειαν ἠράμην Eurípides enfrentei sua inimizade 11 αἴρεσθαι νίκας, κλέος, κῦδος, alcançar vitórias, glória, renome 12 αἴρεσθαι πόλιν Dionísio de Halicarnasso destruir uma cidade.","levantar; transportar; tirar; partir; assumir; obter"],
+        [1096,"Ἄϊς","(só gen. Ἄϊδος, dat. Ἄϊδι, ac. Ἄϊδα) = Ἀΐδης.","forma de Ἀΐδης"],
+        [1097,"αἷσα, ης (ἡ)","1 parte; porção: αἷσα χθονός Píndaro porção de terra 2 parte destinada a cada um; quinhão; destino: αἷσά μοι ἐστί Homero é meu destino, inf. 3 medida; regra; conveniência: κατ’ αἷσαν, ἐν αἷσᾳ como convém; παρὰ ou ὑπὲρ αἷσαν Homero além do conveniente 4 decreto; decisão de um deus: Διὸς ὑπὲρ αἷσαν Homero contra a vontade de Zeus 5 Αἷσα person. Esa, o Destino.","parte; destino; medida; decreto; Esa"],
+        [1098,"αἰσθάνομαι","(impf. ᾐσθανόμην, fut. αἰσθήσομαι, aor.2 ᾐσθόμην, perf. ᾔσθημαι) 1 perceber pelos sentidos ou pela mente; ouvir; ver; sentir; perceber, gen. ou ac., com part. predic. do suj., com ac. ou gen. e part., com ὅτι: ὥς μοι πολλὰς μὲν θρήνων ᾠδάς, πολλὰς δ’ ᾔσθου πλαγάς Sófocles quantos cantos de dor (ouviste) de mim, tantos golpes me (viste dar), ᾔσθησαί μου ψευδομαρτυροῦντος; Xenofonte percebeste que eu dava falso testemunho? 2 ser inteligente; ter consciência de si; estar em plena posse das faculdades: ἐπεβίων δὲ παντὸς αὐτοῦ αἰσθόμενός τε τῇ ἡλικίᾳ Tucídides vivi-a [a guerra] inteira, pela idade que tinha, em plena posse de minhas faculdades. 〈ἀΐω〉","perceber; sentir; compreender"],
+        [1099,"ἄϊσθε","3a. sing. impf. poét. de ἀΐσθω.","imperfeito poético de ἀΐσθω"],
+        [1100,"αἴσθημα, ατος (τό)","1 o sentir, sensação 2 o objeto de sen­sação, o sentido. 〈αἰσθάναομαι〉","sensação; objeto de sensação"],
+        [1101,"αἴσθησις, εως (ἡ)","1 percepção pelos sentidos; faculdade de sentir: πᾶσαν αἴσθησιν αἰσθάνεσθαι Platão experimentar toda e qualquer sensação 2 percepção pela inteligência; noção; conhecimento: αἴσθησιν λαμβάνειν, ἔχειν ter a sensação, a percepção de algo, gen., αἴσθησιν παρέχειν, ποιεῖν fazer ver, fazer compreender a alguém, gen. 3 órgão dos sentidos 4 pl. os sentidos 5 rasto; pista. 〈αἰσθάνομαι〉","percepção; conhecimento; sentidos"],
+        [1102,"αἰσθήσομαι","fut. de αἰσθάνομαι.","futuro de αἰσθάνομαι"],
+        [1103,"αἰσθητήριον, ου (τό)","1 órgão dos sentidos 2 bíbl. pl. sentidos, faculdades, poder de discernimento. 〈αἰσθάνομαι〉","órgão dos sentidos; discernimento"],
+        [1104,"αἰσθητικός, ή, όν","1 capaz de perceber algo, gen.: ἡ αἰσ­θητικὴ δύναμις a faculdade de sentir 2 apreensível pelos sentidos; sensível. 〈αἰσθητός〉","capaz de perceber; sensível"],
+        [1105,"αἰσθητικῶς","adv. sensivelmente. 〈αἰσθάνομαι〉","sensivelmente"],
+        [1106,"αἰσθητός, ή, όν","sensível; perceptível. 〈αἰσθάνομαι〉","sensível; perceptível"],
+        [1107,"αἰσθητῶς","adv. de maneira sensível; sensivelmente.","sensivelmente"],
+        [1108,"αἴσθομαι","(só pres.) = αἰσθάνομαι.","forma de αἰσθάνομαι"],
+        [1109,"αΐσθω","(só part. pres. ἀΐσθων e 3ª sing. impf. ép. ἄισθε) exalar, soprar: αὐτὰρ ὁ θυμὸν αἴσθε Homero então exalou seu sopro de vida.","exalar; soprar"],
+        [1110,"αἰσιμία, ας (ἡ)","duv. proveito; fruição ou repartição justa. 〈αἴσιμος〉","proveito; repartição justa"],
+        [1111,"αἴσιμος, ος","e η, ον 1 fixado pelo destino; fatal: αἴσιμόν ἐστι Homero é fatal 2 conforme a norma, conveniente; justo: αἴσιμα εἰδώς Homero de espírito prudente, αἴσιμα εἰπεῖν Homero dizer coisas adequadas, πρὶν δὲ φρένας αἰσίμη ἦσθα Homero outrora eras bem equilibrada de sentimentos ♦ αἴσιμα adv. 4 com medida, com moderação. 〈αἷσα〉","fatal; conveniente; justo"],
+        [1112,"αἰσιόομαι-οῦμαι","considerar de bom augúrio. 〈αἴσιος〉","considerar de bom augúrio"],
+        [1113,"αἴσιος, ος","e α, ον 1 oportuno; favorável 2 que acontece segundo a regra; conveniente; justo. 〈αἷσα〉","oportuno; favorável; justo"],
+        [1114,"ἀΐσσω,","at. ᾄσσω, ᾄττω e ἄττω (impf. ἤϊσσον e ᾖσσον; fut. ἀΐξω e ᾄξω; aor.ἤϊξα e ᾖξα; perf. desus.; pas. aor. ἠΐχθην) 1 mover-se rapidamente; lançar-se; saltar: ἀ. ἔγχεϊ Homero precipitar-se para frente com a lança, δούρατα ἐκ χειρῶν ἤϊξαν Homero as lanças saltaram de suas mãos 2 precipitar-se em; esforçar-se para, inf. ou εἰς e ac.: οὐδ’ ᾖξας εἰς ἔρευναν ἐξευρεῖν γονάς; Eurípides não te apressaste na busca para achar teus pais? 3 (pres. e aor.) mover rapidamente; agitar: ἀ. χέρα Sófocles mover a mão, διά μου κεφαλῆς ᾄσσουσ’ ὀδύναι Eurípides pela minha cabeça agitam-se dores ♦ méd. 4 precipitar-se; agitar-se: πυλάων ἀντίον ἀΐζασθαι Homero lançar-se contra as portas, κόμη δι᾽ αὔρας ᾄσσεται Sófocles os cabelos agitam-se ao vento.","lançar-se; saltar; agitar-se"],
+        [1115,"ἄϊστος,","contr. αἶστος, ος, ον 1 não visto; invisível; desaparecido 2 desconhecido; obscuro 3 que não vê; que não conhece, gen. 〈ἀ-, ἰδεῖν〉","invisível; desconhecido"],
+        [1116,"ἀϊστόω-ῶ","(fut. ἀϊστώσω, aor. ἠΐστωσα e ᾔστωσα, perf. desus.; pas. aor. ép. 3ª pl. ἀϊστώθησαν) 1 tornar invisível; fazer desaparecer; destruir ♦ pas. 2 aor. desaparecer. 〈ἄϊστος〉","fazer desaparecer; destruir"],
+        [1117,"αἰσυλοεργός, ός, όν","que pratica atos ímpios; malvado. 〈αἴσυλος, ἔργον〉","ímpio; malvado"],
+        [1118,"αἴσυλος, ος, ον","ímpio; inconveniente; mau.","ímpio; inconveniente; mau"],
+        [1119,"Αἰσύμηθεν","adv. de Esima, cidade da Trácia.","de Esima"],
+        [1120,"αἰσυμνάω-ῶ","(só pres.) dirigir; governar, gen. 〈αἷσα〉","dirigir; governar"],
+        [1121,"αἰσυμνήτηρ, ῆρος (ὁ)","governador; príncipe.","governador; príncipe"],
+        [1122,"αἰσυμνήτης, ου (ὁ)","organizador de jogos; supervisor; árbitro.","organizador; supervisor; árbitro"],
+        [1123,"Αἰσχίνης, ου (ὁ)","Ésquines, orador ateniense, rival de Demóstenes.","Ésquines"],
+        [1124,"αἴσχιστος, η, ον","superl. de αἰσχρός.","superlativo de αἰσχρός"],
+        [1125,"αἰσχίων, ων, ον","gen. ονος comp. de αἰσχρός.","comparativo de αἰσχρός"],
+        [1126,"αἷσχος, εος-ους (τό)","1 opróbrio; vergonha; infâmia 2 pl. atos ou palavras vergonhosas 3 deformidade física; feiúra.","opróbrio; vergonha; feiúra"],
+        [1127,"αἰσχροκέρδεια, ας (ἡ)","ganância; cupidez. 〈αἰσχροκερδής〉","ganância; cupidez"],
+        [1128,"αἰσχροκερδής, ής, ές","ávido de ganho; cúpido; avaro. 〈αἰσχρός, κέρδος〉","cúpido; avaro"],
+        [1129,"αἰσχροκερδῶς","adv. com ganância; com ambição sórdida.","com ganância"],
+        [1130,"αἰσχρολογία, ας (ἡ)","fala indecente; obscenidade. 〈αἰσχρός, λόγος〉","fala indecente; obscenidade"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 50 — registros 1131–1180
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Teócrito", type: "biblio", text: "Teócrito — poeta helenístico dos séculos IV–III a.C., tradicionalmente associado ao desenvolvimento da poesia bucólica." },
+        { key: "rec.", type: "abbr", text: "recente" },
+        { key: "eufór.", type: "abbr", text: "eufemístico" }
+    );
+    const entries = [
+        [1131,"αἰσχρόμητις, ιος","(masc., fem.) que dá maus conselhos. 〈αἰσχρός, μῆτις〉","de maus conselhos"],
+        [1132,"αἰσχροποιός, ός, όν","que comete atos infames; que se comporta vergonhosamente. 〈αἰσχρός, ποιέω〉","que comete atos infames"],
+        [1133,"αἰσχρός, ά, όν","(comp. αἰσχίων, superl. αἴσχιστος) 1 objeto de opróbrio; vil; indigno (pessoas) 2 incapaz (animais); indigno; infame (coisas); feio; medonho (pessoas e coisas); funesto; lastimável 3 inconveniente; impróprio para algo, πρός e ac. 4 desonroso; infamante: αἰσχρόν ἐστι é vergonhoso, inf. ♦ τὸ αἰσχρόν 5 vergonha; τὸ καλὸν καὶ τὸ αἰσχρόν o bem e o mal ou a virtude e o vício (para os estóicos).","vil; feio; desonroso; vergonha"],
+        [1134,"αἰσχρότης, ητος (ἡ)","1 feiúra; deformidade 2 bíbl. comportamento indecente. 〈αἰσχρός〉","feiúra; comportamento indecente"],
+        [1135,"αἰσχρουργία, ας (ἡ)","1 conduta vergonhosa 2 obscenidade. 〈αἰσχρός, ἔργον〉","conduta vergonhosa; obscenidade"],
+        [1136,"αἰσχρῶς","adv. vergonhosamente.","vergonhosamente"],
+        [1137,"αἰσχυνέμεν","inf. pres. ép. de αἰσχύνω.","infinitivo presente épico de αἰσχύνω"],
+        [1138,"αἰσχυνέω","fut. jôn. de αἰσχύνω.","futuro jônico de αἰσχύνω"],
+        [1139,"αἰσχύνη, ης (ἡ)","1 causa de vergonha; injúria, opróbrio: αἰσχύνην ἔχειν, φέρειν, προσβάλλειν causar desonra a alguém, dat., γράφεσθαί τινα γένους αἰσχύνης Platão acusar alguém de ação desonrosa contra a estirpe 2 situação vergonhosa; desonra: αἰσχύνη συμβᾶσα τῇ πόλει Demóstenes vergonha que aconteceu à cidade, αἰσχύνῃ πίπτειν Sófocles cair em desonra 3 sentimento de vergonha; comedimento; respeito; αἰσχύνην ἔχειν ter vergonha de, gen., πᾶσαν αἰσχύνην ἀφιέναι Demóstenes perder toda a vergonha, αἰσχύνῃ ἠφείδουν σφῶν αὐτῶν Tucídides por brio não se poupavam, αἰσχύνην ὁμολογουμένην φέρουσι Tucídides [leis não escritas] que gozam de respeito unânime 4 ultraje ao pudor; estupro. 〈αἷσχος〉","vergonha; desonra; pudor; estupro"],
+        [1140,"αἰσχυνοῦμαι","fut. méd. pas. de αἰσχύνω.","futuro médio-passivo de αἰσχύνω"],
+        [1141,"αἰσχυντέον","adj. verb. de αἰσχύνω.","adjetivo verbal de αἰσχύνω"],
+        [1142,"αἰσχυντηλία, ας (ἡ)","pudor; modéstia.","pudor; modéstia"],
+        [1143,"αἰσχυντηλός, ός, όν","1 pudico; modesto 2 que causa vergonha ♦ τὸ αἰσχυντηλόν 3 modéstia; pudor. 〈αἰσχύνω〉","pudico; modesto; vergonha"],
+        [1144,"αἰσχυντήρ, ῆρος (ὁ)","homem que desonra; adúltero. 〈αἰσχύνω〉","homem que desonra; adúltero"],
+        [1145,"αἰσχυντικός, ή, όν","que causa vergonha.","que causa vergonha"],
+        [1146,"αἰσχύνω","(impf. ᾔσχυνον, fut. αἰσχυνῶ, aor. ᾔσχυνα, perf. rec. ᾔσχυγκα) 1 tornar feio: χαριὲν δ’ ᾔσχυνε πρόσωπον Homero desfigurava seu belo rosto, κόμην ᾔσχυνε δαΐζων Homero enfeava a cabeleira arrancando os cabelos 2 ultrajar; profanar; estuprar: αἰσχύνεις πόλιν Sófocles desonras a cidade, ᾔσχυνε ξενίαν τράπεζαν Ésquilo ultrajou a mesa hospitaleira, [εἴ τινες] τούς τε παῖδας καὶ τὰς γυναῖκας αἰσχύνοειν Isócrates se algumas pessoas estuprassem mulheres e crianças 3 desacreditar: ᾔσχυνας μὲν ἐμὴν ἀρετήν Homero denegriste meu valor ♦ méd. 4 ter vergonha de algo, ac., dat., ἐν ou ἐπί e dat., ὑπέρ e gen.: αἰσχυνόμενος τῇ συμφορᾷ Lísias envergonhado com o acontecimento; envergonhar-se de fazer algo, part.: αἰσχύνω ποιῶν tenho vergonha de fazer (mas faço), οὐκ ἂν αἰσχύνοιό σε παρέχων σοφιστήν; Platão tu não te envergonharias de te apresentares como sofista? com inf. ou or. com εἰ, ἤν, μή: αἰσχύνω ποιεῖν tenho vergonha de fazer (e não faço) 5 corar diante de alguém, ac. ou πρός e ac. 〈αἰσχύνη〉","tornar feio; ultrajar; envergonhar-se"],
+        [1147,"Αἴσωπος, ου (ὀ)","Esopo, n. de fabulista e de ator trágico.","Esopo"],
+        [1148,"αἴτε","dór. = εἴτε.","forma dórica de εἴτε"],
+        [1149,"αἰτεύμενος","part. pres. pas. jôn. de αἰτέω.","particípio presente passivo jônico de αἰτέω"],
+        [1150,"αἰτέω-ῶ","(impf. ᾔτουν, fut. αἰτήσω, aor. ᾔτησα, perf. ᾔτηκα; pas. fut. αἰτηθήσομαι, aor. ᾐτήθην, perf. ᾔτημαι) 1 pedir; solicitar; postular a alguém, ac. ou πρός, παρά e gen.; algo, ac. ou or. inf. ou conj. (ὅπως); em benefício de alguém, dat. ♦ méd. 2 pedir para si; implorar; reclamar (com as mesmas construções da at.) ♦ pas. 3 ser solicitado: αἰτηθέντες χρήματα Heródoto solicitados a dar seus bens, αἰτεύμενος Teócrito solicitado a fazer algo, inf.; ἵπποι ᾐτημένοι Lísias cavalos tomados de empréstimo; τὸ αἰτεόμενον Heródoto aquilo que se pede.","pedir; solicitar; implorar"],
+        [1151,"αἴτημα, ατος (τό)","1 pedido; petição 2 princípio de demonstração; postulado. 〈αἰτέω〉","pedido; petição; postulado"],
+        [1152,"αἰτηματώδης, ης, ες","que tem o caráter de hipótese. 〈αἴτημα〉","de caráter hipotético"],
+        [1153,"αἴτησις, εως (ἡ)","1 pedido; súplica 2 postulado. 〈αἰτέω〉","pedido; súplica; postulado"],
+        [1154,"αἰτητικός, ή, όν","1 que gosta de pedir 2 que pode ser pedido; desejável. 〈αἰτέω〉","que gosta de pedir; desejável"],
+        [1155,"αἰτητός, ή, όν","solicitado; desejável. 〈αἰτέω〉","solicitado; desejável"],
+        [1156,"αἰτία, ας (ἡ)","1 princípio; origem: αἱ πρῶται αἰτίαι Platão as causas primeiras 2 razão: δι’ ἣν αἰτίαν ἐπολέμησαν Heródoto motivo pelo qual fizeram a guerra 3 responsabilidade: αἰτία θεοῦ Ésquilo a responsabilidade do deus, τὴν αἰτίαν ἐνδέχεσθαι tomar a responsabilidade, τὴν αἰτίαν εἰς αὑτὸν φέρειν assumir a responsabilidade, αἰτίαν ἀνατιθέναι, ἐπιτιθέναι, ἐπιφέρειν atribuir a responsabilidade a alguém, dat. 4 acusação: ἀφιέναι τινὰ τῆς αἰτίας Lísias absolver alguém de uma acusação, αἰτίαν ἔχειν, ὑπέχειν, ὑπομένειν, φέρεσθαι ou εἰς αἰτίαν ἐλθεῖν, ἐμπίπτειν ou αἰτίας τυγχάνειν ou ἐν αἰτίᾳ εἷναι, γίγνεσθαι ser acusado, sofrer uma acusação, estar sob acusação 5 eufór. reputação: αἰτίαν ἔχουσι βελτίους γεγονέναι Platão têm a reputação de se terem tornado melhores 6 bíbl. condição; situação: εἰ οὕτως ἐστὶν ἡ αἰτία τοῦ ἀνθρώπου μετὰ τῆς γυναικός, οὐ συμφέρει γαμῆσαι Novo Testamento se tal é a condição do homem em relação à mulher, não convém casar. 〈αἴτιος〉","causa; razão; responsabilidade; acusação; condição"],
+        [1157,"αἰτιάζομαι","(impf. ᾐτιαζόμην) ser acusado de algo, gen. 〈αἰτία〉","ser acusado"],
+        [1158,"αἰτίαμα, ατος (τό)","acusação; motivo de queixa; culpa. 〈αἰτιάομαι〉","acusação; queixa; culpa"],
+        [1159,"αἰτιάομαι-ῶμαι","(fut. αἰτιάσομαι, aor. ᾐτιασάμην, perf. ᾐτίαμαι) 1 ver como causa: οὐ τὸ αἴτιον αἰτιᾶσθαι Platão não considerar como causa o que é a causa 2 apresentar como causa; pretextar: τὸν λόγον αἰτιᾶσθαι δυσχερῆ εἷναι Platão alegar que o raciocínio é difícil 3 pôr em discussão; acusar: οἷον θεοὺς βροτοὶ αἰτιόωνται Homero como os mortais acusam os deuses! αἰτιᾶσθαί τινα ποιεῖν τι Heródoto acusar alguém de fazer algo, αἰτίαν κατά τινος αἰτιᾶσθαι Antifonte fazer uma acusação contra alguém 4 rar. louvar: σὲ τίς αἰτιᾶται νομοθέτην ἀγαθὸν γεγονέναι; Platão quem te louva por teres sido um bom legislador? 〈αἰτία〉","considerar causa; pretextar; acusar; louvar"],
+        [1160,"αἰτιατέον","adj. verb. de αἰτιάομαι.","adjetivo verbal de αἰτιάομαι"],
+        [1161,"αἰτίζω","(só pres. e part. aor. poét. αἰτίσσας) pedir com insistência; mendigar algo, ac., a alguém, dat. 〈αἰτέω〉","pedir insistentemente; mendigar"],
+        [1162,"αἰτιολογέω-ῶ","argumentar sobre as causas. 〈αἰτία, λόγος〉","argumentar sobre as causas"],
+        [1163,"αἴτιος, α, ον","1 que é causa de, gen. 2 responsável; culpado; acusado de, gen. ♦ ὁ αἴτιος 3 o acusado ♦ τὸ αἴτιον 4 causa; razão; motivo: τοῦτο αἴτιον ὅτι isso é causa de que. 〈αἰτία〉","causador; responsável; culpado; causa"],
+        [1164,"αἰτίωμα, ατος (τό)","bíbl. = αἰτίαμα.","forma bíblica de αἰτίαμα"],
+        [1165,"αἰτιόωνται","e αἰτιόωντο 3ª pl. pres. e impf. ép. de αἰ­τιάομαι.","formas épicas de αἰτιάομαι"],
+        [1166,"αἰτιόῳο","e αἰτιόῳτο 2ª e 3ª sing. opt. ép. de αἰτιάομαι.","optativo épico de αἰτιάομαι"],
+        [1167,"αἰτναῖος, ου (ὁ)","etneu, peixe do mar.","peixe etneu"],
+        [1168,"Αἰτναῖος, α, ον","1 do Etna 2 grande como o Etna; gigantesco 3 da região do Etna. 〈Αἴτνη〉","do Etna; gigantesco"],
+        [1169,"Αἴτνη, ης (ἡ)","Etna, monte, vulcão e cidade da Sicília .","Etna"],
+        [1170,"Αἰτωλία, ας (ἡ)","Etólia, região da Grécia.","Etólia"],
+        [1171,"Αἰτωλικός, ή, όν","etólio. 〈Αἰτωλία〉","etólio"],
+        [1172,"Αἰτωλίς, ιδος","(fem.) etólia. 〈Αἰτωλία〉","etólia"],
+        [1173,"Αἰτωλός, οῦ","(masc.) etólio. 〈Αἰτωλία〉","etólio"],
+        [1174,"αἴφνης","adv. subitamente; de repente.","subitamente"],
+        [1175,"αἰφνίδιος, α, ον","1 repentino; súbito; imprevisto ♦ αἰφνίδιον adv. 2 subitamente; de repente ♦ τὸ αἰφνίδιον 3 o imprevisto. 〈αἴφνης〉","repentino; súbito; imprevisto"],
+        [1176,"αἰφνιδίως","adv. subitamente; de repente.","subitamente; de repente"],
+        [1177,"ἀΐχθην","aor. pas. de ἀΐσσω.","aoristo passivo de ἀΐσσω"],
+        [1178,"αἰχμά","dór. = αἰχμή.","forma dórica de αἰχμή"],
+        [1179,"αἰχμάεις","dór. = αἰχμήεις.","forma dórica de αἰχμήεις"],
+        [1180,"αἰχμάζω","(fut. αἰχμάσω, aor. ᾔχμασα) 1 brandir ou arremessar a lança 2 ferir. 〈αἰχμή〉","brandir lança; ferir"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 51 — registros 1181–1230
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    source.bibliographicTerms.push(
+        { key: "Hipócrates", type: "biblio", text: "Hipócrates — médico grego dos séculos V–IV a.C.; o nome também designa tradicionalmente o corpus hipocrático." },
+        { key: "Apiano", type: "biblio", text: "Apiano de Alexandria — historiador grego do século II d.C., autor de uma História Romana." },
+        { key: "Antologia Palatina", type: "biblio", text: "Antologia Palatina — coleção de epigramas gregos preservada sobretudo pelo manuscrito Palatinus gr. 23." },
+        { key: "Calímaco", type: "biblio", text: "Calímaco de Cirene — poeta e erudito helenístico dos séculos IV–III a.C., ligado à Biblioteca de Alexandria." }
+    );
+    const entries = [
+        [1181,"αἰχμαλωσία, ας (ἡ)","1 cativeiro de guerra; cativeiro 2 grupo de cativos de guerra. 〈αἰχμάλωτος〉","cativeiro; grupo de cativos"],
+        [1182,"αἰχμαλωτεύω","bíbl. = αἰχμαλωτίζω.","forma bíblica de αἰχμαλωτίζω"],
+        [1183,"αἰχμαλωτίζω","1 tornar prisioneiro de guerra 2 escravizar; subjugar: ἕτερον νόμον αἰχμαλωτίζοντά με ἐν τῷ νόμῳ τῆς ἁμαρτίας Novo Testamento outra lei que me torna escravo da lei do pecado 3 cativar; seduzir: οἱ αἰχμαλωτίζοντες γυναικάρια σεσωρευμένα ἁμαρτίας Novo Testamento os que seduzem mulherzinhas sobrecarregadas de pecados. 〈αἰχμάλωτος〉","prender; escravizar; cativar"],
+        [1184,"αἰχμαλωτίς, ίδος","(fem.) prisioneira de guerra; cativa. 〈αἰχμάλωτος〉","prisioneira de guerra"],
+        [1185,"αἰχμάλωτος, ος, ον","1 apreendido na guerra: αἰχμάλωτα χρήματα bens apresados na guerra 2 de prisioneiro de guerra: αἰχ. δουλοσύνη servidão reservada aos prisioneiros, αἰχ. εὐνά leito reservado à mulher prisioneira ♦ οἱ αἰχμάλωτοι 3 prisioneiros de guerra; cativos ♦ τὰ αἰχμάλωτα 4 despojos de guerra. 〈αἰχμή, ἁλίσκομαι〉","prisioneiro de guerra; despojos"],
+        [1186,"αἰχμή, ῆς (ἡ)","1 ponta; ponta da lança 2 arma em geral; lança; dardo 3 guerra; luta 4 poder apoiado em força militar; dominação; autoridade 5 espírito belicoso.","ponta; lança; guerra; poder militar"],
+        [1187,"αἰχμήεις, ήεσσα, ῆεν","armado de lança; belicoso. 〈αἰχμή〉","armado de lança; belicoso"],
+        [1188,"αἰχμητά (ὁ)","αἰχμητής.","αἰχμητής"],
+        [1189,"αἰχμητής, οῦ (ὁ)","1 combatente armado de lança; guerreiro ♦ adj. 2 belicoso; terrível 3 pontiagudo. 〈αἰχμή〉","lanceiro; guerreiro; belicoso; pontiagudo"],
+        [1190,"αἰχμοφόρος, ου (ὁ)","portador de lança; guarda-costas armado de lança. 〈αἰχμή, φέρω〉","portador de lança; guarda-costas"],
+        [1191,"αἷψα","adv. imediatamente; rapidamente; prontamente.","imediatamente; rapidamente"],
+        [1192,"αἰψηρός, ά, όν","pronto; rápido. 〈αἷψα〉","pronto; rápido"],
+        [1193,"ἀΐω1","(só pres. e impf.) 1 perceber pela audição, ouvir algo, ac., ou alguém, gen. 2 perceber pelos olhos; ver; notar 3 escutar; dar ouvidos a; obedecer a, gen.","ouvir; ver; perceber; obedecer"],
+        [1194,"ἀΐω2","(só impf. ἄϊον) exalar: φίλον ἄϊον ἦτορ Homero meu espírito exalava.","exalar"],
+        [1195,"ἀϊών1, όνος","e ἀΐων, ονος (ἡ) dór. = ἠΐων.","forma dórica de ἠΐων"],
+        [1196,"αἰών2, ῶνος (ὁ,","poét. ἡ) 1 tempo; duração da vida; vida 2 força vital; alma 3 idade; geração; época: ὁ μέλλων αἰών o tempo futuro, a posteridade, ὁ αἰὼν ἐρχόμενος o tempo vindouro, ὁ αἰὼν οὗτος o tempo presente 4 tempo indefinido; século; eternidade.","tempo; vida; época; eternidade"],
+        [1197,"αἰώνιος, ος, ον","durável; perpétuo; eterno. 〈αἰών2〉","eterno; perpétuo"],
+        [1198,"αἰώρα, ας (ἡ)","1 aparelho para balançar; rede 2 ação de suspender-se, de balançar; oscilação; balanço. 〈ἀείρω〉","rede; suspensão; balanço"],
+        [1199,"αἰωρέω-ῶ","(fut. αἰωρήσω, aor. ᾐώρησα, perf. desus.; pas. aor. ᾐωρήθην, perf. ᾐώρημαι) 1 manter suspenso no ar; balançar: ὄφεις θλίβων καὶ ὑπὲρ τῆς κεφαλῆς αἰωρῶν Demóstenes segurando firme as serpentes e mantendo-as suspensas acima da cabeça, αἰ. γυναῖκα ἐπὶ κλίνης φερομένην Hipócrates balançar uma mulher enquanto é transportada em seu leito 2 pendurar 3 animar; excitar: ᾐώρει δὲ αὐτοὺς ἡ εὐπραξία καὶ ἐλπίς Apiano o sucesso e a esperança os exaltavam ♦ pas. 4 balançar-se; oscilar; flutuar: αἰωρεῖται δὴ ἄνω καὶ κάτω Platão [a água] oscila para cima e para baixo, νῆες αἰωρούμεναι πρὸ λιμένος Platão naus que flutuam diante do porto 5 estar pendurado: αἰγὸς δέρματα περὶ τοὺς ὤμους αἰωρεύμενα Heródoto peles de cabra suspensas de seus ombros 6 ser elevado moralmente; ser arrebatado: αἰωρεῖσθαι τὴν ψυχήν Xenofonte ter a alma arrebatada 7 estar em suspenso; balançar; hesitar: αἰ. ἐν κινδύνῳ Tucídides estar à beira do perigo 8 estar suspenso; ameaçar: ἡ δίκη αἰωρουμένη ὑπὲρ κεφαλῆς Plutarco o castigo suspenso sobre sua cabeça 9 estar suspenso a; depender de: αἰωρεῖσθαι ἔν τινι Platão depender de alguém. 〈αἰώρα〉","suspender; balançar; excitar; flutuar; hesitar"],
+        [1200,"Ἀκαδημαϊκός, ή, όν","da Academia; platônico. 〈Ἀκαδήμεια〉","acadêmico; platônico"],
+        [1201,"Ἀκαδήμεια","e Ἀκαδημία, ας (ἡ) 1 Academia, ginásio de Atenas 2 Academia, escola filosófica platônica.","Academia de Atenas; escola platônica"],
+        [1202,"ἀκαθαρσία, ας (ἡ)","1 sujeira; imundícia 2 impureza; nódoa 3 corrupção; depravação. 〈ἀ-, κάθαρτος〉","sujeira; impureza; corrupção"],
+        [1203,"ἀκάθαρτος, ος, ον","1 impuro; maculado; não purificado 2 bíbl. sem relação com Deus 3 impróprio para purificar. 〈ἀ-, καθαίρω〉","impuro; não purificado"],
+        [1204,"ἀκαιρέω-ῶ","1 não ter tempo ou oportunidade ♦ méd. 2 bíbl. não ter oportunidade. 〈ἄκαιρος〉","não ter tempo ou oportunidade"],
+        [1205,"ἀκαιρία, ας (ἡ)","1 falta de tato; inconveniência 2 carência de tempo; contratempo; estação desfavorável 3 falta de medida (em discurso). 〈ἄκαιρος〉","inconveniência; contratempo; falta de medida"],
+        [1206,"ἄκαιρος, ος, ον","1 inoportuno; fora de época 2 importuno; inconveniente 3 impróprio para algo, inf. ♦ ἄκαιρα adv. 4 inoportunamente. 〈ἀ-, καιρός〉","inoportuno; inconveniente"],
+        [1207,"ἀκαίρως","adv. a contratempo; fora de época; inoportunamente.","inoportunamente"],
+        [1208,"ἀκάκας","dór. = ἄκακος.","forma dórica de ἄκακος"],
+        [1209,"ἀκάκητα","nom. ép. (ὁ) aquele que não faz o mal; benéfico, epít. de Hermes e de Prometeu. 〈ἄκακος〉","benéfico; epíteto de Hermes e Prometeu"],
+        [1210,"ἀκακία, ας (ἡ)","ausência de maldade; inocência; pureza. 〈ἄκακος〉","inocência; pureza"],
+        [1211,"ἄκακος, ος, ον","isento de maldade; ingênuo. 〈ἀ-, κακός〉","inocente; ingênuo"],
+        [1212,"ἀκαλαρρείτης","só gen. ép. ἀκαλαρρείταο (masc.) que corre com tranqüilidade; de suave fluxo. 〈ἀκαλός, ῥέω〉","de suave fluxo"],
+        [1213,"ἀκαλάρροος, ος, ον","ἀκαλαρρείτης.","ἀκαλαρρείτης"],
+        [1214,"ἀκαλλής, ής, ές","sem beleza; sem encanto. 〈ἀ-, κάλλος〉","sem beleza; sem encanto"],
+        [1215,"ἀκαλλιέρητος, ος, ον","não aceito pelos deuses; de mau augúrio. 〈ἀ-, καλλιερέω〉","de mau augúrio"],
+        [1216,"ἀκαλλώπιστος, ος, ον","não ornado; sem adorno. 〈ἀ-, καλλωπίζω〉","sem adorno"],
+        [1217,"ἀκαλός, ή, όν","tranqüilo; silencioso.","tranquilo; silencioso"],
+        [1218,"ἀκάλυπτος, ος, ον","não velado; a descoberto. 〈ἀ-, καλύπτω〉","descoberto; não velado"],
+        [1219,"ἀκαλυφής, ής, ές","ἀκάλυπτος.","ἀκάλυπτος"],
+        [1220,"ἀκάμας, αντος","(masc., fem.) 1 infatigável 2 rar. incessante. 〈ἀ-, κάμνω〉","infatigável; incessante"],
+        [1221,"ἀκάματος, ος","e η, ον 1 infatigável 2 que não causa fadiga ♦ ἀκάματα adv. 3 infatigavelmente.","infatigável; que não causa fadiga"],
+        [1222,"ἄκαμπτος, ος, ον","1 que não se curva; firme; inflexível 2 não dobrado; não curvado; rígido 3 que permanece firme; resistente a, πρός e ac. 〈ἀ-, κάμπτω〉","firme; inflexível; resistente"],
+        [1223,"ἄκανθα, ης (ἡ)","1 acanto; espinho 2 cardo 3 espinho do porco-espinho; língua da serpente 4 espinha de peixe; espinha dorsal 5 coisa espinhosa; dificuldade.","acanto; espinho; espinha"],
+        [1224,"ἀκανθίας, ου (ὁ)","1 espécie de tubarão 2 espécie de cigarra.","tubarão; cigarra"],
+        [1225,"ἀκάνθινος, η, ον","1 cheio de espinhos 2 de espinho; feito de espinho 3 feito com madeira de acácia ou com casca de cardo. 〈ἄκανθα〉","espinhoso; feito de espinho"],
+        [1226,"ἀκανθώδης, ης, ες","1 que tem ou produz espinhos; armado de espinhos 2 espinhoso. 〈ἄκανθα〉","espinhoso"],
+        [1227,"ἄκαπνος, ος, ον","1 que não faz fumaça; sem fumaça: ἄ. θύος Antologia Palatina incenso sem fumaça, ἄκαπνα θύειν Calímaco sacrificar para si sem fumaça, i. e., viver a expensas de outrem 2 onde não há fumaça; não esfumaçado. 〈ἀ-, καπνός〉","sem fumaça; não esfumaçado"],
+        [1228,"ἀκάρδιος, ος, ον","1 sem coração 2 bíbl. sem razão; sem discernimento; leviano 3 sem cerne (madeira). 〈ἀ-, καρδία〉","sem coração; sem discernimento"],
+        [1229,"ἀκαρής, ής, ές","1 que não se pode cortar ou aparar; muito pequeno ou muito curto: ἀκαρῆ [χρόνον] por um instante, οὐδ’ ἀκαρῆ nem um instante, de modo nenhum, παρ’ ἀκαρῆ quase nada, ἐν ἀκαρεῖ [χρόνῳ] em um momento muito curto. 〈ἀ-, κείρω〉","muito pequeno; por um instante"],
+        [1230,"Ἀκαρνάν, ᾶνος (ὁ)","1 Acárnan, ancestral dos acarnânios ♦ adj. 2 acarnânio.","Acárnan; acarnânio"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 52 — registros 1231–1280
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1231,"Ἀκαρνανία, ας (ἡ)","Acarnânia, região da Grécia.","Acarnânia"],
+        [1232,"Ἀκαρνανικός, ή, όν","da Acarnânia.","da Acarnânia"],
+        [1233,"ἀκαρπία, ας (ἡ)","improdutividade; esterilidade. 〈ἄκαρπος〉","esterilidade"],
+        [1234,"ἄκαρπος, ος, ον","1 sem fruto; estéril; infértil 2 infrutífero; sem proveito 3 rar. que torna estéril. 〈ἀ-, καρπός〉","estéril; infrutífero"],
+        [1235,"ἀκάρπως","adv. sem fruto; de modo estéril.","sem fruto; esterilmente"],
+        [1236,"ἀκάρπωτος, ος, ον","que não produz frutos; estéril; inculto. 〈ἀ-, καρπόω〉","estéril; inculto"],
+        [1237,"ἀκαρτέρητος, ος, ον","insuportável. 〈ἀ-, καρτερέω〉","insuportável"],
+        [1238,"ἀκασκᾶ","e ἄκασκα adv. sem ruído; suavemente.","sem ruído; suavemente"],
+        [1239,"ἀκασκαῖος, α, ον","calmo; tranqüilo. 〈ἀκασκᾶ〉","calmo; tranquilo"],
+        [1240,"ἀκατάβλητος, ος, ον","que não se pode abater ou vencer. 〈ἀ-, καταβάλλω〉","invencível"],
+        [1241,"ἀκατάγγελτος, ος, ον","não declarado (guerra). 〈ἀ-, καταγγέλλω〉","não declarado"],
+        [1242,"ἀκατάγνωστος, ος, ον","1 não condenado 2 bíbl. não condenável; inocente, irrepreensível. 〈ἀ-, καταγιγνώσκω〉","não condenado; irrepreensível"],
+        [1243,"ἀκατακάλυπτος, ος, ον","não velado; não coberto. 〈ἀ-, κατακαλύπτω〉","não velado; não coberto"],
+        [1244,"ἀκατακόσμητος, ος, ον","não organizado; não disposto em ordem. 〈ἀ-, κατακοσμέω〉","desorganizado"],
+        [1245,"ἀκατάκριτος, ος, ον","bíbl. não submetido a julgamento legal; não julgado por processo formal; não condenado. 〈ἀ-, κατακρίνω〉","não julgado; não condenado"],
+        [1246,"ἀκατάληπτος, ος, ον","1 que não se pode tomar ou tocar 2 inexpugnável; invencível 3 incompreensível. 〈ἀ-, καταλαμβάνω〉","inapreensível; invencível; incompreensível"],
+        [1247,"ἀκατάλυτος, ος, ον","indestrutível; indissolúvel; perpétuo. 〈ἀ-, καταλύω〉","indestrutível; indissolúvel; perpétuo"],
+        [1248,"ἀκατάπαυστος, ος, ον","1 incessante; interminável 2 que não se pode parar; irresistível. 〈ἀ-, καταπαύω〉","incessante; irresistível"],
+        [1249,"ἀκατάσκευος, ος, ον","não equipado; sem arte; despojado. 〈ἀ-, κατασκευή〉","não equipado; despojado"],
+        [1250,"ἀκαταστασία, ας (ἡ)","1 mobilidade de caráter; instabilidade; inconstância 2 agitação; tumulto 3 insurreição; revolução. 〈ἀκατάστατος〉","instabilidade; tumulto; revolução"],
+        [1251,"ἀκατάστατος, ος, ον","1 instável; agitado; desordenado 2 que não deixa sedimento 3 bíbl. incontrolável; indomável. 〈ἀ-, καθίστημι〉","instável; desordenado; indomável"],
+        [1252,"ἀκαταστάτως","adv. com ἔχειν estar sem repouso.","sem repouso"],
+        [1253,"ἀκατάσχετος, ος, ον","incontrolável; irreprimível; irrefreável. 〈ἀ-, κατέχω〉","irrefreável"],
+        [1254,"ἀκατασχέτως","adv. de modo incontrolável.","incontrolavelmente"],
+        [1255,"ἀκατάψευστος, ος, ον","não imaginário; não fabuloso. 〈ἀ-, καταψεύδομαι〉","não fabuloso"],
+        [1256,"ἀκάτειος, ος, ον","1 de barco ♦ τὸ ἀκάτειον 2 pequena vela de embarcação. 〈ἄκατος〉","de barco; pequena vela"],
+        [1257,"ἀκάτιον, ου (τό)","1 barco ligeiro; barco de pesca 2 espécie de sapato feminino 3 vela auxiliar de embarcação. 〈ἄκατος〉","barco ligeiro; sapato; vela auxiliar"],
+        [1258,"ἀκατονόμαστος, ος, ον","inominável. 〈ἀ-, κατονομάζω〉","inominável"],
+        [1259,"ἄκατος, ου (ἡ","e ὁ) 1 barco ligeiro; barca 2 vasilha em forma de barca.","barco ligeiro; vasilha"],
+        [1260,"ἄκαυστος, ος, ον","1 não queimado 2 não inflamável 3 que não cessa de queimar. 〈ἀ-, καίω〉","não queimado; não inflamável; inextinguível"],
+        [1261,"ἀκαχείατο, ἀκάχημαι, ἀκάχησα, ἀκαχήσω","cf. ἄχω.","cf. ἄχω"],
+        [1262,"ἀκαχίζω","(só pres.) 1 afligir; magoar ♦ méd. 2 sentir dor; sentir aflição; estar atormentado.","afligir; sentir dor"],
+        [1263,"ἀκαχμένος, ος, ον","1 aguçado; pontiagudo 2 armado de, dat. 〈ἀκή〉","pontiagudo; armado de"],
+        [1264,"ἀκαχοίμην, ἀκαχόμην, ἀκαχών","cf. ἄχω.","cf. ἄχω"],
+        [1265,"ἀκειόμενος","part. pres. ép. de ἀκέω.","particípio presente épico de ἀκέω"],
+        [1266,"ἀκείρατος, ος, ον","não cortado. 〈ἀ-, κείρω〉","não cortado"],
+        [1267,"ἀκέλευστος, ος, ον","que não recebeu ordens; que age espontaneamente; voluntário. 〈ἀ-, κελεύω〉","voluntário; espontâneo"],
+        [1268,"ἀκέντητος, ος, ον","1 que não precisa ser estimulado; não aguilhoado 2 não mosqueado. 〈ἀ-, κεντέω〉","não aguilhoado; não mosqueado"],
+        [1269,"ἀκέο","2ª sing. pres. imper. méd. jôn. de ἀκέω1.","imperativo médio jônico de ἀκέω1"],
+        [1270,"ἀκέομαι","cf. ἀκέω1.","cf. ἀκέω1"],
+        [1271,"ἀκέοντο","3ª pl. impf. méd. ép. de ἀκέω1.","imperfeito médio épico de ἀκέω1"],
+        [1272,"ἀκέραιος, ος, ον","1 não misturado; puro (líquido) 2 incólume; intacto; não maculado por algo, gen.; ἐξ ἀκεραίου de novo ou numa situação diferente 3 íntegro; incorruptível; sincero (pessoa) 4 bíbl. simples; inocente; ingênuo. 〈ἀ-, κεράννυμι〉","puro; intacto; sincero; inocente"],
+        [1273,"ἀκερδής, ής, ές","1 sem proveito; não vantajoso; funesto 2 não ávido de ganho; desinteressado. 〈ἀ-, κέρδος〉","sem proveito; desinteressado"],
+        [1274,"ἀκερδῶς","adv. sem proveito; desinteressadamente.","sem proveito; desinteressadamente"],
+        [1275,"ἀκερσεκόμης, ου","(masc.) de cabelo não aparado; de cabelos longos, i.e., em plena juventude. 〈ἀ-, κείρω, κόμη〉","de cabelos longos; jovem"],
+        [1276,"ἀκέσιμος, ος, ον","próprio para curar; salutar. 〈ἀκέομαι〉","salutar; curativo"],
+        [1277,"ἄκεσις, εως (ἡ)","1 cura 2 emplastro. 〈ἀκέομαι〉","cura; emplastro"],
+        [1278,"ἄκεσμα, ατος (τό)","remédio. 〈ἀκέομαι〉","remédio"],
+        [1279,"ἄκεσσαι, ἀκέσσαιο","2ª sing. imper. e opt. aor. méd. poét. de ἀκέω.","imperativo e optativo aoristo médio poético de ἀκέω"],
+        [1280,"ἀκεστήρ, ῆρος","(masc.) que cura; que acalma. 〈ἀκέομαι〉","curador; apaziguador"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 53 — registros 1281–1330
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1281,"ἀκεστικός, ή, όν","1 próprio para curar ou remediar ♦ ἡ ἀκεστική [τέχνη] 2 o ofício de remendão. 〈ἀκέομαι〉","curativo; arte de remendão"],
+        [1282,"ἀκεστός, ή, όν","curável. 〈ἀκέομαι〉","curável"],
+        [1283,"ἀκέστρα, ας (ἡ)","agulha para remendar. 〈ἀκέομαι〉","agulha de remendar"],
+        [1284,"ἀκέστρια, ας (ἡ)","costureira; remendeira. 〈ἀκέομαι〉","costureira; remendeira"],
+        [1285,"ἀκέφαλος, ος, ον","1 sem cabeça 2 sem começo, incompleto 3 Métr. acéfalo, verso com o primeiro pé incompleto 4 privado dos direitos civis; rebaixado. 〈ἀ-, κεφαλή〉","sem cabeça; incompleto; acéfalo"],
+        [1286,"ἀκέω1","freq. ἀκέομαι-οῦμαι (fut. ἀκέσομαι, át. ἀκοῦμαι, aor. ἠκεσάμην, perf. ἤκεσμαι e ἀκήκεσμαι) 1 cuidar de; curar, ac. 2 consertar 3 reparar (um dano); socorrer.","curar; reparar; socorrer"],
+        [1287,"ἀκέω2","estar em silêncio; ficar silencioso; ἀκέων silenciosamente; em silêncio.","ficar em silêncio"],
+        [1288,"ἀκήδεστος, ος, ον","1 negligenciado 2 sem as honras da sepultura; insepulto. 〈ἀ-, κήδομαι〉","negligenciado; insepulto"],
+        [1289,"ἀκηδέστως","adv. sem cuidado; sem piedade.","sem cuidado; sem piedade"],
+        [1290,"ἀκήδευτος, ος, ον","insepulto. 〈ἀ-, κηδεύω〉","insepulto"],
+        [1291,"ἀκηδέω-ῶ","negligenciar; não cuidar de, gen. 〈ἀκηδής〉","negligenciar"],
+        [1292,"ἀκηδής, ής, ές","1 sem preocupação ou temor; negligente; que não cuida de, gen. 2 negligenciado 3 privado de sepultura. 〈ἀ-, κῆδος〉","negligente; insepulto"],
+        [1293,"ἀκήκοα","cf. ἀκούω.","cf. ἀκούω"],
+        [1294,"ἀκηκόειν","m.-q.-perf. jôn. de ἀκούω.","mais-que-perfeito jônico de ἀκούω"],
+        [1295,"ἀκήλητος, ος, ον","1 que não se deixa seduzir ou convencer 2 que não se consegue encantar; intratável. 〈ἀ-, κηλέω〉","não seduzível; intratável"],
+        [1296,"ἄκημα, ατος (τό)","cura; alívio. 〈ἀκέομαι〉","cura; alívio"],
+        [1297,"ἀκήν","adv. tranqüilamente; em silêncio.","em silêncio"],
+        [1298,"ἀκηράσιος, ος, ον","1 intacto; fresco, em pleno vigor 2 pu­ro; sem mistura. 〈ἀ-, κεράννυμι〉","intacto; puro"],
+        [1299,"ἀκήρατος, ος, ον","ἀκηράσιος.","ἀκηράσιος"],
+        [1300,"ἀκήριος, ος, ον1","1 imortal; indestrutível; intacto 2 que não causa a morte; inofensivo. 〈ἀ-, κήρ〉","imortal; inofensivo"],
+        [1301,"ἀκήριος, ος, ον2","1 sem vida; morto 2 desanimado; sem coragem; covarde. 〈ἀ-, κῆρ〉","sem vida; covarde"],
+        [1302,"ἀκηρυκτεί","e ἀκηρυκτί adv. sem a proclamação do arauto; sem proclamação. 〈ἀκήρυκτος〉","sem proclamação"],
+        [1303,"ἀκήρυκτος, ος, ον","1 não proclamado pelo arauto; não declarado 2 desconhecido; sem glória (pessoa) 3 rar. de que não se tem notícias 4 implacável (sentimento). 〈ἀ-, κηρύσσω〉","não proclamado; desconhecido; implacável"],
+        [1304,"ἀκηρύκτως","adv. sem arauto; sem proclamação.","sem proclamação"],
+        [1305,"ἀκηχέδαται, ἀκηχεμένος","cf. ἄχω.","cf. ἄχω"],
+        [1306,"ἀκίβδηλος, ος, ον","1 leal; honesto 2 não falsificado; genuíno. 〈ἀ-, κίβδηλος〉","honesto; genuíno"],
+        [1307,"ἀκιβδήλως","adv. sem falsificação.","sem falsificação"],
+        [1308,"ἀκιδνός, ή, όν","1 fraco; mesquinho 2 insípido.","fraco; mesquinho; insípido"],
+        [1309,"ἀκίθαρις, ις, ι","gen. ιος sem cítara. 〈ἀ-, κιθάρα〉","sem cítara"],
+        [1310,"ἄκικυς, υος","(masc., fem.) 1 sem força 2 que tira a força; enfraquecedor. 〈ἀ-, κίκυς〉","sem força; enfraquecedor"],
+        [1311,"ἀκινάκης, ου (ὁ)","punhal persa. [persa]","punhal persa"],
+        [1312,"ἀκίνδυνος, ος, ον","1 que não corre perigo; seguro 2 que não expõe a risco; garantido. 〈ἀ-, κίνδυνος〉","seguro; sem perigo"],
+        [1313,"ἀκινδύνως","adv. sem perigo.","sem perigo"],
+        [1314,"ἀκινησία, ας (ἡ)","1 ausência de movimento; imobilidade 2 pausa; parada. 〈ἀκίνητος〉","imobilidade; pausa"],
+        [1315,"ἀκίνητος, ος, ον","1 que não se move; inativo; preguiçoso 2 que não é movido por outrem; que não é removido ou transformado; estável 3 que não pode ser movido ou comovido; firme; obstinado 4 que não deve ser removido, tocado ou mencionado; inviolável. 〈ἀ-, κινέω〉","imóvel; estável; inviolável"],
+        [1316,"ἀκινήτως","adv. sem movimento ou sem emoção; imutavelmente; obstinadamente.","sem movimento; imutavelmente; obstinadamente"],
+        [1317,"ἀκίς, ίδος (ἡ)","1 ponta 2 lança; dardo; agulha; espinho; arpão; esporão de navios 3 aguilhão (de sentimento) 4 pl. sofrimentos atrozes; pontadas.","ponta; lança; agulha; espinho"],
+        [1318,"ἀκίχητος, ος, ον","1 que não se pode alcançar; inapreensível; inacessível 2 inexorável. 〈ἀ-, κιχάνω〉","inapreensível; inexorável"],
+        [1319,"ἀκκώ, οῦς (ἡ)","mulher velha de cara feia, espécie de bicho-papão; cuca.","velha feia; bicho-papão"],
+        [1320,"ἄκλαυστος, ος, ον","ἄκλαυτος.","ἄκλαυτος"],
+        [1321,"ἄκλαυτος, ος, ον","1 privado de lamento fúnebre; não chorado 2 que não chora; sem lágrimas. 〈ἀ-, κλαίω〉","não chorado; sem lágrimas"],
+        [1322,"ἀκλεής, ής, ές","1 sem fama; desconhecido; inglório 2 ignominioso. 〈ἀ-, κλέος〉","inglório; ignominioso"],
+        [1323,"ἄκλειστος, ος, ον","não fechado. 〈ἀ-, κλείω〉","não fechado"],
+        [1324,"ἀκλειῶς","ép. = ἀκλεῶς.","forma épica de ἀκλεῶς"],
+        [1325,"ἀκλεῶς","adv. sem glória.","sem glória"],
+        [1326,"ἀκληεῖς","nom. pl. de ἀκλεής.","nominativo plural de ἀκλεής"],
+        [1327,"ἄκληρος, ος, ον","1 que não participa da partilha da herança; pobre 2 não partilhado; sem dono; sem herdeiro. 〈ἀ-, κλῆρος〉","sem herança; pobre; sem dono"],
+        [1328,"ἀκλήρωτος, ος, ον","1 não contemplado na partilha; sem a sua parte de, gen. 2 sem partilha por sorteio. 〈ἀ-, κληρόω〉","sem parte; sem sorteio"],
+        [1329,"ἄκλῃστος","át. = ἄκλειστος.","forma ática de ἄκλειστος"],
+        [1330,"ἄκλητος, ος, ον","não chamado. 〈ἀ-, καλέω〉","não chamado"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 54 — registros 1331–1380
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    if (!source.bibliographicTerms.some((term) => term.key === "cop.")) {
+        source.bibliographicTerms.push({ key: "cop.", type: "abbr", text: "copulativo (alfa copulativo)" });
+    }
+
+    const entries = [
+        [1331,"ἀκλινής, ής, ές","que não pende de nenhum lado; sem inclinação; estável; firme. 〈ἀ-, κλίνω〉","estável; firme"],
+        [1332,"ἄκλυστος, ος, ον","não atingido pelas ondas. 〈ἀ-, κλύζω〉","não atingido pelas ondas"],
+        [1333,"ἄκλυτος, ος, ον","1 não ouvido 2 sem rumor; calmo. 〈ἀ-, κλύω〉","não ouvido; calmo"],
+        [1334,"ἀκμά, ᾶς (ἡ)","dór. = ἀκμή.","forma dórica de ἀκμή"],
+        [1335,"ἀκμάζω","(impf. ἤκμαζον) 1 estar com todo o vigor; estar em pleno desenvolvimento; estar no auge 2 desabrochar; florescer; ter a plenitude da força graças a, dat. 3 ter toda a força para, inf.; impes. ἀκμάζει é o momento certo de, é tempo de, inf. 4 (fruto) estar no ponto; estar maduro. 〈ἀκμή〉","florescer; estar no auge"],
+        [1336,"ἀκμαῖος, α, ον","1 que está no auge, na plenitude; florescente; vigoroso 2 no mais alto ponto para, πρός e ac. ♦ ἀκμαῖα adv. 3 no momento apropriado; na ocasião oportuna ♦ τὸ ἀκμαιότατον 4 o ponto mais alto: ἀ. τῆς ἠμέρας o ponto mais alto do dia, i.e., o meio-dia. 〈ἀκμή〉","vigoroso; momento oportuno"],
+        [1337,"ἀκμή, ῆς (ἡ)","1 ponta; extremidade 2 o ponto mais alto; ponto culminante; a melhor fase 3 ápice; apogeu, gen. 4 o melhor momento; momento oportuno para, gen., inf. ♦ ἀκμήν adv. 5 bíbl. ainda; até agora.","ápice; auge; ocasião oportuna"],
+        [1338,"ἀκμηνός, ή, όν","que está com toda a sua força; totalmente desenvolvido; maduro. 〈ἀκμή〉","plenamente desenvolvido; maduro"],
+        [1339,"ἄκμηνος, ος, ον","em jejum de algo, gen.","em jejum"],
+        [1340,"ἀκμής, ῆτος","(masc., fem. e n.) não fatigado; bem disposto. 〈ἀ-, κάμνω〉","não fatigado; bem disposto"],
+        [1341,"ἀκμόθετον, ου (τό)","banca da bigorna. 〈ἄκμων, τίθημι〉","banca da bigorna"],
+        [1342,"ἀκμόνιον, ου (τό)","pequena bigorna. 〈ἄκμων〉","pequena bigorna"],
+        [1343,"ἄκμων, ονος (ὁ)","1 bigorna 2 baluarte.","bigorna; baluarte"],
+        [1344,"ἄκνηστις, ιος (ἡ)","1 espinha dorsal 2 urtiga.","espinha dorsal; urtiga"],
+        [1345,"ἄκνισος, ος, ον","1 sem cheiro de gordura; sem sacrifício 2 sem gordura; magro; frugal (comida). 〈ἀ-, κνῖσα〉","sem gordura; frugal"],
+        [1346,"ἀκοή, ῆς (ἡ)","1 audição (sentido): ἀκοὴν ἢ ὄψιν κτᾶσθαι Platão adquirir a faculdade de ouvir ou de ver 2 ouvido: μολεῖσθαι εἰς ἀκοάν Ésquilo haver de chegar aos ouvidos 3 atenção; obediência: ὀξεῖαν ἀκοὴν τοῖς ἐμοῖς λόγοις διδούς Sófocles concedendo às minhas palavras uma viva atenção; ἀκοῇ ἀκούσετε Novo Testamento ouvireis com atenção 4 som; rumor; notícia; reputação; tradição; relato: ἕκαθεν γίγνετ’ ἀκουή Homero de longe vinha um som, ἔβη μετὰ πατρὸς ἀκουήν Homero foi buscar notícias do pai, ἀκοὰν ἁδεῖαν κλύειν Píndaro ouvir relatos agradáveis, ouvir com agrado elogios a si próprio, ter boa fama, ἀκοῆς κρείσσων Tucídides superior à sua reputação, σκοτειναὶ ἀκοαί Platão tradições obscuras 5 bíbl. pregação: Κύριε, τίς ἐπίστευσεν τῇ ἀκοῇ ἡμῶν; Novo Testamento Senhor, quem deu crédito à nossa pregação? 6 pl. aparelho auditivo; ouvido: περιβρομέεσκον ἀκουαί a.r. seus ouvidos zumbiam.","audição; ouvido; notícia; pregação"],
+        [1347,"ἀκοίμητος, ος, ον","1 que não dorme; insone 2 que não descansa; contínuo 3 sempre desperto; vigilante. 〈ἀ-, κοιμάω〉","insone; vigilante"],
+        [1348,"ἀκοινώνητος, ος, ον","1 não colocado em comum; não partilhado com alguém, gen. 2 que não tem sua parte de, gen. ou dat. 3 que não se comunica; insociável 4 que não pode ser comunicado. 〈ἀ-, κοινωνέω〉","não partilhado; insociável"],
+        [1349,"ἀκοίτης, ου (ὁ)","esposo. 〈ἀ- cop., κοίτη〉","esposo"],
+        [1350,"ἄκοιτις, ιος (ἡ)","1 esposa 2 rar. concubina. 〈ἀ- cop., κοίτη〉","esposa; concubina"],
+        [1351,"ἀκολάκευτος, ος, ον","1 que não é lisonjeado; inacessível à lisonja 2 rar. que não lisonjeia. 〈ἀ-, κολακεύω〉","não lisonjeado; não bajulador"],
+        [1352,"ἀκολασία, ας (ἡ)","falta de repressão; licenciosidade; intemperança. 〈ἀ-, κολάζω〉","licenciosidade; intemperança"],
+        [1353,"ἀκολασταίνω","(só pres., impf. ἠκολάσταινον e fut. ἀκο­λαστανῶ) entregar-se à intemperança. 〈ἀκόλαστος〉","entregar-se à intemperança"],
+        [1354,"ἀκολάστημα, ατος (τό)","ato licencioso; intemperança. 〈ἀκολασταίνω〉","ato licencioso; intemperança"],
+        [1355,"ἀκόλαστος, ος, ον","1 indisciplinado 2 intemperante; licencioso. 〈ἀ-, κολάζω〉","indisciplinado; intemperante"],
+        [1356,"ἀκολάστως","adv. indisciplinadamente; ἀ. ἔχειν ser intemperante.","indisciplinadamente; sem moderação"],
+        [1357,"ἄκολος, ου (ἡ","e ὁ) pedaço de pão; bocado.","pedaço de pão"],
+        [1358,"ἀκολουθέω-ῶ","(fut. ἀκολουθήσω, aor. ἠκολούθησα, perf. desus.) 1 andar com; seguir; acompanhar, dat., μετά e gen., σύν e dat. 2 seguir; obedecer a; conformar-se a, dat.: ἀ. τῷ ἡγουμένῳ obedecer ao chefe, ἀ. τοῖς νόμοις obedecer às leis 3 bíbl. seguir como discípulo; ser discípulo 4 ser conseqüência de; resultar de, dat.: δικαιοσύνῃ ἀκολουθοῦσιν αἱ ἄλλαι ἀρεταί artt. à justiça seguem as outras virtudes; impes. ἀκολουθεῖ segue-se 5 ser análogo ou correspondente a, dat. 〈ἀκόλουθος〉","seguir; acompanhar; obedecer"],
+        [1359,"ἀκολούθησις, εως (ἡ)","1 ação de seguir; acompanhamento; obediência a, dat. 2 conseqüência. 〈ἀκόλουθος〉","acompanhamento; obediência; consequência"],
+        [1360,"ἀκολουθητέον","adj. verb. de ἀκολουθέω.","adjetivo verbal de ἀκολουθέω"],
+        [1361,"ἀκολουθητικός, ή, όν","disposto a seguir, a obedecer de bom grado a, dat. 〈ἀκόλουθος〉","disposto a seguir e obedecer"],
+        [1362,"ἀκολουθία, ας (ἡ)","1 comitiva; acompanhamento 2 con- formidade; obediência 3 sucessão; seqüência. 〈ἀκό- λουθος〉","comitiva; obediência; sequência"],
+        [1363,"ἀκόλουθος, ος, ον","1 que segue; que acompanha; seguidor de, dat. ou gen. 2 que age ou está em conformidade com, dat. ou gen. 3 resultante de; conseqüente de, dat. ou gen. ♦ ὁ, ἡ ἀκόλουθος 4 acompanhante; servidor; οἱ ἀκόλουθοι o séquito ♦ τὸ ἀκόλουθον 5 conseqüência; resultado. 〈ἀ- cop., κέλευθος〉","seguidor; acompanhante; consequente"],
+        [1364,"ἄκολπος, ος, ον","sem entranhas; sem aparelho genital. 〈ἀ-, κόλπος〉","sem entranhas; sem aparelho genital"],
+        [1365,"ἀκόλυμβος, ος, ον","incapaz de nadar. 〈ἀ-, κόλυμβος〉","incapaz de nadar"],
+        [1366,"ἀκομιστία, ας (ἡ)","incúria; negligência. 〈ἀ-, κομίζω〉","negligência; incúria"],
+        [1367,"ἄκομος, ος, ον","sem cabelo; calvo. 〈ἀ-, κόμη〉","sem cabelo; calvo"],
+        [1368,"ἀκόμπαστος, ος, ον","que não se vangloria; modesto. 〈ἀ-, κομπάζω〉","modesto; sem vanglória"],
+        [1369,"ἄκομπος, ος, ον","ἀκόμπαστος.","ἀκόμπαστος"],
+        [1370,"ἄκομψος, ος, ον","não adornado; sem elegância; rude. 〈ἀ-, κομψός〉","rude; deselegante"],
+        [1371,"ἀκόμψως","adv. deselegantemente; de modo rude.","deselegantemente; rudemente"],
+        [1372,"ἀκονάω-ῶ","(fut. ἀκονήσω, aor. ἠκόνησα; perf. pas. ἠκό­νημαι) 1 tornar pontudo; afiar 2 excitar; estimular. 〈ἀκόνη〉","afiar; estimular"],
+        [1373,"ἀκόνδυλος, ος, ον","sem golpes; sem socos. 〈ἀ-, κόνδυλος〉","sem socos; sem golpes"],
+        [1374,"ἀκόνη, ης (ἡ)","1 pedra de amolar 2 pedaço de pedra (de toque, de chumbo, pedra-pomes).","pedra de amolar"],
+        [1375,"ἀκονιτί","adv. sem a poeira da luta; sem luta; sem esforço. 〈ἀ-, κονίω〉","sem luta; sem esforço"],
+        [1376,"ἀκοντί","adv. = ἀκόντως","ἀκόντως"],
+        [1377,"ἀκοντίζω","(impf. ἠκόντιζον, fut. ἀκοντιῶ, aor. ἠκόντισα, perf. desus.) 1 lançar o dardo contra, gen., εἰς e ac., ἐπί e dat. 2 atingir com o dardo 3 lançar; desferir: ἀ. δοῦρα Homero arremessar lanças 4 golpear 5 intr. dardejar, cintilar ♦ méd. 6 penetrar como um dardo. 〈ἄκων1〉","lançar dardo; atingir"],
+        [1378,"ἀκόντιον, ου (τό)","1 dardo 2 exercício com o dardo. 〈ἄκων1〉","dardo; exercício com dardo"],
+        [1379,"ἀκόντισις, εως (ἡ)","lançamento de dardo. 〈ἀκοντίζω〉","lançamento de dardo"],
+        [1380,"ἀκόντισμα, ατος (τό)","1 alcance do dardo 2 dardo lançado; dardo 3 pl. lançadores de dardo. 〈ἀκοντίζω〉","alcance do dardo; dardo; lançadores de dardo"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 55 — registros 1381–1430
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1381,"ἀκοντισμός, οῦ (ὁ)","lançamento de dardo. 〈ἀκοντίζω〉","lançamento de dardo"],
+        [1382,"ἀκοντιστήρ, ῆρος (ὁ)","ἀκοντιστής.","ἀκοντιστής"],
+        [1383,"ἀκοντιστής, οῦ (ὁ)","1 lançador de dardo ♦ adj. 2 que fere como dardo. 〈ἀκοντίζω〉","lançador de dardo"],
+        [1384,"ἀκοντιστικός, ή, όν","1 hábil em lançar o dardo ♦ ἡ ἀκοντιστική, τὰ ἀκοντιστικά 2 a arte de lançar o dardo. 〈ἀκοντίζω〉","hábil em lançar dardo; arte do dardo"],
+        [1385,"ἀκοντιστύς, ύος (ἡ)","luta com dardos. 〈ἀκοντίζω〉","combate com dardos"],
+        [1386,"ἀκόντως","adv. de mau grado; a contragosto.","a contragosto"],
+        [1387,"ἄκοπος, ος, ον","1 que não provoca fadiga; que elimina a fadiga ou a dor 2 não fatigado; infatigável 3 não cortado; não estragado; intacto. 〈ἀ-, κόπτω〉","infatigável; intacto"],
+        [1388,"ἀκόρεστος, ος, ον","1 que não ficou saciado; insaciável de, gen. 2 que não produz saciedade; interminável. 〈ἀ-, κορέννυμι〉","insaciável; interminável"],
+        [1389,"ἀκόρετος, ος, ον","ἀκόρεστος.","ἀκόρεστος"],
+        [1390,"ἀκορής, ής, ές","ἀκόρητος.","ἀκόρητος"],
+        [1391,"ἀκόρητος, ος, ον","insaciável de, gen. 〈ἀ-, κορέννυμι〉","insaciável"],
+        [1392,"ἀκορία, ας (ἡ)","desejo insaciável. 〈ἄκορος〉","desejo insaciável"],
+        [1393,"ἄκορος, ος, ον","insaciável. 〈ἀ-, κόρος〉","insaciável"],
+        [1394,"ἄκος, εος-ους (τό)","remédio contra ou para, gen.; ἄκος οὐδέν de nada serve, inf.","remédio"],
+        [1395,"ἀκοσμέω-ῶ","1 perturbar a ordem; agir de modo vil 2 cometer infração. 〈ἄκοσμος〉","perturbar a ordem; cometer infração"],
+        [1396,"ἀκόσμητος, ος, ον","1 não ordenado; não arranjado 2 não ornado; não enfeitado. 〈ἀ, κοσμέω〉","não ordenado; não ornado"],
+        [1397,"ἀκοσμία, ας (ἡ)","1 desordem; desregramento; confusão 2 falta de ornamento. 〈ἄκοσμος〉","desordem; falta de ornamento"],
+        [1398,"ἄκοσμος, ος, ον","1 desordenado; desregrado; confuso 2 que é feito sem ordem; sem beleza. 〈ἀ-, κόσμος〉","desordenado; confuso"],
+        [1399,"ἀκόσμως","adv. 1 em desordem; perturbadamente 2 sem ornamento.","em desordem; sem ornamento"],
+        [1400,"ἀκοστάω","e ἀκοστέω (só part. aor. ἀκοστήσας Homero) comer cevada; nutrir-se. 〈ἀκοστή〉","comer cevada"],
+        [1401,"ἀκοστή, ῆς (ἡ)","cevada.","cevada"],
+        [1402,"ἀκουάζομαι","1 ouvir alguém, gen. 2 sentir-se convidado a, gen. 3 auscultar. 〈ἀκούω〉","ouvir; auscultar"],
+        [1403,"ἀκουέμεν, ἀκουέμεναι","inf. pres. ép. de ἀκούω.","infinitivo presente épico de ἀκούω"],
+        [1404,"ἀκουή","ép. = ἀκοή.","forma épica de ἀκοή"],
+        [1405,"ἄκουκα","dór. = ἀκήκοα.","forma dórica de ἀκήκοα"],
+        [1406,"ἄκουον","impf. poét. de ἀκούω.","imperfeito poético de ἀκούω"],
+        [1407,"ἄκουρος, ος, ον","sem filhos. 〈ἀ-, κοῦρος〉","sem filhos"],
+        [1408,"ἄκουσα1","fem. de ἄκων2.","feminino de ἄκων2"],
+        [1409,"ἄκουσα2","aor. poét. de ἀκούω.","aoristo poético de ἀκούω"],
+        [1410,"ἀκούσιος, ος, ον","át. 1 contrário à vontade; forçado 2 involuntário. 〈ἀ-, ἑκούσιος〉","involuntário; forçado"],
+        [1411,"ἀκουσίως","adv. 1 involuntariamente 2 a contragosto; contra a vontade de alguém, dat.","involuntariamente; a contragosto"],
+        [1412,"ἄκουσμα, ατος (τό)","1 o que se ouve; som (palavra, música) 2 notícia; relato 3 rumor; boato 4 instrução oral. 〈ἀκούω〉","som; notícia; boato"],
+        [1413,"ἀκουστέος, α, ον","adj. verb. de ἀκούω.","adjetivo verbal de ἀκούω"],
+        [1414,"ἀκουστικός, ή, όν","1 próprio para fazer ouvir 2 próprio para ouvir; disposto a ouvir, gen. ♦ τὸ ἀκουστικόν 3 a faculdade de ouvir. 〈ἀκούω〉","auditivo; faculdade de ouvir"],
+        [1415,"ἀκουστός, ή, όν","audível. 〈ἀκούω〉","audível"],
+        [1416,"ἀκούω","(fut. ἀκούσομαι, aor. ἤκουσα, perf. ἀκήκοα, m.-q.-perf. ἠκηκόειν, át. ἠκηκόη; pas. fut. ἀκουσθήσομαι, aor. ἠκούσθην, perf. ἤκουσμαι, m.-q.-perf. ἠκούσμην) 1 ouvir alguém, gen.; algo, ac. ou gen.; de alguém, gen. ou ἀπό, ἐκ, παρά, πρός e gen. 2 ouvir falar de alguém, gen., περί e gen.; ouvir dizer que, or. conj. (ὡς, ὅτι), inter., inf., part. 3 ouvir com atenção; escutar; atender a, gen. 4 ouvir falar de si; ter reputação de, ac., predic. ou adv., às vezes inf. 1 ἄκουσα θεοῦ Homero ouvi um deus, τὰ βέλτιστ’ ἀκούειν Demóstenes ouvir as melhores opiniões, κωκυτοῦ δ’ ἤκουσε Homero ouviu o urro, οὐδεὶς ἤκουσέ σου ταύτην τὴν φωνήν Demóstenes ninguém ouviu de ti essa palavra 2 πατρὸς ἀκούσας Homero tendo ouvido falar de seu pai, περὶ σοῦ ἀκούσαντες πολλὰ ἀγαθά Xenofonte tendo ouvido dizer muitas boas coisas de ti, οὐκ ἀκήκοας ὅτι ἠναγκάζετο δουλεύειν; Xenofonte não ficaste sabendo que ele era reduzido a escravo? ἐπιθυμῶ ἀκοῦσαι τίνας ἔλεγες τὰς τέτταρας πολιτείας Platão desejo ouvir quais são as quatro formas de governo que enunciavas, καὶ σὲ τὸ πρὶν ἀκούομεν ὄλβιον εἷναι Homero e ouvimos dizer que outrora eras feliz, ὡς ἤκουσαν οὐδὲν πεπραγμένον Tucídides quando souberam que nada tinha sido feito 3 λόγων ἀκουσομένους ἀφῖχθαι Platão ter vindo ouvir a discussão, Ἀναξιμάνδρου ἤκουσεν d.l. assistiu aos cursos de Anaximandro, πᾶς ὅστις ἀκούει μου τοὺς λόγους Novo Testamento todo aquele que ouve a minha palavra 4 φήμας κακὰς ἤκουσεν οὐκ αἰτία Eurípides teve má reputação, sem ser culpada, κακὸς ἀκούω Sófocles chamam-me de mau, κακῶς ἤκουεν Demóstenes falavam mal dele, εὖ ἀκούειν at. ter boa reputação, ἤκουον εἷναι πρῶτοι Heródoto tinham a reputação de ser os primeiros.","ouvir; escutar; ter notícia; ter reputação"],
+        [1417,"ἄκρα, ας (ἡ)","cf. ἄκρος.","cf. ἄκρος"],
+        [1418,"ἀκράαντος, ος, ον","ἄκραντος.","ἄκραντος"],
+        [1419,"Ἀκραγαντῖνος, η, ον","de Agrigento. 〈Ἀκράγας〉","de Agrigento"],
+        [1420,"Ἀκράγας, αντος (ὁ, ἡ)","Agrigento, rio e cidade da Sicília.","Agrigento"],
+        [1421,"ἀκραγής, ής, ές","duv. que não grita ou que grita muito forte; feroz. 〈ἀ- priv. ou intens., κράζω〉","de interpretação duvidosa; feroz"],
+        [1422,"ἀκραής, ής, ές","que sopra forte. 〈ἄκρος, ἄημι〉","que sopra forte"],
+        [1423,"ἀκραῖος, α, ον","que está na extremidade ou na parte de cima; que habita as alturas. 〈ἄκρος〉","extremo; das alturas"],
+        [1424,"ἀκραιφνής, ής, ές","1 não misturado; puro 2 intacto 3 isento de, gen. 〈ἀκέραιος, φαίνω〉","puro; intacto"],
+        [1425,"ἄκραντος, ος, ον","1 que não se cumpre; que não se realiza; vão 2 rar. que não realiza nada ♦ ἄκραντα adv. 3 em vão. 〈ἀ-, κραίνω〉","vão; não realizado"],
+        [1426,"ἀκρασία, ας (ἡ)","1 excesso; falta de medida; intemperança 2 intempérie. 〈ἀκρατής〉","excesso; intemperança"],
+        [1427,"ἀκράτεια, ας (ἡ)","1 falta de força; fraqueza 2 falta de autodomínio; intemperança. 〈ἀκρατής〉","fraqueza; intemperança"],
+        [1428,"ἀκρατεύομαι","ser intemperante 〈ἀκρατής〉","ser intemperante"],
+        [1429,"ἀκρατευτικός, ή, όν","relativo à intemperança. 〈ἀκρα­τεύομαι〉","relativo à intemperança"],
+        [1430,"ἀκρατής, ής, ές","1 sem força; débil 2 incapaz de manter o controle de, gen.: ἀ. χειρῶν, γλώσσης sem o controle das mãos, da língua 3 incapaz de moderar-se no uso de; dominado pelo amor de, gen., πρός ou περί e ac., inf.: ἀ. οἴνου ou πρὸς τὸν οἷνον imoderado no vinho, ἀ. κέρδους insaciável de lucro, ἀ. εἴργεσθαί τινος, incapaz de abster-se de alguma coisa 4 que não é senhor de si; incapaz de moderar-se: στόμα ἀ. língua desregrada, ἀ. δαπάνη gasto imoderado. 〈ἀ-, κράτος〉","fraco; sem autodomínio"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
+
+/* ==========================================================
+   LOTE 56 — registros 1431–1480
+   ========================================================== */
+(function () {
+    const source = window.ScripturaLexicons.DGP;
+    const entries = [
+        [1431,"ἀκρατοποσία, ας (ἡ)","ação de beber vinho puro. 〈ἀκρα­τοπότης〉","consumo de vinho puro"],
+        [1432,"ἀκρατοπότης, ου (ὁ)","bebedor de vinho puro. 〈ἄκρατος, πίνω〉","bebedor de vinho puro"],
+        [1433,"ἄκρατος, ος, ον","1 não misturado; puro: ἄ. οἷνος vinho puro, ἄκρατα σώματα Platão corpos simples 2 puro; absoluto; perfeito: νοῦς ἄ. Xenofonte puro pensamento, ἄ. ἐλευθερία Platão absoluta liberdade 3 completo; excessivo; violento: ἄ. ψεῦδος Platão pura mentira, ἄκρατος ὀργήν Ésquilo desmedido em sua cólera ♦ ὁ ἄκρατος, τὸ ἄκρατον 4 vinho puro. 〈ἀ-, κεράννυμι〉","puro; não misturado; absoluto"],
+        [1434,"ἀκράτωρ, ορος (ὁ)","1 sem força; impotente 2 que não tem controle sobre; que não é senhor de, gen. 〈ἀ-, κράτος〉","impotente; sem controle"],
+        [1435,"ἀκράτως","adv. sem mistura; absolutamente; inteiramente.","sem mistura; absolutamente"],
+        [1436,"ἀκραχολέω-ῶ","(só part. pres.) irritar-se. 〈ἀκράχολος〉","irritar-se"],
+        [1437,"ἀκραχολία, ας (ἡ)","irritação. 〈ἀκράχολος〉","irritação"],
+        [1438,"ἀκράχολος, ος, ον","1 colérico; irascível 2 pálido. 〈ἄκρος, χολή〉","irascível; pálido"],
+        [1439,"ἀκρεμών, όνος (ὁ)","a ponta do ramo. 〈ἄκρος〉","ponta de ramo"],
+        [1440,"ἄκρη","jôn. = ἄκρα.","forma jônica de ἄκρα"],
+        [1441,"ἀκρητοποσίη, ἀκρητοπότης, ἄκρητος","jôn. = ἀκρατο­ποσία, ἀκρατοπότης, ἄκρατος.","formas jônicas de ἀκρατοποσία, ἀκρατοπότης, ἄκρατος"],
+        [1442,"ἀκρίβεια, ας (ἡ)","1 exatidão; precisão 2 rigor; severidade; δι᾽ ἀκριβείας, εἰς ou πρὸς ἀκρίβειαν, ἐν ἀκριβείᾳ com todo o rigor; com exatidão 3 economia rígida; parcimônia. 〈ἀκριβής〉","precisão; rigor; parcimônia"],
+        [1443,"ἀκριβής, ής, ές","1 preciso; exato: ἀ. λόγος Platão discurso exato, verdadeiro, σημεῖον ἀ. Tucídides sinal preciso 2 cuidadoso; escrupuloso; severo: ἀ. νομοθέτης Platão legislador competente 3 que se adapta bem; perfeito: θώραξ ἀ. Xenofonte couraça que se ajusta bem, ἀ. δίαιτα Hipócrates regime bem regrado 4 parcimonioso ♦ ἀκριβές ou ἐπ’ ἀκριβές, εἰς τὸ ἀκριβές adv. 5 com exatidão; com precisão ♦ τὸ ἀκριβές 6 verdade 7 rigor absoluto.","preciso; rigoroso; escrupuloso"],
+        [1444,"ἀκριβολογέομαι-οῦμαι","1 apreciar com rigor; pesquisar minuciosamente, περί e gen. 2 ser exato; ser preciso.","pesquisar com rigor; ser exato"],
+        [1445,"ἀκριβολογητέον","adj. verb. de ἀκριβολογέομαι.","adjetivo verbal de ἀκριβολογέομαι"],
+        [1446,"ἀκριβολογία, ας (ἡ)","exatidão; precisão; rigor. 〈ἀκριβής, λέγω〉","precisão; exatidão"],
+        [1447,"ἀκριβόω-ῶ","(fut. ἀκριβώσω, aor. ἠκρίβωτα, perf. ἠκρίβωκα) 1 ser exato; ser preciso 2 tornar exato ou perfeito; fazer com o maior cuidado, ac. 3 pesquisar com rigor; averiguar; verificar a exatidão de, ac. 4 descrever com cuidado ♦ pas. 5 perf. ser perfeito. 〈ἀκριβής〉","tornar exato; averiguar"],
+        [1448,"ἀκριβῶς","adv. com exatidão; rigorosamente.","rigorosamente; com exatidão"],
+        [1449,"ἀκρίς, ίδος (ἡ)","gafanhoto.","gafanhoto"],
+        [1450,"ἄκρις, ιος (ἡ)","1 pico de montanha 2 região montanhosa. 〈ἄκρος〉","pico; região montanhosa"],
+        [1451,"ἀκρισία, ας (ἡ)","1 falta de discernimento; mau julgamento 2 falta de critério; confusão. 〈ἄκριτος〉","mau julgamento; confusão"],
+        [1452,"Ἀκρίσιος, ου (ὁ)","Acrísio, pai de Dânae.","Acrísio"],
+        [1453,"Ἀκρισιώνη, ης (ἡ)","filha de Acrísio (Dânae).","filha de Acrísio"],
+        [1454,"ἀκριτόμυθος, ος, ον","de palavras confusas; de sentido obscuro ou incompreensível; confuso. 〈ἄκριτος, μῦθος〉","confuso; incompreensível"],
+        [1455,"ἄκριτος, ος, ον","1 confuso; indistinto: ἄκριτα πόλλ’ ἀγορεύειν Homero proferir muitas palavras confusas, θύμβος ἄ. Homero túmulo indiferenciado, comum 2 não decidido; indeciso; incessante: ἄκριτα νείκεα Homero querelas não decididas, intermináveis 3 não submetido a julgamento: ἄκριτον ἐκβαλεῖς με γῆς Eurípides tu me expulsarás sem julgamento desta terra, πρύτανις ἄ. ésqn. chefe imune a julgamento 4 sem discernimento; sem juízo; irreflexivo: θόλμα ἄ. Políbio audácia impensada, ὕπνος ἄ. a.p. sono despreocupado 5 sem decidir-se: ἀποπλεόντων ἐς τὴν ἑαυτῶν ἀκρίτων Heródoto navegando de volta [os gregos] para sua terra sem tomar decisão. 〈ἀ-, κρίνω〉","indistinto; não julgado; irreflexivo"],
+        [1456,"ἀκριτόφυλλος, ος, ον","de folhagem espessa. 〈ἄκριτος, φῦλλον〉","de folhagem espessa"],
+        [1457,"ἀκριτόφυρτος, ος, ον","misturado sem discernimento; em total confusão. 〈ἄκριτος, φύρω〉","misturado confusamente"],
+        [1458,"ἀκρίτως","adv. 1 de modo indeciso 2 confusamente 3 sem discernimento.","sem discernimento; confusamente"],
+        [1459,"ἀκρόαμα, ατος (τό)","1 texto poético que se ouve (recitação, canto, representação) 2 pl. aqueles que dizem um texto poético (declamadores, cantores, atores). 〈ἀκροάομαι〉","recitação; declamadores; cantores"],
+        [1460,"ἀκροαματικός, ή, όν","1 que diz respeito à audição: ἀκροαματικαὶ διδασκαλίαι ensinamentos transmitidos oralmente aos ouvintes 2 capaz de ouvir. 〈ἀκρόαμα〉","relativo à audição; capaz de ouvir"],
+        [1461,"ἀκροάομαι-οῦμαι","(fut. ἀκροάσομαι, aor. ἠκροασάμην, perf. ἠκρόαμαι) 1 ouvir com atenção algo, ac. ou gen.; alguém, gen. 2 obedecer a alguém, gen. 3 ser ouvinte; ser discípulo.","ouvir atentamente; obedecer"],
+        [1462,"ἀκρόασις, εως (ἡ)","1 ação de escutar; atenção a, gen. 2 obe­diência a, gen. 3 audição; leitura pública de textos literários. 〈ἀκροάομαι〉","audição; leitura pública"],
+        [1463,"ἀκροατήριον, ου (τό)","tard. sala de audiências; auditório. 〈ἀκροάομαι〉","auditório"],
+        [1464,"ἀκροατής, οῦ (ὁ)","1 que ouve com atenção; ouvinte; discípulo 2 que lê o texto em voz alta; leitor. 〈ἀκροάομαι〉","ouvinte; leitor"],
+        [1465,"ἀκροβατέω-ῶ","(só pres.) tard. 1 andar na ponta dos pés 2 andar de cabeça erguida; ser altivo 3 subir com esforço. 〈ἄκρος, βαίνω〉","andar na ponta dos pés; subir"],
+        [1466,"ἀκροβολίζω,","ger. méd. ἀκροβολίζομαι (aor. ἠκροβο­λισάμην) 1 lançar de longe (projetil) 2 participar de escaramuça. 〈ἀκρόβολος〉","lançar projétil; escaramuçar"],
+        [1467,"ἀκροβόλισις, εως (ἡ)","escaramuça; enfrentamento à distância. 〈ἀκροβολίζομαι〉","escaramuça"],
+        [1468,"ἀκροβολισμός, οῦ (ὁ)","ἀκροβόλισις.","ἀκροβόλισις"],
+        [1469,"ἀκροβολιστής, οῦ (ὁ)","aquele que lança de longe; atirador.","atirador de longe"],
+        [1470,"ἀκρόβολος, ος, ον","golpeado de longe. 〈ἄκρος, βάλλω〉","golpeado de longe"],
+        [1471,"ἀκροβυστία, ας (ἡ)","bíbl. 1 prepúcio; ἀκροβυστίαν ἔχω ter prepúcio, i.e., ser um gentio, um não-judeu 2 incircuncisão 3 o conjunto dos não circuncidados, i.e., os gentios. 〈ἀκρόβυστος〉","prepúcio; incircuncisão; gentios"],
+        [1472,"ἀκρόβυστος, ος, ον","tard. incircuncidado.","incircuncidado"],
+        [1473,"ἀκρογωνιαῖος, α, ον","bíbl. angular. 〈ἀκρος, γωνία〉","angular"],
+        [1474,"ἀκρόδρυον, ου (τό)","1 fruto 2 fruto de casca dura 3 a árvore que produz tais frutos. 〈ἄκρος, δρῦς〉","fruto; árvore frutífera"],
+        [1475,"ἀκροθίνιον, ου (τό)","1 o que está no alto da pilha, i.e., primícias 2 o que há de melhor, com gen. partit. 〈ἄκρος, θίς〉","primícias; melhor parte"],
+        [1476,"ἀκροθώραξ, ακος (ὁ)","meio bêbado.","meio bêbado"],
+        [1477,"ἀκροκελαινιάω-ῶ","(part. pres. ép. ἀκροκελαινιόων) tornar-se escuro na superfície. 〈ἄκρος, κελαινός〉","escurecer na superfície"],
+        [1478,"ἀκροκνεφής, ής, ές","madrugador; de madrugada. 〈ἄκρος, κνέφας〉","madrugador"],
+        [1479,"ἀκρόκομος, ος, ον","1 que prende ou que tem os cabelos no alto da cabeça 2 que tem pêlos na extremidade 3 cheio de folhas na extremidade; que tem copa alta. 〈ἄκρος, κόμη〉","cabelo no alto; copa alta"],
+        [1480,"Ἀκροκόρινθος, ου (ὁ)","Acrocorinto, cidadela de Corinto.","Acrocorinto"]
+    ];
+    const esc = (value) => String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    source.rowsHtml += entries.map(([n, headword, definition, gloss]) =>
+        `<tr class="search-row" data-dictionary="grego" data-target="entry-dgp-${String(n).padStart(4, "0")}" data-source="DGP" data-search="${esc(headword + " " + gloss + " DGP")}" tabindex="0"><td class="table-lemma greek">${esc(headword)}</td><td>—</td><td>${esc(gloss)}</td><td><span class="source-pill">DGP</span></td></tr>`
+    ).join("\n");
+    source.cardsHtml += entries.map(([n, headword, definition]) =>
+        `<article id="entry-dgp-${String(n).padStart(4, "0")}" class="entry-card" data-dictionary="grego" data-source="DGP" hidden><header class="entry-header"><div><h1 class="entry-title greek">${esc(headword)}</h1><div class="entry-meta"><span>DGP · ordem ${n} na letra α</span></div></div><div class="source-tag">DGP</div></header><div class="entry-divider"></div><section class="entry-section"><div class="section-title">Definição do DGP</div><p class="entry-text">${esc(definition)}</p></section></article>`
+    ).join("\n");
+})();
