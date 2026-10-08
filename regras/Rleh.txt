@@ -1,7 +1,7 @@
 Rleh
 REGISTRO PERMANENTE DE CONTINUIDADE DO LEH — GDHAGP / SCRIPTURA LEXICON
 Versão inaugural: 08/10/2026
-Arquivo canônico no GitHub: Rleh/Rleh.txt
+Arquivo canônico no GitHub: regras/Rleh.txt
 Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
 Branch exclusiva: chat-gpt-leh
 Documento em texto puro, codificação UTF-8.
@@ -26,7 +26,7 @@ Continue o processo (LEH).
 Sempre que o usuário escrever exatamente esse comando ou uma variante
 inequívoca, executar o protocolo:
 (1) consultar a branch chat-gpt-leh;
-(2) ler Rleh/Rleh.txt dessa branch;
+(2) ler regras/Rleh.txt dessa branch;
 (3) ler lexicons/leh.js no HEAD atual;
 (4) reconciliar o estado;
 (5) consultar diretamente o LEH;
@@ -77,13 +77,13 @@ Objeto:
 window.ScripturaLexicons.LEH
 
 Registro permanente:
-Rleh/Rleh.txt
+regras/Rleh.txt
 
 ESCOPOS PERMITIDOS PARA UM LOTE, APÓS ESTA DECISÃO:
 - lexicons/leh.js: incorporação dos verbetes LEH;
-- Rleh/Rleh.txt: atualização documental de continuidade, quando necessária.
+- regras/Rleh.txt: atualização documental de continuidade, quando necessária.
 
-Esta autorização ao registro Rleh/Rleh.txt constitui exceção expressa à
+Esta autorização ao registro regras/Rleh.txt constitui exceção expressa à
 antiga regra de modificar exclusivamente lexicons/leh.js. A preferência é
 modificar ambos em UM ÚNICO commit do lote quando a documentação precisar ser
 atualizada. Não criar um segundo commit apenas para anotar o SHA recém-gerado;
@@ -232,9 +232,9 @@ Ocorrências de beta.perseus.tufts.edu: 0.
 O último commit de lote modificou apenas lexicons/leh.js:
 210 linhas adicionadas, nenhuma removida.
 
-O novo diretório Rleh não fazia parte desse marco histórico anterior.
-A criação deste próprio documento gera um commit administrativo posterior,
-sem acréscimo de verbetes LEH. Portanto, não tratar todo commit posterior como
+O diretório regras não fazia parte desse marco histórico anterior.
+A criação inicial deste documento e sua transferência para regras são
+alterações administrativas posteriores, sem acréscimo de verbetes LEH. Portanto, não tratar todo commit posterior como
 um lote lexicográfico concluído.
 
 ================================================================================
@@ -247,7 +247,7 @@ Para CADA lote:
 3. Guardar o tree SHA desse mesmo commit.
 4. Buscar lexicons/leh.js dessa exata revisão.
 5. Guardar seu blob SHA.
-6. Buscar Rleh/Rleh.txt dessa exata revisão.
+6. Buscar regras/Rleh.txt dessa exata revisão.
 7. Guardar seu blob SHA.
 8. Guardar também os blobs dos arquivos compartilhados protegidos.
 9. Contar linhas/cartões LEH.
@@ -299,7 +299,7 @@ E. Verificar bibliografia e HTML.
 F. Auditar fonte e estrutura.
 G. Gravar UM commit de lote.
 H. Confirmar branch e arquivo.
-I. Atualizar o checkpoint de Rleh/Rleh.txt no mesmo commit quando necessário.
+I. Atualizar o checkpoint de regras/Rleh.txt no mesmo commit quando necessário.
 J. Informar SHA final e próximo lema, então parar.
 
 ================================================================================
@@ -655,8 +655,8 @@ index.html;
 script.js;
 style.css.
 
-A existência de Rleh/Rleh.txt não é um verbete e não entra na contagem.
-Rleh/Rleh.txt é o único arquivo extra expressamente permitido no escopo
+A existência de regras/Rleh.txt não é um verbete e não entra na contagem.
+regras/Rleh.txt é o único arquivo extra expressamente permitido no escopo
 documental dos lotes LEH.
 
 ================================================================================
@@ -696,7 +696,7 @@ Fluxo:
 6. Auditar filológica e estruturalmente.
 7. Auditar globalmente.
 8. Verificar que o diff contenha somente lexicons/leh.js e, quando
-   necessário, Rleh/Rleh.txt.
+   necessário, regras/Rleh.txt.
 9. Consultar HEAD NOVAMENTE.
 10. Se HEAD != EXPECTED_HEAD: NÃO escrever; reconciliar.
 11. Criar blobs e árvore em cima da árvore de EXPECTED_HEAD.
@@ -730,7 +730,7 @@ conteúdo que gera esse SHA; consultar HEAD após a gravação.
 Confirmar:
 HEAD remoto igual ao SHA do commit criado;
 lexicons/leh.js lido novamente do HEAD;
-Rleh/Rleh.txt, se modificado, lido novamente;
+regras/Rleh.txt, se modificado, lido novamente;
 +20 linhas e +20 cartões realmente presentes;
 últimos 20 lemas iguais à sequência LEH;
 21º lema como próxima entrada;
@@ -946,7 +946,7 @@ Consultar os 20 verbetes integrais diretamente no LEH.
 26. COMO ATUALIZAR O CHECKPOINT Rleh
 ================================================================================
 
-Rleh/Rleh.txt permanece como protocolo de referência, mas pode receber
+regras/Rleh.txt permanece como protocolo de referência, mas pode receber
 um bloco de checkpoint atualizado quando um lote for concluído.
 
 Manter sempre:
@@ -973,7 +973,7 @@ sem perda essencial; manter dados de auditoria necessários.
 
 A convenção de UM commit por lote continua válida.
 Commits exclusivamente administrativos, como esta criação inicial de
-Rleh/Rleh.txt, não contam como lotes de 20 verbetes.
+regras/Rleh.txt, não contam como lotes de 20 verbetes.
 
 ================================================================================
 27. MODELO DE RESPOSTA FINAL APÓS CADA LOTE
