@@ -2468,3 +2468,37 @@ Próximo lema confirmado na fonte: ἀποκόπτω.
 Arquivos modificados: lexicons/bdag.js e regras/Rbdag.txt, no mesmo commit.
 Arquivos globais e das outras fontes preservados.
 SHA do commit de publicação: consultar GitHub (não autorreferenciar esta regra).
+
+
+================================================================================
+REGRA OBRIGATÓRIA DE LOCALIZAÇÃO DA FONTE PRIMÁRIA — 09/10/2026
+================================================================================
+
+Os arquivos PDF de trabalho estão versionados no próprio repositório,
+no diretório fontes/, inclusive nesta branch. Os nomes de arquivo são
+ESTÁVEIS e devem ser usados literalmente:
+- BDAG: fontes/fonte-bdag.pdf
+- LEH:  fontes/fonte-leh.pdf
+
+Os caminhos acima substituem referências antigas a nomes de PDFs por
+intervalo alfabético e não devem ser confundidos com diretórios sem extensão.
+O usuário substituirá periodicamente o CONTEÚDO desses mesmos arquivos
+quando o trabalho avançar às letras beta, gama, delta e seguintes.
+Portanto, antes de CADA lote, ler o PDF atual da branch da respectiva fonte,
+conferir SHA, conteúdo, intervalo de lemas e compatibilidade com o checkpoint.
+Não presumir que o conteúdo atual ainda corresponde à letra alfa.
+
+É PROIBIDO declarar que o PDF está ausente ou indisponível sem primeiro:
+1. consultar a árvore/contents de fontes/ na branch correta e HEAD real;
+2. identificar o caminho e SHA do PDF versionado;
+3. tentar ler/obter o conteúdo do PDF por meios autorizados;
+4. investigar falhas técnicas reais de leitura e registrar o erro concreto.
+
+Uma falha de extração/leitura não equivale a ausência do arquivo. Não
+substituir silenciosamente a fonte versionada por PDFs externos. Se o PDF
+estiver presente mas a leitura de suas páginas falhar, declarar precisamente
+a limitação e investigar outra forma autorizada de leitura, sem inventar
+verbetes. Não solicitar reenvio ao usuário sem verificar primeiro o GitHub.
+
+Esta regra é permanente e prevalece sobre instruções antigas que exijam
+localizar um PDF pelo nome variável do intervalo alfabético.
