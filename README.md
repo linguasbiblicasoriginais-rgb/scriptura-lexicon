@@ -241,3 +241,8 @@ repositório `aniseferreira/Grc-Por-DigDict`, no snapshot documentado em
 `regras/Rdgp.txt`. A validação visual em navegador não está atestada.
 A regra canônica, o módulo de lotes, o manifesto e este README são atualizados
 no mesmo commit diretamente na branch da fonte, sem alterações na `main`.
+
+
+**Auditoria técnica do lote 63:** a propriedade de cartões utilizada pelo
+módulo DGP é `cardsHtml`. A correção posterior ao commit lexical garantiu
+que os 50 novos cartões sejam efetivamente disponibilizados na interface.

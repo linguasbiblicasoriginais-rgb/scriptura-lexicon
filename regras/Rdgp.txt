@@ -668,3 +668,10 @@ Diagnóstico operacional: a criação de blob Git do protocolo integral acrescid
 de registro de lote foi aceita; publicação por árvore e commit atômico direto.
 A validação visual em navegador permanece pendente e não é presumida.
 Consultar o commit real no GitHub para SHA definitivo.
+
+
+CORREÇÃO TÉCNICA PÓS-AUDITORIA DO LOTE 63 — 08/10/2026:
+A auditoria remota identificou que os 50 cartões foram inicialmente
+acrescentados à propriedade entriesHtml, não consumida pelo módulo DGP.
+Corrigido o destino para cardsHtml, preservando integralmente os 50 verbetes,
+as definições, os IDs e o manifesto. Correção administrativa sem novo lote.
