@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 1831,
-    "status": "lote 63 concluído"
+    "next_ordinal": 1881,
+    "status": "lote 64 concluído"
   },
   "batches": [
     {
@@ -576,6 +576,15 @@
       "end_ordinal": 1830,
       "start_entry": "Ἄλκηστις, ιδος (ἡ)",
       "end_entry": "ἀλλοίως",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 64,
+      "start_ordinal": 1831,
+      "end_ordinal": 1880,
+      "start_entry": "ἀλλοίωσις, εως (ἡ)",
+      "end_entry": "ἀλοιφή, ῆς (ἡ)",
       "entry_count": 50,
       "status": "concluído"
     }
