@@ -37,3 +37,32 @@ Um commit pequeno por conjunto coerente de correções testadas, com mensagem de
 
 6. PRs E RELATÓRIO
 Comparar chat-gpt-correcoes com main a cada rodada e verificar possibilidade real de merge antes de sugerir PR. Não criar nem mesclar PR automaticamente sem solicitação do usuário. Não afirmar “sem conflitos” quando as branches divergirem ou sem teste real de merge. Registrar: data/hora, HEADs observados, universo examinado, número de erros encontrados e corrigidos por classe e por léxico, testes executados, arquivos e SHAs de commits, pendências e conflitos detectados. Não inventar contagens de verbetes examinados ou resultados de testes.
+
+ 
+7. PRESERVAÇÃO DA AUDITORIA DIÁRIA DE 05H — ALTERAÇÃO DO AGENDAMENTO (09/10/2026)
+
+A obrigação de auditoria DIÁRIA às 05h no fuso America/Sao_Paulo permanece
+INTEGRALMENTE VIGENTE, sem redução de escopo, frequência, regras de ouro,
+revisão de popups ou testes de regressão. A tarefa antiga exclusivamente de
+auditoria foi PAUSADA apenas para liberar a quinta vaga de agendamentos.
+O novo agendamento combinado "GDHAGP integração e auditoria 05h" funciona
+em oito horários: 02h, 05h, 08h, 11h, 14h, 17h, 20h e 23h. Na execução
+de 05h DEVE REALIZAR PRIMEIRO a auditoria detalhada prevista neste protocolo
+e somente depois a integração de branches. Erros de PR ou bloqueios das
+outras fontes não podem suprimir a auditoria. O serviço está agendado, mas
+a execução real deve ser comprovada e eventuais indisponibilidades
+explicitadas sem promessas de sucesso não observado.
+
+DIVISÃO DE RESPONSABILIDADES ABSOLUTA:
+- Fase de auditoria 05h: todas as leituras, auditorias, correções e commits
+  obedecem esta regra de ouro, com escrita SOMENTE em chat-gpt-correcoes.
+  Nunca criar PR ou fazer merge durante esta fase.
+- Fase subsequente de integração, executada separadamente pela quinta
+  rotina, é a ÚNICA autorizada a abrir/mesclar PRs das seis origens para
+  chat-gpt-commits, conforme regras/Rintegracao.txt na branch de integração.
+  Não atribuir a esses PRs o papel de uma edição da auditoria; não modificar
+  a branch chat-gpt-correcoes durante a etapa de integração.
+- Em todos os horários, o relatório da rotina combinada apresenta tabela
+  atualizada dos totais de verbetes BDAG, DGP, LEH e PEREIRA, com origem e
+  ressalvas de verificação; o DGP tinha 1.830 por checkpoint em 09/10/2026,
+  ainda sem reconciliação completa dos cartões.
