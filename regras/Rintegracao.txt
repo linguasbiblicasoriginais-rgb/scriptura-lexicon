@@ -33,3 +33,31 @@ em chat-gpt-commits. Nunca editar main ou apagar branches. Informar de modo
 independente sucesso, cobertura ou bloqueio de cada fase, mais a tabela de
 quatro totais sempre recalculada. Um agendamento não garante a ausência
 absoluta de falhas externas; nunca alegar auditoria concluída sem prova.
+
+14. AUTORIZAÇÃO EXPRESSA PARA RESOLUÇÃO AUTÔNOMA — 09/10/2026.
+O usuário determinou que, SEMPRE que houver conflitos de merge, o integrador
+deverá decidir e resolvê-los por conta própria, adotando a melhor solução,
+SEM solicitar autorização individual para conflitos ordinários. Investigar
+merge-base, HEADs e diff de cada PR; não paralisar ante mergeable=false.
+Integrar contribuições compatíveis de ambos os lados, em vez de escolher
+cegamente ours/theirs. Proteger todos os verbetes e propriedades da fonte,
+IDs, cartões, popups, referências, estilos, correções verificadas e regras.
+Documentação conflitante deve ser consolidada sem perdas e sem duplicações
+desnecessárias. Manifestos de execução são LOCAIS: na integração, manter
+regras/estado-orquestracao-[fonte].json separados, jamais sobrescrever o
+checkpoint de outra fonte nem retroceder total. Preservar as nove propriedades
+da API PEREIRA; não inventar formas, sentidos, passagens nem etimologias.
+Validar sintaxe, carregamento, contagens search-row/entry-card, IDs e links.
+A resolução pode utilizar commit de merge atômico com dois pais reais,
+parent principal = HEAD atual de chat-gpt-commits e segundo parent = HEAD
+da origem, protegido por expected_sha e force=false. Conferir state=closed
+E merged=true no PR, HEAD, arquivos e contagens depois; não chamar sucesso
+à mera criação de um commit ainda não mesclado.
+Não criar branches extras, não alterar origens ou main, não excluir ramos,
+não usar force push. Se a ambiguidade for REALMENTE irresolúvel sem risco
+de perda ou invenção, manter o PR aberto e relatar fatos e alternativas,
+prosseguindo com as outras origens seguras. Isso é decisão conservadora
+autônoma, e não autorização para omitir conflitos resolvíveis.
+A auditoria das 05h na branch chat-gpt-correcoes conserva prioridade.
+Em todo relatório, informar PR, arquivos em conflito, método, resultado
+dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.

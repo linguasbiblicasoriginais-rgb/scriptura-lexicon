@@ -48,3 +48,16 @@ Cada executor possui sua branch exclusiva; commits devem ser atômicos, com veri
 **Segunda fase às 05:00 e única fase nos demais horários:** integrar PRs das seis branches autorizadas para `chat-gpt-commits`, com análise de conflitos, verificação de merge e preservação de origens. Não misturar permissões: a fase de auditoria só escreve em `chat-gpt-correcoes`; a fase de integração apenas faz as mudanças de integração em `chat-gpt-commits`. A falha de uma fase exige aviso específico e não autoriza ocultar a outra. A verificação de integração nunca é pré-requisito para começar a auditoria das 05h.
 
 **Garantias e limites:** está confirmado o agendamento, mas não a execução futura; interrupções do serviço, da API ou do GitHub podem causar falha. Não afirmar execução sem relatório e confirmação remota. Todos os relatórios incluem a tabela de totais atuais dos quatro dicionários.
+
+## Resolução autônoma de conflitos (autorização vigente, 09/10/2026)
+
+A quinta rotina tem autorização expressa para **tomar as decisões de resolução de conflitos por conta própria**, sem pedir confirmação individual em merges. Conflitos de texto, documentação, estrutura ou estado devem ser diagnosticados e reconciliados ativamente; não interromper automaticamente o fluxo por mero `mergeable=false`.
+
+Procedimento determinístico:
+1. Ler os HEADs reais da origem e de `chat-gpt-commits`, o merge-base, o diff e os arquivos afetados. Verificar se outro agente alterou os ramos e reavaliar em caso de concorrência.
+2. Classificar cada conflito: **léxico exclusivo da fonte** (preservar conteúdo canônico novo e o conteúdo integrado de outras fontes), **documentação compartilhada** (compor alterações compatíveis, eliminar duplicações sem perder normas), **estilos/JS** (reunir funcionalidades e corrigir dependências com testes), **checkpoint/manifesto** (preservar por fonte; nunca copiar o estado de uma fonte para o caminho da outra) ou **correção editorial** (aplicar apenas quando comprovada, sem alterar silenciosamente a leitura da fonte).
+3. Verificar preservação dos registros existentes, originais e novos; `search-row`/`entry-card` correspondentes, unicidade e contagens por fonte; sintaxe, links, popups e regressões. Preservar as nove propriedades originais dos registros PEREIRA. Não escolher indiscriminadamente “ours” ou “theirs”, nem inventar conteúdo lexical.
+4. Preparar árvore de resolução sobre o HEAD do destino, com **dois pais reais** quando fizer merge manual; verificar HEAD imediatamente antes de publicar; atualizar somente `chat-gpt-commits` por `expected_sha` e `force=false`. Confirmar no GitHub o commit, o HEAD, e que o PR está `closed` **e** `merged=true`.
+5. Registrar arquivos conflitantes, decisão justificada, dados preservados, testes e SHAs. Se nenhum caminho puder ser validado com segurança, **manter o PR aberto** e relatar o bloqueio específico, mas prosseguir com as integrações independentes seguras.
+
+Essa autonomia **não** permite apagar verbetes, reescrever histórico, excluir ramos ou tocar em `main`. Mantém-se também a auditoria obrigatória das 05h como primeira fase do quinto agendamento.

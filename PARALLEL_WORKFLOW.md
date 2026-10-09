@@ -21,3 +21,7 @@ Os manifestos `regras/estado-orquestracao.json` são próprios das branches, com
 
 ## Auditoria
 Antes de cada commit: pares `search-row`/`entry-card`, IDs únicos, alvos válidos, sem órfãos, URL verificada e popups corretos. Depois de cada commit/merge, confirmar HEAD, SHA, arquivos e integridade no GitHub. Cada relatório de qualquer uma das cinco rotinas inclui tabela com os totais **BDAG, DGP, LEH e PEREIRA**, consultados nas origens no momento da execução. Não confundir checkpoint do DGP com contagem estruturada de cartões sem auditoria.
+
+## Conflitos na integração — decisão autônoma
+
+A rotina trihorária deve resolver conflitos por conta própria, sem pedir autorização repetitiva. Nas divergências de `README.md`, `ORQUESTRACAO.md`, `PARALLEL_WORKFLOW.md` e regras, preservar e compor os trechos atuais de todas as frentes; nos manifestos `regras/estado-orquestracao.json` locais, criar/atualizar cópias de estado **com sufixo da fonte**, em vez de sobrescrever o de outra fonte. Ao conciliar módulos JS/CSS ou popups, conservar todas as funções legítimas e validar carregamento, alvos, IDs e ausência de regressões; não modificar o significado lexical ou fazer harmonização entre fontes. Preferir merge auditável de dois pais com `expected_sha`, `force=false`, certificando `merged=true` no PR. Se for impossível demonstrar a conservação dos dados, manter somente o PR arriscado pendente, com diagnóstico concreto, e continuar outros. Nenhuma dessas decisões autoriza escrita em `main` ou em branches de origem durante a integração.
