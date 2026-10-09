@@ -253,3 +253,7 @@ BDAG, DGP, LEH e PEREIRA **não dependem uns dos outros**: quatro agendamentos h
 Esta é a política **desejada**; um documento não comprova que todos os cinco agendamentos estejam ativos. Ver `ORQUESTRACAO.md`, `PARALLEL_WORKFLOW.md` e `regras/Rintegracao.txt`. Os checkpoints são locais a cada branch; nunca usar a antiga ordem BDAG → DGP → LEH → PEREIRA como pré-requisito.
 
 **Todo relatório de qualquer rotina deve incluir uma tabela com as quantidades totais de BDAG, DGP, LEH e PEREIRA**, consultadas nos HEADs remotos atuais; reportar `não verificado` onde faltar evidência. Retrato em 09/10/2026: BDAG 941 linhas/cartões; DGP 1.830 no manifesto (contagem HTML ainda não reconciliada); LEH 690 linhas/cartões; PEREIRA 510 linhas/cartões. Não usar esses valores históricos como números atuais. A leitura dos verbetes, revisão de popups, fontes e auditoria permanece específica de cada léxico.
+
+### Continuidade BDAG — 09/10/2026
+
+O lote `ἀπόστασις → ἀποτάσσω` acrescenta 20 verbetes ao BDAG na branch `chat-gpt-bdag`, totalizando 1.021 linhas e 1.021 cartões. Fonte `fontes/fonte-bdag.pdf`, SHA Git `554c1523c9f893dced39f6047ca8375d5d7ca2a0`, páginas físicas 35–38. Próximo lema: `ἀποτελέω`. A integração é independente desta rotina.
