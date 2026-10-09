@@ -1,4 +1,26 @@
 ================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Decisão atual do usuário, substitui QUALQUER dependência global antiga.
+Esta rotina BDAG executa A CADA HORA independentemente do DGP, LEH e PEREIRA.
+Publicar commits atômicos exclusivamente em `chat-gpt-bdag`, respeitando a regra
+filológica, lote, fonte canônica, checkpoint de BDAG e verificação remota de HEAD.
+É PROIBIDO à rotina horária BDAG criar PR, fazer merge/rebase, criar branches,
+escrever em `chat-gpt-commits`, `main` ou em branches de outros léxicos.
+Exclusivamente uma QUINTA ROTINA de integração, executada a cada 3 horas,
+verifica seis origens (BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES) e abre/reutiliza
+PRs para `chat-gpt-commits`, resolve conflitos verificavelmente e faz merge,
+preservando todas as branches. A exceção ao veto de PR vale SÓ para o integrador.
+Bloqueio de qualquer outra fonte NUNCA impede avançar o BDAG.
+Recalcular progresso exclusivamente do HEAD remoto da própria branch.
+Obrigatório em TODO relatório: tabela com quatro totais BDAG, DGP, LEH,
+PEREIRA, cada um com método e consulta remota atual; `não verificado` quando
+a verificação falhar. A contagem 1.830 do DGP deriva do manifesto e exige
+reconciliação estrutural; não apresentá-la como auditoria completa.
+Documentação geral: ORQUESTRACAO.md e PARALLEL_WORKFLOW.md.
+================================================================================
+
+================================================================================
 REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
 ================================================================================
 
