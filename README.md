@@ -306,3 +306,12 @@ Todas as rotinas fazem pré-voo dos HEADs GitHub reais, leem somente as regras e
 ### Autoridades editoriais
 
 As regras `regras/Rbdag.txt`, `regras/Rdgp.txt`, `regras/Rleh.txt` e `regras/Rpereira.txt` conservam as decisões filológicas específicas. A publicação de cada lote é atômica na branch de origem. O protocolo `ORQUESTRACAO.md` organiza as cinco rotinas; `PARALLEL_WORKFLOW.md` delimita a propriedade dos arquivos; `regras/Rintegracao.txt` é a norma exclusiva do integrador. O coletor PEREIRA por HTTP POST foi validado externamente em 09/10/2026, mas sua hospedagem e conexão à tarefa horária **ainda exigem implementação**; não presumir acesso POST nativo do agendamento.
+
+
+### Agendamentos efetivamente configurados — auditoria preservada às 05h (09/10/2026)
+
+Os quatro processos de incorporação foram ativados de hora em hora, com execução independente e sem PR: BDAG no minuto 05, DGP no minuto 15, LEH no minuto 25 e PEREIRA no minuto 35 (horário de Brasília). O quinto agendamento **GDHAGP integração e auditoria 05h** está ativo **oito vezes ao dia**, às **02h, 05h, 08h, 11h, 14h, 17h, 20h e 23h** (America/Sao_Paulo).
+
+**Preservação obrigatória da auditoria:** a antiga tarefa independente **Auditoria diária Scriptura Lexicon**, prevista para as 05h, foi **pausada, não excluída** para liberar uma vaga. **A revisão diária às 05h continua obrigatória**, agora como a primeira fase do quinto agendamento: examinar e corrigir defeitos comprovados somente em `chat-gpt-correcoes`, conforme `regras/Rcorrecoes.txt`, e relatar cobertura, testes, erros e commits. **Somente depois** realizar a integração dos PRs; um problema de integração não deve omitir ou cancelar a auditoria. Nos outros sete horários, executar somente integração. Essas duas fases têm permissões distintas e nenhuma escreve em `main`.
+
+A programação registrada é um compromisso de execução do serviço de agendamento; não constitui garantia absoluta contra falha externa ou prova de que a auditoria já foi executada. Em caso de falha, produzir diagnóstico expresso e seguir a rotina no próximo período. Em **todos** os relatórios, apresentar tabela atualizada dos totais BDAG/DGP/LEH/PEREIRA, distinguindo contagem estrutural e checkpoint.

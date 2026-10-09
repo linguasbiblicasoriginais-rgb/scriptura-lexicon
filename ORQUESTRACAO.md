@@ -37,3 +37,14 @@ Os PDFs `fontes/fonte-bdag.pdf` e `fontes/fonte-leh.pdf` são caminhos estáveis
 
 ## Segurança e concorrência
 Cada executor possui sua branch exclusiva; commits devem ser atômicos, com verificação de HEAD anterior, atualização concorrente protegida, auditoria posterior e sem force. Nem a infraestrutura comum nem a branch `main` devem sofrer alterações a partir das rotinas de incorporação.
+
+
+## Quinta tarefa efetiva: integração 3h + auditoria diária às 05h (09/10/2026)
+
+**Agendamento ativo:** frequência diária com horários **02:00, 05:00, 08:00, 11:00, 14:00, 17:00, 20:00 e 23:00**, no fuso **America/Sao_Paulo** (8 execuções diárias e intervalo de 3 horas). Os quatro agendamentos horários de incorporação permanecem autônomos e não abrem PR.
+
+**Exceção obrigatória às 05:00:** executar PRIMEIRO a auditoria diária inteira definida em `regras/Rcorrecoes.txt`, com leituras do HEAD real, revisão de verbetes, popups, referências, formatação, HTML/JS/CSS, IDs e testes de regressão; commits corretivos **apenas em `chat-gpt-correcoes`** com `expected_sha` e `force=false`. Preservar todas as regras da antiga auditoria diária. Relatar cobertura efetiva e falhas, sem inventar resultados. A antiga tarefa independente de auditoria foi pausada, mas **o compromisso das 05h não foi cancelado**.
+
+**Segunda fase às 05:00 e única fase nos demais horários:** integrar PRs das seis branches autorizadas para `chat-gpt-commits`, com análise de conflitos, verificação de merge e preservação de origens. Não misturar permissões: a fase de auditoria só escreve em `chat-gpt-correcoes`; a fase de integração apenas faz as mudanças de integração em `chat-gpt-commits`. A falha de uma fase exige aviso específico e não autoriza ocultar a outra. A verificação de integração nunca é pré-requisito para começar a auditoria das 05h.
+
+**Garantias e limites:** está confirmado o agendamento, mas não a execução futura; interrupções do serviço, da API ou do GitHub podem causar falha. Não afirmar execução sem relatório e confirmação remota. Todos os relatórios incluem a tabela de totais atuais dos quatro dicionários.

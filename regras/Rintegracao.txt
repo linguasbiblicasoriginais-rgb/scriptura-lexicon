@@ -13,3 +13,23 @@ RINTEGRACAO — NORMA EXCLUSIVA DO AGENDAMENTO DE INTEGRAÇÃO (09/10/2026)
 10. Ao fim de qualquer ciclo, publicar tabela de totais de verbetes por BDAG, DGP, LEH e PEREIRA, fonte/HEAD e método de apuração, incluindo não verificado quando não for possível aferir.
 11. Os arquivos de estado por fonte na integração têm nomes exclusivos: regras/estado-orquestracao-bdag.json (quando criado), regras/estado-orquestracao-dgp.json, regras/estado-orquestracao-leh.json, regras/estado-orquestracao-pereira.json. O legado regras/estado-orquestracao.json não é checkpoint global.
 12. A frequência de 3 horas é intenção operacional; este arquivo por si só não cria agendamento. Manter distinção entre política documentada e tarefas efetivamente ativas.
+
+
+13. ADENDO OPERACIONAL — 09/10/2026: QUINTA TAREFA COM AUDITORIA ÀS 05h.
+O agendamento da integração foi EFETIVAMENTE CRIADO para 02:00, 05:00, 08:00,
+11:00, 14:00, 17:00, 20:00 e 23:00 em America/Sao_Paulo, com execução a cada
+três horas. A tarefa antiga de auditoria diária foi PAUSADA, não excluída.
+Na execução das 05:00, PRIORIDADE ABSOLUTA: executar PRIMEIRO a auditoria
+completa definida em regras/Rcorrecoes.txt, tratando cada escrita SOMENTE
+em chat-gpt-correcoes (HEAD atual, expected_sha, force=false, commits pequenos,
+testes e confirmação), preservando a revisão de popups, abreviaturas, HTML,
+Unicode, formatação, referências, integridade search-row/entry-card,
+regressões BDAG ἀγαθοεργέω e DGP ἀλείφω. A ausência de PR, conflito ou falha
+de integração NÃO pode dispensar ou atrasar intencionalmente a auditoria.
+Depois da auditoria das 05:00, fazer a integração normal. Nos outros sete
+horários, apenas integração. Os privilégios NÃO se misturam: as mudanças
+da auditoria ficam exclusivamente em chat-gpt-correcoes e as integrações
+em chat-gpt-commits. Nunca editar main ou apagar branches. Informar de modo
+independente sucesso, cobertura ou bloqueio de cada fase, mais a tabela de
+quatro totais sempre recalculada. Um agendamento não garante a ausência
+absoluta de falhas externas; nunca alegar auditoria concluída sem prova.
