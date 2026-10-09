@@ -94,3 +94,23 @@ dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
     coletor local, ainda sem integração horária comprovada.
     Não modificar main, outras fontes, origens ou verbetes;
     conferir HEAD, os dois pais reais do merge e merged=true.
+
+15. PR #66 — conflito com main; preparar sem publicar na principal (09/10/2026)
+    O PR #66 é chat-gpt-commits → main, fora da matriz normal
+    de seis origens → chat-gpt-commits. A regra 'nunca escrever em
+    main' prevalece: não fazer merge, commit, force ou rebase em main.
+    A divergência resulta de um único commit de main (merge PR #33,
+    mudanças DGP) ausente da ancestralidade do ramo de integração.
+    Comparação remota confirmou preservação de todos os dados:
+    NOTICE-DGP.md, index.html, dgp-format.css, dgp-format.js e
+    script.js têm SHA de blob igual nos dois ramos;
+    dgp-batches.js de main é prefixo integral idêntico do consolidado;
+    os primeiros 59 registros de lote do manifesto DGP de main são
+    idênticos aos do consolidado, que possui 63 lotes (1.830 verbetes);
+    o texto Rdgp.txt de main já consta inteiro no consolidado.
+    A resolução de conflito pode integrar apenas a ancestralidade
+    de main como segundo pai de um merge na branch chat-gpt-commits,
+    mantendo sua árvore lexical inalterada. Verificar HEAD e proteção
+    expected_sha/force=false antes da atualização. Verificar que
+    PR #66 ficou sem conflitos e permaneceu ABERTO, sem merge para main.
+    Somente autorização expressa nova permite editar main.
