@@ -1,3 +1,65 @@
+================================================================================
+REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
+================================================================================
+
+Esta norma operacional vale para comandos individuais, orquestração sob demanda
+e ciclos da automação horária. PREVALECE sobre qualquer procedimento anterior
+que admita branches auxiliares, workflows/probes temporários ou pull requests.
+
+MATRIZ OBRIGATÓRIA DE DESTINO DOS COMMITS:
+BDAG     -> chat-gpt-bdag
+DGP      -> chat-gpt-dgp
+LEH      -> chat-gpt-leh
+PEREIRA  -> chat-gpt-pereira
+
+REGRA ESPECÍFICA DESTA FONTE (BDAG):
+TODO commit de lote, alteração lexical ou atualização administrativa desta
+frente deve ser criado e publicado DIRETAMENTE na branch chat-gpt-bdag.
+Esta é a ÚNICA branch autorizada a receber commits da etapa BDAG.
+Não publicar inicialmente em outra branch para depois mesclar.
+
+PROIBIÇÃO ABSOLUTA:
+- NÃO criar quaisquer branches novas: temporárias, de staging, 'orq-*',
+  'probe-*', de sondagem, teste, workflow, preparação ou correção;
+- NÃO abrir PRs nem usar merge, squash ou rebase de uma branch auxiliar
+  para simular um commit direto;
+- NÃO gerar workflows temporários nem arquivos auxiliares de sondagem
+  dentro de branches novas do repositório;
+- NÃO gravar lote desta fonte em main, chat-gpt-commits, branches de outras
+  fontes nem em qualquer outra branch;
+- NÃO usar force push, reset destrutivo nem sincronização automática de
+  branches para contornar a impossibilidade de publicação direta;
+- NÃO alterar ou reutilizar branches temporárias herdadas de execuções
+  anteriores como parte dos lotes futuros.
+
+COMMIT DIRETO E AUDITORIA:
+1. Ler este protocolo e obter o HEAD REAL de chat-gpt-bdag antes de editar.
+2. Preparar e conferir arquivos da própria fonte, no escopo autorizado.
+3. Criar o commit DIRETAMENTE sobre o HEAD corrente de chat-gpt-bdag,
+   preservando a exigência canônica de UM commit por lote.
+4. Confirmar o HEAD novamente imediatamente antes da gravação;
+   impedir sobrescrita concorrente e operar sem force.
+5. Após a gravação, verificar o commit e o HEAD remoto, os arquivos
+   modificados e a auditoria de conteúdo.
+6. Se a ferramenta NÃO suportar um único commit atômico de múltiplos
+   arquivos diretamente em chat-gpt-bdag, ou não houver proteção segura
+   contra concorrência, PARAR e informar a limitação; NÃO criar branch
+   auxiliar, PR ou múltiplos commits parciais para contorná-la.
+7. O mesmo vale para acesso à fonte PEREIRA: nenhuma branch de sondagem
+   de API poderá ser criada. Se o acesso direto seguro à fonte falhar,
+   suspender a etapa e informar, sem improvisação de branch.
+8. Para o DGP, quando a regra exigir três lotes, publicar três commits
+   independentes, todos DIRETAMENTE em chat-gpt-dgp, um por lote.
+9. Commits somente administrativos, como esta atualização de protocolo,
+   não constituem lotes de verbetes e não alteram os respectivos totais.
+
+Todos os demais critérios filológicos, editoriais, técnicos e de progresso
+permanecem em vigor, exceto procedimentos incompatíveis com esta norma.
+
+================================================================================
+FIM DA REGRA SUPREMA DE BRANCHES
+================================================================================
+
 RBDAG — REGRAS PERMANENTES PARA CONTINUIDADE DA INCORPORAÇÃO DO BDAG
 GDHAGP — GRANDE DICIONÁRIO HEBRAICO–ARAMAICO–GREGO–PORTUGUÊS
 SCRIPTURA LEXICON
@@ -2389,3 +2451,57 @@ Mas qualquer alteração posterior deve ser preservada e reconciliada.
 Nunca reverter trabalho posterior para fazer o repositório coincidir artificialmente com este documento.
 
 FIM DO DOCUMENTO DE CONTINUIDADE DO BDAG.
+
+
+================================================================================
+25. RODADA DE CONTINUIDADE — LOTE ἀπόθεσις → ἀποκομίζω
+================================================================================
+
+Checkpoint anterior: 921 search-row e 921 entry-card BDAG.
+HEAD-base: 1083730599cc2bbc37d681279a3b0b16ee871903.
+Fonte primária: ἀνθρωποποίητος–ἄωρος.pdf, páginas físicas 26–30.
+Vinte entradas consecutivas, incluindo cabeçalhos remissivos autônomos.
+Primeiro lema: ἀπόθεσις.
+Último lema: ἀποκομίζω.
+Total após publicação: 941 search-row e 941 entry-card BDAG.
+Próximo lema confirmado na fonte: ἀποκόπτω.
+Arquivos modificados: lexicons/bdag.js e regras/Rbdag.txt, no mesmo commit.
+Arquivos globais e das outras fontes preservados.
+SHA do commit de publicação: consultar GitHub (não autorreferenciar esta regra).
+
+
+================================================================================
+REGRA OBRIGATÓRIA DE LOCALIZAÇÃO DA FONTE PRIMÁRIA — 09/10/2026
+================================================================================
+
+Os arquivos PDF de trabalho estão versionados no próprio repositório,
+no diretório fontes/, inclusive nesta branch. Os nomes de arquivo são
+ESTÁVEIS e devem ser usados literalmente:
+- BDAG: fontes/fonte-bdag.pdf
+- LEH:  fontes/fonte-leh.pdf
+
+Os caminhos acima substituem referências antigas a nomes de PDFs por
+intervalo alfabético e não devem ser confundidos com diretórios sem extensão.
+O usuário substituirá periodicamente o CONTEÚDO desses mesmos arquivos
+quando o trabalho avançar às letras beta, gama, delta e seguintes.
+Portanto, antes de CADA lote, ler o PDF atual da branch da respectiva fonte,
+conferir SHA, conteúdo, intervalo de lemas e compatibilidade com o checkpoint.
+Não presumir que o conteúdo atual ainda corresponde à letra alfa.
+
+É PROIBIDO declarar que o PDF está ausente ou indisponível sem primeiro:
+1. consultar a árvore/contents de fontes/ na branch correta e HEAD real;
+2. identificar o caminho e SHA do PDF versionado;
+3. tentar ler/obter o conteúdo do PDF por meios autorizados;
+4. investigar falhas técnicas reais de leitura e registrar o erro concreto.
+
+Uma falha de extração/leitura não equivale a ausência do arquivo. Não
+substituir silenciosamente a fonte versionada por PDFs externos. Se o PDF
+estiver presente mas a leitura de suas páginas falhar, declarar precisamente
+a limitação e investigar outra forma autorizada de leitura, sem inventar
+verbetes. Não solicitar reenvio ao usuário sem verificar primeiro o GitHub.
+
+Esta regra é permanente e prevalece sobre instruções antigas que exijam
+localizar um PDF pelo nome variável do intervalo alfabético.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
