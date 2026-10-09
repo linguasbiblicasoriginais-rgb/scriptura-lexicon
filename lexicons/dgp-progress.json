@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 1931,
-    "status": "lote 65 concluído"
+    "next_ordinal": 1981,
+    "status": "lote 66 concluído"
   },
   "batches": [
     {
@@ -594,6 +594,15 @@
       "end_ordinal": 1930,
       "start_entry": "ἁλόμενος",
       "end_entry": "ἀλφάνω",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 66,
+      "start_ordinal": 1931,
+      "end_ordinal": 1980,
+      "start_entry": "ἀλφεσίβοιος, α, ον",
+      "end_entry": "ἅμαξα,",
       "entry_count": 50,
       "status": "concluído"
     }
