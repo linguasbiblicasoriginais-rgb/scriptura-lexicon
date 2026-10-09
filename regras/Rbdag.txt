@@ -2527,3 +2527,54 @@ localizar um PDF pelo nome variável do intervalo alfabético.
 
 
 REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 09/10/2026 — LOTE Ἀπολλωνία → ἀποπίπτω
+================================================================================
+Fonte canônica: fontes/fonte-bdag.pdf, blob Git 554c1523c9f893dced39f6047ca8375d5d7ca2a0, páginas físicas 32–33.
+Identidade binária verificada contra o PDF ἀνθρωποποίητος–ἄωρος.pdf.
+HEAD pai: 37f57bee6734a145796341590b85a5ddd1f81e5d.
+Lote único de 20 lemas consecutivos, incluindo ἀπολῶ/ἀπολωλός como remissão independente.
+Primeiro lema: Ἀπολλωνία, ας, ἡ. Último lema: ἀποπίπτω.
+Total projetado após publicação: 981 linhas de busca e 981 cartões BDAG.
+Próximo lema confirmado na fonte: ἀποπλανάω, página física 33, coluna direita.
+Distinções: ἀπολύτρωσις (redenção) ≠ ἀπόλυσις (dissolução);
+ἀπολύω mantém seis sentidos e as incertezas em Lc 2:29 e Hb 13:23;
+ἀποπαύω conserva a variante ἀνέπαυσεν e a hipótese paleográfica.
+Nenhum URL novo; referências e bibliographicTerms preservados.
+Auditoria pré-commit: 981 IDs/alvos únicos, zero órfãos, 20 pares novos.
+Arquivos: lexicons/bdag.js, regras/Rbdag.txt, regras/estado-orquestracao.json, README.md.
+Verificar o SHA do commit publicado e HEAD remoto diretamente no GitHub.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 09/10/2026 — LOTE ἀποπλανάω → ἀποστάσιον
+================================================================================
+Fonte: fontes/fonte-bdag.pdf, blob 554c1523c9f893dced39f6047ca8375d5d7ca2a0.
+Identidade binária comprovada com PDF da Biblioteca (2.750.278 bytes).
+Páginas físicas 33–35, com conferência textual e visual.
+HEAD pai: 0ce734fd2efee25ec7c398911b8d80b66358d22f.
+Lote de 20 lemas consecutivos: ἀποπλανάω; ἀποπλέω; ἀπόπληκτος;
+ἀποπληρόω; ἀποπλύνω; ἀποπνίγω; ἀπορέω; ἀπο(ρ)ρήγνυμι;
+ἀπορία; ἀπο(ρ)ρίπτω; ἀπορρέω; ἀπόρροια; ἀπορφανίζω;
+ἀποσκευάζω; ἀποσκίασμα; ἀποσμήχω; ἀποσπάω;
+ἀποσταλῶ/ἀποσταλείς; ἀποστασία; ἀποστάσιον.
+Contagem: 981 → 1001 search-row e entry-card; 20 pares, IDs/alvos únicos.
+Filologia: ἀποπνίγω (sufocar/afogar), ἀπορέω (Mc 6:20, ἠπόρει/ἐποίει),
+ἀπο(ρ)ρίπτω (três sentidos), ἀποσκίασμα (Tg 1:17, variantes),
+ἀπόπληκτος (letras pontilhadas), ἀποσταλῶ/ἀποσταλείς (remissão),
+ἀποστασία distinta de ἀποστάσιον.
+Nenhum link novo; bibliographicTerms inalterado; popups globais preservados.
+Arquivos: lexicons/bdag.js, regras/Rbdag.txt,
+regras/estado-orquestracao.json. README.md permaneceu inalterado
+porque a tentativa de gravar seu conteúdo foi rejeitada pela ferramenta.
+Próximo lema: ἀπόστασις, ἡ, página física 35.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 09/10/2026 — LOTE ἀπόστασις → ἀποτάσσω
+================================================================================
+Branch: chat-gpt-bdag. Pai: e198fcd2164460eb05cf36b2344e60a9e5d50269.
+Fonte: fontes/fonte-bdag.pdf, blob 554c1523c9f893dced39f6047ca8375d5d7ca2a0, 2.750.278 bytes; páginas físicas 35–38 conferidas textual e visualmente.
+20 lemas: ἀπόστασις; ἀποστάτης; ἀποστεγάζω; ἀποστέλλω; ἀποστερέω; ἀποστέρησις; ἀποστερητής; ἀποστῇ/ἀποστῆναι/ἀποστήσομαι/ἀπόστητε; ἀποστιβάζω; ἀποστολή; ἀποστολικός; ἀπόστολος; ἀποστοματίζω; ἀποστρέφω; ἀποστροφή; ἀποστυγέω; ἀποσυνάγωγος; ἀποσυνέχω; ἀποσύρω; ἀποτάσσω.
+Contagem pré-publicação: 1001 → 1021 linhas e cartões; 20 pares únicos; zero órfãos; nenhuma URL nova; popups/bibliographicTerms preservados; sintaxe JS válida.
+Notas: ἀποστέλλω mantém dois sentidos e subdivisões; ἀπόστολος distingue mensageiros ordinários e extraordinários, preserva Júnia/Junias; ἀποστρέφω conserva cinco sentidos; ἀποστοματίζω conserva incertezas textuais; ἀποστῇ e formas agrupadas permanecem um único verbete remissivo.
+Próximo lema: ἀποτελέω, página física 38, coluna esquerda.

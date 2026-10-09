@@ -13,7 +13,24 @@
     "force": false,
     "post_commit_remote_audit_required": true
   },
-  "last_confirmed_lexical_checkpoint": null,
+  "last_confirmed_lexical_checkpoint": {
+    "total_rows": 1021,
+    "total_cards": 1021,
+    "last_lemma": "ἀποτάσσω",
+    "next_lemma": "ἀποτελέω",
+    "first_lemma_of_latest_batch": "ἀπόστασις, ἡ",
+    "last_batch_count": 20,
+    "source_pdf": "fontes/fonte-bdag.pdf",
+    "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
+    "source_pdf_pages": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "parent_head": "e198fcd2164460eb05cf36b2344e60a9e5d50269",
+    "verified": "prepublication_lexical_and_structural_audit"
+  },
   "execution": {
     "state": "derive_from_remote",
     "do_not_auto_skip": true,
