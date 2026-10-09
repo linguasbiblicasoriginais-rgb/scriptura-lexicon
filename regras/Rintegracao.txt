@@ -61,3 +61,18 @@ autônoma, e não autorização para omitir conflitos resolvíveis.
 A auditoria das 05h na branch chat-gpt-correcoes conserva prioridade.
 Em todo relatório, informar PR, arquivos em conflito, método, resultado
 dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
+
+13. PR #65 — resolução de conflitos (09/10/2026)
+   Origem: chat-gpt-correcoes; destino: chat-gpt-commits.
+   Estratégia: preservar integralmente o HEAD lexicográfico mais recente no
+   destino (PEREIRA 510), pois 460 search-row e 460 entry-card do HEAD da
+   origem já constam literalmente no destino. Não rebaixar checkpoint PEREIRA
+   para 461 nem reverter os 50 registros do lote 012. Preservar Rcorrecoes
+   proveniente da origem, com regra de ouro e auditoria às 05h. Manter os
+   dois JSON de sondagem PEREIRA como evidência histórica: 16 e 27 prefixos
+   sem erros registrados. NÃO promover o workflow temporário de sondagem,
+   restrito a uma branch obsoleta e com permissão de escrita; seu histórico
+   continua acessível na origem e no segundo pai do merge. PDFs idênticos
+   não são duplicados; README e esta regra registram a reconciliação.
+   Garantias: não criar verbetes, não alterar main, não editar/excluir
+   branches de origem, proteger o update do HEAD e conferir PR merged=true.
