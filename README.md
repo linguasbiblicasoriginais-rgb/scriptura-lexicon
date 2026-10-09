@@ -239,3 +239,8 @@ for substituído por recortes das letras beta, gama, delta etc. Antes de
 cada lote, conferir o arquivo e seu SHA no HEAD da branch correspondente,
 verificar o intervalo de verbetes e consultar a regra canônica. Nunca
 alegar ausência do PDF sem verificar o diretório `fontes/` no GitHub.
+
+
+### Orquestração recuperável (09/10/2026)
+
+O manifesto de estado da branch está em `regras/estado-orquestracao.json`; o protocolo completo em `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto é a autoridade; não confundir o manifesto com uma publicação lexical, nem considerar pré-voo como auditoria filológica. Os PDFs BDAG/LEH têm nomes estáveis em `fontes/`.

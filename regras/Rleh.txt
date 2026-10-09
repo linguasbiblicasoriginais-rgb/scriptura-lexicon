@@ -1148,3 +1148,6 @@ verificar a fonte no GitHub.
 
 Esta regra prevalece sobre instruções antigas de buscar arquivos por
 nomes variáveis de intervalos lexicais e deve ser mantida permanentemente.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
