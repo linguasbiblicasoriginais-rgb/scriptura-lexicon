@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 361,
-    "status": "lote 9 concluído"
+    "next_ordinal": 511,
+    "status": "lote 12 concluído"
   },
   "batches": [
     {
@@ -109,13 +109,46 @@
       "start_source_id": 33250,
       "end_source_id": 34368,
       "status": "concluído"
+    },
+    {
+      "batch": 10,
+      "start_ordinal": 361,
+      "end_ordinal": 410,
+      "start_entry": "Ἀγχί-νοος, οον",
+      "end_entry": "Ἀ-δαγμός, οῦ",
+      "entry_count": 50,
+      "start_source_id": 34369,
+      "end_source_id": 34417,
+      "status": "concluído"
+    },
+    {
+      "batch": 11,
+      "start_ordinal": 411,
+      "end_ordinal": 460,
+      "start_entry": "Ἄ-δᾳδος, ον",
+      "end_entry": "Ἀ-δέψητος, ον",
+      "entry_count": 50,
+      "start_source_id": 34418,
+      "end_source_id": 34466,
+      "status": "concluído"
+    },
+    {
+      "batch": 12,
+      "start_ordinal": 461,
+      "end_ordinal": 510,
+      "start_entry": "Ἀδέω",
+      "end_entry": "Ἀ-διέργαστος, ον",
+      "entry_count": 50,
+      "start_source_id": 34467,
+      "end_source_id": 34515,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 361,
-    "source_id": 34369,
-    "searchable": "αγχινοος",
-    "lemma": "Ἀγχί-νοος, οον"
+    "ordinal": 511,
+    "source_id": 34516,
+    "searchable": "αδιερευνητος",
+    "lemma": "Ἀ-διερεύνητος, ον"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",

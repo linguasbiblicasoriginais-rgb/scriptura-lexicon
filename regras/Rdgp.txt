@@ -1,3 +1,85 @@
+================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Decisão atual do usuário, revoga dependência ou sequência global antiga.
+Este agendamento DGP executa A CADA HORA independentemente do BDAG, LEH e PEREIRA.
+Publicação da frente DGP SÓ em `chat-gpt-dgp`, com lotes e commits conforme
+regra lexicográfica própria, conferindo sempre HEAD remoto e checkpoint.
+Os processos de fonte NÃO criam PRs nem fazem merges; não escrevem em
+`chat-gpt-commits`, `main` ou branches alheias, nem criam branches auxiliares.
+A QUINTA ROTINA de integração, a cada 3 horas, é a ÚNICA exceção apta a
+abrir/reutilizar PR das seis origens BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES
+para `chat-gpt-commits`, resolver conflitos e mesclar sem excluir origens.
+Uma falha de BDAG, LEH ou PEREIRA NUNCA bloqueia incorporação DGP.
+Obrigatório em TODO relatório: tabela com quatro totais BDAG, DGP, LEH,
+PEREIRA, apurados remotamente; registrar `não verificado` se necessário.
+DGP: checkpoint 1.830 do lote 63 ainda requer auditoria de correspondência
+com as marcações HTML; não alegar contagem de cartões confirmada de 1.830.
+Consultar ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt.
+================================================================================
+
+================================================================================
+REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
+================================================================================
+
+Esta norma operacional vale para comandos individuais, orquestração sob demanda
+e ciclos da automação horária. PREVALECE sobre qualquer procedimento anterior
+que admita branches auxiliares, workflows/probes temporários ou pull requests.
+
+MATRIZ OBRIGATÓRIA DE DESTINO DOS COMMITS:
+BDAG     -> chat-gpt-bdag
+DGP      -> chat-gpt-dgp
+LEH      -> chat-gpt-leh
+PEREIRA  -> chat-gpt-pereira
+
+REGRA ESPECÍFICA DESTA FONTE (DGP):
+TODO commit de lote, alteração lexical ou atualização administrativa desta
+frente deve ser criado e publicado DIRETAMENTE na branch chat-gpt-dgp.
+Esta é a ÚNICA branch autorizada a receber commits da etapa DGP.
+Não publicar inicialmente em outra branch para depois mesclar.
+
+PROIBIÇÃO ABSOLUTA:
+- NÃO criar quaisquer branches novas: temporárias, de staging, 'orq-*',
+  'probe-*', de sondagem, teste, workflow, preparação ou correção;
+- NÃO abrir PRs nem usar merge, squash ou rebase de uma branch auxiliar
+  para simular um commit direto;
+- NÃO gerar workflows temporários nem arquivos auxiliares de sondagem
+  dentro de branches novas do repositório;
+- NÃO gravar lote desta fonte em main, chat-gpt-commits, branches de outras
+  fontes nem em qualquer outra branch;
+- NÃO usar force push, reset destrutivo nem sincronização automática de
+  branches para contornar a impossibilidade de publicação direta;
+- NÃO alterar ou reutilizar branches temporárias herdadas de execuções
+  anteriores como parte dos lotes futuros.
+
+COMMIT DIRETO E AUDITORIA:
+1. Ler este protocolo e obter o HEAD REAL de chat-gpt-dgp antes de editar.
+2. Preparar e conferir arquivos da própria fonte, no escopo autorizado.
+3. Criar o commit DIRETAMENTE sobre o HEAD corrente de chat-gpt-dgp,
+   preservando a exigência canônica de UM commit por lote.
+4. Confirmar o HEAD novamente imediatamente antes da gravação;
+   impedir sobrescrita concorrente e operar sem force.
+5. Após a gravação, verificar o commit e o HEAD remoto, os arquivos
+   modificados e a auditoria de conteúdo.
+6. Se a ferramenta NÃO suportar um único commit atômico de múltiplos
+   arquivos diretamente em chat-gpt-dgp, ou não houver proteção segura
+   contra concorrência, PARAR e informar a limitação; NÃO criar branch
+   auxiliar, PR ou múltiplos commits parciais para contorná-la.
+7. O mesmo vale para acesso à fonte PEREIRA: nenhuma branch de sondagem
+   de API poderá ser criada. Se o acesso direto seguro à fonte falhar,
+   suspender a etapa e informar, sem improvisação de branch.
+8. Para o DGP, quando a regra exigir três lotes, publicar três commits
+   independentes, todos DIRETAMENTE em chat-gpt-dgp, um por lote.
+9. Commits somente administrativos, como esta atualização de protocolo,
+   não constituem lotes de verbetes e não alteram os respectivos totais.
+
+Todos os demais critérios filológicos, editoriais, técnicos e de progresso
+permanecem em vigor, exceto procedimentos incompatíveis com esta norma.
+
+================================================================================
+FIM DA REGRA SUPREMA DE BRANCHES
+================================================================================
+
 RDGP — PROTOCOLO PERMANENTE DE CONTINUIDADE DO DGP
 Scriptura Lexicon / Grande Dicionário Hebraico–Aramaico–Grego–Português
 Versão inaugural: 08/10/2026
@@ -567,3 +649,52 @@ Total projetado após publicação: 1630; próximo ordinal 1631: ἀλεκτορ
 Arquivos editados: dgp-batches.js, dgp-progress.json e regras/Rdgp.txt; nenhuma alteração em BDAG/LEH ou infraestrutura.
 
 FIM DO PROTOCOLO RDGP, VERSÃO INAUGURAL DE 08/10/2026.
+
+=====================================================================
+REGISTRO DE CONTINUIDADE — LOTE 60 (08/10/2026)
+=====================================================================
+
+Publicação pretendida do lote 60, ordinais 1631–1680, de ἀλεκτορίσκος, ου (ὁ) até ἀλεωρά, ᾶς (ἡ).
+Após confirmação do commit consolidado: 60 lotes, 1680 registros incorporados, próximo ordinal 1681 (ἄλη, ης (ἡ)).
+Consultar HEAD remoto para SHA real; o presente registro não constitui prova isolada da publicação.
+
+=====================================================================
+REGISTRO DE CONTINUIDADE — LOTE 61 (08/10/2026)
+=====================================================================
+
+Lote 61, ordinais 1681–1730, de ἄλη, ης (ἡ) até ἀλίθιος, α, ον.
+Após confirmação do commit consolidado: 61 lotes, 1730 registros incorporados, próximo ordinal 1731 (ἀλιθίως).
+Consultar o HEAD remoto para o SHA real; este registro não substitui a verificação da publicação.
+
+=====================================================================
+REGISTRO DE CONTINUIDADE — LOTE 62 (08/10/2026)
+=====================================================================
+
+Lote 62, ordinais 1731–1780, de ἀλιθίως até ἀλκή, ῆς (ἡ).
+Após confirmação do commit consolidado: 62 lotes e 1780 registros incorporados, próximo ordinal 1781 (Ἄλκηστις, ιδος (ἡ)).
+Consultar HEAD real do GitHub para SHA definitivo; não confundir texto de controle com prova de publicação.
+
+
+=====================================================================
+REGISTRO DE CONTINUIDADE — LOTE 63 (08/10/2026)
+=====================================================================
+
+Lote 63: ordinais 1781–1830, Ἄλκηστις, ιδος (ἡ) → ἀλλοίως.
+Foram incorporados 50 registros consecutivos da fonte primária XML fixada
+(blob eec318bb6150b6b2f4422ea4a76383ac0a254de2), sem supressão de definições.
+Total após publicação e auditoria: 63 lotes, 1830 registros; próximo ordinal 1831.
+Os textos originais e as abreviaturas foram preservados sem expansão conjectural.
+Diagnóstico operacional: a criação de blob Git do protocolo integral acrescido
+de registro de lote foi aceita; publicação por árvore e commit atômico direto.
+A validação visual em navegador permanece pendente e não é presumida.
+Consultar o commit real no GitHub para SHA definitivo.
+
+
+CORREÇÃO TÉCNICA PÓS-AUDITORIA DO LOTE 63 — 08/10/2026:
+A auditoria remota identificou que os 50 cartões foram inicialmente
+acrescentados à propriedade entriesHtml, não consumida pelo módulo DGP.
+Corrigido o destino para cardsHtml, preservando integralmente os 50 verbetes,
+as definições, os IDs e o manifesto. Correção administrativa sem novo lote.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.

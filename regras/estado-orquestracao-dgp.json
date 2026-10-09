@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "project": "GDHAGP / Scriptura Lexicon",
+  "stage": "DGP",
+  "branch": "chat-gpt-dgp",
+  "checkpoint_authority": "remote GitHub lexical commits and canonical source-specific rules",
+  "progress_policy": "recalculate on every run; never trust conversation state or a cached SHA",
+  "source_pdf": null,
+  "source_filename_stable": null,
+  "publication": {
+    "commit_strategy": "single_atomic_commit_per_batch",
+    "expected_head_required": true,
+    "force": false,
+    "post_commit_remote_audit_required": true
+  },
+  "last_confirmed_lexical_checkpoint": null,
+  "execution": {
+    "state": "derive_from_remote",
+    "do_not_auto_skip": true,
+    "independent": true,
+    "frequency_hours": 1,
+    "wait_for_other_sources": false
+  },
+  "integration": {
+    "separate_task": true,
+    "frequency_hours": 3,
+    "source_pr_allowed": false,
+    "integrator_only_pr": true,
+    "target": "chat-gpt-commits"
+  },
+  "reporting": {
+    "required_totals_table": [
+      "BDAG",
+      "DGP",
+      "LEH",
+      "PEREIRA"
+    ],
+    "remote_recheck_each_run": true
+  }
+}

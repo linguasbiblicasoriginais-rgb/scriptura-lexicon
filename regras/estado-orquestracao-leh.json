@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "project": "GDHAGP / Scriptura Lexicon",
+  "stage": "LEH",
+  "branch": "chat-gpt-leh",
+  "checkpoint_authority": "remote GitHub lexical commits and canonical source-specific rules",
+  "progress_policy": "recalculate on every run; never trust conversation state or a cached SHA",
+  "source_pdf": "fontes/fonte-leh.pdf",
+  "source_filename_stable": true,
+  "publication": {
+    "commit_strategy": "single_atomic_commit_per_batch",
+    "expected_head_required": true,
+    "force": false,
+    "post_commit_remote_audit_required": true
+  },
+  "last_confirmed_lexical_checkpoint": {
+    "entries": 690,
+    "previous_lemma": "ἀνατίκτω",
+    "first_lemma": "ἀνατιναγμός",
+    "last_lemma": "ἀναχάσκω",
+    "next_lemma": "ἀναχωρέω",
+    "provenance": "lexicons/leh.js and LEH primary source, audit 2026-10-09; confirm remote HEAD after publication"
+  },
+  "execution": {
+    "state": "awaiting_next_lexical_batch",
+    "do_not_auto_skip": true,
+    "independent": true,
+    "frequency_hours": 1,
+    "wait_for_other_sources": false
+  },
+  "integration": {
+    "separate_task": true,
+    "frequency_hours": 3,
+    "source_pr_allowed": false,
+    "integrator_only_pr": true,
+    "target": "chat-gpt-commits"
+  },
+  "reporting": {
+    "required_totals_table": [
+      "BDAG",
+      "DGP",
+      "LEH",
+      "PEREIRA"
+    ],
+    "remote_recheck_each_run": true
+  }
+}

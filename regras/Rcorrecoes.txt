@@ -1,0 +1,68 @@
+RCORRECOES — PROTOCOLO DE AUDITORIA E CORRECOES DO SCRIPTURA LEXICON
+Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
+Branch exclusiva de publicação: chat-gpt-correcoes
+Periodicidade solicitada: diariamente às 05:00, America/Sao_Paulo
+Instituído em 08/10/2026.
+
+REGRA DE OURO — PROTEÇÃO ABSOLUTA DA BRANCH DE CORREÇÕES
+Toda correção, ajuste de testes, arquivo de auditoria e atualização deste próprio protocolo pertencente a ESTE processo deve ser commitada SEMPRE E SOMENTE em chat-gpt-correcoes. Informar explicitamente branch: chat-gpt-correcoes em toda ferramenta de escrita; jamais deixar o campo branch vazio (pois o valor padrão seria main). É proibido commitar, mesclar, atualizar refs ou abrir alterações destinadas a main, chat-gpt-commits, chat-gpt-bdag, chat-gpt-dgp, chat-gpt-leh, chat-gpt-pereira e quaisquer outras branches neste processo. Leituras de outras branches são permitidas para auditoria e comparação; ESCRITAS, nunca.
+Antes de cada commit: verificar o HEAD remoto da branch de correções; comparar o conteúdo e as mudanças propostas com main; resolver conflitos somente DENTRO de chat-gpt-correcoes, sem alterar o conteúdo de main, sem apagar trabalho alheio e sem reescrever histórico. Usar mecanismo de controle concorrente, interrompendo diante de atualização remota inesperada. Depois de cada commit: confirmar SHA e branch de destino no GitHub, comparar novamente com main e registrar as pendências de integração.
+A integração segura deve ser demonstrada por verificação de merge quando possível; mera comparação de diffs não garante ausência de conflitos. Se a integração limpa não puder ser confirmada, não afirmar que não haverá conflitos e suspender correções de risco até reconciliação. Um conflito existente na ancestralidade das branches deve ser explicitamente informado: não se admite promessa absoluta de inexistência de conflitos futuros.
+A rotina não faz merge nem atualiza a branch principal. PR para main somente por iniciativa separada e expressa do usuário.
+
+1. OBJETIVO
+Revisar diariamente TODO o acervo publicado no estado real da branch, incluindo entradas recém-integradas de BDAG, DGP, LEH, PEREIRA e outras fontes existentes. Corrigir defeitos funcionais, apresentação e marcação com intervenção mínima, mantendo identidade e redação de cada léxico. Nunca realizar incorporação de novos verbetes como parte desta rotina.
+
+2. FONTE DE VERDADE E CONCORRÊNCIA
+Acessar GitHub no início de cada execução; consultar HEAD de main, chat-gpt-correcoes, chat-gpt-commits e das branches de fonte envolvidas, bem como PARALLEL_WORKFLOW.md e as regras canônicas atuais de cada fonte. Não usar SHAs antigos como autoridade.
+A tarefa horária de incorporação de verbetes pode estar ativa. Não iniciar escritas concorrentes sobre arquivos tocados por outro processo. Trabalhar na branch chat-gpt-correcoes; jamais escrever em main, chat-gpt-commits ou branches exclusivas de fontes. Não usar force-push, reescrita destrutiva de histórico, nem cherry-pick cego.
+Antes de publicar, conferir alterações remotas e reconciliar o novo HEAD. Sincronizar com main ou com o ramo de integração somente se a operação não sobrescrever nem duplicar edições; diante de conflito ou incerteza, interromper a escrita e relatar o impedimento. Nenhum processo pode prometer ausência absoluta de conflitos em futuros PRs; deve verificar compatibilidade e parar quando não puder demonstrá-la.
+
+3. VARREDURA SISTEMÁTICA
+a) Integridade estrutural: uma search-row para cada entry-card, unicidade de IDs, data-target válidos, ausência de órfãos, ordem/contagem por fonte, renderização e carregamento de módulos.
+b) Popups: inventariar TODAS as abreviaturas morfológicas, gramaticais, filológicas, editoriais e bibliográficas presentes em todos os cartões; conferir cadastro da chave, reconhecimento, ativação por hover, clique e teclado e conteúdo correto do tooltip. Conferir autores, obras, corpora, manuscritos, abreviações bíblicas e referências externas. Nunca inventar uma expansão incerta.
+c) Tipografia e texto: detectar falta/excesso de espaço (em especial abreviatura + forma grega), pontuação, aglutinações, itálicos indevidos, numeração de acepções, diacríticos Unicode, caracteres gregos politônicos e hebraicos, HTML e estilos claro/escuro.
+d) Referências: verificar hyperlinks e popups internos, URLs proibidas, links quebrados quando verificáveis, data-attributes, atributos acessíveis.
+e) Regressão: preservar integralmente conteúdo filológico e as camadas Fonte/Tradução/Análise/GDHAGP, testando visual e funcionalmente as alterações quando ferramentas permitirem.
+f) Priorizar erros que atinjam muitas entradas; coletar achados de todos os verbetes, não só os da amostra. Persistir inventário de pendências verificáveis para retomar no dia seguinte, sem supor que uma varredura parcial foi completa.
+
+4. CASOS DE REGRESSÃO OBRIGATÓRIOS
+BDAG ἀγαθοεργέω: a referência “Pitágoras, Ep. 10 p. 607” deve ser investigada quanto ao popup bibliográfico apropriado, com expansão baseada em fonte comprovada.
+DGP ἀλείφω: “fut.” deve ter tooltip “futuro” e separação tipográfica correta da forma grega “ἀλείψω”.
+As capturas de tela do usuário servem como relato de defeito, não substituem confronto com os dados e código atuais.
+
+5. EDIÇÃO E TESTES
+Preferir mudanças restritas a definições bibliográficas e ao módulo específico de cada fonte. Alterações globais de script.js, index.html ou style.css são excepcionais e exigem reconciliação com o fluxo de integração. Não modificar lotes nem manifestos de progresso lexicográfico. Adicionar testes de regressão objetivos para classes de bugs corrigidas quando viável. Validar sintaxe, integridade DOM e popups. Quando possível, verificar comportamento em navegador em tema claro/escuro e com navegação por teclado.
+Um commit pequeno por conjunto coerente de correções testadas, com mensagem descritiva; confirmar SHA e diff após gravar. Não publicar correções conjecturais. Se nada puder ser corrigido com segurança, não criar commit artificial.
+
+6. PRs E RELATÓRIO
+Comparar chat-gpt-correcoes com main a cada rodada e verificar possibilidade real de merge antes de sugerir PR. Não criar nem mesclar PR automaticamente sem solicitação do usuário. Não afirmar “sem conflitos” quando as branches divergirem ou sem teste real de merge. Registrar: data/hora, HEADs observados, universo examinado, número de erros encontrados e corrigidos por classe e por léxico, testes executados, arquivos e SHAs de commits, pendências e conflitos detectados. Não inventar contagens de verbetes examinados ou resultados de testes.
+
+ 
+7. PRESERVAÇÃO DA AUDITORIA DIÁRIA DE 05H — ALTERAÇÃO DO AGENDAMENTO (09/10/2026)
+
+A obrigação de auditoria DIÁRIA às 05h no fuso America/Sao_Paulo permanece
+INTEGRALMENTE VIGENTE, sem redução de escopo, frequência, regras de ouro,
+revisão de popups ou testes de regressão. A tarefa antiga exclusivamente de
+auditoria foi PAUSADA apenas para liberar a quinta vaga de agendamentos.
+O novo agendamento combinado "GDHAGP integração e auditoria 05h" funciona
+em oito horários: 02h, 05h, 08h, 11h, 14h, 17h, 20h e 23h. Na execução
+de 05h DEVE REALIZAR PRIMEIRO a auditoria detalhada prevista neste protocolo
+e somente depois a integração de branches. Erros de PR ou bloqueios das
+outras fontes não podem suprimir a auditoria. O serviço está agendado, mas
+a execução real deve ser comprovada e eventuais indisponibilidades
+explicitadas sem promessas de sucesso não observado.
+
+DIVISÃO DE RESPONSABILIDADES ABSOLUTA:
+- Fase de auditoria 05h: todas as leituras, auditorias, correções e commits
+  obedecem esta regra de ouro, com escrita SOMENTE em chat-gpt-correcoes.
+  Nunca criar PR ou fazer merge durante esta fase.
+- Fase subsequente de integração, executada separadamente pela quinta
+  rotina, é a ÚNICA autorizada a abrir/mesclar PRs das seis origens para
+  chat-gpt-commits, conforme regras/Rintegracao.txt na branch de integração.
+  Não atribuir a esses PRs o papel de uma edição da auditoria; não modificar
+  a branch chat-gpt-correcoes durante a etapa de integração.
+- Em todos os horários, o relatório da rotina combinada apresenta tabela
+  atualizada dos totais de verbetes BDAG, DGP, LEH e PEREIRA, com origem e
+  ressalvas de verificação; o DGP tinha 1.830 por checkpoint em 09/10/2026,
+  ainda sem reconciliação completa dos cartões.
