@@ -1151,3 +1151,13 @@ nomes variáveis de intervalos lexicais e deve ser mantida permanentemente.
 
 
 REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+
+NOVO CHECKPOINT LEXICAL — 09/10/2026 (lote LEH de 20 verbetes)
+HEAD-base verificado: 31ad317a6edeb4ea45f29d351d142eabfe17e8d6
+Verbete anterior: ἀνατίκτω. Intervalo incorporado: ἀνατιναγμός → ἀναχάσκω.
+Quantidade incorporada: 20; total projetado de LEH: 690 search-row e 690 entry-card.
+Próximo lema: ἀναχωρέω. PDF-fonte: fontes/fonte-leh.pdf (blob f4e76ee6414b6aace210ca9f7c061e92488cc0fa).
+Transposição das páginas do recorte ἁλεεύς–ἄωρος.pdf, p. físicas 38–41.
+Ressalvas: notas hebraicas de Is 11,11 e Ec 12,6 preservadas com indicação de leitura extraída não conferida na imagem; não converter corr.? em corr.
+Não considerar esta projeção como publicada sem confirmação do novo HEAD remoto.

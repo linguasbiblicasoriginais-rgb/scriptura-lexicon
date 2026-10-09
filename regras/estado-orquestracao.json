@@ -20,9 +20,12 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "entries": 670,
-    "next_lemma": "ἀνατιναγμός",
-    "provenance": "regras/Rleh.txt checkpoint dated 2026-10-08; must be revalidated against current lexicon"
+    "entries": 690,
+    "previous_lemma": "ἀνατίκτω",
+    "first_lemma": "ἀνατιναγμός",
+    "last_lemma": "ἀναχάσκω",
+    "next_lemma": "ἀναχωρέω",
+    "provenance": "lexicons/leh.js and LEH primary source, audit 2026-10-09; confirm remote HEAD after publication"
   },
   "execution": {
     "state": "awaiting_next_lexical_batch",

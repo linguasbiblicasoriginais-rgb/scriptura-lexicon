@@ -244,3 +244,7 @@ alegar ausência do PDF sem verificar o diretório `fontes/` no GitHub.
 ### Orquestração recuperável (09/10/2026)
 
 O manifesto de estado da branch está em `regras/estado-orquestracao.json`; o protocolo completo em `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto é a autoridade; não confundir o manifesto com uma publicação lexical, nem considerar pré-voo como auditoria filológica. Os PDFs BDAG/LEH têm nomes estáveis em `fontes/`.
+
+### LEH — Continuidade lexical (09/10/2026)
+
+O lote de 20 verbetes da sequência **ἀνατιναγμός → ἀναχάσκω** eleva a frente LEH de **670 para 690 entradas**. O próximo lema é **ἀναχωρέω**. A fonte é `fontes/fonte-leh.pdf` (SHA do blob `f4e76ee6414b6aace210ca9f7c061e92488cc0fa`). Os registros LEH mantêm identidade separada de BDAG, DGP e PEREIRA. Conferir o HEAD da branch `chat-gpt-leh` e `regras/estado-orquestracao.json` antes de qualquer retomada. Notas textuais extraídas que exigem cotejo visual permanecem explicitamente identificadas no cartão.
