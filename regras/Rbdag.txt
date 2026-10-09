@@ -2527,3 +2527,21 @@ localizar um PDF pelo nome variável do intervalo alfabético.
 
 
 REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 09/10/2026 — LOTE Ἀπολλωνία → ἀποπίπτω
+================================================================================
+Fonte canônica: fontes/fonte-bdag.pdf, blob Git 554c1523c9f893dced39f6047ca8375d5d7ca2a0, páginas físicas 32–33.
+Identidade binária verificada contra o PDF ἀνθρωποποίητος–ἄωρος.pdf.
+HEAD pai: 37f57bee6734a145796341590b85a5ddd1f81e5d.
+Lote único de 20 lemas consecutivos, incluindo ἀπολῶ/ἀπολωλός como remissão independente.
+Primeiro lema: Ἀπολλωνία, ας, ἡ. Último lema: ἀποπίπτω.
+Total projetado após publicação: 981 linhas de busca e 981 cartões BDAG.
+Próximo lema confirmado na fonte: ἀποπλανάω, página física 33, coluna direita.
+Distinções: ἀπολύτρωσις (redenção) ≠ ἀπόλυσις (dissolução);
+ἀπολύω mantém seis sentidos e as incertezas em Lc 2:29 e Hb 13:23;
+ἀποπαύω conserva a variante ἀνέπαυσεν e a hipótese paleográfica.
+Nenhum URL novo; referências e bibliographicTerms preservados.
+Auditoria pré-commit: 981 IDs/alvos únicos, zero órfãos, 20 pares novos.
+Arquivos: lexicons/bdag.js, regras/Rbdag.txt, regras/estado-orquestracao.json, README.md.
+Verificar o SHA do commit publicado e HEAD remoto diretamente no GitHub.
