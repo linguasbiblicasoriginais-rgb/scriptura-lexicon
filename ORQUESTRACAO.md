@@ -1,5 +1,10 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## Implantação do runner: estado de preparação
+
+O executor determinístico do DGP e o workflow em `.github/workflows/dgp-hourly.yml` encontram-se preparados em `chat-gpt-commits`, mas **NÃO estão instalados na branch padrão main nem executando automaticamente**. Seus testes Python e de PR/merge ainda devem ser validados em runner antes da ativação. A variável `DGP_ALLOW_STATIC_INTEGRATION=false` impede que uma auditoria meramente textual seja considerada certificação editorial High. Consultar `docs/DGP-AUTOMACAO.md` para detalhes e critérios de liberação.
+
+
 ## Regra superior de continuidade — fase exclusiva DGP (09/10/2026)
 
 Esta norma prevalece sobre a programação histórica descrita abaixo. BDAG, LEH e PEREIRA permanecem **temporariamente suspensos**. Cada ciclo DGP usa 100 verbetes e três etapas persistentes: (1) `chat-gpt-dgp`, com commit fonte; (2) `chat-gpt-correcoes`, com relatório de auditoria independente e eventuais correções; (3) PR/merge em `chat-gpt-commits`. A perda de uma etapa não apaga o commit de outra. Reconciliar o HEAD remoto antes de qualquer repetição; proibir duplicações, branches auxiliares, exclusão de origens, force push e alterações em `main` sem autorização expressa. A cadência horária e modelo High **não constituem garantias de serviço**; a programação deve ser validada antes de uso. Este texto normativo não cria, por si, agendamento algum. **Ciclo de prova nº 1 (lote 69):** incorporação 9e371763, auditoria cc47e615, merges #74 e #75 confirmados; auditoria textual 100/100, navegador pendente. Fluxo realizado manualmente, **sem agendamento automático instalado**.

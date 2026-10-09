@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+## Preparação técnica do executor DGP — 09/10/2026
+
+O código da automação horária de 100 registros e seus testes foram preparado(s) em `tools/dgp_engine.py`, `tools/dgp_orchestrator.py`, `tests/` e `.github/workflows/dgp-hourly.yml`. Consulte [o plano técnico e os limites de auditoria](docs/DGP-AUTOMACAO.md). **A automação NÃO está ativa**: o workflow não foi instalado na branch padrão `main`, os testes em runner não foram executados e a integração automática segue bloqueada por falta de certificação editorial equivalente a High. Não tratar a programação descrita como tarefa criada ou como SLA de 60 minutos.
 
 ## Fase operacional exclusiva DGP — 09/10/2026
 
