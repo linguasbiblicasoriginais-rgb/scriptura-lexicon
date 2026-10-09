@@ -245,3 +245,11 @@ normativa está documentada em `regras/Rbdag.txt` e `regras/Rleh.txt`.
 ### Orquestração recuperável (09/10/2026)
 
 Manifesto local: `regras/estado-orquestracao.json`. Protocolo: `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto prevalece; não confundir pré-voo com auditoria lexical. Os PDFs BDAG/LEH têm nomes permanentes em `fontes/`.
+
+## Execução independente dos quatro léxicos — norma de 09/10/2026
+
+BDAG, DGP, LEH e PEREIRA **não dependem uns dos outros**: quatro agendamentos horários individuais, cada um publica exclusivamente em sua branch (`chat-gpt-bdag`, `chat-gpt-dgp`, `chat-gpt-leh` e `chat-gpt-pereira`). **É proibido abrir PR ou mesclar durante a execução de qualquer fonte.** O quinto agendamento, separado, verifica a cada 3 horas as seis origens (essas quatro mais `chat-gpt-estilos` e `chat-gpt-correcoes`), abre/reutiliza PR para `chat-gpt-commits`, audita, resolve conflitos e mescla sem excluir a origem; nunca altera `main`.
+
+Esta é a política **desejada**; um documento não comprova que todos os cinco agendamentos estejam ativos. Ver `ORQUESTRACAO.md`, `PARALLEL_WORKFLOW.md` e `regras/Rintegracao.txt`. Os checkpoints são locais a cada branch; nunca usar a antiga ordem BDAG → DGP → LEH → PEREIRA como pré-requisito.
+
+**Todo relatório de qualquer rotina deve incluir uma tabela com as quantidades totais de BDAG, DGP, LEH e PEREIRA**, consultadas nos HEADs remotos atuais; reportar `não verificado` onde faltar evidência. Retrato em 09/10/2026: BDAG 941 linhas/cartões; DGP 1.830 no manifesto (contagem HTML ainda não reconciliada); LEH 690 linhas/cartões; PEREIRA 510 linhas/cartões. Não usar esses valores históricos como números atuais. A leitura dos verbetes, revisão de popups, fontes e auditoria permanece específica de cada léxico.
