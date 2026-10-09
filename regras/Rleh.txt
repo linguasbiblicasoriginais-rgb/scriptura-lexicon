@@ -1,4 +1,24 @@
 ================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Esta decisão atual revoga toda obrigação de ordem global entre léxicos.
+LEH roda A CADA HORA independentemente de BDAG, DGP e PEREIRA.
+Publicar SOMENTE em `chat-gpt-leh`: lotes atômicos, checkpoint exclusivo,
+conteúdo real da fonte LEH, com auditoria filológica e técnica antes/depois.
+NÃO criar PR, nem mesclar, rebase, branches auxiliares, nem escrever em
+`chat-gpt-commits`, `main` ou outras branches durante incorporação LEH.
+A QUINTA ROTINA de integração, a cada 3 horas, é a ÚNICA que pode abrir
+PRs das seis origens BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES contra
+`chat-gpt-commits`, conferir conflitos, mesclar e manter branches de origem.
+Bloqueio BDAG, DGP ou PEREIRA não é motivo para suspender a frente LEH.
+Em TODO relatório, incluir tabela das quantidades totais BDAG, DGP,
+LEH, PEREIRA, verificadas no GitHub da execução; indicar `não verificado`
+quando não possível. DGP 1.830 consta do checkpoint e carece auditoria
+de contagem de marcações HTML; não alegar total de cartões confirmado.
+Consultar ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt.
+================================================================================
+
+================================================================================
 REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
 ================================================================================
 
