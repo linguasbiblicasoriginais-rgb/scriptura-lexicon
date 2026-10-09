@@ -710,3 +710,7 @@ LOTE 68 — 09/10/2026 — REGISTRO DE INCORPORAÇÃO
 Fonte primária: arquivos_xml/01_Alfa.txt.xml (snapshot deb54b426ead447d01ced7534736f3e77be7015b; blob eec318bb6150b6b2f4422ea4a76383ac0a254de2).
 50 verbetes consecutivos, ordinais 2031–2080, ἀμβλόω → ἀμέργω. Juntamente com o lote 67 desta rodada: 100 verbetes (1981–2080). Próximo ordinal 2081: ἀμέρδω.
 Preservados os homógrafos distintos ἀμάω1-ῶ (2022) e ἀμάω2-ῶ (2023). Verificados 100 pares de IDs/alvos novos, sem duplicação, com texto integral das definições normalizado apenas quanto ao espaçamento. Glossas da tabela são resumos, cartões contêm a definição completa. Nenhuma URL externa acrescentada. Enriquecimento de popups depende do mecanismo comum registrado e demanda inspeção visual posterior. A contagem histórica do DGP é baseada no manifesto, cuja reconciliação com DOM completo continua pendente.
+
+
+AUDITORIA EDITORIAL COMPLEMENTAR DOS LOTES 67–68 — 09/10/2026
+Na mesma branch DGP, sem criar ou contar novos verbetes, as citações bibliográficas inequívocas foram expandidas em rubricas de autores com popup explicativo, reutilizando os cadastros existentes em bibliographicTerms. As formas abreviadas originais permanecem no atributo data-source-abbr; abreviaturas duvidosas permanecem sem expansão. Foram conferidos os textos dos 100 cartões contra o XML após restauração das siglas originais, com zero divergências, e o módulo executado continuou com 2.080 pares search-row/entry-card e IDs únicos. Nenhuma URL externa nova. Navegador não inspecionado.
