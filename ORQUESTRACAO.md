@@ -1,21 +1,39 @@
-# Orquestração recuperável — GDHAGP
+# GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
-## Estado e autoridade
-O HEAD real de cada branch e seus arquivos lexicais são a fonte da verdade. `regras/estado-orquestracao.json` é um manifesto **local da branch**, não um registro global transacional. Checkpoints históricos exigem reconfirmação remota; jamais avançar o manifesto antes da publicação lexical. A ordem obrigatória é **BDAG → DGP → LEH → PEREIRA**. O agendamento externo coordena as quatro branches; não há escrita cruzada entre elas.
+## Princípio
+Cada fonte BDAG, DGP, LEH e PEREIRA evolui de maneira autônoma. **Revogada a ordem sequencial** e qualquer condição de aguardar outra fonte. Quatro tarefas horárias próprias incorporam lotes e **não podem abrir PR, mesclar, rebasing ou tocar `chat-gpt-commits`**. A quinta rotina, de integração a cada 3 horas (8 vezes por dia), é a única responsável por PRs de seis branches de trabalho contra `chat-gpt-commits`. Não há publicação automática em `main`.
 
-## Pré-voo automatizado
-Execute `python tools/validar_orquestracao.py --all` para auditar os HEADs remotos, a existência de regras e léxicos e os SHAs dos PDFs BDAG/LEH. `GITHUB_TOKEN` é opcional para leitura pública. O script é somente leitura, imprime JSON e retorna erro em falhas. **Este pré-voo não substitui leitura filológica, contagem de cartões ou verificação do commit publicado.**
+| Rotina | Período | Escrita permitida |
+|---|---|---|
+| BDAG | 1 hora | `chat-gpt-bdag` |
+| DGP | 1 hora | `chat-gpt-dgp` |
+| LEH | 1 hora | `chat-gpt-leh` |
+| PEREIRA | 1 hora | `chat-gpt-pereira` |
+| Integração | 3 horas | `chat-gpt-commits`, via PR/merge controlado; ler origens |
 
-## Publicação
-1. Ler regras canônicas e fontes diretamente no HEAD da branch específica; confirmar o próximo lema e lote, sem inventar texto.
-2. Preparar todos os arquivos do lote, inclusive README e regras, em memória ou em diretório local; validar sintaxe, contagens, IDs, correspondência entre linhas/cartões e fonte.
-3. Criar blobs e árvore sobre a árvore do HEAD real; conferir o HEAD imediatamente antes da publicação.
-4. Criar um único commit com pai exatamente igual ao HEAD verificado e atualizar somente a branch autorizada usando `expected_sha` e `force=false`. **Nunca publicar partes de um lote separadamente.**
-5. Ler novamente o HEAD, o commit e os arquivos modificados; confirmar contagens e próximo lema. Só então atualizar o estado persistente como parte do mesmo commit (se aplicável).
-6. Em erro recuperável, registrar o diagnóstico e tentar na execução seguinte; não desligar o agendamento, não saltar a etapa, não criar PR/branch e não pedir upload de PDF presente no repositório.
+A capacidade e ativação dos agendamentos são gerenciadas externamente: esta norma não é prova de tarefas criadas.
 
-## Fontes permanentes
-`fontes/fonte-bdag.pdf` e `fontes/fonte-leh.pdf` são os caminhos fixos. O conteúdo pode mudar de alfa para beta, gama etc. Sempre verificar blob SHA e intervalo real do PDF. Erro de leitura não significa ausência.
+## Pré-voo e autoridade
+Em cada execução, consultar HEAD remoto real da **própria fonte** e a regra `regras/Rbdag.txt`, `Rdgp.txt`, `Rleh.txt` ou `Rpereira.txt` correspondente, o checkpoint lexical, o módulo e a fonte primária. O manifesto `regras/estado-orquestracao.json` tem escopo **local** à branch. Não usar seu campo legado `order` (eliminado nesta revisão), nem exigir que BDAG esteja pronto para avançar DGP, LEH ou PEREIRA. O pré-voo remoto de `tools/validar_orquestracao.py --stage FONTE` é opcional e **não constitui auditoria filológica**; `--all` é diagnóstico informativo, não condição de execução de outra fonte.
 
-## Limites reais
-Este repositório fornece manifesto, protocolo e auditoria remota de pré-voo. A geração filológica de lotes e a execução horária dependem do orquestrador externo; **nenhum script aqui finge traduzir automaticamente um léxico ou publicar commits**. Agendamentos GitHub Actions em branches que não são default não são usados para burlar a proibição de alterar `main`.
+## Execução horária da fonte
+1. Verificar o HEAD GitHub real, fontes e último registro lexical publicado; rejeitar checkpoint obsoleto.
+2. Extrair somente dados efetivamente acessíveis na fonte canônica; nunca inventar grafias, referências, sentidos nem preencher campos ausentes. Respeitar limites de lote definidos pela respectiva regra.
+3. Auditar entrada por entrada, `search-row`, `entry-card`, IDs, `data-target`, transliterações, abreviaturas/popups e URLs verificadas.
+4. Criar blobs/árvore e **um commit atômico por lote** no HEAD da branch própria, incluindo checkpoint e regras/README pertinentes, salvo normas específicas de agrupamento de lotes da fonte. Usar `expected_sha` e `force=false`; nunca criar branch temporária, PR ou commit em outra fonte.
+5. Reler commit, arquivos, contagens e próximo lema na origem. Falhas recuperáveis afetam **somente aquela fonte**; não desligar outras tarefas ou duplicar lotes. Registrar impedimento sem declarar publicação.
+6. Gerar tabela **sempre com os totais de BDAG, DGP, LEH e PEREIRA**, consultados de seus HEADs remotos, e indicar método ou `não verificado`.
+
+## Integração a cada 3 horas
+Consultar mudanças nas branches `chat-gpt-bdag`, `chat-gpt-dgp`, `chat-gpt-leh`, `chat-gpt-pereira`, `chat-gpt-estilos` e `chat-gpt-correcoes`; comparar com `chat-gpt-commits`. Para cada origem com mudanças ainda não integradas, localizar PR aberto existente ou abrir um único PR, **base `chat-gpt-commits`, head da origem**. Auditar os diffs, enfrentar conflitos preservando lexemas e dados de todas as fontes, testar integridade e compatibilidade, mesclar e conferir `merged=true`. Preservar branches de origem; não mover ou reescrever seu HEAD, não usar force push/reset destrutivo nem escrever em `main`. Se conflitos não puderem ser resolvidos com segurança, manter PR aberto e relatar bloqueio sem alterações conjecturais. Ver `regras/Rintegracao.txt`.
+
+**Manifestos:** `regras/estado-orquestracao.json` nas origens; instantâneos `regras/estado-orquestracao-dgp.json`, `...-leh.json` e `...-pereira.json` em `chat-gpt-commits`, nunca um manifesto global que apague os demais. A integração pode adicionar instantâneo BDAG sob caminho próprio para padronização, sem apagar legado.
+
+## Relatório obrigatório de contagens
+Tabela de quatro linhas, com `fonte | quantidade total de verbetes | branch/HEAD | método e ressalvas`, **inclusive quando algum processo falhar**. Totais devem ser recalculados após cada operação; não reproduzir números históricos como se fossem atuais. Informar `não verificado` onde a checagem falhar. O DGP possui no checkpoint 1.830 (lote 63), mas há uma discrepância de contagem de marcações HTML a auditar. Não afirmar validação estrutural completa apenas com o manifesto.
+
+## Fontes e limitações
+Os PDFs `fontes/fonte-bdag.pdf` e `fontes/fonte-leh.pdf` são caminhos estáveis; conferir SHA e intervalo do PDF. O PEREIRA requer HTTP POST à API oficial, cujo acesso via PowerShell foi comprovado, mas **o acesso automático pela tarefa horária ainda não está implantado**. Não mascarar esse bloqueio.
+
+## Segurança e concorrência
+Cada executor possui sua branch exclusiva; commits devem ser atômicos, com verificação de HEAD anterior, atualização concorrente protegida, auditoria posterior e sem force. Nem a infraestrutura comum nem a branch `main` devem sofrer alterações a partir das rotinas de incorporação.

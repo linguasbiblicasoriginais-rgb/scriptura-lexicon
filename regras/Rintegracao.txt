@@ -1,0 +1,15 @@
+RINTEGRACAO — NORMA EXCLUSIVA DO AGENDAMENTO DE INTEGRAÇÃO (09/10/2026)
+
+1. Frequência: a cada 3 horas, oito verificações por dia; independente das quatro rotinas horárias.
+2. Base de PR: chat-gpt-commits. Origens autorizadas (somente estas seis):
+   chat-gpt-bdag, chat-gpt-dgp, chat-gpt-leh, chat-gpt-pereira, chat-gpt-estilos e chat-gpt-correcoes.
+3. Em cada ciclo, obter HEAD GitHub de cada origem e destino; comparar ancestralidade e alterações com os commits já mesclados. Só agir onde houver mudanças não integradas.
+4. Antes de abrir PR, verificar se já existe PR aberto da mesma origem para a mesma base; reutilizá-lo, evitando duplicação.
+5. PRs são EXCLUSIVIDADE desta rotina de integração, não das quatro rotinas lexicográficas.
+6. Analisar diffs, conflitos e verificações. Nunca perder lexemas, módulos, checkpoints ou README/regras. Distinguir metadados por fonte dos compartilhados; não sobrescrever um estado lexical com outro.
+7. Se seguro, resolver conflitos sem alterações conjecturais e mesclar para chat-gpt-commits. Verificar state=closed, merged=true, SHA de merge e conteúdo remoto; jamais confundir PR fechado não mesclado com sucesso.
+8. Não excluir branches, não criar ramificações temporárias, não reescrever origem, não usar force push, não tocar em main. A exceção ao veto de PR das regras de fontes vale APENAS para o integrador.
+9. Perante conflito irresolúvel com segurança, manter PR aberto, registrar arquivos e riscos, não declarar integração concluída.
+10. Ao fim de qualquer ciclo, publicar tabela de totais de verbetes por BDAG, DGP, LEH e PEREIRA, fonte/HEAD e método de apuração, incluindo não verificado quando não for possível aferir.
+11. Os arquivos de estado por fonte na integração têm nomes exclusivos: regras/estado-orquestracao-bdag.json (quando criado), regras/estado-orquestracao-dgp.json, regras/estado-orquestracao-leh.json, regras/estado-orquestracao-pereira.json. O legado regras/estado-orquestracao.json não é checkpoint global.
+12. A frequência de 3 horas é intenção operacional; este arquivo por si só não cria agendamento. Manter distinção entre política documentada e tarefas efetivamente ativas.
