@@ -28,8 +28,19 @@
     "batches_in_round": [
       69
     ],
-    "independent_audit": "PENDENTE",
-    "integration": "PENDENTE"
+    "independent_audit": "APROVADA ESTÁTICA — 100/100; DOM não testado",
+    "integration": "MERGED",
+    "auditor_branch": "chat-gpt-correcoes",
+    "auditor_commit": "cc47e615e1f64919563108185146715793667912",
+    "lexical_commit": "9e3717634532dd3dd34204531424b419036fede6",
+    "integration_prs": [
+      74,
+      75
+    ],
+    "integration_merges": [
+      "321ec5b45207423641e3d4e84c23c33932b3f38d",
+      "20561b309a2c381227bf3af87df2c39297a8a9b2"
+    ]
   },
   "execution": {
     "state": "derive_from_remote",
@@ -39,7 +50,9 @@
     "wait_for_other_sources": false,
     "active_sources": [
       "DGP"
-    ]
+    ],
+    "scheduled_job_installed": false,
+    "last_cycle_mode": "manual under supervision"
   },
   "integration": {
     "separate_task": true,

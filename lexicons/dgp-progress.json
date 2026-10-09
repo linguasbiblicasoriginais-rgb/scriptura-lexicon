@@ -9,7 +9,7 @@
     "initial_letter": "α",
     "batch_size": 100,
     "next_ordinal": 2181,
-    "status": "lote 69 incorporado; auditoria independente pendente"
+    "status": "lote 69 integrado após auditoria estática; pendente teste funcional em navegador"
   },
   "batches": [
     {
@@ -631,7 +631,7 @@
       "start_entry": "ἀμέρδω",
       "end_entry": "ἀμόθι",
       "entry_count": 100,
-      "status": "incorporado; aguardando auditoria independente"
+      "status": "integrado; auditoria estática aprovada; DOM não testado"
     }
   ],
   "editorial_rules": {
