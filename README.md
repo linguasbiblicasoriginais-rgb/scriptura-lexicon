@@ -259,3 +259,8 @@ BDAG, DGP, LEH e PEREIRA **não dependem uns dos outros**: quatro agendamentos h
 Esta é a política **desejada**; um documento não comprova que todos os cinco agendamentos estejam ativos. Ver `ORQUESTRACAO.md`, `PARALLEL_WORKFLOW.md` e `regras/Rintegracao.txt`. Os checkpoints são locais a cada branch; nunca usar a antiga ordem BDAG → DGP → LEH → PEREIRA como pré-requisito.
 
 **Todo relatório de qualquer rotina deve incluir uma tabela com as quantidades totais de BDAG, DGP, LEH e PEREIRA**, consultadas nos HEADs remotos atuais; reportar `não verificado` onde faltar evidência. Retrato em 09/10/2026: BDAG 941 linhas/cartões; DGP 1.830 no manifesto (contagem HTML ainda não reconciliada); LEH 690 linhas/cartões; PEREIRA 510 linhas/cartões. Não usar esses valores históricos como números atuais. A leitura dos verbetes, revisão de popups, fontes e auditoria permanece específica de cada léxico.
+
+
+## DGP — progresso lexical na branch exclusiva (09/10/2026)
+
+Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981–2080** do XML `arquivos_xml/01_Alfa.txt.xml` (repositório `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`): dois lotes de 50, com um commit atômico por lote. O manifesto passa a registrar **2.080** entradas; próximo ordinal **2081** (`ἀμέρδω`). O total deve ser confrontado com o HTML efetivamente renderizado, sem tratar o manifesto como auditoria estrutural completa. Popups e links seguem as regras prioritárias deste README. Alterações ficam restritas à branch DGP; a integração para `chat-gpt-commits` é processo separado.
