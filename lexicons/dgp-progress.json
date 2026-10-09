@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 1831,
-    "status": "lote 63 concluído"
+    "next_ordinal": 2081,
+    "status": "lote 68 concluído"
   },
   "batches": [
     {
@@ -576,6 +576,51 @@
       "end_ordinal": 1830,
       "start_entry": "Ἄλκηστις, ιδος (ἡ)",
       "end_entry": "ἀλλοίως",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 64,
+      "start_ordinal": 1831,
+      "end_ordinal": 1880,
+      "start_entry": "ἀλλοίωσις, εως (ἡ)",
+      "end_entry": "ἀλοιφή, ῆς (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 65,
+      "start_ordinal": 1881,
+      "end_ordinal": 1930,
+      "start_entry": "ἁλόμενος",
+      "end_entry": "ἀλφάνω",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 66,
+      "start_ordinal": 1931,
+      "end_ordinal": 1980,
+      "start_entry": "ἀλφεσίβοιος, α, ον",
+      "end_entry": "ἅμαξα,",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 67,
+      "start_ordinal": 1981,
+      "end_ordinal": 2030,
+      "start_entry": "ἁμαξεύω",
+      "end_entry": "ἀμβλήδην",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 68,
+      "start_ordinal": 2031,
+      "end_ordinal": 2080,
+      "start_entry": "ἀμβλόω",
+      "end_entry": "ἀμέργω",
       "entry_count": 50,
       "status": "concluído"
     }

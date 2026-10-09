@@ -347,3 +347,11 @@ O [PR #66](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pul
 Conferência do conteúdo exclusivo de `main` (merge do PR #33, formatação DGP): `NOTICE-DGP.md`, `index.html`, `lexicons/dgp-format.css`, `lexicons/dgp-format.js` e `script.js` possuem **blobs idênticos** nas duas branches. O `lexicons/dgp-batches.js` de `main` é um **prefixo integral e idêntico** daquele de `chat-gpt-commits`. Os 59 lotes do manifesto DGP em `main` estão preservados literalmente entre os 63 lotes consolidados; os totais são **1.630** (main) versus **1.830** (integração), sem regressão. O texto integral de `regras/Rdgp.txt` de `main` está contido no arquivo consolidado, que acrescenta decisões posteriores. Nenhuma outra diferença exclusiva daquele commit foi identificada.
 
 A resolução preserva integralmente a árvore lexical, os checkpoints de BDAG, DGP, LEH e PEREIRA, o integrador e a auditoria das 05h. Um merge de dois pais com `main` como **segundo pai** em `chat-gpt-commits` não publica nada em `main`, e não autoriza que a rotina trihorária passe a publicar lá. O PR #66 poderá ser mesclado em `main` **somente mediante autorização específica**, distinta das autorizações para integração das seis fontes.
+
+### Continuidade BDAG — 09/10/2026
+
+O lote `ἀπόστασις → ἀποτάσσω` acrescenta 20 verbetes ao BDAG na branch `chat-gpt-bdag`, totalizando 1.021 linhas e 1.021 cartões. Fonte `fontes/fonte-bdag.pdf`, SHA Git `554c1523c9f893dced39f6047ca8375d5d7ca2a0`, páginas físicas 35–38. Próximo lema: `ἀποτελέω`. A integração é independente desta rotina.
+
+## DGP — progresso lexical na branch exclusiva (09/10/2026)
+
+Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981–2080** do XML `arquivos_xml/01_Alfa.txt.xml` (repositório `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`): dois lotes de 50, com um commit atômico por lote. O manifesto passa a registrar **2.080** entradas; próximo ordinal **2081** (`ἀμέρδω`). O total deve ser confrontado com o HTML efetivamente renderizado, sem tratar o manifesto como auditoria estrutural completa. Popups e links seguem as regras prioritárias deste README. Alterações ficam restritas à branch DGP; a integração para `chat-gpt-commits` é processo separado.
