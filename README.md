@@ -229,3 +229,13 @@ Corrigir a acepção 4 de כֶּסֶף e padronizar referências bíblicas
 ```
 
 Este padrão deve ser usado em todos os commits futuros do projeto.
+
+
+## Fontes primárias em PDF — localização permanente
+
+Os PDFs oficiais estão versionados em `fontes/fonte-bdag.pdf` (BDAG) e
+`fontes/fonte-leh.pdf` (LEH). Seus nomes são fixos, mesmo quando o conteúdo
+for substituído por recortes das letras beta, gama, delta etc. Antes de
+cada lote, conferir o arquivo e seu SHA no HEAD da branch correspondente,
+verificar o intervalo de verbetes e consultar a regra canônica. Nunca
+alegar ausência do PDF sem verificar o diretório `fontes/` no GitHub.

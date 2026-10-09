@@ -1120,3 +1120,31 @@ Contagem após publicação: 650 → 670 linhas/cartões LEH (670 pares exatos).
 Auditoria pré-publicação: 20 IDs novos exclusivos, 20 linhas e 20 cartões, sem alteração de arquivos compartilhados.
 Notas: ἀναστρέφω e ἀνατίθημι contêm referências a hebraico cuja disposição da extração PDF não foi verificada por imagem; a incerteza foi identificada explicitamente no cartão, sem reconstrução conjectural.
 Arquivos previstos: somente lexicons/leh.js e regras/Rleh.txt. O SHA final deverá ser consultado no HEAD remoto.
+
+
+================================================================================
+REGRA OBRIGATÓRIA DE FONTES PDF — 09/10/2026
+================================================================================
+
+FONTES OFICIAIS NO PRÓPRIO REPOSITÓRIO (nomes permanentes):
+BDAG: fontes/fonte-bdag.pdf
+LEH:  fontes/fonte-leh.pdf
+
+Os nomes NÃO mudam quando o usuário substituir o conteúdo por recortes
+das letras beta, gama, delta e seguintes. Antes de cada lote, consultar
+o diretório fontes/ no HEAD real da branch, verificar o SHA do PDF, ler
+seu conteúdo e conferir o intervalo lexical e o checkpoint. Não assumir
+que o PDF continua contendo os verbetes da letra alfa.
+
+É PROIBIDO alegar ausência ou indisponibilidade do PDF sem primeiro:
+(1) consultar a árvore/contents da branch correta; (2) identificar o
+caminho e SHA do arquivo; (3) tentar obter e ler as páginas por meio
+autorizado; (4) investigar e registrar o erro concreto de leitura.
+A presença do arquivo e a capacidade de extrair seu texto são questões
+diferentes. Se houver falha técnica de leitura, investigá-la e descrevê-la
+com precisão, sem inventar conteúdo e sem substituir silenciosamente o
+PDF versionado por outra edição externa. Não pedir reenvio antes de
+verificar a fonte no GitHub.
+
+Esta regra prevalece sobre instruções antigas de buscar arquivos por
+nomes variáveis de intervalos lexicais e deve ser mantida permanentemente.
