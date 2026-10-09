@@ -245,3 +245,20 @@ normativa está documentada em `regras/Rbdag.txt` e `regras/Rleh.txt`.
 ### Orquestração recuperável (09/10/2026)
 
 Manifesto local: `regras/estado-orquestracao.json`. Protocolo: `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto prevalece; não confundir pré-voo com auditoria lexical. Os PDFs BDAG/LEH têm nomes permanentes em `fontes/`.
+
+
+## Acompanhamento editorial — DGP, lote 63
+
+Na branch `chat-gpt-dgp`, o manifesto `lexicons/dgp-progress.json` registra
+63 lotes e 1.830 entradas da letra alfa, após a incorporação do lote 63
+(ordinais 1781–1830: **Ἄλκηστις, ιδος (ἡ)** a **ἀλλοίως**).
+O próximo ordinal é **1831**. Fonte primária: XML da letra alfa do
+repositório `aniseferreira/Grc-Por-DigDict`, no snapshot documentado em
+`regras/Rdgp.txt`. A validação visual em navegador não está atestada.
+A regra canônica, o módulo de lotes, o manifesto e este README são atualizados
+no mesmo commit diretamente na branch da fonte, sem alterações na `main`.
+
+
+**Auditoria técnica do lote 63:** a propriedade de cartões utilizada pelo
+módulo DGP é `cardsHtml`. A correção posterior ao commit lexical garantiu
+que os 50 novos cartões sejam efetivamente disponibilizados na interface.

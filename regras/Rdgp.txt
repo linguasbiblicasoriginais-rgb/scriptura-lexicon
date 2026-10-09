@@ -653,3 +653,28 @@ REGISTRO DE CONTINUIDADE — LOTE 62 (08/10/2026)
 Lote 62, ordinais 1731–1780, de ἀλιθίως até ἀλκή, ῆς (ἡ).
 Após confirmação do commit consolidado: 62 lotes e 1780 registros incorporados, próximo ordinal 1781 (Ἄλκηστις, ιδος (ἡ)).
 Consultar HEAD real do GitHub para SHA definitivo; não confundir texto de controle com prova de publicação.
+
+
+=====================================================================
+REGISTRO DE CONTINUIDADE — LOTE 63 (08/10/2026)
+=====================================================================
+
+Lote 63: ordinais 1781–1830, Ἄλκηστις, ιδος (ἡ) → ἀλλοίως.
+Foram incorporados 50 registros consecutivos da fonte primária XML fixada
+(blob eec318bb6150b6b2f4422ea4a76383ac0a254de2), sem supressão de definições.
+Total após publicação e auditoria: 63 lotes, 1830 registros; próximo ordinal 1831.
+Os textos originais e as abreviaturas foram preservados sem expansão conjectural.
+Diagnóstico operacional: a criação de blob Git do protocolo integral acrescido
+de registro de lote foi aceita; publicação por árvore e commit atômico direto.
+A validação visual em navegador permanece pendente e não é presumida.
+Consultar o commit real no GitHub para SHA definitivo.
+
+
+CORREÇÃO TÉCNICA PÓS-AUDITORIA DO LOTE 63 — 08/10/2026:
+A auditoria remota identificou que os 50 cartões foram inicialmente
+acrescentados à propriedade entriesHtml, não consumida pelo módulo DGP.
+Corrigido o destino para cardsHtml, preservando integralmente os 50 verbetes,
+as definições, os IDs e o manifesto. Correção administrativa sem novo lote.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
