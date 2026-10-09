@@ -1,4 +1,25 @@
 ================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Revogada toda sequência BDAG → DGP → LEH → PEREIRA entre agendamentos.
+PEREIRA deve executar A CADA HORA sem aguardar BDAG, DGP ou LEH.
+Publicar verbetes e checkpoints exclusivamente em `chat-gpt-pereira`,
+com um commit atômico por lote, preservando as formas da fonte e IDs.
+NÃO criar PR nem mesclar nesta rotina, não criar branches auxiliares,
+não escrever em `chat-gpt-commits`, `main` ou outras branches.
+EXCEÇÃO ÚNICA: o QUINTO AGENDAMENTO de integração, a cada 3 horas,
+verifica BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES e abre/reutiliza PR para
+`chat-gpt-commits`, resolve conflitos, mescla e conserva todas as origens.
+Cada falha em outra fonte NÃO bloqueia o progresso do PEREIRA.
+O HTTP POST PEREIRA via PowerShell foi comprovado, porém não pressupor
+que o agendamento remoto possa executá-lo sem coletor conectado.
+O relatório SEMPRE deve incluir tabela dos totais de BDAG, DGP, LEH,
+PEREIRA, aferidos remotamente; usar `não verificado` se necessário.
+DGP 1.830 é total de checkpoint ainda não reconciliado com HTML de cartões.
+Consultar ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt.
+================================================================================
+
+================================================================================
 REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
 ================================================================================
 
