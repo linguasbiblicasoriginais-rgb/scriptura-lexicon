@@ -229,3 +229,8 @@ Corrigir a acepção 4 de כֶּסֶף e padronizar referências bíblicas
 ```
 
 Este padrão deve ser usado em todos os commits futuros do projeto.
+
+
+### Orquestração recuperável (09/10/2026)
+
+Manifesto local: `regras/estado-orquestracao.json`. Protocolo: `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto prevalece; não confundir pré-voo com auditoria lexical. Os PDFs BDAG/LEH têm nomes permanentes em `fontes/`.
