@@ -1513,3 +1513,42 @@ Arquivos alterados previstos para o commit: lexicons/pereira.js, lexicons/pereir
 
 
 REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+
+======================================================================
+43. CONTINUIDADE E AUDITORIA DO LOTE 012 — 09/10/2026
+======================================================================
+
+Branch exclusiva: chat-gpt-pereira.
+HEAD-base remoto conferido: d91acd82e134bd4a14a9db8284b32d8a66d8aed2.
+Lote 012: ordinais 461–510, 50 verbetes consecutivos.
+Primeiro registro: Ἀδέω (ID 34467; searchable αδεω).
+Último registro: Ἀ-διέργαστος, ον (ID 34515; searchable αδιεργαστος).
+Próximo registro: ordinal 511, Ἀ-διερεύνητος, ον (ID 34516; searchable αδιερευνητος).
+Total projetado: 510 search-row e 510 entry-card.
+
+Fonte: API pública https://api.dicionariogrego.com/ via HTTP POST, obtida
+por coletor PowerShell independente, sem branches auxiliares nem escrita Git.
+Material de auditoria recebido: 53 respostas JSON originais,
+149 ocorrências de registros (92 IDs distintos na união),
+50 candidatos no lote e um 51º lema para o checkpoint.
+Verificações: SHA-256 de 53/53 respostas originais, 50/50 objetos
+lexicográficos idênticos aos dados de origem, 50 IDs distintos e
+9/9 campos por registro, prefixos conferidos. Consultas αδε, αδη,
+αδι e refinamentos; as respostas com 30 registros foram
+consideradas potencialmente truncadas e seus subprefixos investigados.
+A ordem segue as sequências devolvidas pela API: αδεω (2 registros),
+αδη (20 registros), αδι (28 primeiros registros do intervalo).
+Conservar registros independentes ᾍδης (ID 34484) e ᾍδης, ου
+(ID 34813); IDs numéricos não são critério de ordem lexicográfica.
+Preservar as grafias e classificações da fonte sem correções tácitas,
+incluindo Ἄδη-φαγέω classificado como substantivo masculino,
+Ἀ-διασπάστοως, indissojúvel e a observação de *Ἀ-διάλειπτος.
+Os campos etimology, type, gender, meaning, inflection, observation
+não são preenchidos por inferência quando ausentes ou nulos.
+
+Arquivos do commit lexical atômico: lexicons/pereira.js,
+lexicons/pereira-progress.json e regras/Rpereira.txt.
+Não alterar main, README compartilhado, branches de outras fontes,
+nem abrir PR, merge ou usar force push.
+O SHA definitivo será o HEAD remoto confirmado após publicação.
