@@ -240,3 +240,8 @@ Antes de cada lote, conferir o arquivo, seu SHA e o intervalo de verbetes
 na branch correspondente. A presença do arquivo deve ser verificada no
 GitHub antes de qualquer alegação de indisponibilidade. A metodologia
 normativa está documentada em `regras/Rbdag.txt` e `regras/Rleh.txt`.
+
+
+### Orquestração recuperável (09/10/2026)
+
+Manifesto local: `regras/estado-orquestracao.json`. Protocolo: `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto prevalece; não confundir pré-voo com auditoria lexical. Os PDFs BDAG/LEH têm nomes permanentes em `fontes/`.
