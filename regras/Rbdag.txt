@@ -2578,3 +2578,26 @@ Fonte: fontes/fonte-bdag.pdf, blob 554c1523c9f893dced39f6047ca8375d5d7ca2a0, 2.7
 Contagem pré-publicação: 1001 → 1021 linhas e cartões; 20 pares únicos; zero órfãos; nenhuma URL nova; popups/bibliographicTerms preservados; sintaxe JS válida.
 Notas: ἀποστέλλω mantém dois sentidos e subdivisões; ἀπόστολος distingue mensageiros ordinários e extraordinários, preserva Júnia/Junias; ἀποστρέφω conserva cinco sentidos; ἀποστοματίζω conserva incertezas textuais; ἀποστῇ e formas agrupadas permanecem um único verbete remissivo.
 Próximo lema: ἀποτελέω, página física 38, coluna esquerda.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 09/10/2026 — LOTE ἀποτελέω → ἀποφορτίζομαι
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: 1c529545e5609d133e9d22cb6253eaa2343af855.
+Fonte: fontes/fonte-bdag.pdf, blob 554c1523c9f893dced39f6047ca8375d5d7ca2a0,
+2.750.278 bytes; identidade Git conferida com o PDF da Biblioteca.
+Páginas físicas 38–39, verificadas textual e visualmente em duas colunas.
+20 verbetes consecutivos: ἀποτελέω; ἀποτίθημι; ἀποτίκτω; ἀποτινάσσω;
+ἀποτίνω; ἀποτολμάω; ἀποτομία; ἀπότομος; ἀποτόμως; ἀποτρέπω;
+ἀποτρέχω; ἀποτυγχάνω; ἀποτυφλόω; ἀπουσία; ἀποφαίνομαι;
+ἀποφέρω; ἀποφεύγω; ἀποφθέγγομαι; ἀπόφθεγμα; ἀποφορτίζομαι.
+Auditoria: 1.021 → 1.041 linhas/cartões; 20 pares inéditos;
+IDs, alvos e cartões únicos; zero órfãos; zero URLs externas novas.
+Popups específicos: ApcPt Fgm. e GMary Ox 3525, sem duplicação global.
+Distinções filológicas: ἀποτελέω (concluir/realizar);
+ἀποτίθημι (1a, 1b, 2, 3); ἀποτινάσσω (reconstrução lacunar);
+ἀποτίνω (ἀποτίσω / ἀποτείσω); ἀποφέρω (cinco sentidos);
+ἀποφεύγω (dois sentidos); ἀπόφθεγμα (oracular hipotético).
+Próximo lema confirmado: ἀπόχρησις, εως, ἡ (página 39, direita).
+Arquivos: lexicons/bdag.js, regras/Rbdag.txt,
+regras/estado-orquestracao.json e README.md.
+Confirmar HEAD remoto após a publicação, sem PR/merge/rebase.
