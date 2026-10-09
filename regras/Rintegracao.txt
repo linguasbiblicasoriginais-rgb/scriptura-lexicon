@@ -76,3 +76,21 @@ dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
    não são duplicados; README e esta regra registram a reconciliação.
    Garantias: não criar verbetes, não alterar main, não editar/excluir
    branches de origem, proteger o update do HEAD e conferir PR merged=true.
+
+14. PR #64 — integração das regras PEREIRA (09/10/2026)
+    Origem chat-gpt-pereira → destino chat-gpt-commits.
+    Incorporar integralmente o cabeçalho 'NOVA REGRA SUPREMA —
+    EXECUÇÃO INDEPENDENTE' da origem em regras/Rpereira.txt. O restante
+    do protocolo era idêntico ao arquivo do destino.
+    Manter ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt do
+    destino: cada qual já continha integralmente a versão da origem,
+    acrescida de instruções posteriores de autonomia dos merges e da
+    auditoria prioritária às 05h. Preservar README sem supressões.
+    Substituir SOMENTE o instantâneo de estado da fonte PEREIRA sob
+    regras/estado-orquestracao-pereira.json pelo manifesto schema 2
+    da origem; NÃO sobrescrever regras/estado-orquestracao.json legado
+    BDAG. Preservar lexicons/pereira-progress.json com lote 012,
+    510 verbetes e ordinal 511/ID 34516. A API POST funcionou no
+    coletor local, ainda sem integração horária comprovada.
+    Não modificar main, outras fontes, origens ou verbetes;
+    conferir HEAD, os dois pais reais do merge e merged=true.
