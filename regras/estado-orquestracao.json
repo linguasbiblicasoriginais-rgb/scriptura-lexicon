@@ -14,19 +14,20 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "total_rows": 981,
-    "total_cards": 981,
-    "last_lemma": "ἀποπίπτω",
-    "next_lemma": "ἀποπλανάω",
-    "first_lemma_of_latest_batch": "Ἀπολλωνία, ας, ἡ",
+    "total_rows": 1001,
+    "total_cards": 1001,
+    "last_lemma": "ἀποστάσιον, ου, τό",
+    "next_lemma": "ἀπόστασις, ἡ",
+    "first_lemma_of_latest_batch": "ἀποπλανάω",
     "last_batch_count": 20,
     "source_pdf": "fontes/fonte-bdag.pdf",
     "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
     "source_pdf_pages": [
-      32,
-      33
+      33,
+      34,
+      35
     ],
-    "parent_head": "37f57bee6734a145796341590b85a5ddd1f81e5d",
+    "parent_head": "0ce734fd2efee25ec7c398911b8d80b66358d22f",
     "verified": "prepublication_lexical_and_structural_audit"
   },
   "execution": {
