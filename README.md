@@ -229,3 +229,15 @@ Corrigir a acepção 4 de כֶּסֶף e padronizar referências bíblicas
 ```
 
 Este padrão deve ser usado em todos os commits futuros do projeto.
+
+
+## Acompanhamento editorial — DGP, lote 63
+
+Na branch `chat-gpt-dgp`, o manifesto `lexicons/dgp-progress.json` registra
+63 lotes e 1.830 entradas da letra alfa, após a incorporação do lote 63
+(ordinais 1781–1830: **Ἄλκηστις, ιδος (ἡ)** a **ἀλλοίως**).
+O próximo ordinal é **1831**. Fonte primária: XML da letra alfa do
+repositório `aniseferreira/Grc-Por-DigDict`, no snapshot documentado em
+`regras/Rdgp.txt`. A validação visual em navegador não está atestada.
+A regra canônica, o módulo de lotes, o manifesto e este README são atualizados
+no mesmo commit diretamente na branch da fonte, sem alterações na `main`.
