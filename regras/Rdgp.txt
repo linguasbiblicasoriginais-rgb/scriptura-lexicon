@@ -698,3 +698,9 @@ as definições, os IDs e o manifesto. Correção administrativa sem novo lote.
 
 
 REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+
+LOTE 67 — 09/10/2026 — REGISTRO DE INCORPORAÇÃO
+Fonte: aniseferreira/Grc-Por-DigDict, XML arquivos_xml/01_Alfa.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+50 verbetes consecutivos, ordinais 1981–2030, ἁμαξεύω → ἀμβλήδην. Próximo ordinal 2031: ἀμβλόω.
+IDs próprios entry-dgp-1981–entry-dgp-2030, sem reutilização; 50 search-row e 50 entry-card, correspondência individual dos alvos, definições normalizadas apenas quanto a whitespace conforme protocolo. Popups de abreviaturas tratados pelo enriquecimento bibliográfico central existente. Nenhum link externo novo. Validar carregamento, popups e CSS em navegador quando houver ambiente próprio. Confirmar commit/HEAD após publicar; os números só se tornam estado publicado após atualização da branch.

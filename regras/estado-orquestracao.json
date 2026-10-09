@@ -13,7 +13,19 @@
     "force": false,
     "post_commit_remote_audit_required": true
   },
-  "last_confirmed_lexical_checkpoint": null,
+  "last_confirmed_lexical_checkpoint": {
+    "source": "DGP",
+    "total_from_manifest": 2030,
+    "verified_new_rows": 50,
+    "verified_new_cards": 50,
+    "first_lemma": "ἁμαξεύω",
+    "last_lemma": "ἀμβλήδην",
+    "next_lemma": "ἀμβλόω",
+    "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+    "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+    "new_batch": 67,
+    "prepublication_checks": "50 ordinais consecutivos; equivalência ao XML; IDs/targets únicos no novo lote; sintaxe textual dos blocos HTML; teste de navegador pendente"
+  },
   "execution": {
     "state": "derive_from_remote",
     "do_not_auto_skip": true,
