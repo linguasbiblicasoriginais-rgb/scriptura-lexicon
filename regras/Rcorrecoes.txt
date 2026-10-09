@@ -66,3 +66,7 @@ DIVISÃO DE RESPONSABILIDADES ABSOLUTA:
   atualizada dos totais de verbetes BDAG, DGP, LEH e PEREIRA, com origem e
   ressalvas de verificação; o DGP tinha 1.830 por checkpoint em 09/10/2026,
   ainda sem reconciliação completa dos cartões.
+
+
+8. AUDITORIA INTEGRAL DO DGP — 09/10/2026
+Varredura estática de 2.080 verbetes do DGP no HEAD 5f3810a0d285d7d8977659d2adb324bed07ab55c, confrontados contra o XML fonte commit deb54b426ead447d01ced7534736f3e77be7015b. Resultado integral em auditorias/dgp-2026-10-09-integral.md. Verificados 2.080 search-row e 2.080 entry-card, 68 lotes contínuos, nenhum órfão/ID duplicado; 1.982 definições exatamente iguais, 11 diferenças de hífen discricionário, 85 diferenças por expansão editorial (uma delas também com hífen discricionário), duas divergências textuais reais (124, 150), três diferenças de lema (95, 124, 150). Foram corrigidos somente os ordinais 95, 124, 150 na branch exclusiva chat-gpt-correcoes, mais o registro de 3 popups com expansão segura. Pendências de popup, busca completa e testes DOM permanecem no relatório. NÃO alterar chat-gpt-dgp e não copiar o arquivo lexical atual por cima da versão desta branch, que ainda possui somente 1.630 registros. Integração futura exige reconciliação não destrutiva.
