@@ -675,3 +675,6 @@ A auditoria remota identificou que os 50 cartões foram inicialmente
 acrescentados à propriedade entriesHtml, não consumida pelo módulo DGP.
 Corrigido o destino para cardsHtml, preservando integralmente os 50 verbetes,
 as definições, os IDs e o manifesto. Correção administrativa sem novo lote.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.

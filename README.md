@@ -246,3 +246,8 @@ no mesmo commit diretamente na branch da fonte, sem alterações na `main`.
 **Auditoria técnica do lote 63:** a propriedade de cartões utilizada pelo
 módulo DGP é `cardsHtml`. A correção posterior ao commit lexical garantiu
 que os 50 novos cartões sejam efetivamente disponibilizados na interface.
+
+
+### Orquestração recuperável (09/10/2026)
+
+Manifesto local: `regras/estado-orquestracao.json`. Protocolo: `ORQUESTRACAO.md`. Pré-voo remoto somente leitura: `python tools/validar_orquestracao.py --all`. O HEAD remoto prevalece; não confundir pré-voo com auditoria lexical. Os PDFs BDAG/LEH têm nomes permanentes em `fontes/`.
