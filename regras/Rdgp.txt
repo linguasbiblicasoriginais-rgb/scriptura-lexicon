@@ -1,4 +1,26 @@
 ================================================================================
+DIRETRIZ VIGENTE — FASE EXCLUSIVA DGP (09/10/2026)
+================================================================================
+Por decisão mais recente do usuário, BDAG, LEH e PEREIRA ficam TEMPORARIAMENTE
+SUSPENSOS. Exclusivamente DGP é incorporado, com 100 entryFree consecutivos
+POR CICLO, UM commit atômico na branch chat-gpt-dgp. O texto conservado provém
+do XML fixado; o checkpoint deve ser reconciliado com o HEAD real.
+Segunda etapa OBRIGATÓRIA, independente e posterior: auditoria dos 100
+verbetes, documento e eventuais correções commitados em chat-gpt-correcoes,
+sem eliminar ou reverter o lote já incorporado.
+Terceira etapa: PRs/merges para chat-gpt-commits APENAS após confirmação
+da auditoria e com verificação dos merges. Preservar as branches.
+Cada etapa tem checkpoint e recuperação independentes: falha na auditoria
+ou integração NÃO descarta nem reinicia os 100 verbetes já incorporados.
+Não iniciar um lote novo sobre ordinais pendentes por confusão de checkpoint.
+100 verbetes/hora é objetivo sujeito a medição; não afirmar SLA garantido
+ou High agendado sem prova técnica. Nunca desativar agendamentos por falhas.
+A norma atual REVOCA explicitamente "três lotes de 50" e a integração
+genérica a cada 3 horas, mas NÃO revoga as regras filológicas/editoriais.
+Não realizar commits em main sem autorização inequívoca do usuário.
+================================================================================
+
+================================================================================
 NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
 ================================================================================
 Decisão atual do usuário, revoga dependência ou sequência global antiga.
@@ -714,3 +736,16 @@ Preservados os homógrafos distintos ἀμάω1-ῶ (2022) e ἀμάω2-ῶ (2
 
 AUDITORIA EDITORIAL COMPLEMENTAR DOS LOTES 67–68 — 09/10/2026
 Na mesma branch DGP, sem criar ou contar novos verbetes, as citações bibliográficas inequívocas foram expandidas em rubricas de autores com popup explicativo, reutilizando os cadastros existentes em bibliographicTerms. As formas abreviadas originais permanecem no atributo data-source-abbr; abreviaturas duvidosas permanecem sem expansão. Foram conferidos os textos dos 100 cartões contra o XML após restauração das siglas originais, com zero divergências, e o módulo executado continuou com 2.080 pares search-row/entry-card e IDs únicos. Nenhuma URL externa nova. Navegador não inspecionado.
+
+
+================================================================================
+REGISTRO DA NOVA ETAPA — 09/10/2026
+================================================================================
+Lote 69: ordinais 2081–2180 (ἀμέρδω → ἀμόθι);
+100 rows e 100 cards gerados do XML com preservação literal e escape HTML.
+Próximo ordinal de origem: 2181.
+STATUS: INCORPORADO em chat-gpt-dgp. Auditoria filológica independente
+e integração NÃO foram consideradas concluídas por este commit.
+Para auditoria, confrontar os 100 registros com XML, popups, índices, DOM
+e metadados, e publicar relatório na branch chat-gpt-correcoes.
+================================================================================

@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+
+## Fase operacional exclusiva DGP — 09/10/2026
+
+BDAG, LEH e PEREIRA estão temporariamente fora da esteira automatizada. O fluxo por lote DGP é **incorporação de 100 verbetes** em `chat-gpt-dgp` → **auditoria independente** em `chat-gpt-correcoes` → **integração após aprovação** em `chat-gpt-commits`. Os checkpoints e commits de cada etapa persistem: uma falha posterior não desfaz a etapa anterior. O limite de 60 minutos é **meta a validar**, não SLA certificado; tampouco se deve declarar modelo High em automações sem suporte verificável.
+
+**Lote 69:** ordinais 2.081–2.180 (`ἀμέρδω` a `ἀμόθι`) incorporados em DGP; auditoria independente e integração ainda pendentes. Fonte XML: `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`. Próximo ordinal: **2.181**.
+
 ## Princípio prioritário — popups explicativos
 
 Os **popups explicativos são um dos propósitos centrais do Scriptura Lexicon** e devem ser tratados como requisito editorial prioritário, não como enriquecimento opcional.
