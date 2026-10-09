@@ -1,5 +1,10 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## Regra superior de continuidade — fase exclusiva DGP (09/10/2026)
+
+Esta norma prevalece sobre a programação histórica descrita abaixo. BDAG, LEH e PEREIRA permanecem **temporariamente suspensos**. Cada ciclo DGP usa 100 verbetes e três etapas persistentes: (1) `chat-gpt-dgp`, com commit fonte; (2) `chat-gpt-correcoes`, com relatório de auditoria independente e eventuais correções; (3) PR/merge em `chat-gpt-commits`. A perda de uma etapa não apaga o commit de outra. Reconciliar o HEAD remoto antes de qualquer repetição; proibir duplicações, branches auxiliares, exclusão de origens, force push e alterações em `main` sem autorização expressa. A cadência horária e modelo High **não constituem garantias de serviço**; a programação deve ser validada antes de uso. Este texto normativo não cria, por si, agendamento algum.
+
+
 ## Princípio
 Cada fonte BDAG, DGP, LEH e PEREIRA evolui de maneira autônoma. **Revogada a ordem sequencial** e qualquer condição de aguardar outra fonte. Quatro tarefas horárias próprias incorporam lotes e **não podem abrir PR, mesclar, rebasing ou tocar `chat-gpt-commits`**. A quinta rotina, de integração a cada 3 horas (8 vezes por dia), é a única responsável por PRs de seis branches de trabalho contra `chat-gpt-commits`. Não há publicação automática em `main`.
 
