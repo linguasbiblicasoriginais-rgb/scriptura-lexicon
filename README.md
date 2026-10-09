@@ -271,3 +271,38 @@ O lote de 20 verbetes da sequência **ἀνατιναγμός → ἀναχάσ�
 ### PEREIRA — Integração lexical do lote 012 (09/10/2026)
 
 O módulo `lexicons/pereira.js` registra **510 verbetes**, após a incorporação dos ordinais **461–510** (**Ἀδέω → Ἀ-διέργαστος, ον**), obtidos na API da fonte e conferidos contra as respostas JSON originais. O próximo registro é **Ἀ-διερεύνητος, ον**, ID **34516**, ordinal **511**. O manifesto lexical é `lexicons/pereira-progress.json`; a cópia de estado da origem integrada encontra-se em `regras/estado-orquestracao-pereira.json`. As branches individuais continuam sendo autoridades para suas respectivas execuções; não interpretar o manifesto legado global como substituto do checkpoint lexical.
+
+## Nova arquitetura de execução independente — 09/10/2026
+
+**Decisão vigente e prioritária:** BDAG, DGP, LEH e PEREIRA são frentes lexicográficas **independentes**. Não existe ordem global `BDAG → DGP → LEH → PEREIRA`, dependência de conclusão, fila global nem bloqueio de uma fonte pelo progresso de outra.
+
+### Cinco rotinas previstas
+
+| Rotina | Frequência | Branch exclusiva de escrita | PR/merge nesta rotina |
+|---|---|---|---|
+| Incorporação BDAG | a cada 1 hora | `chat-gpt-bdag` | Proibido |
+| Incorporação DGP | a cada 1 hora | `chat-gpt-dgp` | Proibido |
+| Incorporação LEH | a cada 1 hora | `chat-gpt-leh` | Proibido |
+| Incorporação PEREIRA | a cada 1 hora | `chat-gpt-pereira` | Proibido |
+| Integração independente | a cada 3 horas (8/dia) | `chat-gpt-commits` (somente integração) | PR, resolução de conflitos e merge |
+
+A criação e ativação efetiva dos agendamentos dependem da capacidade do serviço de tarefas; a documentação descreve a política **desejada**, não atesta sozinha que todas as tarefas estão ativas. A rotina de integração verifica mudanças em `chat-gpt-bdag`, `chat-gpt-dgp`, `chat-gpt-leh`, `chat-gpt-pereira`, `chat-gpt-estilos` e `chat-gpt-correcoes`, abre ou reutiliza PRs para `chat-gpt-commits` e, após análise de conflitos e verificações, mescla e encerra como `merged`, sem excluir as origens. PRs não pertencem às quatro rotinas horárias.
+
+Todas as rotinas fazem pré-voo dos HEADs GitHub reais, leem somente as regras e fontes aplicáveis ao seu escopo, preservam fielmente a redação de cada léxico, publicam na branch autorizada com controle `expected_sha` e `force=false`, e conferem os resultados depois da escrita. Nunca escrever em `main`. Não reinterpretar o manifesto `regras/estado-orquestracao.json` como checkpoint global: cada branch contém estado próprio. A integração usa também `regras/estado-orquestracao-{dgp,leh,pereira}.json` como instantâneos informativos de fontes já mescladas; o HEAD de origem prevalece.
+
+### Relatório obrigatório — totais de verbetes
+
+**Toda execução, inclusive execuções bloqueadas e a rotina de integração, deve apresentar uma tabela com BDAG, DGP, LEH e PEREIRA**, com contagens retiradas dos HEADs remotos atuais. Registrar o método de contagem e o momento da consulta. Não reutilizar este retrato histórico como contagem futura. Se uma fonte não puder ser verificada, escrever `não verificado`, não zero.
+
+| Fonte | Total de referência em 09/10/2026 | Critério |
+|---|---:|---|
+| BDAG | 941 | 941 linhas e 941 cartões em `lexicons/bdag.js` |
+| DGP | 1.830 | `lexicons/dgp-progress.json`, lote 63 (contagem de módulos HTML não reconciliada; auditoria pendente) |
+| LEH | 690 | 690 linhas e 690 cartões em `lexicons/leh.js` |
+| PEREIRA | 510 | 510 linhas e 510 cartões em `lexicons/pereira.js` |
+
+**Atenção DGP:** o checkpoint de 1.830 entradas não foi reconciliado por contagem simples das marcações `search-row`/`entry-card` nos módulos inspecionados; não afirmar auditoria visual/estrutural completa sem verificá-la. Essa ressalva não autoriza reduzir nem reescrever o checkpoint.
+
+### Autoridades editoriais
+
+As regras `regras/Rbdag.txt`, `regras/Rdgp.txt`, `regras/Rleh.txt` e `regras/Rpereira.txt` conservam as decisões filológicas específicas. A publicação de cada lote é atômica na branch de origem. O protocolo `ORQUESTRACAO.md` organiza as cinco rotinas; `PARALLEL_WORKFLOW.md` delimita a propriedade dos arquivos; `regras/Rintegracao.txt` é a norma exclusiva do integrador. O coletor PEREIRA por HTTP POST foi validado externamente em 09/10/2026, mas sua hospedagem e conexão à tarefa horária **ainda exigem implementação**; não presumir acesso POST nativo do agendamento.

@@ -1,14 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "project": "GDHAGP / Scriptura Lexicon",
   "stage": "BDAG",
   "branch": "chat-gpt-bdag",
-  "order": [
-    "BDAG",
-    "DGP",
-    "LEH",
-    "PEREIRA"
-  ],
   "checkpoint_authority": "remote GitHub lexical commits and canonical source-specific rules",
   "progress_policy": "recalculate on every run; never trust conversation state or a cached SHA",
   "source_pdf": "fontes/fonte-bdag.pdf",
@@ -22,6 +16,37 @@
   "last_confirmed_lexical_checkpoint": null,
   "execution": {
     "state": "derive_from_remote",
-    "do_not_auto_skip": true
+    "do_not_auto_skip": true,
+    "frequency_hours": 1,
+    "independent": true,
+    "pr_permitted": false,
+    "wait_for_other_sources": false
+  },
+  "mode": "independent-per-source",
+  "legacy_state_scope": "BDAG; not a global checkpoint; migration compatibility only",
+  "reporting": {
+    "table_required_every_run": true,
+    "all_sources": [
+      "BDAG",
+      "DGP",
+      "LEH",
+      "PEREIRA"
+    ],
+    "fresh_remote_totals": true
+  },
+  "integration": {
+    "frequency_hours": 3,
+    "target_branch": "chat-gpt-commits",
+    "source_branches": [
+      "chat-gpt-bdag",
+      "chat-gpt-dgp",
+      "chat-gpt-leh",
+      "chat-gpt-pereira",
+      "chat-gpt-estilos",
+      "chat-gpt-correcoes"
+    ],
+    "exclusive_pr_authority": true,
+    "delete_source_branches": false,
+    "write_main": false
   }
 }
