@@ -351,3 +351,7 @@ A resolução preserva integralmente a árvore lexical, os checkpoints de BDAG, 
 ### Continuidade BDAG — 09/10/2026
 
 O lote `ἀπόστασις → ἀποτάσσω` acrescenta 20 verbetes ao BDAG na branch `chat-gpt-bdag`, totalizando 1.021 linhas e 1.021 cartões. Fonte `fontes/fonte-bdag.pdf`, SHA Git `554c1523c9f893dced39f6047ca8375d5d7ca2a0`, páginas físicas 35–38. Próximo lema: `ἀποτελέω`. A integração é independente desta rotina.
+
+## DGP — progresso lexical na branch exclusiva (09/10/2026)
+
+Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981–2080** do XML `arquivos_xml/01_Alfa.txt.xml` (repositório `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`): dois lotes de 50, com um commit atômico por lote. O manifesto passa a registrar **2.080** entradas; próximo ordinal **2081** (`ἀμέρδω`). O total deve ser confrontado com o HTML efetivamente renderizado, sem tratar o manifesto como auditoria estrutural completa. Popups e links seguem as regras prioritárias deste README. Alterações ficam restritas à branch DGP; a integração para `chat-gpt-commits` é processo separado.
