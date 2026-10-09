@@ -1,4 +1,24 @@
 ================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Decisão atual do usuário, revoga dependência ou sequência global antiga.
+Este agendamento DGP executa A CADA HORA independentemente do BDAG, LEH e PEREIRA.
+Publicação da frente DGP SÓ em `chat-gpt-dgp`, com lotes e commits conforme
+regra lexicográfica própria, conferindo sempre HEAD remoto e checkpoint.
+Os processos de fonte NÃO criam PRs nem fazem merges; não escrevem em
+`chat-gpt-commits`, `main` ou branches alheias, nem criam branches auxiliares.
+A QUINTA ROTINA de integração, a cada 3 horas, é a ÚNICA exceção apta a
+abrir/reutilizar PR das seis origens BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES
+para `chat-gpt-commits`, resolver conflitos e mesclar sem excluir origens.
+Uma falha de BDAG, LEH ou PEREIRA NUNCA bloqueia incorporação DGP.
+Obrigatório em TODO relatório: tabela com quatro totais BDAG, DGP, LEH,
+PEREIRA, apurados remotamente; registrar `não verificado` se necessário.
+DGP: checkpoint 1.830 do lote 63 ainda requer auditoria de correspondência
+com as marcações HTML; não alegar contagem de cartões confirmada de 1.830.
+Consultar ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt.
+================================================================================
+
+================================================================================
 REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
 ================================================================================
 
