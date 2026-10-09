@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2181,
-    "status": "lote 69 incorporado; auditoria independente pendente"
+    "next_ordinal": 2281,
+    "status": "lote 70 incorporado; auditoria independente pendente"
   },
   "batches": [
     {
@@ -632,6 +632,15 @@
       "end_entry": "ἀμόθι",
       "entry_count": 100,
       "status": "incorporado; aguardando auditoria independente"
+    },
+    {
+      "batch": 70,
+      "start_ordinal": 2181,
+      "end_ordinal": 2280,
+      "start_entry": "ἀμοιβαῖος, ος, ον",
+      "end_entry": "ἀμυχή, ῆς (ἡ)",
+      "entry_count": 100,
+      "status": "aguardando auditoria independente"
     }
   ],
   "editorial_rules": {
