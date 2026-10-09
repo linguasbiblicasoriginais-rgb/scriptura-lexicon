@@ -1,0 +1,57 @@
+name: Scriptura Lexicon - DGP validation only
+
+# Read-only validation only: no cron, ingestion, git push, PR or merge.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/dgp-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scriptura-dgp-validation
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Static engine and recovery unit tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Checkout exact test implementation
+        uses: actions/checkout@v4
+        with:
+          repository: linguasbiblicasoriginais-rgb/scriptura-lexicon
+          ref: 92e80f98154d74641cf209457b51dec67236f7e5
+          persist-credentials: false
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Python syntax without writing files
+        shell: bash
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for root in ("tools", "tests"):
+              for source in Path(root).glob("*.py"):
+                  ast.parse(source.read_text(encoding="utf-8"), filename=str(source))
+                  print(f"Syntax OK: {source}")
+          PY
+
+      - name: Run engine and recovery tests
+        run: python -m unittest discover -s tests -p "test_dgp_*.py" -v
+
+      - name: Confirm checkout was not modified
+        shell: bash
+        run: |
+          test -z "$(git status --porcelain)"
