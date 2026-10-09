@@ -52,7 +52,21 @@
       "DGP"
     ],
     "scheduled_job_installed": false,
-    "last_cycle_mode": "manual under supervision"
+    "last_cycle_mode": "manual under supervision",
+    "chatgpt_automations": {
+      "enabled": true,
+      "scope": "DGP only",
+      "timezone": "America/Sao_Paulo",
+      "schedules": {
+        "incorporation": "hourly :05",
+        "audit": "hourly :25",
+        "integration": "hourly :45"
+      },
+      "high_guaranteed": false,
+      "paid_api_authorized": false,
+      "editorial_gate": "block integration when review High/editorial is pending",
+      "first_run_verified": false
+    }
   },
   "integration": {
     "separate_task": true,

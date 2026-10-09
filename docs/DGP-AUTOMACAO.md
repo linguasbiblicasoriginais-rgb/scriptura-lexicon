@@ -1,5 +1,14 @@
 # Automação DGP — implantação controlada
 
+## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
+
+**Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
+
+**Atenção:** o agendador atualmente disponível **não fornece seleção nem comprovação do nível High**. Os prompts exigem High quando selecionável e bloqueiam declarações de revisão High não comprovada. Ausente garantia High, limitar o trabalho a comparações determinísticas verificáveis, registrar revisão editorial pendente e **não integrar automaticamente lotes sem a aprovação exigida**. Não contratar API paga, não tocar `main` nem outras fontes, não apagar branches ou forçar push. Falhas e fases pendentes não devem descartar commits confirmados. **Nenhuma execução agendada foi ainda auditada como bem-sucedida.**
+
+O workflow GitHub Actions de validação somente leitura, criado em `main`, é uma rotina separada e não representa a execução dessas três tarefas do ChatGPT. O workflow de produção `dgp-hourly.yml` continua sem instalação em `main`. Não confundir **tarefas ChatGPT habilitadas** com **produção GitHub Actions ativada**.
+
+
 ## Norma de orçamento e raciocínio — 09/10/2026 (SEM CUSTO EXTRA)
 
 **Decisão expressa do mantenedor:** o Scriptura Lexicon deve operar exclusivamente com recursos já incluídos na assinatura atual do ChatGPT e com ferramentas gratuitas disponíveis, **sem contratar a OpenAI API, créditos por tokens, upgrades de plano ou outro serviço pago**. Não criar segredos de API paga nem ativar faturamento como condição da execução. Nenhuma solução de custo adicional é autorizada.
