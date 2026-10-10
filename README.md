@@ -1,5 +1,11 @@
 # Scriptura Lexicon
 
+## Fontes bibliográficas impressas digitalizadas — regra de 10/10/2026
+
+Os exemplares do Internet Archive expressamente designados pelo mantenedor para **ROBINSON (três registros), ABBOTT-SMITH (três) e GESENIUS (dois)** integram o cadastro de testemunhos bibliográficos autorizado em [`regras/Rfontes-impressas.txt`](regras/Rfontes-impressas.txt). Este arquivo identifica individualmente as edições e os exemplares, documenta metadados divergentes ou não confirmados, define a autoridade do fac-símile sobre o OCR e exige rastreabilidade de lema e página.
+
+A designação como fonte canônica **não elege automaticamente uma edição-texto-base**, não altera verbetes ou checkpoints e não autoriza a fusão de leituras de edições diferentes. O arquivo [`regras/Rfontes-consulta.txt`](regras/Rfontes-consulta.txt) mantém separadamente os sítios lexicográficos digitais de consulta. Preservar os quatro níveis Fonte / Tradução / Análise / GDHAGP e as restrições editoriais e jurídicas estabelecidas nesses cadastros.
+
 ## Integração DGP — PR #80, lotes 70–75 (10/10/2026)
 
 Os **600 registros DGP** dos ordinais **2.181–2.780** foram reconciliados para `chat-gpt-commits` pelo PR [#80](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/80), preservando as correções filológicas anteriores dos verbetes 95, 124 e 150, os popups e todas as demais fontes (inclusive PEREIRA e JASTROW). Os módulos `lexicons/dgp-batch-073.js`, `dgp-batch-074.js` e `dgp-batch-075.js` são carregados depois de `dgp-batches.js` e antes do formatador. O checkpoint DGP passa a **2.780 verbetes**, próximo ordinal **2.781 (`ἀνάματος, ος, ον`)**.
