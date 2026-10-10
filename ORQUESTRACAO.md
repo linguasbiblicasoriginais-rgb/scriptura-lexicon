@@ -1,5 +1,33 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
+
+**Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
+
+**Atenção:** o agendador atualmente disponível **não fornece seleção nem comprovação do nível High**. Os prompts exigem High quando selecionável e bloqueiam declarações de revisão High não comprovada. Ausente garantia High, limitar o trabalho a comparações determinísticas verificáveis, registrar revisão editorial pendente e **não integrar automaticamente lotes sem a aprovação exigida**. Não contratar API paga, não tocar `main` nem outras fontes, não apagar branches ou forçar push. Falhas e fases pendentes não devem descartar commits confirmados. **Nenhuma execução agendada foi ainda auditada como bem-sucedida.**
+
+O workflow GitHub Actions de validação somente leitura, criado em `main`, é uma rotina separada e não representa a execução dessas três tarefas do ChatGPT. O workflow de produção `dgp-hourly.yml` continua sem instalação em `main`. Não confundir **tarefas ChatGPT habilitadas** com **produção GitHub Actions ativada**.
+
+
+## Norma de orçamento e raciocínio — 09/10/2026 (SEM CUSTO EXTRA)
+
+**Decisão expressa do mantenedor:** o Scriptura Lexicon deve operar exclusivamente com recursos já incluídos na assinatura atual do ChatGPT e com ferramentas gratuitas disponíveis, **sem contratar a OpenAI API, créditos por tokens, upgrades de plano ou outro serviço pago**. Não criar segredos de API paga nem ativar faturamento como condição da execução. Nenhuma solução de custo adicional é autorizada.
+
+**Exigência editorial:** a etapa filológica deve usar **raciocínio High**, sem substituição silenciosa por Instant. O executor Python/GitHub Actions é determinístico e não configura nem executa um modelo High; seus testes de integridade não equivalem à auditoria lexicográfica. Tarefas agendadas internas do ChatGPT somente poderão realizar edição/auditoria automaticamente se sua interface e sua execução efetiva permitirem **selecionar e verificar High** com a assinatura existente; não presumir essa garantia.
+
+**Modo seguro atual:** manter desativada a incorporação editorial agendada e a integração automática. Usar GitHub Actions somente para validação determinística e ensaios sem custos adicionais, com gates de publicação; realizar análise filológica via sessões High do ChatGPT sob acompanhamento do mantenedor quando a modalidade High estiver disponível. Se não houver garantia de High nos agendamentos, optar por supervisão humana; não afirmar capacidade de 100 verbetes/hora desassistidos.
+
+
+## Implantação do runner: estado de preparação
+
+O executor determinístico do DGP e o workflow em `.github/workflows/dgp-hourly.yml` encontram-se preparados em `chat-gpt-commits`, mas **NÃO estão instalados na branch padrão main nem executando automaticamente**. Seus testes Python e de PR/merge ainda devem ser validados em runner antes da ativação. A variável `DGP_ALLOW_STATIC_INTEGRATION=false` impede que uma auditoria meramente textual seja considerada certificação editorial High. Consultar `docs/DGP-AUTOMACAO.md` para detalhes e critérios de liberação.
+
+
+## Regra superior de continuidade — fase exclusiva DGP (09/10/2026)
+
+Esta norma prevalece sobre a programação histórica descrita abaixo. BDAG, LEH e PEREIRA permanecem **temporariamente suspensos**. Cada ciclo DGP usa 100 verbetes e três etapas persistentes: (1) `chat-gpt-dgp`, com commit fonte; (2) `chat-gpt-correcoes`, com relatório de auditoria independente e eventuais correções; (3) PR/merge em `chat-gpt-commits`. A perda de uma etapa não apaga o commit de outra. Reconciliar o HEAD remoto antes de qualquer repetição; proibir duplicações, branches auxiliares, exclusão de origens, force push e alterações em `main` sem autorização expressa. A cadência horária e modelo High **não constituem garantias de serviço**; a programação deve ser validada antes de uso. Este texto normativo não cria, por si, agendamento algum. **Ciclo de prova nº 1 (lote 69):** incorporação 9e371763, auditoria cc47e615, merges #74 e #75 confirmados; auditoria textual 100/100, navegador pendente. Fluxo realizado manualmente, **sem agendamento automático instalado**.
+
+
 ## Princípio
 Cada fonte BDAG, DGP, LEH e PEREIRA evolui de maneira autônoma. **Revogada a ordem sequencial** e qualquer condição de aguardar outra fonte. Quatro tarefas horárias próprias incorporam lotes e **não podem abrir PR, mesclar, rebasing ou tocar `chat-gpt-commits`**. A quinta rotina, de integração a cada 3 horas (8 vezes por dia), é a única responsável por PRs de seis branches de trabalho contra `chat-gpt-commits`. Não há publicação automática em `main`.
 

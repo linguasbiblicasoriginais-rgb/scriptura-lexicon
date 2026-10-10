@@ -15,35 +15,66 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2080,
+    "total_from_manifest": 2180,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀμβλόω",
-    "last_lemma": "ἀμέργω",
-    "next_lemma": "ἀμέρδω",
+    "first_lemma_of_latest_batch": "ἀμέρδω",
+    "last_lemma": "ἀμόθι",
+    "next_lemma": "ἀμοιβαῖος, ος, ον",
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 68,
+    "new_batch": 69,
     "batches_in_round": [
-      67,
-      68
+      69
     ],
-    "prepublication_checks": "100 ordinais consecutivos contra XML; 100 novos ids/targets únicos; definições completas em entry-card; testes de navegador e reconciliação integral de cartões históricos pendentes"
+    "independent_audit": "APROVADA ESTÁTICA — 100/100; DOM não testado",
+    "integration": "MERGED",
+    "auditor_branch": "chat-gpt-correcoes",
+    "auditor_commit": "cc47e615e1f64919563108185146715793667912",
+    "lexical_commit": "9e3717634532dd3dd34204531424b419036fede6",
+    "integration_prs": [
+      74,
+      75
+    ],
+    "integration_merges": [
+      "321ec5b45207423641e3d4e84c23c33932b3f38d",
+      "20561b309a2c381227bf3af87df2c39297a8a9b2"
+    ]
   },
   "execution": {
     "state": "derive_from_remote",
     "do_not_auto_skip": true,
     "independent": true,
     "frequency_hours": 1,
-    "wait_for_other_sources": false
+    "wait_for_other_sources": false,
+    "active_sources": [
+      "DGP"
+    ],
+    "scheduled_job_installed": false,
+    "last_cycle_mode": "manual under supervision",
+    "chatgpt_automations": {
+      "enabled": true,
+      "scope": "DGP only",
+      "timezone": "America/Sao_Paulo",
+      "schedules": {
+        "incorporation": "hourly :05",
+        "audit": "hourly :25",
+        "integration": "hourly :45"
+      },
+      "high_guaranteed": false,
+      "paid_api_authorized": false,
+      "editorial_gate": "block integration when review High/editorial is pending",
+      "first_run_verified": false
+    }
   },
   "integration": {
     "separate_task": true,
-    "frequency_hours": 3,
+    "frequency_hours": 1,
     "source_pr_allowed": false,
     "integrator_only_pr": true,
-    "target": "chat-gpt-commits"
+    "target": "chat-gpt-commits",
+    "auditor_first": true
   },
   "reporting": {
     "required_totals_table": [

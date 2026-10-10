@@ -7,9 +7,9 @@
   "auxiliary_alphabetical_list": "DDGP-3x-files/DDGP_3x_entry_lists_in_pdf_alphabetically.zip",
   "scope": {
     "initial_letter": "α",
-    "batch_size": 50,
-    "next_ordinal": 2081,
-    "status": "lote 68 concluído"
+    "batch_size": 100,
+    "next_ordinal": 2181,
+    "status": "lote 69 integrado após auditoria estática; pendente teste funcional em navegador"
   },
   "batches": [
     {
@@ -623,6 +623,15 @@
       "end_entry": "ἀμέργω",
       "entry_count": 50,
       "status": "concluído"
+    },
+    {
+      "batch": 69,
+      "start_ordinal": 2081,
+      "end_ordinal": 2180,
+      "start_entry": "ἀμέρδω",
+      "end_entry": "ἀμόθι",
+      "entry_count": 100,
+      "status": "integrado; auditoria estática aprovada; DOM não testado"
     }
   ],
   "editorial_rules": {

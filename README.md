@@ -1,5 +1,33 @@
 # Scriptura Lexicon
 
+## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
+
+**Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
+
+**Atenção:** o agendador atualmente disponível **não fornece seleção nem comprovação do nível High**. Os prompts exigem High quando selecionável e bloqueiam declarações de revisão High não comprovada. Ausente garantia High, limitar o trabalho a comparações determinísticas verificáveis, registrar revisão editorial pendente e **não integrar automaticamente lotes sem a aprovação exigida**. Não contratar API paga, não tocar `main` nem outras fontes, não apagar branches ou forçar push. Falhas e fases pendentes não devem descartar commits confirmados. **Nenhuma execução agendada foi ainda auditada como bem-sucedida.**
+
+O workflow GitHub Actions de validação somente leitura, criado em `main`, é uma rotina separada e não representa a execução dessas três tarefas do ChatGPT. O workflow de produção `dgp-hourly.yml` continua sem instalação em `main`. Não confundir **tarefas ChatGPT habilitadas** com **produção GitHub Actions ativada**.
+
+
+## Norma de orçamento e raciocínio — 09/10/2026 (SEM CUSTO EXTRA)
+
+**Decisão expressa do mantenedor:** o Scriptura Lexicon deve operar exclusivamente com recursos já incluídos na assinatura atual do ChatGPT e com ferramentas gratuitas disponíveis, **sem contratar a OpenAI API, créditos por tokens, upgrades de plano ou outro serviço pago**. Não criar segredos de API paga nem ativar faturamento como condição da execução. Nenhuma solução de custo adicional é autorizada.
+
+**Exigência editorial:** a etapa filológica deve usar **raciocínio High**, sem substituição silenciosa por Instant. O executor Python/GitHub Actions é determinístico e não configura nem executa um modelo High; seus testes de integridade não equivalem à auditoria lexicográfica. Tarefas agendadas internas do ChatGPT somente poderão realizar edição/auditoria automaticamente se sua interface e sua execução efetiva permitirem **selecionar e verificar High** com a assinatura existente; não presumir essa garantia.
+
+**Modo seguro atual:** manter desativada a incorporação editorial agendada e a integração automática. Usar GitHub Actions somente para validação determinística e ensaios sem custos adicionais, com gates de publicação; realizar análise filológica via sessões High do ChatGPT sob acompanhamento do mantenedor quando a modalidade High estiver disponível. Se não houver garantia de High nos agendamentos, optar por supervisão humana; não afirmar capacidade de 100 verbetes/hora desassistidos.
+
+
+## Preparação técnica do executor DGP — 09/10/2026
+
+O código da automação horária de 100 registros e seus testes foram preparado(s) em `tools/dgp_engine.py`, `tools/dgp_orchestrator.py`, `tests/` e `.github/workflows/dgp-hourly.yml`. Consulte [o plano técnico e os limites de auditoria](docs/DGP-AUTOMACAO.md). **A automação NÃO está ativa**: o workflow não foi instalado na branch padrão `main`, os testes em runner não foram executados e a integração automática segue bloqueada por falta de certificação editorial equivalente a High. Não tratar a programação descrita como tarefa criada ou como SLA de 60 minutos.
+
+## Fase operacional exclusiva DGP — 09/10/2026
+
+BDAG, LEH e PEREIRA estão temporariamente fora da esteira automatizada. O fluxo por lote DGP é **incorporação de 100 verbetes** em `chat-gpt-dgp` → **auditoria independente** em `chat-gpt-correcoes` → **integração após aprovação** em `chat-gpt-commits`. Os checkpoints e commits de cada etapa persistem: uma falha posterior não desfaz a etapa anterior. O limite de 60 minutos é **meta a validar**, não SLA certificado; tampouco se deve declarar modelo High em automações sem suporte verificável.
+
+**Lote 69:** ordinais 2.081–2.180 (`ἀμέρδω` a `ἀμόθι`) incorporados, **auditados estaticamente (100/100)** e **integrados** pelos PRs [#74](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/74) e [#75](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/75). Testes funcionais em navegador continuam pendentes. Fonte XML: `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`. Próximo ordinal: **2.181**.
+
 ## Princípio prioritário — popups explicativos
 
 Os **popups explicativos são um dos propósitos centrais do Scriptura Lexicon** e devem ser tratados como requisito editorial prioritário, não como enriquecimento opcional.
@@ -355,3 +383,14 @@ O lote `ἀπόστασις → ἀποτάσσω` acrescenta 20 verbetes ao BDA
 ## DGP — progresso lexical na branch exclusiva (09/10/2026)
 
 Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981–2080** do XML `arquivos_xml/01_Alfa.txt.xml` (repositório `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`): dois lotes de 50, com um commit atômico por lote. O manifesto passa a registrar **2.080** entradas; próximo ordinal **2081** (`ἀμέρδω`). O total deve ser confrontado com o HTML efetivamente renderizado, sem tratar o manifesto como auditoria estrutural completa. Popups e links seguem as regras prioritárias deste README. Alterações ficam restritas à branch DGP; a integração para `chat-gpt-commits` é processo separado.
+
+> **Nota cronológica (09/10/2026):** a seção histórica sobre 2.080 entradas refere-se ao estado anterior ao lote 69. O checkpoint lexical incorporado passou para 2.180 verbetes, próximo ordinal 2.181; auditoria e integração registradas em separado.
+
+
+## JASTROW — implantação inicial (10/10/2026)
+
+**Estado comprovado na branch `chat-gpt-jastrow`: 0 verbetes JASTROW publicados, 0 auditados e 0 integrados.** O repositório ganhou a norma independente [`regras/Rjastrow.txt`](regras/Rjastrow.txt) e o checkpoint explícito [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Esses dois arquivos são preparação da esteira, **não** um lote de 200 verbetes.
+
+**Fonte estabelecida:** Marcus Jastrow, *A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature*, [Sefaria — Jastrow](https://www.sefaria.org/Jastrow?tab=contents). Em 10/10/2026 a interface da obra era acessível, mas as consultas de índice, palavras, autocompletar e texto da API não puderam ser recuperadas pela ferramenta de navegação desta sessão. Sem os registros integrais, ficaram expressamente suspensas extração, tradução, construção de `search-row`/`entry-card`, auditoria editorial e integração; não se criaram lemas fictícios.
+
+**Fluxo obrigatório:** obter sequência canônica e conteúdo verificável → traduzir integralmente para português brasileiro preservando a camada Fonte → incorporar até 200 entradas reais em `chat-gpt-jastrow` → auditar independentemente em `chat-gpt-correcoes` (filologia, popups, minidicionário, minibiografias, HTML/CSS/JS, RTL/LTR, acessibilidade, links e interface) → integrar por PR para `chat-gpt-commits` após aprovação. Não alterar `main`, não apagar branches, não anunciar produção até verificar os commits e seus dados.

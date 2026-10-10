@@ -1335,3 +1335,13 @@ window.ScripturaLexicons.DGP = {
 </article>
 `
 };
+
+/* Revisão independente DGP — lote 69 (2081–2180); preservar siglas da fonte. */
+window.ScripturaLexicons.DGP.bibliographicTerms.push(
+    {key: "plat.", type: "biblio", text: "Platão — filósofo ateniense dos séculos V–IV a.C., autor de diálogos filosóficos e fundador da Academia."},
+    {key: "sóf.", type: "biblio", text: "Sófocles — poeta trágico ateniense (século V a.C.), autor de tragédias gregas."},
+    {key: "isócr.", type: "biblio", text: "Isócrates — orador e professor ateniense dos séculos V–IV a.C."},
+    {key: "inter.", type: "abbr", text: "interrogativa (em oração interrogativa indireta)"},
+    {key: "indir.", type: "abbr", text: "indireta (em oração interrogativa indireta)"},
+    {key: "verb.", type: "abbr", text: "verbal (em adjetivo verbal)"}
+);
