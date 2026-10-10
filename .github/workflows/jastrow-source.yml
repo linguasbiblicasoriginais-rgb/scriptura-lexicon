@@ -1,4 +1,5 @@
-name: JASTROW - extrair lote canônico (somente fonte)
+name: JASTROW - extrair lote-fonte canônico (XML Sefaria-Data)
+
 on:
   push:
     branches: [chat-gpt-jastrow]
@@ -16,9 +17,9 @@ concurrency:
 
 jobs:
   extrair-fonte:
-    name: Extrair 200 entradas originais sem traduzir/publicar
+    name: Recuperar e validar 200 verbetes originais (não traduzidos)
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,48 +28,59 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Validar sintaxe do extrator
+      - name: Validar sintaxe Python
         run: python -m py_compile tools/jastrow_source.py
-      - name: Não sobrescrever um lote já recuperado
+      - name: Verificar se o lote-fonte já foi gravado
         id: guard
         shell: bash
         run: |
           if test -e lexicons/jastrow-source-lote-0001.json; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
-            echo "Lote-fonte já existe; nenhuma extração duplicada."
+            echo "Nenhuma duplicação: arquivo-fonte já existe."
           else
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
-      - name: Recuperar registros completos da Sefaria
+      - name: Extrair XML canônico, fonte fixa Sefaria-Data
         if: steps.guard.outputs.exists == 'false'
         run: |
-          python tools/jastrow_source.py \
-            --limit 200 \
-            --delay 0.35 \
+          python tools/jastrow_source.py --limit 200 \
             --output lexicons/jastrow-source-lote-0001.json
-      - name: Conferir cardinalidade, unicidade e cadeia lexical
+      - name: Auditoria determinística da camada Fonte (não filológica)
         if: steps.guard.outputs.exists == 'false'
         run: |
           python - <<'PY'
+          import hashlib
           import json
           from pathlib import Path
-          d=json.loads(Path('lexicons/jastrow-source-lote-0001.json').read_text(encoding='utf-8'))
-          rs=d['records']
-          assert d['status']=='source_only_untranslated_not_published'
-          assert len(rs)==d['entry_count']==200
-          assert all(r['source']['parent_lexicon']=='Jastrow Dictionary' for r in rs)
-          assert len({r['source']['rid'] for r in rs}) == 200
-          assert len({r['source']['headword'] for r in rs}) == 200
-          for x, y in zip(rs, rs[1:]):
-              assert x['source']['next_hw']==y['source']['headword']
-          print('VALIDACAO FONTE: 200 registros, 200 IDs, 200 lemas, cadeia consistente')
+          from xml.etree import ElementTree as ET
+
+          obj=json.loads(Path('lexicons/jastrow-source-lote-0001.json').read_text(encoding='utf-8'))
+          entries=obj['records']
+          assert obj['status']=='source_only_untranslated_not_published'
+          assert obj['entry_count']==len(entries)==200
+          assert obj['first_headword']==entries[0]['headword']
+          assert obj['last_headword']==entries[-1]['headword']
+          assert obj['next_headword'] not in ('', None)
+          assert len({x['source_id'] for x in entries})==200
+          for n,entry in enumerate(entries, 1):
+              assert entry['ordinal']==n
+              assert entry['source_id']==f'jastrow-xml-{n:06d}'
+              xml=entry['source_xml']
+              root=ET.fromstring(xml)
+              assert root.tag.rsplit('}',1)[-1]=='entry'
+              word=root.find('head-word')
+              assert word is not None
+              assert ''.join(word.itertext()).strip()==entry['headword']
+              assert hashlib.sha256(xml.encode('utf-8')).hexdigest()==entry['source_entry_sha256']
+          print('SOURCE_AUDIT_OK: 200 entradas integrais; ordem, rótulos, IDs, SHA-256 e XML válidos')
+          print('Advertência: nenhuma entrada foi traduzida nem inserida na interface.')
           PY
-      - name: Commit da fonte íntegra na mesma branch, sem contar como verbetes publicados
+      - name: Publicar SOMENTE camada Fonte na branch exclusiva
         if: steps.guard.outputs.exists == 'false'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- lexicons/jastrow-source-lote-0001.json
-          git commit -m "JASTROW: armazenar 200 registros da fonte para tradução e auditoria"
+          git commit -m "JASTROW: preservar 200 entradas originais da fonte XML Sefaria-Data"
           git push origin HEAD:chat-gpt-jastrow
