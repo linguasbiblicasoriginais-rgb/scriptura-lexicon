@@ -1,3 +1,17 @@
+ADENDO HALOT — 10/10/2026 (PREVALECE PARA A NOVA FONTE)
+
+Por indicação expressa do mantenedor, fica registrada a branch de origem
+chat-gpt-halot, exclusiva da fonte HALOT, conforme regras/Rhalot.txt.
+A regra histórica de SEIS origens e as tarefas agendadas efetivamente
+implantadas abaixo NÃO devem ser confundidas com uma automação HALOT.
+A nova branch poderá gerar PR de integração para chat-gpt-commits,
+com auditoria, verificações e merge efetivo, conservando a origem;
+NÃO realizar PR/merge de lotes HALOT ainda não auditados.
+A presente inclusão é DOCUMENTAL e NÃO instala, ativa nem modifica
+agendamento; qualquer inclusão de HALOT no integrador automático
+requer ajuste expresso de sua configuração e validação técnica.
+Nenhuma alteração em main ou em checkpoints de outras fontes.
+
 RINTEGRACAO — NORMA EXCLUSIVA DO AGENDAMENTO DE INTEGRAÇÃO (09/10/2026)
 
 1. Frequência: a cada 3 horas, oito verificações por dia; independente das quatro rotinas horárias.
