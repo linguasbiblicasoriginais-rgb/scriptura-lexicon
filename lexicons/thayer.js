@@ -20,7 +20,7 @@ window.ScripturaLexicons.THAYER_ALPHA={
 `,
  cardsHtml:String.raw`
 <article id="entry-thayer-0001" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἄλφα</h1><div class="entry-meta"><span>το — letra do alfabeto; elemento formativo</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄλφα" data-meanings="alfa; primeira letra; prefixo privativo, copulativo ou intensivo">ἄλφα</h1><div class="entry-meta"><span>το — letra do alfabeto; elemento formativo</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>alfa; primeira letra; prefixo privativo, copulativo ou intensivo</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Α, α, ἄλφα: primeira letra do alfabeto grego, em correspondência com a última, ὦ μέγα.</p></section>
@@ -58,17 +58,17 @@ window.ScripturaLexicons.THAYER={
 `,
  cardsHtml:String.raw`
 <article id="entry-thayer-0002" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀβαδδών</h1><div class="entry-meta"><span>indeclinável — substantivo / nome próprio</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀβαδδών" data-meanings="destruição; lugar de perdição; Abadom">Ἀβαδδών</h1><div class="entry-meta"><span>indeclinável — substantivo / nome próprio</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>destruição; lugar de perdição; Abadom</strong></p></section>
-<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Do hebraico אֲבַדּוֹן, derivado de אָבַד, «perecer».</p></section>
+<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Do hebraico <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אֲבַדּוֹן" data-transliteration="ʾăḇaddôn" data-meanings="destruição; perdição">אֲבַדּוֹן</bdi>, derivado de <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="<bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אָב" data-transliteration="ʾāḇ" data-meanings="pai">אָב</bdi>ַד" data-transliteration="ʾāḇaḏ" data-meanings="perecer"><bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אָב" data-transliteration="ʾāḇ" data-meanings="pai">אָב</bdi>ַד</bdi>, «perecer».</p></section>
 <section class="entry-section"><div class="section-title">Acepções e testemunhos</div><p class="entry-text"><strong>1.</strong> Ruína, destruição, perdição; Jó 31.12.</p>
 <p class="entry-text"><strong>2.</strong> Lugar da destruição, região dos mortos, associado a שְׁאוֹל; Jó 26.6; Pv 15.11.</p>
 <p class="entry-text"><strong>3.</strong> Como nome próprio, designação do anjo que reina sobre a região infernal e é caracterizado como agente de destruição; em grego, Ἀπολλύων, «Destruidor»; Ap 9.11.</p></section>
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Jó 31.12; 26.6; Pv 15.11; Ap 9.11.</p><p class="entry-text"><em>Nota editorial:</em> A leitura Ap 9.11 é confirmada pelo fac-símile; algumas transcrições eletrônicas exibem incorretamente Ap 11.11.</p></section></article>
 
 <article id="entry-thayer-0003" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀβαρής</h1><div class="entry-meta"><span>adjetivo de duas terminações — -ές</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀβαρής" data-meanings="sem peso; leve; não oneroso">ἀβαρής</h1><div class="entry-meta"><span>adjetivo de duas terminações — -ές</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>sem peso; leve; não oneroso</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Privativo ἀ- + βάρος, «peso».</p></section>
@@ -77,24 +77,24 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">2Co 11.9; cf. 1Ts 2.6, 9.</p><p class="entry-text"><em>Nota editorial:</em> Thayer observa o emprego da palavra desde Aristóteles.</p></section></article>
 
 <article id="entry-thayer-0004" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀββᾶ</h1><div class="entry-meta"><span>vocativo / expressão aramaica — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀββᾶ" data-meanings="Aba!; Pai!">Ἀββᾶ</h1><div class="entry-meta"><span>vocativo / expressão aramaica — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Aba!; Pai!</strong></p></section>
-<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Aramaico אַבָּא, forma enfática de אָב, «pai».</p></section>
+<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Aramaico <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אַבָּא" data-transliteration="ʾabbāʾ" data-meanings="pai; forma aramaica de tratamento">אַבָּא</bdi>, forma enfática de <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אָב" data-transliteration="ʾāḇ" data-meanings="pai">אָב</bdi>, «pai».</p></section>
 <section class="entry-section"><div class="section-title">Acepções e testemunhos</div><p class="entry-text"><strong>1.</strong> Tratamento dirigido a Deus em oração: ὁ πατήρ, «o Pai», vem aposto como interpretação grega em cada uma das ocorrências neotestamentárias.</p>
 <p class="entry-text"><strong>2.</strong> Thayer propõe que o uso litúrgico repetido conferiu à forma aramaica uma condição quase nominalmente sagrada; daí a aposição da forma grega na comunidade bilíngue.</p></section>
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mc 14.36; Rm 8.15; Gl 4.6.</p><p class="entry-text"><em>Nota editorial:</em> A explicação do duplo tratamento aramaico-grego é interpretação histórica de Thayer.</p></section></article>
 
 <article id="entry-thayer-0005" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἄβελ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἄβελ" data-meanings="Abel">Ἄβελ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Abel</strong></p></section>
-<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico הֶבֶל: «sopro, vapor, transitoriedade»; Josefo registra Ἄβελος.</p></section>
+<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="הֶבֶל" data-transliteration="heḇel" data-meanings="sopro; vapor; transitoriedade">הֶבֶל</bdi>: «sopro, vapor, transitoriedade»; Josefo registra Ἄβελος.</p></section>
 <section class="entry-section"><div class="section-title">Acepções e testemunhos</div><p class="entry-text"><strong>1.</strong> Abel, segundo filho de Adão segundo o relato de Gn 4.2; Thayer relaciona a explicação tradicional do nome à brevidade de sua vida e à morte súbita.</p></section>
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mt 23.35; Lc 11.51; Hb 11.4; 12.24; Gn 4.2; Jó 7.16; Sl 39.6.</p><p class="entry-text"><em>Nota editorial:</em> A associação entre significado hebraico e destino do personagem é explicação interpretativa, não etimologia demonstrada por sua história.</p></section></article>
 
 <article id="entry-thayer-0006" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀβιά</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀβιά" data-meanings="Abias; Abia">Ἀβιά</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Abias; Abia</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico אֲבִיָּה / אֲבִיָּהוּ, «meu pai é Javé». Josefo registra Ἀβίας.</p></section>
@@ -103,16 +103,16 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mt 1.7; Lc 1.5; 1Rs 14.31; 15.1; 1Cr 24.10.</p></section></article>
 
 <article id="entry-thayer-0007" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀβιαθάρ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀβιαθάρ" data-meanings="Abiatar">Ἀβιαθάρ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Abiatar</strong></p></section>
-<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico אֶבְיָתָר, «pai da abundância»; em Josefo, Ἀβιάθαρος.</p></section>
+<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אֶבְיָתָר" data-transliteration="ʾeḇyāṯār" data-meanings="Abiatar">אֶבְיָתָר</bdi>, «pai da abundância»; em Josefo, Ἀβιάθαρος.</p></section>
 <section class="entry-section"><div class="section-title">Acepções e testemunhos</div><p class="entry-text"><strong>1.</strong> Sumo sacerdote hebreu referido em Mc 2.26.</p>
 <p class="entry-text"><strong>2.</strong> Thayer observa que Mc 2.26 menciona Abiatar onde o relato de 1Sm 21 costuma nomear seu pai Aimeleque; apresenta referências alternativas e a possibilidade de duplicidade de nomes familiares, especialmente sacerdotais.</p></section>
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mc 2.26; 1Sm 21.1; 22.20; 2Sm 15.24–29; 1Rs 2.26–27; 1Cr 24.6, 31.</p><p class="entry-text"><em>Nota editorial:</em> A alegação de confusão de nomes é juízo exegético de Thayer, não uma conclusão editorial independente do Scriptura Lexicon.</p></section></article>
 
 <article id="entry-thayer-0008" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀβιληνή</h1><div class="entry-meta"><span>substantivo feminino / topônimo — -ῆς, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀβιληνή" data-meanings="Abilene">Ἀβιληνή</h1><div class="entry-meta"><span>substantivo feminino / topônimo — -ῆς, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Abilene</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Designação da região de Abila, com χώρα («região») subentendido; Thayer registra a variante Ἀβειληνή.</p></section>
@@ -121,7 +121,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Lc 3.1; cf. Λυσανίας.</p><p class="entry-text"><em>Nota editorial:</em> Distâncias e descrição geográfica são reproduzidas como informação da fonte histórica, não como aferição cartográfica atual.</p></section></article>
 
 <article id="entry-thayer-0009" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀβιούδ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀβιούδ" data-meanings="Abiúde; Abiud">Ἀβιούδ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Abiúde; Abiud</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico אֲבִיהוּד; Thayer transmite as interpretações «pai dos judeus» e, alternativamente, «pai da glória».</p></section>
@@ -129,16 +129,16 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mt 1.13.</p><p class="entry-text"><em>Nota editorial:</em> As explicações semíticas alternativas são atribuídas à fonte.</p></section></article>
 
 <article id="entry-thayer-0010" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἀβραάμ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἀβραάμ" data-meanings="Abraão">Ἀβραάμ</h1><div class="entry-meta"><span>nome próprio masculino — indeclinável</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Abraão</strong></p></section>
-<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico אַבְרָהָם, «pai de uma multidão»; cf. Gn 17.5; Josefo emprega Ἄβραμος.</p></section>
+<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Hebraico <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="אַבְרָהָם" data-transliteration="ʾaḇrāhām" data-meanings="Abraão">אַבְרָהָם</bdi>, «pai de uma multidão»; cf. Gn 17.5; Josefo emprega Ἄβραμος.</p></section>
 <section class="entry-section"><div class="section-title">Acepções e testemunhos</div><p class="entry-text"><strong>1.</strong> Abraão, patriarca e fundador ancestral do povo judeu; citado frequentemente no Novo Testamento.</p>
 <p class="entry-text"><strong>2.</strong> Paulo apresenta Abraão como modelo de fé; quem crê em Cristo pode ser chamado descendência ou filho de Abraão em sentido espiritual.</p></section>
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mt 1.1; 22.32; Lc 19.9; Jo 8.33; At 3.25; Rm 4.1, 11, 17; Gl 3.6–7, 29; Hb 7.1; 11.8.</p></section></article>
 
 <article id="entry-thayer-0011" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἄβυσσος</h1><div class="entry-meta"><span>substantivo feminino — -ου, ἡ; primitivamente adjetivo -ος, -ον</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἄβυσσος" data-meanings="sem fundo; abismo; profundidade insondável">ἄβυσσος</h1><div class="entry-meta"><span>substantivo feminino — -ου, ἡ; primitivamente adjetivo -ος, -ον</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>sem fundo; abismo; profundidade insondável</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">De ἀ- privativo + βυσσός, relacionado a βυθός, «profundidade».</p></section>
@@ -149,15 +149,15 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Gn 1.2; 7.11; Lc 8.31; Rm 10.7; Ap 9.1, 11; 11.7; 17.8; 20.1, 3.</p></section></article>
 
 <article id="entry-thayer-0012" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">Ἄγαβος</h1><div class="entry-meta"><span>substantivo masculino / nome próprio — -ου, ὁ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="Ἄγαβος" data-meanings="Ágabo">Ἄγαβος</h1><div class="entry-meta"><span>substantivo masculino / nome próprio — -ου, ὁ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>Ágabo</strong></p></section>
-<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Thayer propõe, com ressalva, ligação possível ao hebraico עָגַב, «amar».</p></section>
+<section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Thayer propõe, com ressalva, ligação possível ao hebraico <bdi class="hebrew hebrew-token tooltip-trigger" lang="he" dir="rtl" tabindex="0" data-tooltip-type="hebrew" data-tooltip-label="עָגַב" data-transliteration="ʿāḡaḇ" data-meanings="amar">עָגַב</bdi>, «amar».</p></section>
 <section class="entry-section"><div class="section-title">Acepções e testemunhos</div><p class="entry-text"><strong>1.</strong> Nome de um profeta cristão mencionado nos Atos dos Apóstolos.</p></section>
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">At 11.28; 21.10.</p><p class="entry-text"><em>Nota editorial:</em> A etimologia sugerida é explicitamente hipotética.</p></section></article>
 
 <article id="entry-thayer-0013" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοεργέω</h1><div class="entry-meta"><span>verbo contraído — -ῶ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθοεργέω" data-meanings="praticar o bem; ser beneficente">ἀγαθοεργέω</h1><div class="entry-meta"><span>verbo contraído — -ῶ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>praticar o bem; ser beneficente</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Composto de ἀγαθόν e elemento verbal relacionado a ἔρδω/ἐργάζομαι; cf. ἀγαθουργέω.</p></section>
@@ -166,7 +166,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">1Tm 6.18.</p></section></article>
 
 <article id="entry-thayer-0014" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοποιέω</h1><div class="entry-meta"><span>verbo contraído — -ῶ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθοποιέω" data-meanings="fazer o bem; beneficiar; proceder retamente">ἀγαθοποιέω</h1><div class="entry-meta"><span>verbo contraído — -ῶ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>fazer o bem; beneficiar; proceder retamente</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Formado de ἀγαθοποιός; aoristo infinitivo ἀγαθοποιῆσαι.</p></section>
@@ -176,7 +176,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Mc 3.4; Lc 6.9, 33, 35; At 14.17 (TR); 1Pe 2.15, 20; 3.6, 17; 3Jo 11.</p></section></article>
 
 <article id="entry-thayer-0015" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοποιΐα</h1><div class="entry-meta"><span>substantivo feminino — -ας, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθοποιΐα" data-meanings="prática do bem; procedimento correto">ἀγαθοποιΐα</h1><div class="entry-meta"><span>substantivo feminino — -ας, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>prática do bem; procedimento correto</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Derivado de ἀγαθοποιέω; Thayer assinala variante gráfica ἀγαθοποιία.</p></section>
@@ -186,7 +186,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">1Pe 4.19.</p><p class="entry-text"><em>Nota editorial:</em> A distinção singular/plural acompanha as variantes textuais discutidas pela fonte.</p></section></article>
 
 <article id="entry-thayer-0016" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθοποιός</h1><div class="entry-meta"><span>adjetivo de duas terminações — -όν</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθοποιός" data-meanings="que pratica o bem; que procede corretamente">ἀγαθοποιός</h1><div class="entry-meta"><span>adjetivo de duas terminações — -όν</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>que pratica o bem; que procede corretamente</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Composto de ἀγαθός e elemento de ποιέω.</p></section>
@@ -194,7 +194,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">1Pe 2.14; Sir 42.14.</p></section></article>
 
 <article id="entry-thayer-0017" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθός</h1><div class="entry-meta"><span>adjetivo — -ή, -όν; uso substantivo neutro</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθός" data-meanings="bom; útil; benéfico; agradável; honrado; bondoso">ἀγαθός</h1><div class="entry-meta"><span>adjetivo — -ή, -όν; uso substantivo neutro</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>bom; útil; benéfico; agradável; honrado; bondoso</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Thayer menciona comparação com ἄγαμαι, «admirar», e ἀγαστός, «admirável», remetendo a Platão (Crátilo 412c).</p></section>
@@ -208,7 +208,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Lc 8.8, 15; Mt 7.11, 18; 19.17; 20.15; Rm 5.7; 7.12–13; 8.28; 12.2, 9; 13.4; Hb 9.11; 10.1.</p><p class="entry-text"><em>Nota editorial:</em> A análise preserva as cinco acepções adjetivais e os dois eixos principais do uso substantivado discriminados por Thayer. A observação sobre καλός versus ἀγαθός na LXX pertence à discussão histórica da fonte.</p></section></article>
 
 <article id="entry-thayer-0018" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθουργέω</h1><div class="entry-meta"><span>verbo contraído — -ῶ; variante sem número Strong independente</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθουργέω" data-meanings="fazer o bem; praticar boas obras">ἀγαθουργέω</h1><div class="entry-meta"><span>verbo contraído — -ῶ; variante sem número Strong independente</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>fazer o bem; praticar boas obras</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Variante morfológica de ἀγαθοεργέω; Thayer registra a forma em uma nota própria sob Strong 14.</p></section>
@@ -217,7 +217,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">At 14.17; cf. 1Tm 6.18.</p><p class="entry-text"><em>Nota editorial:</em> Verbete não numerado isoladamente em Strong; inserido entre ἀγαθός e ἀγαθωσύνη para preservar a sequência do léxico.</p></section></article>
 
 <article id="entry-thayer-0019" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαθωσύνη</h1><div class="entry-meta"><span>substantivo feminino — -ης, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαθωσύνη" data-meanings="bondade; retidão de coração e vida">ἀγαθωσύνη</h1><div class="entry-meta"><span>substantivo feminino — -ης, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>bondade; retidão de coração e vida</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">Substantivo abstrato da família de ἀγαθός.</p></section>
@@ -226,7 +226,7 @@ window.ScripturaLexicons.THAYER={
 <section class="entry-section"><div class="section-title">Referências citadas por Thayer</div><p class="entry-text">Rm 15.14; Gl 5.22; Ef 5.9; 2Ts 1.11.</p><p class="entry-text"><em>Nota editorial:</em> Thayer observa que a palavra ocorre em escritos bíblicos e eclesiásticos.</p></section></article>
 
 <article id="entry-thayer-0020" class="entry-card" data-dictionary="grego" hidden>
-<header class="entry-header"><div><h1 class="entry-title greek">ἀγαλλίασις</h1><div class="entry-meta"><span>substantivo feminino — -εως, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
+<header class="entry-header"><div><h1 class="entry-title greek greek-term tooltip-trigger" tabindex="0" data-tooltip-type="greek" data-tooltip-label="ἀγαλλίασις" data-meanings="exultação; júbilo intenso; alegria extrema">ἀγαλλίασις</h1><div class="entry-meta"><span>substantivo feminino — -εως, ἡ</span></div></div><div class="source-tag">THAYER</div></header>
 <div class="entry-divider"></div>
 <section class="entry-section"><div class="section-title">Tradução literal</div><p class="entry-text"><strong>exultação; júbilo intenso; alegria extrema</strong></p></section>
 <section class="entry-section"><div class="section-title">Formação e formas</div><p class="entry-text">De ἀγαλλιάω, «exultar».</p></section>

@@ -16,3 +16,5 @@ Validação em navegador e validação externa dos URLs por entrada continuam pe
 Documentação e checkpoint em lexicons/thayer-progress.json, regras/Rthayer.txt, README.md.
 Integração: chat-gpt-thayer não integra a lista de seis origens de Rintegracao, portanto este lote permanece somente em sua branch, sem PR automático.
 Commits devem ser atômicos, com conferência do HEAD remoto e atualização protegida, force=false.
+
+Padrão de popups implementado: h1 grego dos 20 verbetes possui tooltip lexical com significado; radicais e nomes hebraicos presentes na formação recebem tooltip hebraico com transliteração e significado.
