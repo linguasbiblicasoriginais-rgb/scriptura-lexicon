@@ -749,3 +749,14 @@ e integração NÃO foram consideradas concluídas por este commit.
 Para auditoria, confrontar os 100 registros com XML, popups, índices, DOM
 e metadados, e publicar relatório na branch chat-gpt-correcoes.
 ================================================================================
+
+
+================================================================================
+REGISTRO DGP — LOTE 71 (10/10/2026)
+================================================================================
+XML canônico aniseferreira/Grc-Por-DigDict, commit deb54b426ead447d01ced7534736f3e77be7015b, arquivos_xml/01_Alfa.txt.xml.
+Ordinais 2281–2380, 100 registros entryFree consecutivos; lema inicial ἀμφαγαπάζω; final ἀμφιλαχαίνω. Próximo ordinal 2381.
+Uma linha search-row e um cartão entry-card para cada ordinal; IDs entry-dgp-2281–entry-dgp-2380, ligação por data-target e definição integral normalizada somente em espaços. Auditoria filológica independente e integração permanecem etapas posteriores; inspeção visual no navegador não executada.
+EXCEÇÃO DOCUMENTAL (ordinal 2311): o XML contém <entryFree><def> sem lema antes de <def>; a própria definição começa pela forma grega ἀμφί. A interface exibe esse mesmo elemento atestado como lema sem suprimir a sua ocorrência do corpo da definição, sinalizando a anomalia em vez de inventar outra leitura.
+AUDITORIA HISTÓRICA PRELIMINAR: manifesto anterior declarava 2280 registros, porém nos módulos dgp.js, dgp-batch-005/006/007.js, dgp-batches.js, efetivamente publicados/carregados, encontraram-se 690 IDs de cartões distintos, 1590 ordinais ausentes (141–1630, 1881–1980) e 60 IDs duplicados. A discrepância antecede este lote e exige correção independente. Não anunciar 2380 cartões distintos realmente existentes enquanto não sanada.
+================================================================================
