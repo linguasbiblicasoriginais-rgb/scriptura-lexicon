@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2381,
-    "status": "lote 71 incorporado; auditoria independente pendente; integridade histórica requer reparação"
+    "next_ordinal": 2481,
+    "status": "lote 72 incorporado; auditoria independente e integração pendentes"
   },
   "batches": [
     {
@@ -648,6 +648,15 @@
       "end_ordinal": 2380,
       "start_entry": "ἀμφαγαπάζω",
       "end_entry": "ἀμφιλαχαίνω",
+      "entry_count": 100,
+      "status": "incorporado; aguardando auditoria independente"
+    },
+    {
+      "batch": 72,
+      "start_ordinal": 2381,
+      "end_ordinal": 2480,
+      "start_entry": "ἀμφιλέγω",
+      "end_entry": "ἀν",
       "entry_count": 100,
       "status": "incorporado; aguardando auditoria independente"
     }

@@ -760,3 +760,13 @@ Uma linha search-row e um cartão entry-card para cada ordinal; IDs entry-dgp-22
 EXCEÇÃO DOCUMENTAL (ordinal 2311): o XML contém <entryFree><def> sem lema antes de <def>; a própria definição começa pela forma grega ἀμφί. A interface exibe esse mesmo elemento atestado como lema sem suprimir a sua ocorrência do corpo da definição, sinalizando a anomalia em vez de inventar outra leitura.
 AUDITORIA E RETIFICAÇÃO ESTRUTURAL: a primeira leitura parcial do código (restrita a marcações HTML literais e incluindo por engano módulos auxiliares não carregados) indicara 1590 lacunas e 60 duplicações. A recontagem correta interpreta 52 arrays JavaScript que geram 1490 cartões/linhas (141–1630) e 100 registros em cadeias HTML codificadas (1881–1980), além das marcações literais. Os auxiliares dgp-batch-005/006/007.js não são carregados no index.html, e por isso seus registros não devem ser somados novamente. Auditoria do estado após o lote 71: 2380 search-row e 2380 entry-card; 2380 IDs únicos em cada conjunto; zero lacunas, duplicações e alvos órfãos. Os lemas e definições completos dos 100 cartões do lote 71 foram conferidos com o XML, sem divergências textuais; ordinal 2311 conserva exceção documental. Esta auditoria é estática; popups dinâmicos, renderização e acessibilidade em navegador ainda não verificados.
 ================================================================================
+
+
+================================================================================
+REGISTRO DGP — LOTE 72 (10/10/2026)
+================================================================================
+Fonte: arquivos_xml/01_Alfa.txt.xml, aniseferreira/Grc-Por-DigDict, commit deb54b426ead447d01ced7534736f3e77be7015b; blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 2381–2480, exatamente 100 entryFree consecutivos, ἀμφιλέγω → ἀν. Próximo ordinal 2481: ἅν1.
+Cada registro fornece uma search-row e um entry-card. ID/data-target entry-dgp-2381 a entry-dgp-2480. Lemas preservados; definições completas reproduzidas com normalização somente de whitespace e escape seguro do HTML, sem reescrita de acepções. Glosas da tabela são resumos auxiliares. Incluem-se separadamente os quatro registros do fim da faixa: ἄν1 (2477), ἄν2 (2478), ἄν3 (2479) e ἀν (2480).
+Auditoria pré-publicação: 100 pares de índices e cartões; 100 lemas e definições confrontados com o XML; zero IDs repetidos na faixa. Nenhuma URL externa nova. Auditoria remota posterior e independente prevista em chat-gpt-correcoes, sem alterar este checkpoint; testes em navegador, popups dinâmicos e integração ainda pendentes.
+================================================================================
