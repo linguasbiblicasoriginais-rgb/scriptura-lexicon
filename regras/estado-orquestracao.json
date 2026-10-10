@@ -31,10 +31,11 @@
     "batches_in_round": [
       72
     ],
-    "independent_audit": "PENDENTE",
+    "independent_audit": "ESTATICA_PUBLICADA_db9c03538c3c0f8482004b76cfe7f4c880d13569",
     "functional_visual_audit": "PENDENTE",
     "integration": "PENDENTE",
-    "corpus_structural_audit": "Novo lote 72: 100 linhas/cartões verificadas na geração; auditoria remota pós-publicação necessária"
+    "corpus_structural_audit": "2480 search-row e 2480 entry-card, IDs únicos sem lacunas ou órfãos, geradores JS incluídos; confrontados 100 novos verbetes com XML",
+    "lexical_commit": "bc3d7426b88a2498fc16c93ca029f5bf114b7ca5"
   },
   "execution": {
     "state": "derive_from_remote",
