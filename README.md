@@ -1,5 +1,11 @@
 # Scriptura Lexicon
 
+## HALOT — fonte e branch registradas (10/10/2026)
+
+O **HALOT** (*The Hebrew and Aramaic Lexicon of the Old Testament*) passa a integrar o cadastro documental do Scriptura Lexicon com **branch própria** `chat-gpt-halot`. A fonte indicada pelo mantenedor é o PDF **Study Edition, volume 1**, disponível em [yausha.com.br](https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf). O protocolo canônico de proveniência, distinção de edições, escopo, checkpoints e integração está em [`regras/Rhalot.txt`](regras/Rhalot.txt).
+
+**Estado:** cadastro e branch, sem incorporação lexical ou tarefa agendada comprovada para HALOT. O link foi designado pelo mantenedor, mas a inspeção bibliográfica integral do PDF ainda é pendente. Não confundir o volume 1 da *Study Edition* com os volumes da edição maior de KBS/HALOT; não alterar `main` nem o estado das outras fontes. O destino de consolidação continua `chat-gpt-commits`, sujeito à auditoria e à confirmação do PR/merge.
+
 ## Fontes bibliográficas impressas digitalizadas — regra de 10/10/2026
 
 Os exemplares do Internet Archive expressamente designados pelo mantenedor para **ROBINSON (três registros), ABBOTT-SMITH (três) e GESENIUS (dois)** integram o cadastro de testemunhos bibliográficos autorizado em [`regras/Rfontes-impressas.txt`](regras/Rfontes-impressas.txt). Este arquivo identifica individualmente as edições e os exemplares, documenta metadados divergentes ou não confirmados, define a autoridade do fac-símile sobre o OCR e exige rastreabilidade de lema e página.
