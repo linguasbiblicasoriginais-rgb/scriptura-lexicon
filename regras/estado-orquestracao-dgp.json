@@ -15,32 +15,38 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2180,
+    "total_from_manifest": 2780,
+    "total_rows_static_plus_generated": 2780,
+    "total_cards_static_plus_generated": 2780,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀμέρδω",
-    "last_lemma": "ἀμόθι",
-    "next_lemma": "ἀμοιβαῖος, ος, ον",
+    "first_lemma_of_latest_batch": "ἀνακινέω-ῶ",
+    "last_lemma": "ἀναμάσσω,",
+    "next_lemma": "ἀνάματος, ος, ον",
+    "next_ordinal": 2781,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 69,
+    "new_batch": 75,
     "batches_in_round": [
-      69
-    ],
-    "independent_audit": "APROVADA ESTÁTICA — 100/100; DOM não testado",
-    "integration": "MERGED",
-    "auditor_branch": "chat-gpt-correcoes",
-    "auditor_commit": "cc47e615e1f64919563108185146715793667912",
-    "lexical_commit": "9e3717634532dd3dd34204531424b419036fede6",
-    "integration_prs": [
-      74,
       75
     ],
-    "integration_merges": [
-      "321ec5b45207423641e3d4e84c23c33932b3f38d",
-      "20561b309a2c381227bf3af87df2c39297a8a9b2"
-    ]
+    "independent_audit": "APROVADA ESTÁTICA 100/100 — f28a5f282f2df7f90007c55d196044acee12b145; testes funcionais/visuais pendentes",
+    "functional_visual_audit": "PENDENTE",
+    "integration": "PR #80 — preparado em merge atômico de dois pais; confirmação de merged=true no GitHub",
+    "corpus_structural_audit": "Lote 75: 100 linhas e 100 cartões verificados no módulo novo antes do commit. O total 2780 soma ao checkpoint previamente auditado de 2680; auditoria independente do lote e nova recontagem global pendentes",
+    "lexical_commit": "70f09b8348b35d7a4b82fe2eed2a2759024691cb",
+    "auditor_branch": "chat-gpt-correcoes",
+    "auditor_commit": "f28a5f282f2df7f90007c55d196044acee12b145",
+    "integration_prs": [
+      80
+    ],
+    "previous_integrated_checkpoint": {
+      "batch": 69,
+      "total": 2180,
+      "status": "auditoria estática aprovada",
+      "auditor_commit": "cc47e615e1f64919563108185146715793667912"
+    }
   },
   "execution": {
     "state": "derive_from_remote",
@@ -50,23 +56,7 @@
     "wait_for_other_sources": false,
     "active_sources": [
       "DGP"
-    ],
-    "scheduled_job_installed": false,
-    "last_cycle_mode": "manual under supervision",
-    "chatgpt_automations": {
-      "enabled": true,
-      "scope": "DGP only",
-      "timezone": "America/Sao_Paulo",
-      "schedules": {
-        "incorporation": "hourly :05",
-        "audit": "hourly :25",
-        "integration": "hourly :45"
-      },
-      "high_guaranteed": false,
-      "paid_api_authorized": false,
-      "editorial_gate": "block integration when review High/editorial is pending",
-      "first_run_verified": false
-    }
+    ]
   },
   "integration": {
     "separate_task": true,

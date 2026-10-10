@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## Integração DGP — PR #80, lotes 70–75 (10/10/2026)
+
+Os **600 registros DGP** dos ordinais **2.181–2.780** foram reconciliados para `chat-gpt-commits` pelo PR [#80](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/80), preservando as correções filológicas anteriores dos verbetes 95, 124 e 150, os popups e todas as demais fontes (inclusive PEREIRA e JASTROW). Os módulos `lexicons/dgp-batch-073.js`, `dgp-batch-074.js` e `dgp-batch-075.js` são carregados depois de `dgp-batches.js` e antes do formatador. O checkpoint DGP passa a **2.780 verbetes**, próximo ordinal **2.781 (`ἀνάματος, ος, ον`)**.
+
+Os lotes 70–74 possuem auditorias textuais/estruturais na branch `chat-gpt-correcoes`; o lote 75 teve auditoria estática independente **100/100**, commit [`f28a5f282f2d`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/f28a5f282f2df7f90007c55d196044acee12b145), relatório `auditorias/dgp-2026-10-10-lote75.md`. Os testes de navegador/DOM, acessibilidade e popups dinâmicos seguem pendentes. A integração não altera `main` nem as branches de origem.
+
+
 ## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
 
 **Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
