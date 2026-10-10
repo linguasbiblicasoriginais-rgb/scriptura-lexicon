@@ -15,27 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2580,
-    "total_rows_static_plus_generated": 2580,
-    "total_cards_static_plus_generated": 2580,
+    "total_from_manifest": 2680,
+    "total_rows_static_plus_generated": 2680,
+    "total_cards_static_plus_generated": 2680,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἅν1",
-    "last_lemma": "ἀνάδημα, ατος (τό)",
-    "next_lemma": "ἀναδιδάσκω",
-    "next_ordinal": 2581,
+    "first_lemma_of_latest_batch": "ἀναδιδάσκω",
+    "last_lemma": "ἀνακινδυνεύω",
+    "next_lemma": "ἀνακινέω-ῶ",
+    "next_ordinal": 2681,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 73,
+    "new_batch": 74,
     "batches_in_round": [
-      73
+      74
     ],
-    "independent_audit": "ESTATICA_PUBLICADA_413c870f0e0abadaf9b50bb1604eb95dabf6c97d",
+    "independent_audit": "PENDENTE",
     "functional_visual_audit": "PENDENTE",
     "integration": "PENDENTE",
-    "corpus_structural_audit": "2580 search-row/entry-card com IDs únicos e alvos sem lacunas ou duplicações; lote 73 com 100 lemas e definições conferidos ao XML; carregamento do módulo 073 confirmado",
-    "lexical_commit": "61112cba69836b761b22076065c330dfaeadcf2a"
+    "corpus_structural_audit": "100 linhas/cartões verificadas antes de publicar; revisão remota posterior pendente",
+    "lexical_commit": "PENDENTE_VERIFICACAO_REMOTA"
   },
   "execution": {
     "state": "derive_from_remote",

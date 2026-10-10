@@ -798,3 +798,14 @@ O commit de incorporação 61112cba69836b761b22076065c330dfaeadcf2a foi auditado
 Conferidos 100/100 lemas e definições integrais dos ordinais 2481–2580. O arquivo novo lexicons/dgp-batch-073.js está incluído uma vez no index.html, depois de dgp-batches.js. A recontagem estrutural de dgp.js, dgp-batches.js e dgp-batch-073.js resultou em 2580 search-row e 2580 entry-card, com 2580 IDs únicos, zero lacunas, duplicações e alvos órfãos; 73 lotes e 2580 verbetes no manifesto.
 Esta sincronização é ADMINISTRATIVA: não modifica o arquivo lexical novo nem avança o ordinal 2581. Auditoria de navegador/DOM, popups dinâmicos, acessibilidade e integração permanecem PENDENTES.
 ================================================================================
+
+
+================================================================================
+REGISTRO DGP — INCORPORAÇÃO MODULAR DO LOTE 74 (10/10/2026)
+================================================================================
+Fonte canônica: aniseferreira/Grc-Por-DigDict, arquivos_xml/01_Alfa.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+100 elementos entryFree consecutivos, ordinais 2581–2680, ἀναδιδάσκω → ἀνακινδυνεύω; próximo 2681 (ἀνακινέω-ῶ).
+Módulo exclusivo lexicons/dgp-batch-074.js, incluído pelo index.html logo após dgp-batch-073.js, antes de dgp-format.js/script.js. O arquivo dgp-batches.js e os auxiliares antigos 005–007 permanecem intocados.
+100 search-row/entry-card, IDs e data-target entry-dgp-2581..entry-dgp-2680, proveniência DGP. Definições integrais preservadas sem paráfrase, somente normalização de espaços e escape HTML. Índice de busca conserva definição completa; glosa curta apenas auxiliar. Nenhuma URL nova.
+Colação preliminar 100/100 lemas e definições; auditoria remota de conteúdo, contagem estrutural, popups e DOM em etapas distintas. Política de retentativas para falhas TRANSITÓRIAS: até três tentativas totais por operação (inicial + duas), sempre reconsultando o HEAD e evitando commits duplicados. Não repetir erros permanentes ou bloqueios explícitos de segurança; registrar mensagem literal. Não desativar agendamentos.
+================================================================================

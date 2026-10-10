@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2581,
-    "status": "Lote 73 incorporado em módulo independente; auditoria textual/estrutural independente publicada; testes visuais/funcionais e integração pendentes"
+    "next_ordinal": 2681,
+    "status": "Lote 74 incorporado em módulo separado; auditoria independente posterior e integração pendentes"
   },
   "batches": [
     {
@@ -668,6 +668,15 @@
       "end_entry": "ἀνάδημα, ατος (τό)",
       "entry_count": 100,
       "status": "incorporado e aprovado em colação textual e auditoria estrutural; testes funcionais e integração pendentes"
+    },
+    {
+      "batch": 74,
+      "start_ordinal": 2581,
+      "end_ordinal": 2680,
+      "start_entry": "ἀναδιδάσκω",
+      "end_entry": "ἀνακινδυνεύω",
+      "entry_count": 100,
+      "status": "incorporado em dgp-batch-074.js; auditoria independente pendente"
     }
   ],
   "editorial_rules": {
