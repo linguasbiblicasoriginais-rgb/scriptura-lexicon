@@ -113,3 +113,13 @@ Conferida a inclusão de lexicons/dgp-batch-073.js no index.html, após dgp-batc
 Relatório: auditorias/dgp-2026-10-10-lote73.md.
 PENDÊNCIA expressa: testes de DOM real, popups dinâmicos, acessibilidade e apresentação visual. Esta auditoria não executa integração; PRs/merges exclusivos do integrador.
 ================================================================================
+
+
+================================================================================
+AUDITORIA INDEPENDENTE DGP — LOTE 74 (10/10/2026)
+================================================================================
+Incorporação auditada: commit a9b29c233916c9adc265b34007c8b085c96fd972 em chat-gpt-dgp; ordinais 2581–2680, de ἀναδιδάσκω a ἀνακινδυνεύω. Confrontados os 100 lemas e 100 definições completas com o XML original imutável; zero divergências textuais, índices e data-target/IDs correspondentes.
+Recontagem do código carregado: 2680 linhas search-row, 2680 cartões entry-card, IDs únicos 1–2680 em ambos os conjuntos, zero lacunas, duplicações ou alvos órfãos. Conferida sequência do index.html com dgp-batch-074.js e sem ativar módulos auxiliares históricos.
+Relatório: auditorias/dgp-2026-10-10-lote74.md.
+APROVAÇÃO ESTÁTICA: fidelidade textual e integridade estrutural. PENDENTE: DOM real, popups, acessibilidade, responsividade, editoria visual e integração. Não criar PR/merge nesta etapa; exclusividade do integrador.
+================================================================================
