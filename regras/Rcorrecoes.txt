@@ -93,3 +93,13 @@ AUDITORIA DGP — LOTE 71 E RETIFICAÇÃO DE CONTAGEM (10/10/2026)
 ================================================================================
 Confrontados 100 verbetes 2281–2380 com o XML original: 100 pares de lemas e definições, zero divergências nos cartões; ocorrência especial 2311 documentada. Auditoria estrutural do código gerador DGP: 2380 search-row, 2380 entry-card, 2380 IDs únicos, sem lacunas ou duplicações nos módulos carregados. Arrays de JS e cadeias HTML codificadas explicam os 1590 registros anteriormente invisíveis na contagem exclusivamente literal. Relatório: auditorias/dgp-2026-10-10-lote71.md. Não houve inspeção visual em navegador; integração continua sujeita a esse gate editorial. Branch de auditoria: chat-gpt-correcoes. Nenhum ordinal avançado nesta branch.
 ================================================================================
+
+
+================================================================================
+DGP — AUDITORIA INDEPENDENTE DO LOTE 72 (10/10/2026)
+================================================================================
+Branch lexical auditada chat-gpt-dgp no commit bc3d7426b88a2498fc16c93ca029f5bf114b7ca5. XML deb54b426ead447d01ced7534736f3e77be7015b.
+Ordinais 2381–2480: confrontados 100 lemas e 100 definições completas com a fonte. 100 linhas, 100 cartões, 100 alvos/IDs válidos, zero divergências textuais. Verificados os quatro registros separados ἄν1, ἄν2, ἄν3, ἀν. Recontagem estática de todo o DGP carregado: 2480 linhas e 2480 cartões, IDs únicos, sem órfãos nem lacunas. Manifesto: 72 lotes, 2480 entradas.
+Relatório: auditorias/dgp-2026-10-10-lote72.md.
+PENDENTE: inspeção funcional/visual em navegador e revisão de popups dinâmicos. O processo de auditoria não publica PR nem merge; integração separada e condicionada ao gate editorial vigente.
+================================================================================
