@@ -1,5 +1,14 @@
 # Scriptura Lexicon
 
+## THAYER — primeiro lote de 20 entradas (10/10/2026)
+
+Na branch `chat-gpt-thayer`, o módulo `lexicons/thayer.js` inclui 20 verbetes de `ἄλφα` a `ἀγαλλίασις`. O cartão preexistente de `Ἀαρών` permanece inalterado, totalizando **21 verbetes THAYER**. A sequência considera `ἀγαθουργέω`, lema próprio sem número Strong independente. O próximo é `ἀγαλλιάω`.
+
+Fonte-base: fac-símile Thayer (parte 1, Α–Ι), pp. 1–3; cotejo com transcrições históricas. A tradução portuguesa preserva acepções, variantes e atribuições exegéticas, e não é substituída por conteúdo de outros léxicos. Checkpoint: [`lexicons/thayer-progress.json`](lexicons/thayer-progress.json); regras: [`regras/Rthayer.txt`](regras/Rthayer.txt). Auditoria estática: 20 linhas e 20 cartões com alvos correspondentes, 4 âncoras de injeção, sem IDs repetidos; testes em navegador/URLs individuais pendentes.
+
+A branch THAYER **não integra ainda** as seis fontes autorizadas pelo integrador em `regras/Rintegracao.txt`: nenhum PR/merge foi realizado por esta rotina. Nenhuma alteração em `main`.
+
+
 ## Fontes bibliográficas impressas digitalizadas — regra de 10/10/2026
 
 Os exemplares do Internet Archive expressamente designados pelo mantenedor para **ROBINSON (três registros), ABBOTT-SMITH (três) e GESENIUS (dois)** integram o cadastro de testemunhos bibliográficos autorizado em [`regras/Rfontes-impressas.txt`](regras/Rfontes-impressas.txt). Este arquivo identifica individualmente as edições e os exemplares, documenta metadados divergentes ou não confirmados, define a autoridade do fac-símile sobre o OCR e exige rastreabilidade de lema e página.
