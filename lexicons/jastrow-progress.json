@@ -79,9 +79,10 @@
     "audit": "100 source IDs and headwords matched; 100 distinct new IDs; balanced bdi tags and JavaScript parse passed; script tags installed before script.js",
     "filological_audit": "not independently completed",
     "browser_test": "not executed",
-    "popup_audit": "not completed",
+    "popup_audit": "55 termos explicativos únicos na configuração JASTROW (8 anteriores e 47 novos dos 49 propostos; 2 duplicados por normalização); cobertura parcial, revisão exaustiva pendente",
     "integration": "not done; require independent editorial audit and verified PR",
-    "no_main_writes": true
+    "no_main_writes": true,
+    "runtime_static_audit": "PASS: 110 search-row, 110 entry-card, 110 IDs e data-target correspondentes; scripts sequenciais; 55 popups únicos; zero links externos inventados; checkpoint em A00110"
   },
   "constraints": {
     "never_invent": true,
