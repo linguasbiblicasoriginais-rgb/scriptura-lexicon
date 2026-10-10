@@ -5,7 +5,7 @@
 
 BDAG, LEH e PEREIRA estão temporariamente fora da esteira automatizada. O fluxo por lote DGP é **incorporação de 100 verbetes** em `chat-gpt-dgp` → **auditoria independente** em `chat-gpt-correcoes` → **integração após aprovação** em `chat-gpt-commits`. Os checkpoints e commits de cada etapa persistem: uma falha posterior não desfaz a etapa anterior. O limite de 60 minutos é **meta a validar**, não SLA certificado; tampouco se deve declarar modelo High em automações sem suporte verificável.
 
-**Lote 69:** ordinais 2.081–2.180 (`ἀμέρδω` a `ἀμόθι`) incorporados em DGP; auditoria independente e integração ainda pendentes. Fonte XML: `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`. Próximo ordinal: **2.181**.
+**Lote 71 (10/10/2026):** ordinais **2.281–2.380** (`ἀμφαγαπάζω` → `ἀμφιλαχαίνω`) incorporados em `chat-gpt-dgp`, commit `513252e931eaafbf0882f1f142502ca9e0308643`. Próximo ordinal: **2.381** (`ἀμφιλέγω`). O XML canônico continua no commit `deb54b426ead447d01ced7534736f3e77be7015b`. Auditoria independente dos novos 100 verbetes publicada em `chat-gpt-correcoes` no commit `75ee71f31a0a1f87622a370f75fa65a01066dd55`. **Recontagem estrutural correta: 2.380 linhas e 2.380 cartões, todos os IDs únicos e sem lacunas, incluindo os blocos JavaScript geradores de HTML.** Inspeção funcional/visual dos popups ainda não realizada; integração pendente. O ordinal 2.311 contém exceção documental: `ἀμφί` está no início de `<def>` sem lema separado no XML (ver `regras/Rdgp.txt`).
 
 ## Princípio prioritário — popups explicativos
 

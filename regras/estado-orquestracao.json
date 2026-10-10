@@ -15,21 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2180,
+    "total_from_manifest": 2380,
+    "total_rows_static_plus_generated": 2380,
+    "total_cards_static_plus_generated": 2380,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀμέρδω",
-    "last_lemma": "ἀμόθι",
-    "next_lemma": "ἀμοιβαῖος, ος, ον",
+    "first_lemma_of_latest_batch": "ἀμφαγαπάζω",
+    "last_lemma": "ἀμφιλαχαίνω",
+    "next_lemma": "ἀμφιλέγω",
+    "next_ordinal": 2381,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 69,
+    "new_batch": 71,
     "batches_in_round": [
-      69
+      71
     ],
-    "independent_audit": "PENDENTE",
-    "integration": "PENDENTE"
+    "lexical_commit": "513252e931eaafbf0882f1f142502ca9e0308643",
+    "independent_audit": "ESTÁTICA_PUBLICADA_75ee71f31a0a1f87622a370f75fa65a01066dd55",
+    "functional_visual_audit": "PENDENTE",
+    "integration": "PENDENTE",
+    "corpus_structural_audit": "2380 linhas/cartões e IDs únicos; geradores JS incluídos"
   },
   "execution": {
     "state": "derive_from_remote",
