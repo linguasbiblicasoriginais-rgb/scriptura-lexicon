@@ -86,3 +86,10 @@ não descrevê-los como concluídos.
 Relatório: auditorias/dgp-2026-10-09-lote69.md.
 Integração autorizada somente após checar PRs mesclados e HEAD destino.
 ================================================================================
+
+
+================================================================================
+AUDITORIA DGP — LOTE 71 E RETIFICAÇÃO DE CONTAGEM (10/10/2026)
+================================================================================
+Confrontados 100 verbetes 2281–2380 com o XML original: 100 pares de lemas e definições, zero divergências nos cartões; ocorrência especial 2311 documentada. Auditoria estrutural do código gerador DGP: 2380 search-row, 2380 entry-card, 2380 IDs únicos, sem lacunas ou duplicações nos módulos carregados. Arrays de JS e cadeias HTML codificadas explicam os 1590 registros anteriormente invisíveis na contagem exclusivamente literal. Relatório: auditorias/dgp-2026-10-10-lote71.md. Não houve inspeção visual em navegador; integração continua sujeita a esse gate editorial. Branch de auditoria: chat-gpt-correcoes. Nenhum ordinal avançado nesta branch.
+================================================================================
