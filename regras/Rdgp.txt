@@ -789,3 +789,12 @@ Lote 73: ordinais 2481–2580 (ἅν1 → ἀνάδημα, ατος (τό)), f
 Exceção documental #2483: o elemento entryFree não contém lema antes de def; o próprio texto da definição começa pela grafia ἀνά, empregada como identificação editorial no cabeçalho sem retirar sua ocorrência do texto integral da definição. Essa identificação não deve ser atribuída a um campo XML inexistente.
 Lote gerado com 100 linhas search-row e 100 cartões entry-card, correspondência de data-target e id; acepções textuais completas preservadas com somente normalização de whitespace e escape HTML. Abreviaturas/popups dinâmicos e rendering/acessibilidade demandam teste funcional independente. Fase posterior: relatório de auditoria em chat-gpt-correcoes; integração exclusivamente pelo integrador.
 ================================================================================
+
+
+================================================================================
+CONFIRMAÇÃO PÓS-PUBLICAÇÃO — AUDITORIA DGP LOTE 73 (10/10/2026)
+================================================================================
+O commit de incorporação 61112cba69836b761b22076065c330dfaeadcf2a foi auditado de forma estática contra o XML canônico e os módulos efetivamente carregados no GitHub. Auditoria na branch chat-gpt-correcoes: commit 413c870f0e0abadaf9b50bb1604eb95dabf6c97d, relatório auditorias/dgp-2026-10-10-lote73.md.
+Conferidos 100/100 lemas e definições integrais dos ordinais 2481–2580. O arquivo novo lexicons/dgp-batch-073.js está incluído uma vez no index.html, depois de dgp-batches.js. A recontagem estrutural de dgp.js, dgp-batches.js e dgp-batch-073.js resultou em 2580 search-row e 2580 entry-card, com 2580 IDs únicos, zero lacunas, duplicações e alvos órfãos; 73 lotes e 2580 verbetes no manifesto.
+Esta sincronização é ADMINISTRATIVA: não modifica o arquivo lexical novo nem avança o ordinal 2581. Auditoria de navegador/DOM, popups dinâmicos, acessibilidade e integração permanecem PENDENTES.
+================================================================================

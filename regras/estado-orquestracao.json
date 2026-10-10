@@ -31,11 +31,11 @@
     "batches_in_round": [
       73
     ],
-    "independent_audit": "PENDENTE",
+    "independent_audit": "ESTATICA_PUBLICADA_413c870f0e0abadaf9b50bb1604eb95dabf6c97d",
     "functional_visual_audit": "PENDENTE",
     "integration": "PENDENTE",
-    "corpus_structural_audit": "100 novas linhas/cartões geradas; auditoria remota posterior obrigatória",
-    "lexical_commit": "CONFERIR_HEAD_GITHUB"
+    "corpus_structural_audit": "2580 search-row/entry-card com IDs únicos e alvos sem lacunas ou duplicações; lote 73 com 100 lemas e definições conferidos ao XML; carregamento do módulo 073 confirmado",
+    "lexical_commit": "61112cba69836b761b22076065c330dfaeadcf2a"
   },
   "execution": {
     "state": "derive_from_remote",
