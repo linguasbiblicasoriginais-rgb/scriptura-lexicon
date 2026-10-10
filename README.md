@@ -1,5 +1,17 @@
 # Scriptura Lexicon
 
+
+## JASTROW — rodada editorial de 100 entradas (10/10/2026)
+
+**Estado na branch `chat-gpt-jastrow`: 110 cartões e 110 linhas de pesquisa publicados (10 anteriores + 100 novos, IDs `A00010`–`A00109`).** O próximo registro original é `A00110`, lema `אָבִיב,` (ordinal 111). A origem integral dos registros 1–200 está preservada em [`lexicons/jastrow-source-lote-0001.json`](lexicons/jastrow-source-lote-0001.json), extraída de `Sefaria/Sefaria-Data` no commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Não confundir 200 originais disponíveis com 200 traduções publicadas.
+
+**Arquivos da rodada:** [`lexicons/jastrow-011-040.js`](lexicons/jastrow-011-040.js) (30), [`lexicons/jastrow-041-080.js`](lexicons/jastrow-041-080.js) (40), [`lexicons/jastrow-081-110.js`](lexicons/jastrow-081-110.js) (30), [`lexicons/jastrow-popups.js`](lexicons/jastrow-popups.js) (49 definições explicativas; proteção contra chaves duplicadas), `index.html` e [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Os cartões apresentam versões portuguesas editadas das acepções e remissões, preservando grafias e uma camada separada com todo o XML original. Nem toda nota secundária da fonte extensa foi reescrita integralmente nos cartões; exige revisão filológica posterior.
+
+**Auditoria estática comprovada:** 100 IDs novos exclusivos e sequenciais, 100 correspondências entre lema/ID do XML e dos módulos, 110 linhas `search-row` e 110 cartões `entry-card` totais, todos os 110 `data-target` correspondentes aos IDs, âncoras instaladas, módulos carregados em ordem antes de `script.js`, ausência de colisões dos IDs JASTROW com os cartões estáticos, tags `bdi` equilibradas nas novas descrições e sintaxe JavaScript dos módulos aprovada. A revisão dos 49 popups é de cobertura parcial, não auditoria completa de todas as referências.
+
+**Ainda pendente:** confronto filológico independente e integral (incluindo exemplos e notas que ficaram somente no XML), execução de testes em navegador, verificação exaustiva dos popups e revisão de links. Por isso, o checkpoint mantém `total_audited=0` e `total_integrated=0`; **não há PR/merge autorizado pela auditoria desta rodada**. A branch `main` não foi alterada. O histórico abaixo registra estados anteriores e não deve ser tomado como contador atual.
+
+
 ## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
 
 **Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
