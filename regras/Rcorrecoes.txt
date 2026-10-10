@@ -103,3 +103,13 @@ Ordinais 2381–2480: confrontados 100 lemas e 100 definições completas com a 
 Relatório: auditorias/dgp-2026-10-10-lote72.md.
 PENDENTE: inspeção funcional/visual em navegador e revisão de popups dinâmicos. O processo de auditoria não publica PR nem merge; integração separada e condicionada ao gate editorial vigente.
 ================================================================================
+
+
+================================================================================
+AUDITORIA DGP — LOTE 73 E MODULARIZAÇÃO (10/10/2026)
+================================================================================
+Revisado o commit lexical 61112cba69836b761b22076065c330dfaeadcf2a na branch chat-gpt-dgp. Faixa 2481–2580: 100/100 lemas e 100/100 definições originais conferidos contra o XML do DGP, índices completos e IDs correspondentes. Exceção do lema ausente #2483: grafia ἀνά proveniente apenas da própria abertura da definição, sem modificação de seu corpo. 
+Conferida a inclusão de lexicons/dgp-batch-073.js no index.html, após dgp-batches.js e antes de dgp-format.js/script.js. Os módulos históricos não carregados 005/006/007 não foram ativados. Total estático acumulado: 2580 linhas e 2580 cartões, 2580 IDs únicos para ambos, zero lacunas, duplicações ou alvos sem cartão. 73 lotes e 2580 registros no manifesto.
+Relatório: auditorias/dgp-2026-10-10-lote73.md.
+PENDÊNCIA expressa: testes de DOM real, popups dinâmicos, acessibilidade e apresentação visual. Esta auditoria não executa integração; PRs/merges exclusivos do integrador.
+================================================================================
