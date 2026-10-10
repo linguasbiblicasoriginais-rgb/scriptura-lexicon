@@ -15,27 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2480,
-    "total_rows_static_plus_generated": 2480,
-    "total_cards_static_plus_generated": 2480,
+    "total_from_manifest": 2580,
+    "total_rows_static_plus_generated": 2580,
+    "total_cards_static_plus_generated": 2580,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀμφιλέγω",
-    "last_lemma": "ἀν",
-    "next_lemma": "ἅν1",
-    "next_ordinal": 2481,
+    "first_lemma_of_latest_batch": "ἅν1",
+    "last_lemma": "ἀνάδημα, ατος (τό)",
+    "next_lemma": "ἀναδιδάσκω",
+    "next_ordinal": 2581,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 72,
+    "new_batch": 73,
     "batches_in_round": [
-      72
+      73
     ],
-    "independent_audit": "ESTATICA_PUBLICADA_db9c03538c3c0f8482004b76cfe7f4c880d13569",
+    "independent_audit": "PENDENTE",
     "functional_visual_audit": "PENDENTE",
     "integration": "PENDENTE",
-    "corpus_structural_audit": "2480 search-row e 2480 entry-card, IDs únicos sem lacunas ou órfãos, geradores JS incluídos; confrontados 100 novos verbetes com XML",
-    "lexical_commit": "bc3d7426b88a2498fc16c93ca029f5bf114b7ca5"
+    "corpus_structural_audit": "100 novas linhas/cartões geradas; auditoria remota posterior obrigatória",
+    "lexical_commit": "CONFERIR_HEAD_GITHUB"
   },
   "execution": {
     "state": "derive_from_remote",
