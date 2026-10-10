@@ -14,24 +14,22 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "total_rows": 1041,
-    "total_cards": 1041,
-    "last_lemma": "ἀποφορτίζομαι",
-    "next_lemma": "ἀπόχρησις, εως, ἡ",
-    "first_lemma_of_latest_batch": "ἀποτελέω",
+    "total_rows": 1061,
+    "total_cards": 1061,
+    "last_lemma": "ἀπών",
+    "next_lemma": "ἀπωσάμην",
+    "first_lemma_of_latest_batch": "ἀπόχρησις, εως, ἡ",
     "last_batch_count": 20,
     "source_pdf": "fontes/fonte-bdag.pdf",
     "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
     "source_pdf_pages": [
-      38,
-      39
+      39,
+      40,
+      41
     ],
-    "parent_head": "1c529545e5609d133e9d22cb6253eaa2343af855",
-    "verified": "prepublication_lexical_and_structural_audit",
-    "new_bibliographic_popups": [
-      "ApcPt Fgm.",
-      "GMary Ox 3525"
-    ]
+    "parent_head": "189d55ae5fec5d974c7da1b5da1701a0ef766995",
+    "verified": "prepublication_translation_and_structural_audit",
+    "new_bibliographic_popups": []
   },
   "execution": {
     "state": "derive_from_remote",
