@@ -1,0 +1,38 @@
+# RJASTROW — Norma canônica da incorporação JASTROW
+Versão inicial: 10/10/2026
+
+## Autoridade, fonte e finalidade
+- Projeto: Scriptura Lexicon / GDHAGP.
+- Obra: Marcus Jastrow, A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature.
+- Autoridade eletrônica para a sequência e conteúdo: Sefaria, Jastrow Dictionary, https://www.sefaria.org/Jastrow?tab=contents.
+- APIs documentadas para consulta, sujeitas a confirmação do conteúdo REAL: https://www.sefaria.org/api/words/{word}, https://www.sefaria.org/api/words/completion/{word}/Jastrow%20Dictionary e APIs de texto/índice.
+- O catálogo da Sefaria e sua estrutura de entradas não equivalem a uma transcrição verificada de cada entrada. Não transformar resultados de autocompletar em verbetes publicados sem a entrada integral.
+- Fonte, tradução, análise e verbete final são camadas separadas. Preserve o original inglês da edição histórica na camada Fonte e traduza para português brasileiro cada acepção, exemplo traduzível, etimologia, explicação, nota e popup na camada publicada. Preserve hebraico, aramaico, citações e formas originais sem alterações silenciosas.
+
+## Branches e limites de escrita
+- Incorporação: SOMENTE chat-gpt-jastrow.
+- Auditoria independente e correções: SOMENTE chat-gpt-correcoes, após a publicação real.
+- Integração: PR chat-gpt-jastrow → chat-gpt-commits; verificar efetiva mesclagem e preservar a origem; nunca escrever em main.
+- Manter independência de BDAG, DGP, LEH, PEREIRA, KLEIN, BDB e demais fontes. Não editar outros léxicos durante a incorporação JASTROW.
+- Antes de editar, consultar HEAD, README.md, ORQUESTRACAO.md, este arquivo, lexicons/jastrow-progress.json, estrutura da aplicação e dados remotos; reconciliar divergências e evitar corrida com tarefas paralelas.
+
+## Lotes e veracidade
+- O comando "Execute o JASTROW" solicita até 200 NOVOS verbetes por rodada, em ordem canônica efetivamente demonstrada, sem pular homógrafos, registros distintos ou variantes que a fonte trate separadamente.
+- O contador publicado deve derivar dos arquivos reais e não somente de um manifesto. Identificadores estáveis e únicos por fonte; registrar referência de origem e, quando disponível, ordem/rid/prev_hw/next_hw. Não assumir que um lema representa uma única entrada.
+- Preservar todo o conteúdo lexical comprovado: lemas vocalizados, variantes, flexões, classe/forma, acepções, exemplos, referências, remissões, abreviaturas, marcas editoriais e distinção entre hipótese e fato. Não inventar reconstruções, traduções ou links.
+- Criar search-row e entry-card compatíveis para cada registro, com data-dictionary correto ("aramaico" ou "hebraico" segundo a organização justificada), data-source="JASTROW", data-target apontando para ID existente; não duplicar nem gerar registros órfãos.
+- Modularizar o JASTROW em lexicons/jastrow*.js e atualizar carregamento da aplicação somente depois de confirmar compatibilidade real. Não inserir 200 marcadores vazios ou links como substitutos de verbetes traduzidos.
+
+## Revisão editorial e técnica obrigatória
+- Conferir entrada a entrada, linha a linha e por amostragem dirigida ao risco: fidelidade ao original, tradução pt-BR, referências, transliteração documentada, homógrafos, flexões, gênero/classe, acentuação e sinais diacríticos; checar ausência de inglês residual no conteúdo traduzido.
+- Popups explicativos para abreviaturas, autores, obras, referências, termos e vocabulário técnico identificáveis; não inventar expansões. Minidicionário e minibiografias vinculados quando sustentados por fontes verificadas.
+- Validar cada URL para a edição, passagem e idioma CORRETOS; destino errado é pior que ausência de link.
+- Auditar cardinalidade de search-row/entry-card, IDs únicos, destinos, escape de HTML, JS, pesquisa, filtros, carregamento, responsividade, tipografia RTL/LTR, acessibilidade, teclado, contraste e regressões.
+- Auditoria estática não comprova teste de navegador ou revisão filológica integral. Relatar separadamente pendências visuais e funcionais.
+- Cada lote efetivamente concluído exige commit auditável em chat-gpt-jastrow, reconfirmação remota e checkpoint; a auditoria independente exige registro em chat-gpt-correcoes; só depois abrir ou mesclar PR para chat-gpt-commits. Sem force-push; quando suportado, proteger atualização de ref com expected_sha.
+
+## Falhas, progresso e relatório
+- Erro transitório: no máximo 3 tentativas totais seguras; antes de repetir uma escrita, inspecionar HEAD remoto e os arquivos para evitar duplicatas. Erro permanente/sem dados: interromper sem criar registros fictícios.
+- Falha de consulta à Sefaria não constitui evidência de inexistência do verbete. Procurar exportação canônica verificável; registrar limites e não mudar silenciosamente de fonte.
+- Em cada execução relatar commits e SHAs reais, diffs, primeiro/último lema, total publicado e novo, total auditado e pendente, resultado da integração, README e evidências dos bloqueios. Nunca declarar conclusão sem validação remota.
+- A implantação inicial pode registrar 0 verbetes e checkpoint = 1 enquanto o acesso à fonte for impedido. Esse registro é preparação técnica, NÃO entrega lexical nem auditoria de 200 entradas.
