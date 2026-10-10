@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2681,
-    "status": "Lote 74 incorporado e auditado estaticamente em branch independente; inspeção funcional/editorial e integração pendentes"
+    "next_ordinal": 2781,
+    "status": "Lote 75 incorporado nos ordinais 2681–2780; auditoria filológica independente, inspeção em navegador e integração pendentes"
   },
   "batches": [
     {
@@ -677,6 +677,15 @@
       "end_entry": "ἀνακινδυνεύω",
       "entry_count": 100,
       "status": "incorporado; auditoria textual/estrutural independente publicada; testes de navegador e integração pendentes"
+    },
+    {
+      "batch": 75,
+      "start_ordinal": 2681,
+      "end_ordinal": 2780,
+      "start_entry": "ἀνακινέω-ῶ",
+      "end_entry": "ἀναμάσσω,",
+      "entry_count": 100,
+      "status": "incorporado; auditoria independente e integração pendentes"
     }
   ],
   "editorial_rules": {

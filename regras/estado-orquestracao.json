@@ -15,27 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2680,
-    "total_rows_static_plus_generated": 2680,
-    "total_cards_static_plus_generated": 2680,
+    "total_from_manifest": 2780,
+    "total_rows_static_plus_generated": 2780,
+    "total_cards_static_plus_generated": 2780,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀναδιδάσκω",
-    "last_lemma": "ἀνακινδυνεύω",
-    "next_lemma": "ἀνακινέω-ῶ",
-    "next_ordinal": 2681,
+    "first_lemma_of_latest_batch": "ἀνακινέω-ῶ",
+    "last_lemma": "ἀναμάσσω,",
+    "next_lemma": "ἀνάματος, ος, ον",
+    "next_ordinal": 2781,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 74,
+    "new_batch": 75,
     "batches_in_round": [
-      74
+      75
     ],
-    "independent_audit": "ESTATICA_PUBLICADA_c594632d58936f9ec574ce66deec0f72cbc4c670",
+    "independent_audit": "PENDENTE",
     "functional_visual_audit": "PENDENTE",
     "integration": "PENDENTE",
-    "corpus_structural_audit": "2680 linhas/cartões com IDs únicos sem lacunas/órfãos; 100 lemas e definições do lote 74 conferidos com XML; índice HTML e sequência de scripts validados estaticamente",
-    "lexical_commit": "a9b29c233916c9adc265b34007c8b085c96fd972"
+    "corpus_structural_audit": "Lote 75: 100 linhas e 100 cartões verificados no módulo novo antes do commit. O total 2780 soma ao checkpoint previamente auditado de 2680; auditoria independente do lote e nova recontagem global pendentes",
+    "lexical_commit": "HEAD remoto do lote 75 (verificar após publicação; não autoincluir SHA no próprio commit)"
   },
   "execution": {
     "state": "derive_from_remote",

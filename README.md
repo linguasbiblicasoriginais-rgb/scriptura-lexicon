@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## Lote DGP 75 — 10/10/2026
+
+Incorporados **100 registros canônicos consecutivos**, ordinais **2.681–2.780** (ἀνακινέω-ῶ → ἀναμάσσω,) em `lexicons/dgp-batch-075.js`, com fonte primária `aniseferreira/Grc-Por-DigDict` no commit `deb54b426ead447d01ced7534736f3e77be7015b`. O módulo é carregado antes de `dgp-format.js` e mantém uma linha de pesquisa e um cartão para cada verbete, com definição integral. O checkpoint DGP passou a **2.780**, próximo **2.781 (ἀνάματος, ος, ον)**. A auditoria independente, testes funcionais/visuais e integração permanecem pendentes e são processos separados. Nenhum link externo foi acrescentado.
+
+
 
 ## Fase operacional exclusiva DGP — 09/10/2026
 

@@ -818,3 +818,14 @@ Commit lexical auditado: a9b29c233916c9adc265b34007c8b085c96fd972, chat-gpt-dgp.
 Conferência dos 100 verbetes 2581–2680: 100/100 lemas da busca/cartões, definições integrais e índices em correspondência ao XML fixado. Recontagem estática do corpus: 2680 linhas de busca, 2680 cartões, 2680 IDs únicos em cada, zero ausências, duplicações ou alvos órfãos. Sequência do index.html: dgp.js, dgp-batches.js, dgp-batch-073.js, dgp-batch-074.js, dgp-format.js, script.js. O módulo 074 é carregado uma única vez.
 Checkpoint permanece 2681 (ἀνακινέω-ῶ); atualização estritamente administrativa, nenhum lexema criado ou modificado. Popups dinâmicos, renderização, acessibilidade e integração continuam PENDENTES.
 ================================================================================
+
+
+================================================================================
+REGISTRO DGP — INCORPORAÇÃO MODULAR DO LOTE 75 (10/10/2026)
+================================================================================
+Fonte: aniseferreira/Grc-Por-DigDict, arquivos_xml/01_Alfa.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 2681–2780: 100 elementos entryFree consecutivos, de ἀνακινέω-ῶ a ἀναμάσσω,; próximo ordinal 2781: ἀνάματος, ος, ον.
+Arquivo exclusivo lexicons/dgp-batch-075.js, carregado por index.html depois do lote 74 e antes do formatador e script.js. Um search-row e um entry-card por ordinal, com IDs e data-target correspondentes; texto integral preservado com normalização apenas de whitespace e escape seguro de HTML; glosa abreviada somente para tabela de busca. Nenhum link externo novo foi criado.
+Conferência editorial prévia: 100 registros, 100 lemas e definições colados ao XML fixado, 100 linhas de busca, 100 cartões, zero lacunas e duplicações dentro do lote, atributos corretos e ordem de scripts conferida. O total 2780 é checkpoint (2680 previamente auditados + 100 novos); não representa ainda recontagem global independente nesta rodada.
+Auditoria independente na branch chat-gpt-correcoes, navegação/DOM/popups dinâmicos e integração pelo responsável são ETAPAS POSTERIORES. Esta etapa NÃO cria PR nem altera outras branches ou main. O SHA do commit lexical deve ser verificado no HEAD remoto após publicação.
+================================================================================
