@@ -1,3 +1,85 @@
+================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Esta decisão atual revoga toda obrigação de ordem global entre léxicos.
+LEH roda A CADA HORA independentemente de BDAG, DGP e PEREIRA.
+Publicar SOMENTE em `chat-gpt-leh`: lotes atômicos, checkpoint exclusivo,
+conteúdo real da fonte LEH, com auditoria filológica e técnica antes/depois.
+NÃO criar PR, nem mesclar, rebase, branches auxiliares, nem escrever em
+`chat-gpt-commits`, `main` ou outras branches durante incorporação LEH.
+A QUINTA ROTINA de integração, a cada 3 horas, é a ÚNICA que pode abrir
+PRs das seis origens BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES contra
+`chat-gpt-commits`, conferir conflitos, mesclar e manter branches de origem.
+Bloqueio BDAG, DGP ou PEREIRA não é motivo para suspender a frente LEH.
+Em TODO relatório, incluir tabela das quantidades totais BDAG, DGP,
+LEH, PEREIRA, verificadas no GitHub da execução; indicar `não verificado`
+quando não possível. DGP 1.830 consta do checkpoint e carece auditoria
+de contagem de marcações HTML; não alegar total de cartões confirmado.
+Consultar ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt.
+================================================================================
+
+================================================================================
+REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
+================================================================================
+
+Esta norma operacional vale para comandos individuais, orquestração sob demanda
+e ciclos da automação horária. PREVALECE sobre qualquer procedimento anterior
+que admita branches auxiliares, workflows/probes temporários ou pull requests.
+
+MATRIZ OBRIGATÓRIA DE DESTINO DOS COMMITS:
+BDAG     -> chat-gpt-bdag
+DGP      -> chat-gpt-dgp
+LEH      -> chat-gpt-leh
+PEREIRA  -> chat-gpt-pereira
+
+REGRA ESPECÍFICA DESTA FONTE (LEH):
+TODO commit de lote, alteração lexical ou atualização administrativa desta
+frente deve ser criado e publicado DIRETAMENTE na branch chat-gpt-leh.
+Esta é a ÚNICA branch autorizada a receber commits da etapa LEH.
+Não publicar inicialmente em outra branch para depois mesclar.
+
+PROIBIÇÃO ABSOLUTA:
+- NÃO criar quaisquer branches novas: temporárias, de staging, 'orq-*',
+  'probe-*', de sondagem, teste, workflow, preparação ou correção;
+- NÃO abrir PRs nem usar merge, squash ou rebase de uma branch auxiliar
+  para simular um commit direto;
+- NÃO gerar workflows temporários nem arquivos auxiliares de sondagem
+  dentro de branches novas do repositório;
+- NÃO gravar lote desta fonte em main, chat-gpt-commits, branches de outras
+  fontes nem em qualquer outra branch;
+- NÃO usar force push, reset destrutivo nem sincronização automática de
+  branches para contornar a impossibilidade de publicação direta;
+- NÃO alterar ou reutilizar branches temporárias herdadas de execuções
+  anteriores como parte dos lotes futuros.
+
+COMMIT DIRETO E AUDITORIA:
+1. Ler este protocolo e obter o HEAD REAL de chat-gpt-leh antes de editar.
+2. Preparar e conferir arquivos da própria fonte, no escopo autorizado.
+3. Criar o commit DIRETAMENTE sobre o HEAD corrente de chat-gpt-leh,
+   preservando a exigência canônica de UM commit por lote.
+4. Confirmar o HEAD novamente imediatamente antes da gravação;
+   impedir sobrescrita concorrente e operar sem force.
+5. Após a gravação, verificar o commit e o HEAD remoto, os arquivos
+   modificados e a auditoria de conteúdo.
+6. Se a ferramenta NÃO suportar um único commit atômico de múltiplos
+   arquivos diretamente em chat-gpt-leh, ou não houver proteção segura
+   contra concorrência, PARAR e informar a limitação; NÃO criar branch
+   auxiliar, PR ou múltiplos commits parciais para contorná-la.
+7. O mesmo vale para acesso à fonte PEREIRA: nenhuma branch de sondagem
+   de API poderá ser criada. Se o acesso direto seguro à fonte falhar,
+   suspender a etapa e informar, sem improvisação de branch.
+8. Para o DGP, quando a regra exigir três lotes, publicar três commits
+   independentes, todos DIRETAMENTE em chat-gpt-dgp, um por lote.
+9. Commits somente administrativos, como esta atualização de protocolo,
+   não constituem lotes de verbetes e não alteram os respectivos totais.
+
+Todos os demais critérios filológicos, editoriais, técnicos e de progresso
+permanecem em vigor, exceto procedimentos incompatíveis com esta norma.
+
+================================================================================
+FIM DA REGRA SUPREMA DE BRANCHES
+================================================================================
+
 Rleh
 REGISTRO PERMANENTE DE CONTINUIDADE DO LEH — GDHAGP / SCRIPTURA LEXICON
 Versão inaugural: 08/10/2026
@@ -1047,3 +1129,55 @@ Conservar em ἀναπληρόω, ἀναπτερόω, ἀναπτύσσω e ἀ
 Arquivos alterados previstos: lexicons/leh.js e regras/Rleh.txt; sem popups novos. Consultar HEAD remoto para obter SHA do commit final.
 
 FIM DO REGISTRO PERMANENTE Rleh.
+
+================================================================================
+NOVO CHECKPOINT DE LOTE — 08/10/2026, ORQUESTRAÇÃO SEQUENCIAL
+================================================================================
+HEAD-base real: 7685d69cdf455e92c15a618af3a6ffaef66b3e86.
+Sequência incorporada: ἀναρρήγνυμι; ἀνασκάπτω; ἀνασπάω; ἀνάστασις; ἀναστατόω; ἀναστέλλω; ἀνάστεμα; ἀναστενάζω; ἀνάστημα; ἀναστρατοπεδεύω; ἀναστρέφω; ἀναστροφή; ἀνασύρω; ἀνασχίζω; ἀνασῴζω; ἀνατείνω; ἀνατέλλω; ἀνατέμνω; ἀνατίθημι; ἀνατίκτω.
+Primeiro: ἀναρρήγνυμι. Vigésimo: ἀνατίκτω. Próximo (21.º): ἀνατιναγμός.
+Contagem após publicação: 650 → 670 linhas/cartões LEH (670 pares exatos).
+Auditoria pré-publicação: 20 IDs novos exclusivos, 20 linhas e 20 cartões, sem alteração de arquivos compartilhados.
+Notas: ἀναστρέφω e ἀνατίθημι contêm referências a hebraico cuja disposição da extração PDF não foi verificada por imagem; a incerteza foi identificada explicitamente no cartão, sem reconstrução conjectural.
+Arquivos previstos: somente lexicons/leh.js e regras/Rleh.txt. O SHA final deverá ser consultado no HEAD remoto.
+
+
+================================================================================
+REGRA OBRIGATÓRIA DE FONTES PDF — 09/10/2026
+================================================================================
+
+FONTES OFICIAIS NO PRÓPRIO REPOSITÓRIO (nomes permanentes):
+BDAG: fontes/fonte-bdag.pdf
+LEH:  fontes/fonte-leh.pdf
+
+Os nomes NÃO mudam quando o usuário substituir o conteúdo por recortes
+das letras beta, gama, delta e seguintes. Antes de cada lote, consultar
+o diretório fontes/ no HEAD real da branch, verificar o SHA do PDF, ler
+seu conteúdo e conferir o intervalo lexical e o checkpoint. Não assumir
+que o PDF continua contendo os verbetes da letra alfa.
+
+É PROIBIDO alegar ausência ou indisponibilidade do PDF sem primeiro:
+(1) consultar a árvore/contents da branch correta; (2) identificar o
+caminho e SHA do arquivo; (3) tentar obter e ler as páginas por meio
+autorizado; (4) investigar e registrar o erro concreto de leitura.
+A presença do arquivo e a capacidade de extrair seu texto são questões
+diferentes. Se houver falha técnica de leitura, investigá-la e descrevê-la
+com precisão, sem inventar conteúdo e sem substituir silenciosamente o
+PDF versionado por outra edição externa. Não pedir reenvio antes de
+verificar a fonte no GitHub.
+
+Esta regra prevalece sobre instruções antigas de buscar arquivos por
+nomes variáveis de intervalos lexicais e deve ser mantida permanentemente.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+
+NOVO CHECKPOINT LEXICAL — 09/10/2026 (lote LEH de 20 verbetes)
+HEAD-base verificado: 31ad317a6edeb4ea45f29d351d142eabfe17e8d6
+Verbete anterior: ἀνατίκτω. Intervalo incorporado: ἀνατιναγμός → ἀναχάσκω.
+Quantidade incorporada: 20; total projetado de LEH: 690 search-row e 690 entry-card.
+Próximo lema: ἀναχωρέω. PDF-fonte: fontes/fonte-leh.pdf (blob f4e76ee6414b6aace210ca9f7c061e92488cc0fa).
+Transposição das páginas do recorte ἁλεεύς–ἄωρος.pdf, p. físicas 38–41.
+Ressalvas: notas hebraicas de Is 11,11 e Ec 12,6 preservadas com indicação de leitura extraída não conferida na imagem; não converter corr.? em corr.
+Não considerar esta projeção como publicada sem confirmação do novo HEAD remoto.

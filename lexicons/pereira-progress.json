@@ -7,8 +7,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 50,
-    "next_ordinal": 461,
-    "status": "lote 11 concluído"
+    "next_ordinal": 511,
+    "status": "lote 12 concluído"
   },
   "batches": [
     {
@@ -131,13 +131,24 @@
       "start_source_id": 34418,
       "end_source_id": 34466,
       "status": "concluído"
+    },
+    {
+      "batch": 12,
+      "start_ordinal": 461,
+      "end_ordinal": 510,
+      "start_entry": "Ἀδέω",
+      "end_entry": "Ἀ-διέργαστος, ον",
+      "entry_count": 50,
+      "start_source_id": 34467,
+      "end_source_id": 34515,
+      "status": "concluído"
     }
   ],
   "next_entry": {
-    "ordinal": 461,
-    "source_id": 34467,
-    "searchable": "αδεω",
-    "lemma": "Ἀδέω"
+    "ordinal": 511,
+    "source_id": 34516,
+    "searchable": "αδιερευνητος",
+    "lemma": "Ἀ-διερεύνητος, ον"
   },
   "editorial_rules": {
     "exclusive_source": "dicionariogrego.com",

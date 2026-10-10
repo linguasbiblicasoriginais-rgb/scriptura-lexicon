@@ -1,3 +1,86 @@
+================================================================================
+NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
+================================================================================
+Revogada toda sequência BDAG → DGP → LEH → PEREIRA entre agendamentos.
+PEREIRA deve executar A CADA HORA sem aguardar BDAG, DGP ou LEH.
+Publicar verbetes e checkpoints exclusivamente em `chat-gpt-pereira`,
+com um commit atômico por lote, preservando as formas da fonte e IDs.
+NÃO criar PR nem mesclar nesta rotina, não criar branches auxiliares,
+não escrever em `chat-gpt-commits`, `main` ou outras branches.
+EXCEÇÃO ÚNICA: o QUINTO AGENDAMENTO de integração, a cada 3 horas,
+verifica BDAG/DGP/LEH/PEREIRA/ESTILOS/CORRECOES e abre/reutiliza PR para
+`chat-gpt-commits`, resolve conflitos, mescla e conserva todas as origens.
+Cada falha em outra fonte NÃO bloqueia o progresso do PEREIRA.
+O HTTP POST PEREIRA via PowerShell foi comprovado, porém não pressupor
+que o agendamento remoto possa executá-lo sem coletor conectado.
+O relatório SEMPRE deve incluir tabela dos totais de BDAG, DGP, LEH,
+PEREIRA, aferidos remotamente; usar `não verificado` se necessário.
+DGP 1.830 é total de checkpoint ainda não reconciliado com HTML de cartões.
+Consultar ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt.
+================================================================================
+
+================================================================================
+REGRA SUPREMA DE BRANCHES — 08/10/2026 (DECISÃO EXPRESSA DO USUÁRIO)
+================================================================================
+
+Esta norma operacional vale para comandos individuais, orquestração sob demanda
+e ciclos da automação horária. PREVALECE sobre qualquer procedimento anterior
+que admita branches auxiliares, workflows/probes temporários ou pull requests.
+
+MATRIZ OBRIGATÓRIA DE DESTINO DOS COMMITS:
+BDAG     -> chat-gpt-bdag
+DGP      -> chat-gpt-dgp
+LEH      -> chat-gpt-leh
+PEREIRA  -> chat-gpt-pereira
+
+REGRA ESPECÍFICA DESTA FONTE (PEREIRA):
+TODO commit de lote, alteração lexical ou atualização administrativa desta
+frente deve ser criado e publicado DIRETAMENTE na branch chat-gpt-pereira.
+Esta é a ÚNICA branch autorizada a receber commits da etapa PEREIRA.
+Não publicar inicialmente em outra branch para depois mesclar.
+
+PROIBIÇÃO ABSOLUTA:
+- NÃO criar quaisquer branches novas: temporárias, de staging, 'orq-*',
+  'probe-*', de sondagem, teste, workflow, preparação ou correção;
+- NÃO abrir PRs nem usar merge, squash ou rebase de uma branch auxiliar
+  para simular um commit direto;
+- NÃO gerar workflows temporários nem arquivos auxiliares de sondagem
+  dentro de branches novas do repositório;
+- NÃO gravar lote desta fonte em main, chat-gpt-commits, branches de outras
+  fontes nem em qualquer outra branch;
+- NÃO usar force push, reset destrutivo nem sincronização automática de
+  branches para contornar a impossibilidade de publicação direta;
+- NÃO alterar ou reutilizar branches temporárias herdadas de execuções
+  anteriores como parte dos lotes futuros.
+
+COMMIT DIRETO E AUDITORIA:
+1. Ler este protocolo e obter o HEAD REAL de chat-gpt-pereira antes de editar.
+2. Preparar e conferir arquivos da própria fonte, no escopo autorizado.
+3. Criar o commit DIRETAMENTE sobre o HEAD corrente de chat-gpt-pereira,
+   preservando a exigência canônica de UM commit por lote.
+4. Confirmar o HEAD novamente imediatamente antes da gravação;
+   impedir sobrescrita concorrente e operar sem force.
+5. Após a gravação, verificar o commit e o HEAD remoto, os arquivos
+   modificados e a auditoria de conteúdo.
+6. Se a ferramenta NÃO suportar um único commit atômico de múltiplos
+   arquivos diretamente em chat-gpt-pereira, ou não houver proteção
+   contra concorrência, PARAR e informar a limitação; NÃO criar branch
+   auxiliar, PR ou múltiplos commits parciais para contorná-la.
+7. Para PEREIRA, nenhuma branch de sondagem de API poderá ser criada.
+   Se não for possível obter a fonte diretamente e sem commits externos,
+   suspender a etapa e informar o impedimento.
+8. Para o DGP, três lotes exigem três commits independentes, todos
+   DIRETAMENTE em chat-gpt-dgp, um commit para cada lote.
+9. Commits somente administrativos, como esta atualização de protocolo,
+   não constituem lotes de verbetes e não alteram os respectivos totais.
+
+Todos os demais critérios filológicos, editoriais, técnicos e de progresso
+permanecem em vigor, exceto procedimentos incompatíveis com esta norma.
+
+================================================================================
+FIM DA REGRA SUPREMA DE BRANCHES
+================================================================================
+
 Rpereira
 
 PROMPT PERMANENTE DE CONTINUIDADE — PEREIRA / SCRIPTURA LEXICON
@@ -1448,3 +1531,45 @@ Próximo registro: ordinal 461, Ἀδέω, source ID 34467, searchable αδεω.
 Total após a publicação: 460 linhas de pesquisa e 460 cartões.
 A fonte exclusiva foi a API oficial, obtida por consultas POST e conferida em dois conjuntos independentes de prefixos: αδ/αδα/αδε, incluindo as subdivisões αδεψ e αδεω. As respostas de 30 registros foram tratadas como potencialmente truncadas; a ordem lexical foi reconstituída mediante subdivisão, sem ordenar por ID. Os cinquenta registros possuem os nove campos esperados. O material bruto da fonte foi conservado nos cartões; eventuais características OCR são preservadas. A branch de sondagem utilizada para obter a fonte não foi mesclada ao lote. A branch PEREIRA tinha commits exclusivos e estava divergente de main; não foi feito fast-forward, reset ou absorção das outras branches.
 Arquivos alterados previstos para o commit: lexicons/pereira.js, lexicons/pereira-progress.json e regras/Rpereira.txt. O SHA final é o HEAD confirmado no GitHub, não uma previsão deste documento.
+
+
+REGRA DE INFRAESTRUTURA (09/10/2026): consultar ORQUESTRACAO.md, regras/estado-orquestracao.json e tools/validar_orquestracao.py antes de lotes; manifesto não substitui HEAD remoto nem fonte primária. Auditoria de pré-voo não equivale a auditoria lexical. Atualizar checkpoint somente em commit lexical publicado e confirmado; não interromper agendamento por falha recuperável.
+
+
+======================================================================
+43. CONTINUIDADE E AUDITORIA DO LOTE 012 — 09/10/2026
+======================================================================
+
+Branch exclusiva: chat-gpt-pereira.
+HEAD-base remoto conferido: d91acd82e134bd4a14a9db8284b32d8a66d8aed2.
+Lote 012: ordinais 461–510, 50 verbetes consecutivos.
+Primeiro registro: Ἀδέω (ID 34467; searchable αδεω).
+Último registro: Ἀ-διέργαστος, ον (ID 34515; searchable αδιεργαστος).
+Próximo registro: ordinal 511, Ἀ-διερεύνητος, ον (ID 34516; searchable αδιερευνητος).
+Total projetado: 510 search-row e 510 entry-card.
+
+Fonte: API pública https://api.dicionariogrego.com/ via HTTP POST, obtida
+por coletor PowerShell independente, sem branches auxiliares nem escrita Git.
+Material de auditoria recebido: 53 respostas JSON originais,
+149 ocorrências de registros (92 IDs distintos na união),
+50 candidatos no lote e um 51º lema para o checkpoint.
+Verificações: SHA-256 de 53/53 respostas originais, 50/50 objetos
+lexicográficos idênticos aos dados de origem, 50 IDs distintos e
+9/9 campos por registro, prefixos conferidos. Consultas αδε, αδη,
+αδι e refinamentos; as respostas com 30 registros foram
+consideradas potencialmente truncadas e seus subprefixos investigados.
+A ordem segue as sequências devolvidas pela API: αδεω (2 registros),
+αδη (20 registros), αδι (28 primeiros registros do intervalo).
+Conservar registros independentes ᾍδης (ID 34484) e ᾍδης, ου
+(ID 34813); IDs numéricos não são critério de ordem lexicográfica.
+Preservar as grafias e classificações da fonte sem correções tácitas,
+incluindo Ἄδη-φαγέω classificado como substantivo masculino,
+Ἀ-διασπάστοως, indissojúvel e a observação de *Ἀ-διάλειπτος.
+Os campos etimology, type, gender, meaning, inflection, observation
+não são preenchidos por inferência quando ausentes ou nulos.
+
+Arquivos do commit lexical atômico: lexicons/pereira.js,
+lexicons/pereira-progress.json e regras/Rpereira.txt.
+Não alterar main, README compartilhado, branches de outras fontes,
+nem abrir PR, merge ou usar force push.
+O SHA definitivo será o HEAD remoto confirmado após publicação.

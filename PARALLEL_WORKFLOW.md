@@ -1,98 +1,27 @@
-# Trabalho paralelo por fonte
+# Política de branches e execução paralela — 09/10/2026
 
-Este repositório está preparado para que BDAG e LEH sejam desenvolvidos em paralelo sem disputar os mesmos blocos de conteúdo.
+BDAG, DGP, LEH e PEREIRA são fontes **independentes**; não há mais ciclo sequencial. Cada uma tem agendamento horário e branch exclusiva para publicação lexical, checkpoint e documentação pertinente.
 
-## Branches
+| Fonte | Branch de escrita | Módulos e checkpoint |
+|---|---|---|
+| BDAG | `chat-gpt-bdag` | `lexicons/bdag.js` e `regras/Rbdag.txt` |
+| DGP | `chat-gpt-dgp` | `lexicons/dgp*.js`, `lexicons/dgp-progress.json` e `regras/Rdgp.txt` |
+| LEH | `chat-gpt-leh` | `lexicons/leh.js`, `regras/Rleh.txt` e manifesto LEH |
+| PEREIRA | `chat-gpt-pereira` | `lexicons/pereira.js`, `lexicons/pereira-progress.json` e `regras/Rpereira.txt` |
 
-- `chat-gpt-commits`: **integração**. Não usar como branch de produção diária de uma fonte enquanto BDAG e LEH estiverem rodando em paralelo.
-- `chat-gpt-bdag`: trabalho exclusivo do BDAG.
-- `chat-gpt-leh`: trabalho exclusivo de Lust–Eynikel–Hauspie (LEH).
-- `main`: não é alterada automaticamente por este fluxo.
+O processo de BDAG não depende de DGP, LEH ou PEREIRA, e vice-versa. Um bloqueio de API, PDF ou auditoria afeta somente a fonte correspondente.
 
-As três branches de trabalho foram alinhadas no commit-base comum desta refatoração antes de divergirem.
+## Distinção entre incorporação e integração
+Os quatro executores horários **não abrem PR**, não mesclam e não editam `chat-gpt-commits` nem `main`. Apenas a rotina de integração trihorária abre/reutiliza e resolve PRs das seis origens `chat-gpt-bdag`, `chat-gpt-dgp`, `chat-gpt-leh`, `chat-gpt-pereira`, `chat-gpt-estilos` e `chat-gpt-correcoes` para `chat-gpt-commits`. Depois das verificações e do merge, o PR deve constar como `merged`, sem exclusão das branches originais. Nenhuma rotina escreve em `main`.
 
-## Arquivos de propriedade de cada fonte
+## Proteção do conteúdo e infraestrutura
+As fontes não devem sobrescrever módulos lexicais das demais. Arquivos compartilhados como `index.html`, `script.js`, `style.css`, `README.md` e `ORQUESTRACAO.md` exigem reconciliação explícita na integração, preservando todas as edições legítimas. Manter `bibliographicTerms` da fonte específica e popups comprovados; não harmonizar acepções nem inferir etimologias. Regras e README devem acompanhar alterações significativas em commits do próprio escopo. Se uma mesclagem trouxer conflitos estruturais ou lexicográficos, não executar merge sem prova de conservação integral.
 
-### BDAG
+Os manifestos `regras/estado-orquestracao.json` são próprios das branches, com `stage`, `branch` e checkpoint local. No ramo de integração, cópias por fonte recebem sufixo (`-dgp`, `-leh`, `-pereira`, `-bdag` quando aplicável). Não substituir o estado de uma fonte pelo de outra.
 
-Durante o trabalho normal na branch `chat-gpt-bdag`, alterar conteúdo lexicográfico somente em:
+## Auditoria
+Antes de cada commit: pares `search-row`/`entry-card`, IDs únicos, alvos válidos, sem órfãos, URL verificada e popups corretos. Depois de cada commit/merge, confirmar HEAD, SHA, arquivos e integridade no GitHub. Cada relatório de qualquer uma das cinco rotinas inclui tabela com os totais **BDAG, DGP, LEH e PEREIRA**, consultados nas origens no momento da execução. Não confundir checkpoint do DGP com contagem estruturada de cartões sem auditoria.
 
-- `lexicons/bdag.js`
+## Conflitos na integração — decisão autônoma
 
-Novos verbetes devem acrescentar:
-- uma `search-row` em `rowsHtml`;
-- um `entry-card` correspondente em `cardsHtml`;
-- quando necessário, abreviaturas seguras em `bibliographicTerms`.
-
-Não editar `lexicons/leh.js`.
-
-### LEH
-
-Durante o trabalho normal na branch `chat-gpt-leh`, alterar conteúdo lexicográfico somente em:
-
-- `lexicons/leh.js`
-
-Novos verbetes devem acrescentar:
-- uma `search-row` em `rowsHtml`;
-- um `entry-card` correspondente em `cardsHtml`;
-- quando necessário, abreviaturas seguras em `bibliographicTerms`.
-
-Não editar `lexicons/bdag.js`.
-
-## Infraestrutura compartilhada
-
-Os arquivos abaixo são compartilhados:
-
-- `index.html`
-- `script.js`
-- `style.css`
-
-Durante execuções simultâneas, as conversas BDAG e LEH **não devem modificá-los**.
-
-Se surgir uma necessidade real de alterar infraestrutura:
-1. interromper o trabalho paralelo;
-2. integrar o estado atual das duas fontes;
-3. fazer a alteração em `chat-gpt-commits`;
-4. atualizar as duas branches de fonte para o novo commit-base comum;
-5. somente então retomar o paralelismo.
-
-## Popups bibliográficos
-
-`script.js` mantém definições comuns/legadas.
-
-Cada fonte possui também seu próprio array `bibliographicTerms`.
-
-Ao enriquecer um cartão, o sistema:
-1. lê as definições comuns;
-2. identifica a fonte do `entry-card`;
-3. adiciona as definições daquela fonte;
-4. se a mesma chave existir nos dois lugares, a definição específica da fonte prevalece.
-
-Isso impede que uma sigla idêntica usada de modo diferente no BDAG e no LEH cause harmonização indevida.
-
-## Integração
-
-Quando for desejado integrar os trabalhos:
-
-1. levar `chat-gpt-bdag` para `chat-gpt-commits`;
-2. levar `chat-gpt-leh` para `chat-gpt-commits`;
-3. executar auditoria global;
-4. somente depois promover o estado integrado conforme o fluxo do projeto.
-
-Como cada branch modifica normalmente um arquivo diferente, os merges devem ser simples e, na maior parte dos casos, automáticos.
-
-## Auditoria obrigatória por fonte
-
-Antes de cada commit lexicográfico:
-
-- quantidade esperada de `search-row`;
-- quantidade esperada de `entry-card`;
-- cada `data-target` corresponde a exatamente um `id`;
-- nenhum `id` duplicado;
-- nenhum `data-target` duplicado;
-- nenhuma linha órfã;
-- nenhum cartão órfão;
-- nenhuma ocorrência de `beta.perseus.tufts.edu`;
-- nenhuma expansão bibliográfica conjectural.
-
-A fidelidade à fonte continua tendo prioridade sobre o tamanho do lote.
+A rotina trihorária deve resolver conflitos por conta própria, sem pedir autorização repetitiva. Nas divergências de `README.md`, `ORQUESTRACAO.md`, `PARALLEL_WORKFLOW.md` e regras, preservar e compor os trechos atuais de todas as frentes; nos manifestos `regras/estado-orquestracao.json` locais, criar/atualizar cópias de estado **com sufixo da fonte**, em vez de sobrescrever o de outra fonte. Ao conciliar módulos JS/CSS ou popups, conservar todas as funções legítimas e validar carregamento, alvos, IDs e ausência de regressões; não modificar o significado lexical ou fazer harmonização entre fontes. Preferir merge auditável de dois pais com `expected_sha`, `force=false`, certificando `merged=true` no PR. Se for impossível demonstrar a conservação dos dados, manter somente o PR arriscado pendente, com diagnóstico concreto, e continuar outros. Nenhuma dessas decisões autoriza escrita em `main` ou em branches de origem durante a integração.

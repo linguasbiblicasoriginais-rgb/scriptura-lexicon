@@ -1,0 +1,120 @@
+RINTEGRACAO — NORMA EXCLUSIVA DO AGENDAMENTO DE INTEGRAÇÃO (09/10/2026)
+
+1. Frequência: a cada 3 horas, oito verificações por dia; independente das quatro rotinas horárias.
+2. Base de PR: chat-gpt-commits. Origens autorizadas (somente estas seis):
+   chat-gpt-bdag, chat-gpt-dgp, chat-gpt-leh, chat-gpt-pereira, chat-gpt-estilos e chat-gpt-correcoes.
+3. Em cada ciclo, obter HEAD GitHub de cada origem e destino; comparar ancestralidade e alterações com os commits já mesclados. Só agir onde houver mudanças não integradas.
+4. Antes de abrir PR, verificar se já existe PR aberto da mesma origem para a mesma base; reutilizá-lo, evitando duplicação.
+5. PRs são EXCLUSIVIDADE desta rotina de integração, não das quatro rotinas lexicográficas.
+6. Analisar diffs, conflitos e verificações. Nunca perder lexemas, módulos, checkpoints ou README/regras. Distinguir metadados por fonte dos compartilhados; não sobrescrever um estado lexical com outro.
+7. Se seguro, resolver conflitos sem alterações conjecturais e mesclar para chat-gpt-commits. Verificar state=closed, merged=true, SHA de merge e conteúdo remoto; jamais confundir PR fechado não mesclado com sucesso.
+8. Não excluir branches, não criar ramificações temporárias, não reescrever origem, não usar force push, não tocar em main. A exceção ao veto de PR das regras de fontes vale APENAS para o integrador.
+9. Perante conflito irresolúvel com segurança, manter PR aberto, registrar arquivos e riscos, não declarar integração concluída.
+10. Ao fim de qualquer ciclo, publicar tabela de totais de verbetes por BDAG, DGP, LEH e PEREIRA, fonte/HEAD e método de apuração, incluindo não verificado quando não for possível aferir.
+11. Os arquivos de estado por fonte na integração têm nomes exclusivos: regras/estado-orquestracao-bdag.json (quando criado), regras/estado-orquestracao-dgp.json, regras/estado-orquestracao-leh.json, regras/estado-orquestracao-pereira.json. O legado regras/estado-orquestracao.json não é checkpoint global.
+12. A frequência de 3 horas é intenção operacional; este arquivo por si só não cria agendamento. Manter distinção entre política documentada e tarefas efetivamente ativas.
+
+
+13. ADENDO OPERACIONAL — 09/10/2026: QUINTA TAREFA COM AUDITORIA ÀS 05h.
+O agendamento da integração foi EFETIVAMENTE CRIADO para 02:00, 05:00, 08:00,
+11:00, 14:00, 17:00, 20:00 e 23:00 em America/Sao_Paulo, com execução a cada
+três horas. A tarefa antiga de auditoria diária foi PAUSADA, não excluída.
+Na execução das 05:00, PRIORIDADE ABSOLUTA: executar PRIMEIRO a auditoria
+completa definida em regras/Rcorrecoes.txt, tratando cada escrita SOMENTE
+em chat-gpt-correcoes (HEAD atual, expected_sha, force=false, commits pequenos,
+testes e confirmação), preservando a revisão de popups, abreviaturas, HTML,
+Unicode, formatação, referências, integridade search-row/entry-card,
+regressões BDAG ἀγαθοεργέω e DGP ἀλείφω. A ausência de PR, conflito ou falha
+de integração NÃO pode dispensar ou atrasar intencionalmente a auditoria.
+Depois da auditoria das 05:00, fazer a integração normal. Nos outros sete
+horários, apenas integração. Os privilégios NÃO se misturam: as mudanças
+da auditoria ficam exclusivamente em chat-gpt-correcoes e as integrações
+em chat-gpt-commits. Nunca editar main ou apagar branches. Informar de modo
+independente sucesso, cobertura ou bloqueio de cada fase, mais a tabela de
+quatro totais sempre recalculada. Um agendamento não garante a ausência
+absoluta de falhas externas; nunca alegar auditoria concluída sem prova.
+
+14. AUTORIZAÇÃO EXPRESSA PARA RESOLUÇÃO AUTÔNOMA — 09/10/2026.
+O usuário determinou que, SEMPRE que houver conflitos de merge, o integrador
+deverá decidir e resolvê-los por conta própria, adotando a melhor solução,
+SEM solicitar autorização individual para conflitos ordinários. Investigar
+merge-base, HEADs e diff de cada PR; não paralisar ante mergeable=false.
+Integrar contribuições compatíveis de ambos os lados, em vez de escolher
+cegamente ours/theirs. Proteger todos os verbetes e propriedades da fonte,
+IDs, cartões, popups, referências, estilos, correções verificadas e regras.
+Documentação conflitante deve ser consolidada sem perdas e sem duplicações
+desnecessárias. Manifestos de execução são LOCAIS: na integração, manter
+regras/estado-orquestracao-[fonte].json separados, jamais sobrescrever o
+checkpoint de outra fonte nem retroceder total. Preservar as nove propriedades
+da API PEREIRA; não inventar formas, sentidos, passagens nem etimologias.
+Validar sintaxe, carregamento, contagens search-row/entry-card, IDs e links.
+A resolução pode utilizar commit de merge atômico com dois pais reais,
+parent principal = HEAD atual de chat-gpt-commits e segundo parent = HEAD
+da origem, protegido por expected_sha e force=false. Conferir state=closed
+E merged=true no PR, HEAD, arquivos e contagens depois; não chamar sucesso
+à mera criação de um commit ainda não mesclado.
+Não criar branches extras, não alterar origens ou main, não excluir ramos,
+não usar force push. Se a ambiguidade for REALMENTE irresolúvel sem risco
+de perda ou invenção, manter o PR aberto e relatar fatos e alternativas,
+prosseguindo com as outras origens seguras. Isso é decisão conservadora
+autônoma, e não autorização para omitir conflitos resolvíveis.
+A auditoria das 05h na branch chat-gpt-correcoes conserva prioridade.
+Em todo relatório, informar PR, arquivos em conflito, método, resultado
+dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
+
+13. PR #65 — resolução de conflitos (09/10/2026)
+   Origem: chat-gpt-correcoes; destino: chat-gpt-commits.
+   Estratégia: preservar integralmente o HEAD lexicográfico mais recente no
+   destino (PEREIRA 510), pois 460 search-row e 460 entry-card do HEAD da
+   origem já constam literalmente no destino. Não rebaixar checkpoint PEREIRA
+   para 461 nem reverter os 50 registros do lote 012. Preservar Rcorrecoes
+   proveniente da origem, com regra de ouro e auditoria às 05h. Manter os
+   dois JSON de sondagem PEREIRA como evidência histórica: 16 e 27 prefixos
+   sem erros registrados. NÃO promover o workflow temporário de sondagem,
+   restrito a uma branch obsoleta e com permissão de escrita; seu histórico
+   continua acessível na origem e no segundo pai do merge. PDFs idênticos
+   não são duplicados; README e esta regra registram a reconciliação.
+   Garantias: não criar verbetes, não alterar main, não editar/excluir
+   branches de origem, proteger o update do HEAD e conferir PR merged=true.
+
+14. PR #64 — integração das regras PEREIRA (09/10/2026)
+    Origem chat-gpt-pereira → destino chat-gpt-commits.
+    Incorporar integralmente o cabeçalho 'NOVA REGRA SUPREMA —
+    EXECUÇÃO INDEPENDENTE' da origem em regras/Rpereira.txt. O restante
+    do protocolo era idêntico ao arquivo do destino.
+    Manter ORQUESTRACAO.md, PARALLEL_WORKFLOW.md e Rintegracao.txt do
+    destino: cada qual já continha integralmente a versão da origem,
+    acrescida de instruções posteriores de autonomia dos merges e da
+    auditoria prioritária às 05h. Preservar README sem supressões.
+    Substituir SOMENTE o instantâneo de estado da fonte PEREIRA sob
+    regras/estado-orquestracao-pereira.json pelo manifesto schema 2
+    da origem; NÃO sobrescrever regras/estado-orquestracao.json legado
+    BDAG. Preservar lexicons/pereira-progress.json com lote 012,
+    510 verbetes e ordinal 511/ID 34516. A API POST funcionou no
+    coletor local, ainda sem integração horária comprovada.
+    Não modificar main, outras fontes, origens ou verbetes;
+    conferir HEAD, os dois pais reais do merge e merged=true.
+
+15. PR #66 — conflito com main; preparar sem publicar na principal (09/10/2026)
+    O PR #66 é chat-gpt-commits → main, fora da matriz normal
+    de seis origens → chat-gpt-commits. A regra 'nunca escrever em
+    main' prevalece: não fazer merge, commit, force ou rebase em main.
+    A divergência resulta de um único commit de main (merge PR #33,
+    mudanças DGP) ausente da ancestralidade do ramo de integração.
+    Comparação remota confirmou preservação de todos os dados:
+    NOTICE-DGP.md, index.html, dgp-format.css, dgp-format.js e
+    script.js têm SHA de blob igual nos dois ramos;
+    dgp-batches.js de main é prefixo integral idêntico do consolidado;
+    os primeiros 59 registros de lote do manifesto DGP de main são
+    idênticos aos do consolidado, que possui 63 lotes (1.830 verbetes);
+    o texto Rdgp.txt de main já consta inteiro no consolidado.
+    A resolução de conflito pode integrar apenas a ancestralidade
+    de main como segundo pai de um merge na branch chat-gpt-commits,
+    mantendo sua árvore lexical inalterada. Verificar HEAD e proteção
+    expected_sha/force=false antes da atualização. Verificar que
+    PR #66 ficou sem conflitos e permaneceu ABERTO, sem merge para main.
+    Somente autorização expressa nova permite editar main.
+
+16. PR #80 — resolução DGP (10/10/2026)
+    Origem chat-gpt-dgp (70f09b8348b35d7a4b82fe2eed2a2759024691cb) → base chat-gpt-commits (e8025f6df839843aeb6ab214e34e30c2d76a8a62); merge-base 9e3717634532dd3dd34204531424b419036fede6. Preservar o conteúdo da base, inclusive BDAG, LEH, PEREIRA, JASTROW e correções visuais. Preservar dgp.js da base com novos popups. Conservar dgp-batches.js da base nos ordinais 1–2180 e acrescentar SOMENTE os lotes 70–72 (2181–2480) da origem. Preservar as correções dos verbetes 95/124/150 do destino. Incorporar os novos módulos 073/074/075 (2481–2780) na ordem e antes do formatador, sem eliminar pereira.js. Usar o manifesto do DGP para os lotes 70–75, conservando o estado integrado do lote 69. Não substituir o manifesto legado BDAG regras/estado-orquestracao.json; novo snapshot DGP exclusivamente em regras/estado-orquestracao-dgp.json. Rdgp da origem é extensão exata do Rdgp da base; README conserva as demais frentes, com adendo DGP.
+    Auditorias estáticas dos lotes 70–74 documentadas em chat-gpt-correcoes. Lote 75 aprovado estaticamente em f28a5f282f2df7f90007c55d196044acee12b145 (100/100), com DOM, acessibilidade e popups dinâmicos pendentes. A resolução usa commit de dois pais reais diretamente na base com expected_sha e force=false; confirmar merged=true do PR, SHA final e integridade remota, preservando as origens. Sem alterações em main ou force push.

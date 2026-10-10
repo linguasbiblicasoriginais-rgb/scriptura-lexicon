@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "source": "JASTROW",
+  "work_branch": "chat-gpt-jastrow",
+  "source_title": "A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature",
+  "source_platform": "Sefaria",
+  "source_lexicon": "Jastrow Dictionary",
+  "source_url": "https://www.sefaria.org/Jastrow?tab=contents",
+  "rules": "regras/Rjastrow.txt",
+  "scope": {
+    "batch_size": 200,
+    "next_ordinal": 1,
+    "total_published": 0,
+    "total_audited": 0,
+    "total_integrated": 0,
+    "status": "aguardando acesso confiável à sequência e ao conteúdo integral da fonte",
+    "next_lemma": null
+  },
+  "batches": [],
+  "last_attempt": {
+    "date": "2026-10-10",
+    "starting_branch_head": "94264d98c8c4ade337bba91999e3c0de0c3d9b77",
+    "actual_entries_retrieved": 0,
+    "entries_committed": 0,
+    "source_ui": "acessível",
+    "source_api": "indisponível na ferramenta de consulta desta sessão",
+    "evidence": [
+      "https://www.sefaria.org/Jastrow?tab=contents",
+      "https://www.sefaria.org/api/v2/index/Jastrow",
+      "https://www.sefaria.org/api/words/%D7%90",
+      "https://www.sefaria.org/api/words/completion/%D7%90/Jastrow%20Dictionary?limit=200"
+    ],
+    "filological_audit": "não iniciada: nenhum verbete publicado",
+    "browser_audit": "não iniciada: nenhum módulo JASTROW publicado",
+    "integration": "não iniciada: nenhuma entrada incorporada"
+  },
+  "constraints": {
+    "never_invent": true,
+    "preserve_original_source": true,
+    "portuguese_final": true,
+    "source_and_translation_separate": true,
+    "audit_branch": "chat-gpt-correcoes",
+    "integration_base": "chat-gpt-commits",
+    "write_main": false
+  }
+}

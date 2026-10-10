@@ -7,9 +7,9 @@
   "auxiliary_alphabetical_list": "DDGP-3x-files/DDGP_3x_entry_lists_in_pdf_alphabetically.zip",
   "scope": {
     "initial_letter": "α",
-    "batch_size": 50,
-    "next_ordinal": 1631,
-    "status": "lote 59 concluído"
+    "batch_size": 100,
+    "next_ordinal": 2781,
+    "status": "Lotes 70–75 integrados após auditoria estática; inspeção funcional e popups dinâmicos pendentes"
   },
   "batches": [
     {
@@ -542,6 +542,150 @@
       "end_entry": "ἀλεκτορίς, ίδος (ἡ)",
       "entry_count": 50,
       "status": "concluído"
+    },
+    {
+      "batch": 60,
+      "start_ordinal": 1631,
+      "end_ordinal": 1680,
+      "start_entry": "ἀλεκτορίσκος, ου (ὁ)",
+      "end_entry": "ἀλεωρά, ᾶς (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 61,
+      "start_ordinal": 1681,
+      "end_ordinal": 1730,
+      "start_entry": "ἄλη, ης (ἡ)",
+      "end_entry": "ἀλίθιος, α, ον",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 62,
+      "start_ordinal": 1731,
+      "end_ordinal": 1780,
+      "start_entry": "ἀλιθίως",
+      "end_entry": "ἀλκή, ῆς (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 63,
+      "start_ordinal": 1781,
+      "end_ordinal": 1830,
+      "start_entry": "Ἄλκηστις, ιδος (ἡ)",
+      "end_entry": "ἀλλοίως",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 64,
+      "start_ordinal": 1831,
+      "end_ordinal": 1880,
+      "start_entry": "ἀλλοίωσις, εως (ἡ)",
+      "end_entry": "ἀλοιφή, ῆς (ἡ)",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 65,
+      "start_ordinal": 1881,
+      "end_ordinal": 1930,
+      "start_entry": "ἁλόμενος",
+      "end_entry": "ἀλφάνω",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 66,
+      "start_ordinal": 1931,
+      "end_ordinal": 1980,
+      "start_entry": "ἀλφεσίβοιος, α, ον",
+      "end_entry": "ἅμαξα,",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 67,
+      "start_ordinal": 1981,
+      "end_ordinal": 2030,
+      "start_entry": "ἁμαξεύω",
+      "end_entry": "ἀμβλήδην",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 68,
+      "start_ordinal": 2031,
+      "end_ordinal": 2080,
+      "start_entry": "ἀμβλόω",
+      "end_entry": "ἀμέργω",
+      "entry_count": 50,
+      "status": "concluído"
+    },
+    {
+      "batch": 69,
+      "start_ordinal": 2081,
+      "end_ordinal": 2180,
+      "start_entry": "ἀμέρδω",
+      "end_entry": "ἀμόθι",
+      "entry_count": 100,
+      "status": "integrado; auditoria estática aprovada; DOM não testado"
+    },
+    {
+      "batch": 70,
+      "start_ordinal": 2181,
+      "end_ordinal": 2280,
+      "start_entry": "ἀμοιβαῖος, ος, ον",
+      "end_entry": "ἀμυχή, ῆς (ἡ)",
+      "entry_count": 100,
+      "status": "aguardando auditoria independente"
+    },
+    {
+      "batch": 71,
+      "start_ordinal": 2281,
+      "end_ordinal": 2380,
+      "start_entry": "ἀμφαγαπάζω",
+      "end_entry": "ἀμφιλαχαίνω",
+      "entry_count": 100,
+      "status": "incorporado; aguardando auditoria independente"
+    },
+    {
+      "batch": 72,
+      "start_ordinal": 2381,
+      "end_ordinal": 2480,
+      "start_entry": "ἀμφιλέγω",
+      "end_entry": "ἀν",
+      "entry_count": 100,
+      "status": "incorporado; auditoria estática independente publicada; revisão visual/funcional pendente"
+    },
+    {
+      "batch": 73,
+      "start_ordinal": 2481,
+      "end_ordinal": 2580,
+      "start_entry": "ἅν1",
+      "end_entry": "ἀνάδημα, ατος (τό)",
+      "entry_count": 100,
+      "status": "incorporado e aprovado em colação textual e auditoria estrutural; testes funcionais e integração pendentes"
+    },
+    {
+      "batch": 74,
+      "start_ordinal": 2581,
+      "end_ordinal": 2680,
+      "start_entry": "ἀναδιδάσκω",
+      "end_entry": "ἀνακινδυνεύω",
+      "entry_count": 100,
+      "status": "incorporado; auditoria textual/estrutural independente publicada; testes de navegador e integração pendentes"
+    },
+    {
+      "batch": 75,
+      "start_ordinal": 2681,
+      "end_ordinal": 2780,
+      "start_entry": "ἀνακινέω-ῶ",
+      "end_entry": "ἀναμάσσω,",
+      "entry_count": 100,
+      "status": "incorporado; auditoria independente e integração pendentes"
     }
   ],
   "editorial_rules": {
