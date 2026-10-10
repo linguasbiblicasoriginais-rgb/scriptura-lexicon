@@ -9,7 +9,7 @@
     "initial_letter": "α",
     "batch_size": 100,
     "next_ordinal": 2681,
-    "status": "Lote 74 incorporado em módulo separado; auditoria independente posterior e integração pendentes"
+    "status": "Lote 74 incorporado e auditado estaticamente em branch independente; inspeção funcional/editorial e integração pendentes"
   },
   "batches": [
     {
@@ -676,7 +676,7 @@
       "start_entry": "ἀναδιδάσκω",
       "end_entry": "ἀνακινδυνεύω",
       "entry_count": 100,
-      "status": "incorporado em dgp-batch-074.js; auditoria independente pendente"
+      "status": "incorporado; auditoria textual/estrutural independente publicada; testes de navegador e integração pendentes"
     }
   ],
   "editorial_rules": {

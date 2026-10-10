@@ -809,3 +809,12 @@ Módulo exclusivo lexicons/dgp-batch-074.js, incluído pelo index.html logo apó
 100 search-row/entry-card, IDs e data-target entry-dgp-2581..entry-dgp-2680, proveniência DGP. Definições integrais preservadas sem paráfrase, somente normalização de espaços e escape HTML. Índice de busca conserva definição completa; glosa curta apenas auxiliar. Nenhuma URL nova.
 Colação preliminar 100/100 lemas e definições; auditoria remota de conteúdo, contagem estrutural, popups e DOM em etapas distintas. Política de retentativas para falhas TRANSITÓRIAS: até três tentativas totais por operação (inicial + duas), sempre reconsultando o HEAD e evitando commits duplicados. Não repetir erros permanentes ou bloqueios explícitos de segurança; registrar mensagem literal. Não desativar agendamentos.
 ================================================================================
+
+
+================================================================================
+CONFIRMAÇÃO PÓS-PUBLICAÇÃO — AUDITORIA INDEPENDENTE DO LOTE 74 (10/10/2026)
+================================================================================
+Commit lexical auditado: a9b29c233916c9adc265b34007c8b085c96fd972, chat-gpt-dgp. Relatório de auditoria independente: auditorias/dgp-2026-10-10-lote74.md, commit c594632d58936f9ec574ce66deec0f72cbc4c670, branch chat-gpt-correcoes.
+Conferência dos 100 verbetes 2581–2680: 100/100 lemas da busca/cartões, definições integrais e índices em correspondência ao XML fixado. Recontagem estática do corpus: 2680 linhas de busca, 2680 cartões, 2680 IDs únicos em cada, zero ausências, duplicações ou alvos órfãos. Sequência do index.html: dgp.js, dgp-batches.js, dgp-batch-073.js, dgp-batch-074.js, dgp-format.js, script.js. O módulo 074 é carregado uma única vez.
+Checkpoint permanece 2681 (ἀνακινέω-ῶ); atualização estritamente administrativa, nenhum lexema criado ou modificado. Popups dinâmicos, renderização, acessibilidade e integração continuam PENDENTES.
+================================================================================

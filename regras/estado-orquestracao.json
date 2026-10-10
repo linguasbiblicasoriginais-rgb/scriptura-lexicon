@@ -31,11 +31,11 @@
     "batches_in_round": [
       74
     ],
-    "independent_audit": "PENDENTE",
+    "independent_audit": "ESTATICA_PUBLICADA_c594632d58936f9ec574ce66deec0f72cbc4c670",
     "functional_visual_audit": "PENDENTE",
     "integration": "PENDENTE",
-    "corpus_structural_audit": "100 linhas/cartões verificadas antes de publicar; revisão remota posterior pendente",
-    "lexical_commit": "PENDENTE_VERIFICACAO_REMOTA"
+    "corpus_structural_audit": "2680 linhas/cartões com IDs únicos sem lacunas/órfãos; 100 lemas e definições do lote 74 conferidos com XML; índice HTML e sequência de scripts validados estaticamente",
+    "lexical_commit": "a9b29c233916c9adc265b34007c8b085c96fd972"
   },
   "execution": {
     "state": "derive_from_remote",
