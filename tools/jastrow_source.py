@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Stage a verified Jastrow SOURCE batch; never mark entries as translated.
+"""Stage the FIRST 200 ORIGINAL Jastrow entries from a pinned Sefaria XML.
 
-Follows the Sefaria DictionaryNode's firstWord/next_hw chain.
-No dependencies beyond Python 3.11 stdlib. No work on other dictionaries.
+This is source acquisition, NOT a Portuguese translation or publication.
+No external packages. A failed download/parse never publishes a partial batch.
 """
 from __future__ import annotations
-
 import argparse
 import hashlib
 import json
@@ -14,128 +13,130 @@ from pathlib import Path
 import sys
 import tempfile
 import time
+import unicodedata
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
 from urllib.request import Request, urlopen
+from xml.etree import ElementTree as ET
 
-API = "https://www.sefaria.org/api"
-LEXICON = "Jastrow Dictionary"
-USER_AGENT = "ScripturaLexicon-EditorialSourceCheck/1.0 (+https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon)"
+SOURCE_COMMIT = "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7"
+SOURCE_BLOB_SHA = "98292a0c219835df19b9da7cea1edbc4dcc6526d"
+SOURCE_PATH = "dictionaries/Jastrow/data/01-Merged XML/Jastrow-full.xml"
+SOURCE_URL = ("https://raw.githubusercontent.com/Sefaria/Sefaria-Data/"
+              + SOURCE_COMMIT + "/dictionaries/Jastrow/data/"
+              + "01-Merged%20XML/Jastrow-full.xml")
+AGENT = "Scriptura-Lexicon-Jastrow/1.1 (public-domain lexical research)"
 
 
-def fetch_json(url: str):
-    """Three attempts total for transient HTTP failures. Permanent errors fail."""
+def request_source() -> bytes:
     for attempt in range(3):
         try:
-            req = Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
-            with urlopen(req, timeout=25) as response:
-                data = response.read()
-            return json.loads(data.decode("utf-8"))
+            request = Request(SOURCE_URL, headers={"User-Agent": AGENT})
+            with urlopen(request, timeout=90) as response:
+                document = response.read()
+            if len(document) < 1000000:
+                raise ValueError("Upstream XML unexpectedly small")
+            return document
         except HTTPError as exc:
             if exc.code not in (429, 500, 502, 503, 504) or attempt == 2:
-                raise RuntimeError(f"Source HTTP {exc.code} at {url}") from exc
-        except (TimeoutError, URLError, json.JSONDecodeError) as exc:
+                raise RuntimeError(f"HTTP {exc.code}: {SOURCE_URL}") from exc
+        except (TimeoutError, URLError) as exc:
             if attempt == 2:
-                raise RuntimeError(f"Source fetch failed at {url}: {type(exc).__name__}: {exc}") from exc
+                raise RuntimeError(f"XML download failed: {exc}") from exc
         time.sleep(2 ** attempt)
-    raise RuntimeError(f"Source unavailable: {url}")
+    raise RuntimeError("Upstream source download failed")
 
 
-def starting_word() -> tuple[str, dict]:
-    failures = []
-    for url in (f"{API}/v2/index/Jastrow", f"{API}/index/Jastrow"):
-        try:
-            data = fetch_json(url)
-            nodes = (data.get("schema") or {}).get("nodes", [])
-            node = next((x for x in nodes if x.get("nodeType") == "DictionaryNode"
-                         and x.get("lexiconName") == LEXICON), None)
-            if node and isinstance(node.get("firstWord"), str):
-                return node["firstWord"], {"index_endpoint": url, "index_firstWord": node["firstWord"],
-                                            "index_lastWord": node.get("lastWord")}
-            failures.append(f"{url}: DictionaryNode/firstWord missing")
-        except RuntimeError as exc:
-            failures.append(str(exc))
-    raise RuntimeError("Unable to confirm canonical firstWord. " + "; ".join(failures))
+def local_tag(tag):
+    return tag.rsplit("}", 1)[-1]
 
 
-def fetch_entry(headword: str) -> dict:
-    url = f"{API}/words/{quote(headword, safe='')}"
-    data = fetch_json(url)
-    if not isinstance(data, list):
-        raise RuntimeError(f"Unexpected API object for {headword!r}")
-    candidates = [e for e in data if isinstance(e, dict) and e.get("parent_lexicon") == LEXICON
-                  and e.get("headword") == headword]
-    if len(candidates) != 1:
-        raise RuntimeError(f"Cannot uniquely select {headword!r}; exact Jastrow matches={len(candidates)}")
-    entry = candidates[0]
-    if not isinstance(entry.get("content"), dict) or not entry["content"].get("senses"):
-        raise RuntimeError(f"Missing lexical content/senses at {headword!r}")
-    return entry
+def headword(entry):
+    word = next((child for child in entry if local_tag(child.tag) == "head-word"), None)
+    return "".join(word.itertext()).strip() if word is not None else ""
 
 
-def stage(limit: int, output: Path, start: str | None = None, delay: float = 0.35):
-    if output.exists():
-        raise RuntimeError(f"Refusing to overwrite existing source batch: {output}")
-    first, index = starting_word()
-    headword = start or first
-    records, heads, ids = [], set(), set()
-    for ordinal in range(1, limit + 1):
-        if not headword:
-            raise RuntimeError(f"Source chain ended after {len(records)} entries, before requested {limit}")
-        if headword in heads:
-            raise RuntimeError(f"Headword pointer cycle: {headword!r}")
-        entry = fetch_entry(headword)
-        rid = entry.get("rid")
-        if not isinstance(rid, str) or not rid or rid in ids:
-            raise RuntimeError(f"Absent/duplicate rid at {headword!r}: {rid!r}")
-        next_hw = entry.get("next_hw")
-        if ordinal < limit and (not isinstance(next_hw, str) or not next_hw):
-            raise RuntimeError(f"No next_hw before batch end at {headword!r}")
-        records.append({"ordinal": ordinal, "source_ref": f"Jastrow, {headword}", "source": entry})
-        heads.add(headword)
-        ids.add(rid)
-        print(f"{ordinal:03d}/{limit:03d} {rid} {headword}", flush=True)
-        headword = next_hw
-        if ordinal < limit:
-            time.sleep(delay)
+def unpointed(value):
+    return "".join(c for c in unicodedata.normalize("NFD", value)
+                   if unicodedata.category(c) != "Mn").strip()
 
-    json_lines = "".join(json.dumps(e, ensure_ascii=False, sort_keys=True) + "\n" for e in records)
-    sha256 = hashlib.sha256(json_lines.encode("utf-8")).hexdigest()
-    batch = {
-        "source": LEXICON, "source_url": "https://www.sefaria.org/Jastrow",
-        "status": "source_only_untranslated_not_published", "entry_count": len(records),
-        "first_headword": records[0]["source"]["headword"],
-        "last_headword": records[-1]["source"]["headword"],
-        "next_headword": headword, "canonical_index": index,
-        "jsonl_sha256": sha256, "records": records,
+
+def extract(source: bytes, limit: int) -> dict:
+    # The XML is known to contain <entry> and <head-word> nodes,
+    # per Sefaria-Data and Ezra Brand's documented parsing example.
+    root = ET.fromstring(source)
+    entries = [e for e in root.iter() if local_tag(e.tag) == "entry"]
+    if len(entries) < limit + 1:
+        raise RuntimeError(f"Source has only {len(entries)} entries; need {limit + 1} to confirm next")
+    captured = entries[:limit + 1]
+    heads = [headword(e) for e in captured]
+    if not all(heads):
+        missing = [i + 1 for i, h in enumerate(heads) if not h]
+        raise RuntimeError(f"Unlabeled entry at ordinal(s): {missing}")
+    if unpointed(heads[0]) != "א":
+        raise RuntimeError(f"Canonical opening lemma mismatch: expected א; got {heads[0]!r}")
+    records = []
+    for i, entry in enumerate(captured[:limit], 1):
+        # Preserve full source subtree and all markup/attributes, not a shortened gloss.
+        source_xml = ET.tostring(entry, encoding="unicode")
+        if not source_xml.strip():
+            raise RuntimeError(f"Empty XML entry at ordinal {i}")
+        records.append({
+            "ordinal": i, "source_id": f"jastrow-xml-{i:06d}",
+            "headword": heads[i - 1],
+            "source_xml": source_xml,
+            "source_entry_sha256": hashlib.sha256(source_xml.encode("utf-8")).hexdigest()
+        })
+    return {
+        "source": "Marcus Jastrow (Sefaria-Data upstream XML)",
+        "source_repository": "Sefaria/Sefaria-Data",
+        "source_commit": SOURCE_COMMIT,
+        "source_blob_sha": SOURCE_BLOB_SHA,
+        "source_path": SOURCE_PATH,
+        "source_url": SOURCE_URL,
+        "source_xml_sha256": hashlib.sha256(source).hexdigest(),
+        "status": "source_only_untranslated_not_published",
+        "entry_count": len(records),
+        "first_headword": heads[0],
+        "last_headword": heads[limit - 1],
+        "next_headword": heads[limit],
+        "records": records
     }
-    output.parent.mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(batch, ensure_ascii=False, indent=2) + "\n"
-    with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=output.parent,
-                                      prefix=".jastrow-", suffix=".tmp", delete=False) as file:
-        tmp = Path(file.name)
-        file.write(payload)
-    os.replace(tmp, output)
-    print(f"SOURCE_BATCH_OK records={len(records)} sha256_jsonl={sha256} "
-          f"first={batch['first_headword']} last={batch['last_headword']} next={headword}", flush=True)
+
+
+def write_atomically(destination: Path, document: dict):
+    if destination.exists():
+        raise RuntimeError(f"Output already exists: {destination}")
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    data = json.dumps(document, ensure_ascii=False, indent=2) + "\n"
+    with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8",
+                                      dir=destination.parent, delete=False,
+                                      prefix=".jastrow-", suffix=".tmp") as tmp:
+        tmp.write(data)
+        temp_path = Path(tmp.name)
+    try:
+        os.replace(temp_path, destination)
+    finally:
+        temp_path.unlink(missing_ok=True)
 
 
 def main():
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--limit", type=int, default=200)
-    ap.add_argument("--start", default=None)
-    ap.add_argument("--delay", type=float, default=0.35)
-    ap.add_argument("--output", default="lexicons/jastrow-source-lote-0001.json")
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--limit", type=int, default=200)
+    parser.add_argument("--output", default="lexicons/jastrow-source-lote-0001.json")
+    args = parser.parse_args()
     if not (1 <= args.limit <= 200):
-        ap.error("limit must be 1..200")
-    if args.delay < 0.2:
-        ap.error("delay must be >= 0.2 seconds")
+        parser.error("limit must be 1..200")
     try:
-        stage(args.limit, Path(args.output), args.start, args.delay)
+        document = extract(request_source(), args.limit)
+        write_atomically(Path(args.output), document)
     except Exception as exc:
         print(f"JASTROW_SOURCE_BLOCKED: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
+    print("SOURCE_BATCH_OK", document["entry_count"],
+          "first=", document["first_headword"],
+          "last=", document["last_headword"],
+          "next=", document["next_headword"],
+          "source_sha256=", document["source_xml_sha256"])
     return 0
 
 
