@@ -13,7 +13,7 @@ A rotina de correções ajustou, no módulo DGP, a indexação dos corpos comple
 
 ## JASTROW — 100 ressalvas sob auditoria filológica única (11/10/2026)
 
-Foram examinados **100 casos previamente sinalizados** no Jastrow (11 V históricos e 89 O), por decisão explícita do usuário. Resultados **A=37, C=28, P=35**, com **28 correções documentais publicadas** e restantes bloqueios específicos registrados; ver [relatório](auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md), [fonte XML de cada caso](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [checkpoint único](auditoria/jastrow-auditoria-unica-progresso.json). A auditoria é uma etapa única: P não cria recotejo global obrigatório e não equivale a aprovação. O total incorporado permanece 600, sem novos IDs após A00599; o histórico original da auditoria anterior permanece preservado.
+Foram examinados **100 casos previamente sinalizados** no Jastrow (11 V históricos e 89 O); a contagem **A=37, C=28, P=35** foi o estado INICIAL deste lote e foi posteriormente encerrada como **A=37, C=63, P=0**, incluindo correções e resolução da remissão A00429; ver [relatório](auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md), [fonte XML de cada caso](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [checkpoint único](auditoria/jastrow-auditoria-unica-progresso.json). A auditoria é uma etapa única: P não cria recotejo global obrigatório e não equivale a aprovação. O total incorporado permanece 600, sem novos IDs após A00599; o histórico original da auditoria anterior permanece preservado.
 
 
 ## Tabela global canônica de progresso (11/10/2026)
@@ -715,3 +715,15 @@ Realizada revisão documental dirigida dos 31 pareceres classificados P no lote 
 **Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
 
 Parecer completo: [`auditoria/JASTROW-2026-10-11-A00429-desfecho.md`](auditoria/JASTROW-2026-10-11-A00429-desfecho.md). O universo total de Jastrow no projeto permanece 600 registros incorporados; os 100 são o lote da auditoria filológica única com pareceres individuais. Integração e testes de navegador permanecem processos independentes.
+
+
+## JASTROW — segundo lote da auditoria filológica única (100 verbetes, 11/10/2026)
+
+Realizado exame individual e completo dos **100 primeiros IDs ainda não auditados sob a norma vigente**, em ordem de fonte, excluindo os 25 IDs do primeiro lote que caem no intervalo ordinal 1–125. Intervalo lexical examinado: `A00000`–`A00124`, com **100 IDs distintos e 100 cartões efetivamente confrontados**. Resultado do lote 002: **72 A, 28 C, 0 P**. Acumulado da auditoria filológica única do JASTROW: **200 de 600 registros incorporados** (**109 A, 91 C, 0 P**); o próximo ainda não examinado é **`A00125` (ordinal 126)**. Os 600 cotejos históricos do regime anterior permanecem históricos, sem reclassificação automática.
+
+As **28 correções** foram incorporadas nos módulos `jastrow-011-040.js`, `jastrow-041-080.js`, `jastrow-081-110.js` e `jastrow-111-140.js`, preservando a camada Fonte e a cardinalidade de pesquisa/cartões. O material corrigido acrescenta variantes, leituras de manuscritos e edições atribuídas a Jastrow, referências, sentido geral antes reduzido à locução e separação explícita de conjecturas/etimologias. A conferência foi realizada contra o XML canônico; **não significa inspeção independente de manuscritos rabínicos ou fac-símiles, nem teste funcional real de navegador**.
+
+**Rastreabilidade:** [relatório com os 100 pareceres](auditoria/JASTROW-2026-10-11-lote-002-100-relatorio.md), [matriz JSON integral de fonte/tradução/justificativa](auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json) e [checkpoint acumulado](auditoria/jastrow-auditoria-unica-progresso.json). Esta auditoria pertence exclusivamente a `chat-gpt-correcoes`; a integração por PR é etapa separada, sem alteração de `main`.
+
+
+A verificação estática dos cinco módulos carregados até A00139, com **140 linhas e 140 cartões emparelhados**, e cobertura dos 100 IDs selecionados está registrada em [prova JSON](auditoria/JASTROW-2026-10-11-lote-002-100-testes.json). Não se afirmou teste de navegador.

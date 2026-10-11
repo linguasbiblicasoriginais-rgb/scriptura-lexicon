@@ -16,21 +16,21 @@ const entries=[
     "lemma": "אֶבְדִּימוֹס",
     "type": "Nome próprio masculino",
     "gloss": "Ebdimos; Eudemo",
-    "html": "Nome próprio masculino, do grego <span lang='grc'>Εὔδημος</span> (Eudemos). Variantes e abreviações: <bdi lang='he' dir='rtl'>אבדימא, אבדימי</bdi>; grafias consideradas corruptas por Jastrow: <bdi lang='he' dir='rtl'>אבדומי, אבודמא, אבודמי</bdi>. Designa vários amoraítas, especialmente Ebdimos de Séforis (Jerusalém Berakhot 4, 8a; Jerusalém Ketubot 11, 34b). Ver também <bdi lang='he' dir='rtl'>וַרְדִּימוֹס</bdi>."
+    "html": "Nome próprio masculino, do grego <span lang='grc'>Εὔδημος</span> (Eudemos). Variantes e abreviações: <bdi lang='he' dir='rtl'>אבדימא, אבדימי</bdi>; grafias consideradas corruptas por Jastrow: <bdi lang='he' dir='rtl'>אבדומי, אבודמא, אבודמי</bdi>. Designa vários amoraítas, especialmente Ebdimos de Séforis (Jerusalém Berakhot 4, 8a; Jerusalém Ketubot 11, 34b). Ver também <bdi lang='he' dir='rtl'>וַרְדִּימוֹס</bdi>. <strong>Complemento filológico:</strong> <strong>Identificação e bibliografia:</strong> Jastrow cita Jerusalém Ketubot 11, 34b; Jerusalém Berakhot 4, 8a para o amoraíta de Séforis, e remete ao verbete <bdi dir='rtl' lang='he'>וַרְדִּימוֹס</bdi>. A entrada remete ainda a Frankel, <i>Mebo</i>, s.v., como fonte bibliográfica; <bdi dir='rtl' lang='he'>אבדומי, אבודמא, אבודמי</bdi> são grafias classificadas como corrompidas pelo lexicógrafo, não nomes distintos demonstrados."
   },
   {
     "sid": "A00042",
     "lemma": "אַבְדָּלָה",
     "type": "Substantivo feminino aramaico",
     "gloss": "separação; distinção; havdalá",
-    "html": "Variantes <bdi lang='he' dir='rtl'>אַבְדָּלָה, אַבְדַּלְתָּא</bdi>, correspondentes ao hebraico <bdi lang='he' dir='rtl'>הַבְדָּלָה</bdi>. <strong>1.</strong> Ato de distinguir, distinção ou separação (Jerusalém Berakhot 8, 12c). <strong>2.</strong> <i>Havdalá</i>, fórmula de oração que marca o encerramento do sábado ou de uma festa sagrada (Pesahim 113a). Plural <bdi lang='he' dir='rtl'>אַבְדָּלוֹת</bdi>, distinções; Jerusalém Berakhot 5, 9b menciona sete objetos de distinção."
+    "html": "Variantes <bdi lang='he' dir='rtl'>אַבְדָּלָה, אַבְדַּלְתָּא</bdi>, correspondentes ao hebraico <bdi lang='he' dir='rtl'>הַבְדָּלָה</bdi>. <strong>1.</strong> Ato de distinguir, distinção ou separação (Jerusalém Berakhot 8, 12c). <strong>2.</strong> <i>Havdalá</i>, fórmula de oração que marca o encerramento do sábado ou de uma festa sagrada (Pesahim 113a). Plural <bdi lang='he' dir='rtl'>אַבְדָּלוֹת</bdi>, distinções; Jerusalém Berakhot 5, 9b menciona sete objetos de distinção. <strong>Complemento filológico:</strong> <strong>Precisão das fontes:</strong> Jerusalém Berakhot 8, 12c, topo, <bdi dir='rtl' lang='he'>א׳ ודאי</bdi> significa «separação efetiva»; a fórmula litúrgica da <i>Havdalá</i> aparece em Berakhot 8, começo de 11d, e Pesahim 113a. Plural <bdi dir='rtl' lang='he'>אַבְדָּלוֹת</bdi>: Jerusalém Berakhot 5, 9b, parte inferior, <bdi dir='rtl' lang='he'>שבעה א׳</bdi>, sete objetos ou matérias de distinção mencionados na fórmula. Jastrow equipara a forma aramaica à hebraica <bdi dir='rtl' lang='he'>הַבְדָּלָה</bdi>."
   },
   {
     "sid": "A00043",
     "lemma": "אַבְדָּן",
     "type": "Nome próprio masculino",
     "gloss": "Abdan",
-    "html": "<strong>Abdan</strong>, nome masculino interpretado por Jastrow como contração de <bdi lang='he' dir='rtl'>אבא יודן</bdi>; amoraíta da primeira geração (Jerusalém Berakhot 4, 7c; Berakhot 27b). Variante editorial: <bdi lang='he' dir='rtl'>אבידן</bdi>."
+    "html": "<strong>Abdan</strong>, nome masculino interpretado por Jastrow como contração de <bdi lang='he' dir='rtl'>אבא יודן</bdi>; amoraíta da primeira geração (Jerusalém Berakhot 4, 7c; Berakhot 27b). Variante editorial: <bdi lang='he' dir='rtl'>אבידן</bdi>. <strong>Complemento filológico:</strong> <strong>Aparato onomástico:</strong> para Berakhot 27b, manuscrito M. registra <bdi dir='rtl' lang='he'>אַבְדָּן</bdi>, ao passo que a edição lê <bdi dir='rtl' lang='he'>אבידן</bdi>; o autor compara Gênesis Rabá §10 além de Jerusalém Berakhot 4, 7c, parte inferior. A interpretação do nome como contração de <bdi dir='rtl' lang='he'>אבא יודן</bdi> é atribuída a Jastrow."
   },
   {
     "sid": "A00044",
@@ -79,7 +79,7 @@ const entries=[
     "lemma": "אַבָּהוּ",
     "type": "Nome próprio masculino",
     "gloss": "Abbahu; nome de amoraítas",
-    "html": "<strong>Abbahu</strong>, nome de amoraítas na Palestina e na Babilônia. Na Palestina, um possivelmente da primeira geração; outro, célebre discípulo de Rabi Yohanan, residia em Cesareia (Jerusalém Berakhot 2, 4b; Sucá 48b). Há também um Abbahu, pai de Rabbah (Kidushin 33b), e outro contemporâneo de Rav Ashi (Bava Kamma 117b)."
+    "html": "<strong>Abbahu</strong>, nome de amoraítas na Palestina e na Babilônia. Na Palestina, um possivelmente da primeira geração; outro, célebre discípulo de Rabi Yohanan, residia em Cesareia (Jerusalém Berakhot 2, 4b; Sucá 48b). Há também um Abbahu, pai de Rabbah (Kidushin 33b), e outro contemporâneo de Rav Ashi (Bava Kamma 117b). <strong>Complemento filológico:</strong> <strong>Identificações distintas:</strong> não fundir os dois amoraítas palestinos chamados Abbahu: o primeiro, talvez da geração inicial, é referido em Jerusalém Berakhot 5, 8d (parte inferior) e Bikkurim 2, 64d (topo); o segundo é o conhecido discípulo de Rabi Yoḥanan sediado em Cesareia (Jerusalém Berakhot 2, 4b; Sucá 48b). A fonte menciona ainda amoraítas babilônicos homônimos: Shabbat 119b; Kidushin 33b (pai de Rabbah, remissão a <bdi dir='rtl' lang='he'>רַבָּה</bdi>); Bava Kamma 117b (contemporâneo de Rabi Ashi, remissão a <bdi dir='rtl' lang='he'>אַשֵׁי</bdi>)."
   },
   {
     "sid": "A00051",
@@ -114,7 +114,7 @@ const entries=[
     "lemma": "אִיבּוּב אַבּוּב",
     "type": "Substantivo masculino",
     "gloss": "flauta; cano; tubo; instrumento de sopro",
-    "html": "Da ideia de cavidade: <strong>1.</strong> Cana, flauta, tubo ou conduto. <bdi lang='he' dir='rtl'>אבוב של קנה</bdi>, flauta de cana; <bdi lang='he' dir='rtl'>אבוב של נחושת</bdi>, flauta de bronze (Arakhin 2.3). <bdi lang='he' dir='rtl'>אבוב של קלאים</bdi>, tubo de ferro usado para assar grãos (Kelim 2.3; Menahot 10.4). <strong>2.</strong> <bdi lang='he' dir='rtl'>אבוב רועה</bdi>, “flauta de pastor”, nome de uma planta medicinal identificada pela fonte como <i>Eupatorium</i> (Shabbat 14.3; 109b)."
+    "html": "Da ideia de cavidade: <strong>1.</strong> Cana, flauta, tubo ou conduto. <bdi lang='he' dir='rtl'>אבוב של קנה</bdi>, flauta de cana; <bdi lang='he' dir='rtl'>אבוב של נחושת</bdi>, flauta de bronze (Arakhin 2.3). <bdi lang='he' dir='rtl'>אבוב של קלאים</bdi>, tubo de ferro usado para assar grãos (Kelim 2.3; Menahot 10.4). <strong>2.</strong> <bdi lang='he' dir='rtl'>אבוב רועה</bdi>, “flauta de pastor”, nome de uma planta medicinal identificada pela fonte como <i>Eupatorium</i> (Shabbat 14.3; 109b). <strong>Complemento filológico:</strong> <strong>Aparato e acepções:</strong> Jastrow propõe relação com <bdi dir='rtl' lang='he'>אנב, נבב</bdi>, «ser oco», e compara <bdi dir='rtl' lang='he'>בִּיב</bdi> I. A flauta de cana (<bdi dir='rtl' lang='he'>של קנה</bdi>) e a de metal (<bdi dir='rtl' lang='he'>של נחושת</bdi>) ocorrem em Arakhin 2.3. Para o tubo de ferro usado para torrar grãos (Kelim 2.3; Menahot 10.4), o <i>Arukh</i> traz <bdi dir='rtl' lang='he'>של קלאים</bdi> e a edição <bdi dir='rtl' lang='he'>קליות</bdi>. O fitônimo medicinal «flauta de pastor» (<bdi dir='rtl' lang='he'>א׳ רוֹעֶה</bdi>) tem variantes <bdi dir='rtl' lang='he'>אבובראה, אבוברואה</bdi> e é identificado por Jastrow como <i>Eupatorium</i> (Shabbat 14.3; 109b; Jerusalém Shabbat 14, 14c); cf. <bdi dir='rtl' lang='he'>חומטריא</bdi>."
   },
   {
     "sid": "A00056",
@@ -212,21 +212,21 @@ const entries=[
     "lemma": "אִבּוּל,",
     "type": "Substantivo masculino II",
     "gloss": "portal de carga; portão de carroças",
-    "html": "Segundo homógrafo <bdi lang='he' dir='rtl'>אִבּוּל / אִיבּוּל</bdi>, relacionado por Jastrow a <bdi lang='he' dir='rtl'>יבל</bdi>: passagem ou portão por onde grãos são levados à casa em carros. Plural <bdi lang='he' dir='rtl'>אִבּוּלִים</bdi>. Tosefta Bava Metzia 11.10 proíbe dividir portões comuns entre herdeiros se cada um não tiver espaço suficiente."
+    "html": "Segundo homógrafo <bdi lang='he' dir='rtl'>אִבּוּל / אִיבּוּל</bdi>, relacionado por Jastrow a <bdi lang='he' dir='rtl'>יבל</bdi>: passagem ou portão por onde grãos são levados à casa em carros. Plural <bdi lang='he' dir='rtl'>אִבּוּלִים</bdi>. Tosefta Bava Metzia 11.10 proíbe dividir portões comuns entre herdeiros se cada um não tiver espaço suficiente. <strong>Complemento filológico:</strong> <strong>Flexão e variantes:</strong> o segundo homógrafo tem também forma <bdi dir='rtl' lang='he'>אִיבּוּל</bdi>; o plural é <bdi dir='rtl' lang='he'>אִבּוּלִים</bdi>, abreviado <bdi dir='rtl' lang='he'>אִיבּ׳</bdi>. Tosefta Bava Metzia 11.10: Zuckermandel imprime <bdi dir='rtl' lang='he'>אין חולקין את אי׳</bdi>, contra edição <bdi dir='rtl' lang='he'>הָאִבּ׳</bdi>; a regra trata da divisão de portões de carroças entre herdeiros, condicionada ao espaço necessário para cada parte. Não confundir com אִבּוּל I, «luto»."
   },
   {
     "sid": "A00070",
     "lemma": "אִבּוּלָא,",
     "type": "Substantivo aramaico",
     "gloss": "portão da cidade; entrada fortificada",
-    "html": "Forma aramaica do precedente, <bdi lang='he' dir='rtl'>אִבּוּלָא / אִיבּוּלָא</bdi>: portão de entrada para carroças; especialmente portão urbano fortificado onde também se reuniam juízes. Moed Katan 22a: a contagem de dias de luto começa ao regressar do portão da cidade durante o funeral. Ketubot 17a e Meguilá 29a citam o caminho do portão ao sepultamento. Bava Batra 58a menciona inscrição acima da entrada onde funcionava o tribunal. Plural <bdi lang='he' dir='rtl'>אִבּוּלֵי</bdi> (Eruvin 6b; Yoma 11a). A edição do <i>Arukh</i> também registra interpretação “casa de luto”."
+    "html": "Forma aramaica do precedente, <bdi lang='he' dir='rtl'>אִבּוּלָא / אִיבּוּלָא</bdi>: portão de entrada para carroças; especialmente portão urbano fortificado onde também se reuniam juízes. Moed Katan 22a: a contagem de dias de luto começa ao regressar do portão da cidade durante o funeral. Ketubot 17a e Meguilá 29a citam o caminho do portão ao sepultamento. Bava Batra 58a menciona inscrição acima da entrada onde funcionava o tribunal. Plural <bdi lang='he' dir='rtl'>אִבּוּלֵי</bdi> (Eruvin 6b; Yoma 11a). A edição do <i>Arukh</i> também registra interpretação “casa de luto”. <strong>Complemento filológico:</strong> <strong>Texto e testemunhos:</strong> Jastrow equipara a passagem ao hebraico <bdi dir='rtl' lang='he'>מבוא העיר</bdi> («acesso à cidade»). Em Moed Katan 22a a contagem do luto começa <bdi dir='rtl' lang='he'>מבבא דא׳</bdi>, quando os acompanhantes se afastam do acesso urbano; Ketubot 17a e Meguilá 29a delimitam uma passagem do portão ao sepultamento (<bdi dir='rtl' lang='he'>מא׳ ועד סיכרא</bdi>). O <i>Arukh</i> propõe alternativamente «casa de luto», relacionando à acepção de אִבּוּל I. Bava Batra 58a: manuscrito M. lê <bdi dir='rtl' lang='he'>אבבא דא׳</bdi> para o portal judicial, edição <bdi dir='rtl' lang='he'>בא׳</bdi>, tida por Jastrow como incorreta. Plural <bdi dir='rtl' lang='he'>אִבּוּלֵי</bdi>; cf. Eruvin 6b, Yoma 11a, Targum Pseudo-Jônatas Deuteronômio 28.52 (<bdi dir='rtl' lang='he'>אבוליכון</bdi>, edição de Viena <bdi dir='rtl' lang='he'>אכול׳</bdi>) e Targum Jeremias 50.26 (<bdi dir='rtl' lang='he'>אִיבּוּלָהָא</bdi>, contra o texto hebraico <bdi dir='rtl' lang='he'>מאבסיה</bdi>; ver Peshitta)."
   },
   {
     "sid": "A00071",
     "lemma": "*אִבּוּלָאֵי",
     "type": "Substantivo masculino plural",
     "gloss": "guardas do portão; policiais",
-    "html": "De <bdi lang='he' dir='rtl'>אִבּוּלָא</bdi>, guardas ou agentes de vigilância do portão urbano. Nidá 67b alude a sua conduta grosseira; Rashi oferece uma explicação diferente, associada a entradas perigosas dos banhos."
+    "html": "De <bdi lang='he' dir='rtl'>אִבּוּלָא</bdi>, guardas ou agentes de vigilância do portão urbano. Nidá 67b alude a sua conduta grosseira; Rashi oferece uma explicação diferente, associada a entradas perigosas dos banhos. <strong>Complemento filológico:</strong> <strong>Interpretação concorrente:</strong> Nidá 67b, <bdi dir='rtl' lang='he'>משום א׳</bdi>, é explicado por Jastrow como precaução diante da conduta grosseira dos guardas/policiais dos portões. Rashi, porém, relaciona a expressão a <bdi dir='rtl' lang='he'>אבולי</bdi>, entradas perigosas e semelhantes a cavernas para a casa de banhos. Essas explicações não são variantes semânticas comprovadamente equivalentes."
   },
   {
     "sid": "A00072",
@@ -247,7 +247,7 @@ const entries=[
     "lemma": "(אבין) אַבּוּן",
     "type": "Nome próprio masculino",
     "gloss": "Abbun; amoraíta",
-    "html": "<strong>Abbun</strong>, nome de um amoraíta, também grafado <bdi lang='he' dir='rtl'>אבין</bdi>; aparece em Jerusalém Pesahim 4, Jerusalém Ta‘anit 1 e Jerusalém Shevuot 6. Ver também <bdi lang='he' dir='rtl'>בּוּן</bdi>."
+    "html": "<strong>Abbun</strong>, nome de um amoraíta, também grafado <bdi lang='he' dir='rtl'>אבין</bdi>; aparece em Jerusalém Pesahim 4, Jerusalém Ta‘anit 1 e Jerusalém Shevuot 6. Ver também <bdi lang='he' dir='rtl'>בּוּן</bdi>. <strong>Complemento filológico:</strong> <strong>Variantes de atribuição:</strong> Jerusalém Pesahim 4, início, 30c–d, transmite <bdi dir='rtl' lang='he'>ר׳ אל׳ בשם ר׳ אבין</bdi> e também <bdi dir='rtl' lang='he'>ר׳ א׳ בשם ר׳ אל׳</bdi>, que devem ser tratadas como fórmulas textuais distintas de atribuição. A fonte cita Jerusalém Ta‘anit 1, 64c e Shevuot 6, 37a (parte inferior), além de remeter a <bdi dir='rtl' lang='he'>בּוּן</bdi>. O cabeçalho secundário <bdi dir='rtl' lang='he'>אבין</bdi> não é eliminado."
   },
   {
     "sid": "A00075",

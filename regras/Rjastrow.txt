@@ -118,3 +118,10 @@ Versão inicial: 10/10/2026
 **Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
 
 Não relançar esta questão como pendência em lotes subsequentes sem novo testemunho contraditório. Preservar no XML original a abreviação `אוּ׳` e o `rid=A00517`; a correção editorial da remissão está no cartão A00429, destino A00568. Parecer: `auditoria/JASTROW-2026-10-11-A00429-desfecho.md`.
+
+
+## Registro cronológico — JASTROW, segundo lote da auditoria filológica única de 100 registros (11/10/2026)
+- Identificação: primeiros 100 registros publicados do XML **ainda não contidos no checkpoint da norma vigente**, em ordem de ID; IDs concretos no intervalo A00000–A00124, com 25 IDs previamente auditados excluídos. Não repetir a seleção anterior de 100 casos especiais. Próximo a auditar: A00125.
+- Resultado do segundo lote: A=72, C=28, P=0. Checkpoint acumulado de 200/600: A=109, C=91, P=0. A/C são igualmente resultados finais; C documenta uma intervenção validada, e não necessidade de nova inspeção.
+- Todas as entradas do lote têm registro individual com XML integral, SHA-256 da fonte, grafias, acepções, referências e cartão anterior/final no arquivo auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json. Relatório: auditoria/JASTROW-2026-10-11-lote-002-100-relatorio.md. Nenhuma alteração no XML canônico nem em outros léxicos.
+- Quatro módulos de tradução JASTROW foram alterados em 28 cartões, preservados os demais; leitura contextual de exemplos e variantes é a atribuída ao Jastrow digital, não colação nova de cada manuscrito citado. Verificação estática de JS/IDs e pesquisa é diversa de testes de navegador, que não ocorreram nesta tarefa. Integração independente, sem PR/merge nesta rodada.

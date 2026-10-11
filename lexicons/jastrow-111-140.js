@@ -29,7 +29,7 @@ const entries=[
     "lemma": "אֲבִידַרְנָא",
     "type": "Nome próprio masculino",
     "gloss": "Abidarna",
-    "html": "<strong>Abidarna</strong>, amigo não judeu de Rabi Judá (Avodah Zarah 65a). Variantes manuscritas <bdi lang='he' dir='rtl'>אבינדרא</bdi> e <bdi lang='he' dir='rtl'>אבי דרבא</bdi>."
+    "html": "<strong>Abidarna</strong>, amigo não judeu de Rabi Judá (Avodah Zarah 65a). Variantes manuscritas <bdi lang='he' dir='rtl'>אבינדרא</bdi> e <bdi lang='he' dir='rtl'>אבי דרבא</bdi>. <strong>Complemento filológico:</strong> <strong>Distribuição de variantes:</strong> Avodah Zarah 65a, topo, cita o amigo não judeu de Rabi Judá; o manuscrito M. apresenta <bdi dir='rtl' lang='he'>אבינדרא</bdi>, ao passo que outra leitura variante é <bdi dir='rtl' lang='he'>אבי דרבא</bdi>. Jastrow remete às observações de Rabbinovicz à passagem; as duas formas não devem ser atribuídas indistintamente ao mesmo manuscrito."
   },
   {
     "sid": "A00114",
@@ -50,14 +50,14 @@ const entries=[
     "lemma": "אַבְיוּ",
     "type": "Nome próprio masculino",
     "gloss": "Bar Abyu; poeta de elogios fúnebres",
-    "html": "<strong>(Bar) Abyu</strong>, nome de um conhecido poeta de elegias ou elogios fúnebres. Yevamot 103a; Moed Katan 25b. Variantes editoriais e manuscritas: <bdi lang='he' dir='rtl'>בר אביו, אובא, אבין, אבו, איבו</bdi>."
+    "html": "<strong>(Bar) Abyu</strong>, nome de um conhecido poeta de elegias ou elogios fúnebres. Yevamot 103a; Moed Katan 25b. Variantes editoriais e manuscritas: <bdi lang='he' dir='rtl'>בר אביו, אובא, אבין, אבו, איבו</bdi>. <strong>Complemento filológico:</strong> <strong>Aparato da elegia:</strong> <bdi dir='rtl' lang='he'>בַּר אַבְיוּ</bdi>, «Bar Abyu», é identificado por Jastrow como poeta de versos fúnebres, não autor de elegias necessariamente conservadas. Yevamot 103a e Moed Katan 25b: <i>Arukh</i> registra <bdi dir='rtl' lang='he'>בר אביו</bdi>, enquanto as edições apresentam <bdi dir='rtl' lang='he'>אובא, אבין</bdi> e há leituras manuscritas <bdi dir='rtl' lang='he'>אבו, איבו</bdi> (ver Rabbinovicz, nota à passagem)."
   },
   {
     "sid": "A00117",
     "lemma": "אֶבְיוֹן",
     "type": "Adjetivo ou substantivo masculino",
     "gloss": "pobre; necessitado; aflito",
-    "html": "Pobre, pessoa necessitada ou em aflição. Levítico Rabá 34 propõe etimologia homilética: chama-se <bdi lang='he' dir='rtl'>אֶבְיוֹן</bdi> porque “anseia por tudo”; há variante <bdi lang='he' dir='rtl'>מתאוה</bdi>. Gênesis Rabá 71; Bava Metzia 111b."
+    "html": "Pobre, pessoa necessitada ou em aflição. Levítico Rabá 34 propõe etimologia homilética: chama-se <bdi lang='he' dir='rtl'>אֶבְיוֹן</bdi> porque “anseia por tudo”; há variante <bdi lang='he' dir='rtl'>מתאוה</bdi>. Gênesis Rabá 71; Bava Metzia 111b. <strong>Complemento filológico:</strong> <strong>Etimologia homilética e testemunhos:</strong> Levítico Rabá §34 explica o nome «necessitado» por <bdi dir='rtl' lang='he'>שהוא מתאב לכל</bdi>, «porque deseja tudo»; Yalkut à mesma passagem registra <bdi dir='rtl' lang='he'>מתאוה</bdi>. Trata-se de jogo exegético sobre o verbo de desejar, não de uma derivação histórica comprovada. Outros testemunhos: Gênesis Rabá §71 e Bava Metzia 111b."
   },
   {
     "sid": "A00118",
@@ -99,7 +99,7 @@ const entries=[
     "lemma": "אַבַּיִּי",
     "type": "Nome próprio masculino",
     "gloss": "Abaye; amoraíta babilônico",
-    "html": "<strong>Abaye</strong>, célebre mestre talmúdico da Babilônia; nome pessoal original registrado como <bdi lang='he' dir='rtl'>נַחְמֵנִי</bdi> (Nahmeni). Há também outros amoraítas assim chamados. Ketubot 65a, 94a; Eruvin 62a."
+    "html": "<strong>Abaye</strong>, célebre mestre talmúdico da Babilônia; nome pessoal original registrado como <bdi lang='he' dir='rtl'>נַחְמֵנִי</bdi> (Nahmeni). Há também outros amoraítas assim chamados. Ketubot 65a, 94a; Eruvin 62a. <strong>Complemento filológico:</strong> <strong>Homônimos e defeito de transcrição:</strong> o XML digital repete, literalmente, o fragmento inglês «1) a renowned Babyl.» no início do primeiro sentido; a repetição é tratada como anomalia de extração ou edição, não como duas acepções nem como repetição que deva aparecer na tradução. A entrada identifica Abaye, nome pessoal <bdi dir='rtl' lang='he'>נַחְמֵנִי</bdi>, como célebre amoraíta babilônico (Ketubot 65a); uma segunda categoria trata de outros amoraítas homônimos (Ketubot 94a; Eruvin 62a). Não se confunde esse antropônimo com <bdi dir='rtl' lang='he'>אַבָּיִי</bdi>, remissão ao termo «oração» no registro seguinte."
   },
   {
     "sid": "A00124",

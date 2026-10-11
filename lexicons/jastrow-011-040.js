@@ -79,7 +79,7 @@
     "lemma": "אִבָּא",
     "type": "Substantivo masculino",
     "gloss": "bosque; matagal; fruto",
-    "html": "<strong>1.</strong> Mato fechado, bosque, arvoredo. Moed Katan 12b menciona a floresta de Sh’lanya. Provérbio em Sanhedrin 39b: do próprio bosque vem o cabo do machado que o fere. <strong>2.</strong> Fruto; cf. <bdi lang='he' dir='rtl'>אִיבָּא</bdi>."
+    "html": "<strong>1.</strong> Mato fechado, bosque, arvoredo. Moed Katan 12b menciona a floresta de Sh’lanya. Provérbio em Sanhedrin 39b: do próprio bosque vem o cabo do machado que o fere. <strong>2.</strong> Fruto; cf. <bdi lang='he' dir='rtl'>אִיבָּא</bdi>. <strong>Complemento filológico:</strong> <strong>Aparato e remissões:</strong> Moed Katan 12b: <bdi dir='rtl' lang='he'>א׳ בשלניא</bdi>, bosque de Sh'lanya. Ketubot 79a remete a <bdi dir='rtl' lang='he'>זַרְדְּתָא</bdi>. Sanhedrin 39b: provérbio <bdi dir='rtl' lang='he'>מיניה וביה א׳ ניזיל ביה נרגא</bdi>, com variante <bdi dir='rtl' lang='he'>ליזיל</bdi> e leitura da <i>Ag. Hatt.</i> <bdi dir='rtl' lang='he'>בנרגא</bdi> (ver Rabbinovicz, nota à passagem). O segundo sentido «fruto» é remissivo, não extensão demonstrada de «bosque»; cf. <bdi dir='rtl' lang='he'>אִיבָּא</bdi>."
   },
   {
     "sid": "A00021",
@@ -107,7 +107,7 @@
     "lemma": "אָבַב",
     "type": "Verbo",
     "gloss": "inchar; engrossar; desabrochar",
-    "html": "Raiz relacionada, na análise do autor, às ideias de pressão, espessura, envolvimento e calor. Significa tornar-se espesso, inchar, brotar ou irromper. A fonte remete a <bdi lang='he' dir='rtl'>חָבַב</bdi> e <bdi lang='he' dir='rtl'>הָבַב</bdi> e compara várias raízes semíticas; essas aproximações pertencem à análise etimológica de Jastrow."
+    "html": "Raiz relacionada, na análise do autor, às ideias de pressão, espessura, envolvimento e calor. Significa tornar-se espesso, inchar, brotar ou irromper. A fonte remete a <bdi lang='he' dir='rtl'>חָבַב</bdi> e <bdi lang='he' dir='rtl'>הָבַב</bdi> e compara várias raízes semíticas; essas aproximações pertencem à análise etimológica de Jastrow. <strong>Complemento filológico:</strong> <strong>Comparações radicais da fonte:</strong> Jastrow associa as ideias «tornar-se espesso, pesar, pressionar, rodear, entrelaçar, aquecer/brilhar» ao conjunto hipotético de raízes <bdi dir='rtl' lang='he'>אב, עב, חב, גב, כב, קב</bdi>; compara <bdi dir='rtl' lang='he'>חָבַב</bdi> I–II, e remete a <bdi dir='rtl' lang='he'>אבד, אבל, אבק, אבר, אבס, אבה</bdi>. O significado lexical propriamente enunciado é «engrossar, inchar, irromper»; as aproximações de raízes são análise etimológica do autor, não ocorrências que provem todos esses sentidos."
   },
   {
     "sid": "A00025",
@@ -163,7 +163,7 @@
     "lemma": "אָבֵד",
     "type": "Adjetivo ou substantivo masculino",
     "gloss": "perecível; irrecuperável; perda inevitável",
-    "html": "Algo que se perderia caso fosse adiado: <bdi lang='he' dir='rtl'>דבר האבד</bdi>, empreendimento cujo adiamento causa perda irrecuperável (Moed Katan 11a)."
+    "html": "Algo que se perderia caso fosse adiado: <bdi lang='he' dir='rtl'>דבר האבד</bdi>, empreendimento cujo adiamento causa perda irrecuperável (Moed Katan 11a). <strong>Complemento filológico:</strong> <strong>Acepções e expressão:</strong> o adjetivo masculino <bdi dir='rtl' lang='he'>אָבֵד</bdi> significa também, isoladamente, «perecível; irrecuperável». Em <bdi dir='rtl' lang='he'>דבר הא׳</bdi>, Moed Katan 11a, qualifica atividade ou negócio cujo adiamento acarretaria prejuízo irrecuperável. A expressão técnica não esgota o sentido do adjetivo."
   },
   {
     "sid": "A00033",
@@ -212,7 +212,7 @@
     "lemma": "אֶבְדּוֹקוֹס",
     "type": "Nome próprio masculino",
     "gloss": "Ebdocos; Eútoco",
-    "html": "Nome masculino <i>Ebdocos</i>, associado ao grego <span lang='grc'>Εὔτοκος</span> (“Eútoco”). Em Jerusalém Meguilá 3, 74a, aparece traduzido numa carta política cifrada como <bdi lang='he' dir='rtl'>טוב ילד</bdi>, “boa criança”; o autor observa variantes editoriais."
+    "html": "Nome masculino <i>Ebdocos</i>, associado ao grego <span lang='grc'>Εὔτοκος</span> (“Eútoco”). Em Jerusalém Meguilá 3, 74a, aparece traduzido numa carta política cifrada como <bdi lang='he' dir='rtl'>טוב ילד</bdi>, “boa criança”; o autor observa variantes editoriais. <strong>Complemento filológico:</strong> <strong>Variante de edição:</strong> para a carta política em Jerusalém Meguilá 3, 74a, parte inferior, Jastrow transmite as formas editoriais abreviadas <bdi dir='rtl' lang='he'>קום—</bdi> e <bdi dir='rtl' lang='he'>קין—</bdi>, com indicação de correção conforme a passagem. A equivalência <bdi dir='rtl' lang='he'>טוב ילד</bdi>, «boa criança», representa a forma cifrada do nome em contexto político; não a tratar como significado lexical comum."
   }
 ];
  function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
