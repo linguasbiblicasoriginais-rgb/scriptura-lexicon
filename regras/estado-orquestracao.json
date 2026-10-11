@@ -14,21 +14,19 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "total_rows": 1101,
-    "total_cards": 1101,
-    "last_lemma": "Ἀριστόβουλος, ου, ὁ",
-    "next_lemma": "ἄριστον, ου, τό",
-    "first_lemma_of_latest_batch": "ἄργυρος, ου, ὁ",
+    "total_rows": 1121,
+    "total_cards": 1121,
+    "last_lemma": "ἀροτριάω",
+    "next_lemma": "ἄροτρον, ου, τό",
+    "first_lemma_of_latest_batch": "ἄριστον, ου, τό",
     "last_batch_count": 20,
     "source_pdf": "fontes/fonte-bdag.pdf",
     "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
     "source_pdf_pages": [
-      42,
-      43,
-      44,
-      45
+      45,
+      46
     ],
-    "parent_head": "7042aeb0ec6ff6e3a4464c2719de4d402c8d3923",
+    "parent_head": "1ccdf34d9bcca0602629c5e83ee708de621b351e",
     "verified": "prepublication_source_and_structural_audit",
     "new_bibliographic_popups": []
   },
