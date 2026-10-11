@@ -159,3 +159,7 @@ dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
 
 22. PR #92 — JASTROW, conclusão ordinal 600 (11/10/2026)
     Origem chat-gpt-jastrow, destino chat-gpt-commits. Preservar o conteúdo integral do destino BDAG/LEH/DGP/PEREIRA/THAYER; incorporar 90 verbetes A00510–A00599 em seis módulos, um de popups e auditoria Node. Inserir scripts após o popup JASTROW 411–510, antes de THAYER; preservar README histórico e registrar a rodada. Importar relatorio auditoria/JASTROW-2026-10-11-lote-007.md. Total 600 verbetes JASTROW, 600 originais XML, 176 popups únicos; próximo A00600 não extraído. Auditoria cumulativa Actions 38117209491 passou; revisão filológica integral e navegador pendentes. Não escrever em main nem excluir branches. Merge real com dois pais, sem force.
+
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Retificação do item histórico que mencionava somente quatro fontes no relatório: incluir obrigatoriamente TODOS os dicionários ativos, iniciados ou zerados, em toda resposta de execução/auditoria/integrador, com as colunas `Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado`, legenda ✓/◐/—, total numérico por fonte e linha TOTAL. A lista mínima e critérios constam de `regras/Rprogresso-global.txt`. Essa norma de RELATÓRIO não acrescenta origens aos agendamentos de integração nem altera o escopo de escrita; fontes como THAYER, JASTROW e HALOT continuam sujeitas às respectivas políticas de PR.
