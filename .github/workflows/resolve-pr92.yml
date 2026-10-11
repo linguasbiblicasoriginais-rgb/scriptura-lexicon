@@ -1,0 +1,29 @@
+name: PR 92 - reconciliar JASTROW 600 e integrar
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths:
+      - ".github/workflows/resolve-pr92.yml"
+permissions:
+  contents: write
+concurrency:
+  group: pr92-jastrow-to-commits
+  cancel-in-progress: false
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Configurar identidades Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Validar script
+        run: python -m py_compile tools/resolve_pr92.py
+      - name: Conciliar com destino real, auditar 600 e publicar merge
+        run: python tools/resolve_pr92.py
