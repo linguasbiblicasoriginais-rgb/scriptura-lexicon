@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 100,
-    "next_ordinal": 411,
-    "next_source_id": "A00410",
-    "next_lemma": "אדכי",
+    "next_ordinal": 511,
+    "next_source_id": "A00510",
+    "next_lemma": "אֲהָן",
     "source_records_retrieved": 600,
     "first_source_id": "A00000",
     "last_source_id": "A00599",
     "next_source_batch_ordinal": 601,
     "next_source_batch_id": "A00600",
     "next_source_batch_lemma": "אוּזִילָא",
-    "total_published": 410,
+    "total_published": 510,
     "total_audited": 0,
-    "total_integrated": 410,
-    "editorial_status": "410 JASTROW integrados tecnicamente pelo PR #89; revisão filológica integral e teste de navegador pendentes; total_audited=0.",
-    "source_status": "600 originais extraídos do XML canônico Sefaria-Data em três arquivos de 200 registros."
+    "total_integrated": 510,
+    "editorial_status": "510 registros JASTROW integrados tecnicamente via PR #91, ainda sem revisão filológica integral ou teste de navegador; total_audited=0.",
+    "source_status": "600 originais integrais preservados do XML canônico Sefaria-Data em três lotes, dos quais 510 possuem síntese editorial em português."
   },
   "batches": [
     {
@@ -113,8 +113,7 @@
         "lexicons/jastrow-286-310.js"
       ],
       "popup_file": "lexicons/jastrow-popups-211-310.js",
-      "status": "100 traduções e sínteses em português publicadas em módulos; 310/310 linhas, cartões e alvos conferidos; auditoria filológica independente e browser pendentes; novos 100 ainda não mesclados",
-      "integration_status": "Integrado tecnicamente por PR #89; auditoria filológica pendente"
+      "status": "100 traduções e sínteses em português publicadas em módulos; 310/310 linhas, cartões e alvos conferidos; auditoria filológica independente e browser pendentes; novos 100 ainda não mesclados"
     },
     {
       "batch": 5,
@@ -140,28 +139,51 @@
         "lexicons/jastrow-386-410.js"
       ],
       "popup_file": "lexicons/jastrow-popups-311-410.js",
-      "status": "100 verbetes publicados na branch; comparados a IDs/fontes originais e estrutura HTML; auditoria filológica integral e browser pendentes; não integrados.",
-      "integration_status": "Integrado tecnicamente por PR #89; auditoria filológica pendente"
+      "status": "100 verbetes publicados na branch; comparados a IDs/fontes originais e estrutura HTML; auditoria filológica integral e browser pendentes; não integrados."
+    },
+    {
+      "batch": 6,
+      "source_start_ordinal": 411,
+      "source_end_ordinal": 510,
+      "source_count": 100,
+      "source_first_id": "A00410",
+      "source_last_id": "A00509",
+      "source_file": "lexicons/jastrow-source-lote-0003.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 411,
+      "translated_end_ordinal": 510,
+      "translated_count": 100,
+      "translated_first_id": "A00410",
+      "translated_last_id": "A00509",
+      "translated_files": [
+        "lexicons/jastrow-411-435.js",
+        "lexicons/jastrow-436-460.js",
+        "lexicons/jastrow-461-485.js",
+        "lexicons/jastrow-486-510.js"
+      ],
+      "popup_file": "lexicons/jastrow-popups-411-510.js",
+      "status": "100 novos publicados; auditoria estática 100/100 aprovada; revisão filológica independente e navegador pendentes; PR de integração ainda não concluído",
+      "integration_status": "Mesclado tecnicamente pelo PR #91; revisão filológica integral pendente"
     }
   ],
   "last_attempt": {
     "date": "2026-10-11",
-    "prior_published": 310,
+    "prior_published": 410,
     "new_translations_committed": 100,
-    "translated_total": 410,
-    "new_range": "A00310–A00409",
-    "next_ordinal": 411,
-    "next_id": "A00410",
-    "next_lemma": "אדכי",
-    "source_records": 600,
-    "source_original_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
-    "new_xml_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38112091478",
-    "static_audit": "PASS: 100 new JASTROW rows/cards/targets/IDs individually matched against source; prior 310 previously audited structurally; JS syntax and module execution pass.",
-    "filological_audit": "PENDING: examples and annotations in original XML not exhaustively translated to Portuguese",
-    "browser_test": "NOT RUN",
-    "base_integrated_verified": 210,
-    "new_merge": "none",
-    "no_main_writes": true
+    "total_published": 510,
+    "new_range": "A00410–A00509",
+    "next_ordinal": 511,
+    "next_source_id": "A00510",
+    "next_lemma": "אֲהָן",
+    "source_records_retrieved_total": 600,
+    "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+    "original_file": "lexicons/jastrow-source-lote-0003.json",
+    "structural_audit": "PASS: 100 newly generated search rows, 100 entry cards, source XML IDs and headwords matched, unique target IDs, JS modules evaluate, correct index script order",
+    "prior_integrated_verified_on_branch": "chat-gpt-commits contains 410 JASTROW via merged PR #89",
+    "total_integrated": 410,
+    "filological_audit": "PENDING, editorials are source-based synopses, not verbatim complete transcription",
+    "browser_tests": "NOT PERFORMED",
+    "main_modified": false
   },
   "constraints": {
     "never_invent": true,
@@ -172,13 +194,23 @@
     "integration_base": "chat-gpt-commits",
     "write_main": false
   },
+  "integration_history": [
+    {
+      "pr": 89,
+      "source_sha": "9940ff45eb41159124d4e6d02bc0d1502573f212",
+      "base_before": "1b22493b85f2bb7db5307253a66a651d28898b4f",
+      "total_integrated": 410,
+      "total_audited": 0,
+      "filological_audit": "pending",
+      "browser_audit": "pending"
+    }
+  ],
   "last_integration": {
-    "pr": 89,
-    "source_sha": "9940ff45eb41159124d4e6d02bc0d1502573f212",
-    "base_before": "1b22493b85f2bb7db5307253a66a651d28898b4f",
-    "total_integrated": 410,
-    "total_audited": 0,
-    "filological_audit": "pending",
+    "pr": 91,
+    "head_sha": "ad1f18fe09436d9810e03328367d96d8e4bcccfe",
+    "base_before": "9dab297e45e94bb5f6466f046c346a47407872af",
+    "total_integrated": 510,
+    "philological_audit": "pending",
     "browser_audit": "pending"
   }
 }
