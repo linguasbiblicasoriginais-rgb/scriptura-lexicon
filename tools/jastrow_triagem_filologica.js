@@ -81,3 +81,6 @@ const shortlist="## Prioridades para conferência filológica\n\n"+
  candidates.slice(0,80).map(x=>"| \`"+x.id+"\` | "+x.source_headword[0]?.replace(/\|/g,"\\|")+" | "+x.level+" | "+x.flags.map(f=>f.key).join(", ")+" | "+(x.source_definition_excerpts[0]||"").replace(/\|/g,"\\|")+" | "+x.editorial_excerpt.slice(0,120).replace(/\|/g,"\\|")+" |").join("\n")+"\n\n";
 fs.writeFileSync(root+"/README.md",intro+shortlist+"Relatórios de 50 entradas: \`lote-01.md\` até \`lote-12.md\`. A matriz analítica com excertos e achados por registro está em \`triagem-600.json\`.\n");
 console.log("JASTROW_PHILOLOGICAL_SCREENING_COMPLETED",JSON.stringify({records:results.length,source_head:current,stats,report_files:14,priority: candidates.slice(0,24).map(x=>({id:x.id,lemma:x.source_headword[0],score:x.score,flags:x.flags.map(f=>f.key)}))}));
+
+console.log("JASTROW_VARIANTS_REVIEW_LIST",JSON.stringify(results.filter(x=>x.flags.some(f=>f.key==="VARIANTS_NOT_VISIBLE")).map(x=>({id:x.id,heads:x.source_headword,editor:x.display_headword,variants:x.flags.find(f=>f.key==="VARIANTS_NOT_VISIBLE").detail}))));
+console.log("JASTROW_GREEK_MORPHOLOGY_REVIEW_LIST",JSON.stringify(results.filter(x=>x.flags.some(f=>f.key==="GREEK_NOT_EVIDENT"||f.key==="MORPHOLOGY_NOT_EVIDENT")).map(x=>({id:x.id,flags:x.flags}))));
