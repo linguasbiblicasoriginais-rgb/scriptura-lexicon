@@ -397,7 +397,9 @@
     "next_retroactive_audit_interval": null,
     "retroactive_audit_structural_500_completed": true,
     "retroactive_audit_textual_internal_500_completed": true,
-    "full_philological_500_approved": false
+    "full_philological_500_approved": false,
+    "structural_512_confirmed": true,
+    "full_philological_512_approved": false
   },
   "audit_history": [
     {
@@ -524,6 +526,13 @@
       "source_pdfs_inspected": true,
       "count": 12,
       "full_philological_homologation": false
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "512 registros THAYER, regressão estrutural pós-suplemento",
+      "report": "auditorias/thayer-2026-10-11-regressao-estatica-512.md",
+      "structural_count": 512,
+      "philological_homologation": false
     }
   ],
   "structural_audit_500": {
@@ -747,5 +756,25 @@
     "inventory": "auditorias/thayer-2026-10-11-homologacao-supl-12.csv",
     "full_philological_500_or_512": "PENDENTE DE COLAÇÃO INTEGRAL",
     "browser_dom": "NÃO EXECUTADO"
+  },
+  "structural_audit_512_20261011": {
+    "date": "2026-10-11",
+    "kind": "regressao estática, 14 módulos + cartão histórico",
+    "records_total": 512,
+    "module_rows": 511,
+    "module_cards": 511,
+    "unique_target_pairs": 511,
+    "static_aaron": 1,
+    "html_balance_errors": 0,
+    "tooltip_markup_errors": 0,
+    "modules": 14,
+    "cards_with_any_link": 109,
+    "cards_with_clickable_reference_links": 0,
+    "cards_with_source_page_pattern": 19,
+    "definitions_lt_120_chars": 264,
+    "definitions_with_greek": 65,
+    "full_philological_homologation": false,
+    "real_browser_dom_test": false,
+    "report": "auditorias/thayer-2026-10-11-regressao-estatica-512.md"
   }
 }
