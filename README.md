@@ -1,3 +1,7 @@
+## THAYER — resolução da falha HTML THAYER-EST-001 (11/10/2026)
+
+Corrigido `entry-thayer-0002` (Ἀβαδδών), em `lexicons/thayer.js`: eliminadas marcações `<bdi>` indevidas dentro do tooltip hebraico e da palavra `אָבַד`. Mantida a transliteração `ʾāḇaḏ`, a acepção “perecer” e todas as referências. A ocorrência de tooltip alheio para `אָב` (“pai”) foi removida. Testes estáticos específicos aprovados (20 linhas/cartões do arquivo inicial, IDs e alvos inalterados); o conjunto continua com 500 THAYER. [Relatório detalhado](auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md). O teste de DOM real e a auditoria filológica integral ainda não foram realizados.
+
 ## Auditoria estrutural integral THAYER — 500 registros (11/10/2026)
 
 Inspeção estática da branch `chat-gpt-thayer` (HEAD inicial `f47504730b4c51904ae364bf1f26a18ec0e3010e`): **499 linhas e 499 cartões dinâmicos**, mais linha/cartão estáticos de Ἀαρών; 499/499 alvos, IDs, lemas e glossas correspondentes; carregamento dos 13 módulos conferido. Os 13 blobs de módulos coincidem com `chat-gpt-commits` (HEAD consultado `1b0fa93b76bf7e45c52a207311b0a13f0f912d2e`), com os módulos referenciados no `index.html` consolidado.

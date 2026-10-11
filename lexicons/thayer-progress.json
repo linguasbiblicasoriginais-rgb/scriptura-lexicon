@@ -405,6 +405,16 @@
       "source_head": "f47504730b4c51904ae364bf1f26a18ec0e3010e",
       "report": "auditorias/thayer-2026-10-11-auditoria-estrutural-integral-500.md",
       "semantics_fully_homologated": 0
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "Correção pontual de HTML, THAYER-EST-001",
+      "first_id": "entry-thayer-0002",
+      "last_id": "entry-thayer-0002",
+      "module_cards_unchanged": 20,
+      "source_head_before_fix": "63c9822599b01ed610c5398da17f4b7b79778e83",
+      "report": "auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md",
+      "semantics_fully_homologated": 0
     }
   ],
   "structural_audit_500": {
@@ -436,5 +446,30 @@
     "browser_test": "NÃO EXECUTADO",
     "full_philological_review": "NÃO HOMOLOGADA",
     "report": "auditorias/thayer-2026-10-11-auditoria-estrutural-integral-500.md"
+  },
+  "structural_fix_001": {
+    "date": "2026-10-11",
+    "status": "CORRIGIDO NA ORIGEM",
+    "entry": "entry-thayer-0002",
+    "lemma": "Ἀβαδδών",
+    "source_head_before_fix": "63c9822599b01ed610c5398da17f4b7b79778e83",
+    "changed_module": "lexicons/thayer.js",
+    "fix": "Corrigido o tooltip do verbo אָבַד removendo HTML aninhado, sem alterar a transliteração e a acepção",
+    "checks": {
+      "moduleCards": 20,
+      "moduleRows": 20,
+      "idsUnchanged": true,
+      "targetsUnchanged": true,
+      "invalidTooltipTagCount": 0,
+      "restoredAttribute": 1,
+      "restoredHebrewText": 1,
+      "extraneousFatherTooltips": 0,
+      "backticksUnchanged": true
+    },
+    "global_total_unchanged": 500,
+    "full_philological_review": "pendente",
+    "browser_dom_test": "não executado",
+    "report": "auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md",
+    "consolidated_integration": "a confirmar por PR específico"
   }
 }
