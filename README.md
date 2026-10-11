@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## Lote DGP 76 — 10/10/2026
+
+Nova incorporação lexical de **100 verbetes canônicos consecutivos**, ordinais **2.781–2.880** (`ἀνάματος, ος, ον` → `ἀναπλήρωσις, εως (ἡ)`) no módulo independente `lexicons/dgp-batch-076.js`. Proveniência: `aniseferreira/Grc-Por-DigDict`, `arquivos_xml/01_Alfa.txt.xml`, commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`; **2.880 verbetes DGP** no checkpoint, próximo **2.881** (`ἀναπληρωτέον`). Cada registro tem linha de pesquisa com definição indexada e cartão com texto integral; a pré-colação estática mostrou **100/100** pares corretos, sem links novos. A auditoria independente do lote 76, testes de navegador, acessibilidade e popups dinâmicos permanecem **pendentes**; a integração deve ocorrer separadamente após auditoria.
+
+**Regularização histórica do lote 75:** auditoria textual/estrutural independente concluída em `chat-gpt-correcoes`, commit [`f28a5f282f2d`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/f28a5f282f2df7f90007c55d196044acee12b145); integração confirmada no [PR #80](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/80), merge `5997adc313184bc086b6a1e036d48d045aac05b5`. Os registros históricos anteriores que descrevem essa integração como pendente se referem ao momento da publicação original do lote 75.
+
+
 ## Lote DGP 75 — 10/10/2026
 
 Incorporados **100 registros canônicos consecutivos**, ordinais **2.681–2.780** (ἀνακινέω-ῶ → ἀναμάσσω,) em `lexicons/dgp-batch-075.js`, com fonte primária `aniseferreira/Grc-Por-DigDict` no commit `deb54b426ead447d01ced7534736f3e77be7015b`. O módulo é carregado antes de `dgp-format.js` e mantém uma linha de pesquisa e um cartão para cada verbete, com definição integral. O checkpoint DGP passou a **2.780**, próximo **2.781 (ἀνάματος, ος, ον)**. A auditoria independente, testes funcionais/visuais e integração permanecem pendentes e são processos separados. Nenhum link externo foi acrescentado.

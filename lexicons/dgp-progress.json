@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2781,
-    "status": "Lote 75 incorporado nos ordinais 2681–2780; auditoria filológica independente, inspeção em navegador e integração pendentes"
+    "next_ordinal": 2881,
+    "status": "Lote 76 incorporado nos ordinais 2781–2880; auditoria independente, inspeção em navegador e integração pendentes"
   },
   "batches": [
     {
@@ -685,7 +685,16 @@
       "start_entry": "ἀνακινέω-ῶ",
       "end_entry": "ἀναμάσσω,",
       "entry_count": 100,
-      "status": "incorporado; auditoria independente e integração pendentes"
+      "status": "incorporado; auditoria independente estática de 100/100 e integração PR #80 confirmadas (10/10/2026); testes dinâmicos pendentes"
+    },
+    {
+      "batch": 76,
+      "start_ordinal": 2781,
+      "end_ordinal": 2880,
+      "start_entry": "ἀνάματος, ος, ον",
+      "end_entry": "ἀναπλήρωσις, εως (ἡ)",
+      "entry_count": 100,
+      "status": "incorporado; auditoria independente, testes dinâmicos e integração pendentes"
     }
   ],
   "editorial_rules": {

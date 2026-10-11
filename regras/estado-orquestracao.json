@@ -15,27 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 2780,
-    "total_rows_static_plus_generated": 2780,
-    "total_cards_static_plus_generated": 2780,
+    "total_from_manifest": 2880,
+    "total_rows_static_plus_generated": 2880,
+    "total_cards_static_plus_generated": 2880,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀνακινέω-ῶ",
-    "last_lemma": "ἀναμάσσω,",
-    "next_lemma": "ἀνάματος, ος, ον",
-    "next_ordinal": 2781,
+    "first_lemma_of_latest_batch": "ἀνάματος, ος, ον",
+    "last_lemma": "ἀναπλήρωσις, εως (ἡ)",
+    "next_lemma": "ἀναπληρωτέον",
+    "next_ordinal": 2881,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 75,
+    "new_batch": 76,
     "batches_in_round": [
-      75
+      76
     ],
-    "independent_audit": "PENDENTE",
+    "independent_audit": "PENDENTE — lote 76; lote 75 auditado estaticamente em f28a5f282f2df7f90007c55d196044acee12b145",
     "functional_visual_audit": "PENDENTE",
-    "integration": "PENDENTE",
-    "corpus_structural_audit": "Lote 75: 100 linhas e 100 cartões verificados no módulo novo antes do commit. O total 2780 soma ao checkpoint previamente auditado de 2680; auditoria independente do lote e nova recontagem global pendentes",
-    "lexical_commit": "HEAD remoto do lote 75 (verificar após publicação; não autoincluir SHA no próprio commit)"
+    "integration": "PENDENTE — lote 76; lote 75 mesclado em 5997adc313184bc086b6a1e036d48d045aac05b5 via PR #80",
+    "corpus_structural_audit": "Lote 76: 100 linhas e 100 cartões conferidos na geração a partir do XML. Total 2880 = checkpoint anterior 2780 + 100; recontagem global independente e execução em navegador pendentes.",
+    "lexical_commit": "HEAD remoto do lote 76 (validar após a publicação do commit; não autoincluir SHA)"
   },
   "execution": {
     "state": "derive_from_remote",
