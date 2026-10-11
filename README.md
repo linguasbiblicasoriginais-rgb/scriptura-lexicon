@@ -1,5 +1,14 @@
 # Scriptura Lexicon
 
+## THAYER — lote 003, 100 verbetes (11/10/2026)
+
+Na branch `chat-gpt-thayer`, 100 entradas consecutivas **G120–G219**, `ἀθυμέω` → `ἀλεκτοροφωνία`, foram incorporadas pelo módulo `lexicons/thayer-batch-003.js`. A fonte primária é o fac-símile de Thayer (parte 1, Α–Ι), páginas impressas **14–26**. O acumulado é **221 verbetes THAYER** (1 HTML preexistente, 20 no módulo inicial, 100 no lote 002 e 100 no lote 003); o próximo é **ἀλέκτωρ (G220)**.
+
+Cada entrada contém classe, tradução portuguesa, análise semântica resumida, referências bíblicas, identificação da fonte e popup lexical grego. Trata-se de sínteses editoriais rastreáveis, não transcrição inglesa integral nem incorporação de Strong como fonte semântica. Algumas variantes textuais são identificadas, notadamente G168 e G183; a entrada G188 registra corretamente o lema **ἀκμή**, distinguindo o acusativo adverbial **ἀκμήν**. O relatório estrutural é `auditorias/thayer-2026-10-11-lote003.md`.
+
+A auditoria estrutural verifica 100 novos pares `search-row`/`entry-card`, unicidade dos IDs e integridade da sequência. **Ainda pendentes:** auditoria visual e filológica integral de cada acepção, execução no navegador, testes de acessibilidade e verificação individual de links externos. Esta rotina não abre PR para `chat-gpt-commits` por ausência de `chat-gpt-thayer` na política de integração vigente; `main` não é modificada.
+
+
 ## THAYER — lote 002 (100 verbetes, 10/10/2026)
 
 A branch `chat-gpt-thayer` incorpora 100 verbetes novos em `lexicons/thayer-batch-002.js` de `ἀγαλλιάω` a `ἄθλησις`: entradas numeradas Thayer G21–G119 (**99**) e a entrada própria `ἄγγος` (G32b), totalizando **100** novos registros e **121** registros THAYER considerando os 21 anteriores. Próximo lema: **`ἀθυμέω` (G120)**.
