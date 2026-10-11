@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## JASTROW — triagem filológica dos 600 registros (11/10/2026)
+
+**Auditoria de cobertura textual:** todos os 600 registros XML foram confrontados programaticamente com as 600 entradas portuguesas. Resultado da triagem: 504 sem sinal automático, 55 com alerta baixo, 39 médio e 2 alto; os alertas são hipóteses de revisão, **não erros validados nem certificados**. A [execução GitHub Actions 38118125003](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38118125003) disponibiliza artefato com 12 lotes de 50, matriz JSON completa, análise por ID e trechos de fonte/edição.
+
+**Conferência manual desta rodada:** 5 verbetes (`A00156`, `A00238`, `A00338`, `A00362`, `A00371`); correções de variantes, testemunhos e grego efetivamente fundamentadas no XML em `A00156`, `A00238` e `A00362`. Dois alertas automáticos foram adjudicados sem substituições arbitrárias. Relatório: [`auditoria/JASTROW-filologia-600-2026-10-11.md`](auditoria/JASTROW-filologia-600-2026-10-11.md). **O restante das 600 entradas ainda requer leitura humana individual para certificação de sentidos, variantes, etimologias, citações e bibliografia.** Checkpoint: `total_screened_filologically=600`, `total_manually_confronted_this_cycle=5`, `total_audited=0`. Testes reais de browser não executados.
+
+
 ## PR #92 — JASTROW concluído até 600 verbetes (11/10/2026)
 
 O [PR #92](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/92) incorpora os 90 registros JASTROW `A00510`–`A00599`, de ordinal 511 a 600, e preserva as incorporações anteriores de BDAG, LEH, DGP (lote 076), PEREIRA e THAYER (lotes 002–004). São **600 verbetes JASTROW integrados**, com originais XML `A00000`–`A00599` intactos. Próximo registro `A00600`, `אוּזִילָא`, não extraído e não traduzido.
