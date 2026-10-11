@@ -1,5 +1,18 @@
 # Scriptura Lexicon
 
+## JASTROW — sexta rodada: mais 100 verbetes (11/10/2026)
+
+**Publicação lexical confirmada:** foram adicionados 100 verbetes JASTROW, ordinais 411–510, IDs `A00410`–`A00509`, de `אדכי` a `אהמרא`; o próximo verbete original é `A00510` (`אֲהָן`, ordinal 511). A branch exclusiva `chat-gpt-jastrow` disponibiliza agora **510 entradas editoriais em português**, em contraste com os **600 registros originais XML** armazenados. Antes desta rodada, **410** JASTROW estavam realmente integrados em `chat-gpt-commits` graças ao PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/89), mesclado em `c652136c1220cfe780c2697531d7da9a2fddcea2`.
+
+**Fonte:** arquivo [`lexicons/jastrow-source-lote-0003.json`](lexicons/jastrow-source-lote-0003.json), ordinais 401–600 extraídos de `Sefaria/Sefaria-Data`, commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Para esta rodada foram usados estritamente os originais de IDs `A00410`–`A00509` (índices 10–109 do lote), sem inventar lemas, variantes ou homógrafos. Os documentos da camada Fonte são independentes das sínteses editoriais.
+
+**Módulos:** [`lexicons/jastrow-411-435.js`](lexicons/jastrow-411-435.js), [`lexicons/jastrow-436-460.js`](lexicons/jastrow-436-460.js), [`lexicons/jastrow-461-485.js`](lexicons/jastrow-461-485.js) e [`lexicons/jastrow-486-510.js`](lexicons/jastrow-486-510.js), com 25 entradas cada; [`lexicons/jastrow-popups-411-510.js`](lexicons/jastrow-popups-411-510.js) acrescenta o glossário contextual. Todos são carregados por `index.html` após os módulos anteriores e antes de `script.js`.
+
+**Verificação executada no momento da publicação:** quatro módulos novos interpretados em JavaScript e comparados ao XML original para os **100/100** IDs, lemas, `data-target`, `entry-card` e `search-row`, sem duplicações entre os novos registros; ordem de scripts no HTML verificada. Requer-se validação cumulativa do conjunto com 510 itens e de seus popups, além dos testes reais de navegador e da revisão filológica independente. As traduções incluem sínteses das entradas originais; exemplos e notas extensas não estão todos traduzidos integralmente. Por isso, `total_audited=0` continua válido e nunca deve ser confundido com auditoria de integridade estrutural.
+
+**Integração:** manter PR exclusivo para `chat-gpt-commits`, conciliando quaisquer adições concorrentes de DGP, THAYER, BDAG, LEH e PEREIRA, mantendo `main` intacta e sem excluir branches. Documentar efetivamente o PR quando mesclado, e só então incrementar `total_integrated` para 510.
+
+
 ## JASTROW — quinta rodada: 100 verbetes (11/10/2026)
 
 **Estado publicado em `chat-gpt-jastrow`: 410 entradas JASTROW e 410 linhas de pesquisa; 100 novas, IDs `A00310`–`A00409` (ordinais 311–410).** Primeiro lema `אַגַּמָּא`; último `אד״ך` (forma `אד"ך` no XML). Próxima entrada `A00410`, lema `אדכי`, ordinal 411. Na branch `chat-gpt-commits` foram verificados **210** verbetes JASTROW publicados; os 200 das duas rodadas mais recentes ainda não foram integrados.
