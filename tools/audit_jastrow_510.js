@@ -14,7 +14,7 @@ for(const name of modules)vm.runInThisContext(fs.readFileSync(name,"utf8"),{file
 const lex=window.ScripturaLexicons.JASTROW;
 assert.ok(lex,"Registro JASTROW ausente");
 const rows=[...lex.rowsHtml.matchAll(/<tr class="search-row"[^>]*>[\s\S]*?<\/tr>/g)].map(x=>x[0]);
-const cards=[...lex.cardsHtml.matchAll(/<article class="entry-card"[^>]*>[\s\S]*?<\/article>/g)].map(x=>x[0]);
+const cards=[...lex.cardsHtml.matchAll(/<article[^>]*class="entry-card"[^>]*>[\s\S]*?<\/article>/g)].map(x=>x[0]);
 const count=progress.scope.total_published;
 assert.equal(rows.length,count,"Linhas de pesquisa");
 assert.equal(cards.length,count,"Cartões lexicais");
