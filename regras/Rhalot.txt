@@ -4,6 +4,47 @@ Caminho: regras/Rhalot.txt
 Codificação: UTF-8; texto simples.
 
 ======================================================================
+0. FONTE CANÔNICA VERSIONADA — DECISÃO DE 11/10/2026
+======================================================================
+
+DECISÃO EXPRESSA DO MANTENEDOR, PREVALECE SOBRE INDICAÇÕES ANTERIORES:
+A fonte documental canônica da frente HALOT passa a ser EXCLUSIVAMENTE
+o arquivo versionado no próprio repositório, na branch chat-gpt-halot:
+
+  Caminho exato: fontes/fonte-halot.pdf
+  Branch: chat-gpt-halot
+  Git blob SHA confirmado: 3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e
+
+O identificador acima é SHA DE BLOB GIT, não SHA-256 calculado do PDF.
+O GitHub confirmou a existência do arquivo nesse caminho e o SHA do
+blob. A inspeção bibliográfica interna, das páginas e da identidade
+efetiva da edição permanece pendente: não afirmar que a simples
+presença do arquivo certifica título, edição, integridade textual,
+numeração de páginas, intervalos de lemas ou extração de verbetes.
+
+HIERARQUIA DE FONTES PARA EXECUÇÕES FUTURAS:
+1. Consultar o arquivo fontes/fonte-halot.pdf na branch da fonte.
+2. Antes de cada extração, conferir seu blob SHA real; se diferir
+   do SHA registrado no checkpoint, registrar nova versão, examinar
+   as alterações e NÃO presumir equivalência das páginas/verbetes.
+3. A URL externa yausha.com.br da seção 1 passa a ser referência
+   histórica de proveniência, NÃO o arquivo autoritativo da ingestão.
+4. Os outros PDFs KBS, edições expandidas e interfaces externas
+   servem apenas a cotejo atribuído e não substituem o arquivo fixado.
+5. Sempre usar edição, lema e páginas efetivamente lidos no PDF
+   versionado; preservar Fonte / Tradução / Análise / GDHAGP.
+6. Não exigir novo upload do mantenedor por mera ausência de acesso
+   à antiga URL: a fonte já está no GitHub. Caso o conector não
+   exponha os bytes do PDF para extração, registrar o erro técnico
+   concreto; não inventar verbetes e não declarar conteúdo auditado.
+
+Esta decisão NÃO altera checkpoint lexical: 0 verbetes incorporados,
+0 auditados, 0 integrados, ordinal seguinte 1, até publicação real
+verificada. O registro histórico da falha de acesso à URL externa
+fica preservado apenas como HISTÓRICO, e não como bloqueio normativo
+da fonte atual.
+
+======================================================================
 1. IDENTIFICAÇÃO DA FRENTE E REPOSITÓRIO
 ======================================================================
 
