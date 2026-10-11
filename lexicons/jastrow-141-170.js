@@ -120,7 +120,7 @@ const entries=[
     "lemma": "אֲבֵל,",
     "type": "Verbo aramaico",
     "gloss": "enlutar-se; observar luto",
-    "html": "Equivalente aramaico ao verbo hebraico precedente. <strong>Itpael:</strong> <bdi lang='he' dir='rtl'>אִתְאַבֵּל</bdi>, lamentar ou guardar luto (Targum Gênesis 37.34). Ester Rabá relata que judeus se entristeciam quando a imperatriz dava à luz por coincidir com 9 de av. Bava Kamma 59b discute vestir luto por Jerusalém; o verbo também ocorre na forma <bdi lang='he' dir='rtl'>מְאַבֵּילְנָא</bdi>, “eu uso roupas de luto”. Há variantes manuscritas."
+    "html": "Equivalente aramaico ao verbo hebraico precedente. <strong>Variantes do cabeçalho:</strong> <bdi lang='he' dir='rtl'>אֲבֵל</bdi> e <bdi lang='he' dir='rtl'>אֲבֵיל</bdi> (XML original, registro A00156). <strong>Itpael:</strong> <bdi lang='he' dir='rtl'>אִתְאַבֵּל</bdi>, lamentar ou guardar luto (Targum Gênesis 37.34). Ester Rabá relata que judeus se entristeciam quando a imperatriz dava à luz por coincidir com 9 de av. Bava Kamma 59b discute vestir luto por Jerusalém; o verbo também ocorre na forma <bdi lang='he' dir='rtl'>מְאַבֵּילְנָא</bdi>, “eu uso roupas de luto”. Há variantes manuscritas."
   },
   {
     "sid": "A00157",
