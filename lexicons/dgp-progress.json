@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2881,
-    "status": "Lote 76 incorporado nos ordinais 2781–2880; auditoria independente, inspeção em navegador e integração pendentes"
+    "next_ordinal": 2981,
+    "status": "Lote 77 publicado (2881–2980), total de 2980 verbetes; próxima entrada ordinal 2981, ἀνασταυρόω-ῶ. Auditoria independente, navegador e integração pendentes"
   },
   "batches": [
     {
@@ -694,7 +694,16 @@
       "start_entry": "ἀνάματος, ος, ον",
       "end_entry": "ἀναπλήρωσις, εως (ἡ)",
       "entry_count": 100,
-      "status": "incorporado; auditoria independente, testes dinâmicos e integração pendentes"
+      "status": "incorporado; auditoria textual/estrutural independente aprovada (commit 6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069); integrado via PR #86; testes de navegador e popups pendentes"
+    },
+    {
+      "batch": 77,
+      "start_ordinal": 2881,
+      "end_ordinal": 2980,
+      "start_entry": "ἀναπληρωτέον",
+      "end_entry": "ἀναστατόω-ῶ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; colação preliminar 100/100; auditoria independente, navegador e integração pendentes"
     }
   ],
   "editorial_rules": {

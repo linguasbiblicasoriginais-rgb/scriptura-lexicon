@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## Lote DGP 77 — avanço até 3.000 (10/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico nos ordinais **2.881–2.980** (`ἀναπληρωτέον` → `ἀναστατόω-ῶ`) em `lexicons/dgp-batch-077.js`. Cada verbete tem linha de busca indexando a definição completa e cartão com texto integral, com 100/100 pares de IDs e alvos verificados na pré-colação. Manifesto DGP: **2.980 verbetes**, próximo ordinal **2.981** (`ἀνασταυρόω-ῶ`). Esta é a primeira de duas etapas para a meta de **3.000 verbetes**; o segundo commit tem 20 entradas. Auditoria independente do novo lote, testes de navegador e integração permanecem separados. Fonte fixada: `Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`.
+
+**Regularização do lote 76:** auditoria textual/estrutural independente confirmada no commit `6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069`, e integração efetiva pelo [PR #86](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/86). Testes dinâmicos permanecem pendentes.
+
+
 ## Lote DGP 76 — 10/10/2026
 
 Nova incorporação lexical de **100 verbetes canônicos consecutivos**, ordinais **2.781–2.880** (`ἀνάματος, ος, ον` → `ἀναπλήρωσις, εως (ἡ)`) no módulo independente `lexicons/dgp-batch-076.js`. Proveniência: `aniseferreira/Grc-Por-DigDict`, `arquivos_xml/01_Alfa.txt.xml`, commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`; **2.880 verbetes DGP** no checkpoint, próximo **2.881** (`ἀναπληρωτέον`). Cada registro tem linha de pesquisa com definição indexada e cartão com texto integral; a pré-colação estática mostrou **100/100** pares corretos, sem links novos. A auditoria independente do lote 76, testes de navegador, acessibilidade e popups dinâmicos permanecem **pendentes**; a integração deve ocorrer separadamente após auditoria.

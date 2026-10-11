@@ -840,3 +840,13 @@ Pré-colação determinística do novo módulo: 100 lemas e definições normali
 O lote 75 teve auditoria estática independente em chat-gpt-correcoes, commit f28a5f282f2df7f90007c55d196044acee12b145, e foi integrado em chat-gpt-commits no merge 5997adc313184bc086b6a1e036d48d045aac05b5, PR #80. O lote 76 NÃO cria PR nem atualiza chat-gpt-commits/main/correcoes. PR, resolução de conflitos e merge pertencem à rotina independente de integração, após auditoria.
 O registro de publicação é confirmado somente após verificar o HEAD remoto e a árvore do commit. Segurança: update_ref com expected_sha e force=false, sem ramificação temporária nem exclusão de branch. Bloqueios transitórios: até três tentativas seguras com nova leitura do HEAD antes de repetir; nunca anunciar sucesso por preparação de blobs.
 ================================================================================
+
+
+================================================================================
+REGISTRO DGP — INCORPORAÇÃO MODULAR DO LOTE 77 (10/10/2026)
+================================================================================
+Execução específica solicitada pelo mantenedor para atingir exatamente 3.000 verbetes DGP, partindo de 2.880. Primeira etapa independente: 100 verbetes, lote 77, ordinais 2881–2980 (ἀναπληρωτέον a ἀναστατόω-ῶ). Próxima entrada: 2981, ἀνασταυρόω-ῶ.
+Fonte canônica: aniseferreira/Grc-Por-DigDict, arquivos_xml/01_Alfa.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2. Módulo lexicons/dgp-batch-077.js independente, incluído em index.html depois de 076 e antes de dgp-format.js.
+Pré-colação determinística: 100 lemas, 100 definições completas nos cartões, 100 data-search com texto integral, 100 search-row, 100 entry-card, ordinais e data-target compatíveis, sem referências externas novas. Glosa da tabela eventualmente resumida, preservando definição integral. O checkpoint 2980 não é recontagem global independente. Auditoria filológica independente, execução no navegador, popups, acessibilidade e integração ficam em etapas distintas.
+A segunda etapa específica deste pedido será lote 78, ordinais 2981–3000 (20 entradas), em outro commit atômico, não ultrapassando o limite expresso. Preservar branches, README e regras históricas; não criar PR nesta rotina nem tocar main. O lote 76 já foi integrado pelo PR #86 e auditado estaticamente no commit 6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069.
+================================================================================
