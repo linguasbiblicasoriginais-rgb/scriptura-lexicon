@@ -381,7 +381,7 @@
     "nominal_entry_table": "artefato auxiliar opcional; não a tabela obrigatória da resposta",
     "audit_lexical_status_separately": "filologia integral não homologada sem cotejo individual de acepções, variantes e referências",
     "do_not_write_main": true,
-    "next_retroactive_audit_interval": "entry-thayer-0100–0199"
+    "next_retroactive_audit_interval": "entry-thayer-0001–0099"
   },
   "audit_history": [
     {
@@ -439,6 +439,31 @@
       "browser_dom_test": "não executado",
       "source_content_modified": false,
       "next_audit_interval": "entry-thayer-0100–0199"
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "entry-thayer-0100–0199",
+      "first_id": "entry-thayer-0100",
+      "last_id": "entry-thayer-0199",
+      "first_lemma": "Ἀδρίας",
+      "last_lemma": "ἀκριβόω",
+      "head_before_audit": "ca33d393ad6963be1e3fcd17365e1c4940d85616",
+      "report": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0100-0199.md",
+      "inventory": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0100-0199.csv",
+      "reviewed_for_internal_structure": 100,
+      "rows": 100,
+      "cards": 100,
+      "structurally_consistent": 100,
+      "source_lemma_status": {
+        "aux_matches": 94,
+        "source_headword_divergences": 5,
+        "aux_false_negative": 1
+      },
+      "source_pages": "Thayer fac-símile pp. 12–24, inspeção visual dirigida",
+      "philological_translation_homologation": "PENDENTE",
+      "real_browser_dom": "NÃO EXECUTADO",
+      "next_retroactive_interval": "entry-thayer-0001–0099",
+      "lexical_entries_modified": 0
     }
   ],
   "structural_audit_500": {
@@ -519,5 +544,30 @@
     "browser_dom_test": "não executado",
     "source_content_modified": false,
     "next_audit_interval": "entry-thayer-0100–0199"
+  },
+  "textual_structural_audit_0100_0199": {
+    "date": "2026-10-11",
+    "scope": "entry-thayer-0100–0199",
+    "first_id": "entry-thayer-0100",
+    "last_id": "entry-thayer-0199",
+    "first_lemma": "Ἀδρίας",
+    "last_lemma": "ἀκριβόω",
+    "head_before_audit": "ca33d393ad6963be1e3fcd17365e1c4940d85616",
+    "report": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0100-0199.md",
+    "inventory": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0100-0199.csv",
+    "reviewed_for_internal_structure": 100,
+    "rows": 100,
+    "cards": 100,
+    "structurally_consistent": 100,
+    "source_lemma_status": {
+      "aux_matches": 94,
+      "source_headword_divergences": 5,
+      "aux_false_negative": 1
+    },
+    "source_pages": "Thayer fac-símile pp. 12–24, inspeção visual dirigida",
+    "philological_translation_homologation": "PENDENTE",
+    "real_browser_dom": "NÃO EXECUTADO",
+    "next_retroactive_interval": "entry-thayer-0001–0099",
+    "lexical_entries_modified": 0
   }
 }
