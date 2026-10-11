@@ -260,18 +260,32 @@
          * no ordinal 1627, o original traz fut.ἀλείψω sem espaço.
          * A abreviatura já foi identificada por enrichBibliographicTooltips.
          */
-        const oilCard = document.getElementById("entry-dgp-1627");
-        const futureRoot = oilCard && oilCard.querySelector(".entry-text");
-        audit.futureSpacingFixed = false;
-        audit.futureTooltipCreated = false;
-        if (futureRoot && oilCard.dataset.dgpFutureFixed !== "true") {
-            /*
-             * O enriquecedor global recusa a sigla colada a uma letra
-             * grega (proteção de fronteira). Tratar só este caso atestado.
-             */
-            const walker = document.createTreeWalker(
-                futureRoot, NodeFilter.SHOW_TEXT
+        /*
+         * Colações verificadas no XML fixado: cinco encontros exatos
+         * abreviatura+grego sem espaço. O reconhecedor geral evita
+         * envolver abreviaturas diante de uma letra; aqui temos a
+         * testemunha concreta e tratamos somente essas cinco grafias.
+         */
+        const gluedAbbreviations = [
+            { n: 1114, label: "aor.", form: "ἤϊξα", meaning: "aoristo" },
+            { n: 1627, label: "fut.", form: "ἀλείψω", meaning: "futuro (tempo verbal)" },
+            { n: 1683, label: "aor.", form: "ἠλήθευσα", meaning: "aoristo" },
+            { n: 2278, label: "aor.", form: "ἠμύστισα", meaning: "aoristo" },
+            { n: 2289, label: "méd.", form: "ἀμφαφάομαι-ῶμαι", meaning: "voz média" }
+        ];
+        audit.gluedAbbreviationsFixed = [];
+        gluedAbbreviations.forEach(function (item) {
+            const card = document.getElementById(
+                "entry-dgp-" + String(item.n).padStart(4, "0")
             );
+            if (!card || card.dataset.dgpSpacingFixed === "true") {
+                return;
+            }
+            const root = card.querySelector(".entry-section .entry-text");
+            if (!root) {
+                return;
+            }
+            const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
             let node;
             while ((node = walker.nextNode())) {
                 if (!node.parentElement ||
@@ -279,32 +293,33 @@
                     continue;
                 }
                 const value = node.nodeValue || "";
-                const pos = value.indexOf("fut.ἀλείψω");
-                if (pos < 0) {
+                const needle = item.label + item.form;
+                const pos = value.indexOf(needle);
+                if (pos === -1) {
                     continue;
                 }
                 const fragment = document.createDocumentFragment();
-                fragment.appendChild(
-                    document.createTextNode(value.slice(0, pos))
-                );
+                fragment.appendChild(document.createTextNode(value.slice(0, pos)));
                 const popup = document.createElement("span");
                 popup.className = "abbr-help tooltip-trigger";
-                popup.setAttribute("tabindex", "0");
+                popup.tabIndex = 0;
                 popup.dataset.tooltipType = "abbr";
-                popup.dataset.tooltipLabel = "fut.";
-                popup.dataset.tooltipText = "futuro (tempo verbal)";
-                popup.textContent = "fut.";
+                popup.dataset.tooltipLabel = item.label;
+                popup.dataset.tooltipText = item.meaning;
+                popup.textContent = item.label;
                 fragment.appendChild(popup);
                 fragment.appendChild(document.createTextNode(
-                    " ἀλείψω" + value.slice(pos + "fut.ἀλείψω".length)
+                    " " + item.form + value.slice(pos + needle.length)
                 ));
                 node.replaceWith(fragment);
-                audit.futureSpacingFixed = true;
-                audit.futureTooltipCreated = true;
-                oilCard.dataset.dgpFutureFixed = "true";
+                card.dataset.dgpSpacingFixed = "true";
+                audit.gluedAbbreviationsFixed.push(item.n);
                 break;
             }
-        }
+        });
+        audit.futureSpacingFixed =
+            audit.gluedAbbreviationsFixed.includes(1627);
+        audit.futureTooltipCreated = audit.futureSpacingFixed;
 
         /*
          * Proveniência: nos ordinais 2311 e 2483 o XML inicia diretamente

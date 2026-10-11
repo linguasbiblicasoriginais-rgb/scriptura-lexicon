@@ -39,3 +39,9 @@ Foram cadastradas oito siglas autorais de identificação segura na fonte DGP, c
 As entradas #434 (`ἀγώνισμα`) e #543 (`ἀδίδακτος`) receberam notas editoriais destacadas, registrando a duplicação original do número de acepção `3`, sem modificar o testemunho textual.
 
 **Limitação:** contagem estática de siglas não equivale a verificação funcional de todos os popups; os testes de interface permanecem pendentes.
+
+## Varredura global de abreviatura imediatamente seguida de grego
+
+Confrontado o XML primário completo dos ordinais 1–3300 com a expressão Unicode `([Latin]{2,12}\.)(?=Greek)`, encontraram-se **exatamente cinco** casos: #1114 `aor.ἤϊξα`, #1627 `fut.ἀλείψω`, #1683 `aor.ἠλήθευσα`, #2278 `aor.ἠμύστισα` e #2289 `méd.ἀμφαφάομαι-ῶμαι`. A correção de interface foi ampliada aos cinco, usando os textos originais exatos, com tooltip gramatical e separação visual. O XML e os campos de definições publicados não são modificados. O conjunto é fechado e protegido contra repetição, não sendo normalizador universal de abreviaturas.
+
+**Validação necessária:** executar os cinco cartões em navegador, verificar a existência de exatamente um tooltip por caso e a separação visual em tema claro/escuro; a inspeção do código sozinha não comprova funcionamento no DOM.
