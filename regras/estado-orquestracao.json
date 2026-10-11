@@ -15,27 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 3100,
-    "total_rows_static_plus_generated": 3100,
-    "total_cards_static_plus_generated": 3100,
+    "total_from_manifest": 3200,
+    "total_rows_static_plus_generated": 3200,
+    "total_cards_static_plus_generated": 3200,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀνασχέσθαι",
-    "last_lemma": "ἀνδρακάς",
-    "next_lemma": "ἀνδραπόδεσσι",
-    "next_ordinal": 3101,
+    "first_lemma_of_latest_batch": "ἀνδραπόδεσσι",
+    "last_lemma": "ἀνείμων, ων, ον",
+    "next_lemma": "ἀνεῖναι",
+    "next_ordinal": 3201,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 79,
+    "new_batch": 80,
     "batches_in_round": [
-      79
+      80
     ],
-    "independent_audit": "PENDENTE — lote 79; lotes 77/78 auditados estaticamente em aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55",
+    "independent_audit": "PENDENTE — lote 80; lote 79 auditado estaticamente em 8442739006d863110ace4ccb54a5c9245436c649",
     "functional_visual_audit": "PENDENTE",
-    "integration": "PENDENTE — lote 79; verificar destino e integrador separadamente; nenhum PR criado por esta frente",
-    "corpus_structural_audit": "Lote 79, ordinais 3001–3100: 100 linhas e cartões gerados e cotejados com o XML. Checkpoint 3100 = total anterior remoto 3000 + 100; nova recontagem global independente e execução em navegador pendentes",
-    "lexical_commit": "HEAD remoto do lote 79 — verificar depois da publicação, não autorreferenciar SHA do próprio commit"
+    "integration": "PENDENTE — lote 80; integrar somente pela rotina de PR após auditoria",
+    "corpus_structural_audit": "Lote 80 (3101–3200): 100 lemas e definições do XML fixado pré-colacionados, 100 pares search-row/entry-card. Total 3200 = checkpoint anterior 3100 + 100; recontagem global independente e testes de navegador pendentes.",
+    "lexical_commit": "HEAD remoto após publicação do lote 80 — confirmar depois de publicar; não incluir SHA do commit na própria árvore."
   },
   "execution": {
     "state": "derive_from_remote",

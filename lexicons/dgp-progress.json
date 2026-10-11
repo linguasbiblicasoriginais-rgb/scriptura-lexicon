@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 3101,
-    "status": "Lote 79 incorporado, ordinais 3001–3100; total 3100 verbetes DGP. Próximo ordinal 3101: ἀνδραπόδεσσι. Auditoria independente, DOM e integração pendentes"
+    "next_ordinal": 3201,
+    "status": "Lote 80 (ordinais 3101–3200) incorporado; 3200 verbetes DGP no manifesto; próximo ordinal 3201, ἀνεῖναι; auditoria independente, testes DOM e integração pendentes"
   },
   "batches": [
     {
@@ -721,7 +721,16 @@
       "start_entry": "ἀνασχέσθαι",
       "end_entry": "ἀνδρακάς",
       "entry_count": 100,
-      "status": "incorporado; 100/100 linhas, cartões e definições colacionados preliminarmente; auditoria independente, navegador e integração pendentes"
+      "status": "incorporado em 33510d1b473d81de960827313bd6f3d8904805ce; auditoria textual e estrutural estática independente 100/100 publicada em 8442739006d863110ace4ccb54a5c9245436c649; navegador e integração pendentes"
+    },
+    {
+      "batch": 80,
+      "start_ordinal": 3101,
+      "end_ordinal": 3200,
+      "start_entry": "ἀνδραπόδεσσι",
+      "end_entry": "ἀνείμων, ων, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; pré-colação de 100/100 registros, IDs, definições completas e alvos; auditoria independente, navegador e integração pendentes"
     }
   ],
   "editorial_rules": {
