@@ -343,6 +343,34 @@
          * A consulta em script.js usa data-search, portanto a ampliação
          * atende toda pesquisa DGP sem afetar os demais dicionários.
          */
+        /*
+         * Numeração estranha mas autêntica: advertência fora da camada
+         * Fonte. Não renumerar o testemunho do DGP.
+         */
+        audit.sourceNumberingNotes = 0;
+        ["entry-dgp-0434", "entry-dgp-0543"].forEach(function (id) {
+            const card = document.getElementById(id);
+            if (!card || card.dataset.dgpNumberingNoted === "true") {
+                return;
+            }
+            const section = document.createElement("section");
+            section.className = "entry-section dgp-editorial-note";
+            section.dataset.editorialLayer = "GDHAGP";
+            const heading = document.createElement("div");
+            heading.className = "section-title";
+            heading.textContent = "Nota editorial do Scriptura Lexicon";
+            const paragraph = document.createElement("p");
+            paragraph.className = "entry-text";
+            paragraph.textContent =
+                "A numeração de acepções da fonte original repete o número 3. " +
+                "A leitura foi preservada deliberadamente, sem emenda conjectural.";
+            section.appendChild(heading);
+            section.appendChild(paragraph);
+            card.appendChild(section);
+            card.dataset.dgpNumberingNoted = "true";
+            audit.sourceNumberingNotes++;
+        });
+
         audit.searchRowsIndexed = 0;
         audit.searchRowsMissingCard = 0;
         document.querySelectorAll(

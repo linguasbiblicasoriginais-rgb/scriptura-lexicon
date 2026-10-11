@@ -31,3 +31,11 @@
 ## Retificação técnica confirmada
 
 O reconhecedor global rejeita abreviaturas cuja letra seguinte seja grega, para evitar identificação dentro de palavras. Como o XML contém `fut.ἀλείψω` sem separação, a solução foi reforçada no formatador: localizar exatamente essa sequência na entrada #1627, construir um popup `fut.` **antes** de `bindTooltipEvents()` e preservar o restante do nó como texto simples precedido por um espaço. A operação é idempotente (marcador `data-dgp-future-fixed`). O registro no cadastro do DGP continua útil para ocorrências normalmente espaçadas. Ainda não há teste de navegador.
+
+## Cobertura adicional de popups bibliográficos e numeração
+
+Foram cadastradas oito siglas autorais de identificação segura na fonte DGP, conservando seu texto em lugar de expandi-lo: `xen.` (Xenofonte), `her.` (Heródoto), `dem.` (Demóstenes), `pínd.` (Píndaro), `pol.` (Políbio), `luc.` (Luciano de Samósata), `lís.` (Lísias), `ar.` (Aristófanes). A pesquisa textual da fonte mostra ocorrências recorrentes dessas siglas entre os 3.300 registros. As abreviaturas ambíguas (`hom.`, `artt.`, `el.`) permanecem sem interpretação global automática.
+
+As entradas #434 (`ἀγώνισμα`) e #543 (`ἀδίδακτος`) receberam notas editoriais destacadas, registrando a duplicação original do número de acepção `3`, sem modificar o testemunho textual.
+
+**Limitação:** contagem estática de siglas não equivale a verificação funcional de todos os popups; os testes de interface permanecem pendentes.
