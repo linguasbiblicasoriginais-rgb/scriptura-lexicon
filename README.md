@@ -1,3 +1,9 @@
+## Auditoria estrutural integral THAYER — 500 registros (11/10/2026)
+
+Inspeção estática da branch `chat-gpt-thayer` (HEAD inicial `f47504730b4c51904ae364bf1f26a18ec0e3010e`): **499 linhas e 499 cartões dinâmicos**, mais linha/cartão estáticos de Ἀαρών; 499/499 alvos, IDs, lemas e glossas correspondentes; carregamento dos 13 módulos conferido. Os 13 blobs de módulos coincidem com `chat-gpt-commits` (HEAD consultado `1b0fa93b76bf7e45c52a207311b0a13f0f912d2e`), com os módulos referenciados no `index.html` consolidado.
+
+**Falha confirmada THAYER-EST-001:** `entry-thayer-0002`, Ἀβαδδών, em `lexicons/thayer.js`: markup `<bdi>` inserido literalmente dentro do valor de `data-tooltip-label`, produzindo atributo inválido. A estrutura de indexação está coerente, mas o HTML fica **aprovado apenas com ressalva**. Não houve alteração lexical, teste de DOM/browser nem homologação filológica integral. Relatório: [auditoria estrutural THAYER 500](auditorias/thayer-2026-10-11-auditoria-estrutural-integral-500.md). Próximo lema: ἀντιπαρέρχομαι (G492).
+
 # Scriptura Lexicon
 
 ## Auditoria filológica THAYER — 500 registros (11/10/2026)

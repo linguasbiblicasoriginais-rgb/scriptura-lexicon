@@ -394,6 +394,47 @@
       "semantics_fully_homologated": 0,
       "report": "auditorias/thayer-2026-10-11-auditoria-nominal-100-0300-0399.md",
       "inventory": "auditorias/thayer-2026-10-11-auditoria-nominal-100-0300-0399.csv"
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "500 registros THAYER, auditoria estática integral",
+      "rows": 499,
+      "cards": 499,
+      "static_aaron": 1,
+      "confirmed_markup_failures": 1,
+      "source_head": "f47504730b4c51904ae364bf1f26a18ec0e3010e",
+      "report": "auditorias/thayer-2026-10-11-auditoria-estrutural-integral-500.md",
+      "semantics_fully_homologated": 0
     }
-  ]
+  ],
+  "structural_audit_500": {
+    "date": "2026-10-11",
+    "kind": "auditoria estrutural integral, somente estática",
+    "checked_source_head": "f47504730b4c51904ae364bf1f26a18ec0e3010e",
+    "checked_consolidated_head": "1b0fa93b76bf7e45c52a207311b0a13f0f912d2e",
+    "published_entries": 500,
+    "modular_rows": 499,
+    "modular_cards": 499,
+    "static_aaron_rows": 1,
+    "static_aaron_cards": 1,
+    "unique_modular_ids": 499,
+    "missing_numeric_ids": 0,
+    "unresolved_targets": 0,
+    "lemma_discrepancies": 0,
+    "tooltip_lemma_discrepancies": 0,
+    "tooltip_gloss_discrepancies": 0,
+    "search_field_omissions": 0,
+    "four_section_cards": 499,
+    "order_scripts_verified": true,
+    "source_modules_matched_on_consolidated": 13,
+    "external_links_present": 97,
+    "external_links_verified": false,
+    "broken_html_count": 1,
+    "broken_html_entry": "entry-thayer-0002",
+    "broken_html_path": "lexicons/thayer.js",
+    "result": "RESSALVA: estrutura indexável coerente; 1 falha HTML confirmada, navegador não executado",
+    "browser_test": "NÃO EXECUTADO",
+    "full_philological_review": "NÃO HOMOLOGADA",
+    "report": "auditorias/thayer-2026-10-11-auditoria-estrutural-integral-500.md"
+  }
 }
