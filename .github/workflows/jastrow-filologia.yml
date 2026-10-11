@@ -15,3 +15,7 @@ jobs:
           fetch-depth: 0
       - run: git fetch origin chat-gpt-commits
       - run: node tools/jastrow_triagem_filologica.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jastrow-filologia-600
+          path: auditoria/jastrow-filologia-600/
