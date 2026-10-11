@@ -747,3 +747,28 @@ Cada entrada abaixo resume o resultado editorial em português. A **fonte origin
 
 
 **Resultados dos testes estáticos:** [JASTROW-2026-10-11-lote-002-100-testes.json](JASTROW-2026-10-11-lote-002-100-testes.json). A prova limita-se a JS/ID/targets, não a DOM real.
+
+
+## Quadro global de progresso das 14 frentes — retrato de 11/10/2026
+
+Conforme `regras/Rprogresso-global.txt`, registram-se todas as fontes, com distinção entre **quantidade da origem**, **checagens textuais/estruturais**, **filologia única** e **módulos presentes na integração**. Foram consultados os HEADs públicos das branches de origem e da consolidação; onde não se procedeu a recontagem completa de cartões integrados, essa incerteza está explicitada. Não usar esta fotografia como contagem automaticamente atualizada após novos commits.
+
+| Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado |
+|---|---|---|---|---|---:|
+| BDAG | ✓ 1.161 na origem | ◐ revisão integral não reconfirmada | — certificação integral não verificada | ◐ módulo presente; cardinalidade não recontada | 1.161 |
+| DGP | ✓ 3.300 na origem | ✓ 3.300/3.300, homologação estática e testes reportados | ◐ 600/3.300: A 528, C 4, P 68, com ressalvas | ◐ 2.880/3.300, até lote 076 | 3.300 |
+| LEH | ✓ 690 na origem | ◐ não recontada nesta rodada | — não verificada nesta rodada | ◐ módulo presente; cardinalidade não recontada | 690 |
+| PEREIRA | ✓ 510 na origem | ◐ não recontada nesta rodada | — não verificada nesta rodada | ◐ módulo presente; cardinalidade não recontada | 510 |
+| **JASTROW** | **✓ 600** | **✓ 600/600 estática anterior; 140/140 pares revalidados aqui** | **◐ 200/600: A 109, C 91, P 0** | **✓ 600 módulos base carregados; reparos desta auditoria ainda na branch correcoes** | **600** |
+| THAYER | ✓ 512 na origem | ✓ 512/512, testes estáticos (não navegador) | — triagem de 500 lemas, sem homologação semântica | ✓ 512 módulos editoriais carregados | 512 |
+| HALOT | ◐ 100 preliminares | ◐ 100/100 extração preliminar | — | ✓ 100 carregados tecnicamente, não homologados | 100 |
+| ROBINSON | — | — | — | — | 0 |
+| KLEIN | — | — | — | — | 0 |
+| ABBOTT-SMITH | — | — | — | — | 0 |
+| BDB-H | — | — | — | — | 0 |
+| BDB-A | — | — | — | — | 0 |
+| GESENIUS | — | — | — | — | 0 |
+| LSJ | — | — | — | — | 0 |
+| **TOTAL** | **6.873 na origem** | **cobertura heterogênea** | **parcial, não somar triagens com auditoria única** | **no mínimo 4.092 registros com módulos integrados identificados; os demais não recontados** | **6.873** |
+
+**Fontes dessa fotografia:** `chat-gpt-bdag` (`regras/estado-orquestracao.json`, 1.161); `chat-gpt-dgp` (`lexicons/dgp-progress.json`, 3.300); `chat-gpt-leh` (README e sequência até 690); `chat-gpt-pereira` (`lexicons/pereira-progress.json`, 510); `chat-gpt-jastrow` (`lexicons/jastrow-progress.json`, 600); `chat-gpt-thayer` (`lexicons/thayer-progress.json`, 512); `chat-gpt-halot` (`lexicons/halot-progress.json`, 100). Integração: `chat-gpt-commits`, `index.html` com DGP até lote 076, JASTROW até `A00599`, THAYER com suplemento de 12 e HALOT com 100 itens. Essas presenças de scripts não substituem teste de DOM; a coluna de integração não afirma aplicação das correções JASTROW desta branch. O total de origens soma cada fonte uma vez, não os mesmos registros duplicados em PRs.
