@@ -1,5 +1,16 @@
 # Scriptura Lexicon
 
+## JASTROW — sétima rodada: conclusão até o verbete 600 (11/10/2026)
+
+A sétima rodada corresponde a **90 verbetes**, ordinais **511–600**, IDs `A00510`–`A00599`, iniciando em `אֲהָן` e terminando em `*(אוּסְיָא) אוּזְיָא`. A camada editorial em português passa a **600** entradas publicadas em `chat-gpt-jastrow`. A camada Fonte mantém **600 registros XML originais** (`A00000`–`A00599`), extraídos do `Sefaria/Sefaria-Data` no commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, sem confundir transcrição integral de fonte com tradução editorial.
+
+**Módulos da rodada:** [`jastrow-511-535.js`](lexicons/jastrow-511-535.js) (25), [`jastrow-536-560.js`](lexicons/jastrow-536-560.js) (25), [`jastrow-561-570.js`](lexicons/jastrow-561-570.js) (10), [`jastrow-571-580.js`](lexicons/jastrow-571-580.js) (10), [`jastrow-581-590.js`](lexicons/jastrow-581-590.js) (10) e [`jastrow-591-600.js`](lexicons/jastrow-591-600.js) (10), além de [`jastrow-popups-511-600.js`](lexicons/jastrow-popups-511-600.js). Todos os módulos devem ser carregados na ordem de origem pelo `index.html`, antes de `script.js`.
+
+**Checkpoint lexical:** `total_published=600`, `total_integrated=510` até a mesclagem desta rodada, `total_audited=0`. O próximo ordinal é **601**, ID `A00600`, lema antecipado `אוּזִילָא`. **A entrada 601 não foi extraída nem traduzida**; seu lema consta apenas no campo `next_headword` do terceiro lote-fonte. Para continuar depois do verbete 600, será necessário obter o quarto lote XML original.
+
+**Rigor editorial e auditoria:** todos os novos IDs e cabeçalhos são derivados literalmente do XML; preservam-se homógrafos, remissões, variantes e hipóteses diferenciadas. Cada cartão contém uma síntese portuguesa do original, sem reivindicar tradução exaustiva de todas as citações. A auditoria automática [`tools/audit_jastrow_600.js`](tools/audit_jastrow_600.js) confere 600 pares busca/cartão contra os registros-fonte; somente uma execução bem-sucedida do GitHub Actions permite registrar aprovação estática. A revisão filológica independente completa, DOM real, acessibilidade e testes funcionais de pesquisa e popups continuam pendentes.
+
+
 ## JASTROW — sexta rodada: mais 100 verbetes (11/10/2026)
 
 **Publicação lexical confirmada:** foram adicionados 100 verbetes JASTROW, ordinais 411–510, IDs `A00410`–`A00509`, de `אדכי` a `אהמרא`; o próximo verbete original é `A00510` (`אֲהָן`, ordinal 511). A branch exclusiva `chat-gpt-jastrow` disponibiliza agora **510 entradas editoriais em português**, em contraste com os **600 registros originais XML** armazenados. Antes desta rodada, **410** JASTROW estavam realmente integrados em `chat-gpt-commits` graças ao PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/89), mesclado em `c652136c1220cfe780c2697531d7da9a2fddcea2`.
