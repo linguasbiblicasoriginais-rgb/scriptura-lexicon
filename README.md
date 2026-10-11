@@ -1,9 +1,8 @@
 # Scriptura Lexicon
 
-## Tabela canônica de progresso de todos os dicionários (11/10/2026)
+## Tabela global canônica de progresso (11/10/2026)
 
-Por exigência do mantenedor, todo relatório deve conter **Dicionário | Incorporação | Auditoria textual/estrutural | Auditoria filológica | Integração | Total**, para todas as frentes ativas e inativas. Consultar [regras/Rprogresso.txt](regras/Rprogresso.txt); não equiparar primeira passagem documental a homologação das citações gregas.
-
+Obrigatória em todos os relatórios, com as colunas **Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado**. A tabela inclui **14 fontes**, mesmo as ainda não iniciadas, além da linha **TOTAL**: BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS e LSJ. Consultar [regras/Rprogresso-global.txt](regras/Rprogresso-global.txt) e conferir HEAD e evidências atuais, sem confundir triagem documental com homologação filológica.
 
 ## Política vigente de auditoria filológica — **etapa única por verbete** (11/10/2026)
 

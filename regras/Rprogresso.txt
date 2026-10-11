@@ -1,14 +1,5 @@
-PADRÃO CANÔNICO DO QUADRO DE PROGRESSO — SCRIPTURA LEXICON
-Vigência: 11/10/2026. Pedido expresso do mantenedor.
-Em TODO relatório informar exatamente seis colunas e nesta ordem:
-Dicionário | Incorporação | Auditoria textual/estrutural | Auditoria filológica | Integração | Total
-Listar sempre todas as frentes: BDAG, DGP, LEH, PEREIRA, THAYER, JASTROW, HALOT (KBS), LSJ, BDB hebraico, BDB aramaico e KLEIN, além das futuras.
-Usar ✓ confirmado; ◐ parcial; — não realizado/não comprovado.
-Exibir numeradores e denominadores quando atestados e explicitar estágios.
-Total = verbetes incorporados na branch da fonte, não a dimensão presumida da obra.
-Incorporação ≠ auditoria textual/estrutural ≠ auditoria filológica ≠ integração.
-Triagem programática de lemas não constitui homologação filológica.
-Auditoria estática não equivale a testes de DOM/navegador.
-PR aberto não equivale a merge; verificar a presença efetiva na branch de integração.
-Apurar dados do GitHub HEAD real e manifestos; quando não verificado, escrever não verificado, nunca supor zero.
-Proibir omissão de dicionários inativos da tabela.
+ARQUIVO DE COMPATIBILIDADE — 11/10/2026
+O protocolo canônico está em regras/Rprogresso-global.txt.
+Este arquivo Rprogresso.txt não estabelece um padrão separado.
+Aplicar exatamente: Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado.
+Mostrar 14 dicionários, mais a linha TOTAL; verificar dados remotos.
