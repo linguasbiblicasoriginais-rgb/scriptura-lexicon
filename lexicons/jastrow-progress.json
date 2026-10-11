@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 100,
-    "next_ordinal": 511,
-    "next_source_id": "A00510",
-    "next_lemma": "אֲהָן",
+    "next_ordinal": 601,
+    "next_source_id": "A00600",
+    "next_lemma": "אוּזִילָא",
     "source_records_retrieved": 600,
     "first_source_id": "A00000",
     "last_source_id": "A00599",
     "next_source_batch_ordinal": 601,
     "next_source_batch_id": "A00600",
     "next_source_batch_lemma": "אוּזִילָא",
-    "total_published": 510,
+    "total_published": 600,
     "total_audited": 0,
-    "total_integrated": 510,
-    "editorial_status": "510 registros JASTROW integrados tecnicamente via PR #91, ainda sem revisão filológica integral ou teste de navegador; total_audited=0.",
-    "source_status": "600 originais integrais preservados do XML canônico Sefaria-Data em três lotes, dos quais 510 possuem síntese editorial em português."
+    "total_integrated": 600,
+    "editorial_status": "600 JASTROW integrados tecnicamente no PR #92. Revisão filológica integral e navegador pendentes; total_audited=0.",
+    "source_status": "600 originais canônicos preservados em três lotes de 200; próximo ID A00600 ainda NÃO extraído, e seu lema vem do campo de antecipação da extração anterior."
   },
   "batches": [
     {
@@ -162,28 +162,51 @@
         "lexicons/jastrow-486-510.js"
       ],
       "popup_file": "lexicons/jastrow-popups-411-510.js",
-      "status": "100 novos publicados; auditoria estática 100/100 aprovada; revisão filológica independente e navegador pendentes; PR de integração ainda não concluído",
-      "integration_status": "Mesclado tecnicamente pelo PR #91; revisão filológica integral pendente"
+      "status": "100 novos publicados; auditoria estática 100/100 aprovada; revisão filológica independente e navegador pendentes; PR de integração ainda não concluído"
+    },
+    {
+      "batch": 7,
+      "source_start_ordinal": 511,
+      "source_end_ordinal": 600,
+      "source_count": 90,
+      "source_first_id": "A00510",
+      "source_last_id": "A00599",
+      "source_file": "lexicons/jastrow-source-lote-0003.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 511,
+      "translated_end_ordinal": 600,
+      "translated_count": 90,
+      "translated_first_id": "A00510",
+      "translated_last_id": "A00599",
+      "translated_files": [
+        "lexicons/jastrow-511-535.js",
+        "lexicons/jastrow-536-560.js",
+        "lexicons/jastrow-561-570.js",
+        "lexicons/jastrow-571-580.js",
+        "lexicons/jastrow-581-590.js",
+        "lexicons/jastrow-591-600.js"
+      ],
+      "popup_file": "lexicons/jastrow-popups-511-600.js",
+      "status": "90 verbetes e popups publicados na branch lexical; auditoria estrutural cumulativa e integração pendentes.",
+      "integration_status": "Mesclado no PR #92, revisão filológica pendente"
     }
   ],
   "last_attempt": {
     "date": "2026-10-11",
-    "prior_published": 410,
-    "new_translations_committed": 100,
-    "total_published": 510,
-    "new_range": "A00410–A00509",
-    "next_ordinal": 511,
-    "next_source_id": "A00510",
-    "next_lemma": "אֲהָן",
+    "requested": "Até o verbete 600",
+    "new_translations_committed": 90,
+    "prior_published": 510,
+    "total_published": 600,
+    "new_range": "A00510–A00599",
+    "next_ordinal": 601,
+    "next_source_id": "A00600",
+    "next_lemma": "אוּזִילָא",
     "source_records_retrieved_total": 600,
     "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
-    "original_file": "lexicons/jastrow-source-lote-0003.json",
-    "structural_audit": "PASS: 100 newly generated search rows, 100 entry cards, source XML IDs and headwords matched, unique target IDs, JS modules evaluate, correct index script order",
-    "prior_integrated_verified_on_branch": "chat-gpt-commits contains 410 JASTROW via merged PR #89",
-    "total_integrated": 410,
-    "filological_audit": "PENDING, editorials are source-based synopses, not verbatim complete transcription",
-    "browser_tests": "NOT PERFORMED",
-    "main_modified": false
+    "scope_limit": "O registro A00600 não foi extraído nem traduzido.",
+    "integrated_before_round": 510,
+    "philological_review": "pending",
+    "browser_tests": "not run"
   },
   "constraints": {
     "never_invent": true,
@@ -203,13 +226,21 @@
       "total_audited": 0,
       "filological_audit": "pending",
       "browser_audit": "pending"
+    },
+    {
+      "pr": 91,
+      "head_sha": "ad1f18fe09436d9810e03328367d96d8e4bcccfe",
+      "base_before": "9dab297e45e94bb5f6466f046c346a47407872af",
+      "total_integrated": 510,
+      "philological_audit": "pending",
+      "browser_audit": "pending"
     }
   ],
   "last_integration": {
-    "pr": 91,
-    "head_sha": "ad1f18fe09436d9810e03328367d96d8e4bcccfe",
-    "base_before": "9dab297e45e94bb5f6466f046c346a47407872af",
-    "total_integrated": 510,
+    "pr": 92,
+    "head_sha": "e042fe9dc51389f86391532cfbb43b504719c974",
+    "base_before": "2403ac96138cf9714a6e38825e7767c7e00e9581",
+    "total_integrated": 600,
     "philological_audit": "pending",
     "browser_audit": "pending"
   }

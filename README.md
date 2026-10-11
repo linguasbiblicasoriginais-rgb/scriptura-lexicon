@@ -1,5 +1,24 @@
 # Scriptura Lexicon
 
+## PR #92 — JASTROW concluído até 600 verbetes (11/10/2026)
+
+O [PR #92](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/92) incorpora os 90 registros JASTROW `A00510`–`A00599`, de ordinal 511 a 600, e preserva as incorporações anteriores de BDAG, LEH, DGP (lote 076), PEREIRA e THAYER (lotes 002–004). São **600 verbetes JASTROW integrados**, com originais XML `A00000`–`A00599` intactos. Próximo registro `A00600`, `אוּזִילָא`, não extraído e não traduzido.
+
+A [auditoria cumulativa Actions #38117209491](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38117209491) aprovou 600 linhas, 600 cartões, 600 IDs/alvos únicos, 176 popups e 33 módulos. Os lemas antigos `A00006` e `A00007` possuem diferenças gráficas registradas; os 90 novos coincidem com o original. **Revisão filológica independente integral, tradução de todas as notas, testes reais em navegador e acessibilidade continuam pendentes**, portanto `total_audited=0`. Este é um merge Git de dois pais, com preservação das branches e de `main`.
+
+## JASTROW — sétima rodada: conclusão até o verbete 600 (11/10/2026)
+
+A sétima rodada corresponde a **90 verbetes**, ordinais **511–600**, IDs `A00510`–`A00599`, iniciando em `אֲהָן` e terminando em `*(אוּסְיָא) אוּזְיָא`. A camada editorial em português passa a **600** entradas publicadas em `chat-gpt-jastrow`. A camada Fonte mantém **600 registros XML originais** (`A00000`–`A00599`), extraídos do `Sefaria/Sefaria-Data` no commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, sem confundir transcrição integral de fonte com tradução editorial.
+
+**Módulos da rodada:** [`jastrow-511-535.js`](lexicons/jastrow-511-535.js) (25), [`jastrow-536-560.js`](lexicons/jastrow-536-560.js) (25), [`jastrow-561-570.js`](lexicons/jastrow-561-570.js) (10), [`jastrow-571-580.js`](lexicons/jastrow-571-580.js) (10), [`jastrow-581-590.js`](lexicons/jastrow-581-590.js) (10) e [`jastrow-591-600.js`](lexicons/jastrow-591-600.js) (10), além de [`jastrow-popups-511-600.js`](lexicons/jastrow-popups-511-600.js). Todos os módulos devem ser carregados na ordem de origem pelo `index.html`, antes de `script.js`.
+
+**Checkpoint lexical:** `total_published=600`, `total_integrated=510` até a mesclagem desta rodada, `total_audited=0`. O próximo ordinal é **601**, ID `A00600`, lema antecipado `אוּזִילָא`. **A entrada 601 não foi extraída nem traduzida**; seu lema consta apenas no campo `next_headword` do terceiro lote-fonte. Para continuar depois do verbete 600, será necessário obter o quarto lote XML original.
+
+**Auditoria cumulativa concluída:** o [GitHub Actions 38117209491](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38117209491) terminou com sucesso: **600 linhas e 600 cartões, 600 IDs correspondentes, 176 popups únicos e 33 módulos**. Duas grafias legadas diferem do cabeçalho do XML (`A00006`, `A00007`); os 90 novos correspondem literalmente. O relatório fica em `auditoria/JASTROW-2026-10-11-lote-007.md`, branch `chat-gpt-correcoes`. `total_audited=0` permanece porque auditoria estrutural não constitui certificação filológica integral.
+
+**Rigor editorial e auditoria:** todos os novos IDs e cabeçalhos são derivados literalmente do XML; preservam-se homógrafos, remissões, variantes e hipóteses diferenciadas. Cada cartão contém uma síntese portuguesa do original, sem reivindicar tradução exaustiva de todas as citações. A auditoria automática [`tools/audit_jastrow_600.js`](tools/audit_jastrow_600.js) confere 600 pares busca/cartão contra os registros-fonte; somente uma execução bem-sucedida do GitHub Actions permite registrar aprovação estática. A revisão filológica independente completa, DOM real, acessibilidade e testes funcionais de pesquisa e popups continuam pendentes.
+
+
 ## PR #91 — JASTROW 510 verbetes integrados (11/10/2026)
 
 O [PR #91](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/91) integra 100 novos verbetes (`A00410`–`A00509`) de JASTROW, perfazendo **510 entradas e cartões**, mantendo todos os módulos anteriores de BDAG, LEH, DGP (inclusive lote 076), PEREIRA, THAYER (inclusive PR #90), seus relatórios e checkpoints. A fonte original XML totaliza 600 registros preservados. Próximo JASTROW `A00510` (`אֲהָן`).
