@@ -1,5 +1,18 @@
 # Scriptura Lexicon
 
+## JASTROW — quarta rodada: 100 verbetes (11/10/2026)
+
+**Situação na branch `chat-gpt-jastrow`: 310 entradas JASTROW com linha de pesquisa e cartão correspondente; 100 novos registros, `A00210`–`A00309` (ordinais 211–310).** Primeiro lema: `אַבְרוּיֵי`; último: `אַגָּם`. Próximo: `A00310` (`אַגַּמָּא`, ordinal 311). Os 210 primeiros estão efetivamente presentes em `chat-gpt-commits` (confirmado pela leitura do HTML e da ancestralidade remota), embora o checkpoint dessa branch ainda não refletisse essa integração anterior. **Os 100 da quarta rodada ainda não foram mesclados.**
+
+**Fonte canônica:** segundo lote XML [`lexicons/jastrow-source-lote-0002.json`](lexicons/jastrow-source-lote-0002.json), extração dos ordinais 201–400 (`A00200`–`A00399`) do repositório `Sefaria/Sefaria-Data`, commit imutável `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. O total disponível permanece **400 registros-fonte**, distinto dos 310 traduzidos editorialmente.
+
+**Arquivos publicados nesta rodada:** [`lexicons/jastrow-211-235.js`](lexicons/jastrow-211-235.js), [`lexicons/jastrow-236-260.js`](lexicons/jastrow-236-260.js), [`lexicons/jastrow-261-285.js`](lexicons/jastrow-261-285.js) e [`lexicons/jastrow-286-310.js`](lexicons/jastrow-286-310.js), 25 entradas por arquivo. [`lexicons/jastrow-popups-211-310.js`](lexicons/jastrow-popups-211-310.js) adiciona explicações contextuais com proteção contra chaves duplicadas; todos os módulos estão ligados em `index.html` antes de `script.js`.
+
+**Auditoria estrutural executada:** 310 `search-row`, 310 `entry-card`, 310 identificadores consecutivos correspondentes aos registros originais `A00000`–`A00309`, todos os 310 `data-target` válidos e únicos, 16 arquivos JS JASTROW carregados na ordem, 115 entradas explicativas únicas para popups. Os testes executaram o JavaScript dos módulos em ambiente V8 simulando `window.ScripturaLexicons`, **não** um navegador com DOM completo.
+
+**Pendências editoriais impeditivas para aprovar o lote:** as traduções portuguesas incluem sínteses lexicográficas, não tradução exaustiva de todos os exemplos, variantes e notas da fonte. Necessária auditoria filológica independente linha a linha, auditoria completa de popup/abreviaturas e teste de interação em navegador (pesquisa, filtros, RTL/LTR, teclado, acessibilidade). Por isso, `total_audited=0`; os novos 100 permanecem somente na branch lexical até integração devidamente verificada. Nunca alterar `main`.
+
+
 ## JASTROW — terceira rodada: 100 novos verbetes (10/10/2026)
 
 **Publicação atual na branch `chat-gpt-jastrow`: 210 cartões e 210 linhas pesquisáveis**, com 100 registros novos (`A00110`–`A00209`, ordinais 111–210), além dos 110 anteriores. **Próximo verbete:** `A00210` (`אַבְרוּיֵי`; ordinal 211). **Integração efetiva já comprovada:** 110 registros anteriores pelo PR [#82](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/82) (*merged*); os 100 novos ainda não foram integrados.
