@@ -6,10 +6,10 @@
   "integrated_head_examined": "e3763a9a97e54446817bc920d6f454f84b353d58",
   "reviewed_range": {
     "start_id": "A00000",
-    "end_id": "A00399",
+    "end_id": "A00499",
     "start_ordinal": 1,
-    "end_ordinal": 400,
-    "count": 400
+    "end_ordinal": 500,
+    "count": 500
   },
   "review_type": "independent_individual_philological_comparison_not_exhaustive_certification",
   "categories": {
@@ -19,14 +19,14 @@
     "V": "Verificação adicional requerida"
   },
   "counts": {
-    "S": 321,
-    "O": 63,
+    "S": 402,
+    "O": 80,
     "E": 9,
-    "V": 7
+    "V": 9
   },
   "fully_certified": 0,
-  "next_ordinal": 401,
-  "next_id": "A00400",
+  "next_ordinal": 501,
+  "next_id": "A00500",
   "previously_manually_reviewed_outside_range": [
     "A00156",
     "A00238",
@@ -8158,21 +8158,1898 @@
       "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
       "editorial_correction_applied": false,
       "full_philological_certification": false
+    },
+    {
+      "ordinal": 401,
+      "id": "A00400",
+      "source_headword": "אֲדִימָּא",
+      "source_headwords": [
+        "אֲדִימָּא"
+      ],
+      "source_definition_excerpts": [
+        "(= h. אָדֹום) red, full of sap, fresh ."
+      ],
+      "source_xml_sha256": "9a275eb9977454615702236f5e6d238c5278e5654ce086e046a30533ecf5e3c6",
+      "editorial_headword": "אֲדִימָּא",
+      "editorial_gloss": "vermelho; cheio de seiva; fresco",
+      "assessment": "S",
+      "philological_analysis": "Adjetivo aramaico: valor cromático 'vermelho' distinto da extensão de frescor e seiva.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 402,
+      "id": "A00401",
+      "source_headword": "אֱדַיִן",
+      "source_headwords": [
+        "אֱדַיִן"
+      ],
+      "source_definition_excerpts": [
+        "(= h. אֲזַי, אָז; √ד־ = h. ז־) at that time, thereupon."
+      ],
+      "source_xml_sha256": "2e0208baf52d912d711c7dc730c8777f14622021220034107617f5843434b160",
+      "editorial_headword": "אֱדַיִן",
+      "editorial_gloss": "então; naquele tempo; por conseguinte",
+      "assessment": "S",
+      "philological_analysis": "Advérbio bíblico de sequência temporal; conservar as locuções בֵּאדַ׳ e מן א׳ com seus efeitos temporais.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 403,
+      "id": "A00402",
+      "source_headword": "אֲדִינַיָּא",
+      "source_headwords": [
+        "אֲדִינַיָּא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "4a2f071aae31d9ad383967ba62f908770e34e5cb052a5820864c4938f0f9e831",
+      "editorial_headword": "אֲדִינַיָּא",
+      "editorial_gloss": "ver אוּדְנָא III",
+      "assessment": "S",
+      "philological_analysis": "Remissão aramaica ao terceiro homógrafo אוּדְנָא, sem criar acepção própria.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 404,
+      "id": "A00403",
+      "source_headword": "אֲדִיצוּתָא",
+      "source_headwords": [
+        "אֲדִיצוּתָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "8c4008c625656f922acc57b23d6371e22d59787e218b8b93f501359a9dfd556e",
+      "editorial_headword": "אֲדִיצוּתָא",
+      "editorial_gloss": "ver אֹודִיצוּתָא",
+      "assessment": "S",
+      "philological_analysis": "Forma remissiva a אֹודִיצוּתָא; a fonte não fornece definição nesta linha.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 405,
+      "id": "A00404",
+      "source_headword": "אֲדִיק,",
+      "source_headwords": [
+        "אֲדִיק,",
+        "אֹודִיק"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "9bb243609d0303e8c8078687822db17b8a9f13fbf473f3c8b11589dde9eb362b",
+      "editorial_headword": "אֲדִיק,",
+      "editorial_gloss": "ver דִּיק",
+      "assessment": "S",
+      "philological_analysis": "Duas formas אֲדִיק / אֹודִיק remetidas a דִּיק; não reduzir uma a erro da outra.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 406,
+      "id": "A00405",
+      "source_headword": "אַדִּיר",
+      "source_headwords": [
+        "אַדִּיר"
+      ],
+      "source_definition_excerpts": [
+        "; distinguished, glorious, mighty ."
+      ],
+      "source_xml_sha256": "980711ba227a32a7552e9f8b863f8c8845898b993e4586a2d0e71b55260d4723",
+      "editorial_headword": "אַדִּיר",
+      "editorial_gloss": "poderoso; magnífico; glorioso",
+      "assessment": "S",
+      "philological_analysis": "Adjetivo hebraico de distinção, glória e poder; plural אַדִּירִים.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 407,
+      "id": "A00406",
+      "source_headword": "אַדִּיר,",
+      "source_headwords": [
+        "אַדִּיר,",
+        "אַדִּירָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "530a33c2d6438b39e909e2ca805193c4b8ff993756ba506c25abedcf995eb57a",
+      "editorial_headword": "אַדִּיר,",
+      "editorial_gloss": "poderoso; magnífico; glorioso",
+      "assessment": "S",
+      "philological_analysis": "Equivalente aramaico do adjetivo hebraico, mantendo אַדִּיר e אַדִּירָא.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 408,
+      "id": "A00407",
+      "source_headword": "*אֲדֵירָא",
+      "source_headwords": [
+        "*אֲדֵירָא"
+      ],
+      "source_definition_excerpts": [
+        "= דֵּיר, rim, border ."
+      ],
+      "source_xml_sha256": "8f879d92bd502454d2a3973f94a4e6c9b758f9cc6b12cba5cfe4a213031138ee",
+      "editorial_headword": "*אֲדֵירָא",
+      "editorial_gloss": "borda; rebordo; aro",
+      "assessment": "V",
+      "philological_analysis": "No manuscrito digital, a expressão inglesa 'heated store' contrasta com o hebraico דתנורא; a renderização 'forno' requer cotejo textual e não será emendada por conjectura.",
+      "finding": "O XML inglês traz 'rim of a heated store', junto da forma hebraica דתנורא; o cartão especifica forno. Possível problema de transcrição inglesa; não há emenda segura sem a impressão.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 409,
+      "id": "A00408",
+      "source_headword": "אָדֵישׁ",
+      "source_headwords": [
+        "אָדֵישׁ"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "13bce7292eaa6e81adaa5f02843591703f8f0b55a3218dfda8658a07a38209ae",
+      "editorial_headword": "אָדֵישׁ",
+      "editorial_gloss": "ver דּוּשׁ (aramaico)",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao verbo aramaico דּוּשׁ, sem confundi-lo com a entrada independente de cor vermelha.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 410,
+      "id": "A00409",
+      "source_headword": "אד\"ך",
+      "source_headwords": [
+        "אד\"ך"
+      ],
+      "source_definition_excerpts": [
+        "Adakh , substitute of תקל (Dan. V, 25) by permutation of letters called א\"תב\"ש q. v. Snh. 22 a ."
+      ],
+      "source_xml_sha256": "1ea8ae19591890cc1cb8952da3a5c5d1759f83050ed5414c35dd781422cdadf9",
+      "editorial_headword": "אד\"ך",
+      "editorial_gloss": "Adakh; permutação de letras",
+      "assessment": "S",
+      "philological_analysis": "Permutação א״תב״ש sobre תקל em Daniel 5.25; trata-se de tradição exegética, não antropônimo comprovado.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 411,
+      "id": "A00410",
+      "source_headword": "אדכי",
+      "source_headwords": [
+        "אדכי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "93767da0c56113b5d753be4780ae857e32e296abb1f502f13353dd843d56c0c2",
+      "editorial_headword": "אדכי",
+      "editorial_gloss": "ver אוּרְבָּא",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אוּרְבָּא; não se fornece contexto semântico autônomo.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 412,
+      "id": "A00411",
+      "source_headword": "אַדְכָּרָה,",
+      "source_headwords": [
+        "אַדְכָּרָה,",
+        "אַדְכַּרְתָּא"
+      ],
+      "source_definition_excerpts": [
+        "(דְּכַר)",
+        "mention , esp. invocation of the Lord, Divine Name .",
+        "(= b. h. אַזְכָּרָח) memorial offering ."
+      ],
+      "source_xml_sha256": "37c345571daa421374375c51fe7789f60a8f289ad8bd926dafb656c967bb4ce0",
+      "editorial_headword": "אַדְכָּרָה,",
+      "editorial_gloss": "menção; invocação do Nome divino; oferta memorial",
+      "assessment": "V",
+      "philological_analysis": "Separar invocação do Nome divino e oferta memorial; forma bíblica apresentada no XML com desinência suspeita אַזְכָּרָח, sem normalização silenciosa.",
+      "finding": "Em memorial offering, o XML grafa אַזְכָּרָח, enquanto a tradução usa אַזְכָּרָה. A diferença pode ser corrupção tipográfica ou leitura editorial: consultar a impressão antes de normalizar a Fonte.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 413,
+      "id": "A00412",
+      "source_headword": "אִדְכָּרוּ,",
+      "source_headwords": [
+        "אִדְכָּרוּ,",
+        "אִדְכָּרוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "(v. foreg.) remembrance, mention ."
+      ],
+      "source_xml_sha256": "0ed230142d12b8a5a42c4e1dfd90f8e3b2bf50889b94b71d98276233e1b3534d",
+      "editorial_headword": "אִדְכָּרוּ,",
+      "editorial_gloss": "lembrança; menção",
+      "assessment": "O",
+      "philological_analysis": "Substantivos aramaicos de lembrança/menção; distinguir grafia manuscrita abreviada de edição impressa.",
+      "finding": "Distinção entre abreviaturas manuscritas …רוּ e edição …רוּת havia sido resumida; restituída sua atribuição.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 414,
+      "id": "A00413",
+      "source_headword": "אַדְכַּרְתָּא",
+      "source_headwords": [
+        "אַדְכַּרְתָּא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "d88d6f1f27d53e9c26fbb01eddec83ebcc20c6c715527b1b919dbd80d4850ac8",
+      "editorial_headword": "אַדְכַּרְתָּא",
+      "editorial_gloss": "ver אַדְכָּרָה",
+      "assessment": "S",
+      "philological_analysis": "Remissão lexical a אַדְכָּרָה, que contém duas acepções distintas.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 415,
+      "id": "A00414",
+      "source_headword": "אֲדָל,",
+      "source_headwords": [
+        "אֲדָל,",
+        "אֲדִיל,",
+        "עֲדָל"
+      ],
+      "source_definition_excerpts": [
+        "(√אד, עד dial. = חד, גד; cmp. גַּד I, גִּידָּא II, חַרְדָּל) garden-cress, summer-savory ."
+      ],
+      "source_xml_sha256": "ce2042d12374248495352bbaa9928420fc21c3ca8dc123a35a4ea952c97b5cc2",
+      "editorial_headword": "אֲדָל,",
+      "editorial_gloss": "agrião de jardim; segurelha de verão",
+      "assessment": "O",
+      "philological_analysis": "Botânica tradicional: agrião-de-jardim e segurelha são identificações alternativas do Jastrow, não taxonomia moderna certificada.",
+      "finding": "A fonte traz duas equivalências botânicas possíveis e leituras dialectais; a versão apenas resume os testemunhos de Jerusalém Sheviit.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 416,
+      "id": "A00415",
+      "source_headword": "אַדְלָקָה",
+      "source_headwords": [
+        "אַדְלָקָה"
+      ],
+      "source_definition_excerpts": [
+        "(= הַדְלָקָה) lighting."
+      ],
+      "source_xml_sha256": "2da8137629189aae5521dade98f7025063541470c29ad3878c954745c021933b",
+      "editorial_headword": "אַדְלָקָה",
+      "editorial_gloss": "acendimento; iluminação",
+      "assessment": "S",
+      "philological_analysis": "Nome de ação de acender; plural atestado para plantas usadas com finalidade luminosa.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 417,
+      "id": "A00416",
+      "source_headword": "אֲדַם",
+      "source_headwords": [
+        "אֲדַם"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "281a1399c9c0e8006034e8101e75b97665fa4559d95181e714c46fc3b271721d",
+      "editorial_headword": "אֲדַם",
+      "editorial_gloss": "ver הֲדַם",
+      "assessment": "S",
+      "philological_analysis": "Remissão a הֲדַם, com referência crítica a Avodah Zarah e Beitzá.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 418,
+      "id": "A00417",
+      "source_headword": "אָדַם",
+      "source_headwords": [
+        "אָדַם"
+      ],
+      "source_definition_excerpts": [
+        ", v. דמם ) [ to be viscous, thick, dark ] to be red, grow red .",
+        "to redden, make red .",
+        "(b. h.) (b. h.) to be, grow red .",
+        "to cause to blush, put to shame (usu. הלבין)."
+      ],
+      "source_xml_sha256": "54fdbada44adc8349f2903aa25f7a305b157b886a456dc545fc48aa36ba78d77",
+      "editorial_headword": "אָדַם",
+      "editorial_gloss": "avermelhar; tornar vermelho; envergonhar",
+      "assessment": "S",
+      "philological_analysis": "Verbo אָדַם distingue avermelhar, corar de vergonha, particípio para Marte e particípio passivo de cor.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 419,
+      "id": "A00418",
+      "source_headword": "אָדָם",
+      "source_headwords": [
+        "אָדָם"
+      ],
+      "source_definition_excerpts": [
+        "m. (b. h.) man , pr. n. m. Adam , frequ."
+      ],
+      "source_xml_sha256": "3608dcdf0a69a3160507af46780658947eaaa7ae4eff21476d4dc4155814975f",
+      "editorial_headword": "אָדָם",
+      "editorial_gloss": "homem; Adão",
+      "assessment": "S",
+      "philological_analysis": "Separar o nome próprio Adão do substantivo 'homem' e da figura alegórica do livro das gerações.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 420,
+      "id": "A00419",
+      "source_headword": "אֲדָם,",
+      "source_headwords": [
+        "אֲדָם,",
+        "אַדְמָא,",
+        "אִדְמָא"
+      ],
+      "source_definition_excerpts": [
+        "(= דָּם, דְּמָא) blood ."
+      ],
+      "source_xml_sha256": "0535ff05464247c4e7f688d8c3833be0cfb6d0e8324170da8474d79519eeb0ac",
+      "editorial_headword": "אֲדָם,",
+      "editorial_gloss": "sangue",
+      "assessment": "S",
+      "philological_analysis": "Três formas aramaicas para sangue e plural אַדְמִין, sem relação com o nome próprio Adão.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 421,
+      "id": "A00420",
+      "source_headword": "אֲדַמְדָּם",
+      "source_headwords": [
+        "אֲדַמְדָּם"
+      ],
+      "source_definition_excerpts": [
+        "(b. h.) reddish ."
+      ],
+      "source_xml_sha256": "e4912d01551acde07d58efcfc059b5cc129a8ac2c254eb0da38fd059e0d4f624",
+      "editorial_headword": "אֲדַמְדָּם",
+      "editorial_gloss": "avermelhado; ruivo",
+      "assessment": "S",
+      "philological_analysis": "Adjetivo cromático de intensidade avermelhada, inclusive contexto médico-ritual de Shevuot.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 422,
+      "id": "A00421",
+      "source_headword": "אֲדַמְדְּמָנֵי",
+      "source_headwords": [
+        "אֲדַמְדְּמָנֵי"
+      ],
+      "source_definition_excerpts": [
+        "(דמם) lumps of dripping grapes ."
+      ],
+      "source_xml_sha256": "353a74c16bcda2a90a882a0a35473be62a115bbe4f6bc2167b2e1251dcb5977a",
+      "editorial_headword": "אֲדַמְדְּמָנֵי",
+      "editorial_gloss": "cachos ou massas de uvas gotejantes",
+      "assessment": "S",
+      "philological_analysis": "Nome plural de massas de uvas com sumo escorrendo, não simples nome genérico de uvas.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 423,
+      "id": "A00422",
+      "source_headword": "אֲדָמָה",
+      "source_headwords": [
+        "אֲדָמָה"
+      ],
+      "source_definition_excerpts": [
+        ", cmp. foreg.; thick and moist ) [earth], clay ."
+      ],
+      "source_xml_sha256": "17d78fecf936440364cb913a5e997f92bc28a00ad44cae7932de23ea31b6f428",
+      "editorial_headword": "אֲדָמָה",
+      "editorial_gloss": "terra; barro; argila",
+      "assessment": "S",
+      "philological_analysis": "Solo/argila e gênero feminino da comparação rabínica com עפר, gramaticalmente masculino.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 424,
+      "id": "A00423",
+      "source_headword": "אַדְמוּמִית",
+      "source_headwords": [
+        "אַדְמוּמִית"
+      ],
+      "source_definition_excerpts": [
+        "(אדם) redness ."
+      ],
+      "source_xml_sha256": "57e25bc9754cc7306ea9c4d283c28d4ac37594caf83d5614b4d6ebf112f9626b",
+      "editorial_headword": "אַדְמוּמִית",
+      "editorial_gloss": "vermelhidão; coloração avermelhada",
+      "assessment": "S",
+      "philological_analysis": "Nome feminino de vermelhidão; mראה אדמומית qualifica aparência.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 425,
+      "id": "A00424",
+      "source_headword": "אַדְמֹון",
+      "source_headwords": [
+        "אַדְמֹון"
+      ],
+      "source_definition_excerpts": [
+        "Admon , one of the justices of the peace in Jerusalem."
+      ],
+      "source_xml_sha256": "6687f770c80f332004b369ce6e39f5c443a69647ecec1fbb6af6b8dc9cd761d0",
+      "editorial_headword": "אַדְמֹון",
+      "editorial_gloss": "Admon; juiz de Jerusalém",
+      "assessment": "S",
+      "philological_analysis": "Nome pessoal do juiz Admon ben Gaddai, distinto do adjetivo de cor anterior.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 426,
+      "id": "A00425",
+      "source_headword": "אַדְמֹונִי",
+      "source_headwords": [
+        "אַדְמֹונִי"
+      ],
+      "source_definition_excerpts": [
+        "ruddy, gold-colored , esp. with refer."
+      ],
+      "source_xml_sha256": "4ae8a7181eb8c064876fa7ccce2c3c9572a796ba1521a4516f49e26c03866f96",
+      "editorial_headword": "אַדְמֹונִי",
+      "editorial_gloss": "ruivo; dourado; de tez avermelhada",
+      "assessment": "S",
+      "philological_analysis": "Qualificação ruiva ou dourada especialmente para cabelo, não metal dourado.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 427,
+      "id": "A00426",
+      "source_headword": "אֲדָמִי",
+      "source_headwords": [
+        "אֲדָמִי"
+      ],
+      "source_definition_excerpts": [
+        "Adami (Josh. XIX, 33)."
+      ],
+      "source_xml_sha256": "653664c090ef705022aa183b126bd64c695a09c12a0bba4f8fafefffadba5368",
+      "editorial_headword": "אֲדָמִי",
+      "editorial_gloss": "Adami; localidade bíblica",
+      "assessment": "S",
+      "philological_analysis": "Topônimo Adami, associado em Jerusalém Meguilá ao nome Damin.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 428,
+      "id": "A00427",
+      "source_headword": "אֲדַמְתָּא,",
+      "source_headwords": [
+        "אֲדַמְתָּא,",
+        "אַדְמְתָא"
+      ],
+      "source_definition_excerpts": [
+        "(= h. אֲדָמָה) earth ."
+      ],
+      "source_xml_sha256": "12638054e00c287ce6b04ea0cc61d6dfeff411f87e197751661eeb4c22f758a4",
+      "editorial_headword": "אֲדַמְתָּא,",
+      "editorial_gloss": "terra; solo",
+      "assessment": "S",
+      "philological_analysis": "Duas grafias aramaicas do substantivo terra, sem o registro mais específico de barro da entrada hebraica.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 429,
+      "id": "A00428",
+      "source_headword": "אֶדֶן",
+      "source_headwords": [
+        "אֶדֶן"
+      ],
+      "source_definition_excerpts": [
+        "v. אוּדְנָא III ; √דן, ד־) base, pedestal."
+      ],
+      "source_xml_sha256": "a3626a4c440c711667a19c9b92b0f6c99e5715af725b34e28c3e5895e067a4ed",
+      "editorial_headword": "אֶדֶן",
+      "editorial_gloss": "base; pedestal; suporte",
+      "assessment": "S",
+      "philological_analysis": "Base estrutural ou pedestal do Tabernáculo, plural אֲדָנִים.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 430,
+      "id": "A00429",
+      "source_headword": "אֻדַן,",
+      "source_headwords": [
+        "אֻדַן,",
+        "אֻדְנָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "edd24adc640263755e3983434c2b56a18633314a84d394b5ccc22cb803c1f45b",
+      "editorial_headword": "אֻדַן,",
+      "editorial_gloss": "ver אוּדְנָא",
+      "assessment": "O",
+      "philological_analysis": "O alvo abreviado 'אוּ׳' é insuficiente nesta linha para confirmar uma expansão exata; revisão remissiva pendente.",
+      "finding": "A remissão original 'v. אוּ׳' é truncada; o cartão expande para אוּדְנָא sem justificá-la neste testemunho. Mantida a questão para revisão do destino lexical.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 431,
+      "id": "A00430",
+      "source_headword": "אִדְנָא",
+      "source_headwords": [
+        "אִדְנָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "40e633adf8fc348f04f0a4bdb60eb2e71360c0ad652b5f788dddea1e4a424b0b",
+      "editorial_headword": "אִדְנָא",
+      "editorial_gloss": "ver אִי׳",
+      "assessment": "S",
+      "philological_analysis": "Outra remissão abreviada אִי׳, sem extensão permitida pelo texto presente.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 432,
+      "id": "A00431",
+      "source_headword": "*אֲדַנְדְּקֵי",
+      "source_headwords": [
+        "*אֲדַנְדְּקֵי"
+      ],
+      "source_definition_excerpts": [
+        "(a Babyl. corrupt. of ἐθνάρχοι, v. אדנקא P. Sm. 40) chiefs of tribes ."
+      ],
+      "source_xml_sha256": "52678bb28af7f0c12fd3b7b95583c06cfc049bdd963c6814dd4fe1a4386dd09c",
+      "editorial_headword": "*אֲדַנְדְּקֵי",
+      "editorial_gloss": "chefes tribais; etnarcas",
+      "assessment": "O",
+      "philological_analysis": "Plural interpretado conjecturalmente como corrupção de ἐθνάρχοι; manuscrito e edição divergentes em Hulin.",
+      "finding": "Variantes ארונקי (edição) e אדונקי (Musaf), oriundas de Hulin 60b, estão corretamente indicadas mas testemunhos discriminados apenas genericamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 433,
+      "id": "A00432",
+      "source_headword": "אַדְנוּת",
+      "source_headwords": [
+        "אַדְנוּת"
+      ],
+      "source_definition_excerpts": [
+        "(אָדֹון) lordship, authority ."
+      ],
+      "source_xml_sha256": "750c300425ee693dec2778b5cd0722bd3395c002007ea720800e43e611a43c5a",
+      "editorial_headword": "אַדְנוּת",
+      "editorial_gloss": "senhorio; domínio; autoridade",
+      "assessment": "S",
+      "philological_analysis": "Nome abstrato de senhorio e autoridade, derivado de אָדֹון.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 434,
+      "id": "A00433",
+      "source_headword": "אֲדֹנָי",
+      "source_headwords": [
+        "אֲדֹנָי"
+      ],
+      "source_definition_excerpts": [
+        "plur. excellentiæ) the Lord, Adonai ."
+      ],
+      "source_xml_sha256": "ee18c3b3f2f0681bb1ceb201d3da12a033b0f3604f032a2d8ba800bcd3e20681",
+      "editorial_headword": "אֲדֹנָי",
+      "editorial_gloss": "Senhor; Adonai",
+      "assessment": "S",
+      "philological_analysis": "Título divino אֲדֹנָי com plural de excelência, conforme a gramática declarada pelo Jastrow.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 435,
+      "id": "A00434",
+      "source_headword": "(אַבְנֵי) אַדְנֵי",
+      "source_headwords": [
+        "(אַבְנֵי) אַדְנֵי"
+      ],
+      "source_definition_excerpts": [
+        ", א' הַשָּׂדֶה m. pl. name of a mythical animal, orangoutang (?)."
+      ],
+      "source_xml_sha256": "72e08b3e64a9586c03e15bfbae5ad3af0f75c412634c8cd535cc92b0621360e7",
+      "editorial_headword": "(אַבְנֵי) אַדְנֵי",
+      "editorial_gloss": "animal mítico; homem da montanha (?)",
+      "assessment": "S",
+      "philological_analysis": "Animal lendário de Kilayim, não identificação naturalista demonstrada como orangotango.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 436,
+      "id": "A00435",
+      "source_headword": "אדני,",
+      "source_headwords": [
+        "אדני,",
+        "אדאני"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "14a84dc683ae4ce46392814f8703ae6686edca85a2688356e31390da236e93d0",
+      "editorial_headword": "אדני,",
+      "editorial_gloss": "ver אֲרֹונֵי",
+      "assessment": "S",
+      "philological_analysis": "Duas formas de Shabbat 35b remetem ao outro lema אֲרֹונֵי.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 437,
+      "id": "A00436",
+      "source_headword": "אדני מריונים",
+      "source_headwords": [
+        "אדני מריונים"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "7e3b3a82090399d73ed7a161a86eaddb13686dd1e06dd069df377ab9989dbedf",
+      "editorial_headword": "אדני מריונים",
+      "editorial_gloss": "ler אַרְכִי בִרְיֹונִים",
+      "assessment": "S",
+      "philological_analysis": "A fonte recomenda emenda textual de uma expressão composta; não conferir sentido autônomo ao texto corrompido.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 438,
+      "id": "A00437",
+      "source_headword": "אָדַק",
+      "source_headwords": [
+        "אָדַק"
+      ],
+      "source_definition_excerpts": [
+        "(√אד, v. הדק , חדק) to squeeze into, fasten .",
+        "fastened to .",
+        "(cmp. אָחוּז s. v. אחז ) holding fast ."
+      ],
+      "source_xml_sha256": "77f7c89c34728dc6c75c6dbb68b5afeca3201d7091a1af1db2f0d1e648a29d9b",
+      "editorial_headword": "אָדַק",
+      "editorial_gloss": "apertar; fixar; prender; agarrar-se",
+      "assessment": "S",
+      "philological_analysis": "A raiz verbal prende e aperta; particípio passivo apresenta o estar atrelado e o agarrar firme.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 439,
+      "id": "A00438",
+      "source_headword": "אֲדַק",
+      "source_headwords": [
+        "אֲדַק"
+      ],
+      "source_definition_excerpts": [
+        ", (neut. v.) to be fastened, stick to .",
+        "to fasten to, to cause to take hold .",
+        "to seize, take hold of .",
+        "to join, cling to ."
+      ],
+      "source_xml_sha256": "59778086d3daef736d9f9f371c628e619522d33c1ccd82b9d045ce94d2ac9a61",
+      "editorial_headword": "אֲדַק",
+      "editorial_gloss": "aderir; fixar; agarrar; unir-se",
+      "assessment": "S",
+      "philological_analysis": "Verbo aramaico de aderência com Pael causativo e Itpael reflexivo; variantes da tradução targúmica.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 440,
+      "id": "A00439",
+      "source_headword": "אֲדָק",
+      "source_headwords": [
+        "אֲדָק"
+      ],
+      "source_definition_excerpts": [
+        "clepsydra , v. אֲרָק ."
+      ],
+      "source_xml_sha256": "db738b7fce41d9dc78865b5d1b56f571b00486a86006d7a97edf92f4b67c76c0",
+      "editorial_headword": "אֲדָק",
+      "editorial_gloss": "clepsidra; ver אֲרָק",
+      "assessment": "S",
+      "philological_analysis": "Termo traduzido como clepsidra, mas com explicação remetida a אֲרָק.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 441,
+      "id": "A00440",
+      "source_headword": "*אדקולאון,",
+      "source_headwords": [
+        "*אדקולאון,",
+        "ארקולאון"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "4076fa4883e36ef591aa74aa6b49b537a9e921960683ffdccf28ed3ec8ad442d",
+      "editorial_headword": "*אדקולאון,",
+      "editorial_gloss": "emenda para “não literalmente”",
+      "assessment": "S",
+      "philological_analysis": "Texto corrompido de Cântico Rabá é interpretado como glosa intrusa, sem tomar a emenda conjectural por testemunho independente.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 442,
+      "id": "A00441",
+      "source_headword": "אָדַר",
+      "source_headwords": [
+        "אָדַר"
+      ],
+      "source_definition_excerpts": [
+        "to cut off, surround, isolate; whence",
+        "(b. h.) to distinguish.",
+        "(Assyr. v. אֲדָר ) to darken .",
+        "* to strip ."
+      ],
+      "source_xml_sha256": "28efabb803496af2dae37d2010947e354bd5aeb387b613065dfa3c683b2a4708",
+      "editorial_headword": "אָדַר",
+      "editorial_gloss": "delimitar; distinguir; escurecer; despojar",
+      "assessment": "S",
+      "philological_analysis": "Derivações propostas do verbo hebraico para distinguir, escurecer e despojar exigem separação de graus de certeza.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 443,
+      "id": "A00442",
+      "source_headword": "אֲדַר",
+      "source_headwords": [
+        "אֲדַר"
+      ],
+      "source_definition_excerpts": [
+        "v. אִדְּרָא , אִדְרָא , אִדְּרֹונָא. Pa. אַדַּר to distinguish ."
+      ],
+      "source_xml_sha256": "37c0424c30d9efe38faad6007bfa053e7a04085b4e55b4bed178d08ee387a180",
+      "editorial_headword": "אֲדַר",
+      "editorial_gloss": "distinguir; conferir distinção",
+      "assessment": "S",
+      "philological_analysis": "Pael aramaico 'distinguir' associado a jogo midráxico de Adrameleque.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 444,
+      "id": "A00443",
+      "source_headword": "(אָדָר) אֲדָר",
+      "source_headwords": [
+        "(אָדָר) אֲדָר"
+      ],
+      "source_definition_excerpts": [
+        "Assyr. the cloudy ; v. Fred."
+      ],
+      "source_xml_sha256": "ce4824e453bdfecf7919aa0e017e262d0b0869bbb338f0a87e6505dfb896e3ec",
+      "editorial_headword": "(אָדָר) אֲדָר",
+      "editorial_gloss": "adar; mês do calendário judaico",
+      "assessment": "O",
+      "philological_analysis": "Mês Adar e intercalacão Adar I/II; plural da fonte inclui dois formatos e suas datas civis são históricas, não fixas.",
+      "finding": "A segunda forma de plural אֲדָרִין, registrada junto de אֲדָרִים, faltava; restituída.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 445,
+      "id": "A00444",
+      "source_headword": "אִדַּר,",
+      "source_headwords": [
+        "אִדַּר,",
+        "אִידַּר,",
+        "אִדְּרָא,",
+        "אִידְּרָא"
+      ],
+      "source_definition_excerpts": [
+        "(אדר, נדר v. אָדַר ) a place cut off, circle (cmp. זִירָה), whence threshing place, barn; also the grain piled up in the barn for threshing; cmp. גּוֹרֶן."
+      ],
+      "source_xml_sha256": "f3d5fbc672d082d4ccf7297235548591079e1563ed9edebb6c1e6813b2087457",
+      "editorial_headword": "אִדַּר,",
+      "editorial_gloss": "eira; celeiro; grão amontoado",
+      "assessment": "O",
+      "philological_analysis": "Eira, armazém e grão empilhado; fonte também registra forma reduzida בי דרי, ausente da tradução.",
+      "finding": "A forma reduzida בי דרי, anotada na fonte sob alternativas consonantais, faltava no cartão; restituída.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 446,
+      "id": "A00445",
+      "source_headword": "אֵדֶר,",
+      "source_headwords": [
+        "אֵדֶר,",
+        "אֲדַר,",
+        "אִדְרָא,",
+        "אוּדְרָא"
+      ],
+      "source_definition_excerpts": [
+        "(v. אָדַר 3) skin, hide, leather-bag ."
+      ],
+      "source_xml_sha256": "d0690296ce95ab8914ccf1d92b307e173c67c14e40cc6a4a1635d56ae69ce2ed",
+      "editorial_headword": "אֵדֶר,",
+      "editorial_gloss": "pele; couro; saco de couro",
+      "assessment": "O",
+      "philological_analysis": "Primeiro homógrafo אֵדֶר: couro, pele e odre; não confundir com o nome de árvore do homógrafo seguinte.",
+      "finding": "Jastrow distingue variante de manuscrito F e texto de edição para sacos de palha, resumidos na tradução.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 447,
+      "id": "A00446",
+      "source_headword": "אֵדֶר,",
+      "source_headwords": [
+        "אֵדֶר,",
+        "אִדְרָא,",
+        "אֲדָרָא,"
+      ],
+      "source_definition_excerpts": [
+        "ch. m. (v. אָדַר ) [ thick-leaved, dark ]",
+        "a cedar species , prob. Spanish Juniper .",
+        "אִדְרָא fig-tree ."
+      ],
+      "source_xml_sha256": "ed89da8eaafce9ace6cc96354e488f00a79b7a9f236be1eb459046ce1bf2b47d",
+      "editorial_headword": "אֵדֶר,",
+      "editorial_gloss": "tipo de cedro; possivelmente zimbro; figueira",
+      "assessment": "O",
+      "philological_analysis": "Segundo homógrafo אֵדֶר: espécie tipo cedro, possível zimbro e figueira em Targum, com índices distintos das variantes.",
+      "finding": "Variantes de cabeçalho אִדְרָא II e אֲדָרָא I omitidas no corpo português; restituídas preservando os índices homógrafos.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 448,
+      "id": "A00447",
+      "source_headword": "אֲדָרָא,",
+      "source_headwords": [
+        "אֲדָרָא,"
+      ],
+      "source_definition_excerpts": [
+        "(v. אָדַר , cmp. Ges. H. Dict. s. v.) flag of a ship."
+      ],
+      "source_xml_sha256": "75e1d4840e626258505cf772a320adfc2a344d04355a2e302d7ca808b9af177f",
+      "editorial_headword": "אֲדָרָא,",
+      "editorial_gloss": "bandeira de navio",
+      "assessment": "S",
+      "philological_analysis": "Bandeira de navio e variante de manuscrito, sem relação lexical necessária com árvore.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 449,
+      "id": "A00448",
+      "source_headword": "אַדְרָא",
+      "source_headwords": [
+        "אַדְרָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "b722aa1233d011143f25b2da0ad86b06c1662a784869706f87200f781ffc79e8",
+      "editorial_headword": "אַדְרָא",
+      "editorial_gloss": "ver אַדְדָא e אוּדְרָא",
+      "assessment": "S",
+      "philological_analysis": "A mesma grafia exige duas remissões contextuais diferentes em Shabbat e Bava Metzia.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 450,
+      "id": "A00449",
+      "source_headword": "אַדְּרַבָּא,",
+      "source_headwords": [
+        "אַדְּרַבָּא,",
+        "אַדְּרַבָּה"
+      ],
+      "source_definition_excerpts": [
+        "(contr. of על דרבה, v. אַדְּ־ ) turn to the stronger side , whence as a dialectic term, on the contrary ."
+      ],
+      "source_xml_sha256": "f64b98c81f6c26615984e8180bc7f535b767353f37098bcc0e5aa3fc42192efe",
+      "editorial_headword": "אַדְּרַבָּא,",
+      "editorial_gloss": "pelo contrário; antes, ao contrário",
+      "assessment": "O",
+      "philological_analysis": "Partícula dialética 'pelo contrário' com duas formas, distinta do quase-homógrafo de formação diversa.",
+      "finding": "Variante אַדְּרַבָּה não aparecia na tradução; restituída, mantendo cautela quanto ao quase-homógrafo אַדְּרָבָא.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 451,
+      "id": "A00450",
+      "source_headword": "אִדְרַבְלָא",
+      "source_headwords": [
+        "אִדְרַבְלָא"
+      ],
+      "source_definition_excerpts": [
+        "(ὑδραύλης, hydraula) player on the hydraulis, organist ."
+      ],
+      "source_xml_sha256": "577a0da748e312896d620540f304bbf0e78f2c8c73f620a49117159a35e73140",
+      "editorial_headword": "אִדְרַבְלָא",
+      "editorial_gloss": "organista; tocador de órgão hidráulico",
+      "assessment": "S",
+      "philological_analysis": "Distinção entre o intérprete da hydraulis e o instrumento; identificação como ὑδραύλης na fonte.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 452,
+      "id": "A00451",
+      "source_headword": "אִדְרַבְלִיס,",
+      "source_headwords": [
+        "אִדְרַבְלִיס,",
+        "אִרְדַּבְלִיס"
+      ],
+      "source_definition_excerpts": [
+        "(trnsp.) m. (ὕδραυλις) water-organ ."
+      ],
+      "source_xml_sha256": "24560325ca4999d9b17186dbb9cc9a81d9db04912c92a8bc993847733c992eb7",
+      "editorial_headword": "אִדְרַבְלִיס,",
+      "editorial_gloss": "órgão hidráulico; órgão de água",
+      "assessment": "O",
+      "philological_analysis": "Nome do órgão hidráulico ὕδραυλις, cuja ausência do Templo é atribuída ao efeito musical; plural específico אִדְרַבְלִין.",
+      "finding": "O plural אִדְרַבְלִין do nome do instrumento fora remetido genericamente à entrada anterior; restaurado de forma explícita.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 453,
+      "id": "A00452",
+      "source_headword": "אֲדַרְגָּזְרַיָּא",
+      "source_headwords": [
+        "אֲדַרְגָּזְרַיָּא"
+      ],
+      "source_definition_excerpts": [
+        "(v. Schr. K. A. T. p. 617 sq.; cmp. אדר a. גזר) title of high officers."
+      ],
+      "source_xml_sha256": "e40d2da62a7254c8a2c421e70b120d9250a61e8440d2816ea6332a110e0138b6",
+      "editorial_headword": "אֲדַרְגָּזְרַיָּא",
+      "editorial_gloss": "altos oficiais; governadores",
+      "assessment": "S",
+      "philological_analysis": "Título pluriforme de autoridades superiores em Daniel, glosado por governadores em Cântico Rabá.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 454,
+      "id": "A00453",
+      "source_headword": "אַדְרֹומָא",
+      "source_headwords": [
+        "אַדְרֹומָא"
+      ],
+      "source_definition_excerpts": [
+        "gent."
+      ],
+      "source_xml_sha256": "1cb8733757d24dba4af5941940bdd76f2517cc92fcc965f089e0433dc7af7a49",
+      "editorial_headword": "אַדְרֹומָא",
+      "editorial_gloss": "Adroma; sulista",
+      "assessment": "S",
+      "philological_analysis": "Gentílico geográfico Adroma relacionado ao sul, sem certeza adicional além do Targum.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 455,
+      "id": "A00454",
+      "source_headword": "אֶדְרֹועָא",
+      "source_headwords": [
+        "אֶדְרֹועָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "b25667dfe71c245a34836fb3d3fc1cf66f618bdcf5640dff10ffad8fc3647531",
+      "editorial_headword": "אֶדְרֹועָא",
+      "editorial_gloss": "braço; ver דְּרָעָא",
+      "assessment": "S",
+      "philological_analysis": "Remissão anatômica ao braço דְּרָעָא com referência targúmica.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 456,
+      "id": "A00455",
+      "source_headword": "אִדְרֹופִּיקֹוס",
+      "source_headwords": [
+        "אִדְרֹופִּיקֹוס"
+      ],
+      "source_definition_excerpts": [
+        "(ὑδρωπικός) suffering from dropsy ."
+      ],
+      "source_xml_sha256": "3804515dabe461071d2856e051bcb41a27e6dd568dd992b8420680e05d8fb4d1",
+      "editorial_headword": "אִדְרֹופִּיקֹוס",
+      "editorial_gloss": "hidrópico; pessoa com hidropisia",
+      "assessment": "S",
+      "philological_analysis": "Termo grego ὑδρωπικός como descrição médica histórica, com variantes textuais.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 457,
+      "id": "A00456",
+      "source_headword": "*אִדְרוּתָא",
+      "source_headwords": [
+        "*אִדְרוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "(אדר) glory, distinction ."
+      ],
+      "source_xml_sha256": "d821076c2665d16c933a664368b49342d213df02adc04935a875df23eca44ce8",
+      "editorial_headword": "*אִדְרוּתָא",
+      "editorial_gloss": "glória; distinção; honra",
+      "assessment": "S",
+      "philological_analysis": "Glória e distinção em expressão de oniromancia; não transformar previsão em acepção geral.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 458,
+      "id": "A00457",
+      "source_headword": "*אַדְרַזְדָּא",
+      "source_headwords": [
+        "*אַדְרַזְדָּא"
+      ],
+      "source_definition_excerpts": [
+        "(= אזדרזדא; זרז) diligently, quickly."
+      ],
+      "source_xml_sha256": "e432fb71cf0d33488f04652d91b3d453ebf3dc5dd7f8e1b0b8b010f92b88c886",
+      "editorial_headword": "*אַדְרַזְדָּא",
+      "editorial_gloss": "diligentemente; rapidamente",
+      "assessment": "S",
+      "philological_analysis": "Advérbio aramaico de diligência/prontidão, relacionado por Jastrow a זרז.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 459,
+      "id": "A00458",
+      "source_headword": "אַדְרִיאָנֹוס",
+      "source_headwords": [
+        "אַדְרִיאָנֹוס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "7d4d4f367f1725ab46cee5e03e8015e06cb025120c7b90e4b8a44c1fadd2a0e9",
+      "editorial_headword": "אַדְרִיאָנֹוס",
+      "editorial_gloss": "Adriano; ver אַדְרְיָינֹוס",
+      "assessment": "S",
+      "philological_analysis": "Grafia do nome Adriano remetida ao antropônimo principal.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 460,
+      "id": "A00459",
+      "source_headword": "אדריאנטין",
+      "source_headwords": [
+        "אדריאנטין"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "f1370a9331f7a61397c1c91c7a7841c16fc4e7364b404cdf1ac6218f0d3f2baf",
+      "editorial_headword": "אדריאנטין",
+      "editorial_gloss": "ler אִסְטַרְטִיגִין",
+      "assessment": "S",
+      "philological_analysis": "Jastrow recomenda emendar leitura de título militar em Deuteronômio Rabá segundo Targum.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 461,
+      "id": "A00460",
+      "source_headword": "אַדְרִיאַס",
+      "source_headwords": [
+        "אַדְרִיאַס"
+      ],
+      "source_definition_excerpts": [
+        "(Ἀδρίας) Adriatic Sea ."
+      ],
+      "source_xml_sha256": "6d33bd3288c8dddd1035338080317dda23247932ceca704f949155fc93bba531",
+      "editorial_headword": "אַדְרִיאַס",
+      "editorial_gloss": "mar Adriático",
+      "assessment": "S",
+      "philological_analysis": "Designação geográfica Ἀδρίας, mar Adriático, com paralelo midráxico ao Mediterrâneo.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 462,
+      "id": "A00461",
+      "source_headword": "אַדְרִיב,",
+      "source_headwords": [
+        "אַדְרִיב,",
+        "אַדְרִיבָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "155e005624728442afa70a7a3d79c329fd465de32a011c0b527bcef18b01ad42",
+      "editorial_headword": "אַדְרִיב,",
+      "editorial_gloss": "ver אַרְדַּב",
+      "assessment": "S",
+      "philological_analysis": "Duas formas remetidas a אַרְדַּב.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 463,
+      "id": "A00462",
+      "source_headword": "אדריבולין",
+      "source_headwords": [
+        "אדריבולין"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "4acab389bcb6696feb251ec1c6f717e56ecaa269f0808000764dfaf82523e6f2",
+      "editorial_headword": "אדריבולין",
+      "editorial_gloss": "ver אִדְרַבְלָא",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אִדְרַבְלָא; sem prova para nova acepção instrumental nesta linha.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 464,
+      "id": "A00463",
+      "source_headword": "אדריונטוס",
+      "source_headwords": [
+        "אדריונטוס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "8b1efebfc571ddacec629acc6f1eaebfdb3df4e89efb4d3ce066a585d4159936",
+      "editorial_headword": "אדריונטוס",
+      "editorial_gloss": "ver אַנְדְּרֹונִיטִיס e אַדְרִיאַנְטֹוס",
+      "assessment": "S",
+      "philological_analysis": "Dois destinos lexicais distintos para grafia corrompida, ambos preservados.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 465,
+      "id": "A00464",
+      "source_headword": "אַדְרְיָינֹוס,",
+      "source_headwords": [
+        "אַדְרְיָינֹוס,",
+        "אַנְדַּרְיָנֹוס"
+      ],
+      "source_definition_excerpts": [
+        "Hadrian , the Roman emperor (117 to 138) under whom the insurrection of Bar Kokhba occurred; freq. mentioned with the imprecation שחיק עצמות."
+      ],
+      "source_xml_sha256": "f5bae74d189e330c0ad5d97cc73b111a55db6e588e3ee1a8105d9a9b80e82521",
+      "editorial_headword": "אַדְרְיָינֹוס,",
+      "editorial_gloss": "Adriano; imperador romano",
+      "assessment": "S",
+      "philological_analysis": "Imperador Adriano de 117–138, mencionado com imprecação, registrado como dado de narrativa histórica.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 466,
+      "id": "A00465",
+      "source_headword": "אדריינטיס",
+      "source_headwords": [
+        "אדריינטיס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "3b38ab56cf8f6ab28687551f892b7d356f5162dfbd3e7907041b81334f853de2",
+      "editorial_headword": "אדריינטיס",
+      "editorial_gloss": "ver אַנְדְּרֹונִיטִיס e אַנְדְרִיאַנְטֹוס",
+      "assessment": "S",
+      "philological_analysis": "Variante remissiva a duas entradas do grupo dos nomes romanos.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 467,
+      "id": "A00466",
+      "source_headword": "אַדְרְיָינִי,",
+      "source_headwords": [
+        "אַדְרְיָינִי,",
+        "הַדְרְיָינִי"
+      ],
+      "source_definition_excerpts": [
+        "Hadrianic ,",
+        "of the town Adria or Hadria in Venetia.",
+        "referring to Hadrian, Hadrianic .",
+        "(genit. of Hadrianus) Hadrian ’s (followers)."
+      ],
+      "source_xml_sha256": "c77b20a70185292410a5ed2818a4f070cbb57bafe3601d0ea87a61825a58916a",
+      "editorial_headword": "אַדְרְיָינִי,",
+      "editorial_gloss": "de Ádria; de Adriano; pertencente a Adriano",
+      "assessment": "O",
+      "philological_analysis": "Adjetivo pode remeter à cidade Ádria ou ao imperador Adriano; há grafia alternativa omitida.",
+      "finding": "Variante הַדְרְיָינִי omitida; restituída distinguindo cerâmica de Ádria e referência a Adriano.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 468,
+      "id": "A00467",
+      "source_headword": "אדריכולין",
+      "source_headwords": [
+        "אדריכולין"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "e7363bca7ab58d652b7dec638c43cd4bcfff01874d6443f80e27e0cbfee4e5be",
+      "editorial_headword": "אדריכולין",
+      "editorial_gloss": "ver אִדְרַבְלָא",
+      "assessment": "S",
+      "philological_analysis": "Remissão de Gênesis Rabá ao grupo do organista/órgão hidráulico.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 469,
+      "id": "A00468",
+      "source_headword": "אַדְרִיכוּתָא",
+      "source_headwords": [
+        "אַדְרִיכוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "(דרך) treading, stamping the threshing floor."
+      ],
+      "source_xml_sha256": "8bfbd9a6cbe26def1d0e7ff118c62c0ce788e35716d3829410f60e3a5df01910",
+      "editorial_headword": "אַדְרִיכוּתָא",
+      "editorial_gloss": "pisoteio; compactação da eira",
+      "assessment": "S",
+      "philological_analysis": "Substantivo de atividade de pisotear a eira, relacionado a דרך.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 470,
+      "id": "A00469",
+      "source_headword": "אַדְרִיכָל",
+      "source_headwords": [
+        "אַדְרִיכָל"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "b5fa5142adca44f66b24230162cb0a1d74690dc1235a58287d30b3ae72e88b72",
+      "editorial_headword": "אַדְרִיכָל",
+      "editorial_gloss": "ver אַרְדִיכָל",
+      "assessment": "S",
+      "philological_analysis": "Forma remetida ao vocábulo de arquiteto, sem acepção autônoma no XML.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 471,
+      "id": "A00470",
+      "source_headword": "אדרינטוס",
+      "source_headwords": [
+        "אדרינטוס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "bbbbcf3e777862c4dec8dea972915125a1161ad1a21f8f319eda912d38d7873f",
+      "editorial_headword": "אדרינטוס",
+      "editorial_gloss": "ver אַנְדְּרֹונִיטִיס",
+      "assessment": "S",
+      "philological_analysis": "Variante do Arukh e edição de Gênesis Rabá, remitida ao termo אַנְדְּרֹונִיטִיס.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 472,
+      "id": "A00471",
+      "source_headword": "אֲדַרְכֹּון",
+      "source_headwords": [
+        "אֲדַרְכֹּון"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "8ca76c0a75a6007aaf8fb5452142cba80405891cc46a62956b7299f0f2d70c23",
+      "editorial_headword": "אֲדַרְכֹּון",
+      "editorial_gloss": "ver דַּרְכֹּון",
+      "assessment": "S",
+      "philological_analysis": "Remissão de forma monetária ao vocábulo דַּרְכֹּון.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 473,
+      "id": "A00472",
+      "source_headword": "אֲדַרְכִּיאָן",
+      "source_headwords": [
+        "אֲדַרְכִּיאָן"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "2f1ec1ac8a9a3fa0d86c027693cb726fc1d9be1868de5b89cc13d050bec1022f",
+      "editorial_headword": "אֲדַרְכִּיאָן",
+      "editorial_gloss": "ver אֲדַרְכָּן",
+      "assessment": "S",
+      "philological_analysis": "Variante remitida ao antropônimo parto אַדַרְכָּן.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 474,
+      "id": "A00473",
+      "source_headword": "אֲדַרְכָּל",
+      "source_headwords": [
+        "אֲדַרְכָּל"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "64780a5efbbcc1117843b1138a1b2235528cfa2ffbd280bcc64e523a501ba658",
+      "editorial_headword": "אֲדַרְכָּל",
+      "editorial_gloss": "ver אַרְדִּיכָל",
+      "assessment": "S",
+      "philological_analysis": "Outra grafia de arquiteto, remissão a אַרְדִּיכָל.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 475,
+      "id": "A00474",
+      "source_headword": "אֲדַרְכָּן,",
+      "source_headwords": [
+        "אֲדַרְכָּן,",
+        "אֲדַרְכִּיאָן"
+      ],
+      "source_definition_excerpts": [
+        "(prob. corrupt. of אַרְטְבַן q. v.) Adarkhan , a Parthian ruler."
+      ],
+      "source_xml_sha256": "2fe9d7205dc0f69b6a6dc9aaa53cf7212dec923db090e3aaa7184203fc9deb8d",
+      "editorial_headword": "אֲדַרְכָּן,",
+      "editorial_gloss": "Adarkhan; governante parto",
+      "assessment": "S",
+      "philological_analysis": "Antropônimo de dirigente parto, suspeito de corrupção de Artabano; identidade não confirmada.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 476,
+      "id": "A00475",
+      "source_headword": "אַדְרַכְתָּא",
+      "source_headwords": [
+        "אַדְרַכְתָּא"
+      ],
+      "source_definition_excerpts": [
+        "(דְּרַךְ Af.) tracing; (law)",
+        "legal permission to a creditor to trace the debtor’s property for the purpose of having it seized, assessed, offered for public sale, and eventually delivered to him .",
+        "טירפא the right of seizure of the debtor’s property sold after the date of the loan (mortgage);",
+        "שומא record of the assessed value for which the creditor took possession;—acc."
+      ],
+      "source_xml_sha256": "e22b121ff3bed7c6b2a8fb511a3c189982fbe5ff60f08b6fbc7abac9713679fd",
+      "editorial_headword": "אַדְרַכְתָּא",
+      "editorial_gloss": "mandado de execução patrimonial; cessão de crédito",
+      "assessment": "O",
+      "philological_analysis": "Documento legal de rastreio e apreensão patrimonial, distinto de autorização privada; preservar duas ordens documentais de tradição.",
+      "finding": "Jastrow discrimina duas sequências jurídicas concorrentes (Maimônides vs. edições/manuscritos); a síntese anterior não atribuía essas tradições. Identificação documental explicitada.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 477,
+      "id": "A00476",
+      "source_headword": "אַדְרַמֶּלֶךְ",
+      "source_headwords": [
+        "אַדְרַמֶּלֶךְ"
+      ],
+      "source_definition_excerpts": [
+        "(II Kings XVII, 3",
+        "Adrammelekh , name of an idol."
+      ],
+      "source_xml_sha256": "aad143dfe0a9750fcc7ed75e2a4cbdfb1c7551f3353f3852e8791e5f984c9ca9",
+      "editorial_headword": "אַדְרַמֶּלֶךְ",
+      "editorial_gloss": "Adrameleque; nome de ídolo",
+      "assessment": "S",
+      "philological_analysis": "Nome de divindade estrangeira interpretado em homilia sobre mula e cavalo, não etimologia histórica demonstrada.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 478,
+      "id": "A00477",
+      "source_headword": "אֶדְרַע,",
+      "source_headwords": [
+        "אֶדְרַע,",
+        "אֶדְרְעָא"
+      ],
+      "source_definition_excerpts": [
+        "(= h. אֶזְרֹועַ, v. זְרֹועַ ) arm ."
+      ],
+      "source_xml_sha256": "51458bb50775ad3060242d9407ce827f943401bb23a8f9488958dc249e0b3e29",
+      "editorial_headword": "אֶדְרַע,",
+      "editorial_gloss": "braço",
+      "assessment": "S",
+      "philological_analysis": "Duas variantes aramaicas de braço e dois plurais, com referência ao filactério do braço.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 479,
+      "id": "A00478",
+      "source_headword": "אֶדְרְעָיָיא",
+      "source_headwords": [
+        "אֶדְרְעָיָיא"
+      ],
+      "source_definition_excerpts": [
+        "of Edreï , a town in Naftali (Josh. XIX, 37), another in Menasseh (Bashan, Num. XXI, 33; a. e.)."
+      ],
+      "source_xml_sha256": "61d882da04d79ce705d5db29169b5d73042d4f7d3eae7d63c74ffcfeb0810889",
+      "editorial_headword": "אֶדְרְעָיָיא",
+      "editorial_gloss": "habitante de Edrei",
+      "assessment": "S",
+      "philological_analysis": "Gentílico de Edrei, com duas localidades bíblicas distintas, sem fixar uma só a todos os usos.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 480,
+      "id": "A00479",
+      "source_headword": "אַדֶּרֶת",
+      "source_headwords": [
+        "אַדֶּרֶת"
+      ],
+      "source_definition_excerpts": [
+        "cloak, cover .",
+        "(homiletically, as if אִדֶּרֶת = ch. אִדְּרָא, אִדַּר) the threshing floor, the store of grains ."
+      ],
+      "source_xml_sha256": "9486a4484b494e45c39444ea5f57d1fb61b1eec0611dada0aadaff2c2bee1843",
+      "editorial_headword": "אַדֶּרֶת",
+      "editorial_gloss": "manto; capa; figura da eira",
+      "assessment": "S",
+      "philological_analysis": "Manto é acepção literal, eira é leitura homilética sobre Edom/Roma e debulha, não acepção lexical geral.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 481,
+      "id": "A00480",
+      "source_headword": "אָדֵשׁ",
+      "source_headwords": [
+        "אָדֵשׁ"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "1f4fe9d3f1e2786b6133a732fe425a36c8d15d0beb152a97e55b2a01d7ac1934",
+      "editorial_headword": "אָדֵשׁ",
+      "editorial_gloss": "ver דּוּשׁ (aramaico)",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao verbo aramaico דּוּשׁ; distinta da grafia inicial semelhante na faixa.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 482,
+      "id": "A00481",
+      "source_headword": "אָהַב",
+      "source_headwords": [
+        "אָהַב"
+      ],
+      "source_definition_excerpts": [
+        "to love .",
+        ", Hithpa .",
+        "to make beloved, popular ."
+      ],
+      "source_xml_sha256": "cb503816057ba3e2a2c9a0c56e5f0f463d8d73fa127391d7026185693f774b16",
+      "editorial_headword": "אָהַב",
+      "editorial_gloss": "amar; ser amado; tornar querido",
+      "assessment": "S",
+      "philological_analysis": "Amor com distintos binyanim: amado, tornar querido, popular; citar precisamente a finalidade de fazer amado o Nome divino.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 483,
+      "id": "A00482",
+      "source_headword": "אַהֲבָא",
+      "source_headwords": [
+        "אַהֲבָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "2478822dcaf5a8c017427d757f8bbe7357cadfb24ea742b16081942e2cbe97eb",
+      "editorial_headword": "אַהֲבָא",
+      "editorial_gloss": "amor; ver אַהֲבָה",
+      "assessment": "S",
+      "philological_analysis": "Forma aramaica de amor e construto אַהֲבַת, remetida ao substantivo seguinte.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 484,
+      "id": "A00483",
+      "source_headword": "אַהֲבָה,",
+      "source_headwords": [
+        "אַהֲבָה,"
+      ],
+      "source_definition_excerpts": [
+        "love, friendship ."
+      ],
+      "source_xml_sha256": "06102d170c4952ccbc7d623de3f6d2df6f378d7fcad8483964f349cd88df5262",
+      "editorial_headword": "אַהֲבָה,",
+      "editorial_gloss": "amor; amizade; devoção",
+      "assessment": "S",
+      "philological_analysis": "O nome comum 'amor' possui exemplo de amor interesseiro e de serviço divino motivado por amor, sem confundir com nome próprio.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 485,
+      "id": "A00484",
+      "source_headword": "אַהֲבָה,",
+      "source_headwords": [
+        "אַהֲבָה,"
+      ],
+      "source_definition_excerpts": [
+        "(אַחֲוָוא in Y.) pr. n. m. Ahăbah, A ḥ ava , son of Zera, and father of R. Adda."
+      ],
+      "source_xml_sha256": "738ff4164ed02a14f67c362522a3c9273c921734f9d1fe2e93faae958e6b070b",
+      "editorial_headword": "אַהֲבָה,",
+      "editorial_gloss": "Ahavá; nome rabínico",
+      "assessment": "S",
+      "philological_analysis": "O homógrafo II é o sábio Ahavá/Ahava, filho de Zera, pai de Rabi Ada; não o substantivo 'amor'.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 486,
+      "id": "A00485",
+      "source_headword": "אהדורי",
+      "source_headwords": [
+        "אהדורי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "0bcdf93683f150c746275a7b1e5e0ebbbe5eef5a25e8f6fb868838bf098719a9",
+      "editorial_headword": "אהדורי",
+      "editorial_gloss": "ver אֲדוּרֵי",
+      "assessment": "S",
+      "philological_analysis": "Grafia de Jerusalém Berakhot remetida ao cortejo אֲדוּרֵי.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 487,
+      "id": "A00486",
+      "source_headword": "אהו",
+      "source_headwords": [
+        "אהו"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "cbf24ff09e369f1ac6274b30800f6285c14c9d6df728225c2237499990972f62",
+      "editorial_headword": "אהו",
+      "editorial_gloss": "ler אֲהָן",
+      "assessment": "S",
+      "philological_analysis": "Emenda de leitura אהו para אֲהָן, não novo sentido.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 488,
+      "id": "A00487",
+      "source_headword": "אהוליות",
+      "source_headwords": [
+        "אהוליות"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "1107a5491d94dde9639968030f87f7836dfcb586b49fb807442053ed4fd6bac8",
+      "editorial_headword": "אהוליות",
+      "editorial_gloss": "ver אָהֳלִית",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao agrupamento de tendas, sem ampliação semântica na entrada.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 489,
+      "id": "A00488",
+      "source_headword": "אהולין",
+      "source_headwords": [
+        "אהולין"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "2a78e03376533db8f2dfe58fdf45473b0e19f3d8691af4f78b960accf2199a86",
+      "editorial_headword": "אהולין",
+      "editorial_gloss": "ver אֹהֶל",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אֹהֶל, tenda.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 490,
+      "id": "A00489",
+      "source_headword": "אהון",
+      "source_headwords": [
+        "אהון"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "3dea4fe2cc59bafcf60337db2d8abb7ed0b88e2bc8fc6c36781d142b202aa58b",
+      "editorial_headword": "אהון",
+      "editorial_gloss": "ver אֲהָן",
+      "assessment": "S",
+      "philological_analysis": "Forma remetida ao demonstrativo אֲהָן.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 491,
+      "id": "A00490",
+      "source_headword": "אֲהוּרְיָיר,",
+      "source_headwords": [
+        "אֲהוּרְיָיר,",
+        "אֲהוּרְיָירָא"
+      ],
+      "source_definition_excerpts": [
+        "(horrearius, ὁρριάριος; v. Sm. Ant. s. v. Horreum) store-keeper, steward ."
+      ],
+      "source_xml_sha256": "01c1f868c11df8b1952a8c0b278982a5b9da0f8e317a0b486409a1925e32640f",
+      "editorial_headword": "אֲהוּרְיָיר,",
+      "editorial_gloss": "administrador de armazém; mordomo",
+      "assessment": "O",
+      "philological_analysis": "Administrador horrearius distinto da proposta comentarista de escudeiro; restituição da segunda forma de cabeçalho.",
+      "finding": "A forma alternativa do cabeçalho אֲהוּרְיָירָא estava ausente do cartão; restaurada.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 492,
+      "id": "A00491",
+      "source_headword": "אֲהוּרְמִין",
+      "source_headwords": [
+        "אֲהוּרְמִין"
+      ],
+      "source_definition_excerpts": [
+        "(Pers. Angra-Mainyus) Ahriman , the evil principle in the Zendavesta (Parsism); opp. הורמיז Ormuzd."
+      ],
+      "source_xml_sha256": "54cf5562f8a5a95b6fa4ed8fc285d5c5f77f46f202224353dd99f091db239cdc",
+      "editorial_headword": "אֲהוּרְמִין",
+      "editorial_gloss": "Ahriman; princípio do mal persa",
+      "assessment": "O",
+      "philological_analysis": "Nome religioso persa Ahriman discutido em Sanhedrin 39a; leitura de manuscrito F não equivale a doutrina do léxico.",
+      "finding": "Diferenças textuais de Sanhedrin 39a, em especial a leitura do manuscrito F מפלגן, permaneciam só indicadas genericamente; documentadas.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 493,
+      "id": "A00492",
+      "source_headword": "אהיי",
+      "source_headwords": [
+        "אהיי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "f0f04e1dc3fe98d70af327bb5e6e1c7673f4d377a42269df14f31c0f01efcadf",
+      "editorial_headword": "אהיי",
+      "editorial_gloss": "ler הַיי",
+      "assessment": "S",
+      "philological_analysis": "Emenda proposta para הַיי, não nome independente.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 494,
+      "id": "A00493",
+      "source_headword": "*אָהִיל",
+      "source_headwords": [
+        "*אָהִיל"
+      ],
+      "source_definition_excerpts": [
+        "m (אָהַל) staying under the same roof with an unclean object."
+      ],
+      "source_xml_sha256": "5c0e38d16990c0aed504a64b727344e1323fee9895a42887ca206f0a7824a070",
+      "editorial_headword": "*אָהִיל",
+      "editorial_gloss": "cobertura comum com impureza; tratado Oholot",
+      "assessment": "O",
+      "philological_analysis": "Estar sob mesmo teto com objeto impuro e termo legal do tratado Oholot; textos de Nazir divergem entre Mishná e Talmude.",
+      "finding": "A fonte contrasta leituras de Nazir na edição talmúdica e na Mishná para a cobertura ritual; o cartão as condensava.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 495,
+      "id": "A00494",
+      "source_headword": "אָהֵיל",
+      "source_headwords": [
+        "אָהֵיל"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "5386cc55d0978e4559cd62d6d0840478b475c006ec5e26c4372e3f403e2a6139",
+      "editorial_headword": "אָהֵיל",
+      "editorial_gloss": "ver אֳהָל",
+      "assessment": "O",
+      "philological_analysis": "Remissão abreviada a אֳהָל; alegação independente de substância alcalina não consta nesta entrada.",
+      "finding": "O original apenas remete a אֳהָל e não define substância alcalina nesta entrada; retirada essa informação não comprovada pela presente Fonte.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 496,
+      "id": "A00495",
+      "source_headword": "אֲהִילָא",
+      "source_headwords": [
+        "אֲהִילָא"
+      ],
+      "source_definition_excerpts": [
+        "tent; v. אָהֳלָא ."
+      ],
+      "source_xml_sha256": "bc5b5d37ad620c56919c8dba0208d5b4a52a278ec5e9449eb31a66a9dcfd8c57",
+      "editorial_headword": "אֲהִילָא",
+      "editorial_gloss": "tenda; ver אָהֳלָא",
+      "assessment": "S",
+      "philological_analysis": "Forma para tenda e remissão ao correspondente aramaico אָהֳלָא.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 497,
+      "id": "A00496",
+      "source_headword": "אֲהִילַאי",
+      "source_headwords": [
+        "אֲהִילַאי"
+      ],
+      "source_definition_excerpts": [
+        "Ahilai ."
+      ],
+      "source_xml_sha256": "d1323ac47a2a2f6009cca159a57a52cb8bfef60fc0daa757622c3da6092208cf",
+      "editorial_headword": "אֲהִילַאי",
+      "editorial_gloss": "Ahilai",
+      "assessment": "S",
+      "philological_analysis": "Antropônimo Ahilai documentado em Pesahim 30a.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 498,
+      "id": "A00497",
+      "source_headword": "אֲהִילָה",
+      "source_headwords": [
+        "אֲהִילָה"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "c8fb8cc7aaa9e08cf8e5ad82def63532e26e22aaa8bed9c26bb234c256b1626a",
+      "editorial_headword": "אֲהִילָה",
+      "editorial_gloss": "leis de cobertura e impureza; ver אָהִיל",
+      "assessment": "S",
+      "philological_analysis": "Forma feminina e plural sobre cobertura ritual, ligada ao vocábulo masculino אָהִיל.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 499,
+      "id": "A00498",
+      "source_headword": "אֲהִינָא",
+      "source_headwords": [
+        "אֲהִינָא"
+      ],
+      "source_definition_excerpts": [
+        "Ahina , a species of late and inferior dates (cmp. אַחְיָנַיָּא)."
+      ],
+      "source_xml_sha256": "caab20843bbd5891cb8b289a84e7a8d21e6b7def363f3373992bc6e009c0a87b",
+      "editorial_headword": "אֲהִינָא",
+      "editorial_gloss": "ahina; tâmara tardia e inferior",
+      "assessment": "O",
+      "philological_analysis": "Variedade de tâmaras tardias e inferiores, plural feminino mas com uso masculino em Pesahim; usos culinários.",
+      "finding": "O original distingue plural feminino e uso masculino atestado, além das formas de conserva; a tradução resume diferenças de testemunho.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 500,
+      "id": "A00499",
+      "source_headword": "אהינו",
+      "source_headwords": [
+        "אהינו"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "de7811c0952e26204a1548a8cd2c91ab26dce3215043b92fb20448b174b1393a",
+      "editorial_headword": "אהינו",
+      "editorial_gloss": "ver אֲהִינָא",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao substantivo imediatamente precedente sobre variedade de tâmara.",
+      "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
+      "correction_applied": false,
+      "full_certification": false
     }
   ],
   "last_batch": {
-    "start_id": "A00300",
-    "end_id": "A00399",
-    "start_ordinal": 301,
-    "end_ordinal": 400,
+    "start_id": "A00400",
+    "end_id": "A00499",
+    "start_ordinal": 401,
+    "end_ordinal": 500,
     "count": 100,
     "counts": {
-      "S": 79,
-      "O": 20,
+      "S": 81,
+      "O": 17,
       "E": 0,
-      "V": 1
+      "V": 2
     },
     "corrections_applied": 11,
-    "report": "auditoria/JASTROW-2026-10-11-filologia-lote004-A00300-A00399.md"
+    "report": "auditoria/JASTROW-2026-10-11-filologia-lote005-A00400-A00499.md"
   }
 }
