@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## DGP — filologia, 160 verbetes 141–300 (11/10/2026)
+
+Auditoria independente de primeira passagem confrontou a **fonte XML original do DGP (ordinais 141–300)** com os **160 cartões** em `chat-gpt-correcoes`; pareceres **S=154, O=5, E=0, V=1**. Lemas idênticos **160/160**; definições compatíveis **153 literais**, **4** somente hifenização discricionária e **3** com expansões de abreviaturas. #150, já corrigido na branch, preservado; #288, numeração duplicada na própria fonte, não emendada. **Nenhuma mudança nos verbetes lexicais.** Progresso filológico **300/3.300**, distinto da **auditoria textual e estrutural estática ✓ 3.300/3.300**; verificações externas contextuais ainda não completas. [Relatório dos 160 verbetes](auditorias/dgp-filologia-2026-10-11-lote004-0141-0300.md); [matriz de evidências](auditorias/dgp-filologia-2026-10-11-lote004-evidencias.json); [checkpoint](auditorias/dgp-filologia-progresso.json). Próximo ordinal: **301**. A tabela geral com quantidades para todos os dicionários está ao final do relatório.
+
+
 ## JASTROW — quarta auditoria filológica, A00300–A00399 (11/10/2026)
 
 Comparados filologicamente em primeira passagem **100 novos verbetes** `A00300–A00399` com XML Jastrow canônico. Pareceres **S=79, O=20, E=0, V=1**; 11 ajustes de variantes e documentação atestada, exclusivamente na branch `chat-gpt-correcoes`. O problema de primeiro cabeçalho anômalo `A00371` permanece pendente de fac-símile; não reconstruir. **Acumulado 400/600**, mas nenhuma certificação exaustiva (`total_audited=0`). [Relatório filológico individual](auditoria/JASTROW-2026-10-11-filologia-lote004-A00300-A00399.md); [checkpoint cumulativo](auditoria/jastrow-filologia-progresso.json). Próximo `A00400–A00499`. A tabela de **todos os dicionários** ao final do relatório contém quantidades em cada `◐`, conforme regra atual.
