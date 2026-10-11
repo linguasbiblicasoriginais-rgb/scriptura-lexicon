@@ -26,5 +26,9 @@ jobs:
           persist-credentials: true
       - name: Validar Python
         run: python -m py_compile tools/resolve_pr89.py
+      - name: Configurar autor Git no runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Conciliar, auditar e publicar merge protegido
         run: python tools/resolve_pr89.py
