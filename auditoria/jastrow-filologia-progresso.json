@@ -6,10 +6,10 @@
   "integrated_head_examined": "e3763a9a97e54446817bc920d6f454f84b353d58",
   "reviewed_range": {
     "start_id": "A00000",
-    "end_id": "A00299",
+    "end_id": "A00399",
     "start_ordinal": 1,
-    "end_ordinal": 300,
-    "count": 300
+    "end_ordinal": 400,
+    "count": 400
   },
   "review_type": "independent_individual_philological_comparison_not_exhaustive_certification",
   "categories": {
@@ -19,14 +19,14 @@
     "V": "Verificação adicional requerida"
   },
   "counts": {
-    "S": 242,
-    "O": 43,
+    "S": 321,
+    "O": 63,
     "E": 9,
-    "V": 6
+    "V": 7
   },
   "fully_certified": 0,
-  "next_ordinal": 301,
-  "next_id": "A00300",
+  "next_ordinal": 401,
+  "next_id": "A00400",
   "previously_manually_reviewed_outside_range": [
     "A00156",
     "A00238",
@@ -6006,21 +6006,2173 @@
       "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
       "lexical_correction_applied": false,
       "full_philological_certification": false
+    },
+    {
+      "ordinal": 301,
+      "id": "A00300",
+      "source_headword": "אגיש",
+      "editorial_headword": "אגיש",
+      "editorial_gloss": "ver גּוּשׁ I",
+      "source_heads": [
+        "אגיש"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ca00c594d52c421b9863d9f001cab22b639f861885192e53d0ba9e76bc370587",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Lam. R. to I, 21; Pesik. Anokhi p. 138 b , v. גּוּשׁ I"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 302,
+      "id": "A00301",
+      "source_headword": "אִגְלָא,",
+      "editorial_headword": "אִגְלָא,",
+      "editorial_gloss": "portão externo; porta da cidade",
+      "source_heads": [
+        "אִגְלָא,",
+        "אִיגְלָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c24cf655956196279789765826d1bcafebf9e2a8b675f3bd274a9d44327f03fa",
+      "source_definition_excerpts": [
+        "(v. גַּל , גלל) outside-door, city-gate ."
+      ],
+      "source_note_excerpts": [
+        "— Pl. אִגְלֵי, אִיגְלֵי . B. Bath 8 a הכל לאי' גפא Ar. (ed. לאג'. all must contribute towards keeping the city gates in repair.; B. Mets. 108 a (Ms. M. גַלֵּי)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 303,
+      "id": "A00302",
+      "source_headword": "אגלווקי",
+      "editorial_headword": "אגלווקי",
+      "editorial_gloss": "ver גּוּאַלְקָא e חֶבֶר",
+      "source_heads": [
+        "אגלווקי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a6060c68a8fcebf2b4b62b13d15ae8a62c7a78e3c5deb86efc3a551f4955c387",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. גּוּאַלְקָא a. חֶבֶר."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 304,
+      "id": "A00303",
+      "source_headword": "אֲגָלִים",
+      "editorial_headword": "אֲגָלִים",
+      "editorial_gloss": "gotas de chuva; corpos arredondados",
+      "source_heads": [
+        "אֲגָלִים"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5b58d88ee51dd62ee64fc4a72d5d13e2db66406612fc8a4a463c0d1d1901a3a5",
+      "source_definition_excerpts": [
+        "rounded things, rain-drops ."
+      ],
+      "source_note_excerpts": [
+        "Ḥag. 12 b עליית א' (allus. to Job XXXVIII, 28) the upper store in heavens containing the rains. [V. Var. lect. in Rabb. D. S. a. l. note 200.]"
+      ],
+      "assessment": "O",
+      "observation": "A entrada resume variantes manuscritas de Hagigah 12b sem transcrevê-las, remetendo genericamente à nota de crítica textual.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 305,
+      "id": "A00304",
+      "source_headword": "אגלין",
+      "editorial_headword": "אגלין",
+      "editorial_gloss": "ler אֵילֹוגִין",
+      "source_heads": [
+        "אגלין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "09d7eeaa2bb3e1f3fee1e73929ea24a557d103ed7528ebd185049ac9cf3e6f63",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "read אֵילֹוגִין."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 306,
+      "id": "A00305",
+      "source_headword": "אַגְלָפוּתָא",
+      "editorial_headword": "אַגְלָפוּתָא",
+      "editorial_gloss": "gravação; engaste",
+      "source_heads": [
+        "אַגְלָפוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0a83b3c472c6f4f871929330eafa2221c1c756f63cb8519d0e79a685e8a8a970",
+      "source_definition_excerpts": [
+        "(גלף) engraving, setting ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Y. Ex. XXXI, 5."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 307,
+      "id": "A00306",
+      "source_headword": "אגלקי",
+      "editorial_headword": "אגלקי",
+      "editorial_gloss": "ver גּוּאַלְקָא",
+      "source_heads": [
+        "אגלקי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0b480f361eff9be1c01dac00fe753962daf8bd855d96cabe6a2f5714089370b9",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. גּוּאַלְקָא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 308,
+      "id": "A00307",
+      "source_headword": "אֲגַם,",
+      "editorial_headword": "אֲגַם,",
+      "editorial_gloss": "curvar-se; entristecer-se",
+      "source_heads": [
+        "אֲגַם,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "459d56740a7e6649cbb8a07efa4741263e53aa58408d81fba6713a627c6a9e6b",
+      "source_definition_excerpts": [
+        "to be bent , whence to be in grief ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Ps. CXIX, 28."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 309,
+      "id": "A00308",
+      "source_headword": "אֲגַם,",
+      "editorial_headword": "אֲגַם,",
+      "editorial_gloss": "alho-poró; junco; canavial",
+      "source_heads": [
+        "אֲגַם,"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "a435f509507fcee61c20c26af9a23b258f8b876f0a7954e9ddccbceba5ed67f7",
+      "source_definition_excerpts": [
+        "v. foreg. a. אַגְמֹון) anything bending and peeling , whence",
+        "leek , or leek-like plants , opp. to שחת young grain &c. Kid. 62 b this refers only to sha ḥ ath אבל בא' לא but not to ăgam .",
+        "(b. h.) reed, reed-land (juncetum), dwelling places of wild beasts , opp. שָׂדֶה cultivated land."
+      ],
+      "source_note_excerpts": [
+        "1) leek , or leek-like plants , opp. to שחת young grain &c. Kid. 62 b this refers only to sha ḥ ath אבל בא' לא but not to ăgam . Ib. מאי משמע דהאי א' לישנא דבוצלנא הוא (Ar. דבוצלא) what proof have you",
+        "Taan. 22 a"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 310,
+      "id": "A00309",
+      "source_headword": "אַגָּם",
+      "editorial_headword": "אַגָּם",
+      "editorial_gloss": "terreno por limpar; campo com raízes",
+      "source_heads": [
+        "אַגָּם"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "94e6a70416766d5a1c453d52adcb559b29da525fd4ab41e67e21ca5bb8dd015e",
+      "source_definition_excerpts": [
+        "(גמם) a field which requires clearing in order to be made arable, uncleared ground containing roots of trees &c. Ab. Zar. 38 a הצית את האור בא' set fire to an uncleared field."
+      ],
+      "source_note_excerpts": [
+        "Y. ib. II, 44 d bot. א' תמרים a field on which palms stood, the roots of which must be grubbed up."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 311,
+      "id": "A00310",
+      "source_headword": "אַגַּמָּא",
+      "editorial_headword": "אַגַּמָּא",
+      "editorial_gloss": "terreno por desbravar",
+      "source_heads": [
+        "אַגַּמָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6d1afcf218ab2a175bf67f70a7b5d806a92d05951b9a8a4dab818a3247496850",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Ab. Zar. 38 a לגלוי א' וכ' his intention was merely to clear the ground."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 312,
+      "id": "A00311",
+      "source_headword": "אַגְמָא",
+      "editorial_headword": "אַגְמָא",
+      "editorial_gloss": "depressão; lago; pântano; pradaria",
+      "source_heads": [
+        "אַגְמָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b01111251ecc4517b0103c4e414d68fe4513d42d44f00f3b9f5164f0d12d81c0",
+      "source_definition_excerpts": [
+        "(גום, v. אֲגַם ) a depression, stagnant water, lake; also marshland, meadow ."
+      ],
+      "source_note_excerpts": [
+        "B. Mets. 36 b הבלא דא' the vapors of the meadow; a. fr. קטל קני בא' to cut reeds in the meadow = to be illiterate. Sabb. 95 a ; Snh. 33 a .— Pl. אֲגָמִין, אַגְמַיָּא . Targ. Is. XXXV, 7; a. e.—אַגְמֵי"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 313,
+      "id": "A00312",
+      "source_headword": "אַגְמָא,",
+      "editorial_headword": "אַגְמָא,",
+      "editorial_gloss": "Agma; localidade da Babilônia",
+      "source_heads": [
+        "אַגְמָא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "920556d4dcac7ee66e600e216ca09f2bc1de0b3ca789928af71b5547800b7f28",
+      "source_definition_excerpts": [
+        "Agma , in Babylon."
+      ],
+      "source_note_excerpts": [
+        "B. Mets 86 a .—B. Bath. 127 a ; Kid. 72 a אקרא דא' Akra d’Agma, v. אַקְרָא Snh. 38 b אקרא דא' (Ar. אגמא דוקירי; oth. var. v. Rabb. D. S. a. l. note)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 314,
+      "id": "A00313",
+      "source_headword": "אַגְמָה,",
+      "editorial_headword": "אַגְמָה,",
+      "editorial_gloss": "pesar; aflição; tristeza da alma",
+      "source_heads": [
+        "אַגְמָה,",
+        "עַגְמָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0c40485afce0152f27b86e7ebff0a8016e5a5ca7d72218a3846c8ee84bd28c79",
+      "source_definition_excerpts": [
+        "(v. אֲגַם I ,) esp. אַגְמַת נפש (עַגְ') grief of the soul."
+      ],
+      "source_note_excerpts": [
+        "M. Kat. 14 b ; a. fr. Ms. M., s. Ar. א' (ed. ע)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 315,
+      "id": "A00314",
+      "source_headword": "אַגְמֹון",
+      "editorial_headword": "אַגְמֹון",
+      "editorial_gloss": "junco; cana; portador de cana",
+      "source_heads": [
+        "אַגְמֹון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6f7173e20caf7a01ee6c8438688b1ae46bc3013058ae8e3b6395750d1081fcc5",
+      "source_definition_excerpts": [
+        "reed, cane ."
+      ],
+      "source_note_excerpts": [
+        "—בעל הא' cane-bearer , a subordinate executive officer. Y. Sot. IX, 24 b top; a. e., v. זְמֹורָה."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 316,
+      "id": "A00315",
+      "source_headword": "אַגְמֹון,",
+      "editorial_headword": "אַגְמֹון,",
+      "editorial_gloss": "junco; cana",
+      "source_heads": [
+        "אַגְמֹון,",
+        "אַגְמֹונָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2fcbeccef783795fdf190c13172a9bdff51e9a0a56173d6ce839bc574fccc1ea",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Targ. Is. LVIII, 5.—Targ. Job. XL, 26 Ms. (ed. אוּנְקְלָא)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 317,
+      "id": "A00316",
+      "source_headword": "אֶגְמֹון",
+      "editorial_headword": "אֶגְמֹון",
+      "editorial_gloss": "governador; autoridade",
+      "source_heads": [
+        "אֶגְמֹון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a45e67f8bcbe5d588a9d46c166c6bf3e9dc9f5dd48fcdb9dabfa91a3097ecc61",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "m. = הֶגְמֹון. Sabb. 145 b ed."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 318,
+      "id": "A00317",
+      "source_headword": "אַגְמֹונָא",
+      "editorial_headword": "אַגְמֹונָא",
+      "editorial_gloss": "ver אַגְמֹון aramaico",
+      "source_heads": [
+        "אַגְמֹונָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b635b02b79ae7205f4954a6ec3d166726f273baa2dcbc774a9464ed03021f72e",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַגְמֹון ch."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 319,
+      "id": "A00318",
+      "source_headword": "אַגָּנָא,",
+      "editorial_headword": "אַגָּנָא,",
+      "editorial_gloss": "bacia; caldeirão; recipiente",
+      "source_heads": [
+        "אַגָּנָא,",
+        "אֲגָנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8d1fa12ba8220cc8e0165a2586fca9fa4b6e0a186de722aa741b7cc5f5154791",
+      "source_definition_excerpts": [
+        ", v. אֹוגֶן ) basin, kettle ."
+      ],
+      "source_note_excerpts": [
+        "Sabb. 110 a א' דתיחלא a basin filled with cress. Ab. Zar. 31 a א' אפומא וכ' Ms. M. (ed. דפ') a basin-like vessel placed over the opening of the cask. Pes. 45 b .—Ber. 22 a בא' דמיא in a bath tub.— Pl."
+      ],
+      "assessment": "O",
+      "observation": "A fonte atesta ainda a forma abreviada אֲנָ׳ no inventário de plurais e distingue variantes adicionais do topônimo; o cartão é sintético.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 320,
+      "id": "A00319",
+      "source_headword": "*אגניטוס,",
+      "editorial_headword": "*אגניטוס,",
+      "editorial_gloss": "Agnitus; possível general romano",
+      "source_heads": [
+        "*אגניטוס,",
+        "אנגטוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "79dfced690f90f7d0e58399ffeb9dad021eec437de62f74b3d0aa941e5c8fa55",
+      "source_definition_excerpts": [
+        "(Var. v. infra) name of a Roman general in the days of R. Yoḥ."
+      ],
+      "source_note_excerpts": [
+        "b. Zakkai, or of R. Gamliël, prob. a corrupt. of אגוינטוס Quintus , or אגויטוס Quietus; [Graetz: Atticus , v. Monatsschr. 1885 p. 17 sq.]. Sifré Deut. 351 אגניטוס. Y. Snh. I, 19 b top אנגטוס; ib. c bo"
+      ],
+      "assessment": "O",
+      "observation": "O autor hierarquiza como mais prováveis אגוינטוס, קוינטוס, קוינגטוס; a preferência hipotética foi reposta sem fixar a identificação histórica.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 321,
+      "id": "A00320",
+      "source_headword": "אגנטין",
+      "editorial_headword": "אגנטין",
+      "editorial_gloss": "ver ארגנטריא",
+      "source_heads": [
+        "אגנטין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a96d4eb02bc86400e06968d384d77957fb56076ba17b80396e55766ce24f6007",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Y. Ter. VII, 21 b , v. ארגנטריא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 322,
+      "id": "A00321",
+      "source_headword": "אגנייה",
+      "editorial_headword": "אגנייה",
+      "editorial_gloss": "ver אַגְנִינָה",
+      "source_heads": [
+        "אגנייה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8a62fd6d25a228f37a677097c90caa1a5f7d90db942f71442caed3ac36a8b3aa",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. next. w."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 323,
+      "id": "A00322",
+      "source_headword": "*אַגְנִינָה",
+      "editorial_headword": "*אַגְנִינָה",
+      "editorial_gloss": "pele de cordeiro",
+      "source_heads": [
+        "*אַגְנִינָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e8fa8554767110c3172645040d3df2766089e0b06637bd857b2ecf9ce5973ef4",
+      "source_definition_excerpts": [
+        "(agnina, sc. pellis) lamb-skin ."
+      ],
+      "source_note_excerpts": [
+        "Gen. R. s. 20 Mus. (ed. אגנייה)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 324,
+      "id": "A00323",
+      "source_headword": "אגניסטור",
+      "editorial_headword": "אגניסטור",
+      "editorial_gloss": "ver אנגיסטור",
+      "source_heads": [
+        "אגניסטור"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e248221655148389bb851f87ade2cd3749e6ae163b98409a258c0de06c560118",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אנגיסטור"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 325,
+      "id": "A00324",
+      "source_headword": "אֲגַנְתָּא",
+      "editorial_headword": "אֲגַנְתָּא",
+      "editorial_gloss": "bacia; proteção; guarda",
+      "source_heads": [
+        "אֲגַנְתָּא"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "852039afbc905f0187025ea1ab18dec7c427ff91314b2cffae63207352fe7670",
+      "source_definition_excerpts": [
+        "= אַגָּנָא.",
+        "(גנן) protection, guard ."
+      ],
+      "source_note_excerpts": [
+        "Targ. II Esth. I, 2.",
+        "Num. R. s. 12; Midr. Till. to Ps. XCI, 2 ma ḥ ăsi (Ps. l. c.) means אֲגַנְתִּי my guard"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 326,
+      "id": "A00325",
+      "source_headword": "אַגָּס",
+      "editorial_headword": "אַגָּס",
+      "editorial_gloss": "pera; pereira",
+      "source_heads": [
+        "אַגָּס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fa6e4b66f1ebe471b6ff751ef2420481894967f601e8fdef0d30d565172bb35d",
+      "source_definition_excerpts": [
+        "(Tosef. עוּגָּס) m. (גוס, גסס to swell, v. גַּס III , cmp. תַּפּוּחַ) pear, pear-tree ."
+      ],
+      "source_note_excerpts": [
+        "[In oth. Semit. dial. except Syr., plum , Fl. to Levi Talm. Dict. s. v.] Y. Kil. I, 27 a bot.; Tosef. ib. 4. Ib. II, 15 (Var. עובש).— Pl. אַגָּסִים, עוּגָּסִים ) אַגָּסִין). Y. Ter. XI, 47 d bot. Kil."
+      ],
+      "assessment": "O",
+      "observation": "O plural אַגָּסִין constava no XML e foi acrescentado à documentação portuguesa; outras variantes continuam resumidas.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 327,
+      "id": "A00326",
+      "source_headword": "אגסטון",
+      "editorial_headword": "אגסטון",
+      "editorial_gloss": "ver אָגוּסְטָאן",
+      "source_heads": [
+        "אגסטון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7b1fc3a04bf349e2e336dcc836cb7880b65df69290ad51fdfc6d1e7318fb1401",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אָגוּסְטָאן"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 328,
+      "id": "A00327",
+      "source_headword": "אגסטרות",
+      "editorial_headword": "אגסטרות",
+      "editorial_gloss": "ler אִסְטַגְיֹות",
+      "source_heads": [
+        "אגסטרות"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f9ba8d59aee59620f5e24e84da4b05a6e61c44e069708577e24c28ff50544bdb",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Ar. s. v. קלסקה , read אִסְטַגְיֹות."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 329,
+      "id": "A00328",
+      "source_headword": "אֶגְסִיטֵרִין,",
+      "editorial_headword": "אֶגְסִיטֵרִין,",
+      "editorial_gloss": "discurso de despedida; legado",
+      "source_heads": [
+        "אֶגְסִיטֵרִין,",
+        "אֶכְסִיטֵירִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1bee2c6c941c89cfa330174d2721ac3bd006bca74749917d108bf263b4582216",
+      "source_definition_excerpts": [
+        "(ἐξιτήριον S.) farewell-address, bequest ."
+      ],
+      "source_note_excerpts": [
+        "[Mostly corrupt.] Midr. Till. to Ps. LXXXIV. Ib. to Ps. LXXXVI, 1. Ib. to Ps. XXVII. Pesik. Aḥaré p. 175 ab סקווטריס; Lev. R. s. 21 סקויטרים, read אקסיטרין (v. Buber to Pesik. l. c.)."
+      ],
+      "assessment": "O",
+      "observation": "A fonte explicita leituras סקווטריס, סקויטרים e a emenda proposta אקסיטרין; foram restituídas como variantes, não como lemas comprovados.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 330,
+      "id": "A00329",
+      "source_headword": "אגע",
+      "editorial_headword": "אגע",
+      "editorial_gloss": "ler פָּגַע",
+      "source_heads": [
+        "אגע"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8d351978847c2d112c0edd625fa07157c110ac2e80f466a6e7efc4aa0dfd582d",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Koh. R. to III, 14, read פָּגַע (Mat. K.)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 331,
+      "id": "A00330",
+      "source_headword": "אָגַף",
+      "editorial_headword": "אָגַף",
+      "editorial_gloss": "vedar; fechar orifício",
+      "source_heads": [
+        "אָגַף"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3fceebfea5973156e3bfb9b53bb8c5fd9f2d7d298579b3fc545de0583e9ab87e",
+      "source_definition_excerpts": [
+        "(sec. r. of גְּפַף, v. גּוּף ) to fill up a hole with pitch &c. B. Kam. 105 a ."
+      ],
+      "source_note_excerpts": [],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 332,
+      "id": "A00331",
+      "source_headword": "אַגָּף,",
+      "editorial_headword": "אַגָּף,",
+      "editorial_gloss": "ressalto da porta; batente",
+      "source_heads": [
+        "אַגָּף,",
+        "אִגּוּף"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "95bbe81ae7304b9b92ff50360778cb1361bc9aa03c838c12890729868331e48d",
+      "source_definition_excerpts": [
+        "(גּוּף I) the moulding or eminence of the door frame against which the door shuts, door-stop (esp. of door-ways in thick city walls &c. with reference to sacred limits in sacrificial law)."
+      ],
+      "source_note_excerpts": [
+        "Pes. VII, 12 מן הא' ולפנים וכ' the space of the wall inside the door-stop is subject to the laws which apply to the space enclosed by the wall. Ib. 85 b א' עצמו the stop itself and the corresponding s"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 333,
+      "id": "A00332",
+      "source_headword": "אֲגַף",
+      "editorial_headword": "אֲגַף",
+      "editorial_gloss": "asa; ave; braço; margem do rio",
+      "source_heads": [
+        "אֲגַף"
+      ],
+      "source_senses": 5,
+      "source_xml_sha256": "c08baa60ac21edf0f9a2592c1429b49078324127bb7f51174ecd058121725322",
+      "source_definition_excerpts": [
+        "com.",
+        "wing, pinion.",
+        "winged animals, poultry ."
+      ],
+      "source_note_excerpts": [
+        "(v. foreg. = גַּף; cmp. b. h. אֲגַפִּים)",
+        "Pl. אֲגַפִּים; Du. אֲגַפַּיִים. Neg. XIV, 1. Gen. R. s. 39; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 334,
+      "id": "A00333",
+      "source_headword": "אֲגַפָּא",
+      "editorial_headword": "אֲגַפָּא",
+      "editorial_gloss": "asa",
+      "source_heads": [
+        "אֲגַפָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bf85df28084cd70f5ba12057bb0623ff0cad7f19378a8fb99a0dbac35176f98a",
+      "source_definition_excerpts": [
+        ", wing ."
+      ],
+      "source_note_excerpts": [
+        "Gen. R. s. 75, beg. מנערא אֲגַפָּהּ וכ' shakes her wings to shake the ashes off. [Targ. Ezek. I, 14, prob. אַנְפָּא.]. [B. Bath. 8 a , v. גַּפָּא.]— Pl. אֲגַפַּיָּא, const. אֲגַפֵּי. Targ. Cant. V, 11"
+      ],
+      "assessment": "O",
+      "observation": "Restaurada a proposta cautelosa de Jastrow para Targum Ezequiel 1.14, provável אַנְפָּא, separada da acepção 'asa'.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 335,
+      "id": "A00334",
+      "source_headword": "אֲגָפָה",
+      "editorial_headword": "אֲגָפָה",
+      "editorial_gloss": "ver הֲגָפָה",
+      "source_heads": [
+        "אֲגָפָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ff4b7d9b74a979b6a2fdb0188f4148630061988a25244e0105e951c385b49973",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. הֲגָפָה"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 336,
+      "id": "A00335",
+      "source_headword": "אָגַר,",
+      "editorial_headword": "אָגַר,",
+      "editorial_gloss": "reunir; coletar; armazenar",
+      "source_heads": [
+        "אָגַר,"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "d25ee1d84a8df97426db9958d8b023c57c8d6da92ec6d3d33e8ba11a48a20638",
+      "source_definition_excerpts": [
+        ", v. גרר ) to gather, collect .",
+        "because he collected words of the Law (stored up knowledge); Koh. R. beg. שאָגוּר בד\"ת because he was stored (or girded , v. אָגַר II ) with knowledge.",
+        "to be gathered ."
+      ],
+      "source_note_excerpts": [
+        "Y. Yoma III, 41 a top (expl. ăgartlé , Ezr. I, 9). Y. Bicc. I, 63 d bot. שהוא אֹוגֵר וכ' it stores up its oil, (does not-let it trickle out), v. אֵגֹורִי; Ber. 39 a שמנו אָגוּר וכ' its oil remains sto",
+        "Cant. R. to I, 1 end. [Sabb. 60 a אוגרת ed., v. אָגַד.]"
+      ],
+      "assessment": "O",
+      "observation": "O detalhamento de variáveis gráficas, sentidos figurados e testemunhos de Êxodo Rabá é resumido no cartão, sem divergência na acepção central.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 337,
+      "id": "A00336",
+      "source_headword": "אֲגַר,",
+      "editorial_headword": "אֲגַר,",
+      "editorial_gloss": "acumular; reunir",
+      "source_heads": [
+        "אֲגַר,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bd55cdda28e412013e19d97838fe435138d75f47d52b5ea7b1d21d12eff8b39c",
+      "source_definition_excerpts": [
+        "; Pa ."
+      ],
+      "source_note_excerpts": [
+        "אַגַּר to heap up . Targ. Y. Deut. I, 16 דמְאַגַּר וכ' (ed. Vien. מֶאֱגַר—) who heaps up litigations, v. foreg. [Targ. Ps. CIV, 7 למיגר Ms., v. נְגַד.]"
+      ],
+      "assessment": "O",
+      "observation": "O original distingue uma leitura de Targum Salmos 104.7 remetida a נְגַד; a versão portuguesa apenas indica a controvérsia.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 338,
+      "id": "A00337",
+      "source_headword": "אָגַר,",
+      "editorial_headword": "אָגַר,",
+      "editorial_gloss": "cingir; armar-se; entalhar; ocupar espaço",
+      "source_heads": [
+        "אָגַר,"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "9fde7e4cfd959ccfa4db49a5834083b05ee906f8481a02a7ef9d7c36ca5459fe",
+      "source_definition_excerpts": [
+        "(√אג, v. חגר ).",
+        "to gird, arm .",
+        "to halt , whence part. f. אוֹגֶרֶת (sub. סַכִּין) a knife having indentations which catch the passing nail of the examiner."
+      ],
+      "source_note_excerpts": [
+        ").",
+        "Midr. Prov. to XXX, 1 שא' חלציו who girded his loins for wisdom; Yalk. Prov. a. l. Part. pass. אָגוּר, v. אָגַר I."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 339,
+      "id": "A00338",
+      "source_headword": "אֲגַר,",
+      "editorial_headword": "אֲגַר,",
+      "editorial_gloss": "contratar; alugar; arrendar",
+      "source_heads": [
+        "אֲגַר,"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "186bc901f4fcc83582ad76b5f20a0006b06d9e8d527642b6030dcbece2b1fa57",
+      "source_definition_excerpts": [
+        "(אָגַר) (√אג, akin to חכר; v. foreg.) prop. to tie , whence to hire, employ, rent .",
+        "same. Targ. Y. Deut. XXIII, 5 (4).—B. Mets. 77 same.",
+        "to rent out, lease ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Gen. XXX, 16; a. fr.—Koh. R. to IV, 6; Lev. R. s. 3 beg. (prov.) גינא וכ' דא' he who rents one garden will eat birds; him who rents gardens, the birds will eat. Git. 73 a אגור מלחי they hired bo",
+        "Targ. Y. Deut. XXIII, 5 (4).—B. Mets. 77 a (interch. with Pe.) (אגירי) אוגיר אגורי engages laborers."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 340,
+      "id": "A00339",
+      "source_headword": "אֲגַר,",
+      "editorial_headword": "אֲגַר,",
+      "editorial_gloss": "salário; aluguel; lucro; mérito",
+      "source_heads": [
+        "אֲגַר,",
+        "אַגְרָא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f7b818c62ce0735ced8ae939702a605fe6b24a3fbe437d97f2af8af5ffe48e30",
+      "source_definition_excerpts": [
+        "(foreg.) rent, wages; reward, profit ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Gen. XV, 1; a. fr.—B. Mets. 63 b א' נטר ליה compensation for waiting (giving time for delivery), i.e. advancing the money to the seller. Ib. 68 b פלגא בא' כ' half profit or loss. Ib. 69 b א' ופג"
+      ],
+      "assessment": "O",
+      "observation": "A combinação dos cabeçalhos אֲגַר e אַגְרָא e a nota remissiva a 'vara, bastão' tinham sido abreviadas; restituídas explicitamente.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 341,
+      "id": "A00340",
+      "source_headword": "אִגָר,",
+      "editorial_headword": "אִגָר,",
+      "editorial_gloss": "carta; correspondência",
+      "source_heads": [
+        "אִגָר,",
+        "אִגָרָא",
+        "אִגְּרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6ce2b577813df75bb5d608415876ef238de22e93831e54e0c9101fb011b24598",
+      "source_definition_excerpts": [
+        "letter , v. אי' ."
+      ],
+      "source_note_excerpts": [],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 342,
+      "id": "A00341",
+      "source_headword": "אַגְרָא,",
+      "editorial_headword": "אַגְרָא,",
+      "editorial_gloss": "Agra",
+      "source_heads": [
+        "אַגְרָא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "853db7f87c6678ea58182d85b7f98e6fc914578e02608f2f4db9541604d13247",
+      "source_definition_excerpts": [
+        "Agra , father-in-law of R. Abba; father of R. Y’hudah."
+      ],
+      "source_note_excerpts": [
+        "Ḥull. 104 b ; 134 a . Nid. 53 a"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 343,
+      "id": "A00342",
+      "source_headword": "אגרדים",
+      "editorial_headword": "אגרדים",
+      "editorial_gloss": "ver אֲגַרְדְּמִיס",
+      "source_heads": [
+        "אגרדים"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "75c7ed3992c05e89b82e38818fba88f92fc5dfc09a6b6823fefc783ce5bf4079",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "v. next. w."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 344,
+      "id": "A00343",
+      "source_headword": "אֲגַרְדְּמִיס",
+      "editorial_headword": "אֲגַרְדְּמִיס",
+      "editorial_gloss": "fiscal de mercado; aferidor de medidas",
+      "source_heads": [
+        "אֲגַרְדְּמִיס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "59ad2e7e86b0be3c258520d0c59c98420cfea649395c6a9492b270b22a24697d",
+      "source_definition_excerpts": [
+        "(freq. אגרדמים) m. (a corrupt. of ἀγοράνομος, v. אַגְרוֹנִימוֹס ) agoranomos , corresponding to the Roman ædilis, market commissioner, gauger , &c. Ab. Zar. 58 a א' נכרי (כותי, Ms. V. גוי א') a gentil"
+      ],
+      "source_note_excerpts": [
+        "—B. Kam. 98 a א' טייעא an Arabian agoran.—B. Bath. 89 a מעמידין א' וכ' Ar. (ed. מִין—plur.) an agoran. may be appointed for superintending measures, but not for fixing the prices.— Pl. אֲגַרְדְּמִין B"
+      ],
+      "assessment": "O",
+      "observation": "A versão portuguesa lista os plurais, mas resume variantes de manuscritos e da Pesikta que acompanham o cargo de agorânomo.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 345,
+      "id": "A00344",
+      "source_headword": "אִגְּרוּ,",
+      "editorial_headword": "אִגְּרוּ,",
+      "editorial_gloss": "grão próprio para armazenar; trigo superior",
+      "source_heads": [
+        "אִגְּרוּ,",
+        "אִיגְּרוּ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d7e5f5adb3c0376646c1c75c638e8d10b5608b06573cbc400f6b6a7a7ecf2faf",
+      "source_definition_excerpts": [
+        "(אגר I, Pi; cmp. אֵגוֹרִי) ( grain ) fit for storage, of superior quality ."
+      ],
+      "source_note_excerpts": [
+        "Y. Maas. Sh. IV, beg. 54 d מן הא' על השמתית וכ' T’rumah may be taken from the stored-up wheat for the wheat which has to be quickly disposed of, or vice versa. Y. Peah. II, 17 a חצי איגדו וכ' (read אי"
+      ],
+      "assessment": "O",
+      "observation": "Variantes de R. Shimshon, de outros comentaristas e a passagem corrompida em Jerusalém Peá permanecem condensadas.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 346,
+      "id": "A00345",
+      "source_headword": "אגרוי",
+      "editorial_headword": "אגרוי",
+      "editorial_gloss": "ver אוֹגְדוֹיֵיקָנְטֵי",
+      "source_heads": [
+        "אגרוי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "247a892381218eea87f4d05963383ccf1e321f914e3b9e09c956f2175c7a0426",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אוֹגְדוֹיֵיקָנְטֵי"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 347,
+      "id": "A00346",
+      "source_headword": "אַגְרוֹמֵי",
+      "editorial_headword": "אַגְרוֹמֵי",
+      "editorial_gloss": "cobradores de taxas alfandegárias",
+      "source_heads": [
+        "אַגְרוֹמֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "29e917a36e5eabdd49ab2f7e1348d869328af90e8f152c95182c1192c08b494a",
+      "source_definition_excerpts": [
+        "(a corrupt. of אגרונומי, cmp. אגרדמיס a. next."
+      ],
+      "source_note_excerpts": [
+        "art.) costum-collectors , (cmp. Sm. Ant. s. v. Agoranomos). Gen. R. s. 75 ed. (Ar. איגרמי)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 348,
+      "id": "A00347",
+      "source_headword": "אגרון",
+      "editorial_headword": "אגרון",
+      "editorial_gloss": "ver אִגְּרוּ",
+      "source_heads": [
+        "אגרון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c98cc8f08ba65447819d7dee6d59916d18fb5b20d8ca4a75b1560c896302f612",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אִגְּרוּ"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 349,
+      "id": "A00348",
+      "source_headword": "אַגְרוֹנִימוֹן",
+      "editorial_headword": "אַגְרוֹנִימוֹן",
+      "editorial_gloss": "ver אַגְרוֹנִימוֹס",
+      "source_heads": [
+        "אַגְרוֹנִימוֹן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a52cfeffc7c1db1eee804bd2d11a08a29739eea7b896212cdeb98f01348e6fad",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. next. w."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 350,
+      "id": "A00349",
+      "source_headword": "אַגְרוֹנִימוֹס",
+      "editorial_headword": "אַגְרוֹנִימוֹס",
+      "editorial_gloss": "agorânomo; fiscal de mercado",
+      "source_heads": [
+        "אַגְרוֹנִימוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "24cfe6b83bdd5e3e3e9eeff37a66c02ff6cd21453c56c54cf8adfec875eccb69",
+      "source_definition_excerpts": [
+        "(corr. אַגְרוֹנוֹ'), contr. אַנְגַּרְמוֹס m. (ἀγοράνομος) agoranomos, market-commissioner; v. אֲגַרְדְּמִיס a. אַגְרוֹמֵי."
+      ],
+      "source_note_excerpts": [
+        "Y. Dem. II, 22 c top שהיה א' גדול the agor. was an influential man. Y. Ab. Zar. IV, 44 b top. Lev. R. s. 1 אגרונימון (corr. acc.). Y. B. Bath. V, 15 a bot. אנג' (twice); a. fr."
+      ],
+      "assessment": "O",
+      "observation": "A correção proposta por Jastrow, אַגְרוֹנוֹ׳, não figurava na apresentação; restituída como emenda, não leitura atestada.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 351,
+      "id": "A00350",
+      "source_headword": "אֶגְרוֹף",
+      "editorial_headword": "אֶגְרוֹף",
+      "editorial_gloss": "punho; poder; violência",
+      "source_heads": [
+        "אֶגְרוֹף"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1cedb7cd53abbc5440ffe14e3ab04f13ded30db2826905a56bced76471697e57",
+      "source_definition_excerpts": [
+        "fist; fig. power, usurpation."
+      ],
+      "source_note_excerpts": [
+        "Kel. XVII, 12. Ex. R. s. 1.—בעל א' mighty, violent . Y. Peah. VII, 20 c top; v. infra.—Sot. 41 b אגרופָהּ של חנופה the power of sycophancy.— Pl.אֶגְרוֹפִים, אֶגְרוֹפִין . Kid. 76 b בעלי א' וכ' the men"
+      ],
+      "assessment": "O",
+      "observation": "O plural alternativo אֶגְרוֹפִין, documentado ao lado de אֶגְרוֹפִים, foi restaurado.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 352,
+      "id": "A00351",
+      "source_headword": "(גרופינא) אַגְרוּפִּינָא",
+      "editorial_headword": "(גרופינא) אַגְרוּפִּינָא",
+      "editorial_gloss": "Agripina; estação de sinais",
+      "source_heads": [
+        "(גרופינא) אַגְרוּפִּינָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2b90a87419deca1c46c72ec235eff2b0b853608af62d97e4230c025240076470",
+      "source_definition_excerpts": [
+        "Agrippina , one of the signal stations for announcing the New-Moon, prob. a tower or height near Cæsarea Philippi, enlarged by Agrippa II. R. Hash. II, 4 (22 b ) לא' … מא' Ms. M. 2, Mish. Nap."
+      ],
+      "source_note_excerpts": [
+        "(ed. מג' … לג'; Y. ed. מגְּרִיפּ' …; v. Rabb. D. S. a. l. note 4)."
+      ],
+      "assessment": "O",
+      "observation": "O aparato preciso de variantes entre manuscrito M., Mishná de Nápoles e edição de Jerusalém não foi integralmente transcrito.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 353,
+      "id": "A00352",
+      "source_headword": "*אגרטין",
+      "editorial_headword": "*אגרטין",
+      "editorial_gloss": "ler אֶנִּיגָרוֹן",
+      "source_heads": [
+        "*אגרטין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9ec3a8a52feca70892db7548ba8b60b374acb3b63e3dc8c7d6a642a520cba3b5",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Koh. R. to I, 18 read אֶנִּיגָרוֹן or pl. אֶנִּיגָרוֹנִין. Cmp. ארגסטירין."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 354,
+      "id": "A00353",
+      "source_headword": "אַגְרִיאוֹן,",
+      "editorial_headword": "אַגְרִיאוֹן,",
+      "editorial_gloss": "selvagem; feroz; áspero",
+      "source_heads": [
+        "אַגְרִיאוֹן,",
+        "אַגְרִיּוֹן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c98af64d735491781dc94f930492e9d78fab2151e858354bfafea40929923a60",
+      "source_definition_excerpts": [
+        "(ἄγριος, neut."
+      ],
+      "source_note_excerpts": [
+        "or. acc.) wild (opp. אִימִירוֹן q. v.); rough . Gen. R. s. 77; Cant. R. to III, 6 כלב א'. Num. R. s. 11 (refer. to Gen. III, 8) שומע הקול א' after sinning, Adam heard the divine voice as a harsh one. "
+      ],
+      "assessment": "O",
+      "observation": "A variante de cabeçalho אַגְרִיּוֹן estava ausente da versão portuguesa; foi restituída.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 355,
+      "id": "A00354",
+      "source_headword": "אגריסטיס",
+      "editorial_headword": "אגריסטיס",
+      "editorial_gloss": "ver אַרְגֶּסְטֵיס",
+      "source_heads": [
+        "אגריסטיס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2389e50f65ea752cbc4fd482925186c45b462d1217479ad9313ed757aa4cef80",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַרְגֶּסְטֵיס"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 356,
+      "id": "A00355",
+      "source_headword": "אַגְרִיפָּא",
+      "editorial_headword": "אַגְרִיפָּא",
+      "editorial_gloss": "ver אַגְרִיפַּס",
+      "source_heads": [
+        "אַגְרִיפָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f8df6b20a257e5cbf104576433af3bd15e6b94ba274e7607e8aaac05cd08aa00",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "= next. w."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 357,
+      "id": "A00356",
+      "source_headword": "אַגְרִיפַּס",
+      "editorial_headword": "אַגְרִיפַּס",
+      "editorial_gloss": "Agripa; rei herodiano ou comandante",
+      "source_heads": [
+        "אַגְרִיפַּס"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "b7d243504ad922d10ac6ee23dd39fc3b512ca1c614d353522d5a431aca1da20f",
+      "source_definition_excerpts": [
+        "(Ἀγρίππας) Agrippa , 1) the last but one Herodian king of Judæa. Sot. VII, 8."
+      ],
+      "source_note_excerpts": [
+        ",",
+        "the last but one Herodian king of Judæa. Sot. VII, 8. Lev. R. s. 3; a. fr.—2) a captain of the former.—Ab. Zar. 55 a אגריפא שר צבא של א' Ms. M. (v. Rashi a. l. a. Rabb. D. S. a. l. note)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 358,
+      "id": "A00357",
+      "source_headword": "אגריקוס",
+      "editorial_headword": "אגריקוס",
+      "editorial_gloss": "ver אֶגְדִּיקוֹס",
+      "source_heads": [
+        "אגריקוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "db6896b69952ae102b23be49003ce7b8126cd5316c50d8c7206272db57824fc5",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֶגְדִּיקוֹס"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 359,
+      "id": "A00358",
+      "source_headword": "*אגרמא",
+      "editorial_headword": "*אגרמא",
+      "editorial_gloss": "ler דינרא גרדיינא",
+      "source_heads": [
+        "*אגרמא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b3359a90d6766a6ad702edf48ecab99f14fbfd8992a82d104e0af89f2163bacc",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", Y. Git. V, 47 b דינר א', read דינרא גרדיינא, v. גּוֹרְדְּיָינִי"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 360,
+      "id": "A00359",
+      "source_headword": "אגרנא",
+      "editorial_headword": "אגרנא",
+      "editorial_gloss": "ver אַגְדָּנָא",
+      "source_heads": [
+        "אגרנא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fd143ef07b18f2482e3176392d2d1f23ec5b8d3d98ee5cc4f62eb7abc5ca9313",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַגְדָּנָא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 361,
+      "id": "A00360",
+      "source_headword": "אַגְרָס",
+      "editorial_headword": "אַגְרָס",
+      "editorial_gloss": "ver הָגְדָּס",
+      "source_heads": [
+        "אַגְרָס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bf031b48ed7d33f365d340d64b985898c2919f9d9c679c3c207641f825808a6f",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. הָגְדָּס"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 362,
+      "id": "A00361",
+      "source_headword": "אגרסטיס",
+      "editorial_headword": "אגרסטיס",
+      "editorial_gloss": "ver אַרְגֶּסְטֵיס",
+      "source_heads": [
+        "אגרסטיס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "256caa7887494feed8860ae8b39341f27a91a5075a75bf35b3bad88a0081808a",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַרְגֶּסְטֵיס"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 363,
+      "id": "A00362",
+      "source_headword": "*אַגְרָפוֹס",
+      "editorial_headword": "*אַגְרָפוֹס",
+      "editorial_gloss": "não escrito; lei não escrita",
+      "source_heads": [
+        "*אַגְרָפוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "158428a0b02e9b2480642dc83c1db7ae4c5b99990d6d420013b4fc7249beaab7",
+      "source_definition_excerpts": [
+        "(ἄγραφος) unwritten ."
+      ],
+      "source_note_excerpts": [
+        "Y. R. Hash. I, 57 a bot. פרא בסיליאוס נומס א', cmp. Ar. h. v., a. s. v. בסיליאוס (ed. או נומוס או גריפיס) παρὰ βασιλέως ὁ νόμος ἄγραφος, for the king the law is unwritten (i.e. the king may disregard "
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 364,
+      "id": "A00363",
+      "source_headword": "*אִגְּרַת",
+      "editorial_headword": "*אִגְּרַת",
+      "editorial_gloss": "Igrat; figura demoníaca",
+      "source_heads": [
+        "*אִגְּרַת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d021360642aa141f95b7679b5dec1c693d044cf089584a6892ba7c5455d87397",
+      "source_definition_excerpts": [
+        "Igrath , name of the queen of demons Pes. 111 a א' אזלת (an incantation)."
+      ],
+      "source_note_excerpts": [
+        "Ib. 112 a . Num. R. s. 12. Cmp. נְגִירָא."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 365,
+      "id": "A00364",
+      "source_headword": "אִגֶּרֶת,",
+      "editorial_headword": "אִגֶּרֶת,",
+      "editorial_gloss": "carta; documento; tabuinha; comunicação",
+      "source_heads": [
+        "אִגֶּרֶת,",
+        "אִיגֶּרֶת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c10ec6e4da65e56a73331a5fa0f961e472096d8226fe51733632dc3f663ac8be",
+      "source_definition_excerpts": [
+        ", to join , v. esp. Snh. 11 b ; ושלש איגרות וכ') tablet, letter, brief, document ."
+      ],
+      "source_note_excerpts": [
+        "Git. IX, 3 (formula of a letter of divorce) ספר … וא' … וגט וכ'. Ib. 85 b ולא … איגרת … אלא אגרת one must not write (in the letter of divorce) egereth with אי' which might mean roof (v. אִיגָר), but &"
+      ],
+      "assessment": "O",
+      "observation": "A variante plural אִיגָּרוֹת foi omitida do cartão embora a fonte a registre com אִגָּרוֹת; restaurada.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 366,
+      "id": "A00365",
+      "source_headword": "אִגַּרְתָּא",
+      "editorial_headword": "אִגַּרְתָּא",
+      "editorial_gloss": "carta; ver אִיגַּרְתָּא",
+      "source_heads": [
+        "אִגַּרְתָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "54003b97e69c3d42fa454775aa9b86f78659c3eded4e48fbbaee56d8eae11df6",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "v. אִיגַּרְתָּא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 367,
+      "id": "A00366",
+      "source_headword": "אגש",
+      "editorial_headword": "אגש",
+      "editorial_gloss": "ver גּוּשׁ",
+      "source_heads": [
+        "אגש"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5e06fdf2ca85f2e4261504b8398798f269db08732f763141c06ebde18ab42600",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Lam. R. to I, 21; Pesik. Anokhi p. 138 b , v. גּוּשׁ"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 368,
+      "id": "A00367",
+      "source_headword": "אַדְּ־",
+      "editorial_headword": "אַדְּ־",
+      "editorial_gloss": "enquanto; até que; quanto a",
+      "source_heads": [
+        "אַדְּ־"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "fe05727c7b857c87ceab3f4bed931efb4d1dd7082570e0de17dd3b160db81ec2",
+      "source_definition_excerpts": [
+        "insep.",
+        "(= עַד דְּ־; cmp. אַ־) prop. until that; by the time that; hence, while, when , in the place of .",
+        "(= עַל דְּ־) as regards —, in relation to the statement &c. of—."
+      ],
+      "source_note_excerpts": [
+        "insep. conjunct.",
+        "Ḥag. 5 a אדזוטר when he was young.—Ḥull. 105 b , a. fr. אדהכי or אדהכי והכי in the meanwhile . Pes. 113 a אדחלא אכרעיך וכ' while the travelling dust is yet on thy knees, sell thy goods. Snh. 33 b אדמו"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 369,
+      "id": "A00368",
+      "source_headword": "אֵד",
+      "editorial_headword": "אֵד",
+      "editorial_gloss": "vapor; nuvem",
+      "source_heads": [
+        "אֵד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e40b640e0acf9f95bc06ffb358ef1cb2a6540e5b5aa00063f9a41705325f9fc8",
+      "source_definition_excerpts": [
+        "vapor, cloud ."
+      ],
+      "source_note_excerpts": [
+        "Gen. R. s. 13 (homil. etym.). אד שהוא שובר אידן וכ' cloud is called ēd (destroyer) because it breaks the ēd (distress of scarcity) looked forward to by the speculators in the market. V. אֵיד."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 370,
+      "id": "A00369",
+      "source_headword": "אָדָא,",
+      "editorial_headword": "אָדָא,",
+      "editorial_gloss": "esta; aquela; isto",
+      "source_heads": [
+        "אָדָא,",
+        "הָדָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ff4136b0a495d3b6f6e7bcfec578d31f2f0f97635624d3ec873142998c2a5e34",
+      "source_definition_excerpts": [
+        "(v. הָא ) this, that ."
+      ],
+      "source_note_excerpts": [
+        "Y. Ber. III. end, 7 a , a. fr. הדא אמרת היא הדא היא א' this shows that this is like that, i.e. all the same . Y. Erub. IV, end, 22 a ; a. fr."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 371,
+      "id": "A00370",
+      "source_headword": "אָדָא,",
+      "editorial_headword": "אָדָא,",
+      "editorial_gloss": "Ada; nome de sábios ou escravo",
+      "source_heads": [
+        "אָדָא,",
+        "(אֵידָא)"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "ab4289ee9915262c6cbe4d6da71bac41dcdd53e7418b4b1870c15f6d9f86f236",
+      "source_definition_excerpts": [
+        "(v. אָדָא IV ) Ada ,",
+        "name of several Amoraim; (v. Frankel Meb. Y. p. 61 b )."
+      ],
+      "source_note_excerpts": [
+        "1) name of several Amoraim; (v. Frankel Meb. Y. p. 61 b ). Y. Ter. X, 47 b bot. Pes. 80 a ; a. fr.—Most prominent among them R. Ada bar Ahăba or Aḥăva. Y. Taan. III, end, 67 a ; Bab. ibid. 20 b ; a. f",
+        "A. דיילא, דיאלא (attendant of scholars). B. Kam. 119 a . Num. R. s. 9."
+      ],
+      "assessment": "O",
+      "observation": "A variante parentética אֵידָא da fonte não aparecia no cartão onomástico; foi restituída.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 372,
+      "id": "A00371",
+      "source_headword": "*,",
+      "editorial_headword": "*,",
+      "editorial_gloss": "Bar Ada; ver בַּרְדָּא II",
+      "source_heads": [
+        "*,",
+        "*אָדָא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "dd7c6e64be6ca9d4c4f6afdc751899bd6142954733c6e3ea109bfbf4d9e56b9d",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "בר א', v. בַּרְדָּא II , 2."
+      ],
+      "assessment": "V",
+      "observation": "XML registra um primeiro cabeçalho constituído somente pelo asterisco, seguido de *אָדָא; a edição portuguesa assinala o defeito. Verificar impresso antes de normalizar.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 373,
+      "id": "A00372",
+      "source_headword": "אָדָא,",
+      "editorial_headword": "אָדָא,",
+      "editorial_gloss": "passarinheiro; armador de laços",
+      "source_heads": [
+        "אָדָא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c6fda9bb93205f8495a071332cc68e5caff255ee94626844a99ef8faa6dc3852",
+      "source_definition_excerpts": [
+        "צֹדֶה; cmp. b. h. עַד prey , a. אֵיד destruction ) fowler, one who puts up baits, snares &c. for other people’s doves."
+      ],
+      "source_note_excerpts": [
+        "Snh. 25 a (explain. mafri ḥ e yonim , Mishn.) אמר א'—ר' Ms. M. a. Oxf., a. Ar. (ed. ארא; v. Rabb. D. S. a. l., a. Ar.) R—says, the Mishnah means a fowler (to be disqualified as witness &c.)."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 374,
+      "id": "A00373",
+      "source_headword": "אדאני",
+      "editorial_headword": "אדאני",
+      "editorial_gloss": "ver אֲרוֹנֵי",
+      "source_heads": [
+        "אדאני"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9f4f750c3c7c41852d72aee3fedd52a6d7f868af663ffb37add0da3c3bcf1cff",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Sabb. 35 b , v. אֲרוֹנֵי"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 375,
+      "id": "A00374",
+      "source_headword": "אדבאל",
+      "editorial_headword": "אדבאל",
+      "editorial_gloss": "ver אַרְבֵּל I",
+      "source_heads": [
+        "אדבאל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b69075303d261e0903d69ed832b9bb331bce5c445e440f90e57fb1d9283d0000",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Y. Maas. Sh. IV, 54 d top, v. אַרְבֵּל I"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 376,
+      "id": "A00375",
+      "source_headword": "אֶדְבַּע,",
+      "editorial_headword": "אֶדְבַּע,",
+      "editorial_gloss": "dedo",
+      "source_heads": [
+        "אֶדְבַּע,",
+        "אֶדְבְּעָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e171ff2b7d848d4b81ed4e39cd69abd9a12b1d7ae01c01b33e7ba9fb8efc5270",
+      "source_definition_excerpts": [
+        "finger ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Y. Num. XIX, 4; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 377,
+      "id": "A00376",
+      "source_headword": "אַדְדָא",
+      "editorial_headword": "אַדְדָא",
+      "editorial_gloss": "espinha de peixe presa à garganta",
+      "source_heads": [
+        "אַדְדָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fda257ea5614f677a885b7a70b137ac0a809929a7ef76b81b252ced32213e313",
+      "source_definition_excerpts": [
+        "(אַדְרָא ed.) m. (√אד, v. אָדַר , cmp. חד, חדר, חדק &c.) fish-bone sticking in the throat."
+      ],
+      "source_note_excerpts": [
+        "Sabb. 67 a לא' וכ' against a fish-bone in the throat, say this spell. [For דד a. דר cmp. אודדא.]"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 378,
+      "id": "A00377",
+      "source_headword": "אדדם",
+      "editorial_headword": "אדדם",
+      "editorial_gloss": "ver דדי (aramaico)",
+      "source_heads": [
+        "אדדם"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6e6ea3829645562d45520d04b8ff64a1a5e64ea75c5e5dd7f7da60b4d860c4ba",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Cant. R. to IV, 8, v. דדי ch."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 379,
+      "id": "A00378",
+      "source_headword": "אדהי",
+      "editorial_headword": "אדהי",
+      "editorial_gloss": "ler אָדָא I",
+      "source_heads": [
+        "אדהי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "02503587f09aac26901c1c47009848c577f1cc78e548bb7e095b0d86b1c35da3",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", Y. Kil. IV, 29 b , bot., read אָדָא I (cmp. Y. Erub I 19 c bot. הדה וכ' a. corr. acc.)"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 380,
+      "id": "A00379",
+      "source_headword": "אַדְּהָכִי",
+      "editorial_headword": "אַדְּהָכִי",
+      "editorial_gloss": "ver אַדְּ־",
+      "source_heads": [
+        "אַדְּהָכִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f10215eab1cb19e7db30975bd224936abe5cdfc141058346f2713f648d34a5c7",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "v. אַדְּ־"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 381,
+      "id": "A00380",
+      "source_headword": "אַדְווּתָא,",
+      "editorial_headword": "אַדְווּתָא,",
+      "editorial_gloss": "espuma; espuma do mar",
+      "source_heads": [
+        "אַדְווּתָא,",
+        "אֲדוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "eeb9809172374ff9abf9e7a578c27b6abc2191feafb1ea6cfbf39fefc0044f23",
+      "source_definition_excerpts": [
+        "(Syr. דועתא דימא P."
+      ],
+      "source_note_excerpts": [
+        "S. 933, דוע to sweat, drip; cmp. אֵד) prop. sweat , א' דימא foam of the Sea . B. Bath. 4 a ; Succ. 51 b (Ms. M. אידותא) the Temple building of marble looks like a surging Sea (from a distance). Cmp. א"
+      ],
+      "assessment": "O",
+      "observation": "A tradução 'propriamente suor' que Jastrow dá antes do uso figurado 'espuma do mar' estava apenas implícita; restituída.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 382,
+      "id": "A00381",
+      "source_headword": "אֲדוּכֵי",
+      "editorial_headword": "אֲדוּכֵי",
+      "editorial_gloss": "ver דּוּךְ",
+      "source_heads": [
+        "אֲדוּכֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "dc45743023847a6f125912a2a09ab5711ae112b60e0e2d1b68b725d08b8fa7f9",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. דּוּךְ"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 383,
+      "id": "A00382",
+      "source_headword": "אָדוֹם",
+      "editorial_headword": "אָדוֹם",
+      "editorial_gloss": "vermelho; vermelha",
+      "source_heads": [
+        "אָדוֹם"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "257b18b1f7f889bf8b994b24382a6e6dc1abad72fe96d79e662d5d8d8549c4ef",
+      "source_definition_excerpts": [
+        ", אֲדוּמָּה f. (b. h. אָדֹם , אֲדֻמָּה; דמם) red ."
+      ],
+      "source_note_excerpts": [
+        "Cant. R. to VII, 3, שושנה א' red rose (euphem. for menstruation).—פרה א' red cow , used for purification ceremonies (Num. XIX). Ab. Zar. 24 a ; a. fr.—Lam. R. to IV, 5, v. קְלוּרִית.— Pl. אֲדוּמִּים, "
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 384,
+      "id": "A00383",
+      "source_headword": "אֱדוֹם",
+      "editorial_headword": "אֱדוֹם",
+      "editorial_gloss": "Edom; edomitas; Roma (uso figurado)",
+      "source_heads": [
+        "אֱדוֹם"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "6883c4ab04dc43bfd2cfd016dce6042b996549c74e63168cdaae39105bd6c678",
+      "source_definition_excerpts": [
+        "pr. n. m. Edom , surname of Esau, son of Isaac; mostly used as a nom.",
+        "fem. (sub. מלכות) Rome, Roman government (owing to the dependence of Herod on Rome)."
+      ],
+      "source_note_excerpts": [
+        "gentil. Edomite, Edomite nation",
+        "Ex. R. s. 35; a. fr. Ibid. מלכות א'; a. fr. [In subsequent ages: Christianity .]"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 385,
+      "id": "A00384",
+      "source_headword": "אֱדוֹמִי",
+      "editorial_headword": "אֱדוֹמִי",
+      "editorial_gloss": "edomita; idumeu",
+      "source_heads": [
+        "אֱדוֹמִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "45e9306dd25c7bb73f6eaab598b7a50978c8e0ca72732e9d2c4891b9cbce4569",
+      "source_definition_excerpts": [
+        "Edomite, Idumean ."
+      ],
+      "source_note_excerpts": [
+        "Keth. 30 a חייבי עשה מצרי וא' the laws of intermarriage with Egyptians and Edomites as implied in Deut. XXIII, 8.—Pes. III, 1 חומץ הא' Idumean vinegar; a. e.—Snh. 12 a ולא הניחן א' הלז Ar. a. Ms. M. ("
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 386,
+      "id": "A00385",
+      "source_headword": "אָדֹון",
+      "editorial_headword": "אָדֹון",
+      "editorial_gloss": "senhor; juiz",
+      "source_heads": [
+        "אָדֹון"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "ad7ba348af9edbbf112dd4b214c103eb0ac66202ddc9ce9a0ee507df97223cd4",
+      "source_definition_excerpts": [
+        ", const. אֲדֹון (b. h.; דון) lord, judge .",
+        "אין דין אין א' there is no justice and not judge."
+      ],
+      "source_note_excerpts": [
+        "Ḥag. 3 b אֲ' כל המעשים Lord of all creatures. Y. Kid. IV, beg. 65 b (allud. to Adon , pr. n., Neh. VII, 6",
+        "Gen. R. s. 89 (play on Kar , Is. XXX, 23) קירי א' Kyri (κύριος) means Lord."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 387,
+      "id": "A00386",
+      "source_headword": "אֲדֹונָה",
+      "editorial_headword": "אֲדֹונָה",
+      "editorial_gloss": "senhora; patroa",
+      "source_heads": [
+        "אֲדֹונָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5575cb614b1be5677be8c8824de75353d2f56f9e09f669588d1a39342f58876c",
+      "source_definition_excerpts": [
+        "mistress ."
+      ],
+      "source_note_excerpts": [
+        "Gen. R. s. 89 נצטער יוסף עם אֲדֹונָתוֹ Joseph suffered while being with his mistress. Ib. s. 98 (play on ben porath Gen. XLIX, 22) בן שהפר לא' וכ' the youth that broke (defeated the plans of) his mist"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 388,
+      "id": "A00387",
+      "source_headword": "אדוניא",
+      "editorial_headword": "אדוניא",
+      "editorial_gloss": "ver אוּדְנָא III",
+      "source_heads": [
+        "אדוניא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "40fe5cce9bec6834dd4fe5d19cdf0b334ab0570f74cac2d98a0da2d774c81295",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Tosef. Kel. B. Mets. VIII, 6, ed., v. אוּדְנָא III"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 389,
+      "id": "A00388",
+      "source_headword": "אדונקי",
+      "editorial_headword": "אדונקי",
+      "editorial_gloss": "ver אדנדקי",
+      "source_heads": [
+        "אדונקי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "67fdc325c33c02beddbe2ca73631e9ed692c24bc24da75a50888aeaac21463a8",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אדנדקי"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 390,
+      "id": "A00389",
+      "source_headword": "אִדּוּר",
+      "editorial_headword": "אִדּוּר",
+      "editorial_gloss": "ver אִדְרוּתָא",
+      "source_heads": [
+        "אִדּוּר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3a5ddd9fd62dfc1faa651d1088f1569560af0b04bbb5a0b64ab98155d474f695",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אִדְרוּתָא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 391,
+      "id": "A00390",
+      "source_headword": "אֲדוּרָה",
+      "editorial_headword": "אֲדוּרָה",
+      "editorial_gloss": "ver אָדַר",
+      "source_heads": [
+        "אֲדוּרָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8d979603185fd430ae1ca73f712c800f0aa9c739e18ab5b175d3f7a164aef196",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אָדַר"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 392,
+      "id": "A00391",
+      "source_headword": "אֲדוּרֵי,",
+      "editorial_headword": "אֲדוּרֵי,",
+      "editorial_gloss": "procissão; cortejo com ídolo",
+      "source_heads": [
+        "אֲדוּרֵי,",
+        "אַהֲדוּרֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "828a5be069be5541c2bdb91620e030a6bf287953d8e67030564c579089066c7c",
+      "source_definition_excerpts": [
+        "(הדר) procession ."
+      ],
+      "source_note_excerpts": [
+        "א' צלמא a procession in which an idol is carried. Y. Ab. Zar. III, 43 b bot.; Y. Ber. II, 4 b אה' צילמי'; Y. Shek. II, end, 47 a דארורא צילמא (read אדורי דצ'); Midr. Sam. ch. XIX צלמא הורדוסיס(?)."
+      ],
+      "assessment": "O",
+      "observation": "As formas precisas de Jeremias e Midraxe Samuel, com proposta de emenda, estão abreviadas; sentido de procissão continua adequado.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 393,
+      "id": "A00392",
+      "source_headword": "אֲדוּתָא",
+      "editorial_headword": "אֲדוּתָא",
+      "editorial_gloss": "ver אַדְווּתָא",
+      "source_heads": [
+        "אֲדוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8746094f836ec0315c7f82674aec3e44bbc80569268557537e459a4fac7a0de0",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַדְווּתָא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 394,
+      "id": "A00393",
+      "source_headword": "אֲדִי",
+      "editorial_headword": "אֲדִי",
+      "editorial_gloss": "balançar; lançar; arremessar",
+      "source_heads": [
+        "אֲדִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "07357e538ac060d367979bf6836074f11fa2a87aa8ab54f872b13cb4d531a21e",
+      "source_definition_excerpts": [
+        "(= ידי, b. h. הדה) to swing, throw, pitch ."
+      ],
+      "source_note_excerpts": [
+        "Snh. 7 a , v. גְּזִיזָא. B. Kam. 22 a ; Bets. 39 a אַדְיֵיה אדויי he threw it off. B. Kam. 98 a אדייה א' he pitched it out of his neighbor’s hands."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 395,
+      "id": "A00394",
+      "source_headword": "אדיא",
+      "editorial_headword": "אדיא",
+      "editorial_gloss": "possivelmente אֻרְזָא",
+      "source_heads": [
+        "אדיא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4b8e73546c46a083f9a95d92675c505353ba55f347610f2f097325e5aca99e02",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Y. Maasr. I, 49 b , prob. אֻרְזָא or אוּרְזָא; v. Y. Sabb. III, 6 b top."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 396,
+      "id": "A00395",
+      "source_headword": "אדיבון",
+      "editorial_headword": "אדיבון",
+      "editorial_gloss": "ler אִימִירֹון",
+      "source_heads": [
+        "אדיבון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5290b852fe5ed5bfd34f47d8011428861570531545d6bb4413780bb207e096c7",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "read אִימִירֹון."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 397,
+      "id": "A00396",
+      "source_headword": "אַדָּיוּתָא",
+      "editorial_headword": "אַדָּיוּתָא",
+      "editorial_gloss": "aspersão purificadora",
+      "source_heads": [
+        "אַדָּיוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5b010109653d57955f874cc3612e7c95df165122965937e19bceacf5e674eae2",
+      "source_definition_excerpts": [
+        "(נדי = h. הַזָּאָה) sprinkling (for purification)."
+      ],
+      "source_note_excerpts": [
+        "Targ. Num. XIX, 13 (Var. אַדְיוּתָא; h. text נִדָּה!). Targ. Ezek. XXXVI, 25 אַדְיוּתָא."
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 398,
+      "id": "A00397",
+      "source_headword": "אֲדַיִין",
+      "editorial_headword": "אֲדַיִין",
+      "editorial_gloss": "até agora; ainda; até este momento",
+      "source_heads": [
+        "אֲדַיִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f17414894a5f0ed4b32b602482ade8957bc87ae87ce4aaa529a9f9cbd7e46dae",
+      "source_definition_excerpts": [
+        "(= עֲדַיִין; אַד = עַד a. יין = הֵין; h. עַד הֵנָּה) until now ; whence, still, yet; as yet ."
+      ],
+      "source_note_excerpts": [
+        "Y. Ber. IV, 8 a bot. אין את לזו וא' art thou not yet up to this, i.e. dost thou not yet understand it? Y. Taan. II, 65 c bot. א' את לזו. Y. Git. IX, end, 50 d וא' את ליי art thou still at that point, "
+      ],
+      "assessment": "O",
+      "observation": "A composição explicativa de אַד = עַד e יין = הֵין e a comparação ao hebraico עַד הֵנָּה foram resumidas.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 399,
+      "id": "A00398",
+      "source_headword": "אֲדִיל",
+      "editorial_headword": "אֲדִיל",
+      "editorial_gloss": "ver אֲדַל",
+      "source_heads": [
+        "אֲדִיל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1c306f73af93bbe71d6e8afcb020064f1bb8dd6168849a9638a9193e8dd503ab",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֲדַל"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 400,
+      "id": "A00399",
+      "source_headword": "אַדִּילֵי",
+      "editorial_headword": "אַדִּילֵי",
+      "editorial_gloss": "variante de אַרְזִילֵי",
+      "source_heads": [
+        "אַדִּילֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "76e6df6a07a13e2da2bd42ea3fee8788ac4a31187876570daba0d9db47fc9ef1",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "m. pl., dialect. for אַרְזִילֵי. B. Bath. 74 b , v. אוּרְזִילָא"
+      ],
+      "assessment": "S",
+      "observation": "Sem divergência lexical central detectada no confronto do lema, da glosa e do texto-fonte; documentação integral não certificada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
     }
   ],
   "last_batch": {
-    "start_id": "A00200",
-    "end_id": "A00299",
-    "start_ordinal": 201,
-    "end_ordinal": 300,
+    "start_id": "A00300",
+    "end_id": "A00399",
+    "start_ordinal": 301,
+    "end_ordinal": 400,
     "count": 100,
     "counts": {
-      "S": 84,
-      "O": 9,
-      "E": 5,
-      "V": 2
+      "S": 79,
+      "O": 20,
+      "E": 0,
+      "V": 1
     },
-    "corrections_applied": 9,
-    "report": "auditoria/JASTROW-2026-10-11-filologia-lote003-A00200-A00299.md"
+    "corrections_applied": 11,
+    "report": "auditoria/JASTROW-2026-10-11-filologia-lote004-A00300-A00399.md"
   }
 }
