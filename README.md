@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## JASTROW — terceira auditoria filológica, verbetes 201–300 (11/10/2026)
+
+Cotejados individualmente **100 novos verbetes** (`A00200–A00299`) com o XML original de Jastrow, fonte Sefaria-Data imutável. Pareceres S=84, O=9, E=5, V=2; **9 emendas filológicas mínimas** efetuadas apenas em `chat-gpt-correcoes`, sem alterar fonte. Primeira passagem acumulada **300/600**; nenhuma certificação exaustiva: `total_audited=0`. O relatório completo contém 100 registros de evidência e a **tabela obrigatória dos dicionários com quantidades nos estados parciais**: [relatório do lote 003](auditoria/JASTROW-2026-10-11-filologia-lote003-A00200-A00299.md); [checkpoint cumulativo](auditoria/jastrow-filologia-progresso.json). Próximo `A00300–A00399`; correções aguardam processo de integração separado.
+
+
 ## JASTROW — auditoria filológica dos verbetes 101–200 (11/10/2026)
 
 Confrontados individualmente **100** registros (`A00100–A00199`) com seu XML: **S=82, O=17, E=1, V=0**. Publicadas **nove correções documentadas** exclusivamente em `chat-gpt-correcoes`, inclusive a variante textual errada em `A00165`. Primeira passagem acumulada **200/600**; aprovação exaustiva `total_audited=0` por persistirem notas, referências e testes pendentes. Relatório: [JASTROW lote 002](auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md); matriz cumulativa: [progresso](auditoria/jastrow-filologia-progresso.json). Tabela do relatório anterior reformatada sem modificar os pareceres. Próximo `A00200–A00299`. Integração por PR separado; `main` intocada.

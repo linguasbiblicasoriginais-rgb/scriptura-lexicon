@@ -174,3 +174,10 @@ JASTROW — AUDITORIA FILOLÓGICA LOTE 002, A00100–A00199 (11/10/2026)
 ================================================================================
 100/100 confrontos individuais Fonte XML/Tradução; S=82, O=17, E=1, V=0, nove intervenções mínimas somente na branch chat-gpt-correcoes, erro A00165 corrigido com variantes reais. Acumulado 200 registros examinados em primeira passagem; nenhum certificado integral, total_audited=0. Relatório auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md; checkpoint auditoria/jastrow-filologia-progresso.json. Relatório do lote 001 corrigido exclusivamente quanto à formatação da tabela. Próximo A00200–A00299. PR e integração são etapas separadas, main nunca alterada.
 ================================================================================
+
+
+================================================================================
+JASTROW — LOTE 003 DA AUDITORIA FILOLÓGICA, A00200–A00299 (11/10/2026)
+================================================================================
+Confrontados individualmente 100 registros da fonte XML Sefaria-Data com a redação portuguesa. S=84, O=9, E=5, V=2. Correções mínimas em 9 registros: A00200, A00202, A00204, A00207, A00214, A00247, A00278, A00282, A00286; nenhum dado-fonte inventado ou modificado. Alertas A00271/A00284 requerem consulta ao impresso. Checkpoint 300/600, próximo A00300, homologação integral 0/600. Relatório auditoria/JASTROW-2026-10-11-filologia-lote003-A00200-A00299.md; checkpoint auditoria/jastrow-filologia-progresso.json. Nova obrigação: em TODA tabela final de TODOS os dicionários, anexar quantidade numerador/denominador em qualquer ◐ (parcial), distinguindo auditoria estrutural, filológica inicial, lemas apenas, integração e entradas preliminares; sem número verificável registrar ◐ quantidade não comprovada, nunca inventar. Tabela geral incorporada ao relatório do lote 003. Exclusividade da branch chat-gpt-correcoes, nunca main.
+================================================================================

@@ -6,10 +6,10 @@
   "integrated_head_examined": "e3763a9a97e54446817bc920d6f454f84b353d58",
   "reviewed_range": {
     "start_id": "A00000",
-    "end_id": "A00199",
+    "end_id": "A00299",
     "start_ordinal": 1,
-    "end_ordinal": 200,
-    "count": 200
+    "end_ordinal": 300,
+    "count": 300
   },
   "review_type": "independent_individual_philological_comparison_not_exhaustive_certification",
   "categories": {
@@ -19,14 +19,14 @@
     "V": "Verificação adicional requerida"
   },
   "counts": {
-    "S": 158,
-    "O": 34,
-    "E": 4,
-    "V": 4
+    "S": 242,
+    "O": 43,
+    "E": 9,
+    "V": 6
   },
   "fully_certified": 0,
-  "next_ordinal": 201,
-  "next_id": "A00200",
+  "next_ordinal": 301,
+  "next_id": "A00300",
   "previously_manually_reviewed_outside_range": [
     "A00156",
     "A00238",
@@ -3829,19 +3829,2198 @@
       "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
       "editorial_correction_applied": false,
       "full_philological_certification": false
+    },
+    {
+      "ordinal": 201,
+      "id": "A00200",
+      "source_headword": "אָבַר",
+      "editorial_headword": "אָבַר",
+      "editorial_gloss": "curvar-se; engrossar; fortalecer; voar",
+      "source_heads": [
+        "אָבַר"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "51d5f61cb5a37d76d4dc094c3445a6e0fc7a5a92b310707bba315bec02bfb857",
+      "source_definitions": [
+        "(√אב, v. אבב ; cmp. גבר, חבר) to be bent, pressed, thick .",
+        "to strengthen, harden (cmp. אמץ).",
+        "(denom. of אֵבֶר) to measure wings, to define city limits, for Sabbath distances, in cases of wing-like projections beyond the line .",
+        "(b. h. Hif.) to soar, take wings ."
+      ],
+      "source_notes": [
+        "Pi. אִבֵּר, אִיבֵּר 1) to strengthen, harden (cmp. אמץ). Snh. 109 b (play on Abiram , Num. XVI, 1) שאִי' לבו מ' וכ' Ms. M. (Rashi לבבו, ed. עצמו) he hardened his heart against repentance.",
+        "Erub. V, 1 כיצד מְאַבְּרִין (accord. to Rab’s spelling, while Sam. read מְעַבְּרִין, v. Y. ib. 22 b , Bab. ib. 53 a ) how do we measure outskirts of a city in order to draw the Sabbath line?; v. etymo"
+      ],
+      "assessment": "E",
+      "observation": "A fonte contrasta as leituras de Rav (Rab) e Samuel, não de um 'Rabi' genérico; identificação corrigida.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 202,
+      "id": "A00201",
+      "source_headword": "אֲבַר",
+      "editorial_headword": "אֲבַר",
+      "editorial_gloss": "ganhar asas; elevar-se em voo",
+      "source_heads": [
+        "אֲבַר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "518bdc7183f13d25a8441ad7b1879fbb19985252744ea3d1fa644d8066e21b76",
+      "source_definitions": [
+        "Ithpe. אִתְאֲבַר (v. next w. a. foreg.) to be winged, to soar ."
+      ],
+      "source_notes": [
+        "Targ. Job XXXIX, 29."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 203,
+      "id": "A00202",
+      "source_headword": "אֵבֶר,",
+      "editorial_headword": "אֵבֶר,",
+      "editorial_gloss": "membro; parte; órgão; extremidade urbana",
+      "source_heads": [
+        "אֵבֶר,",
+        "(אֵיבֶר)"
+      ],
+      "source_senses": 5,
+      "source_xml_sha256": "b532b7471dc1e7fd57b6ee4a7ee19c8db44d5e6708108000308b64d287d02324",
+      "source_definitions": [
+        "wing , v. אָבַר ; cmp. כַּף, כָּנָף)",
+        "limb , part .",
+        "membrum genitale .",
+        "town quarter, projecting outskirts (v. אָבַר Pi ."
+      ],
+      "source_notes": [
+        "1) limb , part . —א' מן החי a part cut off from a living animal. Ḥull. 101 b ; a. fr.",
+        "Snh. 107 a . Y. Keth. V, 30 b"
+      ],
+      "assessment": "O",
+      "observation": "Segundo cabeçalho parentético אֵיבֶר omitido na versão portuguesa; restituído sem fundir as acepções.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 204,
+      "id": "A00203",
+      "source_headword": "אֲבָר",
+      "editorial_headword": "אֲבָר",
+      "editorial_gloss": "chumbo",
+      "source_heads": [
+        "אֲבָר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bc18726eaa5d450402a64152d3db80f04f77d4b62cb61a67eead6ff13283c1f4",
+      "source_definitions": [
+        "(v. אָבַר ; b. h. עֹפֶרֶת ) lead ."
+      ],
+      "source_notes": [
+        "Snh. 52 a פתילה של א' a string (bar) of lead. Ḥull. 8 a א' מעיקרו lead directly from the mine (hot). Y. Sabb. VII, 10 b bot. Kel. XIV, 5 הא' שבצד וכ' the lead hanging down from the neck of the animal "
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 205,
+      "id": "A00204",
+      "source_headword": "אֲבָר,",
+      "editorial_headword": "אֲבָר,",
+      "editorial_gloss": "chumbo; escrita com chumbo",
+      "source_heads": [
+        "אֲבָר,",
+        "(אַבְרָא) אֲבָרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9dd085f10aff7366a259cff3daa284cb2897cf1dcfe153e613e9c83b32d4e269",
+      "source_definitions": [],
+      "source_notes": [
+        "Targ. Ex. XV, 10. Targ. Y. Lev. XX, 14; a. e.—Snh. 64 a שדיוהו וכ' cast ye him into a kettle (of lead) וכסיוהו וכ' and cover him with lead (or heavy load; ed. שדיוה incorr.; Ms. M. omits דאברא; oth. v"
+      ],
+      "assessment": "E",
+      "observation": "A glosa 'grafite de chumbo' confundia chumbo com grafite moderno; corrigida para a escrita com chumbo descrita pelo original.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 206,
+      "id": "A00205",
+      "source_headword": "אֵבְרָא",
+      "editorial_headword": "אֵבְרָא",
+      "editorial_gloss": "membro; ver אֵיבְרָא",
+      "source_heads": [
+        "אֵבְרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0ae6adc5ad79934a1cab3a135e984762cf71ea9192e593141b8f6a7b024c1c24",
+      "source_definitions": [
+        "limb , v. אֵיבְרָא ."
+      ],
+      "source_notes": [],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 207,
+      "id": "A00206",
+      "source_headword": "אִבְרָא",
+      "editorial_headword": "אִבְרָא",
+      "editorial_gloss": "ver אִיבְרָא",
+      "source_heads": [
+        "אִבְרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d02cc5f076b83139460fa35b0e6f8c55b592e045b7660efb8d9e553deeb9972b",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אִיבְרָא"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 208,
+      "id": "A00207",
+      "source_headword": "*אַבָּרָא",
+      "editorial_headword": "*אַבָּרָא",
+      "editorial_gloss": "galo",
+      "source_heads": [
+        "*אַבָּרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7a180e9a3da7b155e087464c12f53e769bb91bc29f49eb4fd4b9019686c83390",
+      "source_definitions": [
+        ", Targ. Prov. XXX, 31 Ms. the cock , cmp. אבר a. גבר; v. אַבָּכָא."
+      ],
+      "source_notes": [],
+      "assessment": "E",
+      "observation": "O asterisco da fonte fora tratado como prova de leitura conjectural; retirou-se a qualificação não demonstrada.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 209,
+      "id": "A00208",
+      "source_headword": "אַבְרָאִי",
+      "editorial_headword": "אַבְרָאִי",
+      "editorial_gloss": "fora; do lado de fora",
+      "source_heads": [
+        "אַבְרָאִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4376c96ec6e68b34957dfb3e5b0e3973094e4fa3686aa68215e8f4ec217682b3",
+      "source_definitions": [
+        "adv. (בר) outside , freq. with prefix מֵ־, opp. אגואי."
+      ],
+      "source_notes": [
+        "Ḥull. 130 ab Ab. Zar. 2 b למיתב מלכא מא' for the king to wait outside (of the court-room). R. Hash. 8 b למיקם … א'. Ber. 18 b יתיב א' sat outside (of the gathering of the righteous in heaven). Cmp. בְ"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 210,
+      "id": "A00209",
+      "source_headword": "אברגני,",
+      "editorial_headword": "אברגני,",
+      "editorial_gloss": "ver אַבּוּרְגְּנָא",
+      "source_heads": [
+        "אברגני,",
+        "אברוגני"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fe6aad549314363d6a76d02f68cbd244f8740cb61d78257a6d73669db26a42a9",
+      "source_definitions": [],
+      "source_notes": [
+        ", Erub. 62 a , Var., v. אַבּוּרְגְּנָא"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 211,
+      "id": "A00210",
+      "source_headword": "אַבְרוּיֵי",
+      "editorial_headword": "אַבְרוּיֵי",
+      "editorial_gloss": "ver ברי (aramaico)",
+      "source_heads": [
+        "אַבְרוּיֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "21141b2c100267ed0dc8d7ea07e7066ebf5c40dbb3ddd1b380eccf81209a2e05",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. ברי ch."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 212,
+      "id": "A00211",
+      "source_headword": "אַבְרַוְורֵי,",
+      "editorial_headword": "אַבְרַוְורֵי,",
+      "editorial_gloss": "torres nas muralhas; lastro; contrapeso",
+      "source_heads": [
+        "אַבְרַוְורֵי,",
+        "אַבְרוּרֵי"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "ada1021ed2703977a1e938090ad327d1ff4b086102c972f9dbb2b7d9dd51bb39",
+      "source_definitions": [
+        "(denom. of אבר, cmp. חברורי)",
+        "(cmp. אָבַר Pi.) wings or corners of city walls (h. פִּנָּה), pinnacles, mural turrets .",
+        "(v. אֵבֶר a. חֶבֶר) balance, freight arranged for balancing, ballast ."
+      ],
+      "source_notes": [
+        "1) (cmp. אָבַר Pi.) wings or corners of city walls (h. פִּנָּה), pinnacles, mural turrets . Sabb. 11 a ed. (Ar. אברוארי, read אבראורי; Ms. M. אַוְרַוְרֵי; Var. lect. v. Rabb. D. S. a. l. note)",
+        "B. Bath 24 b אימור באברוו' הוו מנחי Ms. M. (ed. באברו') I may say, the small kegs were placed among the large for balancing purposes."
+      ],
+      "assessment": "O",
+      "observation": "A fonte discrimina leituras do Arukh, manuscrito M. e edições da palavra para torres; o cartão apenas resume a variação.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 213,
+      "id": "A00212",
+      "source_headword": "אִבְרוֹטִי",
+      "editorial_headword": "אִבְרוֹטִי",
+      "editorial_gloss": "ver אִבְרוֹסִי",
+      "source_heads": [
+        "אִבְרוֹטִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d981cb5a749312afa982bde61ab10a1ec1d7d9a49d4c7ff2cfbc1c0f9ec2d4a5",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אִבְרוֹסִי"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 214,
+      "id": "A00213",
+      "source_headword": "אברוכסים",
+      "editorial_headword": "אברוכסים",
+      "editorial_gloss": "ver בריכסון",
+      "source_heads": [
+        "אברוכסים"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c866826ff44c8e1ce50edc63be4b77e59b110b6a79c4bc7d917d6792982852fe",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. בריכסון"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 215,
+      "id": "A00214",
+      "source_headword": "אברומא,",
+      "editorial_headword": "אברומא,",
+      "editorial_gloss": "preparação de peixe picado; salmoura de peixe",
+      "source_heads": [
+        "אברומא,",
+        "אבדומא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "eef2d429dc0af0722b51351c24c2fc21be9357a44059ec9d4ec1b984f73a10b1",
+      "source_definitions": [
+        "hash or brine of a certain fish (Ἀβραμίς?)."
+      ],
+      "source_notes": [
+        "Succ. 18 a (Ms. M. a. ed. אבד', v. Rabb. D. S. a. l.) [Rashi: ‘ a very small fish ’.]"
+      ],
+      "assessment": "E",
+      "observation": "A tradução 'conserva picada' não corresponde claramente a 'hash or brine' de peixe; corrigida para preparação de peixe picado ou salmoura, sem impor espécie.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 216,
+      "id": "A00215",
+      "source_headword": "*אִבְרוֹסִי",
+      "editorial_headword": "*אִבְרוֹסִי",
+      "editorial_gloss": "ibrosi; variedade de azeitona",
+      "source_heads": [
+        "*אִבְרוֹסִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e3dee63004a98570242d397387bfeebb55ea1e5b16f83b71b285345775ca942f",
+      "source_definitions": [
+        "(prob. a. geogr. term) ibrosi , name of a species of olive of medium size, also called אֵגוֹרִי q. v. Ber. 39 a its name is not egori , אלא א' וכ' Ms. M. (ed. אברוטי, Ar. ed. Koh. אברוצי) but its original name is ibrosi or as some say סִבְרוֹסִי Ms. "
+      ],
+      "source_notes": [],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 217,
+      "id": "A00216",
+      "source_headword": "אברוקלון",
+      "editorial_headword": "אברוקלון",
+      "editorial_gloss": "ver אַמְבּוּרְקְלוֹן",
+      "source_heads": [
+        "אברוקלון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b4d8991d28888657264426892245e03efe41bb585da6465ee24a9d39963ebfc8",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אַמְבּוּרְקְלוֹן"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 218,
+      "id": "A00217",
+      "source_headword": "אַבְרוּרֵי",
+      "editorial_headword": "אַבְרוּרֵי",
+      "editorial_gloss": "ver אַבְרַוְורֵי",
+      "source_heads": [
+        "אַבְרוּרֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3406528b28fb5a60d83b60b821c0710d5044c537d8bde2b4348e51a2c68cc728",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אַבְרַוְורֵי"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 219,
+      "id": "A00218",
+      "source_headword": "*אַבְרוֹשַׁךְ",
+      "editorial_headword": "*אַבְרוֹשַׁךְ",
+      "editorial_gloss": "prato de farinha, mel e óleo",
+      "source_heads": [
+        "*אַבְרוֹשַׁךְ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c2a8dc82509feca7ee92a995cbe79cc27eaecb84b87c1b39787721e5e29584be",
+      "source_definitions": [
+        "(Pers. âfrôsah) a dish of flour, honey, and oil; a word in a marginal note in Ms. M. to Ber. 37 a , quoted in Ar. and in Rashi to 36 b bot. (אברוש\"די, corr. acc.), defining חביץ קדרה."
+      ],
+      "source_notes": [
+        "V. Rabb. D. S. a. l."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 220,
+      "id": "A00219",
+      "source_headword": "*אַבְרוֹת,",
+      "editorial_headword": "*אַבְרוֹת,",
+      "editorial_gloss": "ver בְּרוֹת",
+      "source_heads": [
+        "*אַבְרוֹת,",
+        "אברית"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9ce2270e916d60480c8faf6dccb4dffa6068bb256617ee1a21f3f96b58eebce6",
+      "source_definitions": [],
+      "source_notes": [
+        ", Tosef. Neg. VIII, 2, v. בְּרוֹת"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 221,
+      "id": "A00220",
+      "source_headword": "*אֲבִרְזִין",
+      "editorial_headword": "*אֲבִרְזִין",
+      "editorial_gloss": "pele aparada; cobertor de pele; manta",
+      "source_heads": [
+        "*אֲבִרְזִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7582e335ac90567eefb96d33809caa2ea64ef4c7d790fe5d31f8558946424952",
+      "source_definitions": [
+        "(בזא II, v. בִּרְזָא II ; cmp. h. equiv."
+      ],
+      "source_notes": [
+        "עוּבְצָה, עוּבְצָא) prop. cutting, trimming , hence fur trimmed of its extremities ( and pinked ), in gen. carriage-robe, cover [R. Hai Gaon declares our w. to be Persian, v. Ar. ed. Koh. s. v., a. Fl"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 222,
+      "id": "A00221",
+      "source_headword": "*אַבְרְיָיאָה",
+      "editorial_headword": "*אַבְרְיָיאָה",
+      "editorial_gloss": "lugares afastados; aldeias; cabanas",
+      "source_heads": [
+        "*אַבְרְיָיאָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b7a7b9ced2fb7a37dbbc2881bb19ec315d3466258630ba47e764feb4bb7d4410",
+      "source_definitions": [
+        "(v. בַּר II ) lit. outside places , hence villages, cottages ."
+      ],
+      "source_notes": [
+        "Y. Ber. VI, 10 a [Comment. ‘ to take refreshments ’, v. אִיבְרָיָיא]. [אברייאה Cant. R. to II, 14, read אִיגָּרַיָיא, v. אִיגָּר.]"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 223,
+      "id": "A00222",
+      "source_headword": "אַבְרִיקִין",
+      "editorial_headword": "אַבְרִיקִין",
+      "editorial_gloss": "ver אַבְרְקִין",
+      "source_heads": [
+        "אַבְרִיקִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b1001bbc374e716b6e60a14d663e31355722959eac872b20efd01acee1577caf",
+      "source_definitions": [],
+      "source_notes": [
+        ", Y. Sabb. XVI, 15 d , v. אַבְרְקִין"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 224,
+      "id": "A00223",
+      "source_headword": "אברית",
+      "editorial_headword": "אברית",
+      "editorial_gloss": "ver אַבְרוֹת",
+      "source_heads": [
+        "אברית"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ff26fb11edd28aaa795540fcb316294b81a5f8042430b4938ef527b82ff51329",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אַבְרוֹת"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 225,
+      "id": "A00224",
+      "source_headword": "אַבְרֵךְ",
+      "editorial_headword": "אַבְרֵךְ",
+      "editorial_gloss": "Abrek; título interpretado homileticamente",
+      "source_heads": [
+        "אַבְרֵךְ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ae20d8bd857bd88f3c2cfba691ab53c095dd574f55d0958844d8a7351aff1c38",
+      "source_definitions": [
+        "(Gen. XLI, 43) Abhrekh , a title; homiletically defined א̇ב̇ בחכמה ורַ֗ךְ֗ בשנים father in wisdom, tender in years. Gen. R. s. 90."
+      ],
+      "source_notes": [],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 226,
+      "id": "A00225",
+      "source_headword": "*אֵבְרָנִי",
+      "editorial_headword": "*אֵבְרָנִי",
+      "editorial_gloss": "ave marinha; gaivota (?)",
+      "source_heads": [
+        "*אֵבְרָנִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4dbd63437659dcf30016e59b41318cd0a670ff6d027eefbed9fa5d0076a0fe75",
+      "source_definitions": [
+        "(prob. fr. אֵבֶר; well-winged ) name of a bird , prob. sea-mew ."
+      ],
+      "source_notes": [
+        "Yalk. Esth. 1054; (Esth. R. to III, 6 עוף)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 227,
+      "id": "A00226",
+      "source_headword": "*אֲבַרְנִים,",
+      "editorial_headword": "*אֲבַרְנִים,",
+      "editorial_gloss": "carne semicrua; parcialmente cozida",
+      "source_heads": [
+        "*אֲבַרְנִים,",
+        "(?)"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d9b724eb71068fc156b4f64ae1d5511dcdf19b4f0f1869d2da37cf4fdbb88576",
+      "source_definitions": [
+        "(Pers., v. Fl. to Levy Talm. Dict. s. v., a. Lagarde Ges. Abh. vol. 23) half-done meat ."
+      ],
+      "source_notes": [
+        "Pes. 41 a (explain. נָא Ex. XII, 9) כדאמרי פרסאי א' (Yalk. Ex. 197 כד' אינשי) as the Persians say abarnim . [כדאמרי פרסאי does not necessarily refer to the Persian language, cmp. דְּבִיר. Perh. our w."
+      ],
+      "assessment": "O",
+      "observation": "A hipótese etimológica permanece adequadamente condicional, mas variantes de citação em Yalkut Êxodo foram resumidas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 228,
+      "id": "A00227",
+      "source_headword": "אַבְרַנְסֵי",
+      "editorial_headword": "אַבְרַנְסֵי",
+      "editorial_gloss": "ver אַוְרַנּוֹס",
+      "source_heads": [
+        "אַבְרַנְסֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f0aef44ff071742b47e98d3e73a8480ae4961f9570c33a9ea41ed635e86132f6",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אַוְרַנּוֹס"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 229,
+      "id": "A00228",
+      "source_headword": "אברסקין",
+      "editorial_headword": "אברסקין",
+      "editorial_gloss": "ver אוורקסין",
+      "source_heads": [
+        "אברסקין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1d321449d7cb9abc51253fe6e7f2ad75c71c37a61e11a2e78b0e277d40ced5da",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אוורקסין"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 230,
+      "id": "A00229",
+      "source_headword": "אַבְרְקִין,",
+      "editorial_headword": "אַבְרְקִין,",
+      "editorial_gloss": "roupa de baixo; calções",
+      "source_heads": [
+        "אַבְרְקִין,",
+        "בְּרַקִּין"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "3c46ed127ca0430d4eb6241e6013325647097293fda0961afdab65a954753c30",
+      "source_definitions": [
+        "(ברק = פרק; cmp. בקר = פקר, v. אפקרסין ) underclothes, inexpressibles, breeches (cmp. Lat. bracæ, braccæ—of Oriental origin)."
+      ],
+      "source_notes": [
+        "Y. Sabb. XVI, 15 d שני א' Ar. (ed. Krot. אַבְרִיקִין; Bab. ib. 120 a וב' פרגד, Ms. M. פרגוד, Ar. פרגודין; Rashi genouilliers , a. German Kniehosen ). Y’lamd. B’resh. quot. in Ar. (expl. פטישיהון Dan. ",
+        "ב' הנתונות וכ' (fem.) the underclothes put around their loins."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 231,
+      "id": "A00230",
+      "source_headword": "אַבְרָתָא,",
+      "editorial_headword": "אַבְרָתָא,",
+      "editorial_gloss": "hissopo; erva medicinal",
+      "source_heads": [
+        "אַבְרָתָא,",
+        "אַבְרָתָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ac442f75d715d3f4bdd074d58db7fee16c037b877df4d3aff2ea150393ec975f",
+      "source_definitions": [
+        "(ברי, v. אִיבְרָיָיא , a. הַבְרָאָה) hyssop (used against indigestion &c.)."
+      ],
+      "source_notes": [
+        "Sabb. 128 a (explaining אֵזוֹב). Ib. 109 b אברתה (mentioning two species, one named בר־הימג = אזוב, the other בר־הינג = אזוב יון). Ab. Zar. 29 a Ms. M. a. Ar. (ed. אבדתא)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 232,
+      "id": "A00231",
+      "source_headword": "אַבְשׁוּנָא,",
+      "editorial_headword": "אַבְשׁוּנָא,",
+      "editorial_gloss": "espigas tostadas; grãos secos",
+      "source_heads": [
+        "אַבְשׁוּנָא,",
+        "אֲבִישְׁנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a2699695480a9faaef08469ba6f98321a49e48760c58f96db483eaa120c2ad69",
+      "source_definitions": [
+        "(אבש = יבש) something dried; parched or dried ears of grain ."
+      ],
+      "source_notes": [
+        "Meg. 7 b ; Ps. 39 b קמחא דא' flour of roasted ears. Ib. 40 a חצבא דאבשו' Ar. (ed. אבי') a basin wherein ears are roasted."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 233,
+      "id": "A00232",
+      "source_headword": "אֻבְשִׁין",
+      "editorial_headword": "אֻבְשִׁין",
+      "editorial_gloss": "ver אוּבְשִׁין",
+      "source_heads": [
+        "אֻבְשִׁין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9082f6c1c6e095a203b770d9a2cb5f8fe0aafa159422d2fd0bc732f278323699",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אוּבְשִׁין"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 234,
+      "id": "A00233",
+      "source_headword": "(עָגָה) אָגָא",
+      "editorial_headword": "(עָגָה) אָגָא",
+      "editorial_gloss": "soletrar; blasfemar; jurar",
+      "source_heads": [
+        "(עָגָה) אָגָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3319d9288efedb26af0d30a4143ad1346c7ccb0f95631b0ae6a72ee523a1bac0",
+      "source_definitions": [
+        "(Samar. אגה rendition of b. h. נקב ; cmp. הָגָה ) to spell (letters), blaspheme, swear ."
+      ],
+      "source_notes": [
+        "Snh. 101 b תנא (ו)בגבולין ובלשון אגא Ar. (ed. עגה), the Boraitha remarks (to ההוגה as in Mishn. a. l.) this (condemnation of one uttering the name of the Lord) refers to the country (not the Temple), "
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 235,
+      "id": "A00234",
+      "source_headword": "אגאלוגין,",
+      "editorial_headword": "אגאלוגין,",
+      "editorial_gloss": "ler אִילוֹגִין",
+      "source_heads": [
+        "אגאלוגין,",
+        "אגאליגין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3c2c7f0bf8e9971c6f7b32b7dda93ab1bf026face108d81f02bd023a72fe3430",
+      "source_definitions": [],
+      "source_notes": [
+        "Gen. R. s. 28, beg., read אִילוֹגִין."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 236,
+      "id": "A00235",
+      "source_headword": "אַגַּב",
+      "editorial_headword": "אַגַּב",
+      "editorial_gloss": "sobre; por meio de; em virtude de; incidentalmente",
+      "source_heads": [
+        "אַגַּב"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "34a63d76a2d0e2cf21e1877bb1c2b474733eb796491a55fc754b4103a52e8e07",
+      "source_definitions": [
+        "(contr. of אל גב = עַל, cmp. אַ־) prop. on the back, on top of , hence, upon, on the basis; (logic.) by dint of, on account of; by the way of ."
+      ],
+      "source_notes": [
+        "Snh. 95 b א' אורחך while on thy road, i.e. incidentally, occasionally . Freq. אורחא א', v. אוֹרְחָא.—B. Mets. 21 b א' דיקירי because they are heavy.—Ib. 11 b , a. fr. מטלטלין א' מקרקעי the sale of mov"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 237,
+      "id": "A00236",
+      "source_headword": "אַגַּבָּא",
+      "editorial_headword": "אַגַּבָּא",
+      "editorial_gloss": "ver גַּבָּא",
+      "source_heads": [
+        "אַגַּבָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4d5757e3430dcedf44e242c2834278e524b8cfcd0917c60cecda6258ed90a0d3",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. גַּבָּא"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 238,
+      "id": "A00237",
+      "source_headword": "אגבאסטס",
+      "editorial_headword": "אגבאסטס",
+      "editorial_gloss": "ver אָגוּסְטוֹס",
+      "source_heads": [
+        "אגבאסטס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "034cbe3b30eb07b718ac274d919cdcbd358fda93d837c18ba32901f5b9a411a0",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אָגוּסְטוֹס , end."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 239,
+      "id": "A00238",
+      "source_headword": "*אַגְבִּין",
+      "editorial_headword": "*אַגְבִּין",
+      "editorial_gloss": "cálice; corola; estrutura floral",
+      "source_heads": [
+        "*אַגְבִּין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3ffb52ac03b00eeafa481eba1dc2f6257ea8f3472eab2d9521477ebda83f8aaa",
+      "source_definitions": [
+        "(= אוֹגְבִין, h. גְּבִיעַ, גִּבְעוֹל) calix or corolla of flowers."
+      ],
+      "source_notes": [
+        "Y. Kil. IX, 32 a top א' קסריי the cissaros blossom (v. Lat. Dict. s. v. cissaros , Gr. Dict. s. v. χρυσάνθεμον) “a woolly substance growing on stones at the Dead Sea, looking like gold, and being very"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 240,
+      "id": "A00239",
+      "source_headword": "אָגַד,",
+      "editorial_headword": "אָגַד,",
+      "editorial_gloss": "atar; prender; unir; proibir; formar facção",
+      "source_heads": [
+        "אָגַד,"
+      ],
+      "source_senses": 5,
+      "source_xml_sha256": "b6564b594ef723ae37f23738cf607c8dc1a70f135ece02ea192157dc9531f23f",
+      "source_definitions": [
+        "(√אג, sec. r. of אוג, v. אוּגְיָא , cmp. אגר, חגר, עקד)",
+        "to twine around, tie up; to close, forbid .",
+        "(denom. of אֲגוּדָּה) to form a union or faction .",
+        "to be tied up, united &c. Maasr. I, 5 ירק הנֶ' משיֵאָגֵד vegetables ordinarily put up in bunches, are subject to tithes from the time they are tied."
+      ],
+      "source_notes": [
+        "1) to twine around, tie up; to close, forbid . Succ. III, 1; a. fr.—Sabb. 60 a אוֹגֶדֶת בו וכ' Ar. (ed. אוגרת, Ms. M. חוגרת) she fastens her hair with it.—Pes. 87 a בנות ישראל שאוֹגְדוֹת וכ' ed. (Ms. ",
+        "Sifré Deut. 294, v. Nif. [B. Bath. 14 a לוחות אוגדות, v. אָגַר a. אָכַל.]"
+      ],
+      "assessment": "O",
+      "observation": "O cartão trata as diferenças interpretativas, mas comprime as variantes de Sifra, Pesahim e dos testemunhos relativos ao Hifil.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 241,
+      "id": "A00240",
+      "source_headword": "אֲגַד,",
+      "editorial_headword": "אֲגַד,",
+      "editorial_gloss": "atar; estar ligado",
+      "source_heads": [
+        "אֲגַד,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e3d0b8ba177087b767c75e895b254d6e0f93e0ef1a3b91efd9baefad5b2e3594",
+      "source_definitions": [
+        "to tie ."
+      ],
+      "source_notes": [
+        "Part. pass. אָגִיד. Yeb. 39 b הא אֲגִידָא ביה is she not tied to him?, hence he must marry her."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 242,
+      "id": "A00241",
+      "source_headword": "אָגַד,",
+      "editorial_headword": "אָגַד,",
+      "editorial_gloss": "alongar; prorrogar; adiar",
+      "source_heads": [
+        "אָגַד,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e77ffc9ace91323d1311cf6e423f5c0292b3c9b64a7aff383254e118031b2ea5",
+      "source_definitions": [
+        "(√גד, v. נגד a. גדל) , Hif. הֵגִיד to stretch, prolong, postpone ."
+      ],
+      "source_notes": [
+        "Erub. 21 b ; Pes. 87 a (Ar. s. v. גד, v. however אָגַד I) שמֵגִידוֹת וכ' who postpone (reserve) sexual intimacy for their husbands. Y. Keth. V, 29 d bot. אני מֵיגֶדֶת וכ' I will extend (spend all the "
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 243,
+      "id": "A00242",
+      "source_headword": "אֲגַד,",
+      "editorial_headword": "אֲגַד,",
+      "editorial_gloss": "prolongar-se; ser alongado",
+      "source_heads": [
+        "אֲגַד,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "77083bcbd8f8923c6c23098a11b3f8675a0e8ba43fc28498006970ac7d5263f9",
+      "source_definitions": [
+        "; to be lengthened ."
+      ],
+      "source_notes": [
+        "Targ. Y. Ex. XIX, 13; Deut. XXX, 6. Denom. אוֹגְדוּתָא."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 244,
+      "id": "A00243",
+      "source_headword": "אֲגַד,",
+      "editorial_headword": "אֲגַד,",
+      "editorial_gloss": "muleta; vara comprida; canga de transporte",
+      "source_heads": [
+        "אֲגַד,",
+        "אַגְדָא"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "403403004b3ad91630e1e4c2962ce5730dc9f4db5261466a57f61317500e17d6",
+      "source_definitions": [
+        "(foreg.) long staff , whence",
+        "crutch .",
+        "pole used as a yoke to carry burdens on the shoulder."
+      ],
+      "source_notes": [
+        "1) crutch . Targ. II Sam. III, 29 (some ed. אגר).",
+        "B. Mets 83 a דדרו בא' Ar., Ms. H., Oxf. &c. (Ms. M. איגרא, ed. אגרא, v. Rabb. D. S. a. l. note) who carry a burden on a yoke. Bets. 30 a (v. Rabb. D. S. a. l. note"
+      ],
+      "assessment": "O",
+      "observation": "Variação textual relevante para a canga foi representada, porém sem identificação individual de manuscrito H. e Oxford.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 245,
+      "id": "A00244",
+      "source_headword": "(אִיגְדּ־) אֵגֶד",
+      "editorial_headword": "(אִיגְדּ־) אֵגֶד",
+      "editorial_gloss": "laço; nó; feixe; atadura",
+      "source_heads": [
+        "(אִיגְדּ־) אֵגֶד"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "e6cdad570293080a71026c51e3bd20b53e0ae3853d389ad325bbc1afa32060ab",
+      "source_definitions": [
+        "(אגד I)",
+        "tie, knot .",
+        "bunch .",
+        "surgical bandage ."
+      ],
+      "source_notes": [
+        "1) tie, knot . Succ. 10 b , a. fr. צריך א' must be tied together. Ib. הותר אִגְדּוֹ if the tie of the Lulab became loosened. Erub. 101 b sq. בניטל באִגְדּוֹ (a. twice אִיגְ', Rabb. in D. S. a. l. באוּ",
+        "Y. Ter. II, 41 b א' שנטמא a bunch of herbs that became unclean."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 246,
+      "id": "A00245",
+      "source_headword": "אֵגֶד,",
+      "editorial_headword": "אֵגֶד,",
+      "editorial_gloss": "nó; amarração",
+      "source_heads": [
+        "אֵגֶד,",
+        "אֵיגֶד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f299ab8d1dbb5c3728d61a1bad95fde13e8769e816d66902968d676fdfb295da",
+      "source_definitions": [],
+      "source_notes": [
+        "Succ. 33 b אי' מעלייתא וכ' (fem.!) it requires a substantial binding."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 247,
+      "id": "A00246",
+      "source_headword": "אַגְדָּא",
+      "editorial_headword": "אַגְדָּא",
+      "editorial_gloss": "ver אֲגַד III",
+      "source_heads": [
+        "אַגְדָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "05e04ff501a91e18d9995972142c052fa9c7c59655eed12f534d96870f05ae85",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אֲגַד III"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 248,
+      "id": "A00247",
+      "source_headword": "אַגָּדָה",
+      "editorial_headword": "אַגָּדָה",
+      "editorial_gloss": "agadá; narrativa; comentário homilético",
+      "source_heads": [
+        "אַגָּדָה",
+        "אֲגָדָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a177fd3a474583d87203366f0d0fcad3410474d115d2208837cc2cf3c1bf01bb",
+      "source_definitions": [
+        "(נגד, נ absorbed or dropped = הַגָּדָה) tale, story, lesson , esp. Agadah , that class of Rabb. literature which explains the Bible homiletically , opp. to Halakhah or legal interpretation (הֲלָכָה, שְׁמוּעָה)."
+      ],
+      "source_notes": [
+        "M. Kat. 23 a שמ' וא' a legal tradition and an Agadah (homily). Y. Yeb. XII, 13 a . Y. B. Bath. VI, 15 c מסורת א' היא it is a traditional Agadah.—Y. Git. IV, 45 c בא' … מאן דייק לן who among us can ent"
+      ],
+      "assessment": "O",
+      "observation": "A grafia variante אֲגָדָה foi omitida, embora o sentido de agadá esteja correto; restituída.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 249,
+      "id": "A00248",
+      "source_headword": "אֲגֻדָּה",
+      "editorial_headword": "אֲגֻדָּה",
+      "editorial_gloss": "ver אֲגוּדָּה",
+      "source_heads": [
+        "אֲגֻדָּה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b1c6eb0d33448e3e8d1b5ec6c2d9a194f56d20787cf66e3b19c4f45c1e7ff575",
+      "source_definitions": [
+        ", pl.אֲגֻדּוֹת Tosef. Makhsh. III, 8 ed. Zuck., v. אֲגוּדָּה ."
+      ],
+      "source_notes": [],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 250,
+      "id": "A00249",
+      "source_headword": "אגדו,",
+      "editorial_headword": "אגדו,",
+      "editorial_gloss": "ver אִגְּרוּ",
+      "source_heads": [
+        "אגדו,",
+        "אגדון"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ea1ae486ff2331e47b60095fe7cc8fc4b87bbd14da3ae78fb6186f6046d1659d",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אִגְּרוּ"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 251,
+      "id": "A00250",
+      "source_headword": "אגדיס",
+      "editorial_headword": "אגדיס",
+      "editorial_gloss": "ver הָגְדָּס",
+      "source_heads": [
+        "אגדיס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1d965d69feba6d3823e4e37b6a9d0c8059c86a56faf47487b63dc3ea76b0bfdb",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. הָגְדָּס"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 252,
+      "id": "A00251",
+      "source_headword": "אֶגְדִּיקוֹס",
+      "editorial_headword": "אֶגְדִּיקוֹס",
+      "editorial_gloss": "representante público; defensor da cidade",
+      "source_heads": [
+        "אֶגְדִּיקוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "231ad824f1ca274d2619264e85cc106ac0097270822aef2fdec999fe14660bdb",
+      "source_definitions": [
+        "(אֶגְדִּיקָס, popular corrupt. אנד', cmp. אַנְדִּיסְקֵי) m. (ecdicus = cognitor sive defensor civitatis, esp. in Asia Minor) state’s agent, syndic ."
+      ],
+      "source_notes": [
+        "Gen. R. s. 12 א' ממונה על ביא שלה (ed. אנד'; בית שלו, corr. acc.) when an ecdicus is in the country, he holds the authority over the public road (curator viæ, v. בִּיָּא). Yalk. Ps. 794 (a. Ar.) אגר',"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 253,
+      "id": "A00252",
+      "source_headword": "אַגְדָּנָא",
+      "editorial_headword": "אַגְדָּנָא",
+      "editorial_gloss": "losna; possível marrúbio",
+      "source_heads": [
+        "אַגְדָּנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e9214a35532539596bdf8b08cf61f9c949a61bafd8a5ddbd959b01a367c4531a",
+      "source_definitions": [
+        "(v. גַּד I a. גִּירָּא , P. Sm. 23) worm-wood (Rashi: horehound )."
+      ],
+      "source_notes": [
+        "Ab. Zar. 29 a Ar. a. ed. (Ms. M. אוגרנא, with ר), in a prescription against asthma. Targ. Y. I Deut. XXIX, 17 אגד' (Var. אגר'); ed. Vienna pl. אַגְדָּנַיָּא (אגר')."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 254,
+      "id": "A00253",
+      "source_headword": "אֲגַדְתָּא",
+      "editorial_headword": "אֲגַדְתָּא",
+      "editorial_gloss": "agadá; homilia; Hagadá pascal",
+      "source_heads": [
+        "אֲגַדְתָּא"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "6cbe1e22d361a8d73f9960521417a802e2ffb74045d0d4b7fa9b04e7a130cb03",
+      "source_definitions": [
+        "(= h. אֲגָדָה)",
+        "Agadah, homiletic literature .",
+        "the Haggadah , i.e. the recitations for the Passover night ."
+      ],
+      "source_notes": [
+        "1) Agadah, homiletic literature . B. Kam. 60 b opp. שמעתתא. Sotah 49 a יהא שמיה רבא דא' (abbr. יה\"ש\"ר) the kaddish (prayer) after lectures. Y. Sabb. XVI, 15 c",
+        "Ps. 115 b א' והלילא Haggadah and Hallel. Ib. 116 b מאן דאמר א' וכ' who recited the Hag. in the house of R. Joseph (who was blind)?"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 255,
+      "id": "A00254",
+      "source_headword": "אֵגֶה",
+      "editorial_headword": "אֵגֶה",
+      "editorial_gloss": "espinho; arbusto espinhoso",
+      "source_heads": [
+        "אֵגֶה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "585e4b6d655282da701fdb7d3b62e589c5d377198a3310c075af38ed6a3c5ab7",
+      "source_definitions": [
+        "(אָגָה to sting , v. אָגָא , √אג = חג, v. חגג) thorn, thorn-bush ."
+      ],
+      "source_notes": [
+        "Y. Shebi. VII, 37 b top.— Pl. אֵגִין . Y. Kil. V, 30 a bot.; v. הֵיגֶה."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 256,
+      "id": "A00255",
+      "source_headword": "אַגְוָאִי",
+      "editorial_headword": "אַגְוָאִי",
+      "editorial_gloss": "dentro; no interior; entre",
+      "source_heads": [
+        "אַגְוָאִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "eb6cf1d8cb318961ae108804f69128e6edf70fdd921d785c9be0dc20e0f68d4b",
+      "source_definitions": [
+        "adv. inside, amid , v. אַבְרָאִי."
+      ],
+      "source_notes": [
+        "Ḥull. 130 ab . Cmp. גַּו."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 257,
+      "id": "A00256",
+      "source_headword": "אָגוֹגָא",
+      "editorial_headword": "אָגוֹגָא",
+      "editorial_gloss": "fenda; fissura; cascata",
+      "source_heads": [
+        "אָגוֹגָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ffa8cc90137f2e878b74b43c8bc0b2be81cbcdf7a51e3b5f3ff7d219032012cb",
+      "source_definitions": [
+        "(אגג, v. אֵגֶה = h. חוֹגֵג q. v.) cleft, fissure ."
+      ],
+      "source_notes": [
+        "א' דמיא cataract, water-falls (issuing from a fissure). Lam. R. to I, 17 (play on ḥ ogeg ibid. Ps. XLII, 5) כהדין א' וכ' Ar. like the cataract that rests neither &c. [Ed. געגעא]."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 258,
+      "id": "A00257",
+      "source_headword": "אֱגוֹד",
+      "editorial_headword": "אֱגוֹד",
+      "editorial_gloss": "faixa; atilho; talos para amarrar",
+      "source_heads": [
+        "אֱגוֹד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fd84af7b810da946ee183c06506a71b119da85dcbe68dc47a2cb3d54ef5544c6",
+      "source_definitions": [
+        "(אגד I) band ."
+      ],
+      "source_notes": [
+        "Y. Sabb. VI, 8 a bot.; Y. Yeb. XII, 12 d top א' מלבינקי a band (of bast) with which mala punica (pomegranates) are tied together.— Pl. אֱגוֹדִים, const. אֱגוֹדֵי. Peah VI, 10 א' השום stalks of garlic "
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 259,
+      "id": "A00258",
+      "source_headword": "אֲגוּדָּה",
+      "editorial_headword": "אֲגוּדָּה",
+      "editorial_gloss": "molho; feixe; união; facção; nome de família",
+      "source_heads": [
+        "אֲגוּדָּה"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "e53c4d302c0af0377b8f6fc56c7401d675e988b9389a232fef06f1530a823adc",
+      "source_definitions": [
+        ", v. foreg.)",
+        "bundle, bunch .",
+        "band, union; faction .",
+        "בֵּית א' pr. n. of a family, Beth-Aguddah ."
+      ],
+      "source_notes": [
+        "1) bundle, bunch . B. Mets. I, 8. Succ. 33 b כא' של וכ' as a bunch of herbs is tied; a. fr.",
+        "Lev. R. s. 30; Gen. R. s. 88 א' אחת one brotherhood.— Pl. אֲגוּדּוֹת . Peah VI, 10; v. foreg. Makhsh. VI, 2 א' של בית וכ' (herb) bunches which have been lying in the market houses; v. Tosef. ib. III, "
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 260,
+      "id": "A00259",
+      "source_headword": "אֲגוּדָל",
+      "editorial_headword": "אֲגוּדָל",
+      "editorial_gloss": "polegar",
+      "source_heads": [
+        "אֲגוּדָל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5c565287139eda08aeaa9f8c4d379a373b9001e5831380c5ef2981e18b73289a",
+      "source_definitions": [
+        "(= גּוּדָל) thumb."
+      ],
+      "source_notes": [
+        "Yoma II, 1. Cant. R. to III, 6."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 261,
+      "id": "A00260",
+      "source_headword": "אֱגוֹז",
+      "editorial_headword": "אֱגוֹז",
+      "editorial_gloss": "noz",
+      "source_heads": [
+        "אֱגוֹז"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b072024dcf971acf669e1d61df28e60cb1acd122cbd7d67337fdc325289b9932",
+      "source_definitions": [
+        "(b. h.) nut ."
+      ],
+      "source_notes": [
+        "Git. 64 b (as signs of mental responsibility) א' ונוטלו if you throw a nut to it, and the child picks it up (at the same time throwing a pebble away); a. e.— Pl. אֱגוֹזִים, const. אֱגוֹזֵי. Orl. III, "
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 262,
+      "id": "A00261",
+      "source_headword": "אֱגוּזָא",
+      "editorial_headword": "אֱגוּזָא",
+      "editorial_gloss": "noz; nogueira",
+      "source_heads": [
+        "אֱגוּזָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "378b69196838a21a39b7f2d97fbde82a61d6b473f2be5b22afe8759807d08e65",
+      "source_definitions": [
+        "; also nut-tree ."
+      ],
+      "source_notes": [
+        "Keth. 77 b גירדא דא' scrapings of the bark of a nut-tree; v. אזגא.—Cmp. גּוּזָא, אַמְגּוּזָא."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 263,
+      "id": "A00262",
+      "source_headword": "אֱגוֹזָה",
+      "editorial_headword": "אֱגוֹזָה",
+      "editorial_gloss": "nogueira",
+      "source_heads": [
+        "אֱגוֹזָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "981ae56531213f6ef96d08bf0830376f03d909f54154358881a4648b6db5b0e8",
+      "source_definitions": [
+        "(v. אֱגוֹז ) nut-tree ."
+      ],
+      "source_notes": [
+        "Cant. R. to VI, 11."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 264,
+      "id": "A00263",
+      "source_headword": "אגוטרי",
+      "editorial_headword": "אגוטרי",
+      "editorial_gloss": "ver אָכְסִיגָרוֹן",
+      "source_heads": [
+        "אגוטרי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d4bdd00ef5f58e4d0c44b3142977d3fb431966be9f165c83fd751d1d32b96a70",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אָכְסִיגָרוֹן"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 265,
+      "id": "A00264",
+      "source_headword": "*אַגְוִיסְטוֹר",
+      "editorial_headword": "*אַגְוִיסְטוֹר",
+      "editorial_gloss": "questor",
+      "source_heads": [
+        "*אַגְוִיסְטוֹר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d293fd32af9c5f0dc71e3e833d350f5d0b81d4a2f3ce0873c1c3a509fcb36396",
+      "source_definitions": [
+        "Quæstor ."
+      ],
+      "source_notes": [
+        "Gen. R. s. 12, v. אנגיטוס a. אָגוּסְטוֹס, end."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 266,
+      "id": "A00265",
+      "source_headword": "אֲגוֹמֵין",
+      "editorial_headword": "אֲגוֹמֵין",
+      "editorial_gloss": "vamos!; adiante!",
+      "source_heads": [
+        "אֲגוֹמֵין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a312f93357aab419d0c6d556cc230e05656e26ab99c96aa19206f1378cbaa54a",
+      "source_definitions": [
+        "(ἄγωμεν, fr. ἄγω) up! come on! Gen. R. s. 78."
+      ],
+      "source_notes": [],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 267,
+      "id": "A00266",
+      "source_headword": "אָגוֹן",
+      "editorial_headword": "אָגוֹן",
+      "editorial_gloss": "assembleia; jogos públicos",
+      "source_heads": [
+        "אָגוֹן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b46d7de009c6de6559dcec2dcd65276a0f9fc411bb7995aa9665a1ea13a3f459",
+      "source_definitions": [
+        "(ἀγών) assembly , esp. public games ."
+      ],
+      "source_notes": [
+        "Y’lamd. Emor (quot. in Ar, missing in Tanh.) א' נעשה במדינה."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 268,
+      "id": "A00267",
+      "source_headword": "אגונה",
+      "editorial_headword": "אגונה",
+      "editorial_gloss": "ler אֲנוֹנָה",
+      "source_heads": [
+        "אגונה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ccc6acb0989fcfc91d565f4c672f1a4437d64077505b511738da5b562c14bd9b",
+      "source_definitions": [],
+      "source_notes": [
+        "Tanḥ. Mishp. 1, read אֲנוֹנָה."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 269,
+      "id": "A00268",
+      "source_headword": "אָגוּסְטָא,",
+      "editorial_headword": "אָגוּסְטָא,",
+      "editorial_gloss": "Augusta; princesa imperial",
+      "source_heads": [
+        "אָגוּסְטָא,",
+        "(אגוסטה)"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cc4ed309b41ccf5d6e7a0cd7c1f7512142cffa08a6a2cf4a1e06d7596a3537b2",
+      "source_definitions": [
+        "Augusta , title of a female member of the imperial family (of Rome), in gen. princess &c. Esth. R. to I, 9."
+      ],
+      "source_notes": [
+        "[Tanʿh. Vaëra 8, א', read טוס …]"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 270,
+      "id": "A00269",
+      "source_headword": "*אָגוּסְטָאן,",
+      "editorial_headword": "*אָגוּסְטָאן,",
+      "editorial_gloss": "servo de propriedade imperial; augustano",
+      "source_heads": [
+        "*אָגוּסְטָאן,",
+        "אָגוּסְטְיָין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a7f21862ee2f479c6bc8f4a61724d428b0752f910c4bf5f3f80b4ce416a55e59",
+      "source_definitions": [
+        "(Augustanus, Augustianus) a servant in a colonia Augustana , (perhaps identical with Curialis or Decurio; cmp. Gibbon, ed. Milm. II, 142 sq., Amer. ed.)."
+      ],
+      "source_notes": [
+        "Snh. 26 a יכול לומר … טאן וכ' Ms. M. (Ms. C. a. F. יסטוון … ed. אגיסטון, אגיסטין, corr. אגוסטיין) he may say (as an excuse for tilling in the Sabbath year), I am merely an imperial servant in the esta"
+      ],
+      "assessment": "O",
+      "observation": "Os testemunhos M., C. e F. e a emenda ao nome do servidor augustano foram condensados numa lista de variantes.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 271,
+      "id": "A00270",
+      "source_headword": "אגוסטולי",
+      "editorial_headword": "אגוסטולי",
+      "editorial_gloss": "ver אָגוּסְטָלִי",
+      "source_heads": [
+        "אגוסטולי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "12cc60ca99c7d75aef914e7323c0ef3cf7d64ae328670f698f51c887f5a36c79",
+      "source_definitions": [],
+      "source_notes": [
+        ", Gen. R. s. 1, v. אגוסטלי"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 272,
+      "id": "A00271",
+      "source_headword": "אָגוּסְטוֹס,",
+      "editorial_headword": "אָגוּסְטוֹס,",
+      "editorial_gloss": "Augusto; imperador; soberano",
+      "source_heads": [
+        "אָגוּסְטוֹס,",
+        ",",
+        "(אגושטוס)"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cef035e029aeea95d04a3c189cd04a7ce4bee895ca1c0dc2869128d846938741",
+      "source_definitions": [
+        "Augustus , title of the Roman emperor, in gen. ruler, sovereign ."
+      ],
+      "source_notes": [
+        "Y. Ber. IX, 12 d bot. as one uses indiscriminately בסיליוס קיסר א' (βασιλεύς) Basileus, Cæsar, Augustus; Gen. R. s. 8 (corr. acc.). Ex. R. s. 23, beg.; a. fr.—[Gen. R. s. 12 א' במדינה ed. (Ar. אגבאסטס"
+      ],
+      "assessment": "V",
+      "observation": "XML segmenta o cabeçalho em אָגוּסְטוֹס, vírgula isolada e (אגושטוס); exige consulta ao impresso, sem reconstrução inventada.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 273,
+      "id": "A00272",
+      "source_headword": "אָגוּסְטְיָאנִי",
+      "editorial_headword": "אָגוּסְטְיָאנִי",
+      "editorial_gloss": "augustianos; guarda pretórica",
+      "source_heads": [
+        "אָגוּסְטְיָאנִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7297ae5e41116591f548f06caf8f6cbf57235eea1f6fedb0895d7bf89519fbc0",
+      "source_definitions": [
+        "Augustiani , a Prætorian legion entitled to proclaim the emperor."
+      ],
+      "source_notes": [
+        "Esth. R. to I, 3, end דקומייני א' the Decumani (or Decimani) and the Aug.—Gen. R. s. 94 גאו' (corr. acc.); v. Sachs. Beitr. I, 113 sq."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 274,
+      "id": "A00273",
+      "source_headword": "אגוסטלא",
+      "editorial_headword": "אגוסטלא",
+      "editorial_gloss": "ver אָגוּסְטָלִי",
+      "source_heads": [
+        "אגוסטלא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c74c0f9b6917d2031c19942508fb630b8f637602ecb079cba5256d0f79d6e415",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. next w."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 275,
+      "id": "A00274",
+      "source_headword": "*אָגוּסְטָלִי",
+      "editorial_headword": "*אָגוּסְטָלִי",
+      "editorial_gloss": "prefeito augustal; governador do Egito",
+      "source_heads": [
+        "*אָגוּסְטָלִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0911e70957100a021376567fb59759b1bf1ce79a4c580a6ffe9cf2c00cc649d6",
+      "source_definitions": [
+        "(Augustalis)."
+      ],
+      "source_notes": [
+        "Præfectus Augustalis , title of the prefect of Egypt. Gen. R. s. 1. ed. (Var. אגוסטולי, Ar. אגוסטלא)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 276,
+      "id": "A00275",
+      "source_headword": "אגוסתא",
+      "editorial_headword": "אגוסתא",
+      "editorial_gloss": "ler אָגוּסְטוֹס",
+      "source_heads": [
+        "אגוסתא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "26045d99f8f104b72a631e131d66638cfc4daef05ab8d0a45d880cfae51e77d1",
+      "source_definitions": [],
+      "source_notes": [
+        "Ex. R. s. 8 some ed., read אגוסטוס."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 277,
+      "id": "A00276",
+      "source_headword": "אָגוּף",
+      "editorial_headword": "אָגוּף",
+      "editorial_gloss": "relações sexuais; batente de porta",
+      "source_heads": [
+        "אָגוּף"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "f43628dead7e781ca0baa9e13e2b5f11c6347ee80063556f5eff8db783d429bd",
+      "source_definitions": [
+        "(גּוּף I, גפף)",
+        "sexual intercourse .",
+        "door-stop , v. אַגַּף ."
+      ],
+      "source_notes": [
+        "1) sexual intercourse . Y. Git. VII, 48 d לשייר לו אֲגוּפָהּ to reserve to himself the right of embracing her; Y. B. Bath. VIII, 16 c top גופה.",
+        "—[אִגּוּף v. אַגָּף.]"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 278,
+      "id": "A00277",
+      "source_headword": "אֵגֹור,",
+      "editorial_headword": "אֵגֹור,",
+      "editorial_gloss": "monte; elevação; pilha",
+      "source_heads": [
+        "אֵגֹור,",
+        "אֵיגֹור"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "73a6a0647fff9e6042eba0bf26dcd47fe5caf267d4416e296cec585db2d3f1d0",
+      "source_definitions": [
+        "(אגר I) heap, hill ."
+      ],
+      "source_notes": [
+        "Tosef. Shebi. III, 3 ואי' יוצא וכ' ed. Zuck. (Var. ואיגד) and a mound (of arable ground) rises out of it (the rock).— Pl. אֵגֹורִים, אֵיג'; const. אֵיגֹורֵי. Tosef. Peah III, 8 אוגורי השום ed. Zuck. ("
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 279,
+      "id": "A00278",
+      "source_headword": "אֱגֹורָא,",
+      "editorial_headword": "אֱגֹורָא,",
+      "editorial_gloss": "monte; altar pagão",
+      "source_heads": [
+        "אֱגֹורָא,",
+        "אֵיגֹורָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f53321a2d0e7e8f89ebfde04478cbcf99eaa7b5ae77e9762afb04217453289cc",
+      "source_definitions": [
+        "; esp. heathen altar (cmp. b. h. גַּל)."
+      ],
+      "source_notes": [
+        "Targ. Jud. VI, 25; a. fr.— Pl. אֱגֹורִין, אֵיג', אֲגֹורַיָּא, אֵי' . Targ. II Kings XXI, 3; a. fr."
+      ],
+      "assessment": "O",
+      "observation": "Segundo cabeçalho אֵיגֹורָא não aparecia explicitamente na síntese; restituído, preservando o homógrafo I.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 280,
+      "id": "A00279",
+      "source_headword": "אֲגֹורָא,",
+      "editorial_headword": "אֲגֹורָא,",
+      "editorial_gloss": "mercado; tribunal; sessão judicial",
+      "source_heads": [
+        "אֲגֹורָא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "57f0a9c929f074e22f58cdd5f68aa6fb060659e0848fd8cef817eec75b5402a6",
+      "source_definitions": [
+        "(ἀγορά) market-place, court-session, court."
+      ],
+      "source_notes": [
+        "Pl. אֲגֹורָאֹות Git. 88 b א' של נכרים (ed. אגוריאות corr. acc.) gentile courts."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 281,
+      "id": "A00280",
+      "source_headword": "*אֲגֹורָה",
+      "editorial_headword": "*אֲגֹורָה",
+      "editorial_gloss": "compartimento da casca de noz",
+      "source_heads": [
+        "*אֲגֹורָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "05ec2abfad0f3e57352153bb42eed3144a6e69af5a486d4aa02b58722bf66c49",
+      "source_definitions": [
+        "(אגר) prop. store-room , hence the compartments of the nut-shell."
+      ],
+      "source_notes": [
+        "Pl. אֲגֹורֹות . Pesik. R. s. 11 as the nut has ארבע א' four compartments (Yalk. Cant. 992 מגורות)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 282,
+      "id": "A00281",
+      "source_headword": "אֲגוּרֵי",
+      "editorial_headword": "אֲגוּרֵי",
+      "editorial_gloss": "infinitivo de אֲגַר; ver אָגִירָא",
+      "source_heads": [
+        "אֲגוּרֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1a3fc4dd803d2ceae651591196d44423322ebe1b72cf700928142744f63c7c89",
+      "source_definitions": [],
+      "source_notes": [
+        "inf. of אֲגַר.—אגורי for אֲגִירֵי, v. אָגִירָא"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 283,
+      "id": "A00282",
+      "source_headword": "אֵגֹורִי,",
+      "editorial_headword": "אֵגֹורִי,",
+      "editorial_gloss": "armazenável; de boa qualidade; azeitona egori",
+      "source_heads": [
+        "אֵגֹורִי,",
+        "אֵיגֹורִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9f2c8484f2aefd26f10f1f3ae674388ff35a20c4b3dfda0246a044c9f43f4963",
+      "source_definitions": [
+        "(v. אֵגֹור , אֲגֹורָה) fit for storage, of good quality."
+      ],
+      "source_notes": [
+        "Kel. XVII, 8 the olive (as a size standard) … neither large nor small, but of medium size, זה א' which is the kind called egori . Ber. 39 a ; Y. Bicc. I, 63 d (etymol. explan.); v. אִבְרֹוסִי. Yalk. D"
+      ],
+      "assessment": "O",
+      "observation": "Segundo cabeçalho אֵיגֹורִי foi omitido; restituído mantendo o contraste com אִבְרוֹסִי.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 284,
+      "id": "A00283",
+      "source_headword": "אגוריאות",
+      "editorial_headword": "אגוריאות",
+      "editorial_gloss": "ver אֲגֹורָא II",
+      "source_heads": [
+        "אגוריאות"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "89aaeda68365bd450f64340da8748600b95be9886121f899a9b25e3fd67e7c94",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אֲגֹורָא II"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 285,
+      "id": "A00284",
+      "source_headword": "אגושטוס,",
+      "editorial_headword": "אגושטוס,",
+      "editorial_gloss": "ver אָגוּסְטוֹס",
+      "source_heads": [
+        "אגושטוס,",
+        "תוס,",
+        "…,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "51eeec5bdc1862ddbed42b852d91f415afc9e6dcaa3a5b2535e4864e80518bf2",
+      "source_definitions": [],
+      "source_notes": [
+        "v. אָגוּסְטֹוס"
+      ],
+      "assessment": "V",
+      "observation": "Cabeçalhos secundários do XML são fragmentos תוס, e …, sem base segura para reconstruir um vocábulo; manter suspensa a emenda.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 286,
+      "id": "A00285",
+      "source_headword": "אָגַח,",
+      "editorial_headword": "אָגַח,",
+      "editorial_gloss": "ver גּוּחַ",
+      "source_heads": [
+        "אָגַח,",
+        "אֲגַח"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "44828f2bed0b0a28e49717afa39f954077c8e8191869716c11a45ab927f92649",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. גּוּחַ"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 287,
+      "id": "A00286",
+      "source_headword": "אַגָּחוּתָא,",
+      "editorial_headword": "אַגָּחוּתָא,",
+      "editorial_gloss": "combate; luta",
+      "source_heads": [
+        "אַגָּחוּתָא,",
+        "אָגָחוּתָא,",
+        ",",
+        "(אֲגִיח')"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "957ca4542398e4de6a228ab4ef90f7c20552cad62e8bd6a3577b454171308756",
+      "source_definitions": [
+        "(גוח, נגח) fighting ."
+      ],
+      "source_notes": [
+        "Targ. Ps. CX, 3; a. e."
+      ],
+      "assessment": "E",
+      "observation": "O cartão expandia אֲגִיח׳ como forma integral אֲגִיחוּתָא, não fornecida pelo XML; abreviatura original restaurada e expansão não afirmada.",
+      "lexical_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 288,
+      "id": "A00287",
+      "source_headword": "אגטין",
+      "editorial_headword": "אגטין",
+      "editorial_gloss": "ver לֶגְטֹון e אַגְבִּין",
+      "source_heads": [
+        "אגטין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0c39d52ec262af6e9585f205b375194d43c1eb1a6b3098017c3740eb77b846e8",
+      "source_definitions": [],
+      "source_notes": [
+        ", Snh. 91 a , v. לֶגְטֹון ;—Y. Kil. IX, 32 a v. אַגְבִּין."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 289,
+      "id": "A00288",
+      "source_headword": "אַגְטְרַגְטָא",
+      "editorial_headword": "אַגְטְרַגְטָא",
+      "editorial_gloss": "catarata; cascata",
+      "source_heads": [
+        "אַגְטְרַגְטָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "aefbef2698e2fb4fd152fc2aefe655e2ee54babab6764c149c1b7d6ca0f10f27",
+      "source_definitions": [
+        "(καταῤῥάκτης, cataracta ) cataract, cascade ."
+      ],
+      "source_notes": [
+        "— Pl. אַגְטְרַגְטַיָּיא Y. M. Kat. I, beg. 80 b אילין א' מה וכ' what is your opinion about those cascades?"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 290,
+      "id": "A00289",
+      "source_headword": "אֻגְיָא",
+      "editorial_headword": "אֻגְיָא",
+      "editorial_gloss": "ver אוּגְיָא",
+      "source_heads": [
+        "אֻגְיָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b06e58cdfe5c1a3b91afe373733b8badcaf14cf536c442bdb058c5c92e4352fa",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אוּגְיָא"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 291,
+      "id": "A00290",
+      "source_headword": "אָגִיחַ",
+      "editorial_headword": "אָגִיחַ",
+      "editorial_gloss": "ver גּוּחַ",
+      "source_heads": [
+        "אָגִיחַ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "229f8de4428efebf4bf16f06049ff37e78f9349e6c86c2c1810a76ebbd6f5a16",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. גּוּחַ"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 292,
+      "id": "A00291",
+      "source_headword": "אָגִיחוּתָא",
+      "editorial_headword": "אָגִיחוּתָא",
+      "editorial_gloss": "ver אַגָּחוּתָא",
+      "source_heads": [
+        "אָגִיחוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6f913aeacd94796f3fa79e7da361fec962166e0584df4d234f7a5c4020f95179",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אַגָּחוּתָא"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 293,
+      "id": "A00292",
+      "source_headword": "אגין",
+      "editorial_headword": "אגין",
+      "editorial_gloss": "ver בַּאיִין; emenda para אָנוּן",
+      "source_heads": [
+        "אגין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e5dfefb1af2b10a82ce18fa219fd5490c83c8f88d39adde24092b3bf556a9f1a",
+      "source_definitions": [],
+      "source_notes": [
+        "Tanḥ. Emor. 18, v. בַּאיִין .—Y. Sabb. II, 5 b כפר א', read אָנוּן = חָנוּן Gen. R. s. 6."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 294,
+      "id": "A00293",
+      "source_headword": "*אַגֵּין",
+      "editorial_headword": "*אַגֵּין",
+      "editorial_gloss": "modelar discos; fazer bolos de cera",
+      "source_heads": [
+        "*אַגֵּין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "450ffe63aaf68693d47c6249619081810b47d483028c3fbdf39241730854fc00",
+      "source_definitions": [
+        "(denom. of אגן, אוגנא, Pa.) to form disks or cakes (of wax)."
+      ],
+      "source_notes": [
+        "Y. Sabb. VII, 10 b bot. ההן דא' גיר קררין he who forms cakes of wax dust (on a Sabbath)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 295,
+      "id": "A00294",
+      "source_headword": "אגינו",
+      "editorial_headword": "אגינו",
+      "editorial_gloss": "passagem corrompida; leitura proposta",
+      "source_heads": [
+        "אגינו"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "831961f6cecbe2640e09d3d636de360756a12845f676ef5eaa5ac709592bf2d4",
+      "source_definitions": [],
+      "source_notes": [
+        "Gen. R. s. 56, some ed. אנונו—a corrupt passage, prob. to be read: ששמר את גנו משבולת הנהר והקיף את גן בנו עמו."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 296,
+      "id": "A00295",
+      "source_headword": "אָגִיס",
+      "editorial_headword": "אָגִיס",
+      "editorial_gloss": "cunhado; parente da esposa",
+      "source_heads": [
+        "אָגִיס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c5b10cd8c8ed76650b2fb487b821dcfdbd50ffce4fa2336fb4eeacca4192b34c",
+      "source_definitions": [
+        "wife’s brother or kindred, brother-in-law , v. גִּיס ."
+      ],
+      "source_notes": [
+        "Snh. III, 7 ed. Y.; a. fr."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 297,
+      "id": "A00296",
+      "source_headword": "אגיסטון,",
+      "editorial_headword": "אגיסטון,",
+      "editorial_gloss": "ver אָגוּסְטָאן",
+      "source_heads": [
+        "אגיסטון,",
+        "אגיסטין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e160b9d342022e063a36a4570a025eeb144a51c6d8f75d0cc2dc01545a2cae6f",
+      "source_definitions": [],
+      "source_notes": [
+        "v. אגוס'"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 298,
+      "id": "A00297",
+      "source_headword": "אגיסטרין",
+      "editorial_headword": "אגיסטרין",
+      "editorial_gloss": "ver אֶגְסִיטֵרִין",
+      "source_heads": [
+        "אגיסטרין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "da5eae6e900679a1d62493297a8fec5c4838ff0cd972cfe0419c839b6b825458",
+      "source_definitions": [],
+      "source_notes": [
+        ", v. אֶגְסִיטֵרִין"
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 299,
+      "id": "A00298",
+      "source_headword": "אָגִיר,",
+      "editorial_headword": "אָגִיר,",
+      "editorial_gloss": "empregado; trabalhador contratado",
+      "source_heads": [
+        "אָגִיר,",
+        "אָגִירָא,",
+        "(אֲגִירָא,",
+        "אַגִּירָא)"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ead77950c38b01aadc29643ea4d642d0e44674fcd1c51986f81416576580759e",
+      "source_definitions": [
+        "(אֲגַר) hired man, laborer ."
+      ],
+      "source_notes": [
+        "Targ. Job VII, 1; 2; a. fr.— Pl. אֲגִירֵי . B. Mets. 76 b sq. (interch. in ed. with. אגירי, corr. acc.)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 300,
+      "id": "A00299",
+      "source_headword": "*אגיריסין",
+      "editorial_headword": "*אגיריסין",
+      "editorial_gloss": "possivelmente cavalos do Épiro",
+      "source_heads": [
+        "*אגיריסין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2ceaee3a27783695dab20aa6fcef3f853cad9bc2c80c9b5e8df33c968fdef2bc",
+      "source_definitions": [
+        ", m. pl. , a corruption of a geographical term, perh."
+      ],
+      "source_notes": [
+        "אפירוטין (Ἠπειρῶται) (steeds) of Epyrus . Targ. Jer. V, 8 (h. text מַשְׁכִּים)."
+      ],
+      "assessment": "S",
+      "observation": "Lema, glosa, classe e sentido lexical dominante compatíveis com o XML na primeira passagem; atestações completas não homologadas.",
+      "lexical_correction_applied": false,
+      "full_philological_certification": false
     }
   ],
   "last_batch": {
-    "start_ordinal": 101,
-    "end_ordinal": 200,
+    "start_id": "A00200",
+    "end_id": "A00299",
+    "start_ordinal": 201,
+    "end_ordinal": 300,
     "count": 100,
     "counts": {
-      "S": 82,
-      "O": 17,
-      "E": 1,
-      "V": 0
+      "S": 84,
+      "O": 9,
+      "E": 5,
+      "V": 2
     },
     "corrections_applied": 9,
-    "report": "auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md"
+    "report": "auditoria/JASTROW-2026-10-11-filologia-lote003-A00200-A00299.md"
   }
 }
