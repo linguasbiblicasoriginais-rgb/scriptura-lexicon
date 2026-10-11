@@ -495,6 +495,13 @@
       "lexical_entries_modified": 0,
       "retroactive_audits_complete": true,
       "next_retroactive_audit_interval": null
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "Sete correções de lematização editorial e duas de HTML/pesquisa",
+      "source_corrections": 9,
+      "report": "auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md",
+      "semantic_homologation": 0
     }
   ],
   "structural_audit_500": {
@@ -628,5 +635,65 @@
     "lexical_entries_modified": 0,
     "retroactive_audits_complete": true,
     "next_retroactive_audit_interval": null
+  },
+  "editorial_remediation_20261011": {
+    "date": "2026-10-11",
+    "status": "NOVE CORREÇÕES DE CÓDIGO; OUTRAS PENDÊNCIAS DOCUMENTADAS",
+    "base_head": "1572a5c7dd3244d6cc5eda32acadc068c5ff5a5d",
+    "total_published_unchanged": 500,
+    "forms_annotated": [
+      [
+        "0040",
+        "ἅγιον",
+        "ἅγιος"
+      ],
+      [
+        "0139",
+        "αἱρέομαι",
+        "αἱρέω"
+      ],
+      [
+        "0150",
+        "αἰσχρόν",
+        "αἰσχρός"
+      ],
+      [
+        "0154",
+        "αἰσχύνομαι",
+        "αἰσχύνω"
+      ],
+      [
+        "0197",
+        "ἀκριβέστατος",
+        "ἀκριβής"
+      ],
+      [
+        "0198",
+        "ἀκριβέστερον",
+        "ἀκριβής"
+      ],
+      [
+        "0207",
+        "ἄκρον",
+        "ἄκρος"
+      ]
+    ],
+    "numbering_fixed": {
+      "id": "entry-thayer-0017",
+      "paragraphs": 7
+    },
+    "aaron_search_fixed": {
+      "id": "entry-aaron-thayer",
+      "biblical_references": 5
+    },
+    "candidate_triage": {
+      "count": 12,
+      "incorporated": 0,
+      "status": "PENDENTE DE HOMOLOGAÇÃO INDIVIDUAL",
+      "report": "auditorias/thayer-2026-10-11-triagem-de-12-candidatos.md"
+    },
+    "philological_full_review_500": "PENDENTE",
+    "dom_browser_and_external_urls": "NÃO TESTADOS",
+    "report": "auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md"
   }
 }
