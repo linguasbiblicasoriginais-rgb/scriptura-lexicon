@@ -255,6 +255,87 @@
             audit.cards += 1;
         });
 
+        /*
+         * Correção de apresentação (não altera o XML canônico):
+         * no ordinal 1627, o original traz fut.ἀλείψω sem espaço.
+         * A abreviatura já foi identificada por enrichBibliographicTooltips.
+         */
+        const oilCard = document.getElementById("entry-dgp-1627");
+        const futureTerm = oilCard && oilCard.querySelector(
+            '.entry-text [data-tooltip-type="abbr"][data-tooltip-label="fut."]'
+        );
+        if (futureTerm && futureTerm.nextSibling &&
+                futureTerm.nextSibling.nodeType === 3 &&
+                /^\p{Script=Greek}/u.test(futureTerm.nextSibling.nodeValue || "")) {
+            futureTerm.parentNode.insertBefore(
+                document.createTextNode(" "), futureTerm.nextSibling
+            );
+            audit.futureSpacingFixed = true;
+        } else {
+            audit.futureSpacingFixed = false;
+        }
+
+        /*
+         * Proveniência: nos ordinais 2311 e 2483 o XML inicia diretamente
+         * com <def>; o lema exibido foi inferido da própria definição.
+         * Registrar isso numa seção distinta, sem alterar a definição DGP.
+         */
+        audit.recoveredHeadwordsNoted = 0;
+        ["entry-dgp-2311", "entry-dgp-2483"].forEach(function (id) {
+            const card = document.getElementById(id);
+            if (!card || card.dataset.dgpSourceHeadwordNote === "true") {
+                return;
+            }
+            const section = document.createElement("section");
+            section.className = "entry-section dgp-editorial-note";
+            section.setAttribute("data-editorial-layer", "GDHAGP");
+            const heading = document.createElement("div");
+            heading.className = "section-title";
+            heading.textContent = "Nota editorial do Scriptura Lexicon";
+            const paragraph = document.createElement("p");
+            paragraph.className = "entry-text";
+            paragraph.textContent =
+                "O XML do DGP não apresenta lema antes de <def> neste registro. " +
+                "O cabeçalho exibido foi recuperado do início da própria definição, " +
+                "não transcrito de um campo de lema da fonte.";
+            section.appendChild(heading);
+            section.appendChild(paragraph);
+            card.appendChild(section);
+            card.dataset.dgpSourceHeadwordNote = "true";
+            audit.recoveredHeadwordsNoted++;
+        });
+
+        /*
+         * Os primeiros módulos indexavam somente lema + glosa abreviada.
+         * Completar cada índice com a definição efetivamente publicada,
+         * após montagem dos cartões. Não adicionar HTML nem alterar a fonte.
+         * A consulta em script.js usa data-search, portanto a ampliação
+         * atende toda pesquisa DGP sem afetar os demais dicionários.
+         */
+        audit.searchRowsIndexed = 0;
+        audit.searchRowsMissingCard = 0;
+        document.querySelectorAll(
+            '.search-row[data-source="DGP"][data-target]'
+        ).forEach(function (row) {
+            if (row.dataset.dgpFullTextIndexed === "true") {
+                return;
+            }
+            const card = document.getElementById(row.dataset.target);
+            const text = card && card.dataset.source === "DGP" &&
+                card.querySelector(".entry-section .entry-text");
+            if (!text) {
+                audit.searchRowsMissingCard++;
+                return;
+            }
+            const sourceText = (text.textContent || "").trim();
+            if (sourceText) {
+                row.dataset.search =
+                    ((row.dataset.search || "") + " " + sourceText).trim();
+                row.dataset.dgpFullTextIndexed = "true";
+                audit.searchRowsIndexed++;
+            }
+        });
+
         source.presentationAudit = audit;
         return audit;
     };

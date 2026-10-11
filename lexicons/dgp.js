@@ -53,6 +53,7 @@ window.ScripturaLexicons.DGP = {
         { key: "cf.", type: "abbr", text: "confira" },
         { key: "sing.", type: "abbr", text: "singular" },
         { key: "pres.", type: "abbr", text: "presente" },
+        { key: "fut.", type: "abbr", text: "futuro (tempo verbal)" },
         { key: "méd.", type: "abbr", text: "médio, média; em formas verbais, voz média" },
         { key: "gen.", type: "abbr", text: "genitivo" },
         { key: "aor.", type: "abbr", text: "aoristo" },

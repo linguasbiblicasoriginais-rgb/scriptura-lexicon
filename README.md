@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## DGP — correções de busca, tooltip e proveniência (11/10/2026)
+
+A rotina de correções ajustou, no módulo DGP, a indexação dos corpos completos dos cartões, o tooltip da abreviatura `fut.` e a separação visual em `ἀλείφω` (#1627). Também explicita em notas editoriais os lemas recuperados #2311 e #2483. São mudanças na apresentação/índice, **sem modificar a fonte XML nem acrescentar verbetes**. Ver [relatório técnico](auditorias/dgp-reparos-funcionais-2026-10-11.md). Os módulos 077–081 ainda dependem da integração própria; os testes reais em navegador continuam obrigatórios.
+
+
 ## JASTROW — 100 ressalvas sob auditoria filológica única (11/10/2026)
 
 Foram examinados **100 casos previamente sinalizados** no Jastrow (11 V históricos e 89 O), por decisão explícita do usuário. Resultados **A=37, C=28, P=35**, com **28 correções documentais publicadas** e restantes bloqueios específicos registrados; ver [relatório](auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md), [fonte XML de cada caso](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [checkpoint único](auditoria/jastrow-auditoria-unica-progresso.json). A auditoria é uma etapa única: P não cria recotejo global obrigatório e não equivale a aprovação. O total incorporado permanece 600, sem novos IDs após A00599; o histórico original da auditoria anterior permanece preservado.
