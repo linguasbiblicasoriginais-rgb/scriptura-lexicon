@@ -5,7 +5,7 @@
 
 ## 1. Fontes e método
 
-- **Fonte primária:** Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, fac-símile anexo `Thayer (parte 1, Α–Ι).pdf`, páginas impressas **1–12**, além da **p. 29** para a entrada α/ἄλφα. As páginas foram consultadas visualmente para triagem, sem transcrição integral de todos os artigos.
+- **Fonte primária:** Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, fac-símile anexo `Thayer (parte 1, Α–Ι).pdf`, páginas impressas **1–12**; a entrada α/ἄλφα situa-se na **p. 1**, não na p. 29 equivocadamente atribuída pela extração auxiliar. As páginas foram consultadas visualmente para triagem, sem transcrição integral de todos os artigos.
 - **Fonte auxiliar (não autoridade):** `auditorias/thayer-auditoria-filologica-500-inventario.csv`, usado para lemas, localização e avisos de divergência, com histórico de extração não completamente validada.
 - **Código examinado:** `lexicons/thayer.js` (20 dinâmicos), `lexicons/thayer-batch-002.js` (79 dinâmicos) e `index.html` (Ἀαρών histórico).
 - **Separa-se estritamente** Fonte / Tradução / Análise / GDHAGP. Não substituir os dados de Thayer por Strong, BDAG ou Robinson. Nenhum verbete foi reescrito durante a auditoria.
@@ -52,15 +52,17 @@
 | Indicador | Resultado |
 |---|---:|
 | Descrições em parágrafo único | 84/100 |
-| Descrições com múltiplos parágrafos | NaN/100 |
+| Descrições com múltiplos parágrafos | 16/100 |
 | Descrições sem caracteres gregos | 82/100 |
 | Média de caracteres na seção semântica usada | 152.94 |
+
+**Errata documental de 11/10/2026:** corrigido o cálculo de múltiplos parágrafos (16 em vez de NaN) e a localização α/ἄλφα (p. 1, não p. 29). Esta correção não modifica os registros lexicais.
 
 A média agregada combina três apresentações editoriais distintas: usa `Acepções e testemunhos` nos 20 cartões do primeiro módulo, `Acepções e uso` nos 79 seguintes e a seção única do cartão estático. Comparar essa média diretamente com a de lotes homogêneos exige cautela.
 
 ## 5. Exame dirigido da fonte
 
-- **ἄλφα (`0001`):** o fac-símile apresenta matéria introdutória de α/ἄλφα na p. 1; o inventário auxiliar localiza `ἄλφα` na p. 29. As duas localizações e a separação entre letra e funções prefixais exigem controle editorial em futura revisão, sem declarar automaticamente uma das localizações como erro.
+- **ἄλφα (`0001`):** o cabeçalho Α, α, ἄλφα está na página impressa **1**; a atribuição à página 29 foi erro de localização do auxiliar, corrigido posteriormente mediante inspeção visual.
 - **Ἀβαδδών (`0002`):** o HTML hebraico foi corrigido anteriormente (THAYER-EST-001); a passagem Ap 9.11 deve continuar preservada.
 - **ἀγαθός (`0017`):** separar defeito de numeração duplicada da análise lexical substantiva, e manter formas adjetivais/substantivadas distintas.
 - **ἀγαθουργέω (`0018`):** evitar criação de número Strong oficial inexistente para entrada inserida editorialmente.
