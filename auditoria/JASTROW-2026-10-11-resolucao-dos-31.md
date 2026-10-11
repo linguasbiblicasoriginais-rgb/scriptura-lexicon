@@ -7,11 +7,11 @@
 | Estado | Antes | Após |
 |---|---:|---:|
 | A — aprovado no cotejo com a fonte efetivamente consultada | 37 | **37** |
-| C — corrigido e validado contra a documentação consultada | 32 | **62** |
-| P — pendência documental pontual | 31 | **1** |
+| C — corrigido e validado contra a documentação consultada | 32 | **63** |
+| P — pendência documental pontual | 31 | **0** |
 | **Total de fichas** | **100** | **100** |
 
-Examinados novamente os 31 registros P existentes, com **31 intervenções nos cartões** e documentação por entrada; 30 passaram a C e apenas `A00429` permanece P porque o original imprime remissão abreviada `אוּ׳` e a codificação XML `rid=A00517` aponta incorretamente para a conjunção «ou». Os verbetes próximos sobre a raiz `אדן` e os homógrafos de `אוּדְנָא` fornecem candidatos, mas não permitem fixar com certeza qual homógrafo a abreviatura alude. Não foi substituída por uma expansão inventada.
+Examinados novamente os 31 registros P existentes, com **31 intervenções nos cartões** e documentação por entrada. Trinta foram solucionados inicialmente e `A00429` foi resolvido em seguida por confronto com `A00568`, verbete `אוּדְנָא I`, «orelha». O `rid=A00517` do XML é uma ligação eletrônica incompatível, preservada na Fonte e exposta na análise. A atribuição ao homógrafo I resulta da concordância de formas e significado, não de numeral expresso na abreviação `אוּ׳`.
 
 **Atenção ao significado de C:** corrigido e validado editorialmente mediante o texto integral do Jastrow digital e, nos casos identificados, sua transcrição histórica independente. Não significa que manuscritos rabínicos, edições de Rabbinovicz, todos os exemplos e o fac-símile tipográfico tenham sido colacionados em pessoa. Os comentários que dependem de testemunhos mencionados pelo próprio Jastrow são apresentados como <em>atribuições do autor</em>, não observações de colação direta. A referência não examinada a <i>Dikdukei Soferim</i>, nota 200 (A00303), não foi preenchida com variantes fabricadas. Isso não institui segunda revisão geral.
 
@@ -60,7 +60,7 @@ Examinados novamente os 31 registros P existentes, com **31 intervenções nos c
 | 408 | `A00407` | **C** | `lexicons/jastrow-386-410.js` | Aparato acrescentado e registrado no manifesto |
 | 412 | `A00411` | **C** | `lexicons/jastrow-411-435.js` | Aparato acrescentado e registrado no manifesto |
 | 415 | `A00414` | **C** | `lexicons/jastrow-411-435.js` | Aparato acrescentado e registrado no manifesto |
-| 430 | `A00429` | **P** | `lexicons/jastrow-411-435.js` | Destino da remissão abreviada não comprovado |
+| 430 | `A00429` | **C** | `lexicons/jastrow-411-435.js` | Remissão resolvida: `A00568`, `אוּדְנָא I`, «orelha»; `rid=A00517` original é incongruente |
 | 446 | `A00445` | **C** | `lexicons/jastrow-436-460.js` | Aparato acrescentado e registrado no manifesto |
 | 494 | `A00493` | **C** | `lexicons/jastrow-486-510.js` | Aparato acrescentado e registrado no manifesto |
 | 499 | `A00498` | **C** | `lexicons/jastrow-486-510.js` | Aparato acrescentado e registrado no manifesto |
@@ -194,7 +194,7 @@ Examinados novamente os 31 registros P existentes, com **31 intervenções nos c
 
 **Rastreio:** `lexicons/jastrow-411-435.js`, blob `af126cc5d41dd40bf6562b0ba2aed7bdf1a5ccf4`; SHA-256 da entrada XML `ce2042d12374248495352bbaa9928420fc21c3ca8dc123a35a4ea952c97b5cc2`.
 
-### 430. `A00429` — pendência documental
+### 430. `A00429` — corrigido e validado
 
 <strong>Limite do testemunho:</strong> o verbete histórico אֻדַן / אֻדְנָא remete abreviadamente a אוּ׳, sem indicar homógrafo. A transcrição histórica contém, adiante, אוּדְנָא III («apoio para os pés, pedestal»), semanticamente aparentado ao hebraico אדן («base, pedestal»), bem como outros homógrafos de אוּדְנָא. O XML codifica <code>rid="A00517"</code>, que leva a אֹו («ou»), uma ligação eletrônica aparentemente errada. A correspondência provável com אוּדְנָא III <strong>não é comprovada pelo texto abreviado isoladamente</strong>. Mantém-se a remissão literal sem substituir o destino por conjectura; é necessária evidência tipográfica ou de aparato adicional para atribuir o homógrafo definitivamente.
 
@@ -268,3 +268,10 @@ Examinados novamente os 31 registros P existentes, com **31 intervenções nos c
 - Checkpoint: [jastrow-auditoria-unica-progresso.json](jastrow-auditoria-unica-progresso.json).
 - Os 600 registros históricos permanecem no checkpoint anterior, sem alteração retroativa.
 - Nenhum PR/merge foi executado durante a auditoria; a integração pertence ao fluxo separado.
+
+
+## Desfecho do último caso — A00429
+
+**Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
+
+Consulte [parecer final A00429](JASTROW-2026-10-11-A00429-desfecho.md). O quadro original A37/C62/P1 acima retrata o estado anterior à correção final.

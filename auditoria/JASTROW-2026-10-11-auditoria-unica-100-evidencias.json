@@ -1181,17 +1181,19 @@
       "lemma": "אֻדַן,",
       "source_xml": "<entry id=\"A00429\">\n<head-word>אֻדַן, </head-word>\n<head-word>אֻדְנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00517\">אוּ'</xref></notes></sense></senses></entry>\n",
       "source_entry_sha256": "edd24adc640263755e3983434c2b56a18633314a84d394b5ccc22cb803c1f45b",
-      "editorial_gloss": "ver אוּ׳ (remissão incerta)",
-      "editorial_html": "Cabeçalhos originais <bdi lang='he' dir='rtl'>אֻדַן, אֻדְנָא</bdi>. A nota do XML diz apenas <bdi lang='he' dir='rtl'>v. אוּ׳</bdi>; não autoriza completar automaticamente essa abreviatura como <bdi lang='he' dir='rtl'>אוּדְנָא</bdi>. O atributo eletrônico <code>rid=\"A00517\"</code> aponta para <bdi lang='he' dir='rtl'>אֹו</bdi> («ou»), referência semanticamente incompatível à primeira vista. <strong>Pendência documental:</strong> cotejar o impresso de Jastrow para determinar o destino; nem a expansão nem o identificador do XML são corrigidos por conjectura.",
+      "editorial_gloss": "ver אוּדְנָא I (A00568); orelha",
+      "editorial_html": "Variantes <bdi lang='he' dir='rtl'>אֻדַן, אֻדְנָא</bdi>. <strong>Remissão resolvida:</strong> ver <bdi lang='he' dir='rtl'>אוּדְנָא I</bdi> (JASTROW <code>A00568</code>), substantivo feminino aramaico, «orelha; ouvido», equivalente ao hebraico <bdi lang='he' dir='rtl'>אֹזֶן</bdi>. O alvo apresenta as grafias <bdi lang='he' dir='rtl'>אֹודֶן, אוּדַן, אוּדָן, אוּדְנָא</bdi>; o confronto explica a variante sem <i>waw</i> do cabeçalho remissivo. <strong>Prova contextual:</strong> Targum Salmos 18.45 traz <bdi lang='he' dir='rtl'>אוּדַן</bdi> (edição de Viena <bdi lang='he' dir='rtl'>אוּדִין</bdi>?, manuscrito <bdi lang='he' dir='rtl'>אוזן</bdi>); cf. Targum Isaías 64.3, Êxodo 29.20; Jastrow registra também «dor de ouvido» em Jerusalém Shabbat 6, 8c. <strong>Aparato crítico:</strong> a entrada-fonte conserva a remissão abreviada <bdi lang='he' dir='rtl'>אוּ׳</bdi>, sem número de homógrafo. A identificação com I decorre da correspondência dos cabeçalhos e do significado, não de um numeral explicitamente impresso nesta remissão. O atributo eletrônico original <code>rid=\"A00517\"</code> conduz à conjunção <bdi lang='he' dir='rtl'>אֹו</bdi> («ou»), sem relação semântica: erro de ligação da digitalização. Os homógrafos <bdi lang='he' dir='rtl'>אוּדְנָא II</bdi> (recipiente, banheira; <code>A00569</code>) e <bdi lang='he' dir='rtl'>אוּדְנָא III</bdi> (escabelo, pedestal; <code>A00570</code>) permanecem distintos. <strong>Camadas:</strong> Fonte XML preservada sem emenda; resolução lexical e escolha do destino realizadas na Tradução/Análise mediante confronto do verbete-alvo e da transcrição de 1903.",
       "legacy_status": "O",
       "legacy_observation": "A remissão original 'v. אוּ׳' é truncada; o cartão expande para אוּדְנָא sem justificá-la neste testemunho. Mantida a questão para revisão do destino lexical.",
-      "decision": "P",
-      "decision_note": "Questão textual não encerrada; aparato português atualizado: Limite do testemunho: o verbete histórico אֻדַן / אֻדְנָא remete abreviadamente a אוּ׳, sem indicar homógrafo. A transcrição histórica contém, adiante, אוּדְנָא III («apoio para os pés, pedestal»), semanticamente aparentado ao hebraico אדן («base, pedestal»), bem como outros homógrafos de אוּדְנָא. O XML codifica rid=\"A00517\", que leva a אֹו («ou»), uma ligação eletrônica aparentemente errada. A correspondência provável com אוּדְנָא III não é comprovada pelo texto abreviado isoladamente. Mantém-se a remissão literal sem substituir o destino por conjectura; é necessária evidência tipográfica ou de aparato adicional para atribuir o homógrafo definitivamente.",
+      "decision": "C",
+      "decision_note": "Destino resolvido por confronto de variantes e semântica: a remissão אֻדַן / אֻדְנָא («v. אוּ׳») corresponde a אוּדְנָא I (A00568), «orelha», cujo cabeçalho atesta אוּדַן e אוּדְנָא e cuja definição é equivalente ao hebraico אֹזֶן. O xref eletrônico rid=A00517 («ou») é incongruente; os homógrafos II (recipiente) e III (escabelo) não correspondem a estas formas remissivas. O número I é identificação filológica fundamentada, não expansão literal da abreviação impressa.",
       "patched_now": true,
       "external_citations_verified": false,
-      "critical_addendum": "<strong>Limite do testemunho:</strong> o verbete histórico אֻדַן / אֻדְנָא remete abreviadamente a אוּ׳, sem indicar homógrafo. A transcrição histórica contém, adiante, אוּדְנָא III («apoio para os pés, pedestal»), semanticamente aparentado ao hebraico אדן («base, pedestal»), bem como outros homógrafos de אוּדְנָא. O XML codifica <code>rid=\"A00517\"</code>, que leva a אֹו («ou»), uma ligação eletrônica aparentemente errada. A correspondência provável com אוּדְנָא III <strong>não é comprovada pelo texto abreviado isoladamente</strong>. Mantém-se a remissão literal sem substituir o destino por conjectura; é necessária evidência tipográfica ou de aparato adicional para atribuir o homógrafo definitivamente.",
+      "critical_addendum": "Variantes <bdi lang='he' dir='rtl'>אֻדַן, אֻדְנָא</bdi>. <strong>Remissão resolvida:</strong> ver <bdi lang='he' dir='rtl'>אוּדְנָא I</bdi> (JASTROW <code>A00568</code>), substantivo feminino aramaico, «orelha; ouvido», equivalente ao hebraico <bdi lang='he' dir='rtl'>אֹזֶן</bdi>. O alvo apresenta as grafias <bdi lang='he' dir='rtl'>אֹודֶן, אוּדַן, אוּדָן, אוּדְנָא</bdi>; o confronto explica a variante sem <i>waw</i> do cabeçalho remissivo. <strong>Prova contextual:</strong> Targum Salmos 18.45 traz <bdi lang='he' dir='rtl'>אוּדַן</bdi> (edição de Viena <bdi lang='he' dir='rtl'>אוּדִין</bdi>?, manuscrito <bdi lang='he' dir='rtl'>אוזן</bdi>); cf. Targum Isaías 64.3, Êxodo 29.20; Jastrow registra também «dor de ouvido» em Jerusalém Shabbat 6, 8c. <strong>Aparato crítico:</strong> a entrada-fonte conserva a remissão abreviada <bdi lang='he' dir='rtl'>אוּ׳</bdi>, sem número de homógrafo. A identificação com I decorre da correspondência dos cabeçalhos e do significado, não de um numeral explicitamente impresso nesta remissão. O atributo eletrônico original <code>rid=\"A00517\"</code> conduz à conjunção <bdi lang='he' dir='rtl'>אֹו</bdi> («ou»), sem relação semântica: erro de ligação da digitalização. Os homógrafos <bdi lang='he' dir='rtl'>אוּדְנָא II</bdi> (recipiente, banheira; <code>A00569</code>) e <bdi lang='he' dir='rtl'>אוּדְנָא III</bdi> (escabelo, pedestal; <code>A00570</code>) permanecem distintos. <strong>Camadas:</strong> Fonte XML preservada sem emenda; resolução lexical e escolha do destino realizadas na Tradução/Análise mediante confronto do verbete-alvo e da transcrição de 1903.",
       "lexical_file": "lexicons/jastrow-411-435.js",
-      "lexical_blob_sha": "af126cc5d41dd40bf6562b0ba2aed7bdf1a5ccf4"
+      "resolved_target_id": "A00568",
+      "original_xml_rid": "A00517",
+      "homograph_resolution_type": "convergent lexical evidence, not literal numeral in source"
     },
     {
       "id": "A00431",
@@ -1620,8 +1622,8 @@
     "date": "2026-10-11",
     "count": {
       "A": 37,
-      "C": 62,
-      "P": 1
+      "C": 63,
+      "P": 0
     },
     "ids": [
       "A00211",
@@ -1656,9 +1658,18 @@
       "A00571",
       "A00592"
     ],
-    "unresolved_ids": [
-      "A00429"
-    ],
+    "unresolved_ids": [],
     "report": "auditoria/JASTROW-2026-10-11-resolucao-dos-31.md"
+  },
+  "final_completion": {
+    "date": "2026-10-11",
+    "counts": {
+      "A": 37,
+      "C": 63,
+      "P": 0
+    },
+    "last_id": "A00429",
+    "cross_reference": "A00568",
+    "digital_xref_error": "A00517"
   }
 }

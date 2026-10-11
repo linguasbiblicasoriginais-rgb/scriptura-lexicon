@@ -9,10 +9,10 @@
   "selection": "11 V + earliest 89 O from old checkpoint",
   "counts": {
     "A": 37,
-    "C": 62,
-    "P": 1
+    "C": 63,
+    "P": 0
   },
-  "edits_applied": 64,
+  "edits_applied": 65,
   "other_historical_flags_not_included": [
     "A00568",
     "A00569",
@@ -588,11 +588,13 @@
     {
       "id": "A00429",
       "ordinal": 430,
-      "result": "P",
+      "result": "C",
       "patched": true,
-      "decision_note": "Questão textual não encerrada; aparato português atualizado: Limite do testemunho: o verbete histórico אֻדַן / אֻדְנָא remete abreviadamente a אוּ׳, sem indicar homógrafo. A transcrição histórica contém, adiante, אוּדְנָא III («apoio para os pés, pedestal»), semanticamente aparentado ao hebraico אדן («base, pedestal»), bem como outros homógrafos de אוּדְנָא. O XML codifica rid=\"A00517\", que leva a אֹו («ou»), uma ligação eletrônica aparentemente errada. A correspondência provável com אוּדְנָא III não é comprovada pelo texto abreviado isoladamente. Mantém-se a remissão literal sem substituir o destino por conjectura; é necessária evidência tipográfica ou de aparato adicional para atribuir o homógrafo definitivamente.",
+      "decision_note": "Destino resolvido por confronto de variantes e semântica: a remissão אֻדַן / אֻדְנָא («v. אוּ׳») corresponde a אוּדְנָא I (A00568), «orelha», cujo cabeçalho atesta אוּדַן e אוּדְנָא e cuja definição é equivalente ao hebraico אֹזֶן. O xref eletrônico rid=A00517 («ou») é incongruente; os homógrafos II (recipiente) e III (escabelo) não correspondem a estas formas remissivas. O número I é identificação filológica fundamentada, não expansão literal da abreviação impressa.",
       "lexical_file": "lexicons/jastrow-411-435.js",
-      "lexical_blob_sha": "af126cc5d41dd40bf6562b0ba2aed7bdf1a5ccf4"
+      "resolved_target_id": "A00568",
+      "resolved_target_homograph": "I",
+      "resolution_basis": "headwords + lexical meaning + 1903 historical transcription; no change to source XML"
     },
     {
       "id": "A00431",
@@ -822,15 +824,13 @@
     },
     "final": {
       "A": 37,
-      "C": 62,
-      "P": 1
+      "C": 63,
+      "P": 0
     },
     "records_examined": 31,
     "corrected_and_validated": 30,
-    "documented_pending": 1,
-    "unresolved_ids": [
-      "A00429"
-    ],
+    "documented_pending": 0,
+    "unresolved_ids": [],
     "source": "Sefaria XML commit 947c1b91684df9f8b92f14cf0d281b5d4f29bfc7; independently compared against selected Wikisource 1903 transcriptions, not manuscript facsimiles",
     "document": "auditoria/JASTROW-2026-10-11-resolucao-dos-31.md",
     "module_blobs": [
@@ -898,6 +898,22 @@
         "path": "lexicons/jastrow-591-600.js",
         "sha": "b66e23b6fec2f7eb57d2f5f3f2f259f4846fdf89"
       }
-    ]
+    ],
+    "final_update": "A00429 concluído via correspondência com A00568 (orelha)"
+  },
+  "final_completion": {
+    "date": "2026-10-11",
+    "result": {
+      "A": 37,
+      "C": 63,
+      "P": 0
+    },
+    "scope": 100,
+    "finished_id": "A00429",
+    "target_id": "A00568",
+    "original_xml_unmodified": true,
+    "external_manuscript_collation": false,
+    "real_browser_test": false,
+    "report": "auditoria/JASTROW-2026-10-11-A00429-desfecho.md"
   }
 }

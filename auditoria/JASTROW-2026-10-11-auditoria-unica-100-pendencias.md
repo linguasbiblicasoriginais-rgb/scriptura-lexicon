@@ -7,8 +7,8 @@
 | Estado | Quantidade |
 |---|---:|
 | A — sem correção nova, ressalva histórica já corrigida | 37 |
-| C — intervenções comprovadas (incluindo a resolução dos 31) | 62 |
-| P — única pendência documental não decidida | 1 |
+| C — intervenções comprovadas (incluindo a resolução dos 31) | 63 |
+| P — pendências documentais ainda não decididas | 0 |
 | **Total** | **100** |
 
 ## Pareceres individuais
@@ -89,7 +89,7 @@
 | 412 | `A00411` | אַדְכָּרָה, | **C** | aparato publicado e documentado | O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida. |
 | 413 | `A00412` | אִדְכָּרוּ, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 415 | `A00414` | אֲדָל, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 430 | `A00429` | אֻדַן, | **P** | corrigido parcialmente; pendência preservada | Retirada expansão sem prova para אוּדְנָא; o XML conserva remissão abreviada אוּ׳, mas o xref aponta A00517 (אֹו, conjunção). Cartão agora expõe ambas as evidências; destino continua P até colação do impresso. |
+| 430 | `A00429` | אֻדַן, | **C** | corrigido, destino estabelecido por confronto de variantes | A abreviação אוּ׳ remete ao grupo ouּדְנָא I (A00568), «orelha», enquanto o XML aponta incorretamente a A00517, conjunção «ou»; fonte XML imutável. |
 | 432 | `A00431` | *אֲדַנְדְּקֵי | **C** | corrigido nesta execução | Hulin 60b: ארונקי ocorre em edição; אדונקי no Musaf do Arukh. A relação com ἐθνάρχοι é hipótese filológica. |
 | 444 | `A00443` | (אָדָר) אֲדָר | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 445 | `A00444` | אִדַּר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
@@ -155,7 +155,7 @@
 - **`A00371`**: Primeiro cabeçalho XML contém apenas asterisco; impresso não colacionado.
 - **`A00407`**: O inglês do XML 'heated store' contrasta com o contexto hebraico דתנורא; impresso não colacionado.
 - **`A00411`**: O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida.
-- **`A00429`**: O XML mantém אוּ׳ e o xref A00517 aponta para אֹו («ou»), destino incongruente; a versão portuguesa preserva ambos, aguardando cotejo do impresso.
+- **`A00429`** (histórico): O XML mantém אוּ׳ e o xref A00517 aponta para אֹו («ou»); posteriormente resolvido mediante variante lexical de A00568 (orelha), sem alterar o XML.
 - **`A00571`**: Autorremissão circular do XML ainda exige conferência da edição de 1903.
 - **`A00592`**: Terceiro cabeçalho XML contém apenas ponto; segmentação exige colação tipográfica.
 
@@ -169,7 +169,7 @@ Os demais casos classificados P conservam sua observação específica do exame 
 | DGP | ✓ 3.300 | ✓ 3.300/3.300 (estática) | ◐ 400/3.300 (histórico) | ◐ 2.880/3.300 | 3.300 |
 | LEH | ✓ 690 | ◐ 690/690 | — 0/690 | ✓ 690/690 | 690 |
 | PEREIRA | ✓ 510 | ◐ 510/510 | — 0/510 | ✓ 510/510 | 510 |
-| **JASTROW** | ✓ 600 | ✓ 600/600 (estática) | ◐ 100/600 (norma vigente: A 37, C 62, P 1; 600/600 históricos) | ✓ 600/600 (base; correções pendentes de integração) | 600 |
+| **JASTROW** | ✓ 600 | ✓ 600/600 (estática) | ◐ 100/600 (norma vigente: A 37, C 63, P 0; 600/600 históricos) | ✓ 600/600 (base; correções pendentes de integração) | 600 |
 | THAYER | ✓ 500 | ◐ 500/500 | ◐ 500/500 (lemas apenas) | ✓ 500/500 | 500 |
 | HALOT | ◐ 100/100 (preliminar) | ◐ 100/100 | — 0/100 | — 0/100 | 100 |
 | ROBINSON | — 0 | — 0 | — 0 | — 0 | 0 |
@@ -194,3 +194,10 @@ Conferidos os cinco IDs e seu vínculo à fonte, os trechos JSON usados como lit
 ## Encerramento dirigido das 31 fichas pendentes — 11/10/2026
 
 Os 31 casos P foram objeto de correção documental individual em 16 módulos, com 30 mudanças de P para C. Resultado atualizado dos mesmos 100 registros: **A 37 / C 62 / P 1**. A única pendência remanescente, `A00429`, diz respeito à identificação específica do destino da remissão `אוּ׳`, visto que o XML apresenta `rid=A00517` incompatível; qualquer preenchimento adicional de homógrafo seria conjectural. A redação portuguesa expõe expressamente o problema, sem erro de remissão inventado. A fonte XML segue imutável; colação independente de manuscritos e testes de navegador não foram efetuados. O relatório específico contém todos os 31 pareceres e documentos de testemunho: [resolução dos 31](JASTROW-2026-10-11-resolucao-dos-31.md) e [manifesto JSON](jastrow-resolucao-31-manifest.json). Não foi executada integração por PR nesta fase.
+
+
+## Encerramento final da pendência A00429
+
+**Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
+
+A tabela anterior A37/C62/P1 é histórica (antes deste encerramento). [Parecer final](JASTROW-2026-10-11-A00429-desfecho.md).

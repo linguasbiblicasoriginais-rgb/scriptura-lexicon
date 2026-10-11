@@ -111,3 +111,10 @@ Versão inicial: 10/10/2026
 - A fonte XML Sefaria, fixada em commit 947c1b91684df9f8b92f14cf0d281b5d4f29bfc7, permaneceu imutável. Reconstruções de cabeçalho A00371 e de remissão A00571 pertencem à Tradução/GDHAGP, com evidência de fonte secundária (transcrição Wikisource), sem alteração retroativa da Fonte.
 - Não tratar essa complementação como nova fila geral; somente o ponto A00429 exige confirmação pontual se aparecer testemunho mais decisivo. Integração por PR, testes visuais e inspeção independente dos manuscritos não foram executados nesta auditoria.
 - Relatório: auditoria/JASTROW-2026-10-11-resolucao-dos-31.md; manifesto: auditoria/jastrow-resolucao-31-manifest.json; matriz e checkpoint da auditoria única de 100 entradas atualizados.
+
+
+## Encerramento documental A00429 — 11/10/2026
+
+**Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
+
+Não relançar esta questão como pendência em lotes subsequentes sem novo testemunho contraditório. Preservar no XML original a abreviação `אוּ׳` e o `rid=A00517`; a correção editorial da remissão está no cartão A00429, destino A00568. Parecer: `auditoria/JASTROW-2026-10-11-A00429-desfecho.md`.
