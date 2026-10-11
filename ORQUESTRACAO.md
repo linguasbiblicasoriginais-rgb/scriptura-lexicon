@@ -1,5 +1,10 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## THAYER — verificação atômica e regressão localizada de 512 registros (11/10/2026)
+
+Aplicou-se `regras/Rauditoria.txt`: 512/512 cartões estruturalmente coerentes, 12 suplementos com cotejo filológico dirigido, 15 URLs bíblicas conferidas e inseridas, mas 0/512 homologados integralmente por faltar colação de todas as acepções e testes reais DOM/acessibilidade. Distinguir expressamente `verificados_estaticamente=512`, `cotejados_dirigidamente=12` e `auditoria_atomica_concluida=0`. Relatório: `auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md`; evidências por ID: `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json` e `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv`. A integração dessas correções depende de PR/merge verificado. Nenhum agendamento novo, escrita em main ou alteração no tamanho do corpus resulta deste relatório.
+
+
 ## REGRA SUPERIOR — auditoria atômica e corretiva de cada verbete (11/10/2026)
 
 A palavra **AUDITORIA**, em qualquer ciclo, tarefa independente ou lote, significa agora **diagnóstico integral do artigo + todas as correções fundamentadas possíveis + regressão completa + prova individual + integração efetiva**. O texto normativo superior é [`regras/Rauditoria.txt`](regras/Rauditoria.txt), complementado pelo modelo [`regras/modelo-auditoria-atomica.json`](regras/modelo-auditoria-atomica.json). Um relatório sem correção, um teste estático, uma contagem 100/100 de cartões ou uma triagem automática **não pode ser marcado como auditoria concluída**. Quando ferramenta, fonte, teste real ou decisão estiverem pendentes, marcar o artigo `BLOQUEADA`; quando faltar PR/merge, `AGUARDANDO_INTEGRACAO`. Conclusão individual somente após testes verificáveis e integração remota confirmada. A segurança de cada etapa persiste; “atômico” refere-se ao critério de aceitação por verbete, não a uma transação única entre branches.
