@@ -1,5 +1,14 @@
 # Scriptura Lexicon
 
+## THAYER — meta de 400 verbetes alcançada na origem (11/10/2026)
+
+A branch lexical `chat-gpt-thayer` foi ampliada de **321 para 400 verbetes THAYER**, com **79 novas entradas numeradas G314–G392**: de **`ἀναγινώσκω`** até **`ἀνατάσσομαι`**. O próximo verbete indexado é **`ἀνατέλλω` (G393)**. As 79 entradas foram distribuídas em quatro módulos independentes da mesma rodada: `lexicons/thayer-batch-005a.js` (20), `thayer-batch-005b.js` (20), `thayer-batch-005c.js` (20) e `thayer-batch-005d.js` (19). São carregados, nessa ordem, depois do lote 004 e antes de `script.js`.
+
+Fonte primária: Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, `Thayer (parte 1, Α–Ι).pdf`, páginas impressas 36–42, com consulta auxiliar a transcrições individuais do Thayer. Cada novo registro inclui lema politônico, classe gramatical, equivalentes portugueses, síntese de acepções, referências bíblicas e popup lexical grego. **400** corresponde aqui ao número de entradas editoriais incorporadas no site, inclusive o cartão histórico de Ἀαρών; não equivale à afirmação de que todos os cabeçalhos não indexados da obra no intervalo já foram auditados.
+
+Checkpoint: `lexicons/thayer-progress.json`. Normas e controle: `regras/Rthayer.txt`. Relatório: `auditorias/thayer-2026-10-11-lote005.md`. A auditoria estática confere 79 pares novos de linhas e cartões, sequência de IDs e de G314–G392, sem colisões e com carregamento correto dos scripts; testes dinâmicos de navegador, acessibilidade, validação exaustiva de URLs, inventário de cabeçalhos não numerados e revisão filológica integral permanecem **pendentes**. Esta publicação não modifica `main` nem mescla automaticamente em `chat-gpt-commits`; a integração exige fluxo próprio.
+
+
 ## THAYER — lote 004 de 100 verbetes (11/10/2026)
 
 A branch `chat-gpt-thayer` recebeu **100 novos verbetes** de `ἀλέκτωρ` (G220) a `ἀναγεννάω` (G313), no módulo `lexicons/thayer-batch-004.js`. Foram cadastradas **94 entradas com índice inteiro**, mais **seis cabeçalhos adicionais documentados no Thayer**: `ἀλλαχοῦ`, `Ἀμπλίατος`, `ἀμφιβάλλω`, `ἀμφιάζω`, `ἀμφιέζω` e `ἄμωμον`. A entrada `ἄλφα` (G255a) já estava cadastrada e não foi duplicada.
