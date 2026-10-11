@@ -1,5 +1,14 @@
 # Scriptura Lexicon
 
+## THAYER — lote 006: 500 verbetes acumulados (11/10/2026)
+
+A branch `chat-gpt-thayer` recebeu **100 novas entradas**, de **ἀνατέλλω (G393)** a **Ἀντιοχεύς (G491)**, somando **500 verbetes THAYER** (499 registros dinâmicos e o cartão histórico Ἀαρών). O lote compreende 99 entradas do intervalo G393–G491 e uma entrada adicional identificada por Thayer como **ἀνέλεος (G415a)**. Próximo lema: **ἀντιπαρέρχομαι (G492)**.
+
+Os cinco novos módulos `lexicons/thayer-batch-006a.js` até `006e.js` possuem 20 pares de linha de pesquisa/cartão por arquivo, carregados após os módulos 005 e antes de `script.js`. Fonte lexical: Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, consultado pelo fac-símile da parte Α–Ι e transcrições do próprio Thayer. Os verbetes contêm sínteses editoriais portuguesas com classes gramaticais, acepções, referências e popups; **Strong é apenas sistema de indexação**.
+
+A auditoria técnica verifica 100 linhas, 100 cartões, alvos, IDs e etiquetas. Não certifica a revisão filológica exaustiva, paginação impressa por verbete, testes dinâmicos em navegador ou acessibilidade. Documentação: `lexicons/thayer-progress.json`, `regras/Rthayer.txt`, `auditorias/thayer-2026-10-11-lote006.md`. Esta incorporação permanece exclusivamente em `chat-gpt-thayer`; integração em `chat-gpt-commits` exige operação independente e `main` não é editada.
+
+
 ## THAYER — meta de 400 verbetes alcançada na origem (11/10/2026)
 
 A branch lexical `chat-gpt-thayer` foi ampliada de **321 para 400 verbetes THAYER**, com **79 novas entradas numeradas G314–G392**: de **`ἀναγινώσκω`** até **`ἀνατάσσομαι`**. O próximo verbete indexado é **`ἀνατέλλω` (G393)**. As 79 entradas foram distribuídas em quatro módulos independentes da mesma rodada: `lexicons/thayer-batch-005a.js` (20), `thayer-batch-005b.js` (20), `thayer-batch-005c.js` (20) e `thayer-batch-005d.js` (19). São carregados, nessa ordem, depois do lote 004 e antes de `script.js`.
