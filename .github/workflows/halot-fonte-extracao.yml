@@ -1,0 +1,105 @@
+name: HALOT - leitura tecnica do PDF canonico
+on:
+  push:
+    branches:
+      - chat-gpt-halot
+    paths:
+      - .github/workflows/halot-fonte-extracao.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pdf-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout fonte canonica
+        uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-halot
+          persist-credentials: true
+
+      - name: Inspecionar PDF e extrair amostra paginada
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v pdftotext >/dev/null || ! command -v pdfinfo >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq poppler-utils
+          fi
+          python3 - <<'PY'
+          import datetime
+          import hashlib
+          import json
+          import pathlib
+          import re
+          import subprocess
+          import tempfile
+
+          source = pathlib.Path("fontes/fonte-halot.pdf")
+          expected_git_sha = "3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e"
+          assert source.is_file(), "HALOT: PDF canonico ausente"
+          git_sha = subprocess.check_output(["git", "hash-object", str(source)], text=True).strip()
+          assert git_sha == expected_git_sha, f"HALOT: SHA do PDF alterado ({git_sha}); revisar a proveniencia antes de extrair"
+          pdfinfo = subprocess.check_output(["pdfinfo", str(source)], text=True, errors="replace")
+          page_match = re.search(r"^Pages:\s*(\d+)", pdfinfo, re.M)
+          page_count = int(page_match.group(1)) if page_match else None
+          assert page_count, "HALOT: pdfinfo nao identificou numero de paginas"
+
+          last_page = min(page_count, 140)
+          with tempfile.TemporaryDirectory() as temp:
+            textfile = pathlib.Path(temp) / "pages.txt"
+            cmd = ["pdftotext", "-f", "1", "-l", str(last_page), "-layout", "-enc", "UTF-8", str(source), str(textfile)]
+            subprocess.run(cmd, check=True)
+            extracted = textfile.read_text(encoding="utf-8", errors="replace")
+          pages = extracted.split("\f")
+          if pages and not pages[-1].strip():
+            pages.pop()
+          observations = []
+          for index, page_text in enumerate(pages):
+            hebrew_chars = sum(0x0590 <= ord(char) <= 0x05ff for char in page_text)
+            observations.append({"pdf_page": index+1, "text_chars": len(page_text), "hebrew_chars": hebrew_chars, "sample": page_text.strip()[:120]})
+          candidates = [p for p in observations if p["hebrew_chars"] >= 70 and p["text_chars"] >= 700]
+          first = candidates[0]["pdf_page"] if candidates else None
+          chosen_start = first if first is not None else 1
+          chosen_end = min(len(pages), chosen_start+13)
+          excerpt_parts=[]
+          for number in range(chosen_start, chosen_end+1):
+            body=pages[number-1] if number-1 < len(pages) else ""
+            excerpt_parts.append(f"\n===== PAGINA PDF {number} / EXTRACAO AUTOMATICA NAO CONFERIDA =====\n"+body[:10000])
+          pathlib.Path("auditorias").mkdir(exist_ok=True)
+          preflight = {
+            "source": "HALOT Study Edition volume 1 (identidade interna pendente de conferencia visual)",
+            "canonical_path": str(source),
+            "canonical_branch": "chat-gpt-halot",
+            "git_blob_sha_confirmed": git_sha,
+            "pdf_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+            "pdf_size_bytes": source.stat().st_size,
+            "pdf_page_count": page_count,
+            "pages_examined": last_page,
+            "first_page_with_hebrew_text_candidate": first,
+            "selected_excerpt_pdf_pages": [chosen_start, chosen_end],
+            "text_layer_status": "candidate_present" if candidates else "hebrew_text_not_detected_ocr_or_manual_inspection_needed",
+            "filological_verification": "PENDING",
+            "lexical_entries_verified": 0,
+            "page_stats": observations
+          }
+          pathlib.Path("auditorias/halot-fonte-diagnostico.json").write_text(json.dumps(preflight, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+          pathlib.Path("auditorias/halot-fonte-extracao-candidata.txt").write_text("\n".join(excerpt_parts), encoding="utf-8")
+          print("HALOT PREFLIGHT", json.dumps({k:v for k,v in preflight.items() if k!="page_stats"}, ensure_ascii=False))
+          print("HALOT TEXTO: tamanho =",sum(p["text_chars"] for p in observations),"; paginas candidatas =",len(candidates))
+          PY
+
+      - name: Registrar somente extracao diagnostica na branch HALOT
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add auditorias/halot-fonte-diagnostico.json auditorias/halot-fonte-extracao-candidata.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "HALOT: extrair amostra paginada do PDF canonico para conferencia"
+            git push origin HEAD:chat-gpt-halot
+          fi
