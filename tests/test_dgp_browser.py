@@ -135,9 +135,9 @@ def test_page(browser, base, path, expected):
     check(tooltip.get_attribute("aria-hidden") == "false",
           "Tooltip nao abriu pelo teclado")
     check("futuro" in tooltip.inner_text().lower(), "Texto do popup futuro incorreto")
-    page.keyboard.press("Tab")
+    page.locator("#search-input").focus()
     check(tooltip.get_attribute("aria-hidden") == "true",
-          "Tooltip nao fechou quando perdeu foco")
+          "Tooltip nao fechou ao mover o foco para a pesquisa")
 
     source = page.locator("#source-filter")
     values = source.locator("option").evaluate_all("(opts) => opts.map(o => o.value)")
