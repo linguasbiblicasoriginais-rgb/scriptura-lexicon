@@ -30,7 +30,7 @@
     "lemma": "אָב,",
     "type": "Nome de mês",
     "gloss": "av; quinto mês judaico",
-    "html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. No calendário gregoriano corresponde aproximadamente a julho–agosto (as datas exatas variam anualmente). Rosh Hashaná 1.3 menciona mensageiros para anunciar seu início em vista do jejum; Ta‘anit 4.6, sua chegada; Ta‘anit 29b, a conveniência de evitar litígios nesse mês; o dia 9 de av comemora a destruição do Templo."
+    "html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. Na correspondência civil descrita por Jastrow, seu início situa-se entre 8 de julho e 7 de agosto, e seu término entre 6 de agosto e 5 de setembro; não são datas anuais fixas. <strong>Nota da fonte:</strong> Jastrow relaciona o nome ao assírio <i>A-bu</i> e remete a Schr., <i>K. A. T.</i>, p. 247; essa referência histórica não constitui aqui verificação independente da etimologia. <strong>Exemplos e referências:</strong> Rosh Hashaná 1.3, mensageiros anunciam o início de Av por causa do jejum; 18b, <bdi lang='he' dir='rtl'>ט׳ באב</bdi>, o nono dia de Av, memória da destruição do Templo. Ta‘anit 4.6, <bdi lang='he' dir='rtl'>משנכנס אב</bdi>, «ao começar Av»; Ta‘anit 29b, <bdi lang='he' dir='rtl'>לישתמיט מיניה באב</bdi>, recomendação de evitar um litígio naquele mês. Cf. Meguilá 5b."
   },
   {
     "sid": "A00014",
@@ -120,8 +120,8 @@
     "sid": "A00026",
     "lemma": "אִבְּבָא",
     "type": "Remissão",
-    "gloss": "ver אִיבָּא",
-    "html": "Remissão ortográfica para <bdi lang='he' dir='rtl'>אִיבָּא</bdi>; sem definição própria."
+    "gloss": "ver אֵב (A00016); fonte: איב׳",
+    "html": "Remissão originalmente abreviada como <bdi lang='he' dir='rtl'>איב׳</bdi>. O vínculo <code>rid=\"A00016\"</code> no XML aponta ao verbete <bdi lang='he' dir='rtl'>אֵב</bdi>, que também registra <bdi lang='he' dir='rtl'>(אוֹב) אֵיב</bdi> como segundo cabeçalho e trata de brotos e desenvolvimento. Preserva-se a grafia abreviada; não há fundamento para substituí-la simplesmente por <bdi lang='he' dir='rtl'>אִיבָּא</bdi>."
   },
   {
     "sid": "A00027",

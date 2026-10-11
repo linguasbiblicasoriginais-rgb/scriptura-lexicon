@@ -7,8 +7,8 @@
 | Estado | Quantidade |
 |---|---:|
 | A — sem correção nova, ressalva histórica já corrigida | 37 |
-| C — intervenção comprovada nesta execução | 28 |
-| P — pendência específica registrada | 35 |
+| C — intervenções comprovadas (inclusive complementação) | 32 |
+| P — pendências específicas ainda abertas | 31 |
 | **Total** | **100** |
 
 ## Pareceres individuais
@@ -17,24 +17,24 @@
 |---:|---|---|:---:|---|---|
 | 11 | `A00010` | אאלר"ן | **C** | corrigido nesta execução | A sequência de Daniel 5.25 tem marcas gráficas, reproduzidas do XML: מנא̇ מנא̇ תקל̇ ופר̇סין̇. Não as omitir no expediente de seleção de letras. |
 | 13 | `A00012` | אַב־, | **C** | corrigido nesta execução | O segundo cabeçalho original é אֶבְ־, além de אַב־. Jastrow associa-os respectivamente a elementos gregos εὐ- e αὐ-. |
-| 14 | `A00013` | אָב, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 14 | `A00013` | אָב, | **C** | corrigido e validado pelo XML | O XML de Jastrow registra A-bu (Schr., K.A.T., p. 247), duas faixas de datas e cinco referências rabínicas. Elementos traduzidos e atribuídos expressamente à fonte, sem atestar conferência da bibliografia assíria. |
 | 15 | `A00014` | אָב, | **C** | corrigido nesta execução | Estados construtos: אֲבִי, אַב. A expressão בת אב indica mulher de origem nobre (Números Rabá 1); בנין אב denomina conclusão legal por analogia de um caso bíblico explícito (Sifra). |
 | 17 | `A00016` | אֵב, | **C** | corrigido nesta execução | Segundo cabeçalho: (אוֹב) אֵיב. Bava Kamma 81a: leitura de edição אִיבּוֹ versus Arukh/manuscrito חובו; a variante de Tosefta Maaserot 1.4 é emendada por Jastrow para אוּגִין. |
 | 18 | `A00017` | אַבָּא, | **C** | corrigido nesta execução | O uso sarcástico אַבָּא אליהו ('pai Elias') consta em Sanhedrin 113a. Meguilá 12b cita o administrador do pai. Em Targum Provérbios 19.14, variante manuscrita אֲבָהֵי e leitura da edição אבהן. |
 | 19 | `A00018` | אַבָּא, | **C** | corrigido nesta execução | Cabeçalho alternativo אַכָּה; grafias do Jerusalém בָּא, וָוא, וָוה. Trata-se de formas históricas associadas a pessoas distintas, não de uma identificação única. |
 | 22 | `A00021` | אַכְאָבִית, | **C** | corrigido nesta execução | Gênesis Rabá 19: o Arukh transmite חמה עליה אבבית עליה ('febre e vômitos'), ao passo que a edição tem צינה עליו כמה חככים עליו, leitura que Jastrow considera corrompida. |
-| 27 | `A00026` | אִבְּבָא | **P** | pendência específica | O destino איב׳ é truncado e não autoriza a expansão exata apresentada no cartão. |
+| 27 | `A00026` | אִבְּבָא | **C** | corrigido e validado pelo XML | A abreviação איב׳ tem referência eletrônica explícita a A00016 (אֵב), verificada no XML da mesma edição. Corrigida a expansão editorial anterior אִיבָּא, não sustentada pelo xref. |
 | 28 | `A00027` | אֶבְגִּינוֹס, | **C** | corrigido nesta execução | Leituras secundárias אביינוס (Midraxe Salmos 1), אווגיטוס (Cântico Rabá) e בן גנסין (Midraxe Salmos 105) são variantes de testemunho, não novos cabeçalhos comprovados. |
 | 31 | `A00030` | אָבַד | **C** | corrigido nesta execução | Sifré Deuteronômio 301 apresenta propostas de leitura לוֹבֵד ou לֶאֱבוֹד; Yalkut registra לאבדם e manuscrito Zer. Abr. 3 לֵיאָבֵר. Diferenciar testemunho de emenda editorial. |
 | 32 | `A00031` | אֲבַּד, | **C** | corrigido nesta execução | O segundo cabeçalho aramaico é אָבַד, ao lado de אֲבַּד; preservar a distinção entre Pael, Afel e Itpaal. |
 | 34 | `A00033` | אַבְדָּא | **C** | corrigido nesta execução | O sentido lexical expresso no inglês desta entrada é substantivo 'destruição' (Targum Provérbios 28.28), não apenas a etimologia verbal da raiz. |
-| 50 | `A00049` | אָבָה | **P** | pendência específica | A remissão não vocalizada אבי não autoriza afirmar que a leitura אָבֵי seja a única. |
+| 50 | `A00049` | אָבָה | **C** | corrigido e validado pelo XML | O xref do XML aponta A00107, cujo cabeçalho confirma אָבֵי, אָבָה. Mantida a grafia não vocalizada אבי como dado da entrada remissiva e fundamentada a forma vocalizada pelo destino. |
 | 52 | `A00051` | אבהנוס, | **C** | corrigido nesta execução | A segunda forma do cabeçalho é אבהונוס. As grafias אַמְבָּטִיס ou אִיפּוֹבַּטֵיס são emendas recomendadas por Jastrow, não leituras de edição confirmadas. |
 | 55 | `A00054` | אִבּוּ, | **C** | corrigido nesta execução | O XML registra também o cabeçalho alternativo (אַיְיבוּ) אִיבּוּ; o nome romanizado Aibu não substitui sua grafia original. |
 | 57 | `A00056` | אַבּוּב, | **C** | corrigido nesta execução | Variante aramaica de cabeçalho אַבּוּבָא, além de אַבּוּב; plural אַבּוּבִין. |
 | 78 | `A00077` | אֵבוּס, | **C** | corrigido nesta execução | O segundo cabeçalho, marcado como duvidoso, é (?אִיבּוּס) אֵיבוּס. Não remover sua marca de dúvida. |
 | 80 | `A00079` | אֲבוּקָה | **C** | corrigido nesta execução | Jerusalém Sucá 5, 55c: emenda possível זֶפֶת contra זהב. Notas etimológicas: Sachs, Beiträge I, p. 62; Nahmânides a Gênesis 32.25. |
-| 84 | `A00083` | אַבְזָקַת, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 84 | `A00083` | אַבְזָקַת, | **C** | corrigido e validado pelo XML | Eliminada precisão anatômica não comprovada («cascos»). Repostas as variantes Rashi אבזקא e manuscrito M. אבוק com proposta explícita de trocar ו por ז, conforme o XML; mantém-se o caráter tradicional da etiologia. |
 | 98 | `A00097` | *אבטיגא | **C** | corrigido nesta execução | O asterisco pertence à marcação da entrada; as emendas explícitas de Jastrow são טוֹגָא e טִיבִינָּא. Não inferir do asterisco uma proposta específica de leitura. |
 | 111 | `A00110` | אָבִיב, | **C** | corrigido nesta execução | Plural adjetival אַבִּיבִין, forma abreviada אָבִי׳ e leitura singular na edição de Berlim de Targum Onkelos Êxodo 9.31. |
 | 112 | `A00111` | אֲבֵידָה, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
@@ -89,7 +89,7 @@
 | 412 | `A00411` | אַדְכָּרָה, | **P** | pendência específica | O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida. |
 | 413 | `A00412` | אִדְכָּרוּ, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 415 | `A00414` | אֲדָל, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 430 | `A00429` | אֻדַן, | **P** | pendência específica | Remissão abreviada אוּ׳ não identifica seguramente o destino; substituição automática rejeitada. |
+| 430 | `A00429` | אֻדַן, | **P** | corrigido parcialmente; pendência preservada | Retirada expansão sem prova para אוּדְנָא; o XML conserva remissão abreviada אוּ׳, mas o xref aponta A00517 (אֹו, conjunção). Cartão agora expõe ambas as evidências; destino continua P até colação do impresso. |
 | 432 | `A00431` | *אֲדַנְדְּקֵי | **C** | corrigido nesta execução | Hulin 60b: ארונקי ocorre em edição; אדונקי no Musaf do Arukh. A relação com ἐθνάρχοι é hipótese filológica. |
 | 444 | `A00443` | (אָדָר) אֲדָר | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 445 | `A00444` | אִדַּר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
@@ -149,19 +149,17 @@
 
 ## Pendências e integridade
 
-- **`A00026`**: O destino איב׳ é truncado e não autoriza a expansão exata apresentada no cartão.
-- **`A00049`**: A remissão não vocalizada אבי não autoriza afirmar que a leitura אָבֵי seja a única.
 - **`A00271`**: Vírgula isolada na lista de cabeçalhos digitais exige conferência da tipografia impressa.
 - **`A00284`**: Os segmentos תוס e … em cabeçalhos XML não demonstram uma variante completa.
 - **`A00303`**: Não foi possível confrontar a nota 200 de Rabb. D. S. com Ḥagigah 12b.
 - **`A00371`**: Primeiro cabeçalho XML contém apenas asterisco; impresso não colacionado.
 - **`A00407`**: O inglês do XML 'heated store' contrasta com o contexto hebraico דתנורא; impresso não colacionado.
 - **`A00411`**: O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida.
-- **`A00429`**: Remissão abreviada אוּ׳ não identifica seguramente o destino; substituição automática rejeitada.
+- **`A00429`**: O XML mantém אוּ׳ e o xref A00517 aponta para אֹו («ou»), destino incongruente; a versão portuguesa preserva ambos, aguardando cotejo do impresso.
 - **`A00571`**: Autorremissão circular do XML ainda exige conferência da edição de 1903.
 - **`A00592`**: Terceiro cabeçalho XML contém apenas ponto; segmentação exige colação tipográfica.
 
-Os demais casos classificados P conservam sua observação específica do exame anterior no JSON, e não são declarados aprovados. Oito O históricos fora deste lote: `A00568`, `A00569`, `A00570`, `A00586`, `A00589`, `A00593`, `A00597`, `A00598`. Os 600 registros previamente confrontados permanecem no checkpoint histórico sem reclassificação retroativa. Os 28 cartões modificados conservaram IDs, ordem, cardinalidade dos arrays e sintaxe JSON dos módulos; novos registros incorporados nesta rodada: zero. A integração e os testes de navegador continuam separados.
+Os demais casos classificados P conservam sua observação específica do exame anterior no JSON, e não são declarados aprovados. Oito O históricos fora deste lote: `A00568`, `A00569`, `A00570`, `A00586`, `A00589`, `A00593`, `A00597`, `A00598`. Os 600 registros previamente confrontados permanecem no checkpoint histórico sem reclassificação retroativa. Os 33 cartões modificados (28 anteriores e cinco nesta complementação) conservaram IDs, ordem, cardinalidade dos arrays e sintaxe JSON dos módulos; novos registros incorporados nesta rodada: zero. A integração e os testes de navegador continuam separados.
 
 ## Estado geral dos 14 dicionários
 
@@ -171,7 +169,7 @@ Os demais casos classificados P conservam sua observação específica do exame 
 | DGP | ✓ 3.300 | ✓ 3.300/3.300 (estática) | ◐ 400/3.300 (histórico) | ◐ 2.880/3.300 | 3.300 |
 | LEH | ✓ 690 | ◐ 690/690 | — 0/690 | ✓ 690/690 | 690 |
 | PEREIRA | ✓ 510 | ◐ 510/510 | — 0/510 | ✓ 510/510 | 510 |
-| **JASTROW** | ✓ 600 | ✓ 600/600 | ✓ 600/600 (cobertura histórica; 100 casos desta auditoria única) | ✓ 600/600 (base; alterações novas pendentes) | 600 |
+| **JASTROW** | ✓ 600 | ✓ 600/600 (estática) | ◐ 100/600 (norma vigente: A 37, C 32, P 31; 600/600 históricos) | ✓ 600/600 (base; correções pendentes de integração) | 600 |
 | THAYER | ✓ 500 | ◐ 500/500 | ◐ 500/500 (lemas apenas) | ✓ 500/500 | 500 |
 | HALOT | ◐ 100/100 (preliminar) | ◐ 100/100 | — 0/100 | — 0/100 | 100 |
 | ROBINSON | — 0 | — 0 | — 0 | — 0 | 0 |
@@ -184,3 +182,10 @@ Os demais casos classificados P conservam sua observação específica do exame 
 | **TOTAL** | | | | | **6.861** |
 
 *✓ de cobertura histórica JASTROW não significa 600 aprovações sob a norma nova; A/C neste lote indicam confrontos editoriais fiéis ao XML, e P sinaliza impedimento específico. O DGP concluiu os testes estáticos 3.300/3.300, mas sua auditoria filológica tem cobertura histórica de 400/3.300.*
+
+
+## Complementação comprovada em 11/10/2026
+
+O cotejo das referências eletrônicas identificou `A00026 → A00016` (אֵב), `A00049 → A00107` (אָבֵי/אָבָה) e `A00429 → A00517` (אֹו, incompatibilidade semântica aparente). Cinco cartões foram emendados sem modificar a Fonte: `A00013`, `A00026`, `A00049`, `A00083` e `A00429`. Quatro passaram de P para C; `A00429` permanece P, pois o XML não identifica com segurança o destino no impresso. **Estado final dos mesmos 100: A=37, C=32, P=31.** As 31 pendências têm identificação individual na matriz de evidências.
+
+Conferidos os cinco IDs e seu vínculo à fonte, os trechos JSON usados como literais JavaScript e a cardinalidade dos quatro módulos alterados. **Não** foram realizados testes de navegador nem colação integral de manuscritos ou fac-símile de 1903. Esses limites não são comprovação de acepções ou referências externas ausentes. O manifesto com a diferença de cada cartão é [`JASTROW-2026-10-11-complementacao-100-manifest.json`](JASTROW-2026-10-11-complementacao-100-manifest.json). A auditoria filológica segue única, com P documental onde a fonte é inconclusiva.

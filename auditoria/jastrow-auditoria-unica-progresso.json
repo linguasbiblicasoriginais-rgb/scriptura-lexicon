@@ -9,10 +9,10 @@
   "selection": "11 V + earliest 89 O from old checkpoint",
   "counts": {
     "A": 37,
-    "C": 28,
-    "P": 35
+    "C": 32,
+    "P": 31
   },
-  "edits_applied": 28,
+  "edits_applied": 33,
   "other_historical_flags_not_included": [
     "A00568",
     "A00569",
@@ -44,9 +44,9 @@
     {
       "id": "A00013",
       "ordinal": 14,
-      "result": "P",
-      "patched": false,
-      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+      "result": "C",
+      "patched": true,
+      "decision_note": "O XML de Jastrow registra A-bu (Schr., K.A.T., p. 247), duas faixas de datas e cinco referências rabínicas. Elementos traduzidos e atribuídos expressamente à fonte, sem atestar conferência da bibliografia assíria."
     },
     {
       "id": "A00014",
@@ -86,9 +86,9 @@
     {
       "id": "A00026",
       "ordinal": 27,
-      "result": "P",
-      "patched": false,
-      "decision_note": "O destino איב׳ é truncado e não autoriza a expansão exata apresentada no cartão."
+      "result": "C",
+      "patched": true,
+      "decision_note": "A abreviação איב׳ tem referência eletrônica explícita a A00016 (אֵב), verificada no XML da mesma edição. Corrigida a expansão editorial anterior אִיבָּא, não sustentada pelo xref."
     },
     {
       "id": "A00027",
@@ -121,9 +121,9 @@
     {
       "id": "A00049",
       "ordinal": 50,
-      "result": "P",
-      "patched": false,
-      "decision_note": "A remissão não vocalizada אבי não autoriza afirmar que a leitura אָבֵי seja a única."
+      "result": "C",
+      "patched": true,
+      "decision_note": "O xref do XML aponta A00107, cujo cabeçalho confirma אָבֵי, אָבָה. Mantida a grafia não vocalizada אבי como dado da entrada remissiva e fundamentada a forma vocalizada pelo destino."
     },
     {
       "id": "A00051",
@@ -163,9 +163,9 @@
     {
       "id": "A00083",
       "ordinal": 84,
-      "result": "P",
-      "patched": false,
-      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+      "result": "C",
+      "patched": true,
+      "decision_note": "Eliminada precisão anatômica não comprovada («cascos»). Repostas as variantes Rashi אבזקא e manuscrito M. אבוק com proposta explícita de trocar ו por ז, conforme o XML; mantém-se o caráter tradicional da etiologia."
     },
     {
       "id": "A00097",
@@ -549,8 +549,8 @@
       "id": "A00429",
       "ordinal": 430,
       "result": "P",
-      "patched": false,
-      "decision_note": "Remissão abreviada אוּ׳ não identifica seguramente o destino; substituição automática rejeitada."
+      "patched": true,
+      "decision_note": "Retirada expansão sem prova para אוּדְנָא; o XML conserva remissão abreviada אוּ׳, mas o xref aponta A00517 (אֹו, conjunção). Cartão agora expõe ambas as evidências; destino continua P até colação do impresso."
     },
     {
       "id": "A00431",
@@ -727,5 +727,28 @@
       "patched": false,
       "decision_note": "Terceiro cabeçalho XML contém apenas ponto; segmentação exige colação tipográfica."
     }
-  ]
+  ],
+  "last_complement": {
+    "date": "2026-10-11",
+    "previous_counts": {
+      "A": 37,
+      "C": 28,
+      "P": 35
+    },
+    "now_counts": {
+      "A": 37,
+      "C": 32,
+      "P": 31
+    },
+    "ids": [
+      "A00013",
+      "A00026",
+      "A00049",
+      "A00083",
+      "A00429"
+    ],
+    "new_edits": 5,
+    "remaining_P": 31,
+    "source_level": "Sefaria-Data XML; fontes externas não colacionadas integralmente"
+  }
 }

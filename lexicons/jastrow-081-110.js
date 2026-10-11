@@ -30,7 +30,7 @@ const entries=[
     "lemma": "אַבְזָקַת,",
     "type": "Substantivo feminino",
     "gloss": "esfarelamento; corrosão; doença dos pés",
-    "html": "Variantes <bdi lang='he' dir='rtl'>אַבְזָקָא, אַבְזָקָה</bdi>; da raiz <bdi lang='he' dir='rtl'>בזק</bdi>: fragmentação, corrosão. <strong>1.</strong> Doença dos cascos ou pés de animais, atribuída na tradição a vermes depois de raio; atrofia ou paralisia dos pés. <strong>2.</strong> Estado de roupa corroída por traças. Bava Metzia 78b aplica o termo aos pés e a tecidos do vestuário real; a fonte menciona variantes e a explicação de Rashi."
+    "html": "Formas <bdi lang='he' dir='rtl'>אַבְזָקַת, אַבְזָקָא, אַבְזָקָה</bdi>, substantivo feminino da raiz <bdi lang='he' dir='rtl'>בזק</bdi>; ideia de fragmentação, esfarelamento e corrosão. <strong>1.</strong> Doença dos <strong>pés</strong> de animais que, segundo a explicação tradicional registrada por Jastrow, seria causada por vermes após a queda de um raio; o autor menciona atrofia ou paralisia dos pés. A especificação «cascos» não se encontra na definição inglesa. <strong>2.</strong> Condição de vestes comidas por traças. <strong>Aparato:</strong> Bava Metzia 78b registra <bdi lang='he' dir='rtl'>אבזקת</bdi> para explicar <bdi lang='he' dir='rtl'>הבריקה</bdi> na Mishná; Rashi traz <bdi lang='he' dir='rtl'>אבזקא</bdi>; manuscrito M., <bdi lang='he' dir='rtl'>אבוק</bdi>, com correção editorial proposta de ו para ז. Comparar Jerusalém Bava Metzia 6, 11a; na passagem sobre vestuário real, Jastrow menciona traças na rouparia."
   },
   {
     "sid": "A00084",

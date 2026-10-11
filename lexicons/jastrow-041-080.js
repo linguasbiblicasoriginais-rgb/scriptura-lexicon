@@ -72,7 +72,7 @@ const entries=[
     "lemma": "אָבָה",
     "type": "Remissão verbal",
     "gloss": "ver אָבֵי",
-    "html": "Forma do verbo “querer, estar disposto”; ver <bdi lang='he' dir='rtl'>אָבֵי</bdi>."
+    "html": "Remissão grafada <bdi lang='he' dir='rtl'>אבי</bdi>, sem sinais vocálicos, no texto original. O atributo <code>rid=\"A00107\"</code> do XML identifica o destino <bdi lang='he' dir='rtl'>אָבֵי, אָבָה</bdi>, «estar disposto, querer». A vocalização <bdi lang='he' dir='rtl'>אָבֵי</bdi> pertence ao cabeçalho efetivamente atestado no verbete-alvo, não a uma conjectura sobre a forma abreviada."
   },
   {
     "sid": "A00050",

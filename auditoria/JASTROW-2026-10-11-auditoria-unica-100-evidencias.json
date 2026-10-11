@@ -41,12 +41,12 @@
       "source_xml": "<entry id=\"A00013\">\n<head-word>אָב, </head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (Assyr. A-bu, Schr. K. A. T., p. 247) \n<italic>Ab,</italic> the fifth month of the Jewish calendar (of thirty days) beginning between the eighth of July and the seventh of August, and ending between the sixth of August and the fifth of September.</definition>\n<notes> R. Hash. I, 3, על אב וכ' for announcing the beginning of Ab messengers are sent out, for the sake of the fast. Ib. 18\n<sup>b</sup> ט' באב the ninth of Ab, anniversary of Temple destruction. Taan. IV, 6 משנכנס אב with the beginning of Ab. Ib. 29\n<sup>b</sup> לישתמיט מיניה באב let him try to be relieved of (the law-suit) in Ab. Meg. 5\n<sup>b</sup>; a. e.</notes></sense></senses></entry>\n",
       "source_entry_sha256": "e9a771831fced8a5001bd2c9e83fa19524b955f2e673736c63186578619300ae",
       "editorial_gloss": "av; quinto mês judaico",
-      "editorial_html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. No calendário gregoriano corresponde aproximadamente a julho–agosto (as datas exatas variam anualmente). Rosh Hashaná 1.3 menciona mensageiros para anunciar seu início em vista do jejum; Ta‘anit 4.6, sua chegada; Ta‘anit 29b, a conveniência de evitar litígios nesse mês; o dia 9 de av comemora a destruição do Templo.",
+      "editorial_html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. Na correspondência civil descrita por Jastrow, seu início situa-se entre 8 de julho e 7 de agosto, e seu término entre 6 de agosto e 5 de setembro; não são datas anuais fixas. <strong>Nota da fonte:</strong> Jastrow relaciona o nome ao assírio <i>A-bu</i> e remete a Schr., <i>K. A. T.</i>, p. 247; essa referência histórica não constitui aqui verificação independente da etimologia. <strong>Exemplos e referências:</strong> Rosh Hashaná 1.3, mensageiros anunciam o início de Av por causa do jejum; 18b, <bdi lang='he' dir='rtl'>ט׳ באב</bdi>, o nono dia de Av, memória da destruição do Templo. Ta‘anit 4.6, <bdi lang='he' dir='rtl'>משנכנס אב</bdi>, «ao começar Av»; Ta‘anit 29b, <bdi lang='he' dir='rtl'>לישתמיט מיניה באב</bdi>, recomendação de evitar um litígio naquele mês. Cf. Meguilá 5b.",
       "legacy_status": "O",
       "legacy_observation": "A nota assíria A-bu e a referência bibliográfica Schr. K.A.T. foram omitidas; datas aproximadas foram resumidas.",
-      "decision": "P",
-      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation.",
-      "patched_now": false,
+      "decision": "C",
+      "decision_note": "O XML de Jastrow registra A-bu (Schr., K.A.T., p. 247), duas faixas de datas e cinco referências rabínicas. Elementos traduzidos e atribuídos expressamente à fonte, sem atestar conferência da bibliografia assíria.",
+      "patched_now": true,
       "external_citations_verified": false
     },
     {
@@ -130,13 +130,13 @@
       "lemma": "אִבְּבָא",
       "source_xml": "<entry id=\"A00026\">\n<head-word>אִבְּבָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00016\">איב'</xref></notes></sense></senses></entry>\n",
       "source_entry_sha256": "8d4ecd4e6b8bbccf4348778c7fcbf95ee21bbf483673b56d5e088e2e878d2ba4",
-      "editorial_gloss": "ver אִיבָּא",
-      "editorial_html": "Remissão ortográfica para <bdi lang='he' dir='rtl'>אִיבָּא</bdi>; sem definição própria.",
+      "editorial_gloss": "ver אֵב (A00016); fonte: איב׳",
+      "editorial_html": "Remissão originalmente abreviada como <bdi lang='he' dir='rtl'>איב׳</bdi>. O vínculo <code>rid=\"A00016\"</code> no XML aponta ao verbete <bdi lang='he' dir='rtl'>אֵב</bdi>, que também registra <bdi lang='he' dir='rtl'>(אוֹב) אֵיב</bdi> como segundo cabeçalho e trata de brotos e desenvolvimento. Preserva-se a grafia abreviada; não há fundamento para substituí-la simplesmente por <bdi lang='he' dir='rtl'>אִיבָּא</bdi>.",
       "legacy_status": "V",
       "legacy_observation": "A abreviação do destino איב׳ foi expandida para אִיבָּא; conferir o lema-alvo no XML do original integral.",
-      "decision": "P",
-      "decision_note": "O destino איב׳ é truncado e não autoriza a expansão exata apresentada no cartão.",
-      "patched_now": false,
+      "decision": "C",
+      "decision_note": "A abreviação איב׳ tem referência eletrônica explícita a A00016 (אֵב), verificada no XML da mesma edição. Corrigida a expansão editorial anterior אִיבָּא, não sustentada pelo xref.",
+      "patched_now": true,
       "external_citations_verified": false
     },
     {
@@ -206,12 +206,12 @@
       "source_xml": "<entry id=\"A00049\">\n<head-word>אָבָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00107\">אבי</xref></notes></sense></senses></entry>\n",
       "source_entry_sha256": "35a823c95b81d1b980a68d4d05031a1758ef093e43572bdf585bc15b9c158d33",
       "editorial_gloss": "ver אָבֵי",
-      "editorial_html": "Forma do verbo “querer, estar disposto”; ver <bdi lang='he' dir='rtl'>אָבֵי</bdi>.",
+      "editorial_html": "Remissão grafada <bdi lang='he' dir='rtl'>אבי</bdi>, sem sinais vocálicos, no texto original. O atributo <code>rid=\"A00107\"</code> do XML identifica o destino <bdi lang='he' dir='rtl'>אָבֵי, אָבָה</bdi>, «estar disposto, querer». A vocalização <bdi lang='he' dir='rtl'>אָבֵי</bdi> pertence ao cabeçalho efetivamente atestado no verbete-alvo, não a uma conjectura sobre a forma abreviada.",
       "legacy_status": "V",
       "legacy_observation": "A referência original אבי foi expandida para אָבֵי; confirmar o alvo exato antes de criar ligação interna.",
-      "decision": "P",
-      "decision_note": "A remissão não vocalizada אבי não autoriza afirmar que a leitura אָבֵי seja a única.",
-      "patched_now": false,
+      "decision": "C",
+      "decision_note": "O xref do XML aponta A00107, cujo cabeçalho confirma אָבֵי, אָבָה. Mantida a grafia não vocalizada אבי como dado da entrada remissiva e fundamentada a forma vocalizada pelo destino.",
+      "patched_now": true,
       "external_citations_verified": false
     },
     {
@@ -296,12 +296,12 @@
       "source_xml": "<entry id=\"A00083\">\n<head-word>אַבְזָקַת, </head-word>\n<head-word>(אַבְזָקָא, </head-word>\n<head-word>אַבְזָקָה)</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (בזק) \n<italic>breaking, crumbling, corrosion</italic>, whence </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a foot-disease in animals</italic> believed to arise from vermin in consequence of a stroke of lightning; </definition>\n<notes /></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>moth-eaten condition of garments</italic>.</definition>\n<notes> B. Mets. 78\n<sup>b</sup> (expl. הבריקה Mish.) אבזקת (Rashi אבזקא, Ms. M. אבוק, corr. ז for ו; cmp. Y. ib. VI, 11\n<sup>a</sup> top. s. v. בָּזָק) atrophy or paralysis of the feet. Ib. א' במילת' וכ' the moths are in the royal wardrobe.</notes></sense></senses></entry>\n",
       "source_entry_sha256": "e923332eaa0a69ccbdd11b0bc9b4a8700a5cdf70c0127c24e0707cc49a89a004",
       "editorial_gloss": "esfarelamento; corrosão; doença dos pés",
-      "editorial_html": "Variantes <bdi lang='he' dir='rtl'>אַבְזָקָא, אַבְזָקָה</bdi>; da raiz <bdi lang='he' dir='rtl'>בזק</bdi>: fragmentação, corrosão. <strong>1.</strong> Doença dos cascos ou pés de animais, atribuída na tradição a vermes depois de raio; atrofia ou paralisia dos pés. <strong>2.</strong> Estado de roupa corroída por traças. Bava Metzia 78b aplica o termo aos pés e a tecidos do vestuário real; a fonte menciona variantes e a explicação de Rashi.",
+      "editorial_html": "Formas <bdi lang='he' dir='rtl'>אַבְזָקַת, אַבְזָקָא, אַבְזָקָה</bdi>, substantivo feminino da raiz <bdi lang='he' dir='rtl'>בזק</bdi>; ideia de fragmentação, esfarelamento e corrosão. <strong>1.</strong> Doença dos <strong>pés</strong> de animais que, segundo a explicação tradicional registrada por Jastrow, seria causada por vermes após a queda de um raio; o autor menciona atrofia ou paralisia dos pés. A especificação «cascos» não se encontra na definição inglesa. <strong>2.</strong> Condição de vestes comidas por traças. <strong>Aparato:</strong> Bava Metzia 78b registra <bdi lang='he' dir='rtl'>אבזקת</bdi> para explicar <bdi lang='he' dir='rtl'>הבריקה</bdi> na Mishná; Rashi traz <bdi lang='he' dir='rtl'>אבזקא</bdi>; manuscrito M., <bdi lang='he' dir='rtl'>אבוק</bdi>, com correção editorial proposta de ו para ז. Comparar Jerusalém Bava Metzia 6, 11a; na passagem sobre vestuário real, Jastrow menciona traças na rouparia.",
       "legacy_status": "V",
       "legacy_observation": "“Cascos” especifica anatomicamente mais do que a formulação inglesa “feet”; conferir se a contextualização zoológica justifica a glosa.",
-      "decision": "P",
-      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation.",
-      "patched_now": false,
+      "decision": "C",
+      "decision_note": "Eliminada precisão anatômica não comprovada («cascos»). Repostas as variantes Rashi אבזקא e manuscrito M. אבוק com proposta explícita de trocar ו por ז, conforme o XML; mantém-se o caráter tradicional da etiologia.",
+      "patched_now": true,
       "external_citations_verified": false
     },
     {
@@ -1120,13 +1120,13 @@
       "lemma": "אֻדַן,",
       "source_xml": "<entry id=\"A00429\">\n<head-word>אֻדַן, </head-word>\n<head-word>אֻדְנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00517\">אוּ'</xref></notes></sense></senses></entry>\n",
       "source_entry_sha256": "edd24adc640263755e3983434c2b56a18633314a84d394b5ccc22cb803c1f45b",
-      "editorial_gloss": "ver אוּדְנָא",
-      "editorial_html": "Variantes <bdi dir='rtl' lang='he'>אֻדַן, אֻדְנָא</bdi> remetidas a outra entrada da família <bdi dir='rtl' lang='he'>אוּדְנָא</bdi>.",
+      "editorial_gloss": "ver אוּ׳ (remissão incerta)",
+      "editorial_html": "Cabeçalhos originais <bdi lang='he' dir='rtl'>אֻדַן, אֻדְנָא</bdi>. A nota do XML diz apenas <bdi lang='he' dir='rtl'>v. אוּ׳</bdi>; não autoriza completar automaticamente essa abreviatura como <bdi lang='he' dir='rtl'>אוּדְנָא</bdi>. O atributo eletrônico <code>rid=\"A00517\"</code> aponta para <bdi lang='he' dir='rtl'>אֹו</bdi> («ou»), referência semanticamente incompatível à primeira vista. <strong>Pendência documental:</strong> cotejar o impresso de Jastrow para determinar o destino; nem a expansão nem o identificador do XML são corrigidos por conjectura.",
       "legacy_status": "O",
       "legacy_observation": "A remissão original 'v. אוּ׳' é truncada; o cartão expande para אוּדְנָא sem justificá-la neste testemunho. Mantida a questão para revisão do destino lexical.",
       "decision": "P",
-      "decision_note": "Remissão abreviada אוּ׳ não identifica seguramente o destino; substituição automática rejeitada.",
-      "patched_now": false,
+      "decision_note": "Retirada expansão sem prova para אוּדְנָא; o XML conserva remissão abreviada אוּ׳, mas o xref aponta A00517 (אֹו, conjunção). Cartão agora expõe ambas as evidências; destino continua P até colação do impresso.",
+      "patched_now": true,
       "external_citations_verified": false
     },
     {
@@ -1504,5 +1504,22 @@
       "patched_now": false,
       "external_citations_verified": false
     }
-  ]
+  ],
+  "last_complement": {
+    "date": "2026-10-11",
+    "ids": [
+      "A00013",
+      "A00026",
+      "A00049",
+      "A00083",
+      "A00429"
+    ],
+    "source_xml_references_checked": [
+      "A00026 → A00016",
+      "A00049 → A00107",
+      "A00429 → A00517 (referência incongruente)"
+    ],
+    "new_edits": 5,
+    "remaining_P": 31
+  }
 }
