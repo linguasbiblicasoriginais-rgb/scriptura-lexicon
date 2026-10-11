@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## DGP — resolução e integração do PR #86 (10/10/2026)
+
+A incorporação do **lote 76 (100 verbetes, ordinais 2.781–2.880)**, `ἀνάματος, ος, ον` → `ἀναπλήρωσις, εως (ἡ)`, foi reconciliada com a branch consolidada `chat-gpt-commits`, preservando todas as alterações posteriores dos demais léxicos (incluindo JASTROW e PEREIRA). O módulo `lexicons/dgp-batch-076.js` passa a ser carregado exatamente uma vez após `dgp-batch-075.js`, antes do formatador DGP, sem suprimir qualquer outro script. O manifesto lexical DGP mantém 76 lotes e **2.880 verbetes**, próximo ordinal **2.881** (`ἀναπληρωτέον`). O checkpoint próprio fica em `regras/estado-orquestracao-dgp.json`, preservando o estado BDAG do arquivo legado.
+
+Colação filológica e estrutural estática independente **aprovada 100/100** com o XML canônico, commit de auditoria [`6c3e55f8fece`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069) em `chat-gpt-correcoes`; relatório `auditorias/dgp-2026-10-10-lote76.md` naquela branch (integração do próprio relatório em etapa separada). Fonte fixada `aniseferreira/Grc-Por-DigDict` (`deb54b426ead447d01ced7534736f3e77be7015b`). **Pendentes:** testes em navegador, acessibilidade, comportamento de popups dinâmicos e auditoria editorial ampliada. A integração não modifica `main` ou branches de origem, nem cria verbetes adicionais além do lote 76.
+
+
 ## JASTROW — terceira rodada: 100 novos verbetes (10/10/2026)
 
 **Publicação atual na branch `chat-gpt-jastrow`: 210 cartões e 210 linhas pesquisáveis**, com 100 registros novos (`A00110`–`A00209`, ordinais 111–210), além dos 110 anteriores. **Próximo verbete:** `A00210` (`אַבְרוּיֵי`; ordinal 211). **Integração efetiva já comprovada:** 110 registros anteriores pelo PR [#82](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/82) (*merged*); os 100 novos ainda não foram integrados.
