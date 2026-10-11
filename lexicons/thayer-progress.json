@@ -381,7 +381,10 @@
     "nominal_entry_table": "artefato auxiliar opcional; não a tabela obrigatória da resposta",
     "audit_lexical_status_separately": "filologia integral não homologada sem cotejo individual de acepções, variantes e referências",
     "do_not_write_main": true,
-    "next_retroactive_audit_interval": "entry-thayer-0001–0099"
+    "next_retroactive_audit_interval": null,
+    "retroactive_audit_structural_500_completed": true,
+    "retroactive_audit_textual_internal_500_completed": true,
+    "full_philological_500_approved": false
   },
   "audit_history": [
     {
@@ -464,6 +467,34 @@
       "real_browser_dom": "NÃO EXECUTADO",
       "next_retroactive_interval": "entry-thayer-0001–0099",
       "lexical_entries_modified": 0
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "entry-thayer-0001–0099 + entry-aaron-thayer",
+      "first": "ἄλφα",
+      "last": "Ἀδραμυττηνός",
+      "historical_entry": "Ἀαρών",
+      "base_source_head": "b6bf591a0ae3a8a3c360ac992b3787b10dbb6520",
+      "report": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0001-0099-aaron.md",
+      "inventory": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0001-0099-aaron.csv",
+      "structure_checked": 100,
+      "dynamic_cards": 99,
+      "static_cards": 1,
+      "valid_row_card_pairs": 100,
+      "html_balanced": 100,
+      "source_lemma_matches": 99,
+      "source_lemma_divergences": 1,
+      "source_lemma_divergence_id": "entry-thayer-0040",
+      "data_search_reference_issues": 1,
+      "reference_index_issue_id": "entry-aaron-thayer",
+      "editorial_numbering_issues": 1,
+      "numbering_issue_id": "entry-thayer-0017",
+      "numbered_paragraphs_affected": 7,
+      "philological_article_fidelity": "NÃO HOMOLOGADA",
+      "browser_test": "NÃO EXECUTADO",
+      "lexical_entries_modified": 0,
+      "retroactive_audits_complete": true,
+      "next_retroactive_audit_interval": null
     }
   ],
   "structural_audit_500": {
@@ -569,5 +600,33 @@
     "real_browser_dom": "NÃO EXECUTADO",
     "next_retroactive_interval": "entry-thayer-0001–0099",
     "lexical_entries_modified": 0
+  },
+  "textual_structural_audit_0001_0099_aaron": {
+    "date": "2026-10-11",
+    "scope": "entry-thayer-0001–0099 + entry-aaron-thayer",
+    "first": "ἄλφα",
+    "last": "Ἀδραμυττηνός",
+    "historical_entry": "Ἀαρών",
+    "base_source_head": "b6bf591a0ae3a8a3c360ac992b3787b10dbb6520",
+    "report": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0001-0099-aaron.md",
+    "inventory": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0001-0099-aaron.csv",
+    "structure_checked": 100,
+    "dynamic_cards": 99,
+    "static_cards": 1,
+    "valid_row_card_pairs": 100,
+    "html_balanced": 100,
+    "source_lemma_matches": 99,
+    "source_lemma_divergences": 1,
+    "source_lemma_divergence_id": "entry-thayer-0040",
+    "data_search_reference_issues": 1,
+    "reference_index_issue_id": "entry-aaron-thayer",
+    "editorial_numbering_issues": 1,
+    "numbering_issue_id": "entry-thayer-0017",
+    "numbered_paragraphs_affected": 7,
+    "philological_article_fidelity": "NÃO HOMOLOGADA",
+    "browser_test": "NÃO EXECUTADO",
+    "lexical_entries_modified": 0,
+    "retroactive_audits_complete": true,
+    "next_retroactive_audit_interval": null
   }
 }
