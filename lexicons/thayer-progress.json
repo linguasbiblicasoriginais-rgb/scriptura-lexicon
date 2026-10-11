@@ -381,7 +381,7 @@
     "nominal_entry_table": "artefato auxiliar opcional; não a tabela obrigatória da resposta",
     "audit_lexical_status_separately": "filologia integral não homologada sem cotejo individual de acepções, variantes e referências",
     "do_not_write_main": true,
-    "next_retroactive_audit_interval": "entry-thayer-0200–0299"
+    "next_retroactive_audit_interval": "entry-thayer-0100–0199"
   },
   "audit_history": [
     {
@@ -415,6 +415,30 @@
       "source_head_before_fix": "63c9822599b01ed610c5398da17f4b7b79778e83",
       "report": "auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md",
       "semantics_fully_homologated": 0
+    },
+    {
+      "date": "2026-10-11",
+      "kind": "Auditoria textual interna e estrutural retrospectiva de 100 entradas",
+      "scope": "entry-thayer-0200–0299",
+      "first": "ἀκριβῶς",
+      "last": "ἀμφιέζω",
+      "base_source_head": "f3d7ed03d58fbb6a5bc68f0dbaf69707b4bfae39",
+      "integrated_reference_head": "18a7384fd0f9cfaa3c4db633db6788e94b9cdf3d",
+      "report": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0200-0299.md",
+      "inventory": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0200-0299.csv",
+      "rows": 100,
+      "cards": 100,
+      "structural_pass": 100,
+      "confirmed_html_failures": 0,
+      "search_and_tooltips_valid": 100,
+      "auxiliary_headword_matches": 97,
+      "source_headword_divergences": 1,
+      "auxiliary_inflection_notations": 2,
+      "source_pages_visually_inspected": "Thayer pp. impressas 24–33, exame dirigido sem cotejo integral de todos os 100 artigos",
+      "semantic_review": "controle interno 100/100; colação filológica palavra a palavra PENDENTE",
+      "browser_dom_test": "não executado",
+      "source_content_modified": false,
+      "next_audit_interval": "entry-thayer-0100–0199"
     }
   ],
   "structural_audit_500": {
@@ -471,5 +495,29 @@
     "browser_dom_test": "não executado",
     "report": "auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md",
     "consolidated_integration": "a confirmar por PR específico"
+  },
+  "textual_structural_audit_0200_0299": {
+    "date": "2026-10-11",
+    "kind": "Auditoria textual interna e estrutural retrospectiva de 100 entradas",
+    "scope": "entry-thayer-0200–0299",
+    "first": "ἀκριβῶς",
+    "last": "ἀμφιέζω",
+    "base_source_head": "f3d7ed03d58fbb6a5bc68f0dbaf69707b4bfae39",
+    "integrated_reference_head": "18a7384fd0f9cfaa3c4db633db6788e94b9cdf3d",
+    "report": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0200-0299.md",
+    "inventory": "auditorias/thayer-2026-10-11-auditoria-textual-estrutural-100-0200-0299.csv",
+    "rows": 100,
+    "cards": 100,
+    "structural_pass": 100,
+    "confirmed_html_failures": 0,
+    "search_and_tooltips_valid": 100,
+    "auxiliary_headword_matches": 97,
+    "source_headword_divergences": 1,
+    "auxiliary_inflection_notations": 2,
+    "source_pages_visually_inspected": "Thayer pp. impressas 24–33, exame dirigido sem cotejo integral de todos os 100 artigos",
+    "semantic_review": "controle interno 100/100; colação filológica palavra a palavra PENDENTE",
+    "browser_dom_test": "não executado",
+    "source_content_modified": false,
+    "next_audit_interval": "entry-thayer-0100–0199"
   }
 }
