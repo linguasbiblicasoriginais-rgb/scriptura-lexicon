@@ -1,0 +1,42 @@
+RAUDITORIA-FILOLOGICA — NORMA GLOBAL DO SCRIPTURA LEXICON / GDHAGP
+NORMA FILOLÓGICA ÚNICA — 11/10/2026
+Data de vigência: 11/10/2026
+Aplicação: BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS, LSJ e quaisquer fontes futuras.
+Natureza: revoga regras anteriores que dividam a FILOLOGIA de uma entrada em revisão "preliminar", "primeira passagem" e futura "exaustiva" como fases obrigatórias. Mantém independentes incorporação, auditoria textual/estrutural, auditoria filológica ÚNICA e integração por PR.
+
+1. PRINCÍPIO VINCULANTE
+Auditoria filológica é UMA atividade completa por verbete, executada uma vez no ciclo solicitado e registrada na mesma entrega. Não agendar e não acrescentar uma segunda auditoria geral supostamente necessária à certificação. O objetivo é qualidade demonstrada no primeiro exame, e não a mera cobertura de lemas.
+Pode-se trabalhar em lotes de 100, 160 ou outra quantidade pedida sem mudar a integridade do processo por verbete: o tamanho do lote NUNCA autoriza exame superficial.
+
+2. LISTA DE VERIFICAÇÃO DO VERBETE (realizar NA execução)
+a) Identificar registro canônico, obra, edição/versão da fonte, local ou ID, homógrafo e lema; conferir a sequência e TODAS as grafias/variantes que a fonte fornece.
+b) Distinguir língua, época, classe, gênero, flexão, morfologia (incl. tempo/voz/binyan), sintaxe, regência, expressões e derivados, somente onde pertinentes e verificáveis.
+c) Examinar cada acepção e subacepção, definições, nuances, usos especializados/figurados, ordem e marcas de registro, comparando integralmente com a fonte, não apenas glosa curta e primeiro sentido.
+d) Conferir exemplos, traduções, citações, referências bíblicas/rabínicas/clássicas, abreviaturas e remissões; verificar ocorrências no testemunho indicado sempre que decisivo para interpretação, leitura, atribuição ou correção. Não afirmar ter colacionado manuscritos/impresso/corpus sem acesso real.
+e) Preservar aparato de variantes e leituras concorrentes com testemunho e grau de certeza, distinguindo formas atestadas, emendas, hipóteses, inferências, cognatos, empréstimos e reconstruções; não substituir por conjectura apresentada como fato.
+f) Conferir se o cartão e a glosa em português representam o conteúdo da entrada sem omissões materiais nem acréscimos não atribuídos. Fonte original NÃO é modificada para acomodar a tradução.
+g) Corrigir, na MESMA execução, toda falha cuja solução esteja comprovada; verificar sintaxe/IDs/ordem no arquivo modificado e registrar diff específico e evidência. Nunca corrigir automaticamente uma fonte primária não confirmada.
+h) As verificações TEXTUAIS/ESTRUTURAIS e os testes funcionais em navegador têm escopos próprios. Não exigir duas auditorias FILOLÓGICAS por causa de pendência de DOM/popups. Se popup contiver conteúdo filológico incorreto, corrigir no exame atual ou assinalar pendência precisa.
+i) Publicar parecer individual fundamentado para cada entrada, evidência de fonte, referências decisivas, alteração aplicada ou justificativa de não alteração e estado de resolução. Descrições genéricas do tipo "sem erro central" sem revisão das acepções completas NÃO bastam para certificar execução deste protocolo.
+
+3. RESULTADO FINAL ÚNICO POR VERBETE
+A — APROVADO: requisitos aplicáveis comprovados e nenhuma falha relevante aberta.
+C — CORRIGIDO E VALIDADO: divergência(s) demonstrada(s), correção realizada, conferida e documentada na mesma execução; sem pendência remanescente pertinente.
+P — PENDÊNCIA DOCUMENTADA: falta testemunho, fac-símile, permissão ou certeza necessária; mostrar precisamente a questão, a fonte consultada, o que impede a decisão e o próximo ato PONTUAL possível. Não presumir aprovação, não inventar grafias nem afirmar correção.
+Esses estados são RESULTADOS FINAIS DO ÚNICO EXAME, não etapas "primeira/exaustiva". Um resultado P pode demandar correção futura SOMENTE daquele ponto quando evidência nova surgir; não aciona recotejo global ou nova auditoria obrigatória do mesmo lote. Se um erro foi encontrado mas não corrigido, registrar P, não C.
+
+4. CONTAGEM, TABELAS E HONESTIDADE
+Coluna "Auditoria filológica": ✓ X/Y somente quando X registros realmente passaram por esta auditoria ÚNICA documentada, informando ao lado A/C/P e quantas pendências permanecem. Uma entrada com P foi EXAMINADA mas NÃO APROVADA; logo ✓ de cobertura não certifica todas as entradas como corretas. ◐ X/Y quando nem todos os registros do universo Y foram examinados pelo protocolo vigente. Nunca tratar comparação de IDs, triagem programática ou reprodução de glosa como auditoria filológica integral.
+A tabela global de TODOS os dicionários continua obrigatória no fecho dos processos lexicográficos, com as colunas Incorporação | Auditoria textual/estrutural | Auditoria filológica | Integração | Total; qualquer ◐ deve incluir quantidade/denominador. "✓ textual/estrutural DGP 3.300/3.300" permanece verificação ESTÁTICA, distinta do exame filológico e de testes de navegador.
+Não criar campos ou progresso separados "pré-filologia"/"certificação exaustiva" como obrigações ou trabalho futuro de rotina; um sistema legado pode conservar esses campos exclusivamente para rastreabilidade histórica, com legenda explícita de que não são fases a completar.
+
+5. HISTÓRICO ANTERIOR E NÃO RETROATIVIDADE
+Os relatórios até esta data de JASTROW 600/600 e DGP 400/3.300 foram preparados SOB O MÉTODO ANTERIOR e descrevem efetivamente cotejos de XML, revisões pontuais e ressalvas. Preservar os resultados, achados e commits; NÃO promover retroativamente para comprovação de verificações nunca feitas.
+NÃO impor segunda passagem AUTOMÁTICA pelos 600 JASTROW nem sobre os verbetes já analisados do DGP; aproveitar o trabalho existente e tratar SOMENTE falhas identificadas, dúvidas específicas e fontes novas, no fluxo normal de manutenção, com evidência individual. Quando futuros lotes forem pedidos, aplicar ESTA norma integralmente desde o primeiro verbete.
+Campos históricos como "fully_certified: 0", "total_audited: 0" ou "first_pass" NÃO representam uma segunda fila obrigatória. Não alterar contadores históricos sem prova; se o modelo de checkpoint for simplificado no futuro, migrar mantendo equivalência e o histórico imutável, sem crédito falso.
+
+6. EXECUÇÃO, RAMOS E VERIFICAÇÃO REMOTA
+Auditorias e emendas documentais pertencem a chat-gpt-correcoes, com leitura do HEAD remoto e lease de escrita; preservar branches de fontes e main. Publicar relatório e checkpoint efetivo com commit real, confirmar SHA e apontar eventuais falhas comprovadas. Integração/merge pertence ao fluxo separado, não a uma segunda auditoria filológica. Diante de indisponibilidade da ferramenta de destino, apresentar mensagem/erro verificável e nunca atribuir trabalho não executado.
+
+7. PRECEDÊNCIA
+Esta é a norma metodológica filológica MAIS RECENTE, e prevalece sobre menções históricas a "primeira passagem", "certificação integral posterior" ou outra exigência de revisão filológica em duas fases nos arquivos de regras anteriores. Os registros cronológicos antigos são conservados como histórico, não como instrução ativa.

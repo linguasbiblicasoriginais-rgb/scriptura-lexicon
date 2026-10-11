@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## Política vigente de auditoria filológica — **etapa única por verbete** (11/10/2026)
+
+**NORMA FILOLÓGICA ÚNICA — 11/10/2026.** Por decisão editorial, não há mais uma filologia "preliminar" seguida de outra "exaustiva". Em **cada execução solicitada**, examinar com rigor a fonte e a redação do verbete (lemas/variantes, homógrafos, flexões e regência, **todas** as acepções, referências, exempla, etimologias, hipóteses e aparato pertinente), produzir parecer individual e **corrigir na própria rodada** o que estiver comprovado. Uma entrada termina como **A — aprovada**, **C — corrigida e validada** ou **P — pendência pontual documentada**; a pendência **não provoca repetição geral do lote** nem autoriza afirmar que o verbete está aprovado. **Auditoria filológica é uma só.** Ver [norma canônica completa](regras/Rauditoria-filologica.txt).
+
+**Histórico e honestidade:** os 600 registros JASTROW já foram cotejados pelo método anterior e 400 registros DGP constam do checkpoint mais recente consultado; preservar esses resultados **sem fingir verificações não feitas** e **sem impor outra passagem geral**. Eventuais dúvidas são tratadas pontualmente. A partir dos próximos lotes, a única auditoria já inclui todas as verificações filológicas aplicáveis. A auditoria estática textual/estrutural do **DGP 3.300/3.300 permanece ✓** e não se confunde com revisão filológica nem teste funcional de navegador.
+
+
 ## JASTROW — sexta auditoria filológica A00500–A00599 (11/10/2026)
 
 Concluída a **primeira passagem filológica de TODOS os 600/600 verbetes incorporados JASTROW**, com 100 novos confrontos `A00500–A00599` do XML canônico Sefaria-Data. Pareceres novos **S=80, O=17, E=1, V=2**, 9 emendas mínimas, inclusive erro do artigo grego `ὁ` em `A00518`. Ressalvas de fonte digital `A00571` e `A00592` não normalizadas conjecturalmente. **600/600 analisados numa primeira passagem; 0/600 homologados integralmente**, por faltar cotejo exaustivo das citações em textos críticos. Relatório [JASTROW lote 006](auditoria/JASTROW-2026-10-11-filologia-lote006-A00500-A00599.md) e [checkpoint acumulado](auditoria/jastrow-filologia-progresso.json). Os 600 verbetes-base estão integrados, mas as emendas de `chat-gpt-correcoes` ainda aguardam integração. Próximo novo verbete `A00600` requer extração por processo lexical independente. A tabela geral obrigatória mantém números em cada ◐ e DGP estático ✓ 3300/3300.
