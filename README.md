@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## Auditoria filológica THAYER — 500 registros (11/10/2026)
+
+**Estado editorial: NÃO HOMOLOGADO.** A correspondência de cabeçalho foi examinada em todos os **500 cartões**: **490 lemas coincidem por normalização** com a transcrição auxiliar de Thayer; o confronto com o fac-símile documentou **sete divergências reais de lematização**, além de um falso negativo do extrator e duas diferenças de indicação flexional. Foram identificados **12 candidatos adicionais** a entrada ou variante autônoma, que exigem decisão editorial baseada na obra impressa.
+
+O relatório detalhado está em [auditoria THAYER 500](auditorias/thayer-auditoria-filologica-500-2026-10-11.md), acompanhado do [inventário individual dos 500 registros](auditorias/thayer-auditoria-filologica-500-inventario.csv). A revisão filológica completa de acepções, regências, referências e etimologias **não foi realizada para todos os 500 artigos** e não pode ser declarada concluída com base na auditoria estrutural ou em correspondência automática. O léxico mantém os 500 cartões originais nesta etapa; a correção deve ser feita com evidência por página. Próximo lema: **ἀντιπαρέρχομαι**.
+
+
 ## THAYER — lote 006: 500 verbetes acumulados (11/10/2026)
 
 A branch `chat-gpt-thayer` recebeu **100 novas entradas**, de **ἀνατέλλω (G393)** a **Ἀντιοχεύς (G491)**, somando **500 verbetes THAYER** (499 registros dinâmicos e o cartão histórico Ἀαρών). O lote compreende 99 entradas do intervalo G393–G491 e uma entrada adicional identificada por Thayer como **ἀνέλεος (G415a)**. Próximo lema: **ἀντιπαρέρχομαι (G492)**.

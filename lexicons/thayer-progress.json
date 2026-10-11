@@ -274,5 +274,22 @@
       "translation_status": "síntese editorial em português; revisão filológica integral pendente"
     }
   ],
-  "last_commit_date": "2026-10-11"
+  "last_commit_date": "2026-10-11",
+  "philological_audit_500": {
+    "date": "2026-10-11",
+    "source_head": "50ba9828d31b5f3d5fbffc746f403f1e6f8cc1c0",
+    "report": "auditorias/thayer-auditoria-filologica-500-2026-10-11.md",
+    "inventory": "auditorias/thayer-auditoria-filologica-500-inventario.csv",
+    "examined_for_headword": 500,
+    "automatic_headword_correspondences": 490,
+    "confirmed_lemma_discrepancies": 7,
+    "source_transcription_false_negative": 1,
+    "auxiliary_inflection_format_differences": 2,
+    "additional_source_candidate_headwords": 12,
+    "full_semantic_review": "PENDENTE",
+    "scripture_reference_review": "PENDENTE",
+    "final_approval": false,
+    "status": "NAO_HOMOLOGADO",
+    "notes": "Auditoria de lemas dos 500 registros; NÃO implica exame filológico integral de acepções e testemunhos."
+  }
 }
