@@ -1,5 +1,16 @@
 # Scriptura Lexicon
 
+## JASTROW — terceira rodada: 100 novos verbetes (10/10/2026)
+
+**Publicação atual na branch `chat-gpt-jastrow`: 210 cartões e 210 linhas pesquisáveis**, com 100 registros novos (`A00110`–`A00209`, ordinais 111–210), além dos 110 anteriores. **Próximo verbete:** `A00210` (`אַבְרוּיֵי`; ordinal 211). **Integração efetiva já comprovada:** 110 registros anteriores pelo PR [#82](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/82) (*merged*); os 100 novos ainda não foram integrados.
+
+**Camada Fonte:** XML canônico de `Sefaria/Sefaria-Data` no commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, com dois arquivos independentes de 200 registros cada: [lote 1](lexicons/jastrow-source-lote-0001.json) (`A00000`–`A00199`) e [lote 2](lexicons/jastrow-source-lote-0002.json) (`A00200`–`A00399`). Há 400 originais armazenados, não 400 traduções. O workflow [run 38099249338](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38099249338) falhou com `IndexError` no extrator quando usou o deslocamento 200; após correção do índice, o [run 38099440930](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38099440930) terminou com êxito e publicou o segundo lote-fonte.
+
+**Módulos novos:** [`jastrow-111-140.js`](lexicons/jastrow-111-140.js) (30), [`jastrow-141-170.js`](lexicons/jastrow-141-170.js) (30), [`jastrow-171-185.js`](lexicons/jastrow-171-185.js) (15), [`jastrow-186-200.js`](lexicons/jastrow-186-200.js) (15) e [`jastrow-201-210.js`](lexicons/jastrow-201-210.js) (10). [`jastrow-popups-111-210.js`](lexicons/jastrow-popups-111-210.js) adiciona explicações bibliográficas e onomásticas sem duplicar as definições anteriores. Todos são carregados em `index.html` antes de `script.js`.
+
+**Auditoria determinística executada:** 210 `search-row`, 210 `entry-card`, 210 identificadores distintos e consecutivos com `data-target` correspondentes, IDs vinculados aos 210 registros do XML, scripts em ordem e 86 termos de tooltip únicos. **Pendências:** auditoria filológica integral e independente dos exemplos, notas, leituras e referências; parte dos cartões apresenta sínteses editoriais, não reprodução traduzida integral de todas as notas do XML. Testes reais de navegador, RTL, acessibilidade, pesquisa e popups dinâmicos também estão pendentes. **Não certificar editorialmente os 100 novos nem concluir novo merge antes dessas verificações.** Nenhuma escrita em `main`.
+
+
 
 ## JASTROW — rodada editorial de 100 entradas (10/10/2026)
 
