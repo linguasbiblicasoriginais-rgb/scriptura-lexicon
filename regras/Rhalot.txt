@@ -94,4 +94,31 @@ regras/Rfontes-impressas.txt — outros testemunhos impressos; não
   substituir o presente registro de HALOT.
 regras/Rfontes-consulta.txt — portais digitais de outras fontes.
 
+
+======================================================================
+5. PRIMEIRA TENTATIVA DE LOTE — 11/10/2026 (NÃO CONCLUÍDA)
+======================================================================
+
+Comando do mantenedor: "Execute o HALOT (100 verbetes)."
+CHECKPOINT CONFIRMADO NESTA SESSÃO: zero verbetes novos publicados,
+zero auditados, zero integrados; ordinal seguinte 1, lema seguinte
+NÃO DETERMINADO. Registro: lexicons/halot-progress.json.
+
+EVIDÊNCIAS: o leitor da URL canônica retornou "Content length is too
+large: 18446799"; o download direto retornou falha; a ferramenta
+local para abrir arquivos retornou ClientError. A busca pública
+indexou amostra iniciada em א, mas não forneceu 100 verbetes
+consecutivos, delimitados e auditáveis. Não declarar indisponibilidade
+universal da fonte nem usá-la como autorização para substituí-la.
+
+PRÓXIMA EXECUÇÃO: obter efetivamente a edição PDF designada; verificar
+lemas, fronteiras de entrada, grafia, acepções, página, sequência e
+conferência filológica antes de criar módulos e publicar 100 verbetes.
+O material KBS dos PDFs históricos não substitui silenciosamente a
+Study Edition. Nenhum lote pode ser fabricado por preenchimento ou por
+listas de lemas oriundas de outros dicionários.
+
+Este é um registro de tentativa sem produção lexical, NÃO uma
+certificação de revisão filológica ou publicação de 100 verbetes.
+
 FIM — RHALOT
