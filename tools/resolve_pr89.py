@@ -23,7 +23,7 @@ JASTROW_EXTRA = [
 def git(*args, check=True):
     p = subprocess.run(["git", *args], text=True, capture_output=True)
     if check and p.returncode:
-        raise RuntimeError(f"git {args}: {p.stderr.strip()}")
+        raise RuntimeError(f"git {args}: stdout={p.stdout.strip()} stderr={p.stderr.strip()}")
     return p.stdout.strip()
 
 def read_stage(number, path):
@@ -83,7 +83,7 @@ O PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pul
     progress_path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     rules = Path("regras/Rintegracao.txt")
     rules.write_text(rules.read_text(encoding="utf-8").rstrip() + """
-    
+
 19. PR #89 — JASTROW 410 (11/10/2026)
     Origem chat-gpt-jastrow, destino chat-gpt-commits. Resolver somente README.md e index.html conservando literalmente o histórico de THAYER/DGP e de JASTROW. Os dez scripts novos de JASTROW, os XML 401–600, workflow, regras e progresso transitam para a base sem perda; scripts THAYER e DGP76 permanecem. Atualizar manifesto integrado JASTROW para 410 registros, próximo A00410, 600 registros-fonte, 0 auditados filologicamente; ressalvar revisão filológica e testes de navegador. Criar merge real de dois pais e preservar origem/main.
 """, encoding="utf-8")
