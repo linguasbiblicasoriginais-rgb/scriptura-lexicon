@@ -151,7 +151,8 @@
     ],
     "browser_dom_test": "não executado",
     "external_url_validation": "links novos para itens individuais não inseridos",
-    "philological_review": "síntese editorial verificada por amostragem, revisão integral entrada a entrada pendente"
+    "philological_review": "síntese editorial verificada por amostragem, revisão integral entrada a entrada pendente",
+    "editorial_index_correction": "291a, 294a, 294b são identificadores de ordenação locais; as formas estão no Thayer sob G291 e G294, sem sufixo Strong oficial. G237a, G292a e G299a aparecem como cabeçalhos numerados adicionais no Thayer."
   },
   "integration_policy": "A integração automática de chat-gpt-thayer não está na lista de origens de regras/Rintegracao.txt. Nenhum PR/merge em chat-gpt-commits ou main.",
   "batch_size": 100,
@@ -202,27 +203,39 @@
       "extra_entries": [
         {
           "index": "237a",
-          "lemma": "ἀλλαχοῦ"
+          "lemma": "ἀλλαχοῦ",
+          "thayer_index": "G237a",
+          "index_kind": "sufixo de indexação documentado em Thayer"
         },
         {
           "index": "291a",
-          "lemma": "Ἀμπλίατος"
+          "lemma": "Ἀμπλίατος",
+          "thayer_index": "G291",
+          "index_kind": "ordem editorial; NÃO é índice Strong"
         },
         {
           "index": "292a",
-          "lemma": "ἀμφιβάλλω"
+          "lemma": "ἀμφιβάλλω",
+          "thayer_index": "G292a",
+          "index_kind": "sufixo de indexação documentado em Thayer"
         },
         {
           "index": "294a",
-          "lemma": "ἀμφιάζω"
+          "lemma": "ἀμφιάζω",
+          "thayer_index": "G294",
+          "index_kind": "ordem editorial; NÃO é índice Strong"
         },
         {
           "index": "294b",
-          "lemma": "ἀμφιέζω"
+          "lemma": "ἀμφιέζω",
+          "thayer_index": "G294",
+          "index_kind": "ordem editorial; NÃO é índice Strong"
         },
         {
           "index": "299a",
-          "lemma": "ἄμωμον"
+          "lemma": "ἄμωμον",
+          "thayer_index": "G299a",
+          "index_kind": "sufixo de indexação documentado em Thayer"
         }
       ],
       "skipped_preexisting": [
