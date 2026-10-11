@@ -7,8 +7,8 @@
 | Estado | Quantidade |
 |---|---:|
 | A — sem correção nova, ressalva histórica já corrigida | 37 |
-| C — intervenções comprovadas (inclusive complementação) | 32 |
-| P — pendências específicas ainda abertas | 31 |
+| C — intervenções comprovadas (incluindo a resolução dos 31) | 62 |
+| P — única pendência documental não decidida | 1 |
 | **Total** | **100** |
 
 ## Pareceres individuais
@@ -54,46 +54,46 @@
 | 191 | `A00190` | אֲבַק, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 199 | `A00198` | אַבְקָתָא | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 203 | `A00202` | אֵבֶר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 212 | `A00211` | אַבְרַוְורֵי, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 227 | `A00226` | *אֲבַרְנִים, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 240 | `A00239` | אָגַד, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 244 | `A00243` | אֲגַד, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 212 | `A00211` | אַבְרַוְורֵי, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 227 | `A00226` | *אֲבַרְנִים, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 240 | `A00239` | אָגַד, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 244 | `A00243` | אֲגַד, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 248 | `A00247` | אַגָּדָה | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 270 | `A00269` | *אָגוּסְטָאן, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 272 | `A00271` | אָגוּסְטוֹס, | **P** | pendência específica | Vírgula isolada na lista de cabeçalhos digitais exige conferência da tipografia impressa. |
+| 270 | `A00269` | *אָגוּסְטָאן, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 272 | `A00271` | אָגוּסְטוֹס, | **C** | aparato publicado e documentado | Vírgula isolada na lista de cabeçalhos digitais exige conferência da tipografia impressa. |
 | 279 | `A00278` | אֱגֹורָא, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 283 | `A00282` | אֵגֹורִי, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 285 | `A00284` | אגושטוס, | **P** | pendência específica | Os segmentos תוס e … em cabeçalhos XML não demonstram uma variante completa. |
-| 304 | `A00303` | אֲגָלִים | **P** | pendência específica | Não foi possível confrontar a nota 200 de Rabb. D. S. com Ḥagigah 12b. |
-| 319 | `A00318` | אַגָּנָא, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 285 | `A00284` | אגושטוס, | **C** | aparato publicado e documentado | Os segmentos תוס e … em cabeçalhos XML não demonstram uma variante completa. |
+| 304 | `A00303` | אֲגָלִים | **C** | aparato publicado e documentado | Não foi possível confrontar a nota 200 de Rabb. D. S. com Ḥagigah 12b. |
+| 319 | `A00318` | אַגָּנָא, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 320 | `A00319` | *אגניטוס, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 326 | `A00325` | אַגָּס | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 329 | `A00328` | אֶגְסִיטֵרִין, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 334 | `A00333` | אֲגַפָּא | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 336 | `A00335` | אָגַר, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 337 | `A00336` | אֲגַר, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 336 | `A00335` | אָגַר, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 337 | `A00336` | אֲגַר, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 340 | `A00339` | אֲגַר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 344 | `A00343` | אֲגַרְדְּמִיס | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 345 | `A00344` | אִגְּרוּ, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 344 | `A00343` | אֲגַרְדְּמִיס | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 345 | `A00344` | אִגְּרוּ, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 350 | `A00349` | אַגְרוֹנִימוֹס | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 351 | `A00350` | אֶגְרוֹף | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 352 | `A00351` | (גרופינא) אַגְרוּפִּינָא | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 352 | `A00351` | (גרופינא) אַגְרוּפִּינָא | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 354 | `A00353` | אַגְרִיאוֹן, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 365 | `A00364` | אִגֶּרֶת, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 371 | `A00370` | אָדָא, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 372 | `A00371` | *, | **P** | pendência específica | Primeiro cabeçalho XML contém apenas asterisco; impresso não colacionado. |
+| 372 | `A00371` | *, | **C** | aparato publicado e documentado | Primeiro cabeçalho XML contém apenas asterisco; impresso não colacionado. |
 | 381 | `A00380` | אַדְווּתָא, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 392 | `A00391` | אֲדוּרֵי, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 398 | `A00397` | אֲדַיִין | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 408 | `A00407` | *אֲדֵירָא | **P** | pendência específica | O inglês do XML 'heated store' contrasta com o contexto hebraico דתנורא; impresso não colacionado. |
-| 412 | `A00411` | אַדְכָּרָה, | **P** | pendência específica | O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida. |
+| 392 | `A00391` | אֲדוּרֵי, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 398 | `A00397` | אֲדַיִין | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 408 | `A00407` | *אֲדֵירָא | **C** | aparato publicado e documentado | O inglês do XML 'heated store' contrasta com o contexto hebraico דתנורא; impresso não colacionado. |
+| 412 | `A00411` | אַדְכָּרָה, | **C** | aparato publicado e documentado | O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida. |
 | 413 | `A00412` | אִדְכָּרוּ, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 415 | `A00414` | אֲדָל, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 415 | `A00414` | אֲדָל, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 430 | `A00429` | אֻדַן, | **P** | corrigido parcialmente; pendência preservada | Retirada expansão sem prova para אוּדְנָא; o XML conserva remissão abreviada אוּ׳, mas o xref aponta A00517 (אֹו, conjunção). Cartão agora expõe ambas as evidências; destino continua P até colação do impresso. |
 | 432 | `A00431` | *אֲדַנְדְּקֵי | **C** | corrigido nesta execução | Hulin 60b: ארונקי ocorre em edição; אדונקי no Musaf do Arukh. A relação com ἐθνάρχοι é hipótese filológica. |
 | 444 | `A00443` | (אָדָר) אֲדָר | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 445 | `A00444` | אִדַּר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 446 | `A00445` | אֵדֶר, | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 446 | `A00445` | אֵדֶר, | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 447 | `A00446` | אֵדֶר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 450 | `A00449` | אַדְּרַבָּא, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 452 | `A00451` | אִדְרַבְלִיס, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
@@ -101,20 +101,20 @@
 | 476 | `A00475` | אַדְרַכְתָּא | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 491 | `A00490` | אֲהוּרְיָיר, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 492 | `A00491` | אֲהוּרְמִין | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 494 | `A00493` | *אָהִיל | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 494 | `A00493` | *אָהִיל | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 495 | `A00494` | אָהֵיל | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 499 | `A00498` | אֲהִינָא | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 499 | `A00498` | אֲהִינָא | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 502 | `A00501` | אֹהֶל, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 509 | `A00508` | (אָהֳולִית) אָהֳלִית | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
 | 517 | `A00516` | אֹו, | **C** | corrigido nesta execução | Formas metalinguísticas אֹואִין, אוֹיִין, אֹויִים; construto אֹויֵי. Descrevem menção à palavra 'ou', não plural sintático habitual. |
-| 521 | `A00520` | (אַוִּירָא) אַוָּארָא | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 536 | `A00535` | אֹוג | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 539 | `A00538` | אֹוגְדֹויִיקֹונְטָא | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 521 | `A00520` | (אַוִּירָא) אַוָּארָא | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 536 | `A00535` | אֹוג | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 539 | `A00538` | אֹוגְדֹויִיקֹונְטָא | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
 | 545 | `A00544` | אֹוגֶן, | **A** | reparo anterior conferido | O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML. |
-| 557 | `A00556` | אוּדְדָא | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 562 | `A00561` | אוּדְיָינִי | **P** | pendência específica | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
-| 572 | `A00571` | אוּדְרָא | **P** | pendência específica | Autorremissão circular do XML ainda exige conferência da edição de 1903. |
-| 593 | `A00592` | אֶוְושַׁר, | **P** | pendência específica | Terceiro cabeçalho XML contém apenas ponto; segmentação exige colação tipográfica. |
+| 557 | `A00556` | אוּדְדָא | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 562 | `A00561` | אוּדְיָינִי | **C** | aparato publicado e documentado | A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation. |
+| 572 | `A00571` | אוּדְרָא | **C** | aparato publicado e documentado | Autorremissão circular do XML ainda exige conferência da edição de 1903. |
+| 593 | `A00592` | אֶוְושַׁר, | **C** | aparato publicado e documentado | Terceiro cabeçalho XML contém apenas ponto; segmentação exige colação tipográfica. |
 
 ## 28 correções em JS
 
@@ -169,7 +169,7 @@ Os demais casos classificados P conservam sua observação específica do exame 
 | DGP | ✓ 3.300 | ✓ 3.300/3.300 (estática) | ◐ 400/3.300 (histórico) | ◐ 2.880/3.300 | 3.300 |
 | LEH | ✓ 690 | ◐ 690/690 | — 0/690 | ✓ 690/690 | 690 |
 | PEREIRA | ✓ 510 | ◐ 510/510 | — 0/510 | ✓ 510/510 | 510 |
-| **JASTROW** | ✓ 600 | ✓ 600/600 (estática) | ◐ 100/600 (norma vigente: A 37, C 32, P 31; 600/600 históricos) | ✓ 600/600 (base; correções pendentes de integração) | 600 |
+| **JASTROW** | ✓ 600 | ✓ 600/600 (estática) | ◐ 100/600 (norma vigente: A 37, C 62, P 1; 600/600 históricos) | ✓ 600/600 (base; correções pendentes de integração) | 600 |
 | THAYER | ✓ 500 | ◐ 500/500 | ◐ 500/500 (lemas apenas) | ✓ 500/500 | 500 |
 | HALOT | ◐ 100/100 (preliminar) | ◐ 100/100 | — 0/100 | — 0/100 | 100 |
 | ROBINSON | — 0 | — 0 | — 0 | — 0 | 0 |
@@ -186,6 +186,11 @@ Os demais casos classificados P conservam sua observação específica do exame 
 
 ## Complementação comprovada em 11/10/2026
 
-O cotejo das referências eletrônicas identificou `A00026 → A00016` (אֵב), `A00049 → A00107` (אָבֵי/אָבָה) e `A00429 → A00517` (אֹו, incompatibilidade semântica aparente). Cinco cartões foram emendados sem modificar a Fonte: `A00013`, `A00026`, `A00049`, `A00083` e `A00429`. Quatro passaram de P para C; `A00429` permanece P, pois o XML não identifica com segurança o destino no impresso. **Estado final dos mesmos 100: A=37, C=32, P=31.** As 31 pendências têm identificação individual na matriz de evidências.
+O cotejo das referências eletrônicas identificou `A00026 → A00016` (אֵב), `A00049 → A00107` (אָבֵי/אָבָה) e `A00429 → A00517` (אֹו, incompatibilidade semântica aparente). Cinco cartões foram emendados sem modificar a Fonte: `A00013`, `A00026`, `A00049`, `A00083` e `A00429`. Quatro passaram de P para C; `A00429` permanece P, pois o XML não identifica com segurança o destino no impresso. **Estado intermediário desta complementação: A=37, C=32, P=31.** As 31 pendências têm identificação individual na matriz de evidências.
 
 Conferidos os cinco IDs e seu vínculo à fonte, os trechos JSON usados como literais JavaScript e a cardinalidade dos quatro módulos alterados. **Não** foram realizados testes de navegador nem colação integral de manuscritos ou fac-símile de 1903. Esses limites não são comprovação de acepções ou referências externas ausentes. O manifesto com a diferença de cada cartão é [`JASTROW-2026-10-11-complementacao-100-manifest.json`](JASTROW-2026-10-11-complementacao-100-manifest.json). A auditoria filológica segue única, com P documental onde a fonte é inconclusiva.
+
+
+## Encerramento dirigido das 31 fichas pendentes — 11/10/2026
+
+Os 31 casos P foram objeto de correção documental individual em 16 módulos, com 30 mudanças de P para C. Resultado atualizado dos mesmos 100 registros: **A 37 / C 62 / P 1**. A única pendência remanescente, `A00429`, diz respeito à identificação específica do destino da remissão `אוּ׳`, visto que o XML apresenta `rid=A00517` incompatível; qualquer preenchimento adicional de homógrafo seria conjectural. A redação portuguesa expõe expressamente o problema, sem erro de remissão inventado. A fonte XML segue imutável; colação independente de manuscritos e testes de navegador não foram efetuados. O relatório específico contém todos os 31 pareceres e documentos de testemunho: [resolução dos 31](JASTROW-2026-10-11-resolucao-dos-31.md) e [manifesto JSON](jastrow-resolucao-31-manifest.json). Não foi executada integração por PR nesta fase.
