@@ -1,5 +1,11 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## HALOT — extensão documental de fonte (10/10/2026)
+
+Foi designada a fonte HALOT (*The Hebrew and Aramaic Lexicon of the Old Testament*, **Study Edition**, volume 1) e criada a branch exclusiva `chat-gpt-halot`. URL documental indicada: https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf. A regra própria é `regras/Rhalot.txt`. A indicação bibliográfica não equivale à validação textual do PDF, nem ao início de lotes.
+
+HALOT permanece **independente** de BDAG, DGP, LEH, PEREIRA e demais fontes. Escritas lexicais futuras de HALOT ocorrerão exclusivamente na sua branch, após definir e verificar o procedimento de ingestão; a consolidação em `chat-gpt-commits` exigirá PR, auditoria e merge confirmado, preservando a origem. Nenhum agendamento ou alteração automática das rotinas existentes resulta deste cadastro; listas históricas de quatro fontes/seis branches abaixo descrevem as rotinas anteriores e não são evidência de execução HALOT.
+
 ## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
 
 **Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.

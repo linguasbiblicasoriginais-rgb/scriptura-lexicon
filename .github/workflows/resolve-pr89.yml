@@ -1,0 +1,35 @@
+name: PR 89 - reconciliar JASTROW com integracao
+
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths:
+      - ".github/workflows/resolve-pr89.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pr89-jastrow-to-integration
+  cancel-in-progress: false
+
+jobs:
+  merge-conflicts:
+    name: Resolver PR 89 (dois pais, sem perda, sem main)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Validar Python
+        run: python -m py_compile tools/resolve_pr89.py
+      - name: Configurar autor Git no runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Conciliar, auditar e publicar merge protegido
+        run: python tools/resolve_pr89.py
+# Revisao 3: exigir auditoria git diff --check sem whitespace e validar HEAD remoto.

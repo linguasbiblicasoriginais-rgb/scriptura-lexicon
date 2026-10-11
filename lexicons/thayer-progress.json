@@ -143,7 +143,7 @@
     "browser_dom_test": "não executado",
     "external_url_verification": "não executada; nenhum link externo novo nos módulos"
   },
-  "integration_policy": "A integração automática de chat-gpt-thayer não está na lista de origens de regras/Rintegracao.txt. Nenhum PR/merge em chat-gpt-commits ou main.",
+  "integration_policy": "PR #90 autorizado exclusivamente para resolução manual. Não adicionar chat-gpt-thayer à lista de origens regulares em Rintegracao.",
   "batch_size": 100,
   "previous_checkpoint": 400,
   "last_batch_source_ordinals": "Thayer/Strong G393–G491 (99 índices inteiros) + ἀνέλεος (G415a)",
@@ -291,5 +291,53 @@
     "final_approval": false,
     "status": "NAO_HOMOLOGADO",
     "notes": "Auditoria de lemas dos 500 registros; NÃO implica exame filológico integral de acepções e testemunhos."
+  },
+  "integration": {
+    "pr": 87,
+    "source_branch": "chat-gpt-correcoes",
+    "original_branch": "chat-gpt-thayer",
+    "target_branch": "chat-gpt-commits",
+    "status": "PR #87: state=closed, merged=true; merge commit ae92905500b289ae2f1f4ab6c9623ca2f1a04e46; verificação pós-publicação confirmada",
+    "preserve_source_branches": true,
+    "original_records": 121,
+    "independent_audit": "auditorias/thayer-2026-10-10-lote002.md — auditoria estática; revisão filológica integral e testes de navegador pendentes",
+    "merged_commit": "ae92905500b289ae2f1f4ab6c9623ca2f1a04e46",
+    "integrated": true,
+    "completed_note": "Dados THAYER integrados sem edição lexical; revisão filológica integral, DOM, popups e URLs ainda não certificados."
+  },
+  "integration_pr90": {
+    "pr": 90,
+    "source_head": "1e0066a5e7966c244ad840ff1b4ccadd4cd35a10",
+    "target_head_before_merge": "c652136c1220cfe780c2697531d7da9a2fddcea2",
+    "source_branch": "chat-gpt-thayer",
+    "target_branch": "chat-gpt-commits",
+    "old_total": 121,
+    "new_entries": 200,
+    "expected_total": 321,
+    "status": "state=closed, merged=true; auditada a publicação remota",
+    "old_pr87_preserved": true,
+    "merged": true,
+    "merged_at": "2026-10-11T05:14:18Z",
+    "merge_commit_sha": "adcc52d941904383c9a1d3fd905b6d14f98eb657",
+    "merge_parents": [
+      "c652136c1220cfe780c2697531d7da9a2fddcea2",
+      "1e0066a5e7966c244ad840ff1b4ccadd4cd35a10"
+    ],
+    "postmerge_audit": {
+      "thayer_total": 321,
+      "thayer_modular_cards": 320,
+      "thayer_static_aaron": 1,
+      "search_rows": 320,
+      "unique_card_ids": 320,
+      "missing_targets": 0,
+      "duplicate_ids": 0,
+      "source_module_blobs_preserved": true,
+      "preexisting_scripts_preserved": true,
+      "other_lexicon_files_unchanged": true,
+      "source_branch_preserved": true,
+      "main_branch_not_modified": true,
+      "browser_dom_review": "pendente",
+      "philological_review": "pendente"
+    }
   }
 }

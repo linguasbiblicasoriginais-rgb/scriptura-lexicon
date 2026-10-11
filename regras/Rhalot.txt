@@ -1,0 +1,97 @@
+RHALOT — REGRA CANÔNICA DE FONTE E BRANCH (10/10/2026)
+Projeto: GDHAGP / Scriptura Lexicon
+Caminho: regras/Rhalot.txt
+Codificação: UTF-8; texto simples.
+
+======================================================================
+1. IDENTIFICAÇÃO DA FRENTE E REPOSITÓRIO
+======================================================================
+
+Sigla da fonte: HALOT.
+Obra indicada: The Hebrew and Aramaic Lexicon of the Old Testament.
+Edição indicada no nome do arquivo: Study Edition, volume 1.
+Autores/editoria do léxico: Ludwig Koehler, Walter Baumgartner e
+Johann Jakob Stamm; tradução/edição inglesa associada a M. E. J.
+Richardson. Conferir os dados bibliográficos exatos no frontispício
+do exemplar designado antes de fixar ano, impressão, ISBN ou páginas.
+
+Fonte documental indicada EXPRESSAMENTE pelo mantenedor em 10/10/2026:
+https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf
+
+Identificador interno de referência: HALOT-STUDY-V1-01.
+Abrangência documental confirmada pela indicação: VOLUME 1 SOMENTE.
+Não presumir que os demais volumes estejam disponíveis nessa URL
+nem que esta versão tenha paginação ou conteúdo idênticos aos cinco
+volumes da edição maior de Koehler–Baumgartner (KBS/HALOT).
+
+Repositório:
+https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon
+Branch EXCLUSIVA da frente HALOT: chat-gpt-halot.
+Branch de consolidação: chat-gpt-commits.
+PROIBIDO editar main, outras fontes ou branches por conta do HALOT.
+
+======================================================================
+2. ESTADO DE VERIFICAÇÃO E CRITÉRIOS BIBLIOGRÁFICOS
+======================================================================
+
+A URL acima é a FONTE DE CONSULTA DESIGNADA PELO MANTENEDOR, não
+uma certificação de que o arquivo foi inspecionado integralmente.
+Em 10/10/2026, a tentativa de leitura automatizada da URL retornou
+limite de tamanho do documento pela ferramenta de consulta; isso
+NÃO comprova indisponibilidade do endereço nem valida seu conteúdo.
+
+PENDENTE: inspeção do frontispício, colofão/copyright, sumário,
+primeira e última entrada, intervalo alfabético, número de páginas
+e correspondência entre paginação impressa e páginas PDF.
+
+Não atribuir data bibliográfica, edição, cobertura, SHA, quantidade
+de verbetes ou lema inicial/final sem inspeção do PDF e registro
+correspondente. Não confundir a indicação de uma URL com download,
+extração ou incorporação concluídos.
+
+Os PDFs identificados como KBS no material de pesquisa podem servir
+a cotejo DOCUMENTADO, mas nunca substituir silenciosamente a Study
+Edition designada nem transferir leituras entre edições. Informar
+sempre fonte, edição, volume e página usados efetivamente.
+
+======================================================================
+3. REGRAS LEXICOGRÁFICAS E DE INCORPORAÇÃO
+======================================================================
+
+1. HALOT é fonte independente, voltada ao hebraico e ao aramaico.
+   Alocar entradas no dicionário linguístico correto; não amalgamar
+   homógrafos, raízes, formas ou acepções de outras fontes.
+2. Conservar a ordem, os lemas, a vocalização, a transliteração,
+   os sentidos, as abreviaturas, as remissões e a estrutura da fonte.
+3. Manter as quatro camadas separadas:
+   FONTE / TRADUÇÃO / ANÁLISE / GDHAGP.
+4. Tradução ao português deve ser fiel e identificável como tradução,
+   sem atribuir à fonte formulações que sejam de autoria do GDHAGP.
+5. Popups explicativos e links diretos devem seguir README.md; jamais
+   inventar expansões de siglas nem links de páginas/versículos.
+6. Respeitar direitos autorais e permissões de reutilização. A
+   publicidade da URL não implica licença de reprodução integral.
+7. Antes do primeiro lote lexical, definir e documentar checkpoint,
+   fonte PDF efetivamente inspecionada (SHA quando armazenada),
+   sequência de verbetes, módulos, IDs e auditoria da nova frente.
+8. Todo commit lexical e toda atualização de regras própria do HALOT
+   deve ser publicado diretamente em chat-gpt-halot, sem branches
+   temporárias, sem force push e com confirmação remota posterior.
+9. Integração na branch chat-gpt-commits depende de PR, auditoria e
+   confirmação efetiva do merge. Preservar a branch de origem.
+10. Este ato é CADASTRO DE FONTE E DESTINO GIT. NÃO inaugura lotes,
+    não confirma extração de verbetes, não cria rotina agendada e não
+    altera checkpoints das fontes existentes.
+
+======================================================================
+4. DOCUMENTAÇÃO RELACIONADA
+======================================================================
+
+README.md — descrição pública e regras filológicas gerais.
+ORQUESTRACAO.md — fluxos independentes e situação dos agendamentos.
+regras/Rintegracao.txt — regras de PR, merge, auditoria e preservação.
+regras/Rfontes-impressas.txt — outros testemunhos impressos; não
+  substituir o presente registro de HALOT.
+regras/Rfontes-consulta.txt — portais digitais de outras fontes.
+
+FIM — RHALOT
