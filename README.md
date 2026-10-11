@@ -1,5 +1,11 @@
 # Scriptura Lexicon
 
+## DGP — início da auditoria filológica independente (11/10/2026)
+
+Foi iniciado o confronto filológico progressivo do DGP: **20 verbetes examinados individualmente (ordinais 1–20 de 3.300 incorporados)**, com consulta auxiliar dirigida em LSJ/Cunliffe para 14 registros, identificação de citações em *Ilíada* 9.537 e 2 Coríntios 11.9, e registro de questões relativas a terminações adjetivais, derivações, homógrafos e acepções. **Não é uma homologação filológica dos 3.300 verbetes**, nem uma alteração editorial da fonte. O relatório de cada entrada está em [auditoria filológica 1–20](auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md) e o progresso reproduzível em [checkpoint filológico DGP](auditorias/dgp-filologia-progresso.json). Próximo lote: 21–40.
+
+Em todos os relatórios de execução deve ser exibida uma tabela consolidada para **BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER** com Incorporação, Auditoria textual/estrutural, Auditoria filológica, Integração e total numérico incorporado, distinguindo conclusões verificadas de etapas parciais. A norma permanece em [`regras/Rcorrecoes.txt`](regras/Rcorrecoes.txt).
+
 ## THAYER — lote 002 (100 verbetes, 10/10/2026)
 
 A branch `chat-gpt-thayer` incorpora 100 verbetes novos em `lexicons/thayer-batch-002.js` de `ἀγαλλιάω` a `ἄθλησις`: entradas numeradas Thayer G21–G119 (**99**) e a entrada própria `ἄγγος` (G32b), totalizando **100** novos registros e **121** registros THAYER considerando os 21 anteriores. Próximo lema: **`ἀθυμέω` (G120)**.

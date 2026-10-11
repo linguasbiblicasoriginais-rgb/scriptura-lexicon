@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "lexicon": "DGP",
+  "audit_type": "filologica_independente",
+  "work_branch": "chat-gpt-correcoes",
+  "source": {
+    "repository": "aniseferreira/Grc-Por-DigDict",
+    "xml_path": "arquivos_xml/01_Alfa.txt.xml",
+    "commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+    "blob": "eec318bb6150b6b2f4422ea4a76383ac0a254de2"
+  },
+  "lexical_head": "59d497c25c0a9bbc0a15a2d49d6586e5d6892500",
+  "total_inc_por_source_branch": 3300,
+  "filologia": {
+    "first": 1,
+    "last": 20,
+    "reviewed_total": 20,
+    "external_targeted_review": 14,
+    "internal_review_only": 6,
+    "remaining": 3280,
+    "next_ordinal": 21,
+    "status": "em_andamento; sem homologação integral"
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "first_ordinal": 1,
+      "last_ordinal": 20,
+      "first_lemma": "Α, α (ἄλφα) (τό)",
+      "last_lemma": "ἀβασίλευτος, ος, ον",
+      "report": "auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md",
+      "changed_lexical_entries": 0,
+      "reviewed_ordinal_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "external_targeted_ordinals": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "open_issues": [
+        1,
+        3,
+        4,
+        7,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ]
+    }
+  ],
+  "next_action": "Auditar DGP 21–40; rever questões dos primeiros 20 sem emendar fonte por conjectura",
+  "constraints": [
+    "Fidelity to original DGP XML",
+    "Separate source, representation, philological assessment and external evidence",
+    "Do not imply global full review by one tranche",
+    "Integration handled by separate integrator"
+  ]
+}
