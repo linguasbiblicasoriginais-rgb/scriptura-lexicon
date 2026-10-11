@@ -1,5 +1,24 @@
 # Scriptura Lexicon
 
+## PR #96 — conciliação das auditorias DGP e JASTROW (11/10/2026)
+
+O conflito de integração foi resolvido na branch `chat-gpt-correcoes`, preservando o conteúdo consolidado de `chat-gpt-commits` e acrescentando os relatórios e as correções documentadas neste PR. As alterações do DGP ficam restritas à pesquisa dos registros já existentes e à correção tipográfica de `ausência`; não foram criados verbetes. Os módulos de JASTROW e THAYER já integrados permanecem intactos. Os relatórios DGP sobre **3.300 entradas** referem-se ao estado da **branch lexical de origem**; a quantidade publicada na branch consolidada deve ser consultada separadamente. A integração definitiva do PR ainda depende da mesclagem, sem alteração da `main`. A revisão filológica integral, os testes de navegador e a acessibilidade permanecem pendentes.
+
+## JASTROW — auditoria filológica cumulativa de 600 registros (11/10/2026)
+
+Foi realizada triagem independente de **590 objetos editoriais contra seus registros XML**, com leitura dirigida do módulo-base (10 registros); o controle estrutural preexistente abrange **600 cartões e 600 linhas**. Foram encontrados **32 sinais** de variantes de cabeçalho não apresentadas literalmente, **2** registros com material grego condensado (`A00238`, `A00362`) e **1 erro de remissão confirmado** (`A00057`). Esses totais não são 35 erros independentes certificados: os sinalizadores podem sobrepor-se e incluem falsos positivos. A auditoria filológica exaustiva e testes de navegador não foram concluídos; `total_audited=0` mantém-se. Detalhes: [relatório JASTROW de 11/10/2026](auditoria/JASTROW-2026-10-11-filologia-600.md). A branch `chat-gpt-correcoes` diverge da integração e não contém todos os módulos lexicais; não copiar sobre o trabalho integrado sem reconciliação.
+
+
+## DGP — auditoria filológica, lote 002 (11/10/2026)
+
+A auditoria filológica independente chegou aos **40 verbetes revisados** (2 lotes de 20) dentre **3.300** incorporados. O [segundo relatório](auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md) registra os ordinais 21–40, confronto contextual com LSJ, CLD/Bailly, Suda e Cambridge Greek Lexicon, análise de remissões, morfologia e citações. Em `chat-gpt-correcoes`, corrigiu-se **somente a palavra portuguesa quebrada** `au- sência` → `ausência` no cartão DGP 38, preservando a fonte XML. Ainda **não há homologação filológica integral, visual/funcional ou integração das correções**. Próximo lote filológico: 41–60. O [checkpoint independente](auditorias/dgp-filologia-progresso.json) registra os ordinais e pendências.
+
+## DGP — início da auditoria filológica independente (11/10/2026)
+
+Foi iniciado o confronto filológico progressivo do DGP: **20 verbetes examinados individualmente (ordinais 1–20 de 3.300 incorporados)**, com consulta auxiliar dirigida em LSJ/Cunliffe para 14 registros, identificação de citações em *Ilíada* 9.537 e 2 Coríntios 11.9, e registro de questões relativas a terminações adjetivais, derivações, homógrafos e acepções. **Não é uma homologação filológica dos 3.300 verbetes**, nem uma alteração editorial da fonte. O relatório de cada entrada está em [auditoria filológica 1–20](auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md) e o progresso reproduzível em [checkpoint filológico DGP](auditorias/dgp-filologia-progresso.json). Próximo lote: 21–40.
+
+Em todos os relatórios de execução deve ser exibida uma tabela consolidada para **BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER** com Incorporação, Auditoria textual/estrutural, Auditoria filológica, Integração e total numérico incorporado, distinguindo conclusões verificadas de etapas parciais. A norma permanece em [`regras/Rcorrecoes.txt`](regras/Rcorrecoes.txt).
+
 ## Auditoria filológica THAYER — 500 registros (11/10/2026)
 
 **Estado editorial: NÃO HOMOLOGADO.** A correspondência de cabeçalho foi examinada em todos os **500 cartões**: **490 lemas coincidem por normalização** com a transcrição auxiliar de Thayer; o confronto com o fac-símile documentou **sete divergências reais de lematização**, além de um falso negativo do extrator e duas diferenças de indicação flexional. Foram identificados **12 candidatos adicionais** a entrada ou variante autônoma, que exigem decisão editorial baseada na obra impressa.
