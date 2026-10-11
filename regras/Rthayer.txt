@@ -1,0 +1,27 @@
+RTHAYER — NORMA INICIAL DA FRENTE THAYER (10/10/2026)
+Branch exclusiva: chat-gpt-thayer. Não editar main, outros módulos de fontes ou branches concorrentes.
+Fonte-base: Joseph Henry Thayer, A Greek-English Lexicon of the New Testament, fac-símile Thayer (parte 1, Α–Ι).pdf, pp. impressas 1–3 no primeiro lote.
+Transcrição auxiliar: Wikisource (https://en.wikisource.org/wiki/Page:A_Greek_English_Lexicon_of_the_New_Testament.djvu/25) e Bible Hub Thayer (https://biblehub.com/thayers/18.htm).
+As transcrições digitais não corrigem automaticamente o fac-símile. Divergências e conjecturas devem ser atribuídas à fonte.
+Regra editorial: separar texto-fonte, tradução, análise editorial e síntese GDHAGP; nunca interpolar LEH, BDAG, Pereira, DGP ou Robinson na fonte THAYER.
+Traduções em português devem manter as acepções separadas, citações bíblicas, distinções morfológicas, variantes textuais e ressalvas históricas importantes.
+Nomes próprios, gênero, flexão e grafia politônica são mantidos com rastreabilidade.
+Verbetes da obra sem número Strong independente contam como verbetes próprios; ἀγαθουργέω entre ἀγαθός e ἀγαθωσύνη é o primeiro caso.
+Primeiro lote: 20 verbetes novos: ἄλφα + os verbetes Ἀβαδδών a ἀγαλλίασις (incluído ἀγαθουργέω).
+O cartão THAYER de Ἀαρών já existia e não foi reescrito. Total ao fim do lote: 21.
+Próximo lema: ἀγαλλιάω.
+UI: dados em lexicons/thayer.js, duas âncoras para manter ἄλφα junto às outras letras e 19 verbetes após Ἀαρών.
+Auditoria estática: conferir 20 linhas, 20 cartões, todos os data-target resolvidos, IDs únicos, 4 âncoras e carga anterior a script.js.
+Validação em navegador e validação externa dos URLs por entrada continuam pendentes; não alegar teste de DOM executado.
+Documentação e checkpoint em lexicons/thayer-progress.json, regras/Rthayer.txt, README.md.
+Integração: chat-gpt-thayer não integra a lista de seis origens de Rintegracao, portanto este lote permanece somente em sua branch, sem PR automático.
+Commits devem ser atômicos, com conferência do HEAD remoto e atualização protegida, force=false.
+
+Padrão de popups implementado: h1 grego dos 20 verbetes possui tooltip lexical com significado; radicais e nomes hebraicos presentes na formação recebem tooltip hebraico com transliteração e significado.
+
+LOTE 002 (100 verbetes): ἀγαλλιάω → ἄθλησις; lista nominal no checkpoint; 99 números G21–G119 + entrada independente G32b (ἄγγος). Contagem total: 121 entradas THAYER. Próximo: ἀθυμέω (G120). Módulo: lexicons/thayer-batch-002.js, carregado depois de thayer.js e antes de script.js. Não deduplicar ἄγγος com ἄγγελος nem substituir por conteúdo de Strong: Strong serve só de índice para controle de sequência. Tradução portuguesa é síntese editorial atrelada às acepções de Thayer. Manter advertência: navegador/links por entrada/revisão filológica integral ainda não concluídos. Três URLs de consulta (G33, G35, G67) não foram comprovadas; não criar links nesses verbetes.
+
+ADENDO PR #87 — INTEGRAÇÃO MANUAL DO CONTEÚDO THAYER (10/10/2026)
+O pedido expresso de resolver o PR #87 (origem chat-gpt-correcoes) permite integrar os módulos THAYER incluídos naquele PR, sem mudar a política da rotina de ingestão de chat-gpt-thayer ou a lista regular de origens de Rintegracao. A incorporação não cria entradas novas: preserva integralmente os 20 cartões dinâmicos do lote 001, o cartão estático histórico Ἀαρών e os 100 cartões dinâmicos do lote 002, totalizando 121. Quatro âncoras específicas e dois scripts em ordem viabilizam a montagem no index.html integrado. Sem alterações na fonte lexical THAYER além da documentação/checkpoint da situação de integração.
+Auditorias incluídas no PR #87: JASTROW lotes 002 e 003, DGP lote 76 e THAYER lote 002. Apenas a verificação estrutural textual disponível está certificada; revisão de todos os sentidos, exemplos, variantes, popups, execução em browser, acessibilidade e teste exaustivo de URLs seguem PENDENTES. A fonte THAYER autoritativa segue sendo o fac-símile designado, sem substituir testemunho por Strong ou por outras fontes.
+Não tocar main nem reescrever/excluir origens. Registrar commit de merge e status remote verified na documentação de integração, com verificação de publicação antes de declarar conclusão.
