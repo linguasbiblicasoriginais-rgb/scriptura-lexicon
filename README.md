@@ -1,5 +1,18 @@
 # Scriptura Lexicon
 
+## JASTROW — quinta rodada: 100 verbetes (11/10/2026)
+
+**Estado publicado em `chat-gpt-jastrow`: 410 entradas JASTROW e 410 linhas de pesquisa; 100 novas, IDs `A00310`–`A00409` (ordinais 311–410).** Primeiro lema `אַגַּמָּא`; último `אד״ך` (forma `אד"ך` no XML). Próxima entrada `A00410`, lema `אדכי`, ordinal 411. Na branch `chat-gpt-commits` foram verificados **210** verbetes JASTROW publicados; os 200 das duas rodadas mais recentes ainda não foram integrados.
+
+**Fonte:** [JASTROW lote 2](lexicons/jastrow-source-lote-0002.json), 200 registros ordinais 201–400, mais [lote 3](lexicons/jastrow-source-lote-0003.json), 200 registros 401–600, extraídos do XML de `Sefaria/Sefaria-Data` no commit imutável `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. A [execução GitHub Actions 38112091478](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38112091478) terminou com sucesso e preservou o lote 3; a camada Fonte soma **600 originais**, que não devem ser confundidos com as 410 entradas editoriais portuguesas.
+
+**Arquivos da quinta rodada:** [`jastrow-311-335.js`](lexicons/jastrow-311-335.js) (25), [`jastrow-336-360.js`](lexicons/jastrow-336-360.js) (25), [`jastrow-361-385.js`](lexicons/jastrow-361-385.js) (25) e [`jastrow-386-410.js`](lexicons/jastrow-386-410.js) (25), carregados por `index.html` antes do módulo `script.js`. [`jastrow-popups-311-410.js`](lexicons/jastrow-popups-311-410.js) adiciona novas explicações. O conjunto JASTROW possui **137 chaves de popup únicas**, após eliminação das duplicatas.
+
+**Auditoria determinística executada:** correspondência exata de todos os 100 novos registros da fonte com seus 100 cartões, IDs `A00310`–`A00409`, lemas (inclusive variante tipográfica `A00371` previamente publicada), 100 linhas e 100 `data-target` válidos, módulos JS executados sem erro em contexto simulado e ordem de carregamento correta. Somados aos 310 já verificados na rodada anterior, são 410 linhas e 410 cartões editoriais. A execução de popups confirma 137 termos distintos.
+
+**Pendências que NÃO foram certificadas:** tradução exaustiva de todas as notas e exemplos de cada registro; cobertura integral de todas as remissões por popups; pesquisa e filtros reais, renderização bidi RTL/LTR, acessibilidade, teclado e regressão visual em navegador. Portanto, o checkpoint conserva `total_audited=0` até auditoria filológica independente. Nenhum novo PR/merge dos 100 foi realizado, nenhuma alteração em `main`. Cada texto original permanece independente da tradução e análise.
+
+
 ## JASTROW — quarta rodada: 100 verbetes (11/10/2026)
 
 **Situação na branch `chat-gpt-jastrow`: 310 entradas JASTROW com linha de pesquisa e cartão correspondente; 100 novos registros, `A00210`–`A00309` (ordinais 211–310).** Primeiro lema: `אַבְרוּיֵי`; último: `אַגָּם`. Próximo: `A00310` (`אַגַּמָּא`, ordinal 311). Os 210 primeiros estão efetivamente presentes em `chat-gpt-commits` (confirmado pela leitura do HTML e da ancestralidade remota), embora o checkpoint dessa branch ainda não refletisse essa integração anterior. **Os 100 da quarta rodada ainda não foram mesclados.**
