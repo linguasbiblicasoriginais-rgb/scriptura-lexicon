@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source": "HALOT",
+  "repository": "linguasbiblicasoriginais-rgb/scriptura-lexicon",
+  "work_branch": "chat-gpt-halot",
+  "consolidation_branch": "chat-gpt-commits",
+  "source_title": "The Hebrew and Aramaic Lexicon of the Old Testament",
+  "source_edition": "Study Edition",
+  "source_volume": 1,
+  "source_url": "https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf",
+  "source_id": "HALOT-STUDY-V1-01",
+  "source_verified_for_ingestion": false,
+  "source_pdf_sha256": null,
+  "source_page_range_verified": null,
+  "first_source_lemma_verified": null,
+  "next_source_lemma": null,
+  "target_batch_size": 100,
+  "total_published": 0,
+  "total_audited": 0,
+  "total_integrated": 0,
+  "next_ordinal": 1,
+  "batches": [],
+  "last_attempt": {
+    "date": "2026-10-11",
+    "requested_entries": 100,
+    "source_pdf_indexed": "Pesquisa pública encontrou PDF e uma amostra da letra inicial א; não estabelece 100 lemas consecutivos.",
+    "ingestion_attempt_status": "bloqueada: sem acesso ao texto integral do PDF designado com paginação e limites confiáveis",
+    "evidence": [
+      "leitor de PDF público recusou URL por limite de tamanho (Content length is too large: 18446799)",
+      "tentativa de download direto do arquivo designado falhou",
+      "ambiente local de inspeção PDF retornou ClientError"
+    ],
+    "retrieved_contiguous_entries": 0,
+    "verified_contiguous_entries": 0,
+    "entries_committed": 0,
+    "editorial_audit": "não iniciada: nenhum lote lexical publicado",
+    "browser_audit": "não iniciada: nenhum lote lexical publicado",
+    "remediation": "Obter acesso efetivo ao PDF especificado (por exemplo, anexo do próprio arquivo no projeto), identificar todos os 100 lemas com forma e paginação, traduzir e auditar antes do commit."
+  }
+}
