@@ -1,5 +1,11 @@
 # Scriptura Lexicon
 
+## Lote DGP 81 — ordinais 3.201–3.300 (11/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, de `ἀνεῖναι` a `ἀνέπεσον`, no módulo independente `lexicons/dgp-batch-081.js`, carregado depois do lote 80 e antes de `dgp-format.js`. Proveniência: `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. As definições portuguesas integrais são preservadas no cartão e no índice `data-search`; apenas a glosa auxiliar da tabela pode ser abreviada. Pré-colação determinística: **100 lemas, 100 definições, 100 search-row e 100 entry-card**, com IDs e alvos consecutivos, sem URLs externas novas.
+
+**Checkpoint lexical: 81 lotes, 3.300 verbetes no manifesto; próximo ordinal 3.301 (`ἀνέπηλα`).** A soma de checkpoints não é recontagem independente de todas as entradas. Auditoria independente posterior em `chat-gpt-correcoes`, testes de navegador/popups/acessibilidade e integração por PR em `chat-gpt-commits` são etapas separadas. Nenhum commit em `main`.
+
 ## Lote DGP 80 — ordinais 3.101–3.200 (10/10/2026)
 
 Novo lote independente de **100 verbetes**, de `ἀνδραπόδεσσι` a `ἀνείμων, ων, ον`, extraído do XML canônico da letra α (`aniseferreira/Grc-Por-DigDict`, commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`). O arquivo `lexicons/dgp-batch-080.js` é carregado após o lote 79, antes do formatador. A definição integral de cada verbete está preservada no cartão e no atributo pesquisável `data-search`; a glosa auxiliar da tabela pode ser abreviada. A pré-colação local conferiu **100/100 linhas, cartões, lemas e definições**, IDs consecutivos e alvos, sem links externos novos.

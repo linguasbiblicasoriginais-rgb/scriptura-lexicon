@@ -15,27 +15,27 @@
   },
   "last_confirmed_lexical_checkpoint": {
     "source": "DGP",
-    "total_from_manifest": 3200,
-    "total_rows_static_plus_generated": 3200,
-    "total_cards_static_plus_generated": 3200,
+    "total_from_manifest": 3300,
+    "total_rows_static_plus_generated": 3300,
+    "total_cards_static_plus_generated": 3300,
     "latest_round_new_entries": 100,
     "verified_new_rows": 100,
     "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀνδραπόδεσσι",
-    "last_lemma": "ἀνείμων, ων, ον",
-    "next_lemma": "ἀνεῖναι",
-    "next_ordinal": 3201,
+    "first_lemma_of_latest_batch": "ἀνεῖναι",
+    "last_lemma": "ἀνέπεσον",
+    "next_lemma": "ἀνέπηλα",
+    "next_ordinal": 3301,
     "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
     "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 80,
+    "new_batch": 81,
     "batches_in_round": [
-      80
+      81
     ],
-    "independent_audit": "PENDENTE — lote 80; lote 79 auditado estaticamente em 8442739006d863110ace4ccb54a5c9245436c649",
-    "functional_visual_audit": "PENDENTE",
-    "integration": "PENDENTE — lote 80; integrar somente pela rotina de PR após auditoria",
-    "corpus_structural_audit": "Lote 80 (3101–3200): 100 lemas e definições do XML fixado pré-colacionados, 100 pares search-row/entry-card. Total 3200 = checkpoint anterior 3100 + 100; recontagem global independente e testes de navegador pendentes.",
-    "lexical_commit": "HEAD remoto após publicação do lote 80 — confirmar depois de publicar; não incluir SHA do commit na própria árvore."
+    "independent_audit": "PENDENTE — lote 81; o lote 80 necessita auditoria independente",
+    "functional_visual_audit": "PENDENTE — navegador, popups dinâmicos e acessibilidade",
+    "integration": "PENDENTE — integrar somente pela rotina de PR após auditoria",
+    "corpus_structural_audit": "Lote 81 (3201–3300): 100 lemas e definições confrontados com XML fixado; 100 pares search-row/entry-card, IDs e alvos. Total 3300 calculado pelo checkpoint 3200 + 100; auditoria independente global pendente.",
+    "lexical_commit": "HEAD remoto após publicação do lote 81 — conferir no GitHub; SHA não é conhecido ao construir a própria árvore"
   },
   "execution": {
     "state": "derive_from_remote",
