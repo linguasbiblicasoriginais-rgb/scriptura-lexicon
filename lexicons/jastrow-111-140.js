@@ -15,14 +15,14 @@ const entries=[
     "lemma": "אֲבֵידָה,",
     "type": "Substantivo feminino",
     "gloss": "objeto perdido; perda; diminuição",
-    "html": "<strong>1.</strong> Objeto extraviado, coisa perdida. <bdi lang='he' dir='rtl'>שומר אבידה</bdi>, guardião de objeto perdido até sua restituição; <bdi lang='he' dir='rtl'>בעל אבידה</bdi>, proprietário da coisa extraviada (Bava Metzia 29a; Kidushin 2b, com analogia ao casamento). Moed Katan 25b distingue quem sofreu a perda daquele que morreu. <strong>2.</strong> Perda ou diminuição: <bdi lang='he' dir='rtl'>אבידת נפש</bdi>, redução das forças físicas (Yoma 74b). Jastrow corrige leitura em Jerusalém Yoma 8."
+    "html": "<strong>1.</strong> Objeto extraviado, coisa perdida. <bdi lang='he' dir='rtl'>שומר אבידה</bdi>, guardião de objeto perdido até sua restituição; <bdi lang='he' dir='rtl'>בעל אבידה</bdi>, proprietário da coisa extraviada (Bava Metzia 29a; Kidushin 2b, com analogia ao casamento). Moed Katan 25b distingue quem sofreu a perda daquele que morreu. <strong>2.</strong> Perda ou diminuição: <bdi lang='he' dir='rtl'>אבידת נפש</bdi>, redução das forças físicas (Yoma 74b). Jastrow corrige leitura em Jerusalém Yoma 8. <strong>Grafia alternativa do cabeçalho:</strong> <bdi lang='he' dir='rtl'>אֲבֵדָה</bdi>."
   },
   {
     "sid": "A00112",
     "lemma": "אֲבֵידָן",
     "type": "Substantivo masculino",
     "gloss": "casa de reuniões idolátricas; local de disputas religiosas",
-    "html": "<bdi lang='he' dir='rtl'>בֵּי אֲבֵידָן</bdi>, literalmente, na interpretação depreciativa proposta por Jastrow, “casa de ruína”: designação pejorativa de local de encontros ou festividades idolátricas, que judeus teriam sido obrigados a frequentar sob Adriano (Shabbat 152a; Avodah Zarah 17b). Por extensão, lugar de reuniões dos primeiros cristãos onde ocorriam controvérsias religiosas. <bdi lang='he' dir='rtl'>ספרי דבי אבידן</bdi>, “livros da casa de Abidan”, escritos cristãos (Shabbat 116a). A interpretação histórica é atribuída à fonte."
+    "html": "<bdi lang='he' dir='rtl'>בֵּי אֲבֵידָן</bdi>, literalmente, na interpretação depreciativa proposta por Jastrow, “casa de ruína”: designação pejorativa de local de encontros ou festividades idolátricas, que judeus teriam sido obrigados a frequentar sob Adriano (Shabbat 152a; Avodah Zarah 17b). Por extensão, lugar de reuniões dos primeiros cristãos onde ocorriam controvérsias religiosas. <bdi lang='he' dir='rtl'>ספרי דבי אבידן</bdi>, “livros da casa de Abidan”, escritos cristãos (Shabbat 116a). A interpretação histórica é atribuída à fonte. Segundo Shabbat 116a, Rav não frequentava o <bdi lang='he' dir='rtl'>בֵּי אֲבֵידָן</bdi>, enquanto Samuel o frequentava; trata-se de informação registrada por Jastrow."
   },
   {
     "sid": "A00113",
@@ -85,7 +85,7 @@ const entries=[
     "lemma": "*אֶבְיוֹנֵי",
     "type": "Nome próprio plural",
     "gloss": "Be-Ebyoné; “casa dos pobres”",
-    "html": "<bdi lang='he' dir='rtl'>בֵּי אֶבְיוֹנֵי</bdi>, nome de lugar, interpretado como “casa dos pobres”. Bava Kamma 117a e comentário de Rashi. Jastrow registra variantes manuscritas e considera possível corrupção de <bdi lang='he' dir='rtl'>בי זיונא</bdi>; a etimologia é incerta."
+    "html": "<bdi lang='he' dir='rtl'>בֵּי אֶבְיוֹנֵי</bdi>, nome de lugar, interpretado como “casa dos pobres”. Bava Kamma 117a e comentário de Rashi. Jastrow registra <bdi lang='he' dir='rtl'>איביוני</bdi> (manuscrito M.), <bdi lang='he' dir='rtl'>אבוויני</bdi> (manuscrito F.) e <bdi lang='he' dir='rtl'>אכסני</bdi> (manuscrito de <i>Halakhot Gedolot</i>), e considera possível corrupção de <bdi lang='he' dir='rtl'>בי זיונא</bdi>; a etimologia é incerta."
   },
   {
     "sid": "A00122",
@@ -169,7 +169,7 @@ const entries=[
     "lemma": "אֲבֵילוּת",
     "type": "Substantivo feminino",
     "gloss": "período de luto; cerimônias fúnebres",
-    "html": "Da raiz <bdi lang='he' dir='rtl'>אבל</bdi>: período de luto ou práticas rituais do luto. Moed Katan 20a registra sete dias de luto; Moed Katan 24a menciona suspensão de certas manifestações públicas no sábado. Yevamot 43b distingue o luto recente por pessoa falecida do luto antigo por Jerusalém. A fonte registra leitura alternativa em Gênesis Rabá 8."
+    "html": "Da raiz <bdi lang='he' dir='rtl'>אבל</bdi>: período de luto ou práticas rituais do luto. Moed Katan 20a registra sete dias de luto; Moed Katan 24a menciona suspensão de certas manifestações públicas no sábado. Yevamot 43b distingue o luto recente por pessoa falecida do luto antigo por Jerusalém. Em Gênesis Rabá 8, algumas edições trazem <bdi lang='he' dir='rtl'>אבילות—אוביל</bdi>, que Jastrow recomenda corrigir para <bdi lang='he' dir='rtl'>אכילות—אוכיל</bdi>."
   },
   {
     "sid": "A00134",

@@ -6,10 +6,10 @@
   "integrated_head_examined": "e3763a9a97e54446817bc920d6f454f84b353d58",
   "reviewed_range": {
     "start_id": "A00000",
-    "end_id": "A00099",
+    "end_id": "A00199",
     "start_ordinal": 1,
-    "end_ordinal": 100,
-    "count": 100
+    "end_ordinal": 200,
+    "count": 200
   },
   "review_type": "independent_individual_philological_comparison_not_exhaustive_certification",
   "categories": {
@@ -19,14 +19,14 @@
     "V": "Verificação adicional requerida"
   },
   "counts": {
-    "S": 76,
-    "O": 17,
-    "V": 4,
-    "E": 3
+    "S": 158,
+    "O": 34,
+    "E": 4,
+    "V": 4
   },
   "fully_certified": 0,
-  "next_ordinal": 101,
-  "next_id": "A00100",
+  "next_ordinal": 201,
+  "next_id": "A00200",
   "previously_manually_reviewed_outside_range": [
     "A00156",
     "A00238",
@@ -1670,6 +1670,2178 @@
       "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
       "source_has_note": true,
       "full_philological_certification": false
+    },
+    {
+      "ordinal": 101,
+      "id": "A00100",
+      "source_headword": "אֲבַטִּיחָא",
+      "editorial_headword": "אֲבַטִּיחָא",
+      "editorial_gloss": "melão",
+      "source_heads": [
+        "אֲבַטִּיחָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5706049691137599d087e14fa4167a5e354ae052d4f3e5d34919aea1277356bf",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "—Pl. אֲבַטִּיחַיָּא, אֲבַטִּיחִין. Targ. O. Num. XI, 5. Y. Snh. VII, end, 25 d"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 102,
+      "id": "A00101",
+      "source_headword": "אבטילאות",
+      "editorial_headword": "אבטילאות",
+      "editorial_gloss": "ver אַבְטוֹנִיּוֹת",
+      "source_heads": [
+        "אבטילאות"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "545f1c0fc781fef443917f6545765c15bd6ea10d345ff2d3e992fddc243b8312",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַבְטוֹנִיּוֹת"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 103,
+      "id": "A00102",
+      "source_headword": "אַבְטִילוֹס",
+      "editorial_headword": "אַבְטִילוֹס",
+      "editorial_gloss": "Abtilos; ver Abtolmos",
+      "source_heads": [
+        "אַבְטִילוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2f112c12b25da62f5135550ca1f4f0f83051b7a25df6cef78733cc310639d8a7",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "abbr. of אַבְטוֹלְמוֹס."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 104,
+      "id": "A00103",
+      "source_headword": "אַבְטִינָס",
+      "editorial_headword": "אַבְטִינָס",
+      "editorial_gloss": "Abtinas; família sacerdotal",
+      "source_heads": [
+        "אַבְטִינָס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e39aaca8ba473dbb0fcbda25d842510a0cd84d2fbc573fdbf12eb91d7626db2c",
+      "source_definition_excerpts": [
+        "Abtinas ."
+      ],
+      "source_note_excerpts": [
+        "בית א' Beth. Abt., name of a priestly family who had the secret for preparing the frank-incense for the Temple. Yoma III, 11; I, 5; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 105,
+      "id": "A00104",
+      "source_headword": "אַבְטָלָה",
+      "editorial_headword": "אַבְטָלָה",
+      "editorial_gloss": "ociosidade; tempo desperdiçado",
+      "source_heads": [
+        "אַבְטָלָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fc9181012577aac8ca10cdb1eae5727ba4fb76d2027f90048383f0e50f17ae4e",
+      "source_definition_excerpts": [
+        "(= הַבְטָלָה; בטל) idleness, waste ."
+      ],
+      "source_note_excerpts": [
+        "Y. Bets. V, 63 b נר של א' a light burning to no purpose. Y. Shebi. VII, 37 c top על הא' for the loss of time."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 106,
+      "id": "A00105",
+      "source_headword": "אַבְטַלְיוֹן",
+      "editorial_headword": "אַבְטַלְיוֹן",
+      "editorial_gloss": "Abtalião; dirigente do Sinédrio",
+      "source_heads": [
+        "אַבְטַלְיוֹן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b9e7e18d9ad0c89f04c988a4c250b840d69edc08db2d748101c565e49488fe57",
+      "source_definition_excerpts": [
+        "Abtalion (Greco-Romanized by Josephus Πολλίων, Pollio), name of a Chief Justice of the Sanhedrial court in the days of Hyrcan II and of Herod."
+      ],
+      "source_note_excerpts": [
+        "Aboth I, 10; 11. Eduyoth I, 3. Yoma 71 b ; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 107,
+      "id": "A00106",
+      "source_headword": "אבטניות",
+      "editorial_headword": "אבטניות",
+      "editorial_gloss": "ver אַבְטוֹנִיּוֹת",
+      "source_heads": [
+        "אבטניות"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "54344ea0aca74cf16954cf13a520a7b67efd5517c0730902589550f7fb119d64",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַבְטוֹנִיּוֹת"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 108,
+      "id": "A00107",
+      "source_headword": "אָבֵי,",
+      "editorial_headword": "אָבֵי,",
+      "editorial_gloss": "querer; desejar; estar disposto",
+      "source_heads": [
+        "אָבֵי,",
+        "אָבָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9dbdbd2dc07f64987f2e119ab2d025896ba13b42612175c21e36f3a6b23aaf24",
+      "source_definition_excerpts": [
+        "to be willing ."
+      ],
+      "source_note_excerpts": [
+        "Targ. O. Deut. XXV, 7; a. fr.—[Targ. Prov. XXIX, 11, ed. Wil. מאבה, read מֵאֲכָהּ, v. מאך.]"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 109,
+      "id": "A00108",
+      "source_headword": "אביא",
+      "editorial_headword": "אביא",
+      "editorial_gloss": "ver אביה",
+      "source_heads": [
+        "אביא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "014705752a1f93bed4571ef477edb220cc2684d3ed56cb1b1ebe660960e42760",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אביה"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 110,
+      "id": "A00109",
+      "source_headword": "אָבִיב",
+      "editorial_headword": "אָבִיב",
+      "editorial_gloss": "amadurecimento inicial; espigas novas; primícias",
+      "source_heads": [
+        "אָבִיב"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "24a7d6f1e80819ec662e91ad030216f42dad13f124549db3a9b75676233704bb",
+      "source_definition_excerpts": [
+        "early stage of ripening , esp. of grains; season of beginning barley-crop; also the offering of the first fruits (on Passover)."
+      ],
+      "source_note_excerpts": [
+        "R. Hash. 21 a (ref. to Deut. XVI,",
+        "שמור א' וכ' observe the ripening of the equinoctial season that it be in the month of Nissan (rule for intercalation). Men. 84 a ; a. fr."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 111,
+      "id": "A00110",
+      "source_headword": "אָבִיב,",
+      "editorial_headword": "אָבִיב,",
+      "editorial_gloss": "espiga em formação; cevada em maturação",
+      "source_heads": [
+        "אָבִיב,",
+        "אָבִיבָא,",
+        "(אַבִּיב,",
+        "אַבִּיבָא)"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3562175ee1bb47667d643424ecf39b82d63ceec412461bd675f12887cdc19608",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Targ. O. Lev. II, 14; Ex. XIII, 4; a. e.—Snh. 11 b ; Y. ib. I, 18 d top זימנא דא' וכ' the season of ripening has not yet come. [Y. Maasr. V, 52 a אביבא דפילא, read אַרְכּוּבָא.]— Pl. (adj.) אַבִּיבִין"
+      ],
+      "assessment": "O",
+      "observation": "O plural adjetival abreviado אָבִי׳ e a variante da edição de Êxodo 9.31 não foram reproduzidos integralmente.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 112,
+      "id": "A00111",
+      "source_headword": "אֲבֵידָה,",
+      "editorial_headword": "אֲבֵידָה,",
+      "editorial_gloss": "objeto perdido; perda; diminuição",
+      "source_heads": [
+        "אֲבֵידָה,",
+        "אֲבֵדָה"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "8602f1e49e76092f9bda00522f70cefd8e57021d37552a9638c042e534a90967",
+      "source_definition_excerpts": [
+        "lost or missed object .",
+        "loss, decrease ."
+      ],
+      "source_note_excerpts": [
+        "שומר א' the keeper of a lost object waiting for its owner to claim it B. Mets. 29 a ; a. fr.—בעל א' the owner of the lost thing. Kid. 2 b בעל א' מחזיר וכ' the owner hunts for what he has lost, i.e. ma",
+        "אֲבֵידַת נפש decrease of physical strength. Yoma 74 b .—(Y. ib. VIII, 44 d top אב בית read אבידת)."
+      ],
+      "assessment": "O",
+      "observation": "A grafia alternativa אֲבֵדָה, presente no segundo head-word do XML, foi acrescentada ao cartão.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 113,
+      "id": "A00112",
+      "source_headword": "אֲבֵידָן",
+      "editorial_headword": "אֲבֵידָן",
+      "editorial_gloss": "casa de reuniões idolátricas; local de disputas religiosas",
+      "source_heads": [
+        "אֲבֵידָן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6a8177b18bbb30e498e1fc76d3863ff8f0ff937202c8aa375372f98bb714788a",
+      "source_definition_excerpts": [
+        "(אבד; cacophemism for וַועֲדָא q. v.), בֵּי א' = בֵּי וַועֲדָו) prop. their place of ruin , cacophemism for meeting-place, gathering for idolatrous purposes and performances connected with idolatrous "
+      ],
+      "source_note_excerpts": [
+        "Sabb. 152 a . Ab. Zar. 17 b .—Transf. meeting place of early Christians where religious controversies used to be held. Sabb. 116 a ספרי דבי א' Christian writings. Ib. רב לא אזיל וכ' Rab would not atte"
+      ],
+      "assessment": "O",
+      "observation": "Recuperou-se a atestação de Shabbat 116a que contrasta a frequência de Rav e Samuel ao local.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 114,
+      "id": "A00113",
+      "source_headword": "אֲבִידַרְנָא",
+      "editorial_headword": "אֲבִידַרְנָא",
+      "editorial_gloss": "Abidarna",
+      "source_heads": [
+        "אֲבִידַרְנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "76053e64c8019b36c37668311dea6e53c1f34e3b8cd6cf3bb430db9d39c52d30",
+      "source_definition_excerpts": [
+        "Abidarna , gentile friend of R. Yuda."
+      ],
+      "source_note_excerpts": [
+        "Ab. Zar. 65 a top. [Ms. M. אבינדרא, Var. אבי דרבא; v. Rabb. D. S. a. l.]"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 115,
+      "id": "A00114",
+      "source_headword": "אֲבֵידְתָּא",
+      "editorial_headword": "אֲבֵידְתָּא",
+      "editorial_gloss": "objeto perdido; perda",
+      "source_heads": [
+        "אֲבֵידְתָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "23949b58fddceddddde0bb086d041a94c257a8ba2fccd25ce1ace038da077c46",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "f. ch. = h. אֲבֵידָה. Targ. Ex. XXII, 8; a. e. B. Mets. 23 a ; 27 b ; 28 b"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 116,
+      "id": "A00115",
+      "source_headword": "אביה,",
+      "editorial_headword": "אביה,",
+      "editorial_gloss": "ver אכזווייא e אַסְיָא",
+      "source_heads": [
+        "אביה,",
+        "אביא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a799980af99dcf05aa19e383884522bb6cb86671ccb586c3e018d545f967b744",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אכזווייא a. אַסְיָא."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 117,
+      "id": "A00116",
+      "source_headword": "אַבְיוּ",
+      "editorial_headword": "אַבְיוּ",
+      "editorial_gloss": "Bar Abyu; poeta de elogios fúnebres",
+      "source_heads": [
+        "אַבְיוּ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d74e5287865e4853052b8b3fa00a7c6d125928d39119cbf73fc35ce0daf3df95",
+      "source_definition_excerpts": [
+        ", בַּר א' pr. n. m. ( Bar ) Abyu , name of a renowned obituary poët."
+      ],
+      "source_note_excerpts": [
+        "Yeb. 103 a ; M. Kat. 25 b בר אביו Ar. (ed. אובא, אבין, Ms. Var. אבו, איבו, v. Rabb. D. S. a. l. note)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 118,
+      "id": "A00117",
+      "source_headword": "אֶבְיוֹן",
+      "editorial_headword": "אֶבְיוֹן",
+      "editorial_gloss": "pobre; necessitado; aflito",
+      "source_heads": [
+        "אֶבְיוֹן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f41b27513343d1c0d841581a0c8fbe2d00dd0ed6e5c370d7da3ca073f16c8688",
+      "source_definition_excerpts": [
+        "poor, distressed ."
+      ],
+      "source_note_excerpts": [
+        "Lev. R. s. 34 (etymol.) he is called ebyon , שהוא מתאב לכל (Yalk. a. l. מתאוה) because he longs for everything. Gen. R. s. 71. B. Mets. 111 b"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 119,
+      "id": "A00118",
+      "source_headword": "אֲבִיּוֹנָה",
+      "editorial_headword": "אֲבִיּוֹנָה",
+      "editorial_gloss": "alcaparreira; alcaparra",
+      "source_heads": [
+        "אֲבִיּוֹנָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "74a7e18d30c19c93e5b8c3fc83c93a9c0209a1d2e87dd2236673a245bc9c16ca",
+      "source_definition_excerpts": [
+        "caper-tree , or caper-berry , so called from the stimulating effects of its seed."
+      ],
+      "source_note_excerpts": [
+        "—Pl. אִבְיוֹנוֹת. Maasr. IV, 6; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 120,
+      "id": "A00119",
+      "source_headword": "אֶבְיוֹנָה",
+      "editorial_headword": "אֶבְיוֹנָה",
+      "editorial_gloss": "variante de חֶבְיוֹנָה",
+      "source_heads": [
+        "אֶבְיוֹנָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0a6ef4de0f8f682e89cb88490bbc4d1008d01d9a1a81201d16ec9dcd86f6e0d9",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "f. pl. אֶבְיוֹנוֹת dial. for חֶבְיוֹנָה. Tosef. Kel. B. Kam. II, 2 (ed. Zuck. אובינות)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 121,
+      "id": "A00120",
+      "source_headword": "אֶבְיוֹנוּת",
+      "editorial_headword": "אֶבְיוֹנוּת",
+      "editorial_gloss": "pobreza; carência; aflição",
+      "source_heads": [
+        "אֶבְיוֹנוּת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "357340b2db83d431582f41271a2f4b609320fb4924e36d4a0dd75631aae6a3fd",
+      "source_definition_excerpts": [
+        "(denom. of אֶבְיוֹן) want, distress ."
+      ],
+      "source_note_excerpts": [
+        "Midr. Till. to Ps. LXX, end."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 122,
+      "id": "A00121",
+      "source_headword": "*אֶבְיוֹנֵי",
+      "editorial_headword": "*אֶבְיוֹנֵי",
+      "editorial_gloss": "Be-Ebyoné; “casa dos pobres”",
+      "source_heads": [
+        "*אֶבְיוֹנֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c6d88c3a2ee3038f3cb9468b1e2368df8de7b5caa18c497e9d9e056bc1ebdf81",
+      "source_definition_excerpts": [
+        ", בֵּי א' pr. n. pl. Bé-Ebyoné (Poor-House); Rashi."
+      ],
+      "source_note_excerpts": [
+        "B. Kam. 117 a . [Ms. M. איביוני, Ms. F. אבוויני, Hal. G’dol. Ms. אכסני; v. Rabb. D. S. a. l.—Prob. a corrupt. of בי זיונא, v. בִּזְיוּנָא.]"
+      ],
+      "assessment": "O",
+      "observation": "Foram repostas as variantes das três testemunhas indicadas por Jastrow: M., F. e Halakhot Gedolot.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 123,
+      "id": "A00122",
+      "source_headword": "אֲבִיזְרָא",
+      "editorial_headword": "אֲבִיזְרָא",
+      "editorial_gloss": "ver אֲבִזְרָא",
+      "source_heads": [
+        "אֲבִיזְרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b998a8e93717e0c4683bc9c5295705508fac417b3cf91bfab5354b45b5102a05",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֲבִזְרָא"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 124,
+      "id": "A00123",
+      "source_headword": "אַבַּיִּי",
+      "editorial_headword": "אַבַּיִּי",
+      "editorial_gloss": "Abaye; amoraíta babilônico",
+      "source_heads": [
+        "אַבַּיִּי"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "bd66adedcf9d403cb794dcb55c11461186428c3ae027266d6226ac7c74f95d67",
+      "source_definition_excerpts": [
+        "Abbayi , 1) a renowned Babyl."
+      ],
+      "source_note_excerpts": [
+        ",",
+        "a renowned Babyl. Amora (original name נַחְמֵנִי). Keth. 65 a ; a. fr."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 125,
+      "id": "A00124",
+      "source_headword": "אַבָּיִי",
+      "editorial_headword": "אַבָּיִי",
+      "editorial_gloss": "ver אַבָּיָיה",
+      "source_heads": [
+        "אַבָּיִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2b4ad5fd428d42f3af967478585a71a80f3badf2909004c01420ec90b6256f30",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַבָּיָיה"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 126,
+      "id": "A00125",
+      "source_headword": "אבייא",
+      "editorial_headword": "אבייא",
+      "editorial_gloss": "ler אַבִּינָא",
+      "source_heads": [
+        "אבייא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3259a76f0cdb31ad7033a0e881152ea8ade5deca677f000f8d78f5bd81c39567",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Y. Succ. II, 53 a , רב א' read אַבִּינָא."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 127,
+      "id": "A00126",
+      "source_headword": "(אַבָּיִי) אַבָּיָיה",
+      "editorial_headword": "(אַבָּיִי) אַבָּיָיה",
+      "editorial_gloss": "oração; prece",
+      "source_heads": [
+        "(אַבָּיִי) אַבָּיָיה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "751ccc640d60d0e5c31507d45470d6b9b40e9a20554bc2fef3ae6511997518d0",
+      "source_definition_excerpts": [
+        "(contr. of אבעיה; בעי) prayer ."
+      ],
+      "source_note_excerpts": [
+        "בר א' reader, precentor . Y. Pes. V, 32 c bot.—Y. Taan. III, end, 67 a ; Y. Sheb. I, 33 b top אביי."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 128,
+      "id": "A00127",
+      "source_headword": "אביינוס",
+      "editorial_headword": "אביינוס",
+      "editorial_gloss": "ver אֶבְגִּינוֹס",
+      "source_heads": [
+        "אביינוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "831fe9abf8acb1255d3be7a16cadf5322f2218efdb3c1b38dc7d778381119524",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֶבְגִּינוֹס"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 129,
+      "id": "A00128",
+      "source_headword": "אביך",
+      "editorial_headword": "אביך",
+      "editorial_gloss": "ler אַוִּיר",
+      "source_heads": [
+        "אביך"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0f86990bca28a6b7f698a0d5df9043af2450c8f87d9950dfea370d416773df8e",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Y. Yeb. VII, 8 a bot א' אשקלון, read אַוִּיר; comp. Y. Shebi. VI, 36 c"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 130,
+      "id": "A00129",
+      "source_headword": "אֲבֵיל",
+      "editorial_headword": "אֲבֵיל",
+      "editorial_gloss": "lamentar; guardar luto",
+      "source_heads": [
+        "אֲבֵיל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f34b76964179f177f559eef46ab1911f34c6c87841a51817526da4a75063bf9e",
+      "source_definition_excerpts": [
+        "to mourn , v. אֲבַל ."
+      ],
+      "source_note_excerpts": [],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 131,
+      "id": "A00130",
+      "source_headword": "אָבֵיל,",
+      "editorial_headword": "אָבֵיל,",
+      "editorial_gloss": "ver אָבֵל e formas aramaicas",
+      "source_heads": [
+        "אָבֵיל,",
+        "אֲבֵילָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f0a59e4a472fb0b345779d9308cd4c69c429e0eb4176551ff8b144345f4e212c",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אָבֵל , אֲבֵלָא a. אֶבְלָא."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 132,
+      "id": "A00131",
+      "source_headword": "אֲבֵילָה",
+      "editorial_headword": "אֲבֵילָה",
+      "editorial_gloss": "luto; pessoa enlutada (feminino)",
+      "source_heads": [
+        "אֲבֵילָה"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "fbf9f118b80dd4823ea0a3b50b06ba18512cbfc497303f7aebd19d7ee475ca28",
+      "source_definition_excerpts": [
+        "= אֵבֶל mourning ."
+      ],
+      "source_note_excerpts": [
+        "Lam. R. introd., (R. Abbahu 4); v. אֲנִינָה.",
+        "fem. of אָבֵל II."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 133,
+      "id": "A00132",
+      "source_headword": "אֲבֵילוּ,",
+      "editorial_headword": "אֲבֵילוּ,",
+      "editorial_gloss": "luto; práticas de luto",
+      "source_heads": [
+        "אֲבֵילוּ,",
+        "אֲבֵילוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b8881669ae51b6d94c2ab372c05aa7a5d03a868b4265bacaace4a04435b4d2bd",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "ch. = next w. Targ. Lam. II, 5; v. אֶבְלוּ .—M. Kat. 20 b באפה נהוג א' in her (thy wife’s) presence observe mourning (when she is in mourning)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 134,
+      "id": "A00133",
+      "source_headword": "אֲבֵילוּת",
+      "editorial_headword": "אֲבֵילוּת",
+      "editorial_gloss": "período de luto; cerimônias fúnebres",
+      "source_heads": [
+        "אֲבֵילוּת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "61b0abb148708c48a358bab7b0461ebd47560b8ba348ab4cb5d0409bfe5a226f",
+      "source_definition_excerpts": [
+        "(אבל) mourning time, mourning ceremonies ."
+      ],
+      "source_note_excerpts": [
+        "M. Kat. 20 a sq. א' שבעה the mourning time is seven days. Ib. 24 a אין א' בשבת no mourning ceremonies are to be observed on &c. Yeb. 43 b א' חדשה recent (i.e. individual) mourning, in contrad. to א' י"
+      ],
+      "assessment": "O",
+      "observation": "Restituídas as leituras אבילות—אוביל e a emenda אכילות—אוכיל de Gênesis Rabá 8.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 135,
+      "id": "A00134",
+      "source_headword": "אֲבֵילוּתָא",
+      "editorial_headword": "אֲבֵילוּתָא",
+      "editorial_gloss": "ver אֲבֵילוּ",
+      "source_heads": [
+        "אֲבֵילוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "94b0c6557d6b9a0715e8501a89cb95ea8e21d4bac04b0604bb916665c1afad54",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֲבֵילוּ"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 136,
+      "id": "A00135",
+      "source_headword": "אֲבֵילִין",
+      "editorial_headword": "אֲבֵילִין",
+      "editorial_gloss": "Abelin; Abilena",
+      "source_heads": [
+        "אֲבֵילִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "03b021b4d705a23d21f539d91bd7885c35006997f8e32fbd7725bec16aedd342",
+      "source_definition_excerpts": [
+        "Abelin, Abilena , a district of Peræa (v. Graetz, Gesch. d. Jud. II, 2, p. 457)."
+      ],
+      "source_note_excerpts": [
+        "Lev. R. s. 17; Pesik. Vayhi, p. 66 a האכלון (corr. acc.); Pesik. R. s. XVIII (p. 88 b ed. Friedm.) אובלים; Ruth R. to I, 5 אבולין. Tosef. Zeb. II, 3 ed. Zuck. אֵיבְלַיִים (Var. אובלים). Cmp. אִבּוּל a"
+      ],
+      "assessment": "O",
+      "observation": "Faltam a citação bibliográfica de Graetz e parte do aparato toponímico de variantes, embora a identificação seja atribuída ao autor.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 137,
+      "id": "A00136",
+      "source_headword": "אַבִּימִי",
+      "editorial_headword": "אַבִּימִי",
+      "editorial_gloss": "Abbimi; amoraíta",
+      "source_heads": [
+        "אַבִּימִי"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "143026aff7b259203ff6bbf99681cbf2607acf5c4a7d329c0f75fde5f6d9a704",
+      "source_definition_excerpts": [
+        "Abbimi , 1) a disciple of Rabbah."
+      ],
+      "source_note_excerpts": [
+        ",",
+        "a disciple of Rabbah. Shebu. 28 b ; Y. Ned. II, 37 b ; Y. Shebu. III, 34 d top."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 138,
+      "id": "A00137",
+      "source_headword": "אַבִּין",
+      "editorial_headword": "אַבִּין",
+      "editorial_gloss": "Abbin; mestre rabínico",
+      "source_heads": [
+        "אַבִּין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c80b1dfbb32ed5048b1d75a80e05c6001f730b1f360ae7070b62ad2138367bfa",
+      "source_definition_excerpts": [
+        "Abbin ."
+      ],
+      "source_note_excerpts": [
+        "Y. Bicc. II, beg., 64 c , Rabbi A. Cmp. אַבּוּן; v. אַבְיוּ."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 139,
+      "id": "A00138",
+      "source_headword": "אַבִּינָא",
+      "editorial_headword": "אַבִּינָא",
+      "editorial_gloss": "Abbina; amoraíta",
+      "source_heads": [
+        "אַבִּינָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2be9f936340da85b49b3f48153c4b77c8d41ca6ee42de250096a27a24d038f86",
+      "source_definition_excerpts": [
+        "Abbina , an Amora."
+      ],
+      "source_note_excerpts": [
+        "Y. Pes. V, 32 c .—Y. Ned. IV, beg. 38 c (prob. Abbuna, as shortly before). [Y. Peah III, 17 d bot. בינא prob. the same.]—רב א' contr. רַבִּינָא q. v."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 140,
+      "id": "A00139",
+      "source_headword": "אביסנא",
+      "editorial_headword": "אביסנא",
+      "editorial_gloss": "ver אַכְסָן",
+      "source_heads": [
+        "אביסנא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "02b64f9a1b7d8f797091ec35adebb6ff261d56fbecae09e5c6cc5cec6f4dae20",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Sabb. 151 b , v. אַכְסָן"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 141,
+      "id": "A00140",
+      "source_headword": "*אָבִיק",
+      "editorial_headword": "*אָבִיק",
+      "editorial_gloss": "escoadouro; orifício de drenagem",
+      "source_heads": [
+        "*אָבִיק"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "624a4bc68d96f870264ea4219098dab5c15ce82f54874a656d0a5034f82771f4",
+      "source_definition_excerpts": [
+        "(בוק, v. בקע ; comp. אָפִיק) outlet , esp. a pot in the bath-tub to which a waste-pipe is attached."
+      ],
+      "source_note_excerpts": [
+        "Mikv. VI, 10."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 142,
+      "id": "A00141",
+      "source_headword": "אֲבֵיק",
+      "editorial_headword": "אֲבֵיק",
+      "editorial_gloss": "ver אֲבַק",
+      "source_heads": [
+        "אֲבֵיק"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "31f1e62fb89b7aae4fb77b79bd9ae823a6dd0f2b2225e17a675fb550bf14eac3",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֲבַק"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 143,
+      "id": "A00142",
+      "source_headword": "אֲבִיקָה",
+      "editorial_headword": "אֲבִיקָה",
+      "editorial_gloss": "Abikah; defensor de Jerusalém",
+      "source_heads": [
+        "אֲבִיקָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7f94fb7abb24e6e3b45eae7f0eba8406ff74a614c7953523246cdcd46e862f32",
+      "source_definition_excerpts": [
+        "Abikah , a hero at the defence of Jerusalem."
+      ],
+      "source_note_excerpts": [
+        "Pesik. R. s. 29—30, א' בן גבייתי (Yalk. Lam. 1001 אבוקא בן גבתרי)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 144,
+      "id": "A00143",
+      "source_headword": "אביקלוס",
+      "editorial_headword": "אביקלוס",
+      "editorial_gloss": "ver אֶבְקוֹלָס",
+      "source_heads": [
+        "אביקלוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "21b7815a35987b93b3628b820477de51ea046f523268edb35778c6f8984b2759",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֶבְקוֹלָס"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 145,
+      "id": "A00144",
+      "source_headword": "אַבִּיר",
+      "editorial_headword": "אַבִּיר",
+      "editorial_gloss": "forte; poderoso; eminente; nobre",
+      "source_heads": [
+        "אַבִּיר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e4ad072980d4a40e054054c4e856d9b3a586455a7f9b3b7b41447b97ce5598c1",
+      "source_definition_excerpts": [
+        "strong, mighty, eminent (opp. קל light, of no influence); noble."
+      ],
+      "source_note_excerpts": [
+        "— Pl. אַבִּירִים . R. Hash. 25 b אביר שבא' the noblest of the nobility. Y. ib. II, 58 b bot. אַבִּירֵי עולם (Babli ib. l. c. חֲמוּרֵי; Koh. R. to I, 4 גדולי) the world’s noblest sons. [Esth. R. to II,"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 146,
+      "id": "A00145",
+      "source_headword": "אבירודימוס",
+      "editorial_headword": "אבירודימוס",
+      "editorial_gloss": "ver וַרְדִּימוֹס",
+      "source_heads": [
+        "אבירודימוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5e13487e1ebdd2e528c508b40b58a885c8ff89312f210386dec61fa2d064c94a",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. וַרְדִּימוֹס"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 147,
+      "id": "A00146",
+      "source_headword": "אֲבִירָם",
+      "editorial_headword": "אֲבִירָם",
+      "editorial_gloss": "Abirão",
+      "source_heads": [
+        "אֲבִירָם"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "21488636e6e7bc4514ed778d2cd1ce7a986faad257023fa7370c97757bdbd2b1",
+      "source_definition_excerpts": [
+        "(b. h.) Abiram ."
+      ],
+      "source_note_excerpts": [
+        "Esth. E. to II, 4 ר' יהוש' בר א' (some ed. אבירים, Midr. Sam. ch. XIII בריה דר' בירי)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 148,
+      "id": "A00147",
+      "source_headword": "אֲבִישְׁנָא",
+      "editorial_headword": "אֲבִישְׁנָא",
+      "editorial_gloss": "ver אַבְשׁוּנָא",
+      "source_heads": [
+        "אֲבִישְׁנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e212a6a83b6d0e100bd6c408b0376d2c814c7a81bf37b516d103d9bd94f83dfa",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אַבְשׁוּנָא"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 149,
+      "id": "A00148",
+      "source_headword": "אַבְיַת",
+      "editorial_headword": "אַבְיַת",
+      "editorial_gloss": "Abyat Yeshimon",
+      "source_heads": [
+        "אַבְיַת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d8b542c6166a82c39c3fadfb0388f461ce17d500cc2184e986d0880cffafe922",
+      "source_definition_excerpts": [
+        ", א' ישימון pr. n. pl. Abyath Y’shimon , usu. בֵּית י'."
+      ],
+      "source_note_excerpts": [
+        "Targ. Y. II, Num. XXI, 20."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 150,
+      "id": "A00149",
+      "source_headword": "אֶבְיָתָר",
+      "editorial_headword": "אֶבְיָתָר",
+      "editorial_gloss": "Ebyatar; amoraíta",
+      "source_heads": [
+        "אֶבְיָתָר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9ccda74836170386792786a7faf6c92e9d4c39580aeeecd6b1b0381899927447",
+      "source_definition_excerpts": [
+        "(b. h.) pr. n. m. Ebyathar , an Amora."
+      ],
+      "source_note_excerpts": [
+        "Git. 6 b . Y. Ber. IX, 13 a"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 151,
+      "id": "A00150",
+      "source_headword": "אָבַךְ",
+      "editorial_headword": "אָבַךְ",
+      "editorial_gloss": "entrelaçar; misturar-se",
+      "source_heads": [
+        "אָבַךְ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "99a6aaf264c04ad307e38eaefcda948e0b61078a24b3671dd6adcb33ea6eca5d",
+      "source_definition_excerpts": [
+        "to entangle."
+      ],
+      "source_note_excerpts": [
+        "Hithp . הִתְאַבֵּךְ to blend (of whirling smoke columns). Pesik. R. s. 29—30."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 152,
+      "id": "A00151",
+      "source_headword": "*אַבָּכָא",
+      "editorial_headword": "*אַבָּכָא",
+      "editorial_gloss": "galo grande; lutador",
+      "source_heads": [
+        "*אַבָּכָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a3736550008be489365452e732ee7b77491b4dd34085d265e0b1e5e0f924cf44",
+      "source_definition_excerpts": [
+        "(Syr., P. Sm. 15; v. foreg., cmp. b. h. אָבַק) the fighter , whence large cock ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Prov. XXX, 31; cmp. זַרְזִיר (Var. אַכָּבָא, Ms. אַבְּרָא)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 153,
+      "id": "A00152",
+      "source_headword": "אֲבָל",
+      "editorial_headword": "אֲבָל",
+      "editorial_gloss": "sim; de fato; porém; mas",
+      "source_heads": [
+        "אֲבָל"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "218db83c40bd7a90452e76f29e1e2f578108f199115630cede7f66cf4b806298",
+      "source_definition_excerpts": [
+        "(b. h.)",
+        "indeed, yes .",
+        "but, however ."
+      ],
+      "source_note_excerpts": [
+        "1) indeed, yes . Tosef. Erub. V (IV), 1 אמרו לו א' said they to him, yes (we admit). Erub. 30 b top. Nid. 3 b ; a. e.—Gen. R. s. 91 לשון דרומית וכ' it is a South Palestine expression where ăbal means ",
+        "Ber. VII, 1; a. v. fr."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 154,
+      "id": "A00153",
+      "source_headword": "אָבֵל,",
+      "editorial_headword": "אָבֵל,",
+      "editorial_gloss": "Abel; localidades assim denominadas",
+      "source_heads": [
+        "אָבֵל,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cade14ac023b920b4882e30982a8181579a03c055ebdccb70c3323f5aa92e36f",
+      "source_definition_excerpts": [
+        "(b. h.) pr. n. pl. Abel , name of several towns; cmp. אֲבֵילִין."
+      ],
+      "source_note_excerpts": [
+        "Erub. 87 a ed. (Ms. M. בבל, corr. acc., Var. lect. v. Rabb. D. S. a. l. note)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 155,
+      "id": "A00154",
+      "source_headword": "אָבֵל,",
+      "editorial_headword": "אָבֵל,",
+      "editorial_gloss": "enlutado; pessoa de luto",
+      "source_heads": [
+        "אָבֵל,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1f0a0db545629b8de13c8caebab20141ba81c2647c5bdde501b679d55b0cab20",
+      "source_definition_excerpts": [
+        ", v. אבב ; cmp. אפל); [ dark , cmp. קֹדֵר], mourner , esp. during seven days after burial."
+      ],
+      "source_note_excerpts": [
+        "M. Kat. 14 b ; a. v. fr.— Pl. אֲבֵלִים, (אֲבֵילִין) אֲבֵילִים. Keth. 8 b ; v. בְּרָכָה. Y. Ab. Zar. I, 39 c bot. אֲבֵילֵי גויים mourners among gentiles; a. fr.—Fem. אֲבֵילָה, אֲבֵלָה. Y. Ber. IV, 8 a "
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 156,
+      "id": "A00155",
+      "source_headword": "אָבֵל,",
+      "editorial_headword": "אָבֵל,",
+      "editorial_gloss": "guardar luto; lamentar",
+      "source_heads": [
+        "אָבֵל,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "79bb8242ba27cdf455b6e22cb571075a6d7708ca44cae15010d13ed285cea9d3",
+      "source_definition_excerpts": [
+        "(foreg.) to mourn."
+      ],
+      "source_note_excerpts": [
+        "Hithpa. הִתְאַבֵּל, Nithpa. נִתְאַבֵּל to observe mourning ceremonies, to be bound to mourn, be an אָבֵל. M. Kat. 20 b כל שמִתְאַבֵּל עליו מתא' עמו over whom one is bound to mourn, with him he must mo"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 157,
+      "id": "A00156",
+      "source_headword": "אֲבֵל,",
+      "editorial_headword": "אֲבֵל,",
+      "editorial_gloss": "enlutar-se; observar luto",
+      "source_heads": [
+        "אֲבֵל,",
+        "אֲבֵיל"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "457aded44a2f478a4bd55552c02c0bfefbd1c554f452a85c678f1eb63825e5d4",
+      "source_definition_excerpts": [
+        "Targ. Lam. II, 8. Ithpa. אִתְאַבֵּל (denom. of אֲבֵלָא) to mourn ."
+      ],
+      "source_note_excerpts": [
+        "Targ. Lam. II, 8.",
+        "Targ. Gen. XXXVII, 34; a. fr.—Y. Ab. Zar. I, 39 c top. v. אִימִירָא. Esth. R. beg. כד ילידת הוו מִתְאַבְּלִין when the Empress gave birth, they (the Jews) mourned (it being the Ninth of Ab). B. Kam. 5"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 158,
+      "id": "A00157",
+      "source_headword": "אֵבֶל",
+      "editorial_headword": "אֵבֶל",
+      "editorial_gloss": "luto; período de enlutamento",
+      "source_heads": [
+        "אֵבֶל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6c3171c7eef9df52f01bcecbc9925ccbb9494e4af9de48f2dd51511681d2d4ca",
+      "source_definition_excerpts": [
+        "foreg.) mourning; cmp. אֲבֵילוּת."
+      ],
+      "source_note_excerpts": [
+        "Y. M. Kat. III, 82 b ; a. fr.— Pl. אֲבֵילִים . M. Kat. 7 b מי שתכפוהו אֲבֵילָיו he whom his mourning days overtook, i.e. a second case occurring before the mourning days of the first expired.—אֵבֶל רַ"
+      ],
+      "assessment": "O",
+      "observation": "Forma plural e referência targúmica adicional de Jastrow não foram explicitadas; núcleo semântico está correto.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 159,
+      "id": "A00158",
+      "source_headword": "אֻבָל",
+      "editorial_headword": "אֻבָל",
+      "editorial_gloss": "ver אוּבָל",
+      "source_heads": [
+        "אֻבָל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7ed648891ed62f14f34f3905e8ae999ce88a76ca20a7ffb7263a71a83e31cd94",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אוּבָל"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 160,
+      "id": "A00159",
+      "source_headword": "אֲבֵלָא,",
+      "editorial_headword": "אֲבֵלָא,",
+      "editorial_gloss": "enlutado",
+      "source_heads": [
+        "אֲבֵלָא,",
+        "אָבִיל,",
+        "אֲבֵילָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "526015e0d3168cb6ed2b7f208c7aad481f23c4349741ac02aaed27594a240d01",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "ch. = h. אָבֵל. Targ. Koh. VII, 2; a. e.—Pl., אֲבֵילַיָּא, אֲבֵלֵי, אֲבֵילִין. Targ. Prov. XXXI, 6; a. e.—Y. M. Kat. III, 82 d bot.; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 161,
+      "id": "A00160",
+      "source_headword": "אֶבְלָא,",
+      "editorial_headword": "אֶבְלָא,",
+      "editorial_gloss": "luto; lamentação",
+      "source_heads": [
+        "אֶבְלָא,",
+        "אֶבְלָה,",
+        "אִיבְלָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0e8f34f532dcca210bb41f4d52cfba08d09f053063a00e2db82306d15145cccf",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "ch. = h. אֵבֶל. Targ. Gen. L, 11 (Var. אִיבְלָא אָבֵל). Ib. O. XXVII, 41; a. e. Targ. Y. II Lev. X, 19 אֲבֵילָא.—Gen. R. s. 27 (prov.) comes joy, rejoice; בשעת א' א' comes mourning, mourn."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 162,
+      "id": "A00161",
+      "source_headword": "אֶבְלוּ,",
+      "editorial_headword": "אֶבְלוּ,",
+      "editorial_gloss": "luto",
+      "source_heads": [
+        "אֶבְלוּ,",
+        "אֲבֵלוּ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d214b68a0546dac0c911a7c9a1c692e735cd3dd5eed9747e4acefd0dd831a1ce",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "f. = אֲבֵילוּתָא. Targ. Y. II Deut. XXVI, 14."
+      ],
+      "assessment": "O",
+      "observation": "Restituído o cabeçalho alternativo אֲבֵלוּ, omitido na camada portuguesa.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 163,
+      "id": "A00162",
+      "source_headword": "אבלומוס",
+      "editorial_headword": "אבלומוס",
+      "editorial_gloss": "ver אבלוסמוס",
+      "source_heads": [
+        "אבלומוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cde920557f30c40d44a2eb58bcc01ab5cfffe2735f49b6132617604f33da0130",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Ar. ed. Koh., v. אבלוסמוס"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 164,
+      "id": "A00163",
+      "source_headword": "*אבלונים,",
+      "editorial_headword": "*אבלונים,",
+      "editorial_gloss": "nascente; fonte de água",
+      "source_heads": [
+        "*אבלונים,",
+        "אבליניס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "48de9bcfc5d9c40a9f20ed93ab56018f83694400982029dc09b5b79118bfb3c3",
+      "source_definition_excerpts": [
+        "(?) name of a spring ."
+      ],
+      "source_note_excerpts": [
+        "Gen. R. s. 33 (Snh. 108 a בלועה דגדר). Cmp. אבילין, אובלין."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 165,
+      "id": "A00164",
+      "source_headword": "*אַבְלוּסְמֹוס",
+      "editorial_headword": "*אַבְלוּסְמֹוס",
+      "editorial_gloss": "pernoite ao ar livre; equipamento de acampamento",
+      "source_heads": [
+        "*אַבְלוּסְמֹוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "612fa7397b0691ee30e4eff312a854e750bbc64fa64c955cb3549375508d60af",
+      "source_definition_excerpts": [
+        "(αὔλισμος) night-lodging in open air ."
+      ],
+      "source_note_excerpts": [
+        "כלי א' camping apparels (leather covers etc.). Zeb. 94 a Ar. (ed. אַכְסִלְגְיָא q. v.)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 166,
+      "id": "A00165",
+      "source_headword": "*אַבְלוֹשֵׁי",
+      "editorial_headword": "*אַבְלוֹשֵׁי",
+      "editorial_gloss": "escavadores; cavadores de terra",
+      "source_heads": [
+        "*אַבְלוֹשֵׁי"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "32ddaedf0b3b23f0e1f0977cef6efc28b5b856419213e8b45ceb1ca14bc6cd49",
+      "source_definition_excerpts": [
+        "(בלש",
+        "; cmp. פלש, a. b. h. פלס) those who cut through (cmp. בקע a. deriv.), whence ground-diggers ."
+      ],
+      "source_note_excerpts": [
+        "2) ; cmp. פלש, a. b. h. פלס) those who cut through (cmp. בקע a. deriv.), whence ground-diggers . (Maim.). B. Mets. 77 a א' דמחוזא Ar. Var. (ed. a. Ar. אכ' q. v.; Ms. M. אוכלסי, Ms. R. אכלוזי) the grou"
+      ],
+      "assessment": "E",
+      "observation": "A forma hebraica אוכלי anteriormente publicada como variante não consta nesse trecho do XML; foram repostas a abreviatura אכ׳ e as leituras M. אוכלסי, R. אכלוזי.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 167,
+      "id": "A00166",
+      "source_headword": "אַבְלֵט",
+      "editorial_headword": "אַבְלֵט",
+      "editorial_gloss": "Ablet; erudito não judeu",
+      "source_heads": [
+        "אַבְלֵט"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "422735a2485998f71a84cb2fc96dbf73b2c4338fac3b58456a5843cd08d08981",
+      "source_definition_excerpts": [
+        "Ablet , a gentile scholar, Ab. Zar. 30 a ."
+      ],
+      "source_note_excerpts": [
+        "Y. Sabb. III, 6 a bot., Y. Bets. II, 61 c"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 168,
+      "id": "A00167",
+      "source_headword": "*אבליג,",
+      "editorial_headword": "*אבליג,",
+      "editorial_gloss": "Ablig; Abliga",
+      "source_heads": [
+        "*אבליג,",
+        "אבליגה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5aaef32386579be2de630d5664cdc8f9eaa56a4c4af074c241c94f77b00af7e6",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "pr. n. m. Pesik. R. s. 33 [Y. Naz. VII, 56 a מגבילה; Y. Ber. III, 6 a bot. גבילה]."
+      ],
+      "assessment": "O",
+      "observation": "As formas variantes מגבילה e גבילה das fontes paralelas não estão literalmente representadas na síntese.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 169,
+      "id": "A00168",
+      "source_headword": "*אַבְלִינָא",
+      "editorial_headword": "*אַבְלִינָא",
+      "editorial_gloss": "madeira de ébano",
+      "source_heads": [
+        "*אַבְלִינָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9a7bf491065526fbd7fc6e1a6cde9211b346696e591f2f0e1b7b29cd08d65d57",
+      "source_definition_excerpts": [
+        "(ἐβέλινος = ἐβένινος S.) ebony-wood ."
+      ],
+      "source_note_excerpts": [
+        "Y’lamd. B’haal. מטות של א' (quot. in Ar., Tanḥ. a. Num. R. s. 14 only … מנורות) couches of ebony wood. [Jellin. Beth Hammidr. VI, 88, Nr. 53 אבליגא.]"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 170,
+      "id": "A00169",
+      "source_headword": "*אַבְלַס,",
+      "editorial_headword": "*אַבְלַס,",
+      "editorial_gloss": "Avlas; região da Cilícia",
+      "source_heads": [
+        "*אַבְלַס,",
+        "אַוְולַס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7c8a2337f24bf7a6731bcdb9b3e8062c09e960ea1f693980cb8b0d0d522d83cb",
+      "source_definition_excerpts": [
+        "Avlas , in Cilicia, mentioned as one of the northern border places of the land of Israel."
+      ],
+      "source_note_excerpts": [
+        "Targ. Y. I Num. XXXIV, 8 אב' דקילקאי; Y. II ibid. תחומא דאַוְו' דקל' (the district of) A. of the Cilicians. Tosef. Shebi. IV, 11 עילי רבתא ed. Zuck. (Var. אולם); Sifré Deut. 51 לולא רבתא; Yalk. Deut. "
+      ],
+      "assessment": "O",
+      "observation": "Diversos nomes hebraicos de fontes toponímicas antigas foram resumidos; a hipótese da equivalência com Portas da Cilícia permanece identificada como conjectura.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 171,
+      "id": "A00170",
+      "source_headword": "אֶבְמוֹסוֹס",
+      "editorial_headword": "אֶבְמוֹסוֹס",
+      "editorial_gloss": "Eumusos; Eumuso",
+      "source_heads": [
+        "אֶבְמוֹסוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "44beb7134b48177ff3846bd78214d2be3a4e32cb1fbea8ac9036c0d38ab67f46",
+      "source_definition_excerpts": [
+        "(Εὔμουσος) Eumusus ."
+      ],
+      "source_note_excerpts": [
+        "Y. Meg. III, 74 a bot., rendered in a secret letter טוב למד well-learned; v. אֶבְדּוֹקוֹס."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 172,
+      "id": "A00171",
+      "source_headword": "אֶבְמָכוֹס",
+      "editorial_headword": "אֶבְמָכוֹס",
+      "editorial_gloss": "Eumaco",
+      "source_heads": [
+        "אֶבְמָכוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "adfcb8483abc61fbf8a2f2ef96c8a3559a75c3ccf062b6607f6ab7c371dbb1e7",
+      "source_definition_excerpts": [
+        "(Εὔμαχος) Eumachus , an Amora."
+      ],
+      "source_note_excerpts": [
+        "Y. Snh. III, end, 21 d"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 173,
+      "id": "A00172",
+      "source_headword": "אֶבֶן",
+      "editorial_headword": "אֶבֶן",
+      "editorial_gloss": "pedra; joia; pedra de fundação",
+      "source_heads": [
+        "אֶבֶן"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "5534acf98eec8f59cef442004499ecd62c6e922ebdc74d8f31b892004c2e8bd1",
+      "source_definition_excerpts": [
+        ", v. Ges. H. Dict. s. v.) stone .",
+        "Stone Chamber , name of a Temple compartment."
+      ],
+      "source_note_excerpts": [
+        "Sabb. 10 a ; Pes. 12 b כזורק א' וכ' like throwing a stone into a leather bottle (has no effect, or is indigestible). Num. R. s. 22 (prov.) into a well out of which you drank אל תזרוק בו א' cast no sto",
+        "Parah III, 1.—א' גליון, v. אָוֶן.—א' הטועים (א' טועין, א' טוען, v. טָעָה) Stone of Losers (Claims), a place in Jerusalem where lost and found things were deposited and claimed. Taan. III, 8; Y. ib. 66"
+      ],
+      "assessment": "O",
+      "observation": "As duas remissões originais אבן גליון e אבני השדה foram acrescentadas; as onze combinações principais já estavam representadas.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 174,
+      "id": "A00173",
+      "source_headword": "אֶבֶן,",
+      "editorial_headword": "אֶבֶן,",
+      "editorial_gloss": "pedra; peso de pedra",
+      "source_heads": [
+        "אֶבֶן,",
+        "אַבְנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "737d4ff05c1ed82c1fbbd45fde48a11c52bdd9442e4f0aa795685229dbcf7b8a",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Targ. Gen. XXVIII, 18; a. fr.—Pl. אַבְנַיָּא, אַבְנֵי, אַבְנִין. Targ. Ex. XXVIII, 11; a. fr. Lev. R. s. 16; a. e.—א' דאכפא weight-stones , to prevent the sheaves being blown away. B. Bath. 69 a .—א' "
+      ],
+      "assessment": "O",
+      "observation": "As propostas textuais específicas de Targum Provérbios 23.28 e Jerusalém Bava Batra 2.13 não foram vertidas integralmente.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 175,
+      "id": "A00174",
+      "source_headword": "אֹבֶן",
+      "editorial_headword": "אֹבֶן",
+      "editorial_gloss": "roda do oleiro; passagem do parto",
+      "source_heads": [
+        "אֹבֶן"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "2991210418f2e852754943187948e45c950ddd426fa7b76d13c3c9b315fd7d2d",
+      "source_definition_excerpts": [
+        ", only in Du. אָבְנַיִם (b. h., √בן , v. בֵּין, cmp. אֹפֶן)",
+        "the potter’s turning implement .",
+        "the passage of the embryo, vagina ."
+      ],
+      "source_note_excerpts": [
+        "1) the potter’s turning implement . —2) the passage of the embryo, vagina . Ex R. s. 1 (etym.) מקום שהולד נפנה בו (some ed. נקנה incorr.) where the child turns (to come to light). [Oth. etym. v. ibid."
+      ],
+      "assessment": "O",
+      "observation": "Faltam o teor da interpretação etimológica de Êxodo Rabá 1 e as variantes de leitura; o sentido instrumental e anatômico está presente.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 176,
+      "id": "A00175",
+      "source_headword": "אַבְנָא",
+      "editorial_headword": "אַבְנָא",
+      "editorial_gloss": "ver אֶבֶן (aramaico)",
+      "source_heads": [
+        "אַבְנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3e37564a30e706feae01ba92f65fa6d250a1dd70662050cb8cc35d61b90ca37a",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אֶבֶן ch."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 177,
+      "id": "A00176",
+      "source_headword": "אבנגר",
+      "editorial_headword": "אבנגר",
+      "editorial_gloss": "ver כנגד",
+      "source_heads": [
+        "אבנגר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4bf14441ddf5c6635485149835d0ebacd816338c9a5b90f54f051c94cad419cf",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Sabb. 109 b , v. כנגד"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 178,
+      "id": "A00177",
+      "source_headword": "אַבְנֵט",
+      "editorial_headword": "אַבְנֵט",
+      "editorial_gloss": "cinto; cinturão",
+      "source_heads": [
+        "אַבְנֵט"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "dd89af6b197c8174b75a6e5a1a7b43c73c7e8c959589e2e9327bfad902eab49e",
+      "source_definition_excerpts": [
+        "belt ."
+      ],
+      "source_note_excerpts": [
+        "B. Kam. 94 b . Yoma 6 a ; 12 a ; a. fr.— Pl. אַבְנֵטִים . Zeb. 18 a"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 179,
+      "id": "A00178",
+      "source_headword": "אַבְנִימוֹס,",
+      "editorial_headword": "אַבְנִימוֹס,",
+      "editorial_gloss": "Abnimos; Nimos",
+      "source_heads": [
+        "אַבְנִימוֹס,",
+        "נִימוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5745d204d8ef61a2d4ff26d3dc25661900d84506adbb513baa588b7f38890f71",
+      "source_definition_excerpts": [
+        "Abnimos, Nimos , a gentile philosopher, friend of R. Meïr [prob."
+      ],
+      "source_note_excerpts": [
+        "identical with the cynic philosopher Oenomaus of Gadara]. Gen. R. s. 65; a. e. א' הגרדי. Ḥag. 15 b נ' הגרדי."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 180,
+      "id": "A00179",
+      "source_headword": "*אבניתא",
+      "editorial_headword": "*אבניתא",
+      "editorial_gloss": "ler אֻכְמְתָא",
+      "source_heads": [
+        "*אבניתא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5107ff917b52dfde77701d8e94dc0415d5ef6bb3edefb2e1907329dff6567116",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Targ. Y. II Deut. XIV, 18, read with Y. I אֻכְמְתָא, v. אוּכְ'"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 181,
+      "id": "A00180",
+      "source_headword": "אֲבַנְתָּא,",
+      "editorial_headword": "אֲבַנְתָּא,",
+      "editorial_gloss": "entendimento; reflexão",
+      "source_heads": [
+        "אֲבַנְתָּא,",
+        "אוֹבַנְתָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c0ae8e174c295b5318ce6d63656bda2e4381ee08d50ebd656f282ec1693dec5c",
+      "source_definition_excerpts": [
+        "(בין) understanding, speculation ."
+      ],
+      "source_note_excerpts": [
+        "Meg. 24 b בא' דל' תלי (Ms. M. באוב') it depends on the speculative faculty (not on the physical sight). Ab. Zar. 28 b באו' דל' תלי (Ms. M. בליבא תליא, cmp. Tosaf. a. l.) an affection of the eye-sight "
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 182,
+      "id": "A00181",
+      "source_headword": "אָבַס",
+      "editorial_headword": "אָבַס",
+      "editorial_gloss": "engordar; alimentar excessivamente",
+      "source_heads": [
+        "אָבַס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a22a4c64e2a27500c8b3bd9ba0d959ed1a086e6d5b2dc128f87601972457b1a9",
+      "source_definition_excerpts": [
+        "to stuff; to fatten, feed (act. a. neut.) B."
+      ],
+      "source_note_excerpts": [
+        "Mets 86 b (expl. ăbusim, I Kings V, 3) שאוֹבְסִין אותן בע\"כ which people fatten with force. Ib. שא' ועומדין וכ' that stand feeding as they please. Sabb. XXIV, 3 (155 b ) אין אובסין וכ' you must not (o"
+      ],
+      "assessment": "O",
+      "observation": "O emprego ativo e neutro de אָבַס e parte das atestações de Bava Metzia 86b foram abreviados.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 183,
+      "id": "A00182",
+      "source_headword": "אֲבַסְקַנְטָה",
+      "editorial_headword": "אֲבַסְקַנְטָה",
+      "editorial_gloss": "que não haja feitiço!; que nada te prejudique!",
+      "source_heads": [
+        "אֲבַסְקַנְטָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3e209e23f1b6a78255dffe6ce10dc582d0f016eccad877ced501973ea10a36b5",
+      "source_definition_excerpts": [
+        "(ἀβάσκαντα) unbewitched! may no harm befall you! Y. Ab. Zar. I, end, 40 b א' לא אמר he did not say abascanta , but etc. Y. Ber. IV, 13 c top (corr. acc.)."
+      ],
+      "source_note_excerpts": [],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 184,
+      "id": "A00183",
+      "source_headword": "אַבֵּעַ = הַבֵּעַ",
+      "editorial_headword": "אַבֵּעַ = הַבֵּעַ",
+      "editorial_gloss": "ver נבע",
+      "source_heads": [
+        "אַבֵּעַ = הַבֵּעַ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8d420728d300929a1a5f3a946d66b5728aefe05058ea04a5da857d6dbbb696b0",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. נבע"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 185,
+      "id": "A00184",
+      "source_headword": "אֲבַעְבּוּעִין",
+      "editorial_headword": "אֲבַעְבּוּעִין",
+      "editorial_gloss": "bolhas; pústulas",
+      "source_heads": [
+        "אֲבַעְבּוּעִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4fd2bb724d9793a3f66ef6c7d56d2e9accfc32620c8d96a3e66f06cd3ccf6b6c",
+      "source_definition_excerpts": [
+        "(בוע) blains, pustules ."
+      ],
+      "source_note_excerpts": [
+        "Targ. O. Ex. IX, 9 (Var. אֲבַעְבּוֹעַיָן f. pl.)."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 186,
+      "id": "A00185",
+      "source_headword": "אַבְעַד",
+      "editorial_headword": "אַבְעַד",
+      "editorial_gloss": "ver בְּעַד",
+      "source_heads": [
+        "אַבְעַד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d14c62978d00d17cbce56d5d334d92dd651f38cb2bfd3586fbd0dfe72ce03883",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. בְּעַד"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 187,
+      "id": "A00186",
+      "source_headword": "אַבְעָיָה,",
+      "editorial_headword": "אַבְעָיָה,",
+      "editorial_gloss": "busca; súplica; comparecimento dos pobres",
+      "source_heads": [
+        "אַבְעָיָה,",
+        "אוּבְעָיָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a4b76b5c9953c709a10c7e6d45ce58173853b22e629b64b7564c35a993f5cb08",
+      "source_definition_excerpts": [
+        "(בָּעָה) search, begging, the appearance of the poor for their share in the crop."
+      ],
+      "source_note_excerpts": [
+        "Pl. אַבְעָיוֹת . Peah IV, 5 ג' אב' וכ' (Y. ed. IV, 3 אוּבְ') three times a day the poor would come (cmp. etym. Y. ib. 18 b top). [Oth. comment. ref. to etym. in Y. l. c. a. Targ. Obad. v. 6: “the owne"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 188,
+      "id": "A00187",
+      "source_headword": "אֲבָצָא",
+      "editorial_headword": "אֲבָצָא",
+      "editorial_gloss": "estanho",
+      "source_heads": [
+        "אֲבָצָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bb5b95cab316b9bbcc1370b667c29b81bb573229d59c4fcf1352137fc5ba3e38",
+      "source_definition_excerpts": [
+        "(= אבעצא, cmp. בעץ) tin ."
+      ],
+      "source_note_excerpts": [
+        "Targ. O. Num. XXXI, 22."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 189,
+      "id": "A00188",
+      "source_headword": "אָבָק",
+      "editorial_headword": "אָבָק",
+      "editorial_gloss": "poeira; pó; indício de infração",
+      "source_heads": [
+        "אָבָק"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f5b4b8525bc2f98a0e2cec7214991fb4a78d8c20434925dc8967ae7602d38964",
+      "source_definition_excerpts": [
+        "v. אֲבַק , cmp. עשׁן) , ( thick, whirling ) dust, powder ."
+      ],
+      "source_note_excerpts": [
+        "Sabb. III, 3 אֲבַק דרכים the (heated) sand on the roads. Ḥull. 91 a . Cant. R. to III, 6; a. fr.—הסופרים א' the refuse of writing material , or the colored sand strewn over the writing . Sabb. XII, 5 "
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 190,
+      "id": "A00189",
+      "source_headword": "אָבַק",
+      "editorial_headword": "אָבַק",
+      "editorial_gloss": "cobrir de pó; adubar; tornar-se discípulo",
+      "source_heads": [
+        "אָבַק"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "0e99139450daca77568e7fab40614a8712cf348a237b037b14399be4ed8461d9",
+      "source_definition_excerpts": [
+        ", Pi .",
+        "to be covered , or cover one’s self with dust ."
+      ],
+      "source_note_excerpts": [
+        "אִבֵּק, אִיבֵּק (denom. of foreg.) to cover with powder , esp. plants, for fertilizing. Shebi. II, 2 מְאַבְּקִין (cmp. Y. Gem. a. l.). M. Kat. 3 a . Y. Sabb. VII, 10 a top.—Part. pass. מְאוּבָּק powde",
+        "Gen. R. s. 43.—Metaph. to sit at one’s feet as a disciple. Aboth. I, 4."
+      ],
+      "assessment": "O",
+      "observation": "Não foi conservada a alternativa interrogativa atribuída ao Arukh, de retirar o pó em lugar de aplicá-lo.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 191,
+      "id": "A00190",
+      "source_headword": "אֲבַק,",
+      "editorial_headword": "אֲבַק,",
+      "editorial_gloss": "entrelaçar; aderir; apegar-se",
+      "source_heads": [
+        "אֲבַק,",
+        "אֲבֵיק"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "41279b8e2cee8a0f9fa23f6c149055665b3dc0437077d27d95b1f59044f70c2a",
+      "source_definition_excerpts": [
+        "(√אב, עב, cmp. אבך, חבק)",
+        "to entangle, twist, twine .",
+        "(neut. v.) to be attached to, cling to (idolatry etc.)."
+      ],
+      "source_note_excerpts": [
+        "1) to entangle, twist, twine . Men. 42 a אביק להו מיבק (perh. אַבֵּיק Pa .) he twined (the show-fringes) with loops.",
+        "Snh. 64 a ; Ab. Zar. 14 b . Ib. 17 a א' בה טובא he was very deeply attached to sensuality."
+      ],
+      "assessment": "O",
+      "observation": "Restituída a forma אֲבֵיק como segunda grafia de cabeçalho da entrada.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 192,
+      "id": "A00191",
+      "source_headword": "אָבָק,",
+      "editorial_headword": "אָבָק,",
+      "editorial_gloss": "poeira; pó",
+      "source_heads": [
+        "אָבָק,",
+        "אַבְקָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6a19a6ce9cdbfb56a120bc1436c9a580d30bcd0ad757e3dcb2afbd8bbf2a5922",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "ch. = h. אָבָק. Targ. Ex. IX, 9; a. e."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 193,
+      "id": "A00192",
+      "source_headword": "אבק",
+      "editorial_headword": "אבק",
+      "editorial_gloss": "ler אָבִיק",
+      "source_heads": [
+        "אבק"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7e5d5be0af87a62c15964ad7438ca19b85ad22bc54601417f8812e4ad700c192",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Tosef. Mikv. V, 7, read אָבִיק."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 194,
+      "id": "A00193",
+      "source_headword": "אַבְקָא",
+      "editorial_headword": "אַבְקָא",
+      "editorial_gloss": "ver אָבָק aramaico",
+      "source_heads": [
+        "אַבְקָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bf2b8b315b9c708befe8dcf3c46f7ed97c438b10c98c77beb76babe9577344f3",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אָבָק ch."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 195,
+      "id": "A00194",
+      "source_headword": "אבקאות",
+      "editorial_headword": "אבקאות",
+      "editorial_gloss": "ver אָבָק hebraico",
+      "source_heads": [
+        "אבקאות"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cd3c98ba3fe695ce01d356a9875cf44e35365f8cf7395b504a21119ddf38b2f8",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        ", v. אָבָק h."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 196,
+      "id": "A00195",
+      "source_headword": "אֲבָקָה",
+      "editorial_headword": "אֲבָקָה",
+      "editorial_gloss": "especiarias; caixa de temperos",
+      "source_heads": [
+        "אֲבָקָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "dd7a64bac3b9a05fc86f709471a28c2e76b2a9fda975a6acc68e631a3c5167f7",
+      "source_definition_excerpts": [
+        "v. אָבָק ) spices, spice-box ."
+      ],
+      "source_note_excerpts": [
+        "Fig. רוֹכֵל אַבְקַת (peddlar’s spice-box) a great scholar . Cant. R. to III, 6 end."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 197,
+      "id": "A00196",
+      "source_headword": "אֶבְקוֹלָס",
+      "editorial_headword": "אֶבְקוֹלָס",
+      "editorial_gloss": "Eúcolo; pai de Zacarias",
+      "source_heads": [
+        "אֶבְקוֹלָס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9e97354229e8f4f6e11e2b239337f7c214784db1e8525d1171c36f67708220ca",
+      "source_definition_excerpts": [
+        "(Εὔκολος) Eucolus , father of R. Zechariah."
+      ],
+      "source_note_excerpts": [
+        "Git. 56 a ; Lam. R. to IV, 2. Tosef. Sabb. XVI (XVII), 6 (Var. אבטולס, אביקלוס). Cmp. אפיקולוס."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 198,
+      "id": "A00197",
+      "source_headword": "אבקת",
+      "editorial_headword": "אבקת",
+      "editorial_gloss": "ler אבקתא",
+      "source_heads": [
+        "אבקת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "56b6a9b13c404bc2b6f27aa2a9abcc9d490f996c1bd0cd66ddcfa76f839860d2",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "Men. 33 a , read אבקתא, v. next w."
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 199,
+      "id": "A00198",
+      "source_headword": "אַבְקָתָא",
+      "editorial_headword": "אַבְקָתָא",
+      "editorial_gloss": "argolas; presilhas; laços de couro",
+      "source_heads": [
+        "אַבְקָתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "66ecb5173768b7ac37e8a253d92065b3ff236d2c8e70de14c7761ecd6ad4ac64",
+      "source_definition_excerpts": [
+        "(אֲבַק) loops, leather rings , on bedsteads for the reception of cords; in door cases, for hanging doors in."
+      ],
+      "source_note_excerpts": [
+        "Ned. 56 b ; Snh. 20 b . דרגש בא' … a couch is called dargesh , when it is carried in and out (to be put up and taken apart) by means of loops (through which the cords are fastened); opp. mittah , v. ב"
+      ],
+      "assessment": "O",
+      "observation": "Restituída a leitura manuscrita אנקתא de Menahot 33a/Eruvin 11b.",
+      "editorial_correction_applied": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 200,
+      "id": "A00199",
+      "source_headword": "אבר",
+      "editorial_headword": "אבר",
+      "editorial_gloss": "ver בּוּר",
+      "source_heads": [
+        "אבר"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "0c54f3518f1ff21395a39fd0c6e13007cd1a04394190b4a9899276f423372777",
+      "source_definition_excerpts": [],
+      "source_note_excerpts": [
+        "or יבר Hif. הוֹבִיר, v. בּוּר"
+      ],
+      "assessment": "S",
+      "observation": "Acepção, lema e classe sem divergência central detectada frente ao XML; a tradução integral das notas e citações não foi homologada.",
+      "editorial_correction_applied": false,
+      "full_philological_certification": false
     }
-  ]
+  ],
+  "last_batch": {
+    "start_ordinal": 101,
+    "end_ordinal": 200,
+    "count": 100,
+    "counts": {
+      "S": 82,
+      "O": 17,
+      "E": 1,
+      "V": 0
+    },
+    "corrections_applied": 9,
+    "report": "auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md"
+  }
 }

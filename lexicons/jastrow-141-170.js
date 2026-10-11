@@ -155,7 +155,7 @@ const entries=[
     "lemma": "אֶבְלוּ,",
     "type": "Substantivo feminino",
     "gloss": "luto",
-    "html": "Equivalente a <bdi lang='he' dir='rtl'>אֲבֵילוּתָא</bdi>, “luto”. Targum Pseudo-Jônatas, Deuteronômio 26.14."
+    "html": "O original registra duas grafias, <bdi lang='he' dir='rtl'>אֶבְלוּ</bdi> e <bdi lang='he' dir='rtl'>אֲבֵלוּ</bdi>. Equivalente a <bdi lang='he' dir='rtl'>אֲבֵילוּתָא</bdi>, “luto”. Targum Pseudo-Jônatas, Deuteronômio 26.14."
   },
   {
     "sid": "A00162",
@@ -183,7 +183,7 @@ const entries=[
     "lemma": "*אַבְלוֹשֵׁי",
     "type": "Substantivo masculino plural",
     "gloss": "escavadores; cavadores de terra",
-    "html": "Trabalhadores que escavam o solo, na interpretação citada de Maimônides. <bdi lang='he' dir='rtl'>אבלושי דמחוזא</bdi>, “os cavadores de Mahoza” (Bava Metzia 77a). A fonte registra variantes divergentes <bdi lang='he' dir='rtl'>אוכלי, אוכלסי, אכלוזי</bdi> e derivações propostas das raízes relativas a abrir/cortar."
+    "html": "Trabalhadores que escavam o solo, na interpretação citada de Maimônides. <bdi lang='he' dir='rtl'>אבלושי דמחוזא</bdi>, “os cavadores de Mahoza” (Bava Metzia 77a). A fonte abrevia uma leitura da edição e do <i>Arukh</i> como <bdi lang='he' dir='rtl'>אכ׳</bdi>; o manuscrito M. lê <bdi lang='he' dir='rtl'>אוכלסי</bdi> e o manuscrito R., <bdi lang='he' dir='rtl'>אכלוזי</bdi> e derivações propostas das raízes relativas a abrir/cortar."
   },
   {
     "sid": "A00166",

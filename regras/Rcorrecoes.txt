@@ -167,3 +167,10 @@ JASTROW — AUDITORIA FILOLÓGICA INDIVIDUAL DE 100 VERBETES, 11/10/2026
 ================================================================================
 Confrontadas as 100 entradas A00000–A00099 do XML Sefaria com cartões integrados. Categorias: S=76 sem divergência central detectada (NÃO equivale a certificação integral); O=17 omissões/abreviação de documentação; E=3 erros editoriais/remissivos confirmados; V=4 dependentes de verificação. Relatório: auditoria/JASTROW-2026-10-11-filologia-lote001-A00000-A00099.md; matriz e checkpoint: auditoria/jastrow-filologia-progresso.json. Principais erros: A00057 (destino correto A00055), A00080 (cadeiras e assentos vs coberturas), A00091 (glosa “por acaso” pertence à emenda alternativa). Nenhum verbete alterado; total_audited=0 pela norma estrita de tradução e documentação integral. Próximo intervalo: A00100–A00199. Persistência exclusiva na branch chat-gpt-correcoes.
 ================================================================================
+
+
+================================================================================
+JASTROW — AUDITORIA FILOLÓGICA LOTE 002, A00100–A00199 (11/10/2026)
+================================================================================
+100/100 confrontos individuais Fonte XML/Tradução; S=82, O=17, E=1, V=0, nove intervenções mínimas somente na branch chat-gpt-correcoes, erro A00165 corrigido com variantes reais. Acumulado 200 registros examinados em primeira passagem; nenhum certificado integral, total_audited=0. Relatório auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md; checkpoint auditoria/jastrow-filologia-progresso.json. Relatório do lote 001 corrigido exclusivamente quanto à formatação da tabela. Próximo A00200–A00299. PR e integração são etapas separadas, main nunca alterada.
+================================================================================
