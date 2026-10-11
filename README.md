@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## Tabela canônica de progresso de todos os dicionários (11/10/2026)
+
+Por exigência do mantenedor, todo relatório deve conter **Dicionário | Incorporação | Auditoria textual/estrutural | Auditoria filológica | Integração | Total**, para todas as frentes ativas e inativas. Consultar [regras/Rprogresso.txt](regras/Rprogresso.txt); não equiparar primeira passagem documental a homologação das citações gregas.
+
+
 ## Política vigente de auditoria filológica — **etapa única por verbete** (11/10/2026)
 
 **NORMA FILOLÓGICA ÚNICA — 11/10/2026.** Por decisão editorial, não há mais uma filologia "preliminar" seguida de outra "exaustiva". Em **cada execução solicitada**, examinar com rigor a fonte e a redação do verbete (lemas/variantes, homógrafos, flexões e regência, **todas** as acepções, referências, exempla, etimologias, hipóteses e aparato pertinente), produzir parecer individual e **corrigir na própria rodada** o que estiver comprovado. Uma entrada termina como **A — aprovada**, **C — corrigida e validada** ou **P — pendência pontual documentada**; a pendência **não provoca repetição geral do lote** nem autoriza afirmar que o verbete está aprovado. **Auditoria filológica é uma só.** Ver [norma canônica completa](regras/Rauditoria-filologica.txt).
