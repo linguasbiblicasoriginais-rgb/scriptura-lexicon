@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 3001,
-    "status": "Meta específica atingida: 3.000 verbetes DGP, lote 78 (2981–3000) com 20 entradas; próximo ordinal 3001, ἀνασχέσθαι. Auditoria independente, testes dinâmicos e integração pendentes"
+    "next_ordinal": 3101,
+    "status": "Lote 79 incorporado, ordinais 3001–3100; total 3100 verbetes DGP. Próximo ordinal 3101: ἀνδραπόδεσσι. Auditoria independente, DOM e integração pendentes"
   },
   "batches": [
     {
@@ -703,7 +703,7 @@
       "start_entry": "ἀναπληρωτέον",
       "end_entry": "ἀναστατόω-ῶ",
       "entry_count": 100,
-      "status": "incorporado e publicado no GitHub em f9b760a42ea9408784d1ca5e0eac916ff4665441; 100/100 pares estáticos conferidos; auditoria independente, navegador e integração pendentes"
+      "status": "incorporado em f9b760a42ea9408784d1ca5e0eac916ff4665441; auditoria textual/estrutural estática independente 100/100 publicada em aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55; navegador e integração pendentes"
     },
     {
       "batch": 78,
@@ -712,7 +712,16 @@
       "start_entry": "ἀνασταυρόω-ῶ",
       "end_entry": "ἀνάσχεο",
       "entry_count": 20,
-      "status": "lote final de 20 verbetes para a meta exata 3.000, por instrução explícita; colação preliminar 20/20; auditoria independente, navegador e integração pendentes"
+      "status": "incorporado em 1e62e9e7e8df1b196ce1013f3d1bc589630a4120; auditoria textual/estrutural estática independente 20/20 publicada em aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55; navegador e integração pendentes"
+    },
+    {
+      "batch": 79,
+      "start_ordinal": 3001,
+      "end_ordinal": 3100,
+      "start_entry": "ἀνασχέσθαι",
+      "end_entry": "ἀνδρακάς",
+      "entry_count": 100,
+      "status": "incorporado; 100/100 linhas, cartões e definições colacionados preliminarmente; auditoria independente, navegador e integração pendentes"
     }
   ],
   "editorial_rules": {

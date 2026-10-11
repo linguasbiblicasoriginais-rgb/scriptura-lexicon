@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## Lote DGP 79 — ordinais 3.001–3.100 (10/10/2026)
+
+Incorporados **100 verbetes consecutivos**, de `ἀνασχέσθαι` a `ἀνδρακάς`, do XML canônico `aniseferreira/Grc-Por-DigDict` (commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`), no módulo `lexicons/dgp-batch-079.js`. O índice de pesquisa mantém a definição completa e cada cartão conserva integralmente o texto do XML, com escape HTML e normalização de espaços. A pré-colação de 100 registros verificou as linhas `search-row`, cartões `entry-card`, IDs e alvos sem discrepâncias nem links externos novos. **Manifesto DGP: 79 lotes, 3.100 verbetes; próximo ordinal 3.101 — `ἀνδραπόδεσσι`.**
+
+Auditoria estática independente do lote 79, testes de navegador/popups e integração em `chat-gpt-commits` pertencem a etapas separadas e não são inferidos desta publicação lexical. Os relatórios estáticos dos lotes 77 e 78 foram confirmados em `chat-gpt-correcoes`, commit `aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55`.
+
+
 ## DGP — meta de 3.000 verbetes atingida (lote 78; 10/10/2026)
 
 Solicitação específica concluída em **dois commits lexicais atômicos**, com **120 verbetes consecutivos** da fonte grega fixada: lote **77**, ordinais **2.881–2.980** (100; `ἀναπληρωτέον` → `ἀναστατόω-ῶ`), e lote **78**, ordinais **2.981–3.000** (20; `ἀνασταυρόω-ῶ` → `ἀνάσχεο`). Os módulos são `lexicons/dgp-batch-077.js` e `lexicons/dgp-batch-078.js`, carregados antes do formatador. O manifesto registra **78 lotes e 3.000 verbetes DGP**, próximo ordinal **3.001** (`ἀνασχέσθαι`). O lote final de 20 é exceção pontual para alcançar exatamente 3.000; a regra geral de 100 por ciclo permanece.
