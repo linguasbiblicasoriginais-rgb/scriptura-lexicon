@@ -52,3 +52,11 @@ Versão inicial: 10/10/2026
 - A publicação estrutural é comprovada por 110 linhas de pesquisa e 110 cartões, 110 alvos corretos e IDs únicos; 55 definições de popup únicas após deduplicação. Isso não equivale a revisão filológica independente.
 - Notas secundárias e exemplos extensos da fonte continuam integralmente no XML e nem todos foram vertidos para os cartões; revisar a completude editorial antes de aprovar o lote.
 - Checkpoint: total_publicado=110; próximo_ordinal=111; próximo_id=A00110. `total_audited` e `total_integrated` devem permanecer em zero até auditoria independente real, testes necessários e integração confirmada. Não criar PR de integração ou mesclar com aprovação presumida.
+
+## Terceira rodada JASTROW — 100 registros (10/10/2026)
+- Intervalo 111–210 (`A00110`–`A00209`); os cem registros novos foram redigidos em português e ligados aos 110 anteriores, sem fusão dos homógrafos.
+- Fonte original completa (400 registros): `lexicons/jastrow-source-lote-0001.json` (1–200) e `lexicons/jastrow-source-lote-0002.json` (201–400), ambos do XML Sefaria-Data, commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`.
+- Erro operacional identificado e corrigido: `IndexError` ao indexar lemas com `--start-ordinal 200` no run 38099249338; êxito da extração com a correção no run 38099440930.
+- Auditoria estática: 210 linhas, 210 cartões, 210 IDs e alvos consistentes, 86 definições de popup únicas e todos os onze scripts JASTROW carregados em ordem antes de `script.js`. **Não equivale a auditoria filológica integral**: exemplos, notas e referências exigem revisão.
+- Ponto de retomada: ordinal 211, ID `A00210`, lema `אַבְרוּיֵי`. Fonte seguinte a recuperar após o ordinal 400: ID `A00400` (`אֲדִימָּא`).
+- Conciliação remota: o PR #82 JASTROW anterior está realmente mesclado em `chat-gpt-commits`; dos 210 verbetes atualmente publicados, 110 constam da integração anterior, os novos 100 ainda não. Não confundir integração com auditoria editorial. Não tocar `main`, não eliminar branches.
