@@ -5,6 +5,7 @@ on:
     branches: [chat-gpt-jastrow]
     paths:
       - ".github/workflows/jastrow-audit-510.yml"
+      - "tools/audit_jastrow_510.js"
   workflow_dispatch:
 
 permissions:
