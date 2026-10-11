@@ -17,8 +17,8 @@
   ],
   "date": "2026-10-11",
   "total_existing_before_batch": 400,
-  "new_entries": 100,
-  "total_published": 500,
+  "new_entries": 12,
+  "total_published": 512,
   "existing_pre_batch_lemma": "Ἀαρών",
   "source_ordinals_added": "Thayer/Strong 1; 3–20; e ἀγαθουργέω sem numeração autônoma",
   "first_new_lemma": "ἀνατέλλω",
@@ -272,6 +272,19 @@
       ],
       "printed_pages": "consulta ao fac-símile e transcrições Thayer; paginação exata não certificada",
       "translation_status": "síntese editorial em português; revisão filológica integral pendente"
+    },
+    {
+      "batch": "suplemento-2026-10-11",
+      "prior_total": 500,
+      "new_entries": 12,
+      "final_total": 512,
+      "modules": [
+        "lexicons/thayer-batch-007-suplemento.js"
+      ],
+      "source_pdf": "Thayer (parte 1, Α–Ι).pdf",
+      "print_pages": "5, 12, 13, 14, 18, 21, 25, 35, 39, 41",
+      "next": "ἀντιπαρέρχομαι (G492)",
+      "translation_status": "verificação lexical dirigida; não homologação textual integral"
     }
   ],
   "last_commit_date": "2026-10-11",
@@ -477,6 +490,15 @@
       "source_corrections": 9,
       "report": "auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md",
       "semantic_homologation": 0
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "12 artigos/formas antes ausentes da indexação THAYER",
+      "report": "auditorias/thayer-2026-10-11-homologacao-supl-12.md",
+      "inventory": "auditorias/thayer-2026-10-11-homologacao-supl-12.csv",
+      "source_pdfs_inspected": true,
+      "count": 12,
+      "full_philological_homologation": false
     }
   ],
   "audit_standard": {
@@ -691,5 +713,35 @@
     "philological_full_review_500": "PENDENTE",
     "dom_browser_and_external_urls": "NÃO TESTADOS",
     "report": "auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md"
+  },
+  "total_existing_before_supplement": 500,
+  "supplement_20261011": {
+    "status": "12 FORMAS/ARTIGOS INCORPORADOS COM CLASSIFICAÇÃO FILOLÓGICA EXPLÍCITA",
+    "source": "Thayer (parte 1, Α–Ι).pdf",
+    "printed_pages": [
+      5,
+      12,
+      13,
+      14,
+      18,
+      21,
+      25,
+      35,
+      39,
+      41
+    ],
+    "module": "lexicons/thayer-batch-007-suplemento.js",
+    "first_id": "entry-thayer-0500",
+    "last_id": "entry-thayer-0511",
+    "before": 500,
+    "added": 12,
+    "after": 512,
+    "source_article_or_variant_decided": true,
+    "original_article_fidelity": "Síntese lexical portuguesa baseada na fonte; aparato bibliográfico não transcrito integralmente",
+    "identities": "IDs 0500–0511 são internos; sufixos alfabéticos dos índices eletrônicos não são números oficiais de Strong",
+    "report": "auditorias/thayer-2026-10-11-homologacao-supl-12.md",
+    "inventory": "auditorias/thayer-2026-10-11-homologacao-supl-12.csv",
+    "full_philological_500_or_512": "PENDENTE DE COLAÇÃO INTEGRAL",
+    "browser_dom": "NÃO EXECUTADO"
   }
 }

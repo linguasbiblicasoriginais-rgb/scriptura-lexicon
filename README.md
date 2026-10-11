@@ -1,3 +1,7 @@
+## THAYER — suplemento de 12 formas e artigos documentados (11/10/2026)
+
+A incorporação suplementar de **12 fichas** de Thayer (IDs internos 0500–0511) leva o total de 500 a **512 registros** e preserva todos os cartões anteriores. O módulo distingue artigos próprios, variantes de texto, grafias e remissões; os índices secundários sufixados em `a` não constituem números oficiais de Strong. A classificação foi conferida com o fac-símile e transcrições auxiliares; o aparato completo de 512 registros **não** recebeu homologação filológica nem teste DOM. [Relatório de decisões](auditorias/thayer-2026-10-11-homologacao-supl-12.md) · [inventário das 12 entradas](auditorias/thayer-2026-10-11-homologacao-supl-12.csv). Próximo artigo regular: ἀντιπαρέρχομαι (G492).
+
 ## THAYER — correção editorial integrada de nove ressalvas (11/10/2026)
 
 Retificados em sete fichas os vínculos com artigos-matriz de Thayer (ἅγιον→ἅγιος; αἱρέομαι→αἱρέω; αἰσχρόν→αἰσχρός; αἰσχύνομαι→αἰσχύνω; ἀκριβέστατος/ἀκριβέστερον→ἀκριβής; ἄκρον→ἄκρος). Corrigidos sete parágrafos de ἀγαθός com numeração duplicada e adicionadas as cinco referências bíblicas de Ἀαρών ao índice de busca. Preservados **500 cartões** e demais módulos do projeto. [Relatório de correções](auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md) · [triagem pendente de 12 candidatos](auditorias/thayer-2026-10-11-triagem-de-12-candidatos.md). A revisão filológica integral, as páginas verificadas para cada artigo e os testes reais de navegador/DOM não estão homologados.
