@@ -1,5 +1,9 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## PR #88 — reconciliação técnica HALOT (11/10/2026)
+
+A conciliação preserva todos os módulos e checkpoints já integrados em `chat-gpt-commits` e acrescenta os 100 registros preliminares HALOT com a fonte canônica versionada. A tradução integral, a confirmação visual das formas hebraicas, os direitos de redistribuição e os testes em navegador permanecem pendentes. Os parágrafos abaixo com `0 verbetes` representam tentativas anteriores, não o estado posterior do lote 001. A mesclagem final requer confirmação distinta; não alterar `main` nem excluir branches.
+
 ## HALOT — lote preliminar 001 (11/10/2026)
 
 Extração pela rotina `.github/workflows/halot-fonte-extracao.yml` da cópia canônica `fontes/fonte-halot.pdf`, Git blob `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O frontispício identifica a **CD-ROM Edition** de Brill, não a *Study Edition* presumida. O módulo `lexicons/halot-batch-001.js` incorpora 100 registros (1–100), com 100 linhas/cartões verificados por auditoria estática. Checkpoint `lexicons/halot-progress.json`: **100 preliminares publicados; zero aprovados filologicamente; zero integrados; próximo 101**. Glosas portuguesas são resumidas e a conversão hebraica ainda requer cotejo visual. Relatório: `auditorias/halot-2026-10-11-lote001.md`. PR #88 ainda não integrado. Esta atualização não altera agendas de outras fontes.

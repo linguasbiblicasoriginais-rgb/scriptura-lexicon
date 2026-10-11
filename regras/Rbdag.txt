@@ -2613,3 +2613,48 @@ Novo total esperado: 1061 linhas e cartões BDAG. Próximo lema: ἀπωσάμη
 Sem links externos ou popups BDAG novos; bibliographicTerms original preservado.
 Um único commit atômico nesta branch; verificar SHA e diff reais no GitHub após publicação.
 ================================================================================
+
+
+================================================================================
+REGISTRO BDAG — 10/10/2026 — ἀπωσάμην → ἀργυροκόπος
+================================================================================
+Branch exclusiva: chat-gpt-bdag. Commit pai: 387236efcfd85d83bfff1e3552a78768b50c02f0.
+Fonte: fontes/fonte-bdag.pdf; SHA blob 554c1523c9f893dced39f6047ca8375d5d7ca2a0; páginas físicas 41–42.
+Lote de 20 verbetes: ἀπωσάμην; Ἅρ; ἀρά, ᾶς, ἡ; ἄρα; ἆρα; Ἀραβία, ας, ἡ; Ἀραβικός, ή, όν; Ἄραβοι; ἀραβών; ἄραγε; ἆραι; Ἀράμ, ὁ; ἀράομαι; ἄραφος, ον; Ἄραψ, βος, ὁ; ἀργέω; ἀργός, ή, όν; ἀργύρεος; ἀργύριον, ου, τό; ἀργυροκόπος, ου, ὁ.
+Contagem anterior: 1061 linhas/cartões BDAG; resultado previsto: 1081.
+Próximo lema: ἄργυρος, ου, ὁ. Preservadas as subdivisões de ἄρα, ἆρα,
+ἀργός e ἀργύριον, além de variantes e referências bibliográficas.
+URLs novas: zero; popups novos: zero; bibliographicTerms preservado.
+Somente a consulta ao HEAD real do GitHub confirma a publicação.
+================================================================================
+
+
+REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 1/5 (PEDIDO DE 100 VERBETES)
+- Branch: chat-gpt-bdag. HEAD-base: 7042aeb0ec6ff6e3a4464c2719de4d402c8d3923.
+- Intervalo: ἄργυρος, ου, ὁ → Ἀριστόβουλος, ου, ὁ (20 entradas), BDAG pp. 42–45.
+- Checkpoint previsto: 1.081 → 1.101 linhas/cartões; próximo: ἄριστον, ου, τό.
+- Novos IDs e data-targets conferidos, sem duplicidade, com 20 pares. Nenhuma URL externa nova ou alteração em outras fontes.
+- O pedido completo compreende 5 lotes de 20; este registro não declara a conclusão dos outros 80 verbetes.
+
+
+REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 2/5 (PEDIDO DE 100 VERBETES)
+- Branch: chat-gpt-bdag. HEAD-base: 1ccdf34d9bcca0602629c5e83ee708de621b351e.
+- Intervalo: ἄριστον, ου, τό → ἀροτριάω (20 entradas), BDAG pp. 45–46.
+- Checkpoint: 1.101 → 1.121 linhas/cartões; próximo: ἄροτρον, ου, τό.
+- IDs e data-targets conferidos, 20 pares novos. Nenhuma URL externa nova.
+
+
+REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 3/5 (PEDIDO DE 100 VERBETES)
+- HEAD-base: 7299caccd5b8c2cc2b41013217e328a566b1f9f4.
+- Intervalo: ἄροτρον, ου, τό → Ἀρτέμων, ωνος; 20 entradas; BDAG pp. 46–49.
+- 1.121 → 1.141 linhas e cartões. Próximo: ἀρτηρία, ας, ἡ.
+- IDs, alvos e sequências auditados; sem URL externa nova.
+- Arquivo JS: apenas normalização de recuos e linhas em branco entre elementos HTML existentes, sem exclusão de texto lexical, para tornar possível a transferência de blob; revisar o diff para confirmar preservação.
+
+
+REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 4/5 (PEDIDO DE 100 VERBETES)
+- Base: 73a71c3ed4511e1c2d466b18a115d4aa73b05fe1.
+- Intervalo: ἀρτηρία, ας, ἡ → Ἄρχιππος, ου, ὁ; 20 verbetes; BDAG pp. 49–52.
+- Contagem 1141 → 1161 linhas/cartões; próximo: ἀρχιστράτηγος, ου, ὁ.
+- IDs e alvos confrontados em 1161 pares únicos, sem inserção de URLs externas.
+- Para manter a transferência GitHub confiável sem perder dados, o conteúdo HTML de cardsHtml utiliza codificação de tags comuns: §S=<strong>, §s=</strong>, §E=<em>, §e=</em>, §G=<span class="greek">; as cinco substituições sincrônicas .replaceAll() reconstituem a mesma string HTML exata. Ausência de colisão entre tokens foi auditada; não codificar elementos estruturais search-row/entry-card, IDs ou data-targets. A descompactação ocorre ao carregar o módulo antes de passar à interface. Para próximo lote, manter esta codificação e novamente testar equivalência exata.

@@ -1,0 +1,24 @@
+name: JASTROW - verificar correcoes filologicas 600
+on:
+  push:
+    branches: [chat-gpt-auditoria-jastrow-600]
+    paths:
+      - ".github/workflows/jastrow-verificar-filologia.yml"
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-auditoria-jastrow-600
+          fetch-depth: 0
+      - name: Auditar 600 IDs, 600 cartoes, 600 fontes e popups
+        run: node tools/audit_jastrow_600.js
+      - name: Validar registro de revisao e referencias
+        run: |
+          node -e "const p=require('./lexicons/jastrow-progress.json');if(p.scope.total_published!==600||p.scope.total_audited!==0||p.filological_review.screened_total!==600)process.exit(1);"
+          grep -q 'χρυσάνθεμον' lexicons/jastrow-236-260.js
+          grep -q 'παρὰ βασιλέως ὁ νόμος ἄγραφος' lexicons/jastrow-361-385.js
+          grep -q 'אֲבֵיל' lexicons/jastrow-141-170.js

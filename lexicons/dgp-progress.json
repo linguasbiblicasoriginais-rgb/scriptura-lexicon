@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2781,
-    "status": "Lotes 70–75 integrados após auditoria estática; inspeção funcional e popups dinâmicos pendentes"
+    "next_ordinal": 2881,
+    "status": "Lote 76 (2781–2880) incorporado e integrado via PR #86 após auditoria textual e estrutural estática; testes de navegador, popups dinâmicos e acessibilidade pendentes"
   },
   "batches": [
     {
@@ -685,7 +685,16 @@
       "start_entry": "ἀνακινέω-ῶ",
       "end_entry": "ἀναμάσσω,",
       "entry_count": 100,
-      "status": "incorporado; auditoria independente e integração pendentes"
+      "status": "incorporado; auditoria independente estática de 100/100 e integração PR #80 confirmadas (10/10/2026); testes dinâmicos pendentes"
+    },
+    {
+      "batch": 76,
+      "start_ordinal": 2781,
+      "end_ordinal": 2880,
+      "start_entry": "ἀνάματος, ος, ον",
+      "end_entry": "ἀναπλήρωσις, εως (ἡ)",
+      "entry_count": 100,
+      "status": "integrado pelo PR #86 após auditoria estática independente 100/100; testes funcionais e editoriais dinâmicos pendentes"
     }
   ],
   "editorial_rules": {
