@@ -1,3 +1,7 @@
+## THAYER — correção editorial integrada de nove ressalvas (11/10/2026)
+
+Retificados em sete fichas os vínculos com artigos-matriz de Thayer (ἅγιον→ἅγιος; αἱρέομαι→αἱρέω; αἰσχρόν→αἰσχρός; αἰσχύνομαι→αἰσχύνω; ἀκριβέστατος/ἀκριβέστερον→ἀκριβής; ἄκρον→ἄκρος). Corrigidos sete parágrafos de ἀγαθός com numeração duplicada e adicionadas as cinco referências bíblicas de Ἀαρών ao índice de busca. Preservados **500 cartões** e demais módulos do projeto. [Relatório de correções](auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md) · [triagem pendente de 12 candidatos](auditorias/thayer-2026-10-11-triagem-de-12-candidatos.md). A revisão filológica integral, as páginas verificadas para cada artigo e os testes reais de navegador/DOM não estão homologados.
+
 ## Correção THAYER-EST-001 — Ἀβαδδών (11/10/2026)
 
 A falha de markup `data-tooltip-label` embutido no cartão `entry-thayer-0002` foi corrigida no módulo `lexicons/thayer.js`: a forma verbal hebraica `אָבַד` passou a figurar integralmente no atributo e no texto; transliteração `ʾāḇaḏ` e significado “perecer” preservados. O tooltip espúrio `אָב` (“pai”) foi removido. O blob lexical reproduz exatamente a correção do commit `f3d7ed03d58fbb6a5bc68f0dbaf69707b4bfae39` em `chat-gpt-thayer`. Total THAYER: 500, inalterado. Checagem estática: 20/20 pares no módulo; os 479 demais cartões dinâmicos e o cartão estático Ἀαρών permanecem intocados. Relatório: [resolução THAYER-EST-001](auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md). Browser/DOM e homologação filológica integral ainda pendentes.
