@@ -2,7 +2,7 @@ name: Jastrow Philology 600
 on:
   push:
     branches: [chat-gpt-correcoes]
-    paths: [".github/workflows/jastrow-filologia.yml"]
+    paths: [".github/workflows/jastrow-filologia.yml", "tools/jastrow_triagem_filologica.js"]
 permissions:
   contents: read
 jobs:
