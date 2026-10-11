@@ -32,3 +32,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Conciliar, auditar e publicar merge protegido
         run: python tools/resolve_pr89.py
+# Revisao 3: exigir auditoria git diff --check sem whitespace e validar HEAD remoto.
