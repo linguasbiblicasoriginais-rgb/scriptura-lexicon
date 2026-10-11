@@ -1,3 +1,9 @@
+## THAYER — auditoria segundo a norma atômica (11/10/2026)
+
+**Total publicado: 512 registros, sem alteração de contagem.** Conferida a estrutura estática de **512/512 (100%)**, com zero divergências de IDs, pares linha/cartão, lemas/glosas e atributos nos controles usados. A comparação com a fonte foi **dirigida/preliminar para 12/512 (2,34%)**; nenhum dos 512 possui ainda colação integral e testes reais de navegador comprovados, portanto **0/512 (0%) apresentam AUDITORIA_CONCLUIDA** conforme `regras/Rauditoria.txt`. Foram acrescentados **15 links bíblicos verificados** nas seções de referências de **12 cartões** do suplemento, sem reescrever as acepções. O PDF original e sua transcrição auxiliar foram distinguidos das sínteses editoriais; variantes continuam atribuídas à fonte.
+
+**Evidências individualizadas:** [Relatório](auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md) · [Matriz JSON dos 512](auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json) · [Matriz CSV dos 512](auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv). Falta colação palavra por palavra, correção completa de cada artigo, paginação e links para todos, testes efetivos de DOM, popups e acessibilidade. **Esta auditoria não homologou globalmente o THAYER.**
+
 ## Norma canônica vigente — auditoria atômica por verbete (11/10/2026)
 
 **Auditar não significa apenas inspecionar e relatar.** Uma auditoria de verbete é uma unidade indivisível de **confronto integral com a fonte, aplicação de todas as correções fundamentadas e tecnicamente possíveis, regressão textual/filológica/funcional, registro de evidências e integração confirmada por PR**. Se restarem erros, dúvidas, testes obrigatórios não executados ou merge pendente, o verbete **não está auditado**: seu estado deve permanecer `EM_EXECUCAO`, `BLOQUEADA` ou `AGUARDANDO_INTEGRACAO`. A contagem de triagens estáticas é independente de `total_auditoria_concluida`.

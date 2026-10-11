@@ -506,6 +506,14 @@
       "report": "auditorias/thayer-2026-10-11-regressao-estatica-512.md",
       "structural_count": 512,
       "philological_homologation": false
+    },
+    {
+      "date": "2026-10-11",
+      "scope": "Auditoria atomica THAYER 512 - verificacao estrutural completa, cotejo dirigido de 12, correcao de 15 URLs biblicas, homologacao nao concluida",
+      "report": "auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md",
+      "atomic_completed": 0,
+      "reason": "Regra Rauditoria requer colacao integral por verbete e regressao real de navegador",
+      "correction_count": 15
     }
   ],
   "audit_standard": {
@@ -554,7 +562,8 @@
     "retroactive_audit_textual_internal_500_completed": true,
     "full_philological_500_approved": false,
     "structural_512_confirmed": true,
-    "full_philological_512_approved": false
+    "full_philological_512_approved": false,
+    "atomically_512_completed": false
   },
   "structural_audit_500": {
     "date": "2026-10-11",
@@ -772,5 +781,40 @@
     "full_philological_homologation": false,
     "real_browser_dom_test": false,
     "report": "auditorias/thayer-2026-10-11-regressao-estatica-512.md"
+  },
+  "atomic_audit_512_20261011": {
+    "date": "2026-10-11",
+    "norm": "regras/Rauditoria.txt",
+    "base_head": "d01dd7c6af9058557302c3c971687187ad4d090f",
+    "total": 512,
+    "dynamic": 511,
+    "static_aaron": 1,
+    "structural_reviewed": 512,
+    "structural_pass": 512,
+    "structural_fail": 0,
+    "source_checked_directed_preliminary": 12,
+    "source_full_collated": 0,
+    "supplementary_cards_with_verse_links": 12,
+    "added_checked_verse_urls": 15,
+    "all_dynamic_cards_with_verse_links": 12,
+    "source_page_explicit_in_source_section": 12,
+    "definitions_under_120_ch": 335,
+    "definitions_with_greek": 65,
+    "real_dom_browser_tested": 0,
+    "full_filology_homologated": 0,
+    "atomically_audited": 0,
+    "status": "BLOQUEADA: colacao integral e navegador reais nao demonstrados",
+    "distinct_from_older_static_reports": true,
+    "unchanged_total_published": 512,
+    "regular_next_lemma": "ἀντιπαρέρχομαι",
+    "report": "auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md",
+    "matrix_json": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json",
+    "matrix_csv": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv",
+    "integration_status": "A VERIFICAR APÓS O MERGE DO PR",
+    "corrections": {
+      "module": "lexicons/thayer-batch-007-suplemento.js",
+      "card_count": 12,
+      "validated_bible_urls": 15
+    }
   }
 }
