@@ -1,5 +1,9 @@
 # Scriptura Lexicon
 
+## HALOT — tentativa do primeiro lote (11/10/2026)
+
+A solicitação de **100 verbetes HALOT** foi iniciada, mas **não pôde ser concluída**: o leitor público recusou o PDF canônico por tamanho (18.446.799 bytes), o download direto falhou e o ambiente de inspeção retornou erro. Nenhuma sequência de 100 verbetes com fronteiras e paginação auditáveis foi obtida; portanto, **0 verbetes novos foram publicados**. O estado honesto e o próximo ordinal 1 constam em [`lexicons/halot-progress.json`](lexicons/halot-progress.json), e o impedimento em [`regras/Rhalot.txt`](regras/Rhalot.txt). Para retomar, é necessário acesso efetivo ao próprio arquivo indicado pelo mantenedor; outros volumes KBS não serão utilizados como substitutos silenciosos. Esta atualização é apenas documental, sem mudanças em `main`, scripts lexicais ou demais checkpoints.
+
 ## HALOT — fonte e branch registradas (10/10/2026)
 
 O **HALOT** (*The Hebrew and Aramaic Lexicon of the Old Testament*) passa a integrar o cadastro documental do Scriptura Lexicon com **branch própria** `chat-gpt-halot`. A fonte indicada pelo mantenedor é o PDF **Study Edition, volume 1**, disponível em [yausha.com.br](https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf). O protocolo canônico de proveniência, distinção de edições, escopo, checkpoints e integração está em [`regras/Rhalot.txt`](regras/Rhalot.txt).
