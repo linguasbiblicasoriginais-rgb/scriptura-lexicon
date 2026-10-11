@@ -342,30 +342,46 @@
   },
   "audit_standard": {
     "effective_date": "2026-10-11",
-    "scope": "auditoria textual e estrutural THAYER",
-    "nominal_table_required": true,
-    "table_rows_equal_audited_entries": true,
-    "mandatory_fields": [
-      "ordem",
-      "id",
-      "lema",
-      "indice",
-      "pagina_impressa_e_origem_da_localizacao",
-      "estrutura",
-      "estado_textual",
-      "observacao_individual"
+    "corrected_interpretation": "Quadro geral de progresso de TODOS os dicionários, NÃO a tabela nominal de 100 verbetes",
+    "global_progress_table_required": true,
+    "columns": [
+      "Dicionário",
+      "Incorporação",
+      "Auditoria textual e estrutural",
+      "Auditoria filológica",
+      "Integração",
+      "Total incorporado"
     ],
-    "deliverables": [
-      "resposta_ao_usuario_tabela_nominal_completa",
-      "auditorias/*.md",
-      "auditorias/*.csv",
-      "regras/Rthayer.txt",
-      "README.md"
+    "include_all_sources": [
+      "BDAG",
+      "DGP",
+      "LEH",
+      "PEREIRA",
+      "JASTROW",
+      "THAYER",
+      "HALOT",
+      "ROBINSON",
+      "KLEIN",
+      "ABBOTT-SMITH",
+      "BDB-H",
+      "BDB-A",
+      "GESENIUS",
+      "LSJ"
     ],
-    "source_priority": "Thayer fac-símile primário, transcrição auxiliar não substitui a fonte",
-    "no_false_homologation": true,
-    "no_change_to_lexical_entries_without_source_collation": true,
-    "default_next_retroactive_interval": "entry-thayer-0200–0299"
+    "symbols": {
+      "✓": "comprovada no escopo indicado",
+      "◐": "parcial/preliminar/em andamento",
+      "—": "pendente ou não comprovada"
+    },
+    "show_numeric_total_per_source": true,
+    "show_global_total": true,
+    "show_progress_table_in_every_response": true,
+    "compare_remote_source_heads_and_integrated_head": true,
+    "audited_entries_never_substitute_total_incorporated": true,
+    "nominal_entry_table": "artefato auxiliar opcional; não a tabela obrigatória da resposta",
+    "audit_lexical_status_separately": "filologia integral não homologada sem cotejo individual de acepções, variantes e referências",
+    "do_not_write_main": true,
+    "next_retroactive_audit_interval": "entry-thayer-0200–0299"
   },
   "audit_history": [
     {
