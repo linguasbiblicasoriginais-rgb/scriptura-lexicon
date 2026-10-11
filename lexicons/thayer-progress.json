@@ -181,9 +181,12 @@
     "source_branch": "chat-gpt-correcoes",
     "original_branch": "chat-gpt-thayer",
     "target_branch": "chat-gpt-commits",
-    "status": "merge manual preparado; conferir PR state=closed e merged=true após publicação",
+    "status": "PR #87: state=closed, merged=true; merge commit ae92905500b289ae2f1f4ab6c9623ca2f1a04e46; verificação pós-publicação confirmada",
     "preserve_source_branches": true,
     "original_records": 121,
-    "independent_audit": "auditorias/thayer-2026-10-10-lote002.md — auditoria estática; revisão filológica integral e testes de navegador pendentes"
+    "independent_audit": "auditorias/thayer-2026-10-10-lote002.md — auditoria estática; revisão filológica integral e testes de navegador pendentes",
+    "merged_commit": "ae92905500b289ae2f1f4ab6c9623ca2f1a04e46",
+    "integrated": true,
+    "completed_note": "Dados THAYER integrados sem edição lexical; revisão filológica integral, DOM, popups e URLs ainda não certificados."
   }
 }
