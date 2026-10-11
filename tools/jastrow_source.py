@@ -82,7 +82,7 @@ def extract(source: bytes, limit: int, start_ordinal: int = 0) -> dict:
             raise RuntimeError(f"Empty XML entry at ordinal {i}")
         records.append({
             "ordinal": i, "source_id": f"jastrow-xml-{i:06d}",
-            "headword": heads[i - 1],
+            "headword": heads[i - start_ordinal - 1],
             "source_xml": source_xml,
             "source_entry_sha256": hashlib.sha256(source_xml.encode("utf-8")).hexdigest()
         })
