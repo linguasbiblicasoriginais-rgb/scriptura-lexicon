@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2981,
-    "status": "Lote 77 publicado (2881–2980), total de 2980 verbetes; próxima entrada ordinal 2981, ἀνασταυρόω-ῶ. Auditoria independente, navegador e integração pendentes"
+    "next_ordinal": 3001,
+    "status": "Meta específica atingida: 3.000 verbetes DGP, lote 78 (2981–3000) com 20 entradas; próximo ordinal 3001, ἀνασχέσθαι. Auditoria independente, testes dinâmicos e integração pendentes"
   },
   "batches": [
     {
@@ -703,7 +703,16 @@
       "start_entry": "ἀναπληρωτέον",
       "end_entry": "ἀναστατόω-ῶ",
       "entry_count": 100,
-      "status": "incorporado em chat-gpt-dgp; colação preliminar 100/100; auditoria independente, navegador e integração pendentes"
+      "status": "incorporado e publicado no GitHub em f9b760a42ea9408784d1ca5e0eac916ff4665441; 100/100 pares estáticos conferidos; auditoria independente, navegador e integração pendentes"
+    },
+    {
+      "batch": 78,
+      "start_ordinal": 2981,
+      "end_ordinal": 3000,
+      "start_entry": "ἀνασταυρόω-ῶ",
+      "end_entry": "ἀνάσχεο",
+      "entry_count": 20,
+      "status": "lote final de 20 verbetes para a meta exata 3.000, por instrução explícita; colação preliminar 20/20; auditoria independente, navegador e integração pendentes"
     }
   ],
   "editorial_rules": {
