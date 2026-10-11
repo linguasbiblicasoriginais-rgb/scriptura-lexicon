@@ -18,3 +18,5 @@ Integração: chat-gpt-thayer não integra a lista de seis origens de Rintegraca
 Commits devem ser atômicos, com conferência do HEAD remoto e atualização protegida, force=false.
 
 Padrão de popups implementado: h1 grego dos 20 verbetes possui tooltip lexical com significado; radicais e nomes hebraicos presentes na formação recebem tooltip hebraico com transliteração e significado.
+
+LOTE 002 (100 verbetes): ἀγαλλιάω → ἄθλησις; lista nominal no checkpoint; 99 números G21–G119 + entrada independente G32b (ἄγγος). Contagem total: 121 entradas THAYER. Próximo: ἀθυμέω (G120). Módulo: lexicons/thayer-batch-002.js, carregado depois de thayer.js e antes de script.js. Não deduplicar ἄγγος com ἄγγελος nem substituir por conteúdo de Strong: Strong serve só de índice para controle de sequência. Tradução portuguesa é síntese editorial atrelada às acepções de Thayer. Manter advertência: navegador/links por entrada/revisão filológica integral ainda não concluídos. Três URLs de consulta (G33, G35, G67) não foram comprovadas; não criar links nesses verbetes.

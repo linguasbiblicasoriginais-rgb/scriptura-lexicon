@@ -1,5 +1,14 @@
 # Scriptura Lexicon
 
+## THAYER — lote 002 (100 verbetes, 10/10/2026)
+
+A branch `chat-gpt-thayer` incorpora 100 verbetes novos em `lexicons/thayer-batch-002.js` de `ἀγαλλιάω` a `ἄθλησις`: entradas numeradas Thayer G21–G119 (**99**) e a entrada própria `ἄγγος` (G32b), totalizando **100** novos registros e **121** registros THAYER considerando os 21 anteriores. Próximo lema: **`ἀθυμέω` (G120)**.
+
+As 100 entradas têm linha de busca, cartão, classe gramatical, equivalentes portugueses, síntese das acepções e referências textuais, tooltip grego e proveniência. Fonte: fac-símile de Thayer (parte 1, Α–Ι), páginas impressas 3–14; consultas auxiliares Bible Hub sob `/thayers/{n}.htm` quando abertas com êxito. O número Strong funciona unicamente como índice, sem incorporar o texto de Strong. As traduções são sínteses editoriais e não transcrições integrais. As três URLs G33, G35 e G67 não tiveram acesso confirmado e, por isso, foram omitidas nos cartões respectivos; G32b usa a página comum de G32.
+
+Auditoria estrutural: 100 pares de linhas e cartões novos, alvos resolvidos, sem colisões com os 20 registros do módulo THAYER anterior ou com o cartão histórico Ἀαρών. Ainda estão pendentes testes DOM em navegador, revisão filológica integral e verificação individual de todos os endereços externos. Atualizações de `lexicons/thayer-progress.json`, `regras/Rthayer.txt` e `README.md` acompanham o commit. O ramo não foi integrado a `chat-gpt-commits`, pois ainda não está entre as origens autorizadas no integrador. Nenhuma alteração em `main`.
+
+
 ## THAYER — primeiro lote de 20 entradas (10/10/2026)
 
 Na branch `chat-gpt-thayer`, o módulo `lexicons/thayer.js` inclui 20 verbetes de `ἄλφα` a `ἀγαλλίασις`. O cartão preexistente de `Ἀαρών` permanece inalterado, totalizando **21 verbetes THAYER**. A sequência considera `ἀγαθουργέω`, lema próprio sem número Strong independente. O próximo é `ἀγαλλιάω`.
