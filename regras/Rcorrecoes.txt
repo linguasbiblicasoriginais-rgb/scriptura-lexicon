@@ -86,3 +86,40 @@ não descrevê-los como concluídos.
 Relatório: auditorias/dgp-2026-10-09-lote69.md.
 Integração autorizada somente após checar PRs mesclados e HEAD destino.
 ================================================================================
+
+
+================================================================================
+AUDITORIA DGP — LOTE 71 E RETIFICAÇÃO DE CONTAGEM (10/10/2026)
+================================================================================
+Confrontados 100 verbetes 2281–2380 com o XML original: 100 pares de lemas e definições, zero divergências nos cartões; ocorrência especial 2311 documentada. Auditoria estrutural do código gerador DGP: 2380 search-row, 2380 entry-card, 2380 IDs únicos, sem lacunas ou duplicações nos módulos carregados. Arrays de JS e cadeias HTML codificadas explicam os 1590 registros anteriormente invisíveis na contagem exclusivamente literal. Relatório: auditorias/dgp-2026-10-10-lote71.md. Não houve inspeção visual em navegador; integração continua sujeita a esse gate editorial. Branch de auditoria: chat-gpt-correcoes. Nenhum ordinal avançado nesta branch.
+================================================================================
+
+
+================================================================================
+DGP — AUDITORIA INDEPENDENTE DO LOTE 72 (10/10/2026)
+================================================================================
+Branch lexical auditada chat-gpt-dgp no commit bc3d7426b88a2498fc16c93ca029f5bf114b7ca5. XML deb54b426ead447d01ced7534736f3e77be7015b.
+Ordinais 2381–2480: confrontados 100 lemas e 100 definições completas com a fonte. 100 linhas, 100 cartões, 100 alvos/IDs válidos, zero divergências textuais. Verificados os quatro registros separados ἄν1, ἄν2, ἄν3, ἀν. Recontagem estática de todo o DGP carregado: 2480 linhas e 2480 cartões, IDs únicos, sem órfãos nem lacunas. Manifesto: 72 lotes, 2480 entradas.
+Relatório: auditorias/dgp-2026-10-10-lote72.md.
+PENDENTE: inspeção funcional/visual em navegador e revisão de popups dinâmicos. O processo de auditoria não publica PR nem merge; integração separada e condicionada ao gate editorial vigente.
+================================================================================
+
+
+================================================================================
+AUDITORIA DGP — LOTE 73 E MODULARIZAÇÃO (10/10/2026)
+================================================================================
+Revisado o commit lexical 61112cba69836b761b22076065c330dfaeadcf2a na branch chat-gpt-dgp. Faixa 2481–2580: 100/100 lemas e 100/100 definições originais conferidos contra o XML do DGP, índices completos e IDs correspondentes. Exceção do lema ausente #2483: grafia ἀνά proveniente apenas da própria abertura da definição, sem modificação de seu corpo. 
+Conferida a inclusão de lexicons/dgp-batch-073.js no index.html, após dgp-batches.js e antes de dgp-format.js/script.js. Os módulos históricos não carregados 005/006/007 não foram ativados. Total estático acumulado: 2580 linhas e 2580 cartões, 2580 IDs únicos para ambos, zero lacunas, duplicações ou alvos sem cartão. 73 lotes e 2580 registros no manifesto.
+Relatório: auditorias/dgp-2026-10-10-lote73.md.
+PENDÊNCIA expressa: testes de DOM real, popups dinâmicos, acessibilidade e apresentação visual. Esta auditoria não executa integração; PRs/merges exclusivos do integrador.
+================================================================================
+
+
+================================================================================
+AUDITORIA INDEPENDENTE DGP — LOTE 74 (10/10/2026)
+================================================================================
+Incorporação auditada: commit a9b29c233916c9adc265b34007c8b085c96fd972 em chat-gpt-dgp; ordinais 2581–2680, de ἀναδιδάσκω a ἀνακινδυνεύω. Confrontados os 100 lemas e 100 definições completas com o XML original imutável; zero divergências textuais, índices e data-target/IDs correspondentes.
+Recontagem do código carregado: 2680 linhas search-row, 2680 cartões entry-card, IDs únicos 1–2680 em ambos os conjuntos, zero lacunas, duplicações ou alvos órfãos. Conferida sequência do index.html com dgp-batch-074.js e sem ativar módulos auxiliares históricos.
+Relatório: auditorias/dgp-2026-10-10-lote74.md.
+APROVAÇÃO ESTÁTICA: fidelidade textual e integridade estrutural. PENDENTE: DOM real, popups, acessibilidade, responsividade, editoria visual e integração. Não criar PR/merge nesta etapa; exclusividade do integrador.
+================================================================================

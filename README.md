@@ -1,5 +1,36 @@
 # Scriptura Lexicon
 
+## THAYER — lote 002 (100 verbetes, 10/10/2026)
+
+A branch `chat-gpt-thayer` incorpora 100 verbetes novos em `lexicons/thayer-batch-002.js` de `ἀγαλλιάω` a `ἄθλησις`: entradas numeradas Thayer G21–G119 (**99**) e a entrada própria `ἄγγος` (G32b), totalizando **100** novos registros e **121** registros THAYER considerando os 21 anteriores. Próximo lema: **`ἀθυμέω` (G120)**.
+
+As 100 entradas têm linha de busca, cartão, classe gramatical, equivalentes portugueses, síntese das acepções e referências textuais, tooltip grego e proveniência. Fonte: fac-símile de Thayer (parte 1, Α–Ι), páginas impressas 3–14; consultas auxiliares Bible Hub sob `/thayers/{n}.htm` quando abertas com êxito. O número Strong funciona unicamente como índice, sem incorporar o texto de Strong. As traduções são sínteses editoriais e não transcrições integrais. As três URLs G33, G35 e G67 não tiveram acesso confirmado e, por isso, foram omitidas nos cartões respectivos; G32b usa a página comum de G32.
+
+Auditoria estrutural: 100 pares de linhas e cartões novos, alvos resolvidos, sem colisões com os 20 registros do módulo THAYER anterior ou com o cartão histórico Ἀαρών. Ainda estão pendentes testes DOM em navegador, revisão filológica integral e verificação individual de todos os endereços externos. Atualizações de `lexicons/thayer-progress.json`, `regras/Rthayer.txt` e `README.md` acompanham o commit. O ramo não foi integrado a `chat-gpt-commits`, pois ainda não está entre as origens autorizadas no integrador. Nenhuma alteração em `main`.
+
+
+## THAYER — primeiro lote de 20 entradas (10/10/2026)
+
+Na branch `chat-gpt-thayer`, o módulo `lexicons/thayer.js` inclui 20 verbetes de `ἄλφα` a `ἀγαλλίασις`. O cartão preexistente de `Ἀαρών` permanece inalterado, totalizando **21 verbetes THAYER**. A sequência considera `ἀγαθουργέω`, lema próprio sem número Strong independente. O próximo é `ἀγαλλιάω`.
+
+Fonte-base: fac-símile Thayer (parte 1, Α–Ι), pp. 1–3; cotejo com transcrições históricas. A tradução portuguesa preserva acepções, variantes e atribuições exegéticas, e não é substituída por conteúdo de outros léxicos. Checkpoint: [`lexicons/thayer-progress.json`](lexicons/thayer-progress.json); regras: [`regras/Rthayer.txt`](regras/Rthayer.txt). Auditoria estática: 20 linhas e 20 cartões com alvos correspondentes, 4 âncoras de injeção, sem IDs repetidos; testes em navegador/URLs individuais pendentes.
+
+A branch THAYER **não integra ainda** as seis fontes autorizadas pelo integrador em `regras/Rintegracao.txt`: nenhum PR/merge foi realizado por esta rotina. Nenhuma alteração em `main`.
+
+
+## Fontes bibliográficas impressas digitalizadas — regra de 10/10/2026
+
+Os exemplares do Internet Archive expressamente designados pelo mantenedor para **ROBINSON (três registros), ABBOTT-SMITH (três) e GESENIUS (dois)** integram o cadastro de testemunhos bibliográficos autorizado em [`regras/Rfontes-impressas.txt`](regras/Rfontes-impressas.txt). Este arquivo identifica individualmente as edições e os exemplares, documenta metadados divergentes ou não confirmados, define a autoridade do fac-símile sobre o OCR e exige rastreabilidade de lema e página.
+
+A designação como fonte canônica **não elege automaticamente uma edição-texto-base**, não altera verbetes ou checkpoints e não autoriza a fusão de leituras de edições diferentes. O arquivo [`regras/Rfontes-consulta.txt`](regras/Rfontes-consulta.txt) mantém separadamente os sítios lexicográficos digitais de consulta. Preservar os quatro níveis Fonte / Tradução / Análise / GDHAGP e as restrições editoriais e jurídicas estabelecidas nesses cadastros.
+
+## Integração DGP — PR #80, lotes 70–75 (10/10/2026)
+
+Os **600 registros DGP** dos ordinais **2.181–2.780** foram reconciliados para `chat-gpt-commits` pelo PR [#80](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/80), preservando as correções filológicas anteriores dos verbetes 95, 124 e 150, os popups e todas as demais fontes (inclusive PEREIRA e JASTROW). Os módulos `lexicons/dgp-batch-073.js`, `dgp-batch-074.js` e `dgp-batch-075.js` são carregados depois de `dgp-batches.js` e antes do formatador. O checkpoint DGP passa a **2.780 verbetes**, próximo ordinal **2.781 (`ἀνάματος, ος, ον`)**.
+
+Os lotes 70–74 possuem auditorias textuais/estruturais na branch `chat-gpt-correcoes`; o lote 75 teve auditoria estática independente **100/100**, commit [`f28a5f282f2d`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/f28a5f282f2df7f90007c55d196044acee12b145), relatório `auditorias/dgp-2026-10-10-lote75.md`. Os testes de navegador/DOM, acessibilidade e popups dinâmicos seguem pendentes. A integração não altera `main` nem as branches de origem.
+
+
 ## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
 
 **Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.

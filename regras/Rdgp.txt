@@ -749,3 +749,83 @@ e integração NÃO foram consideradas concluídas por este commit.
 Para auditoria, confrontar os 100 registros com XML, popups, índices, DOM
 e metadados, e publicar relatório na branch chat-gpt-correcoes.
 ================================================================================
+
+
+================================================================================
+REGISTRO DGP — LOTE 71 (10/10/2026)
+================================================================================
+XML canônico aniseferreira/Grc-Por-DigDict, commit deb54b426ead447d01ced7534736f3e77be7015b, arquivos_xml/01_Alfa.txt.xml.
+Ordinais 2281–2380, 100 registros entryFree consecutivos; lema inicial ἀμφαγαπάζω; final ἀμφιλαχαίνω. Próximo ordinal 2381.
+Uma linha search-row e um cartão entry-card para cada ordinal; IDs entry-dgp-2281–entry-dgp-2380, ligação por data-target e definição integral normalizada somente em espaços. Auditoria filológica independente e integração permanecem etapas posteriores; inspeção visual no navegador não executada.
+EXCEÇÃO DOCUMENTAL (ordinal 2311): o XML contém <entryFree><def> sem lema antes de <def>; a própria definição começa pela forma grega ἀμφί. A interface exibe esse mesmo elemento atestado como lema sem suprimir a sua ocorrência do corpo da definição, sinalizando a anomalia em vez de inventar outra leitura.
+AUDITORIA E RETIFICAÇÃO ESTRUTURAL: a primeira leitura parcial do código (restrita a marcações HTML literais e incluindo por engano módulos auxiliares não carregados) indicara 1590 lacunas e 60 duplicações. A recontagem correta interpreta 52 arrays JavaScript que geram 1490 cartões/linhas (141–1630) e 100 registros em cadeias HTML codificadas (1881–1980), além das marcações literais. Os auxiliares dgp-batch-005/006/007.js não são carregados no index.html, e por isso seus registros não devem ser somados novamente. Auditoria do estado após o lote 71: 2380 search-row e 2380 entry-card; 2380 IDs únicos em cada conjunto; zero lacunas, duplicações e alvos órfãos. Os lemas e definições completos dos 100 cartões do lote 71 foram conferidos com o XML, sem divergências textuais; ordinal 2311 conserva exceção documental. Esta auditoria é estática; popups dinâmicos, renderização e acessibilidade em navegador ainda não verificados.
+================================================================================
+
+
+================================================================================
+REGISTRO DGP — LOTE 72 (10/10/2026)
+================================================================================
+Fonte: arquivos_xml/01_Alfa.txt.xml, aniseferreira/Grc-Por-DigDict, commit deb54b426ead447d01ced7534736f3e77be7015b; blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 2381–2480, exatamente 100 entryFree consecutivos, ἀμφιλέγω → ἀν. Próximo ordinal 2481: ἅν1.
+Cada registro fornece uma search-row e um entry-card. ID/data-target entry-dgp-2381 a entry-dgp-2480. Lemas preservados; definições completas reproduzidas com normalização somente de whitespace e escape seguro do HTML, sem reescrita de acepções. Glosas da tabela são resumos auxiliares. Incluem-se separadamente os quatro registros do fim da faixa: ἄν1 (2477), ἄν2 (2478), ἄν3 (2479) e ἀν (2480).
+Auditoria pré-publicação: 100 pares de índices e cartões; 100 lemas e definições confrontados com o XML; zero IDs repetidos na faixa. Nenhuma URL externa nova. Auditoria remota posterior e independente prevista em chat-gpt-correcoes, sem alterar este checkpoint; testes em navegador, popups dinâmicos e integração ainda pendentes.
+================================================================================
+
+
+================================================================================
+CONFIRMAÇÃO PÓS-PUBLICAÇÃO — AUDITORIA INDEPENDENTE DO LOTE 72 (10/10/2026)
+================================================================================
+Relatório na branch chat-gpt-correcoes: auditorias/dgp-2026-10-10-lote72.md, commit db9c03538c3c0f8482004b76cfe7f4c880d13569.
+Confirmados remotamente 100/100 lemas e definições completas, 100 linhas e cartões do lote 72 com atributos e alvos correspondentes. Total estrutural no código DGP: 2480 linhas e 2480 cartões, IDs únicos, sem faltas nem duplicações. Os quatro verbetes finais (ἄν1, ἄν2, ἄν3, ἀν) permanecem independentes. Próximo ordinal: 2481, ἅν1.
+Esta atualização é ADMINISTRATIVA: não cria verbetes nem adianta checkpoint. Aprovação filológica/estrutural ESTÁTICA; testes visuais, ativação de popups e merge em chat-gpt-commits continuam PENDENTES.
+================================================================================
+
+
+================================================================================
+NOVO PADRÃO MODULAR E INCORPORAÇÃO DGP — LOTE 73 (10/10/2026)
+================================================================================
+A partir do lote 73, criar um novo arquivo lexicons/dgp-batch-NNN.js para cada grupo de 100 ordinais canônicos. Manter intacto lexicons/dgp-batches.js (ordinais anteriores). Acrescentar o script de cada novo lote ao index.html após dgp-batches.js e antes de dgp-format.js e script.js; ordenar numericamente. Cada arquivo só acumula rowsHtml e cardsHtml no window.ScripturaLexicons.DGP. Os arquivos auxiliares antigos dgp-batch-005/006/007.js NÃO devem ser carregados: representam registros já incorporados e os duplicariam. Atualizar README.md, lexicons/dgp-progress.json, regras/estado-orquestracao.json e esta norma no mesmo commit lexical. Esta política é preventiva em relação ao tamanho de requisições; NÃO há comprovação técnica de que o tamanho causou o bloqueio anterior.
+Lote 73: ordinais 2481–2580 (ἅν1 → ἀνάδημα, ατος (τό)), fonte XML arquivos_xml/01_Alfa.txt.xml no commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2. O próximo é 2581 (ἀναδιδάσκω).
+Exceção documental #2483: o elemento entryFree não contém lema antes de def; o próprio texto da definição começa pela grafia ἀνά, empregada como identificação editorial no cabeçalho sem retirar sua ocorrência do texto integral da definição. Essa identificação não deve ser atribuída a um campo XML inexistente.
+Lote gerado com 100 linhas search-row e 100 cartões entry-card, correspondência de data-target e id; acepções textuais completas preservadas com somente normalização de whitespace e escape HTML. Abreviaturas/popups dinâmicos e rendering/acessibilidade demandam teste funcional independente. Fase posterior: relatório de auditoria em chat-gpt-correcoes; integração exclusivamente pelo integrador.
+================================================================================
+
+
+================================================================================
+CONFIRMAÇÃO PÓS-PUBLICAÇÃO — AUDITORIA DGP LOTE 73 (10/10/2026)
+================================================================================
+O commit de incorporação 61112cba69836b761b22076065c330dfaeadcf2a foi auditado de forma estática contra o XML canônico e os módulos efetivamente carregados no GitHub. Auditoria na branch chat-gpt-correcoes: commit 413c870f0e0abadaf9b50bb1604eb95dabf6c97d, relatório auditorias/dgp-2026-10-10-lote73.md.
+Conferidos 100/100 lemas e definições integrais dos ordinais 2481–2580. O arquivo novo lexicons/dgp-batch-073.js está incluído uma vez no index.html, depois de dgp-batches.js. A recontagem estrutural de dgp.js, dgp-batches.js e dgp-batch-073.js resultou em 2580 search-row e 2580 entry-card, com 2580 IDs únicos, zero lacunas, duplicações e alvos órfãos; 73 lotes e 2580 verbetes no manifesto.
+Esta sincronização é ADMINISTRATIVA: não modifica o arquivo lexical novo nem avança o ordinal 2581. Auditoria de navegador/DOM, popups dinâmicos, acessibilidade e integração permanecem PENDENTES.
+================================================================================
+
+
+================================================================================
+REGISTRO DGP — INCORPORAÇÃO MODULAR DO LOTE 74 (10/10/2026)
+================================================================================
+Fonte canônica: aniseferreira/Grc-Por-DigDict, arquivos_xml/01_Alfa.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+100 elementos entryFree consecutivos, ordinais 2581–2680, ἀναδιδάσκω → ἀνακινδυνεύω; próximo 2681 (ἀνακινέω-ῶ).
+Módulo exclusivo lexicons/dgp-batch-074.js, incluído pelo index.html logo após dgp-batch-073.js, antes de dgp-format.js/script.js. O arquivo dgp-batches.js e os auxiliares antigos 005–007 permanecem intocados.
+100 search-row/entry-card, IDs e data-target entry-dgp-2581..entry-dgp-2680, proveniência DGP. Definições integrais preservadas sem paráfrase, somente normalização de espaços e escape HTML. Índice de busca conserva definição completa; glosa curta apenas auxiliar. Nenhuma URL nova.
+Colação preliminar 100/100 lemas e definições; auditoria remota de conteúdo, contagem estrutural, popups e DOM em etapas distintas. Política de retentativas para falhas TRANSITÓRIAS: até três tentativas totais por operação (inicial + duas), sempre reconsultando o HEAD e evitando commits duplicados. Não repetir erros permanentes ou bloqueios explícitos de segurança; registrar mensagem literal. Não desativar agendamentos.
+================================================================================
+
+
+================================================================================
+CONFIRMAÇÃO PÓS-PUBLICAÇÃO — AUDITORIA INDEPENDENTE DO LOTE 74 (10/10/2026)
+================================================================================
+Commit lexical auditado: a9b29c233916c9adc265b34007c8b085c96fd972, chat-gpt-dgp. Relatório de auditoria independente: auditorias/dgp-2026-10-10-lote74.md, commit c594632d58936f9ec574ce66deec0f72cbc4c670, branch chat-gpt-correcoes.
+Conferência dos 100 verbetes 2581–2680: 100/100 lemas da busca/cartões, definições integrais e índices em correspondência ao XML fixado. Recontagem estática do corpus: 2680 linhas de busca, 2680 cartões, 2680 IDs únicos em cada, zero ausências, duplicações ou alvos órfãos. Sequência do index.html: dgp.js, dgp-batches.js, dgp-batch-073.js, dgp-batch-074.js, dgp-format.js, script.js. O módulo 074 é carregado uma única vez.
+Checkpoint permanece 2681 (ἀνακινέω-ῶ); atualização estritamente administrativa, nenhum lexema criado ou modificado. Popups dinâmicos, renderização, acessibilidade e integração continuam PENDENTES.
+================================================================================
+
+
+================================================================================
+REGISTRO DGP — INCORPORAÇÃO MODULAR DO LOTE 75 (10/10/2026)
+================================================================================
+Fonte: aniseferreira/Grc-Por-DigDict, arquivos_xml/01_Alfa.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 2681–2780: 100 elementos entryFree consecutivos, de ἀνακινέω-ῶ a ἀναμάσσω,; próximo ordinal 2781: ἀνάματος, ος, ον.
+Arquivo exclusivo lexicons/dgp-batch-075.js, carregado por index.html depois do lote 74 e antes do formatador e script.js. Um search-row e um entry-card por ordinal, com IDs e data-target correspondentes; texto integral preservado com normalização apenas de whitespace e escape seguro de HTML; glosa abreviada somente para tabela de busca. Nenhum link externo novo foi criado.
+Conferência editorial prévia: 100 registros, 100 lemas e definições colados ao XML fixado, 100 linhas de busca, 100 cartões, zero lacunas e duplicações dentro do lote, atributos corretos e ordem de scripts conferida. O total 2780 é checkpoint (2680 previamente auditados + 100 novos); não representa ainda recontagem global independente nesta rodada.
+Auditoria independente na branch chat-gpt-correcoes, navegação/DOM/popups dinâmicos e integração pelo responsável são ETAPAS POSTERIORES. Esta etapa NÃO cria PR nem altera outras branches ou main. O SHA do commit lexical deve ser verificado no HEAD remoto após publicação.
+================================================================================
