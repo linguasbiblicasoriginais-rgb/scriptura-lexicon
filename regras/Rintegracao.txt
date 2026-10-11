@@ -1,3 +1,17 @@
+ADENDO HALOT — 10/10/2026 (PREVALECE PARA A NOVA FONTE)
+
+Por indicação expressa do mantenedor, fica registrada a branch de origem
+chat-gpt-halot, exclusiva da fonte HALOT, conforme regras/Rhalot.txt.
+A regra histórica de SEIS origens e as tarefas agendadas efetivamente
+implantadas abaixo NÃO devem ser confundidas com uma automação HALOT.
+A nova branch poderá gerar PR de integração para chat-gpt-commits,
+com auditoria, verificações e merge efetivo, conservando a origem;
+NÃO realizar PR/merge de lotes HALOT ainda não auditados.
+A presente inclusão é DOCUMENTAL e NÃO instala, ativa nem modifica
+agendamento; qualquer inclusão de HALOT no integrador automático
+requer ajuste expresso de sua configuração e validação técnica.
+Nenhuma alteração em main ou em checkpoints de outras fontes.
+
 RINTEGRACAO — NORMA EXCLUSIVA DO AGENDAMENTO DE INTEGRAÇÃO (09/10/2026)
 
 1. Frequência: a cada 3 horas, oito verificações por dia; independente das quatro rotinas horárias.
@@ -114,3 +128,7 @@ dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
     expected_sha/force=false antes da atualização. Verificar que
     PR #66 ficou sem conflitos e permaneceu ABERTO, sem merge para main.
     Somente autorização expressa nova permite editar main.
+
+16. PR #80 — resolução DGP (10/10/2026)
+    Origem chat-gpt-dgp (70f09b8348b35d7a4b82fe2eed2a2759024691cb) → base chat-gpt-commits (e8025f6df839843aeb6ab214e34e30c2d76a8a62); merge-base 9e3717634532dd3dd34204531424b419036fede6. Preservar o conteúdo da base, inclusive BDAG, LEH, PEREIRA, JASTROW e correções visuais. Preservar dgp.js da base com novos popups. Conservar dgp-batches.js da base nos ordinais 1–2180 e acrescentar SOMENTE os lotes 70–72 (2181–2480) da origem. Preservar as correções dos verbetes 95/124/150 do destino. Incorporar os novos módulos 073/074/075 (2481–2780) na ordem e antes do formatador, sem eliminar pereira.js. Usar o manifesto do DGP para os lotes 70–75, conservando o estado integrado do lote 69. Não substituir o manifesto legado BDAG regras/estado-orquestracao.json; novo snapshot DGP exclusivamente em regras/estado-orquestracao-dgp.json. Rdgp da origem é extensão exata do Rdgp da base; README conserva as demais frentes, com adendo DGP.
+    Auditorias estáticas dos lotes 70–74 documentadas em chat-gpt-correcoes. Lote 75 aprovado estaticamente em f28a5f282f2df7f90007c55d196044acee12b145 (100/100), com DOM, acessibilidade e popups dinâmicos pendentes. A resolução usa commit de dois pais reais diretamente na base com expected_sha e force=false; confirmar merged=true do PR, SHA final e integridade remota, preservando as origens. Sem alterações em main ou force push.

@@ -1,0 +1,172 @@
+RFONTES-CONSULTA — FONTES LEXICOGRÁFICAS EM SITES DE CONSULTA
+Scriptura Lexicon / GDHAGP
+Instituído em: 10/10/2026.
+Caminho canônico: regras/Rfontes-consulta.txt
+Codificação: UTF-8; texto simples.
+
+=====================================================================
+01. OBJETO E ALCANCE
+=====================================================================
+
+Este cadastro estabelece os endereços indicados expressamente pelo
+mantenedor para consulta de OITO obras/conjuntos lexicográficos, em
+ONZE URLs, nas frentes grega, hebraica e aramaica do Scriptura Lexicon.
+
+As referências abaixo são CANÔNICAS ENQUANTO FONTES DE CONSULTA,
+não uma autorização de importação em massa ou substituição automática
+dos testemunhos primários já fixados para cada léxico.
+
+Distinguir sempre:
+- OBRA LEXICOGRÁFICA: autor, edição e texto específico do dicionário;
+- SÍTIO DE CONSULTA: interface que disponibiliza o texto da obra;
+- FONTE PRIMÁRIA FIXADA: arquivo, edição, repositório ou snapshot
+  escolhido na regra operacional específica de uma frente;
+- CAMADA DO GDHAGP: tradução, análise ou elaboração própria, quando
+  autorizadas e claramente identificadas.
+
+A presença de uma obra em múltiplos sites NÃO autoriza amalgamar
+transcrições, alterar acepções, homógrafos, exemplos, grafia ou
+referências. Confrontar diferenças de edição, cobertura, transcrição,
+OCR, normalização e indexação antes de escolher uma leitura.
+
+=====================================================================
+02. GREGO
+=====================================================================
+
+DGP — Dicionário Grego-Português
+  [DGP-01] http://perseidas.fclar.unesp.br/
+  Função: portal de consulta indicado para o DGP.
+  Regra específica: regras/Rdgp.txt.
+  Fonte primária da incorporação existente: XML do repositório
+  aniseferreira/Grc-Por-DigDict, snapshot/commit fixado em Rdgp.txt.
+  O portal NÃO substitui o XML fixado nem altera os ordinais.
+
+LSJ — A Greek-English Lexicon (Liddell–Scott–Jones)
+  [LSJ-01] https://perseids-project.github.io/lsj-js/
+  [LSJ-02] https://philolog.us/
+  [LSJ-03] https://folio2.furman.edu/lsjj/
+  Função: três portais de consulta ao LSJ indicados pelo mantenedor.
+  Confirmar a obra/edição e o texto do verbete antes de tomar
+  variantes de transcrição como mudanças do original.
+  Nenhum desses portais substitui automaticamente uma edição
+  bibliográfica identificada do LSJ.
+
+PEREIRA — dicionário grego-português de consulta digital
+  [PEREIRA-01] https://dicionariogrego.com/
+  Função: portal de consulta canônico da frente PEREIRA.
+  Regra específica: regras/Rpereira.txt.
+  Preservar a API própria e seus procedimentos de extração, ordenação
+  e auditoria que já estejam documentados em Rpereira.txt.
+  O portal e a API não devem ser confundidos com o DGP.
+
+THAYER — Greek-English Lexicon of the New Testament
+  [THAYER-01] https://m.egwwritings.org/en/book/14726.14829/toc
+  [THAYER-02] https://biblehub.com/thayers/1.htm
+  Função: duas interfaces de consulta ao Thayer.
+  A navegação do Bible Hub pode empregar números de Strong;
+  o número de índice NÃO é, por si, o lema grego, a paginação
+  da edição ou prova de equivalência entre entradas.
+  Identificar a edição, lema, homografia e cobertura antes de
+  harmonizar as duas transcrições.
+
+=====================================================================
+03. HEBRAICO E ARAMAICO
+=====================================================================
+
+JASTROW — Dictionary of the Targumim, Talmud Babli, Yerushalmi
+          and Midrashic Literature (hebraico e aramaico rabínicos)
+  [JASTROW-01] https://www.sefaria.org/Jastrow
+  Função: interface de consulta ao Jastrow na Sefaria.
+  Não confundir sua cobertura lexical rabínica com um
+  dicionário restrito ao hebraico bíblico.
+
+BDB HEBRAICO — Brown–Driver–Briggs, seção hebraica
+  [BDB-H-01] https://www.sefaria.org/BDB?tab=contents
+  Função: interface de consulta ao BDB hebraico na Sefaria.
+
+BDB ARAMAICO — Brown–Driver–Briggs, seção aramaica
+  [BDB-A-01] https://www.sefaria.org/BDB_Aramaic?tab=contents
+  Função: interface de consulta ao BDB aramaico na Sefaria.
+  Manter esta seção editorial e tecnicamente DISTINTA do BDB hebraico.
+
+KLEIN — Klein Dictionary / Etymological Dictionary of the Hebrew Language
+  [KLEIN-01] https://www.sefaria.org/Klein_Dictionary?tab=contents
+  Função: interface de consulta ao Klein na Sefaria.
+  Identificar etimologias como proposições do próprio Klein;
+  não convertê-las automaticamente em fatos estabelecidos
+  ou importá-las como etimologias de outros léxicos.
+
+=====================================================================
+04. VERIFICAÇÃO INICIAL DOS ENDEREÇOS — 10/10/2026
+=====================================================================
+
+Verificou-se somente ACESSO ÀS INTERFACES, quando possível, e não a
+concordância exaustiva de lemas/edições nem direitos de reutilização.
+
+Confirmado, por consulta pública de página/interface:
+  LSJ-01: página identificada como LSJ Lexicon; requer JavaScript.
+  PEREIRA-01: página identificada como Dicionário Grego.
+  THAYER-02: página identificada como Thayer's Greek Lexicon;
+             verbete de Α/ἄλφα apresentado.
+  JASTROW-01: página Jastrow na Sefaria.
+  BDB-H-01: página BDB na Sefaria.
+  BDB-A-01: página BDB Aramaic na Sefaria.
+  KLEIN-01: página Klein Dictionary na Sefaria.
+
+Sem confirmação direta nesta verificação, por erro de acesso
+ou limitação da ferramenta utilizada (NÃO prova de indisponibilidade):
+  DGP-01: tempo esgotado (timeout).
+  LSJ-02: resposta inesperada na ferramenta de consulta.
+  LSJ-03: ausência de página em cache (cache miss).
+  THAYER-01: resposta inesperada na ferramenta de consulta.
+
+A edição/rota LSJ https://folio2.furman.edu/lsj/ apareceu em busca
+externa como alternativa funcional; não substituir LSJ-03
+automaticamente. Validar a equivalência antes de qualquer mudança.
+
+Os estados acima são um registro DATADO, não um serviço de
+monitoramento permanente. A ausência de validação direta não elimina
+a fonte indicada pelo mantenedor.
+
+=====================================================================
+05. REGRAS DE UTILIZAÇÃO OBRIGATÓRIAS
+=====================================================================
+
+1. Este registro não altera o conjunto nem o texto dos verbetes já
+   incorporados, não altera checkpoints nem a precedência de
+   fontes primárias fixadas nas regras específicas.
+2. Consultar a página identificada e a edição concreta do léxico;
+   nunca inferir que todo espelho reproduz a mesma versão.
+3. Registrar por verbete, quando necessário: obra, portal, URL
+   exata validada, edição, lema, eventual ID e data de consulta.
+4. Não construir links de verbete por analogia numérica, slug,
+   transliteração, identificador Strong ou caminho da Sefaria sem
+   verificar o destino semântico exato.
+5. Links meramente documentais do presente cadastro podem apontar
+   para as páginas-base indicadas. Links da interface pública para
+   verbetes ou passagens exigem validação individual conforme o README.
+6. Preserve-se a separação Fonte / Tradução / Análise / GDHAGP.
+   Discordâncias entre LSJ, DGP, Pereira, Thayer, Jastrow, BDB
+   e Klein devem ser atribuídas às suas respectivas obras.
+7. Não completar silenciosamente lacunas de um léxico com outro,
+   nem alterar ortografia, número de acepções, remissões ou
+   sentidos por parecerem mais corretos em outro sítio.
+8. Respeitar autoria, atribuição, licenças, termos de acesso e
+   direitos autorais de cada publicação/interface. Consulta
+   pública não equivale a permissão de redistribuição integral.
+9. Atualizar e datar esta lista quando o mantenedor acrescentar
+   fontes ou quando houver prova de mudança de URL. Preservar
+   histórico e justificar substituições/adições.
+10. Ao incorporar ou revisar fontes futuras, ler o presente
+    cadastro e a regra específica da fonte. A regra específica
+    tem precedência para a extração e os checkpoints; este
+    cadastro governa a relação de sites de consulta indicados.
+11. Nenhuma entrada lexical, auditoria de verbetes ou integração
+    pendente é declarada concluída pela simples criação desta regra.
+12. Alterações em README e em regras específicas de outros ramos
+    devem ser propagadas pelos fluxos de integração autorizados,
+    sem sobrescrever progresso lexical nem excluir branches.
+
+=====================================================================
+FIM DO CADASTRO CANÔNICO DE FONTES DE CONSULTA
+=====================================================================

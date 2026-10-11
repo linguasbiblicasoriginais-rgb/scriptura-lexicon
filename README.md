@@ -12,6 +12,26 @@
 **Ainda pendente:** confronto filológico independente e integral (incluindo exemplos e notas que ficaram somente no XML), execução de testes em navegador, verificação exaustiva dos popups e revisão de links. Por isso, o checkpoint mantém `total_audited=0` e `total_integrated=0`; **não há PR/merge autorizado pela auditoria desta rodada**. A branch `main` não foi alterada. O histórico abaixo registra estados anteriores e não deve ser tomado como contador atual.
 
 
+
+## HALOT — fonte e branch registradas (10/10/2026)
+
+O **HALOT** (*The Hebrew and Aramaic Lexicon of the Old Testament*) passa a integrar o cadastro documental do Scriptura Lexicon com **branch própria** `chat-gpt-halot`. A fonte indicada pelo mantenedor é o PDF **Study Edition, volume 1**, disponível em [yausha.com.br](https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf). O protocolo canônico de proveniência, distinção de edições, escopo, checkpoints e integração está em [`regras/Rhalot.txt`](regras/Rhalot.txt).
+
+**Estado:** cadastro e branch, sem incorporação lexical ou tarefa agendada comprovada para HALOT. O link foi designado pelo mantenedor, mas a inspeção bibliográfica integral do PDF ainda é pendente. Não confundir o volume 1 da *Study Edition* com os volumes da edição maior de KBS/HALOT; não alterar `main` nem o estado das outras fontes. O destino de consolidação continua `chat-gpt-commits`, sujeito à auditoria e à confirmação do PR/merge.
+
+## Fontes bibliográficas impressas digitalizadas — regra de 10/10/2026
+
+Os exemplares do Internet Archive expressamente designados pelo mantenedor para **ROBINSON (três registros), ABBOTT-SMITH (três) e GESENIUS (dois)** integram o cadastro de testemunhos bibliográficos autorizado em [`regras/Rfontes-impressas.txt`](regras/Rfontes-impressas.txt). Este arquivo identifica individualmente as edições e os exemplares, documenta metadados divergentes ou não confirmados, define a autoridade do fac-símile sobre o OCR e exige rastreabilidade de lema e página.
+
+A designação como fonte canônica **não elege automaticamente uma edição-texto-base**, não altera verbetes ou checkpoints e não autoriza a fusão de leituras de edições diferentes. O arquivo [`regras/Rfontes-consulta.txt`](regras/Rfontes-consulta.txt) mantém separadamente os sítios lexicográficos digitais de consulta. Preservar os quatro níveis Fonte / Tradução / Análise / GDHAGP e as restrições editoriais e jurídicas estabelecidas nesses cadastros.
+
+## Integração DGP — PR #80, lotes 70–75 (10/10/2026)
+
+Os **600 registros DGP** dos ordinais **2.181–2.780** foram reconciliados para `chat-gpt-commits` pelo PR [#80](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/80), preservando as correções filológicas anteriores dos verbetes 95, 124 e 150, os popups e todas as demais fontes (inclusive PEREIRA e JASTROW). Os módulos `lexicons/dgp-batch-073.js`, `dgp-batch-074.js` e `dgp-batch-075.js` são carregados depois de `dgp-batches.js` e antes do formatador. O checkpoint DGP passa a **2.780 verbetes**, próximo ordinal **2.781 (`ἀνάματος, ος, ον`)**.
+
+Os lotes 70–74 possuem auditorias textuais/estruturais na branch `chat-gpt-correcoes`; o lote 75 teve auditoria estática independente **100/100**, commit [`f28a5f282f2d`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/f28a5f282f2df7f90007c55d196044acee12b145), relatório `auditorias/dgp-2026-10-10-lote75.md`. Os testes de navegador/DOM, acessibilidade e popups dinâmicos seguem pendentes. A integração não altera `main` nem as branches de origem.
+
+
 ## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
 
 **Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
@@ -406,7 +426,6 @@ Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981�
 **Fonte estabelecida:** Marcus Jastrow, *A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature*, [Sefaria — Jastrow](https://www.sefaria.org/Jastrow?tab=contents). Em 10/10/2026 a interface da obra era acessível, mas as consultas de índice, palavras, autocompletar e texto da API não puderam ser recuperadas pela ferramenta de navegação desta sessão. Sem os registros integrais, ficaram expressamente suspensas extração, tradução, construção de `search-row`/`entry-card`, auditoria editorial e integração; não se criaram lemas fictícios.
 
 **Fluxo obrigatório:** obter sequência canônica e conteúdo verificável → traduzir integralmente para português brasileiro preservando a camada Fonte → incorporar até 200 entradas reais em `chat-gpt-jastrow` → auditar independentemente em `chat-gpt-correcoes` (filologia, popups, minidicionário, minibiografias, HTML/CSS/JS, RTL/LTR, acessibilidade, links e interface) → integrar por PR para `chat-gpt-commits` após aprovação. Não alterar `main`, não apagar branches, não anunciar produção até verificar os commits e seus dados.
-
 
 ### JASTROW — retomada com fonte XML original (10/10/2026)
 

@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2181,
-    "status": "lote 69 integrado após auditoria estática; pendente teste funcional em navegador"
+    "next_ordinal": 2781,
+    "status": "Lotes 70–75 integrados após auditoria estática; inspeção funcional e popups dinâmicos pendentes"
   },
   "batches": [
     {
@@ -632,6 +632,60 @@
       "end_entry": "ἀμόθι",
       "entry_count": 100,
       "status": "integrado; auditoria estática aprovada; DOM não testado"
+    },
+    {
+      "batch": 70,
+      "start_ordinal": 2181,
+      "end_ordinal": 2280,
+      "start_entry": "ἀμοιβαῖος, ος, ον",
+      "end_entry": "ἀμυχή, ῆς (ἡ)",
+      "entry_count": 100,
+      "status": "aguardando auditoria independente"
+    },
+    {
+      "batch": 71,
+      "start_ordinal": 2281,
+      "end_ordinal": 2380,
+      "start_entry": "ἀμφαγαπάζω",
+      "end_entry": "ἀμφιλαχαίνω",
+      "entry_count": 100,
+      "status": "incorporado; aguardando auditoria independente"
+    },
+    {
+      "batch": 72,
+      "start_ordinal": 2381,
+      "end_ordinal": 2480,
+      "start_entry": "ἀμφιλέγω",
+      "end_entry": "ἀν",
+      "entry_count": 100,
+      "status": "incorporado; auditoria estática independente publicada; revisão visual/funcional pendente"
+    },
+    {
+      "batch": 73,
+      "start_ordinal": 2481,
+      "end_ordinal": 2580,
+      "start_entry": "ἅν1",
+      "end_entry": "ἀνάδημα, ατος (τό)",
+      "entry_count": 100,
+      "status": "incorporado e aprovado em colação textual e auditoria estrutural; testes funcionais e integração pendentes"
+    },
+    {
+      "batch": 74,
+      "start_ordinal": 2581,
+      "end_ordinal": 2680,
+      "start_entry": "ἀναδιδάσκω",
+      "end_entry": "ἀνακινδυνεύω",
+      "entry_count": 100,
+      "status": "incorporado; auditoria textual/estrutural independente publicada; testes de navegador e integração pendentes"
+    },
+    {
+      "batch": 75,
+      "start_ordinal": 2681,
+      "end_ordinal": 2780,
+      "start_entry": "ἀνακινέω-ῶ",
+      "end_entry": "ἀναμάσσω,",
+      "entry_count": 100,
+      "status": "incorporado; auditoria independente e integração pendentes"
     }
   ],
   "editorial_rules": {

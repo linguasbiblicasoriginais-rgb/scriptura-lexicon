@@ -1345,3 +1345,13 @@ window.ScripturaLexicons.DGP.bibliographicTerms.push(
     {key: "indir.", type: "abbr", text: "indireta (em oração interrogativa indireta)"},
     {key: "verb.", type: "abbr", text: "verbal (em adjetivo verbal)"}
 );
+
+/* Auditoria DGP lote 70: siglas de identificação segura. Não cadastrar
+ * hom. globalmente: a fonte explicita Homero/homérico. */
+window.ScripturaLexicons.DGP.bibliographicTerms.push(
+    { key: "ésql.", type: "biblio", text: "Ésquilo — poeta trágico grego, autor citado pelo DGP." },
+    { key: "eur.", type: "biblio", text: "Eurípides — poeta trágico grego, autor citado pelo DGP." },
+    { key: "tuc.", type: "biblio", text: "Tucídides — historiador grego, autor citado pelo DGP." },
+    { key: "plut.", type: "biblio", text: "Plutarco — escritor e biógrafo grego, autor citado pelo DGP." },
+    { key: "irreg.", type: "abbr", text: "irregular (forma gramatical ou flexão irregular)" }
+);
