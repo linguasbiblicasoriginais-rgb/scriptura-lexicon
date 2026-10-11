@@ -14,21 +14,20 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "total_rows": 1061,
-    "total_cards": 1061,
-    "last_lemma": "ἀπών",
-    "next_lemma": "ἀπωσάμην",
-    "first_lemma_of_latest_batch": "ἀπόχρησις, εως, ἡ",
+    "total_rows": 1081,
+    "total_cards": 1081,
+    "last_lemma": "ἀργυροκόπος, ου, ὁ",
+    "next_lemma": "ἄργυρος, ου, ὁ",
+    "first_lemma_of_latest_batch": "ἀπωσάμην",
     "last_batch_count": 20,
     "source_pdf": "fontes/fonte-bdag.pdf",
     "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
     "source_pdf_pages": [
-      39,
-      40,
-      41
+      41,
+      42
     ],
-    "parent_head": "189d55ae5fec5d974c7da1b5da1701a0ef766995",
-    "verified": "prepublication_translation_and_structural_audit",
+    "parent_head": "387236efcfd85d83bfff1e3552a78768b50c02f0",
+    "verified": "prepublication_source_and_structural_audit",
     "new_bibliographic_popups": []
   },
   "execution": {
