@@ -1,3 +1,9 @@
+## Norma canônica vigente — auditoria atômica por verbete (11/10/2026)
+
+**Auditar não significa apenas inspecionar e relatar.** Uma auditoria de verbete é uma unidade indivisível de **confronto integral com a fonte, aplicação de todas as correções fundamentadas e tecnicamente possíveis, regressão textual/filológica/funcional, registro de evidências e integração confirmada por PR**. Se restarem erros, dúvidas, testes obrigatórios não executados ou merge pendente, o verbete **não está auditado**: seu estado deve permanecer `EM_EXECUCAO`, `BLOQUEADA` ou `AGUARDANDO_INTEGRACAO`. A contagem de triagens estáticas é independente de `total_auditoria_concluida`.
+
+**Norma superior:** [regras/Rauditoria.txt](regras/Rauditoria.txt) · **ficha de evidências:** [regras/modelo-auditoria-atomica.json](regras/modelo-auditoria-atomica.json). Aplicação imediata a BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT e demais dicionários. Os relatórios antigos continuam válidos somente no escopo dos testes que realmente documentaram: por exemplo, “THAYER 512/512 estrutural” **não** significa “512/512 auditados pelo novo protocolo”. Nenhum conteúdo lexical foi reclassificado automaticamente.
+
 ## THAYER — regressão estrutural dos 512 registros (11/10/2026)
 
 Conferidos **511/511 pares** de linha/cartão dinâmicos, mais Ἀαρών estático. Não houve novo defeito detectado por parser estático. O levantamento de qualidade identificou **0/511 links dentro das seções de referências**, **19/511 menções numéricas de página reconhecíveis**, **264/511 descrições semânticas com menos de 120 caracteres** e **65/511 contendo caracteres gregos**. Essas estatísticas não estabelecem incorreção lexical nem homologação filológica; navegação real e revisão textual integral continuam pendentes. [Relatório](auditorias/thayer-2026-10-11-regressao-estatica-512.md).

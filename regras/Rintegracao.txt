@@ -1,3 +1,10 @@
+================================================================================
+REGRA CANÔNICA DE AUDITORIA ATÔMICA — GATE DE INTEGRAÇÃO (11/10/2026)
+================================================================================
+Consultar regras/Rauditoria.txt antes de aceitar qualquer declaração de “auditoria concluída”. Para cada verbete envolvido em PR de auditoria, exigir ficha individual com dez controles pertinentes, correções aplicadas (ou justificativa de nenhuma correção necessária), testes reais comprovados quando cabíveis, ausência de pendências obrigatórias e prova do estado da origem. Após o merge, conferir merged=true, SHA real e conteúdo publicado em chat-gpt-commits; SOMENTE então registrar AUDITORIA_CONCLUIDA. Antes disso: EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO. Lotes com triagem 100/100 ou “estrutura OK” NÃO satisfazem essa condição.
+Isto é regra de **rotulagem e aceitação editorial**: não apaga commits válidos, não proíbe registro de incorporação preliminar claramente rotulada, não habilita merges fora das autorizações vigentes, não modifica agendamentos e não autoriza escrita em main. Manter fontes e branches independentes; verificar HEAD e conflitos com prova da ferramenta.
+================================================================================
+
 ADENDO HALOT — 10/10/2026 (PREVALECE PARA A NOVA FONTE)
 
 Por indicação expressa do mantenedor, fica registrada a branch de origem

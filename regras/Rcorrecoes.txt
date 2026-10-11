@@ -1,3 +1,10 @@
+================================================================================
+REGRA CANÔNICA SUPERIOR — AUDITORIA ATÔMICA DE VERBETES (11/10/2026)
+================================================================================
+Em substituição ao uso histórico de “auditoria” como simples avaliação/relatório, toda auditoria de um verbete passa a incluir a verificação exaustiva da fonte, todas as correções fundamentadas, revalidação textual e filológica, testes estruturais e funcionais pertinentes, registros e integração comprovada. Ler OBRIGATORIAMENTE regras/Rauditoria.txt e preencher ficha individual conforme regras/modelo-auditoria-atomica.json. Um achado sem correção ou um teste não executado deixa o verbete EM_EXECUCAO ou BLOQUEADA, não AUDITORIA_CONCLUIDA. Uma correção publicada sem merge verificado é AGUARDANDO_INTEGRACAO. Somente evidência por artigo e merge efetivo permite contar como auditado. “Triagem estática 3300/3300” não se transforma, por esta norma, em “3300 auditorias concluídas”.
+A rotina de correções permanece autorizada a escrever SOMENTE em chat-gpt-correcoes; a integração é responsabilidade do integrador, não desta rotina. Nenhuma permissão de branch, agendamento ou custeio foi ampliada. Preservar todos os relatórios históricos e as correções comprovadas já feitas, sem reclassificá-los retroativamente.
+================================================================================
+
 RCORRECOES — PROTOCOLO DE AUDITORIA E CORRECOES DO SCRIPTURA LEXICON
 Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
 Branch exclusiva de publicação: chat-gpt-correcoes
