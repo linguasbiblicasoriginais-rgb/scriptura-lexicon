@@ -50,7 +50,8 @@ da fonte atual.
 
 Sigla da fonte: HALOT.
 Obra indicada: The Hebrew and Aramaic Lexicon of the Old Testament.
-Edição indicada no nome do arquivo: Study Edition, volume 1.
+Designação histórica da URL externa: Study Edition, volume 1 (NÃO identifica o PDF canônico).
+Edição documentada pelo frontispício do PDF versionado: CD-ROM Edition, © 1994–2000, Brill.
 Autores/editoria do léxico: Ludwig Koehler, Walter Baumgartner e
 Johann Jakob Stamm; tradução/edição inglesa associada a M. E. J.
 Richardson. Conferir os dados bibliográficos exatos no frontispício
@@ -60,7 +61,7 @@ Fonte documental indicada EXPRESSAMENTE pelo mantenedor em 10/10/2026:
 https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf
 
 Identificador interno de referência: HALOT-STUDY-V1-01.
-Abrangência documental confirmada pela indicação: VOLUME 1 SOMENTE.
+Abrangência antiga da URL: indicação de volume 1 SOMENTE; NÃO válida para o PDF canônico.
 Não presumir que os demais volumes estejam disponíveis nessa URL
 nem que esta versão tenha paginação ou conteúdo idênticos aos cinco
 volumes da edição maior de Koehler–Baumgartner (KBS/HALOT).
@@ -161,5 +162,61 @@ listas de lemas oriundas de outros dicionários.
 
 Este é um registro de tentativa sem produção lexical, NÃO uma
 certificação de revisão filológica ou publicação de 100 verbetes.
+
+======================================================================
+6. IDENTIDADE DO PDF CANÔNICO E PRIMEIRO LOTE PUBLICADO — 11/10/2026
+======================================================================
+
+A extração executada em GitHub Actions confirmou tecnicamente:
+  Fonte: fontes/fonte-halot.pdf, branch chat-gpt-halot;
+  Git blob SHA: 3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e;
+  SHA-256 do PDF: 7ba7a1346bef2ef0e8829650b2ebbf86b2ffb3e48b5a2e98f78a8b42bc86c964;
+  Extensão: 18.446.799 bytes; 3.537 páginas físicas;
+  Frontispício (página física 1): The Hebrew & Aramaic Lexicon of
+  the Old Testament, CD-ROM Edition, copyright Brill 1994–2000.
+  NÃO presumir Study Edition nem reduzir o acervo a volume 1.
+
+O texto principal inicia-se na página física 237 com a entrada
+numerada 1, a (álef); a entrada 100, dga, inicia-se na página
+física 256 e continua até a 257; a entrada 101, hD'gUa],
+inicia-se na página física 257. A transcrição eletrônica do
+hebraico foi extraída em codificação de tipo BWHEBB/legada,
+sem Unicode hebraico diretamente recuperável. Conversões de
+lemas são CANDIDATAS até conferência visual individual.
+
+Arquivo da transcrição de trabalho:
+  auditorias/halot-fonte-entradas-iniciais-fase3.txt
+Diagnósticos de extração:
+  auditorias/halot-fonte-diagnostico.json
+  auditorias/halot-fonte-diagnostico-fase2.json
+  auditorias/halot-fonte-diagnostico-fase3.json
+
+Módulo lexical na origem: lexicons/halot-batch-001.js.
+  Ordinais reais de fonte: 1–100, sem saltos.
+  Linhas de busca: 100; cartões: 100.
+  IDs exclusivos: entry-halot-0001 a entry-halot-0100.
+  Código publicado na branch: chat-gpt-halot.
+  Integrado em chat-gpt-commits: NÃO CERTIFICADO.
+
+ESTADO EDITORIAL OBRIGATÓRIO:
+  100 registros PRELIMINARES publicados, com glosas semânticas
+  portuguesas SINTÉTICAS; tradução integral ainda pendente.
+  0 registros com auditoria filológica integral concluída.
+  0 registros com auditoria de navegador concluída.
+  10 lemas foram sinalizados por caracteres desconhecidos
+  na conversão, o que NÃO implica que os demais 90 já estejam
+  filologicamente validados.
+  O arquivo transcrito preserva parte da codificação histórica
+  e não equivale à inspeção visual de páginas e colunas.
+
+NÃO classificar o lote como tradução integral aprovada, nem
+prometer completude de todos os exemplos/citações. Registros
+preliminares servem à revisão editorial posterior. Somente a
+aprovação filológica, da tradução integral e dos testes da
+interface poderá converter o lote ao estado definitivo.
+
+Progresso: lexicons/halot-progress.json.
+Próximo ordinal do arquivo: 101 (raw hD'gUa]; leitura
+candidata אֲגֻדָּה — exige confirmação visual).
 
 FIM — RHALOT
