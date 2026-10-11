@@ -1,5 +1,18 @@
 # Scriptura Lexicon
 
+
+## JASTROW — rodada editorial de 100 entradas (10/10/2026)
+
+**Estado na branch `chat-gpt-jastrow`: 110 cartões e 110 linhas de pesquisa publicados (10 anteriores + 100 novos, IDs `A00010`–`A00109`).** O próximo registro original é `A00110`, lema `אָבִיב,` (ordinal 111). A origem integral dos registros 1–200 está preservada em [`lexicons/jastrow-source-lote-0001.json`](lexicons/jastrow-source-lote-0001.json), extraída de `Sefaria/Sefaria-Data` no commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Não confundir 200 originais disponíveis com 200 traduções publicadas.
+
+**Arquivos da rodada:** [`lexicons/jastrow-011-040.js`](lexicons/jastrow-011-040.js) (30), [`lexicons/jastrow-041-080.js`](lexicons/jastrow-041-080.js) (40), [`lexicons/jastrow-081-110.js`](lexicons/jastrow-081-110.js) (30), [`lexicons/jastrow-popups.js`](lexicons/jastrow-popups.js) (49 propostas de definições: 47 novas não duplicadas, somando 55 termos únicos com as 8 definições anteriores), `index.html` e [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Os cartões apresentam versões portuguesas editadas das acepções e remissões, preservando grafias e uma camada separada com todo o XML original. Nem toda nota secundária da fonte extensa foi reescrita integralmente nos cartões; exige revisão filológica posterior.
+
+**Auditoria estática comprovada:** 100 IDs novos exclusivos e sequenciais, 100 correspondências entre lema/ID do XML e dos módulos, 110 linhas `search-row` e 110 cartões `entry-card` totais, todos os 110 `data-target` correspondentes aos IDs, âncoras instaladas, módulos carregados em ordem antes de `script.js`, ausência de colisões dos IDs JASTROW com os cartões estáticos, tags `bdi` equilibradas nas novas descrições e sintaxe JavaScript dos módulos aprovada. A revisão dos 49 popups é de cobertura parcial, não auditoria completa de todas as referências.
+
+**Ainda pendente:** confronto filológico independente e integral (incluindo exemplos e notas que ficaram somente no XML), execução de testes em navegador, verificação exaustiva dos popups e revisão de links. Por isso, o checkpoint mantém `total_audited=0` e `total_integrated=0`; **não há PR/merge autorizado pela auditoria desta rodada**. A branch `main` não foi alterada. O histórico abaixo registra estados anteriores e não deve ser tomado como contador atual.
+
+
+
 ## HALOT — fonte e branch registradas (10/10/2026)
 
 O **HALOT** (*The Hebrew and Aramaic Lexicon of the Old Testament*) passa a integrar o cadastro documental do Scriptura Lexicon com **branch própria** `chat-gpt-halot`. A fonte indicada pelo mantenedor é o PDF **Study Edition, volume 1**, disponível em [yausha.com.br](https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf). O protocolo canônico de proveniência, distinção de edições, escopo, checkpoints e integração está em [`regras/Rhalot.txt`](regras/Rhalot.txt).
@@ -408,8 +421,18 @@ Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981�
 
 ## JASTROW — implantação inicial (10/10/2026)
 
-**Estado comprovado na branch `chat-gpt-jastrow`: 0 verbetes JASTROW publicados, 0 auditados e 0 integrados.** O repositório ganhou a norma independente [`regras/Rjastrow.txt`](regras/Rjastrow.txt) e o checkpoint explícito [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Esses dois arquivos são preparação da esteira, **não** um lote de 200 verbetes.
+**Histórico da implantação inicial:** naquele momento, 0 verbetes JASTROW haviam sido publicados, auditados ou integrados. O repositório ganhou a norma independente [`regras/Rjastrow.txt`](regras/Rjastrow.txt) e o checkpoint explícito [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Esses dois arquivos são preparação da esteira, **não** um lote de 200 verbetes.
 
 **Fonte estabelecida:** Marcus Jastrow, *A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature*, [Sefaria — Jastrow](https://www.sefaria.org/Jastrow?tab=contents). Em 10/10/2026 a interface da obra era acessível, mas as consultas de índice, palavras, autocompletar e texto da API não puderam ser recuperadas pela ferramenta de navegação desta sessão. Sem os registros integrais, ficaram expressamente suspensas extração, tradução, construção de `search-row`/`entry-card`, auditoria editorial e integração; não se criaram lemas fictícios.
 
 **Fluxo obrigatório:** obter sequência canônica e conteúdo verificável → traduzir integralmente para português brasileiro preservando a camada Fonte → incorporar até 200 entradas reais em `chat-gpt-jastrow` → auditar independentemente em `chat-gpt-correcoes` (filologia, popups, minidicionário, minibiografias, HTML/CSS/JS, RTL/LTR, acessibilidade, links e interface) → integrar por PR para `chat-gpt-commits` após aprovação. Não alterar `main`, não apagar branches, não anunciar produção até verificar os commits e seus dados.
+
+### JASTROW — retomada com fonte XML original (10/10/2026)
+
+**Estado remoto verificado:** a branch exclusiva `chat-gpt-jastrow` contém **200 registros originais recuperados** no arquivo `lexicons/jastrow-source-lote-0001.json` (A00000–A00199, primeira entrada `א`, última `אבר`; seguinte `אָבַר` = A00200). O lote-fonte foi criado pelo workflow GitHub Actions no commit [d002551](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/d00255186bb0c4cae9ed2c89a11588d40c75aa88), com verificação de contagem, unicidade, IDs, integridade XML e hashes individuais. **Esses 200 são registros da camada Fonte; NÃO equivalem a 200 traduções.**
+
+A fonte determinante passou a ser o XML de origem do projeto [Sefaria-Data](https://github.com/Sefaria/Sefaria-Data/blob/947c1b91684df9f8b92f14cf0d281b5d4f29bfc7/dictionaries/Jastrow/data/01-Merged%20XML/Jastrow-full.xml), commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, blob `98292a0c219835df19b9da7cea1edbc4dcc6526d`. A Sefaria identifica a edição de Jastrow (Luzac, 1903) como domínio público. O documento XML contém 32.512 elementos `entry`, preservando homógrafos com IDs próprios. A API pública continua sendo recurso complementar; sua indisponibilidade não impede consultar esse repositório canônico.
+
+**Camada portuguesa:** os dez primeiros registros `A00000–A00009` receberam tradução editorial em `lexicons/jastrow.js`. `index.html` recebeu âncoras exclusivas de JASTROW na pesquisa e nos cartões e carrega o módulo antes de `script.js`. A auditoria estática confirmou **10 identificadores distintos**, correspondência exata aos 10 registros da fonte, uma âncora de cada tipo e carregamento correto. O próximo registro a traduzir é `A00010` (ordinal 11, `אאלר"ן`). A fonte restante (`A00010–A00199`) continua disponível para tradução sem nova consulta à API.
+
+**Pendente:** auditoria filológica independente de todos os registros traduzidos em `chat-gpt-correcoes`, testes funcionais reais no navegador, popups completos e verificação de apresentação RTL/LTR; somente depois abrir PR e mesclar em `chat-gpt-commits`. **Nenhuma alteração nesta rodada foi realizada em `main`.** Não declarar o lote de 200 completo com base apenas na extração e nos dez primeiros cartões.

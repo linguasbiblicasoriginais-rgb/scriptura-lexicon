@@ -36,3 +36,19 @@ Versão inicial: 10/10/2026
 - Falha de consulta à Sefaria não constitui evidência de inexistência do verbete. Procurar exportação canônica verificável; registrar limites e não mudar silenciosamente de fonte.
 - Em cada execução relatar commits e SHAs reais, diffs, primeiro/último lema, total publicado e novo, total auditado e pendente, resultado da integração, README e evidências dos bloqueios. Nunca declarar conclusão sem validação remota.
 - A implantação inicial pode registrar 0 verbetes e checkpoint = 1 enquanto o acesso à fonte for impedido. Esse registro é preparação técnica, NÃO entrega lexical nem auditoria de 200 entradas.
+
+## Fonte XML canônica confirmada — 10/10/2026
+- Fonte original pública confirmada: `Sefaria/Sefaria-Data`, arquivo `dictionaries/Jastrow/data/01-Merged XML/Jastrow-full.xml`, commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, blob `98292a0c219835df19b9da7cea1edbc4dcc6526d`. A Sefaria qualifica a versão de 1903 como domínio público.
+- O XML contém 32.512 elementos `entry`; cada entrada tem um atributo `id` editorial estável (p. ex. `A00000`). O mesmo `head-word` pode reaparecer em registros distintos. **Não exigir unicidade de lema nem usar somente o lema como identificador.** Usar os IDs `A00000` etc., sem substituir pelos IDs sequenciais locais do checkpoint.
+- A fonte preferencial é o XML fixado por commit, obtido diretamente pelo conector do GitHub ou pelo extrator `tools/jastrow_source.py`. A API Sefaria é alternativa de verificação, nunca pré-requisito absoluto quando o XML está acessível.
+- Lote 1: `lexicons/jastrow-source-lote-0001.json`, entrada original 1–200 (`A00000–A00199`), commit remoto `d00255186bb0c4cae9ed2c89a11588d40c75aa88`; próximo original `A00200` (`אָבַר`). Validação estática 200/200, sem confundir fonte com tradução.
+- Primeiro sublote editorial `A00000–A00009` traduzido em `lexicons/jastrow.js` e ligado aos cartões e à pesquisa via `index.html`. Próximo a traduzir: `A00010`, ordinal 11, `אאלר"ן`. Existem 190 entradas originais no lote ainda não traduzidas.
+- Auditoria independente em `chat-gpt-correcoes` e teste funcional navegador são obrigatórios antes de integração a `chat-gpt-commits`. Os dez registros traduzidos passam apenas por auditoria estática de referência, correspondência de IDs e integração declarativa; **não** são declarados filologicamente certificados.
+
+
+## Operação de 100 registros — decisão específica de 10/10/2026
+- A solicitação expressa de **100 verbetes** substitui o máximo padrão de 200 **apenas nesta rodada**, sem alteração retroativa nos registros anteriores. Intervalo real: originais 11–110, IDs A00010–A00109; início do próximo: A00110.
+- Fonte XML preservada no lote original 1–200; 100 descrições portuguesas novas em três módulos independentes, para preservar homógrafos e IDs. Sem deduções de links externos.
+- A publicação estrutural é comprovada por 110 linhas de pesquisa e 110 cartões, 110 alvos corretos e IDs únicos; 55 definições de popup únicas após deduplicação. Isso não equivale a revisão filológica independente.
+- Notas secundárias e exemplos extensos da fonte continuam integralmente no XML e nem todos foram vertidos para os cartões; revisar a completude editorial antes de aprovar o lote.
+- Checkpoint: total_publicado=110; próximo_ordinal=111; próximo_id=A00110. `total_audited` e `total_integrated` devem permanecer em zero até auditoria independente real, testes necessários e integração confirmada. Não criar PR de integração ou mesclar com aprovação presumida.
