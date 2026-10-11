@@ -27,3 +27,7 @@
 - Abrir `ἀλείφω` e confirmar tooltip `fut.` com significado `futuro (tempo verbal)` e espaço visual antes de `ἀλείψω`.
 - Abrir `ἀμφί` e `ἀνά` e confirmar a nota editorial separada da definição DGP.
 - Confirmar nenhuma mudança de quantidade no DGP, nem nos índices das demais fontes; preservar `main`.
+
+## Retificação técnica confirmada
+
+O reconhecedor global rejeita abreviaturas cuja letra seguinte seja grega, para evitar identificação dentro de palavras. Como o XML contém `fut.ἀλείψω` sem separação, a solução foi reforçada no formatador: localizar exatamente essa sequência na entrada #1627, construir um popup `fut.` **antes** de `bindTooltipEvents()` e preservar o restante do nó como texto simples precedido por um espaço. A operação é idempotente (marcador `data-dgp-future-fixed`). O registro no cadastro do DGP continua útil para ocorrências normalmente espaçadas. Ainda não há teste de navegador.

@@ -261,18 +261,49 @@
          * A abreviatura já foi identificada por enrichBibliographicTooltips.
          */
         const oilCard = document.getElementById("entry-dgp-1627");
-        const futureTerm = oilCard && oilCard.querySelector(
-            '.entry-text [data-tooltip-type="abbr"][data-tooltip-label="fut."]'
-        );
-        if (futureTerm && futureTerm.nextSibling &&
-                futureTerm.nextSibling.nodeType === 3 &&
-                /^\p{Script=Greek}/u.test(futureTerm.nextSibling.nodeValue || "")) {
-            futureTerm.parentNode.insertBefore(
-                document.createTextNode(" "), futureTerm.nextSibling
+        const futureRoot = oilCard && oilCard.querySelector(".entry-text");
+        audit.futureSpacingFixed = false;
+        audit.futureTooltipCreated = false;
+        if (futureRoot && oilCard.dataset.dgpFutureFixed !== "true") {
+            /*
+             * O enriquecedor global recusa a sigla colada a uma letra
+             * grega (proteção de fronteira). Tratar só este caso atestado.
+             */
+            const walker = document.createTreeWalker(
+                futureRoot, NodeFilter.SHOW_TEXT
             );
-            audit.futureSpacingFixed = true;
-        } else {
-            audit.futureSpacingFixed = false;
+            let node;
+            while ((node = walker.nextNode())) {
+                if (!node.parentElement ||
+                        node.parentElement.closest(".tooltip-trigger")) {
+                    continue;
+                }
+                const value = node.nodeValue || "";
+                const pos = value.indexOf("fut.ἀλείψω");
+                if (pos < 0) {
+                    continue;
+                }
+                const fragment = document.createDocumentFragment();
+                fragment.appendChild(
+                    document.createTextNode(value.slice(0, pos))
+                );
+                const popup = document.createElement("span");
+                popup.className = "abbr-help tooltip-trigger";
+                popup.setAttribute("tabindex", "0");
+                popup.dataset.tooltipType = "abbr";
+                popup.dataset.tooltipLabel = "fut.";
+                popup.dataset.tooltipText = "futuro (tempo verbal)";
+                popup.textContent = "fut.";
+                fragment.appendChild(popup);
+                fragment.appendChild(document.createTextNode(
+                    " ἀλείψω" + value.slice(pos + "fut.ἀλείψω".length)
+                ));
+                node.replaceWith(fragment);
+                audit.futureSpacingFixed = true;
+                audit.futureTooltipCreated = true;
+                oilCard.dataset.dgpFutureFixed = "true";
+                break;
+            }
         }
 
         /*
