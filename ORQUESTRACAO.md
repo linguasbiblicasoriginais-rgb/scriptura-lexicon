@@ -1,5 +1,12 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## REGRA SUPERIOR — auditoria atômica e corretiva de cada verbete (11/10/2026)
+
+A palavra **AUDITORIA**, em qualquer ciclo, tarefa independente ou lote, significa agora **diagnóstico integral do artigo + todas as correções fundamentadas possíveis + regressão completa + prova individual + integração efetiva**. O texto normativo superior é [`regras/Rauditoria.txt`](regras/Rauditoria.txt), complementado pelo modelo [`regras/modelo-auditoria-atomica.json`](regras/modelo-auditoria-atomica.json). Um relatório sem correção, um teste estático, uma contagem 100/100 de cartões ou uma triagem automática **não pode ser marcado como auditoria concluída**. Quando ferramenta, fonte, teste real ou decisão estiverem pendentes, marcar o artigo `BLOQUEADA`; quando faltar PR/merge, `AGUARDANDO_INTEGRACAO`. Conclusão individual somente após testes verificáveis e integração remota confirmada. A segurança de cada etapa persiste; “atômico” refere-se ao critério de aceitação por verbete, não a uma transação única entre branches.
+
+As rotinas agendadas e suas competências **não são alteradas ou ativadas** por este adendo. Manter ramos exclusivos, controle de concorrência, `expected_sha`/sem `force`, ramos de origem, proibição de commit em `main` e independência das fontes. O integrador não deve promover auditorias parcialmente realizadas a concluídas. Registros históricos continuam preservados e são classificáveis só pelo escopo efetivamente comprovado.
+
+
 ## PR #88 — reconciliação técnica HALOT (11/10/2026)
 
 A conciliação preserva todos os módulos e checkpoints já integrados em `chat-gpt-commits` e acrescenta os 100 registros preliminares HALOT com a fonte canônica versionada. A tradução integral, a confirmação visual das formas hebraicas, os direitos de redistribuição e os testes em navegador permanecem pendentes. Os parágrafos abaixo com `0 verbetes` representam tentativas anteriores, não o estado posterior do lote 001. A mesclagem final requer confirmação distinta; não alterar `main` nem excluir branches.
