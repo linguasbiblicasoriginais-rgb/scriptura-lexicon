@@ -134,7 +134,16 @@ def test_page(browser, base, path, expected):
     tooltip = page.locator("#lexical-tooltip")
     check(tooltip.get_attribute("aria-hidden") == "false",
           "Tooltip nao abriu pelo teclado")
-    check("futuro" in tooltip.inner_text().lower(), "Texto do popup futuro incorreto")
+    tip_snapshot = page.evaluate("""() => ({
+        visible:document.getElementById('lexical-tooltip').className,
+        aria:document.getElementById('lexical-tooltip').getAttribute('aria-hidden'),
+        text:document.getElementById('lexical-tooltip').textContent,
+        focus:document.activeElement?.outerHTML?.slice(0,300),
+        trigger:[...document.querySelectorAll('#entry-dgp-1627 [data-tooltip-label="fut."]')]
+          .map(e => e.dataset.tooltipText)
+    })""")
+    check("futuro" in (tip_snapshot["text"] or "").lower(),
+          "Texto do popup futuro incorreto: " + repr(tip_snapshot))
     page.locator("#search-input").focus()
     check(tooltip.get_attribute("aria-hidden") == "true",
           "Tooltip nao fechou ao mover o foco para a pesquisa")
