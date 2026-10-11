@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **DGP — Auditoria textual e estrutural homologada (11/10/2026):** ✓ **3.300/3.300 (100%)** na conferência estática e nos testes Chromium/Playwright sobre a montagem completa; a branch consolidada mantém **2.880/3.300 integrados**. Prova: [GitHub Actions #38174680134](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38174680134). Relatório: [homologação DGP](auditorias/dgp-homologacao-textual-estrutural-2026-10-11.md). Não implica homologação filológica, WCAG ou integração dos lotes 077–081.
+
+
 ## DGP — correções de busca, tooltip e proveniência (11/10/2026)
 
 A rotina de correções ajustou, no módulo DGP, a indexação dos corpos completos dos cartões, o tooltip da abreviatura `fut.` e a separação visual em `ἀλείφω` (#1627). Também explicita em notas editoriais os lemas recuperados #2311 e #2483. São mudanças na apresentação/índice, **sem modificar a fonte XML nem acrescentar verbetes**. Ver [relatório técnico](auditorias/dgp-reparos-funcionais-2026-10-11.md). Os módulos 077–081 ainda dependem da integração própria; os testes reais em navegador continuam obrigatórios.

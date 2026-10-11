@@ -225,3 +225,9 @@ JASTROW 100 AUDITORIA FILOLÓGICA ÚNICA 11/10/2026: A=37, C=28, P=35; 28 cartõ
 REGISTRO DGP — CORREÇÕES CONSERVADORAS (11/10/2026)
 ================================================================================
 Busca por definições completas, popup `fut.` em ἀλείφω (#1627) e notas editoriais de proveniência #2311/#2483 são tratados exclusivamente no formatador/cadastro DGP, sem emendas conjecturais no XML. Ver auditorias/dgp-reparos-funcionais-2026-10-11.md. Testes em navegador e integração dos módulos 077–081 pendentes; não declarar homologação global.
+
+
+================================================================================
+DGP — HOMOLOGAÇÃO TEXTUAL/ESTRUTURAL 3.300/3.300 (11/10/2026)
+================================================================================
+Auditoria estática do corpus fixado e teste REAL Chromium/Playwright aprovados. GitHub Actions run #38174680134, commit de teste 7381492379f4d7141e9458472c336eba00bf2c1a. Ambiente consolidado: 2.880/2.880 pares e indices completos; montagem temporaria de todos os lotes DGP: 3.300/3.300 pares e indices completos; testes funcionais de pesquisa, teclado, popups de regressao, notas e temas tambem passaram. Relatorio: auditorias/dgp-homologacao-textual-estrutural-2026-10-11.md; JSON homonimo. Marcar ✓ 3.300/3.300 APENAS no escopo textual/estrutural; 420 registros ainda requerem INTEGRACAO separada. Nao atribuir aprovacao filologica, visual/exaustiva WCAG nem testes de todos os popups a esta verificacao. Nao modificar main.
