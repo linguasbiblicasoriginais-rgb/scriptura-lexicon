@@ -6,10 +6,10 @@
   "integrated_head_examined": "e3763a9a97e54446817bc920d6f454f84b353d58",
   "reviewed_range": {
     "start_id": "A00000",
-    "end_id": "A00499",
+    "end_id": "A00599",
     "start_ordinal": 1,
-    "end_ordinal": 500,
-    "count": 500
+    "end_ordinal": 600,
+    "count": 600
   },
   "review_type": "independent_individual_philological_comparison_not_exhaustive_certification",
   "categories": {
@@ -19,14 +19,14 @@
     "V": "Verificação adicional requerida"
   },
   "counts": {
-    "S": 402,
-    "O": 80,
-    "E": 9,
-    "V": 9
+    "S": 482,
+    "O": 97,
+    "E": 10,
+    "V": 11
   },
   "fully_certified": 0,
-  "next_ordinal": 501,
-  "next_id": "A00500",
+  "next_ordinal": 601,
+  "next_id": "A00600",
   "previously_manually_reviewed_outside_range": [
     "A00156",
     "A00238",
@@ -10035,21 +10035,1886 @@
       "finding": "Sem divergência semântica central detectada na primeira passagem; exempla não homologados integralmente.",
       "correction_applied": false,
       "full_certification": false
+    },
+    {
+      "ordinal": 501,
+      "id": "A00500",
+      "source_headword": "אָהַל",
+      "source_headwords": [
+        "אָהַל"
+      ],
+      "source_definition_excerpts": [
+        "(b. h.), Pi ."
+      ],
+      "source_xml_sha256": "f37fe915bf0ec4d218ebec16cb14ab68d091817220a172c1f5ea9bbf595087cb",
+      "editorial_headword": "אָהַל",
+      "editorial_gloss": "cobrir como tenda; sombrear; formar cobertura",
+      "assessment": "S",
+      "philological_analysis": "Piel e Hifil indicam cobrir como tenda, inclusive contato ritual sobre cadáver.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 502,
+      "id": "A00501",
+      "source_headword": "אֹהֶל,",
+      "source_headwords": [
+        "אֹהֶל,",
+        "אֹוהֶל"
+      ],
+      "source_definition_excerpts": [
+        "tent, shelter ."
+      ],
+      "source_xml_sha256": "39e3de4242ba734f3685b71139f159ea107917e721a20815b0ac3ec3aba8256f",
+      "editorial_headword": "אֹהֶל,",
+      "editorial_gloss": "tenda; abrigo; cobertura ritual",
+      "assessment": "O",
+      "philological_analysis": "Tenda física, cobertura móvel e cobertura da impureza; restaurada variante lexical.",
+      "finding": "Variante de cabeçalho אֹוהֶל e variante plural אָהֳולִין não estavam registradas no cartão.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 503,
+      "id": "A00502",
+      "source_headword": "(אֹוהָל) אֳהָל",
+      "source_headwords": [
+        "(אֹוהָל) אֳהָל"
+      ],
+      "source_definition_excerpts": [
+        "(Syr. אחלא P. Sm. 125; הל, חל, v. הלל , חלל , cmp. מוהל, מוחל)",
+        "an alcalic plant , used as soap .",
+        "a mineral substance of the same use (in connection with נתר; v. however Maim. to Nid."
+      ],
+      "source_xml_sha256": "99d38a0fbfe985af2bc7166302ce232a5c16685ad21b778148de31c69dce83fe",
+      "editorial_headword": "(אֹוהָל) אֳהָל",
+      "editorial_gloss": "planta alcalina; substância mineral usada como sabão",
+      "assessment": "S",
+      "philological_analysis": "Planta e mineral alcalinos são usos diferentes; aloés bíblico é separado.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 504,
+      "id": "A00503",
+      "source_headword": "אָהֳלָא",
+      "source_headwords": [
+        "אָהֳלָא"
+      ],
+      "source_definition_excerpts": [
+        "tent, sheet ."
+      ],
+      "source_xml_sha256": "37e45a5638e4fbf1eb4ccfd1dbb80d88ffefc9f324e1b3ccc9d72764f9e4b530",
+      "editorial_headword": "אָהֳלָא",
+      "editorial_gloss": "tenda; lona; cobertura",
+      "assessment": "S",
+      "philological_analysis": "Aramaico de tenda/lona com plurais e variantes targúmicas próprias.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 505,
+      "id": "A00504",
+      "source_headword": "אַהֲלָא,",
+      "source_headwords": [
+        "אַהֲלָא,",
+        "אֹוהֳלָא"
+      ],
+      "source_definition_excerpts": [
+        "= h. אֳהָל.",
+        "(= b. h. אהלים, אהלות?) aloë (used for medicinal purposes, v. Sm. Ant. s. v. Aloë)."
+      ],
+      "source_xml_sha256": "b151c4848ea2a79a524f87541bd60624adf9b500c09acec6c6db3e74e72ecde9",
+      "editorial_headword": "אַהֲלָא,",
+      "editorial_gloss": "planta ou produto alcalino; aloés medicinal",
+      "assessment": "S",
+      "philological_analysis": "Substância de limpeza e possível aloés medicinal; equivalência bíblica incerta.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 506,
+      "id": "A00505",
+      "source_headword": "אָהֳלֹויָא",
+      "source_headwords": [
+        "אָהֳלֹויָא"
+      ],
+      "source_definition_excerpts": [
+        "(foreg.) dealer in aloë (prob. in b. h. אהלות , perfumes )."
+      ],
+      "source_xml_sha256": "d72e1e96f09bbc6dafc04b86c811fadeb8df3d08c36e119b37376ad5d9884eae",
+      "editorial_headword": "אָהֳלֹויָא",
+      "editorial_gloss": "comerciante de aloés",
+      "assessment": "S",
+      "philological_analysis": "Negociante de aloés, possivelmente aromáticos; atividade profissional.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 507,
+      "id": "A00506",
+      "source_headword": "אָהֳלֹות",
+      "source_headwords": [
+        "אָהֳלֹות"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "d13dbe65d0983cb77c4d0fac0c7a9fc93c1e991582f4e236fc1de689b456b2ea",
+      "editorial_headword": "אָהֳלֹות",
+      "editorial_gloss": "ver אָהִיל",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אָהִיל e às leis de cobertura ritual, não ao aloés.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 508,
+      "id": "A00507",
+      "source_headword": "אָהֳלַיָּא,",
+      "source_headwords": [
+        "אָהֳלַיָּא,",
+        "אֹוהֳלַיָּיא"
+      ],
+      "source_definition_excerpts": [
+        "Oholaya (tents) Eduy."
+      ],
+      "source_xml_sha256": "997c273f1f9ea57946d7476969719b7ec5dfd57795114ccc0c05d41d44f343c6",
+      "editorial_headword": "אָהֳלַיָּא,",
+      "editorial_gloss": "Oholaya; nome de localidade",
+      "assessment": "S",
+      "philological_analysis": "Topônimo Oholaya com duas grafias em Eduyot e Zevahim.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 509,
+      "id": "A00508",
+      "source_headword": "(אָהֳולִית) אָהֳלִית",
+      "source_headwords": [
+        "(אָהֳולִית) אָהֳלִית"
+      ],
+      "source_definition_excerpts": [
+        "(אהל) a group of tents, encampment; only in Pl. אָהֳלִיֹּות (= castra ) camps ."
+      ],
+      "source_xml_sha256": "60f3a66e4f7ef5ab589909531c34144a3ff3ca3cede69ccf8606fb6b57781110",
+      "editorial_headword": "(אָהֳולִית) אָהֳלִית",
+      "editorial_gloss": "acampamento; agrupamento de tendas",
+      "assessment": "O",
+      "philological_analysis": "Nome coletivo com ocorrência somente plural, não predominantemente plural.",
+      "finding": "O XML restringe o uso de אָהֳלִית ao plural; 'predominantemente no plural' enfraquecia essa afirmação.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 510,
+      "id": "A00509",
+      "source_headword": "אהמרא",
+      "source_headwords": [
+        "אהמרא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "94bcbebe0a356c7a15810574fba1ad67f7978f44eeb00a1282611a520ce2e369",
+      "editorial_headword": "אהמרא",
+      "editorial_gloss": "ver אַחְמְרָא",
+      "assessment": "S",
+      "philological_analysis": "Remissão à grafia אַחְמְרָא, sem acepção própria.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 511,
+      "id": "A00510",
+      "source_headword": "אֲהָן",
+      "source_headwords": [
+        "אֲהָן"
+      ],
+      "source_definition_excerpts": [
+        "or אֲהֵן, אֲהֹון m. (= הָן, הֲהָן, √ה־)",
+        "this, that, he who .",
+        "this place, where .",
+        "(adv. of time = על־הן, v. אַ־) thereupon, then ."
+      ],
+      "source_xml_sha256": "916e26728850d06c536c9e55e140dc5ed8f16f83273259f009423522abb0b30c",
+      "editorial_headword": "אֲהָן",
+      "editorial_gloss": "este; aquele; aquele que; onde; então",
+      "assessment": "S",
+      "philological_analysis": "Demonstrativo masculino, localização e advérbio temporal; terceira acepção assinalada.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 512,
+      "id": "A00511",
+      "source_headword": "אהנייתא",
+      "source_headwords": [
+        "אהנייתא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "86fc073a9ea9c25cf9f40f5ee76865f36c1bf0decb60c049c0c070b2205a75d4",
+      "editorial_headword": "אהנייתא",
+      "editorial_gloss": "ver הֲנָיָיה (aramaico)",
+      "assessment": "S",
+      "philological_analysis": "Forma de Ketubot remetida ao aramaico הֲנָיָיה.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 513,
+      "id": "A00512",
+      "source_headword": "אַהֲרֹון,",
+      "source_headwords": [
+        "אַהֲרֹון,",
+        "אַהֲרֹן"
+      ],
+      "source_definition_excerpts": [
+        "(b. h.) Aaron , the brother of Moses."
+      ],
+      "source_xml_sha256": "4ba1d6c29434789e2eb1e8db43317e730bc259caa0ba1c9bc97ab89c8908a6ae",
+      "editorial_headword": "אַהֲרֹון,",
+      "editorial_gloss": "Arão; irmão de Moisés",
+      "assessment": "S",
+      "philological_analysis": "Arão, irmão de Moisés, com forma hebraica alternativa.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 514,
+      "id": "A00513",
+      "source_headword": "אַהֲרֹונִית",
+      "source_headwords": [
+        "אַהֲרֹונִית"
+      ],
+      "source_definition_excerpts": [
+        "(deriv. of foreg.) of priestly parentage, Aaronide ."
+      ],
+      "source_xml_sha256": "c55ec0a8223c0ac76d04b7cd41647debd3ec0ec6f9f12861ca7b8a4d9a96f52d",
+      "editorial_headword": "אַהֲרֹונִית",
+      "editorial_gloss": "aaronita; descendente de Arão",
+      "assessment": "S",
+      "philological_analysis": "Adjetivo sacerdotal feminino; manuscrito de Munique omite a forma.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 515,
+      "id": "A00514",
+      "source_headword": "אַהֲרֹן",
+      "source_headwords": [
+        "אַהֲרֹן"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "e91d56b1a898960cc78714761c2be988653b282c1a0c6916e2440901ed96b41e",
+      "editorial_headword": "אַהֲרֹן",
+      "editorial_gloss": "ver אַהֲרֹון",
+      "assessment": "S",
+      "philological_analysis": "Variante do nome Arão, exclusivamente remissiva.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 516,
+      "id": "A00515",
+      "source_headword": "או־",
+      "source_headwords": [
+        "או־"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "412fc5800f69efc07fef35556e4e45bc7a13e8245247b3c6c6324346be75146b",
+      "editorial_headword": "או־",
+      "editorial_gloss": "prefixo de substantivos verbais; elemento grego eu-/au-",
+      "assessment": "S",
+      "philological_analysis": "Prefixo verbal nominal e representações gregas εὐ-/αὐ- são funções diferentes.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 517,
+      "id": "A00516",
+      "source_headword": "אֹו,",
+      "source_headwords": [
+        "אֹו,"
+      ],
+      "source_definition_excerpts": [
+        ", v. Ges. H. Dict. s. v.) or; או … או either … or ."
+      ],
+      "source_xml_sha256": "afed4e795578ec40b83f9517f0040ed5b3bb3f006152c40ddaa65cf853cc3e6b",
+      "editorial_headword": "אֹו,",
+      "editorial_gloss": "ou; quer... quer; ou... ou",
+      "assessment": "O",
+      "philological_analysis": "Disjunção hebraica comparada a ו־; plurais metalinguísticos da conjunção.",
+      "finding": "Uma variante de plural metalinguístico do original e as duas formas de construto são condensadas no cartão.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 518,
+      "id": "A00517",
+      "source_headword": "אֹו",
+      "source_headwords": [
+        "אֹו"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "7db2ad894269ee5ef09b0ec7ed68862f71d33ca593daef9158b62069b4037570",
+      "editorial_headword": "אֹו",
+      "editorial_gloss": "ou",
+      "assessment": "S",
+      "philological_analysis": "Conjunção aramaica “ou”, com variante editada אי.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 519,
+      "id": "A00518",
+      "source_headword": "אֹו,",
+      "source_headwords": [
+        "אֹו,"
+      ],
+      "source_definition_excerpts": [
+        "(ὁ) the ."
+      ],
+      "source_xml_sha256": "2f1ed856a3560017fb263096d9e34029c5977efc6c7dc2bfe659d9022732c060",
+      "editorial_headword": "אֹו,",
+      "editorial_gloss": "o (artigo definido grego ὁ)",
+      "assessment": "E",
+      "philological_analysis": "Transliteração do artigo grego ὁ masculino singular; glosa ampliada foi corrigida.",
+      "finding": "A glosa 'o; a' amplia indevidamente a forma masculina singular do artigo grego ὁ; corrigida para 'o (artigo grego ὁ)'.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 520,
+      "id": "A00519",
+      "source_headword": "אוּ",
+      "source_headwords": [
+        "אוּ"
+      ],
+      "source_definition_excerpts": [
+        "(contr. of אֲהוּ, אֲהִי v. הוּ , הִי) he, that, this (only in Y. Dial)."
+      ],
+      "source_xml_sha256": "6c243503313c8749546f0b42d4a92032a703a82a6daa2a52411d55470b506b46",
+      "editorial_headword": "אוּ",
+      "editorial_gloss": "ele; aquele; este",
+      "assessment": "S",
+      "philological_analysis": "Demonstrativo palestinense masculino com contraparte feminina אִי.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 521,
+      "id": "A00520",
+      "source_headword": "(אַוִּירָא) אַוָּארָא",
+      "source_headwords": [
+        "(אַוִּירָא) אַוָּארָא"
+      ],
+      "source_definition_excerpts": [
+        "(אור; cmp. h. form צַוָּאר), only in א' דליבני a pile of loose bricks with openings between , opp. to solid wall."
+      ],
+      "source_xml_sha256": "e9f3fccee1b8a02cb014319a3b98320d021c3985115dbbe88a154357e07d4edf",
+      "editorial_headword": "(אַוִּירָא) אַוָּארָא",
+      "editorial_gloss": "pilha de tijolos soltos; alvenaria vazada",
+      "assessment": "O",
+      "philological_analysis": "Construção de tijolos com vãos; etimologia persa pertence ao Arukh.",
+      "finding": "O Arukh propõe origem persa, diferente da análise da raiz hebraica; a tradução resume a distinção.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 522,
+      "id": "A00521",
+      "source_headword": "אֹוב",
+      "source_headwords": [
+        "אֹוב"
+      ],
+      "source_definition_excerpts": [
+        "shoots , v. אֵב ."
+      ],
+      "source_xml_sha256": "087313d54aa2a9e81756590fa457bc394fdf64f64e7dece4f3a5055665cd7954",
+      "editorial_headword": "אֹוב",
+      "editorial_gloss": "brotos; ver אֵב",
+      "assessment": "S",
+      "philological_analysis": "Homógrafo de brotos remetido a אֵב, distinto do espírito evocado.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 523,
+      "id": "A00522",
+      "source_headword": "אֹוב",
+      "source_headwords": [
+        "אֹוב"
+      ],
+      "source_definition_excerpts": [
+        "cited ghost ."
+      ],
+      "source_xml_sha256": "ab0dd52fb44ea982585d3887bea70b34692b8784096bc890f87c938f99724b96",
+      "editorial_headword": "אֹוב",
+      "editorial_gloss": "espírito evocado; necromancia",
+      "assessment": "S",
+      "philological_analysis": "Espírito invocado e necromante, como termos do discurso rabínico.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 524,
+      "id": "A00523",
+      "source_headword": "אוֹב,",
+      "source_headwords": [
+        "אוֹב,",
+        "אוּבָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "cb8b6e462953c257f533fa8917e9c09c713807a7181ef46f5b054888295b6e2d",
+      "editorial_headword": "אוֹב,",
+      "editorial_gloss": "necromancia; necromante; espírito evocado",
+      "assessment": "S",
+      "philological_analysis": "Aramaico de necromancia sobre ossos e crânios; relatos críticos nas fontes.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 525,
+      "id": "A00524",
+      "source_headword": "אֹובְדָן,",
+      "source_headwords": [
+        "אֹובְדָן,",
+        "אֹובְדָנָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "12a15a9466c4761644ede37a0e2b778791b51ab6cbf1b313b4c6ee7ceb09ad38",
+      "editorial_headword": "אֹובְדָן,",
+      "editorial_gloss": "ver אָבְדָּן e אַבְדָּנָא",
+      "assessment": "S",
+      "philological_analysis": "Duas grafias remitidas a verbetes de perda/destruição.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 526,
+      "id": "A00525",
+      "source_headword": "אובינות",
+      "source_headwords": [
+        "אובינות"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "d05aac29d981fdac470f95c482400eecc4070775685aae2e6b8713e7beedb28c",
+      "editorial_headword": "אובינות",
+      "editorial_gloss": "ver חֶבְיֹונָה",
+      "assessment": "S",
+      "philological_analysis": "Remissão simples a חֶבְיֹונָה.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 527,
+      "id": "A00526",
+      "source_headword": "אֹובִיסֹוס,",
+      "source_headwords": [
+        "אֹובִיסֹוס,",
+        "אֶוְוסֹוס"
+      ],
+      "source_definition_excerpts": [
+        "Ephesus , city of Ionia in Asia Minor."
+      ],
+      "source_xml_sha256": "86765dd22a1bee6dd45bea7c00e163f94300a585023c1e85745816f8d2a37bf9",
+      "editorial_headword": "אֹובִיסֹוס,",
+      "editorial_gloss": "Éfeso; cidade da Jônia",
+      "assessment": "S",
+      "philological_analysis": "Topônimo de Éfeso com variantes targúmicas e palestinenses.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 528,
+      "id": "A00527",
+      "source_headword": "אוּבָל,",
+      "source_headwords": [
+        "אוּבָל,",
+        "אֻבָל"
+      ],
+      "source_definition_excerpts": [
+        "(v. יוּבָל )",
+        "river.",
+        "as a pr. n. Ubal (The River)."
+      ],
+      "source_xml_sha256": "02e81fb60daf349e48f51f06996599805bb3098bb3e326ef0da3bbcaacad884b",
+      "editorial_headword": "אוּבָל,",
+      "editorial_gloss": "rio; Ubal",
+      "assessment": "S",
+      "philological_analysis": "Rio como nome comum e Ubal como nome próprio; alegoria em Gênesis Rabá.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 529,
+      "id": "A00528",
+      "source_headword": "אוּבְלָא,",
+      "source_headwords": [
+        "אוּבְלָא,"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "2cef1521086adb02f38b0d65be54b09d879d1e355a73d8dc08af75c5bd670ba1",
+      "editorial_headword": "אוּבְלָא,",
+      "editorial_gloss": "ver אֶבְלָא",
+      "assessment": "S",
+      "philological_analysis": "Primeiro homógrafo de אוּבְלָא remetido a אֶבְלָא.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 530,
+      "id": "A00529",
+      "source_headword": "אוּבְלָא,",
+      "source_headwords": [
+        "אוּבְלָא,"
+      ],
+      "source_definition_excerpts": [
+        "(אוּכְלָא, אָכְלָא) m. (יבל) vessel made of willow twigs; basket , or perforated trough ; (as to shape v. Sm. Ant. s. v. Călathus )."
+      ],
+      "source_xml_sha256": "73c22bc9817ed4966e20324c8519baee3b4be48d34906dc0b6e4fd4c3a2c16b0",
+      "editorial_headword": "אוּבְלָא,",
+      "editorial_gloss": "cesto de vime; recipiente perfurado",
+      "assessment": "S",
+      "philological_analysis": "Segundo homógrafo é cesto ou recipiente perfurado, inclusive do lavadeiro.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 531,
+      "id": "A00530",
+      "source_headword": "אוּבְלִים,",
+      "source_headwords": [
+        "אוּבְלִים,",
+        "אוּבְלִין"
+      ],
+      "source_definition_excerpts": [
+        "(v. אֲבֵילִין ) Ub’lim, Ub’lin ."
+      ],
+      "source_xml_sha256": "0e964f80ab899d811e7eafca0f0143c49e028ac4889ee76af3907a485f385d11",
+      "editorial_headword": "אוּבְלִים,",
+      "editorial_gloss": "Ublim; Ublin",
+      "assessment": "S",
+      "philological_analysis": "Nome plural Ublim/Ublin com leituras em Eruvin e Hulin.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 532,
+      "id": "A00531",
+      "source_headword": "אֹובַנְתָּא",
+      "source_headwords": [
+        "אֹובַנְתָּא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "81b863cbafd1bb09b0cb1669855e47fc45d7cb1eb110b595b7509f44975fff0b",
+      "editorial_headword": "אֹובַנְתָּא",
+      "editorial_gloss": "ver אֲבַנְתָּא",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אֲבַנְתָּא, sem semântica autônoma.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 533,
+      "id": "A00532",
+      "source_headword": "אוּבְצָנָא",
+      "source_headwords": [
+        "אוּבְצָנָא"
+      ],
+      "source_definition_excerpts": [
+        "(אבץ."
+      ],
+      "source_xml_sha256": "c4213498a3a72cf5ef6ee2fe27d594a28a4a99a9cde17d243558df257c658b93",
+      "editorial_headword": "אוּבְצָנָא",
+      "editorial_gloss": "pressão excessiva; sobrecarga; exaustão",
+      "assessment": "S",
+      "philological_analysis": "Esforço e exaustão por sobrecarga; Arukh diverge na grafia.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 534,
+      "id": "A00533",
+      "source_headword": "אֹובְרִיזָא",
+      "source_headwords": [
+        "אֹובְרִיזָא"
+      ],
+      "source_definition_excerpts": [
+        "f., אֹובְרִיזֹון, אֹובְרִיזִין m. (ὄβρυζον) pure gold, unalloyed ."
+      ],
+      "source_xml_sha256": "6a7743a3231d808fa21a90feb9f5f38660ecbe7220e746100ce6fc043bdaee91",
+      "editorial_headword": "אֹובְרִיזָא",
+      "editorial_gloss": "ouro puro; ouro não ligado",
+      "assessment": "S",
+      "philological_analysis": "Ouro puro com formas feminina e masculinas e modelo grego ὄβρυζον.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 535,
+      "id": "A00534",
+      "source_headword": "אוּבְשִׁין,",
+      "source_headwords": [
+        "אוּבְשִׁין,",
+        "אֻבְשִׁין"
+      ],
+      "source_definition_excerpts": [
+        "a species of inferior grapes."
+      ],
+      "source_xml_sha256": "31c395e86514646bdcaa84d1be9e527f9aa93658182c087cc215ded4521269ed",
+      "editorial_headword": "אוּבְשִׁין,",
+      "editorial_gloss": "uvas de qualidade inferior",
+      "assessment": "S",
+      "philological_analysis": "Uvas inferiores em contexto de dízimos; variantes de grafia.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 536,
+      "id": "A00535",
+      "source_headword": "אֹוג",
+      "source_headwords": [
+        "אֹוג"
+      ],
+      "source_definition_excerpts": [
+        "(cmp. אֵגֶה; Syr."
+      ],
+      "source_xml_sha256": "494574d6025756172c75716025cf01624e56db61590161f1873d6d1d9fa86967",
+      "editorial_headword": "אֹוג",
+      "editorial_gloss": "sumagre; baga avermelhada",
+      "assessment": "O",
+      "philological_analysis": "Baga de sumagre, identificada por Jastrow como Rhus coriaria.",
+      "finding": "A fonte especifica leituras variantes de Tosefta Maaserot, abreviadas no cartão.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 537,
+      "id": "A00536",
+      "source_headword": "אוּגָד",
+      "source_headwords": [
+        "אוּגָד"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "030f4502ba38697b8d481ce06513d8ed60d2e311f3f1fbf3b05e9f30cddf3e5e",
+      "editorial_headword": "אוּגָד",
+      "editorial_gloss": "ver אֵגֶד",
+      "assessment": "S",
+      "philological_analysis": "Forma remetida a אֵגֶד.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 538,
+      "id": "A00537",
+      "source_headword": "אוגדויי",
+      "source_headwords": [
+        "אוגדויי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "86f85995658c2afc8aa9a8cc009f3d13a162d714f03b5ebb6e7a75f842288988",
+      "editorial_headword": "אוגדויי",
+      "editorial_gloss": "ver אֹוגְדֹויִיקֹונְטָא",
+      "assessment": "S",
+      "philological_analysis": "Remissão a numeral grego transcrito no verbete seguinte.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 539,
+      "id": "A00538",
+      "source_headword": "אֹוגְדֹויִיקֹונְטָא",
+      "source_headwords": [
+        "אֹוגְדֹויִיקֹונְטָא"
+      ],
+      "source_definition_excerpts": [
+        "(ὀγδοήκοντα) eighty ."
+      ],
+      "source_xml_sha256": "5f5325b10fa77b49004d6508226e74a98bab97a61808fce8aeaba5186bfa65ff",
+      "editorial_headword": "אֹוגְדֹויִיקֹונְטָא",
+      "editorial_gloss": "oitenta",
+      "assessment": "O",
+      "philological_analysis": "Oitenta grego em narrativa de documento adulterado; texto corrigido.",
+      "finding": "Discussão matemática e filológica em Jerusalém Bava Batra depende de emenda; o cartão resume partes do diálogo.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 540,
+      "id": "A00539",
+      "source_headword": "(זגדור) אוֹגְדוֹר",
+      "source_headwords": [
+        "(זגדור) אוֹגְדוֹר"
+      ],
+      "source_definition_excerpts": [
+        "Ogdor (Zigdor) in Samaria."
+      ],
+      "source_xml_sha256": "696e65c417865f50be0fdd252bc1d481849358d8aae987338148785f70279d87",
+      "editorial_headword": "(זגדור) אוֹגְדוֹר",
+      "editorial_gloss": "Ogdor; Zigdor, na Samaria",
+      "assessment": "S",
+      "philological_analysis": "Topônimo samaritano Ogdor/Zigdor; variante manuscrita distinta.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 541,
+      "id": "A00540",
+      "source_headword": "אוֹגְדוּתָא",
+      "source_headwords": [
+        "אוֹגְדוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "(אֲגַד II) prolongation ."
+      ],
+      "source_xml_sha256": "c544abfd7c05aa813a5a333d49ca76bfd87d6f8eaa8b9aceee79583c27222a32",
+      "editorial_headword": "אוֹגְדוּתָא",
+      "editorial_gloss": "prolongamento; extensão",
+      "assessment": "S",
+      "philological_analysis": "Prolongamento com forma construta e variante de Targum Deuteronômio.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 542,
+      "id": "A00541",
+      "source_headword": "אוגורי",
+      "source_headwords": [
+        "אוגורי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "af7a09cd7912451dfe0b8706e921ea9e4748f73ef3869ffd797800988c1512dc",
+      "editorial_headword": "אוגורי",
+      "editorial_gloss": "ver אֵגוֹר",
+      "assessment": "S",
+      "philological_analysis": "Remissão à parte final do verbete אֵגוֹר.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 543,
+      "id": "A00542",
+      "source_headword": "(אֻגְיָא) אוּגְיָא",
+      "source_headwords": [
+        "(אֻגְיָא) אוּגְיָא"
+      ],
+      "source_definition_excerpts": [
+        "(אגי, sec. r. of אוג, v. אָוֶן ; cmp. עוּגָה) rounded off , whence a field or fields surrounded with a ridge or ditch ."
+      ],
+      "source_xml_sha256": "9e58f92021b8d89b4a55040a90497cea467a2e73f0417a4a8e84de50f8ed43e5",
+      "editorial_headword": "(אֻגְיָא) אוּגְיָא",
+      "editorial_gloss": "campo cercado por vala ou elevação",
+      "assessment": "S",
+      "philological_analysis": "Campo delimitado por vala ou elevação, com etimologia conjectural.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 544,
+      "id": "A00543",
+      "source_headword": "אוּגְיָה",
+      "source_headwords": [
+        "אוּגְיָה"
+      ],
+      "source_definition_excerpts": [
+        "(foreg.) rounded ditch, hole dug around the grape-vine ."
+      ],
+      "source_xml_sha256": "e4f74435fb71fd6bf1b2d9118a1b1dc9af461d186ec77e92ed16398cc4ceb5e5",
+      "editorial_headword": "אוּגְיָה",
+      "editorial_gloss": "sulco circular junto à videira",
+      "assessment": "S",
+      "philological_analysis": "Vala circular de videira; grafia variante em Moed Katan.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 545,
+      "id": "A00544",
+      "source_headword": "אֹוגֶן,",
+      "source_headwords": [
+        "אֹוגֶן,",
+        "הֹוגֶן"
+      ],
+      "source_definition_excerpts": [
+        "(אוג; v. foreg.) border of a vessel, rim ."
+      ],
+      "source_xml_sha256": "78006c89746db18634f18e0872b10c59010d51a012e713353a54397c4b9eb417",
+      "editorial_headword": "אֹוגֶן,",
+      "editorial_gloss": "borda; rebordo; aro; margem",
+      "assessment": "O",
+      "philological_analysis": "Borda de vaso e margens; terceiro plural é abreviado na fonte.",
+      "finding": "O plural abreviado הוֹ׳, além de אוֹגְנִים e אוֹגְנִין, estava ausente.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 546,
+      "id": "A00545",
+      "source_headword": "אוֹגָנָא",
+      "source_headwords": [
+        "אוֹגָנָא"
+      ],
+      "source_definition_excerpts": [
+        "(v. foreg.) something rounded basin, disk ."
+      ],
+      "source_xml_sha256": "cffa86d7ad8e440ef8b1b898f2f0af56f18030bc5d061035f76b8ff523b36e12",
+      "editorial_headword": "אוֹגָנָא",
+      "editorial_gloss": "bacia; disco; objeto circular",
+      "assessment": "S",
+      "philological_analysis": "Disco lunar e bolo de cera; diferenças de manuscrito e edição.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 547,
+      "id": "A00546",
+      "source_headword": "אֶוְגְּנֵס",
+      "source_headwords": [
+        "אֶוְגְּנֵס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "6c54c5e371e111fc90c963b18b82a42be5ba8de522343497008bb7d2593eecc0",
+      "editorial_headword": "אֶוְגְּנֵס",
+      "editorial_gloss": "ver אֶבְגִּינוֹס",
+      "assessment": "S",
+      "philological_analysis": "Remissão simples ao vocábulo אֶבְגִּינוֹס.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 548,
+      "id": "A00547",
+      "source_headword": "אוֹגַר",
+      "source_headwords": [
+        "אוֹגַר"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "f435256714b8309c5f455dd9f3e49ad4cd51b015ff97d3bc8c722638d398bd31",
+      "editorial_headword": "אוֹגַר",
+      "editorial_gloss": "Af'el de אֲגַר",
+      "assessment": "S",
+      "philological_analysis": "Af'el de אֲגַר, diferente do substantivo seguinte.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 549,
+      "id": "A00548",
+      "source_headword": "אוֹגַר,",
+      "source_headwords": [
+        "אוֹגַר,",
+        "אוֹגְרָא"
+      ],
+      "source_definition_excerpts": [
+        "(אָגַר, גְּרַר) heap of stones, stone-hill (h. גַּל)."
+      ],
+      "source_xml_sha256": "0be928e98d7383bbf934286b3992250eec4c3bb99d1502256114790852ec3b5e",
+      "editorial_headword": "אוֹגַר,",
+      "editorial_gloss": "montículo de pedras; pilha de pedras",
+      "assessment": "S",
+      "philological_analysis": "Amontoado de pedras com duas formas aramaicas.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 550,
+      "id": "A00549",
+      "source_headword": "אוגרוי",
+      "source_headwords": [
+        "אוגרוי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "8dcb3214ee5c518902154ffb86631e53056d998228e0e75b977eaecb30eea234",
+      "editorial_headword": "אוגרוי",
+      "editorial_gloss": "ler אוגדויי",
+      "assessment": "S",
+      "philological_analysis": "Leitura corrigida proposta para numeral grego, não forma atestada independente.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 551,
+      "id": "A00550",
+      "source_headword": "אוגרים",
+      "source_headwords": [
+        "אוגרים"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "1a9ffdd6332a5b88439f916b6552fdf9b3bf6e2c998d0b3e514bed6d9dcbf6dd",
+      "editorial_headword": "אוגרים",
+      "editorial_gloss": "ver גְּרַם (Af'el)",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao Af'el de גְּרַם.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 552,
+      "id": "A00551",
+      "source_headword": "אוגרנא",
+      "source_headwords": [
+        "אוגרנא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "ab29f17bfdeef3bb6864fc122e9fd0f0ee298538880f0a21af38f0e02a066101",
+      "editorial_headword": "אוגרנא",
+      "editorial_gloss": "ver אַגְדָּנָא",
+      "assessment": "S",
+      "philological_analysis": "Grafia remitida a אַגְדָּנָא.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 553,
+      "id": "A00552",
+      "source_headword": "אוֹגֶרֶת",
+      "source_headwords": [
+        "אוֹגֶרֶת"
+      ],
+      "source_definition_excerpts": [
+        "a knife having notches , v. אָגַר II ."
+      ],
+      "source_xml_sha256": "2b9a77f64984e6c2e2300b4d9ca2115b319934673116fb4a6af1395a48d5b2b0",
+      "editorial_headword": "אוֹגֶרֶת",
+      "editorial_gloss": "faca entalhada; lâmina com serrilhas",
+      "assessment": "S",
+      "philological_analysis": "Faca entalhada; remissão ao segundo homógrafo verbal אָגַר.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 554,
+      "id": "A00553",
+      "source_headword": "אוּד",
+      "source_headwords": [
+        "אוּד"
+      ],
+      "source_definition_excerpts": [
+        "v. Ges. H. Dict. s. v.; cmp. אֵיד) wooden poker ."
+      ],
+      "source_xml_sha256": "21f4d7ddb04e9f8f679644d512a51313b552fb4cff7f4afea4a2f232443efcbc",
+      "editorial_headword": "אוּד",
+      "editorial_gloss": "atiçador de madeira; haste para mexer o fogo",
+      "assessment": "S",
+      "philological_analysis": "Atiçador de madeira para o fogo; duas passagens talmúdicas.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 555,
+      "id": "A00554",
+      "source_headword": "אוּד,",
+      "source_headwords": [
+        "אוּד,",
+        "אוּדָא"
+      ],
+      "source_definition_excerpts": [
+        ", also fire-brand ."
+      ],
+      "source_xml_sha256": "fddf78c12754c35cd9cb62c5385792a90f36947420d6706a6e03bc6374c0f205",
+      "editorial_headword": "אוּד,",
+      "editorial_gloss": "tição; brasa de madeira; atiçador",
+      "assessment": "S",
+      "philological_analysis": "Madeira para fogo ou tição, com plurais em textos targúmicos.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 556,
+      "id": "A00555",
+      "source_headword": "אוֹדָאָה,",
+      "source_headwords": [
+        "אוֹדָאָה,",
+        "אוֹדָאוּתָא,",
+        "אוֹדוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "(ודי, Af. אודי) thanksgiving ."
+      ],
+      "source_xml_sha256": "2a382865d671786962a2d47ea1677b345d4e40a19bfef9a77b6937160f46ffba",
+      "editorial_headword": "אוֹדָאָה,",
+      "editorial_gloss": "agradecimento; ação de graças",
+      "assessment": "S",
+      "philological_analysis": "Agradecimento aramaico com variantes e derivação de Af'el.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 557,
+      "id": "A00556",
+      "source_headword": "אוּדְדָא",
+      "source_headwords": [
+        "אוּדְדָא"
+      ],
+      "source_definition_excerpts": [
+        "ed. m. (אדד, אדר, v. אָדַר: Syr."
+      ],
+      "source_xml_sha256": "09b4a6732a63eec3a35bb346af6f67977f8bf7e7bacb59dd4e5a5158f277b0e0",
+      "editorial_headword": "אוּדְדָא",
+      "editorial_gloss": "enchimento de estofado; estopa; algodão; lã",
+      "assessment": "O",
+      "philological_analysis": "Enchimento fibroso de almofadas; divergências de Arukh e manuscritos.",
+      "finding": "O aparato de grafias manuscritas de Shabbat, Bava Batra e Avodah Zarah está condensado.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 558,
+      "id": "A00557",
+      "source_headword": "אוּדְיָא",
+      "source_headwords": [
+        "אוּדְיָא"
+      ],
+      "source_definition_excerpts": [
+        "(ידי, אדי; cmp. funda = sling and purse) purse ."
+      ],
+      "source_xml_sha256": "74a591112c04cdf6836009477e24b28469318fe3cbcd23b057fcf304a402dc68",
+      "editorial_headword": "אוּדְיָא",
+      "editorial_gloss": "bolsa; porta-moedas",
+      "assessment": "S",
+      "philological_analysis": "Bolsa de denários com variante editorial em Bava Metzia.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 559,
+      "id": "A00558",
+      "source_headword": "אודיאר",
+      "source_headwords": [
+        "אודיאר"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "d5c4279cf888bcc6347e54c45243c295fb8cd651bb64e5438f893dd9ce0f09b4",
+      "editorial_headword": "אודיאר",
+      "editorial_gloss": "ver אוֹרְיָיר",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao termo אוֹרְיָיר de Tohorot.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 560,
+      "id": "A00559",
+      "source_headword": "אודייא",
+      "source_headwords": [
+        "אודייא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "7b0972e40fa588456aa71cf7ba3e43c9eac86381acb8c6d28c1a4fcfe214bf3c",
+      "editorial_headword": "אודייא",
+      "editorial_gloss": "ver אוּדְיָא",
+      "assessment": "S",
+      "philological_analysis": "Forma variante da bolsa אוּדְיָא.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 561,
+      "id": "A00560",
+      "source_headword": "אודיין",
+      "source_headwords": [
+        "אודיין"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "4f89d293510086a50aaec683f4c9156c2d0dcdbdd32de60a7caa8047ae06e2d7",
+      "editorial_headword": "אודיין",
+      "editorial_gloss": "ler אוֹרְיָין",
+      "assessment": "S",
+      "philological_analysis": "Emenda para אוֹרְיָין, proposta e não leitura canônica.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 562,
+      "id": "A00561",
+      "source_headword": "אוּדְיָינִי",
+      "source_headwords": [
+        "אוּדְיָינִי"
+      ],
+      "source_definition_excerpts": [
+        "(ידי, נדי) whatever appertains to irrigation, sprinkling arrangements ; hence the field cistern with its purtenances ."
+      ],
+      "source_xml_sha256": "dc8cc38204800bdfb5523d5a547e55226df0b039db0bb54855bd62c4fcf19966",
+      "editorial_headword": "אוּדְיָינִי",
+      "editorial_gloss": "cisterna e instalações de irrigação",
+      "assessment": "O",
+      "philological_analysis": "Aparelho de irrigação e herança; variantes e interpretação de Tosafot.",
+      "finding": "Alternativas de Tosafot, variantes manuscritas e remissão de Moed Katan ao vocábulo concorrente foram resumidas.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 563,
+      "id": "A00562",
+      "source_headword": "*אוּדְיָיתָא,",
+      "source_headwords": [
+        "*אוּדְיָיתָא,"
+      ],
+      "source_definition_excerpts": [
+        "(v. foreg.) irrigated fields ."
+      ],
+      "source_xml_sha256": "200ed4a3c875869d9c9751bba20f738685140703d5d28e78f347a20ec7392296",
+      "editorial_headword": "*אוּדְיָיתָא,",
+      "editorial_gloss": "campos irrigados",
+      "assessment": "S",
+      "philological_analysis": "Primeiro homógrafo é plural de campos irrigados.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 564,
+      "id": "A00563",
+      "source_headword": "*אוּדְיָיתָא,",
+      "source_headwords": [
+        "*אוּדְיָיתָא,"
+      ],
+      "source_definition_excerpts": [
+        "(דוע, v. אַדְווּתָא ) attendant , or superintendent of the vapor bath; cmp. אֲזִי—Y."
+      ],
+      "source_xml_sha256": "8cdde09504e05de1835d2e355e607a0c90718ab97a527011e5d91f1b53324835",
+      "editorial_headword": "*אוּדְיָיתָא,",
+      "editorial_gloss": "encarregada do banho de vapor",
+      "assessment": "S",
+      "philological_analysis": "Segundo homógrafo é encarregada de banho de vapor.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 565,
+      "id": "A00564",
+      "source_headword": "אוֹדִיצוּתָא",
+      "source_headwords": [
+        "אוֹדִיצוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "(דיץ) joy ."
+      ],
+      "source_xml_sha256": "3cf7198a21b65ba1cb061a87f72e6c41bb03cad7f3008eb21490f97dd08784fa",
+      "editorial_headword": "אוֹדִיצוּתָא",
+      "editorial_gloss": "alegria; regozijo",
+      "assessment": "S",
+      "philological_analysis": "Nome aramaico de alegria com variante da edição de Viena.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 566,
+      "id": "A00565",
+      "source_headword": "אוֹדִיקוּתָא",
+      "source_headwords": [
+        "אוֹדִיקוּתָא"
+      ],
+      "source_definition_excerpts": [
+        "prop. outlook (v. דִּיק ) hence pr. n. pl. Odikutha (h. ציץ) ."
+      ],
+      "source_xml_sha256": "f345f4f0e48f1fe9ba83b06c63b7abd49ac145aec3628e3bb1bce0fd0c38d73a",
+      "editorial_headword": "אוֹדִיקוּתָא",
+      "editorial_gloss": "mirante; Odikuta",
+      "assessment": "S",
+      "philological_analysis": "Mirante como nome comum e topônimo em Targum 2 Crônicas.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 567,
+      "id": "A00566",
+      "source_headword": "אֹודִיתָא",
+      "source_headwords": [
+        "אֹודִיתָא"
+      ],
+      "source_definition_excerpts": [
+        "(ודי) confession , esp. document stating a debtor’s admission of his indebtedness in presence of witnesses ."
+      ],
+      "source_xml_sha256": "3606c6f92a46f747fce952da7a75aa90c9df5572671737442d782704bc030daf",
+      "editorial_headword": "אֹודִיתָא",
+      "editorial_gloss": "confissão formal de dívida",
+      "assessment": "S",
+      "philological_analysis": "Confissão documental de dívida diante de testemunhas.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 568,
+      "id": "A00567",
+      "source_headword": "אֹודֶם",
+      "source_headwords": [
+        "אֹודֶם"
+      ],
+      "source_definition_excerpts": [
+        "(אדם) red substance, fleshy substance [cmp."
+      ],
+      "source_xml_sha256": "153735e2f2145e9154a2eb901b509a3ca30c74773b4cb7360420222062bfbe54",
+      "editorial_headword": "אֹודֶם",
+      "editorial_gloss": "substância vermelha; parte carnosa",
+      "assessment": "S",
+      "philological_analysis": "Substância vermelha em embriologia antiga e normas de pureza.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 569,
+      "id": "A00568",
+      "source_headword": "אֹודֶן,",
+      "source_headwords": [
+        "אֹודֶן,",
+        "אוּדַן,",
+        "אוּדָן,",
+        "אוּדְנָא,"
+      ],
+      "source_definition_excerpts": [
+        "(= h. אֹזֶן, v. Ges. H. Dict. s. v.; √אד, v. אָדַר) ear ."
+      ],
+      "source_xml_sha256": "882d30d6a08f5e7d9873d89a5d3a00039b030dc89a460b5bc9236809c05753d1",
+      "editorial_headword": "אֹודֶן,",
+      "editorial_gloss": "orelha; ouvido",
+      "assessment": "O",
+      "philological_analysis": "Primeiro homógrafo אוּדְנָא tem quatro variantes e significado orelha.",
+      "finding": "O plural adicional אֻדְנִין e a variante da edição de Viena foram abreviados na redação portuguesa.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 570,
+      "id": "A00569",
+      "source_headword": "אוּדְנָא,",
+      "source_headwords": [
+        "אוּדְנָא,"
+      ],
+      "source_definition_excerpts": [
+        "(from its shape, v. foreg. a. P. Sm. 40)",
+        "leather-bottle, jar (a liquid measure).",
+        "(Syr. אוזנא, וזנא P. Sm. 49, 1061) bath-tub ."
+      ],
+      "source_xml_sha256": "673514e70010f164ebf9fc17a3d524420baf861fa0e53f9a4e94faea9e3a9ed1",
+      "editorial_headword": "אוּדְנָא,",
+      "editorial_gloss": "jarro; medida de vinho; banheira",
+      "assessment": "O",
+      "philological_analysis": "Segundo homógrafo indica jarro/medida ou banheira; plural omitido restaurado.",
+      "finding": "O plural técnico אוּדְנִין, ligado a jarros/medidas de vinho, estava omitido.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 571,
+      "id": "A00570",
+      "source_headword": "אוּדְנָא,",
+      "source_headwords": [
+        "אוּדְנָא,"
+      ],
+      "source_definition_excerpts": [
+        "אֲדִינָא ( f. ?) (= h. אֶדֶן; cmp. b. h. הֲדֹם; √דא, דנא; cmp. דּוּךְ) foot-stool, camp-chair, folding stool ."
+      ],
+      "source_xml_sha256": "6c9479328c9d694a972642805cdf8911088f82da0c1aa87d8ebfc3c7bbb7bfc2",
+      "editorial_headword": "אוּדְנָא,",
+      "editorial_gloss": "escabelo; banqueta dobrável",
+      "assessment": "O",
+      "philological_analysis": "Terceiro homógrafo indica escabelo; gênero e plurais exigem ressalva.",
+      "finding": "Os plurais distintos אוּדְנַיָּא, אֲדִינַיָּא e a ressalva 'f.?' não haviam sido explicitados.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 572,
+      "id": "A00571",
+      "source_headword": "אוּדְרָא",
+      "source_headwords": [
+        "אוּדְרָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "0c20f478753e0a557f8e7205b37b547009e08f23aa9baadbbfb674c26df1c0f7",
+      "editorial_headword": "אוּדְרָא",
+      "editorial_gloss": "ver אֵדֶר I",
+      "assessment": "V",
+      "philological_analysis": "Remissão circular da própria fonte aguarda fac-símile.",
+      "finding": "O XML remete אוּדְרָא a si mesmo, além de אֵדֶר I. Circularidade da extração: cotejar a impressão antes de definir outro destino.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 573,
+      "id": "A00572",
+      "source_headword": "*אוּדְרָךְ",
+      "source_headwords": [
+        "*אוּדְרָךְ"
+      ],
+      "source_definition_excerpts": [
+        "(דרך) a crushing tool, pestle, pounding club ."
+      ],
+      "source_xml_sha256": "ca25669e2b2777258f6b85a641ca2a9ff257393458c9673fccfe3b58888c45b2",
+      "editorial_headword": "*אוּדְרָךְ",
+      "editorial_gloss": "pilão; soquete; ferramenta de esmagamento",
+      "assessment": "S",
+      "philological_analysis": "Ferramenta de esmagamento; Jastrow prefere leitura alternativa.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 574,
+      "id": "A00573",
+      "source_headword": "אָוָה",
+      "source_headwords": [
+        "אָוָה"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "0a3cf60719d2b6f205983e01d0a379ac08edda93342a459a98569c7b1338416a",
+      "editorial_headword": "אָוָה",
+      "editorial_gloss": "ver אוי",
+      "assessment": "S",
+      "philological_analysis": "Remissão de אָוָה à palavra אוי.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 575,
+      "id": "A00574",
+      "source_headword": "אֹוהֶל,",
+      "source_headwords": [
+        "אֹוהֶל,",
+        "אֹוהָל,",
+        "אֹוהָלָא,",
+        "אֹוהֳלַיָּיא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "f0caa659c4f60cea0b80440b897b5a107a7cc53236a0a0e3ed7fe3f233d07fec",
+      "editorial_headword": "אֹוהֶל,",
+      "editorial_gloss": "ver a família אהל",
+      "assessment": "S",
+      "philological_analysis": "Quatro variantes remetidas genericamente à família אהל.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 576,
+      "id": "A00575",
+      "source_headword": "(הֹוהֲרָא) אֹוהֲרָא",
+      "source_headwords": [
+        "(הֹוהֲרָא) אֹוהֲרָא"
+      ],
+      "source_definition_excerpts": [
+        "(= חוחרא, redupl."
+      ],
+      "source_xml_sha256": "0f481abaaed2a3ae3b0f68e8cef8c709603b5ade7d81551d4870f90eaff96ff3",
+      "editorial_headword": "(הֹוהֲרָא) אֹוהֲרָא",
+      "editorial_gloss": "rede de pescador; malha larga",
+      "assessment": "S",
+      "philological_analysis": "Rede de pesca frouxa e plural; variante no Alfasi.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 577,
+      "id": "A00576",
+      "source_headword": "אֶוְוגִּינִיסְטָאטֵי",
+      "source_headwords": [
+        "אֶוְוגִּינִיסְטָאטֵי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "d07d2b1cc884ac522715b9686c59ae48ea8ba03f23da3e7d6f44240dd526364a",
+      "editorial_headword": "אֶוְוגִּינִיסְטָאטֵי",
+      "editorial_gloss": "ver אבגניסטי",
+      "assessment": "S",
+      "philological_analysis": "Remissão ao vocábulo אבגניסטי.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 578,
+      "id": "A00577",
+      "source_headword": "אָוָוז",
+      "source_headwords": [
+        "אָוָוז"
+      ],
+      "source_definition_excerpts": [
+        "(√אוו, v. אְוַשׁ ; cmp. Syr."
+      ],
+      "source_xml_sha256": "86cf43c87c50cf91a8610a8f3f0ee1356d7fe52ae222f5bdb2467f7b4908f4ef",
+      "editorial_headword": "אָוָוז",
+      "editorial_gloss": "ganso",
+      "assessment": "S",
+      "philological_analysis": "Gansos selvagens, domésticos e aquáticos na classificação rabínica.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 579,
+      "id": "A00578",
+      "source_headword": "אַוְוזָא",
+      "source_headwords": [
+        "אַוְוזָא",
+        "אֲוָוזָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "a73cb250155d9c45893e674e6410e7d4429e701515a352eedbd1c2a95a625fc3",
+      "editorial_headword": "אַוְוזָא",
+      "editorial_gloss": "ganso; pato na expressão בר אווזא",
+      "assessment": "S",
+      "philological_analysis": "Ganso aramaico; expressão בר אווזא pode indicar pato.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 580,
+      "id": "A00579",
+      "source_headword": "אֲוַול,",
+      "source_headwords": [
+        "אֲוַול,",
+        "אַוְולָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "b59da8c687db5281fb8afe6e5d8dc2295fcf9de2e8866ec960abbbf67aa259c7",
+      "editorial_headword": "אֲוַול,",
+      "editorial_gloss": "ver אֲוַל",
+      "assessment": "S",
+      "philological_analysis": "Duas formas remitidas a אֲוַל.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 581,
+      "id": "A00580",
+      "source_headword": "אוולם,",
+      "source_headwords": [
+        "אוולם,",
+        "אוולס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "c42ea49b1e642d4760402319fba684e8a4a270bed1257de3de21e0061c22d7f2",
+      "editorial_headword": "אוולם,",
+      "editorial_gloss": "ver אַבְלַס",
+      "assessment": "S",
+      "philological_analysis": "Duas grafias remitidas a אַבְלַס.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 582,
+      "id": "A00581",
+      "source_headword": "אָוֶון",
+      "source_headwords": [
+        "אָוֶון"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "9856d8a9fb3734b3ed71785bbb33d5c9038339f6c212088b4bf360419eca732a",
+      "editorial_headword": "אָוֶון",
+      "editorial_gloss": "ver אָוֶן",
+      "assessment": "S",
+      "philological_analysis": "Remissão à forma אָוֶן.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 583,
+      "id": "A00582",
+      "source_headword": "אַוָּונָא,",
+      "source_headwords": [
+        "אַוָּונָא,",
+        "אַוְונָא"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "7a7db9a248567e8c58217c139df32b1ebd697ac4a9f3aa732025bc762160c516",
+      "editorial_headword": "אַוָּונָא,",
+      "editorial_gloss": "ver אַוְנָא e אוּדְנָא II",
+      "assessment": "S",
+      "philological_analysis": "Variantes de recipientes, com remissão ao segundo homógrafo אוּדְנָא.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 584,
+      "id": "A00583",
+      "source_headword": "אֲוַונְכַּר",
+      "source_headwords": [
+        "אֲוַונְכַּר"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "28a7e3372ada3e771daa56dfb2c94b440403de6d1060f246748ef68499e84a50",
+      "editorial_headword": "אֲוַונְכַּר",
+      "editorial_gloss": "ver אֲוַנְכַּר",
+      "assessment": "S",
+      "philological_analysis": "Grafia remitida a אֲוַנְכַּר.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 585,
+      "id": "A00584",
+      "source_headword": "אֶוְוסֹוס",
+      "source_headwords": [
+        "אֶוְוסֹוס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "1756ea2149b94d8442038ceeb82e3fddfe1e8e862cf5184ad0dd8155f298b962",
+      "editorial_headword": "אֶוְוסֹוס",
+      "editorial_gloss": "ver אֹובִיסֹוס (Éfeso)",
+      "assessment": "S",
+      "philological_analysis": "Forma do nome de Éfeso remetida ao cabeçalho principal.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 586,
+      "id": "A00585",
+      "source_headword": "אווקי",
+      "source_headwords": [
+        "אווקי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "b0e9650542fa678df0aa0558eb84120054802ea8c9f4caf689de0b3ac50fc65a",
+      "editorial_headword": "אווקי",
+      "editorial_gloss": "ver אוקיי",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אוקיי.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 587,
+      "id": "A00586",
+      "source_headword": "*אַוְורָא",
+      "source_headwords": [
+        "*אַוְורָא"
+      ],
+      "source_definition_excerpts": [
+        "; pl. אַוְורֵי (אֲוַר dial. for עבר, v. Nœld.",
+        "crossing, ford .",
+        "among the crossing passengers ."
+      ],
+      "source_xml_sha256": "b87e1ea9b1d64f1bf95579830ba2b5412e953eeae008d772ad5aef65123ccd5d",
+      "editorial_headword": "*אַוְורָא",
+      "editorial_gloss": "viajantes; vau; passagem por rio",
+      "assessment": "O",
+      "philological_analysis": "Vau, passagem e viajantes: duas interpretações do símile em Moed Katan.",
+      "finding": "A entrada conserva duas interpretações concorrentes do símile da travessia, com variantes de Arukh, manuscritos e edição; a tradução sintetiza.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 588,
+      "id": "A00587",
+      "source_headword": "אֲוַורְדִּימָס",
+      "source_headwords": [
+        "אֲוַורְדִּימָס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "4a32ea22f9c7dd8ce841c20cd49392281562cf5e2084170a552046fe6087c5df",
+      "editorial_headword": "אֲוַורְדִּימָס",
+      "editorial_gloss": "ver וַרְדִּימֹוס",
+      "assessment": "S",
+      "philological_analysis": "Grafia nominal remetida a וַרְדִּימֹוס.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 589,
+      "id": "A00588",
+      "source_headword": "אוורוס",
+      "source_headwords": [
+        "אוורוס"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "e627387360d0acb5b4509de870a51b06d993340525d2af7cda3130eeb9366d03",
+      "editorial_headword": "אוורוס",
+      "editorial_gloss": "ver אִבְרֹוסִי",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אִבְרֹוסִי.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 590,
+      "id": "A00589",
+      "source_headword": "*אַוְורַקְסִין,",
+      "source_headwords": [
+        "*אַוְורַקְסִין,",
+        "אברסקין"
+      ],
+      "source_definition_excerpts": [
+        "(cmp. אפקרסין, a. אַבְרְקִין) trowsers ."
+      ],
+      "source_xml_sha256": "d58e24264a72aff9ddc1b3dd69113178596ddb0147d9351031cdaaf284487d9d",
+      "editorial_headword": "*אַוְורַקְסִין,",
+      "editorial_gloss": "calças; calções",
+      "assessment": "O",
+      "philological_analysis": "Peças de roupa para pernas; variantes do Targum e de Viena.",
+      "finding": "As variantes consonantais do Targum e a observação וו = פ permanecem resumidas.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 591,
+      "id": "A00590",
+      "source_headword": "אַוְורַשְׁנָא",
+      "source_headwords": [
+        "אַוְורַשְׁנָא"
+      ],
+      "source_definition_excerpts": [
+        "(ed. אוּרְשִׁינָה) m. name of a mythical bird, Phœnix ."
+      ],
+      "source_xml_sha256": "34b376be9beb1eabd3fef00784a9232d5033f4401a35b478f83b1143c4702569",
+      "editorial_headword": "אַוְורַשְׁנָא",
+      "editorial_gloss": "fênix; ave mítica",
+      "assessment": "S",
+      "philological_analysis": "Fênix como ave lendária com variantes de Arukh e edição.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 592,
+      "id": "A00591",
+      "source_headword": "אַוַּושׁ",
+      "source_headwords": [
+        "אַוַּושׁ"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "1f1b25ee38ecb5754c4ec78837411f7311b45dfa7555523579458358a341b870",
+      "editorial_headword": "אַוַּושׁ",
+      "editorial_gloss": "ver אֲוַשׁ",
+      "assessment": "S",
+      "philological_analysis": "Remissão a אֲוַשׁ.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 593,
+      "id": "A00592",
+      "source_headword": "אֶוְושַׁר,",
+      "source_headwords": [
+        "אֶוְושַׁר,",
+        "אֶוְשַׁר = אֶפְשַׁר",
+        "."
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "b9a49df6e4ca57826b14d6aa8c2827d26d845d6158cd823360f6b08b08da3f34",
+      "editorial_headword": "אֶוְושַׁר,",
+      "editorial_gloss": "possível; ver אֶפְשַׁר",
+      "assessment": "V",
+      "philological_analysis": "Três cabeçalhos XML, último é só ponto; segmentação não resolvida.",
+      "finding": "Terceiro elemento <head-word> contém somente um ponto; falha potencial de segmentação do XML, sem reconstrução.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 594,
+      "id": "A00593",
+      "source_headword": "אֶוְותִּיאֹוס,",
+      "source_headwords": [
+        "אֶוְותִּיאֹוס,",
+        "(אותיום) אֶוְתִּיֹוס"
+      ],
+      "source_definition_excerpts": [
+        "(εὐθέως) forthwith, immediately after."
+      ],
+      "source_xml_sha256": "d3b989eae5bc0920f0bb041da2e84263ae628de14fe85d2bcc53c21d08319f5b",
+      "editorial_headword": "אֶוְותִּיאֹוס,",
+      "editorial_gloss": "imediatamente; logo depois",
+      "assessment": "O",
+      "philological_analysis": "Advérbio grego εὐθέως com variante parentética original restaurada.",
+      "finding": "A variante parentética (אותיום) אֶוְתִּיֹוס constava do cabeçalho original, mas não do cartão.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 595,
+      "id": "A00594",
+      "source_headword": "אוותיננייה",
+      "source_headwords": [
+        "אוותיננייה"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "9bc1b7746345c24b375fd55b6a303d0a2c6970f4f198200ffa0301c3067fdae3",
+      "editorial_headword": "אוותיננייה",
+      "editorial_gloss": "ver אוותנטיא",
+      "assessment": "S",
+      "philological_analysis": "Remissão sem definição a um membro da família αὐθεντία.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 596,
+      "id": "A00595",
+      "source_headword": "*אַוְותָּן,",
+      "source_headwords": [
+        "*אַוְותָּן,",
+        "אִיוְתָּן"
+      ],
+      "source_definition_excerpts": [
+        "(= h. אֵיתָן, r. אית) full, proud, bright ."
+      ],
+      "source_xml_sha256": "cd491859a981c8cd0ce921eb4612268097118ad4fc86306895c9669f27d39de5",
+      "editorial_headword": "*אַוְותָּן,",
+      "editorial_gloss": "pleno; altivo; brilhante",
+      "assessment": "S",
+      "philological_analysis": "Adjetivo de plenitude/orgulho/brilho, com plurais e grafias targúmicas.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 597,
+      "id": "A00596",
+      "source_headword": "אוותנטי",
+      "source_headwords": [
+        "אוותנטי"
+      ],
+      "source_definition_excerpts": [],
+      "source_xml_sha256": "d0717b7048593a43295a6e52daba6c65716176911c9170b6547eab37a2a71f40",
+      "editorial_headword": "אוותנטי",
+      "editorial_gloss": "ver אַוְותֶּנְטִין",
+      "assessment": "S",
+      "philological_analysis": "Remissão à forma אַוְותֶּנְטִין.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
+    },
+    {
+      "ordinal": 598,
+      "id": "A00597",
+      "source_headword": "אַוותֶּנְטְיָא,",
+      "source_headwords": [
+        "אַוותֶּנְטְיָא,",
+        "אַוְתֶּ',",
+        "אַוְותֶּנְטְיָיה"
+      ],
+      "source_definition_excerpts": [
+        "(αὐθεντία) origin, reality; v. next w. —עיקר א' the very reality, virtuality ."
+      ],
+      "source_xml_sha256": "c790e25c1164214b337fd96923193d498e0cec54a8603a2099daa50de8186656",
+      "editorial_headword": "אַוותֶּנְטְיָא,",
+      "editorial_gloss": "origem; realidade; autenticidade",
+      "assessment": "O",
+      "philological_analysis": "Empréstimo de αὐθεντία; restauração de variantes e abreviatura literal.",
+      "finding": "A forma abreviada אַוְתֶּ' e a variante אַוְותֶּנְטְיָיה não constavam da tradução.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 599,
+      "id": "A00598",
+      "source_headword": "אַוְותֶּנְטִי,",
+      "source_headwords": [
+        "אַוְותֶּנְטִי,",
+        "(אפתנטי)"
+      ],
+      "source_definition_excerpts": [
+        "(αὐθέντης) originator, author ."
+      ],
+      "source_xml_sha256": "627fc0bb3b4e81e3778d2f0b03333b6713864b417641742c446632955df10a55",
+      "editorial_headword": "אַוְותֶּנְטִי,",
+      "editorial_gloss": "autor; originador; fonte primeira",
+      "assessment": "O",
+      "philological_analysis": "Empréstimo de αὐθέντης; variante parentética restaurada.",
+      "finding": "A variante parentética אפתנטי, presente no cabeçalho original, estava ausente do cartão.",
+      "correction_applied": true,
+      "full_certification": false
+    },
+    {
+      "ordinal": 600,
+      "id": "A00599",
+      "source_headword": "*(אוּסְיָא) אוּזְיָא",
+      "source_headwords": [
+        "*(אוּסְיָא) אוּזְיָא"
+      ],
+      "source_definition_excerpts": [
+        "(√אז, v. אֲזַד ; cmp. קָצֶה) a piece , part, uzya , a market term for a certain portion (quarter &c.) of meat."
+      ],
+      "source_xml_sha256": "68c141bc5959b1339658cbf01532d4b3434789b07ffc87b4446faab12af35d00",
+      "editorial_headword": "*(אוּסְיָא) אוּזְיָא",
+      "editorial_gloss": "porção de carne; uzya",
+      "assessment": "S",
+      "philological_analysis": "Unidade comercial de carne sem quantidade precisa; testemunhos divergem.",
+      "finding": "Sem divergência semântica central detectada nesta primeira passagem; testemunhos não homologados exaustivamente.",
+      "correction_applied": false,
+      "full_certification": false
     }
   ],
   "last_batch": {
-    "start_id": "A00400",
-    "end_id": "A00499",
-    "start_ordinal": 401,
-    "end_ordinal": 500,
+    "start_id": "A00500",
+    "end_id": "A00599",
+    "start_ordinal": 501,
+    "end_ordinal": 600,
     "count": 100,
     "counts": {
-      "S": 81,
+      "S": 80,
       "O": 17,
-      "E": 0,
+      "E": 1,
       "V": 2
     },
-    "corrections_applied": 11,
-    "report": "auditoria/JASTROW-2026-10-11-filologia-lote005-A00400-A00499.md"
+    "corrections_applied": 9,
+    "report": "auditoria/JASTROW-2026-10-11-filologia-lote006-A00500-A00599.md"
   }
 }

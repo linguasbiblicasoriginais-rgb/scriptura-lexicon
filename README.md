@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## JASTROW — sexta auditoria filológica A00500–A00599 (11/10/2026)
+
+Concluída a **primeira passagem filológica de TODOS os 600/600 verbetes incorporados JASTROW**, com 100 novos confrontos `A00500–A00599` do XML canônico Sefaria-Data. Pareceres novos **S=80, O=17, E=1, V=2**, 9 emendas mínimas, inclusive erro do artigo grego `ὁ` em `A00518`. Ressalvas de fonte digital `A00571` e `A00592` não normalizadas conjecturalmente. **600/600 analisados numa primeira passagem; 0/600 homologados integralmente**, por faltar cotejo exaustivo das citações em textos críticos. Relatório [JASTROW lote 006](auditoria/JASTROW-2026-10-11-filologia-lote006-A00500-A00599.md) e [checkpoint acumulado](auditoria/jastrow-filologia-progresso.json). Os 600 verbetes-base estão integrados, mas as emendas de `chat-gpt-correcoes` ainda aguardam integração. Próximo novo verbete `A00600` requer extração por processo lexical independente. A tabela geral obrigatória mantém números em cada ◐ e DGP estático ✓ 3300/3300.
+
+
 ## JASTROW — quinto lote filológico A00400–A00499 (11/10/2026)
 
 Confrontados individualmente **100 verbetes** Jastrow `A00400–A00499` com o XML canônico Sefaria-Data, usando `lexicons/jastrow-source-lote-0003.json`; 100/100 IDs e lemas principais correspondentes. Pareceres **S=81, O=17, E=0, V=2**. **11 emendas documentais mínimas** em `chat-gpt-correcoes` (sem corrigir conjecturalmente a Fonte); alertas `A00407`, `A00411` e remissão `A00429`. Acumulado **500/600** em primeira passagem filológica, certificação integral **0/600** por falta de testemunhos completos. [Relatório individualizado](auditoria/JASTROW-2026-10-11-filologia-lote005-A00400-A00499.md) e [checkpoint atualizado](auditoria/jastrow-filologia-progresso.json). Próximo `A00500–A00599`. Tabela de todos os dicionários preserva os números de qualquer etapa parcial e o **✓ 3.300/3.300 estrutural do DGP**.
