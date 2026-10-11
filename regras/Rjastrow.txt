@@ -89,3 +89,11 @@ Versão inicial: 10/10/2026
 - Após publicação e auditoria técnica, checkpoint `total_published=600`, `source_records_retrieved=600`, `next_ordinal=601`, `next_source_id=A00600`, `next_lemma=אוּזִילָא`; o próximo original ainda não está extraído. `total_integrated` somente será 600 após PR efetivamente mesclado em `chat-gpt-commits`.
 - Auditoria reproduzível em `tools/audit_jastrow_600.js`, GitHub Actions `.github/workflows/jastrow-audit-600.yml`: comparar busca/cartão/ID/lema e fontes; as duas diferenças de grafia legadas A00006/A00007 devem permanecer visíveis. Revisão filológica integral, exemplos e comentários não exaustivamente traduzidos, browser e acessibilidade pendentes; `total_audited=0`.
 - Manter intactos `main`, branches de origem, outros léxicos e histórico do repositório. Merge somente após auditoria técnica e conciliação com a árvore consolidada real.
+
+## Triagem filológica de todos os 600 verbetes (11/10/2026)
+
+- A varredura `tools/jastrow_triagem_filologica.js` confrontou **600/600** XML originais e redações em português com evidências em `auditoria/JASTROW-filologia-600-2026-10-11.md` e artefatos na execução GitHub Actions `38118125003`. O resultado são 504 sem alerta, 55 baixo, 39 médio e 2 alto, distribuídos em 12 relatórios e matriz de 600 itens.
+- A triagem automática **não equivale a auditoria filológica certificada**. Exigir leitura real por registro para comprovar significados, subdivisões, formas, usos, citações bíblicas e talmúdicas, variantes e hipóteses. Não incrementar `total_audited` com base na ausência de alertas.
+- Cinco registros foram confrontados manualmente com o XML (`A00156`, `A00238`, `A00338`, `A00362`, `A00371`); três receberam emendas baseadas em variantes e citações originais; os dois restantes não justificaram correção conjectural.
+- Mantêm-se `total_published=600`, `total_integrated=600`, `total_audited=0`; novos contadores separados `total_screened_filologically=600` e `total_manually_confronted_this_cycle=5`.
+- Preservar independência das camadas Fonte, Tradução, Análise e entrada GDHAGP; a omissão de transcrição literal de exemplos não pode ser confundida com mudança de significado, mas deve permanecer documentada. Não fazer alterações em `main`.

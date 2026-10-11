@@ -21,8 +21,10 @@
     "total_published": 600,
     "total_audited": 0,
     "total_integrated": 600,
-    "editorial_status": "600 JASTROW integrados tecnicamente no PR #92. Revisão filológica integral e navegador pendentes; total_audited=0.",
-    "source_status": "600 originais canônicos preservados em três lotes de 200; próximo ID A00600 ainda NÃO extraído, e seu lema vem do campo de antecipação da extração anterior."
+    "editorial_status": "600 verbetes JASTROW publicados e integrados; 600 submetidos a triagem filológica programática, 5 confrontados manualmente nesta rodada e 3 corrigidos. Ainda NÃO há certificação filológica integral: total_audited=0.",
+    "source_status": "600 originais canônicos preservados em três lotes de 200; próximo ID A00600 ainda NÃO extraído, e seu lema vem do campo de antecipação da extração anterior.",
+    "total_screened_filologically": 600,
+    "total_manually_confronted_this_cycle": 5
   },
   "batches": [
     {
@@ -243,5 +245,42 @@
     "total_integrated": 600,
     "philological_audit": "pending",
     "browser_audit": "pending"
+  },
+  "filological_review": {
+    "date": "2026-10-11",
+    "source_integration_sha": "88b0cda342abdb03464d7c39a752f9945772d261",
+    "source_xml_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+    "screened_total": 600,
+    "screening_automatic_classes": {
+      "without_flags": 504,
+      "low": 55,
+      "medium": 39,
+      "high": 2
+    },
+    "automatic_signal_counts": {
+      "cross_reference_review": 52,
+      "variants_not_visible": 41,
+      "morphology_not_evident": 2,
+      "greek_not_evident": 2,
+      "multiple_source_headwords": 1
+    },
+    "manually_confronted_ids": [
+      "A00156",
+      "A00238",
+      "A00338",
+      "A00362",
+      "A00371"
+    ],
+    "corrections": [
+      "A00156",
+      "A00238",
+      "A00362"
+    ],
+    "manual_unreviewed_remaining": 595,
+    "certified_total": 0,
+    "report": "auditoria/JASTROW-filologia-600-2026-10-11.md",
+    "evidence": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38118125003",
+    "status": "TRIAGEM_CONCLUIDA_REVISÃO_FILOLÓGICA_INTEGRAL_PENDENTE",
+    "limitations": "A triagem de 600 não certifica os 504 sem sinal. 5 entradas foram comparadas manualmente com o XML, mas confirmação de todos os testemunhos e estudos externos não foi feita. Browser não testado."
   }
 }

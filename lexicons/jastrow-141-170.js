@@ -120,7 +120,7 @@ const entries=[
     "lemma": "אֲבֵל,",
     "type": "Verbo aramaico",
     "gloss": "enlutar-se; observar luto",
-    "html": "Equivalente aramaico ao verbo hebraico precedente. <strong>Itpael:</strong> <bdi lang='he' dir='rtl'>אִתְאַבֵּל</bdi>, lamentar ou guardar luto (Targum Gênesis 37.34). Ester Rabá relata que judeus se entristeciam quando a imperatriz dava à luz por coincidir com 9 de av. Bava Kamma 59b discute vestir luto por Jerusalém; o verbo também ocorre na forma <bdi lang='he' dir='rtl'>מְאַבֵּילְנָא</bdi>, “eu uso roupas de luto”. Há variantes manuscritas."
+    "html": "Equivalente aramaico ao verbo hebraico precedente, atestado em Targum Lamentações 2.8. <strong>Variantes do cabeçalho:</strong> <bdi lang='he' dir='rtl'>אֲבֵל</bdi> e <bdi lang='he' dir='rtl'>אֲבֵיל</bdi>. <strong>Itpael:</strong> <bdi lang='he' dir='rtl'>אִתְאַבֵּל</bdi>, derivado de <bdi lang='he' dir='rtl'>אֲבֵלָא</bdi>, “lamentar, guardar luto” (Targum Gênesis 37.34; Jerusalém Avodah Zarah 1, 39c). Ester Rabá, início: quando a imperatriz dava à luz, os judeus guardavam luto porque o acontecimento coincidia com o nono dia de av. Bava Kamma 59b: “és suficientemente distinto para usar luto por Jerusalém?”, com leituras variantes na edição e no manuscrito R. <strong>Outra forma assinalada por Jastrow com asterisco:</strong> <bdi lang='he' dir='rtl'>אַבֵּל, אַבֵּיל</bdi>, compare Bava Kamma 59b, <bdi lang='he' dir='rtl'>מְאַבֵּילְנָא</bdi> “uso luto” (manuscrito F: <bdi lang='he' dir='rtl'>מאבלנא</bdi>). Remissão adicional do original: <bdi lang='he' dir='rtl'>אִימִירָא</bdi>."
   },
   {
     "sid": "A00157",
