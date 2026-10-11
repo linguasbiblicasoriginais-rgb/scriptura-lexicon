@@ -386,6 +386,40 @@
             audit.sourceNumberingNotes++;
         });
 
+        /*
+         * Aparato documental direcionado: nunca substituir o testemunho
+         * original por conjectura; separar ressalvas editoriais do DGP.
+         */
+        audit.sourceCautionsAdded = 0;
+        [
+            [1, "O marcador final [hebr.] figura literalmente no XML, mas o registro não explica seu escopo. Sua presença não estabelece origem hebraica da letra ou empréstimo lexical."],
+            [86, "O DGP relaciona etimologicamente ἀγαθός a ἄγαμαι. Esta indicação é hipótese da fonte, não etimologia demonstrada: LSJ assinala dúvida e o IE-CoR, com referência a Chantraine e Beekes, registra origem incerta."],
+            [288, "O texto original do DGP numera duas acepções consecutivas com 4, incluindo o plural «suspeitas infundadas; mal-entendidos». A numeração é mantida sem emenda."],
+            [303, "A grafia «resgastados» encontra-se no XML do DGP. A leitura é conservada na definição como testemunho; uma normalização para «resgatados» requer decisão de edição, não correção silenciosa da fonte."],
+            [335, "A grafia «passáro» encontra-se no XML do DGP. O dado editorial é assinalado aqui, sem substituí-lo silenciosamente por «pássaro» na definição."]
+        ].forEach(function (item) {
+            const card = document.getElementById(
+                "entry-dgp-" + String(item[0]).padStart(4, "0")
+            );
+            if (!card || card.dataset.dgpDocumentaryCaution === "true") {
+                return;
+            }
+            const section = document.createElement("section");
+            section.className = "entry-section dgp-editorial-note";
+            section.dataset.editorialLayer = "GDHAGP";
+            const heading = document.createElement("div");
+            heading.className = "section-title";
+            heading.textContent = "Nota documental do Scriptura Lexicon";
+            const paragraph = document.createElement("p");
+            paragraph.className = "entry-text";
+            paragraph.textContent = item[1];
+            section.appendChild(heading);
+            section.appendChild(paragraph);
+            card.appendChild(section);
+            card.dataset.dgpDocumentaryCaution = "true";
+            audit.sourceCautionsAdded++;
+        });
+
         audit.searchRowsIndexed = 0;
         audit.searchRowsMissingCard = 0;
         document.querySelectorAll(

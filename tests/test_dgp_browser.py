@@ -101,6 +101,7 @@ def test_page(browser, base, path, expected):
     check(audit["searchRowsIndexed"] == expected, "Indice nao processou todos os cartoes")
     check(audit["recoveredHeadwordsNoted"] == 2, "Faltam notas de lemas recuperados")
     check(audit["sourceNumberingNotes"] == 2, "Faltam notas sobre numeracao original")
+    check(audit["sourceCautionsAdded"] == 5, "Faltam as cinco notas documentais dirigidas")
     check(sorted(audit["gluedAbbreviationsFixed"]) == list(GLUED),
           "Falha nas cinco abreviaturas coladas: " + str(audit["gluedAbbreviationsFixed"]))
 
