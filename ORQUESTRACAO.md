@@ -107,3 +107,7 @@ Procedimento determinístico:
 5. Registrar arquivos conflitantes, decisão justificada, dados preservados, testes e SHAs. Se nenhum caminho puder ser validado com segurança, **manter o PR aberto** e relatar o bloqueio específico, mas prosseguir com as integrações independentes seguras.
 
 Essa autonomia **não** permite apagar verbetes, reescrever histórico, excluir ramos ou tocar em `main`. Mantém-se também a auditoria obrigatória das 05h como primeira fase do quinto agendamento.
+
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Após cada ciclo, auditoria, correção ou falha, o relatório ao usuário deve conter a tabela global de TODOS os dicionários (não apenas BDAG/DGP/LEH/PEREIRA), nas seis colunas canônicas e com ✓/◐/— e totais por fonte. A tabela nominal de verbetes não substitui a global. Fonte canônica da regra: `regras/Rprogresso-global.txt`; revalidar HEADs dos ramos e integração no momento do relatório. A norma de apresentação NÃO revoga a independência operacional das fontes.
