@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## JASTROW — auditoria filológica dos primeiros 100 registros (11/10/2026)
+
+Confronto filológico individual de **100** entradas (`A00000–A00099`) da fonte XML Sefaria-Data com os cartões portugueses publicados. Integridade 100/100 sem lacunas; pareceres `S=76`, `O=17`, `E=3`, `V=4`. `S` **não** é certificação integral. Três erros editoriais/remissivos em `A00057`, `A00080`, `A00091`; omissões de cabeçalhos, notas e leitura nas demais ocorrências indicadas. Relatório completo [JASTROW lote 001](auditoria/JASTROW-2026-10-11-filologia-lote001-A00000-A00099.md), matriz [checkpoint individual](auditoria/jastrow-filologia-progresso.json). `total_audited=0` permanece; testes em navegador e correção dos módulos aguardam reconciliação. Não houve alteração de léxicos nem da `main`.
+
+
 ## DGP — 100 verbetes auditados filologicamente, ordinais 41–140 (11/10/2026)
 
 A auditoria independente examinou **100 novos registros DGP**, de `ἀβλής, ῆτος` a `ἄγγαρος, ος, ον`, usando o XML canônico. **20** receberam fontes externas dirigidas (LSJ, Cunliffe, Bailly, textos gregos e léxicos bíblicos); **80** tiveram exame morfológico, semântico e editorial interno. A cobertura cumulativa da primeira passagem é **140/3.300**, não homologação de todas as atestações. O [relatório filológico de 100 verbetes](auditorias/dgp-filologia-2026-10-11-lote003-0041-0140.md) e a [evidência individualizada](auditorias/dgp-filologia-2026-10-11-lote003-evidencias.json) registram resultados e incertezas; o [checkpoint](auditorias/dgp-filologia-progresso.json) prossegue no ordinal 141. Não houve nova correção lexical nem PR/merge nesta fase.

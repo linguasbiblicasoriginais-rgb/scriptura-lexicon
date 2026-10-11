@@ -1,0 +1,1675 @@
+{
+  "schema": "jastrow-philological-audit-v1",
+  "date": "2026-10-11",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "integrated_branch": "chat-gpt-commits",
+  "integrated_head_examined": "e3763a9a97e54446817bc920d6f454f84b353d58",
+  "reviewed_range": {
+    "start_id": "A00000",
+    "end_id": "A00099",
+    "start_ordinal": 1,
+    "end_ordinal": 100,
+    "count": 100
+  },
+  "review_type": "independent_individual_philological_comparison_not_exhaustive_certification",
+  "categories": {
+    "S": "Sem divergência semântica principal identificada",
+    "O": "Omissão relevante ou documentação abreviada",
+    "E": "Erro material de tradução/remissão/editoria",
+    "V": "Verificação adicional requerida"
+  },
+  "counts": {
+    "S": 76,
+    "O": 17,
+    "V": 4,
+    "E": 3
+  },
+  "fully_certified": 0,
+  "next_ordinal": 101,
+  "next_id": "A00100",
+  "previously_manually_reviewed_outside_range": [
+    "A00156",
+    "A00238",
+    "A00338",
+    "A00362",
+    "A00371"
+  ],
+  "remaining_full_certification": "pending",
+  "browser_tests": "not_run",
+  "items": [
+    {
+      "ordinal": 1,
+      "id": "A00000",
+      "source_headword": "א",
+      "editorial_headword": "א",
+      "editorial_gloss": "álef; primeira letra",
+      "source_heads": [
+        "א"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4db38b81bdabcfb4c17ee879cd0d96831f674cca24d3baa4238640cb8821a250",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 2,
+      "id": "A00001",
+      "source_headword": "א",
+      "editorial_headword": "א",
+      "editorial_gloss": "formação de raízes secundárias",
+      "source_heads": [
+        "א"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "446710ec5a9acecb86e30de94a50351f592c98df878c90691a4f1540f88e1c5d",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 3,
+      "id": "A00002",
+      "source_headword": "א",
+      "editorial_headword": "א",
+      "editorial_gloss": "álef protético",
+      "source_heads": [
+        "א"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "031a9e3a516e29efdb2eb755629d53b4053d53bae694d37095e2cbeccfa9318e",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 4,
+      "id": "A00003",
+      "source_headword": "א",
+      "editorial_headword": "א",
+      "editorial_gloss": "substituição de radical",
+      "source_heads": [
+        "א"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c69f5848775fe3274fa396378013ba7b82dcb14c32399b0145e2c7f6a5d983da",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 5,
+      "id": "A00004",
+      "source_headword": "א",
+      "editorial_headword": "א",
+      "editorial_gloss": "omissão do álef inicial",
+      "source_heads": [
+        "א"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "37fa5cc8c99683a8f546d50d19d5201f1fde9715132a8fa5622854d41f91d55d",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 6,
+      "id": "A00005",
+      "source_headword": "א",
+      "editorial_headword": "א",
+      "editorial_gloss": "álef final; estado enfático",
+      "source_heads": [
+        "א"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "50d3c81fcc9a872f7cc03a7a51adf99f06185ea692c6be49d76448e337eade4c",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 7,
+      "id": "A00006",
+      "source_headword": "א'",
+      "editorial_headword": "א׳",
+      "editorial_gloss": "um; uma",
+      "source_heads": [
+        "א'"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8149c6ea4aaac9da7de872888e1aa9624f22a11af62c7eccd2382b4f45d99fd0",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 8,
+      "id": "A00007",
+      "source_headword": "אִ־,",
+      "editorial_headword": "אִ־, אִי־, אֶ־, אַ־",
+      "editorial_gloss": "formativo; demonstrativo; eufônico",
+      "source_heads": [
+        "אִ־,",
+        "אִי־,",
+        "אֶ־,",
+        "אַ־"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "c492589676742ba68e651ada7d7f31bde3ed3ca74d8b6e17843bdeeeb250159e",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 9,
+      "id": "A00008",
+      "source_headword": "אַ־",
+      "editorial_headword": "אַ־",
+      "editorial_gloss": "sobre; por cima de",
+      "source_heads": [
+        "אַ־"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "04c45063b476b8e5e2d2d5e2bc1ad30017b724db9e5fbc424508636406dc32b0",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 10,
+      "id": "A00009",
+      "source_headword": "אָאִין",
+      "editorial_headword": "אָאִין",
+      "editorial_gloss": "forma plural (remissão)",
+      "source_heads": [
+        "אָאִין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "27cb93512956d20b0277779e1696d53efbd7b44d40ba8b6e21e0703d71ed4cfd",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 11,
+      "id": "A00010",
+      "source_headword": "אאלר\"ן",
+      "editorial_headword": "אאלר\"ן",
+      "editorial_gloss": "palavra artificial; inscrição de Daniel",
+      "source_heads": [
+        "אאלר\"ן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ca81dc88148c2d4332e522646dccb781d09ebbc2da8d81dce78daf0dbee725b3",
+      "assessment": "O",
+      "observation": "A sequência de Daniel 5.25 perde os pontos gráficos presentes no XML, relevantes ao expediente de seleção de letras.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 12,
+      "id": "A00011",
+      "source_headword": "אֲאָרָא",
+      "editorial_headword": "אֲאָרָא",
+      "editorial_gloss": "ver אַוָּארָא",
+      "source_heads": [
+        "אֲאָרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "66a5be1e901d3518ba3a17d4cf07c0739274a4c52e42275d4271e7e765f8f754",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 13,
+      "id": "A00012",
+      "source_headword": "אַב־,",
+      "editorial_headword": "אַב־,",
+      "editorial_gloss": "elemento au-; eu-",
+      "source_heads": [
+        "אַב־,",
+        "אֶבְ־"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "dcaa0b523fb44dd6de2a752bb92442168ad4935d65ea073b0ec4eee7ef42fe35",
+      "assessment": "O",
+      "observation": "O XML oferece dois prefixos, אַב־ e אֶבְ־; a segunda grafia não é exibida.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 14,
+      "id": "A00013",
+      "source_headword": "אָב,",
+      "editorial_headword": "אָב,",
+      "editorial_gloss": "av; quinto mês judaico",
+      "source_heads": [
+        "אָב,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e9a771831fced8a5001bd2c9e83fa19524b955f2e673736c63186578619300ae",
+      "assessment": "O",
+      "observation": "A nota assíria A-bu e a referência bibliográfica Schr. K.A.T. foram omitidas; datas aproximadas foram resumidas.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 15,
+      "id": "A00014",
+      "source_headword": "אָב,",
+      "editorial_headword": "אָב,",
+      "editorial_gloss": "pai; ancestral; mestre; chefe; origem",
+      "source_heads": [
+        "אָב,"
+      ],
+      "source_senses": 4,
+      "source_xml_sha256": "64980570db862fa450ea36eaf639e9061133451ced97a83831ccdeb18934bcb3",
+      "assessment": "O",
+      "observation": "Faltam construtos אֲבִי/אַב, exemplos de Levítico e Números Rabá, expressão בת אב e detalhes da analogia בנין אב.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 16,
+      "id": "A00015",
+      "source_headword": "אָב,",
+      "editorial_headword": "אָב,",
+      "editorial_gloss": "ver אַבָּא",
+      "source_heads": [
+        "אָב,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1d33c9048a46039b3afe04465993500290a57eb27ac6a4d9349981acaf2b623b",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 17,
+      "id": "A00016",
+      "source_headword": "אֵב,",
+      "editorial_headword": "אֵב,",
+      "editorial_gloss": "broto; crescimento; desenvolvimento",
+      "source_heads": [
+        "אֵב,",
+        "(אוֹב) אֵיב"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "737def93a0580a0f551e2ac557eb4edfee83f3925ea84aa0c0243948781f5b7f",
+      "assessment": "O",
+      "observation": "Segundo cabeçalho (אוֹב) אֵיב ausente; exemplos e variantes secundárias condensados.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 18,
+      "id": "A00017",
+      "source_headword": "אַבָּא,",
+      "editorial_headword": "אַבָּא,",
+      "editorial_gloss": "pai; meu pai; avô; origem",
+      "source_heads": [
+        "אַבָּא,",
+        "אָב"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a9c5d2bd2a1544c239706d231447fff13c977c22bb8286ef557a29676b152da4",
+      "assessment": "O",
+      "observation": "O uso sarcástico “pai Elias”, a referência Meguilá 12b e variantes manuscritas ficaram de fora.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 19,
+      "id": "A00018",
+      "source_headword": "אַבָּא,",
+      "editorial_headword": "אַבָּא,",
+      "editorial_gloss": "Abba; nome de diversos amoraítas",
+      "source_heads": [
+        "אַבָּא,",
+        "אַכָּה"
+      ],
+      "source_senses": 6,
+      "source_xml_sha256": "d8dd115df1a9f0b4a42a1c44608b6faac8b253446e15598f442d7d7a40b3c7c7",
+      "assessment": "O",
+      "observation": "Faltam os cabeçalhos secundários אַכָּה e outras formas palestinenses escritas em hebraico.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 20,
+      "id": "A00019",
+      "source_headword": "אַבָּא,",
+      "editorial_headword": "אַבָּא,",
+      "editorial_gloss": "abba; título de erudito",
+      "source_heads": [
+        "אַבָּא,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "85b2cd952ec3f5d0084f27ab6c7da7b3c1c2bbc89fc466df69ce42874731cfcf",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 21,
+      "id": "A00020",
+      "source_headword": "אִבָּא",
+      "editorial_headword": "אִבָּא",
+      "editorial_gloss": "bosque; matagal; fruto",
+      "source_heads": [
+        "אִבָּא"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "5901df7521ff8504e9ca11eecc170816941f99f5fe895e29736348185e749273",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 22,
+      "id": "A00021",
+      "source_headword": "אַכְאָבִית,",
+      "editorial_headword": "אַכְאָבִית,",
+      "editorial_gloss": "distúrbio gástrico; vômitos espasmódicos",
+      "source_heads": [
+        "אַכְאָבִית,",
+        "אֲבָבִית,",
+        "עַבְעָבִית,",
+        "עֲבָבִית,",
+        "עַוְעָוִית"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e54f3826c8ee407b6c5e3e1068f5dcc99869db71f06e17b45871742ea2751a31",
+      "assessment": "O",
+      "observation": "O desenvolvimento de Gênesis Rabá 19 e as leituras editoriais alternativas foram reduzidos a um resumo.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 23,
+      "id": "A00022",
+      "source_headword": "אבאטיס",
+      "editorial_headword": "אבאטיס",
+      "editorial_gloss": "ler אֲכָאטֵיס",
+      "source_heads": [
+        "אבאטיס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f69a9b9c7ff91c8321b4a6d428e13ecb64a2c6c096fdc601af1de7da961dff39",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 24,
+      "id": "A00023",
+      "source_headword": "אַבְאָשׁוּתָא",
+      "editorial_headword": "אַבְאָשׁוּתָא",
+      "editorial_gloss": "ofensa; desgosto; desagrado",
+      "source_heads": [
+        "אַבְאָשׁוּתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fb1d0ea9a3adc2e751fc1f6dcf3216ed9eb9305d19ad9c361bb9d59e6ccfec24",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 25,
+      "id": "A00024",
+      "source_headword": "אָבַב",
+      "editorial_headword": "אָבַב",
+      "editorial_gloss": "inchar; engrossar; desabrochar",
+      "source_heads": [
+        "אָבַב"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "42df6d2ecc97dead66a59564d8a02b1f1aad2bbe348b327b1d9289ebb70bab6a",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 26,
+      "id": "A00025",
+      "source_headword": "אֲבַב",
+      "editorial_headword": "אֲבַב",
+      "editorial_gloss": "crescer; amadurecer",
+      "source_heads": [
+        "אֲבַב"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3547b8362d8e88205b789df55f8f45e8588b9b8d5b1ad6760588e0d3220ae64a",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 27,
+      "id": "A00026",
+      "source_headword": "אִבְּבָא",
+      "editorial_headword": "אִבְּבָא",
+      "editorial_gloss": "ver אִיבָּא",
+      "source_heads": [
+        "אִבְּבָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8d4ecd4e6b8bbccf4348778c7fcbf95ee21bbf483673b56d5e088e2e878d2ba4",
+      "assessment": "V",
+      "observation": "A abreviação do destino איב׳ foi expandida para אִיבָּא; conferir o lema-alvo no XML do original integral.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 28,
+      "id": "A00027",
+      "source_headword": "אֶבְגִּינוֹס,",
+      "editorial_headword": "אֶבְגִּינוֹס,",
+      "editorial_gloss": "nobre; de origem nobre",
+      "source_heads": [
+        "אֶבְגִּינוֹס,",
+        "אֶוְוגִּינוֹס,",
+        "אֶוְגִּינֵס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ee2067340af3fd61a4ab9475a9d172d9eccd414ee8d3d6314547a205ce51aa1b",
+      "assessment": "O",
+      "observation": "Lugares e grafias alternativas dos midraxes foram sintetizados; demanda restituir aparato editorial.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 29,
+      "id": "A00028",
+      "source_headword": "אֶבְגְּנִיסְטֵי",
+      "editorial_headword": "אֶבְגְּנִיסְטֵי",
+      "editorial_gloss": "nobilíssimos; da mais alta nobreza",
+      "source_heads": [
+        "אֶבְגְּנִיסְטֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b3aeb9d14bcddf026f70c10650c9f704bdcab93843bc61672a07d13a950c73a5",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 30,
+      "id": "A00029",
+      "source_headword": "אבגרוטינה",
+      "editorial_headword": "אבגרוטינה",
+      "editorial_gloss": "ver אנג׳",
+      "source_heads": [
+        "אבגרוטינה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5ebc388f34e438b427fd92d175ab364fc671fa8267388797a7a2acdf9194924f",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 31,
+      "id": "A00030",
+      "source_headword": "אָבַד",
+      "editorial_headword": "אָבַד",
+      "editorial_gloss": "perder-se; perecer; perder; destruir; esquecer",
+      "source_heads": [
+        "אָבַד"
+      ],
+      "source_senses": 6,
+      "source_xml_sha256": "df3b98cf3f0fbe6ab0aa8eaf3536eacb1a7a371b9bcc24dfcc619e34eba1c32d",
+      "assessment": "O",
+      "observation": "A tradução conserva as acepções verbais, mas omite propostas de leitura específicas do Sifré e muitos exemplos originais.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 32,
+      "id": "A00031",
+      "source_headword": "אֲבַּד,",
+      "editorial_headword": "אֲבַּד,",
+      "editorial_gloss": "perder-se; destruir; arruinar",
+      "source_heads": [
+        "אֲבַּד,",
+        "אָבַד"
+      ],
+      "source_senses": 5,
+      "source_xml_sha256": "4895dcd08ebae43468484de4ff2611d328bea08eec4494ad359d138a004fad5c",
+      "assessment": "O",
+      "observation": "A fonte apresenta אָבַד como segundo cabeçalho, não reproduzido no cartão; binyanim principais presentes.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 33,
+      "id": "A00032",
+      "source_headword": "אָבֵד",
+      "editorial_headword": "אָבֵד",
+      "editorial_gloss": "perecível; irrecuperável; perda inevitável",
+      "source_heads": [
+        "אָבֵד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "14698e29d4413fc2e6705f38986131f4dfc609ad21864e21d83f8e57f03372bb",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 34,
+      "id": "A00033",
+      "source_headword": "אַבְדָּא",
+      "editorial_headword": "אַבְדָּא",
+      "editorial_gloss": "destruição; ruína",
+      "source_heads": [
+        "אַבְדָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "baefd1a8aaf1edb6bff73ee2ed0fd2eb694d8c097cdbbaf9d473bf23c43ce59f",
+      "assessment": "O",
+      "observation": "O corpo do cartão cita apenas a raiz e a passagem, sem explicitar destruição/ruína; esse sentido aparece somente no resumo da busca.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 35,
+      "id": "A00034",
+      "source_headword": "אֲבֵדָה",
+      "editorial_headword": "אֲבֵדָה",
+      "editorial_gloss": "ver אֲבֵי׳",
+      "source_heads": [
+        "אֲבֵדָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "85e729ce451553528086241a9e0eaf3a42bfdab4edafd97169f47ddb0bb6aef2",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 36,
+      "id": "A00035",
+      "source_headword": "אֶבְדּוּמָא",
+      "editorial_headword": "אֶבְדּוּמָא",
+      "editorial_gloss": "Ebduma; ver Ebdimos",
+      "source_heads": [
+        "אֶבְדּוּמָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c4ca1b54784892b8e16fe2bd3e6c86fdfcc5481b164e7e2ab8e103a27579a476",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 37,
+      "id": "A00036",
+      "source_headword": "אבדומא,",
+      "editorial_headword": "אבדומא,",
+      "editorial_gloss": "ver אברומא",
+      "source_heads": [
+        "אבדומא,",
+        "אבדומה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8375413cf57fd78dbbe7120a6fb2c8577f7552f908ef3986f6d24e9111a474b0",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 38,
+      "id": "A00037",
+      "source_headword": "אבדימי",
+      "editorial_headword": "אבדימי",
+      "editorial_gloss": "ver Ebdimos",
+      "source_heads": [
+        "אבדימי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "299df59e18562c0a3e9bfbc78beab9c571e2634e23f7485ec98dae335bfed711",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 39,
+      "id": "A00038",
+      "source_headword": "אֲבַדּוֹן",
+      "editorial_headword": "אֲבַדּוֹן",
+      "editorial_gloss": "perdição; inferno",
+      "source_heads": [
+        "אֲבַדּוֹן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b0820392063575ddb82dbaccb97c97d2bd2dc7444e2c8ac0cbd21c5c9933120f",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 40,
+      "id": "A00039",
+      "source_headword": "אֶבְדּוֹקוֹס",
+      "editorial_headword": "אֶבְדּוֹקוֹס",
+      "editorial_gloss": "Ebdocos; Eútoco",
+      "source_heads": [
+        "אֶבְדּוֹקוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "50d18e157e10c800b8ff4756d387b77e4068b3a43d582130fbd14768a14cc7c1",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 41,
+      "id": "A00040",
+      "source_headword": "אֶבְדִּימָא",
+      "editorial_headword": "אֶבְדִּימָא",
+      "editorial_gloss": "ver Ebdimos",
+      "source_heads": [
+        "אֶבְדִּימָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7e354227fdc7eb3ee680d1ec0508822f8e46f56a779092b18b6957076f748476",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 42,
+      "id": "A00041",
+      "source_headword": "אֶבְדִּימוֹס",
+      "editorial_headword": "אֶבְדִּימוֹס",
+      "editorial_gloss": "Ebdimos; Eudemo",
+      "source_heads": [
+        "אֶבְדִּימוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7b2a8cb1da5483fbccd1a7fdcf5f8009f3410c19b37451ff3d173e112171aad2",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 43,
+      "id": "A00042",
+      "source_headword": "אַבְדָּלָה",
+      "editorial_headword": "אַבְדָּלָה",
+      "editorial_gloss": "separação; distinção; havdalá",
+      "source_heads": [
+        "אַבְדָּלָה",
+        "אַבְדַּלְתָּא"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "6949f59c92a328d71684a68d89f493d957577a77c882267a103b22155311b502",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 44,
+      "id": "A00043",
+      "source_headword": "אַבְדָּן",
+      "editorial_headword": "אַבְדָּן",
+      "editorial_gloss": "Abdan",
+      "source_heads": [
+        "אַבְדָּן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "568eb98fc0d349a87752d50b4fa97426e84cddc2325c00a99eed74922f4773ec",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 45,
+      "id": "A00044",
+      "source_headword": "אָבְדָּן,",
+      "editorial_headword": "אָבְדָּן,",
+      "editorial_gloss": "perda; ruína; destruição",
+      "source_heads": [
+        "אָבְדָּן,",
+        "אוֹבְדָּן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1b8e50aac9d6400cac3057165cb3c2fc0128bd782312dd4a206074a480bc36fc",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 46,
+      "id": "A00045",
+      "source_headword": "אַבְדָּנָא,",
+      "editorial_headword": "אַבְדָּנָא,",
+      "editorial_gloss": "perda; destruição",
+      "source_heads": [
+        "אַבְדָּנָא,",
+        "אוֹבְדָנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5a98d481f803f1d22acd7958a1611961351087151b539521facef94af1af3624",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 47,
+      "id": "A00046",
+      "source_headword": "אֲבֵדְתָּא",
+      "editorial_headword": "אֲבֵדְתָּא",
+      "editorial_gloss": "ver אֲבֵי׳",
+      "source_heads": [
+        "אֲבֵדְתָּא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cc5438c4e675e3116c5603700752ba4e22fd73ff2e809a0b8b173e39fa352026",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 48,
+      "id": "A00047",
+      "source_headword": "אבדתא",
+      "editorial_headword": "אבדתא",
+      "editorial_gloss": "ver אֲבַרְתָּא",
+      "source_heads": [
+        "אבדתא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fa6135e885f5d6bd3a31c22e58efba2a4385fab6d639d0f45088abe59f080a0c",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 49,
+      "id": "A00048",
+      "source_headword": "אַבָּה",
+      "editorial_headword": "אַבָּה",
+      "editorial_gloss": "Abbah; pai de Samuel",
+      "source_heads": [
+        "אַבָּה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "823d0c46d0ccdf5782fb12ce7e5fd26c650a6af9201ff8421c8d2d2ce95d698b",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 50,
+      "id": "A00049",
+      "source_headword": "אָבָה",
+      "editorial_headword": "אָבָה",
+      "editorial_gloss": "ver אָבֵי",
+      "source_heads": [
+        "אָבָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "35a823c95b81d1b980a68d4d05031a1758ef093e43572bdf585bc15b9c158d33",
+      "assessment": "V",
+      "observation": "A referência original אבי foi expandida para אָבֵי; confirmar o alvo exato antes de criar ligação interna.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 51,
+      "id": "A00050",
+      "source_headword": "אַבָּהוּ",
+      "editorial_headword": "אַבָּהוּ",
+      "editorial_gloss": "Abbahu; nome de amoraítas",
+      "source_heads": [
+        "אַבָּהוּ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "84d6a1eae6f3378638fd28c3b1edee8214834e9e8b4f162f6e55f244590d406f",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 52,
+      "id": "A00051",
+      "source_headword": "אבהנוס,",
+      "editorial_headword": "אבהנוס,",
+      "editorial_gloss": "ler אַמְבָּטִיס ou אִיפּוֹבַּטֵיס",
+      "source_heads": [
+        "אבהנוס,",
+        "אבהונוס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "bbb03f06acf6f53364490a55e632dd3672a20c0027cb96b13320470ab6e90a86",
+      "assessment": "O",
+      "observation": "O segundo cabeçalho אבהונוס do XML foi omitido; emendas propostas foram traduzidas.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 53,
+      "id": "A00052",
+      "source_headword": "אֲבָהָתָא",
+      "editorial_headword": "אֲבָהָתָא",
+      "editorial_gloss": "pais; antepassados",
+      "source_heads": [
+        "אֲבָהָתָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4a048166deb76d2352b1cc4e8b1073900b65a7afe832223096259c01e87f1299",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 54,
+      "id": "A00053",
+      "source_headword": "אבהתא",
+      "editorial_headword": "אבהתא",
+      "editorial_gloss": "ver מַמְצִיא",
+      "source_heads": [
+        "אבהתא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "e55f7e8a6aa1417877a50097cf8d3ee58a53ebb1188adfae4d4d1d439a1ee921",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 55,
+      "id": "A00054",
+      "source_headword": "אִבּוּ,",
+      "editorial_headword": "אִבּוּ,",
+      "editorial_gloss": "Ibbu; Aibu",
+      "source_heads": [
+        "אִבּוּ,",
+        "(אַיְיבוּ) אִיבּוּ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "c123841630d9db49a17024c8a01595f24a4955cad7d7a4e656fd8d1e26af0acf",
+      "assessment": "O",
+      "observation": "O cabeçalho alternativo (אַיְיבוּ) אִיבּוּ não aparece em grafia hebraica; nomes romanizados não substituem a variante.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 56,
+      "id": "A00055",
+      "source_headword": "אִיבּוּב אַבּוּב",
+      "editorial_headword": "אִיבּוּב אַבּוּב",
+      "editorial_gloss": "flauta; cano; tubo; instrumento de sopro",
+      "source_heads": [
+        "אִיבּוּב אַבּוּב"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1fc53d52a77b79eb988d1ce2200b6e1992aeb41614d92e6d8a89a9f939addb74",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 57,
+      "id": "A00056",
+      "source_headword": "אַבּוּב,",
+      "editorial_headword": "אַבּוּב,",
+      "editorial_gloss": "flauta; tubo",
+      "source_heads": [
+        "אַבּוּב,",
+        "אַבּוּבָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3d88711854cf72f993a1bf1131c7c70c689556f76005b539d0334754af667124",
+      "assessment": "O",
+      "observation": "A variante de cabeçalho אַבּוּבָא foi omitida, embora a forma plural esteja presente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 58,
+      "id": "A00057",
+      "source_headword": "אַבּוּבְרָאֶה,",
+      "editorial_headword": "אַבּוּבְרָאֶה,",
+      "editorial_gloss": "flauta de pastor; ver אַבּוּב",
+      "source_heads": [
+        "אַבּוּבְרָאֶה,",
+        "אַבּוּבְרוֹאֶה = אַבּוּב רוֹעֶה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "12a2af0656459ef496a2d5604f9cb50a1a21e4ac18b053cbd1dab66ca352514f",
+      "assessment": "E",
+      "observation": "“Ver o verbete precedente” aponta na aplicação para A00056; a acepção botânica da fonte está em A00055, o antecedente hebraico pertinente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 59,
+      "id": "A00058",
+      "source_headword": "אַבּוּבְרָם",
+      "editorial_headword": "אַבּוּבְרָם",
+      "editorial_gloss": "Bar Abbubram",
+      "source_heads": [
+        "אַבּוּבְרָם"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b5b587510ceeed294a479fd5ed1a1ab3467af655a952024944a8edcb0ca53763",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 60,
+      "id": "A00059",
+      "source_headword": "אִבּוּד",
+      "editorial_headword": "אִבּוּד",
+      "editorial_gloss": "ver אִיבּוּד",
+      "source_heads": [
+        "אִבּוּד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "aa761651f380f20b58bae9fae3e81d02a87ed982699f4c5d1013086ab8381c04",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 61,
+      "id": "A00060",
+      "source_headword": "אבוד",
+      "editorial_headword": "אבוד",
+      "editorial_gloss": "ver אָכוּז",
+      "source_heads": [
+        "אבוד"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "64aafb93d59f7d211fe0aebc96eac5dd3ab9404cc594047e07cdbddac620d9fb",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 62,
+      "id": "A00061",
+      "source_headword": "אַבּוּדְיָינָא,",
+      "editorial_headword": "אַבּוּדְיָינָא,",
+      "editorial_gloss": "Abbudyana",
+      "source_heads": [
+        "אַבּוּדְיָינָא,",
+        "אַבּוּדְיָנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "28e8b848ee6fae4cdb353d0c7d37e615f9e648d4e9fcb083e6d3f40600c13369",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 63,
+      "id": "A00062",
+      "source_headword": "אֲבוּדְמָא,",
+      "editorial_headword": "אֲבוּדְמָא,",
+      "editorial_gloss": "ver אֶבְדִּימוֹס",
+      "source_heads": [
+        "אֲבוּדְמָא,",
+        "אבודמי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "10c7b6b2b5e9df3b90bf43e8e3a3a52794892722e009d23ed92cb909f87c75ec",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 64,
+      "id": "A00063",
+      "source_headword": "אבוורנקא,",
+      "editorial_headword": "אבוורנקא,",
+      "editorial_gloss": "ver אַכְוַרְנְקָא",
+      "source_heads": [
+        "אבוורנקא,",
+        "אבוורנקי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "95036100d794e4be3d63f358a4128f062127b69a96b4523657da8c2b64abda89",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 65,
+      "id": "A00064",
+      "source_headword": "*אֵבוּז",
+      "editorial_headword": "*אֵבוּז",
+      "editorial_gloss": "nádegas; traseiro",
+      "source_heads": [
+        "*אֵבוּז"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "1ad878b1d44ee1f79246276408329cf2ecf266273cfa28b389bcce76c1efcd2b",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 66,
+      "id": "A00065",
+      "source_headword": "אֲבוֹי",
+      "editorial_headword": "אֲבוֹי",
+      "editorial_gloss": "ai!; desgraça!; lamento",
+      "source_heads": [
+        "אֲבוֹי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8cf5c745347b43dabc9f446deb83b2462b945303804cb5efc53cc266a6213260",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 67,
+      "id": "A00066",
+      "source_headword": "אֲבוּיָה",
+      "editorial_headword": "אֲבוּיָה",
+      "editorial_gloss": "Abuyah; pai de Eliseu ben Abuyah",
+      "source_heads": [
+        "אֲבוּיָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4ec8f0dc0a5909a4a47ea6579996dce8a362c9db6a1f153459549908b31ffcc3",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 68,
+      "id": "A00067",
+      "source_headword": "אבויין",
+      "editorial_headword": "אבויין",
+      "editorial_gloss": "ler אִטִּין ou אִטַּיָין",
+      "source_heads": [
+        "אבויין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3558b65a7d744b6fe8b79f85587f318a158ff54810715116a217bf2a08935306",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 69,
+      "id": "A00068",
+      "source_headword": "אִבּוּל,",
+      "editorial_headword": "אִבּוּל,",
+      "editorial_gloss": "luto; lamentação",
+      "source_heads": [
+        "אִבּוּל,"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "d1033e17798a8eb8d52bdb690c50163c9b2efeaaffc4302f09dfcbff3c2e67e7",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 70,
+      "id": "A00069",
+      "source_headword": "אִבּוּל,",
+      "editorial_headword": "אִבּוּל,",
+      "editorial_gloss": "portal de carga; portão de carroças",
+      "source_heads": [
+        "אִבּוּל,",
+        "אִיבּוּל"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "50ecc92828f05709f1074a7b59d490a43fb7d24b2bfadcc051cc66442aaf1024",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 71,
+      "id": "A00070",
+      "source_headword": "אִבּוּלָא,",
+      "editorial_headword": "אִבּוּלָא,",
+      "editorial_gloss": "portão da cidade; entrada fortificada",
+      "source_heads": [
+        "אִבּוּלָא,",
+        "אִיבּוּלָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ceb8de7ae674b5901d98e814a2b0be5433de47fbd25d908b742a824850e832fa",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 72,
+      "id": "A00071",
+      "source_headword": "*אִבּוּלָאֵי",
+      "editorial_headword": "*אִבּוּלָאֵי",
+      "editorial_gloss": "guardas do portão; policiais",
+      "source_heads": [
+        "*אִבּוּלָאֵי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "457c65b79132250b97ce563a2717150b144ed5501bea3ed0994a2cfd1ef78957",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 73,
+      "id": "A00072",
+      "source_headword": "אבולי",
+      "editorial_headword": "אבולי",
+      "editorial_gloss": "ver בּוּלִי II",
+      "source_heads": [
+        "אבולי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8115f2e9da7f0e47ec0bc3e6963b109b20a069b0e92461f96b2028a6a55d9748",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 74,
+      "id": "A00073",
+      "source_headword": "אבולין",
+      "editorial_headword": "אבולין",
+      "editorial_gloss": "ver אַבִּילִין",
+      "source_heads": [
+        "אבולין"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "34addbe17a4069bdfdd90c9d84454f7b5d0e893e3ca74484e4fa9e7a6532be08",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 75,
+      "id": "A00074",
+      "source_headword": "(אבין) אַבּוּן",
+      "editorial_headword": "(אבין) אַבּוּן",
+      "editorial_gloss": "Abbun; amoraíta",
+      "source_heads": [
+        "(אבין) אַבּוּן"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a787106c51b5f0dc31a25beeb19f74499dc49093caf32f0d2e74b0b90f291579",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 76,
+      "id": "A00075",
+      "source_headword": "אֲבוּנָא,",
+      "editorial_headword": "אֲבוּנָא,",
+      "editorial_gloss": "Abuna; amoraíta",
+      "source_heads": [
+        "אֲבוּנָא,",
+        "אֲבוּנָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "8891f3739932c7939ce316c412b08567ba26d4736160b75824c56e7d298b5e52",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 77,
+      "id": "A00076",
+      "source_headword": "אבונגרי",
+      "editorial_headword": "אבונגרי",
+      "editorial_gloss": "ver אַכְוַנְגַּר",
+      "source_heads": [
+        "אבונגרי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "6fcd067d4acc31db3056ab15aaeb30479be850084fa4a7a420f05acd706804b5",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 78,
+      "id": "A00077",
+      "source_headword": "אֵבוּס,",
+      "editorial_headword": "אֵבוּס,",
+      "editorial_gloss": "cocho; manjedoura; estrebaria",
+      "source_heads": [
+        "אֵבוּס,",
+        "(?אִיבּוּס) אֵיבוּס"
+      ],
+      "source_senses": 2,
+      "source_xml_sha256": "a8297311e9b231993e432b7c15e93de9a143c65c1caeb417c639fba998908c6f",
+      "assessment": "O",
+      "observation": "Faltam as variantes de cabeçalho (?אִיבּוּס) אֵיבוּס; “há variantes” não as identifica.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 79,
+      "id": "A00078",
+      "source_headword": "אֲבוּקָא",
+      "editorial_headword": "אֲבוּקָא",
+      "editorial_gloss": "Abuka",
+      "source_heads": [
+        "אֲבוּקָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b525e5f1f38640574d46e6d3a44e90ac1063de507954cc26e7946aa23ce40360",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 80,
+      "id": "A00079",
+      "source_headword": "אֲבוּקָה",
+      "editorial_headword": "אֲבוּקָה",
+      "editorial_gloss": "tocha; archote",
+      "source_heads": [
+        "אֲבוּקָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "306bc1498f4b7e681746b588137dceca3c2ba9e239443039850a3e77389e5004",
+      "assessment": "O",
+      "observation": "A explicação sobre variações textuais de Jerusalém Sucá 5 foi omitida e a bibliografia etimológica foi reduzida.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 81,
+      "id": "A00080",
+      "source_headword": "*אַבּוּרְגְּנָא,",
+      "editorial_headword": "*אַבּוּרְגְּנָא,",
+      "editorial_gloss": "cobertor de cama; revestimento",
+      "source_heads": [
+        "*אַבּוּרְגְּנָא,",
+        "אַבְּרוּגְנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "18f3e043e16ce87652f4694423f0edb07a8703443b19ac26dff31bc89f2dca9a",
+      "assessment": "E",
+      "observation": "O XML explica o contexto de Eruvin 62a com chairs and seats; a paráfrase substitui um elemento por “coberturas”, alterando a atestação.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 82,
+      "id": "A00081",
+      "source_headword": "אבורנקי",
+      "editorial_headword": "אבורנקי",
+      "editorial_gloss": "ver אַכְוַר׳",
+      "source_heads": [
+        "אבורנקי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "2c34e6e6454543f944248c9e2cc147960f0fa3143988b681d58eb2244ea5da27",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 83,
+      "id": "A00082",
+      "source_headword": "אבזייני",
+      "editorial_headword": "אבזייני",
+      "editorial_gloss": "ver אֲפוּזְיָינֵי",
+      "source_heads": [
+        "אבזייני"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a60d706cfc4ef608acabb24b223e782976758569d47eb0a14e54f081225ee71c",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 84,
+      "id": "A00083",
+      "source_headword": "אַבְזָקַת,",
+      "editorial_headword": "אַבְזָקַת,",
+      "editorial_gloss": "esfarelamento; corrosão; doença dos pés",
+      "source_heads": [
+        "אַבְזָקַת,",
+        "(אַבְזָקָא,",
+        "אַבְזָקָה)"
+      ],
+      "source_senses": 3,
+      "source_xml_sha256": "e923332eaa0a69ccbdd11b0bc9b4a8700a5cdf70c0127c24e0707cc49a89a004",
+      "assessment": "V",
+      "observation": "“Cascos” especifica anatomicamente mais do que a formulação inglesa “feet”; conferir se a contextualização zoológica justifica a glosa.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 85,
+      "id": "A00084",
+      "source_headword": "אֲבִזְרָא,",
+      "editorial_headword": "אֲבִזְרָא,",
+      "editorial_gloss": "tempero; especiarias; acessórios",
+      "source_heads": [
+        "אֲבִזְרָא,",
+        "אֲבִיזְרָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "3aa1849d90a381e52d03c589ada48805bbd25d92305771a12b5374fd3cf45ceb",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 86,
+      "id": "A00085",
+      "source_headword": "אבחטס",
+      "editorial_headword": "אבחטס",
+      "editorial_gloss": "ver אַמְבָּטִיס",
+      "source_heads": [
+        "אבחטס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "a61c3e446366f1e574fbf5572d8f5c254c6df1039990818c77e6218789c338f3",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 87,
+      "id": "A00086",
+      "source_headword": "אבטא",
+      "editorial_headword": "אבטא",
+      "editorial_gloss": "ver אַבְּטִי",
+      "source_heads": [
+        "אבטא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "42aabe3517f7944fe94cfc42f2c0302cdde73f957e47ca9f3ee4635632d9386c",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 88,
+      "id": "A00087",
+      "source_headword": "*אַבְטָא",
+      "editorial_headword": "*אַבְטָא",
+      "editorial_gloss": "ventre; odre de couro",
+      "source_heads": [
+        "*אַבְטָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9640bc211489cf645e8fcf986c40bf7020874e33bc78c3d01079ff2495b147d8",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 89,
+      "id": "A00088",
+      "source_headword": "אבטו",
+      "editorial_headword": "אבטו",
+      "editorial_gloss": "ver אַבְּטַי",
+      "source_heads": [
+        "אבטו"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "22c9b4bb1c007ddea607be7d24f708afa7b135c5d7d5e2bc54c6ef1abef2b176",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 90,
+      "id": "A00089",
+      "source_headword": "אַבְטוֹלוֹס,",
+      "editorial_headword": "אַבְטוֹלוֹס,",
+      "editorial_gloss": "ver אַבְטוֹלְמוֹס",
+      "source_heads": [
+        "אַבְטוֹלוֹס,",
+        "אבטוליס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "82f9eb50a7a927ef1d30a801c82a5506c4efd0a8c68d8aaa69828dba1437ea8e",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 91,
+      "id": "A00090",
+      "source_headword": "אַבְטוֹלְמוֹס",
+      "editorial_headword": "אַבְטוֹלְמוֹס",
+      "editorial_gloss": "Abtolmos",
+      "source_heads": [
+        "אַבְטוֹלְמוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "cd5b25731cfa76cc3ada9e790b6c4516aceb43b47591a6b8f25c5ca239f34239",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 92,
+      "id": "A00091",
+      "source_headword": "אַבְטוֹמְטוֹס",
+      "editorial_headword": "אַבְטוֹמְטוֹס",
+      "editorial_gloss": "automático; espontâneo; por acaso",
+      "source_heads": [
+        "אַבְטוֹמְטוֹס"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "9d997d37212928db589058a544184d439f0de308be10556d479d66d9bbd813c4",
+      "assessment": "E",
+      "observation": "“Por acaso” aparece no glossário como sentido do lema principal, mas corresponde à emenda alternativa אַבְטוֹמְטוֹן/αὐτόματον proposta pelo autor.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 93,
+      "id": "A00092",
+      "source_headword": "*אַבְטוֹנִיּוֹת",
+      "editorial_headword": "*אַבְטוֹנִיּוֹת",
+      "editorial_gloss": "cidades autônomas; jurisdições próprias",
+      "source_heads": [
+        "*אַבְטוֹנִיּוֹת"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "b3cc1c71f802d602c97e297d1968de108e5d4952b40d28c45057ef97fc7d4978",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 94,
+      "id": "A00093",
+      "source_headword": "אַבְטַח",
+      "editorial_headword": "אַבְטַח",
+      "editorial_gloss": "ver בְּטַח II",
+      "source_heads": [
+        "אַבְטַח"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "225a32bbbc703f1eda53c000fad94ed1351fc12a4e7370f8463da91171a4b974",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 95,
+      "id": "A00094",
+      "source_headword": "אַבְטָחָה",
+      "editorial_headword": "אַבְטָחָה",
+      "editorial_gloss": "promessa; garantia",
+      "source_heads": [
+        "אַבְטָחָה"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "ff5cf7f49c4877996bb7203a0de2cf5936866b9856fff3c97ebfbe12fee39a16",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 96,
+      "id": "A00095",
+      "source_headword": "אַבְּטַי",
+      "editorial_headword": "אַבְּטַי",
+      "editorial_gloss": "ver בְּטַח II",
+      "source_heads": [
+        "אַבְּטַי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "4f71981890c415fd1586819647f4399d5e409e2b1b13fb89f8f4eacf42beaecd",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 97,
+      "id": "A00096",
+      "source_headword": "אַבְּטִי",
+      "editorial_headword": "אַבְּטִי",
+      "editorial_gloss": "ver אַמְבְּטִי",
+      "source_heads": [
+        "אַבְּטִי"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "fee4357ad0d9be2ca417cbb9c414f414b5dd64e15ef550dc104846be2445f073",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 98,
+      "id": "A00097",
+      "source_headword": "*אבטיגא",
+      "editorial_headword": "*אבטיגא",
+      "editorial_gloss": "toga romana; leitura proposta",
+      "source_heads": [
+        "*אבטיגא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "5b30ba01fc057830b59a43a7f7a1c69ec56aff4812efcbce0d536f097070fab2",
+      "assessment": "V",
+      "observation": "A frase “grafia marcada como conjectural” pode inferir indevidamente o valor do asterisco; a conjectura explícita são as leituras propostas por Jastrow.",
+      "source_has_note": false,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 99,
+      "id": "A00098",
+      "source_headword": "*אָבְטְיוֹנָא",
+      "editorial_headword": "*אָבְטְיוֹנָא",
+      "editorial_gloss": "oficial romano; intendente; quartel-mestre",
+      "source_heads": [
+        "*אָבְטְיוֹנָא"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "f46f6c8346f5c3964f6a6ad493363fa47741d4413da852e71bede62356d6d66f",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    },
+    {
+      "ordinal": 100,
+      "id": "A00099",
+      "source_headword": "אֲבַטִּיחַ",
+      "editorial_headword": "אֲבַטִּיחַ",
+      "editorial_gloss": "melão",
+      "source_heads": [
+        "אֲבַטִּיחַ"
+      ],
+      "source_senses": 1,
+      "source_xml_sha256": "7a2821193268e03207d2bd98e46d02740a94079c3f58871d7f18d7a08e5a8a8d",
+      "assessment": "S",
+      "observation": "Sentido principal, identidade do registro e função lexical compatíveis; notas bibliográficas ou exemplos adicionais não estão certificados integralmente.",
+      "source_has_note": true,
+      "full_philological_certification": false
+    }
+  ]
+}
