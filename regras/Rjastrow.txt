@@ -60,3 +60,10 @@ Versão inicial: 10/10/2026
 - Auditoria estática: 210 linhas, 210 cartões, 210 IDs e alvos consistentes, 86 definições de popup únicas e todos os onze scripts JASTROW carregados em ordem antes de `script.js`. **Não equivale a auditoria filológica integral**: exemplos, notas e referências exigem revisão.
 - Ponto de retomada: ordinal 211, ID `A00210`, lema `אַבְרוּיֵי`. Fonte seguinte a recuperar após o ordinal 400: ID `A00400` (`אֲדִימָּא`).
 - Conciliação remota: o PR #82 JASTROW anterior está realmente mesclado em `chat-gpt-commits`; dos 210 verbetes atualmente publicados, 110 constam da integração anterior, os novos 100 ainda não. Não confundir integração com auditoria editorial. Não tocar `main`, não eliminar branches.
+
+## Quarta rodada JASTROW — A00210–A00309 (11/10/2026)
+- Escopo explícito solicitado: 100 registros, ordinais 211–310, IDs `A00210`–`A00309`; fonte canônica `lexicons/jastrow-source-lote-0002.json`, fixa em `Sefaria/Sefaria-Data` commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Não criar verbetes por projeção: cada ID e lema deve corresponder ao XML.
+- Carga lexical em quatro módulos independentes de 25 entradas, mais `lexicons/jastrow-popups-211-310.js`; não reescrever os verbetes 1–210 nem alterar outros léxicos.
+- Auditoria V8 de integridade: 310 linhas, 310 cartões, 310 targets corretos, 310 IDs originais consecutivos, módulos em ordem e 115 definições de popup únicas. Os números não representam revisão semântica completa.
+- Checkpoint pós-publicação: `total_published=310`, `total_integrated=210` (os 210 anteriores conferidos na branch de integração), `total_audited=0`, próximo ordinal 311, ID `A00310`, lema `אַגַּמָּא`. Manter limites de certificação enquanto há notas e exemplos que não receberam tradução completa.
+- Separar auditoria estrutural em `chat-gpt-correcoes`, não alegar testes visuais/navegador não executados nem integrar os novos 100 como se tivessem aprovação filológica independente. Branch `main` permanece intocada.
