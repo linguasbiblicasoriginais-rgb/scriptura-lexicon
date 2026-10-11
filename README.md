@@ -8,6 +8,8 @@ A sétima rodada corresponde a **90 verbetes**, ordinais **511–600**, IDs `A00
 
 **Checkpoint lexical:** `total_published=600`, `total_integrated=510` até a mesclagem desta rodada, `total_audited=0`. O próximo ordinal é **601**, ID `A00600`, lema antecipado `אוּזִילָא`. **A entrada 601 não foi extraída nem traduzida**; seu lema consta apenas no campo `next_headword` do terceiro lote-fonte. Para continuar depois do verbete 600, será necessário obter o quarto lote XML original.
 
+**Auditoria cumulativa concluída:** o [GitHub Actions 38117209491](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38117209491) terminou com sucesso: **600 linhas e 600 cartões, 600 IDs correspondentes, 176 popups únicos e 33 módulos**. Duas grafias legadas diferem do cabeçalho do XML (`A00006`, `A00007`); os 90 novos correspondem literalmente. O relatório fica em `auditoria/JASTROW-2026-10-11-lote-007.md`, branch `chat-gpt-correcoes`. `total_audited=0` permanece porque auditoria estrutural não constitui certificação filológica integral.
+
 **Rigor editorial e auditoria:** todos os novos IDs e cabeçalhos são derivados literalmente do XML; preservam-se homógrafos, remissões, variantes e hipóteses diferenciadas. Cada cartão contém uma síntese portuguesa do original, sem reivindicar tradução exaustiva de todas as citações. A auditoria automática [`tools/audit_jastrow_600.js`](tools/audit_jastrow_600.js) confere 600 pares busca/cartão contra os registros-fonte; somente uma execução bem-sucedida do GitHub Actions permite registrar aprovação estática. A revisão filológica independente completa, DOM real, acessibilidade e testes funcionais de pesquisa e popups continuam pendentes.
 
 
