@@ -339,5 +339,36 @@
       "browser_dom_review": "pendente",
       "philological_review": "pendente"
     }
-  }
+  },
+  "structural_fix_001": {
+    "date": "2026-10-11",
+    "status": "CORRIGIDO / PR DESTINADO À INTEGRAÇÃO",
+    "entry": "entry-thayer-0002",
+    "lemma": "Ἀβαδδών",
+    "module": "lexicons/thayer.js",
+    "corrected_module_sha": "5dc5b080e1240a2320aca010f0b05c54e8dcd22e",
+    "fix": "Restituído אָבַד como texto e como data-tooltip-label, preservando transliteração e glossa; removido HTML aninhado.",
+    "structural_validation": {
+      "source_module_rows": 20,
+      "source_module_cards": 20,
+      "global_lexicon_total": 500,
+      "source_ids_unchanged": true,
+      "source_targets_unchanged": true,
+      "broken_nested_tooltip_markup_remaining": 0
+    },
+    "browser_dom_test": "não executado",
+    "full_philological_review": "pendente",
+    "report": "auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md",
+    "origin_commit": "f3d7ed03d58fbb6a5bc68f0dbaf69707b4bfae39"
+  },
+  "audit_history": [
+    {
+      "date": "2026-10-11",
+      "scope": "Correção de HTML THAYER-EST-001 no consolidado",
+      "first_id": "entry-thayer-0002",
+      "last_id": "entry-thayer-0002",
+      "semantics_fully_homologated": 0,
+      "report": "auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md"
+    }
+  ]
 }

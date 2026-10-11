@@ -48,3 +48,7 @@ Módulos independentes: thayer-batch-006a.js (20), 006b.js (20), 006c.js (20), 0
 
 AUDITORIA FILOLÓGICA — 500 REGISTROS — 11/10/2026
 Os arquivos auditorias/thayer-auditoria-filologica-500-2026-10-11.md e auditorias/thayer-auditoria-filologica-500-inventario.csv registram comparação dos 500 cabeçalhos com a transcrição auxiliar e confirmação visual dos problemas centrais no fac-símile. Resultado: 490 correspondências de lema, 7 divergências documentadas, 1 falso negativo da transcrição, 2 divergências gráficas aparentes; 12 candidatos adicionais a inclusão/remissão na obra impressa. Proibido afirmar que as acepções, morfologia, sintaxe, etimologias e testemunhos dos 500 verbetes foram homologados: revisão por entrada ainda PENDENTE. NÃO REESCREVER cartões sem cotejar fonte e documentação. Total atual 500; próximo ἀντιπαρέρχομαι. Não modificar main/chat-gpt-commits.
+
+
+PR DE CORREÇÃO PONTUAL THAYER-EST-001 — 11/10/2026
+Integração de `lexicons/thayer.js` corrigido na branch dedicada baseada em `chat-gpt-commits`. O diff altera somente o markup de `entry-thayer-0002` (Ἀβαδδών); `אָבַד` deve ser texto puro em `data-tooltip-label` e no `<bdi>`, conservando `ʾāḇaḏ` e “perecer”. Contagem permanece 500 (499 dinâmicos + 1 estático). Guardar relatório em auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md. Preservar os outros léxicos, não escrever em main nem apagar branches. Testes browser/DOM e revisão filológica integral continuam pendentes.
