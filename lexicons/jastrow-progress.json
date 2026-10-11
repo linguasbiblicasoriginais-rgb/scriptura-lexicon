@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 100,
-    "next_ordinal": 111,
-    "next_source_id": "A00110",
-    "next_lemma": "אָבִיב,",
-    "source_records_retrieved": 200,
+    "next_ordinal": 211,
+    "next_source_id": "A00210",
+    "next_lemma": "אַבְרוּיֵי",
+    "source_records_retrieved": 400,
     "first_source_id": "A00000",
-    "last_source_id": "A00199",
-    "next_source_batch_ordinal": 201,
-    "next_source_batch_id": "A00200",
-    "next_source_batch_lemma": "אָבַר",
-    "total_published": 110,
+    "last_source_id": "A00399",
+    "next_source_batch_ordinal": 401,
+    "next_source_batch_id": "A00400",
+    "next_source_batch_lemma": "אֲדִימָּא",
+    "total_published": 210,
     "total_audited": 0,
-    "total_integrated": 0,
-    "editorial_status": "110 entradas com tradução portuguesa disponibilizadas em módulos (10 anteriores + 100 novas); auditoria filológica independente, verificação de popups e testes em navegador pendentes",
-    "source_status": "200/200 registros XML recuperados e preservados"
+    "total_integrated": 110,
+    "editorial_status": "210 verbetes publicados na branch; 110 integrados por PR #82; novos 100 (A00110–A00209) com auditoria estática aprovada, revisão filológica e teste de navegador pendentes",
+    "source_status": "400 originais verificados: XML lotes 1 (1–200) e 2 (201–400)"
   },
   "batches": [
     {
@@ -64,25 +64,58 @@
         "lexicons/jastrow-081-110.js"
       ],
       "status": "100 traduções publicadas no HTML via módulos; auditoria estrutural de IDs e JS realizada; auditoria filológica, popups e navegador pendentes"
+    },
+    {
+      "batch": 3,
+      "source_start_ordinal": 111,
+      "source_end_ordinal": 210,
+      "source_count": 100,
+      "source_first_id": "A00110",
+      "source_last_id": "A00209",
+      "source_files": [
+        "lexicons/jastrow-source-lote-0001.json",
+        "lexicons/jastrow-source-lote-0002.json"
+      ],
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 111,
+      "translated_end_ordinal": 210,
+      "translated_count": 100,
+      "translated_first_id": "A00110",
+      "translated_last_id": "A00209",
+      "translated_files": [
+        "lexicons/jastrow-111-140.js",
+        "lexicons/jastrow-141-170.js",
+        "lexicons/jastrow-171-185.js",
+        "lexicons/jastrow-186-200.js",
+        "lexicons/jastrow-201-210.js"
+      ],
+      "popup_file": "lexicons/jastrow-popups-111-210.js",
+      "status": "100 traduções em pt-BR publicadas na branch; correspondências HTML/JS/IDs aprovadas; auditoria filológica e browser pendentes; novo PR/merge pendente"
     }
   ],
   "last_attempt": {
     "date": "2026-10-10",
-    "prior_published": 10,
+    "starting_published": 110,
+    "source_entries_retrieved_total": 400,
+    "prior_integrated_verified": 110,
+    "prior_integration_pr": 82,
     "new_translations_committed": 100,
-    "translated_total": 110,
-    "source_batch_records": 200,
+    "translation_ids": "A00110–A00209",
+    "total_published": 210,
+    "next_id": "A00210",
+    "next_lemma": "אַבְרוּיֵי",
     "source_xml_repo": "Sefaria/Sefaria-Data",
     "source_xml_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
-    "source_batch_file": "lexicons/jastrow-source-lote-0001.json",
-    "new_range": "A00010–A00109",
-    "audit": "100 source IDs and headwords matched; 100 distinct new IDs; balanced bdi tags and JavaScript parse passed; script tags installed before script.js",
-    "filological_audit": "not independently completed",
-    "browser_test": "not executed",
-    "popup_audit": "55 termos explicativos únicos na configuração JASTROW (8 anteriores e 47 novos dos 49 propostos; 2 duplicados por normalização); cobertura parcial, revisão exaustiva pendente",
-    "integration": "not done; require independent editorial audit and verified PR",
-    "no_main_writes": true,
-    "runtime_static_audit": "PASS: 110 search-row, 110 entry-card, 110 IDs e data-target correspondentes; scripts sequenciais; 55 popups únicos; zero links externos inventados; checkpoint em A00110"
+    "source_files": [
+      "lexicons/jastrow-source-lote-0001.json",
+      "lexicons/jastrow-source-lote-0002.json"
+    ],
+    "deterministic_audit": "PASS: 210 unique sequential source IDs, 210 search rows, 210 cards, 210 matching data-target, JavaScript execution and loading order, 86 tooltip definitions; source XML 400 originals",
+    "filological_audit": "pendente: as entradas traduzidas apresentam redação sintética e exigem comparação linha a linha para todas as notas e exemplos",
+    "browser_audit": "pendente: sem navegador validado",
+    "tooltip_coverage": "86 definições únicas, completude de todas referências ainda pendente",
+    "integration": "PR #82 merged (old 110); novos 100 ainda não integrados",
+    "main_modified": false
   },
   "constraints": {
     "never_invent": true,
