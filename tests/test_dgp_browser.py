@@ -151,12 +151,14 @@ def test_page(browser, base, path, expected):
     source = page.locator("#source-filter")
     values = source.locator("option").evaluate_all("(opts) => opts.map(o => o.value)")
     check("DGP" in values, "Fonte DGP ausente do seletor")
+    page.locator("#menu-toggle").click()
     for theme in ("light", "dark"):
         inp = page.locator('input[name="site-theme"][value="%s"]' % theme)
         check(inp.count() > 0, "Comando de tema ausente " + theme)
-        inp.check(force=True)
+        inp.locator("xpath=..").click()
         check(page.locator("html").get_attribute("data-theme") == theme,
               "Tema nao alternou para " + theme)
+    page.locator("#menu-close").click()
     page.set_viewport_size({"width": 375, "height": 812})
     check(page.locator("#search-input").is_visible(), "Pesquisa invisivel em tela estreita")
     check(not errors, "Erros JS no navegador: " + repr(errors[:8]))
