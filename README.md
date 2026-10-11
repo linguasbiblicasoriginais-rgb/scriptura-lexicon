@@ -1,5 +1,9 @@
 # Scriptura Lexicon
 
+## DGP — 100 verbetes auditados filologicamente, ordinais 41–140 (11/10/2026)
+
+A auditoria independente examinou **100 novos registros DGP**, de `ἀβλής, ῆτος` a `ἄγγαρος, ος, ον`, usando o XML canônico. **20** receberam fontes externas dirigidas (LSJ, Cunliffe, Bailly, textos gregos e léxicos bíblicos); **80** tiveram exame morfológico, semântico e editorial interno. A cobertura cumulativa da primeira passagem é **140/3.300**, não homologação de todas as atestações. O [relatório filológico de 100 verbetes](auditorias/dgp-filologia-2026-10-11-lote003-0041-0140.md) e a [evidência individualizada](auditorias/dgp-filologia-2026-10-11-lote003-evidencias.json) registram resultados e incertezas; o [checkpoint](auditorias/dgp-filologia-progresso.json) prossegue no ordinal 141. Não houve nova correção lexical nem PR/merge nesta fase.
+
 ## PR #96 — conciliação das auditorias DGP e JASTROW (11/10/2026)
 
 O conflito de integração foi resolvido na branch `chat-gpt-correcoes`, preservando o conteúdo consolidado de `chat-gpt-commits` e acrescentando os relatórios e as correções documentadas neste PR. As alterações do DGP ficam restritas à pesquisa dos registros já existentes e à correção tipográfica de `ausência`; não foram criados verbetes. Os módulos de JASTROW e THAYER já integrados permanecem intactos. Os relatórios DGP sobre **3.300 entradas** referem-se ao estado da **branch lexical de origem**; a quantidade publicada na branch consolidada deve ser consultada separadamente. A integração definitiva do PR ainda depende da mesclagem, sem alteração da `main`. A revisão filológica integral, os testes de navegador e a acessibilidade permanecem pendentes.
