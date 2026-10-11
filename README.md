@@ -1,5 +1,9 @@
 # Scriptura Lexicon
 
+## HALOT — PDF canônico versionado (11/10/2026)
+
+**Regra vigente:** a fonte primária da frente HALOT é exclusivamente [`fontes/fonte-halot.pdf`](fontes/fonte-halot.pdf), na branch `chat-gpt-halot`; blob Git `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O endereço externo anteriormente indicado permanece apenas como referência histórica de proveniência; outros volumes KBS/HALOT não o substituem. Conferir o blob SHA a cada nova execução e registrar mudanças de versão antes de continuar. A existência do PDF foi confirmada no GitHub, mas sua inspeção interna e a delimitação das primeiras 100 entradas ainda não foram concluídas; o checkpoint lexical permanece **0 incorporados, 0 auditados, 0 integrados**, ordinal seguinte 1. Regras: [`regras/Rhalot.txt`](regras/Rhalot.txt); manifesto: [`lexicons/halot-progress.json`](lexicons/halot-progress.json). Não requerer upload adicional somente pela falha histórica da URL externa.
+
 ## HALOT — tentativa do primeiro lote (11/10/2026)
 
 A solicitação de **100 verbetes HALOT** foi iniciada, mas **não pôde ser concluída**: o leitor público recusou o PDF canônico por tamanho (18.446.799 bytes), o download direto falhou e o ambiente de inspeção retornou erro. Nenhuma sequência de 100 verbetes com fronteiras e paginação auditáveis foi obtida; portanto, **0 verbetes novos foram publicados**. O estado honesto e o próximo ordinal 1 constam em [`lexicons/halot-progress.json`](lexicons/halot-progress.json), e o impedimento em [`regras/Rhalot.txt`](regras/Rhalot.txt). Para retomar, é necessário acesso efetivo ao próprio arquivo indicado pelo mantenedor; outros volumes KBS não serão utilizados como substitutos silenciosos. Esta atualização é apenas documental, sem mudanças em `main`, scripts lexicais ou demais checkpoints.
