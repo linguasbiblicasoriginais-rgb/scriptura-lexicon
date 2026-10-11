@@ -1,5 +1,9 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## HALOT — autoridade da fonte Git (11/10/2026)
+
+A fonte canônica do HALOT agora é `fontes/fonte-halot.pdf`, na branch `chat-gpt-halot`, blob Git `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O URL externo das notas de 10/10 permanece histórico, sem precedência documental. O executor deve conferir SHA a cada rodada, inspecionar o PDF de fato e preservar a distinção da *Study Edition* em relação aos volumes KBS; não declarar extração nem auditoria a partir da simples confirmação de existência no GitHub. O checkpoint permanece 0 verbetes; este adendo não cria agendamento, não autoriza commits fora da branch HALOT e não afeta os demais léxicos.
+
 ## HALOT — extensão documental de fonte (10/10/2026)
 
 Foi designada a fonte HALOT (*The Hebrew and Aramaic Lexicon of the Old Testament*, **Study Edition**, volume 1) e criada a branch exclusiva `chat-gpt-halot`. URL documental indicada: https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf. A regra própria é `regras/Rhalot.txt`. A indicação bibliográfica não equivale à validação textual do PDF, nem ao início de lotes.
