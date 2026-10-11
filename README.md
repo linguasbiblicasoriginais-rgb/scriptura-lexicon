@@ -1,5 +1,9 @@
 # Scriptura Lexicon
 
+## DGP — auditoria filológica, lote 002 (11/10/2026)
+
+A auditoria filológica independente chegou aos **40 verbetes revisados** (2 lotes de 20) dentre **3.300** incorporados. O [segundo relatório](auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md) registra os ordinais 21–40, confronto contextual com LSJ, CLD/Bailly, Suda e Cambridge Greek Lexicon, análise de remissões, morfologia e citações. Em `chat-gpt-correcoes`, corrigiu-se **somente a palavra portuguesa quebrada** `au- sência` → `ausência` no cartão DGP 38, preservando a fonte XML. Ainda **não há homologação filológica integral, visual/funcional ou integração das correções**. Próximo lote filológico: 41–60. O [checkpoint independente](auditorias/dgp-filologia-progresso.json) registra os ordinais e pendências.
+
 ## DGP — início da auditoria filológica independente (11/10/2026)
 
 Foi iniciado o confronto filológico progressivo do DGP: **20 verbetes examinados individualmente (ordinais 1–20 de 3.300 incorporados)**, com consulta auxiliar dirigida em LSJ/Cunliffe para 14 registros, identificação de citações em *Ilíada* 9.537 e 2 Coríntios 11.9, e registro de questões relativas a terminações adjetivais, derivações, homógrafos e acepções. **Não é uma homologação filológica dos 3.300 verbetes**, nem uma alteração editorial da fonte. O relatório de cada entrada está em [auditoria filológica 1–20](auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md) e o progresso reproduzível em [checkpoint filológico DGP](auditorias/dgp-filologia-progresso.json). Próximo lote: 21–40.

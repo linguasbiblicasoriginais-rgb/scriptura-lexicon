@@ -1000,7 +1000,7 @@ window.ScripturaLexicons.DGP = {
     <div class="entry-divider"></div>
     <section class="entry-section">
         <div class="section-title">Definição do DGP</div>
-        <p class="entry-text">1 inocuidade 2 precaução; cautela 3 au- sência de mal; incolumidade; bom estado. 〈ἀβλαβής〉</p>
+        <p class="entry-text">1 inocuidade 2 precaução; cautela 3 ausência de mal; incolumidade; bom estado. 〈ἀβλαβής〉</p>
     </section>
 </article>
 

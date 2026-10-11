@@ -14,13 +14,13 @@
   "total_inc_por_source_branch": 3300,
   "filologia": {
     "first": 1,
-    "last": 20,
-    "reviewed_total": 20,
-    "external_targeted_review": 14,
-    "internal_review_only": 6,
-    "remaining": 3280,
-    "next_ordinal": 21,
-    "status": "em_andamento; sem homologação integral"
+    "last": 40,
+    "reviewed_total": 40,
+    "external_targeted_review": 30,
+    "internal_review_only": 10,
+    "remaining": 3260,
+    "next_ordinal": 41,
+    "status": "em_andamento; 40/3300 revisados filologicamente, verificações de sentidos e locus ainda abertas"
   },
   "batches": [
     {
@@ -81,9 +81,78 @@
         18,
         20
       ]
+    },
+    {
+      "batch": 2,
+      "first_ordinal": 21,
+      "last_ordinal": 40,
+      "first_lemma": "ἀβάστακτος, ος, ον",
+      "last_lemma": "ἀβλαβῶς",
+      "report": "auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md",
+      "changed_lexical_entries": 0,
+      "typographic_display_corrections": 1,
+      "typographic_display_ordinal": 38,
+      "reviewed_ordinal_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "external_targeted_ordinals": [
+        21,
+        22,
+        23,
+        24,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "internal_review_only_ordinals": [
+        25,
+        27,
+        28,
+        34
+      ],
+      "open_issues": [
+        23,
+        24,
+        25,
+        27,
+        29,
+        34,
+        36,
+        37,
+        38
+      ],
+      "lexical_head": "59d497c25c0a9bbc0a15a2d49d6586e5d6892500"
     }
   ],
-  "next_action": "Auditar DGP 21–40; rever questões dos primeiros 20 sem emendar fonte por conjectura",
+  "next_action": "Auditar DGP 41–60; retomar lacunas do lote 002 por verificação de fontes e usos contextuais; validar renderização em navegador separadamente",
   "constraints": [
     "Fidelity to original DGP XML",
     "Separate source, representation, philological assessment and external evidence",
