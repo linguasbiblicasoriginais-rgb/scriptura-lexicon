@@ -86,7 +86,7 @@ const entries=[
     "lemma": "אבהנוס,",
     "type": "Leitura editorial",
     "gloss": "ler אַמְבָּטִיס ou אִיפּוֹבַּטֵיס",
-    "html": "Jastrow considera a grafia <bdi lang='he' dir='rtl'>אבהנוס</bdi> de Jerusalém Kilayim 3, 31c duvidosa; recomenda <bdi lang='he' dir='rtl'>אַמְבָּטִיס</bdi> ou <bdi lang='he' dir='rtl'>אִיפּוֹבַּטֵיס</bdi> (grego <span lang='grc'>ἱπποβάτης</span>), “asno reprodutor para éguas”."
+    "html": "Jastrow considera a grafia <bdi lang='he' dir='rtl'>אבהנוס</bdi> de Jerusalém Kilayim 3, 31c duvidosa; recomenda <bdi lang='he' dir='rtl'>אַמְבָּטִיס</bdi> ou <bdi lang='he' dir='rtl'>אִיפּוֹבַּטֵיס</bdi> (grego <span lang='grc'>ἱπποβάτης</span>), “asno reprodutor para éguas”. <strong>Nota de colação:</strong> A segunda forma do cabeçalho é אבהונוס. As grafias אַמְבָּטִיס ou אִיפּוֹבַּטֵיס são emendas recomendadas por Jastrow, não leituras de edição confirmadas."
   },
   {
     "sid": "A00052",
@@ -107,7 +107,7 @@ const entries=[
     "lemma": "אִבּוּ,",
     "type": "Nome próprio masculino",
     "gloss": "Ibbu; Aibu",
-    "html": "<strong>Ibbu</strong> ou <strong>Aibu</strong>, provavelmente formas do mesmo nome de um amoraíta. Variantes <bdi lang='he' dir='rtl'>אבו, אי׳, איי׳</bdi>. Atestado em Sanhedrin 5a, Sucá 44b, Rute Rabá 2 e Jerusalém Sucá 2. Jastrow registra ainda que <bdi lang='he' dir='rtl'>אִבּוּ</bdi> designa uma ave noutro verbete."
+    "html": "<strong>Ibbu</strong> ou <strong>Aibu</strong>, provavelmente formas do mesmo nome de um amoraíta. Variantes <bdi lang='he' dir='rtl'>אבו, אי׳, איי׳</bdi>. Atestado em Sanhedrin 5a, Sucá 44b, Rute Rabá 2 e Jerusalém Sucá 2. Jastrow registra ainda que <bdi lang='he' dir='rtl'>אִבּוּ</bdi> designa uma ave noutro verbete. <strong>Nota de colação:</strong> O XML registra também o cabeçalho alternativo (אַיְיבוּ) אִיבּוּ; o nome romanizado Aibu não substitui sua grafia original."
   },
   {
     "sid": "A00055",
@@ -121,7 +121,7 @@ const entries=[
     "lemma": "אַבּוּב,",
     "type": "Substantivo aramaico",
     "gloss": "flauta; tubo",
-    "html": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אַבּוּב</bdi>. Yoma 20b conserva um provérbio: a flauta agrada aos nobres, mas é desprezada pelos tecelões; pessoas ignorantes rejeitam aquilo que os sábios admiram. Plural <bdi lang='he' dir='rtl'>אַבּוּבִין</bdi> (Targum Jeremias 48.36; Sucá 50b)."
+    "html": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אַבּוּב</bdi>. Yoma 20b conserva um provérbio: a flauta agrada aos nobres, mas é desprezada pelos tecelões; pessoas ignorantes rejeitam aquilo que os sábios admiram. Plural <bdi lang='he' dir='rtl'>אַבּוּבִין</bdi> (Targum Jeremias 48.36; Sucá 50b). <strong>Nota de colação:</strong> Variante aramaica de cabeçalho אַבּוּבָא, além de אַבּוּב; plural אַבּוּבִין."
   },
   {
     "sid": "A00057",
@@ -268,7 +268,7 @@ const entries=[
     "lemma": "אֵבוּס,",
     "type": "Substantivo masculino",
     "gloss": "cocho; manjedoura; estrebaria",
-    "html": "<strong>1.</strong> Recipiente para alimentar animais ou trabalhadores, cocho, manjedoura (Nedarim 4.4). Shabbat 140b distingue <bdi lang='he' dir='rtl'>איבוס של כלי</bdi>, manjedoura como recipiente, de <bdi lang='he' dir='rtl'>איבוס של קרקע</bdi>, área de solo cercada usada para alimentar animais. <strong>2.</strong> Baia, estábulo, estrebaria (Jerusalém Shevuot 7–8). Plural <bdi lang='he' dir='rtl'>אֵבוּסִים</bdi> (Jerusalém Sanhedrin 63b). Há variantes e remissão a <bdi lang='he' dir='rtl'>אֵיפוּס</bdi>."
+    "html": "<strong>1.</strong> Recipiente para alimentar animais ou trabalhadores, cocho, manjedoura (Nedarim 4.4). Shabbat 140b distingue <bdi lang='he' dir='rtl'>איבוס של כלי</bdi>, manjedoura como recipiente, de <bdi lang='he' dir='rtl'>איבוס של קרקע</bdi>, área de solo cercada usada para alimentar animais. <strong>2.</strong> Baia, estábulo, estrebaria (Jerusalém Shevuot 7–8). Plural <bdi lang='he' dir='rtl'>אֵבוּסִים</bdi> (Jerusalém Sanhedrin 63b). Há variantes e remissão a <bdi lang='he' dir='rtl'>אֵיפוּס</bdi>. <strong>Nota de colação:</strong> O segundo cabeçalho, marcado como duvidoso, é (?אִיבּוּס) אֵיבוּס. Não remover sua marca de dúvida."
   },
   {
     "sid": "A00078",
@@ -282,7 +282,7 @@ const entries=[
     "lemma": "אֲבוּקָה",
     "type": "Substantivo feminino",
     "gloss": "tocha; archote",
-    "html": "Provavelmente originado, segundo a análise etimológica da fonte, de feixe de ramos. Tocha ou archote, com ou sem fogo aceso expresso na construção <bdi lang='he' dir='rtl'>של אור</bdi>. Sotá 21a: “uma tocha acesa chegou-lhe às mãos”; Berakhot 43b: caminhar à luz da tocha equivaleria à proteção de duas pessoas. Plural <bdi lang='he' dir='rtl'>אֲבוּקוֹת</bdi>: tochas usadas nas danças da festa (Tosefta Sucá 4.2–4; Sucá 53a)."
+    "html": "Provavelmente originado, segundo a análise etimológica da fonte, de feixe de ramos. Tocha ou archote, com ou sem fogo aceso expresso na construção <bdi lang='he' dir='rtl'>של אור</bdi>. Sotá 21a: “uma tocha acesa chegou-lhe às mãos”; Berakhot 43b: caminhar à luz da tocha equivaleria à proteção de duas pessoas. Plural <bdi lang='he' dir='rtl'>אֲבוּקוֹת</bdi>: tochas usadas nas danças da festa (Tosefta Sucá 4.2–4; Sucá 53a). <strong>Nota de colação:</strong> Jerusalém Sucá 5, 55c: emenda possível זֶפֶת contra זהב. Notas etimológicas: Sachs, Beiträge I, p. 62; Nahmânides a Gênesis 32.25."
   }
 ];
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}

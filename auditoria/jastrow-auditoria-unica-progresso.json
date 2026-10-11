@@ -1,0 +1,731 @@
+{
+  "schema": "auditoria-filologica-unica/1",
+  "date": "2026-10-11",
+  "lexicon": "JASTROW",
+  "branch": "chat-gpt-correcoes",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "historical_total": 600,
+  "selected": 100,
+  "selection": "11 V + earliest 89 O from old checkpoint",
+  "counts": {
+    "A": 37,
+    "C": 28,
+    "P": 35
+  },
+  "edits_applied": 28,
+  "other_historical_flags_not_included": [
+    "A00568",
+    "A00569",
+    "A00570",
+    "A00586",
+    "A00589",
+    "A00593",
+    "A00597",
+    "A00598"
+  ],
+  "no_second_general_phase": true,
+  "report": "auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md",
+  "evidence": "auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json",
+  "records": [
+    {
+      "id": "A00010",
+      "ordinal": 11,
+      "result": "C",
+      "patched": true,
+      "decision_note": "A sequência de Daniel 5.25 tem marcas gráficas, reproduzidas do XML: מנא̇ מנא̇ תקל̇ ופר̇סין̇. Não as omitir no expediente de seleção de letras."
+    },
+    {
+      "id": "A00012",
+      "ordinal": 13,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O segundo cabeçalho original é אֶבְ־, além de אַב־. Jastrow associa-os respectivamente a elementos gregos εὐ- e αὐ-."
+    },
+    {
+      "id": "A00013",
+      "ordinal": 14,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00014",
+      "ordinal": 15,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Estados construtos: אֲבִי, אַב. A expressão בת אב indica mulher de origem nobre (Números Rabá 1); בנין אב denomina conclusão legal por analogia de um caso bíblico explícito (Sifra)."
+    },
+    {
+      "id": "A00016",
+      "ordinal": 17,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Segundo cabeçalho: (אוֹב) אֵיב. Bava Kamma 81a: leitura de edição אִיבּוֹ versus Arukh/manuscrito חובו; a variante de Tosefta Maaserot 1.4 é emendada por Jastrow para אוּגִין."
+    },
+    {
+      "id": "A00017",
+      "ordinal": 18,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O uso sarcástico אַבָּא אליהו ('pai Elias') consta em Sanhedrin 113a. Meguilá 12b cita o administrador do pai. Em Targum Provérbios 19.14, variante manuscrita אֲבָהֵי e leitura da edição אבהן."
+    },
+    {
+      "id": "A00018",
+      "ordinal": 19,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Cabeçalho alternativo אַכָּה; grafias do Jerusalém בָּא, וָוא, וָוה. Trata-se de formas históricas associadas a pessoas distintas, não de uma identificação única."
+    },
+    {
+      "id": "A00021",
+      "ordinal": 22,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Gênesis Rabá 19: o Arukh transmite חמה עליה אבבית עליה ('febre e vômitos'), ao passo que a edição tem צינה עליו כמה חככים עליו, leitura que Jastrow considera corrompida."
+    },
+    {
+      "id": "A00026",
+      "ordinal": 27,
+      "result": "P",
+      "patched": false,
+      "decision_note": "O destino איב׳ é truncado e não autoriza a expansão exata apresentada no cartão."
+    },
+    {
+      "id": "A00027",
+      "ordinal": 28,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Leituras secundárias אביינוס (Midraxe Salmos 1), אווגיטוס (Cântico Rabá) e בן גנסין (Midraxe Salmos 105) são variantes de testemunho, não novos cabeçalhos comprovados."
+    },
+    {
+      "id": "A00030",
+      "ordinal": 31,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Sifré Deuteronômio 301 apresenta propostas de leitura לוֹבֵד ou לֶאֱבוֹד; Yalkut registra לאבדם e manuscrito Zer. Abr. 3 לֵיאָבֵר. Diferenciar testemunho de emenda editorial."
+    },
+    {
+      "id": "A00031",
+      "ordinal": 32,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O segundo cabeçalho aramaico é אָבַד, ao lado de אֲבַּד; preservar a distinção entre Pael, Afel e Itpaal."
+    },
+    {
+      "id": "A00033",
+      "ordinal": 34,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O sentido lexical expresso no inglês desta entrada é substantivo 'destruição' (Targum Provérbios 28.28), não apenas a etimologia verbal da raiz."
+    },
+    {
+      "id": "A00049",
+      "ordinal": 50,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A remissão não vocalizada אבי não autoriza afirmar que a leitura אָבֵי seja a única."
+    },
+    {
+      "id": "A00051",
+      "ordinal": 52,
+      "result": "C",
+      "patched": true,
+      "decision_note": "A segunda forma do cabeçalho é אבהונוס. As grafias אַמְבָּטִיס ou אִיפּוֹבַּטֵיס são emendas recomendadas por Jastrow, não leituras de edição confirmadas."
+    },
+    {
+      "id": "A00054",
+      "ordinal": 55,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O XML registra também o cabeçalho alternativo (אַיְיבוּ) אִיבּוּ; o nome romanizado Aibu não substitui sua grafia original."
+    },
+    {
+      "id": "A00056",
+      "ordinal": 57,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Variante aramaica de cabeçalho אַבּוּבָא, além de אַבּוּב; plural אַבּוּבִין."
+    },
+    {
+      "id": "A00077",
+      "ordinal": 78,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O segundo cabeçalho, marcado como duvidoso, é (?אִיבּוּס) אֵיבוּס. Não remover sua marca de dúvida."
+    },
+    {
+      "id": "A00079",
+      "ordinal": 80,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Jerusalém Sucá 5, 55c: emenda possível זֶפֶת contra זהב. Notas etimológicas: Sachs, Beiträge I, p. 62; Nahmânides a Gênesis 32.25."
+    },
+    {
+      "id": "A00083",
+      "ordinal": 84,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00097",
+      "ordinal": 98,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O asterisco pertence à marcação da entrada; as emendas explícitas de Jastrow são טוֹגָא e טִיבִינָּא. Não inferir do asterisco uma proposta específica de leitura."
+    },
+    {
+      "id": "A00110",
+      "ordinal": 111,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Plural adjetival אַבִּיבִין, forma abreviada אָבִי׳ e leitura singular na edição de Berlim de Targum Onkelos Êxodo 9.31."
+    },
+    {
+      "id": "A00111",
+      "ordinal": 112,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00112",
+      "ordinal": 113,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00121",
+      "ordinal": 122,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00133",
+      "ordinal": 134,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00135",
+      "ordinal": 136,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Referência toponímica citada por Jastrow: Graetz, Geschichte der Juden II/2, p. 457; Tosefta Zevahim 2.3 אֵיבְלַיִים, variante אובלים."
+    },
+    {
+      "id": "A00157",
+      "ordinal": 158,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Plural אֲבֵילִים; Targum Gênesis 50.11 é remetido pelo autor ao aramaico אֶבְלָא."
+    },
+    {
+      "id": "A00161",
+      "ordinal": 162,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00167",
+      "ordinal": 168,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Jerusalém Nazir 7, 56a: מגבילה; Jerusalém Berakhot 3, 6a: גבילה. São variantes atribuídas a fontes diferentes."
+    },
+    {
+      "id": "A00169",
+      "ordinal": 170,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Tosefta Sheviit 4.11 tem עילי רבתא (variante אולם); Sifré Deuteronômio 51 לולא רבתא; Yalkut Deuteronômio 624 לילא רבתא. Portas da Cilícia é hipótese toponímica."
+    },
+    {
+      "id": "A00172",
+      "ordinal": 173,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00173",
+      "ordinal": 174,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Para Targum Provérbios 23.28, Jastrow recomenda a leitura do manuscrito Luzzatto וצאדא בניא שברי; Jerusalém Bava Batra 2, 13c é reputado corrompido/incompleto."
+    },
+    {
+      "id": "A00174",
+      "ordinal": 175,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Êxodo Rabá 1 explica por מקום שהולד נפנה בו ('lugar por onde a criança se volta'), contraposto a נקנה, que Jastrow considera incorreto em algumas edições; outra etimologia em Sotá 11b."
+    },
+    {
+      "id": "A00181",
+      "ordinal": 182,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Bava Metzia 86b distingue engorda compulsória (שאוֹבְסִין אותן בע״כ) da alimentação espontânea, justificando os usos ativo e neutro."
+    },
+    {
+      "id": "A00189",
+      "ordinal": 190,
+      "result": "C",
+      "patched": true,
+      "decision_note": "O Arukh permite ainda, com dúvida expressa por Jastrow, 'retirar o pó' em vez de aplicá-lo. Não nivelar essa hipótese ao uso principal."
+    },
+    {
+      "id": "A00190",
+      "ordinal": 191,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00198",
+      "ordinal": 199,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00202",
+      "ordinal": 203,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00211",
+      "ordinal": 212,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00226",
+      "ordinal": 227,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00239",
+      "ordinal": 240,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00243",
+      "ordinal": 244,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00247",
+      "ordinal": 248,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00269",
+      "ordinal": 270,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00271",
+      "ordinal": 272,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Vírgula isolada na lista de cabeçalhos digitais exige conferência da tipografia impressa."
+    },
+    {
+      "id": "A00278",
+      "ordinal": 279,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00282",
+      "ordinal": 283,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00284",
+      "ordinal": 285,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Os segmentos תוס e … em cabeçalhos XML não demonstram uma variante completa."
+    },
+    {
+      "id": "A00303",
+      "ordinal": 304,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Não foi possível confrontar a nota 200 de Rabb. D. S. com Ḥagigah 12b."
+    },
+    {
+      "id": "A00318",
+      "ordinal": 319,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00319",
+      "ordinal": 320,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00325",
+      "ordinal": 326,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00328",
+      "ordinal": 329,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00333",
+      "ordinal": 334,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00335",
+      "ordinal": 336,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00336",
+      "ordinal": 337,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00339",
+      "ordinal": 340,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00343",
+      "ordinal": 344,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00344",
+      "ordinal": 345,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00349",
+      "ordinal": 350,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00350",
+      "ordinal": 351,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00351",
+      "ordinal": 352,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00353",
+      "ordinal": 354,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00364",
+      "ordinal": 365,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00370",
+      "ordinal": 371,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00371",
+      "ordinal": 372,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Primeiro cabeçalho XML contém apenas asterisco; impresso não colacionado."
+    },
+    {
+      "id": "A00380",
+      "ordinal": 381,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00391",
+      "ordinal": 392,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00397",
+      "ordinal": 398,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00407",
+      "ordinal": 408,
+      "result": "P",
+      "patched": false,
+      "decision_note": "O inglês do XML 'heated store' contrasta com o contexto hebraico דתנורא; impresso não colacionado."
+    },
+    {
+      "id": "A00411",
+      "ordinal": 412,
+      "result": "P",
+      "patched": false,
+      "decision_note": "O XML registra אַזְכָּרָח, a tradução apresenta אַזְכָּרָה; impressão não conferida."
+    },
+    {
+      "id": "A00412",
+      "ordinal": 413,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00414",
+      "ordinal": 415,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00429",
+      "ordinal": 430,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Remissão abreviada אוּ׳ não identifica seguramente o destino; substituição automática rejeitada."
+    },
+    {
+      "id": "A00431",
+      "ordinal": 432,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Hulin 60b: ארונקי ocorre em edição; אדונקי no Musaf do Arukh. A relação com ἐθνάρχοι é hipótese filológica."
+    },
+    {
+      "id": "A00443",
+      "ordinal": 444,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00444",
+      "ordinal": 445,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00445",
+      "ordinal": 446,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00446",
+      "ordinal": 447,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00449",
+      "ordinal": 450,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00451",
+      "ordinal": 452,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00466",
+      "ordinal": 467,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00475",
+      "ordinal": 476,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00490",
+      "ordinal": 491,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00491",
+      "ordinal": 492,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00493",
+      "ordinal": 494,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00494",
+      "ordinal": 495,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00498",
+      "ordinal": 499,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00501",
+      "ordinal": 502,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00508",
+      "ordinal": 509,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00516",
+      "ordinal": 517,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Formas metalinguísticas אֹואִין, אוֹיִין, אֹויִים; construto אֹויֵי. Descrevem menção à palavra 'ou', não plural sintático habitual."
+    },
+    {
+      "id": "A00520",
+      "ordinal": 521,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00535",
+      "ordinal": 536,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00538",
+      "ordinal": 539,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00544",
+      "ordinal": 545,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O reparo de variante/aparato histórico já consta de commit anterior e corresponde ao material da fonte XML."
+    },
+    {
+      "id": "A00556",
+      "ordinal": 557,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00561",
+      "ordinal": 562,
+      "result": "P",
+      "patched": false,
+      "decision_note": "A lacuna histórica de aparato não foi demonstrada como resolvida; permanece identificada em legacy_observation."
+    },
+    {
+      "id": "A00571",
+      "ordinal": 572,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Autorremissão circular do XML ainda exige conferência da edição de 1903."
+    },
+    {
+      "id": "A00592",
+      "ordinal": 593,
+      "result": "P",
+      "patched": false,
+      "decision_note": "Terceiro cabeçalho XML contém apenas ponto; segmentação exige colação tipográfica."
+    }
+  ]
+}

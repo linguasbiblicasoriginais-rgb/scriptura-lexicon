@@ -8,7 +8,7 @@ const entries=[
     "lemma": "אָבִיב,",
     "type": "Substantivo aramaico",
     "gloss": "espiga em formação; cevada em maturação",
-    "html": "Aramaico equivalente ao hebraico <bdi lang='he' dir='rtl'>אָבִיב</bdi>: estágio inicial de maturação dos cereais. Formas <bdi lang='he' dir='rtl'>אָבִיבָא, אַבִּיב, אַבִּיבָא</bdi>; plural adjetival <bdi lang='he' dir='rtl'>אַבִּיבִין</bdi>. Targum Onkelos Levítico 2.14, Êxodo 13.4 e 9.31. Sanhedrin 11b e Jerusalém Sanhedrin 1, 18d registram que a época do amadurecimento ainda não chegara. Jastrow propõe emenda para uma leitura de Jerusalém Maaserot 5, 52a."
+    "html": "Aramaico equivalente ao hebraico <bdi lang='he' dir='rtl'>אָבִיב</bdi>: estágio inicial de maturação dos cereais. Formas <bdi lang='he' dir='rtl'>אָבִיבָא, אַבִּיב, אַבִּיבָא</bdi>; plural adjetival <bdi lang='he' dir='rtl'>אַבִּיבִין</bdi>. Targum Onkelos Levítico 2.14, Êxodo 13.4 e 9.31. Sanhedrin 11b e Jerusalém Sanhedrin 1, 18d registram que a época do amadurecimento ainda não chegara. Jastrow propõe emenda para uma leitura de Jerusalém Maaserot 5, 52a. <strong>Nota de colação:</strong> Plural adjetival אַבִּיבִין, forma abreviada אָבִי׳ e leitura singular na edição de Berlim de Targum Onkelos Êxodo 9.31."
   },
   {
     "sid": "A00111",
@@ -183,7 +183,7 @@ const entries=[
     "lemma": "אֲבֵילִין",
     "type": "Nome de lugar plural",
     "gloss": "Abelin; Abilena",
-    "html": "<strong>Abelin</strong> ou <strong>Abilena</strong>, distrito da Pereia na identificação bibliográfica de Jastrow. Referências: Levítico Rabá 17; Pesikta Vayhi; Pesikta Rabati 18; Rute Rabá a 1.5; Tosefta Zevahim 2.3. Registra variantes <bdi lang='he' dir='rtl'>האכלון, אובלים, אבולין, אֵיבְלַיִים</bdi>, algumas corrigidas pelo autor."
+    "html": "<strong>Abelin</strong> ou <strong>Abilena</strong>, distrito da Pereia na identificação bibliográfica de Jastrow. Referências: Levítico Rabá 17; Pesikta Vayhi; Pesikta Rabati 18; Rute Rabá a 1.5; Tosefta Zevahim 2.3. Registra variantes <bdi lang='he' dir='rtl'>האכלון, אובלים, אבולין, אֵיבְלַיִים</bdi>, algumas corrigidas pelo autor. <strong>Nota de colação:</strong> Referência toponímica citada por Jastrow: Graetz, Geschichte der Juden II/2, p. 457; Tosefta Zevahim 2.3 אֵיבְלַיִים, variante אובלים."
   },
   {
     "sid": "A00136",

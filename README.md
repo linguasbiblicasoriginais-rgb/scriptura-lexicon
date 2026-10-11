@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## JASTROW — 100 ressalvas sob auditoria filológica única (11/10/2026)
+
+Foram examinados **100 casos previamente sinalizados** no Jastrow (11 V históricos e 89 O), por decisão explícita do usuário. Resultados **A=37, C=28, P=35**, com **28 correções documentais publicadas** e restantes bloqueios específicos registrados; ver [relatório](auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md), [fonte XML de cada caso](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [checkpoint único](auditoria/jastrow-auditoria-unica-progresso.json). A auditoria é uma etapa única: P não cria recotejo global obrigatório e não equivale a aprovação. O total incorporado permanece 600, sem novos IDs após A00599; o histórico original da auditoria anterior permanece preservado.
+
+
 ## Tabela global canônica de progresso (11/10/2026)
 
 Obrigatória em todos os relatórios, com as colunas **Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado**. A tabela inclui **14 fontes**, mesmo as ainda não iniciadas, além da linha **TOTAL**: BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS e LSJ. Consultar [regras/Rprogresso-global.txt](regras/Rprogresso-global.txt) e conferir HEAD e evidências atuais, sem confundir triagem documental com homologação filológica.

@@ -127,7 +127,7 @@ const entries=[
     "lemma": "אֵבֶל",
     "type": "Substantivo masculino",
     "gloss": "luto; período de enlutamento",
-    "html": "Luto; ver <bdi lang='he' dir='rtl'>אֲבֵילוּת</bdi>. Moed Katan 7b: uma pessoa ainda enlutada quando sobrevém outro falecimento. <bdi lang='he' dir='rtl'>אֵבֶל רַבָּתִי</bdi> (“Grande Luto”), nome de um tratado rabínico também designado eufemisticamente <bdi lang='he' dir='rtl'>שְׂמָחוֹת</bdi> (“Alegrias”). Jerusalém Moed Katan 3, 82b."
+    "html": "Luto; ver <bdi lang='he' dir='rtl'>אֲבֵילוּת</bdi>. Moed Katan 7b: uma pessoa ainda enlutada quando sobrevém outro falecimento. <bdi lang='he' dir='rtl'>אֵבֶל רַבָּתִי</bdi> (“Grande Luto”), nome de um tratado rabínico também designado eufemisticamente <bdi lang='he' dir='rtl'>שְׂמָחוֹת</bdi> (“Alegrias”). Jerusalém Moed Katan 3, 82b. <strong>Nota de colação:</strong> Plural אֲבֵילִים; Targum Gênesis 50.11 é remetido pelo autor ao aramaico אֶבְלָא."
   },
   {
     "sid": "A00158",
@@ -197,7 +197,7 @@ const entries=[
     "lemma": "*אבליג,",
     "type": "Nome próprio masculino (leitura incerta)",
     "gloss": "Ablig; Abliga",
-    "html": "Nome próprio masculino com variantes <bdi lang='he' dir='rtl'>אבליג, אבליגה</bdi>, em Pesikta Rabati 33; comparar leituras de Jerusalém Nazir 7, 56a e Jerusalém Berakhot 3, 6a."
+    "html": "Nome próprio masculino com variantes <bdi lang='he' dir='rtl'>אבליג, אבליגה</bdi>, em Pesikta Rabati 33; comparar leituras de Jerusalém Nazir 7, 56a e Jerusalém Berakhot 3, 6a. <strong>Nota de colação:</strong> Jerusalém Nazir 7, 56a: מגבילה; Jerusalém Berakhot 3, 6a: גבילה. São variantes atribuídas a fontes diferentes."
   },
   {
     "sid": "A00168",
@@ -211,7 +211,7 @@ const entries=[
     "lemma": "*אַבְלַס,",
     "type": "Topônimo plural",
     "gloss": "Avlas; região da Cilícia",
-    "html": "<strong>Avlas</strong>, também <bdi lang='he' dir='rtl'>אַוְולַס</bdi>, local citado como limite setentrional da terra de Israel, na Cilícia. Targum Pseudo-Jônatas Números 34.8; Tosefta Sheviit 4.11 e textos midráxicos apresentam numerosas variantes toponímicas. Jastrow propõe, com ressalva, identificação com as Portas da Cilícia (<span lang='grc'>Πύλαι τῆς Κιλίκιας</span>)."
+    "html": "<strong>Avlas</strong>, também <bdi lang='he' dir='rtl'>אַוְולַס</bdi>, local citado como limite setentrional da terra de Israel, na Cilícia. Targum Pseudo-Jônatas Números 34.8; Tosefta Sheviit 4.11 e textos midráxicos apresentam numerosas variantes toponímicas. Jastrow propõe, com ressalva, identificação com as Portas da Cilícia (<span lang='grc'>Πύλαι τῆς Κιλίκιας</span>). <strong>Nota de colação:</strong> Tosefta Sheviit 4.11 tem עילי רבתא (variante אולם); Sifré Deuteronômio 51 לולא רבתא; Yalkut Deuteronômio 624 לילא רבתא. Portas da Cilícia é hipótese toponímica."
   }
 ];
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}

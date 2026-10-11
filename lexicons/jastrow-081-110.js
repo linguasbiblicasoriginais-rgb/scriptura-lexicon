@@ -128,7 +128,7 @@ const entries=[
     "lemma": "*אבטיגא",
     "type": "Leitura editorial",
     "gloss": "toga romana; leitura proposta",
-    "html": "Grafia marcada como conjectural. Em Sifré Deuteronômio 80, Jastrow propõe ler <bdi lang='he' dir='rtl'>טוֹגָא</bdi> (<i>toga</i>, latim) ou <bdi lang='he' dir='rtl'>טִיבִינָּא</bdi> (grego <span lang='grc'>τηβέννα</span>): toga, vestimenta romana. A variante manuscrita indicada é <bdi lang='he' dir='rtl'>חגה</bdi>."
+    "html": "O asterisco pertence à marcação da entrada; as emendas explícitas de Jastrow são טוֹגָא e טִיבִינָּא. Não inferir do asterisco uma proposta específica de leitura. Em Sifré Deuteronômio 80, Jastrow propõe ler <bdi lang='he' dir='rtl'>טוֹגָא</bdi> (<i>toga</i>, latim) ou <bdi lang='he' dir='rtl'>טִיבִינָּא</bdi> (grego <span lang='grc'>τηβέννα</span>): toga, vestimenta romana. A variante manuscrita indicada é <bdi lang='he' dir='rtl'>חגה</bdi>."
   },
   {
     "sid": "A00098",
