@@ -1,5 +1,30 @@
 # Scriptura Lexicon
 
+## Auditoria filológica THAYER — 500 registros (11/10/2026)
+
+**Estado editorial: NÃO HOMOLOGADO.** A correspondência de cabeçalho foi examinada em todos os **500 cartões**: **490 lemas coincidem por normalização** com a transcrição auxiliar de Thayer; o confronto com o fac-símile documentou **sete divergências reais de lematização**, além de um falso negativo do extrator e duas diferenças de indicação flexional. Foram identificados **12 candidatos adicionais** a entrada ou variante autônoma, que exigem decisão editorial baseada na obra impressa.
+
+O relatório detalhado está em [auditoria THAYER 500](auditorias/thayer-auditoria-filologica-500-2026-10-11.md), acompanhado do [inventário individual dos 500 registros](auditorias/thayer-auditoria-filologica-500-inventario.csv). A revisão filológica completa de acepções, regências, referências e etimologias **não foi realizada para todos os 500 artigos** e não pode ser declarada concluída com base na auditoria estrutural ou em correspondência automática. O léxico mantém os 500 cartões originais nesta etapa; a correção deve ser feita com evidência por página. Próximo lema: **ἀντιπαρέρχομαι**.
+
+
+## THAYER — lote 006: 500 verbetes acumulados (11/10/2026)
+
+A branch `chat-gpt-thayer` recebeu **100 novas entradas**, de **ἀνατέλλω (G393)** a **Ἀντιοχεύς (G491)**, somando **500 verbetes THAYER** (499 registros dinâmicos e o cartão histórico Ἀαρών). O lote compreende 99 entradas do intervalo G393–G491 e uma entrada adicional identificada por Thayer como **ἀνέλεος (G415a)**. Próximo lema: **ἀντιπαρέρχομαι (G492)**.
+
+Os cinco novos módulos `lexicons/thayer-batch-006a.js` até `006e.js` possuem 20 pares de linha de pesquisa/cartão por arquivo, carregados após os módulos 005 e antes de `script.js`. Fonte lexical: Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, consultado pelo fac-símile da parte Α–Ι e transcrições do próprio Thayer. Os verbetes contêm sínteses editoriais portuguesas com classes gramaticais, acepções, referências e popups; **Strong é apenas sistema de indexação**.
+
+A auditoria técnica verifica 100 linhas, 100 cartões, alvos, IDs e etiquetas. Não certifica a revisão filológica exaustiva, paginação impressa por verbete, testes dinâmicos em navegador ou acessibilidade. Documentação: `lexicons/thayer-progress.json`, `regras/Rthayer.txt`, `auditorias/thayer-2026-10-11-lote006.md`. Esta incorporação permanece exclusivamente em `chat-gpt-thayer`; integração em `chat-gpt-commits` exige operação independente e `main` não é editada.
+
+
+## THAYER — meta de 400 verbetes alcançada na origem (11/10/2026)
+
+A branch lexical `chat-gpt-thayer` foi ampliada de **321 para 400 verbetes THAYER**, com **79 novas entradas numeradas G314–G392**: de **`ἀναγινώσκω`** até **`ἀνατάσσομαι`**. O próximo verbete indexado é **`ἀνατέλλω` (G393)**. As 79 entradas foram distribuídas em quatro módulos independentes da mesma rodada: `lexicons/thayer-batch-005a.js` (20), `thayer-batch-005b.js` (20), `thayer-batch-005c.js` (20) e `thayer-batch-005d.js` (19). São carregados, nessa ordem, depois do lote 004 e antes de `script.js`.
+
+Fonte primária: Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, `Thayer (parte 1, Α–Ι).pdf`, páginas impressas 36–42, com consulta auxiliar a transcrições individuais do Thayer. Cada novo registro inclui lema politônico, classe gramatical, equivalentes portugueses, síntese de acepções, referências bíblicas e popup lexical grego. **400** corresponde aqui ao número de entradas editoriais incorporadas no site, inclusive o cartão histórico de Ἀαρών; não equivale à afirmação de que todos os cabeçalhos não indexados da obra no intervalo já foram auditados.
+
+Checkpoint: `lexicons/thayer-progress.json`. Normas e controle: `regras/Rthayer.txt`. Relatório: `auditorias/thayer-2026-10-11-lote005.md`. A auditoria estática confere 79 pares novos de linhas e cartões, sequência de IDs e de G314–G392, sem colisões e com carregamento correto dos scripts; testes dinâmicos de navegador, acessibilidade, validação exaustiva de URLs, inventário de cabeçalhos não numerados e revisão filológica integral permanecem **pendentes**. Esta publicação não modifica `main` nem mescla automaticamente em `chat-gpt-commits`; a integração exige fluxo próprio.
+
+
 ## JASTROW — triagem filológica dos 600 registros (11/10/2026)
 
 **Auditoria de cobertura textual:** todos os 600 registros XML foram confrontados programaticamente com as 600 entradas portuguesas. Resultado da triagem: 504 sem sinal automático, 55 com alerta baixo, 39 médio e 2 alto; os alertas são hipóteses de revisão, **não erros validados nem certificados**. A [execução GitHub Actions 38118125003](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38118125003) disponibiliza artefato com 12 lotes de 50, matriz JSON completa, análise por ID e trechos de fonte/edição.
