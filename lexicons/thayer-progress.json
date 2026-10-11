@@ -339,5 +339,45 @@
       "browser_dom_review": "pendente",
       "philological_review": "pendente"
     }
-  }
+  },
+  "audit_standard": {
+    "effective_date": "2026-10-11",
+    "scope": "auditoria textual e estrutural THAYER",
+    "nominal_table_required": true,
+    "table_rows_equal_audited_entries": true,
+    "mandatory_fields": [
+      "ordem",
+      "id",
+      "lema",
+      "indice",
+      "pagina_impressa_e_origem_da_localizacao",
+      "estrutura",
+      "estado_textual",
+      "observacao_individual"
+    ],
+    "deliverables": [
+      "resposta_ao_usuario_tabela_nominal_completa",
+      "auditorias/*.md",
+      "auditorias/*.csv",
+      "regras/Rthayer.txt",
+      "README.md"
+    ],
+    "source_priority": "Thayer fac-símile primário, transcrição auxiliar não substitui a fonte",
+    "no_false_homologation": true,
+    "no_change_to_lexical_entries_without_source_collation": true,
+    "default_next_retroactive_interval": "entry-thayer-0200–0299"
+  },
+  "audit_history": [
+    {
+      "date": "2026-10-11",
+      "scope": "100 cartões",
+      "first_id": "entry-thayer-0300",
+      "last_id": "entry-thayer-0399",
+      "structural_ok": 100,
+      "lemma_aux_match": 100,
+      "semantics_fully_homologated": 0,
+      "report": "auditorias/thayer-2026-10-11-auditoria-nominal-100-0300-0399.md",
+      "inventory": "auditorias/thayer-2026-10-11-auditoria-nominal-100-0300-0399.csv"
+    }
+  ]
 }
