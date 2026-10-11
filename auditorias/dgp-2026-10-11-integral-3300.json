@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+  "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+  "source_total_entryFree": 7204,
+  "lexical_branch": "chat-gpt-dgp",
+  "lexical_commit": "59d497c25c0a9bbc0a15a2d49d6586e5d6892500",
+  "scope": {
+    "first": 1,
+    "last": 3300,
+    "batches": 81
+  },
+  "static_audit": {
+    "rows": 3300,
+    "cards": 3300,
+    "duplicate_ids": 0,
+    "orphan_rows": 0,
+    "orphan_cards": 0,
+    "headword_exact": 3295,
+    "headword_anomalies": [
+      95,
+      124,
+      150
+    ],
+    "source_missing_headword": [
+      2311,
+      2483
+    ],
+    "definition_exact": 3194,
+    "definition_only_soft_hyphen": 11,
+    "definition_bibliographic_expansion": 93,
+    "definition_text_shift": [
+      124,
+      150
+    ],
+    "incomplete_headword_search": 25
+  },
+  "correction_branch": "chat-gpt-correcoes",
+  "correction_base_head": "f2bb54ac14fa2475a3528012a8d32dd491509e3d",
+  "search_fixes": [
+    {
+      "ordinal": 61,
+      "lemma": "ἁβρότης, ητος (ἡ)"
+    },
+    {
+      "ordinal": 62,
+      "lemma": "ἄβροτος, ος"
+    },
+    {
+      "ordinal": 63,
+      "lemma": "ἁβροχίτων, ωνος"
+    },
+    {
+      "ordinal": 64,
+      "lemma": "ἄβροχος, ος, ον"
+    },
+    {
+      "ordinal": 67,
+      "lemma": "Ἀβυδηνός, ή, όν"
+    },
+    {
+      "ordinal": 70,
+      "lemma": "Ἄβυδος, ου (ἡ)"
+    },
+    {
+      "ordinal": 71,
+      "lemma": "ἄβυσσος, ος, ον"
+    },
+    {
+      "ordinal": 74,
+      "lemma": "ἀγάασθαι, ἀγάασθε"
+    },
+    {
+      "ordinal": 80,
+      "lemma": "ἀγαθοεργέω-ῶ"
+    },
+    {
+      "ordinal": 122,
+      "lemma": "ἀγαπάω-ῶ"
+    },
+    {
+      "ordinal": 123,
+      "lemma": "ἀγάπη, ης (ἡ)"
+    },
+    {
+      "ordinal": 124,
+      "lemma": "ἀγαπήνωρ, ορος"
+    },
+    {
+      "ordinal": 125,
+      "lemma": "ἀγάπησις, εως (ἡ)"
+    },
+    {
+      "ordinal": 126,
+      "lemma": "ἀγαπητικός, ή, όν"
+    },
+    {
+      "ordinal": 127,
+      "lemma": "ἀγαπητός, ή, όν"
+    },
+    {
+      "ordinal": 129,
+      "lemma": "ἀγάρροος-ους, οος-ους, οον-ουν"
+    },
+    {
+      "ordinal": 130,
+      "lemma": "ἀγάστονος, ος, ον"
+    },
+    {
+      "ordinal": 131,
+      "lemma": "ἀγαστός, ή, όν"
+    },
+    {
+      "ordinal": 133,
+      "lemma": "ἀγαυός, ή, όν"
+    },
+    {
+      "ordinal": 134,
+      "lemma": "ἀγαυρός, ά, όν"
+    },
+    {
+      "ordinal": 136,
+      "lemma": "Ἀγβάτανα, ων (τά)"
+    },
+    {
+      "ordinal": 138,
+      "lemma": "ἀγγαρήϊον, ου (τό)"
+    },
+    {
+      "ordinal": 139,
+      "lemma": "ἀγγαρήϊος, ου (ὁ)"
+    },
+    {
+      "ordinal": 140,
+      "lemma": "ἄγγαρος, ος, ον"
+    }
+  ],
+  "preexisting_fixes_verified": [
+    {
+      "n": 95,
+      "pass": true
+    },
+    {
+      "n": 124,
+      "pass": true
+    },
+    {
+      "n": 150,
+      "pass": true
+    }
+  ],
+  "all_80_search_rows_now_include_full_lemma": true,
+  "limitations": [
+    "Not a browser or DOM runtime test",
+    "No source-branch modifications",
+    "Merge/PR remains separate",
+    "Bibliographic expansions contextually not fully homologated"
+  ]
+}

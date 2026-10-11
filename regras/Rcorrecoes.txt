@@ -123,3 +123,10 @@ Recontagem do código carregado: 2680 linhas search-row, 2680 cartões entry-car
 Relatório: auditorias/dgp-2026-10-10-lote74.md.
 APROVAÇÃO ESTÁTICA: fidelidade textual e integridade estrutural. PENDENTE: DOM real, popups, acessibilidade, responsividade, editoria visual e integração. Não criar PR/merge nesta etapa; exclusividade do integrador.
 ================================================================================
+
+================================================================================
+AUDITORIA DGP GLOBAL 3300/3300 — 11/10/2026
+================================================================================
+Fonte: XML canônico letra α, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2; HEAD lexical 59d497c25c0a9bbc0a15a2d49d6586e5d6892500. Auditoria estática completa publicada em auditorias/dgp-2026-10-11-integral-3300.md e evidência estruturada em auditorias/dgp-2026-10-11-integral-3300.json.
+Todos os 3300 ordinais auditados: 3300 pares linha/cartão, zero duplicações/órfãos. 3295 lemas literais, 3 anomalias antigas #95/#124/#150 corrigidas no ramo de correções, 2 entradas sem lema no XML #2311/#2483. 3194 definições literais, 11 com hífen discricionário omitido, 93 com expansão bibliográfica e 2 com deslocamento histórico. A branch lexical contém 25 linhas sem lema pesquisável integral; #95 já havia sido corrigido na branch de correções, e foram reparados os demais 24 data-search sem alterar as definições. Controle 61–140: 80/80 completos. Permanecem fora desta conclusão testes dinâmicos, popups executados, revisão contextual filológica, acessibilidade e integração posterior. NUNCA trocar o módulo lexical mais recente por cópia antiga da branch de correções; reconciliar os patches preservando os lotes 77–81, sem touch em main.
+================================================================================
