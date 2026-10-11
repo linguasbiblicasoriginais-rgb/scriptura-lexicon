@@ -2650,3 +2650,11 @@ REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 3/5 (PEDIDO DE 100 VER
 - 1.121 → 1.141 linhas e cartões. Próximo: ἀρτηρία, ας, ἡ.
 - IDs, alvos e sequências auditados; sem URL externa nova.
 - Arquivo JS: apenas normalização de recuos e linhas em branco entre elementos HTML existentes, sem exclusão de texto lexical, para tornar possível a transferência de blob; revisar o diff para confirmar preservação.
+
+
+REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 4/5 (PEDIDO DE 100 VERBETES)
+- Base: 73a71c3ed4511e1c2d466b18a115d4aa73b05fe1.
+- Intervalo: ἀρτηρία, ας, ἡ → Ἄρχιππος, ου, ὁ; 20 verbetes; BDAG pp. 49–52.
+- Contagem 1141 → 1161 linhas/cartões; próximo: ἀρχιστράτηγος, ου, ὁ.
+- IDs e alvos confrontados em 1161 pares únicos, sem inserção de URLs externas.
+- Para manter a transferência GitHub confiável sem perder dados, o conteúdo HTML de cardsHtml utiliza codificação de tags comuns: §S=<strong>, §s=</strong>, §E=<em>, §e=</em>, §G=<span class="greek">; as cinco substituições sincrônicas .replaceAll() reconstituem a mesma string HTML exata. Ausência de colisão entre tokens foi auditada; não codificar elementos estruturais search-row/entry-card, IDs ou data-targets. A descompactação ocorre ao carregar o módulo antes de passar à interface. Para próximo lote, manter esta codificação e novamente testar equivalência exata.
