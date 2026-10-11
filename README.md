@@ -2,6 +2,8 @@
 
 ## PR #90 — integração excepcional de THAYER 003–004 (11/10/2026)
 
+**Confirmação remota PR #90:** GitHub retornou `state=closed` e `merged=true`, SHA do merge `adcc52d941904383c9a1d3fd905b6d14f98eb657` (2026-10-11T05:14:18Z); dois pais reais, sem alteração da branch `main` ou exclusão das branches originais. Auditoria estática pós-merge: 320 linhas/cartões THAYER dinâmicos e 1 cartão histórico, total 321, todos com alvos únicos e correspondentes. Os demais módulos lexicais mantiveram seus blobs.
+
 O [PR #90](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/90) incorpora por decisão expressa 200 verbetes THAYER das rodadas 003 e 004, formando **321 verbetes THAYER** na branch consolidada, inclusive o cartão histórico de Ἀαρών. O próximo lema é **ἀναγινώσκω (G314)**. Os módulos originais `lexicons/thayer-batch-003.js` e `lexicons/thayer-batch-004.js` e respectivos relatórios são preservados, assim como o checkpoint e a proveniência do PR #87. O merge de dois pais reais concilia scripts e histórico de todas as demais fontes, incluindo JASTROW 410.
 
 Esta é uma autorização **pontual**, não adição de `chat-gpt-thayer` à rotina automática de integração. Não tocar `main` ou excluir branches. Permanecem pendentes revisão filológica integral, testes de navegador, acessibilidade e URLs.
