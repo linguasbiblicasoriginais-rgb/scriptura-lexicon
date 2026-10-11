@@ -34,7 +34,7 @@ jobs:
         id: guard
         shell: bash
         run: |
-          if test -e lexicons/jastrow-source-lote-0001.json; then
+          if test -e lexicons/jastrow-source-lote-0002.json; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Nenhuma duplicação: arquivo-fonte já existe."
           else
@@ -43,8 +43,8 @@ jobs:
       - name: Extrair XML canônico, fonte fixa Sefaria-Data
         if: steps.guard.outputs.exists == 'false'
         run: |
-          python tools/jastrow_source.py --limit 200 \
-            --output lexicons/jastrow-source-lote-0001.json
+          python tools/jastrow_source.py --start-ordinal 200 --limit 200 \
+            --output lexicons/jastrow-source-lote-0002.json
       - name: Auditoria determinística da camada Fonte (não filológica)
         if: steps.guard.outputs.exists == 'false'
         run: |
@@ -54,17 +54,19 @@ jobs:
           from pathlib import Path
           from xml.etree import ElementTree as ET
 
-          obj=json.loads(Path('lexicons/jastrow-source-lote-0001.json').read_text(encoding='utf-8'))
+          obj=json.loads(Path('lexicons/jastrow-source-lote-0002.json').read_text(encoding='utf-8'))
           entries=obj['records']
           assert obj['status']=='source_only_untranslated_not_published'
           assert obj['entry_count']==len(entries)==200
+          assert obj['source_start_ordinal']==201 and obj['source_end_ordinal']==400
           assert obj['first_headword']==entries[0]['headword']
           assert obj['last_headword']==entries[-1]['headword']
           assert obj['next_headword'] not in ('', None)
           assert len({x['source_id'] for x in entries})==200
+          assert all(ET.fromstring(x['source_xml']).get('id')==f'A{n+200:05d}' for n,x in enumerate(entries))
           for n,entry in enumerate(entries, 1):
-              assert entry['ordinal']==n
-              assert entry['source_id']==f'jastrow-xml-{n:06d}'
+              assert entry['ordinal']==n+200
+              assert entry['source_id']==f'jastrow-xml-{n+200:06d}'
               xml=entry['source_xml']
               root=ET.fromstring(xml)
               assert root.tag.rsplit('}',1)[-1]=='entry'
@@ -72,7 +74,7 @@ jobs:
               assert word is not None
               assert ''.join(word.itertext()).strip()==entry['headword']
               assert hashlib.sha256(xml.encode('utf-8')).hexdigest()==entry['source_entry_sha256']
-          print('SOURCE_AUDIT_OK: 200 entradas integrais; ordem, rótulos, IDs, SHA-256 e XML válidos')
+          print('SOURCE_AUDIT_OK: 200 entradas integrais (ordinais 201–400); ordem, rótulos, IDs, SHA-256 e XML válidos')
           print('Advertência: nenhuma entrada foi traduzida nem inserida na interface.')
           PY
       - name: Publicar SOMENTE camada Fonte na branch exclusiva
@@ -81,6 +83,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- lexicons/jastrow-source-lote-0001.json
-          git commit -m "JASTROW: preservar 200 entradas originais da fonte XML Sefaria-Data"
+          git add -- lexicons/jastrow-source-lote-0002.json
+          git commit -m "JASTROW: preservar lote 2, ordinais 201-400, da fonte XML Sefaria-Data"
           git push origin HEAD:chat-gpt-jastrow

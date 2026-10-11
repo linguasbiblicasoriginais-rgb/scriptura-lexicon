@@ -60,34 +60,36 @@ def unpointed(value):
                    if unicodedata.category(c) != "Mn").strip()
 
 
-def extract(source: bytes, limit: int) -> dict:
+def extract(source: bytes, limit: int, start_ordinal: int = 0) -> dict:
     # The XML is known to contain <entry> and <head-word> nodes,
     # per Sefaria-Data and Ezra Brand's documented parsing example.
     root = ET.fromstring(source)
     entries = [e for e in root.iter() if local_tag(e.tag) == "entry"]
-    if len(entries) < limit + 1:
-        raise RuntimeError(f"Source has only {len(entries)} entries; need {limit + 1} to confirm next")
-    captured = entries[:limit + 1]
+    if len(entries) < start_ordinal + limit + 1:
+        raise RuntimeError(f"Source has only {len(entries)} entries; need {start_ordinal + limit + 1} to confirm next")
+    captured = entries[start_ordinal:start_ordinal + limit + 1]
     heads = [headword(e) for e in captured]
     if not all(heads):
         missing = [i + 1 for i, h in enumerate(heads) if not h]
         raise RuntimeError(f"Unlabeled entry at ordinal(s): {missing}")
-    if unpointed(heads[0]) != "א":
+    if start_ordinal == 0 and unpointed(heads[0]) != "א":
         raise RuntimeError(f"Canonical opening lemma mismatch: expected א; got {heads[0]!r}")
     records = []
-    for i, entry in enumerate(captured[:limit], 1):
+    for i, entry in enumerate(captured[:limit], start_ordinal + 1):
         # Preserve full source subtree and all markup/attributes, not a shortened gloss.
         source_xml = ET.tostring(entry, encoding="unicode")
         if not source_xml.strip():
             raise RuntimeError(f"Empty XML entry at ordinal {i}")
         records.append({
             "ordinal": i, "source_id": f"jastrow-xml-{i:06d}",
-            "headword": heads[i - 1],
+            "headword": heads[i - start_ordinal - 1],
             "source_xml": source_xml,
             "source_entry_sha256": hashlib.sha256(source_xml.encode("utf-8")).hexdigest()
         })
     return {
         "source": "Marcus Jastrow (Sefaria-Data upstream XML)",
+        "source_start_ordinal": start_ordinal + 1,
+        "source_end_ordinal": start_ordinal + len(records),
         "source_repository": "Sefaria/Sefaria-Data",
         "source_commit": SOURCE_COMMIT,
         "source_blob_sha": SOURCE_BLOB_SHA,
@@ -122,12 +124,15 @@ def write_atomically(destination: Path, document: dict):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--limit", type=int, default=200)
+    parser.add_argument("--start-ordinal", type=int, default=0, help="Zero-based offset into original XML entries")
     parser.add_argument("--output", default="lexicons/jastrow-source-lote-0001.json")
     args = parser.parse_args()
     if not (1 <= args.limit <= 200):
         parser.error("limit must be 1..200")
+    if args.start_ordinal < 0:
+        parser.error("start-ordinal must be nonnegative")
     try:
-        document = extract(request_source(), args.limit)
+        document = extract(request_source(), args.limit, args.start_ordinal)
         write_atomically(Path(args.output), document)
     except Exception as exc:
         print(f"JASTROW_SOURCE_BLOCKED: {type(exc).__name__}: {exc}", file=sys.stderr)
