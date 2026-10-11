@@ -99,7 +99,7 @@ O PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pul
 const fs=require('fs'), vm=require('vm');
 global.window={ScripturaLexicons:{}};
 const html=fs.readFileSync('index.html','utf8');
-const modules=[...html.matchAll(/<script src="(lexicons\\/jastrow[^"]*\\.js)"/g)].map(m=>m[1]);
+const modules=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1]).filter(x=>x.startsWith('lexicons/jastrow')&&x.endsWith('.js'));
 for(const f of modules) vm.runInThisContext(fs.readFileSync(f,'utf8'),{filename:f});
 const lex=window.ScripturaLexicons.JASTROW;
 const rows=[...lex.rowsHtml.matchAll(/<tr class="search-row"[^>]*>/g)].map(x=>x[0].match(/data-target="([^"]+)"/)[1]);
