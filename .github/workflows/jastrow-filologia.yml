@@ -1,0 +1,17 @@
+name: Jastrow Philology 600
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths: [".github/workflows/jastrow-filologia.yml"]
+permissions:
+  contents: read
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-correcoes
+          fetch-depth: 0
+      - run: git fetch origin chat-gpt-commits
+      - run: node tools/jastrow_triagem_filologica.js
