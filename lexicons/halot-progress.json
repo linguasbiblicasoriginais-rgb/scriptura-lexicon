@@ -36,5 +36,17 @@
     "editorial_audit": "não iniciada: nenhum lote lexical publicado",
     "browser_audit": "não iniciada: nenhum lote lexical publicado",
     "remediation": "Obter acesso efetivo ao PDF especificado (por exemplo, anexo do próprio arquivo no projeto), identificar todos os 100 lemas com forma e paginação, traduzir e auditar antes do commit."
-  }
+  },
+  "source_pdf_path": "fontes/fonte-halot.pdf",
+  "source_pdf_branch": "chat-gpt-halot",
+  "source_pdf_blob_sha": "3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e",
+  "source_pdf_blob_sha_type": "Git SHA-1 blob",
+  "source_url_status": "historical_provenance_not_primary",
+  "canonical_source_authority": "repository_file",
+  "canonical_source_verified_on": "2026-10-11",
+  "source_binary_read_confirmed": false,
+  "source_content_verification": "pending_internal_pdf_inspection",
+  "source_version_policy": "Compare Git blob SHA before each extraction; if changed, verify new edition/pages and record provenance before proceeding.",
+  "next_action": "Use fontes/fonte-halot.pdf in chat-gpt-halot; inspect source pages and identify 100 real consecutive entries before transcription.",
+  "current_source_notice": "The formerly inaccessible external PDF is no longer canonical. GitHub file existence and Git blob SHA confirmed; internal PDF content not yet inspected."
 }
