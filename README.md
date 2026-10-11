@@ -1,3 +1,7 @@
+## THAYER — regressão estrutural dos 512 registros (11/10/2026)
+
+Conferidos **511/511 pares** de linha/cartão dinâmicos, mais Ἀαρών estático. Não houve novo defeito detectado por parser estático. O levantamento de qualidade identificou **0/511 links dentro das seções de referências**, **19/511 menções numéricas de página reconhecíveis**, **264/511 descrições semânticas com menos de 120 caracteres** e **65/511 contendo caracteres gregos**. Essas estatísticas não estabelecem incorreção lexical nem homologação filológica; navegação real e revisão textual integral continuam pendentes. [Relatório](auditorias/thayer-2026-10-11-regressao-estatica-512.md).
+
 ## THAYER — suplemento de 12 formas e artigos documentados (11/10/2026)
 
 A incorporação suplementar de **12 fichas** de Thayer (IDs internos 0500–0511) leva o total de 500 a **512 registros** e preserva todos os cartões anteriores. O módulo distingue artigos próprios, variantes de texto, grafias e remissões; os índices secundários sufixados em `a` não constituem números oficiais de Strong. A classificação foi conferida com o fac-símile e transcrições auxiliares; o aparato completo de 512 registros **não** recebeu homologação filológica nem teste DOM. [Relatório de decisões](auditorias/thayer-2026-10-11-homologacao-supl-12.md) · [inventário das 12 entradas](auditorias/thayer-2026-10-11-homologacao-supl-12.csv). Próximo artigo regular: ἀντιπαρέρχομαι (G492).
