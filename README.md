@@ -1,5 +1,10 @@
 # Scriptura Lexicon
 
+## JASTROW — auditoria filológica cumulativa de 600 registros (11/10/2026)
+
+Foi realizada triagem independente de **590 objetos editoriais contra seus registros XML**, com leitura dirigida do módulo-base (10 registros); o controle estrutural preexistente abrange **600 cartões e 600 linhas**. Foram encontrados **32 sinais** de variantes de cabeçalho não apresentadas literalmente, **2** registros com material grego condensado (`A00238`, `A00362`) e **1 erro de remissão confirmado** (`A00057`). Esses totais não são 35 erros independentes certificados: os sinalizadores podem sobrepor-se e incluem falsos positivos. A auditoria filológica exaustiva e testes de navegador não foram concluídos; `total_audited=0` mantém-se. Detalhes: [relatório JASTROW de 11/10/2026](auditoria/JASTROW-2026-10-11-filologia-600.md). A branch `chat-gpt-correcoes` diverge da integração e não contém todos os módulos lexicais; não copiar sobre o trabalho integrado sem reconciliação.
+
+
 ## DGP — auditoria filológica, lote 002 (11/10/2026)
 
 A auditoria filológica independente chegou aos **40 verbetes revisados** (2 lotes de 20) dentre **3.300** incorporados. O [segundo relatório](auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md) registra os ordinais 21–40, confronto contextual com LSJ, CLD/Bailly, Suda e Cambridge Greek Lexicon, análise de remissões, morfologia e citações. Em `chat-gpt-correcoes`, corrigiu-se **somente a palavra portuguesa quebrada** `au- sência` → `ausência` no cartão DGP 38, preservando a fonte XML. Ainda **não há homologação filológica integral, visual/funcional ou integração das correções**. Próximo lote filológico: 41–60. O [checkpoint independente](auditorias/dgp-filologia-progresso.json) registra os ordinais e pendências.

@@ -147,3 +147,10 @@ Verificados individualmente os 20 verbetes 21–40, 16 com testemunhos auxiliare
 Achados: remissão ἀβίοτος → ἀβίωτος preservada apesar de usos autônomos em LSJ; citação de ἀβλαβής em Platão, Leis 953b, reúne valores ativo e passivo; variação flexional (ἄβατος, ἀβαφής, ἀβέλτερος); nuance ἀβιώτως dependente do contexto. Corrigida apenas exibição tipográfica de "au- sência" → "ausência" no cartão DGP #38, sem mudar XML original, sem inventar sentidos ou tocar outros registros.
 A auditoria textual/estrutural global 3300/3300 continua distinta do exame filológico 40/3300, e não certifica interatividade nem integração. Em todos os resultados manter tabela de acompanhamento de BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER com 5 colunas solicitadas.
 ================================================================================
+
+
+================================================================================
+JASTROW — AUDITORIA FILOLÓGICA INDEPENDENTE DE TRIAGEM, 11/10/2026
+================================================================================
+Confronto dirigido em 590 módulos editoriais A00010–A00599 contra XML Sefaria-Data; 10 primeiros no módulo-base examinados apenas de modo parcial. 600 cartões/linhas confirmados por teste estrutural anterior. Primeiro cabeçalho XML coincide com os 590 lemas editoriais (normalização conservadora). Há 32 indícios de variantes não visíveis, 2 conjuntos de grafias gregas omitidos em sínteses (A00238 e A00362) e 1 remissão inequívoca para corrigir (A00057 aponta indevidamente ao "precedente" em vez de A00055). Notas no relatório auditoria/JASTROW-2026-10-11-filologia-600.md; NÃO considerar 32 sinalizações como 32 erros provados. Revisão integral e DOM continuam pendentes; total_audited=0. Divergência com chat-gpt-commits demanda reconciliação antes de corrigir módulos; não tocar main.
+================================================================================
