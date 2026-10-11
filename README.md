@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **DGP — homologação filológico-documental 0001–0600 (11/10/2026):** os 600 verbetes foram confrontados com o XML canônico e os pareceres individuais, resultando em **A 528, C 4, P 68**. Os **68 P não são homologação sem ressalvas**. [Relatório de 600 verbetes](auditorias/dgp-filologia-2026-10-11-homologacao-0001-0600.md) e [evidência integral JSON](auditorias/dgp-filologia-2026-10-11-homologacao-0001-0600.json). A auditoria textual/estrutural (3.300/3.300) e a integração (2.880/3.300) são processos separados. Cinco novas notas editoriais têm teste Chromium aprovado na [execução #38175516482](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38175516482).
+
+
 > **DGP — Auditoria textual e estrutural homologada (11/10/2026):** ✓ **3.300/3.300 (100%)** na conferência estática e nos testes Chromium/Playwright sobre a montagem completa; a branch consolidada mantém **2.880/3.300 integrados**. Prova: [GitHub Actions #38174680134](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38174680134). Relatório: [homologação DGP](auditorias/dgp-homologacao-textual-estrutural-2026-10-11.md). Não implica homologação filológica, WCAG ou integração dos lotes 077–081.
 
 
