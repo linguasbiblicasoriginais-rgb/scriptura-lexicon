@@ -20,7 +20,20 @@
     "internal_review_only": 550,
     "remaining": 2700,
     "next_ordinal": 601,
-    "status": "primeira_passagem_filologica_600/3300; novos 100 XML cotejados; 10 expansoes bibliograficas; 0 atestacoes externas; 0 alteracoes lexicais"
+    "status": "600 pareceres filologico-documentais individualizados, 600 lemas e definicoes reconciliados; A=528 C=4 P=68, 68 pendencias específicas nao homologadas",
+    "homologacao_documental_0001_0600": {
+      "A": 528,
+      "C": 4,
+      "P": 68,
+      "reviewed": 600,
+      "lemma_exact": 600,
+      "definition_reconciled": 600,
+      "closed_issues": 9,
+      "open_issues": 68,
+      "report": "auditorias/dgp-filologia-2026-10-11-homologacao-0001-0600.md",
+      "evidence": "auditorias/dgp-filologia-2026-10-11-homologacao-0001-0600.json",
+      "criterion": "A/C documental com análise; P testemunho específico pendente; não equiparar à atestação grega integral"
+    }
   },
   "batches": [
     {
@@ -1044,7 +1057,7 @@
       "status": "primeira_passagem_documental"
     }
   ],
-  "next_action": "Executar auditoria filológica progressiva dos próximos 100 ordinais do DGP: 401–500, preservando separação entre XML canônico, texto do cartão, análise e evidências externas.",
+  "next_action": "Prosseguir na primeira auditoria dos ordinais 601–700. Para os primeiros 600, apenas 68 questões P específicas aguardam evidência nova; não realizar segunda auditoria geral compulsória.",
   "constraints": [
     "Fidelity to original DGP XML",
     "Separate source, representation, philological assessment and external evidence",
