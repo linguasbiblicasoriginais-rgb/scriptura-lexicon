@@ -14,19 +14,21 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "total_rows": 1121,
-    "total_cards": 1121,
-    "last_lemma": "ἀροτριάω",
-    "next_lemma": "ἄροτρον, ου, τό",
-    "first_lemma_of_latest_batch": "ἄριστον, ου, τό",
+    "total_rows": 1141,
+    "total_cards": 1141,
+    "last_lemma": "Ἀρτέμων, ωνος",
+    "next_lemma": "ἀρτηρία, ας, ἡ",
+    "first_lemma_of_latest_batch": "ἄροτρον, ου, τό",
     "last_batch_count": 20,
     "source_pdf": "fontes/fonte-bdag.pdf",
     "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
     "source_pdf_pages": [
-      45,
-      46
+      46,
+      47,
+      48,
+      49
     ],
-    "parent_head": "1ccdf34d9bcca0602629c5e83ee708de621b351e",
+    "parent_head": "7299caccd5b8c2cc2b41013217e328a566b1f9f4",
     "verified": "prepublication_source_and_structural_audit",
     "new_bibliographic_popups": []
   },
