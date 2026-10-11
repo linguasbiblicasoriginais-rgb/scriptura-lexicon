@@ -1,5 +1,30 @@
 # Scriptura Lexicon
 
+## PR #90 — integração excepcional de THAYER 003–004 (11/10/2026)
+
+O [PR #90](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/90) incorpora por decisão expressa 200 verbetes THAYER das rodadas 003 e 004, formando **321 verbetes THAYER** na branch consolidada, inclusive o cartão histórico de Ἀαρών. O próximo lema é **ἀναγινώσκω (G314)**. Os módulos originais `lexicons/thayer-batch-003.js` e `lexicons/thayer-batch-004.js` e respectivos relatórios são preservados, assim como o checkpoint e a proveniência do PR #87. O merge de dois pais reais concilia scripts e histórico de todas as demais fontes, incluindo JASTROW 410.
+
+Esta é uma autorização **pontual**, não adição de `chat-gpt-thayer` à rotina automática de integração. Não tocar `main` ou excluir branches. Permanecem pendentes revisão filológica integral, testes de navegador, acessibilidade e URLs.
+
+## THAYER — lote 004 de 100 verbetes (11/10/2026)
+
+A branch `chat-gpt-thayer` recebeu **100 novos verbetes** de `ἀλέκτωρ` (G220) a `ἀναγεννάω` (G313), no módulo `lexicons/thayer-batch-004.js`. Foram cadastradas **94 entradas com índice inteiro**, mais **seis cabeçalhos adicionais documentados no Thayer**: `ἀλλαχοῦ`, `Ἀμπλίατος`, `ἀμφιβάλλω`, `ἀμφιάζω`, `ἀμφιέζω` e `ἄμωμον`. A entrada `ἄλφα` (G255a) já estava cadastrada e não foi duplicada.
+
+O total acumulado é **321 entradas THAYER**, com próximo lema **`ἀναγινώσκω` (G314)**. Fonte primária: *A Greek-English Lexicon of the New Testament* (Thayer, PDF parte 1 Α–Ι), páginas impressas 27–36. As páginas do Thayer digital serviram como auxiliares de leitura, mantendo independente o conteúdo de todos os demais léxicos. O módulo apresenta 100 linhas de busca e 100 cartões lexicais, com sentidos portugueses, gramática, referências e popups. Arquivos de progresso e documentação: `lexicons/thayer-progress.json`, `regras/Rthayer.txt` e `auditorias/thayer-2026-10-11-lote004.md`.
+
+Auditoria estrutural obrigatória concluída por inspeção dos arquivos e do estado remoto. **Não se certificou ainda** revisão filológica integral de todas as acepções, navegação DOM, acessibilidade ou verificação universal dos links existentes. A integração continua restrita à própria branch: o integrador vigente não lista THAYER entre as origens autorizadas. Nenhum commit em `main`.
+
+
+## THAYER — lote 003, 100 verbetes (11/10/2026)
+
+Na branch `chat-gpt-thayer`, 100 entradas consecutivas **G120–G219**, `ἀθυμέω` → `ἀλεκτοροφωνία`, foram incorporadas pelo módulo `lexicons/thayer-batch-003.js`. A fonte primária é o fac-símile de Thayer (parte 1, Α–Ι), páginas impressas **14–26**. O acumulado é **221 verbetes THAYER** (1 HTML preexistente, 20 no módulo inicial, 100 no lote 002 e 100 no lote 003); o próximo é **ἀλέκτωρ (G220)**.
+
+Cada entrada contém classe, tradução portuguesa, análise semântica resumida, referências bíblicas, identificação da fonte e popup lexical grego. Trata-se de sínteses editoriais rastreáveis, não transcrição inglesa integral nem incorporação de Strong como fonte semântica. Algumas variantes textuais são identificadas, notadamente G168 e G183; a entrada G188 registra corretamente o lema **ἀκμή**, distinguindo o acusativo adverbial **ἀκμήν**. O relatório estrutural é `auditorias/thayer-2026-10-11-lote003.md`.
+
+A auditoria estrutural verifica 100 novos pares `search-row`/`entry-card`, unicidade dos IDs e integridade da sequência. **Ainda pendentes:** auditoria visual e filológica integral de cada acepção, execução no navegador, testes de acessibilidade e verificação individual de links externos. Esta rotina não abre PR para `chat-gpt-commits` por ausência de `chat-gpt-thayer` na política de integração vigente; `main` não é modificada.
+
+
+
 ## PR #89 — integração JASTROW até 410 verbetes (11/10/2026)
 
 O PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/89) concilia os 200 verbetes JASTROW adicionais `A00210`–`A00409` com os módulos anteriores de BDAG, LEH, PEREIRA, DGP (incluindo lote 076) e THAYER (incluindo lote 002). O JASTROW passa a ter 410 cartões e linhas na integração e preserva separadamente 600 registros originais do XML canônico. Próximo ID `A00410`, lema `אדכי`.
