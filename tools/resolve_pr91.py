@@ -76,6 +76,12 @@ A auditoria cumulativa [Actions 38115928600](https://github.com/linguasbiblicaso
     assert (scope["total_published"],scope["total_integrated"],scope["total_audited"],scope["next_source_id"]) == (510,410,0,"A00510")
     scope["total_integrated"]=510
     scope["editorial_status"]="510 registros JASTROW integrados tecnicamente via PR #91, ainda sem revisão filológica integral ou teste de navegador; total_audited=0."
+    base_progress=json.loads(show(EXPECTED_BASE,"lexicons/jastrow-progress.json"))
+    assert base_progress["scope"]["total_integrated"]==410
+    old_integration=base_progress.get("last_integration")
+    progress["integration_history"]=list(base_progress.get("integration_history",[]))
+    if old_integration and old_integration not in progress["integration_history"]:
+        progress["integration_history"].append(old_integration)
     progress["last_integration"]={"pr":91,"head_sha":source,"base_before":EXPECTED_BASE,"total_integrated":510,"philological_audit":"pending","browser_audit":"pending"}
     for item in progress["batches"]:
         if item.get("batch")==6:
@@ -84,7 +90,7 @@ A auditoria cumulativa [Actions 38115928600](https://github.com/linguasbiblicaso
     rules_path=Path("regras/Rintegracao.txt")
     rules=rules_path.read_text(encoding="utf-8")
     assert "PR #91 — JASTROW" not in rules
-    rules+="\n20. PR #91 — JASTROW, sexta rodada (11/10/2026)\n    Origem chat-gpt-jastrow; base chat-gpt-commits. Preservar destino DGP76, THAYER PR90 e outros léxicos; incorporar 100 verbetes A00410–A00509 e seus popups com base no XML fixo, mantendo total JASTROW 510, originais 600, próximo A00510 e total_audited=0. Resolver index.html acrescentando somente cinco scripts de JASTROW depois do popup 311–410. Conservar README inteiro da base, acrescentando sexta rodada e nota da integração. Importar relatório auditoria/JASTROW-2026-10-11-lote-006.md da branch correcoes. Executar auditoria em Node antes do merge de dois pais; não editar main nem eliminar branches. Revisão filológica e browser pendentes.\n"
+    rules+="\n21. PR #91 — JASTROW, sexta rodada (11/10/2026)\n    Origem chat-gpt-jastrow; base chat-gpt-commits. Preservar destino DGP76, THAYER PR90 e outros léxicos; incorporar 100 verbetes A00410–A00509 e seus popups com base no XML fixo, mantendo total JASTROW 510, originais 600, próximo A00510 e total_audited=0. Resolver index.html acrescentando somente cinco scripts de JASTROW depois do popup 311–410. Conservar README inteiro da base, acrescentando sexta rodada e nota da integração. Importar relatório auditoria/JASTROW-2026-10-11-lote-006.md da branch correcoes. Executar auditoria em Node antes do merge de dois pais; não editar main nem eliminar branches. Revisão filológica e browser pendentes.\n"
     rules_path.write_text(rules,encoding="utf-8")
     assert not Path(REPORT).exists(), "Audit report already on integration base"
     audit_content=show("origin/chat-gpt-correcoes",REPORT)
