@@ -23,6 +23,15 @@
 - **Teste de navegador anterior:** [Chromium #38214646245](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38214646245), sucesso geral para os 600. **Nova bateria específica de 100:** [execução #38260565698](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698); **resultado real: FAILURE**. Em desktop, 100/100 cartões abriram por ponteiro e Enter, 100/100 títulos passaram na direção RTL e os 10 cartões amostrados pelo axe não tiveram violações. Dos 57 verbetes com gatilho de popup testado por foco, 17 abriram e 40 não abriram no teste. Esse resultado histórico foi posteriormente diagnosticado como falso negativo de sincronização CSS; a execução final #38270095481 comprovou 57/57 popups em ambos os perfis. O teste individual móvel NÃO foi executado porque a suíte interrompeu após a falha desktop. [Artefatos da execução](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698/artifacts/11752701860). A bateria calcula SHA-256, verifica abertura por ponteiro e teclado em todos os 100 em duas resoluções, remissões HTML/âncoras internas, RTL e amostragem axe de 10/100 por perfil. Aprovação funcional não substitui colação filológica nem merge.
 - **Homologação:** `AUDITORIA_CONCLUIDA = 0/100` nesta publicação documental. Não foram criados PR/merge pelo processo de auditoria. A integração independente deve resolver o delta sem perder as demais fontes, realizar os testes e confirmar `merged=true` e presença do conteúdo publicado; nenhuma alteração é feita em `main`.
 
+## Duas divergências de cabeçalho do teste legado — adjudicadas sem alteração lexical
+
+O teste estático registrou dois casos de `legacyLemmaDifferences`, que não são automaticamente defeitos:
+
+- **`A00006`:** a fonte digital traz literalmente `<head-word>א'</head-word>` (apóstrofo ASCII), enquanto o cartão editorial exibe `א׳`, com o sinal hebraico *geresh* (U+05F3). Trata-se de normalização gráfica editorial; a fonte continua intacta e o título do cartão não deve ser confundido com transcrição diplomática.
+- **`A00007`:** a fonte XML apresenta quatro cabeçalhos independentes (`אִ־`, `אִי־`, `אֶ־`, `אַ־`), enquanto o cartão agrupa as quatro formas no mesmo título. Não há perda das variantes no XML. Esta apresentação precisa continuar explicitamente caracterizada como síntese editorial, não como cabeçalho literal único.
+
+Esses dois julgamentos constam dos respectivos controles de lematização no JSON das 100 fichas. Não há correção textual comprovada que justifique reescrever a fonte ou remover variantes.
+
 ## Referência individual (100/100)
 
 A matriz JSON anexa preserva para cada ID o lema, os cabeçalhos da fonte, SHA-256, identificação do parecer histórico, nota de decisão, referências `rid`, módulo afetado, dez controles (incluindo estados pendentes) e motivo da recusa do selo. A tabela abaixo é somente um índice, não substitui as fichas.
