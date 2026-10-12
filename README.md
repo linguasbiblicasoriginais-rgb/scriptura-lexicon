@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 84 (12/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3501–3600** (**ἀνθρηνιώδης, ης, ες** → **ἀννέομαι**), no módulo `lexicons/dgp-batch-84.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **3600 verbetes**; próximo ordinal: **3601**. Operação exclusivamente lexical; sem auditoria, homologação ou integração.
+
 ## DGP — incorporação do lote 83 (12/10/2026)
 
 Incorporados 100 verbetes consecutivos do XML canônico, ordinais **3401–3500** (**ἀνηκοΐα, ας (ἡ)** → **ἀνθρήνιον, ου (τό)**) em `lexicons/dgp-batch-083.js`. Total acumulado do manifesto: **3500**; próximo ordinal **3501**. O ordinal **3449** tem lema explícito dentro de `<def>` no XML original: indexado sem eliminar conteúdo da definição. Somente incorporação; auditoria, homologação e integração não executadas.
