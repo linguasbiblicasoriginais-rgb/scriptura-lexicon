@@ -1,3 +1,7 @@
+## Integração THAYER — reconciliação do conflito do PR #113 (12/10/2026)
+
+Conciliação conservadora de `chat-gpt-thayer` com `chat-gpt-commits`: preservadas as versões consolidadas e mais recentes dos 26 caminhos abrangidos pelo PR, incluindo as correções lexicais e auditorias de 12/10/2026; recuperada a norma de quadro global de progresso de `Rthayer.txt`. Nenhum verbete foi reescrito por esta operação. A conferência da resolução está registrada em [auditoria da integração #113](auditorias/integracao-pr-113-2026-10-12.md). A confirmação definitiva de `merged=true` é independente desta preparação; `main` e a branch THAYER devem ser preservadas.
+
 ## THAYER — 512/512 cotejos dirigidos preliminares (12/10/2026)
 
 Concluído o **inventário de cotejos dirigidos de escopo parcial** dos 512 verbetes: 400 prévios + 112 finais (0389–0499 e o cartão histórico Ἀαρών). Consultado o fac-símile Thayer, páginas impressas 35–51 e 1; as páginas de cada verbete numerado permanecem por certificar individualmente. Corrigidas três fichas (ἀνατολή, ἀνήμερος e ἀνταναπληρόω). **Colação filológica integral: 0/512. Auditoria atômica concluída: 0/512.** Todos os estados permanecem BLOQUEADA conforme `Rauditoria.txt`. Relatório: [112 cotejos dirigidos](auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.md); [fichas individuais JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.json).

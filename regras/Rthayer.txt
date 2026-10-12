@@ -91,3 +91,17 @@ THAYER — COTEJO DIRIGIDO 100 FICHAS 0289–0388 (12/10/2026). Consultado fac-s
 
 
 THAYER — FECHAMENTO DOS COTEJOS DIRIGIDOS PRELIMINARES (12/10/2026). Últimas 112 fichas: entry-thayer-0389–0499 (111) e entry-aaron-thayer (1). Origem impressa Thayer, parte 1, pp. 35–51 e 1. Marcados 512/512 DIRIGIDO_PRELIMINAR, mas homologações integrais 0/512 e auditorias atômicas concluídas 0/512; os 512 permanecem BLOQUEADA. Correções comprovadas de glossa ou nota em ἀνατολή (nascer do sol), ἀνήμερος (2Tm 3.3) e ἀνταναπληρόω (completar por sua vez). As faixas de páginas não são prova da página individual de cada verbete, exceto Arão (p. 1). Relatório e inventário 112 em auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.{md,json}. Exigir teste Chromium no novo commit, confirmação de PR mesclado para chat-gpt-commits, preservação de main e de branches lexicais.
+
+
+NORMA PERMANENTE — QUADRO GLOBAL DE PROGRESSO APÓS TODA EXECUÇÃO/AUDITORIA (RETIFICAÇÃO DE 11/10/2026)
+O usuário esclareceu que a 'tabela combinada' NÃO é a tabela nominal dos 100 cartões, mas o QUADRO CONSOLIDADO DE PROGRESSO DE TODOS OS DICIONÁRIOS. Esta norma prevalece sobre a instrução anterior e elimina a obrigatoriedade de exibir 100 linhas nominais em toda resposta. O inventário nominal de 100, quando produzido, pode continuar como relatório técnico anexo e NÃO substitui o quadro global.
+
+Após QUALQUER execução, auditoria, correção, integração ou falha, publicar obrigatoriamente ao final o quadro:
+Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado.
+Incluir sem omissões todas as frentes do projeto: BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS e LSJ; expandir sempre que forem criadas novas frentes.
+Símbolos: ✓ = comprovada no escopo indicado; ◐ = parcial, preliminar, auditoria em andamento; — = pendente ou sem prova de execução. Mostrar frações verdadeiras com numerador de cobertura, não números de acertos. Cada linha precisa exibir total incorporado numérico; para fontes sem entrada publicada, 0. Encerrar com linha TOTAL sem duplicar registros entre branches.
+Conferir HEAD remoto e manifestos por origem, módulos de busca/cartões e integração efetiva na branch chat-gpt-commits, PRs merged. Não confundir 100 verbetes auditados agora com 500 incorporados de THAYER, nem 500 lemas confrontados com 500 acepções homologadas. Não confundir triagem programática com auditoria filológica integral, nem registros preliminares HALOT com tradução concluída. Quando a precisão do total ou da integração não for comprovável, declarar NÃO VERIFICADO e não inventar número.
+Se houver auditoria nominal, produzir seu inventário para rastreabilidade, mas a tabela de progresso de TODAS as fontes é obrigatória NA RESPOSTA AO USUÁRIO, separadamente. Documentar esse acordo em README e no checkpoint e manter a regra global também na documentação consolidada.
+Fonte / Tradução / Análise / GDHAGP são camadas independentes. Não editar main e não alterar conteúdo lexical apenas para refletir uma auditoria.
+
+INTEGRAÇÃO PONTUAL PR #113 (12/10/2026): A conciliação conserva a versão mais recente dos módulos e checkpoint já presentes em chat-gpt-commits, recupera a norma de quadro global e documenta o histórico sem retroceder os cotejos dirigidos. A autorização do usuário para resolver especificamente o PR #113 não amplia a lista geral de fontes de integração. Não apagar chat-gpt-thayer nem alterar main. Merge e verificações finais exigem confirmação de estado remoto.
