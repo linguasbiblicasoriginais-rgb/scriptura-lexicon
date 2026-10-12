@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **JASTROW — tentativa de certificação atômica de 100 verbetes (12/10/2026):** para os IDs `A00000–A00099`, 100 pareceres históricos e fichas A–J de pendências registradas; **58 A / 42 C**, e **42/42 correções C ainda ausentes de `chat-gpt-commits`** no cotejo individual dos módulos. Foram identificadas 47 entradas com `xref` e 27 com vários cabeçalhos, exigindo rastreabilidade específica. [Relatório do lote](auditoria/JASTROW-2026-10-12-lote-001-100-tentativa-atomica.md) · [100 fichas](auditoria/JASTROW-2026-10-12-lote-001-100-fichas-atomicas-pendencias.json) · [nova bateria Chromium](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698). **Homologações: 0/100 até que todos os portões sejam comprovados, inclusive merge real**. Nenhum verbete/XML foi alterado nesta tentativa.
+
+
 > **DGP — auditoria filológica única 1001–1100 (12/10/2026):** 100 entradas canônicas cotejadas integralmente com o editor; **95 A, 3 C, 2 P**. Corrigidas *notas documentais* #1015 (ῥεω/ῥέω), #1034 (terminação neutra de αἰνιγματώδης) e #1100 (αἰσθάναομαι/αἰσθάνομαι); pendências #1022 (αἵμων¹ em Homero) e #1087 (αἵρεσις, acepção LXX de oferta voluntária). 8 expansões de autores, 0 diferenças textuais inexplicadas; **nenhum texto DGP alterado**. [100 pareceres](auditorias/dgp-filologia-2026-10-12-lote012-1001-1100.md) e [evidências completas](auditorias/dgp-filologia-2026-10-12-lote012-evidencias.json). Checkpoint filológico histórico **1100/3300**, próximo #1101 `αἴσθησις`. JS documental com sintaxe validada; browser/DOM, PR e merge não executados nesta rodada. Classificações históricas não recertificadas retroativamente.
 
 
