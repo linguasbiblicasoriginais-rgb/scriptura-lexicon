@@ -542,8 +542,8 @@
           "evidence": "Original XML pinado + SHA por registro; fac-símile/paginação não cotejados individualmente"
         },
         "02_headword": {
-          "result": "PARECER_HISTORICO",
-          "evidence": "Cabeçalho(s) e homografia no XML; correspondência DOM coberta no teste geral"
+          "result": "CONFERIDO_COM_NOTA_EDITORIAL",
+          "evidence": "Original XML <head-word>א'</head-word>; titulo do cartao א׳ usa geresh hebraico U+05F3 como normalizacao da pontuacao; nao e copia literal diplomatica"
         },
         "03_translation": {
           "result": "PARECER_HISTORICO_A",
@@ -590,6 +590,11 @@
         "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
         "axe_sampled": false,
         "axe_individually_certified": "NOT_TESTED"
+      },
+      "lemma_adjudication": {
+        "source_literal": "א'",
+        "editorial_display": "א׳",
+        "assessment": "normalizacao grafica editorial da aspa simples para geresh hebraico U+05F3; a fonte XML original mantem apostrofo ASCII; nao afirmar transcricao diplomatica literal no cabecalho"
       }
     },
     {
@@ -625,8 +630,8 @@
           "evidence": "Original XML pinado + SHA por registro; fac-símile/paginação não cotejados individualmente"
         },
         "02_headword": {
-          "result": "PARECER_HISTORICO",
-          "evidence": "Cabeçalho(s) e homografia no XML; correspondência DOM coberta no teste geral"
+          "result": "CONFERIDO_COM_NOTA_EDITORIAL",
+          "evidence": "Original XML registra 4 head-word separados (אִ־, אִי־, אֶ־, אַ־); cartao editorial concatena as variantes; nao atribuir ao original titulo unico"
         },
         "03_translation": {
           "result": "PARECER_HISTORICO_A",
@@ -673,6 +678,17 @@
         "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
         "axe_sampled": false,
         "axe_individually_certified": "NOT_TESTED"
+      },
+      "lemma_adjudication": {
+        "source_literal_primary": "אִ־, ",
+        "source_alternatives": [
+          "אִ־,",
+          "אִי־,",
+          "אֶ־,",
+          "אַ־"
+        ],
+        "editorial_display": "אִ־, אִי־, אֶ־, אַ־",
+        "assessment": "concatenacao editorial explicita de quatro formas em um unico titulo; cada head-word continua individualizado no XML canônico"
       }
     },
     {
