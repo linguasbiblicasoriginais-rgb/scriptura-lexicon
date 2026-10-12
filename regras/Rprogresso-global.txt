@@ -1,0 +1,44 @@
+REGRA VIGENTE DE CONTAGEM — AUDITORIA ATÔMICA POR VERBETE (11/10/2026)
+A palavra “AUDITORIA” ou o símbolo ✓ na sua coluna só pode significar o conjunto integral de verificação, correção, regressão, evidência e integração definido em regras/Rauditoria.txt. Qualquer cobertura de HTML, lema, pesquisa, semântica parcial ou confronto automatizado deve ser apresentada como ◐ TRIAGEM/VERIFICAÇÃO, mesmo se 100% dos cartões foram percorridos. Não converter “verificados estaticamente 512/512” em “auditados 512/512”. Os contadores `total_incorporado`, `total_triado`, `total_verificado_estaticamente`, `total_cotejado_parcialmente` e `total_auditoria_concluida` são separados. Para a mesma entrada, somente marcar AUDITORIA_CONCLUIDA quando não restarem pendências obrigatórias e houver merge remoto confirmado. Relatórios antigos mantêm estado e significado histórico; esta norma não reconta sem evidência individual.
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Projeto: GDHAGP / Scriptura Lexicon
+Vigência: imediata. Esta norma prevalece sobre a exigência histórica de relatar somente BDAG/DGP/LEH/PEREIRA e sobre a exigência equivocada de exibir a tabela nominal de 100 verbetes nas respostas THAYER.
+
+1. Ao final de TODA execução, incorporação, auditoria (independente ou filológica), revisão, correção, integração ou tentativa bloqueada, publicar na RESPOSTA AO USUÁRIO, sempre, uma tabela consolidada de TODAS as frentes com as colunas exatamente:
+   Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado
+
+2. Fontes mínimas obrigatórias:
+   BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS, LSJ.
+   Ampliar automaticamente quando novas frentes forem incorporadas ao projeto, sem deixar de mostrar as não iniciadas.
+
+3. Legenda:
+   ✓ etapa comprovada no escopo indicado (não significa obra inteira finalizada);
+   ◐ etapa parcialmente coberta, preliminar, em andamento ou ainda não homologada; quando possível escrever ◐ x/y;
+   — etapa ainda não executada ou sem comprovação documental.
+   Frações x/y representam quantidade EXAMINADA/ABRANGIDA, não número de acertos nem qualidade garantida. Se houver níveis distintos (triagem automática e cotejo manual), informar ambos sem confundi-los.
+   Totais de registros publicados devem ser números e não ícones; exibir 0 nas frentes sem verbetes publicados. Incluir linha TOTAL.
+
+4. Fonte de evidência por linha:
+   a) Ler HEAD atual e checkpoint/manifesto da BRANCH DE ORIGEM; contar efetivos search-row/entry-card inclusive geradores JS, e registrar divergências sem inventar.
+   b) Auditoria textual/estrutural: conferir relatórios, escopo de cada rodada e se houve testes reais DOM/browser; não confundir inspeção estática com testes em navegador.
+   c) Auditoria filológica: distinguir lemas comparados, triagem programática, revisão contextual individual, correções adjudicadas e HOMOLOGAÇÃO INTEGRAL (somente quando evidenciada).
+   d) Integração: verificar HEAD de chat-gpt-commits, presença efetiva dos módulos, PR closed+merged e proporção incorporada; corrigir checkpoints desatualizados por fatos observados no Git, sem reescrever silêncios/documentos históricos. PR criado/fechado sem merge não é integração.
+   e) Fonte preliminar, como HALOT, pode estar integrada tecnicamente e ainda sem revisão editorial; distinguir os estados nas respectivas colunas.
+   f) O TOTAL é a soma dos registros incorporados por FONTE NAS BRANCHES, cada fonte uma única vez, e NÃO a soma de todas as cópias/PRs nem somente o total consolidado; explicar diferença entre total na origem e total integrado.
+
+5. A tabela GLOBAL acima é a que o usuário combinou; NUNCA substituí-la por inventário nominal de lote (por exemplo os 100 verbetes auditados de THAYER). Inventários nominais em MD/CSV continuam úteis e podem ser anexados para auditoria, mas não são o quadro geral requerido na resposta.
+
+6. Não confundir incorporação com filologia homologada, nem status ✓ numa coluna com conclusão global da obra. Se um número não puder ser verificado, anotar 'não verificado', não preencher por suposição. Não copiar snapshots antigos como estados atuais.
+
+7. Nos relatórios de processo, colocar esse quadro na conclusão de forma visível, com notas breves de ressalva e data/HEADs consultados. Registrar ajustes de metodologia no README, nas regras canônicas e nos checkpoints adequados.
+
+8. Política Git: NUNCA fazer commit em main. Escrever somente em branch autorizada, consolidar documentação por PR revisável para chat-gpt-commits, preservando branches e verificando HEAD remoto após merge.
+
+Snapshot do acordo (11/10/2026) — somente referência, NÃO fonte de verdade para execuções futuras:
+BDAG=1161; DGP=3300 (2880 integrados); LEH=690; PEREIRA=510;
+JASTROW=600; THAYER=500; HALOT=100 preliminares; demais=0;
+TOTAL DE ORIGENS=6861. Todos os contadores devem ser reconferidos em cada rodada.
+
+
+VISUALIZAÇÃO OBRIGATÓRIA DE PERCENTUAIS THAYER E DEMAIS FONTES (12/10/2026): Para cada porcentagem, registrar numerador, denominador e ESCOPO testado, evitando confundir cobertura de testes estáticos/DOM, cotejo dirigido parcial, colação filológica integral e AUDITORIA_CONCLUIDA. Sempre que possível, exibir barras proporcionais; uma barra de 100% estrutural NUNCA substitui o indicador filológico/atômico. Referência documental: auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md. No THAYER: 512/512 pares DOM = 100%, 13/512 cotejo dirigido preliminar = 2,54%, 0/512 colação integral e auditoria atômica = 0%; testes de abrir 512 rotas são eventos sintéticos DOM executados em Chromium real, além de amostras Playwright reais. Não atribuir esse progresso às demais fontes sem verificação própria.

@@ -1,4 +1,10 @@
 ================================================================================
+NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
+================================================================================
+A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
+================================================================================
+
+================================================================================
 NOVA REGRA SUPREMA — EXECUÇÃO INDEPENDENTE, 09/10/2026
 ================================================================================
 Esta decisão atual revoga toda obrigação de ordem global entre léxicos.

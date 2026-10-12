@@ -1,3 +1,10 @@
+================================================================================
+REGRA CANÔNICA SUPERIOR — AUDITORIA ATÔMICA DE VERBETES (11/10/2026)
+================================================================================
+Em substituição ao uso histórico de “auditoria” como simples avaliação/relatório, toda auditoria de um verbete passa a incluir a verificação exaustiva da fonte, todas as correções fundamentadas, revalidação textual e filológica, testes estruturais e funcionais pertinentes, registros e integração comprovada. Ler OBRIGATORIAMENTE regras/Rauditoria.txt e preencher ficha individual conforme regras/modelo-auditoria-atomica.json. Um achado sem correção ou um teste não executado deixa o verbete EM_EXECUCAO ou BLOQUEADA, não AUDITORIA_CONCLUIDA. Uma correção publicada sem merge verificado é AGUARDANDO_INTEGRACAO. Somente evidência por artigo e merge efetivo permite contar como auditado. “Triagem estática 3300/3300” não se transforma, por esta norma, em “3300 auditorias concluídas”.
+A rotina de correções permanece autorizada a escrever SOMENTE em chat-gpt-correcoes; a integração é responsabilidade do integrador, não desta rotina. Nenhuma permissão de branch, agendamento ou custeio foi ampliada. Preservar todos os relatórios históricos e as correções comprovadas já feitas, sem reclassificá-los retroativamente.
+================================================================================
+
 RCORRECOES — PROTOCOLO DE AUDITORIA E CORRECOES DO SCRIPTURA LEXICON
 Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
 Branch exclusiva de publicação: chat-gpt-correcoes
@@ -122,4 +129,35 @@ Incorporação auditada: commit a9b29c233916c9adc265b34007c8b085c96fd972 em chat
 Recontagem do código carregado: 2680 linhas search-row, 2680 cartões entry-card, IDs únicos 1–2680 em ambos os conjuntos, zero lacunas, duplicações ou alvos órfãos. Conferida sequência do index.html com dgp-batch-074.js e sem ativar módulos auxiliares históricos.
 Relatório: auditorias/dgp-2026-10-10-lote74.md.
 APROVAÇÃO ESTÁTICA: fidelidade textual e integridade estrutural. PENDENTE: DOM real, popups, acessibilidade, responsividade, editoria visual e integração. Não criar PR/merge nesta etapa; exclusividade do integrador.
+================================================================================
+
+================================================================================
+AUDITORIA DGP GLOBAL 3300/3300 — 11/10/2026
+================================================================================
+Fonte: XML canônico letra α, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2; HEAD lexical 59d497c25c0a9bbc0a15a2d49d6586e5d6892500. Auditoria estática completa publicada em auditorias/dgp-2026-10-11-integral-3300.md e evidência estruturada em auditorias/dgp-2026-10-11-integral-3300.json.
+Todos os 3300 ordinais auditados: 3300 pares linha/cartão, zero duplicações/órfãos. 3295 lemas literais, 3 anomalias antigas #95/#124/#150 corrigidas no ramo de correções, 2 entradas sem lema no XML #2311/#2483. 3194 definições literais, 11 com hífen discricionário omitido, 93 com expansão bibliográfica e 2 com deslocamento histórico. A branch lexical contém 25 linhas sem lema pesquisável integral; #95 já havia sido corrigido na branch de correções, e foram reparados os demais 24 data-search sem alterar as definições. Controle 61–140: 80/80 completos. Permanecem fora desta conclusão testes dinâmicos, popups executados, revisão contextual filológica, acessibilidade e integração posterior. NUNCA trocar o módulo lexical mais recente por cópia antiga da branch de correções; reconciliar os patches preservando os lotes 77–81, sem touch em main.
+================================================================================
+
+================================================================================
+AUDITORIA FILOLÓGICA CONTÍNUA — PRIMEIRO LOTE DGP 1–20 (11/10/2026)
+================================================================================
+O usuário determinou que a auditoria filológica comece separadamente da auditoria textual/estrutural. Executar lotes sequenciais com confronto morfológico, semântico, sintático, de lemas/variantes, regências, citações, etimologias, homógrafos, autores/obras e remissões. Distinguir fato do DGP, evidência externa, hipótese e decisão editorial. Não substituir o texto da fonte com leituras de LSJ/BDAG/Cunliffe nem afirmar homologação integral sem prova individual. Início documentado: auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md; checkpoint: auditorias/dgp-filologia-progresso.json, filologia DGP 20/3300, próximo 21. Nesta rodada 14 entradas tiveram apoio externo dirigido e 6 análise morfológica interna, com pendências identificadas, sem mudanças conjecturais.
+PADRÃO DE RELATÓRIO SOLICITADO PELO USUÁRIO (OBRIGATÓRIO AO FINAL DE CADA PROCESSO): apresentar tabela de TODOS OS DICIONÁRIOS ATIVOS (BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER e novos que vierem) contendo: Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total de verbetes incorporados (numérico). Símbolos: ✓ etapa coberta e comprovada para o escopo expresso; ◐ parcial/em andamento; — não comprovado/pendente. Nunca usar ✓ para auditoria filológica integral de léxico auditado somente em sublote, nem confundir compromisso da fonte com integração no destino. Conferir contagens em cada HEAD remoto e qualificar números só declarados por manifesto. A coluna total numérica refere-se aos registros publicados na branch lexical, NÃO à totalidade histórica da obra.
+================================================================================
+
+
+================================================================================
+DGP — AUDITORIA FILOLÓGICA INDEPENDENTE, LOTE 002 (21–40), 11/10/2026
+================================================================================
+Arquivo de relatório: auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md. Checkpoint: auditorias/dgp-filologia-progresso.json.
+Verificados individualmente os 20 verbetes 21–40, 16 com testemunhos auxiliares consultados e 4 com análise interna. Total filológico acumulado 40/3300; próximos ordinais 41–60.
+Achados: remissão ἀβίοτος → ἀβίωτος preservada apesar de usos autônomos em LSJ; citação de ἀβλαβής em Platão, Leis 953b, reúne valores ativo e passivo; variação flexional (ἄβατος, ἀβαφής, ἀβέλτερος); nuance ἀβιώτως dependente do contexto. Corrigida apenas exibição tipográfica de "au- sência" → "ausência" no cartão DGP #38, sem mudar XML original, sem inventar sentidos ou tocar outros registros.
+A auditoria textual/estrutural global 3300/3300 continua distinta do exame filológico 40/3300, e não certifica interatividade nem integração. Em todos os resultados manter tabela de acompanhamento de BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER com 5 colunas solicitadas.
+================================================================================
+
+
+================================================================================
+JASTROW — AUDITORIA FILOLÓGICA INDEPENDENTE DE TRIAGEM, 11/10/2026
+================================================================================
+Confronto dirigido em 590 módulos editoriais A00010–A00599 contra XML Sefaria-Data; 10 primeiros no módulo-base examinados apenas de modo parcial. 600 cartões/linhas confirmados por teste estrutural anterior. Primeiro cabeçalho XML coincide com os 590 lemas editoriais (normalização conservadora). Há 32 indícios de variantes não visíveis, 2 conjuntos de grafias gregas omitidos em sínteses (A00238 e A00362) e 1 remissão inequívoca para corrigir (A00057 aponta indevidamente ao "precedente" em vez de A00055). Notas no relatório auditoria/JASTROW-2026-10-11-filologia-600.md; NÃO considerar 32 sinalizações como 32 erros provados. Revisão integral e DOM continuam pendentes; total_audited=0. Divergência com chat-gpt-commits demanda reconciliação antes de corrigir módulos; não tocar main.
 ================================================================================
