@@ -12,7 +12,7 @@
     "browser": "Chromium",
     "test": "tests/thayer-browser-audit.mjs"
   },
-  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.; 100 cotejos dirigidos preliminares de 0089 a 0188 adicionados. Teste anterior Chromium é histórico e regressão da presente mudança deve ser comprovada separadamente.",
+  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.; 100 cotejos dirigidos preliminares de 0089 a 0188 adicionados. Teste anterior Chromium é histórico e regressão da presente mudança deve ser comprovada separadamente.; 100 observações filológicas dirigidas preliminares das fichas 0189–0288. A atual execução Chromium depende de novo workflow no PR.",
   "summary": {
     "incorporated": 512,
     "structuralStaticOk": 512,
@@ -23,20 +23,19 @@
     "playwrightGenuineEnter": 2,
     "playwrightTooltipFocus": 1,
     "linkedBiblicalReferences": 15,
-    "directedSourceCheckedPrelim": 200,
+    "directedSourceCheckedPrelim": 300,
     "sourceFullyCollated": 0,
     "atomicallyCompleted": 0,
     "accessibilityExhaustivelyTested": 0,
     "lastDirectedAudit": {
-      "data": "2026-10-12",
+      "date": "2026-10-12",
+      "range": "entry-thayer-0189–0288",
+      "previous": 200,
       "new": 100,
-      "previous": 100,
-      "total": 200,
-      "intervalo": "entry-thayer-0089–0188",
-      "natureza": "DIRIGIDO_PRELIMINAR_SEM_HOMOLOGACAO_INTEGRAL",
-      "primary": "Thayer parte 1 p. 12–23",
-      "source_head_before": "a1b579be2fe3a9810e82fed963ac8dd88687996d",
-      "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.md"
+      "total": 300,
+      "scope": "DIRIGIDO_PRELIMINAR",
+      "publication": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.md",
+      "origin_commit": "4706444ec831741542bd1a0a991198c9392ea6d5"
     }
   },
   "entries": [
@@ -7584,7 +7583,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7600,6 +7599,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "A forma ἀκμήν em Mt 15.16 funciona adverbialmente como «ainda agora»; distingui-la de «ponto culminante».",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7614,7 +7624,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7630,6 +7640,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκοή designa sentido da audição, ato de ouvir, notícia e mensagem recebida; conferir o uso hebraizante de Mt 13.14.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7644,8 +7665,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "lote3_cotejo_dirigido_191_aparato"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -7660,6 +7683,19 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκολουθέω é seguir fisicamente, acompanhar como discípulo e suceder; em Ap 18.5 a leitura ἠκολούθησαν é substituída por ἐκολλήθησαν nas edições G/L/T/Tr/WH.",
+        "correcoes": [
+          "Explicitar variante de Ap 18.5 sem atribuir leitura antiga às edições críticas."
+        ],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7674,7 +7710,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7690,6 +7726,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκούω varia entre perceber som, atender a palavras, saber por notícia e obedecer; distinguir as regências com genitivo/acusativo.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7704,7 +7751,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7720,6 +7767,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκρασία caracteriza falta de autodomínio, com variante gráfica ἀκρατεία no artigo e sentidos em Mt 23.25 e 1Co 7.5.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7734,7 +7792,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7750,6 +7808,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκρατής é privação de domínio de si em 2Tm 3.3; não fundir automaticamente com o substantivo ἀκρασία.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7764,7 +7833,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7780,6 +7849,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄκρατος é vinho sem diluição em Ap 14.10; «puro» aqui qualifica a mistura, não santidade moral.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7794,7 +7874,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7810,6 +7890,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "23–24",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκρίβεια associa rigor de observância e exatidão em At 22.3 e At 26.5; a etimologia não constitui sentido principal.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7824,7 +7915,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7840,6 +7931,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκριβέστατος é superlativo do adjetivo ἀκριβής em At 26.5, tratado na fonte como forma sob a família lexical; ficha editorial independente.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7854,7 +7956,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7870,6 +7972,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκριβέστερον é comparativo adverbial de ἀκριβῶς em At 18.26 etc., tratado como acesso flexionado e não cabeçalho lexical independente.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7884,7 +7997,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7900,6 +8013,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκριβόω em Mt 2.7 e 2.16 é investigar cuidadosamente/estabelecer um dado temporal; não apenas agir com precisão abstrata.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7914,7 +8038,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7930,6 +8054,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκριβῶς pode qualificar a investigação de Lucas 1.3 e conduta de Ef 5.15; distinguir os dois contextos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7944,7 +8079,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7960,6 +8095,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκρίς é gafanhoto consumido como alimento (Mt 3.4) e inseto figurado nas imagens de Ap 9; não pressupor identidade zoológica precisa da visão.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -7974,7 +8120,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -7990,6 +8136,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκροατήριον é sala de audiência forense em At 25.23, distinguível de assembleia informal de ouvintes.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8004,7 +8161,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8020,6 +8177,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκροατής é quem ouve a lei/palavra, em contraste com quem a cumpre (Rm 2.13; Tg 1.22); não é título eclesiástico fixo.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8034,7 +8202,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8050,6 +8218,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκροβυστία inclui prepúcio físico, incircuncisão como estado e gentios por metonímia; contextos de Romanos/Coríntios/Efésios.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8064,7 +8243,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8080,6 +8259,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκρογωνιαῖος é o principal elemento angular da construção, figura cristológica em Ef 2.20 e 1Pe 2.6.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8094,7 +8284,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8110,6 +8300,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκροθίνιον designa as porções escolhidas do saque; a oferenda de Abraão em Hb 7.4 não é classificada genericamente como qualquer bem.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8124,7 +8325,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8140,6 +8341,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄκρον é substantivação/formação editorial do adjetivo ἄκρος: extremos do céu/terra ou parte do corpo, não novo artigo autônomo.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8154,7 +8366,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8170,6 +8382,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "Ἀκύλας é o nome próprio latino do colaborador de Paulo; não fundir seus dados históricos com os sentidos da forma latina aquila.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8184,7 +8407,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8200,6 +8423,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκυρόω é invalidar disposição ou mandamento em Mt 15.6; Mc 7.13; Gl 3.17; preservar o objeto da anulação.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8214,7 +8448,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8230,6 +8464,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀκωλύτως em At 28.31 significa «sem impedimento», qualificação da proclamação, não indicação de velocidade.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8244,7 +8489,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8260,6 +8505,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄκων é agir sem vontade própria em 1Co 9.17, oposto a ἑκών; distinguir relutância de coerção legal.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8274,7 +8530,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8290,6 +8546,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλάβαστρον é recipiente de unguento, chamado pelo material de fabricação; contexto de perfumes nos Evangelhos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8304,7 +8571,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8320,6 +8587,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλαζονεία é pretensão ostentatória e vanglória dos planos em Tg 4.16 e da vida em 1Jo 2.16.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8334,7 +8612,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8350,6 +8628,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλαζών denota fanfarronice ou jactância, distinto de mero orgulho silencioso, em Rm 1.30 e 2Tm 3.2.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8364,7 +8653,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8380,6 +8669,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "24–25",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλαλάζω abrange clamor humano e ressoar de címbalo; Mc 5.38 versus 1Co 13.1.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8394,7 +8694,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8410,6 +8710,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλάλητος qualifica gemidos inexprimíveis de Rm 8.26; evitar «palavras inaudíveis» como equivalência.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8424,7 +8735,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8440,6 +8751,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄλαλος descreve mudez e o espírito dito mudo nos Evangelhos; não é necessariamente incapacidade permanente da pessoa.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8454,7 +8776,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8470,6 +8792,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅλας: sal literal e analogias de influência e discurso em Mc 9 e Cl 4.6; manter a discussão do costume de salgar sacrifícios.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8484,7 +8817,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8500,6 +8833,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλείφω é passar óleo/unguento, nos atos de cuidado, honra e cura; o artigo contrasta com χρίω sem convertê-los em sinônimos automáticos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8514,7 +8858,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8530,6 +8874,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλεκτοροφωνία designa o canto de galo como divisão noturna em Mc 13.35, não somente o evento acústico.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8544,7 +8899,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8560,6 +8915,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλέκτωρ é o galo literal; na narrativa de Pedro o canto marca o tempo, sem sentido alegórico lexical obrigatório.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8574,7 +8940,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8590,6 +8956,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "Ἀλεξανδρεύς é morador de Alexandria, diverso de Ἀλεξανδρινός usado sobretudo como proveniência.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8604,7 +8981,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8620,6 +8997,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "Ἀλεξανδρινός em At 27.6/28.11 qualifica o navio de Alexandria; Thayer documenta variantes de acentuação.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8634,7 +9022,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8650,6 +9038,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "Ἀλέξανδρος é nome de homônimos neotestamentários, cuja identidade entre ocorrências não deve ser harmonizada sem prova.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8664,7 +9063,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8680,6 +9079,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄλευρον é farinha usada na parábola do fermento, a materialidade do substantivo permanece distinta da ação de moer.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8694,7 +9104,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8710,6 +9120,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλήθεια discrimina realidade, veracidade, revelação e verdade moral em contextos diversos; não reduzir a um único sentido abstrato.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8724,7 +9145,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8740,6 +9161,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀληθεύω em Gl 4.16 é falar/ensinar a verdade e em Ef 4.15 professá-la ou agir com veracidade, segundo leitura do autor.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8754,8 +9186,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "lote3_cotejo_dirigido_228_aparato"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -8770,6 +9204,19 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀληθής diferencia factualidade do verdadeiro e veracidade de pessoas, com variação em Jo 6.55; distinguir de ἀληθινός.",
+        "correcoes": [
+          "Restituir distinção entre veracidade pessoal e variante ἀληθής/ἀληθῶς em Jo 6.55."
+        ],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8784,7 +9231,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8800,6 +9247,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "25–27",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀληθινός é genuíno no sentido de realidade correspondente ao nome, e também veraz; Thayer contrasta com aparências e com ἀληθής.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8814,7 +9272,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8830,6 +9288,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλήθω é moer cereais, no par de mulheres do discurso escatológico, não apenas «moinho» como nome.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8844,7 +9313,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8860,6 +9329,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀληθῶς é advérbio de asseveração «de fato», «realmente» em identificações neotestamentárias.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8874,7 +9354,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8890,6 +9370,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁλιεύς é profissão de pescador; Thayer registra a variante ἁλεεύς e formas textuais históricas.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8904,7 +9395,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8920,6 +9411,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁλιεύω exprime pescar em Jo 21.3, ação exercida pelos discípulos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8934,7 +9436,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8950,6 +9452,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁλίζω é salgar/temperar e representa valor figurado em Mc 9.49–50; separar seus distintos contextos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8964,7 +9477,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -8980,6 +9493,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλίσγημα é poluição/contaminação proveniente de ídolos em At 15.20; não qualquer «sujeira» física.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -8994,7 +9518,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9010,6 +9534,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλά é conjunção adversativa com contraste, correção, exceção e transição; sua extensa sintaxe precisa de revisão própria.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9024,7 +9559,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9040,6 +9575,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλάσσω é alterar/mudar e trocar, incluindo transformação dos mortos em 1Co 15.51–52.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9054,7 +9600,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9070,6 +9616,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλαχόθεν contrapõe acesso por outra via ao acesso legítimo em Jo 10.1.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9084,7 +9641,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9100,6 +9657,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλαχοῦ é «em outro lugar», com testemunho sob variante textual de Mc 1.38; status de cabeçalho adicional reconhecido.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9114,7 +9682,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9130,6 +9698,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλληγορέω caracteriza a explicação figurada de Gl 4.24 sobre Sara e Agar; não impõe alegoria universal de toda narrativa.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9144,7 +9723,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9160,6 +9739,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλληλούϊα é transliteração de expressão hebraica de louvor, em Ap 19; não forma grega produtiva.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9174,7 +9764,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9190,6 +9780,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλήλων é pronome recíproco flexionado, sem nominativo regular, abrangendo genitivo/dativo/acusativo.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9204,7 +9805,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9220,6 +9821,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλογενής é estrangeiro de outra origem em Lc 17.18, não afirma a condição religiosa por definição.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9234,7 +9846,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9250,6 +9862,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅλλομαι é saltar fisicamente e jorrar no uso de água viva de Jo 4.14.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9264,7 +9887,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9280,6 +9903,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "27–29",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄλλος «outro» pode designar outro membro do mesmo grupo; não impor sempre oposição rígida com ἕτερος.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9294,7 +9928,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9310,6 +9944,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλοτριοεπίσκοπος é intrometido em interesses de terceiros, em 1Pe 4.15; possível interpretação histórica deve ser atribuída.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9324,7 +9969,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9340,6 +9985,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλότριος é o que pertence a outro, estranho ao grupo ou propriedade; os sentidos dependem de contexto jurídico/social.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9354,7 +10010,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9370,6 +10026,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλλόφυλος designa pessoa de outro povo em At 10.28; não é sinônimo técnico de não judeu em todos os textos gregos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9384,7 +10051,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9400,6 +10067,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄλλως significa de modo diferente/outro, em 1Tm 5.25, contrastado com o estado anterior.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9414,7 +10092,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9430,6 +10108,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλοάω designa trilhar/debulhar cereais; imagem do boi em 1Co 9.9 e 1Tm 5.18.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9444,7 +10133,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9460,6 +10149,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄλογος é irracional ou sem discurso; animais em 2Pe 2.12 e Jd 10, distinguindo comportamento de deficiência intelectual.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9474,7 +10174,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9490,6 +10190,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλόη é substância aromática empregada no sepultamento, relacionada a madeira de aloés; não identificar automaticamente com Aloe vera.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9504,7 +10215,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9520,6 +10231,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅλς é remissão a ἅλας; conservar a independência da forma e não criar uso NT imaginário.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9534,7 +10256,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9550,6 +10272,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁλυκός qualifica água salgada em Tg 3.12, contrastada com doce.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9564,7 +10297,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9580,6 +10313,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄλυπος em Fp 2.28 é sem pesar ou menos triste no contexto, não atributo de insensibilidade.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9594,7 +10338,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9610,6 +10354,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅλυσις denota cadeia ou grilhão e a condição de estar preso; usos em Atos e cartas paulinas.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9624,7 +10379,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9640,6 +10395,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλυσιτελής é improdutivo ou prejudicial em Hb 13.17, uso com possível litotes.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9654,7 +10420,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9670,6 +10436,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "Ἀλφαῖος é nome de dois pais mencionados, e identidade com Clopas é hipótese histórica, não fato lexical.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9684,7 +10461,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9700,6 +10477,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅλων é eira e por metonímia grãos que ali se encontram; Mt 3.12 e Lc 3.17.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9714,7 +10502,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9730,6 +10518,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀλώπηξ é raposa literal e qualificação figurada aplicada a Herodes em Lc 13.32.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9744,7 +10543,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9760,6 +10559,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅλωσις é ato de captura em 2Pe 2.12, distinto de ἅλων.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9774,7 +10584,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9790,6 +10600,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἅμα é simultaneamente e, com dativo, «junto com»; separar sentido temporal e acompanhamento.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9804,7 +10625,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9820,6 +10641,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμαθής é sem instrução, no contexto de interpretação errônea das Escrituras em 2Pe 3.16.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9834,7 +10666,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9850,6 +10682,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "29–30",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμαράντινος qualifica coroa que não murcha em 1Pe 5.4; atenção à imagem vegetal.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9864,7 +10707,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9880,6 +10723,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμάραντος é o adjetivo aplicado à herança incorruptível em 1Pe 1.4; distinguir de ἀμαράντινος.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9894,7 +10748,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9910,6 +10764,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁμαρτάνω é errar o alvo/pecar e transgredir; regências e objetos variam entre escritos bíblicos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9924,7 +10789,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9940,6 +10805,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁμάρτημα é ato concreto de transgressão, mas Thayer não o separa rigidamente de ἁμαρτία em todo contexto.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9954,7 +10830,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -9970,6 +10846,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁμαρτία tem usos de pecado como ato, princípio e poder, e personificação; o artigo original extenso exige colação integral posterior.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -9984,7 +10871,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10000,6 +10887,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμάρτυρος «não sem testemunho» em At 14.17: construção negativa não deve ser entendida como ausência real de prova.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10014,7 +10912,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10030,6 +10928,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἁμαρτωλός é pecador como substantivo e pecaminoso como adjetivo, com diferenças entre usos sociais e teológicos.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10044,7 +10953,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10060,6 +10969,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄμαχος nas Pastorais significa não contencioso; a acepção clássica «invencível» não é o sentido contextual neotestamentário.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10074,7 +10994,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10090,6 +11010,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμάω é ceifar/segar em Tg 5.4, sem incluir o ato de semear.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10104,7 +11035,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10120,6 +11051,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμέθυστος é gema ametista em Ap 21.20, qualificação cromática tradicional e mineralógica.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10134,7 +11076,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10150,6 +11092,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμελέω é negligenciar e desatender, com objeto dom, salvação ou oportunidade, conforme texto.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10164,7 +11117,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10180,6 +11133,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄμεμπτος descreve ausência de censura justificável, inclusive pessoas em Lc 1.6 e Fp 2.15.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10194,7 +11158,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10210,6 +11174,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "30–32",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμέμπτως é advérbio de conduta sem falta em 1Ts 2.10 e 5.23.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10224,7 +11199,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10240,6 +11215,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμέριμνος em 1Co 7.32 é sem ansiedade/solicitude, em contexto de cuidados terrenos e dedicação.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10254,7 +11240,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10270,6 +11256,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμετάθετος qualifica o propósito irrevogável de Deus em Hb 6.17–18, com substantivo neutro.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10284,7 +11281,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10300,6 +11297,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμετακίνητος corresponde à firmeza de perseverar em 1Co 15.58, não literal imobilidade física.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10314,7 +11322,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10330,6 +11338,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμεταμέλητος significa não objeto de arrependimento ou pesar em Rm 11.29 e 2Co 7.10.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10344,7 +11363,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10360,6 +11379,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμετανόητος é quem não se arrepende em Rm 2.5, caracterização moral da disposição do coração.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10374,7 +11404,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10390,6 +11420,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄμετρος é que ultrapassa medida, aplicado à esfera de gloriar-se em 2Co 10, não quantificação matemática.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10404,7 +11445,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10420,6 +11461,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμήν é confirmação semítica e asseveração no início de enunciado; «o Amém» título de Ap 3.14.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10434,7 +11486,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10450,6 +11502,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμήτωρ em Hb 7.3 significa literalmente «sem mãe», mas a interpretação genealógica é argumento de Thayer, não uma leitura biológica demonstrada.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10464,7 +11527,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10480,6 +11543,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμίαντος é sem mancha em contextos cultuais/morais, aplicado ao casamento, herança e Cristo.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10494,7 +11568,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10510,6 +11584,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "Ἀμιναδάβ é nome próprio hebraico da genealogia, com explicações etimológicas divergentes na fonte.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10524,7 +11609,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10540,6 +11625,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἄμμος é areia literal e imagem de quantidade incontável, com comparação de grãos da praia.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
@@ -10554,7 +11650,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -10570,6 +11666,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_lote3": {
+        "data": "2026-10-12",
+        "classe": "CONTROLE_DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "impresso_intervalo_visual": "32–34",
+        "pagina_exata_certificada": false,
+        "aspecto_dirigido": "ἀμνός é cordeiro sacrificial aplicado a Cristo em Jo 1.29,36; At 8.32 e 1Pe 1.19, distinto de ἀρνίον.",
+        "correcoes": [],
+        "colacao_integral": false,
+        "decisao": "BLOQUEADA"
       }
     },
     {
