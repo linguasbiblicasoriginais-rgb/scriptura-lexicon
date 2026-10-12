@@ -59,6 +59,20 @@ def main():
                 except Exception as exc:
                     error=exc
                     time.sleep(0.7)
+            if num not in indexed and num in (566,568):
+                # Outras transcricoes atribuidas explicitamente ao Thayer.
+                supplements={
+                    566:("ἀπέχει","verb; third-person singular impersonal form",
+                         "It is sufficient; it is enough. Mark 14:41. Third-person singular present indicative active of ἀπέχω (G568), used impersonally.",
+                         "https://www.studybible.info/strongs/G566"),
+                    568:("ἀπέχω","verb",
+                         "1. Have: a. to hold back, keep off, prevent; b. to have wholly or in full, to have received; c. it is enough, sufficient. 2. To be away, absent, distant. 3. To hold one's self off, abstain.",
+                         "https://www.studybible.info/strongs/G568")
+                }
+                lemma_,grammar_,text_,url_=supplements[num]
+                indexed[num]={"id":f"G{num}","strongs":[f"G{num}"],"lemma":lemma_,
+                    "grammar":grammar_,"text":text_,"paragraphs":[text_],
+                    "source":{"print_pages":[],"transcription_url":url_,"attribution":"Thayer; digital auxiliary"}}
             if num not in indexed:
                 not_fetched.append(f"G{num}: {error}")
             else:
@@ -103,7 +117,7 @@ def main():
     if delim in "".join(rows+cards):raise Exception("Delimitador inseguro presente na fonte.")
     i=R/"index.html";h=i.read_text(encoding="utf8");a='    <script src="lexicons/thayer-batch-007-suplemento.js"></script>'
     if h.count(a)!=1:raise Exception("Ancora de modulo THAYER indefinida")
-    checkpoint={**progress,"date":datetime.date.today().isoformat(),"total_existing_before_batch":512,"new_entries":200,"total_published":712,"first_new_lemma":entries[0]["lemma"],"last_new_lemma":entries[-1]["lemma"],"next_lemma":"G692 — lema pendente de confirmação na fonte","batch_size":200,"previous_checkpoint":512,"last_batch_source_ordinals":"G492-G691","source_ordinals_added":"G492-G691","last_batch_lemmas":[x["lemma"] for x in entries],"last_batch_translation_status":"AUTOMATICA_PROVISORIA_NAO_AUDITADA","source_transcription_sha256":hashlib.sha256(source_bytes).hexdigest(),"source_transcription_records":len(source)}
+    checkpoint={**progress,"date":datetime.date.today().isoformat(),"total_existing_before_batch":512,"new_entries":200,"total_published":712,"first_new_lemma":entries[0]["lemma"],"last_new_lemma":entries[-1]["lemma"],"next_lemma":"ἀργός (G692)","batch_size":200,"previous_checkpoint":512,"last_batch_source_ordinals":"G492-G691","source_ordinals_added":"G492-G691","last_batch_lemmas":[x["lemma"] for x in entries],"last_batch_translation_status":"AUTOMATICA_PROVISORIA_NAO_AUDITADA","source_transcription_sha256":hashlib.sha256(source_bytes).hexdigest(),"source_transcription_records":len(source)}
     checkpoint["batches"].append({"batch":8,"new_entries":200,"prior_total":512,"final_total":712,"first":entries[0]["lemma"],"last":entries[-1]["lemma"],"strongs":"G492-G691","module":"lexicons/thayer-batch-008-200.js","source_layer":"lexicons/thayer-source-batch-008-200.json","translation_status":"tradução automática provisória sem colação"})
     source_out=R/"lexicons/thayer-source-batch-008-200.json"
     rule=R/"regras/Rthayer.txt";readme=R/"README.md"
