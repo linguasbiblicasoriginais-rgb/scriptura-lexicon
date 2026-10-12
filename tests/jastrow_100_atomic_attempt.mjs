@@ -108,8 +108,17 @@ try{
      if(await tooltip.isVisible()){
        report.tooltip_focus_tested++;
        await tooltip.focus();
-       if(await page.locator('#lexical-tooltip.visible[aria-hidden="false"]').isVisible())report.tooltip_focus_success++;
-       else report.failures.push({id,problem:"tooltip_focus_did_not_open"});
+       // Tooltip CSS transitions visibility/opacity asynchronously; checking
+       // immediately produces false negatives. Wait for the rendered state.
+       let popupShown=false;
+       try {
+         await page.locator('#lexical-tooltip.visible[aria-hidden="false"]').waitFor({state:"visible",timeout:1500});
+         popupShown=true;
+       } catch (_timeout) {
+         popupShown=false;
+       }
+       if(popupShown)report.tooltip_focus_success++;
+       else report.failures.push({id,problem:"tooltip_focus_did_not_open_after_1500ms"});
      }
    }
    // Axe is expensive: representative sample at systematic 1-in-10 interval
