@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **DGP — auditoria filológica única 701–800 (12/10/2026):** 100/100 lemas e definições do XML cotejados com as tuplas publicadas; **96 A, 0 C, 4 P** (#741, #743, #790, #793). Duas expansões bibliográficas documentadas (#705/#793), nenhuma divergência injustificada, zero emendas lexicais; comparação filológica independente seletiva em LSJ e Ésquilo. [Relatório 100 pareceres](auditorias/dgp-filologia-2026-10-12-lote009-0701-0800.md) e [evidências integrais](auditorias/dgp-filologia-2026-10-12-lote009-evidencias.json). Checkpoint histórico 800/3.300, próximo #801 `ἀθλητικῶς`; 700 registros anteriores continuam com classificação de suas respectivas metodologias, sem recertificação retroativa. Integração independente.
+
+
 > **DGP — auditoria filológica única 601–700 (12/10/2026):** 100 entradas cotejadas integralmente com o XML canônico, 95 A, 0 C e 5 P (#635, #677, #688, #689 e #700); 100 lemas equivalentes, 98 definições equivalentes após normalização e 2 expansões autorais justificadas (#609/#631), sem alterações de código lexical ou testes novos de navegador. [Relatório individual](auditorias/dgp-filologia-2026-10-12-lote008-0601-0700.md) e [evidências integrais](auditorias/dgp-filologia-2026-10-12-lote008-evidencias.json). Checkpoint histórico: 700/3.300 examinados, dos quais os 600 anteriores seguem com metodologia documental histórica sem recertificação. Próximo #701 `ἀέσκω`. A integração segue independente.
 
 
