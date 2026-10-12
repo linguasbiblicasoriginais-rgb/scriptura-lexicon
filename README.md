@@ -1,3 +1,21 @@
+## PR #117 — conciliação do JASTROW 601–1.000 (12/10/2026)
+
+Resolução de conflito entre `chat-gpt-jastrow` e `chat-gpt-commits`: preservados todos os documentos, testes, módulos e relatórios previamente consolidados no destino. Acrescentados **400 cartões JASTROW** (ordinais 601–1.000, IDs `A00600–A00999`), dois lotes originais XML e oito módulos editoriais. O carregamento foi feito sem substituir scripts de BDAG, DGP, THAYER ou demais fontes. A documentação da origem foi preservada abaixo.
+
+**Limites verificáveis da preparação:** os 400 IDs e lemas foram comparados com os 400 registros-fonte XML, sem divergências; a publicação não constitui revisão semântica integral, auditoria atômica ou teste de navegador. O checkpoint mantém `total_audited=0` e conserva a triagem documentada dos primeiros 600. `total_integrated` registra apenas as 600 entradas comprovadamente integradas antes da conclusão do PR #117. A confirmação de merge e os testes funcionais devem ser verificados independentemente. Relatório: [conciliação do PR #117](auditorias/integracao-pr-117-2026-10-12.md).
+
+## JASTROW — incorporação 801–1.000 (12/10/2026)
+
+Na branch exclusiva `chat-gpt-jastrow`, esta rodada acrescentou **200 verbetes**, da fonte XML original `A00800–A00999`, em quatro módulos de 50 verbetes ([801–850](lexicons/jastrow-801-850.js), [851–900](lexicons/jastrow-851-900.js), [901–950](lexicons/jastrow-901-950.js), [951–1000](lexicons/jastrow-951-1000.js)). Total acumulado: **1.000 / 32.512**, cerca de 3,08%. O XML de origem completo está no [lote-fonte 0005](lexicons/jastrow-source-lote-0005.json), derivado do commit Sefaria-Data `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Próxima entrada: ordinal 1.001, ID `A01000`, lema `אַחְוָא,`.
+
+Os cartões publicados oferecem sínteses próprias em português dos sentidos, variantes e remissões; o texto original, integralmente preservado à parte, continua sendo a referência para exemplos e comentários mais extensos. **Escopo desta rodada exclusivamente de incorporação: não foram feitos auditoria, homologação, PR, merge ou integração.**
+
+## JASTROW — incorporação 601–800 (12/10/2026)
+
+Foram incorporados **200 novos verbetes JASTROW** (ordinais 601–800, IDs originais `A00600–A00799`), em quatro módulos de 50 entradas, na branch `chat-gpt-jastrow`. Total acumulado: **800 / 32.512**. Fonte original íntegra: [lote 0004](lexicons/jastrow-source-lote-0004.json), do XML Sefaria-Data no commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Próximo: ordinal **801**, ID `A00800`, lema `(הֹופְיָא) אֹופְיָא`.
+
+Os cartões apresentam **sínteses portuguesas** dos sentidos e remissões, sem pretensão de substituir integralmente exemplos, comentários e variantes presentes no original XML. Este ciclo limitou-se à incorporação, ao carregamento na interface e à atualização do checkpoint. **Nenhuma auditoria, homologação ou integração foi executada nesta rodada.**
+
 ## PR #115 — integração de correções e auditorias (12/10/2026)
 
 Foram reconciliados os módulos corrigidos de JASTROW e os reparos de apresentação DGP, com incorporação de relatórios, testes e workflows da origem `chat-gpt-correcoes`. Preservados os 81 lotes DGP (3.300 registros), os 512 THAYER e demais frentes já consolidadas. Os registros abaixo são históricos, não prova de homologação atômica. [Relatório do PR #115](auditorias/integracao-pr-115-2026-10-12.md).
