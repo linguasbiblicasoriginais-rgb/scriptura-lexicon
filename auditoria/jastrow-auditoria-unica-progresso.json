@@ -5,14 +5,14 @@
   "branch": "chat-gpt-correcoes",
   "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
   "historical_total": 600,
-  "selected": 300,
+  "selected": 400,
   "selection": "11 V + earliest 89 O from old checkpoint",
   "counts": {
-    "A": 179,
-    "C": 121,
+    "A": 252,
+    "C": 148,
     "P": 0
   },
-  "edits_applied": 123,
+  "edits_applied": 150,
   "other_historical_flags_not_included": [
     "A00568",
     "A00569",
@@ -2790,6 +2790,1006 @@
       "source_entry_sha256": "e77ffc9ace91323d1311cf6e423f5c0292b3c9b64a7aff383254e118031b2ea5",
       "lexical_file": "lexicons/jastrow-236-260.js",
       "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00242",
+      "ordinal": 243,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "77083bcbd8f8923c6c23098a11b3f8675a0e8ba43fc28498006970ac7d5263f9",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00244",
+      "ordinal": 245,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato das amarrações: o primeiro sentido («nó, ligadura») registra צריך א׳ , «necessita de amarração», e הותר אִגְדּוֹ , «desfez-se a atadura do lulav» (Sucá 10b). Em Eruvin 101b, בניטל באִגְדּוֹ é o pino da porta movido ao puxar a corda; a transcrição informa duas ocorrências da abreviação אִיג׳ e atribui a Rabbinovicz a leitura באוּגְדּוֹ . O segundo sentido, א׳ שנטמא , é «feixe de ervas que se tornou impuro» (Jerusalém Terumot 2, 41b). A atadura cirúrgica de Shabbat 53a é a terceira acepção, não extensão de «nó de porta».",
+      "source_entry_sha256": "e6cdad570293080a71026c51e3bd20b53e0ae3853d389ad325bbc1afa32060ab",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00245",
+      "ordinal": 246,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Gênero documentado: embora Jastrow classifique a forma אֵגֶד, אֵיגֶד como aramaica correspondente ao substantivo masculino hebraico, Sucá 33b traz אי׳ מעלייתא , «amarração firme», com concordância feminina explicitamente assinalada pelo autor como fem.! . Não nivelar o uso efetivo ao gênero do cabeçalho.",
+      "source_entry_sha256": "f299ab8d1dbb5c3728d61a1bad95fde13e8769e816d66902968d676fdfb295da",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00246",
+      "ordinal": 247,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "05e04ff501a91e18d9995972142c052fa9c7c59655eed12f534d96870f05ae85",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00248",
+      "ordinal": 249,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "b1c6eb0d33448e3e8d1b5ec6c2d9a194f56d20787cf66e3b19c4f45c1e7ff575",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00249",
+      "ordinal": 250,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "ea1ae486ff2331e47b60095fe7cc8fc4b87bbd14da3ae78fb6186f6046d1659d",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00250",
+      "ordinal": 251,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "1d965d69feba6d3823e4e37b6a9d0c8059c86a56faf47487b63dc3ea76b0bfdb",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00251",
+      "ordinal": 252,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Variantes e função pública: Jastrow compara o latim ecdicus , definido por ele como cognitor sive defensor civitatis , e destaca seu uso na Ásia Menor. Na explicação de Gênesis Rabá §12, א׳ ממונה על ביא שלה é o agente responsável pela via pública ( curator viae ); a edição tem אנד׳ e בית שלו , que o lexicógrafo julga passíveis de correção. Yalkut Salmos §794 e Arukh apresentam ainda אגר׳ ; plural אֶגְדִּיקִין versus abreviação אנ׳ em Cântico Rabá 7.9. A identificação precisa das competências segue a interpretação do autor, não comprovante jurídico independente.",
+      "source_entry_sha256": "231ad824f1ca274d2619264e85cc106ac0097270822aef2fdec999fe14660bdb",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00252",
+      "ordinal": 253,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato das plantas: Avodah Zarah 29a, edição e Arukh , apresenta a planta medicinal na receita contra asma; manuscrito M. registra אוגרנא , com resh . Rashi interpreta-a como horehound (marrúbio), enquanto Jastrow oferece wormwood (losna); são identificações concorrentes. Targum Pseudo-Jônatas Deuteronômio 29.17: אגד׳ , variante אגר׳ ; a edição de Viena apresenta o plural אַגְדָּנַיָּא , com variante אגר׳ . Comparar גַּד I e גִּירָּא é análise proposta pela fonte.",
+      "source_entry_sha256": "e9214a35532539596bdf8b08cf61f9c949a61bafd8a5ddbd959b01a367c4531a",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00253",
+      "ordinal": 254,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Separação de acepções e liturgia: no sentido 1, אֲגַדְתָּא é literatura homilética, contraposta a שמעתתא , debate jurídico (Bava Kamma 60b). Sotá 49a cita יהא שמיה רבא דא׳ , abreviado יה״ש״ר , fórmula do Kadish após preleções, e Jerusalém Shabbat 16, 15c. No sentido 2, a Hagadá pascal e o Hallel aparecem como א׳ והלילא (Pesahim 115b); em 116b, מאן דאמר א׳ pergunta quem recitou a Hagadá na casa de Rabi José, identificado por Jastrow como cego. A liturgia pascal não é sinônimo irrestrito da literatura homilética.",
+      "source_entry_sha256": "6cbe1e22d361a8d73f9960521417a802e2ffb74045d0d4b7fa9b04e7a130cb03",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00254",
+      "ordinal": 255,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "585e4b6d655282da701fdb7d3b62e589c5d377198a3310c075af38ed6a3c5ab7",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00255",
+      "ordinal": 256,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "eb6cf1d8cb318961ae108804f69128e6edf70fdd921d785c9be0dc20e0f68d4b",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00256",
+      "ordinal": 257,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Expressão figurada e crítica da leitura: א׳ דמיא é «queda de água, cascata» que sai de uma fissura, não qualquer corpo de água. Lamentações Rabá a 1.17 conserva no Arukh כהדין א׳ , «como a catarata que não repousa»; a edição traz געגעא , variante transmitida, não forma comprovada do lema. A fonte relaciona o jogo exegético de ḥogeg a Salmos 42.5; comparar אגג , אֵגֶה e חוֹגֵג apenas como relações sugeridas.",
+      "source_entry_sha256": "ffa8cc90137f2e878b74b43c8bc0b2be81cbcdf7a51e3b5f3ff7d219032012cb",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00257",
+      "ordinal": 258,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Plural, construto e explicações divergentes: o plural אֱגוֹדִים e seu construto אֱגוֹדֵי estão expressos na fonte. Peá 6.10 interpreta א׳ השום como hastes que servem para atar o alho; outra opinião lê «feixes/cabeças de alho num mesmo talo», em oposição às אגודות atadas. Tosefta Peá 3.8, edição Zuckermandel, traz אוגוּרֵי , «montes de alho» (remeter a אֵגוֹר ); Números Rabá §4 menciona חטים אגודיהם , remetido a אֵגוֹרִי . As leituras alternativas não são variantes equivalentes de um único instrumento de amarrar.",
+      "source_entry_sha256": "fd84af7b810da946ee183c06506a71b119da85dcbe68dc47a2cb3d54ef5544c6",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00258",
+      "ordinal": 259,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Documentação dos três sentidos: feixe material (Bava Metzia 1.8, Sucá 33b, Makhshirin 6.2: א׳ של בית , molhos de ervas guardados em casas do mercado); aliança ou facção (Levítico Rabá §30, Gênesis Rabá §88, א׳ אחת , «uma irmandade»; Yevamot 13b interpreta תתגדדו de Deuteronômio 14.1 como proibição de facções; Berakhot 4a: companhias recreativas); e topônimo familiar בֵּית א׳ , Beth-Aguddah, escribas em Massekhet Soferim 4.1. O plural אֲגוּדּוֹת é atestado em Peá 6.10 e Tosefta Makhshirin 3.8. O terceiro sentido é **nome próprio de família**, não acepção coletiva comum.",
+      "source_entry_sha256": "e53c4d302c0af0377b8f6fc56c7401d675e988b9389a232fef06f1530a823adc",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00259",
+      "ordinal": 260,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "5c565287139eda08aeaa9f8c4d379a373b9001e5831380c5ef2981e18b73289a",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00260",
+      "ordinal": 261,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "b072024dcf971acf669e1d61df28e60cb1acd122cbd7d67337fdc325289b9932",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00261",
+      "ordinal": 262,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "378b69196838a21a39b7f2d97fbde82a61d6b473f2be5b22afe8759807d08e65",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00262",
+      "ordinal": 263,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "981ae56531213f6ef96d08bf0830376f03d909f54154358881a4648b6db5b0e8",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00263",
+      "ordinal": 264,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "d4bdd00ef5f58e4d0c44b3142977d3fb431966be9f165c83fd751d1d32b96a70",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00264",
+      "ordinal": 265,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "d293fd32af9c5f0dc71e3e833d350f5d0b81d4a2f3ce0873c1c3a509fcb36396",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00265",
+      "ordinal": 266,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "a312f93357aab419d0c6d556cc230e05656e26ab99c96aa19206f1378cbaa54a",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00266",
+      "ordinal": 267,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "b46d7de009c6de6559dcec2dcd65276a0f9fc411bb7995aa9665a1ea13a3f459",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00267",
+      "ordinal": 268,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "ccc6acb0989fcfc91d565f4c672f1a4437d64077505b511738da5b562c14bd9b",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00268",
+      "ordinal": 269,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Limite da emenda em Tanhuma: Jastrow só reproduz, para Vaera §8, a leitura abreviada א׳ e sua sugestão טוס … , com reticências na extração XML. **Não** completar essa emenda conjecturalmente. A forma אגוסטה é variante do título feminino אָגוּסְטָא , «Augusta», de mulher pertencente à família imperial romana, e está documentada por Ester Rabá 1.9.",
+      "source_entry_sha256": "cc4ed309b41ccf5d6e7a0cd7c1f7512142cffa08a6a2cf4a1e06d7596a3537b2",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00270",
+      "ordinal": 271,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "12cc60ca99c7d75aef914e7323c0ef3cf7d64ae328670f698f51c887f5a36c79",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00272",
+      "ordinal": 273,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Citação e leitura problemática: Ester Rabá 1.3, parte final, apresenta דקומייני א׳ , «Decumani (ou Decimani) e Augustiani». Jastrow descreve os segundos como corpo pretoriano habilitado a proclamar o imperador, não como equivalência militar comprovada pelo presente cotejo. Gênesis Rabá §94 traz גאו׳ , para a qual o lexicógrafo pede correção conforme o contexto. A fonte remete ainda a Sachs, Beiträge I, pp. 113 e seguintes; essa bibliografia é indicação original, não consulta independente.",
+      "source_entry_sha256": "7297ae5e41116591f548f06caf8f6cbf57235eea1f6fedb0895d7bf89519fbc0",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00273",
+      "ordinal": 274,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "c74c0f9b6917d2031c19942508fb630b8f637602ecb079cba5256d0f79d6e415",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00274",
+      "ordinal": 275,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "0911e70957100a021376567fb59759b1bf1ce79a4c580a6ffe9cf2c00cc649d6",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00275",
+      "ordinal": 276,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "26045d99f8f104b72a631e131d66638cfc4daef05ab8d0a45d880cfae51e77d1",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00276",
+      "ordinal": 277,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "f43628dead7e781ca0baa9e13e2b5f11c6347ee80063556f5eff8db783d429bd",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00277",
+      "ordinal": 278,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato da agricultura: Tosefta Sheviit 3.3, edição Zuckermandel, traz ואי׳ יוצא , «e emerge um monte (de solo arável)» da rocha, com variante ואיגד . Em Tosefta Peá 3.8, a edição Zuckermandel registra אוגורי השום , montículos de alho ainda solto; variantes אגידי, אגודות , edição אגודי (cf. אֱגוֹד ). Flexão אֵגֹורִים , variante abreviada אֵיג׳ , construto אֵיגֹורֵי . Não transformar «monte» em «feixe atado» sem a ressalva transmitida.",
+      "source_entry_sha256": "73a6a0647fff9e6042eba0bf26dcd47fe5caf267d4416e296cec585db2d3f1d0",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00279",
+      "ordinal": 280,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Plural e diferença entre testemunhos: o segundo homógrafo אֲגֹורָא , do grego ἀγορά , passa de «praça/mercado» a «sessão judicial, tribunal». Gitin 88b traz plural אֲגֹורָאֹות para tribunais não judeus, enquanto a edição imprime אגוריאות , forma que Jastrow julga sujeita a correção. Não confundir com o homógrafo de «depósito/compartimento» (A00280).",
+      "source_entry_sha256": "57f0a9c929f074e22f58cdd5f68aa6fb060659e0848fd8cef817eec75b5402a6",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00280",
+      "ordinal": 281,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "05ec2abfad0f3e57352153bb42eed3144a6e69af5a486d4aa02b58722bf66c49",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00281",
+      "ordinal": 282,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "1a3fc4dd803d2ceae651591196d44423322ebe1b72cf700928142744f63c7c89",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00283",
+      "ordinal": 284,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "89aaeda68365bd450f64340da8748600b95be9886121f899a9b25e3fd67e7c94",
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00285",
+      "ordinal": 286,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "44828f2bed0b0a28e49717afa39f954077c8e8191869716c11a45ab927f92649",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00286",
+      "ordinal": 287,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "957ca4542398e4de6a228ab4ef90f7c20552cad62e8bd6a3577b454171308756",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00287",
+      "ordinal": 288,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "0c39d52ec262af6e9585f205b375194d43c1eb1a6b3098017c3740eb77b846e8",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00288",
+      "ordinal": 289,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "aefbef2698e2fb4fd152fc2aefe655e2ee54babab6764c149c1b7d6ca0f10f27",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00289",
+      "ordinal": 290,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "b06e58cdfe5c1a3b91afe373733b8badcaf14cf536c442bdb058c5c92e4352fa",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00290",
+      "ordinal": 291,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "229f8de4428efebf4bf16f06049ff37e78f9349e6c86c2c1810a76ebbd6f5a16",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00291",
+      "ordinal": 292,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "6f913aeacd94796f3fa79e7da361fec962166e0584df4d234f7a5c4020f95179",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00292",
+      "ordinal": 293,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "e5dfefb1af2b10a82ce18fa219fd5490c83c8f88d39adde24092b3bf556a9f1a",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00293",
+      "ordinal": 294,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "450ffe63aaf68693d47c6249619081810b47d483028c3fbdf39241730854fc00",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00294",
+      "ordinal": 295,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Emenda de Gênesis Rabá §56: a edição transmite אגינו e algumas edições אנונו . Jastrow julga o contexto corrompido e propõe como reconstrução incerta ששמר את גנו משבולת הנהר והקיף את גן בנו עמו , «aquele que protegeu seu jardim da corrente do rio e cercou também o jardim do filho». A forma reconstruída pertence à análise crítica de Jastrow, não ao testemunho original.",
+      "source_entry_sha256": "831961f6cecbe2640e09d3d636de360756a12845f676ef5eaa5ac709592bf2d4",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00295",
+      "ordinal": 296,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "c5b10cd8c8ed76650b2fb487b821dcfdbd50ffce4fa2336fb4eeacca4192b34c",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00296",
+      "ordinal": 297,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "e160b9d342022e063a36a4570a025eeb144a51c6d8f75d0cc2dc01545a2cae6f",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00297",
+      "ordinal": 298,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "da5eae6e900679a1d62493297a8fec5c4838ff0cd972cfe0419c839b6b825458",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00298",
+      "ordinal": 299,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "ead77950c38b01aadc29643ea4d642d0e44674fcd1c51986f81416576580759e",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00299",
+      "ordinal": 300,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "2ceaee3a27783695dab20aa6fcef3f853cad9bc2c80c9b5e8df33c968fdef2bc",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00300",
+      "ordinal": 301,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "ca00c594d52c421b9863d9f001cab22b639f861885192e53d0ba9e76bc370587",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00301",
+      "ordinal": 302,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Comparação manuscrita: plural אִגְלֵי, אִיגְלֵי . Em Bava Batra 8a o Arukh cita הכל לאי׳ גפא , «todos contribuem para os portões da cidade», contra a abreviação impressa לאג׳ . Bava Metzia 108a, manuscrito M., tem גַלֵּי . Jastrow associa o vocábulo a גַּל e גלל ; não o equiparar a homógrafos de «colina» ou «prado».",
+      "source_entry_sha256": "c24cf655956196279789765826d1bcafebf9e2a8b675f3bd274a9d44327f03fa",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00302",
+      "ordinal": 303,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "a6060c68a8fcebf2b4b62b13d15ae8a62c7a78e3c5deb86efc3a551f4955c387",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00304",
+      "ordinal": 305,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "09d7eeaa2bb3e1f3fee1e73929ea24a557d103ed7528ebd185049ac9cf3e6f63",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00305",
+      "ordinal": 306,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "0a83b3c472c6f4f871929330eafa2221c1c756f63cb8519d0e79a685e8a8a970",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00306",
+      "ordinal": 307,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "0b480f361eff9be1c01dac00fe753962daf8bd855d96cabe6a2f5714089370b9",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00307",
+      "ordinal": 308,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "459d56740a7e6649cbb8a07efa4741263e53aa58408d81fba6713a627c6a9e6b",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00308",
+      "ordinal": 309,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato de Kidushin 62b: o termo אֲגַם I/II não deve ser fundido. Na acepção botânica do homógrafo II, a discussão מאי משמע דהאי א׳ לישנא דבוצלנא הוא pergunta por que o termo significa plantas semelhantes a cebolas; Arukh tem דבוצלא . A explicação menciona אַגְמֹון de Isaías 58.5. Na segunda acepção, juncetum é terra com juncos, habitat de animais silvestres, oposta a שָׂדֶה , campo cultivado (Ta‘anit 22a). «Alho-poró» e «terreno pantanoso» não são sinônimos.",
+      "source_entry_sha256": "a435f509507fcee61c20c26af9a23b258f8b876f0a7954e9ddccbceba5ed67f7",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00309",
+      "ordinal": 310,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "94e6a70416766d5a1c453d52adcb559b29da525fd4ab41e67e21ca5bb8dd015e",
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00310",
+      "ordinal": 311,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "6d1afcf218ab2a175bf67f70a7b5d806a92d05951b9a8a4dab818a3247496850",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00311",
+      "ordinal": 312,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Distribuição semântica e flexão: «depressão, lago de água parada, pantanal» e «prado» são extensões relacionadas, mas a fonte cita usos distintos: Bava Metzia 36b הבלא דא׳ , «vapores do prado», e קטל קני בא׳ , literalmente «cortou juncos no pântano», expressão proverbial para pessoa iletrada (Shabbat 95a; Sanhedrin 33a). Plurais אֲגָמִין, אַגְמַיָּא (Targum Isaías 35.7) e forma plural אַגְמֵי em Shabbat 77b, דייר בא׳ , «pasta nos prados». Jastrow remete à família גום e ao homógrafo אֲגַם .",
+      "source_entry_sha256": "b01111251ecc4517b0103c4e414d68fe4513d42d44f00f3b9f5164f0d12d81c0",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00312",
+      "ordinal": 313,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato do topônimo: אַגְמָא II é um nome geográfico da Babilônia, não o substantivo «prado» de I. אַקְרָא דאַגְמָא consta de Bava Batra 127a e Kidushin 72a. Sanhedrin 38b transmite o mesmo nome, enquanto o Arukh apresenta אגמא דוקירי ; Rabbinovicz registra outras variantes que o XML não enumera. Não preencher lacunas dessas variantes sem consultar o aparato em pessoa.",
+      "source_entry_sha256": "920556d4dcac7ee66e600e216ca09f2bc1de0b3ca789928af71b5547800b7f28",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00313",
+      "ordinal": 314,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Formas e atribuição editorial: אַגְמָה, עַגְמָה significam «pesar, aflição», sobretudo a construção אַגְמַת נפש , «aflição da alma» (Moed Katan 14b). Jastrow atribui ao manuscrito M. e ao Arukh a abreviatura א׳ , em contraste com a leitura da edição abreviada por ע . A raiz é relacionada pelo autor a אֲגַם I, não ao substantivo toponímico אַגְמָא II.",
+      "source_entry_sha256": "0c40485afce0152f27b86e7ebff0a8016e5a5ca7d72218a3846c8ee84bd28c79",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00314",
+      "ordinal": 315,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "6f7173e20caf7a01ee6c8438688b1ae46bc3013058ae8e3b6395750d1081fcc5",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00315",
+      "ordinal": 316,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Diferença entre edição e manuscrito: para Targum Isaías 58.5, אַגְמֹון, אַגְמֹונָא são variantes aramaicas correspondentes ao hebraico «junco, cana». Em Targum Jó 40.26, o manuscrito registra a palavra deste verbete, enquanto a edição imprime אוּנְקְלָא (outra leitura). A variante não deve ser transferida para todas as ocorrências do Targum.",
+      "source_entry_sha256": "2fcbeccef783795fdf190c13172a9bdff51e9a0a56173d6ce839bc574fccc1ea",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00316",
+      "ordinal": 317,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "a45e67f8bcbe5d588a9d46c166c6bf3e9dc9f5dd48fcdb9dabfa91a3097ecc61",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00317",
+      "ordinal": 318,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "b635b02b79ae7205f4954a6ec3d166726f273baa2dcbc774a9464ed03021f72e",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00320",
+      "ordinal": 321,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "a96d4eb02bc86400e06968d384d77957fb56076ba17b80396e55766ce24f6007",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00321",
+      "ordinal": 322,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "8a62fd6d25a228f37a677097c90caa1a5f7d90db942f71442caed3ac36a8b3aa",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00322",
+      "ordinal": 323,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Correção de atribuição bibliográfica: Gênesis Rabá §20 apresenta אַגְנִינָה na referência abreviada Mus. de Jastrow, isto é, no Musaf lexicográfico; a edição citada registra אגנייה . **Não chamar «Mus.» de manuscrito**: o código de testemunho designa uma obra lexicográfica, não um códice. A expressão latina agnina (pellis) identifica «pele de cordeiro» e constitui a explicação etimológica do autor.",
+      "source_entry_sha256": "e8fa8554767110c3172645040d3df2766089e0b06637bd857b2ecf9ce5973ef4",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00323",
+      "ordinal": 324,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "e248221655148389bb851f87ade2cd3749e6ae163b98409a258c0de06c560118",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00324",
+      "ordinal": 325,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Homografia semântica: a primeira acepção de אֲגַנְתָּא equivale a אַגָּנָא , «bacia/recipiente», no Targum Segundo de Ester 1.2. A segunda decorre da raiz גנן , «proteção, guarda», em Números Rabá §12 e Midraxe dos Salmos sobre 91.2; אֲגַנְתִּי é interpretado «minha guarda». Não inferir que as duas acepções tenham a mesma etimologia.",
+      "source_entry_sha256": "852039afbc905f0187025ea1ab18dec7c427ff91314b2cffae63207352fe7670",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00326",
+      "ordinal": 327,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "7b1fc3a04bf349e2e336dcc836cb7880b65df69290ad51fdfc6d1e7318fb1401",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00327",
+      "ordinal": 328,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "f9ba8d59aee59620f5e24e84da4b05a6e61c44e069708577e24c28ff50544bdb",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00329",
+      "ordinal": 330,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "8d351978847c2d112c0edd625fa07157c110ac2e80f466a6e7efc4aa0dfd582d",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00330",
+      "ordinal": 331,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "3fceebfea5973156e3bfb9b53bb8c5fd9f2d7d298579b3fc545de0583e9ab87e",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00331",
+      "ordinal": 332,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "95bbe81ae7304b9b92ff50360778cb1361bc9aa03c838c12890729868331e48d",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00332",
+      "ordinal": 333,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Precisão dos quatro sentidos: 1. «asa/pinhão», plural אֲגַפִּים , dual אֲגַפַּיִים (Negaim 14.1; Gênesis Rabá §39); 2. aves domésticas, «poultry» (Sucá 42a); 3. braços/ombros humanos, por exemplo Jerusalém Sanhedrin 7, 24b מבין הא׳ , «pela região das axilas», e Shabbat 129a, companheiras que carregam alguém pelos braços; 4. ribanceiras de rio, como Bava Kamma 61a שלל לאֲגַפֶּיהָ , «aluvião depositado nas margens», e Bava Batra 99b שכלו א׳ , «cujas margens foram arrastadas». O vocábulo é de gênero comum segundo Jastrow, não exclusivamente masculino.",
+      "source_entry_sha256": "c08baa60ac21edf0f9a2592c1429b49078324127bb7f51174ecd058121725322",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00334",
+      "ordinal": 335,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "ff4b7d9b74a979b6a2fdb0188f4148630061988a25244e0105e951c385b49973",
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00337",
+      "ordinal": 338,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Classe verbal e sentidos diferenciados: no homógrafo II, אָגַר 1. «cingir, equipar», Midraxe Provérbios a 30.1 שא׳ חלציו ; particípio passivo אָגוּר , comparado ao homógrafo I. 2. «deter, interceptar», de que Jastrow deriva o feminino do particípio אוֹגֶרֶת subentendendo סַכִּין , faca dentada que prende a unha do examinador (Hulin 17b). 3. com asterisco na fonte , «ocupar espaço», Bava Batra 14a, alternância com אָכַל . A ideia de «ocupar espaço» não é uso corrente estabelecido pela documentação citada; preservar seu estatuto marcado.",
+      "source_entry_sha256": "9fde7e4cfd959ccfa4db49a5834083b05ee906f8481a02a7ef9d7c36ca5459fe",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00338",
+      "ordinal": 339,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Flexão e material proverbial: אֲגַר II, aramaico, exprime «contratar, empregar, alugar» (Targum Gênesis 30.16). Eclesiastes Rabá a 4.6 e Levítico Rabá §3 transmitem o provérbio: quem arrenda um jardim comerá aves; quem arrenda jardins será comido pelas aves — exploração satírica de risco econômico, não lei comercial. Af‘el אוֹגַר tem (1) «contratar trabalhadores» (Targum Pseudo-Jônatas Dt 23.5; Bava Metzia 77a, em alternância com peal ) e (2) «alugar/ceder em arrendamento a terceiro» (Eruvin 63b; Jerusalém Demai 6, 25b; Ta‘anit 1, 64b). Itpael/itpeel אִיתַּגַּר, אִתְּגַר , «ser contratado», em Yoma 20b, com provérbio אי תגרת — Jastrow recomenda **unir numa só palavra** a forma da citação. O material traduz os testemunhos como descritos por Jastrow; não é colação independente.",
+      "source_entry_sha256": "186bc901f4fcc83582ad76b5f20a0006b06d9e8d527642b6030dcbece2b1fa57",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00340",
+      "ordinal": 341,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "6ce2b577813df75bb5d608415876ef238de22e93831e54e0c9101fb011b24598",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00341",
+      "ordinal": 342,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "853db7f87c6678ea58182d85b7f98e6fc914578e02608f2f4db9541604d13247",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00342",
+      "ordinal": 343,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "75c7ed3992c05e89b82e38818fba88f92fc5dfc09a6b6823fefc783ce5bf4079",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00345",
+      "ordinal": 346,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "247a892381218eea87f4d05963383ccf1e321f914e3b9e09c956f2175c7a0426",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00346",
+      "ordinal": 347,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Procedência e grau da interpretação: Jastrow considera אַגְרוֹמֵי corrupção de אגרונומי e o traduz por «arrecadadores de taxas aduaneiras», comparando o agoranomos (S. M. Smith, Antiquities , sob o vocábulo). Gênesis Rabá §75 é citado na edição, mas o Arukh transmite איגרמי . A relação com fiscais de mercado, no verbete seguinte, é aproximação, não identidade de funções comprovada.",
+      "source_entry_sha256": "29e917a36e5eabdd49ab2f7e1348d869328af90e8f152c95182c1192c08b494a",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00347",
+      "ordinal": 348,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "c98cc8f08ba65447819d7dee6d59916d18fb5b20d8ca4a75b1560c896302f612",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00348",
+      "ordinal": 349,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "a52cfeffc7c1db1eee804bd2d11a08a29739eea7b896212cdeb98f01348e6fad",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00352",
+      "ordinal": 353,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "9ec3a8a52feca70892db7548ba8b60b374acb3b63e3dc8c7d6a642a520cba3b5",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00354",
+      "ordinal": 355,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "2389e50f65ea752cbc4fd482925186c45b462d1217479ad9313ed757aa4cef80",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00355",
+      "ordinal": 356,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "f8df6b20a257e5cbf104576433af3bd15e6b94ba274e7607e8aaac05cd08aa00",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00356",
+      "ordinal": 357,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Correção do XML transcrito: na primeira acepção, a sequência inglesa «1) the last but one Herodian king of Judaea» e sua referência Sotá 7.8 estão duplicadas literalmente na extração eletrônica; o cartão não deve introduzir por isso duas figuras homônimas adicionais. Jastrow divide o verbete em (1) Agripa, penúltimo rei herodiano da Judeia (Sotá 7.8; Levítico Rabá §3), e (2) comandante militar de Agripa (Avodah Zarah 55a); o manuscrito M. registra אגריפא שר צבא של א׳ , com remissões a Rashi e Rabbinovicz. Distinguir pessoa histórica, posto militar e repetição de digitalização.",
+      "source_entry_sha256": "b7d243504ad922d10ac6ee23dd39fc3b512ca1c614d353522d5a431aca1da20f",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00357",
+      "ordinal": 358,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "db6896b69952ae102b23be49003ce7b8126cd5316c50d8c7206272db57824fc5",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00358",
+      "ordinal": 359,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "b3359a90d6766a6ad702edf48ecab99f14fbfd8992a82d104e0af89f2163bacc",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00359",
+      "ordinal": 360,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "fd143ef07b18f2482e3176392d2d1f23ec5b8d3d98ee5cc4f62eb7abc5ca9313",
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00360",
+      "ordinal": 361,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "bf031b48ed7d33f365d340d64b985898c2919f9d9c679c3c207641f825808a6f",
+      "lexical_file": "lexicons/jastrow-361-385.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00361",
+      "ordinal": 362,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "256caa7887494feed8860ae8b39341f27a91a5075a75bf35b3bad88a0081808a",
+      "lexical_file": "lexicons/jastrow-361-385.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00362",
+      "ordinal": 363,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Texto grego e edição concorrente: a expressão hebraico-grega פרא בסיליאוס נומס א׳ em Jerusalém Rosh Hashaná 1, 57a é explicada por Jastrow mediante παρὰ βασιλέως ὁ νόμος ἄγραφος , «para o rei a lei é não escrita», isto é, ele pode ignorar sua própria lei. A edição possui או נומוס או גריפיס , leitura gráfica alternativa, **não tradução literal correta do grego**. Levítico Rabá §35 conserva paralelo no Arukh , mas falta na edição consultada por Jastrow. O valor do adjetivo é «não escrito»; a ideia de poder monárquico é interpretação do exemplo.",
+      "source_entry_sha256": "158428a0b02e9b2480642dc83c1db7ae4c5b99990d6d420013b4fc7249beaab7",
+      "lexical_file": "lexicons/jastrow-361-385.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
+    },
+    {
+      "id": "A00363",
+      "ordinal": 364,
+      "result": "A",
+      "patched": false,
+      "decision_note": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "source_entry_sha256": "d021360642aa141f95b7679b5dec1c693d044cf089584a6892ba7c5455d87397",
+      "lexical_file": "lexicons/jastrow-361-385.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-004-100"
     }
   ],
   "last_complement": {
@@ -2917,9 +3917,9 @@
     "report": "auditoria/JASTROW-2026-10-11-A00429-desfecho.md"
   },
   "current_coverage": {
-    "done": 300,
+    "done": 400,
     "universe": 600,
-    "previous_batch": 200,
+    "previous_batch": 300,
     "current_batch": 100
   },
   "batches": [
@@ -2957,20 +3957,34 @@
       "report": "auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md",
       "evidence": "auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json",
       "source_range": "A00125–A00241 excluding previous audited IDs"
+    },
+    {
+      "name": "JASTROW-2026-10-12-lote-004-100",
+      "count": 100,
+      "counts": {
+        "A": 73,
+        "C": 27,
+        "P": 0
+      },
+      "report": "auditoria/JASTROW-2026-10-12-lote-004-100-relatorio.md",
+      "evidence": "auditoria/JASTROW-2026-10-12-lote-004-100-evidencias.json",
+      "first": "A00242",
+      "last": "A00363"
     }
   ],
   "last_batch": {
-    "name": "JASTROW-2026-10-12-lote-003-100",
+    "name": "JASTROW-2026-10-12-lote-004-100",
     "count": 100,
     "counts": {
-      "A": 70,
-      "C": 30,
+      "A": 73,
+      "C": 27,
       "P": 0
     },
-    "report": "auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md",
-    "evidence": "auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json",
-    "source_range": "A00125–A00241 excluding previous audited IDs"
+    "report": "auditoria/JASTROW-2026-10-12-lote-004-100-relatorio.md",
+    "evidence": "auditoria/JASTROW-2026-10-12-lote-004-100-evidencias.json",
+    "first": "A00242",
+    "last": "A00363"
   },
-  "next_unaudited_id": "A00242",
-  "next_unaudited_ordinal": 243
+  "next_unaudited_id": "A00365",
+  "next_unaudited_ordinal": 366
 }
