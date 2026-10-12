@@ -514,6 +514,16 @@
       "atomic_completed": 0,
       "reason": "Regra Rauditoria requer colacao integral por verbete e regressao real de navegador",
       "correction_count": 15
+    },
+    {
+      "date": "2026-10-12",
+      "scope": "THAYER 512: correções em ἄλφα e teste real Chromium de 512 rotas DOM",
+      "report": "auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md",
+      "structural_dom_verified": 512,
+      "source_directed_cumulative": 13,
+      "atomic_completed": 0,
+      "pr": 105,
+      "merge": "2231a99909714b678c5caf945864d15dd1603ef6"
     }
   ],
   "audit_standard": {
@@ -563,7 +573,10 @@
     "full_philological_500_approved": false,
     "structural_512_confirmed": true,
     "full_philological_512_approved": false,
-    "atomically_512_completed": false
+    "atomically_512_completed": false,
+    "atomic_completion": 0,
+    "browser_dom_512_test_result": "PASS_38205220873",
+    "filological_completion_512": 0
   },
   "structural_audit_500": {
     "date": "2026-10-11",
@@ -810,11 +823,47 @@
     "report": "auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md",
     "matrix_json": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json",
     "matrix_csv": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv",
-    "integration_status": "A VERIFICAR APÓS O MERGE DO PR",
+    "integration_status": "CONFIRMADO — PR #104 mesclado; commit 62a71c6299538e402543f4d645a6f1cb2d4298bb",
     "corrections": {
       "module": "lexicons/thayer-batch-007-suplemento.js",
       "card_count": 12,
       "validated_bible_urls": 15
     }
+  },
+  "atomic_audit_512_20261012": {
+    "date": "2026-10-12",
+    "norm": "regras/Rauditoria.txt",
+    "total_published": 512,
+    "reference_branch": "chat-gpt-commits",
+    "verified_code_merge_sha": "2231a99909714b678c5caf945864d15dd1603ef6",
+    "source_print": "Thayer, p. 1",
+    "source_corrected_entry": "entry-thayer-0001",
+    "source_corrected_lemma": "ἄλφα",
+    "directed_preliminary_total": 13,
+    "directed_this_round": 1,
+    "static_pairs_ok": 512,
+    "chromium_dom_ok": 512,
+    "chromium_click_event_routes_ok": 512,
+    "chromium_enter_event_routes_ok": 512,
+    "playwright_visual_click_samples": 1,
+    "playwright_visual_enter_samples": 2,
+    "popup_focus_samples": 1,
+    "biblical_urls_format_checked": 15,
+    "biblical_external_http_checked": 0,
+    "fully_collated_with_original": 0,
+    "full_accessibility_audited": 0,
+    "atomic_completed": 0,
+    "atomic_status": "BLOQUEADA — exige colação integral e controles remanescentes",
+    "workflow": {
+      "run_id": 38205220873,
+      "job_id": 114667101048,
+      "conclusion": "success",
+      "test_file": "tests/thayer-browser-audit.mjs",
+      "workflow_file": ".github/workflows/thayer-browser-audit.yml"
+    },
+    "report": "auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md",
+    "matrix_json": "auditorias/thayer-2026-10-12-matriz-atomica-512.json",
+    "matrix_csv": "auditorias/thayer-2026-10-12-matriz-atomica-512.csv",
+    "source_note": "O cotejo dirigido de 13/512 é preliminar; nenhum dos 13 está filologicamente homologado de ponta a ponta"
   }
 }
