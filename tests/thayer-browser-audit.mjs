@@ -47,7 +47,7 @@ try {
             }
             if (id.startsWith("entry-thayer-05")) {
                 const links = target.querySelectorAll(
-                    'section.entry-section a.reference-link[href^="https://biblehub.com/"]'
+                    'section.entry-section a.reference-link[href^="https://biblehub.com/"]:not([href*="/greek/"])'
                 );
                 for (const link of links) {
                     if (!/^https:\/\/biblehub\.com\/(?:john|luke|romans|acts|2_peter|mark)\/\d+-\d+\.htm$/.test(link.href)) {
