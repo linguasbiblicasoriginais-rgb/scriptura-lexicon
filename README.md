@@ -1,3 +1,41 @@
+## PR #114 — resolução da integração DGP 77–81 (12/10/2026)
+
+Conciliação de `chat-gpt-dgp` com `chat-gpt-commits`: inclusão dos cinco módulos inéditos DGP (420 registros, ordinais 2881–3300), carregados após o lote 076 e antes do formatador. Os módulos originais são conservados sem reescrita lexical; as regras e checkpoints do DGP são atualizados sem substituir as atualizações de outras frentes. A branch `main` não deve ser modificada e nenhuma origem deve ser excluída. Evidências: [auditoria de reconciliação do PR #114](auditorias/integracao-pr-114-2026-10-12.md). O êxito definitivo do merge deve ser confirmado pelo estado remoto `merged=true`.
+
+## Lote DGP 81 — ordinais 3.201–3.300 (11/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, de `ἀνεῖναι` a `ἀνέπεσον`, no módulo independente `lexicons/dgp-batch-081.js`, carregado depois do lote 80 e antes de `dgp-format.js`. Proveniência: `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. As definições portuguesas integrais são preservadas no cartão e no índice `data-search`; apenas a glosa auxiliar da tabela pode ser abreviada. Pré-colação determinística: **100 lemas, 100 definições, 100 search-row e 100 entry-card**, com IDs e alvos consecutivos, sem URLs externas novas.
+
+**Checkpoint lexical: 81 lotes, 3.300 verbetes no manifesto; próximo ordinal 3.301 (`ἀνέπηλα`).** A soma de checkpoints não é recontagem independente de todas as entradas. Auditoria independente posterior em `chat-gpt-correcoes`, testes de navegador/popups/acessibilidade e integração por PR em `chat-gpt-commits` são etapas separadas. Nenhum commit em `main`.
+
+## Lote DGP 80 — ordinais 3.101–3.200 (10/10/2026)
+
+Novo lote independente de **100 verbetes**, de `ἀνδραπόδεσσι` a `ἀνείμων, ων, ον`, extraído do XML canônico da letra α (`aniseferreira/Grc-Por-DigDict`, commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`). O arquivo `lexicons/dgp-batch-080.js` é carregado após o lote 79, antes do formatador. A definição integral de cada verbete está preservada no cartão e no atributo pesquisável `data-search`; a glosa auxiliar da tabela pode ser abreviada. A pré-colação local conferiu **100/100 linhas, cartões, lemas e definições**, IDs consecutivos e alvos, sem links externos novos.
+
+**Checkpoint nominal: 80 lotes, 3.200 verbetes DGP, próximo ordinal 3.201 (`ἀνεῖναι`).** Este total é a soma dos lotes documentados, não uma auditoria independente de todos os 3.200 registros. O lote 79 já possui auditoria textual/estrutural estática independente em `chat-gpt-correcoes`, commit `8442739006d863110ace4ccb54a5c9245436c649`. A auditoria do lote 80, testes em navegador/popups e integração em `chat-gpt-commits` são etapas separadas; não houve merge para `main` nesta operação.
+
+
+## Lote DGP 79 — ordinais 3.001–3.100 (10/10/2026)
+
+Incorporados **100 verbetes consecutivos**, de `ἀνασχέσθαι` a `ἀνδρακάς`, do XML canônico `aniseferreira/Grc-Por-DigDict` (commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`), no módulo `lexicons/dgp-batch-079.js`. O índice de pesquisa mantém a definição completa e cada cartão conserva integralmente o texto do XML, com escape HTML e normalização de espaços. A pré-colação de 100 registros verificou as linhas `search-row`, cartões `entry-card`, IDs e alvos sem discrepâncias nem links externos novos. **Manifesto DGP: 79 lotes, 3.100 verbetes; próximo ordinal 3.101 — `ἀνδραπόδεσσι`.**
+
+Auditoria estática independente do lote 79, testes de navegador/popups e integração em `chat-gpt-commits` pertencem a etapas separadas e não são inferidos desta publicação lexical. Os relatórios estáticos dos lotes 77 e 78 foram confirmados em `chat-gpt-correcoes`, commit `aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55`.
+
+
+## DGP — meta de 3.000 verbetes atingida (lote 78; 10/10/2026)
+
+Solicitação específica concluída em **dois commits lexicais atômicos**, com **120 verbetes consecutivos** da fonte grega fixada: lote **77**, ordinais **2.881–2.980** (100; `ἀναπληρωτέον` → `ἀναστατόω-ῶ`), e lote **78**, ordinais **2.981–3.000** (20; `ἀνασταυρόω-ῶ` → `ἀνάσχεο`). Os módulos são `lexicons/dgp-batch-077.js` e `lexicons/dgp-batch-078.js`, carregados antes do formatador. O manifesto registra **78 lotes e 3.000 verbetes DGP**, próximo ordinal **3.001** (`ἀνασχέσθαι`). O lote final de 20 é exceção pontual para alcançar exatamente 3.000; a regra geral de 100 por ciclo permanece.
+
+Pré-colação individual na origem do XML: 120/120 pares de `search-row` e `entry-card`, IDs e definições integrais nos cartões e índices de pesquisa. Nenhuma URL nova. **Pendências distintas:** auditoria independente dos lotes 77/78, verificação global de DOM em navegador, popups dinâmicos, acessibilidade e integração posterior em `chat-gpt-commits`. A publicação lexical não deve ser confundida com merge automático.
+
+
+## Lote DGP 77 — avanço até 3.000 (10/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico nos ordinais **2.881–2.980** (`ἀναπληρωτέον` → `ἀναστατόω-ῶ`) em `lexicons/dgp-batch-077.js`. Cada verbete tem linha de busca indexando a definição completa e cartão com texto integral, com 100/100 pares de IDs e alvos verificados na pré-colação. Manifesto DGP: **2.980 verbetes**, próximo ordinal **2.981** (`ἀνασταυρόω-ῶ`). Esta é a primeira de duas etapas para a meta de **3.000 verbetes**; o segundo commit tem 20 entradas. Auditoria independente do novo lote, testes de navegador e integração permanecem separados. Fonte fixada: `Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`.
+
+**Regularização do lote 76:** auditoria textual/estrutural independente confirmada no commit `6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069`, e integração efetiva pelo [PR #86](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/86). Testes dinâmicos permanecem pendentes.
+
+
 ## Integração THAYER — reconciliação do conflito do PR #113 (12/10/2026)
 
 Conciliação conservadora de `chat-gpt-thayer` com `chat-gpt-commits`: preservadas as versões consolidadas e mais recentes dos 26 caminhos abrangidos pelo PR, incluindo as correções lexicais e auditorias de 12/10/2026; recuperada a norma de quadro global de progresso de `Rthayer.txt`. Nenhum verbete foi reescrito por esta operação. A conferência da resolução está registrada em [auditoria da integração #113](auditorias/integracao-pr-113-2026-10-12.md). A confirmação definitiva de `merged=true` é independente desta preparação; `main` e a branch THAYER devem ser preservadas.
