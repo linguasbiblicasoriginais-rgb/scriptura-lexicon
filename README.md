@@ -1,3 +1,7 @@
+## THAYER — lote 008 (200 entradas)
+
+Incorporação exclusiva em chat-gpt-thayer dos índices auxiliares G492–G691 (200 novos; total 712). Texto inglês de digitalização CC0 preservado e tradução inicial automática ao português, ainda não cotejada com o fac-símile Thayer. Sem auditoria, homologação ou integração nesta execução.
+
 ## Integração THAYER — reconciliação do conflito do PR #113 (12/10/2026)
 
 Conciliação conservadora de `chat-gpt-thayer` com `chat-gpt-commits`: preservadas as versões consolidadas e mais recentes dos 26 caminhos abrangidos pelo PR, incluindo as correções lexicais e auditorias de 12/10/2026; recuperada a norma de quadro global de progresso de `Rthayer.txt`. Nenhum verbete foi reescrito por esta operação. A conferência da resolução está registrada em [auditoria da integração #113](auditorias/integracao-pr-113-2026-10-12.md). A confirmação definitiva de `merged=true` é independente desta preparação; `main` e a branch THAYER devem ser preservadas.
