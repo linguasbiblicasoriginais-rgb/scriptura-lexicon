@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **JASTROW — regressão em navegador dos 600 registros (12/10/2026):** GitHub Actions [#38214646245](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38214646245) aprovado: 600 fragmentos XML com hash verificado, 600 linhas/600 cartões no Chromium desktop e móvel, 600 eventos de abertura por ambiente, pesquisa/filtro/teclado, popups por foco e testes de acessibilidade no cartão visível, sem erros. **Não declarar certificação atômica:** a colação filológica digital histórica (401 A / 199 C / 0 P) continua distinta das fichas A–J e do merge das correções. Relatório e pendências: [JASTROW — certificação atômica de 600, execução funcional](auditoria/JASTROW-2026-10-12-certificacao-atomica-600.md); suíte [Playwright](tests/jastrow_browser_certification.mjs). Contador de certificados **0/600** enquanto houver pendências obrigatórias e integração não confirmada. Nenhuma alteração na fonte ou nos verbetes publicada nesta rodada.
+
+
 > **DGP — auditoria filológica única 901–1000 (12/10/2026):** 100 verbetes XML confrontados individualmente com as entradas publicadas, **95 A / 2 C / 3 P**; 3 expansões bibliográficas identificadas (#911, #936, #992) e 0 diferenças textuais inexplicadas. Reparos críticos na camada GDHAGP para #919 (numeração repetida) e #957 (εἷδος em lugar de εἶδος), com três pendências #936, #949, #991. [Relatório completo](auditorias/dgp-filologia-2026-10-12-lote011-0901-1000.md) e [JSON integral](auditorias/dgp-filologia-2026-10-12-lote011-evidencias.json). Checkpoint filológico histórico **1.000/3.300**, próximo #1001 `αἱματίζω`. JS editorial com sintaxe validada, sem novo teste em navegador, sem alterar Fonte nem integrar por PR neste ciclo.
 
 
