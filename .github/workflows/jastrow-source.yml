@@ -34,7 +34,7 @@ jobs:
         id: guard
         shell: bash
         run: |
-          if test -e lexicons/jastrow-source-lote-0004.json; then
+          if test -e lexicons/jastrow-source-lote-0005.json; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Nenhuma duplicação: arquivo-fonte já existe."
           else
@@ -43,14 +43,14 @@ jobs:
       - name: Extrair XML canônico, fonte fixa Sefaria-Data
         if: steps.guard.outputs.exists == 'false'
         run: |
-          python tools/jastrow_source.py --start-ordinal 600 --limit 200 \
-            --output lexicons/jastrow-source-lote-0004.json
+          python tools/jastrow_source.py --start-ordinal 800 --limit 200 \
+            --output lexicons/jastrow-source-lote-0005.json
       - name: Publicar SOMENTE camada Fonte na branch exclusiva
         if: steps.guard.outputs.exists == 'false'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- lexicons/jastrow-source-lote-0004.json
-          git commit -m "JASTROW: preservar lote 4, ordinais 601-800, da fonte XML Sefaria-Data"
+          git add -- lexicons/jastrow-source-lote-0005.json
+          git commit -m "JASTROW: preservar lote 5, ordinais 801-1000, da fonte XML Sefaria-Data"
           git push origin HEAD:chat-gpt-jastrow
