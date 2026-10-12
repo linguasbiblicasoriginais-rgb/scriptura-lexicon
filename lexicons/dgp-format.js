@@ -405,7 +405,12 @@
             [957, "A análise de αἰθεροειδής no DGP registra εἷδος (espírito áspero), mas LSJ e Bailly atestam εἶδος (espírito brando) no sentido «forma/aspecto». A advertência não modifica a fonte."],
             [936, "A citação clássica de αἰδώς traz a abreviatura «el.» no DGP sem identificação segura de autor nesta auditoria. Preservar a sigla até comprovação do locus."],
             [949, "O próprio DGP assinala «duv.» para αἴητος. A semelhança formal com ἄητος não comprova identidade nem os sentidos indicados sem testemunho antigo específico."],
-            [991, "A proposta etimológica αἰόλος + οὐρά para αἴλουρος é transmitida pelo DGP, mas a variante αἰέλουρος levanta problemas fonéticos. Não apresentar a composição como etimologia demonstrada."]
+            [991, "A proposta etimológica αἰόλος + οὐρά para αἴλουρος é transmitida pelo DGP, mas a variante αἰέλουρος levanta problemas fonéticos. Não apresentar a composição como etimologia demonstrada."],
+            [1015, "O DGP traz o elemento etimológico ῥεω em αἱμόρροος. O verbo clássico «correr, fluir» é ῥέω, com acento agudo, segundo LSJ. A grafia original é mantida na Fonte; corrigida somente por esta nota GDHAGP."],
+            [1034, "O XML dá αἰνιγματώδης, ης, εν. LSJ registra αἰνιγματώδης, ες e confirma o neutro -ες da classe em -ώδης; a divergência de flexão é sinalizada sem substituir o cabeçalho original."],
+            [1100, "O DGP oferece a derivação 〈αἰσθάναομαι〉 de αἴσθημα. A grafia documentada no LSJ é αἰσθάνομαι; a incongruência foi reparada em nota editorial, preservando a redação do XML."],
+            [1022, "αἵμων¹ está marcado «duv.» no DGP. Cunliffe/Ilíada 5.49 atestam valor de destreza em caça; a variante semântica «apaixonado» precisa de decisão contextual e não é inferida como certeza."],
+            [1087, "O DGP lista nove sentidos de αἵρεσις. LSJ também registra na Septuaginta o sentido específico de «oferta voluntária» em Levítico 22.18 e paralelos; falta adjudicação contra edição crítica LXX e LEH. Nota independente do DGP."]
         ].forEach(function (item) {
             const card = document.getElementById(
                 "entry-dgp-" + String(item[0]).padStart(4, "0")
