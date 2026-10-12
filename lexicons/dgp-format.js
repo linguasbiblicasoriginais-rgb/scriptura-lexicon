@@ -396,7 +396,11 @@
             [86, "O DGP relaciona etimologicamente ἀγαθός a ἄγαμαι. Esta indicação é hipótese da fonte, não etimologia demonstrada: LSJ assinala dúvida e o IE-CoR, com referência a Chantraine e Beekes, registra origem incerta."],
             [288, "O texto original do DGP numera duas acepções consecutivas com 4, incluindo o plural «suspeitas infundadas; mal-entendidos». A numeração é mantida sem emenda."],
             [303, "A grafia «resgastados» encontra-se no XML do DGP. A leitura é conservada na definição como testemunho; uma normalização para «resgatados» requer decisão de edição, não correção silenciosa da fonte."],
-            [335, "A grafia «passáro» encontra-se no XML do DGP. O dado editorial é assinalado aqui, sem substituí-lo silenciosamente por «pássaro» na definição."]
+            [335, "A grafia «passáro» encontra-se no XML do DGP. O dado editorial é assinalado aqui, sem substituí-lo silenciosamente por «pássaro» na definição."],
+            [822, "O DGP cita ὦτα ἄτρυπτα κολακείᾳ. Em Plutarco, De recta ratione audiendi 2 (ed. G. N. Vernardakēs, Teubner 1888), a leitura grega é ἄθρυπτα κολακείᾳ, coerente com ἄθρυπτος. Divergência confirmada; o testemunho do DGP foi preservado sem substituição silenciosa."],
+            [878, "O DGP verte αἰγίθαλλος como «abelheiro», que em português designa Merops apiaster. Aristófanes, Aves 881, e o Cambridge Greek Lexicon identificam αἰγίθαλλος com um tipo de chapim (tit), não com o abelharuco. Esta é uma nota editorial de retificação zoológica, preservando a glosa literal da fonte."],
+            [879, "A análise 〈αἴξ, κορέννυμι〉 é transmitida pelo DGP. Pauly-Wissowa (s.v. Aigikoreis) documenta etimologias e interpretações históricas concorrentes; não apresentar a análise da fonte como consenso estabelecido."],
+            [891, "O DGP glosa a acepção botânica como «nó de pinho»; LSJ, com referência a Teofrasto, HP 3.9.3, descreve o cerne do pinheiro (heartwood). A equivalência técnica precisa de exame da passagem grega e não deve ser presumida."]
         ].forEach(function (item) {
             const card = document.getElementById(
                 "entry-dgp-" + String(item[0]).padStart(4, "0")

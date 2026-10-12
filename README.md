@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **DGP — auditoria filológica única 801–900 (12/10/2026):** 100 verbetes originais e respectivas definições cotejados integralmente, com **96 A / 2 C / 2 P**. As C são notas críticas independentes da Fonte para #822 (Plutarco, ἄθρυπτα) e #878 (identificação de αἰγίθαλλος); as duas P são #879 e #891. Cinco expansões bibliográficas documentadas e 0 divergências textuais injustificadas. [Pareceres individuais](auditorias/dgp-filologia-2026-10-12-lote010-0801-0900.md) e [evidências da fonte](auditorias/dgp-filologia-2026-10-12-lote010-evidencias.json). Cotejo cumulativo histórico **900/3.300**, sem recertificação dos 600 anteriores. Próximo #901 `αἰγυπτιάζω`. A sintaxe JS das notas passou na validação estática; sem navegador ou merge neste ciclo.
+
+
 > **DGP — auditoria filológica única 701–800 (12/10/2026):** 100/100 lemas e definições do XML cotejados com as tuplas publicadas; **96 A, 0 C, 4 P** (#741, #743, #790, #793). Duas expansões bibliográficas documentadas (#705/#793), nenhuma divergência injustificada, zero emendas lexicais; comparação filológica independente seletiva em LSJ e Ésquilo. [Relatório 100 pareceres](auditorias/dgp-filologia-2026-10-12-lote009-0701-0800.md) e [evidências integrais](auditorias/dgp-filologia-2026-10-12-lote009-evidencias.json). Checkpoint histórico 800/3.300, próximo #801 `ἀθλητικῶς`; 700 registros anteriores continuam com classificação de suas respectivas metodologias, sem recertificação retroativa. Integração independente.
 
 
