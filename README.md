@@ -1,3 +1,13 @@
+## PR #119 — conciliação do frontend e JASTROW (12/10/2026)
+
+A integração da interface de catálogo bibliográfico e navegação do PR [#119](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/119) foi preparada sobre `chat-gpt-commits`, mantendo o histórico lexical do destino, os **1.000 JASTROW já integrados** e todos os demais scripts. A nova interface e seus testes são preservados, sem reescrita de verbetes; a documentação original de frontend vem em seguida. Os testes de navegador precisam ser repetidos sobre o resultado combinado, e o merge definitivo deverá ser confirmado no GitHub. [Relatório de conciliação](auditorias/integracao-pr-119-2026-10-12.md).
+
+## Frontend — ficha bibliográfica e navegação de verbetes (12/10/2026)
+
+O combobox de fontes exibe uma ficha bibliográfica contextual (editora, data, edição, ISBN, paginação, capa do exemplar quando disponível e representação tipográfica identificada quando não, além do **total de verbetes efetivamente carregados** para a fonte/dicionário). A abertura de um verbete oculta os resultados e oferece **Voltar aos resultados**, preservando pesquisa, filtro e foco no item aberto. Metadados e limitações estão documentados em [docs/FRONTEND-LEITURA.md](docs/FRONTEND-LEITURA.md); catálogo em `lexicons/source-catalog.js`. Nenhum verbete foi editado por esta alteração.
+
+**Teste funcional:** Chromium/Playwright aprovado no [GitHub Actions #38288709833](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38288709833): 6 fontes gregas, 1 hebraica e 1 aramaica; latim permanece sem corpus. Não certifica colação filológica nem autenticidade de capas.
+
 ## PR #117 — mesclagem confirmada e checkpoint atualizado (12/10/2026)
 
 O PR [#117](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/117) foi **efetivamente mesclado** em `chat-gpt-commits`, commit [`648338afde3d7e3fa505f3b5915c4dd4e8af76ce`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/648338afde3d7e3fa505f3b5915c4dd4e8af76ce). O novo total integrado é **1.000 JASTROW**, IDs `A00000–A00999`; a origem `chat-gpt-jastrow` foi preservada. A conciliação incluiu os oito módulos novos e os dois lotes XML. Ambos os checks disparados pela integração (JASTROW — extração e THAYER — navegador) concluíram com sucesso. Não foram feitos teste de navegador JASTROW nem auditoria filológica atômica dos 400 novos: `total_audited=0`.
