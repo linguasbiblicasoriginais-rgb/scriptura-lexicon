@@ -138,7 +138,7 @@ try {
       popup.focus_opened = await page.locator('#lexical-tooltip.visible[aria-hidden="false"]').isVisible();
     }
     const aria = await new AxeBuilder({page})
-      .include('#entry-jastrow-a00599')
+      .include('article.entry-card[data-source="JASTROW"]:not([hidden])')
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();
     const seriousAxe = aria.violations.filter(x=>x.impact === "serious" || x.impact === "critical");
