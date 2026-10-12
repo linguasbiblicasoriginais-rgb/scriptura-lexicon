@@ -1,3 +1,9 @@
+## JASTROW — incorporação 801–1.000 (12/10/2026)
+
+Na branch exclusiva `chat-gpt-jastrow`, esta rodada acrescentou **200 verbetes**, da fonte XML original `A00800–A00999`, em quatro módulos de 50 verbetes ([801–850](lexicons/jastrow-801-850.js), [851–900](lexicons/jastrow-851-900.js), [901–950](lexicons/jastrow-901-950.js), [951–1000](lexicons/jastrow-951-1000.js)). Total acumulado: **1.000 / 32.512**, cerca de 3,08%. O XML de origem completo está no [lote-fonte 0005](lexicons/jastrow-source-lote-0005.json), derivado do commit Sefaria-Data `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Próxima entrada: ordinal 1.001, ID `A01000`, lema `אַחְוָא,`.
+
+Os cartões publicados oferecem sínteses próprias em português dos sentidos, variantes e remissões; o texto original, integralmente preservado à parte, continua sendo a referência para exemplos e comentários mais extensos. **Escopo desta rodada exclusivamente de incorporação: não foram feitos auditoria, homologação, PR, merge ou integração.**
+
 ## JASTROW — incorporação 601–800 (12/10/2026)
 
 Foram incorporados **200 novos verbetes JASTROW** (ordinais 601–800, IDs originais `A00600–A00799`), em quatro módulos de 50 entradas, na branch `chat-gpt-jastrow`. Total acumulado: **800 / 32.512**. Fonte original íntegra: [lote 0004](lexicons/jastrow-source-lote-0004.json), do XML Sefaria-Data no commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Próximo: ordinal **801**, ID `A00800`, lema `(הֹופְיָא) אֹופְיָא`.
