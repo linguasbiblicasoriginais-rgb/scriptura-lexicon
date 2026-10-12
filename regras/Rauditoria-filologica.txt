@@ -43,3 +43,8 @@ Esta é a norma metodológica filológica MAIS RECENTE, e prevalece sobre menç�
 
 
 12/10/2026 — A transparência total passa a ser parte obrigatória da auditoria filológica única de TODAS as fontes. Ler `regras/Rtransparencia-relatorios.txt` antes de iniciar ou encerrar qualquer execução. Barras múltiplas devem diferenciar incorporação, estrutura, filologia, integração, correções e pendências. Cada parecer tem fonte/homógrafo/acepções/variantes, estado A/C/P, decisão, alteração comprovada e limitações de testemunhos externos. Percentuais sem denominador comprovado são proibidos.
+
+
+## Marco de metodologia — conclusão JASTROW 600/600 (12/10/2026)
+
+O corpus **incorporado** Jastrow/Sefaria contém 600 verbetes distintos A00000–A00599. Os seis lotes da auditoria filológica única geraram 600 pareceres (A 401, C 199, P 0). Estado A: comparação completa digital sem emenda material; C: reparo no cartão com prova de antes/depois; P: problema concreto ainda pendente. Estados C são decisões finais de validação digital, não chamados automáticos a reabrir o registro. O método confere fonte original, lema e homógrafos, acepções, formas, variantes e exemplos com atribuição da leitura, separando hipótese, reconstrução e dado explícito. O relatório individual final está em `auditoria/JASTROW-2026-10-12-lote-006-100-relatorio.md`. A validação estrutural dos 600 (27 módulos e 600 cartões/linhas) não substitui navegador/RTL e a filologia digital não substitui colação direta dos manuscritos rabínicos. Documentação de evidência e checkpoint é obrigatória. O marco não implica que todo o Jastrow impresso tenha sido transcrito, nem que os reparos estejam mesclados ao consolidado.
