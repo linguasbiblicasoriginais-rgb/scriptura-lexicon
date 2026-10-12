@@ -727,3 +727,12 @@ As **28 correções** foram incorporadas nos módulos `jastrow-011-040.js`, `jas
 
 
 A verificação estática dos cinco módulos carregados até A00139, com **140 linhas e 140 cartões emparelhados**, e cobertura dos 100 IDs selecionados está registrada em [prova JSON](auditoria/JASTROW-2026-10-11-lote-002-100-testes.json). Não se afirmou teste de navegador.
+
+
+## JASTROW — terceiro lote de auditoria filológica única (12/10/2026)
+
+Concluído o exame dos próximos **100 registros originais ainda não cobertos** pela auditoria filológica única: `A00125` a `A00241`, ordinais 126–242, excluídos 17 registros que pertenciam a lotes auditados anteriormente. **Resultado deste lote: A=70, C=30, P=0; acumulado dos três lotes: 300/600 (A=179, C=121, P=0).** A próxima entrada ainda não auditada é `A00242`. Os 600 cotejos do método histórico não foram promovidos a certificação vigente.
+
+Foram realizadas 30 correções editoriais e acréscimos documentais em seis módulos: `jastrow-111-140.js`, `jastrow-141-170.js`, `jastrow-171-185.js`, `jastrow-186-200.js`, `jastrow-201-210.js` e `jastrow-211-235.js`. Os originais XML permanecem imutáveis. O procedimento preserva as diferenças entre variantes transmitidas por manuscritos/edições segundo Jastrow, análise etimológica e emendas conjecturais. A correção expressa de `A00126` substitui a referência equivocada a Sheviit pela referência documental a **Shevuot**.
+
+**Provas:** [relatório com 100 pareceres e quadro global](auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md), [evidências integrais por entrada](auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json), [testes estáticos](auditoria/JASTROW-2026-10-12-lote-003-100-testes.json) e [checkpoint único acumulado](auditoria/jastrow-auditoria-unica-progresso.json). Checados 150 pares de cartões/linhas do conjunto de módulos e correspondência dos 100 IDs auditados; **não foram executados testes reais de navegador nem colação independente dos manuscritos rabínicos citados**. Integração com `chat-gpt-commits` pertence ao fluxo independente de PR; nenhuma alteração em `main`.

@@ -1,18 +1,18 @@
 {
   "schema": "auditoria-filologica-unica/1",
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "lexicon": "JASTROW",
   "branch": "chat-gpt-correcoes",
   "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
   "historical_total": 600,
-  "selected": 200,
+  "selected": 300,
   "selection": "11 V + earliest 89 O from old checkpoint",
   "counts": {
-    "A": 109,
-    "C": 91,
+    "A": 179,
+    "C": 121,
     "P": 0
   },
-  "edits_applied": 93,
+  "edits_applied": 123,
   "other_historical_flags_not_included": [
     "A00568",
     "A00569",
@@ -1790,6 +1790,1006 @@
       "source_entry_sha256": "2b4ad5fd428d42f3af967478585a71a80f3badf2909004c01420ec90b6256f30",
       "lexical_file": "lexicons/jastrow-111-140.js",
       "audit_batch": "JASTROW-2026-10-11-lote-002-100"
+    },
+    {
+      "id": "A00125",
+      "ordinal": 126,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Y. Succ. II, 53 a , רב א' read אַבִּינָא.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "3259a76f0cdb31ad7033a0e881152ea8ade5deca677f000f8d78f5bd81c39567",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00126",
+      "ordinal": 127,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Construção e testemunhos: a expressão בר א׳ designa o leitor ou precentor, isto é, dirigente da oração (Jerusalém Pesahim 5, 32c, parte inferior). A derivação de אבעיה , raiz בעי , é contração proposta pelo lexicógrafo. Jerusalém Ta‘anit 3, fim, 67a, e Shevuot 1, 33b (topo) apresentam a grafia abreviada אביי ; ela pertence à documentação deste substantivo e não constitui prova de que se trata do antropônimo Abaye.",
+      "source_entry_sha256": "751ccc640d60d0e5c31507d45470d6b9b40e9a20554bc2fef3ae6511997518d0",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00127",
+      "ordinal": 128,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אֶבְגִּינוֹס; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "831fe9abf8acb1255d3be7a16cadf5322f2218efdb3c1b38dc7d778381119524",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00128",
+      "ordinal": 129,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Y. Yeb. VII, 8 a bot א' אשקלון, read אַוִּיר; comp. Y. Shebi. VI, 36 c; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "0f86990bca28a6b7f698a0d5df9043af2450c8f87d9950dfea370d416773df8e",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00129",
+      "ordinal": 130,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: to mourn , v. אֲבַל .; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "f34b76964179f177f559eef46ab1911f34c6c87841a51817526da4a75063bf9e",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00130",
+      "ordinal": 131,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אָבֵל , אֲבֵלָא a. אֶבְלָא.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "f0a59e4a472fb0b345779d9308cd4c69c429e0eb4176551ff8b144345f4e212c",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00131",
+      "ordinal": 132,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Separação de acepções: a acepção 1, «luto», está em Lamentações Rabá, introdução, tradição assinalada como Rabi Abbahu 4; há remissão a אֲנִינָה . A acepção 2 é exclusivamente a forma feminina de אָבֵל II («enlutado»), não uma segunda forma do nome abstrato «luto». Jastrow distingue o substantivo abstrato do adjetivo/substantivo pessoal.",
+      "source_entry_sha256": "fbf9f118b80dd4823ea0a3b50b06ba18512cbfc497303f7aebd19d7ee475ca28",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00132",
+      "ordinal": 133,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Leitura literal: Moed Katan 20b conserva באפה נהוג א׳ , «observa o luto em sua presença» (quando a esposa está enlutada). A origem aramaica e a remissão a אֶבְלוּ pertencem ao original; a citação do Targum Lamentações 2.5 sustenta a forma, não uma definição autônoma de tipo litúrgico.",
+      "source_entry_sha256": "b8881669ae51b6d94c2ab372c05aa7a5d03a868b4265bacaace4a04435b4d2bd",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00134",
+      "ordinal": 135,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אֲבֵילוּ; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "94b0c6557d6b9a0715e8501a89cb95ea8e21d4bac04b0604bb916665c1afad54",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00136",
+      "ordinal": 137,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Precisão de testemunhos e segmentação: o XML digital repete o número «1)» e a frase inglesa «a disciple of Rabbah»; isso é duplicação editorial da transcrição, não duas pessoas nem duas acepções. O primeiro Abbimi é o discípulo de Rabbah (Shevuot 28b; Jerusalém Nedarim 2, 37b; Shevuot 3, 34d, topo). O segundo é Abbimi bar Tobi (Jerusalém Nazir 9, início, 57c). Preservar a distinção onomástica sem reproduzir a duplicação como lema independente.",
+      "source_entry_sha256": "143026aff7b259203ff6bbf99681cbf2607acf5c4a7d329c0f75fde5f6d9a704",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00137",
+      "ordinal": 138,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Abbin . Y. Bicc. II, beg., 64 c , Rabbi A. Cmp. אַבּוּן; v. אַבְיוּ.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "c80b1dfbb32ed5048b1d75a80e05c6001f730b1f360ae7070b62ad2138367bfa",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00138",
+      "ordinal": 139,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Hipóteses de identificação: Jerusalém Nedarim 4, início, 38c pode referir-se a אַבּוּנָא , como sugere Jastrow com o advérbio «provavelmente», não se trata de identidade comprovada. Jerusalém Peá 3, 17d, parte inferior, apresenta בינא , também identificado com cautela. A sequência רב א׳ é interpretada como contração para רַבִּינָא ; distinguir antropônimos e contração gráfica.",
+      "source_entry_sha256": "2be9f936340da85b49b3f48153c4b77c8d41ca6ee42de250096a27a24d038f86",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00139",
+      "ordinal": 140,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Sabb. 151 b , v. אַכְסָן; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "02b64f9a1b7d8f797091ec35adebb6ff261d56fbecae09e5c6cc5cec6f4dae20",
+      "lexical_file": "lexicons/jastrow-111-140.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00140",
+      "ordinal": 141,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (בוק, v. בקע ; comp. אָפִיק) outlet , esp. a pot in the bath-tub to which a waste-pipe is attached. Mikv. VI, 10.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "624a4bc68d96f870264ea4219098dab5c15ce82f54874a656d0a5034f82771f4",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00141",
+      "ordinal": 142,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אֲבַק; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "31f1e62fb89b7aae4fb77b79bd9ae823a6dd0f2b2225e17a675fb550bf14eac3",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00142",
+      "ordinal": 143,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Abikah , a hero at the defence of Jerusalem. Pesik. R. s. 29—30, א' בן גבייתי (Yalk. Lam. 1001 אבוקא בן גבתרי).; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "7f94fb7abb24e6e3b45eae7f0eba8406ff74a614c7953523246cdcd46e862f32",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00143",
+      "ordinal": 144,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אֶבְקוֹלָס; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "21b7815a35987b93b3628b820477de51ea046f523268edb35778c6f8984b2759",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00144",
+      "ordinal": 145,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato e antônimo: a forma plural אַבִּירִים contrasta com קַל , «leve», metaforicamente «sem influência». Jerusalém Rosh Hashaná 2, 58b, parte inferior, tem אַבִּירֵי עולם , enquanto o paralelo babilônico (Rosh Hashaná 25b) transmite חֲמוּרֵי e Eclesiastes Rabá a 1.4 lê גדולי . Ester Rabá a 2.4 requer confronto com o homógrafo אֲבִירָם ; as variantes não são sentidos alternativos do mesmo adjetivo.",
+      "source_entry_sha256": "e4ad072980d4a40e054054c4e856d9b3a586455a7f9b3b7b41447b97ce5598c1",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00145",
+      "ordinal": 146,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. וַרְדִּימוֹס; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "5e13487e1ebdd2e528c508b40b58a885c8ff89312f210386dec61fa2d064c94a",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00146",
+      "ordinal": 147,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Variantes das fontes: Ester Rabá a 2.4 registra a fórmula abreviada ר׳ יהוש׳ בר א׳ ; algumas edições apresentam אבירים . Midraxe Samuel 13 registra em vez disso בריה דר׳ בירי . Essas leituras devem ser atribuídas separadamente, e não tratadas como variantes ortográficas indiferenciadas do nome bíblico Abirão.",
+      "source_entry_sha256": "21488636e6e7bc4514ed778d2cd1ce7a986faad257023fa7370c97757bdbd2b1",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00147",
+      "ordinal": 148,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אַבְשׁוּנָא; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "e212a6a83b6d0e100bd6c408b0376d2c814c7a81bf37b516d103d9bd94f83dfa",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00148",
+      "ordinal": 149,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , א' ישימון pr. n. pl. Abyath Y’shimon , usu. בֵּית י'. Targ. Y. II, Num. XXI, 20.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "d8b542c6166a82c39c3fadfb0388f461ce17d500cc2184e986d0880cffafe922",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00149",
+      "ordinal": 150,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (b. h.) pr. n. m. Ebyathar , an Amora. Git. 6 b . Y. Ber. IX, 13 a; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "9ccda74836170386792786a7faf6c92e9d4c39580aeeecd6b1b0381899927447",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00150",
+      "ordinal": 151,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: to entangle. Hithp . הִתְאַבֵּךְ to blend (of whirling smoke columns). Pesik. R. s. 29—30.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "99a6aaf264c04ad307e38eaefcda948e0b61078a24b3671dd6adcb33ea6eca5d",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00151",
+      "ordinal": 152,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Variação textual e etimologia: Jastrow relaciona o siríaco e a fonte P. Sm., p. 15, com o verbo אָבַךְ e compara o hebraico אָבַק . O significado «lutador», depois «galo grande», é análise da obra. Para Targum Provérbios 30.31, registra variante אַכָּבָא e leitura de manuscrito אַבְּרָא ; as atribuições não devem ser fundidas nem convertidas em etimologias demonstradas.",
+      "source_entry_sha256": "a3736550008be489365452e732ee7b77491b4dd34085d265e0b1e5e0f924cf44",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00152",
+      "ordinal": 153,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (b. h.); 1) indeed, yes . Tosef. Erub. V (IV), 1 אמרו לו א' said they to him, yes (we admit). Erub. 30 b top. Nid. 3 b ; a. e.—Gen. R. s. 91 לשון דרומית וכ' it is a South Palestine expression where ăbal means bram , v. בְּרַם.; —2) but, however . Ber. VII, 1; a. v. fr.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "218db83c40bd7a90452e76f29e1e2f578108f199115630cede7f66cf4b806298",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00153",
+      "ordinal": 154,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Localização textual: Eruvin 87a traz a forma toponímica nas edições; o manuscrito M. apresenta בבל , leitura que Jastrow sugere corrigir segundo o contexto, remetendo ao aparato de Rabbinovicz. O lexicógrafo registra אָבֵל I para localidades, distinguindo-o expressamente de II «enlutado» e III «lamentar»; não há identificação geográfica particular demonstrada nesta nota.",
+      "source_entry_sha256": "cade14ac023b920b4882e30982a8181579a03c055ebdccb70c3323f5aa92e36f",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00154",
+      "ordinal": 155,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Flexão e nota semântica: Jastrow compara raízes אב e אבב e אפל , mencionando metaforicamente «escuro» (cf. קֹדֵר ). O substantivo/adjetivo denota sobretudo quem guarda luto nos sete dias posteriores ao enterro, não simplesmente qualquer tristeza. Plurais אֲבֵלִים e אֲבֵילִין , esta última com caráter alternativo; femininos אֲבֵילָה, אֲבֵלָה . Ketubot 8b remete ainda a בְּרָכָה .",
+      "source_entry_sha256": "1f0a0db545629b8de13c8caebab20141ba81c2647c5bdde501b679d55b0cab20",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00155",
+      "ordinal": 156,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Valor do hitpael/nitpael: הִתְאַבֵּל e נִתְאַבֵּל significam «cumprir ritos de luto», «estar obrigado a guardar luto», e não apenas o sentimento de pesar. Moed Katan 20b, כל שמִתְאַבֵּל עליו מתא׳ עמו , fala da obrigação de participar do luto de um parente com quem se está relacionado pela regra ritual. Tanhuma Shemini 1 registra נתא׳ ; consultar também Pesikta Sos, p. 148b.",
+      "source_entry_sha256": "79bb8242ba27cdf455b6e22cb571075a6d7708ca44cae15010d13ed285cea9d3",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00156",
+      "ordinal": 157,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Targ. Lam. II, 8.; (denom. of אֲבֵלָא) to mourn . Targ. Gen. XXXVII, 34; a. fr.—Y. Ab. Zar. I, 39 c top. v. אִימִירָא. Esth. R. beg. כד ילידת הוו מִתְאַבְּלִין when the Empress gave birth, they (the Jews) mourned (it being the Ninth of Ab). B. Kam. 59 b את חשיבא לאִתְאַבּוּלֵי וכ' ed. (Ms. R. לאַבּוּלֵי, v. infra) art thou distinguished enough to wear mourning for Jerusalem?; . Ib. מְאַבֵּילְנָא ed. (Ms. F. מאבלנא, v. Rabb. D. S. a. l., note 6) I wear mourning.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "457aded44a2f478a4bd55552c02c0bfefbd1c554f452a85c678f1eb63825e5d4",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00158",
+      "ordinal": 159,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אוּבָל; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "7ed648891ed62f14f34f3905e8ae999ce88a76ca20a7ffb7263a71a83e31cd94",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00159",
+      "ordinal": 160,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: ch. = h. אָבֵל. Targ. Koh. VII, 2; a. e.—Pl., אֲבֵילַיָּא, אֲבֵלֵי, אֲבֵילִין. Targ. Prov. XXXI, 6; a. e.—Y. M. Kat. III, 82 d bot.; a. e.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "526015e0d3168cb6ed2b7f208c7aad481f23c4349741ac02aaed27594a240d01",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00160",
+      "ordinal": 161,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato targúmico: Targum Gênesis 50.11 registra, como variante, אִיבְלָא אָבֵל , além das grafias אֶבְלָא, אֶבְלָה . Targum Onkelos Gênesis 27.41 é citado separadamente; Targum Pseudo-Jônatas Levítico 10.19 traz אֲבֵילָא . No provérbio de Gênesis Rabá §27, o texto preserva a expressão abreviada בשעת א׳ א׳ , «quando vier o luto, lamenta»; a glosa portuguesa do primeiro membro «quando vier a alegria, alegra-te» traduz a explicação da fonte, não outra entrada lexical.",
+      "source_entry_sha256": "0e8f34f532dcca210bb41f4d52cfba08d09f053063a00e2db82306d15145cccf",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00162",
+      "ordinal": 163,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Ar. ed. Koh., v. אבלוסמוס; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "cde920557f30c40d44a2eb58bcc01ab5cfffe2735f49b6132617604f33da0130",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00163",
+      "ordinal": 164,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (?) name of a spring . Gen. R. s. 33 (Snh. 108 a בלועה דגדר). Cmp. אבילין, אובלין.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "48de9bcfc5d9c40a9f20ed93ab56018f83694400982029dc09b5b79118bfb3c3",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00164",
+      "ordinal": 165,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (αὔλισμος) night-lodging in open air . כלי א' camping apparels (leather covers etc.). Zeb. 94 a Ar. (ed. אַכְסִלְגְיָא q. v.).; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "612fa7397b0691ee30e4eff312a854e750bbc64fa64c955cb3549375508d60af",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00165",
+      "ordinal": 166,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Distribuição das leituras: Bava Metzia 77a, no Arukh como variante, transmite א׳ דמחוזא , «escavadores de Mahoza». A edição e o Arukh noutra passagem dão forma abreviada אכ׳ (remissão do autor); manuscrito M. registra אוכלסי , manuscrito R. אכלוזי . A tradução «escavadores» segue interpretação de Maimônides; a raiz בלש II e as comparações פלש, פלס, בקע são sugestões de análise histórica, não testemunhos da profissão.",
+      "source_entry_sha256": "32ddaedf0b3b23f0e1f0977cef6efc28b5b856419213e8b45ceb1ca14bc6cd49",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00166",
+      "ordinal": 167,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Ablet , a gentile scholar, Ab. Zar. 30 a . Y. Sabb. III, 6 a bot., Y. Bets. II, 61 c; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "422735a2485998f71a84cb2fc96dbf73b2c4338fac3b58456a5843cd08d08981",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00168",
+      "ordinal": 169,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Fontes e diferenças entre transmissões: Yelammedenu Beha'alotkha apresenta מטות של א׳ , «leitos de ébano», citado pelo Arukh ; Tanhuma e Números Rabá §14, segundo Jastrow, conservam apenas o segmento relativo a «candelabros», מנורות . A coleção de Jellinek, Beth ha-Midrash VI, p. 88, nº 53, registra אבליגא . A grafia grega ἐβέλινος é comparada ao provável ἐβένινος ; a equivalência «ébano» não pressupõe identidade das variantes nos diferentes testemunhos.",
+      "source_entry_sha256": "9a7bf491065526fbd7fc6e1a6cde9211b346696e591f2f0e1b7b29cd08d65d57",
+      "lexical_file": "lexicons/jastrow-141-170.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00170",
+      "ordinal": 171,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (Εὔμουσος) Eumusus . Y. Meg. III, 74 a bot., rendered in a secret letter טוב למד well-learned; v. אֶבְדּוֹקוֹס.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "44beb7134b48177ff3846bd78214d2be3a4e32cb1fbea8ac9036c0d38ab67f46",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00171",
+      "ordinal": 172,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (Εὔμαχος) Eumachus , an Amora. Y. Snh. III, end, 21 d; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "adfcb8483abc61fbf8a2f2ef96c8a3559a75c3ccf062b6607f6ab7c371dbb1e7",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00175",
+      "ordinal": 176,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אֶבֶן ch.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "3e37564a30e706feae01ba92f65fa6d250a1dd70662050cb8cc35d61b90ca37a",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00176",
+      "ordinal": 177,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Sabb. 109 b , v. כנגד; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "4bf14441ddf5c6635485149835d0ebacd816338c9a5b90f54f051c94cad419cf",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00177",
+      "ordinal": 178,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Equivalência e flexão: o hebraico bíblico אַבְנֵט designa «faixa, cinturão», com plural אַבְנֵטִים documentado em Zevahim 18a; cf. Bava Kamma 94b, Yoma 6a e 12a. Jastrow cita a família בנט , raiz hipotética בט e comparação com בטן ; isso não constitui prova de parentesco etimológico com os três lemas.",
+      "source_entry_sha256": "dd89af6b197c8174b75a6e5a1a7b43c73c7e8c959589e2e9327bfad902eab49e",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00178",
+      "ordinal": 179,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Abnimos, Nimos , a gentile philosopher, friend of R. Meïr [prob. identical with the cynic philosopher Oenomaus of Gadara]. Gen. R. s. 65; a. e. א' הגרדי. Ḥag. 15 b נ' הגרדי.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "5745d204d8ef61a2d4ff26d3dc25661900d84506adbb513baa588b7f38890f71",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00179",
+      "ordinal": 180,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Targ. Y. II Deut. XIV, 18, read with Y. I אֻכְמְתָא, v. אוּכְ'; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "5107ff917b52dfde77701d8e94dc0415d5ef6bb3edefb2e1907329dff6567116",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00180",
+      "ordinal": 181,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Variantes contraditórias preservadas: Meguilá 24b, בא׳ דל׳ תלי , manuscrito M. באוב׳ : a capacidade depende da faculdade intelectiva, não dos olhos físicos. Avodah Zarah 28b, באו׳ דל׳ תלי , manuscrito M. בליבא תליא , permite a comparação de Tosafot. Jastrow expõe ainda outra interpretação para אֹבֶן , «gordura ao redor do coração»; isso não é sinônimo aprovado de «entendimento» nem emenda textual universal.",
+      "source_entry_sha256": "c0ae8e174c295b5318ce6d63656bda2e4381ee08d50ebd656f282ec1693dec5c",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00182",
+      "ordinal": 183,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (ἀβάσκαντα) unbewitched! may no harm befall you! Y. Ab. Zar. I, end, 40 b א' לא אמר he did not say abascanta , but etc. Y. Ber. IV, 13 c top (corr. acc.).; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "3e209e23f1b6a78255dffe6ce10dc582d0f016eccad877ced501973ea10a36b5",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00183",
+      "ordinal": 184,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. נבע; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "8d420728d300929a1a5f3a946d66b5728aefe05058ea04a5da857d6dbbb696b0",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00184",
+      "ordinal": 185,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (בוע) blains, pustules . Targ. O. Ex. IX, 9 (Var. אֲבַעְבּוֹעַיָן f. pl.).; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "4fd2bb724d9793a3f66ef6c7d56d2e9accfc32620c8d96a3e66f06cd3ccf6b6c",
+      "lexical_file": "lexicons/jastrow-171-185.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00185",
+      "ordinal": 186,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. בְּעַד; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "d14c62978d00d17cbce56d5d334d92dd651f38cb2bfd3586fbd0dfe72ce03883",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00186",
+      "ordinal": 187,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato de Peá: Peá 4.5 transmite ג׳ אב׳ , e a edição de Jerusalém Peá 4.3 traz אוּב׳ ; o plural אַבְעָיוֹת refere-se ao comparecimento dos pobres para pedir participação na colheita três vezes ao dia. Jerusalém Peá 18b, topo, fornece uma explicação etimológica; outros comentadores referem a passagem e o Targum Obadias 6 à ideia distinta de que «o dono aparece». Não atribuir essa opinião alternativa à definição primária de Jastrow.",
+      "source_entry_sha256": "a4b76b5c9953c709a10c7e6d45ce58173853b22e629b64b7564c35a993f5cb08",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00187",
+      "ordinal": 188,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (= אבעצא, cmp. בעץ) tin . Targ. O. Num. XXXI, 22.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "bb5b95cab316b9bbcc1370b667c29b81bb573229d59c4fcf1352137fc5ba3e38",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00188",
+      "ordinal": 189,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Termo jurídico figurado: Jastrow usa «afinidade, vestígio, sombra de» para אָבָק , e não poeira literal, nas expressões א׳ לשון הרע , רבית א׳ e א׳ של שביעית , esta última relativa indiretamente a proibições no ano sabático. אֲבָקוֹת no plural aparece em Tosefta Avodah Zarah 1.10: ארבע א׳ הן — quatro aplicações figuradas. O vocabulário de materiais de escrita inclui הסופרים א׳ , pó ou areia colorida para secar tinta (Shabbat 12.5), distinto do «pó de estrada» (Shabbat 3.3).",
+      "source_entry_sha256": "f5b4b8525bc2f98a0e2cec7214991fb4a78d8c20434925dc8967ae7602d38964",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00191",
+      "ordinal": 192,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: ch. = h. אָבָק. Targ. Ex. IX, 9; a. e.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "6a19a6ce9cdbfb56a120bc1436c9a580d30bcd0ad757e3dcb2afbd8bbf2a5922",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00192",
+      "ordinal": 193,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Tosef. Mikv. V, 7, read אָבִיק.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "7e5d5be0af87a62c15964ad7438ca19b85ad22bc54601417f8812e4ad700c192",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00193",
+      "ordinal": 194,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אָבָק ch.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "bf2b8b315b9c708befe8dcf3c46f7ed97c438b10c98c77beb76babe9577344f3",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00194",
+      "ordinal": 195,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אָבָק h.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "cd3c98ba3fe695ce01d356a9875cf44e35365f8cf7395b504a21119ddf38b2f8",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00195",
+      "ordinal": 196,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: v. אָבָק ) spices, spice-box . Fig. רוֹכֵל אַבְקַת (peddlar’s spice-box) a great scholar . Cant. R. to III, 6 end.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "dd7a64bac3b9a05fc86f709471a28c2e76b2a9fda975a6acc68e631a3c5167f7",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00196",
+      "ordinal": 197,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (Εὔκολος) Eucolus , father of R. Zechariah. Git. 56 a ; Lam. R. to IV, 2. Tosef. Sabb. XVI (XVII), 6 (Var. אבטולס, אביקלוס). Cmp. אפיקולוס.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "9e97354229e8f4f6e11e2b239337f7c214784db1e8525d1171c36f67708220ca",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00197",
+      "ordinal": 198,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Men. 33 a , read אבקתא, v. next w.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "56b6a9b13c404bc2b6f27aa2a9abcc9d490f996c1bd0cd66ddcfa76f839860d2",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00199",
+      "ordinal": 200,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: or יבר Hif. הוֹבִיר, v. בּוּר; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "0c54f3518f1ff21395a39fd0c6e13007cd1a04394190b4a9899276f423372777",
+      "lexical_file": "lexicons/jastrow-186-200.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00200",
+      "ordinal": 201,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Morfologia, leitura e relações concorrentes: na acepção 1, o piel אִבֵּר, אִיבֵּר quer dizer «fortalecer; endurecer»; Sanhedrin 109b, alusivo a Abirão (Nm 16.1), tem שאִי׳ לבו no manuscrito M., Rashi לבבו , edição עצמו , com correlação à recusa de arrependimento. Na acepção 2, Jastrow explica a medição da periferia urbana como «adicionar asas» à cidade: Eruvin 5.1, Rav escreve מְאַבְּרִין , Samuel מְעַבְּרִין (Jerusalém Eruvin 22b; Babilônico Eruvin 53a; Jerusalém Berakhot 7, 12c). A acepção 3, alçar voo, é ligada por Jastrow ao hifil bíblico e ao jogo homilético de Gênesis Rabá 42 sobre Semeber (Gn 14.2), שמְאַבֵּר segundo o Arukh , versus edição שהיה פורח . Nenhuma dessas variantes deve ser uniformizada com o homógrafo aramaico.",
+      "source_entry_sha256": "51d5f61cb5a37d76d4dc094c3445a6e0fc7a5a92b310707bba315bec02bfb857",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00201",
+      "ordinal": 202,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Ithpe. אִתְאֲבַר (v. next w. a. foreg.) to be winged, to soar . Targ. Job XXXIX, 29.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "518bdc7183f13d25a8441ad7b1879fbb19985252744ea3d1fa644d8066e21b76",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00203",
+      "ordinal": 204,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Usos materiais e exemplos: Sanhedrin 52a, פתילה של א׳ , designa «fio/barra de chumbo». Hulin 8a registra א׳ מעיקרו , chumbo diretamente da mina (qualificado como quente no texto inglês). Em Kelim 14.5 הא׳ שבצד é o peso de chumbo suspenso do pescoço de um animal para adorno ou marcação; ver também Jerusalém Shabbat 7, 10b, parte inferior. Gitin 19a e Shabbat 104b têm כתבו בא׳ , «escreveu o documento com chumbo», podendo tratar-se de solução de chumbo. A equivalência ao hebraico עֹפֶרֶת permanece a indicação do autor.",
+      "source_entry_sha256": "bc18726eaa5d450402a64152d3db80f04f77d4b62cb61a67eead6ff13283c1f4",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00204",
+      "ordinal": 205,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Aparato de Sanhedrin 64a: o texto trata de lançar uma pessoa num caldeirão de chumbo e cobri-la com chumbo (ou carga pesada). Jastrow considera incorreta a forma impressa שדיוה ; o manuscrito M. omite דאברא , além de outras variantes indicadas no aparato de Rabbinovicz. Em Gitin 19a, בא׳ denota escrita com estilete de chumbo, enquanto במיא דא׳ significa solução líquida de chumbo. Variantes do cabeçalho aramaico אֲבָר, אַבְרָא, אֲבָרָא são distintas da equivalência hebraica.",
+      "source_entry_sha256": "9dd085f10aff7366a259cff3daa284cb2897cf1dcfe153e613e9c83b32d4e269",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00205",
+      "ordinal": 206,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: limb , v. אֵיבְרָא .; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "0ae6adc5ad79934a1cab3a135e984762cf71ea9192e593141b8f6a7b024c1c24",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00206",
+      "ordinal": 207,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אִיבְרָא; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "d02cc5f076b83139460fa35b0e6f8c55b592e045b7660efb8d9e553deeb9972b",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00207",
+      "ordinal": 208,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , Targ. Prov. XXX, 31 Ms. the cock , cmp. אבר a. גבר; v. אַבָּכָא.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "7a180e9a3da7b155e087464c12f53e769bb91bc29f49eb4fd4b9019686c83390",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00208",
+      "ordinal": 209,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: adv. (בר) outside , freq. with prefix מֵ־, opp. אגואי. Ḥull. 130 ab Ab. Zar. 2 b למיתב מלכא מא' for the king to wait outside (of the court-room). R. Hash. 8 b למיקם … א'. Ber. 18 b יתיב א' sat outside (of the gathering of the righteous in heaven). Cmp. בְּרָאִי.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "4376c96ec6e68b34957dfb3e5b0e3973094e4fa3686aa68215e8f4ec217682b3",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00209",
+      "ordinal": 210,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , Erub. 62 a , Var., v. אַבּוּרְגְּנָא; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "fe6aad549314363d6a76d02f68cbd244f8740cb61d78257a6d73669db26a42a9",
+      "lexical_file": "lexicons/jastrow-201-210.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00210",
+      "ordinal": 211,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. ברי ch.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "21141b2c100267ed0dc8d7ea07e7066ebf5c40dbb3ddd1b380eccf81209a2e05",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00212",
+      "ordinal": 213,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אִבְרוֹסִי; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "d981cb5a749312afa982bde61ab10a1ec1d7d9a49d4c7ff2cfbc1c0f9ec2d4a5",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00213",
+      "ordinal": 214,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. בריכסון; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "c866826ff44c8e1ce50edc63be4b77e59b110b6a79c4bc7d917d6792982852fe",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00214",
+      "ordinal": 215,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Fontes e identificação zoológica: אברומא, אבדומא designa, na explicação de Jastrow, preparação picada ou salmoura de certo peixe (grego Ἀβραμίς seguido de ponto de interrogação: identificação conjectural). Sucá 18a: manuscrito M. e edição trazem abreviação אבד׳ ; Jastrow remete a Rabbinovicz. Rashi propõe, em lugar disso, «um peixe muito pequeno»; não se devem tratar a preparação alimentar e a espécie como identificações zoológicas unanimemente demonstradas.",
+      "source_entry_sha256": "eef2d429dc0af0722b51351c24c2fc21be9357a44059ec9d4ec1b984f73a10b1",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00215",
+      "ordinal": 216,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Distribuição do aparato: Berakhot 39a contrasta אֵגוֹרִי e אִבְרוֹסִי : manuscrito M. registra a forma principal «ibrosi»; edição אברוטי e Arukh (edição Qohelet) אברוצי . Uma segunda leitura manuscrita é סִבְרוֹסִי , contra edição סמרוסי . Jerusalém Bikkurim 1, 63d, parte inferior, apresenta אווריס (com אוורוס entre parênteses). A hipótese de denominação geográfica é atribuída ao próprio Jastrow como «provável», não dado etimológico verificado.",
+      "source_entry_sha256": "e3dee63004a98570242d397387bfeebb55ea1e5b16f83b71b285345775ca942f",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00216",
+      "ordinal": 217,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אַמְבּוּרְקְלוֹן; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "b4d8991d28888657264426892245e03efe41bb585da6465ee24a9d39963ebfc8",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00217",
+      "ordinal": 218,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אַבְרַוְורֵי; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "3406528b28fb5a60d83b60b821c0710d5044c537d8bde2b4348e51a2c68cc728",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00218",
+      "ordinal": 219,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Testemunho manuscrito específico: a definição persa âfrôsah , «prato de farinha, mel e óleo», é citada como anotação marginal do manuscrito M. a Berakhot 37a, repetida no Arukh e em Rashi a Berakhot 36b, parte inferior, ao comentar חביץ קדרה . A variante gráfica impressa אברוש״די é tratada por Jastrow como leitura a corrigir (consultar Rabbinovicz à passagem). O asterisco do lema é marca editorial, não forma alternativa hebraica demonstrada.",
+      "source_entry_sha256": "c2a8dc82509feca7ee92a995cbe79cc27eaecb84b87c1b39787721e5e29584be",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00219",
+      "ordinal": 220,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , Tosef. Neg. VIII, 2, v. בְּרוֹת; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "9ce2270e916d60480c8faf6dccb4dffa6068bb256617ee1a21f3f96b58eebce6",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00220",
+      "ordinal": 221,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Estado do objeto e hipóteses: Jastrow propõe sentido primário de «cortar, aparar», daí «pele ou forro de transporte aparado e recortado», comparando בזא II e בִּרְזָא II e, como equivalentes hebraicos, עוּבְצָה, עוּבְצָא . Rav Hai Gaon entende o vocábulo como persa (segundo o Arukh e Fleischer a Levy); Jastrow registra isso como opinião concorrente. Bava Kamma 66b documenta a mudança de denominação de משכא , «pele», para אֲבִרְזִין já pela destinação futura, antes do aparo físico; manuscrito M. lê אברזיד . Cf. קִיצּוּעַ .",
+      "source_entry_sha256": "7582e335ac90567eefb96d33809caa2ea64ef4c7d790fe5d31f8558946424952",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00221",
+      "ordinal": 222,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Formas e emendas independentes: o plural feminino אַבְרָיָיתָא refere-se literalmente a «lugares exteriores», aldeias e cabanas (Jerusalém Berakhot 6, 10a). Alguns comentadores interpretam a passagem como «tomar alimentos», segundo a remissão a אִיבְרָיָיא , interpretação concorrente, não outro sentido provado do plural. Em Cântico Rabá a 2.14, a forma אברייאה deve, segundo emenda de Jastrow, ler-se אִיגָּרַיָיא ; a remissão a אִיגָּר não legitima corrigir retrospectivamente a Fonte.",
+      "source_entry_sha256": "b7a7b9ced2fb7a37dbbc2881bb19ec315d3466258630ba47e764feb4bb7d4410",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00222",
+      "ordinal": 223,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , Y. Sabb. XVI, 15 d , v. אַבְרְקִין; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "b1001bbc374e716b6e60a14d663e31355722959eac872b20efd01acee1577caf",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00223",
+      "ordinal": 224,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אַבְרוֹת; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "ff26fb11edd28aaa795540fcb316294b81a5f8042430b4938ef527b82ff51329",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00224",
+      "ordinal": 225,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (Gen. XLI, 43) Abhrekh , a title; homiletically defined א̇ב̇ בחכמה ורַ֗ךְ֗ בשנים father in wisdom, tender in years. Gen. R. s. 90.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "ae20d8bd857bd88f3c2cfba691ab53c095dd574f55d0958844d8a7351aff1c38",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00225",
+      "ordinal": 226,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (prob. fr. אֵבֶר; well-winged ) name of a bird , prob. sea-mew . Yalk. Esth. 1054; (Esth. R. to III, 6 עוף).; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "4dbd63437659dcf30016e59b41318cd0a670ff6d027eefbed9fa5d0076a0fe75",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00227",
+      "ordinal": 228,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אַוְרַנּוֹס; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "f0aef44ff071742b47e98d3e73a8480ae4961f9570c33a9ea41ed635e86132f6",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00228",
+      "ordinal": 229,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אוורקסין; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "1d321449d7cb9abc51253fe6e7f2ad75c71c37a61e11a2e78b0e277d40ced5da",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00229",
+      "ordinal": 230,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Leituras e terminologia: o plural masculino אַבְרְקִין, בְּרַקִּין designa roupas interiores, calças ou calções. Jerusalém Shabbat 16, 15d conserva שני א׳ no Arukh ; edição Krotoschin אַבְרִיקִין . Shabbat 120a, Babilônico, lê וב׳ פרגד , manuscrito M. פרגוד , Arukh פרגודין . Rashi explica por «joelheiras» ( genouilliers ) ou Kniehosen (calções até o joelho), sem que essas glosas sejam novas leituras hebraicas. Em Yelammedenu Bereshit, referido pelo Arukh , a locução no feminino ב׳ הנתונות remete a Daniel 3.21, roupas na cintura. O paralelo latino bracae/braccae é comparativo, não uma origem seguramente comprovada.",
+      "source_entry_sha256": "3c46ed127ca0430d4eb6241e6013325647097293fda0961afdab65a954753c30",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00230",
+      "ordinal": 231,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Discriminação botânica: Jastrow define o plural feminino אַבְרָתָא, אַבְרָתָה como «hissopo», empregado contra indisposição digestiva, comparando ברי , אִיבְרָיָיא e הַבְרָאָה . Shabbat 109b distingue בר־הימג (= אזוב ) de בר־הינג (= אזוב יון ); Shabbat 128a glosa o nome da planta. Avodah Zarah 29a: manuscrito M. e Arukh registram o lema, contra edição אבדתא . As espécies citadas e a etimologia não são identificações botânicas independentes verificadas.",
+      "source_entry_sha256": "ac442f75d715d3f4bdd074d58db7fee16c037b877df4d3aff2ea150393ec975f",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00231",
+      "ordinal": 232,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Leituras e usos alimentares: a palavra significa literalmente «algo seco», particularmente espigas ressequidas ou torradas, com variante אֲבִישְׁנָא e comparação אבש = יבש . Meguilá 7b fornece ocorrência isolada. Em Pesahim 39b, קמחא דא׳ é farinha de espigas torradas; Pesahim 40a registra no Arukh חצבא דאבשו׳ , recipiente usado para torrar, frente à abreviação editorial אבי׳ . A diferença entre produto torrado e recipiente contextual não cria duas acepções lexicais inequívocas do lema.",
+      "source_entry_sha256": "a2699695480a9faaef08469ba6f98321a49e48760c58f96db483eaa120c2ad69",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00232",
+      "ordinal": 233,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אוּבְשִׁין; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "9082f6c1c6e095a203b770d9a2cb5f8fe0aafa159422d2fd0bc732f278323699",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00233",
+      "ordinal": 234,
+      "result": "C",
+      "patched": true,
+      "decision_note": "Tradição samaritana e contexto jurídico: Jastrow relaciona a grafia samaritana אגה à tradução de נקב e compara הָגָה . Em Sanhedrin 101b, a leitura do Arukh é תנא (ו)בגבולין ובלשון אגא , versus edição עגה : o comentário da baraíta à palavra ההוגה da Mishná restringe o ato ao território fora do Templo e à pronúncia comparada com juramento samaritano. Jerusalém Sanhedrin 10, 28b, topo, כגון אילין כותאי , exemplifica essa maneira de jurar. «Pronunciar letras», «blasfemar» e «jurar» são matizes exegéticos do contexto, não inscrições samaritanas colacionadas.",
+      "source_entry_sha256": "3319d9288efedb26af0d30a4143ad1346c7ccb0f95631b0ae6a72ee523a1bac0",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00234",
+      "ordinal": 235,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: Gen. R. s. 28, beg., read אִילוֹגִין.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "3c2c7f0bf8e9971c6f7b32b7dda93ab1bf026face108d81f02bd023a72fe3430",
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00235",
+      "ordinal": 236,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (contr. of אל גב = עַל, cmp. אַ־) prop. on the back, on top of , hence, upon, on the basis; (logic.) by dint of, on account of; by the way of . Snh. 95 b א' אורחך while on thy road, i.e. incidentally, occasionally . Freq. אורחא א', v. אוֹרְחָא.—B. Mets. 21 b א' דיקירי because they are heavy.—Ib. 11 b , a. fr. מטלטלין א' מקרקעי the sale of movable chattel made binding by dint of immovable property jointly sold; cmp. קַרְקַע.—Kid. 26 b א' אחר by means of somebody else (taking possession in behalf of the absent person). Ib. 27 a מי בעינן א' is it necessary that he must say, ‘Acquire movable by dint of acquiring landed property’?—Pes. 113 a כל א' גביא בעיא every claim the legality of which rests on some additional circumstance (e.g. a loan collectible only on producing the note of indebtedness) requires collection (cannot be considered actual property until collected).—Sabb. 116 a א' כתב הוא דקדוש the parchment is sacred only on account of the sacred character of what is written on it.—Shebu. 40 b , v. גְּרָרָא; a. fr.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "34a63d76a2d0e2cf21e1877bb1c2b474733eb796491a55fc754b4103a52e8e07",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00236",
+      "ordinal": 237,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. גַּבָּא; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "4d5757e3430dcedf44e242c2834278e524b8cfcd0917c60cecda6258ed90a0d3",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00237",
+      "ordinal": 238,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: , v. אָגוּסְטוֹס , end.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "034cbe3b30eb07b718ac274d919cdcbd358fda93d837c18ba32901f5b9a411a0",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00238",
+      "ordinal": 239,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (= אוֹגְבִין, h. גְּבִיעַ, גִּבְעוֹל) calix or corolla of flowers. Y. Kil. IX, 32 a top א' קסריי the cissaros blossom (v. Lat. Dict. s. v. cissaros , Gr. Dict. s. v. χρυσάνθεμον) “a woolly substance growing on stones at the Dead Sea, looking like gold, and being very soft; its name is כלך (χάλκη, κάλχη) and it resembles sheep-wool”.—(R. Ash. a. l. in Mishn.). Y. Sabb. II, 4 c top אנב' ק', corr. acc. [Var. lect. אצבין = אַצְוָוא?, אגטין.—Sabb. 20 b , our w. appears as גושקרא, גשקרא, obviously a corruption of cissaros ; Rashi ib. expl. ‘the shell of the cocoon’, prob. confounding with chrysallis which is likewise named from its gold color.]; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "3ffb52ac03b00eeafa481eba1dc2f6257ea8f3472eab2d9521477ebda83f8aaa",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00240",
+      "ordinal": 241,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: to tie . Part. pass. אָגִיד. Yeb. 39 b הא אֲגִידָא ביה is she not tied to him?, hence he must marry her.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "e3d0b8ba177087b767c75e895b254d6e0f93e0ef1a3b91efd9baefad5b2e3594",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
+    },
+    {
+      "id": "A00241",
+      "ordinal": 242,
+      "result": "A",
+      "patched": false,
+      "decision_note": "O conteúdo integral da entrada-fonte foi cotejado com o cartão, incluindo as seguintes acepções, notas e remissões pertinentes: (√גד, v. נגד a. גדל) , Hif. הֵגִיד to stretch, prolong, postpone . Erub. 21 b ; Pes. 87 a (Ar. s. v. גד, v. however אָגַד I) שמֵגִידוֹת וכ' who postpone (reserve) sexual intimacy for their husbands. Y. Keth. V, 29 d bot. אני מֵיגֶדֶת וכ' I will extend (spend all the time of) my widowhood in my husband’s house.; sem divergência editorial material encontrada.",
+      "source_entry_sha256": "e77ffc9ace91323d1311cf6e423f5c0292b3c9b64a7aff383254e118031b2ea5",
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "audit_batch": "JASTROW-2026-10-12-lote-003-100"
     }
   ],
   "last_complement": {
@@ -1917,9 +2917,9 @@
     "report": "auditoria/JASTROW-2026-10-11-A00429-desfecho.md"
   },
   "current_coverage": {
-    "done": 200,
+    "done": 300,
     "universe": 600,
-    "previous_batch": 100,
+    "previous_batch": 200,
     "current_batch": 100
   },
   "batches": [
@@ -1945,20 +2945,32 @@
       "report": "auditoria/JASTROW-2026-10-11-lote-002-100-relatorio.md",
       "evidence": "auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json",
       "source_range": "A00000–A00124; 25 previous IDs excluded"
+    },
+    {
+      "name": "JASTROW-2026-10-12-lote-003-100",
+      "count": 100,
+      "counts": {
+        "A": 70,
+        "C": 30,
+        "P": 0
+      },
+      "report": "auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md",
+      "evidence": "auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json",
+      "source_range": "A00125–A00241 excluding previous audited IDs"
     }
   ],
   "last_batch": {
-    "name": "JASTROW-2026-10-11-lote-002-100",
+    "name": "JASTROW-2026-10-12-lote-003-100",
     "count": 100,
     "counts": {
-      "A": 72,
-      "C": 28,
+      "A": 70,
+      "C": 30,
       "P": 0
     },
-    "report": "auditoria/JASTROW-2026-10-11-lote-002-100-relatorio.md",
-    "evidence": "auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json",
-    "source_range": "A00000–A00124; 25 previous IDs excluded"
+    "report": "auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md",
+    "evidence": "auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json",
+    "source_range": "A00125–A00241 excluding previous audited IDs"
   },
-  "next_unaudited_id": "A00125",
-  "next_unaudited_ordinal": 126
+  "next_unaudited_id": "A00242",
+  "next_unaudited_ordinal": 243
 }

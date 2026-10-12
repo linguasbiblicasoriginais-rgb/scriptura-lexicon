@@ -120,7 +120,7 @@ const entries=[
     "lemma": "(אַבָּיִי) אַבָּיָיה",
     "type": "Substantivo feminino",
     "gloss": "oração; prece",
-    "html": "Forma contraída que Jastrow deriva de <bdi lang='he' dir='rtl'>אבעיה</bdi>, raiz <bdi lang='he' dir='rtl'>בעי</bdi>: oração ou súplica. <bdi lang='he' dir='rtl'>בר אבייה</bdi>, leitor ou dirigente da oração. Jerusalém Pesahim 5, 32c; Jerusalém Ta‘anit 3, 67a; Jerusalém Sheviit 1, 33b."
+    "html": "Forma contraída que Jastrow deriva de <bdi lang='he' dir='rtl'>אבעיה</bdi>, raiz <bdi lang='he' dir='rtl'>בעי</bdi>: oração ou súplica. <bdi lang='he' dir='rtl'>בר אבייה</bdi>, leitor ou dirigente da oração. Jerusalém Pesahim 5, 32c; Jerusalém Ta‘anit 3, 67a; Jerusalém Shevuot 1, 33b. <strong>Complemento filológico — lote 003:</strong> <strong>Construção e testemunhos:</strong> a expressão <bdi lang='he' dir='rtl'>בר א׳</bdi> designa o leitor ou precentor, isto é, dirigente da oração (Jerusalém Pesahim 5, 32c, parte inferior). A derivação de <bdi lang='he' dir='rtl'>אבעיה</bdi>, raiz <bdi lang='he' dir='rtl'>בעי</bdi>, é contração proposta pelo lexicógrafo. Jerusalém Ta‘anit 3, fim, 67a, e Shevuot 1, 33b (topo) apresentam a grafia abreviada <bdi lang='he' dir='rtl'>אביי</bdi>; ela pertence à documentação deste substantivo e não constitui prova de que se trata do antropônimo Abaye."
   },
   {
     "sid": "A00127",
@@ -155,14 +155,14 @@ const entries=[
     "lemma": "אֲבֵילָה",
     "type": "Substantivo feminino",
     "gloss": "luto; pessoa enlutada (feminino)",
-    "html": "<strong>1.</strong> Luto ou lamentação, equivalente a <bdi lang='he' dir='rtl'>אֵבֶל</bdi> (Lamentações Rabá, introdução). Ver <bdi lang='he' dir='rtl'>אֲנִינָה</bdi>. <strong>2.</strong> Feminino do adjetivo/substantivo <bdi lang='he' dir='rtl'>אָבֵל</bdi> II, “enlutado”."
+    "html": "<strong>1.</strong> Luto ou lamentação, equivalente a <bdi lang='he' dir='rtl'>אֵבֶל</bdi> (Lamentações Rabá, introdução). Ver <bdi lang='he' dir='rtl'>אֲנִינָה</bdi>. <strong>2.</strong> Feminino do adjetivo/substantivo <bdi lang='he' dir='rtl'>אָבֵל</bdi> II, “enlutado”. <strong>Complemento filológico — lote 003:</strong> <strong>Separação de acepções:</strong> a acepção 1, «luto», está em Lamentações Rabá, introdução, tradição assinalada como Rabi Abbahu 4; há remissão a <bdi lang='he' dir='rtl'>אֲנִינָה</bdi>. A acepção 2 é exclusivamente a forma feminina de <bdi lang='he' dir='rtl'>אָבֵל</bdi> II («enlutado»), não uma segunda forma do nome abstrato «luto». Jastrow distingue o substantivo abstrato do adjetivo/substantivo pessoal."
   },
   {
     "sid": "A00132",
     "lemma": "אֲבֵילוּ,",
     "type": "Substantivo aramaico",
     "gloss": "luto; práticas de luto",
-    "html": "Formas <bdi lang='he' dir='rtl'>אֲבֵילוּ, אֲבֵילוּתָא</bdi>; equivalente aramaico do verbete hebraico seguinte. Targum Lamentações 2.5. Moed Katan 20b prescreve observar o luto na presença da esposa enlutada. Ver <bdi lang='he' dir='rtl'>אֶבְלוּ</bdi>."
+    "html": "Formas <bdi lang='he' dir='rtl'>אֲבֵילוּ, אֲבֵילוּתָא</bdi>; equivalente aramaico do verbete hebraico seguinte. Targum Lamentações 2.5. Moed Katan 20b prescreve observar o luto na presença da esposa enlutada. Ver <bdi lang='he' dir='rtl'>אֶבְלוּ</bdi>. <strong>Complemento filológico — lote 003:</strong> <strong>Leitura literal:</strong> Moed Katan 20b conserva <bdi lang='he' dir='rtl'>באפה נהוג א׳</bdi>, «observa o luto em sua presença» (quando a esposa está enlutada). A origem aramaica e a remissão a <bdi lang='he' dir='rtl'>אֶבְלוּ</bdi> pertencem ao original; a citação do Targum Lamentações 2.5 sustenta a forma, não uma definição autônoma de tipo litúrgico."
   },
   {
     "sid": "A00133",
@@ -190,7 +190,7 @@ const entries=[
     "lemma": "אַבִּימִי",
     "type": "Nome próprio masculino",
     "gloss": "Abbimi; amoraíta",
-    "html": "<strong>Abbimi</strong>, nome de sábios rabínicos. <strong>1.</strong> Discípulo de Rabbah (Shevuot 28b; Jerusalém Nedarim 2; Jerusalém Shevuot 3). <strong>2.</strong> Abbimi bar Tobi (Jerusalém Nazir 9, 57c)."
+    "html": "<strong>Abbimi</strong>, nome de sábios rabínicos. <strong>1.</strong> Discípulo de Rabbah (Shevuot 28b; Jerusalém Nedarim 2; Jerusalém Shevuot 3). <strong>2.</strong> Abbimi bar Tobi (Jerusalém Nazir 9, 57c). <strong>Complemento filológico — lote 003:</strong> <strong>Precisão de testemunhos e segmentação:</strong> o XML digital repete o número «1)» e a frase inglesa «a disciple of Rabbah»; isso é duplicação editorial da transcrição, não duas pessoas nem duas acepções. O primeiro Abbimi é o discípulo de Rabbah (Shevuot 28b; Jerusalém Nedarim 2, 37b; Shevuot 3, 34d, topo). O segundo é Abbimi bar Tobi (Jerusalém Nazir 9, início, 57c). Preservar a distinção onomástica sem reproduzir a duplicação como lema independente."
   },
   {
     "sid": "A00137",
@@ -204,7 +204,7 @@ const entries=[
     "lemma": "אַבִּינָא",
     "type": "Nome próprio masculino",
     "gloss": "Abbina; amoraíta",
-    "html": "<strong>Abbina</strong>, nome de amoraíta em Jerusalém Pesahim 5, 32c e Jerusalém Nedarim 4, 38c (possivelmente Abbuna). Jastrow propõe uma identificação também em Jerusalém Peah 3, 17d. Contração de <bdi lang='he' dir='rtl'>רב אבינא</bdi> para <bdi lang='he' dir='rtl'>רַבִּינָא</bdi>."
+    "html": "<strong>Abbina</strong>, nome de amoraíta em Jerusalém Pesahim 5, 32c e Jerusalém Nedarim 4, 38c (possivelmente Abbuna). Jastrow propõe uma identificação também em Jerusalém Peah 3, 17d. Contração de <bdi lang='he' dir='rtl'>רב אבינא</bdi> para <bdi lang='he' dir='rtl'>רַבִּינָא</bdi>. <strong>Complemento filológico — lote 003:</strong> <strong>Hipóteses de identificação:</strong> Jerusalém Nedarim 4, início, 38c pode referir-se a <bdi lang='he' dir='rtl'>אַבּוּנָא</bdi>, como sugere Jastrow com o advérbio «provavelmente», não se trata de identidade comprovada. Jerusalém Peá 3, 17d, parte inferior, apresenta <bdi lang='he' dir='rtl'>בינא</bdi>, também identificado com cautela. A sequência <bdi lang='he' dir='rtl'>רב א׳</bdi> é interpretada como contração para <bdi lang='he' dir='rtl'>רַבִּינָא</bdi>; distinguir antropônimos e contração gráfica."
   },
   {
     "sid": "A00139",
