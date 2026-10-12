@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 3301,
-    "status": "Lotes DGP 77–81 (2881–3300) incorporados à proposta de integração PR #114; total 3300 no manifesto; auditoria independente de todos os lotes e testes dinâmicos a confirmar após merge."
+    "next_ordinal": 3401,
+    "status": "Lotes DGP 1–82 incorporados, 3400 verbetes acumulados; próxima entrada 3401. Etapas independentes de auditoria, homologação e integração fora do escopo."
   },
   "batches": [
     {
@@ -740,6 +740,15 @@
       "end_entry": "ἀνέπεσον",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; colação pré-publicação de 100/100 lemas, definições, linhas, cartões e alvos; auditoria independente, navegador e integração pendentes"
+    },
+    {
+      "batch": 82,
+      "start_ordinal": 3301,
+      "end_ordinal": 3400,
+      "start_entry": "ἀνέπηλα",
+      "end_entry": "ἀνηκέστως",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas nesta solicitação"
     }
   ],
   "editorial_rules": {

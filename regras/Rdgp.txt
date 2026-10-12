@@ -894,3 +894,13 @@ Auditoria independente obrigatória posteriormente em chat-gpt-correcoes; verifi
 
 
 INTEGRAÇÃO PONTUAL — PR #114 (12/10/2026): A fonte DGP contém os lotes 77–81, perfazendo 420 verbetes novos (2881–3300). Incorporar os cinco blobs canônicos sem reescrita, atualizar o index e o manifesto específicos do DGP; NÃO substituir regras/estado-orquestracao.json da integração, pois a versão consolidada é o controle legado BDAG e não o checkpoint de DGP. Registros antigos de auditoria são preservados como históricos, sem confundir pré-colação estática com revisão independente. Ver auditorias/integracao-pr-114-2026-10-12.md. Resultado do merge e CI exigem verificação posterior; manter main e branches.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 82 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, por solicitação específica, sem auditoria,
+homologação, PR ou integração. Fonte XML imutável alfa, commit
+deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3301–3400: ἀνέπηλα → ἀνηκέστως.
+Novo módulo: lexicons/dgp-batch-082.js. Manifesto: 3400 verbetes;
+próximo ordinal: 3401. Este registro não declara auditoria concluída.

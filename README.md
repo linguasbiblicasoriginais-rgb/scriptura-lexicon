@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 82 (12/10/2026)
+
+Incorporados 100 verbetes consecutivos do XML canônico grego-português, ordinais **3301–3400** (**ἀνέπηλα** → **ἀνηκέστως**) em `lexicons/dgp-batch-082.js`, antes de `dgp-format.js`. Total acumulado do manifesto: **3400**; próximo ordinal **3401**. Operação limitada à incorporação, sem auditoria, homologação ou integração.
+
 ## PR #114 — resolução da integração DGP 77–81 (12/10/2026)
 
 Conciliação de `chat-gpt-dgp` com `chat-gpt-commits`: inclusão dos cinco módulos inéditos DGP (420 registros, ordinais 2881–3300), carregados após o lote 076 e antes do formatador. Os módulos originais são conservados sem reescrita lexical; as regras e checkpoints do DGP são atualizados sem substituir as atualizações de outras frentes. A branch `main` não deve ser modificada e nenhuma origem deve ser excluída. Evidências: [auditoria de reconciliação do PR #114](auditorias/integracao-pr-114-2026-10-12.md). O êxito definitivo do merge deve ser confirmado pelo estado remoto `merged=true`.
