@@ -1,3 +1,9 @@
+## JASTROW — incorporação 601–800 (12/10/2026)
+
+Foram incorporados **200 novos verbetes JASTROW** (ordinais 601–800, IDs originais `A00600–A00799`), em quatro módulos de 50 entradas, na branch `chat-gpt-jastrow`. Total acumulado: **800 / 32.512**. Fonte original íntegra: [lote 0004](lexicons/jastrow-source-lote-0004.json), do XML Sefaria-Data no commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Próximo: ordinal **801**, ID `A00800`, lema `(הֹופְיָא) אֹופְיָא`.
+
+Os cartões apresentam **sínteses portuguesas** dos sentidos e remissões, sem pretensão de substituir integralmente exemplos, comentários e variantes presentes no original XML. Este ciclo limitou-se à incorporação, ao carregamento na interface e à atualização do checkpoint. **Nenhuma auditoria, homologação ou integração foi executada nesta rodada.**
+
 # Scriptura Lexicon
 
 ## JASTROW — sétima rodada: conclusão até o verbete 600 (11/10/2026)
