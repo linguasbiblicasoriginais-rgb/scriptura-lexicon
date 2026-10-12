@@ -754,7 +754,7 @@
     "source_print": "Thayer, p. 1",
     "source_corrected_entry": "entry-thayer-0001",
     "source_corrected_lemma": "ἄλφα",
-    "directed_preliminary_total": 200,
+    "directed_preliminary_total": 300,
     "directed_this_round": 100,
     "static_pairs_ok": 512,
     "chromium_dom_ok": 512,
@@ -779,7 +779,7 @@
     "report": "auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md",
     "matrix_json": "auditorias/thayer-2026-10-12-matriz-atomica-512.json",
     "matrix_csv": "auditorias/thayer-2026-10-12-matriz-atomica-512.csv",
-    "source_note": "200/512 cotejos dirigidos preliminares, sendo 100 novos IDs 0089–0188; 0 homologacoes integrais. Regressao Chromium da presente rodada deve ser verificada."
+    "source_note": "300/512 controles filológicos dirigidos preliminares; 0 homologações filológicas integrais; 0 auditorias atômicas. 100 novos verbetes 0189–0288, corrigidas duas fichas."
   },
   "batch_006_audit_snapshot": {
     "new_search_rows": 100,
@@ -841,5 +841,23 @@
     "full_philological_approvals": 0,
     "atomic_completed": 0,
     "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.md"
+  },
+  "cotejos_dirigidos_100_0189_0288_20261012": {
+    "base_head": "4706444ec831741542bd1a0a991198c9392ea6d5",
+    "new": 100,
+    "previous": 200,
+    "cumulative": 300,
+    "first": "entry-thayer-0189",
+    "last": "entry-thayer-0288",
+    "printed_source": "Thayer (parte 1, Α–Ι).pdf",
+    "printed_pages": "23–34",
+    "exact_page_by_entry": "NAO_CERTIFICADA",
+    "corrections": [
+      "entry-thayer-0191",
+      "entry-thayer-0228"
+    ],
+    "integral": 0,
+    "atomica": 0,
+    "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.md"
   }
 }
