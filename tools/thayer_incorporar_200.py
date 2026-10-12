@@ -4,7 +4,7 @@ import datetime,hashlib,html,json,pathlib,re,subprocess,urllib.request
 R=pathlib.Path(__file__).resolve().parents[1]
 URL="https://raw.githubusercontent.com/nigelmsipa/thayers-greek-lexicon-dataset/master/data/thayer_lexicon.jsonl"
 def plain(x):return re.sub(r"\s+"," ",str(x or "")).strip()
-def esc(x):return html.escape(str(x),quote=True)
+def esc(x):return html.escape(str(x),quote=True).replace(chr(96),"&#96;").replace("${","&#36;{")
 def main():
     P=R/"lexicons/thayer-progress.json"
     progress=json.loads(P.read_text(encoding="utf8"))
