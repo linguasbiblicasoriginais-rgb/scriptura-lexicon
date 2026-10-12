@@ -16,7 +16,15 @@
     "changed_in_correcoes_not_integrated": 42,
     "source_crossref_entries": 47,
     "multi_headwords": 27,
-    "certified": 0
+    "certified": 0,
+    "desktop_pointer_opened": 100,
+    "desktop_keyboard_opened": 100,
+    "desktop_rtl_verified": 100,
+    "desktop_popup_focused": 57,
+    "desktop_popup_open_success": 17,
+    "desktop_popup_open_fail": 40,
+    "mobile_individual_completed": 0,
+    "axe_desktop_sample": 10
   },
   "result": "BLOQUEADA",
   "entries": [
@@ -87,7 +95,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00001",
@@ -156,7 +165,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00002",
@@ -227,7 +237,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00003",
@@ -296,7 +307,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00004",
@@ -352,8 +364,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -365,7 +377,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00005",
@@ -421,8 +434,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -434,7 +447,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00006",
@@ -490,8 +504,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -503,7 +517,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00007",
@@ -575,7 +590,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00008",
@@ -631,8 +647,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -644,7 +660,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00009",
@@ -713,7 +730,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00010",
@@ -769,8 +787,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -782,7 +800,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00011",
@@ -853,7 +872,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00012",
@@ -923,7 +943,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00013",
@@ -992,7 +1013,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00014",
@@ -1052,8 +1074,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1065,7 +1087,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00015",
@@ -1136,7 +1159,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00016",
@@ -1195,8 +1219,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1208,7 +1232,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00017",
@@ -1267,8 +1292,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1280,7 +1305,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00018",
@@ -1340,8 +1366,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1353,7 +1379,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00019",
@@ -1422,7 +1449,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00020",
@@ -1480,8 +1508,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1493,7 +1521,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00021",
@@ -1555,8 +1584,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1568,7 +1597,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00022",
@@ -1637,7 +1667,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00023",
@@ -1693,8 +1724,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1706,7 +1737,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00024",
@@ -1787,7 +1819,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00025",
@@ -1843,8 +1876,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1856,7 +1889,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00026",
@@ -1927,7 +1961,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00027",
@@ -1985,8 +2020,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1998,7 +2033,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00028",
@@ -2054,8 +2090,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2067,7 +2103,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00029",
@@ -2138,7 +2175,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00030",
@@ -2197,8 +2235,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2210,7 +2248,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00031",
@@ -2267,8 +2306,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2280,7 +2319,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00032",
@@ -2336,8 +2376,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2349,7 +2389,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00033",
@@ -2405,8 +2446,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2418,7 +2459,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00034",
@@ -2489,7 +2531,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00035",
@@ -2560,7 +2603,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00036",
@@ -2632,7 +2676,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00037",
@@ -2703,7 +2748,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00038",
@@ -2761,8 +2807,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2774,7 +2820,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00039",
@@ -2843,7 +2890,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00040",
@@ -2914,7 +2962,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00041",
@@ -2970,8 +3019,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2983,7 +3032,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00042",
@@ -3053,7 +3103,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00043",
@@ -3109,8 +3160,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3122,7 +3173,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00044",
@@ -3182,8 +3234,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3195,7 +3247,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00045",
@@ -3252,8 +3305,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3265,7 +3318,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00046",
@@ -3336,7 +3390,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00047",
@@ -3407,7 +3462,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00048",
@@ -3478,7 +3534,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00049",
@@ -3549,7 +3606,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00050",
@@ -3618,7 +3676,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00051",
@@ -3688,7 +3747,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00052",
@@ -3757,7 +3817,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00053",
@@ -3828,7 +3889,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00054",
@@ -3885,8 +3947,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3898,7 +3960,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00055",
@@ -3954,8 +4017,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3967,7 +4030,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00056",
@@ -4024,8 +4088,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4037,7 +4101,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00057",
@@ -4107,7 +4172,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00058",
@@ -4176,7 +4242,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00059",
@@ -4247,7 +4314,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00060",
@@ -4318,7 +4386,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00061",
@@ -4388,7 +4457,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00062",
@@ -4460,7 +4530,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00063",
@@ -4532,7 +4603,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00064",
@@ -4601,7 +4673,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00065",
@@ -4672,7 +4745,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00066",
@@ -4730,8 +4804,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4743,7 +4817,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00067",
@@ -4812,7 +4887,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00068",
@@ -4883,7 +4959,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00069",
@@ -4940,8 +5017,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4953,7 +5030,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00070",
@@ -5010,8 +5088,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5023,7 +5101,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00071",
@@ -5092,7 +5171,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00072",
@@ -5150,8 +5230,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5163,7 +5243,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00073",
@@ -5234,7 +5315,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00074",
@@ -5290,8 +5372,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5303,7 +5385,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00075",
@@ -5373,7 +5456,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00076",
@@ -5444,7 +5528,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00077",
@@ -5516,7 +5601,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00078",
@@ -5585,7 +5671,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00079",
@@ -5654,7 +5741,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00080",
@@ -5711,8 +5799,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5724,7 +5812,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00081",
@@ -5795,7 +5884,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00082",
@@ -5866,7 +5956,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00083",
@@ -5924,8 +6015,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5937,7 +6028,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00084",
@@ -5997,8 +6089,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6010,7 +6102,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00085",
@@ -6082,7 +6175,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00086",
@@ -6153,7 +6247,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00087",
@@ -6209,8 +6304,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6222,7 +6317,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00088",
@@ -6293,7 +6389,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00089",
@@ -6365,7 +6462,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00090",
@@ -6421,8 +6519,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6434,7 +6532,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00091",
@@ -6490,8 +6589,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6503,7 +6602,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00092",
@@ -6572,7 +6672,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00093",
@@ -6643,7 +6744,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00094",
@@ -6712,7 +6814,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00095",
@@ -6770,8 +6873,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6783,7 +6886,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00096",
@@ -6854,7 +6958,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00097",
@@ -6923,7 +7028,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     },
     {
       "id": "A00098",
@@ -6979,8 +7085,8 @@
           "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "BLOQUEADA",
+          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6992,7 +7098,8 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
     },
     {
       "id": "A00099",
@@ -7063,7 +7170,192 @@
         }
       },
       "certification": "BLOQUEADA",
-      "atomic_merged": false
+      "atomic_merged": false,
+      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
     }
-  ]
+  ],
+  "browser_run": {
+    "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698",
+    "conclusion": "failure",
+    "artifact_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698/artifacts/11752701860",
+    "desktop": {
+      "cards": 100,
+      "pointer_opened": 100,
+      "keyboard_opened": 100,
+      "valid_source_rtl": 100,
+      "tooltip_focus_tested": 57,
+      "tooltip_focus_success": 17,
+      "hrefs": 0,
+      "broken_local_hrefs": [],
+      "suspicious_hrefs": [],
+      "axe_checked": 10,
+      "axe_violations": [],
+      "runtime_errors": [],
+      "horizontal_overflows": [],
+      "failures": [
+        {
+          "id": "A00004",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00005",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00006",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00008",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00010",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00014",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00016",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00017",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00018",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00020",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00021",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00023",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00025",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00027",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00028",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00030",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00031",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00032",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00033",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00038",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00041",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00043",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00044",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00045",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00054",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00055",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00056",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00066",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00069",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00070",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00072",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00074",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00080",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00083",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00084",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00087",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00090",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00091",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00095",
+          "problem": "tooltip_focus_did_not_open"
+        },
+        {
+          "id": "A00098",
+          "problem": "tooltip_focus_did_not_open"
+        }
+      ]
+    },
+    "mobile_status": "NOT_EXECUTED_AFTER_DESKTOP_ASSERTION",
+    "note": "As falhas no foco dos popups devem ser reproduzidas e investigadas antes de serem classificadas como defeitos da aplicacao."
+  }
 }
