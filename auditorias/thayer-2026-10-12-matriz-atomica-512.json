@@ -12,7 +12,7 @@
     "browser": "Chromium",
     "test": "tests/thayer-browser-audit.mjs"
   },
-  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada",
+  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.",
   "summary": {
     "incorporated": 512,
     "structuralStaticOk": 512,
@@ -23,10 +23,20 @@
     "playwrightGenuineEnter": 2,
     "playwrightTooltipFocus": 1,
     "linkedBiblicalReferences": 15,
-    "directedSourceCheckedPrelim": 13,
+    "directedSourceCheckedPrelim": 100,
     "sourceFullyCollated": 0,
     "atomicallyCompleted": 0,
-    "accessibilityExhaustivelyTested": 0
+    "accessibilityExhaustivelyTested": 0,
+    "lastDirectedAudit": {
+      "data": "2026-10-12",
+      "previous": 13,
+      "added": 87,
+      "total": 100,
+      "range": "entry-thayer-0002–0088",
+      "status": "DIRIGIDO_PRELIMINAR",
+      "previous_code_head": "d8f127ed76a602abb0c7bc24b4653b7a0930d567",
+      "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-87.md"
+    }
   },
   "entries": [
     {
@@ -76,7 +86,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -92,6 +102,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Três usos: ruína, região da destruição e nome apocalíptico; Ap 9.11 no impresso, não Ap 11.11 da transcrição auxiliar.",
+        "apoio_indice": "G3",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/3.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -106,7 +127,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -122,6 +143,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Adjetivo literalmente leve e figuradamente não oneroso; 2Co 11.9; conferir 1Ts 2.6,9.",
+        "apoio_indice": "G4",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/4.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -136,7 +168,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -152,6 +184,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Expressão aramaica de tratamento a Deus com interpretação grega ὁ πατήρ; hipótese histórica atribuída ao lexicógrafo.",
+        "apoio_indice": "G5",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/5.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -166,7 +209,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -182,6 +225,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Ἄβελ: hebraico הֶבֶל, variante gráfica de espírito e ocorrências Mt 23.35, Lc 11.51, Hb 11.4;12.24.",
+        "apoio_indice": "G6",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/6.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -196,7 +250,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -212,6 +266,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Duas referências distintas de Ἀβιά: rei de Judá e família sacerdotal em Lc 1.5.",
+        "apoio_indice": "G7",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/7.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -226,7 +291,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -242,6 +307,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Abiatar em Mc 2.26; a suposta confusão com Aimeleque é interpretação de Thayer, não decisão editorial.",
+        "apoio_indice": "G8",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/8.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -256,7 +332,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -272,6 +348,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1–2",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Abilene como região em Lc 3.1; registrar variante do nome em Westcott–Hort.",
+        "apoio_indice": "G9",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/9.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -286,7 +373,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -302,6 +389,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1–2",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Abiúde na genealogia de Mt 1.13 e alternativas etimológicas hebraicas.",
+        "apoio_indice": "G10",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/10.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -316,7 +414,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -332,6 +430,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1–2",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Abraão como patriarca e exemplo de fé em Rm 4; Gl 3; usos onomásticos preservados.",
+        "apoio_indice": "G11",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/11.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -346,7 +455,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -362,6 +471,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1–2",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄβυσσος: adjetivo na tradição grega; substantivo bíblico com sentidos marítimo e escatológico.",
+        "apoio_indice": "G12",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/12.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -376,7 +496,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -392,6 +512,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1–2",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Ἄγαβος: profeta de At 11.28;21.10; hipótese etimológica e variantes de espírito.",
+        "apoio_indice": "G13",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/13.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -406,7 +537,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -422,6 +553,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "1–2",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθοεργέω, beneficência em 1Tm 6.18, contrastado com ἀγαθουργέω.",
+        "apoio_indice": "G14",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/14.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -436,7 +578,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -452,6 +594,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθοποιέω, beneficiar e agir retamente; conferir leitura recebida de At 14.17.",
+        "apoio_indice": "G15",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/15.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -466,7 +619,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -482,6 +635,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθοποιΐα em 1Pe 4.19: singular/plural nas variantes, com alcance contextual diferente.",
+        "apoio_indice": "G16",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/16.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -496,7 +660,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -512,6 +676,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθοποιός: adjetivo quem age retamente, em 1Pe 2.14.",
+        "apoio_indice": "G17",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/17.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -526,7 +701,7 @@
       "clicado_com_playwright_real": true,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -542,6 +717,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθός: diversas acepções adjetivais e uso substantivado; não equivaler síntese a tradução total.",
+        "apoio_indice": "G18",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/18.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -556,7 +742,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -572,6 +758,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθουργέω: cabeçalho próprio presente sob G14, sem novo número Strong oficial.",
+        "apoio_indice": "G14: forma não numerada autonomamente",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/14.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -586,7 +783,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -602,6 +799,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαθωσύνη: bondade moral; benevolência em Gl 5.22 é possibilidade contextual de Thayer.",
+        "apoio_indice": "G19",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/19.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -616,7 +824,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -632,6 +840,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "2–3",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαλλίασις: júbilo e metáfora do óleo de alegria em Hb 1.9.",
+        "apoio_indice": "G20",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/20.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -646,7 +865,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -662,6 +881,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαλλιάω: alternância verbal e construções com ἐν, ἐπί, ἵνα.",
+        "apoio_indice": "G21",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/21.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -676,7 +906,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -692,6 +922,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγαμος aplica-se a homens e mulheres em 1Co 7.",
+        "apoio_indice": "G22",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/22.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -706,7 +947,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -722,6 +963,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγανακτέω: indignação e construções com περί e ὅτι.",
+        "apoio_indice": "G23",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/23.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -736,7 +988,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -752,6 +1004,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγανάκτησις: indignação em 2Co 7.11, registro desde Platão.",
+        "apoio_indice": "G24",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/24.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -766,7 +1029,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -782,6 +1045,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαπάω: amor a pessoas, Deus e coisas; separar regências e usos.",
+        "apoio_indice": "G25",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/25.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -796,7 +1070,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -812,6 +1086,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγάπη: amor humano e religioso, distribuição bíblica; natureza histórica da nota sobre uso secular.",
+        "apoio_indice": "G26",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/26.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -826,7 +1111,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -842,6 +1127,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "3–4",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγαπητός: amado, emprego adjetivo e fórmulas de tratamento.",
+        "apoio_indice": "G27",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/27.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -856,7 +1152,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -872,6 +1168,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "4–5",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Ἄγαρ: nome e interpretação alegórica em Gl 4, hipótese etimológica atribuída.",
+        "apoio_indice": "G28",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/28.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -886,7 +1193,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -902,6 +1209,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "4–5",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγγαρεύω: requisição de serviço por mensageiros do império persa; Mt 5.41;27.32.",
+        "apoio_indice": "G29",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/29.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -916,7 +1234,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -932,6 +1250,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "4–5",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγγεῖον: vaso/recipiente e ocorrências pertinentes.",
+        "apoio_indice": "G30",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/30.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -946,7 +1275,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -962,6 +1291,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "4–5",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγγελία: notícia e conteúdo da mensagem, usos joaninos.",
+        "apoio_indice": "G31",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/31.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -976,7 +1316,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -992,6 +1332,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "4–5",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγγελος: mensageiro humano versus ser angélico, com distinções contextuais.",
+        "apoio_indice": "G32",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/32.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1006,7 +1357,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1022,6 +1373,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "4–5",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγγος: cabeçalho adicional não numerado em Strong, distinto de ἄγγελος.",
+        "apoio_indice": "forma adicional sem Strong próprio",
+        "apoio_transcricao_url": null,
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1036,7 +1398,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1052,6 +1414,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγε: imperativo de ἄγω em função exortativa, inclusive dirigido a vários destinatários.",
+        "apoio_indice": "G33",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/33.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1066,7 +1439,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1082,6 +1455,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγέλη: rebanho/manada, com aplicações narrativas nos evangelhos.",
+        "apoio_indice": "G34",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/34.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1096,7 +1480,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1112,6 +1496,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγενεαλόγητος: ausência de genealogia formal em Hb 7.3; não pressupor inexistência real de ascendentes.",
+        "apoio_indice": "G35",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/35.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1126,7 +1521,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1142,6 +1537,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγενής: pessoa de nascimento modesto; neutro plural aplicado a pessoas em 1Co 1.28.",
+        "apoio_indice": "G36",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/36.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1156,7 +1562,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1172,6 +1578,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγιάζω: santificar, consagrar, purificar por expiação ou interiormente; sentidos separados.",
+        "apoio_indice": "G37",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/37.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1186,7 +1603,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1202,6 +1619,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγιασμός: consagração versus santificação moral e conduta.",
+        "apoio_indice": "G38",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/38.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1216,7 +1644,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1232,6 +1660,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "5–6",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἅγιον: forma neutra de ἅγιος; ficha editorial e não cabeçalho autônomo no impresso p. 6–7.",
+        "apoio_indice": "G39",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/39.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1246,7 +1685,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1262,6 +1701,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "6–7",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἅγιος: santidade de pessoas, coisas e lugares; usos substantivados.",
+        "apoio_indice": "G40",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/40.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1276,7 +1726,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1292,6 +1742,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "6–7",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγιότης: santidade divina, Hb 12.10.",
+        "apoio_indice": "G41",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/41.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1306,7 +1767,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1322,6 +1783,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "6–7",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγιωσύνη: qualidade de santidade, usos paulinos.",
+        "apoio_indice": "G42",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/42.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1336,7 +1808,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1352,6 +1824,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "6–7",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγκάλη: curva do braço e acolhimento em Lc 2.28.",
+        "apoio_indice": "G43",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/43.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1366,7 +1849,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1382,6 +1865,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "6–7",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγκιστρον: anzol de Mt 17.27, distinto de âncora.",
+        "apoio_indice": "G44",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/44.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1396,7 +1890,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1412,6 +1906,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "6–7",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγκυρα: instrumento náutico e metáfora em Hb 6.19.",
+        "apoio_indice": "G45",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/45.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1426,7 +1931,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1442,6 +1947,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγναφος: tecido não apisoado/não encolhido, Mt 9.16; Mc 2.21.",
+        "apoio_indice": "G46",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/46.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1456,7 +1972,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1472,6 +1988,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγνεία: pureza moral e castidade nas epístolas pastorais.",
+        "apoio_indice": "G47",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/47.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1486,7 +2013,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1502,6 +2029,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγνίζω: purificação cerimonial versus moral.",
+        "apoio_indice": "G48",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/48.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1516,7 +2054,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1532,6 +2070,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγνισμός: purificação religiosa, At 21.26.",
+        "apoio_indice": "G49",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/49.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1546,7 +2095,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1562,6 +2111,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγνοέω: não conhecer, ignorar, não compreender, com complementos variados.",
+        "apoio_indice": "G50",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/50.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1576,7 +2136,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1592,6 +2152,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγνόημα: transgressão por ignorância em Hb 9.7, não ignorância abstrata.",
+        "apoio_indice": "G51",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/51.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1606,7 +2177,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1622,6 +2193,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγνοια: condição de ignorância e efeitos em Atos e epístolas.",
+        "apoio_indice": "G52",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/52.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1636,7 +2218,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1652,6 +2234,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγνός: graus de pureza literal e figurada, especialmente moral.",
+        "apoio_indice": "G53",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/53.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1666,7 +2259,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1682,6 +2275,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγνότης: integridade de vida em 2Co 6.6; variante em 2Co 11.3.",
+        "apoio_indice": "G54",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/54.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1696,7 +2300,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1712,6 +2316,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἁγνῶς: advérbio sinceramente em Fp 1.16(17), numeração da edição.",
+        "apoio_indice": "G55",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/55.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1726,7 +2341,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1742,6 +2357,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "7–8",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγνωσία: ausência de conhecimento em 1Co 15.34; 1Pe 2.15.",
+        "apoio_indice": "G56",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/56.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1756,7 +2382,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1772,6 +2398,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγνωστος: desconhecido, inscrição de At 17.23.",
+        "apoio_indice": "G57",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/57.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1786,7 +2423,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1802,6 +2439,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγορά: praça de assembleia, foro judicial e mercado.",
+        "apoio_indice": "G58",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/58.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1816,7 +2464,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1832,6 +2480,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγοράζω: compra mercantil e valor figurado de resgate.",
+        "apoio_indice": "G59",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/59.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1846,7 +2505,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1862,6 +2521,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγοραῖος: praça mercantil, foro e pessoas de rua, nos Atos.",
+        "apoio_indice": "G60",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/60.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1876,7 +2546,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1892,6 +2562,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγρα: captura, pesca de Lc 5.",
+        "apoio_indice": "G61",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/61.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1906,7 +2587,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1922,6 +2603,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγράμματος: falta de instrução em At 4.13, não afirmar analfabetismo absoluto.",
+        "apoio_indice": "G62",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/62.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1936,7 +2628,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1952,6 +2644,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγραυλέω: permanecer nos campos ao relento, Lc 2.8.",
+        "apoio_indice": "G63",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/63.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1966,7 +2669,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -1982,6 +2685,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγρεύω: caçar e capturar figuradamente em palavras, Mc 12.13.",
+        "apoio_indice": "G64",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/64.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -1996,7 +2710,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2012,6 +2726,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγριέλαιος: oliveira brava e metáfora da enxertia em Rm 11.",
+        "apoio_indice": "G65",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/65.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2026,7 +2751,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2042,6 +2767,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγριος: selvagem/feroz, imagem das ondas em Jd 13.",
+        "apoio_indice": "G66",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/66.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2056,7 +2792,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2072,6 +2808,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Ἀγρίππας: nome herodiano, remissão de Thayer a Ἡρῴδης; não misturar etimologia de Strong.",
+        "apoio_indice": "G67",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/67.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2086,7 +2833,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2102,6 +2849,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγρός: campo, exploração rural e propriedade.",
+        "apoio_indice": "G68",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/68.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2116,7 +2874,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2132,6 +2890,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγρυπνέω: vigiar, manter-se desperto, emprego espiritual.",
+        "apoio_indice": "G69",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/69.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2146,7 +2915,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2162,6 +2931,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγρυπνία: vigília e privação de sono apostólica.",
+        "apoio_indice": "G70",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/70.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2176,7 +2956,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2192,6 +2972,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "8–10",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄγω: conduzir em usos físicos e figurados; verbete extenso, cotejo completo pendente.",
+        "apoio_indice": "G71",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/71.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2206,7 +2997,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2222,6 +3013,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγωγή: educação, condução e modo de vida em 2Tm 3.10.",
+        "apoio_indice": "G72",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/72.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2236,7 +3038,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2252,6 +3054,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγών: competição atlética, luta figurada e ansiedade em Cl 2.1.",
+        "apoio_indice": "G73",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/73.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2266,8 +3079,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "ressalva_textual_de_Lc_22_44_em_Thayer"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -2282,6 +3097,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγωνία: angústia severa em Lc 22.44; Lachmann entre colchetes, Westcott–Hort rejeitam passagem.",
+        "apoio_indice": "G74",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/74.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": true
       }
     },
     {
@@ -2296,7 +3122,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2312,6 +3138,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀγωνίζομαι: contender, lutar e esforçar-se; regências e variantes em 1Tm 4.10.",
+        "apoio_indice": "G75",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/75.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2326,7 +3163,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2342,6 +3179,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Ἀδάμ: o primeiro homem, contraste tipológico com Cristo, variante marginal em Lc 3.33.",
+        "apoio_indice": "G76",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/76.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2356,7 +3204,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2372,6 +3220,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδάπανος: sem despesa, evangelização gratuita em 1Co 9.18.",
+        "apoio_indice": "G77",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/77.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2386,7 +3245,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2402,6 +3261,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "Ἀδδί/Ἀδδεί: variante nominal na genealogia Lc 3.28.",
+        "apoio_indice": "G78",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/78.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2416,7 +3286,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2432,6 +3302,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδελφή: irmã consanguínea e irmã na fé.",
+        "apoio_indice": "G79",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/79.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2446,7 +3327,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2462,6 +3343,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "10–11",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδελφός: irmão por parentesco, comunhão religiosa e uso metafórico.",
+        "apoio_indice": "G80",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/80.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2476,7 +3368,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2492,6 +3384,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδελφότης: fraternidade dos fiéis, 1Pe 2.17;5.9.",
+        "apoio_indice": "G81",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/81.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2506,7 +3409,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2522,6 +3425,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἄδηλος: não manifesto, incerto, falta de clareza.",
+        "apoio_indice": "G82",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/82.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2536,7 +3450,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2552,6 +3466,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδηλότης: incerteza das riquezas, 1Tm 6.17.",
+        "apoio_indice": "G83",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/83.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2566,7 +3491,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2582,6 +3507,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδήλως: advérbio incertamente em 1Co 9.26.",
+        "apoio_indice": "G84",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/84.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2596,7 +3532,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2612,6 +3548,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδημονέω: angústia profunda em Mc 14.33 e Fp 2.26.",
+        "apoio_indice": "G85",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/85.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2626,7 +3573,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -2642,6 +3589,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ᾅδης: mundo dos mortos e imagens escatológicas; não uniformizar todas as acepções como punição eterna.",
+        "apoio_indice": "G86",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/86.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": false
       }
     },
     {
@@ -2656,8 +3614,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "corrigidas_duas_acepcoes_conforme_Thayer_G87"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -2672,6 +3632,17 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012": {
+        "tipo": "COTEJO_DIRIGIDO_NAO_EXAUSTIVO",
+        "documento_primario": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_impressas_intervalo": "11–12",
+        "pagina_individual_certificada": false,
+        "ponto_filologico": "ἀδιάκριτος: dois sentidos em Thayer, indistinguível e sem ambiguidade/incerteza em Tg 3.17, não apenas imparcial.",
+        "apoio_indice": "G87",
+        "apoio_transcricao_url": "https://biblehub.com/thayers/87.htm",
+        "limite": "verificação de um aspecto da ficha; não confronto de todo o artigo nem de todas as referências",
+        "corrigido_lexicalmente": true
       }
     },
     {

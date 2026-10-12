@@ -754,8 +754,8 @@
     "source_print": "Thayer, p. 1",
     "source_corrected_entry": "entry-thayer-0001",
     "source_corrected_lemma": "ἄλφα",
-    "directed_preliminary_total": 13,
-    "directed_this_round": 1,
+    "directed_preliminary_total": 100,
+    "directed_this_round": 87,
     "static_pairs_ok": 512,
     "chromium_dom_ok": 512,
     "chromium_click_event_routes_ok": 512,
@@ -779,7 +779,7 @@
     "report": "auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md",
     "matrix_json": "auditorias/thayer-2026-10-12-matriz-atomica-512.json",
     "matrix_csv": "auditorias/thayer-2026-10-12-matriz-atomica-512.csv",
-    "source_note": "O cotejo dirigido de 13/512 é preliminar; nenhum dos 13 está filologicamente homologado de ponta a ponta"
+    "source_note": "100 cotejos dirigidos (13 prévios + 87 novos), não integrais; colação 0/512 e auditoria atômica 0/512; duas correções requerem nova regressão browser"
   },
   "batch_006_audit_snapshot": {
     "new_search_rows": 100,
@@ -806,5 +806,20 @@
     "status": "checkpoint do suplemento reconciliado; auditoria atômica ainda 0/512",
     "preserved_history": "batches e batch_006_audit_snapshot",
     "source": "auditorias/thayer-2026-10-12-verificacao-independente.md"
+  },
+  "cotejo_dirigido_87_20261012": {
+    "base_head": "d8f127ed76a602abb0c7bc24b4653b7a0930d567",
+    "novos": 87,
+    "anteriores": 13,
+    "total_preliminar": 100,
+    "intervalo_ids": "0002–0088",
+    "fonte": "fac-símile Thayer, pp. impressas 1–12; apoio digital identificado separadamente",
+    "correcoes": [
+      "entry-thayer-0075",
+      "entry-thayer-0088"
+    ],
+    "relatorio": "auditorias/thayer-2026-10-12-cotejo-dirigido-87.md",
+    "integral": 0,
+    "atomicos": 0
   }
 }
