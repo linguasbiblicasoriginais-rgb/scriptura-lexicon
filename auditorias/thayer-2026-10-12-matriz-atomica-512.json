@@ -12,7 +12,7 @@
     "browser": "Chromium",
     "test": "tests/thayer-browser-audit.mjs"
   },
-  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.; 100 cotejos dirigidos preliminares de 0089 a 0188 adicionados. Teste anterior Chromium é histórico e regressão da presente mudança deve ser comprovada separadamente.; 100 observações filológicas dirigidas preliminares das fichas 0189–0288. A atual execução Chromium depende de novo workflow no PR.",
+  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.; 100 cotejos dirigidos preliminares de 0089 a 0188 adicionados. Teste anterior Chromium é histórico e regressão da presente mudança deve ser comprovada separadamente.; 100 observações filológicas dirigidas preliminares das fichas 0189–0288. A atual execução Chromium depende de novo workflow no PR.; 100 observações preliminares em 0289–0388 (provenientes da inspeção das páginas impressas 33–46 e cartões HTML; colação integral 0/512).",
   "summary": {
     "incorporated": 512,
     "structuralStaticOk": 512,
@@ -23,19 +23,19 @@
     "playwrightGenuineEnter": 2,
     "playwrightTooltipFocus": 1,
     "linkedBiblicalReferences": 15,
-    "directedSourceCheckedPrelim": 300,
+    "directedSourceCheckedPrelim": 400,
     "sourceFullyCollated": 0,
     "atomicallyCompleted": 0,
     "accessibilityExhaustivelyTested": 0,
     "lastDirectedAudit": {
       "date": "2026-10-12",
-      "range": "entry-thayer-0189–0288",
-      "previous": 200,
-      "new": 100,
-      "total": 300,
-      "scope": "DIRIGIDO_PRELIMINAR",
-      "publication": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.md",
-      "origin_commit": "4706444ec831741542bd1a0a991198c9392ea6d5"
+      "added": 100,
+      "prior": 300,
+      "total": 400,
+      "range": "entry-thayer-0289–0388",
+      "origin_sha": "1aa7153367238e86291356937c1443a558b14949",
+      "status": "DIRIGIDO_PRELIMINAR",
+      "evidence_report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md"
     }
   },
   "entries": [
@@ -11691,7 +11691,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11707,6 +11707,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμοιβή exprime retribuição concreta; o exemplo 1Tm 5.4 corresponde ao cuidado filial dos antepassados, não apenas remuneração comercial.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11721,7 +11730,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11737,6 +11746,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἄμπελος nomeia a videira; distinção entre videira literal, metáfora joanina de Cristo e imagem escatológica do Apocalipse.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11751,7 +11769,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11767,6 +11785,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμπελουργός é o trabalhador da vinha; verificar sua função de cultivador no exemplo parabólico, sem confundi-lo com a vinha.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11781,7 +11808,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11797,6 +11824,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμπελών designa o terreno plantado, nas parábolas; distinguir lugar físico de ἄμπελος, a própria videira.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11811,7 +11847,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11827,6 +11863,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "Ἀμπλίας é nome próprio da saudação em Rm 16.8; comparar com Ἀμπλίατος como variante onomástica, não duas pessoas comprovadas.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11841,7 +11886,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11857,6 +11902,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "Ἀμπλίατος é forma do antropônimo Ἀμπλίας; manter seu estatuto de variante gráfica em vez de personagem independente.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11871,7 +11925,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11887,6 +11941,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμύνω diferencia socorrer/repelir na ativa e defender-se/vingar na média; episódio de Moisés em At 7.24.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11901,8 +11964,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "cotejo_0289_0388_296"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -11917,6 +11982,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμφιβάλλω é lançar ao redor, especialmente lançar uma rede em Mc 1.16; a vizinhança gráfica com ἀμύνω não implica vínculo derivacional.",
+        "complemento": "Distinção do artigo verbal e retirada de vínculo interpretável como associação etimológica com ἀμύνω.",
+        "revisao_integral": false
       }
     },
     {
@@ -11931,7 +12005,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11947,6 +12021,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμφίβληστρον é rede de arremesso, objeto distinto do verbo ἀμφιβάλλω; uso de pescadores na narrativa evangélica.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11961,7 +12044,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -11977,6 +12060,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμφιάζω é verbo alternativo de revestir; observar a atribuição a edições críticas de Lc 12.28 e não convertê-lo em acepção nova.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -11991,7 +12083,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12007,6 +12099,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμφιέζω é variante de vestir em contexto lucano, relacionada mas não idêntica à forma de entrada ἀμφιέννυμι.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12021,7 +12122,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12037,6 +12138,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμφιέννυμι é vestir/revestir alguém; a comparação com ἀμφιάζω e ἀμφιέζω exige conservar as leituras de cada editor.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12051,7 +12161,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12067,6 +12177,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "Ἀμφίπολις é topônimo macedônico em At 17.1, parada do trajeto apostólico, não gentílico.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12081,7 +12200,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12097,6 +12216,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἄμφοδον nomeia via ou passagem urbana no episódio do jumentinho, com possível sentido de cruzamento; não é o numeral «ambos».",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12111,7 +12239,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12127,6 +12255,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμφότεροι refere-se aos dois integrantes de um par, uso plural de pronome/adjetivo; examinar co-referência contextual.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12141,7 +12278,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12157,6 +12294,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀμώμητος é sem censura legítima, elogio de conduta; não confundir com ἄμωμος «sem defeito».",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12171,7 +12317,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12187,6 +12333,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἄμωμον refere-se a especiaria aromática em tradição textual de Ap 18.13; não confundir planta com adjetivo ἄμωμος.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12201,7 +12356,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12217,6 +12372,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἄμωμος é sem mácula em sacrifício e pureza moral; respeitar a transferência metafórica para Cristo e fiéis.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12231,7 +12395,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12247,6 +12411,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "Ἀμών é o rei Amon na genealogia de Mt 1.10, que em testemunhos críticos recebe forma Ἀμώς; manter o contraste.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12261,7 +12434,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12277,6 +12450,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "Ἀμώς é nome próprio distinto do rei Ἀμών nos registros históricos, mas em Mt 1.10 também ocorre como leitura variante do nome.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12291,8 +12473,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "cotejo_0289_0388_309"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -12307,6 +12491,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἄν é partícula modal de potencialidade, hipótese e eventualidade, com regências/modos diferentes; não pode ser traduzida uniformemente por «acaso».",
+        "complemento": "Retirada da equivalência adverbial 'porventura; acaso' como glossa básica de ἄν, conservando a distribuição segundo modos verbais.",
+        "revisao_integral": false
       }
     },
     {
@@ -12321,7 +12514,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12337,6 +12530,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνά funciona como preposição com acusativo em usos distributivos ou espaciais; o valor de prefixo de composto é categoria distinta.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12351,7 +12553,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12367,6 +12569,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβαθμός nomeia escadaria/degraus em Atos; distinguir objeto físico de simples evento de subir.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12381,7 +12592,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12397,6 +12608,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβαίνω é movimento ascendente, viagem a Jerusalém, embarque e expressão figurada; respeitar construções de origem/destino.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12411,7 +12631,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12427,6 +12647,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβάλλω é lançar para cima ou postergar, com sentidos distintos; em At 24.22 a postergação é procedimento judicial.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12441,7 +12670,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12457,6 +12686,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβιβάζω indica erguer ou puxar a rede cheia para a margem em Mt 13.48; ação transitiva causativa.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12471,7 +12709,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12487,6 +12725,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβλέπω exprime erguer os olhos e recuperar a visão, dois usos contextuais não intercambiáveis.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12501,7 +12748,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12517,6 +12764,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάβλεψις designa restituição da vista, especialmente na citação de Lc 4.18; não simples capacidade genérica de olhar.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12531,7 +12787,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12547,6 +12803,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβοάω é clamar em voz alta, distinto do substantivo ἀναβολή; observar aoristos indicados no artigo.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12561,7 +12826,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12577,6 +12842,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναβολή refere-se a demora ou adiamento de um ato oficial, caso de At 25.17; não uma hesitação psicológica.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12591,7 +12865,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12607,6 +12881,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγγέλλω é anunciar, relatar, tornar conhecido; a construção inclui objeto do anúncio e destinatário.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12621,7 +12904,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12637,6 +12920,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγεννάω é gerar novamente em contextos petrinos; o passivo do renascimento exige atenção ao agente divino.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12651,7 +12943,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12667,6 +12959,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγινώσκω denota reconhecer mas, no NT, principalmente ler em voz alta ou em privado textos escritos, incluindo escrituras em assembleia.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12681,7 +12982,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12697,6 +12998,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγκάζω é constranger por força ou argumentos; diferenciar coação de convite em Lc 14.23 e Gl 2.14.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12711,7 +13021,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12727,6 +13037,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγκαῖος qualifica o que é indispensável e também pessoa íntima; em At 10.24 o qualificativo recai sobre pessoas.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12741,7 +13060,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12757,6 +13076,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγκαστῶς é sob compulsão em oposição a ἑκουσίως em 1Pe 5.2; a antítese gramatical define o sentido.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12771,7 +13099,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12787,6 +13115,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάγκη inclui necessidade devida à obrigação e aflição/tribulação; identificar contexto em 1Co 7 e 2Co 12.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12801,7 +13138,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12817,6 +13154,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναγνωρίζω é ser reconhecido (José em At 7.13); Thayer menciona leitura alternativa ἐγνωρίσθη, sem harmonizá-la.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12831,7 +13177,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12847,6 +13193,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάγνωσις pode ser leitura em geral, especialmente leitura pública das Escrituras em 1Tm 4.13.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12861,7 +13216,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12877,6 +13232,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάγω significa levar para cima, lançar ao mar/zarpar e elevar dos mortos; não fundir sentido náutico e ressurreição.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12891,7 +13255,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12907,6 +13271,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναδείκνυμι é designar ou indicar oficialmente, em Lc 10.1 e At 1.24, com nuances de seleção pública.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12921,7 +13294,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12937,6 +13310,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάδειξις é apresentação ou manifestação pública, como a aparição de João à comunidade em Lc 1.80.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12951,7 +13333,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12967,6 +13349,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναδέχομαι refere-se à recepção hospitaleira e a acolher promessa; usos em At 28.7 e Hb 11.17 diferem.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -12981,7 +13372,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -12997,6 +13388,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναδίδωμι inclui dar/entregar carta em At 23.33; o sentido de surgir naturalmente não substitui essa ação transitiva.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13011,7 +13411,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13027,6 +13427,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναζάω é viver de novo literal/figuradamente; relacionar filho perdido e pecado revivendo sem igualar os referentes.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13041,7 +13450,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13057,6 +13466,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναζητέω é procurar diligentemente, inclusive de novo, em Lc 2 e At 11.25; não confundir com leitura visual.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13071,7 +13489,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13087,6 +13505,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναζώννυμι «cingir novamente» é aplicado figuradamente ao entendimento em 1Pe 1.13; preservar objeto metafórico.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13101,7 +13528,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13117,6 +13544,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναζωπυρέω é reavivar a chama, metáfora para o dom em 2Tm 1.6, não nova concessão automática de dom.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13131,7 +13567,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13147,6 +13583,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναθάλλω é tornar a florescer e manifestar cuidado em Fp 4.10; valor figurado de planta revigorada.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13161,7 +13606,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13177,6 +13622,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάθεμα em Paulo descreve o devotado à maldição, diferente da oferta votiva ἀνάθημα; conservar acento/distinção semântica.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13191,7 +13645,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13207,6 +13661,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναθεματίζω é pronunciar maldição ou vincular-se por juramento com maldição, como os conspiradores de At 23.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13221,7 +13684,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13237,6 +13700,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναθεωρέω é contemplar com atenção e avaliar comportamento, em At 17.23 e Hb 13.7; não mero ato de ver.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13251,7 +13723,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13267,6 +13739,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάθημα é oferta votiva depositada no templo, em Lc 21.5, e não «anátema» de condenação.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13281,8 +13762,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "cotejo_0289_0388_342"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -13297,6 +13780,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναίδεια é ausência de vergonha/descaramento; a «insistência» em Lc 11.8 deve ser atribuída à interpretação contextual, não ao significado único.",
+        "complemento": "Separação entre valor lexical de desfaçatez e explicação contextual de Lc 11.8.",
+        "revisao_integral": false
       }
     },
     {
@@ -13311,7 +13803,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13327,6 +13819,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναίρεσις designa execução ou assassinato, em At 8.1 e 22.20; a raiz relaciona-se a ἀναιρέω.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13341,7 +13842,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13357,6 +13858,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναιρέω pode ser remover ou matar, com extensão violenta nos relatos de perseguição em Atos.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13371,7 +13881,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13387,6 +13897,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναίτιος é sem culpa legal/moral nas controvérsias sabáticas de Mt 12, qualificação de pessoas.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13401,7 +13920,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13417,6 +13936,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακαθίζω é passar de deitado a sentado após reanimação, caso de Lc 7.15 e At 9.40.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13431,7 +13959,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13447,6 +13975,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακαινίζω é renovar de novo, no argumento difícil de Hb 6.6; a redação não deve resolver divergências exegéticas sem fonte.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13461,7 +13998,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13477,6 +14014,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακαινόω é a renovação interior e progressiva em 2Co 4.16 e Cl 3.10, distinto do anterior.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13491,7 +14037,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13507,6 +14053,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακαίνωσις é substantivo da renovação da mente e pelo Espírito em Rm 12.2 e Tt 3.5; separar agente e domínio.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13521,7 +14076,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13537,6 +14092,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακαλύπτω é descobrir/retirar véu, com imagem de percepção em 2Co 3; respeitar valores literal e figurado.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13551,7 +14115,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13567,6 +14131,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακάμπτω denota regressar a lugar ou rumo e possibilidade figurada, sobretudo Hb 11.15.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13581,7 +14154,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13597,6 +14170,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάκειμαι é estar reclinado à mesa em banquete, estado resultante e não ação causativa de ἀνακλίνω.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13611,7 +14193,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13627,6 +14209,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακεφαλαιόω é resumir sob uma cabeça em Rm 13.9 e reunir em Cristo em Ef 1.10; sentidos contextualizados.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13641,7 +14232,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13657,6 +14248,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακλίνω é fazer deitar/reclinar para refeição, uso transitivo distinto do estado de ἀνάκειμαι.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13671,7 +14271,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13687,6 +14287,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακόπτω impede ou interrompe percurso em Gl 5.7; registrar que Thayer situa ocorrência no Textus Receptus.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13701,7 +14310,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13717,6 +14326,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακράζω é gritar com intensidade, sobretudo cenas com espíritos; Mc 1.23 envolve leitura variante indicada.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13731,7 +14349,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13747,6 +14365,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακρίνω inclui interrogar judicialmente e discernir/avaliar espiritualmente; diferenciar uso em Lucas, Atos e Coríntios.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13761,7 +14388,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13777,6 +14404,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάκρισις é investigação jurídica formal em At 25.26, não mera reflexão privada.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13791,7 +14427,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13807,6 +14443,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνακύπτω é erguer o corpo/cabeça, inclusive tradição de Jo 8 cuja localização crítica da perícope requer ressalva.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13821,7 +14466,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13837,6 +14482,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναλαμβάνω significa tomar/elevar e ser levado ao céu; Mc 16.19 é passagem do final longo textualmente disputado.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13851,7 +14505,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13867,6 +14521,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάληψις é subida/ascensão em Lc 9.51 e não o verbo ἀναλαμβάνω; termo refere-se à partida de Jesus.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13881,7 +14544,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13897,6 +14560,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναλίσκω significa consumir inteiramente e desgastar, com variantes da tradição em Lc 9.54 e 2Ts 2.8.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13911,7 +14583,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13927,6 +14599,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναλογία é proporção ou correspondência, em Rm 12.6 relativa à fé; não impor avaliação doutrinária do intérprete.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13941,7 +14622,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13957,6 +14638,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναλογίζομαι é considerar cuidadosamente, Hb 12.3, calculando/comparando circunstâncias.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -13971,7 +14661,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -13987,6 +14677,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἄναλος é privado de sal, sal insípido em Mc 9.50; imagem distinta de alimento meramente sem tempero.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14001,7 +14700,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14017,6 +14716,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάλυσις é partida/morte em 2Tm 4.6, metáfora de soltar o que está amarrado.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14031,7 +14739,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14047,6 +14755,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναλύω é desatar e partir/regressar; em Fp 1.23 exprime desejo de partir desta vida.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14061,7 +14778,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14077,6 +14794,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναμάρτητος é sem pecado em Jo 8.7; manter a ressalva da situação textual da perícope.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14091,7 +14817,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14107,6 +14833,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναμένω é aguardar a chegada de Cristo em 1Ts 1.10, com esperança ativa, não adiamento de dever.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14121,7 +14856,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14137,6 +14872,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναμιμνῄσκω faz lembrar ou recorda por si; a voz verbal importa nos exemplos paulinos.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14151,7 +14895,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14167,6 +14911,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάμνησις denota recordação e memorial, em Lc 22.19/1Co 11 e menção anual de pecados em Hb 10.3.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14181,7 +14934,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14197,6 +14950,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνανεόω é renovar-se no espírito do entendimento, Ef 4.23; distinguir renovação da mente de mudança física.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14211,7 +14973,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14227,6 +14989,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνανήφω é voltar à sobriedade depois da embriaguez e escapar de armadilha, 2Tm 2.26.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14241,7 +15012,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14257,6 +15028,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "Ἀνανίας é nome de três personagens distintos de Atos (marido de Safira, discípulo de Damasco e sumo sacerdote).",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14271,7 +15051,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14287,6 +15067,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναντίρρητος denota fato inegável/irrefutável em At 19.36; forma adjetiva.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14301,7 +15090,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14317,6 +15106,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναντιρρήτως é sem contestação/oposição em At 10.29; advérbio, não adjetivo.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14331,7 +15129,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14347,6 +15145,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάξιος qualifica falta de aptidão ou dignidade em 1Co 6.2; não confundir com advérbio ἀναξίως.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14361,7 +15168,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14377,6 +15184,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναξίως descreve modo indigno de participar em 1Co 11.27, distinto de afirmar que determinada pessoa é ontologicamente indigna.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14391,7 +15207,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14407,6 +15223,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάπαυσις é repouso/alívio, inclusive descanso escatológico ou ausência dele; distinguir de ἀναπαύω verbal.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14421,7 +15246,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14437,6 +15262,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπαύω faz repousar, consolar, revigorar; o uso passivo e ativo muda a relação com o descanso.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14451,7 +15285,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14467,6 +15301,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπείθω é persuadir/induzir, inclusive em At 18.13; pode ter carga reprovadora pelo objeto.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14481,7 +15324,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14497,6 +15340,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπέμπω é enviar de volta ou a autoridade superior; Lucas 23 e At 25 mostram remessa judicial.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14511,7 +15363,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14527,6 +15379,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάπηρος é pessoa com limitação física nos convites de Lc 14; preservar designação antiga sem reinterpretação moral.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14541,7 +15402,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14557,6 +15418,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπίπτω é reclinar-se para comer, especialmente em refeições; não simplesmente cair para trás.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14571,7 +15441,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14587,6 +15457,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπληρόω é suprir deficiência, cumprir e completar, incluindo lei de Cristo em Gl 6.2.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14601,7 +15480,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14617,6 +15496,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπολόγητος é sem defesa ou desculpa razoável em Rm 1.20 e 2.1, juízo da responsabilidade.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14631,7 +15519,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14647,6 +15535,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀναπτύσσω é desdobrar rolo para leitura em Lc 4.17, distinto de mera abertura de códice.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {
@@ -14661,7 +15558,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -14677,6 +15574,15 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_0289_0388": {
+        "status": "DIRIGIDO_PRELIMINAR_NAO_EXAUSTIVO",
+        "fonte": "Thayer (parte 1, Α–Ι).pdf",
+        "paginas_examinadas": "33–46",
+        "pagina_exata_certificada": false,
+        "questao_dirigida": "ἀνάπτω é acender ou atear fogo em Lc 12.49, At 28.2 e Tg 3.5, com ressalva de edição em Atos.",
+        "complemento": null,
+        "revisao_integral": false
       }
     },
     {

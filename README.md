@@ -1,3 +1,7 @@
+## THAYER — lote dirigido 0289–0388, 12/10/2026
+
+Confronto filológico dirigido preliminar de **100 fichas adicionais** (ἀμοιβή–ἀνάπτω), com consulta ao fac-símile Thayer, páginas impressas 33–46 e notas individuais. O acumulado passa de 300 para **400/512 cotejos dirigidos (78,125%)**. **Auditoria filológica integral e auditoria atômica: 0/512**, com todos os 512 estados bloqueados até verificação exaustiva. Correções de escopo delimitado em `ἀμφιβάλλω`, `ἄν` e `ἀναίδεια`. Relatório e evidências: [100 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md) · [inventário JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.json).
+
 ## THAYER — 100 cotejos dirigidos adicionais, 0189–0288 (12/10/2026)
 
 A matriz registra agora **300 de 512 (58,59%) cotejos dirigidos preliminares**, após a verificação da série `ἀκμή` até `ἀμνός` (`entry-thayer-0189–0288`). A fonte foi o fac-símile do Thayer, páginas impressas 23–34; intervalos de localização são aproximados e as fichas permanecem sínteses editoriais, não traduções completas. Foram acrescentadas observações textuais às fichas `ἀκολουθέω` (Ap 18.5) e `ἀληθής` (Jo 6.55), com ajuste correspondente da busca. **Homologações completas: 0/512.** [Relatório dos 100 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.md) e [inventário nominal em JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.json).
