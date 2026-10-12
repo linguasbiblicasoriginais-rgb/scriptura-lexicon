@@ -9,7 +9,7 @@
     "initial_letter": "α",
     "batch_size": 100,
     "next_ordinal": 3301,
-    "status": "Lote 81 (ordinais 3201–3300) incorporado; 3300 verbetes DGP no manifesto; próximo ordinal 3301, ἀνέπηλα; auditoria independente, testes DOM e integração pendentes"
+    "status": "Lotes DGP 77–81 (2881–3300) incorporados à proposta de integração PR #114; total 3300 no manifesto; auditoria independente de todos os lotes e testes dinâmicos a confirmar após merge."
   },
   "batches": [
     {
@@ -631,7 +631,7 @@
       "start_entry": "ἀμέρδω",
       "end_entry": "ἀμόθι",
       "entry_count": 100,
-      "status": "incorporado; aguardando auditoria independente"
+      "status": "integrado; auditoria estática aprovada; DOM não testado"
     },
     {
       "batch": 70,
@@ -694,7 +694,7 @@
       "start_entry": "ἀνάματος, ος, ον",
       "end_entry": "ἀναπλήρωσις, εως (ἡ)",
       "entry_count": 100,
-      "status": "incorporado; auditoria textual/estrutural independente aprovada (commit 6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069); integrado via PR #86; testes de navegador e popups pendentes"
+      "status": "integrado pelo PR #86 após auditoria estática independente 100/100; testes funcionais e editoriais dinâmicos pendentes"
     },
     {
       "batch": 77,

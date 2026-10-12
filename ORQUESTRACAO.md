@@ -1,5 +1,68 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## THAYER — prova funcional Chromium (12/10/2026)
+
+PR #105 mesclado para chat-gpt-commits, merge `2231a99909714b678c5caf945864d15dd1603ef6`. Run #38205220873 confirmou DOM real com 512 pares e 1024 eventos de abertura (512 click + 512 Enter); correção da ficha ἄλφα cotejada na fonte (p. 1). Métricas distintas: estrutural/funcional 512/512; cotejo dirigido cumulativo 13/512; filologia integral 0/512; auditoria atômica concluída 0/512. Documentação: `auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md`, JSON/CSV de 512 IDs. Preservar bloqueios e não promover a concluído sem colação individual e os demais testes pertinentes.
+
+
+## THAYER — verificação atômica e regressão localizada de 512 registros (11/10/2026)
+
+Aplicou-se `regras/Rauditoria.txt`: 512/512 cartões estruturalmente coerentes, 12 suplementos com cotejo filológico dirigido, 15 URLs bíblicas conferidas e inseridas, mas 0/512 homologados integralmente por faltar colação de todas as acepções e testes reais DOM/acessibilidade. Distinguir expressamente `verificados_estaticamente=512`, `cotejados_dirigidamente=12` e `auditoria_atomica_concluida=0`. Relatório: `auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md`; evidências por ID: `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json` e `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv`. A integração dessas correções depende de PR/merge verificado. Nenhum agendamento novo, escrita em main ou alteração no tamanho do corpus resulta deste relatório.
+
+
+## REGRA SUPERIOR — auditoria atômica e corretiva de cada verbete (11/10/2026)
+
+A palavra **AUDITORIA**, em qualquer ciclo, tarefa independente ou lote, significa agora **diagnóstico integral do artigo + todas as correções fundamentadas possíveis + regressão completa + prova individual + integração efetiva**. O texto normativo superior é [`regras/Rauditoria.txt`](regras/Rauditoria.txt), complementado pelo modelo [`regras/modelo-auditoria-atomica.json`](regras/modelo-auditoria-atomica.json). Um relatório sem correção, um teste estático, uma contagem 100/100 de cartões ou uma triagem automática **não pode ser marcado como auditoria concluída**. Quando ferramenta, fonte, teste real ou decisão estiverem pendentes, marcar o artigo `BLOQUEADA`; quando faltar PR/merge, `AGUARDANDO_INTEGRACAO`. Conclusão individual somente após testes verificáveis e integração remota confirmada. A segurança de cada etapa persiste; “atômico” refere-se ao critério de aceitação por verbete, não a uma transação única entre branches.
+
+As rotinas agendadas e suas competências **não são alteradas ou ativadas** por este adendo. Manter ramos exclusivos, controle de concorrência, `expected_sha`/sem `force`, ramos de origem, proibição de commit em `main` e independência das fontes. O integrador não deve promover auditorias parcialmente realizadas a concluídas. Registros históricos continuam preservados e são classificáveis só pelo escopo efetivamente comprovado.
+
+
+## PR #88 — reconciliação técnica HALOT (11/10/2026)
+
+A conciliação preserva todos os módulos e checkpoints já integrados em `chat-gpt-commits` e acrescenta os 100 registros preliminares HALOT com a fonte canônica versionada. A tradução integral, a confirmação visual das formas hebraicas, os direitos de redistribuição e os testes em navegador permanecem pendentes. Os parágrafos abaixo com `0 verbetes` representam tentativas anteriores, não o estado posterior do lote 001. A mesclagem final requer confirmação distinta; não alterar `main` nem excluir branches.
+
+## HALOT — lote preliminar 001 (11/10/2026)
+
+Extração pela rotina `.github/workflows/halot-fonte-extracao.yml` da cópia canônica `fontes/fonte-halot.pdf`, Git blob `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O frontispício identifica a **CD-ROM Edition** de Brill, não a *Study Edition* presumida. O módulo `lexicons/halot-batch-001.js` incorpora 100 registros (1–100), com 100 linhas/cartões verificados por auditoria estática. Checkpoint `lexicons/halot-progress.json`: **100 preliminares publicados; zero aprovados filologicamente; zero integrados; próximo 101**. Glosas portuguesas são resumidas e a conversão hebraica ainda requer cotejo visual. Relatório: `auditorias/halot-2026-10-11-lote001.md`. PR #88 ainda não integrado. Esta atualização não altera agendas de outras fontes.
+
+## HALOT — autoridade da fonte Git (11/10/2026)
+
+A fonte canônica do HALOT agora é `fontes/fonte-halot.pdf`, na branch `chat-gpt-halot`, blob Git `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O URL externo das notas de 10/10 permanece histórico, sem precedência documental. O executor deve conferir SHA a cada rodada, inspecionar o PDF de fato e preservar a distinção da *Study Edition* em relação aos volumes KBS; não declarar extração nem auditoria a partir da simples confirmação de existência no GitHub. O checkpoint permanece 0 verbetes; este adendo não cria agendamento, não autoriza commits fora da branch HALOT e não afeta os demais léxicos.
+
+## HALOT — extensão documental de fonte (10/10/2026)
+
+Foi designada a fonte HALOT (*The Hebrew and Aramaic Lexicon of the Old Testament*, **Study Edition**, volume 1) e criada a branch exclusiva `chat-gpt-halot`. URL documental indicada: https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf. A regra própria é `regras/Rhalot.txt`. A indicação bibliográfica não equivale à validação textual do PDF, nem ao início de lotes.
+
+HALOT permanece **independente** de BDAG, DGP, LEH, PEREIRA e demais fontes. Escritas lexicais futuras de HALOT ocorrerão exclusivamente na sua branch, após definir e verificar o procedimento de ingestão; a consolidação em `chat-gpt-commits` exigirá PR, auditoria e merge confirmado, preservando a origem. Nenhum agendamento ou alteração automática das rotinas existentes resulta deste cadastro; listas históricas de quatro fontes/seis branches abaixo descrevem as rotinas anteriores e não são evidência de execução HALOT.
+
+## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
+
+**Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
+
+**Atenção:** o agendador atualmente disponível **não fornece seleção nem comprovação do nível High**. Os prompts exigem High quando selecionável e bloqueiam declarações de revisão High não comprovada. Ausente garantia High, limitar o trabalho a comparações determinísticas verificáveis, registrar revisão editorial pendente e **não integrar automaticamente lotes sem a aprovação exigida**. Não contratar API paga, não tocar `main` nem outras fontes, não apagar branches ou forçar push. Falhas e fases pendentes não devem descartar commits confirmados. **Nenhuma execução agendada foi ainda auditada como bem-sucedida.**
+
+O workflow GitHub Actions de validação somente leitura, criado em `main`, é uma rotina separada e não representa a execução dessas três tarefas do ChatGPT. O workflow de produção `dgp-hourly.yml` continua sem instalação em `main`. Não confundir **tarefas ChatGPT habilitadas** com **produção GitHub Actions ativada**.
+
+
+## Norma de orçamento e raciocínio — 09/10/2026 (SEM CUSTO EXTRA)
+
+**Decisão expressa do mantenedor:** o Scriptura Lexicon deve operar exclusivamente com recursos já incluídos na assinatura atual do ChatGPT e com ferramentas gratuitas disponíveis, **sem contratar a OpenAI API, créditos por tokens, upgrades de plano ou outro serviço pago**. Não criar segredos de API paga nem ativar faturamento como condição da execução. Nenhuma solução de custo adicional é autorizada.
+
+**Exigência editorial:** a etapa filológica deve usar **raciocínio High**, sem substituição silenciosa por Instant. O executor Python/GitHub Actions é determinístico e não configura nem executa um modelo High; seus testes de integridade não equivalem à auditoria lexicográfica. Tarefas agendadas internas do ChatGPT somente poderão realizar edição/auditoria automaticamente se sua interface e sua execução efetiva permitirem **selecionar e verificar High** com a assinatura existente; não presumir essa garantia.
+
+**Modo seguro atual:** manter desativada a incorporação editorial agendada e a integração automática. Usar GitHub Actions somente para validação determinística e ensaios sem custos adicionais, com gates de publicação; realizar análise filológica via sessões High do ChatGPT sob acompanhamento do mantenedor quando a modalidade High estiver disponível. Se não houver garantia de High nos agendamentos, optar por supervisão humana; não afirmar capacidade de 100 verbetes/hora desassistidos.
+
+
+## Implantação do runner: estado de preparação
+
+O executor determinístico do DGP e o workflow em `.github/workflows/dgp-hourly.yml` encontram-se preparados em `chat-gpt-commits`, mas **NÃO estão instalados na branch padrão main nem executando automaticamente**. Seus testes Python e de PR/merge ainda devem ser validados em runner antes da ativação. A variável `DGP_ALLOW_STATIC_INTEGRATION=false` impede que uma auditoria meramente textual seja considerada certificação editorial High. Consultar `docs/DGP-AUTOMACAO.md` para detalhes e critérios de liberação.
+
+
+## Regra superior de continuidade — fase exclusiva DGP (09/10/2026)
+
+Esta norma prevalece sobre a programação histórica descrita abaixo. BDAG, LEH e PEREIRA permanecem **temporariamente suspensos**. Cada ciclo DGP usa 100 verbetes e três etapas persistentes: (1) `chat-gpt-dgp`, com commit fonte; (2) `chat-gpt-correcoes`, com relatório de auditoria independente e eventuais correções; (3) PR/merge em `chat-gpt-commits`. A perda de uma etapa não apaga o commit de outra. Reconciliar o HEAD remoto antes de qualquer repetição; proibir duplicações, branches auxiliares, exclusão de origens, force push e alterações em `main` sem autorização expressa. A cadência horária e modelo High **não constituem garantias de serviço**; a programação deve ser validada antes de uso. Este texto normativo não cria, por si, agendamento algum. **Ciclo de prova nº 1 (lote 69):** incorporação 9e371763, auditoria cc47e615, merges #74 e #75 confirmados; auditoria textual 100/100, navegador pendente. Fluxo realizado manualmente, **sem agendamento automático instalado**.
+
+
 ## Princípio
 Cada fonte BDAG, DGP, LEH e PEREIRA evolui de maneira autônoma. **Revogada a ordem sequencial** e qualquer condição de aguardar outra fonte. Quatro tarefas horárias próprias incorporam lotes e **não podem abrir PR, mesclar, rebasing ou tocar `chat-gpt-commits`**. A quinta rotina, de integração a cada 3 horas (8 vezes por dia), é a única responsável por PRs de seis branches de trabalho contra `chat-gpt-commits`. Não há publicação automática em `main`.
 
@@ -37,3 +100,31 @@ Os PDFs `fontes/fonte-bdag.pdf` e `fontes/fonte-leh.pdf` são caminhos estáveis
 
 ## Segurança e concorrência
 Cada executor possui sua branch exclusiva; commits devem ser atômicos, com verificação de HEAD anterior, atualização concorrente protegida, auditoria posterior e sem force. Nem a infraestrutura comum nem a branch `main` devem sofrer alterações a partir das rotinas de incorporação.
+
+
+## Quinta tarefa efetiva: integração 3h + auditoria diária às 05h (09/10/2026)
+
+**Agendamento ativo:** frequência diária com horários **02:00, 05:00, 08:00, 11:00, 14:00, 17:00, 20:00 e 23:00**, no fuso **America/Sao_Paulo** (8 execuções diárias e intervalo de 3 horas). Os quatro agendamentos horários de incorporação permanecem autônomos e não abrem PR.
+
+**Exceção obrigatória às 05:00:** executar PRIMEIRO a auditoria diária inteira definida em `regras/Rcorrecoes.txt`, com leituras do HEAD real, revisão de verbetes, popups, referências, formatação, HTML/JS/CSS, IDs e testes de regressão; commits corretivos **apenas em `chat-gpt-correcoes`** com `expected_sha` e `force=false`. Preservar todas as regras da antiga auditoria diária. Relatar cobertura efetiva e falhas, sem inventar resultados. A antiga tarefa independente de auditoria foi pausada, mas **o compromisso das 05h não foi cancelado**.
+
+**Segunda fase às 05:00 e única fase nos demais horários:** integrar PRs das seis branches autorizadas para `chat-gpt-commits`, com análise de conflitos, verificação de merge e preservação de origens. Não misturar permissões: a fase de auditoria só escreve em `chat-gpt-correcoes`; a fase de integração apenas faz as mudanças de integração em `chat-gpt-commits`. A falha de uma fase exige aviso específico e não autoriza ocultar a outra. A verificação de integração nunca é pré-requisito para começar a auditoria das 05h.
+
+**Garantias e limites:** está confirmado o agendamento, mas não a execução futura; interrupções do serviço, da API ou do GitHub podem causar falha. Não afirmar execução sem relatório e confirmação remota. Todos os relatórios incluem a tabela de totais atuais dos quatro dicionários.
+
+## Resolução autônoma de conflitos (autorização vigente, 09/10/2026)
+
+A quinta rotina tem autorização expressa para **tomar as decisões de resolução de conflitos por conta própria**, sem pedir confirmação individual em merges. Conflitos de texto, documentação, estrutura ou estado devem ser diagnosticados e reconciliados ativamente; não interromper automaticamente o fluxo por mero `mergeable=false`.
+
+Procedimento determinístico:
+1. Ler os HEADs reais da origem e de `chat-gpt-commits`, o merge-base, o diff e os arquivos afetados. Verificar se outro agente alterou os ramos e reavaliar em caso de concorrência.
+2. Classificar cada conflito: **léxico exclusivo da fonte** (preservar conteúdo canônico novo e o conteúdo integrado de outras fontes), **documentação compartilhada** (compor alterações compatíveis, eliminar duplicações sem perder normas), **estilos/JS** (reunir funcionalidades e corrigir dependências com testes), **checkpoint/manifesto** (preservar por fonte; nunca copiar o estado de uma fonte para o caminho da outra) ou **correção editorial** (aplicar apenas quando comprovada, sem alterar silenciosamente a leitura da fonte).
+3. Verificar preservação dos registros existentes, originais e novos; `search-row`/`entry-card` correspondentes, unicidade e contagens por fonte; sintaxe, links, popups e regressões. Preservar as nove propriedades originais dos registros PEREIRA. Não escolher indiscriminadamente “ours” ou “theirs”, nem inventar conteúdo lexical.
+4. Preparar árvore de resolução sobre o HEAD do destino, com **dois pais reais** quando fizer merge manual; verificar HEAD imediatamente antes de publicar; atualizar somente `chat-gpt-commits` por `expected_sha` e `force=false`. Confirmar no GitHub o commit, o HEAD, e que o PR está `closed` **e** `merged=true`.
+5. Registrar arquivos conflitantes, decisão justificada, dados preservados, testes e SHAs. Se nenhum caminho puder ser validado com segurança, **manter o PR aberto** e relatar o bloqueio específico, mas prosseguir com as integrações independentes seguras.
+
+Essa autonomia **não** permite apagar verbetes, reescrever histórico, excluir ramos ou tocar em `main`. Mantém-se também a auditoria obrigatória das 05h como primeira fase do quinto agendamento.
+
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Após cada ciclo, auditoria, correção ou falha, o relatório ao usuário deve conter a tabela global de TODOS os dicionários (não apenas BDAG/DGP/LEH/PEREIRA), nas seis colunas canônicas e com ✓/◐/— e totais por fonte. A tabela nominal de verbetes não substitui a global. Fonte canônica da regra: `regras/Rprogresso-global.txt`; revalidar HEADs dos ramos e integração no momento do relatório. A norma de apresentação NÃO revoga a independência operacional das fontes.

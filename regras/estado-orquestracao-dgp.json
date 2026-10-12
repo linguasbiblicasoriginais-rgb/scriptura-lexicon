@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "project": "GDHAGP / Scriptura Lexicon",
+  "stage": "DGP",
+  "branch": "chat-gpt-dgp",
+  "checkpoint_authority": "remote GitHub lexical commits and canonical source-specific rules",
+  "progress_policy": "recalculate on every run; never trust conversation state or a cached SHA",
+  "source_pdf": null,
+  "source_filename_stable": null,
+  "publication": {
+    "commit_strategy": "single_atomic_commit_per_batch",
+    "expected_head_required": true,
+    "force": false,
+    "post_commit_remote_audit_required": true
+  },
+  "last_confirmed_lexical_checkpoint": {
+    "source": "DGP",
+    "total_from_manifest": 2880,
+    "total_rows_static_plus_generated": 2880,
+    "total_cards_static_plus_generated": 2880,
+    "latest_round_new_entries": 100,
+    "verified_new_rows": 100,
+    "verified_new_cards": 100,
+    "first_lemma_of_latest_batch": "ἀνάματος, ος, ον",
+    "last_lemma": "ἀναπλήρωσις, εως (ἡ)",
+    "next_lemma": "ἀναπληρωτέον",
+    "next_ordinal": 2881,
+    "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+    "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+    "new_batch": 76,
+    "batches_in_round": [
+      76
+    ],
+    "independent_audit": "APROVADA ESTÁTICA 100/100 — 6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069; auditoria editorial contextual ampliada e testes dinâmicos pendentes",
+    "functional_visual_audit": "PENDENTE",
+    "integration": "PR #86 — resolução por merge de dois pais após auditoria independente; conferir estado merged=true",
+    "corpus_structural_audit": "Lote 76: 100 linhas e 100 cartões conferidos na geração a partir do XML. Total 2880 = checkpoint anterior 2780 + 100; recontagem global independente e execução em navegador pendentes.",
+    "lexical_commit": "87d01c4b9d14454c81c866dc9daf6aee259178ca",
+    "auditor_branch": "chat-gpt-correcoes",
+    "auditor_commit": "6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069",
+    "integration_prs": [
+      80,
+      86
+    ],
+    "previous_integrated_checkpoint": {
+      "batch": 69,
+      "total": 2180,
+      "status": "auditoria estática aprovada",
+      "auditor_commit": "cc47e615e1f64919563108185146715793667912"
+    },
+    "prior_batch_75": {
+      "batch": 75,
+      "total": 2780,
+      "auditor_commit": "f28a5f282f2df7f90007c55d196044acee12b145",
+      "lexical_commit": "70f09b8348b35d7a4b82fe2eed2a2759024691cb",
+      "integration_merge_commit": "5997adc313184bc086b6a1e036d48d045aac05b5"
+    }
+  },
+  "execution": {
+    "state": "derive_from_remote",
+    "do_not_auto_skip": true,
+    "independent": true,
+    "frequency_hours": 1,
+    "wait_for_other_sources": false,
+    "active_sources": [
+      "DGP"
+    ]
+  },
+  "integration": {
+    "separate_task": true,
+    "frequency_hours": 1,
+    "source_pr_allowed": false,
+    "integrator_only_pr": true,
+    "target": "chat-gpt-commits",
+    "auditor_first": true
+  },
+  "reporting": {
+    "required_totals_table": [
+      "BDAG",
+      "DGP",
+      "LEH",
+      "PEREIRA"
+    ],
+    "remote_recheck_each_run": true
+  }
+}

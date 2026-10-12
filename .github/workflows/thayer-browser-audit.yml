@@ -1,0 +1,46 @@
+name: THAYER — auditoria funcional em navegador
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'tests/thayer-browser-audit.mjs'
+      - '.github/workflows/thayer-browser-audit.yml'
+      - 'index.html'
+      - 'script.js'
+      - 'lexicons/thayer*.js'
+  push:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'tests/thayer-browser-audit.mjs'
+      - '.github/workflows/thayer-browser-audit.yml'
+      - 'index.html'
+      - 'script.js'
+      - 'lexicons/thayer*.js'
+
+permissions:
+  contents: read
+
+jobs:
+  chromium-thayer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Chromium and Playwright
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Serve Scriptura Lexicon
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/scriptura-thayer-server.log 2>&1 &
+          sleep 2
+      - name: Verify all THAYER records in real DOM
+        run: node tests/thayer-browser-audit.mjs
+      - name: Report local server diagnostics on failure
+        if: failure()
+        run: cat /tmp/scriptura-thayer-server.log || true

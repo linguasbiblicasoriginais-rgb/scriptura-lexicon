@@ -1,0 +1,163 @@
+================================================================================
+REGRA CANÔNICA SUPERIOR — AUDITORIA ATÔMICA DE VERBETES (11/10/2026)
+================================================================================
+Em substituição ao uso histórico de “auditoria” como simples avaliação/relatório, toda auditoria de um verbete passa a incluir a verificação exaustiva da fonte, todas as correções fundamentadas, revalidação textual e filológica, testes estruturais e funcionais pertinentes, registros e integração comprovada. Ler OBRIGATORIAMENTE regras/Rauditoria.txt e preencher ficha individual conforme regras/modelo-auditoria-atomica.json. Um achado sem correção ou um teste não executado deixa o verbete EM_EXECUCAO ou BLOQUEADA, não AUDITORIA_CONCLUIDA. Uma correção publicada sem merge verificado é AGUARDANDO_INTEGRACAO. Somente evidência por artigo e merge efetivo permite contar como auditado. “Triagem estática 3300/3300” não se transforma, por esta norma, em “3300 auditorias concluídas”.
+A rotina de correções permanece autorizada a escrever SOMENTE em chat-gpt-correcoes; a integração é responsabilidade do integrador, não desta rotina. Nenhuma permissão de branch, agendamento ou custeio foi ampliada. Preservar todos os relatórios históricos e as correções comprovadas já feitas, sem reclassificá-los retroativamente.
+================================================================================
+
+RCORRECOES — PROTOCOLO DE AUDITORIA E CORRECOES DO SCRIPTURA LEXICON
+Repositório: linguasbiblicasoriginais-rgb/scriptura-lexicon
+Branch exclusiva de publicação: chat-gpt-correcoes
+Periodicidade solicitada: diariamente às 05:00, America/Sao_Paulo
+Instituído em 08/10/2026.
+
+REGRA DE OURO — PROTEÇÃO ABSOLUTA DA BRANCH DE CORREÇÕES
+Toda correção, ajuste de testes, arquivo de auditoria e atualização deste próprio protocolo pertencente a ESTE processo deve ser commitada SEMPRE E SOMENTE em chat-gpt-correcoes. Informar explicitamente branch: chat-gpt-correcoes em toda ferramenta de escrita; jamais deixar o campo branch vazio (pois o valor padrão seria main). É proibido commitar, mesclar, atualizar refs ou abrir alterações destinadas a main, chat-gpt-commits, chat-gpt-bdag, chat-gpt-dgp, chat-gpt-leh, chat-gpt-pereira e quaisquer outras branches neste processo. Leituras de outras branches são permitidas para auditoria e comparação; ESCRITAS, nunca.
+Antes de cada commit: verificar o HEAD remoto da branch de correções; comparar o conteúdo e as mudanças propostas com main; resolver conflitos somente DENTRO de chat-gpt-correcoes, sem alterar o conteúdo de main, sem apagar trabalho alheio e sem reescrever histórico. Usar mecanismo de controle concorrente, interrompendo diante de atualização remota inesperada. Depois de cada commit: confirmar SHA e branch de destino no GitHub, comparar novamente com main e registrar as pendências de integração.
+A integração segura deve ser demonstrada por verificação de merge quando possível; mera comparação de diffs não garante ausência de conflitos. Se a integração limpa não puder ser confirmada, não afirmar que não haverá conflitos e suspender correções de risco até reconciliação. Um conflito existente na ancestralidade das branches deve ser explicitamente informado: não se admite promessa absoluta de inexistência de conflitos futuros.
+A rotina não faz merge nem atualiza a branch principal. PR para main somente por iniciativa separada e expressa do usuário.
+
+1. OBJETIVO
+Revisar diariamente TODO o acervo publicado no estado real da branch, incluindo entradas recém-integradas de BDAG, DGP, LEH, PEREIRA e outras fontes existentes. Corrigir defeitos funcionais, apresentação e marcação com intervenção mínima, mantendo identidade e redação de cada léxico. Nunca realizar incorporação de novos verbetes como parte desta rotina.
+
+2. FONTE DE VERDADE E CONCORRÊNCIA
+Acessar GitHub no início de cada execução; consultar HEAD de main, chat-gpt-correcoes, chat-gpt-commits e das branches de fonte envolvidas, bem como PARALLEL_WORKFLOW.md e as regras canônicas atuais de cada fonte. Não usar SHAs antigos como autoridade.
+A tarefa horária de incorporação de verbetes pode estar ativa. Não iniciar escritas concorrentes sobre arquivos tocados por outro processo. Trabalhar na branch chat-gpt-correcoes; jamais escrever em main, chat-gpt-commits ou branches exclusivas de fontes. Não usar force-push, reescrita destrutiva de histórico, nem cherry-pick cego.
+Antes de publicar, conferir alterações remotas e reconciliar o novo HEAD. Sincronizar com main ou com o ramo de integração somente se a operação não sobrescrever nem duplicar edições; diante de conflito ou incerteza, interromper a escrita e relatar o impedimento. Nenhum processo pode prometer ausência absoluta de conflitos em futuros PRs; deve verificar compatibilidade e parar quando não puder demonstrá-la.
+
+3. VARREDURA SISTEMÁTICA
+a) Integridade estrutural: uma search-row para cada entry-card, unicidade de IDs, data-target válidos, ausência de órfãos, ordem/contagem por fonte, renderização e carregamento de módulos.
+b) Popups: inventariar TODAS as abreviaturas morfológicas, gramaticais, filológicas, editoriais e bibliográficas presentes em todos os cartões; conferir cadastro da chave, reconhecimento, ativação por hover, clique e teclado e conteúdo correto do tooltip. Conferir autores, obras, corpora, manuscritos, abreviações bíblicas e referências externas. Nunca inventar uma expansão incerta.
+c) Tipografia e texto: detectar falta/excesso de espaço (em especial abreviatura + forma grega), pontuação, aglutinações, itálicos indevidos, numeração de acepções, diacríticos Unicode, caracteres gregos politônicos e hebraicos, HTML e estilos claro/escuro.
+d) Referências: verificar hyperlinks e popups internos, URLs proibidas, links quebrados quando verificáveis, data-attributes, atributos acessíveis.
+e) Regressão: preservar integralmente conteúdo filológico e as camadas Fonte/Tradução/Análise/GDHAGP, testando visual e funcionalmente as alterações quando ferramentas permitirem.
+f) Priorizar erros que atinjam muitas entradas; coletar achados de todos os verbetes, não só os da amostra. Persistir inventário de pendências verificáveis para retomar no dia seguinte, sem supor que uma varredura parcial foi completa.
+
+4. CASOS DE REGRESSÃO OBRIGATÓRIOS
+BDAG ἀγαθοεργέω: a referência “Pitágoras, Ep. 10 p. 607” deve ser investigada quanto ao popup bibliográfico apropriado, com expansão baseada em fonte comprovada.
+DGP ἀλείφω: “fut.” deve ter tooltip “futuro” e separação tipográfica correta da forma grega “ἀλείψω”.
+As capturas de tela do usuário servem como relato de defeito, não substituem confronto com os dados e código atuais.
+
+5. EDIÇÃO E TESTES
+Preferir mudanças restritas a definições bibliográficas e ao módulo específico de cada fonte. Alterações globais de script.js, index.html ou style.css são excepcionais e exigem reconciliação com o fluxo de integração. Não modificar lotes nem manifestos de progresso lexicográfico. Adicionar testes de regressão objetivos para classes de bugs corrigidas quando viável. Validar sintaxe, integridade DOM e popups. Quando possível, verificar comportamento em navegador em tema claro/escuro e com navegação por teclado.
+Um commit pequeno por conjunto coerente de correções testadas, com mensagem descritiva; confirmar SHA e diff após gravar. Não publicar correções conjecturais. Se nada puder ser corrigido com segurança, não criar commit artificial.
+
+6. PRs E RELATÓRIO
+Comparar chat-gpt-correcoes com main a cada rodada e verificar possibilidade real de merge antes de sugerir PR. Não criar nem mesclar PR automaticamente sem solicitação do usuário. Não afirmar “sem conflitos” quando as branches divergirem ou sem teste real de merge. Registrar: data/hora, HEADs observados, universo examinado, número de erros encontrados e corrigidos por classe e por léxico, testes executados, arquivos e SHAs de commits, pendências e conflitos detectados. Não inventar contagens de verbetes examinados ou resultados de testes.
+
+ 
+7. PRESERVAÇÃO DA AUDITORIA DIÁRIA DE 05H — ALTERAÇÃO DO AGENDAMENTO (09/10/2026)
+
+A obrigação de auditoria DIÁRIA às 05h no fuso America/Sao_Paulo permanece
+INTEGRALMENTE VIGENTE, sem redução de escopo, frequência, regras de ouro,
+revisão de popups ou testes de regressão. A tarefa antiga exclusivamente de
+auditoria foi PAUSADA apenas para liberar a quinta vaga de agendamentos.
+O novo agendamento combinado "GDHAGP integração e auditoria 05h" funciona
+em oito horários: 02h, 05h, 08h, 11h, 14h, 17h, 20h e 23h. Na execução
+de 05h DEVE REALIZAR PRIMEIRO a auditoria detalhada prevista neste protocolo
+e somente depois a integração de branches. Erros de PR ou bloqueios das
+outras fontes não podem suprimir a auditoria. O serviço está agendado, mas
+a execução real deve ser comprovada e eventuais indisponibilidades
+explicitadas sem promessas de sucesso não observado.
+
+DIVISÃO DE RESPONSABILIDADES ABSOLUTA:
+- Fase de auditoria 05h: todas as leituras, auditorias, correções e commits
+  obedecem esta regra de ouro, com escrita SOMENTE em chat-gpt-correcoes.
+  Nunca criar PR ou fazer merge durante esta fase.
+- Fase subsequente de integração, executada separadamente pela quinta
+  rotina, é a ÚNICA autorizada a abrir/mesclar PRs das seis origens para
+  chat-gpt-commits, conforme regras/Rintegracao.txt na branch de integração.
+  Não atribuir a esses PRs o papel de uma edição da auditoria; não modificar
+  a branch chat-gpt-correcoes durante a etapa de integração.
+- Em todos os horários, o relatório da rotina combinada apresenta tabela
+  atualizada dos totais de verbetes BDAG, DGP, LEH e PEREIRA, com origem e
+  ressalvas de verificação; o DGP tinha 1.830 por checkpoint em 09/10/2026,
+  ainda sem reconciliação completa dos cartões.
+
+
+8. AUDITORIA INTEGRAL DO DGP — 09/10/2026
+Varredura estática de 2.080 verbetes do DGP no HEAD 5f3810a0d285d7d8977659d2adb324bed07ab55c, confrontados contra o XML fonte commit deb54b426ead447d01ced7534736f3e77be7015b. Resultado integral em auditorias/dgp-2026-10-09-integral.md. Verificados 2.080 search-row e 2.080 entry-card, 68 lotes contínuos, nenhum órfão/ID duplicado; 1.982 definições exatamente iguais, 11 diferenças de hífen discricionário, 85 diferenças por expansão editorial (uma delas também com hífen discricionário), duas divergências textuais reais (124, 150), três diferenças de lema (95, 124, 150). Foram corrigidos somente os ordinais 95, 124, 150 na branch exclusiva chat-gpt-correcoes, mais o registro de 3 popups com expansão segura. Pendências de popup, busca completa e testes DOM permanecem no relatório. NÃO alterar chat-gpt-dgp e não copiar o arquivo lexical atual por cima da versão desta branch, que ainda possui somente 1.630 registros. Integração futura exige reconciliação não destrutiva.
+
+
+================================================================================
+DGP — AUDITORIA INDEPENDENTE LOTE 69 (09/10/2026)
+================================================================================
+Correções de popup em lexicons/dgp.js sem alterar definições nem os registros
+do lote publicados em chat-gpt-dgp.
+Chaves: plat. (Platão), sóf. (Sófocles), isócr. (Isócrates),
+inter. (interrogativa), indir. (indireta), verb. (verbal).
+A auditoria cobre os 100 ordinais 2081–2180, com conferência estática
+das definições completas e dos lemas, linhas de busca, cartões e manifestos.
+A inspeção de DOM real e testes de navegação NÃO foram executados;
+não descrevê-los como concluídos.
+Relatório: auditorias/dgp-2026-10-09-lote69.md.
+Integração autorizada somente após checar PRs mesclados e HEAD destino.
+================================================================================
+
+
+================================================================================
+AUDITORIA DGP — LOTE 71 E RETIFICAÇÃO DE CONTAGEM (10/10/2026)
+================================================================================
+Confrontados 100 verbetes 2281–2380 com o XML original: 100 pares de lemas e definições, zero divergências nos cartões; ocorrência especial 2311 documentada. Auditoria estrutural do código gerador DGP: 2380 search-row, 2380 entry-card, 2380 IDs únicos, sem lacunas ou duplicações nos módulos carregados. Arrays de JS e cadeias HTML codificadas explicam os 1590 registros anteriormente invisíveis na contagem exclusivamente literal. Relatório: auditorias/dgp-2026-10-10-lote71.md. Não houve inspeção visual em navegador; integração continua sujeita a esse gate editorial. Branch de auditoria: chat-gpt-correcoes. Nenhum ordinal avançado nesta branch.
+================================================================================
+
+
+================================================================================
+DGP — AUDITORIA INDEPENDENTE DO LOTE 72 (10/10/2026)
+================================================================================
+Branch lexical auditada chat-gpt-dgp no commit bc3d7426b88a2498fc16c93ca029f5bf114b7ca5. XML deb54b426ead447d01ced7534736f3e77be7015b.
+Ordinais 2381–2480: confrontados 100 lemas e 100 definições completas com a fonte. 100 linhas, 100 cartões, 100 alvos/IDs válidos, zero divergências textuais. Verificados os quatro registros separados ἄν1, ἄν2, ἄν3, ἀν. Recontagem estática de todo o DGP carregado: 2480 linhas e 2480 cartões, IDs únicos, sem órfãos nem lacunas. Manifesto: 72 lotes, 2480 entradas.
+Relatório: auditorias/dgp-2026-10-10-lote72.md.
+PENDENTE: inspeção funcional/visual em navegador e revisão de popups dinâmicos. O processo de auditoria não publica PR nem merge; integração separada e condicionada ao gate editorial vigente.
+================================================================================
+
+
+================================================================================
+AUDITORIA DGP — LOTE 73 E MODULARIZAÇÃO (10/10/2026)
+================================================================================
+Revisado o commit lexical 61112cba69836b761b22076065c330dfaeadcf2a na branch chat-gpt-dgp. Faixa 2481–2580: 100/100 lemas e 100/100 definições originais conferidos contra o XML do DGP, índices completos e IDs correspondentes. Exceção do lema ausente #2483: grafia ἀνά proveniente apenas da própria abertura da definição, sem modificação de seu corpo. 
+Conferida a inclusão de lexicons/dgp-batch-073.js no index.html, após dgp-batches.js e antes de dgp-format.js/script.js. Os módulos históricos não carregados 005/006/007 não foram ativados. Total estático acumulado: 2580 linhas e 2580 cartões, 2580 IDs únicos para ambos, zero lacunas, duplicações ou alvos sem cartão. 73 lotes e 2580 registros no manifesto.
+Relatório: auditorias/dgp-2026-10-10-lote73.md.
+PENDÊNCIA expressa: testes de DOM real, popups dinâmicos, acessibilidade e apresentação visual. Esta auditoria não executa integração; PRs/merges exclusivos do integrador.
+================================================================================
+
+
+================================================================================
+AUDITORIA INDEPENDENTE DGP — LOTE 74 (10/10/2026)
+================================================================================
+Incorporação auditada: commit a9b29c233916c9adc265b34007c8b085c96fd972 em chat-gpt-dgp; ordinais 2581–2680, de ἀναδιδάσκω a ἀνακινδυνεύω. Confrontados os 100 lemas e 100 definições completas com o XML original imutável; zero divergências textuais, índices e data-target/IDs correspondentes.
+Recontagem do código carregado: 2680 linhas search-row, 2680 cartões entry-card, IDs únicos 1–2680 em ambos os conjuntos, zero lacunas, duplicações ou alvos órfãos. Conferida sequência do index.html com dgp-batch-074.js e sem ativar módulos auxiliares históricos.
+Relatório: auditorias/dgp-2026-10-10-lote74.md.
+APROVAÇÃO ESTÁTICA: fidelidade textual e integridade estrutural. PENDENTE: DOM real, popups, acessibilidade, responsividade, editoria visual e integração. Não criar PR/merge nesta etapa; exclusividade do integrador.
+================================================================================
+
+================================================================================
+AUDITORIA DGP GLOBAL 3300/3300 — 11/10/2026
+================================================================================
+Fonte: XML canônico letra α, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2; HEAD lexical 59d497c25c0a9bbc0a15a2d49d6586e5d6892500. Auditoria estática completa publicada em auditorias/dgp-2026-10-11-integral-3300.md e evidência estruturada em auditorias/dgp-2026-10-11-integral-3300.json.
+Todos os 3300 ordinais auditados: 3300 pares linha/cartão, zero duplicações/órfãos. 3295 lemas literais, 3 anomalias antigas #95/#124/#150 corrigidas no ramo de correções, 2 entradas sem lema no XML #2311/#2483. 3194 definições literais, 11 com hífen discricionário omitido, 93 com expansão bibliográfica e 2 com deslocamento histórico. A branch lexical contém 25 linhas sem lema pesquisável integral; #95 já havia sido corrigido na branch de correções, e foram reparados os demais 24 data-search sem alterar as definições. Controle 61–140: 80/80 completos. Permanecem fora desta conclusão testes dinâmicos, popups executados, revisão contextual filológica, acessibilidade e integração posterior. NUNCA trocar o módulo lexical mais recente por cópia antiga da branch de correções; reconciliar os patches preservando os lotes 77–81, sem touch em main.
+================================================================================
+
+================================================================================
+AUDITORIA FILOLÓGICA CONTÍNUA — PRIMEIRO LOTE DGP 1–20 (11/10/2026)
+================================================================================
+O usuário determinou que a auditoria filológica comece separadamente da auditoria textual/estrutural. Executar lotes sequenciais com confronto morfológico, semântico, sintático, de lemas/variantes, regências, citações, etimologias, homógrafos, autores/obras e remissões. Distinguir fato do DGP, evidência externa, hipótese e decisão editorial. Não substituir o texto da fonte com leituras de LSJ/BDAG/Cunliffe nem afirmar homologação integral sem prova individual. Início documentado: auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md; checkpoint: auditorias/dgp-filologia-progresso.json, filologia DGP 20/3300, próximo 21. Nesta rodada 14 entradas tiveram apoio externo dirigido e 6 análise morfológica interna, com pendências identificadas, sem mudanças conjecturais.
+PADRÃO DE RELATÓRIO SOLICITADO PELO USUÁRIO (OBRIGATÓRIO AO FINAL DE CADA PROCESSO): apresentar tabela de TODOS OS DICIONÁRIOS ATIVOS (BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER e novos que vierem) contendo: Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total de verbetes incorporados (numérico). Símbolos: ✓ etapa coberta e comprovada para o escopo expresso; ◐ parcial/em andamento; — não comprovado/pendente. Nunca usar ✓ para auditoria filológica integral de léxico auditado somente em sublote, nem confundir compromisso da fonte com integração no destino. Conferir contagens em cada HEAD remoto e qualificar números só declarados por manifesto. A coluna total numérica refere-se aos registros publicados na branch lexical, NÃO à totalidade histórica da obra.
+================================================================================
+
+
+================================================================================
+DGP — AUDITORIA FILOLÓGICA INDEPENDENTE, LOTE 002 (21–40), 11/10/2026
+================================================================================
+Arquivo de relatório: auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md. Checkpoint: auditorias/dgp-filologia-progresso.json.
+Verificados individualmente os 20 verbetes 21–40, 16 com testemunhos auxiliares consultados e 4 com análise interna. Total filológico acumulado 40/3300; próximos ordinais 41–60.
+Achados: remissão ἀβίοτος → ἀβίωτος preservada apesar de usos autônomos em LSJ; citação de ἀβλαβής em Platão, Leis 953b, reúne valores ativo e passivo; variação flexional (ἄβατος, ἀβαφής, ἀβέλτερος); nuance ἀβιώτως dependente do contexto. Corrigida apenas exibição tipográfica de "au- sência" → "ausência" no cartão DGP #38, sem mudar XML original, sem inventar sentidos ou tocar outros registros.
+A auditoria textual/estrutural global 3300/3300 continua distinta do exame filológico 40/3300, e não certifica interatividade nem integração. Em todos os resultados manter tabela de acompanhamento de BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER com 5 colunas solicitadas.
+================================================================================
+
+
+================================================================================
+JASTROW — AUDITORIA FILOLÓGICA INDEPENDENTE DE TRIAGEM, 11/10/2026
+================================================================================
+Confronto dirigido em 590 módulos editoriais A00010–A00599 contra XML Sefaria-Data; 10 primeiros no módulo-base examinados apenas de modo parcial. 600 cartões/linhas confirmados por teste estrutural anterior. Primeiro cabeçalho XML coincide com os 590 lemas editoriais (normalização conservadora). Há 32 indícios de variantes não visíveis, 2 conjuntos de grafias gregas omitidos em sínteses (A00238 e A00362) e 1 remissão inequívoca para corrigir (A00057 aponta indevidamente ao "precedente" em vez de A00055). Notas no relatório auditoria/JASTROW-2026-10-11-filologia-600.md; NÃO considerar 32 sinalizações como 32 erros provados. Revisão integral e DOM continuam pendentes; total_audited=0. Divergência com chat-gpt-commits demanda reconciliação antes de corrigir módulos; não tocar main.
+================================================================================

@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "project": "GDHAGP / Scriptura Lexicon",
-  "stage": "DGP",
-  "branch": "chat-gpt-dgp",
+  "stage": "BDAG",
+  "branch": "chat-gpt-bdag",
   "checkpoint_authority": "remote GitHub lexical commits and canonical source-specific rules",
   "progress_policy": "recalculate on every run; never trust conversation state or a cached SHA",
-  "source_pdf": null,
-  "source_filename_stable": null,
+  "source_pdf": "fontes/fonte-bdag.pdf",
+  "source_filename_stable": true,
   "publication": {
     "commit_strategy": "single_atomic_commit_per_batch",
     "expected_head_required": true,
@@ -14,54 +14,57 @@
     "post_commit_remote_audit_required": true
   },
   "last_confirmed_lexical_checkpoint": {
-    "source": "DGP",
-    "total_from_manifest": 3300,
-    "total_rows_static_plus_generated": 3300,
-    "total_cards_static_plus_generated": 3300,
-    "latest_round_new_entries": 100,
-    "verified_new_rows": 100,
-    "verified_new_cards": 100,
-    "first_lemma_of_latest_batch": "ἀνεῖναι",
-    "last_lemma": "ἀνέπεσον",
-    "next_lemma": "ἀνέπηλα",
-    "next_ordinal": 3301,
-    "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
-    "source_blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
-    "new_batch": 81,
-    "batches_in_round": [
-      81
+    "total_rows": 1161,
+    "total_cards": 1161,
+    "last_lemma": "Ἄρχιππος, ου, ὁ",
+    "next_lemma": "ἀρχιστράτηγος, ου, ὁ",
+    "first_lemma_of_latest_batch": "ἀρτηρία, ας, ἡ",
+    "last_batch_count": 20,
+    "source_pdf": "fontes/fonte-bdag.pdf",
+    "source_pdf_blob_sha": "554c1523c9f893dced39f6047ca8375d5d7ca2a0",
+    "source_pdf_pages": [
+      49,
+      50,
+      51,
+      52
     ],
-    "independent_audit": "PENDENTE — lote 81; o lote 80 necessita auditoria independente",
-    "functional_visual_audit": "PENDENTE — navegador, popups dinâmicos e acessibilidade",
-    "integration": "PENDENTE — integrar somente pela rotina de PR após auditoria",
-    "corpus_structural_audit": "Lote 81 (3201–3300): 100 lemas e definições confrontados com XML fixado; 100 pares search-row/entry-card, IDs e alvos. Total 3300 calculado pelo checkpoint 3200 + 100; auditoria independente global pendente.",
-    "lexical_commit": "HEAD remoto após publicação do lote 81 — conferir no GitHub; SHA não é conhecido ao construir a própria árvore"
+    "parent_head": "73a71c3ed4511e1c2d466b18a115d4aa73b05fe1",
+    "verified": "prepublication_source_and_structural_audit",
+    "new_bibliographic_popups": []
   },
   "execution": {
     "state": "derive_from_remote",
     "do_not_auto_skip": true,
+    "frequency_hours": 1,
     "independent": true,
-    "frequency_hours": 1,
-    "wait_for_other_sources": false,
-    "active_sources": [
-      "DGP"
-    ]
+    "pr_permitted": false,
+    "wait_for_other_sources": false
   },
-  "integration": {
-    "separate_task": true,
-    "frequency_hours": 1,
-    "source_pr_allowed": false,
-    "integrator_only_pr": true,
-    "target": "chat-gpt-commits",
-    "auditor_first": true
-  },
+  "mode": "independent-per-source",
+  "legacy_state_scope": "BDAG; not a global checkpoint; migration compatibility only",
   "reporting": {
-    "required_totals_table": [
+    "table_required_every_run": true,
+    "all_sources": [
       "BDAG",
       "DGP",
       "LEH",
       "PEREIRA"
     ],
-    "remote_recheck_each_run": true
+    "fresh_remote_totals": true
+  },
+  "integration": {
+    "frequency_hours": 3,
+    "target_branch": "chat-gpt-commits",
+    "source_branches": [
+      "chat-gpt-bdag",
+      "chat-gpt-dgp",
+      "chat-gpt-leh",
+      "chat-gpt-pereira",
+      "chat-gpt-estilos",
+      "chat-gpt-correcoes"
+    ],
+    "exclusive_pr_authority": true,
+    "delete_source_branches": false,
+    "write_main": false
   }
 }

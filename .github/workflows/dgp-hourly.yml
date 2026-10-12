@@ -1,0 +1,40 @@
+name: Scriptura Lexicon — DGP 100
+
+# Arquivo de preparação em chat-gpt-commits. Não é ativado por esta gravação.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: scriptura-dgp-hourly
+  cancel-in-progress: false
+
+jobs:
+  ciclo-dgp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-commits
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verificar motor sem modificar o repositório
+        run: python -m unittest discover -s tests -p "test_dgp_engine.py" -v
+      - name: Pré-voo remoto das três branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/dgp_orchestrator.py preflight
+      - name: Incorporar e auditar, preservando checkpoints
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DGP_ALLOW_STATIC_INTEGRATION: "false"
+        run: python tools/dgp_orchestrator.py run

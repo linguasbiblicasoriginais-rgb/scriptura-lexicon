@@ -1000,7 +1000,7 @@ window.ScripturaLexicons.DGP = {
     <div class="entry-divider"></div>
     <section class="entry-section">
         <div class="section-title">Definição do DGP</div>
-        <p class="entry-text">1 inocuidade 2 precaução; cautela 3 au- sência de mal; incolumidade; bom estado. 〈ἀβλαβής〉</p>
+        <p class="entry-text">1 inocuidade 2 precaução; cautela 3 ausência de mal; incolumidade; bom estado. 〈ἀβλαβής〉</p>
     </section>
 </article>
 
@@ -1335,3 +1335,23 @@ window.ScripturaLexicons.DGP = {
 </article>
 `
 };
+
+/* Revisão independente DGP — lote 69 (2081–2180); preservar siglas da fonte. */
+window.ScripturaLexicons.DGP.bibliographicTerms.push(
+    {key: "plat.", type: "biblio", text: "Platão — filósofo ateniense dos séculos V–IV a.C., autor de diálogos filosóficos e fundador da Academia."},
+    {key: "sóf.", type: "biblio", text: "Sófocles — poeta trágico ateniense (século V a.C.), autor de tragédias gregas."},
+    {key: "isócr.", type: "biblio", text: "Isócrates — orador e professor ateniense dos séculos V–IV a.C."},
+    {key: "inter.", type: "abbr", text: "interrogativa (em oração interrogativa indireta)"},
+    {key: "indir.", type: "abbr", text: "indireta (em oração interrogativa indireta)"},
+    {key: "verb.", type: "abbr", text: "verbal (em adjetivo verbal)"}
+);
+
+/* Auditoria DGP lote 70: siglas de identificação segura. Não cadastrar
+ * hom. globalmente: a fonte explicita Homero/homérico. */
+window.ScripturaLexicons.DGP.bibliographicTerms.push(
+    { key: "ésql.", type: "biblio", text: "Ésquilo — poeta trágico grego, autor citado pelo DGP." },
+    { key: "eur.", type: "biblio", text: "Eurípides — poeta trágico grego, autor citado pelo DGP." },
+    { key: "tuc.", type: "biblio", text: "Tucídides — historiador grego, autor citado pelo DGP." },
+    { key: "plut.", type: "biblio", text: "Plutarco — escritor e biógrafo grego, autor citado pelo DGP." },
+    { key: "irreg.", type: "abbr", text: "irregular (forma gramatical ou flexão irregular)" }
+);

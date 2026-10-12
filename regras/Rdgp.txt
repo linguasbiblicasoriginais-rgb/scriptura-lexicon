@@ -1,4 +1,10 @@
 ================================================================================
+NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
+================================================================================
+A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
+================================================================================
+
+================================================================================
 DIRETRIZ VIGENTE — FASE EXCLUSIVA DGP (09/10/2026)
 ================================================================================
 Por decisão mais recente do usuário, BDAG, LEH e PEREIRA ficam TEMPORARIAMENTE
@@ -841,7 +847,6 @@ O lote 75 teve auditoria estática independente em chat-gpt-correcoes, commit f2
 O registro de publicação é confirmado somente após verificar o HEAD remoto e a árvore do commit. Segurança: update_ref com expected_sha e force=false, sem ramificação temporária nem exclusão de branch. Bloqueios transitórios: até três tentativas seguras com nova leitura do HEAD antes de repetir; nunca anunciar sucesso por preparação de blobs.
 ================================================================================
 
-
 ================================================================================
 REGISTRO DGP — INCORPORAÇÃO MODULAR DO LOTE 77 (10/10/2026)
 ================================================================================
@@ -886,3 +891,6 @@ Incorporação exclusiva DGP de 100 entryFree consecutivos, ordinais 3201–3300
 Pré-colação estática na fonte: 100/100 lemas e 100/100 definições completas em search-row (data-search) e entry-card; IDs entry-dgp-3201 a entry-dgp-3300 consecutivos e data-target correspondentes; sem novas URLs externas. Glosas de tabela, quando necessário, são auxiliares; sinais diacríticos, hifens suaves, pontuação e grafias da fonte mantidos. Escapar texto e atributos como HTML. Verificação de pré-publicação NÃO equivale a auditoria independente nem a teste de DOM dinâmico. Checkpoint nominal: 3300 = 3200 + 100, sem alegação de recontagem integral de lotes antigos.
 Auditoria independente obrigatória posteriormente em chat-gpt-correcoes; verificação funcional/visual, popups dinâmicos e acessibilidade pendentes. O PR/merge com chat-gpt-commits é responsabilidade da rotina de integração, não da incorporação lexical. Não alterar main nem criar branches auxiliares. Publicação somente com commit atômico direto em chat-gpt-dgp, usando verificação do HEAD e update_ref sem force, com checagem do estado remoto após a escrita.
 ================================================================================
+
+
+INTEGRAÇÃO PONTUAL — PR #114 (12/10/2026): A fonte DGP contém os lotes 77–81, perfazendo 420 verbetes novos (2881–3300). Incorporar os cinco blobs canônicos sem reescrita, atualizar o index e o manifesto específicos do DGP; NÃO substituir regras/estado-orquestracao.json da integração, pois a versão consolidada é o controle legado BDAG e não o checkpoint de DGP. Registros antigos de auditoria são preservados como históricos, sem confundir pré-colação estática com revisão independente. Ver auditorias/integracao-pr-114-2026-10-12.md. Resultado do merge e CI exigem verificação posterior; manter main e branches.
