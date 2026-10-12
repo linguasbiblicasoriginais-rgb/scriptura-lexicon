@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/jastrow-browser-certificacao.yml"
       - "tests/jastrow_browser_certification.mjs"
+      - "tests/jastrow_100_atomic_attempt.mjs"
       - "lexicons/jastrow*.js"
       - "script.js"
       - "style.css"
@@ -41,11 +42,17 @@ jobs:
         run: node tests/jastrow_browser_certification.mjs
         env:
           JASTROW_TEST_URL: http://127.0.0.1:8765/#aramaico
+      - name: Avaliar criterios DOM, teclado, RTL, referencias internas e WCAG nos 100 primeiros
+        run: node tests/jastrow_100_atomic_attempt.mjs
+        env:
+          JASTROW_TEST_URL: http://127.0.0.1:8765/#aramaico
       - name: Publicar evidencias mesmo em caso de falha
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: JASTROW-600-chromium
-          path: auditoria/evidencias-jastrow-navegador/
+          path: |
+            auditoria/evidencias-jastrow-navegador/
+            auditoria/evidencias-jastrow-lote-001/
           if-no-files-found: warn
           retention-days: 30
