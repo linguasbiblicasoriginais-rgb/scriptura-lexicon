@@ -67,7 +67,11 @@ try {
     assert.deepEqual(result.errors, [], "Índices, cartões, lemas e URLs devem concordar");
 
     // Pesquisa pelo lema, com seleção de fonte THAYER.
-    await page.locator("#source-filter").selectOption("THAYER");
+    await page.locator("#source-filter").evaluate(select => {
+        // A UI usa um combobox visual; o select nativo permanece oculto.
+        select.value = "THAYER";
+        select.dispatchEvent(new Event("change", { bubbles: true }));
+    });
     await page.locator("#search-input").fill("ἀγαθός");
     const agathosRow = page.locator('tr.search-row[data-target="entry-thayer-0017"]');
     assert.equal(await agathosRow.isVisible(), true, "Pesquisa por ἀγαθός");
