@@ -1,0 +1,531 @@
+{
+  "batch": "005",
+  "part": "01",
+  "records": [
+    {
+      "id": "A00365",
+      "ordinal": 366,
+      "lemma": "אִגַּרְתָּא",
+      "source_xml": "<entry id=\"A00365\">\n<head-word>אִגַּרְתָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same;</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>v. \n<xref rid=\"A01150\">אִיגַּרְתָּא</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "54003b97e69c3d42fa454775aa9b86f78659c3eded4e48fbbaee56d8eae11df6",
+      "source_headwords": [
+        "אִגַּרְתָּא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>v. \n<xref rid=\"A01150\">אִיגַּרְתָּא</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A01150"
+      ],
+      "html_before": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אִגֶּרֶת</bdi>, carta. Remissão a <bdi lang='he' dir='rtl'>אִיגַּרְתָּא</bdi>.",
+      "html_after": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אִגֶּרֶת</bdi>, carta. Remissão a <bdi lang='he' dir='rtl'>אִיגַּרְתָּא</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00366",
+      "ordinal": 367,
+      "lemma": "אגש",
+      "source_xml": "<entry id=\"A00366\">\n<head-word>אגש</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Lam. R. to I, 21; Pesik. Anokhi p. 138\n<sup>b</sup>, v. \n<xref rid=\"unknown\">גּוּשׁ</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "5e06fdf2ca85f2e4261504b8398798f269db08732f763141c06ebde18ab42600",
+      "source_headwords": [
+        "אגש"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> Lam. R. to I, 21; Pesik. Anokhi p. 138\n<sup>b</sup>, v. \n<xref rid=\"unknown\">גּוּשׁ</xref></notes>"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "html_before": "Em Lamentações Rabá 1.21 e Pesikta Anokhi p. 138b, remete a <bdi lang='he' dir='rtl'>גּוּשׁ</bdi>.",
+      "html_after": "Em Lamentações Rabá 1.21 e Pesikta Anokhi p. 138b, remete a <bdi lang='he' dir='rtl'>גּוּשׁ</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00367",
+      "ordinal": 368,
+      "lemma": "אַדְּ־",
+      "source_xml": "<entry id=\"A00367\">\n<head-word>אַדְּ־</head-word>\n<senses>\n<sense>\n<definition> insep.</definition>\n<notes> insep. conjunct. </notes></sense>\n<sense>\n<number>1)</number>\n<definition> (= עַד דְּ־; cmp. אַ־) prop. \n<italic>until that; by the time that;</italic> hence, \n<italic>while, when</italic>, in \n<italic>the place of</italic>.</definition>\n<notes> Ḥag. 5\n<sup>a</sup> אדזוטר when he was young.—Ḥull. 105\n<sup>b</sup>, a. fr. אדהכי or אדהכי והכי \n<italic>in the meanwhile</italic>. Pes. 113\n<sup>a</sup> אדחלא אכרעיך וכ' while the travelling dust is yet on thy knees, sell thy goods. Snh. 33\n<sup>b</sup> אדמוקדך יקיד while thy fire-place is lit. B. Mets. 81\n<sup>a</sup>, a. fr. ליתני וכ'—אדתני in place of stating A let him state B, and A would be implied.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (= עַל דְּ־) \n<italic>as regards</italic>—, \n<italic>in relation to</italic> the statement &amp;c. of—.</definition>\n<notes> Keth. 21\n<sup>a</sup> אדחד דעמיה on (the testimony) of one who was with him. B. Bath. 159\n<sup>b</sup>, a. fr. קשיא דרבא אַדְּרָבָא there is a contradiction between (one opinion) of Raba and another opinion of Raba; B. Mets. 18\n<sup>a</sup> אַדְּרַבָּה … of Rabbah (not to be confounded with אַדְרַבָּא q. v.). Meg. 20\n<sup>a</sup> אַדְּיוֹם in relation to (the reading of the Book of Esther) in day-time.</notes></sense></senses></entry>\n",
+      "source_sha256": "fe05727c7b857c87ceab3f4bed931efb4d1dd7082570e0de17dd3b160db81ec2",
+      "source_headwords": [
+        "אַדְּ־"
+      ],
+      "source_senses": [
+        "\n<definition> insep.</definition>\n<notes> insep. conjunct. </notes>",
+        "\n<number>1)</number>\n<definition> (= עַד דְּ־; cmp. אַ־) prop. \n<italic>until that; by the time that;</italic> hence, \n<italic>while, when</italic>, in \n<italic>the place of</italic>.</definition>\n<notes> Ḥag. 5\n<sup>a</sup> אדזוטר when he was young.—Ḥull. 105\n<sup>b</sup>, a. fr. אדהכי or אדהכי והכי \n<italic>in the meanwhile</italic>. Pes. 113\n<sup>a</sup> אדחלא אכרעיך וכ' while the travelling dust is yet on thy knees, sell thy goods. Snh. 33\n<sup>b</sup> אדמוקדך יקיד while thy fire-place is lit. B. Mets. 81\n<sup>a</sup>, a. fr. ליתני וכ'—אדתני in place of stating A let him state B, and A would be implied.</notes>",
+        "\n<number>—2)</number>\n<definition> (= עַל דְּ־) \n<italic>as regards</italic>—, \n<italic>in relation to</italic> the statement &amp;c. of—.</definition>\n<notes> Keth. 21\n<sup>a</sup> אדחד דעמיה on (the testimony) of one who was with him. B. Bath. 159\n<sup>b</sup>, a. fr. קשיא דרבא אַדְּרָבָא there is a contradiction between (one opinion) of Raba and another opinion of Raba; B. Mets. 18\n<sup>a</sup> אַדְּרַבָּה … of Rabbah (not to be confounded with אַדְרַבָּא q. v.). Meg. 20\n<sup>a</sup> אַדְּיוֹם in relation to (the reading of the Book of Esther) in day-time.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "<strong>1.</strong> Redução de <bdi lang='he' dir='rtl'>עַד דְּ־</bdi>, “até que”, “quando”, “enquanto”: <bdi lang='he' dir='rtl'>אדהכי</bdi>, “nesse ínterim”; Hagigah 5a, Hulin 105b. Pesahim 113a usa “enquanto a poeira da viagem ainda está nos joelhos”. Pode significar “em vez de”, como na expressão “em vez de afirmar A, afirme B” (Bava Metzia 81a). <strong>2.</strong> Equivalente a <bdi lang='he' dir='rtl'>עַל דְּ־</bdi>, “a respeito de”: Ketubot 21a, sobre testemunho; Bava Batra 159b, uma opinião de Rava contraposta a outra; Meguilá 20a, leitura diurna da Meguilá. Não confundir <bdi lang='he' dir='rtl'>אַדְּרָבָּה</bdi> com <bdi lang='he' dir='rtl'>אַדְרַבָּא</bdi>.",
+      "html_after": "<strong>1.</strong> Redução de <bdi lang='he' dir='rtl'>עַד דְּ־</bdi>, “até que”, “quando”, “enquanto”: <bdi lang='he' dir='rtl'>אדהכי</bdi>, “nesse ínterim”; Hagigah 5a, Hulin 105b. Pesahim 113a usa “enquanto a poeira da viagem ainda está nos joelhos”. Pode significar “em vez de”, como na expressão “em vez de afirmar A, afirme B” (Bava Metzia 81a). <strong>2.</strong> Equivalente a <bdi lang='he' dir='rtl'>עַל דְּ־</bdi>, “a respeito de”: Ketubot 21a, sobre testemunho; Bava Batra 159b, uma opinião de Rava contraposta a outra; Meguilá 20a, leitura diurna da Meguilá. Não confundir <bdi lang='he' dir='rtl'>אַדְּרָבָּה</bdi> com <bdi lang='he' dir='rtl'>אַדְרַבָּא</bdi>. <strong>Aparato filológico — lote 005:</strong> <strong>Construções e distribuição dos exemplos:</strong> 1. <bdi lang='he' dir='rtl'>אַדְּ־</bdi> contrai <bdi lang='he' dir='rtl'>עַד דְּ־</bdi>, com valor temporal «até que», «quando», «enquanto» (<bdi lang='he' dir='rtl'>אדזוטר</bdi>, Hagigá 5a), ou substitutivo «em vez de» (<bdi lang='he' dir='rtl'>אדתני</bdi>, Bava Metzia 81a). <bdi lang='he' dir='rtl'>אדהכי והכי</bdi> significa «enquanto isso» (Hulin 105b); <bdi lang='he' dir='rtl'>אדמוקדך יקיד</bdi>, «enquanto teu fogo arde» (Sanhedrin 33b); a poeira da viagem em Pesahim 113a serve de advertência proverbial para vender logo a mercadoria. 2. Contração de <bdi lang='he' dir='rtl'>עַל דְּ־</bdi>, «quanto a/relativamente a»: <bdi lang='he' dir='rtl'>אדחד דעמיה</bdi>, «quanto ao testemunho de quem estava com ele» (Ketubot 21a); <bdi lang='he' dir='rtl'>אַדְּרָבָא</bdi>, contraposição de ensinamentos de Rava (Bava Batra 159b), e <bdi lang='he' dir='rtl'>אַדְּרַבָּה</bdi>, «de Rabbah» (Bava Metzia 18a), não intercambiáveis com a partícula adversativa <bdi lang='he' dir='rtl'>אַדְרַבָּא</bdi>; <bdi lang='he' dir='rtl'>אַדְּיוֹם</bdi> refere-se à leitura da Meguilá de dia (Meguilá 20a). A distinção de homógrafos resulta do uso e da análise do lexicógrafo.",
+      "result": "C",
+      "decision": "<strong>Construções e distribuição dos exemplos:</strong> 1. <bdi lang='he' dir='rtl'>אַדְּ־</bdi> contrai <bdi lang='he' dir='rtl'>עַד דְּ־</bdi>, com valor temporal «até que», «quando», «enquanto» (<bdi lang='he' dir='rtl'>אדזוטר</bdi>, Hagigá 5a), ou substitutivo «em vez de» (<bdi lang='he' dir='rtl'>אדתני</bdi>, Bava Metzia 81a). <bdi lang='he' dir='rtl'>אדהכי והכי</bdi> significa «enquanto isso» (Hulin 105b); <bdi lang='he' dir='rtl'>אדמוקדך יקיד</bdi>, «enquanto teu fogo arde» (Sanhedrin 33b); a poeira da viagem em Pesahim 113a serve de advertência proverbial para vender logo a mercadoria. 2. Contração de <bdi lang='he' dir='rtl'>עַל דְּ־</bdi>, «quanto a/relativamente a»: <bdi lang='he' dir='rtl'>אדחד דעמיה</bdi>, «quanto ao testemunho de quem estava com ele» (Ketubot 21a); <bdi lang='he' dir='rtl'>אַדְּרָבָא</bdi>, contraposição de ensinamentos de Rava (Bava Batra 159b), e <bdi lang='he' dir='rtl'>אַדְּרַבָּה</bdi>, «de Rabbah» (Bava Metzia 18a), não intercambiáveis com a partícula adversativa <bdi lang='he' dir='rtl'>אַדְרַבָּא</bdi>; <bdi lang='he' dir='rtl'>אַדְּיוֹם</bdi> refere-se à leitura da Meguilá de dia (Meguilá 20a). A distinção de homógrafos resulta do uso e da análise do lexicógrafo.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00368",
+      "ordinal": 369,
+      "lemma": "אֵד",
+      "source_xml": "<entry id=\"A00368\">\n<head-word>אֵד</head-word>\n<pos> m.</pos>\n<language-key>(b. h.,</language-key>\n<language-reference>\n<xref rid=\"unknown\"> an apocopated form of אדע</xref>,\n<xref rid=\"G00217\"> cmp. זוע</xref>,\n<xref rid=\"A00396\"> אדיותא</xref>,\n<xref rid=\"A00083\"> נֹאד)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>vapor, cloud</italic>.</definition>\n<notes> Gen. R. s. 13 (homil. etym.). אד שהוא שובר אידן וכ' cloud is called \n<italic>ēd</italic> (destroyer) because it breaks the \n<italic>ēd</italic> (distress of scarcity) looked forward to by the speculators in the market. V. אֵיד.</notes></sense></senses></entry>\n",
+      "source_sha256": "e40b640e0acf9f95bc06ffb358ef1cb2a6540e5b5aa00063f9a41705325f9fc8",
+      "source_headwords": [
+        "אֵד"
+      ],
+      "source_senses": [
+        "\n<definition>\n<italic>vapor, cloud</italic>.</definition>\n<notes> Gen. R. s. 13 (homil. etym.). אד שהוא שובר אידן וכ' cloud is called \n<italic>ēd</italic> (destroyer) because it breaks the \n<italic>ēd</italic> (distress of scarcity) looked forward to by the speculators in the market. V. אֵיד.</notes>"
+      ],
+      "source_xrefs": [
+        "unknown",
+        "G00217",
+        "A00396",
+        "A00083"
+      ],
+      "html_before": "Vapor ou nuvem; Gênesis Rabá 13 apresenta etimologia homilética segundo a qual a nuvem destrói a escassez antecipada pelos especuladores. Jastrow aproxima <bdi lang='he' dir='rtl'>אֵיד</bdi>; a derivação é proposta, não estabelecida.",
+      "html_after": "Vapor ou nuvem; Gênesis Rabá 13 apresenta etimologia homilética segundo a qual a nuvem destrói a escassez antecipada pelos especuladores. Jastrow aproxima <bdi lang='he' dir='rtl'>אֵיד</bdi>; a derivação é proposta, não estabelecida. <strong>Aparato filológico — lote 005:</strong> <strong>Etimologia e jogo homilético:</strong> Jastrow apresenta <bdi lang='he' dir='rtl'>אֵד</bdi>, «vapor; nuvem», como forma apocopada hipotética de <bdi lang='he' dir='rtl'>אדע</bdi>, comparando <bdi lang='he' dir='rtl'>זוע</bdi>, <bdi lang='he' dir='rtl'>אַדָּיוּתָא</bdi> e <bdi lang='he' dir='rtl'>נֹאד</bdi>. Gênesis Rabá §13 emprega <bdi lang='he' dir='rtl'>אד שהוא שובר אידן</bdi>: a nuvem, chamada <i>ed</i>, «quebra» o <i>ed</i>, a aflição pela escassez antecipada pelos especuladores do mercado. Trata-se de paronomásia e explicação homilética, não derivação histórica comprovada de «destruição» a partir de «nuvem»; cf. <bdi lang='he' dir='rtl'>אֵיד</bdi>.",
+      "result": "C",
+      "decision": "<strong>Etimologia e jogo homilético:</strong> Jastrow apresenta <bdi lang='he' dir='rtl'>אֵד</bdi>, «vapor; nuvem», como forma apocopada hipotética de <bdi lang='he' dir='rtl'>אדע</bdi>, comparando <bdi lang='he' dir='rtl'>זוע</bdi>, <bdi lang='he' dir='rtl'>אַדָּיוּתָא</bdi> e <bdi lang='he' dir='rtl'>נֹאד</bdi>. Gênesis Rabá §13 emprega <bdi lang='he' dir='rtl'>אד שהוא שובר אידן</bdi>: a nuvem, chamada <i>ed</i>, «quebra» o <i>ed</i>, a aflição pela escassez antecipada pelos especuladores do mercado. Trata-se de paronomásia e explicação homilética, não derivação histórica comprovada de «destruição» a partir de «nuvem»; cf. <bdi lang='he' dir='rtl'>אֵיד</bdi>.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00369",
+      "ordinal": 370,
+      "lemma": "אָדָא,",
+      "source_xml": "<entry id=\"A00369\">\n<head-word>אָדָא, </head-word>\n<hw-number>I</hw-number>\n<head-word>הָדָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"unknown\">הָא</xref>) \n<italic>this, that</italic>.</definition>\n<notes> Y. Ber. III. end, 7\n<sup>a</sup>, a. fr. הדא אמרת היא הדא היא א' this shows that this is like that, i.e. \n<italic>all the same</italic>. Y. Erub. IV, end, 22\n<sup>a</sup>; a. fr.</notes></sense></senses></entry>\n",
+      "source_sha256": "ff4136b0a495d3b6f6e7bcfec578d31f2f0f97635624d3ec873142998c2a5e34",
+      "source_headwords": [
+        "אָדָא, ",
+        "הָדָא"
+      ],
+      "source_senses": [
+        "\n<definition> (v. \n<xref rid=\"unknown\">הָא</xref>) \n<italic>this, that</italic>.</definition>\n<notes> Y. Ber. III. end, 7\n<sup>a</sup>, a. fr. הדא אמרת היא הדא היא א' this shows that this is like that, i.e. \n<italic>all the same</italic>. Y. Erub. IV, end, 22\n<sup>a</sup>; a. fr.</notes>"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "html_before": "Variantes <bdi lang='he' dir='rtl'>אָדָא, הָדָא</bdi>; “esta, aquela”. Jerusalém Berakhot 3: <bdi lang='he' dir='rtl'>הדא אמרת</bdi>, “isto demonstra que”; a expressão compara uma situação à outra. Jerusalém Eruvin 4, 22a e outras passagens.",
+      "html_after": "Variantes <bdi lang='he' dir='rtl'>אָדָא, הָדָא</bdi>; “esta, aquela”. Jerusalém Berakhot 3: <bdi lang='he' dir='rtl'>הדא אמרת</bdi>, “isto demonstra que”; a expressão compara uma situação à outra. Jerusalém Eruvin 4, 22a e outras passagens.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00372",
+      "ordinal": 373,
+      "lemma": "אָדָא,",
+      "source_xml": "<entry id=\"A00372\">\n<head-word>אָדָא, </head-word>\n<hw-number>IV</hw-number>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<senses>\n<sense>\n<definition> צֹדֶה; cmp. b. h. עַד \n<italic>prey</italic>, a. אֵיד \n<italic>destruction</italic>) \n<italic>fowler, one who puts up baits, snares</italic> &amp;c. for other people’s doves.</definition>\n<notes> Snh. 25\n<sup>a</sup> (explain. \n<italic>mafri</italic>\n<italic>ḥ</italic>\n<italic>e yonim</italic>, Mishn.) אמר א'—ר' Ms. M. a. Oxf., a. Ar. (ed. ארא; v. Rabb. D. S. a. l., a. Ar.) R—says, the Mishnah means a fowler (to be disqualified as witness &amp;c.).</notes></sense></senses></entry>\n",
+      "source_sha256": "c6fda9bb93205f8495a071332cc68e5caff255ee94626844a99ef8faa6dc3852",
+      "source_headwords": [
+        "אָדָא, "
+      ],
+      "source_senses": [
+        "\n<definition> צֹדֶה; cmp. b. h. עַד \n<italic>prey</italic>, a. אֵיד \n<italic>destruction</italic>) \n<italic>fowler, one who puts up baits, snares</italic> &amp;c. for other people’s doves.</definition>\n<notes> Snh. 25\n<sup>a</sup> (explain. \n<italic>mafri</italic>\n<italic>ḥ</italic>\n<italic>e yonim</italic>, Mishn.) אמר א'—ר' Ms. M. a. Oxf., a. Ar. (ed. ארא; v. Rabb. D. S. a. l., a. Ar.) R—says, the Mishnah means a fowler (to be disqualified as witness &amp;c.).</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Pessoa que captura aves por armadilhas ou iscas, particularmente pombos de outros proprietários. Sanhedrin 25a explica <bdi lang='he' dir='rtl'>מפריחי יונים</bdi> da Mishná como passarinheiro, suscetível à desqualificação testemunhal; o manuscrito de Munique e o <i>Arukh</i> diferem das edições.",
+      "html_after": "Pessoa que captura aves por armadilhas ou iscas, particularmente pombos de outros proprietários. Sanhedrin 25a explica <bdi lang='he' dir='rtl'>מפריחי יונים</bdi> da Mishná como passarinheiro, suscetível à desqualificação testemunhal; o manuscrito de Munique e o <i>Arukh</i> diferem das edições. <strong>Aparato filológico — lote 005:</strong> <strong>Aparato de Sanhedrin 25a:</strong> Jastrow identifica o segundo nome/homógrafo masculino <bdi lang='he' dir='rtl'>אָדָא</bdi> IV com «passarinheiro», alguém que arma iscas ou redes para capturar os pombos de terceiros. A forma <bdi lang='he' dir='rtl'>אמר א׳—ר׳</bdi> é atribuída aos manuscritos de Munique e Oxford e ao <i>Arukh</i>, enquanto a edição lê <bdi lang='he' dir='rtl'>ארא</bdi>; a discussão da lição se encontra em Rabbinovicz, <i>Dikdukei Soferim</i>, nota à passagem. A glosa relaciona <bdi lang='he' dir='rtl'>מפריחי יונים</bdi> à desqualificação judicial de testemunhas. Jastrow também compara <bdi lang='he' dir='rtl'>צֹדֶה</bdi>, <bdi lang='he' dir='rtl'>עַד</bdi> e <bdi lang='he' dir='rtl'>אֵיד</bdi>, sem afirmar que os três sejam a mesma forma lexicográfica.",
+      "result": "C",
+      "decision": "<strong>Aparato de Sanhedrin 25a:</strong> Jastrow identifica o segundo nome/homógrafo masculino <bdi lang='he' dir='rtl'>אָדָא</bdi> IV com «passarinheiro», alguém que arma iscas ou redes para capturar os pombos de terceiros. A forma <bdi lang='he' dir='rtl'>אמר א׳—ר׳</bdi> é atribuída aos manuscritos de Munique e Oxford e ao <i>Arukh</i>, enquanto a edição lê <bdi lang='he' dir='rtl'>ארא</bdi>; a discussão da lição se encontra em Rabbinovicz, <i>Dikdukei Soferim</i>, nota à passagem. A glosa relaciona <bdi lang='he' dir='rtl'>מפריחי יונים</bdi> à desqualificação judicial de testemunhas. Jastrow também compara <bdi lang='he' dir='rtl'>צֹדֶה</bdi>, <bdi lang='he' dir='rtl'>עַד</bdi> e <bdi lang='he' dir='rtl'>אֵיד</bdi>, sem afirmar que os três sejam a mesma forma lexicográfica.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00373",
+      "ordinal": 374,
+      "lemma": "אדאני",
+      "source_xml": "<entry id=\"A00373\">\n<head-word>אדאני</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Sabb. 35\n<sup>b</sup>, v. \n<xref rid=\"A03037\">אֲרוֹנֵי</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "9f4f750c3c7c41852d72aee3fedd52a6d7f868af663ffb37add0da3c3bcf1cff",
+      "source_headwords": [
+        "אדאני"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> Sabb. 35\n<sup>b</sup>, v. \n<xref rid=\"A03037\">אֲרוֹנֵי</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A03037"
+      ],
+      "html_before": "Leitura de Shabbat 35b remetida a <bdi lang='he' dir='rtl'>אֲרוֹנֵי</bdi>.",
+      "html_after": "Leitura de Shabbat 35b remetida a <bdi lang='he' dir='rtl'>אֲרוֹנֵי</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00374",
+      "ordinal": 375,
+      "lemma": "אדבאל",
+      "source_xml": "<entry id=\"A00374\">\n<head-word>אדבאל</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Maas. Sh. IV, 54\n<sup>d</sup> top, v. \n<xref rid=\"A02961\">אַרְבֵּל I</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "b69075303d261e0903d69ed832b9bb331bce5c445e440f90e57fb1d9283d0000",
+      "source_headwords": [
+        "אדבאל"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> Y. Maas. Sh. IV, 54\n<sup>d</sup> top, v. \n<xref rid=\"A02961\">אַרְבֵּל I</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A02961"
+      ],
+      "html_before": "Em Jerusalém Maaser Sheni 4, 54d, remete a <bdi lang='he' dir='rtl'>אַרְבֵּל</bdi> I.",
+      "html_after": "Em Jerusalém Maaser Sheni 4, 54d, remete a <bdi lang='he' dir='rtl'>אַרְבֵּל</bdi> I.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00375",
+      "ordinal": 376,
+      "lemma": "אֶדְבַּע,",
+      "source_xml": "<entry id=\"A00375\">\n<head-word>אֶדְבַּע, </head-word>\n<head-word>אֶדְבְּעָא</head-word>\n<pos> f.</pos>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אֶצְבַּע)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>finger</italic>.</definition>\n<notes> Targ. Y. Num. XIX, 4; a. e.</notes></sense></senses></entry>\n",
+      "source_sha256": "e171ff2b7d848d4b81ed4e39cd69abd9a12b1d7ae01c01b33e7ba9fb8efc5270",
+      "source_headwords": [
+        "אֶדְבַּע, ",
+        "אֶדְבְּעָא"
+      ],
+      "source_senses": [
+        "\n<definition>\n<italic>finger</italic>.</definition>\n<notes> Targ. Y. Num. XIX, 4; a. e.</notes>"
+      ],
+      "source_xrefs": [
+        "A00083"
+      ],
+      "html_before": "Formas <bdi lang='he' dir='rtl'>אֶדְבַּע, אֶדְבְּעָא</bdi>, equivalentes ao hebraico <bdi lang='he' dir='rtl'>אֶצְבַּע</bdi>, “dedo”; Targum Pseudo-Jônatas Números 19.4.",
+      "html_after": "Formas <bdi lang='he' dir='rtl'>אֶדְבַּע, אֶדְבְּעָא</bdi>, equivalentes ao hebraico <bdi lang='he' dir='rtl'>אֶצְבַּע</bdi>, “dedo”; Targum Pseudo-Jônatas Números 19.4.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00376",
+      "ordinal": 377,
+      "lemma": "אַדְדָא",
+      "source_xml": "<entry id=\"A00376\">\n<head-word>אַדְדָא</head-word>\n<language-key> Ar.,</language-key>\n<senses>\n<sense>\n<definition> (אַדְרָא ed.)\n<pos> m.</pos> (√אד, v. \n<xref rid=\"A00441\">אָדַר</xref>, cmp. חד, חדר, חדק &amp;c.) \n<italic>fish-bone</italic> sticking in the throat.</definition>\n<notes> Sabb. 67\n<sup>a</sup> לא' וכ' against a fish-bone in the throat, say this spell. [For דד a. דר cmp. אודדא.]</notes></sense></senses></entry>\n",
+      "source_sha256": "fda257ea5614f677a885b7a70b137ac0a809929a7ef76b81b252ced32213e313",
+      "source_headwords": [
+        "אַדְדָא"
+      ],
+      "source_senses": [
+        "\n<definition> (אַדְרָא ed.)\n<pos> m.</pos> (√אד, v. \n<xref rid=\"A00441\">אָדַר</xref>, cmp. חד, חדר, חדק &amp;c.) \n<italic>fish-bone</italic> sticking in the throat.</definition>\n<notes> Sabb. 67\n<sup>a</sup> לא' וכ' against a fish-bone in the throat, say this spell. [For דד a. דר cmp. אודדא.]</notes>"
+      ],
+      "source_xrefs": [
+        "A00441"
+      ],
+      "html_before": "A forma do <i>Arukh</i> <bdi lang='he' dir='rtl'>אַדְדָא</bdi> (nas edições <bdi lang='he' dir='rtl'>אַדְרָא</bdi>) refere-se a espinha de peixe atravessada na garganta. Shabbat 67a transmite fórmula de encantamento para essa ocorrência. Jastrow compara variantes consonantais.",
+      "html_after": "A forma do <i>Arukh</i> <bdi lang='he' dir='rtl'>אַדְדָא</bdi> (nas edições <bdi lang='he' dir='rtl'>אַדְרָא</bdi>) refere-se a espinha de peixe atravessada na garganta. Shabbat 67a transmite fórmula de encantamento para essa ocorrência. Jastrow compara variantes consonantais. <strong>Aparato filológico — lote 005:</strong> <strong>Grafias e interpretação da fórmula:</strong> <bdi lang='he' dir='rtl'>אַדְדָא</bdi> é a forma do <i>Arukh</i>; a edição imprime <bdi lang='he' dir='rtl'>אַדְרָא</bdi>. Shabbat 67a registra <bdi lang='he' dir='rtl'>לא׳</bdi> numa fórmula de encantamento «contra a espinha de peixe presa na garganta»; o ritual é contexto do uso, não significado inerente ao vocábulo. As aproximações às raízes <bdi lang='he' dir='rtl'>אד</bdi>, <bdi lang='he' dir='rtl'>חד, חדר, חדק</bdi> e a alternância de <i>dalet/resh</i> (cf. <bdi lang='he' dir='rtl'>אודדא</bdi>) pertencem à análise etimológica do lexicógrafo.",
+      "result": "C",
+      "decision": "<strong>Grafias e interpretação da fórmula:</strong> <bdi lang='he' dir='rtl'>אַדְדָא</bdi> é a forma do <i>Arukh</i>; a edição imprime <bdi lang='he' dir='rtl'>אַדְרָא</bdi>. Shabbat 67a registra <bdi lang='he' dir='rtl'>לא׳</bdi> numa fórmula de encantamento «contra a espinha de peixe presa na garganta»; o ritual é contexto do uso, não significado inerente ao vocábulo. As aproximações às raízes <bdi lang='he' dir='rtl'>אד</bdi>, <bdi lang='he' dir='rtl'>חד, חדר, חדק</bdi> e a alternância de <i>dalet/resh</i> (cf. <bdi lang='he' dir='rtl'>אודדא</bdi>) pertencem à análise etimológica do lexicógrafo.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00377",
+      "ordinal": 378,
+      "lemma": "אדדם",
+      "source_xml": "<entry id=\"A00377\">\n<head-word>אדדם</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Cant. R. to IV, 8, v. \n<xref rid=\"D00131\">דדי</xref> ch.</notes></sense></senses></entry>\n",
+      "source_sha256": "6e6ea3829645562d45520d04b8ff64a1a5e64ea75c5e5dd7f7da60b4d860c4ba",
+      "source_headwords": [
+        "אדדם"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> Cant. R. to IV, 8, v. \n<xref rid=\"D00131\">דדי</xref> ch.</notes>"
+      ],
+      "source_xrefs": [
+        "D00131"
+      ],
+      "html_before": "Forma de Cântico dos Cânticos Rabá 4.8 remetida a <bdi lang='he' dir='rtl'>דדי</bdi>, aramaico.",
+      "html_after": "Forma de Cântico dos Cânticos Rabá 4.8 remetida a <bdi lang='he' dir='rtl'>דדי</bdi>, aramaico.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00378",
+      "ordinal": 379,
+      "lemma": "אדהי",
+      "source_xml": "<entry id=\"A00378\">\n<head-word>אדהי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Kil. IV, 29\n<sup>b</sup>, bot., read אָדָא I (cmp. Y. Erub I 19\n<sup>c</sup> bot. הדה וכ' a. corr. acc.)</notes></sense></senses></entry>\n",
+      "source_sha256": "02503587f09aac26901c1c47009848c577f1cc78e548bb7e095b0d86b1c35da3",
+      "source_headwords": [
+        "אדהי"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, Y. Kil. IV, 29\n<sup>b</sup>, bot., read אָדָא I (cmp. Y. Erub I 19\n<sup>c</sup> bot. הדה וכ' a. corr. acc.)</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Em Jerusalém Kilayim 4, 29b, Jastrow recomenda ler <bdi lang='he' dir='rtl'>אָדָא</bdi> I; comparar Jerusalém Eruvin 1, 19c.",
+      "html_after": "Em Jerusalém Kilayim 4, 29b, Jastrow recomenda ler <bdi lang='he' dir='rtl'>אָדָא</bdi> I; comparar Jerusalém Eruvin 1, 19c.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00379",
+      "ordinal": 380,
+      "lemma": "אַדְּהָכִי",
+      "source_xml": "<entry id=\"A00379\">\n<head-word>אַדְּהָכִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> v. \n<xref rid=\"A00367\">אַדְּ־</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "f10215eab1cb19e7db30975bd224936abe5cdfc141058346f2713f648d34a5c7",
+      "source_headwords": [
+        "אַדְּהָכִי"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> v. \n<xref rid=\"A00367\">אַדְּ־</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00367"
+      ],
+      "html_before": "Forma <bdi lang='he' dir='rtl'>אַדְּהָכִי</bdi>, “nesse ínterim”, remetida à conjunção <bdi lang='he' dir='rtl'>אַדְּ־</bdi>.",
+      "html_after": "Forma <bdi lang='he' dir='rtl'>אַדְּהָכִי</bdi>, “nesse ínterim”, remetida à conjunção <bdi lang='he' dir='rtl'>אַדְּ־</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00381",
+      "ordinal": 382,
+      "lemma": "אֲדוּכֵי",
+      "source_xml": "<entry id=\"A00381\">\n<head-word>אֲדוּכֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"D00242\">דּוּךְ</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "dc45743023847a6f125912a2a09ab5711ae112b60e0e2d1b68b725d08b8fa7f9",
+      "source_headwords": [
+        "אֲדוּכֵי"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"D00242\">דּוּךְ</xref></notes>"
+      ],
+      "source_xrefs": [
+        "D00242"
+      ],
+      "html_before": "Forma remetida a <bdi lang='he' dir='rtl'>דּוּךְ</bdi>.",
+      "html_after": "Forma remetida a <bdi lang='he' dir='rtl'>דּוּךְ</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00382",
+      "ordinal": 383,
+      "lemma": "אָדוֹם",
+      "source_xml": "<entry id=\"A00382\">\n<head-word>אָדוֹם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, אֲדוּמָּה f. \n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00416\">אָדֹם</xref>,\n<xref rid=\"unknown\"> אֲדֻמָּה; דמם)</xref></language-reference>\n<italic>red</italic>.</definition>\n<notes> Cant. R. to VII, 3, שושנה א' red rose (euphem. for menstruation).—פרה א' \n<italic>red cow</italic>, used for purification ceremonies \n<pgbrk id=\"pg16\" />(Num. XIX). Ab. Zar. 24\n<sup>a</sup>; a. fr.—Lam. R. to IV, 5, v. קְלוּרִית.—\n<plural-form>Pl. אֲדוּמִּים, אֲדוּמּוֹת;</plural-form> Y. Succ. II, 53\n<sup>d</sup>, v. אֲדַמְדָּם.—Gen. R. s. 89; a. fr.</notes></sense></senses></entry>\n",
+      "source_sha256": "257b18b1f7f889bf8b994b24382a6e6dc1abad72fe96d79e662d5d8d8549c4ef",
+      "source_headwords": [
+        "אָדוֹם"
+      ],
+      "source_senses": [
+        "\n<definition>, אֲדוּמָּה f. \n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00416\">אָדֹם</xref>,\n<xref rid=\"unknown\"> אֲדֻמָּה; דמם)</xref></language-reference>\n<italic>red</italic>.</definition>\n<notes> Cant. R. to VII, 3, שושנה א' red rose (euphem. for menstruation).—פרה א' \n<italic>red cow</italic>, used for purification ceremonies \n<pgbrk id=\"pg16\" />(Num. XIX). Ab. Zar. 24\n<sup>a</sup>; a. fr.—Lam. R. to IV, 5, v. קְלוּרִית.—\n<plural-form>Pl. אֲדוּמִּים, אֲדוּמּוֹת;</plural-form> Y. Succ. II, 53\n<sup>d</sup>, v. אֲדַמְדָּם.—Gen. R. s. 89; a. fr.</notes>"
+      ],
+      "source_xrefs": [
+        "A00416",
+        "unknown"
+      ],
+      "html_before": "Masculino <bdi lang='he' dir='rtl'>אָדוֹם</bdi>, feminino <bdi lang='he' dir='rtl'>אֲדוּמָּה</bdi>. Cântico dos Cânticos Rabá 7.3: rosa vermelha como eufemismo de menstruação. <bdi lang='he' dir='rtl'>פרה אדומה</bdi>, novilha vermelha usada nos ritos de purificação de Números 19 (Avodah Zarah 24a). Plural <bdi lang='he' dir='rtl'>אֲדוּמִּים, אֲדוּמּוֹת</bdi>; Jerusalém Sucá 2, 53d, comparar <bdi lang='he' dir='rtl'>אֲדַמְדָּם</bdi>.",
+      "html_after": "Masculino <bdi lang='he' dir='rtl'>אָדוֹם</bdi>, feminino <bdi lang='he' dir='rtl'>אֲדוּמָּה</bdi>. Cântico dos Cânticos Rabá 7.3: rosa vermelha como eufemismo de menstruação. <bdi lang='he' dir='rtl'>פרה אדומה</bdi>, novilha vermelha usada nos ritos de purificação de Números 19 (Avodah Zarah 24a). Plural <bdi lang='he' dir='rtl'>אֲדוּמִּים, אֲדוּמּוֹת</bdi>; Jerusalém Sucá 2, 53d, comparar <bdi lang='he' dir='rtl'>אֲדַמְדָּם</bdi>. <strong>Aparato filológico — lote 005:</strong> <strong>Flexões e paralelos:</strong> Jastrow registra adjetivo masculino <bdi lang='he' dir='rtl'>אָדוֹם</bdi> e feminino <bdi lang='he' dir='rtl'>אֲדוּמָּה</bdi>, plurais <bdi lang='he' dir='rtl'>אֲדוּמִּים</bdi> e <bdi lang='he' dir='rtl'>אֲדוּמּוֹת</bdi>. Em Cântico Rabá a 7.3, <bdi lang='he' dir='rtl'>שושנה א׳</bdi> («rosa vermelha») é eufemismo para menstruação; em Avodah Zarah 24a, <bdi lang='he' dir='rtl'>פרה א׳</bdi> é a novilha vermelha dos ritos de purificação de Números 19. A obra cita ainda Lamentações Rabá a 4.5 (remissão a <bdi lang='he' dir='rtl'>קְלוּרִית</bdi>), Jerusalém Sucá 2, 53d (cf. <bdi lang='he' dir='rtl'>אֲדַמְדָּם</bdi>) e Gênesis Rabá §89; essas referências não criam acepções autônomas de «vermelho».",
+      "result": "C",
+      "decision": "<strong>Flexões e paralelos:</strong> Jastrow registra adjetivo masculino <bdi lang='he' dir='rtl'>אָדוֹם</bdi> e feminino <bdi lang='he' dir='rtl'>אֲדוּמָּה</bdi>, plurais <bdi lang='he' dir='rtl'>אֲדוּמִּים</bdi> e <bdi lang='he' dir='rtl'>אֲדוּמּוֹת</bdi>. Em Cântico Rabá a 7.3, <bdi lang='he' dir='rtl'>שושנה א׳</bdi> («rosa vermelha») é eufemismo para menstruação; em Avodah Zarah 24a, <bdi lang='he' dir='rtl'>פרה א׳</bdi> é a novilha vermelha dos ritos de purificação de Números 19. A obra cita ainda Lamentações Rabá a 4.5 (remissão a <bdi lang='he' dir='rtl'>קְלוּרִית</bdi>), Jerusalém Sucá 2, 53d (cf. <bdi lang='he' dir='rtl'>אֲדַמְדָּם</bdi>) e Gênesis Rabá §89; essas referências não criam acepções autônomas de «vermelho».",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00383",
+      "ordinal": 384,
+      "lemma": "אֱדוֹם",
+      "source_xml": "<entry id=\"A00383\">\n<head-word>אֱדוֹם</head-word>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אֱדֹם)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<pos> pr. n. m.</pos>\n<italic>Edom</italic>, surname of Esau, son of Isaac; mostly used as a nom.</definition>\n<notes> gentil. \n<italic>Edomite, Edomite nation</italic></notes></sense>\n<sense>\n<number>—2)</number>\n<definition> fem. (sub. מלכות) \n<italic>Rome, Roman government</italic> (owing to the dependence of Herod on Rome).</definition>\n<notes> Ex. R. s. 35; a. fr. Ibid. מלכות א'; a. fr. [In subsequent ages: \n<italic>Christianity</italic>.]</notes></sense></senses></entry>\n",
+      "source_sha256": "6883c4ab04dc43bfd2cfd016dce6042b996549c74e63168cdaae39105bd6c678",
+      "source_headwords": [
+        "אֱדוֹם"
+      ],
+      "source_senses": [
+        "\n<number>1)</number>\n<definition>\n<pos> pr. n. m.</pos>\n<italic>Edom</italic>, surname of Esau, son of Isaac; mostly used as a nom.</definition>\n<notes> gentil. \n<italic>Edomite, Edomite nation</italic></notes>",
+        "\n<number>—2)</number>\n<definition> fem. (sub. מלכות) \n<italic>Rome, Roman government</italic> (owing to the dependence of Herod on Rome).</definition>\n<notes> Ex. R. s. 35; a. fr. Ibid. מלכות א'; a. fr. [In subsequent ages: \n<italic>Christianity</italic>.]</notes>"
+      ],
+      "source_xrefs": [
+        "A00083"
+      ],
+      "html_before": "<strong>1.</strong> Edom, epíteto de Esaú, filho de Isaque; também povo edomita. <strong>2.</strong> Nome metafórico de Roma e do domínio romano, ligado nas interpretações rabínicas à dependência de Herodes; Êxodo Rabá 35. Jastrow observa que, em épocas posteriores, o termo também pode designar o cristianismo; este é um uso histórico de determinadas fontes, não equivalência geográfica literal.",
+      "html_after": "<strong>1.</strong> Edom, epíteto de Esaú, filho de Isaque; também povo edomita. <strong>2.</strong> Nome metafórico de Roma e do domínio romano, ligado nas interpretações rabínicas à dependência de Herodes; Êxodo Rabá 35. Jastrow observa que, em épocas posteriores, o termo também pode designar o cristianismo; este é um uso histórico de determinadas fontes, não equivalência geográfica literal. <strong>Aparato filológico — lote 005:</strong> <strong>Uso histórico e referente textual:</strong> 1. <bdi lang='he' dir='rtl'>אֱדוֹם</bdi> designa Edom, epíteto de Esaú, e por extensão o povo edomita, como nome étnico. 2. Como feminino, com <bdi lang='he' dir='rtl'>מלכות</bdi> subentendido, designa Roma ou a administração romana, interpretação rabínica que Jastrow vincula à dependência política de Herodes (Êxodo Rabá §35). A observação entre colchetes do autor «em épocas posteriores: cristianismo» descreve uma aplicação histórica de textos posteriores, **não** identifica etnicamente todo cristão com edomita, nem constitui acepção geográfica literal; ela é atribuída a Jastrow como comentário de recepção.",
+      "result": "C",
+      "decision": "<strong>Uso histórico e referente textual:</strong> 1. <bdi lang='he' dir='rtl'>אֱדוֹם</bdi> designa Edom, epíteto de Esaú, e por extensão o povo edomita, como nome étnico. 2. Como feminino, com <bdi lang='he' dir='rtl'>מלכות</bdi> subentendido, designa Roma ou a administração romana, interpretação rabínica que Jastrow vincula à dependência política de Herodes (Êxodo Rabá §35). A observação entre colchetes do autor «em épocas posteriores: cristianismo» descreve uma aplicação histórica de textos posteriores, **não** identifica etnicamente todo cristão com edomita, nem constitui acepção geográfica literal; ela é atribuída a Jastrow como comentário de recepção.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00384",
+      "ordinal": 385,
+      "lemma": "אֱדוֹמִי",
+      "source_xml": "<entry id=\"A00384\">\n<head-word>אֱדוֹמִי</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אֲדֹמִי)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>Edomite, Idumean</italic>.</definition>\n<notes> Keth. 30\n<sup>a</sup> חייבי עשה מצרי וא' the laws of intermarriage with Egyptians and Edomites as implied in Deut. XXIII, 8.—Pes. III, 1 חומץ הא' Idumean vinegar; a. e.—Snh. 12\n<sup>a</sup> ולא הניחן א' הלז Ar. a. Ms. M. (later ed. under censorial influences ארמי, v. Rabb. D. S. a. l. note) and that Edomite (disguise for \n<italic>Roman government</italic>, v. foreg.) would not permit them.—Fem. אֲדוֹמִית.—\n<plural-form>Pl. אֲדוֹמִיּוֹת</plural-form>. Keth. 64\n<sup>b</sup> שעורין א' Idumean barley.</notes></sense></senses></entry>\n",
+      "source_sha256": "45e9306dd25c7bb73f6eaab598b7a50978c8e0ca72732e9d2c4891b9cbce4569",
+      "source_headwords": [
+        "אֱדוֹמִי"
+      ],
+      "source_senses": [
+        "\n<definition>\n<italic>Edomite, Idumean</italic>.</definition>\n<notes> Keth. 30\n<sup>a</sup> חייבי עשה מצרי וא' the laws of intermarriage with Egyptians and Edomites as implied in Deut. XXIII, 8.—Pes. III, 1 חומץ הא' Idumean vinegar; a. e.—Snh. 12\n<sup>a</sup> ולא הניחן א' הלז Ar. a. Ms. M. (later ed. under censorial influences ארמי, v. Rabb. D. S. a. l. note) and that Edomite (disguise for \n<italic>Roman government</italic>, v. foreg.) would not permit them.—Fem. אֲדוֹמִית.—\n<plural-form>Pl. אֲדוֹמִיּוֹת</plural-form>. Keth. 64\n<sup>b</sup> שעורין א' Idumean barley.</notes>"
+      ],
+      "source_xrefs": [
+        "A00083"
+      ],
+      "html_before": "Pessoa de Edom ou Idumeia. Ketubot 30a discute relações matrimoniais com egípcios e edomitas (Dt 23.8). Pesahim 3.1: vinagre idumeu. Sanhedrin 12a usa “edomita” como designação indireta do governo romano; Jastrow relata a substituição por “arameu” em edições afetadas por censura. Feminino <bdi lang='he' dir='rtl'>אֲדוֹמִית</bdi>, plural feminino <bdi lang='he' dir='rtl'>אֲדוֹמִיּוֹת</bdi>; Ketubot 64b: cevada idumeia.",
+      "html_after": "Pessoa de Edom ou Idumeia. Ketubot 30a discute relações matrimoniais com egípcios e edomitas (Dt 23.8). Pesahim 3.1: vinagre idumeu. Sanhedrin 12a usa “edomita” como designação indireta do governo romano; Jastrow relata a substituição por “arameu” em edições afetadas por censura. Feminino <bdi lang='he' dir='rtl'>אֲדוֹמִית</bdi>, plural feminino <bdi lang='he' dir='rtl'>אֲדוֹמִיּוֹת</bdi>; Ketubot 64b: cevada idumeia. <strong>Aparato filológico — lote 005:</strong> <strong>Testemunho sob censura:</strong> Ketubot 30a cita <bdi lang='he' dir='rtl'>חייבי עשה מצרי וא׳</bdi> na discussão matrimonial que remete a Deuteronômio 23.8; Pesahim 3.1, <bdi lang='he' dir='rtl'>חומץ הא׳</bdi>, «vinagre idumeu». Em Sanhedrin 12a, <bdi lang='he' dir='rtl'>ולא הניחן א׳ הלז</bdi> aparece no <i>Arukh</i> e manuscrito de Munique, «aquele edomita não lhes permitiu», e Jastrow atribui a edições posteriores, sob influência da censura, a substituição por <bdi lang='he' dir='rtl'>ארמי</bdi>, «arameu». Trata-se de alteração editorial referida por Jastrow, não de colação independente nem equivalência entre Edom e Aram. Feminino <bdi lang='he' dir='rtl'>אֲדוֹמִית</bdi>, plural feminino <bdi lang='he' dir='rtl'>אֲדוֹמִיּוֹת</bdi>, «cevada idumeia» em Ketubot 64b.",
+      "result": "C",
+      "decision": "<strong>Testemunho sob censura:</strong> Ketubot 30a cita <bdi lang='he' dir='rtl'>חייבי עשה מצרי וא׳</bdi> na discussão matrimonial que remete a Deuteronômio 23.8; Pesahim 3.1, <bdi lang='he' dir='rtl'>חומץ הא׳</bdi>, «vinagre idumeu». Em Sanhedrin 12a, <bdi lang='he' dir='rtl'>ולא הניחן א׳ הלז</bdi> aparece no <i>Arukh</i> e manuscrito de Munique, «aquele edomita não lhes permitiu», e Jastrow atribui a edições posteriores, sob influência da censura, a substituição por <bdi lang='he' dir='rtl'>ארמי</bdi>, «arameu». Trata-se de alteração editorial referida por Jastrow, não de colação independente nem equivalência entre Edom e Aram. Feminino <bdi lang='he' dir='rtl'>אֲדוֹמִית</bdi>, plural feminino <bdi lang='he' dir='rtl'>אֲדוֹמִיּוֹת</bdi>, «cevada idumeia» em Ketubot 64b.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00385",
+      "ordinal": 386,
+      "lemma": "אָדֹון",
+      "source_xml": "<entry id=\"A00385\">\n<head-word>אָדֹון</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, const. אֲדֹון \n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> דון)</xref></language-reference>\n<italic>lord, judge</italic>.</definition>\n<notes> Ḥag. 3\n<sup>b</sup> אֲ' כל המעשים Lord of all creatures. Y. Kid. IV, beg. 65\n<sup>b</sup> (allud. to \n<italic>Adon</italic>, pr. n., Neh. VII, 6</notes></sense>\n<sense>\n<number>1)</number>\n<definition> אין דין אין א' there is no justice and not judge.</definition>\n<notes> Gen. R. s. 89 (play on \n<italic>Kar</italic>, Is. XXX, 23) קירי א' Kyri (κύριος) means Lord.</notes></sense></senses></entry>\n",
+      "source_sha256": "ad7ba348af9edbbf112dd4b214c103eb0ac66202ddc9ce9a0ee507df97223cd4",
+      "source_headwords": [
+        "אָדֹון"
+      ],
+      "source_senses": [
+        "\n<definition>, const. אֲדֹון \n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> דון)</xref></language-reference>\n<italic>lord, judge</italic>.</definition>\n<notes> Ḥag. 3\n<sup>b</sup> אֲ' כל המעשים Lord of all creatures. Y. Kid. IV, beg. 65\n<sup>b</sup> (allud. to \n<italic>Adon</italic>, pr. n., Neh. VII, 6</notes>",
+        "\n<number>1)</number>\n<definition> אין דין אין א' there is no justice and not judge.</definition>\n<notes> Gen. R. s. 89 (play on \n<italic>Kar</italic>, Is. XXX, 23) קירי א' Kyri (κύριος) means Lord.</notes>"
+      ],
+      "source_xrefs": [
+        "A00083"
+      ],
+      "html_before": "<bdi lang='he' dir='rtl'>אָדֹון</bdi>, construto <bdi lang='he' dir='rtl'>אֲדֹון</bdi>, senhor ou juiz. Hagigah 3b: “Senhor de todas as criaturas”. Jerusalém Kidushin 4 faz jogo com nome próprio Adon (Neemias 7.61): “não há justiça nem juiz”. Gênesis Rabá 89 associa ao grego <span lang='grc'>κύριος</span> (“senhor”).",
+      "html_after": "<bdi lang='he' dir='rtl'>אָדֹון</bdi>, construto <bdi lang='he' dir='rtl'>אֲדֹון</bdi>, senhor ou juiz. Hagigah 3b: “Senhor de todas as criaturas”. Jerusalém Kidushin 4 faz jogo com nome próprio Adon (Neemias 7.61): “não há justiça nem juiz”. Gênesis Rabá 89 associa ao grego <span lang='grc'>κύριος</span> (“senhor”).",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00386",
+      "ordinal": 387,
+      "lemma": "אֲדֹונָה",
+      "source_xml": "<entry id=\"A00386\">\n<head-word>אֲדֹונָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>mistress</italic>.</definition>\n<notes> Gen. R. s. 89 נצטער יוסף עם אֲדֹונָתוֹ Joseph suffered while being with his mistress. Ib. s. 98 (play on \n<italic>ben porath</italic> Gen. XLIX, 22) בן שהפר לא' וכ' the youth that broke (defeated the plans of) his mistress; the youth whom his mistress broke (having him put in prison). Ib. (play on \n<italic>vay-mar’ruhu</italic> Gen. ib. 23) וכ' בן שהמר the youth who made life bitter to his mistress (v. vers. Mat. K. a. l.).</notes></sense></senses></entry>\n",
+      "source_sha256": "5575cb614b1be5677be8c8824de75353d2f56f9e09f669588d1a39342f58876c",
+      "source_headwords": [
+        "אֲדֹונָה"
+      ],
+      "source_senses": [
+        "\n<definition>\n<italic>mistress</italic>.</definition>\n<notes> Gen. R. s. 89 נצטער יוסף עם אֲדֹונָתוֹ Joseph suffered while being with his mistress. Ib. s. 98 (play on \n<italic>ben porath</italic> Gen. XLIX, 22) בן שהפר לא' וכ' the youth that broke (defeated the plans of) his mistress; the youth whom his mistress broke (having him put in prison). Ib. (play on \n<italic>vay-mar’ruhu</italic> Gen. ib. 23) וכ' בן שהמר the youth who made life bitter to his mistress (v. vers. Mat. K. a. l.).</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Senhora, proprietária ou patroa. Gênesis Rabá 89 relata que José sofreu sob sua senhora; Gênesis Rabá 98 explica homileticamente Gênesis 49.22–23 como o jovem que frustrou os planos da patroa, ou foi prejudicado por ela quando preso. A análise é exegética.",
+      "html_after": "Senhora, proprietária ou patroa. Gênesis Rabá 89 relata que José sofreu sob sua senhora; Gênesis Rabá 98 explica homileticamente Gênesis 49.22–23 como o jovem que frustrou os planos da patroa, ou foi prejudicado por ela quando preso. A análise é exegética. <strong>Aparato filológico — lote 005:</strong> <strong>Variações da homilia sobre José:</strong> Gênesis Rabá §89 menciona <bdi lang='he' dir='rtl'>נצטער יוסף עם אֲדֹונָתוֹ</bdi>, «José padeceu junto de sua senhora». O §98 joga com <bdi lang='he' dir='rtl'>בן פורת</bdi> (Gênesis 49.22): pode significar o jovem que frustrou sua senhora **ou** o jovem por ela derrotado mediante encarceramento. Um segundo trocadilho com <bdi lang='he' dir='rtl'>וימררוהו</bdi> (49.23) interpreta José como «aquele que tornou amarga a vida de sua senhora»; Jastrow indica consultar as variantes em <i>Matnot Kehunah</i>. Essas interpretações exegéticas não alteram a acepção primária «senhora, patroa».",
+      "result": "C",
+      "decision": "<strong>Variações da homilia sobre José:</strong> Gênesis Rabá §89 menciona <bdi lang='he' dir='rtl'>נצטער יוסף עם אֲדֹונָתוֹ</bdi>, «José padeceu junto de sua senhora». O §98 joga com <bdi lang='he' dir='rtl'>בן פורת</bdi> (Gênesis 49.22): pode significar o jovem que frustrou sua senhora **ou** o jovem por ela derrotado mediante encarceramento. Um segundo trocadilho com <bdi lang='he' dir='rtl'>וימררוהו</bdi> (49.23) interpreta José como «aquele que tornou amarga a vida de sua senhora»; Jastrow indica consultar as variantes em <i>Matnot Kehunah</i>. Essas interpretações exegéticas não alteram a acepção primária «senhora, patroa».",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00387",
+      "ordinal": 388,
+      "lemma": "אדוניא",
+      "source_xml": "<entry id=\"A00387\">\n<head-word>אדוניא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Tosef. Kel. B. Mets. VIII, 6, ed., v. \n<xref rid=\"A00570\">אוּדְנָא III</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "40fe5cce9bec6834dd4fe5d19cdf0b334ab0570f74cac2d98a0da2d774c81295",
+      "source_headwords": [
+        "אדוניא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> Tosef. Kel. B. Mets. VIII, 6, ed., v. \n<xref rid=\"A00570\">אוּדְנָא III</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00570"
+      ],
+      "html_before": "Em Tosefta Kelim, Bava Metzia 8.6, Jastrow remete a <bdi lang='he' dir='rtl'>אוּדְנָא</bdi> III.",
+      "html_after": "Em Tosefta Kelim, Bava Metzia 8.6, Jastrow remete a <bdi lang='he' dir='rtl'>אוּדְנָא</bdi> III.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00388",
+      "ordinal": 389,
+      "lemma": "אדונקי",
+      "source_xml": "<entry id=\"A00388\">\n<head-word>אדונקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00431\">אדנדקי</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "67fdc325c33c02beddbe2ca73631e9ed692c24bc24da75a50888aeaac21463a8",
+      "source_headwords": [
+        "אדונקי"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00431\">אדנדקי</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00431"
+      ],
+      "html_before": "Forma remetida a <bdi lang='he' dir='rtl'>אדנדקי</bdi>.",
+      "html_after": "Forma remetida a <bdi lang='he' dir='rtl'>אדנדקי</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00389",
+      "ordinal": 390,
+      "lemma": "אִדּוּר",
+      "source_xml": "<entry id=\"A00389\">\n<head-word>אִדּוּר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00456\">אִדְרוּתָא</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "3a5ddd9fd62dfc1faa651d1088f1569560af0b04bbb5a0b64ab98155d474f695",
+      "source_headwords": [
+        "אִדּוּר"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00456\">אִדְרוּתָא</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00456"
+      ],
+      "html_before": "Forma remetida a <bdi lang='he' dir='rtl'>אִדְרוּתָא</bdi>.",
+      "html_after": "Forma remetida a <bdi lang='he' dir='rtl'>אִדְרוּתָא</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00390",
+      "ordinal": 391,
+      "lemma": "אֲדוּרָה",
+      "source_xml": "<entry id=\"A00390\">\n<head-word>אֲדוּרָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00441\">אָדַר</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "8d979603185fd430ae1ca73f712c800f0aa9c739e18ab5b175d3f7a164aef196",
+      "source_headwords": [
+        "אֲדוּרָה"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00441\">אָדַר</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00441"
+      ],
+      "html_before": "Forma <bdi lang='he' dir='rtl'>אֲדוּרָה</bdi> remetida ao verbo <bdi lang='he' dir='rtl'>אָדַר</bdi>.",
+      "html_after": "Forma <bdi lang='he' dir='rtl'>אֲדוּרָה</bdi> remetida ao verbo <bdi lang='he' dir='rtl'>אָדַר</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00392",
+      "ordinal": 393,
+      "lemma": "אֲדוּתָא",
+      "source_xml": "<entry id=\"A00392\">\n<head-word>אֲדוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00380\">אַדְווּתָא</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "8746094f836ec0315c7f82674aec3e44bbc80569268557537e459a4fac7a0de0",
+      "source_headwords": [
+        "אֲדוּתָא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00380\">אַדְווּתָא</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00380"
+      ],
+      "html_before": "Forma remetida ao termo para espuma do mar <bdi lang='he' dir='rtl'>אַדְווּתָא</bdi>.",
+      "html_after": "Forma remetida ao termo para espuma do mar <bdi lang='he' dir='rtl'>אַדְווּתָא</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00393",
+      "ordinal": 394,
+      "lemma": "אֲדִי",
+      "source_xml": "<entry id=\"A00393\">\n<head-word>אֲדִי</head-word>\n<senses>\n<sense>\n<definition> (= ידי, b. h. הדה) \n<italic>to swing, throw, pitch</italic>.</definition>\n<notes> Snh. 7\n<sup>a</sup>, v. גְּזִיזָא. B. Kam. 22\n<sup>a</sup>; Bets. 39\n<sup>a</sup> אַדְיֵיה אדויי he threw it off. B. Kam. 98\n<sup>a</sup> אדייה א' he pitched it out of his neighbor’s hands.</notes></sense></senses></entry>\n",
+      "source_sha256": "07357e538ac060d367979bf6836074f11fa2a87aa8ab54f872b13cb4d531a21e",
+      "source_headwords": [
+        "אֲדִי"
+      ],
+      "source_senses": [
+        "\n<definition> (= ידי, b. h. הדה) \n<italic>to swing, throw, pitch</italic>.</definition>\n<notes> Snh. 7\n<sup>a</sup>, v. גְּזִיזָא. B. Kam. 22\n<sup>a</sup>; Bets. 39\n<sup>a</sup> אַדְיֵיה אדויי he threw it off. B. Kam. 98\n<sup>a</sup> אדייה א' he pitched it out of his neighbor’s hands.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Forma relacionada por Jastrow a <bdi lang='he' dir='rtl'>ידי</bdi>: lançar, atirar ou arremessar. Sanhedrin 7a, ver <bdi lang='he' dir='rtl'>גְּזִיזָא</bdi>. Bava Kamma 22a e Beitzá 39a: <bdi lang='he' dir='rtl'>אַדְיֵיה אדויי</bdi>, “atirou-o para longe”; Bava Kamma 98a: lançou objeto das mãos de outra pessoa.",
+      "html_after": "Forma relacionada por Jastrow a <bdi lang='he' dir='rtl'>ידי</bdi>: lançar, atirar ou arremessar. Sanhedrin 7a, ver <bdi lang='he' dir='rtl'>גְּזִיזָא</bdi>. Bava Kamma 22a e Beitzá 39a: <bdi lang='he' dir='rtl'>אַדְיֵיה אדויי</bdi>, “atirou-o para longe”; Bava Kamma 98a: lançou objeto das mãos de outra pessoa.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    }
+  ]
+}
