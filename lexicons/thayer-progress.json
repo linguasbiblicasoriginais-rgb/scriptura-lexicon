@@ -754,8 +754,8 @@
     "source_print": "Thayer, p. 1",
     "source_corrected_entry": "entry-thayer-0001",
     "source_corrected_lemma": "ἄλφα",
-    "directed_preliminary_total": 100,
-    "directed_this_round": 87,
+    "directed_preliminary_total": 200,
+    "directed_this_round": 100,
     "static_pairs_ok": 512,
     "chromium_dom_ok": 512,
     "chromium_click_event_routes_ok": 512,
@@ -779,7 +779,7 @@
     "report": "auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md",
     "matrix_json": "auditorias/thayer-2026-10-12-matriz-atomica-512.json",
     "matrix_csv": "auditorias/thayer-2026-10-12-matriz-atomica-512.csv",
-    "source_note": "100 cotejos dirigidos (13 prévios + 87 novos), não integrais; colação 0/512 e auditoria atômica 0/512; duas correções requerem nova regressão browser"
+    "source_note": "200/512 cotejos dirigidos preliminares, sendo 100 novos IDs 0089–0188; 0 homologacoes integrais. Regressao Chromium da presente rodada deve ser verificada."
   },
   "batch_006_audit_snapshot": {
     "new_search_rows": 100,
@@ -821,5 +821,25 @@
     "relatorio": "auditorias/thayer-2026-10-12-cotejo-dirigido-87.md",
     "integral": 0,
     "atomicos": 0
+  },
+  "cotejos_dirigidos_100_20261012": {
+    "source_head": "a1b579be2fe3a9810e82fed963ac8dd88687996d",
+    "primeiro_id": "entry-thayer-0089",
+    "ultimo_id": "entry-thayer-0188",
+    "new": 100,
+    "previous": 100,
+    "total": 200,
+    "facsimile": "Thayer (parte 1, Α–Ι).pdf, páginas impressas 12–23",
+    "pages_individually_certified": false,
+    "lexical_corrections": [
+      "entry-thayer-0090",
+      "entry-thayer-0091",
+      "entry-thayer-0105",
+      "entry-thayer-0122",
+      "entry-thayer-0185"
+    ],
+    "full_philological_approvals": 0,
+    "atomic_completed": 0,
+    "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.md"
   }
 }
