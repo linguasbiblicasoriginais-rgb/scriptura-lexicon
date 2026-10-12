@@ -21,10 +21,12 @@
     "desktop_keyboard_opened": 100,
     "desktop_rtl_verified": 100,
     "desktop_popup_focused": 57,
-    "desktop_popup_open_success": 17,
-    "desktop_popup_open_fail": 40,
-    "mobile_individual_completed": 0,
-    "axe_desktop_sample": 10
+    "desktop_popup_open_success": 57,
+    "desktop_popup_open_fail": 0,
+    "mobile_individual_completed": 100,
+    "axe_desktop_sample": 10,
+    "mobile_popup_open_success": 57,
+    "axe_mobile_sample": 10
   },
   "result": "BLOQUEADA",
   "entries": [
@@ -78,12 +80,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -96,7 +98,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00001",
@@ -148,12 +160,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -166,7 +178,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00002",
@@ -220,12 +242,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -238,7 +260,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00003",
@@ -290,12 +322,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -308,7 +340,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00004",
@@ -360,12 +402,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -378,7 +420,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00005",
@@ -430,12 +482,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -448,7 +500,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00006",
@@ -500,12 +562,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -518,7 +580,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00007",
@@ -573,12 +645,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -591,7 +663,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00008",
@@ -643,12 +725,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -661,7 +743,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00009",
@@ -713,12 +805,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -731,7 +823,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00010",
@@ -783,12 +885,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -801,7 +903,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00011",
@@ -855,12 +967,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -873,7 +985,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00012",
@@ -926,12 +1048,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -944,7 +1066,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00013",
@@ -996,12 +1128,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1014,7 +1146,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00014",
@@ -1070,12 +1212,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1088,7 +1230,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00015",
@@ -1142,12 +1294,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1160,7 +1312,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00016",
@@ -1215,12 +1377,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1233,7 +1395,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00017",
@@ -1288,12 +1460,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1306,7 +1478,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00018",
@@ -1362,12 +1544,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1380,7 +1562,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00019",
@@ -1432,12 +1624,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1450,7 +1642,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00020",
@@ -1504,12 +1706,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1522,7 +1724,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00021",
@@ -1580,12 +1792,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1598,7 +1810,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00022",
@@ -1650,12 +1872,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1668,7 +1890,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00023",
@@ -1720,12 +1952,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1738,7 +1970,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00024",
@@ -1802,12 +2044,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1820,7 +2062,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00025",
@@ -1872,12 +2124,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1890,7 +2142,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00026",
@@ -1944,12 +2206,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -1962,7 +2224,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00027",
@@ -2016,12 +2288,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2034,7 +2306,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00028",
@@ -2086,12 +2368,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2104,7 +2386,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00029",
@@ -2158,12 +2450,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2176,7 +2468,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00030",
@@ -2231,12 +2533,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2249,7 +2551,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00031",
@@ -2302,12 +2614,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2320,7 +2632,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00032",
@@ -2372,12 +2694,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2390,7 +2712,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00033",
@@ -2442,12 +2774,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2460,7 +2792,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00034",
@@ -2514,12 +2856,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2532,7 +2874,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00035",
@@ -2586,12 +2938,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2604,7 +2956,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00036",
@@ -2659,12 +3021,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2677,7 +3039,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00037",
@@ -2731,12 +3103,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2749,7 +3121,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00038",
@@ -2803,12 +3185,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2821,7 +3203,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00039",
@@ -2873,12 +3265,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2891,7 +3283,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00040",
@@ -2945,12 +3347,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -2963,7 +3365,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00041",
@@ -3015,12 +3427,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3033,7 +3445,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00042",
@@ -3086,12 +3508,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3104,7 +3526,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00043",
@@ -3156,12 +3588,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3174,7 +3606,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00044",
@@ -3230,12 +3672,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3248,7 +3690,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00045",
@@ -3301,12 +3753,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3319,7 +3771,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00046",
@@ -3373,12 +3835,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3391,7 +3853,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00047",
@@ -3445,12 +3917,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3463,7 +3935,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00048",
@@ -3517,12 +3999,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3535,7 +4017,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00049",
@@ -3589,12 +4081,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3607,7 +4099,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00050",
@@ -3659,12 +4161,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3677,7 +4179,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00051",
@@ -3730,12 +4242,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3748,7 +4260,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00052",
@@ -3800,12 +4322,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3818,7 +4340,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00053",
@@ -3872,12 +4404,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3890,7 +4422,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00054",
@@ -3943,12 +4485,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -3961,7 +4503,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00055",
@@ -4013,12 +4565,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4031,7 +4583,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00056",
@@ -4084,12 +4646,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4102,7 +4664,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00057",
@@ -4155,12 +4727,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4173,7 +4745,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00058",
@@ -4225,12 +4807,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4243,7 +4825,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00059",
@@ -4297,12 +4889,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4315,7 +4907,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00060",
@@ -4369,12 +4971,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4387,7 +4989,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00061",
@@ -4440,12 +5052,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4458,7 +5070,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00062",
@@ -4513,12 +5135,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4531,7 +5153,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00063",
@@ -4586,12 +5218,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4604,7 +5236,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00064",
@@ -4656,12 +5298,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4674,7 +5316,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00065",
@@ -4728,12 +5380,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4746,7 +5398,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00066",
@@ -4800,12 +5462,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4818,7 +5480,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00067",
@@ -4870,12 +5542,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4888,7 +5560,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00068",
@@ -4942,12 +5624,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -4960,7 +5642,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00069",
@@ -5013,12 +5705,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5031,7 +5723,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00070",
@@ -5084,12 +5786,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5102,7 +5804,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00071",
@@ -5154,12 +5866,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5172,7 +5884,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00072",
@@ -5226,12 +5948,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5244,7 +5966,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00073",
@@ -5298,12 +6030,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5316,7 +6048,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00074",
@@ -5368,12 +6110,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5386,7 +6128,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00075",
@@ -5439,12 +6191,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5457,7 +6209,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00076",
@@ -5511,12 +6273,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5529,7 +6291,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00077",
@@ -5584,12 +6356,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5602,7 +6374,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00078",
@@ -5654,12 +6436,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5672,7 +6454,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00079",
@@ -5724,12 +6516,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5742,7 +6534,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00080",
@@ -5795,12 +6597,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5813,7 +6615,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00081",
@@ -5867,12 +6679,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5885,7 +6697,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00082",
@@ -5939,12 +6761,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -5957,7 +6779,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00083",
@@ -6011,12 +6843,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6029,7 +6861,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00084",
@@ -6085,12 +6927,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6103,7 +6945,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00085",
@@ -6158,12 +7010,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6176,7 +7028,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00086",
@@ -6230,12 +7092,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6248,7 +7110,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00087",
@@ -6300,12 +7172,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6318,7 +7190,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00088",
@@ -6372,12 +7254,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6390,7 +7272,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00089",
@@ -6445,12 +7337,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6463,7 +7355,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00090",
@@ -6515,12 +7417,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6533,7 +7435,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": true,
+        "axe_individually_certified": "sampled_no_violation"
+      }
     },
     {
       "id": "A00091",
@@ -6585,12 +7497,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6603,7 +7515,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00092",
@@ -6655,12 +7577,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6673,7 +7595,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00093",
@@ -6727,12 +7659,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6745,7 +7677,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00094",
@@ -6797,12 +7739,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6815,7 +7757,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00095",
@@ -6869,12 +7821,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6887,7 +7839,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00096",
@@ -6941,12 +7903,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -6959,7 +7921,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00097",
@@ -7011,12 +7983,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -7029,7 +8001,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00098",
@@ -7081,12 +8063,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "BLOQUEADA",
-          "evidence": "GitHub Actions #38260565698: foco no primeiro popup não exibiu tooltip; necessário diagnóstico adicional"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -7099,7 +8081,17 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "FOCUS_TOOLTIP_NOT_SHOWN"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     },
     {
       "id": "A00099",
@@ -7153,12 +8145,12 @@
           "evidence": "Original imutável em JSON; cartão editorial em módulo independente; segregação de camadas não reavaliada integralmente"
         },
         "07_html_search": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "600/600 passado no navegador; lote 100 com regressão individual em GitHub Actions #38260565698"
+          "result": "APROVADO_NOS_TESTES_EXECUTADOS",
+          "evidence": "Chromium #38270095481 desktop e móvel: 100/100 pesquisa/cartão, ponteiro, teclado e RTL; URLs externas e semântica das remissões fora do escopo"
         },
         "08_keyboard_visual_accessibility": {
-          "result": "AGUARDA_PROVA_ESPECIFICA",
-          "evidence": "Teste de mecanismo geral anterior aprovado; suite do lote em execução; WCAG individual ainda não"
+          "result": "PARCIAL",
+          "evidence": "Chromium #38270095481: teclado 100/100 e popup 57/57 em cada perfil; axe WCAG sem violações apenas na amostra de 10/100 por perfil; avaliação integral de acessibilidade ainda não comprovada"
         },
         "09_links_bibliography": {
           "result": "NAO_HOMOLOGADO",
@@ -7171,191 +8163,61 @@
       },
       "certification": "BLOQUEADA",
       "atomic_merged": false,
-      "browser_regression": "DESKTOP_POINTER_KEYBOARD_RTL_PASSED"
+      "browser_regression": "PASS_DESKTOP_AND_MOBILE_WITH_DECLARED_LIMITS",
+      "browser_controls": {
+        "source_hash_verified": true,
+        "search_and_card": true,
+        "pointer_opened": true,
+        "keyboard_opened": true,
+        "rtl_title_checked": true,
+        "tooltip_behavior": "57/57 casos aplicaveis no conjunto, consultar artefato para cada entrada",
+        "axe_sampled": false,
+        "axe_individually_certified": "NOT_TESTED"
+      }
     }
   ],
   "browser_run": {
-    "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698",
-    "conclusion": "failure",
-    "artifact_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698/artifacts/11752701860",
-    "desktop": {
-      "cards": 100,
-      "pointer_opened": 100,
-      "keyboard_opened": 100,
-      "valid_source_rtl": 100,
-      "tooltip_focus_tested": 57,
-      "tooltip_focus_success": 17,
-      "hrefs": 0,
-      "broken_local_hrefs": [],
-      "suspicious_hrefs": [],
-      "axe_checked": 10,
-      "axe_violations": [],
-      "runtime_errors": [],
-      "horizontal_overflows": [],
-      "failures": [
-        {
-          "id": "A00004",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00005",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00006",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00008",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00010",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00014",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00016",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00017",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00018",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00020",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00021",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00023",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00025",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00027",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00028",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00030",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00031",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00032",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00033",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00038",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00041",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00043",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00044",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00045",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00054",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00055",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00056",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00066",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00069",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00070",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00072",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00074",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00080",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00083",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00084",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00087",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00090",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00091",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00095",
-          "problem": "tooltip_focus_did_not_open"
-        },
-        {
-          "id": "A00098",
-          "problem": "tooltip_focus_did_not_open"
-        }
-      ]
+    "first_run_failed": {
+      "id": 38260565698,
+      "diagnosis": "Falsos negativos de visibilidade CSS: verificacao imediata ignorava transicao de 100ms; diagnostico #38269650657 e correcao na suite."
     },
-    "mobile_status": "NOT_EXECUTED_AFTER_DESKTOP_ASSERTION",
-    "note": "As falhas no foco dos popups devem ser reproduzidas e investigadas antes de serem classificadas como defeitos da aplicacao."
-  }
+    "current_run": {
+      "run_id": 38270095481,
+      "commit": "2df8b44e1035804e902b2d2c5699b7d94926498c",
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38270095481",
+      "artifact_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38270095481/artifacts/11757131571",
+      "conclusion": "success",
+      "desktop": {
+        "cards": 100,
+        "pointer": 100,
+        "keyboard": 100,
+        "rtl": 100,
+        "popup_focus": "57/57",
+        "axe_sample_checked": 10,
+        "axe_violations": 0,
+        "js_errors": 0,
+        "horizontal_overflows": 0,
+        "failures": 0
+      },
+      "mobile": {
+        "cards": 100,
+        "pointer": 100,
+        "keyboard": 100,
+        "rtl": 100,
+        "popup_focus": "57/57",
+        "axe_sample_checked": 10,
+        "axe_violations": 0,
+        "js_errors": 0,
+        "horizontal_overflows": 0,
+        "failures": 0
+      },
+      "limitations": [
+        "O axe-core examinou uma amostra deterministica de 10/100 cartoes em cada perfil; os demais 90 nao estao certificados por axe",
+        "URL externas e bibliografia da fonte nao verificadas por esta regressao",
+        "Nenhum merge efetuado; a certificacao atomica requer os dez controles e integracao confirmada"
+      ]
+    }
+  },
+  "audit_state": "BLOQUEADA",
+  "remaining_integration": "42 correções C não integradas + seis conflitos de documentação comprovados por merge-tree #38270438672"
 }
