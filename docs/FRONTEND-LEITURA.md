@@ -1,3 +1,9 @@
+## Regressão executada — 12/10/2026
+
+Workflow [Frontend — navegação e catálogo em Chromium](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38288709833), commit de teste `63f22edead6d5959e7f9e2775034da651c2da05a`: **PASS**, job `frontend-browser` concluído com sucesso em Chromium 141 / Playwright 1.56.1.
+
+Cobertura reportada pelo próprio runner: dicionário grego **6 fontes testadas**, hebraico **1**, aramaico **1** e latim **0** (nenhuma fonte carregada). Cada fonte disponível foi exercitada pelo combobox visual, conferência do contador digital, pesquisa por lema indexado, abertura por Enter e Espaço, retorno por botão e Escape, preservação de consulta e filtro. Houve verificação de controle de busca em viewport de 375 px e de ausência de exceções JavaScript. A validação não abrangeu autenticidade de imagens de capa, destino HTTP externo, identidade entre edições, correção filológica ou aparência visual por captura de tela.
+
 # Interface — ficha da fonte e leitura de verbetes
 
 Atualização: 12/10/2026. Branch de trabalho: `chat-gpt-frontend`.

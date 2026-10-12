@@ -2,6 +2,8 @@
 
 O combobox de fontes exibe uma ficha bibliográfica contextual (editora, data, edição, ISBN, paginação, capa do exemplar quando disponível e representação tipográfica identificada quando não, além do **total de verbetes efetivamente carregados** para a fonte/dicionário). A abertura de um verbete oculta os resultados e oferece **Voltar aos resultados**, preservando pesquisa, filtro e foco no item aberto. Metadados e limitações estão documentados em [docs/FRONTEND-LEITURA.md](docs/FRONTEND-LEITURA.md); catálogo em `lexicons/source-catalog.js`. Nenhum verbete foi editado por esta alteração.
 
+**Teste funcional:** Chromium/Playwright aprovado no [GitHub Actions #38288709833](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38288709833): 6 fontes gregas, 1 hebraica e 1 aramaica; latim permanece sem corpus. Não certifica colação filológica nem autenticidade de capas.
+
 ## PR #115 — integração de correções e auditorias (12/10/2026)
 
 Foram reconciliados os módulos corrigidos de JASTROW e os reparos de apresentação DGP, com incorporação de relatórios, testes e workflows da origem `chat-gpt-correcoes`. Preservados os 81 lotes DGP (3.300 registros), os 512 THAYER e demais frentes já consolidadas. Os registros abaixo são históricos, não prova de homologação atômica. [Relatório do PR #115](auditorias/integracao-pr-115-2026-10-12.md).
