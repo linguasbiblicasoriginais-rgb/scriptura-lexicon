@@ -1,0 +1,29 @@
+name: DGP — auditoria dinamica de navegador
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - 'tests/test_dgp_browser.py'
+      - '.github/workflows/dgp-browser-audit.yml'
+      - 'lexicons/dgp-format.js'
+      - 'lexicons/dgp.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar-dgp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Chromium headless e Playwright
+        run: |
+          python -m pip install 'playwright>=1.55,<2'
+          python -m playwright install --with-deps chromium
+      - name: Auditar 2.880 registros reais e 3.300 em montagem temporaria
+        run: python tests/test_dgp_browser.py

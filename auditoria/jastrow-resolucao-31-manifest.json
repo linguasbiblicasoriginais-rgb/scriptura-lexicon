@@ -1,0 +1,366 @@
+{
+  "schema": "JASTROW-auditoria-unica-pendencias/2",
+  "date": "2026-10-11",
+  "base_head": "dd26b4d80a600d06aadbad6f46aeb7ad500577b2",
+  "counts_before": {
+    "A": 37,
+    "C": 32,
+    "P": 31
+  },
+  "counts_after": {
+    "A": 37,
+    "C": 63,
+    "P": 0
+  },
+  "original_source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "records": [
+    {
+      "id": "A00211",
+      "ordinal": 212,
+      "source_entry_sha256": "ada1021ed2703977a1e938090ad327d1ff4b086102c972f9dbb2b7d9dd51bb39",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "lexical_blob_sha": "c3a8abb3af2258a1395bfb226fda0325ef82a62b",
+      "documented_addendum": "<strong>Aparato:</strong> Shabbat 11a: a edição traz a expressão relativa aos torreões; o <i>Arukh</i> lê אברוארי, para a qual Jastrow propõe אבראורי; manuscrito M. traz אַוְרַוְרֵי (ver Rabb. D. S., nota à passagem). Para «lastro», Bava Batra 24b, manuscrito M., lê אימור באברוו׳ הוו מנחי, enquanto a edição traz באברו׳; Jastrow interpreta o arranjo de pequenos recipientes entre grandes para equilibrar a carga."
+    },
+    {
+      "id": "A00226",
+      "ordinal": 227,
+      "source_entry_sha256": "d9b724eb71068fc156b4f64ae1d5511dcdf19b4f0f1869d2da37cf4fdbb88576",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-211-235.js",
+      "lexical_blob_sha": "c3a8abb3af2258a1395bfb226fda0325ef82a62b",
+      "documented_addendum": "<strong>Nota etimológica:</strong> Pesahim 41a, explicando נָא de Êxodo 12.9, traz כדאמרי פרסאי («como dizem os persas»); Yalkut Êxodo §197 tem כד׳ אינשי («como dizem as pessoas»). Jastrow adverte que a primeira fórmula não demonstra que o vocábulo seja persa. Considera possível, mas não comprovada, uma expressão hebraica אֵבֶר נִים («pedaço tenro»); menciona Fleischer em Levy e Lagarde, <i>Gesammelte Abhandlungen</i>, vol. 23. Não confundir procedência atribuída da expressão com etimologia estabelecida."
+    },
+    {
+      "id": "A00239",
+      "ordinal": 240,
+      "source_entry_sha256": "b6564b594ef723ae37f23738cf607c8dc1a70f135ece02ea192157dc9531f23f",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "lexical_blob_sha": "bf8d3b7c95b1d9f0159eae9075e9a96719c34cb8",
+      "documented_addendum": "<strong>Texto e morfologia:</strong> Shabbat 60a, <i>Arukh</i> אוֹגֶדֶת; edição אוגרת; manuscrito M. חוגרת («prende o cabelo»). Pesahim 87a, edição שאוֹגְדוֹת (restringir intimidade); manuscrito M. בחורות … שמגידות, relacionado à leitura do Hifil e ao jogo com מגדים de Cântico 7.14. Eruvin 21b, אוגדות da edição falta em M. Sifré Dt 294: formar facção; Sifré Dt 296 exige emenda תֵּאָגֵד para a forma reflexiva «ser formado em aliança». No Hifil, הֶאֱגִיד contrai-se em הֵיגִיד; particípios מֵיגִיד / מֵגִיד. Rashi entende שמַגִּידוֹת, «anunciam sua menstruação», análise de נגד, não a mesma acepção de אָגַד. Bava Batra 14a é remetido por Jastrow a outros lemas."
+    },
+    {
+      "id": "A00243",
+      "ordinal": 244,
+      "source_entry_sha256": "403403004b3ad91630e1e4c2962ce5730dc9f4db5261466a57f61317500e17d6",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-236-260.js",
+      "lexical_blob_sha": "bf8d3b7c95b1d9f0159eae9075e9a96719c34cb8",
+      "documented_addendum": "<strong>Testemunhos:</strong> Targum 2 Samuel 3.29 apresenta, em algumas edições, אגר. Bava Metzia 83a: <i>Arukh</i>, manuscrito H. e códice de Oxford atestam דדרו בא׳; manuscrito M. lê איגרא e a edição אגרא (Rabb. D. S., nota). Outras referências: Beitzá 30a e Shabbat 148a, margem do manuscrito M., אגרתא. A fonte digital segmenta um terceiro número sem definição autônoma; não se atribui a ele um novo sentido hipotético. Ver תִּגְדָּא."
+    },
+    {
+      "id": "A00269",
+      "ordinal": 270,
+      "source_entry_sha256": "a7f21862ee2f479c6bc8f4a61724d428b0752f910c4bf5f3f80b4ce416a55e59",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "lexical_blob_sha": "856c288de6232cece0aa8f27581b62357dcf7434",
+      "documented_addendum": "<strong>Variantes de Sanhedrin 26a:</strong> manuscrito M. contém a declaração יכול לומר … טאן; manuscritos C. e F. oferecem a terminação יסטוון; edições leem אגיסטון ou אגיסטין, corrigidos por Jastrow para אגוסטיין. A associação do servidor augustano aos cargos romanos <i>curialis</i> ou <i>decurio</i> é apresentada pelo autor apenas como possibilidade (comparação com Gibbon, ed. Milman II, p. 142 ss.)."
+    },
+    {
+      "id": "A00271",
+      "ordinal": 272,
+      "source_entry_sha256": "cef035e029aeea95d04a3c189cd04a7ce4bee895ca1c0dc2869128d846938741",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "lexical_blob_sha": "856c288de6232cece0aa8f27581b62357dcf7434",
+      "documented_addendum": "<strong>Colação de segmentação:</strong> o XML separa artificialmente um cabeçalho que contém apenas uma vírgula; a transcrição histórica da Wikisource apresenta a forma principal אָגוּסְטוֹס e, entre parênteses, אגושטוס, sem interpretar a vírgula como lema. Jerusalém Berakhot 9, 12d: βασιλεύς, César e Augusto. Gênesis Rabá §12 (edição אגבאסטס, <i>Arukh</i>) leva Jastrow a recomendar אַגְוִיסְטוֹר / אַגְבָאִיסְטוֹר, remissão diferente do título imperial."
+    },
+    {
+      "id": "A00284",
+      "ordinal": 285,
+      "source_entry_sha256": "51eeec5bdc1862ddbed42b852d91f415afc9e6dcaa3a5b2535e4864e80518bf2",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-261-285.js",
+      "lexical_blob_sha": "856c288de6232cece0aa8f27581b62357dcf7434",
+      "documented_addendum": "<strong>Remissão e reticências:</strong> a transcrição de 1903 reproduz אגושטוס e o segmento תוס… seguido de remissão a אָגוּסְטוֹס. Os caracteres finais constituem fragmento tipográfico elíptico, não outro vocábulo de leitura integral demonstrada. A segunda forma não é reconstruída e a identidade do registro remissivo permanece distinta daquela de A00271."
+    },
+    {
+      "id": "A00303",
+      "ordinal": 304,
+      "source_entry_sha256": "5b58d88ee51dd62ee64fc4a72d5d13e2db66406612fc8a4a463c0d1d1901a3a5",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-286-310.js",
+      "lexical_blob_sha": "073c7c9be1e6801ed5971fd7fd861c7b796cddff",
+      "documented_addendum": "<strong>Precisão crítica:</strong> Ḥagigah 12b traz a expressão עליית אגלים, interpretada por Jastrow como reservatório celeste superior de chuva, com alusão a Jó 38.28. O autor apenas remete a <i>Rabbinovicz, Dikdukei Soferim</i>, nota 200 da passagem, para leituras variantes; <strong>o XML não transcreve essas variantes</strong>. Não atribuir formas específicas a manuscritos sem consultar essa nota. Relações etimológicas propostas: אגל, אוג, חוג e עוג."
+    },
+    {
+      "id": "A00318",
+      "ordinal": 319,
+      "source_entry_sha256": "8d1fa12ba8220cc8e0165a2586fca9fa4b6e0a186de722aa741b7cc5f5154791",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-311-335.js",
+      "lexical_blob_sha": "957fe7fcbdc588763c280b289a5c1cfceda311e0",
+      "documented_addendum": "<strong>Formas e testemunhos:</strong> além dos plurais אַגָּנִין e אַגָּנֵי, a fonte registra a abreviação אֲנָ׳. Shabbat 110a: bacia com agrião; Avodah Zarah 31a, manuscrito M. א׳ אפומא, enquanto a edição lê דפ׳ (objeto sobre a boca do tonel). Berakhot 22a: banheira; Pesahim 30b: bacias de amassar de Mahoza. O topônimo מֵישַׁר אֲגָנַיָיא consta do Targum Juízes 4.11; Jerusalém Meguilá 1, 70a menciona אגנייא דקדש («lagoas de Cades»). Bava Kamma 61b, manuscrito R., אגני דארעא («lagoas do campo»), remete a באגנא e נאגנא."
+    },
+    {
+      "id": "A00335",
+      "ordinal": 336,
+      "source_entry_sha256": "d25ee1d84a8df97426db9958d8b023c57c8d6da92ec6d3d33e8ba11a48a20638",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "lexical_blob_sha": "206ec1b845fe5975cd3d9bb647e2204291a47c16",
+      "documented_addendum": "<strong>Desenvolvimento verbal:</strong> em Jerusalém Bikkurim 1, 63d e Berakhot 39a a azeitona retém o azeite; Jerusalém Nidá 3, 50c registra דם אָגוּר, sangue reunido no mesmo lugar. Sifré Deuteronômio §16 interpreta «reunir argumentos contra alguém»; Êxodo Rabá §6 associa o nome Agur (Provérbios 30.1) a colecionar palavras da Lei, com variante שאִיגֵּר no <i>piel</i>. Eclesiastes Rabá admite ainda jogo entre «reunido» e «cingido» (ver o homógrafo II). <i>Nifal</i> נֶאֱגַר: Números Rabá §20, reunir-se nas cidades; <i>Hifil</i> הוֹגִיר: Tosefta Demai 1.10, locais de depósito das armazenadoras; ver מוֹגָרָה e מוֹגֶרֶת."
+    },
+    {
+      "id": "A00336",
+      "ordinal": 337,
+      "source_entry_sha256": "bd55cdda28e412013e19d97838fe435138d75f47d52b5ea7b1d21d12eff8b39c",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "lexical_blob_sha": "206ec1b845fe5975cd3d9bb647e2204291a47c16",
+      "documented_addendum": "<strong>Leituras targúmicas:</strong> Targum Pseudo-Jônatas, Deuteronômio 1.16, דמְאַגַּר, «aquele que acumula demandas»; a edição de Viena registra מֶאֱגַר—. Em Targum Salmos 104.7, manuscrito referido por Jastrow traz למיגר; o autor manda consultar נְגַד, não autoriza incorporar automaticamente essa ocorrência ao Pael de אֲגַר."
+    },
+    {
+      "id": "A00343",
+      "ordinal": 344,
+      "source_entry_sha256": "59ad2e7e86b0be3c258520d0c59c98420cfea649395c6a9492b270b22a24697d",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "lexical_blob_sha": "206ec1b845fe5975cd3d9bb647e2204291a47c16",
+      "documented_addendum": "<strong>Aparato do cargo:</strong> Avodah Zarah 58a registra א׳ נכרי, com variante כותי e manuscrito V. גוי א׳; Bava Kamma 98a descreve fiscal árabe. Bava Batra 89a distingue aferição de medidas, permitida a fiscais, de imposição dos preços. Plural אֲגַרְדְּמִין (Bava Batra); variante אֲגַרְדִּימִים (Sifrá, Kedoshim cap. 8). Pesikta, Asser p. 96a: o <i>Arukh</i> tem forma singular לא׳ שיצא; a edição imprime להגרונימוס, para a qual Jastrow recomenda לא׳ (cf. Yalkut Salmos 729). A equiparação ao edil romano é comparação funcional, não identidade institucional necessária."
+    },
+    {
+      "id": "A00344",
+      "ordinal": 345,
+      "source_entry_sha256": "d7e5f5adb3c0376646c1c75c638e8d10b5608b06573cbc400f6b6a7a7ecf2faf",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "lexical_blob_sha": "206ec1b845fe5975cd3d9bb647e2204291a47c16",
+      "documented_addendum": "<strong>Comparação de leituras:</strong> Jerusalém Maaser Sheni 4, 54d discute trigo armazenável em contraste com trigo para uso imediato; Jerusalém Peá 2, 17a tem חצי איגדו, que Jastrow propõe ler איגרו. Jerusalém Nazir 5, 54a traz שחתית ונמצאת אגרון, a corrigir de acordo com o contexto: cereal julgado inferior que se revelou superior. Rabi Shimshon a Peá 2.5 cita אֵגוֹרִי; outro comentador, <i>Shenot Eliyahu</i>, אֲגוֹרָה. Bava Batra 5.6 apresenta לבנה («branco, puro») para o vocábulo."
+    },
+    {
+      "id": "A00351",
+      "ordinal": 352,
+      "source_entry_sha256": "2b90a87419deca1c46c72ec235eff2b0b853608af62d97e4230c025240076470",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-336-360.js",
+      "lexical_blob_sha": "206ec1b845fe5975cd3d9bb647e2204291a47c16",
+      "documented_addendum": "<strong>Documentação do topônimo:</strong> Rosh Hashaná 2.4 / 22b: manuscrito M. 2 e Mishná de Nápoles registram לא׳ … מא׳; a edição apresenta מג׳ … לג׳; a edição do Talmude de Jerusalém, מגְּרִיפּ׳ …; ver <i>Dikdukei Soferim</i> à passagem, nota 4. A identificação como torre ou altura perto de Cesareia de Filipe, ampliada por Agripa II, é uma probabilidade atribuída a Jastrow, não localização arqueológica demonstrada."
+    },
+    {
+      "id": "A00371",
+      "ordinal": 372,
+      "source_entry_sha256": "dd7c6e64be6ca9d4c4f6afdc751899bd6142954733c6e3ea109bfbf4d9e56b9d",
+      "final_state": "C",
+      "corrected_lemma": "*אָדָא",
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-361-385.js",
+      "lexical_blob_sha": "9a6d66e7a8afa278f1e33eacc603c981fba4e501",
+      "documented_addendum": "<strong>Conferência de cabeçalho:</strong> a transcrição histórica publicada na Wikisource apresenta expressamente *אדא III e remete a ברדא II, 2. O XML separou incorretamente o asterisco como primeiro <i>head-word</i>. Corrige-se apenas o lema de exibição da Tradução/GDHAGP para *אָדָא, conservando no relatório as duas unidades segmentadas da Fonte. O asterisco é marca editorial; o vocábulo não deve ser confundido com os homógrafos I e II."
+    },
+    {
+      "id": "A00391",
+      "ordinal": 392,
+      "source_entry_sha256": "828a5be069be5541c2bdb91620e030a6bf287953d8e67030564c579089066c7c",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-386-410.js",
+      "lexical_blob_sha": "b3e7a708730d35821038377e1924e6efbf713fc2",
+      "documented_addendum": "<strong>Aparato gráfico:</strong> Jerusalém Avodah Zarah 3, 43b traz א׳ צלמא, procissão com ídolo; Jerusalém Berakhot 2, 4b, אה׳ צילמי׳; Jerusalém Shekalim 2, 47a transmite דארורא צילמא, que Jastrow sugere corrigir para אדורי דצ׳. Midraxe Samuel cap. 19 conserva צלמא הורדוסיס(?), com incerteza explicitamente assinalada pelo autor. Não converter variantes de edição em lemas autônomos."
+    },
+    {
+      "id": "A00397",
+      "ordinal": 398,
+      "source_entry_sha256": "f17414894a5f0ed4b32b602482ade8957bc87ae87ce4aaa529a9f9cbd7e46dae",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-386-410.js",
+      "lexical_blob_sha": "b3e7a708730d35821038377e1924e6efbf713fc2",
+      "documented_addendum": "<strong>Formação e usos:</strong> Jastrow analisa אַד como equivalente a עַד e יין como equivalente a הֵין, comparando o hebraico עַד הֵנָּה; trata-se de análise proposta na obra. O advérbio significa «até agora», daí «ainda, até este momento». Jerusalém Berakhot 4, 8a e Ta‘anit 2, 65c: אין את לזו וא׳ / א׳ את לזו, «ainda não chegaste a compreender isto?». Jerusalém Gitin 9, 50d: וא׳ את ליי, «ainda estás nessa questão?». Jerusalém Peá 1, 15c e Kidushin 1, 61b: «ainda não alcançou metade da honra devida aos pais»."
+    },
+    {
+      "id": "A00407",
+      "ordinal": 408,
+      "source_entry_sha256": "8f879d92bd502454d2a3973f94a4e6c9b758f9cc6b12cba5cfe4a213031138ee",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-386-410.js",
+      "lexical_blob_sha": "b3e7a708730d35821038377e1924e6efbf713fc2",
+      "documented_addendum": "<strong>Nota textual:</strong> o hebraico לא׳ דתנורא e a variante לאוירא ocorrem em Jerusalém Shabbat 3, 5d, no exemplo de encostar um recipiente ao rebordo. O texto inglês transmitido, confirmado também na transcrição histórica da Wikisource, é <i>heated store</i> («depósito aquecido»), expressão incongruente com תנורא, «forno». A tradução «borda de forno aquecido» é interpretação contextual sinalizada, <strong>não</strong> emenda silenciosa do inglês de Jastrow; a leitura impressa permanece registrada como divergência."
+    },
+    {
+      "id": "A00411",
+      "ordinal": 412,
+      "source_entry_sha256": "37c345571daa421374375c51fe7789f60a8f289ad8bd926dafb656c967bb4ce0",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-411-435.js",
+      "lexical_blob_sha": "af126cc5d41dd40bf6562b0ba2aed7bdf1a5ccf4",
+      "documented_addendum": "<strong>Nota de crítica da digitalização:</strong> na equivalência hebraica da acepção 2, o XML reproduz אַזְכָּרָח, com ח final. A transcrição histórica do Jastrow na Wikisource registra אזכרה, forma correspondente a אַזְכָּרָה, «porção memorial da oferta». A edição portuguesa conserva essa forma com atribuição explícita ao testemunho, mas a Fonte XML imutável permanece registrada como divergente. Targum Onkelos, Levítico 2.2. Acepção 1: invocação do Nome divino (Jerusalém Berakhot 4, 8a; Rosh Hashaná 18b)."
+    },
+    {
+      "id": "A00414",
+      "ordinal": 415,
+      "source_entry_sha256": "ce2042d12374248495352bbaa9928420fc21c3ca8dc123a35a4ea952c97b5cc2",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-411-435.js",
+      "lexical_blob_sha": "af126cc5d41dd40bf6562b0ba2aed7bdf1a5ccf4",
+      "documented_addendum": "<strong>Variantes botânicas atestadas no aparato:</strong> Tosefta Sheviit 5.11, edição de Zuckermandel, אדיל; Uktzin 3.4, עֲדָל; Jerusalém Sheviit 7, 37c, ערל; ibid. 37b, ערלה, cuja interpretação Jastrow assinala como corrigida conforme a passagem. A comparação proposta pelo autor envolve dialetalismo אד/עד e raízes חד/גד, com paralelos גד, גידא e חרדל. «Agrião de jardim» e «segurelha de verão» são alternativas de identificação, não duas espécies comprovadamente equivalentes."
+    },
+    {
+      "id": "A00429",
+      "ordinal": 430,
+      "source_entry_sha256": "edd24adc640263755e3983434c2b56a18633314a84d394b5ccc22cb803c1f45b",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": "ver אוּדְנָא I (A00568); orelha",
+      "lexical_file": "lexicons/jastrow-411-435.js",
+      "documented_addendum": "Variantes <bdi lang='he' dir='rtl'>אֻדַן, אֻדְנָא</bdi>. <strong>Remissão resolvida:</strong> ver <bdi lang='he' dir='rtl'>אוּדְנָא I</bdi> (JASTROW <code>A00568</code>), substantivo feminino aramaico, «orelha; ouvido», equivalente ao hebraico <bdi lang='he' dir='rtl'>אֹזֶן</bdi>. O alvo apresenta as grafias <bdi lang='he' dir='rtl'>אֹודֶן, אוּדַן, אוּדָן, אוּדְנָא</bdi>; o confronto explica a variante sem <i>waw</i> do cabeçalho remissivo. <strong>Prova contextual:</strong> Targum Salmos 18.45 traz <bdi lang='he' dir='rtl'>אוּדַן</bdi> (edição de Viena <bdi lang='he' dir='rtl'>אוּדִין</bdi>?, manuscrito <bdi lang='he' dir='rtl'>אוזן</bdi>); cf. Targum Isaías 64.3, Êxodo 29.20; Jastrow registra também «dor de ouvido» em Jerusalém Shabbat 6, 8c. <strong>Aparato crítico:</strong> a entrada-fonte conserva a remissão abreviada <bdi lang='he' dir='rtl'>אוּ׳</bdi>, sem número de homógrafo. A identificação com I decorre da correspondência dos cabeçalhos e do significado, não de um numeral explicitamente impresso nesta remissão. O atributo eletrônico original <code>rid=\"A00517\"</code> conduz à conjunção <bdi lang='he' dir='rtl'>אֹו</bdi> («ou»), sem relação semântica: erro de ligação da digitalização. Os homógrafos <bdi lang='he' dir='rtl'>אוּדְנָא II</bdi> (recipiente, banheira; <code>A00569</code>) e <bdi lang='he' dir='rtl'>אוּדְנָא III</bdi> (escabelo, pedestal; <code>A00570</code>) permanecem distintos. <strong>Camadas:</strong> Fonte XML preservada sem emenda; resolução lexical e escolha do destino realizadas na Tradução/Análise mediante confronto do verbete-alvo e da transcrição de 1903.",
+      "resolved_target_id": "A00568",
+      "xml_target_id": "A00517"
+    },
+    {
+      "id": "A00445",
+      "ordinal": 446,
+      "source_entry_sha256": "d0690296ce95ab8914ccf1d92b307e173c67c14e40cc6a4a1635d56ae69ce2ed",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-436-460.js",
+      "lexical_blob_sha": "bea8ab53f84b3d4ee6c44b7697928e97d3fde198",
+      "documented_addendum": "<strong>Leituras de pele e recipientes:</strong> Jerusalém Maaser Sheni 4, 55c: אדר תורתא, pele de vaca, e אדרא (ברא) דתבנא, saco/pele cheia de palha; Lamentações Rabá a 1.1, <i>Arukh</i> אדר דתבן, contra edição דור. Jerusalém Sheviit 5, 36a: comparação do couro de recipientes. Plural אוּדְרְיָיתָא. Shevuot 29b: <i>Arukh</i> תליסר א׳ דתבנא, «treze sacos de palha»; edição אורוותא; manuscrito F. אדידתא, conforme Rashi. Nedarim 25a é paralelo adicional; todas as variantes são atribuídas aos respectivos testemunhos."
+    },
+    {
+      "id": "A00493",
+      "ordinal": 494,
+      "source_entry_sha256": "5c0e38d16990c0aed504a64b727344e1323fee9895a42887ca206f0a7824a070",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-486-510.js",
+      "lexical_blob_sha": "2b32051acd5a9add53b23ab1757b638cbfa4c782",
+      "documented_addendum": "<strong>Distinções de leitura e forma:</strong> Nazir 7.2, 49b: edição do Talmude על אֲהִילָן, em contraste com a Mishná אָהֳלָן; Nazir 53a, אֲהִילֹו. Shabbat 90a, manuscrito M., é remetido a אֲהָל. Plural feminino אֲהִילֹות, usado para leis de permanência sob cobertura comum com impureza; também אָהֳלֹות, título do tratado da ordem Tohorot. Jerusalém Moed Katan 2, 81b, Ḥagigah 14a e Bava Metzia 86a documentam referências ao tratado. Não confundir a forma plural legislativa com a coisa material «tenda»."
+    },
+    {
+      "id": "A00498",
+      "ordinal": 499,
+      "source_entry_sha256": "caab20843bbd5891cb8b289a84e7a8d21e6b7def363f3373992bc6e009c0a87b",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-486-510.js",
+      "lexical_blob_sha": "2b32051acd5a9add53b23ab1757b638cbfa4c782",
+      "documented_addendum": "<strong>Flexão e exemplos:</strong> o registro principal é feminino, mas Jastrow assinala uso masculino do plural em Pesahim 53a («m.!»). Plural אֲהִינֵי, atestado também na Tosefta Sheviit 7.14. Ḥullin 46b: a aparência de pulmões descascados é comparada a א׳ סומקא, ahina vermelha; Bava Metzia 113b: א׳ מרירא, ahina amarga. Jerusalém Bava Kamma 6, 5b: כבשא דא׳, conserva de ahina; Jerusalém Bava Batra 5, 15b: כבשה דאהינו, cuja leitura Jastrow corrige segundo o contexto; Avodah Zarah 38b: א׳ שליקי, ahinas cozidas."
+    },
+    {
+      "id": "A00520",
+      "ordinal": 521,
+      "source_entry_sha256": "e9f3fccee1b8a02cb014319a3b98320d021c3985115dbbe88a154357e07d4edf",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-511-535.js",
+      "lexical_blob_sha": "df20db5f220d5ebee37df0b8ec5c11e954c00c07",
+      "documented_addendum": "<strong>Etimologias e testemunhos:</strong> Jastrow indica a raiz אור e compara a forma hebraica צַוָּאר. A expressão א׳ דליבני refere-se a tijolos amontoados com interstícios, opostos a muro compacto (Beitzá 31b, 36a; Eruvin 34b). Em Eruvin, manuscrito de Rashi transmite a forma examinada, enquanto a edição lê אַוִּירָא; comparar אָוֵירָא. O <i>Arukh</i> registra אארא e propõe derivação persa; essa origem é uma análise concorrente, não etimologia demonstrada da forma no texto."
+    },
+    {
+      "id": "A00535",
+      "ordinal": 536,
+      "source_entry_sha256": "494574d6025756172c75716025cf01624e56db61590161f1873d6d1d9fa86967",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-536-560.js",
+      "lexical_blob_sha": "3390f7d8851600edeb5a541e48b8d8b2461bf063",
+      "documented_addendum": "<strong>Aparato botânico:</strong> Jastrow identifica אֹוג com o sumagre (<i>Rhus coriaria</i>); plural אוֹגִין. Peá 1.5, Demai 1.1, Maaserot 1.2 e Kelim 26.3 documentam a planta. Na Tosefta Maaserot 1.4 aparece אובין אדומים, «frutos vermelhos», com variante איבין; o autor recomenda ler אוּגִין, o que constitui <strong>emenda lexical</strong>, e remete à comparação em Maaserot 1.2 e a Löw, <i>Aramäische Pflanzennamen</i>, p. 44. O original compara ainda o siríaco אוגא (P. Sm., p. 53)."
+    },
+    {
+      "id": "A00538",
+      "ordinal": 539,
+      "source_entry_sha256": "5f5325b10fa77b49004d6508226e74a98bab97a61808fce8aeaba5186bfa65ff",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-536-560.js",
+      "lexical_blob_sha": "3390f7d8851600edeb5a541e48b8d8b2461bf063",
+      "documented_addendum": "<strong>Exemplum numérico detalhado:</strong> Jerusalém Bava Batra 10, 17c, em texto que Jastrow considera corrigido, descreve documento de dívida em que אוגדויי (<i>ogdoë</i>) estava apagado, mas קונטא (<i>conta</i>) permanecia visível. Rabi Shemai pergunta a Rabi Huna qual o menor numeral grego que pode anteceder <i>-conta</i>; responde-se τριάκοντα, «trinta». Depois da saída da parte, conclui-se que ela tentara transformar a dívida em trinta, apagando o começo, mas perdeu vinte, porque antes constava πεντήκοντα, «cinquenta». A explicação rabínica requer distinguir forma original e reconstrução editorial da passagem; não tomar o suposto valor da dívida como dado documental independente."
+    },
+    {
+      "id": "A00556",
+      "ordinal": 557,
+      "source_entry_sha256": "09b4a6732a63eec3a35bb346af6f67977f8bf7e7bacb59dd4e5a5158f277b0e0",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-536-560.js",
+      "lexical_blob_sha": "3390f7d8851600edeb5a541e48b8d8b2461bf063",
+      "documented_addendum": "<strong>Testemunhos divergentes:</strong> Jastrow atribui אוּדְדָא ao <i>Arukh</i> e אוּדְרָא à edição. Shabbat 48a: «recolocar o enchimento no colchão»; manuscrito M. lê o plural אוּדְדֵי. Shabbat 141a, M. אודדא. Bava Batra 58a: edição חביתא דא׳, manuscritos דאודד׳. Avodah Zarah 28b: edição א׳ דנדא; M. ארדא דנורא; interpreta-se como estopa tingida e ainda não penteada. Kidushin 12a: זוודא דאורדי, leitura que Jastrow propõe corrigir de acordo com o plural lexical. Variantes dialetais comparáveis: אַדְדָא, אַדְרָא, עוּדְדָא, עוּדְרָא."
+    },
+    {
+      "id": "A00561",
+      "ordinal": 562,
+      "source_entry_sha256": "dc8cc38204800bdfb5523d5a547e55226df0b039db0bb54855bd62c4fcf19966",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-561-570.js",
+      "lexical_blob_sha": "5dc304622b4ee38c0574085e1284fb07d142155d",
+      "documented_addendum": "<strong>Leituras da instituição de irrigação:</strong> Bava Batra 144a: manuscritos אִידְיָנִי / אִידְיָי׳, consulta a Rashi; rendimento de uma instalação de irrigação herdada pertence igualmente aos herdeiros, inclusive menores, pois a tarefa necessária é vigilância. Tosafot oferece variante אידווני, entendida como posto de observação, derivada de דוי, explicação alternativa que não deve ser fundida ao sentido agrícola principal. Jastrow compara, contudo, אוּדְנָא III e remete a corrigir Moed Katan 21a para אוּרְיָינִי, termo concorrente."
+    },
+    {
+      "id": "A00571",
+      "ordinal": 572,
+      "source_entry_sha256": "0c20f478753e0a557f8e7205b37b547009e08f23aa9baadbbfb674c26df1c0f7",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": "ver אוּדְדָא e אֵדֶר I",
+      "lexical_file": "lexicons/jastrow-571-580.js",
+      "lexical_blob_sha": "64a7dc49a1d0062e0eea7e8a9ce23ed31d56c35b",
+      "documented_addendum": "<strong>Remissão corrigida por testemunho:</strong> na transcrição histórica de Jastrow, o texto é אודרא, «ver אודדא e אדר I»; corresponde a <bdi lang='he' dir='rtl'>אוּדְדָא</bdi> (material de enchimento, A00556) e a <bdi lang='he' dir='rtl'>אֵדֶר</bdi> I (pele, saco de couro, A00445). O XML transmite equivocadamente autorremissão אוּדְרָא, embora o <code>rid=\"A00445\"</code> já aponte para a entrada de couro. A circularidade é da digitalização, não uma interpretação legítima a conservar no corpo português."
+    },
+    {
+      "id": "A00592",
+      "ordinal": 593,
+      "source_entry_sha256": "b9a49df6e4ca57826b14d6aa8c2827d26d845d6158cd823360f6b08b08da3f34",
+      "final_state": "C",
+      "corrected_lemma": null,
+      "corrected_gloss": null,
+      "lexical_file": "lexicons/jastrow-591-600.js",
+      "lexical_blob_sha": "b66e23b6fec2f7eb57d2f5f3f2f259f4846fdf89",
+      "documented_addendum": "<strong>Conferência de segmentação:</strong> a transcrição histórica do Jastrow apresenta duas formas, אוושר / אושר, em equivalência a אפשר, com ponto final de frase. O XML reparte esse ponto como um terceiro elemento <code>&lt;head-word&gt;.&lt;/head-word&gt;</code>. A pontuação não é um terceiro lema. A versão portuguesa conserva as duas formas grafadas e a equivalência «possível», remetendo ao Targum Pseudo-Jônatas, Gênesis 18.2 e 18.17."
+    }
+  ],
+  "final_completion": {
+    "date": "2026-10-11",
+    "resolved": "A00429",
+    "lexical_target": "A00568",
+    "status": "C"
+  }
+}
