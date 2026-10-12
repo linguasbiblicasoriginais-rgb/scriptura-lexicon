@@ -1,3 +1,7 @@
+## THAYER — 100 cotejos dirigidos adicionais (12/10/2026)
+
+A frente THAYER registra agora **200/512 (39,06%) cotejos filológicos dirigidos preliminares**, após a análise individual dos registros `entry-thayer-0089–0188` (100 novos) no fac-símile pp. impressas 12–23 e confronto auxiliar subordinado. **Homologação integral 0/512; auditoria atômica 0/512.** Corrigidas cinco fichas: `ἀδιαλείπτως` (referência), `ἀδιαφθορία` (variante textual), `ἀεί` (usos e referências), `ἀθῶος` (ortografia histórica) e `Ἁκελδαμά` (grafia e variantes). Matriz geral 512 JSON/CSV atualizada, 100 observações individuais preservadas em [relatório](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.md) e [JSON nominal](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.json). Verificar CI browser deste commit antes de declarar integração concluída.
+
 ## THAYER — 87 cotejos filológicos dirigidos adicionais (12/10/2026)
 
 Registradas **87 observações lexicais individualizadas** de `entry-thayer-0002` a `entry-thayer-0088`, com a fonte impressa Thayer (pp. 1–12) e transcrições auxiliares separadas. Total acumulado **100/512 (19,53%)** cotejos dirigidos preliminares. **Auditorias atômicas e colações completas: 0/512**. Correções: `ἀγωνία` (ressalva textual de Lc 22.44 no autor) e `ἀδιάκριτος` (restituição de duas acepções). Testes de navegador do SHA anterior não abrangem essas novas edições. [Relatório de 87 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-87.md); evidência individual JSON e matriz 512 JSON/CSV revisadas.
