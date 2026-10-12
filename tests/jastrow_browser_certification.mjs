@@ -66,7 +66,7 @@ try {
     const scriptErrors = [];
     page.on("pageerror", err => scriptErrors.push(err.message));
     await page.goto(baseURL, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await page.locator('tr.search-row[data-source="JASTROW"]').first().waitFor();
+    await page.locator('tr.search-row[data-source="JASTROW"]').first().waitFor({ state: "attached" });
     const inventory = await page.evaluate((ids) => {
       const rows = [...document.querySelectorAll('tr.search-row[data-source="JASTROW"]')];
       const cards = [...document.querySelectorAll('article.entry-card[data-source="JASTROW"]')];
