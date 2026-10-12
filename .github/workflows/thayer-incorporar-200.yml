@@ -28,6 +28,6 @@ jobs:
           python-version: '3.11'
       - name: Preparar traducao local, sem API remunerada
         run: python -m pip install --quiet argostranslate
-      # Terceira tentativa: duas transcricoes Thayer complementares G566/G568.
+      # Escape seguro de crases de fonte no markup; conservar as 200 traducoes.
       - name: Incorporar 200 verbetes THAYER G492–G691
         run: python tools/thayer_incorporar_200.py
