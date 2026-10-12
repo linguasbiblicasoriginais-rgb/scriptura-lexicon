@@ -212,6 +212,41 @@
             </div>
 
 
+            <!-- Informações editoriais vinculadas à fonte efetivamente selecionada. -->
+            <section id="source-details" class="source-details" aria-labelledby="source-details-heading" hidden>
+                <div class="source-details-cover" id="source-cover">
+                    <img id="source-cover-image" alt="" loading="eager" hidden>
+                    <div id="source-cover-placeholder" class="source-cover-placeholder">
+                        <span id="source-cover-short" class="source-cover-short"></span>
+                        <span id="source-cover-title" class="source-cover-title"></span>
+                        <span class="source-cover-caption">Representação tipográfica</span>
+                    </div>
+                </div>
+                <div class="source-details-main">
+                    <div class="source-details-kicker">Sobre a fonte selecionada</div>
+                    <h3 id="source-details-heading"></h3>
+                    <p id="source-details-authors" class="source-details-authors"></p>
+                    <dl class="source-details-grid">
+                        <div><dt>Editora / local</dt><dd id="source-details-publisher"></dd></div>
+                        <div><dt>Publicação</dt><dd id="source-details-date"></dd></div>
+                        <div><dt>Edição</dt><dd id="source-details-edition"></dd></div>
+                        <div><dt>ISBN</dt><dd id="source-details-isbn"></dd></div>
+                        <div><dt>Páginas da edição de referência</dt><dd id="source-details-pages"></dd></div>
+                        <div><dt>Verbetes cadastrados neste dicionário</dt><dd id="source-details-entries"></dd></div>
+                    </dl>
+                    <p id="source-details-note" class="source-details-note"></p>
+                    <a id="source-details-reference" class="source-details-reference" href="#" hidden>Registro bibliográfico e ressalvas →</a>
+                </div>
+            </section>
+
+            <div id="entry-navigation" class="entry-navigation" hidden>
+                <button id="back-to-results" class="back-to-results" type="button">
+                    <span aria-hidden="true">←</span> Voltar aos resultados
+                </button>
+                <span id="entry-navigation-count" class="entry-navigation-count"></span>
+            </div>
+
+
             <div id="search-table-wrapper" class="table-wrapper" hidden>
 
                 <table id="search-table">
@@ -4762,6 +4797,14 @@
     <script src="lexicons/jastrow-581-590.js"></script>
     <script src="lexicons/jastrow-591-600.js"></script>
     <script src="lexicons/jastrow-popups-511-600.js"></script>
+    <script src="lexicons/jastrow-601-650.js"></script>
+    <script src="lexicons/jastrow-651-700.js"></script>
+    <script src="lexicons/jastrow-701-750.js"></script>
+    <script src="lexicons/jastrow-751-800.js"></script>
+    <script src="lexicons/jastrow-801-850.js"></script>
+    <script src="lexicons/jastrow-851-900.js"></script>
+    <script src="lexicons/jastrow-901-950.js"></script>
+    <script src="lexicons/jastrow-951-1000.js"></script>
     <script src="lexicons/thayer.js"></script>
     <script src="lexicons/thayer-batch-002.js"></script>
     <script src="lexicons/thayer-batch-003.js"></script>
@@ -4777,6 +4820,7 @@
     <script src="lexicons/thayer-batch-006e.js"></script>
     <script src="lexicons/thayer-batch-007-suplemento.js"></script>
     <script src="lexicons/halot-batch-001.js"></script>
+    <script src="lexicons/source-catalog.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
