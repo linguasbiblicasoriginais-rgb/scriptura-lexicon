@@ -103,6 +103,45 @@ try {
         await page.locator("#lexical-tooltip").getAttribute("aria-hidden"), "false",
         "Popup de lema deve ficar disponível ao receber foco"
     );
+    // Regressão de TODAS as rotas declaradas: eventos DOM de clique e Enter
+    // no navegador real. As amostras acima exercitam também o Playwright real.
+    const routes = await page.evaluate(() => {
+        const all = Array.from(document.querySelectorAll(
+            'tr.search-row[data-source="THAYER"]'
+        ));
+        const errors = [];
+        let clickOpened = 0;
+        let keyboardOpened = 0;
+        let previous = null;
+        for (const row of all) {
+            const target = document.getElementById(row.dataset.target);
+            row.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
+            if (!target || target.hidden) {
+                errors.push("Clique não abriu " + row.dataset.target);
+            } else {
+                clickOpened++;
+            }
+            if (previous && previous !== target && !previous.hidden) {
+                errors.push("Cartão anterior continuou aberto: " + previous.id);
+            }
+            row.dispatchEvent(new KeyboardEvent("keydown", {
+                key: "Enter", bubbles: true, cancelable: true
+            }));
+            if (!target || target.hidden) {
+                errors.push("Enter não abriu " + row.dataset.target);
+            } else {
+                keyboardOpened++;
+            }
+            previous = target;
+        }
+        return { total: all.length, clickOpened, keyboardOpened, errors };
+    });
+    assert.equal(routes.total, 512, "Testar todos os 512 alvos THAYER");
+    assert.equal(routes.clickOpened, 512, "Todos os cliques DOM abrem o cartão");
+    assert.equal(routes.keyboardOpened, 512, "Todos os Enter DOM abrem o cartão");
+    assert.deepEqual(routes.errors, [], "Nenhum cartão órfão na interação");
+    result.routes = { clickOpened: routes.clickOpened, keyboardOpened: routes.keyboardOpened };
+
     assert.equal(errors.length, 0, "Nenhuma exceção JavaScript durante os ensaios");
     process.stdout.write(JSON.stringify({ status: "PASS", ...result,
         journeys: ["busca_lemma", "filtro_fonte", "click", "enter", "historico", "popup_foco"],
