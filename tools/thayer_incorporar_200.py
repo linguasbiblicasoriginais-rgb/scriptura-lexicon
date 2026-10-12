@@ -25,7 +25,47 @@ def main():
                 i=int(v.group(1))
                 if 492<=i<=691 and (i not in indexed or e.get("id")==f"G{i}"):indexed[i]=e
     missing=[i for i in range(492,692) if i not in indexed]
-    if missing:raise Exception("Lemas nao encontrados na fonte auxiliar: "+str(missing))
+    if missing:
+        import time
+        from html.parser import HTMLParser
+        class PlainText(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.parts=[]
+            def handle_data(self,data):
+                self.parts.append(data)
+        not_fetched=[]
+        for num in missing:
+            error=None
+            for attempt in range(2):
+                try:
+                    req=urllib.request.Request(f"https://biblehub.com/thayers/{num}.htm",
+                        headers={"User-Agent":"Mozilla/5.0 (compatible; ScripturaLexicon/1.0)","Accept":"text/html"})
+                    with urllib.request.urlopen(req,timeout=25) as response:
+                        page=response.read().decode("utf-8","replace")
+                    parser=PlainText();parser.feed(page)
+                    txt=plain(" ".join(parser.parts))
+                    m=re.search(r"STRONGS NT\s*"+str(num)+r"\s*:\s*([\u0370-\u03ff\u1f00-\u1fff][^ ]*)",txt,re.I)
+                    pos=re.search(r"STRONGS NT\s*"+str(num)+r"\s*:\s*",txt,re.I)
+                    if not pos or not m:
+                        raise ValueError("Thayer G"+str(num)+" nao identificado no HTML.")
+                    body=txt[pos.end():]
+                    body=re.split(r"Forms and Transliterations|Links Interlinear Greek|Image: Top of Page",body,1,flags=re.I)[0].strip()
+                    if len(body)<12:
+                        raise ValueError("Definicao incompleta no Thayer G"+str(num))
+                    indexed[num]={"id":f"G{num}","strongs":[f"G{num}"],"lemma":m.group(1).strip(",:;()"),"grammar":"","text":body,"paragraphs":[body],
+                        "source":{"print_pages":[],"transcription_url":f"https://biblehub.com/thayers/{num}.htm"}}
+                    break
+                except Exception as exc:
+                    error=exc
+                    time.sleep(0.7)
+            if num not in indexed:
+                not_fetched.append(f"G{num}: {error}")
+            else:
+                time.sleep(0.14)
+        if not_fetched:
+            raise RuntimeError("Falha na fonte Thayer para os indices: "+"; ".join(not_fetched[:35])+
+                f"; quantidade de lacunas: {len(not_fetched)}. Nenhum verbete publicado.")
     import argostranslate.package,argostranslate.translate
     argostranslate.package.update_package_index()
     avail=[p for p in argostranslate.package.get_available_packages() if p.from_code=="en" and p.to_code=="pt"]
