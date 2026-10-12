@@ -1,5 +1,8 @@
 # Scriptura Lexicon
 
+> **DGP — auditoria filológica única 901–1000 (12/10/2026):** 100 verbetes XML confrontados individualmente com as entradas publicadas, **95 A / 2 C / 3 P**; 3 expansões bibliográficas identificadas (#911, #936, #992) e 0 diferenças textuais inexplicadas. Reparos críticos na camada GDHAGP para #919 (numeração repetida) e #957 (εἷδος em lugar de εἶδος), com três pendências #936, #949, #991. [Relatório completo](auditorias/dgp-filologia-2026-10-12-lote011-0901-1000.md) e [JSON integral](auditorias/dgp-filologia-2026-10-12-lote011-evidencias.json). Checkpoint filológico histórico **1.000/3.300**, próximo #1001 `αἱματίζω`. JS editorial com sintaxe validada, sem novo teste em navegador, sem alterar Fonte nem integrar por PR neste ciclo.
+
+
 > **DGP — auditoria filológica única 801–900 (12/10/2026):** 100 verbetes originais e respectivas definições cotejados integralmente, com **96 A / 2 C / 2 P**. As C são notas críticas independentes da Fonte para #822 (Plutarco, ἄθρυπτα) e #878 (identificação de αἰγίθαλλος); as duas P são #879 e #891. Cinco expansões bibliográficas documentadas e 0 divergências textuais injustificadas. [Pareceres individuais](auditorias/dgp-filologia-2026-10-12-lote010-0801-0900.md) e [evidências da fonte](auditorias/dgp-filologia-2026-10-12-lote010-evidencias.json). Cotejo cumulativo histórico **900/3.300**, sem recertificação dos 600 anteriores. Próximo #901 `αἰγυπτιάζω`. A sintaxe JS das notas passou na validação estática; sem navegador ou merge neste ciclo.
 
 

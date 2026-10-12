@@ -400,7 +400,12 @@
             [822, "O DGP cita ὦτα ἄτρυπτα κολακείᾳ. Em Plutarco, De recta ratione audiendi 2 (ed. G. N. Vernardakēs, Teubner 1888), a leitura grega é ἄθρυπτα κολακείᾳ, coerente com ἄθρυπτος. Divergência confirmada; o testemunho do DGP foi preservado sem substituição silenciosa."],
             [878, "O DGP verte αἰγίθαλλος como «abelheiro», que em português designa Merops apiaster. Aristófanes, Aves 881, e o Cambridge Greek Lexicon identificam αἰγίθαλλος com um tipo de chapim (tit), não com o abelharuco. Esta é uma nota editorial de retificação zoológica, preservando a glosa literal da fonte."],
             [879, "A análise 〈αἴξ, κορέννυμι〉 é transmitida pelo DGP. Pauly-Wissowa (s.v. Aigikoreis) documenta etimologias e interpretações históricas concorrentes; não apresentar a análise da fonte como consenso estabelecido."],
-            [891, "O DGP glosa a acepção botânica como «nó de pinho»; LSJ, com referência a Teofrasto, HP 3.9.3, descreve o cerne do pinheiro (heartwood). A equivalência técnica precisa de exame da passagem grega e não deve ser presumida."]
+            [891, "O DGP glosa a acepção botânica como «nó de pinho»; LSJ, com referência a Teofrasto, HP 3.9.3, descreve o cerne do pinheiro (heartwood). A equivalência técnica precisa de exame da passagem grega e não deve ser presumida."],
+            [919, "O XML do DGP repete o número de acepção 3 em ἀΐδηλος, entre «invisível; secreto» e «sombrio; obscuro». A leitura foi preservada e a duplicação assinalada documentalmente."],
+            [957, "A análise de αἰθεροειδής no DGP registra εἷδος (espírito áspero), mas LSJ e Bailly atestam εἶδος (espírito brando) no sentido «forma/aspecto». A advertência não modifica a fonte."],
+            [936, "A citação clássica de αἰδώς traz a abreviatura «el.» no DGP sem identificação segura de autor nesta auditoria. Preservar a sigla até comprovação do locus."],
+            [949, "O próprio DGP assinala «duv.» para αἴητος. A semelhança formal com ἄητος não comprova identidade nem os sentidos indicados sem testemunho antigo específico."],
+            [991, "A proposta etimológica αἰόλος + οὐρά para αἴλουρος é transmitida pelo DGP, mas a variante αἰέλουρος levanta problemas fonéticos. Não apresentar a composição como etimologia demonstrada."]
         ].forEach(function (item) {
             const card = document.getElementById(
                 "entry-dgp-" + String(item[0]).padStart(4, "0")
