@@ -8,7 +8,7 @@
 - **Pareceres filológicos digitais preexistentes:** A=58, C=42, P=0. A revisão digital anterior é preservada, não refeita artificialmente. Fontes dos pareceres: `auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json` e `auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json`.
 - **Correções ainda não integradas:** 42/42 registros historicamente C apresentaram conteúdo diferente nos módulos `lexicons/jastrow-011-040.js`, `041-080.js`, `081-110.js` entre `chat-gpt-correcoes` e `chat-gpt-commits`. Nenhum dos 58 pareceres A foi encontrado nessa lista de alterações. Essa correspondência foi verificada com a comparação das propriedades de cada registro nas duas branches, e não inferida apenas de mudanças de arquivo.
 - **Riscos filológicos específicos do intervalo:** 47 registros com remissões XML e 27 com múltiplos cabeçalhos. Os exemplos/citações em testemunhos rabínicos e a validação de páginas impressas não foram universalmente rechecados fora do XML digital.
-- **Teste de navegador anterior:** [Chromium #38214646245](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38214646245), sucesso geral para os 600. **Nova bateria específica de 100:** [execução #38260565698](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698); resultado a consultar, não antecipar. A bateria calcula SHA-256, verifica abertura por ponteiro e teclado em todos os 100 em duas resoluções, remissões HTML/âncoras internas, RTL e amostragem axe de 10/100 por perfil. Aprovação funcional não substitui colação filológica nem merge.
+- **Teste de navegador anterior:** [Chromium #38214646245](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38214646245), sucesso geral para os 600. **Nova bateria específica de 100:** [execução #38260565698](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698); **resultado real: FAILURE**. Em desktop, 100/100 cartões abriram por ponteiro e Enter, 100/100 títulos passaram na direção RTL e os 10 cartões amostrados pelo axe não tiveram violações. Dos 57 verbetes com gatilho de popup testado por foco, 17 abriram e 40 não abriram no teste. Este resultado precisa de reprodução diagnóstica para distinguir falha da aplicação de limitação da automação. O teste individual móvel NÃO foi executado porque a suíte interrompeu após a falha desktop. [Artefatos da execução](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38260565698/artifacts/11752701860). A bateria calcula SHA-256, verifica abertura por ponteiro e teclado em todos os 100 em duas resoluções, remissões HTML/âncoras internas, RTL e amostragem axe de 10/100 por perfil. Aprovação funcional não substitui colação filológica nem merge.
 - **Homologação:** `AUDITORIA_CONCLUIDA = 0/100` nesta publicação documental. Não foram criados PR/merge pelo processo de auditoria. A integração independente deve resolver o delta sem perder as demais fontes, realizar os testes e confirmar `merged=true` e presença do conteúdo publicado; nenhuma alteração é feita em `main`.
 
 ## Referência individual (100/100)
@@ -117,6 +117,14 @@ A matriz JSON anexa preserva para cada ID o lema, os cabeçalhos da fonte, SHA-2
 | 98 | `A00097` | *אבטיגא | C | 0 | SIM | BLOQUEADA |
 | 99 | `A00098` | *אָבְטְיוֹנָא | C | 0 | SIM | BLOQUEADA |
 | 100 | `A00099` | אֲבַטִּיחַ | A | 1 | não | BLOQUEADA |
+
+## Resultado da primeira execução individual de Chromium
+
+- **GitHub Actions #38260565698: `failure`**, não aprovação. Os hashes dos 100 registros originais passaram e a regressão geral de 600 também passou previamente na mesma execução.
+- **Desktop:** 100/100 abertura por ponteiro; 100/100 por teclado; 100/100 título e script RTL; 0 exceções JS; 0 problemas de overflow horizontal; 10/100 amostrados no axe sem violações.
+- **Popups:** 57 cartões com gatilhos de popup amostrados; 17/57 mostraram o tooltip ao focalizar o primeiro gatilho e 40/57 não. Os 40 IDs e a matriz de pendências estão no JSON. Não classificar automaticamente como defeitos reais antes de reproduzir o mecanismo.
+- **Móvel individual:** não executado, porque a validação desktop disparou assertion. A avaliação geral móvel dos 600 da rodada anterior segue válida para seu próprio escopo.
+- **Estado atômico:** 0/100; há bloqueio de regressão, além de 42 correções não integradas.
 
 ## Portões obrigatórios ainda não satisfeitos
 
