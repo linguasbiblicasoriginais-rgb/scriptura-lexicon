@@ -115,7 +115,10 @@ try {
     assert.equal(inventory.problems.length, 0, "Falhas DOM de " + device.name + ": " + JSON.stringify(inventory.problems.slice(0, 12)));
     // Real Playwright input events, source filtering, pointer and keyboard selection.
     await page.locator("#search-input").fill("A00000");
-    await page.locator("#source-filter").selectOption("JASTROW");
+    // The native <select> is visually hidden after the custom combobox initializes.
+    // Exercise the actual user-facing source chooser instead of selecting a hidden node.
+    await page.locator("#source-filter-button").click();
+    await page.locator('#source-filter-options [role="option"][data-source="JASTROW"]').click();
     let firstRow = page.locator('tr.search-row[data-source="JASTROW"][data-target="entry-jastrow-a00000"]');
     assert.equal(await firstRow.isVisible(), true, "A00000 aparece na pesquisa");
     await firstRow.click();
