@@ -1,0 +1,33 @@
+name: JASTROW - diagnostico de foco em tooltip
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - ".github/workflows/jastrow-tooltip-diagnostico.yml"
+      - "tests/jastrow_tooltip_focus_diagnostic.mjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar Chromium Playwright
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Servir site estatico
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/scriptura-server.log 2>&1 &
+          for i in $(seq 1 25); do
+            if curl --silent --fail http://127.0.0.1:8765/ >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          exit 1
+      - name: Diagnostico focal e clique em tooltips
+        run: node tests/jastrow_tooltip_focus_diagnostic.mjs

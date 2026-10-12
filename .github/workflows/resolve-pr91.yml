@@ -1,0 +1,33 @@
+name: PR 91 - integrar 510 JASTROW com seguranca
+
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths:
+      - ".github/workflows/resolve-pr91.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pr91-jastrow-to-commits
+  cancel-in-progress: false
+
+jobs:
+  integrar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Configurar identidade Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Validar sintaxe
+        run: python -m py_compile tools/resolve_pr91.py
+      - name: Resolver conflitos, auditar e publicar o merge protegido
+        run: python tools/resolve_pr91.py

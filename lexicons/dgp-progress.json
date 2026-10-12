@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 2781,
-    "status": "Lotes 70–75 integrados após auditoria estática; inspeção funcional e popups dinâmicos pendentes"
+    "next_ordinal": 3301,
+    "status": "Lotes DGP 77–81 (2881–3300) incorporados à proposta de integração PR #114; total 3300 no manifesto; auditoria independente de todos os lotes e testes dinâmicos a confirmar após merge."
   },
   "batches": [
     {
@@ -685,7 +685,61 @@
       "start_entry": "ἀνακινέω-ῶ",
       "end_entry": "ἀναμάσσω,",
       "entry_count": 100,
-      "status": "incorporado; auditoria independente e integração pendentes"
+      "status": "incorporado; auditoria independente estática de 100/100 e integração PR #80 confirmadas (10/10/2026); testes dinâmicos pendentes"
+    },
+    {
+      "batch": 76,
+      "start_ordinal": 2781,
+      "end_ordinal": 2880,
+      "start_entry": "ἀνάματος, ος, ον",
+      "end_entry": "ἀναπλήρωσις, εως (ἡ)",
+      "entry_count": 100,
+      "status": "integrado pelo PR #86 após auditoria estática independente 100/100; testes funcionais e editoriais dinâmicos pendentes"
+    },
+    {
+      "batch": 77,
+      "start_ordinal": 2881,
+      "end_ordinal": 2980,
+      "start_entry": "ἀναπληρωτέον",
+      "end_entry": "ἀναστατόω-ῶ",
+      "entry_count": 100,
+      "status": "incorporado em f9b760a42ea9408784d1ca5e0eac916ff4665441; auditoria textual/estrutural estática independente 100/100 publicada em aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55; navegador e integração pendentes"
+    },
+    {
+      "batch": 78,
+      "start_ordinal": 2981,
+      "end_ordinal": 3000,
+      "start_entry": "ἀνασταυρόω-ῶ",
+      "end_entry": "ἀνάσχεο",
+      "entry_count": 20,
+      "status": "incorporado em 1e62e9e7e8df1b196ce1013f3d1bc589630a4120; auditoria textual/estrutural estática independente 20/20 publicada em aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55; navegador e integração pendentes"
+    },
+    {
+      "batch": 79,
+      "start_ordinal": 3001,
+      "end_ordinal": 3100,
+      "start_entry": "ἀνασχέσθαι",
+      "end_entry": "ἀνδρακάς",
+      "entry_count": 100,
+      "status": "incorporado em 33510d1b473d81de960827313bd6f3d8904805ce; auditoria textual e estrutural estática independente 100/100 publicada em 8442739006d863110ace4ccb54a5c9245436c649; navegador e integração pendentes"
+    },
+    {
+      "batch": 80,
+      "start_ordinal": 3101,
+      "end_ordinal": 3200,
+      "start_entry": "ἀνδραπόδεσσι",
+      "end_entry": "ἀνείμων, ων, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; pré-colação de 100/100 registros, IDs, definições completas e alvos; auditoria independente, navegador e integração pendentes"
+    },
+    {
+      "batch": 81,
+      "start_ordinal": 3201,
+      "end_ordinal": 3300,
+      "start_entry": "ἀνεῖναι",
+      "end_entry": "ἀνέπεσον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; colação pré-publicação de 100/100 lemas, definições, linhas, cartões e alvos; auditoria independente, navegador e integração pendentes"
     }
   ],
   "editorial_rules": {

@@ -1,4 +1,284 @@
+## PR #115 — integração de correções e auditorias (12/10/2026)
+
+Foram reconciliados os módulos corrigidos de JASTROW e os reparos de apresentação DGP, com incorporação de relatórios, testes e workflows da origem `chat-gpt-correcoes`. Preservados os 81 lotes DGP (3.300 registros), os 512 THAYER e demais frentes já consolidadas. Os registros abaixo são históricos, não prova de homologação atômica. [Relatório do PR #115](auditorias/integracao-pr-115-2026-10-12.md).
+
+## PR #114 — resolução da integração DGP 77–81 (12/10/2026)
+
+Conciliação de `chat-gpt-dgp` com `chat-gpt-commits`: inclusão dos cinco módulos inéditos DGP (420 registros, ordinais 2881–3300), carregados após o lote 076 e antes do formatador. Os módulos originais são conservados sem reescrita lexical; as regras e checkpoints do DGP são atualizados sem substituir as atualizações de outras frentes. A branch `main` não deve ser modificada e nenhuma origem deve ser excluída. Evidências: [auditoria de reconciliação do PR #114](auditorias/integracao-pr-114-2026-10-12.md). O êxito definitivo do merge deve ser confirmado pelo estado remoto `merged=true`.
+
+## Lote DGP 81 — ordinais 3.201–3.300 (11/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, de `ἀνεῖναι` a `ἀνέπεσον`, no módulo independente `lexicons/dgp-batch-081.js`, carregado depois do lote 80 e antes de `dgp-format.js`. Proveniência: `aniseferreira/Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. As definições portuguesas integrais são preservadas no cartão e no índice `data-search`; apenas a glosa auxiliar da tabela pode ser abreviada. Pré-colação determinística: **100 lemas, 100 definições, 100 search-row e 100 entry-card**, com IDs e alvos consecutivos, sem URLs externas novas.
+
+**Checkpoint lexical: 81 lotes, 3.300 verbetes no manifesto; próximo ordinal 3.301 (`ἀνέπηλα`).** A soma de checkpoints não é recontagem independente de todas as entradas. Auditoria independente posterior em `chat-gpt-correcoes`, testes de navegador/popups/acessibilidade e integração por PR em `chat-gpt-commits` são etapas separadas. Nenhum commit em `main`.
+
+## Lote DGP 80 — ordinais 3.101–3.200 (10/10/2026)
+
+Novo lote independente de **100 verbetes**, de `ἀνδραπόδεσσι` a `ἀνείμων, ων, ον`, extraído do XML canônico da letra α (`aniseferreira/Grc-Por-DigDict`, commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`). O arquivo `lexicons/dgp-batch-080.js` é carregado após o lote 79, antes do formatador. A definição integral de cada verbete está preservada no cartão e no atributo pesquisável `data-search`; a glosa auxiliar da tabela pode ser abreviada. A pré-colação local conferiu **100/100 linhas, cartões, lemas e definições**, IDs consecutivos e alvos, sem links externos novos.
+
+**Checkpoint nominal: 80 lotes, 3.200 verbetes DGP, próximo ordinal 3.201 (`ἀνεῖναι`).** Este total é a soma dos lotes documentados, não uma auditoria independente de todos os 3.200 registros. O lote 79 já possui auditoria textual/estrutural estática independente em `chat-gpt-correcoes`, commit `8442739006d863110ace4ccb54a5c9245436c649`. A auditoria do lote 80, testes em navegador/popups e integração em `chat-gpt-commits` são etapas separadas; não houve merge para `main` nesta operação.
+
+
+## Lote DGP 79 — ordinais 3.001–3.100 (10/10/2026)
+
+Incorporados **100 verbetes consecutivos**, de `ἀνασχέσθαι` a `ἀνδρακάς`, do XML canônico `aniseferreira/Grc-Por-DigDict` (commit fixado `deb54b426ead447d01ced7534736f3e77be7015b`), no módulo `lexicons/dgp-batch-079.js`. O índice de pesquisa mantém a definição completa e cada cartão conserva integralmente o texto do XML, com escape HTML e normalização de espaços. A pré-colação de 100 registros verificou as linhas `search-row`, cartões `entry-card`, IDs e alvos sem discrepâncias nem links externos novos. **Manifesto DGP: 79 lotes, 3.100 verbetes; próximo ordinal 3.101 — `ἀνδραπόδεσσι`.**
+
+Auditoria estática independente do lote 79, testes de navegador/popups e integração em `chat-gpt-commits` pertencem a etapas separadas e não são inferidos desta publicação lexical. Os relatórios estáticos dos lotes 77 e 78 foram confirmados em `chat-gpt-correcoes`, commit `aad7263c8decb77ce5d6f0d2bfea18a3cf0dfc55`.
+
+
+## DGP — meta de 3.000 verbetes atingida (lote 78; 10/10/2026)
+
+Solicitação específica concluída em **dois commits lexicais atômicos**, com **120 verbetes consecutivos** da fonte grega fixada: lote **77**, ordinais **2.881–2.980** (100; `ἀναπληρωτέον` → `ἀναστατόω-ῶ`), e lote **78**, ordinais **2.981–3.000** (20; `ἀνασταυρόω-ῶ` → `ἀνάσχεο`). Os módulos são `lexicons/dgp-batch-077.js` e `lexicons/dgp-batch-078.js`, carregados antes do formatador. O manifesto registra **78 lotes e 3.000 verbetes DGP**, próximo ordinal **3.001** (`ἀνασχέσθαι`). O lote final de 20 é exceção pontual para alcançar exatamente 3.000; a regra geral de 100 por ciclo permanece.
+
+Pré-colação individual na origem do XML: 120/120 pares de `search-row` e `entry-card`, IDs e definições integrais nos cartões e índices de pesquisa. Nenhuma URL nova. **Pendências distintas:** auditoria independente dos lotes 77/78, verificação global de DOM em navegador, popups dinâmicos, acessibilidade e integração posterior em `chat-gpt-commits`. A publicação lexical não deve ser confundida com merge automático.
+
+
+## Lote DGP 77 — avanço até 3.000 (10/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico nos ordinais **2.881–2.980** (`ἀναπληρωτέον` → `ἀναστατόω-ῶ`) em `lexicons/dgp-batch-077.js`. Cada verbete tem linha de busca indexando a definição completa e cartão com texto integral, com 100/100 pares de IDs e alvos verificados na pré-colação. Manifesto DGP: **2.980 verbetes**, próximo ordinal **2.981** (`ἀνασταυρόω-ῶ`). Esta é a primeira de duas etapas para a meta de **3.000 verbetes**; o segundo commit tem 20 entradas. Auditoria independente do novo lote, testes de navegador e integração permanecem separados. Fonte fixada: `Grc-Por-DigDict`, commit `deb54b426ead447d01ced7534736f3e77be7015b`.
+
+**Regularização do lote 76:** auditoria textual/estrutural independente confirmada no commit `6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069`, e integração efetiva pelo [PR #86](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/86). Testes dinâmicos permanecem pendentes.
+
+
+## Integração THAYER — reconciliação do conflito do PR #113 (12/10/2026)
+
+Conciliação conservadora de `chat-gpt-thayer` com `chat-gpt-commits`: preservadas as versões consolidadas e mais recentes dos 26 caminhos abrangidos pelo PR, incluindo as correções lexicais e auditorias de 12/10/2026; recuperada a norma de quadro global de progresso de `Rthayer.txt`. Nenhum verbete foi reescrito por esta operação. A conferência da resolução está registrada em [auditoria da integração #113](auditorias/integracao-pr-113-2026-10-12.md). A confirmação definitiva de `merged=true` é independente desta preparação; `main` e a branch THAYER devem ser preservadas.
+
+## THAYER — 512/512 cotejos dirigidos preliminares (12/10/2026)
+
+Concluído o **inventário de cotejos dirigidos de escopo parcial** dos 512 verbetes: 400 prévios + 112 finais (0389–0499 e o cartão histórico Ἀαρών). Consultado o fac-símile Thayer, páginas impressas 35–51 e 1; as páginas de cada verbete numerado permanecem por certificar individualmente. Corrigidas três fichas (ἀνατολή, ἀνήμερος e ἀνταναπληρόω). **Colação filológica integral: 0/512. Auditoria atômica concluída: 0/512.** Todos os estados permanecem BLOQUEADA conforme `Rauditoria.txt`. Relatório: [112 cotejos dirigidos](auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.md); [fichas individuais JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.json).
+
+## THAYER — lote dirigido 0289–0388, 12/10/2026
+
+Confronto filológico dirigido preliminar de **100 fichas adicionais** (ἀμοιβή–ἀνάπτω), com consulta ao fac-símile Thayer, páginas impressas 33–46 e notas individuais. O acumulado passa de 300 para **400/512 cotejos dirigidos (78,125%)**. **Auditoria filológica integral e auditoria atômica: 0/512**, com todos os 512 estados bloqueados até verificação exaustiva. Correções de escopo delimitado em `ἀμφιβάλλω`, `ἄν` e `ἀναίδεια`. Relatório e evidências: [100 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md) · [inventário JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.json).
+
+## THAYER — 100 cotejos dirigidos adicionais, 0189–0288 (12/10/2026)
+
+A matriz registra agora **300 de 512 (58,59%) cotejos dirigidos preliminares**, após a verificação da série `ἀκμή` até `ἀμνός` (`entry-thayer-0189–0288`). A fonte foi o fac-símile do Thayer, páginas impressas 23–34; intervalos de localização são aproximados e as fichas permanecem sínteses editoriais, não traduções completas. Foram acrescentadas observações textuais às fichas `ἀκολουθέω` (Ap 18.5) e `ἀληθής` (Jo 6.55), com ajuste correspondente da busca. **Homologações completas: 0/512.** [Relatório dos 100 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.md) e [inventário nominal em JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.json).
+
+## THAYER — 100 cotejos dirigidos adicionais (12/10/2026)
+
+A frente THAYER registra agora **200/512 (39,06%) cotejos filológicos dirigidos preliminares**, após a análise individual dos registros `entry-thayer-0089–0188` (100 novos) no fac-símile pp. impressas 12–23 e confronto auxiliar subordinado. **Homologação integral 0/512; auditoria atômica 0/512.** Corrigidas cinco fichas: `ἀδιαλείπτως` (referência), `ἀδιαφθορία` (variante textual), `ἀεί` (usos e referências), `ἀθῶος` (ortografia histórica) e `Ἁκελδαμά` (grafia e variantes). Matriz geral 512 JSON/CSV atualizada, 100 observações individuais preservadas em [relatório](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.md) e [JSON nominal](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.json). Verificar CI browser deste commit antes de declarar integração concluída.
+
+## THAYER — 87 cotejos filológicos dirigidos adicionais (12/10/2026)
+
+Registradas **87 observações lexicais individualizadas** de `entry-thayer-0002` a `entry-thayer-0088`, com a fonte impressa Thayer (pp. 1–12) e transcrições auxiliares separadas. Total acumulado **100/512 (19,53%)** cotejos dirigidos preliminares. **Auditorias atômicas e colações completas: 0/512**. Correções: `ἀγωνία` (ressalva textual de Lc 22.44 no autor) e `ἀδιάκριτος` (restituição de duas acepções). Testes de navegador do SHA anterior não abrangem essas novas edições. [Relatório de 87 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-87.md); evidência individual JSON e matriz 512 JSON/CSV revisadas.
+
+## THAYER — reconciliação de checkpoint e reauditoria independente (12/10/2026)
+
+Verificação independente dos **14 módulos THAYER** em `chat-gpt-commits`: **511 pares** linha/cartão dinâmicos com IDs `0001–0511` sem duplicação ou lacunas, além do cartão histórico `Ἀαρών`, total **512**. A matriz `auditorias/thayer-2026-10-12-matriz-atomica-512.json` contém 512 registros, todos `BLOQUEADA`, com cotejo dirigido preliminar 13/512 e homologação atômica 0/512. A execução Chromium [run #38205220873](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38205220873) permanece prova de estrutura e rotas DOM, não de fidelidade integral ao original. Corrigida incoerência nos campos de checkpoint do suplemento 007, conservando histórico do lote 006. Detectado descompasso de blobs na branch de origem `chat-gpt-thayer` em relação à consolidação; **não** sincronizar por substituição cega. [Relatório independente](auditorias/thayer-2026-10-12-verificacao-independente.md).
+
+## THAYER — auditoria com Chromium e colação dirigida de ἄλφα (12/10/2026)
+
+A norma de auditoria atômica foi aplicada: **512/512 (100%)** registros montados no DOM real de Chromium, com **512/512 (100%)** rotas abertas por eventos de clique e Enter, teste GitHub Actions [run #38205220873](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38205220873) aprovado. A correção documental de **ἄλφα (Thayer, p. 1)** incluiu artigo `τό`, exemplo `ἀτιμόω`, Ap 11.17 e nota de proveniência, integrada pelo [PR #105](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/105). Cotejo dirigido preliminar acumulado **13/512 (2,54%)**; homologação filológica integral e auditoria atômica **0/512 (0%)**. Não extrapolar testes DOM a URL externa, acessibilidade completa ou fidelidade das acepções. [Relatório com barras](auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md) · [Matriz JSON](auditorias/thayer-2026-10-12-matriz-atomica-512.json) · [Matriz CSV](auditorias/thayer-2026-10-12-matriz-atomica-512.csv).
+
+## THAYER — auditoria segundo a norma atômica (11/10/2026)
+
+**Total publicado: 512 registros, sem alteração de contagem.** Conferida a estrutura estática de **512/512 (100%)**, com zero divergências de IDs, pares linha/cartão, lemas/glosas e atributos nos controles usados. A comparação com a fonte foi **dirigida/preliminar para 12/512 (2,34%)**; nenhum dos 512 possui ainda colação integral e testes reais de navegador comprovados, portanto **0/512 (0%) apresentam AUDITORIA_CONCLUIDA** conforme `regras/Rauditoria.txt`. Foram acrescentados **15 links bíblicos verificados** nas seções de referências de **12 cartões** do suplemento, sem reescrever as acepções. O PDF original e sua transcrição auxiliar foram distinguidos das sínteses editoriais; variantes continuam atribuídas à fonte.
+
+**Evidências individualizadas:** [Relatório](auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md) · [Matriz JSON dos 512](auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json) · [Matriz CSV dos 512](auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv). Falta colação palavra por palavra, correção completa de cada artigo, paginação e links para todos, testes efetivos de DOM, popups e acessibilidade. **Esta auditoria não homologou globalmente o THAYER.**
+
+## Norma canônica vigente — auditoria atômica por verbete (11/10/2026)
+
+**Auditar não significa apenas inspecionar e relatar.** Uma auditoria de verbete é uma unidade indivisível de **confronto integral com a fonte, aplicação de todas as correções fundamentadas e tecnicamente possíveis, regressão textual/filológica/funcional, registro de evidências e integração confirmada por PR**. Se restarem erros, dúvidas, testes obrigatórios não executados ou merge pendente, o verbete **não está auditado**: seu estado deve permanecer `EM_EXECUCAO`, `BLOQUEADA` ou `AGUARDANDO_INTEGRACAO`. A contagem de triagens estáticas é independente de `total_auditoria_concluida`.
+
+**Norma superior:** [regras/Rauditoria.txt](regras/Rauditoria.txt) · **ficha de evidências:** [regras/modelo-auditoria-atomica.json](regras/modelo-auditoria-atomica.json). Aplicação imediata a BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT e demais dicionários. Os relatórios antigos continuam válidos somente no escopo dos testes que realmente documentaram: por exemplo, “THAYER 512/512 estrutural” **não** significa “512/512 auditados pelo novo protocolo”. Nenhum conteúdo lexical foi reclassificado automaticamente.
+
+## THAYER — regressão estrutural dos 512 registros (11/10/2026)
+
+Conferidos **511/511 pares** de linha/cartão dinâmicos, mais Ἀαρών estático. Não houve novo defeito detectado por parser estático. O levantamento de qualidade identificou **0/511 links dentro das seções de referências**, **19/511 menções numéricas de página reconhecíveis**, **264/511 descrições semânticas com menos de 120 caracteres** e **65/511 contendo caracteres gregos**. Essas estatísticas não estabelecem incorreção lexical nem homologação filológica; navegação real e revisão textual integral continuam pendentes. [Relatório](auditorias/thayer-2026-10-11-regressao-estatica-512.md).
+
+## THAYER — suplemento de 12 formas e artigos documentados (11/10/2026)
+
+A incorporação suplementar de **12 fichas** de Thayer (IDs internos 0500–0511) leva o total de 500 a **512 registros** e preserva todos os cartões anteriores. O módulo distingue artigos próprios, variantes de texto, grafias e remissões; os índices secundários sufixados em `a` não constituem números oficiais de Strong. A classificação foi conferida com o fac-símile e transcrições auxiliares; o aparato completo de 512 registros **não** recebeu homologação filológica nem teste DOM. [Relatório de decisões](auditorias/thayer-2026-10-11-homologacao-supl-12.md) · [inventário das 12 entradas](auditorias/thayer-2026-10-11-homologacao-supl-12.csv). Próximo artigo regular: ἀντιπαρέρχομαι (G492).
+
+## THAYER — correção editorial integrada de nove ressalvas (11/10/2026)
+
+Retificados em sete fichas os vínculos com artigos-matriz de Thayer (ἅγιον→ἅγιος; αἱρέομαι→αἱρέω; αἰσχρόν→αἰσχρός; αἰσχύνομαι→αἰσχύνω; ἀκριβέστατος/ἀκριβέστερον→ἀκριβής; ἄκρον→ἄκρος). Corrigidos sete parágrafos de ἀγαθός com numeração duplicada e adicionadas as cinco referências bíblicas de Ἀαρών ao índice de busca. Preservados **500 cartões** e demais módulos do projeto. [Relatório de correções](auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md) · [triagem pendente de 12 candidatos](auditorias/thayer-2026-10-11-triagem-de-12-candidatos.md). A revisão filológica integral, as páginas verificadas para cada artigo e os testes reais de navegador/DOM não estão homologados.
+
+## Correção THAYER-EST-001 — Ἀβαδδών (11/10/2026)
+
+A falha de markup `data-tooltip-label` embutido no cartão `entry-thayer-0002` foi corrigida no módulo `lexicons/thayer.js`: a forma verbal hebraica `אָבַד` passou a figurar integralmente no atributo e no texto; transliteração `ʾāḇaḏ` e significado “perecer” preservados. O tooltip espúrio `אָב` (“pai”) foi removido. O blob lexical reproduz exatamente a correção do commit `f3d7ed03d58fbb6a5bc68f0dbaf69707b4bfae39` em `chat-gpt-thayer`. Total THAYER: 500, inalterado. Checagem estática: 20/20 pares no módulo; os 479 demais cartões dinâmicos e o cartão estático Ἀαρών permanecem intocados. Relatório: [resolução THAYER-EST-001](auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md). Browser/DOM e homologação filológica integral ainda pendentes.
+
 # Scriptura Lexicon
+
+## PR #88 — reconciliação HALOT (11/10/2026)
+
+Conciliação técnica de `chat-gpt-halot` com `chat-gpt-commits`: mantém as integrações prévias de BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER e inclui o lote HALOT 001, a fonte Git versionada, os documentos de extração e a auditoria estrutural. Os **100 registros HALOT são preliminares**, com **zero aprovações filológicas** e sem tradução integral ou conferência visual completa do hebraico. O checkpoint de origem preserva `total_integrated=0` até confirmação da mesclagem do PR; essa contagem não é prova de ausência do módulo no ramo de resolução. As declarações antigas de impedimento de acesso e de conflito abaixo permanecem como histórico, superadas pelas evidências e pela reconciliação posterior. Direitos de redistribuição do PDF ainda requerem exame independente. `main` não foi modificada.
+
+## HALOT — 100 registros preliminares incorporados na branch própria (11/10/2026)
+
+**Situação real:** o lote 001 (ordinais de fonte **1–100**) está publicado em [`lexicons/halot-batch-001.js`](lexicons/halot-batch-001.js), com **100 linhas de pesquisa e 100 cartões**, ligados à seção Hebraico–Português por `index.html`. A auditoria estática comprovou 100 IDs únicos, correspondência entre todos os alvos e cartões, presença das quatro camadas e carregamento correto do módulo. **Tradução integral, correção do hebraico, teste em navegador e aprovação filológica permanecem pendentes**; as traduções atuais são **glosas sucintas**, não verbetes completos. Checkpoint: [`lexicons/halot-progress.json`](lexicons/halot-progress.json), **100 publicados / 0 filologicamente aprovados / 0 integrados**, próximo ordinal **101**. Auditoria: [`auditorias/halot-2026-10-11-lote001.md`](auditorias/halot-2026-10-11-lote001.md).
+
+**Fonte efetiva, com correção bibliográfica:** [`fontes/fonte-halot.pdf`](fontes/fonte-halot.pdf), blob Git `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`, SHA-256 `7ba7a1346bef2ef0e8829650b2ebbf86b2ffb3e48b5a2e98f78a8b42bc86c964`. A inspeção por GitHub Actions identificou **3.537 páginas físicas** e frontispício de ***CD-ROM Edition*** (© Brill 1994–2000), **não a Study Edition anteriormente presumida pela URL externa**. Os primeiros registros aparecem entre as páginas PDF 237–257. O texto hebraico legado necessita decodificação e cotejo visual. O antigo link externo não é mais fonte autoritativa. Os arquivos de extração estão documentados em [`regras/Rhalot.txt`](regras/Rhalot.txt).
+
+**Integração:** o [PR #88](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/88) continua aberto e apresenta conflitos com atualizações concorrentes de `chat-gpt-commits`; não foi presumido merge nem realizada qualquer edição em `main`. Preservar todas as demais frentes ao reconciliar. A rotina de extração `.github/workflows/halot-fonte-extracao.yml` é um procedimento diagnóstico, não uma incorporação horária automática.
+
+## HALOT — PDF canônico versionado (11/10/2026)
+
+**Regra vigente:** a fonte primária da frente HALOT é exclusivamente [`fontes/fonte-halot.pdf`](fontes/fonte-halot.pdf), na branch `chat-gpt-halot`; blob Git `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O endereço externo anteriormente indicado permanece apenas como referência histórica de proveniência; outros volumes KBS/HALOT não o substituem. Conferir o blob SHA a cada nova execução e registrar mudanças de versão antes de continuar. A existência do PDF foi confirmada no GitHub, mas sua inspeção interna e a delimitação das primeiras 100 entradas ainda não foram concluídas; o checkpoint lexical permanece **0 incorporados, 0 auditados, 0 integrados**, ordinal seguinte 1. Regras: [`regras/Rhalot.txt`](regras/Rhalot.txt); manifesto: [`lexicons/halot-progress.json`](lexicons/halot-progress.json). Não requerer upload adicional somente pela falha histórica da URL externa.
+
+## HALOT — tentativa do primeiro lote (11/10/2026)
+
+A solicitação de **100 verbetes HALOT** foi iniciada, mas **não pôde ser concluída**: o leitor público recusou o PDF canônico por tamanho (18.446.799 bytes), o download direto falhou e o ambiente de inspeção retornou erro. Nenhuma sequência de 100 verbetes com fronteiras e paginação auditáveis foi obtida; portanto, **0 verbetes novos foram publicados**. O estado honesto e o próximo ordinal 1 constam em [`lexicons/halot-progress.json`](lexicons/halot-progress.json), e o impedimento em [`regras/Rhalot.txt`](regras/Rhalot.txt). Para retomar, é necessário acesso efetivo ao próprio arquivo indicado pelo mantenedor; outros volumes KBS não serão utilizados como substitutos silenciosos. Esta atualização é apenas documental, sem mudanças em `main`, scripts lexicais ou demais checkpoints.
+
+## PR #96 — conciliação das auditorias DGP e JASTROW (11/10/2026)
+
+O conflito de integração foi resolvido na branch `chat-gpt-correcoes`, preservando o conteúdo consolidado de `chat-gpt-commits` e acrescentando os relatórios e as correções documentadas neste PR. As alterações do DGP ficam restritas à pesquisa dos registros já existentes e à correção tipográfica de `ausência`; não foram criados verbetes. Os módulos de JASTROW e THAYER já integrados permanecem intactos. Os relatórios DGP sobre **3.300 entradas** referem-se ao estado da **branch lexical de origem**; a quantidade publicada na branch consolidada deve ser consultada separadamente. A integração definitiva do PR ainda depende da mesclagem, sem alteração da `main`. A revisão filológica integral, os testes de navegador e a acessibilidade permanecem pendentes.
+
+## JASTROW — auditoria filológica cumulativa de 600 registros (11/10/2026)
+
+Foi realizada triagem independente de **590 objetos editoriais contra seus registros XML**, com leitura dirigida do módulo-base (10 registros); o controle estrutural preexistente abrange **600 cartões e 600 linhas**. Foram encontrados **32 sinais** de variantes de cabeçalho não apresentadas literalmente, **2** registros com material grego condensado (`A00238`, `A00362`) e **1 erro de remissão confirmado** (`A00057`). Esses totais não são 35 erros independentes certificados: os sinalizadores podem sobrepor-se e incluem falsos positivos. A auditoria filológica exaustiva e testes de navegador não foram concluídos; `total_audited=0` mantém-se. Detalhes: [relatório JASTROW de 11/10/2026](auditoria/JASTROW-2026-10-11-filologia-600.md). A branch `chat-gpt-correcoes` diverge da integração e não contém todos os módulos lexicais; não copiar sobre o trabalho integrado sem reconciliação.
+
+
+## DGP — auditoria filológica, lote 002 (11/10/2026)
+
+A auditoria filológica independente chegou aos **40 verbetes revisados** (2 lotes de 20) dentre **3.300** incorporados. O [segundo relatório](auditorias/dgp-filologia-2026-10-11-lote002-0021-0040.md) registra os ordinais 21–40, confronto contextual com LSJ, CLD/Bailly, Suda e Cambridge Greek Lexicon, análise de remissões, morfologia e citações. Em `chat-gpt-correcoes`, corrigiu-se **somente a palavra portuguesa quebrada** `au- sência` → `ausência` no cartão DGP 38, preservando a fonte XML. Ainda **não há homologação filológica integral, visual/funcional ou integração das correções**. Próximo lote filológico: 41–60. O [checkpoint independente](auditorias/dgp-filologia-progresso.json) registra os ordinais e pendências.
+
+## DGP — início da auditoria filológica independente (11/10/2026)
+
+Foi iniciado o confronto filológico progressivo do DGP: **20 verbetes examinados individualmente (ordinais 1–20 de 3.300 incorporados)**, com consulta auxiliar dirigida em LSJ/Cunliffe para 14 registros, identificação de citações em *Ilíada* 9.537 e 2 Coríntios 11.9, e registro de questões relativas a terminações adjetivais, derivações, homógrafos e acepções. **Não é uma homologação filológica dos 3.300 verbetes**, nem uma alteração editorial da fonte. O relatório de cada entrada está em [auditoria filológica 1–20](auditorias/dgp-filologia-2026-10-11-lote001-0001-0020.md) e o progresso reproduzível em [checkpoint filológico DGP](auditorias/dgp-filologia-progresso.json). Próximo lote: 21–40.
+
+Em todos os relatórios de execução deve ser exibida uma tabela consolidada para **BDAG, DGP, LEH, PEREIRA, JASTROW e THAYER** com Incorporação, Auditoria textual/estrutural, Auditoria filológica, Integração e total numérico incorporado, distinguindo conclusões verificadas de etapas parciais. A norma permanece em [`regras/Rcorrecoes.txt`](regras/Rcorrecoes.txt).
+
+## Auditoria filológica THAYER — 500 registros (11/10/2026)
+
+**Estado editorial: NÃO HOMOLOGADO.** A correspondência de cabeçalho foi examinada em todos os **500 cartões**: **490 lemas coincidem por normalização** com a transcrição auxiliar de Thayer; o confronto com o fac-símile documentou **sete divergências reais de lematização**, além de um falso negativo do extrator e duas diferenças de indicação flexional. Foram identificados **12 candidatos adicionais** a entrada ou variante autônoma, que exigem decisão editorial baseada na obra impressa.
+
+O relatório detalhado está em [auditoria THAYER 500](auditorias/thayer-auditoria-filologica-500-2026-10-11.md), acompanhado do [inventário individual dos 500 registros](auditorias/thayer-auditoria-filologica-500-inventario.csv). A revisão filológica completa de acepções, regências, referências e etimologias **não foi realizada para todos os 500 artigos** e não pode ser declarada concluída com base na auditoria estrutural ou em correspondência automática. O léxico mantém os 500 cartões originais nesta etapa; a correção deve ser feita com evidência por página. Próximo lema: **ἀντιπαρέρχομαι**.
+
+
+## THAYER — lote 006: 500 verbetes acumulados (11/10/2026)
+
+A branch `chat-gpt-thayer` recebeu **100 novas entradas**, de **ἀνατέλλω (G393)** a **Ἀντιοχεύς (G491)**, somando **500 verbetes THAYER** (499 registros dinâmicos e o cartão histórico Ἀαρών). O lote compreende 99 entradas do intervalo G393–G491 e uma entrada adicional identificada por Thayer como **ἀνέλεος (G415a)**. Próximo lema: **ἀντιπαρέρχομαι (G492)**.
+
+Os cinco novos módulos `lexicons/thayer-batch-006a.js` até `006e.js` possuem 20 pares de linha de pesquisa/cartão por arquivo, carregados após os módulos 005 e antes de `script.js`. Fonte lexical: Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, consultado pelo fac-símile da parte Α–Ι e transcrições do próprio Thayer. Os verbetes contêm sínteses editoriais portuguesas com classes gramaticais, acepções, referências e popups; **Strong é apenas sistema de indexação**.
+
+A auditoria técnica verifica 100 linhas, 100 cartões, alvos, IDs e etiquetas. Não certifica a revisão filológica exaustiva, paginação impressa por verbete, testes dinâmicos em navegador ou acessibilidade. Documentação: `lexicons/thayer-progress.json`, `regras/Rthayer.txt`, `auditorias/thayer-2026-10-11-lote006.md`. Esta incorporação permanece exclusivamente em `chat-gpt-thayer`; integração em `chat-gpt-commits` exige operação independente e `main` não é editada.
+
+
+## THAYER — meta de 400 verbetes alcançada na origem (11/10/2026)
+
+A branch lexical `chat-gpt-thayer` foi ampliada de **321 para 400 verbetes THAYER**, com **79 novas entradas numeradas G314–G392**: de **`ἀναγινώσκω`** até **`ἀνατάσσομαι`**. O próximo verbete indexado é **`ἀνατέλλω` (G393)**. As 79 entradas foram distribuídas em quatro módulos independentes da mesma rodada: `lexicons/thayer-batch-005a.js` (20), `thayer-batch-005b.js` (20), `thayer-batch-005c.js` (20) e `thayer-batch-005d.js` (19). São carregados, nessa ordem, depois do lote 004 e antes de `script.js`.
+
+Fonte primária: Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament*, `Thayer (parte 1, Α–Ι).pdf`, páginas impressas 36–42, com consulta auxiliar a transcrições individuais do Thayer. Cada novo registro inclui lema politônico, classe gramatical, equivalentes portugueses, síntese de acepções, referências bíblicas e popup lexical grego. **400** corresponde aqui ao número de entradas editoriais incorporadas no site, inclusive o cartão histórico de Ἀαρών; não equivale à afirmação de que todos os cabeçalhos não indexados da obra no intervalo já foram auditados.
+
+Checkpoint: `lexicons/thayer-progress.json`. Normas e controle: `regras/Rthayer.txt`. Relatório: `auditorias/thayer-2026-10-11-lote005.md`. A auditoria estática confere 79 pares novos de linhas e cartões, sequência de IDs e de G314–G392, sem colisões e com carregamento correto dos scripts; testes dinâmicos de navegador, acessibilidade, validação exaustiva de URLs, inventário de cabeçalhos não numerados e revisão filológica integral permanecem **pendentes**. Esta publicação não modifica `main` nem mescla automaticamente em `chat-gpt-commits`; a integração exige fluxo próprio.
+
+
+## JASTROW — triagem filológica dos 600 registros (11/10/2026)
+
+**Auditoria de cobertura textual:** todos os 600 registros XML foram confrontados programaticamente com as 600 entradas portuguesas. Resultado da triagem: 504 sem sinal automático, 55 com alerta baixo, 39 médio e 2 alto; os alertas são hipóteses de revisão, **não erros validados nem certificados**. A [execução GitHub Actions 38118125003](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38118125003) disponibiliza artefato com 12 lotes de 50, matriz JSON completa, análise por ID e trechos de fonte/edição.
+
+**Conferência manual desta rodada:** 5 verbetes (`A00156`, `A00238`, `A00338`, `A00362`, `A00371`); correções de variantes, testemunhos e grego efetivamente fundamentadas no XML em `A00156`, `A00238` e `A00362`. Dois alertas automáticos foram adjudicados sem substituições arbitrárias. Relatório: [`auditoria/JASTROW-filologia-600-2026-10-11.md`](auditoria/JASTROW-filologia-600-2026-10-11.md). **O restante das 600 entradas ainda requer leitura humana individual para certificação de sentidos, variantes, etimologias, citações e bibliografia.** Checkpoint: `total_screened_filologically=600`, `total_manually_confronted_this_cycle=5`, `total_audited=0`. Testes reais de browser não executados.
+
+
+## PR #92 — JASTROW concluído até 600 verbetes (11/10/2026)
+
+O [PR #92](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/92) incorpora os 90 registros JASTROW `A00510`–`A00599`, de ordinal 511 a 600, e preserva as incorporações anteriores de BDAG, LEH, DGP (lote 076), PEREIRA e THAYER (lotes 002–004). São **600 verbetes JASTROW integrados**, com originais XML `A00000`–`A00599` intactos. Próximo registro `A00600`, `אוּזִילָא`, não extraído e não traduzido.
+
+A [auditoria cumulativa Actions #38117209491](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38117209491) aprovou 600 linhas, 600 cartões, 600 IDs/alvos únicos, 176 popups e 33 módulos. Os lemas antigos `A00006` e `A00007` possuem diferenças gráficas registradas; os 90 novos coincidem com o original. **Revisão filológica independente integral, tradução de todas as notas, testes reais em navegador e acessibilidade continuam pendentes**, portanto `total_audited=0`. Este é um merge Git de dois pais, com preservação das branches e de `main`.
+
+## JASTROW — sétima rodada: conclusão até o verbete 600 (11/10/2026)
+
+A sétima rodada corresponde a **90 verbetes**, ordinais **511–600**, IDs `A00510`–`A00599`, iniciando em `אֲהָן` e terminando em `*(אוּסְיָא) אוּזְיָא`. A camada editorial em português passa a **600** entradas publicadas em `chat-gpt-jastrow`. A camada Fonte mantém **600 registros XML originais** (`A00000`–`A00599`), extraídos do `Sefaria/Sefaria-Data` no commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, sem confundir transcrição integral de fonte com tradução editorial.
+
+**Módulos da rodada:** [`jastrow-511-535.js`](lexicons/jastrow-511-535.js) (25), [`jastrow-536-560.js`](lexicons/jastrow-536-560.js) (25), [`jastrow-561-570.js`](lexicons/jastrow-561-570.js) (10), [`jastrow-571-580.js`](lexicons/jastrow-571-580.js) (10), [`jastrow-581-590.js`](lexicons/jastrow-581-590.js) (10) e [`jastrow-591-600.js`](lexicons/jastrow-591-600.js) (10), além de [`jastrow-popups-511-600.js`](lexicons/jastrow-popups-511-600.js). Todos os módulos devem ser carregados na ordem de origem pelo `index.html`, antes de `script.js`.
+
+**Checkpoint lexical:** `total_published=600`, `total_integrated=510` até a mesclagem desta rodada, `total_audited=0`. O próximo ordinal é **601**, ID `A00600`, lema antecipado `אוּזִילָא`. **A entrada 601 não foi extraída nem traduzida**; seu lema consta apenas no campo `next_headword` do terceiro lote-fonte. Para continuar depois do verbete 600, será necessário obter o quarto lote XML original.
+
+**Auditoria cumulativa concluída:** o [GitHub Actions 38117209491](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38117209491) terminou com sucesso: **600 linhas e 600 cartões, 600 IDs correspondentes, 176 popups únicos e 33 módulos**. Duas grafias legadas diferem do cabeçalho do XML (`A00006`, `A00007`); os 90 novos correspondem literalmente. O relatório fica em `auditoria/JASTROW-2026-10-11-lote-007.md`, branch `chat-gpt-correcoes`. `total_audited=0` permanece porque auditoria estrutural não constitui certificação filológica integral.
+
+**Rigor editorial e auditoria:** todos os novos IDs e cabeçalhos são derivados literalmente do XML; preservam-se homógrafos, remissões, variantes e hipóteses diferenciadas. Cada cartão contém uma síntese portuguesa do original, sem reivindicar tradução exaustiva de todas as citações. A auditoria automática [`tools/audit_jastrow_600.js`](tools/audit_jastrow_600.js) confere 600 pares busca/cartão contra os registros-fonte; somente uma execução bem-sucedida do GitHub Actions permite registrar aprovação estática. A revisão filológica independente completa, DOM real, acessibilidade e testes funcionais de pesquisa e popups continuam pendentes.
+
+
+## PR #91 — JASTROW 510 verbetes integrados (11/10/2026)
+
+O [PR #91](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/91) integra 100 novos verbetes (`A00410`–`A00509`) de JASTROW, perfazendo **510 entradas e cartões**, mantendo todos os módulos anteriores de BDAG, LEH, DGP (inclusive lote 076), PEREIRA, THAYER (inclusive PR #90), seus relatórios e checkpoints. A fonte original XML totaliza 600 registros preservados. Próximo JASTROW `A00510` (`אֲהָן`).
+
+A auditoria cumulativa [Actions 38115928600](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38115928600) aprovou **510 linhas, 510 cartões, 510 alvos, 159 popups únicos e 26 módulos**. Duas diferenças legadas de grafia (`A00006`, `A00007`) estão registradas; os 100 lemas novos coincidem literalmente com o XML. A revisão filológica integral, a tradução exaustiva de notas e exemplos e os testes de navegador ainda estão **pendentes**: `total_audited=0`. O merge é técnico, sem exclusão de branches nem mudanças em `main`.
+
+## JASTROW — sexta rodada: mais 100 verbetes (11/10/2026)
+
+**Publicação lexical confirmada:** foram adicionados 100 verbetes JASTROW, ordinais 411–510, IDs `A00410`–`A00509`, de `אדכי` a `אהמרא`; o próximo verbete original é `A00510` (`אֲהָן`, ordinal 511). A branch exclusiva `chat-gpt-jastrow` disponibiliza agora **510 entradas editoriais em português**, em contraste com os **600 registros originais XML** armazenados. Antes desta rodada, **410** JASTROW estavam realmente integrados em `chat-gpt-commits` graças ao PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/89), mesclado em `c652136c1220cfe780c2697531d7da9a2fddcea2`.
+
+**Fonte:** arquivo [`lexicons/jastrow-source-lote-0003.json`](lexicons/jastrow-source-lote-0003.json), ordinais 401–600 extraídos de `Sefaria/Sefaria-Data`, commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Para esta rodada foram usados estritamente os originais de IDs `A00410`–`A00509` (índices 10–109 do lote), sem inventar lemas, variantes ou homógrafos. Os documentos da camada Fonte são independentes das sínteses editoriais.
+
+**Módulos:** [`lexicons/jastrow-411-435.js`](lexicons/jastrow-411-435.js), [`lexicons/jastrow-436-460.js`](lexicons/jastrow-436-460.js), [`lexicons/jastrow-461-485.js`](lexicons/jastrow-461-485.js) e [`lexicons/jastrow-486-510.js`](lexicons/jastrow-486-510.js), com 25 entradas cada; [`lexicons/jastrow-popups-411-510.js`](lexicons/jastrow-popups-411-510.js) acrescenta o glossário contextual. Todos são carregados por `index.html` após os módulos anteriores e antes de `script.js`.
+
+**Auditoria cumulativa posterior:** o [GitHub Actions 38115928600](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38115928600) concluiu com sucesso: **510 linhas, 510 cartões, 510 IDs e alvos correspondentes, 159 definições únicas de popup e 26 módulos JASTROW**, com 600 originais armazenados. As grafias legadas dos lemas `A00006` e `A00007` divergem das primeiras palavras do XML; os 100 novos mantêm igualdade literal dos lemas. Relatório em `auditoria/JASTROW-2026-10-11-lote-006.md` na branch `chat-gpt-correcoes`. **A validação não certifica revisão filológica integral nem teste de navegador.**
+
+**Verificação executada no momento da publicação:** quatro módulos novos interpretados em JavaScript e comparados ao XML original para os **100/100** IDs, lemas, `data-target`, `entry-card` e `search-row`, sem duplicações entre os novos registros; ordem de scripts no HTML verificada. Requer-se validação cumulativa do conjunto com 510 itens e de seus popups, além dos testes reais de navegador e da revisão filológica independente. As traduções incluem sínteses das entradas originais; exemplos e notas extensas não estão todos traduzidos integralmente. Por isso, `total_audited=0` continua válido e nunca deve ser confundido com auditoria de integridade estrutural.
+
+**Integração:** manter PR exclusivo para `chat-gpt-commits`, conciliando quaisquer adições concorrentes de DGP, THAYER, BDAG, LEH e PEREIRA, mantendo `main` intacta e sem excluir branches. Documentar efetivamente o PR quando mesclado, e só então incrementar `total_integrated` para 510.
+
+
+## PR #90 — integração excepcional de THAYER 003–004 (11/10/2026)
+
+**Confirmação remota PR #90:** GitHub retornou `state=closed` e `merged=true`, SHA do merge `adcc52d941904383c9a1d3fd905b6d14f98eb657` (2026-10-11T05:14:18Z); dois pais reais, sem alteração da branch `main` ou exclusão das branches originais. Auditoria estática pós-merge: 320 linhas/cartões THAYER dinâmicos e 1 cartão histórico, total 321, todos com alvos únicos e correspondentes. Os demais módulos lexicais mantiveram seus blobs.
+
+O [PR #90](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/90) incorpora por decisão expressa 200 verbetes THAYER das rodadas 003 e 004, formando **321 verbetes THAYER** na branch consolidada, inclusive o cartão histórico de Ἀαρών. O próximo lema é **ἀναγινώσκω (G314)**. Os módulos originais `lexicons/thayer-batch-003.js` e `lexicons/thayer-batch-004.js` e respectivos relatórios são preservados, assim como o checkpoint e a proveniência do PR #87. O merge de dois pais reais concilia scripts e histórico de todas as demais fontes, incluindo JASTROW 410.
+
+Esta é uma autorização **pontual**, não adição de `chat-gpt-thayer` à rotina automática de integração. Não tocar `main` ou excluir branches. Permanecem pendentes revisão filológica integral, testes de navegador, acessibilidade e URLs.
+
+## THAYER — lote 004 de 100 verbetes (11/10/2026)
+
+A branch `chat-gpt-thayer` recebeu **100 novos verbetes** de `ἀλέκτωρ` (G220) a `ἀναγεννάω` (G313), no módulo `lexicons/thayer-batch-004.js`. Foram cadastradas **94 entradas com índice inteiro**, mais **seis cabeçalhos adicionais documentados no Thayer**: `ἀλλαχοῦ`, `Ἀμπλίατος`, `ἀμφιβάλλω`, `ἀμφιάζω`, `ἀμφιέζω` e `ἄμωμον`. A entrada `ἄλφα` (G255a) já estava cadastrada e não foi duplicada.
+
+O total acumulado é **321 entradas THAYER**, com próximo lema **`ἀναγινώσκω` (G314)**. Fonte primária: *A Greek-English Lexicon of the New Testament* (Thayer, PDF parte 1 Α–Ι), páginas impressas 27–36. As páginas do Thayer digital serviram como auxiliares de leitura, mantendo independente o conteúdo de todos os demais léxicos. O módulo apresenta 100 linhas de busca e 100 cartões lexicais, com sentidos portugueses, gramática, referências e popups. Arquivos de progresso e documentação: `lexicons/thayer-progress.json`, `regras/Rthayer.txt` e `auditorias/thayer-2026-10-11-lote004.md`.
+
+Auditoria estrutural obrigatória concluída por inspeção dos arquivos e do estado remoto. **Não se certificou ainda** revisão filológica integral de todas as acepções, navegação DOM, acessibilidade ou verificação universal dos links existentes. A integração continua restrita à própria branch: o integrador vigente não lista THAYER entre as origens autorizadas. Nenhum commit em `main`.
+
+
+## THAYER — lote 003, 100 verbetes (11/10/2026)
+
+Na branch `chat-gpt-thayer`, 100 entradas consecutivas **G120–G219**, `ἀθυμέω` → `ἀλεκτοροφωνία`, foram incorporadas pelo módulo `lexicons/thayer-batch-003.js`. A fonte primária é o fac-símile de Thayer (parte 1, Α–Ι), páginas impressas **14–26**. O acumulado é **221 verbetes THAYER** (1 HTML preexistente, 20 no módulo inicial, 100 no lote 002 e 100 no lote 003); o próximo é **ἀλέκτωρ (G220)**.
+
+Cada entrada contém classe, tradução portuguesa, análise semântica resumida, referências bíblicas, identificação da fonte e popup lexical grego. Trata-se de sínteses editoriais rastreáveis, não transcrição inglesa integral nem incorporação de Strong como fonte semântica. Algumas variantes textuais são identificadas, notadamente G168 e G183; a entrada G188 registra corretamente o lema **ἀκμή**, distinguindo o acusativo adverbial **ἀκμήν**. O relatório estrutural é `auditorias/thayer-2026-10-11-lote003.md`.
+
+A auditoria estrutural verifica 100 novos pares `search-row`/`entry-card`, unicidade dos IDs e integridade da sequência. **Ainda pendentes:** auditoria visual e filológica integral de cada acepção, execução no navegador, testes de acessibilidade e verificação individual de links externos. Esta rotina não abre PR para `chat-gpt-commits` por ausência de `chat-gpt-thayer` na política de integração vigente; `main` não é modificada.
+
+
+
+## PR #89 — integração JASTROW até 410 verbetes (11/10/2026)
+
+O PR [#89](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/89) concilia os 200 verbetes JASTROW adicionais `A00210`–`A00409` com os módulos anteriores de BDAG, LEH, PEREIRA, DGP (incluindo lote 076) e THAYER (incluindo lote 002). O JASTROW passa a ter 410 cartões e linhas na integração e preserva separadamente 600 registros originais do XML canônico. Próximo ID `A00410`, lema `אדכי`.
+
+**Limite editorial:** as traduções incluem sínteses, com revisão filológica integral, notas e exemplos pendentes; testes em navegador, popups dinâmicos e acessibilidade ainda não realizados. `total_audited=0` permanece. As afirmações históricas mais abaixo de que somente 210 JASTROW estavam integrados se referem ao estado anterior ao PR #89. A fusão técnica é um merge Git com dois pais, sem mudanças em `main` e sem exclusão de branches.
+
+## JASTROW — quinta rodada: 100 verbetes (11/10/2026)
+
+**Estado publicado em `chat-gpt-jastrow`: 410 entradas JASTROW e 410 linhas de pesquisa; 100 novas, IDs `A00310`–`A00409` (ordinais 311–410).** Primeiro lema `אַגַּמָּא`; último `אד״ך` (forma `אד"ך` no XML). Próxima entrada `A00410`, lema `אדכי`, ordinal 411. Na branch `chat-gpt-commits` foram verificados **210** verbetes JASTROW publicados; os 200 das duas rodadas mais recentes ainda não foram integrados.
+
+**Fonte:** [JASTROW lote 2](lexicons/jastrow-source-lote-0002.json), 200 registros ordinais 201–400, mais [lote 3](lexicons/jastrow-source-lote-0003.json), 200 registros 401–600, extraídos do XML de `Sefaria/Sefaria-Data` no commit imutável `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. A [execução GitHub Actions 38112091478](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38112091478) terminou com sucesso e preservou o lote 3; a camada Fonte soma **600 originais**, que não devem ser confundidos com as 410 entradas editoriais portuguesas.
+
+**Arquivos da quinta rodada:** [`jastrow-311-335.js`](lexicons/jastrow-311-335.js) (25), [`jastrow-336-360.js`](lexicons/jastrow-336-360.js) (25), [`jastrow-361-385.js`](lexicons/jastrow-361-385.js) (25) e [`jastrow-386-410.js`](lexicons/jastrow-386-410.js) (25), carregados por `index.html` antes do módulo `script.js`. [`jastrow-popups-311-410.js`](lexicons/jastrow-popups-311-410.js) adiciona novas explicações. O conjunto JASTROW possui **137 chaves de popup únicas**, após eliminação das duplicatas.
+
+**Auditoria determinística executada:** correspondência exata de todos os 100 novos registros da fonte com seus 100 cartões, IDs `A00310`–`A00409`, lemas (inclusive variante tipográfica `A00371` previamente publicada), 100 linhas e 100 `data-target` válidos, módulos JS executados sem erro em contexto simulado e ordem de carregamento correta. Somados aos 310 já verificados na rodada anterior, são 410 linhas e 410 cartões editoriais. A execução de popups confirma 137 termos distintos.
+
+**Pendências que NÃO foram certificadas:** tradução exaustiva de todas as notas e exemplos de cada registro; cobertura integral de todas as remissões por popups; pesquisa e filtros reais, renderização bidi RTL/LTR, acessibilidade, teclado e regressão visual em navegador. Portanto, o checkpoint conserva `total_audited=0` até auditoria filológica independente. Nenhum novo PR/merge dos 100 foi realizado, nenhuma alteração em `main`. Cada texto original permanece independente da tradução e análise.
+
+
+## JASTROW — quarta rodada: 100 verbetes (11/10/2026)
+
+**Situação na branch `chat-gpt-jastrow`: 310 entradas JASTROW com linha de pesquisa e cartão correspondente; 100 novos registros, `A00210`–`A00309` (ordinais 211–310).** Primeiro lema: `אַבְרוּיֵי`; último: `אַגָּם`. Próximo: `A00310` (`אַגַּמָּא`, ordinal 311). Os 210 primeiros estão efetivamente presentes em `chat-gpt-commits` (confirmado pela leitura do HTML e da ancestralidade remota), embora o checkpoint dessa branch ainda não refletisse essa integração anterior. **Os 100 da quarta rodada ainda não foram mesclados.**
+
+**Fonte canônica:** segundo lote XML [`lexicons/jastrow-source-lote-0002.json`](lexicons/jastrow-source-lote-0002.json), extração dos ordinais 201–400 (`A00200`–`A00399`) do repositório `Sefaria/Sefaria-Data`, commit imutável `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. O total disponível permanece **400 registros-fonte**, distinto dos 310 traduzidos editorialmente.
+
+**Arquivos publicados nesta rodada:** [`lexicons/jastrow-211-235.js`](lexicons/jastrow-211-235.js), [`lexicons/jastrow-236-260.js`](lexicons/jastrow-236-260.js), [`lexicons/jastrow-261-285.js`](lexicons/jastrow-261-285.js) e [`lexicons/jastrow-286-310.js`](lexicons/jastrow-286-310.js), 25 entradas por arquivo. [`lexicons/jastrow-popups-211-310.js`](lexicons/jastrow-popups-211-310.js) adiciona explicações contextuais com proteção contra chaves duplicadas; todos os módulos estão ligados em `index.html` antes de `script.js`.
+
+**Auditoria estrutural executada:** 310 `search-row`, 310 `entry-card`, 310 identificadores consecutivos correspondentes aos registros originais `A00000`–`A00309`, todos os 310 `data-target` válidos e únicos, 16 arquivos JS JASTROW carregados na ordem, 115 entradas explicativas únicas para popups. Os testes executaram o JavaScript dos módulos em ambiente V8 simulando `window.ScripturaLexicons`, **não** um navegador com DOM completo.
+
+**Pendências editoriais impeditivas para aprovar o lote:** as traduções portuguesas incluem sínteses lexicográficas, não tradução exaustiva de todos os exemplos, variantes e notas da fonte. Necessária auditoria filológica independente linha a linha, auditoria completa de popup/abreviaturas e teste de interação em navegador (pesquisa, filtros, RTL/LTR, teclado, acessibilidade). Por isso, `total_audited=0`; os novos 100 permanecem somente na branch lexical até integração devidamente verificada. Nunca alterar `main`.
+
+
+## PR #87 — integração de auditorias e THAYER (10/10/2026)
+
+O PR [#87](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/87) incorpora à branch consolidada `chat-gpt-commits` os relatórios independentes de **JASTROW 002/003**, **DGP 76** e **THAYER 002**, e os módulos de THAYER até **121 cartões/linhas** (20 do lote inaugural, 100 do lote 002, mais o cartão histórico de `Ἀαρών`). Mantêm-se intactas todas as incorporações BDAG, LEH, DGP (inclusive lote 76), PEREIRA e JASTROW (inclusive 210 registros), seus scripts e os respectivos checkpoints anteriores.
+
+O HTML consolidado carrega `lexicons/thayer.js` e `lexicons/thayer-batch-002.js` depois dos scripts das outras fontes e antes de `script.js`, com as quatro âncoras próprias de busca e cartões. O manifesto independente é `lexicons/thayer-progress.json`: lote 002 ἀγαλλιάω → ἄθλησις, próximo `ἀθυμέω`. O original do autor e a tradução editorial são mantidos sem edição lexical neste merge; auditoria estática de estrutura e IDs conferida. **Revisão filológica integral, teste real em navegador, acessibilidade, popups dinâmicos e verificação exaustiva das URLs continuam pendentes.**
+
+Esta integração de THAYER é **exceção manual vinculada à solicitação expressa de resolução do PR #87**, cujo head é `chat-gpt-correcoes`, uma origem já autorizada; **não** inclui automaticamente `chat-gpt-thayer` nas origens da rotina de integração. As notas históricas abaixo sobre a ausência de integração THAYER descrevem o instante anterior ao PR #87 e permanecem preservadas para rastreabilidade. Não houve edição de `main` nem eliminação de branches.
 
 ## THAYER — lote 002 (100 verbetes, 10/10/2026)
 
@@ -17,6 +297,43 @@ Fonte-base: fac-símile Thayer (parte 1, Α–Ι), pp. 1–3; cotejo com transcr
 
 A branch THAYER **não integra ainda** as seis fontes autorizadas pelo integrador em `regras/Rintegracao.txt`: nenhum PR/merge foi realizado por esta rotina. Nenhuma alteração em `main`.
 
+
+## DGP — resolução e integração do PR #86 (10/10/2026)
+
+A incorporação do **lote 76 (100 verbetes, ordinais 2.781–2.880)**, `ἀνάματος, ος, ον` → `ἀναπλήρωσις, εως (ἡ)`, foi reconciliada com a branch consolidada `chat-gpt-commits`, preservando todas as alterações posteriores dos demais léxicos (incluindo JASTROW e PEREIRA). O módulo `lexicons/dgp-batch-076.js` passa a ser carregado exatamente uma vez após `dgp-batch-075.js`, antes do formatador DGP, sem suprimir qualquer outro script. O manifesto lexical DGP mantém 76 lotes e **2.880 verbetes**, próximo ordinal **2.881** (`ἀναπληρωτέον`). O checkpoint próprio fica em `regras/estado-orquestracao-dgp.json`, preservando o estado BDAG do arquivo legado.
+
+Colação filológica e estrutural estática independente **aprovada 100/100** com o XML canônico, commit de auditoria [`6c3e55f8fece`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069) em `chat-gpt-correcoes`; relatório `auditorias/dgp-2026-10-10-lote76.md` naquela branch (integração do próprio relatório em etapa separada). Fonte fixada `aniseferreira/Grc-Por-DigDict` (`deb54b426ead447d01ced7534736f3e77be7015b`). **Pendentes:** testes em navegador, acessibilidade, comportamento de popups dinâmicos e auditoria editorial ampliada. A integração não modifica `main` ou branches de origem, nem cria verbetes adicionais além do lote 76.
+
+
+## JASTROW — terceira rodada: 100 novos verbetes (10/10/2026)
+
+**Publicação atual na branch `chat-gpt-jastrow`: 210 cartões e 210 linhas pesquisáveis**, com 100 registros novos (`A00110`–`A00209`, ordinais 111–210), além dos 110 anteriores. **Próximo verbete:** `A00210` (`אַבְרוּיֵי`; ordinal 211). **Integração efetiva já comprovada:** 110 registros anteriores pelo PR [#82](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/82) (*merged*); os 100 novos ainda não foram integrados.
+
+**Camada Fonte:** XML canônico de `Sefaria/Sefaria-Data` no commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, com dois arquivos independentes de 200 registros cada: [lote 1](lexicons/jastrow-source-lote-0001.json) (`A00000`–`A00199`) e [lote 2](lexicons/jastrow-source-lote-0002.json) (`A00200`–`A00399`). Há 400 originais armazenados, não 400 traduções. O workflow [run 38099249338](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38099249338) falhou com `IndexError` no extrator quando usou o deslocamento 200; após correção do índice, o [run 38099440930](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38099440930) terminou com êxito e publicou o segundo lote-fonte.
+
+**Módulos novos:** [`jastrow-111-140.js`](lexicons/jastrow-111-140.js) (30), [`jastrow-141-170.js`](lexicons/jastrow-141-170.js) (30), [`jastrow-171-185.js`](lexicons/jastrow-171-185.js) (15), [`jastrow-186-200.js`](lexicons/jastrow-186-200.js) (15) e [`jastrow-201-210.js`](lexicons/jastrow-201-210.js) (10). [`jastrow-popups-111-210.js`](lexicons/jastrow-popups-111-210.js) adiciona explicações bibliográficas e onomásticas sem duplicar as definições anteriores. Todos são carregados em `index.html` antes de `script.js`.
+
+**Auditoria determinística executada:** 210 `search-row`, 210 `entry-card`, 210 identificadores distintos e consecutivos com `data-target` correspondentes, IDs vinculados aos 210 registros do XML, scripts em ordem e 86 termos de tooltip únicos. **Pendências:** auditoria filológica integral e independente dos exemplos, notas, leituras e referências; parte dos cartões apresenta sínteses editoriais, não reprodução traduzida integral de todas as notas do XML. Testes reais de navegador, RTL, acessibilidade, pesquisa e popups dinâmicos também estão pendentes. **Não certificar editorialmente os 100 novos nem concluir novo merge antes dessas verificações.** Nenhuma escrita em `main`.
+
+
+
+## JASTROW — rodada editorial de 100 entradas (10/10/2026)
+
+**Estado na branch `chat-gpt-jastrow`: 110 cartões e 110 linhas de pesquisa publicados (10 anteriores + 100 novos, IDs `A00010`–`A00109`).** O próximo registro original é `A00110`, lema `אָבִיב,` (ordinal 111). A origem integral dos registros 1–200 está preservada em [`lexicons/jastrow-source-lote-0001.json`](lexicons/jastrow-source-lote-0001.json), extraída de `Sefaria/Sefaria-Data` no commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Não confundir 200 originais disponíveis com 200 traduções publicadas.
+
+**Arquivos da rodada:** [`lexicons/jastrow-011-040.js`](lexicons/jastrow-011-040.js) (30), [`lexicons/jastrow-041-080.js`](lexicons/jastrow-041-080.js) (40), [`lexicons/jastrow-081-110.js`](lexicons/jastrow-081-110.js) (30), [`lexicons/jastrow-popups.js`](lexicons/jastrow-popups.js) (49 propostas de definições: 47 novas não duplicadas, somando 55 termos únicos com as 8 definições anteriores), `index.html` e [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Os cartões apresentam versões portuguesas editadas das acepções e remissões, preservando grafias e uma camada separada com todo o XML original. Nem toda nota secundária da fonte extensa foi reescrita integralmente nos cartões; exige revisão filológica posterior.
+
+**Auditoria estática comprovada:** 100 IDs novos exclusivos e sequenciais, 100 correspondências entre lema/ID do XML e dos módulos, 110 linhas `search-row` e 110 cartões `entry-card` totais, todos os 110 `data-target` correspondentes aos IDs, âncoras instaladas, módulos carregados em ordem antes de `script.js`, ausência de colisões dos IDs JASTROW com os cartões estáticos, tags `bdi` equilibradas nas novas descrições e sintaxe JavaScript dos módulos aprovada. A revisão dos 49 popups é de cobertura parcial, não auditoria completa de todas as referências.
+
+**Ainda pendente:** confronto filológico independente e integral (incluindo exemplos e notas que ficaram somente no XML), execução de testes em navegador, verificação exaustiva dos popups e revisão de links. Por isso, o checkpoint mantém `total_audited=0` e `total_integrated=0`; **não há PR/merge autorizado pela auditoria desta rodada**. A branch `main` não foi alterada. O histórico abaixo registra estados anteriores e não deve ser tomado como contador atual.
+
+
+
+## HALOT — fonte e branch registradas (10/10/2026)
+
+O **HALOT** (*The Hebrew and Aramaic Lexicon of the Old Testament*) passa a integrar o cadastro documental do Scriptura Lexicon com **branch própria** `chat-gpt-halot`. A fonte indicada pelo mantenedor é o PDF **Study Edition, volume 1**, disponível em [yausha.com.br](https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf). O protocolo canônico de proveniência, distinção de edições, escopo, checkpoints e integração está em [`regras/Rhalot.txt`](regras/Rhalot.txt).
+
+**Estado:** cadastro e branch, sem incorporação lexical ou tarefa agendada comprovada para HALOT. O link foi designado pelo mantenedor, mas a inspeção bibliográfica integral do PDF ainda é pendente. Não confundir o volume 1 da *Study Edition* com os volumes da edição maior de KBS/HALOT; não alterar `main` nem o estado das outras fontes. O destino de consolidação continua `chat-gpt-commits`, sujeito à auditoria e à confirmação do PR/merge.
 
 ## Fontes bibliográficas impressas digitalizadas — regra de 10/10/2026
 
@@ -420,8 +737,164 @@ Na branch `chat-gpt-dgp`, a rodada de 09/10/2026 incorporou os ordinais **1981�
 
 ## JASTROW — implantação inicial (10/10/2026)
 
-**Estado comprovado na branch `chat-gpt-jastrow`: 0 verbetes JASTROW publicados, 0 auditados e 0 integrados.** O repositório ganhou a norma independente [`regras/Rjastrow.txt`](regras/Rjastrow.txt) e o checkpoint explícito [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Esses dois arquivos são preparação da esteira, **não** um lote de 200 verbetes.
+**Histórico da implantação inicial:** naquele momento, 0 verbetes JASTROW haviam sido publicados, auditados ou integrados. O repositório ganhou a norma independente [`regras/Rjastrow.txt`](regras/Rjastrow.txt) e o checkpoint explícito [`lexicons/jastrow-progress.json`](lexicons/jastrow-progress.json). Esses dois arquivos são preparação da esteira, **não** um lote de 200 verbetes.
 
 **Fonte estabelecida:** Marcus Jastrow, *A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature*, [Sefaria — Jastrow](https://www.sefaria.org/Jastrow?tab=contents). Em 10/10/2026 a interface da obra era acessível, mas as consultas de índice, palavras, autocompletar e texto da API não puderam ser recuperadas pela ferramenta de navegação desta sessão. Sem os registros integrais, ficaram expressamente suspensas extração, tradução, construção de `search-row`/`entry-card`, auditoria editorial e integração; não se criaram lemas fictícios.
 
 **Fluxo obrigatório:** obter sequência canônica e conteúdo verificável → traduzir integralmente para português brasileiro preservando a camada Fonte → incorporar até 200 entradas reais em `chat-gpt-jastrow` → auditar independentemente em `chat-gpt-correcoes` (filologia, popups, minidicionário, minibiografias, HTML/CSS/JS, RTL/LTR, acessibilidade, links e interface) → integrar por PR para `chat-gpt-commits` após aprovação. Não alterar `main`, não apagar branches, não anunciar produção até verificar os commits e seus dados.
+
+### JASTROW — retomada com fonte XML original (10/10/2026)
+
+**Estado remoto verificado:** a branch exclusiva `chat-gpt-jastrow` contém **200 registros originais recuperados** no arquivo `lexicons/jastrow-source-lote-0001.json` (A00000–A00199, primeira entrada `א`, última `אבר`; seguinte `אָבַר` = A00200). O lote-fonte foi criado pelo workflow GitHub Actions no commit [d002551](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/d00255186bb0c4cae9ed2c89a11588d40c75aa88), com verificação de contagem, unicidade, IDs, integridade XML e hashes individuais. **Esses 200 são registros da camada Fonte; NÃO equivalem a 200 traduções.**
+
+A fonte determinante passou a ser o XML de origem do projeto [Sefaria-Data](https://github.com/Sefaria/Sefaria-Data/blob/947c1b91684df9f8b92f14cf0d281b5d4f29bfc7/dictionaries/Jastrow/data/01-Merged%20XML/Jastrow-full.xml), commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, blob `98292a0c219835df19b9da7cea1edbc4dcc6526d`. A Sefaria identifica a edição de Jastrow (Luzac, 1903) como domínio público. O documento XML contém 32.512 elementos `entry`, preservando homógrafos com IDs próprios. A API pública continua sendo recurso complementar; sua indisponibilidade não impede consultar esse repositório canônico.
+
+**Camada portuguesa:** os dez primeiros registros `A00000–A00009` receberam tradução editorial em `lexicons/jastrow.js`. `index.html` recebeu âncoras exclusivas de JASTROW na pesquisa e nos cartões e carrega o módulo antes de `script.js`. A auditoria estática confirmou **10 identificadores distintos**, correspondência exata aos 10 registros da fonte, uma âncora de cada tipo e carregamento correto. O próximo registro a traduzir é `A00010` (ordinal 11, `אאלר"ן`). A fonte restante (`A00010–A00199`) continua disponível para tradução sem nova consulta à API.
+
+**Pendente:** auditoria filológica independente de todos os registros traduzidos em `chat-gpt-correcoes`, testes funcionais reais no navegador, popups completos e verificação de apresentação RTL/LTR; somente depois abrir PR e mesclar em `chat-gpt-commits`. **Nenhuma alteração nesta rodada foi realizada em `main`.** Não declarar o lote de 200 completo com base apenas na extração e nos dez primeiros cartões.
+
+
+### Quadro obrigatório de progresso de todos os dicionários — norma transversal (11/10/2026)
+
+**Retificação do padrão de relatório:** ao encerrar **qualquer execução ou auditoria**, apresentar ao usuário o quadro **Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado**, com todas as frentes (inclusive as ainda zeradas) e linha TOTAL. Usar ✓ comprovado, ◐ parcial/preliminar, — pendente/não comprovado; detalhar numeradores e denominadores verdadeiros e buscar totais atuais no HEAD de cada branch e o estado efetivo de `chat-gpt-commits`. **Não substituir o quadro global por listagem nominal de 100 verbetes** (que pode existir separadamente como inventário de auditoria). Distinguir triagem, correspondência de cabeçalhos e homologação filológica integral. Norma detalhada: `regras/Rprogresso-global.txt`. NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026).
+
+
+## Histórico complementar — chat-gpt-correcoes, PR #115
+
+*Documentação da origem transcrita para rastreabilidade; alegações de integração pendente devem ser interpretadas relativamente à data de cada relatório.*
+
+> **JASTROW — tentativa de certificação atômica de 100 verbetes (12/10/2026):** para os IDs `A00000–A00099`, 100 pareceres históricos e fichas A–J de pendências registradas; **58 A / 42 C**, e **42/42 correções C ainda ausentes de `chat-gpt-commits`** no cotejo individual dos módulos. Foram identificadas 47 entradas com `xref` e 27 com vários cabeçalhos, exigindo rastreabilidade específica. [Relatório do lote](auditoria/JASTROW-2026-10-12-lote-001-100-tentativa-atomica.md) · [100 fichas](auditoria/JASTROW-2026-10-12-lote-001-100-fichas-atomicas-pendencias.json) · [Chromium final #38270095481](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38270095481), **SUCCESS**: desktop e móvel 100/100 ponteiro, teclado, RTL; popups por foco 57/57 por perfil; axe 10/100 por perfil sem violações; o antigo 40/57 foi falso negativo da transição CSS, esclarecido no [diagnóstico #38269650657](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38269650657). [Manifesto das 42 correções](auditoria/JASTROW-2026-10-12-lote-001-100-integracao-42-deltas.json), [simulação estática em consolidado aprovada](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38271271121), [seis conflitos reais de integração](auditoria/JASTROW-2026-10-12-integracao-preflight-conflitos.md). **Homologações: 0/100 até que todos os portões sejam comprovados, inclusive merge real**. Nenhum verbete/XML foi alterado nesta tentativa.
+
+
+> **DGP — auditoria filológica única 1001–1100 (12/10/2026):** 100 entradas canônicas cotejadas integralmente com o editor; **95 A, 3 C, 2 P**. Corrigidas *notas documentais* #1015 (ῥεω/ῥέω), #1034 (terminação neutra de αἰνιγματώδης) e #1100 (αἰσθάναομαι/αἰσθάνομαι); pendências #1022 (αἵμων¹ em Homero) e #1087 (αἵρεσις, acepção LXX de oferta voluntária). 8 expansões de autores, 0 diferenças textuais inexplicadas; **nenhum texto DGP alterado**. [100 pareceres](auditorias/dgp-filologia-2026-10-12-lote012-1001-1100.md) e [evidências completas](auditorias/dgp-filologia-2026-10-12-lote012-evidencias.json). Checkpoint filológico histórico **1100/3300**, próximo #1101 `αἴσθησις`. JS documental com sintaxe validada; browser/DOM, PR e merge não executados nesta rodada. Classificações históricas não recertificadas retroativamente.
+
+
+> **JASTROW — regressão em navegador dos 600 registros (12/10/2026):** GitHub Actions [#38214646245](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38214646245) aprovado: 600 fragmentos XML com hash verificado, 600 linhas/600 cartões no Chromium desktop e móvel, 600 eventos de abertura por ambiente, pesquisa/filtro/teclado, popups por foco e testes de acessibilidade no cartão visível, sem erros. **Não declarar certificação atômica:** a colação filológica digital histórica (401 A / 199 C / 0 P) continua distinta das fichas A–J e do merge das correções. Relatório e pendências: [JASTROW — certificação atômica de 600, execução funcional](auditoria/JASTROW-2026-10-12-certificacao-atomica-600.md); suíte [Playwright](tests/jastrow_browser_certification.mjs). Contador de certificados **0/600** enquanto houver pendências obrigatórias e integração não confirmada. Nenhuma alteração na fonte ou nos verbetes publicada nesta rodada.
+
+
+> **DGP — auditoria filológica única 901–1000 (12/10/2026):** 100 verbetes XML confrontados individualmente com as entradas publicadas, **95 A / 2 C / 3 P**; 3 expansões bibliográficas identificadas (#911, #936, #992) e 0 diferenças textuais inexplicadas. Reparos críticos na camada GDHAGP para #919 (numeração repetida) e #957 (εἷδος em lugar de εἶδος), com três pendências #936, #949, #991. [Relatório completo](auditorias/dgp-filologia-2026-10-12-lote011-0901-1000.md) e [JSON integral](auditorias/dgp-filologia-2026-10-12-lote011-evidencias.json). Checkpoint filológico histórico **1.000/3.300**, próximo #1001 `αἱματίζω`. JS editorial com sintaxe validada, sem novo teste em navegador, sem alterar Fonte nem integrar por PR neste ciclo.
+
+
+> **DGP — auditoria filológica única 801–900 (12/10/2026):** 100 verbetes originais e respectivas definições cotejados integralmente, com **96 A / 2 C / 2 P**. As C são notas críticas independentes da Fonte para #822 (Plutarco, ἄθρυπτα) e #878 (identificação de αἰγίθαλλος); as duas P são #879 e #891. Cinco expansões bibliográficas documentadas e 0 divergências textuais injustificadas. [Pareceres individuais](auditorias/dgp-filologia-2026-10-12-lote010-0801-0900.md) e [evidências da fonte](auditorias/dgp-filologia-2026-10-12-lote010-evidencias.json). Cotejo cumulativo histórico **900/3.300**, sem recertificação dos 600 anteriores. Próximo #901 `αἰγυπτιάζω`. A sintaxe JS das notas passou na validação estática; sem navegador ou merge neste ciclo.
+
+
+> **DGP — auditoria filológica única 701–800 (12/10/2026):** 100/100 lemas e definições do XML cotejados com as tuplas publicadas; **96 A, 0 C, 4 P** (#741, #743, #790, #793). Duas expansões bibliográficas documentadas (#705/#793), nenhuma divergência injustificada, zero emendas lexicais; comparação filológica independente seletiva em LSJ e Ésquilo. [Relatório 100 pareceres](auditorias/dgp-filologia-2026-10-12-lote009-0701-0800.md) e [evidências integrais](auditorias/dgp-filologia-2026-10-12-lote009-evidencias.json). Checkpoint histórico 800/3.300, próximo #801 `ἀθλητικῶς`; 700 registros anteriores continuam com classificação de suas respectivas metodologias, sem recertificação retroativa. Integração independente.
+
+
+> **DGP — auditoria filológica única 601–700 (12/10/2026):** 100 entradas cotejadas integralmente com o XML canônico, 95 A, 0 C e 5 P (#635, #677, #688, #689 e #700); 100 lemas equivalentes, 98 definições equivalentes após normalização e 2 expansões autorais justificadas (#609/#631), sem alterações de código lexical ou testes novos de navegador. [Relatório individual](auditorias/dgp-filologia-2026-10-12-lote008-0601-0700.md) e [evidências integrais](auditorias/dgp-filologia-2026-10-12-lote008-evidencias.json). Checkpoint histórico: 700/3.300 examinados, dos quais os 600 anteriores seguem com metodologia documental histórica sem recertificação. Próximo #701 `ἀέσκω`. A integração segue independente.
+
+
+> **DGP — homologação filológico-documental 0001–0600 (11/10/2026):** os 600 verbetes foram confrontados com o XML canônico e os pareceres individuais, resultando em **A 528, C 4, P 68**. Os **68 P não são homologação sem ressalvas**. [Relatório de 600 verbetes](auditorias/dgp-filologia-2026-10-11-homologacao-0001-0600.md) e [evidência integral JSON](auditorias/dgp-filologia-2026-10-11-homologacao-0001-0600.json). A auditoria textual/estrutural (3.300/3.300) e a integração (2.880/3.300) são processos separados. Cinco novas notas editoriais têm teste Chromium aprovado na [execução #38175516482](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38175516482).
+
+
+> **DGP — Auditoria textual e estrutural homologada (11/10/2026):** ✓ **3.300/3.300 (100%)** na conferência estática e nos testes Chromium/Playwright sobre a montagem completa; a branch consolidada mantém **2.880/3.300 integrados**. Prova: [GitHub Actions #38174680134](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38174680134). Relatório: [homologação DGP](auditorias/dgp-homologacao-textual-estrutural-2026-10-11.md). Não implica homologação filológica, WCAG ou integração dos lotes 077–081.
+
+## DGP — correções de busca, tooltip e proveniência (11/10/2026)
+
+A rotina de correções ajustou, no módulo DGP, a indexação dos corpos completos dos cartões, o tooltip da abreviatura `fut.` e a separação visual em `ἀλείφω` (#1627). Também explicita em notas editoriais os lemas recuperados #2311 e #2483. São mudanças na apresentação/índice, **sem modificar a fonte XML nem acrescentar verbetes**. Ver [relatório técnico](auditorias/dgp-reparos-funcionais-2026-10-11.md). Os módulos 077–081 ainda dependem da integração própria; os testes reais em navegador continuam obrigatórios.
+
+## JASTROW — 100 ressalvas sob auditoria filológica única (11/10/2026)
+
+Foram examinados **100 casos previamente sinalizados** no Jastrow (11 V históricos e 89 O); a contagem **A=37, C=28, P=35** foi o estado INICIAL deste lote e foi posteriormente encerrada como **A=37, C=63, P=0**, incluindo correções e resolução da remissão A00429; ver [relatório](auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md), [fonte XML de cada caso](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [checkpoint único](auditoria/jastrow-auditoria-unica-progresso.json). A auditoria é uma etapa única: P não cria recotejo global obrigatório e não equivale a aprovação. O total incorporado permanece 600, sem novos IDs após A00599; o histórico original da auditoria anterior permanece preservado.
+
+## Tabela global canônica de progresso (11/10/2026)
+
+Obrigatória em todos os relatórios, com as colunas **Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado**. A tabela inclui **14 fontes**, mesmo as ainda não iniciadas, além da linha **TOTAL**: BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS e LSJ. Consultar [regras/Rprogresso-global.txt](regras/Rprogresso-global.txt) e conferir HEAD e evidências atuais, sem confundir triagem documental com homologação filológica.
+
+## Política vigente de auditoria filológica — **etapa única por verbete** (11/10/2026)
+
+**NORMA FILOLÓGICA ÚNICA — 11/10/2026.** Por decisão editorial, não há mais uma filologia "preliminar" seguida de outra "exaustiva". Em **cada execução solicitada**, examinar com rigor a fonte e a redação do verbete (lemas/variantes, homógrafos, flexões e regência, **todas** as acepções, referências, exempla, etimologias, hipóteses e aparato pertinente), produzir parecer individual e **corrigir na própria rodada** o que estiver comprovado. Uma entrada termina como **A — aprovada**, **C — corrigida e validada** ou **P — pendência pontual documentada**; a pendência **não provoca repetição geral do lote** nem autoriza afirmar que o verbete está aprovado. **Auditoria filológica é uma só.** Ver [norma canônica completa](regras/Rauditoria-filologica.txt).
+
+**Histórico e honestidade:** os 600 registros JASTROW já foram cotejados pelo método anterior e 400 registros DGP constam do checkpoint mais recente consultado; preservar esses resultados **sem fingir verificações não feitas** e **sem impor outra passagem geral**. Eventuais dúvidas são tratadas pontualmente. A partir dos próximos lotes, a única auditoria já inclui todas as verificações filológicas aplicáveis. A auditoria estática textual/estrutural do **DGP 3.300/3.300 permanece ✓** e não se confunde com revisão filológica nem teste funcional de navegador.
+
+## JASTROW — sexta auditoria filológica A00500–A00599 (11/10/2026)
+
+Concluída a **primeira passagem filológica de TODOS os 600/600 verbetes incorporados JASTROW**, com 100 novos confrontos `A00500–A00599` do XML canônico Sefaria-Data. Pareceres novos **S=80, O=17, E=1, V=2**, 9 emendas mínimas, inclusive erro do artigo grego `ὁ` em `A00518`. Ressalvas de fonte digital `A00571` e `A00592` não normalizadas conjecturalmente. **600/600 analisados numa primeira passagem; 0/600 homologados integralmente**, por faltar cotejo exaustivo das citações em textos críticos. Relatório [JASTROW lote 006](auditoria/JASTROW-2026-10-11-filologia-lote006-A00500-A00599.md) e [checkpoint acumulado](auditoria/jastrow-filologia-progresso.json). Os 600 verbetes-base estão integrados, mas as emendas de `chat-gpt-correcoes` ainda aguardam integração. Próximo novo verbete `A00600` requer extração por processo lexical independente. A tabela geral obrigatória mantém números em cada ◐ e DGP estático ✓ 3300/3300.
+
+## JASTROW — quinto lote filológico A00400–A00499 (11/10/2026)
+
+Confrontados individualmente **100 verbetes** Jastrow `A00400–A00499` com o XML canônico Sefaria-Data, usando `lexicons/jastrow-source-lote-0003.json`; 100/100 IDs e lemas principais correspondentes. Pareceres **S=81, O=17, E=0, V=2**. **11 emendas documentais mínimas** em `chat-gpt-correcoes` (sem corrigir conjecturalmente a Fonte); alertas `A00407`, `A00411` e remissão `A00429`. Acumulado **500/600** em primeira passagem filológica, certificação integral **0/600** por falta de testemunhos completos. [Relatório individualizado](auditoria/JASTROW-2026-10-11-filologia-lote005-A00400-A00499.md) e [checkpoint atualizado](auditoria/jastrow-filologia-progresso.json). Próximo `A00500–A00599`. Tabela de todos os dicionários preserva os números de qualquer etapa parcial e o **✓ 3.300/3.300 estrutural do DGP**.
+
+## DGP — filologia, 160 verbetes 141–300 (11/10/2026)
+
+Auditoria independente de primeira passagem confrontou a **fonte XML original do DGP (ordinais 141–300)** com os **160 cartões** em `chat-gpt-correcoes`; pareceres **S=154, O=5, E=0, V=1**. Lemas idênticos **160/160**; definições compatíveis **153 literais**, **4** somente hifenização discricionária e **3** com expansões de abreviaturas. #150, já corrigido na branch, preservado; #288, numeração duplicada na própria fonte, não emendada. **Nenhuma mudança nos verbetes lexicais.** Progresso filológico **300/3.300**, distinto da **auditoria textual e estrutural estática ✓ 3.300/3.300**; verificações externas contextuais ainda não completas. [Relatório dos 160 verbetes](auditorias/dgp-filologia-2026-10-11-lote004-0141-0300.md); [matriz de evidências](auditorias/dgp-filologia-2026-10-11-lote004-evidencias.json); [checkpoint](auditorias/dgp-filologia-progresso.json). Próximo ordinal: **301**. A tabela geral com quantidades para todos os dicionários está ao final do relatório.
+
+## JASTROW — quarta auditoria filológica, A00300–A00399 (11/10/2026)
+
+Comparados filologicamente em primeira passagem **100 novos verbetes** `A00300–A00399` com XML Jastrow canônico. Pareceres **S=79, O=20, E=0, V=1**; 11 ajustes de variantes e documentação atestada, exclusivamente na branch `chat-gpt-correcoes`. O problema de primeiro cabeçalho anômalo `A00371` permanece pendente de fac-símile; não reconstruir. **Acumulado 400/600**, mas nenhuma certificação exaustiva (`total_audited=0`). [Relatório filológico individual](auditoria/JASTROW-2026-10-11-filologia-lote004-A00300-A00399.md); [checkpoint cumulativo](auditoria/jastrow-filologia-progresso.json). Próximo `A00400–A00499`. A tabela de **todos os dicionários** ao final do relatório contém quantidades em cada `◐`, conforme regra atual.
+
+## JASTROW — terceira auditoria filológica, verbetes 201–300 (11/10/2026)
+
+Cotejados individualmente **100 novos verbetes** (`A00200–A00299`) com o XML original de Jastrow, fonte Sefaria-Data imutável. Pareceres S=84, O=9, E=5, V=2; **9 emendas filológicas mínimas** efetuadas apenas em `chat-gpt-correcoes`, sem alterar fonte. Primeira passagem acumulada **300/600**; nenhuma certificação exaustiva: `total_audited=0`. O relatório completo contém 100 registros de evidência e a **tabela obrigatória dos dicionários com quantidades nos estados parciais**: [relatório do lote 003](auditoria/JASTROW-2026-10-11-filologia-lote003-A00200-A00299.md); [checkpoint cumulativo](auditoria/jastrow-filologia-progresso.json). Próximo `A00300–A00399`; correções aguardam processo de integração separado.
+
+## JASTROW — auditoria filológica dos verbetes 101–200 (11/10/2026)
+
+Confrontados individualmente **100** registros (`A00100–A00199`) com seu XML: **S=82, O=17, E=1, V=0**. Publicadas **nove correções documentadas** exclusivamente em `chat-gpt-correcoes`, inclusive a variante textual errada em `A00165`. Primeira passagem acumulada **200/600**; aprovação exaustiva `total_audited=0` por persistirem notas, referências e testes pendentes. Relatório: [JASTROW lote 002](auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md); matriz cumulativa: [progresso](auditoria/jastrow-filologia-progresso.json). Tabela do relatório anterior reformatada sem modificar os pareceres. Próximo `A00200–A00299`. Integração por PR separado; `main` intocada.
+
+## JASTROW — auditoria filológica dos primeiros 100 registros (11/10/2026)
+
+Confronto filológico individual de **100** entradas (`A00000–A00099`) da fonte XML Sefaria-Data com os cartões portugueses publicados. Integridade 100/100 sem lacunas; pareceres `S=76`, `O=17`, `E=3`, `V=4`. `S` **não** é certificação integral. Três erros editoriais/remissivos em `A00057`, `A00080`, `A00091`; omissões de cabeçalhos, notas e leitura nas demais ocorrências indicadas. Relatório completo [JASTROW lote 001](auditoria/JASTROW-2026-10-11-filologia-lote001-A00000-A00099.md), matriz [checkpoint individual](auditoria/jastrow-filologia-progresso.json). `total_audited=0` permanece; testes em navegador e correção dos módulos aguardam reconciliação. Não houve alteração de léxicos nem da `main`.
+
+## DGP — 100 verbetes auditados filologicamente, ordinais 41–140 (11/10/2026)
+
+A auditoria independente examinou **100 novos registros DGP**, de `ἀβλής, ῆτος` a `ἄγγαρος, ος, ον`, usando o XML canônico. **20** receberam fontes externas dirigidas (LSJ, Cunliffe, Bailly, textos gregos e léxicos bíblicos); **80** tiveram exame morfológico, semântico e editorial interno. A cobertura cumulativa da primeira passagem é **140/3.300**, não homologação de todas as atestações. O [relatório filológico de 100 verbetes](auditorias/dgp-filologia-2026-10-11-lote003-0041-0140.md) e a [evidência individualizada](auditorias/dgp-filologia-2026-10-11-lote003-evidencias.json) registram resultados e incertezas; o [checkpoint](auditorias/dgp-filologia-progresso.json) prossegue no ordinal 141. Não houve nova correção lexical nem PR/merge nesta fase.
+
+## JASTROW — complementação da auditoria única dos 100 casos (11/10/2026)
+
+Na branch `chat-gpt-correcoes`, os 100 casos selecionados por ressalvas foram reconciliados com o XML canônico e os destinos `xref rid`: `A00026 → A00016`, `A00049 → A00107` e `A00429 → A00517` (incompatibilidade pendente). Cinco cartões receberam emendas (`A00013`, `A00026`, `A00049`, `A00083`, `A00429`). Resultado atualizado **A=37, C=32, P=31 (100 examinados)**; os P não equivalem à aprovação. Sem novas incorporações, testes de navegador nem integração nesta rodada. [Relatório da auditoria única](auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md), [matriz dos 100 com fontes](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [manifesto dos cinco ajustes](auditoria/JASTROW-2026-10-11-complementacao-100-manifest.json).
+
+## JASTROW — tratamento das 31 pendências filológicas (11/10/2026)
+
+Realizada revisão documental dirigida dos 31 pareceres classificados P no lote selecionado de 100 verbetes (não são 31 incorporações). Foram publicadas **31 emendas de aparato em 16 módulos JavaScript**, sendo **30 casos corrigidos e validados no confronto com o Jastrow digital (C)** e **1 pendência específica preservada (P, A00429)**. Balanço atualizado dos mesmos 100: **A 37, C 62, P 1**, e 64 emendas acumuladas sobre o conjunto auditado. O XML original permanece intocado. As transcrições de 1903 disponibilizadas pela Wikisource permitiram resolver as segmentações A00271, A00284, A00371, A00411, A00571 e A00592; o inglês «heated store» em A00407 foi conservado em nota enquanto a tradução «forno» é explicitamente contextual. A00429 contém remissão abreviada אוּ׳, e o identificador eletrônico A00517 aponta para «ou»; o destino histórico exato não pôde ser comprovado, e nenhuma expansão foi inventada.
+
+**Documentação e evidência:** [parecer dos 31](auditoria/JASTROW-2026-10-11-resolucao-dos-31.md), [manifesto de cada intervenção](auditoria/jastrow-resolucao-31-manifest.json), [matriz dos 100](auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json) e [checkpoint](auditoria/jastrow-auditoria-unica-progresso.json). Todos os 16 arquivos alterados tiveram sintaxe JavaScript verificada, com contagem dos registros preservada; testes funcionais de navegador e colação visual do fac-símile ou dos manuscritos rabínicos **não foram realizados**. A integração em `chat-gpt-commits` é procedimento separado; branch `main` não foi editada. A classificação A/C não significa que os testemunhos externos mencionados por Jastrow tenham sido pessoalmente consultados.
+
+
+### JASTROW — última pendência A00429 solucionada (11/10/2026)
+
+**Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
+
+Parecer completo: [`auditoria/JASTROW-2026-10-11-A00429-desfecho.md`](auditoria/JASTROW-2026-10-11-A00429-desfecho.md). O universo total de Jastrow no projeto permanece 600 registros incorporados; os 100 são o lote da auditoria filológica única com pareceres individuais. Integração e testes de navegador permanecem processos independentes.
+
+## JASTROW — segundo lote da auditoria filológica única (100 verbetes, 11/10/2026)
+
+Realizado exame individual e completo dos **100 primeiros IDs ainda não auditados sob a norma vigente**, em ordem de fonte, excluindo os 25 IDs do primeiro lote que caem no intervalo ordinal 1–125. Intervalo lexical examinado: `A00000`–`A00124`, com **100 IDs distintos e 100 cartões efetivamente confrontados**. Resultado do lote 002: **72 A, 28 C, 0 P**. Acumulado da auditoria filológica única do JASTROW: **200 de 600 registros incorporados** (**109 A, 91 C, 0 P**); o próximo ainda não examinado é **`A00125` (ordinal 126)**. Os 600 cotejos históricos do regime anterior permanecem históricos, sem reclassificação automática.
+
+As **28 correções** foram incorporadas nos módulos `jastrow-011-040.js`, `jastrow-041-080.js`, `jastrow-081-110.js` e `jastrow-111-140.js`, preservando a camada Fonte e a cardinalidade de pesquisa/cartões. O material corrigido acrescenta variantes, leituras de manuscritos e edições atribuídas a Jastrow, referências, sentido geral antes reduzido à locução e separação explícita de conjecturas/etimologias. A conferência foi realizada contra o XML canônico; **não significa inspeção independente de manuscritos rabínicos ou fac-símiles, nem teste funcional real de navegador**.
+
+**Rastreabilidade:** [relatório com os 100 pareceres](auditoria/JASTROW-2026-10-11-lote-002-100-relatorio.md), [matriz JSON integral de fonte/tradução/justificativa](auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json) e [checkpoint acumulado](auditoria/jastrow-auditoria-unica-progresso.json). Esta auditoria pertence exclusivamente a `chat-gpt-correcoes`; a integração por PR é etapa separada, sem alteração de `main`.
+
+
+A verificação estática dos cinco módulos carregados até A00139, com **140 linhas e 140 cartões emparelhados**, e cobertura dos 100 IDs selecionados está registrada em [prova JSON](auditoria/JASTROW-2026-10-11-lote-002-100-testes.json). Não se afirmou teste de navegador.
+
+## JASTROW — terceiro lote de auditoria filológica única (12/10/2026)
+
+Concluído o exame dos próximos **100 registros originais ainda não cobertos** pela auditoria filológica única: `A00125` a `A00241`, ordinais 126–242, excluídos 17 registros que pertenciam a lotes auditados anteriormente. **Resultado deste lote: A=70, C=30, P=0; acumulado dos três lotes: 300/600 (A=179, C=121, P=0).** A próxima entrada ainda não auditada é `A00242`. Os 600 cotejos do método histórico não foram promovidos a certificação vigente.
+
+Foram realizadas 30 correções editoriais e acréscimos documentais em seis módulos: `jastrow-111-140.js`, `jastrow-141-170.js`, `jastrow-171-185.js`, `jastrow-186-200.js`, `jastrow-201-210.js` e `jastrow-211-235.js`. Os originais XML permanecem imutáveis. O procedimento preserva as diferenças entre variantes transmitidas por manuscritos/edições segundo Jastrow, análise etimológica e emendas conjecturais. A correção expressa de `A00126` substitui a referência equivocada a Sheviit pela referência documental a **Shevuot**.
+
+**Provas:** [relatório com 100 pareceres e quadro global](auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md), [evidências integrais por entrada](auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json), [testes estáticos](auditoria/JASTROW-2026-10-12-lote-003-100-testes.json) e [checkpoint único acumulado](auditoria/jastrow-auditoria-unica-progresso.json). Checados 150 pares de cartões/linhas do conjunto de módulos e correspondência dos 100 IDs auditados; **não foram executados testes reais de navegador nem colação independente dos manuscritos rabínicos citados**. Integração com `chat-gpt-commits` pertence ao fluxo independente de PR; nenhuma alteração em `main`.
+
+## Transparência universal do Scriptura Lexicon — 12/10/2026
+
+Por solicitação expressa do usuário, **todas as próximas ações e todos os dicionários** devem publicar relatórios detalhados e inteiramente rastreáveis, com **várias barras independentes de progresso**: incorporação, auditoria textual/estrutural, auditoria filológica única (A/C/P), integração, correções efetivamente publicadas, pendências e testes funcionais quando aplicáveis. Cada barra exige numerador, denominador, %, origem, HEAD, escopo e limitação. Nenhum valor desconhecido recebe percentual inventado. Norma vinculante: [regras/Rtransparencia-relatorios.txt](regras/Rtransparencia-relatorios.txt). Os relatórios continuam incluindo as 14 fontes do projeto.
+
+### Quarta auditoria filológica única do JASTROW — 12/10/2026
+
+Novos **100 pareceres** sobre `A00242` a `A00363` (22 IDs do intervalo já auditados e pulados), com **73 aprovados A, 27 corrigidos C e 0 pendentes P**. Acumulado **400/600**, A=252, C=148, P=0. Próximo a examinar: `A00365`, ordinal 366. Foram preparados e verificados seis módulos com 27 notas e correções; XML canônico inalterado. **Apenas testes estáticos**: 150 pares ID/linha/cartão dos seis módulos, 100 evidências individuais; não houve colação independente de manuscritos ou teste DOM real. Integração dos reparos nova rodada continua separada. Documentação: [relatório de 100 pareceres](auditoria/JASTROW-2026-10-12-lote-004-100-relatorio.md), [evidência por entrada](auditoria/JASTROW-2026-10-12-lote-004-100-evidencias.json), [testes](auditoria/JASTROW-2026-10-12-lote-004-100-testes.json), [checkpoint](auditoria/jastrow-auditoria-unica-progresso.json).
+
+## JASTROW — auditoria filológica única, quinto lote de 100 (12/10/2026)
+
+O quinto lote foi preparado para publicação na branch `chat-gpt-correcoes`: 100 primeiros IDs do XML canônico ainda não auditados pela norma atual, **A00365–A00483**, ordinais 366–484, excluídos 19 IDs previamente auditados. Resultado do lote **76 A, 24 C, 0 P**. Acumulado da auditoria única **500/600 (83,3%)**, **328 A, 172 C e 0 P**; próximo ID **A00484** (ordinal 485). **Incorporação de 600/600** é independente de filologia de 500/600, de testes reais em navegador (não realizados) e da integração dos 24 reparos (não realizada nesta rodada).
+
+Foram acrescentados aparatos em 24 cartões de cinco módulos Jastrow (`361-385`, `386-410`, `411-435`, `436-460`, `461-485`). As linhas/cardinais dos 125 cartões desses módulos, a unicidade dos IDs e a correspondência de todos os 100 registros auditados com o XML Sefaria/Jastrow foram verificadas estaticamente. Os próprios manuscritos citados pelo lexicógrafo e o fac-símile histórico não foram colacionados de forma independente. A camada Fonte não foi alterada.
+
+**Rastreabilidade:** [relatório com 100 pareceres e várias barras de progresso](auditoria/JASTROW-2026-10-12-lote-005-100-relatorio.md), [manifesto das 4 matrizes de 25 entradas](auditoria/JASTROW-2026-10-12-lote-005-100-evidencias-manifest.json), [testes estáticos](auditoria/JASTROW-2026-10-12-lote-005-100-testes.json) e [checkpoint cumulativo compacto](auditoria/jastrow-auditoria-unica-progresso.json). O checkpoint detalhado anterior, contendo 400 pareceres e todas as decisões textuais, permanece **preservado integralmente** em [arquivo histórico](auditoria/jastrow-auditoria-unica-progresso-lote004-arquivo.json) com hash Git `e30816abbb7662b69d5c4a2cc69e063ca4320bcf`; apenas a representação do índice cumulativo foi compactada para superar o limite de gravação, **não** a evidência, a classificação ou os arquivos anteriores. Todos os 500 IDs têm referência rastreável aos respectivos arquivos de evidências.
+
+## JASTROW — encerramento da auditoria filológica única dos 600 registros (lote 006; 12/10/2026)
+
+**Escopo exato:** primeiros 600 registros da fonte Jastrow/Sefaria incorporados no repositório; **não** é a totalidade do dicionário histórico impresso. O sexto e último lote da norma atual examinou os 100 IDs ainda não auditados, `A00484`–`A00599`, ordinais 485–600, excluídos 16 casos previamente cobertos. Resultado deste lote: **73 aprovados A, 27 corrigidos C, 0 pendentes P**. Acumulado comprovado por comparação exata com os três arquivos da fonte: **600 IDs únicos, 401 A, 199 C, 0 P; nenhum ID a auditar no corpus atual**.
+
+**Integridade global revalidada:** 3 arquivos canônicos de origem com 200 registros cada (IDs A00000–A00599, sem lacunas); 27 módulos de cartões passaram pela sintaxe JS e apresentaram **600 linhas search-row e 600 cartões entry-card, com 600 IDs correspondentes em ordem canônica**; seis módulos de popups passaram na checagem de sintaxe. **Não** realizados: navegador/DOM real, testes visuais/RTL/acessibilidade, verificação interativa de popups, colação independente dos manuscritos rabínicos e fac-símile impresso. A validação filológica refere-se a XML digital versus redação editorial.
+
+**Publicação e evidência:** 27 cartões portugueses receberam complemento material em sete módulos, fonte XML original intacta. [Relatório detalhado com 100 pareceres, barras independentes e quadro global](auditoria/JASTROW-2026-10-12-lote-006-100-relatorio.md); [manifesto dos quatro arquivos de evidência de 25 entradas](auditoria/JASTROW-2026-10-12-lote-006-100-evidencias-manifest.json); [validação estática dos 600](auditoria/JASTROW-2026-10-12-lote-006-100-testes.json); [checkpoint compacto final de 600 registros](auditoria/jastrow-auditoria-unica-progresso.json). O checkpoint anterior, contendo todos os 500 registros, foi preservado **exatamente** em [arquivo histórico](auditoria/jastrow-auditoria-unica-progresso-lote005-arquivo.json), Git blob `afcb22b95d363ffb8fd8888c94dbf85eb096b46d`; a compactação atual não altera pareceres nem elimina arquivos antigos. **Integração via PR e testes de interface continuam tarefas distintas; nenhum commit na main.** Mantém-se a norma transversal [Rtransparencia](regras/Rtransparencia-relatorios.txt).
