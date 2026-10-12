@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 89 (12/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4001–4100** (**ἀντίπαλος, ος, ον** → **ἀντίταξις, εως (ἡ)**), no módulo `lexicons/dgp-batch-089.js`, carregado antes do formatador. Acumulado: **4100** verbetes; próximo ordinal **4101**. Somente incorporação; nenhuma auditoria, homologação ou integração realizada.
+
 ## DGP — incorporação do lote 88 (12/10/2026)
 
 Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3901–4000** (**ἀντίθυρος, ος, ον** → **ἀντιπαλαιστής, οῦ (ὁ)**) em `lexicons/dgp-batch-088.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **4000**; próximo ordinal **4001**. Exclusivamente incorporação; sem auditoria, homologação ou integração.

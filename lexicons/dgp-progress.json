@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 4001,
-    "status": "Lotes DGP 1–88 incorporados, 4000 verbetes acumulados; próxima entrada 4001. Auditoria, homologação e integração fora do escopo."
+    "next_ordinal": 4101,
+    "status": "Lotes DGP 1–89 incorporados; 4100 verbetes no manifesto; próxima entrada 4101. Sem auditoria, homologação ou integração neste ciclo."
   },
   "batches": [
     {
@@ -803,6 +803,15 @@
       "end_entry": "ἀντιπαλαιστής, οῦ (ὁ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas nesta solicitação"
+    },
+    {
+      "batch": 89,
+      "start_ordinal": 4001,
+      "end_ordinal": 4100,
+      "start_entry": "ἀντίπαλος, ος, ον",
+      "end_entry": "ἀντίταξις, εως (ἡ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
   ],
   "editorial_rules": {
