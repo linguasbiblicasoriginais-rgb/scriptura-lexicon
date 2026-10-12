@@ -20,8 +20,8 @@
     "next_source_batch_lemma": "אַחְוָא,",
     "total_published": 1000,
     "total_audited": 0,
-    "total_integrated": 600,
-    "editorial_status": "1.000 entradas editoriais JASTROW publicadas na origem, com 400 novas sínteses nos ordinais 601–1.000. Das primeiras 600, triagem filológica automatizada de 600, cotejo manual de cinco e três correções registradas. Revisão filológica integral e auditoria atômica permanecem pendentes; 600 integrações confirmadas antes do PR #117.",
+    "total_integrated": 1000,
+    "editorial_status": "1.000 entradas JASTROW publicadas e integradas em chat-gpt-commits até o PR #117 (merge 648338afde3d7e3fa505f3b5915c4dd4e8af76ce). Os últimos 400 são sínteses portuguesas; os primeiros 600 passaram por triagem automática e cinco cotejos manuais. Auditoria filológica integral e auditoria atômica seguem pendentes: total_audited=0.",
     "source_status": "1.000 registros canônicos originais preservados em cinco lotes de 200; A01000 ainda não extraído.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
@@ -280,15 +280,25 @@
       "total_integrated": 510,
       "philological_audit": "pending",
       "browser_audit": "pending"
+    },
+    {
+      "pr": 117,
+      "head_sha": "6fa84c27ff91b1a018bbd26c12ee0fd6a2fed916",
+      "merge_commit_sha": "648338afde3d7e3fa505f3b5915c4dd4e8af76ce",
+      "total_integrated": 1000,
+      "philological_audit": "pending",
+      "browser_audit": "pending"
     }
   ],
   "last_integration": {
-    "pr": 92,
-    "head_sha": "e042fe9dc51389f86391532cfbb43b504719c974",
-    "base_before": "2403ac96138cf9714a6e38825e7767c7e00e9581",
-    "total_integrated": 600,
+    "pr": 117,
+    "head_sha": "6fa84c27ff91b1a018bbd26c12ee0fd6a2fed916",
+    "merge_commit_sha": "648338afde3d7e3fa505f3b5915c4dd4e8af76ce",
+    "base_before": "f0cd00137ab1e25e85133e23e86e0efdba71ddf2",
+    "total_integrated": 1000,
+    "merge_confirmed": true,
     "philological_audit": "pending",
-    "browser_audit": "pending"
+    "jastrow_browser_audit": "pending"
   },
   "filological_review": {
     "date": "2026-10-11",

@@ -1,3 +1,9 @@
+## PR #117 — mesclagem confirmada e checkpoint atualizado (12/10/2026)
+
+O PR [#117](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/117) foi **efetivamente mesclado** em `chat-gpt-commits`, commit [`648338afde3d7e3fa505f3b5915c4dd4e8af76ce`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/648338afde3d7e3fa505f3b5915c4dd4e8af76ce). O novo total integrado é **1.000 JASTROW**, IDs `A00000–A00999`; a origem `chat-gpt-jastrow` foi preservada. A conciliação incluiu os oito módulos novos e os dois lotes XML. Ambos os checks disparados pela integração (JASTROW — extração e THAYER — navegador) concluíram com sucesso. Não foram feitos teste de navegador JASTROW nem auditoria filológica atômica dos 400 novos: `total_audited=0`.
+
+A atualização posterior do manifesto, neste PR complementar, registra um resultado confirmado, não uma mesclagem presumida. [Relatório detalhado da resolução](auditorias/integracao-pr-117-2026-10-12.md).
+
 ## PR #117 — conciliação do JASTROW 601–1.000 (12/10/2026)
 
 Resolução de conflito entre `chat-gpt-jastrow` e `chat-gpt-commits`: preservados todos os documentos, testes, módulos e relatórios previamente consolidados no destino. Acrescentados **400 cartões JASTROW** (ordinais 601–1.000, IDs `A00600–A00999`), dois lotes originais XML e oito módulos editoriais. O carregamento foi feito sem substituir scripts de BDAG, DGP, THAYER ou demais fontes. A documentação da origem foi preservada abaixo.
