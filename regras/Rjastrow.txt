@@ -136,3 +136,13 @@ Não relançar esta questão como pendência em lotes subsequentes sem novo test
 
 
 Quarto lote auditado JASTROW — 12/10/2026: IDs inéditos A00242–A00363, com 22 IDs anteriores pulados; A 73, C 27, P 0; acumulado A 252, C 148, P 0 = 400/600, próximo A00365. Seis módulos portugueses corrigidos, XML canônico intacto; 150 pares search-row/cartão preservados e revisão dos 100 diffs, sem navegador e sem colação direta de manuscritos. Evidência: auditoria/JASTROW-2026-10-12-lote-004-100-evidencias.json; relatório auditoria/JASTROW-2026-10-12-lote-004-100-relatorio.md. A obrigação de relatório completo com várias barras para TODOS os léxicos consta de `regras/Rtransparencia-relatorios.txt`.
+
+
+### Auditoria JASTROW, lote 005 — 12/10/2026
+
+- **Seleção:** 100 IDs nunca examinados sob a norma filológica única vigente; `A00365`–`A00483`, ordinais 366–484, excluídos 19 casos já auditados. **Próximo: `A00484` (ordinal 485)**.
+- **A/C/P:** 76/24/0 no quinto lote; **328/172/0** em **500/600**, que representam 83,3% de cobertura filológica, não da obra impressa inteira. Os 600/600 anteriores referem-se à incorporação e à integridade estrutural histórica.
+- **Intervenções:** 24 cartões corrigidos e validados; cinco módulos `jastrow-361-385.js`, `jastrow-386-410.js`, `jastrow-411-435.js`, `jastrow-436-460.js`, `jastrow-461-485.js`. XML da Fonte inalterado; grafias, variantes, citações, conjecturas e etimologias atribuídas à fonte Jastrow, sem colação independente dos testemunhos externos. JS, 125 pares linha/cartão e 100 HTMLs finais verificados estaticamente; testes reais DOM/browser não executados.
+- **Evidência:** `auditoria/JASTROW-2026-10-12-lote-005-100-relatorio.md`, `auditoria/JASTROW-2026-10-12-lote-005-100-evidencias-manifest.json` (partes 01–04 com 25 registros cada), `auditoria/JASTROW-2026-10-12-lote-005-100-testes.json`.
+- **Checkpoint com preservação de história:** a antiga versão integral dos 400 registros foi arquivada de forma imutável em `auditoria/jastrow-auditoria-unica-progresso-lote004-arquivo.json`, objeto Git `e30816abbb7662b69d5c4a2cc69e063ca4320bcf`; `auditoria/jastrow-auditoria-unica-progresso.json` passou a conter índice compacto de 500 IDs, status e caminhos para as evidências de cada lote. Não houve eliminação ou reclassificação das decisões anteriores.
+- **Integração:** operação de incorporação na branch `chat-gpt-commits` requer PR/merge independente; a auditoria não escreve em `main`. Todas as próximas respostas seguem `Rtransparencia-relatorios.txt`, com múltiplas barras, dados verificados e distinção entre origem, filologia, estrutura e integração.
