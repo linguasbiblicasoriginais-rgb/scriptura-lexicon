@@ -754,8 +754,8 @@
     "source_print": "Thayer, p. 1",
     "source_corrected_entry": "entry-thayer-0001",
     "source_corrected_lemma": "ἄλφα",
-    "directed_preliminary_total": 400,
-    "directed_this_round": 100,
+    "directed_preliminary_total": 512,
+    "directed_this_round": 112,
     "static_pairs_ok": 512,
     "chromium_dom_ok": 512,
     "chromium_click_event_routes_ok": 512,
@@ -779,7 +779,7 @@
     "report": "auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md",
     "matrix_json": "auditorias/thayer-2026-10-12-matriz-atomica-512.json",
     "matrix_csv": "auditorias/thayer-2026-10-12-matriz-atomica-512.csv",
-    "source_note": "400/512 cotejos dirigidos preliminares, incluindo 100 novos IDs 0289–0388; 0 colações integrais e 0 unidades atômicas concluídas."
+    "source_note": "512/512 cotejos dirigidos PRELIMINARES; colação integral 0/512, auditorias atômicas 0/512; todos os 512 continuam BLOQUEADA."
   },
   "batch_006_audit_snapshot": {
     "new_search_rows": 100,
@@ -877,5 +877,23 @@
     "source_fully_collated": 0,
     "atomic_completed": 0,
     "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md"
+  },
+  "cotejos_dirigidos_112_final_20261012": {
+    "base_head": "eabfa091b98d55c95cacb3dc9a837a1062d2d3d0",
+    "prior": 400,
+    "new": 112,
+    "total": 512,
+    "series": "entry-thayer-0389–0499 + entry-aaron-thayer",
+    "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+    "printed_pages": "35–51 and 1",
+    "exact_individual_page_proven": "only Ἀαρών (p. 1)",
+    "code_corrections": [
+      "entry-thayer-0402",
+      "entry-thayer-0442",
+      "entry-thayer-0474"
+    ],
+    "full_collations": 0,
+    "atomic_done": 0,
+    "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.md"
   }
 }

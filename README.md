@@ -1,3 +1,7 @@
+## THAYER — 512/512 cotejos dirigidos preliminares (12/10/2026)
+
+Concluído o **inventário de cotejos dirigidos de escopo parcial** dos 512 verbetes: 400 prévios + 112 finais (0389–0499 e o cartão histórico Ἀαρών). Consultado o fac-símile Thayer, páginas impressas 35–51 e 1; as páginas de cada verbete numerado permanecem por certificar individualmente. Corrigidas três fichas (ἀνατολή, ἀνήμερος e ἀνταναπληρόω). **Colação filológica integral: 0/512. Auditoria atômica concluída: 0/512.** Todos os estados permanecem BLOQUEADA conforme `Rauditoria.txt`. Relatório: [112 cotejos dirigidos](auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.md); [fichas individuais JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.json).
+
 ## THAYER — lote dirigido 0289–0388, 12/10/2026
 
 Confronto filológico dirigido preliminar de **100 fichas adicionais** (ἀμοιβή–ἀνάπτω), com consulta ao fac-símile Thayer, páginas impressas 33–46 e notas individuais. O acumulado passa de 300 para **400/512 cotejos dirigidos (78,125%)**. **Auditoria filológica integral e auditoria atômica: 0/512**, com todos os 512 estados bloqueados até verificação exaustiva. Correções de escopo delimitado em `ἀμφιβάλλω`, `ἄν` e `ἀναίδεια`. Relatório e evidências: [100 cotejos](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md) · [inventário JSON](auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.json).

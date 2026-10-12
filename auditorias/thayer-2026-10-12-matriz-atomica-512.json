@@ -12,7 +12,7 @@
     "browser": "Chromium",
     "test": "tests/thayer-browser-audit.mjs"
   },
-  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.; 100 cotejos dirigidos preliminares de 0089 a 0188 adicionados. Teste anterior Chromium é histórico e regressão da presente mudança deve ser comprovada separadamente.; 100 observações filológicas dirigidas preliminares das fichas 0189–0288. A atual execução Chromium depende de novo workflow no PR.; 100 observações preliminares em 0289–0388 (provenientes da inspeção das páginas impressas 33–46 e cartões HTML; colação integral 0/512).",
+  "measurement_scope": "DOM real: 512 pares, eventos sintéticos click/Enter para 512 rotas, Playwright real para amostras; filologia integral não realizada; 87 cotejos dirigidos preliminares adicionais. Duas alterações lexicais posteriores à execução anterior do Chromium requerem nova regressão.; 100 cotejos dirigidos preliminares de 0089 a 0188 adicionados. Teste anterior Chromium é histórico e regressão da presente mudança deve ser comprovada separadamente.; 100 observações filológicas dirigidas preliminares das fichas 0189–0288. A atual execução Chromium depende de novo workflow no PR.; 100 observações preliminares em 0289–0388 (provenientes da inspeção das páginas impressas 33–46 e cartões HTML; colação integral 0/512).; lote final de 112 cotejos dirigidos preliminares: artigos 0389–0499 e cartão Ἀαρών; colação integral 0/512 e auditoria atômica 0/512.",
   "summary": {
     "incorporated": 512,
     "structuralStaticOk": 512,
@@ -23,19 +23,19 @@
     "playwrightGenuineEnter": 2,
     "playwrightTooltipFocus": 1,
     "linkedBiblicalReferences": 15,
-    "directedSourceCheckedPrelim": 400,
+    "directedSourceCheckedPrelim": 512,
     "sourceFullyCollated": 0,
     "atomicallyCompleted": 0,
     "accessibilityExhaustivelyTested": 0,
     "lastDirectedAudit": {
       "date": "2026-10-12",
-      "added": 100,
-      "prior": 300,
-      "total": 400,
-      "range": "entry-thayer-0289–0388",
-      "origin_sha": "1aa7153367238e86291356937c1443a558b14949",
-      "status": "DIRIGIDO_PRELIMINAR",
-      "evidence_report": "auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md"
+      "new": 112,
+      "previous": 400,
+      "total": 512,
+      "range": "0389–0499 + Ἀαρών",
+      "source_commit": "eabfa091b98d55c95cacb3dc9a837a1062d2d3d0",
+      "report": "auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.md",
+      "type": "DIRIGIDO_PRELIMINAR"
     }
   },
   "entries": [
@@ -15597,7 +15597,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15613,6 +15613,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Descendência incontável em Hb 11.12; a figura da areia determina o alcance da palavra.",
+        "integral": false
       }
     },
     {
@@ -15627,7 +15635,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15643,6 +15651,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «agitar; incitar»: ",
+        "integral": false
       }
     },
     {
@@ -15657,7 +15673,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15673,6 +15689,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «desarranjar; perturbar; subverter»: ",
+        "integral": false
       }
     },
     {
@@ -15687,7 +15711,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15703,6 +15727,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «puxar para cima; içar»: ",
+        "integral": false
       }
     },
     {
@@ -15717,7 +15749,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15733,6 +15765,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Ressurreição de Cristo e dos mortos; distinguir ocorrência cristológica e esperança escatológica.",
+        "integral": false
       }
     },
     {
@@ -15747,7 +15787,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15763,6 +15803,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «sublevar; transtornar»: ",
+        "integral": false
       }
     },
     {
@@ -15777,7 +15825,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15793,6 +15841,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «crucificar novamente»: ",
+        "integral": false
       }
     },
     {
@@ -15807,7 +15863,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15823,6 +15879,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «suspirar profundamente; gemer»: ",
+        "integral": false
       }
     },
     {
@@ -15837,7 +15901,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15853,6 +15917,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Movimento e conduta no verbo médio/passivo; valor contextual e sintaxe.",
+        "integral": false
       }
     },
     {
@@ -15867,7 +15939,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15883,6 +15955,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «conduta; modo de vida»: ",
+        "integral": false
       }
     },
     {
@@ -15897,7 +15977,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15913,6 +15993,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "35–37",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «ordenar; compilar um relato»: ",
+        "integral": false
       }
     },
     {
@@ -15927,7 +16015,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15943,6 +16031,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «fazer nascer; levantar-se; surgir»: ",
+        "integral": false
       }
     },
     {
@@ -15957,7 +16053,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -15973,6 +16069,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «expor; apresentar; comunicar»: ",
+        "integral": false
       }
     },
     {
@@ -15987,8 +16091,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "fechamento112_lemma_semantica_402"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -16003,6 +16109,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Nascer de astro/sol, aurora e oriente; a glossa «nascimento» era genérica demais.",
+        "integral": false
       }
     },
     {
@@ -16017,7 +16131,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16033,6 +16147,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «derrubar; subverter»: ",
+        "integral": false
       }
     },
     {
@@ -16047,7 +16169,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16063,6 +16185,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «criar; alimentar; educar»: ",
+        "integral": false
       }
     },
     {
@@ -16077,7 +16207,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16093,6 +16223,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «mostrar; aparecer; avistar»: ",
+        "integral": false
       }
     },
     {
@@ -16107,7 +16245,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16123,6 +16261,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Levantar, oferecer sacrifício e carregar pecados; usos e objetos diferentes.",
+        "integral": false
       }
     },
     {
@@ -16137,7 +16283,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16153,6 +16299,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «exclamar; clamar em voz alta»: ",
+        "integral": false
       }
     },
     {
@@ -16167,7 +16321,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16183,6 +16337,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «derramamento; transbordamento; excesso»: ",
+        "integral": false
       }
     },
     {
@@ -16197,7 +16359,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16213,6 +16375,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «voltar; retirar-se; afastar-se»: ",
+        "integral": false
       }
     },
     {
@@ -16227,7 +16397,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16243,6 +16413,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «alívio; refrigério; renovação»: ",
+        "integral": false
       }
     },
     {
@@ -16257,7 +16435,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16273,6 +16451,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «refrescar; reanimar»: ",
+        "integral": false
       }
     },
     {
@@ -16287,7 +16473,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16303,6 +16489,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Sequestrador e traficante de pessoas em 1Tm 1.10; não designa qualquer senhor de escravos.",
+        "integral": false
       }
     },
     {
@@ -16317,7 +16511,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16333,6 +16527,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «André»: ",
+        "integral": false
       }
     },
     {
@@ -16347,7 +16549,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16363,6 +16565,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «ser corajoso; agir com bravura»: ",
+        "integral": false
       }
     },
     {
@@ -16377,7 +16587,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16393,6 +16603,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Nome Andrônico em Rm 16.7; conservar a identificação sem inventar parentesco ou estatuto apostólico.",
+        "integral": false
       }
     },
     {
@@ -16407,7 +16625,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16423,6 +16641,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «homicida; assassino»: ",
+        "integral": false
       }
     },
     {
@@ -16437,7 +16663,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16453,6 +16679,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «irrepreensível; não acusável»: ",
+        "integral": false
       }
     },
     {
@@ -16467,7 +16701,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16483,6 +16717,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «indescritível; inexprimível»: ",
+        "integral": false
       }
     },
     {
@@ -16497,7 +16739,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16513,6 +16755,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "37–40",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «inefável; inexprimível»: ",
+        "integral": false
       }
     },
     {
@@ -16527,7 +16777,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16543,6 +16793,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «inesgotável; que não falha»: ",
+        "integral": false
       }
     },
     {
@@ -16557,7 +16815,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16573,6 +16831,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «suportável; tolerável»: ",
+        "integral": false
       }
     },
     {
@@ -16587,7 +16853,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16603,6 +16869,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «sem misericórdia; implacável»: ",
+        "integral": false
       }
     },
     {
@@ -16617,7 +16891,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16633,6 +16907,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀνέλεος é alternativa textual de Tg 2.13 frente a ἀνίλεως.",
+        "integral": false
       }
     },
     {
@@ -16647,7 +16929,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16663,6 +16945,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «agitar pelo vento; impelir»: ",
+        "integral": false
       }
     },
     {
@@ -16677,7 +16967,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16693,6 +16983,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «vento; corrente de ar»: ",
+        "integral": false
       }
     },
     {
@@ -16707,7 +17005,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16723,6 +17021,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «inadmissível; impossível»: ",
+        "integral": false
       }
     },
     {
@@ -16737,7 +17043,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16753,6 +17059,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "A forma gráfica ἀνεξεραύνητος é variante crítica, sem mudar a identidade do artigo.",
+        "integral": false
       }
     },
     {
@@ -16767,7 +17081,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16783,6 +17097,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «paciente diante do mal; tolerante»: ",
+        "integral": false
       }
     },
     {
@@ -16797,7 +17119,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16813,6 +17135,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «inescrutável; impossível de rastrear»: ",
+        "integral": false
       }
     },
     {
@@ -16827,7 +17157,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16843,6 +17173,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «que não tem motivo de vergonha»: ",
+        "integral": false
       }
     },
     {
@@ -16857,7 +17195,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16873,6 +17211,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «irrepreensível; não censurável»: ",
+        "integral": false
       }
     },
     {
@@ -16887,7 +17233,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16903,6 +17249,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «subir; ir para lugar elevado»: ",
+        "integral": false
       }
     },
     {
@@ -16917,7 +17271,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16933,6 +17287,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «afrouxamento; alívio; repouso»: ",
+        "integral": false
       }
     },
     {
@@ -16947,7 +17309,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16963,6 +17325,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «interrogar; investigar judicialmente»: ",
+        "integral": false
       }
     },
     {
@@ -16977,7 +17347,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -16993,6 +17363,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «sem; à parte de»: ",
+        "integral": false
       }
     },
     {
@@ -17007,7 +17385,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17023,6 +17401,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «inadequado; pouco conveniente»: ",
+        "integral": false
       }
     },
     {
@@ -17037,7 +17423,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17053,6 +17439,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «achar procurando; descobrir»: ",
+        "integral": false
       }
     },
     {
@@ -17067,7 +17461,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17083,6 +17477,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «suportar; tolerar; escutar»: ",
+        "integral": false
       }
     },
     {
@@ -17097,7 +17499,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17113,6 +17515,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "40–42",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀνεψιός em Cl 4.10 significa primo de Barnabé, não sobrinho.",
+        "integral": false
       }
     },
     {
@@ -17127,7 +17537,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17143,6 +17553,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Planta aromática de Mt 23.23, com dúvida botânica «dill, anise (?)» preservada.",
+        "integral": false
       }
     },
     {
@@ -17157,7 +17575,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17173,6 +17591,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «convir; ser devido; ser apropriado»: ",
+        "integral": false
       }
     },
     {
@@ -17187,8 +17613,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "fechamento112_lemma_semantica_442"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -17203,6 +17631,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "No grego de 2Tm 3.3, qualificativo figurado de ferocidade/intratabilidade.",
+        "integral": false
       }
     },
     {
@@ -17217,7 +17653,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17233,6 +17669,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀνήρ como homem, adulto e marido; confrontar casos de uso e evitar equivalência a ἄνθρωπος.",
+        "integral": false
       }
     },
     {
@@ -17247,7 +17691,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17263,6 +17707,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «resistir; opor-se; enfrentar»: ",
+        "integral": false
       }
     },
     {
@@ -17277,7 +17729,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17293,6 +17745,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «dar graças; reconhecer publicamente»: ",
+        "integral": false
       }
     },
     {
@@ -17307,7 +17767,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17323,6 +17783,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «flor»: ",
+        "integral": false
       }
     },
     {
@@ -17337,7 +17805,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17353,6 +17821,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «braseiro; monte de brasas»: ",
+        "integral": false
       }
     },
     {
@@ -17367,7 +17843,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17383,6 +17859,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Brasas em Rm 12.20 e interpretação de remorso atribuída ao autor.",
+        "integral": false
       }
     },
     {
@@ -17397,7 +17881,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17413,6 +17897,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «que busca agradar a pessoas; adulador»: ",
+        "integral": false
       }
     },
     {
@@ -17427,7 +17919,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17443,6 +17935,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «humano; próprio do homem»: ",
+        "integral": false
       }
     },
     {
@@ -17457,7 +17957,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17473,6 +17973,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «homicida; assassino»: ",
+        "integral": false
       }
     },
     {
@@ -17487,7 +17995,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17503,6 +18011,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἄνθρωπος como ser humano, pessoa, contraste com Deus e linguagem do homem interior/novo.",
+        "integral": false
       }
     },
     {
@@ -17517,7 +18033,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17533,6 +18049,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Exercício do proconsulado sob leitura do Textus Receptus; não ocorrência indisputada.",
+        "integral": false
       }
     },
     {
@@ -17547,7 +18071,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17563,6 +18087,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «procônsul»: ",
+        "integral": false
       }
     },
     {
@@ -17577,7 +18109,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17593,6 +18125,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «soltar; afrouxar; abandonar»: ",
+        "integral": false
       }
     },
     {
@@ -17607,7 +18147,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17623,6 +18163,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀνίλεως, forma da tradição recebida de Tg 2.13 versus ἀνέλεος.",
+        "integral": false
       }
     },
     {
@@ -17637,7 +18185,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17653,6 +18201,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «não lavado; com mãos por lavar»: ",
+        "integral": false
       }
     },
     {
@@ -17667,7 +18223,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17683,6 +18239,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀνίστημι é transitivo «erguer/fazer ressuscitar» e intransitivo «erguer-se/ressuscitar».",
+        "integral": false
       }
     },
     {
@@ -17697,7 +18261,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17713,6 +18277,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "42–46",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «Ana»: ",
+        "integral": false
       }
     },
     {
@@ -17727,7 +18299,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17743,6 +18315,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «Anás»: ",
+        "integral": false
       }
     },
     {
@@ -17757,7 +18337,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17773,6 +18353,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «sem entendimento; insensato»: ",
+        "integral": false
       }
     },
     {
@@ -17787,7 +18375,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17803,6 +18391,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «insensatez; falta de juízo; loucura»: ",
+        "integral": false
       }
     },
     {
@@ -17817,7 +18413,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17833,6 +18429,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «abrir; franquear acesso; revelar»: ",
+        "integral": false
       }
     },
     {
@@ -17847,7 +18451,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17863,6 +18467,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «reconstruir; edificar novamente»: ",
+        "integral": false
       }
     },
     {
@@ -17877,7 +18489,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17893,6 +18505,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «abertura; ato de abrir»: ",
+        "integral": false
       }
     },
     {
@@ -17907,7 +18527,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17923,6 +18543,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Iniquidade e transgressão de lei; distinguir estado de transgressão e atos concretos.",
+        "integral": false
       }
     },
     {
@@ -17937,7 +18565,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17953,6 +18581,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἄνομος: gentio sem a Lei mosaica e transgressor perverso são acepções contextualmente distintas.",
+        "integral": false
       }
     },
     {
@@ -17967,7 +18603,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -17983,6 +18619,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀνόμως em Rm 2.12 qualifica falta de Lei mosaica, não ausência de toda moralidade.",
+        "integral": false
       }
     },
     {
@@ -17997,7 +18641,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18013,6 +18657,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «endireitar; reerguer; reconstruir»: ",
+        "integral": false
       }
     },
     {
@@ -18027,7 +18679,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18043,6 +18695,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «profano; ímpio; impiedoso»: ",
+        "integral": false
       }
     },
     {
@@ -18057,7 +18717,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18073,6 +18733,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «tolerância; longanimidade; paciência»: ",
+        "integral": false
       }
     },
     {
@@ -18087,7 +18755,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18103,6 +18771,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «lutar contra; opor resistência»: ",
+        "integral": false
       }
     },
     {
@@ -18117,7 +18793,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18133,6 +18809,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «equivalente; preço em troca; compensação»: ",
+        "integral": false
       }
     },
     {
@@ -18147,8 +18831,10 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
-      "correcoes_desta_rodada": [],
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
+      "correcoes_desta_rodada": [
+        "fechamento112_lemma_semantica_474"
+      ],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
       "acessibilidade_integral": false,
@@ -18163,6 +18849,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "«Fill up in turn» significa completar por sua vez; interpretar Cl 1.24 pertence ao comentário de Thayer.",
+        "integral": false
       }
     },
     {
@@ -18177,7 +18871,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18193,6 +18887,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «retribuir; recompensar; punir»: ",
+        "integral": false
       }
     },
     {
@@ -18207,7 +18909,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18223,6 +18925,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «retribuição; contrapartida»: ",
+        "integral": false
       }
     },
     {
@@ -18237,7 +18947,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18253,6 +18963,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «recompensa; retribuição»: ",
+        "integral": false
       }
     },
     {
@@ -18267,7 +18985,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18283,6 +19001,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «responder contra; contradizer»: ",
+        "integral": false
       }
     },
     {
@@ -18297,7 +19023,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18313,6 +19039,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "46–49",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀντεῖπον é forma aorística relacionada a ἀντιλέγω, não presente lexical regular.",
+        "integral": false
       }
     },
     {
@@ -18327,7 +19061,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18343,6 +19077,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «apegar-se; sustentar; ajudar»: ",
+        "integral": false
       }
     },
     {
@@ -18357,7 +19099,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18373,6 +19115,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀντί com genitivo exprime troca/substituição, reciprocidade e, em certas construções, causa.",
+        "integral": false
       }
     },
     {
@@ -18387,7 +19137,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18403,6 +19153,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «trocar palavras; conversar»: ",
+        "integral": false
       }
     },
     {
@@ -18417,7 +19175,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18433,6 +19191,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «opor-se; colocar-se contra»: ",
+        "integral": false
       }
     },
     {
@@ -18447,7 +19213,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18463,6 +19229,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «adversário; litigante; acusador»: ",
+        "integral": false
       }
     },
     {
@@ -18477,7 +19251,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18493,6 +19267,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀντίθεσις em 1Tm 6.20 designa oposição de proposições, não terminologia filosófica moderna.",
+        "integral": false
       }
     },
     {
@@ -18507,7 +19289,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18523,6 +19305,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «colocar contra; resistir»: ",
+        "integral": false
       }
     },
     {
@@ -18537,7 +19327,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18553,6 +19343,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «convidar em retribuição»: ",
+        "integral": false
       }
     },
     {
@@ -18567,7 +19365,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18583,6 +19381,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «estar em oposição; resistir; contrariar»: ",
+        "integral": false
       }
     },
     {
@@ -18597,7 +19403,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18613,6 +19419,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «em frente; defronte; do lado oposto»: ",
+        "integral": false
       }
     },
     {
@@ -18627,7 +19441,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18643,6 +19457,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «amparar; socorrer; participar»: ",
+        "integral": false
       }
     },
     {
@@ -18657,7 +19479,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18673,6 +19495,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «contradizer; contestar; recusar obediência»: ",
+        "integral": false
       }
     },
     {
@@ -18687,7 +19517,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18703,6 +19533,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «auxílio; assistência; socorro»: ",
+        "integral": false
       }
     },
     {
@@ -18717,7 +19555,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18733,6 +19571,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «contradição; disputa; oposição»: ",
+        "integral": false
       }
     },
     {
@@ -18747,7 +19593,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18763,6 +19609,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «insultar em resposta; revidar ofensas»: ",
+        "integral": false
       }
     },
     {
@@ -18777,7 +19631,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18793,6 +19647,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "ἀντίλυτρον como resgate substitutivo em 1Tm 2.6; distinguir glossa de aplicação teológica.",
+        "integral": false
       }
     },
     {
@@ -18807,7 +19669,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18823,6 +19685,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «medir em troca; retribuir na mesma medida»: ",
+        "integral": false
       }
     },
     {
@@ -18837,7 +19707,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18853,6 +19723,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Confronto dirigido do valor nuclear «compensação; recompensa; retribuição»: ",
+        "integral": false
       }
     },
     {
@@ -18867,7 +19745,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18883,6 +19761,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Ἀντιόχεια remete a duas cidades, Antioquia da Síria e Antioquia da Pisídia.",
+        "integral": false
       }
     },
     {
@@ -18897,7 +19783,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": false,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -18913,6 +19799,14 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "localizacao": "49–51",
+        "pagina_exata_individual_certificada": false,
+        "ponto": "Ἀντιοχεύς é gentílico aplicado a Nicolau em At 6.5, não nome da cidade.",
+        "integral": false
       }
     },
     {
@@ -19287,7 +20181,7 @@
       "clicado_com_playwright_real": false,
       "enter_com_playwright_real": true,
       "tooltip_foco_real": false,
-      "cotejo_fonte": "NAO_HOMOLOGADO_INTEGRALMENTE",
+      "cotejo_fonte": "DIRIGIDO_PRELIMINAR",
       "correcoes_desta_rodada": [],
       "colacao_integral_do_artigo": false,
       "referencias_externas_verificadas_individualmente": false,
@@ -19303,6 +20197,13 @@
         "functional_run_id": 38205220873,
         "functional_job_id": 114667101048,
         "prior_matrix": "auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json"
+      },
+      "cotejo_dirigido_20261012_112": {
+        "tipo": "DIRIGIDO_PRELIMINAR",
+        "facsimile": "Thayer (parte 1, Α–Ι).pdf",
+        "pagina_individual": "1",
+        "ponto": "Nome Ἀαρών, indeclinável no grego, com genitivo -ῶνος registrado por Josefo; alternativas etimológicas atribuídas a Fürst, Dietrich e Fílon (De ebrietate §32), não derivação segura; Arão, irmão de Moisés e primeiro sumo sacerdote.",
+        "integral": false
       }
     }
   ]
