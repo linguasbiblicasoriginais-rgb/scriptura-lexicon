@@ -1,0 +1,790 @@
+{
+  "schema": "JASTROW-100-targeted-integration-manifest/1",
+  "date": "2026-10-12",
+  "status": "PROPOSTO — NÃO APLICADO NEM MESCLADO",
+  "intention": "Este manifesto descreve as 42 alterações exatas, jamais executa merge ou modifica outros léxicos. O integrador deve verificar SHA e old object no destino atual, migrar conteúdo sem perder alterações concorrentes e confirmar PR merged.",
+  "repository": "linguasbiblicasoriginais-rgb/scriptura-lexicon",
+  "source_branch": "chat-gpt-correcoes",
+  "target_branch": "chat-gpt-commits",
+  "expected_total_ids": 100,
+  "digital_historical_A": 58,
+  "digital_historical_C": 42,
+  "files": [
+    {
+      "path": "lexicons/jastrow-011-040.js",
+      "expected_sha_in_chat_gpt_commits": "640894d4b45a198aa013659fef3a19235f3fa7d9",
+      "desired_sha_in_chat_gpt_correcoes": "0b1bef280efa2e40bb05ca559dd0cbab436e753b",
+      "changed_entries_in_100": 17
+    },
+    {
+      "path": "lexicons/jastrow-041-080.js",
+      "expected_sha_in_chat_gpt_commits": "5f5008594af686fc64e4726a2e1b5ab1bf9dad29",
+      "desired_sha_in_chat_gpt_correcoes": "4b54d5c6853ad5af7c4c8f1b4f6dd44664fdd6ff",
+      "changed_entries_in_100": 15
+    },
+    {
+      "path": "lexicons/jastrow-081-110.js",
+      "expected_sha_in_chat_gpt_commits": "360e9b278062c5b18218715d0ada482688b16a6d",
+      "desired_sha_in_chat_gpt_correcoes": "38f0f3a85ff54f594d7eb29931de9fe533d780fb",
+      "changed_entries_in_100": 10
+    }
+  ],
+  "patches": [
+    {
+      "id": "A00010",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00010",
+        "lemma": "אאלר\"ן",
+        "type": "Vocábulo mnemônico",
+        "gloss": "palavra artificial; inscrição de Daniel",
+        "html": "Palavra artificial formada por cada terceira letra de <bdi lang='he' dir='rtl'>מנא מנא תקל ופרסין</bdi> (Dn 5.25). Sanhedrin 22a e Cântico dos Cânticos Rabá a 3.4 discutem leituras em que cada primeira, segunda ou terceira letra da inscrição na parede constitui palavras diferentes."
+      },
+      "desired_new": {
+        "sid": "A00010",
+        "lemma": "אאלר\"ן",
+        "type": "Vocábulo mnemônico",
+        "gloss": "palavra artificial; inscrição de Daniel",
+        "html": "Palavra artificial formada por cada terceira letra de <bdi lang='he' dir='rtl'>מנא מנא תקל ופרסין</bdi> (Dn 5.25). Sanhedrin 22a e Cântico dos Cânticos Rabá a 3.4 discutem leituras em que cada primeira, segunda ou terceira letra da inscrição na parede constitui palavras diferentes. <strong>Nota de colação:</strong> A sequência de Daniel 5.25 tem marcas gráficas, reproduzidas do XML: מנא̇ מנא̇ תקל̇ ופר̇סין̇. Não as omitir no expediente de seleção de letras."
+      }
+    },
+    {
+      "id": "A00012",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00012",
+        "lemma": "אַב־,",
+        "type": "Prefixo de origem grega",
+        "gloss": "elemento au-; eu-",
+        "html": "Prefixo em vocábulos gregos adaptados, correspondente a <span lang='grc'>αὐ-</span> (<i>au-</i>), como <bdi lang='he' dir='rtl'>אבטומטוס</bdi> (<span lang='grc'>αὐτόματος</span>), ou a <span lang='grc'>εὐ-</span> (<i>eu-</i>), como <bdi lang='he' dir='rtl'>אבגינוס</bdi> (<span lang='grc'>εὐγενής</span>)."
+      },
+      "desired_new": {
+        "sid": "A00012",
+        "lemma": "אַב־,",
+        "type": "Prefixo de origem grega",
+        "gloss": "elemento au-; eu-",
+        "html": "Prefixo em vocábulos gregos adaptados, correspondente a <span lang='grc'>αὐ-</span> (<i>au-</i>), como <bdi lang='he' dir='rtl'>אבטומטוס</bdi> (<span lang='grc'>αὐτόματος</span>), ou a <span lang='grc'>εὐ-</span> (<i>eu-</i>), como <bdi lang='he' dir='rtl'>אבגינוס</bdi> (<span lang='grc'>εὐγενής</span>). <strong>Nota de colação:</strong> O segundo cabeçalho original é אֶבְ־, além de אַב־. Jastrow associa-os respectivamente a elementos gregos εὐ- e αὐ-."
+      }
+    },
+    {
+      "id": "A00013",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00013",
+        "lemma": "אָב,",
+        "type": "Nome de mês",
+        "gloss": "av; quinto mês judaico",
+        "html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. No calendário gregoriano corresponde aproximadamente a julho–agosto (as datas exatas variam anualmente). Rosh Hashaná 1.3 menciona mensageiros para anunciar seu início em vista do jejum; Ta‘anit 4.6, sua chegada; Ta‘anit 29b, a conveniência de evitar litígios nesse mês; o dia 9 de av comemora a destruição do Templo."
+      },
+      "desired_new": {
+        "sid": "A00013",
+        "lemma": "אָב,",
+        "type": "Nome de mês",
+        "gloss": "av; quinto mês judaico",
+        "html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. Na correspondência civil descrita por Jastrow, seu início situa-se entre 8 de julho e 7 de agosto, e seu término entre 6 de agosto e 5 de setembro; não são datas anuais fixas. <strong>Nota da fonte:</strong> Jastrow relaciona o nome ao assírio <i>A-bu</i> e remete a Schr., <i>K. A. T.</i>, p. 247; essa referência histórica não constitui aqui verificação independente da etimologia. <strong>Exemplos e referências:</strong> Rosh Hashaná 1.3, mensageiros anunciam o início de Av por causa do jejum; 18b, <bdi lang='he' dir='rtl'>ט׳ באב</bdi>, o nono dia de Av, memória da destruição do Templo. Ta‘anit 4.6, <bdi lang='he' dir='rtl'>משנכנס אב</bdi>, «ao começar Av»; Ta‘anit 29b, <bdi lang='he' dir='rtl'>לישתמיט מיניה באב</bdi>, recomendação de evitar um litígio naquele mês. Cf. Meguilá 5b."
+      }
+    },
+    {
+      "id": "A00014",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00014",
+        "lemma": "אָב,",
+        "type": "Substantivo masculino",
+        "gloss": "pai; ancestral; mestre; chefe; origem",
+        "html": "<strong>1.</strong> Pai, progenitor, antepassado; também educador, mestre, chefe, guia, autor ou originador. Êxodo Rabá 46 chama o educador de verdadeiro pai; Levítico Rabá 1 fala do pai da sabedoria e dos profetas. <strong>2.</strong> <bdi lang='he' dir='rtl'>אב בית דין</bdi> (<i>av bet din</i>, abreviado אב״ד): presidente da corte, abaixo do <i>nasi</i>. <strong>3.</strong> Figurado: causa ou princípio originário; <bdi lang='he' dir='rtl'>אב מלאכה</bdi>, categoria principal de trabalho proibido no sábado, em contraste com <bdi lang='he' dir='rtl'>תולדה</bdi>, trabalho derivado (Shabbat 7.1); <bdi lang='he' dir='rtl'>אב הטומאה</bdi>, fonte primária de impureza ritual (Tohorot 1.5); <bdi lang='he' dir='rtl'>בנין אב</bdi>, regra inferida por analogia de caso bíblico expresso (Sifra, introdução). <strong>4.</strong> Plural <bdi lang='he' dir='rtl'>אבות</bdi>: pais, ancestrais, patriarcas; também categorias principais, como as quatro classes de dano (Bava Kamma 1.1). <strong>5.</strong> <i>Avot</i>: primeira bênção da oração das Dezoito Bênçãos (Rosh Hashaná 4.5). <strong>6.</strong> <i>Avot</i>, tratado da Mishná na ordem Nezikin, chamado também <i>Pirkei Avot</i>; existe ainda <i>Avot de-Rabbi Natan</i>. Cf. Berakhot 26b; Hagigah 2.2; Números Rabá 1."
+      },
+      "desired_new": {
+        "sid": "A00014",
+        "lemma": "אָב,",
+        "type": "Substantivo masculino",
+        "gloss": "pai; ancestral; mestre; chefe; origem",
+        "html": "<strong>1.</strong> Pai, progenitor, antepassado; também educador, mestre, chefe, guia, autor ou originador. Êxodo Rabá 46 chama o educador de verdadeiro pai; Levítico Rabá 1 fala do pai da sabedoria e dos profetas. <strong>2.</strong> <bdi lang='he' dir='rtl'>אב בית דין</bdi> (<i>av bet din</i>, abreviado אב״ד): presidente da corte, abaixo do <i>nasi</i>. <strong>3.</strong> Figurado: causa ou princípio originário; <bdi lang='he' dir='rtl'>אב מלאכה</bdi>, categoria principal de trabalho proibido no sábado, em contraste com <bdi lang='he' dir='rtl'>תולדה</bdi>, trabalho derivado (Shabbat 7.1); <bdi lang='he' dir='rtl'>אב הטומאה</bdi>, fonte primária de impureza ritual (Tohorot 1.5); <bdi lang='he' dir='rtl'>בנין אב</bdi>, regra inferida por analogia de caso bíblico expresso (Sifra, introdução). <strong>4.</strong> Plural <bdi lang='he' dir='rtl'>אבות</bdi>: pais, ancestrais, patriarcas; também categorias principais, como as quatro classes de dano (Bava Kamma 1.1). <strong>5.</strong> <i>Avot</i>: primeira bênção da oração das Dezoito Bênçãos (Rosh Hashaná 4.5). <strong>6.</strong> <i>Avot</i>, tratado da Mishná na ordem Nezikin, chamado também <i>Pirkei Avot</i>; existe ainda <i>Avot de-Rabbi Natan</i>. Cf. Berakhot 26b; Hagigah 2.2; Números Rabá 1. <strong>Nota de colação:</strong> Estados construtos: אֲבִי, אַב. A expressão בת אב indica mulher de origem nobre (Números Rabá 1); בנין אב denomina conclusão legal por analogia de um caso bíblico explícito (Sifra)."
+      }
+    },
+    {
+      "id": "A00016",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00016",
+        "lemma": "אֵב,",
+        "type": "Substantivo masculino",
+        "gloss": "broto; crescimento; desenvolvimento",
+        "html": "Do campo semântico de inchar e espalhar-se. <strong>1.</strong> Brotos jovens da árvore, em contraste com galhos que nascem diretamente do tronco (Bava Kamma 81a). <strong>2.</strong> Plural <bdi lang='he' dir='rtl'>אִבִּין / אִיבִּין</bdi>: período ou estado de crescimento, desenvolvimento, maturação; aplica-se a vegetais, figos e azeitonas (Hullin 58a, 127b; Jerusalém Shabbat 7, 10c). Há variantes manuscritas e remissão ao aramaico <bdi lang='he' dir='rtl'>אִיבָּא</bdi> I."
+      },
+      "desired_new": {
+        "sid": "A00016",
+        "lemma": "אֵב,",
+        "type": "Substantivo masculino",
+        "gloss": "broto; crescimento; desenvolvimento",
+        "html": "Do campo semântico de inchar e espalhar-se. <strong>1.</strong> Brotos jovens da árvore, em contraste com galhos que nascem diretamente do tronco (Bava Kamma 81a). <strong>2.</strong> Plural <bdi lang='he' dir='rtl'>אִבִּין / אִיבִּין</bdi>: período ou estado de crescimento, desenvolvimento, maturação; aplica-se a vegetais, figos e azeitonas (Hullin 58a, 127b; Jerusalém Shabbat 7, 10c). Há variantes manuscritas e remissão ao aramaico <bdi lang='he' dir='rtl'>אִיבָּא</bdi> I. <strong>Nota de colação:</strong> Segundo cabeçalho: (אוֹב) אֵיב. Bava Kamma 81a: leitura de edição אִיבּוֹ versus Arukh/manuscrito חובו; a variante de Tosefta Maaserot 1.4 é emendada por Jastrow para אוּגִין."
+      }
+    },
+    {
+      "id": "A00017",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00017",
+        "lemma": "אַבָּא,",
+        "type": "Substantivo aramaico",
+        "gloss": "pai; meu pai; avô; origem",
+        "html": "<strong>1.</strong> Pai, equivalente ao hebraico <bdi lang='he' dir='rtl'>אָב</bdi>; no uso familiar, “meu pai” (Targum Gênesis 17.4; Sanhedrin 3.2; Bava Batra 9.3). <bdi lang='he' dir='rtl'>אבי אבא</bdi>, “meu avô”; <bdi lang='he' dir='rtl'>אבא סב / אבא רבה</bdi>, “avô”. <strong>2.</strong> Pai de determinada pessoa (<bdi lang='he' dir='rtl'>אבוה ד־</bdi>). <strong>3.</strong> Figurado: origem, fonte, fundamento de uma analogia (Shabbat 22a). Plurais <bdi lang='he' dir='rtl'>אֲבָהָן, אֲבָהָתָא</bdi>; <bdi lang='he' dir='rtl'>בר אבהן</bdi>, pessoa de linhagem ilustre (Menahot 53a)."
+      },
+      "desired_new": {
+        "sid": "A00017",
+        "lemma": "אַבָּא,",
+        "type": "Substantivo aramaico",
+        "gloss": "pai; meu pai; avô; origem",
+        "html": "<strong>1.</strong> Pai, equivalente ao hebraico <bdi lang='he' dir='rtl'>אָב</bdi>; no uso familiar, “meu pai” (Targum Gênesis 17.4; Sanhedrin 3.2; Bava Batra 9.3). <bdi lang='he' dir='rtl'>אבי אבא</bdi>, “meu avô”; <bdi lang='he' dir='rtl'>אבא סב / אבא רבה</bdi>, “avô”. <strong>2.</strong> Pai de determinada pessoa (<bdi lang='he' dir='rtl'>אבוה ד־</bdi>). <strong>3.</strong> Figurado: origem, fonte, fundamento de uma analogia (Shabbat 22a). Plurais <bdi lang='he' dir='rtl'>אֲבָהָן, אֲבָהָתָא</bdi>; <bdi lang='he' dir='rtl'>בר אבהן</bdi>, pessoa de linhagem ilustre (Menahot 53a). <strong>Nota de colação:</strong> O uso sarcástico אַבָּא אליהו ('pai Elias') consta em Sanhedrin 113a. Meguilá 12b cita o administrador do pai. Em Targum Provérbios 19.14, variante manuscrita אֲבָהֵי e leitura da edição אבהן."
+      }
+    },
+    {
+      "id": "A00018",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00018",
+        "lemma": "אַבָּא,",
+        "type": "Nome próprio masculino",
+        "gloss": "Abba; nome de diversos amoraítas",
+        "html": "<strong>Abba</strong> (também Ba, Va em variantes palestinenses), nome próprio frequente, às vezes título convertido em nome. A fonte distingue Abba Arikha (ver <bdi lang='he' dir='rtl'>רַב</bdi>), Rav Abba (ver <bdi lang='he' dir='rtl'>רָבָא</bdi>), Abba bar Abbahu (pai de Samuel, um amoraíta), Abba bar Rav Huna e Abba Mari (contraído <bdi lang='he' dir='rtl'>אבמרי</bdi>). Registra ainda as formas Abin e Abina, contraídas com ר׳ nos nomes Ravin e Ravina; cf. Berakhot 18b."
+      },
+      "desired_new": {
+        "sid": "A00018",
+        "lemma": "אַבָּא,",
+        "type": "Nome próprio masculino",
+        "gloss": "Abba; nome de diversos amoraítas",
+        "html": "<strong>Abba</strong> (também Ba, Va em variantes palestinenses), nome próprio frequente, às vezes título convertido em nome. A fonte distingue Abba Arikha (ver <bdi lang='he' dir='rtl'>רַב</bdi>), Rav Abba (ver <bdi lang='he' dir='rtl'>רָבָא</bdi>), Abba bar Abbahu (pai de Samuel, um amoraíta), Abba bar Rav Huna e Abba Mari (contraído <bdi lang='he' dir='rtl'>אבמרי</bdi>). Registra ainda as formas Abin e Abina, contraídas com ר׳ nos nomes Ravin e Ravina; cf. Berakhot 18b. <strong>Nota de colação:</strong> Cabeçalho alternativo אַכָּה; grafias do Jerusalém בָּא, וָוא, וָוה. Trata-se de formas históricas associadas a pessoas distintas, não de uma identificação única."
+      }
+    },
+    {
+      "id": "A00020",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00020",
+        "lemma": "אִבָּא",
+        "type": "Substantivo masculino",
+        "gloss": "bosque; matagal; fruto",
+        "html": "<strong>1.</strong> Mato fechado, bosque, arvoredo. Moed Katan 12b menciona a floresta de Sh’lanya. Provérbio em Sanhedrin 39b: do próprio bosque vem o cabo do machado que o fere. <strong>2.</strong> Fruto; cf. <bdi lang='he' dir='rtl'>אִיבָּא</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00020",
+        "lemma": "אִבָּא",
+        "type": "Substantivo masculino",
+        "gloss": "bosque; matagal; fruto",
+        "html": "<strong>1.</strong> Mato fechado, bosque, arvoredo. Moed Katan 12b menciona a floresta de Sh’lanya. Provérbio em Sanhedrin 39b: do próprio bosque vem o cabo do machado que o fere. <strong>2.</strong> Fruto; cf. <bdi lang='he' dir='rtl'>אִיבָּא</bdi>. <strong>Complemento filológico:</strong> <strong>Aparato e remissões:</strong> Moed Katan 12b: <bdi dir='rtl' lang='he'>א׳ בשלניא</bdi>, bosque de Sh'lanya. Ketubot 79a remete a <bdi dir='rtl' lang='he'>זַרְדְּתָא</bdi>. Sanhedrin 39b: provérbio <bdi dir='rtl' lang='he'>מיניה וביה א׳ ניזיל ביה נרגא</bdi>, com variante <bdi dir='rtl' lang='he'>ליזיל</bdi> e leitura da <i>Ag. Hatt.</i> <bdi dir='rtl' lang='he'>בנרגא</bdi> (ver Rabbinovicz, nota à passagem). O segundo sentido «fruto» é remissivo, não extensão demonstrada de «bosque»; cf. <bdi dir='rtl' lang='he'>אִיבָּא</bdi>."
+      }
+    },
+    {
+      "id": "A00021",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00021",
+        "lemma": "אַכְאָבִית,",
+        "type": "Substantivo feminino",
+        "gloss": "distúrbio gástrico; vômitos espasmódicos",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אֲבָבִית, עַבְעָבִית, עֲבָבִית, עַוְעָוִית</bdi>. Associado a inchaço ou peso, denota indisposição gástrica, vômitos ou espasmos, frequentemente junto de febre. Gênesis Rabá 19 e 53 registra <bdi lang='he' dir='rtl'>חמה ואכאבית</bdi>, “febre e vômitos”; há variantes textuais divergentes. Ver <bdi lang='he' dir='rtl'>אַכְאָבִית</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00021",
+        "lemma": "אַכְאָבִית,",
+        "type": "Substantivo feminino",
+        "gloss": "distúrbio gástrico; vômitos espasmódicos",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אֲבָבִית, עַבְעָבִית, עֲבָבִית, עַוְעָוִית</bdi>. Associado a inchaço ou peso, denota indisposição gástrica, vômitos ou espasmos, frequentemente junto de febre. Gênesis Rabá 19 e 53 registra <bdi lang='he' dir='rtl'>חמה ואכאבית</bdi>, “febre e vômitos”; há variantes textuais divergentes. Ver <bdi lang='he' dir='rtl'>אַכְאָבִית</bdi>. <strong>Nota de colação:</strong> Gênesis Rabá 19: o Arukh transmite חמה עליה אבבית עליה ('febre e vômitos'), ao passo que a edição tem צינה עליו כמה חככים עליו, leitura que Jastrow considera corrompida."
+      }
+    },
+    {
+      "id": "A00024",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00024",
+        "lemma": "אָבַב",
+        "type": "Verbo",
+        "gloss": "inchar; engrossar; desabrochar",
+        "html": "Raiz relacionada, na análise do autor, às ideias de pressão, espessura, envolvimento e calor. Significa tornar-se espesso, inchar, brotar ou irromper. A fonte remete a <bdi lang='he' dir='rtl'>חָבַב</bdi> e <bdi lang='he' dir='rtl'>הָבַב</bdi> e compara várias raízes semíticas; essas aproximações pertencem à análise etimológica de Jastrow."
+      },
+      "desired_new": {
+        "sid": "A00024",
+        "lemma": "אָבַב",
+        "type": "Verbo",
+        "gloss": "inchar; engrossar; desabrochar",
+        "html": "Raiz relacionada, na análise do autor, às ideias de pressão, espessura, envolvimento e calor. Significa tornar-se espesso, inchar, brotar ou irromper. A fonte remete a <bdi lang='he' dir='rtl'>חָבַב</bdi> e <bdi lang='he' dir='rtl'>הָבַב</bdi> e compara várias raízes semíticas; essas aproximações pertencem à análise etimológica de Jastrow. <strong>Complemento filológico:</strong> <strong>Comparações radicais da fonte:</strong> Jastrow associa as ideias «tornar-se espesso, pesar, pressionar, rodear, entrelaçar, aquecer/brilhar» ao conjunto hipotético de raízes <bdi dir='rtl' lang='he'>אב, עב, חב, גב, כב, קב</bdi>; compara <bdi dir='rtl' lang='he'>חָבַב</bdi> I–II, e remete a <bdi dir='rtl' lang='he'>אבד, אבל, אבק, אבר, אבס, אבה</bdi>. O significado lexical propriamente enunciado é «engrossar, inchar, irromper»; as aproximações de raízes são análise etimológica do autor, não ocorrências que provem todos esses sentidos."
+      }
+    },
+    {
+      "id": "A00026",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00026",
+        "lemma": "אִבְּבָא",
+        "type": "Remissão",
+        "gloss": "ver אִיבָּא",
+        "html": "Remissão ortográfica para <bdi lang='he' dir='rtl'>אִיבָּא</bdi>; sem definição própria."
+      },
+      "desired_new": {
+        "sid": "A00026",
+        "lemma": "אִבְּבָא",
+        "type": "Remissão",
+        "gloss": "ver אֵב (A00016); fonte: איב׳",
+        "html": "Remissão originalmente abreviada como <bdi lang='he' dir='rtl'>איב׳</bdi>. O vínculo <code>rid=\"A00016\"</code> no XML aponta ao verbete <bdi lang='he' dir='rtl'>אֵב</bdi>, que também registra <bdi lang='he' dir='rtl'>(אוֹב) אֵיב</bdi> como segundo cabeçalho e trata de brotos e desenvolvimento. Preserva-se a grafia abreviada; não há fundamento para substituí-la simplesmente por <bdi lang='he' dir='rtl'>אִיבָּא</bdi>."
+      }
+    },
+    {
+      "id": "A00027",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00027",
+        "lemma": "אֶבְגִּינוֹס,",
+        "type": "Adjetivo ou substantivo masculino",
+        "gloss": "nobre; de origem nobre",
+        "html": "Do grego <span lang='grc'>εὐγενής</span>, “bem-nascido, nobre”; variantes <bdi lang='he' dir='rtl'>אֶוְוגִּינוֹס, אֶוְגִּינֵס</bdi>. Aparece em Eclesiastes Rabá e em midraxes sobre os Salmos. O plural designa nobres; “filho dos nobres” (Yalkut Salmos 863); Jastrow assinala correções de leitura nas edições."
+      },
+      "desired_new": {
+        "sid": "A00027",
+        "lemma": "אֶבְגִּינוֹס,",
+        "type": "Adjetivo ou substantivo masculino",
+        "gloss": "nobre; de origem nobre",
+        "html": "Do grego <span lang='grc'>εὐγενής</span>, “bem-nascido, nobre”; variantes <bdi lang='he' dir='rtl'>אֶוְוגִּינוֹס, אֶוְגִּינֵס</bdi>. Aparece em Eclesiastes Rabá e em midraxes sobre os Salmos. O plural designa nobres; “filho dos nobres” (Yalkut Salmos 863); Jastrow assinala correções de leitura nas edições. <strong>Nota de colação:</strong> Leituras secundárias אביינוס (Midraxe Salmos 1), אווגיטוס (Cântico Rabá) e בן גנסין (Midraxe Salmos 105) são variantes de testemunho, não novos cabeçalhos comprovados."
+      }
+    },
+    {
+      "id": "A00030",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00030",
+        "lemma": "אָבַד",
+        "type": "Verbo hebraico",
+        "gloss": "perder-se; perecer; perder; destruir; esquecer",
+        "html": "<strong>Qal:</strong> <strong>1.</strong> Perder-se, perecer, ficar irrecuperável ou impossível de localizar (Sifré Deuteronômio 301; Oholot 17.3; Ketubot 13.7). <strong>2.</strong> Perder alguém ou algo, inclusive no luto (Gênesis Rabá 91). Particípio <bdi lang='he' dir='rtl'>אָבוּד</bdi>: perdido, irrecuperável, perecível, deteriorado (Ketubot 108a; Jerusalém Sheviit 9). <strong>Nifal:</strong> ser perdido, perecer (Ketubot 104a). <strong>Piel:</strong> <strong>1.</strong> Desperdiçar, perder, privar-se de, renunciar, destruir (Nedarim 33b; Ketubot 13.6; Avodah Zarah 55a; Hagigah 3a–4a). Expressão <bdi lang='he' dir='rtl'>אִיבֵּד עצמו לדעת</bdi>: cometer suicídio deliberadamente (Gênesis Rabá 82). <strong>2.</strong> Apagar da memória, esquecer (Avot 5.12). O verbete original registra variantes textuais em Sifré."
+      },
+      "desired_new": {
+        "sid": "A00030",
+        "lemma": "אָבַד",
+        "type": "Verbo hebraico",
+        "gloss": "perder-se; perecer; perder; destruir; esquecer",
+        "html": "<strong>Qal:</strong> <strong>1.</strong> Perder-se, perecer, ficar irrecuperável ou impossível de localizar (Sifré Deuteronômio 301; Oholot 17.3; Ketubot 13.7). <strong>2.</strong> Perder alguém ou algo, inclusive no luto (Gênesis Rabá 91). Particípio <bdi lang='he' dir='rtl'>אָבוּד</bdi>: perdido, irrecuperável, perecível, deteriorado (Ketubot 108a; Jerusalém Sheviit 9). <strong>Nifal:</strong> ser perdido, perecer (Ketubot 104a). <strong>Piel:</strong> <strong>1.</strong> Desperdiçar, perder, privar-se de, renunciar, destruir (Nedarim 33b; Ketubot 13.6; Avodah Zarah 55a; Hagigah 3a–4a). Expressão <bdi lang='he' dir='rtl'>אִיבֵּד עצמו לדעת</bdi>: cometer suicídio deliberadamente (Gênesis Rabá 82). <strong>2.</strong> Apagar da memória, esquecer (Avot 5.12). O verbete original registra variantes textuais em Sifré. <strong>Nota de colação:</strong> Sifré Deuteronômio 301 apresenta propostas de leitura לוֹבֵד ou לֶאֱבוֹד; Yalkut registra לאבדם e manuscrito Zer. Abr. 3 לֵיאָבֵר. Diferenciar testemunho de emenda editorial."
+      }
+    },
+    {
+      "id": "A00031",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00031",
+        "lemma": "אֲבַּד,",
+        "type": "Verbo aramaico",
+        "gloss": "perder-se; destruir; arruinar",
+        "html": "<strong>Forma simples:</strong> perder-se (Targum 1 Samuel 9.3). <strong>Pael:</strong> destruir (Targum 2 Reis 19.18). <strong>Af'el:</strong> <strong>1.</strong> Destruir ou causar ruína (Targum Deuteronômio 26.5; Jerusalém Kiddushin 3); “perdeste o juízo” (Gênesis Rabá 56). <strong>2.</strong> Perecer, ir à ruína (Targum Salmos 41.6); “ai dos falecidos” (Jerusalém Hagigah 2). <strong>Itpaal:</strong> perder-se (Levítico Rabá 34), com variante <bdi lang='he' dir='rtl'>מִתְּבִיד</bdi> (Pesahim 5b). Jastrow sugere correção textual em Lamentações Rabá 4.21."
+      },
+      "desired_new": {
+        "sid": "A00031",
+        "lemma": "אֲבַּד,",
+        "type": "Verbo aramaico",
+        "gloss": "perder-se; destruir; arruinar",
+        "html": "<strong>Forma simples:</strong> perder-se (Targum 1 Samuel 9.3). <strong>Pael:</strong> destruir (Targum 2 Reis 19.18). <strong>Af'el:</strong> <strong>1.</strong> Destruir ou causar ruína (Targum Deuteronômio 26.5; Jerusalém Kiddushin 3); “perdeste o juízo” (Gênesis Rabá 56). <strong>2.</strong> Perecer, ir à ruína (Targum Salmos 41.6); “ai dos falecidos” (Jerusalém Hagigah 2). <strong>Itpaal:</strong> perder-se (Levítico Rabá 34), com variante <bdi lang='he' dir='rtl'>מִתְּבִיד</bdi> (Pesahim 5b). Jastrow sugere correção textual em Lamentações Rabá 4.21. <strong>Nota de colação:</strong> O segundo cabeçalho aramaico é אָבַד, ao lado de אֲבַּד; preservar a distinção entre Pael, Afel e Itpaal."
+      }
+    },
+    {
+      "id": "A00032",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00032",
+        "lemma": "אָבֵד",
+        "type": "Adjetivo ou substantivo masculino",
+        "gloss": "perecível; irrecuperável; perda inevitável",
+        "html": "Algo que se perderia caso fosse adiado: <bdi lang='he' dir='rtl'>דבר האבד</bdi>, empreendimento cujo adiamento causa perda irrecuperável (Moed Katan 11a)."
+      },
+      "desired_new": {
+        "sid": "A00032",
+        "lemma": "אָבֵד",
+        "type": "Adjetivo ou substantivo masculino",
+        "gloss": "perecível; irrecuperável; perda inevitável",
+        "html": "Algo que se perderia caso fosse adiado: <bdi lang='he' dir='rtl'>דבר האבד</bdi>, empreendimento cujo adiamento causa perda irrecuperável (Moed Katan 11a). <strong>Complemento filológico:</strong> <strong>Acepções e expressão:</strong> o adjetivo masculino <bdi dir='rtl' lang='he'>אָבֵד</bdi> significa também, isoladamente, «perecível; irrecuperável». Em <bdi dir='rtl' lang='he'>דבר הא׳</bdi>, Moed Katan 11a, qualifica atividade ou negócio cujo adiamento acarretaria prejuízo irrecuperável. A expressão técnica não esgota o sentido do adjetivo."
+      }
+    },
+    {
+      "id": "A00033",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00033",
+        "lemma": "אַבְדָּא",
+        "type": "Substantivo masculino",
+        "gloss": "destruição; ruína",
+        "html": "Da raiz <bdi lang='he' dir='rtl'>אבד</bdi>, “perder-se, destruir”; Targum Provérbios 28.28."
+      },
+      "desired_new": {
+        "sid": "A00033",
+        "lemma": "אַבְדָּא",
+        "type": "Substantivo masculino",
+        "gloss": "destruição; ruína",
+        "html": "Da raiz <bdi lang='he' dir='rtl'>אבד</bdi>, “perder-se, destruir”; Targum Provérbios 28.28. <strong>Nota de colação:</strong> O sentido lexical expresso no inglês desta entrada é substantivo 'destruição' (Targum Provérbios 28.28), não apenas a etimologia verbal da raiz."
+      }
+    },
+    {
+      "id": "A00039",
+      "module": "lexicons/jastrow-011-040.js",
+      "expected_old": {
+        "sid": "A00039",
+        "lemma": "אֶבְדּוֹקוֹס",
+        "type": "Nome próprio masculino",
+        "gloss": "Ebdocos; Eútoco",
+        "html": "Nome masculino <i>Ebdocos</i>, associado ao grego <span lang='grc'>Εὔτοκος</span> (“Eútoco”). Em Jerusalém Meguilá 3, 74a, aparece traduzido numa carta política cifrada como <bdi lang='he' dir='rtl'>טוב ילד</bdi>, “boa criança”; o autor observa variantes editoriais."
+      },
+      "desired_new": {
+        "sid": "A00039",
+        "lemma": "אֶבְדּוֹקוֹס",
+        "type": "Nome próprio masculino",
+        "gloss": "Ebdocos; Eútoco",
+        "html": "Nome masculino <i>Ebdocos</i>, associado ao grego <span lang='grc'>Εὔτοκος</span> (“Eútoco”). Em Jerusalém Meguilá 3, 74a, aparece traduzido numa carta política cifrada como <bdi lang='he' dir='rtl'>טוב ילד</bdi>, “boa criança”; o autor observa variantes editoriais. <strong>Complemento filológico:</strong> <strong>Variante de edição:</strong> para a carta política em Jerusalém Meguilá 3, 74a, parte inferior, Jastrow transmite as formas editoriais abreviadas <bdi dir='rtl' lang='he'>קום—</bdi> e <bdi dir='rtl' lang='he'>קין—</bdi>, com indicação de correção conforme a passagem. A equivalência <bdi dir='rtl' lang='he'>טוב ילד</bdi>, «boa criança», representa a forma cifrada do nome em contexto político; não a tratar como significado lexical comum."
+      }
+    },
+    {
+      "id": "A00041",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00041",
+        "lemma": "אֶבְדִּימוֹס",
+        "type": "Nome próprio masculino",
+        "gloss": "Ebdimos; Eudemo",
+        "html": "Nome próprio masculino, do grego <span lang='grc'>Εὔδημος</span> (Eudemos). Variantes e abreviações: <bdi lang='he' dir='rtl'>אבדימא, אבדימי</bdi>; grafias consideradas corruptas por Jastrow: <bdi lang='he' dir='rtl'>אבדומי, אבודמא, אבודמי</bdi>. Designa vários amoraítas, especialmente Ebdimos de Séforis (Jerusalém Berakhot 4, 8a; Jerusalém Ketubot 11, 34b). Ver também <bdi lang='he' dir='rtl'>וַרְדִּימוֹס</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00041",
+        "lemma": "אֶבְדִּימוֹס",
+        "type": "Nome próprio masculino",
+        "gloss": "Ebdimos; Eudemo",
+        "html": "Nome próprio masculino, do grego <span lang='grc'>Εὔδημος</span> (Eudemos). Variantes e abreviações: <bdi lang='he' dir='rtl'>אבדימא, אבדימי</bdi>; grafias consideradas corruptas por Jastrow: <bdi lang='he' dir='rtl'>אבדומי, אבודמא, אבודמי</bdi>. Designa vários amoraítas, especialmente Ebdimos de Séforis (Jerusalém Berakhot 4, 8a; Jerusalém Ketubot 11, 34b). Ver também <bdi lang='he' dir='rtl'>וַרְדִּימוֹס</bdi>. <strong>Complemento filológico:</strong> <strong>Identificação e bibliografia:</strong> Jastrow cita Jerusalém Ketubot 11, 34b; Jerusalém Berakhot 4, 8a para o amoraíta de Séforis, e remete ao verbete <bdi dir='rtl' lang='he'>וַרְדִּימוֹס</bdi>. A entrada remete ainda a Frankel, <i>Mebo</i>, s.v., como fonte bibliográfica; <bdi dir='rtl' lang='he'>אבדומי, אבודמא, אבודמי</bdi> são grafias classificadas como corrompidas pelo lexicógrafo, não nomes distintos demonstrados."
+      }
+    },
+    {
+      "id": "A00042",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00042",
+        "lemma": "אַבְדָּלָה",
+        "type": "Substantivo feminino aramaico",
+        "gloss": "separação; distinção; havdalá",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אַבְדָּלָה, אַבְדַּלְתָּא</bdi>, correspondentes ao hebraico <bdi lang='he' dir='rtl'>הַבְדָּלָה</bdi>. <strong>1.</strong> Ato de distinguir, distinção ou separação (Jerusalém Berakhot 8, 12c). <strong>2.</strong> <i>Havdalá</i>, fórmula de oração que marca o encerramento do sábado ou de uma festa sagrada (Pesahim 113a). Plural <bdi lang='he' dir='rtl'>אַבְדָּלוֹת</bdi>, distinções; Jerusalém Berakhot 5, 9b menciona sete objetos de distinção."
+      },
+      "desired_new": {
+        "sid": "A00042",
+        "lemma": "אַבְדָּלָה",
+        "type": "Substantivo feminino aramaico",
+        "gloss": "separação; distinção; havdalá",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אַבְדָּלָה, אַבְדַּלְתָּא</bdi>, correspondentes ao hebraico <bdi lang='he' dir='rtl'>הַבְדָּלָה</bdi>. <strong>1.</strong> Ato de distinguir, distinção ou separação (Jerusalém Berakhot 8, 12c). <strong>2.</strong> <i>Havdalá</i>, fórmula de oração que marca o encerramento do sábado ou de uma festa sagrada (Pesahim 113a). Plural <bdi lang='he' dir='rtl'>אַבְדָּלוֹת</bdi>, distinções; Jerusalém Berakhot 5, 9b menciona sete objetos de distinção. <strong>Complemento filológico:</strong> <strong>Precisão das fontes:</strong> Jerusalém Berakhot 8, 12c, topo, <bdi dir='rtl' lang='he'>א׳ ודאי</bdi> significa «separação efetiva»; a fórmula litúrgica da <i>Havdalá</i> aparece em Berakhot 8, começo de 11d, e Pesahim 113a. Plural <bdi dir='rtl' lang='he'>אַבְדָּלוֹת</bdi>: Jerusalém Berakhot 5, 9b, parte inferior, <bdi dir='rtl' lang='he'>שבעה א׳</bdi>, sete objetos ou matérias de distinção mencionados na fórmula. Jastrow equipara a forma aramaica à hebraica <bdi dir='rtl' lang='he'>הַבְדָּלָה</bdi>."
+      }
+    },
+    {
+      "id": "A00043",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00043",
+        "lemma": "אַבְדָּן",
+        "type": "Nome próprio masculino",
+        "gloss": "Abdan",
+        "html": "<strong>Abdan</strong>, nome masculino interpretado por Jastrow como contração de <bdi lang='he' dir='rtl'>אבא יודן</bdi>; amoraíta da primeira geração (Jerusalém Berakhot 4, 7c; Berakhot 27b). Variante editorial: <bdi lang='he' dir='rtl'>אבידן</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00043",
+        "lemma": "אַבְדָּן",
+        "type": "Nome próprio masculino",
+        "gloss": "Abdan",
+        "html": "<strong>Abdan</strong>, nome masculino interpretado por Jastrow como contração de <bdi lang='he' dir='rtl'>אבא יודן</bdi>; amoraíta da primeira geração (Jerusalém Berakhot 4, 7c; Berakhot 27b). Variante editorial: <bdi lang='he' dir='rtl'>אבידן</bdi>. <strong>Complemento filológico:</strong> <strong>Aparato onomástico:</strong> para Berakhot 27b, manuscrito M. registra <bdi dir='rtl' lang='he'>אַבְדָּן</bdi>, ao passo que a edição lê <bdi dir='rtl' lang='he'>אבידן</bdi>; o autor compara Gênesis Rabá §10 além de Jerusalém Berakhot 4, 7c, parte inferior. A interpretação do nome como contração de <bdi dir='rtl' lang='he'>אבא יודן</bdi> é atribuída a Jastrow."
+      }
+    },
+    {
+      "id": "A00049",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00049",
+        "lemma": "אָבָה",
+        "type": "Remissão verbal",
+        "gloss": "ver אָבֵי",
+        "html": "Forma do verbo “querer, estar disposto”; ver <bdi lang='he' dir='rtl'>אָבֵי</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00049",
+        "lemma": "אָבָה",
+        "type": "Remissão verbal",
+        "gloss": "ver אָבֵי",
+        "html": "Remissão grafada <bdi lang='he' dir='rtl'>אבי</bdi>, sem sinais vocálicos, no texto original. O atributo <code>rid=\"A00107\"</code> do XML identifica o destino <bdi lang='he' dir='rtl'>אָבֵי, אָבָה</bdi>, «estar disposto, querer». A vocalização <bdi lang='he' dir='rtl'>אָבֵי</bdi> pertence ao cabeçalho efetivamente atestado no verbete-alvo, não a uma conjectura sobre a forma abreviada."
+      }
+    },
+    {
+      "id": "A00050",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00050",
+        "lemma": "אַבָּהוּ",
+        "type": "Nome próprio masculino",
+        "gloss": "Abbahu; nome de amoraítas",
+        "html": "<strong>Abbahu</strong>, nome de amoraítas na Palestina e na Babilônia. Na Palestina, um possivelmente da primeira geração; outro, célebre discípulo de Rabi Yohanan, residia em Cesareia (Jerusalém Berakhot 2, 4b; Sucá 48b). Há também um Abbahu, pai de Rabbah (Kidushin 33b), e outro contemporâneo de Rav Ashi (Bava Kamma 117b)."
+      },
+      "desired_new": {
+        "sid": "A00050",
+        "lemma": "אַבָּהוּ",
+        "type": "Nome próprio masculino",
+        "gloss": "Abbahu; nome de amoraítas",
+        "html": "<strong>Abbahu</strong>, nome de amoraítas na Palestina e na Babilônia. Na Palestina, um possivelmente da primeira geração; outro, célebre discípulo de Rabi Yohanan, residia em Cesareia (Jerusalém Berakhot 2, 4b; Sucá 48b). Há também um Abbahu, pai de Rabbah (Kidushin 33b), e outro contemporâneo de Rav Ashi (Bava Kamma 117b). <strong>Complemento filológico:</strong> <strong>Identificações distintas:</strong> não fundir os dois amoraítas palestinos chamados Abbahu: o primeiro, talvez da geração inicial, é referido em Jerusalém Berakhot 5, 8d (parte inferior) e Bikkurim 2, 64d (topo); o segundo é o conhecido discípulo de Rabi Yoḥanan sediado em Cesareia (Jerusalém Berakhot 2, 4b; Sucá 48b). A fonte menciona ainda amoraítas babilônicos homônimos: Shabbat 119b; Kidushin 33b (pai de Rabbah, remissão a <bdi dir='rtl' lang='he'>רַבָּה</bdi>); Bava Kamma 117b (contemporâneo de Rabi Ashi, remissão a <bdi dir='rtl' lang='he'>אַשֵׁי</bdi>)."
+      }
+    },
+    {
+      "id": "A00051",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00051",
+        "lemma": "אבהנוס,",
+        "type": "Leitura editorial",
+        "gloss": "ler אַמְבָּטִיס ou אִיפּוֹבַּטֵיס",
+        "html": "Jastrow considera a grafia <bdi lang='he' dir='rtl'>אבהנוס</bdi> de Jerusalém Kilayim 3, 31c duvidosa; recomenda <bdi lang='he' dir='rtl'>אַמְבָּטִיס</bdi> ou <bdi lang='he' dir='rtl'>אִיפּוֹבַּטֵיס</bdi> (grego <span lang='grc'>ἱπποβάτης</span>), “asno reprodutor para éguas”."
+      },
+      "desired_new": {
+        "sid": "A00051",
+        "lemma": "אבהנוס,",
+        "type": "Leitura editorial",
+        "gloss": "ler אַמְבָּטִיס ou אִיפּוֹבַּטֵיס",
+        "html": "Jastrow considera a grafia <bdi lang='he' dir='rtl'>אבהנוס</bdi> de Jerusalém Kilayim 3, 31c duvidosa; recomenda <bdi lang='he' dir='rtl'>אַמְבָּטִיס</bdi> ou <bdi lang='he' dir='rtl'>אִיפּוֹבַּטֵיס</bdi> (grego <span lang='grc'>ἱπποβάτης</span>), “asno reprodutor para éguas”. <strong>Nota de colação:</strong> A segunda forma do cabeçalho é אבהונוס. As grafias אַמְבָּטִיס ou אִיפּוֹבַּטֵיס são emendas recomendadas por Jastrow, não leituras de edição confirmadas."
+      }
+    },
+    {
+      "id": "A00054",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00054",
+        "lemma": "אִבּוּ,",
+        "type": "Nome próprio masculino",
+        "gloss": "Ibbu; Aibu",
+        "html": "<strong>Ibbu</strong> ou <strong>Aibu</strong>, provavelmente formas do mesmo nome de um amoraíta. Variantes <bdi lang='he' dir='rtl'>אבו, אי׳, איי׳</bdi>. Atestado em Sanhedrin 5a, Sucá 44b, Rute Rabá 2 e Jerusalém Sucá 2. Jastrow registra ainda que <bdi lang='he' dir='rtl'>אִבּוּ</bdi> designa uma ave noutro verbete."
+      },
+      "desired_new": {
+        "sid": "A00054",
+        "lemma": "אִבּוּ,",
+        "type": "Nome próprio masculino",
+        "gloss": "Ibbu; Aibu",
+        "html": "<strong>Ibbu</strong> ou <strong>Aibu</strong>, provavelmente formas do mesmo nome de um amoraíta. Variantes <bdi lang='he' dir='rtl'>אבו, אי׳, איי׳</bdi>. Atestado em Sanhedrin 5a, Sucá 44b, Rute Rabá 2 e Jerusalém Sucá 2. Jastrow registra ainda que <bdi lang='he' dir='rtl'>אִבּוּ</bdi> designa uma ave noutro verbete. <strong>Nota de colação:</strong> O XML registra também o cabeçalho alternativo (אַיְיבוּ) אִיבּוּ; o nome romanizado Aibu não substitui sua grafia original."
+      }
+    },
+    {
+      "id": "A00055",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00055",
+        "lemma": "אִיבּוּב אַבּוּב",
+        "type": "Substantivo masculino",
+        "gloss": "flauta; cano; tubo; instrumento de sopro",
+        "html": "Da ideia de cavidade: <strong>1.</strong> Cana, flauta, tubo ou conduto. <bdi lang='he' dir='rtl'>אבוב של קנה</bdi>, flauta de cana; <bdi lang='he' dir='rtl'>אבוב של נחושת</bdi>, flauta de bronze (Arakhin 2.3). <bdi lang='he' dir='rtl'>אבוב של קלאים</bdi>, tubo de ferro usado para assar grãos (Kelim 2.3; Menahot 10.4). <strong>2.</strong> <bdi lang='he' dir='rtl'>אבוב רועה</bdi>, “flauta de pastor”, nome de uma planta medicinal identificada pela fonte como <i>Eupatorium</i> (Shabbat 14.3; 109b)."
+      },
+      "desired_new": {
+        "sid": "A00055",
+        "lemma": "אִיבּוּב אַבּוּב",
+        "type": "Substantivo masculino",
+        "gloss": "flauta; cano; tubo; instrumento de sopro",
+        "html": "Da ideia de cavidade: <strong>1.</strong> Cana, flauta, tubo ou conduto. <bdi lang='he' dir='rtl'>אבוב של קנה</bdi>, flauta de cana; <bdi lang='he' dir='rtl'>אבוב של נחושת</bdi>, flauta de bronze (Arakhin 2.3). <bdi lang='he' dir='rtl'>אבוב של קלאים</bdi>, tubo de ferro usado para assar grãos (Kelim 2.3; Menahot 10.4). <strong>2.</strong> <bdi lang='he' dir='rtl'>אבוב רועה</bdi>, “flauta de pastor”, nome de uma planta medicinal identificada pela fonte como <i>Eupatorium</i> (Shabbat 14.3; 109b). <strong>Complemento filológico:</strong> <strong>Aparato e acepções:</strong> Jastrow propõe relação com <bdi dir='rtl' lang='he'>אנב, נבב</bdi>, «ser oco», e compara <bdi dir='rtl' lang='he'>בִּיב</bdi> I. A flauta de cana (<bdi dir='rtl' lang='he'>של קנה</bdi>) e a de metal (<bdi dir='rtl' lang='he'>של נחושת</bdi>) ocorrem em Arakhin 2.3. Para o tubo de ferro usado para torrar grãos (Kelim 2.3; Menahot 10.4), o <i>Arukh</i> traz <bdi dir='rtl' lang='he'>של קלאים</bdi> e a edição <bdi dir='rtl' lang='he'>קליות</bdi>. O fitônimo medicinal «flauta de pastor» (<bdi dir='rtl' lang='he'>א׳ רוֹעֶה</bdi>) tem variantes <bdi dir='rtl' lang='he'>אבובראה, אבוברואה</bdi> e é identificado por Jastrow como <i>Eupatorium</i> (Shabbat 14.3; 109b; Jerusalém Shabbat 14, 14c); cf. <bdi dir='rtl' lang='he'>חומטריא</bdi>."
+      }
+    },
+    {
+      "id": "A00056",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00056",
+        "lemma": "אַבּוּב,",
+        "type": "Substantivo aramaico",
+        "gloss": "flauta; tubo",
+        "html": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אַבּוּב</bdi>. Yoma 20b conserva um provérbio: a flauta agrada aos nobres, mas é desprezada pelos tecelões; pessoas ignorantes rejeitam aquilo que os sábios admiram. Plural <bdi lang='he' dir='rtl'>אַבּוּבִין</bdi> (Targum Jeremias 48.36; Sucá 50b)."
+      },
+      "desired_new": {
+        "sid": "A00056",
+        "lemma": "אַבּוּב,",
+        "type": "Substantivo aramaico",
+        "gloss": "flauta; tubo",
+        "html": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אַבּוּב</bdi>. Yoma 20b conserva um provérbio: a flauta agrada aos nobres, mas é desprezada pelos tecelões; pessoas ignorantes rejeitam aquilo que os sábios admiram. Plural <bdi lang='he' dir='rtl'>אַבּוּבִין</bdi> (Targum Jeremias 48.36; Sucá 50b). <strong>Nota de colação:</strong> Variante aramaica de cabeçalho אַבּוּבָא, além de אַבּוּב; plural אַבּוּבִין."
+      }
+    },
+    {
+      "id": "A00069",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00069",
+        "lemma": "אִבּוּל,",
+        "type": "Substantivo masculino II",
+        "gloss": "portal de carga; portão de carroças",
+        "html": "Segundo homógrafo <bdi lang='he' dir='rtl'>אִבּוּל / אִיבּוּל</bdi>, relacionado por Jastrow a <bdi lang='he' dir='rtl'>יבל</bdi>: passagem ou portão por onde grãos são levados à casa em carros. Plural <bdi lang='he' dir='rtl'>אִבּוּלִים</bdi>. Tosefta Bava Metzia 11.10 proíbe dividir portões comuns entre herdeiros se cada um não tiver espaço suficiente."
+      },
+      "desired_new": {
+        "sid": "A00069",
+        "lemma": "אִבּוּל,",
+        "type": "Substantivo masculino II",
+        "gloss": "portal de carga; portão de carroças",
+        "html": "Segundo homógrafo <bdi lang='he' dir='rtl'>אִבּוּל / אִיבּוּל</bdi>, relacionado por Jastrow a <bdi lang='he' dir='rtl'>יבל</bdi>: passagem ou portão por onde grãos são levados à casa em carros. Plural <bdi lang='he' dir='rtl'>אִבּוּלִים</bdi>. Tosefta Bava Metzia 11.10 proíbe dividir portões comuns entre herdeiros se cada um não tiver espaço suficiente. <strong>Complemento filológico:</strong> <strong>Flexão e variantes:</strong> o segundo homógrafo tem também forma <bdi dir='rtl' lang='he'>אִיבּוּל</bdi>; o plural é <bdi dir='rtl' lang='he'>אִבּוּלִים</bdi>, abreviado <bdi dir='rtl' lang='he'>אִיבּ׳</bdi>. Tosefta Bava Metzia 11.10: Zuckermandel imprime <bdi dir='rtl' lang='he'>אין חולקין את אי׳</bdi>, contra edição <bdi dir='rtl' lang='he'>הָאִבּ׳</bdi>; a regra trata da divisão de portões de carroças entre herdeiros, condicionada ao espaço necessário para cada parte. Não confundir com אִבּוּל I, «luto»."
+      }
+    },
+    {
+      "id": "A00070",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00070",
+        "lemma": "אִבּוּלָא,",
+        "type": "Substantivo aramaico",
+        "gloss": "portão da cidade; entrada fortificada",
+        "html": "Forma aramaica do precedente, <bdi lang='he' dir='rtl'>אִבּוּלָא / אִיבּוּלָא</bdi>: portão de entrada para carroças; especialmente portão urbano fortificado onde também se reuniam juízes. Moed Katan 22a: a contagem de dias de luto começa ao regressar do portão da cidade durante o funeral. Ketubot 17a e Meguilá 29a citam o caminho do portão ao sepultamento. Bava Batra 58a menciona inscrição acima da entrada onde funcionava o tribunal. Plural <bdi lang='he' dir='rtl'>אִבּוּלֵי</bdi> (Eruvin 6b; Yoma 11a). A edição do <i>Arukh</i> também registra interpretação “casa de luto”."
+      },
+      "desired_new": {
+        "sid": "A00070",
+        "lemma": "אִבּוּלָא,",
+        "type": "Substantivo aramaico",
+        "gloss": "portão da cidade; entrada fortificada",
+        "html": "Forma aramaica do precedente, <bdi lang='he' dir='rtl'>אִבּוּלָא / אִיבּוּלָא</bdi>: portão de entrada para carroças; especialmente portão urbano fortificado onde também se reuniam juízes. Moed Katan 22a: a contagem de dias de luto começa ao regressar do portão da cidade durante o funeral. Ketubot 17a e Meguilá 29a citam o caminho do portão ao sepultamento. Bava Batra 58a menciona inscrição acima da entrada onde funcionava o tribunal. Plural <bdi lang='he' dir='rtl'>אִבּוּלֵי</bdi> (Eruvin 6b; Yoma 11a). A edição do <i>Arukh</i> também registra interpretação “casa de luto”. <strong>Complemento filológico:</strong> <strong>Texto e testemunhos:</strong> Jastrow equipara a passagem ao hebraico <bdi dir='rtl' lang='he'>מבוא העיר</bdi> («acesso à cidade»). Em Moed Katan 22a a contagem do luto começa <bdi dir='rtl' lang='he'>מבבא דא׳</bdi>, quando os acompanhantes se afastam do acesso urbano; Ketubot 17a e Meguilá 29a delimitam uma passagem do portão ao sepultamento (<bdi dir='rtl' lang='he'>מא׳ ועד סיכרא</bdi>). O <i>Arukh</i> propõe alternativamente «casa de luto», relacionando à acepção de אִבּוּל I. Bava Batra 58a: manuscrito M. lê <bdi dir='rtl' lang='he'>אבבא דא׳</bdi> para o portal judicial, edição <bdi dir='rtl' lang='he'>בא׳</bdi>, tida por Jastrow como incorreta. Plural <bdi dir='rtl' lang='he'>אִבּוּלֵי</bdi>; cf. Eruvin 6b, Yoma 11a, Targum Pseudo-Jônatas Deuteronômio 28.52 (<bdi dir='rtl' lang='he'>אבוליכון</bdi>, edição de Viena <bdi dir='rtl' lang='he'>אכול׳</bdi>) e Targum Jeremias 50.26 (<bdi dir='rtl' lang='he'>אִיבּוּלָהָא</bdi>, contra o texto hebraico <bdi dir='rtl' lang='he'>מאבסיה</bdi>; ver Peshitta)."
+      }
+    },
+    {
+      "id": "A00071",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00071",
+        "lemma": "*אִבּוּלָאֵי",
+        "type": "Substantivo masculino plural",
+        "gloss": "guardas do portão; policiais",
+        "html": "De <bdi lang='he' dir='rtl'>אִבּוּלָא</bdi>, guardas ou agentes de vigilância do portão urbano. Nidá 67b alude a sua conduta grosseira; Rashi oferece uma explicação diferente, associada a entradas perigosas dos banhos."
+      },
+      "desired_new": {
+        "sid": "A00071",
+        "lemma": "*אִבּוּלָאֵי",
+        "type": "Substantivo masculino plural",
+        "gloss": "guardas do portão; policiais",
+        "html": "De <bdi lang='he' dir='rtl'>אִבּוּלָא</bdi>, guardas ou agentes de vigilância do portão urbano. Nidá 67b alude a sua conduta grosseira; Rashi oferece uma explicação diferente, associada a entradas perigosas dos banhos. <strong>Complemento filológico:</strong> <strong>Interpretação concorrente:</strong> Nidá 67b, <bdi dir='rtl' lang='he'>משום א׳</bdi>, é explicado por Jastrow como precaução diante da conduta grosseira dos guardas/policiais dos portões. Rashi, porém, relaciona a expressão a <bdi dir='rtl' lang='he'>אבולי</bdi>, entradas perigosas e semelhantes a cavernas para a casa de banhos. Essas explicações não são variantes semânticas comprovadamente equivalentes."
+      }
+    },
+    {
+      "id": "A00074",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00074",
+        "lemma": "(אבין) אַבּוּן",
+        "type": "Nome próprio masculino",
+        "gloss": "Abbun; amoraíta",
+        "html": "<strong>Abbun</strong>, nome de um amoraíta, também grafado <bdi lang='he' dir='rtl'>אבין</bdi>; aparece em Jerusalém Pesahim 4, Jerusalém Ta‘anit 1 e Jerusalém Shevuot 6. Ver também <bdi lang='he' dir='rtl'>בּוּן</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00074",
+        "lemma": "(אבין) אַבּוּן",
+        "type": "Nome próprio masculino",
+        "gloss": "Abbun; amoraíta",
+        "html": "<strong>Abbun</strong>, nome de um amoraíta, também grafado <bdi lang='he' dir='rtl'>אבין</bdi>; aparece em Jerusalém Pesahim 4, Jerusalém Ta‘anit 1 e Jerusalém Shevuot 6. Ver também <bdi lang='he' dir='rtl'>בּוּן</bdi>. <strong>Complemento filológico:</strong> <strong>Variantes de atribuição:</strong> Jerusalém Pesahim 4, início, 30c–d, transmite <bdi dir='rtl' lang='he'>ר׳ אל׳ בשם ר׳ אבין</bdi> e também <bdi dir='rtl' lang='he'>ר׳ א׳ בשם ר׳ אל׳</bdi>, que devem ser tratadas como fórmulas textuais distintas de atribuição. A fonte cita Jerusalém Ta‘anit 1, 64c e Shevuot 6, 37a (parte inferior), além de remeter a <bdi dir='rtl' lang='he'>בּוּן</bdi>. O cabeçalho secundário <bdi dir='rtl' lang='he'>אבין</bdi> não é eliminado."
+      }
+    },
+    {
+      "id": "A00077",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00077",
+        "lemma": "אֵבוּס,",
+        "type": "Substantivo masculino",
+        "gloss": "cocho; manjedoura; estrebaria",
+        "html": "<strong>1.</strong> Recipiente para alimentar animais ou trabalhadores, cocho, manjedoura (Nedarim 4.4). Shabbat 140b distingue <bdi lang='he' dir='rtl'>איבוס של כלי</bdi>, manjedoura como recipiente, de <bdi lang='he' dir='rtl'>איבוס של קרקע</bdi>, área de solo cercada usada para alimentar animais. <strong>2.</strong> Baia, estábulo, estrebaria (Jerusalém Shevuot 7–8). Plural <bdi lang='he' dir='rtl'>אֵבוּסִים</bdi> (Jerusalém Sanhedrin 63b). Há variantes e remissão a <bdi lang='he' dir='rtl'>אֵיפוּס</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00077",
+        "lemma": "אֵבוּס,",
+        "type": "Substantivo masculino",
+        "gloss": "cocho; manjedoura; estrebaria",
+        "html": "<strong>1.</strong> Recipiente para alimentar animais ou trabalhadores, cocho, manjedoura (Nedarim 4.4). Shabbat 140b distingue <bdi lang='he' dir='rtl'>איבוס של כלי</bdi>, manjedoura como recipiente, de <bdi lang='he' dir='rtl'>איבוס של קרקע</bdi>, área de solo cercada usada para alimentar animais. <strong>2.</strong> Baia, estábulo, estrebaria (Jerusalém Shevuot 7–8). Plural <bdi lang='he' dir='rtl'>אֵבוּסִים</bdi> (Jerusalém Sanhedrin 63b). Há variantes e remissão a <bdi lang='he' dir='rtl'>אֵיפוּס</bdi>. <strong>Nota de colação:</strong> O segundo cabeçalho, marcado como duvidoso, é (?אִיבּוּס) אֵיבוּס. Não remover sua marca de dúvida."
+      }
+    },
+    {
+      "id": "A00079",
+      "module": "lexicons/jastrow-041-080.js",
+      "expected_old": {
+        "sid": "A00079",
+        "lemma": "אֲבוּקָה",
+        "type": "Substantivo feminino",
+        "gloss": "tocha; archote",
+        "html": "Provavelmente originado, segundo a análise etimológica da fonte, de feixe de ramos. Tocha ou archote, com ou sem fogo aceso expresso na construção <bdi lang='he' dir='rtl'>של אור</bdi>. Sotá 21a: “uma tocha acesa chegou-lhe às mãos”; Berakhot 43b: caminhar à luz da tocha equivaleria à proteção de duas pessoas. Plural <bdi lang='he' dir='rtl'>אֲבוּקוֹת</bdi>: tochas usadas nas danças da festa (Tosefta Sucá 4.2–4; Sucá 53a)."
+      },
+      "desired_new": {
+        "sid": "A00079",
+        "lemma": "אֲבוּקָה",
+        "type": "Substantivo feminino",
+        "gloss": "tocha; archote",
+        "html": "Provavelmente originado, segundo a análise etimológica da fonte, de feixe de ramos. Tocha ou archote, com ou sem fogo aceso expresso na construção <bdi lang='he' dir='rtl'>של אור</bdi>. Sotá 21a: “uma tocha acesa chegou-lhe às mãos”; Berakhot 43b: caminhar à luz da tocha equivaleria à proteção de duas pessoas. Plural <bdi lang='he' dir='rtl'>אֲבוּקוֹת</bdi>: tochas usadas nas danças da festa (Tosefta Sucá 4.2–4; Sucá 53a). <strong>Nota de colação:</strong> Jerusalém Sucá 5, 55c: emenda possível זֶפֶת contra זהב. Notas etimológicas: Sachs, Beiträge I, p. 62; Nahmânides a Gênesis 32.25."
+      }
+    },
+    {
+      "id": "A00080",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00080",
+        "lemma": "*אַבּוּרְגְּנָא,",
+        "type": "Substantivo masculino",
+        "gloss": "cobertor de cama; revestimento",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אַבּוּרְגְּנָא, אַבְּרוּגְנָא</bdi>; a fonte propõe origem em expressão palestinense importada e alterada na Babilônia. Cobertura ou revestimento de cama. Plural <bdi lang='he' dir='rtl'>אַבּוּרְגְּנֵי</bdi>. Eruvin 62a descreve a validade do aluguel de pátio vinculado ao direito de colocar ali assentos e coberturas; Jastrow examina diferentes emendas possíveis à leitura tradicional."
+      },
+      "desired_new": {
+        "sid": "A00080",
+        "lemma": "*אַבּוּרְגְּנָא,",
+        "type": "Substantivo masculino",
+        "gloss": "cobertor de cama; revestimento",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אַבּוּרְגְּנָא, אַבְּרוּגְנָא</bdi>; a fonte propõe origem em expressão palestinense importada e alterada na Babilônia. Cobertura ou revestimento de cama. Plural <bdi lang='he' dir='rtl'>אַבּוּרְגְּנֵי</bdi>. Eruvin 62a descreve a validade do aluguel de pátio vinculado ao direito de colocar ali cadeiras e assentos; Jastrow examina diferentes emendas possíveis à leitura tradicional. <strong>Complemento filológico:</strong> <strong>Variantes, empréstimo e interpretação:</strong> o plural é <bdi dir='rtl' lang='he'>אַבּוּרְגְּנֵי</bdi>, também abreviado <bdi dir='rtl' lang='he'>אַבְּרוּ׳</bdi>. A relação com <bdi dir='rtl' lang='he'>אִמְבּוּרְקְלוֹן</bdi> e com frase palestina importada e deformada na Babilônia é análise proposta por Jastrow, não empréstimo demonstrado. Eruvin 62a: <bdi dir='rtl' lang='he'>בריאה במוהרקי וא׳</bdi>, aluguel juridicamente eficaz quando acompanhado do direito de colocar cadeiras e assentos no pátio. Para <bdi dir='rtl' lang='he'>מוהרקי</bdi>, o autor propõe corrupção de <bdi dir='rtl' lang='he'>גוהרקי</bdi> ou <bdi dir='rtl' lang='he'>גלופקרי</bdi> e compara <bdi dir='rtl' lang='he'>גמורקין</bdi>; há interpretações concorrentes sugeridas pelo vocábulo transmitido, cf. o lema correspondente. A comparação de Rashi com a Mishná não é prova de uma forma original única."
+      }
+    },
+    {
+      "id": "A00083",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00083",
+        "lemma": "אַבְזָקַת,",
+        "type": "Substantivo feminino",
+        "gloss": "esfarelamento; corrosão; doença dos pés",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אַבְזָקָא, אַבְזָקָה</bdi>; da raiz <bdi lang='he' dir='rtl'>בזק</bdi>: fragmentação, corrosão. <strong>1.</strong> Doença dos cascos ou pés de animais, atribuída na tradição a vermes depois de raio; atrofia ou paralisia dos pés. <strong>2.</strong> Estado de roupa corroída por traças. Bava Metzia 78b aplica o termo aos pés e a tecidos do vestuário real; a fonte menciona variantes e a explicação de Rashi."
+      },
+      "desired_new": {
+        "sid": "A00083",
+        "lemma": "אַבְזָקַת,",
+        "type": "Substantivo feminino",
+        "gloss": "esfarelamento; corrosão; doença dos pés",
+        "html": "Formas <bdi lang='he' dir='rtl'>אַבְזָקַת, אַבְזָקָא, אַבְזָקָה</bdi>, substantivo feminino da raiz <bdi lang='he' dir='rtl'>בזק</bdi>; ideia de fragmentação, esfarelamento e corrosão. <strong>1.</strong> Doença dos <strong>pés</strong> de animais que, segundo a explicação tradicional registrada por Jastrow, seria causada por vermes após a queda de um raio; o autor menciona atrofia ou paralisia dos pés. A especificação «cascos» não se encontra na definição inglesa. <strong>2.</strong> Condição de vestes comidas por traças. <strong>Aparato:</strong> Bava Metzia 78b registra <bdi lang='he' dir='rtl'>אבזקת</bdi> para explicar <bdi lang='he' dir='rtl'>הבריקה</bdi> na Mishná; Rashi traz <bdi lang='he' dir='rtl'>אבזקא</bdi>; manuscrito M., <bdi lang='he' dir='rtl'>אבוק</bdi>, com correção editorial proposta de ו para ז. Comparar Jerusalém Bava Metzia 6, 11a; na passagem sobre vestuário real, Jastrow menciona traças na rouparia."
+      }
+    },
+    {
+      "id": "A00084",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00084",
+        "lemma": "אֲבִזְרָא,",
+        "type": "Substantivo masculino",
+        "gloss": "tempero; especiarias; acessórios",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אֲבִזְרָא, אֲבִיזְרָא</bdi>; plural <bdi lang='he' dir='rtl'>אֲבִזְרֵי, אֲבִיזְרֵי</bdi>. <strong>1.</strong> Especiarias, ingredientes usados para temperar. <strong>2.</strong> Figurado: requisitos, acessórios, elementos concomitantes. Sanhedrin 74b: “eles (os mandamentos) e tudo que lhes diz respeito”; Menahot 73b: o holocausto e seus elementos acessórios. Jastrow compara termos árabes <i>bazr</i> e <i>abzār</i>."
+      },
+      "desired_new": {
+        "sid": "A00084",
+        "lemma": "אֲבִזְרָא,",
+        "type": "Substantivo masculino",
+        "gloss": "tempero; especiarias; acessórios",
+        "html": "Variantes <bdi lang='he' dir='rtl'>אֲבִזְרָא, אֲבִיזְרָא</bdi>; plural <bdi lang='he' dir='rtl'>אֲבִזְרֵי, אֲבִיזְרֵי</bdi>. <strong>1.</strong> Especiarias, ingredientes usados para temperar. <strong>2.</strong> Figurado: requisitos, acessórios, elementos concomitantes. Sanhedrin 74b: “eles (os mandamentos) e tudo que lhes diz respeito”; Menahot 73b: o holocausto e seus elementos acessórios. Jastrow compara termos árabes <i>bazr</i> e <i>abzār</i>. <strong>Complemento filológico:</strong> <strong>Aparato de Menahot:</strong> além de Sanhedrin 74b (<bdi dir='rtl' lang='he'>אינהו וכל אבזרייהו</bdi>, «eles e tudo que lhes é acessório»), Menahot 73b traz <bdi dir='rtl' lang='he'>עולה וכל אֲבִיזְרָהָא</bdi> no <i>Arukh</i> e em Rashi a Sanhedrin, contra leitura editorial <bdi dir='rtl' lang='he'>חבירתא</bdi>, para a qual Jastrow recomenda correção contextual. O paralelo árabe <i>bazr, abzār</i> é comparação proposta pelo autor, não prova de uma origem linguística única. Preservam-se singular <bdi dir='rtl' lang='he'>אֲבִזְרָא, אֲבִיזְרָא</bdi> e plural <bdi dir='rtl' lang='he'>אֲבִזְרֵי, אֲבִיזְרֵי</bdi>."
+      }
+    },
+    {
+      "id": "A00087",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00087",
+        "lemma": "*אַבְטָא",
+        "type": "Substantivo masculino",
+        "gloss": "ventre; odre de couro",
+        "html": "Da ideia de barriga ou ventre, por extensão designa odre de couro para vinho. Avodah Zarah 34b: <bdi lang='he' dir='rtl'>אבטא דטייעי</bdi>, odre de vinho de viajantes. A fonte registra comparação com outras raízes e variante de leitura aramaica."
+      },
+      "desired_new": {
+        "sid": "A00087",
+        "lemma": "*אַבְטָא",
+        "type": "Substantivo masculino",
+        "gloss": "ventre; odre de couro",
+        "html": "Da ideia de barriga ou ventre, por extensão designa odre de couro para vinho. Avodah Zarah 34b: <bdi lang='he' dir='rtl'>אבטא דטייעי</bdi>, odre de vinho de viajantes. A fonte registra comparação com outras raízes e variante de leitura aramaica. <strong>Complemento filológico:</strong> <strong>Distinções textuais:</strong> no sentido primeiro «ventre, barriga», Jastrow compara as raízes <bdi dir='rtl' lang='he'>בט, בוט, בוץ, בטט</bdi>; por metonímia, «odre de vinho de couro». Avodah Zarah 34b traz <bdi dir='rtl' lang='he'>א׳ דטייעי</bdi>, na tradição do <i>Arukh</i> <bdi dir='rtl' lang='he'>אכטא</bdi>, odre usado por viajantes. Jerusalém Yevamot 4, 5d remete, em contraste, a <bdi dir='rtl' lang='he'>אֶפְטָא</bdi>; para <bdi dir='rtl' lang='he'>אבטאות</bdi>, cf. <bdi dir='rtl' lang='he'>אַבְּטִי</bdi>. Não fundir essas remissões em uma única forma comprovada."
+      }
+    },
+    {
+      "id": "A00090",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00090",
+        "lemma": "אַבְטוֹלְמוֹס",
+        "type": "Nome próprio masculino",
+        "gloss": "Abtolmos",
+        "html": "<strong>Abtolmos</strong>, antropônimo talvez relacionado ao grego <span lang='grc'>Πτολεμαῖος</span> ou <span lang='grc'>Εὐπτόλεμος / Εὐπόλεμος</span>; as etimologias são hipóteses da fonte. Aparece em Eruvin 3.4 (35a–36a), Jerusalém Eruvin 21a e Êxodo Rabá 21. Moed Katan 18a cita variante abreviada <bdi lang='he' dir='rtl'>אֲבִיטוּל</bdi>, um amoraíta apelidado <bdi lang='he' dir='rtl'>ספראה</bdi> (“o escriba”)."
+      },
+      "desired_new": {
+        "sid": "A00090",
+        "lemma": "אַבְטוֹלְמוֹס",
+        "type": "Nome próprio masculino",
+        "gloss": "Abtolmos",
+        "html": "<strong>Abtolmos</strong>, antropônimo talvez relacionado ao grego <span lang='grc'>Πτολεμαῖος</span> ou <span lang='grc'>Εὐπτόλεμος / Εὐπόλεμος</span>; as etimologias são hipóteses da fonte. Aparece em Eruvin 3.4 (35a–36a), Jerusalém Eruvin 21a e Êxodo Rabá 21. Moed Katan 18a cita variante abreviada <bdi lang='he' dir='rtl'>אֲבִיטוּל</bdi>, um amoraíta apelidado <bdi lang='he' dir='rtl'>ספראה</bdi> (“o escriba”). <strong>Complemento filológico:</strong> <strong>Testemunhos onomásticos:</strong> Eruvin 3.4 (35a) na edição registra <bdi dir='rtl' lang='he'>אַבְטוֹלְמוֹס</bdi>; manuscrito M. tem <bdi dir='rtl' lang='he'>אבטולס</bdi>. Jerusalém Eruvin 21a transmite <bdi dir='rtl' lang='he'>אבטילס</bdi>, e Êxodo Rabá §21 contrapõe <bdi dir='rtl' lang='he'>אבטלוס</bdi> a <bdi dir='rtl' lang='he'>אבטוליס</bdi>. Moed Katan 18a registra <bdi dir='rtl' lang='he'>אֲבִיטוּל</bdi>, provavelmente abreviado segundo Jastrow, amoraíta apelidado <bdi dir='rtl' lang='he'>ספראה</bdi>, «o escriba»; ver Rabbinovicz à passagem. A origem de <i>Πτολεμαῖος</i> ou <i>Εὐπτόλεμος/Εὐπόλεμος</i> continua hipotética."
+      }
+    },
+    {
+      "id": "A00091",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00091",
+        "lemma": "אַבְטוֹמְטוֹס",
+        "type": "Adjetivo ou substantivo masculino",
+        "gloss": "automático; espontâneo; por acaso",
+        "html": "Empréstimo do grego <span lang='grc'>αὐτόματος</span>: que se move por si, que cresce espontaneamente, automático. Midrax dos Salmos 1.5 alude aos que afirmam que o universo se move por si e não tem Criador. Jastrow propõe como leitura alternativa <bdi lang='he' dir='rtl'>אַבְטוֹמְטוֹן</bdi> (grego <span lang='grc'>αὐτόματον</span>), “acaso”."
+      },
+      "desired_new": {
+        "sid": "A00091",
+        "lemma": "אַבְטוֹמְטוֹס",
+        "type": "Adjetivo ou substantivo masculino",
+        "gloss": "automático; espontâneo; por acaso",
+        "html": "Empréstimo do grego <span lang='grc'>αὐτόματος</span>: que se move por si, que cresce espontaneamente, automático. Midrax dos Salmos 1.5 alude aos que afirmam que o universo se move por si e não tem Criador. Jastrow propõe como leitura alternativa <bdi lang='he' dir='rtl'>אַבְטוֹמְטוֹן</bdi> (grego <span lang='grc'>αὐτόματον</span>), “acaso”. <strong>Complemento filológico:</strong> <strong>Crítica da leitura grega:</strong> o <i>Musaf</i> à passagem de Midraxe dos Salmos 1, 5 lê <bdi dir='rtl' lang='he'>אבטומטוס</bdi>, contra a edição <bdi dir='rtl' lang='he'>טומטום</bdi>, que Jastrow considera sujeita a correção. Como alternativa que julga melhor, ele propõe <bdi dir='rtl' lang='he'>אַבְטוֹמְטוֹן</bdi>, do grego neutro <span lang='grc'>αὐτόματον</span> («acaso»), distinto do adjetivo <span lang='grc'>αὐτόματος</span>, «que ocorre por si». A discussão filosófica sobre um mundo supostamente sem criador representa explicação contextual da passagem, não uma segunda acepção atestada da palavra."
+      }
+    },
+    {
+      "id": "A00092",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00092",
+        "lemma": "*אַבְטוֹנִיּוֹת",
+        "type": "Substantivo feminino plural",
+        "gloss": "cidades autônomas; jurisdições próprias",
+        "html": "Forma derivada de <span lang='grc'>αὐτονομία</span>, autonomia: cidades que possuem leis ou jurisdição próprias. Jerusalém Meguilá 1, 70a; Jerusalém Bava Batra 3, 14a; Bekhorot 55a. Jastrow identifica variantes corrompidas e sugere, num exemplo, o feminino <bdi lang='he' dir='rtl'>שתי</bdi> em lugar de <bdi lang='he' dir='rtl'>שני</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00092",
+        "lemma": "*אַבְטוֹנִיּוֹת",
+        "type": "Substantivo feminino plural",
+        "gloss": "cidades autônomas; jurisdições próprias",
+        "html": "Forma derivada de <span lang='grc'>αὐτονομία</span>, autonomia: cidades que possuem leis ou jurisdição próprias. Jerusalém Meguilá 1, 70a; Jerusalém Bava Batra 3, 14a; Bekhorot 55a. Jastrow identifica variantes corrompidas e sugere, num exemplo, o feminino <bdi lang='he' dir='rtl'>שתי</bdi> em lugar de <bdi lang='he' dir='rtl'>שני</bdi>. <strong>Complemento filológico:</strong> <strong>Formas, citações e grau de certeza:</strong> Jastrow equipara <bdi dir='rtl' lang='he'>אַבְטוֹנִיּוֹת</bdi> a <bdi dir='rtl' lang='he'>אַבְטוֹנוֹמִיּוֹת</bdi> e ao grego <span lang='grc'>αὐτονομία</span> para cidades com suas próprias leis ou jurisdições. Jerusalém Meguilá 1, 70a, parte inferior, imprime <bdi dir='rtl' lang='he'>שני א׳</bdi>, cujo numeral deve ser feminino <bdi dir='rtl' lang='he'>שתי</bdi>, como emenda de Jastrow; Jerusalém Bava Batra 3, 14a apresenta forma abreviada <bdi dir='rtl' lang='he'>אבטנ׳</bdi>. Bekhorot 55a, edição, traz <bdi dir='rtl' lang='he'>שני אבטילאות</bdi>, que Jastrow recomenda corrigir; o <i>Arukh</i> registra <bdi dir='rtl' lang='he'>אבטלאות, אבטליות</bdi>. O autor compara corrupções gráficas de <bdi dir='rtl' lang='he'>אַגְרוֹנִימוֹס</bdi>; não equiparar essas duas famílias de vocábulos sem demonstração."
+      }
+    },
+    {
+      "id": "A00094",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00094",
+        "lemma": "אַבְטָחָה",
+        "type": "Substantivo feminino",
+        "gloss": "promessa; garantia",
+        "html": "Forma equivalente a <bdi lang='he' dir='rtl'>הַבְטָחָה</bdi>: promessa, garantia ou ato de assegurar; o verbete original consiste apenas nessa equivalência."
+      },
+      "desired_new": {
+        "sid": "A00094",
+        "lemma": "אַבְטָחָה",
+        "type": "Substantivo feminino",
+        "gloss": "promessa; garantia",
+        "html": "Forma equivalente a <bdi lang='he' dir='rtl'>הַבְטָחָה</bdi>: promessa, garantia ou ato de assegurar; o verbete original consiste apenas nessa equivalência. <strong>Complemento filológico:</strong> <strong>Limite da entrada original:</strong> o próprio Jastrow registra apenas a equivalência <bdi dir='rtl' lang='he'>אַבְטָחָה = הַבְטָחָה</bdi>, sem citar texto nem desenvolver acepções. A explicação portuguesa «promessa, garantia» decorre do significado da forma hebraica à qual o autor remete, e não de atestação separada apresentada nesta entrada. Preservar a natureza remissiva do verbete."
+      }
+    },
+    {
+      "id": "A00097",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00097",
+        "lemma": "*אבטיגא",
+        "type": "Leitura editorial",
+        "gloss": "toga romana; leitura proposta",
+        "html": "Grafia marcada como conjectural. Em Sifré Deuteronômio 80, Jastrow propõe ler <bdi lang='he' dir='rtl'>טוֹגָא</bdi> (<i>toga</i>, latim) ou <bdi lang='he' dir='rtl'>טִיבִינָּא</bdi> (grego <span lang='grc'>τηβέννα</span>): toga, vestimenta romana. A variante manuscrita indicada é <bdi lang='he' dir='rtl'>חגה</bdi>."
+      },
+      "desired_new": {
+        "sid": "A00097",
+        "lemma": "*אבטיגא",
+        "type": "Leitura editorial",
+        "gloss": "toga romana; leitura proposta",
+        "html": "O asterisco pertence à marcação da entrada; as emendas explícitas de Jastrow são טוֹגָא e טִיבִינָּא. Não inferir do asterisco uma proposta específica de leitura. Em Sifré Deuteronômio 80, Jastrow propõe ler <bdi lang='he' dir='rtl'>טוֹגָא</bdi> (<i>toga</i>, latim) ou <bdi lang='he' dir='rtl'>טִיבִינָּא</bdi> (grego <span lang='grc'>τηβέννα</span>): toga, vestimenta romana. A variante manuscrita indicada é <bdi lang='he' dir='rtl'>חגה</bdi>."
+      }
+    },
+    {
+      "id": "A00098",
+      "module": "lexicons/jastrow-081-110.js",
+      "expected_old": {
+        "sid": "A00098",
+        "lemma": "*אָבְטְיוֹנָא",
+        "type": "Substantivo masculino",
+        "gloss": "oficial romano; intendente; quartel-mestre",
+        "html": "Empréstimo do grego <span lang='grc'>ὀπτίων</span> / latim <i>optio</i>: oficial com funções auxiliares ou de intendência no exército romano. Jerusalém Shabbat 6, 8c narra que um oficial romano chegou e o fez ficar atrás dele numa latrina pública."
+      },
+      "desired_new": {
+        "sid": "A00098",
+        "lemma": "*אָבְטְיוֹנָא",
+        "type": "Substantivo masculino",
+        "gloss": "oficial romano; intendente; quartel-mestre",
+        "html": "Empréstimo do grego <span lang='grc'>ὀπτίων</span> / latim <i>optio</i>: oficial com funções auxiliares ou de intendência no exército romano. Jerusalém Shabbat 6, 8c narra que um oficial romano chegou e o fez ficar atrás dele numa latrina pública. <strong>Complemento filológico:</strong> <strong>Referências técnicas:</strong> além de Jerusalém Shabbat 6, 8c (parte inferior), Jastrow indica Perl., <i>Et. St.</i>, p. 103, e Du Cange, léxico latino, s.v. para a relação com <span lang='grc'>ὀπτίων</span> e latim <i>optio</i>. A definição «comissário; encarregado do aprovisionamento no exército romano» é equivalência funcional atribuída à fonte, não identificação comprovada de posto moderno."
+      }
+    }
+  ]
+}
