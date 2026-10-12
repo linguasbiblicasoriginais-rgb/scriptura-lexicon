@@ -1,8 +1,8 @@
-
 ================================================================================
-NORMA FILOLÓGICA ÚNICA — 11/10/2026 — PRECEDÊNCIA METODOLÓGICA
+REGRA CANÔNICA SUPERIOR — AUDITORIA ATÔMICA DE VERBETES (11/10/2026)
 ================================================================================
-A partir de 11/10/2026, a auditoria FILOLÓGICA de cada verbete é ÚNICA e completa na execução solicitada; abolidas fases obrigatórias separadas "preliminar" e "exaustiva". Aplicar regras/Rauditoria-filologica.txt em conjunto com esta norma de fonte. Resultado A (aprovado), C (corrigido e validado) ou P (pendência específica fundamentada); P não gera segunda auditoria geral e não equivale a aprovação. Lotes históricos não são recertificados retroativamente; preservar evidências, corrigir somente questões particulares demonstradas. Incorporação, auditoria textual/estrutural e integração continuam procedimentos distintos; não modificar main. Esta instrução mais recente prevalece sobre trechos cronológicos anteriores que indiquem duas passagens filológicas obrigatórias.
+Em substituição ao uso histórico de “auditoria” como simples avaliação/relatório, toda auditoria de um verbete passa a incluir a verificação exaustiva da fonte, todas as correções fundamentadas, revalidação textual e filológica, testes estruturais e funcionais pertinentes, registros e integração comprovada. Ler OBRIGATORIAMENTE regras/Rauditoria.txt e preencher ficha individual conforme regras/modelo-auditoria-atomica.json. Um achado sem correção ou um teste não executado deixa o verbete EM_EXECUCAO ou BLOQUEADA, não AUDITORIA_CONCLUIDA. Uma correção publicada sem merge verificado é AGUARDANDO_INTEGRACAO. Somente evidência por artigo e merge efetivo permite contar como auditado. “Triagem estática 3300/3300” não se transforma, por esta norma, em “3300 auditorias concluídas”.
+A rotina de correções permanece autorizada a escrever SOMENTE em chat-gpt-correcoes; a integração é responsabilidade do integrador, não desta rotina. Nenhuma permissão de branch, agendamento ou custeio foi ampliada. Preservar todos os relatórios históricos e as correções comprovadas já feitas, sem reclassificá-los retroativamente.
 ================================================================================
 
 RCORRECOES — PROTOCOLO DE AUDITORIA E CORRECOES DO SCRIPTURA LEXICON
@@ -163,11 +163,21 @@ Confronto dirigido em 590 módulos editoriais A00010–A00599 contra XML Sefaria
 ================================================================================
 
 ================================================================================
+ADENDO DOCUMENTAL DA BRANCH DE CORREÇÕES — PR #115 (12/10/2026)
+Registros de origem incorporados como histórico. Em caso de conflito, prevalecem as normas superiores já consolidadas, sem declarar auditoria integral não certificada. Menções a integração pendente são fotografias históricas.
+================================================================================
+
+================================================================================
+NORMA FILOLÓGICA ÚNICA — 11/10/2026 — PRECEDÊNCIA METODOLÓGICA
+================================================================================
+A partir de 11/10/2026, a auditoria FILOLÓGICA de cada verbete é ÚNICA e completa na execução solicitada; abolidas fases obrigatórias separadas "preliminar" e "exaustiva". Aplicar regras/Rauditoria-filologica.txt em conjunto com esta norma de fonte. Resultado A (aprovado), C (corrigido e validado) ou P (pendência específica fundamentada); P não gera segunda auditoria geral e não equivale a aprovação. Lotes históricos não são recertificados retroativamente; preservar evidências, corrigir somente questões particulares demonstradas. Incorporação, auditoria textual/estrutural e integração continuam procedimentos distintos; não modificar main. Esta instrução mais recente prevalece sobre trechos cronológicos anteriores que indiquem duas passagens filológicas obrigatórias.
+================================================================================
+
+================================================================================
 DGP — AUDITORIA FILOLÓGICA INDEPENDENTE, 100 VERBETES 41–140 (11/10/2026)
 ================================================================================
 Relatório auditorias/dgp-filologia-2026-10-11-lote003-0041-0140.md e evidência auditorias/dgp-filologia-2026-10-11-lote003-evidencias.json. Todos os 100 ordinais auditados em primeira passagem individual, 20 com referência externa dirigida e 80 internamente, sem homologação de todas as atestações. Acumulado 140/3300, próximo 141; total incorporado permanece 3300. Colação estática: pares 100/100, zero órfãos, duas divergências antigas de lemas #95/#124 e 25 pesquisas incompletas na branch lexical, todos já reparados na branch chat-gpt-correcoes. Nenhuma modificação lexical nesta rodada; dúvidas etimológicas, variantes dialetais, semânticas e bíblicas registradas com procedência. Não mexer no DGP canônico, main ou integrador neste processo. Ao fim: tabela de seis dicionários com Incorporação, Auditoria textual/estrutural, Auditoria filológica, Integração e Total incorporado, separando ✓, ◐ e —.
 ================================================================================
-
 
 ================================================================================
 JASTROW — AUDITORIA FILOLÓGICA INDIVIDUAL DE 100 VERBETES, 11/10/2026
@@ -175,13 +185,11 @@ JASTROW — AUDITORIA FILOLÓGICA INDIVIDUAL DE 100 VERBETES, 11/10/2026
 Confrontadas as 100 entradas A00000–A00099 do XML Sefaria com cartões integrados. Categorias: S=76 sem divergência central detectada (NÃO equivale a certificação integral); O=17 omissões/abreviação de documentação; E=3 erros editoriais/remissivos confirmados; V=4 dependentes de verificação. Relatório: auditoria/JASTROW-2026-10-11-filologia-lote001-A00000-A00099.md; matriz e checkpoint: auditoria/jastrow-filologia-progresso.json. Principais erros: A00057 (destino correto A00055), A00080 (cadeiras e assentos vs coberturas), A00091 (glosa “por acaso” pertence à emenda alternativa). Nenhum verbete alterado; total_audited=0 pela norma estrita de tradução e documentação integral. Próximo intervalo: A00100–A00199. Persistência exclusiva na branch chat-gpt-correcoes.
 ================================================================================
 
-
 ================================================================================
 JASTROW — AUDITORIA FILOLÓGICA LOTE 002, A00100–A00199 (11/10/2026)
 ================================================================================
 100/100 confrontos individuais Fonte XML/Tradução; S=82, O=17, E=1, V=0, nove intervenções mínimas somente na branch chat-gpt-correcoes, erro A00165 corrigido com variantes reais. Acumulado 200 registros examinados em primeira passagem; nenhum certificado integral, total_audited=0. Relatório auditoria/JASTROW-2026-10-11-filologia-lote002-A00100-A00199.md; checkpoint auditoria/jastrow-filologia-progresso.json. Relatório do lote 001 corrigido exclusivamente quanto à formatação da tabela. Próximo A00200–A00299. PR e integração são etapas separadas, main nunca alterada.
 ================================================================================
-
 
 ================================================================================
 JASTROW — LOTE 003 DA AUDITORIA FILOLÓGICA, A00200–A00299 (11/10/2026)
@@ -189,13 +197,11 @@ JASTROW — LOTE 003 DA AUDITORIA FILOLÓGICA, A00200–A00299 (11/10/2026)
 Confrontados individualmente 100 registros da fonte XML Sefaria-Data com a redação portuguesa. S=84, O=9, E=5, V=2. Correções mínimas em 9 registros: A00200, A00202, A00204, A00207, A00214, A00247, A00278, A00282, A00286; nenhum dado-fonte inventado ou modificado. Alertas A00271/A00284 requerem consulta ao impresso. Checkpoint 300/600, próximo A00300, homologação integral 0/600. Relatório auditoria/JASTROW-2026-10-11-filologia-lote003-A00200-A00299.md; checkpoint auditoria/jastrow-filologia-progresso.json. Nova obrigação: em TODA tabela final de TODOS os dicionários, anexar quantidade numerador/denominador em qualquer ◐ (parcial), distinguindo auditoria estrutural, filológica inicial, lemas apenas, integração e entradas preliminares; sem número verificável registrar ◐ quantidade não comprovada, nunca inventar. Tabela geral incorporada ao relatório do lote 003. Exclusividade da branch chat-gpt-correcoes, nunca main.
 ================================================================================
 
-
 ================================================================================
 JASTROW — QUARTO LOTE FILOLÓGICO, A00300–A00399 (11/10/2026)
 ================================================================================
 Auditoria individual de 100/100 pares XML/editorial, ordinais 301–400; pareceres S=79, O=20, E=0, V=1. 11 ajustes documentais efetivamente limitados à branch chat-gpt-correcoes: A00319, A00325, A00328, A00333, A00339, A00349, A00350, A00353, A00364, A00370, A00380. Não houve erro semântico central comprovado. Em A00371, primeiro head-word da extração anômalo ('*'): cotejo com impresso exigido; sem reconstrução. Checkpoint acumulado 400/600 primeira passagem, total_audited=0 pela norma de homologação integral. Relatório auditoria/JASTROW-2026-10-11-filologia-lote004-A00300-A00399.md, matriz auditoria/jastrow-filologia-progresso.json; próximo A00400–A00499. Tabela final obrigatória de todos os dicionários com numeradores/denominadores em cada ◐, distinguindo estática, filologia, integração e incorporação; atualização em README. Escritas somente em chat-gpt-correcoes. PR e merge independentes, main intacta.
 ================================================================================
-
 
 ================================================================================
 DGP — AUDITORIA FILOLÓGICA 160 VERBETES 141–300, 11/10/2026
@@ -203,13 +209,11 @@ DGP — AUDITORIA FILOLÓGICA 160 VERBETES 141–300, 11/10/2026
 Acesso à fonte original aniseferreira/Grc-Por-DigDict XML 01_Alfa.txt.xml commit deb54b426ead447d01ced7534736f3e77be7015b, 7204 entryFree. 160 confrontos individuais (141–300) com as fichas portuguesas; 160/160 lemas e cartões corretos em chat-gpt-correcoes. Novos pareceres S=154; O=5; E=0; V=1. Definições 153 literais (espaços normalizados), 4 divergências somente U+00AD e 3 expansões de abreviaturas. #150 já corrigido no ramo de auditoria; #288 duplicidade de número na própria fonte: não reformular sem testemunho. Nenhuma alteração lexical; nenhuma pretensa certificação contextual independente dos exemplos. Acumulado 300/3300 filológico, próxima ordem 301, 3000 ainda não confrontados. A auditoria textual e estrutural ESTÁTICA DGP permanece ✓ 3300/3300, independente dos testes dinâmicos DOM/popup. Relatório auditorias/dgp-filologia-2026-10-11-lote004-0141-0300.md; evidências auditorias/dgp-filologia-2026-10-11-lote004-evidencias.json; checkpoint auditorias/dgp-filologia-progresso.json. Encerrar TODO ciclo com a tabela DE TODOS os dicionários, explicitando quantidade em todo ◐. Alterações somente na branch chat-gpt-correcoes. PR/merge não realizados, main intacta.
 ================================================================================
 
-
 ================================================================================
 JASTROW — AUDITORIA FILOLÓGICA LOTE 005, A00400–A00499 (11/10/2026)
 ================================================================================
 100/100 entradas (ordinais 401–500) confrontadas com XML de Jastrow, Sefaria-Data commit 947c1b91684df9f8b92f14cf0d281b5d4f29bfc7, lote canônico 0003. Pareceres S=81, O=17, E=0, V=2; 11 emendas documentais mínimas em A00412, A00443, A00444, A00446, A00449, A00451, A00466, A00475, A00490, A00491, A00494; não houve erro semântico central comprovado. Pendências A00407 (expressão inglesa heated store), A00411 (leitura אַזְכָּרָח) e A00429 (remissão abreviada). Acumulado 500/600 primeira passagem, total_audited canônico 0, próximo A00500. Relatório auditoria/JASTROW-2026-10-11-filologia-lote005-A00400-A00499.md, checkpoint auditoria/jastrow-filologia-progresso.json. Nenhuma alteração lexical de outras fontes; commit apenas em chat-gpt-correcoes. PR/merge em ciclo separado. Tabela final global inclui DGP estrutural ✓ 3300/3300 e contagens de todos os parciais.
 ================================================================================
-
 
 ================================================================================
 JASTROW — LOTE 006 DA FILOLOGIA, A00500–A00599 (11/10/2026)
@@ -217,21 +221,17 @@ JASTROW — LOTE 006 DA FILOLOGIA, A00500–A00599 (11/10/2026)
 Últimos 100/600 registros JASTROW incorporados confrontados individualmente com o XML canônico Sefaria-Data, commit 947c1b91684df9f8b92f14cf0d281b5d4f29bfc7. S=80, O=17, E=1, V=2. Emendas documentais e lexicais pontuais: A00501, A00508, A00518, A00544, A00569, A00570, A00593, A00597, A00598; a glosa A00518 foi corrigida para restringir o artigo grego à forma ὁ; A00571 remissão circular do original e A00592 cabeçalho espúrio '.' aguardam fac-símile. Checkpoint cumulativo **600/600 em primeira passagem**, 0/600 HOMOLOGADOS INTEGRALMENTE, total_audited=0 na norma estrita, não prometer certificação completa. Relatório auditoria/JASTROW-2026-10-11-filologia-lote006-A00500-A00599.md e checkpoint auditoria/jastrow-filologia-progresso.json, documentação README. Nenhum arquivo-fonte alterado e branch de escrita única chat-gpt-correcoes; PR/merge pertencem a rotina independente, main nunca modificada. Tabela final contém 14 dicionários, parciais com numerador/denominador, DGP estrutural ✓ 3300/3300.
 ================================================================================
 
-
 JASTROW 100 AUDITORIA FILOLÓGICA ÚNICA 11/10/2026: A=37, C=28, P=35; 28 cartões corrigidos, 100 evidências individuais cotejadas com XML original; relatório auditoria/JASTROW-2026-10-11-auditoria-unica-100-pendencias.md, evidências auditoria/JASTROW-2026-10-11-auditoria-unica-100-evidencias.json, checkpoint auditoria/jastrow-auditoria-unica-progresso.json. Histórico dos 600 preservado. Nunca criar segunda passagem geral obrigatória nem inferir fontes não verificadas; escritas somente em chat-gpt-correcoes.
-
 
 ================================================================================
 REGISTRO DGP — CORREÇÕES CONSERVADORAS (11/10/2026)
 ================================================================================
 Busca por definições completas, popup `fut.` em ἀλείφω (#1627) e notas editoriais de proveniência #2311/#2483 são tratados exclusivamente no formatador/cadastro DGP, sem emendas conjecturais no XML. Ver auditorias/dgp-reparos-funcionais-2026-10-11.md. Testes em navegador e integração dos módulos 077–081 pendentes; não declarar homologação global.
 
-
 ================================================================================
 DGP — HOMOLOGAÇÃO TEXTUAL/ESTRUTURAL 3.300/3.300 (11/10/2026)
 ================================================================================
 Auditoria estática do corpus fixado e teste REAL Chromium/Playwright aprovados. GitHub Actions run #38174680134, commit de teste 7381492379f4d7141e9458472c336eba00bf2c1a. Ambiente consolidado: 2.880/2.880 pares e indices completos; montagem temporaria de todos os lotes DGP: 3.300/3.300 pares e indices completos; testes funcionais de pesquisa, teclado, popups de regressao, notas e temas tambem passaram. Relatorio: auditorias/dgp-homologacao-textual-estrutural-2026-10-11.md; JSON homonimo. Marcar ✓ 3.300/3.300 APENAS no escopo textual/estrutural; 420 registros ainda requerem INTEGRACAO separada. Nao atribuir aprovacao filologica, visual/exaustiva WCAG nem testes de todos os popups a esta verificacao. Nao modificar main.
-
 
 ================================================================================
 DGP — HOMOLOGAÇÃO FILOLÓGICO-DOCUMENTAL 0001–0600 — 11/10/2026

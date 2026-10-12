@@ -1,3 +1,10 @@
+================================================================================
+REGRA CANÔNICA DE AUDITORIA ATÔMICA — GATE DE INTEGRAÇÃO (11/10/2026)
+================================================================================
+Consultar regras/Rauditoria.txt antes de aceitar qualquer declaração de “auditoria concluída”. Para cada verbete envolvido em PR de auditoria, exigir ficha individual com dez controles pertinentes, correções aplicadas (ou justificativa de nenhuma correção necessária), testes reais comprovados quando cabíveis, ausência de pendências obrigatórias e prova do estado da origem. Após o merge, conferir merged=true, SHA real e conteúdo publicado em chat-gpt-commits; SOMENTE então registrar AUDITORIA_CONCLUIDA. Antes disso: EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO. Lotes com triagem 100/100 ou “estrutura OK” NÃO satisfazem essa condição.
+Isto é regra de **rotulagem e aceitação editorial**: não apaga commits válidos, não proíbe registro de incorporação preliminar claramente rotulada, não habilita merges fora das autorizações vigentes, não modifica agendamentos e não autoriza escrita em main. Manter fontes e branches independentes; verificar HEAD e conflitos com prova da ferramenta.
+================================================================================
+
 ADENDO HALOT — 10/10/2026 (PREVALECE PARA A NOVA FONTE)
 
 Por indicação expressa do mantenedor, fica registrada a branch de origem
@@ -159,3 +166,7 @@ dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
 
 22. PR #92 — JASTROW, conclusão ordinal 600 (11/10/2026)
     Origem chat-gpt-jastrow, destino chat-gpt-commits. Preservar o conteúdo integral do destino BDAG/LEH/DGP/PEREIRA/THAYER; incorporar 90 verbetes A00510–A00599 em seis módulos, um de popups e auditoria Node. Inserir scripts após o popup JASTROW 411–510, antes de THAYER; preservar README histórico e registrar a rodada. Importar relatorio auditoria/JASTROW-2026-10-11-lote-007.md. Total 600 verbetes JASTROW, 600 originais XML, 176 popups únicos; próximo A00600 não extraído. Auditoria cumulativa Actions 38117209491 passou; revisão filológica integral e navegador pendentes. Não escrever em main nem excluir branches. Merge real com dois pais, sem force.
+
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Retificação do item histórico que mencionava somente quatro fontes no relatório: incluir obrigatoriamente TODOS os dicionários ativos, iniciados ou zerados, em toda resposta de execução/auditoria/integrador, com as colunas `Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado`, legenda ✓/◐/—, total numérico por fonte e linha TOTAL. A lista mínima e critérios constam de `regras/Rprogresso-global.txt`. Essa norma de RELATÓRIO não acrescenta origens aos agendamentos de integração nem altera o escopo de escrita; fontes como THAYER, JASTROW e HALOT continuam sujeitas às respectivas políticas de PR.

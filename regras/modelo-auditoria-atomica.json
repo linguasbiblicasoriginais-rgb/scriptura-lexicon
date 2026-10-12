@@ -1,0 +1,74 @@
+{
+  "tipo": "MODELO_NAO_EXECUTADO",
+  "norma": "regras/Rauditoria.txt",
+  "versao": "1.0",
+  "fonte": null,
+  "id_interno": null,
+  "lema": null,
+  "data": null,
+  "editorial_base_head": null,
+  "fonte_primaria": {
+    "edicao": null,
+    "caminho_ou_cota": null,
+    "pagina": null,
+    "git_blob_sha": null,
+    "trecho_ou_localizador": null
+  },
+  "estado": "NAO_INICIADA",
+  "controles": {
+    "fonte_e_proveniencia": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "lema_e_morfologia": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "transcricao_e_traducao_integral": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "filologia_e_semantica": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "testemunhos_e_citacoes": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "separacao_das_camadas": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "dados_html_pesquisa": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "navegador_acessibilidade": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "links_e_bibliografia": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    },
+    "consistencia_global": {
+      "estado": "PENDENTE",
+      "evidencia": null
+    }
+  },
+  "achados": [],
+  "correcoes_aplicadas": [],
+  "testes_executados": [],
+  "pendencias": [],
+  "decisao_editorial": null,
+  "repositorio": {
+    "branch_origem": null,
+    "commit_origem": null,
+    "pr": null,
+    "pr_merged": false,
+    "commit_merge": null,
+    "head_consolidado_verificado": null
+  },
+  "resultado": "MODELO_NAO_EXECUTADO_NAO_CONTABILIZAR"
+}

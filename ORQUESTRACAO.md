@@ -1,5 +1,34 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## THAYER — prova funcional Chromium (12/10/2026)
+
+PR #105 mesclado para chat-gpt-commits, merge `2231a99909714b678c5caf945864d15dd1603ef6`. Run #38205220873 confirmou DOM real com 512 pares e 1024 eventos de abertura (512 click + 512 Enter); correção da ficha ἄλφα cotejada na fonte (p. 1). Métricas distintas: estrutural/funcional 512/512; cotejo dirigido cumulativo 13/512; filologia integral 0/512; auditoria atômica concluída 0/512. Documentação: `auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md`, JSON/CSV de 512 IDs. Preservar bloqueios e não promover a concluído sem colação individual e os demais testes pertinentes.
+
+
+## THAYER — verificação atômica e regressão localizada de 512 registros (11/10/2026)
+
+Aplicou-se `regras/Rauditoria.txt`: 512/512 cartões estruturalmente coerentes, 12 suplementos com cotejo filológico dirigido, 15 URLs bíblicas conferidas e inseridas, mas 0/512 homologados integralmente por faltar colação de todas as acepções e testes reais DOM/acessibilidade. Distinguir expressamente `verificados_estaticamente=512`, `cotejados_dirigidamente=12` e `auditoria_atomica_concluida=0`. Relatório: `auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md`; evidências por ID: `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json` e `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv`. A integração dessas correções depende de PR/merge verificado. Nenhum agendamento novo, escrita em main ou alteração no tamanho do corpus resulta deste relatório.
+
+
+## REGRA SUPERIOR — auditoria atômica e corretiva de cada verbete (11/10/2026)
+
+A palavra **AUDITORIA**, em qualquer ciclo, tarefa independente ou lote, significa agora **diagnóstico integral do artigo + todas as correções fundamentadas possíveis + regressão completa + prova individual + integração efetiva**. O texto normativo superior é [`regras/Rauditoria.txt`](regras/Rauditoria.txt), complementado pelo modelo [`regras/modelo-auditoria-atomica.json`](regras/modelo-auditoria-atomica.json). Um relatório sem correção, um teste estático, uma contagem 100/100 de cartões ou uma triagem automática **não pode ser marcado como auditoria concluída**. Quando ferramenta, fonte, teste real ou decisão estiverem pendentes, marcar o artigo `BLOQUEADA`; quando faltar PR/merge, `AGUARDANDO_INTEGRACAO`. Conclusão individual somente após testes verificáveis e integração remota confirmada. A segurança de cada etapa persiste; “atômico” refere-se ao critério de aceitação por verbete, não a uma transação única entre branches.
+
+As rotinas agendadas e suas competências **não são alteradas ou ativadas** por este adendo. Manter ramos exclusivos, controle de concorrência, `expected_sha`/sem `force`, ramos de origem, proibição de commit em `main` e independência das fontes. O integrador não deve promover auditorias parcialmente realizadas a concluídas. Registros históricos continuam preservados e são classificáveis só pelo escopo efetivamente comprovado.
+
+
+## PR #88 — reconciliação técnica HALOT (11/10/2026)
+
+A conciliação preserva todos os módulos e checkpoints já integrados em `chat-gpt-commits` e acrescenta os 100 registros preliminares HALOT com a fonte canônica versionada. A tradução integral, a confirmação visual das formas hebraicas, os direitos de redistribuição e os testes em navegador permanecem pendentes. Os parágrafos abaixo com `0 verbetes` representam tentativas anteriores, não o estado posterior do lote 001. A mesclagem final requer confirmação distinta; não alterar `main` nem excluir branches.
+
+## HALOT — lote preliminar 001 (11/10/2026)
+
+Extração pela rotina `.github/workflows/halot-fonte-extracao.yml` da cópia canônica `fontes/fonte-halot.pdf`, Git blob `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O frontispício identifica a **CD-ROM Edition** de Brill, não a *Study Edition* presumida. O módulo `lexicons/halot-batch-001.js` incorpora 100 registros (1–100), com 100 linhas/cartões verificados por auditoria estática. Checkpoint `lexicons/halot-progress.json`: **100 preliminares publicados; zero aprovados filologicamente; zero integrados; próximo 101**. Glosas portuguesas são resumidas e a conversão hebraica ainda requer cotejo visual. Relatório: `auditorias/halot-2026-10-11-lote001.md`. PR #88 ainda não integrado. Esta atualização não altera agendas de outras fontes.
+
+## HALOT — autoridade da fonte Git (11/10/2026)
+
+A fonte canônica do HALOT agora é `fontes/fonte-halot.pdf`, na branch `chat-gpt-halot`, blob Git `3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e`. O URL externo das notas de 10/10 permanece histórico, sem precedência documental. O executor deve conferir SHA a cada rodada, inspecionar o PDF de fato e preservar a distinção da *Study Edition* em relação aos volumes KBS; não declarar extração nem auditoria a partir da simples confirmação de existência no GitHub. O checkpoint permanece 0 verbetes; este adendo não cria agendamento, não autoriza commits fora da branch HALOT e não afeta os demais léxicos.
+
 ## HALOT — extensão documental de fonte (10/10/2026)
 
 Foi designada a fonte HALOT (*The Hebrew and Aramaic Lexicon of the Old Testament*, **Study Edition**, volume 1) e criada a branch exclusiva `chat-gpt-halot`. URL documental indicada: https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf. A regra própria é `regras/Rhalot.txt`. A indicação bibliográfica não equivale à validação textual do PDF, nem ao início de lotes.
@@ -95,3 +124,7 @@ Procedimento determinístico:
 5. Registrar arquivos conflitantes, decisão justificada, dados preservados, testes e SHAs. Se nenhum caminho puder ser validado com segurança, **manter o PR aberto** e relatar o bloqueio específico, mas prosseguir com as integrações independentes seguras.
 
 Essa autonomia **não** permite apagar verbetes, reescrever histórico, excluir ramos ou tocar em `main`. Mantém-se também a auditoria obrigatória das 05h como primeira fase do quinto agendamento.
+
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Após cada ciclo, auditoria, correção ou falha, o relatório ao usuário deve conter a tabela global de TODOS os dicionários (não apenas BDAG/DGP/LEH/PEREIRA), nas seis colunas canônicas e com ✓/◐/— e totais por fonte. A tabela nominal de verbetes não substitui a global. Fonte canônica da regra: `regras/Rprogresso-global.txt`; revalidar HEADs dos ramos e integração no momento do relatório. A norma de apresentação NÃO revoga a independência operacional das fontes.

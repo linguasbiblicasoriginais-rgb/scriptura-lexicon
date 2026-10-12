@@ -1,8 +1,7 @@
-
 ================================================================================
-NORMA FILOLÓGICA ÚNICA — 11/10/2026 — PRECEDÊNCIA METODOLÓGICA
+NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
 ================================================================================
-A partir de 11/10/2026, a auditoria FILOLÓGICA de cada verbete é ÚNICA e completa na execução solicitada; abolidas fases obrigatórias separadas "preliminar" e "exaustiva". Aplicar regras/Rauditoria-filologica.txt em conjunto com esta norma de fonte. Resultado A (aprovado), C (corrigido e validado) ou P (pendência específica fundamentada); P não gera segunda auditoria geral e não equivale a aprovação. Lotes históricos não são recertificados retroativamente; preservar evidências, corrigir somente questões particulares demonstradas. Incorporação, auditoria textual/estrutural e integração continuam procedimentos distintos; não modificar main. Esta instrução mais recente prevalece sobre trechos cronológicos anteriores que indiquem duas passagens filológicas obrigatórias.
+A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
 ================================================================================
 
 RHALOT — REGRA CANÔNICA DE FONTE E BRANCH (10/10/2026)
@@ -11,12 +10,54 @@ Caminho: regras/Rhalot.txt
 Codificação: UTF-8; texto simples.
 
 ======================================================================
+0. FONTE CANÔNICA VERSIONADA — DECISÃO DE 11/10/2026
+======================================================================
+
+DECISÃO EXPRESSA DO MANTENEDOR, PREVALECE SOBRE INDICAÇÕES ANTERIORES:
+A fonte documental canônica da frente HALOT passa a ser EXCLUSIVAMENTE
+o arquivo versionado no próprio repositório, na branch chat-gpt-halot:
+
+  Caminho exato: fontes/fonte-halot.pdf
+  Branch: chat-gpt-halot
+  Git blob SHA confirmado: 3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e
+
+O identificador acima é SHA DE BLOB GIT, não SHA-256 calculado do PDF.
+O GitHub confirmou a existência do arquivo nesse caminho e o SHA do
+blob. A inspeção bibliográfica interna, das páginas e da identidade
+efetiva da edição permanece pendente: não afirmar que a simples
+presença do arquivo certifica título, edição, integridade textual,
+numeração de páginas, intervalos de lemas ou extração de verbetes.
+
+HIERARQUIA DE FONTES PARA EXECUÇÕES FUTURAS:
+1. Consultar o arquivo fontes/fonte-halot.pdf na branch da fonte.
+2. Antes de cada extração, conferir seu blob SHA real; se diferir
+   do SHA registrado no checkpoint, registrar nova versão, examinar
+   as alterações e NÃO presumir equivalência das páginas/verbetes.
+3. A URL externa yausha.com.br da seção 1 passa a ser referência
+   histórica de proveniência, NÃO o arquivo autoritativo da ingestão.
+4. Os outros PDFs KBS, edições expandidas e interfaces externas
+   servem apenas a cotejo atribuído e não substituem o arquivo fixado.
+5. Sempre usar edição, lema e páginas efetivamente lidos no PDF
+   versionado; preservar Fonte / Tradução / Análise / GDHAGP.
+6. Não exigir novo upload do mantenedor por mera ausência de acesso
+   à antiga URL: a fonte já está no GitHub. Caso o conector não
+   exponha os bytes do PDF para extração, registrar o erro técnico
+   concreto; não inventar verbetes e não declarar conteúdo auditado.
+
+Esta decisão NÃO altera checkpoint lexical: 0 verbetes incorporados,
+0 auditados, 0 integrados, ordinal seguinte 1, até publicação real
+verificada. O registro histórico da falha de acesso à URL externa
+fica preservado apenas como HISTÓRICO, e não como bloqueio normativo
+da fonte atual.
+
+======================================================================
 1. IDENTIFICAÇÃO DA FRENTE E REPOSITÓRIO
 ======================================================================
 
 Sigla da fonte: HALOT.
 Obra indicada: The Hebrew and Aramaic Lexicon of the Old Testament.
-Edição indicada no nome do arquivo: Study Edition, volume 1.
+Designação histórica da URL externa: Study Edition, volume 1 (NÃO identifica o PDF canônico).
+Edição documentada pelo frontispício do PDF versionado: CD-ROM Edition, © 1994–2000, Brill.
 Autores/editoria do léxico: Ludwig Koehler, Walter Baumgartner e
 Johann Jakob Stamm; tradução/edição inglesa associada a M. E. J.
 Richardson. Conferir os dados bibliográficos exatos no frontispício
@@ -26,7 +67,7 @@ Fonte documental indicada EXPRESSAMENTE pelo mantenedor em 10/10/2026:
 https://yausha.com.br/wp-content/uploads/2024/02/The-Hebrew-and-Aramaic-lexicon-of-the-Old-Testament-study-edition-volume-1.pdf
 
 Identificador interno de referência: HALOT-STUDY-V1-01.
-Abrangência documental confirmada pela indicação: VOLUME 1 SOMENTE.
+Abrangência antiga da URL: indicação de volume 1 SOMENTE; NÃO válida para o PDF canônico.
 Não presumir que os demais volumes estejam disponíveis nessa URL
 nem que esta versão tenha paginação ou conteúdo idênticos aos cinco
 volumes da edição maior de Koehler–Baumgartner (KBS/HALOT).
@@ -100,5 +141,88 @@ regras/Rintegracao.txt — regras de PR, merge, auditoria e preservação.
 regras/Rfontes-impressas.txt — outros testemunhos impressos; não
   substituir o presente registro de HALOT.
 regras/Rfontes-consulta.txt — portais digitais de outras fontes.
+
+
+======================================================================
+5. PRIMEIRA TENTATIVA DE LOTE — 11/10/2026 (NÃO CONCLUÍDA)
+======================================================================
+
+Comando do mantenedor: "Execute o HALOT (100 verbetes)."
+CHECKPOINT CONFIRMADO NESTA SESSÃO: zero verbetes novos publicados,
+zero auditados, zero integrados; ordinal seguinte 1, lema seguinte
+NÃO DETERMINADO. Registro: lexicons/halot-progress.json.
+
+EVIDÊNCIAS: o leitor da URL canônica retornou "Content length is too
+large: 18446799"; o download direto retornou falha; a ferramenta
+local para abrir arquivos retornou ClientError. A busca pública
+indexou amostra iniciada em א, mas não forneceu 100 verbetes
+consecutivos, delimitados e auditáveis. Não declarar indisponibilidade
+universal da fonte nem usá-la como autorização para substituí-la.
+
+PRÓXIMA EXECUÇÃO: obter efetivamente a edição PDF designada; verificar
+lemas, fronteiras de entrada, grafia, acepções, página, sequência e
+conferência filológica antes de criar módulos e publicar 100 verbetes.
+O material KBS dos PDFs históricos não substitui silenciosamente a
+Study Edition. Nenhum lote pode ser fabricado por preenchimento ou por
+listas de lemas oriundas de outros dicionários.
+
+Este é um registro de tentativa sem produção lexical, NÃO uma
+certificação de revisão filológica ou publicação de 100 verbetes.
+
+======================================================================
+6. IDENTIDADE DO PDF CANÔNICO E PRIMEIRO LOTE PUBLICADO — 11/10/2026
+======================================================================
+
+A extração executada em GitHub Actions confirmou tecnicamente:
+  Fonte: fontes/fonte-halot.pdf, branch chat-gpt-halot;
+  Git blob SHA: 3e89d2974ec464fe98b9ca449c1b8bc3b4aa028e;
+  SHA-256 do PDF: 7ba7a1346bef2ef0e8829650b2ebbf86b2ffb3e48b5a2e98f78a8b42bc86c964;
+  Extensão: 18.446.799 bytes; 3.537 páginas físicas;
+  Frontispício (página física 1): The Hebrew & Aramaic Lexicon of
+  the Old Testament, CD-ROM Edition, copyright Brill 1994–2000.
+  NÃO presumir Study Edition nem reduzir o acervo a volume 1.
+
+O texto principal inicia-se na página física 237 com a entrada
+numerada 1, a (álef); a entrada 100, dga, inicia-se na página
+física 256 e continua até a 257; a entrada 101, hD'gUa],
+inicia-se na página física 257. A transcrição eletrônica do
+hebraico foi extraída em codificação de tipo BWHEBB/legada,
+sem Unicode hebraico diretamente recuperável. Conversões de
+lemas são CANDIDATAS até conferência visual individual.
+
+Arquivo da transcrição de trabalho:
+  auditorias/halot-fonte-entradas-iniciais-fase3.txt
+Diagnósticos de extração:
+  auditorias/halot-fonte-diagnostico.json
+  auditorias/halot-fonte-diagnostico-fase2.json
+  auditorias/halot-fonte-diagnostico-fase3.json
+
+Módulo lexical na origem: lexicons/halot-batch-001.js.
+  Ordinais reais de fonte: 1–100, sem saltos.
+  Linhas de busca: 100; cartões: 100.
+  IDs exclusivos: entry-halot-0001 a entry-halot-0100.
+  Código publicado na branch: chat-gpt-halot.
+  Integrado em chat-gpt-commits: NÃO CERTIFICADO.
+
+ESTADO EDITORIAL OBRIGATÓRIO:
+  100 registros PRELIMINARES publicados, com glosas semânticas
+  portuguesas SINTÉTICAS; tradução integral ainda pendente.
+  0 registros com auditoria filológica integral concluída.
+  0 registros com auditoria de navegador concluída.
+  10 lemas foram sinalizados por caracteres desconhecidos
+  na conversão, o que NÃO implica que os demais 90 já estejam
+  filologicamente validados.
+  O arquivo transcrito preserva parte da codificação histórica
+  e não equivale à inspeção visual de páginas e colunas.
+
+NÃO classificar o lote como tradução integral aprovada, nem
+prometer completude de todos os exemplos/citações. Registros
+preliminares servem à revisão editorial posterior. Somente a
+aprovação filológica, da tradução integral e dos testes da
+interface poderá converter o lote ao estado definitivo.
+
+Progresso: lexicons/halot-progress.json.
+Próximo ordinal do arquivo: 101 (raw hD'gUa]; leitura
+candidata אֲגֻדָּה — exige confirmação visual).
 
 FIM — RHALOT

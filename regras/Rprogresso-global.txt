@@ -1,3 +1,6 @@
+REGRA VIGENTE DE CONTAGEM — AUDITORIA ATÔMICA POR VERBETE (11/10/2026)
+A palavra “AUDITORIA” ou o símbolo ✓ na sua coluna só pode significar o conjunto integral de verificação, correção, regressão, evidência e integração definido em regras/Rauditoria.txt. Qualquer cobertura de HTML, lema, pesquisa, semântica parcial ou confronto automatizado deve ser apresentada como ◐ TRIAGEM/VERIFICAÇÃO, mesmo se 100% dos cartões foram percorridos. Não converter “verificados estaticamente 512/512” em “auditados 512/512”. Os contadores `total_incorporado`, `total_triado`, `total_verificado_estaticamente`, `total_cotejado_parcialmente` e `total_auditoria_concluida` são separados. Para a mesma entrada, somente marcar AUDITORIA_CONCLUIDA quando não restarem pendências obrigatórias e houver merge remoto confirmado. Relatórios antigos mantêm estado e significado histórico; esta norma não reconta sem evidência individual.
+
 NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
 Projeto: GDHAGP / Scriptura Lexicon
 Vigência: imediata. Esta norma prevalece sobre a exigência histórica de relatar somente BDAG/DGP/LEH/PEREIRA e sobre a exigência equivocada de exibir a tabela nominal de 100 verbetes nas respostas THAYER.
@@ -38,8 +41,14 @@ JASTROW=600; THAYER=500; HALOT=100 preliminares; demais=0;
 TOTAL DE ORIGENS=6861. Todos os contadores devem ser reconferidos em cada rodada.
 
 
-12/10/2026 — Norma transversal de transparência detalhada: `regras/Rtransparencia-relatorios.txt`. Em toda resposta de execução, apresentar barras independentes por etapa (incorporação; textual/estrutural; filológica; integração) e, quando pertinente, por correções, P e testes. Informar denominador e porcentagem, IDs, HEADs e fonte concreta de cada número. Continuar exibindo a tabela de 14 dicionários com as seis colunas prescritas e registrar incerteza/ausência de verificação.
+VISUALIZAÇÃO OBRIGATÓRIA DE PERCENTUAIS THAYER E DEMAIS FONTES (12/10/2026): Para cada porcentagem, registrar numerador, denominador e ESCOPO testado, evitando confundir cobertura de testes estáticos/DOM, cotejo dirigido parcial, colação filológica integral e AUDITORIA_CONCLUIDA. Sempre que possível, exibir barras proporcionais; uma barra de 100% estrutural NUNCA substitui o indicador filológico/atômico. Referência documental: auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md. No THAYER: 512/512 pares DOM = 100%, 13/512 cotejo dirigido preliminar = 2,54%, 0/512 colação integral e auditoria atômica = 0%; testes de abrir 512 rotas são eventos sintéticos DOM executados em Chromium real, além de amostras Playwright reais. Não atribuir esse progresso às demais fontes sem verificação própria.
 
+================================================================================
+ADENDO DOCUMENTAL DA BRANCH DE CORREÇÕES — PR #115 (12/10/2026)
+Registros de origem incorporados como histórico. Em caso de conflito, prevalecem as normas superiores já consolidadas, sem declarar auditoria integral não certificada. Menções a integração pendente são fotografias históricas.
+================================================================================
+
+12/10/2026 — Norma transversal de transparência detalhada: `regras/Rtransparencia-relatorios.txt`. Em toda resposta de execução, apresentar barras independentes por etapa (incorporação; textual/estrutural; filológica; integração) e, quando pertinente, por correções, P e testes. Informar denominador e porcentagem, IDs, HEADs e fonte concreta de cada número. Continuar exibindo a tabela de 14 dicionários com as seis colunas prescritas e registrar incerteza/ausência de verificação.
 
 ## Marco global do JASTROW — 12/10/2026
 
