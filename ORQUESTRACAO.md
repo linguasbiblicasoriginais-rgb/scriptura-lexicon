@@ -1,5 +1,10 @@
 # GDHAGP — Orquestração independente (norma vigente, 09/10/2026)
 
+## THAYER — prova funcional Chromium (12/10/2026)
+
+PR #105 mesclado para chat-gpt-commits, merge `2231a99909714b678c5caf945864d15dd1603ef6`. Run #38205220873 confirmou DOM real com 512 pares e 1024 eventos de abertura (512 click + 512 Enter); correção da ficha ἄλφα cotejada na fonte (p. 1). Métricas distintas: estrutural/funcional 512/512; cotejo dirigido cumulativo 13/512; filologia integral 0/512; auditoria atômica concluída 0/512. Documentação: `auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md`, JSON/CSV de 512 IDs. Preservar bloqueios e não promover a concluído sem colação individual e os demais testes pertinentes.
+
+
 ## THAYER — verificação atômica e regressão localizada de 512 registros (11/10/2026)
 
 Aplicou-se `regras/Rauditoria.txt`: 512/512 cartões estruturalmente coerentes, 12 suplementos com cotejo filológico dirigido, 15 URLs bíblicas conferidas e inseridas, mas 0/512 homologados integralmente por faltar colação de todas as acepções e testes reais DOM/acessibilidade. Distinguir expressamente `verificados_estaticamente=512`, `cotejados_dirigidamente=12` e `auditoria_atomica_concluida=0`. Relatório: `auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md`; evidências por ID: `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.json` e `auditorias/thayer-2026-10-11-auditoria-atomica-512-matriz.csv`. A integração dessas correções depende de PR/merge verificado. Nenhum agendamento novo, escrita em main ou alteração no tamanho do corpus resulta deste relatório.
