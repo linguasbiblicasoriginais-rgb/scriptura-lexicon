@@ -193,7 +193,7 @@ def enrich_single(item):
     from PIL import Image,ImageEnhance,ImageOps
     with fitz.open(str(PDF)) as d:
         page=d[pdf_no-1]
-        pix=page.get_pixmap(matrix=fitz.Matrix(3.3,3.3),colorspace=fitz.csGRAY,alpha=False)
+        pix=page.get_pixmap(matrix=fitz.Matrix(2.3,2.3),colorspace=fitz.csGRAY,alpha=False)
         pic=Image.frombytes("L",(pix.width,pix.height),pix.samples)
     if not rows:return pdf_no,[]
     margin=12
@@ -241,7 +241,7 @@ def greek_ocr(catalog,coverage):
     for i,r in enumerate(catalog):grouped[r["pagina_pdf"]].append((i,r))
     jobs=[(p,[r for i,r in grouped[p]]) for p in range(START,LAST+1)]
     done=0;passed=0
-    with ProcessPoolExecutor(max_workers=4) as pool:
+    with ProcessPoolExecutor(max_workers=3) as pool:
         future_map={pool.submit(enrich_single,j):j[0] for j in jobs}
         for fut in as_completed(future_map):
             pdfno=future_map[fut]
@@ -264,10 +264,17 @@ def greek_ocr(catalog,coverage):
             if done%40==0:print("OCR fotográfico:",done,"/683 folhas;",passed,"lemas gregos provisórios",flush=True)
     print("Concluídas",done,"folhas, OCR grego aproveitável:",passed,"/",len(catalog),flush=True)
 def main():
-    catalog,coverage=extract()
-    build(catalog,coverage,"FASE 1 — indexação geométrica das 683 páginas; OCR grego em preparação")
-    JSON.write_text(json.dumps({"fonte":XML_URL,"folhas":coverage,"candidatos":catalog},ensure_ascii=False)+"\n",encoding="utf-8")
-    publish([OUT,JSON],"THAYER: indexar geometricamente 683 folhas do fac-símile")
+    if JSON.exists():
+        existing=json.loads(JSON.read_text(encoding="utf-8"))
+        catalog,coverage=existing["candidatos"],existing["folhas"]
+        if len(coverage)!=683:
+            raise RuntimeError("Checkpoint incompleto; não anunciar cobertura total.")
+        print(f"Retomada a partir do checkpoint: {len(catalog)} candidatos, {len(coverage)} folhas",flush=True)
+    else:
+        catalog,coverage=extract()
+        build(catalog,coverage,"FASE 1 — indexação geométrica das 683 páginas; OCR grego em preparação")
+        JSON.write_text(json.dumps({"fonte":XML_URL,"folhas":coverage,"candidatos":catalog},ensure_ascii=False)+"\n",encoding="utf-8")
+        publish([OUT,JSON],"THAYER: indexar geometricamente 683 folhas do fac-símile")
     try:
         greek_ocr(catalog,coverage)
     except Exception as e:
