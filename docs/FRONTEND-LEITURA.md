@@ -1,3 +1,13 @@
+## Homologação funcional das capas — 13/10/2026
+
+GitHub Actions [frontend-reader #38402737323](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38402737323), commit de correção CSS `ef5804cba8ec6a1a59a17b8e84a4f1be66f38abd`: **PASS em Chromium**. Confirmados HTTP 200 e assinatura PNG de **8/8 arquivos**, carregamento efetivo de **8/8 imagens** nos filtros de fontes, `object-fit: contain` aplicado ao elemento correto `#source-cover-image`; regressão funcional de 6 fontes gregas, 1 hebraica e 1 aramaica. Latim permanece sem corpus. A execução não valida fidelidade filológica ou identidade entre edições.
+
+A primeira execução do teste ampliado (#38402501104) identificou que o CSS anterior mirava uma classe ausente no HTML. O seletor foi corrigido em `style.css` e a regressão completa foi repetida com sucesso; não se considerou o teste falho como aprovação.
+
+## Capas locais fornecidas pelo mantenedor — 13/10/2026
+
+Oito arquivos PNG localizados e verificados em `imagens/capas/` na branch `chat-gpt-frontend`. `lexicons/source-catalog.js` contém os caminhos relativos, e `style.css` mostra a imagem integral com proporção preservada. O teste Chromium verifica resposta HTTP e assinatura PNG dos oito arquivos e o carregamento visual das capas cujas fontes estão disponíveis no seletor.
+
 ## Regressão executada — 12/10/2026
 
 Workflow [Frontend — navegação e catálogo em Chromium](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38288709833), commit de teste `63f22edead6d5959e7f9e2775034da651c2da05a`: **PASS**, job `frontend-browser` concluído com sucesso em Chromium 141 / Playwright 1.56.1.
@@ -13,7 +23,7 @@ Atualização: 12/10/2026. Branch de trabalho: `chat-gpt-frontend`.
 - O seletor nativo `#source-filter` permanece a única fonte de verdade; o combobox personalizado dispara o evento `change` do seletor. Com `Todas as fontes`, a ficha bibliográfica fica oculta.
 - Ao selecionar uma fonte, `#source-details` aparece imediatamente abaixo da pesquisa com título, responsáveis, editora, edição, publicação, ISBN quando documentado, paginação do exemplar de referência e contagem **dinâmica** de linhas `.search-row` do dicionário ativo com `data-source` correspondente. Não se trata do número integral de lemas do livro histórico.
 - O catálogo bibliográfico independente está em `lexicons/source-catalog.js`. Datas e paginações de edições diferentes não podem ser fundidas. Campos ainda não verificados são apresentados como não documentados.
-- Para registros históricos de Robinson, Abbott-Smith e Thayer, a interface tenta carregar a capa do exemplar identificado no Internet Archive. Se o recurso estiver indisponível, apresenta uma **representação tipográfica explicitamente identificada como tal**, sem fingir ser a capa original. Nas outras fontes, utiliza essa representação até o cadastro de imagem verificada. As URLs de capa são opcionais e erros de rede não bloqueiam busca nem leitura.
+- As oito imagens fornecidas pelo mantenedor estão versionadas como PNG em `imagens/capas/` e foram vinculadas a THAYER, BDAG, LEH, DGP, ROBINSON, ABBOTT-SMITH, HALOT e JASTROW. O CSS utiliza dimensões proporcionais e `object-fit: contain`, sem recortes (inclusive na imagem horizontal do HALOT). O fallback tipográfico permanece disponível quando a imagem não carrega. As fontes PEREIRA, KBS e CLINES não foram modificadas.
 - Identificação textual e notas de proveniência continuam subordinadas às regras de cada obra. Este catálogo não altera nem homologa o texto dos verbetes.
 
 ## Resultados e modo de leitura
@@ -25,7 +35,7 @@ Atualização: 12/10/2026. Branch de trabalho: `chat-gpt-frontend`.
 
 ## Limitações / validação
 
-- As capas remotas dependem da disponibilidade de serviços externos; fallback sem perda da interface.
+- As oito imagens locais não dependem de serviços externos; falhas de imagem mantêm o fallback tipográfico. As imagens de THAYER e ROBINSON correspondem a folhas de rosto. Em ROBINSON, a imagem é da edição londrina de 1852 (William Tegg and Co.), enquanto a ficha mantém a referência americana de 1850 (Harper & Brothers). Em LEH, a imagem indica *Third Corrected Edition*, diferente da edição revisada de 2003 descrita na ficha. Não se deve inferir que a imagem determina a edição-texto-base dos verbetes.
 - Quantidade digital é o total de linhas carregadas no DOM, não de manifestos, edições ou número de acepções.
 - Verificação estática do código é distinta de prova funcional em navegador. Recomenda-se regressão Chromium: cada dicionário com corpus, cada opção do filtro, busca → cartão → voltar (mouse/teclado), alteração da busca no modo leitura, desktop/celular, temas e popups.
 - Fonte bibliográfica do projeto: `regras/Rfontes-impressas.txt`, `regras/Rfontes-consulta.txt`, `regras/Rbdag.txt`, `regras/Rleh.txt`, `regras/Rdgp.txt`, `regras/Rpereira.txt`, `regras/Rjastrow.txt`, `regras/Rthayer.txt` e `regras/Rhalot.txt`.
