@@ -1,3 +1,7 @@
+## Frontend — oito capas locais sem recortes (13/10/2026)
+
+THAYER, BDAG, LEH, DGP, ROBINSON, ABBOTT-SMITH, HALOT e JASTROW agora utilizam as imagens PNG fornecidas pelo mantenedor em `imagens/capas/`, com `coverUrl` relativos em `lexicons/source-catalog.js`. As imagens são exibidas integralmente, preservando proporções e sem redesenhos; os demais dicionários, a busca e todos os verbetes permanecem inalterados. A regressão Chromium verifica os oito arquivos PNG e o carregamento das fontes disponíveis no seletor. Há ressalvas sobre as diferenças entre as edições retratadas nas imagens e os metadados impressos, registradas em [docs/FRONTEND-LEITURA.md](docs/FRONTEND-LEITURA.md).
+
 ## PR #119 — conciliação do frontend e JASTROW (12/10/2026)
 
 A integração da interface de catálogo bibliográfico e navegação do PR [#119](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/119) foi preparada sobre `chat-gpt-commits`, mantendo o histórico lexical do destino, os **1.000 JASTROW já integrados** e todos os demais scripts. A nova interface e seus testes são preservados, sem reescrita de verbetes; a documentação original de frontend vem em seguida. Os testes de navegador precisam ser repetidos sobre o resultado combinado, e o merge definitivo deverá ser confirmado no GitHub. [Relatório de conciliação](auditorias/integracao-pr-119-2026-10-12.md).
