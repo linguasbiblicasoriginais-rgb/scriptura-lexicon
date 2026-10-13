@@ -1,3 +1,21 @@
+## THAYER — reinício a partir do fac-símile (13/10/2026)
+
+Os **712 registros históricos** foram conservados na branch
+[archive/thayer-legacy-712-2026-10-13](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/tree/archive/thayer-legacy-712-2026-10-13),
+commit `b24163f3c99d9ff156e39806ca69111e00459486`. A frente `chat-gpt-thayer` foi limpa das fichas lexicais e de
+seus carregadores, iniciando novamente com **zero verbetes**. O próximo é
+**Α, α, ἄλφα**, na primeira página impressa. O lote pedido é de 100
+verbetes, cuja conclusão exige transcrição e tradução integrais de cada
+artigo diretamente das imagens do fac-símile. Nada será contado apenas
+por extração de Strong ou por OCR sem confirmação. Ver `regras/Rthayer.txt`
+e `lexicons/thayer-progress.json`.
+
+**Histórico abaixo:** as seções anteriores sobre 712 registros e
+auditorias pertencem ao acervo pré-reinício e não representam o estado
+vigente da incorporação THAYER nesta branch.
+
+---
+
 ## THAYER — fonte primária obrigatória para todas as próximas incorporações (13/10/2026)
 
 **Regra vigente:** identificar cada artigo e transcrever seu conteúdo diretamente das fotografias da edição impressa de Thayer. O fac-símile determina a existência, a grafia e a ordem dos cabeçalhos, os homógrafos e remissões, as acepções e os limites de cada artigo. Para cada registro, documentar página impressa, folha do PDF e coluna. Strong e transcrições eletrônicas poderão auxiliar na busca, nunca substituir o texto impresso ou suprir lacunas sem indicação explícita. Se a leitura não for segura, suspender a incorporação do artigo e registrar a pendência, sem adivinhar. Proibido voltar a importar verbetes pela mera sequência G### ou traduzir somente trechos truncados.

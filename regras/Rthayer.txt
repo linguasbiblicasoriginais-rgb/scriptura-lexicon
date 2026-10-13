@@ -1,166 +1,33 @@
-================================================================================
-NORMA VINCULANTE — THAYER EXCLUSIVAMENTE BASEADO NO FAC-SÍMILE — 13/10/2026
-================================================================================
-VIGÊNCIA: imediata, para TODAS as novas incorporações de THAYER. Esta norma
-prevalece sobre rotinas anteriores baseadas em listas de Strong, OCR não
-conferido, importação de datasets derivados ou traduções automáticas truncadas.
+THAYER — REINÍCIO CANÔNICO (13/10/2026)
 
-1. FONTE PRIMÁRIA: os fac-símiles fotográficos da edição de Joseph Henry
-   Thayer fornecidos ao Scriptura Lexicon, notadamente "Thayer (parte 1,
-   Α–Ι).pdf" e "Thayer (parte 2, Κ–Ω).pdf". O arquivo fotográfico integral
-   thayersgreekengl0000thay.pdf pode auxiliar na localização correspondente,
-   desde que se confirme tratar-se do mesmo testemunho editorial. NUNCA
-   trocar edição ou leitura sem identificar expressamente a diferença.
-2. IDENTIDADE E SEQUÊNCIA: primeiro localizar VISUALMENTE cada cabeçalho
-   independente no impresso, na ordem original; registrar grafia politônica
-   literal, número/posição do artigo, página impressa, folha PDF e coluna.
-   Diferenciar artigo lexical, homógrafo autônomo, remissão impressa,
-   subentrada subordinada, cabeçalho corrente e falsa detecção de OCR.
-3. CONTEÚDO: ler/transcrever integralmente o artigo diretamente da página,
-   inclusive flexões, etimologia atribuída, acepções, restrições semânticas,
-   referências bíblicas, variantes textuais, exemplos e ressalvas do autor.
-   Traduzir ao português sem restringir o conteúdo aos primeiros caracteres
-   e sem resumir silenciosamente. Preservar separadamente Fonte, Tradução,
-   Análise e redação editorial GDHAGP.
-4. AUXILIARES: Strong, Bible Hub, Wikisource, OCR, outros datasets ou
-   traduções automáticas são instrumentos de BUSCA/DECIFRAÇÃO subordinados.
-   Não estabelecem quantidade, identidade, ordem nem leitura canônica de
-   verbetes. Nada proveniente deles poderá completar silenciosamente uma
-   lacuna do fac-símile; se usados, assinalar sua proveniência e distinguir
-   leitura efetivamente confirmada da hipótese.
-5. BLOQUEIO POR FONTE: se o cabeçalho ou qualquer passagem relevante não
-   puder ser identificada com segurança na fotografia, registrar pendência
-   e não certificar/incorporar o artigo como transcrição fiel. Não adivinhar,
-   fabricar homógrafos, converter número Strong em artigo ou omitir sentidos.
-6. ESCRITA E CONTAGEM: incorporar somente títulos e conteúdos localizados
-   no impresso; registrar o número efetivamente gravado, sem confundi-lo com
-   o total de artigos do dicionário ou com total de títulos confirmados.
-   O total real da obra continuará INDETERMINADO até inventário completo.
-   O checkpoint histórico de 712 cartões registra entradas digitais
-   existentes, NÃO 712 colações completas da fonte. Preservá-las como
-   material preliminar; não apagar nem declarar homologação retroativa.
-7. ESCOPO OPERACIONAL DESTE CHAT: somente incorporação THAYER e sua
-   documentação estritamente pertinente. Não realizar auditoria formal,
-   homologação, integração/merge, edição de main ou de outras fontes por
-   inferência. Nenhuma alteração substantiva nos artigos já existentes foi
-   autorizada por esta norma isoladamente.
-8. ROTINAS ANTIGAS: scripts que importam G### e traduzem apenas parte de
-   glossas (como o incorporador do lote 008) passam a ser legados e NÃO
-   poderão fundamentar novas incorporações. Substituir sua metodologia
-   antes de novos lotes, mantendo os registros e o histórico.
+ESCOPO: esta branch é dedicada somente à incorporação dos artigos lexicais
+de Thayer; não executar auditoria formal, homologação, integração, PR ou merge.
 
-Esta norma foi estabelecida expressamente pelo usuário em 13/10/2026:
-"a partir de agora, toda a integração deve ser baseada no fac-símile".
-Para THAYER, "integração" no contexto da instrução significa a incorporação
-de conteúdos lexicográficos, sem conceder permissão implícita de PR/merge.
-================================================================================
+REINÍCIO: o estado de 712 fichas prévias está preservado integralmente
+na branch imutável de referência archive/thayer-legacy-712-2026-10-13,
+commit b24163f3c99d9ff156e39806ca69111e00459486. O contador desta branch foi zerado e os cartões
+e scripts legados desativados/retirados antes da nova incorporação.
 
-================================================================================
-NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
-================================================================================
-A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
-================================================================================
+FONTE: exclusivamente o fac-símile da edição impressa de Thayer disponibilizado
+pelo usuário. Começar no cabeçalho impresso «Α, α, ἄλφα», página impressa 1.
+O fac-símile define a ordem, os limites, as grafias dos artigos e sua existência;
+Strong não define a sequência. A transcrição digital e o OCR são auxiliares
+subordinados e não constituem confirmação da leitura original.
 
-RTHAYER — NORMA INICIAL DA FRENTE THAYER (10/10/2026)
-Branch exclusiva: chat-gpt-thayer. Não editar main, outros módulos de fontes ou branches concorrentes.
-Fonte-base: Joseph Henry Thayer, A Greek-English Lexicon of the New Testament, fac-símile Thayer (parte 1, Α–Ι).pdf, pp. impressas 1–3 no primeiro lote.
-Transcrição auxiliar: Wikisource (https://en.wikisource.org/wiki/Page:A_Greek_English_Lexicon_of_the_New_Testament.djvu/25) e Bible Hub Thayer (https://biblehub.com/thayers/18.htm).
-As transcrições digitais não corrigem automaticamente o fac-símile. Divergências e conjecturas devem ser atribuídas à fonte.
-Regra editorial: separar texto-fonte, tradução, análise editorial e síntese GDHAGP; nunca interpolar LEH, BDAG, Pereira, DGP ou Robinson na fonte THAYER.
-Traduções em português devem manter as acepções separadas, citações bíblicas, distinções morfológicas, variantes textuais e ressalvas históricas importantes.
-Nomes próprios, gênero, flexão e grafia politônica são mantidos com rastreabilidade.
-Verbetes da obra sem número Strong independente contam como verbetes próprios; ἀγαθουργέω entre ἀγαθός e ἀγαθωσύνη é o primeiro caso.
-Primeiro lote: 20 verbetes novos: ἄλφα + os verbetes Ἀβαδδών a ἀγαλλίασις (incluído ἀγαθουργέω).
-O cartão THAYER de Ἀαρών já existia e não foi reescrito. Total ao fim do lote: 21.
-Próximo lema: ἀγαλλιάω.
-UI: dados em lexicons/thayer.js, duas âncoras para manter ἄλφα junto às outras letras e 19 verbetes após Ἀαρών.
-Auditoria estática: conferir 20 linhas, 20 cartões, todos os data-target resolvidos, IDs únicos, 4 âncoras e carga anterior a script.js.
-Validação em navegador e validação externa dos URLs por entrada continuam pendentes; não alegar teste de DOM executado.
-Documentação e checkpoint em lexicons/thayer-progress.json, regras/Rthayer.txt, README.md.
-Integração: chat-gpt-thayer não integra a lista de seis origens de Rintegracao, portanto este lote permanece somente em sua branch, sem PR automático.
-Commits devem ser atômicos, com conferência do HEAD remoto e atualização protegida, force=false.
+INCORPORAÇÃO: 1. localizar visualmente o cabeçalho e os limites do artigo;
+2. registrar lema grego, página impressa, folha PDF, coluna e natureza
+(artigo, homógrafo ou remissão); 3. preservar texto integral e traduzir
+integralmente, sem cortar por tamanho e sem omitir acepções, referências,
+variantes, ressalvas, flexões ou referências históricas; 4. gravar linha
+de busca e cartão completos, IDs unívocos, sem interferir em outros léxicos;
+5. avançar o checkpoint SOMENTE para o número efetivamente gravado.
 
-Padrão de popups implementado: h1 grego dos 20 verbetes possui tooltip lexical com significado; radicais e nomes hebraicos presentes na formação recebem tooltip hebraico com transliteração e significado.
+Não preencher lacunas com definições de Strong, Bible Hub, Wikisource ou
+outra fonte. Artigos ilegíveis ficarão pendentes sem incorporação fictícia.
+Preservar camadas independentes Fonte / Tradução / Análise / GDHAGP.
 
-LOTE 002 (100 verbetes): ἀγαλλιάω → ἄθλησις; lista nominal no checkpoint; 99 números G21–G119 + entrada independente G32b (ἄγγος). Contagem total: 121 entradas THAYER. Próximo: ἀθυμέω (G120). Módulo: lexicons/thayer-batch-002.js, carregado depois de thayer.js e antes de script.js. Não deduplicar ἄγγος com ἄγγελος nem substituir por conteúdo de Strong: Strong serve só de índice para controle de sequência. Tradução portuguesa é síntese editorial atrelada às acepções de Thayer. Manter advertência: navegador/links por entrada/revisão filológica integral ainda não concluídos. Três URLs de consulta (G33, G35, G67) não foram comprovadas; não criar links nesses verbetes.
-
-ADENDO PR #87 — INTEGRAÇÃO MANUAL DO CONTEÚDO THAYER (10/10/2026)
-O pedido expresso de resolver o PR #87 (origem chat-gpt-correcoes) permite integrar os módulos THAYER incluídos naquele PR, sem mudar a política da rotina de ingestão de chat-gpt-thayer ou a lista regular de origens de Rintegracao. A incorporação não cria entradas novas: preserva integralmente os 20 cartões dinâmicos do lote 001, o cartão estático histórico Ἀαρών e os 100 cartões dinâmicos do lote 002, totalizando 121. Quatro âncoras específicas e dois scripts em ordem viabilizam a montagem no index.html integrado. Sem alterações na fonte lexical THAYER além da documentação/checkpoint da situação de integração.
-Auditorias incluídas no PR #87: JASTROW lotes 002 e 003, DGP lote 76 e THAYER lote 002. Apenas a verificação estrutural textual disponível está certificada; revisão de todos os sentidos, exemplos, variantes, popups, execução em browser, acessibilidade e teste exaustivo de URLs seguem PENDENTES. A fonte THAYER autoritativa segue sendo o fac-símile designado, sem substituir testemunho por Strong ou por outras fontes.
-Não tocar main nem reescrever/excluir origens. Registrar commit de merge e status remote verified na documentação de integração, com verificação de publicação antes de declarar conclusão.
-
-
-LOTE 003 — 11/10/2026
-Escopo: 100 verbetes da sequência Thayer G120–G219, de ἀθυμέω a ἀλεκτοροφωνία. Módulo lexicons/thayer-batch-003.js. Total acumulado: 221 cartões THAYER (1 HTML histórico + 20 módulo base + 100 lote 002 + 100 lote 003).
-Fonte: Thayer (parte 1, Α–Ι).pdf, páginas impressas 14–26. O índice Strong serve para localização; nunca substituir a redação de Thayer por glossas externas. Formas da Septuaginta catalogadas em outros índices não fazem parte automaticamente da série do Thayer. Próximo índice nominal: G220, ἀλέκτωρ.
-Exigências cumpridas no lote: 100 search-row, 100 entry-card, IDs estáveis 0121–0220, popups gregos de lemas, citações editoriais da fonte. Ressalvas: a transcrição é uma síntese lexical em português; cotejo filológico visual individual de 100 entradas não foi integralmente comprovado; algumas referências aparecem como variantes e são explicitamente rotuladas. Links externos específicos não inseridos neste lote sem verificação. Testes browser/DOM pendentes.
-Somente chat-gpt-thayer pode ser escrita nesta rotina. Integração para chat-gpt-commits continua não autorizada pela lista de Rintegracao.
-
-
-LOTE 004 (11/10/2026): 100 verbetes THAYER de ἀλέκτωρ (G220) a ἀναγεννάω (G313). Número de índices inteiros no intervalo: 94. Seis cabeçalhos adicionais: ἀλλαχοῦ (237a); Ἀμπλίατος (variante de 291); ἀμφιβάλλω (292a); ἀμφιάζω (294); ἀμφιέζω (294); ἄμωμον (299a). O lema ἄλφα (255a) é antigo e não deve ser duplicado. A forma ἀμφιέννυμι (G294) é entrada própria, distinta das variantes. Módulo lexicons/thayer-batch-004.js, depois do lote 003 e antes de script.js. Fonte primária «Thayer (parte 1, Α–Ι).pdf», páginas impressas 27–36. 100 pares linha/cartão com IDs entry-thayer-0221–0320; total do conjunto: 321 (incluindo Ἀαρών em index.html). Próximo lema: ἀναγινώσκω (G314).
-As acepções em português são resumos editoriais apoiados em Thayer; preservar subdivisões de sentidos, leitura de variantes, dúvidas e atribuições. Não apresentar auditoria estrutural como revisão filológica integral. Sem URLs externas novas não verificadas. Teste DOM/browser e revisão por linha permanecem pendentes. Não alterar outras fontes nem executar integração fora da política atual.
-
-ADENDO PR #90 — INTEGRAÇÃO MANUAL (11/10/2026)
-Esta integração pontual dos lotes 003/004 foi expressamente solicitada; os 200 cartões e dois relatórios foram preservados em chat-gpt-commits, totalizando 321 verbetes THAYER. O histórico PR #87 permanece no checkpoint e a lista de origens autorizadas não se altera. Não modificar main nem descartar ou excluir branches. Revisão filológica e navegador pendentes.
-
-LOTE 005 (11/10/2026) — META ACUMULADA DE 400 THAYER
-79 entradas, G314–G392, ἀναγινώσκω → ἀνατάσσομαι. Módulos lexicons/thayer-batch-005a.js (G314–333, 20), 005b (G334–353, 20), 005c (G354–373, 20), 005d (G374–392, 19). IDs: entry-thayer-0321 a entry-thayer-0399; os 320 cartões modulares antigos e Ἀαρών estático permanecem. TOTAL: 400. Próximo: ἀνατέλλω (G393). Base filológica: Thayer (parte 1, Α–Ι).pdf, páginas impressas 36–42. Diferenciar ἀνάθεμα (maldição) de ἀνάθημα (oferta votiva) e ἀνάγκη (necessidade e aflição); preservar a variante G348 no Textus Receptus. Ἀνανίας consta no lema principal, variante WH Ἁνανίας assinalada. A contagem é de 79 entradas numeradas, não um inventário exaustivo dos cabeçalhos não numerados de Thayer. Auditoria filológica completa, links externos, DOM/browser e acessibilidade pendentes. A branch chat-gpt-thayer é exclusiva; não há merge automático em chat-gpt-commits nem edição em main.
-
-LOTE 006 (11/10/2026): 100 verbetes, de ἀνατέλλω (G393) a Ἀντιοχεύς (G491); 99 entradas com número inteiro G393–G491 e uma entrada suplementar ἀνέλεος (G415a). Total acumulado THAYER 500: 499 cartões e linhas dinâmicos nos módulos, mais cartão histórico Ἀαρών. IDs novos entry-thayer-0400–0499. Próximo verbete: ἀντιπαρέρχομαι (G492).
-Módulos independentes: thayer-batch-006a.js (20), 006b.js (20), 006c.js (20), 006d.js (20), 006e.js (20), carregados nesta ordem depois dos módulos 005 e antes de script.js. Texto em português é síntese editorial de Thayer; Strong é apenas índice. Diferenciar ἀνέλεος G415a de ἀνίλεως G448; registrar variantes de ἀνεξερεύνητος, ἀντίληψις e nomes próprios. Revisão filológica integral, citações em contexto, correspondência de páginas exatas, popups em navegador e testes de acessibilidade pendentes; somente auditoria estrutural comprovada. Não modificar main, chat-gpt-commits nem branch de origem na integração.
-
-AUDITORIA FILOLÓGICA — 500 REGISTROS — 11/10/2026
-Os arquivos auditorias/thayer-auditoria-filologica-500-2026-10-11.md e auditorias/thayer-auditoria-filologica-500-inventario.csv registram comparação dos 500 cabeçalhos com a transcrição auxiliar e confirmação visual dos problemas centrais no fac-símile. Resultado: 490 correspondências de lema, 7 divergências documentadas, 1 falso negativo da transcrição, 2 divergências gráficas aparentes; 12 candidatos adicionais a inclusão/remissão na obra impressa. Proibido afirmar que as acepções, morfologia, sintaxe, etimologias e testemunhos dos 500 verbetes foram homologados: revisão por entrada ainda PENDENTE. NÃO REESCREVER cartões sem cotejar fonte e documentação. Total atual 500; próximo ἀντιπαρέρχομαι. Não modificar main/chat-gpt-commits.
-
-
-PR DE CORREÇÃO PONTUAL THAYER-EST-001 — 11/10/2026
-Integração de `lexicons/thayer.js` corrigido na branch dedicada baseada em `chat-gpt-commits`. O diff altera somente o markup de `entry-thayer-0002` (Ἀβαδδών); `אָבַד` deve ser texto puro em `data-tooltip-label` e no `<bdi>`, conservando `ʾāḇaḏ` e “perecer”. Contagem permanece 500 (499 dinâmicos + 1 estático). Guardar relatório em auditorias/thayer-2026-10-11-resolucao-THAYER-EST-001.md. Preservar os outros léxicos, não escrever em main nem apagar branches. Testes browser/DOM e revisão filológica integral continuam pendentes.
-
-
-INTEGRAÇÃO DE CORREÇÕES CONFIRMADAS THAYER (11/10/2026): Sete fichas (0040, 0139, 0150, 0154, 0197, 0198, 0207) foram explicitamente anotadas como formas editoriais de artigos-matriz da fonte; mantidos lemas e IDs para busca e ligações. Sete ordinais duplicados corrigidos em ἀγαθός 0017. Data-search de Ἀαρών atualizado para Lc 1.5, At 7.40, Hb 5.4/7.11/9.4. Documento detalhado: auditorias/thayer-2026-10-11-correcoes-lematizacao-apresentacao-busca.md. Doze candidatos não incorporados sem homologação individual: auditorias/thayer-2026-10-11-triagem-de-12-candidatos.md. As auditorias das cinco faixas cobrem estrutura/texto interno de 500, NÃO homologação de todos os artigos. Nenhuma alteração em main e nenhum apagamento de branch de origem.
-
-
-SUPLEMENTO THAYER 12 FORMAS (11/10/2026): módulo lexicons/thayer-batch-007-suplemento.js de 12 entradas, IDs internos entry-thayer-0500–0511. O total passa a 512 (511 dinâmicas, Ἀαρών estático). Cada entrada classifica artigo, remissão ou variante, apresenta página da edição impressa e separa tradução/teoria editorial do texto da fonte. O sufixo a em índices eletrônicos não constitui Strong oficial. Relatório auditorias/thayer-2026-10-11-homologacao-supl-12.md, inventário auditorias/thayer-2026-10-11-homologacao-supl-12.csv. Pendente colação filológica integral e testes reais DOM. Preservar os 500 registros existentes, seus IDs e as alterações de outras fontes; não escrever main nem excluir branches.
-
-
-REGRESSÃO PÓS-SUPLEMENTO THAYER (11/10/2026): total 512 registros (511 dinâmicos + Ἀαρών); integridade estática do HTML, IDs, data-target e 14 módulos confirmada no escopo. Contadores: 109/511 cartões dinâmicos com algum hyperlink; 0/511 com link na seção de referências, 19/511 com padrão de paginação detectado no campo Fonte; 264/511 com seção semântica <120 caracteres; 65/511 com grego na acepção. Os contadores são indicadores formais, não verificação filológica de 512. Relatório: auditorias/thayer-2026-10-11-regressao-estatica-512.md. Revisão completa das acepções, citações e testes DOM permanece pendente. Sem escrita em main.
-
-
-AUDITORIA ATÔMICA THAYER (11/10/2026), NORMA RAUDITORIA: O total permanece 512, com 512 pares de registros estáticos conferidos, 12 suplementos classificados com cotejo dirigido não exaustivo e 15 URLs de passagens bíblicas verificadas/incorporadas no módulo 007. Nenhum dos 512 recebe AUDITORIA_CONCLUIDA antes de confronto palavra por palavra da fonte, correções, testes browser/DOM, evidência individual e integração confirmada. Estados pendentes registrados na matriz JSON/CSV de 512 linhas; relatório auditorias/thayer-2026-10-11-auditoria-atomica-512-relatorio.md. Métricas de triagem: 335 descrições com menos de 120 caracteres, 65 com grego na seção Acepções, 12 fichas com links na seção Referências. Estes são indicadores, não erros comprovados. Não aceitar a antiga triagem 512/512 como homologação. Guardar evidências e adotar projeto Fonte/Tradução/Análise/GDHAGP, respeitando cada léxico e as branches.
-
-
-THAYER AUDITORIA ATÔMICA 12/10/2026 — Execução real do navegador Chromium/Playwright GitHub Actions run 38205220873, job 114667101048: 512 linhas/cartões montados corretamente, 512 eventos DOM de click e 512 de Enter abriram os respectivos destinos; 3 navegações Playwright de amostra e 1 popup por foco. Fontes p. 1 de Thayer confrontadas na ficha ἄλφα: artigo grego τό, ἀτιμόω, Ap 11.17 e nota sobre prefixo intensivo corrigidos; PR #105 mesclado sha 2231a99909714b678c5caf945864d15dd1603ef6. Cotejo dirigido preliminar cumulativo 13/512, porém filologia integral = 0/512 e AUDITORIA_CONCLUIDA = 0/512. Ações CI futuras para alterações THAYER ficam no arquivo .github/workflows/thayer-browser-audit.yml. Não afirmar testes HTTP de todos os links nem plena acessibilidade. Arquivos: auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md, auditorias/thayer-2026-10-12-matriz-atomica-512.json, auditorias/thayer-2026-10-12-matriz-atomica-512.csv. Nenhum verbete de outra fonte alterado. Preserve Fonte/Tradução/Análise/GDHAGP; regra Rauditoria superior.
-
-
-CORREÇÃO DOCUMENTAL DO CHECKPOINT (12/10/2026): A auditoria independente detectou que lexicons/thayer-progress.json misturava campos do lote 006 (base 400; 100 verbetes; limite 500; ἀνατέλλω–Ἀντιοχεύς) com o suplemento 007 (base 500; 12 verbetes; limite 512; ἀγγέλλω–ἀναπηδάω). Os campos de checkpoint do último lote e as métricas audit foram reconciliados, conservando-se a fotografia do lote 006 em batch_006_audit_snapshot e o histórico de batches. Persistem 512 verbetes publicados, 512/512 estrutura/DOM conforme GitHub Actions run 38205220873, cotejo dirigido 13/512, homologação completa 0/512. Relatório: auditorias/thayer-2026-10-12-verificacao-independente.md. Não houve alteração de texto de verbetes nem de outras fontes; não alterar main.
-
-
-THAYER — COTEJO DIRIGIDO 87 FICHAS (12/10/2026). Foram examinados os IDs entry-thayer-0002–0088 por questão lexical dirigida, com o fac-símile (pp. impressas 1–12) e apoio secundário explicitamente separado. Juntam-se aos 13 previamente registrados, total 100/512 cotejos preliminares, SEM colação integral nem auditoria atômica (0/512). Duas correções: ἀγωνία, ressalva de Lc 22.44 segundo Thayer; ἀδιάκριτος, duas acepções originais. Páginas individuais não certificadas; documentação e evidência: auditorias/thayer-2026-10-12-cotejo-dirigido-87.md e JSON associado; matriz 512 JSON/CSV atualizada. Executar regressão browser após integração, sem confundi-la com a execução histórica, e manter isolamento da branch chat-gpt-thayer, sem escrever main.
-
-
-COTEJO DIRIGIDO THAYER 100 NOVAS FICHAS — 12/10/2026: IDs entry-thayer-0089–0188, correspondente ao intervalo auxiliar G88–G187. Fonte primária fac-símile Thayer parte 1 pp. impressas 12–23, com apoio eletrônico subordinado. Documentadas 100 verificações preliminares individualizadas, total 200/512 (39,0625%); 0/512 colações integrais e auditorias atômicas. Correções em cinco cartões (0090, 0091, 0105, 0122, 0185), restritas à fonte THAYER, com busca e lemas sincronizados. Evidências em auditorias/thayer-2026-10-12-cotejo-dirigido-100-0089-0188.md, JSON, e matriz 512 atualizada. Antes de homologar execução, exigir CI Chromium sobre HEAD novo; páginas individuais ainda não certificadas, nada em main nem overwrite da branch chat-gpt-thayer.
-
-
-COTEJOS DIRIGIDOS THAYER — 100 FICHAS ADICIONAIS 0189–0288, 12/10/2026: ἀκμή até ἀμνός, fonte canônica Thayer parte 1 pp. impressas 23–34. Matriz de 512 atualizada para 300/512 cotejos filológicos dirigidos preliminares; **zero** colações integrais/homologações atômicas. Inseridas ressalvas do próprio Thayer em ἀκολουθέω (variante Ap 18.5: ἠκολούθησαν/ἐκολλήθησαν) e ἀληθής (Jo 6.55 ἀληθής/ἀληθῶς e acepções). Fichas individualizadas e pendências em auditorias/thayer-2026-10-12-cotejo-dirigido-100-0189-0288.md e inventário JSON; corrigidos índices de busca em paralelo. Faixas de página são aproximações de localização e não certificação por artigo. A regressão Chromium deve corresponder ao novo HEAD; preservar chat-gpt-thayer, main e demais léxicos.
-
-
-THAYER — COTEJO DIRIGIDO 100 FICHAS 0289–0388 (12/10/2026). Consultado fac-símile `Thayer (parte 1, Α–Ι).pdf`, páginas impressas 33–46, e confrontados 100 cartões; quadro nominal e evidências em `auditorias/thayer-2026-10-12-cotejo-dirigido-100-0289-0388.md` e JSON associado. Total dirigido preliminar 400/512; colação integral 0/512 e auditoria atômica 0/512. Correções documentadas em ἀμφιβάλλω (evitar associação etimológica implícita), ἄν (classe modal) e ἀναίδεια (distinguir sentido e interpretação contextual). Preservar matriz completa de 512 registros bloqueados, origem THAYER e independência de outros léxicos. A localização em páginas não certifica página individual ou texto integral; somente marcar revisão dirigida. Exigir teste Chromium sobre novo SHA e merged=true em PR de `chat-gpt-commits`. Não alterar `main` nem excluir branches.
-
-
-THAYER — FECHAMENTO DOS COTEJOS DIRIGIDOS PRELIMINARES (12/10/2026). Últimas 112 fichas: entry-thayer-0389–0499 (111) e entry-aaron-thayer (1). Origem impressa Thayer, parte 1, pp. 35–51 e 1. Marcados 512/512 DIRIGIDO_PRELIMINAR, mas homologações integrais 0/512 e auditorias atômicas concluídas 0/512; os 512 permanecem BLOQUEADA. Correções comprovadas de glossa ou nota em ἀνατολή (nascer do sol), ἀνήμερος (2Tm 3.3) e ἀνταναπληρόω (completar por sua vez). As faixas de páginas não são prova da página individual de cada verbete, exceto Arão (p. 1). Relatório e inventário 112 em auditorias/thayer-2026-10-12-cotejo-dirigido-112-final.{md,json}. Exigir teste Chromium no novo commit, confirmação de PR mesclado para chat-gpt-commits, preservação de main e de branches lexicais.
-
-
-NORMA PERMANENTE — QUADRO GLOBAL DE PROGRESSO APÓS TODA EXECUÇÃO/AUDITORIA (RETIFICAÇÃO DE 11/10/2026)
-O usuário esclareceu que a 'tabela combinada' NÃO é a tabela nominal dos 100 cartões, mas o QUADRO CONSOLIDADO DE PROGRESSO DE TODOS OS DICIONÁRIOS. Esta norma prevalece sobre a instrução anterior e elimina a obrigatoriedade de exibir 100 linhas nominais em toda resposta. O inventário nominal de 100, quando produzido, pode continuar como relatório técnico anexo e NÃO substitui o quadro global.
-
-Após QUALQUER execução, auditoria, correção, integração ou falha, publicar obrigatoriamente ao final o quadro:
-Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado.
-Incluir sem omissões todas as frentes do projeto: BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS e LSJ; expandir sempre que forem criadas novas frentes.
-Símbolos: ✓ = comprovada no escopo indicado; ◐ = parcial, preliminar, auditoria em andamento; — = pendente ou sem prova de execução. Mostrar frações verdadeiras com numerador de cobertura, não números de acertos. Cada linha precisa exibir total incorporado numérico; para fontes sem entrada publicada, 0. Encerrar com linha TOTAL sem duplicar registros entre branches.
-Conferir HEAD remoto e manifestos por origem, módulos de busca/cartões e integração efetiva na branch chat-gpt-commits, PRs merged. Não confundir 100 verbetes auditados agora com 500 incorporados de THAYER, nem 500 lemas confrontados com 500 acepções homologadas. Não confundir triagem programática com auditoria filológica integral, nem registros preliminares HALOT com tradução concluída. Quando a precisão do total ou da integração não for comprovável, declarar NÃO VERIFICADO e não inventar número.
-Se houver auditoria nominal, produzir seu inventário para rastreabilidade, mas a tabela de progresso de TODAS as fontes é obrigatória NA RESPOSTA AO USUÁRIO, separadamente. Documentar esse acordo em README e no checkpoint e manter a regra global também na documentação consolidada.
-Fonte / Tradução / Análise / GDHAGP são camadas independentes. Não editar main e não alterar conteúdo lexical apenas para refletir uma auditoria.
-
-INTEGRAÇÃO PONTUAL PR #113 (12/10/2026): A conciliação conserva a versão mais recente dos módulos e checkpoint já presentes em chat-gpt-commits, recupera a norma de quadro global e documenta o histórico sem retroceder os cotejos dirigidos. A autorização do usuário para resolver especificamente o PR #113 não amplia a lista geral de fontes de integração. Não apagar chat-gpt-thayer nem alterar main. Merge e verificações finais exigem confirmação de estado remoto.
-
-THAYER LOTE 008: 200 verbetes G492-G691, IDs 0512-0711, total 712; tradução automática provisória e texto transcrito inglês auxiliar preservados. Somente incorporação, sem auditoria, homologação ou integração; cotejo do fac-símile pendente.
+LOTE INAUGURAL SOLICITADO: 100 artigos. Meta não equivale a conclusão;
+se o artigo seguinte não puder ser integralmente lido, interromper e
+declarar precisamente a contagem efetiva. A obra impressa totaliza
+número ainda indeterminado de artigos. Preservar histórico como histórico,
+sem importar automaticamente fichas antigas.
