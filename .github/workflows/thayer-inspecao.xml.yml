@@ -2,7 +2,7 @@ name: THAYER - inspecionar derivativos do facsimile
 on:
   push:
     branches: [chat-gpt-thayer-indice-titulos]
-    paths: [.github/workflows/thayer-inspecao.xml.yml]
+    paths: [.github/workflows/thayer-inspecao.xml.yml, tools/thayer_inspect_scans.py]
 permissions: {contents: read}
 jobs:
   inspect:
