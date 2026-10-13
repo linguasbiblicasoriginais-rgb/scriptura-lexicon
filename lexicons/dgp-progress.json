@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 7701,
-    "status": "Lotes DGP 1–125 incorporados; 7700 verbetes no manifesto; próxima entrada 7701. Somente incorporação.",
+    "next_ordinal": 7801,
+    "status": "Lotes DGP 1–126 incorporados; 7800 verbetes no manifesto; próxima entrada 7801. Somente incorporação.",
     "current_letter": "β"
   },
   "batches": [
@@ -1135,6 +1135,15 @@
       "end_ordinal": 7700,
       "start_entry": "βλίττω",
       "end_entry": "βουβών, ῶνος (ὁ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 126,
+      "start_ordinal": 7701,
+      "end_ordinal": 7800,
+      "start_entry": "βουγάϊος",
+      "end_entry": "βραχιονιστήρ, ῆρος (ὁ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
