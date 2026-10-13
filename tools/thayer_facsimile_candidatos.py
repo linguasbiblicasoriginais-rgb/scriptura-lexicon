@@ -18,7 +18,6 @@ import unicodedata
 import urllib.request
 
 import fitz
-import pandas as pd
 import pytesseract
 from PIL import Image, ImageOps, ImageEnhance
 from openpyxl import Workbook
