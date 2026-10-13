@@ -1,4 +1,61 @@
 ================================================================================
+NORMA VINCULANTE — THAYER EXCLUSIVAMENTE BASEADO NO FAC-SÍMILE — 13/10/2026
+================================================================================
+VIGÊNCIA: imediata, para TODAS as novas incorporações de THAYER. Esta norma
+prevalece sobre rotinas anteriores baseadas em listas de Strong, OCR não
+conferido, importação de datasets derivados ou traduções automáticas truncadas.
+
+1. FONTE PRIMÁRIA: os fac-símiles fotográficos da edição de Joseph Henry
+   Thayer fornecidos ao Scriptura Lexicon, notadamente "Thayer (parte 1,
+   Α–Ι).pdf" e "Thayer (parte 2, Κ–Ω).pdf". O arquivo fotográfico integral
+   thayersgreekengl0000thay.pdf pode auxiliar na localização correspondente,
+   desde que se confirme tratar-se do mesmo testemunho editorial. NUNCA
+   trocar edição ou leitura sem identificar expressamente a diferença.
+2. IDENTIDADE E SEQUÊNCIA: primeiro localizar VISUALMENTE cada cabeçalho
+   independente no impresso, na ordem original; registrar grafia politônica
+   literal, número/posição do artigo, página impressa, folha PDF e coluna.
+   Diferenciar artigo lexical, homógrafo autônomo, remissão impressa,
+   subentrada subordinada, cabeçalho corrente e falsa detecção de OCR.
+3. CONTEÚDO: ler/transcrever integralmente o artigo diretamente da página,
+   inclusive flexões, etimologia atribuída, acepções, restrições semânticas,
+   referências bíblicas, variantes textuais, exemplos e ressalvas do autor.
+   Traduzir ao português sem restringir o conteúdo aos primeiros caracteres
+   e sem resumir silenciosamente. Preservar separadamente Fonte, Tradução,
+   Análise e redação editorial GDHAGP.
+4. AUXILIARES: Strong, Bible Hub, Wikisource, OCR, outros datasets ou
+   traduções automáticas são instrumentos de BUSCA/DECIFRAÇÃO subordinados.
+   Não estabelecem quantidade, identidade, ordem nem leitura canônica de
+   verbetes. Nada proveniente deles poderá completar silenciosamente uma
+   lacuna do fac-símile; se usados, assinalar sua proveniência e distinguir
+   leitura efetivamente confirmada da hipótese.
+5. BLOQUEIO POR FONTE: se o cabeçalho ou qualquer passagem relevante não
+   puder ser identificada com segurança na fotografia, registrar pendência
+   e não certificar/incorporar o artigo como transcrição fiel. Não adivinhar,
+   fabricar homógrafos, converter número Strong em artigo ou omitir sentidos.
+6. ESCRITA E CONTAGEM: incorporar somente títulos e conteúdos localizados
+   no impresso; registrar o número efetivamente gravado, sem confundi-lo com
+   o total de artigos do dicionário ou com total de títulos confirmados.
+   O total real da obra continuará INDETERMINADO até inventário completo.
+   O checkpoint histórico de 712 cartões registra entradas digitais
+   existentes, NÃO 712 colações completas da fonte. Preservá-las como
+   material preliminar; não apagar nem declarar homologação retroativa.
+7. ESCOPO OPERACIONAL DESTE CHAT: somente incorporação THAYER e sua
+   documentação estritamente pertinente. Não realizar auditoria formal,
+   homologação, integração/merge, edição de main ou de outras fontes por
+   inferência. Nenhuma alteração substantiva nos artigos já existentes foi
+   autorizada por esta norma isoladamente.
+8. ROTINAS ANTIGAS: scripts que importam G### e traduzem apenas parte de
+   glossas (como o incorporador do lote 008) passam a ser legados e NÃO
+   poderão fundamentar novas incorporações. Substituir sua metodologia
+   antes de novos lotes, mantendo os registros e o histórico.
+
+Esta norma foi estabelecida expressamente pelo usuário em 13/10/2026:
+"a partir de agora, toda a integração deve ser baseada no fac-símile".
+Para THAYER, "integração" no contexto da instrução significa a incorporação
+de conteúdos lexicográficos, sem conceder permissão implícita de PR/merge.
+================================================================================
+
+================================================================================
 NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
 ================================================================================
 A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
