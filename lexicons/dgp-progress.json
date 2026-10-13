@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 9201,
-    "status": "Lotes DGP 1–140 incorporados; 9200 verbetes no manifesto; próxima entrada 9201. Somente incorporação.",
+    "next_ordinal": 9301,
+    "status": "Lotes DGP 1–141 incorporados; 9300 verbetes no manifesto; próxima entrada 9301. Somente incorporação.",
     "current_letter": "δ",
     "total_dictionary_entries": 44590
   },
@@ -1271,6 +1271,15 @@
       "end_ordinal": 9200,
       "start_entry": "δημηγόρος, ος, ον",
       "end_entry": "διαβιάζομαι",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 141,
+      "start_ordinal": 9201,
+      "end_ordinal": 9300,
+      "start_entry": "διαβιβάζω",
+      "end_entry": "διαζάω-ῶ",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
