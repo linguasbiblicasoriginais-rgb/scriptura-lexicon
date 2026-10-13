@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 8201,
-    "status": "Lotes DGP 1–130 incorporados; 8200 verbetes no manifesto; próxima entrada 8201. Somente incorporação.",
+    "next_ordinal": 8301,
+    "status": "Lotes DGP 1–131 incorporados; 8300 verbetes no manifesto; próxima entrada 8301. Somente incorporação.",
     "current_letter": "γ",
     "total_dictionary_entries": 44590
   },
@@ -1181,6 +1181,15 @@
       "end_ordinal": 8200,
       "start_entry": "γέννησις, εως (ἡ)",
       "end_entry": "γηροβοσκός, ός, όν",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 131,
+      "start_ordinal": 8201,
+      "end_ordinal": 8300,
+      "start_entry": "γηροκομέω",
+      "end_entry": "γνωμονικός, ή, όν",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
