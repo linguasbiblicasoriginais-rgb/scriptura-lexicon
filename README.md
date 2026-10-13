@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 137 (13/10/2026)
+
+100 verbetes canônicos, ordinais **8801–8900** (**δεικνύω** → **∆εκελειᾶσιν**), em `lexicons/dgp-batch-137.js`. Acumulado: **8900**; próximo **8901**. Somente incorporação.
+
 ## DGP — incorporação do lote 136 (13/10/2026)
 
 100 verbetes canônicos, ordinais **8701–8800** (**δασπλής, ῆτος** → **δείκνυμι**), em `lexicons/dgp-batch-136.js`. Acumulado: **8800**; próximo **8801**. Somente incorporação.
