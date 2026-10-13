@@ -1098,5 +1098,30 @@
   },
   "last_batch_translation_status": "AUTOMATICA_PROVISORIA_NAO_AUDITADA",
   "source_transcription_sha256": "837eceefc48f1a05b0f6aa031214c4c675536f3e4bfa0ea2b00dae1c22675526",
-  "source_transcription_records": 6134
+  "source_transcription_records": 6134,
+  "incorporation_source_policy": {
+    "effective_date": "2026-10-13",
+    "status": "VINCULANTE_PARA_NOVAS_INCORPORACOES",
+    "primary_evidence": "fac-símile fotográfico original da edição de Thayer fornecido pelo usuário",
+    "identification": "lema, grafia, ordem, tipo de artigo e limites definidos somente pela página impressa examinada",
+    "mandatory_locator": [
+      "página impressa",
+      "folha PDF",
+      "coluna"
+    ],
+    "content_rule": "transcrição integral conferida no fac-símile; tradução sem truncamento de acepções",
+    "auxiliary_sources": "Strong, OCR e datasets somente como auxiliares explicitamente identificados; nunca substitutos da fonte",
+    "unreadable_rule": "não incorporar como confirmado; registrar lacuna e suspender a entrada",
+    "historical_entries": "712 registros digitais preliminares; não representam 712 cotejos completos do fac-símile",
+    "total_printed_articles": "INDETERMINADO",
+    "automatic_strongs_import": "PROIBIDO_PARA_FUTUROS_LOTES",
+    "excluded_operations": [
+      "auditoria formal",
+      "homologação",
+      "PR",
+      "merge",
+      "edição de main"
+    ],
+    "governing_rule": "regras/Rthayer.txt — NORMA VINCULANTE — THAYER EXCLUSIVAMENTE BASEADO NO FAC-SÍMILE"
+  }
 }
