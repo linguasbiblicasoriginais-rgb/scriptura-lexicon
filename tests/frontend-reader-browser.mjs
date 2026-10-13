@@ -11,7 +11,19 @@ const pageErrors = [];
 page.on("pageerror", e => pageErrors.push(e.message));
 
 const report = [];
+const localCovers = {"THAYER":"imagens/capas/thayer.png","BDAG":"imagens/capas/bdag.png","LEH":"imagens/capas/leh.png","DGP":"imagens/capas/dgp.png","ROBINSON":"imagens/capas/robinson.png","ABBOTT-SMITH":"imagens/capas/abbott-smith.png","HALOT":"imagens/capas/halot.png","JASTROW":"imagens/capas/jastrow.png"};
+const renderedCovers = new Set();
 try {
+    // As oito imagens precisam ser PNG íntegros e estar acessíveis pelo servidor local.
+    for (const [source, path] of Object.entries(localCovers)) {
+        const response = await page.request.get(new URL(path, url).toString());
+        assert.equal(response.status(), 200, "Capa não encontrada: " + source);
+        const bytes = await response.body();
+        assert.ok(bytes.length > 1024, "Arquivo de capa vazio: " + source);
+        assert.equal(bytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a",
+            "Arquivo de capa inválido (esperado PNG): " + source);
+    }
+
     for (const dictionary of ["grego", "hebraico", "aramaico", "latim"]) {
         await page.goto(url + "#" + dictionary, {
             waitUntil: "domcontentloaded", timeout: 180000
@@ -48,6 +60,22 @@ try {
             const shown = await page.locator("#source-details-entries").textContent();
             assert.equal(Number(shown.replace(/\D/g, "")), count,
                 "Contagem bibliográfica deve corresponder ao corpus carregado");
+
+            if (Object.hasOwn(localCovers, source)) {
+                const expected = localCovers[source];
+                await page.waitForFunction(path => {
+                    const image = document.getElementById("source-cover-image");
+                    return image && !image.hidden && image.complete &&
+                        image.naturalWidth > 0 && image.naturalHeight > 0 &&
+                        image.getAttribute("src") === path;
+                }, expected, { timeout: 20000 });
+
+                const fit = await page.locator("#source-cover-image").evaluate(
+                    image => getComputedStyle(image).objectFit
+                );
+                assert.equal(fit, "contain", "Imagem não deve ser cortada: " + source);
+                renderedCovers.add(source);
+            }
 
             const sample = await page.evaluate(({dictionary,source}) => {
                 return [...document.querySelectorAll("tr.search-row")]
@@ -119,6 +147,8 @@ try {
     await page.goto(url + "#grego", { waitUntil: "domcontentloaded", timeout:180000 });
     assert.equal(await page.locator("#search-input").isVisible(), true,
         "Caixa de pesquisa não está disponível em telefone");
+    report.push({ pngLocais: Object.keys(localCovers).length,
+        exibidasNaInterface: [...renderedCovers].sort() });
     assert.equal(pageErrors.length, 0,
         "Exceções JavaScript: " + pageErrors.slice(0, 5).join("; "));
     process.stdout.write(JSON.stringify({status:"PASS",browser:"Chromium",report},null,2)+"\n");
