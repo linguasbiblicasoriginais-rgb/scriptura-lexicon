@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 200,
-    "next_ordinal": 1001,
-    "next_source_id": "A01000",
-    "next_lemma": "אַחְוָא,",
-    "source_records_retrieved": 1000,
+    "next_ordinal": 1201,
+    "next_source_id": "A01200",
+    "next_lemma": "אִיזְמֵיל,",
+    "source_records_retrieved": 2000,
     "first_source_id": "A00000",
-    "last_source_id": "A00999",
-    "next_source_batch_ordinal": 1001,
-    "next_source_batch_id": "A01000",
-    "next_source_batch_lemma": "אַחְוָא,",
-    "total_published": 1000,
+    "last_source_id": "A01999",
+    "next_source_batch_ordinal": 2001,
+    "next_source_batch_id": "A02000",
+    "next_source_batch_lemma": "אָמוֹן,",
+    "total_published": 1200,
     "total_audited": 0,
     "total_integrated": 1000,
     "editorial_status": "1.000 entradas JASTROW publicadas e integradas em chat-gpt-commits até o PR #117 (merge 648338afde3d7e3fa505f3b5915c4dd4e8af76ce). Os últimos 400 são sínteses portuguesas; os primeiros 600 passaram por triagem automática e cinco cotejos manuais. Auditoria filológica integral e auditoria atômica seguem pendentes: total_audited=0.",
-    "source_status": "1.000 registros canônicos originais preservados em cinco lotes de 200; A01000 ainda não extraído.",
+    "source_status": "2.000 registros originais canônicos armazenados; 1.200 verbetes editoriais publicados.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
   },
@@ -235,24 +235,34 @@
         "lexicons/jastrow-951-1000.js"
       ],
       "status": "200 registros lexicais sintetizados em português na branch exclusiva, sem auditoria ou integração."
+    },
+    {
+      "batch": 11,
+      "source_start_ordinal": 1001,
+      "source_end_ordinal": 1200,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0006.json",
+      "translated_start_ordinal": 1001,
+      "translated_end_ordinal": 1200,
+      "translated_count": 200,
+      "translated_first_id": "A01000",
+      "translated_last_id": "A01199",
+      "translated_files": [
+        "lexicons/jastrow-1001-1100.js",
+        "lexicons/jastrow-1101-1200.js"
+      ],
+      "status": "Incorporados em português na branch exclusiva, sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
-    "date": "2026-10-12",
-    "requested": 200,
+    "requested": 1000,
     "new_translations_committed": 200,
-    "prior_published": 800,
-    "total_published": 1000,
-    "new_range": "A00800–A00999",
-    "next_ordinal": 1001,
-    "next_source_id": "A01000",
-    "next_lemma": "אַחְוָא,",
-    "source_records_retrieved_total": 1000,
-    "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+    "prior_published": 1000,
+    "total_published": 1200,
+    "new_range": "A01000–A01199",
     "audit_performed": false,
     "homologation_performed": false,
-    "integration_performed": false,
-    "editorial_level": "sínteses portuguesas das acepções e remissões, com original preservado integralmente"
+    "integration_performed": false
   },
   "constraints": {
     "never_invent": true,
