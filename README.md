@@ -1,3 +1,11 @@
+## THAYER — fonte primária obrigatória para todas as próximas incorporações (13/10/2026)
+
+**Regra vigente:** identificar cada artigo e transcrever seu conteúdo diretamente das fotografias da edição impressa de Thayer. O fac-símile determina a existência, a grafia e a ordem dos cabeçalhos, os homógrafos e remissões, as acepções e os limites de cada artigo. Para cada registro, documentar página impressa, folha do PDF e coluna. Strong e transcrições eletrônicas poderão auxiliar na busca, nunca substituir o texto impresso ou suprir lacunas sem indicação explícita. Se a leitura não for segura, suspender a incorporação do artigo e registrar a pendência, sem adivinhar. Proibido voltar a importar verbetes pela mera sequência G### ou traduzir somente trechos truncados.
+
+**Estado histórico:** 712 registros digitais existentes não equivalem a 712 artigos filologicamente conferidos; a quantidade efetiva de artigos impressos está por determinar. O material legado não foi apagado nem reclassificado como homologado. Esta norma altera o método das incorporações futuras, sem autorizar auditoria formal, homologação, PR, merge ou edição de `main`.
+
+Norma detalhada: [regras/Rthayer.txt](regras/Rthayer.txt).
+
 ## THAYER — lote 008 (200 entradas)
 
 Incorporação exclusiva em chat-gpt-thayer dos índices auxiliares G492–G691 (200 novos; total 712). Texto inglês de digitalização CC0 preservado e tradução inicial automática ao português, ainda não cotejada com o fac-símile Thayer. Sem auditoria, homologação ou integração nesta execução.
