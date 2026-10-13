@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 10791,
-    "status": "Lotes DGP 1–156 incorporados; 10790 verbetes no manifesto; próxima entrada 10791. Somente incorporação.",
+    "next_ordinal": 10891,
+    "status": "Lotes DGP 1–157 incorporados; 10890 verbetes no manifesto; próxima entrada 10891. Somente incorporação.",
     "current_letter": "δ",
     "total_dictionary_entries": 44590
   },
@@ -1415,6 +1415,15 @@
       "end_ordinal": 10790,
       "start_entry": "δρηπέτης",
       "end_entry": "δυσάθλιος, ος, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 157,
+      "start_ordinal": 10791,
+      "end_ordinal": 10890,
+      "start_entry": "δυσαιανής, ής, ές",
+      "end_entry": "δυσευνάτωρ, ορος",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
