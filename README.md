@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 129 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** dos XML canônicos, ordinais **8001–8100** (**γαυρότης, ητος (ἡ)** → **γέννημα, ατος (τό)**), em `lexicons/dgp-batch-129.js`. Acumulado: **8100**; próximo **8101**. Exclusivamente incorporação.
+
 ## DGP — incorporação do lote 118 (13/10/2026)
 
 Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6901–7000** (**ἀφελής, ής, ές** → **ἄφοδος, ου (ἡ)**), no módulo `lexicons/dgp-batch-118.js`, carregado antes do formatador. Manifesto: **7000 verbetes**; próximo ordinal **7001**. Somente incorporação, sem auditoria, homologação nem integração.
