@@ -1810,8 +1810,9 @@ tbody tr:last-child td {
 }
 
 .source-details-cover {
-    min-height: 226px;
-    aspect-ratio: 2 / 3;
+    min-height: 0;
+    /* Proporção original da imagem, sem enquadramento ou recorte. */
+    aspect-ratio: auto;
     overflow: hidden;
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -1822,8 +1823,10 @@ tbody tr:last-child td {
 .source-cover-image {
     display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 280px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .source-cover-placeholder {
@@ -1942,7 +1945,7 @@ tbody tr:last-child td {
 
 @media (max-width: 720px) {
     .source-details { grid-template-columns: 1fr; gap: 15px; padding: 17px; }
-    .source-details-cover { width: 122px; min-height: 183px; }
+    .source-details-cover { width: 122px; min-height: 0; }
     .source-cover-placeholder { min-height: 183px; }
     .source-details-grid { grid-template-columns: 1fr; }
     .source-cover-title { font-size: .84rem; }
