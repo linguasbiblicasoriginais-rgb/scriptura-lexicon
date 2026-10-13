@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 19691,
-    "status": "Lotes DGP 1–245 incorporados; 19690 registros no manifesto; próxima entrada 19691. Somente incorporação.",
+    "next_ordinal": 19791,
+    "status": "Lotes DGP 1–246 incorporados; 19790 registros no manifesto; próxima entrada 19791. Somente incorporação.",
     "current_letter": "θ",
     "total_dictionary_entries": 44590
   },
@@ -2216,6 +2216,15 @@
       "end_ordinal": 19690,
       "start_entry": "θόρυβος, ου (ὁ)",
       "end_entry": "θριπήδεστος, ος",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 246,
+      "start_ordinal": 19691,
+      "end_ordinal": 19790,
+      "start_entry": "θρίψ, θριπός (ὁ)",
+      "end_entry": "θύος, εος-ους (τό)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
