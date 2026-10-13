@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 200,
-    "next_ordinal": 1601,
-    "next_source_id": "A01600",
-    "next_lemma": "אִיקָנֹוס",
+    "next_ordinal": 1801,
+    "next_source_id": "A01800",
+    "next_lemma": "אֱלֹוהֹות",
     "source_records_retrieved": 2000,
     "first_source_id": "A00000",
     "last_source_id": "A01999",
     "next_source_batch_ordinal": 2001,
     "next_source_batch_id": "A02000",
     "next_source_batch_lemma": "אָמוֹן,",
-    "total_published": 1600,
+    "total_published": 1800,
     "total_audited": 0,
     "total_integrated": 1000,
     "editorial_status": "1.000 entradas JASTROW publicadas e integradas em chat-gpt-commits até o PR #117 (merge 648338afde3d7e3fa505f3b5915c4dd4e8af76ce). Os últimos 400 são sínteses portuguesas; os primeiros 600 passaram por triagem automática e cinco cotejos manuais. Auditoria filológica integral e auditoria atômica seguem pendentes: total_audited=0.",
-    "source_status": "2.000 registros originais; 1.600 verbetes editoriais publicados.",
+    "source_status": "2.000 registros originais; 1.800 verbetes editoriais publicados.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
   },
@@ -286,14 +286,31 @@
         "lexicons/jastrow-1501-1600.js"
       ],
       "status": "Incorporados em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 14,
+      "source_start_ordinal": 1601,
+      "source_end_ordinal": 1800,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0009.json",
+      "translated_start_ordinal": 1601,
+      "translated_end_ordinal": 1800,
+      "translated_count": 200,
+      "translated_first_id": "A01600",
+      "translated_last_id": "A01799",
+      "translated_files": [
+        "lexicons/jastrow-1601-1700.js",
+        "lexicons/jastrow-1701-1800.js"
+      ],
+      "status": "Incorporados em português; sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
     "requested": 1000,
-    "new_translations_committed": 600,
+    "new_translations_committed": 800,
     "prior_published": 1000,
-    "total_published": 1600,
-    "new_range": "A01000–A01599",
+    "total_published": 1800,
+    "new_range": "A01000–A01799",
     "audit_performed": false,
     "homologation_performed": false,
     "integration_performed": false
