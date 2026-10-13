@@ -1,3 +1,11 @@
+## THAYER — Segundo lote: 50/100 artigos de trabalho (13/10/2026)
+
+Na branch `chat-gpt-thayer`, a segunda rodada começou em **ἄδολος** (p. impressa 12) e avançou por **50 novos artigos** até **αἰσθητήριον** (p. 17), elevando o acumulado do reinício a **150 registros digitais**. O próximo artigo na sequência fotográfica é **αἰσχροκερδής**, p. 17. O estado operacional está em `lexicons/thayer-progress.json`.
+
+**Proveniência:** cada artigo desta rodada foi localizado no fac-símile, páginas impressas **12–17** (folhas PDF **36–41**). As leituras OCR derivadas dessas fotografias estão preservadas, com as imperfeições reconhecidas, em `lexicons/thayer-source-facsimile-011.json` até `015.json`; os cartões de tradução em português aparecem em `lexicons/thayer-batch-011-facsimile.js` até `015-facsimile.js`, carregados na interface. Strong e dicionários digitais externos não determinam os cabeçalhos nem completam o texto-fonte. Variantes e pareceres exegéticos do autor permanecem atribuídos a Thayer.
+
+**Estado filológico:** são registros **de tradução portuguesa de trabalho** e **OCR inglês bruto**, não 150 artigos em transcrição diplomática certificada ou tradução integral homologada. Há divergências gráficas no OCR de grego; o testemunho impresso é a autoridade. A segunda meta permanece **incompleta: 50/100**. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi feita. Os 712 registros anteriores continuam arquivados separadamente.
+
 ## THAYER — primeira meta de 100 registros atingida pelo fac-símile (13/10/2026)
 
 A branch exclusiva `chat-gpt-thayer` contém **100 artigos digitais (100/100)** após o reinício: de **Α, α, ἄλφα** até **ἀδόκιμος**, incluindo os artigos remissivos autônomos, na ordem das **páginas impressas 1–12** (folhas digitais 25–36). A continuação desta execução incorporou **60** novos registros a partir de **ἁγιάζω**, distribuídos entre `lexicons/thayer-source-facsimile-006.json` a `010.json` e `lexicons/thayer-batch-006-facsimile.js` a `010-facsimile.js`. O próximo artigo impresso é **ἄδολος**, p. 12. Ver `lexicons/thayer-progress.json`.
