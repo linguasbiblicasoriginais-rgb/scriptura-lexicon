@@ -1,12 +1,19 @@
-import gzip,urllib.request,xml.etree.ElementTree as ET,io,json,time,os
-base="https://archive.org/download/thayersgreekengl0000thay/"
-for suffix in ("_abbyy.gz","_djvu.xml","_scandata.xml"):
- url=base+"thayersgreekengl0000thay"+suffix
- try:
-  rq=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
-  with urllib.request.urlopen(rq,timeout=75) as r:
-   print("RESOURCE",suffix,"STATUS",r.status,"SIZE",r.headers.get("Content-Length"),"TYPE",r.headers.get("Content-Type"),flush=True)
-   data=r.read(12000)
-   if suffix.endswith(".gz"):data=gzip.decompress(data) if len(data)<1000 else data[:100]
-   print("SAMPLE",repr(data[:800]),flush=True)
- except Exception as e:print("ERROR",suffix,type(e).__name__,str(e)[:300],flush=True)
+import xml.etree.ElementTree as ET,urllib.request,collections,io
+u="https://archive.org/download/thayersgreekengl0000thay/thayersgreekengl0000thay_djvu.xml"
+data=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=90).read()
+print("DOWNLOAD",len(data),flush=True)
+root=ET.fromstring(data)
+objs=root.findall(".//OBJECT")
+print("OBJECTS",len(objs),flush=True)
+for page in [24,25,26,27,29,30,31,200,707]:
+ if page>=len(objs):continue
+ obj=objs[page]
+ lines=obj.findall(".//LINE")
+ first=[]
+ for j,line in enumerate(lines):
+  ws=line.findall("./WORD")
+  if ws:
+   s=" ".join((w.text or "").strip() for w in ws[:9])
+   first.append((j,s,ws[0].get("coords"),ws[0].get("x-confidence")))
+ print("PAGE",page+1,"OBJECT",obj.get("width"),obj.get("height"),"LINES",len(lines),flush=True)
+ for a in first[:30]:print("  ",a,flush=True)
