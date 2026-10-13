@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 200,
-    "next_ordinal": 1201,
-    "next_source_id": "A01200",
-    "next_lemma": "אִיזְמֵיל,",
+    "next_ordinal": 1401,
+    "next_source_id": "A01400",
+    "next_lemma": "אִיסָדָא",
     "source_records_retrieved": 2000,
     "first_source_id": "A00000",
     "last_source_id": "A01999",
     "next_source_batch_ordinal": 2001,
     "next_source_batch_id": "A02000",
     "next_source_batch_lemma": "אָמוֹן,",
-    "total_published": 1200,
+    "total_published": 1400,
     "total_audited": 0,
     "total_integrated": 1000,
     "editorial_status": "1.000 entradas JASTROW publicadas e integradas em chat-gpt-commits até o PR #117 (merge 648338afde3d7e3fa505f3b5915c4dd4e8af76ce). Os últimos 400 são sínteses portuguesas; os primeiros 600 passaram por triagem automática e cinco cotejos manuais. Auditoria filológica integral e auditoria atômica seguem pendentes: total_audited=0.",
-    "source_status": "2.000 registros originais canônicos armazenados; 1.200 verbetes editoriais publicados.",
+    "source_status": "2.000 registros originais; 1.400 verbetes editoriais publicados.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
   },
@@ -252,14 +252,31 @@
         "lexicons/jastrow-1101-1200.js"
       ],
       "status": "Incorporados em português na branch exclusiva, sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 12,
+      "source_start_ordinal": 1201,
+      "source_end_ordinal": 1400,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0007.json",
+      "translated_start_ordinal": 1201,
+      "translated_end_ordinal": 1400,
+      "translated_count": 200,
+      "translated_first_id": "A01200",
+      "translated_last_id": "A01399",
+      "translated_files": [
+        "lexicons/jastrow-1201-1300.js",
+        "lexicons/jastrow-1301-1400.js"
+      ],
+      "status": "Incorporados em português; sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
     "requested": 1000,
-    "new_translations_committed": 200,
+    "new_translations_committed": 400,
     "prior_published": 1000,
-    "total_published": 1200,
-    "new_range": "A01000–A01199",
+    "total_published": 1400,
+    "new_range": "A01000–A01399",
     "audit_performed": false,
     "homologation_performed": false,
     "integration_performed": false
