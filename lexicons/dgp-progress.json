@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 14691,
-    "status": "Lotes DGP 1–195 incorporados; 14690 verbetes no manifesto; próxima entrada 14691. Somente incorporação.",
+    "next_ordinal": 14791,
+    "status": "Lotes DGP 1–196 incorporados; 14790 verbetes no manifesto; próxima entrada 14791. Somente incorporação.",
     "current_letter": "ε",
     "total_dictionary_entries": 44590
   },
@@ -1766,6 +1766,15 @@
       "end_ordinal": 14690,
       "start_entry": "ἐξορμέω-ῶ",
       "end_entry": "ἐπαιγίζω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 196,
+      "start_ordinal": 14691,
+      "end_ordinal": 14790,
+      "start_entry": "ἐπαιδέομαι-οῦμαι",
+      "end_entry": "ἐπανατρέχω",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
