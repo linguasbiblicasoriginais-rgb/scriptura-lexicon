@@ -1,3 +1,9 @@
+## Homologação funcional das capas — 13/10/2026
+
+GitHub Actions [frontend-reader #38402737323](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38402737323), commit de correção CSS `ef5804cba8ec6a1a59a17b8e84a4f1be66f38abd`: **PASS em Chromium**. Confirmados HTTP 200 e assinatura PNG de **8/8 arquivos**, carregamento efetivo de **8/8 imagens** nos filtros de fontes, `object-fit: contain` aplicado ao elemento correto `#source-cover-image`; regressão funcional de 6 fontes gregas, 1 hebraica e 1 aramaica. Latim permanece sem corpus. A execução não valida fidelidade filológica ou identidade entre edições.
+
+A primeira execução do teste ampliado (#38402501104) identificou que o CSS anterior mirava uma classe ausente no HTML. O seletor foi corrigido em `style.css` e a regressão completa foi repetida com sucesso; não se considerou o teste falho como aprovação.
+
 ## Capas locais fornecidas pelo mantenedor — 13/10/2026
 
 Oito arquivos PNG localizados e verificados em `imagens/capas/` na branch `chat-gpt-frontend`. `lexicons/source-catalog.js` contém os caminhos relativos, e `style.css` mostra a imagem integral com proporção preservada. O teste Chromium verifica resposta HTTP e assinatura PNG dos oito arquivos e o carregamento visual das capas cujas fontes estão disponíveis no seletor.
