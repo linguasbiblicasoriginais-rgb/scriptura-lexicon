@@ -1,3 +1,7 @@
+## THAYER — continuação do lote de 100 (13/10/2026)
+
+Reinício sobre fac-símile: **17/100 artigos** incorporados, nas páginas impressas 1–2, de `Α, α, ἄλφα` a `ἀγαθοποιός`. Próximo `ἀγαθός`, cujo artigo prossegue na página impressa 3. Nenhuma das 712 fichas legadas foi reaproveitada como texto-fonte. Cópia preservada em `archive/thayer-legacy-712-2026-10-13`.
+
 ## THAYER — reincorporação desde o primeiro artigo (13/10/2026)
 
 Após o reset para zero e preservação de 712 registros na branch `archive/thayer-legacy-712-2026-10-13`, foram incorporados **8 artigos originais** de `Α, α, ἄλφα` a `Ἀβιαθάρ`, correspondentes à primeira página impressa da edição fotografada, folha PDF 25. Meta inicial: 100. Estado: **8/100**; próximo artigo `Ἀβιληνή`. A versão portuguesa apresenta o artigo em seus sentidos e ressalvas com proveniência; a extração inglesa OCR da fotografia é mantida separadamente e não é autoridade acima da imagem. Sem homologação ou auditoria formal.
