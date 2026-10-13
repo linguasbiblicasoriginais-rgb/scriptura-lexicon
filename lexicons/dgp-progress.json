@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 19991,
-    "status": "Lotes DGP 1–248 incorporados; 19990 registros no manifesto; próxima entrada 19991. Somente incorporação.",
+    "next_ordinal": 20091,
+    "status": "Lotes DGP 1–249 incorporados; 20090 registros no manifesto; próxima entrada 20091. Somente incorporação.",
     "current_letter": "ι",
     "total_dictionary_entries": 44590
   },
@@ -2243,6 +2243,15 @@
       "end_ordinal": 19990,
       "start_entry": "ἰάλλω",
       "end_entry": "ἱδρύω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 249,
+      "start_ordinal": 19991,
+      "end_ordinal": 20090,
+      "start_entry": "ἱδρῶ, ἱδρῷ",
+      "end_entry": "Ἰησονίδης, ου (ὁ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
