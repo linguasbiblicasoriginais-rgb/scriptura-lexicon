@@ -1,3 +1,7 @@
+## THAYER — reincorporação desde o primeiro artigo (13/10/2026)
+
+Após o reset para zero e preservação de 712 registros na branch `archive/thayer-legacy-712-2026-10-13`, foram incorporados **8 artigos originais** de `Α, α, ἄλφα` a `Ἀβιαθάρ`, correspondentes à primeira página impressa da edição fotografada, folha PDF 25. Meta inicial: 100. Estado: **8/100**; próximo artigo `Ἀβιληνή`. A versão portuguesa apresenta o artigo em seus sentidos e ressalvas com proveniência; a extração inglesa OCR da fotografia é mantida separadamente e não é autoridade acima da imagem. Sem homologação ou auditoria formal.
+
 ## THAYER — reinício a partir do fac-símile (13/10/2026)
 
 Os **712 registros históricos** foram conservados na branch

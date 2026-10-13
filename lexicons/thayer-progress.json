@@ -7,11 +7,11 @@
   "archive_branch": "archive/thayer-legacy-712-2026-10-13",
   "archive_commit": "b24163f3c99d9ff156e39806ca69111e00459486",
   "archived_entries": 712,
-  "total_published": 0,
+  "total_published": 8,
   "target_first_batch": 100,
-  "batch_incorporated": 0,
+  "batch_incorporated": 8,
   "total_printed_articles": null,
-  "next_lemma": "Α, α, ἄλφα",
+  "next_lemma": "Ἀβιληνή",
   "source_reference": "Thayer, A Greek-English Lexicon of the New Testament, edição fotografada enviada pelo usuário",
   "first_folio": "p. impressa 1 (folha PDF 25 no scan integral thayersgreekengl0000thay.pdf)",
   "rules": "regras/Rthayer.txt",
@@ -28,5 +28,21 @@
     "column",
     "entry_type"
   ],
-  "batches": []
+  "batches": [
+    {
+      "number": 1,
+      "date": "2026-10-13",
+      "target": 100,
+      "incorporated": 8,
+      "first": "Α, α, ἄλφα",
+      "last": "Ἀβιαθάρ",
+      "next": "Ἀβιληνή",
+      "source": "fac-símile da página impressa 1 (folha digital 25)",
+      "module": "lexicons/thayer.js",
+      "source_text": "lexicons/thayer-source-facsimile-001.json",
+      "status": "PARCIAL; NÃO AUDITADO NEM HOMOLOGADO"
+    }
+  ],
+  "last_incorporated": "Ἀβιαθάρ",
+  "first_batch_source_scope": "Thayer, página impressa 1, folha 25, 2 colunas"
 }
