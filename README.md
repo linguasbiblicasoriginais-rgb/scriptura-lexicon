@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 101 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5201–5300** (**ἀπονοστέω-ῶ** → **ἀπορρίπτω**), no módulo `lexicons/dgp-batch-101.js`, carregado antes do formatador. Manifesto: **5300 verbetes**; próximo ordinal **5301**. Somente incorporação, sem auditoria, homologação nem integração.
+
 ## DGP — incorporação do lote 100 (13/10/2026)
 
 Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5101–5200** (**ἀπολήψομαι** → **ἄπονος, ος, ον**), no módulo `lexicons/dgp-batch-100.js`, carregado antes do formatador. Manifesto: **5200 verbetes**; próximo ordinal **5201**. Somente incorporação, sem auditoria, homologação nem integração.
