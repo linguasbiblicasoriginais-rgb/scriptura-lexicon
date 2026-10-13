@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 91 (13/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4201–4300** (**ἀνύω** → **ἀοιδή, ῆς (ἡ)**), no módulo `lexicons/dgp-batch-091.js`, carregado antes do formatador. Acumulado: **4300** verbetes; próximo ordinal **4301**. Somente incorporação, sem auditoria, homologação ou integração.
+
 ## DGP — incorporação do lote 90 (12/10/2026)
 
 Incorporados 100 verbetes consecutivos, ordinais **4101–4200** (**ἀντιτάσσω,** → **ἀνύψωμα, ατος (τό)**), no módulo `lexicons/dgp-batch-090.js`, carregado antes do formatador. Acumulado: **4200** verbetes; próximo ordinal **4201**. Somente incorporação; nenhuma auditoria, homologação ou integração realizada.
