@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 133 (13/10/2026)
+
+Incorporados 100 verbetes dos XML canônicos, ordinais **8401–8500** (**γραμματίδιον, ου (τό)** → **γυπιάς, άδος**) em `lexicons/dgp-batch-133.js`. Total: **8500**; próximo **8501**. Somente incorporação.
+
 ## DGP — incorporação do lote 132 (13/10/2026)
 
 Incorporados 100 verbetes do XML canônico γ, ordinais **8301–8400** (**γνωμοτύπος, ος, ον** → **γραματεύω**) em `lexicons/dgp-batch-132.js`. Total: **8400**; próximo **8401**. Somente incorporação.
