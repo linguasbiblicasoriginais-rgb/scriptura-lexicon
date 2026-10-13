@@ -1,3 +1,7 @@
+## THAYER — 40/100 artigos reincorporados pelo fac-símile (13/10/2026)
+
+Continuação do reinício: **23 artigos novos**, de **ἀγαθός** a **ἀγενής**, nas páginas impressas 2–6 (folhas PDF 26–30), elevando o acumulado de **17 para 40**. Os textos OCR foram extraídos das imagens correspondentes e conservados em arquivos fonte distintos das traduções portuguesas de trabalho. A fotografia prevalece sobre eventuais erros do OCR. Arquivos novos: `lexicons/thayer-source-facsimile-003.json`, `004.json`, `005.json`, com cartões de busca `lexicons/thayer-batch-003-facsimile.js`, `004` e `005`. **Próximo artigo: ἁγιάζω**, p. impressa 6. Meta inicial 100, faltam 60. Não houve auditoria formal, homologação, integração, PR ou merge. O material anterior de 712 fichas permanece arquivado.
+
 ## THAYER — continuação do lote de 100 (13/10/2026)
 
 Reinício sobre fac-símile: **17/100 artigos** incorporados, nas páginas impressas 1–2, de `Α, α, ἄλφα` a `ἀγαθοποιός`. Próximo `ἀγαθός`, cujo artigo prossegue na página impressa 3. Nenhuma das 712 fichas legadas foi reaproveitada como texto-fonte. Cópia preservada em `archive/thayer-legacy-712-2026-10-13`.
