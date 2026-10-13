@@ -1,0 +1,74 @@
+name: THAYER - OCR paralelo dos títulos do facsimile
+on:
+  push:
+    branches: [chat-gpt-thayer-ocr-paralelo]
+    paths: [.github/workflows/thayer-ocr-paralelo.yml]
+permissions: {contents: write}
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --quiet openpyxl
+      - name: Enumerar as posições no facsimile de 683 páginas
+        run: python tools/thayer_ocr_paralelo.py prepare
+      - uses: actions/upload-artifact@v4
+        with:
+          name: thayer-candidatos
+          path: /tmp/thayer-candidatos/candidatos.json
+  extrair:
+    needs: preparar
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        part: [0,1,2,3,4,5,6,7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - uses: actions/download-artifact@v4
+        with:
+          name: thayer-candidatos
+          path: /tmp/thayer-candidatos
+      - name: Instalar OCR grego para palavras isoladas
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
+          sudo curl -fsSL --retry 3 https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/grc.traineddata -o /usr/share/tesseract-ocr/5/tessdata/grc.traineddata
+          python -m pip install --quiet pymupdf pillow pytesseract openpyxl
+      - name: OCR da oitava parte das fotografias
+        run: python tools/thayer_ocr_paralelo.py recognize ${{ matrix.part }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: thayer-ocr-${{ matrix.part }}
+          path: /tmp/thayer-ocr-results/parte-${{ matrix.part }}.json
+  consolidar:
+    needs: extrair
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-thayer-ocr-paralelo
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --quiet openpyxl
+      - uses: actions/download-artifact@v4
+        with:
+          name: thayer-candidatos
+          path: /tmp/thayer-candidatos
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: thayer-ocr-*
+          path: /tmp/thayer-ocr-results
+          merge-multiple: true
+      - name: Gerar planilha Excel e publicar somente no ramo isolado
+        run: python tools/thayer_ocr_paralelo.py consolidate
