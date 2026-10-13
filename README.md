@@ -1,3 +1,7 @@
+## DGP — incorporação do lote 130 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** dos XML canônicos, ordinais **8101–8200** (**γέννησις, εως (ἡ)** → **γηροβοσκός, ός, όν**), em `lexicons/dgp-batch-130.js`. Acumulado: **8200**; próximo **8201**. Exclusivamente incorporação.
+
 ## DGP — incorporação do lote 129 (13/10/2026)
 
 Incorporados **100 verbetes consecutivos** dos XML canônicos, ordinais **8001–8100** (**γαυρότης, ητος (ἡ)** → **γέννημα, ατος (τό)**), em `lexicons/dgp-batch-129.js`. Acumulado: **8100**; próximo **8101**. Exclusivamente incorporação.
