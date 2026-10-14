@@ -1,0 +1,33 @@
+name: JASTROW - pre-voo de integracao sem escrita
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - ".github/workflows/jastrow-integration-preflight.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulacao-leitura:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Simular merge sem tocar refs ou arquivos de producao
+        run: |
+          git fetch origin chat-gpt-commits chat-gpt-correcoes
+          echo "ORIGEM=$(git rev-parse origin/chat-gpt-correcoes)"
+          echo "DESTINO=$(git rev-parse origin/chat-gpt-commits)"
+          echo "JASTROW_DIFFS:"
+          git diff --stat origin/chat-gpt-commits origin/chat-gpt-correcoes -- 'lexicons/jastrow*.js'
+          echo "MERGE_TREE_PREVIEW:"
+          set +e
+          git merge-tree --write-tree --name-only origin/chat-gpt-commits origin/chat-gpt-correcoes > /tmp/jastrow-merge-preview.txt 2>&1
+          outcome=$?
+          set -e
+          sed -n '1,100p' /tmp/jastrow-merge-preview.txt
+          echo "MERGE_TREE_EXIT_CODE=$outcome"
+          echo "NO_REAL_MERGE_PERFORMED=true"
+          exit 0

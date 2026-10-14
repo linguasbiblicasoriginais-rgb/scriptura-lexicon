@@ -1,0 +1,2061 @@
+{
+  "schema": "JASTROW-philology/4",
+  "date": "2026-10-12",
+  "source": "Jastrow Sefaria XML pinned 947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "scope": "100 previously unaudited records A00242 through A00363",
+  "counts": {
+    "A": 73,
+    "C": 27,
+    "P": 0
+  },
+  "limitation": "Manuscript and printed witnesses cited by Jastrow not independently collated; no live browser test.",
+  "records": [
+    {
+      "id": "A00242",
+      "ordinal": 243,
+      "lemma": "אֲגַד,",
+      "source_sha256": "77083bcbd8f8923c6c23098a11b3f8675a0e8ba43fc28498006970ac7d5263f9",
+      "source_xml": "<entry id=\"A00242\">\n<head-word>אֲגַד, </head-word>\n<hw-number>II</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; \n<italic>to be lengthened</italic>.</definition>\n<notes> Targ. Y. Ex. XIX, 13; Deut. XXX, 6. Denom. אוֹגְדוּתָא.</notes></sense></senses></entry>\n",
+      "original_html": "Forma aramaica correspondente ao hebraico <bdi dir='rtl' lang='he'>אָגַד</bdi> II, “alongar-se”. Targum Pseudo-Jônatas Êxodo 19.13 e Deuteronômio 30.6; ver <bdi dir='rtl' lang='he'>אוֹגְדוּתָא</bdi>.",
+      "validated_html": "Forma aramaica correspondente ao hebraico <bdi dir='rtl' lang='he'>אָגַד</bdi> II, “alongar-se”. Targum Pseudo-Jônatas Êxodo 19.13 e Deuteronômio 30.6; ver <bdi dir='rtl' lang='he'>אוֹגְדוּתָא</bdi>.",
+      "source_headwords": [
+        "אֲגַד,"
+      ],
+      "source_senses": [
+        "; to be lengthened . Targ. Y. Ex. XIX, 13; Deut. XXX, 6. Denom. אוֹגְדוּתָא."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00244",
+      "ordinal": 245,
+      "lemma": "(אִיגְדּ־) אֵגֶד",
+      "source_sha256": "e6cdad570293080a71026c51e3bd20b53e0ae3853d389ad325bbc1afa32060ab",
+      "source_xml": "<entry id=\"A00244\">\n<head-word>(אִיגְדּ־) אֵגֶד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אגד I) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>tie, knot</italic>.</definition>\n<notes> Succ. 10\n<sup>b</sup>, a. fr. צריך א' must be tied together. Ib. הותר אִגְדּוֹ if the tie of the Lulab became loosened. Erub. 101\n<sup>b</sup> sq. בניטל באִגְדּוֹ (a. twice אִיגְ', Rabb. in D. S. a. l. באוּגְדּוֹ) when the door pin is handled by pulling the cord knotted to it.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>bunch</italic>.</definition>\n<notes> Y. Ter. II, 41\n<sup>b</sup> א' שנטמא a bunch of herbs that became unclean.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> surgical \n<italic>bandage</italic>.</definition>\n<notes> Sabb. 53\n<sup>a</sup></notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Nó ou amarração; Sucá 10b discute o feixe do lulav e seu nó desfeito; Eruvin 101b menciona cordão preso a pino de porta. <strong>2.</strong> Feixe, molho de ervas (Jerusalém Terumot 2, 41b). <strong>3.</strong> Atadura ou bandagem cirúrgica (Shabbat 53a). Variantes de forma <bdi dir='rtl' lang='he'>אֵגֶד, אִיגְדּ־</bdi>.",
+      "validated_html": "<strong>1.</strong> Nó ou amarração; Sucá 10b discute o feixe do lulav e seu nó desfeito; Eruvin 101b menciona cordão preso a pino de porta. <strong>2.</strong> Feixe, molho de ervas (Jerusalém Terumot 2, 41b). <strong>3.</strong> Atadura ou bandagem cirúrgica (Shabbat 53a). Variantes de forma <bdi dir='rtl' lang='he'>אֵגֶד, אִיגְדּ־</bdi>. <strong>Aparato filológico (lote 004):</strong> <strong>Aparato das amarrações:</strong> o primeiro sentido («nó, ligadura») registra <bdi dir='rtl' lang='he'>צריך א׳</bdi>, «necessita de amarração», e <bdi dir='rtl' lang='he'>הותר אִגְדּוֹ</bdi>, «desfez-se a atadura do lulav» (Sucá 10b). Em Eruvin 101b, <bdi dir='rtl' lang='he'>בניטל באִגְדּוֹ</bdi> é o pino da porta movido ao puxar a corda; a transcrição informa duas ocorrências da abreviação <bdi dir='rtl' lang='he'>אִיג׳</bdi> e atribui a Rabbinovicz a leitura <bdi dir='rtl' lang='he'>באוּגְדּוֹ</bdi>. O segundo sentido, <bdi dir='rtl' lang='he'>א׳ שנטמא</bdi>, é «feixe de ervas que se tornou impuro» (Jerusalém Terumot 2, 41b). A atadura cirúrgica de Shabbat 53a é a terceira acepção, não extensão de «nó de porta».",
+      "source_headwords": [
+        "(אִיגְדּ־) אֵגֶד"
+      ],
+      "source_senses": [
+        "(אגד I)",
+        "1) tie, knot . Succ. 10 b , a. fr. צריך א' must be tied together. Ib. הותר אִגְדּוֹ if the tie of the Lulab became loosened. Erub. 101 b sq. בניטל באִגְדּוֹ (a. twice אִיגְ', Rabb. in D. S. a. l. באוּגְדּוֹ) when the door pin is handled by pulling the cord knotted to it.",
+        "—2) bunch . Y. Ter. II, 41 b א' שנטמא a bunch of herbs that became unclean.",
+        "—3) surgical bandage . Sabb. 53 a"
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Aparato das amarrações: o primeiro sentido («nó, ligadura») registra צריך א׳ , «necessita de amarração», e הותר אִגְדּוֹ , «desfez-se a atadura do lulav» (Sucá 10b). Em Eruvin 101b, בניטל באִגְדּוֹ é o pino da porta movido ao puxar a corda; a transcrição informa duas ocorrências da abreviação אִיג׳ e atribui a Rabbinovicz a leitura באוּגְדּוֹ . O segundo sentido, א׳ שנטמא , é «feixe de ervas que se tornou impuro» (Jerusalém Terumot 2, 41b). A atadura cirúrgica de Shabbat 53a é a terceira acepção, não extensão de «nó de porta».",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00245",
+      "ordinal": 246,
+      "lemma": "אֵגֶד,",
+      "source_sha256": "f299ab8d1dbb5c3728d61a1bad95fde13e8769e816d66902968d676fdfb295da",
+      "source_xml": "<entry id=\"A00245\">\n<head-word>אֵגֶד, </head-word>\n<head-word>אֵיגֶד</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Succ. 33\n<sup>b</sup> אי' מעלייתא וכ' (fem.!) it requires a substantial binding.</notes></sense></senses></entry>\n",
+      "original_html": "Equivalente aramaico de <bdi dir='rtl' lang='he'>אֵגֶד</bdi>; variante <bdi dir='rtl' lang='he'>אֵיגֶד</bdi>. Sucá 33b registra necessidade de uma amarração resistente, apesar de alternância de gênero gramatical na frase.",
+      "validated_html": "Equivalente aramaico de <bdi dir='rtl' lang='he'>אֵגֶד</bdi>; variante <bdi dir='rtl' lang='he'>אֵיגֶד</bdi>. Sucá 33b registra necessidade de uma amarração resistente, apesar de alternância de gênero gramatical na frase. <strong>Aparato filológico (lote 004):</strong> <strong>Gênero documentado:</strong> embora Jastrow classifique a forma <bdi dir='rtl' lang='he'>אֵגֶד, אֵיגֶד</bdi> como aramaica correspondente ao substantivo masculino hebraico, Sucá 33b traz <bdi dir='rtl' lang='he'>אי׳ מעלייתא</bdi>, «amarração firme», com concordância feminina explicitamente assinalada pelo autor como <i>fem.!</i>. Não nivelar o uso efetivo ao gênero do cabeçalho.",
+      "source_headwords": [
+        "אֵגֶד,",
+        "אֵיגֶד"
+      ],
+      "source_senses": [
+        "Succ. 33 b אי' מעלייתא וכ' (fem.!) it requires a substantial binding."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Gênero documentado: embora Jastrow classifique a forma אֵגֶד, אֵיגֶד como aramaica correspondente ao substantivo masculino hebraico, Sucá 33b traz אי׳ מעלייתא , «amarração firme», com concordância feminina explicitamente assinalada pelo autor como fem.! . Não nivelar o uso efetivo ao gênero do cabeçalho.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00246",
+      "ordinal": 247,
+      "lemma": "אַגְדָּא",
+      "source_sha256": "05e04ff501a91e18d9995972142c052fa9c7c59655eed12f534d96870f05ae85",
+      "source_xml": "<entry id=\"A00246\">\n<head-word>אַגְדָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00243\">אֲגַד III</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida ao substantivo <bdi dir='rtl' lang='he'>אֲגַד</bdi> III, “vara comprida; muleta; travessão”.",
+      "validated_html": "Forma remetida ao substantivo <bdi dir='rtl' lang='he'>אֲגַד</bdi> III, “vara comprida; muleta; travessão”.",
+      "source_headwords": [
+        "אַגְדָּא"
+      ],
+      "source_senses": [
+        ", v. אֲגַד III"
+      ],
+      "source_xrefs": [
+        "A00243"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00248",
+      "ordinal": 249,
+      "lemma": "אֲגֻדָּה",
+      "source_sha256": "b1c6eb0d33448e3e8d1b5ec6c2d9a194f56d20787cf66e3b19c4f45c1e7ff575",
+      "source_xml": "<entry id=\"A00248\">\n<head-word>אֲגֻדָּה</head-word>\n<senses>\n<sense>\n<definition>\n<italic>, </italic>\n<plural-form>pl.אֲגֻדּוֹת</plural-form> Tosef. Makhsh. III, 8 ed. Zuck., v. \n<xref rid=\"A00258\">אֲגוּדָּה</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "original_html": "Plural <bdi dir='rtl' lang='he'>אֲגֻדּוֹת</bdi> em Tosefta Makhshirin 3.8, remetido a <bdi dir='rtl' lang='he'>אֲגוּדָּה</bdi>.",
+      "validated_html": "Plural <bdi dir='rtl' lang='he'>אֲגֻדּוֹת</bdi> em Tosefta Makhshirin 3.8, remetido a <bdi dir='rtl' lang='he'>אֲגוּדָּה</bdi>.",
+      "source_headwords": [
+        "אֲגֻדָּה"
+      ],
+      "source_senses": [
+        ", pl.אֲגֻדּוֹת Tosef. Makhsh. III, 8 ed. Zuck., v. אֲגוּדָּה ."
+      ],
+      "source_xrefs": [
+        "A00258"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00249",
+      "ordinal": 250,
+      "lemma": "אגדו,",
+      "source_sha256": "ea1ae486ff2331e47b60095fe7cc8fc4b87bbd14da3ae78fb6186f6046d1659d",
+      "source_xml": "<entry id=\"A00249\">\n<head-word>אגדו, </head-word>\n<head-word>אגדון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00344\">אִגְּרוּ</xref></notes></sense></senses></entry>\n",
+      "original_html": "Formas <bdi dir='rtl' lang='he'>אגדו, אגדון</bdi> remetidas a <bdi dir='rtl' lang='he'>אִגְּרוּ</bdi>.",
+      "validated_html": "Formas <bdi dir='rtl' lang='he'>אגדו, אגדון</bdi> remetidas a <bdi dir='rtl' lang='he'>אִגְּרוּ</bdi>.",
+      "source_headwords": [
+        "אגדו,",
+        "אגדון"
+      ],
+      "source_senses": [
+        ", v. אִגְּרוּ"
+      ],
+      "source_xrefs": [
+        "A00344"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00250",
+      "ordinal": 251,
+      "lemma": "אגדיס",
+      "source_sha256": "1d965d69feba6d3823e4e37b6a9d0c8059c86a56faf47487b63dc3ea76b0bfdb",
+      "source_xml": "<entry id=\"A00250\">\n<head-word>אגדיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">הָגְדָּס</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi dir='rtl' lang='he'>הָגְדָּס</bdi>.",
+      "validated_html": "Forma remetida a <bdi dir='rtl' lang='he'>הָגְדָּס</bdi>.",
+      "source_headwords": [
+        "אגדיס"
+      ],
+      "source_senses": [
+        ", v. הָגְדָּס"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00251",
+      "ordinal": 252,
+      "lemma": "אֶגְדִּיקוֹס",
+      "source_sha256": "231ad824f1ca274d2619264e85cc106ac0097270822aef2fdec999fe14660bdb",
+      "source_xml": "<entry id=\"A00251\">\n<head-word>אֶגְדִּיקוֹס</head-word>\n<senses>\n<sense>\n<definition> (אֶגְדִּיקָס, popular corrupt. אנד', cmp. אַנְדִּיסְקֵי)\n<pos> m.</pos> (ecdicus = cognitor sive defensor civitatis, esp. in Asia Minor) \n<italic>state’s agent, syndic</italic>.</definition>\n<notes> Gen. R. s. 12 א' ממונה על ביא שלה (ed. אנד'; בית שלו, corr. acc.) when an ecdicus is in the country, he holds the authority over the public road (curator viæ, v. בִּיָּא). Yalk. Ps. 794 (a. Ar.) אגר', corr. acc.—\n<plural-form>Pl. אֶגְדִּיקִין, אנ'</plural-form>. Cant. R. to VII, 9 (ed. אנ').</notes></sense></senses></entry>\n",
+      "original_html": "Do latim <i>ecdicus</i>, agente ou representante jurídico da cidade, síndico, defensor cívico (especialmente Ásia Menor). Variantes <bdi dir='rtl' lang='he'>אֶגְדִּיקָס, אנד׳</bdi>. Gênesis Rabá 12 atribui a um <i>ecdicus</i> responsabilidade por via pública; há variantes editoriais. Plural <bdi dir='rtl' lang='he'>אֶגְדִּיקִין</bdi> (Cântico dos Cânticos Rabá 7.9). A interpretação institucional deriva da fonte.",
+      "validated_html": "Do latim <i>ecdicus</i>, agente ou representante jurídico da cidade, síndico, defensor cívico (especialmente Ásia Menor). Variantes <bdi dir='rtl' lang='he'>אֶגְדִּיקָס, אנד׳</bdi>. Gênesis Rabá 12 atribui a um <i>ecdicus</i> responsabilidade por via pública; há variantes editoriais. Plural <bdi dir='rtl' lang='he'>אֶגְדִּיקִין</bdi> (Cântico dos Cânticos Rabá 7.9). A interpretação institucional deriva da fonte. <strong>Aparato filológico (lote 004):</strong> <strong>Variantes e função pública:</strong> Jastrow compara o latim <i>ecdicus</i>, definido por ele como <i>cognitor sive defensor civitatis</i>, e destaca seu uso na Ásia Menor. Na explicação de Gênesis Rabá §12, <bdi dir='rtl' lang='he'>א׳ ממונה על ביא שלה</bdi> é o agente responsável pela via pública (<i>curator viae</i>); a edição tem <bdi dir='rtl' lang='he'>אנד׳</bdi> e <bdi dir='rtl' lang='he'>בית שלו</bdi>, que o lexicógrafo julga passíveis de correção. Yalkut Salmos §794 e <i>Arukh</i> apresentam ainda <bdi dir='rtl' lang='he'>אגר׳</bdi>; plural <bdi dir='rtl' lang='he'>אֶגְדִּיקִין</bdi> versus abreviação <bdi dir='rtl' lang='he'>אנ׳</bdi> em Cântico Rabá 7.9. A identificação precisa das competências segue a interpretação do autor, não comprovante jurídico independente.",
+      "source_headwords": [
+        "אֶגְדִּיקוֹס"
+      ],
+      "source_senses": [
+        "(אֶגְדִּיקָס, popular corrupt. אנד', cmp. אַנְדִּיסְקֵי) m. (ecdicus = cognitor sive defensor civitatis, esp. in Asia Minor) state’s agent, syndic . Gen. R. s. 12 א' ממונה על ביא שלה (ed. אנד'; בית שלו, corr. acc.) when an ecdicus is in the country, he holds the authority over the public road (curator viæ, v. בִּיָּא). Yalk. Ps. 794 (a. Ar.) אגר', corr. acc.— Pl. אֶגְדִּיקִין, אנ' . Cant. R. to VII, 9 (ed. אנ')."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Variantes e função pública: Jastrow compara o latim ecdicus , definido por ele como cognitor sive defensor civitatis , e destaca seu uso na Ásia Menor. Na explicação de Gênesis Rabá §12, א׳ ממונה על ביא שלה é o agente responsável pela via pública ( curator viae ); a edição tem אנד׳ e בית שלו , que o lexicógrafo julga passíveis de correção. Yalkut Salmos §794 e Arukh apresentam ainda אגר׳ ; plural אֶגְדִּיקִין versus abreviação אנ׳ em Cântico Rabá 7.9. A identificação precisa das competências segue a interpretação do autor, não comprovante jurídico independente.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00252",
+      "ordinal": 253,
+      "lemma": "אַגְדָּנָא",
+      "source_sha256": "e9214a35532539596bdf8b08cf61f9c949a61bafd8a5ddbd959b01a367c4531a",
+      "source_xml": "<entry id=\"A00252\">\n<head-word>אַגְדָּנָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C00153\">גַּד I</xref> a. \n<xref rid=\"C00809\">גִּירָּא</xref>, P. Sm. 23) \n<italic>worm-wood</italic> (Rashi: \n<italic>horehound</italic>).</definition>\n<notes> Ab. Zar. 29\n<sup>a</sup> Ar. a. ed. (Ms. M. אוגרנא, with ר), in a prescription against asthma. Targ. Y. I Deut. XXIX, 17 אגד' (Var. אגר'); ed. Vienna pl. אַגְדָּנַיָּא (אגר').</notes></sense></senses></entry>\n",
+      "original_html": "Planta medicinal identificada por Jastrow como losna; Rashi a descreve como marrúbio. Avodah Zarah 29a: ingrediente de receita contra asma. Variante manuscrita <bdi dir='rtl' lang='he'>אוגרנא</bdi>. Targum Pseudo-Jônatas Deuteronômio 29.17 e edição vienense registram formas <bdi dir='rtl' lang='he'>אגדנא, אגדניא</bdi>; há variação de leitura.",
+      "validated_html": "Planta medicinal identificada por Jastrow como losna; Rashi a descreve como marrúbio. Avodah Zarah 29a: ingrediente de receita contra asma. Variante manuscrita <bdi dir='rtl' lang='he'>אוגרנא</bdi>. Targum Pseudo-Jônatas Deuteronômio 29.17 e edição vienense registram formas <bdi dir='rtl' lang='he'>אגדנא, אגדניא</bdi>; há variação de leitura. <strong>Aparato filológico (lote 004):</strong> <strong>Aparato das plantas:</strong> Avodah Zarah 29a, edição e <i>Arukh</i>, apresenta a planta medicinal na receita contra asma; manuscrito M. registra <bdi dir='rtl' lang='he'>אוגרנא</bdi>, com <i>resh</i>. Rashi interpreta-a como <i>horehound</i> (marrúbio), enquanto Jastrow oferece <i>wormwood</i> (losna); são identificações concorrentes. Targum Pseudo-Jônatas Deuteronômio 29.17: <bdi dir='rtl' lang='he'>אגד׳</bdi>, variante <bdi dir='rtl' lang='he'>אגר׳</bdi>; a edição de Viena apresenta o plural <bdi dir='rtl' lang='he'>אַגְדָּנַיָּא</bdi>, com variante <bdi dir='rtl' lang='he'>אגר׳</bdi>. Comparar <bdi dir='rtl' lang='he'>גַּד</bdi> I e <bdi dir='rtl' lang='he'>גִּירָּא</bdi> é análise proposta pela fonte.",
+      "source_headwords": [
+        "אַגְדָּנָא"
+      ],
+      "source_senses": [
+        "(v. גַּד I a. גִּירָּא , P. Sm. 23) worm-wood (Rashi: horehound ). Ab. Zar. 29 a Ar. a. ed. (Ms. M. אוגרנא, with ר), in a prescription against asthma. Targ. Y. I Deut. XXIX, 17 אגד' (Var. אגר'); ed. Vienna pl. אַגְדָּנַיָּא (אגר')."
+      ],
+      "source_xrefs": [
+        "C00153",
+        "C00809"
+      ],
+      "status": "C",
+      "decision": "Aparato das plantas: Avodah Zarah 29a, edição e Arukh , apresenta a planta medicinal na receita contra asma; manuscrito M. registra אוגרנא , com resh . Rashi interpreta-a como horehound (marrúbio), enquanto Jastrow oferece wormwood (losna); são identificações concorrentes. Targum Pseudo-Jônatas Deuteronômio 29.17: אגד׳ , variante אגר׳ ; a edição de Viena apresenta o plural אַגְדָּנַיָּא , com variante אגר׳ . Comparar גַּד I e גִּירָּא é análise proposta pela fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00253",
+      "ordinal": 254,
+      "lemma": "אֲגַדְתָּא",
+      "source_sha256": "6cbe1e22d361a8d73f9960521417a802e2ffb74045d0d4b7fa9b04e7a130cb03",
+      "source_xml": "<entry id=\"A00253\">\n<head-word>אֲגַדְתָּא</head-word>\n<pos> f.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= h. אֲגָדָה) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>Agadah, homiletic literature</italic>.</definition>\n<notes> B. Kam. 60\n<sup>b</sup> opp. שמעתתא. Sotah 49\n<sup>a</sup> יהא שמיה רבא דא' (abbr. יה\"ש\"ר) the \n<italic>kaddish</italic> (prayer) after lectures. Y. Sabb. XVI, 15\n<sup>c</sup></notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>the Haggadah</italic>, i.e. \n<italic>the recitations for the Passover night</italic>.</definition>\n<notes> Ps. 115\n<sup>b</sup> א' והלילא Haggadah and Hallel. Ib. 116\n<sup>b</sup> מאן דאמר א' וכ' who recited the Hag. in the house of R. Joseph (who was blind)?</notes></sense></senses></entry>\n",
+      "original_html": "Equivalente aramaico de <bdi dir='rtl' lang='he'>אַגָּדָה</bdi>. <strong>1.</strong> Tradição homilética rabínica, em oposição à discussão legal (<bdi dir='rtl' lang='he'>שמעתתא</bdi>; Bava Kamma 60b). Sotá 49a menciona o Kadish após as homilias; Jerusalém Shabbat 16, 15c. <strong>2.</strong> **Hagadá** recitada na noite da Páscoa, com Hallel (Pesahim 115b–116b).",
+      "validated_html": "Equivalente aramaico de <bdi dir='rtl' lang='he'>אַגָּדָה</bdi>. <strong>1.</strong> Tradição homilética rabínica, em oposição à discussão legal (<bdi dir='rtl' lang='he'>שמעתתא</bdi>; Bava Kamma 60b). Sotá 49a menciona o Kadish após as homilias; Jerusalém Shabbat 16, 15c. <strong>2.</strong> **Hagadá** recitada na noite da Páscoa, com Hallel (Pesahim 115b–116b). <strong>Aparato filológico (lote 004):</strong> <strong>Separação de acepções e liturgia:</strong> no sentido 1, <bdi dir='rtl' lang='he'>אֲגַדְתָּא</bdi> é literatura homilética, contraposta a <bdi dir='rtl' lang='he'>שמעתתא</bdi>, debate jurídico (Bava Kamma 60b). Sotá 49a cita <bdi dir='rtl' lang='he'>יהא שמיה רבא דא׳</bdi>, abreviado <bdi dir='rtl' lang='he'>יה״ש״ר</bdi>, fórmula do Kadish após preleções, e Jerusalém Shabbat 16, 15c. No sentido 2, a Hagadá pascal e o Hallel aparecem como <bdi dir='rtl' lang='he'>א׳ והלילא</bdi> (Pesahim 115b); em 116b, <bdi dir='rtl' lang='he'>מאן דאמר א׳</bdi> pergunta quem recitou a Hagadá na casa de Rabi José, identificado por Jastrow como cego. A liturgia pascal não é sinônimo irrestrito da literatura homilética.",
+      "source_headwords": [
+        "אֲגַדְתָּא"
+      ],
+      "source_senses": [
+        "(= h. אֲגָדָה)",
+        "1) Agadah, homiletic literature . B. Kam. 60 b opp. שמעתתא. Sotah 49 a יהא שמיה רבא דא' (abbr. יה\"ש\"ר) the kaddish (prayer) after lectures. Y. Sabb. XVI, 15 c",
+        "—2) the Haggadah , i.e. the recitations for the Passover night . Ps. 115 b א' והלילא Haggadah and Hallel. Ib. 116 b מאן דאמר א' וכ' who recited the Hag. in the house of R. Joseph (who was blind)?"
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Separação de acepções e liturgia: no sentido 1, אֲגַדְתָּא é literatura homilética, contraposta a שמעתתא , debate jurídico (Bava Kamma 60b). Sotá 49a cita יהא שמיה רבא דא׳ , abreviado יה״ש״ר , fórmula do Kadish após preleções, e Jerusalém Shabbat 16, 15c. No sentido 2, a Hagadá pascal e o Hallel aparecem como א׳ והלילא (Pesahim 115b); em 116b, מאן דאמר א׳ pergunta quem recitou a Hagadá na casa de Rabi José, identificado por Jastrow como cego. A liturgia pascal não é sinônimo irrestrito da literatura homilética.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00254",
+      "ordinal": 255,
+      "lemma": "אֵגֶה",
+      "source_sha256": "585e4b6d655282da701fdb7d3b62e589c5d377198a3310c075af38ed6a3c5ab7",
+      "source_xml": "<entry id=\"A00254\">\n<head-word>אֵגֶה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אָגָה \n<italic>to sting</italic>, v. \n<xref rid=\"A00233\">אָגָא</xref>, \n<xref rid=\"unknown\">√אג</xref> = חג, v. חגג) \n<italic>thorn, thorn-bush</italic>.</definition>\n<notes> Y. Shebi. VII, 37\n<sup>b</sup> top.—\n<plural-form>Pl. אֵגִין</plural-form>. Y. Kil. V, 30\n<sup>a</sup> bot.; v. הֵיגֶה.</notes></sense></senses></entry>\n",
+      "original_html": "Espinho, espinheiro; Jastrow compara verbo associado a ferir ou picar. Jerusalém Sheviit 7, 37b; plural <bdi dir='rtl' lang='he'>אֵגִין</bdi> em Jerusalém Kilayim 5, 30a. Ver <bdi dir='rtl' lang='he'>הֵיגֶה</bdi>.",
+      "validated_html": "Espinho, espinheiro; Jastrow compara verbo associado a ferir ou picar. Jerusalém Sheviit 7, 37b; plural <bdi dir='rtl' lang='he'>אֵגִין</bdi> em Jerusalém Kilayim 5, 30a. Ver <bdi dir='rtl' lang='he'>הֵיגֶה</bdi>.",
+      "source_headwords": [
+        "אֵגֶה"
+      ],
+      "source_senses": [
+        "(אָגָה to sting , v. אָגָא , √אג = חג, v. חגג) thorn, thorn-bush . Y. Shebi. VII, 37 b top.— Pl. אֵגִין . Y. Kil. V, 30 a bot.; v. הֵיגֶה."
+      ],
+      "source_xrefs": [
+        "A00233",
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00255",
+      "ordinal": 256,
+      "lemma": "אַגְוָאִי",
+      "source_sha256": "eb6cf1d8cb318961ae108804f69128e6edf70fdd921d785c9be0dc20e0f68d4b",
+      "source_xml": "<entry id=\"A00255\">\n<head-word>אַגְוָאִי</head-word>\n<senses>\n<sense>\n<definition> adv. \n<italic>inside, amid</italic>, v. אַבְרָאִי.</definition>\n<notes> Ḥull. 130\n<sup>ab</sup>. Cmp. גַּו.</notes></sense></senses></entry>\n",
+      "original_html": "Em posição interior, no meio; oposto a “fora” (<bdi dir='rtl' lang='he'>אַבְרָאִי</bdi>). Hulin 130a–b; comparar <bdi dir='rtl' lang='he'>גַּו</bdi>.",
+      "validated_html": "Em posição interior, no meio; oposto a “fora” (<bdi dir='rtl' lang='he'>אַבְרָאִי</bdi>). Hulin 130a–b; comparar <bdi dir='rtl' lang='he'>גַּו</bdi>.",
+      "source_headwords": [
+        "אַגְוָאִי"
+      ],
+      "source_senses": [
+        "adv. inside, amid , v. אַבְרָאִי. Ḥull. 130 ab . Cmp. גַּו."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00256",
+      "ordinal": 257,
+      "lemma": "אָגוֹגָא",
+      "source_sha256": "ffa8cc90137f2e878b74b43c8bc0b2be81cbcdf7a51e3b5f3ff7d219032012cb",
+      "source_xml": "<entry id=\"A00256\">\n<head-word>אָגוֹגָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אגג, v. \n<xref rid=\"A00254\">אֵגֶה</xref> = h. חוֹגֵג q. v.) \n<italic>cleft, fissure</italic>.</definition>\n<notes> א' דמיא \n<italic>cataract, water-falls</italic> (issuing from a fissure). Lam. R. to I, 17 (play on \n<italic>ḥ</italic>\n<italic>ogeg</italic> ibid. Ps. XLII, 5) כהדין א' וכ' Ar. like the cataract that rests neither &amp;c. [Ed. געגעא].</notes></sense></senses></entry>\n",
+      "original_html": "Fenda ou rachadura. <bdi dir='rtl' lang='he'>אָגוֹגָא דמיא</bdi>: cascata ou queda-d'água que irrompe de uma abertura. Lamentações Rabá 1.17 usa a expressão figuradamente para uma queda incessante de água; a fonte associa o jogo de palavras ao Salmo 42.5 e registra variante editorial.",
+      "validated_html": "Fenda ou rachadura. <bdi dir='rtl' lang='he'>אָגוֹגָא דמיא</bdi>: cascata ou queda-d'água que irrompe de uma abertura. Lamentações Rabá 1.17 usa a expressão figuradamente para uma queda incessante de água; a fonte associa o jogo de palavras ao Salmo 42.5 e registra variante editorial. <strong>Aparato filológico (lote 004):</strong> <strong>Expressão figurada e crítica da leitura:</strong> <bdi dir='rtl' lang='he'>א׳ דמיא</bdi> é «queda de água, cascata» que sai de uma fissura, não qualquer corpo de água. Lamentações Rabá a 1.17 conserva no <i>Arukh</i> <bdi dir='rtl' lang='he'>כהדין א׳</bdi>, «como a catarata que não repousa»; a edição traz <bdi dir='rtl' lang='he'>געגעא</bdi>, variante transmitida, não forma comprovada do lema. A fonte relaciona o jogo exegético de <i>ḥogeg</i> a Salmos 42.5; comparar <bdi dir='rtl' lang='he'>אגג</bdi>, <bdi dir='rtl' lang='he'>אֵגֶה</bdi> e <bdi dir='rtl' lang='he'>חוֹגֵג</bdi> apenas como relações sugeridas.",
+      "source_headwords": [
+        "אָגוֹגָא"
+      ],
+      "source_senses": [
+        "(אגג, v. אֵגֶה = h. חוֹגֵג q. v.) cleft, fissure . א' דמיא cataract, water-falls (issuing from a fissure). Lam. R. to I, 17 (play on ḥ ogeg ibid. Ps. XLII, 5) כהדין א' וכ' Ar. like the cataract that rests neither &amp;c. [Ed. געגעא]."
+      ],
+      "source_xrefs": [
+        "A00254"
+      ],
+      "status": "C",
+      "decision": "Expressão figurada e crítica da leitura: א׳ דמיא é «queda de água, cascata» que sai de uma fissura, não qualquer corpo de água. Lamentações Rabá a 1.17 conserva no Arukh כהדין א׳ , «como a catarata que não repousa»; a edição traz געגעא , variante transmitida, não forma comprovada do lema. A fonte relaciona o jogo exegético de ḥogeg a Salmos 42.5; comparar אגג , אֵגֶה e חוֹגֵג apenas como relações sugeridas.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00257",
+      "ordinal": 258,
+      "lemma": "אֱגוֹד",
+      "source_sha256": "fd84af7b810da946ee183c06506a71b119da85dcbe68dc47a2cb3d54ef5544c6",
+      "source_xml": "<entry id=\"A00257\">\n<head-word>אֱגוֹד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אגד I) \n<italic>band</italic>.</definition>\n<notes> Y. Sabb. VI, 8\n<sup>a</sup> bot.; Y. Yeb. XII, 12\n<sup>d</sup> top א' מלבינקי a band (of bast) with which mala punica (pomegranates) are tied together.—\n<plural-form>Pl. אֱגוֹדִים,</plural-form> const. אֱגוֹדֵי. Peah VI, 10 א' השום stalks of garlic plant used for tying bunches; [oth. opin. bunches of garlic on one stalk], opp. to אגודות tied bunches. [Tosef. ib. III, 8 אוגוּרֵי ed. Zuck., \n<italic>piles</italic> of garlic, v. אֵגוֹר.] [Num. R. s. 4 beg. חטים אגודיהם, v. אֵגוֹרִי.]</notes></sense></senses></entry>\n",
+      "original_html": "Cordão, faixa ou amarra. Jerusalém Shabbat 6, 8a e Yevamot 12, 12d: faixa de fibra vegetal que prende romãs. Plural <bdi dir='rtl' lang='he'>אֱגוֹדִים</bdi>; Peá 6.10: talos de alho usados para amarrar feixes, interpretação alternativa “cabeças de alho no mesmo talo”, em oposição a <bdi dir='rtl' lang='he'>אֲגוּדּוֹת</bdi>, feixes atados. Há variantes em Tosefta Peá.",
+      "validated_html": "Cordão, faixa ou amarra. Jerusalém Shabbat 6, 8a e Yevamot 12, 12d: faixa de fibra vegetal que prende romãs. Plural <bdi dir='rtl' lang='he'>אֱגוֹדִים</bdi>; Peá 6.10: talos de alho usados para amarrar feixes, interpretação alternativa “cabeças de alho no mesmo talo”, em oposição a <bdi dir='rtl' lang='he'>אֲגוּדּוֹת</bdi>, feixes atados. Há variantes em Tosefta Peá. <strong>Aparato filológico (lote 004):</strong> <strong>Plural, construto e explicações divergentes:</strong> o plural <bdi dir='rtl' lang='he'>אֱגוֹדִים</bdi> e seu construto <bdi dir='rtl' lang='he'>אֱגוֹדֵי</bdi> estão expressos na fonte. Peá 6.10 interpreta <bdi dir='rtl' lang='he'>א׳ השום</bdi> como hastes que servem para atar o alho; outra opinião lê «feixes/cabeças de alho num mesmo talo», em oposição às <bdi dir='rtl' lang='he'>אגודות</bdi> atadas. Tosefta Peá 3.8, edição Zuckermandel, traz <bdi dir='rtl' lang='he'>אוגוּרֵי</bdi>, «montes de alho» (remeter a <bdi dir='rtl' lang='he'>אֵגוֹר</bdi>); Números Rabá §4 menciona <bdi dir='rtl' lang='he'>חטים אגודיהם</bdi>, remetido a <bdi dir='rtl' lang='he'>אֵגוֹרִי</bdi>. As leituras alternativas não são variantes equivalentes de um único instrumento de amarrar.",
+      "source_headwords": [
+        "אֱגוֹד"
+      ],
+      "source_senses": [
+        "(אגד I) band . Y. Sabb. VI, 8 a bot.; Y. Yeb. XII, 12 d top א' מלבינקי a band (of bast) with which mala punica (pomegranates) are tied together.— Pl. אֱגוֹדִים, const. אֱגוֹדֵי. Peah VI, 10 א' השום stalks of garlic plant used for tying bunches; [oth. opin. bunches of garlic on one stalk], opp. to אגודות tied bunches. [Tosef. ib. III, 8 אוגוּרֵי ed. Zuck., piles of garlic, v. אֵגוֹר.] [Num. R. s. 4 beg. חטים אגודיהם, v. אֵגוֹרִי.]"
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Plural, construto e explicações divergentes: o plural אֱגוֹדִים e seu construto אֱגוֹדֵי estão expressos na fonte. Peá 6.10 interpreta א׳ השום como hastes que servem para atar o alho; outra opinião lê «feixes/cabeças de alho num mesmo talo», em oposição às אגודות atadas. Tosefta Peá 3.8, edição Zuckermandel, traz אוגוּרֵי , «montes de alho» (remeter a אֵגוֹר ); Números Rabá §4 menciona חטים אגודיהם , remetido a אֵגוֹרִי . As leituras alternativas não são variantes equivalentes de um único instrumento de amarrar.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00258",
+      "ordinal": 259,
+      "lemma": "אֲגוּדָּה",
+      "source_sha256": "e53c4d302c0af0377b8f6fc56c7401d675e988b9389a232fef06f1530a823adc",
+      "source_xml": "<entry id=\"A00258\">\n<head-word>אֲגוּדָּה</head-word>\n<pos> f.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00247\">אֲגֻדָּה</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. foreg.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>bundle, bunch</italic>.</definition>\n<notes> B. Mets. I, 8. Succ. 33\n<sup>b</sup> כא' של וכ' as a bunch of herbs is tied; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>band, union; faction</italic>.</definition>\n<notes> Lev. R. s. 30; Gen. R. s. 88 א' אחת one brotherhood.—\n<plural-form>Pl. אֲגוּדּוֹת</plural-form>. Peah VI, 10; v. foreg. Makhsh. VI, 2 א' של בית וכ' (herb) bunches which have been lying in the market houses; v. Tosef. ib. III, 8.—Yeb. 13\n<sup>b</sup> (ref. to תתגדדו Deut. XIV, 1) לא תעשו א' א' do not form yourselves into religious factions. Ber. 4\n<sup>a</sup> א' א' in companies (amusing themselves).</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> בֵּית א'\n<pos> pr. n.</pos> of a family, \n<italic>Beth-Aguddah</italic>.</definition>\n<notes> Mass. Sof’rim IV, 1 של ב' א' … the scribes of the family Beth-Ag.</notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Molho ou feixe de vegetais (Bava Metzia 1.8; Sucá 33b; Makhshirin 6.2). <strong>2.</strong> Grupo, aliança, fraternidade ou facção; Gênesis Rabá 88 fala de irmandade única. Yevamot 13b interpreta Deuteronômio 14.1 como advertência contra facções religiosas; Berakhot 4a descreve pessoas agrupadas. Plural <bdi dir='rtl' lang='he'>אֲגוּדּוֹת</bdi>. <strong>3.</strong> <bdi dir='rtl' lang='he'>בֵּית אֲגוּדָּה</bdi>, nome de família de escribas em Massekhet Soferim 4.1.",
+      "validated_html": "<strong>1.</strong> Molho ou feixe de vegetais (Bava Metzia 1.8; Sucá 33b; Makhshirin 6.2). <strong>2.</strong> Grupo, aliança, fraternidade ou facção; Gênesis Rabá 88 fala de irmandade única. Yevamot 13b interpreta Deuteronômio 14.1 como advertência contra facções religiosas; Berakhot 4a descreve pessoas agrupadas. Plural <bdi dir='rtl' lang='he'>אֲגוּדּוֹת</bdi>. <strong>3.</strong> <bdi dir='rtl' lang='he'>בֵּית אֲגוּדָּה</bdi>, nome de família de escribas em Massekhet Soferim 4.1. <strong>Aparato filológico (lote 004):</strong> <strong>Documentação dos três sentidos:</strong> feixe material (Bava Metzia 1.8, Sucá 33b, Makhshirin 6.2: <bdi dir='rtl' lang='he'>א׳ של בית</bdi>, molhos de ervas guardados em casas do mercado); aliança ou facção (Levítico Rabá §30, Gênesis Rabá §88, <bdi dir='rtl' lang='he'>א׳ אחת</bdi>, «uma irmandade»; Yevamot 13b interpreta <bdi dir='rtl' lang='he'>תתגדדו</bdi> de Deuteronômio 14.1 como proibição de facções; Berakhot 4a: companhias recreativas); e topônimo familiar <bdi dir='rtl' lang='he'>בֵּית א׳</bdi>, Beth-Aguddah, escribas em Massekhet Soferim 4.1. O plural <bdi dir='rtl' lang='he'>אֲגוּדּוֹת</bdi> é atestado em Peá 6.10 e Tosefta Makhshirin 3.8. O terceiro sentido é **nome próprio de família**, não acepção coletiva comum.",
+      "source_headwords": [
+        "אֲגוּדָּה"
+      ],
+      "source_senses": [
+        ", v. foreg.)",
+        "1) bundle, bunch . B. Mets. I, 8. Succ. 33 b כא' של וכ' as a bunch of herbs is tied; a. fr.",
+        "—2) band, union; faction . Lev. R. s. 30; Gen. R. s. 88 א' אחת one brotherhood.— Pl. אֲגוּדּוֹת . Peah VI, 10; v. foreg. Makhsh. VI, 2 א' של בית וכ' (herb) bunches which have been lying in the market houses; v. Tosef. ib. III, 8.—Yeb. 13 b (ref. to תתגדדו Deut. XIV, 1) לא תעשו א' א' do not form yourselves into religious factions. Ber. 4 a א' א' in companies (amusing themselves).",
+        "—3) בֵּית א' pr. n. of a family, Beth-Aguddah . Mass. Sof’rim IV, 1 של ב' א' … the scribes of the family Beth-Ag."
+      ],
+      "source_xrefs": [
+        "A00247"
+      ],
+      "status": "C",
+      "decision": "Documentação dos três sentidos: feixe material (Bava Metzia 1.8, Sucá 33b, Makhshirin 6.2: א׳ של בית , molhos de ervas guardados em casas do mercado); aliança ou facção (Levítico Rabá §30, Gênesis Rabá §88, א׳ אחת , «uma irmandade»; Yevamot 13b interpreta תתגדדו de Deuteronômio 14.1 como proibição de facções; Berakhot 4a: companhias recreativas); e topônimo familiar בֵּית א׳ , Beth-Aguddah, escribas em Massekhet Soferim 4.1. O plural אֲגוּדּוֹת é atestado em Peá 6.10 e Tosefta Makhshirin 3.8. O terceiro sentido é **nome próprio de família**, não acepção coletiva comum.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00259",
+      "ordinal": 260,
+      "lemma": "אֲגוּדָל",
+      "source_sha256": "5c565287139eda08aeaa9f8c4d379a373b9001e5831380c5ef2981e18b73289a",
+      "source_xml": "<entry id=\"A00259\">\n<head-word>אֲגוּדָל</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= גּוּדָל) \n<italic>thumb.</italic></definition>\n<notes> Yoma II, 1. Cant. R. to III, 6.</notes></sense></senses></entry>\n",
+      "original_html": "Polegar; variante <bdi dir='rtl' lang='he'>גּוּדָל</bdi>. Yoma 2.1; Cântico dos Cânticos Rabá 3.6.",
+      "validated_html": "Polegar; variante <bdi dir='rtl' lang='he'>גּוּדָל</bdi>. Yoma 2.1; Cântico dos Cânticos Rabá 3.6.",
+      "source_headwords": [
+        "אֲגוּדָל"
+      ],
+      "source_senses": [
+        "(= גּוּדָל) thumb. Yoma II, 1. Cant. R. to III, 6."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-236-260.js"
+    },
+    {
+      "id": "A00260",
+      "ordinal": 261,
+      "lemma": "אֱגוֹז",
+      "source_sha256": "b072024dcf971acf669e1d61df28e60cb1acd122cbd7d67337fdc325289b9932",
+      "source_xml": "<entry id=\"A00260\">\n<head-word>אֱגוֹז</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>nut</italic>.</definition>\n<notes> Git. 64\n<sup>b</sup> (as signs of mental responsibility) א' ונוטלו if you throw a nut to it, and the child picks it up (at the same time throwing a pebble away); a. e.—\n<plural-form>Pl. אֱגוֹזִים,</plural-form> const. אֱגוֹזֵי. Orl. III, 8 נתפצעו הא' when the nuts are burst open. Ib. 7 אגוזי פרך crack-nuts (eatable); a. fr. [Tosef. Sabb. XIV (XV), 1 אגוז שבספינה ed. Zuck., read אוֹגִין, v. הוֹגִין.] [For etymol. cmp. אַגָּס.]</notes></sense></senses></entry>\n",
+      "original_html": "Noz; plural <bdi dir='rtl' lang='he'>אֱגוֹזִים</bdi>, construto <bdi dir='rtl' lang='he'>אֱגוֹזֵי</bdi>. Gitin 64b usa a criança que apanha uma noz e despreza uma pedra como indício de discernimento. Orlá 3.8 fala de nozes abertas e 3.7 de nozes comestíveis <bdi dir='rtl' lang='he'>אגוזי פרך</bdi>. Em Tosefta Shabbat 14/15.1, Jastrow sugere ler <bdi dir='rtl' lang='he'>אוֹגִין</bdi> em lugar de <bdi dir='rtl' lang='he'>אגוז</bdi>; compara <bdi dir='rtl' lang='he'>אַגָּס</bdi> etimologicamente.",
+      "validated_html": "Noz; plural <bdi dir='rtl' lang='he'>אֱגוֹזִים</bdi>, construto <bdi dir='rtl' lang='he'>אֱגוֹזֵי</bdi>. Gitin 64b usa a criança que apanha uma noz e despreza uma pedra como indício de discernimento. Orlá 3.8 fala de nozes abertas e 3.7 de nozes comestíveis <bdi dir='rtl' lang='he'>אגוזי פרך</bdi>. Em Tosefta Shabbat 14/15.1, Jastrow sugere ler <bdi dir='rtl' lang='he'>אוֹגִין</bdi> em lugar de <bdi dir='rtl' lang='he'>אגוז</bdi>; compara <bdi dir='rtl' lang='he'>אַגָּס</bdi> etimologicamente.",
+      "source_headwords": [
+        "אֱגוֹז"
+      ],
+      "source_senses": [
+        "(b. h.) nut . Git. 64 b (as signs of mental responsibility) א' ונוטלו if you throw a nut to it, and the child picks it up (at the same time throwing a pebble away); a. e.— Pl. אֱגוֹזִים, const. אֱגוֹזֵי. Orl. III, 8 נתפצעו הא' when the nuts are burst open. Ib. 7 אגוזי פרך crack-nuts (eatable); a. fr. [Tosef. Sabb. XIV (XV), 1 אגוז שבספינה ed. Zuck., read אוֹגִין, v. הוֹגִין.] [For etymol. cmp. אַגָּס.]"
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00261",
+      "ordinal": 262,
+      "lemma": "אֱגוּזָא",
+      "source_sha256": "378b69196838a21a39b7f2d97fbde82a61d6b473f2be5b22afe8759807d08e65",
+      "source_xml": "<entry id=\"A00261\">\n<head-word>אֱגוּזָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; also \n<italic>nut-tree</italic>.</definition>\n<notes> Keth. 77\n<sup>b</sup> גירדא דא' scrapings of the bark of a nut-tree; v. אזגא.—Cmp. גּוּזָא, אַמְגּוּזָא.</notes></sense></senses></entry>\n",
+      "original_html": "Equivalente aramaico de <bdi dir='rtl' lang='he'>אֱגוֹז</bdi>, “noz”; também a árvore, nogueira. Ketubot 77b: <bdi dir='rtl' lang='he'>גירדא דאגוזא</bdi>, raspas da casca de nogueira. Ver <bdi dir='rtl' lang='he'>אזגא</bdi>; comparar <bdi dir='rtl' lang='he'>גּוּזָא, אַמְגּוּזָא</bdi>.",
+      "validated_html": "Equivalente aramaico de <bdi dir='rtl' lang='he'>אֱגוֹז</bdi>, “noz”; também a árvore, nogueira. Ketubot 77b: <bdi dir='rtl' lang='he'>גירדא דאגוזא</bdi>, raspas da casca de nogueira. Ver <bdi dir='rtl' lang='he'>אזגא</bdi>; comparar <bdi dir='rtl' lang='he'>גּוּזָא, אַמְגּוּזָא</bdi>.",
+      "source_headwords": [
+        "אֱגוּזָא"
+      ],
+      "source_senses": [
+        "; also nut-tree . Keth. 77 b גירדא דא' scrapings of the bark of a nut-tree; v. אזגא.—Cmp. גּוּזָא, אַמְגּוּזָא."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00262",
+      "ordinal": 263,
+      "lemma": "אֱגוֹזָה",
+      "source_sha256": "981ae56531213f6ef96d08bf0830376f03d909f54154358881a4648b6db5b0e8",
+      "source_xml": "<entry id=\"A00262\">\n<head-word>אֱגוֹזָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A00260\">אֱגוֹז</xref>) \n<italic>nut-tree</italic>.</definition>\n<notes> Cant. R. to VI, 11.</notes></sense></senses></entry>\n",
+      "original_html": "A árvore produtora de nozes, nogueira. Cântico dos Cânticos Rabá a 6.11.",
+      "validated_html": "A árvore produtora de nozes, nogueira. Cântico dos Cânticos Rabá a 6.11.",
+      "source_headwords": [
+        "אֱגוֹזָה"
+      ],
+      "source_senses": [
+        "(v. אֱגוֹז ) nut-tree . Cant. R. to VI, 11."
+      ],
+      "source_xrefs": [
+        "A00260"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00263",
+      "ordinal": 264,
+      "lemma": "אגוטרי",
+      "source_sha256": "d4bdd00ef5f58e4d0c44b3142977d3fb431966be9f165c83fd751d1d32b96a70",
+      "source_xml": "<entry id=\"A00263\">\n<head-word>אגוטרי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01723\">אָכְסִיגָרוֹן</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi dir='rtl' lang='he'>אָכְסִיגָרוֹן</bdi>.",
+      "validated_html": "Forma remetida a <bdi dir='rtl' lang='he'>אָכְסִיגָרוֹן</bdi>.",
+      "source_headwords": [
+        "אגוטרי"
+      ],
+      "source_senses": [
+        ", v. אָכְסִיגָרוֹן"
+      ],
+      "source_xrefs": [
+        "A01723"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00264",
+      "ordinal": 265,
+      "lemma": "*אַגְוִיסְטוֹר",
+      "source_sha256": "d293fd32af9c5f0dc71e3e833d350f5d0b81d4a2f3ce0873c1c3a509fcb36396",
+      "source_xml": "<entry id=\"A00264\">\n<head-word>*אַגְוִיסְטוֹר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Quæstor</italic>.</definition>\n<notes> Gen. R. s. 12, v. אנגיטוס a. אָגוּסְטוֹס, end.</notes></sense></senses></entry>\n",
+      "original_html": "Do latim <i>quaestor</i>, questor, magistrado ou funcionário romano. Gênesis Rabá 12; comparar <bdi dir='rtl' lang='he'>אנגיטוס</bdi> e as notas de Jastrow em <bdi dir='rtl' lang='he'>אָגוּסְטוֹס</bdi>.",
+      "validated_html": "Do latim <i>quaestor</i>, questor, magistrado ou funcionário romano. Gênesis Rabá 12; comparar <bdi dir='rtl' lang='he'>אנגיטוס</bdi> e as notas de Jastrow em <bdi dir='rtl' lang='he'>אָגוּסְטוֹס</bdi>.",
+      "source_headwords": [
+        "*אַגְוִיסְטוֹר"
+      ],
+      "source_senses": [
+        "Quæstor . Gen. R. s. 12, v. אנגיטוס a. אָגוּסְטוֹס, end."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00265",
+      "ordinal": 266,
+      "lemma": "אֲגוֹמֵין",
+      "source_sha256": "a312f93357aab419d0c6d556cc230e05656e26ab99c96aa19206f1378cbaa54a",
+      "source_xml": "<entry id=\"A00265\">\n<head-word>אֲגוֹמֵין</head-word>\n<senses>\n<sense>\n<definition> (ἄγωμεν, fr. ἄγω) \n<italic>up! come on!</italic> Gen. R. s. 78.</definition>\n<notes /></sense></senses></entry>\n",
+      "original_html": "Do grego <span lang='grc'>ἄγωμεν</span>, forma de <span lang='grc'>ἄγω</span> (“ir, conduzir”): “vamos!”, “avante!”. Gênesis Rabá 78.",
+      "validated_html": "Do grego <span lang='grc'>ἄγωμεν</span>, forma de <span lang='grc'>ἄγω</span> (“ir, conduzir”): “vamos!”, “avante!”. Gênesis Rabá 78.",
+      "source_headwords": [
+        "אֲגוֹמֵין"
+      ],
+      "source_senses": [
+        "(ἄγωμεν, fr. ἄγω) up! come on! Gen. R. s. 78."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00266",
+      "ordinal": 267,
+      "lemma": "אָגוֹן",
+      "source_sha256": "b46d7de009c6de6559dcec2dcd65276a0f9fc411bb7995aa9665a1ea13a3f459",
+      "source_xml": "<entry id=\"A00266\">\n<head-word>אָגוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἀγών) \n<italic>assembly</italic>, esp. \n<italic>public games</italic>.</definition>\n<notes> Y’lamd. Emor (quot. in Ar, missing in Tanh.) א' נעשה במדינה.</notes></sense></senses></entry>\n",
+      "original_html": "Do grego <span lang='grc'>ἀγών</span>: reunião, assembleia e particularmente competições ou jogos públicos. Yelammedenu, seção Emor, citado pelo <i>Arukh</i>, registra jogos realizados numa cidade; o trecho falta na versão de Tanhuma mencionada pela fonte.",
+      "validated_html": "Do grego <span lang='grc'>ἀγών</span>: reunião, assembleia e particularmente competições ou jogos públicos. Yelammedenu, seção Emor, citado pelo <i>Arukh</i>, registra jogos realizados numa cidade; o trecho falta na versão de Tanhuma mencionada pela fonte.",
+      "source_headwords": [
+        "אָגוֹן"
+      ],
+      "source_senses": [
+        "(ἀγών) assembly , esp. public games . Y’lamd. Emor (quot. in Ar, missing in Tanh.) א' נעשה במדינה."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00267",
+      "ordinal": 268,
+      "lemma": "אגונה",
+      "source_sha256": "ccc6acb0989fcfc91d565f4c672f1a4437d64077505b511738da5b562c14bd9b",
+      "source_xml": "<entry id=\"A00267\">\n<head-word>אגונה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Tanḥ. Mishp. 1, read אֲנוֹנָה.</notes></sense></senses></entry>\n",
+      "original_html": "Forma de Tanhuma Mishpatim 1 que Jastrow recomenda corrigir para <bdi dir='rtl' lang='he'>אֲנוֹנָה</bdi>.",
+      "validated_html": "Forma de Tanhuma Mishpatim 1 que Jastrow recomenda corrigir para <bdi dir='rtl' lang='he'>אֲנוֹנָה</bdi>.",
+      "source_headwords": [
+        "אגונה"
+      ],
+      "source_senses": [
+        "Tanḥ. Mishp. 1, read אֲנוֹנָה."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00268",
+      "ordinal": 269,
+      "lemma": "אָגוּסְטָא,",
+      "source_sha256": "cc4ed309b41ccf5d6e7a0cd7c1f7512142cffa08a6a2cf4a1e06d7596a3537b2",
+      "source_xml": "<entry id=\"A00268\">\n<head-word>אָגוּסְטָא, </head-word>\n<head-word>(אגוסטה)</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Augusta</italic>, title of a female member of the imperial family (of Rome), in gen. \n<italic>princess</italic> &amp;c. Esth. R. to I, 9.</definition>\n<notes> [Tanʿh. Vaëra 8, א', read טוס …]</notes></sense></senses></entry>\n",
+      "original_html": "Do latim <i>Augusta</i>: título de mulher da família imperial romana, por extensão princesa ou dama de alta dignidade. Ester Rabá a 1.9; variantes <bdi dir='rtl' lang='he'>אָגוּסְטָא, אגוסטה</bdi>. Jastrow registra correção editorial em Tanhuma Vaera 8.",
+      "validated_html": "Do latim <i>Augusta</i>: título de mulher da família imperial romana, por extensão princesa ou dama de alta dignidade. Ester Rabá a 1.9; variantes <bdi dir='rtl' lang='he'>אָגוּסְטָא, אגוסטה</bdi>. Jastrow registra correção editorial em Tanhuma Vaera 8. <strong>Aparato filológico (lote 004):</strong> <strong>Limite da emenda em Tanhuma:</strong> Jastrow só reproduz, para Vaera §8, a leitura abreviada <bdi dir='rtl' lang='he'>א׳</bdi> e sua sugestão <bdi dir='rtl' lang='he'>טוס …</bdi>, com reticências na extração XML. **Não** completar essa emenda conjecturalmente. A forma <bdi dir='rtl' lang='he'>אגוסטה</bdi> é variante do título feminino <bdi dir='rtl' lang='he'>אָגוּסְטָא</bdi>, «Augusta», de mulher pertencente à família imperial romana, e está documentada por Ester Rabá 1.9.",
+      "source_headwords": [
+        "אָגוּסְטָא,",
+        "(אגוסטה)"
+      ],
+      "source_senses": [
+        "Augusta , title of a female member of the imperial family (of Rome), in gen. princess &amp;c. Esth. R. to I, 9. [Tanʿh. Vaëra 8, א', read טוס …]"
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Limite da emenda em Tanhuma: Jastrow só reproduz, para Vaera §8, a leitura abreviada א׳ e sua sugestão טוס … , com reticências na extração XML. **Não** completar essa emenda conjecturalmente. A forma אגוסטה é variante do título feminino אָגוּסְטָא , «Augusta», de mulher pertencente à família imperial romana, e está documentada por Ester Rabá 1.9.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00270",
+      "ordinal": 271,
+      "lemma": "אגוסטולי",
+      "source_sha256": "12cc60ca99c7d75aef914e7323c0ef3cf7d64ae328670f698f51c887f5a36c79",
+      "source_xml": "<entry id=\"A00270\">\n<head-word>אגוסטולי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Gen. R. s. 1, v. \n<xref rid=\"A00274\">אגוסטלי</xref></notes></sense></senses></entry>\n",
+      "original_html": "Grafia de Gênesis Rabá 1 remetida a <bdi dir='rtl' lang='he'>אָגוּסְטָלִי</bdi>.",
+      "validated_html": "Grafia de Gênesis Rabá 1 remetida a <bdi dir='rtl' lang='he'>אָגוּסְטָלִי</bdi>.",
+      "source_headwords": [
+        "אגוסטולי"
+      ],
+      "source_senses": [
+        ", Gen. R. s. 1, v. אגוסטלי"
+      ],
+      "source_xrefs": [
+        "A00274"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00272",
+      "ordinal": 273,
+      "lemma": "אָגוּסְטְיָאנִי",
+      "source_sha256": "7297ae5e41116591f548f06caf8f6cbf57235eea1f6fedb0895d7bf89519fbc0",
+      "source_xml": "<entry id=\"A00272\">\n<head-word>אָגוּסְטְיָאנִי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Augustiani</italic>, a Prætorian legion entitled to proclaim the emperor.</definition>\n<notes> Esth. R. to I, 3, end דקומייני א' the Decumani (or Decimani) and the Aug.—Gen. R. s. 94 גאו' (corr. acc.); v. Sachs. Beitr. I, 113 sq.</notes></sense></senses></entry>\n",
+      "original_html": "Do latim <i>Augustiani</i>, unidade ou corpo de guardas associado à proclamação do imperador. Ester Rabá 1.3 menciona <i>Decumani</i> e <i>Augustiani</i>; Gênesis Rabá 94 apresenta variante textual. Jastrow a descreve como legião pretoriana.",
+      "validated_html": "Do latim <i>Augustiani</i>, unidade ou corpo de guardas associado à proclamação do imperador. Ester Rabá 1.3 menciona <i>Decumani</i> e <i>Augustiani</i>; Gênesis Rabá 94 apresenta variante textual. Jastrow a descreve como legião pretoriana. <strong>Aparato filológico (lote 004):</strong> <strong>Citação e leitura problemática:</strong> Ester Rabá 1.3, parte final, apresenta <bdi dir='rtl' lang='he'>דקומייני א׳</bdi>, «Decumani (ou Decimani) e Augustiani». Jastrow descreve os segundos como corpo pretoriano habilitado a proclamar o imperador, não como equivalência militar comprovada pelo presente cotejo. Gênesis Rabá §94 traz <bdi dir='rtl' lang='he'>גאו׳</bdi>, para a qual o lexicógrafo pede correção conforme o contexto. A fonte remete ainda a Sachs, <i>Beiträge</i> I, pp. 113 e seguintes; essa bibliografia é indicação original, não consulta independente.",
+      "source_headwords": [
+        "אָגוּסְטְיָאנִי"
+      ],
+      "source_senses": [
+        "Augustiani , a Prætorian legion entitled to proclaim the emperor. Esth. R. to I, 3, end דקומייני א' the Decumani (or Decimani) and the Aug.—Gen. R. s. 94 גאו' (corr. acc.); v. Sachs. Beitr. I, 113 sq."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Citação e leitura problemática: Ester Rabá 1.3, parte final, apresenta דקומייני א׳ , «Decumani (ou Decimani) e Augustiani». Jastrow descreve os segundos como corpo pretoriano habilitado a proclamar o imperador, não como equivalência militar comprovada pelo presente cotejo. Gênesis Rabá §94 traz גאו׳ , para a qual o lexicógrafo pede correção conforme o contexto. A fonte remete ainda a Sachs, Beiträge I, pp. 113 e seguintes; essa bibliografia é indicação original, não consulta independente.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00273",
+      "ordinal": 274,
+      "lemma": "אגוסטלא",
+      "source_sha256": "c74c0f9b6917d2031c19942508fb630b8f637602ecb079cba5256d0f79d6e415",
+      "source_xml": "<entry id=\"A00273\">\n<head-word>אגוסטלא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00274\">next w.</xref></notes></sense></senses></entry>\n",
+      "original_html": "Remissão ao título romano descrito no verbete seguinte.",
+      "validated_html": "Remissão ao título romano descrito no verbete seguinte.",
+      "source_headwords": [
+        "אגוסטלא"
+      ],
+      "source_senses": [
+        ", v. next w."
+      ],
+      "source_xrefs": [
+        "A00274"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00274",
+      "ordinal": 275,
+      "lemma": "*אָגוּסְטָלִי",
+      "source_sha256": "0911e70957100a021376567fb59759b1bf1ce79a4c580a6ffe9cf2c00cc649d6",
+      "source_xml": "<entry id=\"A00274\">\n<head-word>*אָגוּסְטָלִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (Augustalis).</definition>\n<notes>\n<italic>Præfectus Augustalis</italic>, title of the prefect of Egypt. Gen. R. s. 1. ed. (Var. אגוסטולי, Ar. אגוסטלא).</notes></sense></senses></entry>\n",
+      "original_html": "Do latim <i>Augustalis</i>, especificamente <i>Praefectus Augustalis</i>, título do prefeito romano do Egito. Gênesis Rabá 1; variantes <bdi dir='rtl' lang='he'>אגוסטולי, אגוסטלא</bdi>.",
+      "validated_html": "Do latim <i>Augustalis</i>, especificamente <i>Praefectus Augustalis</i>, título do prefeito romano do Egito. Gênesis Rabá 1; variantes <bdi dir='rtl' lang='he'>אגוסטולי, אגוסטלא</bdi>.",
+      "source_headwords": [
+        "*אָגוּסְטָלִי"
+      ],
+      "source_senses": [
+        "(Augustalis). Præfectus Augustalis , title of the prefect of Egypt. Gen. R. s. 1. ed. (Var. אגוסטולי, Ar. אגוסטלא)."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00275",
+      "ordinal": 276,
+      "lemma": "אגוסתא",
+      "source_sha256": "26045d99f8f104b72a631e131d66638cfc4daef05ab8d0a45d880cfae51e77d1",
+      "source_xml": "<entry id=\"A00275\">\n<head-word>אגוסתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Ex. R. s. 8 some ed., read אגוסטוס.</notes></sense></senses></entry>\n",
+      "original_html": "Em algumas edições de Êxodo Rabá 8, Jastrow recomenda corrigir <bdi dir='rtl' lang='he'>אגוסתא</bdi> para <bdi dir='rtl' lang='he'>אָגוּסְטוֹס</bdi>.",
+      "validated_html": "Em algumas edições de Êxodo Rabá 8, Jastrow recomenda corrigir <bdi dir='rtl' lang='he'>אגוסתא</bdi> para <bdi dir='rtl' lang='he'>אָגוּסְטוֹס</bdi>.",
+      "source_headwords": [
+        "אגוסתא"
+      ],
+      "source_senses": [
+        "Ex. R. s. 8 some ed., read אגוסטוס."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00276",
+      "ordinal": 277,
+      "lemma": "אָגוּף",
+      "source_sha256": "f43628dead7e781ca0baa9e13e2b5f11c6347ee80063556f5eff8db783d429bd",
+      "source_xml": "<entry id=\"A00276\">\n<head-word>אָגוּף</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גּוּף I, גפף) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>sexual intercourse</italic>.</definition>\n<notes> Y. Git. VII, 48\n<sup>d</sup> לשייר לו אֲגוּפָהּ to reserve to himself the right of embracing her; Y. B. Bath. VIII, 16\n<sup>c</sup> top גופה.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>door-stop</italic>, v. \n<xref rid=\"A00330\">אַגַּף</xref>.</definition>\n<notes>—[אִגּוּף v. אַגָּף.]</notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Relação sexual ou direito de abraçar; Jerusalém Gitin 7, 48d menciona reservar para si o direito de intimidade com a mulher; Jerusalém Bava Batra 8, 16c contém variante <bdi dir='rtl' lang='he'>גופה</bdi>. <strong>2.</strong> Batente ou peça que detém o movimento da porta; ver <bdi dir='rtl' lang='he'>אַגַּף</bdi>. Distinguir <bdi dir='rtl' lang='he'>אִגּוּף</bdi>, remetido a <bdi dir='rtl' lang='he'>אַגָּף</bdi>.",
+      "validated_html": "<strong>1.</strong> Relação sexual ou direito de abraçar; Jerusalém Gitin 7, 48d menciona reservar para si o direito de intimidade com a mulher; Jerusalém Bava Batra 8, 16c contém variante <bdi dir='rtl' lang='he'>גופה</bdi>. <strong>2.</strong> Batente ou peça que detém o movimento da porta; ver <bdi dir='rtl' lang='he'>אַגַּף</bdi>. Distinguir <bdi dir='rtl' lang='he'>אִגּוּף</bdi>, remetido a <bdi dir='rtl' lang='he'>אַגָּף</bdi>.",
+      "source_headwords": [
+        "אָגוּף"
+      ],
+      "source_senses": [
+        "(גּוּף I, גפף)",
+        "1) sexual intercourse . Y. Git. VII, 48 d לשייר לו אֲגוּפָהּ to reserve to himself the right of embracing her; Y. B. Bath. VIII, 16 c top גופה.",
+        "—2) door-stop , v. אַגַּף . —[אִגּוּף v. אַגָּף.]"
+      ],
+      "source_xrefs": [
+        "A00330"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00277",
+      "ordinal": 278,
+      "lemma": "אֵגֹור,",
+      "source_sha256": "73a6a0647fff9e6042eba0bf26dcd47fe5caf267d4416e296cec585db2d3f1d0",
+      "source_xml": "<entry id=\"A00277\">\n<head-word>אֵגֹור, </head-word>\n<head-word>אֵיגֹור</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אגר I) \n<italic>heap, hill</italic>.</definition>\n<notes> Tosef. Shebi. III, 3 ואי' יוצא וכ' ed. Zuck. (Var. ואיגד) and a mound (of arable ground) rises out of it (the rock).—\n<plural-form>Pl. אֵגֹורִים, אֵיג';</plural-form> const. אֵיגֹורֵי. Tosef. Peah III, 8 אוגורי השום ed. Zuck. (Var. אגידי, אגודות, ed. אגודי, v. אֱגוֹד) heaps of garlic on the field, not yet bunched.</notes></sense></senses></entry>\n",
+      "original_html": "Elevação ou monte de material, inclusive terreno em forma de colina. Tosefta Sheviit 3.3: um monte cultivável emerge de área rochosa. Plural <bdi dir='rtl' lang='he'>אֵגֹורִים</bdi>, construto <bdi dir='rtl' lang='he'>אֵיגֹורֵי</bdi>; Tosefta Peá 3.8: montes de alho no campo, ainda não reunidos em feixes; registra variantes <bdi dir='rtl' lang='he'>איגד, אגידי, אגודות</bdi>.",
+      "validated_html": "Elevação ou monte de material, inclusive terreno em forma de colina. Tosefta Sheviit 3.3: um monte cultivável emerge de área rochosa. Plural <bdi dir='rtl' lang='he'>אֵגֹורִים</bdi>, construto <bdi dir='rtl' lang='he'>אֵיגֹורֵי</bdi>; Tosefta Peá 3.8: montes de alho no campo, ainda não reunidos em feixes; registra variantes <bdi dir='rtl' lang='he'>איגד, אגידי, אגודות</bdi>. <strong>Aparato filológico (lote 004):</strong> <strong>Aparato da agricultura:</strong> Tosefta Sheviit 3.3, edição Zuckermandel, traz <bdi dir='rtl' lang='he'>ואי׳ יוצא</bdi>, «e emerge um monte (de solo arável)» da rocha, com variante <bdi dir='rtl' lang='he'>ואיגד</bdi>. Em Tosefta Peá 3.8, a edição Zuckermandel registra <bdi dir='rtl' lang='he'>אוגורי השום</bdi>, montículos de alho ainda solto; variantes <bdi dir='rtl' lang='he'>אגידי, אגודות</bdi>, edição <bdi dir='rtl' lang='he'>אגודי</bdi> (cf. <bdi dir='rtl' lang='he'>אֱגוֹד</bdi>). Flexão <bdi dir='rtl' lang='he'>אֵגֹורִים</bdi>, variante abreviada <bdi dir='rtl' lang='he'>אֵיג׳</bdi>, construto <bdi dir='rtl' lang='he'>אֵיגֹורֵי</bdi>. Não transformar «monte» em «feixe atado» sem a ressalva transmitida.",
+      "source_headwords": [
+        "אֵגֹור,",
+        "אֵיגֹור"
+      ],
+      "source_senses": [
+        "(אגר I) heap, hill . Tosef. Shebi. III, 3 ואי' יוצא וכ' ed. Zuck. (Var. ואיגד) and a mound (of arable ground) rises out of it (the rock).— Pl. אֵגֹורִים, אֵיג'; const. אֵיגֹורֵי. Tosef. Peah III, 8 אוגורי השום ed. Zuck. (Var. אגידי, אגודות, ed. אגודי, v. אֱגוֹד) heaps of garlic on the field, not yet bunched."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Aparato da agricultura: Tosefta Sheviit 3.3, edição Zuckermandel, traz ואי׳ יוצא , «e emerge um monte (de solo arável)» da rocha, com variante ואיגד . Em Tosefta Peá 3.8, a edição Zuckermandel registra אוגורי השום , montículos de alho ainda solto; variantes אגידי, אגודות , edição אגודי (cf. אֱגוֹד ). Flexão אֵגֹורִים , variante abreviada אֵיג׳ , construto אֵיגֹורֵי . Não transformar «monte» em «feixe atado» sem a ressalva transmitida.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00279",
+      "ordinal": 280,
+      "lemma": "אֲגֹורָא,",
+      "source_sha256": "57f0a9c929f074e22f58cdd5f68aa6fb060659e0848fd8cef817eec75b5402a6",
+      "source_xml": "<entry id=\"A00279\">\n<head-word>אֲגֹורָא, </head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ἀγορά) \n<italic>market-place, court-session, court.</italic></definition>\n<notes>\n<plural-form>Pl. אֲגֹורָאֹות</plural-form> Git. 88\n<sup>b</sup> א' של נכרים (ed. אגוריאות corr. acc.) gentile courts.</notes></sense></senses></entry>\n",
+      "original_html": "Do grego <span lang='grc'>ἀγορά</span>: praça ou mercado; por extensão sessão judicial e tribunal. Plural <bdi dir='rtl' lang='he'>אֲגֹורָאֹות</bdi>. Gitin 88b: <bdi dir='rtl' lang='he'>אגוראות של נכרים</bdi>, tribunais de não judeus (com variante <bdi dir='rtl' lang='he'>אגוריאות</bdi>).",
+      "validated_html": "Do grego <span lang='grc'>ἀγορά</span>: praça ou mercado; por extensão sessão judicial e tribunal. Plural <bdi dir='rtl' lang='he'>אֲגֹורָאֹות</bdi>. Gitin 88b: <bdi dir='rtl' lang='he'>אגוראות של נכרים</bdi>, tribunais de não judeus (com variante <bdi dir='rtl' lang='he'>אגוריאות</bdi>). <strong>Aparato filológico (lote 004):</strong> <strong>Plural e diferença entre testemunhos:</strong> o segundo homógrafo <bdi dir='rtl' lang='he'>אֲגֹורָא</bdi>, do grego <span lang='grc'>ἀγορά</span>, passa de «praça/mercado» a «sessão judicial, tribunal». Gitin 88b traz plural <bdi dir='rtl' lang='he'>אֲגֹורָאֹות</bdi> para tribunais não judeus, enquanto a edição imprime <bdi dir='rtl' lang='he'>אגוריאות</bdi>, forma que Jastrow julga sujeita a correção. Não confundir com o homógrafo de «depósito/compartimento» (A00280).",
+      "source_headwords": [
+        "אֲגֹורָא,"
+      ],
+      "source_senses": [
+        "(ἀγορά) market-place, court-session, court. Pl. אֲגֹורָאֹות Git. 88 b א' של נכרים (ed. אגוריאות corr. acc.) gentile courts."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Plural e diferença entre testemunhos: o segundo homógrafo אֲגֹורָא , do grego ἀγορά , passa de «praça/mercado» a «sessão judicial, tribunal». Gitin 88b traz plural אֲגֹורָאֹות para tribunais não judeus, enquanto a edição imprime אגוריאות , forma que Jastrow julga sujeita a correção. Não confundir com o homógrafo de «depósito/compartimento» (A00280).",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00280",
+      "ordinal": 281,
+      "lemma": "*אֲגֹורָה",
+      "source_sha256": "05ec2abfad0f3e57352153bb42eed3144a6e69af5a486d4aa02b58722bf66c49",
+      "source_xml": "<entry id=\"A00280\">\n<head-word>*אֲגֹורָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (אגר) prop. \n<italic>store-room</italic>, hence \n<italic>the compartments of the nut-shell.</italic></definition>\n<notes>\n<plural-form>Pl. אֲגֹורֹות</plural-form>. Pesik. R. s. 11 as the nut has ארבע א' four compartments (Yalk. Cant. 992 מגורות).</notes></sense></senses></entry>\n",
+      "original_html": "Originalmente lugar para guardar, depósito (análise de Jastrow); designa divisões internas da casca de noz. Plural <bdi dir='rtl' lang='he'>אֲגֹורֹות</bdi>. Pesikta Rabati 11 menciona os quatro compartimentos da noz; Yalkut Cântico dos Cânticos 992 registra forma <bdi dir='rtl' lang='he'>מגורות</bdi>.",
+      "validated_html": "Originalmente lugar para guardar, depósito (análise de Jastrow); designa divisões internas da casca de noz. Plural <bdi dir='rtl' lang='he'>אֲגֹורֹות</bdi>. Pesikta Rabati 11 menciona os quatro compartimentos da noz; Yalkut Cântico dos Cânticos 992 registra forma <bdi dir='rtl' lang='he'>מגורות</bdi>.",
+      "source_headwords": [
+        "*אֲגֹורָה"
+      ],
+      "source_senses": [
+        "(אגר) prop. store-room , hence the compartments of the nut-shell. Pl. אֲגֹורֹות . Pesik. R. s. 11 as the nut has ארבע א' four compartments (Yalk. Cant. 992 מגורות)."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00281",
+      "ordinal": 282,
+      "lemma": "אֲגוּרֵי",
+      "source_sha256": "1a3fc4dd803d2ceae651591196d44423322ebe1b72cf700928142744f63c7c89",
+      "source_xml": "<entry id=\"A00281\">\n<head-word>אֲגוּרֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> inf. of אֲגַר.—אגורי for אֲגִירֵי, v. \n<xref rid=\"A00298\">אָגִירָא</xref></notes></sense></senses></entry>\n",
+      "original_html": "Infinitivo do verbo aramaico <bdi dir='rtl' lang='he'>אֲגַר</bdi>. Uma grafia semelhante <bdi dir='rtl' lang='he'>אגורי</bdi> ocorre por <bdi dir='rtl' lang='he'>אֲגִירֵי</bdi>; ver <bdi dir='rtl' lang='he'>אָגִירָא</bdi>.",
+      "validated_html": "Infinitivo do verbo aramaico <bdi dir='rtl' lang='he'>אֲגַר</bdi>. Uma grafia semelhante <bdi dir='rtl' lang='he'>אגורי</bdi> ocorre por <bdi dir='rtl' lang='he'>אֲגִירֵי</bdi>; ver <bdi dir='rtl' lang='he'>אָגִירָא</bdi>.",
+      "source_headwords": [
+        "אֲגוּרֵי"
+      ],
+      "source_senses": [
+        "inf. of אֲגַר.—אגורי for אֲגִירֵי, v. אָגִירָא"
+      ],
+      "source_xrefs": [
+        "A00298"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00283",
+      "ordinal": 284,
+      "lemma": "אגוריאות",
+      "source_sha256": "89aaeda68365bd450f64340da8748600b95be9886121f899a9b25e3fd67e7c94",
+      "source_xml": "<entry id=\"A00283\">\n<head-word>אגוריאות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00279\">אֲגֹורָא II</xref></notes></sense></senses></entry>\n",
+      "original_html": "Grafia plural remitida ao segundo homógrafo <bdi dir='rtl' lang='he'>אֲגֹורָא</bdi>, “tribunal, mercado”.",
+      "validated_html": "Grafia plural remitida ao segundo homógrafo <bdi dir='rtl' lang='he'>אֲגֹורָא</bdi>, “tribunal, mercado”.",
+      "source_headwords": [
+        "אגוריאות"
+      ],
+      "source_senses": [
+        ", v. אֲגֹורָא II"
+      ],
+      "source_xrefs": [
+        "A00279"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-261-285.js"
+    },
+    {
+      "id": "A00285",
+      "ordinal": 286,
+      "lemma": "אָגַח,",
+      "source_sha256": "44828f2bed0b0a28e49717afa39f954077c8e8191869716c11a45ab927f92649",
+      "source_xml": "<entry id=\"A00285\">\n<head-word>אָגַח, </head-word>\n<head-word>אֲגַח</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00355\">גּוּחַ</xref></notes></sense></senses></entry>\n",
+      "original_html": "Formas <bdi lang='he' dir='rtl'>אָגַח, אֲגַח</bdi> remetidas a <bdi lang='he' dir='rtl'>גּוּחַ</bdi>.",
+      "validated_html": "Formas <bdi lang='he' dir='rtl'>אָגַח, אֲגַח</bdi> remetidas a <bdi lang='he' dir='rtl'>גּוּחַ</bdi>.",
+      "source_headwords": [
+        "אָגַח,",
+        "אֲגַח"
+      ],
+      "source_senses": [
+        ", v. גּוּחַ"
+      ],
+      "source_xrefs": [
+        "C00355"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00286",
+      "ordinal": 287,
+      "lemma": "אַגָּחוּתָא,",
+      "source_sha256": "957ca4542398e4de6a228ab4ef90f7c20552cad62e8bd6a3577b454171308756",
+      "source_xml": "<entry id=\"A00286\">\n<head-word>אַגָּחוּתָא, </head-word>\n<head-word>אָגָחוּתָא, </head-word>\n<head-word> , </head-word>\n<head-word>(אֲגִיח')</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גוח, נגח) \n<italic>fighting</italic>.</definition>\n<notes> Targ. Ps. CX, 3; a. e.</notes></sense></senses></entry>\n",
+      "original_html": "Formas <bdi lang='he' dir='rtl'>אַגָּחוּתָא, אָגָחוּתָא</bdi>; o XML registra ainda a abreviatura <bdi lang='he' dir='rtl'>אֲגִיח׳</bdi>, sem explicitar nesta entrada sua expansão; das raízes relacionadas a golpear ou combater: luta, combate. Targum Salmos 110.3 e outras passagens.",
+      "validated_html": "Formas <bdi lang='he' dir='rtl'>אַגָּחוּתָא, אָגָחוּתָא</bdi>; o XML registra ainda a abreviatura <bdi lang='he' dir='rtl'>אֲגִיח׳</bdi>, sem explicitar nesta entrada sua expansão; das raízes relacionadas a golpear ou combater: luta, combate. Targum Salmos 110.3 e outras passagens.",
+      "source_headwords": [
+        "אַגָּחוּתָא,",
+        "אָגָחוּתָא,",
+        ",",
+        "(אֲגִיח')"
+      ],
+      "source_senses": [
+        "(גוח, נגח) fighting . Targ. Ps. CX, 3; a. e."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00287",
+      "ordinal": 288,
+      "lemma": "אגטין",
+      "source_sha256": "0c39d52ec262af6e9585f205b375194d43c1eb1a6b3098017c3740eb77b846e8",
+      "source_xml": "<entry id=\"A00287\">\n<head-word>אגטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Snh. 91\n<sup>a</sup>, v. \n<xref rid=\"L00125\">לֶגְטֹון</xref>;—Y. Kil. IX, 32\n<sup>a</sup> v. אַגְבִּין.</notes></sense></senses></entry>\n",
+      "original_html": "Em Sanhedrin 91a, ver <bdi lang='he' dir='rtl'>לֶגְטֹון</bdi>; em Jerusalém Kilayim 9, 32a, consultar <bdi lang='he' dir='rtl'>אַגְבִּין</bdi>. Trata-se de remissões referentes a passagens distintas.",
+      "validated_html": "Em Sanhedrin 91a, ver <bdi lang='he' dir='rtl'>לֶגְטֹון</bdi>; em Jerusalém Kilayim 9, 32a, consultar <bdi lang='he' dir='rtl'>אַגְבִּין</bdi>. Trata-se de remissões referentes a passagens distintas.",
+      "source_headwords": [
+        "אגטין"
+      ],
+      "source_senses": [
+        ", Snh. 91 a , v. לֶגְטֹון ;—Y. Kil. IX, 32 a v. אַגְבִּין."
+      ],
+      "source_xrefs": [
+        "L00125"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00288",
+      "ordinal": 289,
+      "lemma": "אַגְטְרַגְטָא",
+      "source_sha256": "aefbef2698e2fb4fd152fc2aefe655e2ee54babab6764c149c1b7d6ca0f10f27",
+      "source_xml": "<entry id=\"A00288\">\n<head-word>אַגְטְרַגְטָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (καταῤῥάκτης, \n<italic>cataracta</italic>) \n<italic>cataract, cascade</italic>.</definition>\n<notes>—\n<plural-form>Pl. אַגְטְרַגְטַיָּיא</plural-form> Y. M. Kat. I, beg. 80\n<sup>b</sup> אילין א' מה וכ' what is your opinion about those cascades?</notes></sense></senses></entry>\n",
+      "original_html": "Do grego <span lang='grc'>καταῤῥάκτης</span>, ligado ao latim <i>cataracta</i>: queda-d'água, catarata, cascata. Plural <bdi lang='he' dir='rtl'>אַגְטְרַגְטַיָּיא</bdi>. Jerusalém Moed Katan 1, 80b pergunta sobre tais cascatas.",
+      "validated_html": "Do grego <span lang='grc'>καταῤῥάκτης</span>, ligado ao latim <i>cataracta</i>: queda-d'água, catarata, cascata. Plural <bdi lang='he' dir='rtl'>אַגְטְרַגְטַיָּיא</bdi>. Jerusalém Moed Katan 1, 80b pergunta sobre tais cascatas.",
+      "source_headwords": [
+        "אַגְטְרַגְטָא"
+      ],
+      "source_senses": [
+        "(καταῤῥάκτης, cataracta ) cataract, cascade . — Pl. אַגְטְרַגְטַיָּיא Y. M. Kat. I, beg. 80 b אילין א' מה וכ' what is your opinion about those cascades?"
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00289",
+      "ordinal": 290,
+      "lemma": "אֻגְיָא",
+      "source_sha256": "b06e58cdfe5c1a3b91afe373733b8badcaf14cf536c442bdb058c5c92e4352fa",
+      "source_xml": "<entry id=\"A00289\">\n<head-word>אֻגְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00542\">אוּגְיָא</xref></notes></sense></senses></entry>\n",
+      "original_html": "Remissão a <bdi lang='he' dir='rtl'>אוּגְיָא</bdi>.",
+      "validated_html": "Remissão a <bdi lang='he' dir='rtl'>אוּגְיָא</bdi>.",
+      "source_headwords": [
+        "אֻגְיָא"
+      ],
+      "source_senses": [
+        ", v. אוּגְיָא"
+      ],
+      "source_xrefs": [
+        "A00542"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00290",
+      "ordinal": 291,
+      "lemma": "אָגִיחַ",
+      "source_sha256": "229f8de4428efebf4bf16f06049ff37e78f9349e6c86c2c1810a76ebbd6f5a16",
+      "source_xml": "<entry id=\"A00290\">\n<head-word>אָגִיחַ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00355\">גּוּחַ</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi lang='he' dir='rtl'>גּוּחַ</bdi>.",
+      "validated_html": "Forma remetida a <bdi lang='he' dir='rtl'>גּוּחַ</bdi>.",
+      "source_headwords": [
+        "אָגִיחַ"
+      ],
+      "source_senses": [
+        ", v. גּוּחַ"
+      ],
+      "source_xrefs": [
+        "C00355"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00291",
+      "ordinal": 292,
+      "lemma": "אָגִיחוּתָא",
+      "source_sha256": "6f913aeacd94796f3fa79e7da361fec962166e0584df4d234f7a5c4020f95179",
+      "source_xml": "<entry id=\"A00291\">\n<head-word>אָגִיחוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00286\">אַגָּחוּתָא</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida à entrada <bdi lang='he' dir='rtl'>אַגָּחוּתָא</bdi>, “luta, combate”.",
+      "validated_html": "Forma remetida à entrada <bdi lang='he' dir='rtl'>אַגָּחוּתָא</bdi>, “luta, combate”.",
+      "source_headwords": [
+        "אָגִיחוּתָא"
+      ],
+      "source_senses": [
+        ", v. אַגָּחוּתָא"
+      ],
+      "source_xrefs": [
+        "A00286"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00292",
+      "ordinal": 293,
+      "lemma": "אגין",
+      "source_sha256": "e5dfefb1af2b10a82ce18fa219fd5490c83c8f88d39adde24092b3bf556a9f1a",
+      "source_xml": "<entry id=\"A00292\">\n<head-word>אגין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Tanḥ. Emor. 18, v. \n<xref rid=\"B00023\">בַּאיִין</xref>.—Y. Sabb. II, 5\n<sup>b</sup> כפר א', read אָנוּן = חָנוּן Gen. R. s. 6.</notes></sense></senses></entry>\n",
+      "original_html": "Tanhuma Emor 18 remete a <bdi lang='he' dir='rtl'>בַּאיִין</bdi>. Para <bdi lang='he' dir='rtl'>כפר אגין</bdi> em Jerusalém Shabbat 2, 5b, Jastrow propõe a leitura <bdi lang='he' dir='rtl'>אָנוּן</bdi>, identificada com <bdi lang='he' dir='rtl'>חָנוּן</bdi> em Gênesis Rabá 6.",
+      "validated_html": "Tanhuma Emor 18 remete a <bdi lang='he' dir='rtl'>בַּאיִין</bdi>. Para <bdi lang='he' dir='rtl'>כפר אגין</bdi> em Jerusalém Shabbat 2, 5b, Jastrow propõe a leitura <bdi lang='he' dir='rtl'>אָנוּן</bdi>, identificada com <bdi lang='he' dir='rtl'>חָנוּן</bdi> em Gênesis Rabá 6.",
+      "source_headwords": [
+        "אגין"
+      ],
+      "source_senses": [
+        "Tanḥ. Emor. 18, v. בַּאיִין .—Y. Sabb. II, 5 b כפר א', read אָנוּן = חָנוּן Gen. R. s. 6."
+      ],
+      "source_xrefs": [
+        "B00023"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00293",
+      "ordinal": 294,
+      "lemma": "*אַגֵּין",
+      "source_sha256": "450ffe63aaf68693d47c6249619081810b47d483028c3fbdf39241730854fc00",
+      "source_xml": "<entry id=\"A00293\">\n<head-word>*אַגֵּין</head-word>\n<senses>\n<sense>\n<definition> (denom. of אגן, אוגנא, Pa.) \n<italic>to form disks</italic> or \n<italic>cakes</italic> (of wax).</definition>\n<notes> Y. Sabb. VII, 10\n<sup>b</sup> bot. ההן דא' גיר קררין he who forms cakes of wax dust (on a Sabbath).</notes></sense></senses></entry>\n",
+      "original_html": "Derivado, segundo Jastrow, de <bdi lang='he' dir='rtl'>אגן / אוגנא</bdi>, “disco, forma”: formar placas, discos ou bolos de cera. Jerusalém Shabbat 7, 10b: pessoa que molda pequenas placas de pó de cera durante o sábado.",
+      "validated_html": "Derivado, segundo Jastrow, de <bdi lang='he' dir='rtl'>אגן / אוגנא</bdi>, “disco, forma”: formar placas, discos ou bolos de cera. Jerusalém Shabbat 7, 10b: pessoa que molda pequenas placas de pó de cera durante o sábado.",
+      "source_headwords": [
+        "*אַגֵּין"
+      ],
+      "source_senses": [
+        "(denom. of אגן, אוגנא, Pa.) to form disks or cakes (of wax). Y. Sabb. VII, 10 b bot. ההן דא' גיר קררין he who forms cakes of wax dust (on a Sabbath)."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00294",
+      "ordinal": 295,
+      "lemma": "אגינו",
+      "source_sha256": "831961f6cecbe2640e09d3d636de360756a12845f676ef5eaa5ac709592bf2d4",
+      "source_xml": "<entry id=\"A00294\">\n<head-word>אגינו</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Gen. R. s. 56, some ed. אנונו—a corrupt passage, prob. to be read: ששמר את גנו משבולת הנהר והקיף את גן בנו עמו.</notes></sense></senses></entry>\n",
+      "original_html": "Em Gênesis Rabá 56, Jastrow considera corrompida a passagem que contém <bdi lang='he' dir='rtl'>אגינו</bdi> (variante <bdi lang='he' dir='rtl'>אנונו</bdi>). Propõe texto referente a alguém que protegeu seu jardim da corrente do rio e incluiu o jardim do filho na proteção. Essa reconstrução é conjectural, não leitura comprovada.",
+      "validated_html": "Em Gênesis Rabá 56, Jastrow considera corrompida a passagem que contém <bdi lang='he' dir='rtl'>אגינו</bdi> (variante <bdi lang='he' dir='rtl'>אנונו</bdi>). Propõe texto referente a alguém que protegeu seu jardim da corrente do rio e incluiu o jardim do filho na proteção. Essa reconstrução é conjectural, não leitura comprovada. <strong>Aparato filológico (lote 004):</strong> <strong>Emenda de Gênesis Rabá §56:</strong> a edição transmite <bdi dir='rtl' lang='he'>אגינו</bdi> e algumas edições <bdi dir='rtl' lang='he'>אנונו</bdi>. Jastrow julga o contexto corrompido e propõe como <strong>reconstrução incerta</strong> <bdi dir='rtl' lang='he'>ששמר את גנו משבולת הנהר והקיף את גן בנו עמו</bdi>, «aquele que protegeu seu jardim da corrente do rio e cercou também o jardim do filho». A forma reconstruída pertence à análise crítica de Jastrow, não ao testemunho original.",
+      "source_headwords": [
+        "אגינו"
+      ],
+      "source_senses": [
+        "Gen. R. s. 56, some ed. אנונו—a corrupt passage, prob. to be read: ששמר את גנו משבולת הנהר והקיף את גן בנו עמו."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Emenda de Gênesis Rabá §56: a edição transmite אגינו e algumas edições אנונו . Jastrow julga o contexto corrompido e propõe como reconstrução incerta ששמר את גנו משבולת הנהר והקיף את גן בנו עמו , «aquele que protegeu seu jardim da corrente do rio e cercou também o jardim do filho». A forma reconstruída pertence à análise crítica de Jastrow, não ao testemunho original.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00295",
+      "ordinal": 296,
+      "lemma": "אָגִיס",
+      "source_sha256": "c5b10cd8c8ed76650b2fb487b821dcfdbd50ffce4fa2336fb4eeacca4192b34c",
+      "source_xml": "<entry id=\"A00295\">\n<head-word>אָגִיס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>wife’s brother</italic> or \n<italic>kindred, brother-in-law</italic>, v. \n<xref rid=\"C00772\">גִּיס</xref>.</definition>\n<notes> Snh. III, 7 ed. Y.; a. fr.</notes></sense></senses></entry>\n",
+      "original_html": "Irmão da esposa ou outro parente por afinidade; cunhado. Sanhedrin 3.7 (edição de Jerusalém). Consultar também <bdi lang='he' dir='rtl'>גִּיס</bdi>.",
+      "validated_html": "Irmão da esposa ou outro parente por afinidade; cunhado. Sanhedrin 3.7 (edição de Jerusalém). Consultar também <bdi lang='he' dir='rtl'>גִּיס</bdi>.",
+      "source_headwords": [
+        "אָגִיס"
+      ],
+      "source_senses": [
+        "wife’s brother or kindred, brother-in-law , v. גִּיס . Snh. III, 7 ed. Y.; a. fr."
+      ],
+      "source_xrefs": [
+        "C00772"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00296",
+      "ordinal": 297,
+      "lemma": "אגיסטון,",
+      "source_sha256": "e160b9d342022e063a36a4570a025eeb144a51c6d8f75d0cc2dc01545a2cae6f",
+      "source_xml": "<entry id=\"A00296\">\n<head-word>אגיסטון, </head-word>\n<head-word>אגיסטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> v. \n<xref rid=\"unknown\">אגוס'</xref></notes></sense></senses></entry>\n",
+      "original_html": "Variantes <bdi lang='he' dir='rtl'>אגיסטון, אגיסטין</bdi> remetidas ao verbete do servidor de propriedade imperial <bdi lang='he' dir='rtl'>אָגוּסְטָאן</bdi>.",
+      "validated_html": "Variantes <bdi lang='he' dir='rtl'>אגיסטון, אגיסטין</bdi> remetidas ao verbete do servidor de propriedade imperial <bdi lang='he' dir='rtl'>אָגוּסְטָאן</bdi>.",
+      "source_headwords": [
+        "אגיסטון,",
+        "אגיסטין"
+      ],
+      "source_senses": [
+        "v. אגוס'"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00297",
+      "ordinal": 298,
+      "lemma": "אגיסטרין",
+      "source_sha256": "da5eae6e900679a1d62493297a8fec5c4838ff0cd972cfe0419c839b6b825458",
+      "source_xml": "<entry id=\"A00297\">\n<head-word>אגיסטרין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00328\">אֶגְסִיטֵרִין</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi lang='he' dir='rtl'>אֶגְסִיטֵרִין</bdi>.",
+      "validated_html": "Forma remetida a <bdi lang='he' dir='rtl'>אֶגְסִיטֵרִין</bdi>.",
+      "source_headwords": [
+        "אגיסטרין"
+      ],
+      "source_senses": [
+        ", v. אֶגְסִיטֵרִין"
+      ],
+      "source_xrefs": [
+        "A00328"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00298",
+      "ordinal": 299,
+      "lemma": "אָגִיר,",
+      "source_sha256": "ead77950c38b01aadc29643ea4d642d0e44674fcd1c51986f81416576580759e",
+      "source_xml": "<entry id=\"A00298\">\n<head-word>אָגִיר, </head-word>\n<head-word>אָגִירָא, </head-word>\n<head-word>(אֲגִירָא, </head-word>\n<head-word>אַגִּירָא)</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אֲגַר) \n<italic>hired man, laborer</italic>.</definition>\n<notes> Targ. Job VII, 1; 2; a. fr.—\n<plural-form>Pl. אֲגִירֵי</plural-form>. B. Mets. 76\n<sup>b</sup> sq. (interch. in ed. with. אגירי, corr. acc.).</notes></sense></senses></entry>\n",
+      "original_html": "Formas <bdi lang='he' dir='rtl'>אָגִיר, אָגִירָא, אֲגִירָא, אַגִּירָא</bdi>, de <bdi lang='he' dir='rtl'>אֲגַר</bdi>: trabalhador assalariado, empregado, contratado. Targum Jó 7.1–2; plural <bdi lang='he' dir='rtl'>אֲגִירֵי</bdi>, Bava Metzia 76b e seguintes, com variantes editoriais.",
+      "validated_html": "Formas <bdi lang='he' dir='rtl'>אָגִיר, אָגִירָא, אֲגִירָא, אַגִּירָא</bdi>, de <bdi lang='he' dir='rtl'>אֲגַר</bdi>: trabalhador assalariado, empregado, contratado. Targum Jó 7.1–2; plural <bdi lang='he' dir='rtl'>אֲגִירֵי</bdi>, Bava Metzia 76b e seguintes, com variantes editoriais.",
+      "source_headwords": [
+        "אָגִיר,",
+        "אָגִירָא,",
+        "(אֲגִירָא,",
+        "אַגִּירָא)"
+      ],
+      "source_senses": [
+        "(אֲגַר) hired man, laborer . Targ. Job VII, 1; 2; a. fr.— Pl. אֲגִירֵי . B. Mets. 76 b sq. (interch. in ed. with. אגירי, corr. acc.)."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00299",
+      "ordinal": 300,
+      "lemma": "*אגיריסין",
+      "source_sha256": "2ceaee3a27783695dab20aa6fcef3f853cad9bc2c80c9b5e8df33c968fdef2bc",
+      "source_xml": "<entry id=\"A00299\">\n<head-word>*אגיריסין</head-word>\n<senses>\n<sense>\n<definition>,\n<pos> m. pl.</pos>, a corruption of a geographical term, perh.</definition>\n<notes> אפירוטין (Ἠπειρῶται) (steeds) \n<italic>of Epyrus</italic>. Targ. Jer. V, 8 (h. text מַשְׁכִּים).</notes></sense></senses></entry>\n",
+      "original_html": "Plural masculino considerado por Jastrow corrupção de um termo geográfico, talvez <span lang='grc'>Ἠπειρῶται</span>, “do Épiro”, aplicado a cavalos. Targum Jeremias 5.8; a identificação e a emenda são propostas, não demonstradas.",
+      "validated_html": "Plural masculino considerado por Jastrow corrupção de um termo geográfico, talvez <span lang='grc'>Ἠπειρῶται</span>, “do Épiro”, aplicado a cavalos. Targum Jeremias 5.8; a identificação e a emenda são propostas, não demonstradas.",
+      "source_headwords": [
+        "*אגיריסין"
+      ],
+      "source_senses": [
+        ", m. pl. , a corruption of a geographical term, perh. אפירוטין (Ἠπειρῶται) (steeds) of Epyrus . Targ. Jer. V, 8 (h. text מַשְׁכִּים)."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00300",
+      "ordinal": 301,
+      "lemma": "אגיש",
+      "source_sha256": "ca00c594d52c421b9863d9f001cab22b639f861885192e53d0ba9e76bc370587",
+      "source_xml": "<entry id=\"A00300\">\n<head-word>אגיש</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Lam. R. to I, 21; Pesik. Anokhi p. 138\n<sup>b</sup>, v. \n<xref rid=\"unknown\">גּוּשׁ I</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma de Lamentações Rabá a 1.21 e Pesikta Anokhi, p. 138b; consultar <bdi lang='he' dir='rtl'>גּוּשׁ</bdi> I.",
+      "validated_html": "Forma de Lamentações Rabá a 1.21 e Pesikta Anokhi, p. 138b; consultar <bdi lang='he' dir='rtl'>גּוּשׁ</bdi> I.",
+      "source_headwords": [
+        "אגיש"
+      ],
+      "source_senses": [
+        "Lam. R. to I, 21; Pesik. Anokhi p. 138 b , v. גּוּשׁ I"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00301",
+      "ordinal": 302,
+      "lemma": "אִגְלָא,",
+      "source_sha256": "c24cf655956196279789765826d1bcafebf9e2a8b675f3bd274a9d44327f03fa",
+      "source_xml": "<entry id=\"A00301\">\n<head-word>אִגְלָא, </head-word>\n<head-word>אִיגְלָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C00381\">גַּל</xref>, \n<xref rid=\"A00083\">גלל)</xref>\n<italic>outside-door, city-gate</italic>.</definition>\n<notes>—\n<plural-form>Pl. אִגְלֵי, אִיגְלֵי</plural-form>. B. Bath 8\n<sup>a</sup> הכל לאי' גפא Ar. (ed. לאג'. all must contribute towards keeping the city gates in repair.; B. Mets. 108\n<sup>a</sup> (Ms. M. גַלֵּי).</notes></sense></senses></entry>\n",
+      "original_html": "Variantes <bdi lang='he' dir='rtl'>אִגְלָא, אִיגְלָא</bdi>, relacionadas a <bdi lang='he' dir='rtl'>גַּל</bdi>, <bdi lang='he' dir='rtl'>גלל</bdi>: portão de entrada ou porta exterior da cidade. Plural <bdi lang='he' dir='rtl'>אִגְלֵי, אִיגְלֵי</bdi>. Bava Batra 8a: todos devem contribuir para consertar os portões urbanos. Bava Metzia 108a traz variante <bdi lang='he' dir='rtl'>גַלֵּי</bdi>.",
+      "validated_html": "Variantes <bdi lang='he' dir='rtl'>אִגְלָא, אִיגְלָא</bdi>, relacionadas a <bdi lang='he' dir='rtl'>גַּל</bdi>, <bdi lang='he' dir='rtl'>גלל</bdi>: portão de entrada ou porta exterior da cidade. Plural <bdi lang='he' dir='rtl'>אִגְלֵי, אִיגְלֵי</bdi>. Bava Batra 8a: todos devem contribuir para consertar os portões urbanos. Bava Metzia 108a traz variante <bdi lang='he' dir='rtl'>גַלֵּי</bdi>. <strong>Aparato filológico (lote 004):</strong> <strong>Comparação manuscrita:</strong> plural <bdi dir='rtl' lang='he'>אִגְלֵי, אִיגְלֵי</bdi>. Em Bava Batra 8a o <i>Arukh</i> cita <bdi dir='rtl' lang='he'>הכל לאי׳ גפא</bdi>, «todos contribuem para os portões da cidade», contra a abreviação impressa <bdi dir='rtl' lang='he'>לאג׳</bdi>. Bava Metzia 108a, manuscrito M., tem <bdi dir='rtl' lang='he'>גַלֵּי</bdi>. Jastrow associa o vocábulo a <bdi dir='rtl' lang='he'>גַּל</bdi> e <bdi dir='rtl' lang='he'>גלל</bdi>; não o equiparar a homógrafos de «colina» ou «prado».",
+      "source_headwords": [
+        "אִגְלָא,",
+        "אִיגְלָא"
+      ],
+      "source_senses": [
+        "(v. גַּל , גלל) outside-door, city-gate . — Pl. אִגְלֵי, אִיגְלֵי . B. Bath 8 a הכל לאי' גפא Ar. (ed. לאג'. all must contribute towards keeping the city gates in repair.; B. Mets. 108 a (Ms. M. גַלֵּי)."
+      ],
+      "source_xrefs": [
+        "C00381",
+        "A00083"
+      ],
+      "status": "C",
+      "decision": "Comparação manuscrita: plural אִגְלֵי, אִיגְלֵי . Em Bava Batra 8a o Arukh cita הכל לאי׳ גפא , «todos contribuem para os portões da cidade», contra a abreviação impressa לאג׳ . Bava Metzia 108a, manuscrito M., tem גַלֵּי . Jastrow associa o vocábulo a גַּל e גלל ; não o equiparar a homógrafos de «colina» ou «prado».",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00302",
+      "ordinal": 303,
+      "lemma": "אגלווקי",
+      "source_sha256": "a6060c68a8fcebf2b4b62b13d15ae8a62c7a78e3c5deb86efc3a551f4955c387",
+      "source_xml": "<entry id=\"A00302\">\n<head-word>אגלווקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00267\">גּוּאַלְקָא</xref> a. \n<xref rid=\"H00107\">חֶבֶר.</xref></notes></sense></senses></entry>\n",
+      "original_html": "Remete a <bdi lang='he' dir='rtl'>גּוּאַלְקָא</bdi> e <bdi lang='he' dir='rtl'>חֶבֶר</bdi>.",
+      "validated_html": "Remete a <bdi lang='he' dir='rtl'>גּוּאַלְקָא</bdi> e <bdi lang='he' dir='rtl'>חֶבֶר</bdi>.",
+      "source_headwords": [
+        "אגלווקי"
+      ],
+      "source_senses": [
+        ", v. גּוּאַלְקָא a. חֶבֶר."
+      ],
+      "source_xrefs": [
+        "C00267",
+        "H00107"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00304",
+      "ordinal": 305,
+      "lemma": "אגלין",
+      "source_sha256": "09d7eeaa2bb3e1f3fee1e73929ea24a557d103ed7528ebd185049ac9cf3e6f63",
+      "source_xml": "<entry id=\"A00304\">\n<head-word>אגלין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> read אֵילֹוגִין.</notes></sense></senses></entry>\n",
+      "original_html": "Recomendação de corrigir <bdi lang='he' dir='rtl'>אגלין</bdi> para <bdi lang='he' dir='rtl'>אֵילֹוגִין</bdi>.",
+      "validated_html": "Recomendação de corrigir <bdi lang='he' dir='rtl'>אגלין</bdi> para <bdi lang='he' dir='rtl'>אֵילֹוגִין</bdi>.",
+      "source_headwords": [
+        "אגלין"
+      ],
+      "source_senses": [
+        "read אֵילֹוגִין."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00305",
+      "ordinal": 306,
+      "lemma": "אַגְלָפוּתָא",
+      "source_sha256": "0a83b3c472c6f4f871929330eafa2221c1c756f63cb8519d0e79a685e8a8a970",
+      "source_xml": "<entry id=\"A00305\">\n<head-word>אַגְלָפוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גלף) \n<italic>engraving, setting</italic>.</definition>\n<notes> Targ. Y. Ex. XXXI, 5.</notes></sense></senses></entry>\n",
+      "original_html": "Da raiz <bdi lang='he' dir='rtl'>גלף</bdi>: trabalho de gravar ou engastar. Targum Pseudo-Jônatas Êxodo 31.5.",
+      "validated_html": "Da raiz <bdi lang='he' dir='rtl'>גלף</bdi>: trabalho de gravar ou engastar. Targum Pseudo-Jônatas Êxodo 31.5.",
+      "source_headwords": [
+        "אַגְלָפוּתָא"
+      ],
+      "source_senses": [
+        "(גלף) engraving, setting . Targ. Y. Ex. XXXI, 5."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00306",
+      "ordinal": 307,
+      "lemma": "אגלקי",
+      "source_sha256": "0b480f361eff9be1c01dac00fe753962daf8bd855d96cabe6a2f5714089370b9",
+      "source_xml": "<entry id=\"A00306\">\n<head-word>אגלקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00267\">גּוּאַלְקָא</xref></notes></sense></senses></entry>\n",
+      "original_html": "Remissão a <bdi lang='he' dir='rtl'>גּוּאַלְקָא</bdi>.",
+      "validated_html": "Remissão a <bdi lang='he' dir='rtl'>גּוּאַלְקָא</bdi>.",
+      "source_headwords": [
+        "אגלקי"
+      ],
+      "source_senses": [
+        ", v. גּוּאַלְקָא"
+      ],
+      "source_xrefs": [
+        "C00267"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00307",
+      "ordinal": 308,
+      "lemma": "אֲגַם,",
+      "source_sha256": "459d56740a7e6649cbb8a07efa4741263e53aa58408d81fba6713a627c6a9e6b",
+      "source_xml": "<entry id=\"A00307\">\n<head-word>אֲגַם, </head-word>\n<hw-number>I</hw-number>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">עגם; √גם</xref>, v. גמם,\n<xref rid=\"A00083\"> גום)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to be bent</italic>, whence \n<italic>to be in grief</italic>.</definition>\n<notes> Targ. Ps. CXIX, 28.</notes></sense></senses></entry>\n",
+      "original_html": "Jastrow associa o verbo a uma raiz com a ideia de curvar-se, daí estar abatido ou aflito, entristecer-se. Targum Salmos 119.28.",
+      "validated_html": "Jastrow associa o verbo a uma raiz com a ideia de curvar-se, daí estar abatido ou aflito, entristecer-se. Targum Salmos 119.28.",
+      "source_headwords": [
+        "אֲגַם,"
+      ],
+      "source_senses": [
+        "to be bent , whence to be in grief . Targ. Ps. CXIX, 28."
+      ],
+      "source_xrefs": [
+        "unknown",
+        "A00083"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00308",
+      "ordinal": 309,
+      "lemma": "אֲגַם,",
+      "source_sha256": "a435f509507fcee61c20c26af9a23b258f8b876f0a7954e9ddccbceba5ed67f7",
+      "source_xml": "<entry id=\"A00308\">\n<head-word>אֲגַם, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. foreg. a.\n<language-reference>\n<xref rid=\"A00083\"> אַגְמֹון)</xref></language-reference>\n<italic>anything bending and peeling</italic>, whence </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>leek</italic>, or \n<italic>leek-like plants</italic>, opp. to שחת young grain &amp;c. Kid. 62\n<sup>b</sup> this refers only to \n<italic>sha</italic>\n<italic>ḥ</italic>\n<italic>ath</italic> אבל בא' לא but not to \n<italic>ăgam</italic>.</definition>\n<notes> Ib. מאי משמע דהאי א' לישנא דבוצלנא הוא (Ar. דבוצלא) what proof have you that \n<italic>ăgam</italic> in this case has the meaning of onion-plants? (Answ. ref. to אגמון Is. LVIII, 5).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (b. h.) \n<italic>reed, reed-land</italic> (juncetum), \n<italic>dwelling places of wild beasts</italic>, opp. שָׂדֶה cultivated land.</definition>\n<notes> Taan. 22\n<sup>a</sup></notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Alho-poró ou outra planta semelhante, flexível ou de folhas alongadas, em oposição a cereais ainda tenros (<bdi lang='he' dir='rtl'>שחת</bdi>). Kidushin 62b discute se <bdi lang='he' dir='rtl'>אֲגַם</bdi> designa plantas da família das cebolas, comparando <bdi lang='he' dir='rtl'>אַגְמוֹן</bdi> de Isaías 58.5. <strong>2.</strong> Junco, terreno coberto de caniços ou canavial, habitat de animais silvestres, em oposição a campo cultivado (<bdi lang='he' dir='rtl'>שָׂדֶה</bdi>). Ta‘anit 22a.",
+      "validated_html": "<strong>1.</strong> Alho-poró ou outra planta semelhante, flexível ou de folhas alongadas, em oposição a cereais ainda tenros (<bdi lang='he' dir='rtl'>שחת</bdi>). Kidushin 62b discute se <bdi lang='he' dir='rtl'>אֲגַם</bdi> designa plantas da família das cebolas, comparando <bdi lang='he' dir='rtl'>אַגְמוֹן</bdi> de Isaías 58.5. <strong>2.</strong> Junco, terreno coberto de caniços ou canavial, habitat de animais silvestres, em oposição a campo cultivado (<bdi lang='he' dir='rtl'>שָׂדֶה</bdi>). Ta‘anit 22a. <strong>Aparato filológico (lote 004):</strong> <strong>Aparato de Kidushin 62b:</strong> o termo <bdi dir='rtl' lang='he'>אֲגַם</bdi> I/II não deve ser fundido. Na acepção botânica do homógrafo II, a discussão <bdi dir='rtl' lang='he'>מאי משמע דהאי א׳ לישנא דבוצלנא הוא</bdi> pergunta por que o termo significa plantas semelhantes a cebolas; <i>Arukh</i> tem <bdi dir='rtl' lang='he'>דבוצלא</bdi>. A explicação menciona <bdi dir='rtl' lang='he'>אַגְמֹון</bdi> de Isaías 58.5. Na segunda acepção, <i>juncetum</i> é terra com juncos, habitat de animais silvestres, oposta a <bdi dir='rtl' lang='he'>שָׂדֶה</bdi>, campo cultivado (Ta‘anit 22a). «Alho-poró» e «terreno pantanoso» não são sinônimos.",
+      "source_headwords": [
+        "אֲגַם,"
+      ],
+      "source_senses": [
+        "v. foreg. a. אַגְמֹון) anything bending and peeling , whence",
+        "1) leek , or leek-like plants , opp. to שחת young grain &amp;c. Kid. 62 b this refers only to sha ḥ ath אבל בא' לא but not to ăgam . Ib. מאי משמע דהאי א' לישנא דבוצלנא הוא (Ar. דבוצלא) what proof have you that ăgam in this case has the meaning of onion-plants? (Answ. ref. to אגמון Is. LVIII, 5).",
+        "—2) (b. h.) reed, reed-land (juncetum), dwelling places of wild beasts , opp. שָׂדֶה cultivated land. Taan. 22 a"
+      ],
+      "source_xrefs": [
+        "A00083"
+      ],
+      "status": "C",
+      "decision": "Aparato de Kidushin 62b: o termo אֲגַם I/II não deve ser fundido. Na acepção botânica do homógrafo II, a discussão מאי משמע דהאי א׳ לישנא דבוצלנא הוא pergunta por que o termo significa plantas semelhantes a cebolas; Arukh tem דבוצלא . A explicação menciona אַגְמֹון de Isaías 58.5. Na segunda acepção, juncetum é terra com juncos, habitat de animais silvestres, oposta a שָׂדֶה , campo cultivado (Ta‘anit 22a). «Alho-poró» e «terreno pantanoso» não são sinônimos.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00309",
+      "ordinal": 310,
+      "lemma": "אַגָּם",
+      "source_sha256": "94e6a70416766d5a1c453d52adcb559b29da525fd4ab41e67e21ca5bb8dd015e",
+      "source_xml": "<entry id=\"A00309\">\n<head-word>אַגָּם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גמם) \n<italic>a field which requires clearing in order to be made arable, uncleared ground containing roots of trees &amp;c.</italic> Ab. Zar. 38\n<sup>a</sup> הצית את האור בא' set fire to an uncleared field.</definition>\n<notes> Y. ib. II, 44\n<sup>d</sup> bot. א' תמרים a field on which palms stood, the roots of which must be grubbed up.</notes></sense></senses></entry>\n",
+      "original_html": "Terreno que precisa ser limpo e destocado para cultivo, com raízes de árvores ou vegetação não removida. Avodah Zarah 38a: atear fogo a campo ainda por limpar. Jerusalém Avodah Zarah 2, 44d descreve área onde havia palmeiras e cujas raízes precisavam ser arrancadas.",
+      "validated_html": "Terreno que precisa ser limpo e destocado para cultivo, com raízes de árvores ou vegetação não removida. Avodah Zarah 38a: atear fogo a campo ainda por limpar. Jerusalém Avodah Zarah 2, 44d descreve área onde havia palmeiras e cujas raízes precisavam ser arrancadas.",
+      "source_headwords": [
+        "אַגָּם"
+      ],
+      "source_senses": [
+        "(גמם) a field which requires clearing in order to be made arable, uncleared ground containing roots of trees &amp;c. Ab. Zar. 38 a הצית את האור בא' set fire to an uncleared field. Y. ib. II, 44 d bot. א' תמרים a field on which palms stood, the roots of which must be grubbed up."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-286-310.js"
+    },
+    {
+      "id": "A00310",
+      "ordinal": 311,
+      "lemma": "אַגַּמָּא",
+      "source_sha256": "6d1afcf218ab2a175bf67f70a7b5d806a92d05951b9a8a4dab818a3247496850",
+      "source_xml": "<entry id=\"A00310\">\n<head-word>אַגַּמָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Ab. Zar. 38\n<sup>a</sup> לגלוי א' וכ' his intention was merely to clear the ground.</notes></sense></senses></entry>\n",
+      "original_html": "Equivalente aramaico da entrada precedente: campo que precisa ser limpo para cultivo. Avodah Zarah 38a: a intenção era simplesmente limpar o terreno.",
+      "validated_html": "Equivalente aramaico da entrada precedente: campo que precisa ser limpo para cultivo. Avodah Zarah 38a: a intenção era simplesmente limpar o terreno.",
+      "source_headwords": [
+        "אַגַּמָּא"
+      ],
+      "source_senses": [
+        "Ab. Zar. 38 a לגלוי א' וכ' his intention was merely to clear the ground."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00311",
+      "ordinal": 312,
+      "lemma": "אַגְמָא",
+      "source_sha256": "b01111251ecc4517b0103c4e414d68fe4513d42d44f00f3b9f5164f0d12d81c0",
+      "source_xml": "<entry id=\"A00311\">\n<head-word>אַגְמָא</head-word>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(גום, v. \n<xref rid=\"A00309\">אֲגַם</xref>) \n<italic>a depression, stagnant water, lake;</italic> also \n<italic>marshland, meadow</italic>.</definition>\n<notes> B. Mets. 36\n<sup>b</sup> הבלא דא' the vapors of the meadow; a. fr. קטל קני בא' to cut reeds in the meadow = to be illiterate. Sabb. 95\n<sup>a</sup>; Snh. 33\n<sup>a</sup>.—\n<plural-form>Pl. אֲגָמִין, אַגְמַיָּא</plural-form>. Targ. Is. XXXV, 7; a. e.—אַגְמֵי. Sabb. 77\n<sup>b</sup> דייר בא' grazes in meadows.</notes></sense></senses></entry>\n",
+      "original_html": "Depressão, água estagnada, lago, terreno pantanoso ou prado. Bava Metzia 36b: vapores de pradaria. “Cortar juncos no pântano” torna-se expressão figurada para ignorância (Shabbat 95a; Sanhedrin 33a). Plurais <bdi lang='he' dir='rtl'>אֲגָמִין, אַגְמַיָּא</bdi> (Targum Isaías 35.7). Shabbat 77b: pastar em prados.",
+      "validated_html": "Depressão, água estagnada, lago, terreno pantanoso ou prado. Bava Metzia 36b: vapores de pradaria. “Cortar juncos no pântano” torna-se expressão figurada para ignorância (Shabbat 95a; Sanhedrin 33a). Plurais <bdi lang='he' dir='rtl'>אֲגָמִין, אַגְמַיָּא</bdi> (Targum Isaías 35.7). Shabbat 77b: pastar em prados. <strong>Aparato filológico (lote 004):</strong> <strong>Distribuição semântica e flexão:</strong> «depressão, lago de água parada, pantanal» e «prado» são extensões relacionadas, mas a fonte cita usos distintos: Bava Metzia 36b <bdi dir='rtl' lang='he'>הבלא דא׳</bdi>, «vapores do prado», e <bdi dir='rtl' lang='he'>קטל קני בא׳</bdi>, literalmente «cortou juncos no pântano», expressão proverbial para pessoa iletrada (Shabbat 95a; Sanhedrin 33a). Plurais <bdi dir='rtl' lang='he'>אֲגָמִין, אַגְמַיָּא</bdi> (Targum Isaías 35.7) e forma plural <bdi dir='rtl' lang='he'>אַגְמֵי</bdi> em Shabbat 77b, <bdi dir='rtl' lang='he'>דייר בא׳</bdi>, «pasta nos prados». Jastrow remete à família <bdi dir='rtl' lang='he'>גום</bdi> e ao homógrafo <bdi dir='rtl' lang='he'>אֲגַם</bdi>.",
+      "source_headwords": [
+        "אַגְמָא"
+      ],
+      "source_senses": [
+        "(גום, v. אֲגַם ) a depression, stagnant water, lake; also marshland, meadow . B. Mets. 36 b הבלא דא' the vapors of the meadow; a. fr. קטל קני בא' to cut reeds in the meadow = to be illiterate. Sabb. 95 a ; Snh. 33 a .— Pl. אֲגָמִין, אַגְמַיָּא . Targ. Is. XXXV, 7; a. e.—אַגְמֵי. Sabb. 77 b דייר בא' grazes in meadows."
+      ],
+      "source_xrefs": [
+        "A00309"
+      ],
+      "status": "C",
+      "decision": "Distribuição semântica e flexão: «depressão, lago de água parada, pantanal» e «prado» são extensões relacionadas, mas a fonte cita usos distintos: Bava Metzia 36b הבלא דא׳ , «vapores do prado», e קטל קני בא׳ , literalmente «cortou juncos no pântano», expressão proverbial para pessoa iletrada (Shabbat 95a; Sanhedrin 33a). Plurais אֲגָמִין, אַגְמַיָּא (Targum Isaías 35.7) e forma plural אַגְמֵי em Shabbat 77b, דייר בא׳ , «pasta nos prados». Jastrow remete à família גום e ao homógrafo אֲגַם .",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00312",
+      "ordinal": 313,
+      "lemma": "אַגְמָא,",
+      "source_sha256": "920556d4dcac7ee66e600e216ca09f2bc1de0b3ca789928af71b5547800b7f28",
+      "source_xml": "<entry id=\"A00312\">\n<head-word>אַגְמָא, </head-word>\n<hw-number>II</hw-number>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Agma</italic>, in Babylon.</definition>\n<notes> B. Mets 86\n<sup>a</sup>.—B. Bath. 127\n<sup>a</sup>; Kid. 72\n<sup>a</sup> אקרא דא' Akra d’Agma, v. אַקְרָא Snh. 38\n<sup>b</sup> אקרא דא' (Ar. אגמא דוקירי; oth. var. v. Rabb. D. S. a. l. note).</notes></sense></senses></entry>\n",
+      "original_html": "<strong>Agma</strong>, nome de lugar na Babilônia. Bava Metzia 86a; Bava Batra 127a e Kidushin 72a mencionam <bdi lang='he' dir='rtl'>אקרא דאגמא</bdi>, a fortaleza de Agma. Sanhedrin 38b contém variantes editoriais.",
+      "validated_html": "<strong>Agma</strong>, nome de lugar na Babilônia. Bava Metzia 86a; Bava Batra 127a e Kidushin 72a mencionam <bdi lang='he' dir='rtl'>אקרא דאגמא</bdi>, a fortaleza de Agma. Sanhedrin 38b contém variantes editoriais. <strong>Aparato filológico (lote 004):</strong> <strong>Aparato do topônimo:</strong> <bdi dir='rtl' lang='he'>אַגְמָא</bdi> II é um nome geográfico da Babilônia, não o substantivo «prado» de I. <bdi dir='rtl' lang='he'>אַקְרָא דאַגְמָא</bdi> consta de Bava Batra 127a e Kidushin 72a. Sanhedrin 38b transmite o mesmo nome, enquanto o <i>Arukh</i> apresenta <bdi dir='rtl' lang='he'>אגמא דוקירי</bdi>; Rabbinovicz registra outras variantes que o XML não enumera. Não preencher lacunas dessas variantes sem consultar o aparato em pessoa.",
+      "source_headwords": [
+        "אַגְמָא,"
+      ],
+      "source_senses": [
+        "Agma , in Babylon. B. Mets 86 a .—B. Bath. 127 a ; Kid. 72 a אקרא דא' Akra d’Agma, v. אַקְרָא Snh. 38 b אקרא דא' (Ar. אגמא דוקירי; oth. var. v. Rabb. D. S. a. l. note)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Aparato do topônimo: אַגְמָא II é um nome geográfico da Babilônia, não o substantivo «prado» de I. אַקְרָא דאַגְמָא consta de Bava Batra 127a e Kidushin 72a. Sanhedrin 38b transmite o mesmo nome, enquanto o Arukh apresenta אגמא דוקירי ; Rabbinovicz registra outras variantes que o XML não enumera. Não preencher lacunas dessas variantes sem consultar o aparato em pessoa.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00313",
+      "ordinal": 314,
+      "lemma": "אַגְמָה,",
+      "source_sha256": "0c40485afce0152f27b86e7ebff0a8016e5a5ca7d72218a3846c8ee84bd28c79",
+      "source_xml": "<entry id=\"A00313\">\n<head-word>אַגְמָה, </head-word>\n<head-word>עַגְמָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A00307\">אֲגַם I</xref>,) esp. אַגְמַת נפש (עַגְ') \n<italic>grief</italic> of the soul.</definition>\n<notes> M. Kat. 14\n<sup>b</sup>; a. fr. Ms. M., s. Ar. א' (ed. ע).</notes></sense></senses></entry>\n",
+      "original_html": "Variantes <bdi lang='he' dir='rtl'>אַגְמָה, עַגְמָה</bdi>. Especialmente <bdi lang='he' dir='rtl'>אַגְמַת נפש</bdi>, aflição ou pesar da alma; Moed Katan 14b. Variantes da edição e do manuscrito de Munique.",
+      "validated_html": "Variantes <bdi lang='he' dir='rtl'>אַגְמָה, עַגְמָה</bdi>. Especialmente <bdi lang='he' dir='rtl'>אַגְמַת נפש</bdi>, aflição ou pesar da alma; Moed Katan 14b. Variantes da edição e do manuscrito de Munique. <strong>Aparato filológico (lote 004):</strong> <strong>Formas e atribuição editorial:</strong> <bdi dir='rtl' lang='he'>אַגְמָה, עַגְמָה</bdi> significam «pesar, aflição», sobretudo a construção <bdi dir='rtl' lang='he'>אַגְמַת נפש</bdi>, «aflição da alma» (Moed Katan 14b). Jastrow atribui ao manuscrito M. e ao <i>Arukh</i> a abreviatura <bdi dir='rtl' lang='he'>א׳</bdi>, em contraste com a leitura da edição abreviada por <bdi dir='rtl' lang='he'>ע</bdi>. A raiz é relacionada pelo autor a <bdi dir='rtl' lang='he'>אֲגַם</bdi> I, não ao substantivo toponímico <bdi dir='rtl' lang='he'>אַגְמָא</bdi> II.",
+      "source_headwords": [
+        "אַגְמָה,",
+        "עַגְמָה"
+      ],
+      "source_senses": [
+        "(v. אֲגַם I ,) esp. אַגְמַת נפש (עַגְ') grief of the soul. M. Kat. 14 b ; a. fr. Ms. M., s. Ar. א' (ed. ע)."
+      ],
+      "source_xrefs": [
+        "A00307"
+      ],
+      "status": "C",
+      "decision": "Formas e atribuição editorial: אַגְמָה, עַגְמָה significam «pesar, aflição», sobretudo a construção אַגְמַת נפש , «aflição da alma» (Moed Katan 14b). Jastrow atribui ao manuscrito M. e ao Arukh a abreviatura א׳ , em contraste com a leitura da edição abreviada por ע . A raiz é relacionada pelo autor a אֲגַם I, não ao substantivo toponímico אַגְמָא II.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00314",
+      "ordinal": 315,
+      "lemma": "אַגְמֹון",
+      "source_sha256": "6f7173e20caf7a01ee6c8438688b1ae46bc3013058ae8e3b6395750d1081fcc5",
+      "source_xml": "<entry id=\"A00314\">\n<head-word>אַגְמֹון</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אַגְמֹן; v. אֲגַם II)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>reed, cane</italic>.</definition>\n<notes>—בעל הא' \n<italic>cane-bearer</italic>, a subordinate executive officer. Y. Sot. IX, 24\n<sup>b</sup> top; a. e., v. זְמֹורָה.</notes></sense></senses></entry>\n",
+      "original_html": "Junco ou cana (hebraico bíblico <bdi lang='he' dir='rtl'>אַגְמֹן</bdi>). <bdi lang='he' dir='rtl'>בעל האגמון</bdi>, portador da cana, funcionário executivo subalterno. Jerusalém Sotá 9, 24b. Comparar <bdi lang='he' dir='rtl'>זְמֹורָה</bdi>.",
+      "validated_html": "Junco ou cana (hebraico bíblico <bdi lang='he' dir='rtl'>אַגְמֹן</bdi>). <bdi lang='he' dir='rtl'>בעל האגמון</bdi>, portador da cana, funcionário executivo subalterno. Jerusalém Sotá 9, 24b. Comparar <bdi lang='he' dir='rtl'>זְמֹורָה</bdi>.",
+      "source_headwords": [
+        "אַגְמֹון"
+      ],
+      "source_senses": [
+        "reed, cane . —בעל הא' cane-bearer , a subordinate executive officer. Y. Sot. IX, 24 b top; a. e., v. זְמֹורָה."
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00315",
+      "ordinal": 316,
+      "lemma": "אַגְמֹון,",
+      "source_sha256": "2fcbeccef783795fdf190c13172a9bdff51e9a0a56173d6ce839bc574fccc1ea",
+      "source_xml": "<entry id=\"A00315\">\n<head-word>אַגְמֹון, </head-word>\n<head-word>אַגְמֹונָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Is. LVIII, 5.—Targ. Job. XL, 26 Ms. (ed. אוּנְקְלָא).</notes></sense></senses></entry>\n",
+      "original_html": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אַגְמֹון</bdi>; variante <bdi lang='he' dir='rtl'>אַגְמֹונָא</bdi>. Targum Isaías 58.5; Targum Jó 40.26, cuja edição impressa traz <bdi lang='he' dir='rtl'>אוּנְקְלָא</bdi>.",
+      "validated_html": "Equivalente aramaico de <bdi lang='he' dir='rtl'>אַגְמֹון</bdi>; variante <bdi lang='he' dir='rtl'>אַגְמֹונָא</bdi>. Targum Isaías 58.5; Targum Jó 40.26, cuja edição impressa traz <bdi lang='he' dir='rtl'>אוּנְקְלָא</bdi>. <strong>Aparato filológico (lote 004):</strong> <strong>Diferença entre edição e manuscrito:</strong> para Targum Isaías 58.5, <bdi dir='rtl' lang='he'>אַגְמֹון, אַגְמֹונָא</bdi> são variantes aramaicas correspondentes ao hebraico «junco, cana». Em Targum Jó 40.26, o manuscrito registra a palavra deste verbete, enquanto a edição imprime <bdi dir='rtl' lang='he'>אוּנְקְלָא</bdi> (outra leitura). A variante não deve ser transferida para todas as ocorrências do Targum.",
+      "source_headwords": [
+        "אַגְמֹון,",
+        "אַגְמֹונָא"
+      ],
+      "source_senses": [
+        "Targ. Is. LVIII, 5.—Targ. Job. XL, 26 Ms. (ed. אוּנְקְלָא)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Diferença entre edição e manuscrito: para Targum Isaías 58.5, אַגְמֹון, אַגְמֹונָא são variantes aramaicas correspondentes ao hebraico «junco, cana». Em Targum Jó 40.26, o manuscrito registra a palavra deste verbete, enquanto a edição imprime אוּנְקְלָא (outra leitura). A variante não deve ser transferida para todas as ocorrências do Targum.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00316",
+      "ordinal": 317,
+      "lemma": "אֶגְמֹון",
+      "source_sha256": "a45e67f8bcbe5d588a9d46c166c6bf3e9dc9f5dd48fcdb9dabfa91a3097ecc61",
+      "source_xml": "<entry id=\"A00316\">\n<head-word>אֶגְמֹון</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m. = הֶגְמֹון. Sabb. 145\n<sup>b</sup> ed.</notes></sense></senses></entry>\n",
+      "original_html": "Forma equivalente a <bdi lang='he' dir='rtl'>הֶגְמֹון</bdi>, autoridade ou governador; Shabbat 145b. Esta entrada apenas remete ao vocábulo equivalente.",
+      "validated_html": "Forma equivalente a <bdi lang='he' dir='rtl'>הֶגְמֹון</bdi>, autoridade ou governador; Shabbat 145b. Esta entrada apenas remete ao vocábulo equivalente.",
+      "source_headwords": [
+        "אֶגְמֹון"
+      ],
+      "source_senses": [
+        "m. = הֶגְמֹון. Sabb. 145 b ed."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00317",
+      "ordinal": 318,
+      "lemma": "אַגְמֹונָא",
+      "source_sha256": "b635b02b79ae7205f4954a6ec3d166726f273baa2dcbc774a9464ed03021f72e",
+      "source_xml": "<entry id=\"A00317\">\n<head-word>אַגְמֹונָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00314\">אַגְמֹון</xref> ch.</notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida à entrada aramaica <bdi lang='he' dir='rtl'>אַגְמֹון</bdi>.",
+      "validated_html": "Forma remetida à entrada aramaica <bdi lang='he' dir='rtl'>אַגְמֹון</bdi>.",
+      "source_headwords": [
+        "אַגְמֹונָא"
+      ],
+      "source_senses": [
+        ", v. אַגְמֹון ch."
+      ],
+      "source_xrefs": [
+        "A00314"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00320",
+      "ordinal": 321,
+      "lemma": "אגנטין",
+      "source_sha256": "a96d4eb02bc86400e06968d384d77957fb56076ba17b80396e55766ce24f6007",
+      "source_xml": "<entry id=\"A00320\">\n<head-word>אגנטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Ter. VII, 21\n<sup>b</sup>, v. \n<xref rid=\"A02995\">ארגנטריא</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma em Jerusalém Terumot 7, 21b, remetida a <bdi lang='he' dir='rtl'>ארגנטריא</bdi>.",
+      "validated_html": "Forma em Jerusalém Terumot 7, 21b, remetida a <bdi lang='he' dir='rtl'>ארגנטריא</bdi>.",
+      "source_headwords": [
+        "אגנטין"
+      ],
+      "source_senses": [
+        "Y. Ter. VII, 21 b , v. ארגנטריא"
+      ],
+      "source_xrefs": [
+        "A02995"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00321",
+      "ordinal": 322,
+      "lemma": "אגנייה",
+      "source_sha256": "8a62fd6d25a228f37a677097c90caa1a5f7d90db942f71442caed3ac36a8b3aa",
+      "source_xml": "<entry id=\"A00321\">\n<head-word>אגנייה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. next. w.</notes></sense></senses></entry>\n",
+      "original_html": "Variante editorial do verbete seguinte.",
+      "validated_html": "Variante editorial do verbete seguinte.",
+      "source_headwords": [
+        "אגנייה"
+      ],
+      "source_senses": [
+        ", v. next. w."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00322",
+      "ordinal": 323,
+      "lemma": "*אַגְנִינָה",
+      "source_sha256": "e8fa8554767110c3172645040d3df2766089e0b06637bd857b2ecf9ce5973ef4",
+      "source_xml": "<entry id=\"A00322\">\n<head-word>*אַגְנִינָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (agnina, sc. pellis) \n<italic>lamb-skin</italic>.</definition>\n<notes> Gen. R. s. 20 Mus. (ed. אגנייה).</notes></sense></senses></entry>\n",
+      "original_html": "Do latim <i>agnina (pellis)</i>, pele de cordeiro. Gênesis Rabá 20, manuscrito de Musaf; edição apresenta <bdi lang='he' dir='rtl'>אגנייה</bdi>.",
+      "validated_html": "Do latim <i>agnina (pellis)</i>, pele de cordeiro. Gênesis Rabá 20, Musaf lexicográfico; edição apresenta <bdi lang='he' dir='rtl'>אגנייה</bdi>. <strong>Aparato filológico (lote 004):</strong> <strong>Correção de atribuição bibliográfica:</strong> Gênesis Rabá §20 apresenta <bdi dir='rtl' lang='he'>אַגְנִינָה</bdi> na referência abreviada <i>Mus.</i> de Jastrow, isto é, no <i>Musaf</i> lexicográfico; a edição citada registra <bdi dir='rtl' lang='he'>אגנייה</bdi>. **Não chamar «Mus.» de manuscrito**: o código de testemunho designa uma obra lexicográfica, não um códice. A expressão latina <i>agnina (pellis)</i> identifica «pele de cordeiro» e constitui a explicação etimológica do autor.",
+      "source_headwords": [
+        "*אַגְנִינָה"
+      ],
+      "source_senses": [
+        "(agnina, sc. pellis) lamb-skin . Gen. R. s. 20 Mus. (ed. אגנייה)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Correção de atribuição bibliográfica: Gênesis Rabá §20 apresenta אַגְנִינָה na referência abreviada Mus. de Jastrow, isto é, no Musaf lexicográfico; a edição citada registra אגנייה . **Não chamar «Mus.» de manuscrito**: o código de testemunho designa uma obra lexicográfica, não um códice. A expressão latina agnina (pellis) identifica «pele de cordeiro» e constitui a explicação etimológica do autor.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00323",
+      "ordinal": 324,
+      "lemma": "אגניסטור",
+      "source_sha256": "e248221655148389bb851f87ade2cd3749e6ae163b98409a258c0de06c560118",
+      "source_xml": "<entry id=\"A00323\">\n<head-word>אגניסטור</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02101\">אנגיסטור</xref></notes></sense></senses></entry>\n",
+      "original_html": "Remissão ao verbete <bdi lang='he' dir='rtl'>אנגיסטור</bdi>.",
+      "validated_html": "Remissão ao verbete <bdi lang='he' dir='rtl'>אנגיסטור</bdi>.",
+      "source_headwords": [
+        "אגניסטור"
+      ],
+      "source_senses": [
+        ", v. אנגיסטור"
+      ],
+      "source_xrefs": [
+        "A02101"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00324",
+      "ordinal": 325,
+      "lemma": "אֲגַנְתָּא",
+      "source_sha256": "852039afbc905f0187025ea1ab18dec7c427ff91314b2cffae63207352fe7670",
+      "source_xml": "<entry id=\"A00324\">\n<head-word>אֲגַנְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition> = אַגָּנָא.</definition>\n<notes> Targ. II Esth. I, 2.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (גנן) \n<italic>protection, guard</italic>.</definition>\n<notes> Num. R. s. 12; Midr. Till. to Ps. XCI, 2 \n<italic>ma</italic>\n<italic>ḥ</italic>\n<italic>ăsi</italic> (Ps. l. c.) means אֲגַנְתִּי \n<italic>my guard</italic></notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Equivalente de <bdi lang='he' dir='rtl'>אַגָּנָא</bdi>, bacia ou recipiente (Targum Ester 1.2, recensão II). <strong>2.</strong> Proteção, guarda, da raiz <bdi lang='he' dir='rtl'>גנן</bdi> (Números Rabá 12; Midraxe dos Salmos sobre Sl 91.2), onde <bdi lang='he' dir='rtl'>אֲגַנְתִּי</bdi> é interpretado como “minha proteção”.",
+      "validated_html": "<strong>1.</strong> Equivalente de <bdi lang='he' dir='rtl'>אַגָּנָא</bdi>, bacia ou recipiente (Targum Ester 1.2, recensão II). <strong>2.</strong> Proteção, guarda, da raiz <bdi lang='he' dir='rtl'>גנן</bdi> (Números Rabá 12; Midraxe dos Salmos sobre Sl 91.2), onde <bdi lang='he' dir='rtl'>אֲגַנְתִּי</bdi> é interpretado como “minha proteção”. <strong>Aparato filológico (lote 004):</strong> <strong>Homografia semântica:</strong> a primeira acepção de <bdi dir='rtl' lang='he'>אֲגַנְתָּא</bdi> equivale a <bdi dir='rtl' lang='he'>אַגָּנָא</bdi>, «bacia/recipiente», no Targum Segundo de Ester 1.2. A segunda decorre da raiz <bdi dir='rtl' lang='he'>גנן</bdi>, «proteção, guarda», em Números Rabá §12 e Midraxe dos Salmos sobre 91.2; <bdi dir='rtl' lang='he'>אֲגַנְתִּי</bdi> é interpretado «minha guarda». Não inferir que as duas acepções tenham a mesma etimologia.",
+      "source_headwords": [
+        "אֲגַנְתָּא"
+      ],
+      "source_senses": [
+        "1) = אַגָּנָא. Targ. II Esth. I, 2.",
+        "—2) (גנן) protection, guard . Num. R. s. 12; Midr. Till. to Ps. XCI, 2 ma ḥ ăsi (Ps. l. c.) means אֲגַנְתִּי my guard"
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Homografia semântica: a primeira acepção de אֲגַנְתָּא equivale a אַגָּנָא , «bacia/recipiente», no Targum Segundo de Ester 1.2. A segunda decorre da raiz גנן , «proteção, guarda», em Números Rabá §12 e Midraxe dos Salmos sobre 91.2; אֲגַנְתִּי é interpretado «minha guarda». Não inferir que as duas acepções tenham a mesma etimologia.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00326",
+      "ordinal": 327,
+      "lemma": "אגסטון",
+      "source_sha256": "7b1fc3a04bf349e2e336dcc836cb7880b65df69290ad51fdfc6d1e7318fb1401",
+      "source_xml": "<entry id=\"A00326\">\n<head-word>אגסטון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00269\">אָגוּסְטָאן</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida ao título ou cargo <bdi lang='he' dir='rtl'>אָגוּסְטָאן</bdi>.",
+      "validated_html": "Forma remetida ao título ou cargo <bdi lang='he' dir='rtl'>אָגוּסְטָאן</bdi>.",
+      "source_headwords": [
+        "אגסטון"
+      ],
+      "source_senses": [
+        ", v. אָגוּסְטָאן"
+      ],
+      "source_xrefs": [
+        "A00269"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00327",
+      "ordinal": 328,
+      "lemma": "אגסטרות",
+      "source_sha256": "f9ba8d59aee59620f5e24e84da4b05a6e61c44e069708577e24c28ff50544bdb",
+      "source_xml": "<entry id=\"A00327\">\n<head-word>אגסטרות</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Ar. s. v. \n<xref rid=\"unknown\">קלסקה</xref>, read אִסְטַגְיֹות.</notes></sense></senses></entry>\n",
+      "original_html": "No <i>Arukh</i>, sob <bdi lang='he' dir='rtl'>קלסקה</bdi>, Jastrow recomenda a leitura <bdi lang='he' dir='rtl'>אִסְטַגְיֹות</bdi>.",
+      "validated_html": "No <i>Arukh</i>, sob <bdi lang='he' dir='rtl'>קלסקה</bdi>, Jastrow recomenda a leitura <bdi lang='he' dir='rtl'>אִסְטַגְיֹות</bdi>.",
+      "source_headwords": [
+        "אגסטרות"
+      ],
+      "source_senses": [
+        "Ar. s. v. קלסקה , read אִסְטַגְיֹות."
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00329",
+      "ordinal": 330,
+      "lemma": "אגע",
+      "source_sha256": "8d351978847c2d112c0edd625fa07157c110ac2e80f466a6e7efc4aa0dfd582d",
+      "source_xml": "<entry id=\"A00329\">\n<head-word>אגע</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Koh. R. to III, 14, read פָּגַע (Mat. K.).</notes></sense></senses></entry>\n",
+      "original_html": "Em Eclesiastes Rabá sobre 3.14, Jastrow remete à leitura <bdi lang='he' dir='rtl'>פָּגַע</bdi>, atribuída à tradição textual indicada como Mat. K.",
+      "validated_html": "Em Eclesiastes Rabá sobre 3.14, Jastrow remete à leitura <bdi lang='he' dir='rtl'>פָּגַע</bdi>, atribuída à tradição textual indicada como Mat. K.",
+      "source_headwords": [
+        "אגע"
+      ],
+      "source_senses": [
+        "Koh. R. to III, 14, read פָּגַע (Mat. K.)."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00330",
+      "ordinal": 331,
+      "lemma": "אָגַף",
+      "source_sha256": "3fceebfea5973156e3bfb9b53bb8c5fd9f2d7d298579b3fc545de0583e9ab87e",
+      "source_xml": "<entry id=\"A00330\">\n<head-word>אָגַף</head-word>\n<senses>\n<sense>\n<definition> (sec. r. of גְּפַף, v. \n<xref rid=\"C00456\">גּוּף</xref>) \n<italic>to fill up a hole with pitch</italic> &amp;c. B. Kam. 105\n<sup>a</sup>.</definition>\n<notes /></sense></senses></entry>\n",
+      "original_html": "Tapar um buraco com piche ou material semelhante; Bava Kamma 105a. A fonte relaciona-o, por derivação proposta, a <bdi lang='he' dir='rtl'>גְּפַף</bdi> e <bdi lang='he' dir='rtl'>גּוּף</bdi>.",
+      "validated_html": "Tapar um buraco com piche ou material semelhante; Bava Kamma 105a. A fonte relaciona-o, por derivação proposta, a <bdi lang='he' dir='rtl'>גְּפַף</bdi> e <bdi lang='he' dir='rtl'>גּוּף</bdi>.",
+      "source_headwords": [
+        "אָגַף"
+      ],
+      "source_senses": [
+        "(sec. r. of גְּפַף, v. גּוּף ) to fill up a hole with pitch &amp;c. B. Kam. 105 a ."
+      ],
+      "source_xrefs": [
+        "C00456"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00331",
+      "ordinal": 332,
+      "lemma": "אַגָּף,",
+      "source_sha256": "95bbe81ae7304b9b92ff50360778cb1361bc9aa03c838c12890729868331e48d",
+      "source_xml": "<entry id=\"A00331\">\n<head-word>אַגָּף, </head-word>\n<head-word>אִגּוּף</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גּוּף I) \n<italic>the moulding or eminence of the door frame against which the door shuts, door-stop</italic> (esp. of door-ways in thick city walls &amp;c. with reference to sacred limits in sacrificial law).</definition>\n<notes> Pes. VII, 12 מן הא' ולפנים וכ' the space of the wall inside the door-stop is subject to the laws which apply to the space enclosed by the wall. Ib. 85\n<sup>b</sup> א' עצמו the stop itself and the corresponding space. Y. ib. VII, 35\n<sup>b</sup> אגוף.</notes></sense></senses></entry>\n",
+      "original_html": "Ressalto ou moldura do vão contra o qual a porta se fecha, especialmente em muralhas espessas; importante para delimitações cultuais. Pesahim 7.12: espaço para dentro do batente fica sujeito às normas do recinto; Pesahim 85b discute o próprio batente. Jerusalém Pesahim 7, 35b: <bdi lang='he' dir='rtl'>אגוף</bdi>. Variante <bdi lang='he' dir='rtl'>אִגּוּף</bdi>.",
+      "validated_html": "Ressalto ou moldura do vão contra o qual a porta se fecha, especialmente em muralhas espessas; importante para delimitações cultuais. Pesahim 7.12: espaço para dentro do batente fica sujeito às normas do recinto; Pesahim 85b discute o próprio batente. Jerusalém Pesahim 7, 35b: <bdi lang='he' dir='rtl'>אגוף</bdi>. Variante <bdi lang='he' dir='rtl'>אִגּוּף</bdi>.",
+      "source_headwords": [
+        "אַגָּף,",
+        "אִגּוּף"
+      ],
+      "source_senses": [
+        "(גּוּף I) the moulding or eminence of the door frame against which the door shuts, door-stop (esp. of door-ways in thick city walls &amp;c. with reference to sacred limits in sacrificial law). Pes. VII, 12 מן הא' ולפנים וכ' the space of the wall inside the door-stop is subject to the laws which apply to the space enclosed by the wall. Ib. 85 b א' עצמו the stop itself and the corresponding space. Y. ib. VII, 35 b אגוף."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00332",
+      "ordinal": 333,
+      "lemma": "אֲגַף",
+      "source_sha256": "c08baa60ac21edf0f9a2592c1429b49078324127bb7f51174ecd058121725322",
+      "source_xml": "<entry id=\"A00332\">\n<head-word>אֲגַף</head-word>\n<senses>\n<sense>\n<definition> com.</definition>\n<notes> (v. foreg. = גַּף; cmp. b. h. אֲגַפִּים) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>wing, pinion.</italic></definition>\n<notes>\n<plural-form>Pl. אֲגַפִּים;</plural-form>\n<italic>Du.</italic> אֲגַפַּיִים. Neg. XIV, 1. Gen. R. s. 39; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>winged animals, poultry</italic>.</definition>\n<notes> Succ. 42\n<sup>a</sup></notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>arms, shoulders of a human being</italic>.</definition>\n<notes> Y. Snh. VII, 24\n<sup>b</sup> bot. יכול יטלינו מבין הא' you might think the convict must be cut through at the arm-pits. Sabb. 129\n<sup>a</sup> חבירותיה נושאות וכ' her mates lift her by her arms.</notes></sense>\n<sense>\n<number>—4)</number>\n<definition>\n<italic>banks</italic> of river &amp;c. B. Kam. 61\n<sup>a</sup> a rivulet which imparts שלל לאֲגַפֶּיהָ booty (alluvium) to its banks.</definition>\n<notes> B. Bath. 99\n<sup>b</sup> שכלו א' whose embankments have disappeared (washed away).</notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Asa de ave, com plural <bdi lang='he' dir='rtl'>אֲגַפִּים</bdi> e dual <bdi lang='he' dir='rtl'>אֲגַפַּיִים</bdi> (Negaim 14.1; Gênesis Rabá 39). <strong>2.</strong> Aves de criação (Sucá 42a). <strong>3.</strong> Braços ou ombros humanos; Jerusalém Sanhedrin 7, 24b, “entre as axilas”; Shabbat 129a, erguer alguém pelos braços. <strong>4.</strong> Margens de rio: depósitos de aluvião nas margens (Bava Kamma 61a), ou margens levadas pela corrente (Bava Batra 99b).",
+      "validated_html": "<strong>1.</strong> Asa de ave, com plural <bdi lang='he' dir='rtl'>אֲגַפִּים</bdi> e dual <bdi lang='he' dir='rtl'>אֲגַפַּיִים</bdi> (Negaim 14.1; Gênesis Rabá 39). <strong>2.</strong> Aves de criação (Sucá 42a). <strong>3.</strong> Braços ou ombros humanos; Jerusalém Sanhedrin 7, 24b, “entre as axilas”; Shabbat 129a, erguer alguém pelos braços. <strong>4.</strong> Margens de rio: depósitos de aluvião nas margens (Bava Kamma 61a), ou margens levadas pela corrente (Bava Batra 99b). <strong>Aparato filológico (lote 004):</strong> <strong>Precisão dos quatro sentidos:</strong> 1. «asa/pinhão», plural <bdi dir='rtl' lang='he'>אֲגַפִּים</bdi>, dual <bdi dir='rtl' lang='he'>אֲגַפַּיִים</bdi> (Negaim 14.1; Gênesis Rabá §39); 2. aves domésticas, «poultry» (Sucá 42a); 3. braços/ombros humanos, por exemplo Jerusalém Sanhedrin 7, 24b <bdi dir='rtl' lang='he'>מבין הא׳</bdi>, «pela região das axilas», e Shabbat 129a, companheiras que carregam alguém pelos braços; 4. ribanceiras de rio, como Bava Kamma 61a <bdi dir='rtl' lang='he'>שלל לאֲגַפֶּיהָ</bdi>, «aluvião depositado nas margens», e Bava Batra 99b <bdi dir='rtl' lang='he'>שכלו א׳</bdi>, «cujas margens foram arrastadas». O vocábulo é de gênero comum segundo Jastrow, não exclusivamente masculino.",
+      "source_headwords": [
+        "אֲגַף"
+      ],
+      "source_senses": [
+        "com. (v. foreg. = גַּף; cmp. b. h. אֲגַפִּים)",
+        "1) wing, pinion. Pl. אֲגַפִּים; Du. אֲגַפַּיִים. Neg. XIV, 1. Gen. R. s. 39; a. e.",
+        "—2) winged animals, poultry . Succ. 42 a",
+        "—3) arms, shoulders of a human being . Y. Snh. VII, 24 b bot. יכול יטלינו מבין הא' you might think the convict must be cut through at the arm-pits. Sabb. 129 a חבירותיה נושאות וכ' her mates lift her by her arms.",
+        "—4) banks of river &amp;c. B. Kam. 61 a a rivulet which imparts שלל לאֲגַפֶּיהָ booty (alluvium) to its banks. B. Bath. 99 b שכלו א' whose embankments have disappeared (washed away)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Precisão dos quatro sentidos: 1. «asa/pinhão», plural אֲגַפִּים , dual אֲגַפַּיִים (Negaim 14.1; Gênesis Rabá §39); 2. aves domésticas, «poultry» (Sucá 42a); 3. braços/ombros humanos, por exemplo Jerusalém Sanhedrin 7, 24b מבין הא׳ , «pela região das axilas», e Shabbat 129a, companheiras que carregam alguém pelos braços; 4. ribanceiras de rio, como Bava Kamma 61a שלל לאֲגַפֶּיהָ , «aluvião depositado nas margens», e Bava Batra 99b שכלו א׳ , «cujas margens foram arrastadas». O vocábulo é de gênero comum segundo Jastrow, não exclusivamente masculino.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00334",
+      "ordinal": 335,
+      "lemma": "אֲגָפָה",
+      "source_sha256": "ff4b7d9b74a979b6a2fdb0188f4148630061988a25244e0105e951c385b49973",
+      "source_xml": "<entry id=\"A00334\">\n<head-word>אֲגָפָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"E00081\">הֲגָפָה</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi lang='he' dir='rtl'>הֲגָפָה</bdi>.",
+      "validated_html": "Forma remetida a <bdi lang='he' dir='rtl'>הֲגָפָה</bdi>.",
+      "source_headwords": [
+        "אֲגָפָה"
+      ],
+      "source_senses": [
+        ", v. הֲגָפָה"
+      ],
+      "source_xrefs": [
+        "E00081"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-311-335.js"
+    },
+    {
+      "id": "A00337",
+      "ordinal": 338,
+      "lemma": "אָגַר,",
+      "source_sha256": "9fde7e4cfd959ccfa4db49a5834083b05ee906f8481a02a7ef9d7c36ca5459fe",
+      "source_xml": "<entry id=\"A00337\">\n<head-word>אָגַר, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (√אג, v. \n<xref rid=\"H00157\">חגר</xref>).</definition>\n<notes>). </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to gird, arm</italic>.</definition>\n<notes> Midr. Prov. to XXX, 1 שא' חלציו who girded his loins for wisdom; Yalk. Prov. a. l. Part. pass. אָגוּר, v. אָגַר I. </notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>to halt</italic>, whence part.\n<pos> f.</pos> אוֹגֶרֶת (sub. סַכִּין) a knife having indentations which catch the passing nail of the examiner.</definition>\n<notes> Hull. 17\n<sup>b</sup>.—</notes></sense>\n<sense>\n<number>*3)</number>\n<definition>\n<italic>to occupy space</italic>.</definition>\n<notes> B. Bath 14\n<sup>a</sup> (intercharging with אָכַל q. v.).</notes></sense></senses></entry>\n",
+      "original_html": "<strong>1.</strong> Cingir, armar-se, preparar os lombos (Midraxe Provérbios 30.1, para a sabedoria); particípio <bdi lang='he' dir='rtl'>אָגוּר</bdi>. <strong>2.</strong> Apresentar entalhes que retêm a unha do examinador, como faca serrilhada (Hulin 17b). <strong>3.</strong> Ocupar espaço, interpretação rara de Bava Batra 14a, alternando com <bdi lang='he' dir='rtl'>אָכַל</bdi>. Diferenciar do verbo I.",
+      "validated_html": "<strong>1.</strong> Cingir, armar-se, preparar os lombos (Midraxe Provérbios 30.1, para a sabedoria); particípio <bdi lang='he' dir='rtl'>אָגוּר</bdi>. <strong>2.</strong> Apresentar entalhes que retêm a unha do examinador, como faca serrilhada (Hulin 17b). <strong>3.</strong> Ocupar espaço, interpretação rara de Bava Batra 14a, alternando com <bdi lang='he' dir='rtl'>אָכַל</bdi>. Diferenciar do verbo I. <strong>Aparato filológico (lote 004):</strong> <strong>Classe verbal e sentidos diferenciados:</strong> no homógrafo II, <bdi dir='rtl' lang='he'>אָגַר</bdi> 1. «cingir, equipar», Midraxe Provérbios a 30.1 <bdi dir='rtl' lang='he'>שא׳ חלציו</bdi>; particípio passivo <bdi dir='rtl' lang='he'>אָגוּר</bdi>, comparado ao homógrafo I. 2. «deter, interceptar», de que Jastrow deriva o feminino do particípio <bdi dir='rtl' lang='he'>אוֹגֶרֶת</bdi> subentendendo <bdi dir='rtl' lang='he'>סַכִּין</bdi>, faca dentada que prende a unha do examinador (Hulin 17b). 3. <i>com asterisco na fonte</i>, «ocupar espaço», Bava Batra 14a, alternância com <bdi dir='rtl' lang='he'>אָכַל</bdi>. A ideia de «ocupar espaço» não é uso corrente estabelecido pela documentação citada; preservar seu estatuto marcado.",
+      "source_headwords": [
+        "אָגַר,"
+      ],
+      "source_senses": [
+        "(√אג, v. חגר ). ).",
+        "1) to gird, arm . Midr. Prov. to XXX, 1 שא' חלציו who girded his loins for wisdom; Yalk. Prov. a. l. Part. pass. אָגוּר, v. אָגַר I.",
+        "2) to halt , whence part. f. אוֹגֶרֶת (sub. סַכִּין) a knife having indentations which catch the passing nail of the examiner. Hull. 17 b .—",
+        "*3) to occupy space . B. Bath 14 a (intercharging with אָכַל q. v.)."
+      ],
+      "source_xrefs": [
+        "H00157"
+      ],
+      "status": "C",
+      "decision": "Classe verbal e sentidos diferenciados: no homógrafo II, אָגַר 1. «cingir, equipar», Midraxe Provérbios a 30.1 שא׳ חלציו ; particípio passivo אָגוּר , comparado ao homógrafo I. 2. «deter, interceptar», de que Jastrow deriva o feminino do particípio אוֹגֶרֶת subentendendo סַכִּין , faca dentada que prende a unha do examinador (Hulin 17b). 3. com asterisco na fonte , «ocupar espaço», Bava Batra 14a, alternância com אָכַל . A ideia de «ocupar espaço» não é uso corrente estabelecido pela documentação citada; preservar seu estatuto marcado.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00338",
+      "ordinal": 339,
+      "lemma": "אֲגַר,",
+      "source_sha256": "186bc901f4fcc83582ad76b5f20a0006b06d9e8d527642b6030dcbece2b1fa57",
+      "source_xml": "<entry id=\"A00338\">\n<head-word>אֲגַר, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (אָגַר) (√אג, akin to חכר; v. foreg.) prop. \n<italic>to tie</italic>, whence \n<italic>to hire, employ, rent</italic>.</definition>\n<notes> Targ. Gen. XXX, 16; a. fr.—Koh. R. to IV, 6; Lev. R. s. 3 beg. (prov.) גינא וכ' דא' he who rents one garden will eat birds; him who rents gardens, the birds will eat. Git. 73\n<sup>a</sup> אגור מלחי they hired boatsmen. Snh. 73\n<sup>a</sup> מֵיגַר אֲגִירֵי to hire help. Y. Taan. I, 64\n<sup>b</sup> bot. מיגר זנייתא hiring prostitutes. B. Mets. 79\n<sup>a</sup>; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אוֹגַר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> same. Targ. Y. Deut. XXIII, 5 (4).—B. Mets. 77 same.</definition>\n<notes> Targ. Y. Deut. XXIII, 5 (4).—B. Mets. 77\n<sup>a</sup> (interch. with Pe.) (אגירי) אוגיר אגורי engages laborers.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to rent out, lease</italic>.</definition>\n<notes> Erub. 63\n<sup>b</sup> אוֹגַר לן רשותך lease to us thy property. Y. Dem. VI, 25\n<sup>b</sup> top. Y. Taan. I, 64\n<sup>b</sup> bot. אוגרית חמרי I hired my ass out.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִיתַּגַּר, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְּגַר</binyan-form>\n<senses>\n<sense>\n<definition> (contr. of איתאגר) \n<italic>to be hired, to work as a laborer</italic>.</definition>\n<notes> Targ. O. Deut. XXIII, 25; a. e.—Yoma 20\n<sup>b</sup> (prov.) אי תגרת וכ' (combine into one w.) when thou hast hired thyself out to one, comb his wool (shrink from no labor).</notes></sense></senses></binyan></entry>\n",
+      "original_html": "Propriamente, segundo Jastrow, “amarrar”; daí contratar, empregar ou alugar (Targum Gênesis 30.16). Gitin 73a: contratar barqueiros; Sanhedrin 73a: contratar ajudantes; Jerusalém Ta‘anit 1: contratar prostitutas; Bava Metzia 79a. <strong>Af'el:</strong> <bdi lang='he' dir='rtl'>אוֹגַר</bdi>, contratar ou arrendar a outrem; Eruvin 63b: “aluga-nos tua propriedade”; Jerusalém Demai 6 e Ta‘anit 1. <strong>Itpael/itpeel:</strong> <bdi lang='he' dir='rtl'>אִיתַּגַּר, אִתְּגַר</bdi>, ser contratado, trabalhar como empregado (Targum Dt 23.25; Yoma 20b, provérbio sobre executar qualquer serviço).",
+      "validated_html": "Propriamente, segundo Jastrow, “amarrar”; daí contratar, empregar ou alugar (Targum Gênesis 30.16). Gitin 73a: contratar barqueiros; Sanhedrin 73a: contratar ajudantes; Jerusalém Ta‘anit 1: contratar prostitutas; Bava Metzia 79a. <strong>Af'el:</strong> <bdi lang='he' dir='rtl'>אוֹגַר</bdi>, contratar ou arrendar a outrem; Eruvin 63b: “aluga-nos tua propriedade”; Jerusalém Demai 6 e Ta‘anit 1. <strong>Itpael/itpeel:</strong> <bdi lang='he' dir='rtl'>אִיתַּגַּר, אִתְּגַר</bdi>, ser contratado, trabalhar como empregado (Targum Dt 23.25; Yoma 20b, provérbio sobre executar qualquer serviço). <strong>Aparato filológico (lote 004):</strong> <strong>Flexão e material proverbial:</strong> <bdi dir='rtl' lang='he'>אֲגַר</bdi> II, aramaico, exprime «contratar, empregar, alugar» (Targum Gênesis 30.16). Eclesiastes Rabá a 4.6 e Levítico Rabá §3 transmitem o provérbio: quem arrenda um jardim comerá aves; quem arrenda jardins será comido pelas aves — exploração satírica de risco econômico, não lei comercial. <i>Af‘el</i> <bdi dir='rtl' lang='he'>אוֹגַר</bdi> tem (1) «contratar trabalhadores» (Targum Pseudo-Jônatas Dt 23.5; Bava Metzia 77a, em alternância com <i>peal</i>) e (2) «alugar/ceder em arrendamento a terceiro» (Eruvin 63b; Jerusalém Demai 6, 25b; Ta‘anit 1, 64b). <i>Itpael/itpeel</i> <bdi dir='rtl' lang='he'>אִיתַּגַּר, אִתְּגַר</bdi>, «ser contratado», em Yoma 20b, com provérbio <bdi dir='rtl' lang='he'>אי תגרת</bdi> — Jastrow recomenda **unir numa só palavra** a forma da citação. O material traduz os testemunhos como descritos por Jastrow; não é colação independente.",
+      "source_headwords": [
+        "אֲגַר,"
+      ],
+      "source_senses": [
+        "(אָגַר) (√אג, akin to חכר; v. foreg.) prop. to tie , whence to hire, employ, rent . Targ. Gen. XXX, 16; a. fr.—Koh. R. to IV, 6; Lev. R. s. 3 beg. (prov.) גינא וכ' דא' he who rents one garden will eat birds; him who rents gardens, the birds will eat. Git. 73 a אגור מלחי they hired boatsmen. Snh. 73 a מֵיגַר אֲגִירֵי to hire help. Y. Taan. I, 64 b bot. מיגר זנייתא hiring prostitutes. B. Mets. 79 a ; a. fr.",
+        "1) same. Targ. Y. Deut. XXIII, 5 (4).—B. Mets. 77 same. Targ. Y. Deut. XXIII, 5 (4).—B. Mets. 77 a (interch. with Pe.) (אגירי) אוגיר אגורי engages laborers.",
+        "—2) to rent out, lease . Erub. 63 b אוֹגַר לן רשותך lease to us thy property. Y. Dem. VI, 25 b top. Y. Taan. I, 64 b bot. אוגרית חמרי I hired my ass out.",
+        "(contr. of איתאגר) to be hired, to work as a laborer . Targ. O. Deut. XXIII, 25; a. e.—Yoma 20 b (prov.) אי תגרת וכ' (combine into one w.) when thou hast hired thyself out to one, comb his wool (shrink from no labor)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Flexão e material proverbial: אֲגַר II, aramaico, exprime «contratar, empregar, alugar» (Targum Gênesis 30.16). Eclesiastes Rabá a 4.6 e Levítico Rabá §3 transmitem o provérbio: quem arrenda um jardim comerá aves; quem arrenda jardins será comido pelas aves — exploração satírica de risco econômico, não lei comercial. Af‘el אוֹגַר tem (1) «contratar trabalhadores» (Targum Pseudo-Jônatas Dt 23.5; Bava Metzia 77a, em alternância com peal ) e (2) «alugar/ceder em arrendamento a terceiro» (Eruvin 63b; Jerusalém Demai 6, 25b; Ta‘anit 1, 64b). Itpael/itpeel אִיתַּגַּר, אִתְּגַר , «ser contratado», em Yoma 20b, com provérbio אי תגרת — Jastrow recomenda **unir numa só palavra** a forma da citação. O material traduz os testemunhos como descritos por Jastrow; não é colação independente.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00340",
+      "ordinal": 341,
+      "lemma": "אִגָר,",
+      "source_sha256": "6ce2b577813df75bb5d608415876ef238de22e93831e54e0c9101fb011b24598",
+      "source_xml": "<entry id=\"A00340\">\n<head-word>אִגָר, </head-word>\n<head-word>אִגָרָא</head-word>\n<head-word>אִגְּרָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>letter</italic>, v. \n<xref rid=\"A01752\">אי'</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "original_html": "Formas <bdi lang='he' dir='rtl'>אִגָר, אִגָרָא, אִגְּרָא</bdi>: carta; a fonte remete a outro verbete da mesma família.",
+      "validated_html": "Formas <bdi lang='he' dir='rtl'>אִגָר, אִגָרָא, אִגְּרָא</bdi>: carta; a fonte remete a outro verbete da mesma família.",
+      "source_headwords": [
+        "אִגָר,",
+        "אִגָרָא",
+        "אִגְּרָא"
+      ],
+      "source_senses": [
+        "letter , v. אי' ."
+      ],
+      "source_xrefs": [
+        "A01752"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00341",
+      "ordinal": 342,
+      "lemma": "אַגְרָא,",
+      "source_sha256": "853db7f87c6678ea58182d85b7f98e6fc914578e02608f2f4db9541604d13247",
+      "source_xml": "<entry id=\"A00341\">\n<head-word>אַגְרָא, </head-word>\n<hw-number>II</hw-number>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Agra</italic>, father-in-law of R. Abba; father of R. Y’hudah.</definition>\n<notes> Ḥull. 104\n<sup>b</sup>; 134\n<sup>a</sup>. Nid. 53\n<sup>a</sup></notes></sense></senses></entry>\n",
+      "original_html": "<strong>Agra</strong>, sogro de Rabi Aba e pai de Rabi Judá. Hulin 104b, 134a; Nidá 53a.",
+      "validated_html": "<strong>Agra</strong>, sogro de Rabi Aba e pai de Rabi Judá. Hulin 104b, 134a; Nidá 53a.",
+      "source_headwords": [
+        "אַגְרָא,"
+      ],
+      "source_senses": [
+        "Agra , father-in-law of R. Abba; father of R. Y’hudah. Ḥull. 104 b ; 134 a . Nid. 53 a"
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00342",
+      "ordinal": 343,
+      "lemma": "אגרדים",
+      "source_sha256": "75c7ed3992c05e89b82e38818fba88f92fc5dfc09a6b6823fefc783ce5bf4079",
+      "source_xml": "<entry id=\"A00342\">\n<head-word>אגרדים</head-word>\n<senses>\n<sense>\n<definition />\n<notes> v. next. w.</notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida ao vocábulo seguinte, relacionado a fiscal de mercado.",
+      "validated_html": "Forma remetida ao vocábulo seguinte, relacionado a fiscal de mercado.",
+      "source_headwords": [
+        "אגרדים"
+      ],
+      "source_senses": [
+        "v. next. w."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00345",
+      "ordinal": 346,
+      "lemma": "אגרוי",
+      "source_sha256": "247a892381218eea87f4d05963383ccf1e321f914e3b9e09c956f2175c7a0426",
+      "source_xml": "<entry id=\"A00345\">\n<head-word>אגרוי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אוֹגְדוֹיֵיקָנְטֵי</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi lang='he' dir='rtl'>אוֹגְדוֹיֵיקָנְטֵי</bdi>.",
+      "validated_html": "Forma remetida a <bdi lang='he' dir='rtl'>אוֹגְדוֹיֵיקָנְטֵי</bdi>.",
+      "source_headwords": [
+        "אגרוי"
+      ],
+      "source_senses": [
+        ", v. אוֹגְדוֹיֵיקָנְטֵי"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00346",
+      "ordinal": 347,
+      "lemma": "אַגְרוֹמֵי",
+      "source_sha256": "29e917a36e5eabdd49ab2f7e1348d869328af90e8f152c95182c1192c08b494a",
+      "source_xml": "<entry id=\"A00346\">\n<head-word>אַגְרוֹמֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (a corrupt. of אגרונומי, cmp. אגרדמיס a. next.</definition>\n<notes> art.) \n<italic>costum-collectors</italic>, (cmp. Sm. Ant. s. v. Agoranomos). Gen. R. s. 75 ed. (Ar. איגרמי).</notes></sense></senses></entry>\n",
+      "original_html": "Forma que Jastrow considera corrupção de <bdi lang='he' dir='rtl'>אגרונומי</bdi>: arrecadadores de impostos ou taxas aduaneiras. Gênesis Rabá 75, com variante <bdi lang='he' dir='rtl'>איגרמי</bdi> no Arukh. Comparar fiscais de mercado.",
+      "validated_html": "Forma que Jastrow considera corrupção de <bdi lang='he' dir='rtl'>אגרונומי</bdi>: arrecadadores de impostos ou taxas aduaneiras. Gênesis Rabá 75, com variante <bdi lang='he' dir='rtl'>איגרמי</bdi> no Arukh. Comparar fiscais de mercado. <strong>Aparato filológico (lote 004):</strong> <strong>Procedência e grau da interpretação:</strong> Jastrow considera <bdi dir='rtl' lang='he'>אַגְרוֹמֵי</bdi> corrupção de <bdi dir='rtl' lang='he'>אגרונומי</bdi> e o traduz por «arrecadadores de taxas aduaneiras», comparando o <i>agoranomos</i> (S. M. Smith, <i>Antiquities</i>, sob o vocábulo). Gênesis Rabá §75 é citado na edição, mas o <i>Arukh</i> transmite <bdi dir='rtl' lang='he'>איגרמי</bdi>. A relação com fiscais de mercado, no verbete seguinte, é aproximação, não identidade de funções comprovada.",
+      "source_headwords": [
+        "אַגְרוֹמֵי"
+      ],
+      "source_senses": [
+        "(a corrupt. of אגרונומי, cmp. אגרדמיס a. next. art.) costum-collectors , (cmp. Sm. Ant. s. v. Agoranomos). Gen. R. s. 75 ed. (Ar. איגרמי)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Procedência e grau da interpretação: Jastrow considera אַגְרוֹמֵי corrupção de אגרונומי e o traduz por «arrecadadores de taxas aduaneiras», comparando o agoranomos (S. M. Smith, Antiquities , sob o vocábulo). Gênesis Rabá §75 é citado na edição, mas o Arukh transmite איגרמי . A relação com fiscais de mercado, no verbete seguinte, é aproximação, não identidade de funções comprovada.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00347",
+      "ordinal": 348,
+      "lemma": "אגרון",
+      "source_sha256": "c98cc8f08ba65447819d7dee6d59916d18fb5b20d8ca4a75b1560c896302f612",
+      "source_xml": "<entry id=\"A00347\">\n<head-word>אגרון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00344\">אִגְּרוּ</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida à denominação de trigo de boa qualidade <bdi lang='he' dir='rtl'>אִגְּרוּ</bdi>.",
+      "validated_html": "Forma remetida à denominação de trigo de boa qualidade <bdi lang='he' dir='rtl'>אִגְּרוּ</bdi>.",
+      "source_headwords": [
+        "אגרון"
+      ],
+      "source_senses": [
+        ", v. אִגְּרוּ"
+      ],
+      "source_xrefs": [
+        "A00344"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00348",
+      "ordinal": 349,
+      "lemma": "אַגְרוֹנִימוֹן",
+      "source_sha256": "a52cfeffc7c1db1eee804bd2d11a08a29739eea7b896212cdeb98f01348e6fad",
+      "source_xml": "<entry id=\"A00348\">\n<head-word>אַגְרוֹנִימוֹן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. next. w.</notes></sense></senses></entry>\n",
+      "original_html": "Grafia remetida ao vocábulo seguinte, “fiscal de mercado”.",
+      "validated_html": "Grafia remetida ao vocábulo seguinte, “fiscal de mercado”.",
+      "source_headwords": [
+        "אַגְרוֹנִימוֹן"
+      ],
+      "source_senses": [
+        ", v. next. w."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00352",
+      "ordinal": 353,
+      "lemma": "*אגרטין",
+      "source_sha256": "9ec3a8a52feca70892db7548ba8b60b374acb3b63e3dc8c7d6a642a520cba3b5",
+      "source_xml": "<entry id=\"A00352\">\n<head-word>*אגרטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Koh. R. to I, 18 read אֶנִּיגָרוֹן or pl. אֶנִּיגָרוֹנִין. Cmp. ארגסטירין.</notes></sense></senses></entry>\n",
+      "original_html": "Em Eclesiastes Rabá sobre 1.18, Jastrow recomenda <bdi lang='he' dir='rtl'>אֶנִּיגָרוֹן</bdi> ou o plural <bdi lang='he' dir='rtl'>אֶנִּיגָרוֹנִין</bdi>; comparar <bdi lang='he' dir='rtl'>ארגסטירין</bdi>.",
+      "validated_html": "Em Eclesiastes Rabá sobre 1.18, Jastrow recomenda <bdi lang='he' dir='rtl'>אֶנִּיגָרוֹן</bdi> ou o plural <bdi lang='he' dir='rtl'>אֶנִּיגָרוֹנִין</bdi>; comparar <bdi lang='he' dir='rtl'>ארגסטירין</bdi>.",
+      "source_headwords": [
+        "*אגרטין"
+      ],
+      "source_senses": [
+        "Koh. R. to I, 18 read אֶנִּיגָרוֹן or pl. אֶנִּיגָרוֹנִין. Cmp. ארגסטירין."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00354",
+      "ordinal": 355,
+      "lemma": "אגריסטיס",
+      "source_sha256": "2389e50f65ea752cbc4fd482925186c45b462d1217479ad9313ed757aa4cef80",
+      "source_xml": "<entry id=\"A00354\">\n<head-word>אגריסטיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02996\">אַרְגֶּסְטֵיס</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi lang='he' dir='rtl'>אַרְגֶּסְטֵיס</bdi>.",
+      "validated_html": "Forma remetida a <bdi lang='he' dir='rtl'>אַרְגֶּסְטֵיס</bdi>.",
+      "source_headwords": [
+        "אגריסטיס"
+      ],
+      "source_senses": [
+        ", v. אַרְגֶּסְטֵיס"
+      ],
+      "source_xrefs": [
+        "A02996"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00355",
+      "ordinal": 356,
+      "lemma": "אַגְרִיפָּא",
+      "source_sha256": "f8df6b20a257e5cbf104576433af3bd15e6b94ba274e7607e8aaac05cd08aa00",
+      "source_xml": "<entry id=\"A00355\">\n<head-word>אַגְרִיפָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = next. w.</notes></sense></senses></entry>\n",
+      "original_html": "Forma equivalente ao nome próprio do verbete seguinte.",
+      "validated_html": "Forma equivalente ao nome próprio do verbete seguinte.",
+      "source_headwords": [
+        "אַגְרִיפָּא"
+      ],
+      "source_senses": [
+        "= next. w."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00356",
+      "ordinal": 357,
+      "lemma": "אַגְרִיפַּס",
+      "source_sha256": "b7d243504ad922d10ac6ee23dd39fc3b512ca1c614d353522d5a431aca1da20f",
+      "source_xml": "<entry id=\"A00356\">\n<head-word>אַגְרִיפַּס</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition> (Ἀγρίππας) \n<italic>Agrippa</italic>, 1) the last but one Herodian king of Judæa. Sot. VII, 8.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> the last but one Herodian king of Judæa. Sot. VII, 8. Lev. R. s. 3; a. fr.—2) a captain of the former.—Ab. Zar. 55\n<sup>a</sup> אגריפא שר צבא של א' Ms. M. (v. Rashi a. l. a. Rabb. D. S. a. l. note).</notes></sense></senses></entry>\n",
+      "original_html": "Do grego <span lang='grc'>Ἀγρίππας</span>. <strong>1.</strong> Agripa, rei herodiano da Judeia, identificado na fonte como penúltimo rei da dinastia (Sotá 7.8; Levítico Rabá 3). <strong>2.</strong> Comandante militar de um Agripa, em Avodah Zarah 55a; manuscrito de Munique registra <bdi lang='he' dir='rtl'>אגריפא שר צבא של אגריפא</bdi>. Distinguir os referentes históricos.",
+      "validated_html": "Do grego <span lang='grc'>Ἀγρίππας</span>. <strong>1.</strong> Agripa, rei herodiano da Judeia, identificado na fonte como penúltimo rei da dinastia (Sotá 7.8; Levítico Rabá 3). <strong>2.</strong> Comandante militar de um Agripa, em Avodah Zarah 55a; manuscrito de Munique registra <bdi lang='he' dir='rtl'>אגריפא שר צבא של אגריפא</bdi>. Distinguir os referentes históricos. <strong>Aparato filológico (lote 004):</strong> <strong>Correção do XML transcrito:</strong> na primeira acepção, a sequência inglesa «1) the last but one Herodian king of Judaea» e sua referência Sotá 7.8 estão <strong>duplicadas literalmente</strong> na extração eletrônica; o cartão não deve introduzir por isso duas figuras homônimas adicionais. Jastrow divide o verbete em (1) Agripa, penúltimo rei herodiano da Judeia (Sotá 7.8; Levítico Rabá §3), e (2) comandante militar de Agripa (Avodah Zarah 55a); o manuscrito M. registra <bdi dir='rtl' lang='he'>אגריפא שר צבא של א׳</bdi>, com remissões a Rashi e Rabbinovicz. Distinguir pessoa histórica, posto militar e repetição de digitalização.",
+      "source_headwords": [
+        "אַגְרִיפַּס"
+      ],
+      "source_senses": [
+        "(Ἀγρίππας) Agrippa , 1) the last but one Herodian king of Judæa. Sot. VII, 8. ,",
+        "1) the last but one Herodian king of Judæa. Sot. VII, 8. Lev. R. s. 3; a. fr.—2) a captain of the former.—Ab. Zar. 55 a אגריפא שר צבא של א' Ms. M. (v. Rashi a. l. a. Rabb. D. S. a. l. note)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Correção do XML transcrito: na primeira acepção, a sequência inglesa «1) the last but one Herodian king of Judaea» e sua referência Sotá 7.8 estão duplicadas literalmente na extração eletrônica; o cartão não deve introduzir por isso duas figuras homônimas adicionais. Jastrow divide o verbete em (1) Agripa, penúltimo rei herodiano da Judeia (Sotá 7.8; Levítico Rabá §3), e (2) comandante militar de Agripa (Avodah Zarah 55a); o manuscrito M. registra אגריפא שר צבא של א׳ , com remissões a Rashi e Rabbinovicz. Distinguir pessoa histórica, posto militar e repetição de digitalização.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00357",
+      "ordinal": 358,
+      "lemma": "אגריקוס",
+      "source_sha256": "db6896b69952ae102b23be49003ce7b8126cd5316c50d8c7206272db57824fc5",
+      "source_xml": "<entry id=\"A00357\">\n<head-word>אגריקוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00251\">אֶגְדִּיקוֹס</xref></notes></sense></senses></entry>\n",
+      "original_html": "Remissão ao vocábulo <bdi lang='he' dir='rtl'>אֶגְדִּיקוֹס</bdi>.",
+      "validated_html": "Remissão ao vocábulo <bdi lang='he' dir='rtl'>אֶגְדִּיקוֹס</bdi>.",
+      "source_headwords": [
+        "אגריקוס"
+      ],
+      "source_senses": [
+        ", v. אֶגְדִּיקוֹס"
+      ],
+      "source_xrefs": [
+        "A00251"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00358",
+      "ordinal": 359,
+      "lemma": "*אגרמא",
+      "source_sha256": "b3359a90d6766a6ad702edf48ecab99f14fbfd8992a82d104e0af89f2163bacc",
+      "source_xml": "<entry id=\"A00358\">\n<head-word>*אגרמא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Git. V, 47\n<sup>b</sup> דינר א', read דינרא גרדיינא, v. \n<xref rid=\"C00487\">גּוֹרְדְּיָינִי</xref></notes></sense></senses></entry>\n",
+      "original_html": "Em Jerusalém Gitin 5, 47b, Jastrow recomenda corrigir <bdi lang='he' dir='rtl'>דינר אגרמא</bdi> para <bdi lang='he' dir='rtl'>דינרא גרדיינא</bdi>; consultar <bdi lang='he' dir='rtl'>גּוֹרְדְּיָינִי</bdi>.",
+      "validated_html": "Em Jerusalém Gitin 5, 47b, Jastrow recomenda corrigir <bdi lang='he' dir='rtl'>דינר אגרמא</bdi> para <bdi lang='he' dir='rtl'>דינרא גרדיינא</bdi>; consultar <bdi lang='he' dir='rtl'>גּוֹרְדְּיָינִי</bdi>.",
+      "source_headwords": [
+        "*אגרמא"
+      ],
+      "source_senses": [
+        ", Y. Git. V, 47 b דינר א', read דינרא גרדיינא, v. גּוֹרְדְּיָינִי"
+      ],
+      "source_xrefs": [
+        "C00487"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00359",
+      "ordinal": 360,
+      "lemma": "אגרנא",
+      "source_sha256": "fd143ef07b18f2482e3176392d2d1f23ec5b8d3d98ee5cc4f62eb7abc5ca9313",
+      "source_xml": "<entry id=\"A00359\">\n<head-word>אגרנא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00252\">אַגְדָּנָא</xref></notes></sense></senses></entry>\n",
+      "original_html": "Forma remetida a <bdi lang='he' dir='rtl'>אַגְדָּנָא</bdi>, termo para planta medicinal.",
+      "validated_html": "Forma remetida a <bdi lang='he' dir='rtl'>אַגְדָּנָא</bdi>, termo para planta medicinal.",
+      "source_headwords": [
+        "אגרנא"
+      ],
+      "source_senses": [
+        ", v. אַגְדָּנָא"
+      ],
+      "source_xrefs": [
+        "A00252"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-336-360.js"
+    },
+    {
+      "id": "A00360",
+      "ordinal": 361,
+      "lemma": "אַגְרָס",
+      "source_sha256": "bf031b48ed7d33f365d340d64b985898c2919f9d9c679c3c207641f825808a6f",
+      "source_xml": "<entry id=\"A00360\">\n<head-word>אַגְרָס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">הָגְדָּס</xref></notes></sense></senses></entry>\n",
+      "original_html": "Grafia remetida a <bdi lang='he' dir='rtl'>הָגְדָּס</bdi>; sem acepção autônoma na fonte.",
+      "validated_html": "Grafia remetida a <bdi lang='he' dir='rtl'>הָגְדָּס</bdi>; sem acepção autônoma na fonte.",
+      "source_headwords": [
+        "אַגְרָס"
+      ],
+      "source_senses": [
+        ", v. הָגְדָּס"
+      ],
+      "source_xrefs": [
+        "unknown"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00361",
+      "ordinal": 362,
+      "lemma": "אגרסטיס",
+      "source_sha256": "256caa7887494feed8860ae8b39341f27a91a5075a75bf35b3bad88a0081808a",
+      "source_xml": "<entry id=\"A00361\">\n<head-word>אגרסטיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02996\">אַרְגֶּסְטֵיס</xref></notes></sense></senses></entry>\n",
+      "original_html": "Variante remetida a <bdi lang='he' dir='rtl'>אַרְגֶּסְטֵיס</bdi>.",
+      "validated_html": "Variante remetida a <bdi lang='he' dir='rtl'>אַרְגֶּסְטֵיס</bdi>.",
+      "source_headwords": [
+        "אגרסטיס"
+      ],
+      "source_senses": [
+        ", v. אַרְגֶּסְטֵיס"
+      ],
+      "source_xrefs": [
+        "A02996"
+      ],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00362",
+      "ordinal": 363,
+      "lemma": "*אַגְרָפוֹס",
+      "source_sha256": "158428a0b02e9b2480642dc83c1db7ae4c5b99990d6d420013b4fc7249beaab7",
+      "source_xml": "<entry id=\"A00362\">\n<head-word>*אַגְרָפוֹס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἄγραφος) \n<italic>unwritten</italic>.</definition>\n<notes> Y. R. Hash. I, 57\n<sup>a</sup> bot. פרא בסיליאוס נומס א', cmp. Ar. h. v., a. s. v. בסיליאוס (ed. או נומוס או גריפיס) παρὰ βασιλέως ὁ νόμος ἄγραφος, for the king the law is unwritten (i.e. the king may disregard his own law). Lev. R. s. 35, beg. quot. in Ar. (missing in ed.).</notes></sense></senses></entry>\n",
+      "original_html": "Do grego <span lang='grc'>ἄγραφος</span>, “não escrito”. Jerusalém Rosh Hashaná 1, 57a transmite a frase grega <span lang='grc'>παρὰ βασιλέως ὁ νόμος ἄγραφος</span>, traduzida por Jastrow “para o rei, a lei não está escrita”, isto é, o rei pode desconsiderar a própria lei. A edição registra outra leitura grega transcrita, e Levítico Rabá 35 apresenta paralelo citado no <i>Arukh</i>, ausente de algumas edições. Manter distintas a tradução literal da frase e a interpretação jurídica. Preservar distinção entre tradução e interpretação institucional.",
+      "validated_html": "Do grego <span lang='grc'>ἄγραφος</span>, “não escrito”. Jerusalém Rosh Hashaná 1, 57a transmite a frase grega <span lang='grc'>παρὰ βασιλέως ὁ νόμος ἄγραφος</span>, traduzida por Jastrow “para o rei, a lei não está escrita”, isto é, o rei pode desconsiderar a própria lei. A edição registra outra leitura grega transcrita, e Levítico Rabá 35 apresenta paralelo citado no <i>Arukh</i>, ausente de algumas edições. Manter distintas a tradução literal da frase e a interpretação jurídica. Preservar distinção entre tradução e interpretação institucional. <strong>Aparato filológico (lote 004):</strong> <strong>Texto grego e edição concorrente:</strong> a expressão hebraico-grega <bdi dir='rtl' lang='he'>פרא בסיליאוס נומס א׳</bdi> em Jerusalém Rosh Hashaná 1, 57a é explicada por Jastrow mediante <span lang='grc'>παρὰ βασιλέως ὁ νόμος ἄγραφος</span>, «para o rei a lei é não escrita», isto é, ele pode ignorar sua própria lei. A edição possui <bdi dir='rtl' lang='he'>או נומוס או גריפיס</bdi>, leitura gráfica alternativa, **não tradução literal correta do grego**. Levítico Rabá §35 conserva paralelo no <i>Arukh</i>, mas falta na edição consultada por Jastrow. O valor do adjetivo é «não escrito»; a ideia de poder monárquico é interpretação do exemplo.",
+      "source_headwords": [
+        "*אַגְרָפוֹס"
+      ],
+      "source_senses": [
+        "(ἄγραφος) unwritten . Y. R. Hash. I, 57 a bot. פרא בסיליאוס נומס א', cmp. Ar. h. v., a. s. v. בסיליאוס (ed. או נומוס או גריפיס) παρὰ βασιλέως ὁ νόμος ἄγραφος, for the king the law is unwritten (i.e. the king may disregard his own law). Lev. R. s. 35, beg. quot. in Ar. (missing in ed.)."
+      ],
+      "source_xrefs": [],
+      "status": "C",
+      "decision": "Texto grego e edição concorrente: a expressão hebraico-grega פרא בסיליאוס נומס א׳ em Jerusalém Rosh Hashaná 1, 57a é explicada por Jastrow mediante παρὰ βασιλέως ὁ νόμος ἄγραφος , «para o rei a lei é não escrita», isto é, ele pode ignorar sua própria lei. A edição possui או נומוס או גריפיס , leitura gráfica alternativa, **não tradução literal correta do grego**. Levítico Rabá §35 conserva paralelo no Arukh , mas falta na edição consultada por Jastrow. O valor do adjetivo é «não escrito»; a ideia de poder monárquico é interpretação do exemplo.",
+      "module": "lexicons/jastrow-361-385.js"
+    },
+    {
+      "id": "A00363",
+      "ordinal": 364,
+      "lemma": "*אִגְּרַת",
+      "source_sha256": "d021360642aa141f95b7679b5dec1c693d044cf089584a6892ba7c5455d87397",
+      "source_xml": "<entry id=\"A00363\">\n<head-word>*אִגְּרַת</head-word>\n<pos> pr. n. f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Igrath</italic>, name of the queen of demons Pes. 111\n<sup>a</sup> א' אזלת (an incantation).</definition>\n<notes> Ib. 112\n<sup>a</sup>. Num. R. s. 12. Cmp. נְגִירָא.</notes></sense></senses></entry>\n",
+      "original_html": "<strong>Igrat</strong>, nome de uma rainha dos demônios segundo textos rabínicos (Pesahim 111a, numa fórmula de encantamento; 112a; Números Rabá 12). Trata-se de personagem da tradição literária, não afirmação histórica sobre sua existência. Comparar <bdi lang='he' dir='rtl'>נְגִירָא</bdi>.",
+      "validated_html": "<strong>Igrat</strong>, nome de uma rainha dos demônios segundo textos rabínicos (Pesahim 111a, numa fórmula de encantamento; 112a; Números Rabá 12). Trata-se de personagem da tradição literária, não afirmação histórica sobre sua existência. Comparar <bdi lang='he' dir='rtl'>נְגִירָא</bdi>.",
+      "source_headwords": [
+        "*אִגְּרַת"
+      ],
+      "source_senses": [
+        "Igrath , name of the queen of demons Pes. 111 a א' אזלת (an incantation). Ib. 112 a . Num. R. s. 12. Cmp. נְגִירָא."
+      ],
+      "source_xrefs": [],
+      "status": "A",
+      "decision": "Cotejo sem omissão material demonstrada; definição, notas, variantes e remissões verificadas perante o texto-fonte.",
+      "module": "lexicons/jastrow-361-385.js"
+    }
+  ]
+}

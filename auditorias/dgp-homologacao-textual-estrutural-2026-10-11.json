@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "dictionary": "DGP",
+  "category": "auditoria_textual_e_estrutural",
+  "source": "aniseferreira/Grc-Por-DigDict",
+  "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+  "source_blob": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+  "lexical_head": "59d497c25c0a9bbc0a15a2d49d6586e5d6892500",
+  "test_commit": "7381492379f4d7141e9458472c336eba00bf2c1a",
+  "ci_run_id": 38174680134,
+  "ci_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38174680134",
+  "ci_status": "completed",
+  "ci_conclusion": "success",
+  "environment": "GitHub Actions ubuntu-latest; Playwright / Chromium headless",
+  "test_suite": "tests/test_dgp_browser.py",
+  "cases": [
+    {
+      "name": "consolidado_existente",
+      "html": "index.html",
+      "rows": 2880,
+      "cards": 2880,
+      "indexed_definitions": 2880,
+      "unique_pairs": 2880,
+      "missing_card": 0,
+      "outcome": "APROVADO"
+    },
+    {
+      "name": "candidato_integracao_temporario",
+      "html": "index.dgp-candidate.html",
+      "rows": 3300,
+      "cards": 3300,
+      "indexed_definitions": 3300,
+      "unique_pairs": 3300,
+      "missing_card": 0,
+      "outcome": "APROVADO"
+    }
+  ],
+  "verified_per_scenario": [
+    "IDs unicos sem orfaos",
+    "pareamento linha-cartao e lema idêntico",
+    "definicao principal presente e pesquisavel",
+    "painel DGP formatado sem falta de cartao",
+    "notas editoriais de lemas recuperados #2311 #2483",
+    "notas de numeros repetidos #434 #543",
+    "cinco abreviaturas coladas com popup e espaco #1114 #1627 #1683 #2278 #2289",
+    "consulta no texto integral de #1627",
+    "abertura por Enter",
+    "popup futuro pelo foco e fechamento de foco",
+    "opcao DGP no filtro",
+    "alternancia tema claro/escuro por controles visiveis",
+    "pesquisa visivel viewport 375x812",
+    "nenhuma excecao JavaScript no navegador"
+  ],
+  "original_xml_modified": false,
+  "correction_branch": "chat-gpt-correcoes",
+  "integration_branch": "chat-gpt-commits",
+  "integration_status": "PENDENTE PARA MODULOS 077 A 081 (420 ENTRADAS)",
+  "certification_scope": "Aprovacao da integridade textual e estrutural estatica de 3300 registros e testes funcionais definidos em 2 cenarios, incluindo compilacao temporaria 3300.",
+  "exclusions": [
+    "Nenhum merge dos 420 registros realizado pela auditoria",
+    "Sem certificacao filologica de todas as acepcoes, autores ou testemunhos",
+    "Sem certificacao exaustiva WCAG, contraste, dispositivos reais ou URLs externas",
+    "Testes funcionais focalizados em controles e entradas de regressao, nao exame manual visual de cada cartao"
+  ],
+  "status": "100% no escopo da auditoria textual e estrutural; integracao e filologia independentes"
+}

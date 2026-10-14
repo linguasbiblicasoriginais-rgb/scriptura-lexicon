@@ -42,3 +42,16 @@ TOTAL DE ORIGENS=6861. Todos os contadores devem ser reconferidos em cada rodada
 
 
 VISUALIZAÇÃO OBRIGATÓRIA DE PERCENTUAIS THAYER E DEMAIS FONTES (12/10/2026): Para cada porcentagem, registrar numerador, denominador e ESCOPO testado, evitando confundir cobertura de testes estáticos/DOM, cotejo dirigido parcial, colação filológica integral e AUDITORIA_CONCLUIDA. Sempre que possível, exibir barras proporcionais; uma barra de 100% estrutural NUNCA substitui o indicador filológico/atômico. Referência documental: auditorias/thayer-2026-10-12-auditoria-documental-funcional-512.md. No THAYER: 512/512 pares DOM = 100%, 13/512 cotejo dirigido preliminar = 2,54%, 0/512 colação integral e auditoria atômica = 0%; testes de abrir 512 rotas são eventos sintéticos DOM executados em Chromium real, além de amostras Playwright reais. Não atribuir esse progresso às demais fontes sem verificação própria.
+
+================================================================================
+ADENDO DOCUMENTAL DA BRANCH DE CORREÇÕES — PR #115 (12/10/2026)
+Registros de origem incorporados como histórico. Em caso de conflito, prevalecem as normas superiores já consolidadas, sem declarar auditoria integral não certificada. Menções a integração pendente são fotografias históricas.
+================================================================================
+
+12/10/2026 — Norma transversal de transparência detalhada: `regras/Rtransparencia-relatorios.txt`. Em toda resposta de execução, apresentar barras independentes por etapa (incorporação; textual/estrutural; filológica; integração) e, quando pertinente, por correções, P e testes. Informar denominador e porcentagem, IDs, HEADs e fonte concreta de cada número. Continuar exibindo a tabela de 14 dicionários com as seis colunas prescritas e registrar incerteza/ausência de verificação.
+
+## Marco global do JASTROW — 12/10/2026
+
+A auditoria filológica única concluiu **600/600 registros publicados JASTROW**: **401 A**, **199 C**, **0 P**. Na sexta rodada foram examinados 100 IDs antes não contemplados e corrigidos 27 cartões. Verificação cruzada independente dos registros em três lotes-fonte de 200, dos 600 cartões/linhas em 27 módulos e dos 6 arquivos popup (sintaxe apenas); nenhum ID faltante ou duplicado. O status de **incorporação 600/600**, o status de **filologia digital 600/600**, a integração PR e testes reais de navegador/manuscritos continuam indicadores distintos. Sem prova de integração destes novos reparos. Fonte e evidência: `auditoria/JASTROW-2026-10-12-lote-006-100-relatorio.md` e `auditoria/JASTROW-2026-10-12-lote-006-100-testes.json`.
+
+Não incrementar o universo de 600 a partir de inferência ou de verbetes não incorporados. Quando houver nova incorporação, redefinir o denominador ao conteúdo real e auditar o acréscimo; não reabrir automaticamente os 600 já examinados, exceto se surgir evidência concreta de erro. Continuar quadro de 14 dicionários com seis colunas e barras separadas, conforme `Rtransparencia-relatorios.txt`.
