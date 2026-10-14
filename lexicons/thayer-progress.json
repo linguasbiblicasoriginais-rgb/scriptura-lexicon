@@ -7,11 +7,11 @@
   "archive_branch": "archive/thayer-legacy-712-2026-10-13",
   "archive_commit": "b24163f3c99d9ff156e39806ca69111e00459486",
   "archived_entries": 712,
-  "total_published": 500,
+  "total_published": 504,
   "target_first_batch": 100,
   "batch_incorporated": 100,
   "total_printed_articles": null,
-  "next_lemma": "ἀντικαλέω",
+  "next_lemma": "ἀντιλέγω",
   "source_reference": "Thayer, A Greek-English Lexicon of the New Testament, edição fotografada enviada pelo usuário",
   "first_folio": "p. impressa 1 (folha PDF 25 no scan integral thayersgreekengl0000thay.pdf)",
   "rules": "regras/Rthayer.txt",
@@ -716,18 +716,33 @@
       "source_text": "lexicons/thayer-source-facsimile-046.json",
       "module": "lexicons/thayer-batch-046-facsimile.js",
       "status": "QUINTO LOTE DIGITAL CONCLUÍDO; FONTE FOTOGRAFADA COMO AUTORIDADE; TEXTO INGLÊS DIPLOMÁTICO NÃO TRANSCRITO; COLAÇÃO FILOLÓGICA PENDENTE"
+    },
+    {
+      "number": 47,
+      "date": "2026-10-14",
+      "batch_target": 100,
+      "incorporated": 4,
+      "prior_total": 500,
+      "final_total": 504,
+      "first": "ἀντικαλέω",
+      "last": "ἀντιλαμβάνομαι",
+      "next": "ἀντιλέγω",
+      "source": "Thayer fotografado, p. 50",
+      "source_text": "lexicons/thayer-source-facsimile-047.json",
+      "module": "lexicons/thayer-batch-047-facsimile.js",
+      "status": "TRADUÇÃO PORTUGUESA DIRETA; SEM AUDITORIA, HOMOLOGAÇÃO OU MERGE"
     }
   ],
-  "last_incorporated": "ἀντικαθίστημι",
+  "last_incorporated": "ἀντιλαμβάνομαι",
   "first_batch_source_scope": "Primeiro lote: pp. 1–12; segundo lote em progresso: pp. 12–13",
   "record_count_scope": "500 fichas digitais do Thayer reiniciado, não 500 transcrições inglesas integrais nem 500 traduções exaustivamente colacionadas",
   "confirmed_full_source_transcriptions": 0,
   "confirmed_full_portuguese_translations": 0,
   "translation_state": "TODOS OS 500 CARTÕES TÊM CONTEÚDO PORTUGUÊS, MAS CONTÊM RESUMOS/TRADUÇÕES ANALÍTICAS NÃO HOMOLOGADAS; OCR INGLÊS NÃO DEVE SER VISÍVEL",
   "target_status": "QUINTO_LOTE_100_DE_100; TRADUÇÕES ANALÍTICAS EM TRABALHO, NÃO HOMOLOGADAS",
-  "new_entries_this_continuation": 15,
-  "last_source_module": "lexicons/thayer-source-facsimile-046.json",
-  "last_presentation_module": "lexicons/thayer-batch-046-facsimile.js",
+  "new_entries_this_continuation": 4,
+  "last_source_module": "lexicons/thayer-source-facsimile-047.json",
+  "last_presentation_module": "lexicons/thayer-batch-047-facsimile.js",
   "target_second_batch": 100,
   "second_batch_source_scope": "Thayer fac-símile p. impressas 12–23, folhas PDF 36–47",
   "second_batch_completed": true,
@@ -777,5 +792,8 @@
       }
     ],
     "browser_dom_test_verified": false
-  }
+  },
+  "sixth_batch_target": 100,
+  "sixth_batch_incorporated": 4,
+  "sixth_batch_completed": false
 }
