@@ -1,3 +1,11 @@
+## THAYER — segundo lote de 100 fichas digitais concluído (14/10/2026)
+
+A branch `chat-gpt-thayer` contém agora **200 registros digitais de trabalho**, organizados na ordem dos artigos fotografados, de **Α, α (ἄλφα)** até **ἄκρατος**. O **segundo lote de 100** encerrou na página impressa **23** (folha PDF **47**) após a incorporação de **31 novos artigos** nesta execução, de **αἰών** a **ἄκρατος**. **Próxima entrada: ἀκρίβεια** (p. 23). O checkpoint canônico está em `lexicons/thayer-progress.json`.
+
+Nesta etapa foram publicados `lexicons/thayer-source-facsimile-018.json` a `021.json` e `lexicons/thayer-batch-018-facsimile.js` a `021-facsimile.js`, carregados pelo `index.html`. As páginas de fonte abrangidas neste avanço são as **18–23** (folhas digitais **42–47**). A organização de Thayer governa os cabeçalhos: **αἰών**, **αἰώνιος**, **ἀκούω** e outros artigos longos são unidades indivisíveis; as variantes ἀκατάπαστος e ἀκατάπαυστος possuem registros independentes porque possuem cabeçalhos independentes no impresso. Strong não rege a sequência. As leituras OCR extraídas das próprias fotografias são mantidas separadas das traduções.
+
+**Limite de qualidade filológica:** atingir a contagem operacional de 200 registros não significa ter produzido 200 transcrições diplomáticas completas nem traduções portuguesas integralmente colacionadas. Os cartões contêm traduções de trabalho e o OCR conserva defeitos possíveis, sobretudo nas grafias gregas. A autoridade continua sendo o testemunho fotográfico; a revisão integral linha a linha permanece etapa distinta. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi executada. Os 712 registros legados permanecem arquivados.
+
 ## THAYER — Segundo lote: 69/100 registros fotográficos (13/10/2026)
 
 Após os 150 registros ativos, foram incorporados **19 novos artigos** do fac-símile do Thayer, **αἰσχροκερδής–αἰχμάλωτος** (páginas impressas **17–18**, folhas PDF **41–42**). Acumulado na branch exclusiva `chat-gpt-thayer`: **169 registros digitais**, correspondentes a **69/100** no segundo lote. **Próximo artigo: αἰών**, iniciado na p. impressa 18 e continuado nas seguintes. Não fracionar este artigo para atingir a meta numérica.
