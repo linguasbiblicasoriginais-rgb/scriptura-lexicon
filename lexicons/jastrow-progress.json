@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 1000,
-    "next_ordinal": 3801,
-    "next_source_id": "B00343",
-    "next_lemma": "בורגנרה",
+    "next_ordinal": 4001,
+    "next_source_id": "B00543",
+    "next_lemma": "בֵּיבַאי",
     "source_records_retrieved": 4000,
     "first_source_id": "A00000",
     "last_source_id": "B00542",
-    "next_source_batch_ordinal": 3001,
-    "next_source_batch_id": "A03000",
-    "next_source_batch_lemma": "אַרְדָּא,",
-    "total_published": 3800,
+    "next_source_batch_ordinal": 4001,
+    "next_source_batch_id": "B00543",
+    "next_source_batch_lemma": "בֵּיבַאי",
+    "total_published": 4000,
     "total_audited": 0,
     "total_integrated": 1000,
-    "editorial_status": "3.800 verbetes editoriais publicados; 800 nesta rodada; somente incorporação.",
-    "source_status": "4.000 entradas originais canônicas preservadas em 20 lotes.",
+    "editorial_status": "4.000 entradas JASTROW publicadas na branch chat-gpt-jastrow, incluindo 1.000 nesta execução. Sínteses lexicais em português; aparato, notas e exemplos mais longos preservados integralmente na camada Fonte. Sem auditoria, homologação ou integração.",
+    "source_status": "4.000 entradas originais completas preservadas em vinte lotes de 200 registros cada (IDs A e B de acordo com o original).",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
   },
@@ -475,18 +475,42 @@
         "lexicons/jastrow-3701-3800.js"
       ],
       "status": "Incorporação editorial em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 25,
+      "source_start_ordinal": 3801,
+      "source_end_ordinal": 4000,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0020.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 3801,
+      "translated_end_ordinal": 4000,
+      "translated_count": 200,
+      "translated_first_id": "B00343",
+      "translated_last_id": "B00542",
+      "translated_files": [
+        "lexicons/jastrow-3801-3900.js",
+        "lexicons/jastrow-3901-4000.js"
+      ],
+      "status": "Incorporação editorial com sínteses portuguesas; sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
     "date": "2026-10-14",
     "requested": 1000,
-    "new_translations_committed": 800,
+    "new_translations_committed": 1000,
     "prior_published": 3000,
-    "total_published": 3800,
-    "new_range": "A03000–B00342",
+    "total_published": 4000,
+    "new_range": "A03000–B00542",
+    "source_records_retrieved_total": 4000,
+    "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+    "next_ordinal": 4001,
+    "next_source_id": "B00543",
+    "next_lemma": "בֵּיבַאי",
     "audit_performed": false,
     "homologation_performed": false,
-    "integration_performed": false
+    "integration_performed": false,
+    "editorial_level": "sínteses lexicais em português, com notas, variantes e exemplos completos preservados em fonte separada"
   },
   "constraints": {
     "never_invent": true,
