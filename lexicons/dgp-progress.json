@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 23401,
-    "status": "Lotes DGP 1–283 incorporados; 23400 registros XML no manifesto; próxima entrada 23401. Somente incorporação.",
+    "next_ordinal": 23501,
+    "status": "Lotes DGP 1–284 incorporados; 23500 registros XML no manifesto; próxima entrada 23501. Somente incorporação.",
     "current_letter": "κ",
     "total_dictionary_entries": 44590
   },
@@ -2561,6 +2561,15 @@
       "end_ordinal": 23400,
       "start_entry": "κισσήρης, ης, ες",
       "end_entry": "κλῇθρον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 284,
+      "start_ordinal": 23401,
+      "end_ordinal": 23500,
+      "start_entry": "Κληῖδες, ων (αἱ)",
+      "end_entry": "κνάσω",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
