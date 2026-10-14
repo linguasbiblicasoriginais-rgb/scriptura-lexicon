@@ -1,3 +1,9 @@
+## THAYER — Segundo lote: 69/100 registros fotográficos (13/10/2026)
+
+Após os 150 registros ativos, foram incorporados **19 novos artigos** do fac-símile do Thayer, **αἰσχροκερδής–αἰχμάλωτος** (páginas impressas **17–18**, folhas PDF **41–42**). Acumulado na branch exclusiva `chat-gpt-thayer`: **169 registros digitais**, correspondentes a **69/100** no segundo lote. **Próximo artigo: αἰών**, iniciado na p. impressa 18 e continuado nas seguintes. Não fracionar este artigo para atingir a meta numérica.
+
+Arquivos vinculados: `lexicons/thayer-source-facsimile-016.json` (8 artigos) e `017.json` (11), com `lexicons/thayer-batch-016-facsimile.js` e `017-facsimile.js` ligados ao `index.html`. A grafia e a sequência advêm do impresso; OCR bruto da imagem permanece identificado como auxiliar, e a tradução portuguesa é texto de trabalho, **não** transcrição diplomática ou tradução filologicamente homologada. A entrada remissiva αἰτίαμα foi preservada separadamente de αἰτίωμα; a nota de comparação de sinônimos pertence ao artigo αἰτέω. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi feita.
+
 ## THAYER — Segundo lote: 50/100 artigos de trabalho (13/10/2026)
 
 Na branch `chat-gpt-thayer`, a segunda rodada começou em **ἄδολος** (p. impressa 12) e avançou por **50 novos artigos** até **αἰσθητήριον** (p. 17), elevando o acumulado do reinício a **150 registros digitais**. O próximo artigo na sequência fotográfica é **αἰσχροκερδής**, p. 17. O estado operacional está em `lexicons/thayer-progress.json`.
