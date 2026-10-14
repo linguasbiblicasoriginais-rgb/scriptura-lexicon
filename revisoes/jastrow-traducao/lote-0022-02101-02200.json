@@ -1,0 +1,1921 @@
+{
+  "lote": 22,
+  "inicio": 2101,
+  "fim": 2200,
+  "quantidades": {
+    "verbetes": 100,
+    "nao_avaliados_individualmente": 100,
+    "problemas_comprovados": 0
+  },
+  "problemas_comprovados_acumulados": 0,
+  "status": "triagem inicial, revisao linguistica individual pendente",
+  "verbetes": [
+    {
+      "ordinal": 2101,
+      "sid": "A02100",
+      "lema": "אנגיטריס",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir leitura para אֲרֹוגְנַוְטִיס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Y. Ter. VIII, 46 c top, read אֲרֹוגְנַוְטִיס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2102,
+      "sid": "A02101",
+      "lema": "אנגיסטור",
+      "classe": "m.",
+      "glosa_atual": "cortador de unhas; tesoura ou faca para unhas.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "read אָנְגִּיסְטֵיר m. (ὀνυχίστηρ = ὀνυχιστήριον) knife or scissors for cutting nails."
+      ],
+      "notas_originais": [
+        "Tosef. Kel. B. Mets. III, 12 (ed. Zuck. אגניסטר corr. acc.). Nid. 17 a גנוסטרי; M. Kat. 18 a גנוסטרא (Ms. M. נגוסטרי, v. Ar. s. v. גנסטר)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2103,
+      "sid": "A02102",
+      "lema": "אַנְגְּלֵי,",
+      "classe": "m. pl.",
+      "glosa_atual": "anjos; mensageiros, do grego ἄγγελοι.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἄγγελοι, v. Perles Et."
+      ],
+      "notas_originais": [
+        "St. p. 113) messengers, angels. Targ. Job XV, 15; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2104,
+      "sid": "A02103",
+      "lema": "אנגלין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְלָגִין.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְלָגִין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2105,
+      "sid": "A02104",
+      "lema": "*אַנִּגְרָא",
+      "classe": "pr. n. pl.",
+      "glosa_atual": "Ancira; cidade da Galácia, Ásia Menor; leitura conjectural.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(read אַנְגִּירָא?) pr. n. pl. Ancyra, a city of Galatia in Asia Minor."
+      ],
+      "notas_originais": [
+        "B. Mets. 46 b דינר אניאקא ואנגרא Ms. M. (ed. אנקא ואניגרא, Var. נְיָיקָא, אַנְיָיקָא; v. Rabb. D. S. a. l. note, Ar. Compl. ed. Koh. s. v. אנגרא) the Bithynian and the Ancyrean Denars, one of which was repealed by the central Government, the other by the local authority. V. אֵנְיָאקָא. [Ancyra prob. of Semitic origin, v. נִיגְרָא a. אַנִּיגְרָא.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2106,
+      "sid": "A02105",
+      "lema": "אַנְגְּרַבְטֵיס,",
+      "classe": "m.",
+      "glosa_atual": "encarregado ou fiscal de trabalhos públicos obrigatórios.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀγγαρευτής, ἀγγαρευτάς) commissioner or superintendent of forced public labor; v. אַנְגַּרְיָא."
+      ],
+      "notas_originais": [
+        "Pesik. B’shall. 92 b אתמני א' (for Var. v. Bub., note) was appointed angareutes."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2107,
+      "sid": "A02106",
+      "lema": "*אנגרוטינא,",
+      "classe": "Vocábulo",
+      "glosa_atual": "leitura textual provavelmente alusiva à corveia; ver אַנְגַּרְיָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", Gen. R. s. 64 והלך א', prob. to be read זו אַנְגַּרְיָא …, as in Esth. R. introd. [B. Bath. 8 a; Ned. 62 b אַרְנֹונָא.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2108,
+      "sid": "A02107",
+      "lema": "אנגרון",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֶנִּיגָרֹון.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֶנִּיגָרֹון"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2109,
+      "sid": "A02108",
+      "lema": "אַנְגַּרְיָא",
+      "classe": "f.",
+      "glosa_atual": "corveia; serviço público forçado; requisição de trabalhadores.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀγγαρεία, angaria) forced labor, service, esp. seizure for public services or works."
+      ],
+      "notas_originais": [
+        "Y. Ber. I, 2 d bot. איתצדית בא' וכ' I was pressed into service to carry myrtles &c. B. Mets. VI, 3 (78 a) נעשית א' (the ass) was seized for public service. Ib. 78 b בא' חוזרת in the case that the animal pressed into service is sent back again. Lev. R. s. 12 שמעון א' במדינתא they heard that seizure for public service was to take place in the country. Esth. R. introd. והלך זו א' hălakh (Ezra IV, 13) means angaria (v. אנגרוטינא). Snh. 101 b; a. fr.— Pl. אַנְגַּרְיֹות. Lev. R. s. 23 אע\"פ שהן נגבין … וא' though annonæ and angariæ are collected from them. Yalk. Esth. 1051 א' של נשים levies of women (for the king).—Trnsf. בא' as a forced labor, reluctantly. Midr. Till. Ps. CXII.—Pesik. R. s. 21 שלא באנגריס (corr. acc.) not as a forced labor."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2110,
+      "sid": "A02109",
+      "lema": "אנגרים,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְגַּרְיָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "v. preced."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2111,
+      "sid": "A02110",
+      "lema": "אנגרכטיס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְגְּרַבְטֵיס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְגְּרַבְטֵיס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2112,
+      "sid": "A02111",
+      "lema": "אַנְגַּרְמֹוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir para אַגְרֹונִימֹוס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "corrupt. of אַגְרֹונִימֹוס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2113,
+      "sid": "A02112",
+      "lema": "אנדוכתרי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אנדכ׳.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנדכ'"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2114,
+      "sid": "A02113",
+      "lema": "*אַנְדִּיסְקֵי",
+      "classe": "m. pl.",
+      "glosa_atual": "síndicos; funcionários do Estado; representantes oficiais.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(a Babylonian adoption of ecdicus, v. אגדיקוס, אנדיקוס) syndics, state-officials."
+      ],
+      "notas_originais": [
+        "B. Bath. 55 a אבל אצלוהו א' וכ' Ar. (ed. omit אצלוהו) but if the syndics exempted him from taxes, it is like a divine grant."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2115,
+      "sid": "A02114",
+      "lema": "אַנְדִּיפָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְדִּיפֵי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "m., אַנְדִּיפָה f., v. next w."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2116,
+      "sid": "A02115",
+      "lema": "*אַנְדִּיפֵי,",
+      "classe": "m. pl.",
+      "glosa_atual": "cachos ou anéis de cabelo caídos junto às têmporas.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "locks or ringlets falling from the temples."
+      ],
+      "notas_originais": [
+        "Sabb. VIII, 4 כדי לעשות א' enough toilet material to make side curls (Mish. Pes. אנטיפי, Nap. אנטפי, Talm. אונד'). Ib. 80 b מאי כלכול ומאי א' what locks are meant by kilkul, and what by andifé? Answ. the upper and the lower &c. Ib. אמר ר' יצהק דבי ר' אמי אנדיפה וכ' Ms. M. (ed. אלא אמר ר' … אמר … אאַנְדִּיפָא) R. Isaac of the school of … (in reciting that Mishnah) used the word andifah (in the sing.) upon which R. … asked ‘Will a person waste his money’ (i.e. of what use is the material for one curl so as to make a person guilty of a transgression when carrying it on the Sabbath)? Ib. מאי אנדיפא אפותא by andifa (in the sing.) is meant the lock on the forehead. Ib. מחתיה באַנְדִּיפֵיה וכ' Ms. M. (ed. incorr. באנדיפי) it stung him on his forehead and he died. [Rashi: = דיופי!]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2117,
+      "sid": "A02116",
+      "lema": "אַנְדִּיקוֹס,",
+      "classe": "m.",
+      "glosa_atual": "forma popular de ecdicus, funcionário; ver אֶגְדִּיקֹוס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", a popular corrupt. of ecdicus, v. אֶגְדִּיקֹוס a. אַנְדִּיסְקֵי."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2118,
+      "sid": "A02117",
+      "lema": "*אנדיתיקוס",
+      "classe": "m. pl.",
+      "glosa_atual": "forma corrompida, talvez condenados, do grego κατάδικοι.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Esth. R. to I, 12, a corruption; according to the sense it may have been קטָּאדִיקִין (κατάδικοι) convicts."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2119,
+      "sid": "A02118",
+      "lema": "*אנדכתרי,",
+      "classe": "f.",
+      "glosa_atual": "alforria declarada em tribunal; manumissão formal de escravo; reconstrução textual.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", a corruption of אוּנְדִּיקְטָא or אֲוִינְדִּיקְטָא f. (vindicta, Gr. form βινδίκτα, οὐινδίκτα) manumission of a slave by declaration before court (v. Sm. Ant. s. vv. Manumissio and Pileus)."
+      ],
+      "notas_originais": [
+        "Gitt. 20 a but does not go free בכתב שע\"ג כיפה וא' (ought to have read בכיפה וא', v. infra) by referring to his wearing a freedman’s cap or to a vindicta; Y. ib. IV, 45 d בכפה והרנירק טיאניס (read ובוינדיקטא); Treat. Abadim ch. III (ed. Kirchh.) יוצא באנטוקטא (corr. acc.). [Commentators to Gitt. l. c., misled by בכתב שע\"ג וכ', guess at embroideries &c. V. Révue des Etudes Juives 1883, Nr. 13, p. 150.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2120,
+      "sid": "A02119",
+      "lema": "אנדנא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַגְדָּנָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Ab. Zar. 29 a, some ed.; v. אַגְדָּנָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2121,
+      "sid": "A02120",
+      "lema": "אַנְדְּרַאי,",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Bar Andrai; nome pessoal ligado a André.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Bar Andrai (Andrew)."
+      ],
+      "notas_originais": [
+        "Y. Keth. IX, 33 a top אילין דבר א' those of the family of B. A. (who were very rich). V. אַנְדְּרַיי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2122,
+      "sid": "A02121",
+      "lema": "אַנְדְּרֹוגִינֹוס",
+      "classe": "m.",
+      "glosa_atual": "hermafrodita; pessoa com caracteres sexuais masculinos e femininos; termo histórico grego.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀνδρόγυνος) hermaphrodite."
+      ],
+      "notas_originais": [
+        "Bicc. I, 5; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2123,
+      "sid": "A02122",
+      "lema": "אנדרואנטיא",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir para אַנְדְּרִיאַנְטֹוס, estátua.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", read אַנְדְּרִיאַנְטֹוס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2124,
+      "sid": "A02123",
+      "lema": "*אנדרולומוסיא",
+      "classe": "f.",
+      "glosa_atual": "apreensão de pessoas em represália; direito grego de retaliação.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(read אַנְדְּרֹולֵימְסְיָא), אַנְדְּרֹולֵמְסְיָה f. (popular pronunc. of ἀνδρολημψία = ἀνδροληψία; cmp. λῆμψις for λῆψις) seizure of men, a Greek right of reprisals (v. Sm. Ant. s. v.), in gen. punishment of men regardless of guilt or innocence."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 26 א' באה וכ' an androlepsia comes which kills the good and the bad; Lev. R. s. 23; Num. R. s. 9; Y. Sot. I, 17 a top.—Num. R. s. 5 in case of a rebellion עוש' בה א' the king orders an androlepsia. [Gen. R. s. 32 דרולמוסיא; Pesik. Vayhi, p. 67 a; Tanḥ. Bo, 4; Pesik. R. s. 17 דורמסיאות, דורמסיות, דורמייס' (corr. acc.); cmp. Pesik. R. suppl., ed. Fr. p. 197 a.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2125,
+      "sid": "A02124",
+      "lema": "אנדרולינאי",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir leitura para דוד בר נהילאי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Yeb. 115 b, read דוד בר נהילאי as Asheri Gitt. ch. IV, to p. 34 b"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2126,
+      "sid": "A02125",
+      "lema": "אַנְדְּרֹולֵמְסְיָה,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אנדרולומוסיא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנדרולומוסיא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2127,
+      "sid": "A02126",
+      "lema": "אִנְדְּרֹונָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִידְּרֹון, câmara.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִידְּרֹון"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2128,
+      "sid": "A02127",
+      "lema": "*אַנְדְּרֹונִיטִין,",
+      "classe": "f.",
+      "glosa_atual": "salão de banquetes; sala de recepção real.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀνδρωνῖτις) banqueting hall, royal reception hall."
+      ],
+      "notas_originais": [
+        "Gen, R. s. 8 אדריינטיס אני עושה אותה Ar. ed. Koh. (ed. אינדרטין; corr. acc.) I shall make it into (use the vacant ground for the erection of) a banqueting hall. [The context forbids the identification of our w. with אַנְדְּרִיאַנְטֹוס.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2129,
+      "sid": "A02128",
+      "lema": "אִנְדְּרֹופִּיקֹוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִדְרֹופּ׳.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִדְרֹופּ'"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2130,
+      "sid": "A02129",
+      "lema": "אַנְדְּרָטָא",
+      "classe": "m.",
+      "glosa_atual": "estátua; busto; imagem portátil.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(a. contract. of ἀνδριάς‚—άντος) statue, also portable bust, image."
+      ],
+      "notas_originais": [
+        "Targ. Esth. III, 2—5 (some ed. pl., incorr.). R. Hash. 24 b a synagogue דאוקימו בה א' Ms. M. (ed. הוה בה א') in which they placed a bust (of a Persian king). Snh. 62 b; a. fr.— Pl. אַנְדְּרָטֵי, אַנְדְּרָטַיָּא. Ab. Zar. 40 b א' של מלכים royal (imperial) busts. M. Kat. 25 b אתעקרו כל א' Ms. M. (ed. אתקציצו) all royal statues were overthrown. Y. Ab. Zar. III, 42 c top. [Gen. R. s. 8 אינדרטין, v. אַנְדְּרֹונִיטִיס.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2131,
+      "sid": "A02130",
+      "lema": "*אנדרטין",
+      "classe": "f.",
+      "glosa_atual": "provável leitura de raspador dentado ou estrígil com dentes.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", Tosef. Kel. B. Mets. IV, 8, prob. אֹודֹונְטֹוטִי (ὀδοντωτή, sub. ξύστρα) a teethed strigil; cmp. Kel. XIV, 3 מגירה."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2132,
+      "sid": "A02131",
+      "lema": "אַנְדְּרִיאַנְטֹוס",
+      "classe": "m.",
+      "glosa_atual": "estátua; ver אַנְדְּרָטָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀνδριάς—άντος) statue, v. אַנְדְּרָטָא."
+      ],
+      "notas_originais": [
+        "Ex. R. s. 27 נפלה … של אנדרואנטיא (read נפלטה לתוך ידו של א') it escaped into the hand of a (royal) statue; (v. ibid. ישבה על איקונין של מלך). Tanḥ. P’kudé, 4 אדריונטוס (corr. acc.); Ex. R. s. 51. [Gen. R. s. 8 אינדרטין, v. אַנְדְּרֹונִיטִיס; v. Ar. s. v. אדרינטיס.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2133,
+      "sid": "A02132",
+      "lema": "אַנְדְּרַיי",
+      "classe": "pr. n. m.",
+      "glosa_atual": "André; nome próprio masculino, do grego Ἀνδρέας.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ἀνδρέας) Andray."
+      ],
+      "notas_originais": [
+        "Y. Meg. IV, 75 b; cmp. אַנְדְּרַאי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2134,
+      "sid": "A02133",
+      "lema": "אַנְדַּרְיָינֹוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַדְרְיָינֹוס, Adriano.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַדְרְיָינֹוס. Ex. R. s. 51."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2135,
+      "sid": "A02134",
+      "lema": "אנדריינטוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְדְּרֹונִיטִיס e אַנְדְּרִיאַנְטֹוס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְדְּרֹונִיטִיס, a. אַנְדְּרִיאַנְטֹוס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2136,
+      "sid": "A02135",
+      "lema": "אנדרכטוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְגְרַבְטֵיס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְגְרַבְטֵיס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2137,
+      "sid": "A02136",
+      "lema": "אנדרמוסיה",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אנדרולומוסיא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Ar., v. אנדרולומוסיא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2138,
+      "sid": "A02137",
+      "lema": "*אִנְדְּרַפְטָא,",
+      "classe": "m.",
+      "glosa_atual": "Indrafta; nome de duas espécies de aves, provavelmente de origem persa.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(prob. Pers.) Indrafta, name of two species of birds, one called Shabur And."
+      ],
+      "notas_originais": [
+        ", and permitted, the other Peruz And., and forbidden. Ḥull. 62 b"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2139,
+      "sid": "A02138",
+      "lema": "אָנָה",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אני.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אני"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2140,
+      "sid": "A02139",
+      "lema": "אַנְהוֹרֵי",
+      "classe": "f.",
+      "glosa_atual": "iluminação; ato de iluminar.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Inf. Af. of נהר used as a verbal noun) lighting, illumination."
+      ],
+      "notas_originais": [
+        "Targ. Ex. XXXV, 14; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2141,
+      "sid": "A02140",
+      "lema": "אַנְהָרוּתָא",
+      "classe": "f.",
+      "glosa_atual": "claridade; iluminação; esclarecimento.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "same, also enlightenment."
+      ],
+      "notas_originais": [
+        "Targ. Num. IV, 16. Targ. Y. Gen. II, 7."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2142,
+      "sid": "A02141",
+      "lema": "אָנוּ",
+      "classe": "Vocábulo",
+      "glosa_atual": "nós; pronome pessoal plural.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "pl. of. אֲנִי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2143,
+      "sid": "A02142",
+      "lema": "אָנוֹךְ",
+      "classe": "Vocábulo",
+      "glosa_atual": "eu; do copta ānokh.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Coptic ānokh) I."
+      ],
+      "notas_originais": [
+        "Pesik. R. s. 21; Yalk. Ex. 286 (in Egyptian) אנכי א' Anokhi is Anokh. Esth. R. to I, 22 לשין יחנך (corr. acc.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2144,
+      "sid": "A02143",
+      "lema": "אֵנֹומִילִין,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִינֹומִילִין, vinho com mel.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִינֹומִילִין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2145,
+      "sid": "A02144",
+      "lema": "אִנּוּן",
+      "classe": "Vocábulo",
+      "glosa_atual": "eles; elas; plural de אִיהוּ.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", pl. of אִיהוּ."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2146,
+      "sid": "A02145",
+      "lema": "אַנֹּונָא,",
+      "classe": "f.",
+      "glosa_atual": "ração anual; mantimentos distribuídos como salário ou pensão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(annona) prop. annual produce, hence ration, or portions of provision granted to courtiers as salaries or pensions."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 47 the king מעלה לו א' raised an annona in his behalf, i.e. granted him a pension. Ib. s. 87 אני חותכת א' שלך Ar. (ed. פרנסה) I shall cut down (reduce) thy pension; a. fr.— Pl. אַנֹּונֹות, אַנֹּונִיֹּות. Ex. R. s. 41 אנונית (corr. acc.). Lev. R. s. 23 נגבין אונניות (corr. acc.) annonæ are collected from them. Ib. s. 10 אַנֹּונִים Ar. (ed. אַנֹּונָס annonas, acc. pl., incorr. ed. אנינוס). [Cant. R. to I, 7 read אֲטוּנָס.] Cmp. אַרְנֹון, אַרְנֹונָא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2147,
+      "sid": "A02146",
+      "lema": "אנונים,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנֹּונָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. preced."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2148,
+      "sid": "A02147",
+      "lema": "אָנִיסָא (אֹונָסָא) אָנֹוסָא",
+      "classe": "m.",
+      "glosa_atual": "homem violento; opressor; tirano.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אנס) violent man, oppressor."
+      ],
+      "notas_originais": [
+        "Targ. Koh. VII, 7 (h. text עֹושֶׁק).— Pl.אָנֹוסִין, אֲנֹוסַיָּא (אני'). Targ. Jer. VI, 6 ed. Ven. I אני' (ed. Vien. אֹונְסִין, oth. ed. אנו'). Targ. Is. XXI, 2; V, 7, a. e. Cmp. אַנָּס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2149,
+      "sid": "A02148",
+      "lema": "אנוקי",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir leitura para אֲנִיקֵי; ver אֲנַנְקָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", read אֲנִיקֵי, v. אֲנַנְקָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2150,
+      "sid": "A02149",
+      "lema": "אֱנֹושׁ",
+      "classe": "m.",
+      "glosa_atual": "ser humano; homem; pessoa.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "v. אינש) [being], man."
+      ],
+      "notas_originais": [
+        "— Pl. (of אִישׁ) אֲנָשִׁים, const. אַנְשֵׁי. Ex. R. s. 25; a. fr.—א' כנסת הגדולה (abbr. אכה\"ג) the Men of the Great Assembly, Synagoga Magna, a religious and judicial authority said to have been established by Ezra. Aboth I, 1; a. fr.; cmp. כְּנֶסֶת.—(ות) א' בית אבthe division on duty of priests having charge of the services of the day; א' משמר the division of priests alternately on duty during one week; א' מעמד the division (of Israelites) assisting the priests on duty, by prayers &c. on the platform (מעמד) and divided in parties corresponding to the priestly divisions. Taan. II, 6; 7; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2151,
+      "sid": "A02150",
+      "lema": "*אָנוּשׁ",
+      "classe": "m.",
+      "glosa_atual": "forte; severo; opressivo; esmagador.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "v. preced. a. אִישׁ) strong, severe, overwhelming.",
+        "א' לשון גבר anush has the meaning of strong; Lev. R. s. 18."
+      ],
+      "notas_originais": [
+        ". Num. R. s. 7 (ref. to Is. XVII, 1"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2152,
+      "sid": "A02151",
+      "lema": "*אַנְזִיקָא",
+      "classe": "m.",
+      "glosa_atual": "prejuízo; dano; perda.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(נזק) injury, loss."
+      ],
+      "notas_originais": [
+        "Targ. Esth. VII, 4 the adversary is (of) no value or gain בא' דמלכא against the King’s loss. [Levy Targ. Dict. reads אוזניקא expense(?), v. אוּזִינְקָא.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2153,
+      "sid": "A02152",
+      "lema": "אָנַח",
+      "classe": "Vocábulo",
+      "glosa_atual": "comprimir; pressionar.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "to press."
+      ],
+      "notas_originais": [
+        "Hithpa. הִתְאַנֵּחַ to sigh. Ber. 59 a, v. next w. Yalk. Ex. 391 מִתְאַנֵּחַ על כבודו וכ' is anxious for the honor of the Lord &c."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2154,
+      "sid": "A02153",
+      "lema": "אֲנַח",
+      "classe": "Vocábulo",
+      "glosa_atual": "ser comprimido; forma passiva ou reflexiva de אָנַח.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Peil אָנִיחַ, Ithpa. אִתְאַנַּח same."
+      ],
+      "notas_originais": [
+        "Targ. Lam. I, 4; 11.—Targ. Is. XXIV, 7; a. e. Contr. אִתַּנַּח. Targ. O. Ex. II, 23 late ed.— Ithpe. אִיתְּנַח, אִתְּ'. Ber. 58 b. Ib. 59 a אִתְּנוּחֵי מתנח Ms. M. (ed. אנחה מִתְאַנֵּחַ) he sighs.—Pesik. R. s. 18, end; Pesik. Haom. p. 72 a שרי מיתנח he began to sigh."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2155,
+      "sid": "A02154",
+      "lema": "אֲנָחָה",
+      "classe": "f.",
+      "glosa_atual": "suspiro; gemido; sofrimento; tristeza.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "preced.) sigh, grief."
+      ],
+      "notas_originais": [
+        "Ber. 58 b; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2156,
+      "sid": "A02155",
+      "lema": "אַנְחוּתָא,",
+      "classe": "f.",
+      "glosa_atual": "camada; estrato.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(נחי, נחת) layer."
+      ],
+      "notas_originais": [
+        "Targ. Y. Ex. XVI, 13; 14."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2157,
+      "sid": "A02156",
+      "lema": "אַנְחוּתָה,",
+      "classe": "f.",
+      "glosa_atual": "bandeja; tábua ou superfície de apoio.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. preced.) tray, board."
+      ],
+      "notas_originais": [
+        "Nidd. 7 a אנ' (Ar. a. T’bul Yom IV, 2 נ'). Gitt. 62 a; Tosef. Kel. B. Mets. VI, 7 אנחותא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2158,
+      "sid": "A02157",
+      "lema": "אֲנַחְנָא,",
+      "classe": "Vocábulo",
+      "glosa_atual": "nós; pronome pessoal aramaico.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "pl. of אֲנָא, אֲנִי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2159,
+      "sid": "A02158",
+      "lema": "אֲנַחְתָּא",
+      "classe": "f.",
+      "glosa_atual": "repouso; descanso.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(נוח; cmp. אַנְחוּתָא) rest."
+      ],
+      "notas_originais": [
+        "בית א' rest for beams. Targ. I Kings VI, 4."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2160,
+      "sid": "A02159",
+      "lema": "אַנְחָתָא",
+      "classe": "f. pl.",
+      "glosa_atual": "suspiros; gemidos.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אנח) sighs."
+      ],
+      "notas_originais": [
+        "Targ. Lam. I, 22."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2161,
+      "sid": "A02160",
+      "lema": "אַנְטְבִילָא,",
+      "classe": "pr. n.",
+      "glosa_atual": "Bet-Antbila; família de Jerusalém.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Beth Ant’bila, name of a Jerusalem family."
+      ],
+      "notas_originais": [
+        "Y. Peah VIII, 21 a bot. Tosef. Peah IV, 11 נבלטא ed. Zuck., אנטיבלאי &c. (Var. גבטלא, גלבטא)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2162,
+      "sid": "A02161",
+      "lema": "אנטג',",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver grupo אנטי׳.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנטי'"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2163,
+      "sid": "A02162",
+      "lema": "*אַנְטוּבִּין,",
+      "classe": "m.",
+      "glosa_atual": "termo de origem grega ἐντύβιον; conservar identificação do original.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἐντύβιον, Arab."
+      ],
+      "notas_originais": [
+        "hindeb, prob. fr. נדב to flow, curl, cmp. אַנְדִּיפֵי) endive. Y. Kil. I, 27 a top אנטוכין (corr. acc.). Pes. 39 a הינדבי (Rashi הִינְדִּיבִי, Ms. הנדבי)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2164,
+      "sid": "A02163",
+      "lema": "אַנְטוּכָאֵי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטוּכִי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. next w."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2165,
+      "sid": "A02164",
+      "lema": "אַנְטוּכִי,",
+      "classe": "m.",
+      "glosa_atual": "antioqueno; natural ou habitante de Antioquia.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. next w.) Antiochian, native of Antiochia, resident of A."
+      ],
+      "notas_originais": [
+        "Gitt. 44 b אנטו'; Tosef. Ab. Zar. III (IV), 18; Y. Gitt. IV, 46 a top אנטיו'.— Pl. ch. אַנְטוּכָאֵי. Targ. Y. Gen. X, 18 (ed. אנטכואי, אנטוכיא corr. acc.; h. text חֲמָתִי)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2166,
+      "sid": "A02165",
+      "lema": "אַנְטוּכְיָא,",
+      "classe": "pr. n.",
+      "glosa_atual": "Antioquia do Orontes; capital da Síria selêucida; também sua região.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ἀντιόχεια)",
+        "Antioch, surnamed Epidaphnes, the capital of Syria founded by Seleucus Nicator, situated on the Orontes.",
+        "the country or district of Ant."
+      ],
+      "notas_originais": [
+        "Targ. Y. Num. XIII, 21; a. e. (Hamath in Bible).—Keth. 67 a. Gitt. 44 b; a. fr.—Y. Shek. VI, 50 a bot. דפני של א' Daphne near Ant.; Lev. R. s. 19 כייא …",
+        ", Antiochene. Y. Dem. II, 22 d top; Y. Nidd. III, 48 a bot.; a. e.; v. חֹולַת, חוּלְתָּא a. חֲמַת."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2167,
+      "sid": "A02166",
+      "lema": "אנטוכין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטוּבִּין.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטוּבִּין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2168,
+      "sid": "A02167",
+      "lema": "אַנְטֹולִי",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Antólio; nome próprio.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ἀνατόλιος) Antoli."
+      ],
+      "notas_originais": [
+        "Y. Dem. V, 24 d bot."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2169,
+      "sid": "A02168",
+      "lema": "אַנְטֹולִינֹוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטֹונִינֹוס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. next w."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2170,
+      "sid": "A02169",
+      "lema": "אַנְטֹונִינֹוס",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Antonino; nome de imperadores romanos, um deles associado a Judá, o Príncipe.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Antoninus, 1) a Roman emperor freq. mentioned as a friend of R. Judah Han-Nassi, and supposed to be Ant."
+      ],
+      "notas_originais": [
+        ",",
+        "a Roman emperor freq. mentioned as a friend of R. Judah Han-Nassi, and supposed to be Ant. Alexander Severus (Graetz) or Ant. Marcus Aurelius (Rap. a. oth.). Ab. Zar. 10 a אסוירוס בר א' Severus son of A.; Ib. b A. son of Severus.—Y. Meg. I, 72 b bot. אית מילין וכ' there is one report that A. embraced the Jewish religion, another &c.—Y. Snh. X, 29 c אנטוני' a. אנטולי'; cmp. Y. Kil. IX, 32 b top.—Koh. R. to IX, 10 אנטלימוס וכ' (corr. acc.)",
+        "א' זעירא A. junior, grandson of the former. Ibid. to X, 5.—[",
+        "(?) a Roman general mentioned in conversation with R. Joh. b. Zaccai; v. אגניטוס.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2171,
+      "sid": "A02170",
+      "lema": "אָנְטוֹס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אוֹנְטוֹס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוֹנְטוֹס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2172,
+      "sid": "A02171",
+      "lema": "אנטוסאי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אנתוסאי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנתוסאי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2173,
+      "sid": "A02172",
+      "lema": "אנטוקטא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אנדכתרי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנדכתרי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2174,
+      "sid": "A02173",
+      "lema": "אַנְטִיגְנוֹס,",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Antígono; nome próprio, inclusive Antígono de Socho.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ἀντίγονος) Antigonus, 1) A. of Sokho, disciple of Simon the Just."
+      ],
+      "notas_originais": [
+        ",",
+        "A. of Sokho, disciple of Simon the Just. Aboth I, 3.—2) Bets. 34 a, a. fr. R. Elazar son of A.—Tem. 21 a ed. (Ar. אטיטס). [Y. Snh. I, 19 d, v. אגניטוס.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2175,
+      "sid": "A02174",
+      "lema": "אַנְטִיגְרָפִין",
+      "classe": "f.",
+      "glosa_atual": "cópia de documento; duplicata; resposta a carta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀντιγραφή)",
+        "(= ἀντίγραφον) duplicate.",
+        "answer to a letter."
+      ],
+      "notas_originais": [
+        "Targ. Esth. III, 14 Mus. (ed. דיטגמא); Esth. R. to ibid. (explain. פתשגן ib.).",
+        "Gen. R. s. 67 הב לי א' Ar. (ed. אנטיגרפא, corr. פי …) give me an answer (to the emperor’s letter). Ib. הן א' where is the answer?"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2176,
+      "sid": "A02175",
+      "lema": "אַנְטִידִיקוֹס",
+      "classe": "m.",
+      "glosa_atual": "adversário em processo judicial; oponente.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀντίδικος) opponent in a suit, in gen. adversary."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 82.—Ib. s. 100 אנטירוקוס (corr. acc.); Pesik. Naḥa’mu p. 126 a; a. fr.— Pl. אַנְטִידִיקִין parties to a suit. Deut. R. s. 5 האנטיריקון (corr. acc.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2177,
+      "sid": "A02176",
+      "lema": "אַנְטְיוֹכוֹס,",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Antíoco III, rei da Síria.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Antiochos (III) of Syria. Targ. II Esth. I, 2."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 23; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2178,
+      "sid": "A02177",
+      "lema": "אַנְטְיוֹכִי,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver grupo אנטוכ׳.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנטוכ'"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2179,
+      "sid": "A02178",
+      "lema": "אַנְטְיוֹכָס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטְיוֹכוֹס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטְיוֹכוֹס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2180,
+      "sid": "A02179",
+      "lema": "*אנטיטיה,",
+      "classe": "m. pl.",
+      "glosa_atual": "manta ou cobertura de banho que pode servir como capa; leitura proposta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", corruptions; read אִימַטְיָא m. pl. (pl. of ἱμάτιον) blankets used at the bath which may also serve as cloaks (v. Sm. Ant. s. v. Pallium)."
+      ],
+      "notas_originais": [
+        "Y. Kil. IX, 32 a bot.; Y. M. Kat. III, 82 a (explain. the sort of בלנרי in question)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2181,
+      "sid": "A02180",
+      "lema": "אנטייריס",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir para אַנְטַרְרּוֹס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", read אַנְטַרְרּוֹס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2182,
+      "sid": "A02181",
+      "lema": "*אַנְטִיכִי",
+      "classe": "f.",
+      "glosa_atual": "termo de origem grega relacionado a recipiente ou caixa; etimologia incerta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀγγοθήκη, ἐγγυθήκη, lat."
+      ],
+      "notas_originais": [
+        "mutilat. incitega) a receptacle for vessels, a stand for hanging in kettles, tripods &c. Sabb. III, 4 (41 a); Gem. ib. one opin., בי כירי antichi (in the Mishnah) means a vessel suspended between fire places (heated bricks); another opin., בי דודי a metal vessel suspended within a caldron-like vessel, the vacant space beneath being filled with coals. Ib. (in evidence of the latter opin.) א' אע\"פ שהיא גרופה וכ' Ms. M. (ed. אע''פ שגרופה וקטומה) an antichi, even when cleaned of coals &c. Y. Sabb. III, 6 a bot. Tosef. Bets. III, 20. Y. ib. I, 60 c bot. כהדא א' נפלת וכ' as in the case of an antichi which fell &c.—*M. Kat. 28 b (in a funeral dirge) גוד גרמא מככא ונמטי מיא לא' take the bone (pin) out of the jaw (the base in which the vessel is suspended) and let water be put into the antichi, i.e. body and soul are now separated, the latter being the vessel going back to the (divine) spring; cmp. Koh. XII, 6 sq.; [Ms. M. … מבבא … לאנטוכיא, v. Rabb. D. S a. l. note.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2183,
+      "sid": "A02182",
+      "lema": "אַנְטִיכְרִיסִיס",
+      "classe": "f.",
+      "glosa_atual": "anticrese; contrato que permite ao credor usufruir do bem empenhado em lugar de juros.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀντίχρησις) an agreement allowing the creditor the use of a pledged object (in place of interest on the loan)."
+      ],
+      "notas_originais": [
+        "Y. B. Mets. VI, end, 11 a הדא א' ריבית הוא antichresis is considered usury."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2184,
+      "sid": "A02183",
+      "lema": "אַנְטִילָא,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטְלַיָּא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטְלַיָּא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2185,
+      "sid": "A02184",
+      "lema": "אנטימטון",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲטִימְטוֹן.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֲטִימְטוֹן"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2186,
+      "sid": "A02185",
+      "lema": "אַנְטִינוּס",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Antínoo; nome próprio grego.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ἀντίνους) Antinous; v. אטיטס."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2187,
+      "sid": "A02186",
+      "lema": "אנטינייא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אנטיטיה.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Y. M. Kat. III, 82 a, v. אנטיטיה"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2188,
+      "sid": "A02187",
+      "lema": "אנטיפותא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטִיפִּיטָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "= אַנְטִיפִּיטָא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2189,
+      "sid": "A02188",
+      "lema": "אנטיפטרוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "corrigir para אנטיפטריס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", read אנטיפטריס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2190,
+      "sid": "A02189",
+      "lema": "אנטיפטרין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטִיפַּטְרִיס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. after next w."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2191,
+      "sid": "A02190",
+      "lema": "אַנְטִיפַּטְרִיס,",
+      "classe": "pr. n. pl.",
+      "glosa_atual": "Antipátride; cidade fundada por Herodes em honra do pai, a noroeste de Jerusalém.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Antipatris, a town north-north-west of Jerusalem, founded by Herod the Great and named after his father."
+      ],
+      "notas_originais": [
+        "Gitt. VII, 7 (76 a) (the second ט freq. dropped). Y. B. Mets. VII, end, 11 c. Y. Taan. IV, 69 b top … פריס; a. fr. Tosef. Gitt. VII (V), 9 אנטיפרוס, פטרוס …, (corr. acc.)"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2192,
+      "sid": "A02191",
+      "lema": "אַנְטִיפַּטְרִית",
+      "classe": "f.",
+      "glosa_atual": "de Antipátride; antipatritano.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(preced.) of Antipatris, Antipatridic."
+      ],
+      "notas_originais": [
+        "Sabb. 90 a נתר א' Ms. M. (ed. אנפנטרין, Ar. אנטיפטרין); Nidd. 62 a אנטפטרית Antip. nitrum."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2193,
+      "sid": "A02192",
+      "lema": "אַנְטִיפַּטְרִס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטִיפַּטְרִיס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אנטיפטריס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2194,
+      "sid": "A02193",
+      "lema": "אַנְטִיפֵי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְדִּיפֵי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְדִּיפֵי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2195,
+      "sid": "A02194",
+      "lema": "אַנְטִיפִּיטָא,",
+      "classe": "m.",
+      "glosa_atual": "procônsul; autoridade provincial sediada em Cesareia.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "… m. (corrupt. of אַנְתּוּפָּטָא ἀνθυπατος) proconsul (residing in Cæsarea)."
+      ],
+      "notas_originais": [
+        "Y. Meg. III, 74 a; Y. Ber. V, 9 a top; Koh. R. to III, 6. [Ib. to XI, 1 אוטפיטא, אנטפיטי and var. corrupt. in var. ed.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2196,
+      "sid": "A02195",
+      "lema": "אנטיפרוס,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטִיפַּטְרִיס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטִיפַּטְרִיס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2197,
+      "sid": "A02196",
+      "lema": "אַנְטִיפָּתָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטִיפִּיטָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטִיפִּיטָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2198,
+      "sid": "A02197",
+      "lema": "אַנְטִיקֵיסַר",
+      "classe": "m.",
+      "glosa_atual": "vice-imperador; representante do César; alto dignitário.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ἀντι-Καίσαρος) Pro-Cæsare, the highest dignitary next to the Emperor; in gen. vice-roy."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 53; s. 85, end (also אנטקיס')."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2199,
+      "sid": "A02198",
+      "lema": "אַנְטִיקֵירוֹס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲפִיקֵירֹוס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֲפִיקֵירֹוס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2200,
+      "sid": "A02199",
+      "lema": "אנטירוקוס,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַנְטִידִיקֹוס, adversário judicial.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטִידִיקֹוס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2101-2200.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    }
+  ]
+}
