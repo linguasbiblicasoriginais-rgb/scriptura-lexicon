@@ -1749,7 +1749,8 @@ function filterEntries() {
         searcher.track(result.rows);
         searchResultsBody.insertAdjacentHTML("beforeend", result.rows.map(item=>item.row).join(""));
         searchResultsBody.querySelectorAll(".search-row").forEach(row => {row.hidden = false;});
-        searchTableWrapper.hidden = result.rows.length === 0;
+        // Preservar a tabela e o aviso também em buscas sem resultados.
+        searchTableWrapper.hidden = false;
         updateCounter(result.rows.length);
         if (result.truncated) {
             searchCount.textContent += " (primeiros resultados; refine a pesquisa)";

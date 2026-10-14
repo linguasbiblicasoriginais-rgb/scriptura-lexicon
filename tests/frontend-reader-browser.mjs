@@ -168,6 +168,7 @@ try {
 
         if (sources.length === 0) {
             await page.locator("#search-input").fill("teste");
+            await page.locator("#no-results").waitFor({state:"visible", timeout:30000});
             assert.equal(await page.locator("#search-table-wrapper").isVisible(), true,
                 "Mesmo um dicionário vazio deve exibir aviso da busca");
             assert.equal(await page.locator("#no-results").isVisible(), true,
