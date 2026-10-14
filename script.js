@@ -2175,8 +2175,19 @@ themeInputs.forEach(function (input) {
     });
 });
 
-// Respostas imediatas; a cache evita normalização repetida.
-searchInput.addEventListener("input", filterEntries);
+// Consolida eventos de digitação no próximo quadro de renderização.
+// Evita varrer todos os verbetes várias vezes no mesmo frame.
+let pendingSearchFrame = 0;
+function scheduleFilterEntries() {
+    if (pendingSearchFrame) {
+        cancelAnimationFrame(pendingSearchFrame);
+    }
+    pendingSearchFrame = requestAnimationFrame(function () {
+        pendingSearchFrame = 0;
+        filterEntries();
+    });
+}
+searchInput.addEventListener("input", scheduleFilterEntries);
 
 sourceFilter.addEventListener("change", function () {
     syncSourceCombobox();
