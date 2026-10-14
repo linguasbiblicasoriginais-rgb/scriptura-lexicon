@@ -23,3 +23,7 @@ Validações determinísticas de preparação: interseção dos caminhos diverge
 ## Verificação de integração
 
 Confirmar no GitHub que o PR #122 passou a `merged=true`, com commit de merge verificável em `chat-gpt-commits`. Executar testes funcionais e revisão independente posteriormente. Este relatório de preparação não antecipa resultado remoto.
+
+## Resultado confirmado no GitHub
+
+O PR #122 foi concluído com `merged=true` e estado `closed`, commit de merge `c04749ed282a3966235dc1940f034e5ac00dbf64`. No destino `chat-gpt-commits`, o checkpoint foi retificado para `total_integrated=12000`, preservando `total_published=12000` e `total_audited=0`; estes valores distinguem publicação e integração de auditoria individual. O ramo `chat-gpt-jastrow` não foi apagado e `main` não foi modificado. Esta correção documental posterior não constitui revisão lexical nem teste funcional de navegador.
