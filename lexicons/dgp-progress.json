@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 20891,
-    "status": "Lotes DGP 1–257 incorporados; 20890 registros XML no manifesto; próxima entrada 20891. Somente incorporação.",
+    "next_ordinal": 20991,
+    "status": "Lotes DGP 1–258 incorporados; 20990 registros XML no manifesto; próxima entrada 20991. Somente incorporação.",
     "current_letter": "κ",
     "total_dictionary_entries": 44590
   },
@@ -2327,6 +2327,15 @@
       "end_ordinal": 20890,
       "start_entry": "Καββαλοῦσα, ης (ἡ)",
       "end_entry": "καθεῖς",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 258,
+      "start_ordinal": 20891,
+      "end_ordinal": 20990,
+      "start_entry": "καθεῖσε",
+      "end_entry": "καθυστερέω-ῶ",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
