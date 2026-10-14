@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 24901,
-    "status": "Lotes DGP 1–298 incorporados; 24900 registros XML no manifesto; próxima entrada 24901. Somente incorporação.",
+    "next_ordinal": 25001,
+    "status": "Lotes DGP 1–299 incorporados; 25000 registros XML no manifesto; próxima entrada 25001. Somente incorporação.",
     "current_letter": "λ",
     "total_dictionary_entries": 44590
   },
@@ -2696,6 +2696,15 @@
       "end_ordinal": 24900,
       "start_entry": "λάσθη, ης (ἡ)",
       "end_entry": "λεκτικός, ή, όν",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 299,
+      "start_ordinal": 24901,
+      "end_ordinal": 25000,
+      "start_entry": "λέκτο",
+      "end_entry": "λευκοθώραξ, ακος",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
