@@ -8,9 +8,9 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 20691,
-    "status": "Lotes DGP 1–255 incorporados; 20690 registros XML no manifesto; próxima entrada 20691. Somente incorporação.",
-    "current_letter": "ι",
+    "next_ordinal": 20791,
+    "status": "Lotes DGP 1–256 incorporados; 20790 registros XML no manifesto; próxima entrada 20791. Somente incorporação.",
+    "current_letter": "κ",
     "total_dictionary_entries": 44590
   },
   "batches": [
@@ -2310,6 +2310,15 @@
       "end_entry": "Ἰταλιώτης, ου",
       "entry_count": 100,
       "source_fragments_without_lemma": 24,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 256,
+      "start_ordinal": 20691,
+      "end_ordinal": 20790,
+      "start_entry": "ἰταλιωτικός, ή, όν",
+      "end_entry": "καββαλλικός, ή, όν",
+      "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
   ],
