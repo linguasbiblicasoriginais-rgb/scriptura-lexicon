@@ -1,3 +1,9 @@
+## THAYER — 476 fichas, quinto lote 76/100 (14/10/2026)
+
+O ciclo acrescentou cinco verbetes consecutivos **ἀνίστημι → ἄνοια**, IDs **0472–0476**, com base nos cabeçalhos das páginas impressas **47–48**, folhas PDF **71–72**. O próximo lema é **ἀνοίγω**. Os arquivos `lexicons/thayer-source-facsimile-044.json` e `lexicons/thayer-batch-044-facsimile.js` mantêm separado o texto de trabalho em português da camada inglesa ainda não transcrita; o novo script está ativado em `index.html`.
+
+**Limitações:** esta é incorporação digital provisória, e **não transcrição inglesa integral nem tradução portuguesa diplomaticamente colacionada**. A tradução de ἀνίστημι mantém estrutura transitiva/intransitiva sem partir o artigo; o registro de Ἄννας distingue interpretações históricas atribuídas a Thayer. A prioridade editorial permanece a fotografia, com quaisquer transcrições digitais subordinadas a simples auxílio de leitura. Não houve homologação, auditoria filológica formal, PR, merge ou escrita em `main`.
+
 ## THAYER — 471 fichas digitais, quinto lote 71/100 (14/10/2026)
 
 Nova incorporação de **seis cabeçalhos** de **ἄνθρωπος** até **ἄνιπτος**, conforme consulta ao fac-símile fotografado de Thayer (páginas impressas **46–47**, folhas PDF **70–71**). O artigo **ἄνθρωπος** é mantido como unidade indivisível. Documentos de fonte e apresentação: `lexicons/thayer-source-facsimile-043.json` e `lexicons/thayer-batch-043-facsimile.js`; script carregado no `index.html`; checkpoint atualizado para **471**, 71/100 da quinta centena. Próximo lema: **ἀνίστημι**.
