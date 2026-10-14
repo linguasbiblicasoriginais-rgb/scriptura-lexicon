@@ -1,3 +1,9 @@
+## THAYER — 465 fichas digitais, quinto lote 65/100 (14/10/2026)
+
+A continuação de 456 incorporou **nove cabeçalhos** de **ἀνήρ** até **ἀνθρωποκτόνος**, nas páginas impressas **45–46** (folhas PDF **69–70**). Fonte JSON: `lexicons/thayer-source-facsimile-042.json`; apresentação: `lexicons/thayer-batch-042-facsimile.js`, ativado no `index.html`. Checkpoint: **465**, próximo artigo indivisível **ἄνθρωπος**, página 46. Contagem documental: **65/100** do quinto lote.
+
+**Limitação crítica:** as nove fichas têm **traduções analíticas de trabalho, não integrais**, com o inglês **deliberadamente não transcrito**; suas referências e minúcias de acepções/variantes demandam cotejo. A delimitação de `ἄνθραξ` na virada 45–46 ainda exige revisão em ampliação. A validação desta rodada é estrutural, não homologação nem auditoria filológica formal. Nada foi mesclado com `chat-gpt-commits`; `main` e outros léxicos permaneceram intocados.
+
 ## THAYER — quinto lote: 56/100 fichas digitais (14/10/2026)
 
 A branch `chat-gpt-thayer` passou de **450 para 456 registros digitais de trabalho**, com **seis novos cabeçalhos fotografados** em `lexicons/thayer-source-facsimile-041.json` e seu módulo `lexicons/thayer-batch-041-facsimile.js`, ativado no `index.html`. Intervalo **ἀνευρίσκω → ἀνήμερος**, páginas impressas **44–45** (folhas PDF **68–69**). **Próximo: ἀνήρ**, p. 45. O checkpoint foi atualizado para 56/100 do quinto lote.
