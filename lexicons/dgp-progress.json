@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 27301,
-    "status": "Lotes DGP 1–322 incorporados; 27300 registros XML no manifesto; próxima entrada 27301. Somente incorporação.",
+    "next_ordinal": 27401,
+    "status": "Lotes DGP 1–323 incorporados; 27400 registros XML no manifesto; próxima entrada 27401. Somente incorporação.",
     "current_letter": "μ",
     "total_dictionary_entries": 44590
   },
@@ -2912,6 +2912,15 @@
       "end_ordinal": 27300,
       "start_entry": "μιμητικῶς",
       "end_entry": "μισοπονία, ας (ἡ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 323,
+      "start_ordinal": 27301,
+      "end_ordinal": 27400,
+      "start_entry": "μισορώμαιος, ου",
+      "end_entry": "μοίρη",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
