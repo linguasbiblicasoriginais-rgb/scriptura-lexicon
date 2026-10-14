@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 39501,
-    "status": "Lotes DGP 1–444 incorporados; 39500 registros XML no manifesto; próxima entrada 39501. Somente incorporação.",
+    "next_ordinal": 39601,
+    "status": "Lotes DGP 1–445 incorporados; 39600 registros XML no manifesto; próxima entrada 39601. Somente incorporação.",
     "current_letter": "τ",
     "total_dictionary_entries": 44590
   },
@@ -4010,6 +4010,15 @@
       "end_ordinal": 39500,
       "start_entry": "σχόμενος, η, ον",
       "end_entry": "ταλαιπωρέω-ῶ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 445,
+      "start_ordinal": 39501,
+      "end_ordinal": 39600,
+      "start_entry": "ταλαιπωρία, ας (ἡ)",
+      "end_entry": "ταπεινόω-ῶ",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
