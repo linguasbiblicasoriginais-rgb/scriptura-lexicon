@@ -2,6 +2,8 @@
 
 Foram inspecionados os **46 módulos THAYER**, com **500 cartões em português** e **443 parágrafos de OCR inglês anteriormente visíveis**. O novo script `lexicons/thayer-portugues-ui.js`, carregado após os módulos e antes de `script.js`, oculta esses parágrafos da apresentação sem excluir o texto original dos arquivos JSON. A verificação preserva a linha de base mínima de 500 cartões e 443 blocos e permite incorporar lotes posteriores, que exigirão nova auditoria própria. Detalhes: [auditoria de idioma](auditorias/thayer-2026-10-14-idioma-500.md).
 
+**Verificação sintática:** a regra de remoção foi aplicada ao HTML dos 500 cartões: **443 blocos de OCR removidos, 0 remanescentes e 500 cartões preservados**. Isso não equivale a teste visual em navegador.
+
 **Precisão filológica:** isso atende especificamente à retirada do OCR inglês da interface; **não certifica que os 500 artigos tenham traduções portuguesas integrais**. Muitos ainda são resumos de trabalho e exigem conferência de todas as acepções, formas, referências e observações contra o fac-símile.
 
 ## THAYER — quinto lote digital concluído: 500 registros (14/10/2026)

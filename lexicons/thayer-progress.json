@@ -752,6 +752,30 @@
     "filological_comparison_outstanding": true,
     "implementation": "lexicons/thayer-portugues-ui.js",
     "cards_without_ocr_paragraph": 57,
-    "dynamic_policy": "Base mínima de 500 cartões e 443 blocos removidos; lotes futuros devem ser auditados separadamente. Erro no script não impede automaticamente a execução de scripts HTML posteriores."
+    "dynamic_policy": "Base mínima de 500 cartões e 443 blocos removidos; lotes futuros devem ser auditados separadamente. Erro no script não impede automaticamente a execução de scripts HTML posteriores.",
+    "regex_simulation_verified": true,
+    "cards_preserved_after_simulation": 500,
+    "english_ocr_paragraphs_after_simulation": 0,
+    "groups": [
+      {
+        "range": "0001–0169",
+        "cards": 169,
+        "removed": 169,
+        "remaining": 0
+      },
+      {
+        "range": "0170–0350",
+        "cards": 181,
+        "removed": 181,
+        "remaining": 0
+      },
+      {
+        "range": "0351–0500",
+        "cards": 150,
+        "removed": 93,
+        "remaining": 0
+      }
+    ],
+    "browser_dom_test_verified": false
   }
 }

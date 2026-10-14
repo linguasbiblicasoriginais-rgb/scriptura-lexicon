@@ -19,3 +19,16 @@
 - Um teste por padrão de OCR não atesta ausência universal de qualquer expressão em inglês em citações bibliográficas ou remissões.
 - A presença de texto português não significa correspondência integral entre a fonte e a tradução.
 - Nenhum outro léxico deve ser alterado. Não abrir PR, mesclar, homologar ou escrever em `main` no escopo desta rotina.
+
+## Verificação estática pós-correção — 500 cartões reais
+
+A regra exata de exclusão do módulo `lexicons/thayer-portugues-ui.js` foi aplicada, em simulação determinística, ao HTML decodificado dos **46 módulos** THAYER consultados no GitHub. Resultados:
+
+| IDs | Cartões preservados | Parágrafos OCR removidos | Parágrafos OCR restantes |
+| --- | ---: | ---: | ---: |
+| 0001–0169 | 169 | 169 | 0 |
+| 0170–0350 | 181 | 181 | 0 |
+| 0351–0500 | 150 | 93 | 0 |
+| **TOTAL** | **500** | **443** | **0** |
+
+Em todos os 500 cartões foi localizada uma seção contendo tradução ou exposição lexical em português. Nenhum dos 500 cartões foi eliminado pela transformação. **Critério precisamente verificado:** ausência de parágrafos de OCR inglês daquele formato após o filtro. **Critérios não verificados:** inexistência absoluta de toda palavra inglesa incidental (por exemplo, títulos bibliográficos), teste do DOM no navegador e tradução integral e fiel de todos os artigos. Não transformar o teste sintático de idioma em homologação filológica.
