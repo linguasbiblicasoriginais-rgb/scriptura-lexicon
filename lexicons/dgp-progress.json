@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 36701,
-    "status": "Lotes DGP 1–416 incorporados; 36700 registros XML no manifesto; próxima entrada 36701. Somente incorporação.",
+    "next_ordinal": 36801,
+    "status": "Lotes DGP 1–417 incorporados; 36800 registros XML no manifesto; próxima entrada 36801. Somente incorporação.",
     "current_letter": "σ",
     "total_dictionary_entries": 44590
   },
@@ -3758,6 +3758,15 @@
       "end_ordinal": 36700,
       "start_entry": "σινιάζω",
       "end_entry": "σκαφεῖον, ου (τό)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 417,
+      "start_ordinal": 36701,
+      "end_ordinal": 36800,
+      "start_entry": "σκαφεύω",
+      "end_entry": "σκίλλα, ης (ἡ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
