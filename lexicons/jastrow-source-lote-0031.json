@@ -1,0 +1,1415 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data pinned XML)",
+  "source_start_ordinal": 6001,
+  "source_end_ordinal": 6200,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "entry_count": 200,
+  "first_headword": "גְּנִינִים,",
+  "last_headword": "גְּרִיץ,",
+  "next_headword": "גְּרִיצָה",
+  "status": "source_only_untranslated_not_published",
+  "records": [
+    {
+      "ordinal": 6001,
+      "source_id": "jastrow-xml-006001",
+      "canonical_entry_id": "C01144",
+      "headword": "גְּנִינִים,",
+      "source_xml": "<entry id=\"C01144\">\n<head-word>גְּנִינִים, </head-word>\n<head-word>גְּנוּנִים</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (contr. of גַּוְונוּנ', v. \n<xref rid=\"C00335\">גַּוָּון</xref>) \n<italic>of many colors</italic>.</definition>\n<notes> Nidd. III, 3 (24\n<sup>b</sup>) שפיר מלא גנו' (an abortion consisting of) a bag full of a many-colored substance; (Ar. גני'—for which in Gem. ib. גוונים; incorr. opin. = גבנונים \n<italic>lumps of a fleshy substance</italic>, v. Ar. s. v.); Bekh. VIII, 1 גנו' (Talm. ed. 47\n<sup>b</sup> גני'); Kerith. I, 5 גנו' (Talm. ed. 7\n<sup>b</sup> גני').—Esp. \n<italic>a sort of flour containing all shades of colors</italic>. Tanḥ. T’savveh 13 סאה גני' (ed. Bub. 10 גבונים, Ms. R. גנינין, oth. corrupt. v. ib. note 63) one measure full of all sorts of flour; Y. Peah VII, 20\n<sup>a</sup> bot. גניינן (corr. גנינין; omitted in Yalk. Hab. 565).—Sot. 36\n<sup>b</sup> גְּנוּנֵי מלכות royal \n<italic>manners</italic> (v. גַּוָּון a. גַּוָּונָא; Ar. גִּנוּסֵי, גְּנִיסֵי, v. גִּינִיסְיָא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6002,
+      "source_id": "jastrow-xml-006002",
+      "canonical_entry_id": "C01145",
+      "headword": "גְּנִיסָא,",
+      "source_xml": "<entry id=\"C01145\">\n<head-word>גְּנִיסָא, </head-word>\n<head-word>(גְּנוּ') גְּנִיסְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (adopted fr. γένος) \n<italic>gens, family, gentry</italic>.</definition>\n<notes> Targ. Y. Ex. XII, 47. Targ. Y. Deut. XXIX, 17.—Targ. Y. Gen. VI, 9 (גְּנִסַּת) גְּנִיסַת נח of the family of Noah; a. fr.—\n<plural-form>Pl. גְּנִיסָן, גְּנִיסָאתָא, גְּנִיסָתָא</plural-form>. Targ. Y. Deut. X, 6. Targ. Y. Num. XXVI, 7 (some ed. גְנִיסְתָּא read … סָתָא). Targ. Job XXXI, 34; a. e.—Masc. pl. גְּנִיסַיָּיא. Targ. Ps. CVII, 41, v. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6003,
+      "source_id": "jastrow-xml-006003",
+      "canonical_entry_id": "C01146",
+      "headword": "גְּנִיסַיָּיא,",
+      "source_xml": "<entry id=\"C01146\">\n<head-word>גְּנִיסַיָּיא, </head-word>\n<head-word>גְּנוּ'</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01145\">preced.</xref> a. \n<xref rid=\"C00766\">גִּינִיסְיָא</xref>) \n<italic>nobles, gentry</italic>.</definition>\n<notes> Targ. Y. Gen. XXXVI, 29 sq.; Deut. II, 12 (some ed. סְיָיא …, corr. acc.; h. text חֹרִי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6004,
+      "source_id": "jastrow-xml-006004",
+      "canonical_entry_id": "C01147",
+      "headword": "גְּנִיסִין",
+      "source_xml": "<entry id=\"C01147\">\n<head-word>גְּנִיסִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00766\">גִּינִיסְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6005,
+      "source_id": "jastrow-xml-006005",
+      "canonical_entry_id": "C01148",
+      "headword": "גְּנֵיסַר",
+      "source_xml": "<entry id=\"C01148\">\n<head-word>גְּנֵיסַר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00767\">גִּינֵּיסַר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6006,
+      "source_id": "jastrow-xml-006006",
+      "canonical_entry_id": "C01149",
+      "headword": "גְּנִיסְתָּא",
+      "source_xml": "<entry id=\"C01149\">\n<head-word>גְּנִיסְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01145\">גְּנִיסָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6007,
+      "source_id": "jastrow-xml-006007",
+      "canonical_entry_id": "C01150",
+      "headword": "גָּנַן",
+      "source_xml": "<entry id=\"C01150\">\n<head-word>גָּנַן</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to protect, surround</italic>.</definition>\n<notes> Denom. גַּן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6008,
+      "source_id": "jastrow-xml-006008",
+      "canonical_entry_id": "C01151",
+      "headword": "גְּנַן",
+      "source_xml": "<entry id=\"C01151\">\n<head-word>גְּנַן</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Zech. VIII, 4.</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אגֵּין</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> same. Targ. O. Gen. VII, 16 (some ed. אָגֵין, fr. גִּין, Y. I אַגִּין, h. text סגר). Targ. Ex. XXXIII, 22. Targ. Is. I, 6; a. fr. (interchanging with אָגֵין).—Sot. 21\n<sup>a</sup> אגּוּנֵי מַגְּנָא does protect, contrad. fr. אצולי to rescue. Keth. 77\n<sup>b</sup> אגוני לא מגנא will it (the Law) not protect (me)? Ab. Zar. 15\n<sup>b</sup> bot. מגנו עלייהו they (the bucklers) protect them. Ib. 16\n<sup>a</sup> מגנו עילוון they (the Persian soldiers) protect us.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6009,
+      "source_id": "jastrow-xml-006009",
+      "canonical_entry_id": "C01152",
+      "headword": "גַּנָּן",
+      "source_xml": "<entry id=\"C01152\">\n<head-word>גַּנָּן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (denom. of גַּן) \n<italic>gardener</italic>.</definition>\n<notes> Lev. R. s. 5.—\n<plural-form>Pl. גַּנָּנִים, גַּנָּנִין</plural-form>. Kel. XVII, 1. Yoma V, 6; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6010,
+      "source_id": "jastrow-xml-006010",
+      "canonical_entry_id": "C01153",
+      "headword": "גַּנָּנָא,",
+      "source_xml": "<entry id=\"C01153\">\n<head-word>גַּנָּנָא, </head-word>\n<head-word>גַּנָּנָה</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Y. Snh. II, end, 20\n<sup>d</sup>; Gen. R. s. 80, v. \n<xref rid=\"C00771\">גִּינְּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6011,
+      "source_id": "jastrow-xml-006011",
+      "canonical_entry_id": "C01154",
+      "headword": "גְּנָנָא",
+      "source_xml": "<entry id=\"C01154\">\n<head-word>גְּנָנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01106\">גִּנּוּן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6012,
+      "source_id": "jastrow-xml-006012",
+      "canonical_entry_id": "C01155",
+      "headword": "גְּנִסַּת",
+      "source_xml": "<entry id=\"C01155\">\n<head-word>גְּנִסַּת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01145\">גְּנִיסָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6013,
+      "source_id": "jastrow-xml-006013",
+      "canonical_entry_id": "C01156",
+      "headword": "גנסרי",
+      "source_xml": "<entry id=\"C01156\">\n<head-word>גנסרי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01086\">גִּנְבָּרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6014,
+      "source_id": "jastrow-xml-006014",
+      "canonical_entry_id": "C01157",
+      "headword": "*גַּנְפָא",
+      "source_xml": "<entry id=\"C01157\">\n<head-word>*גַּנְפָא</head-word>\n<senses>\n<sense>\n<definition> = גַּפָּא.</definition>\n<notes>—\n<plural-form>Pl. גַּנְפֵי</plural-form>. Targ. Mic. I, 16 (ed. Lag. a. oth. גדפ'), v. גַּדְפָא a. גְּדַנְפָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6015,
+      "source_id": "jastrow-xml-006015",
+      "canonical_entry_id": "C01158",
+      "headword": "גִּנְּתָא",
+      "source_xml": "<entry id=\"C01158\">\n<head-word>גִּנְּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01090\">גִּינְּ'</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6016,
+      "source_id": "jastrow-xml-006016",
+      "canonical_entry_id": "C01159",
+      "headword": "גַּס,",
+      "source_xml": "<entry id=\"C01159\">\n<head-word>גַּס, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>falcon</italic>, v. \n<xref rid=\"C00513\">גַּז</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6017,
+      "source_id": "jastrow-xml-006017",
+      "canonical_entry_id": "C01160",
+      "headword": "גַּס,",
+      "source_xml": "<entry id=\"C01160\">\n<head-word>גַּס, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01161\">next w.</xref>) \n<italic>the thick part of the web, border, hem</italic>.</definition>\n<notes> Tosef. Sabb. XII (XIII), 1 ע\"ג הגס (Var. הנס; Y. ib. XIII, beg. 14\n<sup>a</sup> הגב, corr. acc.), v. גַּב; Bab. ib. 105\n<sup>a</sup> על הגס (some ed. הנס).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6018,
+      "source_id": "jastrow-xml-006018",
+      "canonical_entry_id": "C01161",
+      "headword": "גַּס,",
+      "source_xml": "<entry id=\"C01161\">\n<head-word>גַּס, </head-word>\n<hw-number>III</hw-number>\n<head-word>גַּסָּה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גסס, cmp. גשש) \n<italic>bulky, huge, large</italic>.</definition>\n<notes> Ḥull. III, 1 עוף הגס large fowl (goose, hen &amp;c.), opp. דק.—(בהמה)גסה \n<italic>large cattle</italic> (beeves &amp;c.), opp. דקה sheep, goats &amp;c. Ib. Y. Pes. IV, 30\n<sup>d</sup> bot.; a. fr.—Dem. II, 4 sq. במדה ג', בגסה in large quantities, \n<italic>wholesale</italic>.—Ber. 6\n<sup>b</sup> פסיעה ג' large, hasty step. Pes. 107\n<sup>b</sup> אכילה ג' a large, full meal.—Shebi. IV, 1 (to gather wood or stones) את הגס הגס the larger the better, i.e. picking out the largest for using them in buildings &amp;c., clearly indicating that it is not done for the purpose of improving the field; expl. Y. ib. beg. 35\n<sup>a</sup> כדרך שהוא מלקט … בין דקים לגסים as one gathers in his neighbor’s field distinguishing between the small and large pieces.—Nidd. 2\n<sup>b</sup> הַגַּס הַגַּס she noticed the menstruation only when coming in large quantities (in clods, while the blood had previously been imperceptibly gathering).—\n<plural-form>Pl. גַּסִּים, גַּסִּין,</plural-form> f. גַּסּוֹת. Y. Shebi. l. c. Ḥag. 26\n<sup>a</sup>; a. fr.—גַּס רוּחַ \n<italic>presumptuous, haughty.</italic> Ab. IV, 7. [Ib. גס לבו, v. גּוּס.]—\n<plural-form>Pl. גַּסֵּי רוח</plural-form>. Y. Pes. V, 32\n<sup>a</sup> bot.; a. fr.—גַּסִּים (sub. נקבים) \n<italic>movement of the bowels</italic>, v. גָּדוֹל end. Y. Ber. II, 4\n<sup>d</sup> top; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6019,
+      "source_id": "jastrow-xml-006019",
+      "canonical_entry_id": "C01162",
+      "headword": "גַּסָּא",
+      "source_xml": "<entry id=\"C01162\">\n<head-word>גַּסָּא</head-word>\n<senses>\n<sense>\n<definition> ch.\n<pos> f.</pos> (sub. מִידָּה) \n<italic>large quantity</italic>.</definition>\n<notes>—בג' \n<italic>intemperately</italic>. Esth. R. to I, 8 לפום דתמן שאתן ג' because there (at the Persian court) they used to drink immoderately.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6020,
+      "source_id": "jastrow-xml-006020",
+      "canonical_entry_id": "C01163",
+      "headword": "גָּסָא",
+      "source_xml": "<entry id=\"C01163\">\n<head-word>גָּסָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01161\">גָּסָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6021,
+      "source_id": "jastrow-xml-006021",
+      "canonical_entry_id": "C01164",
+      "headword": "גַּסְבַּר",
+      "source_xml": "<entry id=\"C01164\">\n<head-word>גַּסְבַּר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Tosef. Shebi. II, 7 השבת והג' some ed., v. \n<xref rid=\"K00320\">כּוּסְבַּר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6022,
+      "source_id": "jastrow-xml-006022",
+      "canonical_entry_id": "C01165",
+      "headword": "גָּסָה",
+      "source_xml": "<entry id=\"C01165\">\n<head-word>גָּסָה</head-word>\n<senses>\n<sense>\n<definition> (denom. of גַּס; cmp. אכילה גסה, s. v. \n<xref rid=\"unknown\">גַּס</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to swallow large quantities at a time, to glut</italic>.</definition>\n<notes> Der. Er. Zutta ch. V ולא יִגְסֶה בפני וכ' must not eat or drink like a glutton in the presence of &amp;c.—Pesik. Vattomer, p. 131\n<sup>a</sup> (ref. to לחם הקלקל, Num. XXI, 5) I (the Lord) selected for them light food …, שלא יהא אחד מהם גּוֹסֶה ודלריא אחזתו lest one of them should eat too much and be seized with diarrhœa; Sifré Deut. 1 Ms. (v. ed. Fr. note 26); Yalk. Num. 764 גוטי (corr. acc.); ib. Deut. 790 גוסרודליא (read גוס' ודולריא); ib. Is. 332 גוטס (corr. acc.); Lam. R. to III, 37 גּוֹסֵא.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to feel inflated, nauseous; to belch</italic>.</definition>\n<notes> Nidd. 63\n<sup>b</sup> (among the symptoms of approaching menstruation) וגוֹסָה.—V. גּוֹסִי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6023,
+      "source_id": "jastrow-xml-006023",
+      "canonical_entry_id": "C01166",
+      "headword": "גַּסּוּת",
+      "source_xml": "<entry id=\"C01166\">\n<head-word>גַּסּוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גַּס III) (with or without רוח) \n<italic>presumptuousness</italic>.</definition>\n<notes> Succ. 29\n<sup>b</sup>. Kidd. 49\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6024,
+      "source_id": "jastrow-xml-006024",
+      "canonical_entry_id": "C01167",
+      "headword": "גַּסּוּתָא",
+      "source_xml": "<entry id=\"C01167\">\n<head-word>גַּסּוּתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Ps. X, 2. Ib. CI, 5 גסות עיינין haughty look; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6025,
+      "source_id": "jastrow-xml-006025",
+      "canonical_entry_id": "C01168",
+      "headword": "גִּסְטְרָא",
+      "source_xml": "<entry id=\"C01168\">\n<head-word>גִּסְטְרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00772\">גִּיסְ'</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6026,
+      "source_id": "jastrow-xml-006026",
+      "canonical_entry_id": "C01169",
+      "headword": "גַּסְטְרָא",
+      "source_xml": "<entry id=\"C01169\">\n<head-word>גַּסְטְרָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (castra, v. \n<xref rid=\"S01653\">קַסְטְרָא</xref>) \n<italic>military camp, fort</italic>.</definition>\n<notes> Sabb. 121\n<sup>a</sup> אנשי ג' של וכ' Ar. (ed. גיסט', גיסת', גיזט', v. Rabb. D. S. a. l. note </notes></sense>\n<sense>\n<number>1)</number>\n<definition> the Roman garrison of Sepphoris. Ber. 32\n<sup>b</sup> (Ms. M. גיסט', Yalk. Is. 332 גסתרא) ועל כל לגיון ולגיון בראתי בו שלשים ג' וכ' Ms. M. (v. Rabb. D. S. a. l.) for each legion (of minor planets in the constellations) I created thirty camps, and for each camp thirty squares, v. קרטון.</definition>\n<notes>—Sot. 13\n<sup>b</sup> sq. שלחה מלכות הרשעה אצל ג' בית וכ' the Roman government sent to the camp of Beth Peor; (Yalk. Deut. end גיס'; Pesik. Zutr. Deut. p. 134 מלכות של חצרה ושל בית וכ').—Hence: pr. n. pl. \n<italic>Castra</italic>. Lev. R. s. 23 כגון ג' לחיפא as Castra is hostile to Haifa; Lam. R. to I, 17 קסטרא.—\n<plural-form>Pl. גַּסְטְרָיוֹת</plural-form>. Gen. R. s. 28 אריות ג'; Yalk. ib. 47 חיילות גי', read אהליות וג', v. אָהֳלִית.—</notes></sense>\n<sense>\n<number>*2)</number>\n<definition> (cmp. castellum) \n<italic>reservoir</italic>.</definition>\n<notes> Lev. R. s. 15 Ar., Var. קִנְצְטְרָא (cisterna, κινστέρνα) \n<italic>cistern</italic> (not extant in ed; B. Bath. 16\n<sup>a</sup> דָּפוּס).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6027,
+      "source_id": "jastrow-xml-006027",
+      "canonical_entry_id": "C01170",
+      "headword": "גַּסִּטְרֹון",
+      "source_xml": "<entry id=\"C01170\">\n<head-word>גַּסִּטְרֹון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01173\">גַּסִּיטְרוֹן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6028,
+      "source_id": "jastrow-xml-006028",
+      "canonical_entry_id": "C01171",
+      "headword": "גַּסְטְרָיֹות",
+      "source_xml": "<entry id=\"C01171\">\n<head-word>גַּסְטְרָיֹות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00779\">גַּסְטְרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6029,
+      "source_id": "jastrow-xml-006029",
+      "canonical_entry_id": "C01172",
+      "headword": "*גַּסְיֹוטָאֵי",
+      "source_xml": "<entry id=\"C01172\">\n<head-word>*גַּסְיֹוטָאֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> n.</definition>\n<notes> gent. (Κασίωτις, Κάσιος) \n<italic>inhabitants of Casiotis</italic>, a district surrounding Mount Casius, East of Pelusium in Egypt. Targ. Y. I Gen. X, 14 נסיוט' (corr. ג', Y. II פִּילוּסָאֵי; h. text פתרסים); Targ. I Chr. I, 12 נסיוט', נסאט' (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6030,
+      "source_id": "jastrow-xml-006030",
+      "canonical_entry_id": "C01173",
+      "headword": "גַּסִּיטְרֹון",
+      "source_xml": "<entry id=\"C01173\">\n<head-word>גַּסִּיטְרֹון</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (κασσίτερος) \n<italic>tin</italic>.</definition>\n<notes> B. Mets. 23\n<sup>b</sup> [read:] של ג'. Men. 28\n<sup>b</sup> ושל גיסט' (corr. acc.); cmp. קַסִּיטְרָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6031,
+      "source_id": "jastrow-xml-006031",
+      "canonical_entry_id": "C01174",
+      "headword": "גסיסין",
+      "source_xml": "<entry id=\"C01174\">\n<head-word>גסיסין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00782\">גִּיסְסָא II</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6032,
+      "source_id": "jastrow-xml-006032",
+      "canonical_entry_id": "C01175",
+      "headword": "גְּסַס",
+      "source_xml": "<entry id=\"C01175\">\n<head-word>גְּסַס</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C00447\">גּוּס II</xref>; cmp. גִּיסָא III) \n<italic>to recline, to dine</italic>.</definition>\n<notes> Y. Snh. III, 21\n<sup>c</sup> top אשגח למֵיגֹוס גו וכ' cared to remain undisturbed at a banquet among the guests. Esth. R. to I, 8 דבעי מֵיגַס וכ' where one wants first to dine and then to drink. Lev. R. s. 28 why dost thou not allow the guests דיִגְסוּן to eat? Koh. R. to II, 17; a. fr.—Denom. מַגָּס, מְגִיסְתָּא &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6033,
+      "source_id": "jastrow-xml-006033",
+      "canonical_entry_id": "C01176",
+      "headword": "גֶּסֶס",
+      "source_xml": "<entry id=\"C01176\">\n<head-word>גֶּסֶס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, pl. גְּסָסִים (v. \n<xref rid=\"C01175\">preced.</xref> a. \n<xref rid=\"unknown\">גִּיסְסָא</xref>) \n<italic>side, arm</italic>.</definition>\n<notes> Nidd. 48\n<sup>b</sup> על גִּסְסֵיהֶן upon their (left) arms.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6034,
+      "source_id": "jastrow-xml-006034",
+      "canonical_entry_id": "C01177",
+      "headword": "גִּסְסָא",
+      "source_xml": "<entry id=\"C01177\">\n<head-word>גִּסְסָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00772\">גִּיסְ'</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6035,
+      "source_id": "jastrow-xml-006035",
+      "canonical_entry_id": "C01178",
+      "headword": "גסתרא",
+      "source_xml": "<entry id=\"C01178\">\n<head-word>גסתרא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00779\">גַּסְטְרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6036,
+      "source_id": "jastrow-xml-006036",
+      "canonical_entry_id": "C01179",
+      "headword": "גְּעָא",
+      "source_xml": "<entry id=\"C01179\">\n<head-word>גְּעָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01185\">געי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6037,
+      "source_id": "jastrow-xml-006037",
+      "canonical_entry_id": "C01180",
+      "headword": "געא",
+      "source_xml": "<entry id=\"C01180\">\n<head-word>געא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Koh. R. to XI, 1 לבי געא וגנזי, read לבי גִנְזֵי or לבי גַּזָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6038,
+      "source_id": "jastrow-xml-006038",
+      "canonical_entry_id": "C01181",
+      "headword": "גִּעְגּוּעַ,",
+      "source_xml": "<entry id=\"C01181\">\n<head-word>גִּעְגּוּעַ, </head-word>\n<head-word>גִּיעֲגוּעַ</head-word>\n<senses>\n<sense>\n<definition>,\n<pos> m.</pos>, pl. גִּעְגּוּעִים, גִּעְגּוּעִין, גִּי' (reduplic. of געי) \n<italic>lowing, roaring</italic>; trnsf. </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>homesickness, longing</italic> (as the cow lows after her calf).</definition>\n<notes> Sabb. 66\n<sup>b</sup> בן שיש לו גיע' וכ' Ms. M. (ed. omit לו) a son who is homesick for his father. Snh. 39\n<sup>a</sup>. Ib. 63\n<sup>b</sup></notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>sulky, rebellious conduct, howling</italic> (of children).</definition>\n<notes> Tanḥ. Shmoth 1; Ex. R. s. 1, beg. שהיו לו ג' על אברהם וכ' who behaved rebelliously against his father.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6039,
+      "source_id": "jastrow-xml-006039",
+      "canonical_entry_id": "C01182",
+      "headword": "גִּעְגֵּעַ",
+      "source_xml": "<entry id=\"C01182\">\n<head-word>גִּעְגֵּעַ</head-word>\n<senses>\n<sense>\n<definition> (= עגעג, cmp. קעקע) \n<italic>to roll.</italic></definition>\n<notes>\n<italic> Hithpa.</italic> הִתְגַּעְגֵּע, הִגַּ' \n<italic>to roll one’s self</italic>. Cant. R. to IV, 11 מִתְגַּעְגְּעִין היו וכ' they would roll themselves in the plants around the well (to make their garments flagrant); (Pesik. B’hall. p. 92\n<sup>b</sup>; Yalk. Deut. 850 מתלכלכין); Midr. Till. to Ps. XXIII מִגַּעְגְּעִין; Yalk. Ps. 691; (Deut. R. s. 7, end מתענגין).—Lev. R. s. 20, v. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6040,
+      "source_id": "jastrow-xml-006040",
+      "canonical_entry_id": "C01183",
+      "headword": "גַּעְגַּע",
+      "source_xml": "<entry id=\"C01183\">\n<head-word>גַּעְגַּע</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Ithpa.</italic> אִתְגַּעְגַּע, אִיגַּעְגַּע\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>, \n<italic>to roll one’s self, wallow</italic>.</definition>\n<notes> Lam. R. to II, 2 as long as that hen מִתְגַּעְגְּעָא בקיטמא wallows in the ashes (as Israel lives in its religious element). Koh. R. to XI, 1 מנין מְגַעְגְּעִין בדמא clothes rolled in blood (suspicious of murder).—Tanḥ. Aḥaré 3 (ref. to Job XXXIX, 30) חמי אפרוחיו מגעגעין בדם וכ' he sees his brood wallowing in blood (Aaron sees his sons dead), and is silent; Lev. R. s. 20 ראה … באַדְמָא Ar. (ed. באדמה); Pesik. Aḥaré p. 171\n<sup>b</sup> מְעַגְעֲגִין באדמה (Ms. Carmoli מגעגעין באדמא). [Targ. I, II Gen. XLIX, 11 מעגעגין באדמא.]—Trnsf. \n<italic>to enjoy one’s self, play</italic>. Targ. Ps. CXIX, 117 ואִיגַּעְגַּע Ms. (ed. וַאֲגַעְגַּע, h. text שעשע).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6041,
+      "source_id": "jastrow-xml-006041",
+      "canonical_entry_id": "C01184",
+      "headword": "גַּעְגְּעָא",
+      "source_xml": "<entry id=\"C01184\">\n<head-word>גַּעְגְּעָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.; cmp. חֹוגֵג) \n<italic>rolling</italic>\n<italic>;</italic> (דמיא) ג' \n<italic>cataract</italic>.</definition>\n<notes> Lam. R. to I, 17, v. אָגֹוגָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6042,
+      "source_id": "jastrow-xml-006042",
+      "canonical_entry_id": "C01185",
+      "headword": "געי,",
+      "source_xml": "<entry id=\"C01185\">\n<head-word>געי, </head-word>\n<head-word>גָּעָה</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> cmp. גוח)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to burst forth, to roar, low</italic>.</definition>\n<notes> Midr. Till. to Ps. CXXXVII, beg., a. e. גָּעוּ וכ', v. בְּכִיָּה.—Gen. R. s. 31, end וגָעַת אמו and the whelp’s mother roared. Yalk. Gen. 101 ג' געייה וכ' cried loudly. Ḥull. 38\n<sup>a</sup> top גֹּועָה if the animal lows (when taken to slaughter). Tosef. Bekh. VII, 10 גֹּועֹות. Y. Taan. II, beg. 65\n<sup>a</sup> חָשְׁבִנוּ כאלו גֹועִים וכ' regard us as if we were lowing before thee (in agony) like cattle; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6043,
+      "source_id": "jastrow-xml-006043",
+      "canonical_entry_id": "C01186",
+      "headword": "גְּעִי,",
+      "source_xml": "<entry id=\"C01186\">\n<head-word>גְּעִי, </head-word>\n<head-word>גְּעָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. I Sam. VI, 12. [Ib. II, 5 וגען some ed., corr. וגָאָן, v. גאי]. Targ. Job VI, 5, v. גִּיחַ.—Y. Taan. II, 65\n<sup>b</sup> והוו אילין גּעֲיֵי וכ' and they lowed from this side &amp;c.; Pesik. Shubah, p. 161\n<sup>a</sup> מְגַעֲיִין. Y. Ber. II, 5\n<sup>a</sup> top גָּעַת תורתיה his cow lowed; Lam. R. to I, 16, end.</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>גַּעֵי</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> same, v. supra.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6044,
+      "source_id": "jastrow-xml-006044",
+      "canonical_entry_id": "C01187",
+      "headword": "גְּעִיָּיה,",
+      "source_xml": "<entry id=\"C01187\">\n<head-word>גְּעִיָּיה, </head-word>\n<head-word>גְּעִיָּה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>roaring, crying in agony</italic>.</definition>\n<notes> Yalk. Gen. 101, v. געי. Tana d’be El. I, ch. III בכו וגעו ג' אחת they wept and burst forth in one loud cry of agony.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6045,
+      "source_id": "jastrow-xml-006045",
+      "canonical_entry_id": "C01188",
+      "headword": "גְּעִיָּיתָא",
+      "source_xml": "<entry id=\"C01188\">\n<head-word>גְּעִיָּיתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Lam. R. to I, 16.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6046,
+      "source_id": "jastrow-xml-006046",
+      "canonical_entry_id": "C01189",
+      "headword": "גְּעִילָה",
+      "source_xml": "<entry id=\"C01189\">\n<head-word>גְּעִילָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (next w.) \n<italic>loathing, rejection</italic>.</definition>\n<notes> Lam. R. to V, 20; Pesik. R. s. 31; Yalk. Is. 332.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6047,
+      "source_id": "jastrow-xml-006047",
+      "canonical_entry_id": "C01190",
+      "headword": "גָּעַל",
+      "source_xml": "<entry id=\"C01190\">\n<head-word>גָּעַל</head-word>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">h.; cmp. גאל)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to be covered with impurity, be loathsome; to loathe</italic>.</definition>\n<notes> V. preced.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִגְעִיל</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to remove impurity by means of hot water, to cleanse</italic>.</definition>\n<notes> Ab. Zar. V, 12 את שדרכו להַגְעִיל יַגְעִיל a vessel which ordinarily is cleansed with hot water, must be purified for ritual purposes by means of hot water. Ib. 76\n<sup>a</sup> כיצד מַגְעִילָן וכ' how must one disinfect them? You put a smaller vessel into a larger one &amp;c.; a. fr.—Y. Ter. XI, 48\n<sup>a</sup> מַגְעִילָהּ בחמין removes the soakings of T’rumah &amp;c. [Y. Maasr. I, end, 49\n<sup>b</sup> שיגעיל, read משיעגל, v. עָגַל.] V. הַגְעָלָה.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נִגְעַל</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be removed through boiling</italic>.</definition>\n<notes> Y. Ter. l. c.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nithpa.</binyan-name>\n<binyan-form>נִתְגָּעַל</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be soiled</italic>.</definition>\n<notes> Zeb. 88\n<sup>a</sup></notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6048,
+      "source_id": "jastrow-xml-006048",
+      "canonical_entry_id": "C01191",
+      "headword": "גְּעַל",
+      "source_xml": "<entry id=\"C01191\">\n<head-word>גְּעַל</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>\n<italic>Ithpa.</italic> אִתְגָּעַל, \n<italic>Ithpe.</italic> אִתְגְּעַל, אִיגְּעַל \n<italic>to be polluted, soiled</italic>. Targ. Is. I, 6.—\n<italic>Part. pass. Af.</italic> מַגְעַל. Ib. VI, 5; XXVIII, 8.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6049,
+      "source_id": "jastrow-xml-006049",
+      "canonical_entry_id": "C01192",
+      "headword": "גְּעַר",
+      "source_xml": "<entry id=\"C01192\">\n<head-word>גְּעַר</head-word>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">גָּעַר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to shout, to rebuke</italic>.</definition>\n<notes> Targ. Zech. III, 2 ed. Lag. (ed. יְזֵיף).—Kidd. 81\n<sup>b</sup> רחמנא נִגְעַר ביה וכ' the Lord rebuke Satan. Gen. R. s. 56 ההוא גברא דיִגְעַר ביה that man of whom it is said, Rebuke him (Satan; with ref. to Zech. l. c.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6050,
+      "source_id": "jastrow-xml-006050",
+      "canonical_entry_id": "C01193",
+      "headword": "גָּעַשׁ",
+      "source_xml": "<entry id=\"C01193\">\n<head-word>גָּעַשׁ</head-word>\n<senses>\n<sense>\n<definition> (b. h.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to rush forth, to quake, be agitated</italic>.</definition>\n<notes> Yalk. Josh. 35 (cit. fr. Sabb. 105\n<sup>b</sup>, ref. to הר געש Josh. XXIV, 30) מלמד שג' עליהם ההר להרגם it intimates that the mountain over them quaked (threatening) to slay them; Sabb. l. c. שרגש. Cant. R. to III, 10 ג' הים וכ' \n<pgbrk id=\"pg262\" />the sea rushed forth and flooded the cave.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to cough</italic> or \n<italic>sneeze</italic>.</definition>\n<notes> Lev. R. s. 3 ג' השור וכ'.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִגְעִישׁ</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to shake, cause to reel</italic>.</definition>\n<notes> Koh. R. to VII, 1 להרעיש וגם להַגְעִישׁ וכ' to shake and even make reel the mountain &amp;c., v. supra.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְגָּעַשׁ, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְגָּעַשׁ \n<italic>to be agitated, very busy, anxious</italic>. Ruth R., introd. 2 נִתְגָּעֲשׁוּ … מעשות ג\"ח וכ' the Israelites were too much engrossed (in settling) to attend the funeral of Joshua; Koh. R. l. c.—Pesik. R. addit. s. 2 (ref. to יגעשו, Job XXXIV, 20) מִתְגָּעֲשִׁים וכ' marched hurriedly to get out &amp;c.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6051,
+      "source_id": "jastrow-xml-006051",
+      "canonical_entry_id": "C01194",
+      "headword": "גַּעְתּוֹן",
+      "source_xml": "<entry id=\"C01194\">\n<head-word>גַּעְתּוֹן</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Gaton</italic> (\n<italic>Ġ</italic>\n<italic>atan</italic>; v. Hildesh.</definition>\n<notes> Beitr. p. 13 sq.). Y. Shebi. VII, 36\n<sup>c</sup> ראש מי ג' וג' עצמה the head of the brook of G. and G. itself; Tosef. ib. IV, 11 ריש מיא דג' וג' גרמא Var. (ed. ריש מעון רגעתן וכ', corr. acc.); Sifré Deut. 51 מגיאתו וגיא' עצמה (read מי ג' וג'); Yalk. ib. 874.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6052,
+      "source_id": "jastrow-xml-006052",
+      "canonical_entry_id": "C01195",
+      "headword": "גַּף,",
+      "source_xml": "<entry id=\"C01195\">\n<head-word>גַּף, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"C01211\"> גפף</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"C00456\">גּוּף</xref>) \n<italic>body</italic>.</definition>\n<notes> בְּגַפּוֹ \n<italic>alone</italic>; explained Kidd. 20\n<sup>a</sup> בגופו נכנס בגופו יצא he came with his body, and so he shall go out, i.e. he has no claim for injuries received during servitude; oth. expl. יחידי נכנס וכ' if he entered a single man, he must leave a single man, i.e. his master has no right to give him a Canaanite slave for propagating purposes.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6053,
+      "source_id": "jastrow-xml-006053",
+      "canonical_entry_id": "C01196",
+      "headword": "גַּף,",
+      "source_xml": "<entry id=\"C01196\">\n<head-word>גַּף, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> c. (גנף, cmp. כָּנָף a. כַּף; v. \n<xref rid=\"A00330\">אֲגַף</xref>) [\n<italic>bent, joint</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>the long portion of the wing</italic>.</definition>\n<notes> Zeb. VII, 5 שיבש גַּפָּהּ (Talm. ed. 68\n<sup>b</sup> שיבשה, v. Rabb. D. S. a. l.) whose wing is withered. Ḥull. 57\n<sup>a</sup> שמוטת גף a bird whose wing is dislocated.—\n<italic>Du.</italic> גַּפַּיִּם, גַּפַּיִּים. Ib. III, 4 נשתברו גַּפֶּיהָ whose wings are broken, contrad. to כנפ' wing feathers.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>arms, shoulders</italic> of a human being.</definition>\n<notes> Ohol. VII, 4 ניטלת בג' carried by her arms (put around the necks of her supporters); v. אֲגַף.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>handles</italic> of a vessel, \n<italic>sides</italic> &amp;c. Kel. VIII, 3.</definition>\n<notes> Tosef. ib. B. Mets. X, 5; a. e.—V. גֵּיף.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6054,
+      "source_id": "jastrow-xml-006054",
+      "canonical_entry_id": "C01197",
+      "headword": "גַּפָּא,",
+      "source_xml": "<entry id=\"C01197\">\n<head-word>גַּפָּא, </head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>wing, also winged animal</italic> (interch. with גַּדְפָא).</definition>\n<notes> Targ. Prov. I, 17; a. fr.—Cant. R. to IV, 8 דמנערא גפא (Gen. R. s. 75 גרמה, Var. אגפה), v. גֵּו.—\n<plural-form>Pl. גַּפִּין, גַּפַּיָּא, גַּפֵּי</plural-form>. Targ. Koh. X, 20. Targ. Ez. I, 6; a. fr.—Lam. R. to I, 1 רבתי beg.—</notes></sense>\n<sense>\n<number>*2)</number>\n<definition>\n<italic>a pole with a hook</italic> for cutting off fruits on high trees; [oth.</definition>\n<notes> opin. \n<italic>a ladder hooked</italic> into the tree.] Ned. 89\n<sup>b</sup> (a proverbial phrase) רהיט בג' ותובלייא he ran with hook and ropes (or baskets); i.e. he tried his utmost.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6055,
+      "source_id": "jastrow-xml-006055",
+      "canonical_entry_id": "C01198",
+      "headword": "גַּפָּא,",
+      "source_xml": "<entry id=\"C01198\">\n<head-word>גַּפָּא, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גפף, cmp. אַגָּף) \n<italic>city-gate</italic>.</definition>\n<notes> B. Bath. 8\n<sup>a</sup>; B. Mets. 108\n<sup>a</sup>, v. אִגְלָא.—V. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6056,
+      "source_id": "jastrow-xml-006056",
+      "canonical_entry_id": "C01199",
+      "headword": "גַּפָּה",
+      "source_xml": "<entry id=\"C01199\">\n<head-word>גַּפָּה</head-word>\n<senses>\n<sense>\n<definition> f. (גַּפָּא\n<pos> m.</pos>\n<language-key> ch.)</language-key> (v. \n<xref rid=\"C01198\">preced.</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>stone fence with gate.</italic></definition>\n<notes> Peah VI, 2 סמוך לג' ולגדיש (Ms. M. לגפא ולגדר, Ar. לגפא) near the stone fence (ready for being carried out) or the stack; Eduy. IV, 4. Kil. II, 8 (Ms. M. … א). B. Mets. II, 3.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> ג' של רומי \n<language-key>(Ch. </language-key>\n<language-reference>\n<xref rid=\"unknown\">גפא דרומאי)</xref></language-reference>\n<italic>the Capitol of Rome</italic>.</definition>\n<notes> Sifré Num. 115 ג' של ר' (Var. גפי) by the Capitol of Rome (an invocation used by a gentile woman). Men. 44\n<sup>a</sup> ג' של פרס (read רומי, Ar. גפא דרומי). Pes. 87\n<sup>b</sup> ג' דרומאי ed. (Ms. M. דרומי, omitted in some ed.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6057,
+      "source_id": "jastrow-xml-006057",
+      "canonical_entry_id": "C01200",
+      "headword": "גָּפָה",
+      "source_xml": "<entry id=\"C01200\">\n<head-word>גָּפָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, part. גּוֹפֶה, v. \n<xref rid=\"C00455\">גּוּף I</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6058,
+      "source_id": "jastrow-xml-006058",
+      "canonical_entry_id": "C01201",
+      "headword": "גִּפּוּף,",
+      "source_xml": "<entry id=\"C01201\">\n<head-word>גִּפּוּף, </head-word>\n<head-word>גֵּפוּף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00791\">גִּיפּוּף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6059,
+      "source_id": "jastrow-xml-006059",
+      "canonical_entry_id": "C01202",
+      "headword": "גפי",
+      "source_xml": "<entry id=\"C01202\">\n<head-word>גפי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01199\">גַּפָּה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6060,
+      "source_id": "jastrow-xml-006060",
+      "canonical_entry_id": "C01203",
+      "headword": "גפל",
+      "source_xml": "<entry id=\"C01203\">\n<head-word>גפל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Sabb. XIII, 14\n<sup>a</sup> bot. מגפל, v. \n<xref rid=\"C01211\">גָּפַף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6061,
+      "source_id": "jastrow-xml-006061",
+      "canonical_entry_id": "C01204",
+      "headword": "גֶּפֶן",
+      "source_xml": "<entry id=\"C01204\">\n<head-word>גֶּפֶן</head-word>\n<senses>\n<sense>\n<definition> c. \n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"C01204\">גפן</xref></language-reference>, v. \n<xref rid=\"C01211\">גפף</xref>) \n<italic>vine</italic>, esp. \n<italic>grape-vine.</italic></definition>\n<notes> Kil. VII, 2; a. fr.—פרי הג' \n<italic>wine</italic>. Ber. VI, 1; a. fr.—צֶמֶר ג' \n<italic>cotton, cotton tree</italic>, v. גּוּפְנָא. Kil. l. c.—\n<plural-form>Pl. גְּפָנִים</plural-form>. Ib.; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6062,
+      "source_id": "jastrow-xml-006062",
+      "canonical_entry_id": "C01205",
+      "headword": "גָּפְנָא,",
+      "source_xml": "<entry id=\"C01205\">\n<head-word>גָּפְנָא, </head-word>\n<head-word>גָּפְנָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00461\">גּוֹפְנָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6063,
+      "source_id": "jastrow-xml-006063",
+      "canonical_entry_id": "C01206",
+      "headword": "(גָּפַת) גָּפַס",
+      "source_xml": "<entry id=\"C01206\">\n<head-word>(גָּפַת) גָּפַס</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01211\">גפף</xref>) \n<italic>to make air-tight, to paste with gypsum, clay</italic> &amp;c. Kel. X, 5 שגְּפָסָן עם וכ' Ar. a. R. H.</definition>\n<notes> G. (ed. שגְּפָתָן); Tosef. ib. B. Kam. VII, 7 שגפסן (Var. שגפת', R. S. to Kel. l. c. שגְּפָפָן) which one closed up by connecting the paste with the rim (leaving an empty space between the cover and the body of the vessel).</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נִגְפַּס</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to harden and be closely consolidated with the ground.</italic></definition>\n<notes> Mikv. IV, 3 Ar., Maim. a. Rabad (v. Tos’f. Yom Tob a. l.; ed. נכבש).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6064,
+      "source_id": "jastrow-xml-006064",
+      "canonical_entry_id": "C01207",
+      "headword": "גִּפְסִים,",
+      "source_xml": "<entry id=\"C01207\">\n<head-word>גִּפְסִים, </head-word>\n<head-word>גִּיפְסִים</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (preced.; cmp. גֶּפֶת) \n<italic>paste, plaster</italic>, esp. \n<italic>gypsum.</italic></definition>\n<notes> Kel. X, 2 we must use בסיד בג' וכ' lime or gypsum &amp;c. Y. M. Kat. I, 80\n<sup>b</sup> bot. גיבסם; Y. Shebi. III, 34\n<sup>c</sup> bot. גִּיפְסוֹס, v. infra. Tosef. Kel. B. Kam. III, 4 גִּפְסִית ed. Zuck. (oth. ed. גִּפְסִיס). Ḥull. 8\n<sup>a</sup> גפסית רותח; Pes. 75\n<sup>b</sup> גפסיס רותח, Ar. גפסים רותחין. Tosef. Mikv. IV, 7 גפסים; a. fr. [Greek adoption: γύψος, readopted גִּיפְסוֹס, גִּיבְסוֹס.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6065,
+      "source_id": "jastrow-xml-006065",
+      "canonical_entry_id": "C01208",
+      "headword": "גִּפְסוֹס",
+      "source_xml": "<entry id=\"C01208\">\n<head-word>גִּפְסוֹס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00675\">גִּיפְ'</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6066,
+      "source_id": "jastrow-xml-006066",
+      "canonical_entry_id": "C01209",
+      "headword": "גִּפְסִיס",
+      "source_xml": "<entry id=\"C01209\">\n<head-word>גִּפְסִיס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (denom. of גפס) \n<italic>plastering material, gypsum</italic>, v. \n<xref rid=\"C01207\">גִּפְסִים</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6067,
+      "source_id": "jastrow-xml-006067",
+      "canonical_entry_id": "C01210",
+      "headword": "גִּפְסִית",
+      "source_xml": "<entry id=\"C01210\">\n<head-word>גִּפְסִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. same, v. \n<xref rid=\"C01207\">גִּפְסִים</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6068,
+      "source_id": "jastrow-xml-006068",
+      "canonical_entry_id": "C01211",
+      "headword": "גָּפַף",
+      "source_xml": "<entry id=\"C01211\">\n<head-word>גָּפַף</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C00456\">גּוּף</xref>) \n<italic>to bend, to join; to press, close</italic>; v. גָּפַס.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>גִּיפֵּף</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to attach a rim, to surround.</italic></definition>\n<notes> Kel. XV, 2.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to throw arms around, embrace</italic> (v. \n<xref rid=\"unknown\">גַּף</xref>).</definition>\n<notes> Yoma 66\n<sup>b</sup> גי' ונשק Ar. (ed. גפף ונישק) whosoever embraces or kisses an idol; Snh. VII, 6 (60\n<sup>b</sup>) המְגַפֵּף.—Pesik. R. s. 26 גִיפְּפָן וכ' he hugged and kissed them. Ib. מְגַפְּפוֹת את וכ' threw their arms around the columns.—Y. Keth. VII, 31\n<sup>c</sup> מְגַפְּפִין סוטה if they have been seen embracing one another, she is amenable to the law of Sotah (v. סוֹטָה); a. fr.—\n<italic>Part. pass</italic>. מְגוּפָּף \n<italic>closed, enclosed, surrounded from all sides</italic>. Y. Kil. IV, 29\n<sup>b</sup> bot.; Y. Erub. I, 19\n<sup>c</sup> מְגוּפֶּפֶת וכ' enclosed on four sides; a. fr.—Tosef. Bekh. IV, 16 שאזניה מְגוּפָּפוֹת וכ' whose ears are closed.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֵגֵף</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to lock up, shut</italic>.</definition>\n<notes> Y. Sabb. XIII, 14\n<sup>a</sup> bot. [read:] ולא כמֵגֵף לתוכה וכ' we are not treating the case of one shutting (the animal) up in the vivarium; (Y. Bets. III, beg. 61\n<sup>d</sup> בנָעַל).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6069,
+      "source_id": "jastrow-xml-006069",
+      "canonical_entry_id": "C01212",
+      "headword": "גְּפַף",
+      "source_xml": "<entry id=\"C01212\">\n<head-word>גְּפַף</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to embrace</italic>.</definition>\n<notes> Y. Erub. III, 20\n<sup>d</sup> bot.; VII, 24\n<sup>d</sup> top נסתיה גְפַפְתֵּיה she took him and hugged and \n<pgbrk id=\"pg263\" />kissed him &amp;c.—Snh. 82\n<sup>b</sup> גַּפְתָה לאמה (Yalk. Num. 372 גפתא) did she hug her mother there? [Rashi: she made her mother a prostitute.]</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>גַּפֵּיף, גָּפֵיף</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to embrace</italic>.</definition>\n<notes> Targ. O. Gen. XXIX, 13 גָ' (Ms. a. Y. some ed. גַּפֵּ'). Ib. XXXIII, 4; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to fold hands</italic> (in idleness).</definition>\n<notes> Targ. Koh. IV, 5.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6070,
+      "source_id": "jastrow-xml-006070",
+      "canonical_entry_id": "C01213",
+      "headword": "גָּפַר",
+      "source_xml": "<entry id=\"C01213\">\n<head-word>גָּפַר</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01211\">גפף</xref>) \n<italic>to make thick, tighten</italic>.</definition>\n<notes> Denom. גָּפְרִית; fr. which</notes></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>גִּיפֵּר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to make water-tight</italic>.</definition>\n<notes> Part. pass. מְגוּפָּר, f. מְגוּפֶּרֶת \n<italic>water-tight</italic>. B. Bath. 97\n<sup>b</sup>; Tosef. ib. VI, 3 מְגוּפָּרוֹת (defective clay vessels) made tight by a lining of sulphur or pitch.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְגַּפֵּר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be darkened through sulphur fumes</italic>.</definition>\n<notes> Sabb. 18\n<sup>a</sup>; Y. ib. I, 4\n<sup>a</sup> top; Tosef. ib. I, 23 מִתְגַּפְּרִין they (the silver vessels) go through the process of sulphuring.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6071,
+      "source_id": "jastrow-xml-006071",
+      "canonical_entry_id": "C01214",
+      "headword": "גְּפַר",
+      "source_xml": "<entry id=\"C01214\">\n<head-word>גְּפַר</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa.</italic> גַּפֵּר as preced. \n<italic>Pi.</italic> Y. Sabb. VII, 10\n<sup>c</sup> top מְגַפֵּר, v. \n<xref rid=\"A01876\">אֶלִּיקָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6072,
+      "source_id": "jastrow-xml-006072",
+      "canonical_entry_id": "C01215",
+      "headword": "גָּפְרִית",
+      "source_xml": "<entry id=\"C01215\">\n<head-word>גָּפְרִית</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"C01213\"> גפר</xref>,\n<xref rid=\"A00083\"> cmp. כַּבָּרִיתָא)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>sulphur</italic> [or \n<italic>bitumen, pitch</italic>].</definition>\n<notes> Sabb. 18\n<sup>a</sup>, a. e., v. גָּפַר Hithpa.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6073,
+      "source_id": "jastrow-xml-006073",
+      "canonical_entry_id": "C01216",
+      "headword": "גָּפַת",
+      "source_xml": "<entry id=\"C01216\">\n<head-word>גָּפַת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01206\">גָּפַס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6074,
+      "source_id": "jastrow-xml-006074",
+      "canonical_entry_id": "C01217",
+      "headword": "גֶּפֶת",
+      "source_xml": "<entry id=\"C01217\">\n<head-word>גֶּפֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גפף) \n<italic>a pressed hard mass, peat, turf</italic>.</definition>\n<notes> Sabb. IV, 1. Ib. 47\n<sup>b</sup> ג' של זתים peat made of olive peels, דשומשמין of poppy seed (after the oil is pressed out). Kel. IX, 5; a. fr.—Ch. גִּיפְתָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6075,
+      "source_id": "jastrow-xml-006075",
+      "canonical_entry_id": "C01218",
+      "headword": "גפתא,",
+      "source_xml": "<entry id=\"C01218\">\n<head-word>גפתא, </head-word>\n<head-word>גפתה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01211\">גְּפַף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6076,
+      "source_id": "jastrow-xml-006076",
+      "canonical_entry_id": "C01219",
+      "headword": "גִּפְתִּי",
+      "source_xml": "<entry id=\"C01219\">\n<head-word>גִּפְתִּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00793\">גִּיפְטִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6077,
+      "source_id": "jastrow-xml-006077",
+      "canonical_entry_id": "C01220",
+      "headword": "גֵּץ",
+      "source_xml": "<entry id=\"C01220\">\n<head-word>גֵּץ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גהץ, v. Targ. Job.</definition>\n<notes> XVIII, 5 s. v. גֵּיצָא) [\n<italic>shining</italic>,] </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>spark</italic> from the forger’s hammer.</definition>\n<notes> B. Kam. VI, 6 (62\n<sup>b</sup>); B. Bath. 26\n<sup>a</sup>; Sabb. 21\n<sup>b</sup>. Gen. R. s. 84; Tanḥ. Vayesheb 1.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (cmp. Arab. גֹץ ّ \n<italic>gypsum</italic>) ג' יוני \n<italic>a white earth, chalk; a cross-path laid out with whitened pegs of baked mud or clay</italic> (= יתדות הדרכים).</definition>\n<notes> Mikv. IX, 2 ג' י' the lime of the crossings sticking to the feet or clothes; cmp. Tosef. ib. VI (VII), 14.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6078,
+      "source_id": "jastrow-xml-006078",
+      "canonical_entry_id": "C01221",
+      "headword": "*גֵּצָא",
+      "source_xml": "<entry id=\"C01221\">\n<head-word>*גֵּצָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>lime, pypsum</italic>.</definition>\n<notes> בג' ואגורא quot. in Ar. fr. Erub. beg.—not to be found.—גצא, M. Kat. 10\n<sup>b</sup> Var., v. נָצָא, נוּצְיָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6079,
+      "source_id": "jastrow-xml-006079",
+      "canonical_entry_id": "C01222",
+      "headword": "גִּצְטְרָא,",
+      "source_xml": "<entry id=\"C01222\">\n<head-word>גִּצְטְרָא, </head-word>\n<head-word>גצרא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00779\">גִּיסְטְרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6080,
+      "source_id": "jastrow-xml-006080",
+      "canonical_entry_id": "C01223",
+      "headword": "גקרמונין",
+      "source_xml": "<entry id=\"C01223\">\n<head-word>גקרמונין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pesik. Shor p. 74\n<sup>b</sup>, read גַּרְזִימִין.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6081,
+      "source_id": "jastrow-xml-006081",
+      "canonical_entry_id": "C01224",
+      "headword": "ג\"ר,",
+      "source_xml": "<entry id=\"C01224\">\n<head-word>ג\"ר, </head-word>\n<head-word>ג\"ר ד\"ק</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, a transmutation of letters, v. \n<xref rid=\"A03391\">א\"ת</xref>. Sabb. 104\n<sup>a</sup> גֹופו טימא אר̇חם עליו though he defiled his body, I shall have mercy &amp;c. Ib. ג\"ר ד\"ק: אם … ג̇ור̇ בד̇וק̇ (Ar. גֵֹּר̇ בד̇וק̇ תהיה) if thou doest so (be chaste), dwell thou in heaven (a dweller … shalt thou be).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6082,
+      "source_id": "jastrow-xml-006082",
+      "canonical_entry_id": "C01225",
+      "headword": "גֵּר",
+      "source_xml": "<entry id=\"C01225\">\n<head-word>גֵּר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> גּוּר)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a dweller</italic>.</definition>\n<notes> Sabb. 104\n<sup>a</sup>, v. preced.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>a stranger</italic>.</definition>\n<notes> Tanḥ. Vayigg. 4 גרא שנעשה ג' he is named Gera, because he (Joseph) became a stranger, v. גּוּר.—Esp. \n<italic>a proselyte, convert to Judaism</italic>. Yeb. 46\n<sup>b</sup>; Ber. 47\n<sup>b</sup> לעולם אינו ג' וכ' one is not a proselyte until he has been &amp;c. Yeb. l. c.; Kidd. 62\n<sup>b</sup> ג' צריך שלשה a proselyte requires a court of three for making declaration and immersion. Kerith. II, 1 ג' מחוסר כפרה a proselyte who has not yet offered a sacrifice in the Temple; a. v. fr.—ג' צֶדֶק a full, true proselyte, ג' תֹּושָׁב one who, for the sake of acquiring limited citizenship in Palestine, renounces idolatry. Snh. 96\n<sup>b</sup>; Gitt. 57\n<sup>b</sup>; a. fr.—ג' שקר an insincere proselyte (from impure motives). Y. B. Mets. V, 10\n<sup>c</sup>.—\n<plural-form>Pl. גֵּרִים,</plural-form> constr. גֵּרֵי, גֵּירֵי.—ג' גרורים self-made converts, not formally admitted. Ab. Zar. 3\n<sup>b</sup>; 24\n<sup>a</sup>; a. e.—גרי אריות \n<italic>lion-proselytes</italic>, i.e. proselytes from mere fear (with ref. to II Kings XVII, 25 sq.). Ḥull. 3\n<sup>b</sup>, opp. גרי אמת. Kidd. 75\n<sup>b</sup>; Snh. 85\n<sup>b</sup>; a. fr.—גרי חלומות proselytes converted by the advice of a dreamer or an interpreter of dreams; גרי מרדכי ואסתר such as joined the Jewish ranks from motives like those prevalent in the days of Mordecai and Esther (Esth. VIII, 17). Yeb. 24\n<sup>b</sup>.—Nidd. VII, 3 (56\n<sup>b</sup>) גרים טועין Ar. (ed. וטועין) proselytes not living in accordance with the Jewish usages.—בן גרים a descendant of proselytes. B. Mets. IV, 10 (58\n<sup>b</sup>).—Sabb. 33\n<sup>b</sup> יהודה בן ג'. [Mode of admission, v. Yeb. 47\n<sup>a</sup>.—Views about converts, v. Num. R. s. 8; Nidd. 13\n<sup>b</sup>; Pes. 87\n<sup>b</sup>; a. fr.]. Fem. גֵּרָה. Gen. R. s. 88, end.—Usu. גִּיֹּורֶת. Keth. IV, 3; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6083,
+      "source_id": "jastrow-xml-006083",
+      "canonical_entry_id": "C01226",
+      "headword": "גְּרָא",
+      "source_xml": "<entry id=\"C01226\">\n<head-word>גְּרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01320\">גְּרִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6084,
+      "source_id": "jastrow-xml-006084",
+      "canonical_entry_id": "C01227",
+      "headword": "גֵּרָא",
+      "source_xml": "<entry id=\"C01227\">\n<head-word>גֵּרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Y. Gen. XXX, 11, v. \n<xref rid=\"C00156\">גַּדָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6085,
+      "source_id": "jastrow-xml-006085",
+      "canonical_entry_id": "C01228",
+      "headword": "גַּרְאִין",
+      "source_xml": "<entry id=\"C01228\">\n<head-word>גַּרְאִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01384\">גַּרְעִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6086,
+      "source_id": "jastrow-xml-006086",
+      "canonical_entry_id": "C01229",
+      "headword": "גְּרָאפָא",
+      "source_xml": "<entry id=\"C01229\">\n<head-word>גְּרָאפָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרף) \n<italic>a dish prepared on the hot oven plate after the removal of the coal</italic>.</definition>\n<notes> Esth. R. to I, 4 טלופחין דג' lentil cakes baked in the clean oven, contrad. to דטמאשא baked in the ashes.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6087,
+      "source_id": "jastrow-xml-006087",
+      "canonical_entry_id": "C01230",
+      "headword": "גָּרֵב",
+      "source_xml": "<entry id=\"C01230\">\n<head-word>גָּרֵב</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Gareb</italic>, near Shiloh, supposed to have been the seat of the Image of Micah (Jud. XVII, 7 sq.).</definition>\n<notes> Snh. 103\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6088,
+      "source_id": "jastrow-xml-006088",
+      "canonical_entry_id": "C01231",
+      "headword": "גְּרַב",
+      "source_xml": "<entry id=\"C01231\">\n<head-word>גְּרַב</head-word>\n<senses>\n<sense>\n<definition> (cmp. גרף) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to scrape</italic>, v. next ws.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to rob, seize, levy</italic>.</definition>\n<notes> Sabb. 148\n<sup>a</sup> זיל גַּרְבֵיה go and seize him (take his coat until he appears). Ib. לא בדינא גְרַבְתִּיךְ was I not right in summoning thee? Ḥag. 5\n<sup>b</sup> גַּרְבוּהוּ they (the royal officers) seized his property. Gitt. 45\n<sup>a</sup> משום דלא לִיגַרְבוּ וכ' in order that robbers should not be tempted to kidnap persons and then offer them for ransom. Ib. 46\n<sup>b</sup> גרבי להו seized them (for debts).</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיגְּרַב</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be robbed</italic>.</definition>\n<notes> Y. B. Mets. IV, 9\n<sup>d</sup> אִיגַּרְבַת thou hast been robbed of one Denar.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6089,
+      "source_id": "jastrow-xml-006089",
+      "canonical_entry_id": "C01232",
+      "headword": "גָּרָב,",
+      "source_xml": "<entry id=\"C01232\">\n<head-word>גָּרָב, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>the quantity collected on emptying the wine or oil press</italic> (v. \n<xref rid=\"C01233\">next w.</xref>); in gen. \n<italic>bottle, keg </italic>as a measure.</definition>\n<notes> Ter. X, 8 וכל ג' וכ' Ms. (ed. כל) and one measured the keg and it contained (as usual) two S’ah.—\n<plural-form>Pl. גְּרָבִים,</plural-form> constr. גַּרְבֵי. Sabb. 13\n<sup>b</sup>; a. e. three hundred ג' שמן \n<italic>garab</italic> of oil. Bets. 29\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6090,
+      "source_id": "jastrow-xml-006090",
+      "canonical_entry_id": "C01233",
+      "headword": "גְּרַב,",
+      "source_xml": "<entry id=\"C01233\">\n<head-word>גְּרַב, </head-word>\n<head-word>גַּרְבָּא, </head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>bottle</italic>.</definition>\n<notes> Targ. Jer. XIII, 12; Targ. I Sam. I, 24 (h. text נֵבֶל). Ib. XVI, 20 (h. text נֹאד); \n<pgbrk id=\"pg264\" />a. e.—[B. Mets. 15\n<sup>b</sup>, v. גְּרִיוָא.]—\n<plural-form>Pl. גַּרְבִין</plural-form>. Targ. I Sam. XXV, 18. Targ. Hag. II, 16 (h. text פורה, quantity pressed at a time). Targ. Joel I, 17 (h. text פרדות!).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6091,
+      "source_id": "jastrow-xml-006091",
+      "canonical_entry_id": "C01234",
+      "headword": "גָּרָב,",
+      "source_xml": "<entry id=\"C01234\">\n<head-word>גָּרָב, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> גרב)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>itch, scurf</italic>.</definition>\n<notes> Bekh. VI, 12; classified ib. 41\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6092,
+      "source_id": "jastrow-xml-006092",
+      "canonical_entry_id": "C01235",
+      "headword": "גָּרָב,",
+      "source_xml": "<entry id=\"C01235\">\n<head-word>גָּרָב, </head-word>\n<head-word>גַּרְבּא, </head-word>\n<hw-number>II</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Y. II Lev. XXI, 20 (Y. I חרסין יבשין, v. Bekh. 41\n<sup>a</sup>). Targ. Deut. XXVIII, 27.—Denom. גַּרְבָּן \n<italic>one affected with itch</italic>. Targ. O. Lev. l. c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6093,
+      "source_id": "jastrow-xml-006093",
+      "canonical_entry_id": "C01236",
+      "headword": "גָּרְבָא",
+      "source_xml": "<entry id=\"C01236\">\n<head-word>גָּרְבָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרב) \n<italic>plundering troop</italic>.</definition>\n<notes> Ber. 60\n<sup>b</sup> bot. אתא ג' וגרביה למתא Ar. (ed. גייסא שבייה) a troop came by night and carried the inhabitants off.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6094,
+      "source_id": "jastrow-xml-006094",
+      "canonical_entry_id": "C01237",
+      "headword": "גַּרְבִּיתָא",
+      "source_xml": "<entry id=\"C01237\">\n<head-word>גַּרְבִּיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרב) \n<italic>the scouring</italic> or \n<italic>sweeping</italic> (wind); רוחא ג' North-wind.</definition>\n<notes> Targ. Prov. XXV, 23 (h. text צפון). Ib. XXVII, 16 גַּרְבַּיְתָא, גַּרְבַּיְי' (h. text צֹפְנֶיהָ צָפַן!).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6095,
+      "source_id": "jastrow-xml-006095",
+      "canonical_entry_id": "C01238",
+      "headword": "גַּרְבֵּל",
+      "source_xml": "<entry id=\"C01238\">\n<head-word>גַּרְבֵּל</head-word>\n<senses>\n<sense>\n<definition> (Parel of גבל) \n<italic>to knead, roll</italic>.</definition>\n<notes> Gitt. 69\n<sup>a</sup> ונִיגַרְבֵּל קיטמא Ar. (ed. וניגד', corr. acc.) let him roll (the wicks) in the ashes.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6096,
+      "source_id": "jastrow-xml-006096",
+      "canonical_entry_id": "C01239",
+      "headword": "גַּרְבָּן",
+      "source_xml": "<entry id=\"C01239\">\n<head-word>גַּרְבָּן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01234\">גָּרָב II</xref> ch.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6097,
+      "source_id": "jastrow-xml-006097",
+      "canonical_entry_id": "C01240",
+      "headword": "גְּרַבְתָּא",
+      "source_xml": "<entry id=\"C01240\">\n<head-word>גְּרַבְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (euphem. transpos. of גברתא, v. \n<xref rid=\"C00128\">גֶּבֶר</xref> 3) \n<italic>abnormal length of the membrum virile</italic>.</definition>\n<notes> Bekh. 44\n<sup>b</sup>, v. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6098,
+      "source_id": "jastrow-xml-006098",
+      "canonical_entry_id": "C01241",
+      "headword": "גְּרַבְתָּן",
+      "source_xml": "<entry id=\"C01241\">\n<head-word>גְּרַבְתָּן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01240\">preced.</xref>) \n<italic>one having an abnormally long membrum</italic> (one of the blemishes unfitting for priestly service).</definition>\n<notes> Bekh. 44\n<sup>b</sup> הג' זה בעל קיק (for Mish. בעל גבר). Ib. בעל קיק בביצים ג' בגיד Ar. \n<italic>baal kik</italic> refers to the testicles, \n<italic>g’rabtan</italic> to the membrum (ed. קיין … גרבתא וכ', v. preced.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6099,
+      "source_id": "jastrow-xml-006099",
+      "canonical_entry_id": "C01242",
+      "headword": "גְּרַג",
+      "source_xml": "<entry id=\"C01242\">\n<head-word>גְּרַג</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa.</italic> גָּרֵיג (= גרגר) \n<italic>to be rough, to roughen</italic>, whence </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to incite, stir up</italic>.</definition>\n<notes> Targ. Prov. X, 12; XXIX, 22 (h. text ערר, גרה). Ib. VI, 3 גָּרֵג הכיל חברך ed. Lag. (Var. הביל, חביל) stir up, now, thy friend (for whom thou hast vouched), v. Peshittô a. Syr. Hexapla.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be excited, impatient</italic>.</definition>\n<notes> Targ. Ps. XXXVII, 1; 7; 8 (Ms. תִּגְרַג Pe., h. text תתחר).</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (v. P. Sm. 773, s. v. גרג 2, cmp. גַּרְגּוּתְנִי, אֲרוּכָה II) \n<italic>to cover with scurf, heal up</italic>.</definition>\n<notes> Targ. Job XXX, 24 יְגָרֵג מחתיה he will heal up the wound he has inflicted.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6100,
+      "source_id": "jastrow-xml-006100",
+      "canonical_entry_id": "C01243",
+      "headword": "גַּרְגּוּשְׁתָּא",
+      "source_xml": "<entry id=\"C01243\">\n<head-word>גַּרְגּוּשְׁתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01266\">גַּרְגִּשְׁתָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6101,
+      "source_id": "jastrow-xml-006101",
+      "canonical_entry_id": "C01244",
+      "headword": "גַּרגּוּתָא,",
+      "source_xml": "<entry id=\"C01244\">\n<head-word>גַּרגּוּתָא, </head-word>\n<head-word>גַּרְגִּיתָא, </head-word>\n<head-word>גַּרְגְּרִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= גלגליתא, v. \n<xref rid=\"C00872\">גַּלְגְּלָא</xref>, cmp. גַּרְגַּר) \n<italic>wheel-work, well for irrigating fields</italic>.</definition>\n<notes> Ber. 58\n<sup>a</sup>; B. Bath. 91\n<sup>b</sup> (prov.) אפי' ריש ג' וכ' (Ber. ed. גרגי', Ms. M. גדגיד', corr. acc., v. Rabb. D. S. a. l.) even a superintendent of the well (cmp. בַּיָּיר) is appointed in heaven. B. Kam. 27\n<sup>b</sup>. B. Mets. 103\n<sup>a</sup> if one says, ‘Lend me ההיא ג' the use of \n<italic>this</italic> well’, he may restore &amp;c.; בי ג' ‘a place (in the field) for a well’,—he may go on digging wells until he strikes one that suits him. B. Bath. 56\n<sup>a</sup>.—\n<plural-form>Pl. גַּרְגּוּתֵי</plural-form>. B. Mets. l. c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6102,
+      "source_id": "jastrow-xml-006102",
+      "canonical_entry_id": "C01245",
+      "headword": "גַּרְגּוּתְנִי",
+      "source_xml": "<entry id=\"C01245\">\n<head-word>גַּרְגּוּתְנִי</head-word>\n<senses>\n<sense>\n<definition> (גַּרְגַּתְנִי\n<language-key> Ar.)</language-key>\n<pos> f.</pos> (v. \n<xref rid=\"C00479\">גּוּרְגָּא</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a wicker</italic> or \n<italic>net work</italic> in the \n<italic>wine or oil press</italic>.</definition>\n<notes> Ab. Zar. 56\n<sup>b</sup> החזיר ג' לגת if he placed the net (once used) back into the vat. Ḥag. 22\n<sup>b</sup> גורג' some ed.; Tosef. ib. III, 4. Lev. R. s. 22 he gathered the vessels of the Temple ונתנן לתוך ג' and placed them in a net; Gitt. 56\n<sup>b</sup> he took the curtain ועשאו כמין ג' and shaped it like &amp;c. Tosef. Kel. B. Mets. VI, 5.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (from its shrivelled surface) \n<italic>the scarry and lifeless surface of a healed up wound, eschar</italic>.</definition>\n<notes> B. Kam. 85\n<sup>a</sup> העלתה מכתו ג' if, through neglect of medical advice, the wound became scabby; Y. ib. 6\n<sup>b</sup> bot. [read:] עלתה בו ג'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6103,
+      "source_id": "jastrow-xml-006103",
+      "canonical_entry_id": "C01246",
+      "headword": "גַּרְגִּילָא",
+      "source_xml": "<entry id=\"C01246\">\n<head-word>גַּרְגִּילָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01250\">גַּרְגִּירָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6104,
+      "source_id": "jastrow-xml-006104",
+      "canonical_entry_id": "C01247",
+      "headword": "גְּרָגִים",
+      "source_xml": "<entry id=\"C01247\">\n<head-word>גְּרָגִים</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01246\">preced.</xref> art. a. גּוּרְגָּא) \n<italic>nets, filters</italic>.</definition>\n<notes> Tosef. Kil. V, 25 ed. Zuck., v. אכסלית.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6105,
+      "source_id": "jastrow-xml-006105",
+      "canonical_entry_id": "C01248",
+      "headword": "*גַּרְגִּינָא",
+      "source_xml": "<entry id=\"C01248\">\n<head-word>*גַּרְגִּינָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01247\">preced.</xref>) \n<italic>wicker-work</italic>.</definition>\n<notes> Gen. R. s. 79; Yalk. ib. 133 שוקא דג' wicker market (differ. in Koh. R. to X, 8).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6106,
+      "source_id": "jastrow-xml-006106",
+      "canonical_entry_id": "C01249",
+      "headword": "גַּרְגִּיר",
+      "source_xml": "<entry id=\"C01249\">\n<head-word>גַּרְגִּיר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> [\n<italic>the stimulating plant</italic>,] \n<italic>garden-rocket, Eruca</italic> (v. Sm. Ant. s. v.).</definition>\n<notes> Yoma 18\n<sup>b</sup>; Yalk. Kings 228. Tosef. Shebi. II, 9; Erub. 28\n<sup>a</sup> sq. (Ar. ed. Koh. גרגל).—Shebi. IX, 1 גרגר של אפר (comment. גרגיר) \n<italic>field-rocket, Eruca agrestis</italic>.—[</notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>grain, berry</italic>, v. \n<xref rid=\"C01255\">גַּרְגַּר</xref>.</definition>\n<notes>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6107,
+      "source_id": "jastrow-xml-006107",
+      "canonical_entry_id": "C01250",
+      "headword": "גַּרְגִּירָא",
+      "source_xml": "<entry id=\"C01250\">\n<head-word>גַּרְגִּירָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>rocket</italic>.</definition>\n<notes> Yoma 18\n<sup>b</sup> ג' מצרנאה rocket growing on the balk (Ms. M. מצראה). Sabb. 109\n<sup>a</sup> (Ar. ed. Koh. גַּרְגִּילָא; Yalk. Kings 228 גַּרְגְּרָא).—Gitt. 69\n<sup>b</sup> גַּלְגִּילָא ed. (Ar. s. v. בזר: גַּרְגִּילָא). Ab. Zar. 10\n<sup>b</sup>, v. גּוּר II.—[</notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>berry, grain</italic>, v. \n<xref rid=\"C01258\">גַּרְגְּרָא</xref>.</definition>\n<notes>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6108,
+      "source_id": "jastrow-xml-006108",
+      "canonical_entry_id": "C01251",
+      "headword": "גַּרְגִּישְׁתָּא",
+      "source_xml": "<entry id=\"C01251\">\n<head-word>גַּרְגִּישְׁתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01266\">גַּרְגִּשְׁתָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6109,
+      "source_id": "jastrow-xml-006109",
+      "canonical_entry_id": "C01252",
+      "headword": "גַּרְגִּיתָא",
+      "source_xml": "<entry id=\"C01252\">\n<head-word>גַּרְגִּיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01244\">גַּרְגּוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6110,
+      "source_id": "jastrow-xml-006110",
+      "canonical_entry_id": "C01253",
+      "headword": "גַּרְגְּלִידָא",
+      "source_xml": "<entry id=\"C01253\">\n<head-word>גַּרְגְּלִידָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= גלגליד'; גלד) \n<italic>slice;</italic> ג' דליפתא \n<italic>a slice of turnip</italic>, esp. the upper slice.</definition>\n<notes> Bekh. 43\n<sup>b</sup> one whose head resembles לגרגלידה דל' Ar. (ed. לגדגלידא, corr. acc.) the upper portion &amp;c. (expl. לפתם ib. VII, 1).—\n<plural-form>Pl. גַּרְגְּלִידֵי</plural-form>. Ber. 39\n<sup>a</sup> (Ar. גורג'). Ib. 56\n<sup>a</sup> (Var. in Ar. ראשי לפתות). Keth. 61\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6111,
+      "source_id": "jastrow-xml-006111",
+      "canonical_entry_id": "C01254",
+      "headword": "גַּרְגֵּף",
+      "source_xml": "<entry id=\"C01254\">\n<head-word>גַּרְגֵּף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01388\">גְּרַף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6112,
+      "source_id": "jastrow-xml-006112",
+      "canonical_entry_id": "C01255",
+      "headword": "גִּרְגֵּר,",
+      "source_xml": "<entry id=\"C01255\">\n<head-word>גִּרְגֵּר, </head-word>\n<head-word>גִּירְגֵּר</head-word>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (denom. of (denom. of גָּרוֹן, גַּרְגֶּרֶת) \n<italic>to pour down the throat</italic>, opp. שתה to set the lips to the vessel.</definition>\n<notes> Par. IX, 4; Tosef. ib. IX (VIII), 6.—*Gitt. 89\n<sup>a</sup> גִּירְגְּרָה בשוק if she quaffs outdoors; [Rashi: walks with outstretched neck (גָּרוֹן)].</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> denom. of גַּרְגַּר) \n<italic>to pick single berries.</italic></definition>\n<notes> Maasr. II, 6 מְגַרְגֵּר ואוכל he may pick grapes (from the hanging cluster) and eat; ib. III, 9; Y. ib. II, 50\n<sup>a</sup> top.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (denom. of גְּרוֹגֶרֶת) \n<italic>to let the olive shrivel</italic> (on the tree or in the sun on the roof), \n<italic>to mark out for shrivelling</italic>.</definition>\n<notes> Ex. R. s. 36 that olive—while it is yet on its tree, מְגַרְגְּרִין אותו they mark it out for shrivelling (in order to use it for the press). Men. VIII, 4 מְגַרְגְּרוֹ בראש הזית he lets it shrivel on the top of the olive tree; מג' בראש הגג in the sun on the roof; [for oth. opin. v. Rashi a. l.].—Ib. 86\n<sup>a</sup> מְגרְגְּרוֹ תנן או מְגַלְגְּלֹו תנן does it read \n<italic>m’garg’ro</italic> (he lets it shrivel) or \n<italic>m’galg’lo</italic> (he lets it hang until it is fully rounded)?</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6113,
+      "source_id": "jastrow-xml-006113",
+      "canonical_entry_id": "C01256",
+      "headword": "גַּרְגֵּר",
+      "source_xml": "<entry id=\"C01256\">\n<head-word>גַּרְגֵּר</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(v. \n<xref rid=\"C01255\">preced.</xref>) \n<italic>to grow berries, to ripen into full berries</italic>.</definition>\n<notes>—Part. pass. מְגַרְגַּר. Targ. Ps. I, 3 ed. Lag. (some ed. סגרגר).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6114,
+      "source_id": "jastrow-xml-006114",
+      "canonical_entry_id": "C01257",
+      "headword": "גַּרְגַּר",
+      "source_xml": "<entry id=\"C01257\">\n<head-word>גַּרְגַּר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"C01393\"> גרר = גלל)</xref></language-reference>\n<italic>berry, grain, heap</italic> (\n<italic>of pebbles</italic>).</definition>\n<notes> Peah VII, 4 ג' יחידי single berries (not growing in bunches). Shebi. III, 7 (Bart. גרגיר) a heap of pebbles.—Tosef. Sabb. II, 8 גרגיר של מלח a globule of salt. Sabb. VI, 5 בפלפל בגרגיר מלח (Y. ed. גרגר, Bab. ed. 64\n<sup>b</sup>, 65\n<sup>a</sup> גלגל, Ms. O. גרגר).—\n<plural-form>Pl. גַּרְגְּרִים, גַּרְגְּרִין</plural-form>. Peah VI, 5; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (= גְּרֹוגֶרֶת) \n<italic>the shrivelled olive.</italic></definition>\n<notes>\n<italic> Pl.</italic> as above. Men. VIII, 3 (85\n<sup>b</sup>), v. גִּרְגֵּר.—[</notes></sense>\n<sense>\n<number>3)</number>\n<definition>\n<italic>rocket</italic>, v. \n<xref rid=\"C01249\">גַּרְגִּיר</xref>.</definition>\n<notes>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6115,
+      "source_id": "jastrow-xml-006115",
+      "canonical_entry_id": "C01258",
+      "headword": "גַּרְגְּרָא",
+      "source_xml": "<entry id=\"C01258\">\n<head-word>גַּרְגְּרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>berry</italic>.</definition>\n<notes>—\n<plural-form>Pl. גַּרְגְּרִין</plural-form>. Targ. Is. XVII, 6.—Targ. Y. I Deut. XXXII, 14 גַּרְגִּירֵי חיטיהון their wheat grains.—[</notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>rocket</italic>, v. \n<xref rid=\"C01250\">גַּרְגִּירָא</xref>.</definition>\n<notes>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6116,
+      "source_id": "jastrow-xml-006116",
+      "canonical_entry_id": "C01259",
+      "headword": "גַּרְגַּרְיָין",
+      "source_xml": "<entry id=\"C01259\">\n<head-word>גַּרְגַּרְיָין</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (גרר, v. \n<xref rid=\"C01260\">next w.</xref>) \n<italic>wheel-works</italic> of a well.</definition>\n<notes> Targ. II Esth. I, 2 (3) ג' דאע wooden wheel-works.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6117,
+      "source_id": "jastrow-xml-006117",
+      "canonical_entry_id": "C01260",
+      "headword": "גַּרְגְּרִיתָא",
+      "source_xml": "<entry id=\"C01260\">\n<head-word>גַּרְגְּרִיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01244\">גַּרְגּוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6118,
+      "source_id": "jastrow-xml-006118",
+      "canonical_entry_id": "C01261",
+      "headword": "גַּרְגְּרָן,",
+      "source_xml": "<entry id=\"C01261\">\n<head-word>גַּרְגְּרָן, </head-word>\n<head-word>גּוּרְגְּרָן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01265\">גַּרְגֶּרֶת</xref>) \n<italic>glutton, bibber</italic>.</definition>\n<notes> Y. Ber. VI, 10\n<sup>c</sup> top, v. גַּרְגְּרָנוּת. Pes. 86\n<sup>b</sup>; a. fr.—Nidd. X, 8 (of one unable to control his sexual appetite).—\n<plural-form>Pl. גַּרְגְּרָנִין</plural-form>. Yoma 39\n<sup>a</sup> bot., opp. צנועין.—Fem. גַּרְגְּרָנִית. \n<plural-form>Pl. גַּרְגְּרָנִיֹּות</plural-form> (unable to resist tasting temptation). Gen. R. s. 45; Deut. R. s. 6 (ref. to Gen. III, 6).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6119,
+      "source_id": "jastrow-xml-006119",
+      "canonical_entry_id": "C01262",
+      "headword": "גַּרְגְּרָן,",
+      "source_xml": "<entry id=\"C01262\">\n<head-word>גַּרְגְּרָן, </head-word>\n<head-word>גַּרְגְּרָנָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Y. Deut. XXI, 20.—\n<plural-form>Pl. גַּרְגְּרָנֵי</plural-form>. Keth. 60\n<sup>b</sup> Ar. Var. (ed. גירדני, v. גַּרְדָּנָא).—Fem. גַּרְגְּרָנִיתָא. Targ. Lam. I, 11 (h. text זוללה).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6120,
+      "source_id": "jastrow-xml-006120",
+      "canonical_entry_id": "C01263",
+      "headword": "גַּרְגְּרָנוּת",
+      "source_xml": "<entry id=\"C01263\">\n<head-word>גַּרְגְּרָנוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>greed</italic>.</definition>\n<notes> Y. Ber. VI, 10\n<sup>c</sup> top לא לזה גורגרן … בגַרְגְּרָנוּתֹו וכ' not this greedy man must be laughed at, but thou, the sneerer; he acted hastily in his greed &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6121,
+      "source_id": "jastrow-xml-006121",
+      "canonical_entry_id": "C01264",
+      "headword": "גַּרְגְּרָנִית,",
+      "source_xml": "<entry id=\"C01264\">\n<head-word>גַּרְגְּרָנִית, </head-word>\n<head-word>גַּרְגְּרָנִיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01261\">גַּרְגְּרָן</xref> h. a. ch. </notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6122,
+      "source_id": "jastrow-xml-006122",
+      "canonical_entry_id": "C01265",
+      "headword": "גַּרְגֶּרֶת",
+      "source_xml": "<entry id=\"C01265\">\n<head-word>גַּרְגֶּרֶת</head-word>\n<language-key>(b. h. </language-key>\n<senses>\n<sense>\n<definition> pl. גַּרְגְּרֹות \n<italic>neck;</italic> גרגר; v. \n<xref rid=\"C01393\">גָּרַר</xref>,\n<language-reference>\n<xref rid=\"A00083\"> a. גֵּרָה)</xref></language-reference>\n<italic>throat, gullet;</italic> (in ritual law) \n<italic>wind-pipe, trachea</italic>.</definition>\n<notes> Koh. R. to XII, 6; Lev. R. s. 18, v. גָּלָה Hif.—Ex. R. s. 24 the Lord created for man מעין בתוך גַּרְגַּרְתֹּו a well (mucous membranes) in the trachea. Ḥull. II, 4 פסק את הג' he tore open (instead of cutting) the trachea. Ib. III, 3 פסוקת הג' an animal with a split between the rings of the wind-pipe.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6123,
+      "source_id": "jastrow-xml-006123",
+      "canonical_entry_id": "C01266",
+      "headword": "גַּרְגִּשְׁתָּא,",
+      "source_xml": "<entry id=\"C01266\">\n<head-word>גַּרְגִּשְׁתָּא, </head-word>\n<head-word>גַּרְגּוּשְׁ', </head-word>\n<head-word>גַּרְגִּישְׁ'</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= גשגש'; גשש) = h. גּוּשׁ, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>clod, lump of earth</italic>.</definition>\n<notes> Targ. Ps. XVIII, 43. Targ. Job VII, 5 (h. text גוש). Targ. Y. Gen. I, 24; a. fr.—\n<plural-form>Pl. גַּרְגְּשָׁתָא, גַּרְגִּישָׁ'</plural-form>. Targ. Job XXI, 33; XXXVIII, 38 (h. text רגבים).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>a certain reddish clay</italic>, used also as medicine.</definition>\n<notes> B. Mets. 40\n<sup>a</sup> משום ג' the difference of opinion as regards leakage (v. בֶּלַע) arises from the different qualities of the clay used for the vessels. Nidd. 20\n<sup>a</sup> bot. broke apart קורטא דג' a piece of potter’s clay. Keth. 60\n<sup>b</sup> דאכלה גרגוש' a woman who eats \n<italic>gargushta</italic> (as an astringent or in place of a cosmetic; v. Sm. Ant. s. v. Creta). Ab. Zar. 38\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6124,
+      "source_id": "jastrow-xml-006124",
+      "canonical_entry_id": "C01267",
+      "headword": "גַּרְגַּתְנִי",
+      "source_xml": "<entry id=\"C01267\">\n<head-word>גַּרְגַּתְנִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01245\">גַּרְגּוּתְנִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6125,
+      "source_id": "jastrow-xml-006125",
+      "canonical_entry_id": "C01268",
+      "headword": "גָּרַד",
+      "source_xml": "<entry id=\"C01268\">\n<head-word>גָּרַד</head-word>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"C01393\">גרר</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to scratch, scrape, comb</italic>.</definition>\n<notes> Sabb. VIII, 6 (81\n<sup>a</sup>) לִגְרֹוד Ar. a. ed. Y.; a. fr. [Editions a. Mss. mostly גָּרַר q. v.]—\n<italic>Part. pass</italic>. גָּרוּד \n<italic>stripped</italic>, v. גַּרְדּוּם.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (denom. of גֶּרֶד 2) \n<italic>to cut the web with its fringes off the loom</italic>.</definition>\n<notes> Yoma 72\n<sup>b</sup> (expl. בגדי השרד Ex. XXXV, 19) בגדים שגֹּורְדִין אותן כברייתן מכליהן וכ' webs which they cut off the looms in their needed shape (so as to require no tailoring), leaving a small portion of the unwoven threads.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6126,
+      "source_id": "jastrow-xml-006126",
+      "canonical_entry_id": "C01269",
+      "headword": "גְּרַד",
+      "source_xml": "<entry id=\"C01269\">\n<head-word>גְּרַד</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to scrape, comb, strip;</italic> trnsf. \n<italic>to chastise</italic>.</definition>\n<notes> Targ. Jud. VIII, 16 וגרד Regia (ed. Lag. גרר, oth. ed. תבר; h. text וַיֹּדַע).—Naz. 4\n<sup>b</sup>, v. גְּרִי.—Part. pass. גְּרִיד. Sabb. 109\n<sup>b</sup> דגְרִידָא מעילאי וכ' which has been stripped of its rind from the top downward.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to rub, create friction</italic> (of sexual connection).</definition>\n<notes>—Part. גָּרֵיד. Yeb. 75\n<sup>b</sup>.—[</notes></sense>\n<sense>\n<number>3)</number>\n<definition>\n<italic>to stimulate the appetite</italic>.</definition>\n<notes> Ber. 35\n<sup>b</sup>, a. fr. Ar. (ed. a. Ms. mostly גְּרַר).] [\n<italic>Ithpa.</italic>, v. גְּרַר.] V. גרע, גרר.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6127,
+      "source_id": "jastrow-xml-006127",
+      "canonical_entry_id": "C01270",
+      "headword": "גֶּרֶד",
+      "source_xml": "<entry id=\"C01270\">\n<head-word>גֶּרֶד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרד) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>erasure</italic>.</definition>\n<notes> Men. 30\n<sup>b</sup> Ar. (ed. גֶּרֶר).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>that which is combed, fringe</italic>.</definition>\n<notes>—\n<plural-form>Pl. גְּרָדִין</plural-form>. Ib. 42\n<sup>b</sup>; Succ. 9\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6128,
+      "source_id": "jastrow-xml-006128",
+      "canonical_entry_id": "C01271",
+      "headword": "גַּרְדָּא",
+      "source_xml": "<entry id=\"C01271\">\n<head-word>גַּרְדָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>combing;</italic> ג' דסרבלא \n<italic>the removal of the woolly surface of a thick cloth</italic>.</definition>\n<notes> B. Kam. 99\n<sup>a</sup>; B. Mets. 112\n<sup>a</sup>.—M. Kat. 23\n<sup>a</sup> went out בג' דס' (Ms. M. 2 בגררא) in a fresh scraped and smoothed cloak.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>fringe, thread</italic>.</definition>\n<notes> Sabb. 134\n<sup>a</sup> דילמא מידביק ג' מיניה (Var. מדביקא גרדתא, v. Rashi a. l.) lest a thread of it stick to the membrum.—\n<plural-form>Pl. גַּרְדַּיָּא, גַּרְדֵּי, גַּרְדִּין</plural-form>. Targ. Y. Num. XV, 38 (ref. to Men. 42\n<sup>b</sup>).—Bekh. 8\n<sup>b</sup> כרוכו לי ג' מיניה וכ' twist for me threads pulled out of it, and I will sew it. Men. 31\n<sup>b</sup>. [גַּרְדָּא or גְּרָדָא \n<italic>scraping</italic>, v. גִּירְדָּא.—גְּרָדָא \n<italic>cud</italic>, v. גְּרָרָא I.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6129,
+      "source_id": "jastrow-xml-006129",
+      "canonical_entry_id": "C01272",
+      "headword": "גַּרְדַּאי",
+      "source_xml": "<entry id=\"C01272\">\n<head-word>גַּרְדַּאי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01277\">גַּרְדַּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6130,
+      "source_id": "jastrow-xml-006130",
+      "canonical_entry_id": "C01273",
+      "headword": "גַּרְדּוּם",
+      "source_xml": "<entry id=\"C01273\">\n<head-word>גַּרְדּוּם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרדם) \n<italic>a stump</italic>.</definition>\n<notes> Ruth R. s. 1 end וילך איש ג' ‘and a man went’ (Ruth I, </notes></sense>\n<sense>\n<number>1)</number>\n<definition>—a stump, i.e. without any description as to what he took with him (opp. to the description of the return to Palestine, Ezra II, 66); [Yalk. Ezra 1067 גָּדוּד, v. \n<xref rid=\"C00153\">גָּדַד</xref>; ib.</definition>\n<notes> Ruth 598 גָּרוּד \n<italic>stripped, alone</italic>, cmp. גְּרֵירָא.]—\n<plural-form>Pl. גַּרְדּוּמִין,</plural-form> constr. גַּרְדּוּמֵי. Tosef. Par. XII (XI), 2 ג' אזוב stumped stalks of hyssop; ג' ציצית (not ניצית); Men. 38\n<sup>b</sup> ג' תבלת remnant of the \n<italic>tsitsith</italic>. Sifré Num. 115 שיריה וגַרְדּוּמֶיהָ what is left of it or the stump of it; Men. 39\n<sup>a</sup> שיריו וגַרְדּוּמָיו, expl. ibid. דבעינן שירא לגרדומיו a small remnant of the threads must remain on the stumps; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6131,
+      "source_id": "jastrow-xml-006131",
+      "canonical_entry_id": "C01274",
+      "headword": "גַּרְדֹּום,",
+      "source_xml": "<entry id=\"C01274\">\n<head-word>גַּרְדֹּום, </head-word>\n<head-word>גַּרְדֹּון</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרד, cmp. Targ. Jud. VIII, 6 s. v. \n<xref rid=\"C01268\">גְּרַד</xref>; cmp. סָרַק) \n<italic>place of torture and execution</italic>, (\n<italic>Roman</italic>) \n<italic>executioner’s scaffold, gallows</italic>.</definition>\n<notes> Sabb. 32\n<sup>a</sup> העולה לג' לידון he who ascends the scaffold to be punished. Ab. Zar. I, 7 בסילקי ג' וכ' a basilica, a scaffold &amp;c., interpreted ib. 16\n<sup>b</sup> בס' של ג' a basilica for tortures, executions &amp;c., i.e. a basilica for holding court. Pesik. Shimu, p. 118\n<sup>b</sup> תלאו בגרדון ordered him to be suspended on the gallows (for torture); Y. Taan. IV, 69\n<sup>b</sup> top תְּלָיָין בג' (cmp. Gitt. 57\n<sup>b</sup>, a. e. מסריקנא וכ'). Tosef. Kel. B. Mets. X, end והגרדין טהור ed. Zuck. (ed. ברדין; corr. acc.) the torturer’s block is not affected by levitical impurity.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6132,
+      "source_id": "jastrow-xml-006132",
+      "canonical_entry_id": "C01275",
+      "headword": "גַּרְדּוּמָא",
+      "source_xml": "<entry id=\"C01275\">\n<head-word>גַּרְדּוּמָא</head-word>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"C01273\">גַּרְדּוּם.</xref></language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. גַּרְדּוּמֵי</plural-form>. Bekh. 44\n<sup>a</sup> אשתיור ג' roots of the eyebrows remained visible.—Gen. R. s. 33, v. גַּרְזִימִי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6133,
+      "source_id": "jastrow-xml-006133",
+      "canonical_entry_id": "C01276",
+      "headword": "גַּרְדּוֹן,",
+      "source_xml": "<entry id=\"C01276\">\n<head-word>גַּרְדּוֹן, </head-word>\n<head-word>גרדין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01273\">גַּרְדּוֹם</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6134,
+      "source_id": "jastrow-xml-006134",
+      "canonical_entry_id": "C01277",
+      "headword": "גַּרְדִּי,",
+      "source_xml": "<entry id=\"C01277\">\n<head-word>גַּרְדִּי, </head-word>\n<head-word>גִּירְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (גרד) \n<italic>wool-dresser</italic>, in gen. \n<italic>common weaver</italic>, diff. fr. טַרְסִי.</definition>\n<notes> [Our w. adopted in Greek a. Latin γέρδιος, gerdius.] B. Bath. 21\n<sup>a</sup> one of the inmates of a court הרוצה לעשות … ג' that wants to open a business as … weaver. Kel. XII, 4 מסמר הג' the weaver’s pin (of the shuttle). Sabb. 93\n<sup>b</sup> קנה של ג' the weaver’s cane (quill); Y. ib. X, 12\n<sup>c</sup> bot. גיר'; a. fr.—\n<plural-form>Pl. גַּרְדִּיִּים, גַּרְדִּין</plural-form>. Kidd. 82\n<sup>a</sup>; Tosef. ib. V, 14. Eduy. I, 3; Sab. 15\n<sup>a</sup>.—Kil. IX, 10 גרדין, v. אוֹת II.—[</notes></sense>\n<sense>\n<number>2)</number>\n<definition> (= גַּדְרִי) \n<italic>of Gadara</italic>, v. \n<xref rid=\"A00178\">אַבְנִימוֹס</xref>.</definition>\n<notes>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6135,
+      "source_id": "jastrow-xml-006135",
+      "canonical_entry_id": "C01278",
+      "headword": "גַּרְדַּי,",
+      "source_xml": "<entry id=\"C01278\">\n<head-word>גַּרְדַּי, </head-word>\n<head-word>גַּרְדַּאי, </head-word>\n<head-word>גִּירְ'</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Y. Ex. XXXIX, 22; a. e.—Koh. R. to IX, 10 חד גַּרְדַּיי (some ed. גרדייא, corr. acc.); Y. Kil. IX, 32\n<sup>b</sup> bot.; Y. Keth. XII, 35\n<sup>a</sup> bot. גדליי (corr. acc.)—\n<plural-form>Pl. גַּרְדָּאִין, גַּרְדָּאֵי, גִּירְ'</plural-form>. Targ. Jud. XVI, 14 (some ed. גדרסן, corr. acc.). Targ. Is. XXXVIII, 12 (v. גִּידּוּדָא); a. e.—Y. Ab. Zar. I, 39\n<sup>c</sup> bot. גירדאי.—Yoma 20\n<sup>b</sup>, v. אַבּוּב. Sabb. 151\n<sup>b</sup>, v. אַכְסָן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6136,
+      "source_id": "jastrow-xml-006136",
+      "canonical_entry_id": "C01279",
+      "headword": "גרדיון",
+      "source_xml": "<entry id=\"C01279\">\n<head-word>גרדיון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00487\">גּוֹרְדְּיָינִי</xref>.—גרדין, v. גַּרְדּוֹן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6137,
+      "source_id": "jastrow-xml-006137",
+      "canonical_entry_id": "C01280",
+      "headword": "גרדיקי",
+      "source_xml": "<entry id=\"C01280\">\n<head-word>גרדיקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01401\">גְּרָרִיקִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6138,
+      "source_id": "jastrow-xml-006138",
+      "canonical_entry_id": "C01281",
+      "headword": "גַּרְדִּיתָא",
+      "source_xml": "<entry id=\"C01281\">\n<head-word>גַּרְדִּיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרד) \n<italic>web </italic>or\n<italic> thread</italic>.</definition>\n<notes> Targ. Job VII, 6 גרדית מחי (Ms. גַרְדָּיַית pl.; h. text ארג) the weaver’s thread.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6139,
+      "source_id": "jastrow-xml-006139",
+      "canonical_entry_id": "C01282",
+      "headword": "גַּרְדֵּם",
+      "source_xml": "<entry id=\"C01282\">\n<head-word>גַּרְדֵּם</head-word>\n<senses>\n<sense>\n<definition> (Parel of גדם) \n<italic>to cut off, to lop</italic>.</definition>\n<notes>—Ithpa. אִיגַּרְדֵּם </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be lopped</italic>.</definition>\n<notes> Men. 38\n<sup>b</sup> איג' תכלת וכ' if the blue fringe has been lopped off, but the white remains &amp;c. Ib. 39\n<sup>a</sup> גרדומין דאִיגַּרְדּוּם אִיגַּרְדּוּמֵי does not \n<italic>gardumav</italic> intimate that they (the fringes) are entirely cut off (leaving no remnant)?</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> אִיתְגַּרְדִּים, אִיגַּרְדִּים (= גרזם, v. \n<xref rid=\"C01318\">גַּרְזִימִי</xref>) \n<italic>to be nibbled at</italic>.</definition>\n<notes> Targ. Ps. XXXIX, 12 היך עמר דאית' (Ms. דאיג') like wool nibbled at (by moths; h. text כָּעָשׁ).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6140,
+      "source_id": "jastrow-xml-006140",
+      "canonical_entry_id": "C01283",
+      "headword": "גרדמני",
+      "source_xml": "<entry id=\"C01283\">\n<head-word>גרדמני</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Sifré Thazr., Neg. ch. I some ed., read גִּרְמָנִי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6141,
+      "source_id": "jastrow-xml-006141",
+      "canonical_entry_id": "C01284",
+      "headword": "*גַּרְדָּנָא,",
+      "source_xml": "<entry id=\"C01284\">\n<head-word>*גַּרְדָּנָא, </head-word>\n<head-word>גִּירְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרד) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> = גַּרְדַּי, \n<italic>weaver</italic>.</definition>\n<notes> Ab. Zar. 26\n<sup>a</sup> there was among them חד גר' Ms. M. (ed. גיר') one weaver. Ib. ג' דלא טייזן, v. טַיְיזָן. [Var. גרדן, גרדנאי in Rashi a. l., v. Rabb. D. S. a. l. note 90.]</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>scabby, afflicted with an itch.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. גַּרְדָּנֵי, גִּירְ'</plural-form>. Keth. 60\n<sup>b</sup>, v. גַּרְגְּרָנָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6142,
+      "source_id": "jastrow-xml-006142",
+      "canonical_entry_id": "C01285",
+      "headword": "גרדקי",
+      "source_xml": "<entry id=\"C01285\">\n<head-word>גרדקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01401\">גְּרָרִיקִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6143,
+      "source_id": "jastrow-xml-006143",
+      "canonical_entry_id": "C01286",
+      "headword": "גָּרָה",
+      "source_xml": "<entry id=\"C01286\">\n<head-word>גָּרָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01320\">גרי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6144,
+      "source_id": "jastrow-xml-006144",
+      "canonical_entry_id": "C01287",
+      "headword": "גֵּרָה,",
+      "source_xml": "<entry id=\"C01287\">\n<head-word>גֵּרָה, </head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> cmp. גַרְגַּר)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>gerah</italic> (a grain), name of a coin.</definition>\n<notes> Bekh. 50\n<sup>a</sup></notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>the seed of St.</italic></definition>\n<notes>\n<italic> John’s bread</italic>, v. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6145,
+      "source_id": "jastrow-xml-006145",
+      "canonical_entry_id": "C01288",
+      "headword": "גֵּרָה,",
+      "source_xml": "<entry id=\"C01288\">\n<head-word>גֵּרָה, </head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרר, v. \n<xref rid=\"C00806\">גִּירָא II</xref>) \n<italic>a shoot, stalk</italic> (of flax or asparagus).</definition>\n<notes> Mekh. Mshp., N’zikin, s. 13 המערב את הג' בתלתן (Var. גֵּירָה, גררה) he who mixes (other) stalks among stalks of fenugrec; Yalk. Ex. 343; Tosef. B. Kam. VII, 8 גידה ed. Zuck. (Var. גירה, גורה). [Löw Pfl. p. 317: \n<italic>seed of St. John’s bread</italic> among seeds of fenugrec.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6146,
+      "source_id": "jastrow-xml-006146",
+      "canonical_entry_id": "C01289",
+      "headword": "גֵּרָה,",
+      "source_xml": "<entry id=\"C01289\">\n<head-word>גֵּרָה, </head-word>\n<hw-number>III</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרר, cmp. גָרוֹן, גַּרְגֶּרֶת) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> [\n<italic>the rough</italic>, cmp. τραχεῖα,] \n<italic>throat, larynx with wind-pipe, lungs and heart</italic>.</definition>\n<notes>. Tam. III, 1. Ib. IV, 3. Yoma II, 7.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> cmp. גרס)</xref></language-reference>\n<italic>ground food, cud</italic>.</definition>\n<notes> מַעֲלֵה ג' \n<italic>ruminant</italic>. Bekh. 6\n<sup>a</sup>; Sifra Sh’mini Par. 2, ch. III; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6147,
+      "source_id": "jastrow-xml-006147",
+      "canonical_entry_id": "C01290",
+      "headword": "גֵּרָה,",
+      "source_xml": "<entry id=\"C01290\">\n<head-word>גֵּרָה, </head-word>\n<hw-number>IV</hw-number>\n<senses>\n<sense>\n<definition />\n<notes> f., v. \n<xref rid=\"C00836\">גֵּר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6148,
+      "source_id": "jastrow-xml-006148",
+      "canonical_entry_id": "C01291",
+      "headword": "גְּרוֹגְרוֹת,",
+      "source_xml": "<entry id=\"C01291\">\n<head-word>גְּרוֹגְרוֹת, </head-word>\n<head-word>בַּר ג'</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>G’rog’roth, Bar G’rog’roth</italic>, surname of one Judah.</definition>\n<notes> Y. Shek. IV, 48\n<sup>a</sup> ר' יהודה ג' (Bab. ed. גדגדות, גדגדניות, Ms. M. גרוגרות, v. Rabb. D. S. a. l., p. 34, note 20). Yoma 78\n<sup>a</sup> בר ג' (Ms. M. בר גרוגרת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6149,
+      "source_id": "jastrow-xml-006149",
+      "canonical_entry_id": "C01292",
+      "headword": "גְּרוֹגֶרֶת",
+      "source_xml": "<entry id=\"C01292\">\n<head-word>גְּרוֹגֶרֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרר, v. \n<xref rid=\"C01289\">גֵּרָה III</xref>) [\n<italic>the rugged, shrivelled</italic>,] \n<italic>the dry fig</italic>.</definition>\n<notes> Sabb. 80\n<sup>a</sup>; B. Bath. 55\n<sup>b</sup>; Kerith. 17\n<sup>a</sup> גרוגרות (corr. acc.). Lam. R. to I, 11 כג' of the size of &amp;c. Y. Naz. II, beg. 51\n<sup>d</sup> people call לג' תירוש dry figs, too, \n<italic>tirosh</italic> (Tosaf. to Men. 103\n<sup>a</sup> לגרוגרות); a. e.—\n<plural-form>Pl. גְּרוֹגְרוֹת</plural-form>. Naz. II, 1 if one says, I will be a Nazir abstaining from \n<italic>g’rog’roth</italic>, he is a Nazir; Tosef. ib. II, 1; v. כִּינּוּי. Maasr. I, 8; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6150,
+      "source_id": "jastrow-xml-006150",
+      "canonical_entry_id": "C01293",
+      "headword": "(גָּרוּר) גָּרוּד",
+      "source_xml": "<entry id=\"C01293\">\n<head-word>(גָּרוּר) גָּרוּד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (part. pass. of גָּרַד or גָּרֵר) \n<italic>stripped, bare</italic>.</definition>\n<notes> Yalk. Ruth 598, v. גַּרְדּוּם.—\n<plural-form>Pl. גְּרוּדִים</plural-form>. Ab. Zar. 33\n<sup>a</sup> גרוד' wine jars not lined with pitch; Tosef. ib. IV (V), 10 גְּרוּדִין.—Fem. pl. גְּרוּדוֹת. Y. ib. II, 41\n<sup>b</sup> bot.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6151,
+      "source_id": "jastrow-xml-006151",
+      "canonical_entry_id": "C01294",
+      "headword": "*גְּרוּדָא",
+      "source_xml": "<entry id=\"C01294\">\n<head-word>*גְּרוּדָא</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>G’ruda</italic>, near Tiberias. Gen. R. s. 79, v. \n<xref rid=\"C00187\">גְּדוּרָא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6152,
+      "source_id": "jastrow-xml-006152",
+      "canonical_entry_id": "C01295",
+      "headword": "גרוזמי,",
+      "source_xml": "<entry id=\"C01295\">\n<head-word>גרוזמי, </head-word>\n<head-word>גרוזמין, </head-word>\n<head-word>גרוזמיתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01318\">גַּרְזִימִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6153,
+      "source_id": "jastrow-xml-006153",
+      "canonical_entry_id": "C01296",
+      "headword": "גְּרוּטִי",
+      "source_xml": "<entry id=\"C01296\">\n<head-word>גְּרוּטִי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (γρύτη) \n<italic>trash, frippery, broken ware.</italic></definition>\n<notes> Kel. XI, 3 a vessel made משברי כלים מן הג' Ar. (ed. גרוטים, Bart. גרוטאות) out of fragments of vessels, or out of small ware &amp;c.—\n<plural-form>Pl. גְּרוּטָאוֹת</plural-form>. Sabb. 123\n<sup>a</sup> זורקה לבין הג' (Ms. O. גְּרוּטָאוֹתָיו; R. S. to Kel. l. c. גְּרוּטוֹתָיו) he cast it among the rubbish (considering it no longer a vessel); B. Mets. 52\n<sup>b</sup> בין גרוטותיו (Ms. M. לתוך גריטות'). Bekh. 13\n<sup>b</sup>; Ab. Zar. 53\n<sup>a</sup>; 71\n<sup>b</sup>; Tosef. ib. V (VI), 3. Tosef. Ḥull. I, 18.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6154,
+      "source_id": "jastrow-xml-006154",
+      "canonical_entry_id": "C01297",
+      "headword": "גרויא",
+      "source_xml": "<entry id=\"C01297\">\n<head-word>גרויא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01331\">גְּרִיוָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6155,
+      "source_id": "jastrow-xml-006155",
+      "canonical_entry_id": "C01298",
+      "headword": "גָּרוּם,",
+      "source_xml": "<entry id=\"C01298\">\n<head-word>גָּרוּם, </head-word>\n<head-word>גְּרוּמָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01349\">גָּרַם</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6156,
+      "source_id": "jastrow-xml-006156",
+      "canonical_entry_id": "C01299",
+      "headword": "גְּרוּמֵי,",
+      "source_xml": "<entry id=\"C01299\">\n<head-word>גְּרוּמֵי, </head-word>\n<head-word>גְּרוּמְנֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (γρυμέα, crumena, v. Lidd.</definition>\n<notes> a. Scott s. v.; = γρύτη) \n<italic>trumpery, broken pieces of iron, glassware</italic> &amp;c. B. Bath. 89\n<sup>b</sup> top דיגרומי ed. (Ms. M. דגרומני, Ar. בגרמני) scales used for weighing &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6157,
+      "source_id": "jastrow-xml-006157",
+      "canonical_entry_id": "C01300",
+      "headword": "גֵּרוּמִין",
+      "source_xml": "<entry id=\"C01300\">\n<head-word>גֵּרוּמִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00821\">גֵּירוּמִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6158,
+      "source_id": "jastrow-xml-006158",
+      "canonical_entry_id": "C01301",
+      "headword": "גְּרוֹמִיתָא,",
+      "source_xml": "<entry id=\"C01301\">\n<head-word>גְּרוֹמִיתָא, </head-word>\n<head-word>גְּרוּמְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01361\">גַּרְמִיתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6159,
+      "source_id": "jastrow-xml-006159",
+      "canonical_entry_id": "C01302",
+      "headword": "גָּרוֹן",
+      "source_xml": "<entry id=\"C01302\">\n<head-word>גָּרוֹן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"C01289\">גֵּרָה III</xref>) \n<italic>throat, palate</italic>.</definition>\n<notes> Gen. R. s. 94 להוט אחר גְּרוֹנוֹ anxious to gratify his appetite, to receive sustenance, v. לָהַט. Ber. 36\n<sup>a</sup>, a. e. חשש בגרונו to have a sore throat; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6160,
+      "source_id": "jastrow-xml-006160",
+      "canonical_entry_id": "C01303",
+      "headword": "גָּרוֹנָא",
+      "source_xml": "<entry id=\"C01303\">\n<head-word>גָּרוֹנָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Is. LVIII, 1; a. e.—Succ. 49\n<sup>b</sup> מגְּרוֹנֵיה שבע he finds satisfaction from his palate, i.e. by taking draughts large enough to gratify his taste.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6161,
+      "source_id": "jastrow-xml-006161",
+      "canonical_entry_id": "C01304",
+      "headword": "גְּרוּנְדָּא",
+      "source_xml": "<entry id=\"C01304\">\n<head-word>גְּרוּנְדָּא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרד, cmp. גָּרִיד) \n<italic>hard, stony clod</italic>.</definition>\n<notes>—\n<plural-form>Pl. גְּרוּנְדֵּי</plural-form>. B. Mets. 80\n<sup>a</sup> ואי דמחזקא בג' Ms. M. (v. Rabb. D. \n<pgbrk id=\"pg267\" />S. a. l. note; ed. דמחזקא גונדרי, corr. acc.) if the field is known for its stony clods.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6162,
+      "source_id": "jastrow-xml-006162",
+      "canonical_entry_id": "C01305",
+      "headword": "גָּרוֹסָה",
+      "source_xml": "<entry id=\"C01305\">\n<head-word>גָּרוֹסָה</head-word>\n<pos> m.</pos>\n<language-key> h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">a. ch.</xref></language-reference>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"C01335\">גָּרִיס</xref>) \n<italic>grist-maker</italic> or \n<italic>dealer</italic>.</definition>\n<notes> Y. Ber. I, 2\n<sup>d</sup> bot. R. Jacob ג'. Y. Maas. Sh. IV, 54\n<sup>d</sup> bot. חווי פירין לג' showed the produces to a grist-dealer (to value them).—\n<plural-form>Pl. גָּרוֹסוֹת, גָּרוֹסִים</plural-form>. Men. X, 4; Lev. R. s. 18 רחים של ג'; Pesik. R. s. 28 גרוסת (corr. acc.) the grist-grinders’ mills; Pesik. Haomer, p. 69\n<sup>a</sup> גריסות (corr. acc.); a. e.—Y. Pes. IV, 30\n<sup>d</sup> top; Y. M. Kat. II, end, 81\n<sup>b</sup> גָּרוֹסֵי צפורין the grist-makers of Sepphoris.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6163,
+      "source_id": "jastrow-xml-006163",
+      "canonical_entry_id": "C01306",
+      "headword": "גְּרוּסְיָא",
+      "source_xml": "<entry id=\"C01306\">\n<head-word>גְּרוּסְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרס) \n<italic>a dish of beans</italic> (a remedy for melancholy).</definition>\n<notes> Targ. II Esth. III, 8 (cmp. Gen. R. s. 94, beg.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6164,
+      "source_id": "jastrow-xml-006164",
+      "canonical_entry_id": "C01307",
+      "headword": "גרוסת",
+      "source_xml": "<entry id=\"C01307\">\n<head-word>גרוסת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01305\">גָּרוֹסָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6165,
+      "source_id": "jastrow-xml-006165",
+      "canonical_entry_id": "C01308",
+      "headword": "גֵּרוּעַ,",
+      "source_xml": "<entry id=\"C01308\">\n<head-word>גֵּרוּעַ, </head-word>\n<head-word>גֵּרוּעִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">גֵּירוּעַ</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6166,
+      "source_id": "jastrow-xml-006166",
+      "canonical_entry_id": "C01309",
+      "headword": "גָּרוֹעַ",
+      "source_xml": "<entry id=\"C01309\">\n<head-word>גָּרוֹעַ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01380\">גָּרָע</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6167,
+      "source_id": "jastrow-xml-006167",
+      "canonical_entry_id": "C01310",
+      "headword": "גְּרוֹף",
+      "source_xml": "<entry id=\"C01310\">\n<head-word>גְּרוֹף</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> = גְּרוֹפִית \n<italic>block</italic> or \n<italic>shoot</italic>.</definition>\n<notes> Gen. R. s. 53 lest people say ג' מביתו וכ' (Isaac is) a shoot taken from the house of Abimelekh. Tanḥ. B’ḥuck. 5, v. גְּרוֹפִית.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6168,
+      "source_id": "jastrow-xml-006168",
+      "canonical_entry_id": "C01311",
+      "headword": "גרופו,",
+      "source_xml": "<entry id=\"C01311\">\n<head-word>גרופו, </head-word>\n<head-word>גרופות, </head-word>\n<head-word>גרופי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01313\">גְּרוֹפִית</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6169,
+      "source_id": "jastrow-xml-006169",
+      "canonical_entry_id": "C01312",
+      "headword": "גְּרוּפִּינָא",
+      "source_xml": "<entry id=\"C01312\">\n<head-word>גְּרוּפִּינָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00351\">אַגְרוּפִּינָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6170,
+      "source_id": "jastrow-xml-006170",
+      "canonical_entry_id": "C01313",
+      "headword": "גְּרוֹפִית",
+      "source_xml": "<entry id=\"C01313\">\n<head-word>גְּרוֹפִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרף, cmp. אֶגְרוֹף) [\n<italic>as large as a fist</italic>,] \n<italic>little stump</italic> or \n<italic>shoot.</italic></definition>\n<notes> Kel. XII, 8 ג' של זית a vessel made out of a piece of an olive tree; Tosef. ib. B. Mets. II, 19 he who makes vessels מג' של זית R. S. to Kel. l. c. (ed. Zuck. גרפות, גפו, corr. acc.).—Metaph. ג' של שקמה block of a sycamore tree, i.e. \n<italic>a man barren of thought, ignorant; barren of merits, worthless</italic>. Tanḥ. B’ḥuck. 5 Jephtah was as poor in the Law כגְרוֹפוֹ של שקמה (ed. Bub. 7 גרופות של ש' היה, note: גרופית) as a block &amp;c.—Y. Ab. Zar. II, 40\n<sup>c</sup>; Gen. R. s. 25, end; Ruth R. s. 1, opp. ג' של זית one rich in merits; a. e.—\n<plural-form>Pl. גְּרוֹפִיּוֹת</plural-form>. B. Bath. V, 3 if one buys olive trees for felling, מניח שתי ג' he must leave a stump of two fists’ size (out of which new shoots may rise); Tosef. ib. IV, 7 (v. Tos’f. Y. Tob a. l., a. B. Bath. 80\n<sup>b</sup>).—Gen. R. s. 31, end ג' לזתים Ar. (ed. sing.) shoots for future olive plantation.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6171,
+      "source_id": "jastrow-xml-006171",
+      "canonical_entry_id": "C01314",
+      "headword": "גָּרוּר",
+      "source_xml": "<entry id=\"C01314\">\n<head-word>גָּרוּר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01393\">גָּרַר</xref> a. \n<xref rid=\"C01293\">גָּרוּד.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6172,
+      "source_id": "jastrow-xml-006172",
+      "canonical_entry_id": "C01315",
+      "headword": "גָּרוּשׁ",
+      "source_xml": "<entry id=\"C01315\">\n<head-word>גָּרוּשׁ</head-word>\n<head-word>גְּרוּשָׁה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (part. pass. of גָּרַשׁ) \n<italic>a divorced spouse</italic>.</definition>\n<notes> Pes. 112\n<sup>a</sup> ג' שנשא ג' a divorced husband who married a divorced wife. Ib. ג' בחיי בעלה marrying a divorced wife while her husband is yet alive. Ned. 20\n<sup>b</sup> גְּרוּשַׁת הלב divorced at heart, one whom her husband is determined to divorce; a. fr.—\n<plural-form>Pl. גְּרוּשִׁים,</plural-form> f. גְּרוּשׁוֹת. Yalk. Jer. 268 וכי ג' אתם לי are ye divorced from me (the Lord)?</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6173,
+      "source_id": "jastrow-xml-006173",
+      "canonical_entry_id": "C01316",
+      "headword": "גֵּרוּשִׁין,",
+      "source_xml": "<entry id=\"C01316\">\n<head-word>גֵּרוּשִׁין, </head-word>\n<head-word>גֵּירוּשִׁין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (גרש) \n<italic>sending off, divorce</italic>.</definition>\n<notes> Gen. R. s. 19; Lam. R. introd. 4 (ref. to Gen. III, 23 sq.) דנתי אותו בשלוחין ובג' I punished him with expulsion and banishment.—Gitt. 64\n<sup>a</sup> שליש אומר לגי' the trustee says (the letter has been given me not as a deposit but) as a letter of divorce which I was authorized by thy wife to receive in her behalf.—Y. Kidd. I, 58\n<sup>c</sup> top גוים אין להן ג' the law of divorce (according to Deut. XXIV, 3) does not apply to gentiles. Ib. או שאין להם ג' וכ' either they have not the institution of divorce, or either may divorce the other; Gen. R. s. 18; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6174,
+      "source_id": "jastrow-xml-006174",
+      "canonical_entry_id": "C01317",
+      "headword": "גֵּרוּת,",
+      "source_xml": "<entry id=\"C01317\">\n<head-word>גֵּרוּת, </head-word>\n<head-word>גֵּירוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (denom. of גֵּר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>the stranger’s civic condition</italic>.</definition>\n<notes> Gen. R. s. 44; Pesik. R. s. 15, a. e., v. אִיסוֹפּוֹלִיטְיָא.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>conversion to Judaism</italic>.</definition>\n<notes> Gitt. 85\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6175,
+      "source_id": "jastrow-xml-006175",
+      "canonical_entry_id": "C01318",
+      "headword": "גַּרְזִימִי,",
+      "source_xml": "<entry id=\"C01318\">\n<head-word>גַּרְזִימִי, </head-word>\n<head-word>גַּרְזִימִיתָא, </head-word>\n<head-word>גַּרְזְמִיתָא</head-word>\n<senses>\n<sense>\n<definition> f. (גַּרְזִימִין\n<pos> m. pl.</pos>) (גרזם, Parel of גזם, cmp. b. h. כִּרְסֵם) \n<italic>nibblings, dessert</italic> (mostly of fruits, v. infra).</definition>\n<notes> Lam. R. introd. 10 I wished they had made me (the Lord) כגרזימי הזו וכ' ed. (Var. גריזמי, Ar. גרוז') like dessert which (at least) is served up at the end; Esth. R. to I, 9 ככַרְזִימִין הזה(!); Yalk. Is. 318 כגרומזי וכ' (corr. acc.). Y. Ber. VI, 10\n<sup>c</sup> bot. גריזמי, גריזמתה ed. Krot. (Ar. גרוזמתא) = פִּרְפֶּרֶת a. כִּיסָנִין. Gen. R. s. 33 גרוזמי דדהב וכ' Ar. Var. (ed. גִּידּוּמֵי, גַּרְדּוּמֵי, v. גדם) golden fruits on a golden tray; Lev. R. s. 27 גרוזמין דדהב Ar. (ed. חזורין … רמונין); [Pesik. Shor, p. 74\n<sup>b</sup> בחורין … ורימונין … וגקרמונין (corr. בחזריו … וגרזימין); Tanḥ. Emor 6 ובלחמא].</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6176,
+      "source_id": "jastrow-xml-006176",
+      "canonical_entry_id": "C01319",
+      "headword": "גרזקי",
+      "source_xml": "<entry id=\"C01319\">\n<head-word>גרזקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00491\">גורזקי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6177,
+      "source_id": "jastrow-xml-006177",
+      "canonical_entry_id": "C01320",
+      "headword": "גרי,",
+      "source_xml": "<entry id=\"C01320\">\n<head-word>גרי, </head-word>\n<head-word>גָּרָה</head-word>\n<senses>\n<sense>\n<definition> (b. h.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be rough, grating, scraping;</italic> v. \n<xref rid=\"C01286\">גֵּרָה</xref>, \n<xref rid=\"C01302\">גָּרוֹן</xref> &amp;c.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be hot, burn, singe</italic> (cmp. חָרָה).</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>גִּירָה, גֵּרָה</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to incite, stir up, let loose</italic>.</definition>\n<notes> Snh. 107\n<sup>b</sup> שגי' דובים וכ' because he let the bears loose against the children. Ex. R. s. 21 ג' לפרעה He incited Pharaoh &amp;c. Gen. R. s. 19, end (interpret. \n<italic>hishshiani</italic>, Gen. III, 13) גִּירַנִי. Cant. R. to I, 4 (play on משכני ib.) ממה שגֵּרִיתָ בי שכני הרעים from my hostile neighbors whom thou hast incited against me.—Trnsf. ג' את הדוב ב־ \n<italic>to let temptation loose against</italic>. Gen. R. s. 87 אני מְגָרֶה בך וכ' I shall lay temptation in thy way; a. fr.—Lev. R. s. 17 ביום שיְגָרֶה וכ' on the day when the Lord shall stir up his anger &amp;c.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְגָּרֶה, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְגָּרֶה </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be inflamed, jealous; to rival</italic>.</definition>\n<notes> Snh. 19\n<sup>a</sup> מִתְגָּרוֹת זו בזו jealous of one another.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to engage in battle, to fight</italic>.</definition>\n<notes> Ber. 7\n<sup>b</sup>; Meg. 6\n<sup>b</sup> מותר להִתְגָּרוֹת וכ' it is permitted to enter into combat with the wicked (with reference to b. h. התחרה).—Num. R. s. 19 נתג' בהם he attacked them.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to be let loose</italic>.</definition>\n<notes> Esth. R. introd. נִתְגָּרְתָה אותה הדוב that temptation was aroused (against Joseph), v. supra; Num. R. s. 13 מִתְגָּרַת.</notes></sense>\n<sense>\n<number>—4)</number>\n<definition>\n<italic>to have a passion for, to indulge freely in</italic>.</definition>\n<notes> Yoma 76\n<sup>b</sup> wine is called תיר̇ש̇, because he המִתְגָּרֶה בו נעשה ר̇ש̇ who indulges in it becomes poor. Ab. Zar. 18\n<sup>b</sup>; 19\n<sup>b</sup> אֶתְגָּרֶה בשינה I will freely indulge in sleep (idleness).</notes></sense>\n<sense>\n<number>—5)</number>\n<definition> (denom. of תִּגְרָה) \n<italic>to incite</italic>.</definition>\n<notes> Num. R. s. 18; Tanḥ. Koraḥ 3 להִתְגָּרוֹת בו את וכֹ' to incite Israel against him.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6178,
+      "source_id": "jastrow-xml-006178",
+      "canonical_entry_id": "C01321",
+      "headword": "גְּרִי,",
+      "source_xml": "<entry id=\"C01321\">\n<head-word>גְּרִי, </head-word>\n<head-word>גְּרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—Pa. גָּרֵי </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to incite, let loose</italic>.</definition>\n<notes>. Targ. Num. XXI, 6; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to let off, drive, thrust</italic>.</definition>\n<notes> Naz. 4\n<sup>b</sup> דילמא גָּרוּיֵי ג' בהו perhaps he thrust (the jaw bone) at them (without touching them; Ar. a. Rashi: גרדויי גרד וכ', obviously for גררויי גרר, cmp. גיררא, v. Koh. Ar. Compl. s. v.). Taan. 25\n<sup>a</sup> אֲגָרֵי בך וכ', v. גִּירָא II. [</notes></sense>\n<sense>\n<number>3)</number>\n<definition>\n<italic>to drag</italic> (cmp. גרר).</definition>\n<notes> Nidd. 36\n<sup>b</sup>, v. גְּדֵי.]</notes></sense></senses>\n<pgbrk id=\"pg268\" />\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְגָּרֵי, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיגְּרֵי</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to attack</italic>.</definition>\n<notes> Targ. Deut. II, 5; a. fr. Targ. I Sam. XIII, 4 (h. text נבאש!). [Targ. Ps. XXII, 8 ed. Lag., v. גְּרַר.]—Lam. R. to I, 5 מלכוותא מִתְגַּרְיָן בכון kingdoms will attack you; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be let loose, hurled</italic>.</definition>\n<notes> Targ. Y. Deut. XXVIII, 60; a. e.—Y. Peah I, 16\n<sup>a</sup> top הא דובא מִתְגַּרְיָא לך that same temptation will be let loose &amp;c., v. preced. Hithpa.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to become impassionate, be hot with sexual passion</italic>.</definition>\n<notes> Snh. 64\n<sup>a</sup> דלא מִיגְּרֵי איניש בקרובתיה Ms. M. (ed. איגרו) that one does not fall in love with his nearest kindred. Ab. Zar. 22\n<sup>b</sup> כיון דמיגרי בה because the animal will show his sexual desire by running after her (and thus betray her sin).—Denom. תִּגְרָא.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 6179,
+      "source_id": "jastrow-xml-006179",
+      "canonical_entry_id": "C01322",
+      "headword": "גְּרִיבָא",
+      "source_xml": "<entry id=\"C01322\">\n<head-word>גְּרִיבָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m., pl. גְּרִיבֵי, v. \n<xref rid=\"C01331\">גְּרִיוָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6180,
+      "source_id": "jastrow-xml-006180",
+      "canonical_entry_id": "C01323",
+      "headword": "*גְּרִיבָה",
+      "source_xml": "<entry id=\"C01323\">\n<head-word>*גְּרִיבָה</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition>\n<italic>G’ribah</italic>, name of a street or open place in Tiberias.</definition>\n<notes> Koh. R. to X, 8, v. גַּרְגִּינָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6181,
+      "source_id": "jastrow-xml-006181",
+      "canonical_entry_id": "C01324",
+      "headword": "גָּרֵיד",
+      "source_xml": "<entry id=\"C01324\">\n<head-word>גָּרֵיד</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01268\">גָּרַד</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6182,
+      "source_id": "jastrow-xml-006182",
+      "canonical_entry_id": "C01325",
+      "headword": "גְּרִיד",
+      "source_xml": "<entry id=\"C01325\">\n<head-word>גְּרִיד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרד) [\n<italic>rind, crust</italic>, cmp. גָּרָב,] \n<italic>the parched surface of the field, arid land, unbroken</italic> or \n<italic>untilled ground</italic>.</definition>\n<notes>—ימי הג' \n<italic>dry season, summer</italic>. B. Mets. V, 10.—Ib. חרוש עמי בג' plough thou with me in dry ground (in summer), opp. רְבִיעָה.—מקום הג' \n<italic>dry ground</italic>, opp. מקום הטיט (הטינא) muddy ground. Pes. 55\n<sup>a</sup>; Y. Kil. II, 27\n<sup>d</sup> top; Y. Ḥall. I, 57\n<sup>c</sup>.—M. Kat. 6\n<sup>b</sup> שדה ג', opp. מטוננת.—Y. Kil. II, 28\n<sup>a</sup> bot. ג' unbroken ground between tilled fields. Gen. R. s. 33, end נעשה כג' וכ' (the earth, after the flood had subsided) became like hard unbroken ground; they planted but nothing would grow.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6183,
+      "source_id": "jastrow-xml-006183",
+      "canonical_entry_id": "C01326",
+      "headword": "גְּרִידָא",
+      "source_xml": "<entry id=\"C01326\">\n<head-word>גְּרִידָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>rind</italic>, v. \n<xref rid=\"unknown\">גִּירְיָּא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6184,
+      "source_id": "jastrow-xml-006184",
+      "canonical_entry_id": "C01327",
+      "headword": "גְּרֵידָא",
+      "source_xml": "<entry id=\"C01327\">\n<head-word>גְּרֵידָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (גרד) [\n<italic>stripped</italic>,] \n<italic>alone, mere, unqualified</italic> (v. \n<xref rid=\"C01273\">גַּרְדּוּם</xref>).</definition>\n<notes> Ab. Zar. 37\n<sup>a</sup> אם מתי ג' the mere formula ‘If I die’ (without qualification). Yeb. 20\n<sup>a</sup> לא תעשה ג' הוא it is merely a prohibitory law; a. fr.—\n<plural-form>Pl. גְּרֵידֵי</plural-form>. Ib. 79\n<sup>b</sup> חייבי לאוין ג' trespassers of a mere prohibitory law, opp. לאוין דשאר referring to incest. Ḥull. 2\n<sup>b</sup>; a. fr.—Fem. גְּרֵידְתָא. Sot. 32\n<sup>b</sup> אמירה ג' the expression אמר not qualified by ענה. Keth. 73\n<sup>b</sup> טעות אשה אחת ג' a plain error concerning one woman (where you cannot say that the case may be considered as though concerning two different persons); a. fr.—[Targ. Y. II Ex. XIV, 25, v. גְּרַר.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6185,
+      "source_id": "jastrow-xml-006185",
+      "canonical_entry_id": "C01328",
+      "headword": "גְּרִידָה",
+      "source_xml": "<entry id=\"C01328\">\n<head-word>גְּרִידָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>scraping</italic>, v. \n<xref rid=\"C01346\">גְּרִירָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6186,
+      "source_id": "jastrow-xml-006186",
+      "canonical_entry_id": "C01329",
+      "headword": "גְּרִידוּתָא",
+      "source_xml": "<entry id=\"C01329\">\n<head-word>גְּרִידוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גְּרַד </definition>\n<notes /></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>friction</italic> (at sexual intercourse).</definition>\n<notes> Yeb. 75\n<sup>b</sup> (Ar. גרידתא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6187,
+      "source_id": "jastrow-xml-006187",
+      "canonical_entry_id": "C01330",
+      "headword": "גְּרֵידְתָא",
+      "source_xml": "<entry id=\"C01330\">\n<head-word>גְּרֵידְתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. גְּרֵידָא. [Yeb. 75\n<sup>b</sup> Ar., v. \n<xref rid=\"C01329\">preced.</xref>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6188,
+      "source_id": "jastrow-xml-006188",
+      "canonical_entry_id": "C01331",
+      "headword": "גְּרִיוָא,",
+      "source_xml": "<entry id=\"C01331\">\n<head-word>גְּרִיוָא, </head-word>\n<head-word>(גְּרִיבָא) גְּרִיוָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרב, גרף, labial softened) [\n<italic>a quantity carried at a time to and from the hand-mill</italic> (cmp. I גָּרָב </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>,] \n<italic>griva</italic>, a dry measure (= סְאָה).</definition>\n<notes> Ab. Zar. 43\n<sup>a</sup> והוא דנקיט ג' וכ' provided the statue (of Serapis) has a \n<italic>grivah</italic> (modius) as a symbol of measuring (v. Sm. Ant. s. v. Coma). Erub. 29\n<sup>b</sup> גרויא (corr. acc., v. Rabb. D. S. a. l. note 1). Pes. 32\n<sup>a</sup>. Ned. 51\n<sup>a</sup> כל ג' וכ' whatever measure I may want.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> בי ג' or ג' \n<italic>the size of a field needed for a griva of seed</italic> (cmp. סְאָה).</definition>\n<notes> B. Kam. 96\n<sup>a</sup> ג' דארעא a \n<italic>griva</italic> of land; B. Mets. 110\n<sup>b</sup>; ib. 15\n<sup>b</sup> גרבא ed. (Ms. M. גרויא, Ms. F. גריבא, Ms. R. גריוא, v. Rabb. D. S. a. l. note).—\n<plural-form>Pl. גְּרִיוֵי</plural-form>. Erub. 14\n<sup>b</sup>. B. Bath. 73\n<sup>a</sup>, v. בְּזַק. Ned. 50\n<sup>b</sup> sq.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6189,
+      "source_id": "jastrow-xml-006189",
+      "canonical_entry_id": "C01332",
+      "headword": "גריזמי,",
+      "source_xml": "<entry id=\"C01332\">\n<head-word>גריזמי, </head-word>\n<head-word>גריזמתה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01318\">גַּרְזִימִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6190,
+      "source_id": "jastrow-xml-006190",
+      "canonical_entry_id": "C01333",
+      "headword": "גְּרִיטוֹת",
+      "source_xml": "<entry id=\"C01333\">\n<head-word>גְּרִיטוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01296\">גְּרוּטִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6191,
+      "source_id": "jastrow-xml-006191",
+      "canonical_entry_id": "C01334",
+      "headword": "גרימני",
+      "source_xml": "<entry id=\"C01334\">\n<head-word>גרימני</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01364\">גִּרְמָנִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6192,
+      "source_id": "jastrow-xml-006192",
+      "canonical_entry_id": "C01335",
+      "headword": "גְּרִיס",
+      "source_xml": "<entry id=\"C01335\">\n<head-word>גְּרִיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01373\">גְּרַס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6193,
+      "source_id": "jastrow-xml-006193",
+      "canonical_entry_id": "C01336",
+      "headword": "גָּרִיס",
+      "source_xml": "<entry id=\"C01336\">\n<head-word>גָּרִיס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, pl. גְּרִיסִין \n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">גֶּרֶשׂ; v. גְּרַס I)</xref></language-reference> [\n<italic>split, broken</italic>,] \n<italic>grits</italic></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> esp. \n<italic>pounded beans; beans used for pounding</italic>.</definition>\n<notes> Gen. R. s. 94, beg.; Nidd. IX, 6 sq.; Tosef. ib. VIII, 9, v. חֲלוּקָה a. שְׁעוּעִית.—Maasr. V, 8 ג' הקלקין Cilician beans. Tosef. ib. III, 14 [read:] אילו הן ג' הקלקין (אילו) הַגַּסִּין המרובעין (v. Maim. a. R. S. to Maasr. l. c.) Cilician beans are the large and quadrangular; a. fr. [גריסות, v. גָּרוֹסָה.]—כג' \n<italic>the size of a bean</italic>. Sifra Thazr. Neg. ch. I. Kel. XVII, 12 ג' נגעים כג' וכ' the \n<italic>garis</italic> as a standard for eruptions is the Cilician bean.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (pl.) \n<italic>a dish of pounded grains</italic>.</definition>\n<notes> Koh. R. to II, 2; Tanḥ. Aḥaré 1, a. e. קערה של ג' a dish of boiled grit; Ruth R. to II, 14 גְּרִישִׂין. [Ib. to 15 היה מבקר גרישין, read with Yalk. ib. 604 גְּדִישִׁין, v. גָּדִישׁ.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6194,
+      "source_id": "jastrow-xml-006194",
+      "canonical_entry_id": "C01337",
+      "headword": "גְּרִיסָא",
+      "source_xml": "<entry id=\"C01337\">\n<head-word>גְּרִיסָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Y. Sabb. III, 6\n<sup>b</sup> top פינכא דג' a dish of beans; Y. Maasr. I, 49\n<sup>a</sup> top דגלוסא (corr. acc.).—\n<plural-form>Pl. גְּרִיסִין</plural-form>. Targ. Y. Lev. XIV, 37. [Ex. R. s. 43 קאקז גריסין, v. קָאקִיגוֹרוֹס.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6195,
+      "source_id": "jastrow-xml-006195",
+      "canonical_entry_id": "C01338",
+      "headword": "גְּרִיעַ,",
+      "source_xml": "<entry id=\"C01338\">\n<head-word>גְּרִיעַ, </head-word>\n<head-word>גְּרִיעָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C01380\">גְּרַע</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6196,
+      "source_id": "jastrow-xml-006196",
+      "canonical_entry_id": "C01339",
+      "headword": "גְּרִיעוּתָא",
+      "source_xml": "<entry id=\"C01339\">\n<head-word>גְּרִיעוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרע) \n<italic>diminution; lesser degree; disadvantage</italic>.</definition>\n<notes> Ber. 56\n<sup>a</sup> מפשר ליה לג' he interpreted his dream unfavourably, opp. למעליותא. B. Kam. 99\n<sup>b</sup> עביד בך … תרתי לג' he has doubly injured thee (through his verdict). Yeb. 122\n<sup>b</sup> top מאי ג' וכ' whereon is the inn-keeper’s lower status (lesser trustworthiness) based? Ḥull. 5\n<sup>b</sup> wherever the Bible uses \n<italic>b’hemah</italic> (beast), ג' היא does it necessarily imply contempt?</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6197,
+      "source_id": "jastrow-xml-006197",
+      "canonical_entry_id": "C01340",
+      "headword": "גְּרִיפָה",
+      "source_xml": "<entry id=\"C01340\">\n<head-word>גְּרִיפָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (גרף) \n<italic>removal of coal and ashes, scraping</italic>.</definition>\n<notes> Bets. 28\n<sup>b</sup> גְּרִיפַת וכ' the cleaning of stoves &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6198,
+      "source_id": "jastrow-xml-006198",
+      "canonical_entry_id": "C01341",
+      "headword": "גריפוס,",
+      "source_xml": "<entry id=\"C01341\">\n<head-word>גריפוס, </head-word>\n<head-word>גריפס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00362\">אַגְרָפוֹס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6199,
+      "source_id": "jastrow-xml-006199",
+      "canonical_entry_id": "C01342",
+      "headword": "גָּרִיץ",
+      "source_xml": "<entry id=\"C01342\">\n<head-word>גָּרִיץ</head-word>\n<senses>\n<sense>\n<definition>\n<italic>, </italic>\n<plural-form>pl.גְּרִיצִים, גְּרִיצִין,</plural-form> v. \n<xref rid=\"C01344\">גְּרִיצָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 6200,
+      "source_id": "jastrow-xml-006200",
+      "canonical_entry_id": "C01343",
+      "headword": "גְּרִיץ,",
+      "source_xml": "<entry id=\"C01343\">\n<head-word>גְּרִיץ, </head-word>\n<head-word>גְּרִיצָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>, </italic>\n<plural-form>pl.גְּרִיצָן,</plural-form> v. \n<xref rid=\"C01345\">גְּרִיצְתָּא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    }
+  ]
+}
