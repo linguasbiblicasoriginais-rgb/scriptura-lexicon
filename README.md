@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva do lote 320 (14/10/2026)
+
+Publicados **100 registros XML** consecutivos, ordinais **27001–27100**, de **μῆδος1, εος-ους (τό)** até **μήτρα, ας (ἡ)**, provenientes de XML μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27100 / 44.590**; próximo ordinal **27101**. Fragmentos preservados; sem auditoria formal, homologação, PR ou integração.
+
 ## DGP — recuperação dos últimos 745 registros pendentes (14/10/2026)
 
 Publicados diretamente na branch `chat-gpt-dgp` os oito módulos de recuperação exclusivos dos ordinais **886–1.630**, totalizando **745 registros `entryFree`**, do verbete **αἰγίοχος, ου (ὁ)** até **ἀλεκτορίς, ίδος (ἡ)**, segundo o XML canônico **α** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. A lacuna de **1.490 registros (141–1.630)** anteriormente identificada na carga da aplicação está agora integralmente contemplada por dezesseis módulos `lexicons/dgp-recovery-*.js` referenciados em `index.html`. Esses registros já estavam incluídos no manifesto principal; por isso seu total permanece **27.000 / 44.590**, e o próximo ordinal de incorporação inédita é **27.001**. Nenhuma auditoria formal, homologação, PR ou integração foi executada.
