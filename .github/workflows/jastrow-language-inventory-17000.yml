@@ -1,0 +1,24 @@
+name: JASTROW - levantamento de idioma de 17000 registros
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-language-inventory-17000.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  leitura:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar detector de idioma
+        run: python -m pip install lingua-language-detector==2.1.1
+      - name: Ler glossas publicadas sem modificar arquivos
+        run: python tools/jastrow_language_inventory_17000.py
