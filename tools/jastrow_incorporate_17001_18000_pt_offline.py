@@ -70,7 +70,7 @@ def translate_latin(s):
         # Translator handles sentence segmentation; punctuation is retained by source metadata.
         translation=clean(TRANSLATOR.translate(source))
     if not translation:raise RuntimeError("Tradução vazia: "+repr(source[:110]))
-    if translation.lower()==source.lower() and len(re.findall(r"[A-Za-z]+",source))>=3 and re.search(r"\b(the|which|with|being|before|after|without|as|was|were|having|because|shall|should|to be)\b",source,re.I):
+    if translation.lower()==source.lower() and len(re.findall(r"[A-Za-z]+",source))>=3 and re.search(r"\b(the|which|with|being|before|after|without|was|were|having|because|should|to be)\b",source,re.I):
         raise RuntimeError("Trecho inglês mantido sem tradução: "+repr(source[:110]))
     if len(source)>=28 and len(re.findall(r"[A-Za-z]+",source))>=6:
         if any(p.search(translation) for p in EN_GATES):
