@@ -723,7 +723,7 @@
   "record_count_scope": "500 fichas digitais do Thayer reiniciado, não 500 transcrições inglesas integrais nem 500 traduções exaustivamente colacionadas",
   "confirmed_full_source_transcriptions": 0,
   "confirmed_full_portuguese_translations": 0,
-  "translation_state": "TRADUÇÕES PORTUGUESAS DE TRABALHO; OCR BRUTO EM CAMADA SEPARADA; NÃO HOMOLOGADAS",
+  "translation_state": "TODOS OS 500 CARTÕES TÊM CONTEÚDO PORTUGUÊS, MAS CONTÊM RESUMOS/TRADUÇÕES ANALÍTICAS NÃO HOMOLOGADAS; OCR INGLÊS NÃO DEVE SER VISÍVEL",
   "target_status": "QUINTO_LOTE_100_DE_100; TRADUÇÕES ANALÍTICAS EM TRABALHO, NÃO HOMOLOGADAS",
   "new_entries_this_continuation": 15,
   "last_source_module": "lexicons/thayer-source-facsimile-046.json",
@@ -739,5 +739,18 @@
   "fourth_batch_completed": true,
   "fifth_batch_target": 100,
   "fifth_batch_source_scope": "Thayer impresso, pp. 41–50 / PDF 65–74",
-  "fifth_batch_completed": true
+  "fifth_batch_completed": true,
+  "ui_language_policy": "NÃO EXIBIR OCR INGLÊS NO THAYER: texto inglês de fonte preservado apenas nos arquivos JSON; cartões mostram texto português de trabalho e títulos bibliográficos originais quando pertinentes.",
+  "ui_language_audit_20261014": {
+    "source": "leitura dos 46 módulos de apresentação",
+    "card_count": 500,
+    "portuguese_content_section_count": 500,
+    "english_ocr_paragraphs_detected": 443,
+    "english_ocr_paragraphs_expected_hidden_at_runtime": 443,
+    "english_ocr_paragraphs_without_visibility": 57,
+    "english_source_json_preserved": true,
+    "complete_portuguese_translation_certified": false,
+    "filological_comparison_outstanding": true,
+    "implementation": "lexicons/thayer-portugues-ui.js"
+  }
 }

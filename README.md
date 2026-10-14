@@ -1,3 +1,9 @@
+## THAYER — auditoria do idioma de 500 cartões (14/10/2026)
+
+Foram inspecionados os **46 módulos THAYER**, com **500 cartões em português** e **443 parágrafos de OCR inglês anteriormente visíveis**. O novo script `lexicons/thayer-portugues-ui.js`, carregado após os módulos e antes de `script.js`, oculta esses parágrafos da apresentação sem excluir o texto original dos arquivos JSON. A checagem de contagem é explícita e exige reconciliação se novos módulos forem acrescentados. Detalhes: [auditoria de idioma](auditorias/thayer-2026-10-14-idioma-500.md).
+
+**Precisão filológica:** isso atende especificamente à retirada do OCR inglês da interface; **não certifica que os 500 artigos tenham traduções portuguesas integrais**. Muitos ainda são resumos de trabalho e exigem conferência de todas as acepções, formas, referências e observações contra o fac-símile.
+
 ## THAYER — quinto lote digital concluído: 500 registros (14/10/2026)
 
 Foram acrescentadas **15 fichas** (IDs `0486–0500`) dos verbetes **ἀνταγωνίζομαι** a **ἀντικαθίστημι**, páginas impressas **49–50** (folhas PDF **73–74**). Documentos de fonte e apresentação: `lexicons/thayer-source-facsimile-046.json` e `lexicons/thayer-batch-046-facsimile.js`, este ativado pelo `index.html`. O checkpoint alcançou **500 fichas digitais**, completando a meta nominal de **100/100 na quinta centena**. **Próximo lema: ἀντικαλέω**.
