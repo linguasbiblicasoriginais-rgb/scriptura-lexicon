@@ -1,0 +1,26 @@
+name: THAYER - recuperar cabeçalhos das colunas fotografadas
+on:
+  push:
+    branches: [chat-gpt-thayer-facsimile-apoio]
+    paths: [.github/workflows/thayer-recuperacao-fotografica.yml]
+permissions: {contents: write}
+jobs:
+  recuperar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-thayer-facsimile-apoio
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Preparar OCR grego da digitalização
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
+          sudo curl -fsSL --retry 3 https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/grc.traineddata -o /usr/share/tesseract-ocr/5/tessdata/grc.traineddata
+          python -m pip install --quiet pymupdf pillow pytesseract openpyxl
+      - name: Registrar títulos adicionais identificáveis nas imagens
+        run: python tools/thayer_suplemento_fotografico.py

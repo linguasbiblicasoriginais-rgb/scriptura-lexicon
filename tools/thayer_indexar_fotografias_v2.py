@@ -63,7 +63,7 @@ def extract():
             x,ybottom,xright,ytop=coords(first)
             if not(0<x<width and 0<ytop<height):continue
             raw=normalize(" ".join((w.text or "") for w in words[:10]))
-            side="esquerda" if x<width*.51 else "direita"
+            side="esquerda" if x<width*.45 else "direita"
             all_lines.append(dict(raw=raw,rawword=normalize(first.text),side=side,x=x,y=ytop,bottom=ybottom,
                                   first_width=xright-x,ocr_conf=first.attrib.get("x-confidence",""),word_count=len(words)))
         selected=[]
