@@ -1370,9 +1370,12 @@ function cardsForActiveDictionary() {
 
 
 function resetSearchState() {
+    ++searchGeneration;
     searchInput.value = "";
     lastOpenedRow = null;
     entryNavigation.hidden = true;
+    searchResultsBody?.querySelectorAll(".search-row").forEach(row=>row.remove());
+    window.ScripturaLexiconSearch?.reset();
 
     searchRows.forEach(function (row) {
         row.hidden = true;
@@ -1396,17 +1399,10 @@ function populateSourceFilter() {
     sourceFilter.innerHTML =
         '<option value="">Todas as fontes</option>';
 
-    const sources = [
-        ...new Set(
-            rowsForActiveDictionary()
-                .map(function (row) {
-                    return row.dataset.source;
-                })
-                .filter(Boolean)
-        )
-    ].sort(function (a, b) {
-        return a.localeCompare(b, "pt-BR");
-    });
+    const indexed = window.ScripturaLexiconSearch?.catalog?.counts?.[activeDictionary];
+    const sources = (indexed ? Object.keys(indexed) :
+        [...new Set(rowsForActiveDictionary().map(row => row.dataset.source).filter(Boolean))])
+        .sort((a, b) => a.localeCompare(b, "pt-BR"));
 
     sources.forEach(function (source) {
         const option =
@@ -1430,6 +1426,8 @@ function populateSourceFilter() {
     updateSourceDetails();
 }
 
+
+window.ScripturaRefreshSources = populateSourceFilter;
 
 /* ==========================================================
    SELETOR VISUAL DE FONTES
@@ -1567,9 +1565,10 @@ function updateSourceDetails() {
         "source-details-edition": data?.edition || "Não documentada",
         "source-details-isbn": data?.isbn || "Não documentado / não aplicável",
         "source-details-pages": data?.pages || "Não documentadas",
-        "source-details-entries": rowsForActiveDictionary().filter(function (row) {
-            return row.dataset.source === sourceCode;
-        }).length.toLocaleString("pt-BR"),
+        "source-details-entries": (window.ScripturaLexiconSearch?.catalog
+            ? window.ScripturaLexiconSearch.count(activeDictionary, sourceCode)
+            : rowsForActiveDictionary().filter(row => row.dataset.source === sourceCode).length)
+            .toLocaleString("pt-BR"),
         "source-details-note": data?.note ||
             "Referência bibliográfica ainda não cadastrada. Total de verbetes refere-se exclusivamente ao acervo eletrônico."
     };
@@ -1612,11 +1611,18 @@ function returnToResults() {
     if (entryNavigation.hidden) return;
 
     entryNavigation.hidden = true;
-    filterEntries();
-
-    if (lastOpenedRow && !lastOpenedRow.hidden) {
-        lastOpenedRow.focus({ preventScroll: true });
-        lastOpenedRow.scrollIntoView({ block: "center", behavior: "smooth" });
+    if (openedEntryCard) {
+        openedEntryCard.hidden = true;
+        openedEntryCard = null;
+    }
+    searchTableWrapper.hidden = false;
+    const row = lastOpenedRow
+        ? [...searchResultsBody.querySelectorAll(".search-row")]
+            .find(item => item.dataset.target === lastOpenedRow.dataset.target)
+        : null;
+    if (row) {
+        row.focus({ preventScroll: true });
+        row.scrollIntoView({ block: "center", behavior: "smooth" });
     } else {
         searchInput.focus();
     }
@@ -1713,99 +1719,58 @@ function updateCounter(count) {
    PESQUISA
    ========================================================== */
 
+let searchGeneration = 0;
 function filterEntries() {
+    const generation = ++searchGeneration;
     entryNavigation.hidden = true;
-    const rawQuery =
-        searchInput.value.trim();
-
-    const query =
-        normalizeText(rawQuery);
-
-    const selectedSource =
-        sourceFilter.value;
-
     if (openedEntryCard) {
         openedEntryCard.hidden = true;
         openedEntryCard = null;
     }
-
-    if (query === "") {
-        searchRows.forEach(function (row) {
-            row.hidden = true;
-        });
-
-        searchTableWrapper.hidden = true;
-        noResults.hidden = true;
-
-        searchCount.textContent =
-            "Digite para pesquisar";
-
+    const query = normalizeText(searchInput.value.trim());
+    const dictionary = activeDictionary, source = sourceFilter.value;
+    searchResultsBody.querySelectorAll(".search-row").forEach(row => row.remove());
+    searchTableWrapper.hidden = true;
+    noResults.hidden = true;
+    window.ScripturaLexiconSearch?.reset();
+    if (!query) {
+        searchCount.textContent = "Digite para pesquisar";
         return;
     }
-
-    searchTableWrapper.hidden = false;
-
-    let visibleCount = 0;
-    const activeRows =
-        rowsForActiveDictionary();
-
-    activeRows.forEach(function (row) {
-        const rawSearchText =
-            row.dataset.search ||
-            row.textContent;
-
-        let searchableText = normalizedSearchCache.get(row);
-        if (searchableText === undefined) {
-            searchableText = normalizeText(rawSearchText);
-            normalizedSearchCache.set(row, searchableText);
-        }
-
-        const rowSource =
-            row.dataset.source || "";
-
-        const matchesText =
-            searchableText.includes(query);
-
-        const matchesSource =
-            selectedSource === "" ||
-            rowSource === selectedSource;
-
-        const visible =
-            matchesText &&
-            matchesSource;
-
-        if (row.hidden === visible) {
-            row.hidden = !visible;
-        }
-
-        if (visible) {
-            visibleCount++;
-        }
-    });
-
-    updateCounter(visibleCount);
-
-    if (
-        visibleCount === 0 &&
-        activeRows.length === 0
-    ) {
-        noResults.textContent =
-            "Nenhum verbete cadastrado neste dicionário.";
-    } else {
-        noResults.textContent =
-            "Nenhum verbete encontrado.";
+    searchCount.textContent = "Pesquisando...";
+    const searcher = window.ScripturaLexiconSearch;
+    if (!searcher) {
+        searchCount.textContent = "Preparando índice...";
+        return;
     }
-
-    noResults.hidden =
-        visibleCount !== 0;
+    searcher.search(query, dictionary, source).then(result => {
+        if (generation !== searchGeneration || activeDictionary !== dictionary ||
+            sourceFilter.value !== source || normalizeText(searchInput.value.trim()) !== query) return;
+        searcher.track(result.rows);
+        searchResultsBody.insertAdjacentHTML("beforeend", result.rows.map(item=>item.row).join(""));
+        searchResultsBody.querySelectorAll(".search-row").forEach(row => {row.hidden = false;});
+        searchTableWrapper.hidden = result.rows.length === 0;
+        updateCounter(result.rows.length);
+        if (result.truncated) {
+            searchCount.textContent += " (primeiros resultados; refine a pesquisa)";
+        }
+        noResults.hidden = result.rows.length > 0;
+        noResults.textContent = result.rows.length ? "" : "Nenhum verbete encontrado.";
+    }).catch(error => {
+        if (generation !== searchGeneration) return;
+        searchCount.textContent = "Erro na pesquisa";
+        noResults.textContent = error.message;
+        noResults.hidden = false;
+        console.error("Scriptura Lexicon: falha na pesquisa", error);
+    });
 }
-
+window.ScripturaRunSearch = filterEntries;
 
 /* ==========================================================
    ABRIR VERBETE
    ========================================================== */
 
-function openEntry(row) {
+async function openEntry(row) {
     if (
         row.dataset.dictionary !==
         activeDictionary
@@ -1820,18 +1785,18 @@ function openEntry(row) {
         return;
     }
 
-    const target =
-        document.getElementById(
-            targetId
-        );
-
-    if (
-        !target ||
-        target.dataset.dictionary !==
-            activeDictionary
-    ) {
-        return;
+    let target = document.getElementById(targetId);
+    if (!target) {
+        try {
+            target = await window.ScripturaLexiconSearch.loadArticle(targetId);
+        } catch (error) {
+            searchCount.textContent = "Não foi possível carregar o verbete.";
+            console.error("Scriptura Lexicon:", error);
+            return;
+        }
     }
+    if (!target || target.dataset.dictionary !== activeDictionary ||
+        !row.isConnected) return;
 
     if (target.dataset.scripturaPrepared !== "true") {
         enrichBibliographicTooltips(target);

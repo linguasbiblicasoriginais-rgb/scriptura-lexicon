@@ -12,11 +12,9 @@
  * Referências isoladas, etimologias e sequências ambíguas ficam intocadas.
  */
 (function () {
-    const source = window.ScripturaLexicons && window.ScripturaLexicons.DGP;
-
-    if (!source) {
-        return;
-    }
+    // O formatador pode ser inicializado sem carregar a fonte inteira.
+    const lexicons = window.ScripturaLexicons ||= {};
+    const source = lexicons.DGP ||= {source:"DGP", bibliographicTerms:[]};
 
     function hasGreek(value) {
         return /\p{Script=Greek}/u.test(value);

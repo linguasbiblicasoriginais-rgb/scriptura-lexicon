@@ -61,27 +61,16 @@ try {
             "A página deve iniciar sem um verbete aberto");
         await assertNoLeakedEntries("interface inicial — " + dictionary);
 
-        if (dictionary === "grego") {
-            // Verifica especificamente as fases de recuperação (escrita no meio)
-            // e a carga intermediária, que antes corrompiam os cartões DGP.
-            for (const threshold of [20, 200, 345]) {
-                await page.waitForFunction(minimum => {
-                    const dgp = window.ScripturaLexiconLoader?.progress("grego")
-                        .find(item => item.source === "dgp");
-                    return Boolean(dgp && dgp.loaded >= minimum);
-                }, threshold, {timeout: 240000});
-                await assertNoLeakedEntries("DGP " + threshold + " módulos");
-            }
-        }
-
-
-        // O acervo é assíncrono; a interface já pode ser usada antes dele.
-        await page.waitForFunction(name =>
-            window.ScripturaLexiconLoader?.isLoaded(name), dictionary, {timeout: 240000});
-        await page.waitForFunction(() =>
-            document.getElementById("lexicon-load-status")?.textContent === "",
+        await page.waitForFunction(() => window.ScripturaLexiconSearch?.isReady,
             null, {timeout: 30000});
-        await assertNoLeakedEntries("acervo carregado — " + dictionary);
+        await assertNoLeakedEntries("início sob demanda — " + dictionary);
+
+        const unloaded = await page.evaluate(() => ({
+            cards: document.querySelectorAll(".entry-card").length,
+            rows: document.querySelectorAll(".search-row").length
+        }));
+        assert.deepEqual(unloaded, {cards:0,rows:0},
+            "Não deve haver verbetes montados antes da pesquisa");
         const sources = await page.locator("#source-filter option").evaluateAll(options =>
             options.map(o => o.value).filter(Boolean)
         );
@@ -96,11 +85,9 @@ try {
 
             assert.equal(await page.locator("#source-details").isVisible(), true,
                 "Selecionar uma fonte deve mostrar sua ficha bibliográfica");
-            const count = await page.locator("#search-results tr.search-row").evaluateAll(
-                (rows, current) => rows.filter(r =>
-                    r.dataset.dictionary === current.dictionary &&
-                    r.dataset.source === current.source
-                ).length, {dictionary,source}
+            const count = await page.evaluate(
+                ({dictionary,source}) => window.ScripturaLexiconSearch.count(dictionary,source),
+                {dictionary,source}
             );
             const shown = await page.locator("#source-details-entries").textContent();
             assert.equal(Number(shown.replace(/\D/g, "")), count,
@@ -122,25 +109,20 @@ try {
                 renderedCovers.add(source);
             }
 
-            const sample = await page.evaluate(({dictionary,source}) => {
-                return [...document.querySelectorAll("tr.search-row")]
-                    .filter(r => r.dataset.dictionary === dictionary && r.dataset.source === source)
-                    .map(r => ({
-                        target: r.dataset.target,
-                        lemma: r.querySelector(".table-lemma")?.textContent?.trim() || "",
-                        indexed: r.dataset.search || ""
-                    }))
-                    .find(r => r.target && r.lemma &&
-                        normalizeText(r.indexed).includes(normalizeText(r.lemma)));
-            }, {dictionary,source});
+            const sample = await page.evaluate(({dictionary,source}) =>
+                window.ScripturaLexiconSearch.sample(dictionary,source),
+                {dictionary,source}
+            );
 
             assert.ok(sample, dictionary + "/" + source + ": nenhuma amostra pesquisável");
             await page.locator("#search-input").fill(sample.lemma);
             const row = page.locator('tr.search-row[data-target="' + sample.target + '"]');
+            await row.waitFor({state:"visible",timeout:60000});
             assert.equal(await row.isVisible(), true, "Linha não visível após busca: " + source);
 
             await row.focus();
             await page.keyboard.press("Enter");
+            await page.locator("#entry-navigation").waitFor({state:"visible",timeout:60000});
             assert.equal(await page.locator("#search-table-wrapper").isVisible(), false,
                 "Abrir verbete deve ocultar a tabela");
             assert.equal(await page.locator("#entry-navigation").isVisible(), true,

@@ -1,0 +1,163 @@
+"use strict";
+/*
+ * Scriptura Lexicon — compilação estática sob demanda.
+ * Lê os arquivos lexicográficos originais sem modificá-los e gera:
+ *   catálogo, índice invertido de n-gramas, linhas e artigos em blocos.
+ * Não exige pacotes npm; use node --max-old-space-size=4096 scripts/build-on-demand.mjs
+ */
+import fs from "node:fs";
+import path from "node:path";
+import vm from "node:vm";
+
+const root = process.cwd();
+const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
+const modules = JSON.parse(fs.readFileSync(path.join(root, "lexicon-modules.json"), "utf8"));
+if (modules.length < 100) throw Error("Manifesto de módulos não encontrado no index.html.");
+const ctx = vm.createContext({window: {}, console});
+for (const file of modules) {
+    const source = fs.readFileSync(path.join(root, file), "utf8");
+    try {
+        vm.runInContext(source, ctx, {filename: file, timeout: 120000});
+    } catch (error) {
+        throw Error("Falha ao compilar " + file + ": " + error.stack);
+    }
+}
+const output = path.join(root, "lexicon-data");
+fs.rmSync(output, {recursive: true, force: true});
+for (const dir of ["grams", "meta", "cards"]) {
+    fs.mkdirSync(path.join(output, dir), {recursive: true});
+}
+function emit(file, value) {
+    fs.writeFileSync(path.join(output, file), JSON.stringify(value), "utf8");
+}
+function decodeEntities(value) {
+    const named = {amp:"&",lt:"<",gt:">",quot:'"',apos:"'",nbsp:" ",ndash:"–",
+        mdash:"—",hellip:"…",laquo:"«",raquo:"»",lsquo:"‘",rsquo:"’",ldquo:"“",rdquo:"”"};
+    return String(value).replace(/&(#x[0-9a-f]+|#[0-9]+|[a-z]+);/gi, (all, key) => {
+        if (key[0] === "#") {
+            const n = key[1].toLowerCase() === "x" ? parseInt(key.slice(2),16) : Number(key.slice(1));
+            return Number.isInteger(n) && n > 0 && n <= 0x10ffff
+                ? String.fromCodePoint(n) : all;
+        }
+        return Object.hasOwn(named, key.toLowerCase()) ? named[key.toLowerCase()] : all;
+    });
+}
+function attribute(openTag, name) {
+    const match = openTag.match(new RegExp("(?:^|\\s)" + name + "=(?:\"([^\"]*)\"|'([^']*)')", "i"));
+    return match ? decodeEntities(match[1] ?? match[2]) : "";
+}
+function entries(source, tag, expectedClass) {
+    const regex = new RegExp("<" + tag + "\\b[^>]*\\bclass=(?:\"[^\"]*\\b" + expectedClass +
+        "\\b[^\"]*\"|'[^']*\\b" + expectedClass + "\\b[^']*')[^>]*>[\\s\\S]*?<\\/" + tag + ">", "gi");
+    return Array.from(source.matchAll(regex), match => match[0]);
+}
+function openTag(markup) {return markup.slice(0, markup.indexOf(">") + 1);}
+function textOnly(markup) {return decodeEntities(markup.replace(/<[^>]*>/g, ""));}
+function fullText(card) {
+    const m = card.match(/<(?:p|div)\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/(?:p|div)>/i);
+    return m ? textOnly(m[1]).trim() : "";
+}
+function normalize(value) {
+    return value.toLocaleLowerCase("pt-BR").normalize("NFD")
+        .replace(/\p{M}/gu, "").replace(/\s+/g, " ").trim();
+}
+function register(records, rows, cards, origin) {
+    const byId = new Map();
+    for (const card of entries(cards, "article", "entry-card")) {
+        const target = attribute(openTag(card), "id");
+        if (!target) throw Error("Artigo sem identificador em " + origin);
+        if (byId.has(target)) throw Error("Artigo duplicado no mesmo módulo: " + target);
+        byId.set(target, card);
+    }
+    for (const row of entries(rows, "tr", "search-row")) {
+        const tag = openTag(row), target = attribute(tag, "data-target");
+        const card = byId.get(target);
+        if (!card) throw Error("Linha sem cartão: " + target + " em " + origin);
+        const dictionary = attribute(tag, "data-dictionary") || "grego";
+        const source = attribute(tag, "data-source");
+        let rawSearch = attribute(tag, "data-search") || textOnly(row);
+        // Inclui também o texto integral publicado nas seções dos verbetes,
+        // sem alterar a redação de origem ou limitar a busca ao lema.
+        const paragraphs = Array.from(card.matchAll(/<(?:p|div)\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/(?:p|div)>/gi), m => m[1]);
+        rawSearch += " " + paragraphs.map(textOnly).join(" ");
+        records.push({target, dictionary, source, search: normalize(rawSearch), row, card});
+    }
+    if (records.length > 1000000) throw Error("Número anormal de linhas");
+}
+const records = [];
+register(records, html, html, "index.html");
+const sourceTerms = {};
+for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) {
+    if (!source || !source.rowsHtml || !source.cardsHtml) continue;
+    register(records, source.rowsHtml, source.cardsHtml, key);
+    if (Array.isArray(source.bibliographicTerms)) {
+        const label = source.source || key;
+        sourceTerms[label] ||= [];
+        sourceTerms[label].push(...source.bibliographicTerms);
+    }
+}
+const ids = new Set();
+for (const row of records) {
+    if (ids.has(row.target)) throw Error("Identificador repetido: " + row.target);
+    ids.add(row.target);
+}
+const chunkSize = 128;
+const counts = {};
+const samples = {};
+const postings = new Map();
+function postingKey(token) {
+    let hash = 2166136261;
+    for (const ch of token) {
+        hash = Math.imul(hash ^ ch.codePointAt(0), 16777619);
+    }
+    return (hash >>> 0) % 256;
+}
+for (let offset = 0; offset < records.length; offset += chunkSize) {
+    const current = records.slice(offset, offset + chunkSize);
+    const meta = [], cards = [];
+    for (let i = 0; i < current.length; i++) {
+        const record = current[i], id = offset + i;
+        counts[record.dictionary] ||= {};
+        counts[record.dictionary][record.source] = (counts[record.dictionary][record.source] || 0) + 1;
+        samples[record.dictionary] ||= {};
+        if (!samples[record.dictionary][record.source]) {
+            const lemmaMarkup = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
+            const lemma = lemmaMarkup ? textOnly(lemmaMarkup[1]).trim() : "";
+            if (lemma && record.search.includes(normalize(lemma))) {
+                samples[record.dictionary][record.source] = {target:record.target, lemma};
+            }
+        }
+        meta.push({id, target:record.target, dictionary:record.dictionary, source:record.source,
+            search:record.search, row:record.row});
+        cards.push({id, target:record.target, html:record.card});
+        // A mesma normalização do navegador; substrings de 1, 2 ou 3
+        // caracteres Unicode (não apenas letras) para preservar busca integral.
+        const points = Array.from(record.search);
+        const grams = new Set();
+        for (let j = 0; j < points.length; j++) {
+            for (let n = 1; n <= 3 && j+n <= points.length; n++) {
+                grams.add(points.slice(j,j+n).join(""));
+            }
+        }
+        for (const gram of grams) {
+            let list = postings.get(gram);
+            if (!list) postings.set(gram, list = []);
+            list.push(id);
+        }
+    }
+    const block = String(offset / chunkSize).padStart(4, "0") + ".json";
+    emit("meta/" + block, meta);
+    emit("cards/" + block, cards);
+}
+const buckets = Array.from({length:256},()=>({}));
+for (const [gram,list] of postings) {
+    buckets[postingKey(gram)][gram] = list;
+}
+for (let i = 0; i < buckets.length; i++) {
+    emit("grams/" + String(i).padStart(3, "0") + ".json", buckets[i]);
+}
+emit("catalog.json", {
+    version: 1, chunkSize, total: records.length, counts, samples, sourceTerms
+});
+console.log(JSON.stringify({status:"OK",modules:modules.length,
+    records:records.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize)}));
