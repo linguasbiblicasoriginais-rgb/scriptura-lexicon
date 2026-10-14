@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 27801,
-    "status": "Lotes DGP 1–327 incorporados; 27800 registros XML no manifesto; próxima entrada 27801. Somente incorporação.",
+    "next_ordinal": 27901,
+    "status": "Lotes DGP 1–328 incorporados; 27900 registros XML no manifesto; próxima entrada 27901. Somente incorporação.",
     "current_letter": "ν",
     "total_dictionary_entries": 44590
   },
@@ -2957,6 +2957,15 @@
       "end_ordinal": 27800,
       "start_entry": "μυρρίνη, ης (ἡ)",
       "end_entry": "νανώδης, ης, ες",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 328,
+      "start_ordinal": 27801,
+      "end_ordinal": 27900,
+      "start_entry": "Νάξιος, α, ον",
+      "end_entry": "νεάγγελτος, ος, ον",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
