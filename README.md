@@ -1,3 +1,335 @@
+## DGP — incorporação exclusiva do lote 329 (14/10/2026)
+
+Incorporados 100 registros XML (27901–28000; **νεαγενής, ής, ές** → **νεμέσσηθεν**), fonte ν, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **28000 / 44.590**; próximo ordinal **28001**. Sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 328 (14/10/2026)
+
+Incorporados 100 registros XML (27801–27900; **Νάξιος, α, ον** → **νεάγγελτος, ος, ον**), fonte ν, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27900 / 44.590**; próximo ordinal **27901**. Sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 327 (14/10/2026)
+
+Incorporados 100 registros XML (27701–27800; **μυρρίνη, ης (ἡ)** → **νανώδης, ης, ες**), fonte μ+ν, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27800 / 44.590**; próximo ordinal **27801**. Sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 326 (14/10/2026)
+
+Incorporados 100 registros XML (27601–27700; **μυθιάζομαι** → **μύρρα, ας (ἡ)**), fonte μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27700 / 44.590**; próximo ordinal **27701**. Sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 325 (14/10/2026)
+
+Incorporados 100 registros XML (27501–27600; **μονώψ,** → **μυθήσεαι**), fonte μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27600 / 44.590**; próximo ordinal **27601**. Sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 324 (14/10/2026)
+
+Incorporados **100 registros XML** (27401–27500; **μοιρηγενής, ής, ές** → **μόνωσις, εως (ἡ)**), fonte μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27500 / 44.590**; próximo ordinal **27501**. Sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 323 (14/10/2026)
+
+Incorporados **100 registros XML** (27301–27400; **μισορώμαιος, ου** → **μοίρη**), fonte μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27400 / 44.590**; próximo ordinal **27401**. Sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 322 (14/10/2026)
+
+Publicados **100 registros XML** consecutivos, ordinais **27201–27300**, de **μιμητικῶς** até **μισοπονία, ας (ἡ)**, provenientes de XML μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27300 / 44.590**; próximo ordinal **27301**. Fragmentos preservados; sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 321 (14/10/2026)
+
+Publicados **100 registros XML** consecutivos, ordinais **27101–27200**, de **μητραγύρτης, ου (ὁ)** até **μιμητικός, ή, όν**, provenientes de XML μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27200 / 44.590**; próximo ordinal **27201**. Fragmentos preservados; sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 320 (14/10/2026)
+
+Publicados **100 registros XML** consecutivos, ordinais **27001–27100**, de **μῆδος1, εος-ους (τό)** até **μήτρα, ας (ἡ)**, provenientes de XML μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27100 / 44.590**; próximo ordinal **27101**. Fragmentos preservados; sem auditoria formal, homologação, PR ou integração.
+
+## DGP — recuperação dos últimos 745 registros pendentes (14/10/2026)
+
+Publicados diretamente na branch `chat-gpt-dgp` os oito módulos de recuperação exclusivos dos ordinais **886–1.630**, totalizando **745 registros `entryFree`**, do verbete **αἰγίοχος, ου (ὁ)** até **ἀλεκτορίς, ίδος (ἡ)**, segundo o XML canônico **α** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. A lacuna de **1.490 registros (141–1.630)** anteriormente identificada na carga da aplicação está agora integralmente contemplada por dezesseis módulos `lexicons/dgp-recovery-*.js` referenciados em `index.html`. Esses registros já estavam incluídos no manifesto principal; por isso seu total permanece **27.000 / 44.590**, e o próximo ordinal de incorporação inédita é **27.001**. Nenhuma auditoria formal, homologação, PR ou integração foi executada.
+
+## DGP — recuperação exclusiva de registros pendentes 141–885 (14/10/2026)
+
+Recuperados para a carga da aplicação **745 registros já contabilizados no manifesto** (ordinais **141–885**) a partir do XML canônico α, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. O `index.html` carrega oito módulos `lexicons/dgp-recovery-*.js` após `dgp-batches.js` e antes de `dgp-batch-073.js`; cada módulo insere as linhas e cartões imediatamente antes do registro 1631 para conservar a ordenação. A contagem canônica permanece **27.000 / 44.590**, pois os verbetes não são novos: corrigiu-se sua ausência da carga. Remanescem **745 registros pendentes**, ordinais **886–1630**, entre os 1.490 originalmente ausentes. Exclusivamente recuperação/incorporação, sem auditoria formal, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 319 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26901–27000** (**μετοικέω-ῶ** → **μήδομαι**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27000 / 44.590**; próximo ordinal **27001**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 318 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26801–26900** (**μεταρρυθμίζω** → **μετοικεσία, ας (ἡ)**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26900 / 44.590**; próximo ordinal **26901**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 317 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26701–26800** (**μεταδρομή, ῆς (ἡ)** → **μετάρροια, ας (ἡ)**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26800 / 44.590**; próximo ordinal **26801**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 316 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26601–26700** (**μεσουράνημα, ατος (τό)** → **μεταδρομάδην**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26700 / 44.590**; próximo ordinal **26701**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 315 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26501–26600** (**μενεχάρμης, ου** → **μεσουρανέω-ῶ**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26600 / 44.590**; próximo ordinal **26601**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 314 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26401–26500** (**⟦fragmento sem lema no XML · μ 822⟧** → **μενετός, ή, όν**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26500 / 44.590**; próximo ordinal **26501**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 313 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26301–26400** (**μελανόπτερος, ος, ον** → **⟦fragmento sem lema no XML · μ 821⟧**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26400 / 44.590**; próximo ordinal **26401**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 312 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26201–26300** (**⟦fragmento sem lema no XML · μ 622⟧** → **μελανόζυξ, υγος**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26300 / 44.590**; próximo ordinal **26301**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 311 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26101–26200** (**μεγασθενής, ής, ές** → **⟦fragmento sem lema no XML · μ 621⟧**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26200 / 44.590**; próximo ordinal **26201**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 310 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26001–26100** (**μεγαίρω** → **⟦fragmento sem lema no XML · μ 521⟧**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26100 / 44.590**; próximo ordinal **26101**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 309 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25901–26000** (**Μασσανάσσης, ου (ὁ)** → **Μέγαιρα, ας (ἡ)**), dos XML canônicos **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26000 / 44.590**; próximo ordinal **26001**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 308 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25801–25900** (**μανδραγόρας, ου (ὁ)** → **Μασσαλιώτης, ου**), dos XML canônicos **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25900 / 44.590**; próximo ordinal **25901**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 307 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25701–25800** (**μακροβιότης, ητος (ἡ)** → **μάνδρα, ας (ἡ)**), dos XML canônicos **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25800 / 44.590**; próximo ordinal **25801**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 306 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25601–25700** (**μαγία, ας (ἡ)** → **μακρόβιος, ος, ον**), dos XML canônicos **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25700 / 44.590**; próximo ordinal **25701**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 305 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25501–25600** (**λυροποιός, οῦ (ὁ)** → **μαγεύω**), dos XML canônicos **λ+μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25600 / 44.590**; próximo ordinal **25601**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 304 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25401–25500** (**λοχίζω** → **Λυρνησσός, οῦ (ἡ)**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25500 / 44.590**; próximo ordinal **25501**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 303 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25301–25400** (**λιχνεία, ας (ἡ)** → **λοχηγέω**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25400 / 44.590**; próximo ordinal **25401**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 302 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25201–25300** (**λῖκνον, ου (τό)** → **λιχμάω-ῶ**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25300 / 44.590**; próximo ordinal **25301**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 301 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25101–25200** (**Λήρισαι, Ληρισαῖος** → **λικνίτης, ου (ὁ)**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25200 / 44.590**; próximo ordinal **25201**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva do lote 300 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25001–25100** (**λευκόϊον, ου (τό)** → **λήρησις, εως (ἡ)**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25100 / 44.590**; próximo ordinal **25101**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação dos ordinais 23.001–24.000 (14/10/2026)
+
+Publicados diretamente na branch `chat-gpt-dgp` os lotes **280–289**, com **1.000 registros `entryFree` consecutivos**, ordinais **23.001–24.000** (**κεραίω** → **κρατερῶνυξ, υχος**), extraídos do XML canônico da letra **κ** do snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `e0680d4907d4ec0ff49950b757022ae8ddda0ee0`. Acumulado do manifesto: **24.000 / 44.590**; próximo ordinal **24.001**. Etapa exclusivamente de incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva de 710 registros (14/10/2026)
+
+Publicados diretamente na branch `chat-gpt-dgp` os lotes **272–279**, com **710 registros `entryFree` consecutivos**, ordinais **22.291–23.000** (**καταρτίζω** → **κεραΐζω**), extraídos do XML canônico da letra **κ** do snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `e0680d4907d4ec0ff49950b757022ae8ddda0ee0`. Foram realizados sete lotes de 100 registros e um lote final de 10. Acumulado: **23.000 / 44.590**; próximo ordinal **23.001**. Etapa exclusivamente de incorporação, sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva de 1.000 registros (14/10/2026)
+
+Publicados diretamente na branch `chat-gpt-dgp` os lotes **262–271**, com **1.000 registros `entryFree` consecutivos**, ordinais **21.291–22.290** (**καλοκἀγαθία, ας (ἡ)** → **καταρτάω-ῶ**), extraídos do XML canônico da letra **κ** do snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `e0680d4907d4ec0ff49950b757022ae8ddda0ee0`. Acumulado do manifesto: **22.290 / 44.590**; próximo ordinal **22.291**. Etapa limitada à incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação exclusiva de 1.000 registros (13/10/2026)
+
+Publicados os lotes **252–261** na branch `chat-gpt-dgp`, com **1.000 registros `entryFree` consecutivos**, ordinais **20.291–21.290** (**ἰξύς, ύος** → **κἀλοιδόρησα**), oriundos dos XML canônicos **ι** e **κ** do snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado do manifesto: **21.290 / 44.590**; próximo ordinal **21.291**. Fragmentos sem lema no XML são identificados editorialmente e preservados como registros distintos. Etapa limitada à incorporação; sem auditoria, homologação, PR ou integração.
+
+## DGP — incorporação do lote 138 (13/10/2026)
+
+100 verbetes canônicos, ordinais **8901–9000** (**∆εκελεικός, ή, όν** → **δεσμεύω**), em `lexicons/dgp-batch-138.js`. Acumulado: **9000**; próximo **9001**. Somente incorporação.
+
+## DGP — incorporação do lote 137 (13/10/2026)
+
+100 verbetes canônicos, ordinais **8801–8900** (**δεικνύω** → **∆εκελειᾶσιν**), em `lexicons/dgp-batch-137.js`. Acumulado: **8900**; próximo **8901**. Somente incorporação.
+
+## DGP — incorporação do lote 136 (13/10/2026)
+
+100 verbetes canônicos, ordinais **8701–8800** (**δασπλής, ῆτος** → **δείκνυμι**), em `lexicons/dgp-batch-136.js`. Acumulado: **8800**; próximo **8801**. Somente incorporação.
+
+## DGP — incorporação do lote 135 (13/10/2026)
+
+100 verbetes canônicos, ordinais **8601–8700** (**δακρυσίστακτος, ος, ον** → **δάσος, εος-ους (τό)**), em `lexicons/dgp-batch-135.js`. Acumulado: **8700**; próximo **8701**. Somente incorporação.
+
+## DGP — incorporação do lote 134 (13/10/2026)
+
+100 verbetes canônicos, ordinais **8501–8600** (**Γυραί, ῶν (αἱ)** → **δακρυρροέω-ῶ**), em `lexicons/dgp-batch-134.js`. Acumulado: **8600**; próximo **8601**. Somente incorporação.
+
+## DGP — incorporação do lote 133 (13/10/2026)
+
+Incorporados 100 verbetes dos XML canônicos, ordinais **8401–8500** (**γραμματίδιον, ου (τό)** → **γυπιάς, άδος**) em `lexicons/dgp-batch-133.js`. Total: **8500**; próximo **8501**. Somente incorporação.
+
+## DGP — incorporação do lote 132 (13/10/2026)
+
+Incorporados 100 verbetes do XML canônico γ, ordinais **8301–8400** (**γνωμοτύπος, ος, ον** → **γραματεύω**) em `lexicons/dgp-batch-132.js`. Total: **8400**; próximo **8401**. Somente incorporação.
+
+## DGP — incorporação do lote 131 (13/10/2026)
+
+Incorporados 100 verbetes do XML canônico γ, ordinais **8201–8300** (**γηροκομέω** → **γνωμονικός, ή, όν**) em `lexicons/dgp-batch-131.js`. Total: **8300**; próximo **8301**. Somente incorporação.
+
+## DGP — incorporação do lote 130 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** dos XML canônicos, ordinais **8101–8200** (**γέννησις, εως (ἡ)** → **γηροβοσκός, ός, όν**), em `lexicons/dgp-batch-130.js`. Acumulado: **8200**; próximo **8201**. Exclusivamente incorporação.
+
+## DGP — incorporação do lote 129 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** dos XML canônicos, ordinais **8001–8100** (**γαυρότης, ητος (ἡ)** → **γέννημα, ατος (τό)**), em `lexicons/dgp-batch-129.js`. Acumulado: **8100**; próximo **8101**. Exclusivamente incorporação.
+
+## DGP — incorporação do lote 118 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6901–7000** (**ἀφελής, ής, ές** → **ἄφοδος, ου (ἡ)**), no módulo `lexicons/dgp-batch-118.js`, carregado antes do formatador. Manifesto: **7000 verbetes**; próximo ordinal **7001**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 117 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6801–6900** (**αὐτόστολος, ος, ον** → **ἀφέλεια, ας (ἡ)**), no módulo `lexicons/dgp-batch-117.js`, carregado antes do formatador. Manifesto: **6900 verbetes**; próximo ordinal **6901**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 116 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6701–6800** (**αὐτάδελφος, ος, ον** → **αὐτοσταδίη**), no módulo `lexicons/dgp-batch-116.js`, carregado antes do formatador. Manifesto: **6800 verbetes**; próximo ordinal **6801**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 115 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6601–6700** (**ἀττικός, ή, όν** → **αὐτάγρετος, ος, ον**), no módulo `lexicons/dgp-batch-115.js`, carregado antes do formatador. Manifesto: **6700 verbetes**; próximo ordinal **6701**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 114 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6501–6600** (**ἄτηκτος, ος, ον** → **ἀττικιστί**), no módulo `lexicons/dgp-batch-114.js`, carregado antes do formatador. Manifesto: **6600 verbetes**; próximo ordinal **6601**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 113 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6401–6500** (**ἄσφαλτος, ου (ὁ)** → **ἄτη, ης (ἡ)**), no módulo `lexicons/dgp-batch-113.js`, carregado antes do formatador. Manifesto: **6500 verbetes**; próximo ordinal **6501**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 112 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6301–6400** (**ἀστικός, ή, όν** → **ἀσφάλιος, ου**), no módulo `lexicons/dgp-batch-112.js`, carregado antes do formatador. Manifesto: **6400 verbetes**; próximo ordinal **6401**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 111 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6201–6300** (**ἀσκέπαρνος, ος, ον** → **ἀστιβής, ής, ές**), no módulo `lexicons/dgp-batch-111.js`, carregado antes do formatador. Manifesto: **6300 verbetes**; próximo ordinal **6301**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 110 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6101–6200** (**ἀρχιλῃστής, οῦ (ὁ)** → **ἀσκελής2, ής, ές**), no módulo `lexicons/dgp-batch-110.js`, carregado antes do formatador. Manifesto: **6200 verbetes**; próximo ordinal **6201**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 109 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **6001–6100** (**ἄρσις, εως (ἡ)** → **ἀρχικυβερνήτης, ου (ὁ)**), no módulo `lexicons/dgp-batch-109.js`, carregado antes do formatador. Manifesto: **6100 verbetes**; próximo ordinal **6101**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 108 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5901–6000** (**ἀρκύστατος, ος** → **ἄρσην**), no módulo `lexicons/dgp-batch-108.js`, carregado antes do formatador. Manifesto: **6000 verbetes**; próximo ordinal **6001**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 107 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5801–5900** (**ἁρετή** → **ἄρκυς, υος (ἡ)**), no módulo `lexicons/dgp-batch-107.js`, carregado antes do formatador. Manifesto: **5900 verbetes**; próximo ordinal **5901**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 106 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5701–5800** (**Ἄραψ, Ἄραβος** → **ἀρετή, ῆς (ἡ)**), no módulo `lexicons/dgp-batch-106.js`, carregado antes do formatador. Manifesto: **5800 verbetes**; próximo ordinal **5801**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 105 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5601–5700** (**ἀπρόσιτος, ος, ον** → **ἀραχνώδης, ης, ες**), no módulo `lexicons/dgp-batch-105.js`, carregado antes do formatador. Manifesto: **5700 verbetes**; próximo ordinal **5701**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 104 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5501–5600** (**ἀποφάσκω** → **ἀπροσήγορος, ος, ον**), no módulo `lexicons/dgp-batch-104.js`, carregado antes do formatador. Manifesto: **5600 verbetes**; próximo ordinal **5601**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 103 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5401–5500** (**ἀπόστροφος, ος, ον** → **ἀπόφασις2, εως (ἡ)**), no módulo `lexicons/dgp-batch-103.js`, carregado antes do formatador. Manifesto: **5500 verbetes**; próximo ordinal **5501**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 102 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5301–5400** (**ἀπορροή, ῆς (ἡ)** → **ἀποστροφή, ῆς (ἡ)**), no módulo `lexicons/dgp-batch-102.js`, carregado antes do formatador. Manifesto: **5400 verbetes**; próximo ordinal **5401**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 101 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5201–5300** (**ἀπονοστέω-ῶ** → **ἀπορρίπτω**), no módulo `lexicons/dgp-batch-101.js`, carregado antes do formatador. Manifesto: **5300 verbetes**; próximo ordinal **5301**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 100 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5101–5200** (**ἀπολήψομαι** → **ἄπονος, ος, ον**), no módulo `lexicons/dgp-batch-100.js`, carregado antes do formatador. Manifesto: **5200 verbetes**; próximo ordinal **5201**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 99 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **5001–5100** (**ἀποκηδέω-ῶ** → **ἀπόληψις, εως (ἡ)**), no módulo `lexicons/dgp-batch-099.js`, carregado antes do formatador. Manifesto: **5100 verbetes**; próximo ordinal **5101**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 98 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **4901–5000** (**ἀπόδοσις, εως (ἡ)** → **ἀποκηδεύω**), no módulo `lexicons/dgp-batch-098.js`, carregado antes do formatador. Manifesto: **5000 verbetes**; próximo ordinal **5001**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 97 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **4801–4900** (**ἀποαίρεο** → **ἀπόδος**), no módulo `lexicons/dgp-batch-097.js`, carregado antes do formatador. Manifesto: **4900 verbetes**; próximo ordinal **4901**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 96 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **4701–4800** (**ἀπήμεσα** → **ἀποαίνυμαι**), no módulo `lexicons/dgp-batch-096.js`, carregado antes do formatador. Manifesto: **4800 verbetes**; próximo ordinal **4801**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 95 (13/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico da letra α, ordinais **4601–4700** (**ἀπέραντος, ος, ον** → **ἀπημείφθη**), no módulo `lexicons/dgp-batch-095.js`, carregado antes do formatador. Manifesto: **4700 verbetes**; próximo ordinal **4701**. Somente incorporação, sem auditoria, homologação nem integração.
+
+## DGP — incorporação do lote 94 (13/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4501–4600** (**ἀπειθής, ής, ές** → **ἀπεραντολογία, ας (ἡ)**), no módulo `lexicons/dgp-batch-094.js`, carregado antes do formatador. Acumulado: **4600** verbetes; próximo ordinal **4601**. Somente incorporação, sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 93 (13/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4401–4500** (**ἀπαντίον** → **ἀπείθην**), no módulo `lexicons/dgp-batch-093.js`, carregado antes do formatador. Acumulado: **4500** verbetes; próximo ordinal **4501**. Somente incorporação, sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 92 (13/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4301–4400** (**ἀοιδιάω-ῶ** → **ἀπαντικρύ**), no módulo `lexicons/dgp-batch-092.js`, carregado antes do formatador. Acumulado: **4400** verbetes; próximo ordinal **4401**. Somente incorporação, sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 91 (13/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4201–4300** (**ἀνύω** → **ἀοιδή, ῆς (ἡ)**), no módulo `lexicons/dgp-batch-091.js`, carregado antes do formatador. Acumulado: **4300** verbetes; próximo ordinal **4301**. Somente incorporação, sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 90 (12/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4101–4200** (**ἀντιτάσσω,** → **ἀνύψωμα, ατος (τό)**), no módulo `lexicons/dgp-batch-090.js`, carregado antes do formatador. Acumulado: **4200** verbetes; próximo ordinal **4201**. Somente incorporação; nenhuma auditoria, homologação ou integração realizada.
+
+## DGP — incorporação do lote 89 (12/10/2026)
+
+Incorporados 100 verbetes consecutivos, ordinais **4001–4100** (**ἀντίπαλος, ος, ον** → **ἀντίταξις, εως (ἡ)**), no módulo `lexicons/dgp-batch-089.js`, carregado antes do formatador. Acumulado: **4100** verbetes; próximo ordinal **4101**. Somente incorporação; nenhuma auditoria, homologação ou integração realizada.
+
+## DGP — incorporação do lote 88 (12/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3901–4000** (**ἀντίθυρος, ος, ον** → **ἀντιπαλαιστής, οῦ (ὁ)**) em `lexicons/dgp-batch-088.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **4000**; próximo ordinal **4001**. Exclusivamente incorporação; sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 87 (12/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3801–3900** (**ἀντεπεισφέρομαι** → **ἀντίθημι**), no módulo `lexicons/dgp-batch-087.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **3900 verbetes**; próximo ordinal: **3901**. Operação exclusivamente lexical; sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 86 (12/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3701–3800** (**ἀνταγοράζω** → **ἀντεπείσοδος, ου (ἡ)**), no módulo `lexicons/dgp-batch-086.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **3800 verbetes**; próximo ordinal: **3801**. Operação exclusivamente lexical; sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 85 (12/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3601–3700** (**ἀννέφελος** → **ἄντα**), no módulo `lexicons/dgp-batch-85.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **3700 verbetes**; próximo ordinal: **3701**. Operação exclusivamente lexical; sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 84 (12/10/2026)
+
+Incorporados **100 verbetes consecutivos** do XML canônico, ordinais **3501–3600** (**ἀνθρηνιώδης, ης, ες** → **ἀννέομαι**), no módulo `lexicons/dgp-batch-84.js`, carregado antes de `dgp-format.js`. Acumulado no manifesto: **3600 verbetes**; próximo ordinal: **3601**. Operação exclusivamente lexical; sem auditoria, homologação ou integração.
+
+## DGP — incorporação do lote 83 (12/10/2026)
+
+Incorporados 100 verbetes consecutivos do XML canônico, ordinais **3401–3500** (**ἀνηκοΐα, ας (ἡ)** → **ἀνθρήνιον, ου (τό)**) em `lexicons/dgp-batch-083.js`. Total acumulado do manifesto: **3500**; próximo ordinal **3501**. O ordinal **3449** tem lema explícito dentro de `<def>` no XML original: indexado sem eliminar conteúdo da definição. Somente incorporação; auditoria, homologação e integração não executadas.
+
+## DGP — incorporação do lote 82 (12/10/2026)
+
+Incorporados 100 verbetes consecutivos do XML canônico grego-português, ordinais **3301–3400** (**ἀνέπηλα** → **ἀνηκέστως**) em `lexicons/dgp-batch-082.js`, antes de `dgp-format.js`. Total acumulado do manifesto: **3400**; próximo ordinal **3401**. Operação limitada à incorporação, sem auditoria, homologação ou integração.
+
 ## PR #122 — mesclagem JASTROW confirmada (14/10/2026)
 
 Conciliação de `chat-gpt-jastrow` com `chat-gpt-commits`: preservados os recursos de frontend, capas, documentos, testes e demais léxicos do destino, e adicionados os módulos e originais JASTROW dos ordinais **1.001–12.000**. O conflito de `index.html` foi resolvido incluindo **111 carregamentos adicionais de scripts JASTROW** sem descartar a ficha bibliográfica de `lexicons/source-catalog.js`; `README.md` reúne os históricos de ambas as branches. O destino possuía 1.000 entradas JASTROW e passou a registrar **12.000 entradas integradas tecnicamente** após o merge #122, conforme o checkpoint reconciliado. Ver [relatório técnico](auditorias/integracao-pr-122-2026-10-14.md). O GitHub confirmou **`merged=true`**, PR encerrado e commit de merge [`c04749ed282a3966235dc1940f034e5ac00dbf64`](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/c04749ed282a3966235dc1940f034e5ac00dbf64). Branch de origem preservada; `main` não alterada.
