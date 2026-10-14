@@ -1,3 +1,11 @@
+## THAYER — quarto lote, 50/100 fichas fotográficas (14/10/2026)
+
+A branch `chat-gpt-thayer` registra **350 fichas digitais de trabalho** desde o reinício: **50 novas entradas**, de **Ἀμπλιᾶτος** a **ἀνάθημα**, com base exclusiva na ordem dos cabeçalhos do **fac-símile fotográfico** de Thayer, páginas impressas **32–38** (folhas PDF **56–62**). O quarto lote está em **50/100**; **próximo cabeçalho: ἀναίδεια**, na p. 38. O progresso operacional reside em `lexicons/thayer-progress.json`.
+
+Fontes de trabalho: `lexicons/thayer-source-facsimile-028.json` (18 artigos), `029.json` (9), `030.json` (11), `031.json` (10) e `032.json` (2). Apresentação: `lexicons/thayer-batch-028-facsimile.js` a `032-facsimile.js`, todos ativados em `index.html`. Esses arquivos registram separadamente lema, classificação, acepções e referências em português, bem como **OCR bruto derivado da imagem fotográfica**. A fonte impressa prevalece sobre o OCR e sobre eventuais transcrições eletrônicas; Strong não é fonte de determinação do cabeçalho. A remissão Ἀμπλίατος é distinta de Ἀμπλιᾶτος por ter cabeçalho próprio; as formas textuais internas não geram entradas adicionais. Artigos longos como ἄν, ἀνά, ἀναβαίνω, ἀνάγκη e ἀνάθεμα conservam a unidade do verbete. A oposição de sentido entre ἀνάθεμα (voto de destruição/maldição) e ἀνάθημα (oferta votiva) foi preservada.
+
+**Limite de precisão:** as 350 fichas são resumos e traduções **analíticas de trabalho**; não significam 350 transcrições inglesas diplomáticas integrais nem traduções portuguesas exaustivamente colacionadas. Permanecem erros possíveis no OCR, sobretudo nas letras gregas; leitura visual das fotografias governa a sequência de cabeçalhos. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` ocorreu nesta rodada.
+
 ## THAYER — terceiro lote de 100 fichas atingido (14/10/2026)
 
 A branch exclusiva `chat-gpt-thayer` passou de **250 a 300 fichas digitais** de trabalho: **50 novos cabeçalhos impressos**, de **ἅλλομαι** até **ἀμπελών**, nas páginas impressas **28–32** do fac-símile (folhas PDF **52–56**). Assim, o **terceiro lote de 100** foi atingido numericamente. **Próximo cabeçalho:** **Ἀμπλιᾶτος**, iniciado na página 32 e continuado na página 33. O estado operacional está em `lexicons/thayer-progress.json`.
