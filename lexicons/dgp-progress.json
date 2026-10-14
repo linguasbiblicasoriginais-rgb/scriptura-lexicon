@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 28201,
-    "status": "Lotes DGP 1–331 incorporados; 28200 registros XML no manifesto; próxima entrada 28201. Somente incorporação.",
+    "next_ordinal": 28301,
+    "status": "Lotes DGP 1–332 incorporados; 28300 registros XML no manifesto; próxima entrada 28301. Somente incorporação.",
     "current_letter": "ν",
     "total_dictionary_entries": 44590
   },
@@ -2993,6 +2993,15 @@
       "end_ordinal": 28200,
       "start_entry": "Νέστωρ, ορος (ὁ)",
       "end_entry": "νημερτής, ής, ές",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 332,
+      "start_ordinal": 28201,
+      "end_ordinal": 28300,
+      "start_entry": "νηνεμία, ας (ἡ)",
+      "end_entry": "νοέω-ῶ",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
