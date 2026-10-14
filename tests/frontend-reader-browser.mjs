@@ -69,8 +69,14 @@ try {
             cards: document.querySelectorAll(".entry-card").length,
             rows: document.querySelectorAll(".search-row").length
         }));
-        assert.deepEqual(unloaded, {cards:0,rows:0},
-            "Não deve haver verbetes montados antes da pesquisa");
+        assert.equal(unloaded.rows, 0, "Não deve haver resultados antes da pesquisa");
+        if (dictionary === "grego") {
+            assert.equal(unloaded.cards, 0,
+                "A primeira abertura da página não deve carregar artigos");
+        }
+        // Navegar entre #grego/#hebraico/#aramaico não recarrega o documento.
+        // Cartões explicitamente abertos anteriormente podem permanecer no cache,
+        // mas assertNoLeakedEntries garante que estejam invisíveis.
         const sources = await page.locator("#source-filter option").evaluateAll(options =>
             options.map(o => o.value).filter(Boolean)
         );
