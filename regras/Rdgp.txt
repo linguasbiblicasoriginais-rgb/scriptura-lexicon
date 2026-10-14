@@ -1858,3 +1858,6 @@ Incorporação exclusiva: ordinais 26901–27000; μετοικέω-ῶ → μ�
 
 REGISTRO DGP — RECUPERAÇÃO DE PENDENTES 141–885 (14/10/2026)
 Foram recuperados 745 registros antes ausentes da carga da aplicação, ordinais 141–885, em oito módulos lexicons/dgp-recovery-*.js, provenientes da fonte canônica XML α (commit deb54b426ead447d01ced7534736f3e77be7015b; blob eec318bb6150b6b2f4422ea4a76383ac0a254de2). Os módulos são carregados após dgp-batches.js e inserem linhas/cartões em ordem antes do ordinal 1631. Permanecem 745 pendentes (886–1630), sem alteração dos 27.000 registros canonicamente declarados. Não foram executadas auditoria formal, homologação, PR ou integração.
+
+REGISTRO DGP — CONCLUSÃO DOS PENDENTES 886–1630 (14/10/2026)
+Somente incorporação: recuperados os 745 registros XML α faltantes da aplicação, ordinais 886–1630, em oito módulos lexicons/dgp-recovery-*.js. Com os 745 recuperados anteriormente (141–885), a lacuna conhecida de 1.490 registros está inteiramente contemplada na carga. Fonte canônica commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2. Manifesto DGP permanece com 27.000 registros; próximo ordinal canônico 27.001. Não foram realizados auditoria formal, homologação, PR nem integração.
