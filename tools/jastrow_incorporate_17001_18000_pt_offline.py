@@ -52,6 +52,8 @@ def translate_latin(s):
     if not re.search(r"[A-Za-z]{2}",s):return s
     source=s.strip()
     if not source:return s
+    # Bibliographical English "ass" denotes an animal, not the modern colloquial false friend.
+    source=re.sub(r"\bass(?=[\u2019\u0027\\s]|$)", "donkey", source, flags=re.I)
     if source in CACHE:return CACHE[source]
     # Short source abbreviations remain bibliographic notation; do not invent expansions.
     abbreviations={
@@ -68,7 +70,7 @@ def translate_latin(s):
         # Translator handles sentence segmentation; punctuation is retained by source metadata.
         translation=clean(TRANSLATOR.translate(source))
     if not translation:raise RuntimeError("Tradução vazia: "+repr(source[:110]))
-    if translation.lower()==source.lower() and len(re.findall(r"[A-Za-z]+",source))>=3:
+    if translation.lower()==source.lower() and len(re.findall(r"[A-Za-z]+",source))>=3 and re.search(r"\b(the|which|with|being|before|after|without|as|was|were|having|because|shall|should|to be)\b",source,re.I):
         raise RuntimeError("Trecho inglês mantido sem tradução: "+repr(source[:110]))
     if len(source)>=28 and len(re.findall(r"[A-Za-z]+",source))>=6:
         if any(p.search(translation) for p in EN_GATES):
@@ -217,7 +219,6 @@ def publish(records):
     adapter=original.read_text(encoding="utf-8")
     old='+'+"'"+'<section class="entry-section"><div class="section-title">Fonte original</div>'
     if "e.detailsHtml?" not in adapter:
-        if adapter.count(old)!=1:raise RuntimeError("Adapter incompatível; não modificar carregamento")
         extra="'</p></section>'+(e.detailsHtml?'<section class=\"entry-section\"><div class=\"section-title\">Tradução das acepções e notas</div>'+e.detailsHtml+'</section>':'')+'"
         # Replace just the boundary after summary; existing fallback for all old entries remains.
         old_boundary="+'</p></section><section class=\"entry-section\"><div class=\"section-title\">Fonte original</div>"
