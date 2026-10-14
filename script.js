@@ -14,45 +14,83 @@
  * sem disputar os mesmos blocos de index.html ou o registro bibliográfico
  * comum.
  */
-const externalLexiconSources =
-    Object.values(
-        window.ScripturaLexicons || {}
-    );
-
-externalLexiconSources.forEach(function (source) {
-    const searchAnchor =
-        document.getElementById(
-            source.searchAnchorId || ""
-        );
-
-    if (searchAnchor) {
-        if (source.rowsHtml) {
-            searchAnchor.insertAdjacentHTML(
-                "beforebegin",
-                source.rowsHtml
-            );
+const externalLexiconSources = [];
+const mountedLengths = new WeakMap();
+// Os módulos são montados em pequenos lotes quando o navegador está livre.
+function ingestScripturaLexicons() {
+    let newRows = 0;
+    let newSource = false;
+    const known = new Set(Array.from(sourceFilter.options, x => x.value));
+    Object.values(window.ScripturaLexicons || {}).forEach(function(source) {
+        if (!source?.searchAnchorId || !source?.entryAnchorId) return;
+        if (!externalLexiconSources.includes(source)) externalLexiconSources.push(source);
+        const rowAnchor = document.getElementById(source.searchAnchorId);
+        const cardAnchor = document.getElementById(source.entryAnchorId);
+        if (!rowAnchor || !cardAnchor) return;
+        const old = mountedLengths.get(source) || {r: 0, c: 0};
+        const rows = source.rowsHtml || "", cards = source.cardsHtml || "";
+        const rd = rows.slice(old.r), cd = cards.slice(old.c);
+        let rowStart = null, cardStart = null;
+        if (rd) {
+            rowStart = rowAnchor.previousElementSibling;
+            rowAnchor.insertAdjacentHTML("beforebegin", rd);
         }
-
-        searchAnchor.remove();
-    }
-
-    const entryAnchor =
-        document.getElementById(
-            source.entryAnchorId || ""
-        );
-
-    if (entryAnchor) {
-        if (source.cardsHtml) {
-            entryAnchor.insertAdjacentHTML(
-                "beforebegin",
-                source.cardsHtml
-            );
+        if (cd) {
+            cardStart = cardAnchor.previousElementSibling;
+            cardAnchor.insertAdjacentHTML("beforebegin", cd);
         }
-
-        entryAnchor.remove();
-    }
-});
-
+        mountedLengths.set(source, {r: rows.length, c: cards.length});
+        if (cd) {
+            let node = cardStart ? cardStart.nextElementSibling : cardAnchor.parentElement.firstElementChild;
+            while (node && node !== cardAnchor) {
+                const next = node.nextElementSibling;
+                if (node.classList.contains("entry-card")) {
+                    node.hidden = true;
+                    if (!node.dataset.dictionary) node.dataset.dictionary = "grego";
+                    const tag = node.querySelector(".source-tag");
+                    if (tag) tag.dataset.source = tag.textContent.trim().toUpperCase();
+                    entryCards.push(node);
+                }
+                node = next;
+            }
+        }
+        if (rd) {
+            let node = rowStart ? rowStart.nextElementSibling : rowAnchor.parentElement.firstElementChild;
+            while (node && node !== rowAnchor) {
+                const next = node.nextElementSibling;
+                if (node.classList.contains("search-row")) {
+                    node.hidden = true;
+                    const dictionary = node.dataset.dictionary || "grego";
+                    node.dataset.dictionary = dictionary;
+                    searchRows.push(node);
+                    if (!rowsByDictionary.has(dictionary)) rowsByDictionary.set(dictionary, []);
+                    rowsByDictionary.get(dictionary).push(node);
+                    const pill = node.querySelector(".source-pill");
+                    if (pill) pill.dataset.source = pill.textContent.trim().toUpperCase();
+                    if (dictionary === activeDictionary && !known.has(node.dataset.source)) newSource = true;
+                    // Índice integral do DGP: mesma definição publicada no cartão.
+                    if (node.dataset.source === "DGP" && node.dataset.dgpFullTextIndexed !== "true") {
+                        const card = document.getElementById(node.dataset.target || "");
+                        const definition = card?.querySelector(".entry-section .entry-text");
+                        if (definition) {
+                            node.dataset.search = ((node.dataset.search || "") + " " +
+                                (definition.textContent || "").trim()).trim();
+                            node.dataset.dgpFullTextIndexed = "true";
+                        }
+                    }
+                    newRows++;
+                }
+                node = next;
+            }
+        }
+    });
+    if (newSource) populateSourceFilter();
+    else if (newRows && sourceFilter.value) updateSourceDetails();
+    if (newRows && searchInput.value.trim()) filterEntries();
+    return newRows;
+}
+window.ScripturaIngestLexicons = ingestScripturaLexicons;
+window.ScripturaGetActiveDictionary = () => activeDictionary;
 
 /* As etiquetas usam a mesma cor por fonte, mesmo nos módulos externos. */
 document.querySelectorAll(".source-pill, .source-tag").forEach(function (label) {
@@ -258,12 +296,8 @@ const bibleEditionNames = {
 };
 
 
-function enrichBibleReferenceTooltips() {
-    const links = Array.from(
-        document.querySelectorAll(
-            'a.reference-link[href*="die-bibel.de/en/bible/"]'
-        )
-    );
+function enrichBibleReferenceTooltips(card) {
+    const links = Array.from(card.querySelectorAll('a.reference-link[href*="die-bibel.de/en/bible/"]'));
 
     links.forEach(function (link) {
         const href =
@@ -1166,13 +1200,8 @@ function getBibliographicDefinitionsForRoot(root) {
 }
 
 
-function enrichBibliographicTooltips() {
-    const roots =
-        Array.from(
-            document.querySelectorAll(
-                ".entry-text"
-            )
-        );
+function enrichBibliographicTooltips(card) {
+    const roots = Array.from(card.querySelectorAll(".entry-text"));
 
     // A lista é imutável durante a inicialização: ordenar uma única vez.
     const sortedNamedAuthors = automaticNamedAuthors.slice().sort(function (a, b) {
@@ -1664,6 +1693,7 @@ function selectDictionary(dictionary, options) {
     if (settings.focusSearch) {
         searchInput.focus();
     }
+    document.dispatchEvent(new Event("scriptura:dictionary-changed"));
 }
 
 
@@ -1803,6 +1833,16 @@ function openEntry(row) {
         return;
     }
 
+    if (target.dataset.scripturaPrepared !== "true") {
+        enrichBibliographicTooltips(target);
+        enrichBibleReferenceTooltips(target);
+        target.dataset.scripturaPrepared = "true";
+    }
+    if (row.dataset.source === "DGP" && window.ScripturaLexicons?.DGP?.formatCards &&
+        target.dataset.scripturaDgpPrepared !== "true") {
+        window.ScripturaLexicons.DGP.formatCards(target);
+        target.dataset.scripturaDgpPrepared = "true";
+    }
     if (openedEntryCard && openedEntryCard !== target) {
         openedEntryCard.hidden = true;
     }
@@ -2458,14 +2498,7 @@ document.addEventListener(
    ========================================================== */
 
 applyTheme(document.documentElement.dataset.theme, false);
-enrichBibliographicTooltips();
-enrichBibleReferenceTooltips();
-
-/* Formatação exclusivamente visual do DGP, após os popups bibliográficos. */
-if (window.ScripturaLexicons?.DGP?.formatCards) {
-    window.ScripturaLexicons.DGP.formatCards();
-}
-
+// Sem transformação do corpus inteiro na inicialização.
 bindTooltipEvents();
 
 
