@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva do lote 300 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25001–25100** (**λευκόϊον, ου (τό)** → **λήρησις, εως (ἡ)**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25100 / 44.590**; próximo ordinal **25101**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
 ## DGP — incorporação dos ordinais 23.001–24.000 (14/10/2026)
 
 Publicados diretamente na branch `chat-gpt-dgp` os lotes **280–289**, com **1.000 registros `entryFree` consecutivos**, ordinais **23.001–24.000** (**κεραίω** → **κρατερῶνυξ, υχος**), extraídos do XML canônico da letra **κ** do snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `e0680d4907d4ec0ff49950b757022ae8ddda0ee0`. Acumulado do manifesto: **24.000 / 44.590**; próximo ordinal **24.001**. Etapa exclusivamente de incorporação; sem auditoria, homologação, PR ou integração.
