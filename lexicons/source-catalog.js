@@ -15,7 +15,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Exemplar de 1850; a edição de 1836 é distinta",
         isbn: null,
         pages: "xii + 803 p. (edição de 1850)",
-        coverUrl: "https://archive.org/services/img/greekenglexicon00robirich",
+        coverUrl: "imagens/capas/robinson.png",
         coverColor: "#36516e",
         note: "Existem edições com paginação diferente. A correspondência integral do texto digital com este exemplar ainda depende de cotejo.",
         reference: "regras/Rfontes-impressas.txt"
@@ -28,7 +28,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Edição britânica de 1922",
         isbn: null,
         pages: "xvi + 512 p.",
-        coverUrl: "https://archive.org/services/img/manualgreeklexic00abbo",
+        coverUrl: "imagens/capas/abbott-smith.png",
         coverColor: "#5c4e39",
         note: "O cadastro registra também uma impressão americana; as duas composições ainda não foram cotejadas integralmente.",
         reference: "regras/Rfontes-impressas.txt"
@@ -41,7 +41,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Edição corrigida de referência",
         isbn: null,
         pages: "727 p. (edição de 1889)",
-        coverUrl: "https://archive.org/services/img/greekenglishlexi00grimuoft",
+        coverUrl: "imagens/capas/thayer.png",
         coverColor: "#5b493e",
         note: "Dados referentes à edição histórica identificada; os registros atuais do site ainda estão em processo de revisão filológica.",
         reference: "regras/Rthayer.txt"
@@ -54,7 +54,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Arquivo identificado como 4ª edição digital (BDAG)",
         isbn: null,
         pages: "1.078 p. no arquivo digital; paginação da edição comercial não certificada",
-        coverUrl: null,
+        coverUrl: "imagens/capas/bdag.png",
         coverColor: "#35587b",
         note: "A identificação bibliográfica do arquivo digital não deve ser confundida automaticamente com a edição comercial impressa do BDAG.",
         reference: "regras/Rbdag.txt"
@@ -67,7 +67,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Revised Edition",
         isbn: "3-438-05124-9",
         pages: null,
-        coverUrl: null,
+        coverUrl: "imagens/capas/leh.png",
         coverColor: "#365e62",
         note: "A paginação do exemplar impresso da edição de 2003 não foi certificada; não confundir com a edição corrigida posterior.",
         reference: "regras/Rleh.txt"
@@ -80,7 +80,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Obra originalmente publicada em volumes; o site utiliza transcrição digital com proveniência própria",
         isbn: "85-7480-327-8 (vol. I)",
         pages: "264 p. (vol. I, α–δ); não representa a coleção inteira",
-        coverUrl: null,
+        coverUrl: "imagens/capas/dgp.png",
         coverColor: "#675348",
         note: "A base digital incorporada possui cobertura própria. Dados físicos do primeiro volume, não da edição em volume único de 2025.",
         reference: "regras/Rdgp.txt"
@@ -106,7 +106,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "Obra histórica em dois volumes",
         isbn: null,
         pages: "1.736 p. (paginação da edição histórica catalogada)",
-        coverUrl: null,
+        coverUrl: "imagens/capas/jastrow.png",
         coverColor: "#4a555f",
         note: "O acervo eletrônico procede da Sefaria; a edição impressa serve apenas como referência bibliográfica.",
         reference: "regras/Rjastrow.txt"
@@ -119,7 +119,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "O PDF canônico da ingestão é identificado como CD-ROM Edition",
         isbn: null,
         pages: null,
-        coverUrl: null,
+        coverUrl: "imagens/capas/halot.png",
         coverColor: "#404b5c",
         note: "Não equiparar o PDF em CD-ROM à série impressa em cinco volumes sem cotejo bibliográfico.",
         reference: "regras/Rhalot.txt"
