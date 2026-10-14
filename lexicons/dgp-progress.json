@@ -8,9 +8,9 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 42001,
-    "status": "Lotes DGP 1–469 incorporados; 42000 registros XML no manifesto; próxima entrada 42001. Somente incorporação.",
-    "current_letter": "υ",
+    "next_ordinal": 43001,
+    "status": "Lotes DGP 1–479 incorporados; 43000 registros XML no manifesto; próxima entrada 43001. Somente incorporação.",
+    "current_letter": "φ",
     "total_dictionary_entries": 44590
   },
   "batches": [
@@ -4235,6 +4235,96 @@
       "end_ordinal": 42000,
       "start_entry": "ὑπόπτερος, ος, ον",
       "end_entry": "ὑποτρίζω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 470,
+      "start_ordinal": 42001,
+      "end_ordinal": 42100,
+      "start_entry": "ὑπότριμμα, ατος (τό)",
+      "end_entry": "ὑστερέω-ῶ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 471,
+      "start_ordinal": 42101,
+      "end_ordinal": 42200,
+      "start_entry": "ὑστέρημα, ατος (τό)",
+      "end_entry": "ὑψοῦ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 472,
+      "start_ordinal": 42201,
+      "end_ordinal": 42300,
+      "start_entry": "⟦fragmento sem lema no XML · υ 1195⟧",
+      "end_entry": "φανταστικός, ή, όν",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 473,
+      "start_ordinal": 42301,
+      "end_ordinal": 42400,
+      "start_entry": "φανταστικῶς",
+      "end_entry": "Φεραῖος, α, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 474,
+      "start_ordinal": 42401,
+      "end_ordinal": 42500,
+      "start_entry": "φέρασπις, ιδος",
+      "end_entry": "φθίσιμβροτος, ος, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 475,
+      "start_ordinal": 42501,
+      "end_ordinal": 42600,
+      "start_entry": "φθίσις, εως (ἡ)",
+      "end_entry": "Φίλητος, ου (ὁ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 476,
+      "start_ordinal": 42601,
+      "end_ordinal": 42700,
+      "start_entry": "φιλητός, ή, όν",
+      "end_entry": "φιλομήτωρ, ορος",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 477,
+      "start_ordinal": 42701,
+      "end_ordinal": 42800,
+      "start_entry": "φιλομμειδής",
+      "end_entry": "φιλόχρηστος, ος, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 478,
+      "start_ordinal": 42801,
+      "end_ordinal": 42900,
+      "start_entry": "φιλόχρυσος, ος, ον",
+      "end_entry": "φόβονδε",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 479,
+      "start_ordinal": 42901,
+      "end_ordinal": 43000,
+      "start_entry": "φόβος, ου (ὁ)",
+      "end_entry": "φόωσδε",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
