@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 40601,
-    "status": "Lotes DGP 1–455 incorporados; 40600 registros XML no manifesto; próxima entrada 40601. Somente incorporação.",
+    "next_ordinal": 41001,
+    "status": "Lotes DGP 1–459 incorporados; 41000 registros XML no manifesto; próxima entrada 41001. Somente incorporação.",
     "current_letter": "τ",
     "total_dictionary_entries": 44590
   },
@@ -4109,6 +4109,42 @@
       "end_ordinal": 40600,
       "start_entry": "τραγοκουρικός, ή, όν,",
       "end_entry": "τρίβος, ου (ἡ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 456,
+      "start_ordinal": 40601,
+      "end_ordinal": 40700,
+      "start_entry": "τρίβω",
+      "end_entry": "τρισμύριοι, αι, α",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 457,
+      "start_ordinal": 40701,
+      "end_ordinal": 40800,
+      "start_entry": "τρισόλβιος, ος, ον",
+      "end_entry": "τρόχος, ου (ὁ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 458,
+      "start_ordinal": 40801,
+      "end_ordinal": 40900,
+      "start_entry": "τροχός, οῦ (ὁ)",
+      "end_entry": "τυπικῶς",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 459,
+      "start_ordinal": 40901,
+      "end_ordinal": 41000,
+      "start_entry": "τύπος, ου",
+      "end_entry": "τὠστέα",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
