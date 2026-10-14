@@ -1618,7 +1618,7 @@ function returnToResults() {
     searchTableWrapper.hidden = false;
     const row = lastOpenedRow
         ? [...searchResultsBody.querySelectorAll(".search-row")]
-            .find(item => item.dataset.target === lastOpenedRow.dataset.target)
+            .find(item => item.dataset.scripturaIndexId === lastOpenedRow.dataset.scripturaIndexId)
         : null;
     if (row) {
         row.focus({ preventScroll: true });
@@ -1748,7 +1748,10 @@ function filterEntries() {
             sourceFilter.value !== source || normalizeText(searchInput.value.trim()) !== query) return;
         searcher.track(result.rows);
         searchResultsBody.insertAdjacentHTML("beforeend", result.rows.map(item=>item.row).join(""));
-        searchResultsBody.querySelectorAll(".search-row").forEach(row => {row.hidden = false;});
+        searchResultsBody.querySelectorAll(".search-row").forEach((row, index) => {
+            row.hidden = false;
+            row.dataset.scripturaIndexId = String(result.rows[index].id);
+        });
         // Preservar a tabela e o aviso também em buscas sem resultados.
         searchTableWrapper.hidden = false;
         updateCounter(result.rows.length);
@@ -1786,15 +1789,15 @@ async function openEntry(row) {
         return;
     }
 
-    let target = document.getElementById(targetId);
-    if (!target) {
-        try {
-            target = await window.ScripturaLexiconSearch.loadArticle(targetId);
-        } catch (error) {
-            searchCount.textContent = "Não foi possível carregar o verbete.";
-            console.error("Scriptura Lexicon:", error);
-            return;
-        }
+    let target;
+    try {
+        target = await window.ScripturaLexiconSearch.loadArticle(
+            row.dataset.scripturaIndexId || targetId
+        );
+    } catch (error) {
+        searchCount.textContent = "Não foi possível carregar o verbete.";
+        console.error("Scriptura Lexicon:", error);
+        return;
     }
     if (!target || target.dataset.dictionary !== activeDictionary ||
         !row.isConnected) return;

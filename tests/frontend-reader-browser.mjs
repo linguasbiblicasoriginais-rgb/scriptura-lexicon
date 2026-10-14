@@ -177,6 +177,26 @@ try {
         report.push(group);
     }
 
+    // IDs legados colidentes: ambas as ocorrências são recuperáveis
+    // individualmente, preservando o ID original do verbete.
+    const aliases = await page.evaluate(() =>
+        window.ScripturaLexiconSearch.catalog.duplicateSamples || []);
+    assert.ok(aliases.length > 0, "Faltam as amostras de IDs legados repetidos");
+    const pair = aliases[0];
+    const readAlias = async id => page.evaluate(async recordId => {
+        const card = await window.ScripturaLexiconSearch.loadArticle(recordId);
+        return {id:card.id, internal:card.dataset.scripturaIndexId,
+            html:card.innerHTML};
+    }, id);
+    const first = await readAlias(pair.ids[0]);
+    const second = await readAlias(pair.ids[1]);
+    assert.equal(first.id, pair.target);
+    assert.equal(second.id, pair.target);
+    assert.notEqual(first.internal, second.internal,
+        "As ocorrências originais não podem ser fundidas no índice");
+    assert.notEqual(first.html, second.html,
+        "Artigos distintos com o mesmo ID original não podem ser confundidos");
+
     await page.setViewportSize({ width: 375, height: 812 });
     await page.goto(url + "#grego", { waitUntil: "domcontentloaded", timeout:180000 });
     assert.equal(await page.locator("#search-input").isVisible(), true,

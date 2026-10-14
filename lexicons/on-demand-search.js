@@ -83,21 +83,30 @@
         }
         return {rows, truncated};
     }
-    async function loadArticle(target) {
+    async function loadArticle(recordId) {
         await ready;
-        let id = targetIds.get(target);
-        if (id === undefined) throw Error("O artigo não está no índice: " + target);
+        let id = Number(recordId);
+        if (!Number.isSafeInteger(id) || id < 0) id = targetIds.get(recordId);
+        if (!Number.isSafeInteger(id) || id < 0) {
+            throw Error("Resultado não encontrado no índice: " + recordId);
+        }
         const chunk = Math.floor(id / catalog.chunkSize);
         const articles = await json("cards/" + pad(chunk,4) + ".json", cardBlocks, chunk);
         const data = articles[id % catalog.chunkSize];
-        if (!data || data.target !== target) throw Error("Artigo não corresponde à pesquisa: " + target);
-        let card = document.getElementById(target);
-        if (card) return card;
+        if (!data || data.id !== id) throw Error("Artigo não corresponde ao índice: " + recordId);
+        let card = document.getElementById(data.target);
+        if (card && card.dataset.scripturaIndexId === String(id)) return card;
+        // IDs repetidos na fonte permanecem originais. Quando outra ocorrência
+        // é aberta, a anterior sai do DOM para não duplicar identificadores.
+        if (card) card.remove();
         const fragment = document.createElement("template");
         fragment.innerHTML = data.html.trim();
         card = fragment.content.firstElementChild;
-        if (!card || card.tagName !== "ARTICLE" || card.id !== target) throw Error("HTML de artigo inválido: " + target);
+        if (!card || card.tagName !== "ARTICLE" || card.id !== data.target) {
+            throw Error("HTML de artigo inválido: " + data.target);
+        }
         card.hidden = true;
+        card.dataset.scripturaIndexId = String(id);
         const insertion = document.getElementById(
             data.html.includes('data-dictionary="hebraico"') ? "halot-entry-anchor" :
             data.html.includes('data-dictionary="aramaico"') ? "jastrow-entry-anchor" :

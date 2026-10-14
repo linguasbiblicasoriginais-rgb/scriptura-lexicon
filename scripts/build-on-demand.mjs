@@ -66,13 +66,9 @@ function register(records, rows, cards, origin) {
     for (const card of entries(cards, "article", "entry-card")) {
         const target = attribute(openTag(card), "id");
         if (!target) throw Error("Artigo sem identificador em " + origin);
-        if (byId.has(target)) {
-            // document.getElementById() no frontend legado aponta para o
-            // primeiro artigo com esse ID. Reproduzir a mesma precedência.
-            collisions.push({target, kind:"article", identical:byId.get(target) === card, origin});
-            continue;
-        }
-        byId.set(target, card);
+        if (!byId.has(target)) byId.set(target, []);
+        else collisions.push({target, kind:"article", origin});
+        byId.get(target).push(card);
     }
     const parsedRows = entries(rows, "tr", "search-row");
     console.log("EXTRACTION", origin, JSON.stringify({
@@ -82,9 +78,28 @@ function register(records, rows, cards, origin) {
         sampleRowIds: parsedRows.slice(0,4).map(v=>attribute(openTag(v),"data-target")),
         sampleCardIds: [...byId.keys()].slice(0,4)
     }));
+    const assigned = new Map();
+    const lemmaInRow = row => {
+        const cell = row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
+        return normalize(cell ? textOnly(cell[1]) : "");
+    };
+    const lemmaInCard = card => {
+        const heading = card.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+        return normalize(heading ? textOnly(heading[1]) : "");
+    };
     for (const row of parsedRows) {
         const tag = openTag(row), target = attribute(tag, "data-target");
-        let card = byId.get(target);
+        const alternatives = byId.get(target) || [];
+        let used = assigned.get(target);
+        if (!used) assigned.set(target, used = new Set());
+        const rowLemma = lemmaInRow(row);
+        // Casos de IDs repetidos: preferir o lema coincidente; ainda assim,
+        // manter a ocorrência completa mesmo que o cabeçalho seja diferente.
+        let chosen = alternatives.findIndex((card,i) =>
+            !used.has(i) && rowLemma && lemmaInCard(card) === rowLemma);
+        if (chosen < 0) chosen = alternatives.findIndex((card,i) => !used.has(i));
+        if (chosen >= 0) used.add(chosen);
+        let card = chosen >= 0 ? alternatives[chosen] : null;
         const dictionary = attribute(tag, "data-dictionary") || "grego";
         const source = attribute(tag, "data-source");
         if (!card) {
@@ -130,24 +145,18 @@ for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) 
         sourceTerms[label].push(...source.bibliographicTerms);
     }
 }
-// A fonte histórica pode registrar o mesmo ID em módulos diferentes.
- // O catálogo derivado conserva o primeiro destino existente no DOM e une
- // as formas pesquisáveis ao registro correspondente; nada é reescrito na fonte.
-const unique = new Map();
-for (const record of records) {
-    if (unique.has(record.target)) {
-        const first = unique.get(record.target);
-        if (first.source !== record.source || first.dictionary !== record.dictionary) {
-            throw Error("Colisão entre fontes distintas: " + record.target);
-        }
-        first.search = normalize(first.search + " " + record.search);
+// Um ID histórico repetido não pode suprimir a segunda entrada.
+// Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
+const firstByTarget = new Map();
+const duplicateSamples = [];
+records.forEach((record, id) => {
+    if (firstByTarget.has(record.target)) {
         collisions.push({target:record.target, kind:"search-row", origin:record.source});
+        duplicateSamples.push({target:record.target, ids:[firstByTarget.get(record.target), id]});
     } else {
-        unique.set(record.target, record);
+        firstByTarget.set(record.target, id);
     }
-}
-records.length = 0;
-records.push(...unique.values());
+});
 const collisionKinds = {};
 const missingExamples = collisions.filter(x=>x.kind==="card-absent").slice(0,15);
 console.log("MISSING_SAMPLES", JSON.stringify(missingExamples));
@@ -216,7 +225,8 @@ for (let i = 0; i < buckets.length; i++) {
     emit("grams/" + String(i).padStart(3, "0") + ".json", buckets[i]);
 }
 emit("catalog.json", {
-    version: 1, chunkSize, total: records.length, counts, samples, sourceTerms
+    version: 1, chunkSize, total: records.length, counts, samples, sourceTerms,
+    duplicateSamples:duplicateSamples.slice(0,8)
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,
     records:records.length,collisions:collisions.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize)}));
