@@ -1,3 +1,11 @@
+## THAYER — quinto lote: 50/100 fichas digitais (14/10/2026)
+
+O ciclo retomou o checkpoint real de **400** e incorporou **50 novos artigos tipográficos**, da entrada **ἀναπολόγητος** até **ἀνεύθετος**, nas páginas impressas **41–44** (folhas PDF **65–68**) do fac-símile. O total acumulado da branch exclusiva `chat-gpt-thayer` é **450 registros digitais de trabalho**, equivalente a **50/100 no quinto lote**. **Próximo lema: ἀνευρίσκω**, página impressa **44**. O arquivo operacional de referência é `lexicons/thayer-progress.json`.
+
+**Arquivos de fonte:** `lexicons/thayer-source-facsimile-037.json` (8 registros), `038.json` (8), `039.json` (14) e `040.json` (20). **Apresentação:** `lexicons/thayer-batch-037-facsimile.js` a `040-facsimile.js`, ativados no `index.html`. As fontes têm campos distintos para a grafia/posição no impresso, texto bruto OCR oriundo da própria fotografia, referências e análise/tradução portuguesa. Os artigos extensos **ἀνάστασις**, **ἀναστρέφω**, **ἀναφέρω** e **ἄνεμος** foram mantidos como unidades lexicais, sem dividir suas acepções para elevar a contagem. A distinção **ἀνεξερεύνητος/ἀνεξιχνίαστος** foi preservada em cabeçalhos independentes. Na revisão, o item **0429** foi corrigido de `ἀνδρίζομαι` para o cabeçalho impresso **ἀνδρίζω**, mantendo a forma médio-passiva na informação morfológica.
+
+**Limite de evidência:** os 450 registros são **fichas digitais preliminares de tradução analítica**, não 450 transcrições inglesas integrais colacionadas ou traduções portuguesas certificadas. O OCR fotográfico em grego pode apresentar falhas e não se sobrepõe ao fac-símile original. Essa etapa não inclui auditoria filológica completa, homologação, PR ou merge, nem alterações na `main`.
+
 ## THAYER — quarto lote de 100 fichas concluído (14/10/2026)
 
 A branch `chat-gpt-thayer` possui agora **400 fichas digitais de trabalho** desde o reinício a partir do fac-símile fotográfico de Thayer. O quarto lote de 100 encerrou-se na página impressa **41** (folha PDF **65**) com **50 novos cabeçalhos** nesta continuação: de **ἀναίδεια** até **ἀναπληρόω**, nas páginas impressas **38–41** (folhas PDF **62–65**). **Próxima entrada: ἀναπολόγητος**, ainda na página impressa 41. O arquivo de estado é `lexicons/thayer-progress.json`.
