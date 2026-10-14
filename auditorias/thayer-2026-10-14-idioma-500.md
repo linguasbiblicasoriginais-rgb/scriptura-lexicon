@@ -8,7 +8,7 @@
 - Este é um inventário técnico da interface, não uma prova de correção exaustiva das traduções.
 
 ## Correção aplicada
-`lexicons/thayer-portugues-ui.js` é executado depois de todos os módulos THAYER e antes de `script.js`. Remove da string de cartões apenas os 443 parágrafos OCR, sem eliminar parágrafos de tradução portuguesa, notas, formas gregas, referências ou metadados. O inglês da fonte permanece nos documentos `thayer-source-facsimile-*.json` para rastreabilidade. Uma checagem de contagem bloqueia a apresentação não conciliada se o total mudar sem revisão do verificador.
+`lexicons/thayer-portugues-ui.js` é executado depois de todos os módulos THAYER e antes de `script.js`. Remove da string de cartões apenas os 443 parágrafos OCR, sem eliminar parágrafos de tradução portuguesa, notas, formas gregas, referências ou metadados. O inglês da fonte permanece nos documentos `thayer-source-facsimile-*.json` para rastreabilidade. A checagem de contagem usa uma linha de base mínima (500/443): acusa erro em caso de regressão; lotes futuros devem ser auditados separadamente. Um erro JavaScript neste módulo não impede automaticamente a execução dos demais scripts do documento.
 
 ## Duas garantias diferentes
 1. **Idioma da interface:** a correção remove os **443 blocos de OCR inglês conhecidos**. O texto de acepções em português permanece, assim como nomes, fórmulas originais e títulos bibliográficos.

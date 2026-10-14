@@ -747,10 +747,11 @@
     "portuguese_content_section_count": 500,
     "english_ocr_paragraphs_detected": 443,
     "english_ocr_paragraphs_expected_hidden_at_runtime": 443,
-    "english_ocr_paragraphs_without_visibility": 57,
     "english_source_json_preserved": true,
     "complete_portuguese_translation_certified": false,
     "filological_comparison_outstanding": true,
-    "implementation": "lexicons/thayer-portugues-ui.js"
+    "implementation": "lexicons/thayer-portugues-ui.js",
+    "cards_without_ocr_paragraph": 57,
+    "dynamic_policy": "Base mínima de 500 cartões e 443 blocos removidos; lotes futuros devem ser auditados separadamente. Erro no script não impede automaticamente a execução de scripts HTML posteriores."
   }
 }
