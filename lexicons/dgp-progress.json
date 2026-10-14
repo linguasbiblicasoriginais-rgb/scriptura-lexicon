@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 32001,
-    "status": "Lotes DGP 1–369 incorporados; 32000 registros XML no manifesto; próxima entrada 32001. Somente incorporação.",
+    "next_ordinal": 32101,
+    "status": "Lotes DGP 1–370 incorporados; 32100 registros XML no manifesto; próxima entrada 32101. Somente incorporação.",
     "current_letter": "π",
     "total_dictionary_entries": 44590
   },
@@ -3335,6 +3335,15 @@
       "end_ordinal": 32000,
       "start_entry": "Πελίας, ου (ὁ)",
       "end_entry": "Πεντάπυλα, ων (τά)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 370,
+      "start_ordinal": 32001,
+      "end_ordinal": 32100,
+      "start_entry": "πεντάς, άδος (ἡ)",
+      "end_entry": "πέρ,",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
