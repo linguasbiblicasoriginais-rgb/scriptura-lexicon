@@ -1,3 +1,7 @@
+## DGP — recuperação exclusiva de registros pendentes 141–885 (14/10/2026)
+
+Recuperados para a carga da aplicação **745 registros já contabilizados no manifesto** (ordinais **141–885**) a partir do XML canônico α, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`, blob `eec318bb6150b6b2f4422ea4a76383ac0a254de2`. O `index.html` carrega oito módulos `lexicons/dgp-recovery-*.js` após `dgp-batches.js` e antes de `dgp-batch-073.js`; cada módulo insere as linhas e cartões imediatamente antes do registro 1631 para conservar a ordenação. A contagem canônica permanece **27.000 / 44.590**, pois os verbetes não são novos: corrigiu-se sua ausência da carga. Remanescem **745 registros pendentes**, ordinais **886–1630**, entre os 1.490 originalmente ausentes. Exclusivamente recuperação/incorporação, sem auditoria formal, homologação, PR ou integração.
+
 ## DGP — incorporação exclusiva do lote 319 (14/10/2026)
 
 Incorporados **100 registros `entryFree`**, ordinais **26901–27000** (**μετοικέω-ῶ** → **μήδομαι**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27000 / 44.590**; próximo ordinal **27001**. Somente incorporação; sem auditoria, homologação, PR ou integração.

@@ -1855,3 +1855,6 @@ Incorporação exclusiva: ordinais 26801–26900; μεταρρυθμίζω → 
 
 REGISTRO DGP — LOTE 319 (14/10/2026)
 Incorporação exclusiva: ordinais 26901–27000; μετοικέω-ῶ → μήδομαι; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 18 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — RECUPERAÇÃO DE PENDENTES 141–885 (14/10/2026)
+Foram recuperados 745 registros antes ausentes da carga da aplicação, ordinais 141–885, em oito módulos lexicons/dgp-recovery-*.js, provenientes da fonte canônica XML α (commit deb54b426ead447d01ced7534736f3e77be7015b; blob eec318bb6150b6b2f4422ea4a76383ac0a254de2). Os módulos são carregados após dgp-batches.js e inserem linhas/cartões em ordem antes do ordinal 1631. Permanecem 745 pendentes (886–1630), sem alteração dos 27.000 registros canonicamente declarados. Não foram executadas auditoria formal, homologação, PR ou integração.
