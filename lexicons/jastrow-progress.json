@@ -9,22 +9,23 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 1000,
-    "next_ordinal": 12001,
+    "next_ordinal": 21001,
     "next_source_id": null,
     "next_lemma": null,
-    "source_records_retrieved": 12000,
+    "source_records_retrieved": 21000,
     "first_source_id": "A00000",
-    "last_source_id": "I00812",
-    "next_source_batch_ordinal": 12001,
+    "last_source_id": "O01511",
+    "next_source_batch_ordinal": 21001,
     "next_source_batch_id": null,
     "next_source_batch_lemma": null,
-    "total_published": 12000,
+    "total_published": 21000,
     "total_audited": 0,
     "total_integrated": 12000,
-    "editorial_status": "12.000 entradas JASTROW publicadas e integradas tecnicamente em chat-gpt-commits pelo PR #122 (merge c04749ed282a3966235dc1940f034e5ac00dbf64). Glosas recentes pt-BR preliminares de tradução automática, não revistas; fonte XML preservada. Auditoria filológica e homologação atômica pendentes: total_audited=0.",
-    "source_status": "12.000 entradas originais integrais em sessenta lotes de 200.",
+    "editorial_status": "21.000 registros JASTROW incorporados; 1.000 novos, glosas e notas traduzidas automaticamente para português, não revistas. Nenhum inglês sinalizado como pendência foi publicado. Fonte XML original independente.",
+    "source_status": "21.000 entradas originais integrais em 105 lotes de 200.",
     "total_screened_filologically": 600,
-    "total_manually_confronted_this_cycle": 5
+    "total_manually_confronted_this_cycle": 5,
+    "glosses_pending_translation_last_cycle": 0
   },
   "batches": [
     {
@@ -1293,24 +1294,926 @@
         "lexicons/jastrow-11901-12000.js"
       ],
       "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 66,
+      "source_start_ordinal": 12001,
+      "source_end_ordinal": 12200,
+      "source_count": 200,
+      "source_first_id": "I00813",
+      "source_last_id": "J00095",
+      "source_file": "lexicons/jastrow-source-lote-0061.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 12001,
+      "translated_end_ordinal": 12200,
+      "translated_count": 200,
+      "translated_first_id": "I00813",
+      "translated_last_id": "J00095",
+      "translated_files": [
+        "lexicons/jastrow-12001-12100.js",
+        "lexicons/jastrow-12101-12200.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 67,
+      "source_start_ordinal": 12201,
+      "source_end_ordinal": 12400,
+      "source_count": 200,
+      "source_first_id": "J00096",
+      "source_last_id": "J00295",
+      "source_file": "lexicons/jastrow-source-lote-0062.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 12201,
+      "translated_end_ordinal": 12400,
+      "translated_count": 200,
+      "translated_first_id": "J00096",
+      "translated_last_id": "J00295",
+      "translated_files": [
+        "lexicons/jastrow-12201-12300.js",
+        "lexicons/jastrow-12301-12400.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 68,
+      "source_start_ordinal": 12401,
+      "source_end_ordinal": 12600,
+      "source_count": 200,
+      "source_first_id": "J00296",
+      "source_last_id": "J00495",
+      "source_file": "lexicons/jastrow-source-lote-0063.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 12401,
+      "translated_end_ordinal": 12600,
+      "translated_count": 200,
+      "translated_first_id": "J00296",
+      "translated_last_id": "J00495",
+      "translated_files": [
+        "lexicons/jastrow-12401-12500.js",
+        "lexicons/jastrow-12501-12600.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 69,
+      "source_start_ordinal": 12601,
+      "source_end_ordinal": 12800,
+      "source_count": 200,
+      "source_first_id": "J00496",
+      "source_last_id": "J00695",
+      "source_file": "lexicons/jastrow-source-lote-0064.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 12601,
+      "translated_end_ordinal": 12800,
+      "translated_count": 200,
+      "translated_first_id": "J00496",
+      "translated_last_id": "J00695",
+      "translated_files": [
+        "lexicons/jastrow-12601-12700.js",
+        "lexicons/jastrow-12701-12800.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 70,
+      "source_start_ordinal": 12801,
+      "source_end_ordinal": 13000,
+      "source_count": 200,
+      "source_first_id": "J00696",
+      "source_last_id": "K00137",
+      "source_file": "lexicons/jastrow-source-lote-0065.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 12801,
+      "translated_end_ordinal": 13000,
+      "translated_count": 200,
+      "translated_first_id": "J00696",
+      "translated_last_id": "K00137",
+      "translated_files": [
+        "lexicons/jastrow-12801-12900.js",
+        "lexicons/jastrow-12901-13000.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 71,
+      "source_start_ordinal": 13001,
+      "source_end_ordinal": 13200,
+      "source_count": 200,
+      "source_first_id": "K00138",
+      "source_last_id": "K00337",
+      "source_file": "lexicons/jastrow-source-lote-0066.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 13001,
+      "translated_end_ordinal": 13200,
+      "translated_count": 200,
+      "translated_first_id": "K00138",
+      "translated_last_id": "K00337",
+      "translated_files": [
+        "lexicons/jastrow-13001-13100.js",
+        "lexicons/jastrow-13101-13200.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 72,
+      "source_start_ordinal": 13201,
+      "source_end_ordinal": 13400,
+      "source_count": 200,
+      "source_first_id": "K00338",
+      "source_last_id": "K00537",
+      "source_file": "lexicons/jastrow-source-lote-0067.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 13201,
+      "translated_end_ordinal": 13400,
+      "translated_count": 200,
+      "translated_first_id": "K00338",
+      "translated_last_id": "K00537",
+      "translated_files": [
+        "lexicons/jastrow-13201-13300.js",
+        "lexicons/jastrow-13301-13400.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 73,
+      "source_start_ordinal": 13401,
+      "source_end_ordinal": 13600,
+      "source_count": 200,
+      "source_first_id": "K00538",
+      "source_last_id": "K00737",
+      "source_file": "lexicons/jastrow-source-lote-0068.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 13401,
+      "translated_end_ordinal": 13600,
+      "translated_count": 200,
+      "translated_first_id": "K00538",
+      "translated_last_id": "K00737",
+      "translated_files": [
+        "lexicons/jastrow-13401-13500.js",
+        "lexicons/jastrow-13501-13600.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 74,
+      "source_start_ordinal": 13601,
+      "source_end_ordinal": 13800,
+      "source_count": 200,
+      "source_first_id": "K00738",
+      "source_last_id": "K00937",
+      "source_file": "lexicons/jastrow-source-lote-0069.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 13601,
+      "translated_end_ordinal": 13800,
+      "translated_count": 200,
+      "translated_first_id": "K00738",
+      "translated_last_id": "K00937",
+      "translated_files": [
+        "lexicons/jastrow-13601-13700.js",
+        "lexicons/jastrow-13701-13800.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 75,
+      "source_start_ordinal": 13801,
+      "source_end_ordinal": 14000,
+      "source_count": 200,
+      "source_first_id": "K00938",
+      "source_last_id": "K01137",
+      "source_file": "lexicons/jastrow-source-lote-0070.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 13801,
+      "translated_end_ordinal": 14000,
+      "translated_count": 200,
+      "translated_first_id": "K00938",
+      "translated_last_id": "K01137",
+      "translated_files": [
+        "lexicons/jastrow-13801-13900.js",
+        "lexicons/jastrow-13901-14000.js"
+      ],
+      "status": "Sínteses de tradução automática preliminar em português; sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 76,
+      "source_start_ordinal": 14001,
+      "source_end_ordinal": 14200,
+      "source_count": 200,
+      "source_first_id": "K01138",
+      "source_last_id": "K01337",
+      "source_file": "lexicons/jastrow-source-lote-0071.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 14001,
+      "translated_end_ordinal": 14200,
+      "translated_count": 200,
+      "translated_first_id": "K01138",
+      "translated_last_id": "K01337",
+      "translated_files": [
+        "lexicons/jastrow-14001-14100.js",
+        "lexicons/jastrow-14101-14200.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 77,
+      "source_start_ordinal": 14201,
+      "source_end_ordinal": 14400,
+      "source_count": 200,
+      "source_first_id": "K01338",
+      "source_last_id": "L00142",
+      "source_file": "lexicons/jastrow-source-lote-0072.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 14201,
+      "translated_end_ordinal": 14400,
+      "translated_count": 200,
+      "translated_first_id": "K01338",
+      "translated_last_id": "L00142",
+      "translated_files": [
+        "lexicons/jastrow-14201-14300.js",
+        "lexicons/jastrow-14301-14400.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 78,
+      "source_start_ordinal": 14401,
+      "source_end_ordinal": 14600,
+      "source_count": 200,
+      "source_first_id": "L00143",
+      "source_last_id": "L00342",
+      "source_file": "lexicons/jastrow-source-lote-0073.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 14401,
+      "translated_end_ordinal": 14600,
+      "translated_count": 200,
+      "translated_first_id": "L00143",
+      "translated_last_id": "L00342",
+      "translated_files": [
+        "lexicons/jastrow-14401-14500.js",
+        "lexicons/jastrow-14501-14600.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 79,
+      "source_start_ordinal": 14601,
+      "source_end_ordinal": 14800,
+      "source_count": 200,
+      "source_first_id": "L00343",
+      "source_last_id": "L00542",
+      "source_file": "lexicons/jastrow-source-lote-0074.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 14601,
+      "translated_end_ordinal": 14800,
+      "translated_count": 200,
+      "translated_first_id": "L00343",
+      "translated_last_id": "L00542",
+      "translated_files": [
+        "lexicons/jastrow-14601-14700.js",
+        "lexicons/jastrow-14701-14800.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 80,
+      "source_start_ordinal": 14801,
+      "source_end_ordinal": 15000,
+      "source_count": 200,
+      "source_first_id": "L00543",
+      "source_last_id": "M00023",
+      "source_file": "lexicons/jastrow-source-lote-0075.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 14801,
+      "translated_end_ordinal": 15000,
+      "translated_count": 200,
+      "translated_first_id": "L00543",
+      "translated_last_id": "M00023",
+      "translated_files": [
+        "lexicons/jastrow-14801-14900.js",
+        "lexicons/jastrow-14901-15000.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 81,
+      "source_start_ordinal": 15001,
+      "source_end_ordinal": 15200,
+      "source_count": 200,
+      "source_first_id": "M00024",
+      "source_last_id": "M00223",
+      "source_file": "lexicons/jastrow-source-lote-0076.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 15001,
+      "translated_end_ordinal": 15200,
+      "translated_count": 200,
+      "translated_first_id": "M00024",
+      "translated_last_id": "M00223",
+      "translated_files": [
+        "lexicons/jastrow-15001-15100.js",
+        "lexicons/jastrow-15101-15200.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 82,
+      "source_start_ordinal": 15201,
+      "source_end_ordinal": 15400,
+      "source_count": 200,
+      "source_first_id": "M00224",
+      "source_last_id": "M00423",
+      "source_file": "lexicons/jastrow-source-lote-0077.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 15201,
+      "translated_end_ordinal": 15400,
+      "translated_count": 200,
+      "translated_first_id": "M00224",
+      "translated_last_id": "M00423",
+      "translated_files": [
+        "lexicons/jastrow-15201-15300.js",
+        "lexicons/jastrow-15301-15400.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 83,
+      "source_start_ordinal": 15401,
+      "source_end_ordinal": 15600,
+      "source_count": 200,
+      "source_first_id": "M00424",
+      "source_last_id": "M00623",
+      "source_file": "lexicons/jastrow-source-lote-0078.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 15401,
+      "translated_end_ordinal": 15600,
+      "translated_count": 200,
+      "translated_first_id": "M00424",
+      "translated_last_id": "M00623",
+      "translated_files": [
+        "lexicons/jastrow-15401-15500.js",
+        "lexicons/jastrow-15501-15600.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 84,
+      "source_start_ordinal": 15601,
+      "source_end_ordinal": 15800,
+      "source_count": 200,
+      "source_first_id": "M00624",
+      "source_last_id": "M00823",
+      "source_file": "lexicons/jastrow-source-lote-0079.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 15601,
+      "translated_end_ordinal": 15800,
+      "translated_count": 200,
+      "translated_first_id": "M00624",
+      "translated_last_id": "M00823",
+      "translated_files": [
+        "lexicons/jastrow-15601-15700.js",
+        "lexicons/jastrow-15701-15800.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 85,
+      "source_start_ordinal": 15801,
+      "source_end_ordinal": 16000,
+      "source_count": 200,
+      "source_first_id": "M00824",
+      "source_last_id": "M01023",
+      "source_file": "lexicons/jastrow-source-lote-0080.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 15801,
+      "translated_end_ordinal": 16000,
+      "translated_count": 200,
+      "translated_first_id": "M00824",
+      "translated_last_id": "M01023",
+      "translated_files": [
+        "lexicons/jastrow-15801-15900.js",
+        "lexicons/jastrow-15901-16000.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 86,
+      "source_start_ordinal": 16001,
+      "source_end_ordinal": 16200,
+      "source_count": 200,
+      "source_first_id": "M01024",
+      "source_last_id": "M01223",
+      "source_file": "lexicons/jastrow-source-lote-0081.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16001,
+      "translated_end_ordinal": 16200,
+      "translated_count": 200,
+      "translated_first_id": "M01024",
+      "translated_last_id": "M01223",
+      "translated_files": [
+        "lexicons/jastrow-16001-16100.js",
+        "lexicons/jastrow-16101-16200.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 87,
+      "source_start_ordinal": 16201,
+      "source_end_ordinal": 16400,
+      "source_count": 200,
+      "source_first_id": "M01224",
+      "source_last_id": "M01423",
+      "source_file": "lexicons/jastrow-source-lote-0082.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16201,
+      "translated_end_ordinal": 16400,
+      "translated_count": 200,
+      "translated_first_id": "M01224",
+      "translated_last_id": "M01423",
+      "translated_files": [
+        "lexicons/jastrow-16201-16300.js",
+        "lexicons/jastrow-16301-16400.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 88,
+      "source_start_ordinal": 16401,
+      "source_end_ordinal": 16600,
+      "source_count": 200,
+      "source_first_id": "M01424",
+      "source_last_id": "M01623",
+      "source_file": "lexicons/jastrow-source-lote-0083.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16401,
+      "translated_end_ordinal": 16600,
+      "translated_count": 200,
+      "translated_first_id": "M01424",
+      "translated_last_id": "M01623",
+      "translated_files": [
+        "lexicons/jastrow-16401-16500.js",
+        "lexicons/jastrow-16501-16600.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 89,
+      "source_start_ordinal": 16601,
+      "source_end_ordinal": 16800,
+      "source_count": 200,
+      "source_first_id": "M01624",
+      "source_last_id": "M01823",
+      "source_file": "lexicons/jastrow-source-lote-0084.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16601,
+      "translated_end_ordinal": 16800,
+      "translated_count": 200,
+      "translated_first_id": "M01624",
+      "translated_last_id": "M01823",
+      "translated_files": [
+        "lexicons/jastrow-16601-16700.js",
+        "lexicons/jastrow-16701-16800.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 90,
+      "source_start_ordinal": 16801,
+      "source_end_ordinal": 17000,
+      "source_count": 200,
+      "source_first_id": "M01824",
+      "source_last_id": "M02023",
+      "source_file": "lexicons/jastrow-source-lote-0085.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16801,
+      "translated_end_ordinal": 17000,
+      "translated_count": 200,
+      "translated_first_id": "M01824",
+      "translated_last_id": "M02023",
+      "translated_files": [
+        "lexicons/jastrow-16801-16900.js",
+        "lexicons/jastrow-16901-17000.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 91,
+      "source_start_ordinal": 17001,
+      "source_end_ordinal": 17200,
+      "source_count": 200,
+      "source_first_id": "M02024",
+      "source_last_id": "M02223",
+      "source_file": "lexicons/jastrow-source-lote-0086.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 17001,
+      "translated_end_ordinal": 17200,
+      "translated_count": 200,
+      "translated_first_id": "M02024",
+      "translated_last_id": "M02223",
+      "translated_files": [
+        "lexicons/jastrow-17001-17100.js",
+        "lexicons/jastrow-17101-17200.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 92,
+      "source_start_ordinal": 17201,
+      "source_end_ordinal": 17400,
+      "source_count": 200,
+      "source_first_id": "M02224",
+      "source_last_id": "M02423",
+      "source_file": "lexicons/jastrow-source-lote-0087.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 17201,
+      "translated_end_ordinal": 17400,
+      "translated_count": 200,
+      "translated_first_id": "M02224",
+      "translated_last_id": "M02423",
+      "translated_files": [
+        "lexicons/jastrow-17201-17300.js",
+        "lexicons/jastrow-17301-17400.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 93,
+      "source_start_ordinal": 17401,
+      "source_end_ordinal": 17600,
+      "source_count": 200,
+      "source_first_id": "M02424",
+      "source_last_id": "M02623",
+      "source_file": "lexicons/jastrow-source-lote-0088.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 17401,
+      "translated_end_ordinal": 17600,
+      "translated_count": 200,
+      "translated_first_id": "M02424",
+      "translated_last_id": "M02623",
+      "translated_files": [
+        "lexicons/jastrow-17401-17500.js",
+        "lexicons/jastrow-17501-17600.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 94,
+      "source_start_ordinal": 17601,
+      "source_end_ordinal": 17800,
+      "source_count": 200,
+      "source_first_id": "M02624",
+      "source_last_id": "M02823",
+      "source_file": "lexicons/jastrow-source-lote-0089.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 17601,
+      "translated_end_ordinal": 17800,
+      "translated_count": 200,
+      "translated_first_id": "M02624",
+      "translated_last_id": "M02823",
+      "translated_files": [
+        "lexicons/jastrow-17601-17700.js",
+        "lexicons/jastrow-17701-17800.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 95,
+      "source_start_ordinal": 17801,
+      "source_end_ordinal": 18000,
+      "source_count": 200,
+      "source_first_id": "M02824",
+      "source_last_id": "M03023",
+      "source_file": "lexicons/jastrow-source-lote-0090.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 17801,
+      "translated_end_ordinal": 18000,
+      "translated_count": 200,
+      "translated_first_id": "M02824",
+      "translated_last_id": "M03023",
+      "translated_files": [
+        "lexicons/jastrow-17801-17900.js",
+        "lexicons/jastrow-17901-18000.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 96,
+      "source_start_ordinal": 18001,
+      "source_end_ordinal": 18200,
+      "source_count": 200,
+      "source_first_id": "M03024",
+      "source_last_id": "N00111",
+      "source_file": "lexicons/jastrow-source-lote-0091.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 18001,
+      "translated_end_ordinal": 18200,
+      "translated_count": 200,
+      "translated_first_id": "M03024",
+      "translated_last_id": "N00111",
+      "translated_files": [
+        "lexicons/jastrow-18001-18100.js",
+        "lexicons/jastrow-18101-18200.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 97,
+      "source_start_ordinal": 18201,
+      "source_end_ordinal": 18400,
+      "source_count": 200,
+      "source_first_id": "N00112",
+      "source_last_id": "N00311",
+      "source_file": "lexicons/jastrow-source-lote-0092.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 18201,
+      "translated_end_ordinal": 18400,
+      "translated_count": 200,
+      "translated_first_id": "N00112",
+      "translated_last_id": "N00311",
+      "translated_files": [
+        "lexicons/jastrow-18201-18300.js",
+        "lexicons/jastrow-18301-18400.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 98,
+      "source_start_ordinal": 18401,
+      "source_end_ordinal": 18600,
+      "source_count": 200,
+      "source_first_id": "N00312",
+      "source_last_id": "N00511",
+      "source_file": "lexicons/jastrow-source-lote-0093.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 18401,
+      "translated_end_ordinal": 18600,
+      "translated_count": 200,
+      "translated_first_id": "N00312",
+      "translated_last_id": "N00511",
+      "translated_files": [
+        "lexicons/jastrow-18401-18500.js",
+        "lexicons/jastrow-18501-18600.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 99,
+      "source_start_ordinal": 18601,
+      "source_end_ordinal": 18800,
+      "source_count": 200,
+      "source_first_id": "N00512",
+      "source_last_id": "N00711",
+      "source_file": "lexicons/jastrow-source-lote-0094.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 18601,
+      "translated_end_ordinal": 18800,
+      "translated_count": 200,
+      "translated_first_id": "N00512",
+      "translated_last_id": "N00711",
+      "translated_files": [
+        "lexicons/jastrow-18601-18700.js",
+        "lexicons/jastrow-18701-18800.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 100,
+      "source_start_ordinal": 18801,
+      "source_end_ordinal": 19000,
+      "source_count": 200,
+      "source_first_id": "N00712",
+      "source_last_id": "N00911",
+      "source_file": "lexicons/jastrow-source-lote-0095.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 18801,
+      "translated_end_ordinal": 19000,
+      "translated_count": 200,
+      "translated_first_id": "N00712",
+      "translated_last_id": "N00911",
+      "translated_files": [
+        "lexicons/jastrow-18801-18900.js",
+        "lexicons/jastrow-18901-19000.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 101,
+      "source_start_ordinal": 19001,
+      "source_end_ordinal": 19200,
+      "source_count": 200,
+      "source_first_id": "N00912",
+      "source_last_id": "N01111",
+      "source_file": "lexicons/jastrow-source-lote-0096.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 19001,
+      "translated_end_ordinal": 19200,
+      "translated_count": 200,
+      "translated_first_id": "N00912",
+      "translated_last_id": "N01111",
+      "translated_files": [
+        "lexicons/jastrow-19001-19100.js",
+        "lexicons/jastrow-19101-19200.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 102,
+      "source_start_ordinal": 19201,
+      "source_end_ordinal": 19400,
+      "source_count": 200,
+      "source_first_id": "N01112",
+      "source_last_id": "N01311",
+      "source_file": "lexicons/jastrow-source-lote-0097.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 19201,
+      "translated_end_ordinal": 19400,
+      "translated_count": 200,
+      "translated_first_id": "N01112",
+      "translated_last_id": "N01311",
+      "translated_files": [
+        "lexicons/jastrow-19201-19300.js",
+        "lexicons/jastrow-19301-19400.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 103,
+      "source_start_ordinal": 19401,
+      "source_end_ordinal": 19600,
+      "source_count": 200,
+      "source_first_id": "N01312",
+      "source_last_id": "O00111",
+      "source_file": "lexicons/jastrow-source-lote-0098.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 19401,
+      "translated_end_ordinal": 19600,
+      "translated_count": 200,
+      "translated_first_id": "N01312",
+      "translated_last_id": "O00111",
+      "translated_files": [
+        "lexicons/jastrow-19401-19500.js",
+        "lexicons/jastrow-19501-19600.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 104,
+      "source_start_ordinal": 19601,
+      "source_end_ordinal": 19800,
+      "source_count": 200,
+      "source_first_id": "O00112",
+      "source_last_id": "O00311",
+      "source_file": "lexicons/jastrow-source-lote-0099.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 19601,
+      "translated_end_ordinal": 19800,
+      "translated_count": 200,
+      "translated_first_id": "O00112",
+      "translated_last_id": "O00311",
+      "translated_files": [
+        "lexicons/jastrow-19601-19700.js",
+        "lexicons/jastrow-19701-19800.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 105,
+      "source_start_ordinal": 19801,
+      "source_end_ordinal": 20000,
+      "source_count": 200,
+      "source_first_id": "O00312",
+      "source_last_id": "O00511",
+      "source_file": "lexicons/jastrow-source-lote-0100.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 19801,
+      "translated_end_ordinal": 20000,
+      "translated_count": 200,
+      "translated_first_id": "O00312",
+      "translated_last_id": "O00511",
+      "translated_files": [
+        "lexicons/jastrow-19801-19900.js",
+        "lexicons/jastrow-19901-20000.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 106,
+      "source_start_ordinal": 20001,
+      "source_end_ordinal": 20200,
+      "source_count": 200,
+      "source_first_id": "O00512",
+      "source_last_id": "O00711",
+      "source_file": "lexicons/jastrow-source-lote-0101.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 20001,
+      "translated_end_ordinal": 20200,
+      "translated_count": 200,
+      "translated_first_id": "O00512",
+      "translated_last_id": "O00711",
+      "translated_files": [
+        "lexicons/jastrow-20001-20100.js",
+        "lexicons/jastrow-20101-20200.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 107,
+      "source_start_ordinal": 20201,
+      "source_end_ordinal": 20400,
+      "source_count": 200,
+      "source_first_id": "O00712",
+      "source_last_id": "O00911",
+      "source_file": "lexicons/jastrow-source-lote-0102.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 20201,
+      "translated_end_ordinal": 20400,
+      "translated_count": 200,
+      "translated_first_id": "O00712",
+      "translated_last_id": "O00911",
+      "translated_files": [
+        "lexicons/jastrow-20201-20300.js",
+        "lexicons/jastrow-20301-20400.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 108,
+      "source_start_ordinal": 20401,
+      "source_end_ordinal": 20600,
+      "source_count": 200,
+      "source_first_id": "O00912",
+      "source_last_id": "O01111",
+      "source_file": "lexicons/jastrow-source-lote-0103.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 20401,
+      "translated_end_ordinal": 20600,
+      "translated_count": 200,
+      "translated_first_id": "O00912",
+      "translated_last_id": "O01111",
+      "translated_files": [
+        "lexicons/jastrow-20401-20500.js",
+        "lexicons/jastrow-20501-20600.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 109,
+      "source_start_ordinal": 20601,
+      "source_end_ordinal": 20800,
+      "source_count": 200,
+      "source_first_id": "O01112",
+      "source_last_id": "O01311",
+      "source_file": "lexicons/jastrow-source-lote-0104.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 20601,
+      "translated_end_ordinal": 20800,
+      "translated_count": 200,
+      "translated_first_id": "O01112",
+      "translated_last_id": "O01311",
+      "translated_files": [
+        "lexicons/jastrow-20601-20700.js",
+        "lexicons/jastrow-20701-20800.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
+    },
+    {
+      "batch": 110,
+      "source_start_ordinal": 20801,
+      "source_end_ordinal": 21000,
+      "source_count": 200,
+      "source_first_id": "O01312",
+      "source_last_id": "O01511",
+      "source_file": "lexicons/jastrow-source-lote-0105.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 20801,
+      "translated_end_ordinal": 21000,
+      "translated_count": 200,
+      "translated_first_id": "O01312",
+      "translated_last_id": "O01511",
+      "translated_files": [
+        "lexicons/jastrow-20801-20900.js",
+        "lexicons/jastrow-20901-21000.js"
+      ],
+      "status": "Glosas e notas traduzidas automaticamente para português, original preservado; sem auditoria/homologação/integração."
     }
   ],
   "last_attempt": {
     "date": "2026-10-14",
     "requested": 1000,
+    "new_entries_committed": 1000,
     "new_translations_committed": 1000,
-    "prior_published": 11000,
-    "total_published": 12000,
-    "new_range": "H01727–I00812",
-    "source_records_retrieved_total": 12000,
+    "translation_units": 2592,
+    "glosses_pending_translation": 0,
+    "prior_published": 20000,
+    "total_published": 21000,
+    "new_range": "O00512–O01511",
+    "source_records_retrieved_total": 21000,
     "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
-    "next_ordinal": 12001,
-    "next_source_id": null,
-    "next_lemma": null,
+    "next_ordinal": 21001,
+    "translation_engine": "Argos Translate offline en→pb",
     "audit_performed": false,
     "homologation_performed": false,
     "integration_performed": false,
-    "editorial_level": "Tradução automática inicial não revista; fonte original integral independente."
+    "editorial_level": "Tradução automática preliminar para português; fonte original preservada."
   },
   "constraints": {
     "never_invent": true,

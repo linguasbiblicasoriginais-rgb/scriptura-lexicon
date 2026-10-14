@@ -920,3 +920,1060 @@ Exame individual de 100 verbetes (fonte XML canônica Git eec318bb6150b6b2f4422e
 
 12/10/2026 — AUDITORIA FILOLÓGICA ÚNICA DGP 1001–1100 (LOTE 012)
 Conferidos 100 verbetes e definições integrais do XML canônico, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2, contra os pares publicados, HEAD lexical 59d497c25c0a9bbc0a15a2d49d6586e5d6892500. Lemas 100/100 idênticos; 92/100 definições equivalentes literalmente após normalização e oito expansões autorais verificadas nos ordinais 1029, 1041, 1083, 1093, 1094, 1095, 1097, 1098, sem diferença não explicada. Pareceres A=95 C=3 P=2. Correções #1015, #1034, #1100 como notas GDHAGP em lexicons/dgp-format.js; pendências #1022 e #1087 relativas a testemunho homérico e acepção LXX. Syntax JS compilada, navegador não testado; Fonte XML e tuplas DGP preservadas. Relatório auditorias/dgp-filologia-2026-10-12-lote012-1001-1100.md; evidências auditorias/dgp-filologia-2026-10-12-lote012-evidencias.json. Checkpoint 1000->1100/3300, próximo 1101 αἴσθησις. Sem merge, sem commit em main. Preservar classificação histórica dos 600 iniciais e demais lotes.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 82 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, por solicitação específica, sem auditoria,
+homologação, PR ou integração. Fonte XML imutável alfa, commit
+deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3301–3400: ἀνέπηλα → ἀνηκέστως.
+Novo módulo: lexicons/dgp-batch-082.js. Manifesto: 3400 verbetes;
+próximo ordinal: 3401. Este registro não declara auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 83 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML imutável alfa, commit deb54b426ead447d01ced7534736f3e77be7015b,
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3401–3500: ἀνηκοΐα, ας (ἡ) → ἀνθρήνιον, ου (τό).
+Módulo: lexicons/dgp-batch-083.js. Manifesto: 3500 verbetes;
+próximo ordinal: 3501.
+No ordinal 3449, o XML não apresenta texto de lema antes de <def>, mas
+registra explicitamente ἀνθεμίζομαι no início da definição: usa-se esse
+lema para busca, preservando-se integralmente o texto da definição.
+Este registro não declara auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 84 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML imutável alfa, commit deb54b426ead447d01ced7534736f3e77be7015b,
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3501–3600: ἀνθρηνιώδης, ης, ες → ἀννέομαι.
+Novo módulo: lexicons/dgp-batch-84.js. Manifesto: 3600 verbetes;
+próximo ordinal: 3601. Este registro não declara auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 85 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML imutável alfa, commit deb54b426ead447d01ced7534736f3e77be7015b,
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3601–3700: ἀννέφελος → ἄντα.
+Novo módulo: lexicons/dgp-batch-85.js. Manifesto: 3700 verbetes;
+próximo ordinal: 3701. Este registro não declara auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 86 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML imutável alfa, commit deb54b426ead447d01ced7534736f3e77be7015b,
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3701–3800: ἀνταγοράζω → ἀντεπείσοδος, ου (ἡ).
+Novo módulo: lexicons/dgp-batch-086.js. Manifesto: 3800 verbetes;
+próximo ordinal: 3801. Este registro não declara auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 87 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML imutável alfa, commit deb54b426ead447d01ced7534736f3e77be7015b,
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3801–3900: ἀντεπεισφέρομαι → ἀντίθημι.
+Novo módulo: lexicons/dgp-batch-087.js. Manifesto: 3900 verbetes;
+próximo ordinal: 3901. Este registro não declara auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 88 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML imutável alfa, commit deb54b426ead447d01ced7534736f3e77be7015b,
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 3901–4000: ἀντίθυρος, ος, ον → ἀντιπαλαιστής, οῦ (ὁ).
+Módulo: lexicons/dgp-batch-088.js. Manifesto: 4000 verbetes;
+próximo ordinal: 4001. Sem declaração de auditoria concluída.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 89 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4001–4100: ἀντίπαλος, ος, ον → ἀντίταξις, εως (ἡ).
+Módulo: lexicons/dgp-batch-089.js. Manifesto: 4100 verbetes; próximo ordinal: 4101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 90 — 12/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4101–4200: ἀντιτάσσω, → ἀνύψωμα, ατος (τό).
+Módulo: lexicons/dgp-batch-090.js. Manifesto: 4200 verbetes; próximo ordinal: 4201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 91 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4201–4300: ἀνύω → ἀοιδή, ῆς (ἡ).
+Módulo: lexicons/dgp-batch-091.js. Manifesto: 4300 verbetes; próximo ordinal: 4301.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 92 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4301–4400: ἀοιδιάω-ῶ → ἀπαντικρύ.
+Módulo: lexicons/dgp-batch-092.js. Manifesto: 4400 verbetes; próximo ordinal: 4401.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 93 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4401–4500: ἀπαντίον → ἀπείθην.
+Módulo: lexicons/dgp-batch-093.js. Manifesto: 4500 verbetes; próximo ordinal: 4501.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 94 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4501–4600: ἀπειθής, ής, ές → ἀπεραντολογία, ας (ἡ).
+Módulo: lexicons/dgp-batch-094.js. Manifesto: 4600 verbetes; próximo ordinal: 4601.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 95 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4601–4700: ἀπέραντος, ος, ον → ἀπημείφθη.
+Módulo: lexicons/dgp-batch-095.js. Manifesto: 4700 verbetes; próximo ordinal: 4701.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 96 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4701–4800: ἀπήμεσα → ἀποαίνυμαι.
+Módulo: lexicons/dgp-batch-096.js. Manifesto: 4800 verbetes; próximo ordinal: 4801.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 97 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4801–4900: ἀποαίρεο → ἀπόδος.
+Módulo: lexicons/dgp-batch-097.js. Manifesto: 4900 verbetes; próximo ordinal: 4901.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 98 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 4901–5000: ἀπόδοσις, εως (ἡ) → ἀποκηδεύω.
+Módulo: lexicons/dgp-batch-098.js. Manifesto: 5000 verbetes; próximo ordinal: 5001.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 99 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5001–5100: ἀποκηδέω-ῶ → ἀπόληψις, εως (ἡ).
+Módulo: lexicons/dgp-batch-099.js. Manifesto: 5100 verbetes; próximo ordinal: 5101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 100 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5101–5200: ἀπολήψομαι → ἄπονος, ος, ον.
+Módulo: lexicons/dgp-batch-100.js. Manifesto: 5200 verbetes; próximo ordinal: 5201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 101 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5201–5300: ἀπονοστέω-ῶ → ἀπορρίπτω.
+Módulo: lexicons/dgp-batch-101.js. Manifesto: 5300 verbetes; próximo ordinal: 5301.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 102 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5301–5400: ἀπορροή, ῆς (ἡ) → ἀποστροφή, ῆς (ἡ).
+Módulo: lexicons/dgp-batch-102.js. Manifesto: 5400 verbetes; próximo ordinal: 5401.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 103 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5401–5500: ἀπόστροφος, ος, ον → ἀπόφασις2, εως (ἡ).
+Módulo: lexicons/dgp-batch-103.js. Manifesto: 5500 verbetes; próximo ordinal: 5501.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 104 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5501–5600: ἀποφάσκω → ἀπροσήγορος, ος, ον.
+Módulo: lexicons/dgp-batch-104.js. Manifesto: 5600 verbetes; próximo ordinal: 5601.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 105 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5601–5700: ἀπρόσιτος, ος, ον → ἀραχνώδης, ης, ες.
+Módulo: lexicons/dgp-batch-105.js. Manifesto: 5700 verbetes; próximo ordinal: 5701.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 106 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5701–5800: Ἄραψ, Ἄραβος → ἀρετή, ῆς (ἡ).
+Módulo: lexicons/dgp-batch-106.js. Manifesto: 5800 verbetes; próximo ordinal: 5801.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 107 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5801–5900: ἁρετή → ἄρκυς, υος (ἡ).
+Módulo: lexicons/dgp-batch-107.js. Manifesto: 5900 verbetes; próximo ordinal: 5901.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 108 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 5901–6000: ἀρκύστατος, ος → ἄρσην.
+Módulo: lexicons/dgp-batch-108.js. Manifesto: 6000 verbetes; próximo ordinal: 6001.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 109 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6001–6100: ἄρσις, εως (ἡ) → ἀρχικυβερνήτης, ου (ὁ).
+Módulo: lexicons/dgp-batch-109.js. Manifesto: 6100 verbetes; próximo ordinal: 6101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 110 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6101–6200: ἀρχιλῃστής, οῦ (ὁ) → ἀσκελής2, ής, ές.
+Módulo: lexicons/dgp-batch-110.js. Manifesto: 6200 verbetes; próximo ordinal: 6201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 111 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6201–6300: ἀσκέπαρνος, ος, ον → ἀστιβής, ής, ές.
+Módulo: lexicons/dgp-batch-111.js. Manifesto: 6300 verbetes; próximo ordinal: 6301.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 112 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6301–6400: ἀστικός, ή, όν → ἀσφάλιος, ου.
+Módulo: lexicons/dgp-batch-112.js. Manifesto: 6400 verbetes; próximo ordinal: 6401.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 113 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6401–6500: ἄσφαλτος, ου (ὁ) → ἄτη, ης (ἡ).
+Módulo: lexicons/dgp-batch-113.js. Manifesto: 6500 verbetes; próximo ordinal: 6501.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 114 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6501–6600: ἄτηκτος, ος, ον → ἀττικιστί.
+Módulo: lexicons/dgp-batch-114.js. Manifesto: 6600 verbetes; próximo ordinal: 6601.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 115 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6601–6700: ἀττικός, ή, όν → αὐτάγρετος, ος, ον.
+Módulo: lexicons/dgp-batch-115.js. Manifesto: 6700 verbetes; próximo ordinal: 6701.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 116 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6701–6800: αὐτάδελφος, ος, ον → αὐτοσταδίη.
+Módulo: lexicons/dgp-batch-116.js. Manifesto: 6800 verbetes; próximo ordinal: 6801.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 117 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6801–6900: αὐτόστολος, ος, ον → ἀφέλεια, ας (ἡ).
+Módulo: lexicons/dgp-batch-117.js. Manifesto: 6900 verbetes; próximo ordinal: 6901.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 118 — 13/10/2026
+================================================================================
+Exclusivamente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML alfa, commit deb54b426ead447d01ced7534736f3e77be7015b;
+blob eec318bb6150b6b2f4422ea4a76383ac0a254de2.
+Ordinais 6901–7000: ἀφελής, ής, ές → ἄφοδος, ου (ἡ).
+Módulo: lexicons/dgp-batch-118.js. Manifesto: 7000 verbetes; próximo ordinal: 7001.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 119 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico α; snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7001–7100: ἀφοίβαντος, ος, ον → ἀχείρωτος, ος, ον.
+Módulo lexicons/dgp-batch-119.js; acumulado 7100; próximo 7101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 120 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico α; snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7101–7200: Ἀχελωϊος → ἀωσφόρος.
+Módulo lexicons/dgp-batch-120.js; acumulado 7200; próximo 7201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 121 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico α–β; snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7201–7300: ἀωτέω-ῶ → βαλλήν, ῆνος (ὁ).
+Módulo lexicons/dgp-batch-121.js; acumulado 7300; próximo 7301.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 122 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454); snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7301–7400: βαλληναῖος, ος, ον → βασσάριον, ου (τό).
+Módulo lexicons/dgp-batch-122.js; acumulado 7400; próximo 7401.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 123 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454); snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7401–7500: βάσσον → βήσομαι.
+Módulo lexicons/dgp-batch-123.js; acumulado 7500; próximo 7501.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 124 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454); snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7501–7600: βῆσσα, ης (ἡ) → βλιμάζω.
+Módulo lexicons/dgp-batch-124.js; acumulado 7600; próximo 7601.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 125 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454); snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7601–7700: βλίττω → βουβών, ῶνος (ὁ).
+Módulo lexicons/dgp-batch-125.js; acumulado 7700; próximo 7701.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 126 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454); snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7701–7800: βουγάϊος → βραχιονιστήρ, ῆρος (ὁ).
+Módulo lexicons/dgp-batch-126.js; acumulado 7800; próximo 7801.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 127 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454); snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 7801–7900: βράχιστος → βῶ.
+Módulo lexicons/dgp-batch-127.js; acumulado 7900; próximo 7901.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 128 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico β (blob 6282e9f297146b0af134ed973b981a80742f1454) e γ (blob d55ca76c07b408e84dc8e7b36220c331da50d675). Snapshot deb54b426ead447d01ced7534736f3e77be7015b.
+Ordinais 7901–8000: βωθέω → γαῦρος, ος, ον. Módulo lexicons/dgp-batch-128.js; acumulado 8000; próximo 8001.
+Total do DGP canônico: 44.590 elementos entryFree nos 24 XML alfabéticos; percentual incorporado 17,94%.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 129 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico γ (snapshot deb54b426ead447d01ced7534736f3e77be7015b). Ordinais 8001–8100: γαυρότης, ητος (ἡ) → γέννημα, ατος (τό).
+Módulo lexicons/dgp-batch-129.js; acumulado 8100; próximo 8101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 130 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico γ (snapshot deb54b426ead447d01ced7534736f3e77be7015b). Ordinais 8101–8200: γέννησις, εως (ἡ) → γηροβοσκός, ός, όν.
+Módulo lexicons/dgp-batch-130.js; acumulado 8200; próximo 8201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 131 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+Fonte canônica γ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; ordinais 8201–8300: γηροκομέω → γνωμονικός, ή, όν.
+Módulo lexicons/dgp-batch-131.js; acumulado 8300; próximo 8301.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 132 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+Fonte canônica γ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; ordinais 8301–8400: γνωμοτύπος, ος, ον → γραματεύω.
+Módulo lexicons/dgp-batch-132.js; acumulado 8400; próximo 8401.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 133 — 13/10/2026
+================================================================================
+Exclusivamente incorporação; sem auditoria, homologação, PR ou integração.
+Fonte canônica γ/δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; ordinais 8401–8500: γραμματίδιον, ου (τό) → γυπιάς, άδος.
+Módulo lexicons/dgp-batch-133.js; acumulado 8500; próximo 8501.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 134 — 13/10/2026
+================================================================================
+Somente incorporação, sem auditoria, homologação ou integração.
+Fonte XML γ/δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 8501–8600: Γυραί, ῶν (αἱ) → δακρυρροέω-ῶ. Módulo lexicons/dgp-batch-134.js. Acumulado 8600, próximo 8601.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 135 — 13/10/2026
+================================================================================
+Somente incorporação, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 8601–8700: δακρυσίστακτος, ος, ον → δάσος, εος-ους (τό). Módulo lexicons/dgp-batch-135.js. Acumulado 8700; próximo 8701.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 136 — 13/10/2026
+================================================================================
+Somente incorporação, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 8701–8800: δασπλής, ῆτος → δείκνυμι. Módulo lexicons/dgp-batch-136.js. Acumulado 8800; próximo 8801.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 137 — 13/10/2026
+================================================================================
+Somente incorporação, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 8801–8900: δεικνύω → ∆εκελειᾶσιν. Módulo lexicons/dgp-batch-137.js. Acumulado 8900; próximo 8901.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 138 — 13/10/2026
+================================================================================
+Somente incorporação, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 8901–9000: ∆εκελεικός, ή, όν → δεσμεύω. Módulo lexicons/dgp-batch-138.js. Acumulado 9000; próximo 9001.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 139 — 13/10/2026
+================================================================================
+Exclusivamente incorporação, sem auditoria, homologação, PR ou integração.
+Fonte: arquivos_xml/04_Delta.txt.xml, snapshot deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9001–9100: δεσμέω-ῶ → δημηγορικός, ή, όν.
+Módulo: lexicons/dgp-batch-139.js. Acumulado: 9100; próximo ordinal: 9101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 140 — 13/10/2026
+================================================================================
+Exclusivamente incorporação, sem auditoria, homologação, PR ou integração.
+Fonte: arquivos_xml/04_Delta.txt.xml, snapshot deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9101–9200: δημηγόρος, ος, ον → διαβιάζομαι.
+Módulo: lexicons/dgp-batch-140.js. Acumulado: 9200; próximo ordinal: 9201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 141 — 13/10/2026
+================================================================================
+Somente incorporação: XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b (blob db93ccf85378a94cb184a891772f44bb45a4dce1).
+Ordinais 9201–9300: διαβιβάζω → διαζάω-ῶ. Módulo lexicons/dgp-batch-141.js; próximo 9301.
+Sem auditoria, homologação, PR ou integração.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 142 — 13/10/2026
+================================================================================
+Somente incorporação: XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b (blob db93ccf85378a94cb184a891772f44bb45a4dce1).
+Ordinais 9301–9400: διαζεύγνυμι → διακοσμέω-ῶ. Módulo lexicons/dgp-batch-142.js; próximo 9401.
+Sem auditoria, homologação, PR ou integração.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 143 — 13/10/2026
+================================================================================
+Somente incorporação: XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b (blob db93ccf85378a94cb184a891772f44bb45a4dce1).
+Ordinais 9401–9500: διακόσμησις, εως → διαμηρισμός, οῦ (ὁ). Módulo lexicons/dgp-batch-143.js; próximo 9501.
+Sem auditoria, homologação, PR ou integração.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 144 — 13/10/2026
+================================================================================
+Somente incorporação lexical; sem auditoria, homologação, PR ou integração.
+Fonte: arquivos_xml/04_Delta.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9501–9600: διαμηχανάομαι-ῶμαι → διαπλέκω; módulo lexicons/dgp-batch-144.js. Total incorporado 9600; próximo 9601.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 145 — 13/10/2026
+================================================================================
+Somente incorporação lexical; sem auditoria, homologação, PR ou integração.
+Fonte: arquivos_xml/04_Delta.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9601–9700: διαπλέω → διασείω; módulo lexicons/dgp-batch-145.js. Total incorporado 9700; próximo 9701.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 146 — 13/10/2026
+================================================================================
+Somente incorporação lexical; sem auditoria, homologação, PR ou integração.
+Fonte: arquivos_xml/04_Delta.txt.xml, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9701–9800: διασεύομαι → διατμήγω; módulo lexicons/dgp-batch-146.js. Total incorporado 9800; próximo 9801.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 147 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9801–9900: διατμίζω → διαχαράσσω. Módulo lexicons/dgp-batch-147.js; acumulado 9900; próximo 9901.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 148 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 9901–10000: διαχειμάζω → διεκθέω. Módulo lexicons/dgp-batch-148.js; acumulado 10000; próximo 10001.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 149 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10001–10100: διεκπαίω → διέχεα, διέχευα. Módulo lexicons/dgp-batch-149.js; acumulado 10100; próximo 10101.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 150 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10101–10200: διεχής, ής, ές → δικτατωρία, ας (ἡ). Módulo lexicons/dgp-batch-150.js; acumulado 10200; próximo 10201.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 151 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10201–10300: δικτυεία, ας (ἡ) → δῖος, δῖα. Módulo lexicons/dgp-batch-151.js; acumulado 10300; próximo 10301.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 152 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10301–10400: διόσδοτος, ος, ον → διχόμηνος, ος, ον. Módulo lexicons/dgp-batch-152.js; acumulado 10400; próximo 10401.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 153 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10401–10500: διχόνοια, ας (ἡ) → δολόεις, όεσσα, όεν. Módulo lexicons/dgp-batch-153.js; acumulado 10500; próximo 10501.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 154 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+Fonte XML δ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10501–10590: δολομήτης, → δότε. Módulo lexicons/dgp-batch-154.js; acumulado 10590; próximo 10591.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 155 — 13/10/2026
+================================================================================
+Somente incorporação lexical; sem auditoria, homologação, PR ou integração.
+Fonte XML δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b, blob db93ccf85378a94cb184a891772f44bb45a4dce1.
+Ordinais 10591–10690: δοτέος, α, ον → δρεψεύμενος. Módulo lexicons/dgp-batch-155.js; próximo 10691.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 156 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+XML canônico δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 10691–10790: δρηπέτης → δυσάθλιος, ος, ον. Módulo lexicons/dgp-batch-156.js; acumulado 10790; próximo 10791.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 157 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+XML canônico δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 10791–10890: δυσαιανής, ής, ές → δυσευνάτωρ, ορος. Módulo lexicons/dgp-batch-157.js; acumulado 10890; próximo 10891.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 158 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+XML canônico δ, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 10891–10990: δυσεύρετος, ος, ον → δυσμνημόνευτος, ος, ον. Módulo lexicons/dgp-batch-158.js; acumulado 10990; próximo 10991.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 159 — 13/10/2026
+================================================================================
+Somente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico δ; snapshot deb54b426ead447d01ced7534736f3e77be7015b.
+Ordinais 10991–11090: δύσμοιρος, ος, ον → δυσπρόσωπος, ος, ον. Módulo lexicons/dgp-batch-159.js; acumulado 11090; próximo 11091.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 160 — 13/10/2026
+================================================================================
+Somente incorporação; sem auditoria, homologação, PR ou integração.
+XML canônico δ; snapshot deb54b426ead447d01ced7534736f3e77be7015b.
+Ordinais 11091–11190: δυσραγής, ής, ές → δωδεκάσκυτος, ος, ον. Módulo lexicons/dgp-batch-160.js; acumulado 11190; próximo 11191.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 161 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+XML δ/ε, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 11191–11290: δωδεκαταῖος, α, ον → ἑβδομήκοντα. Módulo lexicons/dgp-batch-161.js; próximo 11291.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 162 — 13/10/2026
+================================================================================
+Somente incorporação, sem auditoria, homologação, PR ou integração.
+XML ε, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 11291–11390: ἑβδομηκοντάκις → ἐγκαθοράω-ῶ. Módulo lexicons/dgp-batch-162.js; próximo 11391.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 163 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+XML ε, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 11391–11490: ἐγκαθορμίζομαι → ἐγκοσμέω-ῶ. Módulo lexicons/dgp-batch-163.js; próximo 11491.
+
+================================================================================
+INCORPORAÇÃO DGP — LOTE 164 — 13/10/2026
+================================================================================
+Somente incorporação lexical, sem auditoria, homologação, PR ou integração.
+XML ε, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Ordinais 11491–11590: ἐγκοτέω-ῶ → ἐδάμασσα. Módulo lexicons/dgp-batch-164.js; próximo 11591.
+
+REGISTRO DGP — LOTE 212 (13/10/2026)
+Incorporação exclusiva: ordinais 16291–16390; ἐπορθρισμός, οῦ (ὁ) → ἔρανος, ου (ὁ); fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 213 (13/10/2026)
+Incorporação exclusiva: ordinais 16391–16490; ἐρασιχρήματος, ος, ον → ἔρεψις, εως (ἡ); fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 214 (13/10/2026)
+Incorporação exclusiva: ordinais 16491–16590; ἐρέω1 → ἔρξα; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 215 (13/10/2026)
+Incorporação exclusiva: ordinais 16591–16690; ἕρξα → ἔσαν; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+Nota de fonte, ordinal 16662: no XML canônico, entryFree está sem texto de lema e def contém literalmente «ἐρύω1fut. jôn. de ἐρύω2.»; a incorporação separa «ἐρύω1» e «fut. jôn. de ἐρύω2.» sem acrescentar conteúdo.
+
+REGISTRO DGP — LOTE 216 (13/10/2026)
+Incorporação exclusiva: ordinais 16691–16790; ἕσαν → ἔσπετε; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 217 (13/10/2026)
+Incorporação exclusiva: ordinais 16791–16890; ἐσπέτομαι, ἐσπηδάω → ἑταίρησις, εως (ἡ); fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 218 (13/10/2026)
+Incorporação exclusiva: ordinais 16891–16990; ἑταιρία → εὐαγγέλιον, ου (τό); fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 219 (13/10/2026)
+Incorporação exclusiva: ordinais 16991–17090; εὐαγγέλιος, ος, ον → εὐδαιμόνημα, ατος (τό); fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 220 (13/10/2026)
+Incorporação exclusiva: ordinais 17091–17190; εὐδαιμονία, ας (ἡ) → εὐηκόως; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 221 (13/10/2026)
+Incorporação exclusiva: ordinais 17191–17290; εὐήλατος, ος, ον → εὐκατάφορος, ος, ον; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 222 (13/10/2026)
+Incorporação exclusiva: ordinais 17291–17390; εὐκαταφρόνητος, ος, ον → εὐμετάβλητος, ος, ον; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 223 (13/10/2026)
+Incorporação exclusiva: ordinais 17391–17490; εὐμετάβολος, ος, ον → εὐπαθίη, ης (ἡ); fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 224 (13/10/2026)
+Incorporação exclusiva: ordinais 17491–17590; εὐπαιδία, ας (ἡ) → εὔπυργος, ος, ον; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 225 (13/10/2026)
+Incorporação exclusiva: ordinais 17591–17690; εὔπωλος, ος, ον → εὔσηπτος, ος, ον; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 226 (13/10/2026)
+Incorporação exclusiva: ordinais 17691–17790; εὐσθενής, ής, ές → εὔτροχος,; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 227 (13/10/2026)
+Incorporação exclusiva: ordinais 17791–17890; εὔτυκος, ος, ον → ἔφαγον; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 228 (13/10/2026)
+Incorporação exclusiva: ordinais 17891–17990; ἐφαιρέομαι-οῦμαι → ἔφθην; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 229 (13/10/2026)
+Incorporação exclusiva: ordinais 17991–18090; ἐφθίατο → ἐχθίων, ων, ον; fonte XML ε, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 230 (13/10/2026)
+Incorporação exclusiva: ordinais 18091–18190; ἐχοθοδοπέω-ῶ → ζείδωρος, ος, ον; fonte XML ε+ζ, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs e51c698c15055c8427df5a5bb9d010d3693bce45, b90fcc9d2f55076cf47d9c80d99552d216f9e3be. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 231 (13/10/2026)
+Incorporação exclusiva: ordinais 18191–18290; ζειρά, ας (ἡ) → ζωέμεν; fonte XML ζ, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs b90fcc9d2f55076cf47d9c80d99552d216f9e3be. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 232 (13/10/2026)
+Incorporação exclusiva: ordinais 18291–18390; ζωή, ῆς, → ἤγουν; fonte XML ζ+η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs b90fcc9d2f55076cf47d9c80d99552d216f9e3be, 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 233 (13/10/2026)
+Incorporação exclusiva: ordinais 18391–18490; ἤγρευσα → ἤκουσα, ἠκούσθην, ἤκουσμαι; fonte XML η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 234 (13/10/2026)
+Incorporação exclusiva: ordinais 18491–18590; ἠκρόαμαι, ἠκροασάμην → ἡμεῖς; fonte XML η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 235 (13/10/2026)
+Incorporação exclusiva: ordinais 18591–18690; ἠμείφθην, ἤμειψα → ἡμιτύβιον, ου (τό); fonte XML η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 236 (13/10/2026)
+Incorporação exclusiva: ordinais 18691–18790; ἡμίφαυλος, ος, ον → ἠπειρώτης, ου; fonte XML η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 237 (13/10/2026)
+Incorporação exclusiva: ordinais 18791–18890; ἠπειρωτικός, ή, όν → ἤρρησα; fonte XML η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 238 (13/10/2026)
+Incorporação exclusiva: ordinais 18891–18990; ἦρσα → ηὔδατο, ηὐδήθην; fonte XML η, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 239 (13/10/2026)
+Incorporação exclusiva: ordinais 18991–19090; ηὔδησα, ηὔδων → θαλπιάω; fonte XML η+θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 0345071d61de49a30b82c2b9325635b17cb3e86d, 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 240 (13/10/2026)
+Incorporação exclusiva: ordinais 19091–19190; θάλπος, εος-ους (τό) → θέεσκον; fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 241 (13/10/2026)
+Incorporação exclusiva: ordinais 19191–19290; θεήλατος, ος, ον → θεοξένια, ων (τά); fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 242 (13/10/2026)
+Incorporação exclusiva: ordinais 19291–19390; θεοξένιος, ου → θεσπεσίη, ης (ἡ); fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 243 (13/10/2026)
+Incorporação exclusiva: ordinais 19391–19490; θεσπέσιος, α → θημών, ῶνος (ὁ); fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 244 (13/10/2026)
+Incorporação exclusiva: ordinais 19491–19590; θήν → θορυβοποιός, ός, όν; fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 245 (13/10/2026)
+Incorporação exclusiva: ordinais 19591–19690; θόρυβος, ου (ὁ) → θριπήδεστος, ος; fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 246 (13/10/2026)
+Incorporação exclusiva: ordinais 19691–19790; θρίψ, θριπός (ὁ) → θύος, εος-ους (τό); fonte XML θ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 2e471da0a786260c91c4cef177010f5de3835ea5. O ordinal 19774 apresenta definição anexada ao campo lema no XML; os dois campos foram separados conservando integralmente o texto atestado. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 247 (13/10/2026)
+Incorporação exclusiva: ordinais 19791–19890; θυοσκέω-ῶ → ἰάλεμος2, ος, ον; fonte XML θ+ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 2e471da0a786260c91c4cef177010f5de3835ea5, 17e4cdb99ee498f580811bcbe64aa7150e148536. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 248 (13/10/2026)
+Incorporação exclusiva: ordinais 19891–19990; ἰάλλω → ἱδρύω; fonte XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs 17e4cdb99ee498f580811bcbe64aa7150e148536. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 249 (13/10/2026)
+Incorporação exclusiva: ordinais 19991–20090; ἱδρῶ, ἱδρῷ → Ἰησονίδης, ου (ὁ); fonte XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 17e4cdb99ee498f580811bcbe64aa7150e148536. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 250 (13/10/2026)
+Incorporação exclusiva: ordinais 20091–20190; ἰήσομαι → ἵληθι; fonte XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 17e4cdb99ee498f580811bcbe64aa7150e148536. Auditoria, homologação e integração não executadas neste ciclo.
+
+REGISTRO DGP — LOTE 251 (13/10/2026)
+Incorporação exclusiva de 100 registros entryFree, ordinais 20191–20290, XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 17e4cdb99ee498f580811bcbe64aa7150e148536. Treze fragmentos sem lema na fonte: 20242, 20243, 20244, 20245, 20247, 20248, 20249, 20250, 20251, 20252, 20253, 20254, 20290. A identificação de fragmento é editorial e preserva os textos das definições. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 252 (13/10/2026)
+Incorporação exclusiva: ordinais 20291–20390; ἰξύς, ύος → Ἱπποδάμεια, ας (ἡ); XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 17e4cdb99ee498f580811bcbe64aa7150e148536. 0 fragmentos sem lema no XML, individualizados editorialmente sem completar texto ausente. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 253 (13/10/2026)
+Incorporação exclusiva: ordinais 20391–20490; ἱππόδαμος, ος, ον → ἴσμεν; XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 17e4cdb99ee498f580811bcbe64aa7150e148536; fragmentos sem lema: 0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 254 (13/10/2026)
+Incorporação exclusiva: ordinais 20491–20590; Ἰσμήνιος, α, ον → ⟦fragmento sem lema no XML · ι 718⟧; XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 17e4cdb99ee498f580811bcbe64aa7150e148536; fragmentos sem lema: 17. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 255 (13/10/2026)
+Incorporação exclusiva: ordinais 20591–20690; ⟦fragmento sem lema no XML · ι 719⟧ → Ἰταλιώτης, ου; XML ι, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs ι=17e4cdb99ee498f580811bcbe64aa7150e148536; 24 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 256 (13/10/2026)
+Incorporação exclusiva: ordinais 20691–20790; ἰταλιωτικός, ή, όν → καββαλλικός, ή, όν; XML ι+κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs ι=17e4cdb99ee498f580811bcbe64aa7150e148536, κ=e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 257 (13/10/2026)
+Incorporação exclusiva: ordinais 20791–20890; Καββαλοῦσα, ης (ἡ) → καθεῖς; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blobs κ=e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 258 (13/10/2026)
+Incorporação exclusiva: ordinais 20891–20990; καθεῖσε → καθυστερέω-ῶ; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 259 (13/10/2026)
+Incorporação exclusiva: ordinais 20991–21090; καθυστερίζω → κακοήθεια, ας (ἡ); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 260 (13/10/2026)
+Incorporação exclusiva: ordinais 21091–21190; κακοήθευμα, ατος (τό) → κἀκφυσιῶν; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 261 (13/10/2026)
+Incorporação exclusiva: ordinais 21191–21290; κἀκχέω → κἀλοιδόρησα; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 262 (14/10/2026)
+Incorporação exclusiva: ordinais 21291–21390; καλοκἀγαθία, ας (ἡ) → κἀνακίνησις; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 263 (14/10/2026)
+Incorporação exclusiva: ordinais 21391–21490; κἀνακούσωμεν → κἀπαράσασθαι; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 264 (14/10/2026)
+Incorporação exclusiva: ordinais 21491–21590; κἀπάτωρ → καραδοκέω-ῶ; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 265 (14/10/2026)
+Incorporação exclusiva: ordinais 21591–21690; καραδοκία, ας (ἡ) → Καρχηδόνιος, α, ον; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 266 (14/10/2026)
+Incorporação exclusiva: ordinais 21691–21790; Καρχηδών, όνος (ἡ) → κάταγμα, ατος (τό); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 267 (14/10/2026)
+Incorporação exclusiva: ordinais 21791–21890; κατάγνυμι → καταθρώσκω; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 268 (14/10/2026)
+Incorporação exclusiva: ordinais 21891–21990; καταθυμέω-ῶ → κατακοσμέω-ῶ; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 269 (14/10/2026)
+Incorporação exclusiva: ordinais 21991–22090; κατακόσμησις, εως (ἡ) → καταμένω; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 270 (14/10/2026)
+Incorporação exclusiva: ordinais 22091–22190; καταμερίζω → καταπίμπρημι; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 271 (14/10/2026)
+Incorporação exclusiva: ordinais 22191–22290; καταπίνω → καταρτάω-ῶ; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 272 (14/10/2026)
+Incorporação exclusiva: ordinais 22291–22390; καταρτίζω → καταστύφω; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 273 (14/10/2026)
+Incorporação exclusiva: ordinais 22391–22490; κατασυβωτέω-ῶ → καταχαλκεύω; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 274 (14/10/2026)
+Incorporação exclusiva: ordinais 22491–22590; κατάχαλκος, ος, ον → κατεπλάγην; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 275 (14/10/2026)
+Incorporação exclusiva: ordinais 22591–22690; κατεπόθην → κάτοιδα; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 276 (14/10/2026)
+Incorporação exclusiva: ordinais 22691–22790; κατοίησις, εως (ἡ) → Καΰστριος, ου (ὁ); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 277 (14/10/2026)
+Incorporação exclusiva: ordinais 22791–22890; Καΰστρος, ου (ὁ) → κεκραγμός, οῦ (ὁ); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 278 (14/10/2026)
+Incorporação exclusiva: ordinais 22891–22990; κεκράκτης, ου (ὁ) → κένωμα, ατος (τό); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 279 (14/10/2026)
+Incorporação exclusiva: ordinais 22991–23000; κενῶς → κεραΐζω; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 280 (14/10/2026)
+Incorporação exclusiva: ordinais 23001–23100; κεραίω → κεφαλαιώδης, ης, ες; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 281 (14/10/2026)
+Incorporação exclusiva: ordinais 23101–23200; κεφαλαιωδῶς → κῆται; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 282 (14/10/2026)
+Incorporação exclusiva: ordinais 23201–23300; κητεία, ας (ἡ) → κίσσηλις, εως (ἡ); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 283 (14/10/2026)
+Incorporação exclusiva: ordinais 23301–23400; κισσήρης, ης, ες → κλῇθρον; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 284 (14/10/2026)
+Incorporação exclusiva: ordinais 23401–23500; Κληῖδες, ων (αἱ) → κνάσω; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 285 (14/10/2026)
+Incorporação exclusiva: ordinais 23501–23600; κναφεῖον → κοινών, ῶνος (ὁ); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 286 (14/10/2026)
+Incorporação exclusiva: ordinais 23601–23700; κοινωνέω-ῶ → κολωνία, ας (ἡ); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 287 (14/10/2026)
+Incorporação exclusiva: ordinais 23701–23800; κολωνός, οῦ (ὁ) → κόρευμα, ατος (τό); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 288 (14/10/2026)
+Incorporação exclusiva: ordinais 23801–23900; κορέω1-ῶ → κοτυλαῖος, α, ον; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 289 (14/10/2026)
+Incorporação exclusiva: ordinais 23901–24000; κοτύλων, ωνος (ὁ) → κρατερῶνυξ, υχος; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 290 (14/10/2026)
+Incorporação exclusiva: ordinais 24001–24100; κρατερῶς → κριθιάω-ῶ; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 291 (14/10/2026)
+Incorporação exclusiva: ordinais 24101–24200; κριθίδιον, ου (τό) → κρυφείς; XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 292 (14/10/2026)
+Incorporação exclusiva: ordinais 24201–24300; κρυφῇ → κυβίστημα, ατος (τό); XML κ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob e0680d4907d4ec0ff49950b757022ae8ddda0ee0. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 300 (14/10/2026)
+Incorporação exclusiva: ordinais 25001–25100; λευκόϊον, ου (τό) → λήρησις, εως (ἡ); XML λ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 301 (14/10/2026)
+Incorporação exclusiva: ordinais 25101–25200; Λήρισαι, Ληρισαῖος → λικνίτης, ου (ὁ); XML λ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 302 (14/10/2026)
+Incorporação exclusiva: ordinais 25201–25300; λῖκνον, ου (τό) → λιχμάω-ῶ; XML λ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 303 (14/10/2026)
+Incorporação exclusiva: ordinais 25301–25400; λιχνεία, ας (ἡ) → λοχηγέω; XML λ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 304 (14/10/2026)
+Incorporação exclusiva: ordinais 25401–25500; λοχίζω → Λυρνησσός, οῦ (ἡ); XML λ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 305 (14/10/2026)
+Incorporação exclusiva: ordinais 25501–25600; λυροποιός, οῦ (ὁ) → μαγεύω; XML λ+μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; μ=19f588b5aeacca93c83c5a4ccc6852d288829cfa; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 306 (14/10/2026)
+Incorporação exclusiva: ordinais 25601–25700; μαγία, ας (ἡ) → μακρόβιος, ος, ον; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; μ=19f588b5aeacca93c83c5a4ccc6852d288829cfa; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 307 (14/10/2026)
+Incorporação exclusiva: ordinais 25701–25800; μακροβιότης, ητος (ἡ) → μάνδρα, ας (ἡ); XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; μ=19f588b5aeacca93c83c5a4ccc6852d288829cfa; 20 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 308 (14/10/2026)
+Incorporação exclusiva: ordinais 25801–25900; μανδραγόρας, ου (ὁ) → Μασσαλιώτης, ου; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; μ=19f588b5aeacca93c83c5a4ccc6852d288829cfa; 4 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 309 (14/10/2026)
+Incorporação exclusiva: ordinais 25901–26000; Μασσανάσσης, ου (ὁ) → Μέγαιρα, ας (ἡ); XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob(s) λ=bf9573bf527dcb5c259499503dc84a7ce7431a9b; μ=19f588b5aeacca93c83c5a4ccc6852d288829cfa; 0 fragmentos sem lema preservados. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 310 (14/10/2026)
+Incorporação exclusiva: ordinais 26001–26100; μεγαίρω → ⟦fragmento sem lema no XML · μ 521⟧; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 31 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 311 (14/10/2026)
+Incorporação exclusiva: ordinais 26101–26200; μεγασθενής, ής, ές → ⟦fragmento sem lema no XML · μ 621⟧; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 51 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 312 (14/10/2026)
+Incorporação exclusiva: ordinais 26201–26300; ⟦fragmento sem lema no XML · μ 622⟧ → μελανόζυξ, υγος; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 4 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 313 (14/10/2026)
+Incorporação exclusiva: ordinais 26301–26400; μελανόπτερος, ος, ον → ⟦fragmento sem lema no XML · μ 821⟧; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 9 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 314 (14/10/2026)
+Incorporação exclusiva: ordinais 26401–26500; ⟦fragmento sem lema no XML · μ 822⟧ → μενετός, ή, όν; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 33 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 315 (14/10/2026)
+Incorporação exclusiva: ordinais 26501–26600; μενεχάρμης, ου → μεσουρανέω-ῶ; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 8 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 316 (14/10/2026)
+Incorporação exclusiva: ordinais 26601–26700; μεσουράνημα, ατος (τό) → μεταδρομάδην; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 41 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 317 (14/10/2026)
+Incorporação exclusiva: ordinais 26701–26800; μεταδρομή, ῆς (ἡ) → μετάρροια, ας (ἡ); XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 0 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 318 (14/10/2026)
+Incorporação exclusiva: ordinais 26801–26900; μεταρρυθμίζω → μετοικεσία, ας (ἡ); XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 2 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 319 (14/10/2026)
+Incorporação exclusiva: ordinais 26901–27000; μετοικέω-ῶ → μήδομαι; XML μ, commit deb54b426ead447d01ced7534736f3e77be7015b, blob 19f588b5aeacca93c83c5a4ccc6852d288829cfa; 18 fragmentos sem lema explícito preservados como registros XML distintos. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — RECUPERAÇÃO DE PENDENTES 141–885 (14/10/2026)
+Foram recuperados 745 registros antes ausentes da carga da aplicação, ordinais 141–885, em oito módulos lexicons/dgp-recovery-*.js, provenientes da fonte canônica XML α (commit deb54b426ead447d01ced7534736f3e77be7015b; blob eec318bb6150b6b2f4422ea4a76383ac0a254de2). Os módulos são carregados após dgp-batches.js e inserem linhas/cartões em ordem antes do ordinal 1631. Permanecem 745 pendentes (886–1630), sem alteração dos 27.000 registros canonicamente declarados. Não foram executadas auditoria formal, homologação, PR ou integração.
+
+REGISTRO DGP — CONCLUSÃO DOS PENDENTES 886–1630 (14/10/2026)
+Somente incorporação: recuperados os 745 registros XML α faltantes da aplicação, ordinais 886–1630, em oito módulos lexicons/dgp-recovery-*.js. Com os 745 recuperados anteriormente (141–885), a lacuna conhecida de 1.490 registros está inteiramente contemplada na carga. Fonte canônica commit deb54b426ead447d01ced7534736f3e77be7015b, blob eec318bb6150b6b2f4422ea4a76383ac0a254de2. Manifesto DGP permanece com 27.000 registros; próximo ordinal canônico 27.001. Não foram realizados auditoria formal, homologação, PR nem integração.
+
+REGISTRO DGP — LOTE 320 (14/10/2026)
+Incorporação exclusiva: ordinais 27001–27100; μῆδος1, εος-ους (τό) → μήτρα, ας (ἡ); XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 0 fragmentos identificados, 0 registros com definição textual vazia; sem inventar conteúdo. Auditoria formal, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 321 (14/10/2026)
+Incorporação exclusiva: ordinais 27101–27200; μητραγύρτης, ου (ὁ) → μιμητικός, ή, όν; XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 1 fragmentos identificados, 0 registros com definição textual vazia; sem inventar conteúdo. Auditoria formal, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 322 (14/10/2026)
+Incorporação exclusiva: ordinais 27201–27300; μιμητικῶς → μισοπονία, ας (ἡ); XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 1 fragmentos identificados, 0 registros com definição textual vazia; sem inventar conteúdo. Auditoria formal, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 323 (14/10/2026)
+Incorporação exclusiva: ordinais 27301–27400; μισορώμαιος, ου → μοίρη; XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 14 fragmentos sem lema e 1 definições vazias no XML preservados. Sem auditoria, homologação ou integração.
+
+REGISTRO DGP — LOTE 324 (14/10/2026)
+Incorporação exclusiva: ordinais 27401–27500; μοιρηγενής, ής, ές → μόνωσις, εως (ἡ); XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 0 fragmentos sem lema e 0 definições vazias no XML preservados. Sem auditoria, homologação ou integração.
+
+REGISTRO DGP — LOTE 325 (14/10/2026)
+Incorporação exclusiva: ordinais 27501–27600; μονώψ, → μυθήσεαι; XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 3 fragmentos e 0 definições vazias no XML preservados. Sem auditoria formal, homologação ou integração.
+
+REGISTRO DGP — LOTE 326 (14/10/2026)
+Incorporação exclusiva: ordinais 27601–27700; μυθιάζομαι → μύρρα, ας (ἡ); XML μ, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 7 fragmentos e 0 definições vazias no XML preservados. Sem auditoria formal, homologação ou integração.
+
+REGISTRO DGP — LOTE 327 (14/10/2026)
+Incorporação exclusiva: ordinais 27701–27800; μυρρίνη, ης (ἡ) → νανώδης, ης, ες; XML μ+ν, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 0 fragmentos e 0 definições vazias no XML preservados. Sem auditoria formal, homologação ou integração.
+
+REGISTRO DGP — LOTE 328 (14/10/2026)
+Incorporação exclusiva: ordinais 27801–27900; Νάξιος, α, ον → νεάγγελτος, ος, ον; XML ν, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 0 fragmentos e 0 definições vazias no XML preservados. Sem auditoria formal, homologação ou integração.
+
+REGISTRO DGP — LOTE 329 (14/10/2026)
+Incorporação exclusiva: ordinais 27901–28000; νεαγενής, ής, ές → νεμέσσηθεν; XML ν, snapshot deb54b426ead447d01ced7534736f3e77be7015b; 0 fragmentos e 0 definições vazias no XML preservados. Sem auditoria formal, homologação ou integração.
+
+REGISTRO DGP — LOTE 370 (14/10/2026)
+Incorporação exclusiva: ordinais 32001–32100; πεντάς, άδος (ἡ) → πέρ,; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 371 (14/10/2026)
+Incorporação exclusiva: ordinais 32101–32200; πέρα1, ας (ἡ) → περιγνάμπτω; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 372 (14/10/2026)
+Incorporação exclusiva: ordinais 32201–32300; περίγραμμα, ατος (ἡ) → περικαθαίρω; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 373 (14/10/2026)
+Incorporação exclusiva: ordinais 32301–32400; περικαθάπτω → περινίσσομαι; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 374 (14/10/2026)
+Incorporação exclusiva: ordinais 32401–32500; περινοέω-ῶ → περιρρέω; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 375 (14/10/2026)
+Incorporação exclusiva: ordinais 32501–32600; περιρρήγνυμμι → περιτέλλω; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 376 (14/10/2026)
+Incorporação exclusiva: ordinais 32601–32700; περιτέμνω → πέρνας; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 377 (14/10/2026)
+Incorporação exclusiva: ordinais 32701–32800; πέρνημι → πέφρικα; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 378 (14/10/2026)
+Incorporação exclusiva: ordinais 32801–32900; πεφροντισμένως → πιθηκισμός, οῦ (ὁ); XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 379 (14/10/2026)
+Incorporação exclusiva: ordinais 32901–33000; πίθηκος, ου (ὁ, ἡ) → πίτνω; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 380 (14/10/2026)
+Incorporação exclusiva: ordinais 33001–33100; πίττα, πίττινος, πιττόω → πλειστηρίζομαι; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 381 (14/10/2026)
+Incorporação exclusiva: ordinais 33101–33200; πλεῖστος, η, ον → πλινθυφής, ής, ές; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 382 (14/10/2026)
+Incorporação exclusiva: ordinais 33201–33300; πλίσσομαι → ποδόψηστρον, ου (τό); XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 383 (14/10/2026)
+Incorporação exclusiva: ordinais 33301–33400; ποδοψοφία, ας (ἡ) → πολεμιστής, οῦ; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 384 (14/10/2026)
+Incorporação exclusiva: ordinais 33401–33500; πολεμίως → πολύβοτος, ος, ον; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 385 (14/10/2026)
+Incorporação exclusiva: ordinais 33501–33600; πολύβουλος, ος, ον → πολύμηλος, ος, ον; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 386 (14/10/2026)
+Incorporação exclusiva: ordinais 33601–33700; πολύμητις, ιος → πολυτεκνία, ας (ἡ); XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 387 (14/10/2026)
+Incorporação exclusiva: ordinais 33701–33800; πολύτεκνος, ος, ος → πόποι1; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 388 (14/10/2026)
+Incorporação exclusiva: ordinais 33801–33900; πόποι2 (οἱ) → ποταμοφόρητος, ος, ον; XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
+
+REGISTRO DGP — LOTE 389 (14/10/2026)
+Incorporação exclusiva: ordinais 33901–34000; ποτανός → πρέσβευμα, ατος (τό); XML π, snapshot deb54b426ead447d01ced7534736f3e77be7015b. Auditoria, homologação e integração não executadas.
