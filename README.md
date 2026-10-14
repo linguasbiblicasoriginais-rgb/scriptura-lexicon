@@ -1,3 +1,9 @@
+## THAYER — quinta centena 85/100, 485 registros (14/10/2026)
+
+Esta continuação incorporou **9 artigos tipográficos**, de **ἀνοίγω** a **ἀνοχή** (IDs `0477–0485`), em fonte `lexicons/thayer-source-facsimile-045.json` e interface `lexicons/thayer-batch-045-facsimile.js` carregada pelo `index.html`. Páginas impressas **48–49**, folhas PDF **72–73**. **Próximo lema: ἀνταγωνίζομαι**, p. 49. O acumulado é **485 fichas digitais de trabalho** e o quinto lote atingiu **85/100**.
+
+O texto de ἀνοίγω conserva formas verbais e agrupamentos de usos físicos e figurados sem criar subverbetes artificiais. `ἄνομος` separa corretamente a ausência neutra da Lei mosaica da acepção moral «transgressor». As traduções são **analíticas e provisórias**; não representam transcrição integral em inglês nem colação/homologação filológica. A fotografia enviada governa os cabeçalhos e sua ordem; transcrições eletrônicas foram usadas somente como auxílio de decifração. Nenhuma alteração nos demais léxicos, PR, merge ou escrita em `main`.
+
 ## THAYER — 476 fichas, quinto lote 76/100 (14/10/2026)
 
 O ciclo acrescentou cinco verbetes consecutivos **ἀνίστημι → ἄνοια**, IDs **0472–0476**, com base nos cabeçalhos das páginas impressas **47–48**, folhas PDF **71–72**. O próximo lema é **ἀνοίγω**. Os arquivos `lexicons/thayer-source-facsimile-044.json` e `lexicons/thayer-batch-044-facsimile.js` mantêm separado o texto de trabalho em português da camada inglesa ainda não transcrita; o novo script está ativado em `index.html`.
