@@ -8,9 +8,9 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 43001,
-    "status": "Lotes DGP 1–479 incorporados; 43000 registros XML no manifesto; próxima entrada 43001. Somente incorporação.",
-    "current_letter": "φ",
+    "next_ordinal": 44001,
+    "status": "Lotes DGP 1–489 incorporados; 44000 registros XML no manifesto; próxima entrada 44001. Somente incorporação.",
+    "current_letter": "χ",
     "total_dictionary_entries": 44590
   },
   "batches": [
@@ -4325,6 +4325,96 @@
       "end_ordinal": 43000,
       "start_entry": "φόβος, ου (ὁ)",
       "end_entry": "φόωσδε",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 480,
+      "start_ordinal": 43001,
+      "end_ordinal": 43100,
+      "start_entry": "φραγέλλιον, ου (τό)",
+      "end_entry": "φυγαίχμης, ου",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 481,
+      "start_ordinal": 43101,
+      "end_ordinal": 43200,
+      "start_entry": "φυγάς, άδος",
+      "end_entry": "φύτευμα, ατος (τό)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 482,
+      "start_ordinal": 43201,
+      "end_ordinal": 43300,
+      "start_entry": "φυτευτήριον, ου (τό)",
+      "end_entry": "χαλεπῶς",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 483,
+      "start_ordinal": 43301,
+      "end_ordinal": 43400,
+      "start_entry": "Χαλεστραῖος, α, ον",
+      "end_entry": "χάνοι",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 484,
+      "start_ordinal": 43401,
+      "end_ordinal": 43500,
+      "start_entry": "χάος, χάεος-χάους (τό)",
+      "end_entry": "χειραπτάζω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 485,
+      "start_ordinal": 43501,
+      "end_ordinal": 43600,
+      "start_entry": "χειραψία, ας (ἡ)",
+      "end_entry": "χηλευτός, ή, όν",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 486,
+      "start_ordinal": 43601,
+      "end_ordinal": 43700,
+      "start_entry": "χηλεύω",
+      "end_entry": "χνοάζω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 487,
+      "start_ordinal": 43701,
+      "end_ordinal": 43800,
+      "start_entry": "χνοάω-ῶ",
+      "end_entry": "χρειώδης, ης, ες",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 488,
+      "start_ordinal": 43801,
+      "end_ordinal": 43900,
+      "start_entry": "χρείων",
+      "end_entry": "χρονίζω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 489,
+      "start_ordinal": 43901,
+      "end_ordinal": 44000,
+      "start_entry": "χρονικός, ή, όν",
+      "end_entry": "χρωματικός, ή, όν",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
