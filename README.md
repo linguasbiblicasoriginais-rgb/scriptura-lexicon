@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva do lote 327 (14/10/2026)
+
+Incorporados 100 registros XML (27701–27800; **μυρρίνη, ης (ἡ)** → **νανώδης, ης, ες**), fonte μ+ν, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27800 / 44.590**; próximo ordinal **27801**. Sem auditoria formal, homologação, PR ou integração.
+
 ## DGP — incorporação exclusiva do lote 326 (14/10/2026)
 
 Incorporados 100 registros XML (27601–27700; **μυθιάζομαι** → **μύρρα, ας (ἡ)**), fonte μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27700 / 44.590**; próximo ordinal **27701**. Sem auditoria formal, homologação, PR ou integração.

@@ -8,9 +8,9 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 27701,
-    "status": "Lotes DGP 1–326 incorporados; 27700 registros XML no manifesto; próxima entrada 27701. Somente incorporação.",
-    "current_letter": "μ",
+    "next_ordinal": 27801,
+    "status": "Lotes DGP 1–327 incorporados; 27800 registros XML no manifesto; próxima entrada 27801. Somente incorporação.",
+    "current_letter": "ν",
     "total_dictionary_entries": 44590
   },
   "batches": [
@@ -2948,6 +2948,15 @@
       "end_ordinal": 27700,
       "start_entry": "μυθιάζομαι",
       "end_entry": "μύρρα, ας (ἡ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 327,
+      "start_ordinal": 27701,
+      "end_ordinal": 27800,
+      "start_entry": "μυρρίνη, ης (ἡ)",
+      "end_entry": "νανώδης, ης, ες",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
