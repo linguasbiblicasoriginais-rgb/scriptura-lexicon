@@ -74,7 +74,15 @@ function register(records, rows, cards, origin) {
         }
         byId.set(target, card);
     }
-    for (const row of entries(rows, "tr", "search-row")) {
+    const parsedRows = entries(rows, "tr", "search-row");
+    console.log("EXTRACTION", origin, JSON.stringify({
+        rowMatches: parsedRows.length,
+        cardMatches: entries(cards, "article", "entry-card").length,
+        uniqueCardIDs: byId.size,
+        sampleRowIds: parsedRows.slice(0,4).map(v=>attribute(openTag(v),"data-target")),
+        sampleCardIds: [...byId.keys()].slice(0,4)
+    }));
+    for (const row of parsedRows) {
         const tag = openTag(row), target = attribute(tag, "data-target");
         let card = byId.get(target);
         const dictionary = attribute(tag, "data-dictionary") || "grego";
@@ -138,6 +146,8 @@ for (const record of records) {
 records.length = 0;
 records.push(...unique.values());
 const collisionKinds = {};
+const missingExamples = collisions.filter(x=>x.kind==="card-absent").slice(0,15);
+console.log("MISSING_SAMPLES", JSON.stringify(missingExamples));
 for (const item of collisions) collisionKinds[item.kind] = (collisionKinds[item.kind] || 0) + 1;
 console.log("Diagnóstico das colisões:", JSON.stringify({
     total:collisions.length, byKind:collisionKinds, samples:collisions.slice(0,25)
