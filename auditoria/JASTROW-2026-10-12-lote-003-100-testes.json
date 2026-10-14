@@ -1,0 +1,48 @@
+{
+  "schema": "JASTROW-static-audit-checks/3",
+  "date": "2026-10-12",
+  "selected_unique": 100,
+  "selected_total": 100,
+  "module_card_pairs": 150,
+  "matched_rows": 150,
+  "card_count": 150,
+  "module_corrected": 30,
+  "uncorrected": 70,
+  "corrections_present": 30,
+  "source_xml_hashes_present": true,
+  "all_editorial_before_and_after_match_original_and_patched_modules": true,
+  "source_filenames_modified": [],
+  "original_record_sids_preserved": true,
+  "pending": 0,
+  "missing_source_headword": {
+    "A00204": "Cabeçalho XML combinado '(אַבְרָא) אֲבָרָא' representado por ambas as variantes no cartão; não falta lema."
+  },
+  "browser_dom_executed": false,
+  "external_rabbinic_manuscripts_collated": false,
+  "modules": [
+    {
+      "path": "lexicons/jastrow-111-140.js",
+      "sha": "1327c12028d024ceb04d4a43ce43e3994e17b407"
+    },
+    {
+      "path": "lexicons/jastrow-141-170.js",
+      "sha": "51b8c09d29e80a849c251352f1d5df92bc26b8d9"
+    },
+    {
+      "path": "lexicons/jastrow-171-185.js",
+      "sha": "3f884072b237a865d32d86948636d0d577b25a2e"
+    },
+    {
+      "path": "lexicons/jastrow-186-200.js",
+      "sha": "9ee0e3bcbf9d30666244935bd7e4911061c57605"
+    },
+    {
+      "path": "lexicons/jastrow-201-210.js",
+      "sha": "0924d9f5d0699a423c7e8ccffb583c39edd14320"
+    },
+    {
+      "path": "lexicons/jastrow-211-235.js",
+      "sha": "ed729f37b94e07f6aaaedf96783bac0f7b3b60cf"
+    }
+  ]
+}

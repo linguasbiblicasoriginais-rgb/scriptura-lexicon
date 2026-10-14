@@ -36,7 +36,7 @@ const entries=[
     "lemma": "אַבִּיר",
     "type": "Adjetivo ou substantivo masculino",
     "gloss": "forte; poderoso; eminente; nobre",
-    "html": "Do hebraico bíblico, forte, poderoso, distinto ou influente, em oposição a <bdi lang='he' dir='rtl'>קל</bdi>, “leve, sem influência”. Plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi>: nobres, poderosos. Rosh Hashaná 25b: “o mais nobre entre os nobres”; Jerusalém Rosh Hashaná 2, 58b: “os mais nobres do mundo”, com variantes nas fontes paralelas."
+    "html": "Do hebraico bíblico, forte, poderoso, distinto ou influente, em oposição a <bdi lang='he' dir='rtl'>קל</bdi>, “leve, sem influência”. Plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi>: nobres, poderosos. Rosh Hashaná 25b: “o mais nobre entre os nobres”; Jerusalém Rosh Hashaná 2, 58b: “os mais nobres do mundo”, com variantes nas fontes paralelas. <strong>Complemento filológico — lote 003:</strong> <strong>Aparato e antônimo:</strong> a forma plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi> contrasta com <bdi lang='he' dir='rtl'>קַל</bdi>, «leve», metaforicamente «sem influência». Jerusalém Rosh Hashaná 2, 58b, parte inferior, tem <bdi lang='he' dir='rtl'>אַבִּירֵי עולם</bdi>, enquanto o paralelo babilônico (Rosh Hashaná 25b) transmite <bdi lang='he' dir='rtl'>חֲמוּרֵי</bdi> e Eclesiastes Rabá a 1.4 lê <bdi lang='he' dir='rtl'>גדולי</bdi>. Ester Rabá a 2.4 requer confronto com o homógrafo <bdi lang='he' dir='rtl'>אֲבִירָם</bdi>; as variantes não são sentidos alternativos do mesmo adjetivo."
   },
   {
     "sid": "A00145",
@@ -50,7 +50,7 @@ const entries=[
     "lemma": "אֲבִירָם",
     "type": "Nome próprio masculino",
     "gloss": "Abirão",
-    "html": "<strong>Abirão</strong>, nome hebraico bíblico; Ester Rabá a 2.4 menciona <bdi lang='he' dir='rtl'>ר׳ יהושע בר אבירם</bdi> (Rabi Josué bar Abirão). Há variantes editoriais e em Midrax Samuel 13."
+    "html": "<strong>Abirão</strong>, nome hebraico bíblico; Ester Rabá a 2.4 menciona <bdi lang='he' dir='rtl'>ר׳ יהושע בר אבירם</bdi> (Rabi Josué bar Abirão). Há variantes editoriais e em Midrax Samuel 13. <strong>Complemento filológico — lote 003:</strong> <strong>Variantes das fontes:</strong> Ester Rabá a 2.4 registra a fórmula abreviada <bdi lang='he' dir='rtl'>ר׳ יהוש׳ בר א׳</bdi>; algumas edições apresentam <bdi lang='he' dir='rtl'>אבירים</bdi>. Midraxe Samuel 13 registra em vez disso <bdi lang='he' dir='rtl'>בריה דר׳ בירי</bdi>. Essas leituras devem ser atribuídas separadamente, e não tratadas como variantes ortográficas indiferenciadas do nome bíblico Abirão."
   },
   {
     "sid": "A00147",
@@ -85,7 +85,7 @@ const entries=[
     "lemma": "*אַבָּכָא",
     "type": "Substantivo masculino",
     "gloss": "galo grande; lutador",
-    "html": "Termo siríaco interpretado por Jastrow como “o lutador”, daí galo de porte avantajado. Targum Provérbios 30.31; comparar <bdi lang='he' dir='rtl'>זַרְזִיר</bdi>. Variantes manuscritas <bdi lang='he' dir='rtl'>אַכָּבָא, אַבְּרָא</bdi>."
+    "html": "Termo siríaco interpretado por Jastrow como “o lutador”, daí galo de porte avantajado. Targum Provérbios 30.31; comparar <bdi lang='he' dir='rtl'>זַרְזִיר</bdi>. Variantes manuscritas <bdi lang='he' dir='rtl'>אַכָּבָא, אַבְּרָא</bdi>. <strong>Complemento filológico — lote 003:</strong> <strong>Variação textual e etimologia:</strong> Jastrow relaciona o siríaco e a fonte P. Sm., p. 15, com o verbo <bdi lang='he' dir='rtl'>אָבַךְ</bdi> e compara o hebraico <bdi lang='he' dir='rtl'>אָבַק</bdi>. O significado «lutador», depois «galo grande», é análise da obra. Para Targum Provérbios 30.31, registra variante <bdi lang='he' dir='rtl'>אַכָּבָא</bdi> e leitura de manuscrito <bdi lang='he' dir='rtl'>אַבְּרָא</bdi>; as atribuições não devem ser fundidas nem convertidas em etimologias demonstradas."
   },
   {
     "sid": "A00152",
@@ -99,21 +99,21 @@ const entries=[
     "lemma": "אָבֵל,",
     "type": "Topônimo plural",
     "gloss": "Abel; localidades assim denominadas",
-    "html": "<strong>Abel</strong>, nome de várias localidades; comparar <bdi lang='he' dir='rtl'>אֲבֵילִין</bdi>. Eruvin 87a apresenta variantes manuscritas; uma tradição lê <bdi lang='he' dir='rtl'>בבל</bdi>."
+    "html": "<strong>Abel</strong>, nome de várias localidades; comparar <bdi lang='he' dir='rtl'>אֲבֵילִין</bdi>. Eruvin 87a apresenta variantes manuscritas; uma tradição lê <bdi lang='he' dir='rtl'>בבל</bdi>. <strong>Complemento filológico — lote 003:</strong> <strong>Localização textual:</strong> Eruvin 87a traz a forma toponímica nas edições; o manuscrito M. apresenta <bdi lang='he' dir='rtl'>בבל</bdi>, leitura que Jastrow sugere corrigir segundo o contexto, remetendo ao aparato de Rabbinovicz. O lexicógrafo registra <bdi lang='he' dir='rtl'>אָבֵל</bdi> I para localidades, distinguindo-o expressamente de II «enlutado» e III «lamentar»; não há identificação geográfica particular demonstrada nesta nota."
   },
   {
     "sid": "A00154",
     "lemma": "אָבֵל,",
     "type": "Substantivo ou adjetivo",
     "gloss": "enlutado; pessoa de luto",
-    "html": "<strong>Enlutado</strong>, especialmente durante os sete dias após o sepultamento (Moed Katan 14b). Plural <bdi lang='he' dir='rtl'>אֲבֵלִים, אֲבֵילִין</bdi>; feminino <bdi lang='he' dir='rtl'>אֲבֵילָה, אֲבֵלָה</bdi>. Jerusalém Avodah Zarah 1, 39c menciona enlutados entre gentios; Ketubot 8b; Jerusalém Berakhot 4; Jerusalém Ta‘anit 2."
+    "html": "<strong>Enlutado</strong>, especialmente durante os sete dias após o sepultamento (Moed Katan 14b). Plural <bdi lang='he' dir='rtl'>אֲבֵלִים, אֲבֵילִין</bdi>; feminino <bdi lang='he' dir='rtl'>אֲבֵילָה, אֲבֵלָה</bdi>. Jerusalém Avodah Zarah 1, 39c menciona enlutados entre gentios; Ketubot 8b; Jerusalém Berakhot 4; Jerusalém Ta‘anit 2. <strong>Complemento filológico — lote 003:</strong> <strong>Flexão e nota semântica:</strong> Jastrow compara raízes <bdi lang='he' dir='rtl'>אב</bdi> e <bdi lang='he' dir='rtl'>אבב</bdi> e <bdi lang='he' dir='rtl'>אפל</bdi>, mencionando metaforicamente «escuro» (cf. <bdi lang='he' dir='rtl'>קֹדֵר</bdi>). O substantivo/adjetivo denota sobretudo quem guarda luto nos sete dias posteriores ao enterro, não simplesmente qualquer tristeza. Plurais <bdi lang='he' dir='rtl'>אֲבֵלִים</bdi> e <bdi lang='he' dir='rtl'>אֲבֵילִין</bdi>, esta última com caráter alternativo; femininos <bdi lang='he' dir='rtl'>אֲבֵילָה, אֲבֵלָה</bdi>. Ketubot 8b remete ainda a <bdi lang='he' dir='rtl'>בְּרָכָה</bdi>."
   },
   {
     "sid": "A00155",
     "lemma": "אָבֵל,",
     "type": "Verbo",
     "gloss": "guardar luto; lamentar",
-    "html": "Verbo hebraico “lamentar, estar de luto”. <strong>Hitpael</strong> <bdi lang='he' dir='rtl'>הִתְאַבֵּל</bdi> e <strong>nitpael</strong> <bdi lang='he' dir='rtl'>נִתְאַבֵּל</bdi>: observar cerimônias de luto, estar obrigado a enlutamento. Moed Katan 20b manda participar do luto de um parente próximo de alguém cujo falecimento exigiria luto; paralelos em Tanhuma Shemini e Pesikta."
+    "html": "Verbo hebraico “lamentar, estar de luto”. <strong>Hitpael</strong> <bdi lang='he' dir='rtl'>הִתְאַבֵּל</bdi> e <strong>nitpael</strong> <bdi lang='he' dir='rtl'>נִתְאַבֵּל</bdi>: observar cerimônias de luto, estar obrigado a enlutamento. Moed Katan 20b manda participar do luto de um parente próximo de alguém cujo falecimento exigiria luto; paralelos em Tanhuma Shemini e Pesikta. <strong>Complemento filológico — lote 003:</strong> <strong>Valor do hitpael/nitpael:</strong> <bdi lang='he' dir='rtl'>הִתְאַבֵּל</bdi> e <bdi lang='he' dir='rtl'>נִתְאַבֵּל</bdi> significam «cumprir ritos de luto», «estar obrigado a guardar luto», e não apenas o sentimento de pesar. Moed Katan 20b, <bdi lang='he' dir='rtl'>כל שמִתְאַבֵּל עליו מתא׳ עמו</bdi>, fala da obrigação de participar do luto de um parente com quem se está relacionado pela regra ritual. Tanhuma Shemini 1 registra <bdi lang='he' dir='rtl'>נתא׳</bdi>; consultar também Pesikta Sos, p. 148b."
   },
   {
     "sid": "A00156",
@@ -127,7 +127,7 @@ const entries=[
     "lemma": "אֵבֶל",
     "type": "Substantivo masculino",
     "gloss": "luto; período de enlutamento",
-    "html": "Luto; ver <bdi lang='he' dir='rtl'>אֲבֵילוּת</bdi>. Moed Katan 7b: uma pessoa ainda enlutada quando sobrevém outro falecimento. <bdi lang='he' dir='rtl'>אֵבֶל רַבָּתִי</bdi> (“Grande Luto”), nome de um tratado rabínico também designado eufemisticamente <bdi lang='he' dir='rtl'>שְׂמָחוֹת</bdi> (“Alegrias”). Jerusalém Moed Katan 3, 82b."
+    "html": "Luto; ver <bdi lang='he' dir='rtl'>אֲבֵילוּת</bdi>. Moed Katan 7b: uma pessoa ainda enlutada quando sobrevém outro falecimento. <bdi lang='he' dir='rtl'>אֵבֶל רַבָּתִי</bdi> (“Grande Luto”), nome de um tratado rabínico também designado eufemisticamente <bdi lang='he' dir='rtl'>שְׂמָחוֹת</bdi> (“Alegrias”). Jerusalém Moed Katan 3, 82b. <strong>Nota de colação:</strong> Plural אֲבֵילִים; Targum Gênesis 50.11 é remetido pelo autor ao aramaico אֶבְלָא."
   },
   {
     "sid": "A00158",
@@ -148,14 +148,14 @@ const entries=[
     "lemma": "אֶבְלָא,",
     "type": "Substantivo aramaico",
     "gloss": "luto; lamentação",
-    "html": "Variantes <bdi lang='he' dir='rtl'>אֶבְלָא, אֶבְלָה, אִיבְלָא</bdi>, correspondentes ao hebraico <bdi lang='he' dir='rtl'>אֵבֶל</bdi>. Targum Gênesis 50.11 e 27.41; Targum Levítico 10.19. Gênesis Rabá 27 conserva o provérbio: “na hora da alegria, alegra-te; na hora do luto, lamenta”."
+    "html": "Variantes <bdi lang='he' dir='rtl'>אֶבְלָא, אֶבְלָה, אִיבְלָא</bdi>, correspondentes ao hebraico <bdi lang='he' dir='rtl'>אֵבֶל</bdi>. Targum Gênesis 50.11 e 27.41; Targum Levítico 10.19. Gênesis Rabá 27 conserva o provérbio: “na hora da alegria, alegra-te; na hora do luto, lamenta”. <strong>Complemento filológico — lote 003:</strong> <strong>Aparato targúmico:</strong> Targum Gênesis 50.11 registra, como variante, <bdi lang='he' dir='rtl'>אִיבְלָא אָבֵל</bdi>, além das grafias <bdi lang='he' dir='rtl'>אֶבְלָא, אֶבְלָה</bdi>. Targum Onkelos Gênesis 27.41 é citado separadamente; Targum Pseudo-Jônatas Levítico 10.19 traz <bdi lang='he' dir='rtl'>אֲבֵילָא</bdi>. No provérbio de Gênesis Rabá §27, o texto preserva a expressão abreviada <bdi lang='he' dir='rtl'>בשעת א׳ א׳</bdi>, «quando vier o luto, lamenta»; a glosa portuguesa do primeiro membro «quando vier a alegria, alegra-te» traduz a explicação da fonte, não outra entrada lexical."
   },
   {
     "sid": "A00161",
     "lemma": "אֶבְלוּ,",
     "type": "Substantivo feminino",
     "gloss": "luto",
-    "html": "Equivalente a <bdi lang='he' dir='rtl'>אֲבֵילוּתָא</bdi>, “luto”. Targum Pseudo-Jônatas, Deuteronômio 26.14."
+    "html": "O original registra duas grafias, <bdi lang='he' dir='rtl'>אֶבְלוּ</bdi> e <bdi lang='he' dir='rtl'>אֲבֵלוּ</bdi>. Equivalente a <bdi lang='he' dir='rtl'>אֲבֵילוּתָא</bdi>, “luto”. Targum Pseudo-Jônatas, Deuteronômio 26.14."
   },
   {
     "sid": "A00162",
@@ -183,7 +183,7 @@ const entries=[
     "lemma": "*אַבְלוֹשֵׁי",
     "type": "Substantivo masculino plural",
     "gloss": "escavadores; cavadores de terra",
-    "html": "Trabalhadores que escavam o solo, na interpretação citada de Maimônides. <bdi lang='he' dir='rtl'>אבלושי דמחוזא</bdi>, “os cavadores de Mahoza” (Bava Metzia 77a). A fonte registra variantes divergentes <bdi lang='he' dir='rtl'>אוכלי, אוכלסי, אכלוזי</bdi> e derivações propostas das raízes relativas a abrir/cortar."
+    "html": "Trabalhadores que escavam o solo, na interpretação citada de Maimônides. <bdi lang='he' dir='rtl'>אבלושי דמחוזא</bdi>, “os cavadores de Mahoza” (Bava Metzia 77a). A fonte abrevia uma leitura da edição e do <i>Arukh</i> como <bdi lang='he' dir='rtl'>אכ׳</bdi>; o manuscrito M. lê <bdi lang='he' dir='rtl'>אוכלסי</bdi> e o manuscrito R., <bdi lang='he' dir='rtl'>אכלוזי</bdi> e derivações propostas das raízes relativas a abrir/cortar. <strong>Complemento filológico — lote 003:</strong> <strong>Distribuição das leituras:</strong> Bava Metzia 77a, no <i>Arukh</i> como variante, transmite <bdi lang='he' dir='rtl'>א׳ דמחוזא</bdi>, «escavadores de Mahoza». A edição e o <i>Arukh</i> noutra passagem dão forma abreviada <bdi lang='he' dir='rtl'>אכ׳</bdi> (remissão do autor); manuscrito M. registra <bdi lang='he' dir='rtl'>אוכלסי</bdi>, manuscrito R. <bdi lang='he' dir='rtl'>אכלוזי</bdi>. A tradução «escavadores» segue interpretação de Maimônides; a raiz <bdi lang='he' dir='rtl'>בלש</bdi> II e as comparações <bdi lang='he' dir='rtl'>פלש, פלס, בקע</bdi> são sugestões de análise histórica, não testemunhos da profissão."
   },
   {
     "sid": "A00166",
@@ -197,21 +197,21 @@ const entries=[
     "lemma": "*אבליג,",
     "type": "Nome próprio masculino (leitura incerta)",
     "gloss": "Ablig; Abliga",
-    "html": "Nome próprio masculino com variantes <bdi lang='he' dir='rtl'>אבליג, אבליגה</bdi>, em Pesikta Rabati 33; comparar leituras de Jerusalém Nazir 7, 56a e Jerusalém Berakhot 3, 6a."
+    "html": "Nome próprio masculino com variantes <bdi lang='he' dir='rtl'>אבליג, אבליגה</bdi>, em Pesikta Rabati 33; comparar leituras de Jerusalém Nazir 7, 56a e Jerusalém Berakhot 3, 6a. <strong>Nota de colação:</strong> Jerusalém Nazir 7, 56a: מגבילה; Jerusalém Berakhot 3, 6a: גבילה. São variantes atribuídas a fontes diferentes."
   },
   {
     "sid": "A00168",
     "lemma": "*אַבְלִינָא",
     "type": "Substantivo masculino",
     "gloss": "madeira de ébano",
-    "html": "Do grego <span lang='grc'>ἐβέλινος / ἐβένινος</span>: madeira de ébano. <bdi lang='he' dir='rtl'>מטות של אבלינא</bdi>, “leitos de ébano”, em Yelammedenu Beha'alotkha, citado pelo <i>Arukh</i>; outras tradições registram somente “candelabros”. A fonte aponta variante <bdi lang='he' dir='rtl'>אבליגא</bdi>."
+    "html": "Do grego <span lang='grc'>ἐβέλινος / ἐβένινος</span>: madeira de ébano. <bdi lang='he' dir='rtl'>מטות של אבלינא</bdi>, “leitos de ébano”, em Yelammedenu Beha'alotkha, citado pelo <i>Arukh</i>; outras tradições registram somente “candelabros”. A fonte aponta variante <bdi lang='he' dir='rtl'>אבליגא</bdi>. <strong>Complemento filológico — lote 003:</strong> <strong>Fontes e diferenças entre transmissões:</strong> Yelammedenu Beha'alotkha apresenta <bdi lang='he' dir='rtl'>מטות של א׳</bdi>, «leitos de ébano», citado pelo <i>Arukh</i>; Tanhuma e Números Rabá §14, segundo Jastrow, conservam apenas o segmento relativo a «candelabros», <bdi lang='he' dir='rtl'>מנורות</bdi>. A coleção de Jellinek, <i>Beth ha-Midrash</i> VI, p. 88, nº 53, registra <bdi lang='he' dir='rtl'>אבליגא</bdi>. A grafia grega <span lang='grc'>ἐβέλινος</span> é comparada ao provável <span lang='grc'>ἐβένινος</span>; a equivalência «ébano» não pressupõe identidade das variantes nos diferentes testemunhos."
   },
   {
     "sid": "A00169",
     "lemma": "*אַבְלַס,",
     "type": "Topônimo plural",
     "gloss": "Avlas; região da Cilícia",
-    "html": "<strong>Avlas</strong>, também <bdi lang='he' dir='rtl'>אַוְולַס</bdi>, local citado como limite setentrional da terra de Israel, na Cilícia. Targum Pseudo-Jônatas Números 34.8; Tosefta Sheviit 4.11 e textos midráxicos apresentam numerosas variantes toponímicas. Jastrow propõe, com ressalva, identificação com as Portas da Cilícia (<span lang='grc'>Πύλαι τῆς Κιλίκιας</span>)."
+    "html": "<strong>Avlas</strong>, também <bdi lang='he' dir='rtl'>אַוְולַס</bdi>, local citado como limite setentrional da terra de Israel, na Cilícia. Targum Pseudo-Jônatas Números 34.8; Tosefta Sheviit 4.11 e textos midráxicos apresentam numerosas variantes toponímicas. Jastrow propõe, com ressalva, identificação com as Portas da Cilícia (<span lang='grc'>Πύλαι τῆς Κιλίκιας</span>). <strong>Nota de colação:</strong> Tosefta Sheviit 4.11 tem עילי רבתא (variante אולם); Sifré Deuteronômio 51 לולא רבתא; Yalkut Deuteronômio 624 לילא רבתא. Portas da Cilícia é hipótese toponímica."
   }
 ];
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
