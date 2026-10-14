@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva do lote 313 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **26301–26400** (**μελανόπτερος, ος, ον** → **⟦fragmento sem lema no XML · μ 821⟧**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26400 / 44.590**; próximo ordinal **26401**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
 ## DGP — incorporação exclusiva do lote 312 (14/10/2026)
 
 Incorporados **100 registros `entryFree`**, ordinais **26201–26300** (**⟦fragmento sem lema no XML · μ 622⟧** → **μελανόζυξ, υγος**), do XML canônico **μ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **26300 / 44.590**; próximo ordinal **26301**. Somente incorporação; sem auditoria, homologação, PR ou integração.
