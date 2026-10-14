@@ -1,0 +1,1415 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data pinned XML)",
+  "source_start_ordinal": 4601,
+  "source_end_ordinal": 4800,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "entry_count": 200,
+  "first_headword": "בַּקְרָא",
+  "last_headword": "בְּרָתָא,",
+  "next_headword": "בַּרְתּוֹתָא",
+  "status": "source_only_untranslated_not_published",
+  "records": [
+    {
+      "ordinal": 4601,
+      "source_id": "jastrow-xml-004601",
+      "canonical_entry_id": "B01143",
+      "headword": "בַּקְרָא",
+      "source_xml": "<entry id=\"B01143\">\n<head-word>בַּקְרָא</head-word>\n<senses>\n<sense>\n<definition> c. (בקר) \n<italic>herd</italic>.</definition>\n<notes> Targ. Y. Deut. VII, 13 בַּקְרַת תוריך (h. text שגר אלפיך). B. Mets. 84\n<sup>a</sup> ב' דתורי a herd \n<pgbrk id=\"pg188\" />of oxen, (Var. פדנא, v. Rashia. l. a. Rabb. D. S. a. l. note 2).—\n<plural-form>Pl. m. בַּקְרִין,</plural-form> constr. בַּקְרֵי. Targ. O. Deut. l. c.; Targ. ib. XXVIII, 4.—Fem. בַּקְרָן. Targ. Joel I, 18; Is. VII, 25.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4602,
+      "source_id": "jastrow-xml-004602",
+      "canonical_entry_id": "B01144",
+      "headword": "בַּקְרוּת",
+      "source_xml": "<entry id=\"B01144\">\n<head-word>בַּקְרוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (בָּקָר) \n<italic>cattle-yard, cattle-farm, stock of cattle</italic>.</definition>\n<notes> M. Kat. 12\n<sup>a</sup>; Tosef. ib. II, 11 ביקורת (Var. בקירות, בקרות); Y. Pes. IV, 31\n<sup>b</sup> top בקורת. Y. Yeb. IV, 6\n<sup>a</sup> bot.; Y. Nidd. I, 49\n<sup>b</sup> top; Gen. R. s. 20 [read:] בקרות של בית אנטונינוס היתה עֹובֶרֶת והרביעו (שוורים) ממנה בַקְרוּת של בית רבי the herd of the estate of A. passed by and (some oxen) thereof covered the herd of Rabbi’s estate; [perhaps the second בקרות is to be read בְּקָרוֹת fem. pl. of בִּקְרָה; v. Var. lect. in l. c.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4603,
+      "source_id": "jastrow-xml-004603",
+      "canonical_entry_id": "B01145",
+      "headword": "בַּקְרוּתָא,",
+      "source_xml": "<entry id=\"B01145\">\n<head-word>בַּקְרוּתָא, </head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Lam. R. to I, 9 חד בענא וחד בב' one is employed in the fold and one in the cattle-farm. Y. Snh. VII, 25\n<sup>d</sup> bot. גנב עגל מן בקוותא וכ' (corr. … מן בקר' ואייתיה ליה) he stole a calf from the yard and brought it to him.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4604,
+      "source_id": "jastrow-xml-004604",
+      "canonical_entry_id": "B01146",
+      "headword": "בַּקְרוּתָא,",
+      "source_xml": "<entry id=\"B01146\">\n<head-word>בַּקְרוּתָא, </head-word>\n<hw-number>II</hw-number>\n<head-word>בַּקְרָנוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01142\">בַּקָּרָא II</xref>) \n<italic>levity, thoughtlessness</italic>.</definition>\n<notes> Targ. Jer. XXIII, 32. Targ. I Sam. XVII, 28.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4605,
+      "source_id": "jastrow-xml-004605",
+      "canonical_entry_id": "B01147",
+      "headword": "בַּקְרַת",
+      "source_xml": "<entry id=\"B01147\">\n<head-word>בַּקְרַת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01143\">בַּקְרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4606,
+      "source_id": "jastrow-xml-004606",
+      "canonical_entry_id": "B01148",
+      "headword": "בָּקַשׁ",
+      "source_xml": "<entry id=\"B01148\">\n<head-word>בָּקַשׁ</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בק</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"B01111\">בקא</xref>; corresp. to ch. בעי); \n<italic>Pi.</italic> בִּיקֵּשׁ, בִּקֵּשׁ \n<italic>to seek, desire, beg, ask</italic>.</definition>\n<notes> Kidd. 65\n<sup>a</sup> מְבַקְּשִׁין וכ' the court begs him to give her a letter of divorce, opp. to כופין. Ber. 12\n<sup>b</sup> בִּקְּשׁוּ לקבוע וכ' they (the Rabbis) intended to insert the chapter about Balak &amp;c. Gen. R. s. 84 ב' לישב וכ' he intended to live in peace; a. fr.—ב' רחמים \n<italic>to pray</italic> (for mercy), v. בעי. Ber. l. c. B. Bath. 91\n<sup>b</sup>; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְבַּקֵּשׁ, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְבַּקֵּשׁ \n<italic>to be sought, to be hunted for</italic> (by detectives); \n<italic>to be summoned</italic>. Taan. 29\n<sup>a</sup> (a disguised warning given to R. Gamliel) בעל החוטם מִתְבַּקֵּשׁ the well-known man is wanted; v. חֹוטֶם. B. Mets. 86\n<sup>a</sup>, v. יְשִׁיבָה.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4607,
+      "source_id": "jastrow-xml-004607",
+      "canonical_entry_id": "B01149",
+      "headword": "בַּקָּשָׁה",
+      "source_xml": "<entry id=\"B01149\">\n<head-word>בַּקָּשָׁה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) \n<italic>desire, prayer</italic>.</definition>\n<notes> Ned. XI, 12 דרך ב' in the way of a request (to give a divorce, v. preced.). Ber. 9\n<sup>a</sup>, a. fr. אין נא אלא לשון ב' the word נָא in the Bible means prayer (I pray &amp;c.). Ib. 57\n<sup>a</sup> תלויה בַקָּשָׁתֹו his prayer is held in suspense (its fulfillment is doubtful).—בב' ממך \n<italic>I pray thee</italic>, v. בָּעוּ. Ib. 9\n<sup>a</sup>. Gen. R. s. 75 end; a. fr.—\n<plural-form>Pl. בַּקָּשֹׁות</plural-form></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4608,
+      "source_id": "jastrow-xml-004608",
+      "canonical_entry_id": "B01150",
+      "headword": "בִּקְתָא,",
+      "source_xml": "<entry id=\"B01150\">\n<head-word>בִּקְתָא, </head-word>\n<head-word>בִּיקְתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= בקעתא, v. \n<xref rid=\"B00009\">בָּאגָא</xref> a. \n<xref rid=\"A00083\">בִּקְעָה)</xref>\n<italic>valley, short cut; group of fields</italic>.</definition>\n<notes> Ber. 34\n<sup>b</sup> bot. I consider him arrogant מאן דמצלי בב' (Ms. M. a. Ar. בפִקְתָא q. v.) who prays in a valley (where people pass by). Keth. 54\n<sup>a</sup>; 103\n<sup>a</sup> בביתי ולא בביקתי ‘in my house’ (‘as long as you will spend your widowhood in my house’—the marriage contract reads) but not in my estate, i.e. she must be content to live in her late husband’s house with his heirs, but she cannot claim a separate residence. [Comment. בקתי = בי עקתי house of my distress, narrow house, i.e. when there is no room for her and the heirs, she loses her claims, v. Sabb. 77\n<sup>b</sup>, etymol. of ב' = בי עקתא narrow place.]—בר בי' (בת) one of the same rural community; trnsf. \n<italic>of the same class</italic> or \n<italic>category</italic>;\n<italic> neighbor</italic>. Men. 24\n<sup>b</sup> כולהו בני ב' they all belong together. Meïl. 17\n<sup>b</sup> בני חדא ב' of the same category.—Yeb. 84\n<sup>a</sup> בת בי' (ed. בּוּקְתָא) a parallel case stated immediately after.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4609,
+      "source_id": "jastrow-xml-004609",
+      "canonical_entry_id": "B01151",
+      "headword": "בַּקְּתָא",
+      "source_xml": "<entry id=\"B01151\">\n<head-word>בַּקְּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01111\">בַּקָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4610,
+      "source_id": "jastrow-xml-004610",
+      "canonical_entry_id": "B01152",
+      "headword": "בַּר,",
+      "source_xml": "<entry id=\"B01152\">\n<head-word>בַּר, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> ברר)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>empty, open</italic>] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>uncultivated ground, forest, prairie;</italic> opp. יישוב.</definition>\n<notes> Kil. VIII, 6. Ḥull. 80\n<sup>a</sup> שור הבר the ox of the prairie, \n<italic>buffalo</italic>. Ib. איל הב' forest ram. Y. Sabb. XIV, 14\n<sup>b</sup> bot. חזיר של ב' wild swine.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>clear, visible</italic>, whence \n<italic>the outside, surface</italic>, opp. תוך.</definition>\n<notes> Yoma 72\n<sup>b</sup> a scholar שאין תוכו כבָרֹו whose inside is not as his outside (who is insincere); Ber. 28\n<sup>a</sup>. Y. Pes. VII, 34\n<sup>a</sup> bot. תוך בר the inner parts of the Passover lamb must hang outside (not be put inside, v. R. Akiba in Mish. VII, 1); Mekh. Bo, 6 תוך ובר (read תוכו בר); Pes. 74\n<sup>a</sup> R. Ish. called it תוך בר Ar. s. v. תך 2 (ed. תוך תוך, Var. in Rashi a. Ar. תוכברא q. v.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4611,
+      "source_id": "jastrow-xml-004611",
+      "canonical_entry_id": "B01153",
+      "headword": "בַּר,",
+      "source_xml": "<entry id=\"B01153\">\n<head-word>בַּר, </head-word>\n<head-word>בָּר, </head-word>\n<head-word>בָּרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (= h. שָׂדֶה, יַעַר) \n<italic>forest, prairie</italic> &amp;c. Targ. Ps. L, 10 sq.</definition>\n<notes> &amp;c. Targ. Ps. L, 10 sq. Targ O. Gen. III, 1; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (adj.) \n<italic>living in the forest</italic> &amp;c., \n<italic>wild</italic>.</definition>\n<notes> Targ. Ps. l. c. Var. תרנגול ברא; Sabb. 78\n<sup>a</sup> תרנגולא ב' Ms. M. (ed. … לת) woodcock (hen of the prairie).—</notes></sense>\n<sense>\n<number>*3)</number>\n<definition>\n<italic>peel</italic>.</definition>\n<notes> Ib. 139\n<sup>b</sup> ב' דתומא the peel of garlic; [Rashi, expl. צלע, must have read אברא].</notes></sense>\n<sense>\n<number>—4)</number>\n<definition> (= h. חוּץ) \n<italic>outside, outdoors, street</italic>.</definition>\n<notes> Targ. Gen. XXXIV, 31 נפקת ב' a prostitute, v. חוּץ II; a. fr.—Y. Kil. IX, 32\n<sup>b</sup> מאן בעי לך לבר who wants thee outside? (an intimation to leave the room). Snh. 62\n<sup>ab</sup>; Sabb. 106\n<sup>a</sup>, a. e. פוק תני לברא go out and teach it in the street (i.e. your tradition is rejected).—תנא ברא a Tannai not recorded in the Mishnah, v. בָּרַיְיתָא. M. Kat. 17\n<sup>b</sup> (Rashi: האי תנא דברייתא); B. Bath. 93\n<sup>b</sup> Ar. (ed. בתרא); cmp. בָּרָאָה.—4) (prep. a. adv.) \n<italic>outside;</italic> בר מן \n<italic>outside of, except, without</italic>. Targ. O. Gen. XIV, 24; a. fr.—Ber. 38\n<sup>b</sup> ב' מן דין וב' וכ' without this and without that, i.e. apart from these two arguments. Y. Erub. VII, end 24\n<sup>d</sup> ב' מדעתיה without his knowledge; a. fr.—Ḥull. 62\n<sup>b</sup> וסימניך ב̇ר̇ מיניה and thy mnemonical sign (as to צרדא a. ב̇ר̇דא, the one being forbidden, the other permitted) be: keep aloof from it (ב̇ר̇דא).—Trnsf. \n<italic>restriction</italic> (everywhere except …), \n<italic>proviso</italic>. Succ. 45\n<sup>b</sup>; Snh. 97\n<sup>b</sup> who enter the heavenly courts בב' with certain qualifications (by special grant), בלא ב' without any restrictions.—לְבַר, מִלְּבַר \n<italic>apart from, outside, exclusively</italic>. Cant. R. to VII, 8 לב' מישראל except the Israelites. Ḥull. 98\n<sup>a</sup> sixty one, בהדי דידה או … לב' מינה the one (egg) included or excluded? B. Bath. 90\n<sup>b</sup> שתותא מלב' the sixth part (as an addition) is outside, i.e. to each five portions one is added, an addition of twenty percent, opp. מִלְגֵו. B. Mets. 53\n<sup>b</sup>, v. חוּמְשָׁא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4612,
+      "source_id": "jastrow-xml-004612",
+      "canonical_entry_id": "B01154",
+      "headword": "בַּר,",
+      "source_xml": "<entry id=\"B01154\">\n<head-word>בַּר, </head-word>\n<hw-number>II</hw-number>\n<head-word>בְּרָא</head-word>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(b. h. בַּר poetic; ברי) \n<italic>son, offspring</italic>.</definition>\n<notes> Targ. Gen. IV, 25; a. v. fr.—ב' שמואל son of Sam.; … בְּרֵיה דר' son of … Ber. 3\n<sup>a</sup>. Ḥull. 11\n<sup>a</sup>; a. v. fr.—B. Mets. 110\n<sup>a</sup> … בְּרָהּ דבת the son of the daughter of … Sabb. 116\n<sup>b</sup> במקום ברא ברתא וכ' where there is a son, the daughter cannot inherit. Y. Shebi. IX, 39\n<sup>a</sup> bot. אמה דהן ילדת ב' this nan’s mother has born a son, i.e. she may be proud of him; Y. Ab. Zar. IV, 43\n<sup>d</sup> אית לאימיה ב' (not ואית); a. v. fr.—\n<plural-form>Pl. [בְּרִין, בְּרֵי</plural-form>. Targ. Y. Ex. X, 9 (some ed.). Targ. Ps. CXXVII, 5 Ms.] בְּנִין, בְּנֵי, בְּנַיָּא. \n<pgbrk id=\"pg189\" />Targ. Gen. V, 4 בְּנִין וּבְנָן sons and daughters; a. fr.—Keth. IV, 10 (in a marriage contract) בנין דכרין male issue, opp. בְּנָן נוקבין, ib. 11.—Ber. 10\n<sup>a</sup> ב' דמעלו good children. Y. B. Bath. VIII, 16\n<sup>b</sup> bot. אין הוון בנוי דהנייה (read בָּנַיי) if my children turn out well; a. v. fr.—בר בר, בר בת \n<italic>grandson</italic>. Esth. R. introd. (expl. נין ונכד) בר ובר בר (not וברבר) son and grandson; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Fem.</binyan-name>\n<binyan-form>בְּרַת</binyan-form>\n<senses>\n<sense>\n<definition>.</definition>\n<notes> [The meaning of בר in compounds is generally the same as of בן a. בעל, e.g. ב' אולפן \n<italic>a scholar</italic>, ב' אמודאי \n<italic>a diver</italic>, ב' שטיא \n<italic>a maniac</italic>, ב' דעת \n<italic>a rational being</italic>. בר בי רב, v. בֵּי. For compounds which are not self-evident, see the respective determinants.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4613,
+      "source_id": "jastrow-xml-004613",
+      "canonical_entry_id": "B01155",
+      "headword": "בַּר,",
+      "source_xml": "<entry id=\"B01155\">\n<head-word>בַּר, </head-word>\n<hw-number>III</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> ברר; v. בַּר I)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>clear, bright, clean, pure</italic>.</definition>\n<notes> Tosef. Kil. III, 6 (missing in ed. Zuckerm., v. Var. a. l.) שהוא בר ובקי וכ' who is clear and well-versed in &amp;c. Num. R. s. 10 (ref. to ברי Prov. XXXI, 2, a. בר Ps. II, 12) the Law שהיא נקראת בר which is called \n<italic>bar</italic> (clear, pure, Ps. XIX, 9).—\n<plural-form>Pl. בָּרִים</plural-form>. Ib.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4614,
+      "source_id": "jastrow-xml-004614",
+      "canonical_entry_id": "B01156",
+      "headword": "בַּר,",
+      "source_xml": "<entry id=\"B01156\">\n<head-word>בַּר, </head-word>\n<hw-number>IV</hw-number>\n<head-word>בָּר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"B01335\">בָּרַר</xref>) [\n<italic>sifted</italic>] \n<italic>grain</italic>.</definition>\n<notes> Ber. 55\n<sup>a</sup> כשם שא\"א לבר בלא וכ' as there can be no grain without straw, so there is no dream without idle things; Ned. 8\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4615,
+      "source_id": "jastrow-xml-004615",
+      "canonical_entry_id": "B01157",
+      "headword": "בָּרָא,",
+      "source_xml": "<entry id=\"B01157\">\n<head-word>בָּרָא, </head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition>\n<italic>outside, forest</italic> &amp;c., v. \n<xref rid=\"unknown\">בַּר I</xref> ch.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4616,
+      "source_id": "jastrow-xml-004616",
+      "canonical_entry_id": "B01158",
+      "headword": "בָּרָא,",
+      "source_xml": "<entry id=\"B01158\">\n<head-word>בָּרָא, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition>, בְּרָא I \n<italic>to create</italic>, v. \n<xref rid=\"B00359\">ברי</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4617,
+      "source_id": "jastrow-xml-004617",
+      "canonical_entry_id": "B01159",
+      "headword": "בְּרָא,",
+      "source_xml": "<entry id=\"B01159\">\n<head-word>בְּרָא, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition>\n<italic>son</italic>, v. \n<xref rid=\"B01154\">בַּר II</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4618,
+      "source_id": "jastrow-xml-004618",
+      "canonical_entry_id": "B01160",
+      "headword": "בָּרָאָה,",
+      "source_xml": "<entry id=\"B01160\">\n<head-word>בָּרָאָה, </head-word>\n<head-word>בָּרָיָיא, </head-word>\n<head-word>בָּרָיָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01152\">בַּר I</xref>\n<language-key> ch.)</language-key></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>external, foreign, not belonging to</italic>, opp. גַּוָּאָה.</definition>\n<notes> Targ. II Kings XVI, 18; a. e.—Y. Pes. VII, beg. 34\n<sup>a</sup> תנא ב', v. בַּר I ch.—Gen. R. s. 49; Yalk. Gen. 83 (interpret. חָלִילָה Gen. XIII, 25) (בריה) ברייה הוא לך it is foreign to thy nature; v. הִיצָה I.—\n<plural-form>Pl. בָּרָאֵי</plural-form>. Kidd. 33\n<sup>a</sup> בתי ב' the outer chambers of the bath-house. Ḥag. 5\n<sup>b</sup> בתי ב' the outer chambers of the heavens. B. Bath. 30\n<sup>a</sup> בשוקי ב' in the market places abroad.—Fem. בָּרַיְתָא, בָּרַיְיתָא. Targ. Ezek. XLII, 1; a. e.—Y. M. Kat. III, beg. 81\n<sup>c</sup>; Y. Ned. X, 42\n<sup>b</sup> top ארעא ב' (= h. חוץ לארץ) abroad; v. אֶרֶץ.—\n<plural-form>Pl. בַּרְיָתָא, בַּרְיָיתָא</plural-form>. Targ. Prov. XXX, 4 ב' דארעא the extreme ends of &amp;c.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (as noun) \n<italic>street, open place, field</italic>.</definition>\n<notes> B. Bath. 40\n<sup>b</sup> sit down בשוקי ובב' Rashi (ed. בשוקא) in markets and open places (i.e. in public). Ḥull. 43; 47\n<sup>a</sup>; 58\n<sup>b</sup> חיוי ב' the animals of the prairies, v. בַּר I ch.—Esp. בָּרַיְיתָא, בָּרַיְתָא (sub. מתניתא = h. משנה החיצונה) \n<italic>Baraitha</italic> (or \n<italic>Boraitha</italic>), traditions and opinions of Tannaim not embodied in the Mishnah as compiled by R. Judah han-Nasi. [A collection of such Baraithas is found in the Tosefta (תוספתא) which bears the nearest resemblance to the Mishnah and is called by that name in Talm. Y.—The B. in frequently called מתניתא (Ch.) in contrad. to משנה (Hebr.), v. Num. R. s. 18 (ref. to Cant. VI, 8); Lev. R. s. 30.]—Sabb. 19\n<sup>b</sup>; Erub. 19\n<sup>b</sup>; a. e. ב' לא שמיע' ליה (cmp. Sabb. 61\n<sup>a</sup>; Pes. 101\n<sup>b</sup> מתנית' לא וכ') he did not know that Boraitha. Ber. 19\n<sup>a</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4619,
+      "source_id": "jastrow-xml-004619",
+      "canonical_entry_id": "B01161",
+      "headword": "בְּרָאִי",
+      "source_xml": "<entry id=\"B01161\">\n<head-word>בְּרָאִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01160\">preced.</xref>) = אַבְרָאִי \n<italic>outside</italic>.</definition>\n<notes> Ab. Zar. 28\n<sup>a</sup> מכה דב' an external wound.—(Adv.) Zeb. 15\n<sup>a</sup> דקאי זר ב' the layman stands outside. Ib. לב' נפיק וכ' does (the blood) run only outside (away from the altar) and not also inside (in all directions)?</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4620,
+      "source_id": "jastrow-xml-004620",
+      "canonical_entry_id": "B01162",
+      "headword": "בְּרֵאשִׁית",
+      "source_xml": "<entry id=\"B01162\">\n<head-word>בְּרֵאשִׁית</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>in the beginning</italic>, as a cosmological term (ref. to Gen. I, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>creation, primeval period, Nature, Universe</italic>.</definition>\n<notes> Targ. Is. XXVIII, 29; a. e.—מִבְּ' \n<italic>from the beginning</italic>. Ib. XLI, 4.—מעשה ב' a) \n<italic>creation</italic>. Gen. R. s. 3; a. fr.—b) \n<italic>cosmogony</italic>, contrad. to מעשה מרכבה theosophy, Ḥag. II, 1; a. fr.—Y. Shebi. I, beg. 33\n<sup>a</sup> שבת ב' the Sabbath commemorative of creation, i.e. the regular weekly Sabbath, contrad. to Holy Days. [In later Hebr. שבת ב' the Sabbath on which the first section of the Pentateuch is read.]—Ber. IX, 2 ברוך עושה (מעשה) ב' praised be the Author of creation—a formula of benediction for awe-inspiring natural phenomena; v. ib. a. Y. ib. 13\n<sup>c</sup> bot.—ששת ימי ב' from the six days of creation. Keth. 8\n<sup>b</sup> נתיב הוא מש' וכ' this is the way (the lot of humanity) since the world existed.—Tosef. Maasr. III, 14: a. fr.—Y. Taan. II, 65\n<sup>a</sup> bot. מי ב'; Lam. R. to III, 40 מימי ב' primeval waters, \n<italic>Ocean</italic> &amp;c. (v. Gen. I, 9 sq.).—ספר ב' \n<italic>The Book of Genesis</italic>. Gen. R. s. 3; a. e.—ב' רבה \n<italic>B’reshith Rabbah</italic> (Gen. R.), name of the first book of the Midrash Rabbah.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4621,
+      "source_id": "jastrow-xml-004621",
+      "canonical_entry_id": "B01163",
+      "headword": "ברבוי",
+      "source_xml": "<entry id=\"B01163\">\n<head-word>ברבוי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01166\">בַּרְבַּיִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4622,
+      "source_id": "jastrow-xml-004622",
+      "canonical_entry_id": "B01164",
+      "headword": "בַּרְבּוּרִים",
+      "source_xml": "<entry id=\"B01164\">\n<head-word>בַּרְבּוּרִים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01172\">בַּרְבַּרְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4623,
+      "source_id": "jastrow-xml-004623",
+      "canonical_entry_id": "B01165",
+      "headword": "בְּרַבִּי,",
+      "source_xml": "<entry id=\"B01165\">\n<head-word>בְּרַבִּי, </head-word>\n<head-word>בְּרִיבִּי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (contr. of בי רבי, \n<italic>belonging to a school of an eminent teacher</italic>, v. \n<xref rid=\"B00125\">בֵּי</xref> 4) \n<italic>B’rabbi, B’ribbi</italic>, title of scholars, most frequently applied to disciples of R. Judah han-Nasi and his contemporaries, but also to some of his predecessors, and sometimes to the first Amoraim, v. אֲמֹורָא.</definition>\n<notes> B. Mets. 85\n<sup>a</sup> אסמכיה ב' he gave him the title of B’rabbi (a scholar of Rabbi Judah). Ḥull. 137\n<sup>a</sup> דברי ברי' (ref. to R. Yosé). Ib. 11\n<sup>b</sup> ברבי; Macc. 5\n<sup>b</sup> בריבי (v. Rabb. D. S. a. l. note 100). Sabb. 115\n<sup>a</sup> רבן גמליאל ברי' (Tosef. ib. XIII (XIV), 2; Mass. Sofrim V, 15 only ר' גמ') R. Gaml. son of R. Judah han-Nasi. Erub. 53\n<sup>a</sup> רבי אושעיא ברי' (Ms. M. ברב', v. Rabb. D. S. a. l. notes 70; 80) R. O. scholar of Rabbi Jud. han-N.—Sifré Deut. 1, end יהודה ברב' (Yalk. ib. 792 only יהודה). Y. M. Kat. III, 82\n<sup>c</sup> bot.; Gen. R. s. 100 חד בר' אמר a student (Amora) recited &amp;c. Y. Sot. VIII, end, 23\n<sup>a</sup> לית רבי ב' [insert או] not even a teacher or a student was exempt. [Snh. 17\n<sup>b</sup> רמי בר ברבי, read ברוכי.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4624,
+      "source_id": "jastrow-xml-004624",
+      "canonical_entry_id": "B01166",
+      "headword": "*בַּרְבַּיִי",
+      "source_xml": "<entry id=\"B01166\">\n<head-word>*בַּרְבַּיִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (abbr. of בַּר בַּיִת) \n<italic>intimate, familiar</italic>.</definition>\n<notes> Cant. R. to V, 15; Lev. R. s. 25 אזיל ומתעביד ב' (Cant. R. ברבוי, some ed.) he grows to be like an inmate of the house.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4625,
+      "source_id": "jastrow-xml-004625",
+      "canonical_entry_id": "B01167",
+      "headword": "ברבר",
+      "source_xml": "<entry id=\"B01167\">\n<head-word>ברבר</head-word>\n<senses>\n<sense>\n<definition>, v. \n<xref rid=\"B01153\">בַּר</xref>\n<italic>son</italic>, a. בַּרְבָּרִי.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4626,
+      "source_id": "jastrow-xml-004626",
+      "canonical_entry_id": "B01168",
+      "headword": "בַּרְבְּרָאָה",
+      "source_xml": "<entry id=\"B01168\">\n<head-word>בַּרְבְּרָאָה</head-word>\n<plural-form>Pl. בַּרְבְּרָאֵי</plural-form>\n<senses>\n<sense>\n<definition> = בַּרְבְּרִי.</definition>\n<notes> . Targ. Ps. CXIV, 1.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4627,
+      "source_id": "jastrow-xml-004627",
+      "canonical_entry_id": "B01169",
+      "headword": "בַּרְבַּרוֹן",
+      "source_xml": "<entry id=\"B01169\">\n<head-word>בַּרְבַּרוֹן</head-word>\n<senses>\n<sense>\n<definition> (βαρβάρων, gen. pl. of βάρβαρος) \n<italic>of the barbarians</italic>.</definition>\n<notes> Lam. R. introd. (R. Josh. 2) נקיטא ב' (read ניקיטא, νικῆτα βαρβάρων) O conqueror of the Barbarians (Jews). Y. B. Mets. II, 8\n<sup>c</sup>, v. בַּרְבְּרַי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4628,
+      "source_id": "jastrow-xml-004628",
+      "canonical_entry_id": "B01170",
+      "headword": "בַּרְבָּרִי,",
+      "source_xml": "<entry id=\"B01170\">\n<head-word>בַּרְבָּרִי, </head-word>\n<head-word>בַּרְבַּר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (βάρβαρος, babbler, Curt. Griech. Etym. p. 290) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>foreigner</italic> (in a contemptuous sense), \n<italic>barbarian</italic>.</definition>\n<notes> Esth. R. to II, 21 הב' הזה this barbarian (Mordecai, contrad. to Cœlesyrians as Greeks); Targ. Esth. ib. בכיין.—\n<plural-form>Pl. בַּרְבְּרִיִּים, בַּרְבָּרִים</plural-form>. Ex. R. s. 20. Lev. R. s. 11; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>an inhabitant of Barbaria</italic> (v. \n<xref rid=\"B01172\">בַּרְבַּרְיָא</xref>).</definition>\n<notes> Gen. \n<pgbrk id=\"pg190\" />R. s. 60 beg. כושי אחד או ב' אחד a Cushite or a Barbar; Cant. R. to II, 8 (for כותי read: כושי). Y. Succ. V, 55\n<sup>b</sup> top, v. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4629,
+      "source_id": "jastrow-xml-004629",
+      "canonical_entry_id": "B01171",
+      "headword": "בַּרְבְּרַי",
+      "source_xml": "<entry id=\"B01171\">\n<head-word>בַּרְבְּרַי</head-word>\n<plural-form>Pl. בַּרְבְּרִיִין, בַּרְבְּרַיָּיא</plural-form>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> . Lam. R. to I, 16; IV, 19; Esth. R. introd. עד דאת מכבש ב' וכ' instead of subjecting the Barbarians (Germans, Britains &amp;c.); Y. Succ. V, 55\n<sup>b</sup> top (Hebr. diction).—Lev. R. s. 22 נקיטה ב', v. בַּרְבַּרוֹן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4630,
+      "source_id": "jastrow-xml-004630",
+      "canonical_entry_id": "B01172",
+      "headword": "בַּרְבַּרְיָא,",
+      "source_xml": "<entry id=\"B01172\">\n<head-word>בַּרְבַּרְיָא, </head-word>\n<head-word>בַּרְבַּרְיָה, </head-word>\n<head-word>בַּרְבַּרְיָיא, </head-word>\n<head-word>בַּרְבָּרִיאָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (barbaria) \n<italic>foreign</italic> (not Roman) \n<italic>country</italic>, esp. </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>Germania Barbara;</italic> also \n<italic>Britannia</italic> (as hostile to Rome); </definition>\n<notes /></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>East African coast, Azania</italic>, v. \n<xref rid=\"B01170\">בַּרְבָּרִי</xref>.</definition>\n<notes> Targ. Y. II Gen. X, 3; Targ. I Chr. I, 6 (for תוגרמה), v. גרמניקיא.—Yeb. 63\n<sup>b</sup> אנשי ב' … מרטניא Ar. (ed. מרטנאי, corr. acc.); Sifré Deut. 320 … מב' ומטונס וממורטניא; Yalk. ib. 945 מב' ומבריטניא those from Barbaria [,Tunes] and Mauretania [Britannia] who go naked &amp;c. (v. Brüll, Trachten d. Jud. p. 4 sq.). Cant. R. to II, 8 אחד מכם גולה לב' … לסמרטיה (Yalk. ib. 586 … לבריטניא) one of you is exiled to B., another to Sarmatia [Britannia]. Midr. Till. to Ps. CIX.—Y. Shek. VI, 50\n<sup>a</sup> top; Gen. R. s. 23, end כיפי ב' the rocks of B. (Azania).—Ib. s. 75 בני ב' ובני גרמניא.—Ex. R. s. 18 a king שהלך בנו לב' whose son went to a foreign land (conquered province). Koh. R. to II, 7 (ref. to \n<italic>barburim</italic> I Kings V, </notes></sense>\n<sense>\n<number>3)</number>\n<definition />\n<notes> a bird &amp;c. היה בא מב' וכ' came from B. every day. [Ib.; Pesik. R. s. 16; Pesik. Eth. Korb. p. 58\n<sup>b</sup>, מיני ב', read with Ar. s. v. ברבר: בִּיבָרְיָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4631,
+      "source_id": "jastrow-xml-004631",
+      "canonical_entry_id": "B01173",
+      "headword": "ברברית",
+      "source_xml": "<entry id=\"B01173\">\n<head-word>ברברית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. M. Kat. III, 81\n<sup>d </sup>bot. תונין בב', prob. to be read בפַרְדֵּיסָא; cmp. Bab. ib. 17\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4632,
+      "source_id": "jastrow-xml-004632",
+      "canonical_entry_id": "B01174",
+      "headword": "בַּרְגְּזָא,",
+      "source_xml": "<entry id=\"B01174\">\n<head-word>בַּרְגְּזָא, </head-word>\n<head-word>בַּרְגַּזָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00515\">גַּזָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4633,
+      "source_id": "jastrow-xml-004633",
+      "canonical_entry_id": "B01175",
+      "headword": "בָּרָד",
+      "source_xml": "<entry id=\"B01175\">\n<head-word>בָּרָד</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בר</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"B01335\">ברר</xref>) [\n<italic>bright, white</italic>,] \n<italic>hail</italic> (v. Ges. H. Dict. s. v.).</definition>\n<notes> Mikv. VII, 1; a. fr.—אבן הב' block of \n<italic>ice</italic> (or hail stone). Ib.; v. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4634,
+      "source_id": "jastrow-xml-004634",
+      "canonical_entry_id": "B01176",
+      "headword": "בַּרְדָּא,",
+      "source_xml": "<entry id=\"B01176\">\n<head-word>בַּרְדָּא, </head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Ex. IX, 18; a. fr.—M. Kat. 25\n<sup>b</sup> כיפי דב' hail stones. Ber. 18\n<sup>b</sup>; v. \n<xref rid=\"C00544\">גְּזִיזָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4635,
+      "source_id": "jastrow-xml-004635",
+      "canonical_entry_id": "B01177",
+      "headword": "בַּרְדָּא,",
+      "source_xml": "<entry id=\"B01177\">\n<head-word>בַּרְדָּא, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (cmp. preced. a. אַשְׁלֵג) \n<italic>barda</italic>, a cosmetic lotion used as a detergent, a mixture of aloes, myrtle and violet.</definition>\n<notes> Sabb. 50\n<sup>b</sup> (Ms. M., once, a. Ar. בר אדא, Alf. Ms. a. oth. בדרא; v. Rabb. D. S. a. l. note).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4636,
+      "source_id": "jastrow-xml-004636",
+      "canonical_entry_id": "B01178",
+      "headword": "בַּרְדָּא,",
+      "source_xml": "<entry id=\"B01178\">\n<head-word>בַּרְדָּא, </head-word>\n<hw-number>III</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01177\">preced.</xref>) \n<italic>barda</italic>, name of an unclean bird.</definition>\n<notes> Ḥull. 62\n<sup>b</sup> (Ar. בר אדא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4637,
+      "source_id": "jastrow-xml-004637",
+      "canonical_entry_id": "B01179",
+      "headword": "בַּרְדִּילָא",
+      "source_xml": "<entry id=\"B01179\">\n<head-word>בַּרְדִּילָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00349\">בּוּרְדְּלָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4638,
+      "source_id": "jastrow-xml-004638",
+      "canonical_entry_id": "B01180",
+      "headword": "ברדין",
+      "source_xml": "<entry id=\"B01180\">\n<head-word>ברדין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Tosef. Kel. B. Mets. X, end (ed. Zuck. גרדין), read גַּרְדּוֹן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4639,
+      "source_id": "jastrow-xml-004639",
+      "canonical_entry_id": "B01181",
+      "headword": "ברדינין,",
+      "source_xml": "<entry id=\"B01181\">\n<head-word>ברדינין, </head-word>\n<head-word>ברדנין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Ex. R. s. 38, end, read כַּדְכְּדוֹן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4640,
+      "source_id": "jastrow-xml-004640",
+      "canonical_entry_id": "B01182",
+      "headword": "בַּרְדִּיסִין",
+      "source_xml": "<entry id=\"B01182\">\n<head-word>בַּרְדִּיסִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01189\">בַּרְדְּסִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4641,
+      "source_id": "jastrow-xml-004641",
+      "canonical_entry_id": "B01183",
+      "headword": "בַּרְדְּלָא",
+      "source_xml": "<entry id=\"B01183\">\n<head-word>בַּרְדְּלָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (cmp. b. h. דְּלָיָה, דְּלָיָהוּ) \n<italic>Bard’la</italic>, surname of several persons.</definition>\n<notes> B. Mets. 10\n<sup>b</sup> אבא כהן ב' (Var. כהנא; Ms. M. בר דלא); Gen. R. s. 76, end; Y. Gitt. VIII, 49\n<sup>c</sup> top; (Y. Peah IV, 18\n<sup>a</sup> bot. בר דליא).—Succ. 26\n<sup>a</sup> (Ms. M. 2 בר דלא, v. Rabb. D. S. a. l. note); Gitt. 14\n<sup>a</sup> רב אחא ב'. V. בַּרְדְּלָיָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4642,
+      "source_id": "jastrow-xml-004642",
+      "canonical_entry_id": "B01184",
+      "headword": "ברדלה",
+      "source_xml": "<entry id=\"B01184\">\n<head-word>ברדלה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01186\">בַּרְדְּלִיס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4643,
+      "source_id": "jastrow-xml-004643",
+      "canonical_entry_id": "B01185",
+      "headword": "בַּרְדְּלָיָא,",
+      "source_xml": "<entry id=\"B01185\">\n<head-word>בַּרְדְּלָיָא, </head-word>\n<head-word>בַּרְדְּלָיָיה, </head-word>\n<head-word>בַּרְדּלָיָה</head-word>\n<senses>\n<sense>\n<definition> (cmp. ברדלא)\n<pos> pr. n. pl.</pos>\n<italic>Bard’laya</italic>, near Lydda (v. infra).</definition>\n<notes> Y. Erub. VI, 24\n<sup>a</sup> top אנשי בר דליה the inhabitants of B. Y. Shebi. II, 33\n<sup>d</sup> bot. דברדלייה of B. Y. Peah III, 17\n<sup>d</sup> bot. R. Jud. b. Pazi דבר דליא (for which Y. Meg. I, 71\n<sup>a</sup> דברזילה); cmp. Y. Snh. I, 18\n<sup>c</sup> bot. where R. Jud. b. P. is mentioned as of Lydda. [Num. R. s. 13 ברדליא, some ed., v. בּיּרְדְּלָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4644,
+      "source_id": "jastrow-xml-004644",
+      "canonical_entry_id": "B01186",
+      "headword": "בַּרְדְּלִיס,",
+      "source_xml": "<entry id=\"B01186\">\n<head-word>בַּרְדְּלִיס, </head-word>\n<head-word>בַּרְדְּלֵס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (πάρδαλις, pardalis; πάρδος, pardus; prob. of Semit.</definition>\n<notes> orig.; cmp. b. h. בְּרֻדִּים) \n<italic>a spotted beast</italic>, whence </notes></sense>\n<sense>\n<number>1)</number>\n<definition> (v. Sm. Ant. s. vv.) \n<italic>leopard</italic> or \n<italic>hyena</italic>, usu. in connection with נָמֵר.</definition>\n<notes> Snh. I, 4. B. Kam. I, 4 (expl. ib. 16\n<sup>a</sup> אָפָא q. v.). Bekh. 8\n<sup>a</sup>. B. Mets. VII, 9.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (prob.) \n<italic>marten</italic>, or \n<italic>mariput</italic> (Rashi: \n<italic>putois</italic>); usu. in connection with חוּלְדָּה.</definition>\n<notes> Pes. 9\n<sup>b</sup>; Nidd. 15\n<sup>b</sup>; Ab. Zar. 42\n<sup>a</sup>; Tosef. Ohol. XVI, 13 ed. Zuck. ברדלה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4645,
+      "source_id": "jastrow-xml-004645",
+      "canonical_entry_id": "B01187",
+      "headword": "ברדניקוס",
+      "source_xml": "<entry id=\"B01187\">\n<head-word>ברדניקוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"E00165\">הדרניקוס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4646,
+      "source_id": "jastrow-xml-004646",
+      "canonical_entry_id": "B01188",
+      "headword": "ברדס",
+      "source_xml": "<entry id=\"B01188\">\n<head-word>ברדס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00350\">בּוּרְדָּם</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4647,
+      "source_id": "jastrow-xml-004647",
+      "canonical_entry_id": "B01189",
+      "headword": "בַּרְדְּסִין,",
+      "source_xml": "<entry id=\"B01189\">\n<head-word>בַּרְדְּסִין, </head-word>\n<head-word>בּוּרְדְּסִין</head-word>\n<senses>\n<sense>\n<definition> (… סִים)\n<pos> m. pl.</pos> (a corrupt. of Brundusina, v. \n<xref rid=\"B00822\">בלדרסין</xref>) \n<italic>Brundisian cloaks</italic>, thicker than בִּרְסִין q. v. Kil. IX, 7.</definition>\n<notes> Y. ib. 32\n<sup>d</sup> top בַּרְדִּיסִין. Tosef. Kel. B. Bath. V, 11 ברתסין ed. Zuck. (Var. ברתצין, ברתתצ'). V. פַּלְדֵּיס, פַּלְדֵּיסִין.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4648,
+      "source_id": "jastrow-xml-004648",
+      "canonical_entry_id": "B01190",
+      "headword": "*בַּרְדֵּק",
+      "source_xml": "<entry id=\"B01190\">\n<head-word>*בַּרְדֵּק</head-word>\n<senses>\n<sense>\n<definition> (Parel of בדק, cmp. הרזק) \n<italic>to penetrate, go from end to end; to bolt</italic>.</definition>\n<notes> Targ. Y. II Ex. XXXVI, 33 לבַרְדּוּק (h. text לִבְרֹחַ).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4649,
+      "source_id": "jastrow-xml-004649",
+      "canonical_entry_id": "B01191",
+      "headword": "בָּרָה",
+      "source_xml": "<entry id=\"B01191\">\n<head-word>בָּרָה</head-word>\n<senses>\n<sense>\n<number>1)</number>\n<definition />\n<notes> fem. of 1) fem. of בָּר.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> v. \n<xref rid=\"B00359\">ברי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4650,
+      "source_id": "jastrow-xml-004650",
+      "canonical_entry_id": "B01192",
+      "headword": "בִּרְוָון",
+      "source_xml": "<entry id=\"B01192\">\n<head-word>בִּרְוָון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00706\">בִּירְוָון</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4651,
+      "source_id": "jastrow-xml-004651",
+      "canonical_entry_id": "B01193",
+      "headword": "ברובה",
+      "source_xml": "<entry id=\"B01193\">\n<head-word>ברובה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Ḥall. I, 57\n<sup>c</sup>, read כְּרוּבָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4652,
+      "source_id": "jastrow-xml-004652",
+      "canonical_entry_id": "B01194",
+      "headword": "*ברווזא",
+      "source_xml": "<entry id=\"B01194\">\n<head-word>*ברווזא</head-word>\n<senses>\n<sense>\n<definition>, read בִּרְזוּזָא\n<pos> m.</pos> (ברז) \n<italic>perforation</italic>.</definition>\n<notes> Targ. Y. Num. XXV, 8 באתר ב' in the place of perforation (hole).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4653,
+      "source_id": "jastrow-xml-004653",
+      "canonical_entry_id": "B01195",
+      "headword": "ברויירא",
+      "source_xml": "<entry id=\"B01195\">\n<head-word>ברויירא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Koh. R. to III, 14 שמלאי דב'., v. \n<xref rid=\"B00329\">בֵּיר</xref>, \n<xref rid=\"B00700\">בֵּירָא</xref> 3).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4654,
+      "source_id": "jastrow-xml-004654",
+      "canonical_entry_id": "B01196",
+      "headword": "*בָּרוּךְ,",
+      "source_xml": "<entry id=\"B01196\">\n<head-word>*בָּרוּךְ, </head-word>\n<head-word>בֵּי ב'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ברך, v. \n<xref rid=\"B00125\">בֵּי</xref>) \n<italic>the neck</italic> of an animal, so named from the benediction (בָּרוּךְ) which precedes the ritual slaughtering.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4655,
+      "source_id": "jastrow-xml-004655",
+      "canonical_entry_id": "B01197",
+      "headword": "בְּרוֹכִי",
+      "source_xml": "<entry id=\"B01197\">\n<head-word>בְּרוֹכִי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>B’rokhi</italic>.</definition>\n<notes> Snh. 17\n<sup>b</sup> רמי בר ב' Ms. M., Ar. a. oth. (ed. ברבי, corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4656,
+      "source_id": "jastrow-xml-004656",
+      "canonical_entry_id": "B01198",
+      "headword": "ברולקי",
+      "source_xml": "<entry id=\"B01198\">\n<head-word>ברולקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01205\">ברוקלי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4657,
+      "source_id": "jastrow-xml-004657",
+      "canonical_entry_id": "B01199",
+      "headword": "בִּרְיָן",
+      "source_xml": "<entry id=\"B01199\">\n<head-word>בִּרְיָן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00706\">בִּירְוָון</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4658,
+      "source_id": "jastrow-xml-004658",
+      "canonical_entry_id": "B01200",
+      "headword": "בְּרוּנָא,",
+      "source_xml": "<entry id=\"B01200\">\n<head-word>בְּרוּנָא, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (dimin. of בְּרָא; cmp. אֲבוּנָא) \n<italic>dear little son, darling</italic>.</definition>\n<notes> Pesik. B’shall. p. 83\n<sup>a</sup> (allud. to termination נִי in Rubeni &amp;c.) כאינש דאמר בְּרוּנִי סברוני סכיוני as if one says, My own dear son, my features, my looks; Yalk. Num 773; Cant. R. to IV, 12 (corr. acc.); [Ar. s. v. ברן, adds מאבוי from his father (has he this).]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4659,
+      "source_id": "jastrow-xml-004659",
+      "canonical_entry_id": "B01201",
+      "headword": "בְּרוּנָא,",
+      "source_xml": "<entry id=\"B01201\">\n<head-word>בְּרוּנָא, </head-word>\n<hw-number>I</hw-number>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>B’runa</italic>, a Babyl.</definition>\n<notes> Amora. Ber. 9\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4660,
+      "source_id": "jastrow-xml-004660",
+      "canonical_entry_id": "B01202",
+      "headword": "בָּרוֹקָא,",
+      "source_xml": "<entry id=\"B01202\">\n<head-word>בָּרוֹקָא, </head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>smaragd</italic>, v. \n<xref rid=\"B01328\">בַּרְקָן</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4661,
+      "source_id": "jastrow-xml-004661",
+      "canonical_entry_id": "B01203",
+      "headword": "בָּרוֹקָא,",
+      "source_xml": "<entry id=\"B01203\">\n<head-word>בָּרוֹקָא, </head-word>\n<hw-number>II</hw-number>\n<head-word>בָּרוֹקָה</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Baroka</italic>, father of R. Johanan.</definition>\n<notes> Ab. IV, 4. Erub. VIII, 2; a. v. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4662,
+      "source_id": "jastrow-xml-004662",
+      "canonical_entry_id": "B01204",
+      "headword": "בָּרוֹקָא,",
+      "source_xml": "<entry id=\"B01204\">\n<head-word>בָּרוֹקָא, </head-word>\n<hw-number>III</hw-number>\n<head-word>בָּרוֹקָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>morning star</italic>, v. \n<xref rid=\"B01313\">בָּרַק</xref> a. \n<xref rid=\"B01313\">בְּרַק.</xref></definition>\n<notes> Y. Yoma III, beg. 40\n<sup>b</sup>; Y. R. Hash. I, beg. 57\n<sup>d</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4663,
+      "source_id": "jastrow-xml-004663",
+      "canonical_entry_id": "B01205",
+      "headword": "*בְּרוּקְלֵי",
+      "source_xml": "<entry id=\"B01205\">\n<head-word>*בְּרוּקְלֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A01972\">אִמְבּוּרְקְלוֹן</xref>) \n<italic>wrapper, cover</italic>.</definition>\n<notes> Midr. Sam. XXII; Yalk. ib. 129 (expl. תרפים as if טרפים, v. טָרַף) ניקורים של ב' shreds of (horse) covers (corrupt. בדולקי, Mus. ברולקי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4664,
+      "source_id": "jastrow-xml-004664",
+      "canonical_entry_id": "B01206",
+      "headword": "בְּרוּקְתִּי",
+      "source_xml": "<entry id=\"B01206\">\n<head-word>בְּרוּקְתִּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01334\">בְּרַקְתִּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4665,
+      "source_id": "jastrow-xml-004665",
+      "canonical_entry_id": "B01207",
+      "headword": "בָּרוּר",
+      "source_xml": "<entry id=\"B01207\">\n<head-word>בָּרוּר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ברר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>clear, bright; certain, firm</italic>.</definition>\n<notes> B. Bath. 147\n<sup>a</sup> יו\"ט … ב' וכ' when the day of Pentecosts is bright, sow wheat; opp. בָּלוּל; Tosef. Arakh. I, 9.—Snh. 7\n<sup>b</sup> אם ב' וכ' if the case is as clear to thee as the morning, speak out (thy opinion). Gitt. 89\n<sup>a</sup> דבר הב' an ascertained fact.—Pes. 50\n<sup>a</sup> עולם ב' a rightly-conducted world, opp. הפוך.—Y. Ber. II, 5\n<sup>a</sup> יחזור … הב' לו he must begin to re-read from the place which he is certain of having read correctly. Y. Maasr. I, 49\n<sup>b</sup> חלוט ב', v. חָלַט I; תבשיל ב' real boiling (about which there is no legal doubt). Y. Yeb. IV, 5\n<sup>c</sup> bot. חלב ב' ascertained existence of forbidden fat. Y. Gitt. IX, 50\n<sup>c</sup> bot. קיים שריר וב' (the formula) valid, firm and established. Y. Kidd. IV, 66\n<sup>a</sup> top כהן ב' a priest of undoubted genealogy; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"B01335\">בָּרֻר</xref></language-reference>, Neh. V, 18) \n<italic>chosen, best</italic>.</definition>\n<notes> Gen. R. s. 23 הב' שבהם the best one among them.—\n<plural-form>Pl. בְּרוּרִים, בְּרוּרִין</plural-form>. Y. Kidd. IV, 66\n<sup>a</sup> bot. הב' שבאחיך the chosen among thy brethren (whose genealogy has been established; v. supra); Num. R. s. 9.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4666,
+      "source_id": "jastrow-xml-004666",
+      "canonical_entry_id": "B01208",
+      "headword": "בֵּרוּר",
+      "source_xml": "<entry id=\"B01208\">\n<head-word>בֵּרוּר</head-word>\n<senses>\n<sense>\n<definition>\n<italic>, </italic>\n<plural-form>pl.בֵּרוּרִין,</plural-form> constr.</definition>\n<notes> בֵּרוּרֵי, v. בֵּירוּר.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4667,
+      "source_id": "jastrow-xml-004667",
+      "canonical_entry_id": "B01209",
+      "headword": "בְּרוֹר,",
+      "source_xml": "<entry id=\"B01209\">\n<head-word>בְּרוֹר, </head-word>\n<head-word>ב' חַיִל</head-word>\n<head-word>ב' חֵיל</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>B’ror </italic>\n<italic>Ḥ</italic>\n<italic>ayil </italic>(\n<italic>Ḥ</italic>\n<italic>ail</italic>), seat of R. Johanan b.</definition>\n<notes> Zaccai’s college, near Jabneh. Snh. 32\n<sup>b</sup> (Var. גדור ח'). Y. Keth. I, 25\n<sup>c</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4668,
+      "source_id": "jastrow-xml-004668",
+      "canonical_entry_id": "B01210",
+      "headword": "בְּרוּרְיָא,",
+      "source_xml": "<entry id=\"B01210\">\n<head-word>בְּרוּרְיָא, </head-word>\n<head-word>בְּרוּרְיָה</head-word>\n<pos> pr. n. f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>B’ruryah</italic>, daughter of R. Ḥanania b.</definition>\n<notes> T’radjon and wife of R. Meïr, reputed as a learned woman. Ab. Zar. 18\n<sup>a</sup>. Ib.\n<sup>b</sup> משום מעשה ב' Ms. M. (ed. ממ' דב') (R. Meïr left for Babylon) in consequence of what occurred to B. (who defied her husband’s opinion regarding woman’s weakness and came very near being ensnared by a plot laid against her chastity; v. Rashi a. l.). Tosef. Kel. B. Mets. I, 6.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4669,
+      "source_id": "jastrow-xml-004669",
+      "canonical_entry_id": "B01211",
+      "headword": "בְּרוֹשׁ",
+      "source_xml": "<entry id=\"B01211\">\n<head-word>בְּרוֹשׁ</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>cypress</italic>.</definition>\n<notes> R. Hash. 23\n<sup>a</sup>; Taan. 25\n<sup>b</sup>, a. e. (as a species of cedar); v. בְּרוֹת a. בְּרָתָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4670,
+      "source_id": "jastrow-xml-004670",
+      "canonical_entry_id": "B01212",
+      "headword": "ברושייתא",
+      "source_xml": "<entry id=\"B01212\">\n<head-word>ברושייתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Gitt. 69\n<sup>b</sup> ב' דשערי, v. \n<xref rid=\"K01131\">כְּרוֹשְׁיָיתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4671,
+      "source_id": "jastrow-xml-004671",
+      "canonical_entry_id": "B01213",
+      "headword": "בְּרוֹת",
+      "source_xml": "<entry id=\"B01213\">\n<head-word>בְּרוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. = בְּרוֹשׁ. Sifra Metsora, beg. שהיא של ב' that it (עץ ארז, Lev. XIV, 49) means a branch of a cypress; Y. Sot. II, 18\n<sup>a</sup> top שלברית (corr. acc.); Tosef. Neg. VIII, 2 של אברית ed. Zuck. (Var. שלא ברית; R. S. to Neg. XIV, 1 אַבְרוֹת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4672,
+      "source_id": "jastrow-xml-004672",
+      "canonical_entry_id": "B01214",
+      "headword": "בְּרוֹתָא",
+      "source_xml": "<entry id=\"B01214\">\n<head-word>בְּרוֹתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>v. \n<xref rid=\"B01339\">בְּרָתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4673,
+      "source_id": "jastrow-xml-004673",
+      "canonical_entry_id": "B01215",
+      "headword": "בָּרוּתָא",
+      "source_xml": "<entry id=\"B01215\">\n<head-word>בָּרוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01152\">בַּר I</xref>\n<language-key> ch.)</language-key>\n<italic>outside, rejected;</italic> cmp. בָּרַיְיתָא.</definition>\n<notes> B. Mets. 9\n<sup>a</sup>; a. fr. Ar. (ed. sometimes בָּדוּתָא q. v.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4674,
+      "source_id": "jastrow-xml-004674",
+      "canonical_entry_id": "B01216",
+      "headword": "בְּרַז,",
+      "source_xml": "<entry id=\"B01216\">\n<head-word>בְּרַז, </head-word>\n<head-word>בְּרֵיז</head-word>\n<senses>\n<sense>\n<definition> (√בר, v. \n<xref rid=\"B01335\">ברר</xref>) [\n<italic>to get through</italic>,] \n<italic>to bore, perforate, transfix</italic>.</definition>\n<notes> Targ. Y. Num. XXV, 8; a. e. [Targ. Y. Gen. XLIV, 34 דתִבְרַז, read דתירן or דתתרן as Targ. Esth. VIII, 6, v. ארע a. ערע.]—Snh. 52\n<sup>b</sup> דבָרֵיז ליה מִיבְרַז that one may put a culprit to death by piercing. Sabb. 146\n<sup>a</sup>, v. בּוּרְטְיָא. Snh. 56\n<sup>a</sup>; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>*.</binyan-name>\n<binyan-form>אַבְרֵיז</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to sting</italic>.</definition>\n<notes> Gitt. 84\n<sup>a</sup> אי בעי מַבְרִיז וכ' if he chooses, he may sting himself with thorns and he will not fall asleep (Ar. מחריז, v. חֲרַז).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4675,
+      "source_id": "jastrow-xml-004675",
+      "canonical_entry_id": "B01217",
+      "headword": "בִּרְזָא,",
+      "source_xml": "<entry id=\"B01217\">\n<head-word>בִּרְזָא, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>bung-hole, bung</italic>.</definition>\n<notes> Ab. Zar. 59\n<sup>b</sup> דאישתקיל ברזיה Ms. M. (ed. דאישתקיל לברזא) whose bung was taken out. Ib. כל דלהדי ב' all the wine facing the bung-hole (the first gush of wine). Ib. 60\n<sup>a</sup> עד דב' Ms. M. (ed. הב', Rashi ב') to a level with &amp;c., i.e. the wine above the bung-hole. Sabb. 139\n<sup>b</sup>. B. Bath. 98\n<sup>a</sup> שני בב' (Ms. H. בברזָהּ) changed the bung-hole (or the bung).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4676,
+      "source_id": "jastrow-xml-004676",
+      "canonical_entry_id": "B01218",
+      "headword": "בִּרְזָא,",
+      "source_xml": "<entry id=\"B01218\">\n<head-word>בִּרְזָא, </head-word>\n<hw-number>II</hw-number>\n<head-word>בַּרְזָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (בזא II; v. \n<xref rid=\"A00220\">אֲבִרְזִין</xref>) \n<italic>cut</italic> (\n<italic>leather</italic>), \n<italic>strap; horse-line</italic>.</definition>\n<notes> Ḥag. 9\n<sup>b</sup> כי ב' סומקא וכ' as a red line for a white horse (Ms. M. כוַרְדָּא). [Ber. 59\n<sup>a</sup> דברזא, read דברדא, v. גְּזִיזָא.]—\n<plural-form>Pl. בִּרְזֵי</plural-form>. Sabb. 117\n<sup>a</sup> שקיל ליה בב' he stripped the hide strap-wise. Cmp. בִּיזְלֵי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4677,
+      "source_id": "jastrow-xml-004677",
+      "canonical_entry_id": "B01219",
+      "headword": "בַּרְזֵג",
+      "source_xml": "<entry id=\"B01219\">\n<head-word>בַּרְזֵג</head-word>\n<senses>\n<sense>\n<definition> (denom. of בר זוג) \n<italic>to couple, join</italic> (cmp. איתברנש Syr.</definition>\n<notes>, P. Sm. 582). Targ. Y. I Deut. XXXII, 4 מכרזג, read מְבַרְזֵג (Y. II זַוֵּוג). Ib. XXXIV, 6 (Var. למזווגא). Targ. Ps. LXVIII, 7 לבר זוגא (read לבַרְזוּגָן).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4678,
+      "source_id": "jastrow-xml-004678",
+      "canonical_entry_id": "B01220",
+      "headword": "ברזות",
+      "source_xml": "<entry id=\"B01220\">\n<head-word>ברזות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01225\">בִּרְזַית</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4679,
+      "source_id": "jastrow-xml-004679",
+      "canonical_entry_id": "B01221",
+      "headword": "בַּרְזֵיל",
+      "source_xml": "<entry id=\"B01221\">\n<head-word>בַּרְזֵיל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00457\">בַּזֵּל</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4680,
+      "source_id": "jastrow-xml-004680",
+      "canonical_entry_id": "B01222",
+      "headword": "ברזילא",
+      "source_xml": "<entry id=\"B01222\">\n<head-word>ברזילא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"K01141\">כַּרְזִילָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4681,
+      "source_id": "jastrow-xml-004681",
+      "canonical_entry_id": "B01223",
+      "headword": "*בַּרְזִילָה",
+      "source_xml": "<entry id=\"B01223\">\n<head-word>*בַּרְזִילָה</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Barzilah</italic>, v. \n<xref rid=\"B01185\">בַּרְדְּלָיָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4682,
+      "source_id": "jastrow-xml-004682",
+      "canonical_entry_id": "B01224",
+      "headword": "בַּרְזִינָא",
+      "source_xml": "<entry id=\"B01224\">\n<head-word>בַּרְזִינָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01216\">בְּרַז</xref> a. \n<xref rid=\"B01217\">בִּרְזָא I</xref>) \n<italic>a tap, sample of wine</italic>, whence \n<italic>barzina</italic>, a liquid measure, one thirty-second of a Log (Ar.).</definition>\n<notes> Sabb. 109\n<sup>b</sup> ב' לזיבורא a barzina (of urin) is a remedy for a hornet’s sting.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4683,
+      "source_id": "jastrow-xml-004683",
+      "canonical_entry_id": "B01225",
+      "headword": "בִּרְזַיִת",
+      "source_xml": "<entry id=\"B01225\">\n<head-word>בִּרְזַיִת</head-word>\n<senses>\n<sense>\n<definition> (ברזות\n<language-key> b. h.)</language-key>\n<pos> pr. n. m.</pos>\n<italic>Birzayith</italic> (I Chr. VII, 31).</definition>\n<notes> Gen. R. s. 71 end (expl. = בִּיר זַיִת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4684,
+      "source_id": "jastrow-xml-004684",
+      "canonical_entry_id": "B01226",
+      "headword": "בַּרְזִיתָא",
+      "source_xml": "<entry id=\"B01226\">\n<head-word>בַּרְזִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברז) \n<italic>spit</italic>, v. \n<xref rid=\"B00357\">בּוּרְטְיָא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4685,
+      "source_id": "jastrow-xml-004685",
+      "canonical_entry_id": "B01227",
+      "headword": "בַּרְזֶל",
+      "source_xml": "<entry id=\"B01227\">\n<head-word>בַּרְזֶל</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> ברז)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>iron, iron tool</italic>.</definition>\n<notes> Gen. R. s. 75 לובשי ב' clad in iron armor; a. fr.—צאן ב' \n<italic>flock sold to payment in terms</italic> under the condition that the young be divided until the payment in full has taken place. Bekh. II, 4, v. וָלָד.—(נכסי) עבדי צאן ב' \n<italic>mort-main</italic>, wife’s estate held by her husband, which, in case of her death or divorce, he must restore \n<italic>in specie</italic>, being responsible whith all his landed property for loss or deterioration. Yeb. VII, 1; a. fr.; v. נְכָסִים.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4686,
+      "source_id": "jastrow-xml-004686",
+      "canonical_entry_id": "B01228",
+      "headword": "בַּרְזֶל,",
+      "source_xml": "<entry id=\"B01228\">\n<head-word>בַּרְזֶל, </head-word>\n<head-word>בַּרְזְלָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. I Kings XXII, 12; a. e.—Sabb. 66\n<sup>b</sup> קול ב' (Ms. M. קל פ'). V. \n<xref rid=\"unknown\">פַּרְזְלָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4687,
+      "source_id": "jastrow-xml-004687",
+      "canonical_entry_id": "B01229",
+      "headword": "בַּרְזָנִיתָא",
+      "source_xml": "<entry id=\"B01229\">\n<head-word>בַּרְזָנִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברז) \n<italic>boring, tapping</italic>.</definition>\n<notes> B. Mets. 40\n<sup>b</sup> טרחיה ודמי בַרְזָנִיתֵיה Ar. (ed. בַּרזַנְיָיתָא pl.; v. Rabb. D. S. a. l. note 30) his (the seller’s) trouble and the value of his tapping (the sample; v. בַּרְזִינָא). [Var. in Rashi כוז' his calling out, offering for sale, v. כְּרַז.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4688,
+      "source_id": "jastrow-xml-004688",
+      "canonical_entry_id": "B01230",
+      "headword": "בָּרַח",
+      "source_xml": "<entry id=\"B01230\">\n<head-word>בָּרַח</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בר</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"B01335\">ברר</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to break through, pass through</italic> (Ex. XXXVI, 33).</definition>\n<notes> Denom. בָּרִיחַ.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to flee</italic>.</definition>\n<notes> Erub. 13\n<sup>b</sup> הבּוֹרֵחַ מן הגדולה he who flees office. Y. Yeb. XIII, 13\n<sup>c</sup>, a. e. בְּרַח מן ג' וכ' shun three things. Y. Taan. IV, 69\n<sup>b</sup> top, v. בָּקַע; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִבְרִיחַ</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to cause to flee, drive out, exclude</italic>.</definition>\n<notes> Y. Yeb. XV, 15\n<sup>a</sup> top להַבְרִיחוֹ מנכסיו to force him to flee and abandon his property. Y. Gitt. V, 47\n<sup>a</sup> אדם מַבְרִיחַ עצמו מן השבועה one will try to shirk the responsibilities of a guardian on account of the oath (which the court asks of him) but one will not do so on account of payment (to which he may eventually be subjected, v. Tosaf. to B. Kam. 39\n<sup>b</sup>).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to abstract, steal, defraud</italic>.</definition>\n<notes> B. Kam. 113\n<sup>a</sup> ה' את המכס to smuggle. Y. Keth. VI, beg. 30\n<sup>c</sup> שלא תהא מַבְרֶחֶת משל וכ' that she should not take stealthily something which belongs to her husband.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hof.</binyan-name>\n<binyan-form>הוּבְרַח</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be chased, scattered</italic>.</definition>\n<notes> Lam. R. to I, 21 הוּבְרְחוּ ענני וכ' the clouds of glory were withdrawn (R. Hash. 3\n<sup>a</sup> נסתלקו).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4689,
+      "source_id": "jastrow-xml-004689",
+      "canonical_entry_id": "B01231",
+      "headword": "בְּרַח",
+      "source_xml": "<entry id=\"B01231\">\n<head-word>בְּרַח</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>\n<italic>Af.</italic> אַבְרַח as preced. Hif., \n<italic>to withhold</italic>. B. Kam. 88\n<sup>b</sup> לאברוחינהו לנכסיה מניה in order to withhold his property from &amp;c., i.e. to disinherit.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְבְּרַח</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be driven off, withheld</italic>.</definition>\n<notes> Targ. Job VI, 13 (h. text נדחה).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4690,
+      "source_id": "jastrow-xml-004690",
+      "canonical_entry_id": "B01232",
+      "headword": "בַּרְחָא",
+      "source_xml": "<entry id=\"B01232\">\n<head-word>בַּרְחָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ברח, v. \n<xref rid=\"B01230\">בָּרַח</xref></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>) [\n<italic>one that breaks through</italic>, cmp. Mic. II, 13;] \n<italic>leader of the flock</italic> (h. עַתּוּד), \n<italic>bell-wether, buck</italic>.</definition>\n<notes> Y. B. Kam. X, end, 7\n<sup>c</sup> if the restored sheep is as distinguishable כגון אהן ב' as the barḥa. Ib. what does כגון אהן ב' mean? Some say חוטרא &amp;c., v. פַּנְדּוּרָא a. מַשְׂכּוֹכִית. Bab. ib. 20\n<sup>a</sup> top. Ib. 48\n<sup>a</sup>. Sabb. 18\n<sup>b</sup>. Ib. 152\n<sup>a</sup> ב' קרחא a bald buck (sneer at R. Joshua b. Karḥa; v. גַּוְזַנְיָא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4691,
+      "source_id": "jastrow-xml-004691",
+      "canonical_entry_id": "B01233",
+      "headword": "*ברטיא",
+      "source_xml": "<entry id=\"B01233\">\n<head-word>*ברטיא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pesik. R. s. 33 הב', read הבַּרְבַּרְיָא; Alexandria שהיתה אוֹמַנְתּוֹ של כל העולם הב' הזה which became the educator of all this world of Barbaria (northern Africa).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4692,
+      "source_id": "jastrow-xml-004692",
+      "canonical_entry_id": "B01234",
+      "headword": "בְּרִטַנְיָא",
+      "source_xml": "<entry id=\"B01234\">\n<head-word>בְּרִטַנְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01258\">בְּרִיטַנְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4693,
+      "source_id": "jastrow-xml-004693",
+      "canonical_entry_id": "B01235",
+      "headword": "בֵּרַי,",
+      "source_xml": "<entry id=\"B01235\">\n<head-word>בֵּרַי, </head-word>\n<head-word>בֵּי ב'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00702\">בֵּירַאי</xref> 2).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4694,
+      "source_id": "jastrow-xml-004694",
+      "canonical_entry_id": "B01236",
+      "headword": "ברי,",
+      "source_xml": "<entry id=\"B01236\">\n<head-word>ברי, </head-word>\n<hw-number>I</hw-number>\n<head-word>בָּרָא</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בר</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"B01335\">ברר</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to hollow out, perforate</italic>, v. Hif. a. בָּרָה.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to think out, plan</italic> (cmp. בָּדָא, חָקַק); \n<italic>to create</italic>.</definition>\n<notes> Snh. 38\n<sup>b</sup> when the Lord wanted לִבְרֹאות את וכ' to create man. Gen. R. s. 8 שב' … ואח\"כ בְּרָאוֹ for He first created all the means of his support and then created him (Adam); a. v. fr.—Part. act. בּוֹרֵא q. v.—Part. pass. בָּרוּא, f. בְּרוּאָה. Gen. R. s. 44 (ref. to Is. IV, 5 וּבָרָא) כבר היא ב' וכ' it (the futurity) is already created and prepared.</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נִבְרָא</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be created</italic>.</definition>\n<notes> Ib. s. 8 אל יִבָּרֵא let him not be created. Snh. 38\n<sup>a</sup>; a. v. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִבְרִיא</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (denom. of (denom. of בַּר) \n<italic>to come outside, bore, perforate</italic>.</definition>\n<notes> Ḥull. 43\n<sup>b</sup> שמא ה' lest it (the thorn found in the throat) may have perforated (the gullet); v. infra.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (denom. of בָּרִיא) \n<italic>to get well, recover; to be strong</italic> or \n<italic>stout</italic> (fat).</definition>\n<notes> Meïl. 17\n<sup>a</sup> יכחיש או יַבְרִיא does he wish him to be lean (feeble) or to be strong?—Y. Peah III, 17\n<sup>d</sup> bot. שמא יבריא for he may get well again. Ḥull. 33\n<sup>a</sup> הרוצה שיַבְ' he who wants to be strong. Sabb. XIX, 5; a. fr. [Ḥull. 43\n<sup>b</sup> שמא ה' lest the wound created by perforation be healed, Rashi; v. supra.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4695,
+      "source_id": "jastrow-xml-004695",
+      "canonical_entry_id": "B01237",
+      "headword": "ברי,",
+      "source_xml": "<entry id=\"B01237\">\n<head-word>ברי, </head-word>\n<head-word>בְּרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to create</italic>.</definition>\n<notes> Targ. Gen. I, 1; a. fr. [Targ. Prov. XX, 12 אלהא אברי, prob. to be read אלהא ברא as ib. XXII, 2.]—Snh. 65\n<sup>b</sup> ברו עלמא they might create a world. Ib. 67 לא מצי ברי he (the demon) cannot create. [Ib. ומיברי, ומיברו, v. Ithpe.]</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (v. \n<xref rid=\"B01236\">preced.</xref> Hif.) \n<italic>to get well, strong</italic> &amp;c. Ḥull.</definition>\n<notes> 93\n<sup>b</sup> מדלא קא בַרְיִין since they do not grow (develop). Ib. 46\n<sup>b</sup> הדרא בַרְיָא gets well again. [Taan. 21\n<sup>b</sup> זיל בריא, v. Af.]</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to cut, shape</italic>.</definition>\n<notes>. Targ. Is. XL, 20.—</notes></sense>\n<sense>\n<number>*4)</number>\n<definition> (v. \n<xref rid=\"B01152\">בַּר I</xref>\n<language-key> ch.,</language-key>\n<language-reference>\n<xref rid=\"B01160\">a. בָּרָאָה</xref>; \n<xref rid=\"G00102\">cmp. זָהַם</xref></language-reference> Pi. 2) \n<italic>to expel, exile</italic>.</definition>\n<notes> Targ. Prov. XXIV, 24 (h. text זעם).</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אַבְרִי</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to strengthen, make well, make grow</italic>.</definition>\n<notes> Targ. II Sam. III, 35 (Var. לאוֹכָלָא, v. הַבְרָאָה). Succ. 44\n<sup>b</sup>; M. Kat. 3\n<sup>a</sup> אַבְרוּיֵי אילני to make the trees stronger (facilitate their growth); Ab. Zar. 50\n<sup>b</sup> אברויי וכ', opp. אוקומי to preserve the trees. Nidd. 47\n<sup>b</sup>; Yeb. 97\n<sup>a</sup> אַבְרְיוּהוּ make him grow fat (feed him well). Taan. 21\n<sup>b</sup> זיל אַבְרֵי נפשך (ed. בריא, v. Rabb. D. S. a. l.) go and strengthen thyself.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to permeate, perforate</italic>.</definition>\n<notes> Ḥull. 112\n<sup>a</sup> דאבריה (the blood) soaked through the bread. Ib. 93\n<sup>b</sup> דץ ביה מידי דמברי ליה Ar. (ed. only דץ ביה מידי) if he stuck something into it which perforated it (making a passage for the blood).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיתְבְּרִי, אִתְבְּרִיא</binyan-form>\n<senses>\n<sense>\n<definition>, contr. אִיבְּרִי.</definition>\n<notes>. </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be created</italic>.</definition>\n<notes> Targ. Gen. II, 4; a. fr.—Gen. R. s. 78 מן הן דאתבריין (to) where they were created from. Cant. R. to VIII, 5 וכדון אִתְבְּרִיַית וכ' now thou hast been created again a new creature (having escaped a great danger).—Ber. 54\n<sup>b</sup> איברי ליה וכ' a well was created (arose) before him. Snh. 65\n<sup>b</sup>; 67\n<sup>b</sup> ומִיבְּרִי להו וכ' (not ומיברו, Yalk. Ms. איברי, v. Rabb. D. S. a. l. note 4) and a three years’ calf was created (arose) before them (Yalk. Ex. 182 ומַבְרֵי they created).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to become strong</italic>.</definition>\n<notes> Y. Snh. VIII, 26\n<sup>c</sup> מכיון דאִבְּרִי ליביה עלוי וכ' since his heart (passion) became so strong over him as to do this (or דאַבְרֵי Af. he allowed his passion to become so strong &amp;c.).</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (v. \n<xref rid=\"B01152\">בַּר I</xref>, בָּרָא) \n<italic>to grow wild</italic>.</definition>\n<notes> Nidd. 50\n<sup>b</sup> (explain. the expression תרנגול ברא used by a scholar) דאיבראי ממרה (= שמרדה) that became too wild (uncontrollable) to her owner.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4696,
+      "source_id": "jastrow-xml-004696",
+      "canonical_entry_id": "B01238",
+      "headword": "ברי,",
+      "source_xml": "<entry id=\"B01238\">\n<head-word>ברי, </head-word>\n<hw-number>II</hw-number>\n<head-word>בָּרָה</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to cut out</italic> (v. \n<xref rid=\"B01153\">בָּרָא</xref>).</definition>\n<notes> Part. pass. בָּרוּי, fem. בְּרוּיָה \n<italic>hollowed out</italic>. Tosef. Kel. B. Kam. III, 3, v. חִידּוּק a. כָּרָה.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִבְרָה</binyan-form>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition>denom. of בָּרִי , v. \n<xref rid=\"B01236\">ברי I</xref> Hif.) \n<italic>to strengthen, to offer refreshment</italic>, esp. to mourners on coming from the funeral.</definition>\n<notes> M. Kat. III, 7 ואין מַבְרִין and no mourner’s meal is offered (during the festive week). Snh. II, 3. Ib. 20\n<sup>a</sup>, v. כָּרָה; a. fr. V. הַבְרָאָה. [Y. Sabb. VII, 10\n<sup>a</sup> top המברה בחרשים read המבְהֶה, v. בהי h.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4697,
+      "source_id": "jastrow-xml-004697",
+      "canonical_entry_id": "B01239",
+      "headword": "בָּרִי,",
+      "source_xml": "<entry id=\"B01239\">\n<head-word>בָּרִי, </head-word>\n<head-word>בָּרִיא</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"B01153\">בָּרָא</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>in natural condition</italic>, whence (cmp. אֵיתָן) \n<italic>healthy, strong, stout, fat</italic>.</definition>\n<notes>\n<pgbrk id=\"pg193\" />B. Bath. 147\n<sup>b</sup> sq. (opp. sick). Y. Naz. VI, 55\n<sup>b</sup> top (opp. תש, of tender build); a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>sound, sure, evident</italic>.</definition>\n<notes> Y. Succ. I, 52\n<sup>b</sup> top; Y. Pes. II, 29\n<sup>b</sup> bot. דבר ב' שלא וכ' it is sure that he did not &amp;c.—ב' לי I am sure. Ḥull. 10\n<sup>a</sup>; a. fr.—ב' ושמא ‘sure’ and ‘perhaps’, the plea of two litigants, one asserting a certainty, the other pleading ignorance or offering a possible alternative. Keth. 12\n<sup>b</sup>; B. Mets. 37\n<sup>b</sup>; a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>sound, firm</italic>.</definition>\n<notes> Cant. R. to III, 4 honey ב' כאבן as solid as a stone; a. fr.—\n<plural-form>Pl. בְּרִיאִים</plural-form>. Lev. R. s. 17 ב' כאולם as sound as the Temple hall.—Ḥull. 84\n<sup>a</sup> ממשפחת ב' of a healthy, stout family; a. fr.—Fem. בְּרִיאָה. Kidd. 71\n<sup>b</sup> בבל ב' Babylon is sound (as to purity of descent). Erub. 62\n<sup>a</sup> שכירות ב' a sound (legitimate) lease, opp. רעועה rickety; a. fr.—Y. Erub. I, 19\n<sup>a</sup> בְּרִיָּיה a strong, solid rafter.—\n<plural-form>Pl. בְּרִיאוֹת, בְּרִיּיוֹת</plural-form>. Ib. top ברויות ed. Krot. (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4698,
+      "source_id": "jastrow-xml-004698",
+      "canonical_entry_id": "B01240",
+      "headword": "בְּרִי,",
+      "source_xml": "<entry id=\"B01240\">\n<head-word>בְּרִי, </head-word>\n<head-word>בְּרִיא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Koh. X, 6.—Taan. 29\n<sup>b</sup> דב' מזליה when his (the Israelite’s) luck is good, opp. ריע מ' bad luck.—Yoma 57\n<sup>a</sup> top השתא ברי וכ' now it is sure ye are unclean (rejected by the Lord).—\n<plural-form>Pl. בְּרִיֵי</plural-form>. Keth. 60\n<sup>b</sup> sq. בני ב' strong children.—Fem. בַּרְיָא, בַּרְיָיא. Targ. Y. Ex. IV, 7.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4699,
+      "source_id": "jastrow-xml-004699",
+      "canonical_entry_id": "B01241",
+      "headword": "בָּרְיָא",
+      "source_xml": "<entry id=\"B01241\">\n<head-word>בָּרְיָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>Creator</italic>, v. \n<xref rid=\"B01160\">בָּרְיָיא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4700,
+      "source_id": "jastrow-xml-004700",
+      "canonical_entry_id": "B01242",
+      "headword": "בְּרִיאָה,",
+      "source_xml": "<entry id=\"B01242\">\n<head-word>בְּרִיאָה, </head-word>\n<head-word>בְּרִיָּיה</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> f.</pos> (ברא) \n<italic>creation, formation</italic>.</definition>\n<notes> Gen. R. s. 1; Lev. R. s. 36 לב' שמים וכ' as to creation (plan), the heavens were the first; as to finishing (execution) &amp;c. Gen. R. s. 7, end בְּרִיָּיתוֹ של עולם the creation of the world. Ib. s. 17 man looks למקום ברייתו to where he was created from (the earth), woman … למקום בְּרִיָּיתָהּ to where she was made from (the rib); a. fr.—Mikv. VI, 7 כל שהוא מבְּרִיַּית המיים whatever originates in the water (aquatic plants or animals).—Macc. 17\n<sup>a</sup>, a. fr. חיטה אחת כברייתה one wheat grain in its natural condition, נמלה כברייתה an ant in its natural condition (though small). Ib. בריית נשמה the natural condition of an animated being.—Nidd. III, 7 בריית הזכר the formation of a male embryo. B. Kam. 94\n<sup>b</sup> חוזר לברייתו is changed into its original condition.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4701,
+      "source_id": "jastrow-xml-004701",
+      "canonical_entry_id": "B01243",
+      "headword": "בְּרִיאוּת,",
+      "source_xml": "<entry id=\"B01243\">\n<head-word>בְּרִיאוּת, </head-word>\n<head-word>בְּרִיּוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (בָּרִי) \n<italic>health, strength, fleshiness</italic>.</definition>\n<notes> Esth. R. to I, 3.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4702,
+      "source_id": "jastrow-xml-004702",
+      "canonical_entry_id": "B01244",
+      "headword": "בְּרִיאוּתָא,",
+      "source_xml": "<entry id=\"B01244\">\n<head-word>בְּרִיאוּתָא, </head-word>\n<head-word>בְּרִיּוּתָא, </head-word>\n<head-word>בְּרִיּיוּתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Nidd. 47\n<sup>b</sup> מחמת בריאותֵה (or read … תא) on account of (his) obesity. Bekh. 45\n<sup>b</sup> ב' אתחלא וכ' it is (unusual) strength which happened to rest in the left hand (and left-handedness is therefore no defect), opp. כחישותא weakness.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4703,
+      "source_id": "jastrow-xml-004703",
+      "canonical_entry_id": "B01245",
+      "headword": "בְּרִיבִּי",
+      "source_xml": "<entry id=\"B01245\">\n<head-word>בְּרִיבִּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01165\">בְּרַבִּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4704,
+      "source_id": "jastrow-xml-004704",
+      "canonical_entry_id": "B01246",
+      "headword": "בִּרְיָה,",
+      "source_xml": "<entry id=\"B01246\">\n<head-word>בִּרְיָה, </head-word>\n<head-word>בִּירְיָה, </head-word>\n<head-word>בִּירְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברא) \n<italic>creature; human being;</italic> (freq. masc.) \n<italic>man</italic>.</definition>\n<notes> Tosef. Kil. I, 9 ביריא. Ber. 17\n<sup>a</sup>; a. fr.—\n<plural-form>Pl. בְּרִיּוֹת</plural-form>. Ḥull. 127\n<sup>a</sup> ב' גְּדֵלֹות בים creatures living in the Sea.—הַבְּ' (often m.) \n<italic>people, mankind</italic>. Yoma 86\n<sup>a</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4705,
+      "source_id": "jastrow-xml-004705",
+      "canonical_entry_id": "B01247",
+      "headword": "בָּרָיָה",
+      "source_xml": "<entry id=\"B01247\">\n<head-word>בָּרָיָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01160\">בָּרָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4706,
+      "source_id": "jastrow-xml-004706",
+      "canonical_entry_id": "B01248",
+      "headword": "*בריה",
+      "source_xml": "<entry id=\"B01248\">\n<head-word>*בריה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Kil. IX, 32\n<sup>d</sup> top, v. \n<xref rid=\"unknown\">בִּירְיָא II</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4707,
+      "source_id": "jastrow-xml-004707",
+      "canonical_entry_id": "B01249",
+      "headword": "בִּרְיוֹן,",
+      "source_xml": "<entry id=\"B01249\">\n<head-word>בִּרְיוֹן, </head-word>\n<head-word>בִּירְיוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (denom. of בִּירָה) \n<italic>palace-soldier, castle-guard, keeper</italic>.</definition>\n<notes> Ex. R. s. 30 משל לב' וכ' this is to be compared to a palace-soldier who was drunk &amp;c.; Yalk. Esth. 1056 ללבריון (read לב').—\n<plural-form>Pl. בִּרְיוֹנִים, בִּירְ'</plural-form>. Ex. R. l. c. ב' שלו וכ' his palace-guard sneered at his purple cloak.—בִּרְיוֹנוֹת. Mekh. B’shall., Amalek 1, העמידו עליו ב' קשים they appointed over him cruel guards; Tanḥ. ib. 25 עמדו עליו בריונים וכ' (read העמידו); Y. Kidd. I, 61\n<sup>a</sup> bot. בורניות (corr. acc.). Cmp. בִּירָנִית.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4708,
+      "source_id": "jastrow-xml-004708",
+      "canonical_entry_id": "B01250",
+      "headword": "בַּרְיוֹנָא,",
+      "source_xml": "<entry id=\"B01250\">\n<head-word>בַּרְיוֹנָא, </head-word>\n<head-word>בִּירְיוֹנָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01153\">בְּרָא</xref> Ithpe. 3, cmp. בַּרְיוּתָא) \n<italic>rebel, outlaw, highway-man</italic>.</definition>\n<notes>—\n<plural-form>Pl. בַּרְיוֹנֵי, בִּי'</plural-form>. Gitt. 56\n<sup>a</sup> הנהו ב' those rebels (the war party during the last siege of Jerusalem by the Romans). Ib. Abba Sikra ריש ב' chief of the rebels.—Ber. 10\n<sup>a</sup> הנהו ב' דהוו וכ' there were some highway-men living in the neighborhood of &amp;c. Taan. 23\n<sup>b</sup> א\"נ הנהו בי' וכ' ed. (omitted in Ms. M. a. oth.). Ib. 24\n<sup>a</sup> הנך ב' Ms. M. (ed. בני מאתיה, v. Rabb. D. S. l. note 2). Snh. 37\n<sup>a</sup> בַּרְייוֹ'; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4709,
+      "source_id": "jastrow-xml-004709",
+      "canonical_entry_id": "B01251",
+      "headword": "בְּרִיּוּת",
+      "source_xml": "<entry id=\"B01251\">\n<head-word>בְּרִיּוּת</head-word>\n<senses>\n<sense>\n<definition>\n<italic>health</italic>, v. \n<xref rid=\"B01243\">בְּרִיאוּת</xref>; בְּרִיּוּתָא, v. בְּרִיאוּתָא.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4710,
+      "source_id": "jastrow-xml-004710",
+      "canonical_entry_id": "B01252",
+      "headword": "בַּרְיוּתָא",
+      "source_xml": "<entry id=\"B01252\">\n<head-word>בַּרְיוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01250\">בַּרְיוֹנָא</xref>) \n<italic>rebellion, defiance of the law</italic>.</definition>\n<notes> Sot. 19\n<sup>b</sup>; 20\n<sup>a</sup> מחמת ב' (refusal to drink the searching water) in defiance, opp. רתיתא, ביעתותא. *[Targ. Prov. XXV, 20, prob. to be read בְּדִיחוּתָא; ed. Lag. כַּרְיוּתָא. The entire verse is a corrupt combination of two versions.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4711,
+      "source_id": "jastrow-xml-004711",
+      "canonical_entry_id": "B01253",
+      "headword": "בְּרֵיז",
+      "source_xml": "<entry id=\"B01253\">\n<head-word>בְּרֵיז</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01216\">בְּרַז</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4712,
+      "source_id": "jastrow-xml-004712",
+      "canonical_entry_id": "B01254",
+      "headword": "בָּרֵיז",
+      "source_xml": "<entry id=\"B01254\">\n<head-word>בָּרֵיז</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ברז) \n<italic>channel, stream</italic>.</definition>\n<notes> Targ. I Sam. XIV, 26 (h. text הלך).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4713,
+      "source_id": "jastrow-xml-004713",
+      "canonical_entry_id": "B01255",
+      "headword": "בָּרִיחַ",
+      "source_xml": "<entry id=\"B01255\">\n<head-word>בָּרִיחַ</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> ברח)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>bolt</italic>.</definition>\n<notes>—\n<plural-form>Pl. בְּרִיחִים, בְּרִיחִין</plural-form>. Ex. R. s. 52; Yalk. ib. 417.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4714,
+      "source_id": "jastrow-xml-004714",
+      "canonical_entry_id": "B01256",
+      "headword": "בְּרִיחָה",
+      "source_xml": "<entry id=\"B01256\">\n<head-word>בְּרִיחָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברח) \n<italic>flight</italic>.</definition>\n<notes> Gen. R. s. 74; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4715,
+      "source_id": "jastrow-xml-004715",
+      "canonical_entry_id": "B01257",
+      "headword": "בריחי",
+      "source_xml": "<entry id=\"B01257\">\n<head-word>בריחי</head-word>\n<senses>\n<sense>\n<definition>, Sabb. 21\n<sup>a</sup>; 145\n<sup>b</sup>\n<italic>sick persons</italic>, v. \n<xref rid=\"K01157\">כְּרִיהָא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4716,
+      "source_id": "jastrow-xml-004716",
+      "canonical_entry_id": "B01258",
+      "headword": "בְּרִיטַנְיָא",
+      "source_xml": "<entry id=\"B01258\">\n<head-word>בְּרִיטַנְיָא</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Britannia, Great Britain</italic>.</definition>\n<notes> Yalk. Deut. 945. Ib. Cant. 586, v. בַּרְבַּרְיָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4717,
+      "source_id": "jastrow-xml-004717",
+      "canonical_entry_id": "B01259",
+      "headword": "בָּרְיָיא,",
+      "source_xml": "<entry id=\"B01259\">\n<head-word>בָּרְיָיא, </head-word>\n<head-word>בּוֹרְיָא</head-word>\n<pos> m.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"B00334\">בּוֹרֵא</xref></language-reference>\n<senses>\n<sense>\n<definition> , \n<italic>Creator, God</italic>.</definition>\n<notes> Targ. Prov. XVII, 5 בָּרְיֵהּ his Maker; a. e.—Y. Ber. I, 2\n<sup>d</sup> איקריה דבָרְיִי the honor of my Maker. Gen. R. s. 68 מה אנא מובד סברי מן בריי why should I give up my hope in my Creator? Y. Hor. III, beg. 47\n<sup>a</sup> דמי לבָרְיֵיכוֹן is like that of your Maker, v. דּוּגְמָא; Y. Snh. II, 20\n<sup>a</sup> top לבירייתכון (corr. acc.). Lev. R. s. 15 ובוֹרְיָיךְ קאים לך and thy Maker will assist thee; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4718,
+      "source_id": "jastrow-xml-004718",
+      "canonical_entry_id": "B01260",
+      "headword": "בָּרָיָיא",
+      "source_xml": "<entry id=\"B01260\">\n<head-word>בָּרָיָיא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>external</italic>, v. \n<xref rid=\"B01160\">בָּרָאָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4719,
+      "source_id": "jastrow-xml-004719",
+      "canonical_entry_id": "B01261",
+      "headword": "בְּרִיָּיה",
+      "source_xml": "<entry id=\"B01261\">\n<head-word>בְּרִיָּיה</head-word>\n<senses>\n<sense>\n<definition>\n<italic>creation</italic>, v. \n<xref rid=\"B01242\">בְּרִיאָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4720,
+      "source_id": "jastrow-xml-004720",
+      "canonical_entry_id": "B01262",
+      "headword": "בִּרְיָיה",
+      "source_xml": "<entry id=\"B01262\">\n<head-word>בִּרְיָיה</head-word>\n<senses>\n<sense>\n<definition>\n<italic>creature</italic>, v. \n<xref rid=\"B01160\">בִּרְיָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4721,
+      "source_id": "jastrow-xml-004721",
+      "canonical_entry_id": "B01263",
+      "headword": "בָּרָיָיה",
+      "source_xml": "<entry id=\"B01263\">\n<head-word>בָּרָיָיה</head-word>\n<senses>\n<sense>\n<definition>\n<italic>foreign, strange</italic>, v. \n<xref rid=\"B01160\">בָּרָאָה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4722,
+      "source_id": "jastrow-xml-004722",
+      "canonical_entry_id": "B01264",
+      "headword": "בָּרַיְיתָא",
+      "source_xml": "<entry id=\"B01264\">\n<head-word>בָּרַיְיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01160\">בָּרָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4723,
+      "source_id": "jastrow-xml-004723",
+      "canonical_entry_id": "B01265",
+      "headword": "בִּרְיְיתָא",
+      "source_xml": "<entry id=\"B01265\">\n<head-word>בִּרְיְיתָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>, </italic>\n<plural-form>pl.בִּרְיָיתָא,</plural-form> v. \n<xref rid=\"B01284\">בִּרְיְתָא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4724,
+      "source_id": "jastrow-xml-004724",
+      "canonical_entry_id": "B01266",
+      "headword": "בְּרִיכָא",
+      "source_xml": "<entry id=\"B01266\">\n<head-word>בְּרִיכָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>shoot</italic>, v. \n<xref rid=\"B01290\">בִּרְכָּא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4725,
+      "source_id": "jastrow-xml-004725",
+      "canonical_entry_id": "B01267",
+      "headword": "בְּרִיכָה",
+      "source_xml": "<entry id=\"B01267\">\n<head-word>בְּרִיכָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברך) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>bending the knee</italic>.</definition>\n<notes> Gen. R. s. 39; Y. Ber. I, 3\n<sup>c</sup> bot. (diff. fr. כריעה). Ib. 3\n<sup>d</sup> top לך ב' unto thee bending is due; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (denomin. of בֶּרֶךְ) \n<italic>knee, young shoot.</italic></definition>\n<notes> Orlah I, 5 if a tree has been dying ובו ב' וכ' but there is a shoot on it …: the old stem is again like a young shoot (with ref. to the fruits of the first years, v. עָרְלָה). R. Hash. 15\n<sup>b</sup>; Tosef. Shebi. IV, 20 ed. Zuck. אילן העושה ב' אחת (ed. ברך) a tree which shoots only once a year (its fruits growing all at once), opp. שתי בריכות (expl. R. Hash. l. c. כעין שתי ב') two crops, i.e. early and late fruits.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (from the position of the hatching bird) \n<italic>brood</italic>, esp. of doves.</definition>\n<notes> B. Bath. V, 3; Bets. 10\n<sup>a</sup> ב' ראשונה the first brood of the year.—\n<plural-form>Pl. בְּרִיכוֹת</plural-form>. R. Hash. l. c.; Tosef. Shebi. l. c. Yeb. 63\n<sup>a</sup> בִּרְכּוֹת, v. בָּרַךְ Hif.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4726,
+      "source_id": "jastrow-xml-004726",
+      "canonical_entry_id": "B01268",
+      "headword": "בְּרֵיכָה,",
+      "source_xml": "<entry id=\"B01268\">\n<head-word>בְּרֵיכָה, </head-word>\n<head-word>בְּרֵכָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> ברך)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>pond, lake.</italic></definition>\n<notes> Mikv. VI, 11 אחד משלש … לב' one three hundred and twentieth part of the bathing pond. Gen. R. s. 39 (ref. to בְּרָכָה Gen. XII, 12) קרי ביה ב' וכ' read \n<italic>b’rekhah</italic>, a pond, as the pond cleanses the unclean (by immersion) &amp;c.; Num. R. s. 11; a. fr.—\n<plural-form>Pl. בְּרֵיכוֹת, בְּרֵכ'</plural-form>. Makhsh. II, 3.—Cmp. נִבְרֶכֶת.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4727,
+      "source_id": "jastrow-xml-004727",
+      "canonical_entry_id": "B01269",
+      "headword": "*בריכסון",
+      "source_xml": "<entry id=\"B01269\">\n<head-word>*בריכסון</head-word>\n<senses>\n<sense>\n<definition>, read בְּרִיכְסִין (= ἔβρεξεν fr. βρέχω; ἐ rejected) \n<italic>it rained</italic>.</definition>\n<notes> Y. Shebu. III, 34\n<sup>d</sup> bot. if seeing that it has rained, one says קורי פלי ב', (κύριε πολὺ ἔβρεξεν) ‘By God, it has rained much’—this is a vain oath; Y. Ned. III, 38\n<sup>a</sup> top בלי קורי בריקשון (corr. acc.); Pesik. R. s. 22 כלי קרי אברוכסים (corr. acc., read איבריכסין ἔβρεξεν).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4728,
+      "source_id": "jastrow-xml-004728",
+      "canonical_entry_id": "B01270",
+      "headword": "בְּרֵיכְתָא",
+      "source_xml": "<entry id=\"B01270\">\n<head-word>בְּרֵיכְתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. ch. = h. בְּרֵיכָה. Targ. Is. XXII, 9; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4729,
+      "source_id": "jastrow-xml-004729",
+      "canonical_entry_id": "B01271",
+      "headword": "*בָּרִין,",
+      "source_xml": "<entry id=\"B01271\">\n<head-word>*בָּרִין, </head-word>\n<head-word>רם ב'</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ram Barin</italic>, a border town of Northern Palestine (district of Tyre; perh. \n<italic>Kefr Bureim</italic>, Neub. Géogr. p. 23).</definition>\n<notes> Y. Dem. II, 22\n<sup>d</sup> top; Tosef. Shebi. IV, 10 רמכוך, Var. רומברך. Y. l. c. עד כדון for which R. S. to Dem. II, 1 בּוּרָן (prob. the same).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4730,
+      "source_id": "jastrow-xml-004730",
+      "canonical_entry_id": "B01272",
+      "headword": "בְּרֵיק",
+      "source_xml": "<entry id=\"B01272\">\n<head-word>בְּרֵיק</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01313\">בְּרַק</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4731,
+      "source_id": "jastrow-xml-004731",
+      "canonical_entry_id": "B01273",
+      "headword": "בריקא,",
+      "source_xml": "<entry id=\"B01273\">\n<head-word>בריקא, </head-word>\n<head-word>בריקה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00347\">בורדיקא'</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4732,
+      "source_id": "jastrow-xml-004732",
+      "canonical_entry_id": "B01274",
+      "headword": "בריקשון",
+      "source_xml": "<entry id=\"B01274\">\n<head-word>בריקשון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01269\">בריכסון</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4733,
+      "source_id": "jastrow-xml-004733",
+      "canonical_entry_id": "B01275",
+      "headword": "בָּרִיר,",
+      "source_xml": "<entry id=\"B01275\">\n<head-word>בָּרִיר, </head-word>\n<head-word>בְּרִיר, </head-word>\n<head-word>בְּרִירָא</head-word>\n<head-word>בְּרִירָא, </head-word>\n<head-word>בְּרִירָה</head-word>\n<pos> f.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"B00711\">בָּרוּר</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>clear, pure, certain; polished, bright</italic>.</definition>\n<notes> Targ. Ps. XVIII, 27 (h. text נָבָר). Targ. Y. Ex. XXII, 2 (Var. בָּרוּר); a. fr.—\n<plural-form>Pl. בְּרִירִין, בְּרִירָן</plural-form>. Targ. Y. I, II Deut. VIII, 9; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>chosen, peculiar</italic>.</definition>\n<notes> Ibid. XXIX, 12.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4734,
+      "source_id": "jastrow-xml-004734",
+      "canonical_entry_id": "B01276",
+      "headword": "בְּרִירָה",
+      "source_xml": "<entry id=\"B01276\">\n<head-word>בְּרִירָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברר) \n<italic>sifting, assorting</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>b</sup> top [read:] כל מה שהותר מכלל ב' וכ' what is allowed on Holy Days as coming under the category of sifting, is not always allowed … on the Sabbath; Y. Bets. I, 60\n<sup>d</sup> (usually משום בורר).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4735,
+      "source_id": "jastrow-xml-004735",
+      "canonical_entry_id": "B01277",
+      "headword": "בְּרֵירָה",
+      "source_xml": "<entry id=\"B01277\">\n<head-word>בְּרֵירָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברר) \n<italic>choosing, choice</italic>, esp. as a dialectic term, \n<italic>B’rerah, subsequent selection, retrospective designation</italic>, i.e. the legal effect resulting from an actual selection or disposal of things previously undefined as to their purpose, e.g. a letter of divorce must be written, with special intention, for the persons concerned; now, “if one says to a scribe, ‘Write for me a letter of divorce for one of my wives whom I may choose to divorce’, none of them can be divorced with it” (Gitt. III, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes>, upon which the remark is made (ib. 24\n<sup>b</sup>) הא קא משמע לן דאין ב' this rule of the Mishnah implies the adoption of the principle that subsequent disposal does not react on the original status of the letter of divorce, so as to say that this subsequent selection is equal to a defined intention at the time when the deed was to be written. [The question of B’rerah, i.e. whether a subsequent disposal has or has not a retrospective legal effect, is widely spread in the Talmud, referring both to judicial as well as to ritual cases.] Yoma 55\n<sup>b</sup> ר' … לית ליה ב' R. Judah rejects the principle of B’rerah; Y. Shek. VI, 50\n<sup>b</sup> אי אמרינן ב' וכ' if we adopt the principle of B., let four Zuz (the value of one offering) be taken out of the bag and thrown into the water, and the balance of the money be permitted for use. Ḥull. 14\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4736,
+      "source_id": "jastrow-xml-004736",
+      "canonical_entry_id": "B01278",
+      "headword": "בָּרִירוּ",
+      "source_xml": "<entry id=\"B01278\">\n<head-word>בָּרִירוּ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01280\">בְּרִירוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4737,
+      "source_id": "jastrow-xml-004737",
+      "canonical_entry_id": "B01279",
+      "headword": "בְּרִירוּת",
+      "source_xml": "<entry id=\"B01279\">\n<head-word>בְּרִירוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברר) \n<italic>clearness, pureness, innocence</italic>.</definition>\n<notes> Y. Taan. III, 67\n<sup>a</sup> ב' כפיך innocence of thy hands (expl. \n<italic>bor</italic>, Job XXII, 30).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4738,
+      "source_id": "jastrow-xml-004738",
+      "canonical_entry_id": "B01280",
+      "headword": "בְּרִירוּתָא,",
+      "source_xml": "<entry id=\"B01280\">\n<head-word>בְּרִירוּתָא, </head-word>\n<head-word>בָּרִירוּ</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. O. Ex. XXIV, 10 (\n<italic>brightness</italic>, h. text טהר); a. e.—Targ. Prov. XVI, 15 ed. Lag. (Var. ביריאתא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4739,
+      "source_id": "jastrow-xml-004739",
+      "canonical_entry_id": "B01281",
+      "headword": "*בריש,",
+      "source_xml": "<entry id=\"B01281\">\n<head-word>*בריש, </head-word>\n<head-word>פילי ב'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03001\">אַרְדָּא II</xref>. Gitt. 14\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4740,
+      "source_id": "jastrow-xml-004740",
+      "canonical_entry_id": "B01282",
+      "headword": "בְּרִית",
+      "source_xml": "<entry id=\"B01282\">\n<head-word>בְּרִית</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> בָּרָה; v. בֵּירִית)</xref></language-reference>\n<senses>\n<sense>\n<definition> prop. \n<italic>circle, ring, chain</italic>, hence \n<italic>oath</italic> (of fidelity), \n<italic>solemn injunction; covenant treatise</italic>.</definition>\n<notes> [כרת ב' to cut a ring out; to make a covenant; בא בב' to enter into the ring, to promise fidelity; הפר ב' to break the ring, to break one’s oath &amp;c.] Sabb. 137\n<sup>b</sup>; בריתו של אברהם אבינו (sign of) the covenant of Abraham, \n<italic>circumcision.</italic> Ab. III, 11; a. fr. Y. Peah VIII, 21\n<sup>a</sup> מפני ב' של א\"א on account of the covenant of Abraham (for the sake of human dignity). Num. R. s. 18, a. fr. ב' כרותה לשפתים a law is made for the lips, i.e. words are ominous (ref. to לא נעלה, Num. XVI, 12). Gen. R. s. 34, v. אָוִיר; a. fr.—הַבְּ' וכ' \n<italic>by the covenant</italic> (an oath), \n<italic>indeed</italic>. Tosef. Ḥall. I, 6 ב' וכ' (Var. הב'); Pes. 38\n<sup>b</sup> indeed, those are the very words &amp;c.; (some explain) indeed?, are those the very &amp;c. (is it a tradition for which no reason needs to be given)?; Y. Peah V, 19\n<sup>b</sup> bot. הב'.—\n<plural-form>Pl. בְּרִיתוֹת</plural-form>. Ber. 48\n<sup>b</sup> sq. שלש ב' three covenants (three times the word \n<italic>b’rith</italic>, Deut. XXVIII, 69; XXIX, 8). Tosef. Sot. VIII, 10; 11 ב' Var. (ed. Zuck. כְּרִיתוֹת); Sot. 37\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4741,
+      "source_id": "jastrow-xml-004741",
+      "canonical_entry_id": "B01283",
+      "headword": "בֵּרִית",
+      "source_xml": "<entry id=\"B01283\">\n<head-word>בֵּרִית</head-word>\n<senses>\n<sense>\n<definition>\n<italic>a ring, band</italic>, v. \n<xref rid=\"B00725\">בֵּירִית</xref>.</definition>\n<notes> [Y. M. Kat. I, 80\n<sup>b</sup> top, v. כְּרִית.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4742,
+      "source_id": "jastrow-xml-004742",
+      "canonical_entry_id": "B01284",
+      "headword": "בִּרְיְתָא,",
+      "source_xml": "<entry id=\"B01284\">\n<head-word>בִּרְיְתָא, </head-word>\n<head-word>בִּרְיָא, </head-word>\n<head-word>בי'</head-word>\n<pos> f.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<number>1)</number>\n<definition> = h. בִּרְיָה \n<italic>creature</italic>.</definition>\n<notes> Targ. Is. XXIX, 16; a. fr. Targ. Ezek. I, 9; 11 בִּרְיָא \n<italic>each</italic> (h. text איש).—\n<plural-form>Pl. בִּרְיָתָא, בִּירְיָאתָא, בִּירְ'</plural-form>. Ib. 13 sq. (h. text חַיּוֹת); a. fr. Gen. R. s. 60 הדא דב' אמרין that is what people say. Lam. R. to I, 1 רבתי (חד כותאי 1) מפליא בב' makes sport of men (interpreting dreams to suit himself).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>natural state</italic>, v. \n<xref rid=\"B01242\">בְּרִיָּיה</xref>.</definition>\n<notes> B. Kam. 93\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4743,
+      "source_id": "jastrow-xml-004743",
+      "canonical_entry_id": "B01285",
+      "headword": "בָּרַיְתָא",
+      "source_xml": "<entry id=\"B01285\">\n<head-word>בָּרַיְתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01160\">בָּרָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4744,
+      "source_id": "jastrow-xml-004744",
+      "canonical_entry_id": "B01286",
+      "headword": "בריתא",
+      "source_xml": "<entry id=\"B01286\">\n<head-word>בריתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Y. II Num. XXIV, 6 כב' Ar., v. \n<xref rid=\"B01339\">בְּרָתָא</xref> end.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4745,
+      "source_id": "jastrow-xml-004745",
+      "canonical_entry_id": "B01287",
+      "headword": "בָּרַךְ",
+      "source_xml": "<entry id=\"B01287\">\n<head-word>בָּרַךְ</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בר</xref>, v. ברר,\n<xref rid=\"A00083\"> ברי)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to cave out</italic>.</definition>\n<notes> Denom. בְּרֵכָה, בֶּרֶךְ; cmp. בּוּרְכָּא, בּוּרְכְּתָא.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (cmp. ברר) \n<italic>to select, point out</italic> (cmp. esp. Gen. II, </definition>\n<notes /></sense>\n<sense>\n<number>3)</number>\n<definition> whence \n<italic>to bless</italic> (Pi.).</definition>\n<notes>—Part. pass. בָּרוּךְ \n<italic>chosen, blessed, praised</italic>. הקדוש ב' הוא (abbr. הקב\"ה) the Holy One, blessed be He. Pes. 118\n<sup>a</sup>; a. v. fr. Ib. 104\n<sup>b</sup>, a. fr. פותח בב' וכ' he (who prays) opens the benediction with \n<italic>barukh</italic> and closes with \n<italic>barukh</italic> (i.e. ברוך אתה ה'). Tosef. Sot. I, 10 ב' בכלל, v. כְּלָל; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>בֵּרַךְ, בֵּירַךְ</binyan-form>\n<senses>\n<sense>\n<definition> (b. h.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to praise, bless</italic>, esp. \n<italic>to recite the due benediction</italic>.</definition>\n<notes> Ber. VI, 1. Ib. 5 בי' על היין having recited the blessing over wine &amp;c. Pes. X, 9 ב' ברכת הפסח having recited the blessing over the Paschal lamb. Ib. 5 אנחנו חייבים … לְבָרֵךְ we are bound to … praise &amp;c.; a. v. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (cmp. נקב) \n<italic>to blaspheme</italic>.</definition>\n<notes> Snh. 56\n<sup>a</sup> עד שֶיְבָרֵךְ שם בשם until he blasphemes the Lord by His name. Ib. שבי' את השם בכינוי who blasphemed the Lord by an attribute.—Part. Pu. מְבוֹרָךְ \n<italic>blessed, praiseworthy</italic>. Ber. VII, 3; a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> *\n<italic>to cut through, to clear virgin ground</italic> or \n<italic>forest</italic>.</definition>\n<notes> Tosef. Shebi. III, 20 ed. Zuck. (Var. מגדר); Y. ib. IV, 35\n<sup>b</sup> bot. מבדין; Y. Sabb. VII, 10\n<sup>a</sup> top המברה, v. בהי h. [Tosef. Shebi. I, 6 מבורכות, v. infra.]</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְבָּרֵךְ, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְבָּרֵךְ \n<italic>to be blessed</italic> (\n<italic>praised</italic>); \n<italic>to be increased</italic> (v. בְּרָכָה). Y. Ber. IX, 14\n<sup>a</sup> top ויִתְבָּרַךְ and be blessed. Y. M. Kat. I, beg. 80\n<sup>a</sup> if the waters were scanty ונִתְבָּרְכוּ and grew plentiful. Yeb. 63\n<sup>a</sup>; a. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִבְרִיךְ</binyan-form>\n<senses>\n<sense>\n<definition> (denom. of בֶּרֶךְ or בְּרִיכָה) \n<italic>to form a knee, to engraft;</italic> esp. \n<italic>to bend a vine by drawing it into the ground and making it grow forth as an independent plant, to sink.</italic></definition>\n<notes> Shebi. II, 6; R. Hash. 10\n<sup>b</sup>; a. fr.—Tosef. Shebi. I, 6 אם היו מוּבְרָכוֹת (incorr. מבורכ') if they have been sunk before New Year &amp;c.—Yeb. 63\n<sup>a</sup> (allud. to Gen. XII, 3) שתי ברכית טובות יש לי להַבְרִיךְ בך two good shoots (proselytes) have I to engraft on thee, Ruth and &amp;c. (B. Kam. 38\n<sup>b</sup> … פרידות וכ').</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4746,
+      "source_id": "jastrow-xml-004746",
+      "canonical_entry_id": "B01288",
+      "headword": "בְּרַךְ,",
+      "source_xml": "<entry id=\"B01288\">\n<head-word>בְּרַךְ, </head-word>\n<head-word>בְּרֵיךְ</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Part. Peil בְּרִיךְ \n<italic>blessed</italic>. Targ. Gen. IX, 26; a. fr.—Sabb. 67\n<sup>a</sup>, a. fr. קודשא ב' הוא the Holiness (Holy One), blessed be He. Cant. R. to. IV, 4; Gen. R. s. 32 הדין טורא בְּרִיכָא this blessed mount (Gerizim, revered by the Samaritans; Deut. R. s. 3 קדיש).</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>בָּרֵיךְ, בָּרִיךְ</binyan-form>\n<senses>\n<sense>\n<definition> as preced. Pi. </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to bless</italic> &amp;c. Targ. Deut. VIII, 10; a. fr.—Esp.</definition>\n<notes>\n<italic>to say grace after meal</italic>. Ber. 46\n<sup>a</sup> כי מטי לְבָרוּכֵי וכ' when it was time to say grace, he said, Will you please, say grace for us. Y. ib. VI, 10\n<sup>b</sup> מהו למיבָרְכָה בסופה what benediction must be said after it? Ib. bot. לא אנא חכים מברכא I do not know how to say grace after it.—Part. pass. מְבָרַךְ. Targ. Y. II Gen. XLIX, 2.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to blaspheme</italic>.</definition>\n<notes> Targ. Job II, 9.—Snh. 56\n<sup>a</sup> לישנא דברוכי in the sense of blaspheming.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְבָּרֵיךְ</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> as preced. Hithpa. Targ. Gen. XII, 3; a. fr.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4747,
+      "source_id": "jastrow-xml-004747",
+      "canonical_entry_id": "B01289",
+      "headword": "(בּוֹרֶךְ) בֶּרֶךְ",
+      "source_xml": "<entry id=\"B01289\">\n<head-word>(בּוֹרֶךְ) בֶּרֶךְ</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>knee</italic>.</definition>\n<notes> Y. Ber. I, 3\n<sup>d</sup> top.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>a knee-shaped pole</italic>.</definition>\n<notes> Taan. 25\n<sup>b</sup> כמלא ב' חמחרישה (Var. כוך, v. Rabb. D. S. a. l.) (until the rain penetrates) as far as the knee of the plough enters the soil; Ohol. XVII, 1 בו'. Kel. XXI, 2 בו'. [Tosef. Shebi. IV, 20 ברך, v. בְּרִיכָה.]—\n<italic>Du.</italic> בִּרְכַּיִם. Ber. 34\n<sup>b</sup>; Meg. 22\n<sup>b</sup>; Shebu. 16\n<sup>b</sup> כריעה על ב' the word כרע means falling on one’s knees. [בִּרְכּוֹת, v. בְּרִיכָה.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4748,
+      "source_id": "jastrow-xml-004748",
+      "canonical_entry_id": "B01290",
+      "headword": "בֶּרֶךְ,",
+      "source_xml": "<entry id=\"B01290\">\n<head-word>בֶּרֶךְ, </head-word>\n<head-word>בִּרְכָּא, </head-word>\n<head-word>בִּירְכָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>knee</italic>.</definition>\n<notes> Targ. Is. XLV, 23.—\n<plural-form>Pl. בִּרְכַּיָא, בִּרְכֵּי, בִּי'</plural-form>. Targ. Jud. VII, 6; a. e.—Ber. 6\n<sup>a</sup> הנהו ב' וכ' those fatigued knees (of scholars) must be ascribed to them (the demons). Pes. 108\n<sup>a</sup>, v. זְגָא.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> = h. בְּרִיכָה.</definition>\n<notes>\n<plural-form>Pl. בִּירְכֵּי</plural-form>\n<italic>shoots, branches</italic>. Tam. 30\n<sup>a</sup> top (Var. in Rashi בְּרִיכֵי, Ar. בורכי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4749,
+      "source_id": "jastrow-xml-004749",
+      "canonical_entry_id": "B01291",
+      "headword": "בִּרְכָא,",
+      "source_xml": "<entry id=\"B01291\">\n<head-word>בִּרְכָא, </head-word>\n<head-word>בִּירְכָא</head-word>\n<senses>\n<sense>\n<definition>,\n<pos> f.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"B01268\">בְּרָכָה</xref></language-reference>, \n<italic>blessing, plenty</italic>.</definition>\n<notes> Targ. Is. XIX, 24.—בִּרְכָאן plenty for us, \n<italic>we have enough with</italic>. Gen. R. s. 78 אית במאתן ב' we have enough with two hundred fables; Yalk. ib. 133 בִּרְכָן.—\n<plural-form>Pl. בִּרְכָן, בִּי';</plural-form> Targ. O. Gen. XXVII, 12 (Y. בִּרְכָאָן; ib. 13 בִּירְכַן). [בִּרְכַיָּא Targ. O. Deut. XXVIII, 2, some ed.] V. בִּרְכְתָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4750,
+      "source_id": "jastrow-xml-004750",
+      "canonical_entry_id": "B01292",
+      "headword": "בְּרָכָה",
+      "source_xml": "<entry id=\"B01292\">\n<head-word>בְּרָכָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> ברך)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>blessing, bestowal of prosperity, good wishes, choice, plenty</italic>.</definition>\n<notes> Keth. 5\n<sup>a</sup> הואיל … ב' לדגים because on it the blessing was given to the fish (Gen. I, 22, to be fruitful). Y. ib. I, beg. 24\n<sup>d</sup> אין כתיב ב' וכ' the blessing (Gen. II, 3) refers not to man but to the day.—Erub. 63\n<sup>b</sup>, a. fr. תבא עליו ב' blessing rest upon him (he acts rightly). Keth. 103\n<sup>a</sup>; B. Bath. 144\n<sup>b</sup> בִּרְכַת הבית ברובה the blessing of a house consists in the number of inmates (every member of a household contributes to its comfort); Tosef. Keth. XII, 3 ב' הבית מרובה. B. Mets. 42\n<sup>a</sup> אין הב' מצוייה וכ' blessing (unexpected supply, miraculous increase) will not take place in things which are weighed &amp;c.; Taan. 8\n<sup>b</sup>; a. fr.—Pes. 50\n<sup>b</sup>, a. fr. אינו רואה סימן ב' לעולם will never see a sign of prosperity; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>benediction, prayer to be recited on certain occasions</italic>.</definition>\n<notes> Ber. 35\n<sup>a</sup> man must not taste anything בלא ב' without a blessing. Ib. 40\n<sup>b</sup> כל ב' שאין וכ' a benediction in which the Name of the Lord is not invoked, is no benediction; a. fr.—\n<plural-form>Pl. בְּרָכוֹת</plural-form>. 1) \n<italic>blessings, benedictions</italic>. Ib. 45\n<sup>b</sup>; a. v. fr.—Sabb. 115\n<sup>b</sup> כותבי ב' those who write out the formulas of prayer.—2) \n<italic>B’rakhoth</italic>, the first treatise of the Mishnah, Talmud, a. Tosefta.—Compounds: בִּרְכַת אבלים the prayer for consolation inserted in the mourners’ grace after meal. Keth. 8\n<sup>b</sup>; a. fr.—ב' ארוסין benediction preceding betrothal, v. אֵרוּסִין Ib. 7\n<sup>b</sup>.—ב' הארץ that portion of the grace after meal which refers to Palestine. Ib. 8\n<sup>b</sup>.—ב' הזבח the benediction before partaking of the festive offering (חֲגִיגָה) which accompanies the Paschal lamb. Pes. X, 9 (120\n<sup>a</sup>).—ב' הזימון the appeal to the partakers of a meal to say grace, \n<italic>common prayer</italic>. Ber. 45\n<sup>b</sup>.—ב' חתנים benediction on performing the marriage ceremony, also inserted in the grace after wedding meals during seven days. Keth. 8\n<sup>b</sup>.—ב' כהנים the priestly benediction (Num. VI, 24—26). Sot. VII, 6.—ב' המזון grace after meal. Keth. l. c.—ב' המצוות benediction on performing a divine command (of a symbolic nature). Ib. 7\n<sup>b</sup>.—ב' רחבה benediction of consolation pronounced in open air on the mourners’ return from burial (v. הַבְרָאָה). Ib. 8\n<sup>b</sup>.—ב' התורה benediction before and after reading the Law. Y. Ber. I, 3\n<sup>c</sup>.—[For other compounds see the respective determinants.]</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>blasphemy</italic>.</definition>\n<notes> בִּרְכַת השם. Snh. 56\n<sup>a</sup> sq.; (Tosef. Ab. Zar. VIII (IX), 4 קיללת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4751,
+      "source_id": "jastrow-xml-004751",
+      "canonical_entry_id": "B01293",
+      "headword": "ברכוייד,",
+      "source_xml": "<entry id=\"B01293\">\n<head-word>ברכוייד, </head-word>\n<head-word>ברכוייר, </head-word>\n<head-word>בורכייד</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Tosef. Kil. III, 12, read בּוּכַּרְיָא or בּוּכַּרְיָיא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4752,
+      "source_id": "jastrow-xml-004752",
+      "canonical_entry_id": "B01294",
+      "headword": "בִּרְכַּיָּיר,",
+      "source_xml": "<entry id=\"B01294\">\n<head-word>בִּרְכַּיָּיר, </head-word>\n<head-word>בּוּרְכַּיָיר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= בֵּיר כַּיָּיר, v. \n<xref rid=\"B00725\">בֵּירִית</xref> a. \n<xref rid=\"A00083\">כּוּר)</xref>\n<italic>the stove-setter’s knee-band, the brick-layer’s cushion</italic> (on which he kneels at work).</definition>\n<notes> Kel. XXVI, 3 (Talm. ed. בור').</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4753,
+      "source_id": "jastrow-xml-004753",
+      "canonical_entry_id": "B01295",
+      "headword": "ברכר,",
+      "source_xml": "<entry id=\"B01295\">\n<head-word>ברכר, </head-word>\n<head-word>ברכרה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Peah VII, 20\n<sup>a</sup>, v. \n<xref rid=\"K01218\">כַּרְכָּר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4754,
+      "source_id": "jastrow-xml-004754",
+      "canonical_entry_id": "B01296",
+      "headword": "בְּרֵכַת",
+      "source_xml": "<entry id=\"B01296\">\n<head-word>בְּרֵכַת</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = בְּרֵכָה. Tosef. Mikv. IV, 8.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4755,
+      "source_id": "jastrow-xml-004755",
+      "canonical_entry_id": "B01297",
+      "headword": "בִּרְכְתָא,",
+      "source_xml": "<entry id=\"B01297\">\n<head-word>בִּרְכְתָא, </head-word>\n<head-word>בִּירְכְתָא</head-word>\n<pos> f.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"B01268\">בְּרָכָה.</xref></language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Gen. XXVII, 36; a. fr.—Ber. 51\n<sup>b</sup> כסא דב' (= h. כוס של ברכה) the cup for the grace after meal. Ḥag. 5\n<sup>b</sup> איכו השתא מנעתן מהאי בי' how near thou camest depriving us of this blessing; a. fr.—\n<plural-form>Pl. בִּרְכָתָא, בִּי'</plural-form>. Targ. Deut. XXVIII, 2; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4756,
+      "source_id": "jastrow-xml-004756",
+      "canonical_entry_id": "B01298",
+      "headword": "בְּרַכְתָּא",
+      "source_xml": "<entry id=\"B01298\">\n<head-word>בְּרַכְתָּא</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>B’rakhta</italic>.</definition>\n<notes> Y. Ber. VI, 10\n<sup>b</sup> bot.; cmp., however, מַבְרַכְתָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4757,
+      "source_id": "jastrow-xml-004757",
+      "canonical_entry_id": "B01299",
+      "headword": "בְּרַם",
+      "source_xml": "<entry id=\"B01299\">\n<head-word>בְּרַם</head-word>\n<language-key> h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">a. ch.</xref></language-reference>\n<senses>\n<sense>\n<definition> conj.</definition>\n<notes> (ברם \n<italic>to split</italic>, √בר, cmp. פרם, v. בּוֹרְמָא) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>besides</italic>.</definition>\n<notes>. Targ. Y. Ex. XXXVI, 7.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>however.</italic></definition>\n<notes> Dan. IV, 12; V, 17.—Targ. Ps. LVIII, 3; a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>only, but</italic>.</definition>\n<notes> Targ. Gen. VII, 23. Targ. Lam. III, 3 (h. text אַךְ). Targ. Ps. LVIII, 2 הב' בקושטא is it only in truth (indeed)?—Sabb. 63\n<sup>b</sup>; Erub. 16\n<sup>b</sup>, a. fr. ב' כך אמרו but in fact they said this. B. Mets. 114\n<sup>a</sup>.—3) interj. \n<italic>truly!, surely!</italic> Sabb. 13\n<sup>b</sup>; Ḥag. 13\n<sup>a</sup>; Men. 45\n<sup>b</sup> ב' זכור וכ' truly! this man be remembered for blessing!—[Ḥull. 112\n<sup>a</sup> דאברים some ed., read: דאבריה, v. בְּרָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4758,
+      "source_id": "jastrow-xml-004758",
+      "canonical_entry_id": "B01300",
+      "headword": "*ברמור",
+      "source_xml": "<entry id=\"B01300\">\n<head-word>*ברמור</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, El. Wil. in Tosef. Kil. III, 12, for ברכוייר.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4759,
+      "source_id": "jastrow-xml-004759",
+      "canonical_entry_id": "B01301",
+      "headword": "*ברנטין",
+      "source_xml": "<entry id=\"B01301\">\n<head-word>*ברנטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Ezek. 356, v. \n<xref rid=\"unknown\">לברטין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4760,
+      "source_id": "jastrow-xml-004760",
+      "canonical_entry_id": "B01302",
+      "headword": "בַּרְנֵישׁ",
+      "source_xml": "<entry id=\"B01302\">\n<head-word>בַּרְנֵישׁ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01304\">בַּרְנֵשׁ</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4761,
+      "source_id": "jastrow-xml-004761",
+      "canonical_entry_id": "B01303",
+      "headword": "ברנקיא",
+      "source_xml": "<entry id=\"B01303\">\n<head-word>ברנקיא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Is. III, 22 Ar., ed. לבורניקיא q. v.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4762,
+      "source_id": "jastrow-xml-004762",
+      "canonical_entry_id": "B01304",
+      "headword": "בַּרְנֵשׁ,",
+      "source_xml": "<entry id=\"B01304\">\n<head-word>בַּרְנֵשׁ, </head-word>\n<head-word>בַּרְנֵישׁ</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Barnesh</italic>, in Babylon, prob. the modern \n<italic>Khar-Birnus</italic>, near Helle (Neub. Géogr. p. 345), having in its vicinity a Synagogue named after Daniel.</definition>\n<notes> Erub. 21\n<sup>a</sup>. B. Mets. 73\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4763,
+      "source_id": "jastrow-xml-004763",
+      "canonical_entry_id": "B01305",
+      "headword": "*ברס",
+      "source_xml": "<entry id=\"B01305\">\n<head-word>*ברס</head-word>\n<senses>\n<sense>\n<definition>, Af. אַבְרִיס \n<italic>to bray</italic> (used of the wild ass when hungry).</definition>\n<notes> Targ. Job VI, 5 (Ms. מַכְרִיס, perh. a denom. of כֶּרֶס \n<italic>stomach, appetite</italic>).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4764,
+      "source_id": "jastrow-xml-004764",
+      "canonical_entry_id": "B01306",
+      "headword": "בִּרְסִין (בִּרְסִים)",
+      "source_xml": "<entry id=\"B01306\">\n<head-word>בִּרְסִין (בִּרְסִים)</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (birrus, βίῤῥος, v. \n<xref rid=\"B00708\">בִּירוֹס</xref>; formed with a geographical termination, cmp. בִּרְדְּסִין) \n<italic>birrus</italic>, a cloak of thick woolen material.</definition>\n<notes> Kil. IX, 7 (Ms. M. a. Ar. בד'); Y. ib. 32\n<sup>d</sup> top בּוּרְסִין; expl. בריה, v. בִּירְיָא II. Sifré Deut. 234 סדסים read as Yalk. ib. 933 בורס'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4765,
+      "source_id": "jastrow-xml-004765",
+      "canonical_entry_id": "B01307",
+      "headword": "*בַּרְסָם",
+      "source_xml": "<entry id=\"B01307\">\n<head-word>*בַּרְסָם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (Parel of בסם, cmp. בַּלְסָם) \n<italic>a dripping like balsam</italic>, whence \n<italic>catarrh of the head</italic>.</definition>\n<notes> Ḥull. 105\n<sup>b</sup> קשי לב' Ar. (ed. לכ', Mus. כרסום) is liable to produce catarrh; לב' דחמרא וכ' a remedy for a catarrh contracted from drinking the foam of wine, is beer; for thet from beer &amp;c.—Gitt. 69\n<sup>a</sup> לב' a remedy for &amp;c. [Ar.: \n<italic>pleurisy</italic>. Pers. ברסאם, v. Fl. to Levy Talm. Dict. I, p. 228\n<sup>b</sup>.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4766,
+      "source_id": "jastrow-xml-004766",
+      "canonical_entry_id": "B01308",
+      "headword": "ברסנה",
+      "source_xml": "<entry id=\"B01308\">\n<head-word>ברסנה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"K01253\">כַּרְסָנָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4767,
+      "source_id": "jastrow-xml-004767",
+      "canonical_entry_id": "B01309",
+      "headword": "בָּרַץ",
+      "source_xml": "<entry id=\"B01309\">\n<head-word>בָּרַץ</head-word>\n<senses>\n<sense>\n<definition> (√בר; cmp. ברז, v. P. Sm. 618) \n<italic>to break through</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>בֵּרֵץ</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to cut through</italic> from end to end.</definition>\n<notes> Part. Pu. מְבוֹרָץ. Tosef. Kil. III, 10 חריץ המב' a ditch which is cut through, going from end to end of the vineyard (Mish. ib. V, 3 מפולש). Men. I, 2 קמצו מב' the priest’s grasp of the meal offering must be coming forth on both sides.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4768,
+      "source_id": "jastrow-xml-004768",
+      "canonical_entry_id": "B01310",
+      "headword": "בְּרַץ",
+      "source_xml": "<entry id=\"B01310\">\n<head-word>בְּרַץ</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; \n<italic>Pa.</italic> בָּרֵץ \n<italic>to bore</italic>.</definition>\n<notes> Ab. Zar. 59\n<sup>b</sup> ובִירְצוּהָ עד דשייפא Ar. (ed. ובָרצוה) and bore into the keg, until it is emptied (Rashi: bend it towards the bung-hole).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4769,
+      "source_id": "jastrow-xml-004769",
+      "canonical_entry_id": "B01311",
+      "headword": "בַּרְצוּץ",
+      "source_xml": "<entry id=\"B01311\">\n<head-word>בַּרְצוּץ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced., cmp. P. Sm. 618 s. v. \n<xref rid=\"B01309\">ברץ</xref>, a. Ges. H. Dict. s. v. פאר) \n<italic>the crown of the turban</italic>.</definition>\n<notes> Targ. Y. Ex. XXXIX, 28 (h. text פארי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4770,
+      "source_id": "jastrow-xml-004770",
+      "canonical_entry_id": "B01312",
+      "headword": "בַּרְצִיתָא,",
+      "source_xml": "<entry id=\"B01312\">\n<head-word>בַּרְצִיתָא, </head-word>\n<head-word>בֵּי ב'</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Be-Bartsitha</italic>.</definition>\n<notes> M. Kat. 4\n<sup>b</sup> לבי ב' early ed. (late ed. לבני בר ציתאי, Ms. M. בר צרתא, v. Rabb. D. S. a. l.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4771,
+      "source_id": "jastrow-xml-004771",
+      "canonical_entry_id": "B01313",
+      "headword": "בָּרַק",
+      "source_xml": "<entry id=\"B01313\">\n<head-word>בָּרַק</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בר</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"B01335\">ברר</xref>) \n<italic>to be bright, shine, flash</italic>.</definition>\n<notes> B. Bath. 97\n<sup>b</sup> (יין) בּוֹרֵק white effervescent wine (not fully fermented; Var. בּוֹדֵק searching in the bowels, i.e. causing diarrhœa, v. בָּדַק); Tosef. Men. IX, 9 הַבּוֹרֵיק (sub. יין) the effervescent (wine), v. בָּארַג; Yoma 28\n<sup>b</sup> top, v. next w. Tosef. Ter. VII, 16 [read:] ב' והניחו if it was effervescent when he left it.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִבְרִיק</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (cmp. (cmp. ברץ ברח) \n<italic>to cut through from end to end</italic>.</definition>\n<notes> Y. Kil. V, 29\n<sup>d</sup> bot. עד שיהא מַבְרִיק כדי וכ' until it (the ditch in the vineyard) passes through from end to end, wide enough for man and his tilling cattle.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (denom. of בָּרָק) \n<italic>to be affected by lightning, get blind</italic> (or \n<italic>get vermin</italic>).</definition>\n<notes> B. Mets. VI, 3, expl. ib. 78\n<sup>a</sup> אבזקת a. נהוריתא.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4772,
+      "source_id": "jastrow-xml-004772",
+      "canonical_entry_id": "B01314",
+      "headword": "בְּרַק,",
+      "source_xml": "<entry id=\"B01314\">\n<head-word>בְּרַק, </head-word>\n<hw-number>I</hw-number>\n<head-word>בְּרֵיק</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to shine, rise</italic>.</definition>\n<notes> Y. Yoma III, beg. 40\n<sup>b</sup>; Y. R. Hash. II, beg. 57\n<sup>d</sup> what is בורקי (Mish. Yoma III, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes>? It means בָּרֶקֶת, the rising light, as people say in Babylonia (בְּרַק ברוקא) בְּרוּק ברוקה the sparkling (star) shines, meaning אנהר מנהורא the light-giver (morning star) gives light. [Bab. Yoma 28\n<sup>b</sup> (hebr.) בָּרַק ברקאי.] Ber. 59\n<sup>a</sup> (expl. רעמים) ברקא תקיפא דבריק בעננא וכ' an intense lightning which flashes through the cloud and breaks pieces of hailstone, (Var. v. Rabb. D. S. a. l.).</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אַבְרֵיק</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to send forth lightning</italic> (fulminare).</definition>\n<notes> Targ. Ps. CXLIV, 6.—Targ. II Esth. III, 8 מבריקין עיניהון their eyes sparkling (in defiance). [Ḥull. 112\n<sup>a</sup> דאבריק some ed., read דאבריה, v. בְּרָא.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4773,
+      "source_id": "jastrow-xml-004773",
+      "canonical_entry_id": "B01315",
+      "headword": "בָּרָק",
+      "source_xml": "<entry id=\"B01315\">\n<head-word>בָּרָק</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) \n<italic>lightning</italic>.</definition>\n<notes> Lev. R. s. 31.—\n<plural-form>Pl. בְּרָקִים</plural-form>. Ber. IX, 2; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4774,
+      "source_id": "jastrow-xml-004774",
+      "canonical_entry_id": "B01316",
+      "headword": "בְּרַק,",
+      "source_xml": "<entry id=\"B01316\">\n<head-word>בְּרַק, </head-word>\n<hw-number>II</hw-number>\n<head-word>בְּנֵי ב'</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. pl.</pos>\n<italic>B’ne B’rak</italic> (Josh. XIX, 45, modern \n<italic>Ibn Ibrak</italic>) near Japho, seat of R. Akiba’s college.</definition>\n<notes> Snh. 32\n<sup>b</sup>. Lev. R. s. 21. Tosef. Sabb. III (IV), 3.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4775,
+      "source_id": "jastrow-xml-004775",
+      "canonical_entry_id": "B01317",
+      "headword": "בְּרַק,",
+      "source_xml": "<entry id=\"B01317\">\n<head-word>בְּרַק, </head-word>\n<hw-number>III</hw-number>\n<head-word>בַּרְקָא, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<number>1)</number>\n<definition> = h. בָּרָק.</definition>\n<notes> Targ. Deut. XXXII, 41 (Y. II בְּרָקָא); a. fr.—Ber. 59\n<sup>a</sup> ב' יחידאה a single flash (for vers. v. Rabb. D. S. a. l.); a. fr.—\n<plural-form>Pl. בְּרָקִין, בַּרְקִין, בַּרְקַיָּא, בַּרְקֵי</plural-form>. Targ. Ps. XVIII, 15; a. fr. [Y. R. Hash. II, beg. ברק ברקא, read בַּרְקַאי.] Ber. l. c. וברקיא ירוקתא some ed. (read ירוקרקי as Ms. M.). Ib. דבריק ברקי ומנהמי וכ' (read דברוק, v. also Rabb. D. S. a. l.) the lightnings break through and make the clouds rumble &amp;c.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>white cataract</italic> (v. \n<xref rid=\"B01313\">בָּרַק</xref> Hif.), cmp. בַּרְקִית.</definition>\n<notes> Bekh. 38\n<sup>b</sup> וסימנך ברקא \n<pgbrk id=\"pg197\" />and thy sign (by which to remember which of the two affections of the eye is considered a blemish) take \n<italic>barka</italic> (meaning \n<italic>white</italic> and \n<italic>cataract</italic>, and like the cataract is the floating white spot in the eye a disqualifying blemish). V. next w.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4776,
+      "source_id": "jastrow-xml-004776",
+      "canonical_entry_id": "B01318",
+      "headword": "בַּרְקָא,",
+      "source_xml": "<entry id=\"B01318\">\n<head-word>בַּרְקָא, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ברק) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> (adj.) \n<italic>shining, white</italic>.</definition>\n<notes> Snh. 98\n<sup>a</sup> סוסיא ב' a white horse, v. בָּארַג.—\n<plural-form>Pl. בַּרְקֵי</plural-form>. Y. B. Bath. VIII, 16\n<sup>b</sup> top; Y. Kidd. I, 60\n<sup>c</sup> bot. he let him ride אתרי ריכשי ב' on two white steeds (i.e. the donator gave him a doubly fortified document; another opin.: he made him ride on two …, which run in different directions, i.e. the document is invalid; v. explan. ibid., cmp. B. Bath. 152\n<sup>a</sup>, Keth. 55\n<sup>a</sup>. Gitt. 69\n<sup>a</sup> שודרא ב' a string of white hair. Sabb. 67\n<sup>a</sup>; Ab. Zar. 28\n<sup>b</sup> נירא ב' a white thread (of hair).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (as a noun) \n<italic>something white, white thread</italic>.</definition>\n<notes> Ib. וליתוב ב' וכ' and let him put a white thread around one end. Ib. פתילי ב' Ms. M. (ed. פתילתא ביקרא, corr. acc.) strings of white stuff.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4777,
+      "source_id": "jastrow-xml-004777",
+      "canonical_entry_id": "B01319",
+      "headword": "*בַּרְקָא,",
+      "source_xml": "<entry id=\"B01319\">\n<head-word>*בַּרְקָא, </head-word>\n<hw-number>III</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01313\">בָּרַק</xref> Hif.) \n<italic>a compartment near the house with windows on all sides, a kind of piazza</italic>.</definition>\n<notes> Erub. 15\n<sup>a</sup> (Rashi Ms. M. בדקא). B. Bath. 61\n<sup>a</sup> ב' חלילא Ms. M. a. oth. (ed. בדקא; expl. יציע) a piazza open all around.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4778,
+      "source_id": "jastrow-xml-004778",
+      "canonical_entry_id": "B01320",
+      "headword": "בַּרְקַאי,",
+      "source_xml": "<entry id=\"B01320\">\n<head-word>בַּרְקַאי, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>morning star</italic>.</definition>\n<notes> Yoma III, 1; 28\n<sup>b</sup>; v. בְּרַק. [Y. ed. בּוֹרְקַי q. v.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4779,
+      "source_id": "jastrow-xml-004779",
+      "canonical_entry_id": "B01321",
+      "headword": "בַּרְקַאי,",
+      "source_xml": "<entry id=\"B01321\">\n<head-word>בַּרְקַאי, </head-word>\n<hw-number>II</hw-number>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>, v. \n<xref rid=\"B00390\">בּוֹרְקַי II</xref>.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition> כְּפַר ב' \n<italic>K’far Barkai</italic>, in Palestine; cmp. בורגתא.</definition>\n<notes> Pes. 57\n<sup>a</sup>, \n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4780,
+      "source_id": "jastrow-xml-004780",
+      "canonical_entry_id": "B01322",
+      "headword": "ברקום",
+      "source_xml": "<entry id=\"B01322\">\n<head-word>ברקום</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Gen. R. s. 98, read לִיבְדְּקוֹס.—Targ. Cant. II, 1, read נַרְקִיס.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4781,
+      "source_id": "jastrow-xml-004781",
+      "canonical_entry_id": "B01323",
+      "headword": "בַּרְקוּרְיָאנִי",
+      "source_xml": "<entry id=\"B01323\">\n<head-word>בַּרְקוּרְיָאנִי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (disguise of Herculiani, cmp. דּוּרְמוֹס) \n<italic>Herculiani</italic>, a cohort of pretorians named after Diocletian (Heraclius).</definition>\n<notes> Esth. R. to I, 3 יכולני וכ' (read יוֹבְיָינִי); some ed. בר קוריאני (in two words) Joviani and Herculiani. v. Sachs Beitr. I, 113 sq., ref. to Amm. Marc. XXII, 3, 2.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4782,
+      "source_id": "jastrow-xml-004782",
+      "canonical_entry_id": "B01324",
+      "headword": "בַּרְקוּת",
+      "source_xml": "<entry id=\"B01324\">\n<head-word>בַּרְקוּת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01327\">בַּרְקִית</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4783,
+      "source_id": "jastrow-xml-004783",
+      "canonical_entry_id": "B01325",
+      "headword": "בְּרַקִּין",
+      "source_xml": "<entry id=\"B01325\">\n<head-word>בְּרַקִּין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00229\">אַבְרְקִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4784,
+      "source_id": "jastrow-xml-004784",
+      "canonical_entry_id": "B01326",
+      "headword": "בַּרְקִירְיָא",
+      "source_xml": "<entry id=\"B01326\">\n<head-word>בַּרְקִירְיָא</head-word>\n<senses>\n<sense>\n<definition> p. n.</definition>\n<notes> m. \n<italic>Barkirya</italic>, an Amora. Y. Kil. IX, 32\n<sup>d</sup> top; Y. Keth. XII, 35\n<sup>b</sup> bot. בר קריא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4785,
+      "source_id": "jastrow-xml-004785",
+      "canonical_entry_id": "B01327",
+      "headword": "בַּרְקִית",
+      "source_xml": "<entry id=\"B01327\">\n<head-word>בַּרְקִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברק, v. \n<xref rid=\"B01317\">בַּרְקָא I</xref>) \n<italic>cataract of the eye</italic>.</definition>\n<notes> Sabb. 78\n<sup>a</sup> שכן כוחלין לב' for they paint the eye with blood as a remedy for a cataract. Tosef. ib. VI (VII), 7 ברקוּת (Var. ברקי'). V. בְּרַקְתִּי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4786,
+      "source_id": "jastrow-xml-004786",
+      "canonical_entry_id": "B01328",
+      "headword": "בַּרְקָן",
+      "source_xml": "<entry id=\"B01328\">\n<head-word>בַּרְקָן</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m., v. \n<xref rid=\"B00346\">בַּרְקְתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4787,
+      "source_id": "jastrow-xml-004787",
+      "canonical_entry_id": "B01329",
+      "headword": "בַּרְקָנַיָּא",
+      "source_xml": "<entry id=\"B01329\">\n<head-word>בַּרְקָנַיָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> ch. = next w. Targ. Jud. VIII, 7; 16.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4788,
+      "source_id": "jastrow-xml-004788",
+      "canonical_entry_id": "B01330",
+      "headword": "בַּרְקָנִים",
+      "source_xml": "<entry id=\"B01330\">\n<head-word>בַּרְקָנִים</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>thistles</italic>.</definition>\n<notes> Yoma 69\n<sup>a</sup> (quot. fr. Meg. Taan. ch. IX) they dragged them על הקוצים ועל הב' over thorns and thistles.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4789,
+      "source_id": "jastrow-xml-004789",
+      "canonical_entry_id": "B01331",
+      "headword": "בָּרֶקֶת",
+      "source_xml": "<entry id=\"B01331\">\n<head-word>בָּרֶקֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ברק) \n<italic>morning star</italic> (in\n<language-key> b. h. </language-key>\n<italic>a jewel</italic>, v. \n<xref rid=\"A00083\">next w.</xref>).</definition>\n<notes> Y. Yoma III, beg. 40\n<sup>a</sup>; Y. R. Hash. II, beg. 57\n<sup>d</sup>, expl. בּוֹרְקַי; v. בְּרַק I.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4790,
+      "source_id": "jastrow-xml-004790",
+      "canonical_entry_id": "B01332",
+      "headword": "בַּרְקָתָא",
+      "source_xml": "<entry id=\"B01332\">\n<head-word>בַּרְקָתָא</head-word>\n<head-word>בַּרְקָן, </head-word>\n<head-word>בָּרוֹקָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> = b. h. בָּרֶקֶת, \n<italic>a jewel</italic>, prob. \n<italic>smaragd</italic>.</definition>\n<notes> Targ. Ex. XXVIII, 17; a. e. Targ. Ezek. XXVIII, 13. Targ. Cant. V, 14 (ed. Vien. בִּרְקַן, corr. acc.); a. e.—Targ. Y. Num. II, 3 ברוקא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4791,
+      "source_id": "jastrow-xml-004791",
+      "canonical_entry_id": "B01333",
+      "headword": "בַּרְקָתָא",
+      "source_xml": "<entry id=\"B01333\">\n<head-word>בַּרְקָתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B00346\">בּוּרְגָּתָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4792,
+      "source_id": "jastrow-xml-004792",
+      "canonical_entry_id": "B01334",
+      "headword": "בְּרַקְתִּי",
+      "source_xml": "<entry id=\"B01334\">\n<head-word>בְּרַקְתִּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. ch. = h. בַּרְקִית. Pes. 111\n<sup>b</sup> קשה לב' Ar. (ed. לבְרוּקְתִּי) is liable to produce a cataract. Gitt. 69\n<sup>a</sup> top לברוק' a remedy for &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4793,
+      "source_id": "jastrow-xml-004793",
+      "canonical_entry_id": "B01335",
+      "headword": "בָּרַר",
+      "source_xml": "<entry id=\"B01335\">\n<head-word>בָּרַר</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √בר</xref>,\n<xref rid=\"B00041\"> contr. of באר</xref>,\n<xref rid=\"A00083\"> בור)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>to clear, clean; to place outside</italic>, whence] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to make clear, prove, ascertain</italic>.</definition>\n<notes> Keth. 46\n<sup>a</sup> (interpret. Deut. XXII, 17) ובוֹרְרִין את הדבר וכ' and they make the fact as clear (bright) as a new garment.—Part. pass. בָּרוּר q. v.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to single out, select, sift, assort.</italic></definition>\n<notes> Maasr. II, 6 שאָבוֹר לי which I may select for me. Ib. בּוֹרֵר ואוכל he has a right to pick out and eat (one after the other). Kil. II, 1 יָבוֹר he must take it out entirely. Sabb. VII, 2 הבּוֹרֵר he who sifts (a labor forbidden on the Sabbath). Y. ib. VII, 10\n<sup>a</sup>, a. fr. משום בורר (is guilty) because it comes under the class of sifting. Bab. ib. 74\n<sup>a</sup> בורר ואוכל וכ' he may take out singly and eat, take out singly and put it down (rejecting it) ולא יִבְרוֹר but he must not assort (v. discussion ibid.). Gitt. V, 9 לא תָבוֹר she must not help her to sift the grain. Snh. 45\n<sup>a</sup> בְּרוֹר לו וכ' choose for the convict the most gentle method of execution; Sot. 8\n<sup>b</sup>, a. fr.—Snh. III, 1 זה בורר וכ' each party chooses one judge, and the two judges בּוֹרְרִין וכ' elect a third.</notes></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>בֵּרַר, בֵּירַר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to prove, ascertain</italic>.</definition>\n<notes> Snh. 23\n<sup>b</sup> צריך לבָרֵר the claimant must offer clear evidence. Kerith. 24\n<sup>a</sup> לב' עוון to ascertain whether or not the woman was guilty; Num. R. s. 9, v. בָּעַר. Y. Kidd. III, 63\n<sup>d</sup>, v. סִימְפּוֹן. Lev. R. s. 11; v. \n<italic>Nithpa.</italic></notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to sift, select</italic>.</definition>\n<notes> Y. Ber. IX, 13\n<sup>c</sup> top דש זרה ובי' he threshed, winnowed and sifted. Y. Ned. I, beg. 51\n<sup>a</sup> לשונות שביררו להן וכ' the terms (for oaths, vows &amp;c.) which the Mishnahs have selected (as substitutes for the real expressions of oaths &amp;c.); Bab. ib. 10\n<sup>b</sup> שבדו, v. בָּדָא. [Esth. R. to I, 22 [read:] בירר להם בלשון … רומי מלשון יוני interpreted for them (the Bible) in Latin &amp;c., v. בָּדָא. The passage is defective; cmp. Y. Meg. I, 71\n<sup>c</sup> top.] [Y. Snh. X, 28\n<sup>a</sup> בחרו להם ביררו הברזל וכ', read בְּרִיּוּת, they selected (as similes for the Law) the soundness of the iron and the fixedness of the tree; cmp. Num. R. s. 14; Koh. R. to XII, 11.]</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hof.</binyan-name>\n<binyan-form>הוּבְרָר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be cleared up, to be decided</italic> (between two alternatives); v. \n<xref rid=\"B01275\">בְּרֵירָה</xref>.</definition>\n<notes> Bets. 4\n<sup>a</sup> (a hen is bought either for consumption or for breeding) נשחטה הובְרָרָה וכ' by its being killed, it appears that it was originally intended for slaughtering; Ḥull. 14\n<sup>a</sup></notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נִבְרָר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be selected</italic>.</definition>\n<notes> Tanḥ. Sh’laḥ. 4 נִבְרְרוּ צדיקים they were righteous at the time they were selected.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nithpa.</binyan-name>\n<binyan-form>נִתְבָּרֵר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to desire clearness, to seek evidence, search for truth</italic>.</definition>\n<notes> Lev. R. s. 11 (ref. to II Sam. XXII, 26 sq.) בשעה שנ' על עסקיו הק\"בה בירר לו וכ' when he desired to be enlightened about his affairs (asking, ‘Whereby shall I know, Gen. XV, 8), the Lord enlightened him &amp;c. (ib. 13). Ib. בשעה שנ' וכ' (with ref. to Moses); Midr. Till. to Ps. XVIII, 26 sq.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be confirmed, established</italic>.</definition>\n<notes> Tanḥ. \n<pgbrk id=\"pg198\" />T’tsavveh 9, end [read:] נִתְבָּרְרָה כהונה בידם through them the priesthood became established. Pesik. Dibré p. 115\n<sup>b</sup> [read as:] Yalk. Jer. 258 לא נ' … עד שעמד וכ' their prophecies were not fulfilled until Jer. arose.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4794,
+      "source_id": "jastrow-xml-004794",
+      "canonical_entry_id": "B01336",
+      "headword": "בְּרַר",
+      "source_xml": "<entry id=\"B01336\">\n<head-word>בְּרַר</head-word>\n<language-key> ch.;</language-key>\n<senses>\n<sense>\n<definition>\n<italic>Pa.</italic> בָּרֵיר same.</definition>\n<notes> Targ. I Chr. XXI, 13. Targ. Is. I, 25; a. e.—Bekh. 57\n<sup>a</sup> לִיבְרוֹר חד וכ' let him take out (for destruction) one lamb as an equivalent of the dog; v. בְּרֵירָה; Y. Shek. VI, 50\n<sup>b</sup> נברור וכ' let him &amp;c.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְבְּרִיר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be clear, pure</italic>.</definition>\n<notes> Targ. Job XXV, 5.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 4795,
+      "source_id": "jastrow-xml-004795",
+      "canonical_entry_id": "B01337",
+      "headword": "בְּרָרָא",
+      "source_xml": "<entry id=\"B01337\">\n<head-word>בְּרָרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ברר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>pureness, unalloyed metal</italic>.</definition>\n<notes> Y. Shek. VI, 50\n<sup>b</sup>; Y. Yoma IV, 41\n<sup>d</sup> top עד דלא יקום על בְּרָרֵיה וכ' as long as the gold ore is not reduced to its pure state, it looses much in the smelting process; but when once brought to its pure state, nothing is lost.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>clearness, truth</italic>.</definition>\n<notes> Y. Yeb. VIII, 9\n<sup>b</sup> top; XV, 15\n<sup>a</sup> דו משים (מקים) … על ב' because he based the matter on truth (gave a clear decision).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4796,
+      "source_id": "jastrow-xml-004796",
+      "canonical_entry_id": "B01338",
+      "headword": "*ברשאן,",
+      "source_xml": "<entry id=\"B01338\">\n<head-word>*ברשאן, </head-word>\n<head-word>בִּרְשָׁן</head-word>\n<senses>\n<sense>\n<definition>,\n<language-key> Ar. </language-key>(s. v. \n<xref rid=\"B01153\">בר</xref>) בר שאן, \n<italic>in ecstacy</italic>(?); \n<italic>naked</italic>(?).</definition>\n<notes> Targ. I Sam. XIX, 25 (v. Rashi a. l.; h. text ערום; Var. lect. ביישן).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4797,
+      "source_id": "jastrow-xml-004797",
+      "canonical_entry_id": "B01339",
+      "headword": "בְּרַת,",
+      "source_xml": "<entry id=\"B01339\">\n<head-word>בְּרַת, </head-word>\n<hw-number>I</hw-number>\n<head-word>בְּרַתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"B01154\">בַּר II</xref>) \n<italic>daughter, child, issue; young tree</italic>.</definition>\n<notes> Targ. Gen. XXX, 21; a. fr.—B. Bath. 141\n<sup>a</sup> ב' נמי וכ' the Lord did not suffer Abraham to be even without a daughter. M. Kat. 9\n<sup>b</sup> ב' אוכמתא Ms. M., v. אוּכָּם. Y. B. Mets. III, 8\n<sup>c</sup> bot. ב' נוקבה female issue. Lev. R. s. 25 ב' פחין a mean woman.—ב' קלא = בַּת קוֹל.—ב' שבע a species of \n<italic>figs</italic>. Gen. R. s. 15, end (h. בנות שבע). Y. B. Bath. II, end, 13\n<sup>c</sup> ב' שובעין חיורין white figs; a. fr. [For other compounds, v. respective determinants.]—\n<plural-form>Pl. בְּנָן, בְּנָאתָן, בְּנָתָן</plural-form>. [Targ. Y. Ex. X, 9 בְּרַתָנָא our daughters.] Targ. Gen. V, 4; a. fr.—Keth. IV, 11 ב' נוקבין, v. בַּר II. Kidd. 71\n<sup>b</sup> בְּנָתִין our daughters. B. Bath. 141\n<sup>a</sup> לדידי בנתן וכ' I prefer daughters &amp;c.; a. fr.—[Y. Peah VII, 20\n<sup>a</sup> bot. ב' דחרובתא; Y. Sot. I, 17\n<sup>b</sup> top אורתא, v. כְּוַרְתָּא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4798,
+      "source_id": "jastrow-xml-004798",
+      "canonical_entry_id": "B01340",
+      "headword": "בְּרַת,",
+      "source_xml": "<entry id=\"B01340\">\n<head-word>בְּרַת, </head-word>\n<hw-number>II</hw-number>\n<head-word>ב' חווּרן</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>B’rath </italic>\n<italic>Ḥ</italic>\n<italic>avran</italic> (or \n<italic>Horan</italic>) prob. ident. with Beth-Horon, v. \n<xref rid=\"H00464\">חוֹרוֹן</xref>.</definition>\n<notes> Y. M. Kat. I, 80\n<sup>b </sup>bot.; Y. Shek. I, 46\n<sup>a</sup>; Y. Ab. Zar. III, 42\n<sup>c</sup> top; Y. Sot. IX, 23\n<sup>c</sup> top.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4799,
+      "source_id": "jastrow-xml-004799",
+      "canonical_entry_id": "B01341",
+      "headword": "בְּרַתָּא",
+      "source_xml": "<entry id=\"B01341\">\n<head-word>בְּרַתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"B01339\">בְּרַת I</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 4800,
+      "source_id": "jastrow-xml-004800",
+      "canonical_entry_id": "B01342",
+      "headword": "בְּרָתָא,",
+      "source_xml": "<entry id=\"B01342\">\n<head-word>בְּרָתָא, </head-word>\n<head-word>בְּרוֹתָא, </head-word>\n<head-word>בְּרָאתָא</head-word>\n<senses>\n<sense>\n<definition> c. (= h. בְּרוֹשׁ; ברת or ברי, v. pl. בִּרְוַן; √בר, v. ברר) [\n<italic>the chosen</italic> or \n<italic>strong</italic>,] \n<italic>cypress</italic>, or \n<italic>pine-tree</italic>.</definition>\n<notes> Targ. II Esth. II, 7 (transl. of Is. LV, 13). Y. Keth. VII, end, 31\n<sup>d</sup>; Gen. R. s. 15; B. Bath. 80\n<sup>b</sup> בראתא Ms. M. (ed. בְּרָתֵי pl.; for oth. var. v. Rabb. D. S. a. l.); R. Hash. 23\n<sup>a</sup> (transl. ברוש). [Y. Peah VIII, 20\n<sup>d</sup> bot. לְהָן אֲהָן צררא סמך הדא ב' what has this pebble to do near this cypress?—an evasive answer or a rebuke; prob. to be read בִּירְתָא.]—\n<plural-form>Pl. בְּרָתִין, בְּרָתֵי, בְּרָא'</plural-form>. Targ. Cant. I, 17. Targ. Ps. CIV, 17; a. e.—(Fem.) בִּרְוַן, בִּירְוַן, בִּרְוָון. Targ. Is. XLI, 19; a. fr. [Ar. ed. Koh. בִּירְתִין, Targ. II Sam. VI, 5.—Targ. Y. II Num. XXIV, 6 בכריותיה ed., כבריתא Ar., read כבְרָתַיָּא.]</notes></sense></senses></entry>\n"
+    }
+  ]
+}
