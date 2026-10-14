@@ -1,0 +1,50 @@
+{
+  "verbete": {
+    "sid": "A00016",
+    "lemma": "אֵב,",
+    "type": "Substantivo masculino",
+    "gloss": "broto; crescimento; desenvolvimento",
+    "dicionario": "JASTROW",
+    "lote": "011-040",
+    "arquivo": "jastrow-011-040.js"
+  },
+  "fonte": {
+    "edicao": "A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature",
+    "autor": "Marcus Jastrow",
+    "volume": "1 (a confirmar no fac-simile)",
+    "pagina": "a confirmar",
+    "entrada_facsimile": "אֵב, אֵיב, (אוֹב) m.",
+    "url_facsimile": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "url_sefaria": "https://www.sefaria.org/Jastrow",
+    "texto_fonte": "אֵב, אֵיב, (אוֹב) m. (b. h.; אבב) swelling, spreading, whence 1) the young shoots of a tree, opp. to the branches growing directly from the trunk. B. Kam. 81ᵃ אִיבּוֹ של אילן ed. (Ar. a. Ms. חובו, v. חוֹב II, cmp. Rashi a. l.). [Y. Erub. III, 21ᵃ top איבו; Y. Succ. II, 53ᵃ צידו.] — 2) pl. אִבִּין, אִיבִּין state of growth, development. Ḥull. 58ᵃ … Ib. 127ᵇ … Y. Sabb. VII, 10ᶜ bot. … [Tosef. Maasr. I, 4 איבין אדומים, Var. אובין, read אוּגִין, v. אוֹג.] Ib. 5 they differ על האיבין … Ch. v. אִיבָּא I."
+  },
+  "conferencia": {
+    "lematizacao_confere": true,
+    "gloss_completo": true,
+    "exemplos_html_conferidos": true,
+    "variantes_registradas": true,
+    "observacoes": "[NOTA DE COLACAO] Segundo cabeçalho: (אוֹב) אֵיב. Bava Kamma 81a: leitura de edição אִיבּוֹ versus Arukh/manuscrito חובו; a variante de Tosefta Maaserot 1.4 é emendada por Jastrow para אוּגִין.\n\n[CONSULTA REALIZADA — Sefaria] Texto conferido em 2026-10-14. Confere integralmente: 2º cabeçalho (אוֹב) אֵיב, variante Arukh/manuscrito חובו, emenda אוּגִין para Tosef. Maasr. 1.4, refs. B. Kam. 81ᵃ; Ḥull. 58ᵃ e 127ᵇ; Y. Sabb. VII, 10ᶜ. Nenhuma correção necessária.\n\n[PENDENTE] Confirmar vol./pág. no fac-símile (archive.org)."
+  },
+  "correcoes_aplicadas": [],
+  "regressao": {
+    "textual": null,
+    "filologica": null,
+    "funcional": null,
+    "comandos_executados": []
+  },
+  "estado": "AGUARDANDO_INTEGRACAO",
+  "pr_merge": null,
+  "data": "2026-10-14",
+  "kit_auditoria": {
+    "fonte_primaria": "Jastrow 1903, 2 vols (Luzac / Putnam)",
+    "url_sefaria_base": "https://www.sefaria.org/Jastrow",
+    "url_facsimile_base": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "instrucoes": [
+      "1. Consultar a entrada no Sefaria (buscar pelo lemma).",
+      "2. Confirmar contra o fac-simile no archive.org (vol. 1 ou 2).",
+      "3. Preencher os campos de conferencia.",
+      "4. Executar regressao textual, filologica e funcional.",
+      "5. Marcar estado final e registrar PR."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "verbete": {
+    "sid": "A00013",
+    "lemma": "אָב,",
+    "type": "Nome de mês",
+    "gloss": "av; quinto mês judaico",
+    "dicionario": "JASTROW",
+    "lote": "011-040",
+    "arquivo": "jastrow-011-040.js"
+  },
+  "fonte": {
+    "edicao": "A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature",
+    "autor": "Marcus Jastrow",
+    "volume": "1 (a confirmar no fac-simile)",
+    "pagina": "1 (a confirmar no fac-simile)",
+    "entrada_facsimile": "אָב I (nome de mês)",
+    "url_facsimile": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "url_sefaria": "https://www.sefaria.org/Jastrow",
+    "texto_fonte": "אָב I (Assyr. A-bu, Schr. K. A. T., p. 247) Ab, the fifth month of the Jewish calendar (of thirty days) beginning between the eighth of July and the seventh of August, and ending between the sixth of August and the fifth of September. R. Hash. I, 3, על אב וכ׳ for announcing the beginning of Ab messengers are sent out, for the sake of the fast. Ib. 18ᵇ ט׳ באב the ninth of Ab, anniversary of Temple destruction. Taan. IV, 6 משנכנס אב with the beginning of Ab. Ib. 29ᵇ לישתמיט מיניה באב let him try to be relieved of (the law-suit) in Ab. Meg. 5ᵇ; a. e."
+  },
+  "conferencia": {
+    "lematizacao_confere": true,
+    "gloss_completo": true,
+    "exemplos_html_conferidos": true,
+    "variantes_registradas": true,
+    "observacoes": "[NOTA DA FONTE] Jastrow relaciona o nome ao assírio A-bu e remete a Schr., K. A. T., p. 247; essa referência histórica não constitui aqui verificação independente da etimologia.\n\n[CONSULTA REALIZADA — Sefaria] Texto conferido em 2026-10-14. Confere integralmente: origem assíria A-bu, ref. Schr. K.A.T. p. 247, refs. RH 1.3, 18ᵇ, Taan 4.6 e 29ᵇ, Meg 5ᵇ. Datas civis conferem. Nenhuma correção necessária.\n\n[PENDENTE] Confirmar vol./pág. no fac-símile."
+  },
+  "correcoes_aplicadas": [],
+  "regressao": {
+    "textual": null,
+    "filologica": null,
+    "funcional": null,
+    "comandos_executados": []
+  },
+  "estado": "AGUARDANDO_INTEGRACAO",
+  "pr_merge": null,
+  "data": "2026-10-14",
+  "kit_auditoria": {
+    "fonte_primaria": "Jastrow 1903, 2 vols (Luzac / Putnam)",
+    "url_sefaria_base": "https://www.sefaria.org/Jastrow",
+    "url_facsimile_base": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "instrucoes": [
+      "1. Consultar a entrada no Sefaria (buscar pelo lemma).",
+      "2. Confirmar contra o fac-simile no archive.org (vol. 1 ou 2).",
+      "3. Preencher os campos de conferencia.",
+      "4. Executar regressao textual, filologica e funcional.",
+      "5. Marcar estado final e registrar PR."
+    ]
+  }
+}
