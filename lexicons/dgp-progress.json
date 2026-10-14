@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 22991,
-    "status": "Lotes DGP 1–278 incorporados; 22990 registros XML no manifesto; próxima entrada 22991. Somente incorporação.",
+    "next_ordinal": 23001,
+    "status": "Lotes DGP 1–279 incorporados; 23000 registros XML no manifesto; próxima entrada 23001. Somente incorporação.",
     "current_letter": "κ",
     "total_dictionary_entries": 44590
   },
@@ -2517,6 +2517,15 @@
       "start_entry": "κεκράκτης, ου (ὁ)",
       "end_entry": "κένωμα, ατος (τό)",
       "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 279,
+      "start_ordinal": 22991,
+      "end_ordinal": 23000,
+      "start_entry": "κενῶς",
+      "end_entry": "κεραΐζω",
+      "entry_count": 10,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
   ],
