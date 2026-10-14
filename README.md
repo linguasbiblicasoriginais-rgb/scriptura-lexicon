@@ -1,3 +1,9 @@
+## THAYER — quinto lote: 56/100 fichas digitais (14/10/2026)
+
+A branch `chat-gpt-thayer` passou de **450 para 456 registros digitais de trabalho**, com **seis novos cabeçalhos fotografados** em `lexicons/thayer-source-facsimile-041.json` e seu módulo `lexicons/thayer-batch-041-facsimile.js`, ativado no `index.html`. Intervalo **ἀνευρίσκω → ἀνήμερος**, páginas impressas **44–45** (folhas PDF **68–69**). **Próximo: ἀνήρ**, p. 45. O checkpoint foi atualizado para 56/100 do quinto lote.
+
+A verificação estática dos módulos 033–040 encontrou 100 registros, 100 linhas e 100 cartões (IDs 0351–0450), com correspondência de `data-target`/`id`, sem duplicidades internas. As seis novas fichas também têm pares correspondentes; **não houve auditoria filológica formal nem teste em navegador**. Seu texto português consiste em **análises preliminares**, e o campo inglês `source_english_full` está **deliberadamente vazio**: a leitura integral da fotografia permanece pendente, e nenhuma transcrição de terceiros foi usada para preencher essa camada. Assim, **456 não equivale a 456 traduções completas, certificadas ou homologadas**. Não houve PR/merge nem escrita em `main`.
+
 ## THAYER — quinto lote: 50/100 fichas digitais (14/10/2026)
 
 O ciclo retomou o checkpoint real de **400** e incorporou **50 novos artigos tipográficos**, da entrada **ἀναπολόγητος** até **ἀνεύθετος**, nas páginas impressas **41–44** (folhas PDF **65–68**) do fac-símile. O total acumulado da branch exclusiva `chat-gpt-thayer` é **450 registros digitais de trabalho**, equivalente a **50/100 no quinto lote**. **Próximo lema: ἀνευρίσκω**, página impressa **44**. O arquivo operacional de referência é `lexicons/thayer-progress.json`.
