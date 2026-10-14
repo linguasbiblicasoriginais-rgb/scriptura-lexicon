@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 37601,
-    "status": "Lotes DGP 1–425 incorporados; 37600 registros XML no manifesto; próxima entrada 37601. Somente incorporação.",
+    "next_ordinal": 37701,
+    "status": "Lotes DGP 1–426 incorporados; 37700 registros XML no manifesto; próxima entrada 37701. Somente incorporação.",
     "current_letter": "σ",
     "total_dictionary_entries": 44590
   },
@@ -3839,6 +3839,15 @@
       "end_ordinal": 37600,
       "start_entry": "στρατηγία, ας (ἡ)",
       "end_entry": "Στύγιος, α",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 426,
+      "start_ordinal": 37601,
+      "end_ordinal": 37700,
+      "start_entry": "στυγνάζω",
+      "end_entry": "συγκαταδουλόω-ῶ",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
