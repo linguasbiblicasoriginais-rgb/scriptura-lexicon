@@ -2193,19 +2193,10 @@ themeInputs.forEach(function (input) {
     });
 });
 
-// Consolida eventos de digitação no próximo quadro de renderização.
-// Evita varrer todos os verbetes várias vezes no mesmo frame.
-let pendingSearchFrame = 0;
-function scheduleFilterEntries() {
-    if (pendingSearchFrame) {
-        cancelAnimationFrame(pendingSearchFrame);
-    }
-    pendingSearchFrame = requestAnimationFrame(function () {
-        pendingSearchFrame = 0;
-        filterEntries();
-    });
-}
-searchInput.addEventListener("input", scheduleFilterEntries);
+// Atualiza a pesquisa no próprio evento input, para que a linha esteja
+// imediatamente disponível a navegação, leitores de tela e testes.
+// O índice por dicionário e o cache de normalização limitam o custo.
+searchInput.addEventListener("input", filterEntries);
 
 sourceFilter.addEventListener("change", function () {
     syncSourceCombobox();
