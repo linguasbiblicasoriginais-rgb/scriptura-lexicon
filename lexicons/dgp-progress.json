@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 34001,
-    "status": "Lotes DGP 1–389 incorporados; 34000 registros XML no manifesto; próxima entrada 34001. Somente incorporação.",
+    "next_ordinal": 34101,
+    "status": "Lotes DGP 1–390 incorporados; 34100 registros XML no manifesto; próxima entrada 34101. Somente incorporação.",
     "current_letter": "π",
     "total_dictionary_entries": 44590
   },
@@ -3515,6 +3515,15 @@
       "end_ordinal": 34000,
       "start_entry": "ποτανός",
       "end_entry": "πρέσβευμα, ατος (τό)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 390,
+      "start_ordinal": 34001,
+      "end_ordinal": 34100,
+      "start_entry": "πρέσβευσις, εως (ἡ)",
+      "end_entry": "προανοίγω",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
