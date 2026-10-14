@@ -4,23 +4,25 @@
   "total_lotes": 170,
   "tamanho_lote": 100,
   "ultima_avaliacao": {
-    "lote": 1,
-    "inicio": 1,
-    "fim": 100,
-    "arquivo": "revisoes/jastrow-traducao/avaliacao-lote-0001-00001-00100.json"
-  },
-  "proximo_lote": {
     "lote": 2,
     "inicio": 101,
     "fim": 200,
-    "arquivo": "revisoes/jastrow-traducao/lote-0002-00101-00200.json"
+    "arquivo": "revisoes/jastrow-traducao/avaliacao-lote-0002-00101-00200.json"
+  },
+  "proximo_lote": {
+    "lote": 3,
+    "inicio": 201,
+    "fim": 300,
+    "arquivo": "revisoes/jastrow-traducao/lote-0003-00201-00300.json"
   },
   "progresso_avaliacao_de_lingua": {
-    "lotes_examinados": 1,
-    "verbetes_examinados": 100,
-    "problemas_de_ingles_confirmados_nesses_lotes": 0,
-    "lotes_restantes": 169,
-    "verbetes_restantes": 16900
+    "lotes_examinados": 2,
+    "verbetes_examinados": 200,
+    "problemas_de_ingles_confirmados_nesses_lotes": 3,
+    "lotes_restantes": 168,
+    "verbetes_restantes": 16800,
+    "problemas_de_ingles_nas_glosas": 0,
+    "problemas_de_ingles_residual_em_notas": 3
   },
   "inventario_global_inicial": {
     "ingles_marcado": 2046,
@@ -28,5 +30,11 @@
     "problemas_comprovados_minimos": 2055,
     "contagem_exata_definitiva": null
   },
-  "nota_metodologica": "O inventário global de 2.055 problemas conhecidos não deve ser somado ao contador dos lotes avaliados, pois inclui registros futuros a avaliar; usar contagem sem duplicações por SID. Avaliação de equivalência semântica integral permanece pendente."
+  "nota_metodologica": "O inventário global de 2.055 problemas conhecidos não deve ser somado ao contador dos lotes avaliados, pois inclui registros futuros a avaliar; usar contagem sem duplicações por SID. Avaliação de equivalência semântica integral permanece pendente.",
+  "inventario_global_atualizado": {
+    "minimo_comprovado_sem_duplicacoes": 2058,
+    "problemas_conhecidos_antes_da_revisao": 2055,
+    "novos_problemas_no_lote_2": 3,
+    "observacao": "Somar somente IDs distintos. O subtotal global inclui 2046 marcações de inglês e 9 ocorrências prévias não marcadas, mais 3 trechos ingleses em notas do lote 2."
+  }
 }
