@@ -137,6 +137,11 @@ for (const record of records) {
 }
 records.length = 0;
 records.push(...unique.values());
+const collisionKinds = {};
+for (const item of collisions) collisionKinds[item.kind] = (collisionKinds[item.kind] || 0) + 1;
+console.log("Diagnóstico das colisões:", JSON.stringify({
+    total:collisions.length, byKind:collisionKinds, samples:collisions.slice(0,25)
+}));
 if (collisions.length > 5000) throw Error("Colisões/lacunas acima do limite esperado: " + collisions.length);
 if (collisions.length) {
     console.warn("Colisões de ID do legado: " + collisions.length,
