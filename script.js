@@ -101,7 +101,6 @@ const searchCount = document.getElementById("search-count");
 const rowsByDictionary = new Map();
 const normalizedSearchCache = new WeakMap();
 let openedEntryCard = null;
-let searchInputTimer = null;
 
 // Índices de apresentação, sem alteração do conteúdo dos verbetes.
 searchRows.forEach(function (row) {
@@ -2176,10 +2175,8 @@ themeInputs.forEach(function (input) {
     });
 });
 
-searchInput.addEventListener("input", function () {
-    clearTimeout(searchInputTimer);
-    searchInputTimer = setTimeout(filterEntries, 120);
-});
+// Respostas imediatas; a cache evita normalização repetida.
+searchInput.addEventListener("input", filterEntries);
 
 sourceFilter.addEventListener("change", function () {
     syncSourceCombobox();
