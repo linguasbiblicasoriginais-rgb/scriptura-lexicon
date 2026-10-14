@@ -1,0 +1,22 @@
+{
+  "source": "DGP",
+  "branch": "chat-gpt-dgp",
+  "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+  "source_blob_alpha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+  "cause": "Missing loaded ordinal range 141-1630 while existing canonical manifest already declares these entries",
+  "canonical_manifest_entries": 27000,
+  "initial_missing_entries": 1490,
+  "recovery_target_this_request": 745,
+  "recovered_entries": 100,
+  "remaining_missing_entries": 1390,
+  "recovered_range": {
+    "start": 141,
+    "end": 240
+  },
+  "pending_range": {
+    "start": 241,
+    "end": 1630
+  },
+  "next_recovery_ordinal": 241,
+  "action_scope": "Only missing DGP content recovery; no audit, homologation, PR or integration."
+}
