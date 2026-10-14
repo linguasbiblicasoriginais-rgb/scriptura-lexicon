@@ -8,9 +8,9 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 44001,
-    "status": "Lotes DGP 1–489 incorporados; 44000 registros XML no manifesto; próxima entrada 44001. Somente incorporação.",
-    "current_letter": "χ",
+    "next_ordinal": 44591,
+    "status": "DGP integralmente incorporado: lotes 1–495; 44590 registros XML no manifesto. Somente incorporação; auditoria, homologação e integração não executadas.",
+    "current_letter": "ω",
     "total_dictionary_entries": 44590
   },
   "batches": [
@@ -4416,6 +4416,60 @@
       "start_entry": "χρονικός, ή, όν",
       "end_entry": "χρωματικός, ή, όν",
       "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 490,
+      "start_ordinal": 44001,
+      "end_ordinal": 44100,
+      "start_entry": "χρώννυμι",
+      "end_entry": "ψάω-ῶ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 491,
+      "start_ordinal": 44101,
+      "end_ordinal": 44200,
+      "start_entry": "ψέγω",
+      "end_entry": "ψιχίον, ου (τό)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 492,
+      "start_ordinal": 44201,
+      "end_ordinal": 44300,
+      "start_entry": "ψίω",
+      "end_entry": "ὤθετο",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 493,
+      "start_ordinal": 44301,
+      "end_ordinal": 44400,
+      "start_entry": "ὠθέω-ῶ",
+      "end_entry": "ὤνεμος",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 494,
+      "start_ordinal": 44401,
+      "end_ordinal": 44500,
+      "start_entry": "ὠνέομαι",
+      "end_entry": "ὠρωρύγμην, ὠρωρύχειν",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 495,
+      "start_ordinal": 44501,
+      "end_ordinal": 44590,
+      "start_entry": "ὥς1",
+      "end_entry": "ᾠῶν",
+      "entry_count": 90,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
   ],
