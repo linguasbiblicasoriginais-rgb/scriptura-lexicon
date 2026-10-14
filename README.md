@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva do lote 322 (14/10/2026)
+
+Publicados **100 registros XML** consecutivos, ordinais **27201–27300**, de **μιμητικῶς** até **μισοπονία, ας (ἡ)**, provenientes de XML μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27300 / 44.590**; próximo ordinal **27301**. Fragmentos preservados; sem auditoria formal, homologação, PR ou integração.
+
 ## DGP — incorporação exclusiva do lote 321 (14/10/2026)
 
 Publicados **100 registros XML** consecutivos, ordinais **27101–27200**, de **μητραγύρτης, ου (ὁ)** até **μιμητικός, ή, όν**, provenientes de XML μ, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **27200 / 44.590**; próximo ordinal **27201**. Fragmentos preservados; sem auditoria formal, homologação, PR ou integração.
