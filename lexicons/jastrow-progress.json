@@ -9,19 +9,19 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 1000,
-    "next_ordinal": 2601,
-    "next_source_id": "A02600",
-    "next_lemma": "אָפָא",
+    "next_ordinal": 2801,
+    "next_source_id": "A02800",
+    "next_lemma": "אפרדוכסוס",
     "source_records_retrieved": 3000,
     "first_source_id": "A00000",
     "last_source_id": "A02999",
     "next_source_batch_ordinal": 3001,
     "next_source_batch_id": "A03000",
     "next_source_batch_lemma": "אַרְדָּא,",
-    "total_published": 2600,
+    "total_published": 2800,
     "total_audited": 0,
     "total_integrated": 1000,
-    "editorial_status": "2.600 verbetes editoriais JASTROW publicados; 600 nesta execução; apenas incorporação.",
+    "editorial_status": "2.800 verbetes editoriais JASTROW publicados; 800 nesta execução; apenas incorporação.",
     "source_status": "3.000 registros originais preservados, com 2.200 sínteses editoriais publicadas.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
@@ -372,15 +372,32 @@
         "lexicons/jastrow-2501-2600.js"
       ],
       "status": "Sínteses portuguesas incorporadas sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 19,
+      "source_start_ordinal": 2601,
+      "source_end_ordinal": 2800,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0014.json",
+      "translated_start_ordinal": 2601,
+      "translated_end_ordinal": 2800,
+      "translated_count": 200,
+      "translated_first_id": "A02600",
+      "translated_last_id": "A02799",
+      "translated_files": [
+        "lexicons/jastrow-2601-2700.js",
+        "lexicons/jastrow-2701-2800.js"
+      ],
+      "status": "Sínteses portuguesas incorporadas sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
     "date": "2026-10-13",
     "requested": 1000,
-    "new_translations_committed": 600,
+    "new_translations_committed": 800,
     "prior_published": 2000,
-    "total_published": 2600,
-    "new_range": "A02000–A02599",
+    "total_published": 2800,
+    "new_range": "A02000–A02799",
     "audit_performed": false,
     "homologation_performed": false,
     "integration_performed": false
