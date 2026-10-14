@@ -1,3 +1,161 @@
+## Integração THAYER — resolução conservadora do PR #127 (14/10/2026)
+
+O conflito entre `chat-gpt-thayer` e `chat-gpt-commits` foi conciliado sem descartar os avanços atuais dos demais léxicos. A interface ativa THAYER passou a usar os módulos do reinício fotográfico; os arquivos anteriores de auditoria e os módulos legados não carregados permanecem no repositório como histórico, sem constituir homologação dos novos artigos. O fluxo de auditoria automatizada legada do THAYER foi desativado, pois tinha escopo anterior ao reinício. O verbete `Α, α, ἄλφα` mantém o cabeçalho e o texto fornecido pelo mantenedor. Esta integração resolve conflitos de versionamento, não realiza auditoria filológica geral nem implica merge em `main`.
+
+## THAYER — auditoria do idioma de 500 cartões (14/10/2026)
+
+Foram inspecionados os **46 módulos THAYER**, com **500 cartões em português** e **443 parágrafos de OCR inglês anteriormente visíveis**. O novo script `lexicons/thayer-portugues-ui.js`, carregado após os módulos e antes de `script.js`, oculta esses parágrafos da apresentação sem excluir o texto original dos arquivos JSON. A verificação preserva a linha de base mínima de 500 cartões e 443 blocos e permite incorporar lotes posteriores, que exigirão nova auditoria própria. Detalhes: [auditoria de idioma](auditorias/thayer-2026-10-14-idioma-500.md).
+
+**Verificação sintática:** a regra de remoção foi aplicada ao HTML dos 500 cartões: **443 blocos de OCR removidos, 0 remanescentes e 500 cartões preservados**. Isso não equivale a teste visual em navegador.
+
+**Precisão filológica:** isso atende especificamente à retirada do OCR inglês da interface; **não certifica que os 500 artigos tenham traduções portuguesas integrais**. Muitos ainda são resumos de trabalho e exigem conferência de todas as acepções, formas, referências e observações contra o fac-símile.
+
+## THAYER — quinto lote digital concluído: 500 registros (14/10/2026)
+
+Foram acrescentadas **15 fichas** (IDs `0486–0500`) dos verbetes **ἀνταγωνίζομαι** a **ἀντικαθίστημι**, páginas impressas **49–50** (folhas PDF **73–74**). Documentos de fonte e apresentação: `lexicons/thayer-source-facsimile-046.json` e `lexicons/thayer-batch-046-facsimile.js`, este ativado pelo `index.html`. O checkpoint alcançou **500 fichas digitais**, completando a meta nominal de **100/100 na quinta centena**. **Próximo lema: ἀντικαλέω**.
+
+As fotografias foram examinadas em ampliação para conferir cabeçalhos e limites dos artigos. Foram mantidos indivisíveis `ἀντί` e `ἀνταναπληρόω`; o último conserva como atribuídas as posições exegéticas discutidas por Thayer. **Ressalva indispensável:** as 500 fichas são material editorial de trabalho, não 500 transcrições inglesas integrais ou traduções portuguesas diplomaticamente revistas. O campo inglês dos 15 novos registros permanece vazio até transcrição confiável. A colação filológica, variantes, autoridades e testes no navegador ainda estão pendentes. Não ocorreu PR/merge nem escrita em `main` ou em outros léxicos.
+
+## THAYER — quinta centena 85/100, 485 registros (14/10/2026)
+
+Esta continuação incorporou **9 artigos tipográficos**, de **ἀνοίγω** a **ἀνοχή** (IDs `0477–0485`), em fonte `lexicons/thayer-source-facsimile-045.json` e interface `lexicons/thayer-batch-045-facsimile.js` carregada pelo `index.html`. Páginas impressas **48–49**, folhas PDF **72–73**. **Próximo lema: ἀνταγωνίζομαι**, p. 49. O acumulado é **485 fichas digitais de trabalho** e o quinto lote atingiu **85/100**.
+
+O texto de ἀνοίγω conserva formas verbais e agrupamentos de usos físicos e figurados sem criar subverbetes artificiais. `ἄνομος` separa corretamente a ausência neutra da Lei mosaica da acepção moral «transgressor». As traduções são **analíticas e provisórias**; não representam transcrição integral em inglês nem colação/homologação filológica. A fotografia enviada governa os cabeçalhos e sua ordem; transcrições eletrônicas foram usadas somente como auxílio de decifração. Nenhuma alteração nos demais léxicos, PR, merge ou escrita em `main`.
+
+## THAYER — 476 fichas, quinto lote 76/100 (14/10/2026)
+
+O ciclo acrescentou cinco verbetes consecutivos **ἀνίστημι → ἄνοια**, IDs **0472–0476**, com base nos cabeçalhos das páginas impressas **47–48**, folhas PDF **71–72**. O próximo lema é **ἀνοίγω**. Os arquivos `lexicons/thayer-source-facsimile-044.json` e `lexicons/thayer-batch-044-facsimile.js` mantêm separado o texto de trabalho em português da camada inglesa ainda não transcrita; o novo script está ativado em `index.html`.
+
+**Limitações:** esta é incorporação digital provisória, e **não transcrição inglesa integral nem tradução portuguesa diplomaticamente colacionada**. A tradução de ἀνίστημι mantém estrutura transitiva/intransitiva sem partir o artigo; o registro de Ἄννας distingue interpretações históricas atribuídas a Thayer. A prioridade editorial permanece a fotografia, com quaisquer transcrições digitais subordinadas a simples auxílio de leitura. Não houve homologação, auditoria filológica formal, PR, merge ou escrita em `main`.
+
+## THAYER — 471 fichas digitais, quinto lote 71/100 (14/10/2026)
+
+Nova incorporação de **seis cabeçalhos** de **ἄνθρωπος** até **ἄνιπτος**, conforme consulta ao fac-símile fotografado de Thayer (páginas impressas **46–47**, folhas PDF **70–71**). O artigo **ἄνθρωπος** é mantido como unidade indivisível. Documentos de fonte e apresentação: `lexicons/thayer-source-facsimile-043.json` e `lexicons/thayer-batch-043-facsimile.js`; script carregado no `index.html`; checkpoint atualizado para **471**, 71/100 da quinta centena. Próximo lema: **ἀνίστημι**.
+
+**Limitações documentais:** as fichas registram **sinopses editoriais portuguesas provisórias**, não transcrições inglesas diplomáticas nem traduções integrais; o campo inglês está vazio, sem substituição por fontes eletrônicas de terceiros. A colação das subdivisões, das variantes e das referências impressas permanece pendente. A verificação aqui é exclusivamente estrutural, não homologação filológica. Não há PR/merge nem escrita em `main`.
+
+## THAYER — 465 fichas digitais, quinto lote 65/100 (14/10/2026)
+
+A continuação de 456 incorporou **nove cabeçalhos** de **ἀνήρ** até **ἀνθρωποκτόνος**, nas páginas impressas **45–46** (folhas PDF **69–70**). Fonte JSON: `lexicons/thayer-source-facsimile-042.json`; apresentação: `lexicons/thayer-batch-042-facsimile.js`, ativado no `index.html`. Checkpoint: **465**, próximo artigo indivisível **ἄνθρωπος**, página 46. Contagem documental: **65/100** do quinto lote.
+
+**Limitação crítica:** as nove fichas têm **traduções analíticas de trabalho, não integrais**, com o inglês **deliberadamente não transcrito**; suas referências e minúcias de acepções/variantes demandam cotejo. A delimitação de `ἄνθραξ` na virada 45–46 ainda exige revisão em ampliação. A validação desta rodada é estrutural, não homologação nem auditoria filológica formal. Nada foi mesclado com `chat-gpt-commits`; `main` e outros léxicos permaneceram intocados.
+
+## THAYER — quinto lote: 56/100 fichas digitais (14/10/2026)
+
+A branch `chat-gpt-thayer` passou de **450 para 456 registros digitais de trabalho**, com **seis novos cabeçalhos fotografados** em `lexicons/thayer-source-facsimile-041.json` e seu módulo `lexicons/thayer-batch-041-facsimile.js`, ativado no `index.html`. Intervalo **ἀνευρίσκω → ἀνήμερος**, páginas impressas **44–45** (folhas PDF **68–69**). **Próximo: ἀνήρ**, p. 45. O checkpoint foi atualizado para 56/100 do quinto lote.
+
+A verificação estática dos módulos 033–040 encontrou 100 registros, 100 linhas e 100 cartões (IDs 0351–0450), com correspondência de `data-target`/`id`, sem duplicidades internas. As seis novas fichas também têm pares correspondentes; **não houve auditoria filológica formal nem teste em navegador**. Seu texto português consiste em **análises preliminares**, e o campo inglês `source_english_full` está **deliberadamente vazio**: a leitura integral da fotografia permanece pendente, e nenhuma transcrição de terceiros foi usada para preencher essa camada. Assim, **456 não equivale a 456 traduções completas, certificadas ou homologadas**. Não houve PR/merge nem escrita em `main`.
+
+## THAYER — quinto lote: 50/100 fichas digitais (14/10/2026)
+
+O ciclo retomou o checkpoint real de **400** e incorporou **50 novos artigos tipográficos**, da entrada **ἀναπολόγητος** até **ἀνεύθετος**, nas páginas impressas **41–44** (folhas PDF **65–68**) do fac-símile. O total acumulado da branch exclusiva `chat-gpt-thayer` é **450 registros digitais de trabalho**, equivalente a **50/100 no quinto lote**. **Próximo lema: ἀνευρίσκω**, página impressa **44**. O arquivo operacional de referência é `lexicons/thayer-progress.json`.
+
+**Arquivos de fonte:** `lexicons/thayer-source-facsimile-037.json` (8 registros), `038.json` (8), `039.json` (14) e `040.json` (20). **Apresentação:** `lexicons/thayer-batch-037-facsimile.js` a `040-facsimile.js`, ativados no `index.html`. As fontes têm campos distintos para a grafia/posição no impresso, texto bruto OCR oriundo da própria fotografia, referências e análise/tradução portuguesa. Os artigos extensos **ἀνάστασις**, **ἀναστρέφω**, **ἀναφέρω** e **ἄνεμος** foram mantidos como unidades lexicais, sem dividir suas acepções para elevar a contagem. A distinção **ἀνεξερεύνητος/ἀνεξιχνίαστος** foi preservada em cabeçalhos independentes. Na revisão, o item **0429** foi corrigido de `ἀνδρίζομαι` para o cabeçalho impresso **ἀνδρίζω**, mantendo a forma médio-passiva na informação morfológica.
+
+**Limite de evidência:** os 450 registros são **fichas digitais preliminares de tradução analítica**, não 450 transcrições inglesas integrais colacionadas ou traduções portuguesas certificadas. O OCR fotográfico em grego pode apresentar falhas e não se sobrepõe ao fac-símile original. Essa etapa não inclui auditoria filológica completa, homologação, PR ou merge, nem alterações na `main`.
+
+## THAYER — quarto lote de 100 fichas concluído (14/10/2026)
+
+A branch `chat-gpt-thayer` possui agora **400 fichas digitais de trabalho** desde o reinício a partir do fac-símile fotográfico de Thayer. O quarto lote de 100 encerrou-se na página impressa **41** (folha PDF **65**) com **50 novos cabeçalhos** nesta continuação: de **ἀναίδεια** até **ἀναπληρόω**, nas páginas impressas **38–41** (folhas PDF **62–65**). **Próxima entrada: ἀναπολόγητος**, ainda na página impressa 41. O arquivo de estado é `lexicons/thayer-progress.json`.
+
+**Fontes do avanço:** `lexicons/thayer-source-facsimile-033.json` (12 artigos), `034.json` (15), `035.json` (16), `036.json` (7). Os módulos `lexicons/thayer-batch-033-facsimile.js` a `036-facsimile.js` adicionam linhas de busca e cartões; estão habilitados em `index.html`. O OCR bruto **extraído das fotografias** está preservado nos JSONs e, para os módulos 033–035, também nos cartões; no módulo 036 o cartão remete ao JSON, que conserva o OCR integral. O próprio impresso continua sendo a autoridade para cada leitura grega e cada divisão de artigo. Variantes e remissões impressas, incluindo **[ἀναλόω]**, **[ἀνὰ μέρος]** e **[ἀνὰ μέσον]**, são tratadas como cabeçalhos quando o impresso lhes dá linha própria; **ἀνάπειρος** é registrado como grafia textual que Thayer contesta em favor de **ἀνάπηρος**. Artigos longos e notas de sinônimos foram mantidos dentro dos respectivos verbetes, não contabilizados isoladamente.
+
+**Natureza do trabalho:** as traduções portuguesas são **analíticas e preliminares**, não transcrições diplomáticas inglesas integrais ou traduções portuguesas colacionadas exaustivamente contra todas as linhas impressas. Há erros reconhecidos no OCR e diferenças editoriais que ainda exigem colação filológica. A meta de 400 refere-se a cartões digitais organizados pela fonte fotográfica, **não** a 400 artigos certificados. Nenhuma auditoria formal, homologação, PR, merge nem escrita em `main` foi realizada nesta continuação. Durante a publicação do módulo 036, a primeira chamada de escrita foi bloqueada; foi verificada a ausência do arquivo remoto antes da nova tentativa, que retornou commit efetivo.
+
+## THAYER — quarto lote, 50/100 fichas fotográficas (14/10/2026)
+
+A branch `chat-gpt-thayer` registra **350 fichas digitais de trabalho** desde o reinício: **50 novas entradas**, de **Ἀμπλιᾶτος** a **ἀνάθημα**, com base exclusiva na ordem dos cabeçalhos do **fac-símile fotográfico** de Thayer, páginas impressas **32–38** (folhas PDF **56–62**). O quarto lote está em **50/100**; **próximo cabeçalho: ἀναίδεια**, na p. 38. O progresso operacional reside em `lexicons/thayer-progress.json`.
+
+Fontes de trabalho: `lexicons/thayer-source-facsimile-028.json` (18 artigos), `029.json` (9), `030.json` (11), `031.json` (10) e `032.json` (2). Apresentação: `lexicons/thayer-batch-028-facsimile.js` a `032-facsimile.js`, todos ativados em `index.html`. Esses arquivos registram separadamente lema, classificação, acepções e referências em português, bem como **OCR bruto derivado da imagem fotográfica**. A fonte impressa prevalece sobre o OCR e sobre eventuais transcrições eletrônicas; Strong não é fonte de determinação do cabeçalho. A remissão Ἀμπλίατος é distinta de Ἀμπλιᾶτος por ter cabeçalho próprio; as formas textuais internas não geram entradas adicionais. Artigos longos como ἄν, ἀνά, ἀναβαίνω, ἀνάγκη e ἀνάθεμα conservam a unidade do verbete. A oposição de sentido entre ἀνάθεμα (voto de destruição/maldição) e ἀνάθημα (oferta votiva) foi preservada.
+
+**Limite de precisão:** as 350 fichas são resumos e traduções **analíticas de trabalho**; não significam 350 transcrições inglesas diplomáticas integrais nem traduções portuguesas exaustivamente colacionadas. Permanecem erros possíveis no OCR, sobretudo nas letras gregas; leitura visual das fotografias governa a sequência de cabeçalhos. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` ocorreu nesta rodada.
+
+## THAYER — terceiro lote de 100 fichas atingido (14/10/2026)
+
+A branch exclusiva `chat-gpt-thayer` passou de **250 a 300 fichas digitais** de trabalho: **50 novos cabeçalhos impressos**, de **ἅλλομαι** até **ἀμπελών**, nas páginas impressas **28–32** do fac-símile (folhas PDF **52–56**). Assim, o **terceiro lote de 100** foi atingido numericamente. **Próximo cabeçalho:** **Ἀμπλιᾶτος**, iniciado na página 32 e continuado na página 33. O estado operacional está em `lexicons/thayer-progress.json`.
+
+As novas fontes são `lexicons/thayer-source-facsimile-025.json` (18 artigos), `026.json` (15), `027a.json` (8) e `027b.json` (9); os módulos correspondentes `lexicons/thayer-batch-025-facsimile.js`, `026`, `027a` e `027b` foram ligados à interface em `index.html`. Os grandes artigos **ἁμαρτάνω**, **ἁμάρτημα**, **ἁμαρτία** e **ἀμήν** permanecem individualizados conforme os cabeçalhos fotográficos, com distinções de acepção, variantes e referências bíblicas. O artigo **ἅλλομαι** e outros atravessam páginas sem se tornarem cabeçalhos fictícios.
+
+**Situação filológica:** os registros são traduções analíticas **de trabalho**, e cada fonte guarda OCR **bruto extraído das fotografias**, com leitura grega passível de erro. A fotografia é a única autoridade para as incorporações desta rodada; Strong e arquivos eletrônicos independentes não foram usados para preencher lacunas. O número 300 **não equivale** a 300 transcrições inglesas diplomáticas nem traduções integrais certificadas; a colação completa ainda não ocorreu. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi efetuada. As 712 entradas legadas continuam preservadas no arquivo histórico.
+
+## THAYER — terceiro lote: 50/100 artigos de trabalho (14/10/2026)
+
+**Estado remoto:** 250 registros digitais de trabalho na branch `chat-gpt-thayer`, incluindo **50 novos** do terceiro lote, **ἀκρίβεια–ἀλλογενής**, presentes no fac-símile de Thayer, páginas impressas **23–28** (folhas PDF **47–52**). O **próximo artigo é ἅλλομαι**, na página 28. A meta parcial é 50/100 no lote atual; a quantidade total de verbetes do dicionário não foi estabelecida.
+
+**Fontes e apresentação:** `lexicons/thayer-source-facsimile-022.json` (15 entradas), `023.json` (17) e `024.json` (18) contêm cabeçalhos, referências à fotografia, OCR original falível e tradução portuguesa de trabalho, em campos distintos. `lexicons/thayer-batch-022-facsimile.js`, `023` e `024` adicionam linhas de busca e cartões e são carregados pelo `index.html`. A sequência foi determinada pelos **cabeçalhos fotografados**, não por Strong ou fontes eletrônicas alternativas. Os artigos extensos `ἀκροβυστία`, `ἅλας`, `ἀλήθεια` e `ἀλλά` preservam sua unidade tipográfica.
+
+**Qualificação filológica:** as traduções são fichas **preliminares e analíticas**, não transcrições inglesas integrais nem traduções portuguesas plenamente colacionadas. A grafia do topônimo remissivo **Ἄλασσα** (p. 25) requer conferência do impresso em maior resolução e foi assim identificada na ficha, sem certeza artificiosa; variantes e remissões entre colchetes permanecem entradas tipográficas separadas quando assim aparece no fac-símile. Erros possíveis do OCR grego não foram tratados como leitura canônica. Nenhuma auditoria formal, homologação, PR, merge ou alteração de `main` foi realizada.
+
+## THAYER — segundo lote de 100 fichas digitais concluído (14/10/2026)
+
+A branch `chat-gpt-thayer` contém agora **200 registros digitais de trabalho**, organizados na ordem dos artigos fotografados, de **Α, α (ἄλφα)** até **ἄκρατος**. O **segundo lote de 100** encerrou na página impressa **23** (folha PDF **47**) após a incorporação de **31 novos artigos** nesta execução, de **αἰών** a **ἄκρατος**. **Próxima entrada: ἀκρίβεια** (p. 23). O checkpoint canônico está em `lexicons/thayer-progress.json`.
+
+Nesta etapa foram publicados `lexicons/thayer-source-facsimile-018.json` a `021.json` e `lexicons/thayer-batch-018-facsimile.js` a `021-facsimile.js`, carregados pelo `index.html`. As páginas de fonte abrangidas neste avanço são as **18–23** (folhas digitais **42–47**). A organização de Thayer governa os cabeçalhos: **αἰών**, **αἰώνιος**, **ἀκούω** e outros artigos longos são unidades indivisíveis; as variantes ἀκατάπαστος e ἀκατάπαυστος possuem registros independentes porque possuem cabeçalhos independentes no impresso. Strong não rege a sequência. As leituras OCR extraídas das próprias fotografias são mantidas separadas das traduções.
+
+**Limite de qualidade filológica:** atingir a contagem operacional de 200 registros não significa ter produzido 200 transcrições diplomáticas completas nem traduções portuguesas integralmente colacionadas. Os cartões contêm traduções de trabalho e o OCR conserva defeitos possíveis, sobretudo nas grafias gregas. A autoridade continua sendo o testemunho fotográfico; a revisão integral linha a linha permanece etapa distinta. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi executada. Os 712 registros legados permanecem arquivados.
+
+## THAYER — Segundo lote: 69/100 registros fotográficos (13/10/2026)
+
+Após os 150 registros ativos, foram incorporados **19 novos artigos** do fac-símile do Thayer, **αἰσχροκερδής–αἰχμάλωτος** (páginas impressas **17–18**, folhas PDF **41–42**). Acumulado na branch exclusiva `chat-gpt-thayer`: **169 registros digitais**, correspondentes a **69/100** no segundo lote. **Próximo artigo: αἰών**, iniciado na p. impressa 18 e continuado nas seguintes. Não fracionar este artigo para atingir a meta numérica.
+
+Arquivos vinculados: `lexicons/thayer-source-facsimile-016.json` (8 artigos) e `017.json` (11), com `lexicons/thayer-batch-016-facsimile.js` e `017-facsimile.js` ligados ao `index.html`. A grafia e a sequência advêm do impresso; OCR bruto da imagem permanece identificado como auxiliar, e a tradução portuguesa é texto de trabalho, **não** transcrição diplomática ou tradução filologicamente homologada. A entrada remissiva αἰτίαμα foi preservada separadamente de αἰτίωμα; a nota de comparação de sinônimos pertence ao artigo αἰτέω. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi feita.
+
+## THAYER — Segundo lote: 50/100 artigos de trabalho (13/10/2026)
+
+Na branch `chat-gpt-thayer`, a segunda rodada começou em **ἄδολος** (p. impressa 12) e avançou por **50 novos artigos** até **αἰσθητήριον** (p. 17), elevando o acumulado do reinício a **150 registros digitais**. O próximo artigo na sequência fotográfica é **αἰσχροκερδής**, p. 17. O estado operacional está em `lexicons/thayer-progress.json`.
+
+**Proveniência:** cada artigo desta rodada foi localizado no fac-símile, páginas impressas **12–17** (folhas PDF **36–41**). As leituras OCR derivadas dessas fotografias estão preservadas, com as imperfeições reconhecidas, em `lexicons/thayer-source-facsimile-011.json` até `015.json`; os cartões de tradução em português aparecem em `lexicons/thayer-batch-011-facsimile.js` até `015-facsimile.js`, carregados na interface. Strong e dicionários digitais externos não determinam os cabeçalhos nem completam o texto-fonte. Variantes e pareceres exegéticos do autor permanecem atribuídos a Thayer.
+
+**Estado filológico:** são registros **de tradução portuguesa de trabalho** e **OCR inglês bruto**, não 150 artigos em transcrição diplomática certificada ou tradução integral homologada. Há divergências gráficas no OCR de grego; o testemunho impresso é a autoridade. A segunda meta permanece **incompleta: 50/100**. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi feita. Os 712 registros anteriores continuam arquivados separadamente.
+
+## THAYER — primeira meta de 100 registros atingida pelo fac-símile (13/10/2026)
+
+A branch exclusiva `chat-gpt-thayer` contém **100 artigos digitais (100/100)** após o reinício: de **Α, α, ἄλφα** até **ἀδόκιμος**, incluindo os artigos remissivos autônomos, na ordem das **páginas impressas 1–12** (folhas digitais 25–36). A continuação desta execução incorporou **60** novos registros a partir de **ἁγιάζω**, distribuídos entre `lexicons/thayer-source-facsimile-006.json` a `010.json` e `lexicons/thayer-batch-006-facsimile.js` a `010-facsimile.js`. O próximo artigo impresso é **ἄδολος**, p. 12. Ver `lexicons/thayer-progress.json`.
+
+**Limite filológico:** trata-se de **100 fichas portuguesas de trabalho fundamentadas nas fotografias**, com OCR bruto do mesmo fac-símile identificado como auxiliar e separado da tradução; não equivale a 100 transcrições inglesas integrais diplomaticamente certificadas nem a 100 traduções homologadas. Os textos longos receberam tratamento em acepções e bibliografia, mas a colação tipográfica exaustiva de cada linha está pendente. Strong e transcrições digitais independentes **não** foram usados como fonte textual para as incorporações desta rodada. A contagem total impressa do dicionário permanece indeterminada. Nenhuma auditoria formal, PR, merge ou edição de `main` foi realizada. Os 712 registros legados continuam preservados na branch `archive/thayer-legacy-712-2026-10-13`.
+
+## THAYER — 40/100 artigos reincorporados pelo fac-símile (13/10/2026)
+
+Continuação do reinício: **23 artigos novos**, de **ἀγαθός** a **ἀγενής**, nas páginas impressas 2–6 (folhas PDF 26–30), elevando o acumulado de **17 para 40**. Os textos OCR foram extraídos das imagens correspondentes e conservados em arquivos fonte distintos das traduções portuguesas de trabalho. A fotografia prevalece sobre eventuais erros do OCR. Arquivos novos: `lexicons/thayer-source-facsimile-003.json`, `004.json`, `005.json`, com cartões de busca `lexicons/thayer-batch-003-facsimile.js`, `004` e `005`. **Próximo artigo: ἁγιάζω**, p. impressa 6. Meta inicial 100, faltam 60. Não houve auditoria formal, homologação, integração, PR ou merge. O material anterior de 712 fichas permanece arquivado.
+
+## THAYER — continuação do lote de 100 (13/10/2026)
+
+Reinício sobre fac-símile: **17/100 artigos** incorporados, nas páginas impressas 1–2, de `Α, α, ἄλφα` a `ἀγαθοποιός`. Próximo `ἀγαθός`, cujo artigo prossegue na página impressa 3. Nenhuma das 712 fichas legadas foi reaproveitada como texto-fonte. Cópia preservada em `archive/thayer-legacy-712-2026-10-13`.
+
+## THAYER — reincorporação desde o primeiro artigo (13/10/2026)
+
+Após o reset para zero e preservação de 712 registros na branch `archive/thayer-legacy-712-2026-10-13`, foram incorporados **8 artigos originais** de `Α, α, ἄλφα` a `Ἀβιαθάρ`, correspondentes à primeira página impressa da edição fotografada, folha PDF 25. Meta inicial: 100. Estado: **8/100**; próximo artigo `Ἀβιληνή`. A versão portuguesa apresenta o artigo em seus sentidos e ressalvas com proveniência; a extração inglesa OCR da fotografia é mantida separadamente e não é autoridade acima da imagem. Sem homologação ou auditoria formal.
+
+## THAYER — reinício a partir do fac-símile (13/10/2026)
+
+Os **712 registros históricos** foram conservados na branch
+[archive/thayer-legacy-712-2026-10-13](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/tree/archive/thayer-legacy-712-2026-10-13),
+commit `b24163f3c99d9ff156e39806ca69111e00459486`. A frente `chat-gpt-thayer` foi limpa das fichas lexicais e de
+seus carregadores, iniciando novamente com **zero verbetes**. O próximo é
+**Α, α, ἄλφα**, na primeira página impressa. O lote pedido é de 100
+verbetes, cuja conclusão exige transcrição e tradução integrais de cada
+artigo diretamente das imagens do fac-símile. Nada será contado apenas
+por extração de Strong ou por OCR sem confirmação. Ver `regras/Rthayer.txt`
+e `lexicons/thayer-progress.json`.
+
+**Histórico abaixo:** as seções anteriores sobre 712 registros e
+auditorias pertencem ao acervo pré-reinício e não representam o estado
+vigente da incorporação THAYER nesta branch.
+
+---
+
+## THAYER — fonte primária obrigatória para todas as próximas incorporações (13/10/2026)
+
+**Regra vigente:** identificar cada artigo e transcrever seu conteúdo diretamente das fotografias da edição impressa de Thayer. O fac-símile determina a existência, a grafia e a ordem dos cabeçalhos, os homógrafos e remissões, as acepções e os limites de cada artigo. Para cada registro, documentar página impressa, folha do PDF e coluna. Strong e transcrições eletrônicas poderão auxiliar na busca, nunca substituir o texto impresso ou suprir lacunas sem indicação explícita. Se a leitura não for segura, suspender a incorporação do artigo e registrar a pendência, sem adivinhar. Proibido voltar a importar verbetes pela mera sequência G### ou traduzir somente trechos truncados.
+
+**Estado histórico:** 712 registros digitais existentes não equivalem a 712 artigos filologicamente conferidos; a quantidade efetiva de artigos impressos está por determinar. O material legado não foi apagado nem reclassificado como homologado. Esta norma altera o método das incorporações futuras, sem autorizar auditoria formal, homologação, PR, merge ou edição de `main`.
+
+Norma detalhada: [regras/Rthayer.txt](regras/Rthayer.txt).
+
+## THAYER — lote 008 (200 entradas)
+
+Incorporação exclusiva em chat-gpt-thayer dos índices auxiliares G492–G691 (200 novos; total 712). Texto inglês de digitalização CC0 preservado e tradução inicial automática ao português, ainda não cotejada com o fac-símile Thayer. Sem auditoria, homologação ou integração nesta execução.
+
 ## DGP — incorporação exclusiva do lote 329 (14/10/2026)
 
 Incorporados 100 registros XML (27901–28000; **νεαγενής, ής, ές** → **νεμέσσηθεν**), fonte ν, snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **28000 / 44.590**; próximo ordinal **28001**. Sem auditoria formal, homologação, PR ou integração.
