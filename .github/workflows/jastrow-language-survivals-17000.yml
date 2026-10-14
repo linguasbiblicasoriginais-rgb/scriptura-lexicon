@@ -1,0 +1,24 @@
+name: JASTROW - palavras inglesas sem marcador 17000
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-language-survivals-17000.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  leitura:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar detectores
+        run: python -m pip install lingua-language-detector==2.1.1 wordfreq==3.1.1
+      - name: Identificar tokens ingleses copiados da fonte sem traducoes
+        run: python tools/jastrow_english_token_survivals_17000.py

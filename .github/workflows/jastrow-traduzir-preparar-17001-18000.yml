@@ -1,0 +1,43 @@
+name: JASTROW - preparar tradução portuguesa 17001-18000
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-traduzir-preparar-17001-18000.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar mecanismo de tradução local
+        run: python -m pip install argostranslate==1.11.0
+      - name: Preparar modelo e traduzir exemplos do original
+        run: |
+          python - <<'PY'
+          import argostranslate.package,argostranslate.translate,json,xml.etree.ElementTree as ET
+          argostranslate.package.update_package_index()
+          pairs=[p for p in argostranslate.package.get_available_packages() if p.from_code=="en" and p.to_code in ("pb","pt")]
+          print("JASTROW_TRANSLATION_PAIRS", [(p.from_code,p.to_code,p.package_version) for p in pairs],flush=True)
+          if not pairs:raise RuntimeError("Não existe modelo en→pt disponível; nenhuma entrada será publicada.")
+          pkg=next((p for p in pairs if p.to_code=="pb"),pairs[0])
+          argostranslate.package.install_from_path(pkg.download())
+          for src in ["olive harvest","to be brought forth; to receive and carry; from the mouth of the master.","a stone; to cut stones; with which our word interchanges","where the master was seated, as we read in the Talmud"]:
+              result=argostranslate.translate.translate(src,"en",pkg.to_code)
+              print("JASTROW_TRANSLATION_TEST",repr(src),"=>",repr(result),flush=True)
+              if not result or result.strip()==src.strip():raise RuntimeError("Tradutor não produziu tradução portuguesa")
+          with open("lexicons/jastrow-source-lote-0086.json",encoding="utf-8") as f:doc=json.load(f)
+          for r in doc["records"][:5]:
+              root=ET.fromstring(r["source_xml"])
+              phrases=[" ".join(x.itertext()) for x in root.iter() if x.tag=="definition" and "".join(x.itertext()).strip()]
+              for p in phrases[:2]:
+                  print("JASTROW_REAL_SAMPLE",r["canonical_entry_id"],repr(p[:180]),"=>",repr(argostranslate.translate.translate(p[:180],"en",pkg.to_code)),flush=True)
+          PY
