@@ -1,0 +1,32 @@
+{
+  "fonte_branch": "chat-gpt-jastrow",
+  "total_verbetes_publicados": 17000,
+  "total_lotes": 170,
+  "tamanho_lote": 100,
+  "ultima_avaliacao": {
+    "lote": 1,
+    "inicio": 1,
+    "fim": 100,
+    "arquivo": "revisoes/jastrow-traducao/avaliacao-lote-0001-00001-00100.json"
+  },
+  "proximo_lote": {
+    "lote": 2,
+    "inicio": 101,
+    "fim": 200,
+    "arquivo": "revisoes/jastrow-traducao/lote-0002-00101-00200.json"
+  },
+  "progresso_avaliacao_de_lingua": {
+    "lotes_examinados": 1,
+    "verbetes_examinados": 100,
+    "problemas_de_ingles_confirmados_nesses_lotes": 0,
+    "lotes_restantes": 169,
+    "verbetes_restantes": 16900
+  },
+  "inventario_global_inicial": {
+    "ingles_marcado": 2046,
+    "ingles_sem_marcacao_confirmado": 9,
+    "problemas_comprovados_minimos": 2055,
+    "contagem_exata_definitiva": null
+  },
+  "nota_metodologica": "O inventário global de 2.055 problemas conhecidos não deve ser somado ao contador dos lotes avaliados, pois inclui registros futuros a avaliar; usar contagem sem duplicações por SID. Avaliação de equivalência semântica integral permanece pendente."
+}
