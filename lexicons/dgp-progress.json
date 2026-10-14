@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 25901,
-    "status": "Lotes DGP 1–308 incorporados; 25900 registros XML no manifesto; próxima entrada 25901. Somente incorporação.",
+    "next_ordinal": 26001,
+    "status": "Lotes DGP 1–309 incorporados; 26000 registros XML no manifesto; próxima entrada 26001. Somente incorporação.",
     "current_letter": "μ",
     "total_dictionary_entries": 44590
   },
@@ -2786,6 +2786,15 @@
       "end_ordinal": 25900,
       "start_entry": "μανδραγόρας, ου (ὁ)",
       "end_entry": "Μασσαλιώτης, ου",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 309,
+      "start_ordinal": 25901,
+      "end_ordinal": 26000,
+      "start_entry": "Μασσανάσσης, ου (ὁ)",
+      "end_entry": "Μέγαιρα, ας (ἡ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
