@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 25401,
-    "status": "Lotes DGP 1–303 incorporados; 25400 registros XML no manifesto; próxima entrada 25401. Somente incorporação.",
+    "next_ordinal": 25501,
+    "status": "Lotes DGP 1–304 incorporados; 25500 registros XML no manifesto; próxima entrada 25501. Somente incorporação.",
     "current_letter": "λ",
     "total_dictionary_entries": 44590
   },
@@ -2741,6 +2741,15 @@
       "end_ordinal": 25400,
       "start_entry": "λιχνεία, ας (ἡ)",
       "end_entry": "λοχηγέω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 304,
+      "start_ordinal": 25401,
+      "end_ordinal": 25500,
+      "start_entry": "λοχίζω",
+      "end_entry": "Λυρνησσός, οῦ (ἡ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
