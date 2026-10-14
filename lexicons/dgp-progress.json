@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 30701,
-    "status": "Lotes DGP 1–356 incorporados; 30700 registros XML no manifesto; próxima entrada 30701. Somente incorporação.",
+    "next_ordinal": 30801,
+    "status": "Lotes DGP 1–357 incorporados; 30800 registros XML no manifesto; próxima entrada 30801. Somente incorporação.",
     "current_letter": "π",
     "total_dictionary_entries": 44590
   },
@@ -3218,6 +3218,15 @@
       "end_ordinal": 30700,
       "start_entry": "πάμφυλος, ος, ον",
       "end_entry": "πανομφαῖος, ου (ὁ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 357,
+      "start_ordinal": 30701,
+      "end_ordinal": 30800,
+      "start_entry": "Πανοπεῖς, έων (οἱ)",
+      "end_entry": "παραβάσκω",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
