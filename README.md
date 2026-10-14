@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva de 1.000 registros (13/10/2026)
+
+Publicados os lotes **252–261** na branch `chat-gpt-dgp`, com **1.000 registros `entryFree` consecutivos**, ordinais **20.291–21.290** (**ἰξύς, ύος** → **κἀλοιδόρησα**), oriundos dos XML canônicos **ι** e **κ** do snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado do manifesto: **21.290 / 44.590**; próximo ordinal **21.291**. Fragmentos sem lema no XML são identificados editorialmente e preservados como registros distintos. Etapa limitada à incorporação; sem auditoria, homologação, PR ou integração.
+
 ## DGP — incorporação do lote 138 (13/10/2026)
 
 100 verbetes canônicos, ordinais **8901–9000** (**∆εκελεικός, ή, όν** → **δεσμεύω**), em `lexicons/dgp-batch-138.js`. Acumulado: **9000**; próximo **9001**. Somente incorporação.
