@@ -53,7 +53,7 @@ def translate_latin(s):
     source=s.strip()
     if not source:return s
     # Bibliographical English "ass" denotes an animal, not the modern colloquial false friend.
-    source=re.sub(r"\bass(?=[\u2019\u0027\\s]|$)", "donkey", source, flags=re.I)
+    source=re.sub(r"\bass(?=\W|$)", "donkey", source, flags=re.I)
     if source in CACHE:return CACHE[source]
     # Short source abbreviations remain bibliographic notation; do not invent expansions.
     abbreviations={
