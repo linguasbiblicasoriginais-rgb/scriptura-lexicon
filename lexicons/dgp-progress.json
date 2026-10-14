@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 26801,
-    "status": "Lotes DGP 1–317 incorporados; 26800 registros XML no manifesto; próxima entrada 26801. Somente incorporação.",
+    "next_ordinal": 26901,
+    "status": "Lotes DGP 1–318 incorporados; 26900 registros XML no manifesto; próxima entrada 26901. Somente incorporação.",
     "current_letter": "μ",
     "total_dictionary_entries": 44590
   },
@@ -2867,6 +2867,15 @@
       "end_ordinal": 26800,
       "start_entry": "μεταδρομή, ῆς (ἡ)",
       "end_entry": "μετάρροια, ας (ἡ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 318,
+      "start_ordinal": 26801,
+      "end_ordinal": 26900,
+      "start_entry": "μεταρρυθμίζω",
+      "end_entry": "μετοικεσία, ας (ἡ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
