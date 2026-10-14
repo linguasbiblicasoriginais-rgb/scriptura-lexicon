@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 26601,
-    "status": "Lotes DGP 1–315 incorporados; 26600 registros XML no manifesto; próxima entrada 26601. Somente incorporação.",
+    "next_ordinal": 26701,
+    "status": "Lotes DGP 1–316 incorporados; 26700 registros XML no manifesto; próxima entrada 26701. Somente incorporação.",
     "current_letter": "μ",
     "total_dictionary_entries": 44590
   },
@@ -2849,6 +2849,15 @@
       "end_ordinal": 26600,
       "start_entry": "μενεχάρμης, ου",
       "end_entry": "μεσουρανέω-ῶ",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 316,
+      "start_ordinal": 26601,
+      "end_ordinal": 26700,
+      "start_entry": "μεσουράνημα, ατος (τό)",
+      "end_entry": "μεταδρομάδην",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
