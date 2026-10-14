@@ -14,45 +14,83 @@
  * sem disputar os mesmos blocos de index.html ou o registro bibliográfico
  * comum.
  */
-const externalLexiconSources =
-    Object.values(
-        window.ScripturaLexicons || {}
-    );
-
-externalLexiconSources.forEach(function (source) {
-    const searchAnchor =
-        document.getElementById(
-            source.searchAnchorId || ""
-        );
-
-    if (searchAnchor) {
-        if (source.rowsHtml) {
-            searchAnchor.insertAdjacentHTML(
-                "beforebegin",
-                source.rowsHtml
-            );
+const externalLexiconSources = [];
+const mountedLengths = new WeakMap();
+// Os módulos são montados em pequenos lotes quando o navegador está livre.
+function ingestScripturaLexicons() {
+    let newRows = 0;
+    let newSource = false;
+    const known = new Set(Array.from(sourceFilter.options, x => x.value));
+    Object.values(window.ScripturaLexicons || {}).forEach(function(source) {
+        if (!source?.searchAnchorId || !source?.entryAnchorId) return;
+        if (!externalLexiconSources.includes(source)) externalLexiconSources.push(source);
+        const rowAnchor = document.getElementById(source.searchAnchorId);
+        const cardAnchor = document.getElementById(source.entryAnchorId);
+        if (!rowAnchor || !cardAnchor) return;
+        const old = mountedLengths.get(source) || {r: 0, c: 0};
+        const rows = source.rowsHtml || "", cards = source.cardsHtml || "";
+        const rd = rows.slice(old.r), cd = cards.slice(old.c);
+        let rowStart = null, cardStart = null;
+        if (rd) {
+            rowStart = rowAnchor.previousElementSibling;
+            rowAnchor.insertAdjacentHTML("beforebegin", rd);
         }
-
-        searchAnchor.remove();
-    }
-
-    const entryAnchor =
-        document.getElementById(
-            source.entryAnchorId || ""
-        );
-
-    if (entryAnchor) {
-        if (source.cardsHtml) {
-            entryAnchor.insertAdjacentHTML(
-                "beforebegin",
-                source.cardsHtml
-            );
+        if (cd) {
+            cardStart = cardAnchor.previousElementSibling;
+            cardAnchor.insertAdjacentHTML("beforebegin", cd);
         }
-
-        entryAnchor.remove();
-    }
-});
-
+        mountedLengths.set(source, {r: rows.length, c: cards.length});
+        if (cd) {
+            let node = cardStart ? cardStart.nextElementSibling : cardAnchor.parentElement.firstElementChild;
+            while (node && node !== cardAnchor) {
+                const next = node.nextElementSibling;
+                if (node.classList.contains("entry-card")) {
+                    node.hidden = true;
+                    if (!node.dataset.dictionary) node.dataset.dictionary = "grego";
+                    const tag = node.querySelector(".source-tag");
+                    if (tag) tag.dataset.source = tag.textContent.trim().toUpperCase();
+                    entryCards.push(node);
+                }
+                node = next;
+            }
+        }
+        if (rd) {
+            let node = rowStart ? rowStart.nextElementSibling : rowAnchor.parentElement.firstElementChild;
+            while (node && node !== rowAnchor) {
+                const next = node.nextElementSibling;
+                if (node.classList.contains("search-row")) {
+                    node.hidden = true;
+                    const dictionary = node.dataset.dictionary || "grego";
+                    node.dataset.dictionary = dictionary;
+                    searchRows.push(node);
+                    if (!rowsByDictionary.has(dictionary)) rowsByDictionary.set(dictionary, []);
+                    rowsByDictionary.get(dictionary).push(node);
+                    const pill = node.querySelector(".source-pill");
+                    if (pill) pill.dataset.source = pill.textContent.trim().toUpperCase();
+                    if (dictionary === activeDictionary && !known.has(node.dataset.source)) newSource = true;
+                    // Índice integral do DGP: mesma definição publicada no cartão.
+                    if (node.dataset.source === "DGP" && node.dataset.dgpFullTextIndexed !== "true") {
+                        const card = document.getElementById(node.dataset.target || "");
+                        const definition = card?.querySelector(".entry-section .entry-text");
+                        if (definition) {
+                            node.dataset.search = ((node.dataset.search || "") + " " +
+                                (definition.textContent || "").trim()).trim();
+                            node.dataset.dgpFullTextIndexed = "true";
+                        }
+                    }
+                    newRows++;
+                }
+                node = next;
+            }
+        }
+    });
+    if (newSource) populateSourceFilter();
+    else if (newRows && sourceFilter.value) updateSourceDetails();
+    if (newRows && searchInput.value.trim()) filterEntries();
+    return newRows;
+}
+window.ScripturaIngestLexicons = ingestScripturaLexicons;
+window.ScripturaGetActiveDictionary = () => activeDictionary;
 
 /* As etiquetas usam a mesma cor por fonte, mesmo nos módulos externos. */
 document.querySelectorAll(".source-pill, .source-tag").forEach(function (label) {
@@ -97,6 +135,19 @@ const entryCards = Array.from(
 );
 
 const searchCount = document.getElementById("search-count");
+
+const rowsByDictionary = new Map();
+const normalizedSearchCache = new WeakMap();
+let openedEntryCard = null;
+
+// Índices de apresentação, sem alteração do conteúdo dos verbetes.
+searchRows.forEach(function (row) {
+    const dictionary = row.dataset.dictionary || "grego";
+    if (!rowsByDictionary.has(dictionary)) {
+        rowsByDictionary.set(dictionary, []);
+    }
+    rowsByDictionary.get(dictionary).push(row);
+});
 const noResults = document.getElementById("no-results");
 
 const dictionaryTitle = document.getElementById("dictionary-title");
@@ -245,12 +296,8 @@ const bibleEditionNames = {
 };
 
 
-function enrichBibleReferenceTooltips() {
-    const links = Array.from(
-        document.querySelectorAll(
-            'a.reference-link[href*="die-bibel.de/en/bible/"]'
-        )
-    );
+function enrichBibleReferenceTooltips(card) {
+    const links = Array.from(card.querySelectorAll('a.reference-link[href*="die-bibel.de/en/bible/"]'));
 
     links.forEach(function (link) {
         const href =
@@ -1153,13 +1200,13 @@ function getBibliographicDefinitionsForRoot(root) {
 }
 
 
-function enrichBibliographicTooltips() {
-    const roots =
-        Array.from(
-            document.querySelectorAll(
-                ".entry-text"
-            )
-        );
+function enrichBibliographicTooltips(card) {
+    const roots = Array.from(card.querySelectorAll(".entry-text"));
+
+    // A lista é imutável durante a inicialização: ordenar uma única vez.
+    const sortedNamedAuthors = automaticNamedAuthors.slice().sort(function (a, b) {
+        return b.key.length - a.key.length;
+    });
 
     roots.forEach(function (root) {
         const definitions =
@@ -1192,15 +1239,14 @@ function enrichBibliographicTooltips() {
          * por um registro separado para evitar inferências
          * baseadas apenas em capitalização.
          */
-        automaticNamedAuthors
-            .slice()
-            .sort(function (a, b) {
-                return (
-                    b.key.length -
-                    a.key.length
-                );
-            })
-            .forEach(function (definition) {
+        // Texto dos autores calculado uma vez por verbete, não por candidato.
+        // O texto permanece o mesmo quando os termos recebem elementos de popup.
+        const rootTextForAuthors = root.textContent.toLocaleLowerCase("pt-BR");
+        sortedNamedAuthors.forEach(function (definition) {
+                if (!rootTextForAuthors
+                    .includes(definition.key.toLocaleLowerCase("pt-BR"))) {
+                    return;
+                }
                 collectPlainTextNodes(root)
                     .forEach(function (node) {
                         wrapKnownTermsInTextNode(
@@ -1312,9 +1358,7 @@ function dictionaryFromHash() {
 
 
 function rowsForActiveDictionary() {
-    return searchRows.filter(function (row) {
-        return row.dataset.dictionary === activeDictionary;
-    });
+    return rowsByDictionary.get(activeDictionary) || [];
 }
 
 
@@ -1334,9 +1378,10 @@ function resetSearchState() {
         row.hidden = true;
     });
 
-    entryCards.forEach(function (card) {
-        card.hidden = true;
-    });
+    if (openedEntryCard) {
+        openedEntryCard.hidden = true;
+        openedEntryCard = null;
+    }
 
     searchTableWrapper.hidden = true;
     noResults.hidden = true;
@@ -1648,6 +1693,7 @@ function selectDictionary(dictionary, options) {
     if (settings.focusSearch) {
         searchInput.focus();
     }
+    document.dispatchEvent(new Event("scriptura:dictionary-changed"));
 }
 
 
@@ -1678,9 +1724,10 @@ function filterEntries() {
     const selectedSource =
         sourceFilter.value;
 
-    entryCards.forEach(function (card) {
-        card.hidden = true;
-    });
+    if (openedEntryCard) {
+        openedEntryCard.hidden = true;
+        openedEntryCard = null;
+    }
 
     if (query === "") {
         searchRows.forEach(function (row) {
@@ -1702,23 +1749,16 @@ function filterEntries() {
     const activeRows =
         rowsForActiveDictionary();
 
-    searchRows.forEach(function (row) {
-        if (
-            row.dataset.dictionary !==
-            activeDictionary
-        ) {
-            row.hidden = true;
-            return;
-        }
-
+    activeRows.forEach(function (row) {
         const rawSearchText =
             row.dataset.search ||
             row.textContent;
 
-        const searchableText =
-            normalizeText(
-                rawSearchText
-            );
+        let searchableText = normalizedSearchCache.get(row);
+        if (searchableText === undefined) {
+            searchableText = normalizeText(rawSearchText);
+            normalizedSearchCache.set(row, searchableText);
+        }
 
         const rowSource =
             row.dataset.source || "";
@@ -1734,7 +1774,9 @@ function filterEntries() {
             matchesText &&
             matchesSource;
 
-        row.hidden = !visible;
+        if (row.hidden === visible) {
+            row.hidden = !visible;
+        }
 
         if (visible) {
             visibleCount++;
@@ -1791,9 +1833,21 @@ function openEntry(row) {
         return;
     }
 
-    entryCards.forEach(function (card) {
-        card.hidden = card !== target;
-    });
+    if (target.dataset.scripturaPrepared !== "true") {
+        enrichBibliographicTooltips(target);
+        enrichBibleReferenceTooltips(target);
+        target.dataset.scripturaPrepared = "true";
+    }
+    if (row.dataset.source === "DGP" && window.ScripturaLexicons?.DGP?.formatCards &&
+        target.dataset.scripturaDgpPrepared !== "true") {
+        window.ScripturaLexicons.DGP.formatCards(target);
+        target.dataset.scripturaDgpPrepared = "true";
+    }
+    if (openedEntryCard && openedEntryCard !== target) {
+        openedEntryCard.hidden = true;
+    }
+    target.hidden = false;
+    openedEntryCard = target;
 
     lastOpenedRow = row;
     entryNavigationCount.textContent = searchCount.textContent + " na pesquisa";
@@ -1968,6 +2022,7 @@ function buildTooltipContent(trigger) {
     }
 
     if (type === "greek") {
+        const transliteration = trigger.dataset.transliteration || "";
         const meanings =
             parseMeanings(
                 trigger.dataset.meanings
@@ -1977,6 +2032,16 @@ function buildTooltipContent(trigger) {
             '<div class="tooltip-heading greek-heading">' +
             escapeHtml(label) +
             "</div>";
+
+        if (transliteration) {
+            html +=
+                '<div class="tooltip-block">' +
+                '<span class="tooltip-label">Transliteração</span>' +
+                '<div class="tooltip-value">' +
+                escapeHtml(transliteration) +
+                "</div>" +
+                "</div>";
+        }
 
         if (meanings.length) {
             html +=
@@ -2168,10 +2233,10 @@ themeInputs.forEach(function (input) {
     });
 });
 
-searchInput.addEventListener(
-    "input",
-    filterEntries
-);
+// Atualiza a pesquisa no próprio evento input, para que a linha esteja
+// imediatamente disponível a navegação, leitores de tela e testes.
+// O índice por dicionário e o cache de normalização limitam o custo.
+searchInput.addEventListener("input", filterEntries);
 
 sourceFilter.addEventListener("change", function () {
     syncSourceCombobox();
@@ -2290,79 +2355,69 @@ document.addEventListener("pointerdown", function (event) {
     }
 });
 
-searchRows.forEach(function (row) {
-    row.addEventListener(
-        "click",
-        function () {
-            openEntry(row);
-        }
-    );
-
-    row.addEventListener(
-        "keydown",
-        function (event) {
-            if (
-                event.key === "Enter" ||
-                event.key === " "
-            ) {
-                event.preventDefault();
-                openEntry(row);
-            }
-        }
-    );
+// Delegação: dois eventos para a tabela, em vez de dois por verbete.
+const searchResultsBody = document.getElementById("search-results");
+searchResultsBody.addEventListener("click", function (event) {
+    const row = event.target.closest(".search-row");
+    if (row) openEntry(row);
+});
+searchResultsBody.addEventListener("keydown", function (event) {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const row = event.target.closest(".search-row");
+    if (!row) return;
+    event.preventDefault();
+    openEntry(row);
 });
 
 function bindTooltipEvents() {
-    tooltipTriggers =
-        Array.from(
-            document.querySelectorAll(
-                ".tooltip-trigger"
-            )
-        );
+    // Delegação preserva pop-ups de mouse, teclado e toque, sem milhares
+    // de ouvintes individuais. Os gatilhos criados depois também funcionam.
+    function closestTrigger(event) {
+        return event.target instanceof Element
+            ? event.target.closest(".tooltip-trigger")
+            : null;
+    }
 
-    tooltipTriggers.forEach(function (trigger) {
-    trigger.addEventListener(
-        "mouseenter",
-        function () {
+    document.addEventListener("mouseover", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger && !trigger.contains(event.relatedTarget)) {
             showTooltip(trigger);
         }
-    );
+    });
 
-    trigger.addEventListener(
-        "mouseleave",
-        hideTooltip
-    );
+    document.addEventListener("mouseout", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger && !trigger.contains(event.relatedTarget) &&
+                activeTooltipTrigger === trigger) {
+            hideTooltip();
+        }
+    });
 
-    trigger.addEventListener(
-        "focus",
-        function () {
+    document.addEventListener("focusin", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger) showTooltip(trigger);
+    });
+
+    document.addEventListener("focusout", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger && activeTooltipTrigger === trigger) {
+            hideTooltip();
+        }
+    });
+
+    document.addEventListener("click", function (event) {
+        const trigger = closestTrigger(event);
+        if (!trigger) return;
+        event.stopPropagation();
+
+        if (activeTooltipTrigger === trigger &&
+                lexicalTooltip.classList.contains("visible")) {
+            hideTooltip();
+        } else {
             showTooltip(trigger);
         }
-    );
-
-    trigger.addEventListener(
-        "blur",
-        hideTooltip
-    );
-
-    trigger.addEventListener(
-        "click",
-        function (event) {
-            event.stopPropagation();
-
-            if (
-                activeTooltipTrigger === trigger &&
-                lexicalTooltip.classList.contains("visible")
-            ) {
-                hideTooltip();
-            } else {
-                showTooltip(trigger);
-            }
-        }
-    );
     });
 }
-
 
 window.addEventListener(
     "resize",
@@ -2443,14 +2498,7 @@ document.addEventListener(
    ========================================================== */
 
 applyTheme(document.documentElement.dataset.theme, false);
-enrichBibliographicTooltips();
-enrichBibleReferenceTooltips();
-
-/* Formatação exclusivamente visual do DGP, após os popups bibliográficos. */
-if (window.ScripturaLexicons?.DGP?.formatCards) {
-    window.ScripturaLexicons.DGP.formatCards();
-}
-
+// Sem transformação do corpus inteiro na inicialização.
 bindTooltipEvents();
 
 

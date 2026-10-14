@@ -37,6 +37,12 @@ try {
         assert.equal(await page.locator("#entry-navigation").isVisible(), false,
             "A página deve iniciar sem um verbete aberto");
 
+        // O acervo é assíncrono; a interface já pode ser usada antes dele.
+        await page.waitForFunction(name =>
+            window.ScripturaLexiconLoader?.isLoaded(name), dictionary, {timeout: 240000});
+        await page.waitForFunction(() =>
+            document.getElementById("lexicon-load-status")?.textContent === "",
+            null, {timeout: 30000});
         const sources = await page.locator("#source-filter option").evaluateAll(options =>
             options.map(o => o.value).filter(Boolean)
         );
