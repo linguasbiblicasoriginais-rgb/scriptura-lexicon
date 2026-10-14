@@ -9,23 +9,23 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 1000,
-    "next_ordinal": 16001,
+    "next_ordinal": 17001,
     "next_source_id": null,
     "next_lemma": null,
-    "source_records_retrieved": 16000,
+    "source_records_retrieved": 17000,
     "first_source_id": "A00000",
-    "last_source_id": "M01023",
-    "next_source_batch_ordinal": 16001,
+    "last_source_id": "M02023",
+    "next_source_batch_ordinal": 17001,
     "next_source_batch_id": null,
     "next_source_batch_lemma": null,
-    "total_published": 16000,
+    "total_published": 17000,
     "total_audited": 0,
     "total_integrated": 1000,
-    "editorial_status": "16.000 registros JASTROW incorporados na branch exclusiva, incluindo 1.000 nesta rodada. Onde não há glosa portuguesa, o trecho inglês original está identificado como tradução pendente; XML integral separado e preservado. Sem auditoria, homologação ou integração.",
-    "source_status": "16.000 entradas originais integrais em oitenta lotes de 200.",
+    "editorial_status": "17.000 registros JASTROW incorporados na branch exclusiva, incluindo 1.000 nesta rodada. Onde não há glosa portuguesa, o trecho inglês original está identificado como tradução pendente; XML integral separado e preservado. Sem auditoria, homologação ou integração.",
+    "source_status": "17.000 entradas originais integrais em oitenta e cinco lotes de 200.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5,
-    "glosses_pending_translation_last_cycle": 697
+    "glosses_pending_translation_last_cycle": 675
   },
   "batches": [
     {
@@ -1694,6 +1694,106 @@
         "lexicons/jastrow-15901-16000.js"
       ],
       "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 86,
+      "source_start_ordinal": 16001,
+      "source_end_ordinal": 16200,
+      "source_count": 200,
+      "source_first_id": "M01024",
+      "source_last_id": "M01223",
+      "source_file": "lexicons/jastrow-source-lote-0081.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16001,
+      "translated_end_ordinal": 16200,
+      "translated_count": 200,
+      "translated_first_id": "M01024",
+      "translated_last_id": "M01223",
+      "translated_files": [
+        "lexicons/jastrow-16001-16100.js",
+        "lexicons/jastrow-16101-16200.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 87,
+      "source_start_ordinal": 16201,
+      "source_end_ordinal": 16400,
+      "source_count": 200,
+      "source_first_id": "M01224",
+      "source_last_id": "M01423",
+      "source_file": "lexicons/jastrow-source-lote-0082.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16201,
+      "translated_end_ordinal": 16400,
+      "translated_count": 200,
+      "translated_first_id": "M01224",
+      "translated_last_id": "M01423",
+      "translated_files": [
+        "lexicons/jastrow-16201-16300.js",
+        "lexicons/jastrow-16301-16400.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 88,
+      "source_start_ordinal": 16401,
+      "source_end_ordinal": 16600,
+      "source_count": 200,
+      "source_first_id": "M01424",
+      "source_last_id": "M01623",
+      "source_file": "lexicons/jastrow-source-lote-0083.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16401,
+      "translated_end_ordinal": 16600,
+      "translated_count": 200,
+      "translated_first_id": "M01424",
+      "translated_last_id": "M01623",
+      "translated_files": [
+        "lexicons/jastrow-16401-16500.js",
+        "lexicons/jastrow-16501-16600.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 89,
+      "source_start_ordinal": 16601,
+      "source_end_ordinal": 16800,
+      "source_count": 200,
+      "source_first_id": "M01624",
+      "source_last_id": "M01823",
+      "source_file": "lexicons/jastrow-source-lote-0084.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16601,
+      "translated_end_ordinal": 16800,
+      "translated_count": 200,
+      "translated_first_id": "M01624",
+      "translated_last_id": "M01823",
+      "translated_files": [
+        "lexicons/jastrow-16601-16700.js",
+        "lexicons/jastrow-16701-16800.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 90,
+      "source_start_ordinal": 16801,
+      "source_end_ordinal": 17000,
+      "source_count": 200,
+      "source_first_id": "M01824",
+      "source_last_id": "M02023",
+      "source_file": "lexicons/jastrow-source-lote-0085.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 16801,
+      "translated_end_ordinal": 17000,
+      "translated_count": 200,
+      "translated_first_id": "M01824",
+      "translated_last_id": "M02023",
+      "translated_files": [
+        "lexicons/jastrow-16801-16900.js",
+        "lexicons/jastrow-16901-17000.js"
+      ],
+      "status": "Registros incorporados; definições em inglês marcadas como tradução pendente, XML original preservado. Sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
@@ -1701,13 +1801,13 @@
     "requested": 1000,
     "new_translations_committed": 0,
     "new_entries_committed": 1000,
-    "glosses_pending_translation": 697,
-    "prior_published": 15000,
-    "total_published": 16000,
-    "new_range": "M00024–M01023",
-    "source_records_retrieved_total": 16000,
+    "glosses_pending_translation": 675,
+    "prior_published": 16000,
+    "total_published": 17000,
+    "new_range": "M01024–M02023",
+    "source_records_retrieved_total": 17000,
     "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
-    "next_ordinal": 16001,
+    "next_ordinal": 17001,
     "next_source_id": null,
     "next_lemma": null,
     "audit_performed": false,
