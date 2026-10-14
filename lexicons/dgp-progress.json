@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 31401,
-    "status": "Lotes DGP 1–363 incorporados; 31400 registros XML no manifesto; próxima entrada 31401. Somente incorporação.",
+    "next_ordinal": 31501,
+    "status": "Lotes DGP 1–364 incorporados; 31500 registros XML no manifesto; próxima entrada 31501. Somente incorporação.",
     "current_letter": "π",
     "total_dictionary_entries": 44590
   },
@@ -3281,6 +3281,15 @@
       "end_ordinal": 31400,
       "start_entry": "παρεγκελεύομαι",
       "end_entry": "παρεξεληλάκεε",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 364,
+      "start_ordinal": 31401,
+      "end_ordinal": 31500,
+      "start_entry": "παρεξέρχομαι",
+      "end_entry": "Παρθυαῖος, α, ον",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
