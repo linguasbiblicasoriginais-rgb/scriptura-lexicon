@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 21691,
-    "status": "Lotes DGP 1–265 incorporados; 21690 registros XML no manifesto; próxima entrada 21691. Somente incorporação.",
+    "next_ordinal": 21791,
+    "status": "Lotes DGP 1–266 incorporados; 21790 registros XML no manifesto; próxima entrada 21791. Somente incorporação.",
     "current_letter": "κ",
     "total_dictionary_entries": 44590
   },
@@ -2399,6 +2399,15 @@
       "end_ordinal": 21690,
       "start_entry": "καραδοκία, ας (ἡ)",
       "end_entry": "Καρχηδόνιος, α, ον",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 266,
+      "start_ordinal": 21691,
+      "end_ordinal": 21790,
+      "start_entry": "Καρχηδών, όνος (ἡ)",
+      "end_entry": "κάταγμα, ατος (τό)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
