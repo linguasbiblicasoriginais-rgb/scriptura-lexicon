@@ -1,3 +1,7 @@
+## DGP — incorporação exclusiva do lote 301 (14/10/2026)
+
+Incorporados **100 registros `entryFree`**, ordinais **25101–25200** (**Λήρισαι, Ληρισαῖος** → **λικνίτης, ου (ὁ)**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25200 / 44.590**; próximo ordinal **25201**. Somente incorporação; sem auditoria, homologação, PR ou integração.
+
 ## DGP — incorporação exclusiva do lote 300 (14/10/2026)
 
 Incorporados **100 registros `entryFree`**, ordinais **25001–25100** (**λευκόϊον, ου (τό)** → **λήρησις, εως (ἡ)**), dos XML canônicos **λ** no snapshot `deb54b426ead447d01ced7534736f3e77be7015b`. Acumulado: **25100 / 44.590**; próximo ordinal **25101**. Somente incorporação; sem auditoria, homologação, PR ou integração.
