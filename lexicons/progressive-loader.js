@@ -51,8 +51,20 @@
                 const end = Math.min(group.done + 4, group.paths.length);
                 await Promise.all(group.paths.slice(group.done, end).map(load));
                 group.done = end;
-                // O OCR inglês do THAYER só pode entrar no DOM após o filtro de idioma.
-                if (name !== "thayer" || group.done === group.paths.length) {
+                // A recuperação histórica do DGP insere verbetes no MEIO do
+                // HTML acumulado. Não é um append: cortar o texto pelo tamanho
+                // anterior corromperia as tags e mostraria cartões fora da busca.
+                // Só montar o DGP após o último módulo de recuperação; a partir
+                // do primeiro dgp-batch-NNN.js, os lotes são acrescentados ao fim.
+                const firstAppendOnly = name === "dgp"
+                    ? group.paths.findIndex(path => /\/dgp-batch-[0-9]+\.js$/.test(path))
+                    : -1;
+                const dgpIsStable = name !== "dgp" ||
+                    (firstAppendOnly >= 0 && group.done > firstAppendOnly);
+                // THAYER só pode ser exibido após retirar o OCR inglês da
+                // apresentação (os dados documentais continuam preservados).
+                if (dgpIsStable && (name !== "thayer" ||
+                        group.done === group.paths.length)) {
                     window.ScripturaIngestLexicons?.();
                 }
                 update();

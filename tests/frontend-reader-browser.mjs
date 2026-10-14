@@ -13,6 +13,29 @@ page.on("pageerror", e => pageErrors.push(e.message));
 const report = [];
 const localCovers = {"THAYER":"imagens/capas/thayer.png","BDAG":"imagens/capas/bdag.png","LEH":"imagens/capas/leh.png","DGP":"imagens/capas/dgp.png","ROBINSON":"imagens/capas/robinson.png","ABBOTT-SMITH":"imagens/capas/abbott-smith.png","HALOT":"imagens/capas/halot.png","JASTROW":"imagens/capas/jastrow.png"};
 const renderedCovers = new Set();
+
+async function assertNoLeakedEntries(phase) {
+    const state = await page.evaluate(() => {
+        const anchor = document.getElementById("dgp-entry-anchor");
+        const unexpectedText = Array.from(anchor.parentElement.childNodes)
+            .filter(node => node.nodeType === Node.TEXT_NODE &&
+                node.textContent.trim().length > 0)
+            .slice(0, 3)
+            .map(node => node.textContent.trim().slice(0, 180));
+        const visibleCards = Array.from(document.querySelectorAll(".entry-card"))
+            .filter(card => getComputedStyle(card).display !== "none")
+            .slice(0, 5)
+            .map(card => card.id);
+        return { query: document.getElementById("search-input").value,
+            unexpectedText, visibleCards };
+    });
+    assert.equal(state.query, "", "Pesquisa não estava vazia: " + phase);
+    assert.deepEqual(state.unexpectedText, [],
+        "HTML/texto indevido apareceu fora de cartões: " + phase);
+    assert.deepEqual(state.visibleCards, [],
+        "Verbetes visíveis antes de qualquer pesquisa: " + phase);
+}
+
 try {
     // As oito imagens precisam ser PNG íntegros e estar acessíveis pelo servidor local.
     for (const [source, path] of Object.entries(localCovers)) {
@@ -36,6 +59,21 @@ try {
             "Ficha bibliográfica deve estar oculta ao escolher todas as fontes");
         assert.equal(await page.locator("#entry-navigation").isVisible(), false,
             "A página deve iniciar sem um verbete aberto");
+        await assertNoLeakedEntries("interface inicial — " + dictionary);
+
+        if (dictionary === "grego") {
+            // Verifica especificamente as fases de recuperação (escrita no meio)
+            // e a carga intermediária, que antes corrompiam os cartões DGP.
+            for (const threshold of [20, 200, 345]) {
+                await page.waitForFunction(minimum => {
+                    const dgp = window.ScripturaLexiconLoader?.progress("grego")
+                        .find(item => item.source === "dgp");
+                    return Boolean(dgp && dgp.loaded >= minimum);
+                }, threshold, {timeout: 240000});
+                await assertNoLeakedEntries("DGP " + threshold + " módulos");
+            }
+        }
+
 
         // O acervo é assíncrono; a interface já pode ser usada antes dele.
         await page.waitForFunction(name =>
@@ -43,6 +81,7 @@ try {
         await page.waitForFunction(() =>
             document.getElementById("lexicon-load-status")?.textContent === "",
             null, {timeout: 30000});
+        await assertNoLeakedEntries("acervo carregado — " + dictionary);
         const sources = await page.locator("#source-filter option").evaluateAll(options =>
             options.map(o => o.value).filter(Boolean)
         );
