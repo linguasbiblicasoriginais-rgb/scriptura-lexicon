@@ -120,7 +120,10 @@ register(records, html, html, "index.html");
 const sourceTerms = {};
 for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) {
     if (!source || !source.rowsHtml || !source.cardsHtml) continue;
-    register(records, source.rowsHtml, source.cardsHtml, key);
+    // Módulos históricos alternam entre cardsHtml e entriesHtml.
+    // Tratar ambos como cartões publicados sem reescrever o corpus.
+    register(records, source.rowsHtml,
+        (source.cardsHtml || "") + "\n" + (source.entriesHtml || ""), key);
     if (Array.isArray(source.bibliographicTerms)) {
         const label = source.source || key;
         sourceTerms[label] ||= [];
