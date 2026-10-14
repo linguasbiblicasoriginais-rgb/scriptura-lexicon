@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 24401,
-    "status": "Lotes DGP 1–293 incorporados; 24400 registros XML no manifesto; próxima entrada 24401. Somente incorporação.",
+    "next_ordinal": 24501,
+    "status": "Lotes DGP 1–294 incorporados; 24500 registros XML no manifesto; próxima entrada 24501. Somente incorporação.",
     "current_letter": "κ",
     "total_dictionary_entries": 44590
   },
@@ -2651,6 +2651,15 @@
       "end_ordinal": 24400,
       "start_entry": "κυβίστησις, εως (ἡ)",
       "end_entry": "κύμινον, ου (τό)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 294,
+      "start_ordinal": 24401,
+      "end_ordinal": 24500,
+      "start_entry": "κυμονδέγμων, ων, ον",
+      "end_entry": "κυρτός, ή, όν",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
