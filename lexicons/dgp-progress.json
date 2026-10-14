@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 28701,
-    "status": "Lotes DGP 1–336 incorporados; 28700 registros XML no manifesto; próxima entrada 28701. Somente incorporação.",
+    "next_ordinal": 28801,
+    "status": "Lotes DGP 1–337 incorporados; 28800 registros XML no manifesto; próxima entrada 28801. Somente incorporação.",
     "current_letter": "ο",
     "total_dictionary_entries": 44590
   },
@@ -3038,6 +3038,15 @@
       "end_ordinal": 28700,
       "start_entry": "Ξυπεταίων, όνος",
       "end_entry": "ὀδυνηρῶς",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 337,
+      "start_ordinal": 28701,
+      "end_ordinal": 28800,
+      "start_entry": "ὀδυνήφατος, ος, ον",
+      "end_entry": "οἰκήσιμος, ος, ον",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
