@@ -9,19 +9,19 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 1000,
-    "next_ordinal": 3401,
-    "next_source_id": "A03400",
-    "next_lemma": "אִתְּדָשָׁא",
+    "next_ordinal": 3601,
+    "next_source_id": "B00143",
+    "next_lemma": "בְּדִין",
     "source_records_retrieved": 3800,
     "first_source_id": "A00000",
     "last_source_id": "B00342",
     "next_source_batch_ordinal": 3001,
     "next_source_batch_id": "A03000",
     "next_source_batch_lemma": "אַרְדָּא,",
-    "total_published": 3400,
+    "total_published": 3600,
     "total_audited": 0,
     "total_integrated": 1000,
-    "editorial_status": "3.400 verbetes incorporados editorialmente; 400 novos na presente rodada; somente incorporação.",
+    "editorial_status": "3.600 verbetes editoriais incorporados; 600 novos nesta rodada; somente incorporação.",
     "source_status": "Originais 3001–3800 preservados em arquivos-fonte; incorporação editorial até 3200.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
@@ -441,15 +441,32 @@
         "lexicons/jastrow-3301-3400.js"
       ],
       "status": "Sínteses portuguesas; nenhuma auditoria/homologação/integração."
+    },
+    {
+      "batch": 23,
+      "source_start_ordinal": 3401,
+      "source_end_ordinal": 3600,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0018.json",
+      "translated_start_ordinal": 3401,
+      "translated_end_ordinal": 3600,
+      "translated_count": 200,
+      "translated_first_id": "A03400",
+      "translated_last_id": "B00142",
+      "translated_files": [
+        "lexicons/jastrow-3401-3500.js",
+        "lexicons/jastrow-3501-3600.js"
+      ],
+      "status": "Sínteses em português; sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
     "date": "2026-10-14",
     "requested": 1000,
-    "new_translations_committed": 400,
+    "new_translations_committed": 600,
     "prior_published": 3000,
-    "total_published": 3400,
-    "new_range": "A03000–A03399",
+    "total_published": 3600,
+    "new_range": "A03000–B00142",
     "audit_performed": false,
     "homologation_performed": false,
     "integration_performed": false
