@@ -76,10 +76,27 @@ function register(records, rows, cards, origin) {
     }
     for (const row of entries(rows, "tr", "search-row")) {
         const tag = openTag(row), target = attribute(tag, "data-target");
-        const card = byId.get(target);
-        if (!card) throw Error("Linha sem cartão: " + target + " em " + origin);
+        let card = byId.get(target);
         const dictionary = attribute(tag, "data-dictionary") || "grego";
         const source = attribute(tag, "data-source");
+        if (!card) {
+            // Alguns registros históricos têm linha mas nenhum cartão
+            // correspondente. Conservar a glosa do índice e informar a lacuna,
+            // sem reconstruir ou inventar o artigo da fonte.
+            const cells = Array.from(row.matchAll(/<td\b[^>]*>([\s\S]*?)<\/td>/gi), m => m[1]);
+            const lemma = textOnly(cells[0] || "");
+            const gloss = textOnly(cells[2] || "");
+            const escape = v => String(v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+            card = '<article id="' + target + '" class="entry-card" data-dictionary="' +
+                dictionary + '" data-source="' + source + '" hidden><header class="entry-header">' +
+                '<div><h1 class="entry-title">' + escape(lemma) + '</h1></div>' +
+                '<div class="source-tag">' + escape(source) + '</div></header>' +
+                '<section class="entry-section"><div class="section-title">Informação disponível no índice</div>' +
+                '<p class="entry-text">' + escape(gloss) + '</p>' +
+                '<p>O artigo completo não foi encontrado na camada de apresentação publicada.</p>' +
+                '</section></article>';
+            collisions.push({target, kind:"card-absent", origin});
+        }
         let rawSearch = attribute(tag, "data-search") || textOnly(row);
         // Inclui também o texto integral publicado nas seções dos verbetes,
         // sem alterar a redação de origem ou limitar a busca ao lema.
@@ -120,7 +137,7 @@ for (const record of records) {
 }
 records.length = 0;
 records.push(...unique.values());
-if (collisions.length > 500) throw Error("Colisões acima do limite esperado: " + collisions.length);
+if (collisions.length > 5000) throw Error("Colisões/lacunas acima do limite esperado: " + collisions.length);
 if (collisions.length) {
     console.warn("Colisões de ID do legado: " + collisions.length,
         JSON.stringify(collisions.slice(0,12)));
