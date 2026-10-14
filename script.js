@@ -77,6 +77,17 @@ let sourceTypeahead = "";
 let sourceTypeaheadTime = 0;
 const searchTableWrapper = document.getElementById("search-table-wrapper");
 
+const sourceDetails = document.getElementById("source-details");
+const sourceCover = document.getElementById("source-cover");
+const sourceCoverImage = document.getElementById("source-cover-image");
+const sourceCoverPlaceholder = document.getElementById("source-cover-placeholder");
+const sourceDetailsReference = document.getElementById("source-details-reference");
+const entryNavigation = document.getElementById("entry-navigation");
+const entryNavigationCount = document.getElementById("entry-navigation-count");
+const backToResults = document.getElementById("back-to-results");
+let lastOpenedRow = null;
+
+
 const searchRows = Array.from(
     document.querySelectorAll(".search-row")
 );
@@ -1316,6 +1327,8 @@ function cardsForActiveDictionary() {
 
 function resetSearchState() {
     searchInput.value = "";
+    lastOpenedRow = null;
+    entryNavigation.hidden = true;
 
     searchRows.forEach(function (row) {
         row.hidden = true;
@@ -1369,6 +1382,7 @@ function populateSourceFilter() {
             : "";
 
     syncSourceCombobox();
+    updateSourceDetails();
 }
 
 
@@ -1485,6 +1499,85 @@ function selectSourceOption(index) {
 }
 
 
+
+/* O total digital é apurado das linhas já montadas no DOM, não de manifestos. */
+function updateSourceDetails() {
+    const sourceCode = sourceFilter.value;
+    const catalog = window.ScripturaSourceCatalog || {};
+    const data = catalog[sourceCode];
+
+    sourceDetails.hidden = !sourceCode;
+    if (!sourceCode) {
+        sourceCoverImage.hidden = true;
+        sourceCoverImage.removeAttribute("src");
+        return;
+    }
+
+    const title = data?.title || sourceCode;
+    const fields = {
+        "source-details-heading": title,
+        "source-details-authors": data?.authors || "Autoria não documentada",
+        "source-details-publisher": data?.publisher || "Não documentada",
+        "source-details-date": data?.date || "Não documentada",
+        "source-details-edition": data?.edition || "Não documentada",
+        "source-details-isbn": data?.isbn || "Não documentado / não aplicável",
+        "source-details-pages": data?.pages || "Não documentadas",
+        "source-details-entries": rowsForActiveDictionary().filter(function (row) {
+            return row.dataset.source === sourceCode;
+        }).length.toLocaleString("pt-BR"),
+        "source-details-note": data?.note ||
+            "Referência bibliográfica ainda não cadastrada. Total de verbetes refere-se exclusivamente ao acervo eletrônico."
+    };
+
+    Object.entries(fields).forEach(function ([id, value]) {
+        document.getElementById(id).textContent = value;
+    });
+
+    sourceCover.style.setProperty("--cover-tone", data?.coverColor || "#36516e");
+    document.getElementById("source-cover-short").textContent = sourceCode;
+    document.getElementById("source-cover-title").textContent = title;
+    sourceCoverImage.hidden = true;
+    sourceCoverPlaceholder.hidden = false;
+    sourceCoverImage.removeAttribute("src");
+
+    if (data?.coverUrl) {
+        sourceCoverImage.onload = function () {
+            if (sourceFilter.value !== sourceCode) return;
+            sourceCoverImage.hidden = false;
+            sourceCoverPlaceholder.hidden = true;
+            sourceCoverImage.alt = "Capa do exemplar digital de " + title;
+        };
+        sourceCoverImage.onerror = function () {
+            sourceCoverImage.hidden = true;
+            sourceCoverPlaceholder.hidden = false;
+        };
+        sourceCoverImage.src = data.coverUrl;
+    }
+
+    sourceDetailsReference.hidden = !data?.reference;
+    if (data?.reference) {
+        sourceDetailsReference.href = data.reference;
+    } else {
+        sourceDetailsReference.removeAttribute("href");
+    }
+}
+
+/* Voltar sem perder termo, filtro, seleção ou posição lógica no índice. */
+function returnToResults() {
+    if (entryNavigation.hidden) return;
+
+    entryNavigation.hidden = true;
+    filterEntries();
+
+    if (lastOpenedRow && !lastOpenedRow.hidden) {
+        lastOpenedRow.focus({ preventScroll: true });
+        lastOpenedRow.scrollIntoView({ block: "center", behavior: "smooth" });
+    } else {
+        searchInput.focus();
+    }
+}
+
+
 function selectDictionary(dictionary, options) {
     const settings =
         Object.assign(
@@ -1575,6 +1668,7 @@ function updateCounter(count) {
    ========================================================== */
 
 function filterEntries() {
+    entryNavigation.hidden = true;
     const rawQuery =
         searchInput.value.trim();
 
@@ -1700,6 +1794,12 @@ function openEntry(row) {
     entryCards.forEach(function (card) {
         card.hidden = card !== target;
     });
+
+    lastOpenedRow = row;
+    entryNavigationCount.textContent = searchCount.textContent + " na pesquisa";
+    searchTableWrapper.hidden = true;
+    noResults.hidden = true;
+    entryNavigation.hidden = false;
 
     target.scrollIntoView({
         behavior: "smooth",
@@ -2075,8 +2175,11 @@ searchInput.addEventListener(
 
 sourceFilter.addEventListener("change", function () {
     syncSourceCombobox();
+    updateSourceDetails();
     filterEntries();
 });
+
+backToResults.addEventListener("click", returnToResults);
 
 sourceFilterButton.addEventListener("click", function () {
     if (sourceFilterOptions.hidden) {
@@ -2322,6 +2425,11 @@ document.addEventListener(
             dictionaryMenu.classList.contains("open")
         ) {
             closeDictionaryMenu(true);
+            return;
+        }
+
+        if (!entryNavigation.hidden && !activeTooltipTrigger) {
+            returnToResults();
             return;
         }
 

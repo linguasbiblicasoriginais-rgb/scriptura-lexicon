@@ -1,3 +1,9 @@
+## PR #122 — preparação da integração JASTROW (14/10/2026)
+
+Conciliação de `chat-gpt-jastrow` com `chat-gpt-commits`: preservados os recursos de frontend, capas, documentos, testes e demais léxicos do destino, e adicionados os módulos e originais JASTROW dos ordinais **1.001–12.000**. O conflito de `index.html` foi resolvido incluindo **111 carregamentos adicionais de scripts JASTROW** sem descartar a ficha bibliográfica de `lexicons/source-catalog.js`; `README.md` reúne os históricos de ambas as branches. O destino inicial possuía 1.000 entradas JASTROW; o total editorial projetado após a integração é **12.000**, conforme checkpoint da origem. Ver [relatório técnico](auditorias/integracao-pr-122-2026-10-14.md). A conclusão do merge deve ser comprovada por `merged=true` e SHA remoto, não inferida deste texto.
+
+**Limites de qualidade:** a origem declara `total_audited=0` e glosas preliminares não revistas nos módulos recentes. O merge técnico não equivale à auditoria filológica integral, nem homologa individualmente traduções, exemplos, notas, popups ou testes dinâmicos de todas as entradas.
+
 ## JASTROW — incorporação exclusiva 3.001–4.000 (14/10/2026)
 
 Na branch exclusiva `chat-gpt-jastrow`, foram incorporadas **1.000 novas entradas lexicais** (ordinais **3.001–4.000**, IDs canônicos **A03000–B00542**) em dez módulos de 100 verbetes. A sequência original cruza a fronteira do prefixo **A → B** no ordinal **3.458** (`B00000`); cada registro conserva sua identidade e seu lema, incluindo homógrafos e remissões. A fonte XML original integral de Marcus Jastrow, do commit fixo `Sefaria/Sefaria-Data` `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, foi preservada nos lotes [0016](lexicons/jastrow-source-lote-0016.json), [0017](lexicons/jastrow-source-lote-0017.json), [0018](lexicons/jastrow-source-lote-0018.json), [0019](lexicons/jastrow-source-lote-0019.json) e [0020](lexicons/jastrow-source-lote-0020.json). Os módulos `jastrow-3001-3100.js` até `jastrow-3901-4000.js` são carregados por `index.html`.
@@ -15,6 +21,20 @@ Publicados exclusivamente na branch `chat-gpt-jastrow` os verbetes dos ordinais 
 Na branch `chat-gpt-jastrow`, foram incorporadas **1.000 novas entradas JASTROW** (ordinais **1.001–2.000**, IDs canônicos **A01000–A01999**) mediante dez módulos editoriais de 100 registros, sempre mantendo cada homógrafo e remissão individualizados pelo ID original. Total editorial acumulado: **2.000 de 32.512 (6,15%)**. Os documentos XML integrais são os lotes [0006](lexicons/jastrow-source-lote-0006.json), [0007](lexicons/jastrow-source-lote-0007.json), [0008](lexicons/jastrow-source-lote-0008.json), [0009](lexicons/jastrow-source-lote-0009.json) e [0010](lexicons/jastrow-source-lote-0010.json), recuperados do commit canônico `Sefaria/Sefaria-Data` `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Os dez módulos de síntese são `lexicons/jastrow-{1001-1100,1101-1200,1201-1300,1301-1400,1401-1500,1501-1600,1601-1700,1701-1800,1801-1900,1901-2000}.js`, carregados por `index.html` e auxiliados pelo módulo `jastrow-editorial-append.js`.
 
 O conteúdo português consiste em **sínteses lexicais**, e não reprodução exaustiva de todos os exemplos, aparato de variantes e notas, que permanecem preservados nos documentos originais. **Somente incorporação** nesta rodada: não foram executadas auditoria, homologação ou integração, nem foi aberto PR/merge. Próximo registro: ordinal **2.001**, ID **A02000**, lema **אָמוֹן,**.
+
+## Frontend — oito capas locais sem recortes (13/10/2026)
+
+THAYER, BDAG, LEH, DGP, ROBINSON, ABBOTT-SMITH, HALOT e JASTROW agora utilizam as imagens PNG fornecidas pelo mantenedor em `imagens/capas/`, com `coverUrl` relativos em `lexicons/source-catalog.js`. As imagens são exibidas integralmente, preservando proporções e sem redesenhos; os demais dicionários, a busca e todos os verbetes permanecem inalterados. A regressão Chromium verifica os oito arquivos PNG e o carregamento das fontes disponíveis no seletor. Há ressalvas sobre as diferenças entre as edições retratadas nas imagens e os metadados impressos, registradas em [docs/FRONTEND-LEITURA.md](docs/FRONTEND-LEITURA.md).
+
+## PR #119 — conciliação do frontend e JASTROW (12/10/2026)
+
+A integração da interface de catálogo bibliográfico e navegação do PR [#119](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/pull/119) foi preparada sobre `chat-gpt-commits`, mantendo o histórico lexical do destino, os **1.000 JASTROW já integrados** e todos os demais scripts. A nova interface e seus testes são preservados, sem reescrita de verbetes; a documentação original de frontend vem em seguida. Os testes de navegador precisam ser repetidos sobre o resultado combinado, e o merge definitivo deverá ser confirmado no GitHub. [Relatório de conciliação](auditorias/integracao-pr-119-2026-10-12.md).
+
+## Frontend — ficha bibliográfica e navegação de verbetes (12/10/2026)
+
+O combobox de fontes exibe uma ficha bibliográfica contextual (editora, data, edição, ISBN, paginação, capa do exemplar quando disponível e representação tipográfica identificada quando não, além do **total de verbetes efetivamente carregados** para a fonte/dicionário). A abertura de um verbete oculta os resultados e oferece **Voltar aos resultados**, preservando pesquisa, filtro e foco no item aberto. Metadados e limitações estão documentados em [docs/FRONTEND-LEITURA.md](docs/FRONTEND-LEITURA.md); catálogo em `lexicons/source-catalog.js`. Nenhum verbete foi editado por esta alteração.
+
+**Teste funcional:** Chromium/Playwright aprovado no [GitHub Actions #38288709833](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38288709833): 6 fontes gregas, 1 hebraica e 1 aramaica; latim permanece sem corpus. Não certifica colação filológica nem autenticidade de capas.
 
 ## PR #117 — mesclagem confirmada e checkpoint atualizado (12/10/2026)
 
