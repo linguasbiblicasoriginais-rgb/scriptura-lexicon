@@ -1210,7 +1210,13 @@ function enrichBibliographicTooltips() {
          * por um registro separado para evitar inferências
          * baseadas apenas em capitalização.
          */
+        // Não percorre todos os nós para autores ausentes do artigo.
+        // Apenas descarta buscas impossíveis; a substituição original é preservada.
         sortedNamedAuthors.forEach(function (definition) {
+                if (!root.textContent.toLocaleLowerCase("pt-BR")
+                    .includes(definition.key.toLocaleLowerCase("pt-BR"))) {
+                    return;
+                }
                 collectPlainTextNodes(root)
                     .forEach(function (node) {
                         wrapKnownTermsInTextNode(
