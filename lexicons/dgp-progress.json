@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 32901,
-    "status": "Lotes DGP 1–378 incorporados; 32900 registros XML no manifesto; próxima entrada 32901. Somente incorporação.",
+    "next_ordinal": 33001,
+    "status": "Lotes DGP 1–379 incorporados; 33000 registros XML no manifesto; próxima entrada 33001. Somente incorporação.",
     "current_letter": "π",
     "total_dictionary_entries": 44590
   },
@@ -3416,6 +3416,15 @@
       "end_ordinal": 32900,
       "start_entry": "πεφροντισμένως",
       "end_entry": "πιθηκισμός, οῦ (ὁ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 379,
+      "start_ordinal": 32901,
+      "end_ordinal": 33000,
+      "start_entry": "πίθηκος, ου (ὁ, ἡ)",
+      "end_entry": "πίτνω",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
