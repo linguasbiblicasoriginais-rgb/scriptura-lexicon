@@ -1,3 +1,11 @@
+## THAYER — terceiro lote de 100 fichas atingido (14/10/2026)
+
+A branch exclusiva `chat-gpt-thayer` passou de **250 a 300 fichas digitais** de trabalho: **50 novos cabeçalhos impressos**, de **ἅλλομαι** até **ἀμπελών**, nas páginas impressas **28–32** do fac-símile (folhas PDF **52–56**). Assim, o **terceiro lote de 100** foi atingido numericamente. **Próximo cabeçalho:** **Ἀμπλιᾶτος**, iniciado na página 32 e continuado na página 33. O estado operacional está em `lexicons/thayer-progress.json`.
+
+As novas fontes são `lexicons/thayer-source-facsimile-025.json` (18 artigos), `026.json` (15), `027a.json` (8) e `027b.json` (9); os módulos correspondentes `lexicons/thayer-batch-025-facsimile.js`, `026`, `027a` e `027b` foram ligados à interface em `index.html`. Os grandes artigos **ἁμαρτάνω**, **ἁμάρτημα**, **ἁμαρτία** e **ἀμήν** permanecem individualizados conforme os cabeçalhos fotográficos, com distinções de acepção, variantes e referências bíblicas. O artigo **ἅλλομαι** e outros atravessam páginas sem se tornarem cabeçalhos fictícios.
+
+**Situação filológica:** os registros são traduções analíticas **de trabalho**, e cada fonte guarda OCR **bruto extraído das fotografias**, com leitura grega passível de erro. A fotografia é a única autoridade para as incorporações desta rodada; Strong e arquivos eletrônicos independentes não foram usados para preencher lacunas. O número 300 **não equivale** a 300 transcrições inglesas diplomáticas nem traduções integrais certificadas; a colação completa ainda não ocorreu. Nenhuma auditoria formal, homologação, PR, merge ou alteração em `main` foi efetuada. As 712 entradas legadas continuam preservadas no arquivo histórico.
+
 ## THAYER — terceiro lote: 50/100 artigos de trabalho (14/10/2026)
 
 **Estado remoto:** 250 registros digitais de trabalho na branch `chat-gpt-thayer`, incluindo **50 novos** do terceiro lote, **ἀκρίβεια–ἀλλογενής**, presentes no fac-símile de Thayer, páginas impressas **23–28** (folhas PDF **47–52**). O **próximo artigo é ἅλλομαι**, na página 28. A meta parcial é 50/100 no lote atual; a quantidade total de verbetes do dicionário não foi estabelecida.
