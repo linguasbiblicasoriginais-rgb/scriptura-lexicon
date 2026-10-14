@@ -1,0 +1,50 @@
+{
+  "verbete": {
+    "sid": "A00018",
+    "lemma": "אַבָּא,",
+    "type": "Nome próprio masculino",
+    "gloss": "Abba; nome de diversos amoraítas",
+    "dicionario": "JASTROW",
+    "lote": "011-040",
+    "arquivo": "jastrow-011-040.js"
+  },
+  "fonte": {
+    "edicao": "A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature",
+    "autor": "Marcus Jastrow",
+    "volume": "1 (a confirmar no fac-simile)",
+    "pagina": "1 (a confirmar no fac-simile)",
+    "entrada_facsimile": "אַבָּא II, אַכָּה pr. n. m.",
+    "url_facsimile": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "url_sefaria": "https://www.sefaria.org/Jastrow",
+    "texto_fonte": "אַבָּא II, אַכָּה (בָּא, וָוא, וָוה in Y.) pr. n. m. Abba, (Ba, Va), a frequent name. [Sometimes distinguished persons go by that name, being orig. a title (v. next w.) while their real names are dropped; v. esp. Ber. 18ᵇ בעינא א׳ I want Abba &c.] The most distinguished are 1) א׳ אריכא, v. רַב. — 2) רב א׳ v. רָבָא. — 3) (בר בא) א׳ בר אבהו Abba bar Abbahu (Ba), father of Samuel, an Amora. — 4) א׳ בר רב הונא, in Bab. רַבָּה q. v. — 5) א׳ מרי, contr. אבמרי Abba Mari, an Amora.—אבין, אבינא, contr. with ר׳ into רַבִּין, רַבִּינָא Rabbin, Rabbina."
+  },
+  "conferencia": {
+    "lematizacao_confere": true,
+    "gloss_completo": true,
+    "exemplos_html_conferidos": true,
+    "variantes_registradas": true,
+    "observacoes": "[NOTA DE COLACAO] Cabeçalho alternativo אַכָּה; grafias do Jerusalém בָּא, וָוא, וָוה. Trata-se de formas históricas associadas a pessoas distintas, não de uma identificação única.\n\n[CONSULTA REALIZADA — Sefaria] Texto conferido em 2026-10-14. Confere integralmente: cabeçalho alternativo אַכָּה, grafias בָּא / וָוא / וָוה (Jerusalém), lista dos amoraítas (Abba Arikha, Rav Abba, Abba bar Abbahu, Abba bar Rav Huna, Abba Mari / אבמרי), contrações Abin/Abina → Ravin/Ravina, Ber. 18ᵇ. Nenhuma correção necessária.\n\n[PENDENTE] Confirmar vol./pág. no fac-símile."
+  },
+  "correcoes_aplicadas": [],
+  "regressao": {
+    "textual": null,
+    "filologica": null,
+    "funcional": null,
+    "comandos_executados": []
+  },
+  "estado": "AGUARDANDO_INTEGRACAO",
+  "pr_merge": null,
+  "data": "2026-10-14",
+  "kit_auditoria": {
+    "fonte_primaria": "Jastrow 1903, 2 vols (Luzac / Putnam)",
+    "url_sefaria_base": "https://www.sefaria.org/Jastrow",
+    "url_facsimile_base": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "instrucoes": [
+      "1. Consultar a entrada no Sefaria (buscar pelo lemma).",
+      "2. Confirmar contra o fac-simile no archive.org (vol. 1 ou 2).",
+      "3. Preencher os campos de conferencia.",
+      "4. Executar regressao textual, filologica e funcional.",
+      "5. Marcar estado final e registrar PR."
+    ]
+  }
+}
