@@ -1,3 +1,11 @@
+## THAYER — terceiro lote: 50/100 artigos de trabalho (14/10/2026)
+
+**Estado remoto:** 250 registros digitais de trabalho na branch `chat-gpt-thayer`, incluindo **50 novos** do terceiro lote, **ἀκρίβεια–ἀλλογενής**, presentes no fac-símile de Thayer, páginas impressas **23–28** (folhas PDF **47–52**). O **próximo artigo é ἅλλομαι**, na página 28. A meta parcial é 50/100 no lote atual; a quantidade total de verbetes do dicionário não foi estabelecida.
+
+**Fontes e apresentação:** `lexicons/thayer-source-facsimile-022.json` (15 entradas), `023.json` (17) e `024.json` (18) contêm cabeçalhos, referências à fotografia, OCR original falível e tradução portuguesa de trabalho, em campos distintos. `lexicons/thayer-batch-022-facsimile.js`, `023` e `024` adicionam linhas de busca e cartões e são carregados pelo `index.html`. A sequência foi determinada pelos **cabeçalhos fotografados**, não por Strong ou fontes eletrônicas alternativas. Os artigos extensos `ἀκροβυστία`, `ἅλας`, `ἀλήθεια` e `ἀλλά` preservam sua unidade tipográfica.
+
+**Qualificação filológica:** as traduções são fichas **preliminares e analíticas**, não transcrições inglesas integrais nem traduções portuguesas plenamente colacionadas. A grafia do topônimo remissivo **Ἄλασσα** (p. 25) requer conferência do impresso em maior resolução e foi assim identificada na ficha, sem certeza artificiosa; variantes e remissões entre colchetes permanecem entradas tipográficas separadas quando assim aparece no fac-símile. Erros possíveis do OCR grego não foram tratados como leitura canônica. Nenhuma auditoria formal, homologação, PR, merge ou alteração de `main` foi realizada.
+
 ## THAYER — segundo lote de 100 fichas digitais concluído (14/10/2026)
 
 A branch `chat-gpt-thayer` contém agora **200 registros digitais de trabalho**, organizados na ordem dos artigos fotografados, de **Α, α (ἄλφα)** até **ἄκρατος**. O **segundo lote de 100** encerrou na página impressa **23** (folha PDF **47**) após a incorporação de **31 novos artigos** nesta execução, de **αἰών** a **ἄκρατος**. **Próxima entrada: ἀκρίβεια** (p. 23). O checkpoint canônico está em `lexicons/thayer-progress.json`.
