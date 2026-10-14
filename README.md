@@ -1,3 +1,9 @@
+## THAYER — quinto lote digital concluído: 500 registros (14/10/2026)
+
+Foram acrescentadas **15 fichas** (IDs `0486–0500`) dos verbetes **ἀνταγωνίζομαι** a **ἀντικαθίστημι**, páginas impressas **49–50** (folhas PDF **73–74**). Documentos de fonte e apresentação: `lexicons/thayer-source-facsimile-046.json` e `lexicons/thayer-batch-046-facsimile.js`, este ativado pelo `index.html`. O checkpoint alcançou **500 fichas digitais**, completando a meta nominal de **100/100 na quinta centena**. **Próximo lema: ἀντικαλέω**.
+
+As fotografias foram examinadas em ampliação para conferir cabeçalhos e limites dos artigos. Foram mantidos indivisíveis `ἀντί` e `ἀνταναπληρόω`; o último conserva como atribuídas as posições exegéticas discutidas por Thayer. **Ressalva indispensável:** as 500 fichas são material editorial de trabalho, não 500 transcrições inglesas integrais ou traduções portuguesas diplomaticamente revistas. O campo inglês dos 15 novos registros permanece vazio até transcrição confiável. A colação filológica, variantes, autoridades e testes no navegador ainda estão pendentes. Não ocorreu PR/merge nem escrita em `main` ou em outros léxicos.
+
 ## THAYER — quinta centena 85/100, 485 registros (14/10/2026)
 
 Esta continuação incorporou **9 artigos tipográficos**, de **ἀνοίγω** a **ἀνοχή** (IDs `0477–0485`), em fonte `lexicons/thayer-source-facsimile-045.json` e interface `lexicons/thayer-batch-045-facsimile.js` carregada pelo `index.html`. Páginas impressas **48–49**, folhas PDF **72–73**. **Próximo lema: ἀνταγωνίζομαι**, p. 49. O acumulado é **485 fichas digitais de trabalho** e o quinto lote atingiu **85/100**.
