@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 24701,
-    "status": "Lotes DGP 1–296 incorporados; 24700 registros XML no manifesto; próxima entrada 24701. Somente incorporação.",
+    "next_ordinal": 24801,
+    "status": "Lotes DGP 1–297 incorporados; 24800 registros XML no manifesto; próxima entrada 24801. Somente incorporação.",
     "current_letter": "λ",
     "total_dictionary_entries": 44590
   },
@@ -2678,6 +2678,15 @@
       "end_ordinal": 24700,
       "start_entry": "κωτίλλω",
       "end_entry": "λακάζω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 297,
+      "start_ordinal": 24701,
+      "end_ordinal": 24800,
+      "start_entry": "Λάκαινα, ης",
+      "end_entry": "λασανοφόρος, ου (ὁ)",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
