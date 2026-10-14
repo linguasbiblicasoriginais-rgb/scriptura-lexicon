@@ -1968,6 +1968,7 @@ function buildTooltipContent(trigger) {
     }
 
     if (type === "greek") {
+        const transliteration = trigger.dataset.transliteration || "";
         const meanings =
             parseMeanings(
                 trigger.dataset.meanings
@@ -1977,6 +1978,16 @@ function buildTooltipContent(trigger) {
             '<div class="tooltip-heading greek-heading">' +
             escapeHtml(label) +
             "</div>";
+
+        if (transliteration) {
+            html +=
+                '<div class="tooltip-block">' +
+                '<span class="tooltip-label">Transliteração</span>' +
+                '<div class="tooltip-value">' +
+                escapeHtml(transliteration) +
+                "</div>" +
+                "</div>";
+        }
 
         if (meanings.length) {
             html +=
