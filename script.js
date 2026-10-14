@@ -97,6 +97,20 @@ const entryCards = Array.from(
 );
 
 const searchCount = document.getElementById("search-count");
+
+const rowsByDictionary = new Map();
+const normalizedSearchCache = new WeakMap();
+let openedEntryCard = null;
+let searchInputTimer = null;
+
+// Índices de apresentação, sem alteração do conteúdo dos verbetes.
+searchRows.forEach(function (row) {
+    const dictionary = row.dataset.dictionary || "grego";
+    if (!rowsByDictionary.has(dictionary)) {
+        rowsByDictionary.set(dictionary, []);
+    }
+    rowsByDictionary.get(dictionary).push(row);
+});
 const noResults = document.getElementById("no-results");
 
 const dictionaryTitle = document.getElementById("dictionary-title");
@@ -1161,6 +1175,11 @@ function enrichBibliographicTooltips() {
             )
         );
 
+    // A lista é imutável durante a inicialização: ordenar uma única vez.
+    const sortedNamedAuthors = automaticNamedAuthors.slice().sort(function (a, b) {
+        return b.key.length - a.key.length;
+    });
+
     roots.forEach(function (root) {
         const definitions =
             getBibliographicDefinitionsForRoot(
@@ -1192,15 +1211,7 @@ function enrichBibliographicTooltips() {
          * por um registro separado para evitar inferências
          * baseadas apenas em capitalização.
          */
-        automaticNamedAuthors
-            .slice()
-            .sort(function (a, b) {
-                return (
-                    b.key.length -
-                    a.key.length
-                );
-            })
-            .forEach(function (definition) {
+        sortedNamedAuthors.forEach(function (definition) {
                 collectPlainTextNodes(root)
                     .forEach(function (node) {
                         wrapKnownTermsInTextNode(
@@ -1312,9 +1323,7 @@ function dictionaryFromHash() {
 
 
 function rowsForActiveDictionary() {
-    return searchRows.filter(function (row) {
-        return row.dataset.dictionary === activeDictionary;
-    });
+    return rowsByDictionary.get(activeDictionary) || [];
 }
 
 
@@ -1334,9 +1343,10 @@ function resetSearchState() {
         row.hidden = true;
     });
 
-    entryCards.forEach(function (card) {
-        card.hidden = true;
-    });
+    if (openedEntryCard) {
+        openedEntryCard.hidden = true;
+        openedEntryCard = null;
+    }
 
     searchTableWrapper.hidden = true;
     noResults.hidden = true;
@@ -1678,9 +1688,10 @@ function filterEntries() {
     const selectedSource =
         sourceFilter.value;
 
-    entryCards.forEach(function (card) {
-        card.hidden = true;
-    });
+    if (openedEntryCard) {
+        openedEntryCard.hidden = true;
+        openedEntryCard = null;
+    }
 
     if (query === "") {
         searchRows.forEach(function (row) {
@@ -1702,23 +1713,16 @@ function filterEntries() {
     const activeRows =
         rowsForActiveDictionary();
 
-    searchRows.forEach(function (row) {
-        if (
-            row.dataset.dictionary !==
-            activeDictionary
-        ) {
-            row.hidden = true;
-            return;
-        }
-
+    activeRows.forEach(function (row) {
         const rawSearchText =
             row.dataset.search ||
             row.textContent;
 
-        const searchableText =
-            normalizeText(
-                rawSearchText
-            );
+        let searchableText = normalizedSearchCache.get(row);
+        if (searchableText === undefined) {
+            searchableText = normalizeText(rawSearchText);
+            normalizedSearchCache.set(row, searchableText);
+        }
 
         const rowSource =
             row.dataset.source || "";
@@ -1734,7 +1738,9 @@ function filterEntries() {
             matchesText &&
             matchesSource;
 
-        row.hidden = !visible;
+        if (row.hidden === visible) {
+            row.hidden = !visible;
+        }
 
         if (visible) {
             visibleCount++;
@@ -1791,9 +1797,11 @@ function openEntry(row) {
         return;
     }
 
-    entryCards.forEach(function (card) {
-        card.hidden = card !== target;
-    });
+    if (openedEntryCard && openedEntryCard !== target) {
+        openedEntryCard.hidden = true;
+    }
+    target.hidden = false;
+    openedEntryCard = target;
 
     lastOpenedRow = row;
     entryNavigationCount.textContent = searchCount.textContent + " na pesquisa";
@@ -2168,10 +2176,10 @@ themeInputs.forEach(function (input) {
     });
 });
 
-searchInput.addEventListener(
-    "input",
-    filterEntries
-);
+searchInput.addEventListener("input", function () {
+    clearTimeout(searchInputTimer);
+    searchInputTimer = setTimeout(filterEntries, 120);
+});
 
 sourceFilter.addEventListener("change", function () {
     syncSourceCombobox();
@@ -2290,79 +2298,69 @@ document.addEventListener("pointerdown", function (event) {
     }
 });
 
-searchRows.forEach(function (row) {
-    row.addEventListener(
-        "click",
-        function () {
-            openEntry(row);
-        }
-    );
-
-    row.addEventListener(
-        "keydown",
-        function (event) {
-            if (
-                event.key === "Enter" ||
-                event.key === " "
-            ) {
-                event.preventDefault();
-                openEntry(row);
-            }
-        }
-    );
+// Delegação: dois eventos para a tabela, em vez de dois por verbete.
+const searchResultsBody = document.getElementById("search-results");
+searchResultsBody.addEventListener("click", function (event) {
+    const row = event.target.closest(".search-row");
+    if (row) openEntry(row);
+});
+searchResultsBody.addEventListener("keydown", function (event) {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const row = event.target.closest(".search-row");
+    if (!row) return;
+    event.preventDefault();
+    openEntry(row);
 });
 
 function bindTooltipEvents() {
-    tooltipTriggers =
-        Array.from(
-            document.querySelectorAll(
-                ".tooltip-trigger"
-            )
-        );
+    // Delegação preserva pop-ups de mouse, teclado e toque, sem milhares
+    // de ouvintes individuais. Os gatilhos criados depois também funcionam.
+    function closestTrigger(event) {
+        return event.target instanceof Element
+            ? event.target.closest(".tooltip-trigger")
+            : null;
+    }
 
-    tooltipTriggers.forEach(function (trigger) {
-    trigger.addEventListener(
-        "mouseenter",
-        function () {
+    document.addEventListener("mouseover", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger && !trigger.contains(event.relatedTarget)) {
             showTooltip(trigger);
         }
-    );
+    });
 
-    trigger.addEventListener(
-        "mouseleave",
-        hideTooltip
-    );
+    document.addEventListener("mouseout", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger && !trigger.contains(event.relatedTarget) &&
+                activeTooltipTrigger === trigger) {
+            hideTooltip();
+        }
+    });
 
-    trigger.addEventListener(
-        "focus",
-        function () {
+    document.addEventListener("focusin", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger) showTooltip(trigger);
+    });
+
+    document.addEventListener("focusout", function (event) {
+        const trigger = closestTrigger(event);
+        if (trigger && activeTooltipTrigger === trigger) {
+            hideTooltip();
+        }
+    });
+
+    document.addEventListener("click", function (event) {
+        const trigger = closestTrigger(event);
+        if (!trigger) return;
+        event.stopPropagation();
+
+        if (activeTooltipTrigger === trigger &&
+                lexicalTooltip.classList.contains("visible")) {
+            hideTooltip();
+        } else {
             showTooltip(trigger);
         }
-    );
-
-    trigger.addEventListener(
-        "blur",
-        hideTooltip
-    );
-
-    trigger.addEventListener(
-        "click",
-        function (event) {
-            event.stopPropagation();
-
-            if (
-                activeTooltipTrigger === trigger &&
-                lexicalTooltip.classList.contains("visible")
-            ) {
-                hideTooltip();
-            } else {
-                showTooltip(trigger);
-            }
-        }
-    );
     });
 }
-
 
 window.addEventListener(
     "resize",
