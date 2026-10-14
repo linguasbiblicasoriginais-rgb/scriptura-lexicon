@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 20391,
-    "status": "Lotes DGP 1–252 incorporados; 20390 registros XML no manifesto; próxima entrada 20391. Somente incorporação.",
+    "next_ordinal": 20491,
+    "status": "Lotes DGP 1–253 incorporados; 20490 registros XML no manifesto; próxima entrada 20491. Somente incorporação.",
     "current_letter": "ι",
     "total_dictionary_entries": 44590
   },
@@ -2280,6 +2280,15 @@
       "end_ordinal": 20390,
       "start_entry": "ἰξύς, ύος",
       "end_entry": "Ἱπποδάμεια, ας (ἡ)",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 253,
+      "start_ordinal": 20391,
+      "end_ordinal": 20490,
+      "start_entry": "ἱππόδαμος, ος, ον",
+      "end_entry": "ἴσμεν",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
