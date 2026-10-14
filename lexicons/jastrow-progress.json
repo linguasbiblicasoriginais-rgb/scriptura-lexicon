@@ -9,20 +9,20 @@
   "rules": "regras/Rjastrow.txt",
   "scope": {
     "batch_size": 1000,
-    "next_ordinal": 2801,
-    "next_source_id": "A02800",
-    "next_lemma": "אפרדוכסוס",
+    "next_ordinal": 3001,
+    "next_source_id": "A03000",
+    "next_lemma": "אַרְדָּא,",
     "source_records_retrieved": 3000,
     "first_source_id": "A00000",
     "last_source_id": "A02999",
     "next_source_batch_ordinal": 3001,
     "next_source_batch_id": "A03000",
     "next_source_batch_lemma": "אַרְדָּא,",
-    "total_published": 2800,
+    "total_published": 3000,
     "total_audited": 0,
     "total_integrated": 1000,
-    "editorial_status": "2.800 verbetes editoriais JASTROW publicados; 800 nesta execução; apenas incorporação.",
-    "source_status": "3.000 registros originais preservados, com 2.200 sínteses editoriais publicadas.",
+    "editorial_status": "3.000 entradas JASTROW incorporadas na branch chat-gpt-jastrow, incluindo 1.000 novas nesta execução. Sínteses portuguesas de acepções e remissões, sem transcrição exaustiva de notas e exemplos, preservados em fonte original. Não foram feitas auditoria, homologação ou integração.",
+    "source_status": "3.000 registros originais completos recuperados do XML Sefaria-Data, preservados em quinze lotes de 200.",
     "total_screened_filologically": 600,
     "total_manually_confronted_this_cycle": 5
   },
@@ -389,18 +389,42 @@
         "lexicons/jastrow-2701-2800.js"
       ],
       "status": "Sínteses portuguesas incorporadas sem auditoria, homologação ou integração."
+    },
+    {
+      "batch": 20,
+      "source_start_ordinal": 2801,
+      "source_end_ordinal": 3000,
+      "source_count": 200,
+      "source_file": "lexicons/jastrow-source-lote-0015.json",
+      "source_upstream_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+      "translated_start_ordinal": 2801,
+      "translated_end_ordinal": 3000,
+      "translated_count": 200,
+      "translated_first_id": "A02800",
+      "translated_last_id": "A02999",
+      "translated_files": [
+        "lexicons/jastrow-2801-2900.js",
+        "lexicons/jastrow-2901-3000.js"
+      ],
+      "status": "Incorporado editorialmente em português; sem auditoria, homologação ou integração."
     }
   ],
   "last_attempt": {
     "date": "2026-10-13",
     "requested": 1000,
-    "new_translations_committed": 800,
+    "new_translations_committed": 1000,
     "prior_published": 2000,
-    "total_published": 2800,
-    "new_range": "A02000–A02799",
+    "total_published": 3000,
+    "new_range": "A02000–A02999",
+    "source_records_retrieved_total": 3000,
+    "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+    "next_ordinal": 3001,
+    "next_source_id": "A03000",
+    "next_lemma": "אַרְדָּא,",
     "audit_performed": false,
     "homologation_performed": false,
-    "integration_performed": false
+    "integration_performed": false,
+    "editorial_level": "sínteses portuguesas das acepções e remissões; exemplos e aparato original integral preservados no XML"
   },
   "constraints": {
     "never_invent": true,
