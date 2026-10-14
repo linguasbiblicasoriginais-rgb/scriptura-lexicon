@@ -1,3 +1,9 @@
+## THAYER — 471 fichas digitais, quinto lote 71/100 (14/10/2026)
+
+Nova incorporação de **seis cabeçalhos** de **ἄνθρωπος** até **ἄνιπτος**, conforme consulta ao fac-símile fotografado de Thayer (páginas impressas **46–47**, folhas PDF **70–71**). O artigo **ἄνθρωπος** é mantido como unidade indivisível. Documentos de fonte e apresentação: `lexicons/thayer-source-facsimile-043.json` e `lexicons/thayer-batch-043-facsimile.js`; script carregado no `index.html`; checkpoint atualizado para **471**, 71/100 da quinta centena. Próximo lema: **ἀνίστημι**.
+
+**Limitações documentais:** as fichas registram **sinopses editoriais portuguesas provisórias**, não transcrições inglesas diplomáticas nem traduções integrais; o campo inglês está vazio, sem substituição por fontes eletrônicas de terceiros. A colação das subdivisões, das variantes e das referências impressas permanece pendente. A verificação aqui é exclusivamente estrutural, não homologação filológica. Não há PR/merge nem escrita em `main`.
+
 ## THAYER — 465 fichas digitais, quinto lote 65/100 (14/10/2026)
 
 A continuação de 456 incorporou **nove cabeçalhos** de **ἀνήρ** até **ἀνθρωποκτόνος**, nas páginas impressas **45–46** (folhas PDF **69–70**). Fonte JSON: `lexicons/thayer-source-facsimile-042.json`; apresentação: `lexicons/thayer-batch-042-facsimile.js`, ativado no `index.html`. Checkpoint: **465**, próximo artigo indivisível **ἄνθρωπος**, página 46. Contagem documental: **65/100** do quinto lote.
