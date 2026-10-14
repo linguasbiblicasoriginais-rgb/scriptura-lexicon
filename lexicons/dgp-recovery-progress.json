@@ -7,16 +7,16 @@
   "canonical_manifest_entries": 27000,
   "initial_missing_entries": 1490,
   "recovery_target_this_request": 745,
-  "recovered_entries": 200,
-  "remaining_missing_entries": 1290,
+  "recovered_entries": 300,
+  "remaining_missing_entries": 1190,
   "recovered_range": {
     "start": 141,
-    "end": 340
+    "end": 440
   },
   "pending_range": {
-    "start": 341,
+    "start": 441,
     "end": 1630
   },
-  "next_recovery_ordinal": 341,
+  "next_recovery_ordinal": 441,
   "action_scope": "Only missing DGP content recovery; no audit, homologation, PR or integration."
 }
