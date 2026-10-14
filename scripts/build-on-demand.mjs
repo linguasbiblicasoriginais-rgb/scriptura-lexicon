@@ -66,7 +66,12 @@ function register(records, rows, cards, origin) {
     for (const card of entries(cards, "article", "entry-card")) {
         const target = attribute(openTag(card), "id");
         if (!target) throw Error("Artigo sem identificador em " + origin);
-        if (byId.has(target)) throw Error("Artigo duplicado no mesmo módulo: " + target);
+        if (byId.has(target)) {
+            // document.getElementById() no frontend legado aponta para o
+            // primeiro artigo com esse ID. Reproduzir a mesma precedência.
+            collisions.push({target, kind:"article", identical:byId.get(target) === card, origin});
+            continue;
+        }
         byId.set(target, card);
     }
     for (const row of entries(rows, "tr", "search-row")) {
@@ -85,6 +90,7 @@ function register(records, rows, cards, origin) {
     if (records.length > 1000000) throw Error("Número anormal de linhas");
 }
 const records = [];
+const collisions = [];
 register(records, html, html, "index.html");
 const sourceTerms = {};
 for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) {
@@ -96,10 +102,28 @@ for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) 
         sourceTerms[label].push(...source.bibliographicTerms);
     }
 }
-const ids = new Set();
-for (const row of records) {
-    if (ids.has(row.target)) throw Error("Identificador repetido: " + row.target);
-    ids.add(row.target);
+// A fonte histórica pode registrar o mesmo ID em módulos diferentes.
+ // O catálogo derivado conserva o primeiro destino existente no DOM e une
+ // as formas pesquisáveis ao registro correspondente; nada é reescrito na fonte.
+const unique = new Map();
+for (const record of records) {
+    if (unique.has(record.target)) {
+        const first = unique.get(record.target);
+        if (first.source !== record.source || first.dictionary !== record.dictionary) {
+            throw Error("Colisão entre fontes distintas: " + record.target);
+        }
+        first.search = normalize(first.search + " " + record.search);
+        collisions.push({target:record.target, kind:"search-row", origin:record.source});
+    } else {
+        unique.set(record.target, record);
+    }
+}
+records.length = 0;
+records.push(...unique.values());
+if (collisions.length > 500) throw Error("Colisões acima do limite esperado: " + collisions.length);
+if (collisions.length) {
+    console.warn("Colisões de ID do legado: " + collisions.length,
+        JSON.stringify(collisions.slice(0,12)));
 }
 const chunkSize = 128;
 const counts = {};
@@ -160,4 +184,4 @@ emit("catalog.json", {
     version: 1, chunkSize, total: records.length, counts, samples, sourceTerms
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,
-    records:records.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize)}));
+    records:records.length,collisions:collisions.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize)}));
