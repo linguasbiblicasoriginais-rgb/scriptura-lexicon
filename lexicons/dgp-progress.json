@@ -8,8 +8,8 @@
   "scope": {
     "initial_letter": "α",
     "batch_size": 100,
-    "next_ordinal": 25601,
-    "status": "Lotes DGP 1–305 incorporados; 25600 registros XML no manifesto; próxima entrada 25601. Somente incorporação.",
+    "next_ordinal": 25701,
+    "status": "Lotes DGP 1–306 incorporados; 25700 registros XML no manifesto; próxima entrada 25701. Somente incorporação.",
     "current_letter": "μ",
     "total_dictionary_entries": 44590
   },
@@ -2759,6 +2759,15 @@
       "end_ordinal": 25600,
       "start_entry": "λυροποιός, οῦ (ὁ)",
       "end_entry": "μαγεύω",
+      "entry_count": 100,
+      "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
+    },
+    {
+      "batch": 306,
+      "start_ordinal": 25601,
+      "end_ordinal": 25700,
+      "start_entry": "μαγία, ας (ἡ)",
+      "end_entry": "μακρόβιος, ος, ον",
       "entry_count": 100,
       "status": "incorporado em chat-gpt-dgp; auditoria, homologação e integração não executadas"
     }
