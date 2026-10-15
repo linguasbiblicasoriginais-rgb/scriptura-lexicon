@@ -100,7 +100,12 @@ def main():
                           (ordinal, work), flush=True)
 
                 # Pelo menos um tooltip gramatical da fonte deve funcionar.
+                page.locator("#search-input").fill("ἀβαρής")
+                row17 = page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-0017"]')
+                row17.focus()
+                page.keyboard.press("Enter")
                 article = page.locator("#entry-dgp-0017")
+                check(article.evaluate("(el) => !el.hidden"), "Cartão #17 não reaberto")
                 abbr = article.locator('[data-tooltip-type="abbr"]')
                 check(abbr.count() >= 1, "Classe ou abreviatura sem popup (#17)")
                 abbr.first.focus()
