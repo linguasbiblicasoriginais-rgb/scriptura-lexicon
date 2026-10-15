@@ -1,0 +1,156 @@
+{
+  "source": "Sefaria — BDB Dictionary — seção hebraica",
+  "not_included": "BDB Aramaic Dictionary",
+  "source_url": "https://www.sefaria.org/BDB?tab=contents",
+  "initial_count_source_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38778124647",
+  "method": "23 blocos do headwordMap da Sefaria; 21 blocos tiveram fronteira confirmada no primeiro run, e os 2 blocos finais foram recontados após normalização dos sinais vocálicos no último lema",
+  "date_utc": "2026-10-15T17:54:14.191467+00:00",
+  "counted_letters": 23,
+  "source_first": "BDB, א",
+  "source_last": "BDB, תִּשְׁעִים",
+  "total_entries": 11015,
+  "alphabetic_sections": [
+    {
+      "letter": "א",
+      "first_ref": "BDB, א",
+      "count": 979,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ב",
+      "first_ref": "BDB, ב",
+      "count": 570,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ג",
+      "first_ref": "BDB, ג",
+      "count": 436,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ד",
+      "first_ref": "BDB, ד",
+      "count": 268,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ה",
+      "first_ref": "BDB, ה",
+      "count": 260,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ו",
+      "first_ref": "BDB, ו",
+      "count": 13,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ז",
+      "first_ref": "BDB, ז",
+      "count": 244,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ח",
+      "first_ref": "BDB, ח",
+      "count": 856,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ט",
+      "first_ref": "BDB, ט",
+      "count": 117,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "י",
+      "first_ref": "BDB, י",
+      "count": 586,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "כ",
+      "first_ref": "BDB, כ",
+      "count": 429,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ל",
+      "first_ref": "BDB, ל",
+      "count": 244,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "מ",
+      "first_ref": "BDB, מ",
+      "count": 997,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "נ",
+      "first_ref": "BDB, נ",
+      "count": 616,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ס",
+      "first_ref": "BDB, ס",
+      "count": 288,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ע",
+      "first_ref": "BDB, ע",
+      "count": 858,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "פ",
+      "first_ref": "BDB, פ",
+      "count": 438,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "צ",
+      "first_ref": "BDB, צ",
+      "count": 420,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ק",
+      "first_ref": "BDB, ק",
+      "count": 424,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "ר",
+      "first_ref": "BDB, ר",
+      "count": 546,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "שׂ",
+      "first_ref": "BDB, שׂ",
+      "count": 244,
+      "evidence": "2026-10-15 Sefaria traversal; GH Actions run 38778124647"
+    },
+    {
+      "letter": "שׁ",
+      "first_ref": "BDB, שׁ",
+      "count": 854,
+      "evidence": "2026-10-15 Sefaria resumed traversal",
+      "last_ref": "BDB, שָׁתַת",
+      "refs_sha256": "29343ff490c0254b76ff07d496a7cb9a666a374fc858c62a092da2f51ef93446"
+    },
+    {
+      "letter": "ת",
+      "first_ref": "BDB, ת",
+      "count": 328,
+      "evidence": "2026-10-15 Sefaria resumed traversal",
+      "last_ref": "BDB, תִּשְׁעִים",
+      "refs_sha256": "b9c7acf0c1f42771efb609ba9ebb9eb412bede8832241e6f62bb161de1f996fe"
+    }
+  ]
+}

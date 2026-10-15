@@ -1,7 +1,7 @@
 {
   "source": "BDB Dictionary",
   "source_url": "https://www.sefaria.org/BDB?tab=contents",
-  "source_total": null,
+  "source_total": 11015,
   "total_incorporated": 2000,
   "next_ref": "BDB, דָּבַב",
   "last_ref": "BDB, דֹּ֫בֶא",
@@ -2209,5 +2209,7 @@
       "first_ref": "BDB, גָּעַר",
       "last_ref": "BDB, דֹּ֫בֶא"
     }
-  ]
+  ],
+  "source_total_method": "23 blocos do headwordMap da Sefaria; 21 blocos tiveram fronteira confirmada no primeiro run, e os 2 blocos finais foram recontados após normalização dos sinais vocálicos no último lema",
+  "source_total_inventory_path": "lexicons/bdbh-source-inventory.json"
 }
