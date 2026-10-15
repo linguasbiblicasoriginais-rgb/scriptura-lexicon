@@ -1,0 +1,36 @@
+name: BDB Hebraico — Incorporação única
+on:
+  push:
+    branches:
+      - chat-gpt-bdbh
+    paths:
+      - .github/workflows/bdbh-ingest-once.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scriptura-bdbh-ingestion
+  cancel-in-progress: false
+
+jobs:
+  incorporar-bdb-hebraico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Obter exclusivamente a branch BDB Hebraico
+        uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-bdbh
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Configurar autor técnico dos commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Incorporação fiel da Sefaria em lotes de 100
+        run: python tools/bdbh_ingest.py
