@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "dictionary": "DGP",
+  "scope": "auditoria em duas etapas por lotes de 1000 verbetes",
+  "first_batch": [
+    1,
+    1000
+  ],
+  "total_dictionary_entries": 44590,
+  "source": {
+    "repo": "aniseferreira/Grc-Por-DigDict",
+    "sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+    "alpha_entries": 7204
+  },
+  "branches": {
+    "corrections": "chat-gpt-correcoes",
+    "dictionary": "chat-gpt-dgp",
+    "integration": "chat-gpt-commits"
+  },
+  "phase1_functional": {
+    "source_cotejo": {
+      "completed": 1000,
+      "total": 1000
+    },
+    "source_lemma_matches": 1000,
+    "definition_equivalences": 985,
+    "presentation_differences": 15,
+    "previous_smoke_browser_approved": 2,
+    "current_browser_batch": {
+      "workflow_run": 38673465781,
+      "from": 1,
+      "to": 1000,
+      "status": "COMPLETED_SUCCESS",
+      "tested_entries_confirmed": 1000,
+      "passed_entries": 1000,
+      "failed_entries": 0,
+      "run_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
+      "artifact_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38673465781/artifacts/11944539863",
+      "validated_dimensions": [
+        "lema",
+        "definicao",
+        "data-search",
+        "busca real",
+        "enter",
+        "popups por foco",
+        "grego transliterado",
+        "temas e mobile"
+      ]
+    },
+    "interface": {
+      "rows_cards": 1000,
+      "lemmata": 1000,
+      "definitions": 1000,
+      "search_queries": 1000,
+      "openings_enter": 1000,
+      "popups_found": 1436,
+      "popups_tested_ok": 1436,
+      "popups_failed": 0,
+      "ancient_greek_examples": 124,
+      "greek_transliterations": 124,
+      "js_errors": 0
+    }
+  },
+  "phase2_atomic_homologation": {
+    "historical_review": {
+      "reviewed": 1000,
+      "A": 910,
+      "C": 8,
+      "P": 82,
+      "method": "historica nao atomica"
+    },
+    "current_individual_fiches": {
+      "created": 1000,
+      "functional_passed": 1000,
+      "not_homologated": 1000,
+      "remaining_ancient_work_loci": 120,
+      "historical_pending": 82,
+      "unresolved_dgp_plato_variant": 1
+    },
+    "ancient_loci_author_confirmed": 4,
+    "individual_required_checks": 10,
+    "integrated_approved": 0
+  },
+  "global_ledger": {
+    "dictionary_total": 44590,
+    "first_batch_documentary_collected": 1000,
+    "first_batch_functional_approved": 1000,
+    "first_batch_atomic_approved": 0,
+    "cumulative_atomic_approved": 0,
+    "cumulative_percentage": 0,
+    "cumulative_functional_verified": 1000,
+    "cumulative_functional_percentage": 2.2427
+  },
+  "notes": [
+    "Cotejo estático e revisões históricas não equivalem a auditoria atômica.",
+    "Atualizar a contagem funcional somente após relatório de 1000 verbetes concluído no GitHub Actions.",
+    "Homologação exige dez controles e integração verificada segundo regras/Rauditoria.txt.",
+    "Permissão de escrita desta rotina exclusivamente em chat-gpt-correcoes."
+  ],
+  "phase3_final_homologation": {
+    "name": "Homologação definitiva após integração",
+    "lote": [
+      1,
+      1000
+    ],
+    "dictionary_total": 44590,
+    "source_field_bug_fixed": {
+      "field_correct": "lemma_coincide",
+      "affected_records": 1000,
+      "source_ok": 1000
+    },
+    "individual_reviewed": 5,
+    "documentary_ready": 5,
+    "awaiting_integration": 5,
+    "integrated_and_homologated": 0,
+    "still_pending": 995,
+    "approved_ids": [
+      2,
+      5,
+      6,
+      19,
+      33
+    ],
+    "ci": {
+      "stage1": 38673465781,
+      "stage3": 38692090158
+    },
+    "comments": "Integração pendente. 995 permanecem EM_EXECUCAO; 5 aguardam PR merged=true e conferência."
+  }
+}

@@ -130,12 +130,16 @@
         }
         const lexicons = window.ScripturaLexicons ||= {};
         for (const [name, terms] of Object.entries(catalog.sourceTerms || {})) {
+            const effectiveTerms = name === "DGP" &&
+                !terms.some(item => item.key === "ac. pl. n.")
+                ? [...terms, {key:"ac. pl. n.", type:"abbr", text:"acusativo plural neutro"}]
+                : terms;
             let slot = Object.values(lexicons).find(x=>x && x.source === name);
             if (!slot) {
-                slot = {source:name, bibliographicTerms:terms};
+                slot = {source:name, bibliographicTerms:effectiveTerms};
                 lexicons["SEARCH_" + name.replace(/[^A-Z0-9]/gi,"_")] = slot;
             } else {
-                slot.bibliographicTerms = terms;
+                slot.bibliographicTerms = effectiveTerms;
             }
             if (!externalLexiconSources.includes(slot)) externalLexiconSources.push(slot);
         }
