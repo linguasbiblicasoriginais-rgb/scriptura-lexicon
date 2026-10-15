@@ -26,6 +26,8 @@ jobs:
           node-version: '22'
       - name: Cotejo DGP 1-1000 e compilacao do formatador
         run: node tests/test_dgp_cotejo_1000.js
+      - name: Compilar índice DGP sob demanda
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
