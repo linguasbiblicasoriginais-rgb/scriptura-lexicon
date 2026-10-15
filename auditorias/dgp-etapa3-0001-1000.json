@@ -26,8 +26,8 @@
   },
   "totais": {
     "examinados_nesta_etapa": 5,
-    "documentalmente_aptos_aguardando_integracao": 5,
-    "homologados_definitivos": 0,
+    "documentalmente_aptos_aguardando_integracao": 0,
+    "homologados_definitivos": 5,
     "restantes_sem_checklist_atuado": 995
   },
   "verbetes": [
@@ -64,10 +64,15 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "pr": 147,
+        "merged": true,
+        "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "teste_integrado_run": 38694280677,
+        "teste_integrado_status": "success",
+        "origem_preservada": "031fdee29546b49d5534eb5f243df90909da3a58"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -106,13 +111,14 @@
           "evidencia": "A forma ἡ e o lema ὁ são remissões textuais, não hyperlinks; nenhuma URL no cartão. Nenhum link HTML foi encontrado no cartão testado. Fonte digital XML sem página impressa neste registro; não inventar paginador ou URL."
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "Verificação do lote de 1.000 IDs e controles funcionais aprovados. Falta PR merged=true, SHA e presença no destino consolidado."
+          "status": "OK",
+          "evidencia": "PR #147 merged=true, SHA bd56d7daf4e4e62d090475386b4ab3aedae68533; árvore da integração preservou fonte e frontend; CI integrado GitHub Actions #38694280677 success em 807d7e6a998409a2056ab9e6d2d04a04ad1ccf95."
         }
       },
       "parecer_individual": "Forma dórica do artigo definido feminino singular; correspondência ἁ = ἡ; ὁ designa a entrada do artigo.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 3,
@@ -166,10 +172,15 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "pr": 147,
+        "merged": true,
+        "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "teste_integrado_run": 38694280677,
+        "teste_integrado_status": "success",
+        "origem_preservada": "031fdee29546b49d5534eb5f243df90909da3a58"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -208,13 +219,14 @@
           "evidencia": "ᾗ e ὅς são remissões textuais, não hyperlinks. Nenhum link HTML foi encontrado no cartão testado. Fonte digital XML sem página impressa neste registro; não inventar paginador ou URL."
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "Verificação do lote de 1.000 IDs e controles funcionais aprovados. Falta PR merged=true, SHA e presença no destino consolidado."
+          "status": "OK",
+          "evidencia": "PR #147 merged=true, SHA bd56d7daf4e4e62d090475386b4ab3aedae68533; árvore da integração preservou fonte e frontend; CI integrado GitHub Actions #38694280677 success em 807d7e6a998409a2056ab9e6d2d04a04ad1ccf95."
         }
       },
       "parecer_individual": "Dativo feminino do relativo ὅς: forma dórica ᾇ correspondente a ᾗ.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 6,
@@ -230,10 +242,15 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "pr": 147,
+        "merged": true,
+        "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "teste_integrado_run": 38694280677,
+        "teste_integrado_status": "success",
+        "origem_preservada": "031fdee29546b49d5534eb5f243df90909da3a58"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -272,13 +289,14 @@
           "evidencia": "Não há hyperlinks ou citações de autor. Nenhum link HTML foi encontrado no cartão testado. Fonte digital XML sem página impressa neste registro; não inventar paginador ou URL."
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "Verificação do lote de 1.000 IDs e controles funcionais aprovados. Falta PR merged=true, SHA e presença no destino consolidado."
+          "status": "OK",
+          "evidencia": "PR #147 merged=true, SHA bd56d7daf4e4e62d090475386b4ab3aedae68533; árvore da integração preservou fonte e frontend; CI integrado GitHub Actions #38694280677 success em 807d7e6a998409a2056ab9e6d2d04a04ad1ccf95."
         }
       },
       "parecer_individual": "Interjeição de espanto, dor ou indignação, traduzida por ah!; quatro variantes (ἄ, ἅ, ἇ, ἆ).",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 7,
@@ -522,10 +540,15 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "pr": 147,
+        "merged": true,
+        "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "teste_integrado_run": 38694280677,
+        "teste_integrado_status": "success",
+        "origem_preservada": "031fdee29546b49d5534eb5f243df90909da3a58"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -564,13 +587,14 @@
           "evidencia": "Não há hyperlinks nem abonação autoral no texto DGP. Nenhum link HTML foi encontrado no cartão testado. Fonte digital XML sem página impressa neste registro; não inventar paginador ou URL."
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "Verificação do lote de 1.000 IDs e controles funcionais aprovados. Falta PR merged=true, SHA e presença no destino consolidado."
+          "status": "OK",
+          "evidencia": "PR #147 merged=true, SHA bd56d7daf4e4e62d090475386b4ab3aedae68533; árvore da integração preservou fonte e frontend; CI integrado GitHub Actions #38694280677 success em 807d7e6a998409a2056ab9e6d2d04a04ad1ccf95."
         }
       },
       "parecer_individual": "Advérbio ἀβασανίστως: (1) sem tortura ou sofrimento; (2) sem exame acurado, sem fundamento ou ao acaso.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 20,
@@ -833,10 +857,15 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "pr": 147,
+        "merged": true,
+        "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "teste_integrado_run": 38694280677,
+        "teste_integrado_status": "success",
+        "origem_preservada": "031fdee29546b49d5534eb5f243df90909da3a58"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -875,13 +904,14 @@
           "evidencia": "Não há hyperlinks ou abonações no DGP. Nenhum link HTML foi encontrado no cartão testado. Fonte digital XML sem página impressa neste registro; não inventar paginador ou URL."
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "Verificação do lote de 1.000 IDs e controles funcionais aprovados. Falta PR merged=true, SHA e presença no destino consolidado."
+          "status": "OK",
+          "evidencia": "PR #147 merged=true, SHA bd56d7daf4e4e62d090475386b4ab3aedae68533; árvore da integração preservou fonte e frontend; CI integrado GitHub Actions #38694280677 success em 807d7e6a998409a2056ab9e6d2d04a04ad1ccf95."
         }
       },
       "parecer_individual": "Advérbio ἀβελτέρως, com equivalência tolamente.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 34,
@@ -19256,5 +19286,13 @@
       },
       "decisao": "EM_EXECUCAO"
     }
-  ]
+  ],
+  "fechamento": {
+    "pr": 147,
+    "merged": true,
+    "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+    "ci_integrado": 38694280677,
+    "ci_status": "success",
+    "head": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
+  }
 }

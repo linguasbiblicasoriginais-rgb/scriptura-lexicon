@@ -32,11 +32,16 @@
     "stage3": {
       "corrigido_importacao_lema": 1000,
       "reexaminados_integralmente_nesta_rodada": 5,
-      "aprovados_documentalmente_aguardando_integracao": 5,
-      "homologados_definitivos": 0,
+      "aprovados_documentalmente_aguardando_integracao": 0,
+      "homologados_definitivos": 5,
       "restantes_em_execucao": 995,
       "fonte": "auditorias/dgp-etapa3-0001-1000.json",
-      "ci_candidatos": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38692090158"
+      "ci_candidatos": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38692090158",
+      "integracao": {
+        "pr": 147,
+        "sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "ci": 38694280677
+      }
     }
   },
   "verbetes": [
@@ -93,9 +98,9 @@
       "ordinal": 2,
       "id": "entry-dgp-0002",
       "lemma": "ἁ",
-      "estado": "AGUARDANDO_INTEGRACAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "AGUARDANDO_INTEGRACAO",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
         "fonte": "OK_XML",
         "lema": "OK_XML_NFC",
@@ -106,14 +111,17 @@
         "dados_html": "OK_CI",
         "navegador": "OK_CHROMIUM",
         "links": "OK_SEM_URL",
-        "consistencia_global": "AGUARDANDO_MERGE"
+        "consistencia_global": "OK_MERGE_PR147_E_CI_INTEGRADO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-2",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 147,
+        "sha_merge": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_consolidado_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -137,7 +145,13 @@
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
       "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
-      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-2"
+      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-2",
+      "regressao_final": {
+        "run_id": 38694280677,
+        "commit_testado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "status": "success"
+      },
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 3,
@@ -241,9 +255,9 @@
       "ordinal": 5,
       "id": "entry-dgp-0005",
       "lemma": "ᾇ",
-      "estado": "AGUARDANDO_INTEGRACAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "AGUARDANDO_INTEGRACAO",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
         "fonte": "OK_XML",
         "lema": "OK_XML_NFC",
@@ -254,14 +268,17 @@
         "dados_html": "OK_CI",
         "navegador": "OK_CHROMIUM",
         "links": "OK_SEM_URL",
-        "consistencia_global": "AGUARDANDO_MERGE"
+        "consistencia_global": "OK_MERGE_PR147_E_CI_INTEGRADO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-5",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 147,
+        "sha_merge": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_consolidado_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -285,15 +302,21 @@
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
       "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
-      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-5"
+      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-5",
+      "regressao_final": {
+        "run_id": 38694280677,
+        "commit_testado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "status": "success"
+      },
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 6,
       "id": "entry-dgp-0006",
       "lemma": "ἄ, ἅ, ἇ",
-      "estado": "AGUARDANDO_INTEGRACAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "AGUARDANDO_INTEGRACAO",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
         "fonte": "OK_XML",
         "lema": "OK_XML_NFC",
@@ -304,14 +327,17 @@
         "dados_html": "OK_CI",
         "navegador": "OK_CHROMIUM",
         "links": "OK_SEM_URL",
-        "consistencia_global": "AGUARDANDO_MERGE"
+        "consistencia_global": "OK_MERGE_PR147_E_CI_INTEGRADO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-6",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 147,
+        "sha_merge": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_consolidado_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -335,7 +361,13 @@
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
       "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
-      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-6"
+      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-6",
+      "regressao_final": {
+        "run_id": 38694280677,
+        "commit_testado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "status": "success"
+      },
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 7,
@@ -931,9 +963,9 @@
       "ordinal": 19,
       "id": "entry-dgp-0019",
       "lemma": "ἀβασανίστως",
-      "estado": "AGUARDANDO_INTEGRACAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "AGUARDANDO_INTEGRACAO",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
         "fonte": "OK_XML",
         "lema": "OK_XML_NFC",
@@ -944,14 +976,17 @@
         "dados_html": "OK_CI",
         "navegador": "OK_CHROMIUM",
         "links": "OK_SEM_URL",
-        "consistencia_global": "AGUARDANDO_MERGE"
+        "consistencia_global": "OK_MERGE_PR147_E_CI_INTEGRADO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-19",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 147,
+        "sha_merge": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_consolidado_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -975,7 +1010,13 @@
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
       "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
-      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-19"
+      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-19",
+      "regressao_final": {
+        "run_id": 38694280677,
+        "commit_testado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "status": "success"
+      },
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 20,
@@ -1618,9 +1659,9 @@
       "ordinal": 33,
       "id": "entry-dgp-0033",
       "lemma": "ἀβελτέρως",
-      "estado": "AGUARDANDO_INTEGRACAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "AGUARDANDO_INTEGRACAO",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
         "fonte": "OK_XML",
         "lema": "OK_XML_NFC",
@@ -1631,14 +1672,17 @@
         "dados_html": "OK_CI",
         "navegador": "OK_CHROMIUM",
         "links": "OK_SEM_URL",
-        "consistencia_global": "AGUARDANDO_MERGE"
+        "consistencia_global": "OK_MERGE_PR147_E_CI_INTEGRADO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-33",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 147,
+        "sha_merge": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+        "head_consolidado_verificado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -1662,7 +1706,13 @@
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
       "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
-      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-33"
+      "evidencia_stage3": "auditorias/dgp-etapa3-0001-1000.json#ordinal-33",
+      "regressao_final": {
+        "run_id": 38694280677,
+        "commit_testado": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95",
+        "status": "success"
+      },
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 34,
@@ -49061,7 +49111,7 @@
       "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
     }
   ],
-  "homologacao_final_observacao": "1000/1000 de cobertura funcional Chromium, 0/1000 de auditorias atômicas: obra/loci, filologia, demais controles, integração pendentes.",
+  "homologacao_final_observacao": "5/1000 AUDITORIA_CONCLUIDA, 995/1000 EM_EXECUCAO, decisão baseada em dez controles por artigo, PR #147 merged=true e CI integrado verde.",
   "evidencia_chromium": {
     "id": 38673465781,
     "sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
