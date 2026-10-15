@@ -25,10 +25,10 @@
     "sha": "627f582bf84b68a90fa81c35a0b21e79425c5597"
   },
   "totais": {
-    "examinados_nesta_etapa": 5,
-    "documentalmente_aptos_aguardando_integracao": 0,
+    "examinados_nesta_etapa": 20,
+    "documentalmente_aptos_aguardando_integracao": 15,
     "homologados_definitivos": 5,
-    "restantes_sem_checklist_atuado": 995
+    "restantes_sem_checklist_atuado": 980
   },
   "verbetes": [
     {
@@ -762,10 +762,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 28; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio toponímico em -θεν; proveniência 'de Abdera'. Não confundir com o locativo.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Glosa única 'de Abdera', topônimo Ἄβδηρα; derivação entre 〈〉 preservada.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Glosa única 'de Abdera', topônimo Ἄβδηρα; derivação entre 〈〉 preservada. Advérbio toponímico em -θεν; proveniência 'de Abdera'. Não confundir com o locativo. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 28 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Ἄβδηρα (#25), texto de referência lexical, sem URL; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Glosa única 'de Abdera', topônimo Ἄβδηρα; derivação entre 〈〉 preservada. Advérbio toponímico em -θεν; proveniência 'de Abdera'. Não confundir com o locativo.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 29,
@@ -819,10 +865,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 31; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Substantivo feminino ἀβελτερία, genitivo -ας; relacionado a ἀβέλτερος.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Todos os três equivalentes: tolice, imbecilidade, ignorância, sem colapsá-los em um sentido inventado.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Todos os três equivalentes: tolice, imbecilidade, ignorância, sem colapsá-los em um sentido inventado. Substantivo feminino ἀβελτερία, genitivo -ας; relacionado a ἀβέλτερος. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 31 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "ἀβέλτερος (#32), elo derivacional da fonte, não link; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Todos os três equivalentes: tolice, imbecilidade, ignorância, sem colapsá-los em um sentido inventado. Substantivo feminino ἀβελτερία, genitivo -ας; relacionado a ἀβέλτερος.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 32,
@@ -1041,10 +1133,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 40; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio ἀβλαβῶς de sentido ativo; não inserir 'com segurança' do LSJ na fonte.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Única glosa da entrada, 'sem prejudicar'; sentidos LSJ externos permanecem na análise.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Única glosa da entrada, 'sem prejudicar'; sentidos LSJ externos permanecem na análise. Advérbio ἀβλαβῶς de sentido ativo; não inserir 'com segurança' do LSJ na fonte. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 40 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Lexicalmente relacionado ao adjetivo #39; não cria link; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Única glosa da entrada, 'sem prejudicar'; sentidos LSJ externos permanecem na análise. Advérbio ἀβλαβῶς de sentido ativo; não inserir 'com segurança' do LSJ na fonte.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 41,
@@ -1079,10 +1217,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 42; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Adjetivo privativo, terminações ος, ον, construído com βάλλω.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Único sentido 'não atingido'; não converter em 'não lançado' de #41.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Único sentido 'não atingido'; não converter em 'não lançado' de #41. Adjetivo privativo, terminações ος, ον, construído com βάλλω. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 42 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Raiz βάλλω indicada como etimologia não hiperligada; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Único sentido 'não atingido'; não converter em 'não lançado' de #41. Adjetivo privativo, terminações ος, ον, construído com βάλλω.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 43,
@@ -1174,10 +1358,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 47; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Substantivo feminino ἀβουλία, genitivo -ας, formado a partir de ἄβουλος.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Acepção 1: irreflexão/insensatez. Acepção 2: indecisão. Não fundir sem contexto.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Acepção 1: irreflexão/insensatez. Acepção 2: indecisão. Não fundir sem contexto. Substantivo feminino ἀβουλία, genitivo -ας, formado a partir de ἄβουλος. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 47 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "ἄβουλος (#48), referência derivacional da fonte; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Acepção 1: irreflexão/insensatez. Acepção 2: indecisão. Não fundir sem contexto. Substantivo feminino ἀβουλία, genitivo -ας, formado a partir de ἄβουλος.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 48,
@@ -1212,10 +1442,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 49; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio ἀβούλως em -ως, distinto do adjetivo ἄβουλος.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Única glosa 'irrefletidamente', sem mais acepções acrescentadas.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Única glosa 'irrefletidamente', sem mais acepções acrescentadas. Advérbio ἀβούλως em -ως, distinto do adjetivo ἄβουλος. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 49 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Sem remissões HTML nem bibliografia de locus; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Única glosa 'irrefletidamente', sem mais acepções acrescentadas. Advérbio ἀβούλως em -ως, distinto do adjetivo ἄβουλος.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 50,
@@ -1535,10 +1811,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 66; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio ἁβρῶς em -ῶς; depende do contexto para nuances valorativas.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Três equivalentes: delicadamente, indolentemente, langorosamente, mantidos integralmente.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Três equivalentes: delicadamente, indolentemente, langorosamente, mantidos integralmente. Advérbio ἁβρῶς em -ῶς; depende do contexto para nuances valorativas. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 66 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Família de ἁβρός (#59), contextualização apenas na análise; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Três equivalentes: delicadamente, indolentemente, langorosamente, mantidos integralmente. Advérbio ἁβρῶς em -ῶς; depende do contexto para nuances valorativas.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 67,
@@ -1573,10 +1895,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 68; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio toponímico em -θεν (origem/proveniência), diferenciado do #69.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "'De Abido' e não 'em Abido'; não colapsar as duas entradas.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "'De Abido' e não 'em Abido'; não colapsar as duas entradas. Advérbio toponímico em -θεν (origem/proveniência), diferenciado do #69. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 68 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Ἄβυδος (#70); há homônimos geográficos, sem inventar qual; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "'De Abido' e não 'em Abido'; não colapsar as duas entradas. Advérbio toponímico em -θεν (origem/proveniência), diferenciado do #69.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 69,
@@ -1592,10 +1960,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 69; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio toponímico em -θι (localização), diferenciado do #68.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "'Em Abido' e não 'de Abido'; localidade distinta do movimento de origem.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "'Em Abido' e não 'de Abido'; localidade distinta do movimento de origem. Advérbio toponímico em -θι (localização), diferenciado do #68. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 69 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Ἄβυδος (#70), sem atribuir automaticamente Trôade ou Egito; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "'Em Abido' e não 'de Abido'; localidade distinta do movimento de origem. Advérbio toponímico em -θι (localização), diferenciado do #68.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 70,
@@ -1649,10 +2063,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 72; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Forma dórica ἄγα, acento inicial, remetida a ἄγη; distinta da #73.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Remissão dialetal da fonte preservada sem transformar em glosa livre.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Remissão dialetal da fonte preservada sem transformar em glosa livre. Forma dórica ἄγα, acento inicial, remetida a ἄγη; distinta da #73. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 72 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "ἄγη como destino textual; existência de hyperlink não alegada; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Remissão dialetal da fonte preservada sem transformar em glosa livre. Forma dórica ἄγα, acento inicial, remetida a ἄγη; distinta da #73.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 73,
@@ -1668,10 +2128,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 73; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Forma dórica ἀγά, acento final, remetida a ἀγή; distinta da #72.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Remissão dialetal da fonte preservada sem confundir espíritos e acentos.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Remissão dialetal da fonte preservada sem confundir espíritos e acentos. Forma dórica ἀγά, acento final, remetida a ἀγή; distinta da #72. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 73 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "ἀγή como destino textual; existência de hyperlink não alegada; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Remissão dialetal da fonte preservada sem confundir espíritos e acentos. Forma dórica ἀγά, acento final, remetida a ἀγή; distinta da #72.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 74,
@@ -1991,10 +2497,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 90; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio ἀγαθῶς em -ῶς, não subst. neutro τὸ ἀγαθόν.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Glosa única 'bem'; relação morfológica não insere outros significados.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Glosa única 'bem'; relação morfológica não insere outros significados. Advérbio ἀγαθῶς em -ῶς, não subst. neutro τὸ ἀγαθόν. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 90 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Família de ἀγαθός (#86), sem link; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Glosa única 'bem'; relação morfológica não insere outros significados. Advérbio ἀγαθῶς em -ῶς, não subst. neutro τὸ ἀγαθόν.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 91,
@@ -2200,10 +2752,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 101; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Substantivo neutro ἀγαλμάτιον, genitivo -ου, diminutivo de ἄγαλμα.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Ambas as traduções 'estampa pequena' e 'estatueta' mantidas; não afirmar função religiosa obrigatória.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Ambas as traduções 'estampa pequena' e 'estatueta' mantidas; não afirmar função religiosa obrigatória. Substantivo neutro ἀγαλμάτιον, genitivo -ου, diminutivo de ἄγαλμα. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 101 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "ἄγαλμα (#100) explicitamente na etimologia, sem URL; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Ambas as traduções 'estampa pequena' e 'estatueta' mantidas; não afirmar função religiosa obrigatória. Substantivo neutro ἀγαλμάτιον, genitivo -ου, diminutivo de ἄγαλμα.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 102,
@@ -2333,10 +2931,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 108; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Substantivo feminino ἀγαμία, genitivo -ας, derivado de ἄγαμος.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Glosa única 'celibato'; sem acrescentar regime jurídico ou passagem clássica.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Glosa única 'celibato'; sem acrescentar regime jurídico ou passagem clássica. Substantivo feminino ἀγαμία, genitivo -ας, derivado de ἄγαμος. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 108 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "ἄγαμος no étimo, sem remissão clicável; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Glosa única 'celibato'; sem acrescentar regime jurídico ou passagem clássica. Substantivo feminino ἀγαμία, genitivo -ας, derivado de ἄγαμος.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 109,
@@ -2542,10 +3186,56 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
+        "pr": null,
         "merged": false,
         "merge_sha": null
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AGUARDANDO_INTEGRACAO",
+      "revisao": {
+        "fonte_e_proveniencia": {
+          "status": "OK",
+          "evidencia": "Fonte: XML eec318bb6150b6b2f4422ea4a76383ac0a254de2, ordinal 119; CI Chromium run #38737093723 (success); original, definição e origem fixados; nenhuma página de edição impressa presumida"
+        },
+        "lema_e_morfologia": {
+          "status": "OK",
+          "evidencia": "Advérbio ἀγανῶς em -ῶς, não confundir com adjetivo ἀγανός.; lema XML coincide com DGP HTML após NFC"
+        },
+        "transcricao_e_traducao_integral": {
+          "status": "OK",
+          "evidencia": "Três equivalentes 'sem violência; serenamente; gentilmente' preservados.; cotejo Unicode/espaço confirma o texto integral do DGP"
+        },
+        "filologia_e_semantica": {
+          "status": "OK",
+          "evidencia": "Três equivalentes 'sem violência; serenamente; gentilmente' preservados. Advérbio ἀγανῶς em -ῶς, não confundir com adjetivo ἀγανός. Parecer histórico A reexaminado, sem emenda conjectural"
+        },
+        "testemunhos_e_citacoes": {
+          "status": "NAO_SE_APLICA",
+          "justificativa": "O DGP não fornece autor/obra/citação textual neste registro. As remissões entre 〈〉 não são testemunhos; referências externas mencionadas no parecer histórico não foram interpoladas no DGP."
+        },
+        "separacao_das_camadas": {
+          "status": "OK",
+          "evidencia": "Texto literal DGP conservado nos cartões; análise restrita à ficha GDHAGP. Nenhuma nova tradução atribuída à fonte"
+        },
+        "dados_html_pesquisa": {
+          "status": "OK",
+          "evidencia": "run 38737093723: registro 119 passou em search-row, data-target, entry-card, lema Unicode e tradução integral; run global 38673465781 validou 1.000"
+        },
+        "navegador_acessibilidade": {
+          "status": "OK",
+          "evidencia": "Chromium run 38737093723: abertura por Enter, foco e Escape em popups existentes, navegação e layout móvel; regressões de #14 e #466 mantidas"
+        },
+        "links_e_bibliografia": {
+          "status": "OK",
+          "evidencia": "Família de ἀγανός (#116), na análise apenas; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
+        },
+        "consistencia_global": {
+          "status": "AGUARDANDO_INTEGRACAO",
+          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+        }
+      },
+      "parecer_individual": "Três equivalentes 'sem violência; serenamente; gentilmente' preservados. Advérbio ἀγανῶς em -ῶς, não confundir com adjetivo ἀγανός.",
+      "prontas_nove_verificacoes": 9,
+      "dez_controles": 10
     },
     {
       "ordinal": 120,
@@ -19294,5 +19984,27 @@
     "ci_integrado": 38694280677,
     "ci_status": "success",
     "head": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
+  },
+  "ci_individual_15": {
+    "run": 38737093723,
+    "sha": "f0f436f87c83b4892e92643c86d15147c1767b9b",
+    "status": "success",
+    "verified": [
+      28,
+      31,
+      40,
+      42,
+      47,
+      49,
+      66,
+      68,
+      69,
+      72,
+      73,
+      90,
+      101,
+      108,
+      119
+    ]
   }
 }
