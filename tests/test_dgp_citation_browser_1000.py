@@ -107,6 +107,7 @@ def main():
                 row466 = page.locator(
                     '.search-row[data-source="DGP"][data-target="entry-dgp-0466"]'
                 )
+                row466.wait_for(state="visible", timeout=35000)
                 check(row466.count() == 1 and row466.is_visible(),
                       "Pesquisa não recupera ordinal 466")
                 row466.focus()
@@ -128,6 +129,7 @@ def main():
                 # Pelo menos um tooltip gramatical da fonte deve funcionar.
                 page.locator("#search-input").fill("ἀβαρής")
                 row17 = page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-0017"]')
+                row17.wait_for(state="visible", timeout=35000)
                 row17.focus()
                 page.keyboard.press("Enter")
                 article = page.locator("#entry-dgp-0017")
