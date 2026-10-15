@@ -21,8 +21,8 @@
       "analysis": "Privativo ἀ- e ἄγνυμι; inquebrável e sólido são dois equivalentes do DGP.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -61,16 +61,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -79,8 +87,8 @@
       "analysis": "Adjetivo com privativo ἀ- e βαστάζω; tradução do DGP: intolerável.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -119,16 +127,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -142,8 +158,8 @@
           "lemma": "Ἄβδηρα"
         }
       ],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -182,16 +198,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -200,8 +224,8 @@
       "analysis": "Privativo com βέβηλος; duas glosas, inviolável e sagrado.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -240,16 +264,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -258,8 +290,8 @@
       "analysis": "Preservar as três terminações do DGP; glosas tolo, simplório e bobo.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -298,16 +330,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -316,8 +356,8 @@
       "analysis": "Três acepções: doença/veneno sem socorro; pessoa desamparada; objeto ineficaz.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -356,16 +396,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -374,8 +422,8 @@
       "analysis": "Quatro acepções e regência dativa da segunda; distinguir usos pessoais e não pessoais.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -414,16 +462,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -432,8 +488,8 @@
       "analysis": "Quatro acepções, valor positivo e pejorativo dependente do contexto.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -472,16 +528,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -495,8 +559,8 @@
           "lemma": "ἁβρός"
         }
       ],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -535,16 +599,24 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     },
     {
@@ -553,8 +625,8 @@
       "analysis": "Duas acepções: não molhado e privado de chuva ou água; privativo com βρέχω.",
       "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
       "remissions": [],
-      "state": "AGUARDANDO_INTEGRACAO",
-      "audit_complete": false,
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
       "checklist": {
         "01_fonte_proveniencia": {
           "status": "OK",
@@ -593,25 +665,47 @@
           "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
         },
         "10_consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidence": "Exige PR merged=true e CI no destino sobre a mesma revisão."
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
         }
       },
       "evidence": {
         "CI_source": 38751671079,
         "CI_status": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "pr": 154,
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
+        "confirmed_at": "2026-10-15"
       }
     }
   ],
-  "status": "AGUARDANDO_INTEGRACAO_10_CONTROLES_NAO_FINALIZADOS",
+  "status": "AUDITORIA_CONCLUIDA_10_MERGE_E_CI_DESTINO_VERIFICADOS",
   "CI_source": {
     "id": 38751671079,
     "sha": "a9d9980dd3fe371902ca743c6ed9b6505f3b7b29",
     "status": "success",
     "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38751671079"
   },
-  "verified_ready": 10
+  "verified_ready": 0,
+  "verified_finished": 10,
+  "integration": {
+    "pr": 154,
+    "merged": true,
+    "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+    "ci_source": [
+      38751671079,
+      38752007051
+    ],
+    "ci_destination": 38752919905,
+    "CI_conclusion": "success",
+    "base": "chat-gpt-commits",
+    "confirmed_at": "2026-10-15"
+  }
 }
