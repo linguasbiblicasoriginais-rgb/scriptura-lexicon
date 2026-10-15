@@ -9,6 +9,8 @@ on:
       - 'auditorias/dgp-2026-10-14-cotejo-0001-1000.json'
       - 'tests/test_dgp_cotejo_1000.js'
       - 'tests/test_dgp_citation_browser_1000.py'
+      - 'tests/test_dgp_1000_full_browser.py'
+      - 'auditorias/dgp-auditoria-individual-0001-1000.json'
       - '.github/workflows/dgp-browser-audit.yml'
   workflow_dispatch:
 permissions:
@@ -33,6 +35,15 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Citações 14 e 17 com transliteração e popup gramatical
         run: python tests/test_dgp_citation_browser_1000.py
+      - name: Cobertura funcional individual — DGP 1000
+        run: python tests/test_dgp_1000_full_browser.py
+      - name: Anexar relatório funcional por verbete mesmo se houver falha
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgp-cobertura-funcional-1000
+          path: auditorias/dgp-1000-funcional-chromium-resultados.json
+          if-no-files-found: warn
 # O teste historico tests/test_dgp_browser.py de montagem 2880->3300
 # pressupunha que dgp-batch-077.js ainda nao existia; ele permanece
 # arquivado, mas nao pode mais servir de gate desta nova revisao.
