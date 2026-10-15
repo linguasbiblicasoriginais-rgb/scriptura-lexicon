@@ -80,7 +80,7 @@
     },
     "ancient_loci_author_confirmed": 4,
     "individual_required_checks": 10,
-    "integrated_approved": 0
+    "integrated_approved": 5
   },
   "global_ledger": {
     "dictionary_total": 44590,
@@ -111,11 +111,11 @@
       "affected_records": 1000,
       "source_ok": 1000
     },
-    "individual_reviewed": 5,
-    "documentary_ready": 5,
-    "awaiting_integration": 0,
+    "individual_reviewed": 20,
+    "documentary_ready": 20,
+    "awaiting_integration": 15,
     "integrated_and_homologated": 5,
-    "still_pending": 995,
+    "still_pending": 980,
     "approved_ids": [
       2,
       5,
@@ -134,6 +134,24 @@
       "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
       "ci_run": 38694280677,
       "branch_head_verified": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
-    }
+    },
+    "new_pending_ids": [
+      28,
+      31,
+      40,
+      42,
+      47,
+      49,
+      66,
+      68,
+      69,
+      72,
+      73,
+      90,
+      101,
+      108,
+      119
+    ],
+    "ci_15": 38737093723
   }
 }
