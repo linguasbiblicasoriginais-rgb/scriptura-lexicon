@@ -178,6 +178,9 @@ def main():
         "resumo":summary,"resultados_individuais":results
     },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("DGP RESULTADO: "+json.dumps(summary,ensure_ascii=False),flush=True)
+    for item in results:
+        if item["achados"]:
+            print("DGP ACHADO %04d %s :: %s" % (item["ordinal"],item["lema"],";".join(item["achados"])),flush=True)
     if len(results)!=1000 or page_errors or summary["verbetes_com_achados"]:
         raise SystemExit("Pendências funcionais: "+str(summary["verbetes_com_achados"]))
     print("PASS: 1000 verbetes exercitados funcionalmente sem achados")
