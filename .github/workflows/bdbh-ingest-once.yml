@@ -34,3 +34,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Incorporação fiel da Sefaria em lotes de 100
         run: python tools/bdbh_ingest.py
+
+# Retentativa 2: diagnóstico do encadeamento canônico next_hw.

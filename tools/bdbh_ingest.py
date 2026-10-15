@@ -264,9 +264,21 @@ def main():
                 raise RuntimeError(f"Resposta não é lista para {hw!r}")
             selected = [e for e in payload if e.get("parent_lexicon") == LEXICON_NAME]
             if selected:
+                if len(state["seen_headwords"]) < 20:
+                    print("FONTE", repr(hw), "RIDS/PONTEIROS:",
+                          [(str(e.get("rid")), str(e.get("headword")),
+                            str(e.get("prev_hw")), str(e.get("next_hw")))
+                           for e in selected[:15]], flush=True)
                 pointer = next(
-                    (e.get("next_hw") for e in reversed(selected) if e.get("next_hw")), None
+                    (e.get("next_hw") for e in reversed(selected)
+                     if e.get("next_hw") and e.get("next_hw") != hw
+                     and e.get("next_hw") not in seen_hws), None
                 )
+                if pointer is None:
+                    raise RuntimeError(
+                        f"Sem próximo ponteiro BDB não circular para {hw!r}: "
+                        f"{[(e.get('headword'), e.get('next_hw')) for e in selected]}"
+                    )
                 state["pending_entries"] = selected
             else:
                 pointer = next((e.get("next_hw") for e in payload if e.get("next_hw")), None)
