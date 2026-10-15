@@ -9,7 +9,7 @@
   "source_commit": "deb54b426ead447d01ced7534736f3e77be7015b",
   "source_blob": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
   "head_corrections_before_commit": "e561866288ec6db923a854de23f414e4b7e0f4d4",
-  "status": "AGUARDANDO_TESTE_E_INTEGRACAO",
+  "status": "AUDITORIA_CONCLUIDA_DEZ_COM_MERGE_E_CI_VERIFICADOS",
   "justification": "As decisões sem citações aplicam-se unicamente ao conteúdo literal deste artigo DGP; atestações em fontes externas relatadas historicamente são bibliografia auxiliar, não abonações presentes na definição.",
   "entries": [
     {
@@ -25,19 +25,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-41",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 45,
@@ -52,19 +63,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-45",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 46,
@@ -79,19 +101,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-46",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 50,
@@ -111,19 +144,30 @@
         }
       ],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-50",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Remissão explícita #50 → #64 pesquisada e aberta"
+      }
     },
     {
       "ordinal": 51,
@@ -138,19 +182,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-51",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 52,
@@ -165,19 +220,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-52",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 53,
@@ -192,19 +258,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-53",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 54,
@@ -219,20 +296,31 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false,
-      "editorial_observation": "Não testar o artigo #55 como alvo de hyperlink originado do #54: o original traz etimologia 〈ἁβρός, δίαιτα〉, sem seta/remissão para #55."
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "editorial_observation": "Não testar o artigo #55 como alvo de hyperlink originado do #54: o original traz etimologia 〈ἁβρός, δίαιτα〉, sem seta/remissão para #55.",
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-54",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Etimologia de #54 NÃO equivale a remissão para #55"
+      }
     },
     {
       "ordinal": 57,
@@ -247,19 +335,30 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-57",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     },
     {
       "ordinal": 58,
@@ -274,19 +373,34 @@
       "citations_in_source": false,
       "cross_references": [],
       "checks": {
-        "source": "OK_XML",
-        "lemma": "OK_XML",
-        "full_definition": "OK_XML",
-        "philology": "REEXAMINADO_HISTORICO_A",
-        "source_citations": "NAO_SE_APLICA_SEM_CITACAO",
-        "editorial_layers": "OK_SEPARADAS",
-        "html_search": "AGUARDANDO_TESTE_CHROMIUM",
-        "browser": "AGUARDANDO_TESTE_CHROMIUM",
-        "links": "AGUARDANDO_TESTE_CHROMIUM",
-        "global_consistency": "AGUARDANDO_INTEGRACAO"
+        "source": "OK_XML_SHA",
+        "lemma": "OK_XML_NFC",
+        "full_definition": "OK_FONTE_TODAS_ACEEPCOES",
+        "philology": "OK_REVISAO_PONTUAL_E_PARECER_A",
+        "source_citations": "NAO_SE_APLICA_SEM_ABONACAO_NA_FONTE",
+        "editorial_layers": "OK_FONTE_E_ANALISE_DISTINTAS",
+        "html_search": "OK_CI_IND_38744134668",
+        "browser": "OK_DESTINO_CI_38744423888",
+        "links": "OK_REMISSOES_TESTADAS_ON_DEMAND",
+        "global_consistency": "OK_MERGE_PR152_CI_DESTINO"
       },
-      "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "state": "AUDITORIA_CONCLUIDA",
+      "audit_complete": true,
+      "evidence": {
+        "source_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+        "original_text": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-58",
+        "browser_src_ci": 38744134668,
+        "browser_dest_ci": 38744423888,
+        "PR": 152,
+        "merged": true,
+        "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "correction_decision": "SEM_ALTERACAO_NECESSARIA_NO_TEXTO_LITERAL",
+        "reference_decision": "Nenhuma citação externa presente na entrada literal"
+      }
     }
-  ]
+  ],
+  "stage3_homologated": 10,
+  "postmerge_run": 38744423888,
+  "pr": 152,
+  "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200"
 }
