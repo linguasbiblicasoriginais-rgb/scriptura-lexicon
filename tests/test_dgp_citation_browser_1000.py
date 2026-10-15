@@ -115,6 +115,7 @@ def main():
                 compound = page.locator(
                     '#entry-dgp-0466 [data-tooltip-type="abbr"][data-tooltip-label="ac. pl. n."]'
                 )
+                compound.first.wait_for(state="attached", timeout=35000)
                 check(compound.count() >= 1,
                       "Falta popup composto de acusativo plural neutro (#466)")
                 compound.first.focus()
