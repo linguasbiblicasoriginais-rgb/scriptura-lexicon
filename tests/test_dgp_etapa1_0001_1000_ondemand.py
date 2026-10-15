@@ -188,6 +188,15 @@ def main():
                         "PENDENTE_CORRECAO" if result["falhas"] else "EM_EXECUCAO"
                     )
                     results.append(result)
+                    if result["falhas"]:
+                        print("DGP ETAPA1 FALHA %04d: %s" % (
+                            n, json.dumps({
+                                "lema": result["lema"],
+                                "consulta": result["consulta"],
+                                "falhas": result["falhas"],
+                                "popups_existentes": result["popups_existentes"],
+                                "popups_testados": result["popups_testados"]
+                            }, ensure_ascii=False)), flush=True)
                     if n % 25 == 0:
                         print("DGP ETAPA1 REGRESSAO: %d/1000" % n, flush=True)
                 page.locator("#menu-toggle").click()
