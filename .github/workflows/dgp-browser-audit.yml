@@ -1,12 +1,14 @@
-name: DGP — auditoria dinamica de navegador
+name: DGP — cotejo estatico e popups no navegador
 on:
   push:
     branches: [chat-gpt-correcoes]
     paths:
-      - 'tests/test_dgp_browser.py'
-      - '.github/workflows/dgp-browser-audit.yml'
       - 'lexicons/dgp-format.js'
-      - 'lexicons/dgp.js'
+      - 'lexicons/dgp-format.css'
+      - 'auditorias/dgp-2026-10-14-cotejo-0001-1000.json'
+      - 'tests/test_dgp_cotejo_1000.js'
+      - 'tests/test_dgp_citation_browser_1000.py'
+      - '.github/workflows/dgp-browser-audit.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -16,8 +18,11 @@ jobs:
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          fetch-depth: 0
+          node-version: '22'
+      - name: Cotejo DGP 1-1000 e compilacao do formatador
+        run: node tests/test_dgp_cotejo_1000.js
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -25,5 +30,8 @@ jobs:
         run: |
           python -m pip install 'playwright>=1.55,<2'
           python -m playwright install --with-deps chromium
-      - name: Auditar 2.880 registros reais e 3.300 em montagem temporaria
-        run: python tests/test_dgp_browser.py
+      - name: Citações 14 e 17 com transliteração e popup gramatical
+        run: python tests/test_dgp_citation_browser_1000.py
+# O teste historico tests/test_dgp_browser.py de montagem 2880->3300
+# pressupunha que dgp-batch-077.js ainda nao existia; ele permanece
+# arquivado, mas nao pode mais servir de gate desta nova revisao.
