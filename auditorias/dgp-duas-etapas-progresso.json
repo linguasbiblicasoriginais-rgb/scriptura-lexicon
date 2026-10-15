@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "dictionary": "DGP",
+  "scope": "auditoria em duas etapas por lotes de 1000 verbetes",
+  "first_batch": [
+    1,
+    1000
+  ],
+  "total_dictionary_entries": 44590,
+  "source": {
+    "repo": "aniseferreira/Grc-Por-DigDict",
+    "sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+    "alpha_entries": 7204
+  },
+  "branches": {
+    "corrections": "chat-gpt-correcoes",
+    "dictionary": "chat-gpt-dgp",
+    "integration": "chat-gpt-commits"
+  },
+  "phase1_functional": {
+    "source_cotejo": {
+      "completed": 1000,
+      "total": 1000
+    },
+    "source_lemma_matches": 1000,
+    "definition_equivalences": 985,
+    "presentation_differences": 15,
+    "previous_smoke_browser_approved": 2,
+    "current_browser_batch": {
+      "workflow_run": 38672378650,
+      "from": 1,
+      "to": 1000,
+      "status": "IN_PROGRESS",
+      "tested_entries_confirmed": 0,
+      "individual_result_file": "auditorias/dgp-1000-funcional-chromium-resultados.json"
+    }
+  },
+  "phase2_atomic_homologation": {
+    "historical_review": {
+      "reviewed": 1000,
+      "A": 910,
+      "C": 8,
+      "P": 82,
+      "method": "historica nao atomica"
+    },
+    "current_individual_fiches": {
+      "created": 1000,
+      "not_homologated": 1000
+    },
+    "ancient_loci_author_confirmed": 2,
+    "individual_required_checks": 10,
+    "integrated_approved": 0
+  },
+  "global_ledger": {
+    "dictionary_total": 44590,
+    "first_batch_documentary_collected": 1000,
+    "first_batch_functional_approved": 2,
+    "first_batch_atomic_approved": 0,
+    "cumulative_atomic_approved": 0,
+    "cumulative_percentage": 0
+  },
+  "notes": [
+    "Cotejo estático e revisões históricas não equivalem a auditoria atômica.",
+    "Atualizar a contagem funcional somente após relatório de 1000 verbetes concluído no GitHub Actions.",
+    "Homologação exige dez controles e integração verificada segundo regras/Rauditoria.txt.",
+    "Permissão de escrita desta rotina exclusivamente em chat-gpt-correcoes."
+  ]
+}
