@@ -1,7 +1,7 @@
 name: DGP etapa 3 — dez candidatos 41–58
 on:
   push:
-    branches: [chat-gpt-correcoes]
+    branches: [chat-gpt-correcoes, chat-gpt-commits]
     paths:
       - '.github/workflows/dgp-stage3-41-58.yml'
       - 'tests/test_dgp_stage3_41_58.py'
