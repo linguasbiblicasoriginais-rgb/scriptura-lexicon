@@ -12,11 +12,9 @@
  * Referências isoladas, etimologias e sequências ambíguas ficam intocadas.
  */
 (function () {
-    const source = window.ScripturaLexicons && window.ScripturaLexicons.DGP;
-
-    if (!source) {
-        return;
-    }
+    // O formatador pode ser inicializado sem carregar a fonte inteira.
+    const lexicons = window.ScripturaLexicons ||= {};
+    const source = lexicons.DGP ||= {source:"DGP", bibliographicTerms:[]};
 
     function hasGreek(value) {
         return /\p{Script=Greek}/u.test(value);
@@ -232,10 +230,9 @@
         });
     }
 
-    source.formatCards = function () {
-        const roots = document.querySelectorAll(
-            '.entry-card[data-source="DGP"] .entry-text'
-        );
+    source.formatCards = function (targetCard) {
+        const roots = targetCard ? targetCard.querySelectorAll(".entry-text") :
+            document.querySelectorAll('.entry-card[data-source="DGP"] .entry-text');
         const audit = {
             cards: 0,
             senses: 0,
@@ -275,6 +272,7 @@
         ];
         audit.gluedAbbreviationsFixed = [];
         gluedAbbreviations.forEach(function (item) {
+            if (targetCard && targetCard.id !== "entry-dgp-" + String(item.n).padStart(4, "0")) return;
             const card = document.getElementById(
                 "entry-dgp-" + String(item.n).padStart(4, "0")
             );
@@ -328,6 +326,7 @@
          */
         audit.recoveredHeadwordsNoted = 0;
         ["entry-dgp-2311", "entry-dgp-2483"].forEach(function (id) {
+            if (targetCard && targetCard.id !== id) return;
             const card = document.getElementById(id);
             if (!card || card.dataset.dgpSourceHeadwordNote === "true") {
                 return;
@@ -364,6 +363,7 @@
          */
         audit.sourceNumberingNotes = 0;
         ["entry-dgp-0434", "entry-dgp-0543"].forEach(function (id) {
+            if (targetCard && targetCard.id !== id) return;
             const card = document.getElementById(id);
             if (!card || card.dataset.dgpNumberingNoted === "true") {
                 return;
@@ -412,6 +412,7 @@
             [1022, "αἵμων¹ está marcado «duv.» no DGP. Cunliffe/Ilíada 5.49 atestam valor de destreza em caça; a variante semântica «apaixonado» precisa de decisão contextual e não é inferida como certeza."],
             [1087, "O DGP lista nove sentidos de αἵρεσις. LSJ também registra na Septuaginta o sentido específico de «oferta voluntária» em Levítico 22.18 e paralelos; falta adjudicação contra edição crítica LXX e LEH. Nota independente do DGP."]
         ].forEach(function (item) {
+            if (targetCard && targetCard.id !== "entry-dgp-" + String(item[0]).padStart(4, "0")) return;
             const card = document.getElementById(
                 "entry-dgp-" + String(item[0]).padStart(4, "0")
             );
@@ -436,9 +437,8 @@
 
         audit.searchRowsIndexed = 0;
         audit.searchRowsMissingCard = 0;
-        document.querySelectorAll(
-            '.search-row[data-source="DGP"][data-target]'
-        ).forEach(function (row) {
+        (targetCard ? document.querySelectorAll('.search-row[data-source="DGP"][data-target="' + targetCard.id + '"]') :
+            document.querySelectorAll('.search-row[data-source="DGP"][data-target]')).forEach(function (row) {
             if (row.dataset.dgpFullTextIndexed === "true") {
                 return;
             }

@@ -1,0 +1,35 @@
+name: THAYER — gerar planilha de títulos
+on:
+  push:
+    branches:
+      - chat-gpt-thayer-indice-titulos
+    paths:
+      - .github/workflows/thayer-planilha-titulos.yml
+
+permissions:
+  contents: write
+
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-thayer-indice-titulos
+          persist-credentials: true
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar openpyxl
+        run: python -m pip install --quiet openpyxl
+      - name: Exportar índice auxiliar (não constitui contagem certificada do fac-símile)
+        run: python tools/gerar_planilha_titulos_thayer.py
+      - name: Commit do arquivo XLSX somente na branch de índice
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add entregas/THAYER_indice_titulos_inventario.xlsx
+          git commit -m "THAYER: disponibilizar planilha dos títulos transcritos" || exit 1
+          git push origin HEAD:chat-gpt-thayer-indice-titulos

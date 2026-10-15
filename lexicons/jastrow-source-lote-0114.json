@@ -1,0 +1,1415 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data pinned XML)",
+  "source_start_ordinal": 22601,
+  "source_end_ordinal": 22800,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "entry_count": 200,
+  "first_headword": "עָרַם",
+  "last_headword": "פָּגָאנִים",
+  "next_headword": "פְּגַג",
+  "status": "source_only_untranslated_not_published",
+  "records": [
+    {
+      "ordinal": 22601,
+      "source_id": "jastrow-xml-022601",
+      "canonical_entry_id": "P01391",
+      "headword": "עָרַם",
+      "source_xml": "<entry id=\"P01391\">\n<head-word>עָרַם</head-word>\n<hw-number>II</hw-number>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"P01305\"> cmp. עָרָה I)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to peel off, strip; to make white, bright</italic>; v. \n<xref rid=\"P01325\">עָרוּם</xref>, \n<xref rid=\"P01325\">עָרוֹם.</xref></definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶעֱרִים</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to enlighten, inform</italic>.</definition>\n<notes> Y. Snh. V, beg. 22\n<sup>c</sup>, sq. (ref. to בערמה, Ex. XXI, 14) שיַעֲרִימוּהוּ באיזו מיתה מת they (the forewarning witnesses) must keep him informed as to what kind of death penalty is expecting him; (Bab. ib. 80\n<sup>b</sup> שיודיעוהו).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to plan, act deliberately</italic>.</definition>\n<notes> Mekh. Mishp. s. 4 (ref. to בערמה, v. supra) להוציא … שאינן מַעֲרִימִין this is to exclude the deaf and dumb, the insane and the minor (who do not act with premeditation; להוציא מרפא … אינן מערימין to exclude the surgeon …, for although they acted with wilfulness (criminal negligence), they did not plan; Yalk. Ex. 325.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to act with subtlety, to get around a law by an artifice</italic>.</definition>\n<notes> Sabb. 65\n<sup>b</sup> מערימין בדליקה in case of a conflagration on the Sabbath (when the rabbinical law allows the rescue of a certain number of clothes by putting them on) we may use an artifice (by laying off the clothes saved and going in again to save others); (oth. opin.) אין מערימין בדליקה you dare not &amp;c. Ib. מהו שתַּעֲרִים וכ' dare a woman use an artifice &amp;c., v. פָּרַף. Tosef. Bets. III, 2. Gen. R. s. 49 מה אתה מַעֲרִים על השבועה מבול וכ' why wilt thou cunningly evade thy own oath? destruction by water thou wilt not bring, but destruction by fire thou wilt? Yalk. ib. 83; a. fr.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22602,
+      "source_id": "jastrow-xml-022602",
+      "canonical_entry_id": "P01392",
+      "headword": "עֲרַם",
+      "source_xml": "<entry id=\"P01392\">\n<head-word>עֲרַם</head-word>\n<head-word>עֲרֵים</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְעֲרִים, אִיעֲרִים</binyan-form>\n<senses>\n<sense>\n<definition>; \n<alternative>(also \n<italic>Af.</italic> אַעֲרִים)</alternative></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to become prudent</italic>.</definition>\n<notes>. Targ. Prov. XIX, 25.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be subtle, to deceive, pretend</italic>.</definition>\n<notes> Macc. 23\n<sup>b</sup> ודילמא אִיעֲרוּמֵי מִיעַרְמָא (not איערומא) might she not have been subtle enough (to discover Solomon’s motive)? Snh. 25\n<sup>a</sup> דילמא איערומי קא מַעֲרִים perhaps he merely pretends (to be repentant)? B. Mets. 90\n<sup>b</sup> הערמה … אַעֲרִימוּ עלייהו ויזדבנון a trick has been employed regarding them, use a trick against them (that did it), and let the oxen be sold (and not be used for ploughing).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אַעֲרִים</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to use an artifice</italic>, v. supra.</definition>\n<notes /></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22603,
+      "source_id": "jastrow-xml-022603",
+      "canonical_entry_id": "P01393",
+      "headword": "עָרְמָה",
+      "source_xml": "<entry id=\"P01393\">\n<head-word>עָרְמָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) \n<italic>prudence, deliberation; subtlety</italic>.</definition>\n<notes> Mekh. B’shall., Shir., s. 6 (ref. to נערמו, Ex. XV, 8, v. Targ. O. a. l.) הם אמרו הבה נתחכמה … נתת ע' למים they had said, Come, let us deal wisely with them (Ex. I, 10), thou, too, didst place wisdom in the water; (Yalk. Ex. 248 עַרְמוּמִית). Midr. Sam. ch. VII [read:] לפי מה שהיתה עָרְמָתוֹ של נחש כך היתה מכתו in accordance with the serpent’s subtlety was its punishment. Midr. Prov. ch. I. פתי הייתי ונתן בי הקב\"ה ע' I was simple, and the Lord placed wisdom in me. Ib. מכמה שנים ואילך … להיות בו ע' from what age and onward is man expected to be deliberate?; Yalk. ib. 929; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22604,
+      "source_id": "jastrow-xml-022604",
+      "canonical_entry_id": "P01394",
+      "headword": "ערֵמָה",
+      "source_xml": "<entry id=\"P01394\">\n<head-word>ערֵמָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01362\">עֲרִימָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22605,
+      "source_id": "jastrow-xml-022605",
+      "canonical_entry_id": "P01395",
+      "headword": "עַרְמוּמִית",
+      "source_xml": "<entry id=\"P01395\">\n<head-word>עַרְמוּמִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01394\">preced.</xref> art.) \n<italic>shrewdness, subtlety</italic>.</definition>\n<notes> Yalk. Ex. 248, v. עָרְמָה. Sot. 21\n<sup>b</sup> (ref. to Prov. VIII, 12) כיון שנכנסה חכמה … נכנסה עמה ע' (not עמן) when wisdom enters into man, subtlety enters along with it; Yalk. Prov. 940 נכנסה בו ע'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22606,
+      "source_id": "jastrow-xml-022606",
+      "canonical_entry_id": "P01396",
+      "headword": "עַרְמוֹן",
+      "source_xml": "<entry id=\"P01396\">\n<head-word>עַרְמוֹן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"P01391\">עָרַם II</xref>) \n<italic>platanus, the Oriental plane</italic>.</definition>\n<notes>—\n<plural-form>Pl. ערְמוֹנִים</plural-form>. Y. Keth. VII, end, 31\n<sup>d</sup>; a. e.; v. אַרְמוֹן III.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22607,
+      "source_id": "jastrow-xml-022607",
+      "canonical_entry_id": "P01397",
+      "headword": "*,",
+      "source_xml": "<entry id=\"P01397\">\n<head-word>*, </head-word>\n<head-word>*עַרְמוֹנָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01392\">עֲרַם</xref>; cmp. Gen. III, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a venomous serpent</italic>.</definition>\n<notes> Targ. Y. II Gen. XLIX, 17 Ar. (ed. חוּרְמָנָא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22608,
+      "source_id": "jastrow-xml-022608",
+      "canonical_entry_id": "P01398",
+      "headword": "עַרְמוּתָא",
+      "source_xml": "<entry id=\"P01398\">\n<head-word>עַרְמוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> = h. עָרְמָה, \n<italic>subtlety; premeditation</italic>.</definition>\n<notes> Targ. I Kings II, 5.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22609,
+      "source_id": "jastrow-xml-022609",
+      "canonical_entry_id": "P01399",
+      "headword": "עַרְמִית",
+      "source_xml": "<entry id=\"P01399\">\n<head-word>עַרְמִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. (preced.) = הַעֲרָמָה. Tosef. B. Mets. IV, 3 ערמית רבית (ed. Zuck. הַעֲרָמַת, Var. עָרְמַת), v. \n<xref rid=\"E00726\">הַעֲרָמָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22610,
+      "source_id": "jastrow-xml-022610",
+      "canonical_entry_id": "P01400",
+      "headword": "עֲרֵמְתָּא",
+      "source_xml": "<entry id=\"P01400\">\n<head-word>עֲרֵמְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01364\">עֲרֵימְתָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22611,
+      "source_id": "jastrow-xml-022611",
+      "canonical_entry_id": "P01401",
+      "headword": "עָרַס",
+      "source_xml": "<entry id=\"P01401\">\n<head-word>עָרַס</head-word>\n<senses>\n<sense>\n<definition> (cmp. אָרַס) \n<italic>to connect, intertwine, braid</italic> &amp;c.—Denom.</definition>\n<notes> עָרִיס, עֲרִיסָה, עֶרֶס &amp;c.</notes></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>עֵירֵס, עֵרֵס</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (denom. of (denom. of עָרִיס) \n<italic>to form an arbor.</italic></definition>\n<notes> Kil. IV, 7 אם עֵרְסָן מלמעלה if he connected them (the two rows of vines) above so as to form an arbor.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (denom. of עֲרִיסָה) \n<italic>to start dough</italic>, contrad. to לוש.</definition>\n<notes> Y. Pes. III, 30\n<sup>a</sup>; Y. Bets. I, 60\n<sup>d</sup> top ע' לא אמר אלא לש וכ' the Boraitha does not say, ‘if one started dough’, but, ‘if one kneaded’; but if one started (on the eve of a Holy Day), this prohibition does not apply.—In gen. \n<italic>to knead, work in</italic> (cmp. עָרַךְ). Ber. 37\n<sup>b</sup> בשעֵרְסָנ when he worked the crumbs again into a compact mass; Men. 75\n<sup>b</sup> בשעירסן. Y. Ḥall. I, 57\n<sup>b</sup>, v. עָסוּת.—Part. pass. מְעוֹרָס. Ib. וההן נשוך לאו כמע' הוא (not כמעירס) and that lump of dough made by pressing several pieces together (v. נָשַׁךְ),—is that not the same as if worked together?</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֶעֱרַס, </binyan-form>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעָרֵס</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to become connected, compact</italic>.</definition>\n<notes> Sifré Num. 110 (ref. to ערסתכם, Num. XV, 20, sq.) משיִתְעָרֵס (it is subject to Ḥallah) from the time it has become a compact mass; Yalk. ib. 748 משתֵּעָרֵס.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22612,
+      "source_id": "jastrow-xml-022612",
+      "canonical_entry_id": "P01402",
+      "headword": "עֶרֶס",
+      "source_xml": "<entry id=\"P01402\">\n<head-word>עֶרֶס</head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition>\n<italic>arbor</italic>, v. \n<xref rid=\"P01365\">עָרִיס I</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22613,
+      "source_id": "jastrow-xml-022613",
+      "canonical_entry_id": "P01403",
+      "headword": "עֶרֶס",
+      "source_xml": "<entry id=\"P01403\">\n<head-word>עֶרֶס</head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> c. \n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">עֶרֶשׂ; preced. art.)</xref></language-reference> [\n<italic>joined frame</italic>; cmp. כְּלִיבָה,] \n<italic>bed, bier</italic>.</definition>\n<notes>—\n<plural-form>Pl. עֲרָסוֹת,</plural-form> constr. עַרְסוֹת. Sabb. 62\n<sup>b</sup> (ref. to Am. VI, 6) מסריחין עַרְסוֹתֵיהֶם וכ' Ms. M. (ed. עַרְסוֹתָם), v. סָרַח III; Kidd. 71\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22614,
+      "source_id": "jastrow-xml-022614",
+      "canonical_entry_id": "P01404",
+      "headword": "עֶרֶס",
+      "source_xml": "<entry id=\"P01404\">\n<head-word>עֶרֶס</head-word>\n<head-word>עַרְסָא</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>1) same.</definition>\n<notes> ch. </notes></sense>\n<sense>\n<number>1)</number>\n<definition> same. Targ. O. Deut. III, 11. Targ. O. Ex. VII, 28. Targ. Y. II ib. XXI, 18; a. fr.—תשמיש (ד)ע' \n<italic>sexual connection</italic>.</definition>\n<notes> Targ. Y. II ib. XIX, 15 (Y. I דעָרִיס). Targ. Y. Num. V, 13 דעריס; a. e.—Targ. II Sam. III, 31 \n<italic>bier</italic>.—Snh. 20\n<sup>a</sup>; Ned. 56\n<sup>b</sup> ע' דגדא, v. גַּדָּא. Ib. ע' דצלא a bed with a leather mattress. Lam. R. to I, 1 ע' (רבתי) פחיתא a broken bedstead. B. Bath. 22\n<sup>a</sup> לעַרְסֵיה וכ' waiting for the bier of R. A. Y. Kil. IX, 32\n<sup>c</sup> bot.; Y. Keth. XII, 35\n<sup>b</sup> יהבון עַרְסִי וכ' place my bier (coffin) at the sea-shore; a. fr.—\n<plural-form>Pl. עַרְסָן, עַרְסָתָא, עַרְסִין</plural-form>. Targ. Am. VI, 4 עַרְסַתְהוֹן ed. Lag. (oth. ed. עַרְסֵיהוֹן). Lam. R. l. c. אתקין … עַרְסָאתָא he prepared for them four beds. Lev. R. s. 5 (transl. מטות שן Am. l. c.) ע' דפיל ivory bedsteads. Y. Ber. III, 6\n<sup>a</sup> top ע' קיסרייתא וכ' Cæsarean bedsteads which have holes for the girths; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (cmp. עָרִיס I) \n<italic>arcade along a row of buildings, sidewalk</italic>.</definition>\n<notes> Gitt. 6\n<sup>a</sup> מצריך מע' לע' required identification of signatures on documents brought from one side of the street to the other. Y. Bets. I, 60\n<sup>c</sup> bot. מע' לע' from one side of the street to the other (or from one couch to the other, v. טְעַן II).—\n<plural-form>Pl. עַרְסָתָא</plural-form>. Erub. 26\n<sup>a</sup> מערב … ע' ע' Ar. (Ms. M. ערסא ערסא; ed. עַרְסְיָיתָא, fr. עַרְסִיתָא) provided the whole town of M. with ‘Erubs (v. עֵירוּב), one for each row of connected houses.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>dish of the steel-yard, scales</italic>.</definition>\n<notes> Sabb. 60\n<sup>a</sup>, v. עֲדָשָׁה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22615,
+      "source_id": "jastrow-xml-022615",
+      "canonical_entry_id": "P01405",
+      "headword": "עֲרִסָה",
+      "source_xml": "<entry id=\"P01405\">\n<head-word>עֲרִסָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01369\">עֲרִיסָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22616,
+      "source_id": "jastrow-xml-022616",
+      "canonical_entry_id": "P01406",
+      "headword": "עַרְסִי",
+      "source_xml": "<entry id=\"P01406\">\n<head-word>עַרְסִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. עַרְסִיִּין</plural-form> (preced. art.) \n<italic>belonging to a bedstead</italic>; (מלין) ע' \n<italic>strapping, girthing</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>c</sup> top הן דעבד מ' ע' וכ' (Or Zar. Sabb. 64 דעביד ערסמו, read ערסיין) he who does girthing work (on the Sabbath), if lengthwise &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22617,
+      "source_id": "jastrow-xml-022617",
+      "canonical_entry_id": "P01407",
+      "headword": "עַרְסִיתָא",
+      "source_xml": "<entry id=\"P01407\">\n<head-word>עַרְסִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. עַרְסְיָיתָא,</plural-form> v. \n<xref rid=\"P01404\">עַרְסָא</xref> 2.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22618,
+      "source_id": "jastrow-xml-022618",
+      "canonical_entry_id": "P01408",
+      "headword": "*,",
+      "source_xml": "<entry id=\"P01408\">\n<head-word>*, </head-word>\n<head-word>*עִרְסֵל</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01409\">next w.</xref>) \n<italic>to swing</italic> (like a hammock).</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעַרְסֵל</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be swung; to waddle, stagger</italic>.</definition>\n<notes> Gen. R. s. 31 דוב בא ליכנס והיו רגליו מִתְעַרְסְלוֹת quot. in Rashi to Ez. XIV, 14 (missing in ed.) when a bear wanted to force his entrance into the ark, his feet tottered; ib. (with ref. to giants) מתערסלות במים Ar.; Yalk. Gen. 55 מתערסלות; v. עִרְכֵּל.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22619,
+      "source_id": "jastrow-xml-022619",
+      "canonical_entry_id": "P01409",
+      "headword": "עַרְסַל",
+      "source_xml": "<entry id=\"P01409\">\n<head-word>עַרְסַל</head-word>\n<head-word>עַרְסְלָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01404\">עַרְסָא</xref>) \n<italic>hammock</italic>, v. אַרְזְלָא.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22620,
+      "source_id": "jastrow-xml-022620",
+      "canonical_entry_id": "P01410",
+      "headword": "עָרַע",
+      "source_xml": "<entry id=\"P01410\">\n<head-word>עָרַע</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01420\">עִרְעֵר III</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22621,
+      "source_id": "jastrow-xml-022621",
+      "canonical_entry_id": "P01411",
+      "headword": "עֲרַע",
+      "source_xml": "<entry id=\"P01411\">\n<head-word>עֲרַע</head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (apocop. of ערער, transpos.</definition>\n<notes> of רערע; cmp. כֶּסֶךְ a. כַּסְכַּס) \n<italic>to come in contact with; to join, meet</italic>. Targ. Jer. XLI, 6 (h. text פגש). Targ. O. Gen. XXXII, 2 (h. text פגע). Targ. O. Ex. I, 10; a. fr.; v. אֲרַע I.</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>(ערְעַר) עָרע</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to join, be added to</italic>.</definition>\n<notes> Koh. R. to VII, 27 חדא מְעָרְעָא חדא וכ' (ed. מְעַרְעֲרָא) one (sin) is added to another &amp;c., v. אָרַע I.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעָרַע</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be met; to happen; to come before</italic>.</definition>\n<notes>. Targ. II Sam. I, 6. Ib. XX, 1. Targ. Hos. XI, 7. Ib. 8. Targ. Jer. IV, 20; a. e.—[</notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>to be added, increased</italic>.</definition>\n<notes> Y. Ḥall. II, 58\n<sup>d</sup> top אִתְעָרְעוּן (ed. אזדרעון), v. קַבָּא.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22622,
+      "source_id": "jastrow-xml-022622",
+      "canonical_entry_id": "P01412",
+      "headword": "עֲרַע",
+      "source_xml": "<entry id=\"P01412\">\n<head-word>עֲרַע</head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (preced.; v. \n<xref rid=\"A03217\">אָרַע II</xref>), \n<italic>Pa.</italic> עָרַע \n<italic>to call, proclaim, summon</italic>.</definition>\n<notes> Targ. Zeph. I, 7 (h. text הקדיש). Targ. O. Lev. XXIII, 2; a. fr.; v. אֲרַע II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22623,
+      "source_id": "jastrow-xml-022623",
+      "canonical_entry_id": "P01413",
+      "headword": "עִרְעוּר",
+      "source_xml": "<entry id=\"P01413\">\n<head-word>עִרְעוּר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01417\">עַרְעַר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22624,
+      "source_id": "jastrow-xml-022624",
+      "canonical_entry_id": "P01414",
+      "headword": "עֲרָעִין",
+      "source_xml": "<entry id=\"P01414\">\n<head-word>עֲרָעִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01355\">עֵרָיִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22625,
+      "source_id": "jastrow-xml-022625",
+      "canonical_entry_id": "P01415",
+      "headword": "עַרְעִיתָא",
+      "source_xml": "<entry id=\"P01415\">\n<head-word>עַרְעִיתָא</head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (עֲרַע I) \n<italic>accident</italic>.</definition>\n<notes> Targ. Koh. IX, 11 (h. text פגע).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22626,
+      "source_id": "jastrow-xml-022626",
+      "canonical_entry_id": "P01416",
+      "headword": "עַרְעִיתָא",
+      "source_xml": "<entry id=\"P01416\">\n<head-word>עַרְעִיתָא</head-word>\n<hw-number>II</hw-number>\n<head-word>עָרָעִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> = h. צִרְעָה, \n<italic>wasp, hornet</italic>.</definition>\n<notes> Targ. O. Ex. XXIII, 28 עָרָ' ed. Berl. (oth. ed. עֲרָ', עַרְ'). Targ. Josh. XXIV, 12; a. e.—Sabb. 80\n<sup>b</sup> ונפקא ע' מן וכ' a wasp came out of the wall and stung him &amp;c., v. אַנְדִּיפֵי.—V. אוּרְעִיתָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22627,
+      "source_id": "jastrow-xml-022627",
+      "canonical_entry_id": "P01417",
+      "headword": "עִרְעֵר",
+      "source_xml": "<entry id=\"P01417\">\n<head-word>עִרְעֵר</head-word>\n<head-word>עִירְ'</head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (Pilp. of עוּר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to stir up, excite to lamentation</italic>.</definition>\n<notes> M. Kat. 8\n<sup>a</sup> לא יְעַרְעֵר וכ', v. עוּר \n<italic>Polel</italic></notes></sense>\n<sense>\n<number>—2)</number>\n<definition> [\n<italic>to stir up strife, disturb</italic>,] \n<italic>to contest the legality of an action, the legitimacy of a person, his fitness as judge, witness</italic> &amp;c. Y. Snh. III, 21\n<sup>d</sup> top אם בא ועי' עֲרָרוֹ קיים if he comes and protests (against the judgment given in his absence), his protest is valid.</definition>\n<notes> Y. Ned. V, end, 39\n<sup>b</sup> כל מי שיבוא וִיעַרְעֵר וכ' whosoever may at some future time contest this donation (having a claim against the property); a. e.—[Meg. 25\n<sup>b</sup> המְעַרְעֲרִים those inclined to argue,—a censorial change from המומרים or המינים; v. Rabb. D. S. a. l. note 8.]</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to stir on by chiding, to scold</italic>.</definition>\n<notes> Sot. III, 3 מְעַרְעֲרִים אותה וכ' they (the court) chide her and make her drink by force; [Rashi seems to take our w. in the sense of \n<italic>encouraging</italic>]; Tosef. ib. II, 3 מְרַעְרְעִין ed. Zuck. (Var. מערערין). Ib. בצבת של ברזל … מדדין וכ' ed. Zuck. (Var. מערערין, read ומע') they opened her mouth … and urged her on and forced her to drink; Sot. 19\n<sup>b</sup>. Y. ib. III, 18\n<sup>d</sup> bot. מערערים אותה עד וכ' we urge her on to drink by chiding her until her face becomes pale; Num. R. s. 9; Yalk. ib. 708 מכין אותה ומע' וכ' … they strike her with the broadside of a sword and urge her &amp;c.; a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעַרְעֵר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be stirred up</italic>, v. \n<xref rid=\"P01454\">עָרַר</xref>.</definition>\n<notes /></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22628,
+      "source_id": "jastrow-xml-022628",
+      "canonical_entry_id": "P01418",
+      "headword": "עִרְעֵר",
+      "source_xml": "<entry id=\"P01418\">\n<head-word>עִרְעֵר</head-word>\n<hw-number>II</hw-number>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"P01305\"> cmp. עָרָה I)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to lay bare, strip, denude; to make lonely</italic>.</definition>\n<notes> Pesik. ʿĂniya, p. 134\n<sup>b</sup> (expl. סערה, Is. LIV, 1</notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> מערערתא שעִרְעֲרוּהָ וכ' ‘the stripped’ (or lonely) one whom the nations have denuded (with ref. to ערו, Ps. CXXXVII, 7); Yalk. s. 339 שעיר ערוה (read: שעִירְעֲרוּהָ). Yalk. Num. 708 (play on המים המאררים למרים, Num. V, 24) שממררין את הגוף ומְעַרְעֲרִין את העון (not שממרין) because they make the body bitter (sick), and lay the sin bare; Sifré Num. 11 ומרעדים את העין (corr. acc.); Num. R. s. 9 שמאררים את הגוף ומבערין וכ' (corr. acc.; v., also, בָּרַר).</notes></sense></senses>\n<binyan>\n<binyan-name>Nithpalp.</binyan-name>\n<binyan-form>נִתְעַרְעֵר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be stripped, bare</italic>.</definition>\n<notes> Midr. Till. to Ps. CII, 18 (ref. to ערער, ib.) זה מנשה שנתע' ממעשים טובים (some ed. שערער, corr. acc.; ed. Bub. שחיה ער, read עַרְעָר) \n<pgbrk id=\"pg1122\" />this refers to Manasseh who was bare of good deeds.—V. עַרְעָר.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22629,
+      "source_id": "jastrow-xml-022629",
+      "canonical_entry_id": "P01419",
+      "headword": "עַרְעֵר",
+      "source_xml": "<entry id=\"P01419\">\n<head-word>עַרְעֵר</head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to strip, make lonely</italic>.</definition>\n<notes> Part. pass. מְעַרְעַר; f. מְעַרְעַרְתָּא. Pesik. ʿĂniya, p. 134\n<sup>b</sup>, a. e., v. preced.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22630,
+      "source_id": "jastrow-xml-022630",
+      "canonical_entry_id": "P01420",
+      "headword": "עִרְעֵר",
+      "source_xml": "<entry id=\"P01420\">\n<head-word>עִרְעֵר</head-word>\n<hw-number>III</hw-number>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01411\">עֲרַע I</xref>) [\n<italic>to bring into contact</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to keep a liquid in the throat for the sake of lubrication</italic>.</definition>\n<notes> Tosef. Sabb. XII (XIII), 10 if one has a sore throat, לא יְעַרְעֲרֶנּוּ בשמן וכ' he must not lubricate it with oil (on the Sabbath); Ber. 36\n<sup>a</sup> לא יְעָרְעֶנּוּ (\n<italic>Pi.</italic> of עָרַע; Ar. יערער'); Tosef. Ter. IX, 12 יערענו (ed. Zuck. ירדנו?); Y. Shebi. VIII, 38\n<sup>a</sup> top יערער'.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to cause to meet</italic>.</definition>\n<notes> Koh. R. to IX, 11 (ref. to יקרה, ib.; cmp. עַרְעִיתָא I) עת היא שפוגעת האדם ומְעַרְעֶרֶת בו וכ' it is time that strikes man and causes all these things (vicissitudes) to meet him.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22631,
+      "source_id": "jastrow-xml-022631",
+      "canonical_entry_id": "P01421",
+      "headword": "עַרְעֵר",
+      "source_xml": "<entry id=\"P01421\">\n<head-word>עַרְעֵר</head-word>\n<hw-number>II</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to join, meet</italic>.</definition>\n<notes> Koh. R. to VII, 27 מְעַרְעֲרָא, v. עֲרַע I.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22632,
+      "source_id": "jastrow-xml-022632",
+      "canonical_entry_id": "P01422",
+      "headword": "עַרְעֵר",
+      "source_xml": "<entry id=\"P01422\">\n<head-word>עַרְעֵר</head-word>\n<hw-number>III</hw-number>\n<senses>\n<sense>\n<definition> (transpos. of רערע, v. \n<xref rid=\"T00914\">רָעַע</xref>) \n<italic>to make shaky, loosen</italic>.</definition>\n<notes>—Part. pass. מְעַרְעַר; f. מְעַרְעֲרָה. Lam. R. introd. (R. Ḥănina 2) (ref. to רֹעָה, Prov. XXV, 19) שן מע' a shaky tooth, v. מַטְמֵט.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22633,
+      "source_id": "jastrow-xml-022633",
+      "canonical_entry_id": "P01423",
+      "headword": "עַרְעָר",
+      "source_xml": "<entry id=\"P01423\">\n<head-word>עַרְעָר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"P01417\"> עִרְעֵר II)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>stripped, lonely</italic>.</definition>\n<notes> Lev. R. s. 30; Yalk. Ps. 855 שהיה ע' ממעשים וכ', v. עִרְעֵר.—\n<plural-form>Pl. עַרְעָרִים</plural-form>. Ib.; Midr. Till. to Ps. CII, 18.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22634,
+      "source_id": "jastrow-xml-022634",
+      "canonical_entry_id": "P01424",
+      "headword": "עַרְעַר",
+      "source_xml": "<entry id=\"P01424\">\n<head-word>עַרְעַר</head-word>\n<head-word>, (, </head-word>\n<head-word>עִרְעוּר)</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עִרְעֵר I) \n<italic>protest; evidence of illegitimacy</italic> or \n<italic>disqualification</italic>.</definition>\n<notes> Keth. 21\n<sup>b</sup> וקרא ע' על אחד מהן and the qualification of one of the judges was contested; ib. sq. ע' דמאי of what nature was that alleged disqualification?; ע' דגזלנותא a disqualification based on the charge of robbery; ע' דפגם משפחה based on alleged family blemish (descent from slaves). B. Bath. 31\n<sup>b</sup>, sq. ע' חד איכא וכ' they differ as to acting on the evidence of disqualification proffered by one witness; ר' אלעזר סבר ע' חד R. El. is of the opinion that evidence of disqualification by one witness is sufficient; ע' תרי it requires two witnesses; Keth. 26\n<sup>a</sup>. Ib., a. fr. אין ע' פחות משנים in charges of disqualification no less than two witnesses are required. Y. Bicc. I, 64\n<sup>a</sup> משפחה … שהיו קורין עליה ע' a family … whose qualification for marriage with priests was disputed; Y. Yeb. VIII, 9\n<sup>b</sup> bot.; Bab. ib. 60\n<sup>b</sup>. Y. Keth. II, 26\n<sup>b</sup> bot. שטר שנקרא עליו ע' a document against which an informality was charged; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22635,
+      "source_id": "jastrow-xml-022635",
+      "canonical_entry_id": "P01425",
+      "headword": "עַרְעֲרִין",
+      "source_xml": "<entry id=\"P01425\">\n<head-word>עַרְעֲרִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01355\">עֲרָיִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22636,
+      "source_id": "jastrow-xml-022636",
+      "canonical_entry_id": "P01426",
+      "headword": "עָרַף",
+      "source_xml": "<entry id=\"P01426\">\n<head-word>עָרַף</head-word>\n<senses>\n<sense>\n<definition> (b. h.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to divide, cut</italic>.</definition>\n<notes> Sifré Deut. 306 (ref. to יערף, Deut. XXXII, </notes></sense>\n<sense>\n<number>2)</number>\n<definition> אין יַעֲרֹף … פרוט … אלא עֲרוֹף לי וכ' \n<italic>yaʿʿărof</italic> is a Phoenician (mercantile) term, e.g. one does not say to one’s neighbor, \n<italic>pʾroṭ</italic> (break into small change) this Selʿa for me, but \n<italic>ʿărof</italic> for me &amp;c.—Denom.</definition>\n<notes> עוֹרֶף.—2) (cmp. קָטַף a. קְטָף) \n<italic>to drop, distill</italic>. Taan. 7\n<sup>a</sup> (ref. to Deut. l. c.) אם ת\"ח … ואם לאו עוֹרְפֵיהוּ כמטר if a scholar is worthy, he is like dew; if unworthy, drop him like rain; Yalk. Deut. 942 עָרְפֵהוּ.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (denom. of עוֹרֶף) \n<italic>to break the neck of;</italic> esp. \n<italic>to break the neck of a heifer to atone for a murder the author of which is unknown</italic> (Deut. XXI, 1–9); \n<italic>to perform the ceremony of atonement</italic>.</definition>\n<notes> Sot. IX, 2 לא היו עוֹרְפִין they did not perform the ceremony. Ib. 45\n<sup>b</sup>; a. fr.—Ib. IX, 5 ועורפין אותה בקופיץ וכ' and (if the ground is not hard and rough) they cut her head from behind with a hatchet.—Part. pass. עָרוּף; f. עֲרוּפָה.—עגלה ע', v. עֶגְלָה.</notes></sense>\n<sense>\n<number>—4)</number>\n<definition> (cmp. אָחַר) (of copulations of animals) \n<italic>to cover</italic> (\n<italic>from behind</italic>).</definition>\n<notes> Ib. 42\n<sup>b</sup> (play on עָרְפָּה) שהכל עורפין וכ' all covered her from behind.</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֶעֱרַף, </binyan-form>\n<binyan-name>Nithpa.</binyan-name>\n<binyan-form>נִתְעָרֵף</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to have the neck broken</italic>.</definition>\n<notes> Ib. IX, 7 (47\n<sup>a</sup>) נמצא … עד שלא נֶעֶרְפָּה וכ' (Y. ed. עד שלא תֵיעָרֵף) if the murderer was discovered before the heifer was put to death; משנִתְעָרְפָה העגלה Mish. (Y. a. Bab. ed. משנערפה) after the ceremony had taken place. Ib. 46\n<sup>a</sup> יבוא דבר … ויֵעָרֵף וכ' let there be brought a thing which has not yet produced fruit (a heifer) and be broken in a place which produces no fruit, and atone for the murder of him who was prevented from producing fruit (good deeds on earth). Ex. R. s. 42, end (play on קשה ערף, Ex. XXXII, 9) ראויים הם להֵעָרֵף they deserve to have their necks broken; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22637,
+      "source_id": "jastrow-xml-022637",
+      "canonical_entry_id": "P01427",
+      "headword": "עֲרַף",
+      "source_xml": "<entry id=\"P01427\">\n<head-word>עֲרַף</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to break the neck of the heifer</italic>.</definition>\n<notes> Sot. 46\n<sup>a</sup> הכי נמי דלא עַרְפִינָן is it really so that we do not perform the ceremony (in such a case)?</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22638,
+      "source_id": "jastrow-xml-022638",
+      "canonical_entry_id": "P01428",
+      "headword": "עֵרֶף",
+      "source_xml": "<entry id=\"P01428\">\n<head-word>עֵרֶף</head-word>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. עֲרָפִין,</plural-form> substitute for עֲרָכִין, v. \n<xref rid=\"P01375\">עֵרֶךְ</xref>.</definition>\n<notes> Y. Ned. I, beg. 36\n<sup>c</sup> ואילו תנינן … ע' ערצין ערקין but if we were to teach (substitutes for ʿărakhin), what would we teach? \n<italic>ʿĂrafin, </italic>\n<italic>ʿăratsin, </italic>\n<italic>ʿăraḳin</italic></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22639,
+      "source_id": "jastrow-xml-022639",
+      "canonical_entry_id": "P01429",
+      "headword": "עֹרֶף",
+      "source_xml": "<entry id=\"P01429\">\n<head-word>עֹרֶף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00360\">עוֹרֶף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22640,
+      "source_id": "jastrow-xml-022640",
+      "canonical_entry_id": "P01430",
+      "headword": "עָרְפָּא",
+      "source_xml": "<entry id=\"P01430\">\n<head-word>עָרְפָּא</head-word>\n<pos> m.</pos>\n<plural-form>Pl. עָרְפִּין</plural-form>\n<senses>\n<sense>\n<definition> = h. עוֹרֶף.</definition>\n<notes> (in singular sense). Yalk. Lev. 665 חמי ע' חמי קדרון (read: קדלין) look at the (fat) neck, look at the back; [obviously one a gloss to the other; differ. in Lev. R. s. 34, a. Koh. R. to V, 13].</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22641,
+      "source_id": "jastrow-xml-022641",
+      "canonical_entry_id": "P01431",
+      "headword": "עַרְפָּד",
+      "source_xml": "<entry id=\"P01431\">\n<head-word>עַרְפָּד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>ʿarpad</italic>, a species of \n<italic>bats</italic>.</definition>\n<notes> B. Kam. 16\n<sup>a</sup> עטלף … נעשה ע' וכ' the bat after seven years changes into an \n<italic>ʿarpad</italic>, the \n<italic>ʿarpad</italic> &amp;c., v. קִימּוֹש.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22642,
+      "source_id": "jastrow-xml-022642",
+      "canonical_entry_id": "P01432",
+      "headword": "עַרְפְּדָא",
+      "source_xml": "<entry id=\"P01432\">\n<head-word>עַרְפְּדָא</head-word>\n<head-word>עַרְפֵּידָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>bat</italic> (h. עטלף).</definition>\n<notes> Targ. Y. I Deut. XIV, 18 (Y. II חרפתא); Targ. Y. Lev. XI, 19 טרפידא (טרפירא) (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22643,
+      "source_id": "jastrow-xml-022643",
+      "canonical_entry_id": "P01433",
+      "headword": "עָרְפָּה",
+      "source_xml": "<entry id=\"P01433\">\n<head-word>עָרְפָּה</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. f.</pos>\n<italic>Orpah</italic>, wife of Chilion, son of Naomi, in legend identified with Harafah (II Sam. XXI, 22).</definition>\n<notes> Sot. 42\n<sup>b</sup> בשכר ארבע דמעות שהורידה ע' וכ' as a reward for four tears which O. shed, when parting with her mother-in-law she was privileged to rear four mighty men (II Sam. l. c.). Ib. ע' שמה וכ' her real name was O., and why was she called Harafah?, v. הֲרִיפוֹת. Ib. הרפה שמה … ע' he real name was Harafah, and why was she called O.?, v. עָרַף. Snh. 95\n<sup>a</sup> חזייה לע' וכ' he (Abishai) saw O., his (Jishbi’s) mother, spinning. Ruth R. to I, 14; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22644,
+      "source_id": "jastrow-xml-022644",
+      "canonical_entry_id": "P01434",
+      "headword": "עֲרָפֵילָא",
+      "source_xml": "<entry id=\"P01434\">\n<head-word>עֲרָפֵילָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01437\">עַרְפְּלָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22645,
+      "source_id": "jastrow-xml-022645",
+      "canonical_entry_id": "P01435",
+      "headword": "*,",
+      "source_xml": "<entry id=\"P01435\">\n<head-word>*, </head-word>\n<head-word>*עִרְפֵּל</head-word>\n<senses>\n<sense>\n<definition> (Parel of עפל), \n<italic>Hithpa.</italic> הִתְעַרְפֵּל \n<italic>to swell</italic> (?).</definition>\n<notes> Midr. Till. to Ps. XVIII, 37 יִתְעַרְפְּלוּן, v. ערְטֵל.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22646,
+      "source_id": "jastrow-xml-022646",
+      "canonical_entry_id": "P01436",
+      "headword": "עֲרָפֶל",
+      "source_xml": "<entry id=\"P01436\">\n<head-word>עֲרָפֶל</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"P01426\">v. עָרַף</xref></language-reference>\n<senses>\n<sense>\n<number>2)</number>\n<definition>\n<italic>cloud; spray; mist; </italic>\n<italic>ʿĂrafel</italic>, the lower sky.</definition>\n<notes> Ḥag. 12\n<sup>b</sup> חשך ענן וע' וכ' darkness, cloud, and mist surround him. Tanḥ. Vayera 23 פתח הקב\"ה את הרקיע ואת הע' the Lord opened the sky and the \n<italic>ʿărafel</italic>. Mekh. Yithro, Baḥod., s. 2 (ref. to בעב הענן, Ex. XIX, 9) בענן עבה ואיזה זה ע' in a thick cloud; and what is this? This is \n<italic>ʿărafel</italic>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22647,
+      "source_id": "jastrow-xml-022647",
+      "canonical_entry_id": "P01437",
+      "headword": "עַרְפְּלָא",
+      "source_xml": "<entry id=\"P01437\">\n<head-word>עַרְפְּלָא</head-word>\n<head-word>עֲרָפֵילָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. II Sam. XXII, 12; Targ. Ps. XVIII, 12. Targ. II Esth. III, 3.—\n<plural-form>Pl. constr. עַרְפְּלֵי</plural-form>. Gen. R. s. 99, v. טוּרָא II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22648,
+      "source_id": "jastrow-xml-022648",
+      "canonical_entry_id": "P01438",
+      "headword": "עָרַץ",
+      "source_xml": "<entry id=\"P01438\">\n<head-word>עָרַץ</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to be strong; to frighten</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶעֱרִיץ</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to proclaim the power of, praise</italic>.</definition>\n<notes> Pirké d’R. El. ch. IV מַעֲרִיצִים ומקדושים וכ' they praise and sanctify his great name; Yalk. Is. 271; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22649,
+      "source_id": "jastrow-xml-022649",
+      "canonical_entry_id": "P01439",
+      "headword": "עֵרֶץ",
+      "source_xml": "<entry id=\"P01439\">\n<head-word>עֵרֶץ</head-word>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. עֲרָצִין,</plural-form> substitute for עֲרָכִין, v. \n<xref rid=\"P01426\">עֵרֶף</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22650,
+      "source_id": "jastrow-xml-022650",
+      "canonical_entry_id": "P01440",
+      "headword": "עַרְצוּבְיָא",
+      "source_xml": "<entry id=\"P01440\">\n<head-word>עַרְצוּבְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (cmp. אַרְזְבוֹנִית) a species of \n<italic>locusts</italic> (cmp. ἐρυσίβη, LXX Joel I, 4; II, 25 for חסיל; Deut. XXVIII, 42 for צלצל).</definition>\n<notes> Ḥull. 65\n<sup>a</sup>; Sifra Sh’mini, Par. 3, ch. V (differ. from ארזבונית).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22651,
+      "source_id": "jastrow-xml-022651",
+      "canonical_entry_id": "P01441",
+      "headword": "עָרַק",
+      "source_xml": "<entry id=\"P01441\">\n<head-word>עָרַק</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> cmp. חרק)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>to pass, squeeze through</italic>,] (denom. of עַרְקָא) \n<italic>to strap</italic>.</definition>\n<notes> Tanḥ. Mishp. 1 עזוב … עֲרוֹק מכאן loosen a little on this side, lift …, strap on that side.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22652,
+      "source_id": "jastrow-xml-022652",
+      "canonical_entry_id": "P01442",
+      "headword": "עֲרַק",
+      "source_xml": "<entry id=\"P01442\">\n<head-word>עֲרַק</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(preced.; cmp. ברח) \n<italic>to flee, run</italic>.</definition>\n<notes> Targ. Gen. XIV, 10; a. fr.—B. Mets. 84\n<sup>a</sup> אבוך ע' … ואת עֲרִיק ללודקיא (Ms. M. ברח) thy father fled (from persecution) to A., flee thou to Laodicea; Y. Maasr. III, 50\n<sup>d</sup> bot. עד דעַרְקַת וכ' (I shall call thee so,) until thou runnest away and goest &amp;c. Gen. R. s. 31 (עָרְקִין) עֲרִיקִין הוינן מן קומי וכ' we were fugitives from a (Roman) troop, and living in &amp;c., v. בְּטִיטָא; Y. Pes. I, beg. 27\n<sup>a</sup> כד הוינן ערקין וכ'. Ab. Zar. 16\n<sup>a</sup> דכי שלים … מֵעֲרַק עַרְקֵי for when their weapons (missiles) are spent, they run away (and do not attack with their shields). Y. Sabb. XVI, end, 15\n<sup>d</sup> פריס … ונורא עַרְקָא מינה he spread his cloak …, and the fire fled from it (v. גָּדִישָׁא); a. fr.—[Gitt. 78\n<sup>a</sup>, v. עֲדַק.]</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>עָרֵק, עַרֵק</binyan-form>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to put to flight, chase</italic>.</definition>\n<notes> Targ. Deut. XXXII, 30 יְעָרְקוּן (not יֶעֶרְ', יְעִירְ'). Targ. Prov. XIX, 26 מְעָרֵיק (ed. Wil. מְעַרֵ'; some ed. מַעֲרִיק \n<italic>Af.</italic>); a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to save</italic>.</definition>\n<notes> Targ. Jud. VI, 11 לעָרָקָא (ed. Wil. לַעֲרָ' \n<italic>Af.</italic>).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אַעֲרִיק</binyan-form>\n<senses>\n<sense>\n<definition> same.</definition>\n<notes> Targ. Job XLI, 20 יַעֲרִיק' (ed. יְעַרְק' \n<italic>Pa.</italic>). Targ. Prov. XVI, 28 מַעֲרִיק וכ' causes his friend to flee (him) (Var. מעדיק, v. עֲדַק); a. e., v. supra.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22653,
+      "source_id": "jastrow-xml-022653",
+      "canonical_entry_id": "P01443",
+      "headword": "עֵרֶק",
+      "source_xml": "<entry id=\"P01443\">\n<head-word>עֵרֶק</head-word>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. עֲרָקִין,</plural-form> substitute for עֲרָכִין, v. \n<xref rid=\"P01426\">עֵרֶף</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22654,
+      "source_id": "jastrow-xml-022654",
+      "canonical_entry_id": "P01444",
+      "headword": "עָרָק",
+      "source_xml": "<entry id=\"P01444\">\n<head-word>עָרָק</head-word>\n<head-word>(עֲרָק)</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01445\">next w.</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a long and flat vessel made of rush</italic>, Maim.; [oth.</definition>\n<notes> opin. \n<italic>sieve</italic>; cmp. אֲרָק a. עֲדָק I]. Kel. XVI, 3; Tosef. ib. B. Mets. V, 13.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>bandage, compress</italic>.</definition>\n<notes> Sabb. 54\n<sup>b</sup> Ms. O., v. עֲדָק II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22655,
+      "source_id": "jastrow-xml-022655",
+      "canonical_entry_id": "P01445",
+      "headword": "עַרְקָא",
+      "source_xml": "<entry id=\"P01445\">\n<head-word>עַרְקָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עֲרַק) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>strap, band</italic>.</definition>\n<notes> Tanḥ. B’resh. 7 הדין ע' וכ', v. מְשַׁךְ II.—\n<plural-form>Pl. עַרְקִין</plural-form>. Targ. Ez. XXVII, 19 (some ed. עדקין, corr. acc.).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>sedge, rush</italic>.</definition>\n<notes> Targ. Job VIII, 11 (h. text אָחוּ). Ib. XL, 21 (h. text בִּצָּה).</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>leech</italic>, v. \n<xref rid=\"P00785\">עֲלוּקָא</xref>.</definition>\n<notes>—[עַרְקָא f., v. עִרְקְתָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22656,
+      "source_id": "jastrow-xml-022656",
+      "canonical_entry_id": "P01446",
+      "headword": "עַרְקַבְלִין",
+      "source_xml": "<entry id=\"P01446\">\n<head-word>עַרְקַבְלִין</head-word>\n<head-word>עַרְקַבְנִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (prob. fr. עקב; cmp. next w.) \n<italic>prickly creepers</italic> on palm-trees, \n<italic>palm-ivy</italic> (v. \n<xref rid=\"H01652\">חַרְחֲבִינָא</xref>).</definition>\n<notes> Erub. II, 6 (23\n<sup>a</sup>) עקרבנין Mish. (Y. ed. ערקבנ'; Bab. ed. ערקבל'); ib. 26\n<sup>b</sup> ערקבלין, expl. אצוותא חרוזיאתא, v. אַצְוָוא; Pes. 39\n<sup>a</sup> ערקבל'. Shebi. VII, 2 ערקבנ' (Y. ed. ערקבל').</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22657,
+      "source_id": "jastrow-xml-022657",
+      "canonical_entry_id": "P01447",
+      "headword": "עַרְקוּב",
+      "source_xml": "<entry id=\"P01447\">\n<head-word>עַרְקוּב</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עָקַב, \n<italic>Par.</italic>) [\n<italic>curve</italic>,] \n<italic>hough, ham, the inner part of the knee; the inner angle of the joint which unites the thigh and the leg of an animal</italic>.</definition>\n<notes> Bekh. VI, 11 זנב העגל לע' … if the tail of a (first-born) calf does not reach the \n<italic>ʿarḳub</italic>; לאיזה ע' אמרו which \n<italic>ʿarḳub</italic> (curve) is meant? לע' שבאמצע הירך the \n<italic>ʿarḳub</italic> in the thigh, expl. ib. 41\n<sup>a</sup> קפץ העליונה וכ' the upper joint (the inner part of the knee), not the lower joint (knuckle); Tosef. ib. IV, 14. Tam. IV, 2 (31\n<sup>a</sup>) נוקבו מתוך עַרְקוּבוֹ וכ' Bab. ed. (Mish. עַרְכּוּבוֹ) he makes a hole through its ham and suspends it.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22658,
+      "source_id": "jastrow-xml-022658",
+      "canonical_entry_id": "P01448",
+      "headword": "עַרְקוּמָא",
+      "source_xml": "<entry id=\"P01448\">\n<head-word>עַרְקוּמָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00363\">עוּרְקָמָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22659,
+      "source_id": "jastrow-xml-022659",
+      "canonical_entry_id": "P01449",
+      "headword": "ערקי",
+      "source_xml": "<entry id=\"P01449\">\n<head-word>ערקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Kil. VIII, 31\n<sup>c</sup> bot., ייסי ע', v. \n<xref rid=\"J00342\">ייסי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22660,
+      "source_id": "jastrow-xml-022660",
+      "canonical_entry_id": "P01450",
+      "headword": "עַרְקִין",
+      "source_xml": "<entry id=\"P01450\">\n<head-word>עַרְקִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Y. Ex. XXVIII, 19, v. \n<xref rid=\"I00897\">טַרְקְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22661,
+      "source_id": "jastrow-xml-022661",
+      "canonical_entry_id": "P01451",
+      "headword": "עַרְקֵל",
+      "source_xml": "<entry id=\"P01451\">\n<head-word>עַרְקֵל</head-word>\n<senses>\n<sense>\n<definition>, (Parel of עֲקַל; v. P. Sm. 2964) \n<italic>to confuse, perplex</italic>.</definition>\n<notes> Part. pass. מְעַרְקַל, \n<plural-form>pl. מְעַרְקְלִין</plural-form>. Targ. Prov. XXIX, 20 דמע' מילוי (Levita דמערקלא, incorr.) he whose words are confused (blurted; h. text אץ בדבריו).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22662,
+      "source_id": "jastrow-xml-022662",
+      "canonical_entry_id": "P01452",
+      "headword": "עַרְקַת",
+      "source_xml": "<entry id=\"P01452\">\n<head-word>עַרְקַת</head-word>\n<head-word>עַ' לִבְנָה</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>ʿArḳath Libnah</italic>.</definition>\n<notes> Bekh. 57\n<sup>b</sup> (Rashi ע' לבינה), v. אַרְקָא II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22663,
+      "source_id": "jastrow-xml-022663",
+      "canonical_entry_id": "P01453",
+      "headword": "עַרְקְתָא",
+      "source_xml": "<entry id=\"P01453\">\n<head-word>עַרְקְתָא</head-word>\n<head-word>עַרְקָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01445\">עַרְקָא</xref>) \n<italic>strap</italic>.</definition>\n<notes>—עַרְקַת מסנא, ע' דמסנא \n<italic>shoe-strap</italic>. Targ. O. Gen. XIV, 23; a. e.—Lev. R. s. 35; Cant. R. to I, 4 כע' סומקא וכ' as a red strap &amp;c., v. מִסְכֵּנוּתָא; Pesik. Shimʿu, p. 117\n<sup>a</sup> כהיך ע' סמוקא בקדליה וכ' (not בדקליה); Yalk. Lev. 670; Yalk. Is. 256; Lev. R. s. 13 כעזקתא (corr. acc.). Snh. 74\n<sup>b</sup> top אפי' לשנויי ע' דמסאנא (in days of religious persecution you must resist) even to changing the shoe-strap. B. Bath. 21\n<sup>a</sup>, v. מְחָא II. Y. Yeb. XV, 15\n<sup>a</sup>, v. יְקַד; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22664,
+      "source_id": "jastrow-xml-022664",
+      "canonical_entry_id": "P01454",
+      "headword": "עָרַר",
+      "source_xml": "<entry id=\"P01454\">\n<head-word>עָרַר</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pi.</italic> עֵירֵר (v. \n<xref rid=\"unknown\">עִרְעֵר I</xref>) [\n<italic>to stir up</italic>,] \n<italic>to protest, contest, object</italic>.</definition>\n<notes> Y. Gitt. I, 43\n<sup>c</sup> top אם בא ועי' עררו בטל if the husband comes and contests (the validity of his letter of divorce), his objection is null and void. Ib. הוא ערר משנישאת הוא ע' וכ' it is all the same whether he objects after she has remarried or before it. Y. Keth. II, beg. 26\n<sup>a</sup> נתאלמנה מי עוֹרֵר וכ' if she is a widow, who objects (opposes the woman’s claim)? Gitt. I, 3 אם יש עליו עוֹרְרִים if there are contestants against it (the letter of divorce); a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעָרֵר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be stirred up</italic>.</definition>\n<notes> Tosef. Sot. II, 2 אפי' … המים מִתְעָרְרִין עליה Var. (ed. Zuck. המים היה מִתְרַעְרְעִין, read: המים מתר' or מִתְעַרְעֲרִין) even if she goes astray twenty years afterwards, the waters will be stirred up (work injury) in her body.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22665,
+      "source_id": "jastrow-xml-022665",
+      "canonical_entry_id": "P01455",
+      "headword": "עֲרַר",
+      "source_xml": "<entry id=\"P01455\">\n<head-word>עֲרַר</head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to object</italic>.</definition>\n<notes> Y. Keth. VII, 31\n<sup>c</sup> top הויין קריביה עַרְרִין ואמרין וכ' the relatives objected (to the verdict) \n<pgbrk id=\"pg1124\" />and said &amp;c. Ib. VI, 30\n<sup>d</sup> top אשכחינון עֲרִירִין he found them disputing (about the amount to be allowed for the wife’s toilet).</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>עָרֵיר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to stir up, incite</italic>.</definition>\n<notes> Targ. Is. IX, 10.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22666,
+      "source_id": "jastrow-xml-022666",
+      "canonical_entry_id": "P01456",
+      "headword": "עֲרָר",
+      "source_xml": "<entry id=\"P01456\">\n<head-word>עֲרָר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> = עַרְעָר, \n<italic>protest, objection, claim</italic>.</definition>\n<notes> Y. Gitt. I, 43\n<sup>c</sup> top עֲרָרוֹ בטל, v. עָרַר. Y. Keth. IX, beg. 32\n<sup>d</sup> כל ע' שיש לי בשדה זו whatever claim I may have on this field. Y. R. Hash. III, 58\n<sup>d</sup> top קרא ע' על וכ' if objection was raised against the signature &amp;c. Y. Gitt. I, 43\n<sup>c</sup> bot ע' שבגיפו an objection based on an alleged informality of the document itself; ע' שחוץ לגופו an objection not concerning the document itself (e.g. that the letter of divorce was given conditionally).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22667,
+      "source_id": "jastrow-xml-022667",
+      "canonical_entry_id": "P01457",
+      "headword": "עֲרַר",
+      "source_xml": "<entry id=\"P01457\">\n<head-word>עֲרַר</head-word>\n<hw-number>II</hw-number>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Y. Deut. XXII, 14; 17 (not ערד; h. text עלילת).—[עֲרָר, Targ. Y. II Gen. XX, 2 (ed. Vien. ערד), read: גְּרָר.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22668,
+      "source_id": "jastrow-xml-022668",
+      "canonical_entry_id": "P01458",
+      "headword": "עֶרֶשׂ",
+      "source_xml": "<entry id=\"P01458\">\n<head-word>עֶרֶשׂ</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"P01401\">עֶרֶס</xref>) \n<italic>bed</italic>.</definition>\n<notes> Midr. Till. to Ps. XLI, 4 וכי יש ע' של דוי is there a bed of despair?; Yalk. ib. 741.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22669,
+      "source_id": "jastrow-xml-022669",
+      "canonical_entry_id": "P01459",
+      "headword": "עָשׁ",
+      "source_xml": "<entry id=\"P01459\">\n<head-word>עָשׁ</head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) the constellation called the \n<italic>Great Bear</italic>.</definition>\n<notes> Ber. 58\n<sup>b</sup>, expl. יותא, v. אָתָא III.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22670,
+      "source_id": "jastrow-xml-022670",
+      "canonical_entry_id": "P01460",
+      "headword": "עָשׁ",
+      "source_xml": "<entry id=\"P01460\">\n<head-word>עָשׁ</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Job IX, 9.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22671,
+      "source_id": "jastrow-xml-022671",
+      "canonical_entry_id": "P01461",
+      "headword": "עָשׁ",
+      "source_xml": "<entry id=\"P01461\">\n<head-word>עָשׁ</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>moth</italic>.</definition>\n<notes> Deut. R. s. 2, beg., v. מָסַס.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22672,
+      "source_id": "jastrow-xml-022672",
+      "canonical_entry_id": "P01462",
+      "headword": "עָשָׁא",
+      "source_xml": "<entry id=\"P01462\">\n<head-word>עָשָׁא</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Is. L, 9.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22673,
+      "source_id": "jastrow-xml-022673",
+      "canonical_entry_id": "P01463",
+      "headword": "עֲשָׁאשִׁיתָא",
+      "source_xml": "<entry id=\"P01463\">\n<head-word>עֲשָׁאשִׁיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01516\">עֲשָׁשִׁיתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22674,
+      "source_id": "jastrow-xml-022674",
+      "canonical_entry_id": "P01464",
+      "headword": "עֵשֶׂב",
+      "source_xml": "<entry id=\"P01464\">\n<head-word>עֵשֶׂב</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>herb, plant, grass</italic>.</definition>\n<notes> Gen. R. s. 10, v. מַזָּל. Cant. R. to IV, 11 ע' הבאר the plants surrounding the well, v. גִּעְגֵּעַ; a. fr.—\n<plural-form>Pl. עֲשַׂבִּים</plural-form>. Kil. V, 7 אם ע' יופך if the dropped seeds have not grown beyond the stage of herbage, he must turn the soil over (v. אָפַךְ). Lev. R. s. 27, beg. ההרים מעלין ע' וכ' the mountains produce herbs, and the righteous, good deeds. Erub. 54\n<sup>a</sup> בני האדם דומין לעִשְׂבֵּי השדה וכ' men are like the plants of the field, these blossom &amp;c., v. הָלָה. Y. Taan. IV, 68\n<sup>d</sup> bot., a. e., v. לֶחִי; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22675,
+      "source_id": "jastrow-xml-022675",
+      "canonical_entry_id": "P01465",
+      "headword": "עֲשַׂב",
+      "source_xml": "<entry id=\"P01465\">\n<head-word>עֲשַׂב</head-word>\n<head-word>עִשְׂבָּא</head-word>\n<head-word>עִי'</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Gen. I, 29 some ed.; a. fr.; v. עִסְבָּא.—Lev. R. s. 22 חמא חד עשב וכ' saw a certain plant and picked it up, and made of it a wreath for his head. Ib. חמא ההוא ע' saw that same plant. B. Bath. 74\n<sup>b</sup>, v. סַמְתְּרֵי; a. fr.—\n<plural-form>Pl. עִשְׂבֵּי, עִי'</plural-form>. Ib. ואנחנא אע' and we rested on the herbs. Sot. 48\n<sup>b</sup> ע' טוריא mountain herbs, v. שׁוּט I ch.; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22676,
+      "source_id": "jastrow-xml-022676",
+      "canonical_entry_id": "P01466",
+      "headword": "עָשָׂה",
+      "source_xml": "<entry id=\"P01466\">\n<head-word>עָשָׂה</head-word>\n<head-word>עַשֵׂה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01474\">עשי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22677,
+      "source_id": "jastrow-xml-022677",
+      "canonical_entry_id": "P01467",
+      "headword": "עֵשָׂו",
+      "source_xml": "<entry id=\"P01467\">\n<head-word>עֵשָׂו</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Esau</italic>, son of Isaac; (gent. noun) \n<italic>Esau</italic> (\n<italic>Edom</italic>), frequ.</definition>\n<notes> a disguise for \n<italic>Rome</italic>. Yoma 38\n<sup>b</sup> רשע דר … זה ע' a wicked man that dwelt between two righteous men without adopting their doings, that is Esau. Gitt. 57\n<sup>b</sup> (ref. to Gen. XXVII, 22) אין לך … מזרעו של ע' there is no successful war in which descendants of Esau have no part. Gen. R. s. 2 ויהי ערב ערבו של ע' ‘and it was evening’ (Gen. I, 5), the evening (decline) of Esau (Rome). Koh. R. to V, 7 אם ראית ע' בכרך הגדול של רומי עושק וכ' when thou seest Esau in the large city of Rome oppressing the poor and robbing the indigent &amp;c.; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22678,
+      "source_id": "jastrow-xml-022678",
+      "canonical_entry_id": "P01468",
+      "headword": "עִשּׂוּי",
+      "source_xml": "<entry id=\"P01468\">\n<head-word>עִשּׂוּי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עָשָׂה) \n<italic>force, pressure</italic>.</definition>\n<notes> Keth. 53\n<sup>a</sup> מעלאי דידי היינו ע' Tosaf. to ib. 50\n<sup>a</sup> (Rashi עַשּׂוּיֵי; ed. עשייה) my coming in with you would be equal to forcing (undue influence); v. עֲשֵׂי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22679,
+      "source_id": "jastrow-xml-022679",
+      "canonical_entry_id": "P01469",
+      "headword": "עִשּׁוּן",
+      "source_xml": "<entry id=\"P01469\">\n<head-word>עִשּׁוּן</head-word>\n<head-word>עִשּׁוּנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub עִישּׁ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22680,
+      "source_id": "jastrow-xml-022680",
+      "canonical_entry_id": "P01470",
+      "headword": "עִשּׁוֹנִית",
+      "source_xml": "<entry id=\"P01470\">\n<head-word>עִשּׁוֹנִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P01514\">עֲשַׁשׁ</xref>, a. עֶשֶׁת) \n<italic>hard and level ground</italic>.</definition>\n<notes> Mekh. B’shall., Shir., s. 5 (ref. to Ex. XV, 5) וכי תהומות יש שם והלא ע' היא are any abysses there?, is not it (the bottom of the Red Sea) even and hard?; וכי מצולות יש שם והלא ע' היתה (read היא) are any whirlpools there? &amp;c.; Yalk. Ex. 246; Tanḥ. B’shall. 14 עשוניות (some ed. עשיניות; corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22681,
+      "source_id": "jastrow-xml-022681",
+      "canonical_entry_id": "P01471",
+      "headword": "עִשּׂוּר",
+      "source_xml": "<entry id=\"P01471\">\n<head-word>עִשּׂוּר</head-word>\n<head-word>עִשּׂוּרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub עִישּׂ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22682,
+      "source_id": "jastrow-xml-022682",
+      "canonical_entry_id": "P01472",
+      "headword": "עשות",
+      "source_xml": "<entry id=\"P01472\">\n<head-word>עשות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Cant. 991 some ed., v. \n<xref rid=\"P01517\">עֶשֶׁת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22683,
+      "source_id": "jastrow-xml-022683",
+      "canonical_entry_id": "P01473",
+      "headword": "עשּׂוֹרְיָאתָא",
+      "source_xml": "<entry id=\"P01473\">\n<head-word>עשּׂוֹרְיָאתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00631\">עִיסּוּרְיָתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22684,
+      "source_id": "jastrow-xml-022684",
+      "canonical_entry_id": "P01474",
+      "headword": "עשי",
+      "source_xml": "<entry id=\"P01474\">\n<head-word>עשי</head-word>\n<head-word>עָשָׂה</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> cmp. עסי)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to do, work, prepare</italic> (corresp. in variety of meanings to עֲבַד).</definition>\n<notes> Shebi. VIII, 6 אין עוֹשִׂין זתים וכ' (in the Sabbatical year) you must not prepare (press, cmp. עֲסֵי) olives in the press &amp;c. Tosef. ib. VI, 29 אין עושין אותן גרוגרות you must not prepare them as dried figs. Ib. 8 אין עושין את היין וכ' you must not make \n<italic>ăluntith</italic> wine (v. אֲלוּנְטִית II). Sabb. 118\n<sup>a</sup>, a. e. עֲשֵׂה שבתך חול וכ' make thy Sabbath a week-day (as to expense), and be independent of men. Ib. 56\n<sup>a</sup> שביקש לַעֲשׂוֹת ולא ע' he wanted to do (evil), but did not do it. Ber. 17\n<sup>a</sup> (ref. to Ps. CXI, 10) לעוֹשִׂים לשמה ועושים וכ' to those who do good for its own sake, but not to those who do it from impure motives; וכל העוֹשֶׂה שלא לשמה וכ' whoever does good from impure motives, had better not have been born; a. v. fr.—עֲשֵׂה (\n<italic>do</italic>), or מִצְוַת עֲשֵׂה \n<italic>positive law</italic>; לאֹ תַעֲשֶׂה (\n<italic>do not</italic>) \n<italic>prohibitory law</italic>, v. לֹא, לַאו, a. מִצְוָה. Keth. 30\n<sup>a</sup>, a. e. חייבי עֲ' מצרי ואדומי those guilty of transgressing the law implied in the positive law (limitation) concerning intermarriages with descendants of Egyptian or Edomite converts (Deut. XXIII, 8 sq.).—לאו הבא מכלל עֲ', v. לַאו.—ע' דמים, or ע' (sub. דמים) \n<italic>to value, assess</italic>. B. Mets. 69\n<sup>b</sup> לא עֲשָׂאָהּ דמים he did not estimate her (the cow’s) value; ולא עשאה but did he not estimate her value (when he said, thy cow is worth to me thirty denars)? לא עשאה ד' מחיים וכ' he did not estimate her value as alive, but as dead (how much he would have to pay, if the cow died while in his use). Ib. 62\n<sup>b</sup> צא ועֲשֵׂה עלי כשער וכ' go and give me credit for it in accordance with the present market price, and I will furnish it &amp;c. Ib. בדמי חיטיך שעָשִׂיתָ עלי בשלשים וכ' as an equivalent for thy wheat for which thou hast charged me with thirty denars, I hold wine for thee; a. fr.—Part. pass. עָשׂוּי; f. עֲשׂוּיָה; \n<plural-form>pl. עֲשׂוּיִים, עֲשׂוּיִין; עֲשׂוּיוֹת</plural-form>. Ib. הרי חיטיך ע' עלי וכ' thy wheat is worth to me &amp;c. Tosef. ib. VI, 6 הרי קמה זו ע' עליך וכ' this quantity of standing grain is charged to thee (I sell thee &amp;c.) at one hundred &amp;c.; ib. הרי גיזיהן של אלו ע' וכ' I sell thee the wool on these sheep for &amp;c.; a. fr.—\n<pgbrk id=\"pg1125\" />Tanḥ. Naso 10; Num. R. s. 11 שלא תהא ע' that thou mayest not be \n<italic>forced</italic> (v. \n<italic>Pi.</italic>) to take an office, v. פַּנְיָיס.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to spend time, tarry</italic>.</definition>\n<notes> Midr. Till. to Ps. XVII, 14 ר' שמעון … שע' במערה וכ' ed. Bub. (oth. ed. טמון) R. S. ben Y. who lived in a cave, … thirteen years. Gen. R. s. 91 (ref. to רדו, Gen. XLII, 2) בישרם שהן עתידין לעשות שם ר\"י שנה מנין רד\"ו he announced to them that they were to live there two hundred and ten years, the numerical value of \n<italic>r’du</italic>; Num. R. s. 13. Gen. R. s. 22 עשה … קיים וכ' Abel lived from &amp;c.; a. fr.—Tanḥ. Sh’mini 1 ולא ע' אלא אמר וכ' and he did not tarry but said &amp;c., i.e. at once he said; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נַעֲשֶׂה</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be done, made; to become</italic>.</definition>\n<notes> Ber. 35\n<sup>b</sup> מלאכתן נַעֲשֵׂית ע\"י אחרים their work is done through others. B. Mets. 46\n<sup>a</sup>, a. e. מטבע נ' חליפין, v. חֲלִיפִים. Pesik. R. s. 33 (ref. to Is. L, 5) לא נַעֲשֵׂיתִי אחור לנבואה I was not behind (any one) in prophecy; a. v. fr.—נ' דמים \n<italic>to be valued, priced</italic>. B. Mets. l. c.; Kidd. I, 6 כל הנ' ד' באחר an object upon which a valuation has been set for the purpose of exchange with another object; expl. ib. 28\n<sup>a</sup> כל הנישום וכ' the value of which is estimated &amp;c.; a. e.—נעשה כ־ \n<italic>it is to be considered as if, it is as if</italic>. Ḥull. 19\n<sup>b</sup> נ' כמי ששחט וכ' the case is the same as when a gentile begins the slaughtering and an Israelite finishes it. Y. B. Mets. V, 10\n<sup>c</sup> top נ' כמשכיר וכ' it is to be considered as if he had rented the field to him at a high price; a. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶעֱשָׂה</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to cause to do; to order</italic>.</definition>\n<notes> B. Bath. 9\n<sup>a</sup>, a. e. גדול המַעֲשֶׂה יותר מן העושה greater is he who causes others to do good than he who does good. Ex. R. s. 35 ליתן שכר למעשה כעושה to reward him who causes a good deed like him who does it. Num. R. s. 7 (ref. to Num. V, 4) מעצמן לא הוצרכו שיַעֲשִׂיאוּם משה וכ' ‘so did they’ of their own accord, it did not become necessary for Moses and Aaron to make them do it. Tosef. Pes. VIII, 5 שה' את הציבור לעשות וכ' (ed. Zuck. שעִישָּׂה, \n<italic>Pi.</italic>) he ordered the congregation to celebrate the Second Passover; Tosef. Snh. II, 11 שהֶעֱשׂוּ את הצבור (ed. Zuck. שהֶיעֱשׂוּ) they ordered &amp;c. Y. Yoma VI, 43\n<sup>d</sup> top ראו היך הֶעֱשִׂיא את ישראל לעבודה זרה see how he became the cause for Israelites to commit idolatry (to erect a Temple in Egypt); a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>עִישָּׂה</binyan-form>\n<senses>\n<sense>\n<definition> same, esp. \n<italic>to force; to enforce</italic>.</definition>\n<notes> Pesik. R. s. 33 השופט דן … מְעַשֶּׂה את הדין the judge decides the law, and the officer (\n<italic>shoṭer</italic>) enforces the law. Y. Snh. I, 18\n<sup>d</sup> bot. ע' יחזקיהו לציבור לעשות וכ' Hezekiah ordered the congregation to celebrate &amp;c.; Tosef. Pes. l. c., v. supra. R. Hash. 6\n<sup>a</sup> ועשית אזהרה לבית דין שיְעַשּׂוּךָ ‘and thou shalt do’ (Deut. XXIII, 24), this is an instruction to the authorities to make thee do it; Y. ib. I, 56\n<sup>c</sup> bot. Keth. 77\n<sup>a</sup>; Y. Gitt. IX, end, 50\n<sup>d</sup> אין מְעַשִּׂין אלא וכ' we do not force (a man to divorce his wife) except &amp;c. Ib. ישראל שעִיסּוּ כמעשה גוים if an Israelitish authority forced (divorce) in the way the gentiles do; גוים שעיסו וכ' if gentile authorities forced (divorce) in the way Israelites do; a. fr.—Part. pass. מְעוּשֶּׂה. Gitt. IX, 8 גט מע' וכ' a letter of divorce given under force, if forced by an Israelitish authority, is valid. Ib. 88\n<sup>b</sup>; a. fr.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22685,
+      "source_id": "jastrow-xml-022685",
+      "canonical_entry_id": "P01475",
+      "headword": "עֲשֵׂי",
+      "source_xml": "<entry id=\"P01475\">\n<head-word>עֲשֵׂי</head-word>\n<language-key> ch.,</language-key>\n<senses>\n<sense>\n<definition>\n<italic>Pa.</italic> עַשֵּׂי same, \n<italic>to force</italic>.</definition>\n<notes> Gitt. 88\n<sup>b</sup> בני עַשּׂוּיֵי lawfully qualified to force (a divorce). Keth. 50\n<sup>a</sup> עַשִּׂיתִינְהוּ לזניה (read: לזוניה) I caused them (persuaded them, v. Tosaf. a. l.) to support him. Ib. אי אמרת … משום הכי עַשְּׂיִינְהוּ וכ' if the law is that they are not bound to support him, then he had to persuade them; but if the law requires them to do it, what necessity was there to persuade them? Ib. 53\n<sup>a</sup> לעַשּׂוּיֵיה נמי is it also permitted to influence him? Ib. מי … עול ועַשְּׂיֵיה עול ולא תְעַשְּׂיֵיה וכ' did I say to thee, go in and influence him? I said, go, but do not influence him. Ib. היינו עשייה (read: עַשּׂוּיֵיה), v. עִשּׂוּי; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22686,
+      "source_id": "jastrow-xml-022686",
+      "canonical_entry_id": "P01476",
+      "headword": "עֲשִׂיָּה",
+      "source_xml": "<entry id=\"P01476\">\n<head-word>עֲשִׂיָּה</head-word>\n<head-word>עֲשִׂיָּיה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>doing, action</italic>.</definition>\n<notes> Y. Pes. IX, 36\n<sup>d</sup> top (ref. to וחדל לעשות, Num. IX, 13) החדל בשעת ע' he who fails (to sacrifice, without being prevented) at the time when the Passover sacrifice is to be done. Ib. חוץ לַעֲשִׂיָּיתוֹ out of the time of doing it. Y. Ab. Zar. IV, 44\n<sup>a</sup> (ref. to Lev. XXVI, </notes></sense>\n<sense>\n<number>1)</number>\n<definition> ע' בתחלה קימה וכ' ‘ye shall not make’ refers to the original making and putting up, ‘ye shall not put up’ means that you must not erect it when it has fallen down.</definition>\n<notes> Meg. 17\n<sup>a</sup>, a. e. ע' celebrating (Purim, Esth. IX, 27), contrad. to זְכִירָה. Sifré Deut. 212 (ref. to Deut. XXI, 1</notes></sense>\n<sense>\n<number>2)</number>\n<definition> נאמר כאן ע' ונאמרה ע' וכ' here is an action mentioned concerning the head, and a \n<italic>doing</italic> is named concerning the nails מה ע' האמורה וכ' as the action concerning the head means removing (the hair), so &amp;c.; Yeb. 48\n<sup>a</sup>; a. fr.—\n<plural-form>Pl. עֲשִׂיּוֹת</plural-form>.</definition>\n<notes> Yoma 55\n<sup>a</sup> (ref. to Lev. XVI, 15) שיהיו כל עֲשִׂיּוֹתָיו שוות that all his actions (sprinklings) should be alike. Ib. 71\n<sup>b</sup>, sq.; a. e.—[עשייה, Keth. 53\n<sup>a</sup>, v. עֲשֵׂי.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22687,
+      "source_id": "jastrow-xml-022687",
+      "canonical_entry_id": "P01477",
+      "headword": "עֲשֵׁין",
+      "source_xml": "<entry id=\"P01477\">\n<head-word>עֲשֵׁין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01489\">עֲשַׁן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22688,
+      "source_id": "jastrow-xml-022688",
+      "canonical_entry_id": "P01478",
+      "headword": "עַשִּׁין",
+      "source_xml": "<entry id=\"P01478\">\n<head-word>עַשִּׁין</head-word>\n<head-word>(עָשִׁין</head-word>\n<head-word>), , </head-word>\n<head-word>עַשִּׁינָא</head-word>\n<head-word>עֲשִׁי'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עֲשַׁן) \n<italic>strong</italic>.</definition>\n<notes> Targ. Ps. XXIV, 8. Targ. Prov. XXIV, 5 (some ed. עִשּׁוּנָא). Targ. Ps. LXXV, 9 (ed. Wil. עֲשִׁין); a. fr.—\n<plural-form>Pl. עַשִּׁינִין, עַשִּׁינַיָּא, עֲ'</plural-form>. Ib. XVIII, 18. Ib. XXX, 8 (ed. Wil. עָ'; ed. Lag. עושינא, read: עִישּׁוּנָא); a. e.—\n<italic>Fem</italic>. עשִּׁינְתָּא, עֲשִׁ'. Targ. Prov. XVIII, 19 (ed. Wil. עַשִּׁנְתָּא); a. e.—\n<plural-form>Pl. עַשִּׁינָתָא, עֲשִׁ'</plural-form>. Ib. IX, 3. Ib. XVIII, 23 hard words (h. text עַוּוּת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22689,
+      "source_id": "jastrow-xml-022689",
+      "canonical_entry_id": "P01479",
+      "headword": "עשיניות",
+      "source_xml": "<entry id=\"P01479\">\n<head-word>עשיניות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01470\">עִשּׁוֹנִית</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22690,
+      "source_id": "jastrow-xml-022690",
+      "canonical_entry_id": "P01480",
+      "headword": "*,",
+      "source_xml": "<entry id=\"P01480\">\n<head-word>*, </head-word>\n<head-word>*עָשִׁיק</head-word>\n<head-word>עֲ'</head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עֲשַׁק; v. P. Sm. 3006 s. v. עשק) \n<italic>perverse, tricky</italic>.</definition>\n<notes> Targ. Prov. XIV, 2 (Var. ed. Lag. עשיר; h. text נלוז).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22691,
+      "source_id": "jastrow-xml-022691",
+      "canonical_entry_id": "P01481",
+      "headword": "עָשִׁיק",
+      "source_xml": "<entry id=\"P01481\">\n<head-word>עָשִׁיק</head-word>\n<head-word>עֲ'</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עֲשַׁק; cmp. יקר) \n<italic>very dear, expensive, rare</italic>.</definition>\n<notes> B. Mets. 52\n<sup>a</sup> (prov.) ע' לגביך ושוי וכ' for thy body (clothes) buy even what is dear, but for thy stomach, what is reasonable. Ib. 74\n<sup>a</sup> ע' עפרא Rashi (ed. עֲשַׁק; Ms. M. לא שכיח) earth (for pottery) was scarce. Ber. 56\n<sup>a</sup>, v. רוּמָּנָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22692,
+      "source_id": "jastrow-xml-022692",
+      "canonical_entry_id": "P01482",
+      "headword": "עָשִׁיר",
+      "source_xml": "<entry id=\"P01482\">\n<head-word>עָשִׁיר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> עָשַׁר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>substantial, wealthy; rich man</italic>.</definition>\n<notes> Sabb. 25\n<sup>b</sup> איזהו ע' כל שיש לו נחת רוח בעשרו who is rich? He who finds satisfaction in his wealth; Ab. IV, 1; Tam. 32\n<sup>a</sup>. Deut. R. s. 2 (ref. to Prov. XVIII, 23) עֲשִׁירוֹ של עולם the rich One (Owner) of the world. Ib. אדם אם יהא לו קרוב ע' וכ' if a man’s relative is rich, he owns him, and if poor, he disowns him. Pes. 113\n<sup>a</sup> ע' המעשר וכ' a rich man who gives away the tenth portion of his income in secret. Ib.\n<sup>b</sup> (four are unbearable) דל גאה וע' פכחש \n<pgbrk id=\"pg1126\" />וכ' a poor man that is proud, a rich man that flatters &amp;c.; a. v. fr.—\n<plural-form>Pl. עֵשִׁירִים, עְשִׁירִין</plural-form>. Erub. 86\n<sup>a</sup> רבי מכבד ע' Rabbi paid honor to the rich (for the sake of their charitable mission, ref. to Ps. LXI, 8, v. יָשַׁב). Yoma 35\n<sup>b</sup> רבי … מחייב את הע' the example of R. El. b. Ḥarsum condemns the rich (who neglect the law on account of their business occupations). Men. 86\n<sup>a</sup>, a. e. וסימניך ע' מקמצין and thy mnemonical sign (v. סִימָן) be: the rich are economical (Rabbi favored the economical practice); a. fr.—\n<italic>Fem</italic>. עֲשִׁירָה. Y. Shek. III, end, 47\n<sup>c</sup>; Tosef. ib. II, 4; a. e.—\n<plural-form>Pl. עֲשִׁירוֹת</plural-form>. Tanḥ. Toldôth 9 ע' הן נאות וכ' they are rich, they are handsome &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22693,
+      "source_id": "jastrow-xml-022693",
+      "canonical_entry_id": "P01483",
+      "headword": "עשיר",
+      "source_xml": "<entry id=\"P01483\">\n<head-word>עשיר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Prov. XIV, 2 Var., v. עָשִׁיק I.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22694,
+      "source_id": "jastrow-xml-022694",
+      "canonical_entry_id": "P01484",
+      "headword": "עֲשִׂירָאָה",
+      "source_xml": "<entry id=\"P01484\">\n<head-word>עֲשִׂירָאָה</head-word>\n<head-word>עֲסִ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> = h. עֲשִׂירִי, \n<italic>the tenth</italic>.</definition>\n<notes> Targ. O. Gen. VIII, 5 (Y. ed. Vien. עֲשִׂירִי). Targ. O. a. Y. II Lev. XXVII, 32 (Y. I עֲשִׂירָיָה); a. fr.—Ber. 5\n<sup>b</sup>, a. e., v. בִּיר.—\n<italic>Fem</italic>. עֲשִׂירִיתָא, עֲסִ'. Targ. Ez. XXIX, 1 (not עֲשִׂירְיָתָא); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22695,
+      "source_id": "jastrow-xml-022695",
+      "canonical_entry_id": "P01485",
+      "headword": "עֲשִׁירוּת",
+      "source_xml": "<entry id=\"P01485\">\n<head-word>עֲשִׁירוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (עָשִׁיר) \n<italic>wealth</italic>.</definition>\n<notes> Keth. 106\n<sup>b</sup>, a. e. במקום ע', v. עֲנִיּוּת. Y. Peah IV, 18\n<sup>a</sup> sq. (ref. to I Chr. XXII, 13 בעניי) שאין ע' לפני מי וכ' none can claim to be rich before Him who spoke and the world arose. Gitt. 30\n<sup>b</sup> מאי שנא … לע' דלא וכ' why is it that they made provision for the debtor’s death, and none for the event of his becoming rich? מיתה שכיחא ע' וכ' death is an ordinary occurrence, becoming rich is not; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22696,
+      "source_id": "jastrow-xml-022696",
+      "canonical_entry_id": "P01486",
+      "headword": "עֲשִׂירִי",
+      "source_xml": "<entry id=\"P01486\">\n<head-word>עֲשִׂירִי</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> עֶשֶׂר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>the tenth</italic>.</definition>\n<notes> Ber. 8\n<sup>b</sup> תשיעי וע' the ninth and the tenth (of Tishri). Bekh. IX, 7 והיוצא ע' and the lamb which comes out the tenth. Ib. 8; a. fr.—\n<italic>Fem</italic>. עֲשִׂירִית. Yalk. Ex. 261 וכמה הוא ע' האיפה and how much is the tenth of an Efah?; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22697,
+      "source_id": "jastrow-xml-022697",
+      "canonical_entry_id": "P01487",
+      "headword": "עְשִׂירָיָה",
+      "source_xml": "<entry id=\"P01487\">\n<head-word>עְשִׂירָיָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01484\">עֲשִׂירָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22698,
+      "source_id": "jastrow-xml-022698",
+      "canonical_entry_id": "P01488",
+      "headword": "עֲשִׂירִית",
+      "source_xml": "<entry id=\"P01488\">\n<head-word>עֲשִׂירִית</head-word>\n<head-word>עֲשִׂירִיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01486\">עֲשִׂירִי</xref>, \n<xref rid=\"P01484\">עֲשִׂירָאָה.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22699,
+      "source_id": "jastrow-xml-022699",
+      "canonical_entry_id": "P01489",
+      "headword": "עָשָׁן",
+      "source_xml": "<entry id=\"P01489\">\n<head-word>עָשָׁן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"P01489\">עְשַׁן</xref>) [\n<italic>thick</italic>, cmp. עָב, אָבָק &amp;c.,] \n<italic>smoke, soot</italic>.</definition>\n<notes> Ker. 6\n<sup>a</sup> מעלה ע' smoke-raiser (name of a plant). Yoma 21\n<sup>b</sup> עֲשַׁן המערכה the smoke rising from the pyre in the Temple; B. Bath. 147\n<sup>a</sup>; a. fr.—\n<plural-form>Pl. עֲשַׁנִּים</plural-form>. Sabb. 23\n<sup>a</sup> כל הע' יפין וכ' all soots are good for making ink, but that produced by burning olive oil is the best.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22700,
+      "source_id": "jastrow-xml-022700",
+      "canonical_entry_id": "P01490",
+      "headword": "עָשַׁן",
+      "source_xml": "<entry id=\"P01490\">\n<head-word>עָשַׁן</head-word>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> denom. of preced.) \n<italic>to smoke</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>עִישֵּׁן</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to generate smoke; to fumigate; to burn incense</italic>.</definition>\n<notes> Sabb. 23\n<sup>a</sup> (ref. to the use of oil for ink) לגבל או לעַשֵּׁן do you mean for kneading it with soot, or for making soot by burning it? Pesik. R. s. 12 והיו מְעַשְּׁנוֹת לפני עכו\"ם they burnt incense before idols; Tanḥ. Tol’doth 8 מעשנות ומקטרות וכ' raised smoke and burnt perfumes &amp;c. Yeb. 115\n<sup>a</sup> עִישֵּׁינוּ עלינו בית וכ' (Ar. עִישְּׁנוּ) they (robbers) filled our house with smoke, filled a cave in which we dwelt with smoke &amp;c. Y. Ber. VI, 12\n<sup>b</sup> bot. במְעַשֵּׁין לפני וכ' (not במעשיו) when he burns spices in front of his shop; a. e.—Esp. \n<italic>to fumigate plants.</italic> Shebi. II, 2 מְעַשְּׁנִין עד וכ' you may fumigate until New Year (of the Sabbatical year). Y. Sabb. VII, 10\n<sup>a</sup> top המְעַשֵּׁן he who fumigates plants (on the Sabbath); a. fr.—Part. pass. מְעוּשָּׁן; f. מְעוּשֶּנֶת; \n<plural-form>pl. מְעוּשָּׁנִים, מְעוּשָּׁנִין; מְעוּשָּׁנוֹת</plural-form>. Men. VIII, 6 אין מביאין … מע' you must not use for libations sweet wine or smoked wine (of fumigated grapes). Y. Bicc. I, 63\n<sup>d</sup> bot. ענבים מאובקות ומע' וכ' (not מאונ') powdered (v. אָבַק) or smoked grapes should not be offered as first-fruits. Ḥull. III, 5 המע' an animal that has inhaled smoke; a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעַשֵּׁן</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be affected by smoke, taste of smoke</italic>.</definition>\n<notes> Zeb. 64\n<sup>a</sup> שמא יִתְעַשֵּׁנוּ lest the wine for libations may catch smoke (when carried past the altar pyre).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22701,
+      "source_id": "jastrow-xml-022701",
+      "canonical_entry_id": "P01491",
+      "headword": "עֲשַׁן",
+      "source_xml": "<entry id=\"P01491\">\n<head-word>עֲשַׁן</head-word>\n<head-word>עֲשֵׁין</head-word>\n<senses>\n<sense>\n<definition> (cmp. אשן) \n<italic>to be substantial, strong</italic> (corresp. to h. עזז, v. \n<xref rid=\"P00216\">עַז</xref>).</definition>\n<notes> Targ. Ps. LII, 9 עֲשַׁן Ms. (ed. עֲשִׁין). Ib. LXXXIX, 14 (ed. Wil. תַּעְשֵׁן \n<italic>Af.</italic>); a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אַעְשֵׁן</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to strengthen, make substantial</italic>.</definition>\n<notes> Targ. Prov. VIII, 28 (ed. Wil. אַעְשִׂין, corr. acc.); a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַשֵּׁן, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְעֲשַׁן</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to become strong</italic>.</definition>\n<notes>. Targ. Y. Num. XXV, 8.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to exhibit one’s strength</italic>.</definition>\n<notes> Targ. Ps. LXVIII, 29 (h. text עוזה).</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to boast of one’s strength, be impudent</italic>.</definition>\n<notes> Ib. IX, 20.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22702,
+      "source_id": "jastrow-xml-022702",
+      "canonical_entry_id": "P01492",
+      "headword": "עָשְׁנָא",
+      "source_xml": "<entry id=\"P01492\">\n<head-word>עָשְׁנָא</head-word>\n<head-word>עוֹשְׁ'</head-word>\n<head-word>עוּשְׁ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) = h. עֹז, \n<italic>strength</italic>.</definition>\n<notes> Targ. Ps. XXI, 2 בעָשְׁנָךְ (Ms. בעוּשְׁ'). Ib. VIII, 3. Ib. XXIX, 1 Ms. (ed. עִישּׁוּנָא; ed. Wil. עֻשָּׁנָא). Targ. Prov. X, 15; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22703,
+      "source_id": "jastrow-xml-022703",
+      "canonical_entry_id": "P01493",
+      "headword": "עַשִּׁנְתָּא",
+      "source_xml": "<entry id=\"P01493\">\n<head-word>עַשִּׁנְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01477\">עַשִּׁין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22704,
+      "source_id": "jastrow-xml-022704",
+      "canonical_entry_id": "P01494",
+      "headword": "עשֶׁף",
+      "source_xml": "<entry id=\"P01494\">\n<head-word>עשֶׁף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00368\">עוֹשֶׁף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22705,
+      "source_id": "jastrow-xml-022705",
+      "canonical_entry_id": "P01495",
+      "headword": "עָשַׁק",
+      "source_xml": "<entry id=\"P01495\">\n<head-word>עָשַׁק</head-word>\n<senses>\n<sense>\n<definition> (b. h.) [\n<italic>to press, twist</italic>,] \n<italic>to wrong</italic>, esp. \n<italic>to withhold what is due to a fellowman; to deny a debt</italic>.</definition>\n<notes> B. Mets. 111\n<sup>a</sup> (ref. to Lev. V, 2</notes></sense>\n<sense>\n<number>1)</number>\n<definition> או עשק כתיב שעֲשָׁקוֹ כבר we read, ‘or if he \n<italic>have</italic> withheld’, which means that he had wronged him ere this (when he denied his indebtedness).</definition>\n<notes> Koh. R. to IV, 6 טוב … גוזל וחומס ועוֹשֵׁק ועושה וכ' better is he who does a little good with what is his own, than he who robs and does violence and oppresses, and does much good with what belongs to others. Succ. 29\n<sup>b</sup> עוֹשְׁקֵי שכר שכיר those who withhold the hired man’s wages, different from כובשי וכ' (v. כָּבַשׁ) who defer paying &amp;c.; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22706,
+      "source_id": "jastrow-xml-022706",
+      "canonical_entry_id": "P01496",
+      "headword": "עֲשַׁק",
+      "source_xml": "<entry id=\"P01496\">\n<head-word>עֲשַׁק</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>1) same.</definition>\n<notes> ch. </notes></sense>\n<sense>\n<number>1)</number>\n<definition> same. Targ. O. Lev. V, 21 עשק ed. Berl. (oth. ed. אנס).</definition>\n<notes> Ib. 23. Targ. Am. IV, 1; a. fr.—Part. pass. עָשִׁיק.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to pervert</italic>, v. \n<xref rid=\"unknown\">עָשִׁיק I</xref>.</definition>\n<notes> I.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (cmp. יקר) \n<italic>to be outrageously dear</italic>, v. \n<xref rid=\"unknown\">עָשִׁיק II</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22707,
+      "source_id": "jastrow-xml-022707",
+      "canonical_entry_id": "P01497",
+      "headword": "עשֶׁק",
+      "source_xml": "<entry id=\"P01497\">\n<head-word>עשֶׁק</head-word>\n<head-word>עֻשְׁקָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00370\">עוֹשֶׁק</xref>, \n<xref rid=\"P00371\">עוּשְׁקָא.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22708,
+      "source_id": "jastrow-xml-022708",
+      "canonical_entry_id": "P01498",
+      "headword": "עָשַׁר",
+      "source_xml": "<entry id=\"P01498\">\n<head-word>עָשַׁר</head-word>\n<senses>\n<sense>\n<definition> (cmp. עֲשַׁן) \n<italic>to be strong, substantial, wealthy</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶעֱשִׁיר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (denom. of (denom. of עָשִׁיר) \n<italic>to become wealthy</italic>.</definition>\n<notes> B. Bath. 25\n<sup>b</sup> ושיַעֲשִׁיר and he who desires to become rich. Ber. 33\n<sup>a</sup> הֶעֱשִׁירוּ קבעוה וכ' when they became wealthy, they made it a custom to recite the Habdalah over a cup. Meïl. 17\n<sup>a</sup>, v. עָנָה II, \n<italic>Hif.</italic> Ned. 38\n<sup>a</sup> לא ה' משה וכ' Moses became rich from the chips of the tablets; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to make rich</italic>.</definition>\n<notes> Keth. 48\n<sup>a</sup> לאו כל הימנו שיעשיר וכ' he is not permitted to enrich his children and throw himself on the charities. Ḥull. 84\n<sup>b</sup> (expl. עשתרת, Deut. VII, 1</notes></sense>\n<sense>\n<number>3)</number>\n<definition> שמַעֲשִׁירוֹת את בעליהן\n<language-key> Ar. </language-key>(ed. שמְעַשְּׁרוֹת, \n<italic>Pi.</italic>) for they make their owners rich; Yalk. Deut. 848 שמעשרות.</definition>\n<notes> Cant. R. to VII, 11 (ref. to תעשרנה, Ps. LXV, 10) אם זכיתם תַּעֲשִׁיֶרנָּה ואם לאו תְּעַשְּׂרֶנָּה וכ' if you deserve well (it reads:) ‘thou makest her rich’, if not, ‘thou reducest her to one-tenth’, that she yield you only one-tenth; a. e.\n<pgbrk id=\"pg1127\" /></notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>עִישֵּׁר</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> same; v. supra. B. Bath. l. c., v. infra.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעַשֵּׁר, </binyan-form>\n<binyan-name>Nithpa.</binyan-name>\n<binyan-form>נִתְעַשֵּׁר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to become rich</italic>.</definition>\n<notes> Sabb. 119\n<sup>a</sup>; Taan. 9\n<sup>a</sup> (play on עשר תעשר, Deut. XIV, 2</notes></sense>\n<sense>\n<number>2)</number>\n<definition> עַשֵּׂר בשביל שתִּתְעַשֵּׂר give tithes in order that thou become rich.</definition>\n<notes> B. Bath. l. c. מתוך שמתחכם מִתְעַשֵּׁר for when he grows wise, he will also grow rich; (Ms. M. חכמתו מְעַשַּׁרְתּוֹ his wisdom makes him rich). Pes. 50\n<sup>b</sup> עשרים … שלא יִתְעַשְּׁרוּ שאילמלי מִתְעַשְּׁרִין וכ' the men of the Great Assembly held twenty-four fasts to pray that the copyists of sacred books &amp;c. might not become rich, for if they grew rich, they would not write; a. fr.—[2) (b. h.) \n<italic>to pretend to be rich, to pass for a rich man</italic>. Men. 85\n<sup>b</sup>. Midr. Till. to Ps. XXIV.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22709,
+      "source_id": "jastrow-xml-022709",
+      "canonical_entry_id": "P01499",
+      "headword": "עֲשַׁר",
+      "source_xml": "<entry id=\"P01499\">\n<head-word>עֲשַׁר</head-word>\n<senses>\n<sense>\n<definition />\n<notes> ch. same (mostly עֲתַר).</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַשֵּׁר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to become rich</italic>.</definition>\n<notes> Gitt. 30\n<sup>b</sup>, v. אֲשַׁר.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22710,
+      "source_id": "jastrow-xml-022710",
+      "canonical_entry_id": "P01500",
+      "headword": "עשֶׁר",
+      "source_xml": "<entry id=\"P01500\">\n<head-word>עשֶׁר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00372\">עוֹשֶׁר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22711,
+      "source_id": "jastrow-xml-022711",
+      "canonical_entry_id": "P01501",
+      "headword": "עֶשֶׂר",
+      "source_xml": "<entry id=\"P01501\">\n<head-word>עֶשֶׂר</head-word>\n<head-word>עֲשָׂרָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>ten.</italic></definition>\n<notes> Ab. V, 1, v. מַאֲמָר. Ex. R. s. 15, a. fr. עשר מכות (not עשרה) the ten Egyptian plagues. Ib. ע' אנשים ten men; a. v. fr.—In compounds עָשָׂר, עֶשְׂרֵה, as אַחַד ע' \n<italic>eleven</italic>, שְׁנֵים ע' \n<italic>twelve</italic> &amp;c. R. Hash. I, 1 בחמשה ע' בו on the fifteenth day of it (the month of Shebat). Pes. I, 1 אור לארבעה ע', v. אוֹר II; a. v. fr.—\n<plural-form>Pl. עֶשְׂרִים</plural-form>\n<italic>twenty</italic>. B. Bath. 107\n<sup>a</sup> ואחד אומר בע' and one of the experts says, it is worth twenty (Selaim). Ab. V, 21 בן ע' לרריף at the age of twenty years it is time to hunt (for a living); a. v. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22712,
+      "source_id": "jastrow-xml-022712",
+      "canonical_entry_id": "P01502",
+      "headword": "עֲשַׂר",
+      "source_xml": "<entry id=\"P01502\">\n<head-word>עֲשַׂר</head-word>\n<hw-number>I</hw-number>\n<head-word>עַשְׂרָא</head-word>\n<head-word>עַשְׂרָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<alternative>(also עֲסַר; עַסְרָא)</alternative>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference></definition>\n<notes> Targ. Gen. XLV, 23 (Y. also עֶשֶׂר; O. ed. Berl. עש', oth. ed. עס'); a. fr.—חַד עֲשַׂר, חַד עֲסַר (contr. חַדְסַר) \n<italic>eleven</italic>; תרתי סרי \n<italic>twelve</italic> &amp;c.—\n<plural-form>Pl. עַשְׂרִין, עַסְרִין, עֶ'</plural-form>. Targ. Gen. XXXI, 38. Targ. Num. X, 11 בע' on the twentieth; a. fr.—B. Bath. 106\n<sup>b</sup> הויא ע' גריוי it contains twenty \n<italic>g’rivas</italic> (v. גְּרִיוָא); a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22713,
+      "source_id": "jastrow-xml-022713",
+      "canonical_entry_id": "P01503",
+      "headword": "עָשַׂר",
+      "source_xml": "<entry id=\"P01503\">\n<head-word>עָשַׂר</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pi.</italic> עִשֵּׂר \n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> denom. of עֶשֶׂר)</xref></language-reference></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to give one-tenth, separate tithes</italic>.</definition>\n<notes> Sabb. 119\n<sup>a</sup> עַשִּׁר וכ', v. עָשַׁר. Maasr. IV, 2 ושכחו לעַשְּׂרָן but had forgotten to pay the tithe of them. Sabb. II, 7 עִשַּׂרְתֶּם have you set aside tithes (of what you intend to use for the Sabbath)? Ib. ספק … אין מְעַשְּׂרִין את הודאי if it is doubtful whether or not night has set in, you must not separate the tithes of what is sure to be subject to tithes (v. דְּמַאי); a. v. fr.—Part. pass. מְעוּשָּׂר; f. מְעוּשֶּׂרֶת; \n<plural-form>pl. מְעוּשָּׂרִים, מְעוּשָּׂרִין; מְעוּשָּׂרוֹת</plural-form>. Bekh. IX, 7 (קפץ אחד) מן המע' לתוכן if one of those (lambs) which have been set aside as tithe, leaped among the flock. Ib. הרי אלו מע' they (the flock) are considered as tithed; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to reduce to one-tenth</italic>.</definition>\n<notes> Cant. R. to VII, 11, v. עָשַׁר.</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֶעֱשַׂר, </binyan-form>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְעַשֵּׂר, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa.</italic> נִתְעַשֵּׂר \n<italic>to be tithed</italic>.</definition>\n<notes> Maasr. l. c. עד שיֵעָשְׂרוּ (Ms. M. שיִתְעַשְּׂרוּ) until they are tithed. Ib. 5 מִתְעַשֶּׂרֶת זרע וכ' must be tithed as seed, as vegetables (if the leaves are used) &amp;c. Bekh. IX, 1 ואינן מִתְעַשְּׂרִים מזה על זה and they (large cattle and small cattle) cannot be tithed one for the other. Ib. 53\n<sup>b</sup> אין דין שיִתְעַשְּׂרוּ זה מזה should we not conclude that they may be tithed one for the other?; a. fr.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22714,
+      "source_id": "jastrow-xml-022714",
+      "canonical_entry_id": "P01504",
+      "headword": "עֲשַׂר",
+      "source_xml": "<entry id=\"P01504\">\n<head-word>עֲשַׂר</head-word>\n<hw-number>II</hw-number>\n<language-key> ch.,</language-key>\n<senses>\n<sense>\n<definition>\n<italic>Pa.</italic> עַשֵּׂר, עַסֵּר same, \n<italic>to tithe</italic>.</definition>\n<notes> Targ. Deut. XIV, 22. Ib. XXVI, 12 (Y. II למַעַשְׂרָא \n<italic>Af.</italic>).—Yeb. 93\n<sup>a</sup> ע' מפירי דביתיה עילויהו he set aside as tithes from the produces in his house on behalf of those (that were to come in). Ib. לעַשּׂוּרֵי ומיכל as regards tithing and eating; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22715,
+      "source_id": "jastrow-xml-022715",
+      "canonical_entry_id": "P01505",
+      "headword": "עַשְׂרָא",
+      "source_xml": "<entry id=\"P01505\">\n<head-word>עַשְׂרָא</head-word>\n<head-word>עַשְׂרָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01502\">עֲשַׂר I</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22716,
+      "source_id": "jastrow-xml-022716",
+      "canonical_entry_id": "P01506",
+      "headword": "עֲשָׂרָה",
+      "source_xml": "<entry id=\"P01506\">\n<head-word>עֲשָׂרָה</head-word>\n<head-word>עֶשְׂרֵה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00372\">עֶשֶׂר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22717,
+      "source_id": "jastrow-xml-022717",
+      "canonical_entry_id": "P01507",
+      "headword": "עִשָּׂרוֹן",
+      "source_xml": "<entry id=\"P01507\">\n<head-word>עִשָּׂרוֹן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced. wds.) \n<italic>one-tenth</italic> of an Ephah, \n<italic>ʿissaron</italic>.</definition>\n<notes> Men. XIII, 1 הרי עלי ע' וכ' if a person says, ‘I vow an \n<italic>ʿissaron</italic>, he must offer one \n<italic>minḥah</italic>. Ib. 2 מנחה של ששים ע' a meal offering of sixty \n<italic>ʿissarons</italic>; a. fr.—\n<plural-form>Pl. עֶשְׂרוֹנִים, עֶשְׂרוֹנוֹת</plural-form>. Ib. 1 ע' יביא וכ' (Bab. ed. 104\n<sup>b</sup> עשרונות) if a person says, ‘I vow \n<italic>ʿesronim</italic>, he must offer two \n<italic>minḥahs</italic>. Ib. יביא מנחות של ע' מאחד ועד ששים he must bring (sixty) offerings of \n<italic>ʿesronim</italic>, beginning with one \n<italic>ʿissaron</italic> and progressing up to sixty; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22718,
+      "source_id": "jastrow-xml-022718",
+      "canonical_entry_id": "P01508",
+      "headword": "עִשְׂרוֹנָא",
+      "source_xml": "<entry id=\"P01508\">\n<head-word>עִשְׂרוֹנָא</head-word>\n<head-word>עִסְ'</head-word>\n<head-word>עֶ'</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Num. XXVIII, 13; a. fr.—Pl. עִשְׂרוֹנִין, עִסְ', עֶ'. Ib. 12; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22719,
+      "source_id": "jastrow-xml-022719",
+      "canonical_entry_id": "P01509",
+      "headword": "עֲשִׂרָיָה",
+      "source_xml": "<entry id=\"P01509\">\n<head-word>עֲשִׂרָיָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01484\">עֲשִׂירָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22720,
+      "source_id": "jastrow-xml-022720",
+      "canonical_entry_id": "P01510",
+      "headword": "עֲשִׂרִית",
+      "source_xml": "<entry id=\"P01510\">\n<head-word>עֲשִׂרִית</head-word>\n<head-word>עֲשִׂרִיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01486\">עֲשִׂירִי</xref>, \n<xref rid=\"P01484\">עֲשִׂירָאָה.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22721,
+      "source_id": "jastrow-xml-022721",
+      "canonical_entry_id": "P01511",
+      "headword": "עֲשֶׂרֶת",
+      "source_xml": "<entry id=\"P01511\">\n<head-word>עֲשֶׂרֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> constr. \n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> עֶשֶׂר)</xref></language-reference>\n<italic>group of ten</italic>.</definition>\n<notes> Sabb. 86\n<sup>b</sup> ע' הדברות the ten words (commandments); a. fr.—\n<plural-form>Pl. עֲשָׂרוֹת, עֲשָׂרִיּוֹת</plural-form>. Snh. 18\n<sup>a</sup> שרי ע' ששת רבוא the number of the chiefs of ten (Ex. XVIII, 2</notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> was sixty thousand; Mekh. Yithro, ʿĂmal., s. 2; Tanḥ. Mishp. 6. Tanḥ. Emor 24 (Chald. dict.) זיל כנוש עֲשָׂרִיּוֹתֶיךָ go and gather thy divisions of ten.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22722,
+      "source_id": "jastrow-xml-022722",
+      "canonical_entry_id": "P01512",
+      "headword": "עֲשַׂרְתָּא",
+      "source_xml": "<entry id=\"P01512\">\n<head-word>עֲשַׂרְתָּא</head-word>\n<language-key> ch.,</language-key>\n<senses>\n<sense>\n<definition> constr. עֲשֶׂרֶת same.</definition>\n<notes> Targ. Esth. III, 9; a. e.—Pesik. R. s. 18 נצחון ע' מניכון לע' אלפין וכ' (not מיניכון) your ten \n<italic>manahs’</italic> worth (of a barley offering) will overcome my ten thousand (talents of silver); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22723,
+      "source_id": "jastrow-xml-022723",
+      "canonical_entry_id": "P01513",
+      "headword": "עֲשַׂרְתֵּי",
+      "source_xml": "<entry id=\"P01513\">\n<head-word>עֲשַׂרְתֵּי</head-word>\n<head-word>עִישַׂרְתֵּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> same. Targ. Esth. IX, 10; 12. Targ. Y. Gen. II, 2 (ed. Vien. עִישְׂרְתֵי). Targ. Y. Deut. IV, 13 עִישַׂרְתֵּי; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22724,
+      "source_id": "jastrow-xml-022724",
+      "canonical_entry_id": "P01514",
+      "headword": "*,",
+      "source_xml": "<entry id=\"P01514\">\n<head-word>*, </head-word>\n<head-word>*עֲשַׁשׁ</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A03361\">אָשַׁשׁ</xref>) \n<italic>to be strong</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַשֵּׁשׁ</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to exercise one’s strength</italic>.</definition>\n<notes> Midr. Till. to Ps. XIX, 1 מאבנא דהוא מִתְעַשֵּׁשׂ (בה) וכ' by the stone with which he practices you can tell his strength; [ed. Bub., a. Yalk. Ps. 672 מִתְגּוֹשֵׁשׁ, h. form, v. גָּשַׁשׁ].</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22725,
+      "source_id": "jastrow-xml-022725",
+      "canonical_entry_id": "P01515",
+      "headword": "עֲשָׁשִׁית",
+      "source_xml": "<entry id=\"P01515\">\n<head-word>עֲשָׁשִׁית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A03361\">אָשַׁשׁ</xref> a. \n<xref rid=\"A00083\">עֶשֶׁת)</xref></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> ע' של ברזל \n<italic>wrought iron, bar, ball</italic>.</definition>\n<notes>—\n<plural-form>Pl. עֲשָׁשִׁיּוֹת</plural-form>. Yoma 34\n<sup>b</sup> ע' של ברזל וכ' lumps of wrought iron were heated for the high priest on the eve of the Day of Atonement; Tosef. ib. I, 20 (Var. עששית); Y. ib. III, 40\n<sup>c</sup> עֲשָׁשׁוֹת. Ab. Zar. 16\n<sup>a</sup> אין מוכרין להם ע' וכ' we must not sell them (the Romans) iron bars, … because they forge arms out of them (expl. פרזלא הינדואה, v. הִינְדָּוָא). Snh. 108\n<sup>b</sup> יש לנו ע' וכ' we have iron plates with which we can pave the ground (to prevent water coming up).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (v. \n<xref rid=\"A03361\">אֶשֶׁשׁ</xref>) \n<italic>glass ball, crystal, reflector, lantern</italic>.</definition>\n<notes> Ber. 25\n<sup>b</sup> בע' covered with a translucent substance. Ib. 53\n<sup>a</sup> ע' שהיתה דולקת וכ' a lantern which has been burning the \n<pgbrk id=\"pg1128\" />whole day (of the Sabbath); Y. ib. VI, 12\n<sup>b</sup> bot. R. Hash. 24\n<sup>a</sup> ראינוהו בע' we have seen the reflection of the moon in a crystal, v. אֶשֶׁשׁ; a. e.—\n<italic>Pl.</italic> as ab. Sabb. 154\n<sup>b</sup> היתה בהמתו … וע' if his beast is laden with … glass lumps, expl. ib. בבולסא, v. בּוּלְסָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22726,
+      "source_id": "jastrow-xml-022726",
+      "canonical_entry_id": "P01516",
+      "headword": "עֲשָׁשִׁית",
+      "source_xml": "<entry id=\"P01516\">\n<head-word>עֲשָׁשִׁית</head-word>\n<head-word>עֲשָׁשִׁיתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>crystal, glass ball</italic>.</definition>\n<notes> Targ. Cant. V, 14.—Tanh. Vaëra 14 (ref. to מתלקחת, Ex. IX, 24) כהדין ע' דמיא וכ' (= קנדילא דע') like (the light in) the glass in which water and oil are mixed together, and the light burns within; Ex. R. s. 12; Cant. R. to III, 11 להדא עֲשָׁאשִׁיתָא דקנדילא; Num. R. s. 12 כהדא שָׁאשִׁיתָא וכ'; Pesik. Vayhi, p. 3\n<sup>b</sup> שאשתא (Ar. שָׁשִׁיתָא). Y. Sabb. II, beg. 4\n<sup>c</sup>. ששיתא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22727,
+      "source_id": "jastrow-xml-022727",
+      "canonical_entry_id": "P01517",
+      "headword": "עֲשַׁת",
+      "source_xml": "<entry id=\"P01517\">\n<head-word>עֲשַׁת</head-word>\n<senses>\n<sense>\n<definition> (cmp. עשש) \n<italic>to make strong, harden, forge</italic>.</definition>\n<notes>—[Dan. VI, 4 עֲשִׁית \n<italic>firmly determined</italic>.]</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַשֵּׁת, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְעֲשַׁת</binyan-form>\n<senses>\n<sense>\n<definition> (denom. of תעשת = next w.) \n<italic>to forge</italic>; trnsf. (cmp. חָרַשׁ) \n<italic>to plan, devise</italic>.</definition>\n<notes> Targ. Is. XXXII, 6. Ib. XXXIII, 11. Targ. Jer. V, 26. Targ. II Sam. XX, 15.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22728,
+      "source_id": "jastrow-xml-022728",
+      "canonical_entry_id": "P01518",
+      "headword": "עֶשֶׁת",
+      "source_xml": "<entry id=\"P01518\">\n<head-word>עֶשֶׁת</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"P01514\"> עשש</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"P01515\">עֲשָׁשִׁית</xref>) \n<italic>wrought metal, bar; polished block.</italic></definition>\n<notes> Kel. XI, 3, opp. to חֲרָרָה. Tosef. Ḥull. I, 18; Tosef. Men. IX, 18 מנורה … אלא מן הע' the candlestick in the Temple is not fit unless made out of a (gold) bar, opp. גְּרוּטָאוֹת; Men. 28\n<sup>a</sup> מן הע' ומן הזהב out of a bar and out of gold; Yalk. Ex. 369 מן הע' מן הזהב. Ib.; Men. l. c. חצוצרות מן הע' מן הכסף the trumpets were made out of silver bars; Tosef. l. c. 19 [read:] אלא מן הע' מן הכסף, contrad. to גוש raw ore. Cant. R. to V, 14 מה ע' שן זו עושין ממנה כמה יתדות וכ' (not זה) as out of a bar of \n<italic>shen</italic> (marble?) you make ever so many pegs, spears &amp;c. Yalk. Cant. 991 (ref. to Cant. l. c.) אלו ספרי תורה … לע' שן וכ' (some ed. לעשות, corr. acc.) this refers to the scrolls of the Law which resemble a \n<italic>column</italic> of marble which is adorned with sapphires.—\n<plural-form>Pl. עַשְׁתּוֹת</plural-form>. Sifré Num. 160 השליך עליו ע' וגולמים if he threw at him metal balls or lumps, opp. to כלי; Yalk. ib. 787.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22729,
+      "source_id": "jastrow-xml-022729",
+      "canonical_entry_id": "P01519",
+      "headword": "עֶשְׁתּוֹנָא",
+      "source_xml": "<entry id=\"P01519\">\n<head-word>עֶשְׁתּוֹנָא</head-word>\n<head-word>עִישְׁ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced. wds.;\n<language-key> b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">עֶשְׁתֹּנֹת</xref></language-reference>\n<italic>pl.</italic>) \n<italic>forge</italic>; trnsf. \n<italic>plan, device</italic>.</definition>\n<notes>—\n<plural-form>Pl. עֶשְׁתּוֹנִין, עִישְׁ'</plural-form>. Targ. Is. XXXIII, 11 (ed. Lag. עיש'). Ib. XLI, 29 (ed. Lag. עיש'; h. text נסכ'). Ib. LV, 7 (ed. Lag. עיש'); a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22730,
+      "source_id": "jastrow-xml-022730",
+      "canonical_entry_id": "P01520",
+      "headword": "עַשְׁתּוֹר",
+      "source_xml": "<entry id=\"P01520\">\n<head-word>עַשְׁתּוֹר</head-word>\n<head-word>בַּר עַ'</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Bar ʿAshtor</italic>, the progenitor of a family of converts.</definition>\n<notes> Y. Bicc. I, 64\n<sup>a</sup> top אילין דבר ע' וכ' those of the family of B. A. who are converts, sons of converts. Ib. קיימה בנימין בר ע' וכ' one Benjamin B. A. stood before us (was admitted as witness) in the case of &amp;c.; ib. בר אשתור. Y. Dem. VI, 25\n<sup>b</sup> top.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22731,
+      "source_id": "jastrow-xml-022731",
+      "canonical_entry_id": "P01521",
+      "headword": "עַשְׁתְּרוֹת",
+      "source_xml": "<entry id=\"P01521\">\n<head-word>עַשְׁתְּרוֹת</head-word>\n<head-word>עַ'קַרְנַיִם</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n.</pos>\n<italic>Ashteroth Ḳarnayim</italic>, name of a glen whither the sun cannot penetrate.</definition>\n<notes> Succ. 2\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22732,
+      "source_id": "jastrow-xml-022732",
+      "canonical_entry_id": "P01522",
+      "headword": "עֵת",
+      "source_xml": "<entry id=\"P01522\">\n<head-word>עֵת</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> contr. of עדת</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"P00198\">עוּד</xref>; or of ענת, v. עוֹנָה I) [\n<italic>duration, turn</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>ʿEth</italic>, the twenty-fourth part of an \n<italic>ʿonah</italic>.</definition>\n<notes> Tosef. Ber. I, 1; a. e., v. עוֹנָה I.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>time</italic>.</definition>\n<notes> Pes. 109\n<sup>a</sup>; מימיו לא אמר הגיע עת לעמוד וכ' never in his life did he (R. ʿAḳiba) say, it is time to rise from (leave) the house of study, except &amp;c.; Succ. 28\n<sup>a</sup>. Ber. 8\n<sup>a</sup> (ref. to Ps. LXIX, 14) אימתי עת רצון בשעה וכ' when is the time of favor? When the congregation is at prayer. Taan. 24\n<sup>b</sup> שמע מינה עת רצון היא I learn from this (dream) that this is an auspicious time for prayer. Yeb. 72\n<sup>a</sup> עת רצון מילתא היא there is something in the idea of a time of favor for prayer; a. fr.—מֵעֵת לָעֵת (abbrev. מעל\"ע) \n<italic>the time of twenty-four astronomical hours</italic>. Nidd. I, 1 מעל\"ע ממעטת עליד מפקידה לפקידה וכ' the term of twenty-four hours (of retrospective uncleanness) reduces the term of the interval from one examination to the other &amp;c., i.e. we go by the shorter term whichever it may be. Ḥull. 51\n<sup>b</sup>; Zeb. 74\n<sup>b</sup> צריכה מעל\"ע requires the intervening of twenty-four hours (before it may be slaughtered); a. fr.—\n<plural-form>Pl. עִתִּים, עִתּוֹת, עִי'</plural-form>. R. Hash. 28\n<sup>a</sup> ע' חלים ע' שוטה (Tosef. Ter. I, 3 פעמים), v. חָלַם I. Tam. I, 2 לא כל הע' שוות the time (for the appearance of the superintendent) was not always the same. Y. Ber. IX, end, 14\n<sup>d</sup> (ref. to Ps. CXIX, 126) העושה תורתו ע' … מיפר ברית he who makes the study of the Law a matter of time, destroys the covenant. Sabb. 31\n<sup>a</sup> בשעה … נשאת ונתת באמונה קבעת ע' לתורה when man is brought up for judgment, he is asked, hast thou been dealing with integrity? hast thou had regular times for the study of the Law? Snh. 65\n<sup>b</sup> ע' ושעות, v. עוּן; a. e.—לְעִיתּוֹתֵי עֶרֶב \n<italic>at the evening appointments</italic> (when labor is stopped, the work reviewed, wages paid &amp;c.), in gen. \n<italic>towards evening</italic>. Tosef. Ab. Zar. VII (VIII), 10; Bab. ib. 65\n<sup>a</sup>. Y. Ber. II, 5\n<sup>c</sup> top. Y. Succ. IV, beg. 54\n<sup>b</sup>. Y. Yeb. XVI, 15\n<sup>d</sup> top לציצותי, Var. לציתותי (read: לציתותי ערב); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22733,
+      "source_id": "jastrow-xml-022733",
+      "canonical_entry_id": "P01523",
+      "headword": "עִתָּא",
+      "source_xml": "<entry id=\"P01523\">\n<head-word>עִתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00708\">עִיתָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22734,
+      "source_id": "jastrow-xml-022734",
+      "canonical_entry_id": "P01524",
+      "headword": "עָתָא",
+      "source_xml": "<entry id=\"P01524\">\n<head-word>עָתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00006\">עָאֲתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22735,
+      "source_id": "jastrow-xml-022735",
+      "canonical_entry_id": "P01525",
+      "headword": "עתאורותהון",
+      "source_xml": "<entry id=\"P01525\">\n<head-word>עתאורותהון</head-word>\n<head-word>עתארותהון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, (Levita עתאוד'), Targ. Job III, 7, read: אתערות', v. \n<xref rid=\"A03438\">אַתְעָרוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22736,
+      "source_id": "jastrow-xml-022736",
+      "canonical_entry_id": "P01526",
+      "headword": "עָתַד",
+      "source_xml": "<entry id=\"P01526\">\n<head-word>עָתַד</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to endure, stand, be ready</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>עִתֵּד</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to make ready, designate</italic>.</definition>\n<notes>—Part. pass. מְעוּתָּד, \n<plural-form>pl. מְעוּתָּדִים, מְעוּתָּדִין</plural-form>. Num. R. s. 18 (ref. to Job XV, 28) ולמי הן מע' וכ' and for whom were they (the treasures) designated? For those who were to emigrate (from Egypt) &amp;c. Yalk. Ex. 264; Mekh. B’shall., ʿĂmal., s. 1 (ref. to נצב, Ex. XVII, 9) מחר נהא מעו' ועומדים וכ' (not מעתד') to-morrow let us be ready (for battle), and stand on the top of the hill; נגזור תענית ונהא מעו' על מעשה אבות let us appoint a fast and be ready (for prayer and meditation) on the merits of the fathers.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22737,
+      "source_id": "jastrow-xml-022737",
+      "canonical_entry_id": "P01527",
+      "headword": "עֲתַד",
+      "source_xml": "<entry id=\"P01527\">\n<head-word>עֲתַד</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>עַתֵּד</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> = h. = h. הציב, \n<italic>to put up, place, fix</italic>.</definition>\n<notes> Targ. Lam. III, 12. Targ. Prov. IX, 1 (h. text חצבה!). Ib. XV, 25. Targ. Job XVII, 6 (Var. ed. Lag. עדת', some ed. ערת'; corr. acc.).—Part. pass. מְעַתַּד (= b. h. נִצָּב, cmp. מְעוּמָּד fr. עָמַד). Targ. O. Gen. XXVIII, 13 (Y. מְעַמַּד). Targ. Ps. XLV, 10; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to hold ready; to designate</italic>.</definition>\n<notes> Ib. L, 10. Targ. Prov. XXIV, 27 עַתְּדָהּ (some ed. עַתִּידְיָהּ, corr. acc.).—Part. pass. מְעַתַּד; f. מְעַתְּדָא. Targ. Job XV, 23 (ed. Lag. מִיעַתַּד \n<italic>Ithpa.</italic>). Targ. Y. I Deut. XXXII, 35; a. e.—Y. B. Bath. II, beg. 13\n<sup>b</sup> ע' ליה תכריכין held shrouds ready for him. Gen. R. s. 45 עַתֵּיד לך וכ' Mus. (ed. עביד), v. פּוּרְבִּי. Y. Keth. XII, 35\n<sup>a</sup> top. \n<pgbrk id=\"pg1129\" />אין אתא משיחא ואנא מְעַתַּד that I be ready, when the Messiah comes; Y. Kil. IX, 32\n<sup>b</sup> top; (Gen. R. s. 100 איטימוס). Y. Sabb. V, 7\n<sup>b</sup> bot. (expl. שוזות) מְעַתְּדָן prepared (for copulation, v. Bab. ib. 53\n<sup>b</sup> bot.); a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַתַּד, אִיעַתַּד</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be ready, designated</italic>, v. supra.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to endure</italic>, v. \n<xref rid=\"P01546\">עֲתַר</xref>.</definition>\n<notes /></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22738,
+      "source_id": "jastrow-xml-022738",
+      "canonical_entry_id": "P01528",
+      "headword": "עַתָּה",
+      "source_xml": "<entry id=\"P01528\">\n<head-word>עַתָּה</head-word>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"P00384\">עֵת</xref>) \n<italic>now, this time</italic>.</definition>\n<notes> Ber. 46\n<sup>a</sup> מע' ועד עולם from now and forever. Tanḥ. Mishp. 18 וע' באתי and now I have come again; a. fr. [In Talm. mostly עכשיו.]—As a dialectic term: מֵעַ' from now, i.e. \n<italic>as a consequence; if this were so, then</italic>.—Y. Ab. Zar. I, 39\n<sup>d</sup> bot. מע' חטין אל ימכור וכ' according to this he ought not to sell him wheat &amp;c.; a. fr.—Mostly: אֶלָּא מע'. Succ. 2\n<sup>a</sup> א' מ' העושה סוכתו וכ' but according to this, if a man put up his Succah in Ashteroth Karnayim (v. עַשְׁתָּרוֹת), would you also say that it is no legitimate Succah? B. Kam. 17\n<sup>b</sup>; a. fr.—אֱמוֹר מע' say from now, i.e. \n<italic>learn from this, therefore</italic>. Tosef. Kel. B. Mets. V, 2. Sifré Deut. 334; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22739,
+      "source_id": "jastrow-xml-022739",
+      "canonical_entry_id": "P01529",
+      "headword": "עַתּוּד",
+      "source_xml": "<entry id=\"P01529\">\n<head-word>עַתּוּד</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> עָתַד)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>leader of the flock</italic>,] \n<italic>ram</italic>.</definition>\n<notes>—\n<plural-form>Pl. עַתּוּדִים</plural-form>. Num. R. s. 13 ואין ע' אלא לשון עמידה \n<italic>ʿattudim</italic> has the meaning of standing (readiness). Y. Ab. Zar. II, 41\n<sup>d</sup> top (ref. to Prov. XXVII, 26) הגדילו ונעשו כע' וכ' when the pupils have grown and become (strong) like rams, then reveal to them the secrets of the Law. Ḥull. 84\n<sup>a</sup> (ref. to Prov. l. c.) לעולם … ויקח ע' וכ' at all times a man may sell a field and buy rams (flocks), but he should not sell flocks to buy a field; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22740,
+      "source_id": "jastrow-xml-022740",
+      "canonical_entry_id": "P01530",
+      "headword": "עָתִיד",
+      "source_xml": "<entry id=\"P01530\">\n<head-word>עָתִיד</head-word>\n<head-word>עֲתִידָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> עָתַד)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>standing</italic> (cmp. עָמַד); \n<italic>ready, designated; in future</italic>.</definition>\n<notes> Meg. 15\n<sup>b</sup>; Snh. 111\n<sup>b</sup> ע' הקב\"ה להיות וכ' at a future time the Lord shall be a crown on the head of every righteous man. Sabb. 138\n<sup>b</sup> ע' תורה שתשתכח וכ' a time will come when the Law will be forgotten in Israel; a. fr.—הֶעָ' לָבֹא (or הֶעָ') \n<italic>the future</italic>. Keth. 87\n<sup>a</sup> משביעין אותה על הע' לבא we administer an oath to her in regard to her conduct in the future, opp. על שעבר; a. fr.—Esp. לֶעָתִיד לָבֹא (abbrev. לע\"ל) \n<italic>in the Messianic future; in the hereafter</italic> (v. עוֹלָם). Ab. Zar. 3\n<sup>b</sup> לע\"ל באין אומות וכ' in the Messianic days the nations of the world will come and ask to be converted. Ib. אין גהינם לע\"ל there is no Gehenna (hell) in the hereafter, but the Lord leads the sun forth &amp;c. Ab. II, 16 ודע שמתן … לע\"ל but remember that the reward of the righteous is reserved for the hereafter; a. fr.—\n<plural-form>Pl. עֲתִידִים, עֲתִידִין; עֲתִידוֹת</plural-form>. Ber. 43\n<sup>b</sup> ע' בחורי ישראל וכ' the time will come when the youths of Israel shall give forth a flavor &amp;c. Sabb. 152\n<sup>b</sup> ע' צדיקים דהוו עפרא (even) the righteous are destined to turn to dust. Yeb. 63\n<sup>a</sup> ע' כל בעלי … שיעמדו וכ' time will be when all tradesmen will turn to agriculture; a. fr.—[Tosef. Kel. B. Mets. VII, 12 עתידין, v. עֲכִירִים.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22741,
+      "source_id": "jastrow-xml-022741",
+      "canonical_entry_id": "P01531",
+      "headword": "עֲתִיד",
+      "source_xml": "<entry id=\"P01531\">\n<head-word>עֲתִיד</head-word>\n<head-word>עֲתִידָא</head-word>\n<head-word>עֲתִידָא</head-word>\n<head-word>עֲתִידָה</head-word>\n<pos> f.</pos>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>ready, destined; future</italic>.</definition>\n<notes> Targ. O. Deut. XXXII, 35. Targ. Hab. II, 1 קאים ע' (h. text נצב). Targ. Cant. VIII, 5; a. fr.—Taan. 10\n<sup>a</sup> עתידה בבל דחצדא וכ' Ms. M. a time will come when Babylonia &amp;c., v. חֲצַד I.—\n<plural-form>Pl. עֲתִידִין, עֲתִידֵי; עֲתִידָן</plural-form>. Targ. Cant. l. c.; a. e.—Taan. 25\n<sup>a</sup> חזאי בחלמא ע' צדיקי וכ' (differ. vers. in Ms. M.) I saw in a dream that the righteous are destined to eat at a golden table. Sabb. 152\n<sup>b</sup> ע' צדיקי דהוו עפרא, v. preced.; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22742,
+      "source_id": "jastrow-xml-022742",
+      "canonical_entry_id": "P01532",
+      "headword": "עַתִּיק",
+      "source_xml": "<entry id=\"P01532\">\n<head-word>עַתִּיק</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"P01545\"> עָתַק II)</xref></language-reference>\n<italic>old, ancient</italic>.</definition>\n<notes>. Yalk. Chr. 1074 (ref. to I Chr. IV, 2</notes></sense>\n<sense>\n<number>2)</number>\n<definition> הדברים הללו מעַתִּיקוֹ של עולם these words come from the Ancient One of the world (v. \n<xref rid=\"P01533\">next w.</xref>); v. עָתַק I \n<italic>Hif.</italic>—[ (עָתַק I) \n<italic>remote</italic>.</definition>\n<notes>—\n<plural-form>Pl. עַתִּיקִים</plural-form>. Ib. (anoth. explan. of I Chr. l. c.) הדברים האלו סתומין כאן וכ' (not אמורין) these words are obscure here, but explained elsewhere; Ruth R. to I, 1 (s. 2).]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22743,
+      "source_id": "jastrow-xml-022743",
+      "canonical_entry_id": "P01533",
+      "headword": "עַתִּיק",
+      "source_xml": "<entry id=\"P01533\">\n<head-word>עַתִּיק</head-word>\n<head-word>עַתִּיקָא</head-word>\n<hw-number>I</hw-number>\n<head-word>עַתִּיקָא</head-word>\n<head-word>עַתִּיקְתָּא</head-word>\n<pos> f.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(preced.) \n<italic>enduring, strong, old</italic>.</definition>\n<notes> Targ. Num. VI, 3. Targ. O. Lev. XIII, 11 (Y. עתיקותא, read: עַתִּיקְתָּא); a. fr.—Pes. 119\n<sup>a</sup> (ref. to ולמכסה עתיק, Is. XXIII, 18) דברים שכיסה ע' יומין the things which the Ancient of days (Dan. VII, 22) has hidden. B. Bath. 91\n<sup>b</sup> (ref. to I Chr. IV, 22, v. preced.) דברים הללו ע' יומיא אמרן the Ancient of days has said these things; Yalk. Ruth 600. B. Kam. 96\n<sup>b</sup> גזלנא ע' an inveterate robber. Pes. 42\n<sup>b</sup> (expl. יין ישן) ע' עַתִּיקֵי very old wine. Yoma 29\n<sup>a</sup> מיגמר בע' וכ', v. גְּמַר II; a. e.—[B. Bath. 91\n<sup>b</sup> bot., v. עוּתְקָא.]—\n<plural-form>Pl. עַתִּיקִין, עַתִּיקַיָּא, עַתִּיקֵי</plural-form>. Targ. I Kings VIII, 2 (h. text האתנים).—Y. Shek. II, beg. 46\n<sup>c</sup> תקלין ע' old Shekels. Pes. l. c., v. supra; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22744,
+      "source_id": "jastrow-xml-022744",
+      "canonical_entry_id": "P01534",
+      "headword": "עַתִּיקָא",
+      "source_xml": "<entry id=\"P01534\">\n<head-word>עַתִּיקָא</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אַתִּיק)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>support?</italic>] \n<italic>a kind of peristyle</italic>.</definition>\n<notes>—\n<plural-form>Pl. עַתִּיקַיָּא</plural-form>. Targ. Ez. XLI, 16.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22745,
+      "source_id": "jastrow-xml-022745",
+      "canonical_entry_id": "P01535",
+      "headword": "עַתִּיקוּתָא",
+      "source_xml": "<entry id=\"P01535\">\n<head-word>עַתִּיקוּתָא</head-word>\n<head-word>עַתִּיקְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01532\">עַתִּיק</xref> ch.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22746,
+      "source_id": "jastrow-xml-022746",
+      "canonical_entry_id": "P01536",
+      "headword": "עַתִּיר",
+      "source_xml": "<entry id=\"P01536\">\n<head-word>עַתִּיר</head-word>\n<head-word>עַתִּירָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עֲתַר) = h. עָשִׁיר.</definition>\n<notes> Targ. II Sam. XII, 1, sq.; a. fr.—B. Bath. 145\n<sup>b</sup>, v. כְּמָס. Y. Shebu. VII, 37\n<sup>d</sup> [אית] ע' גו שוקא ומסכן גו ביתא ע' וכ' a man may appear rich in the street and be poor at home, be rich at home and appear poor in the street. Sabb. 113\n<sup>b</sup>; B. Bath. 85\n<sup>a</sup> ע' משבור וכ' richer than king Shabur; a. fr.—\n<plural-form>Pl. עַתִּירִין, עַתִּירַיָּא, עַתִּירֵי</plural-form>. Targ. Zech. XI, 16. Targ. Ps. XLV, 13; a. fr.—Gitt. 56\n<sup>a</sup> הוו בה הנהו תלתא ע' there (in Jerusalem) were these three men. Bets. 32\n<sup>b</sup> ע' בבל יורדי וכ' the rich in Babylonia are bound to go down to Gehenna; a. fr.—Fem. עַתִּירָא, עַתִּירָה, עַתִּירְתָּא. Targ. II Esth. I, 16.—Gitt. l. c. מרתא … ע' דירושלם הויא Martha … was the richest woman of Jerusalem. Taan. 10\n<sup>a</sup> עתירה בבל, v. חֲצַד I; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22747,
+      "source_id": "jastrow-xml-022747",
+      "canonical_entry_id": "P01537",
+      "headword": "עֲתִירָה",
+      "source_xml": "<entry id=\"P01537\">\n<head-word>עֲתִירָה</head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (עתר = חָתַר, \n<italic>to dig</italic>) \n<italic>opening made by digging, breach</italic>.</definition>\n<notes> Ruth R. to II, 14, v. חֲתִירָה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22748,
+      "source_id": "jastrow-xml-022748",
+      "canonical_entry_id": "P01538",
+      "headword": "עֲתִירָה",
+      "source_xml": "<entry id=\"P01538\">\n<head-word>עֲתִירָה</head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (עָתַר \n<italic>to dig, stir;</italic> trnsf. \n<italic>to entreat, beseech</italic>; cmp. פָּגַע, פָּצַר) \n<italic>entreaty, being entreated, use of the root</italic> עתר.</definition>\n<notes> Pesik. R. s. 11 (ref. to Gen. XXV, 21; a. II Sam. XXI, 14) מה ע' שנאמר להלן תאומים אף ע' וכ' as ‘being entreated’ there refers to the grant of twins, so it does here &amp;c. (double fertility). Y. Ber. II, 4\n<sup>d</sup> bot. שמע עֲתִירָתֵינוּ hear our prayer; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22749,
+      "source_id": "jastrow-xml-022749",
+      "canonical_entry_id": "P01539",
+      "headword": "עַתִּירָה",
+      "source_xml": "<entry id=\"P01539\">\n<head-word>עַתִּירָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01536\">עַתִּיר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22750,
+      "source_id": "jastrow-xml-022750",
+      "canonical_entry_id": "P01540",
+      "headword": "עַתִּירוּתָא",
+      "source_xml": "<entry id=\"P01540\">\n<head-word>עַתִּירוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (עַתִּיר) \n<italic>being wealthy</italic>.</definition>\n<notes> Sabb. 140\n<sup>b</sup> בעַתִּירוּתִי when I was rich, opp. בעניותי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22751,
+      "source_id": "jastrow-xml-022751",
+      "canonical_entry_id": "P01541",
+      "headword": "עֲתִירְתָּא",
+      "source_xml": "<entry id=\"P01541\">\n<head-word>עֲתִירְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. = h. עֲתִירָה I. Gen. R. s. 63; Lev. R. s. 30, v. חֲתִירְתָּא; Y. Snh. X, 28\n<sup>c</sup> bot. עֲתַרְתָּה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22752,
+      "source_id": "jastrow-xml-022752",
+      "canonical_entry_id": "P01542",
+      "headword": "עֲתִירְתָּא",
+      "source_xml": "<entry id=\"P01542\">\n<head-word>עֲתִירְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01536\">עַתִּיר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22753,
+      "source_id": "jastrow-xml-022753",
+      "canonical_entry_id": "P01543",
+      "headword": "עָתַק",
+      "source_xml": "<entry id=\"P01543\">\n<head-word>עָתַק</head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to move</italic>.</definition>\n<notes> Gen. R. s. 52, beg. (expl. יעתק, Job XIV, 18) פנה ממקומו he (Abraham) moved from where he was; Yalk. ib. 87; Yalk. Job 906.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶעְתִּיק</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to remove, transfer</italic>.</definition>\n<notes> Y. Ḥag. II, 77\n<sup>c</sup> top (ref. to Ps. XXXI, 19 הדוברות … עתק) הדוברות על צדיקי של עולם דברים שה' מבריותיו who speak concerning the Righteous One of the world words which he has withheld from his creatures (esoteric philosophy); Yalk. Ps. 715; Gen. R. s. 1 שה' בבריותיו (corr. acc., v. ‘Rashi’ a. l.). Ruth R. to I, 1 (ref. to I Chr. IV, 22) דברים הללו נאמרו ממַעְתִּיקוֹ של עולם וכ' these words were spoken by Him who moves the world (by ref. to ויעתק, Gen. XII, 8); (Yalk. Chr. 1074 דברים הללו מעתיקו, v. עַתִּיק). Yalk. Prov. 961 (ref. to העתיקו, Prov. XXV, </notes></sense>\n<sense>\n<number>1)</number>\n<definition> העתיקו מלמד שגנוזים היו ‘\n<italic>hʿetiḳu</italic>’ (they removed), this shows that they were suppressed (v. \n<xref rid=\"C01120\">גָּנַז</xref>).</definition>\n<notes> Ib. דבר אחר אין העתיקו אלא פירשו וכ' another interpretation is, \n<italic>hʿetiḳu</italic> means ‘they set aside’ (ref. to Gen. XII, 8), i.e. translated, interpreted (v. פָּרַשׁ, a. cmp. the later use of העתיק \n<italic>to edit, to translate</italic>); Ab. d’R. N. ch. I, 2\n<sup>nd</sup> Vers. (ed. Schechter, p. 3) אין העתיקו אלא שפרשו; ib. 1\n<sup>st</sup> Vers. לא שהמתינו אלא שפירשו, v. next w.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hof.</binyan-name>\n<binyan-form>הוּעְתַּק</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be removed</italic>.</definition>\n<notes> Koh. R. to I, 8 (in enigmatic speech) ואני הוּעְתַּקְתִּי לכאן להחיש מחיה and I have come here to accelerate the growth (of hair).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֶעְתַּק, </binyan-form>\n<binyan-name>Nithpa.</binyan-name>\n<binyan-form>נִתְעַתֵּק</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be removed, transferred</italic>.</definition>\n<notes> Esth. R. to I, 1 הנֶעְתָּקִין, v. קִינְסִין. Yalk. Chr. 1076 (ref. to I Chr. l. c.) אפי' … שנִתְעַתְּקוּ מהם החזירם even things which had been removed from them (esoteric thoughts) did he bring back; Ruth R. l. c. (not שנתעסקו).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22754,
+      "source_id": "jastrow-xml-022754",
+      "canonical_entry_id": "P01544",
+      "headword": "עָתַק",
+      "source_xml": "<entry id=\"P01544\">\n<head-word>עָתַק</head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition>\n<italic>to be substantial, strong</italic>; (cmp. יָשִׁישׁ) \n<italic>to be old</italic>.</definition>\n<notes>—Denom. עַתִּיק.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶעְתִּיק</binyan-form>\n<senses>\n<sense>\n<definition> (denom. of עַתִּיק; cmp. זָקַן \n<italic>Nithpa.</italic>) \n<italic>to be long in deliberating, mature</italic>.</definition>\n<notes> Ab. d’R. N. ch. I (expl. העתיקו, Prov. XXV, </notes></sense>\n<sense>\n<number>1)</number>\n<definition> ולא שהעתיקו אלא שהמתינו and \n<italic>hʿetiḳu</italic> means, ‘which they considered maturely’; אבא שאול אומר לא שהמתינו אלא שפירשו Abba S. says, it does not mean ‘which they considered maturely’, but ‘which they set aside’, v. \n<xref rid=\"P01543\">preced.</xref></definition>\n<notes /></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22755,
+      "source_id": "jastrow-xml-022755",
+      "canonical_entry_id": "P01545",
+      "headword": "עֲתַק",
+      "source_xml": "<entry id=\"P01545\">\n<head-word>עֲתַק</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to be old, worn out</italic>.</definition>\n<notes> Targ. Lam. III, 4 (h. text בלה).</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַתַּק, אִיעַתַּק</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to remain long, be settled permanently</italic>.</definition>\n<notes> Targ. Deut. IV, 25 (h. text ונושנתם). Targ. Ez. XXXIV, 25 (h. text וְיָשְׁנוּ!).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to grow old</italic>.</definition>\n<notes> Targ. Y. Lev. XXVI, 10 דמִיעַתַּק (ed. Vien. דמְעַתַּק Part. pass. \n<italic>Pa.</italic>).—Targ. Y. Deut. XXVIII, 59 דמִתְעַתְּקִין (inveterate, chronic).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22756,
+      "source_id": "jastrow-xml-022756",
+      "canonical_entry_id": "P01546",
+      "headword": "עֲתַר",
+      "source_xml": "<entry id=\"P01546\">\n<head-word>עֲתַר</head-word>\n<head-word>(עַתַר</head-word>\n<head-word>עַתַּר)</head-word>\n<senses>\n<sense>\n<definition> = h. עָשַׁר </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be rich, grow rich</italic>.</definition>\n<notes> Targ. Deut. XXXII, 15 עַתַר ed. Berl. (oth. ed., a. Y. עַתַּר). Targ. Ez. XXVII, 25. Targ. Zech. XI, 5 ed. Lag. (ed. Wil. \n<italic>Af.</italic>). Targ. Prov. XXI, 17; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to make rich</italic>, v. infra.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>עַתֵּר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to make rich</italic>.</definition>\n<notes> Targ. Gen. XIV, 23 (ed. Berl. עֲתַ', oth. ed. עֲתִ'; Y. I אַעַתָּרִית \n<italic>Af.</italic>). Targ. I Sam. II, 7; a. fr.—Yoma 25\n<sup>b</sup> מְעַתְּרָא it (offering frankincense) makes rich.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to proclaim rich</italic>.</definition>\n<notes> Targ. Prov. XIII, 7 (some ed. \n<italic>Af.</italic>).—[Gen. R. s. 45 עתר לך Ar. (ed. עביד), read: עַתַּד, v. עֲתַד.]</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אַעְתֵּר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to make rich</italic>, v. supra.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to become rich</italic>.</definition>\n<notes> Targ. Ps. XLIX, 17 יַעְתִּיר Ms. (ed. \n<italic>Ithpa.</italic>). Targ. Zech. XI, 5 (v. supra); a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְעַתַּר, אִיעַתַּר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to become rich</italic>.</definition>\n<notes> Targ. Ps. l. c.—B. Mets. 59\n<sup>a</sup> דתִתְעַתְּרוּ, v. יְקַר \n<italic>Af.</italic>; Yalk. Gen. 68. Hor. 10\n<sup>b</sup> אִיעַתְּרִיתוּ פורתא have you acquired a little wealth? Ned. 50\n<sup>a</sup>; a. e.—</notes></sense>\n<sense>\n<number>*2)</number>\n<definition>\n<italic>to endure, prosper</italic>.</definition>\n<notes> Targ. Job XV, 29 יִתְעַתַּר ed. Lag. (oth. ed. יתעתד, v. עֲתַד).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22757,
+      "source_id": "jastrow-xml-022757",
+      "canonical_entry_id": "P01547",
+      "headword": "עֵתֶר",
+      "source_xml": "<entry id=\"P01547\">\n<head-word>עֵתֶר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (עתר, v. \n<xref rid=\"P01539\">עֲתִירָה</xref>) \n<italic>shovel</italic> or \n<italic>pitchfork</italic>.</definition>\n<notes> Tosef. Ukts. I, 5 מפני שהופכה בע' because he is used to turn it up with the shovel; Succ. 14\n<sup>a</sup> מפני שראויות להופכן בע'. Ib.; Yeb. 64\n<sup>a</sup> למה … כע' מה ע' זה מהפך וכ' why is the prayer of the righteous symbolized by a shovel (the root עתר being used for praying, v. עֲתִירָה II)? As the shovel turns the grain from place to place, so the prayer of the righteous turns the dispensations of the Lord from anger to mercy; Num. R. s. 10 (with ref. to ויעתר, Jud. XIII, 8).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22758,
+      "source_id": "jastrow-xml-022758",
+      "canonical_entry_id": "P01548",
+      "headword": "עַתְרָא",
+      "source_xml": "<entry id=\"P01548\">\n<head-word>עַתְרָא</head-word>\n<hw-number>I</hw-number>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Gen. R. s. 63, v. \n<xref rid=\"A00441\">אִדַּר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22759,
+      "source_id": "jastrow-xml-022759",
+      "canonical_entry_id": "P01549",
+      "headword": "עַתְרָא",
+      "source_xml": "<entry id=\"P01549\">\n<head-word>עַתְרָא</head-word>\n<hw-number>II</hw-number>\n<head-word>עֻתְרָא</head-word>\n<head-word>עָ'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00384\">עוּתְרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22760,
+      "source_id": "jastrow-xml-022760",
+      "canonical_entry_id": "P01550",
+      "headword": "עֲתַרְתָּה",
+      "source_xml": "<entry id=\"P01550\">\n<head-word>עֲתַרְתָּה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P01541\">עֲתִירְתָּא</xref></notes></sense></senses></entry>"
+    },
+    {
+      "ordinal": 22761,
+      "source_id": "jastrow-xml-022761",
+      "canonical_entry_id": "Q00000",
+      "headword": "פ",
+      "source_xml": "<entry id=\"Q00000\">\n<head-word>פ</head-word>\n<senses>\n<sense>\n<definition>\n<italic>Pé</italic>, the seventeenth letter of the Alphabet.</definition>\n<notes> It interchanges with ב, ו, and מ; v. letter ב.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22762,
+      "source_id": "jastrow-xml-022762",
+      "canonical_entry_id": "Q00001",
+      "headword": "פ'",
+      "source_xml": "<entry id=\"Q00001\">\n<head-word>פ'</head-word>\n<senses>\n<sense>\n<definition>, as numeral letter, \n<italic>eighty</italic>, v. \n<xref rid=\"A00000\">א'</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22763,
+      "source_id": "jastrow-xml-022763",
+      "canonical_entry_id": "Q00002",
+      "headword": "פ\"א",
+      "source_xml": "<entry id=\"Q00002\">\n<head-word>פ\"א</head-word>\n<senses>\n<sense>\n<definition> the letter \n<italic>Pe</italic>, v. \n<xref rid=\"Q00141\">פ\"ה</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22764,
+      "source_id": "jastrow-xml-022764",
+      "canonical_entry_id": "Q00003",
+      "headword": "פָּאבִי",
+      "source_xml": "<entry id=\"Q00003\">\n<head-word>פָּאבִי</head-word>\n<head-word>פִּיאָבִי</head-word>\n<pos> pr. n. f.</pos>\n<senses>\n<sense>\n<definition> (Φοίβη) \n<italic>Pabi, Piabi</italic>, mother of a priest Ishmael.</definition>\n<notes> Tosef. Yoma I, 21 (ed. Zuck. פואבי, Var. פא', פיא'); Y. ib. III, 40\n<sup>d</sup> top פיא'; Bab. ib. 35\n<sup>b</sup> פא' (Ms. M. פיא'); a. e.; v. יִשְׁמָעאֵל.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22765,
+      "source_id": "jastrow-xml-022765",
+      "canonical_entry_id": "Q00004",
+      "headword": "פָּאג",
+      "source_xml": "<entry id=\"Q00004\">\n<head-word>פָּאג</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00152\">פּוּג</xref> ch.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22766,
+      "source_id": "jastrow-xml-022766",
+      "canonical_entry_id": "Q00005",
+      "headword": "פָּאגֵי",
+      "source_xml": "<entry id=\"Q00005\">\n<head-word>פָּאגֵי</head-word>\n<head-word>פַּגֵּי</head-word>\n<head-word>בֵּית פ'</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Beth Pagé</italic> (Βηθφαγῆ), a fortified suburb of Jerusalem.</definition>\n<notes> Pes. 91\n<sup>a</sup> (Ms. M. 2 פגים, v. Rabb. D. S. a. l. note 5). Ib. 63\n<sup>b</sup> (Ms. M. 2 פגים); Men. 78\n<sup>b</sup>. Sot. 45\n<sup>a</sup>; Snh. 14\n<sup>b</sup> בית פאגי (Ms. M. בית הפאגי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22767,
+      "source_id": "jastrow-xml-022767",
+      "canonical_entry_id": "Q00006",
+      "headword": "פֵּאָה",
+      "source_xml": "<entry id=\"Q00006\">\n<head-word>פֵּאָה</head-word>\n<head-word>פֵּי'</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> פאה \n<italic>to split, divide</italic>; v. Ges. H. Dict.\n<sup>12</sup> s. v.) \n<italic>section, segment, corner</italic>.</definition>\n<notes>—\n<plural-form>Pl. פֵּאוֹת, פֵּי'</plural-form>. Erub. 51\n<sup>a</sup> (ref. to Num. XXXV, 5) פ' כתיבן the text speaks of corners (angular additions); ib. לזה אתה נותן פ' אין אתה נותן פ' וכ' for this purpose (the definition of suburbs) you allow corners to be included (i.e. square measurements), but you must not allow corners to those appointing a Sabbath center (שְׁבִיתָה), i.e. you must allow them to walk only within a circle the radius of which is two thousand cubits. Ib. 11\n<sup>a</sup> בארבע פ' השדה Ar. (ed. פינות) \n<pgbrk id=\"pg1131\" />in the four corners of the field; a. e.—Esp. </notes></sense>\n<sense>\n<number>1)</number>\n<definition> פְּאַת ראש \n<italic>the hair on the temples</italic>; פאת זקן \n<italic>the hair on the chin</italic>.</definition>\n<notes> Macc. III, 5 המקיף פ' ראשו והמשחית פ' זקנו (v. Lev. XIX, 27) he who cuts off (shaves) the hair of his temples and destroys the hair of his chins; expl. ib. 20\n<sup>b</sup> פאת ראשו סוף ראשו וכ' the \n<italic>peah</italic> of his head means cutting the tail-end of the hair of his head … making his temples as smooth as the spot behind the ear and as the forehead; פאת זקנו סוף זקנו וכ' the \n<italic>peah</italic> of his chin means the pointed ends of his chin &amp;c., v. שִׁיבּוֹלֶת; Sifra K’dosh., Par. 3, ch. VI; a. e.—In gen. \n<italic>curls</italic>; פ' נכרית strange (false) curls, \n<italic>wig</italic>. Sabb. VI, 5. Naz. 28\n<sup>b</sup>; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (פאת שדה) \n<italic>the corner of the field</italic>, the \n<italic>portion of the harvest left for the poor, peah</italic> (Lev. XIX, 9 sq.) Sifra K’dosh.</definition>\n<notes>, Par. 1, ch. I פטור מן הלקט … והפ' is exempt from the duty of leaving for the poor the gleanings, the forgotten sheaf, and the corner. Ib. חייבים בפ' are subject to \n<italic>peah</italic>. Ib. אין פ' אלא מחמת הכילוי וכ' the title of \n<italic>peah</italic> comes only through the finishing (of the cutting of the field, i.e. if one left a plot uncut in the middle of a field, the poor cannot take it, before the field is entirely cut), and only when it has a name (has been designated by the owner as the poor man’s share), and the real \n<italic>peah</italic> is only that which is left at the end (i.e. he who has left a plot in the middle, must also leave a corner); ib. נתן בתחילה הרי זו פ' if he left a portion on beginning to cut or in the middle, it is \n<italic>peah</italic> (belongs to the poor, and is exempt from tithes &amp;c.); Peah I, 3; a. v. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (transf.) \n<italic>braid, vines plaited together so as to form a cover or a partition</italic>.</definition>\n<notes> Tosef. Kil. IV, 5 אם היו קנים מדוקרנין עושה אותן פ' מלמעלה ומותר if forked reeds were standing there, he forms a plait above, and it is permitted (it forms a partition with regard to mixed seeds); Erub. 11\n<sup>b</sup>. Y. Kil. IV, 29\n<sup>b</sup> מציל משום פ' it saves (makes the place marked off by reeds a partitioned field) the same as a garland of vines. Ib. הדא פ' מה את וכ' what do you mean by that \n<italic>peah?</italic> do you mean overhead, or on the side? Ib. bot. הפ' אינה וכ' the ‘plait’ does not save (is not considered a partition), unless it is solidly joined on four sides. Ib. פ' מהו שתציל בסוכה do intertwined vines form a partition with regard to Succah (to be considered a wall)?; Y. Succ. I, 52\n<sup>a</sup> bot. Erub. l. c. top פ' מותרת לענין כלאים וכ' (Ms. M. פ' קליעית קליעית, being a gloss to פ'; v. Rabb. D. S. a. l. note) ‘braids’ form a partition with regard to mixed seeds, but not with regard to Sabbath laws; a. fr.—\n<italic>Peah</italic>, name of a treatise of Mishnah, Tosefta and Talmud Y’rushalmi, of the Order of Z’raʿim.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22768,
+      "source_id": "jastrow-xml-022768",
+      "canonical_entry_id": "Q00007",
+      "headword": "פָּאוֹטוֹת",
+      "source_xml": "<entry id=\"Q00007\">\n<head-word>פָּאוֹטוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q01373\">פָּעוֹטוֹת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22769,
+      "source_id": "jastrow-xml-022769",
+      "canonical_entry_id": "Q00008",
+      "headword": "פְּאוֹרוֹת",
+      "source_xml": "<entry id=\"Q00008\">\n<head-word>פְּאוֹרוֹת</head-word>\n<senses>\n<sense>\n<definition>, v. \n<xref rid=\"Q00023\">פְּאֵר</xref>\n<italic>pl</italic>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22770,
+      "source_id": "jastrow-xml-022770",
+      "canonical_entry_id": "Q00009",
+      "headword": "פָּאחָא",
+      "source_xml": "<entry id=\"Q00009\">\n<head-word>פָּאחָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00441\">פָּחָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22771,
+      "source_id": "jastrow-xml-022771",
+      "canonical_entry_id": "Q00010",
+      "headword": "פָּאחֵים",
+      "source_xml": "<entry id=\"Q00010\">\n<head-word>פָּאחֵים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00471\">פָּחים</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22772,
+      "source_id": "jastrow-xml-022772",
+      "canonical_entry_id": "Q00011",
+      "headword": "פָּאטִי",
+      "source_xml": "<entry id=\"Q00011\">\n<head-word>פָּאטִי</head-word>\n<senses>\n<sense>\n<definition> (?)\n<pos> pr. n. m.</pos>\n<italic>Pâṭi</italic>, v. \n<xref rid=\"Q01175\">פַּנְטִי</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22773,
+      "source_id": "jastrow-xml-022773",
+      "canonical_entry_id": "Q00012",
+      "headword": "פאטן",
+      "source_xml": "<entry id=\"Q00012\">\n<head-word>פאטן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pesik. Zakhor, p. 26\n<sup>a</sup> read פאנון, v. \n<xref rid=\"unknown\">פְּנֵי I</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22774,
+      "source_id": "jastrow-xml-022774",
+      "canonical_entry_id": "Q00013",
+      "headword": "פַּאיָיס",
+      "source_xml": "<entry id=\"Q00013\">\n<head-word>פַּאיָיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00654\">פַּיָּיס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22775,
+      "source_id": "jastrow-xml-022775",
+      "canonical_entry_id": "Q00014",
+      "headword": "פאמא",
+      "source_xml": "<entry id=\"Q00014\">\n<head-word>פאמא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Midr. Till. to Ps. XXII, 9 ed. Bub., v. \n<xref rid=\"Q00431\">פִּזְמָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22776,
+      "source_id": "jastrow-xml-022776",
+      "canonical_entry_id": "Q00015",
+      "headword": "פָּאנִיקְנִין",
+      "source_xml": "<entry id=\"Q00015\">\n<head-word>פָּאנִיקְנִין</head-word>\n<head-word>פאנקין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00284\">פּוּנְקְלִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22777,
+      "source_id": "jastrow-xml-022777",
+      "canonical_entry_id": "Q00016",
+      "headword": "פָּאנָס",
+      "source_xml": "<entry id=\"Q00016\">\n<head-word>פָּאנָס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q01206\">פָּנָס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22778,
+      "source_id": "jastrow-xml-022778",
+      "canonical_entry_id": "Q00017",
+      "headword": "פאנקין",
+      "source_xml": "<entry id=\"Q00017\">\n<head-word>פאנקין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00015\">פָּאנִיקְנִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22779,
+      "source_id": "jastrow-xml-022779",
+      "canonical_entry_id": "Q00018",
+      "headword": "פאפאי",
+      "source_xml": "<entry id=\"Q00018\">\n<head-word>פאפאי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00020\">פָּאפֵי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22780,
+      "source_id": "jastrow-xml-022780",
+      "canonical_entry_id": "Q00019",
+      "headword": "פָּאפוּנְיָא",
+      "source_xml": "<entry id=\"Q00019\">\n<head-word>פָּאפוּנְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q01403\">פָּפוּנְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22781,
+      "source_id": "jastrow-xml-022781",
+      "canonical_entry_id": "Q00020",
+      "headword": "פָּאפֵי",
+      "source_xml": "<entry id=\"Q00020\">\n<head-word>פָּאפֵי</head-word>\n<head-word>פָּפֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (papae, v. P. Sm. 3203) \n<italic>fathers</italic>.</definition>\n<notes> Sot. 42\n<sup>b</sup>; a. e.; v. נָאנָאי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22782,
+      "source_id": "jastrow-xml-022782",
+      "canonical_entry_id": "Q00021",
+      "headword": "פָּאפִי",
+      "source_xml": "<entry id=\"Q00021\">\n<head-word>פָּאפִי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Pâfi</italic>.</definition>\n<notes> B. Bath. 25\n<sup>b</sup> פ' יונאה (Ms. M. פפי יובא'; Ms. O. פפי יוכאה; Ms. H. פפי יוכנאה; v. Rabb. D. S. a. l. note).—V. פַּפִּי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22783,
+      "source_id": "jastrow-xml-022783",
+      "canonical_entry_id": "Q00022",
+      "headword": "פָּאפִילְיוֹן",
+      "source_xml": "<entry id=\"Q00022\">\n<head-word>פָּאפִילְיוֹן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q01413\">פָּפִילְיוֹן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22784,
+      "source_id": "jastrow-xml-022784",
+      "canonical_entry_id": "Q00023",
+      "headword": "פְּאֵר",
+      "source_xml": "<entry id=\"Q00023\">\n<head-word>פְּאֵר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> פאר \n<italic>to cut off; to distinguish</italic>) \n<italic>ornament, crown, bonnet of distinction</italic>.</definition>\n<notes> Y. M. Kat. III, 82\n<sup>d</sup> top (ref. to פארך, Ez. XXIV, 17) אית דבעי מימר אילו התפלין some say, this refers to the T’fillin (which ordinarily a mourner must not put on); אית דבעי מימר זה הגיהוץ some say, this refers to glossy linen (festive dress, v. גִּיהוּץ); Ber. 11\n<sup>a</sup> אבל חייב … שהרי נאמר בהם פ' a mourner is bound to observe all ceremonial laws …, except that of T’fillin, which are called an ornament; ib. 16\n<sup>b</sup>; a. e.—*\n<plural-form>Pl. פְּאֵרוֹת</plural-form>\n<italic>head-ornaments, pearls, trinkets</italic> (strung on chains or cords). Ab. Zar. 47\n<sup>a</sup> בני מעיה מהו לפ' may its small intestines be used for pearl-strings? [Ms. M. לכנורות, v. כִּנּוֹר; ed. Pes. a. oth. פְּאוֹרוֹת; cmp. b. h. פֻּארָה, פֹּארֹת].</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22785,
+      "source_id": "jastrow-xml-022785",
+      "canonical_entry_id": "Q00024",
+      "headword": "פָּאַר",
+      "source_xml": "<entry id=\"Q00024\">\n<head-word>פָּאַר</head-word>\n<senses>\n<sense>\n<definition> (b. h.), \n<italic>Pi.</italic> פֵּאֵר (denom. of preced.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to cut the crown off</italic>.</definition>\n<notes> Ḥull. 131\n<sup>a</sup>, sq. (ref. to תְפָאֵר, Deut. XXIV, 20) שלא תטול תפארתו ממנו thou must not cut the crown off it (the last berries).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to crown, glorify</italic>.</definition>\n<notes> Lev. R. s. 2 כל מה … לגדלן ולפָאֲרָן פָּאֵר … להִתְפָּאֵר בהם as much as thou canst praise Israel, praise, as much as thou canst raise and glorify them, glorify, for I am to be glorified through them; Tanḥ. Ki Thissa 8; Pesik. Shek., p. 17\n<sup>b</sup> לפָאֲרוֹ פָּאֲרוֹ; a. e.—Part. pass. מְפוֹאָר; f. מְפוֹאָרָה, מְפוֹאֶרֶת. Taan. 7\n<sup>a</sup> (to R. Joshua) אי חכמה מפ' בכלי מכוער O for that glorious wisdom in an ugly vessel! Ab. Zar. 24\n<sup>b</sup>, v. עֲדִי II.</notes></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְפָּאֵר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to lord it, rule</italic>.</definition>\n<notes> Sifré Deut. 284 (ref. to תפאר, v. supra) לא תִתְפָּאֵר לעני do not make thyself the master of the poor man (i.e. do not decide who shall and who shall not get the gleanings &amp;c.); Yalk. ib. 937.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be adorned, glorified</italic>.</definition>\n<notes> Lev. R. l. c., a. e., v. supra. Esth. R. to III, 6, v. פּוּרְפּוּרָא; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 22786,
+      "source_id": "jastrow-xml-022786",
+      "canonical_entry_id": "Q00025",
+      "headword": "פְּאֵרָא",
+      "source_xml": "<entry id=\"Q00025\">\n<head-word>פְּאֵרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. פְּאֵרֵי</plural-form> (v. \n<xref rid=\"Q00023\">פְּאֵר</xref>\n<italic>pl.</italic>) beads, \n<italic>trinkets strung on chains or cords</italic>.</definition>\n<notes> Sabb. 59\n<sup>b</sup>, v. מְנַקְטָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22787,
+      "source_id": "jastrow-xml-022787",
+      "canonical_entry_id": "Q00026",
+      "headword": "פארדוכסוס",
+      "source_xml": "<entry id=\"Q00026\">\n<head-word>פארדוכסוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q01576\">פרדוכוס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22788,
+      "source_id": "jastrow-xml-022788",
+      "canonical_entry_id": "Q00027",
+      "headword": "*,",
+      "source_xml": "<entry id=\"Q00027\">\n<head-word>*, </head-word>\n<head-word>*פָּארוּר</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Parur</italic>.</definition>\n<notes> Ab. Zar. 31\n<sup>a</sup> Ms. M. (ed. פרוד). [Perh. פַּרְוָאר?]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22789,
+      "source_id": "jastrow-xml-022789",
+      "canonical_entry_id": "Q00028",
+      "headword": "פְּאֵרוֹת",
+      "source_xml": "<entry id=\"Q00028\">\n<head-word>פְּאֵרוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00023\">פְּאֵר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22790,
+      "source_id": "jastrow-xml-022790",
+      "canonical_entry_id": "Q00029",
+      "headword": "פָּארֵי",
+      "source_xml": "<entry id=\"Q00029\">\n<head-word>פָּארֵי</head-word>\n<hw-number>I</hw-number>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (= פררי; פְּרַר) \n<italic>coarse bran</italic>.</definition>\n<notes> Gitt. 56\n<sup>b</sup> אשקוהו מיא דפ' they gave him bran water to drink. Ib. 69\n<sup>a</sup>, v. נַפְיָא. B. Bath. 92\n<sup>b</sup> (prov.) מן מרי רשותך פ' איפרע from a debtor of thine accept (even) bran in payment; B. Kam. 46\n<sup>b</sup>; B. Mets. 118\n<sup>a</sup>. Pes. 111\n<sup>b</sup> פ' בביתא קשי לעניותא bran scattered in the house is bad for (brings) poverty. Bekh. 8\n<sup>b</sup> (in a facetious conversation, v. בְּדִיאֵי) אפשילו לי חבלי מפ' וכ' twist me ropes of bran, and &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22791,
+      "source_id": "jastrow-xml-022791",
+      "canonical_entry_id": "Q00030",
+      "headword": "פָּארֵי",
+      "source_xml": "<entry id=\"Q00030\">\n<head-word>פָּארֵי</head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition />\n<notes>, part. of פְּרֵי, q. v.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22792,
+      "source_id": "jastrow-xml-022792",
+      "canonical_entry_id": "Q00031",
+      "headword": "פָּאתָא",
+      "source_xml": "<entry id=\"Q00031\">\n<head-word>פָּאתָא</head-word>\n<hw-number>I</hw-number>\n<head-word>פָּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> = h. פֵּאָה.</definition>\n<notes> Targ. O. Lev. XIX, 9. Ib. 27. Ib. XXIII, 22 (ed. Berl. פתא). Ib. XXI, 5 (ed. Berl. פתא). Targ. Is. III, 16 בפָתְהֶן מקפן they cut their locks (v. infra). Ib. 24. Targ. Jer. IX, 25; XXV, 23.—\n<plural-form>Pl. פָּוָותָא, פָּוָתָא</plural-form>. Targ. Is. III, 16 בפָוָתְהֶין ed. Ven. I (v. supra).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22793,
+      "source_id": "jastrow-xml-022793",
+      "canonical_entry_id": "Q00032",
+      "headword": "פָּאתָא",
+      "source_xml": "<entry id=\"Q00032\">\n<head-word>פָּאתָא</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (פתי = פתח) \n<italic>door, entrance</italic>.</definition>\n<notes>—\n<plural-form>Pl. constr. פָּאתֵי</plural-form>. Targ. Job III, 9 (10) (ed. Lag. פרתי), v. דּלְתָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22794,
+      "source_id": "jastrow-xml-022794",
+      "canonical_entry_id": "Q00033",
+      "headword": "פָּאתֵי",
+      "source_xml": "<entry id=\"Q00033\">\n<head-word>פָּאתֵי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>wide</italic>, v. \n<xref rid=\"Q02152\">פְּתֵי I</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22795,
+      "source_id": "jastrow-xml-022795",
+      "canonical_entry_id": "Q00034",
+      "headword": "פַּאתֵי",
+      "source_xml": "<entry id=\"Q00034\">\n<head-word>פַּאתֵי</head-word>\n<senses>\n<sense>\n<definition>\n<italic>to persuade</italic>, v. \n<xref rid=\"Q02152\">פְּתֵי I</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22796,
+      "source_id": "jastrow-xml-022796",
+      "canonical_entry_id": "Q00035",
+      "headword": "פַּאֲתֵי",
+      "source_xml": "<entry id=\"Q00035\">\n<head-word>פַּאֲתֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00492\">פַּחְתי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22797,
+      "source_id": "jastrow-xml-022797",
+      "canonical_entry_id": "Q00036",
+      "headword": "פַּג",
+      "source_xml": "<entry id=\"Q00036\">\n<head-word>פַּג</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (פגג; cmp. Syr.</definition>\n<notes> פכא P. Sm. 3124) \n<italic>jaw</italic>.—\n<italic>Du.</italic> פַּגַּיִם; בית פ' \n<italic>halter</italic>. B. Mets. 9\n<sup>a</sup> חמור ובית פַּגֶּיהָ (Ms. M. ובי, v. Rabb. D. S. a. l. note) the ass with the halter.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22798,
+      "source_id": "jastrow-xml-022798",
+      "canonical_entry_id": "Q00037",
+      "headword": "פַּגָּא",
+      "source_xml": "<entry id=\"Q00037\">\n<head-word>פַּגָּא</head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Pes. 112\n<sup>a</sup> ידא אפ' Ms. M., v. אַוְסֵי.—\n<plural-form>Pl. פַּגֵּי</plural-form> (= בי פ') \n<italic>bit</italic>. Sabb. 51\n<sup>b</sup> (expl. פרומביא) פ' דפרזלא iron bit.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22799,
+      "source_id": "jastrow-xml-022799",
+      "canonical_entry_id": "Q00038",
+      "headword": "פַּגָּא",
+      "source_xml": "<entry id=\"Q00038\">\n<head-word>פַּגָּא</head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.; v. \n<xref rid=\"Q00041\">פַּגָּה</xref>) kernel of grapes.</definition>\n<notes>—\n<plural-form>Pl. פַּגָּן</plural-form>. Targ. Y. Num. VI, 4 Ar. s. v. פגן (ed. זגין; h. text זג).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 22800,
+      "source_id": "jastrow-xml-022800",
+      "canonical_entry_id": "Q00039",
+      "headword": "פָּגָאנִים",
+      "source_xml": "<entry id=\"Q00039\">\n<head-word>פָּגָאנִים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"Q00079\">פָּגָן</xref></notes></sense></senses></entry>\n"
+    }
+  ]
+}
