@@ -1,10 +1,12 @@
 name: DGP Etapa 3 — casos individuais
 on:
   push:
-    branches: [chat-gpt-correcoes]
+    branches: [chat-gpt-correcoes, chat-gpt-commits]
     paths:
       - '.github/workflows/dgp-stage3-15.yml'
       - 'tests/test_dgp_stage3_15.py'
+      - 'auditorias/dgp-etapa3-quinze-candidatos.json'
+      - 'auditorias/dgp-etapa3-0001-1000.json'
   workflow_dispatch:
 permissions:
   contents: read
