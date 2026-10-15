@@ -53,10 +53,12 @@ def main():
                        f"Cotejo documental #{number}")
                     page.locator("#search-input").fill(lemma)
                     row=page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]'%number)
+                    row.wait_for(state="visible",timeout=20000)
                     ok(row.count()==1 and row.is_visible(),f"Índice ou busca #{number}")
                     row.focus()
                     page.keyboard.press("Enter")
                     card=page.locator("#entry-dgp-%04d"%number)
+                    card.wait_for(state="visible",timeout=20000)
                     ok(card.count()==1 and not card.evaluate("(e)=>e.hidden"),f"Enter #{number}")
                     ok(card.get_attribute("data-source")=="DGP",f"Fonte da ficha #{number}")
                     ok(norm(card.locator("h1.entry-title").text_content())==norm(lemma),

@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/dgp-integracao-prova.yml'
       - 'tests/preparar_dgp_integracao_seca.py'
+      - 'tests/test_dgp_stage3_candidatos.py'
   workflow_dispatch:
 permissions:
   contents: read
