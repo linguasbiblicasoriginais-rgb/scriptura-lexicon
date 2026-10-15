@@ -181,10 +181,11 @@ def main():
                         page.set_viewport_size({"width":1365,"height":900})
                     # A validacao de destino externo e a cotejacao filologica
                     # exaustiva sao controles separados, nunca presumidos.
+                    result["testes_dom_executados_sem_falhas"] = not bool(result["falhas"])
+                    # Controles documentais e destinos externos ainda exigem exame.
+                    # Nenhum teste parcial promove a ficha a FUNCIONAL_APROVADO.
                     result["estado"] = (
-                        "PENDENTE_CORRECAO" if result["falhas"] else
-                        "EM_EXECUCAO" if result["links_pendentes"] else
-                        "TESTES_EXECUTADOS_SEM_FALHAS"
+                        "PENDENTE_CORRECAO" if result["falhas"] else "EM_EXECUCAO"
                     )
                     results.append(result)
                     if n % 25 == 0:
