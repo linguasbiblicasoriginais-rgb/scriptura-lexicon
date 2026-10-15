@@ -43,10 +43,9 @@ def exercise(page, ordinal, query, location, original, roman):
     cite.first.focus()
     tip = page.locator("#lexical-tooltip")
     check(tip.get_attribute("aria-hidden") == "false", "Popup grego nao abriu: %d" % ordinal)
-    print("DEBUG popup #%d: %r" % (ordinal, tip.inner_text()), flush=True)
-    check("transliteração" in tip.inner_text().casefold(), "Popup sem campo de transliteracao")
-    check(unicodedata.normalize("NFC", roman) in unicodedata.normalize("NFC", tip.inner_text()),
-          "Transliteração incorreta: %d (%r)" % (ordinal, tip.inner_text()))
+    check("transliteração" in (tip.text_content() or "").casefold(), "Popup sem campo de transliteracao")
+    check(unicodedata.normalize("NFC", roman) in unicodedata.normalize("NFC", tip.text_content() or ""),
+          "Transliteração incorreta: %d (%r)" % (ordinal, tip.text_content()))
     page.keyboard.press("Escape")
     check(tip.get_attribute("aria-hidden") == "true", "Escape nao fechou popup: %d" % ordinal)
     print("PASS: exemplo, obra, grego, transliteração e teclado #%d" % ordinal, flush=True)
