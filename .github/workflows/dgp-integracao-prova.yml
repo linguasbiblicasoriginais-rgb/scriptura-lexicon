@@ -1,0 +1,41 @@
+name: DGP — prova de integração sem publicação
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - '.github/workflows/dgp-integracao-prova.yml'
+      - 'tests/preparar_dgp_integracao_seca.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  dryrun:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Simular conciliação sobre a base sem publicar
+        run: python tests/preparar_dgp_integracao_seca.py
+      - name: Sintaxe e proveniência do cotejo
+        run: node tests/test_dgp_cotejo_1000.js
+      - name: Instalar navegador
+        run: |
+          python -m pip install 'playwright>=1.55,<2'
+          python -m playwright install --with-deps chromium
+      - name: Verificar interface integrada e cinco casos
+        run: python tests/test_dgp_stage3_candidatos.py
+      - name: Anexar formatador mesclado para inspeção
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgp-formatador-integrado-seca
+          path: lexicons/dgp-format.js
+          if-no-files-found: warn
