@@ -98,8 +98,13 @@ def count_segment(segment,next_start,expected_last):
         time.sleep(0.08)
     if next_start is not None and current!=next_start:
         raise RuntimeError(f"Divisão {segment['letter']} terminou em {current}, esperava {next_start}")
-    if next_start is None and (current is not None or last!="BDB, "+expected_last):
-        raise RuntimeError(f"Fim da obra não confirmado: {current}; último {last}; esperado {expected_last}")
+    if next_start is None:
+        import unicodedata
+        def consonants(value):
+            return "".join(ch for ch in unicodedata.normalize("NFD", value)
+                           if not unicodedata.combining(ch))
+        if current is not None or consonants(last or "")!=consonants("BDB, "+expected_last):
+            raise RuntimeError(f"Fim da obra não confirmado: {current}; último {last}; esperado {expected_last}")
     if not ids:
         raise RuntimeError(f"Divisão alfabética vazia: {segment['letter']}")
     return {"letter":segment["letter"],"first_ref":first,"last_ref":last,"count":len(ids),
