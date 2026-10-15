@@ -99,6 +99,29 @@ def main():
                     print("PASS: referência autêntica e popup #%d: %s" %
                           (ordinal, work), flush=True)
 
+                # Verbete 466: rótulo morfológico composto autenticado no XML.
+                page.locator("#search-input").fill("ἀδεᾶ")
+                row466 = page.locator(
+                    '.search-row[data-source="DGP"][data-target="entry-dgp-0466"]'
+                )
+                check(row466.count() == 1 and row466.is_visible(),
+                      "Pesquisa não recupera ordinal 466")
+                row466.focus()
+                page.keyboard.press("Enter")
+                compound = page.locator(
+                    '#entry-dgp-0466 [data-tooltip-type="abbr"][data-tooltip-label="ac. pl. n."]'
+                )
+                check(compound.count() >= 1,
+                      "Falta popup composto de acusativo plural neutro (#466)")
+                compound.first.focus()
+                tooltip466 = page.locator("#lexical-tooltip")
+                check(tooltip466.get_attribute("aria-hidden") == "false" and
+                      "acusativo plural neutro" in (tooltip466.text_content() or "").lower(),
+                      "Popup morfológico composto incorreto (#466)")
+                page.keyboard.press("Escape")
+                print("PASS: popup composto ac. pl. n. (#466)", flush=True)
+
+                # Retornar a #17 para o teste gramatical histórico.
                 # Pelo menos um tooltip gramatical da fonte deve funcionar.
                 page.locator("#search-input").fill("ἀβαρής")
                 row17 = page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-0017"]')

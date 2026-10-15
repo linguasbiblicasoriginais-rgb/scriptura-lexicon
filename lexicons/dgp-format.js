@@ -18,6 +18,18 @@
         return;
     }
 
+    /* Fonte DGP: abreviatura composta atestada em ἀδεᾶ (#466).
+       Evita dividir “acusativo plural neutro” em duas janelas isoladas. */
+    if (!source.bibliographicTerms.some(function (item) {
+        return item.key === "ac. pl. n.";
+    })) {
+        source.bibliographicTerms.push({
+            key: "ac. pl. n.",
+            type: "abbr",
+            text: "acusativo plural neutro"
+        });
+    }
+
     function hasGreek(value) {
         return /\p{Script=Greek}/u.test(value);
     }
