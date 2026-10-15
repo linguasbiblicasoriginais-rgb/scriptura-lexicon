@@ -4,6 +4,7 @@ on:
     branches: [chat-gpt-correcoes]
     paths:
       - 'lexicons/dgp-format.js'
+      - 'script.js'
       - 'lexicons/dgp-format.css'
       - 'auditorias/dgp-2026-10-14-cotejo-0001-1000.json'
       - 'tests/test_dgp_cotejo_1000.js'
