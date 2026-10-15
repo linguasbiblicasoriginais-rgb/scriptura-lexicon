@@ -1,7 +1,7 @@
 name: DGP Etapa 3 — casos individuais
 on:
   push:
-    branches: [chat-gpt-correcoes]
+    branches: [chat-gpt-correcoes, chat-gpt-commits]
     paths:
       - '.github/workflows/dgp-stage3-candidatos.yml'
       - 'tests/test_dgp_stage3_candidatos.py'
@@ -14,6 +14,11 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Construir catálogo como Netlify no destino consolidado
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
