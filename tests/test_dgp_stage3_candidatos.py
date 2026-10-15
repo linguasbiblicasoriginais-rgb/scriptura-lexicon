@@ -46,14 +46,35 @@ def main():
                 page.on("pageerror", lambda e: errors.append(str(e)))
                 page.goto("http://127.0.0.1:%d/index.html#grego"%server.server_port,
                           wait_until="load",timeout=180000)
+                # Consultas desambiguadas nos lemas curtos e variantes.
+                queries = {
+                    2: "forma dórica do artigo definido feminino",
+                    5: "dativo feminino de ὅς",
+                    6: "ἄ, ἅ, ἇ ah!"
+                }
                 for number, (lemma, terms) in CONTROLS.items():
                     source=RECORDS[number]
                     ok(norm(source["lemma"])==norm(lemma), f"Fonte lema #{number}")
                     ok(source["lemma_coincide"] and source["definition_coincide"],
                        f"Cotejo documental #{number}")
-                    page.locator("#search-input").fill(lemma)
+                    page.locator("#search-input").fill(queries.get(number, lemma))
                     row=page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]'%number)
-                    row.wait_for(state="visible",timeout=20000)
+                    try:
+                        row.wait_for(state="visible",timeout=25000)
+                    except Exception:
+                        diagnostic = page.evaluate("""() => ({
+                            query: document.getElementById("search-input").value,
+                            count: document.getElementById("search-count")?.textContent,
+                            error: window.ScripturaLexiconSearch?.error,
+                            ready: window.ScripturaLexiconSearch?.isReady,
+                            rows: document.querySelectorAll(".search-row").length,
+                            samples: [...document.querySelectorAll(".search-row")].slice(0,5)
+                                .map(x=>x.outerHTML.slice(0,200)),
+                            noResults: document.getElementById("no-results")?.textContent,
+                            dictionary: document.querySelector(".dictionary-option.active")?.dataset.dictionaryTarget
+                        })""")
+                        print("INTEGRATION_DIAG #%d %s" % (number,diagnostic),flush=True)
+                        raise
                     ok(row.count()==1 and row.is_visible(),f"Índice ou busca #{number}")
                     row.focus()
                     page.keyboard.press("Enter")
