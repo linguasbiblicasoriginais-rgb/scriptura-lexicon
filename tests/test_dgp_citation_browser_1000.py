@@ -24,6 +24,7 @@ def exercise(page, ordinal, query, location, original, roman):
     page.locator("#search-input").fill(query)
     selector = '.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]' % ordinal
     row = page.locator(selector)
+    row.wait_for(state="visible", timeout=35000)
     check(row.count() == 1, "Linha DGP ausente: %d" % ordinal)
     # Interacao real pelo teclado, sem reescrever a interface.
     row.focus()
@@ -65,6 +66,7 @@ def main():
                 errors = []
                 page.on("pageerror", lambda err: errors.append(str(err)))
                 page.goto(address + "/index.html#grego", wait_until="load", timeout=180000)
+                page.wait_for_function("() => window.ScripturaLexiconSearch?.isReady === true", timeout=120000)
                 exercise(page, 14, "ἀάω", "Ilíada 9.537", "ἀάσατο", "aásato")
                 exercise(page, 17, "ἀβαρής", "Coríntios 11.9", "ἐν παντὶ", "en pantì")
                 # Confirmações independentes de autor, obra e citação-fonte.
@@ -76,6 +78,7 @@ def main():
                     row = page.locator(
                         '.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]' % ordinal
                     )
+                    row.wait_for(state="visible", timeout=35000)
                     check(row.count() == 1 and row.is_visible(),
                           "Pesquisa não recupera citação #%d" % ordinal)
                     row.focus()
@@ -104,6 +107,7 @@ def main():
                 row466 = page.locator(
                     '.search-row[data-source="DGP"][data-target="entry-dgp-0466"]'
                 )
+                row466.wait_for(state="visible", timeout=35000)
                 check(row466.count() == 1 and row466.is_visible(),
                       "Pesquisa não recupera ordinal 466")
                 row466.focus()
@@ -111,6 +115,7 @@ def main():
                 compound = page.locator(
                     '#entry-dgp-0466 [data-tooltip-type="abbr"][data-tooltip-label="ac. pl. n."]'
                 )
+                compound.first.wait_for(state="attached", timeout=35000)
                 check(compound.count() >= 1,
                       "Falta popup composto de acusativo plural neutro (#466)")
                 compound.first.focus()
@@ -125,6 +130,7 @@ def main():
                 # Pelo menos um tooltip gramatical da fonte deve funcionar.
                 page.locator("#search-input").fill("ἀβαρής")
                 row17 = page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-0017"]')
+                row17.wait_for(state="visible", timeout=35000)
                 row17.focus()
                 page.keyboard.press("Enter")
                 article = page.locator("#entry-dgp-0017")
