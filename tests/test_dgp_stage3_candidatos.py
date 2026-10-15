@@ -104,6 +104,43 @@ def main():
                     passed.append(number)
                     print("STAGE3 PASS #%04d %s source/HTML/search/keyboard/popup/links"%
                           (number,lemma),flush=True)
+                # Regressões editoriais preexistentes que a integração deve conservar:
+                # citação grega com obra (#14) e abreviatura composta (#466).
+                page.locator("#search-input").fill("ἀδεᾶ")
+                row466=page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-0466"]')
+                row466.wait_for(state="visible", timeout=30000)
+                row466.focus()
+                page.keyboard.press("Enter")
+                card466=page.locator("#entry-dgp-0466")
+                card466.wait_for(state="visible",timeout=20000)
+                pop=card466.locator('[data-tooltip-type="abbr"][data-tooltip-label="ac. pl. n."]')
+                ok(pop.count()>0,"Regressão integrada: popup ac. pl. n. ausente (#466)")
+                pop.first.focus()
+                tooltip=page.locator("#lexical-tooltip")
+                ok(tooltip.get_attribute("aria-hidden")=="false" and
+                   "acusativo plural neutro" in (tooltip.text_content() or "").lower(),
+                   "Regressão integrada: conteúdo do popup ac. pl. n. (#466)")
+                page.keyboard.press("Escape")
+                print("STAGE3 REGRESSION PASS #0466 ac. pl. n.",flush=True)
+
+                page.locator("#search-input").fill("ἀάω")
+                row14=page.locator('.search-row[data-source="DGP"][data-target="entry-dgp-0014"]')
+                row14.wait_for(state="visible",timeout=30000)
+                row14.focus()
+                page.keyboard.press("Enter")
+                card14=page.locator("#entry-dgp-0014")
+                card14.wait_for(state="visible",timeout=20000)
+                citation=card14.locator(".dgp-greek-quotation")
+                locus=card14.locator(".dgp-citation-work")
+                ok(citation.count()>0 and locus.count()>0 and
+                   "Ilíada 9.537" in locus.first.text_content(),
+                   "Regressão integrada: locus de Homero #14 ausente")
+                citation.first.focus()
+                ok("transliteração" in (tooltip.text_content() or "").casefold(),
+                   "Regressão integrada: transliteração #14 ausente")
+                page.keyboard.press("Escape")
+                print("STAGE3 REGRESSION PASS #0014 Ilíada 9.537",flush=True)
+
                 # Shared UI on mobile and dark/light themes.
                 page.set_viewport_size({"width":375,"height":812})
                 ok(page.locator("#search-input").is_visible(),"Pesquisa não visível no celular")

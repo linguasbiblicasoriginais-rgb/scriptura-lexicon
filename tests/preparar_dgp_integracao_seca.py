@@ -59,4 +59,21 @@ for path,content in items.items():
     file.parent.mkdir(parents=True,exist_ok=True)
     file.write_text(content,encoding="utf-8")
 (root/"lexicons/dgp-format.js").write_text(canonical,encoding="utf-8")
+
+# O Netlify injeta bibliographicTerms a partir do catálogo. Conservamos
+# a abreviatura composta que os testes 1–1000 já aprovaram.
+onDemand=show(base,"lexicons/on-demand-search.js")
+needle='        for (const [name, terms] of Object.entries(catalog.sourceTerms || {})) {'
+substitute="""        for (const [name, terms] of Object.entries(catalog.sourceTerms || {})) {
+            const effectiveTerms = name === "DGP" &&
+                !terms.some(item => item.key === "ac. pl. n.")
+                ? [...terms, {key:"ac. pl. n.", type:"abbr", text:"acusativo plural neutro"}]
+                : terms;"""
+onDemand=replace1(onDemand,needle,substitute)
+onDemand=replace1(onDemand,'slot = {source:name, bibliographicTerms:terms};',
+                  'slot = {source:name, bibliographicTerms:effectiveTerms};')
+onDemand=replace1(onDemand,'slot.bibliographicTerms = terms;',
+                  'slot.bibliographicTerms = effectiveTerms;')
+(root/"lexicons/on-demand-search.js").write_text(onDemand,encoding="utf-8")
+
 print("DRYRUN_PATCH_OK",len(origFiles)+1,"files; no branch changed; main untouched",flush=True)
