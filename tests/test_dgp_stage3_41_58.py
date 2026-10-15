@@ -43,10 +43,22 @@ def main():
                     n=rec["ordinal"]
                     lemma=rec["lemma"]
                     require(rec["source_equal"],"XML não confirmado #%d"%n)
-                    page.locator("#search-input").fill(lemma)
+                    page.locator("#search-input").fill(lemma.split(",")[0].strip())
                     row=page.locator(
                         '.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]'%n)
-                    row.wait_for(state="visible",timeout=30000)
+                    try:
+                        row.wait_for(state="visible",timeout=30000)
+                    except Exception:
+                        diagnostic = page.evaluate("""() => ({
+                            query: document.getElementById("search-input").value,
+                            count: document.getElementById("search-count")?.textContent,
+                            rows: [...document.querySelectorAll('.search-row')].length,
+                            displayed: [...document.querySelectorAll('.search-row')].slice(0,5)
+                              .map(x=>({target:x.dataset.target,lemma:x.querySelector('.table-lemma')?.textContent})),
+                            dictionary: document.querySelector('.dictionary-option.active')?.dataset.dictionaryTarget
+                        })""")
+                        print("STAGE3 SEARCH DIAG #%04d %s" % (n, diagnostic),flush=True)
+                        raise
                     require(row.count()==1,"ID da linha não é único #%d"%n)
                     row.focus()
                     page.keyboard.press("Enter")
