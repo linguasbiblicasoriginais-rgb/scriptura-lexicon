@@ -97,5 +97,35 @@
     "Atualizar a contagem funcional somente após relatório de 1000 verbetes concluído no GitHub Actions.",
     "Homologação exige dez controles e integração verificada segundo regras/Rauditoria.txt.",
     "Permissão de escrita desta rotina exclusivamente em chat-gpt-correcoes."
-  ]
+  ],
+  "phase3_final_homologation": {
+    "name": "Homologação definitiva após integração",
+    "lote": [
+      1,
+      1000
+    ],
+    "dictionary_total": 44590,
+    "source_field_bug_fixed": {
+      "field_correct": "lemma_coincide",
+      "affected_records": 1000,
+      "source_ok": 1000
+    },
+    "individual_reviewed": 5,
+    "documentary_ready": 5,
+    "awaiting_integration": 5,
+    "integrated_and_homologated": 0,
+    "still_pending": 995,
+    "approved_ids": [
+      2,
+      5,
+      6,
+      19,
+      33
+    ],
+    "ci": {
+      "stage1": 38673465781,
+      "stage3": 38692090158
+    },
+    "comments": "Integração pendente. 995 permanecem EM_EXECUCAO; 5 aguardam PR merged=true e conferência."
+  }
 }
