@@ -67,6 +67,38 @@ def main():
                 page.goto(address + "/index.html#grego", wait_until="load", timeout=180000)
                 exercise(page, 14, "ἀάω", "Ilíada 9.537", "ἀάσατο", "aásato")
                 exercise(page, 17, "ἀβαρής", "Coríntios 11.9", "ἐν παντὶ", "en pantì")
+                # Confirmações independentes de autor, obra e citação-fonte.
+                for ordinal, lemma, work in [
+                    (60, "ἀβροτάζω", "Ilíada 10.65–66"),
+                    (78, "ἀγάζω", "Suplicantes 1061"),
+                ]:
+                    page.locator("#search-input").fill(lemma)
+                    row = page.locator(
+                        '.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]' % ordinal
+                    )
+                    check(row.count() == 1 and row.is_visible(),
+                          "Pesquisa não recupera citação #%d" % ordinal)
+                    row.focus()
+                    page.keyboard.press("Enter")
+                    article = page.locator("#entry-dgp-%04d" % ordinal)
+                    check(not article.evaluate("(el) => el.hidden"),
+                          "Cartão de citação não abriu #%d" % ordinal)
+                    place = article.locator(".dgp-citation-work")
+                    check(place.count() >= 1 and work in place.first.text_content(),
+                          "Obra/locus não conferido #%d" % ordinal)
+                    greek = article.locator(".dgp-greek-quotation")
+                    check(greek.count() >= 1 and
+                          len(greek.first.get_attribute("data-transliteration") or "") >= 3,
+                          "Grego sem transliteração #%d" % ordinal)
+                    greek.first.focus()
+                    tip = page.locator("#lexical-tooltip")
+                    check(tip.get_attribute("aria-hidden") == "false" and
+                          "transliteração" in (tip.text_content() or "").casefold(),
+                          "Popup de transliteração não exibido #%d" % ordinal)
+                    page.keyboard.press("Escape")
+                    print("PASS: referência autêntica e popup #%d: %s" %
+                          (ordinal, work), flush=True)
+
                 # Pelo menos um tooltip gramatical da fonte deve funcionar.
                 article = page.locator("#entry-dgp-0017")
                 abbr = article.locator('[data-tooltip-type="abbr"]')

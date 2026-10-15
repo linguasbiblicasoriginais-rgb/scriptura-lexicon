@@ -196,7 +196,11 @@
               author: "Homero", work: "Ilíada 9.537" },
         17: { greek: "ἐν παντὶ ἀβαρῆ ἐμαυτὸν ὑμῖν ἐτήρησα καὶ τηρήσω",
               author: "Novo Testamento",
-              work: "Segunda Epístola aos Coríntios 11.9" }
+              work: "Segunda Epístola aos Coríntios 11.9" },
+        60: { greek: "μή πως ἀβροτάξομεν ἀλλήλοιιν ἐρχομένω",
+              author: "Homero", work: "Ilíada 10.65–66" },
+        78: { greek: "τὰ θεῶν μηδὲν ἀγάζειν",
+              author: "Ésquilo", work: "Suplicantes 1061" }
     };
 
     function decorateDgpCitationExamples(root, audit) {

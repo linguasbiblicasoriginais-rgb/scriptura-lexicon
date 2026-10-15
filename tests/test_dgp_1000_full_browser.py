@@ -124,8 +124,10 @@ def main():
                                     const exp=new RegExp("(^|[^\\p{L}\\p{M}])"+e+
                                         "(?![\\p{L}\\p{M}])","u");
                                     if(!exp.test(src.definition_original_xml))continue;
-                                    if(!tags.some(t=>t.dataset.tooltipLabel===term.key||
-                                        norm(t.textContent)===term.key))
+                                    if(!tags.some(t=>{
+                                        const label=t.dataset.tooltipLabel||norm(t.textContent);
+                                        return label===term.key||exp.test(label);
+                                    }))
                                         result.abreviaturas_sem_popup.push(term.key);
                                 }
                                 if(result.abreviaturas_sem_popup.length) findings.push(
