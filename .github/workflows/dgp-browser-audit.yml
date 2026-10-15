@@ -37,8 +37,9 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Citações 14 e 17 com transliteração e popup gramatical
         run: python tests/test_dgp_citation_browser_1000.py
-      - name: Cobertura funcional individual — DGP 1000
-        run: python tests/test_dgp_1000_full_browser.py
+      # A varredura antiga do DOM completo foi substituída pelo workflow
+      # dgp-etapa1-0001-1000-ondemand.yml: o frontend atual é lazy-loaded.
+      # O smoke real de citações acima continua obrigatório neste job.
       - name: Anexar relatório funcional por verbete mesmo se houver falha
         if: always()
         uses: actions/upload-artifact@v4
