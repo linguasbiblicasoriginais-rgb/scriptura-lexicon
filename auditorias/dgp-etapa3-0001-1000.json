@@ -25,10 +25,10 @@
     "sha": "627f582bf84b68a90fa81c35a0b21e79425c5597"
   },
   "totais": {
-    "examinados_nesta_etapa": 20,
+    "examinados_nesta_etapa": 40,
     "documentalmente_aptos_aguardando_integracao": 0,
-    "homologados_definitivos": 20,
-    "restantes_sem_checklist_atuado": 980
+    "homologados_definitivos": 40,
+    "restantes_sem_checklist_atuado": 960
   },
   "verbetes": [
     {
@@ -330,11 +330,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-8"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Privativo ἀ- e ἄγνυμι; inquebrável e sólido são dois equivalentes do DGP."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Privativo ἀ- e ἄγνυμι; inquebrável e sólido são dois equivalentes do DGP. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Privativo ἀ- e ἄγνυμι; inquebrável e sólido são dois equivalentes do DGP."
     },
     {
       "ordinal": 9,
@@ -628,11 +680,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-21"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Adjetivo com privativo ἀ- e βαστάζω; tradução do DGP: intolerável."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Adjetivo com privativo ἀ- e βαστάζω; tradução do DGP: intolerável. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Adjetivo com privativo ἀ- e βαστάζω; tradução do DGP: intolerável."
     },
     {
       "ordinal": 22,
@@ -723,11 +827,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-26"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Gentílico masculino; duas acepções: de Abdera/abderita; tolo em uso depreciativo."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Gentílico masculino; duas acepções: de Abdera/abderita; tolo em uso depreciativo. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Gentílico masculino; duas acepções: de Abdera/abderita; tolo em uso depreciativo."
     },
     {
       "ordinal": 27,
@@ -852,11 +1008,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-30"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Privativo com βέβηλος; duas glosas, inviolável e sagrado."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Privativo com βέβηλος; duas glosas, inviolável e sagrado. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Privativo com βέβηλος; duas glosas, inviolável e sagrado."
     },
     {
       "ordinal": 31,
@@ -943,11 +1151,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-32"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Preservar as três terminações do DGP; glosas tolo, simplório e bobo."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Preservar as três terminações do DGP; glosas tolo, simplório e bobo. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Preservar as três terminações do DGP; glosas tolo, simplório e bobo."
     },
     {
       "ordinal": 33,
@@ -1219,10 +1479,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-41"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 42,
@@ -1328,11 +1588,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-44"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Três acepções: doença/veneno sem socorro; pessoa desamparada; objeto ineficaz."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Três acepções: doença/veneno sem socorro; pessoa desamparada; objeto ineficaz. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Três acepções: doença/veneno sem socorro; pessoa desamparada; objeto ineficaz."
     },
     {
       "ordinal": 45,
@@ -1348,10 +1660,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-45"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 46,
@@ -1367,10 +1679,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-46"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 47,
@@ -1457,11 +1769,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-48"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Quatro acepções e regência dativa da segunda; distinguir usos pessoais e não pessoais."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Quatro acepções e regência dativa da segunda; distinguir usos pessoais e não pessoais. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Quatro acepções e regência dativa da segunda; distinguir usos pessoais e não pessoais."
     },
     {
       "ordinal": 49,
@@ -1549,10 +1913,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-50"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 51,
@@ -1568,10 +1932,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-51"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 52,
@@ -1587,10 +1951,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-52"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 53,
@@ -1606,10 +1970,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-53"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 54,
@@ -1625,10 +1989,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-54"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 55,
@@ -1682,10 +2046,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-57"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 58,
@@ -1701,10 +2065,10 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "merged": true,
+        "reference": "auditorias/dgp-auditoria-individual-0001-1000.json#ordinal-58"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA"
     },
     {
       "ordinal": 59,
@@ -1719,11 +2083,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-59"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Quatro acepções, valor positivo e pejorativo dependente do contexto."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Quatro acepções, valor positivo e pejorativo dependente do contexto. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Quatro acepções, valor positivo e pejorativo dependente do contexto."
     },
     {
       "ordinal": 60,
@@ -1757,11 +2173,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-61"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Substantivo abstrato feminino; três acepções, derivado de ἁβρός."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Substantivo abstrato feminino; três acepções, derivado de ἁβρός. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Substantivo abstrato feminino; três acepções, derivado de ἁβρός."
     },
     {
       "ordinal": 62,
@@ -1814,11 +2282,63 @@
       "etapa_funcional": "APROVADA_RUN_38673465781",
       "pendencia_historica": null,
       "integracao": {
+        "pr": 154,
+        "merged": true,
+        "merge_sha": "492acc76504f256f2e2a841a6b585c56b87f9922",
+        "ci_source": [
+          38751671079,
+          38752007051
+        ],
+        "ci_destination": 38752919905,
+        "CI_conclusion": "success",
         "base": "chat-gpt-commits",
-        "merged": false,
-        "merge_sha": null
+        "confirmed_at": "2026-10-15"
       },
-      "decisao": "EM_EXECUCAO"
+      "decisao": "AUDITORIA_CONCLUIDA",
+      "dez_controles": 10,
+      "revisao": {
+        "01_fonte_proveniencia": {
+          "status": "OK",
+          "evidence": "Registro em XML da letra alfa SHA eec318bb6150b6b2f4422ea4a76383ac0a254de2; cabeçalho e texto original de auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-64"
+        },
+        "02_lematizacao": {
+          "status": "OK",
+          "evidence": "Lema grego, flexão e diacríticos conferidos no cotejo do ordinal; análise específica: Duas acepções: não molhado e privado de chuva ou água; privativo com βρέχω."
+        },
+        "03_transcricao_traducao": {
+          "status": "OK",
+          "evidence": "Texto integral NFC confirmado pelo inventário e revalidado no Chromium run 38751671079; nenhuma síntese substitui a glosa literal do DGP."
+        },
+        "04_filologia_gramatica": {
+          "status": "OK",
+          "evidence": "Duas acepções: não molhado e privado de chuva ou água; privativo com βρέχω. Base documental: parecer histórico A sem pendência, reexaminado individualmente; não foi inventado testemunho externo."
+        },
+        "05_citacoes_testemunhos": {
+          "status": "NAO_SE_APLICA",
+          "reason": "A definição literal original deste artigo não contém abonações com autor, obra, texto antigo ou versículo; referências auxiliares em análises históricas não são abonações da fonte."
+        },
+        "06_separacao_camadas": {
+          "status": "OK",
+          "evidence": "As análises ficam em JSON da auditoria; nenhuma substituição do texto literal DGP."
+        },
+        "07_dados_HTML_pesquisa": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida lema, definição, busca e entrada pelo teclado em frontend build-on-demand."
+        },
+        "08_navegacao_acessibilidade": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 valida foco e Escape nos popups existentes e busca visível na largura 375px."
+        },
+        "09_links_bibliografia": {
+          "status": "OK",
+          "evidence": "CI individual 38751671079 rejeita hyperlinks não verificados; remissões explícitas conferidas onde apresentadas (ver remissions). Sem página impressa inventada."
+        },
+        "10_consistencia_global": {
+          "status": "OK",
+          "evidence": "PR #154 merged=true, SHA 492acc76504f256f2e2a841a6b585c56b87f9922; CI Chromium destino #38752919905 concluído com sucesso"
+        }
+      },
+      "parecer_individual": "Duas acepções: não molhado e privado de chuva ou água; privativo com βρέχω."
     },
     {
       "ordinal": 65,
@@ -20119,5 +20639,6 @@
     "pr": 149,
     "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
     "fix_catalogo_pr": 150
-  }
+  },
+  "current_stage3_individual_dossier": "auditorias/dgp-etapa3-candidatos-08-64.json"
 }
