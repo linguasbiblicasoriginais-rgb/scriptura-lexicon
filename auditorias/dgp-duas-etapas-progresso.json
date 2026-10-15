@@ -86,9 +86,9 @@
     "dictionary_total": 44590,
     "first_batch_documentary_collected": 1000,
     "first_batch_functional_approved": 1000,
-    "first_batch_atomic_approved": 0,
-    "cumulative_atomic_approved": 0,
-    "cumulative_percentage": 0,
+    "first_batch_atomic_approved": 5,
+    "cumulative_atomic_approved": 5,
+    "cumulative_percentage": 0.0112,
     "cumulative_functional_verified": 1000,
     "cumulative_functional_percentage": 2.2427
   },
@@ -96,7 +96,8 @@
     "Cotejo estático e revisões históricas não equivalem a auditoria atômica.",
     "Atualizar a contagem funcional somente após relatório de 1000 verbetes concluído no GitHub Actions.",
     "Homologação exige dez controles e integração verificada segundo regras/Rauditoria.txt.",
-    "Permissão de escrita desta rotina exclusivamente em chat-gpt-correcoes."
+    "Permissão de escrita desta rotina exclusivamente em chat-gpt-correcoes.",
+    "Etapa 3: cinco selos definitivos #2,#5,#6,#19,#33, comprovados por PR #147 merged e Chromium no destino CI #38694280677. Demais 995 seguem pendentes."
   ],
   "phase3_final_homologation": {
     "name": "Homologação definitiva após integração",
@@ -112,8 +113,8 @@
     },
     "individual_reviewed": 5,
     "documentary_ready": 5,
-    "awaiting_integration": 5,
-    "integrated_and_homologated": 0,
+    "awaiting_integration": 0,
+    "integrated_and_homologated": 5,
     "still_pending": 995,
     "approved_ids": [
       2,
@@ -126,6 +127,13 @@
       "stage1": 38673465781,
       "stage3": 38692090158
     },
-    "comments": "Integração pendente. 995 permanecem EM_EXECUCAO; 5 aguardam PR merged=true e conferência."
+    "comments": "Integração pendente. 995 permanecem EM_EXECUCAO; 5 aguardam PR merged=true e conferência.",
+    "integration": {
+      "pr": 147,
+      "merged": true,
+      "merge_sha": "bd56d7daf4e4e62d090475386b4ab3aedae68533",
+      "ci_run": 38694280677,
+      "branch_head_verified": "807d7e6a998409a2056ab9e6d2d04a04ad1ccf95"
+    }
   }
 }
