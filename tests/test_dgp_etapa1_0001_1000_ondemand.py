@@ -153,7 +153,10 @@ def main():
             assert page.evaluate("window.ScripturaGetActiveDictionary()") == "grego"
             # A busca por lemas gregos curtos deve ser avaliada no filtro DGP,
             # evitando truncamento por resultados dos demais lexicos.
-            page.locator("#source-filter").select_option("DGP")
+            # O <select> nativo fica oculto; usar o combobox visível,
+            # reproduzindo a seleção efetiva de um usuário.
+            page.locator("#source-filter-button").click()
+            page.locator('.source-filter-option[data-source="DGP"]').click()
             assert page.locator("#source-filter").input_value() == "DGP"
             try:
                 for rec in entries:
