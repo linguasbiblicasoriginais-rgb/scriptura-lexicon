@@ -26,8 +26,8 @@
   },
   "totais": {
     "examinados_nesta_etapa": 20,
-    "documentalmente_aptos_aguardando_integracao": 15,
-    "homologados_definitivos": 5,
+    "documentalmente_aptos_aguardando_integracao": 0,
+    "homologados_definitivos": 20,
     "restantes_sem_checklist_atuado": 980
   },
   "verbetes": [
@@ -762,11 +762,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -805,13 +811,14 @@
           "evidencia": "Ἄβδηρα (#25), texto de referência lexical, sem URL; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Glosa única 'de Abdera', topônimo Ἄβδηρα; derivação entre 〈〉 preservada. Advérbio toponímico em -θεν; proveniência 'de Abdera'. Não confundir com o locativo.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 29,
@@ -865,11 +872,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -908,13 +921,14 @@
           "evidencia": "ἀβέλτερος (#32), elo derivacional da fonte, não link; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Todos os três equivalentes: tolice, imbecilidade, ignorância, sem colapsá-los em um sentido inventado. Substantivo feminino ἀβελτερία, genitivo -ας; relacionado a ἀβέλτερος.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 32,
@@ -1133,11 +1147,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -1176,13 +1196,14 @@
           "evidencia": "Lexicalmente relacionado ao adjetivo #39; não cria link; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Única glosa da entrada, 'sem prejudicar'; sentidos LSJ externos permanecem na análise. Advérbio ἀβλαβῶς de sentido ativo; não inserir 'com segurança' do LSJ na fonte.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 41,
@@ -1217,11 +1238,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -1260,13 +1287,14 @@
           "evidencia": "Raiz βάλλω indicada como etimologia não hiperligada; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Único sentido 'não atingido'; não converter em 'não lançado' de #41. Adjetivo privativo, terminações ος, ον, construído com βάλλω.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 43,
@@ -1358,11 +1386,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -1401,13 +1435,14 @@
           "evidencia": "ἄβουλος (#48), referência derivacional da fonte; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Acepção 1: irreflexão/insensatez. Acepção 2: indecisão. Não fundir sem contexto. Substantivo feminino ἀβουλία, genitivo -ας, formado a partir de ἄβουλος.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 48,
@@ -1442,11 +1477,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -1485,13 +1526,14 @@
           "evidencia": "Sem remissões HTML nem bibliografia de locus; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Única glosa 'irrefletidamente', sem mais acepções acrescentadas. Advérbio ἀβούλως em -ως, distinto do adjetivo ἄβουλος.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 50,
@@ -1811,11 +1853,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -1854,13 +1902,14 @@
           "evidencia": "Família de ἁβρός (#59), contextualização apenas na análise; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Três equivalentes: delicadamente, indolentemente, langorosamente, mantidos integralmente. Advérbio ἁβρῶς em -ῶς; depende do contexto para nuances valorativas.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 67,
@@ -1895,11 +1944,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -1938,13 +1993,14 @@
           "evidencia": "Ἄβυδος (#70); há homônimos geográficos, sem inventar qual; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "'De Abido' e não 'em Abido'; não colapsar as duas entradas. Advérbio toponímico em -θεν (origem/proveniência), diferenciado do #69.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 69,
@@ -1960,11 +2016,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -2003,13 +2065,14 @@
           "evidencia": "Ἄβυδος (#70), sem atribuir automaticamente Trôade ou Egito; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "'Em Abido' e não 'de Abido'; localidade distinta do movimento de origem. Advérbio toponímico em -θι (localização), diferenciado do #68.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 70,
@@ -2063,11 +2126,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -2106,13 +2175,14 @@
           "evidencia": "ἄγη como destino textual; existência de hyperlink não alegada; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Remissão dialetal da fonte preservada sem transformar em glosa livre. Forma dórica ἄγα, acento inicial, remetida a ἄγη; distinta da #73.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 73,
@@ -2128,11 +2198,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -2171,13 +2247,14 @@
           "evidencia": "ἀγή como destino textual; existência de hyperlink não alegada; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Remissão dialetal da fonte preservada sem confundir espíritos e acentos. Forma dórica ἀγά, acento final, remetida a ἀγή; distinta da #72.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 74,
@@ -2497,11 +2574,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -2540,13 +2623,14 @@
           "evidencia": "Família de ἀγαθός (#86), sem link; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Glosa única 'bem'; relação morfológica não insere outros significados. Advérbio ἀγαθῶς em -ῶς, não subst. neutro τὸ ἀγαθόν.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 91,
@@ -2752,11 +2836,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -2795,13 +2885,14 @@
           "evidencia": "ἄγαλμα (#100) explicitamente na etimologia, sem URL; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Ambas as traduções 'estampa pequena' e 'estatueta' mantidas; não afirmar função religiosa obrigatória. Substantivo neutro ἀγαλμάτιον, genitivo -ου, diminutivo de ἄγαλμα.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 102,
@@ -2931,11 +3022,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -2974,13 +3071,14 @@
           "evidencia": "ἄγαμος no étimo, sem remissão clicável; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Glosa única 'celibato'; sem acrescentar regime jurídico ou passagem clássica. Substantivo feminino ἀγαμία, genitivo -ας, derivado de ἄγαμος.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 109,
@@ -3186,11 +3284,17 @@
       "pendencia_historica": null,
       "integracao": {
         "base": "chat-gpt-commits",
-        "pr": null,
-        "merged": false,
-        "merge_sha": null
+        "pr": 149,
+        "merged": true,
+        "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+        "dependency_pr": 150,
+        "dependency_merge_sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "head_verificado": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+        "teste_integrado_run": 38738831776,
+        "teste_integrado_status": "success",
+        "origem_preservada": "7d208cbb034989a1558438437492a6aadbf1a584"
       },
-      "decisao": "AGUARDANDO_INTEGRACAO",
+      "decisao": "AUDITORIA_CONCLUIDA",
       "revisao": {
         "fonte_e_proveniencia": {
           "status": "OK",
@@ -3229,13 +3333,14 @@
           "evidencia": "Família de ἀγανός (#116), na análise apenas; teste DOM exige zero <a> no artigo; não inventar página impressa ou link"
         },
         "consistencia_global": {
-          "status": "AGUARDANDO_INTEGRACAO",
-          "evidencia": "PR para chat-gpt-commits pendente; após merge validar merged=true, SHA e regressão no destino"
+          "status": "OK",
+          "evidencia": "PR #149 state=closed, merged=true; SHA 4fb982238c55b37cfe68b1dfc9def65791951a71; correção de infraestrutura CI PR #150 merged=true; SHA bc5bbc185cfd73b115cda681c11b852e3bced999; HEAD consolidado bc5bbc185cfd73b115cda681c11b852e3bced999; Chromium integrado Actions run #38738831776, completed/success."
         }
       },
       "parecer_individual": "Três equivalentes 'sem violência; serenamente; gentilmente' preservados. Advérbio ἀγανῶς em -ῶς, não confundir com adjetivo ἀγανός.",
-      "prontas_nove_verificacoes": 9,
-      "dez_controles": 10
+      "prontas_nove_verificacoes": 10,
+      "dez_controles": 10,
+      "resultado": "SEM_CORRECOES_LEXICAIS_NECESSARIAS"
     },
     {
       "ordinal": 120,
@@ -20006,5 +20111,13 @@
       108,
       119
     ]
+  },
+  "ci_integrado_15": {
+    "run": 38738831776,
+    "sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
+    "resultado": "success",
+    "pr": 149,
+    "merge_sha": "4fb982238c55b37cfe68b1dfc9def65791951a71",
+    "fix_catalogo_pr": 150
   }
 }
