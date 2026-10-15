@@ -259,7 +259,7 @@ def main():
                 break
             if hw in seen_hws:
                 raise RuntimeError(f"Ciclo de ponteiros next_hw na fonte: {hw!r}")
-            payload = api_get("/words/" + quote(str(hw), safe="") + "?never_split=1")
+            payload = api_get("/words/" + quote(str(hw), safe=""))
             if not isinstance(payload, list):
                 raise RuntimeError(f"Resposta não é lista para {hw!r}")
             selected = [e for e in payload if e.get("parent_lexicon") == LEXICON_NAME]
@@ -281,7 +281,14 @@ def main():
                     )
                 state["pending_entries"] = selected
             else:
-                pointer = next((e.get("next_hw") for e in payload if e.get("next_hw")), None)
+                if len(state["seen_headwords"]) < 20:
+                    print("FONTE/SEM BDB", repr(hw),
+                          [(e.get("parent_lexicon"), e.get("headword"),
+                            e.get("rid"), e.get("next_hw"))
+                           for e in payload[:15]], flush=True)
+                pointer = next((e.get("next_hw") for e in payload
+                                if e.get("next_hw") and e.get("next_hw") != hw
+                                and e.get("next_hw") not in seen_hws), None)
                 if not pointer:
                     raise RuntimeError(
                         f"Sem entrada hebraica ou continuidade para {hw!r}; "

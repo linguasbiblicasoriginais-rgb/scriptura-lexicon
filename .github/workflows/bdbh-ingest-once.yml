@@ -36,3 +36,5 @@ jobs:
         run: python tools/bdbh_ingest.py
 
 # Retentativa 2: diagnóstico do encadeamento canônico next_hw.
+
+# Retentativa 3: seguir API canônica sem never_split, com diagnóstico de fonte.
