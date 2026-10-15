@@ -40,3 +40,5 @@ jobs:
 # Retentativa 3: seguir API canônica sem never_split, com diagnóstico de fonte.
 
 # Diagnóstico da origem ordinal — índice BDB e API de texto da Sefaria.
+
+# Recuperação: carregar o texto integral pelo endpoint /api/texts/BDB.
