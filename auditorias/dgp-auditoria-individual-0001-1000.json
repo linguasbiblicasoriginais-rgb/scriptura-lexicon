@@ -31,10 +31,10 @@
     "integrados": 0,
     "stage3": {
       "corrigido_importacao_lema": 1000,
-      "reexaminados_integralmente_nesta_rodada": 20,
+      "reexaminados_integralmente_nesta_rodada": 30,
       "aprovados_documentalmente_aguardando_integracao": 0,
-      "homologados_definitivos": 20,
-      "restantes_em_execucao": 980,
+      "homologados_definitivos": 30,
+      "restantes_em_execucao": 970,
       "fonte": "auditorias/dgp-etapa3-0001-1000.json",
       "ci_candidatos": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38692090158",
       "integracao": {
@@ -44,7 +44,10 @@
       },
       "ci_candidatos_15": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38737093723",
       "ci_integrado_15": 38738831776,
-      "pr_homologacao": 149
+      "pr_homologacao": 149,
+      "ci_individual_10": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38744134668",
+      "ci_integrado_10": 38744423888,
+      "pr_integracao_10": 152
     }
   },
   "verbetes": [
@@ -2117,27 +2120,30 @@
       "ordinal": 41,
       "id": "entry-dgp-0041",
       "lemma": "ἀβλής, ῆτος",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-41",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2160,7 +2166,14 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-41"
     },
     {
       "ordinal": 42,
@@ -2329,27 +2342,30 @@
       "ordinal": 45,
       "id": "entry-dgp-0045",
       "lemma": "ἀβόσχητος, ος, ον",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-45",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2372,33 +2388,43 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-45"
     },
     {
       "ordinal": 46,
       "id": "entry-dgp-0046",
       "lemma": "ἀβουκόλητος, ος, ον",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-46",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2421,7 +2447,14 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-46"
     },
     {
       "ordinal": 47,
@@ -2606,27 +2639,30 @@
       "ordinal": 50,
       "id": "entry-dgp-0050",
       "lemma": "ἄβρεκτος, ος, ον",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-50",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2649,33 +2685,43 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-50"
     },
     {
       "ordinal": 51,
       "id": "entry-dgp-0051",
       "lemma": "ἁβροβάτης, ου",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-51",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2698,33 +2744,43 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-51"
     },
     {
       "ordinal": 52,
       "id": "entry-dgp-0052",
       "lemma": "ἁβρόβιος, ος, ον",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-52",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2747,33 +2803,43 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-52"
     },
     {
       "ordinal": 53,
       "id": "entry-dgp-0053",
       "lemma": "ἁβρόγοος, ος, ον",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-53",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2796,33 +2862,43 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-53"
     },
     {
       "ordinal": 54,
       "id": "entry-dgp-0054",
       "lemma": "ἁβροδίαιτα, ης (ἡ)",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-54",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2845,7 +2921,14 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-54"
     },
     {
       "ordinal": 55,
@@ -2949,27 +3032,30 @@
       "ordinal": 57,
       "id": "entry-dgp-0057",
       "lemma": "ἁβροπενθής, ής, ές",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-57",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -2992,33 +3078,43 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-57"
     },
     {
       "ordinal": 58,
       "id": "entry-dgp-0058",
       "lemma": "ἁβρόπλουτος, ος, ον",
-      "estado": "EM_EXECUCAO",
+      "estado": "AUDITORIA_CONCLUIDA",
       "funcional": "APROVADA_CHROMIUM",
-      "homologacao": "PENDENTE",
+      "homologacao": "AUDITORIA_CONCLUIDA",
       "checks": {
-        "fonte": "OK_ESTATICA_XML_FIXADO",
-        "lema": "OK_ESTATICA_XML_COMPROVADA",
-        "transcricao": "OK_ESTATICA_NFC",
-        "filologia": "PENDENTE_REVISAO_INDIVIDUAL",
-        "citacoes": "PENDENTE_COTEJO_DOS_TESTEMUNHOS",
-        "camadas": "PENDENTE_AVALIACAO_INDIVIDUAL",
-        "dados_html": "APROVADO_CI_38673465781",
-        "navegador": "APROVADO_CI_38673465781",
-        "links": "PENDENTE_VERIFICACAO",
-        "consistencia_global": "PENDENTE_INTEGRACAO"
+        "fonte": "OK_XML_SHA",
+        "lema": "OK_XML_NFC",
+        "transcricao": "OK_COMPLETA",
+        "filologia": "OK_REVISAO_DOCUMENTAL_E_DESTA_ENTRADA",
+        "citacoes": "NAO_SE_APLICA_AUSENCIA_NO_DGP",
+        "camadas": "OK_DISTINCAO",
+        "dados_html": "OK_RUN_38744134668",
+        "navegador": "OK_RUN_38744423888",
+        "links": "OK_REMISSAO_ON_DEMAND",
+        "consistencia_global": "OK_PR152_MERGED_CI_DESTINO"
       },
       "evidencia_primaria": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json#ordinal-58",
       "repo": {
         "branch": "chat-gpt-correcoes",
-        "merged": false
+        "merged": true,
+        "pr": 152,
+        "sha_merge": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "head_consolidado_verificado": "684d8f5a713df7301deb8b65cdaf5057adaff200"
       },
-      "auditoria_concluida": false,
+      "auditoria_concluida": true,
       "evidencia_funcional": {
         "run_id": 38673465781,
         "tested_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
@@ -3041,7 +3137,14 @@
         "pendencia_historica": null,
         "escopo": "HISTORICO_DOCUMENTAL_NAO_CERTIFICA_ATOMICAMENTE"
       },
-      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente)."
+      "evidencia_correcao_schema": "XML verificado via campo lemma_coincide (corrige importação anterior de lema_coincide ausente).",
+      "decisao_editorial": "SEM_CORRECOES_LEXICAIS_NECESSARIAS",
+      "regressao_final": {
+        "run_id": 38744423888,
+        "commit_testado": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+        "status": "success"
+      },
+      "evidencia_stage3": "auditorias/dgp-etapa3-candidatos-41-58.json#ordinal-58"
     },
     {
       "ordinal": 59,

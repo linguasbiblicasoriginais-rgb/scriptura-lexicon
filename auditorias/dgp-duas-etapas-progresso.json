@@ -86,9 +86,9 @@
     "dictionary_total": 44590,
     "first_batch_documentary_collected": 1000,
     "first_batch_functional_approved": 1000,
-    "first_batch_atomic_approved": 20,
-    "cumulative_atomic_approved": 20,
-    "cumulative_percentage": 0.0449,
+    "first_batch_atomic_approved": 30,
+    "cumulative_atomic_approved": 30,
+    "cumulative_percentage": 0.0673,
     "cumulative_functional_verified": 1000,
     "cumulative_functional_percentage": 2.2427
   },
@@ -112,11 +112,11 @@
       "affected_records": 1000,
       "source_ok": 1000
     },
-    "individual_reviewed": 20,
-    "documentary_ready": 20,
+    "individual_reviewed": 30,
+    "documentary_ready": 30,
     "awaiting_integration": 0,
-    "integrated_and_homologated": 20,
-    "still_pending": 980,
+    "integrated_and_homologated": 30,
+    "still_pending": 970,
     "approved_ids": [
       2,
       5,
@@ -137,13 +137,23 @@
       90,
       101,
       108,
-      119
+      119,
+      41,
+      45,
+      46,
+      50,
+      51,
+      52,
+      53,
+      54,
+      57,
+      58
     ],
     "ci": {
       "stage1": 38673465781,
       "stage3": 38692090158
     },
-    "comments": "Integração pendente. 995 permanecem EM_EXECUCAO; 5 aguardam PR merged=true e conferência.",
+    "comments": "30 artigos homologados; 970 aguardam auditoria individual. Contadores separados de cobertura funcional de 1.000.",
     "integration": {
       "pr": 147,
       "merged": true,
@@ -161,6 +171,26 @@
       "dependency_merged": true,
       "sha": "bc5bbc185cfd73b115cda681c11b852e3bced999",
       "CI_run": 38738831776
+    },
+    "latest_ten": {
+      "ids": [
+        41,
+        45,
+        46,
+        50,
+        51,
+        52,
+        53,
+        54,
+        57,
+        58
+      ],
+      "pr": 152,
+      "merged": true,
+      "merge_sha": "684d8f5a713df7301deb8b65cdaf5057adaff200",
+      "ci_source": 38744134668,
+      "ci_destination": 38744423888,
+      "status": "AUDITORIA_CONCLUIDA"
     }
   }
 }
