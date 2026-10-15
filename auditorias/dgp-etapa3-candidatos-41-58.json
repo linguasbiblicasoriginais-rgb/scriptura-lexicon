@@ -212,17 +212,12 @@
       "definition_original_xml": " vida efeminada. 〈ἁβρός, δίαιτα〉 ",
       "definition_published_normalized": "vida efeminada. 〈ἁβρός, δίαιτα〉",
       "analysis": "Nome feminino relativo a δίαιτα; 'vida efeminada' no DGP. Relacioná-lo com o adjetivo #55 sem fundir classes gramaticais.",
-      "interpretation": "Substantivo feminino ἁβροδίαιτα; não confundir com adjetivo ἁβροδίαιτος do ordinal 55.",
+      "interpretation": "Substantivo feminino ἁβροδίαιτα; o parentesco lexical com ἁβροδίαιτος (#55) consta apenas da análise editorial, NÃO como remissão explícita no XML.",
       "source": "XML original DGP 01_Alfa.txt.xml blob eec318bb6150b6b2f4422ea4a76383ac0a254de2",
       "historical_verdict": "A",
       "source_equal": true,
       "citations_in_source": false,
-      "cross_references": [
-        {
-          "target": 55,
-          "lemma": "ἁβροδίαιτος"
-        }
-      ],
+      "cross_references": [],
       "checks": {
         "source": "OK_XML",
         "lemma": "OK_XML",
@@ -236,7 +231,8 @@
         "global_consistency": "AGUARDANDO_INTEGRACAO"
       },
       "state": "AGUARDANDO_CI",
-      "audit_complete": false
+      "audit_complete": false,
+      "editorial_observation": "Não testar o artigo #55 como alvo de hyperlink originado do #54: o original traz etimologia 〈ἁβρός, δίαιτα〉, sem seta/remissão para #55."
     },
     {
       "ordinal": 57,
