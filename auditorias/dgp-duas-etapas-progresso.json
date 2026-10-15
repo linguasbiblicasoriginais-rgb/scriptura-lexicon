@@ -28,12 +28,38 @@
     "presentation_differences": 15,
     "previous_smoke_browser_approved": 2,
     "current_browser_batch": {
-      "workflow_run": 38672378650,
+      "workflow_run": 38673465781,
       "from": 1,
       "to": 1000,
-      "status": "IN_PROGRESS",
-      "tested_entries_confirmed": 0,
-      "individual_result_file": "auditorias/dgp-1000-funcional-chromium-resultados.json"
+      "status": "COMPLETED_SUCCESS",
+      "tested_entries_confirmed": 1000,
+      "passed_entries": 1000,
+      "failed_entries": 0,
+      "run_sha": "8d872ecfa01d5fe119e1bd03ce099a3419da0812",
+      "artifact_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38673465781/artifacts/11944539863",
+      "validated_dimensions": [
+        "lema",
+        "definicao",
+        "data-search",
+        "busca real",
+        "enter",
+        "popups por foco",
+        "grego transliterado",
+        "temas e mobile"
+      ]
+    },
+    "interface": {
+      "rows_cards": 1000,
+      "lemmata": 1000,
+      "definitions": 1000,
+      "search_queries": 1000,
+      "openings_enter": 1000,
+      "popups_found": 1436,
+      "popups_tested_ok": 1436,
+      "popups_failed": 0,
+      "ancient_greek_examples": 124,
+      "greek_transliterations": 124,
+      "js_errors": 0
     }
   },
   "phase2_atomic_homologation": {
@@ -46,19 +72,25 @@
     },
     "current_individual_fiches": {
       "created": 1000,
-      "not_homologated": 1000
+      "functional_passed": 1000,
+      "not_homologated": 1000,
+      "remaining_ancient_work_loci": 120,
+      "historical_pending": 82,
+      "unresolved_dgp_plato_variant": 1
     },
-    "ancient_loci_author_confirmed": 2,
+    "ancient_loci_author_confirmed": 4,
     "individual_required_checks": 10,
     "integrated_approved": 0
   },
   "global_ledger": {
     "dictionary_total": 44590,
     "first_batch_documentary_collected": 1000,
-    "first_batch_functional_approved": 2,
+    "first_batch_functional_approved": 1000,
     "first_batch_atomic_approved": 0,
     "cumulative_atomic_approved": 0,
-    "cumulative_percentage": 0
+    "cumulative_percentage": 0,
+    "cumulative_functional_verified": 1000,
+    "cumulative_functional_percentage": 2.2427
   },
   "notes": [
     "Cotejo estático e revisões históricas não equivalem a auditoria atômica.",
