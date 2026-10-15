@@ -43,7 +43,16 @@ def wait_row(page, row, lemma):
             return query
         except Exception:
             pass
-    raise AssertionError("Pesquisa pelo lema e pelo nucleo nao retornou a linha")
+    diagnostics = page.evaluate("""() => ({
+        consulta: document.getElementById("search-input")?.value,
+        fonte: document.getElementById("source-filter")?.value,
+        contador: document.getElementById("search-count")?.textContent,
+        total_linhas: document.querySelectorAll(".search-row").length,
+        amostra_ids: [...document.querySelectorAll(".search-row")].slice(0,8)
+          .map(x => x.dataset.target)
+    })""")
+    raise AssertionError("Pesquisa pelo lema e pelo nucleo nao retornou a linha: " +
+                         json.dumps(diagnostics, ensure_ascii=False))
 
 
 def check_open(page, row, card, mode):
@@ -142,6 +151,10 @@ def main():
             page.wait_for_function(
                 "() => window.ScripturaLexiconSearch?.isReady === true", timeout=120000)
             assert page.evaluate("window.ScripturaGetActiveDictionary()") == "grego"
+            # A busca por lemas gregos curtos deve ser avaliada no filtro DGP,
+            # evitando truncamento por resultados dos demais lexicos.
+            page.locator("#source-filter").select_option("DGP")
+            assert page.locator("#source-filter").input_value() == "DGP"
             try:
                 for rec in entries:
                     n = rec["ordinal"]
