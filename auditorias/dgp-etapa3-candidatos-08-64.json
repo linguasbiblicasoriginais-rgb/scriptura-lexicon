@@ -1,0 +1,119 @@
+{
+  "title": "DGP etapa 3 — candidatos 8–64",
+  "source": {
+    "repository": "aniseferreira/Grc-Por-DigDict",
+    "file": "arquivos_xml/01_Alfa.txt.xml",
+    "blob_sha": "eec318bb6150b6b2f4422ea4a76383ac0a254de2"
+  },
+  "original_cotejo": "auditorias/dgp-2026-10-14-cotejo-0001-1000.json",
+  "historical_reviews": "auditorias/dgp-2026-10-15-consolidacao-historica-0001-1000.json",
+  "scope": [
+    1,
+    1000
+  ],
+  "dictionary_total": 44590,
+  "previous_homologated": 30,
+  "note": "Dez pareceres editoriais específicos; nenhum selo antecipado sem CI no destino e merge.",
+  "entries": [
+    {
+      "ordinal": 8,
+      "lemma": "ἀαγής, ής, ές",
+      "analysis": "Privativo ἀ- e ἄγνυμι; inquebrável e sólido são dois equivalentes do DGP.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 21,
+      "lemma": "ἀβάστακτος, ος, ον",
+      "analysis": "Adjetivo com privativo ἀ- e βαστάζω; tradução do DGP: intolerável.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 26,
+      "lemma": "Ἀβδηρίτης, ου",
+      "analysis": "Gentílico masculino; duas acepções: de Abdera/abderita; tolo em uso depreciativo.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [
+        {
+          "target": 25,
+          "lemma": "Ἄβδηρα"
+        }
+      ],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 30,
+      "lemma": "ἀβέβηλος, ος, ον",
+      "analysis": "Privativo com βέβηλος; duas glosas, inviolável e sagrado.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 32,
+      "lemma": "ἀβέλτερος, α, ον",
+      "analysis": "Preservar as três terminações do DGP; glosas tolo, simplório e bobo.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 44,
+      "lemma": "ἀβοήθητος, ος, ον",
+      "analysis": "Três acepções: doença/veneno sem socorro; pessoa desamparada; objeto ineficaz.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 48,
+      "lemma": "ἄβουλος, ος, ον",
+      "analysis": "Quatro acepções e regência dativa da segunda; distinguir usos pessoais e não pessoais.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 59,
+      "lemma": "ἁβρός, ά, όν",
+      "analysis": "Quatro acepções, valor positivo e pejorativo dependente do contexto.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 61,
+      "lemma": "ἁβρότης, ητος (ἡ)",
+      "analysis": "Substantivo abstrato feminino; três acepções, derivado de ἁβρός.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [
+        {
+          "target": 59,
+          "lemma": "ἁβρός"
+        }
+      ],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    },
+    {
+      "ordinal": 64,
+      "lemma": "ἄβροχος, ος, ον",
+      "analysis": "Duas acepções: não molhado e privado de chuva ou água; privativo com βρέχω.",
+      "source_quote_policy": "Sem citações de autor/obra na definição DGP; LSJ histórico constitui contraste externo, não abonação literal.",
+      "remissions": [],
+      "state": "CANDIDATO_EM_TESTE",
+      "audit_complete": false
+    }
+  ]
+}
