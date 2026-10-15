@@ -4,6 +4,7 @@ import functools
 import http.server
 import pathlib
 import threading
+import unicodedata
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -34,14 +35,17 @@ def exercise(page, ordinal, query, location, original, roman):
     check(location in work.first.inner_text(), "Localizacao incorreta: %d" % ordinal)
     cite = article.locator(".dgp-greek-quotation")
     check(cite.count() >= 1, "Citação grega sem popup: %d" % ordinal)
-    check(original in cite.first.inner_text(), "Grego divergente: %d" % ordinal)
+    actual_greek = cite.first.inner_text()
+    print("CITACAO #%d: %r" % (ordinal, actual_greek), flush=True)
+    check(unicodedata.normalize("NFC", original) in unicodedata.normalize("NFC", actual_greek),
+          "Grego divergente #%d: fonte=%r, DOM=%r" % (ordinal, original, actual_greek))
     check(cite.first.get_attribute("data-tooltip-type") == "greek", "Tipo grego incorreto")
     cite.first.focus()
     tip = page.locator("#lexical-tooltip")
     check(tip.get_attribute("aria-hidden") == "false", "Popup grego nao abriu: %d" % ordinal)
     check("Transliteração" in tip.inner_text(), "Popup sem campo de transliteracao")
-    check(roman in tip.inner_text(), "Transliteração incorreta: %d (%r)" %
-          (ordinal, tip.inner_text()))
+    check(unicodedata.normalize("NFC", roman) in unicodedata.normalize("NFC", tip.inner_text()),
+          "Transliteração incorreta: %d (%r)" % (ordinal, tip.inner_text()))
     page.keyboard.press("Escape")
     check(tip.get_attribute("aria-hidden") == "true", "Escape nao fechou popup: %d" % ordinal)
     print("PASS: exemplo, obra, grego, transliteração e teclado #%d" % ordinal, flush=True)
