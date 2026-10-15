@@ -32,6 +32,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Apurar inventário Sefaria BDB Hebraico
+        run: python tools/bdbh_source_count.py
       - name: Incorporação fiel da Sefaria em lotes de 100
         run: python tools/bdbh_ingest.py
 
