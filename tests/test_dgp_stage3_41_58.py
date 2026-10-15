@@ -79,9 +79,20 @@ def main():
                     for link in rec["cross_references"]:
                         require(norm(link["lemma"]) in norm(body.text_content()),
                             "Remissão lexical ausente #%d → #%d"%(n,link["target"]))
-                        target_id="#entry-dgp-%04d"%link["target"]
-                        require(page.locator(target_id).count()==1,
-                            "Destino da remissão não existe #%d → #%d"%(n,link["target"]))
+                        # O destino é carregado sob demanda: buscar e abrir
+                        # pela interface em vez de exigir cartão já no DOM.
+                        page.locator("#search-input").fill(link["lemma"])
+                        target_row=page.locator(
+                            '.search-row[data-source="DGP"][data-target="entry-dgp-%04d"]'
+                            %link["target"])
+                        target_row.wait_for(state="visible",timeout=30000)
+                        target_row.focus()
+                        page.keyboard.press("Enter")
+                        destination=page.locator("#entry-dgp-%04d"%link["target"])
+                        destination.wait_for(state="visible",timeout=20000)
+                        require(norm(link["lemma"]) in norm(
+                            destination.locator("h1.entry-title").text_content()),
+                            "Remissão abre destino diferente #%d → #%d"%(n,link["target"]))
                     popup_count=0
                     for trigger in body.locator(".tooltip-trigger").all():
                         trigger.focus()
