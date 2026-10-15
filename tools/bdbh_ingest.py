@@ -52,9 +52,20 @@ def first_headword():
     for node in index.get("schema", {}).get("nodes", []):
         if node.get("nodeType") == "DictionaryNode":
             hmap = node.get("headwordMap") or []
-            if hmap:
-                first = hmap[0][1]
-                return first.split(", ", 1)[1] if ", " in first else first
+            print("INDICE BDB", {
+                "lexiconName": node.get("lexiconName"),
+                "firstWord": node.get("firstWord"),
+                "lastWord": node.get("lastWord"),
+                "headwordMap_first": hmap[:3],
+            }, flush=True)
+            for term in ("א", "אָב", "אבב"):
+                try:
+                    ref = "BDB, " + term
+                    d = api_get("/texts/" + quote(ref, safe="") + "?context=0")
+                    print("API TEXTOS", term, str(d)[:1500], flush=True)
+                except Exception as exc:
+                    print("API TEXTOS ERRO", term, str(exc)[:300], flush=True)
+            return node.get("firstWord") or (hmap[0][0] if hmap else None)
     raise RuntimeError("Índice BDB da Sefaria não contém headwordMap utilizável.")
 
 
