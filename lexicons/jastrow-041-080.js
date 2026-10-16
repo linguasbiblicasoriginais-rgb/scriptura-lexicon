@@ -125,10 +125,10 @@ const entries=[
   },
   {
     "sid": "A00057",
-    "lemma": "אַבּוּבְרָאֶה,",
+    "lemma": "אַבּוּבְרָאֶה, אַבּוּבְרוֹאֶה = אַבּוּב רוֹעֶה",
     "type": "Remissão botânica",
-    "gloss": "flauta de pastor; ver אַבּוּב",
-    "html": "Variantes <bdi lang='he' dir='rtl'>אַבּוּבְרָאֶה, אַבּוּבְרוֹאֶה</bdi>, equivalentes a <bdi lang='he' dir='rtl'>אַבּוּב רוֹעֶה</bdi>, “flauta de pastor”; ver a denominação botânica no verbete precedente."
+    "gloss": "flauta de pastor (fitônimo); ver A00055",
+    "html": "Variantes <bdi lang='he' dir='rtl'>אַבּוּבְרָאֶה, אַבּוּבְרוֹאֶה</bdi>, equivalentes a <bdi lang='he' dir='rtl'>אַבּוּב רוֹעֶה</bdi>, “flauta de pastor”; ver o verbete hebraico <bdi lang='he' dir='rtl'>אִיבּוּב אַבּוּב</bdi> (A00055), que registra o fitônimo medicinal identificado por Jastrow como <i>Eupatorium</i> (Shabbat 14.3; 109b; Jerusalém Shabbat 14,14c)."
   },
   {
     "sid": "A00058",
