@@ -1,0 +1,178 @@
+{
+  "edition": "Brown, Driver and Briggs, A Hebrew and English Lexicon of the Old Testament (Oxford, 1906)",
+  "license": "Public Domain",
+  "license_evidence_url": "https://www.sefaria.org/BDB_Aramaic?tab=contents",
+  "source": "Sefaria — BDB Aramaic Dictionary (Aramaic ONLY)",
+  "excluded_source": "BDB Dictionary",
+  "source_url": "https://www.sefaria.org/BDB_Aramaic?tab=contents",
+  "method": "DictionaryNode.headwordMap + traversal of /api/texts/ next to exact next alphabet boundary, no Aramaic included",
+  "counted_at_utc": "2026-10-16T03:35:04.957470+00:00",
+  "first_ref": "BDB Aramaic, אָב",
+  "last_ref": "BDB Aramaic, תַּתְּנַי",
+  "total_entries": 863,
+  "unique_references": 863,
+  "ref_sha256_sorted": "b192243b02fd9b3d00a25e475b0f9571d29813fe79ba6a17d77c2f4d62db894c",
+  "alphabetic_sections": [
+    {
+      "letter": "א",
+      "first_ref": "BDB Aramaic, אָב",
+      "last_ref": "BDB Aramaic, אַתַּ֫רוּ",
+      "count": 113,
+      "refs_sha256": "edcda9badd9f853108434288b62fae17d37849992c4bed5ccb7657e3fca27ee6"
+    },
+    {
+      "letter": "ב",
+      "first_ref": "BDB Aramaic, בְּ",
+      "last_ref": "BDB Aramaic, בָּתַר",
+      "count": 42,
+      "refs_sha256": "1693a5145add38a14754c9fd1741871d211d2e899624d78c1176f73596c2cfe9"
+    },
+    {
+      "letter": "ג",
+      "first_ref": "BDB Aramaic, גאה",
+      "last_ref": "BDB Aramaic, גְּשֵׁם",
+      "count": 30,
+      "refs_sha256": "987d619ffc1af8ef5f446416d39c9af70e5bb285265299e8ca3013a7b68589b3"
+    },
+    {
+      "letter": "ד",
+      "first_ref": "BDB Aramaic, דָּא",
+      "last_ref": "BDB Aramaic, דְּתָבָר",
+      "count": 42,
+      "refs_sha256": "f68ccd057da8a197c89e0788d34ed4c0f352914e283fb9181d62973d57c1d338"
+    },
+    {
+      "letter": "ה",
+      "first_ref": "BDB Aramaic, הֲ",
+      "last_ref": "BDB Aramaic, הַרְהֹר",
+      "count": 18,
+      "refs_sha256": "99bcb91be4b7ae6f715a2464b4c41cbf5cf627eb0d4519f66eae6de466bcdc96"
+    },
+    {
+      "letter": "ו",
+      "first_ref": "BDB Aramaic, וְ",
+      "last_ref": "BDB Aramaic, וְ",
+      "count": 1,
+      "refs_sha256": "ce0002fa8d8671a748e9dc509dc16c625c2552d698908f7c5a5a6311ffde546c"
+    },
+    {
+      "letter": "ז",
+      "first_ref": "BDB Aramaic, זָאֲעִין",
+      "last_ref": "BDB Aramaic, זְרַע",
+      "count": 21,
+      "refs_sha256": "4f8f8bc434683dc848f98eb68fa65eaa38ca3bbc31d160448e134d7b063ce678"
+    },
+    {
+      "letter": "ח",
+      "first_ref": "BDB Aramaic, חֲבַל",
+      "last_ref": "BDB Aramaic, חֲתַם",
+      "count": 54,
+      "refs_sha256": "bff04b36a4ed98ea157f2d83af717fa3c378a7329a70ac05100fa5a6b6a25c57"
+    },
+    {
+      "letter": "ט",
+      "first_ref": "BDB Aramaic, טְאֵב",
+      "last_ref": "BDB Aramaic, טַרְפְּלָיֵא",
+      "count": 13,
+      "refs_sha256": "39c2a34d588414b2c2a74af11594f55a2659b3708844179d025796f804844e8f"
+    },
+    {
+      "letter": "י",
+      "first_ref": "BDB Aramaic, יְבַל",
+      "last_ref": "BDB Aramaic, יַתִּיר",
+      "count": 39,
+      "refs_sha256": "eea2fcce23187658bcd6f3a2df865a3f814b7d74fd1e7b9ff2ef4c8aa20807c3"
+    },
+    {
+      "letter": "כ",
+      "first_ref": "BDB Aramaic, כְּ",
+      "last_ref": "BDB Aramaic, כְּתַל",
+      "count": 34,
+      "refs_sha256": "08b75fc62da66773ae2267af5223079279ce27b8087365d3c2759906dab2d792"
+    },
+    {
+      "letter": "ל",
+      "first_ref": "BDB Aramaic, לְ",
+      "last_ref": "BDB Aramaic, לאך",
+      "count": 3,
+      "refs_sha256": "444d77d2f6deb1e7e87ab5c0e51847f5b549490f3774e01d606f8c01eaad721a"
+    },
+    {
+      "letter": "מ",
+      "first_ref": "BDB Aramaic, מַלְאַךְ",
+      "last_ref": "BDB Aramaic, מַתְּנָא",
+      "count": 79,
+      "refs_sha256": "3bc6811d790d2968c79af15230a77d5c4788d241dc7213ff63cea4b2740b3fb1"
+    },
+    {
+      "letter": "נ",
+      "first_ref": "BDB Aramaic, נבא",
+      "last_ref": "BDB Aramaic, נְתַר",
+      "count": 49,
+      "refs_sha256": "a5a7f87ad52007242eea77673759ab019a984b7ab97b3fcbae0d856f189f025c"
+    },
+    {
+      "letter": "ס",
+      "first_ref": "BDB Aramaic, סַבְּכָא",
+      "last_ref": "BDB Aramaic, סְתַר²",
+      "count": 18,
+      "refs_sha256": "14d908462e27c9e68c8da821a53aca83c56443d042b95ee3283eeb8d6291c563"
+    },
+    {
+      "letter": "ע",
+      "first_ref": "BDB Aramaic, עֲבַד",
+      "last_ref": "BDB Aramaic, עַתִּיק",
+      "count": 70,
+      "refs_sha256": "0255d733f24ff7a11dee6aca423f83c0f1213fcff25a12edada4478aa462f26e"
+    },
+    {
+      "letter": "פ",
+      "first_ref": "BDB Aramaic, פּוּקוּ",
+      "last_ref": "BDB Aramaic, פְּתָי",
+      "count": 28,
+      "refs_sha256": "f9f9fbc91f95193785bcd49cd7491ce1003b3acff481f75b8f507e7cba16f524"
+    },
+    {
+      "letter": "צ",
+      "first_ref": "BDB Aramaic, צְבָא",
+      "last_ref": "BDB Aramaic, צְפִיר",
+      "count": 14,
+      "refs_sha256": "4a49bedeb8e7eb8c359efbdb0f2ef0cceb835ead89513ab4bbde495d46584c88"
+    },
+    {
+      "letter": "ק",
+      "first_ref": "BDB Aramaic, קָאֵם",
+      "last_ref": "BDB Aramaic, קַתְרֹס",
+      "count": 36,
+      "refs_sha256": "51b4542432ed46e7209c6a04c9dfa7b66d155691307e33711ed5ed1dec70619a"
+    },
+    {
+      "letter": "ר",
+      "first_ref": "BDB Aramaic, ראה",
+      "last_ref": "BDB Aramaic, רְשַׁם",
+      "count": 39,
+      "refs_sha256": "49751e2e07541e465ee0d804c2ff282eba9e272d664c0a20c9f02a12438a6a31"
+    },
+    {
+      "letter": "שׂ",
+      "first_ref": "BDB Aramaic, שַׂבְּכָא",
+      "last_ref": "BDB Aramaic, שְׂעַר",
+      "count": 11,
+      "refs_sha256": "0f098e40613eb472f6ec138d783e23df0749d98a314c357cda992039b4bc3fb4"
+    },
+    {
+      "letter": "שׁ",
+      "first_ref": "BDB Aramaic, שְׁאֵל",
+      "last_ref": "BDB Aramaic, שְׁתַר בּוֹזְנַי",
+      "count": 77,
+      "refs_sha256": "c7f7336b89c84876dbc1318eb2e4d4187b16c9fb4ff93a2c2524f75aa9e46c67"
+    },
+    {
+      "letter": "ת",
+      "first_ref": "BDB Aramaic, תְּבַר",
+      "last_ref": "BDB Aramaic, תַּתְּנַי",
+      "count": 32,
+      "refs_sha256": "8c09b316e73095c40bf026451ba118e135f659a0ca3a3ca55c37fd4ddcab2924"
+    }
+  ]
+}

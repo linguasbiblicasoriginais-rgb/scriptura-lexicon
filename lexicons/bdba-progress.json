@@ -1,11 +1,14 @@
 {
   "source": "BDB Aramaic Dictionary",
   "source_url": "https://www.sefaria.org/BDB_Aramaic?tab=contents",
-  "source_total": null,
+  "source_total": 863,
   "total_incorporated": 0,
-  "next_ref": null,
+  "next_ref": "BDB Aramaic, אָב",
   "last_ref": null,
   "last_headword": null,
   "seen_refs": [],
-  "batches": []
+  "batches": [],
+  "source_total_method": "DictionaryNode.headwordMap + traversal of /api/texts/ next to exact next alphabet boundary, no Aramaic included",
+  "source_total_inventory_path": "lexicons/bdba-source-inventory.json",
+  "source_total_ref_sha256": "b192243b02fd9b3d00a25e475b0f9571d29813fe79ba6a17d77c2f4d62db894c"
 }
