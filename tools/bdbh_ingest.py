@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CHECKPOINT = ROOT / "lexicons/bdbh-progress.json"
 INDEX = ROOT / "index.html"
 BRANCH = "chat-gpt-bdbh"
-TARGET_NEW = 1000
+TARGET_NEW = 1015
 BATCH_SIZE = 100
 API = "https://www.sefaria.org/api"
 SOURCE = "BDB"
@@ -197,10 +197,15 @@ def main():
             "batches": [],
         }
     original_count = state["total_incorporated"]
+    if state.get("source_total") != 11015 or not 10000 <= original_count <= 11015:
+        raise RuntimeError("Conclusão BDBH exige fonte 11015 e checkpoint de 10000 a 11015")
+    if len(state.get("seen_refs", [])) != original_count:
+        raise RuntimeError("Checkpoint e sequência de referências têm contagens divergentes")
+    remaining_target = min(TARGET_NEW, state["source_total"] - original_count)
     seen = set(state.get("seen_refs", []))
-    while state["total_incorporated"] - original_count < TARGET_NEW:
+    while state["total_incorporated"] - original_count < remaining_target:
         start = state["total_incorporated"] + 1
-        limit = min(BATCH_SIZE, TARGET_NEW - (start - 1 - original_count))
+        limit = min(BATCH_SIZE, remaining_target - (start - 1 - original_count))
         entries = []
         for _ in range(limit):
             ref = state.get("next_ref")
@@ -248,12 +253,14 @@ def main():
         commit_batch(module, start, last)
         if len(entries) < limit:
             break
+    if state["total_incorporated"] != state["source_total"] or state.get("next_ref") is not None:
+        raise RuntimeError("Fim do BDB hebraico ainda não confirmado: total ou próxima referência diverge")
     print("BDBH RESULTADO", json.dumps({
         "novos": state["total_incorporated"] - original_count,
         "acumulado": state["total_incorporated"],
         "ultimo_verbete": state["last_headword"],
         "proxima_referencia": state["next_ref"],
-        "denominador": "total ainda não apurado",
+        "denominador": state["source_total"],
     }, ensure_ascii=False), flush=True)
 
 if __name__ == "__main__":
