@@ -2,10 +2,10 @@
   "source": "BDB Dictionary",
   "source_url": "https://www.sefaria.org/BDB?tab=contents",
   "source_total": 11015,
-  "total_incorporated": 11000,
-  "next_ref": "BDB, תְּשׂוּמֶת",
-  "last_ref": "BDB, תַּרְתָּ֑ק",
-  "last_headword": "תַּרְתָּ֑ק",
+  "total_incorporated": 11015,
+  "next_ref": null,
+  "last_ref": "BDB, תִּשְׁעִים",
+  "last_headword": "תִּשְׁעִים",
   "seen_refs": [
     "BDB, א",
     "BDB, אָב",
@@ -11006,7 +11006,22 @@
     "BDB, תַּרְשִׁישׁ²",
     "BDB, תִּרְשָׁתָא",
     "BDB, תַּרְתָּן",
-    "BDB, תַּרְתָּ֑ק"
+    "BDB, תַּרְתָּ֑ק",
+    "BDB, תְּשׂוּמֶת",
+    "BDB, תְּשֻׁאָה²",
+    "BDB, תֹּשָׁב",
+    "BDB, תִּשְׁבֶּה²",
+    "BDB, תַּשְׁבֵּץ²",
+    "BDB, תְּשׁוּבָה²",
+    "BDB, תשׁוה",
+    "BDB, תֶּ֑שִׁי",
+    "BDB, תְּשׁוּקָה²",
+    "BDB, תְּשׁוּעָה²",
+    "BDB, תְּשׁוּרָה²",
+    "BDB, תֻּשִׁיָּה",
+    "BDB, תֵּ֫שַׁע",
+    "BDB, תְּשִׁיעִי",
+    "BDB, תִּשְׁעִים"
   ],
   "batches": [
     {
@@ -12108,6 +12123,16 @@
       "last_headword": "תַּרְתָּ֑ק",
       "first_ref": "BDB, תָּנָה",
       "last_ref": "BDB, תַּרְתָּ֑ק"
+    },
+    {
+      "file": "lexicons/bdbh-batch-111.js",
+      "first_ordinal": 11001,
+      "last_ordinal": 11015,
+      "count": 15,
+      "first_headword": "תְּשׂוּמֶת",
+      "last_headword": "תִּשְׁעִים",
+      "first_ref": "BDB, תְּשׂוּמֶת",
+      "last_ref": "BDB, תִּשְׁעִים"
     }
   ],
   "source_total_method": "23 blocos do headwordMap da Sefaria; 21 blocos tiveram fronteira confirmada no primeiro run, e os 2 blocos finais foram recontados após normalização dos sinais vocálicos no último lema",
