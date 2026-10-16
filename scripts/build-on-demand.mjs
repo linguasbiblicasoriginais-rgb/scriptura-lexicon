@@ -195,7 +195,8 @@ for (const record of records) {
         nextDefinition:definitionB.slice(0,160)});
     retainedRecords.push(record);
 }
-records.splice(0, records.length, ...retainedRecords);
+records.length = 0;
+for (const record of retainedRecords) records.push(record);
 console.log("DGP_DEDUP_STRICT", JSON.stringify({
     inspectedFromModules:retainedRecords.length + filteredDuplicates.length,
     removedFromPresentationOnly:filteredDuplicates.length,
