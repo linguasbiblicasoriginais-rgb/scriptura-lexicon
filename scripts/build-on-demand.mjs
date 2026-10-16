@@ -145,6 +145,65 @@ for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) 
         sourceTerms[label].push(...source.bibliographicTerms);
     }
 }
+// Deduplicação estritamente comprovável da APRESENTAÇÃO DGP (não da fonte).
+// Alguns módulos históricos carregam duas vezes o mesmo ordinal com IDs
+// técnicos formatados de modo distinto. Só retiramos do índice a segunda
+// ocorrência se lema e texto integral da definição forem literalmente
+// equivalentes após NFC e normalização dos espaços. Diferenças textuais,
+// variantes e outros léxicos ficam preservados, para cotejo individual.
+const canonicalNfcText = value => String(value || "").normalize("NFC")
+    .replace(/\s+/gu, " ").trim();
+function cardLemma(card) {
+    const m = card.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    return m ? canonicalNfcText(textOnly(m[1])) : "";
+}
+const canonicalByOrdinal = new Map();
+const retainedRecords = [];
+const filteredDuplicates = [];
+const pendingDgpDifferences = [];
+for (const record of records) {
+    const match = record.source === "DGP" ?
+        /^entry-dgp-(\d+)$/.exec(record.target) : null;
+    if (!match) {
+        retainedRecords.push(record);
+        continue;
+    }
+    const ordinal = Number(match[1]);
+    const primary = canonicalByOrdinal.get(ordinal);
+    if (!primary) {
+        canonicalByOrdinal.set(ordinal, record);
+        retainedRecords.push(record);
+        continue;
+    }
+    const lemmaA = cardLemma(primary.card);
+    const lemmaB = cardLemma(record.card);
+    const definitionA = canonicalNfcText(fullText(primary.card));
+    const definitionB = canonicalNfcText(fullText(record.card));
+    if (lemmaA && lemmaA === lemmaB && definitionA &&
+            definitionA === definitionB) {
+        // Indexação por todas as variantes documentadas, sem mexer nos artigos.
+        if (record.search !== primary.search) {
+            primary.search += " " + record.search;
+        }
+        filteredDuplicates.push({ordinal, target:record.target,
+            keptTarget:primary.target, lemma:lemmaA});
+        continue;
+    }
+    pendingDgpDifferences.push({ordinal, firstTarget:primary.target,
+        nextTarget:record.target, firstLemma:lemmaA, nextLemma:lemmaB,
+        firstDefinition:definitionA.slice(0,160),
+        nextDefinition:definitionB.slice(0,160)});
+    retainedRecords.push(record);
+}
+records.splice(0, records.length, ...retainedRecords);
+console.log("DGP_DEDUP_STRICT", JSON.stringify({
+    inspectedFromModules:retainedRecords.length + filteredDuplicates.length,
+    removedFromPresentationOnly:filteredDuplicates.length,
+    textDifferencesPreserved:pendingDgpDifferences.length,
+    sampleRemoved:filteredDuplicates.slice(0,6),
+    samplePending:pendingDgpDifferences.slice(0,6)
+}));
+
 // Um ID histórico repetido não pode suprimir a segunda entrada.
 // Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
 const firstByTarget = new Map();
