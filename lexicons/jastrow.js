@@ -53,7 +53,7 @@ window.ScripturaLexicons = window.ScripturaLexicons || {};
         },
         {
             sid: "A00009", lemma: "אָאִין", type: "Forma flexionada", gloss: "forma plural (remissão)",
-            html: 'Forma plural de <bdi lang="he" dir="rtl">אל״ף</bdi>. A entrada original consiste numa remissão ao verbete correspondente, que ainda não foi incorporado ao sublote traduzido.'
+            html: 'Forma plural de <bdi lang="he" dir="rtl">אל״ף</bdi>. A entrada original consiste numa remissão ao verbete <bdi lang="he" dir="rtl">אל״ף</bdi>, sem definição autônoma.'
         }
     ];
 
