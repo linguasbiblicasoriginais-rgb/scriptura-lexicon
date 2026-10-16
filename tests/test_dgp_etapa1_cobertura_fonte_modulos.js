@@ -66,6 +66,7 @@ if(!Array.isArray(earlierCotejo.records)||earlierCotejo.records.length!==1000)
  throw Error("A transcrição documental prévia do lote 1 deve conter 1000 artigos");
 const originalByOrdinal=new Map(earlierCotejo.records.map(x=>[x.ordinal,x]));
 const withoutSoftHyphen=s=>normalize(s).replace(/\u00ad/gu,"");
+const sourceCanonical=s=>withoutSoftHyphen(s).replace(/〈/gu,"〈").replace(/〉/gu,"〉");
 const firstBatchConflicts=numericConflicts
  .filter(group=>group[0].ordinal>=1&&group[0].ordinal<=1000)
  .map(group=>{
@@ -85,6 +86,8 @@ const firstBatchConflicts=numericConflicts
    same_ignoring_case_and_soft_hyphen:sameIgnoringCaseAndSoftHyphen,
    matches_original_exact:group.map(x=>normalize(x.definition)===
      normalize(original.definition_original_xml)),
+   matches_original_presentation_normalization:group.map(x=>
+     sourceCanonical(x.definition)===sourceCanonical(original.definition_original_xml)),
    candidates:group
   };
  });
@@ -92,7 +95,11 @@ const firstBatchConflictClasses={
  all:firstBatchConflicts.length,
  only_soft_hyphens:firstBatchConflicts.filter(x=>x.same_ignoring_soft_hyphen).length,
  case_or_soft_hyphens:firstBatchConflicts.filter(x=>x.same_ignoring_case_and_soft_hyphen).length,
- more_substantive_differences:firstBatchConflicts.filter(x=>!x.same_ignoring_case_and_soft_hyphen).length
+ more_substantive_differences:firstBatchConflicts.filter(x=>!x.same_ignoring_case_and_soft_hyphen).length,
+ source_matches_primary_only:firstBatchConflicts.filter(x=>x.matches_original_presentation_normalization[0]&&!x.matches_original_presentation_normalization[1]).length,
+ source_matches_secondary_only:firstBatchConflicts.filter(x=>!x.matches_original_presentation_normalization[0]&&x.matches_original_presentation_normalization[1]).length,
+ source_matches_both:firstBatchConflicts.filter(x=>x.matches_original_presentation_normalization.every(Boolean)).length,
+ source_matches_neither:firstBatchConflicts.filter(x=>!x.matches_original_presentation_normalization.some(Boolean)).length
 };
 
 const sameDefinition=collisions.filter(v=>v.every(x=>x.definition!==null&&
