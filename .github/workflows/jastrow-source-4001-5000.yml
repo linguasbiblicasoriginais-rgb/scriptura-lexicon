@@ -1,0 +1,81 @@
+name: JASTROW - recuperar fonte 4001 a 5000
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-source-4001-5000.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fonte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Extrair entradas originais e preparar leitura editorial
+        run: |
+          python - <<'PY'
+          import importlib.util, json, re
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          spec=importlib.util.spec_from_file_location("j", "tools/jastrow_source.py")
+          mod=importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+          xml=mod.request_source()
+          root=ET.fromstring(xml)
+          entries=[e for e in root.iter() if mod.local_tag(e.tag)=="entry"]
+          if len(entries)!=32512: raise RuntimeError(f"Total da fonte inesperado: {len(entries)}")
+          def flat(el):
+              return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
+          for batch in range(21,26):
+              start=(batch-1)*200
+              chosen=entries[start:start+200]
+              if len(chosen)!=200: raise RuntimeError(f"Lote incompleto {batch}")
+              records=[]
+              for i,entry in enumerate(chosen,start+1):
+                  sid=entry.attrib.get("id","")
+                  if not sid: raise RuntimeError(f"ID ausente {i}")
+                  records.append({"ordinal":i,"source_id":f"jastrow-xml-{i:06d}",
+                      "canonical_entry_id":sid,
+                      "headword":mod.headword(entry),
+                      "source_xml":ET.tostring(entry,encoding="unicode")})
+              doc={"source":"Marcus Jastrow (Sefaria-Data pinned XML)",
+                  "source_start_ordinal":start+1,"source_end_ordinal":start+200,
+                  "source_repository":"Sefaria/Sefaria-Data",
+                  "source_commit":mod.SOURCE_COMMIT,"source_blob_sha":mod.SOURCE_BLOB_SHA,
+                  "entry_count":200,"first_headword":records[0]["headword"],
+                  "last_headword":records[-1]["headword"],
+                  "next_headword":mod.headword(entries[start+200]),
+                  "status":"source_only_untranslated_not_published","records":records}
+              out=Path(f"lexicons/jastrow-source-lote-{batch:04d}.json")
+              if out.exists(): raise RuntimeError(f"Fonte ja existe: {out}")
+              out.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+              print("FONTE",batch,records[0]["canonical_entry_id"],records[-1]["canonical_entry_id"])
+          for start in range(4000,5000,100):
+              lines=[]
+              for i in range(start,start+100):
+                  e=entries[i]; sid=e.attrib["id"]; heads=[flat(n) for n in e if mod.local_tag(n.tag)=="head-word"]
+                  pos=[flat(n) for n in e if mod.local_tag(n.tag)=="pos"]
+                  defs=[flat(n) for n in e.iter() if mod.local_tag(n.tag)=="definition"]
+                  notes=[flat(n) for n in e.iter() if mod.local_tag(n.tag)=="notes"]
+                  # Etapa editorial: resumo da fonte original para redacao em portugues.
+                  d=" | ".join(x for x in defs if x)[:550]
+                  n=" | ".join(x for x in notes if x)[:260]
+                  lines.append(f"{i+1}\t{sid}\t{' / '.join(heads)}\t{' / '.join(pos)}\t{d}\t{n}")
+              p=Path(f"lexicons/jastrow-fonte-leitura-{start+1:04d}-{start+100:04d}.tsv")
+              p.write_text("ordinal\tid\tlema\tclasse\tdefinicoes_ingles\tnotas_ingles\n"+"\n".join(lines)+"\n",encoding="utf-8")
+          PY
+      - name: Registrar exclusivamente fonte para incorporação
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexicons/jastrow-source-lote-00{21,22,23,24,25}.json lexicons/jastrow-fonte-leitura-*.tsv
+          if ! git diff --cached --quiet; then
+            git commit -m "JASTROW: preservar fonte canônica 4001–5000 para incorporação"
+            git push origin HEAD:chat-gpt-jastrow
+          fi

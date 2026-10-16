@@ -1,0 +1,1415 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data pinned XML)",
+  "source_start_ordinal": 12201,
+  "source_end_ordinal": 12400,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "entry_count": 200,
+  "first_headword": "יָדָה",
+  "last_headword": "יְחַם",
+  "next_headword": "*,",
+  "status": "source_only_untranslated_not_published",
+  "records": [
+    {
+      "ordinal": 12201,
+      "source_id": "jastrow-xml-012201",
+      "canonical_entry_id": "J00096",
+      "headword": "יָדָה",
+      "source_xml": "<entry id=\"J00096\">\n<head-word>יָדָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00100\">ידי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12202,
+      "source_id": "jastrow-xml-012202",
+      "canonical_entry_id": "J00097",
+      "headword": "יַדּוּעַ",
+      "source_xml": "<entry id=\"J00097\">\n<head-word>יַדּוּעַ</head-word>\n<senses>\n<sense>\n<definition>, (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jaddua</italic>.</definition>\n<notes> B. Mets. VII, 9 J. the Babylonian.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12203,
+      "source_id": "jastrow-xml-012203",
+      "canonical_entry_id": "J00098",
+      "headword": "יִדּוֹעַ",
+      "source_xml": "<entry id=\"J00098\">\n<head-word>יִדּוֹעַ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> name of \n<italic>a</italic>\n<italic>bird</italic> (Maim.) or \n<italic>a beast</italic> (Rashi), a bone of which is used for witchcraft.</definition>\n<notes> Targ. Y. Lev. XIX, 31 (ed. Amst. יָדוֹעַ); a. e.—Snh. 65\n<sup>b</sup>; (Tosef. ib. X, 6 ידעוני).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12204,
+      "source_id": "jastrow-xml-012204",
+      "canonical_entry_id": "J00099",
+      "headword": "יָדוּעַ",
+      "source_xml": "<entry id=\"J00099\">\n<head-word>יָדוּעַ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00106\">יָדַע</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12205,
+      "source_id": "jastrow-xml-012205",
+      "canonical_entry_id": "J00100",
+      "headword": "ידי,",
+      "source_xml": "<entry id=\"J00100\">\n<head-word>ידי, </head-word>\n<head-word>יָדָה</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to point, move</italic> (cmp. b. h. הָדָה).</definition>\n<notes>—Denom. יָד.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הוֹדָה</binyan-form>\n<senses>\n<sense>\n<definition> [\n<italic>to raise hands</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to thank, acknowledge; to give praise</italic>.</definition>\n<notes> Taan. 6\n<sup>b</sup> מוֹדִים … לך we offer thanks unto thee. Ber. V, 3 he who says in public prayer מודים מודים … אותו ‘we thank, we thank’ (as if pointing in different directions and acknowledging two divinities) must be silenced. Ib. IX, 5 (play on מ̇אד̇ך, Deut. VI, 5) בכל מ̇ד̇ה ומדה … הוי מוֹדֶה לו for whatever measure He metes out to thee, give thanks to Him. Ib. 54\n<sup>b</sup> ארבעה צריכין להוֹרוֹת four persons are bound to offer public thanks; a. v. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to admit, consent, to confess</italic>.</definition>\n<notes> Pes. IV, 9 (56\n<sup>a</sup>); Ber. 10\n<sup>a</sup> על ג' הוֹדוּ לו concerning three of his acts they agreed with him. B. Mets. 3\n<sup>a</sup>, a. fr. מוֹדֶה במקצת הטענה he who admits part of his opponent’s claim. Shebu. VI, 3; Keth. 108\n<sup>b</sup>, a. e. טענו … וה' לו בשעורים, v. טָעַן I. B. Mets. 12\n<sup>b</sup> בשחייב מודה when the debtor admits his indebtedness; a. v. fr. [Tosef. Par. IX (VIII), 6 שהן מודין, v. מוֹרִיר.]</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְיַדֶּה, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְוַדֶּה, (denom. of תּוֹדָה, cmp. Josh. VII, 19) \n<italic>to confess</italic> one’s sins before God. Yoma III, 8 ומִתְיַרֶּה and confesses in public. Ib. 40\n<sup>a</sup> להגריל ולהִתְוַדּוֹת to cast lots and to make confession (on the head of the scapegoat). Y. ib. VIII, end, 45\n<sup>c</sup> אע\"פ שנ' בערבית צריך להתודות וכ' although he has made confession in the evening prayer, he must again confess &amp;c.; a. fr.—V. וִידּוּי.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12206,
+      "source_id": "jastrow-xml-012206",
+      "canonical_entry_id": "J00101",
+      "headword": "יְדִי",
+      "source_xml": "<entry id=\"J00101\">\n<head-word>יְדִי</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa</italic>.</definition>\n<notes> וַדֵּי, \n<italic>Ithpa.</italic> אִתְוַדֵּי ch. same, \n<italic>to confess</italic>. Targ. O. Lev. V, 5 (Y. יוֹדֵי \n<italic>Af</italic>.). Targ. Y. II Deut. III, 29 מִתְוַדִּין; a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אוֹדִי, הוֹדִי</binyan-form>\n<senses>\n<sense>\n<definition> as preced. \n<italic>Hif.</italic> Targ. Prov. XXVIII, 13.</definition>\n<notes>—Targ. Gen. XLIX, 8; a. fr.—Yoma 7\n<sup>a</sup> מוֹדִינָא I admit (agree). Keth. 85\n<sup>a</sup> ומוֹדְיָא and she may admit her debt.—Ber. 54\n<sup>b</sup> צריך לאוֹדוּיֵי וכ' he must offer thanks in the presence of &amp;c.—Shebu. 39\n<sup>b</sup> כפר במקצת וא' במקצת if he denies part and admits part of the claim; a. fr.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12207,
+      "source_id": "jastrow-xml-012207",
+      "canonical_entry_id": "J00102",
+      "headword": "יָדִיד",
+      "source_xml": "<entry id=\"J00102\">\n<head-word>יָדִיד</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> redupl. of ידי; cmp. דּוֹד)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>pointed out</italic>,] \n<italic>chosen, beloved; chosen spot</italic>.</definition>\n<notes> Men. 53\n<sup>a</sup> יבא י' בן י' ויבנה י' … ויתכפרו בו ידידים the beloved (Solomon), son of the beloved (Abraham), shall rise and build a chosen structure (Temple) to the beloved (the Lord) in the lot of the beloved (Benjamin), that in it the chosen ones (Israel) be atoned for. Y. Ber. IX, 14\n<sup>a</sup> bot.; Sabb. 137\n<sup>b</sup> (benediction on circumcision) אשר קידש י' מבטן who sanctified the chosen one (Abraham, Is. XLI, 8; others: Isaac, with ref. to Gen. XXII, 2) from the womb.—\n<plural-form>Pl. יְדִידִים,</plural-form> v. supra.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12208,
+      "source_id": "jastrow-xml-012208",
+      "canonical_entry_id": "J00103",
+      "headword": "יְדִידוּת",
+      "source_xml": "<entry id=\"J00103\">\n<head-word>יְדִידוּת</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) \n<italic>choice; the chosen people</italic>.</definition>\n<notes> Y. Ber. IX, 14\n<sup>a</sup> bot.; Sabb. 137\n<sup>b</sup> י' (זרע קודש) שארנו the chosen (of the holy seed) of our blood (race).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12209,
+      "source_id": "jastrow-xml-012209",
+      "canonical_entry_id": "J00104",
+      "headword": "יְדִיעָה",
+      "source_xml": "<entry id=\"J00104\">\n<head-word>יְדִיעָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יָדַע) \n<italic>knowledge</italic>, esp. (Lev. IV, 14; 23; 28) \n<italic>finding out, discovery, consciousness</italic>.</definition>\n<notes> Shebu. 5\n<sup>a</sup>, a. e. יְרִיעַת בית רבו שמה י' the knowledge acquired in the teacher’s house (a theoretical knowledge that one who touches an unclean thing becomes unclean &amp;c.) is also called a knowledge (as regards the applicability of the verb נעלם). Ker. IV, 2 אם היתה י' בנתיים if there was consciousness between the two acts (if he found out his first transgression before committing the second). Shebu. I, 2 י' בתחלה וי' בסוף והעלם בנתיים original consciousness (knowing that he became unclean) and final consciousness (finding out that he had eaten sacred things in uncleanness) but forgetfulness between. Hor. 2\n<sup>a</sup>, a. fr. השב מִידִיעָתוֹ he who regrets when he finds out his transgression; a. fr.—\n<plural-form>Pl. יְדִיעוֹת</plural-form>. Sheb. I, 1 י' הטומאה the laws concerning the discovery of having sinned through uncleanness; ib. II, 1; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12210,
+      "source_id": "jastrow-xml-012210",
+      "canonical_entry_id": "J00105",
+      "headword": "יְדִיעֲתָא",
+      "source_xml": "<entry id=\"J00105\">\n<head-word>יְדִיעֲתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>knowledge</italic>.</definition>\n<notes> Targ. Prov. I, 4. Ib. XXII, 17; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12211,
+      "source_id": "jastrow-xml-012211",
+      "canonical_entry_id": "J00106",
+      "headword": "יָדַע",
+      "source_xml": "<entry id=\"J00106\">\n<head-word>יָדַע</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> cmp. יָדָה)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>to point out, select, love</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to recognize, know; to find out</italic>.</definition>\n<notes> Pes. 87\n<sup>b</sup> כיון שי' שחטא when he was convinced that he had done wrong. Ib. ואין אתה יוֹדֵעַ אם וכ' and thou knowest not whether &amp;c. Ib. יודע הקב\"ה את ישראל וכ' the Lord knows that Israel cannot endure the cruel persecutions of Rome (v. Rabb. D. S. a. l. note); Yalk. Hos. 529. Shebu. 4\n<sup>b</sup>; ib. 5\n<sup>a</sup> ונעלם מבלל שי' it says, ‘and it escaped his memory’ (Lev. V, 3)—this proves that there was a time when he knew (the nature of his act, v. יְדִיעָה). Zeb. 115\n<sup>b</sup> דבר זה … ולא יְדָעוֹ וכ' this word (Ex. XXIX, 43) the Lord had said to Moses, but he did not understand it, until the sons of Aaron \n<pgbrk id=\"pg565\" />died. Ib. כיון שי' … יְדוּעֵי מקום הן when Aaron learned that his sons were the chosen of the Lord (Lev. X, 3); a. v. fr.—\n<italic>Part. pass</italic>. יָדוּעַ a) \n<italic>chosen. </italic>\n<plural-form>Pl. יְדוּעִים,</plural-form> constr. יְדוּעֵי, v. supra.—b) \n<italic>known, special, certain</italic>. Sifra Vayikra, Ḥobah, Par. 6, ch. VIII חטא י' a known (discovered) sin, v. יְדִיעָה. Y. Sot. I, 16\n<sup>c</sup> טומאה יְדוּעָה (not ידוע) an ascertained levitical uncleanness, opp. ספק; a. fr.—בְּיָדוּעַ \n<italic>it is sure</italic>. R. Hash. 20\n<sup>b</sup> בי' שנראה וכ' the moon must have been visible &amp;c. Succ. 49\n<sup>b</sup> כל אדם … בי' שהוא וכ' a popular man (v. חֵן) is, you may be sure, a God-fearing man; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (euphem.) \n<italic>to have sexual intercourse with</italic>.</definition>\n<notes> Yeb. 57\n<sup>a</sup> בלא יְדָעָהּ when he never had connection with her. Esth. R. to III, 7 שלא יְדָעָהּ איש וכ' whom no man except her husband touched; a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הוֹדִיעַ</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to make known, inform</italic>.</definition>\n<notes> Gen. R. s. 22, beg. (ref. to Gen. IV, 1, reading יִדַּע for homiletical purposes) ה' דרך ארץ לכל he showed to all the way of the land (propagation, v. דֶּרֶךְ). Ḥull. V, 3 צריך להוֹדִיעַ must inform (the purchaser). Ab. IV, 22 לֵידַע להודיע ולהִוָּורַע to learn, to proclaim and to be made to feel (be thoroughly convinced). Sabb. 10\n<sup>b</sup> צריך להוֹדִיעוֹ must inform him. Ib. לך והוֹדִיעֵם go and tell them. Ib. הנותן … צריך לה' לאמו he who gives bread to a child must inform his mother; a. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hof.</binyan-name>\n<binyan-form>הוֹדַע</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be informed, become conscious; to be made known.</italic></definition>\n<notes> Shebu. I, 6 ה' ולא ה' whether he became conscious (of his transgression) or not. Sifra Vayikra, Ḥobah, ch. XX, Par. 12 (ref. to Lev. IV, 23; 28) את ה' שלהם when they become known; a. fr.—B. Bath. 113\n<sup>b</sup> הוֹדְעָה Ms. M. (v. אָרַע II).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נוֹדַע</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> same. Hor. III, 3. Ab. IV, 22, v. supra. Shebu. 9\n<sup>b</sup> שסופו לִיוָּדַע of which he is likely to be informed. Ḥull. 9\n<sup>a</sup> עד שיִוָּדַע לך, v. חֲזָקָה. Nidd. IX, 5, v. infra; a. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְוַודַּע, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְוַודַּע </notes></sense>\n<sense>\n<number>1)</number>\n<definition> same. Bekh. 25\n<sup>b</sup> עד שיִתְוַורַּע הטומאה (Nidd. l. c. עד שיודע לך וכ') until he ascertains the exact place of uncleanness; Pes. 10\n<sup>a</sup> עד שתִּיוָּדַע לך Ms. M. (v. Rabb. D. S. a. l.).</definition>\n<notes> Y. Sabb. III, 6\n<sup>b</sup> נתודע לו וכ' he found it out after sunset; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (v. \n<xref rid=\"unknown\">מוֹדַע</xref>) \n<italic>to force one’s self upon the notice of, to pretend friendship for.</italic></definition>\n<notes> Ab. I, 10 אל תִּתְוַדַּע לרשות do not make thyself a partisan of the (foreign) government.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12212,
+      "source_id": "jastrow-xml-012212",
+      "canonical_entry_id": "J00107",
+      "headword": "יְדַע",
+      "source_xml": "<entry id=\"J00107\">\n<head-word>יְדַע</head-word>\n<language-key>ch.</language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Gen. IV, 1; a. fr.—Ib. XXX, 26; a. fr:—Fut. יִדַּע, יִנְדַּע (fr. נדע). Targ. Ps. XXXIX, 5 אִידַּע Ms. (ed. אֵידַע). Targ. Ex. VIII, 6; a. fr.—Ber. 33\n<sup>b</sup> אנא לא האי יְדַעְנָע I learned nothing either about this &amp;c. Snh. 103\n<sup>a</sup> (prov.—of one who derives no lesson from adversity or success) בכיי ליה למר ולא י' וכ' Ms. M. (ed. דלא, v. Rabb. D. S. a. l.) they lament to you and you understand it not, they laugh to you and you understand it not; וי ליה למאן דלא י' וכ' (not למר) woe to him who knows not the difference between good and evil; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אוֹדַע, הוֹדַע</binyan-form>\n<senses>\n<sense>\n<definition> as preced. \n<italic>Hif.</italic> Targ. Ex. XXXIII, 13.</definition>\n<notes> Targ. Ps. CVI, 8 לאוֹדָעָה (Ms. לאַנְדָּ', v. supra); a. fr.—Snh. 11\n<sup>b</sup> מְהוֹדְעִין אנחנא וכ' we (the Sanhedrin) notify you &amp;c.; Y. ib. I, 18\n<sup>d</sup> top מוֹדַעְנָא; Tosef. ib. II, 6 מְהוֹדַעְנָא (Var. מְהוֹדְעֵי אנחנא). Sabb. 33\n<sup>b</sup> מאן לוֹדְעֵיה לבר וכ' (Ms. M. מוֹדְעֵיה) Oh, that some one would inform the son of Yoḥai &amp;c. Ned. 62\n<sup>a</sup> לאוֹדוּעֵי נפשיה to make one’s self known (as a scholar). Gen. R. s. 11 מנאן את מוֹדַע לי (some ed. מְיַדַּע) how will you prove it to me?; a. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>יַדַּע</binyan-form>\n<senses>\n<sense>\n<definition> same.</definition>\n<notes> Cant. R. to III, 6 לינא מְיַדַּע לדין וכ' shall I not let him know with whom he is dealing?. Gen. R. s. 11, v. supra.—\n<italic>Part. pass</italic>. מְיַדַּע \n<italic>friend</italic>. Targ. Ps. LXXXVIII, 9 מְיַדְּעַי Ms. (ed. מיודעי, hebraism).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְיְרַע, </binyan-form>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְיַדַּע</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be made known, to make one’s self known</italic>.</definition>\n<notes> Targ. O. Gen. XLV, 1. Ib. XLI, 21; a. fr.—[Targ. Y. Deut. XXI, 11 תתידעון, read: תיתרעון, as in v. 14.]—Hor. 2\n<sup>a</sup> כי מִתְיַדַּע להו לבי דינא if the court were made aware of it. Sabb. 71\n<sup>b</sup> א' ליה קודם וכ' he became aware of it before setting the sacrifice aside; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12213,
+      "source_id": "jastrow-xml-012213",
+      "canonical_entry_id": "J00108",
+      "headword": "יִדְעוֹנִי",
+      "source_xml": "<entry id=\"J00108\">\n<head-word>יִדְעוֹנִי</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָדַע)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>sooth-sayer, charmer</italic>.</definition>\n<notes> Snh. 65\n<sup>b</sup>; Tosef. ib. X, 6, v. יִרּוֹעַ; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12214,
+      "source_id": "jastrow-xml-012214",
+      "canonical_entry_id": "J00109",
+      "headword": "יְדַעְיָה",
+      "source_xml": "<entry id=\"J00109\">\n<head-word>יְדַעְיָה</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jedaiah</italic>, 1) a priestly division, named after its head.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition> a priestly division, named after its head. Taan. 27\n<sup>a</sup>, sq.</definition>\n<notes>; Arakh. 12\n<sup>b</sup>. Y. Taan. IV, 68\n<sup>d</sup></notes></sense>\n<sense>\n<number>—2)</number>\n<definition> poetic name of \n<italic>Sepphoris</italic> in Galilee whither the division of J.</definition>\n<notes> was exiled (v. Y. l. c.). Koh. R. to VII, 11; IX, 10 בני י' sons of J. (inhabitants of Sepph.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12215,
+      "source_id": "jastrow-xml-012215",
+      "canonical_entry_id": "J00110",
+      "headword": "יָדְפָת",
+      "source_xml": "<entry id=\"J00110\">\n<head-word>יָדְפָת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00170\">יוֹדְפָת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12216,
+      "source_id": "jastrow-xml-012216",
+      "canonical_entry_id": "J00111",
+      "headword": "יָדְקֶרֶת",
+      "source_xml": "<entry id=\"J00111\">\n<head-word>יָדְקֶרֶת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00172\">יוֹדְקֶרֶת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12217,
+      "source_id": "jastrow-xml-012217",
+      "canonical_entry_id": "J00112",
+      "headword": "יָהּ",
+      "source_xml": "<entry id=\"J00112\">\n<head-word>יָהּ</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>Yah</italic>, abbreviation of the Tetragrammaton.</definition>\n<notes> Succ. IV, 5 (45\n<sup>a</sup>, missing in Ms. M., v. marginal note to ed.); Tosef. ib. III, 1 לַיָּהּ ולך מזבח unto Yah and unto thee, O altar (do we give praise); Succ. 45\n<sup>b</sup> ליה אנחנו מודים ולך וכ' to Yah we offer thanks and thee (altar) we praise. Ib. V, 4 (51\n<sup>b</sup>) אנו ליה וליה עינינו we are Yah’s and to Y. we lift up your eyes. Gen. R. s. 79, end, v. דְיָקִינְתִּין; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12218,
+      "source_id": "jastrow-xml-012218",
+      "canonical_entry_id": "J00113",
+      "headword": "יָהּ,",
+      "source_xml": "<entry id=\"J00113\">\n<head-word>יָהּ, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (interj.) \n<italic>Oh!</italic> exclamation of distress. </definition>\n<notes>Gen. R. s. 92 (play on יה, Ps. XCIV, 12).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12219,
+      "source_id": "jastrow-xml-012219",
+      "canonical_entry_id": "J00114",
+      "headword": "יְהַב",
+      "source_xml": "<entry id=\"J00114\">\n<head-word>יְהַב</head-word>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">יָהַב)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to give</italic>.</definition>\n<notes> Targ. Gen. III, 12. Targ. Job III, 19 יֵיהַב Ms. (ed. יָהִיב, ed. Wil. יְהִיב); a. fr.—Part. pass. יְהִיב. Targ. Num. III, 9; a. fr.—Imperative הַב. Targ. Gen. XXX, 26; a. fr.—Y. Ber. VIII, 11\n<sup>b</sup> bot., a. fr. י' ליה מילא gave him assurance of safety. Ib. יהב את פלגא (read as:) Y. Naz. V, end, 54\n<sup>b</sup> הב וכ' give thou half of it. Ib. [read:] אמר דיֵיבִין ליה יַהֲבוּ ליה ואכל he ordered that they give him (to eat); they gave him, and he ate. Kidd. 9\n<sup>a</sup> אי יהבינא לך וכ' (read: יַהֲבִינָהּ) if I give it to thee, wilt thou be betrothed unto me? Said she הָבָהּ מֵיהֲבָהּ give it; כל הבה מיהבה וכ' all such phrases as ‘give it’, mean nothing (do not mean assent to the proposal); a. v. fr.—נסב וי' (h. = נשא ונתן) \n<italic>to deal</italic>. Cant. R. to III, 6. Y. Shebi. VII, 37\n<sup>c</sup> top; a. e.—Lev. R. s. 19, v. infra.—2) \n<italic>to put, place</italic>. Targ. Ex. XVI, 33; a. fr.—Y. Keth. XII, 35\n<sup>a</sup> bot. אין אנן יַהֲבִין ליה נֵיהֲבֵיה וכ' if we put him (his coffin) anywhere, we must put him with R. &amp;c.; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְרַהַב, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְיְהַב, אִתְיְהֵיב</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be given</italic>.</definition>\n<notes> Targ. Is IX, 5. Targ. Ex. V, 16; a. fr.—Kidd. 7\n<sup>a</sup> משום דא' למחילה because it (money or money’s worth) may be given away without consideration; v. נָתַן.—[Lev. R. s. 19 … תתיהב דיהבת וכ', read: תִּתְיַתַּב … דיַתְּבַת, v. יְתֵב I.]</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12220,
+      "source_id": "jastrow-xml-012220",
+      "canonical_entry_id": "J00115",
+      "headword": "יְהָבָא",
+      "source_xml": "<entry id=\"J00115\">\n<head-word>יְהָבָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= b. h. יְהָב; preced.) [\n<italic>that which is put on</italic>,] \n<italic>bundle, load</italic> on the back.</definition>\n<notes> R. Hash. 26\n<sup>b</sup>; Meg. 18\n<sup>a</sup> (as an analogy to יהב, Ps. LV, 23) the Arab said, שקול יְהָבִיךְ \n<pgbrk id=\"pg566\" />וכ' take off thy bundle and put it on my camel; Gen. R. s. 79, end תלי הדין י' עלי help me to put my load on; שמעון מיניה י' משדי from this they learned that \n<italic>y’haba</italic> means \n<italic>load</italic></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12221,
+      "source_id": "jastrow-xml-012221",
+      "canonical_entry_id": "J00116",
+      "headword": "יְהָבִית,",
+      "source_xml": "<entry id=\"J00116\">\n<head-word>יְהָבִית, </head-word>\n<head-word>יַהֲבַת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> constr.</definition>\n<notes> (preced. wds.) \n<italic>giving; share, dispensation</italic>. Targ. Koh. V, 10 יהבית אגרהא = h. מַתַּן שָׂכַר. Targ. Ps. XI, 6 (h. text מנת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12222,
+      "source_id": "jastrow-xml-012222",
+      "canonical_entry_id": "J00117",
+      "headword": "יַהֲדוּת",
+      "source_xml": "<entry id=\"J00117\">\n<head-word>יַהֲדוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"J00125\">יְהוּדִי</xref>) \n<italic>Jewish religion, monotheism</italic>.</definition>\n<notes> Esth. R. to III, 7 והחזיקו ביַהֲדוּתָן (not ביהודתן) and clung to their creed.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12223,
+      "source_id": "jastrow-xml-012223",
+      "canonical_entry_id": "J00118",
+      "headword": "יֵהוּא",
+      "source_xml": "<entry id=\"J00118\">\n<head-word>יֵהוּא</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jehu</italic>, King of Israel.</definition>\n<notes> Meg. 14\n<sup>a</sup>. Hor. 11\n<sup>b</sup> אף י' … לא נמשח וכ' Jehu, too, would not have been anointed, but for the opposition to Joram; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12224,
+      "source_id": "jastrow-xml-012224",
+      "canonical_entry_id": "J00119",
+      "headword": "יְהוּד",
+      "source_xml": "<entry id=\"J00119\">\n<head-word>יְהוּד</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Judaea.</italic></definition>\n<notes> Dan. II, 25; a. e.—Lam. R. to I, 2 י' מדינתא the province of J.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12225,
+      "source_id": "jastrow-xml-012225",
+      "canonical_entry_id": "J00120",
+      "headword": "יְהוּדָא",
+      "source_xml": "<entry id=\"J00120\">\n<head-word>יְהוּדָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = יְהוּדָה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12226,
+      "source_id": "jastrow-xml-012226",
+      "canonical_entry_id": "J00121",
+      "headword": "יְהוּדָאָה,",
+      "source_xml": "<entry id=\"J00121\">\n<head-word>יְהוּדָאָה, </head-word>\n<head-word>יְהוּדַאי, </head-word>\n<head-word>יְהוּדַיי</head-word>\n<pos> m.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"J00125\">יְהוּדִי.</xref></language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Esth. V, 13; a. e.—Y. Shebi. IV, 35\n<sup>b</sup> top, v. אַרְמַאי.—\n<plural-form>Pl. יְהוּדָאִין, יְהוּדָאֵי, יְהוּדָיֵי</plural-form>. Targ. Esth. IV, 16; a. e.—Gen. R. s. 63 רברבני די' the leaders of the Jews (of Tiberias); a. fr.—\n<italic>Fem</italic>. יְהוּדָאִיתָא. Targ. II Esth. IV, 1.—Lam. R. to I, 11 חזיין אפיך כי' (not כיהודיאתא) thou lookest like a Jewess.—V. יוּדַאי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12227,
+      "source_id": "jastrow-xml-012227",
+      "canonical_entry_id": "J00122",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00122\">\n<head-word>*, </head-word>\n<head-word>*יְהוּדָאִיקִי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (Ἰουδαική, sub. συναγωγή or ἀγωρά) \n<italic>Jewish court-house</italic>.</definition>\n<notes> Y. Gitt. I, 43\n<sup>b</sup> top במקום י' in the Jewish meeting place (where Jews have their own jurisdiction); אם אין שם י' וכ' if there is no Jewish courthouse there, it must be done in the synagogue.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12228,
+      "source_id": "jastrow-xml-012228",
+      "canonical_entry_id": "J00123",
+      "headword": "יְהוּדָאִית",
+      "source_xml": "<entry id=\"J00123\">\n<head-word>יְהוּדָאִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00121\">יְהוּדָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12229,
+      "source_id": "jastrow-xml-012229",
+      "canonical_entry_id": "J00124",
+      "headword": "יְהוּדָה",
+      "source_xml": "<entry id=\"J00124\">\n<head-word>יְהוּדָה</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n.</pos>\n<italic>Judah</italic>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> son of Jacob; \n<italic>tribe of Judah</italic>.</definition>\n<notes> Pes. 50\n<sup>a</sup>. Yoma 12\n<sup>a</sup>, a. e. מחלקו של י' from the area of Judah.—Gen. R. s. 85; a. v. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> name of several Tannaim; a) R. J. b. B’thera in Babylonia Ber. 22\n<sup>a</sup>; a. fr.—b) J.</definition>\n<notes> b. Tabbai, chief of the Sanhedrin in the days of queen Salome. Ab. I, 8. Ḥag. II, 2; a. fr.—c) R. J. the priest. Eduy. VIII, 3.—d) R. J. b. Baba. Ib. 2. Sabb. 62\n<sup>b</sup>; a. fr.—e) R. J. b. Ilai, usu. mentioned in the Mishnah as R. J. only. Ber. 63\n<sup>b</sup>; Sabb. 33\n<sup>b</sup>. Men. 103\n<sup>b</sup>; a. v. fr.—f) R. J. b. Tema. Ab. V, 20. Erub. 17\n<sup>a</sup>; Tosef. ib. III (II), 6 (ed. Zuck. בתירה). Tosef. Gitt. VII (V), 8; a. fr.; a. others (v. Fr. Darkhé, p. 42; p. 137).—Esp. R. J. han-Nasi I a. II, surnamed Rabbi, v. רַבִּי.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> name of several Amoraim, the most renowned of whom is R. J. (b. Ezekiel), a Babylonian. Keth. 110\n<sup>b</sup> bot.—Y.</definition>\n<notes> Taan. I, 64\n<sup>b</sup> top; a. fr.—V. Fr. M’bo p. 91\n<sup>a</sup></notes></sense>\n<sense>\n<number>—4)</number>\n<definition>\n<italic>Judaea</italic>, the southern province of Palestine.</definition>\n<notes> Keth. I, 5 (12\n<sup>a</sup>); Tosef. ib. I, 4. Kidd. 6\n<sup>a</sup>; a. v. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12230,
+      "source_id": "jastrow-xml-012230",
+      "canonical_entry_id": "J00125",
+      "headword": "יְהוּדִי",
+      "source_xml": "<entry id=\"J00125\">\n<head-word>יְהוּדִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>Judaean, Jew</italic> (mostly in a religious sense), \n<italic>worshipper of one God</italic>.</definition>\n<notes> Meg. 12\n<sup>b</sup> קרי ליה י' אלמא מיהודה וכ' he is called Y’hudi (Esth. II, 5), which would indicate that he belongs to the tribe of Judah, and yet he is called \n<italic>ish y’mini</italic> &amp;c.?, v. נִימוֹס. Ib. 13\n<sup>a</sup> … ואמאי י' … שכל הכופר בע\"ז נקרא י' but why is he designated as Y’hudi? Because he disowned idolatry; for whosoever disowns idolatry, is called a Jew (ref. to Dan. III, 12); Esth. R. to II, 5 לפי שייחד … נקרא י' לומר י' יחירי because he professed the unity of God, he was called Y’hudi, meaning to say, a Y’hudi, a believer in One God. Ex. R. s. 42 אתה סבור … או י' או צלוב thou thinkest that calling Israel ‘persistent’ is meant for blame; it is meant for their praise, either a Jew or hanged. Meg. l. c. מאכל י' Jewish food (in accordance with the Jewish dietary laws); a. e.—[Pes. 113\n<sup>b</sup> י', read with Mss. a. early ed. מי; Yeb. 63\n<sup>a</sup> כל י', read אדם.]—\n<plural-form>Pl. יְהוּדִים</plural-form>. Esth. R. to III, 9. Ib. to VIII, 8 שונאי הי' the enemies of the Jews. Ib. 15 מלך … על הי' Mardecai was made king of the Jews; a. fr.—\n<italic>Fem</italic>. יְהוּדִיָּה, יְהוּדִית. Meg. l. c. (v. Rabb. D. S. a. l. note 7); Yalk. Esth. 1052 (ref. to I Chr. IV, 18) אמאי קרי לה י' why is she (Bithya, the daughter of Pharaoh) called Y’hudiyah (a Jewess)?—Esth. R. to III, I אם אסתר י' היא וכ' if Esther is a Jewess &amp;c., opp. גויה.—Keth. VII, 6 (72\n<sup>a</sup>, sq.) דת י', v. דַּת.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12231,
+      "source_id": "jastrow-xml-012231",
+      "canonical_entry_id": "J00126",
+      "headword": "יְהוּדִיָּה",
+      "source_xml": "<entry id=\"J00126\">\n<head-word>יְהוּדִיָּה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00125\">preced.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12232,
+      "source_id": "jastrow-xml-012232",
+      "canonical_entry_id": "J00127",
+      "headword": "*יְהוּדִינְיִי",
+      "source_xml": "<entry id=\"J00127\">\n<head-word>*יְהוּדִינְיִי</head-word>\n<senses>\n<sense>\n<definition>,\n<pos> pr. n. f.</pos>\n<italic>Y’hudinyi</italic>, sister of R. Judah han-Nasi.</definition>\n<notes> Y. Naz. VII, 56\n<sup>a</sup> top; (Y. Ber. III, 6\n<sup>a</sup> bot. נהוראי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12233,
+      "source_id": "jastrow-xml-012233",
+      "canonical_entry_id": "J00128",
+      "headword": "יְהוּדִית",
+      "source_xml": "<entry id=\"J00128\">\n<head-word>יְהוּדִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00125\">יְהוּדִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12234,
+      "source_id": "jastrow-xml-012234",
+      "canonical_entry_id": "J00129",
+      "headword": "יהודת",
+      "source_xml": "<entry id=\"J00129\">\n<head-word>יהודת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">יַהֲרוּת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12235,
+      "source_id": "jastrow-xml-012235",
+      "canonical_entry_id": "J00130",
+      "headword": "יְהוֹיָדָע",
+      "source_xml": "<entry id=\"J00130\">\n<head-word>יְהוֹיָדָע</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jehoiada</italic>, the high-priest.</definition>\n<notes> Num. R. s. 23; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12236,
+      "source_id": "jastrow-xml-012236",
+      "canonical_entry_id": "J00131",
+      "headword": "יְהוֹיָקִים",
+      "source_xml": "<entry id=\"J00131\">\n<head-word>יְהוֹיָקִים</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jehoiakim</italic>, king of Judah.</definition>\n<notes> M. Kat. 26\n<sup>a</sup>. Snh. 103\n<sup>a</sup>, sq. Lev. R. s. 19; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12237,
+      "source_id": "jastrow-xml-012237",
+      "canonical_entry_id": "J00132",
+      "headword": "יְהוֹיָרִיב",
+      "source_xml": "<entry id=\"J00132\">\n<head-word>יְהוֹיָרִיב</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joiarib</italic>, head of a priestly division named after him; (\n<italic>fem</italic>.</definition>\n<notes>) \n<italic>the division J.</italic> Y. Taan. IV, 68\n<sup>d</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12238,
+      "source_id": "jastrow-xml-012238",
+      "canonical_entry_id": "J00133",
+      "headword": "יְהוֹנָתָן",
+      "source_xml": "<entry id=\"J00133\">\n<head-word>יְהוֹנָתָן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00212\">יוֹנָתָן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12239,
+      "source_id": "jastrow-xml-012239",
+      "canonical_entry_id": "J00134",
+      "headword": "יְהוֹרָם,",
+      "source_xml": "<entry id=\"J00134\">\n<head-word>יְהוֹרָם, </head-word>\n<head-word>יוֹרָם</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jehoram, Joram</italic>, 1) son of Ahab, king of Israel.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> son of Ahab, king of Israel. Ber. 10\n<sup>a</sup>. Ex. R. s. 31; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> son of Joshafat, king of Judah. Hor. 11\n<sup>b</sup>, v. \n<xref rid=\"J00118\">יֵהוּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12240,
+      "source_id": "jastrow-xml-012240",
+      "canonical_entry_id": "J00135",
+      "headword": "יְהוֹשׁוּעַ,",
+      "source_xml": "<entry id=\"J00135\">\n<head-word>יְהוֹשׁוּעַ, </head-word>\n<head-word>יְהוֹשֻׁעַ</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joshua</italic>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>J.</italic></definition>\n<notes>\n<italic> bin Nun</italic>, the successor of Moses. Ab. I, 1. Ber. 4\n<sup>a</sup> bot. B. Kam. 80\n<sup>b</sup>, sq. עשרה … התנה י' וכ' J., on conquering the promised land, laid down ten conditions (regulations) &amp;c.; Erub. 17\n<sup>a</sup>; a. v. fr.—Meg. I, 1, a. fr. מומות י' בן נון \n<italic>dating from the days of the conquest or before</italic></notes></sense>\n<sense>\n<number>—2)</number>\n<definition> the high-priest of the returning Babylonian exiles. Snh. 93\n<sup>a</sup>; a. e.—3) name of several Tannaim; a) J.</definition>\n<notes>; a. e.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> name of several Tannaim; a) J. b. Praḥya. Ab. I, 6; a. fr.—b) R. J.</definition>\n<notes> b. Ḥǎnania, mostly quoted as R. J. only. Maas. Sh. V, 9. Erub. IV, 1; 2. Ḥag. 5\n<sup>b</sup>; a. v. fr.; and others (v. Fr. Darkhé pp. 97; 134; 178; 189).</notes></sense>\n<sense>\n<number>—4)</number>\n<definition> name of several Amoraim, esp. R. J. b. Levi. Ber. 3\n<sup>b</sup>; a. v. fr.—R.</definition>\n<notes> J. of Sikhnin. Y. ib. IV, 7\n<sup>b</sup> bot.; a. fr.; and others (v. Fr. M’bo p. 91\n<sup>a</sup>, sq.).—(ספר) י' \n<italic>the Book of Joshua</italic>. B. Bath. 14\n<sup>b</sup>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12241,
+      "source_id": "jastrow-xml-012241",
+      "canonical_entry_id": "J00136",
+      "headword": "יְהוֹשַׁעְיָא",
+      "source_xml": "<entry id=\"J00136\">\n<head-word>יְהוֹשַׁעְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"E00288\">הוֹשַׁעְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12242,
+      "source_id": "jastrow-xml-012242",
+      "canonical_entry_id": "J00137",
+      "headword": "יְהוֹשָׁפָט",
+      "source_xml": "<entry id=\"J00137\">\n<head-word>יְהוֹשָׁפָט</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joshafat</italic>, king of Judah.</definition>\n<notes> Sabb. 56\n<sup>b</sup>. Gen. R. s. 33; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12243,
+      "source_id": "jastrow-xml-012243",
+      "canonical_entry_id": "J00138",
+      "headword": "יהט",
+      "source_xml": "<entry id=\"J00138\">\n<head-word>יהט</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00280\">יְחַט</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12244,
+      "source_id": "jastrow-xml-012244",
+      "canonical_entry_id": "J00139",
+      "headword": "יְהִי",
+      "source_xml": "<entry id=\"J00139\">\n<head-word>יְהִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00283\">יְחִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12245,
+      "source_id": "jastrow-xml-012245",
+      "canonical_entry_id": "J00140",
+      "headword": "יָהִיר",
+      "source_xml": "<entry id=\"J00140\">\n<head-word>יָהִיר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָהַר)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>glittering</italic>,] \n<italic>showy, proud, aristocratic</italic>.</definition>\n<notes>—\n<plural-form>Pl. יְהִירִים</plural-form>. Sot. 47\n<sup>b</sup>, v. מָשַׁךְ; Tosef. ib. XIV, 8 (ed. Zuck. יְהִרִים).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12246,
+      "source_id": "jastrow-xml-012246",
+      "canonical_entry_id": "J00141",
+      "headword": "יָהִיר",
+      "source_xml": "<entry id=\"J00141\">\n<head-word>יָהִיר</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Hab. II, 5 י' ברשע boastful of his wickedness.—Ḥull. 111\n<sup>b</sup> top כמה י' וכ' how assuming is this scholar!; cmp. יוֹהֲרָא.—[Meg. 29\n<sup>a</sup> האי מאן די' וכ' he who is proud, has a certain blemish (missing in Mss., v. Rabb. D. S. a. l. note).]—B. Bath. 98\n<sup>a</sup>, v. יְהַר.—\n<plural-form>Pl. יְהִירֵי</plural-form>. Snh. 98\n<sup>a</sup>, v. אַמְגּוֹשָׁא.—\n<italic>Fem. </italic>\n<plural-form>pl. יְהִירָן</plural-form>. Meg. 14\n<sup>b</sup> תרתי נשי י' וכ' there were two proud women (Deborah and Huldah), and their names are invidious.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12247,
+      "source_id": "jastrow-xml-012247",
+      "canonical_entry_id": "J00142",
+      "headword": "יְהִירוּתָא",
+      "source_xml": "<entry id=\"J00142\">\n<head-word>יְהִירוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>haughtiness</italic>.</definition>\n<notes> Meg. 14\n<sup>b</sup> לא יאה י' וכ' pride is unbecoming to women.—V. יוֹהֲרָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12248,
+      "source_id": "jastrow-xml-012248",
+      "canonical_entry_id": "J00143",
+      "headword": "יָהִר",
+      "source_xml": "<entry id=\"J00143\">\n<head-word>יָהִר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00140\">יָהִיר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12249,
+      "source_id": "jastrow-xml-012249",
+      "canonical_entry_id": "J00144",
+      "headword": "יָהַר",
+      "source_xml": "<entry id=\"J00144\">\n<head-word>יָהַר</head-word>\n<senses>\n<sense>\n<definition> (cmp. אור, נהר) \n<italic>to be shining, showy, proud</italic>, v. \n<xref rid=\"J00140\">יָהִיר</xref>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְיָהֵר</binyan-form>\n<senses>\n<sense>\n<definition> (denom. of יָהִיר) \n<italic>to assume airs, to be boastful</italic>.</definition>\n<notes> Pes. 66\n<sup>b</sup> כל המִתְיָהֵר וכ' whoever is boastful, if he is wise, his wisdom will desert him &amp;c. B. Bath. 10\n<sup>b</sup> שׁאין עושין אלא להִתְיָהֵר בו they do good only to boast themselves thereof; וכל המתיהר וכ' and whoever boasts, falls a prey to Gehenna.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12250,
+      "source_id": "jastrow-xml-012250",
+      "canonical_entry_id": "J00145",
+      "headword": "יְהַר",
+      "source_xml": "<entry id=\"J00145\">\n<head-word>יְהַר</head-word>\n<language-key> ch.,</language-key>\n<senses>\n<sense>\n<definition>\n<italic>Ithpa.</italic> אִיָּהֵר, \n<italic>Ithpe.</italic> אִיהַר same.</definition>\n<notes> Sot. 47\n<sup>b</sup> האי מאן דמֵיהַר וכ' an overbearing man is unpopular even with his own household; B. Bath. 98\n<sup>a</sup>; Yalk. Hab. 562 דיָהִיר.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12251,
+      "source_id": "jastrow-xml-012251",
+      "canonical_entry_id": "J00146",
+      "headword": "יוֹאָב",
+      "source_xml": "<entry id=\"J00146\">\n<head-word>יוֹאָב</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joab</italic>, general of king David.</definition>\n<notes> B. Bath. 116\n<sup>a</sup>. Snh. 48\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12252,
+      "source_id": "jastrow-xml-012252",
+      "canonical_entry_id": "J00147",
+      "headword": "יוֹאֵל",
+      "source_xml": "<entry id=\"J00147\">\n<head-word>יוֹאֵל</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joel</italic>, the prophet.</definition>\n<notes> Taan. 5\n<sup>a</sup>. Succ. 52\n<sup>a</sup>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12253,
+      "source_id": "jastrow-xml-012253",
+      "canonical_entry_id": "J00148",
+      "headword": "יואני",
+      "source_xml": "<entry id=\"J00148\">\n<head-word>יואני</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"F00008\">וָאנַי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12254,
+      "source_id": "jastrow-xml-012254",
+      "canonical_entry_id": "J00149",
+      "headword": "יוֹאָשׁ",
+      "source_xml": "<entry id=\"J00149\">\n<head-word>יוֹאָשׁ</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joash</italic>, king of Judah.</definition>\n<notes> Tosef., Snh. IV, 11; Y. Hor. III, 47\n<sup>c</sup> bot.; Bab. ib. 11\n<sup>b</sup> ואת י' מפני עתלי' and they anointed J. on account of his opposition to Athalia; cmp. יֵהוּא. Snh. 95\n<sup>b</sup>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12255,
+      "source_id": "jastrow-xml-012255",
+      "canonical_entry_id": "J00150",
+      "headword": "יוּבְדָּנָא",
+      "source_xml": "<entry id=\"J00150\">\n<head-word>יוּבְדָּנָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יבד) \n<italic>perdition</italic>.</definition>\n<notes> Targ. Prov. XI, 10 (Ms. מוֹבְדָנָא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12256,
+      "source_id": "jastrow-xml-012256",
+      "canonical_entry_id": "J00151",
+      "headword": "יוֹבֵילָא",
+      "source_xml": "<entry id=\"J00151\">\n<head-word>יוֹבֵילָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00153\">יוּבְלָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12257,
+      "source_id": "jastrow-xml-012257",
+      "canonical_entry_id": "J00152",
+      "headword": "יוֹבֵל",
+      "source_xml": "<entry id=\"J00152\">\n<head-word>יוֹבֵל</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָבַל)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (cmp. בַּרְחָא, נָגוֹדָא) \n<italic>leader, bellwether, ram</italic>.</definition>\n<notes> Y. Ber. IX, 13\n<sup>c</sup> top (ref. to קרן יובל, Josh. VI, 5) בערביא … יובלא in Arabia they call a ram \n<italic>yubla;</italic> R. Hash. 26\n<sup>a</sup></notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (ellipt. for קֶרֶן הַיּ') \n<italic>ram’s horn</italic>.</definition>\n<notes> Mekh. Yithro, Baḥod., s. 3 (ref. to Ex. XIX, 14) בשימשוך הי' את קולו when the horn prolongs its sound; Yalk. Ex. 281.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> c. (ellipt. for שְׁנַת הַיּ') \n<italic>Jubilee, Yobel-year, the fiftieth year, the year following the succession of seven Sabbatical years</italic> (Lev. XXV, 8—16; 23—24).</definition>\n<notes> R. Hash. III, 5 שוה הי' לר\"ה the proclamation of the Jubilee resembles that of the New Year as to blowing &amp;c.—Arakh. 12\n<sup>b</sup> בתחלת הי' at the beginning of the Jubilee cycle; a. fr.—\n<plural-form>Pl. יוֹבְלוֹת</plural-form>. R. Hash. l. c. Arakh. l. c. י\"ז י' מנו וכ the Israelites counted seventeen jubilee cycles from their entrance into the Holy Land to their leaving it.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12258,
+      "source_id": "jastrow-xml-012258",
+      "canonical_entry_id": "J00153",
+      "headword": "יוּבְלָא",
+      "source_xml": "<entry id=\"J00153\">\n<head-word>יוּבְלָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>ram</italic>.</definition>\n<notes> Y. Ber. IX, 13\n<sup>c</sup> top; R. Hash. 26\n<sup>a</sup>, v. preced. (cmp. Targ. Josh. VI, 4, sq.).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>Jubilee</italic>.</definition>\n<notes> Targ. O. Lev. XXV, 10 יוֹבֵלָא (ed. Berl. יוֹבֵילָא, ed. Amst. יוֹבָלָא; Y. יוּבָלָא); a. fr.—\n<plural-form>Pl. יוּבְלֵי</plural-form>. Arakh. 12\n<sup>b</sup> תמניא י' eight jubilee cycles; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12259,
+      "source_id": "jastrow-xml-012259",
+      "canonical_entry_id": "J00154",
+      "headword": "יוֹבֶלֶת",
+      "source_xml": "<entry id=\"J00154\">\n<head-word>יוֹבֶלֶת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00057\">יַבֶּלֶת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12260,
+      "source_id": "jastrow-xml-012260",
+      "canonical_entry_id": "J00155",
+      "headword": "יוּבְּקָא",
+      "source_xml": "<entry id=\"J00155\">\n<head-word>יוּבְּקָא</head-word>\n<pos> pr. n.</pos>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">יַבֹּק)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>Yubka</italic>, name of a brook, a valley and a border place.</definition>\n<notes> Targ. O. Gen. XXXII, 23 ed. Berl. (oth. ed. a. Y. יוּבְ'). Targ. O. Deut. III, 16 יוּבְ' נחלא ed. Berl. (oth. ed. a. Y. יוּבְ' דנ'); a. e.—Y. Shebi. VI, 36\n<sup>c</sup> חשבון ויבקא; Sifré Deut. 51 משקא וחשבון; Yalk. ib. 874 יוסקא וח' (corr. acc.); Tosef. Shebi. IV, 11 יוקפא ed. Zuck. (Var. יבקא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12261,
+      "source_id": "jastrow-xml-012261",
+      "canonical_entry_id": "J00156",
+      "headword": "יוֹבֶשׁ,",
+      "source_xml": "<entry id=\"J00156\">\n<head-word>יוֹבֶשׁ, </head-word>\n<head-word>יוּבְשָׁא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יְבַשׁ) \n<italic>dry matter, dry condition</italic>.</definition>\n<notes> Targ. II Chr. IV, 5 בי' in dry measure. Targ. Jud. VI, 37, 39, sq.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12262,
+      "source_id": "jastrow-xml-012262",
+      "canonical_entry_id": "J00157",
+      "headword": "יוֹבְשָׁנִי",
+      "source_xml": "<entry id=\"J00157\">\n<head-word>יוֹבְשָׁנִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"J00156\">preced.</xref>) \n<italic>rainless land</italic>.</definition>\n<notes> Taan. 10\n<sup>a</sup>, v. טוֹבְעָנִי I.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12263,
+      "source_id": "jastrow-xml-012263",
+      "canonical_entry_id": "J00158",
+      "headword": "יו\"ד",
+      "source_xml": "<entry id=\"J00158\">\n<head-word>יו\"ד</head-word>\n<senses>\n<sense>\n<definition>\n<italic>Yod</italic>, the tenth letter of the Alphabet.</definition>\n<notes> Y. Shebi. I, 33\n<sup>b</sup> bot.; Sabb. 103\n<sup>b</sup>; Taan. 2\n<sup>b</sup> הרי מ\"ם יו\"ד מ\"ם הרי מים the Mem of ונסכיהם̇ (Num. XXIX, 19), the Yod of ונסכיֹה (ib. 3</notes></sense>\n<sense>\n<number>1)</number>\n<definition>, and the Mem of כמשפטם̇ (ib. 33) intimate \n<italic>water</italic> as libation.</definition>\n<notes> Gen. R. s. 47, beg.; Num. R. s. 18. Y. Snh. II, 20\n<sup>c</sup> bot., a. e. יו\"ד שבירבה וכ' the Yod in \n<italic>yarbeh</italic> (Deut. XVII, 16, sq.) denounced him (Solomon); a. e.—\n<plural-form>Pl. יוּדִים, יוּדִין</plural-form>. Sifré Deut. 36 לווים י' ולי' וכ' if he made the Vav like Yod or vice versa; Sabb. l. c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12264,
+      "source_id": "jastrow-xml-012264",
+      "canonical_entry_id": "J00159",
+      "headword": "יוּד",
+      "source_xml": "<entry id=\"J00159\">\n<head-word>יוּד</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yud</italic>.</definition>\n<notes> Taan. 22\n<sup>b</sup> רמי בר רב י' ed. (Ms. M. רב יהודה אמר רב; v. Rabb. D. S. a. l. notes 1, 2). Ib. 9\n<sup>a</sup> רמי בר רב י' Ms. M. 2 (v. Rabb. D. S. a. l. note 60); Sabb. 32\n<sup>b</sup> Ms. M.; (Macc. 23\n<sup>b</sup> רמי בר רב only); Zeb. 55\n<sup>b</sup> Ms. M. (ed. יודא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12265,
+      "source_id": "jastrow-xml-012265",
+      "canonical_entry_id": "J00160",
+      "headword": "יוּדָא",
+      "source_xml": "<entry id=\"J00160\">\n<head-word>יוּדָא</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yuda</italic>, an Amora.</definition>\n<notes> Y. Ned. VII, beg. 40\n<sup>b</sup>. Zeb. 55\n<sup>b</sup>, v. preced.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12266,
+      "source_id": "jastrow-xml-012266",
+      "canonical_entry_id": "J00161",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00161\">\n<head-word>*, </head-word>\n<head-word>*יוּדַאי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m. = יְהוּדָאָה. Y. Ab. Zar. II, 41\n<sup>a</sup> top והוה י' אזיל וכ' and when a Jew came to have his hair cut &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12267,
+      "source_id": "jastrow-xml-012267",
+      "canonical_entry_id": "J00162",
+      "headword": "יודאפא",
+      "source_xml": "<entry id=\"J00162\">\n<head-word>יודאפא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read: יוֹדְפָאָה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12268,
+      "source_id": "jastrow-xml-012268",
+      "canonical_entry_id": "J00163",
+      "headword": "יוּדָה",
+      "source_xml": "<entry id=\"J00163\">\n<head-word>יוּדָה</head-word>\n<head-word>יְהוּדָה, </head-word>\n<head-word>.</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Ber. III, 6\n<sup>a</sup> bot.; a. fr.—V. Frank. M’bo, p. 92\n<sup>a</sup>, sq. V. יוּדָן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12269,
+      "source_id": "jastrow-xml-012269",
+      "canonical_entry_id": "J00164",
+      "headword": "יודייה",
+      "source_xml": "<entry id=\"J00164\">\n<head-word>יודייה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Succ. IV, 54\n<sup>c</sup> top, read: וַודָּיָיה, v. \n<xref rid=\"F00014\">וַדַּאי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12270,
+      "source_id": "jastrow-xml-012270",
+      "canonical_entry_id": "J00165",
+      "headword": "יודיקי",
+      "source_xml": "<entry id=\"J00165\">\n<head-word>יודיקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00171\">יודקי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12271,
+      "source_id": "jastrow-xml-012271",
+      "canonical_entry_id": "J00166",
+      "headword": "יוּדָן",
+      "source_xml": "<entry id=\"J00166\">\n<head-word>יוּדָן</head-word>\n<head-word>יְהוּדָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> q. v. Y. Ber. III, 6\n<sup>a</sup> bot., a. fr. ר' י' נשייא R. J. (II), the Nasi; (V. Fr. M’bo p. 92\n<sup>a</sup>, sq.).—Pesik. R. \n<pgbrk id=\"pg568\" />s. 14 ר' י'.—Gen. R. s. 10 אבא י' (abbr. אַבְדָּן q. v.).—Y. Ber. II, 5\n<sup>a</sup> top. Ib. IX, 14\n<sup>a</sup> top; a. v. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12272,
+      "source_id": "jastrow-xml-012272",
+      "canonical_entry_id": "J00167",
+      "headword": "יוּדֵן",
+      "source_xml": "<entry id=\"J00167\">\n<head-word>יוּדֵן</head-word>\n<senses>\n<sense>\n<definition> (= הוּ דֵן) \n<italic>is this</italic>.</definition>\n<notes> Targ. II Esth. VII, 5 (h. text הוא זה, זה הוא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12273,
+      "source_id": "jastrow-xml-012273",
+      "canonical_entry_id": "J00168",
+      "headword": "יוּדָנָה,",
+      "source_xml": "<entry id=\"J00168\">\n<head-word>יוּדָנָה, </head-word>\n<head-word>יוּדָנִי</head-word>\n<pos> pr. n. f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"J00166\">יוּדָן</xref>) \n<italic>Yudanah, Yudani</italic>.</definition>\n<notes> Y. Ab. Zar. II, 41\n<sup>a</sup> בר יודנה; Y. Ter. VIII, 45\n<sup>c</sup> bot. בר … י Bar. Y.; cmp. יְהוּדִינְיִי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12274,
+      "source_id": "jastrow-xml-012274",
+      "canonical_entry_id": "J00169",
+      "headword": "יוֹדְפָאָה",
+      "source_xml": "<entry id=\"J00169\">\n<head-word>יוֹדְפָאָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00170\">next w.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12275,
+      "source_id": "jastrow-xml-012275",
+      "canonical_entry_id": "J00170",
+      "headword": "יוֹדְפָת,",
+      "source_xml": "<entry id=\"J00170\">\n<head-word>יוֹדְפָת, </head-word>\n<head-word>יָדְפַת, </head-word>\n<head-word>יָטְבַת</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yodfath, Yotapata</italic>, a fortress in Galilee (v. Jos. B. J. III, 7, 6, sq.; cmp. יָטְבָה II Kings XXI, 19).</definition>\n<notes> Arakh. IX, 6 י' הישנה the old fort of J.—Tosef. Nidd. III, 11 בקעת יטבת the valley of J.; Nidd. 20\n<sup>a</sup> יודפ'.—Denom. יוֹדְפָאָה m. \n<italic>of J</italic>. Zeb. 110\n<sup>b</sup>; Meil. 13\n<sup>b</sup> יודאפה (corr. acc.); Y. Succ. IV, 54\n<sup>c</sup> bot. יוֹתְפָיָיה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12276,
+      "source_id": "jastrow-xml-012276",
+      "canonical_entry_id": "J00171",
+      "headword": "יודקו,",
+      "source_xml": "<entry id=\"J00171\">\n<head-word>יודקו, </head-word>\n<head-word>יודקי, </head-word>\n<head-word>יודיקי, </head-word>\n<head-word>ארכי י'</head-word>\n<senses>\n<sense>\n<definition>, read: יוּדִיקִין\n<pos> m. pl.</pos> (judices) \n<italic>judges;</italic> א' י' \n<italic>chief justice</italic>, v. \n<xref rid=\"A03142\">אַרְכִי III</xref>.</definition>\n<notes> Gen. R. s. 50, beg. Ar.—[Mus. in Ar. ed. Koh. s. v. ארכידיקי, Var. אַרְכִיקְרִיטֵיס (ἀρχικρίτης); ed. א' הדיינים.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12277,
+      "source_id": "jastrow-xml-012277",
+      "canonical_entry_id": "J00172",
+      "headword": "יוֹדְקֶרֶת,",
+      "source_xml": "<entry id=\"J00172\">\n<head-word>יוֹדְקֶרֶת, </head-word>\n<head-word>יָדְ'</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yodkereth</italic> (a disguised translation of \n<italic>Diospolis = Lydda</italic>).</definition>\n<notes> Taan. 23\n<sup>b</sup>, sq. ר' יוסי דמן יודק' Ar. (ed. יוֹקֶרֶת, Ms. M. יוקרת, Ms. M. 2 ידקרת) R. J. of Yodkereth (cmp. ר' יוסי דרומייא, Fr. M’bo, p. 5\n<sup>b</sup>, sq.).—*Kidd. 16\n<sup>b</sup> י' קא חזינא הכא Ar. (ed. יו\"ד קרת) I see here the influence of the Yodk. school; (for other explan., v. Rashi a. l., a. Koh. Ar. Compl. s. v. ידקרת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12278,
+      "source_id": "jastrow-xml-012278",
+      "canonical_entry_id": "J00173",
+      "headword": "יוֹהֲרָא",
+      "source_xml": "<entry id=\"J00173\">\n<head-word>יוֹהֲרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יְהַר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a sparkling gem</italic>.</definition>\n<notes> Targ. Y. Gen. VI, 16.—\n<plural-form>Pl. יוֹהֲרִין</plural-form>. Targ. Esth. I, 4; Targ. Lam. IV, 7 (Var. זְהוֹרִין); Targ. Cant. VII, 2 (ed. Lag. גּוּהֲרִין.).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (= יְהִירוּתָא) \n<italic>haughtiness, assumption</italic>.</definition>\n<notes> Ber. 17\n<sup>b</sup> מחזי כי' it looks like an assumption (to appear more observant than others). Ib. חייש לי' cares for the appearance of assumption (and therefore forbids); Pes. 55\n<sup>a</sup>. Succ. 26\n<sup>b</sup> לית ביה משום י' there is no appearance of presumption to be apprehended in doing so.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12279,
+      "source_id": "jastrow-xml-012279",
+      "canonical_entry_id": "J00174",
+      "headword": "יָוָון,",
+      "source_xml": "<entry id=\"J00174\">\n<head-word>יָוָון, </head-word>\n<head-word>יְוָונָאָה, </head-word>\n<head-word>יְוָונִי, </head-word>\n<senses>\n<sense>\n<definition />\n<notes>\n<bold>,</bold> v. \n<xref rid=\"J00198\">יָוָן</xref>, \n<xref rid=\"unknown\">יְוָנ'.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12280,
+      "source_id": "jastrow-xml-012280",
+      "canonical_entry_id": "J00175",
+      "headword": "יוֹזִיף",
+      "source_xml": "<entry id=\"J00175\">\n<head-word>יוֹזִיף</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יְזַף) \n<italic>debtor</italic>.</definition>\n<notes> Targ. Prov. XXII, 7; v. יַזְפָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12281,
+      "source_id": "jastrow-xml-012281",
+      "canonical_entry_id": "J00176",
+      "headword": "יוֹחַאי,",
+      "source_xml": "<entry id=\"J00176\">\n<head-word>יוֹחַאי, </head-word>\n<head-word>יוֹחַי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yo</italic>\n<italic>ḥ</italic>\n<italic>ai</italic>, esp. known Y. the father of R. Simeon.</definition>\n<notes> Sabb. 33\n<sup>b</sup>; a. v. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12282,
+      "source_id": "jastrow-xml-012282",
+      "canonical_entry_id": "J00177",
+      "headword": "יוֹחָנָא,",
+      "source_xml": "<entry id=\"J00177\">\n<head-word>יוֹחָנָא, </head-word>\n<hw-number>I</hw-number>\n<head-word>יוֹחָנָה</head-word>\n<senses>\n<sense>\n<definition>\n<italic>Yo</italic>\n<italic>ḥ</italic>\n<italic>ana</italic>.</definition>\n<notes>. </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> pr. n. m. Ḥull. 133\n<sup>a</sup> מר י'; Ab. Zar. 16\n<sup>b</sup> מר יוֹחָנִי.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> pr. n. pl. Gen. R. s. 40, beg.; ib. s. 25, end; ib. s. 64, beg.; Midr. Sam. ch. XXVIII, a. e. (prov.) שילה חטייא וי' משתלמא (not חטא) Shilo sinned a. Y. is punished (i.e. the later generation pays for the sins of ancestors).—V. יוֹחָנִי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12283,
+      "source_id": "jastrow-xml-012283",
+      "canonical_entry_id": "J00178",
+      "headword": "יוֹחָנָא,",
+      "source_xml": "<entry id=\"J00178\">\n<head-word>יוֹחָנָא, </head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yo</italic>\n<italic>ḥ</italic>\n<italic>ana</italic>, name of a species of \n<italic>locusts</italic>.</definition>\n<notes> Sifra Sh’mini, Par. 3, ch. V; Ḥull. 65\n<sup>a</sup> י' ירושלמית the Jerusalem Y.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12284,
+      "source_id": "jastrow-xml-012284",
+      "canonical_entry_id": "J00179",
+      "headword": "יוֹחָנִי",
+      "source_xml": "<entry id=\"J00179\">\n<head-word>יוֹחָנִי</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yo</italic>\n<italic>ḥ</italic>\n<italic>ani</italic>; </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> pr. n. m. Ab. Zar. 16\n<sup>b</sup>, v. \n<xref rid=\"unknown\">יוֹחָנָא I</xref>.—Men. 85\n<sup>a</sup> י' וממרא (some ed. יוחנא) Y. and Mamre (two Egyptian sorcerers); v. יַנִּיס—Esth. R. to I, 4 בר י' (some ed. יוחני') Bar-Y.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> pr. n. f.—Zeb. 62\n<sup>b</sup> (a fictitious name).—Sot. 22\n<sup>a</sup> י' בת רטיבי (a hypocritical sorceress, v. Rashi a. l.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12285,
+      "source_id": "jastrow-xml-012285",
+      "canonical_entry_id": "J00180",
+      "headword": "יוֹחָנָן",
+      "source_xml": "<entry id=\"J00180\">\n<head-word>יוֹחָנָן</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Johanan, John;</italic> 1) J.</definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> J. ben Kareah, a follower of the Babylonian governor of Judaea (Jer. XL, 8 sq.). Esth. R. introd., beg.; Y. Succ. V, 55\n<sup>b</sup> top; Mekh. B’shall., Vayhi, s. 2.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> John Hyrcan, the Asmonean highpriest and king (י' כהן גדול). Maash. Sh. V, 15; Sot. IX, 10; a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition />\n<notes> name of several Tannaim, esp. a) Rabban J. b. Zaccai. Ab. II, 8. R. Hash. IV, 3. Mekh. Yithro, Baḥod., s. 11. Sot. IX, 9; 15. Gitt. 56\n<sup>a</sup>, sq.; a. v. fr.—b) R. J. b. Bag-Bag (usu. only Ben-Bag-Bag). Y. Keth. V, 29\n<sup>d</sup> bot. B. Kam. 27\n<sup>b</sup>; a. fr.—c) R. J. b. B’roka. B. Kam. X, 2; a. fr.—d) R. J. b. Godgada. Eduy. VII, 9; a. e.—e) R. J. has-Sandlar. Ab. IV, 11; a. fr.—f) R. J. b. Nuri. Erub. IV, 5; Gitt. 67\n<sup>a</sup>; a. fr.; </notes></sense>\n<sense>\n<number>4)</number>\n<definition />\n<notes> name of several Amoraim, esp. R. J. han-Nappaḥ or Bar Nafḥa (the Smith). Y. R. Hash. II, 58\n<sup>b</sup> top. Ḥull. 137\n<sup>b</sup>; a. v. fr. (as R. J. only); v. Fr. M’bo p. 95\n<sup>b</sup>, sq.—V. חִיקוֹק.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12286,
+      "source_id": "jastrow-xml-012286",
+      "canonical_entry_id": "J00181",
+      "headword": "יוֹחָס",
+      "source_xml": "<entry id=\"J00181\">\n<head-word>יוֹחָס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, pl. יוֹחֲסִים, (יָחַס) יוֹחֲסִין \n<italic>genealogical records, traced genealogy</italic>.</definition>\n<notes> Kidd. IV, 1 עשרה י' עלו וכ' ten classes of Jews of traced genealogy went up from Babylonian captivity. Y. Taan. IV, 68\n<sup>a</sup> bot.; Gen. R. s. 98 מגילת י' מצאו וכ' a roll containing genealogical records was found &amp;c. Yeb. IV, 13; ib. 49\n<sup>b</sup>.—Y. Succ. V, end, 55\n<sup>d</sup>; Cant. R. to V, 5 שלשלת (ה)י' the genealogical chain; Gen. R. s. 82. Ib. בכורת י' the genealogical privileges of the first-born, opp. to בכורת ממון the material privileges (double-share). Ruth R., end מה אתם יש לכם י' what records have you to show?—Pes. 62\n<sup>b</sup> מיום שנגנז ספר י' since the Book of Genealogy (a commentary to Chronicles) was suppressed (or disappeared, in the Roman days). Ib. ניתני לי מר ספר י' teach me the book of records (Chronicles); a. e.—V. יִחוּס.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12287,
+      "source_id": "jastrow-xml-012287",
+      "canonical_entry_id": "J00182",
+      "headword": "יוֹכֶבֶד",
+      "source_xml": "<entry id=\"J00182\">\n<head-word>יוֹכֶבֶד</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. f.</pos>\n<italic>Jochebed</italic>, the mother of Moses and Aaron.</definition>\n<notes> Sot. 12\n<sup>a</sup>; B. Bath. 120\n<sup>a</sup>; Ex. R. s. 1; Gen. R. s. 94; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12288,
+      "source_id": "jastrow-xml-012288",
+      "canonical_entry_id": "J00183",
+      "headword": "יוּכְלָא",
+      "source_xml": "<entry id=\"J00183\">\n<head-word>יוּכְלָא</head-word>\n<pos> f.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"J00360\">יְכוֹלֶת</xref></language-reference>\n<senses>\n<sense>\n<definition> , \n<italic>power, ability</italic>.</definition>\n<notes> Targ. Y. Gen. IV, 13. Targ. Num. XIV, 16; a. e.; v. יְכוּלְתָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12289,
+      "source_id": "jastrow-xml-012289",
+      "canonical_entry_id": "J00184",
+      "headword": "יוֹכָנִי,",
+      "source_xml": "<entry id=\"J00184\">\n<head-word>יוֹכָנִי, </head-word>\n<head-word>בַּר י'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Bar-Yokhani</italic>, name of a fabulous bird.</definition>\n<notes> Bekh. 57\n<sup>b</sup>. Yoma 80\n<sup>a</sup> (Ms. M. 2 בריכני, v. Rabb. D. S. a. l. note 9); Succ. 5\n<sup>b</sup> top.—[Koh. Ar. Compl. s. v. בר (vol. II, p. 176) refers to \n<italic>Varaghna</italic> (Bactrian) \n<italic>ostrich</italic>.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12290,
+      "source_id": "jastrow-xml-012290",
+      "canonical_entry_id": "J00185",
+      "headword": "יָוַל",
+      "source_xml": "<entry id=\"J00185\">\n<head-word>יָוַל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00049\">יָבַל</xref> Hif.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12291,
+      "source_id": "jastrow-xml-012291",
+      "canonical_entry_id": "J00186",
+      "headword": "יוּלָּד",
+      "source_xml": "<entry id=\"J00186\">\n<head-word>יוּלָּד</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00367\">יָלַד</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12292,
+      "source_id": "jastrow-xml-012292",
+      "canonical_entry_id": "J00187",
+      "headword": "יוֹלֵד",
+      "source_xml": "<entry id=\"J00187\">\n<head-word>יוֹלֵד</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> יוֹלְדִים \n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָלַד)</xref></language-reference>\n<italic>parents</italic>.</definition>\n<notes> Keth. VII, 6 המקללת יוֹלְדָיו בפניו she who curses his (her husband’s) parents in his presence; quot. ib. 72\n<sup>b</sup> יוֹלֵידָיו (an emphatic form), and interpreted במקללת יוֹלֵידָיו בפני מוֹלֵידָיו (v. מוֹלֵד) also when she curses his parents before any one of his begotten; Y. ib. VII, 31\n<sup>b</sup> bot. וולדיו בפני יולדיו, v. וָלָד.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12293,
+      "source_id": "jastrow-xml-012293",
+      "canonical_entry_id": "J00188",
+      "headword": "יוֹלֵדָה,",
+      "source_xml": "<entry id=\"J00188\">\n<head-word>יוֹלֵדָה, </head-word>\n<head-word>יוֹלֶדֶת</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) \n<italic>a woman in confinement; a mother.</italic></definition>\n<notes> Ab. II, 8 אשרי יוֹלַדְתּוֹ blessed is his mother.—\n<plural-form>Pl. יוֹלְדוֹת</plural-form>. Sabb. 32\n<sup>a</sup> נשים מתות י' women die in confinement (v. לֵידָה); Y. ib. II, 5\n<sup>b</sup> top; v. יַלְדָּה.—Sot. I, 5 את הי' (not יולדת) the women appearing in the Temple after confinement.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12294,
+      "source_id": "jastrow-xml-012294",
+      "canonical_entry_id": "J00189",
+      "headword": "יוֹלַדְתָּא",
+      "source_xml": "<entry id=\"J00189\">\n<head-word>יוֹלַדְתָּא</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>midwife</italic>, v. \n<xref rid=\"J00373\">יְלַדְתָּא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12295,
+      "source_id": "jastrow-xml-012295",
+      "canonical_entry_id": "J00190",
+      "headword": "יוֹלֵיד",
+      "source_xml": "<entry id=\"J00190\">\n<head-word>יוֹלֵיד</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00186\">יוֹלֵד</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12296,
+      "source_id": "jastrow-xml-012296",
+      "canonical_entry_id": "J00191",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00191\">\n<head-word>*, </head-word>\n<head-word>*יוֹלִימְנָא</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Yolimna</italic>, an Amora.</definition>\n<notes> Pesik. R. s. 7, beg.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12297,
+      "source_id": "jastrow-xml-012297",
+      "canonical_entry_id": "J00192",
+      "headword": "יולין",
+      "source_xml": "<entry id=\"J00192\">\n<head-word>יולין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pes. 39\n<sup>a</sup>, חזרת י', v. \n<xref rid=\"H00275\">חַוְורוּלִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12298,
+      "source_id": "jastrow-xml-012298",
+      "canonical_entry_id": "J00193",
+      "headword": "יוּלְפָנָא",
+      "source_xml": "<entry id=\"J00193\">\n<head-word>יוּלְפָנָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יְלַף) = אוּלְפָנָא, \n<italic>instruction</italic>.</definition>\n<notes> Targ. Prov. IV, 2.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12299,
+      "source_id": "jastrow-xml-012299",
+      "canonical_entry_id": "J00194",
+      "headword": "יוֹם",
+      "source_xml": "<entry id=\"J00194\">\n<head-word>יוֹם</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>light, day</italic> (opp. night); (\n<italic>astronomical</italic>) \n<italic>day;</italic> trnsf. \n<italic>day of life; time</italic>.</definition>\n<notes> Gen. R. s. 6 הי' והגשמים וכ' the noise of the moving light (Yoma 20\n<sup>b</sup> קול גלגל חמה) and the rains &amp;c.; Midr. Sam. ch. IX. Gen. R. l. c. (ref. to Mal. III, 19) י' שהוא מלהט וכ' it is the day light which will glow the wicked (cmp. נַרְתֵּק). M. Kat. 25\n<sup>b</sup> (ref. to Am. VIII, 9) זה יוֹמוֹ של וכ' that means the day of life of Josiah (who was slain in the bloom of manhood). Gen. R. s. 3 (ref. to ib. I, 5) י' אחד … ואיזה זה יוה\"כ ‘one (distinguished) day’ … that is the Day of Atonement. Ḥull. V, 5 (83\n<sup>a</sup>) הי' הולך וכ' the day follows the night, i.e. the beginning of the night is the beginning of the new day. Taan. 29\n<sup>a</sup>, v. זַכַּאי; a. v. fr.—י' טוב (abbr. יו\"ט) \n<italic>Holy Day; festival</italic>. R. Hash. IV, 1; a. fr.—Yoma VII, 4 ויו\"ט היה וכ' and the Highpriest gave a festival to his friends; a. fr.—\n<italic>Yom Tob</italic>, name of a treatise of the Tosefta (v. בֵּיצָה).—י' הכפורים (abbr. יו\"כ, יה\"כ) Day of Atonement. Yoma I, 1; a. v. fr.—בֶּן יוֹמוֹ \n<italic>of the same day, not quite one day old, used on the same day</italic>. Sabb. 151\n<sup>b</sup>. B. Kam. 65\n<sup>b</sup>; a. fr.—Tanḥ. Kor. 3; ed. Bub. 6; Num. R. s. 18 תינוקות בְּנֵי יוֹמָן (not בן) children just born; a. fr.—\n<italic>Du.</italic> יוֹמַיִם. Mekh. Mishp., N’zikin, s. 7; B. Kam. 90\n<sup>a</sup> ישנו בדין יום או י' comes under the law of ‘one or two days’ (Ex. XXI, 2</notes></sense>\n<sense>\n<number>1)</number>\n<definition>; B. Bath. 50\n<sup>a</sup>.</definition>\n<notes>—Mekh. l. c. יום שהוא כי' וי' שהוא כיום a time which counts like two days, and two days which count like a day, which is twenty four hours (from the time of the accident, including part of this and part of the next day).—Snh. 65\n<sup>b</sup> מה יום מיומים (Ms. M. a. Rashi מה היום וכ') what difference is there between to-day (Sabbath) and the next day?; Gen. R. s. 11; Yalk. Deut. 918; Yalk. Lev. 617.—\n<plural-form>Pl. יָמִים;</plural-form> constr. יְמֵי, יְמוֹת. Erub. III, 6 לשני י' for both days. Zeb. V, 7 לשני י' during two days and one night. Pes. 52\n<sup>a</sup>, a. fr. שני י' טובים של גליות, v. גָּלוּת. Taan. IV, 8 לא היו י' ט' וכ' Israel had no days as merry as &amp;c.; a. fr.—Ab. I, 17, a. fr. כל יָמַי all my lifetime.—Esp. יְמוֹת \n<italic>season, period of</italic>. י' הגשמים, v. גֶּשֶׁם I.—י' החמה a) \n<italic>summer season.</italic> Toh. VI, 7; a. fr.—b) \n<italic>the solar year</italic>. Gen. R. s. 33, end; a. fr.—י' הלבנה \n<italic>the lunar year</italic>. Ib.; a. fr.—י' בגרות, י' נערות, v. בַּגְרוּת &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12300,
+      "source_id": "jastrow-xml-012300",
+      "canonical_entry_id": "J00195",
+      "headword": "יוֹם,",
+      "source_xml": "<entry id=\"J00195\">\n<head-word>יוֹם, </head-word>\n<head-word>יוֹמָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Gen. I, 5. Ib. XXXIX, 11; a. fr.—Targ. Prov. XII, 16 בר יוֹמֵיה (ed. Wil. incorr. כד) on the same day, \n<italic>at once</italic>.—Kidd. 39\n<sup>b</sup> דעבדין ליה י' טב וי' ביש they prepare for him (the righteous man) a good day, and (for the bad man) a bad day (v. Rashi a. Tosaf. a. l.).—Sabb. 134\n<sup>a</sup>; Ḥull. 60\n<sup>a</sup> top להדי י' towards the sunlight. Ib. י' דחד וכ' the sun which is only one of the ministering powers &amp;c. Keth. 106\n<sup>a</sup> וכסי ליה לי' and obscured the sun.—Yeb. 72\n<sup>a</sup> י' דעיבא a cloudy day; י' דשותא a day when a southern wind blows. Erub. 40\n<sup>b</sup> במעלי י' דריש וכ' on the eve of the New Year’s day.—R. Hash. 21\n<sup>a</sup> י' רבה the Great Day, Day of Atonement (also only יומא, v. infra); a. v. fr.—בַּר י', בַּת י' \n<italic>of the same day, one day old, used the same day</italic>. Bets. 4\n<sup>b</sup>, v. בֵּיעָא. Ḥull. 58\n<sup>b</sup>, v. בַּקָּא.—Sabb. 134\n<sup>a</sup> גבינה בת י' fresh-made cheese. Ab. Zar. 67\n<sup>b</sup>, a. fr. קדירה בת י' a pot used the same day.—Sabb. 49\n<sup>b</sup> bot. ההוא מרבנן בר יוֹמֵיה (omitted in Ms. M.) a student that had just come to college; [oth. opin.: allusion to R. Idi, dubbed בר בי רב דחד י' the one day’s student of the college, Ḥag. 5\n<sup>b</sup>].—י' חרא, יום מחרא, י' מחרן, v. next w.—\n<plural-form>Pl. יוֹמִין, יוֹמַיָּא, יוֹמֵי</plural-form>. Targ. Gen. VIII, 10. Targ. Esth. I, 2; a. v. fr.—Bets. 4\n<sup>b</sup> עבדינן תרי י' we observe two days (as Holy Days). Erub. 65\n<sup>a</sup> השתא … י' דאריכי וכ' soon will come the days which are long (of duration) and short (of action), when we shall sleep much; a. v. fr.—יוֹמָא (sub רבה, v. supra) \n<italic>Yoma</italic>, name of a treatise of the Mishnah, Tosefta (where it is named יום כפורים), Talmud Babli a. Y’rushalmi. Yoma 14\n<sup>b</sup> סדר י' the treatise on the order of exercises of the Day of Atonement.—V. יוֹמָנָא, יְמָמָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12301,
+      "source_id": "jastrow-xml-012301",
+      "canonical_entry_id": "J00196",
+      "headword": "יוֹמָחְרָא,",
+      "source_xml": "<entry id=\"J00196\">\n<head-word>יוֹמָחְרָא, </head-word>\n<head-word>יוֹמָחֲרָן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= יומא אוחרא, י' אוחרן) \n<italic>tomorrow, next day</italic>.</definition>\n<notes> Targ. Y. Ex. XIX, 10 (ed. Amst. יום מחרא). Targ. Esth. III, 4 ed. Lag. (ed. Amst. יומא). Targ. Y. Lev. VII, 16 (ed. Amst. יום מחרן); a. e. [Targ. II Chr. XX, 16 יומא חרא, ed. Lag. יומא אחרא.]—V. חֲרָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12302,
+      "source_id": "jastrow-xml-012302",
+      "canonical_entry_id": "J00197",
+      "headword": "יוֹמָנָא",
+      "source_xml": "<entry id=\"J00197\">\n<head-word>יוֹמָנָא</head-word>\n<senses>\n<sense>\n<definition> (contr. of יוֹמָא דְנָא) \n<italic>this day, this life</italic>.</definition>\n<notes> Targ. Y. Deut. XXVII, 1.—Targ. Y. I Deut. XXVI, 17 (Y. II יומא דין); ib. 18. Targ. Prov. VII, 14. [Ib. v. 20 וליומנא וועידא Ms., ed. וליומא דעידא.] Targ. Ps. XXIII, 6 נגדא די' (h. text ארך ימים).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12303,
+      "source_id": "jastrow-xml-012303",
+      "canonical_entry_id": "J00198",
+      "headword": "יָוֵן",
+      "source_xml": "<entry id=\"J00198\">\n<head-word>יָוֵן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> יון \n<italic>to be thick, dark</italic>,\n<language-reference>\n<xref rid=\"A00083\"> cmp. יַיִן)</xref></language-reference>\n<italic>thickness</italic>, טיט הי' \n<italic>thick, heavy clay</italic>, opp. to טיט טופח (v. \n<xref rid=\"I00638\">טָפַח II</xref>).</definition>\n<notes> Mikv. IX, 2. Tosef. ib. VI (VII), 12; 13 אם היה טיט (ה)י' וחיברו if it was a thick massive clay and he attached it.—Denom. יְוֵנִי m. \n<italic>muddy, thick</italic>. Mikv. l. c., v. גֵּץ 2.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12304,
+      "source_id": "jastrow-xml-012304",
+      "canonical_entry_id": "J00199",
+      "headword": "יָוָן,",
+      "source_xml": "<entry id=\"J00199\">\n<head-word>יָוָן, </head-word>\n<head-word>יָוָון</head-word>\n<senses>\n<sense>\n<definition> (b. h.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<pos> pr. n. m.</pos>\n<italic>Javan</italic>, son of Japheth, progenitor of the Grecian tribes, in gen. \n<italic>Greek, Greece;</italic></definition>\n<notes /></sense>\n<sense>\n<definition>מלכות) \n<italic>Greek</italic> (\n<italic>Syrian</italic>) \n<italic>Government</italic>.</definition>\n<notes> Targ. Gen. X, 2; a. e.—Targ. Y. Gen. XV, 12.—Gen. R. s. 44 (ref. to איל משלש, Gen. XV, 9) זו י' this alludes to the Greek government (founded by Alexander the Great). Ib. כל רוחות כבשו בני י' וכ' in all directions did the Greeks conquer, except in the East. Esth. R. introd. בבקרה של י' when Greece (Syria) is in the ascendancy, v. בֹּקֶר; a. fr.—Denom. יְוָנִי, יְוָנָאָה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12305,
+      "source_id": "jastrow-xml-012305",
+      "canonical_entry_id": "J00200",
+      "headword": "יוֹן,",
+      "source_xml": "<entry id=\"J00200\">\n<head-word>יוֹן, </head-word>\n<head-word>יוֹנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00211\">יוֹנְתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12306,
+      "source_id": "jastrow-xml-012306",
+      "canonical_entry_id": "J00201",
+      "headword": "יְוָנָאָה,",
+      "source_xml": "<entry id=\"J00201\">\n<head-word>יְוָנָאָה, </head-word>\n<head-word>יְוָו'</head-word>\n<pos> m.</pos>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"J00205\">יְוָנִי.</xref></language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. יְוָנָאֵי</plural-form>. Targ. I Sam. II, 4 (ed. Lag. יְוָונֵי, ed. Wil. מַקְדּוּנָאֵי). Targ. Y. I Deut. XXXII, 24 (ed. Amst. יֹווָ', ed. Vien. יוֹנָ'; corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12307,
+      "source_id": "jastrow-xml-012307",
+      "canonical_entry_id": "J00202",
+      "headword": "יוֹנָה,",
+      "source_xml": "<entry id=\"J00202\">\n<head-word>יוֹנָה, </head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jonah</italic>, 1) the prophet.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition> the prophet. Y. Erub. X, beg. 26\n<sup>a</sup>; Bab. ib.</definition>\n<notes> 96\n<sup>a</sup>. Snh. 89\n<sup>a</sup>, sq Gen. R. s. 21; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> name of several Amoraim. a) R. J. father of R. Mana. Taan. 23\n<sup>b</sup>.</definition>\n<notes> Y. Shebi IV, 35\n<sup>a</sup> bot.; a. v. fr.—b) R. J. of Bozra. Y. Kil. IX, beg. 31\n<sup>d</sup>; a. fr.—[Ḥull. 43\n<sup>b</sup> י' אמר ר' זירא Jonah said in behalf of R. Z.; oth. opin.: as to the gullet of a \n<italic>dove</italic>, &amp;c., v. next w.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12308,
+      "source_id": "jastrow-xml-012308",
+      "canonical_entry_id": "J00203",
+      "headword": "יוֹנָה,",
+      "source_xml": "<entry id=\"J00203\">\n<head-word>יוֹנָה, </head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>dove</italic>.</definition>\n<notes> Ḥull. 6\n<sup>a</sup> דמות י' וכ' the effigy of a dove was found on Mount Gerizim which they (the Samaritans) worshipped. Gen. R. s. 39 הי' הזו בשעה שהיא פורחת וכ' the dove when flying and tired, flaps one wing and flies with the other. Ib. s. 44 (expl. גוזל, Gen. XV, 9) בר י' a young dove, (v. infra, a. Targ. Gen. l. c.).—בֶּן י', pl. בְּנֵי י' \n<italic>pigeons</italic>. Ḥull. I, 5 כשר בתורין פסול בבני י' what is fit for offering in doves (large size), is a defect in pigeons; a. fr.—[Sabb. 129\n<sup>a</sup> פתורא דיונה, v. יוֹנָס.].—\n<plural-form>Pl. יוֹנִים, יוֹנִין</plural-form>. Snh. III, 3 מפריחי י' those who let doves fly (betting on them), v. יוֹנְתָא. B. Bath. V, 3, v. שׁוֹבָךְ. Ib. 79\n<sup>a</sup>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12309,
+      "source_id": "jastrow-xml-012309",
+      "canonical_entry_id": "J00204",
+      "headword": "יונוס",
+      "source_xml": "<entry id=\"J00204\">\n<head-word>יונוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00441\">יַנִּיס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12310,
+      "source_id": "jastrow-xml-012310",
+      "canonical_entry_id": "J00205",
+      "headword": "יְוֵנִי",
+      "source_xml": "<entry id=\"J00205\">\n<head-word>יְוֵנִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00198\">יָוֵן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12311,
+      "source_id": "jastrow-xml-012311",
+      "canonical_entry_id": "J00206",
+      "headword": "יְוָנִי,",
+      "source_xml": "<entry id=\"J00206\">\n<head-word>יְוָנִי, </head-word>\n<head-word>יְוָו'</head-word>\n<head-word>יְוָנִית, </head-word>\n<head-word>יְוָו'</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יָוָן) \n<italic>Grecian, Greek</italic>.</definition>\n<notes> B. Kam. 82\n<sup>b</sup> חָכְמַת י' the principle of Greek culture (philosophy, ethics, religion &amp;c.). Ib. 83\n<sup>a</sup> לשון י' Greek language, distinguished fr. חכמת י'. Meg. 9\n<sup>a</sup> התירו יונית permitted the use of a Greek translation. Y. ib. I, 71\n<sup>c</sup> top, v. בָּדָא; a. fr.—V. לָשׁוֹן.—\n<plural-form>Pl. יְוָנִים, יְוָו'</plural-form>\n<italic>Greeks</italic> (mostly of the Syrian government). Meg. 11\n<sup>a</sup> בימי י' in the days of the Greeks (of Antiochus Epiphanes and successors); Esth. R., beg. טרקווינוס (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12312,
+      "source_id": "jastrow-xml-012312",
+      "canonical_entry_id": "J00207",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00207\">\n<head-word>*, </head-word>\n<head-word>*יוֹנָס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (prob. a corrupt. of juniperus) \n<italic>Juniper-tree</italic> (v. Sm. Ant. s. v. Cedrus).</definition>\n<notes> Sabb. 129\n<sup>a</sup> פתורא די' old ed. (later ed. דיונה, Ms. M. דיינס, v. Rabb. D. S. a. l. note; Ar. יינוס, expl.: \n<italic>cypress</italic>) a table made of &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12313,
+      "source_id": "jastrow-xml-012313",
+      "canonical_entry_id": "J00208",
+      "headword": "יוֹנֵק",
+      "source_xml": "<entry id=\"J00208\">\n<head-word>יוֹנֵק</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָנַק)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>child.</italic></definition>\n<notes>—\n<plural-form>Pl. יוֹנְקִים</plural-form>. Cant. R. to I, 4 הי' the school children. V. יָנוּקָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12314,
+      "source_id": "jastrow-xml-012314",
+      "canonical_entry_id": "J00209",
+      "headword": "יוֹנְקָא",
+      "source_xml": "<entry id=\"J00209\">\n<head-word>יוֹנְקָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">יַנְקָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12315,
+      "source_id": "jastrow-xml-012315",
+      "canonical_entry_id": "J00210",
+      "headword": "יוֹנֶקֶת",
+      "source_xml": "<entry id=\"J00210\">\n<head-word>יוֹנֶקֶת</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָנַק)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>sucker, sprout</italic> (of hyssop).</definition>\n<notes>—\n<plural-form>Pl. יוֹנְקוֹת</plural-form>. Par. XI, 7, v. גָּמַל; Tosef. ib. XI (X), 7 (one opin.) י' שלא הנצו וכ' \n<italic>yon’koth</italic> are such as have not yet begun to blossom.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12316,
+      "source_id": "jastrow-xml-012316",
+      "canonical_entry_id": "J00211",
+      "headword": "יוֹנְתָא,",
+      "source_xml": "<entry id=\"J00211\">\n<head-word>יוֹנְתָא, </head-word>\n<head-word>יוֹנָא, </head-word>\n<head-word>יוֹנָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יוֹן c.)\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"J00203\">יוֹנָה II</xref></language-reference>. Targ. Gen. VIII, 8, sq.</definition>\n<notes> Targ. Ps. LVI, 1; a. e.—Snh. 25\n<sup>a</sup> (expl. מפריחי יונים, v. יוֹנָה II) אי תקדמיה יוֹנָךְ ליון if thy dove shall overtake the cock-pigeon (thou shalt win &amp;c.). Ib. תולה בדעת יוֹנוֹ v. דַּעַת. Y. Ab. Zar. V, 44\n<sup>d</sup> bot. כמין יון וכ' they (the Samaritans) have an image resembling a cock-pigeon to which they offer libations (cmp. יוֹנָה II). Snh. 95\n<sup>a</sup> אתא יונה וכ' (masc.) a dove came down &amp;c., v. טְרַף I.—\n<plural-form>Pl. יוֹנִין, יוֹנַיָּא, יוֹנֵי, יוֹנָן, יוֹנָתָא</plural-form>. Targ. Is. LIX, 11. Targ. Y. Lev. V, 7; 11 בני יוניא (O. כני יונה, v. יוֹנָה II). Ib. XII, 6 בר יונן (O. יונה). Targ. Cant. I, 15.—Ber. 56\n<sup>a</sup> תזאי תרתי יוני דפרחן I saw (in my dream) two doves fly off. Ib.\n<sup>b</sup> תרי יוני.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12317,
+      "source_id": "jastrow-xml-012317",
+      "canonical_entry_id": "J00212",
+      "headword": "יוֹנָתָן,",
+      "source_xml": "<entry id=\"J00212\">\n<head-word>יוֹנָתָן, </head-word>\n<head-word>יְהוֹנָתָן</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jonathan</italic>, 1) J.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> J. b. Gershom (Jud. XVIII, 30), a priest of idolatry, supposed to be a descendant of Moses. B. Bath. 109\n<sup>b</sup> יו' Ms. M. (ed. יהו'). Cant. R. to II, 5; Ab. d’R. N. ch. XXXIV; Y. Ber. IX, 13\n<sup>d</sup> top; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> J. son of Saul. Ab. V, 16 אהבת דוד וי' the friendship between David and J. Ḥull. 95\n<sup>b</sup> כי' בן וכ' like the omen of J. &amp;c. (1 Sam. XIV, 8 sq.). Cant. R. to VIII, 6; a. e.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition />\n<notes> J. b. Uziel, author of the Chaldaic version of the Prophets (v. Zunz, Gottesd. Vortr. p. 66, sq.). Succ. 28\n<sup>a</sup>; B. Bath. 134\n<sup>a</sup>. Meg. 3\n<sup>a</sup> תרגיס של נכיאים י' וכ' the version of the Prophets has been composed by J. b. U. at the dictation of Haggai &amp;c. Y. Ned. V, end, 39\n<sup>b</sup> גדול שבהן י' ב' ע' the greatest among the disciples of R. Joh. b. Zaccai, was J. &amp;c.</notes></sense>\n<sense>\n<number>—4)</number>\n<definition />\n<notes> R. J., a Tannai. Sot. 24\n<sup>a</sup>. Pes. 24\n<sup>a</sup>. Ḥull. 70\n<sup>b</sup>; a. v. fr.—[Erub. 96\n<sup>a</sup> י' הקיטוני.]—[Ab. IV, 9, v. Frank. Darkhé, p. 147, note.]</notes></sense>\n<sense>\n<number>—5)</number>\n<definition />\n<notes> name of several Amoraim (v. Fr. M’bo, p. 99\n<sup>a</sup>, sq.). Gitt. 78\n<sup>b</sup>. Y. Maas. Sh. III, 54\n<sup>b</sup> top. Ber. 18\n<sup>a</sup>; Y. ib. II, 4\n<sup>c</sup> bot.; a. fr.—Y. Yoma VII, 44\n<sup>b</sup> bot. R. J. of Beth Gubrin.—Y. Peah V, beg. 18\n<sup>d</sup> (R. S. to Peah V, 1 quotes R. Johanan); Y. Shek. I, 46\n<sup>a</sup> bot. R. J. son of R. Isaac bar Aḥa.—Y. Ter. XI, end, 48\n<sup>b</sup> J. b. ʿAkhmai; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12318,
+      "source_id": "jastrow-xml-012318",
+      "canonical_entry_id": "J00213",
+      "headword": "יוֹסָא,",
+      "source_xml": "<entry id=\"J00213\">\n<head-word>יוֹסָא, </head-word>\n<head-word>יוֹסָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, abbrev. of יוֹסֵף, v. יוֹסֵי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12319,
+      "source_id": "jastrow-xml-012319",
+      "canonical_entry_id": "J00214",
+      "headword": "יוּסְטָא,",
+      "source_xml": "<entry id=\"J00214\">\n<head-word>יוּסְטָא, </head-word>\n<head-word>יוּסְטִי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition> (abbrev. of Justus or Justinus) \n<italic>Yusta, Yusti</italic>.</definition>\n<notes>. </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> Cant. R. to VI, 12 י' חייטא Yusta, the tailor.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> name of several Amoraim. Y. Erub. VI, 23\n<sup>c</sup> bot. ר' יוסטי; Y. Shek. II, beg. 46\n<sup>c</sup> ר' יוסטא.—Y. Ter. XI, 48\n<sup>a</sup>; Y. Maas. Sh. V, 55\n<sup>d</sup> bot. יוסטי בר שונם; Y. Shebi. VI, 36\n<sup>d</sup> יוסטא בר ש'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12320,
+      "source_id": "jastrow-xml-012320",
+      "canonical_entry_id": "J00215",
+      "headword": "יוּסְטִינָה,",
+      "source_xml": "<entry id=\"J00215\">\n<head-word>יוּסְטִינָה, </head-word>\n<head-word>יוּסְטִינִי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition> (cmp. preced.; abbrev. of Justinus or Justinianus) \n<italic>Yustinah, Yustini</italic>, an Amora.</definition>\n<notes> Y. Keth. IX, 32\n<sup>d</sup> bot. (not יוסטתה); Y. B. Bath. VIII, 16\n<sup>b</sup> יוסטיני.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12321,
+      "source_id": "jastrow-xml-012321",
+      "canonical_entry_id": "J00216",
+      "headword": "יוסטתה",
+      "source_xml": "<entry id=\"J00216\">\n<head-word>יוסטתה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00215\">preced.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12322,
+      "source_id": "jastrow-xml-012322",
+      "canonical_entry_id": "J00217",
+      "headword": "יוֹסֵי",
+      "source_xml": "<entry id=\"J00217\">\n<head-word>יוֹסֵי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition> (abbrev. of Joseph, interch. with יוֹסֵף, יוֹסָא, יוֹסָה, יַסָּא, יַסָּה, אַסִּי, אִיסִי) \n<italic>José</italic> 1) name of several Tannaim, esp. J.</definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> name of several Tannaim, esp. J. b. Joezer, and J. b. Johanan. Ab. I, 4, sq. Eduy. VIII, 4; a. fr.—B. Bath. 133\n<sup>b</sup> יוסף (Ms. H. a. R. יוסי).</definition>\n<notes>—R. J. hak-Kohen, or only R. J. Ab. II, 8; 12. Ḥag. 14\n<sup>b</sup>; Y. ib. II, 77\n<sup>a</sup> bot. יוסף; a. v. fr.—R. J. b. Ḥalafta, or only R. J. B. Kam. 70\n<sup>a</sup>; Tosef. B. Bath. II, 10 (v. Fr. Darkhé, p. 132). Erub. 46\n<sup>b</sup>. Maas. Sh. IV, 7; a. v. fr. (v. Fr. ib. p. 164, sq.).—R. J., the Galilean. Zeb. 57\n<sup>a</sup>. Ab. Zar. III, 5. Tosef. Mikv. VII (VIII), 11; a. fr. (v. Fr. ib., p. 125).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> name of several Amoraim, esp. R. J. (in Babli אַסִּי, in Y. also יַסָּא, יוֹסָה).</definition>\n<notes> Y. Ber. II, 5\n<sup>c</sup> bot. Y. Kil. IX, 29\n<sup>b</sup> bot.; Y. Erub. I, 19\n<sup>c</sup>; a. v. fr.—R. J. bar Zabda, mate of R. Jonah. Y. Shek. VII, 50\n<sup>c</sup> bot. Men. 70\n<sup>b</sup>; a. v. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> יוסי or יוסה a disguise of one of the Divine Names.</definition>\n<notes> Snh. VII, 5 (56\n<sup>a</sup>) בכל יום … יכה י' את י' (v. Rabb. D. S. a. l. note) during the proceedings against the blasphemer the witnesses are requested to make their statements in disguise (v. כִּינּוּי), e.g.: “the defendant said, ‘May J. strike J.’  ” (meaning, I curse Jehovah Elohim, J. Zebaoth &amp;c.; cmp. ib. עד שיברך שם בשם).</notes></sense>\n<sense>\n<number>—4)</number>\n<definition> one \n<italic>J.</italic></definition>\n<notes>\n<italic> M’shitha</italic>, a repentant Hellenist. Gen. R. s. 65 (some ed. יוסף); Yalk. ib. 115.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12323,
+      "source_id": "jastrow-xml-012323",
+      "canonical_entry_id": "J00218",
+      "headword": "יוֹסִינָא,",
+      "source_xml": "<entry id=\"J00218\">\n<head-word>יוֹסִינָא, </head-word>\n<head-word>יוֹסִינָה</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Josina</italic>.</definition>\n<notes> Y. Meg. IV, 75\n<sup>b</sup> bot.; Y. Yeb. XIII, 13\n<sup>c</sup> top; ib. X, 10\n<sup>d</sup> top. Cant. R. to V, 1 יוֹסָנָה; Pesik. R. s. 5 יוֹסנִי; Num. R. s. 13 יוֹסַנְיָה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12324,
+      "source_id": "jastrow-xml-012324",
+      "canonical_entry_id": "J00219",
+      "headword": "יוֹסֵף",
+      "source_xml": "<entry id=\"J00219\">\n<head-word>יוֹסֵף</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Joseph</italic>, 1) son of Jacob.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> son of Jacob. B. Bath. 123\n<sup>a</sup>, v. \n<xref rid=\"B00771\">בְּכוֹרָה</xref>. Sot. I, 9. Gen. R. s. 30; a. v. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> name of several Tannaim and Amoraim, v. \n<xref rid=\"J00217\">יוֹסֵי</xref></notes></sense>\n<sense>\n<number>—3)</number>\n<definition />\n<notes> Sabb. 119\n<sup>a</sup> י' מוקיר שבי Joseph, the honorer of the Sabbaths.—Ib. 130\n<sup>a</sup> J. Rishba (the fowler).—Gen. R. s. 65, v. \n<xref rid=\"J00217\">יוֹסֵי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12325,
+      "source_id": "jastrow-xml-012325",
+      "canonical_entry_id": "J00220",
+      "headword": "יוסתיניא,",
+      "source_xml": "<entry id=\"J00220\">\n<head-word>יוסתיניא, </head-word>\n<head-word>יוסתניא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"F00068\">וַוסְתַּנְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12326,
+      "source_id": "jastrow-xml-012326",
+      "canonical_entry_id": "J00221",
+      "headword": "יוֹעֶזֶר",
+      "source_xml": "<entry id=\"J00221\">\n<head-word>יוֹעֶזֶר</head-word>\n<senses>\n<sense>\n<definition> (b. h.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<pos> pr. n. m.</pos>\n<italic>Joezer</italic>.</definition>\n<notes> Orlah II, 12 a disciple of Shammai’s school.—Ab. I, 4; a. fr., v. יוֹסֵי</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> name of \n<italic>a plant</italic>.</definition>\n<notes> Sabb. XIV, 3, expl. Y. ib. 14\n<sup>c</sup> פוליטריכין \n<italic>polytrichon, Maiden-hair</italic>; Bab. ib. 109\n<sup>b</sup> פותנק.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12327,
+      "source_id": "jastrow-xml-012327",
+      "canonical_entry_id": "J00222",
+      "headword": "יוֹפִי",
+      "source_xml": "<entry id=\"J00222\">\n<head-word>יוֹפִי</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> יֹפִי; v. יָפֶה)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>fine build, beauty; propriety</italic> Taan. 31\n<sup>a</sup> (the fair maiden said) תנו עיניכם לי' ed. (Ms. M. בי') put your eyes on (give your choice to) beauty.</definition>\n<notes> Succ. 45\n<sup>b</sup> Ms. M. (ed. in Mish. 45\n<sup>a</sup>, v. Rabb. D. S. a. l.) י' לך מזבח thine, altar, is the beauty (of forgiveness). Ex. R. s. 25 אני מראה לך י' פנים אל פנים I shall let thee see the beauty of a revelation of face to face (as granted to Moses). Yoma 54\n<sup>b</sup> מוכלל (יָפְיוֹ) יוֹפְיוֹ של וכ' the perfection of the beauty (harmony) of the universe. Kidd. 49\n<sup>b</sup> עשרה קבים י' וכ' ten measures of beauty have come down to the world, nine of which Jerusalem has taken; Esth. R. to I, 3. B. Mets. 87\n<sup>a</sup> וחזר י' למקומו and (her) beauty came back again; a. fr.—Peah VI, 6 י' כח, v. יָפֶה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12328,
+      "source_id": "jastrow-xml-012328",
+      "canonical_entry_id": "J00223",
+      "headword": "יוֹפִיאֵל",
+      "source_xml": "<entry id=\"J00223\">\n<head-word>יוֹפִיאֵל</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>Yofiël</italic>, name of an angel.</definition>\n<notes> Targ. Y. I Deut. XXXIV, 6.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12329,
+      "source_id": "jastrow-xml-012329",
+      "canonical_entry_id": "J00224",
+      "headword": "יוֹפְיוּת",
+      "source_xml": "<entry id=\"J00224\">\n<head-word>יוֹפְיוּת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00505\">יָפְיוּת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12330,
+      "source_id": "jastrow-xml-012330",
+      "canonical_entry_id": "J00225",
+      "headword": "יוֹצְאָנִית",
+      "source_xml": "<entry id=\"J00225\">\n<head-word>יוֹצְאָנִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יָצָא) \n<italic>loving to go out, restless</italic>.</definition>\n<notes> Tanḥ. Vayishl. 7.—\n<plural-form>Pl. יוֹצְאָנִיּוֹת</plural-form>. Gen. R. s. 45.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12331,
+      "source_id": "jastrow-xml-012331",
+      "canonical_entry_id": "J00226",
+      "headword": "יוֹצֵאת",
+      "source_xml": "<entry id=\"J00226\">\n<head-word>יוֹצֵאת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> constr.</definition>\n<notes>, י' החוץ (preced.) \n<italic>running about, prostitute.</italic> Kel. XXVIII, 9; Tosef. ib. B. Bath. V, 14, v. חוּץ II.—\n<plural-form>Pl. יוֹצְאוֹת</plural-form>. Ib. some ed.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12332,
+      "source_id": "jastrow-xml-012332",
+      "canonical_entry_id": "J00227",
+      "headword": "יוּצְפָּא",
+      "source_xml": "<entry id=\"J00227\">\n<head-word>יוּצְפָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00543\">יְצַף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12333,
+      "source_id": "jastrow-xml-012333",
+      "canonical_entry_id": "J00228",
+      "headword": "יוֹצֵר",
+      "source_xml": "<entry id=\"J00228\">\n<head-word>יוֹצֵר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָצַר)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>Creator</italic>.</definition>\n<notes> Lev. R. s. 23, end (ref. to Deut. XXXII, 18) רפו ידיו של י' the Creator’s hands become lax (undecided). [Ib. תשו ידיו של י', read: צַיָּיר.]—Mekh. Bo. s. 13; Tanḥ. Bo. 7 (ref. to Ex. XII, 29) יוֹצרוֹ חלקז He who created it (the night) divided it (exactly into two halves); Gen. R. s. 43. Ber. 61\n<sup>a</sup> (play on וייצר, Gen. II, 7, v. יְצִירָה) אוי לי מִיּוֹצְרִי אוי לי מִיִּצְרִי woe is to me from (my responsibility to) my Creator, woe to me from (my struggle with) my inclination; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> [\n<italic>turner</italic>,] \n<italic>potter</italic>.</definition>\n<notes> Gen. R. s. 55 (ref. to Ps. XI, 5) הי' הזה וכ' the potter when examining his batch, will not try the defective vessels &amp;c. Lev. R. l. c. תלמידו של י' a potter’s apprentice; a. fr.;—\n<plural-form>Pl. יוֹצְרִים</plural-form>. Maasr. III, 7; Succ. 8\n<sup>b</sup>, a. fr., v. סוּכָּה.—Par. V, 6, v. בֵּיצָה.—Lev. R. l. c. שגנב ביצת י' who stole a lump of potters’ clay; Pesik. R. s. 24 שגנב יצרים (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12334,
+      "source_id": "jastrow-xml-012334",
+      "canonical_entry_id": "J00229",
+      "headword": "יוצרה",
+      "source_xml": "<entry id=\"J00229\">\n<head-word>יוצרה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. B. Mets. VIII, end, 11\n<sup>d</sup>, v. \n<xref rid=\"J00538\">יְצִירָה</xref> 2.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12335,
+      "source_id": "jastrow-xml-012335",
+      "canonical_entry_id": "J00230",
+      "headword": "יוֹקֵידְתָּא",
+      "source_xml": "<entry id=\"J00230\">\n<head-word>יוֹקֵידְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00558\">יְקֵדָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12336,
+      "source_id": "jastrow-xml-012336",
+      "canonical_entry_id": "J00231",
+      "headword": "יוֹקְיָנוֹס,",
+      "source_xml": "<entry id=\"J00231\">\n<head-word>יוֹקְיָנוֹס, </head-word>\n<head-word>דְּיוֹ'</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = אוֹקְיָינוֹס(?). Targ. Y. II. Num. XXXIV, 15; [the entire verse is corrupt].</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12337,
+      "source_id": "jastrow-xml-012337",
+      "canonical_entry_id": "J00232",
+      "headword": "יוקפא",
+      "source_xml": "<entry id=\"J00232\">\n<head-word>יוקפא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00155\">יוּבְּקָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12338,
+      "source_id": "jastrow-xml-012338",
+      "canonical_entry_id": "J00233",
+      "headword": "יוֹקֶר",
+      "source_xml": "<entry id=\"J00233\">\n<head-word>יוֹקֶר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יָקַר) [\n<italic>weight, importance</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>high price</italic> (opp. זול); \n<italic>dearth, scarcity.</italic></definition>\n<notes> Maas. Sh. IV, 1 מקום י' where fruits are dear; B. Mets. 73\n<sup>a</sup>. Sabb. 32\n<sup>b</sup> והי' הוה and scarcity is permanent. Y. Hor. III, 48\n<sup>c</sup> top יין בי' wine is dear; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>nobility, aristocracy</italic>.</definition>\n<notes> Sot. IX, 15, a. e.; v. אָמַר II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12339,
+      "source_id": "jastrow-xml-012339",
+      "canonical_entry_id": "J00234",
+      "headword": "יוֹקְרָא",
+      "source_xml": "<entry id=\"J00234\">\n<head-word>יוֹקְרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>high price</italic>.</definition>\n<notes>. Targ. Job XXVIII, 17.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>weight</italic>.</definition>\n<notes> Men. 94\n<sup>b</sup> אגב י' דלחם on account of the heavy pressure of the bread.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>feeling of heaviness;</italic> י' דְלִבָּא \n<italic>asthma</italic>.</definition>\n<notes> Sabb. 140\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12340,
+      "source_id": "jastrow-xml-012340",
+      "canonical_entry_id": "J00235",
+      "headword": "יוֹקֶרֶת",
+      "source_xml": "<entry id=\"J00235\">\n<head-word>יוֹקֶרֶת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00172\">יוֹדְקֶרֶת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12341,
+      "source_id": "jastrow-xml-012341",
+      "canonical_entry_id": "J00236",
+      "headword": "יורדא",
+      "source_xml": "<entry id=\"J00236\">\n<head-word>יורדא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Ez. XXVII, 24 דיו' ed. Lag., read: דִּי וַרְדָּא v. \n<xref rid=\"F00084\">וְרַד</xref>. [Targ. Y. Gen. VI, 16 ed. pr., read: יוֹהֲרָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12342,
+      "source_id": "jastrow-xml-012342",
+      "canonical_entry_id": "J00237",
+      "headword": "יוֹרְדְּנָא",
+      "source_xml": "<entry id=\"J00237\">\n<head-word>יוֹרְדְּנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00600\">יַרְדְּנָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12343,
+      "source_id": "jastrow-xml-012343",
+      "canonical_entry_id": "J00238",
+      "headword": "יוֹרֶדֶת",
+      "source_xml": "<entry id=\"J00238\">\n<head-word>יוֹרֶדֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יָרַד) \n<italic>rivulet</italic> (cmp. מוֹרָד).</definition>\n<notes> Tosef. Par. IX(VIII), 2 י' הצלמון the rivulet coming down from Mount Zalmon.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12344,
+      "source_id": "jastrow-xml-012344",
+      "canonical_entry_id": "J00239",
+      "headword": "יוֹרֶה",
+      "source_xml": "<entry id=\"J00239\">\n<head-word>יוֹרֶה</head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָרָה)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>a soaking rain, early rain</italic>.</definition>\n<notes> Sifré Deut. 42 (ref. to Deut. XI, 14) י' במרחשון וכ' \n<italic>yoreh</italic> (early rain) is the rain of Marḥeshvan, the late rain (\n<italic>malkosh</italic>) in Nisan; Taan. 5\n<sup>a</sup>. Ib. (ref. to Mish. I, 2) י' בניסן וכ' is the \n<italic>yoreh</italic> in Nisan? is it not in Marḥeshvan? Ib. 6\n<sup>a</sup>; a. e.—Trnsf. \n<italic>early season, spring</italic>. Tanḥ. Ḥayé 6 (ref. to Koh. XI, 6) אם זרעת בי' וכ' if thou hast sown in the spring &amp;c.; cmp. בַּכִּיר.—</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12345,
+      "source_id": "jastrow-xml-012345",
+      "canonical_entry_id": "J00240",
+      "headword": "יוֹרֶה,",
+      "source_xml": "<entry id=\"J00240\">\n<head-word>יוֹרֶה, </head-word>\n<hw-number>II</hw-number>\n<head-word>יוֹרָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (denom. of אוּר, cmp. Syr.</definition>\n<notes> אירא P. Sm. 167) \n<italic>boiler, kettle</italic>. Ḥull. 108\n<sup>a</sup> י' של חלב a kettle of milk. Ib.\n<sup>b</sup> י' רותחת a boiling kettle. Ab. Zar. 76\n<sup>a</sup> י' קטנה בתוך י' גדולה put a small boiler into a large one filled with water, v. גָּעַל; a. fr.—Esp. \n<italic>the dyer’s kettle, dye</italic>. B. Kam. 99\n<sup>a</sup> top הקדיחו י' (Ms. H. הקדיחתו) the dye burnt it (the wool); ib. IX, 4 (100\n<sup>b</sup>) הקדיחתו י' (v. Rabb. D. S. a. l. note 30); Y. ib. IX, 6\n<sup>d</sup> bot. הקדיחה י'.—Ḥag. 15\n<sup>b</sup> (in Chald. dict.) כל עמר דנחית לי' סליק does the wool that goes into the kettle always come out sound?, i.e. does every student of mystic philosophy escape death or scepticism?—Sabb. I, 6; a. e.—\n<plural-form>Pl. יוֹרוֹת; י' הערביים</plural-form>\n<italic>improvised fire places of the Arabs, a cavity in the ground laid out with clay.</italic> Kel. V, 10 (ed. Dehr. יוֹרַת). Men. V, 9 (63\n<sup>a</sup>).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12346,
+      "source_id": "jastrow-xml-012346",
+      "canonical_entry_id": "J00241",
+      "headword": "יורית",
+      "source_xml": "<entry id=\"J00241\">\n<head-word>יורית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Gen. 133 Koh. Ar. Compl., v. \n<xref rid=\"J00634\">יְרִיָּיה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12347,
+      "source_id": "jastrow-xml-012347",
+      "canonical_entry_id": "J00242",
+      "headword": "יורכין",
+      "source_xml": "<entry id=\"J00242\">\n<head-word>יורכין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Y. Deut. XXXIV, 6, read: יוֹהֲרִין (cmp. Targ. Esth. I, 4); v. \n<xref rid=\"J00173\">יוֹהֲרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12348,
+      "source_id": "jastrow-xml-012348",
+      "canonical_entry_id": "J00243",
+      "headword": "יוֹרָם",
+      "source_xml": "<entry id=\"J00243\">\n<head-word>יוֹרָם</head-word>\n<senses>\n<sense>\n<definition />\n<notes> v. \n<xref rid=\"J00134\">יְהוֹרָם</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12349,
+      "source_id": "jastrow-xml-012349",
+      "canonical_entry_id": "J00244",
+      "headword": "יורם",
+      "source_xml": "<entry id=\"J00244\">\n<head-word>יורם</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Prov. XVIII, 11 some ed., read ירום, v. רוּם.—Ib. XXIII, 29 יורם קנצן עינוי ed. Lag., Ms. Var. יודמקנען, יודענען, a corrupt. of סומקנות עיינין, v. סוּמְקָנוּתָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12350,
+      "source_id": "jastrow-xml-012350",
+      "canonical_entry_id": "J00245",
+      "headword": "יוּרְקָא",
+      "source_xml": "<entry id=\"J00245\">\n<head-word>יוּרְקָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00609\">יָרוֹקָא</xref> a. \n<xref rid=\"J00658\">יַרְקָא.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12351,
+      "source_id": "jastrow-xml-012351",
+      "canonical_entry_id": "J00246",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00246\">\n<head-word>*, </head-word>\n<head-word>*יוּרְקָמִי</head-word>\n<senses>\n<sense>\n<definition> (יורקמו,\n<language-key> Ar. </language-key>\n<language-reference>\n<xref rid=\"J00611\">ירוקמי</xref>)</language-reference>\n<pos> pr. n.</pos>\n<italic>Yurkami</italic>, name of an angel.</definition>\n<notes> Pes. 118\n<sup>a</sup> י' שר הברד Y. the chief of the hail storms; Yalk. Ps. 873; Midr. Till. to Ps. CXVII.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12352,
+      "source_id": "jastrow-xml-012352",
+      "canonical_entry_id": "J00247",
+      "headword": "יוּרְקָנָא",
+      "source_xml": "<entry id=\"J00247\">\n<head-word>יוּרְקָנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00661\">יַרְקוֹנָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12353,
+      "source_id": "jastrow-xml-012353",
+      "canonical_entry_id": "J00248",
+      "headword": "יוֹרֵשׁ",
+      "source_xml": "<entry id=\"J00248\">\n<head-word>יוֹרֵשׁ</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָרַשׁ)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>heir, successor, heir-at-law</italic>.</definition>\n<notes> B. Bath. IX, 2 אם אין שם י' וכ' if there is no other heir besides. Ib. 139\n<sup>a</sup> שויוה רבנן כי' … כלוקח the Rabbis gave him the privileges of an heir (to his wife’s property) and those of a purchaser; a. v. fr.—\n<plural-form>Pl. יוֹרְשִׁים, יוֹרְשִׁין</plural-form>. Ib. 140\n<sup>a</sup>. Ib. IX, 9 יוֹרְשֵׁי האשה וכ' the wife’s heirs-at-law claim that the husband died first; a. v. fr.—\n<italic>Fem</italic>. יוֹרֶשֶׁת, \n<italic>pl</italic>. יוֹרְשׁוֹת. Ib. 119\n<sup>a</sup> יודע … י' הן Moses knew that the daughters of Z. were legal heirs.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12354,
+      "source_id": "jastrow-xml-012354",
+      "canonical_entry_id": "J00249",
+      "headword": "יוֹשֶׁן",
+      "source_xml": "<entry id=\"J00249\">\n<head-word>יוֹשֶׁן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יָשָׁן) \n<italic>former condition, original usage</italic> (cmp. אֵיתָן).</definition>\n<notes> Snh. 19\n<sup>a</sup> החזיר … הדבר ליוֹשְׁנוֹ restored the usage to its original state; Y. ib. II, 20\n<sup>a</sup> bot.; Y. Ber. III, 6\n<sup>b</sup> חזרו הדברים ליוֹשְׁנָן; Keth. 8\n<sup>b</sup> החזירו הדבר ליוֹשְׁנוֹ (not ליושנה). Kidd. 66\n<sup>a</sup> עד שבא … והחזיר את התורה ליוֹשְׁנָהּ until Simon b. Sh. came and restored the Law to its former authority. Yoma 69\n<sup>b</sup>, v. עֲטָרָה; Y. Ber. VII, 11\n<sup>c</sup>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12355,
+      "source_id": "jastrow-xml-012355",
+      "canonical_entry_id": "J00250",
+      "headword": "יוֹשֶׁר",
+      "source_xml": "<entry id=\"J00250\">\n<head-word>יוֹשֶׁר</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">ישֶׁר; יָשַׁר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>straightness, equity</italic>.</definition>\n<notes> Ruth R. introd. במדת י' in equity, v. יַשְׁרוּת.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12356,
+      "source_id": "jastrow-xml-012356",
+      "canonical_entry_id": "J00251",
+      "headword": "יוֹתָא",
+      "source_xml": "<entry id=\"J00251\">\n<head-word>יוֹתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03398\">אָתָא III</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12357,
+      "source_id": "jastrow-xml-012357",
+      "canonical_entry_id": "J00252",
+      "headword": "יוֹתָם",
+      "source_xml": "<entry id=\"J00252\">\n<head-word>יוֹתָם</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Jotham</italic>, king of Judah.</definition>\n<notes> Succ. 45\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12358,
+      "source_id": "jastrow-xml-012358",
+      "canonical_entry_id": "J00253",
+      "headword": "יוּתָּן,",
+      "source_xml": "<entry id=\"J00253\">\n<head-word>יוּתָּן, </head-word>\n<head-word>כִּי י'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"N01383\">נָתַן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12359,
+      "source_id": "jastrow-xml-012359",
+      "canonical_entry_id": "J00254",
+      "headword": "יוֹתְפָאָה",
+      "source_xml": "<entry id=\"J00254\">\n<head-word>יוֹתְפָאָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00170\">יוֹדְפָת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12360,
+      "source_id": "jastrow-xml-012360",
+      "canonical_entry_id": "J00255",
+      "headword": "יוֹתֵר",
+      "source_xml": "<entry id=\"J00255\">\n<head-word>יוֹתֵר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָתַר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>much;</italic> (followed by מ־, or מ־ implied) \n<italic>more</italic>.</definition>\n<notes> Y. Ber. IV, 7\n<sup>d</sup> top בן תורה י' ממני a greater scholar than I am. Keth. 86\n<sup>a</sup>, a. e. י' ממה שהאיש וכ' more than man desires to marry, does woman desire to be married. Pes. 112\n<sup>a</sup> י' ממה שהעגל וכ' more auxious than the calf is to suck, is the cow to nurse, i.e. the teacher is more anxious to teach than the pupil to learn. M. Kat. 27\n<sup>b</sup> י' מדאי more than enough, י' מכשיעור more than the proper measure, \n<italic>too much;</italic> a. v. fr.—בי' a) \n<italic>in a higher degree, especially</italic>. Sifré Deut. 31 עלינו הוחל שמו בי' upon us especially has His name been made to rest. Lev. R. s. 14 ובי' אם היה זכר and especially so when it is a male; a. e.—b) \n<italic>for a higher price, above market value</italic>. Ned. III, 11; a. e.—V. יֶתֶר.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12361,
+      "source_id": "jastrow-xml-012361",
+      "canonical_entry_id": "J00256",
+      "headword": "יוֹתִר",
+      "source_xml": "<entry id=\"J00256\">\n<head-word>יוֹתִר</head-word>\n<language-key>ch.</language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Ruth I, 13. Ib. III, 12 (ed. Lag. יָתֵר).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12362,
+      "source_id": "jastrow-xml-012362",
+      "canonical_entry_id": "J00257",
+      "headword": "יוּתְרָן,",
+      "source_xml": "<entry id=\"J00257\">\n<head-word>יוּתְרָן, </head-word>\n<head-word>יוּתְרָנָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> = h. יִתְרוֹן, \n<italic>advantage, profit</italic>.</definition>\n<notes> Targ. Prov. XXVIII, 3 (ed. Wil. יִתְרָן). Ib. XIV, 23. Ib. XXI, 5.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12363,
+      "source_id": "jastrow-xml-012363",
+      "canonical_entry_id": "J00258",
+      "headword": "יוֹתֶרֶת",
+      "source_xml": "<entry id=\"J00258\">\n<head-word>יוֹתֶרֶת</head-word>\n<pos> f.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">יֹתֶרֶת; יָתַר)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>the large lobe of the liver</italic>.</definition>\n<notes>. Sifra Vayikra, N’dabah, ch. XVII, Par. 14; Yalk. Lev. 462; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>an additional limb</italic> or \n<italic>lobe</italic>, v. \n<xref rid=\"J00753\">יְתֶרֶת</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12364,
+      "source_id": "jastrow-xml-012364",
+      "canonical_entry_id": "J00259",
+      "headword": "יְזוּפְתָּא,",
+      "source_xml": "<entry id=\"J00259\">\n<head-word>יְזוּפְתָּא, </head-word>\n<head-word>יְזִיפְ'</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יְזַף) \n<italic>a loan</italic>.</definition>\n<notes> M. Kat. 28\n<sup>b</sup> (Ms. M. יְזִפְ', v. Rabb. D. S. a. l. note); v. אַוְורָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12365,
+      "source_id": "jastrow-xml-012365",
+      "canonical_entry_id": "J00260",
+      "headword": "יְזִיף",
+      "source_xml": "<entry id=\"J00260\">\n<head-word>יְזִיף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00263\">יְזַף</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12366,
+      "source_id": "jastrow-xml-012366",
+      "canonical_entry_id": "J00261",
+      "headword": "יָזַן",
+      "source_xml": "<entry id=\"J00261\">\n<head-word>יָזַן</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pi</italic>.</definition>\n<notes> יִוֵּן (denom. of זַן) \n<italic>to supply with all kinds and assort</italic>.—Part. pass. f. מְיוּזֵּנֶת \n<italic>well supplied and assorted</italic>. Gitt. 67\n<sup>a</sup>, v. חָנוּת.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12367,
+      "source_id": "jastrow-xml-012367",
+      "canonical_entry_id": "J00262",
+      "headword": "יָזַע",
+      "source_xml": "<entry id=\"J00262\">\n<head-word>יָזַע</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Hif.</italic> הִזִּיעַ \n<italic>to sweat</italic>, v. \n<xref rid=\"G00217\">זוּעַ</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12368,
+      "source_id": "jastrow-xml-012368",
+      "canonical_entry_id": "J00263",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00263\">\n<head-word>*, </head-word>\n<head-word>*יָזַף</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"G00224\">זוּף</xref>) [\n<italic>to join</italic>; cmp. לָוָה,] \n<italic>to borrow</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הוֹזִיף</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to lend</italic>.</definition>\n<notes> Sot. 48\n<sup>b</sup> המוֹזִיף Ar. (not found in ed.), v. טוּלְמָא I.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12369,
+      "source_id": "jastrow-xml-012369",
+      "canonical_entry_id": "J00264",
+      "headword": "יִזַף,",
+      "source_xml": "<entry id=\"J00264\">\n<head-word>יִזַף, </head-word>\n<head-word>זִיף, </head-word>\n<head-word>(זוּף)</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to borrow</italic>.</definition>\n<notes> Targ. O. Deut. XV, 6; ib. XXVIII, 12 תְזִיף (some ed. תְזוּף); Y. ib. למֵיזוֹף.—Part. יָזֵיף. Targ. II Kings IV, 1 (ed. Lag. מוֹזִיף \n<italic>Af</italic>.).—B. Mets. 64\n<sup>a</sup> כי יְזִיף וכ' if this man shall borrow money of thee. Kidd. 20\n<sup>a</sup> ולא נֵיזִיף וכ' (some ed. נוֹזִיף, v. infra) rather than borrow on interest. Erub. 65\n<sup>a</sup> הוה י' ופרע Ms. M. (v. Rabb. D. S. a. l.) borrowed and paid off (made up by night for neglect of study by day). Taan. 12\n<sup>b</sup> לֵיזוֹף מר וכ' Ms. M. (ed. לוֹזִיף) borrow and pay back (postpone your fast for another day); a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to lend</italic>.</definition>\n<notes> Targ. Y. Deut. XV, 2 דְּיִזּוֹף ב־.—Sabb. 119\n<sup>a</sup> מאן דיזיף שבתא וכ' (Ms. M. לשב', Buxt. דיוֹזִיף) him who lends to the Sabbath (incurring an additional expense in honoring the Sabbath), the Sabbath will repay; Yalk. Gen. 16; Yalk. Is. 356.</notes></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אוֹזִיף</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to borrow</italic>.</definition>\n<notes> Targ. Ps. XXXVII, 21.—B. Bath. 32\n<sup>b</sup> הדרת אוֹזַפְתִּינְהוּ מינאי (Rashb. הדר יזפתינהו, Ms. M. שקלתינהו) thou hast borrowed it again of me. B. Mets. 63\n<sup>b</sup> האי מאן דאו' וכ' (Ms. H. דיזיף) if one borrowed &amp;c. Kidd. 20\n<sup>a</sup>; Taan. 12\n<sup>b</sup>, v. supra.—Lam. R. to I, 2 אוֹזְפִיתוּן, v. חוֹבָא.—Lev. R. s. 3 beg. דיוֹזִיף וכ' some ed. he who borrows on interests.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to lend</italic>.</definition>\n<notes> Targ. O. Deut. XV, 6. Ib. 8 אוֹזָפָא תּוֹזְפִינֵּיה (Y. מוּזְפָא תּוּז'). Ib. XXVIII, 12; a. e.—Targ. Prov. XIX, 17 נְיוֹזִיף Ms. (ed. נְזִיף).—Bekh. 8\n<sup>b</sup> גברא דאו' וטרף דהדר מוֹזִיף … he who once lent money and had to resort to seizing (v. טְרַף I), why does he lend again?; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12370,
+      "source_id": "jastrow-xml-012370",
+      "canonical_entry_id": "J00265",
+      "headword": "יַזְפָא",
+      "source_xml": "<entry id=\"J00265\">\n<head-word>יַזְפָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>debtor</italic>.</definition>\n<notes> Targ. Is. XXIV, 2.—V יוֹזִיף.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12371,
+      "source_id": "jastrow-xml-012371",
+      "canonical_entry_id": "J00266",
+      "headword": "יָזֵק",
+      "source_xml": "<entry id=\"J00266\">\n<head-word>יָזֵק</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>Yazek</italic>, name of a Babylonian river or channel.</definition>\n<notes> Y. Kidd. IV, 65\n<sup>d</sup> top; Bab. ib. 71\n<sup>b</sup> עָזֵק; Y. Yeb. I, 3\n<sup>b</sup> top זרוק.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> בית י', v. \n<xref rid=\"J00481\">יַעֲזֵק</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12372,
+      "source_id": "jastrow-xml-012372",
+      "canonical_entry_id": "J00267",
+      "headword": "יְחָא",
+      "source_xml": "<entry id=\"J00267\">\n<head-word>יְחָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00283\">יְחִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12373,
+      "source_id": "jastrow-xml-012373",
+      "canonical_entry_id": "J00268",
+      "headword": "יָחַד",
+      "source_xml": "<entry id=\"J00268\">\n<head-word>יָחַד</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pi</italic>.</definition>\n<notes> יִחֵד, יִיחֵד (b. h.; v. אֶחָד) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to unite, concentrate</italic>.</definition>\n<notes> Y. Ber. IV, 7\n<sup>d</sup> bot. ותְיַיחֵד לבבינו וכ' and concentrate our hearts (inclinations) to fear thy Name.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (with על) \n<italic>to confer a distinction, name</italic> &amp;c. Gen. R. s. 68 אברהם י' … שמו עליו on Abraham did the Lord confer His Name (Gen. XXVI, 24, a. e.).</definition>\n<notes> Ib. ידע שהקב\"ה מְיַחֵד שמו עליו he inferred that the Lord would confer His Name upon him (to be called ‘the God of Jacob’). Mekh. Mishp. s. 20 על ישראל י' שמו ביותר (although the Lord of the universe) He conferred His Name particularly on Israel (v. יוֹתֵר); a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to declare the unity of God, to recite </italic>\n<pgbrk id=\"pg573\" />\n<italic>Sh’ma</italic> (Deut. VI, 4).</definition>\n<notes> Gen. R. s. 20 אנו … ומְיַחֲדִים שמו וכ' we trust in Him and profess His unity &amp;c. Cant. R. to II, 16 ואני מְיַחֶדֶת שמו וכ' and I (Israel) profess the unity of His name twice every day, (saying) Hear, O Israel &amp;c.; a. fr.</notes></sense>\n<sense>\n<number>—4)</number>\n<definition>\n<italic>to single out, select, designate</italic>.</definition>\n<notes> Snh. 57\n<sup>a</sup> שיי' שפחה לעבדו who designated a handmaid (as a wife) for his slave. Lev. R. s. 12 ויי' אליו הדבור וכ' addressed the command to him exclusively (Lev. X, 8); a. e.—Yoma 11\n<sup>b</sup> (ref. to Lev. XIV, 3</notes></sense>\n<sense>\n<number>5)</number>\n<definition> מי שמְיַיחֵד ביתו לו וכ' he who devotes his household exclusively to himself, and is unwilling to lend his vessels &amp;c.; Arakh. 16\n<sup>a</sup> שמיוחד (v. infra); Yalk. Lev. 564.</definition>\n<notes>—5) \n<italic>to leave persons alone in a special room, to arrange a private meeting for</italic>. Keth. 12\n<sup>a</sup>; Tosef. ib. I, 4; Y. ib. I, 25\n<sup>a</sup> bot. היו מְיַיחֲדִין וכ' they used to leave bride and groom in a private room alone for a while.—\n<italic>Part. pass</italic>. מְיוּחָד, f. מְיוּחֶדֶת; pl. מְיוּחָדִים, מְיוּחָדִין, מְיוּחָדוֹת a) \n<italic>especial, particular, designated; chosen, distinguished</italic> (v. יָחִיד). Snh. 60\n<sup>a</sup>, a. e. שם המי' the proper Name of the Lord (Jehovah).—Yoma 11\n<sup>a</sup> ביתך ביתך המי' לך ‘\n<italic>thy</italic> house’ (Deut. VI, 9; XI, 20), thy house which is designated for thy personal use. Ib.\n<sup>b</sup> מה בית מ' לדירה \n<italic>bayith</italic> means a room designated for a dwelling, יצאו אלו שאינן מי' לדירה to the exclusion of those rooms (gate lodge &amp;c.) which are not designated for dwellings. Arakh. l. c. מי' לו devoted to his own exclusive use, v. supra; a. fr.—Gen. R. s. 99, end (ref. to כאחד, Gen. XLIX, 1</notes></sense>\n<sense>\n<number>6)</number>\n<definition> כמי' שבשבטים like the most distinguished among the tribes.</definition>\n<notes> Yeb. 62\n<sup>a</sup> אני שמ' לדבור בכל וכ' I (Moses) who am singled out (must be prepared) for divine communication every hour; Ab. d’R. N., II Vers., ch. II (ed. Schechter, p. 10) שאני כלי מי' who am a special vessel (of revelation). Meil. 15\n<sup>a</sup> קדשים המי' לה' sanctified things which are exclusively dedicated to the Lord; Sifra Vayikra, Ḥobah, Par. 11, ch. XX.—Ib. Sh’mini, ch. II, Par. 2 כבשים ועזים המי' lambs and goats which are specified (Deut. XIV, 4); a. fr.—b) \n<italic>locked up with</italic>. Num. R. s. 9 בזמן שהאשה מי' עם וכ' when a wife is locked up with her husband.</notes></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְיַיחֵד, </binyan-form>\n<senses>\n<sense>\n<definition>, \n<italic>Nithpa</italic>.</definition>\n<notes> נִתְיַיחֵד </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be conferred</italic> (with על); \n<italic>to be especially addressed</italic> (with אל).</definition>\n<notes> Ex. R. s. 7 היה ראוי … להִתְיַיחֵד עליו וכ' the divine communication was to bear his name alone. Lev. R. s. 12 נתי' אליו הדבור the divine communication was addressed to him especially; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be alone with, to be closeted with</italic>.</definition>\n<notes> Kidd. IV, 12 לא יִתְיַיחֵד אדם וכ' a man must not be alone (even) with two women, but one woman מִתְיַיחֶדֶת וכ' may be alone with two men. Ab. Zar. II, 1. Tosef. Gitt. VII (V), 4; a. fr.—V. יִחוּד.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12374,
+      "source_id": "jastrow-xml-012374",
+      "canonical_entry_id": "J00269",
+      "headword": "יְחַד",
+      "source_xml": "<entry id=\"J00269\">\n<head-word>יְחַד</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa</italic>.</definition>\n<notes> יַחֵד ch. same, </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to concentrate</italic>.</definition>\n<notes> Targ. Ps. LXXXVI, 11.—\n<italic>Part. pass</italic>. מְיַחַד \n<italic>united, harmonious</italic>. Targ. Y. Ex. XIX, 2 (cmp. הוֹמוֹנְיָא).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to specify, single out, designate</italic>.</definition>\n<notes> Macc. 18\n<sup>a</sup> ליַחוּדֵי לאוי וכ' Ms. M. (ed. לי' להו) to forbid each of these acts singly (as if each were prohibited by a special prohibitory law, v. לַאו).—\n<italic>Part. pass</italic>. מְיָחַד = h. מְיוּחָד (v. preced.). Targ. O. Gen. XXVI, 10 דמְיָ' בעמא ed. Berl. (oth. ed. מְיָחֵיד; Y. מלכא דמֵיחַד) a distinguished person of the people. Targ. Y. Lev. XV, 20; 22 מְיַיחֵד designated; a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְיַיחֵד</binyan-form>\n<senses>\n<sense>\n<definition>, contr. אִיַּיחֵד \n<italic>to be joined; to be locked up</italic>.</definition>\n<notes> Targ. Y. I Gen. XLIX, 6. Targ. Job. III, 6.—Targ. Y. II Num. XXXI, 50.—Snh. 37\n<sup>a</sup> שרי לִיַּיחוּדֵי וכ' is permitted to be closeted up with her husband.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12375,
+      "source_id": "jastrow-xml-012375",
+      "canonical_entry_id": "J00270",
+      "headword": "יִחוּד,",
+      "source_xml": "<entry id=\"J00270\">\n<head-word>יִחוּד, </head-word>\n<head-word>יִיחוּד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced. wds.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>private meeting</italic>, esp. \n<italic>privacy between man and woman</italic>.</definition>\n<notes> Y. Keth. XI, beg. 34\n<sup>a</sup> דברים של יי' private attendance, e.g. assistance at washing and ointing. Y. Sot. I, 16\n<sup>c</sup> top אין זה י' this is no ascertained private meeting (with her former husband, on account of which a second letter of divorce would be required). Snh. 21\n<sup>a</sup>, sq. גזרו על הי' ועל וכ' they forbade privacy (with a married woman) and with a single woman. Ib. י' דאורייתא הוא is not privacy with a married woman biblically interdicted?—Kidd. 81\n<sup>a</sup> מלקין על הי' … משום הי' we punish private meetings between a man and a woman, but we do not prohibit the wife to her husband on account of her private meeting with a man. Ib. בעלה בעיר אין חוששין משום י' if her husband is in town, we do not consider her private meeting with a man a suspicious act; a. fr.—בְּיִ' a) \n<italic>privately</italic>. Bets. 22\n<sup>b</sup>; Pes. 37\n<sup>a</sup> שאילית את רבי בי' I asked my teacher privately.—b) \n<italic>particularly, exactly; by a special sign.</italic> Shek. VI, 2; Yoma 54\n<sup>a</sup></notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (later Hebr.) י' השם \n<italic>declaration of the unity of God</italic>.</definition>\n<notes> Pesik. Zutr., Nitsabim, end.—[Gen. R. s. 99, end כיחודו של עולם, read: כיחידוֹ, v. יָחִיד.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12376,
+      "source_id": "jastrow-xml-012376",
+      "canonical_entry_id": "J00271",
+      "headword": "יִחוּד,",
+      "source_xml": "<entry id=\"J00271\">\n<head-word>יִחוּד, </head-word>\n<head-word>יִחוּדָא, </head-word>\n<head-word>יִי'</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, esp. \n<italic>profession of the unity of God, Jewish religion</italic>.</definition>\n<notes> Targ. Lam. III, 28. Targ. Cant. VIII, 9 למקני י' וכ' to buy the permission to profess the Jewish religion.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12377,
+      "source_id": "jastrow-xml-012377",
+      "canonical_entry_id": "J00272",
+      "headword": "יִחוּל,",
+      "source_xml": "<entry id=\"J00272\">\n<head-word>יִחוּל, </head-word>\n<head-word>יִי'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יָחַל) \n<italic>hope</italic>.</definition>\n<notes> Ber. 16\n<sup>b</sup>; Y. ib. IV, 7\n<sup>d</sup> bot. ונמצא י' לבבינו that we may obtain what our heart longs for.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12378,
+      "source_id": "jastrow-xml-012378",
+      "canonical_entry_id": "J00273",
+      "headword": "יִחוּס,",
+      "source_xml": "<entry id=\"J00273\">\n<head-word>יִחוּס, </head-word>\n<head-word>יִי'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יָחַס) \n<italic>genealogy, pedigree</italic> (v. \n<xref rid=\"J00181\">יוֹחָס</xref>).</definition>\n<notes> Num. R. s. 13 לכן הוא מונה שם יִחוּסָם therefore the Scripture records there (Ex. VI, 14 sq.) their genealogy; a. e.—[Y. Gitt. VIII, 49\n<sup>c</sup> bot. יי' כהונה, v. זִיהוּם.—Y. Yeb. II, 4\n<sup>a</sup> top, v. יַחַס.]—\n<plural-form>Pl. יִחוּסִים, יִחוּסִין, יִי'</plural-form>. Num. R. l. c. שמרו יִחוּסֵיהֶם they preserved their genealogical records; Cant. R. to IV, 7. Gen. R. s. 37 הראשונים … יִיחוּסֵיהֶם וכ' as regards former generations whose genealogies were known, their names were published in connection with historical events; אנו יִיחוּסֵינוּ וכ' … but with us who do not know our records, our names are defined by those of our fathers; (Yalk. Gen. 62 יִחוּסֵהֶן, יִחוּסֵנוּ sing.); Yalk. Chr. 1074.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12379,
+      "source_id": "jastrow-xml-012379",
+      "canonical_entry_id": "J00274",
+      "headword": "יֵחוּס,",
+      "source_xml": "<entry id=\"J00274\">\n<head-word>יֵחוּס, </head-word>\n<head-word>יֵחוּסָא, </head-word>\n<head-word>יֵי'</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>; also \n<italic>family</italic> (\n<italic>gens</italic>).</definition>\n<notes> Targ. Y. Gen. V, 1. Ib. XXIV, 38; 40, sq. Ib. XLIII, 7; a. e.—Kidd. 71\n<sup>b</sup> שתיקותיה דבבל היינו יי' (v. marginal vers.) silence of a Babylonian (in case of an offered insult) is a sign of good descent; v. יַחֲסוּתָא.—\n<plural-form>Pl. יֵחוּסִין, יֵחוּסַיָּא, יֵי'</plural-form>. Targ. Y. Gen. VI, 9. Targ. Y. Ex. VI, 14. Targ. Job. XXXI, 34 Ms. Var. (ed. גְּנִיסָתָא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12380,
+      "source_id": "jastrow-xml-012380",
+      "canonical_entry_id": "J00275",
+      "headword": "יְחוּסָא",
+      "source_xml": "<entry id=\"J00275\">\n<head-word>יְחוּסָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>noble</italic>.</definition>\n<notes>—\n<plural-form>Pl. constr. יְחוּסֵי</plural-form>. Targ. Ps. XCVI, 7 (some ed. יֵחוּ', v. preced.)</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12381,
+      "source_id": "jastrow-xml-012381",
+      "canonical_entry_id": "J00276",
+      "headword": "יִחוּף,",
+      "source_xml": "<entry id=\"J00276\">\n<head-word>יִחוּף, </head-word>\n<head-word>יִי'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (יָחַף) \n<italic>bare-footedness, homelessness</italic>.</definition>\n<notes> Yoma 77\n<sup>a</sup> (ref. to Jer. II, 25) מנעי … לידי י' keep off from sin, in order that thy foot may not be reduced to bareness (exile); Yalk. Jer. 266 לידי יַחַף.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12382,
+      "source_id": "jastrow-xml-012382",
+      "canonical_entry_id": "J00277",
+      "headword": "יָחוֹפָה",
+      "source_xml": "<entry id=\"J00277\">\n<head-word>יָחוֹפָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>bare-footed, homeless</italic>.</definition>\n<notes> Lam. R. \n<pgbrk id=\"pg574\" />to I, 7 כד י' ברא וכ' (some ed. יְחֵיפָה) when the son is homeless (foot-sore), he remembers the comforts of his paternal home.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12383,
+      "source_id": "jastrow-xml-012383",
+      "canonical_entry_id": "J00278",
+      "headword": "יִחוּר,",
+      "source_xml": "<entry id=\"J00278\">\n<head-word>יִחוּר, </head-word>\n<head-word>יִיחוּר</head-word>\n<senses>\n<sense>\n<definition> (יחר, cmp. אחר, a. חֲלִיפִין) \n<italic>a young shoot</italic>, esp. of a fig-tree.</definition>\n<notes> Kil. I, 8. Ukts. III, 8; Ḥull. 128\n<sup>b</sup>. Y. Maasr. II, 49\n<sup>d</sup> top כיי' שהוא נוטה וכ' like a shoot (of a fig-tree) hanging over into a court (ref. to Mish. ib. III, 10); a. e.—\n<plural-form>Pl. יִחוּרִים, יִי'</plural-form>. Gen. R. s. 31, end … הכניס עמו י' לתאנים he (Noah) took with him … shoots for the preservation of fig-trees; ib. s. 36 י' של תאנה. Y. B. Kam. VI, 5\n<sup>b</sup> bot. יִיחוּרֵי תאנים; Bab. ib. 59\n<sup>a</sup> יִח'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12384,
+      "source_id": "jastrow-xml-012384",
+      "canonical_entry_id": "J00279",
+      "headword": "יְחֶזְקֵאל",
+      "source_xml": "<entry id=\"J00279\">\n<head-word>יְחֶזְקֵאל</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. m.</pos>\n<italic>Ezekiel</italic>, 1) the prophet.</definition>\n<notes>, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> the prophet. Snh. 39\n<sup>a</sup>, v. \n<xref rid=\"J00470\">יָסַר</xref>. Ḥag. 13\n<sup>b</sup> למה י' דומה לבן וכ' to whom is Ez. to be compared? To a villager that saw the king; a. fr.—ספר י' the Book of Ezekiel. Ib.\n<sup>a</sup>; Sabb. 13\n<sup>b</sup>, v. גָּנַז; Men. 45\n<sup>a</sup>; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> Ez., the father of R. Judah, v. \n<xref rid=\"J00124\">יְהוּדָה</xref>. Kidd. 70\n<sup>a</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12385,
+      "source_id": "jastrow-xml-012385",
+      "canonical_entry_id": "J00280",
+      "headword": "יָחַט",
+      "source_xml": "<entry id=\"J00280\">\n<head-word>יָחַט</head-word>\n<senses>\n<sense>\n<definition> (cmp. חטא); \n<italic>Hif.</italic> הוֹחִיט \n<italic>to fail, miscarry</italic>.</definition>\n<notes> Y’lamd. to B’resh., (quot. in Ar. s. v. מחט) לא היתה … מוֹחֶטֶת none of them miscarried.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12386,
+      "source_id": "jastrow-xml-012386",
+      "canonical_entry_id": "J00281",
+      "headword": "יְחַט",
+      "source_xml": "<entry id=\"J00281\">\n<head-word>יְחַט</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>abortion</italic>.</definition>\n<notes> Targ. Is. XIV, 19 כיחט ed. Lag. (oth. ed. כי חט, corr. acc.; Var. כיהט).—\n<plural-form>Pl. יַחְטַיָּיה</plural-form>. Y. Nidd. III, 51\n<sup>a</sup> אילין להטייה וכ' (corr. acc.) the abortions come out first.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12387,
+      "source_id": "jastrow-xml-012387",
+      "canonical_entry_id": "J00282",
+      "headword": "יַחֲטָא",
+      "source_xml": "<entry id=\"J00282\">\n<head-word>יַחֲטָא</head-word>\n<head-word>יַחָטָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced. wds.) \n<italic>searcher of sin, accuser</italic>.</definition>\n<notes> Targ. Zech. III, 1; ib. 2 (ed. Lag. חטא, v. ib. p. XLII\n<sup>3</sup>), v. חֲטָאָה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12388,
+      "source_id": "jastrow-xml-012388",
+      "canonical_entry_id": "J00283",
+      "headword": "יְחִי",
+      "source_xml": "<entry id=\"J00283\">\n<head-word>יְחִי</head-word>\n<senses>\n<sense>\n<definition> (cmp. חיי), \n<italic>Af.</italic> אוֹחִי \n<italic>to hurry, press on</italic>.</definition>\n<notes> Targ. Ex. X, 16. Targ. Esth. VI, 10. Targ. O. Gen. XVIII, 6 אוֹחָאִי ed. Berl. (ed. אוֹחִי, Y. אוֹחָא). Targ. Ex. XII, 33. לאוֹחָאָה; a. fr.—Part. מוֹחִי, מַוְוחֵי; f. מוֹחֲיָיא. Targ. Prov. XXII, 29 (ed. Wil. מַוְהֵי). Targ. Zeph. III, 1; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12389,
+      "source_id": "jastrow-xml-012389",
+      "canonical_entry_id": "J00284",
+      "headword": "יָחִיד",
+      "source_xml": "<entry id=\"J00284\">\n<head-word>יָחִיד</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָחַד)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>only, single, individual</italic>.</definition>\n<notes> Gen. R. s. 99, end (ref. to כאחד, Gen. XLIX, 16) כִּיחִידוֹ של וכ' (not כיחודו) like the Only One of the world, as He needs no help &amp;c.; ib. s. 21 (ref. to כאחד, ib. III, 22). Ib. s. 55 זה י' לאמו וכ' this one (Ishmael) is the only son of his mother, and the other (Isaac) is &amp;c.—Taan. 9\n<sup>a</sup> בשביל י' for an individual’s sake, opp. רבים. Ber. 9\n<sup>a</sup>, a. fr. י' ורבים הלכה וכ' where a single opinion is opposed to the opinion of more than one, the law follows the latter. Bets. V, 5 בור של י' a well belonging to an individual. Erub. 46\n<sup>a</sup> י' במקום י' an individual opinion opposed to an individual opinion; a. v. fr.—Y. Keth. VII, 31\n<sup>b</sup> bot. בְּיָ' (= בְּיִחוּד) \n<italic>privately</italic>.—\n<plural-form>Pl. יְחִידִים, יְחִידִין</plural-form>. R. Hash. 17\n<sup>b</sup> כי' דמי are to be considered as individuals (in prayer); a. fr.—\n<italic>Fem.</italic> יְחִידָה. Num. R. s. 12 בת י' an only daughter; a. fr.—Deut. R. s. 2, end מה הקב\"ה … כך הנפש י' בגוף as the Lord is matchless in his world, so is the soul in the body; Midr. Till. to Ps. CIII; Gen. R. s. 14, end שכל האברים … והיא י' בגוף all limbs are paired, but she (the soul) is unmatched in the body.—As a noun (b. h.) יְחִידָה \n<italic>soul</italic>. Ib. Deut. R. l. c.; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>select</italic>, esp. \n<italic>one devoted to a particularly scrupulous life</italic>.</definition>\n<notes> Taan. 10\n<sup>b</sup> איזהו י' who is called a \n<italic>ya</italic>\n<italic>ḥ</italic>\n<italic>id</italic>? Ans. י' כל שראוי וכ' whoever is worthy to be appointed manager of a community. Ib. אל יאמר אדם … להיות י' one must not say, I am only a student, I am not fit to lead the life of a \n<italic>ya</italic>\n<italic>ḥ</italic>\n<italic>id</italic> (it would be an assumption, v. יוֹהֲרָא); Tosef. ib. I, 7 (v. Var. in ed. Zuck. a. Rabb. D. S. to Taan. l. c.); Y. Ber. II, end, 5\n<sup>d</sup> כל דבר של צער … י' עושה in all matters of self-abnegation, whoever desires to make himself a \n<italic>ya</italic>\n<italic>ḥ</italic>\n<italic>id</italic>, may do so.—\n<plural-form>Pl. as ab. Taan. I, 4; a. fr. V. יְחִידִי</plural-form></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12390,
+      "source_id": "jastrow-xml-012390",
+      "canonical_entry_id": "J00285",
+      "headword": "יָחִיד,",
+      "source_xml": "<entry id=\"J00285\">\n<head-word>יָחִיד, </head-word>\n<head-word>יָחִידָא, </head-word>\n<head-word>י'</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Gen. XXII, 2. Targ. Prov. IV, 3; a. e.—\n<italic>Fem.</italic> יְחִידָאָה, יְחִידְתָּא. Targ. Jud. XI, 34 (ed. Lag. יְחִידָא, some ed. יְחִידָה).—Ned. 51\n<sup>a</sup> תספרתא י' a particular kind of hair-dressing.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12391,
+      "source_id": "jastrow-xml-012391",
+      "canonical_entry_id": "J00286",
+      "headword": "יְחִידָאָה",
+      "source_xml": "<entry id=\"J00286\">\n<head-word>יְחִידָאָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f., v. \n<xref rid=\"J00285\">preced.</xref>—י' m., v. יְחִידִי ch.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12392,
+      "source_id": "jastrow-xml-012392",
+      "canonical_entry_id": "J00287",
+      "headword": "יְחִידִי",
+      "source_xml": "<entry id=\"J00287\">\n<head-word>יְחִידִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"J00286\">preced.</xref> wds.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>singular, single, lonely</italic>.</definition>\n<notes> Macc. 23\n<sup>b</sup> בלשון י' in the singular number, opp. ל' רבים.—Kidd. 20\n<sup>a</sup> (expl. בגפו, Ex. XXI, 3) י' נכנס וכ' single (unmarried) he entered &amp;c. Ab. III, 4 המהלך בדרך י' who travels alone. Ib. IV, 8 אל תהי דן י' וכ' do not hold court as a single judge, for there is only One who judges singly; a. fr.—\n<italic>Fem.</italic> יְחִידִית. Y. Kil. II, 28\n<sup>a</sup> bot. גפן י' a single (isolated) vine tree. Y. Ab. Zar. IV, 44\n<sup>a</sup> top מצבה כל שהיא י' it is called \n<italic>matsebah</italic> when consisting of one piece (v. בִּימוּס); a. e.—\n<plural-form>Pl. יְחִידִיּוֹת</plural-form>. Y. Kil. V, beg. 29\n<sup>d</sup> בי' in the case of isolated vine trees. Y. Sot. IX, 23\n<sup>c</sup> top י' isolated tombstones.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>believer in One God</italic>.</definition>\n<notes> Esth. R. to II, 5, v. יְהוּדִי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12393,
+      "source_id": "jastrow-xml-012393",
+      "canonical_entry_id": "J00288",
+      "headword": "(… דַי) יְחִידִי,",
+      "source_xml": "<entry id=\"J00288\">\n<head-word>(… דַי) יְחִידִי, </head-word>\n<head-word>יְחִידָאָה, </head-word>\n<head-word>דָאִי, </head-word>\n<head-word> …, , </head-word>\n<head-word>יְחִידָיָיא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>lonely; only one</italic>.</definition>\n<notes> Targ. Ps. XXV, 16 (ed. Lag. יְחִידָאִי).—Targ. Y. Deut. XXXII, 50 (ed. Amst. דָאֵי … incorr.). Targ. Job XIV, 4 Ms. (ed. חד).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>single authority, opinion of one</italic>.</definition>\n<notes> Pes. 103\n<sup>b</sup> לא יחידאה אנא (v. Rabb. D. S. a. l.) I do not report the opinion of one man. Y. Ter. VI, beg. 44\n<sup>a</sup> אתיא די' דהכא כסתמא דתמן וכ' the opinion of the single authority here agrees with the anonymous (editorially adopted) one there &amp;c.; Y. Ned. VII, beg. 40\n<sup>b</sup>. Y. Sabb. III, 6\n<sup>a</sup> bot. לית אנן … לי' we need not consider the opinion of a single authority; a. fr.—\n<plural-form>Pl. יְחִידָאִין, יְחִידָאֵי, יְחִידָיִין</plural-form>. Targ. Y. Gen. XXII, 10 (v. יָחִיד 2).—B. Kam. 81\n<sup>b</sup> bot. בי' לא אמרינן we do not speak of single authorities. Y. Ḥag. II, 77\n<sup>b</sup> top י' single-handed, each for himself, v. טְעַן II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12394,
+      "source_id": "jastrow-xml-012394",
+      "canonical_entry_id": "J00289",
+      "headword": "יְחִידְתָּא",
+      "source_xml": "<entry id=\"J00289\">\n<head-word>יְחִידְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00284\">יָחִיד</xref> ch.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12395,
+      "source_id": "jastrow-xml-012395",
+      "canonical_entry_id": "J00290",
+      "headword": "יחֵיף,",
+      "source_xml": "<entry id=\"J00290\">\n<head-word>יחֵיף, </head-word>\n<head-word>יְחֵיפ'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"J00306\">יְחֵף</xref>, \n<xref rid=\"J00306\">יָחֵף.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12396,
+      "source_id": "jastrow-xml-012396",
+      "canonical_entry_id": "J00291",
+      "headword": "יְחֵיפָה",
+      "source_xml": "<entry id=\"J00291\">\n<head-word>יְחֵיפָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m. ch., v. \n<xref rid=\"J00277\">יָחוֹפָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12397,
+      "source_id": "jastrow-xml-012397",
+      "canonical_entry_id": "J00292",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00292\">\n<head-word>*, </head-word>\n<head-word>*יַחְכִּים</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = חַכִּים. Targ. I Chr. IV, 9 ed. Beck, Var. ed. Rahmer ויח' (ed. וח').</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12398,
+      "source_id": "jastrow-xml-012398",
+      "canonical_entry_id": "J00293",
+      "headword": "יָחַל",
+      "source_xml": "<entry id=\"J00293\">\n<head-word>יָחַל</head-word>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"H00319\">חוּל</xref>) \n<italic>to hover around, rest on</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>יִחֵל, יִי'</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (with (with על) \n<italic>to cause to rest upon</italic>.</definition>\n<notes> Pesik. R. s. 47 מְיַיחֵל אני … כשם שיִיחַלְתִּי וכ' I shall cause my Name to rest upon him (Job) as I did upon &amp;c.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> with אל)</xref></language-reference>\n<italic>to wait for the turn, to wait, trust; to inspire trust</italic>; v. \n<xref rid=\"J00272\">יִחוּל</xref>.</definition>\n<notes /></sense></senses></binyan>\n<binyan>\n<binyan-name>Hof.</binyan-name>\n<binyan-form>הוּחָל</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be made to rest</italic>.</definition>\n<notes> Sifré Deut. 31, v. יוֹתֵר.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 12399,
+      "source_id": "jastrow-xml-012399",
+      "canonical_entry_id": "J00294",
+      "headword": "*,",
+      "source_xml": "<entry id=\"J00294\">\n<head-word>*, </head-word>\n<head-word>*יָחַם</head-word>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"H00369\">חוּם</xref>) \n<italic>to be warm, hot</italic>; \n<italic>Pi</italic>.</definition>\n<notes> יִחֵם \n<italic>to heat</italic>. \n<pgbrk id=\"pg575\" />Tosef. Sabb. III (IV), 7 מְיַיחֵם, v. חָמַם.—Pesik. Zutr. (ed. Bub.), Vayetsé 39 ליַחְמֶנָּה to heat it (the flock). Ib. 41 לְיַחֵם.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 12400,
+      "source_id": "jastrow-xml-012400",
+      "canonical_entry_id": "J00295",
+      "headword": "יְחַם",
+      "source_xml": "<entry id=\"J00295\">\n<head-word>יְחַם</head-word>\n<language-key>ch.</language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. O. Gen. XVIII, 1; Targ. II Sam. IV, 5 מֵיחַם (perh. fr. חֲמַם).</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>יַחֵם</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to heat</italic>.</definition>\n<notes> Targ. O. Gen. XXX, 41 ליָחָמוּתְהֵין ed. Berl. (ed. ליַתֱמוֹתְהֶן; Y. ליַחְמוּתְ').</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְיַחַם</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be heated, to conceive</italic>.</definition>\n<notes> Ib. 38, sq.</notes></sense></senses></binyan></entry>\n"
+    }
+  ]
+}

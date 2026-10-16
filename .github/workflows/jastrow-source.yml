@@ -1,0 +1,57 @@
+name: JASTROW - recuperar registros originais 2001-3000
+
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths:
+      - ".github/workflows/jastrow-source.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jastrow-source-chat-gpt-jastrow
+  cancel-in-progress: false
+
+jobs:
+  recuperar-fonte:
+    name: Preservar cinco lotes originais 2001-3000
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Recuperar registros integrais do XML canônico fixo
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          spec=importlib.util.spec_from_file_location("jastrow_source", "tools/jastrow_source.py")
+          source=importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(source)
+          xml=source.request_source()
+          for batch in range(11,16):
+              offset=(batch-1)*200
+              destination=Path(f"lexicons/jastrow-source-lote-{batch:04d}.json")
+              if destination.exists():
+                  print(f"LOTE_EXISTENTE {batch} {destination}")
+                  continue
+              result=source.extract(xml, 200, offset)
+              source.write_atomically(destination, result)
+              print(f"FONTE_PRESERVADA {batch} {result['source_start_ordinal']}–{result['source_end_ordinal']} {result['first_headword']}–{result['last_headword']}")
+          PY
+      - name: Publicar somente as cinco fontes originais em chat-gpt-jastrow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- lexicons/jastrow-source-lote-0011.json lexicons/jastrow-source-lote-0012.json lexicons/jastrow-source-lote-0013.json lexicons/jastrow-source-lote-0014.json lexicons/jastrow-source-lote-0015.json
+          if ! git diff --cached --quiet; then
+            git commit -m "JASTROW: preservar originais A02000–A02999, ordinais 2001–3000"
+            git push origin HEAD:chat-gpt-jastrow
+          fi

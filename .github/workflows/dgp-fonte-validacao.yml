@@ -1,0 +1,78 @@
+name: DGP Etapa 1 - recuperar e validar fonte alfa
+on:
+  workflow_dispatch:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - '.github/workflows/dgp-fonte-validacao.yml'
+permissions:
+  contents: read
+concurrency:
+  group: dgp-etapa1-fonte-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verificar-fonte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout do Scriptura Lexicon
+        uses: actions/checkout@v4
+      - name: Recuperar XML no commit canônico e validar SHA Git
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_COMMIT=deb54b426ead447d01ced7534736f3e77be7015b
+          SOURCE_BLOB=eec318bb6150b6b2f4422ea4a76383ac0a254de2
+          SOURCE_PATH=arquivos_xml/01_Alfa.txt.xml
+          mkdir -p .dgp-fonte auditorias/ci-dgp
+          git init -q .dgp-fonte
+          git -C .dgp-fonte remote add origin https://github.com/aniseferreira/Grc-Por-DigDict.git
+          git -C .dgp-fonte -c protocol.version=2 fetch --no-tags --depth=1 origin "$SOURCE_COMMIT"
+          VERIFIED_COMMIT=$(git -C .dgp-fonte rev-parse FETCH_HEAD)
+          test "$VERIFIED_COMMIT" = "$SOURCE_COMMIT"
+          git -C .dgp-fonte show "FETCH_HEAD:$SOURCE_PATH" > auditorias/ci-dgp/alfa-original.xml
+          test -s auditorias/ci-dgp/alfa-original.xml
+          ACTUAL_BLOB=$(git hash-object auditorias/ci-dgp/alfa-original.xml)
+          echo "Commit da fonte: $VERIFIED_COMMIT"
+          echo "SHA blob esperado: $SOURCE_BLOB"
+          echo "SHA blob calculado: $ACTUAL_BLOB"
+          test "$ACTUAL_BLOB" = "$SOURCE_BLOB"
+          printf '%s\n' "source_commit=$SOURCE_COMMIT" "source_blob=$ACTUAL_BLOB" "source_path=$SOURCE_PATH" > auditorias/ci-dgp/proveniencia.txt
+      - name: Conferir XML e registrar diagnóstico
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import collections
+          import json
+          import xml.etree.ElementTree as ET
+          source=Path("auditorias/ci-dgp/alfa-original.xml")
+          root=ET.parse(source).getroot()
+          counts=collections.Counter(node.tag.split("}")[-1] for node in root.iter())
+          result={
+              "dictionary":"DGP",
+              "stage":"etapa1_preflight_source",
+              "status":"FONTE_RECUPERADA_E_XML_VALIDO",
+              "source_path":"arquivos_xml/01_Alfa.txt.xml",
+              "source_commit":"deb54b426ead447d01ced7534736f3e77be7015b",
+              "source_blob":"eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+              "xml_bytes":source.stat().st_size,
+              "root_tag":root.tag,
+              "element_counts":dict(counts.most_common(40)),
+              "approved_entries":0,
+              "note":"Diagnóstico de recuperação, não cotejo ou homologação de verbetes."
+          }
+          Path("auditorias/ci-dgp/fonte-alfa-diagnostico.json").write_text(
+              json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print(json.dumps(result,ensure_ascii=False,indent=2))
+          PY
+      - name: Publicar evidências não lexicais
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgp-etapa1-fonte-alfa-${{ github.run_id }}
+          path: |
+            auditorias/ci-dgp/fonte-alfa-diagnostico.json
+            auditorias/ci-dgp/proveniencia.txt
+          if-no-files-found: warn
+          retention-days: 30

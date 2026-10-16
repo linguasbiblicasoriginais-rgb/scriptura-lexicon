@@ -1,0 +1,182 @@
+================================================================================
+NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
+================================================================================
+A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
+================================================================================
+
+# RJASTROW — Norma canônica da incorporação JASTROW
+Versão inicial: 10/10/2026
+
+## Autoridade, fonte e finalidade
+- Projeto: Scriptura Lexicon / GDHAGP.
+- Obra: Marcus Jastrow, A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature.
+- Autoridade eletrônica para a sequência e conteúdo: Sefaria, Jastrow Dictionary, https://www.sefaria.org/Jastrow?tab=contents.
+- APIs documentadas para consulta, sujeitas a confirmação do conteúdo REAL: https://www.sefaria.org/api/words/{word}, https://www.sefaria.org/api/words/completion/{word}/Jastrow%20Dictionary e APIs de texto/índice.
+- O catálogo da Sefaria e sua estrutura de entradas não equivalem a uma transcrição verificada de cada entrada. Não transformar resultados de autocompletar em verbetes publicados sem a entrada integral.
+- Fonte, tradução, análise e verbete final são camadas separadas. Preserve o original inglês da edição histórica na camada Fonte e traduza para português brasileiro cada acepção, exemplo traduzível, etimologia, explicação, nota e popup na camada publicada. Preserve hebraico, aramaico, citações e formas originais sem alterações silenciosas.
+
+## Branches e limites de escrita
+- Incorporação: SOMENTE chat-gpt-jastrow.
+- Auditoria independente e correções: SOMENTE chat-gpt-correcoes, após a publicação real.
+- Integração: PR chat-gpt-jastrow → chat-gpt-commits; verificar efetiva mesclagem e preservar a origem; nunca escrever em main.
+- Manter independência de BDAG, DGP, LEH, PEREIRA, KLEIN, BDB e demais fontes. Não editar outros léxicos durante a incorporação JASTROW.
+- Antes de editar, consultar HEAD, README.md, ORQUESTRACAO.md, este arquivo, lexicons/jastrow-progress.json, estrutura da aplicação e dados remotos; reconciliar divergências e evitar corrida com tarefas paralelas.
+
+## Lotes e veracidade
+- O comando "Execute o JASTROW" solicita até 200 NOVOS verbetes por rodada, em ordem canônica efetivamente demonstrada, sem pular homógrafos, registros distintos ou variantes que a fonte trate separadamente.
+- O contador publicado deve derivar dos arquivos reais e não somente de um manifesto. Identificadores estáveis e únicos por fonte; registrar referência de origem e, quando disponível, ordem/rid/prev_hw/next_hw. Não assumir que um lema representa uma única entrada.
+- Preservar todo o conteúdo lexical comprovado: lemas vocalizados, variantes, flexões, classe/forma, acepções, exemplos, referências, remissões, abreviaturas, marcas editoriais e distinção entre hipótese e fato. Não inventar reconstruções, traduções ou links.
+- Criar search-row e entry-card compatíveis para cada registro, com data-dictionary correto ("aramaico" ou "hebraico" segundo a organização justificada), data-source="JASTROW", data-target apontando para ID existente; não duplicar nem gerar registros órfãos.
+- Modularizar o JASTROW em lexicons/jastrow*.js e atualizar carregamento da aplicação somente depois de confirmar compatibilidade real. Não inserir 200 marcadores vazios ou links como substitutos de verbetes traduzidos.
+
+## Revisão editorial e técnica obrigatória
+- Conferir entrada a entrada, linha a linha e por amostragem dirigida ao risco: fidelidade ao original, tradução pt-BR, referências, transliteração documentada, homógrafos, flexões, gênero/classe, acentuação e sinais diacríticos; checar ausência de inglês residual no conteúdo traduzido.
+- Popups explicativos para abreviaturas, autores, obras, referências, termos e vocabulário técnico identificáveis; não inventar expansões. Minidicionário e minibiografias vinculados quando sustentados por fontes verificadas.
+- Validar cada URL para a edição, passagem e idioma CORRETOS; destino errado é pior que ausência de link.
+- Auditar cardinalidade de search-row/entry-card, IDs únicos, destinos, escape de HTML, JS, pesquisa, filtros, carregamento, responsividade, tipografia RTL/LTR, acessibilidade, teclado, contraste e regressões.
+- Auditoria estática não comprova teste de navegador ou revisão filológica integral. Relatar separadamente pendências visuais e funcionais.
+- Cada lote efetivamente concluído exige commit auditável em chat-gpt-jastrow, reconfirmação remota e checkpoint; a auditoria independente exige registro em chat-gpt-correcoes; só depois abrir ou mesclar PR para chat-gpt-commits. Sem force-push; quando suportado, proteger atualização de ref com expected_sha.
+
+## Falhas, progresso e relatório
+- Erro transitório: no máximo 3 tentativas totais seguras; antes de repetir uma escrita, inspecionar HEAD remoto e os arquivos para evitar duplicatas. Erro permanente/sem dados: interromper sem criar registros fictícios.
+- Falha de consulta à Sefaria não constitui evidência de inexistência do verbete. Procurar exportação canônica verificável; registrar limites e não mudar silenciosamente de fonte.
+- Em cada execução relatar commits e SHAs reais, diffs, primeiro/último lema, total publicado e novo, total auditado e pendente, resultado da integração, README e evidências dos bloqueios. Nunca declarar conclusão sem validação remota.
+- A implantação inicial pode registrar 0 verbetes e checkpoint = 1 enquanto o acesso à fonte for impedido. Esse registro é preparação técnica, NÃO entrega lexical nem auditoria de 200 entradas.
+
+## Fonte XML canônica confirmada — 10/10/2026
+- Fonte original pública confirmada: `Sefaria/Sefaria-Data`, arquivo `dictionaries/Jastrow/data/01-Merged XML/Jastrow-full.xml`, commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`, blob `98292a0c219835df19b9da7cea1edbc4dcc6526d`. A Sefaria qualifica a versão de 1903 como domínio público.
+- O XML contém 32.512 elementos `entry`; cada entrada tem um atributo `id` editorial estável (p. ex. `A00000`). O mesmo `head-word` pode reaparecer em registros distintos. **Não exigir unicidade de lema nem usar somente o lema como identificador.** Usar os IDs `A00000` etc., sem substituir pelos IDs sequenciais locais do checkpoint.
+- A fonte preferencial é o XML fixado por commit, obtido diretamente pelo conector do GitHub ou pelo extrator `tools/jastrow_source.py`. A API Sefaria é alternativa de verificação, nunca pré-requisito absoluto quando o XML está acessível.
+- Lote 1: `lexicons/jastrow-source-lote-0001.json`, entrada original 1–200 (`A00000–A00199`), commit remoto `d00255186bb0c4cae9ed2c89a11588d40c75aa88`; próximo original `A00200` (`אָבַר`). Validação estática 200/200, sem confundir fonte com tradução.
+- Primeiro sublote editorial `A00000–A00009` traduzido em `lexicons/jastrow.js` e ligado aos cartões e à pesquisa via `index.html`. Próximo a traduzir: `A00010`, ordinal 11, `אאלר"ן`. Existem 190 entradas originais no lote ainda não traduzidas.
+- Auditoria independente em `chat-gpt-correcoes` e teste funcional navegador são obrigatórios antes de integração a `chat-gpt-commits`. Os dez registros traduzidos passam apenas por auditoria estática de referência, correspondência de IDs e integração declarativa; **não** são declarados filologicamente certificados.
+
+
+## Operação de 100 registros — decisão específica de 10/10/2026
+- A solicitação expressa de **100 verbetes** substitui o máximo padrão de 200 **apenas nesta rodada**, sem alteração retroativa nos registros anteriores. Intervalo real: originais 11–110, IDs A00010–A00109; início do próximo: A00110.
+- Fonte XML preservada no lote original 1–200; 100 descrições portuguesas novas em três módulos independentes, para preservar homógrafos e IDs. Sem deduções de links externos.
+- A publicação estrutural é comprovada por 110 linhas de pesquisa e 110 cartões, 110 alvos corretos e IDs únicos; 55 definições de popup únicas após deduplicação. Isso não equivale a revisão filológica independente.
+- Notas secundárias e exemplos extensos da fonte continuam integralmente no XML e nem todos foram vertidos para os cartões; revisar a completude editorial antes de aprovar o lote.
+- Checkpoint: total_publicado=110; próximo_ordinal=111; próximo_id=A00110. `total_audited` e `total_integrated` devem permanecer em zero até auditoria independente real, testes necessários e integração confirmada. Não criar PR de integração ou mesclar com aprovação presumida.
+
+## Terceira rodada JASTROW — 100 registros (10/10/2026)
+- Intervalo 111–210 (`A00110`–`A00209`); os cem registros novos foram redigidos em português e ligados aos 110 anteriores, sem fusão dos homógrafos.
+- Fonte original completa (400 registros): `lexicons/jastrow-source-lote-0001.json` (1–200) e `lexicons/jastrow-source-lote-0002.json` (201–400), ambos do XML Sefaria-Data, commit fixo `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`.
+- Erro operacional identificado e corrigido: `IndexError` ao indexar lemas com `--start-ordinal 200` no run 38099249338; êxito da extração com a correção no run 38099440930.
+- Auditoria estática: 210 linhas, 210 cartões, 210 IDs e alvos consistentes, 86 definições de popup únicas e todos os onze scripts JASTROW carregados em ordem antes de `script.js`. **Não equivale a auditoria filológica integral**: exemplos, notas e referências exigem revisão.
+- Ponto de retomada: ordinal 211, ID `A00210`, lema `אַבְרוּיֵי`. Fonte seguinte a recuperar após o ordinal 400: ID `A00400` (`אֲדִימָּא`).
+- Conciliação remota: o PR #82 JASTROW anterior está realmente mesclado em `chat-gpt-commits`; dos 210 verbetes atualmente publicados, 110 constam da integração anterior, os novos 100 ainda não. Não confundir integração com auditoria editorial. Não tocar `main`, não eliminar branches.
+
+## Quarta rodada JASTROW — A00210–A00309 (11/10/2026)
+- Escopo explícito solicitado: 100 registros, ordinais 211–310, IDs `A00210`–`A00309`; fonte canônica `lexicons/jastrow-source-lote-0002.json`, fixa em `Sefaria/Sefaria-Data` commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Não criar verbetes por projeção: cada ID e lema deve corresponder ao XML.
+- Carga lexical em quatro módulos independentes de 25 entradas, mais `lexicons/jastrow-popups-211-310.js`; não reescrever os verbetes 1–210 nem alterar outros léxicos.
+- Auditoria V8 de integridade: 310 linhas, 310 cartões, 310 targets corretos, 310 IDs originais consecutivos, módulos em ordem e 115 definições de popup únicas. Os números não representam revisão semântica completa.
+- Checkpoint pós-publicação: `total_published=310`, `total_integrated=210` (os 210 anteriores conferidos na branch de integração), `total_audited=0`, próximo ordinal 311, ID `A00310`, lema `אַגַּמָּא`. Manter limites de certificação enquanto há notas e exemplos que não receberam tradução completa.
+- Separar auditoria estrutural em `chat-gpt-correcoes`, não alegar testes visuais/navegador não executados nem integrar os novos 100 como se tivessem aprovação filológica independente. Branch `main` permanece intocada.
+
+## Quinta rodada JASTROW — A00310–A00409 (11/10/2026)
+- A solicitação expressa de 100 verbetes foi executada sobre os originais 311–410, IDs `A00310` a `A00409`; homógrafos, grafias e até irregularidades do primeiro `head-word` no XML devem ser preservados por ID.
+- Os 90 primeiros registros da rodada vieram de `lexicons/jastrow-source-lote-0002.json`, e os 10 restantes de `lexicons/jastrow-source-lote-0003.json`. O terceiro lote contém os registros 401–600, validado pelo workflow do GitHub [run 38112091478](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38112091478), segundo XML fixo `Sefaria-Data` no commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Total de registros originais disponíveis: 600.
+- Quatro módulos independentes de 25 entradas: `jastrow-311-335.js`, `jastrow-336-360.js`, `jastrow-361-385.js`, `jastrow-386-410.js`; popups adicionais em `jastrow-popups-311-410.js`.
+- Verificação estática de todos os 100 registros novos: IDs consecutivos e ligados ao original, lemas correspondentes, 100 linhas/100 cartões/100 alvos, execução JavaScript válida e carga em ordem; definição de popups sem duplicações, total JASTROW de 137.
+- Checkpoint após a rodada: `total_published=410`, `total_integrated=210` (confirmado pelo HTML de `chat-gpt-commits`), `total_audited=0`, próximo ordinal 411, ID `A00410` (lema `אדכי`). Próximo original ainda não extraído: `A00600`; há registros-fonte até `A00599`.
+- A camada portuguesa desta rodada contém traduções e sínteses dos sentidos originais; não se afirmar tradução integral de todos os exemplos e notas. Auditoria filológica independente e teste em navegador seguem exigidos antes de declarar os registros certificados e de mesclar PR para `chat-gpt-commits`. `main` intocada.
+
+## Sexta rodada JASTROW — A00410–A00509 (11/10/2026)
+- Produzir somente verbetes correspondentes às 100 entradas XML de ordinais 411–510 no arquivo `lexicons/jastrow-source-lote-0003.json` (IDs `A00410`–`A00509`), preservando grafia original e identidade de cada homógrafo. Fonte canônica fixada em `Sefaria/Sefaria-Data`, commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`.
+- Quatro módulos de 25 entradas em `lexicons/jastrow-411-435.js`, `jastrow-436-460.js`, `jastrow-461-485.js`, `jastrow-486-510.js`, mais glossário independente `jastrow-popups-411-510.js`. Carregar os cinco na ordem, antes de `script.js`.
+- Auditoria sintática e estrutural executada: 100 novas linhas `search-row`, 100 cartões `entry-card`, com 100 correspondências de IDs e lemas frente ao XML, sem targets duplicados no sublote. Rigor lexical e testes reais de DOM requerem validação independente.
+- Checkpoint de publicação: 510 editoriais publicados; 600 originais armazenados; próximo `A00510`, `אֲהָן`, ordinal 511. Os primeiros 410 foram integrados pelo PR #89; os novos 100 aguardam PR/merge. `total_audited=0` até revisão filológica independente.
+- Não caracterizar sínteses em português como tradução integral do original; registrar exemplos e variantes omitidos quando identificados. Na integração, preservar todos os arquivos do destino e usar merge real sem force-push nem exclusão de branches. Nunca escrever em `main`.
+
+## Sétima rodada — conclusão até A00599 / ordinal 600 (11/10/2026)
+- Incorporar exatamente 90 registros canônicos de `A00510` a `A00599`, correspondentes aos ordinais 511–600, retirados de `lexicons/jastrow-source-lote-0003.json`, fonte fixa Sefaria-Data commit `947c1b91684df9f8b92f14cf0d281b5d4f29bfc7`. Preservar as grafias originais e a independência de cada homógrafo ou remissão.
+- Seis módulos: `jastrow-511-535.js` (25), `jastrow-536-560.js` (25), `jastrow-561-570.js` (10), `jastrow-571-580.js` (10), `jastrow-581-590.js` (10), `jastrow-591-600.js` (10), mais `jastrow-popups-511-600.js`. O fracionamento em lotes menores não altera a ordenação original.
+- Após publicação e auditoria técnica, checkpoint `total_published=600`, `source_records_retrieved=600`, `next_ordinal=601`, `next_source_id=A00600`, `next_lemma=אוּזִילָא`; o próximo original ainda não está extraído. `total_integrated` somente será 600 após PR efetivamente mesclado em `chat-gpt-commits`.
+- Auditoria reproduzível em `tools/audit_jastrow_600.js`, GitHub Actions `.github/workflows/jastrow-audit-600.yml`: comparar busca/cartão/ID/lema e fontes; as duas diferenças de grafia legadas A00006/A00007 devem permanecer visíveis. Revisão filológica integral, exemplos e comentários não exaustivamente traduzidos, browser e acessibilidade pendentes; `total_audited=0`.
+- Manter intactos `main`, branches de origem, outros léxicos e histórico do repositório. Merge somente após auditoria técnica e conciliação com a árvore consolidada real.
+
+## Triagem filológica de todos os 600 verbetes (11/10/2026)
+
+- A varredura `tools/jastrow_triagem_filologica.js` confrontou **600/600** XML originais e redações em português com evidências em `auditoria/JASTROW-filologia-600-2026-10-11.md` e artefatos na execução GitHub Actions `38118125003`. O resultado são 504 sem alerta, 55 baixo, 39 médio e 2 alto, distribuídos em 12 relatórios e matriz de 600 itens.
+- A triagem automática **não equivale a auditoria filológica certificada**. Exigir leitura real por registro para comprovar significados, subdivisões, formas, usos, citações bíblicas e talmúdicas, variantes e hipóteses. Não incrementar `total_audited` com base na ausência de alertas.
+- Cinco registros foram confrontados manualmente com o XML (`A00156`, `A00238`, `A00338`, `A00362`, `A00371`); três receberam emendas baseadas em variantes e citações originais; os dois restantes não justificaram correção conjectural.
+- Mantêm-se `total_published=600`, `total_integrated=600`, `total_audited=0`; novos contadores separados `total_screened_filologically=600` e `total_manually_confronted_this_cycle=5`.
+- Preservar independência das camadas Fonte, Tradução, Análise e entrada GDHAGP; a omissão de transcrição literal de exemplos não pode ser confundida com mudança de significado, mas deve permanecer documentada. Não fazer alterações em `main`.
+
+================================================================================
+ADENDO DOCUMENTAL DA BRANCH DE CORREÇÕES — PR #115 (12/10/2026)
+Registros de origem incorporados como histórico. Em caso de conflito, prevalecem as normas superiores já consolidadas, sem declarar auditoria integral não certificada. Menções a integração pendente são fotografias históricas.
+================================================================================
+
+================================================================================
+NORMA FILOLÓGICA ÚNICA — 11/10/2026 — PRECEDÊNCIA METODOLÓGICA
+================================================================================
+A partir de 11/10/2026, a auditoria FILOLÓGICA de cada verbete é ÚNICA e completa na execução solicitada; abolidas fases obrigatórias separadas "preliminar" e "exaustiva". Aplicar regras/Rauditoria-filologica.txt em conjunto com esta norma de fonte. Resultado A (aprovado), C (corrigido e validado) ou P (pendência específica fundamentada); P não gera segunda auditoria geral e não equivale a aprovação. Lotes históricos não são recertificados retroativamente; preservar evidências, corrigir somente questões particulares demonstradas. Incorporação, auditoria textual/estrutural e integração continuam procedimentos distintos; não modificar main. Esta instrução mais recente prevalece sobre trechos cronológicos anteriores que indiquem duas passagens filológicas obrigatórias.
+================================================================================
+
+## Atualização de estado — auditoria filológica única JASTROW, 11/10/2026
+- 31 pendências documentais previamente existentes entre 100 pareceres foram abordadas na mesma classe de auditoria, com complementos ao aparato em 16 módulos. 30 foram resolvidas no nível de fidelidade ao XML digital e às transcrições históricas consultadas; 1, A00429, mantém remissão tipograficamente abreviada e alvo eletrônico incompatível. Balanço dos 100: A=37, C=62, P=1.
+- A fonte XML Sefaria, fixada em commit 947c1b91684df9f8b92f14cf0d281b5d4f29bfc7, permaneceu imutável. Reconstruções de cabeçalho A00371 e de remissão A00571 pertencem à Tradução/GDHAGP, com evidência de fonte secundária (transcrição Wikisource), sem alteração retroativa da Fonte.
+- Não tratar essa complementação como nova fila geral; somente o ponto A00429 exige confirmação pontual se aparecer testemunho mais decisivo. Integração por PR, testes visuais e inspeção independente dos manuscritos não foram executados nesta auditoria.
+- Relatório: auditoria/JASTROW-2026-10-11-resolucao-dos-31.md; manifesto: auditoria/jastrow-resolucao-31-manifest.json; matriz e checkpoint da auditoria única de 100 entradas atualizados.
+
+## Encerramento documental A00429 — 11/10/2026
+
+**Desfecho final (11/10/2026):** A00429 passa de P a C. O lema remissivo אֻדַן / אֻדְנָא pertence a אוּדְנָא I (A00568), «orelha»; sua identificação é sustentada pelas variantes do alvo e pela equivalência com אֹזֶן, não pelo número do homógrafo na abreviação original. O atributo XML rid=A00517 está incorreto e foi preservado imutável na camada Fonte. Os 100 pareceres ficam em **A 37, C 63, P 0**. Mantêm-se as ressalvas sobre manuscritos e testes de navegador, que não foram executados.
+
+Não relançar esta questão como pendência em lotes subsequentes sem novo testemunho contraditório. Preservar no XML original a abreviação `אוּ׳` e o `rid=A00517`; a correção editorial da remissão está no cartão A00429, destino A00568. Parecer: `auditoria/JASTROW-2026-10-11-A00429-desfecho.md`.
+
+## Registro cronológico — JASTROW, segundo lote da auditoria filológica única de 100 registros (11/10/2026)
+- Identificação: primeiros 100 registros publicados do XML **ainda não contidos no checkpoint da norma vigente**, em ordem de ID; IDs concretos no intervalo A00000–A00124, com 25 IDs previamente auditados excluídos. Não repetir a seleção anterior de 100 casos especiais. Próximo a auditar: A00125.
+- Resultado do segundo lote: A=72, C=28, P=0. Checkpoint acumulado de 200/600: A=109, C=91, P=0. A/C são igualmente resultados finais; C documenta uma intervenção validada, e não necessidade de nova inspeção.
+- Todas as entradas do lote têm registro individual com XML integral, SHA-256 da fonte, grafias, acepções, referências e cartão anterior/final no arquivo auditoria/JASTROW-2026-10-11-lote-002-100-evidencias.json. Relatório: auditoria/JASTROW-2026-10-11-lote-002-100-relatorio.md. Nenhuma alteração no XML canônico nem em outros léxicos.
+- Quatro módulos de tradução JASTROW foram alterados em 28 cartões, preservados os demais; leitura contextual de exemplos e variantes é a atribuída ao Jastrow digital, não colação nova de cada manuscrito citado. Verificação estática de JS/IDs e pesquisa é diversa de testes de navegador, que não ocorreram nesta tarefa. Integração independente, sem PR/merge nesta rodada.
+
+## Lote 003 — 100 verbetes, auditoria filológica única JASTROW — 12/10/2026
+- Seleção de origem: os 100 primeiros registros ainda não presentes nos dois lotes do checkpoint da auditoria vigente, entre `A00125` e `A00241` (126º ao 242º do original; os 17 já examinados foram excluídos). Nunca confundir a seleção não consecutiva com 100 registros originais novos.
+- Resultado: A 70, C 30, P 0. Acumulado único: **300/600**, A 179, C 121, P 0; próximo ID ainda não examinado `A00242`.
+- Confrontados todos os campos XML relevantes e as redações portuguesas de cada registro. Aditamentos em 30 cartões de seis módulos JASTROW, com fonte imutável. Variantes do Arukh, Rashi, manuscritos, edição de Vilna e alternativas etimológicas permanecem atribuições da obra de Jastrow, não novas colações independentes.
+- Relatório por registro e quadro global: `auditoria/JASTROW-2026-10-12-lote-003-100-relatorio.md`; XML integral e diffs HTML por registro: `auditoria/JASTROW-2026-10-12-lote-003-100-evidencias.json`; testes estáticos e limitações: `auditoria/JASTROW-2026-10-12-lote-003-100-testes.json`. Checkpoint: `auditoria/jastrow-auditoria-unica-progresso.json`.
+- 150 search-row/card-pairs no intervalo de módulos examinados e 100 IDs do lote conferidos; sintaxe JS válida; testes DOM/browser e colação independente dos testemunhos externos NÃO realizados. Correções publicadas somente em `chat-gpt-correcoes`; sem PR ou merge nesta rodada, `main` intacta.
+
+Quarto lote auditado JASTROW — 12/10/2026: IDs inéditos A00242–A00363, com 22 IDs anteriores pulados; A 73, C 27, P 0; acumulado A 252, C 148, P 0 = 400/600, próximo A00365. Seis módulos portugueses corrigidos, XML canônico intacto; 150 pares search-row/cartão preservados e revisão dos 100 diffs, sem navegador e sem colação direta de manuscritos. Evidência: auditoria/JASTROW-2026-10-12-lote-004-100-evidencias.json; relatório auditoria/JASTROW-2026-10-12-lote-004-100-relatorio.md. A obrigação de relatório completo com várias barras para TODOS os léxicos consta de `regras/Rtransparencia-relatorios.txt`.
+
+### Auditoria JASTROW, lote 005 — 12/10/2026
+
+- **Seleção:** 100 IDs nunca examinados sob a norma filológica única vigente; `A00365`–`A00483`, ordinais 366–484, excluídos 19 casos já auditados. **Próximo: `A00484` (ordinal 485)**.
+- **A/C/P:** 76/24/0 no quinto lote; **328/172/0** em **500/600**, que representam 83,3% de cobertura filológica, não da obra impressa inteira. Os 600/600 anteriores referem-se à incorporação e à integridade estrutural histórica.
+- **Intervenções:** 24 cartões corrigidos e validados; cinco módulos `jastrow-361-385.js`, `jastrow-386-410.js`, `jastrow-411-435.js`, `jastrow-436-460.js`, `jastrow-461-485.js`. XML da Fonte inalterado; grafias, variantes, citações, conjecturas e etimologias atribuídas à fonte Jastrow, sem colação independente dos testemunhos externos. JS, 125 pares linha/cartão e 100 HTMLs finais verificados estaticamente; testes reais DOM/browser não executados.
+- **Evidência:** `auditoria/JASTROW-2026-10-12-lote-005-100-relatorio.md`, `auditoria/JASTROW-2026-10-12-lote-005-100-evidencias-manifest.json` (partes 01–04 com 25 registros cada), `auditoria/JASTROW-2026-10-12-lote-005-100-testes.json`.
+- **Checkpoint com preservação de história:** a antiga versão integral dos 400 registros foi arquivada de forma imutável em `auditoria/jastrow-auditoria-unica-progresso-lote004-arquivo.json`, objeto Git `e30816abbb7662b69d5c4a2cc69e063ca4320bcf`; `auditoria/jastrow-auditoria-unica-progresso.json` passou a conter índice compacto de 500 IDs, status e caminhos para as evidências de cada lote. Não houve eliminação ou reclassificação das decisões anteriores.
+- **Integração:** operação de incorporação na branch `chat-gpt-commits` requer PR/merge independente; a auditoria não escreve em `main`. Todas as próximas respostas seguem `Rtransparencia-relatorios.txt`, com múltiplas barras, dados verificados e distinção entre origem, filologia, estrutura e integração.
+
+## Sexto lote e encerramento da auditoria filológica única do JASTROW — 12/10/2026
+
+1. Selecionados **os últimos 100 IDs ainda não auditados** no corpus dos 600 registros incorporados: A00484–A00599, ordinais 485–600, excluídos 16 IDs auditados em rodadas anteriores. Foram aplicadas e verificadas **27 intervenções C** em 7 módulos; 73 A preservados sem alteração e 0 P neste lote.
+2. **Checkpoint final do corpus:** 600/600 pareceres com IDs distintos, A=401, C=199, P=0. O exame dos três lotes-fonte (200 cada) confirmou sequência exata A00000–A00599, todos contemplados e nenhum repetido. `next_unaudited_id=null` significa **não haver IDs não auditados dentro do universo hoje incorporado**, não inexistência de outros verbetes na obra completa de Jastrow.
+3. **Teste estático global**: 27 módulos editoriais executados em 3 grupos (210+225+165), 600 `search-row`, 600 `entry-card`, 600 IDs únicos com correspondência e mesma ordenação; sintaxe válida de 6 módulos popup (sem testes DOM/visuais). Fonte XML canônica intacta. Não houve colação independente de testemunhos rabínicos citados ou fac-símile tipográfico.
+4. **Prova filológica:** `auditoria/JASTROW-2026-10-12-lote-006-100-relatorio.md` com 100 pareceres, `auditoria/JASTROW-2026-10-12-lote-006-100-evidencias-manifest.json` com 4 partes de 25 entradas, `auditoria/JASTROW-2026-10-12-lote-006-100-testes.json` e `auditoria/jastrow-auditoria-unica-progresso.json`. Cada parte preserva o XML digital, SHA apresentado pela fonte, HTML português antes/depois e justificativa A/C.
+5. **Preservação histórica:** `auditoria/jastrow-auditoria-unica-progresso-lote005-arquivo.json` conserva exatamente o checkpoint anterior de 500 registros (Git SHA `afcb22b95d363ffb8fd8888c94dbf85eb096b46d`), somado ao arquivo anterior do estado de 400. O novo checkpoint cumulativo indexa 600 entradas e seus lotes. Não houve alteração dos estados A/C/P previamente certificados.
+6. **Fases não abrangidas:** merge PR para `chat-gpt-commits`, deploy da branch integrada, teste browser/DOM/RTL/teclado/popups interativos e conferência direta de manuscritos/fac-símiles não foram executados. Conclusão **restrita ao cotejo filológico do XML digital dos 600 incorporados**. Aplicar norma `Rtransparencia-relatorios.txt` a todos os dicionários, com barras diferentes para cada etapa.
+
+## Regressão em navegador dos 600 publicados — 12/10/2026
+- Regressões estruturais existentes e novo teste Chromium em `tests/jastrow_browser_certification.mjs`, workflow `.github/workflows/jastrow-browser-certificacao.yml`. Execução real `38214646245` aprovada no commit `f73518acf4ac356a557219d45d7bfcc68782b767`, branch `chat-gpt-correcoes`.
+- Confirmados 600/600 pares linha/cartão e SHA-256 de 600 registros XML. Eventos DOM de abertura por 600 entradas em desktop e 600 em móvel; mecanismos de busca/filtro, ponteiro, teclado, tooltip por foco, ausência de erros JS e overflow. Axe-core sem violações somente no cartão visível amostrado por perfil; NÃO se inferem 600 inspeções de acessibilidade nem todas as citações/links verificados.
+- Artefato: https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38214646245/artifacts/11731511230 . Relatório: `auditoria/JASTROW-2026-10-12-certificacao-atomica-600.md`.
+- Preservar os 600 pareceres filológicos digitais já documentados (A 401, C 199, P 0), sem impor outra passagem filológica global automática. A certificação atômica exige fichas individuais A–J com todos os pontos pertinentes, regressão necessária e merge remoto confirmado. A branch de correções ainda diverge do destino; `total_audited=0` permanece, sem certificação retroativa nem PR/merge automático durante a auditoria.
+
+## Tentativa atômica do lote A00000–A00099 (12/10/2026)
+- 100 pareceres filológicos digitais históricos: 58 A, 42 C, zero P dentro do método digital. Exatamente os 42 registros C apresentam diferenças editoriais nas branches chat-gpt-correcoes e chat-gpt-commits; alterações ainda NÃO integradas no consolidado.
+- Fichas individuais com dez controles e pendências: auditoria/JASTROW-2026-10-12-lote-001-100-fichas-atomicas-pendencias.json; relatório auditoria/JASTROW-2026-10-12-lote-001-100-tentativa-atomica.md.
+- GitHub Actions #38260565698: teste dos 600 em Chromium passou, e parte desktop do teste especial 100 passou (100/100 ponteiro, teclado e RTL; amostra axe 10/100 sem violações). A etapa específica 100 terminou FAILURE: 40 dos 57 focos em primeiro gatilho de popup não mostraram tooltip; investigar reprodutibilidade/causa antes de declarar defeito real. Fase individual móvel não executada após interrupção desktop.
+- Controle atômico AUDITORIA_CONCLUIDA continua 0/100; nenhuma permissão para converter parecer anterior A/C ou teste parcial em certificação. Não foi executado PR/merge, nenhuma entrada lexical ou fonte XML alterada.
+
+## Reteste final Chromium 100 e simulações de integração (12/10/2026)
+- O resultado FAILURE de #38260565698 era causado, em 40 de 57 casos, por conferir `isVisible` antes do fim da transição CSS do popup. Diagnóstico Chromium #38269650657 (success) provou a classe e aria-hidden corretos e visibilidade efetiva após espera. O aplicativo não precisou de reparo por essa hipótese; a suíte passou a aguardar visibilidade.
+- GitHub Actions #38270095481 (success), Chromium desktop 1440x900 e móvel 390x844: **100/100 cartões, pesquisa, abertura por ponteiro e Enter e RTL**, **57/57 popups por foco**, 0 erros JS, 0 overflow e 0 falhas funcionais por perfil; 100/100 hashes XML conferidos. Axe-core: 10/100 por perfil sem violações detectadas; demais 90 NÃO receberam inspeção axe individual.
+- GitHub Actions #38270438672 executou `git merge-tree --write-tree --name-only` em modo estritamente não destrutivo: EXIT_CODE=1, conflitos confirmados em README.md e regras/Rcorrecoes.txt, Rhalot.txt, Rjastrow.txt, Rprogresso-global.txt (add/add) e Rthayer.txt. Nenhum conflito foi apontado nos módulos JS JASTROW.
+- GitHub Actions #38271271121 (success) testou em worktree efêmera de chat-gpt-commits a substituição dos três módulos editoriais contendo 42 correções C; passou sintaxe JS, 600/600 pareamento ID/card/linha, diff --check; NÃO alterou branches.
+- Manifesto para integrador: auditoria/JASTROW-2026-10-12-lote-001-100-integracao-42-deltas.json, com conteúdo exato antigo/novo, IDs e blobs esperados. Diagnóstico Git: auditoria/JASTROW-2026-10-12-integracao-preflight-conflitos.md.
+- Fichas e relatório do lote atualizados: auditoria/JASTROW-2026-10-12-lote-001-100-fichas-atomicas-pendencias.json e auditoria/JASTROW-2026-10-12-lote-001-100-tentativa-atomica.md.
+- **AUDITORIA_CONCLUIDA permanece 0/100**, porque as correções não foram mescladas e controles de fonte/bibliografia/acessibilidade por artigo permanecem parcialmente sem prova; nenhum PR/merge nem alteração em main nesta rodada.

@@ -1,0 +1,33 @@
+name: JASTROW - separar 170 lotes de 100 para revisao de traducao
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-separar-170-lotes.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  separacao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Preparar leitor dos registros
+        run: python -m pip install lingua-language-detector==2.1.1
+      - name: Dividir os 17000 verbetes em 170 arquivos de 100
+        run: python tools/jastrow_separar_lotes_avaliacao_17000.py
+      - name: Persistir somente lotes e manifesto de revisao, nunca alterar lexicos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add revisoes/jastrow-traducao/
+          if ! git diff --cached --quiet; then
+            git commit -m "JASTROW: organizar 170 lotes de 100 para contabilizacao de pendencias"
+            git push origin HEAD:chat-gpt-jastrow
+          fi

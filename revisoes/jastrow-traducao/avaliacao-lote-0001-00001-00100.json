@@ -1,0 +1,26 @@
+{
+  "lote": 1,
+  "inicio": 1,
+  "fim": 100,
+  "primeiro_id": "A00000",
+  "ultimo_id": "A00099",
+  "tipo": "Avaliação inicial da língua portuguesa em glosas e redação editorial",
+  "alcance": "100 verbetes A00000–A00099; glosas em português comparadas com as definições originais do XML; conteúdo editorial português examinado para remanescentes ingleses. Não é homologação semântica exaustiva de citações e aparato.",
+  "total_examinados": 100,
+  "problemas_ingles_sem_traducao_confirmados": 0,
+  "outros_problemas_semanticos_confirmados": 0,
+  "total_problemas_comprovados_neste_lote": 0,
+  "palavras_estrangeiras_tecnicas_nomes_proprios": "Nomes, termos técnicos gregos e hebraicos ou abreviaturas bibliográficas preservados não contam automaticamente como falha.",
+  "avaliacao_de_equivalencia_integral": "pendente de confronto filológico exaustivo de cada acepção e nota",
+  "contagem_revisao_de_idioma_acumulada": {
+    "lotes": 1,
+    "verbetes": 100,
+    "problemas": 0
+  },
+  "contagem_preexistente_todos_lotes": {
+    "pendencias_explicitas_ingles": 2046,
+    "ingles_nao_marcado_confirmado": 9,
+    "subtotal_comprovado": 2055
+  },
+  "limite": "Zero problemas comprovados neste lote significa ausência de erros detectados nesta passagem; não significa garantia absoluta de tradução integral correta."
+}

@@ -157,6 +157,7 @@
             <div class="search-header">
                 <h2>Pesquisa</h2>
                 <span id="search-count" class="search-count">Digite para pesquisar</span>
+                <span id="lexicon-load-status" class="search-count" role="status" aria-live="polite"></span>
             </div>
 
 
@@ -212,6 +213,41 @@
             </div>
 
 
+            <!-- Informações editoriais vinculadas à fonte efetivamente selecionada. -->
+            <section id="source-details" class="source-details" aria-labelledby="source-details-heading" hidden>
+                <div class="source-details-cover" id="source-cover">
+                    <img id="source-cover-image" alt="" loading="eager" hidden>
+                    <div id="source-cover-placeholder" class="source-cover-placeholder">
+                        <span id="source-cover-short" class="source-cover-short"></span>
+                        <span id="source-cover-title" class="source-cover-title"></span>
+                        <span class="source-cover-caption">Representação tipográfica</span>
+                    </div>
+                </div>
+                <div class="source-details-main">
+                    <div class="source-details-kicker">Sobre a fonte selecionada</div>
+                    <h3 id="source-details-heading"></h3>
+                    <p id="source-details-authors" class="source-details-authors"></p>
+                    <dl class="source-details-grid">
+                        <div><dt>Editora / local</dt><dd id="source-details-publisher"></dd></div>
+                        <div><dt>Publicação</dt><dd id="source-details-date"></dd></div>
+                        <div><dt>Edição</dt><dd id="source-details-edition"></dd></div>
+                        <div><dt>ISBN</dt><dd id="source-details-isbn"></dd></div>
+                        <div><dt>Páginas da edição de referência</dt><dd id="source-details-pages"></dd></div>
+                        <div><dt>Verbetes cadastrados neste dicionário</dt><dd id="source-details-entries"></dd></div>
+                    </dl>
+                    <p id="source-details-note" class="source-details-note"></p>
+                    <a id="source-details-reference" class="source-details-reference" href="#" hidden>Registro bibliográfico e ressalvas →</a>
+                </div>
+            </section>
+
+            <div id="entry-navigation" class="entry-navigation" hidden>
+                <button id="back-to-results" class="back-to-results" type="button">
+                    <span aria-hidden="true">←</span> Voltar aos resultados
+                </button>
+                <span id="entry-navigation-count" class="entry-navigation-count"></span>
+            </div>
+
+
             <div id="search-table-wrapper" class="table-wrapper" hidden>
 
                 <table id="search-table">
@@ -225,6 +261,7 @@
                     </thead>
 
                     <tbody id="search-results">
+                        <tr id="halot-search-anchor" hidden></tr>
 
                         <tr
                             class="search-row"
@@ -270,120 +307,11 @@
                             <td><span class="source-pill">ABBOTT-SMITH</span></td>
                         </tr>
 
+                        <tr id="thayer-alpha-search-anchor" hidden></tr>
                         <tr id="bdag-search-anchor" hidden></tr>
                         <tr id="leh-search-anchor" hidden></tr>
-                        <tr id="bdbh-search-anchor-001" hidden></tr>
-                        <tr id="bdbh-search-anchor-002" hidden></tr>
-                        <tr id="bdbh-search-anchor-003" hidden></tr>
-                        <tr id="bdbh-search-anchor-004" hidden></tr>
-                        <tr id="bdbh-search-anchor-005" hidden></tr>
-                        <tr id="bdbh-search-anchor-006" hidden></tr>
-                        <tr id="bdbh-search-anchor-007" hidden></tr>
-                        <tr id="bdbh-search-anchor-008" hidden></tr>
-                        <tr id="bdbh-search-anchor-009" hidden></tr>
-                        <tr id="bdbh-search-anchor-010" hidden></tr>
-                        <tr id="bdbh-search-anchor-011" hidden></tr>
-                        <tr id="bdbh-search-anchor-012" hidden></tr>
-                        <tr id="bdbh-search-anchor-013" hidden></tr>
-                        <tr id="bdbh-search-anchor-014" hidden></tr>
-                        <tr id="bdbh-search-anchor-015" hidden></tr>
-                        <tr id="bdbh-search-anchor-016" hidden></tr>
-                        <tr id="bdbh-search-anchor-017" hidden></tr>
-                        <tr id="bdbh-search-anchor-018" hidden></tr>
-                        <tr id="bdbh-search-anchor-019" hidden></tr>
-                        <tr id="bdbh-search-anchor-020" hidden></tr>
-                        <tr id="bdbh-search-anchor-021" hidden></tr>
-                        <tr id="bdbh-search-anchor-022" hidden></tr>
-                        <tr id="bdbh-search-anchor-023" hidden></tr>
-                        <tr id="bdbh-search-anchor-024" hidden></tr>
-                        <tr id="bdbh-search-anchor-025" hidden></tr>
-                        <tr id="bdbh-search-anchor-026" hidden></tr>
-                        <tr id="bdbh-search-anchor-027" hidden></tr>
-                        <tr id="bdbh-search-anchor-028" hidden></tr>
-                        <tr id="bdbh-search-anchor-029" hidden></tr>
-                        <tr id="bdbh-search-anchor-030" hidden></tr>
-                        <tr id="bdbh-search-anchor-031" hidden></tr>
-                        <tr id="bdbh-search-anchor-032" hidden></tr>
-                        <tr id="bdbh-search-anchor-033" hidden></tr>
-                        <tr id="bdbh-search-anchor-034" hidden></tr>
-                        <tr id="bdbh-search-anchor-035" hidden></tr>
-                        <tr id="bdbh-search-anchor-036" hidden></tr>
-                        <tr id="bdbh-search-anchor-037" hidden></tr>
-                        <tr id="bdbh-search-anchor-038" hidden></tr>
-                        <tr id="bdbh-search-anchor-039" hidden></tr>
-                        <tr id="bdbh-search-anchor-040" hidden></tr>
-                        <tr id="bdbh-search-anchor-041" hidden></tr>
-                        <tr id="bdbh-search-anchor-042" hidden></tr>
-                        <tr id="bdbh-search-anchor-043" hidden></tr>
-                        <tr id="bdbh-search-anchor-044" hidden></tr>
-                        <tr id="bdbh-search-anchor-045" hidden></tr>
-                        <tr id="bdbh-search-anchor-046" hidden></tr>
-                        <tr id="bdbh-search-anchor-047" hidden></tr>
-                        <tr id="bdbh-search-anchor-048" hidden></tr>
-                        <tr id="bdbh-search-anchor-049" hidden></tr>
-                        <tr id="bdbh-search-anchor-050" hidden></tr>
-                        <tr id="bdbh-search-anchor-051" hidden></tr>
-                        <tr id="bdbh-search-anchor-052" hidden></tr>
-                        <tr id="bdbh-search-anchor-053" hidden></tr>
-                        <tr id="bdbh-search-anchor-054" hidden></tr>
-                        <tr id="bdbh-search-anchor-055" hidden></tr>
-                        <tr id="bdbh-search-anchor-056" hidden></tr>
-                        <tr id="bdbh-search-anchor-057" hidden></tr>
-                        <tr id="bdbh-search-anchor-058" hidden></tr>
-                        <tr id="bdbh-search-anchor-059" hidden></tr>
-                        <tr id="bdbh-search-anchor-060" hidden></tr>
-                        <tr id="bdbh-search-anchor-061" hidden></tr>
-                        <tr id="bdbh-search-anchor-062" hidden></tr>
-                        <tr id="bdbh-search-anchor-063" hidden></tr>
-                        <tr id="bdbh-search-anchor-064" hidden></tr>
-                        <tr id="bdbh-search-anchor-065" hidden></tr>
-                        <tr id="bdbh-search-anchor-066" hidden></tr>
-                        <tr id="bdbh-search-anchor-067" hidden></tr>
-                        <tr id="bdbh-search-anchor-068" hidden></tr>
-                        <tr id="bdbh-search-anchor-069" hidden></tr>
-                        <tr id="bdbh-search-anchor-070" hidden></tr>
-                        <tr id="bdbh-search-anchor-071" hidden></tr>
-                        <tr id="bdbh-search-anchor-072" hidden></tr>
-                        <tr id="bdbh-search-anchor-073" hidden></tr>
-                        <tr id="bdbh-search-anchor-074" hidden></tr>
-                        <tr id="bdbh-search-anchor-075" hidden></tr>
-                        <tr id="bdbh-search-anchor-076" hidden></tr>
-                        <tr id="bdbh-search-anchor-077" hidden></tr>
-                        <tr id="bdbh-search-anchor-078" hidden></tr>
-                        <tr id="bdbh-search-anchor-079" hidden></tr>
-                        <tr id="bdbh-search-anchor-080" hidden></tr>
-                        <tr id="bdbh-search-anchor-081" hidden></tr>
-                        <tr id="bdbh-search-anchor-082" hidden></tr>
-                        <tr id="bdbh-search-anchor-083" hidden></tr>
-                        <tr id="bdbh-search-anchor-084" hidden></tr>
-                        <tr id="bdbh-search-anchor-085" hidden></tr>
-                        <tr id="bdbh-search-anchor-086" hidden></tr>
-                        <tr id="bdbh-search-anchor-087" hidden></tr>
-                        <tr id="bdbh-search-anchor-088" hidden></tr>
-                        <tr id="bdbh-search-anchor-089" hidden></tr>
-                        <tr id="bdbh-search-anchor-090" hidden></tr>
-                        <tr id="bdbh-search-anchor-091" hidden></tr>
-                        <tr id="bdbh-search-anchor-092" hidden></tr>
-                        <tr id="bdbh-search-anchor-093" hidden></tr>
-                        <tr id="bdbh-search-anchor-094" hidden></tr>
-                        <tr id="bdbh-search-anchor-095" hidden></tr>
-                        <tr id="bdbh-search-anchor-096" hidden></tr>
-                        <tr id="bdbh-search-anchor-097" hidden></tr>
-                        <tr id="bdbh-search-anchor-098" hidden></tr>
-                        <tr id="bdbh-search-anchor-099" hidden></tr>
-                        <tr id="bdbh-search-anchor-100" hidden></tr>
-                        <tr id="bdbh-search-anchor-101" hidden></tr>
-                        <tr id="bdbh-search-anchor-102" hidden></tr>
-                        <tr id="bdbh-search-anchor-103" hidden></tr>
-                        <tr id="bdbh-search-anchor-104" hidden></tr>
-                        <tr id="bdbh-search-anchor-105" hidden></tr>
-                        <tr id="bdbh-search-anchor-106" hidden></tr>
-                        <tr id="bdbh-search-anchor-107" hidden></tr>
-                        <tr id="bdbh-search-anchor-108" hidden></tr>
-                        <tr id="bdbh-search-anchor-109" hidden></tr>
-                        <tr id="bdbh-search-anchor-110" hidden></tr>
-                        <tr id="bdbh-search-anchor-111" hidden></tr>
                         <tr id="dgp-search-anchor" hidden></tr>
+                        <tr id="jastrow-search-anchor" hidden></tr>
 
                         
 
@@ -899,19 +827,8 @@
                             <td><span class="source-pill">ROBINSON</span></td>
                         </tr>
 
-                        <tr
-                            class="search-row"
-                            data-dictionary="grego"
-                            data-target="entry-aaron-thayer"
-                            data-source="THAYER"
-                            data-search="Ἀαρών ααρων Aaron Arão Aarao אַהֲרֹן אָהַר ܐܰܗܻܝܪܳܐ אוֺמָר הַר ὀρεινός nome próprio indeclinável irmão de Moisés sumo sacerdote israelitas ordem sacerdotal Thayer"
-                            tabindex="0"
-                        >
-                            <td class="table-lemma greek">Ἀαρών</td>
-                            <td>Nome próprio</td>
-                            <td>Arão</td>
-                            <td><span class="source-pill">THAYER</span></td>
-                        </tr>
+
+                        <tr id="thayer-search-anchor" hidden></tr>
 
                         <tr
                             class="search-row"
@@ -1166,6 +1083,8 @@
         <!-- ======================================================
              כֶּסֶף — HALOT
              ====================================================== -->
+
+        <div id="halot-entry-anchor" hidden></div>
 
         <article id="entry-kesef-halot" class="entry-card" data-dictionary="hebraico" hidden>
             <header class="entry-header">
@@ -1447,118 +1366,8 @@
 
         <div id="bdag-entry-anchor" hidden></div>
         <div id="leh-entry-anchor" hidden></div>
-        <div id="bdbh-entry-anchor-001" hidden></div>
-        <div id="bdbh-entry-anchor-002" hidden></div>
-        <div id="bdbh-entry-anchor-003" hidden></div>
-        <div id="bdbh-entry-anchor-004" hidden></div>
-        <div id="bdbh-entry-anchor-005" hidden></div>
-        <div id="bdbh-entry-anchor-006" hidden></div>
-        <div id="bdbh-entry-anchor-007" hidden></div>
-        <div id="bdbh-entry-anchor-008" hidden></div>
-        <div id="bdbh-entry-anchor-009" hidden></div>
-        <div id="bdbh-entry-anchor-010" hidden></div>
-        <div id="bdbh-entry-anchor-011" hidden></div>
-        <div id="bdbh-entry-anchor-012" hidden></div>
-        <div id="bdbh-entry-anchor-013" hidden></div>
-        <div id="bdbh-entry-anchor-014" hidden></div>
-        <div id="bdbh-entry-anchor-015" hidden></div>
-        <div id="bdbh-entry-anchor-016" hidden></div>
-        <div id="bdbh-entry-anchor-017" hidden></div>
-        <div id="bdbh-entry-anchor-018" hidden></div>
-        <div id="bdbh-entry-anchor-019" hidden></div>
-        <div id="bdbh-entry-anchor-020" hidden></div>
-        <div id="bdbh-entry-anchor-021" hidden></div>
-        <div id="bdbh-entry-anchor-022" hidden></div>
-        <div id="bdbh-entry-anchor-023" hidden></div>
-        <div id="bdbh-entry-anchor-024" hidden></div>
-        <div id="bdbh-entry-anchor-025" hidden></div>
-        <div id="bdbh-entry-anchor-026" hidden></div>
-        <div id="bdbh-entry-anchor-027" hidden></div>
-        <div id="bdbh-entry-anchor-028" hidden></div>
-        <div id="bdbh-entry-anchor-029" hidden></div>
-        <div id="bdbh-entry-anchor-030" hidden></div>
-        <div id="bdbh-entry-anchor-031" hidden></div>
-        <div id="bdbh-entry-anchor-032" hidden></div>
-        <div id="bdbh-entry-anchor-033" hidden></div>
-        <div id="bdbh-entry-anchor-034" hidden></div>
-        <div id="bdbh-entry-anchor-035" hidden></div>
-        <div id="bdbh-entry-anchor-036" hidden></div>
-        <div id="bdbh-entry-anchor-037" hidden></div>
-        <div id="bdbh-entry-anchor-038" hidden></div>
-        <div id="bdbh-entry-anchor-039" hidden></div>
-        <div id="bdbh-entry-anchor-040" hidden></div>
-        <div id="bdbh-entry-anchor-041" hidden></div>
-        <div id="bdbh-entry-anchor-042" hidden></div>
-        <div id="bdbh-entry-anchor-043" hidden></div>
-        <div id="bdbh-entry-anchor-044" hidden></div>
-        <div id="bdbh-entry-anchor-045" hidden></div>
-        <div id="bdbh-entry-anchor-046" hidden></div>
-        <div id="bdbh-entry-anchor-047" hidden></div>
-        <div id="bdbh-entry-anchor-048" hidden></div>
-        <div id="bdbh-entry-anchor-049" hidden></div>
-        <div id="bdbh-entry-anchor-050" hidden></div>
-        <div id="bdbh-entry-anchor-051" hidden></div>
-        <div id="bdbh-entry-anchor-052" hidden></div>
-        <div id="bdbh-entry-anchor-053" hidden></div>
-        <div id="bdbh-entry-anchor-054" hidden></div>
-        <div id="bdbh-entry-anchor-055" hidden></div>
-        <div id="bdbh-entry-anchor-056" hidden></div>
-        <div id="bdbh-entry-anchor-057" hidden></div>
-        <div id="bdbh-entry-anchor-058" hidden></div>
-        <div id="bdbh-entry-anchor-059" hidden></div>
-        <div id="bdbh-entry-anchor-060" hidden></div>
-        <div id="bdbh-entry-anchor-061" hidden></div>
-        <div id="bdbh-entry-anchor-062" hidden></div>
-        <div id="bdbh-entry-anchor-063" hidden></div>
-        <div id="bdbh-entry-anchor-064" hidden></div>
-        <div id="bdbh-entry-anchor-065" hidden></div>
-        <div id="bdbh-entry-anchor-066" hidden></div>
-        <div id="bdbh-entry-anchor-067" hidden></div>
-        <div id="bdbh-entry-anchor-068" hidden></div>
-        <div id="bdbh-entry-anchor-069" hidden></div>
-        <div id="bdbh-entry-anchor-070" hidden></div>
-        <div id="bdbh-entry-anchor-071" hidden></div>
-        <div id="bdbh-entry-anchor-072" hidden></div>
-        <div id="bdbh-entry-anchor-073" hidden></div>
-        <div id="bdbh-entry-anchor-074" hidden></div>
-        <div id="bdbh-entry-anchor-075" hidden></div>
-        <div id="bdbh-entry-anchor-076" hidden></div>
-        <div id="bdbh-entry-anchor-077" hidden></div>
-        <div id="bdbh-entry-anchor-078" hidden></div>
-        <div id="bdbh-entry-anchor-079" hidden></div>
-        <div id="bdbh-entry-anchor-080" hidden></div>
-        <div id="bdbh-entry-anchor-081" hidden></div>
-        <div id="bdbh-entry-anchor-082" hidden></div>
-        <div id="bdbh-entry-anchor-083" hidden></div>
-        <div id="bdbh-entry-anchor-084" hidden></div>
-        <div id="bdbh-entry-anchor-085" hidden></div>
-        <div id="bdbh-entry-anchor-086" hidden></div>
-        <div id="bdbh-entry-anchor-087" hidden></div>
-        <div id="bdbh-entry-anchor-088" hidden></div>
-        <div id="bdbh-entry-anchor-089" hidden></div>
-        <div id="bdbh-entry-anchor-090" hidden></div>
-        <div id="bdbh-entry-anchor-091" hidden></div>
-        <div id="bdbh-entry-anchor-092" hidden></div>
-        <div id="bdbh-entry-anchor-093" hidden></div>
-        <div id="bdbh-entry-anchor-094" hidden></div>
-        <div id="bdbh-entry-anchor-095" hidden></div>
-        <div id="bdbh-entry-anchor-096" hidden></div>
-        <div id="bdbh-entry-anchor-097" hidden></div>
-        <div id="bdbh-entry-anchor-098" hidden></div>
-        <div id="bdbh-entry-anchor-099" hidden></div>
-        <div id="bdbh-entry-anchor-100" hidden></div>
-        <div id="bdbh-entry-anchor-101" hidden></div>
-        <div id="bdbh-entry-anchor-102" hidden></div>
-        <div id="bdbh-entry-anchor-103" hidden></div>
-        <div id="bdbh-entry-anchor-104" hidden></div>
-        <div id="bdbh-entry-anchor-105" hidden></div>
-        <div id="bdbh-entry-anchor-106" hidden></div>
-        <div id="bdbh-entry-anchor-107" hidden></div>
-        <div id="bdbh-entry-anchor-108" hidden></div>
-        <div id="bdbh-entry-anchor-109" hidden></div>
-        <div id="bdbh-entry-anchor-110" hidden></div>
-        <div id="bdbh-entry-anchor-111" hidden></div>
         <div id="dgp-entry-anchor" hidden></div>
+        <div id="jastrow-entry-anchor" hidden></div>
 
 
 
@@ -2894,145 +2703,10 @@
         </article>
 
 
-        <!-- ======================================================
-             Ἀαρών — THAYER
-             ====================================================== -->
+        <div id="thayer-alpha-entry-anchor" hidden></div>
 
-        <article id="entry-aaron-thayer" class="entry-card" data-dictionary="grego" hidden>
-            <header class="entry-header">
-                <div>
-                    <h1 class="entry-title greek">Ἀαρών</h1>
 
-                    <div class="entry-meta">
-                        <span>nome próprio</span>
-                        <span class="separator">·</span>
-                        <span>indeclinável</span>
-                    </div>
-                </div>
-
-                <div class="source-tag">THAYER</div>
-            </header>
-
-            <div class="entry-divider"></div>
-
-            <section class="entry-section">
-                <div class="section-title">Tradução literal</div>
-
-                <p class="entry-text">
-                    <strong>Arão</strong>
-                    (<span class="greek">ὁ Ἀαρών</span>,
-                    <span
-                        class="greek greek-term tooltip-trigger"
-                        tabindex="0"
-                        data-tooltip-type="greek"
-                        data-tooltip-label="-ῶνος"
-                        data-meanings="terminação genitiva usada por Josefo para Ἀαρών"
-                    >-ῶνος</span>
-                    em Josefo), hebraico
-                    <bdi
-                        class="hebrew hebrew-token tooltip-trigger"
-                        lang="he"
-                        dir="rtl"
-                        tabindex="0"
-                        data-tooltip-type="hebrew"
-                        data-tooltip-label="אַהֲרֹן"
-                        data-transliteration="ʾahărōn"
-                        data-meanings="Arão|nome próprio masculino"
-                    >אַהֲרֹן</bdi>
-                    (de um radical hebraico não usado
-                    <bdi
-                        class="hebrew hebrew-token tooltip-trigger"
-                        lang="he"
-                        dir="rtl"
-                        tabindex="0"
-                        data-tooltip-type="hebrew"
-                        data-tooltip-label="אָהַר"
-                        data-transliteration="ʾāhar"
-                    >אָהַר</bdi>
-                    — siríaco
-                    <span
-                        class="syriac syriac-token tooltip-trigger"
-                        lang="syr"
-                        dir="rtl"
-                        tabindex="0"
-                        data-tooltip-type="syriac"
-                        data-tooltip-label="ܐܰܗܻܝܪܳܐ"
-                        data-transliteration="ʾahîrā"
-                        data-meanings="libidinoso|lascivo"
-                    >ܐܰܗܻܝܪܳܐ</span>,
-                    <em>libidinoso, lascivo</em> —
-                    [<em>iluminado</em>, segundo Fürst; segundo Dietrich,
-                    <em>rico</em> ou <em>fluente</em>, como
-                    <bdi
-                        class="hebrew hebrew-token tooltip-trigger"
-                        lang="he"
-                        dir="rtl"
-                        tabindex="0"
-                        data-tooltip-type="hebrew"
-                        data-tooltip-label="אוֺמָר"
-                    >אוֺמָר</bdi>],
-                    segundo
-                    <a href="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0018.tlg011.1st1K-grc1:32/" target="_blank" rel="noopener noreferrer"
-                        class="biblio-ref reference-link tooltip-trigger"
-                        tabindex="0"
-                        data-tooltip-type="biblio"
-                        data-tooltip-label="Fílon, De ebrietate"
-                        data-tooltip-text="Fílon de Alexandria, De ebrietate (Sobre a embriaguez), § 32 — texto grego original no Perseus Digital Library; destino validado"
-                    >Fílon, <em>De ebrietate</em></a>
-                    § 32, de
-                    <bdi
-                        class="hebrew hebrew-token tooltip-trigger"
-                        lang="he"
-                        dir="rtl"
-                        tabindex="0"
-                        data-tooltip-type="hebrew"
-                        data-tooltip-label="הַר"
-                        data-transliteration="har"
-                        data-meanings="montanha|monte"
-                    >הַר</bdi>,
-                    <em>montanha</em>, e equivalente a
-                    <span
-                        class="greek greek-term tooltip-trigger"
-                        tabindex="0"
-                        data-tooltip-type="greek"
-                        data-tooltip-label="ὀρεινός"
-                        data-meanings="montanhoso|das montanhas"
-                    >ὀρεινός</span>),
-                    Arão, o irmão de Moisés, o primeiro sumo sacerdote dos israelitas e o chefe de toda a ordem sacerdotal:
-                    <a
-                        class="reference reference-link"
-                        href="https://www.die-bibel.de/en/bible/NA28/LUK.1.5"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >Lc 1.5</a>;
-                    <a
-                        class="reference reference-link"
-                        href="https://www.die-bibel.de/en/bible/NA28/ACT.7.40"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >At 7.40</a>;
-                    <a
-                        class="reference reference-link"
-                        href="https://www.die-bibel.de/en/bible/NA28/HEB.5.4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >Heb 5.4</a>;
-                    <a
-                        class="reference reference-link"
-                        href="https://www.die-bibel.de/en/bible/NA28/HEB.7.11"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >7.11</a>;
-                    <a
-                        class="reference reference-link"
-                        href="https://www.die-bibel.de/en/bible/NA28/HEB.9.4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >9.4</a>.
-                </p>
-            </section>
-        </article>
-
+        <div id="thayer-entry-anchor" hidden></div>
 
         <!-- ======================================================
              Ἀβαδδών — ROBINSON
@@ -4922,125 +4596,9 @@
         role="tooltip"
         aria-hidden="true"
     ></div>
-
-
-    <script src="lexicons/bdag.js"></script>
-    <script src="lexicons/leh.js"></script>
-    <script src="lexicons/dgp.js"></script>
-    <script src="lexicons/dgp-batches.js"></script>
-    <script src="lexicons/dgp-format.js"></script>
-    <script src="lexicons/pereira.js"></script>
-    <script src="lexicons/bdbh-batch-001.js"></script>
-    <script src="lexicons/bdbh-batch-002.js"></script>
-    <script src="lexicons/bdbh-batch-003.js"></script>
-    <script src="lexicons/bdbh-batch-004.js"></script>
-    <script src="lexicons/bdbh-batch-005.js"></script>
-    <script src="lexicons/bdbh-batch-006.js"></script>
-    <script src="lexicons/bdbh-batch-007.js"></script>
-    <script src="lexicons/bdbh-batch-008.js"></script>
-    <script src="lexicons/bdbh-batch-009.js"></script>
-    <script src="lexicons/bdbh-batch-010.js"></script>
-    <script src="lexicons/bdbh-batch-011.js"></script>
-    <script src="lexicons/bdbh-batch-012.js"></script>
-    <script src="lexicons/bdbh-batch-013.js"></script>
-    <script src="lexicons/bdbh-batch-014.js"></script>
-    <script src="lexicons/bdbh-batch-015.js"></script>
-    <script src="lexicons/bdbh-batch-016.js"></script>
-    <script src="lexicons/bdbh-batch-017.js"></script>
-    <script src="lexicons/bdbh-batch-018.js"></script>
-    <script src="lexicons/bdbh-batch-019.js"></script>
-    <script src="lexicons/bdbh-batch-020.js"></script>
-    <script src="lexicons/bdbh-batch-021.js"></script>
-    <script src="lexicons/bdbh-batch-022.js"></script>
-    <script src="lexicons/bdbh-batch-023.js"></script>
-    <script src="lexicons/bdbh-batch-024.js"></script>
-    <script src="lexicons/bdbh-batch-025.js"></script>
-    <script src="lexicons/bdbh-batch-026.js"></script>
-    <script src="lexicons/bdbh-batch-027.js"></script>
-    <script src="lexicons/bdbh-batch-028.js"></script>
-    <script src="lexicons/bdbh-batch-029.js"></script>
-    <script src="lexicons/bdbh-batch-030.js"></script>
-    <script src="lexicons/bdbh-batch-031.js"></script>
-    <script src="lexicons/bdbh-batch-032.js"></script>
-    <script src="lexicons/bdbh-batch-033.js"></script>
-    <script src="lexicons/bdbh-batch-034.js"></script>
-    <script src="lexicons/bdbh-batch-035.js"></script>
-    <script src="lexicons/bdbh-batch-036.js"></script>
-    <script src="lexicons/bdbh-batch-037.js"></script>
-    <script src="lexicons/bdbh-batch-038.js"></script>
-    <script src="lexicons/bdbh-batch-039.js"></script>
-    <script src="lexicons/bdbh-batch-040.js"></script>
-    <script src="lexicons/bdbh-batch-041.js"></script>
-    <script src="lexicons/bdbh-batch-042.js"></script>
-    <script src="lexicons/bdbh-batch-043.js"></script>
-    <script src="lexicons/bdbh-batch-044.js"></script>
-    <script src="lexicons/bdbh-batch-045.js"></script>
-    <script src="lexicons/bdbh-batch-046.js"></script>
-    <script src="lexicons/bdbh-batch-047.js"></script>
-    <script src="lexicons/bdbh-batch-048.js"></script>
-    <script src="lexicons/bdbh-batch-049.js"></script>
-    <script src="lexicons/bdbh-batch-050.js"></script>
-    <script src="lexicons/bdbh-batch-051.js"></script>
-    <script src="lexicons/bdbh-batch-052.js"></script>
-    <script src="lexicons/bdbh-batch-053.js"></script>
-    <script src="lexicons/bdbh-batch-054.js"></script>
-    <script src="lexicons/bdbh-batch-055.js"></script>
-    <script src="lexicons/bdbh-batch-056.js"></script>
-    <script src="lexicons/bdbh-batch-057.js"></script>
-    <script src="lexicons/bdbh-batch-058.js"></script>
-    <script src="lexicons/bdbh-batch-059.js"></script>
-    <script src="lexicons/bdbh-batch-060.js"></script>
-    <script src="lexicons/bdbh-batch-061.js"></script>
-    <script src="lexicons/bdbh-batch-062.js"></script>
-    <script src="lexicons/bdbh-batch-063.js"></script>
-    <script src="lexicons/bdbh-batch-064.js"></script>
-    <script src="lexicons/bdbh-batch-065.js"></script>
-    <script src="lexicons/bdbh-batch-066.js"></script>
-    <script src="lexicons/bdbh-batch-067.js"></script>
-    <script src="lexicons/bdbh-batch-068.js"></script>
-    <script src="lexicons/bdbh-batch-069.js"></script>
-    <script src="lexicons/bdbh-batch-070.js"></script>
-    <script src="lexicons/bdbh-batch-071.js"></script>
-    <script src="lexicons/bdbh-batch-072.js"></script>
-    <script src="lexicons/bdbh-batch-073.js"></script>
-    <script src="lexicons/bdbh-batch-074.js"></script>
-    <script src="lexicons/bdbh-batch-075.js"></script>
-    <script src="lexicons/bdbh-batch-076.js"></script>
-    <script src="lexicons/bdbh-batch-077.js"></script>
-    <script src="lexicons/bdbh-batch-078.js"></script>
-    <script src="lexicons/bdbh-batch-079.js"></script>
-    <script src="lexicons/bdbh-batch-080.js"></script>
-    <script src="lexicons/bdbh-batch-081.js"></script>
-    <script src="lexicons/bdbh-batch-082.js"></script>
-    <script src="lexicons/bdbh-batch-083.js"></script>
-    <script src="lexicons/bdbh-batch-084.js"></script>
-    <script src="lexicons/bdbh-batch-085.js"></script>
-    <script src="lexicons/bdbh-batch-086.js"></script>
-    <script src="lexicons/bdbh-batch-087.js"></script>
-    <script src="lexicons/bdbh-batch-088.js"></script>
-    <script src="lexicons/bdbh-batch-089.js"></script>
-    <script src="lexicons/bdbh-batch-090.js"></script>
-    <script src="lexicons/bdbh-batch-091.js"></script>
-    <script src="lexicons/bdbh-batch-092.js"></script>
-    <script src="lexicons/bdbh-batch-093.js"></script>
-    <script src="lexicons/bdbh-batch-094.js"></script>
-    <script src="lexicons/bdbh-batch-095.js"></script>
-    <script src="lexicons/bdbh-batch-096.js"></script>
-    <script src="lexicons/bdbh-batch-097.js"></script>
-    <script src="lexicons/bdbh-batch-098.js"></script>
-    <script src="lexicons/bdbh-batch-099.js"></script>
-    <script src="lexicons/bdbh-batch-100.js"></script>
-    <script src="lexicons/bdbh-batch-101.js"></script>
-    <script src="lexicons/bdbh-batch-102.js"></script>
-    <script src="lexicons/bdbh-batch-103.js"></script>
-    <script src="lexicons/bdbh-batch-104.js"></script>
-    <script src="lexicons/bdbh-batch-105.js"></script>
-    <script src="lexicons/bdbh-batch-106.js"></script>
-    <script src="lexicons/bdbh-batch-107.js"></script>
-    <script src="lexicons/bdbh-batch-108.js"></script>
-    <script src="lexicons/bdbh-batch-109.js"></script>
-    <script src="lexicons/bdbh-batch-110.js"></script>
-    <script src="lexicons/bdbh-batch-111.js"></script>
-    <script src="script.js"></script>
+    <script defer src="lexicons/source-catalog.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="lexicons/dgp-format.js"></script>
+    <script defer src="lexicons/on-demand-search.js"></script>
 </body>
 </html>

@@ -1,0 +1,84 @@
+# RAUDITORIA — REGRA CANÔNICA TRANSVERSAL DA AUDITORIA ATÔMICA DE VERBETES
+
+**Projeto:** Scriptura Lexicon / GDHAGP  
+**Versão:** 1.0  
+**Vigência:** 11/10/2026, imediata  
+**Autoridade:** determinação expressa do mantenedor. Esta regra prevalece sobre toda acepção anterior de “auditoria concluída” em README, ORQUESTRACAO, Rcorrecoes, Rintegracao e regras de cada léxico. Os registros históricos permanecem intactos como provas do que foi efetivamente feito na época; seus títulos **não** são prova retrospectiva de conclusão segundo este novo padrão.
+
+## 1. Definição obrigatória
+
+**AUDITORIA DE UM VERBETE É UMA UNIDADE LÓGICA ATÔMICA DE VERIFICAÇÃO + TODAS AS CORREÇÕES POSSÍVEIS, NECESSÁRIAS, COMPROVÁVEIS E SEGURAS + REGRESSÃO + DOCUMENTAÇÃO + INTEGRAÇÃO CONFIRMADA.**
+
+“Todas as correções possíveis” significa: corrigir **na mesma unidade de trabalho** todos os defeitos identificados por uma inspeção exaustiva segundo o checklist desta norma, desde que cada mudança seja sustentada pela fonte e pelas permissões/ferramentas realmente disponíveis. Não significa adivinhar o texto perdido, prometer perfeição absoluta ou substituir prova por plausibilidade. O executor deve procurar ativamente problemas em todas as dimensões abaixo, não apenas reparar os defeitos previamente citados pelo usuário.
+
+**Não é auditoria concluída:** varredura de HTML, comparação de IDs, triagem de riscos, lista de pendências, relatório de inconsistências sem sua resolução, resumo de acepções, comparação de lemas, correção pontual isolada ou simples commit. Essas atividades são **etapas parciais** e devem ser chamadas de “triagem”, “verificação estática”, “colação parcial”, “correção parcial” etc.
+
+Um lote de 100 verbetes compreende **100 unidades atômicas independentes**; somente os registros que satisfizerem todo o protocolo podem incrementar o contador “auditados/concluídos”. Os demais conservam o estado exato, mesmo que o lote ou a triagem tenha terminado.
+
+## 2. Checklist exaustivo por verbete
+
+Confrontar e corrigir, sempre que pertinente e documentadamente verificável:
+
+1. **Fonte e proveniência:** consultar efetivamente o fac-símile/arquivo canônico correto, sua edição, páginas, entrada e variantes; registrar fonte e versão/SHA, distinguir leitura atestada, conjectura, informação auxiliar e inferência. Não converter índices auxiliares ou Strong em texto de Thayer/BDAG/DGP etc. Não inventar leitura, página ou citação.
+2. **Lematização e identificação:** lema original, homógrafos, ordenação, acentos, espíritos, vogais, formas flexionadas, variantes de escrita, nomes próprios, remissões e estatuto de artigo autônomo; identificação inequívoca de IDs internos versus números de repertórios externos.
+3. **Transcrição e tradução:** conferir todo o texto fonte aplicável e **todas** as acepções e subacepções publicadas; corrigir omissões, desdobramentos, erros de tradução, terminologia, pontuação, hifenização, marcas de registro e notas. Não substituir uma tradução fiel por síntese abreviada sem rotular a decisão editorial; preservar a independência de cada léxico.
+4. **Filologia e gramática:** morfologia, paradigma, gênero, número, voz, aspecto, tempo, casos, regências, sintaxe, semântica, polissemia, diacronia, etimologia e derivação, quando a fonte as documentar. Distinguir fatos, hipóteses, reconstruções, cognatos, empréstimos e interpretações.
+5. **Testemunhos e citações:** conferência individual de referências bíblicas, LXX, autores e obras antigas, variantes críticas, abreviaturas, siglas editoriais, páginas e testemunhos; manter leitura e atribuição da fonte. Não converter remissões lexicais em versículos.
+6. **Camadas:** preservar separadamente **Fonte, Tradução, Análise e GDHAGP**. Nenhuma análise ou decisão do projeto pode se disfarçar de leitura literal do autor. Fontes externas servem para verificação/contraste identificado, nunca contaminação silenciosa.
+7. **Dados, HTML e pesquisa:** texto original, tradução e metadados do verbete; IDs únicos; par linha/cartão; data-target, data-search, classe gramatical, idioma, direção e popup; links e remissões válidos; HTML equilibrado; escapes de atributos; scripts e ordenação; ausência de colisões em outras fontes.
+8. **Apresentação, navegação e acessibilidade:** tipografia e direção de escrita, diacríticos, legibilidade, responsividade, popups, teclado, foco, acessibilidade semântica e indicação de fontes. Se a tarefa envolver imagem ou manuscrito, preservar fidelidade do original.
+9. **Links, bibliografia e páginas:** inserir ou reparar URLs somente quando seu destino exato tiver sido comprovado; anotar páginas impressas depois de verificar a página do verbete, não copiar cegamente uma estimativa do inventário. Distinguir links de consulta de referências bíblicas clicáveis.
+10. **Consistência global:** verificar dependências, referências cruzadas e efeitos em outras entradas, contagens, módulos, índices, checkpoints e documentação. Não modificar outro léxico como consequência silenciosa.
+
+Não se deve inventar uma modificação para preencher checklist: quando a fonte é correta, registrar **SEM ALTERAÇÃO NECESSÁRIA**, com a evidência dessa decisão. Marcar **NÃO SE APLICA**, justificadamente, apenas para um controle realmente sem pertinência ao artigo — nunca como substituto de teste impossível.
+
+## 3. Protocolo atômico de execução
+
+**A. Pré-voo.** Obter HEADs atuais do ramo lexical, de correções e de \`chat-gpt-commits\`; consultar normas vigentes, fonte original e checkpoint, inventariar verbete/ID e dependências. Congelar a base de comparação com SHA e identificar editor responsável, data e escopo.
+
+**B. Diagnóstico integral.** Percorrer os dez grupos acima, comparar o original com o publicado, listar **todas** as falhas comprovadas e verificar o que exige decisão adicional. Registrar a evidência por localização/acepção; não transformar alertas automáticos em erros sem exame.
+
+**C. Correção integral na mesma unidade.** Corrigir todas as falhas fundamentadas e executáveis, incluindo conteúdo filológico, metadados, pesquisa, fontes, remissões e interface, sem saltar categorias difíceis. Se um problema não puder ser resolvido seguramente, guardar a pendência com causa e evidência e **não concluir** a auditoria daquele verbete.
+
+**D. Regressão integral.** Testar novamente a fonte/tradução/filologia e a estrutura. Realizar verificação funcional real de busca, cartão, referências, links e popups no ambiente disponível; o teste estático não substitui DOM real. Se uma verificação obrigatória depender de ferramenta indisponível, registrar **NÃO TESTADO — BLOQUEIO** e manter a auditoria não concluída. Não afirmar sucesso de teste inexistente.
+
+**E. Registro e publicação.** Produzir ficha individual com resultado de cada controle, comparativo antes/depois, evidências, correções, testes, arquivos tocados, SHA/commit, pendências e decisão. Publicar em branch autorizada com revisão de HEAD, \`expected_sha\` e \`force=false\`. Um commit Git pode conter um lote tecnicamente indivisível, **mas não transforma em auditados os verbetes ainda incompletos**; a atomicidade de conteúdo é por verbete.
+
+**F. Integração e verificação final.** O integrador habilitado abre/reutiliza PR exclusivamente para \`chat-gpt-commits\`, verifica CI/testes aplicáveis, resolve conflitos sem perder conteúdos e confirma \`merged=true\`, SHA do commit e presença da correção no destino. Nunca escrever em \`main\` ou excluir branches. Só depois dessa verificação final o verbete pode receber **AUDITORIA_CONCLUIDA**. Se a origem tiver correção publicada mas PR pendente: **AGUARDANDO_INTEGRACAO**.
+
+A natureza “atômica” é um **critério lógico de aceitação editorial por verbete**, não uma promessa de transação ACID simultânea em Git e GitHub. As fases podem persistir com rastreabilidade; falha posterior não desfaz alterações válidas já publicadas, mas impede o selo de conclusão.
+
+## 4. Estados canônicos e contagem
+
+| Estado | Significado | Conta como auditado? |
+|---|---|---|
+| \`NAO_INICIADA\` | Nenhuma auditoria integral comprovada | NÃO |
+| \`EM_EXECUCAO\` | Diagnóstico, correção ou regressão em andamento | NÃO |
+| \`BLOQUEADA\` | Ponto obrigatório não resolvido: fonte, incerteza, permissão, ferramenta, teste ou conflito | NÃO |
+| \`AGUARDANDO_INTEGRACAO\` | Correção e testes documentados na origem, falta merge verificado | NÃO |
+| \`AUDITORIA_CONCLUIDA\` | Todos os controles pertinentes aprovados, correções aplicadas, testes comprovados, evidência e merge final verificados, zero pendências obrigatórias | **SIM** |
+
+Um artigo sem defeitos pode ser concluído somente depois de comprovação do checklist e de sua ficha integrada; resultado **SEM CORREÇÕES NECESSÁRIAS** não dispensa prova, testes e integração documental.
+
+Contadores separados e jamais intercambiáveis: \`total_incorporado\`, \`total_triado\`, \`total_verificado_estaticamente\`, \`total_cotejado_parcialmente\`, \`total_correcoes_publicadas\`, \`total_aguardando_integracao\`, \`total_auditoria_concluida\`. Em relatórios e tabelas globais, ✓ em “auditoria” significa somente o escopo de **AUDITORIA_CONCLUIDA** segundo esta regra; verificações parciais devem usar ◐ e números acompanhados de seu método. Não inferir “512/512 auditados” de “512/512 cartões validados”.
+
+## 5. Ficha mínima de evidências por verbete
+
+Identificador da fonte, ID interno, lema, estado anterior/final, data, HEAD inicial, edição/página/SHA da fonte, transcrição/citação localizada, decisões de tradução e análise, checklist A–J (\`OK\`, \`CORRIGIDO\`, \`NAO_SE_APLICA + motivo\`, \`PENDENTE + motivo\`), discrepâncias antes/depois, evidência dos testes realizados, arquivos alterados, commit da origem, PR, SHA do merge e HEAD consolidado verificado. Em caso de ausência de reparos: justificativa \`SEM_CORRECOES_NECESSARIAS\` e evidência dos mesmos controles.
+
+O modelo estruturado opcional está em \`regras/modelo-auditoria-atomica.json\`; **um arquivo de modelo não equivale a uma auditoria executada**.
+
+## 6. Regras de bloqueio, segurança e continuidade
+
+- Diante de leitura duvidosa, fac-símile inacessível, remissão ambígua, significado não demonstrado, licença incompatível, link sem destino verificado ou teste funcional não executável, **parar a conclusão do artigo**. Registrar evidência da ferramenta/erro quando houver, a solução desejada e a possibilidade de retomada; não suprir por invenção.
+- Nunca alterar o original das fontes lexicográficas; corrigir a camada editorial publicada, mantendo trilha de proveniência. Consultar o histórico para não desfazer reparos válidos nem apagar relatórios anteriores.
+- Um ciclo de correções não incorpora novos verbetes sem autorização específica de incorporação. As atribuições de escrita das branches continuam as das regras específicas; esta norma modifica a **definição de auditoria**, não autoriza nova rotina, agendamento, custo ou escrita em \`main\`.
+- Quando a auditoria for solicitada em blocos de 20/50/100, continuar pelo estado individual real e não prometer que todos terminarão na mesma execução. Reportar quantidade **tentada / concluída / bloqueada / aguardando integração**.
+- Quando houver conflito com terminologia ou selos de relatórios produzidos **antes de 11/10/2026**, esta regra prevalece para toda nova declaração. Os antigos relatórios conservam o rótulo histórico de triagem/verificação segundo seu método. Nenhuma auditoria anterior é retroativamente homologada só por mudar o protocolo.
+- Revisões editoriais futuras podem ser necessárias quando surgirem novas fontes ou novos defeitos; o selo registra os controles e as evidências até a versão/HEAD auditados, não uma garantia de perfeição eterna. Mudança material no verbete reabre a necessidade de regressão e, quando pertinente, auditoria.
+
+## 7. Política de integração e precedência
+
+Esta norma é **transversal** a BDAG, DGP, LEH, PEREIRA, JASTROW, THAYER, HALOT, ROBINSON, KLEIN, ABBOTT-SMITH, BDB-H, BDB-A, GESENIUS, LSJ e fontes futuras. As regras de conteúdo próprias de cada fonte continuam obrigatórias e complementares; prevalece a exigência mais rigorosa quando compatível. Para escrita e PR, seguir permissões das branches e \`regras/Rintegracao.txt\` e \`ORQUESTRACAO.md\`, salvo nova decisão expressa do mantenedor. Não usar esta norma para mesclar unilateralmente trabalho de outras branches divergentes.
+
+**Critério canônico de encerramento:** **um verbete auditado = um verbete integralmente revisado, todas as correções fundamentadas aplicadas, regressão demonstrada, evidência registrada e integração confirmada; sem pendências obrigatórias.**
