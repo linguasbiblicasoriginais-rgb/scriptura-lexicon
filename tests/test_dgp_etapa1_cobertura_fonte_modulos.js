@@ -25,7 +25,7 @@ function lemma(markup) {
  const match=markup.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
  return match ? entities(strip(match[1])) : "";
 }
-const occurrences = new Map(), unusual = [];
+const occurrences = new Map(), byOrdinal = new Map(), unusual = [];
 let count = 0;
 for (let n=0;n<Math.ceil(catalog.total/catalog.chunkSize);n++) {
  const file=String(n).padStart(4,"0")+".json";
@@ -47,11 +47,18 @@ for (let n=0;n<Math.ceil(catalog.total/catalog.chunkSize);n++) {
    card_length:card?.html?.length||0
   };
   if(!ordinal||item.ordinal<1||item.ordinal>expected)unusual.push(item);
+  if (ordinal) {
+    if(!byOrdinal.has(item.ordinal))byOrdinal.set(item.ordinal,[]);
+    byOrdinal.get(item.ordinal).push(item);
+  }
   if(!occurrences.has(record.target))occurrences.set(record.target,[]);
   occurrences.get(record.target).push(item);
  }
 }
 const collisions=[...occurrences.values()].filter(v=>v.length>1);
+const numericalCollisions=[...byOrdinal.values()].filter(v=>v.length>1);
+const alternateFormat=numericalCollisions.filter(v=>new Set(v.map(x=>x.target)).size>1);
+const numericConflicts=numericalCollisions.filter(v=>!v.every(x=>x.definition!==null&&normalize(x.definition)===normalize(v[0].definition)));
 const sameDefinition=collisions.filter(v=>v.every(x=>x.definition!==null&&
  normalize(x.definition)===normalize(v[0].definition)));
 const differentDefinition=collisions.filter(v=>!v.every(x=>x.definition!==null&&
@@ -71,6 +78,13 @@ const report={
  distinct_target_ids:occurrences.size,
  duplicate_target_groups:collisions.length,
  repeated_entries:collisions.reduce((sum,x)=>sum+x.length-1,0),
+ unique_numeric_ordinals:byOrdinal.size,
+ numerical_collision_groups:numericalCollisions.length,
+ repeated_numeric_ordinals:numericalCollisions.reduce((sum,x)=>sum+x.length-1,0),
+ differently_formatted_target_groups:alternateFormat.length,
+ different_definition_numeric_groups:numericConflicts.length,
+ alternate_format_samples:alternateFormat.slice(0,8),
+ numeric_conflict_samples:numericConflicts.slice(0,16),
  identical_normalized_definition_groups:sameDefinition.length,
  conflicting_or_unavailable_definition_groups:differentDefinition.length,
  missing_ordinal_count:missing.length,
@@ -89,6 +103,8 @@ const out=path.join(root,"auditorias/dgp-etapa1-modulos-identidade-ci.json");
 fs.writeFileSync(out,JSON.stringify(report,null,2)+"\n","utf8");
 console.log("DGP ESTRUTURA RESUMO",JSON.stringify({...report,
  missing_ordinals_sample:report.missing_ordinals_sample.slice(0,20),
+ alternate_format_samples:report.alternate_format_samples.slice(0,3),
+ numeric_conflict_samples:report.numeric_conflict_samples.slice(0,3),
  unusual_ordinal_sample:report.unusual_ordinal_sample.slice(0,8),
  differing_definition_sample:report.differing_definition_sample.slice(0,4),
  matching_definition_sample:report.matching_definition_sample.slice(0,2)
