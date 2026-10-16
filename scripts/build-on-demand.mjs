@@ -157,6 +157,39 @@ function cardLemma(card) {
     const m = card.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
     return m ? canonicalNfcText(textOnly(m[1])) : "";
 }
+// Os 1000 primeiros artigos possuem cotejo documental individualizado com
+// a transcrição do XML canônico. Essa evidência permite resolver somente
+// variantes cuja redação coincide efetivamente com a fonte publicada.
+const cotejoDgpEtapa1 = JSON.parse(fs.readFileSync(path.join(root,
+    "auditorias/dgp-2026-10-14-cotejo-0001-1000.json"), "utf8"));
+if (cotejoDgpEtapa1.source?.source_blob !==
+        "eec318bb6150b6b2f4422ea4a76383ac0a254de2" ||
+        cotejoDgpEtapa1.records?.length !== 1000) {
+    throw Error("Cotejo canônico DGP 0001-1000 não está disponível/validado");
+}
+const dgpSourceText = new Map(cotejoDgpEtapa1.records.map(x=>
+    [x.ordinal, x.definition_original_xml]));
+const sourcePresentationText = value => canonicalNfcText(value)
+    .replace(/\u00ad/gu, "").replace(/〈/gu, "〈").replace(/〉/gu, "〉");
+function adoptSourceMatchedCard(primary, duplicate) {
+    if (primary.target === duplicate.target) {
+        primary.row = duplicate.row;
+        primary.card = duplicate.card;
+        return;
+    }
+    const oldRowId = 'data-target="' + duplicate.target + '"';
+    const oldCardId = 'id="' + duplicate.target + '"';
+    if (!duplicate.row.includes(oldRowId) || !duplicate.card.includes(oldCardId)) {
+        throw Error("ID do DGP divergente da linha ou do cartão " + duplicate.target);
+    }
+    // Mantém o ID canônico de quatro dígitos e incorpora o texto efetivamente
+    // atestado, sem tocar nos arquivos de fonte e sem inventar definição.
+    primary.row = duplicate.row.replace(oldRowId,
+        'data-target="' + primary.target + '"');
+    primary.card = duplicate.card.replace(oldCardId,
+        'id="' + primary.target + '"');
+}
+
 const canonicalByOrdinal = new Map();
 const retainedRecords = [];
 const filteredDuplicates = [];
@@ -188,6 +221,26 @@ for (const record of records) {
         filteredDuplicates.push({ordinal, target:record.target,
             keptTarget:primary.target, lemma:lemmaA});
         continue;
+    }
+    if (ordinal >= 1 && ordinal <= 1000 && lemmaA === lemmaB &&
+            lemmaA && definitionA && definitionB) {
+        const original = dgpSourceText.get(ordinal);
+        const source = sourcePresentationText(original);
+        const aMatches = source && sourcePresentationText(definitionA) === source;
+        const bMatches = source && sourcePresentationText(definitionB) === source;
+        if (aMatches || bMatches) {
+            // Se apenas a segunda versão mantém a abreviatura original,
+            // usa-se sua redação e conserva-se o identificador técnico estável.
+            if (bMatches && !aMatches) adoptSourceMatchedCard(primary, record);
+            if (record.search !== primary.search) {
+                primary.search += " " + record.search;
+            }
+            filteredDuplicates.push({ordinal, target:record.target,
+                keptTarget:primary.target, lemma:lemmaA,
+                rule:"XML_DOCUMENTAL_VERIFICADO", selected:bMatches&&!aMatches?
+                    "segunda_redacao_com_id_estavel":"primeira_redacao"});
+            continue;
+        }
     }
     pendingDgpDifferences.push({ordinal, firstTarget:primary.target,
         nextTarget:record.target, firstLemma:lemmaA, nextLemma:lemmaB,
