@@ -195,7 +195,7 @@ const entries=[
   },
   {
     "sid": "A00107",
-    "lemma": "אָבֵי,",
+    "lemma": "אָבֵי, אָבָה",
     "type": "Verbo",
     "gloss": "querer; desejar; estar disposto",
     "html": "Formas <bdi lang='he' dir='rtl'>אָבֵי, אָבָה</bdi>, do hebraico <bdi lang='he' dir='rtl'>אָבָה</bdi>: querer, consentir, mostrar-se disposto. Targum Onkelos Deuteronômio 25.7. Jastrow cita comparações radicais e corrige uma leitura de Targum Provérbios 29.11. <strong>Complemento filológico:</strong> <strong>Raiz e leitura alternativa:</strong> no sentido «querer, consentir, estar disposto», Jastrow parte do hebraico <bdi dir='rtl' lang='he'>אָבָה</bdi> e compara ideias de «pressionar, rodear, abraçar» relacionadas a <bdi dir='rtl' lang='he'>אָבַב</bdi>, além de <bdi dir='rtl' lang='he'>אָוָה, חָפֵץ</bdi>. Targum Onkelos Deuteronômio 25.7 é o exemplo principal. No Targum Provérbios 29.11, edição Wil(na), a forma <bdi dir='rtl' lang='he'>מאבה</bdi> é por Jastrow emendada para <bdi dir='rtl' lang='he'>מֵאֲכָהּ</bdi> (ver <bdi dir='rtl' lang='he'>מאך</bdi>), portanto a leitura editorial não comprova esta raiz."
