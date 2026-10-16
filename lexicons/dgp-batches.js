@@ -84,8 +84,6 @@ window.ScripturaLexicons.DGP.bibliographicTerms.push(
 {key:"comp.",type:"abbr",text:"comparativo"},
 {key:"superl.",type:"abbr",text:"superlativo"},
 {key:"ac.",type:"abbr",text:"acusativo"},
-{key:"at.",type:"abbr",text:"ativo"},
-{key:"fut.",type:"abbr",text:"futuro"},
 {key:"perf.",type:"abbr",text:"perfeito"},
 {key:"desus.",type:"abbr",text:"desusado"},
 {key:"impf.",type:"abbr",text:"imperfeito"},
