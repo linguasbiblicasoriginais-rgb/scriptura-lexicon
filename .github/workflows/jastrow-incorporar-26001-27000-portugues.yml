@@ -1,0 +1,80 @@
+name: JASTROW - incorporar 1000 verbetes 26001-27000 em português
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-incorporar-26001-27000-portugues.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: jastrow-incorporacao-26001-27000
+  cancel-in-progress: false
+jobs:
+  incorporar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Recuperar entradas 26001 a 27000 da fonte XML canonica
+        run: |
+          python - <<'PY'
+          import importlib.util, json
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          spec=importlib.util.spec_from_file_location("j", "tools/jastrow_source.py")
+          mod=importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+          progress=json.loads(Path("lexicons/jastrow-progress.json").read_text(encoding="utf-8"))
+          if progress["scope"]["total_published"]!=26000 or progress["scope"]["next_ordinal"]!=26001:
+              raise RuntimeError("Checkpoint nao inicia no ordinal 26001; interrompido")
+          xml=mod.request_source()
+          root=ET.fromstring(xml)
+          entries=[e for e in root.iter() if mod.local_tag(e.tag)=="entry"]
+          if len(entries)!=32512: raise RuntimeError(f"Total inesperado de registros na fonte: {len(entries)}")
+          if entries[25999].attrib.get("id")!=progress["scope"]["last_source_id"]:
+              raise RuntimeError("Ultimo ID conhecido difere da fonte fixada")
+          for batch in range(131,136):
+              start=(batch-1)*200
+              chosen=entries[start:start+200]
+              if len(chosen)!=200: raise RuntimeError(f"Lote original incompleto: {batch}")
+              records=[]
+              for ordinal,entry in enumerate(chosen,start+1):
+                  sid=entry.attrib.get("id","")
+                  if not sid: raise RuntimeError(f"ID original ausente: {ordinal}")
+                  records.append({"ordinal":ordinal,"source_id":f"jastrow-xml-{ordinal:06d}",
+                      "canonical_entry_id":sid,"headword":mod.headword(entry),
+                      "source_xml":ET.tostring(entry,encoding="unicode")})
+              doc={"source":"Marcus Jastrow (Sefaria-Data pinned XML)",
+                  "source_start_ordinal":start+1,"source_end_ordinal":start+200,
+                  "source_repository":"Sefaria/Sefaria-Data",
+                  "source_commit":mod.SOURCE_COMMIT,"source_blob_sha":mod.SOURCE_BLOB_SHA,
+                  "entry_count":200,"first_headword":records[0]["headword"],
+                  "last_headword":records[-1]["headword"],
+                  "next_headword":mod.headword(entries[start+200]),
+                  "status":"source_only_untranslated_not_published","records":records}
+              out=Path(f"lexicons/jastrow-source-lote-{batch:04d}.json")
+              if out.exists(): raise RuntimeError(f"Fonte ja existente: {out}")
+              out.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+              print("JASTROW_FONTE",batch,records[0]["canonical_entry_id"],records[-1]["canonical_entry_id"],flush=True)
+          PY
+      - name: Instalar modelo de traducao portugues offline
+        run: python -m pip install argostranslate==1.11.0
+      - name: Traduzir e preparar 1000 verbetes e todos os modulos
+        run: |
+          python -m py_compile tools/jastrow_incorporate_26001_27000_pt_offline.py
+          python -u tools/jastrow_incorporate_26001_27000_pt_offline.py
+      - name: Commit exclusivo dos 1000 verbetes JASTROW na branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for start in $(seq 26001 100 26901); do git add "lexicons/jastrow-${start}-$((start+99)).js"; done
+          for batch in $(seq 131 135); do padded=$(printf "%04d" "$batch"); git add "lexicons/jastrow-source-lote-${padded}.json"; done
+          git add lexicons/jastrow-progress.json lexicons/jastrow-editorial-append.js index.html
+          if git diff --cached --quiet; then echo "Nenhuma entrada nova preparada"; exit 1; fi
+          git commit -m "JASTROW: incorporar 1000 verbetes traduzidos para português (26001–27000)"
+          git push origin HEAD:chat-gpt-jastrow
