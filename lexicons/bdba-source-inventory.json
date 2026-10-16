@@ -5,7 +5,7 @@
   "source": "Sefaria — BDB Aramaic Dictionary (Aramaic ONLY)",
   "excluded_source": "BDB Dictionary",
   "source_url": "https://www.sefaria.org/BDB_Aramaic?tab=contents",
-  "method": "DictionaryNode.headwordMap + traversal of /api/texts/ next to exact next alphabet boundary, no Aramaic included",
+  "method": "DictionaryNode.headwordMap + traversal of /api/texts/ next to exact next alphabet boundary, no Hebrew included",
   "counted_at_utc": "2026-10-16T03:35:04.957470+00:00",
   "first_ref": "BDB Aramaic, אָב",
   "last_ref": "BDB Aramaic, תַּתְּנַי",

@@ -27,7 +27,7 @@ def get_json(path):
     url=API+path
     for retry in range(3):
         try:
-            req=Request(url,headers={"User-Agent":"ScripturaLexicon-BDB-Hebrew-Inventory/1.0","Accept":"application/json"})
+            req=Request(url,headers={"User-Agent":"ScripturaLexicon-BDB-Aramaic-Inventory/1.0","Accept":"application/json"})
             with urlopen(req,timeout=35) as response:
                 return json.load(response)
         except (HTTPError,URLError,TimeoutError,ValueError) as e:
@@ -89,7 +89,7 @@ def count_segment(segment,next_start,expected_last):
         last=canonical
         successor=d.get("next")
         if successor is not None and not (isinstance(successor,str) and successor.startswith("BDB Aramaic, ")):
-            raise RuntimeError(f"Destino não hebraico: {successor}")
+            raise RuntimeError(f"Destino não aramaico: {successor}")
         current=successor
         if len(ids)%200==0:
             print("CONTAGEM",segment["letter"],len(ids),"atual",last,flush=True)
@@ -143,7 +143,7 @@ def main():
         "source":"Sefaria — BDB Aramaic Dictionary (Aramaic ONLY)",
         "excluded_source":"BDB Dictionary",
         "source_url":"https://www.sefaria.org/BDB_Aramaic?tab=contents",
-        "method":"DictionaryNode.headwordMap + traversal of /api/texts/ next to exact next alphabet boundary, no Aramaic included",
+        "method":"DictionaryNode.headwordMap + traversal of /api/texts/ next to exact next alphabet boundary, no Hebrew included",
         "counted_at_utc":datetime.now(timezone.utc).isoformat(),
         "first_ref":results[0]["first_ref"],
         "last_ref":results[-1]["last_ref"],
@@ -174,7 +174,7 @@ def main():
     CHECKPOINT.write_text(json.dumps(cp,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     subprocess.run(["git","add","--","lexicons/bdba-source-inventory.json",
                     "lexicons/bdba-progress.json"],cwd=ROOT,check=True)
-    subprocess.run(["git","commit","-m",f"BDBA: registrar total verificado de {total} entradas hebraicas da Sefaria"],
+    subprocess.run(["git","commit","-m",f"BDBA: registrar total verificado de {total} entradas aramaicas da Sefaria"],
                    cwd=ROOT,check=True)
     subprocess.run(["git","push","origin","HEAD:"+BRANCH],cwd=ROOT,check=True)
     print("CONTAGEM GERAL BDBA CONFIRMADA",total,

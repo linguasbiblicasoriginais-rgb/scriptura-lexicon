@@ -49,7 +49,7 @@ def first_ref():
          and n.get("lexiconName") == LEXICON), None
     )
     if not dictionary or not dictionary.get("firstWord"):
-        raise RuntimeError("Índice BDB sem primeiro verbete hebraico verificável")
+        raise RuntimeError("Índice BDB Aramaico sem primeiro verbete aramaico verificável")
     print("FONTE CANÔNICA", LEXICON, "PRIMEIRO", dictionary["firstWord"],
           "ÚLTIMO", dictionary.get("lastWord"), flush=True)
     return "BDB Aramaic, " + dictionary["firstWord"]
