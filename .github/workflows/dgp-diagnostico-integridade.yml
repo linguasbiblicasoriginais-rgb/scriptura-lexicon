@@ -1,0 +1,36 @@
+name: DGP - Diagnostico estrutural (sem alterar verbetes)
+on:
+  workflow_dispatch:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - '.github/workflows/dgp-diagnostico-integridade.yml'
+      - 'tests/test_dgp_etapa1_cobertura_fonte_modulos.js'
+      - 'lexicon-modules.json'
+      - 'scripts/build-on-demand.mjs'
+permissions:
+  contents: read
+concurrency:
+  group: dgp-diagnostico-integridade-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  diagnosticar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compilar indice preservando os modulos fontes
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - name: Confrontar contagens IDs e definicoes de entradas duplicadas
+        run: node tests/test_dgp_etapa1_cobertura_fonte_modulos.js
+      - name: Salvar evidencias sem aprovar nem modificar fontes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgp-diagnostico-integridade-${{ github.run_id }}
+          path: auditorias/dgp-etapa1-modulos-identidade-ci.json
+          if-no-files-found: warn
+          retention-days: 30

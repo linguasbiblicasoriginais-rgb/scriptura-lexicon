@@ -39,11 +39,30 @@ def wait_row(page, row, lemma):
     for query in candidates:
         page.locator("#search-input").fill(query)
         try:
-            row.wait_for(state="visible", timeout=5000)
+            row.first.wait_for(state="visible", timeout=5000)
+            matches = row.count()
+            if matches != 1:
+                items = row.evaluate_all("""els => els.map(x => ({
+                    lemma: x.querySelector(".table-lemma")?.textContent?.trim(),
+                    technical_id: x.dataset.scripturaIndexId,
+                    target: x.dataset.target
+                }))""")
+                raise AssertionError("COLISAO_DE_ID: " + json.dumps(items, ensure_ascii=False))
             return query
+        except AssertionError:
+            raise
         except Exception:
             pass
-    raise AssertionError("Pesquisa pelo lema e pelo nucleo nao retornou a linha")
+    diagnostics = page.evaluate("""() => ({
+        consulta: document.getElementById("search-input")?.value,
+        fonte: document.getElementById("source-filter")?.value,
+        contador: document.getElementById("search-count")?.textContent,
+        total_linhas: document.querySelectorAll(".search-row").length,
+        amostra_ids: [...document.querySelectorAll(".search-row")].slice(0,8)
+          .map(x => x.dataset.target)
+    })""")
+    raise AssertionError("Pesquisa pelo lema e pelo nucleo nao retornou a linha: " +
+                         json.dumps(diagnostics, ensure_ascii=False))
 
 
 def check_open(page, row, card, mode):
@@ -74,16 +93,25 @@ def check_card(page, card, rec, result):
         "definicao_coincide": bool(rec.get("definition_coincide")),
         "estado_estatico": rec.get("estado_estatico")
     }
+    # Mantem o ponteiro fora das citacoes: o ensaio abaixo e de foco/teclado.
+    page.mouse.move(1, 1)
     triggers = definition.locator(".tooltip-trigger")
     for position in range(triggers.count()):
+        if not card.is_visible():
+            record_error(result, "CARTAO_OCULTO",
+                         "A navegacao saiu do artigo durante o teste de popups")
+            break
         trigger = triggers.nth(position)
         label = trigger.get_attribute("data-tooltip-label") or norm(trigger.text_content())
         kind = trigger.get_attribute("data-tooltip-type") or "indefinido"
         result["popups_existentes"] += 1
+        opened = False
         try:
+            trigger.evaluate("(el) => el.blur()")
             trigger.focus()
             tip = page.locator("#lexical-tooltip")
-            assert tip.get_attribute("aria-hidden") == "false", "Popup nao abriu pelo foco"
+            opened = tip.get_attribute("aria-hidden") == "false"
+            assert opened, "Popup nao abriu pelo foco"
             message = norm(tip.text_content())
             assert message, "Conteudo vazio"
             if kind == "greek":
@@ -97,7 +125,10 @@ def check_card(page, card, rec, result):
             result["popups_testados"] += 1
         except Exception as exc:
             record_error(result, "POPUP_" + kind, label + ": " + str(exc))
-            page.keyboard.press("Escape")
+            # Nunca enviar Escape quando nenhum popup estiver ativo:
+            # o frontend interpreta esse Escape como voltar aos resultados.
+            if opened and page.locator("#lexical-tooltip").get_attribute("aria-hidden") == "false":
+                page.locator("#search-input").focus()
 
     for ex in definition.locator(".dgp-example").all():
         result["exemplos_presentes"] += 1
@@ -142,6 +173,13 @@ def main():
             page.wait_for_function(
                 "() => window.ScripturaLexiconSearch?.isReady === true", timeout=120000)
             assert page.evaluate("window.ScripturaGetActiveDictionary()") == "grego"
+            # A busca por lemas gregos curtos deve ser avaliada no filtro DGP,
+            # evitando truncamento por resultados dos demais lexicos.
+            # O <select> nativo fica oculto; usar o combobox visível,
+            # reproduzindo a seleção efetiva de um usuário.
+            page.locator("#source-filter-button").click()
+            page.locator('.source-filter-option[data-source="DGP"]').click()
+            assert page.locator("#source-filter").input_value() == "DGP"
             try:
                 for rec in entries:
                     n = rec["ordinal"]

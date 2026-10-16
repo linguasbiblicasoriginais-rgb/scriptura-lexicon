@@ -64,6 +64,8 @@ jobs:
           node-version: '22'
       - name: Compilar frontend sob demanda
         run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - name: Diagnosticar colisões reais do índice DGP
+        run: node tests/test_dgp_etapa1_colisoes_0001_1000.js
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -78,6 +80,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dgp-etapa1-0001-1000-ondemand-${{ github.run_id }}
-          path: auditorias/dgp-etapa1-0001-1000-ondemand-ci.json
+          path: |
+            auditorias/dgp-etapa1-0001-1000-ondemand-ci.json
+            auditorias/dgp-etapa1-0001-1000-colisoes-ci.json
           if-no-files-found: warn
           retention-days: 30
