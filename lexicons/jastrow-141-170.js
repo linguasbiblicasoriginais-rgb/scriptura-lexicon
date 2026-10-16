@@ -208,7 +208,7 @@ const entries=[
   },
   {
     "sid": "A00169",
-    "lemma": "*אַבְלַס,",
+    "lemma": "*אַבְלַס, אַוְולַס",
     "type": "Topônimo plural",
     "gloss": "Avlas; região da Cilícia",
     "html": "<strong>Avlas</strong>, também <bdi lang='he' dir='rtl'>אַוְולַס</bdi>, local citado como limite setentrional da terra de Israel, na Cilícia. Targum Pseudo-Jônatas Números 34.8; Tosefta Sheviit 4.11 e textos midráxicos apresentam numerosas variantes toponímicas. Jastrow propõe, com ressalva, identificação com as Portas da Cilícia (<span lang='grc'>Πύλαι τῆς Κιλίκιας</span>). <strong>Nota de colação:</strong> Tosefta Sheviit 4.11 tem עילי רבתא (variante אולם); Sifré Deuteronômio 51 לולא רבתא; Yalkut Deuteronômio 624 לילא רבתא. Portas da Cilícia é hipótese toponímica. <strong>Testemunhos e variantes toponímicas:</strong> Targum Pseudo-Jônatas I a Números 34.8 registra <bdi lang='he' dir='rtl'>אב׳ דקילקאי</bdi>; a versão II, <bdi lang='he' dir='rtl'>תחומא דאַוְו׳ דקל׳</bdi>, «território de Avlas dos cilícios». Tosefta Sheviit 4.11, edição Zuckermandel: <bdi lang='he' dir='rtl'>עילי רבתא</bdi> (variante <bdi lang='he' dir='rtl'>אולם</bdi>); Sifré Deuteronômio 51: <bdi lang='he' dir='rtl'>לולא רבתא</bdi>; Yalkut Deuteronômio 624: <bdi lang='he' dir='rtl'>לילא רבתא</bdi>; Jerusalém Sheviit 6, 36c: <bdi lang='he' dir='rtl'>אולם רבתא</bdi>. <strong>Testemunhos adicionais:</strong> Sifré Números 131: <bdi lang='he' dir='rtl'>סבטיא מאולם</bdi>; Jerusalém Sanhedrin 10, 28d: <bdi lang='he' dir='rtl'>סובתה מאולם</bdi>, «Sovtá de Ulam»; Sanhedrin babilônico 64a: <bdi lang='he' dir='rtl'>סבטא בן אלס</bdi> (leitura assinalada como duvidosa por Jastrow). A identificação com as Portas da Cilícia permanece apenas provável segundo o autor."
