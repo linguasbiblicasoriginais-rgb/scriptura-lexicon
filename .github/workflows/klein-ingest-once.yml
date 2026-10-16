@@ -1,0 +1,59 @@
+name: KLEIN — inventário e incorporação única
+on:
+  push:
+    branches:
+      - chat-gpt-klein
+    paths:
+      - .github/workflows/klein-ingest-once.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scriptura-klein-ingestion
+  cancel-in-progress: false
+
+jobs:
+  incorporar-klein:
+    if: github.ref == 'refs/heads/chat-gpt-klein'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout exclusivo da branch KLEIN
+        uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-klein
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Configurar identidade técnica de commits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Confirmar HEAD remoto
+        run: |
+          git fetch origin chat-gpt-klein
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/chat-gpt-klein)"
+          git rev-parse HEAD
+      - name: Verificar licença, enumerar e confirmar inventário integral
+        run: python tools/klein_count_full.py
+      - name: Incorporar no máximo 1000 verbetes em commits separados de 100
+        env:
+          KLEIN_TARGET_NEW: '1000'
+        run: python tools/klein_ingest.py
+      - name: Comprovar HEAD remoto e checkpoint
+        if: always()
+        run: |
+          echo "HEAD local:"
+          git rev-parse HEAD
+          echo "HEAD remoto:"
+          git ls-remote origin refs/heads/chat-gpt-klein
+          if [ -f lexicons/klein-progress.json ]; then
+            python -c "import json; d=json.load(open('lexicons/klein-progress.json')); print('KLEIN:',d['total_incorporated'],'/',d['source_total'],'; próximo:',d['next_ref'])"
+          else
+            echo 'Checkpoint ainda não disponível: contagem integral não foi concluída.'
+          fi
