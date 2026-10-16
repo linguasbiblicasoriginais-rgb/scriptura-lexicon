@@ -59,6 +59,42 @@ const collisions=[...occurrences.values()].filter(v=>v.length>1);
 const numericalCollisions=[...byOrdinal.values()].filter(v=>v.length>1);
 const alternateFormat=numericalCollisions.filter(v=>new Set(v.map(x=>x.target)).size>1);
 const numericConflicts=numericalCollisions.filter(v=>!v.every(x=>x.definition!==null&&normalize(x.definition)===normalize(v[0].definition)));
+
+const earlierCotejo=JSON.parse(fs.readFileSync(
+ path.join(root,"auditorias/dgp-2026-10-14-cotejo-0001-1000.json"),"utf8"));
+if(!Array.isArray(earlierCotejo.records)||earlierCotejo.records.length!==1000)
+ throw Error("A transcrição documental prévia do lote 1 deve conter 1000 artigos");
+const originalByOrdinal=new Map(earlierCotejo.records.map(x=>[x.ordinal,x]));
+const withoutSoftHyphen=s=>normalize(s).replace(/\u00ad/gu,"");
+const firstBatchConflicts=numericConflicts
+ .filter(group=>group[0].ordinal>=1&&group[0].ordinal<=1000)
+ .map(group=>{
+  const original=originalByOrdinal.get(group[0].ordinal);
+  if(!original) throw Error("Original documental ausente para ordinal "+group[0].ordinal);
+  const sameIgnoringSoftHyphen=group.every(x=>
+   withoutSoftHyphen(x.definition)===withoutSoftHyphen(group[0].definition));
+  const sameIgnoringCaseAndSoftHyphen=group.every(x=>
+   withoutSoftHyphen(x.definition).toLocaleLowerCase("pt-BR")===
+   withoutSoftHyphen(group[0].definition).toLocaleLowerCase("pt-BR"));
+  return {
+   ordinal:group[0].ordinal,lemma:group[0].lemma,
+   source:"auditorias/dgp-2026-10-14-cotejo-0001-1000.json",
+   original_lemma_xml:original.lemma_original_xml,
+   original_definition_xml:original.definition_original_xml,
+   same_ignoring_soft_hyphen:sameIgnoringSoftHyphen,
+   same_ignoring_case_and_soft_hyphen:sameIgnoringCaseAndSoftHyphen,
+   matches_original_exact:group.map(x=>normalize(x.definition)===
+     normalize(original.definition_original_xml)),
+   candidates:group
+  };
+ });
+const firstBatchConflictClasses={
+ all:firstBatchConflicts.length,
+ only_soft_hyphens:firstBatchConflicts.filter(x=>x.same_ignoring_soft_hyphen).length,
+ case_or_soft_hyphens:firstBatchConflicts.filter(x=>x.same_ignoring_case_and_soft_hyphen).length,
+ more_substantive_differences:firstBatchConflicts.filter(x=>!x.same_ignoring_case_and_soft_hyphen).length
+};
+
 const sameDefinition=collisions.filter(v=>v.every(x=>x.definition!==null&&
  normalize(x.definition)===normalize(v[0].definition)));
 const differentDefinition=collisions.filter(v=>!v.every(x=>x.definition!==null&&
@@ -83,6 +119,8 @@ const report={
  repeated_numeric_ordinals:numericalCollisions.reduce((sum,x)=>sum+x.length-1,0),
  differently_formatted_target_groups:alternateFormat.length,
  different_definition_numeric_groups:numericConflicts.length,
+ first_batch_conflict_classes:firstBatchConflictClasses,
+ first_batch_conflicts:firstBatchConflicts,
  alternate_format_samples:alternateFormat.slice(0,8),
  numeric_conflict_samples:numericConflicts.slice(0,16),
  identical_normalized_definition_groups:sameDefinition.length,
@@ -105,6 +143,7 @@ console.log("DGP ESTRUTURA RESUMO",JSON.stringify({...report,
  missing_ordinals_sample:report.missing_ordinals_sample.slice(0,20),
  alternate_format_samples:report.alternate_format_samples.slice(0,3),
  numeric_conflict_samples:report.numeric_conflict_samples.slice(0,3),
+ first_batch_conflicts:report.first_batch_conflicts.slice(0,2),
  unusual_ordinal_sample:report.unusual_ordinal_sample.slice(0,8),
  differing_definition_sample:report.differing_definition_sample.slice(0,4),
  matching_definition_sample:report.matching_definition_sample.slice(0,2)
