@@ -1,0 +1,47 @@
+name: THAYER - diagnostico de margens do facsimile
+on:
+  push:
+    branches: [chat-gpt-thayer-facsimile-apoio]
+    paths: [.github/workflows/thayer-diagnostico-margens.yml]
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Medir recuos da camada geometrica das fotografias
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          import re,urllib.request,xml.etree.ElementTree as ET
+          url='https://archive.org/download/thayersgreekengl0000thay/thayersgreekengl0000thay_djvu.xml'
+          a=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=140).read()
+          root=ET.fromstring(a); pages=root.findall('.//OBJECT')
+          print('SOURCE_BYTES',len(a),'TOTAL_FOLHAS',len(pages),flush=True)
+          for printed in [1,2,3,4,7,19,23,31,58,59,89,97,111,159,267,357,570,681]:
+              obj=pages[printed+23]
+              width=int(obj.get('width') or 2450)
+              lines=[]
+              for line in obj.findall('.//LINE'):
+                  words=[w for w in line.findall('WORD') if (w.text or '').strip()]
+                  if len(words)<2:continue
+                  co=[int(z) for z in words[0].get('coords','0,0,0,0').split(',')]
+                  x,y=co[0],co[3]
+                  if y<140 or y>int(obj.get('height') or 3500)-110:continue
+                  side='L' if x < width*.51 else 'R'
+                  phrase=' '.join((w.text or '').strip() for w in words[:6])
+                  lines.append((x,y,side,phrase,len(words)))
+              print('\nPAGE',printed,'width',width,'LINE_COUNT',len(lines))
+              for side in ['L','R']:
+                  group=[z for z in lines if z[2]==side and z[4]>=3]
+                  xs=sorted(z[0] for z in group)
+                  base=xs[max(0,int(len(xs)*.12))] if xs else 0
+                  counts=Counter(round((z[0]-base)/10)*10 for z in group)
+                  print('COL',side,'base',base,'num',len(group),'DISTRIBUTION',counts.most_common(13))
+                  if printed in [1,7,19,23,31]:
+                      near=sorted(group,key=lambda z:z[1])
+                      for x,y,sd,phrase,number in near[:30]:
+                          print('LINE',side,'x',x,'d',x-base,'y',y,'n',number,phrase[:87])
+          PY

@@ -34,8 +34,9 @@
         }
         module.cardsHtml = converted;
     }
-    if (cardsChecked < 500 || paragraphsRemoved < 443) {
-        throw new Error("THAYER: inventário inferior à linha de base já verificada (500 cartões e 443 blocos de OCR); encontrado " + cardsChecked + " e " + paragraphsRemoved);
+    // A seção OCR visível de Ἀαρών foi retirada; a fonte continua no JSON.
+    if (cardsChecked < 500 || paragraphsRemoved < 442) {
+        throw new Error("THAYER: inventário inferior à linha de base já verificada (500 cartões e 442 blocos de OCR); encontrado " + cardsChecked + " e " + paragraphsRemoved);
     }
     lexicons.THAYER_LANGUAGE_CHECK = Object.freeze({
         dictionary: "THAYER",

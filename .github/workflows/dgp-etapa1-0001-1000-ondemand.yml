@@ -1,0 +1,87 @@
+name: DGP Etapa 1 - 0001 a 1000 (fonte e Chromium real)
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - '.github/workflows/dgp-etapa1-0001-1000-ondemand.yml'
+      - 'tests/test_dgp_etapa1_0001_1000_ondemand.py'
+      - 'auditorias/dgp-2026-10-14-cotejo-0001-1000.json'
+      - 'lexicons/on-demand-search.js'
+      - 'scripts/build-on-demand.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dgp-etapa1-0001-1000-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  fonte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recuperar o XML canônico do DGP e verificar SHA
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p auditorias/ci-dgp "${RUNNER_TEMP}/dgp-source"
+          git -C "${RUNNER_TEMP}/dgp-source" init -q
+          git -C "${RUNNER_TEMP}/dgp-source" remote add origin https://github.com/aniseferreira/Grc-Por-DigDict.git
+          git -C "${RUNNER_TEMP}/dgp-source" fetch --no-tags --depth=1 origin deb54b426ead447d01ced7534736f3e77be7015b
+          test "$(git -C "${RUNNER_TEMP}/dgp-source" rev-parse FETCH_HEAD)" = deb54b426ead447d01ced7534736f3e77be7015b
+          git -C "${RUNNER_TEMP}/dgp-source" show FETCH_HEAD:arquivos_xml/01_Alfa.txt.xml > "${RUNNER_TEMP}/dgp-source/alfa.xml"
+          test -s "${RUNNER_TEMP}/dgp-source/alfa.xml"
+          test "$(git hash-object "${RUNNER_TEMP}/dgp-source/alfa.xml")" = eec318bb6150b6b2f4422ea4a76383ac0a254de2
+          python - <<'PY'
+          import json, os, pathlib, xml.etree.ElementTree as ET
+          source=pathlib.Path(os.environ["RUNNER_TEMP"])/"dgp-source/alfa.xml"
+          root=ET.parse(source).getroot()
+          entries=[x for x in root.iter() if x.tag.split("}")[-1]=="entryFree"]
+          report={"stage":"etapa1_fonte_preflight","source_commit":"deb54b426ead447d01ced7534736f3e77be7015b",
+             "source_blob":"eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+             "source_bytes":source.stat().st_size,"entryFree_total":len(entries),
+             "note":"Validação estrutural da fonte, sem atestar novo cotejo individual."}
+          pathlib.Path("auditorias/ci-dgp/dgp-etapa1-0001-1000-fonte.json").write_text(
+             json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+          print(json.dumps(report,ensure_ascii=False))
+          assert len(entries)>=1000
+          PY
+      - name: Anexar diagnóstico da fonte
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgp-etapa1-fonte-alfa-${{ github.run_id }}
+          path: auditorias/ci-dgp/dgp-etapa1-0001-1000-fonte.json
+          if-no-files-found: warn
+          retention-days: 30
+  regressao-chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compilar frontend sob demanda
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - name: Diagnosticar colisões reais do índice DGP
+        run: node tests/test_dgp_etapa1_colisoes_0001_1000.js
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Playwright Chromium
+        run: |
+          python -m pip install 'playwright>=1.55,<2'
+          python -m playwright install --with-deps chromium
+      - name: Regressão por ordinal — DOM e interações reais
+        run: python tests/test_dgp_etapa1_0001_1000_ondemand.py
+      - name: Anexar resultado individual mesmo em falha
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgp-etapa1-0001-1000-ondemand-${{ github.run_id }}
+          path: |
+            auditorias/dgp-etapa1-0001-1000-ondemand-ci.json
+            auditorias/dgp-etapa1-0001-1000-colisoes-ci.json
+          if-no-files-found: warn
+          retention-days: 30
