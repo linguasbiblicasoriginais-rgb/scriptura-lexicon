@@ -155,4 +155,19 @@ console.log("DGP ESTRUTURA RESUMO",JSON.stringify({...report,
  differing_definition_sample:report.differing_definition_sample.slice(0,4),
  matching_definition_sample:report.matching_definition_sample.slice(0,2)
 }));
-if(count===0||numericIDs.size===0)process.exitCode=1;
+// Gate de preservação do lote 1: 1000 ordinais, cada qual com um único artigo.
+const firstBatchUnique=[...byOrdinal].filter(([n])=>n>=1&&n<=1000);
+const firstBatchDuplicates=firstBatchUnique.filter(([_,entries])=>entries.length!==1);
+const thousand=byOrdinal.get(1000);
+const originalThousand=originalByOrdinal.get(1000);
+const thousandMatchesSource=thousand?.length===1 && originalThousand &&
+  sourceCanonical(thousand[0].definition)===
+    sourceCanonical(originalThousand.definition_original_xml);
+console.log("DGP ETAPA1 GATE",JSON.stringify({
+  unique_ordinals:firstBatchUnique.length,
+  duplicate_ordinals:firstBatchDuplicates.map(([n])=>n),
+  ordinal_1000_unique:thousand?.length===1,
+  ordinal_1000_definition_from_source:Boolean(thousandMatchesSource)
+}));
+if(count===0||numericIDs.size===0||firstBatchUnique.length!==1000||
+    firstBatchDuplicates.length||!thousandMatchesSource)process.exitCode=1;
