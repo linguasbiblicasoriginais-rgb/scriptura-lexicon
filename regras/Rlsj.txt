@@ -56,3 +56,22 @@ Próximo artigo: ἀκαρφής, orig_id n2955, ordinal global 3001, no greatsc
 Conferência textual: os primeiros 2000 artigos previamente publicados coincidem exatamente com a fonte digital usada, e a junção entre greatscott02.xml e greatscott03.xml foi verificada pelos identificadores sucessivos n1988 → n1989. Erros editoriais do próprio TEI ainda exigem colação independente.
 Acumulado: 3000 artigos da camada FONTE; 0 verbetes portugueses completos, 0 revisados e 0 publicados na interface. O total de referência 116854 (Furman) é PROVISÓRIO e não assegura segmentação idêntica à desta fonte.
 Nenhum PR/merge, incorporação HTML ou alteração em outras branches foi realizado neste ciclo.
+
+
+CICLO 0004 — RESULTADO VERIFICADO (18/10/2026)
+Branch exclusiva: chat-gpt-lsj.
+Arquivo da camada Fonte: lexicons/lsj-source-batch-0004.xml.
+Commit do lote: 2b41bb0cc8cc2ef04808e60e327621fc02b5db4f.
+Blob publicado: 646d9c2c6c8b4c9c16b0b7c47ab235c3e1654874.
+Fonte auxiliar TEI: helmadik/LSJLogeion — greatscott03.xml, blob 5fdda44cef71e03de0204b65ade066006d6c4933.
+Intervalo da fonte: ordinais locais 978–1977; ordinais globais 3001–4000.
+Quantidade verificada: 1000 artigos; 1000 orig_id exclusivos; 0 cabeçalhos ausentes; 0 sobreposições com o lote anterior.
+Primeiro lema: ἀκαρφής (n2955); último: ἀλεής (n3933).
+Próximo lema: ἄλεθρα (n3934), ordinal global 4001, greatscott03.xml.
+Total Fonte confirmado no GitHub: 4000.
+Traduções portuguesas completas: 0; revisões portuguesas concluídas: 0; artigos na interface: 0.
+O resultado corresponde a extração estruturada da transcrição digital, e NÃO a 4000 traduções, revisão filológica integral, consulta ao impresso ou homologação.
+O denominador de 116854 registros é referência provisória Furman, podendo diferir da segmentação LSJLogeion.
+Histórico: em ciclos automáticos anteriores, a publicação do lote 4 foi bloqueada; nesta retomada, a operação de escrita foi bem-sucedida na primeira tentativa e o commit foi verificado. Preservar as evidências de falhas anteriores; não declarar que os ciclos bloqueados foram bem-sucedidos.
+Agendamento horário: restaurado ao estado ativo por solicitação de continuidade do mantenedor; nunca desativar por erro em execuções futuras.
+Nenhuma operação PR, merge, rebase, force push ou escrita em outras branches.
