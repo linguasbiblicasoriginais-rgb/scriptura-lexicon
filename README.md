@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## LSJ — terceiro lote: 3.000 artigos na camada Fonte (18/10/2026)
+
+O [lote 0003](lexicons/lsj-source-batch-0003.xml) incorporou **1.000 artigos originais completos**, de **ἀθετ-έω** a **ἄκαρτος** (ordinais 2.001–3.000), elevando o acumulado a **3.000 artigos na camada Fonte**. Commit de publicação: [303e492](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/303e492d6f7988e31aeee91606fa2ca77301a4e2). A transcrição auxiliar de Helma Dik/Logeion (derivada do Perseus/Tufts) foi utilizada de `greatscott02.xml` (23 artigos finais) e `greatscott03.xml` (977 artigos iniciais), com SHA dos blobs anotados no [manifesto de progresso](lexicons/lsj-progress.json) e nas [regras do LSJ](regras/Rlsj.txt). Conferência estrutural: **1.000 IDs únicos no lote**, 3.000 únicos no conjunto de três lotes, 0 cabeçalhos faltantes e continuidade confirmada entre arquivos.
+
+**Próximo:** **ἀκαρφής**, `orig_id=n2955`, ordinal global 3.001. O total **116.854** é apenas referência provisória da implementação Furman, cuja segmentação pode diferir da usada aqui. Não houve tradução, revisão filológica completa nem ativação de cartões na interface: **0 verbetes portugueses concluídos ou publicados**. A escrita foi exclusiva em `chat-gpt-lsj`, sem PR/merge ou modificações em `main`.
+
+
 ## LSJ — segundo lote da camada Fonte: 2.000 artigos acumulados (18/10/2026)
 
 Na branch exclusiva `chat-gpt-lsj` foi publicado o [segundo lote da fonte original](lexicons/lsj-source-batch-0002.xml), com **1.000 artigos** (`ἀγῠρ-τεύω` a `ἀθέσφᾰτος`), completando **2.000 registros originais acumulados**. A verificação remota confirmou 1.000 identificadores únicos, nenhum cabeçalho ausente e continuidade literal em relação ao lote 0001. O commit-fonte é [2855df0](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/2855df0223b593d7b25bc2935b907caa83269241). **Próximo lema:** `ἀθετ-έω` (orig_id `n1965`, ordinal 2001 da transcrição).
