@@ -1,0 +1,1940 @@
+{
+  "lote": 9,
+  "inicio": 801,
+  "fim": 900,
+  "quantidades": {
+    "verbetes": 100,
+    "nao_avaliados_individualmente": 100,
+    "problemas_comprovados": 0
+  },
+  "problemas_comprovados_acumulados": 0,
+  "status": "triagem inicial, revisao linguistica individual pendente",
+  "verbetes": [
+    {
+      "ordinal": 801,
+      "sid": "A00800",
+      "lema": "(הֹופְיָא) אֹופְיָא",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "espuma; escuma; matéria que a água ou outro líquido desprende ao agitar-se. A fonte compara o termo ao que é soprado para fora.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אוף; v. אנף; b. h. אָפַע) what is blown off, foam, froth."
+      ],
+      "notas_originais": [
+        "Ab. Zara 26 a כי א' דימא Ms. M. (ed. דנהרא, v. Rabb. D. S. a. l., a. Ar. ed. Koh. s. v. אפי) as the foam of the Sea [river]; (Ar. as logs on the river, v. אוּפְתָּא, אוּפֵי). Ib. 70 b הוות נקיטא א' (Var. חופיא, ה', v. Rabb. D. S. a. l. note 20) she took the froth off. Ḥull. 105 b א' (Ar. ה')."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 802,
+      "sid": "A00801",
+      "lema": "*אֹופְיוֹן",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "ópio; sumo da papoula, do grego ὄπιον. O Talmude de Jerusalém menciona o perigo de uma bebida preparada com ópio.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ὄπιον) poppy-juice, opium."
+      ],
+      "notas_originais": [
+        "Y. Ab. Zar. II, 40 d top אהן א' סכנה an opium drink (prepared by a gentile) is dangerous."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 803,
+      "sid": "A00802",
+      "lema": "אופיטא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אַנְטִיפִּיטָא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַנְטִיפִּיטָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 804,
+      "sid": "A00803",
+      "lema": "אוּפְיֵי",
+      "classe": "Verbete lexical",
+      "glosa_atual": "galhinhos; pequenos ramos; ver אוּפֵי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "twigs, v. אוּפֵי."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 805,
+      "sid": "A00804",
+      "lema": "אֹופִיכָא",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "destruição; ruína; devastação. Em Lamentações Rabá, designa os filhos daqueles que foram arruinados.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אֹופְכָיָיא f.) (אפך) destruction, ruin Lam. R. to III, 13 (expl. בני אשפתו ibid."
+      ],
+      "notas_originais": [
+        ", v. אַשְׁפָּה) בני אֹופִיכֵיה (Var. אֹופְכָיֵיה) the children of those he laid in ruins; v. אִימְרָיָיא. [Differ. in Esth. R. to I, 1 b, v. אוּכַּיְיפָא a. אֲמוּרְיָא.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 806,
+      "sid": "A00805",
+      "lema": "אופילין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֲפֹולִים; remissão em Tosefta Terumot 2.4.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Tosef. Ter. II, 4, v. אֲפֹולִים"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 807,
+      "sid": "A00806",
+      "lema": "*אופימטטאטא,",
+      "classe": "Substantivo masculino plural",
+      "glosa_atual": "registros ou documentos públicos; atas. A fonte propõe corrigir a grafia para אוּפֹּומְנֵימָאטָא, do grego ὑπομνήματα.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", read אוּפֹּומְנֵימָאטָא m. pl. (ὑπομνήματα) public records, acts."
+      ],
+      "notas_originais": [
+        "Ex. R. s. 28 a king wanted לעשות א' חוץ וכ' to pass acts without consulting the lieutenant-governor (hyparch)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 808,
+      "sid": "A00807",
+      "lema": "אֹופִיקְיָלִין",
+      "classe": "Substantivo masculino plural",
+      "glosa_atual": "oficiais subordinados; agentes de autoridade; guardas ou meirinhos. Termo derivado do latim officialis e de forma grega correspondente.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(officialis, ὀφφικιάλιος) subordinate officials, constables."
+      ],
+      "notas_originais": [
+        "Y’lamd. Balak (quot. in Ar. s. v. בלש) או' ed. Koh. Ib. שלח אפיקלין (corr. acc.) he sent constables (for her son)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 809,
+      "sid": "A00808",
+      "lema": "אֹופִיתָא",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "natureza; índole; disposição. Equivalente aramaico de אֹופִי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= h. אֹופִי) nature, disposition."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 14, end, v. אֹופִי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 810,
+      "sid": "A00809",
+      "lema": "אופכי,",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אַפּוּכִי; variantes אופכי e אופכין.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַפּוּכִי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 811,
+      "sid": "A00810",
+      "lema": "אֹופֶל",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "escuridão; trevas. Gênesis Rabá 89.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "darkness."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 89, beg. v. אֲפֵילָה."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 812,
+      "sid": "A00811",
+      "lema": "אֹופָן",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "roda; plural אֹופַנִּים. Em referência a Ezequiel 1.15, Ofan também designa uma entidade angélica; não confundir os dois usos.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", v. פנה)",
+        "wheel.",
+        "(with ref. to Ezek. I, 15) pr. n. Ofan, name of an angel."
+      ],
+      "notas_originais": [
+        "Ḥag. 13 b.— Pl. אֹופַנִּים. Ib. 12 b. R. Hash. 24 b.—[In liturgic literature אופנים and אופן are used as the names of a section of the morning prayers; v. אֹופַנָּא.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 813,
+      "sid": "A00812",
+      "lema": "אֹופֶן",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "modo; maneira; procedimento; plano; método. No hebraico posterior pode designar uma forma de interpretação.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "turn, method, plan."
+      ],
+      "notas_originais": [
+        "[In later Hebr.: method of interpretation = פָּנִים.]— Pl. אֹופָנִים; Du. אֹופְנַיִים. Ruth. R. s. 2, beg. You will soon find out איפניים שלהם וכ' (Yalk. Josh. 7 אופנים) their plans (strategic movements). Ab. d’R. Nath. (ed. Taussig, N’veh Shal. p. 12) על אופניו in its proper way."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 814,
+      "sid": "A00813",
+      "lema": "אֹופַנָּא",
+      "classe": "Verbete lexical",
+      "glosa_atual": "roda, na forma aramaica; plural אֹופַנַּיָּא. Também designa a seção das orações matutinas que descreve os louvores dos seres angélicos.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "— Pl. אֹופַנַּיָּא. Targ. Ezek. X, 13.—אֹופַנַּיָּיה that section of the morning prayers beginning with v’haofannim and describing the angelic praises. Y. Ber. V, 9 c bot."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 815,
+      "sid": "A00814",
+      "lema": "אֹופְנָא",
+      "classe": "Verbete lexical",
+      "glosa_atual": "modo; interpretação; condição; ressalva. Em acordos, indica a possibilidade de uma interpretação qualificadora.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "turn, interpretation, qualification. Y. Dem. VI, 25 b bot. א' לית לון א' לית לסתמא we do not recognize an interpretation (of an agreement, so as to say, נעשה כאומר וכ' ‘it means as though they had said—’); no qualification is admissible for an unqualified agreement."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 816,
+      "sid": "A00815",
+      "lema": "אוּפְסַיִם",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "palmas das mãos; substantivo de forma dual, conforme o registro de Jastrow.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "du."
+      ],
+      "notas_originais": [
+        "(cmp. אֶפֶס—, a. פֵּס, פִּסָּה) palms of the hand. Mekh. B’shall. Vayissa, s. 3, to Ex. XVI, 12 the Mannah came down על האו' וכ' on the hands of the Lord, as if it were to say, the Lord held forth &c. [In some ed. אוּפְסִין.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 817,
+      "sid": "A00816",
+      "lema": "אוּפְסִין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "plural de אוּפְסַיִם, palmas das mãos; remissão morfológica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "m. pl., v. foreg."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 818,
+      "sid": "A00817",
+      "lema": "אופסנון",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אָפְסֹונִין; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אָפְסֹונִין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 819,
+      "sid": "A00818",
+      "lema": "אוּפְתָּא",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "ramo principal, mais grosso; caule; tronco; haste central da planta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. אוּפֵי) prop. the large central branch, hence trunk, stalk."
+      ],
+      "notas_originais": [
+        "Succ. 32 a ואימא א' may I not say (as you insist on the palm-branch being kafuth, tied, joined) that I must use the stalk?—Ḥull. 47 b lungs resembling לא' a trunk (in color, touch &c.). Ib. 16 a וי\"ו דכתיב אא' a Vav. written on a trunk (being broken on account of the rough surface = idle-talk)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 820,
+      "sid": "A00819",
+      "lema": "אוּפְתֵּיק,",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver הֶפְתֵּק; grafias אוּפְתֵּיק e אוּפְתֵּק.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "= הֶפְתֵּק."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 821,
+      "sid": "A00820",
+      "lema": "אוּץ",
+      "classe": "Verbete lexical",
+      "glosa_atual": "apertar ou ser apertado; comprimir; pressionar; apressar-se. Particípio associado a algo espremido ou comprimido.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", v. אוי I; cmp. אָפַץ; v. חוּץ a. חָצָה) to be pressed ( to press, hurry)."
+      ],
+      "notas_originais": [
+        "—Part. אוֹצֶה, pl. אוֹצִין (as from אצה, v. חוּץ, חוּל) squeezed in. Tosef. Kel. B. Mets. IX, 5 א' חבור (Var. הוצין) when they are squeezed in (tight), they are considered as connected for levitical purposes."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 822,
+      "sid": "A00821",
+      "lema": "אוּצְבָּתָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֶצְבְּעָא e אֶצְבָּעִי; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֶצְבְּעָא a. אֶצְבָּעִי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 823,
+      "sid": "A00822",
+      "lema": "אוּצְיָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אָצְיָא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אָצְיָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 824,
+      "sid": "A00823",
+      "lema": "אוציטילין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "Jastrow recomenda ler אִיצְטֹולִין; ver אִסְטְלָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "read אִיצְטֹולִין, v. אִסְטְלָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 825,
+      "sid": "A00824",
+      "lema": "אֹוצֶן",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver הֹוצֶן; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. הֹוצֶן"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 826,
+      "sid": "A00825",
+      "lema": "אֹוצָר",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "depósito; armazém; celeiro; reservatório de provisões; tesouro acumulado. Pode designar bens armazenados.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "store-house, magazine; provision; hoarded up treasure."
+      ],
+      "notas_originais": [
+        "B. Bath 58 a; Git. 67 a, v. בָּלַם a. בָּלַס. Ab. Zar. 40 b; v. הֶפְתֵּק; a. fr.—Esp. treasury, the ( Roman) government’s treasury department where taxes in kind and money had to be paid. Y. Dem. VI, end, 26 a ושקול על ידי לא' and pay for me in the treasury-department. Tosef. Dem. VI, 4 ושקול תחתיי מן הא' (read אל הא'). Ib. 3 ושוקל לא' ed. Zuck. (ed. incorr. ואוצר). Ib. 4 פוטריני מן הא' get me a release from the treasury-dep.—Y. Dem. l. c. פרשיני מן הא' (read פוטריני). Ab. Zar. 71 a לא', מן הא', Ms. M. (ed. עוצר); cmp. אָצַר.— Pl. אֹוצָרוֹת. B. Bath. 11 a גנזו א' Ms. (ed. א' omitted); v. גָּנַז.—Ḥag. 12 b אֹוצְרֹות שלג וכ' the stores of snow &c. (in the heavens); a. fr. V. אֹצְרֹות, א' רוח."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 827,
+      "sid": "A00826",
+      "lema": "אֹוצָרָא",
+      "classe": "Verbete lexical",
+      "glosa_atual": "armazém; depósito; tesouro; equivalente aramaico de אֹוצָר, com plurais אֹוצְרִין e אֹוצְרַיָּא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Targ. Jerem. XXXVIII, 11; a. fr.— Pl. אֹוצְרִין, אֹוצְרַיָּא. Targ. Gen. XLI, 56; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 828,
+      "sid": "A00827",
+      "lema": "אוקומיני",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אִיקוּמֵינֵי; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִיקוּמֵינֵי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 829,
+      "sid": "A00828",
+      "lema": "אוקונים",
+      "classe": "Remissão / forma",
+      "glosa_atual": "corrigir a leitura para אִיקֹונִין; ver אִיקֹון.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", read אִיקֹונִין, v. אִיקֹון"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 830,
+      "sid": "A00829",
+      "lema": "אוקטוריא,",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אקט׳; variantes אוקטוריא e אוקטר׳ na referência abreviada.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אקט'"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 831,
+      "sid": "A00830",
+      "lema": "אֹוקִי",
+      "classe": "Verbete lexical",
+      "glosa_atual": "forma equivalente a אֹוקִים, causativo de קוּם; remissão morfológica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "= אֹוקִים, v. קוּם"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 832,
+      "sid": "A00831",
+      "lema": "אוקי",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוקיי; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוקיי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 833,
+      "sid": "A00832",
+      "lema": "*אוּקְיָא",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "onça como unidade de peso, provavelmente equivalente a אוּנְקְיָא; a fonte marca essa identificação como incerta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "= אוּנְקְיָא [?] Ex. R. s. 43, beg.—[ Pl. אוּקְיֵי."
+      ],
+      "notas_originais": [
+        "Ber. 44 b משיתא א' סולתא, Ar. s. v. גלגל I, ‘than six ouncess of fine flour’.—Ed. קייסי; Ms. M. omits the entire sentence.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 834,
+      "sid": "A00833",
+      "lema": "אֹוקְיָאנֹוס",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹוקְיָינוֹס; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹוקְיָינוֹס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 835,
+      "sid": "A00834",
+      "lema": "*אוקיי",
+      "classe": "Remissão / forma",
+      "glosa_atual": "grafia que Jastrow propõe corrigir para אֹוקְיָינֹוס, oceano; em Cântico dos Cânticos Rabá designa a inundação semelhante à maré.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "(Muss. אווקי) Cant. R. to VII, 8, read אֹוקְיָינֹוס. כמין א' inundating like an Ocean tide; v. טלנס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 836,
+      "sid": "A00835",
+      "lema": "אֹוקְיָינֹוס,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "oceano; grande mar, frequentemente o Mediterrâneo; empréstimo do grego Ὠκεανός.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Ὠκέανος) Ocean, mostly Mediterranean Sea."
+      ],
+      "notas_originais": [
+        "Targ. Y. Gen. I, 7; a. e.—Y. Ḥall. IV, 60 a bot.; a. fr.—Tanḥ. Ḥaye 3, and so is א' ים המת the Okeanos called the Sea of (covering) the dead. [Var. אונק', אנק'.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 837,
+      "sid": "A00836",
+      "lema": "אֹוקִים",
+      "classe": "Remissão / forma",
+      "glosa_atual": "forma causativa do verbo aramaico קוּם, levantar ou estabelecer; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Af. of קוּם ch."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 838,
+      "sid": "A00837",
+      "lema": "אֹוקִימוּתָא",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "elevação; ato de levantar-se; surgimento. Jastrow indica uma leitura textual alternativa.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(קום) raising, [ rising]."
+      ],
+      "notas_originais": [
+        "Targ. Ps. CXXXIX, 2 [prob. אֹוקָמוּתָא]."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 839,
+      "sid": "A00838",
+      "lema": "אוקינין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "corrigir a leitura para אִיקֹונִין; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", read אִיקֹונִין."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 840,
+      "sid": "A00839",
+      "lema": "אוּקְצָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver עוּקְצָא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. עוּקְצָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 841,
+      "sid": "A00840",
+      "lema": "אֹור,",
+      "classe": "Verbete lexical",
+      "glosa_atual": "romper ou atravessar; irromper; brilhar; clarear; amanhecer. Na construção causativa, iluminar, fazer brilhar ou tornar claro.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "to perforate, break through, shine.",
+        "to be broken through, grow light.",
+        "(neut. v.) (neut. v.) to break through, shine.",
+        "(act. v.) to enlighten, brighten, make shine."
+      ],
+      "notas_originais": [
+        "—Denom. אַוִּיר, מְאוּרָה &c.",
+        "Y. Ber. I, 2 c משיֵאֹור המזרח from the time the Eastern horizon is broken through, grows light.",
+        "Y. ib. III, 6 c bot. open thy lips ויָאִירוּ דבריך and let thy words come forth, speak out boldly. Yoma III, 1 ה' פני כל וכ' it has grown light all over the Eastern horizon.—פנים מֵאִירֹות bright countenance. Num. R. s. 11; a. e.",
+        "Y. M. Kat. III, 83 b ה' עיניו וכ' (the teacher had opened his (Samuel’s) eyes &c. B. Mets. 33 a. Num. R. l. c. Ib. המזבח מֵאִירִים את (fr. Mal. I, 10) making the altar bright (with fire), feeding the fire on the altar. Yoma 73 b, v. אוּר."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 842,
+      "sid": "A00841",
+      "lema": "אֹור",
+      "classe": "Verbete lexical",
+      "glosa_atual": "brilhar; tornar-se claro; correspondente aramaico de אֹור. O particípio passivo נָאֹור significa claro.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Part. pass. נָאֹור clear. Targ. Prov. IV, 25 נְאֹורָן, נְאֹרָן, v. חֲוַר."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 843,
+      "sid": "A00842",
+      "lema": "אֹור,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "aurora; luz; dia; fogo; figuradamente, esplendor, poder, felicidade ou glória. Também crepúsculo ou anoitecer; há ainda uso homilético para arruda.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "foreg.) breaking forth (cmp. Is. LVIII, 8) whence",
+        "break of day, light, day; fire; trnsf. rise, glory, power, happiness.",
+        "(breaking in of night) twilight, evening.",
+        "(homil. = אֹורָה II) rue."
+      ],
+      "notas_originais": [
+        "Ber. 2 b ביאת אֹורֹו the entrance of his day-break (dawn of his eighth day; Tosaf. a. l. the sunset of his seventh day). Y. Pes. I, beg. 27 a א' החמה sun-light. Ib. א' הנר candle light. Keth. 111 b א' תורה light of the Law. B. Bath. 4 a אֹורֹו של עולם intellectual light of the wold (a great man; the Law). Num. R. s. 15 אור של מעלן the celestial fire (believed to be the source of all light and fire); a. v. fr.",
+        "Pes. I, 1 לארבעה וכ' א' on the evening (eve) of the fourteenth day of Nissan; v. discussion ibid. 2 a sq., about the meaning of our w. R. Hash. 22 b; Snh. 70 b לא' עיבורו the evening following the eventual intercalation, i.e. the evening from the thirtieth of the past to the first of the beginning month.",
+        "Gen. R. s. 20 in the Pentat. of R. M. it read כתנות אור וכ' (in place of עור Gen. III, 21) this alludes to the garments of Adam resembling the rue, wide below and narrow above; Ar. (Rashi diff.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 844,
+      "sid": "A00843",
+      "lema": "אוּר,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "luz; chama. Especialmente no plural אוּרִים, os Urim associados aos Tumim no peitoral do sumo sacerdote.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "foreg.) prop. light, flame; esp. Pl. אוּרִים ותומים the Urim and Tummim in the High-priest’s breast-plate."
+      ],
+      "notas_originais": [
+        "Yoma 73 b א' שמאירים את דבריהם they are called Urim because they give their decisions in a clear way (not ambiguous as the oracles); cmp. Y. ib. VII, end, 44 c. Sot. IX, 12. Y. Kid. IV, beg. 65 b"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 845,
+      "sid": "A00844",
+      "lema": "*אוּר,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "palha miúda; pragana; resíduo de cereal, como a palha de cevada. Homógrafo distinto de luz.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= עוּר q. v.) chaff."
+      ],
+      "notas_originais": [
+        "Y. Ab. Zar. II. 40 d א' דשערין chaff of barley; (Y. Sabb. XIV, 14 d עור דסערין)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 846,
+      "sid": "A00845",
+      "lema": "אוּרָא,",
+      "classe": "Verbete lexical",
+      "glosa_atual": "Urim; forma aramaica e seu plural, referente aos Urim sacerdotais.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", Pl. אוּרַיָּא the Urim."
+      ],
+      "notas_originais": [
+        "Targ. Num. XXVII, 21; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 847,
+      "sid": "A00846",
+      "lema": "*אוּרָא,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "pele; couro. A fonte registra dúvida sobre a leitura manuscrita.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "skin."
+      ],
+      "notas_originais": [
+        "Y. Ned. III beg. 37 d אוּרֵיה (read אוּדְרֵיה?, v. אֵדֶר I); v. however Y. Shebu. III, 34 d"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 848,
+      "sid": "A00847",
+      "lema": "אֹורָאָה",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "ensino; instrução; decisão; determinação.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "teaching, decision."
+      ],
+      "notas_originais": [
+        "Targ. Ez. VII, 26; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 849,
+      "sid": "A00848",
+      "lema": "אוּרְבָּא,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "malhas; espaços entrelaçados; intervalos ou vãos; plural אוּרְבֵּי ou אָרְבֵּי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ארב, ערב to braid, interlace &c.); pl. אוּרְבֵּי, אָרְבֵּי meshes, void spaces, intervals."
+      ],
+      "notas_originais": [
+        "Sabb. 50 b ביני או' ed. (Ar. ארבי, Var. אַרְכֵי, v. אַרְכָא I; אדכי, v. Ar. ed. Koh. S. V. ארכי, note) between the meshes or void spaces between the bricks. Git. 69 b. B. Bath. 3 a (Ms. ירכי, oth. Var. v. Rabb. D. S. a. l. note)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 850,
+      "sid": "A00849",
+      "lema": "אוּרְבִּינָא",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "silva; urtiga ou planta espinhosa semelhante, conforme a identificação genérica da fonte.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ארב, v. foreg., cmp. סבך, סכך) brier, nettle or a similar plant (corresp. to h. סרפד)."
+      ],
+      "notas_originais": [
+        "Targ. II, Esth. II, 7 (Ar. ארבניא)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-801-850.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 851,
+      "sid": "A00850",
+      "lema": "אוּרְבָּנָא",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "juncos; plantas semelhantes a caniços; plural אוּרְבָּנֵי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", pl.אוּרְבָּנֵי m. (v. foreg.; cmp. עֲרָבָה) bulrushes."
+      ],
+      "notas_originais": [
+        "Sabb. 101 a קני ואו' (some ed. ואר') reeds and bulrushes. Snh. 82 b בין קני לא' וכ' what has Sh’vilnai (a woman) to do between the reeds and the bulrushes? (prov. for suspicious movements of women). B. Bath. 6 a, v. צְרִיפָא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 852,
+      "sid": "A00851",
+      "lema": "*אוּרְבָּנִין",
+      "classe": "Substantivo masculino plural",
+      "glosa_atual": "tipo de caniço usado como condimento ou tempero; identificação botânica não precisada.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. foreg.) name of a seasoning reed."
+      ],
+      "notas_originais": [
+        "Erub. 34 b"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 853,
+      "sid": "A00852",
+      "lema": "אורדי",
+      "classe": "Remissão / forma",
+      "glosa_atual": "em Quidushin 12a, Jastrow recomenda ler דאוּדְרֵי ou דאוּדְדֵי; ver אוּדְדָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Kid. 12 a, זוודא דא', read דאוּדְרֵי or דאוּדְדֵי, v. אוּדְדָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 854,
+      "sid": "A00853",
+      "lema": "*אוּרְדַּיָּא",
+      "classe": "Nome próprio",
+      "glosa_atual": "Urdaya ou Rodaya; possível topônimo. Jastrow admite identidade alternativa com o verbete anterior.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", Keth. 67 a שקי דא' (Ms. אדוריא, ed. רֹודַיָּא) prob. pr. n. pl. Urdaya, Rodaya, [or identical with foreg. w.?]."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 855,
+      "sid": "A00854",
+      "lema": "אוּרְדִּילָאֵי",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אַרְדִּילַיָּא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַרְדִּילַיָּא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 856,
+      "sid": "A00855",
+      "lema": "*אוּרְדָּךְ",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "pilão; instrumento de esmagar ou triturar. Jastrow adverte que o versículo targúmico está textualmente corrompido.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= אוּדָּךְ, דוך) crushing tool, pestle."
+      ],
+      "notas_originais": [
+        "Targ. Prov. XXVII, 22 some ed. (oth. אוּדְרָךְ q. v.). [The entire verse is corrupted, combining the traditional vers. with one from which LXX is translated.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 857,
+      "sid": "A00856",
+      "lema": "אוּרְדְּעָה",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "rã; sapo; relacionado à forma hebraica צְפַרְדֵּעַ.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. עוּרְדְּעָן, and its hebr."
+      ],
+      "notas_originais": [
+        "phonet. equival. צְפַרְרֵּעַ) frog. Koh. R. to V, 8. Lev. R. s. 22 (אוּרְדְּעָן fem.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 858,
+      "sid": "A00857",
+      "lema": "אורדען",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְדְּעָה; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. foreg."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 859,
+      "sid": "A00858",
+      "lema": "אוּרְדַּעְנָה",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "enfermidade da língua denominada rana, associada metaforicamente à rã na nomenclatura antiga.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. foreg.) a disease of the tongue, rana ( frog)."
+      ],
+      "notas_originais": [
+        "Y. Sabb. XIV, 14 d top."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 860,
+      "sid": "A00859",
+      "lema": "אֹורָה,",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "luz; claridade; sol; brilho diurno; amanhecer. Homógrafo distinto da palavra para ervas.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h. = אֹור) light, sun."
+      ],
+      "notas_originais": [
+        "Y. Pes. II, 29 a מאיר כא' clear as the sun. Zeb. 19 b, a. e. לא' at daybreak. Gen. R. s. 3 beg.; a. fr.—Chald. Adv. לִכְאֹורָה at first sight, apparently. Keth. 54 a לכא' כשמואל רהיטא apparently it would run (agree) with Samuel, כי מעיינת וכ' but when you consider &c."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 861,
+      "sid": "A00860",
+      "lema": "אֹורָה,",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "ervas, particularmente rúcula ou outra planta do grupo designado na fonte; plural אֹורֹות.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "; pl. אֹורֹות (b. h. אֹרֹת, II Kings IV, 39; prob. fr. אָרָה) herbs, esp. rocket."
+      ],
+      "notas_originais": [
+        "Yoma 18 b, expl. גַּרְגִּיר (etymol. שמאירות וכ'; cmp. Plin. XX, 13 quot. in Löw Aram. Pfl. p. 93). [Gen. R. s. 20 אֹור rue; v. אֹור II, 3.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 862,
+      "sid": "A00861",
+      "lema": "אֹורֶה",
+      "classe": "Remissão / forma",
+      "glosa_atual": "particípio de אָרָה; ver ארי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "part. of אָרָה, v. ארי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 863,
+      "sid": "A00862",
+      "lema": "אורוורין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורְיָיר; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורְיָיר"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 864,
+      "sid": "A00863",
+      "lema": "אוּרְוֹות",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְיָא II e אֻרְוָה; variante lexical.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּרְיָא II a. אֻרְוָה."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 865,
+      "sid": "A00864",
+      "lema": "אוּרְוָותָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְיָא II e אֵדֶר I; variante aramaica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּרְיָא II ch., a. אֵדֶר I."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 866,
+      "sid": "A00865",
+      "lema": "אֹורֹולֹוגִין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורְלֹוגִין; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורְלֹוגִין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 867,
+      "sid": "A00866",
+      "lema": "*אורוסטי",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "vinho aromatizado com rosas; a fonte considera a leitura אורוסטי corrompida e propõe רֹוסָאטוֹן, do grego ῥοσᾶτον e latim rosatum.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", a corrupt., prob. רֹוסָאטוֹן, m. (ῥοσᾶτον, rosatum) vin-aux-roses, rose-wine."
+      ],
+      "notas_originais": [
+        "Y. Shebi. VII, beg. 37 b א' שרי (Mas. איריוסטו) rose-wine is permitted in the Sabbath year."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 868,
+      "sid": "A00867",
+      "lema": "אורורין",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורְיָיר; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורְיָיר"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 869,
+      "sid": "A00868",
+      "lema": "אֹורֶז",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "arroz; cereal designado por forma relacionada ao grego ὄρυζα.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(cmp. ὄρυζα, b. h. r. ארז to be hard) rice."
+      ],
+      "notas_originais": [
+        "Ber. 37 a; a. fr.—Pes. 35 a (opinions as to its classification with ref. to Passover laws). Cmp. אֶרֶז."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 870,
+      "sid": "A00869",
+      "lema": "אוּרְזָא,",
+      "classe": "Verbete lexical",
+      "glosa_atual": "arroz; correspondente aramaico de אֹורֶז; variantes אוּרְזָא, אֲרוּזָא e אֹורִיזָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Targ. Y. Num. XV, 19 אורי'.—Y. Sabb. III, 6 b top אורז'. Pes. 50 b ארו' (Ms. M. אורז; ib. 51 a top ארזא, corr. acc.). Ib. 114 b ארוזא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 871,
+      "sid": "A00870",
+      "lema": "אוּרְזִילָא,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "filhote esguio de animal, sobretudo de gazela ou semelhante; em outra acepção, rede suspensa ou espécie de cama de balanço, com remissão a אַרְזְלָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אזל with anorg.",
+        "a slender young animal, esp. the young of the gazelle or any similar animal (Reëm).",
+        "hammock, v. אַרְזְלָא."
+      ],
+      "notas_originais": [
+        "ר; Syr. עוזילא)",
+        "Targ. Cant. II, 9 א' דאיילא (h. text עֹפֶר). Zeb. 113 b א' דרימא בת יומא (read בר); B. Bath. 73 b (corr. as Zeb. l. c.; v. Rabb. D. S. a. l. note) a young antilope one day old. Num. R. s. 11; Cant. R. to II, 9; Pesik. R. s. 15 א' דאיילתא (עוּרְזִילֵיהוֹן וכ' pl.) young deer.— Pl. אוּרְזִילִין, אֹורְ'; אַרְזִילֵי. Targ. Cant. IV, 5; VII, 4. B. Bath. 74 b ארזילי דימא (Ms. M. אוזילי) sea-gazelles.—[",
+        "]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 872,
+      "sid": "A00871",
+      "lema": "אוּרְזָנַיָּיא,",
+      "classe": "Substantivo masculino plural",
+      "glosa_atual": "preparação culinária de arroz, possivelmente com vinho; Jastrow registra interpretações alternativas: fruto de cedro ou painço.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אורזא) a rice dish (prepared with wine)."
+      ],
+      "notas_originais": [
+        "[Oth. opin. cedar-fruits; millet.] Y. Maas. Sh. II, beg. 53 b. Y. Yoma VIII, 45 a top; Y. Shebu. III, 34 b bot. אורזרייה (corr. acc.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 873,
+      "sid": "A00872",
+      "lema": "אֹורֵחַ,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "viajante; transeunte; particularmente hóspede ou convidado. Eufemismo para menstruação em certos contextos.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "wayfarer, esp. guest."
+      ],
+      "notas_originais": [
+        "Ber. 58 a; a. fr.—Euphem. menstruation. Nid. 16 a (cmp. Gen. XVIII, 11 ora ḥ). Lev. R. s. 4.— Pl. אֹורְחִים, אֹורְחִין.—הכנסת א' the invitation of guests, hospitality. Sabb. 127 a; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 874,
+      "sid": "A00873",
+      "lema": "אֹורַח,",
+      "classe": "Verbete lexical",
+      "glosa_atual": "estrada; caminho; via; trajeto. Em construções figuradas, costume ou modo de proceder.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "c. = h. אֹרַח, road, path, way."
+      ],
+      "notas_originais": [
+        "Targ. Jud. V, 6; a. fr.—א' ארעא (h. דרך ארץ) custom. Ab. Zar. 2 b; a. fr.—א' דמילתא a usual incident. Git. 29 a; a. fr.—אגב אורחך, אגב אורחיה &c. on thy road (his road &c.), i.e. by the way, occasionally, incidentally. Ber. 2 a. Snh. 95 b; a. fr.—Gen. R. s. 100 על א' for the journey (death). Targ. Y. II, Gen. XXXV, 9 ארחא דעלמא the way of the world (death).— P l . אֹורְחָן, אָרְחָן; אָרְחָתָא. Targ. Jud. l. c. Targ. Y. II Gen. XLIX, 17; a. e.—Snh. 109 a יהבית אֹורְחַיָּה לגנבַיָּה (missing in Ms. M., v. Rabb. D. S. a. l. note) thou hast shown the thieves the ways (of stealing).—[אֹורְחָא guest, v. אָרְחָא.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 875,
+      "sid": "A00874",
+      "lema": "אוּרִי",
+      "classe": "Nome próprio",
+      "glosa_atual": "Uri; nome próprio masculino de um amora.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.) Uri, an Amora."
+      ],
+      "notas_originais": [
+        "Y. Ber. II, beg. 4 a ר' חונה ר' א' R. Ḥuna in the name of R. U."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 876,
+      "sid": "A00875",
+      "lema": "אֹורִי",
+      "classe": "Remissão / forma",
+      "glosa_atual": "forma causativa do verbo ירי; remissão morfológica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Af. of ירי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 877,
+      "sid": "A00876",
+      "lema": "אֹורְיָא",
+      "classe": "Verbete lexical",
+      "glosa_atual": "ensinamento; instrução; ver אֹורָיָיא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "teaching, v. אֹורָיָיא."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 878,
+      "sid": "A00877",
+      "lema": "אוּרְיָא,",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "horizonte do poente; pôr do sol; ocidente.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. אֹור a. אוּרְתָּא) evening horizon, Sun-set, West, v. מערבא."
+      ],
+      "notas_originais": [
+        "B. Bath. 25 a אוריה מאי ed. (Ar. אוריא) why is it called Urya? אויר יה (Var. אור) divine air (divine light = Palestine). Kid. 12 b איכא סהדי באוריא הא Ar. (ed. אידית, emend. in Tossaf. אורית), [read with ב\"ח: הא אמרי איכא וכ'] but people say, there are witnesses in the West &c. Cmp. אֶסְתָּן."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 879,
+      "sid": "A00878",
+      "lema": "אוּרְיָא,",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "monte de plantas arrancadas; caule ou palha; abrigo ou galpão para armazenar forragem, distinto do celeiro.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "pile of plucked plants, stalk, shed containing feed (dist. fr. אֹוצָר granary)."
+      ],
+      "notas_originais": [
+        "— Pl. אוּרְיָאֹות, אוּרְיָי' (אוּרְיֹות). Tosef. Maasr. II, 20 ed. Zuck. (Var. אוריות); ib. Erub. VI (V), 4; Erub. 55 b Ar. (ed. אוריות, אורוות, v. Rabb. D. S. a. l. note). [In bibl. h. אֻרְוָה crib, stable q. v.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 880,
+      "sid": "A00879",
+      "lema": "אוּרְיָא,",
+      "classe": "Verbete lexical",
+      "glosa_atual": "manjedoura; estábulo; lugar onde se mantém ou alimenta o cavalo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= b. h. אֻרְוָה) crib; stable."
+      ],
+      "notas_originais": [
+        "Targ. Is. I, 3 (h. text אֵבוּס q. v.).—Snh. 98 b סוסיא באוּרְיֵיה … a horse is placed at his (the ox’s) crib., i.e. Israel is displaced and other nations feed on his soil.—M. Kat. 10 b למבני א' to build a stable (during the festive week). [Targ. II Esth. VI, 10; 11 אוּרַיָּא, read אוּרְיָא stable.]— Pl. אוּרְיָין, אוּרְוָותָא, (אוּרְיָיתָא) אֻרְוָותָא. Targ. II Chr. IX, 25; I Kings V, 6. Targ. II Esth. l. c. (אוּרְיָיתָא prob. sing.); a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 881,
+      "sid": "A00880",
+      "lema": "אֹורְיָא",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "armazém; depósito de provisões e de objetos de diversos tipos; do latim horreum.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(horreum, pl. horrea, ὡρεῖον, ὥριον; v. Sm. Ant. s. v.) store-house, store (of all kinds)."
+      ],
+      "notas_originais": [
+        "Tanḥ. B’resh. 7 וכל א' שלי בתוכה all my stores are in that ship.— Pl. אוּרְיָאַיָּא (ch. form). Targ. I Chr. XXI, 13.—אוּרְיָיאֹות (h. form). Targ. II Chr. XXXII, 28 (h. text מסכנות). V. אֹורְיָיר, אֲהֹורְיָיר."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 882,
+      "sid": "A00881",
+      "lema": "אוּרִיאֵל",
+      "classe": "Nome próprio",
+      "glosa_atual": "Uriel; nome próprio de um anjo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Uriël, name of an angel."
+      ],
+      "notas_originais": [
+        "Targ. Y. Deut. XXXIV, 6.—Num. R. s. 2."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 883,
+      "sid": "A00882",
+      "lema": "אֹורְיָאן",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורְיָין I; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורְיָין I"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 884,
+      "sid": "A00883",
+      "lema": "אוּרְיָה,",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְיָא, nas acepções I e II; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּרְיָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 885,
+      "sid": "A00884",
+      "lema": "אֹורְיָה",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורָיָיא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורָיָיא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 886,
+      "sid": "A00885",
+      "lema": "אֹורְיֹון",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורְיָין II; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורְיָין II"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 887,
+      "sid": "A00886",
+      "lema": "אֹורִיזָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְזָא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּרְזָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 888,
+      "sid": "A00887",
+      "lema": "אוּרְיָיא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְיָא II em hebraico e aramaico; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּרְיָא II h. a. ch."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 889,
+      "sid": "A00888",
+      "lema": "אֹורָיָיא,",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "instrução; ensinamento; Lei; versículo bíblico; Torá e rolo do Pentateuco utilizado na leitura pública.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ירי, Af. אֹורִי = h. תֹּורָה)",
+        "instruction, the Law, Bible-verse.",
+        "the Torah, the scroll containing the Pentateuch, used at divine service."
+      ],
+      "notas_originais": [
+        "Targ. Lev. VI, 7; a. fr.—מילה דא' (= דברי תורה) religious discourse, lesson, remarks &c. Y. B. Bath. VIII, 16 a אורייא; Y. Taan. III, 66 c bot. ייתא …—Y. Snh. I, 18 c אפלגינון במילי דא' he entertained them with religious discussions. Y. Hor. III, beg. 47 a עתיד לך מילה דא' be prepared for a religious discourse. Y. Shek. III, 47 c top מאי א' חדתא שמעת what novel interpretation hast thou heard? Y. Yeb. II, 4 a top מן הדא אורייה from what verse?—Taan. 4 a ליה א' … מרתח' it is the zeal of study that makes him warm (excited). Kid. 71 b אורייתין כשר' my instruction is acceptable, but my daughters are not desired. Sabb. 116 b א' דמשה the Mosaic dispensation (opp. א' אחריתי the new dispensation, v. אָוֶון).—דְּאֹורַיְיתָא (sub. הלכה = h. התורה מן) an enactment founded on the Bible text, opp. דרבנן. Succ. 44 a לולב דא' Lulab, the law concerning which is Biblical &c.; a. fr.—מִדְּאֹורַיְיתָא, adv. biblically, according to the Biblical law, opp. מדרבנן. Pes. 10 a; a. fr.",
+        "Y. Yoma VII, 44 b top כד היא חדא אוריא when you have no more than one scroll. Y. Meg. IV, 75 b bot.; Y. Sot. VII, end, 22 a כד חזרא אורייה (corr. as Y. Yoma l. c.). Ib. תא וכ'—תמן מייבלין א there (in Babylon) the Torah is carried to the Resh Galutha.—בר אוריא a scholar, man of learning. Yoma 78 a. Ḥag. 14 a אריא (corr. acc.); v. next w."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 890,
+      "sid": "A00889",
+      "lema": "אֹורְיָין,",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "Lei; estudo da Lei; erudição; autoridade de ensinar e julgar; também cargo ou ofício. Não confundir com o homógrafo antroponímico.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "same; 1) the Law.",
+        "the Law. Sabb. 31 b.",
+        "scholarship, authority to teach and judge.",
+        "* authority, office."
+      ],
+      "notas_originais": [
+        "m. same;",
+        "Ib. 88 a א' תליתאי the threefold law (Pentat., Proph., Hagiogr.).",
+        "Ber. 12 a בר אוריאן ed. (Ms. M. אוריא); v. foreg. w.—[",
+        "Gen. R. s. 50 בית אוריין ed. (Ar. מיתורין, Lev. R. s. 26 מתורין) place of office. V. מִיתֹורְיִין.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 891,
+      "sid": "A00890",
+      "lema": "אֹורְיָין,",
+      "classe": "Nome próprio",
+      "glosa_atual": "Oryan ou Oryon; nome próprio masculino, registrado em tradições rabínicas.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. foreg.) pr. n. m. Oryan, Oryon."
+      ],
+      "notas_originais": [
+        "Esth. R. beg. אבא א', Abba O. (cmp. אַבָּא). Y. Sabb. X, 12 d top יצחק בר אוריון."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 892,
+      "sid": "A00891",
+      "lema": "*אוּרְיָינִי",
+      "classe": "Substantivo feminino",
+      "glosa_atual": "cadeira de autoridade ou do mestre; assento elevado do professor.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. foreg. ws.) officer’s or teacher’s chair."
+      ],
+      "notas_originais": [
+        "M. Kat. 21 b; 27 a א' גדולה Ms. M. (v. Rabb. D. S. a. l.; ed. אוד') a high (teacher’s) chair. V. אוּדְיָינִי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 893,
+      "sid": "A00892",
+      "lema": "אֹורְיָיר",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "encarregado de armazém; depositário; também guardador de roupas, em emprego específico; do latim horrearius.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(horrearius, ὡρειάριος, v. אֹורְיָא, אֲהֹורְיָיר) store-keeper, used in the sense of אֹולְיָיר."
+      ],
+      "notas_originais": [
+        "Y. B. Bath. IV, beg. 14 c מקום הא' (Tosef. ibid. III, 3 בית האוליירין) the clothes-keeper’s room.— Pl. אֹורְיָירִין. Y. l. c. אורורין, אורוו' (corr. acc.) Toh. VIII, 7 אודיארין (corr. acc.; Tosef. ib. VII, 8 אוליארין)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 894,
+      "sid": "A00893",
+      "lema": "אוּרְיָירָא",
+      "classe": "Verbete lexical",
+      "glosa_atual": "encarregado do tesouro ou armazém; correspondente aramaico de אֹורְיָיר.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "— Pl. אוּרְיָירַיָּא. Targ. I Chr. XXVII, 25; XXVI, 22 (ed. Rahm. אורייד', corr. acc.; Var. אוּרְיָרַיָּא, h. text על אוצרות)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 895,
+      "sid": "A00894",
+      "lema": "אֹורַיְיתָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורָיָיא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורָיָיא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 896,
+      "sid": "A00895",
+      "lema": "אוּרִית",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אוּרְיָא I; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּרְיָא I"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 897,
+      "sid": "A00896",
+      "lema": "אֹורַיְתָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורָיָיא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורָיָיא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 898,
+      "sid": "A00897",
+      "lema": "אוריכות",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אַרְכַּת; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַרְכַּת"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 899,
+      "sid": "A00898",
+      "lema": "אֹורִיכוּתָא",
+      "classe": "Remissão / forma",
+      "glosa_atual": "ver אֹורָכוּתָא; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֹורָכוּתָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 900,
+      "sid": "A00899",
+      "lema": "אֹורֶךְ",
+      "classe": "Substantivo masculino",
+      "glosa_atual": "comprimento; extensão; prolixidade, especialmente de discurso.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "length, lengthiness."
+      ],
+      "notas_originais": [
+        "Midr. Sam. ch. XIII, וכל הא' הזה למה and why all this lengthiness (of speech)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0005.json",
+      "modulo_publicado": "lexicons/jastrow-851-900.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    }
+  ]
+}

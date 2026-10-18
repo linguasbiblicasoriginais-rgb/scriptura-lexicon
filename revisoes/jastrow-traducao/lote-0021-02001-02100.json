@@ -1,0 +1,1984 @@
+{
+  "lote": 21,
+  "inicio": 2001,
+  "fim": 2100,
+  "quantidades": {
+    "verbetes": 100,
+    "nao_avaliados_individualmente": 100,
+    "problemas_comprovados": 0
+  },
+  "problemas_comprovados_acumulados": 0,
+  "status": "triagem inicial, revisao linguistica individual pendente",
+  "verbetes": [
+    {
+      "ordinal": 2001,
+      "sid": "A02000",
+      "lema": "אָמוֹן,",
+      "classe": "pr. n. pl.",
+      "glosa_atual": "No-Amom; Tebas do Egito; topônimo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h. נוא א') No-Amon (Thebes) in Egypt."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 1 (= Alexandria, the metropolis).—[",
+        "A., near Tyre. Y. Dem. II, 22 d top; Tosef. Shebi. IV, 9 עמק.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2002,
+      "sid": "A02001",
+      "lema": "אֱמוּנָה",
+      "classe": "f.",
+      "glosa_atual": "firmeza; fé; honestidade; confiança; garantia.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "firmness, faith, honesty, surety."
+      ],
+      "notas_originais": [
+        "B. Bath. X, 8, a. e. לא על אֱמוּנָתֹו הלוהו at the time he extended the loan, he did so not because he was relying on his (the friend’s) surety. Ib. שכן על א' וכ' for in this case he did &c. Ab. Zar. 55 a אנו נאבד את אֱמוּנָתֵנוּ shall we abandon our honesty? Ḥull. 133 b אין א' בכותים Samaritans are (usually) not trusted. Tam. 28 a א' יתירה scrupulous honesty. V. אֲמָנָה."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2003,
+      "sid": "A02002",
+      "lema": "*כְּפַר א' אָמוּס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִכּוּם; remissão a Kefar Amos.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", Y. Sot. VII, 21 c bot., v. אִכּוּם"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2004,
+      "sid": "A02003",
+      "lema": "אֲמֹורָא",
+      "classe": "m.",
+      "glosa_atual": "orador; intérprete; expositor; amora, mestre da tradição rabínica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אמר)",
+        "speaker, lecturer, interpreter; esp. Amora, one who, in lengthy popular discourses, expounds what the lecturer (Tanna, v. תַּנָּא) says before him in brief and in a low voice; often called מְתוּרְגְּמָן.",
+        "in a particular sense אֲמֹורָא, Amora ( Amoraïm), that class of Talmudic authorities who lived after the final redaction of the Mishnah, and whose discussions on the opinions of the Tannaïm or authors of the Mishnah and Boraitha, are deposited in the Guemara, thus adding a second element to the development of the oral law, called Talmud."
+      ],
+      "notas_originais": [
+        "Ex. R. s. 8, end כשם שהדורש … והא' וכ' as the lecturer sits … and the Amora speaks in his presence.—Snh. 7 b קום עליה בא' stand by him as an expounder. Taan. 8 a, a. fr. אוקים … א' עליה ודרש S. … placed an Amora by his side and lectured. Sot. 40 a ואמר אֲמֹורֵיה חד טעמא and his Amora gave a different reason. Ḥull. 15 a do people listen to the Tanna? לא' צייתי they listen to the Amora.",
+        "— Pl. אֲמֹורִין. Y. Ber. I, 2 c top, a. e. תרי א' two Amoraïm differ, for which Babli usually: … אֲמֹורָאֵי נינהו ואליבא two Amoras differ in their relation (or conception) of the opinion of … Shebu. 40 b; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2005,
+      "sid": "A02004",
+      "lema": "אֲמֹורָאָה",
+      "classe": "m.",
+      "glosa_atual": "professor; mestre; equivalente de אֲמֹורָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= preced.) teacher."
+      ],
+      "notas_originais": [
+        "Targ. Job III, 17.— Pl. אֲמֹורָאִין. Targ. Y. I, Num. XXI, 29."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2006,
+      "sid": "A02005",
+      "lema": "אֱמֹורָאָה",
+      "classe": "Vocábulo",
+      "glosa_atual": "amorreu; povo da Antiguidade.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= h. אֱמֹורִי) Emorite."
+      ],
+      "notas_originais": [
+        "Targ. Gen. XV, 16; a. fr.—Keth. 112 a בר א'.— Pl. אֱמֹורָאֵי. Targ. Ex. III, 8; a. fr.—פרק א' the chapter treating of idolatrous practices (v. אֱמֹורִי). Sabb. 67 a, (v. Tosef. Sabb. ch. VII, sq.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2007,
+      "sid": "A02006",
+      "lema": "אמוראי,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲמֹודַאי; remissão.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אמודאי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2008,
+      "sid": "A02007",
+      "lema": "אֱמֹורִי",
+      "classe": "m.",
+      "glosa_atual": "amorreu; pertencente ao povo amorreu.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.) Emorite; Emorean."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 41 none among the nations are קשה מא' more obstinate than the Em.—Trnsf. Emorean, superstitious, heathen-like. דרכי הא' superstitious practices. Sabb. 67 a, a. fr. אין בו משום דרכי הא' is not to be looked upon (not forbidden) as an imitation of &c.; יש בו משום דרכי הא' it is forbidden because it has the appearance of superstitious practices."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2009,
+      "sid": "A02008",
+      "lema": "*אֲמוּרְיָא",
+      "classe": "m.",
+      "glosa_atual": "troca; permuta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(מור, ימר) exchange."
+      ],
+      "notas_originais": [
+        "Esth. R. to I, 1 b, בני אֲמוּרְיֵיה his hostages; v. אוּכַּיְיפָא for corr. vers."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2010,
+      "sid": "A02009",
+      "lema": "אֲמוּרִים",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֵימוּרִים.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֵימוּרִים"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2011,
+      "sid": "A02010",
+      "lema": "אַמְטוּ",
+      "classe": "Vocábulo",
+      "glosa_atual": "por causa de; em benefício de.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(abbrev. of next w.) on account of, for the sake of."
+      ],
+      "notas_originais": [
+        "Ber. 56 a bot. א' זוזא וכ' for the sake of thy zuz (which has been refused, v. Ms. M. in Rabb. D. S. a. l.) shall the wardrobe of the king go to ruin? Lev. R. s. 27 א' בעירא כ' for the sake of the tender cattle.—א' הכי, א' להכי therefore. Naz. 25 a. B. Kam. 71 ab (Ms. H. הכי אמטול); a. fr. V. אָטוּ."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2012,
+      "sid": "A02011",
+      "lema": "אַמְטוּל",
+      "classe": "Vocábulo",
+      "glosa_atual": "por causa de; por amor de; em favor de; para proteger.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= על מטול; טול, טלל) for the protection of, whence (= h. בְּעַד, בִּגְלַל) for the sake of, on account of &c. Targ. Y. Lev. IX, 7; a. fr. V. מְטוּל and preced. w."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2013,
+      "sid": "A02012",
+      "lema": "אַמְטוּלָתָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "por sua causa; em favor de alguém; ao redor em proteção.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "= preced., only with suffix of personal pronoun. Targ. Y. Lev. IX, 7 לָתָךְ … = h. בעדך. Targ. Job I, 10 לְתֵּיה … around him (protecting him). Targ. Ps. VII, 8 אַמְטֻלְתָּהָא for her sake; a. e.—Keth. 67 b אַמְטוּלְתֵּיה for his sake."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2014,
+      "sid": "A02013",
+      "lema": "אמטי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַמְטוּ.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַמְטוּ"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2015,
+      "sid": "A02014",
+      "lema": "אַמְטִיתָא",
+      "classe": "f.",
+      "glosa_atual": "balança; instrumento de pesar.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(מוט Af.) balances, scales."
+      ],
+      "notas_originais": [
+        "Pesik. B’shall. p. 82 a; v. אַכְרַעְתָּא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2016,
+      "sid": "A02015",
+      "lema": "אַמְטֻל,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַמְטוּל.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַמְטוּל'"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2017,
+      "sid": "A02016",
+      "lema": "אַמִּטְּתָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲמִיטְתָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֲמִיטְתָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2018,
+      "sid": "A02017",
+      "lema": "אֲמִי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲמָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֲמָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2019,
+      "sid": "A02018",
+      "lema": "אָמֵיט",
+      "classe": "Vocábulo",
+      "glosa_atual": "forma causativa de מוּט.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", Af. of מוּט."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2020,
+      "sid": "A02019",
+      "lema": "אמיטון",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַמְיַינְטֹון.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַמְיַינְטֹון"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2021,
+      "sid": "A02020",
+      "lema": "אמיטליא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver הֵמְטַלְיָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Tosef. Maasr. III, 6 ed. Zuck., v. הֵמְטַלְיָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2022,
+      "sid": "A02021",
+      "lema": "אֲמִיטְתָא,",
+      "classe": "f.",
+      "glosa_atual": "escuridão; névoa espessa; nuvem densa.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אמט, עמט; √אם, עם, v. אָמַם; cmp. חוּמְטָא I) darkness, dense cloud, mist."
+      ],
+      "notas_originais": [
+        "Targ. Deut. IV, 11. Targ. II Chr. VI, 1, ed. Beck. עמ'; a. e.—Gen. R. s. 44 (transl. עֲלָטָה)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2023,
+      "sid": "A02022",
+      "lema": "אַמְיַינְטֹון,",
+      "classe": "m.",
+      "glosa_atual": "amianto; asbesto, fibra mineral resistente ao fogo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἀμίαντος, ἀμίαντον) amiant, a variety of asbestos from which the reputed asbestos linen was spun, which was cleansed by being thrown into the fire."
+      ],
+      "notas_originais": [
+        "Cant. R. to IV, 11; Pesik. B’shall. p. 92 a. [Deut. R. s. 7, end אסיטון; Midr. Till. to Ps. XXIII, 2 הסיטון; Yalk. Deut. 850 אמיטון; corr. acc.]—Deriv. המיינטון, read הַמְּיַינְטֵן he who cleanses the amiant. Y. Sabb. VII, 10 c top."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2024,
+      "sid": "A02023",
+      "lema": "אֲמִילְתָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver מִילְתָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Snh. 44 a Ar., v. מִילְתָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2025,
+      "sid": "A02024",
+      "lema": "אַמְיַנְטֹון",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַמְיַינְטֹון.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַמְיַינְטֹון"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2026,
+      "sid": "A02025",
+      "lema": "אָמִיר,",
+      "classe": "Vocábulo",
+      "glosa_atual": "dito; proclamado; ordenado.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(part. pass. of אֲמַר) told, proclaimed, commanded."
+      ],
+      "notas_originais": [
+        "Targ. Mic. V, 1. Targ. Mal. I, 6; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2027,
+      "sid": "A02026",
+      "lema": "אֲמִירָה,",
+      "classe": "f.",
+      "glosa_atual": "fala; declaração; palavra; dedicação.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אמר I)",
+        "speaking, speech.",
+        "the word amar (אמר) in the Scripture text.",
+        "dedication (cmp. אֵימוּרִים."
+      ],
+      "notas_originais": [
+        "Gen. R. s. 5, beg. לא א' לא דיבור no (power of) speech or word; a. fr.—הא א' this is speech, i.e. this is right. Y. Snh. IV, 22 b top; VI, beg. 23 b. Y. B. Kam. IX, beg. 6 d (contracted) הא' same.",
+        "Y. Snh. VII, 25 b bot. נאמר כאן א' וכ' here amar is used &c.; as well as amar here indicates that the word is considered a deed &c.; a. e.",
+        "Kidd. I, 6 אֲמִירָתֹו לגבוה וכ' dedication to the Lord (by word of mouth) is equal to what delivery is in private transactions.— Pl. אֲמִירֹות mostly in the sense of 2). Num. R. s. 14, end א' וציוויים texts in which amar and tsivvah occur; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2028,
+      "sid": "A02027",
+      "lema": "אֲמִירָה,",
+      "classe": "f.",
+      "glosa_atual": "proclamação; distinção; ornamento.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. preced. 3); cmp. Ps. IV, 5; XCVI, 10; Is. III, 10)",
+        "proclamation, receiving homage.",
+        "distinction, ornament."
+      ],
+      "notas_originais": [
+        "Ex. R. s. 29 when a human king יוצא לא' וכ' comes forth for a reception of homage, he comes forth singly (not with his army).",
+        "Yalk. Ex. 244, v. אִימְּרָה."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2029,
+      "sid": "A02028",
+      "lema": "אַמִּיתָא,",
+      "classe": "f.",
+      "glosa_atual": "ammi; planta conhecida como erva-do-bispo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אמם, חמם) ammi, Bishop’s weed (v. Löw Pflzn. p. 260; Rashi = מינתא mint)."
+      ],
+      "notas_originais": [
+        "Tosef. Sabb. XIV (XV), 13 א' (Var. ח'). Sabb. 128 a; 140 a, v. נִינְיָא. Tosef. Kil. III, 12, Var. (ed. Zuck. חמיטא)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2030,
+      "sid": "A02029",
+      "lema": "אֲמִיתּ־",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֱמֶת.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֱמֶת"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2031,
+      "sid": "A02030",
+      "lema": "אֲמִיתִּי",
+      "classe": "m.",
+      "glosa_atual": "verdadeiro; veraz; fiel à verdade.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(אמת) true, truthful."
+      ],
+      "notas_originais": [
+        "Y. Ber. VII, 11 c. Gen. R. s. 70 do ye not admit יעקב א' that Jacob was truthful? Ib. s. 78. [In later Hebrew: real.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2032,
+      "sid": "A02031",
+      "lema": "אֲמַךְ",
+      "classe": "Vocábulo",
+      "glosa_atual": "forma causativa de מוּךְ ou מְכָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Af. of מוּךְ or מְכָא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2033,
+      "sid": "A02032",
+      "lema": "*אמכותי",
+      "classe": "Vocábulo",
+      "glosa_atual": "leitura conjectural de passagem sobre morder ou picar.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Koh. R. to VI, 1 או חד א' וכ' prob. to be read או חד מַכִּיתֵיה או חד מעקיציה וכ' either one bites him (v. נְכַת) or one stings him—what benefit has he (the keeper of the obnoxious beasts) of them?"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2034,
+      "sid": "A02033",
+      "lema": "אמלוגין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֵילֹוגִין.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֵילֹוגִין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2035,
+      "sid": "A02034",
+      "lema": "אֻמְלָל",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אוּמְלָל.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אוּמְלָל"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2036,
+      "sid": "A02035",
+      "lema": "אֲמַלְתָּא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver הִימַלְתָּא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. הִימַלְתָּא,"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2037,
+      "sid": "A02036",
+      "lema": "אֲמַלְתְּרָא,",
+      "classe": "f.",
+      "glosa_atual": "viga mestra do teto; cornija; viga saliente.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(μέλαθρον) main-beam of the ceiling, ceiling; beam projecting outside the house, cornice."
+      ],
+      "notas_originais": [
+        "Erub. 3 a (differ. opinions as to the meaning of our w.).— Pl. אֲמַלְתְּרָאֹות, מַלְתְּרָאֹות. Erub. l. c. א'. Midd. III, 7 מ'."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2038,
+      "sid": "A02037",
+      "lema": "אָמַם,",
+      "classe": "Vocábulo",
+      "glosa_atual": "escurecer; perder brilho; tornar-se opaco.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "to grow dim, (in b. h. also to obscure, excel; v. infra)."
+      ],
+      "notas_originais": [
+        "Sabb. 77 b; Ber. 53 b; Pes. 75 b גחלים אֹומְמֹות (or עֹומְמֹות) dying coals (question as to spelling decided in favor of ע by reference to Ezek. XXXI, 8 ‘the cedars did not obscure him, i.e. excel his beauty)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2039,
+      "sid": "A02038",
+      "lema": "אָמַן",
+      "classe": "Vocábulo",
+      "glosa_atual": "ordenar em fileiras; adestrar; tornar hábil.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", v. אֵם; cmp. אַמָּה) to arrange in lines, array.",
+        "to make skilful, to train."
+      ],
+      "notas_originais": [
+        "Ukts. II, 5 nuts שאֲמָנָן which one arranged (Var. Ar. שחמרן which one piled).—Denom. אוּמָן expert, skilful, whence",
+        "Sabb. 103 a מְאַמֵּן את ידו he trains his hand (practicing). V. next w."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2040,
+      "sid": "A02039",
+      "lema": "אָמֵן,",
+      "classe": "m.",
+      "glosa_atual": "ser firme; durar; sustentar; ser confiável; confirmar.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(√אם, v. אֵם; cmp. preced.) to be strong, enduring; (act. v. אָמַן to support, v. II Kings XVIII, 16 אֹמְנֹות).",
+        "(b. h.)",
+        "part. נֶאֱמָן m., נֶאֱמָנֶת f. approved, trustworthy, reliable.",
+        "to be confirmed.",
+        "(b. h.) to declare trustworthy, to trust, believe in."
+      ],
+      "notas_originais": [
+        "— Pi. אִימֵּן, אִמֵּן to support; trnsf. to confirm, verify, approve. Tosef. Ter. I, 4 it is not the minor that made it T’rumah אלא אביו שאִימֵּן אחריו Var. (ed. Zuck. שאומן) but his father who confirmed his act (= ib. קיים על יד); Y. ib. 40 b א' על ידו. Ib. c top מְאַמֵּין.",
+        "Peah VIII, 2 נֶאֱמָנִים על וכ' (the poor) may be relied upon concerning garnered fruit &c., i.e. if they declare the fruits to be the poor man’s share, they are exempt from tithes. Keth. I, 6 נאמנת her statement is acted upon as true. Ab. Zar. 16 b נ' עלי הדיין my judge is a reliable witness concerning me, i.e. I appeal to thy own judgment that I could not have engaged in such follies.—Dem. II, 2 if one resolves להיות נ' to be one of the reliable (conscientious in giving tithes); a. fr.",
+        "Y. Sot. II, 18 b top אמן יֵאָמְנוּ הדברים Amen means, May the words (of the oath) be fulfilled.",
+        "Dem. VII, 1 והוא אינו מַאֲמִינֹו but he (the invited guest) trusts him not in tithe affairs. Ib. 3; a. fr.—Ab. Zar. 16 b הואיל וְהֶאֱמַנְתַּנִי עליך ed. Pes., En Yak. (v. Rabb. D. S. a. l. note; ed. הָאֳמַנְתִּי Hof.; since thou didst declare me a reliable witness unto thyself (appealing to my judgment), v. supra; [Ms. M. האמנת עלי thou reliedst on me]. Ch., v. הֵימַן."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2041,
+      "sid": "A02040",
+      "lema": "אָמֵן,",
+      "classe": "m.",
+      "glosa_atual": "amém!; assim seja!; verdadeiro; resposta de ratificação.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "v. preced.) firm, straight, whence",
+        "Amen!, true! so may it be! Shebu. 36 a א' בו שבועה וכ' in Amen is implied an oath, a promise, and a prayer for fulfillment.",
+        "fem., the response Amen."
+      ],
+      "notas_originais": [
+        "Ab. Zar. 65 a; a. fr.",
+        "Ber. 47 a א' חטופה an Amen hastily pronounced ( ’men); א' קטופה an Amen cut short ( ame-); א' יתומה an orphan Amen, the responder not having heard the benediction to which the Amen refers; Tosef. Meg. IV (III), 27."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2042,
+      "sid": "A02041",
+      "lema": "אֲמָנָה",
+      "classe": "f.",
+      "glosa_atual": "fé; confiança; confiança na providência.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "v. preced.)",
+        "faith, trust.",
+        "faith in Providence."
+      ],
+      "notas_originais": [
+        "B. Bath. 48 b; Keth. 19 b if witnesses say א' היו דברינו our statement (over our signatures as to having seen the loan handed over) was a matter of trust (that the negotiation would be consummated afterwards). Ib. שטר א' a bill of indebtedness signed on trust (that the loan would be consummated subsequently). B. Mets. 63 a א' בפירות advanced payment at present prices for future delivery; א' בדמים with the option of paying the difference. Gen. R. s. 100 end, שמר א' to deal in good faith with. Tosef. B. Bath. V, 8 אֲמָנַת המדות honesty in measures. B. Mets. 49 a מחוסרי א' (the way of) those lacking honesty (unfair dealing); Bekh. 13 b מחוסר א'; a. fr.",
+        "Mekh. B’shall. s. 6, v. הַאֲמָנָה. Sot. 48 b אנשי א' men of faith, trusting in God; ib. קטני א' wanting in faith; Gen. R. s. 32 מחוסר א' same; a. fr. Cmp. אֱמוּנָה, הַאֲמָנָה."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2043,
+      "sid": "A02042",
+      "lema": "אֲמָנָה,",
+      "classe": "pr. n.",
+      "glosa_atual": "Amaná; rio de Damasco; também cadeia montanhosa Amano.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.) Amanah, Abanah (Banas), a river crossing the city of Damascus.",
+        "אֲמָנָה, (אמנם) אֲמָנֹוס, אֲמָנֹון Amanah, hellenized Amanos, Amanon &c. (Banias), a mountain range forming the northern limits of the Holy Land."
+      ],
+      "notas_originais": [
+        "(Banas), a river crossing the city of Damascus. Targ. II Kings V, 12.",
+        "Tosef. Ter. II, 12 אמנוס (Var. אמנון, סמנון). Ib. Ḥall. II, 11 אמנוס (Var. אמנון). Git. 8 a ון … (Ar. אמנים, סמנים); Y. Ḥall. IV, 60 a bot. אמנם (ref. to אמנה Cant. IV, 8). Shebi. VI, 1; Ḥall. IV, 8 (Ms. M. ם …); Ex. R. s. 23. V. טַוְורֹוס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2044,
+      "sid": "A02043",
+      "lema": "אֲמָנֹון,",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲמָנָה, topônimo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. preced."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2045,
+      "sid": "A02044",
+      "lema": "אמנותא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אוּמְנוּתָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Y. Keth. IV, 28 d top, v. אוּמְנוּתָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2046,
+      "sid": "A02045",
+      "lema": "אמנם",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲמָנָה II.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֲמָנָה II"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2047,
+      "sid": "A02046",
+      "lema": "אמפוטמא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אמפומטא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אמפומטא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2048,
+      "sid": "A02047",
+      "lema": "אַמְפֹּולַי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֲמַפְּלַי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֲמַפְּלַי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2049,
+      "sid": "A02048",
+      "lema": "*אמפומטא,",
+      "classe": "Vocábulo",
+      "glosa_atual": "leitura corrompida de אִסְטְרֹופֹומָטָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Pesik. B’shall. p. 86 b, Yalk. Sam. 152, corrupt. of אִסְטְרֹופֹומָטָא, or אִסְטְרֹופֹוטָא q. v."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2050,
+      "sid": "A02049",
+      "lema": "*אמפומיות,",
+      "classe": "Vocábulo",
+      "glosa_atual": "entrada de leitura incerta em texto midráshico; conservar original.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", Pirké d’Rabbi Eliez."
+      ],
+      "notas_originais": [
+        "ch. XLII חלונות א' Ar. (in ed. our w. omitted); read אֹופְסְיָינִיֹּות (denom. of אָפְסְיָין q. v.) glass-windows"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2051,
+      "sid": "A02050",
+      "lema": "אמפורטור",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִמְפְּרָטֹור.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִמְפְּרָטֹור"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2052,
+      "sid": "A02051",
+      "lema": "*אַמְפּוּרִין,",
+      "classe": "m. pl.",
+      "glosa_atual": "mercadores; comerciantes viajantes.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(ἔμποροι) travelers, traders."
+      ],
+      "notas_originais": [
+        "Targ. Y. I Gen. XXV, 3 (a gloss to preceding תגרין; Targ. Y. II inserts אומנין for לְטוּשִׁם; h. text אַשּׁוּרִים). Ib. XLVI, 23 (h. text חשים). [Gen. R. s. 61, quoting Targ. Gen. XXV, 3, reads לופרין!]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2053,
+      "sid": "A02052",
+      "lema": "אִמְפִּילְיָא,",
+      "classe": "f.",
+      "glosa_atual": "sapatos de feltro; meias; calçados.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(pl. of ἐμπίλιον, impilia) (pair of) felt-shoes, in gen. shoes, socks."
+      ],
+      "notas_originais": [
+        "Kel. XXVII, 6. Yeb. XII, 1. Ib. 102 b א' של בגד cloth-shoes; א' של עור leather-covered shoes; a. fr.— Pl. אִנְפִּילָאֹות, אִנְפִּלָ', אִמְפִּילָיֹות, אִנְפִּילִין pairs of &c. Sabb. 120 a; Y. ib. XVI, 15 d שתי א' two pairs &c. Gen. R. s. 61. Yeb. 102 b"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2054,
+      "sid": "A02053",
+      "lema": "אַמְפְּלַי,",
+      "classe": "f.",
+      "glosa_atual": "cofre de comerciante com fenda para depositar dinheiro.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(נָפַל; cmp. אוּנְקְלַי as to form) the merchant’s money-chest into which receipts are dropped through a slit."
+      ],
+      "notas_originais": [
+        "Shebu. VII, 6 (45 a) אמפלי Mish. Nap. (Ar. אמפו', ed. אונ'; Y. אנ'; v. Rabb. D. S. a. l. note 10). Tosef. Maas. Sh. IV, 11 ed. Zuck. אינפו' (ed. אונקלי, אונקולין). Ib. Shebu. VI, 4 אונכלי ed. Zuck. (corr. acc.; oth. ed. אוּנְפְּלָא). Cmp. אוּנְפִּיל."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2055,
+      "sid": "A02054",
+      "lema": "אִמְפְּרָטֹור",
+      "classe": "m.",
+      "glosa_atual": "imperador romano; comandante.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(imperator) commander, Roman Emperor."
+      ],
+      "notas_originais": [
+        "Lam. R. to I, 5 ביבי דומיני א' Ar. (ed. וביבא מארי אפלטור, v. בִיבֵי) be saluted, my lord, the Emperor. Tanḥ. Mikkets, 9 אמפורטור, אומפירטור (corr. acc.)"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2056,
+      "sid": "A02055",
+      "lema": "אָמַץ",
+      "classe": "Vocábulo",
+      "glosa_atual": "comprimir; endurecer; fortalecer; fechar; tornar impermeável.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "to press, harden.",
+        "to make strong, to strengthen.",
+        "to press, close; to make impervious.",
+        "to be closed."
+      ],
+      "notas_originais": [
+        "אֹומְצֵי הלב hard-hearted. Tosef. Sot. XIV, 7; v. infra.",
+        "Y. Taan. III, 66 d all shall be מְאַמְּצִין כחך strengthening thy power (assist thee). Snh. 44 b מאמץ עצמו וכ' who concentrates his energies for prayer.",
+        "Sot. 47 b מאַמְּצֵי הלב those who close their hearts, the hard-hearted; v. supra. [Sabb. XXIII, 5 מאמצין את המת Y. ed. (Mish. מעמ', Bab. 151 b מעצמין, Ms. M. מעמ') to close the eyes of a deceased person. Tosef. ib. XVII (XVIII), 19 לעַמֵּץ ed. Zuck. (Var. לאַמֵּץ). Sabb. 77 b מעמצין או מאמצין וכ' is m’amm’tsin (l. c.) spelt with ע or with א? Answer by ref. to עוצם Is. XXXIII, 15(!).] V. אוּמְצָא.",
+        "Tosef. l. c. מִתְאַמְּצֹות מאיליהן they will be closed of themselves."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2057,
+      "sid": "A02056",
+      "lema": "אֶמְצַע",
+      "classe": "m.",
+      "glosa_atual": "meio; posição central; entre extremos.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. מְצַע; √מץ; cmp. b. h. תָּוֶךְ, תֹּךְ, תְּכָכִים) [ lying in a press], whence—בא' in the centre, between two extremes."
+      ],
+      "notas_originais": [
+        "Y. Ḥag. II, 77 a bot. יהלך בא' he must walk between the extremes. B. Mets. 70 b יד הנכרי בא'; Y. Ab. Zar. I, 40 a top אצבע הגוי בא' the hand [finger] of the gentile is between, i.e. he has a share in it; a. fr.—2) common fund, estate. B. Bath. X, 7 השכר לא' the profit belongs to the common fund. Ib. IX, 3 השביחו לא' they improved for the common fund, i.e. the profit must be equally divided. Ib. 144 b מן הא' from the estate; a. fr. Cmp. מְצַע, מִיסְוָון.—[Also in Ch. Targ. Job II, 8 (Ms. מצע) Targ. Y. II, Num. XXII, 24 בא' between.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2058,
+      "sid": "A02057",
+      "lema": "אֶמְצָעוּת",
+      "classe": "f.",
+      "glosa_atual": "centro; posição intermediária.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. preced.) centre."
+      ],
+      "notas_originais": [
+        "Y. Snh. I, 18 a bot. מ\"ם באמצעותה the Mem is in the middle of the alphabet."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2059,
+      "sid": "A02058",
+      "lema": "אֶמְצָעִי",
+      "classe": "f.",
+      "glosa_atual": "central; médio; intermediário.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(preced.) central, middle."
+      ],
+      "notas_originais": [
+        "—Erub. V, 2 הא' the intermediate village, opp. חיצונים; a. fr.—Shebi. III, 4 הא … ית the central part of the field, lying in the middle. Kil. IV, 8; a. fr.— Pl. אֶמְצְעִיִּים, אֶמְצְעִיִּין m.; אֶמְצְעִיֹּות f. Y. Peah II, 17 a top; a. e.—Y. Ber. II, 4 d bot. הא' (sub. ברכות) the intermediate (central) sections of the benedictions (between the first three and the last three). Kil. V, 2 הא' the central garden beds; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2060,
+      "sid": "A02059",
+      "lema": "אֶמְצְעִי",
+      "classe": "f.",
+      "glosa_atual": "meio; elemento intermediário; forma aramaica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "also as a noun. Y. B. Kam. IV, 4 b top I was present ברישא … ובא' at the discussion on the first, the last, and of the intermediate clause (or case). Ber. 3 a; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2061,
+      "sid": "A02060",
+      "lema": "אָמַר,",
+      "classe": "Vocábulo",
+      "glosa_atual": "dizer; falar; pensar; narrar; dedicar ou prometer.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(a) to join, knot; to be knotted, thick; b) to heap up; c) transf.",
+        "to speak, think, say, relate &c. … א' ר' … א' ר' Rabbi … related in the name of R. … Ber. 3 b; a. v. fr.—Part.",
+        "to vow, devote.",
+        "(b. h.) to be said, to read … נא' כאן … ונ' להלן we read here … and we read there … (the same expression is used here and there in the Scriptural text)."
+      ],
+      "notas_originais": [
+        "to join words, compose, cmp. דבר; d) to contract, bargain, exchange. [As to Assyr. to see, cmp. חמא.])",
+        "pass. אָמוּר expression. Yoma 70 b, a. fr. הוא הא' וכ' it is the same expression (‘ one ram’) used here and in the Book of Numbers. Sifré Deut. s. 334, a. fr. אֱמֹור מעתה say from now, i.e. from this draw the conclusion. Gen. R. s. 39 תאמר שהבירה וכ' (usu. שמא תאמר) will you say (is it possible), this castle has no commander?—אֲמוּרִים דברים במה (abbr. בד''א) in what case are these words said? i.e. this applies only. Ḥull. 3 a; a. fr.—זאת אֹומֶרֶת this tells, i.e. this proves. Ber. 11 b; a. fr.—אָמְרוּ it is said, told &c.; v. next w.—Inf. לֹומַר = לֵאמֹר. Ḥag. 14 b; a. fr.",
+        "אָמוּר (לגבוה) devoted to the Lord. Succ. 55 b; v. אֲמִירָה I, 3, a. אֵימוּרִים.",
+        "Ber. 9 a; a. v. fr.—שֶׁנֶּאֱמַר (abbr. שנ', שנא') for it is said in the Scriptures (as evidence in favor of an opinion). Snh. X, 1; a. v. fr.; also כמה שנ' (כמו) as it is said.—מִשּׁוּם שנ' because it is said in the Scriptures, i.e. you may possibly be misled by a certain expression to think …, therefore another term is used in its stead in an analogous case, or added to the ambiguous word; v. שׁוּם."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2062,
+      "sid": "A02061",
+      "lema": "אֲמַר,",
+      "classe": "Vocábulo",
+      "glosa_atual": "dizer; declarar; ser dito; forma aramaica.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "1) as preced. 1).",
+        ", contr. אִתְּמַר, אִיתְּ' it is said, taught."
+      ],
+      "notas_originais": [
+        "Targ. Gen. I, 3; a. v. fr.—א' מר above you quoted an authority, or, it has been stated. Ber. 2 a; a. fr.—א' קרא the Scripture says. Ib. 13 a; a. fr.—Y. Orl. III, end, 63 b, a. fr. אמרונה בשם … (in Bab. heb. אֲמָרוּהָ) they said it in behalf of … i.e. as a tradition.—Y. Ber. I, 2 d מילתיה אמרה his word (statement, opinion &c.) proves.—הדא אמרה = זאת אומרת; v. preced.—אַמְרֵי (h. אָמְרוּ) they say, it is said. Sabb. 19 a אמרו עליו על … ואמרי לה וכ' it is told about R. …, and another relation refers this to R.—; a. fr.—קאמר, קאמרי &c. = קא אמר &c. Ḥull. 85 a; a. fr.—מנא תימרא whence dost thou prove? Sabb. 23 a; a. fr.— Inf. מֵימַר, מֵימְרָא. סבר מ', סבר למ' originally he was of the opinion. Y. Sabb. VI, 8 c top; Keth. 87 b; a. v. fr.—לְמֵימְרָא does this mean to say? Sabb. 15 b; a. fr. לא אמרן אלא … אבל … this has been said, i.e. this applies only to a case … but if … Ber. 43 b; a. fr.—כְּלֹומַר as if saying, meaning to say, viz; v. כִּילּוּ.—Y. Kil. IV, 32 c bot. אימורין לבני וכ' say ye to &c.—מאי איכא למימר, v. אִיכָּא; Answ. אֵימוּר say … Sabb. 6 a; a. fr.—Hor. 13 a א' כולה who orders every thing (as an etymol. of אֲמַרְכָּל).—2) to praise, proclaim. Targ. Is. VIII, 13; a. fr.—Part. pass. אָמִיר q. v.",
+        "Targ. Job XXXIV, 31.—Y. Yoma V, end, 43 a אתאמרת, contr. אִתַּמְרַת it has been said with refer. to the opinion of …—אִתְּ', אִיתְּ' it has been said ( above) ; we have been taught. Succ. 15 a; a. fr.",
+        "same. Targ. Gen. XXII, 14; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2063,
+      "sid": "A02062",
+      "lema": "אָמַר,",
+      "classe": "Vocábulo",
+      "glosa_atual": "tornar-se grosso; forte; prosperar; vangloriar-se.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", v. אָמַר I, a) to be thick, strong.",
+        "to thrive; to boast, vaunt, be oppressive (cmp. Ps. XCIV, 4).",
+        "(denom. of מריא to fatten."
+      ],
+      "notas_originais": [
+        "Sot. IX, 15 (49 b) יוקר יַאֲמִיר the nobility shall be oppressive (Snh. 97 a יְעַוֵּת; Der. Er. Zut. X יעוות; Cant. R. to II, 13 הווה).—*[",
+        "Sabb. XXIV, 3 (155 b) Bab. מַאֲמִירִין, Ms. Oxf., Mish. a. Y. מַמְרִים, מַמְרִין, v. מרי.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2064,
+      "sid": "A02063",
+      "lema": "אֵמֶר",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אֵימַר e אִמְרָה.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אֵימַר a. אִמְרָה."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2065,
+      "sid": "A02064",
+      "lema": "אִמַּר",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִימַּר, cordeiro.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "lamb, v. אִימַּר."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2066,
+      "sid": "A02065",
+      "lema": "אִמְרָה",
+      "classe": "f.",
+      "glosa_atual": "fala; declaração; enunciado.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "speech."
+      ],
+      "notas_originais": [
+        "*Gen. R. s. 42 play on Amraphel, א' אפילה (quot. in Ar. s. v. אספרון) obscure speech (ed. שהיתה אֲמִירָתֹו אפ').— Pl. אֲמָרֹות, constr. אִמְרֹות. Pesik. Parah, p. 30 b ( promises); Tanḥ. Ḥukk. 4. Pesik. R. s. 14."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2067,
+      "sid": "A02066",
+      "lema": "אַמְרִי",
+      "classe": "Vocábulo",
+      "glosa_atual": "forma causativa de מרי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        "Af. of מרי."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2068,
+      "sid": "A02067",
+      "lema": "אמריי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אמוריא e אוכייפא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אמוריא a. אוכייפא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2069,
+      "sid": "A02068",
+      "lema": "*אֲמַרְכֹּול,",
+      "classe": "Vocábulo",
+      "glosa_atual": "administrador ou encarregado referido por título; consultar o original.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "; in Y. Dial."
+      ],
+      "notas_originais": [
+        "מַרְכָּל, מַרְכֹּול m. (= מלכל; fr. מלך; ר for ל for euphony) counsellor, officer &c. Targ. Is. XXII, 23 (h. text יתד, LXX ἄρχοντα). Targ. Y. Num. I, 6 sq. (corresponding to ראש בית אב, נשיא, פקיד &c.; O. ib. III, 32 אַמַרְכְּלָא); a. fr.—Esp. Amarkal, one of the seven Temple trustees superintending the cashiers. Tosef. Shek. II, 15 (etymol. מר על הכל mastering all, v. מַר; cmp. Hor. 13 a אמר כולא). Y. ib. V, 49 a; a. fr.— Pl. (h.) אֲמַרְכְּלִים, אֲמַרְכְּלִין (ch.) אֲמַרְכְּלַיָּא, אֲמַרְכֹּולִין &c. Targ. II Kings XXII, 4 (h. text שמרי הסף); a. fr.—Shek. V, 2. Tosef. l. c.; Y. l. c. (= פקידים II Chr. XXXI, 13); a. e. V. מלך a. deriv."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2070,
+      "sid": "A02069",
+      "lema": "אמרלאי",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אמדלאי.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אמדלאי"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2071,
+      "sid": "A02070",
+      "lema": "אַמְרָפֶל",
+      "classe": "pr. n. m.",
+      "glosa_atual": "Anrafel; rei de Sinear.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.) pr. n. m. Amraphel, King of Shin’ar; v. אִמְרָה."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2072,
+      "sid": "A02071",
+      "lema": "אֶמֶשׁ",
+      "classe": "m.",
+      "glosa_atual": "crepúsculo; anoitecer; ontem à noite.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "twilight, evening, nightfall.",
+        "(adv.) this evening, last night."
+      ],
+      "notas_originais": [
+        "Pesik. Vayhi p. 63 b; Pesik. R. s. 17 מא' (ו)עד חצות from nightfall to midnight.",
+        "Meg. 3 a, a. e. א' ביטלתם וכ' this evening you neglected the evening offering.—Snh. 40 b א' הרגו last night he killed him. B. Mets. 60 a שמרים של א' dregs of last night (yesterday), opp. to היום; a. fr."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2073,
+      "sid": "A02072",
+      "lema": "אֱמֶת",
+      "classe": "f.",
+      "glosa_atual": "verdade; fidelidade; realidade.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.; = אמנת; אמן) truth, faith, reality."
+      ],
+      "notas_originais": [
+        "Y. Snh. XI, 30 c top לחם א' bread of truth, unfeigned hospitality. Gen. R. s. 96 חסד של א' true (unselfish) charity. Y. Meg. I, 70 a top כאֲמִיתָּהּ של תורה as the Law itself, i.e. as though the Scroll of Esther were the Pentateuch. Y. Shebu. VI, 37 a top אֲמִיתָּן של דברים the truth of &c. Num. R. s. 12 א' של תורה וכ' the truth of the Law is a weapon (of protection) to its owner.—בא' אמרו in fact they said that &c. Sabb. I, 3; a. fr.—B. Mets. 60 a, a. e. כל בא' אמרו הלכה היא wherever an opinion is introduced with the words ‘In fact they said’ it means to say that it is an established legal rule. Y. Sabb. I, 3 b bot., a. e. כ''מ ששנו בא' וכ' wherever the Mishnah says, ‘In fact’, it indicates a rule dating from Moses on Sinai, i.e. an ancient tradition; v. Frank. Darké p. 286.—הא' indeed? Tanḥ. Noah, 10 (ed. Bub. 15, corr. acc.); v. אֹונְטֹוס."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2074,
+      "sid": "A02073",
+      "lema": "אַמְּתָא",
+      "classe": "f.",
+      "glosa_atual": "côvado; medida de comprimento; também antebraço ou recinto.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "cubit.",
+        "membrum virile.",
+        "trnsf. enclosure; protection (cmp. חֹומָה)."
+      ],
+      "notas_originais": [
+        ".",
+        "Targ. Ex. XXV, 10; a. fr.—Y. Sot. VIII, 22 c bot. א' אישתא a cubit has six hand-breadths; a. fr.",
+        "M. Kat. 17 a טרקיה אאַמְּתֵיה stung him on his membrum.",
+        "א' דריחיא enclosure of the millstones, mill. Ber. 18 b.— Pl. אַמִּין (fr. אַמָּא). Targ. Ezek. XL, 5; a. fr. אַמָּהָתָא. Ḥull. 59 b תשע א' nine cubits."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2075,
+      "sid": "A02074",
+      "lema": "אַמְתָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "serva; criada; ver אַמְהָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "hand-maid, v. אַמְהָא."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2076,
+      "sid": "A02075",
+      "lema": "אֲמָתֹות",
+      "classe": "f. pl.",
+      "glosa_atual": "formas ou usos da expressão אֲמָת־.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "the use of the word אֲמָת־."
+      ],
+      "notas_originais": [
+        "Ber. 31 b שלש א' three times אֲמָת־ (I Sam. I, 11; Ms. M. אֲמָהֹות)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2077,
+      "sid": "A02076",
+      "lema": "אֲמַתְלָא",
+      "classe": "m.",
+      "glosa_atual": "motivo plausível; justificativa para corrigir ou retratar um testemunho.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(Y. מַתְלָא) m. (cmp. h. משל) something tangible (= דבר שיש בו ממש); plausible reason for correcting or retracting an evidence."
+      ],
+      "notas_originais": [
+        "Keth. 22 a אם נתנה א' וכ' if she offers a reasonable explanation of her contradictory statements, her second one is accepted. Gitt. IX, 9 ובלבד שלא יהא שם א' provided no reasonable explanation is offered to show how the report may have arisen by mistake; a. fr. V. מַתְלָא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2078,
+      "sid": "A02077",
+      "lema": "אֲמַתְלַאי",
+      "classe": "pr. n. f.",
+      "glosa_atual": "Amatlai; nome tradicional da mãe de Abraão e da mãe de Hamã.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Amathlai, legendary name of Abraham’s mother (א' בת כרנבו), and of Haman’s mother (א' בת עורביתא)."
+      ],
+      "notas_originais": [
+        "B. Bath. 91 a"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2079,
+      "sid": "A02078",
+      "lema": "אֵמְתָן",
+      "classe": "m.",
+      "glosa_atual": "tirano; aquele que governa pelo medo.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(denom. of אֵימָה; י absorbed by preceding א; cmp. next w.) one who rules through fear, tyrannical."
+      ],
+      "notas_originais": [
+        "Pl. אֵמְתָנִין. Der. Er. II, beg.; cmp. R. Hash. 17 a. V. אֵימְתָן."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2080,
+      "sid": "A02079",
+      "lema": "אֶמְתָנִי",
+      "classe": "f.",
+      "glosa_atual": "poderoso; que inspira temor.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. preced.) fear-inspiring, powerful."
+      ],
+      "notas_originais": [
+        "Dan. VII, 7 (quot. Gen. R. s. 44 אימ'; Ex. R. s. 25 אימתנו; Lev. R. s. 13 אימ' a. אמ'; Yalk. Gen. 77; Lev. 536 אמ'). [Ges. H. Dict. אֶמְתָּנִי, not found in editions, fr. מתן to be strong; cmp., however, אֵמְתָן a. אֵימְתָן.] [Edit. Letteris, Berl. 5644 a. m., אֵימְתָנִי.]"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2081,
+      "sid": "A02080",
+      "lema": "אֶן",
+      "classe": "Vocábulo",
+      "glosa_atual": "se; ver אִין.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "if, v. אִין."
+      ],
+      "notas_originais": [],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2082,
+      "sid": "A02081",
+      "lema": "אָן",
+      "classe": "Vocábulo",
+      "glosa_atual": "onde?; para onde?",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.) where? לְאָן whither."
+      ],
+      "notas_originais": [
+        "Ab. III, 1."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2083,
+      "sid": "A02082",
+      "lema": "אָן,",
+      "classe": "Vocábulo",
+      "glosa_atual": "onde?; advérbio interrogativo aramaico.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "; (interrog.) where? Targ. Gen. IV, 9; a. e."
+      ],
+      "notas_originais": [
+        "—Y. Yoma VIII, 44 d bot. אן מן הדה (read … מן אן) wherefrom this? i.e. where is your authority? Y. Yeb. XII, 12 d bot. ההן סבא לְאָן ליך of what use is this old man to thee?; a. e.—(relat.) where, wherever. Lev. R. s. 27 beg. א' את יהיב וכ' (Yalk. Ps. 727 הן) wherever thou givest, thou givest abundantly."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2084,
+      "sid": "A02083",
+      "lema": "אָנָּא",
+      "classe": "Vocábulo",
+      "glosa_atual": "ó!; por favor!; rogo-te!",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(b. h.) oh! I pray."
+      ],
+      "notas_originais": [
+        "Succ. III, 9. Yoma VI, 2."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2085,
+      "sid": "A02084",
+      "lema": "אֲנָא",
+      "classe": "Vocábulo",
+      "glosa_atual": "eu; pronome pessoal aramaico.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ", emph."
+      ],
+      "notas_originais": [
+        "אֲנָנָא ch. = h. אֲנִי, I. הא אנא contr. הָאנָא. Targ. O. Gen. XXII, 7; a. fr.—Ḥull. 2 b א' וכ' as to myself &c. Y. Taan. IV, 68 d bot. דאננא משלים וכ' that I myself should surrender the country.— Pl. אֲנַן we. Targ. Y. Gen. XLIII, 8; a. e.—Ber. 49 b נחזי א' let us see; a. fr.—אֲנַחְנָא, נַחְנָא. Targ. O. Gen. l. c.; a. fr.—"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2086,
+      "sid": "A02085",
+      "lema": "אִנָּא",
+      "classe": "Vocábulo",
+      "glosa_atual": "se eu; também ver אִינָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        ",",
+        "v. אִינָא.",
+        "= אִן אֲנָא if I."
+      ],
+      "notas_originais": [
+        ".—"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2087,
+      "sid": "A02086",
+      "lema": "אִנְבָּא,",
+      "classe": "Vocábulo",
+      "glosa_atual": "fruto; produto da planta.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "= אִיבָּא I, fruit, produce."
+      ],
+      "notas_originais": [
+        "Dan. IV, 9.—Targ. Job XXXI, 12; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2088,
+      "sid": "A02087",
+      "lema": "אִנְבָּא,",
+      "classe": "f.",
+      "glosa_atual": "lêndea; ovo de piolho.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "אִינְבָּא f. (= עִינְבָּא) [berries], eggs of lice, nits."
+      ],
+      "notas_originais": [
+        "Naz. 39 a. Taan. 22 b מתחזי ליה כי אנ' Ar. (Ms. M. ומחזי כי אינ', ed. מתחזי איניבא) looked as small as &c.; v. יניבא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2089,
+      "sid": "A02088",
+      "lema": "אַנְבַּג,",
+      "classe": "m.",
+      "glosa_atual": "pequeno copo; medida correspondente a um quarto de log.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. נַבְגָּא; whence ἄμβικος, ἄμβιξ, ambiga) a small cup; a measure containing one fourth of a Log."
+      ],
+      "notas_originais": [
+        "B. Bath. 58 b on the gates of … it is written, אנבג אנפק וכ' (Ms. differ. order) Anbag, Anpak a. Antal (as the same measures). Kid. 70 a לישתי מר אנבגא will you take a cup (of wine &c.)? [Popular pronunciation: anpak.] Sabb. 109 b אנפקא; a. e."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2090,
+      "sid": "A02089",
+      "lema": "אִנְבֹּול",
+      "classe": "m.",
+      "glosa_atual": "badalo de sino.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(= עִינְבֹּול, v. אִמְבֹּול) clapper of a bell."
+      ],
+      "notas_originais": [
+        "— Pl. אִנְבֹּולִים, ין … Zeb. 88 b Ar. (ed. עינבלין). Tosef. Kel. B. Mets. I, 13 עשה לה האנבילים ed. Zuck. (read … להם אנבולים) if he put clappers in. Ib. אנביליהן (corr. acc.)."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2091,
+      "sid": "A02090",
+      "lema": "אִנְבֹּונִין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִלְבָּנָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִלְבָּנָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2092,
+      "sid": "A02091",
+      "lema": "אִנְבּוּרְקְרָאֹות",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִמְבּוּרְקְלוֹן.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִמְבּוּרְקְלוֹן"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2093,
+      "sid": "A02092",
+      "lema": "אַנְבְּטַי",
+      "classe": "f.",
+      "glosa_atual": "torre de vigia; observatório; ameia.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(נבט; = b. h. מצפה) observatory, watch-tower, battlement."
+      ],
+      "notas_originais": [
+        "Pl. אַנְבְּטָאֹות. Ex. R. s. 12 the hailstones formed א' א' lines of battlements; (Midr. Till. to Ps. LXXVIII כותל). V. אמבוניא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2094,
+      "sid": "A02093",
+      "lema": "*אַנְבְּטֵי",
+      "classe": "m. pl.",
+      "glosa_atual": "plataforma elevada para espetáculo público.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "(v. preced.) platforms or elevations erected for public spectacles."
+      ],
+      "notas_originais": [
+        "Yalk. Esth. 1058 all the people shall go out להדין א' (read להנהו א'; Lev. R. s. 28, end להון פרטי, corr. acc.) to the spectacular elevations, for a Jew (Mordecai) is to be hanged. V. אמבוניא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2095,
+      "sid": "A02094",
+      "lema": "אנביל",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִנְבֹּול.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִנְבֹּול"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2096,
+      "sid": "A02095",
+      "lema": "אנבין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַגְבִּין.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַגְבִּין"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2097,
+      "sid": "A02096",
+      "lema": "אנבקראות",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אִמְבּוּרְקְלוֹן.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אִמְבּוּרְקְלוֹן"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2098,
+      "sid": "A02097",
+      "lema": "אנגטוס",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אגניטוס.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אגניטוס"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2099,
+      "sid": "A02098",
+      "lema": "*אנגיטוס",
+      "classe": "m.",
+      "glosa_atual": "leitura conjectural para questor provincial; auxiliar de cônsul.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [
+        "Yalk. Ps. 794; אגוסטוס Gen. R. s. 12, א' במדינה (Ar. אגבאסטס) read (אגב') אַגְוִיסְטֹור m. (quæstor, κυαίστωρ) quæstor provincialis, assistant of the consul."
+      ],
+      "notas_originais": [
+        "א' … ביא שלו (read שלה) the quæstor in the province is appointed over its roads, v. בִּיָּא."
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    },
+    {
+      "ordinal": 2100,
+      "sid": "A02099",
+      "lema": "אנגיטירין",
+      "classe": "Vocábulo",
+      "glosa_atual": "ver אַרְגֶּנְטָרְיָא.",
+      "glosa_idioma": "nao_declarado",
+      "definicoes_originais": [],
+      "notas_originais": [
+        ", v. אַרְגֶּנְטָרְיָא"
+      ],
+      "fonte": "lexicons/jastrow-source-lote-0011.json",
+      "modulo_publicado": "lexicons/jastrow-2001-2100.js",
+      "problemas_comprovados": [],
+      "indicios_para_examinar": [],
+      "avaliacao_filologica": "pendente",
+      "traducao_corrigida": null
+    }
+  ]
+}

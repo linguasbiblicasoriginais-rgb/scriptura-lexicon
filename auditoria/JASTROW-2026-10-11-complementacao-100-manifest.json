@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "base_head": "4ce86aee62638fd843b61a2ce25916759217011d",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "selected_records": 100,
+  "verified_source_crossreferences": {
+    "A00026": "A00016",
+    "A00049": "A00107",
+    "A00429": "A00517 (semantically incongruent)"
+  },
+  "fixes": [
+    {
+      "id": "A00013",
+      "path": "lexicons/jastrow-011-040.js",
+      "outcome": "C",
+      "html": "<strong>Av</strong>, quinto mês do calendário judaico, com trinta dias. Na correspondência civil descrita por Jastrow, seu início situa-se entre 8 de julho e 7 de agosto, e seu término entre 6 de agosto e 5 de setembro; não são datas anuais fixas. <strong>Nota da fonte:</strong> Jastrow relaciona o nome ao assírio <i>A-bu</i> e remete a Schr., <i>K. A. T.</i>, p. 247; essa referência histórica não constitui aqui verificação independente da etimologia. <strong>Exemplos e referências:</strong> Rosh Hashaná 1.3, mensageiros anunciam o início de Av por causa do jejum; 18b, <bdi lang='he' dir='rtl'>ט׳ באב</bdi>, o nono dia de Av, memória da destruição do Templo. Ta‘anit 4.6, <bdi lang='he' dir='rtl'>משנכנס אב</bdi>, «ao começar Av»; Ta‘anit 29b, <bdi lang='he' dir='rtl'>לישתמיט מיניה באב</bdi>, recomendação de evitar um litígio naquele mês. Cf. Meguilá 5b.",
+      "note": "O XML de Jastrow registra A-bu (Schr., K.A.T., p. 247), duas faixas de datas e cinco referências rabínicas. Elementos traduzidos e atribuídos expressamente à fonte, sem atestar conferência da bibliografia assíria."
+    },
+    {
+      "id": "A00026",
+      "path": "lexicons/jastrow-011-040.js",
+      "outcome": "C",
+      "gloss": "ver אֵב (A00016); fonte: איב׳",
+      "html": "Remissão originalmente abreviada como <bdi lang='he' dir='rtl'>איב׳</bdi>. O vínculo <code>rid=\"A00016\"</code> no XML aponta ao verbete <bdi lang='he' dir='rtl'>אֵב</bdi>, que também registra <bdi lang='he' dir='rtl'>(אוֹב) אֵיב</bdi> como segundo cabeçalho e trata de brotos e desenvolvimento. Preserva-se a grafia abreviada; não há fundamento para substituí-la simplesmente por <bdi lang='he' dir='rtl'>אִיבָּא</bdi>.",
+      "note": "A abreviação איב׳ tem referência eletrônica explícita a A00016 (אֵב), verificada no XML da mesma edição. Corrigida a expansão editorial anterior אִיבָּא, não sustentada pelo xref."
+    },
+    {
+      "id": "A00049",
+      "path": "lexicons/jastrow-041-080.js",
+      "outcome": "C",
+      "html": "Remissão grafada <bdi lang='he' dir='rtl'>אבי</bdi>, sem sinais vocálicos, no texto original. O atributo <code>rid=\"A00107\"</code> do XML identifica o destino <bdi lang='he' dir='rtl'>אָבֵי, אָבָה</bdi>, «estar disposto, querer». A vocalização <bdi lang='he' dir='rtl'>אָבֵי</bdi> pertence ao cabeçalho efetivamente atestado no verbete-alvo, não a uma conjectura sobre a forma abreviada.",
+      "note": "O xref do XML aponta A00107, cujo cabeçalho confirma אָבֵי, אָבָה. Mantida a grafia não vocalizada אבי como dado da entrada remissiva e fundamentada a forma vocalizada pelo destino."
+    },
+    {
+      "id": "A00083",
+      "path": "lexicons/jastrow-081-110.js",
+      "outcome": "C",
+      "html": "Formas <bdi lang='he' dir='rtl'>אַבְזָקַת, אַבְזָקָא, אַבְזָקָה</bdi>, substantivo feminino da raiz <bdi lang='he' dir='rtl'>בזק</bdi>; ideia de fragmentação, esfarelamento e corrosão. <strong>1.</strong> Doença dos <strong>pés</strong> de animais que, segundo a explicação tradicional registrada por Jastrow, seria causada por vermes após a queda de um raio; o autor menciona atrofia ou paralisia dos pés. A especificação «cascos» não se encontra na definição inglesa. <strong>2.</strong> Condição de vestes comidas por traças. <strong>Aparato:</strong> Bava Metzia 78b registra <bdi lang='he' dir='rtl'>אבזקת</bdi> para explicar <bdi lang='he' dir='rtl'>הבריקה</bdi> na Mishná; Rashi traz <bdi lang='he' dir='rtl'>אבזקא</bdi>; manuscrito M., <bdi lang='he' dir='rtl'>אבוק</bdi>, com correção editorial proposta de ו para ז. Comparar Jerusalém Bava Metzia 6, 11a; na passagem sobre vestuário real, Jastrow menciona traças na rouparia.",
+      "note": "Eliminada precisão anatômica não comprovada («cascos»). Repostas as variantes Rashi אבזקא e manuscrito M. אבוק com proposta explícita de trocar ו por ז, conforme o XML; mantém-se o caráter tradicional da etiologia."
+    },
+    {
+      "id": "A00429",
+      "path": "lexicons/jastrow-411-435.js",
+      "outcome": "P",
+      "gloss": "ver אוּ׳ (remissão incerta)",
+      "html": "Cabeçalhos originais <bdi lang='he' dir='rtl'>אֻדַן, אֻדְנָא</bdi>. A nota do XML diz apenas <bdi lang='he' dir='rtl'>v. אוּ׳</bdi>; não autoriza completar automaticamente essa abreviatura como <bdi lang='he' dir='rtl'>אוּדְנָא</bdi>. O atributo eletrônico <code>rid=\"A00517\"</code> aponta para <bdi lang='he' dir='rtl'>אֹו</bdi> («ou»), referência semanticamente incompatível à primeira vista. <strong>Pendência documental:</strong> cotejar o impresso de Jastrow para determinar o destino; nem a expansão nem o identificador do XML são corrigidos por conjectura.",
+      "note": "Retirada expansão sem prova para אוּדְנָא; o XML conserva remissão abreviada אוּ׳, mas o xref aponta A00517 (אֹו, conjunção). Cartão agora expõe ambas as evidências; destino continua P até colação do impresso."
+    }
+  ]
+}

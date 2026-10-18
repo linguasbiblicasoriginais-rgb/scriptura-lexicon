@@ -1,0 +1,35 @@
+name: JASTROW - traduzir e incorporar 1000 registros 17001-18000
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-incorporar-17001-18000-portugues.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  incorporar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar tradução portuguesa local
+        run: python -m pip install argostranslate==1.11.0
+      - name: Preparar sintaxe antes de traduzir
+        run: python -m py_compile tools/jastrow_incorporate_17001_18000_pt_offline.py
+      - name: Traduzir integralmente 1000 entradas, definições e notas antes da publicação
+        run: python -u tools/jastrow_incorporate_17001_18000_pt_offline.py
+      - name: Persistir exclusivamente novos modulos traduzidos e suporte JASTROW
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexicons/jastrow-17*.js lexicons/jastrow-progress.json lexicons/jastrow-editorial-append.js index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "JASTROW: incorporar 1000 verbetes traduzidos para português (17001–18000)"
+            git push origin HEAD:chat-gpt-jastrow
+          fi

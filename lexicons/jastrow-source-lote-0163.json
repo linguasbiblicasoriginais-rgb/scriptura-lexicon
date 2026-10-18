@@ -1,0 +1,799 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data pinned XML)",
+  "source_start_ordinal": 32401,
+  "source_end_ordinal": 32512,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "entry_count": 112,
+  "first_headword": "תרכוסא",
+  "last_headword": "תתנא",
+  "next_headword": null,
+  "status": "source_only_untranslated_not_published",
+  "records": [
+    {
+      "ordinal": 32401,
+      "source_id": "jastrow-xml-032401",
+      "canonical_entry_id": "V01010",
+      "headword": "תרכוסא",
+      "source_xml": "<entry id=\"V01010\">\n<head-word>תרכוסא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00965\">תְּרוֹנוֹס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32402,
+      "source_id": "jastrow-xml-032402",
+      "canonical_entry_id": "V01011",
+      "headword": "תָּרַם",
+      "source_xml": "<entry id=\"V01011\">\n<head-word>תָּרַם</head-word>\n<senses>\n<sense>\n<definition> (denom. of תְּרוּמָה) \n<italic>to lift</italic>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to remove</italic> (\n<italic>ashes</italic>), \n<italic>clear the altar</italic> (Lev. VI, 3).</definition>\n<notes> Yoma II, 1 בראשונה כל מי שרוצה לִתְרוֹם … תּוֹרֵם formerly whosoever wanted to remove the ashes from the altar, could do it. Ib. 2 התקינו שלא יהו תוֹרְמִין וכ' it was arranged that they should clean the altar only by lot. Y. ib. 39\n<sup>b</sup> bot. זר שת' if an outsider removed the ashes. Tam. I, 2; 4; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to separate the priestly gift, to make T’rumah</italic>.</definition>\n<notes> Ter. I, 1 חמשה לא יִתְרוֹמוּ ואם תָּרְמוּ וכ' five persons should not make T’rumah, and if they did &amp;c., v. תְּרוּמָה. Ib. התּוֹרֵם את שאינו שלו he that separates T’rumah from what does not belong to him. Ib. נכרי שת' את של ישראל if a gentile makes T’rumah of what belongs to an Israelite. Ib. 4 אין תורמין זיתים על השמן וכ' you cannot consecrate olives as T’rumah for oil, or grapes for wine. Ib. 5 אין תורמין מן הלקט וכ' you are not bound to give the priestly share out of the gleanings &amp;c.; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32403,
+      "source_id": "jastrow-xml-032403",
+      "canonical_entry_id": "V01012",
+      "headword": "תְּרַם",
+      "source_xml": "<entry id=\"V01012\">\n<head-word>תְּרַם</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Y. Ter. IV, 42\n<sup>d</sup> bot. הוה יליף תָּרֵים חד וכ' if he was used to give as T’rumah one-fiftieth &amp;c.; כד הוא תרים חד וכ' when he gives one-fortieth, he deprives himself of six quarters (of a Kab); a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>תָּרֵם</binyan-form>\n<senses>\n<sense>\n<definition> same, \n<italic>to lift, remove</italic>.</definition>\n<notes>—Part. pass. מְתָרַם. Esth. R. to III, 6 רישיך מְתוּרָם חלף וכ' (Hebr. form) thy head shall be lifted (removed) in place of their heads.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32404,
+      "source_id": "jastrow-xml-032404",
+      "canonical_entry_id": "V01013",
+      "headword": "תַּרְמוֹד",
+      "source_xml": "<entry id=\"V01013\">\n<head-word>תַּרְמוֹד</head-word>\n<head-word>תַּרְמוֹדִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00113\">תַּדְמוֹר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32405,
+      "source_id": "jastrow-xml-032405",
+      "canonical_entry_id": "V01014",
+      "headword": "תִּרְמוּסְרָה",
+      "source_xml": "<entry id=\"V01014\">\n<head-word>תִּרְמוּסְרָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00303\">תַּוּרְמְסָר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32406,
+      "source_id": "jastrow-xml-032406",
+      "canonical_entry_id": "V01015",
+      "headword": "תַּרְמִיל",
+      "source_xml": "<entry id=\"V01015\">\n<head-word>תַּרְמִיל</head-word>\n<head-word>תַּרְמֵל</head-word>\n<head-word>תּוּרְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (\n<italic>leather</italic>) \n<italic>bag</italic>.</definition>\n<notes> Sabb. 31\n<sup>a</sup> גר … במקלו ובתַרְמִילוֹ the mean proselyte who came with nothing but his staff and travelling bag (I being without merit or ancestry). Y. Shebu. VIII, 38\n<sup>c</sup> bot. כיון … ותרמילו עליה חייב as soon as he puts his staff and his bag on that animal, he becomes responsible; Tosef. B. Mets. VIII, 17. Sifra Metsorʿa, Zab., Par. 1, ch. II התורמל חמשת קבים a \n<italic>turmel</italic> is a bag of five Kabs capacity; Kel. XX, 1. Ib. XIX, 8 התו' שנפחת וכ' a bag the inside pocket of which has become defective. Tosef. Bets. III, 17 ולא הרועה בתרמילו neither dare the shepherd go out with his bag (on the Holy Day); a. fr.—Trnsf. \n<italic>seed-bag, pod</italic>. Tosef. Shebi. II, 6 על מה נחלקו על הת' they differ concerning the laws of the Sabbatical year as applicable to plants in the stage of formation of pods, v. תִּרְמֵל.—\n<plural-form>Pl. תּוּרְמְלִין</plural-form>. Kel. XXIV, 11 שלש ת' הן וכ' there are three kinds of bags (with regard to levitical cleanness): those having the standard capacity (five Kabs, v. supra).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32407,
+      "source_id": "jastrow-xml-032407",
+      "canonical_entry_id": "V01016",
+      "headword": "תַּרְמִילָא",
+      "source_xml": "<entry id=\"V01016\">\n<head-word>תַּרְמִילָא</head-word>\n<head-word>תּוּרְ'</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Ruth II, 18. Targ. I Sam. XVII, 40.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32408,
+      "source_id": "jastrow-xml-032408",
+      "canonical_entry_id": "V01017",
+      "headword": "תִּרְמֵל",
+      "source_xml": "<entry id=\"V01017\">\n<head-word>תִּרְמֵל</head-word>\n<senses>\n<sense>\n<definition> (denom. of תַּרְמִיל) \n<italic>to form pods</italic>.</definition>\n<notes> Shebi. II, 8 משתִּרְמְלוּ וכ' when they have begun to form pods before New Year; Y. ib. 34\n<sup>a</sup> תִּרְמֵילוּ, expl. עבדין קנקולין, v. קַנְקַל ch.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32409,
+      "source_id": "jastrow-xml-032409",
+      "canonical_entry_id": "V01018",
+      "headword": "תַּרְמֵל",
+      "source_xml": "<entry id=\"V01018\">\n<head-word>תַּרְמֵל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01015\">תַּרְמִיל</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32410,
+      "source_id": "jastrow-xml-032410",
+      "canonical_entry_id": "V01019",
+      "headword": "תֹּרֶן",
+      "source_xml": "<entry id=\"V01019\">\n<head-word>תֹּרֶן</head-word>\n<head-word>תָּרְנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00304\">תּוֹרֶן</xref>, \n<xref rid=\"V00305\">תּוּרְנָא.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32411,
+      "source_id": "jastrow-xml-032411",
+      "canonical_entry_id": "V01020",
+      "headword": "תרנגא",
+      "source_xml": "<entry id=\"V01020\">\n<head-word>תרנגא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00964\">תְּרוּנְגָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32412,
+      "source_id": "jastrow-xml-032412",
+      "canonical_entry_id": "V01021",
+      "headword": "תַּרְנְגוֹל",
+      "source_xml": "<entry id=\"V01021\">\n<head-word>תַּרְנְגוֹל</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ת־רגל with anorganic נ, as תְּרוּנְגָּא for תְּרוֹגָא; v. Targ. Prov. XXX, 3</definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> [\n<italic>spurred,</italic>] \n<italic>cock, chicken</italic>.</definition>\n<notes> R. Hash. 26\n<sup>a</sup>, v. שֶׂכְוִי. Yoma 21\n<sup>a</sup> ת' בינוני a normal cock (that crows neither too early nor too late). Snh. 98\n<sup>b</sup>, v. עֲטַלֵּף. Ib. 63\n<sup>b</sup>, v. נֵרְגַל. Tanḥ. Emor 2; Yalk. Sam. 139 אין כאן ת' שיקרא is there no cock here to crow (announcing the morning)? B. Mets. 86\n<sup>b</sup> מובחר שבעופות ת' (some ed. תרנגולת) the choice of fowls is the chicken. Bekh. 8\n<sup>a</sup> (of the \n<italic>hen</italic>); a. fr.—\n<plural-form>Pl. תַּרְנְגוֹלִים, תַּרְנְגוֹלִין</plural-form>. B. Mets. l. c. Tanḥ. l. c. B. Kam. VII, 7 אין מגדלין ת' וכ' no chickens were raised in Jerusalem. Taan. 25\n<sup>a</sup>. Y. Ber. III, 6\n<sup>d</sup> top אדומים (ת') red cocks. Ab. Zar. I, 5 מותר … תרנגול לבן בין הת' you may sell him (the gentile) a white cock along with other cocks (although he may use the white cock for idolatrous purposes). Yeb. 84\n<sup>a</sup> כת' של בית בוקיא like the cocks of B. B. (that tolerate no intruder); a. fr.—[Y. Dem. II, 22\n<sup>d</sup> top תרנגול קיסריין, v. תַּרְנְגוֹלָא II.]—\n<italic>Fem.</italic> תַּרְנְגוֹלֶת \n<italic>hen</italic>. Snh. 63\n<sup>b</sup> (ref. to סכות בנות, II Kings XVII, 30) מאי ניהו ת' what is this (deity)? A hen. Tosef. Makhsh. II, 15. Sabb. 67\n<sup>b</sup>, v. גַּבְרִית; Tosef. ib. VI (VIII), 5; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32413,
+      "source_id": "jastrow-xml-032413",
+      "canonical_entry_id": "V01022",
+      "headword": "תַּרְנְגוֹל",
+      "source_xml": "<entry id=\"V01022\">\n<head-word>תַּרְנְגוֹל</head-word>\n<head-word>תַּרְנְגוֹלָא</head-word>\n<head-word>תַּרְנַגְלָא</head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Ps. L, 11, v. בַּר I ch.; a. fr.—Sabb. 78\n<sup>a</sup> ת' ברא Ms. M. (ed. תרנגולת), v. בַּר I ch. Lev. R. s. 5 (ref. to גבר, Is. XXII, 17) כהדין ת' דהוה וכ' like the cock that moves about from place to place; Yalk. Is. 290. Yoma 20\n<sup>b</sup> (expl. קריאת הגבר) קרא ת' the cock has crowed; Y. Succ. V, end, 55\n<sup>c</sup> תרנוגלא; Y. Shek. V, 48\n<sup>d</sup> bot.; a. fr.—\n<italic>Fem.</italic> תַּרְנְגוֹלָא, תַּרְנְגוּלְתָּא. Gitt. 55\n<sup>b</sup> אתרנגולא ות' חריב וכ' on account of a cock and a hen Ṭur Malka was destroyed. Lev. R. s. 25, v. שֶׂכְוִי; Yalk. ib. 615. Ib. הדה ת' כד וכ' as long as her chicks are small, the hen calls them together &amp;c. Midr. Till. to Ps. XLV ת' ברא the hen of the prairie; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32414,
+      "source_id": "jastrow-xml-032414",
+      "canonical_entry_id": "V01023",
+      "headword": "תַּרְנְגוֹלָא",
+      "source_xml": "<entry id=\"V01023\">\n<head-word>תַּרְנְגוֹלָא</head-word>\n<hw-number>II</hw-number>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Tarn’gola</italic> (\n<italic>Watchtower</italic>); </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> כְּרַךְ ת' \n<italic>Fort Tarn’gola</italic>.</definition>\n<notes> Targ. Y. Deut. II, 8 (h. text עציון גבר).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> ת' דקיסריון \n<italic>T.</italic></definition>\n<notes>\n<italic> near Cæsaræa</italic> (Philippi). Targ. Y. I. Num. XXXIV, 15 תורנגלא דק'. Targ. Y. I ib. 8.—Tosef. Shebi. IV, 10 תורנגלא עילאה דלעילא מן קסרין (Var. ת' עילייא דק') Upper T. above (near) Cæsaræa; Y. ib. VI, 36\n<sup>c</sup> ת' עילאה דלמעלה מן ק'; Sifré Deut. 51 תרנוגלא עילאה קיסרי; Yalk. ib. 874 תרנגלא … דקישרי (corr. acc.).—Y. Dem. II, 22\n<sup>d</sup> top (h. form) תרנגול קיסריון (not קיסריין).—V. Hildesh. Beitr., p. 42 sq.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32415,
+      "source_id": "jastrow-xml-032415",
+      "canonical_entry_id": "V01024",
+      "headword": "תַּרְנְגוֹלֶת",
+      "source_xml": "<entry id=\"V01024\">\n<head-word>תַּרְנְגוֹלֶת</head-word>\n<head-word>תַּרְנְגוּלְתָּא</head-word>\n<head-word>תַּרְנַגְלָא</head-word>\n<head-word>תרנוגלא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01023\">preced.</xref> wds.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32416,
+      "source_id": "jastrow-xml-032416",
+      "canonical_entry_id": "V01025",
+      "headword": "תְּרָנוֹס",
+      "source_xml": "<entry id=\"V01025\">\n<head-word>תְּרָנוֹס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00965\">תְּרוֹנוֹס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32417,
+      "source_id": "jastrow-xml-032417",
+      "canonical_entry_id": "V01026",
+      "headword": "תָּרַס",
+      "source_xml": "<entry id=\"V01026\">\n<head-word>תָּרַס</head-word>\n<senses>\n<sense>\n<definition> (denom. of תָּרִיס), \n<italic>Hif.</italic> הִתְרִיס </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to shield, protect</italic>.</definition>\n<notes> Y. Sabb. V, 7\n<sup>b</sup> bot. (expl. לבובין) נותן … והוא מַתְרִיס כנגד חיה one places a hide from the tannery against its heart, and this protects it against attacks of wild beasts.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to resist, fight, wrestle in debate</italic>.</definition>\n<notes> Yeb. 121\n<sup>b</sup> שה' עם שמנים וכ' (ed. שהתירם, corr. acc.) who debated with eighty-five elders; Y. ib. XVI, 15\n<sup>d</sup> שהיו מַתְרִיסִין כנגד וכ' who debated with R. H.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32418,
+      "source_id": "jastrow-xml-032418",
+      "canonical_entry_id": "V01027",
+      "headword": "תְּרַס",
+      "source_xml": "<entry id=\"V01027\">\n<head-word>תְּרַס</head-word>\n<language-key> ch.,</language-key>\n<senses>\n<sense>\n<definition>\n<italic>Af.</italic> אַתְרֵיס, \n<italic>Pa.</italic> תָּרֵיס same, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to shield</italic>.</definition>\n<notes> Targ. Job XLI, 7 מַתְרִיסִין Var. ed. Lag. (ed. תְּרֵיסִין noun).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to fight, challenge, oppose</italic>.</definition>\n<notes> Y. Ab. Zar. II, 41\n<sup>b</sup> top ולא על יאות … מְתָרֵס לקיבליה but R. Ḥ. opposed him improperly; Y. Dem. III, 23\n<sup>c</sup> bot. ולא עאל יאות … מַתְרִיס לקבל (corr. acc.). Y. Gitt. III, 44\n<sup>d</sup> לא דריש לקיש מַתְרִיס לקבל וכ' not that R. L. opposed R. J. because they differed in theory, but &amp;c. Tam. 32\n<sup>a</sup> מה דין אַתְרִיסְתּוּן לקבלי (Rashi אִיתְרִ' \n<italic>Ithpe.</italic>) why, now, did you oppose me?</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>to put on armor</italic>.</definition>\n<notes> Y. Kidd. III, 63\n<sup>d</sup> והוה … מתרס כליו וכ' and R. Ḥ. put his armor on against (took up a debate with) &amp;c.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיתְרִיס</binyan-form>\n<senses>\n<sense>\n<definition> same, \n<italic>to oppose</italic>.</definition>\n<notes> B. Bath. 111\n<sup>a</sup> השתא איכו נח … אִיתְרִיסַת לקבלי Ms. M. (ed. השתא כי) now if R. H. were dead, you might have opposed me (by referring to his authority).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32419,
+      "source_id": "jastrow-xml-032419",
+      "canonical_entry_id": "V01028",
+      "headword": "תְּרֵסָא",
+      "source_xml": "<entry id=\"V01028\">\n<head-word>תְּרֵסָא</head-word>\n<head-word>תְּרֵסִיּוֹת</head-word>\n<head-word>תְּרֵסִיּוֹתִים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub תְּרֵיס'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32420,
+      "source_id": "jastrow-xml-032420",
+      "canonical_entry_id": "V01029",
+      "headword": "תָּרַע",
+      "source_xml": "<entry id=\"V01029\">\n<head-word>תָּרַע</head-word>\n<senses>\n<sense>\n<definition> (denom. of תְּרוּעָה), \n<italic>Hif.</italic> הִתְרִיעַ \n<italic>to sound alarm</italic>, esp. \n<italic>to blow the Shofar at public services</italic> (at fast and prayer meetings &amp;c.).</definition>\n<notes> Y. Taan. II, 65\n<sup>b</sup> top כל שנה שאין מַתְרִיעִין … שמתריעין לה בסופה if people neglect to blow the Shofar at the beginning of the year, they will sound it at the end, v. רוּעַ I. Taan. III, 1 צמחים ששנו מתריעין עליהם מיד when plants change (degenerate), we blow (call prayer meetings) for them at once (without waiting for the first rain). Ib. 3 אותה העיר מתענה ומַתְרַעַת … ומַתְרִיעוֹת that town must fast and blow the Shofar (at prayer meeting), and all those around must fast, but not hold prayer meetings; מתריעות ולא מתענות must hold prayer meetings, but not fast. Ib. 7 על אלו מתריעין בשבת וכ' on the following occasions the alarm is sounded on the Sabbath: when a city is surrounded by gentiles, or threatened with a flood, &amp;c., v. טָרַף; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32421,
+      "source_id": "jastrow-xml-032421",
+      "canonical_entry_id": "V01030",
+      "headword": "תְּרַע",
+      "source_xml": "<entry id=\"V01030\">\n<head-word>תְּרַע</head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (\n<italic>Tafel</italic> of רְעַע) \n<italic>to break, shatter, make a breach</italic> (corresp. to h. פָּרַץ, a. נָתַץ).</definition>\n<notes> Targ. Jdg. VI, 30. Ib. VIII, 9. Targ. II Sam. VI, 8; a. fr.—\n<italic>Part. pass</italic>. תְּרִיעַ; f. תְּרִיעָא \n<italic>broken into, open</italic>. Targ. Prov. XXV, 28.—Y. Peah I, 16\n<sup>b</sup> bot.; Y. Shebu II, end, 33\n<sup>c</sup>, a. e. ותַרְעִין וכ', v. סוּג I ch.</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>תָּרַע, תַּרַע</binyan-form>\n<senses>\n<sense>\n<definition> same.</definition>\n<notes> Targ. O. Gen. XLIX, 6 תָּרַעוּ ed. Berl. (ed. Vien. תַּרְעוּ). Targ. O. Lev. XIV, 45 ed. Berl. (ed. Vien. \n<italic>Pe.</italic>). Targ. Ps. II, 9 תְּתָרָעִי' Ms. (ed. \n<italic>Pe.</italic>); a. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְּרַע, אִתְתְּרַע, </binyan-form>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתָּרַע</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be broken, shattered, be broken into</italic>.</definition>\n<notes> Targ. Prov. XXIX, 18 (h. text יפרע). Targ. Jer. XXXIX, 2. Targ. Jdg. VI, 28; a. fr.; v. רְעַע.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32422,
+      "source_id": "jastrow-xml-032422",
+      "canonical_entry_id": "V01031",
+      "headword": "תְּרַע",
+      "source_xml": "<entry id=\"V01031\">\n<head-word>תְּרַע</head-word>\n<head-word>תַּרְעָא</head-word>\n<head-word>תַּרְעָה</head-word>\n<senses>\n<sense>\n<definition> c. (preced.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> [\n<italic>opening</italic>,] \n<pgbrk id=\"pg1701\" />\n<italic>door, gate</italic> (corresp. to h. פֶּתח, a. שַׁעַר).</definition>\n<notes> Targ. Ex. XXXII, 27. Targ. Deut. XXII, 21; a. fr.—Lev. R. s. 5\n<sup>8</sup> ת' פתיחא if she finds the door open; ת' משקיף if she finds it shut. Num. R. s. 9\n<sup>13</sup>, v. אָסֵי; a. fr.—[Yalk. Mic. 551, v. תַּרְעָיָיא.]—\n<plural-form>Pl. תַּרְעִין, תַּרְעַיָּא, תַּרְעַיָּיה, תַּרְעֵי</plural-form>. Targ. Y. Deut. III, 5. Targ. Is. XXVI, 2. Targ. Prov. XXXI, 31; a. fr.—Y. Shek. V, end, 49\n<sup>b</sup> ר' אבון עבד אילין ת' וכ' R. A. was building those gates of the Great College; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> = h. שַׁעַר \n<italic>market, market price</italic>.</definition>\n<notes> B. Bath. 90\n<sup>b</sup>, v. חֲרָפָא. B. Mets. 74\n<sup>b</sup> בחד ת' when prices remain unchanged; a. e.—\n<plural-form>Pl. as ab. Ib. בתרי ת'</plural-form> when there are two prices (prices have changed); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32423,
+      "source_id": "jastrow-xml-032423",
+      "canonical_entry_id": "V01032",
+      "headword": "תָּרָעָא",
+      "source_xml": "<entry id=\"V01032\">\n<head-word>תָּרָעָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>gate-keeper, guard</italic>.</definition>\n<notes>—תָּרָעַיָּא. Targ. I Chr. IX, 18; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>locksmith.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. as ab. Targ. II Kings XXIV, 16 (not תַּרְעֲיָא;</plural-form> h. text מַסְגֵּר); Targ. Jer. XXIV, 1 (not תַּרְעֲ').</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32424,
+      "source_id": "jastrow-xml-032424",
+      "canonical_entry_id": "V01033",
+      "headword": "תִּרְעָא",
+      "source_xml": "<entry id=\"V01033\">\n<head-word>תִּרְעָא</head-word>\n<head-word>תִּרְעָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00998\">תְּרִיעָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32425,
+      "source_id": "jastrow-xml-032425",
+      "canonical_entry_id": "V01034",
+      "headword": "תַּרְעוֹמֶת",
+      "source_xml": "<entry id=\"V01034\">\n<head-word>תַּרְעוֹמֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (רָעַם) \n<italic>murmur, complaint, quarrel</italic>.</definition>\n<notes> B. Mets. VI, 1 אין להם … אלא ת' they have nothing but a complaint (no legal claim) against each other. Ib. 76\n<sup>a</sup> ת' מאי עבידתיה what cause for complaint is there? [Answ. אמר ליה לית לך אל תמנע וכ' he may say to him, dost thou not believe in (Prov. III, 27), ‘withhold not a benefit &amp;c.’?] Y. ib. V, 10\n<sup>b</sup> המבטל כיס … אלא ת' if an agent leaves his neighbor’s money unemployed, the latter has no legal claim; ib. IX, beg. 12\n<sup>a</sup>, opp. חייב לשפות. Sabb. 56\n<sup>b</sup> לא עליך יש לי ת' וכ' (ed. תרעומות) I have no quarrel with thee, but only with him &amp;c.; Yalk. Sam. 151. Treat. Der. Er. Zuṭṭa ch. IX, beg. התרחק מן הת' וכ' keep aloof from murmuring (talking against a fellowman), for if thou talkest against thy neighbor, thou wilt commit other sins too. Ber. 12\n<sup>a</sup> בקשו … מפני ת' המינין they wanted to read so (recite the Ten Commandments with the Sh’mʿa in the prayers), had they not long ago abolished it on account of the seditious talk of the heretics (who declared nothing to be essential in the Law but the Ten Commandments); a. fr.—\n<plural-form>Pl. תַּרְעוּמוֹת</plural-form>. Tosef. Sot. VI, 1 ושאר כל הת' האמורות וכ' and all the other murmurings (against God) mentioned in that section (Job XXVII).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32426,
+      "source_id": "jastrow-xml-032426",
+      "canonical_entry_id": "V01035",
+      "headword": "תַּרְעָיָיא",
+      "source_xml": "<entry id=\"V01035\">\n<head-word>תַּרְעָיָיא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (תְּרַע I) \n<italic>one that makes a breach</italic>.</definition>\n<notes> Gen. R. s. 69 (play on ופרצת ימה, Gen. XXVIII, 14) את הוא ת' דימא (some ed. תְּרוֹעָיָיא) thou art he that will break through the sea (thy children will pass through the Red Sea); Yalk. Mic. 551 תרעא (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32427,
+      "source_id": "jastrow-xml-032427",
+      "canonical_entry_id": "V01036",
+      "headword": "תַּרְעֵילָה",
+      "source_xml": "<entry id=\"V01036\">\n<head-word>תַּרְעֵילָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">תַּרְעֵלָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32428,
+      "source_id": "jastrow-xml-032428",
+      "canonical_entry_id": "V01037",
+      "headword": "תַּרְעִיתָא",
+      "source_xml": "<entry id=\"V01037\">\n<head-word>תַּרְעִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (רְעֵי II) \n<italic>plan, cunning, ambition</italic> (in a good and an evil sense).</definition>\n<notes> Targ. Prov. XXVII, 9 (h. text עצה). Ib. I, 4 (h. text מזמה). Ib. XXXI, 16. Ib. XXIV, 9; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32429,
+      "source_id": "jastrow-xml-032429",
+      "canonical_entry_id": "V01038",
+      "headword": "תַּרְעֵלָה",
+      "source_xml": "<entry id=\"V01038\">\n<head-word>תַּרְעֵלָה</head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"T00905\">רְעַל</xref>) \n<italic>reeling, staggering</italic>.</definition>\n<notes> Esth. R. to I, 14 (play on שתר ib., v. שָׁתָה) משקה … כוס של ת' I will make them drink the cup of staggering. Gen. R. s. 16 עתיד … כוס תַּרְעֵילָה וכ' in the future the Lord will make the nations (that oppress Israel) drink the cup of staggering out of the place whence judgment goes forth (Eden).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32430,
+      "source_id": "jastrow-xml-032430",
+      "canonical_entry_id": "V01039",
+      "headword": "תַּרְעֵלָה",
+      "source_xml": "<entry id=\"V01039\">\n<head-word>תַּרְעֵלָה</head-word>\n<hw-number>II</hw-number>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Tarʿelah</italic>.</definition>\n<notes> Y. Shebi. IX, 38\n<sup>d</sup> bot. סכות ת' Succoth (Josh. XIII, 27) is now called Tarʿelah (v. Hildesh. Beitr., p. 48).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32431,
+      "source_id": "jastrow-xml-032431",
+      "canonical_entry_id": "V01040",
+      "headword": "תִּרְעֵם",
+      "source_xml": "<entry id=\"V01040\">\n<head-word>תִּרְעֵם</head-word>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"T00908\">רָעַם</xref>\n<italic>Hithpa.</italic>, and תַּרְעוֹמֶת) \n<italic>to make discontented, rebellious</italic>.</definition>\n<notes> Pesik. R. s. 43, end (ref. to הרעמה, I Sam. I, 6) את מְתַרְעֶמֶת אותה עלי וכ' thou attemptest to make her rebellious against me, v. רָעַם.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32432,
+      "source_id": "jastrow-xml-032432",
+      "canonical_entry_id": "V01041",
+      "headword": "תֻּרְעֲמָא",
+      "source_xml": "<entry id=\"V01041\">\n<head-word>תֻּרְעֲמָא</head-word>\n<head-word>תֻּרְעֲמוּתָא</head-word>\n<head-word>תּרְעַמְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00309\">תּוּרְעָמָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32433,
+      "source_id": "jastrow-xml-032433",
+      "canonical_entry_id": "V01042",
+      "headword": "תִּרְעֲתָא",
+      "source_xml": "<entry id=\"V01042\">\n<head-word>תִּרְעֲתָא</head-word>\n<head-word>תִּירְ'</head-word>\n<head-word>תּוּרְ'</head-word>\n<head-word>תּוּרְעָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (תְּרַע) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>breach</italic>.</definition>\n<notes> Targ. II Sam. VI, 8. Targ. I Kings XI, 27 (ed. Wil. תַּרְ'); a. fr.—Y. M. Kat. III, 83\n<sup>c</sup> top יסוג תּוּרְעֲתָךְ, v. סוּג I ch.; Gen. R. s. 100 תּוּרְעָךְ; ib. פסיג תִּרְעָךְ, v. פְּסַג; a. e.—\n<plural-form>Pl. תִּרְעָתָא, תִּי', תּוּ'</plural-form>. Targ. Ez. XIII, 5 (ed. Wil. תַּרְעֲתָא, corr. acc.).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>gate</italic>.</definition>\n<notes> Y. Snh. VI, 23\n<sup>c</sup> תִּירְעַת גיהינם the gate (door) of Gehenna; (Y. Ḥag. II, 77\n<sup>d</sup> bot. צירא דתַרְעָא וכ' a hinge of the gate of Gehenna).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32434,
+      "source_id": "jastrow-xml-032434",
+      "canonical_entry_id": "V01043",
+      "headword": "תָּרַף",
+      "source_xml": "<entry id=\"V01043\">\n<head-word>תָּרַף</head-word>\n<senses>\n<sense>\n<definition> (\n<italic>Taf.</italic></definition>\n<notes> of רָפָה), \n<italic>Hif.</italic> חִתְרִיף </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to make soft</italic>.</definition>\n<notes> Tosef. Shebi. I, 8 לא יקנח … מפני שמַתְרִיפוֹ ed. Zuck. (oth. ed. שמתרין, שמתרן) (in the Sabbatical year) one must not smear resin over a root (of a bulbous plant), because it makes it softer (advances its ripening).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to rot, decay; to become weak</italic>.</definition>\n<notes> B. Bath. 19\n<sup>b</sup> בשהִתְרִיפוּ when the dates are rotten. Y. B. Kam. V, end, 5\n<sup>a</sup> בשהתריפו מחמת אוירו when the animals grew sick from the air in the pit (v. הֶבֶל).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32435,
+      "source_id": "jastrow-xml-032435",
+      "canonical_entry_id": "V01044",
+      "headword": "תְּרַף",
+      "source_xml": "<entry id=\"V01044\">\n<head-word>תְּרַף</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>to be soft, dissolved, digested</italic>.</definition>\n<notes> Y. Shek. VI, 50\n<sup>a</sup> bot.; Cant. R. to IV, 12, v. תְּרַפְיוֹן.</notes></sense></senses>\n<binyan>\n<binyan-name>*.</binyan-name>\n<binyan-form>אַתְרִיף</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to use foul language, blaspheme</italic>.</definition>\n<notes> Targ. Ps. XLIV, 7 Levita (ed. מגדף).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32436,
+      "source_id": "jastrow-xml-032436",
+      "canonical_entry_id": "V01045",
+      "headword": "תרפא",
+      "source_xml": "<entry id=\"V01045\">\n<head-word>תרפא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pirké d’R. El. ch. LI, end, v. \n<xref rid=\"V01049\">תְּרַפְיוֹן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32437,
+      "source_id": "jastrow-xml-032437",
+      "canonical_entry_id": "V01046",
+      "headword": "תַּרְפּוּת",
+      "source_xml": "<entry id=\"V01046\">\n<head-word>תַּרְפּוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (תָּרַף) [\n<italic>foulness</italic>,] \n<italic>obscenity, debauchery</italic> at idolatrous festivals.</definition>\n<notes> Ab. Zar. II, 3 ההולכין לת' אסור וכ' you must not deal with those who journey to idolatrous festivals (Dionysia), but you may deal with those who are coming home; Tosef. ib. I, 15; Y. ib. II, 41\n<sup>b</sup> [read:] אית תניי תני ת' ואית תניי תני תרבות מאן … תרפים וכ' some read \n<italic>tarputh</italic>, and others read \n<italic>tarbuth</italic>; he that reads \n<italic>tarputh</italic> refers to \n<italic>t’rafim</italic> (תְּרָפִים \n<italic>obscenities</italic>, v. תּוֹרְפָה) &amp;c., v. תּוֹרִיב. Tosef. l. c. 16 לא … עם שיירא בת' (our w. omitted in ed. Zuck.) a man (Jew) must not go with a party on an idolatrous pilgrimage. Bab. ib. 32\n<sup>b</sup> נכרי ההולך לת' וכ' if a gentile is going to an idolatrous festival, you must not deal with him, because he goes to offer his devotion to idolatry, but on his way back you may deal with him &amp;c.; ישראל ההולך לת' וכ' if a Jew is going to an idolatrous festival, you may deal with him on his way to it, for he may reconsider and not go &amp;c.; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32438,
+      "source_id": "jastrow-xml-032438",
+      "canonical_entry_id": "V01047",
+      "headword": "תַּרְפּוּתָא",
+      "source_xml": "<entry id=\"V01047\">\n<head-word>תַּרְפּוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00316\">תּוּרְפִּיתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32439,
+      "source_id": "jastrow-xml-032439",
+      "canonical_entry_id": "V01048",
+      "headword": "תרפיה",
+      "source_xml": "<entry id=\"V01048\">\n<head-word>תרפיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01049\">next w.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32440,
+      "source_id": "jastrow-xml-032440",
+      "canonical_entry_id": "V01049",
+      "headword": "תְּרַפְיוֹן",
+      "source_xml": "<entry id=\"V01049\">\n<head-word>תְּרַפְיוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (תָּרַף, cmp. רִפְיוֹן) \n<italic>a laxative</italic>.</definition>\n<notes> Deut. R. s. 1, beg. (expl. לתרופה, Ez. XLVII, 12) לת' its leaves shall serve as a laxative; Y. Shek. VI, 50\n<sup>a</sup> bot. תרפיה מצץ עֲלַיָּהּ ותרף מזונה (corr. acc.) a laxative, one sucks its leaves, and his food is digested; Cant. R. to IV, 12 לת' מָצֵיץ עליה ותרף מזוניה; Pirké d’R. El. ch. LI לתרפא מציצין ליה ושרף מזונה (corr. acc.).—[Yalk. Ez. 383 לת', v. תְּרוּפָה.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32441,
+      "source_id": "jastrow-xml-032441",
+      "canonical_entry_id": "V01050",
+      "headword": "תְּרָפִים",
+      "source_xml": "<entry id=\"V01050\">\n<head-word>תְּרָפִים</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>Teraphim</italic>, a certain form of idols.</definition>\n<notes> Tanḥ. Vayetsé 12 וכי הת' מדברים הן do the Teraphim talk? Ib. למה נקראו ת' שהן מעשה תורף וכ', v. תּוֹרְפָה (v. צִיץ II). Y. Ab. Zar. II, 41\n<sup>b</sup>, v. תַּרְפּוּת. Gen. R. s. 74; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32442,
+      "source_id": "jastrow-xml-032442",
+      "canonical_entry_id": "V01051",
+      "headword": "תִּרְפֵּס",
+      "source_xml": "<entry id=\"V01051\">\n<head-word>תִּרְפֵּס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00843\">תָּפַס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32443,
+      "source_id": "jastrow-xml-032443",
+      "canonical_entry_id": "V01052",
+      "headword": "תְּרַפְתָּא",
+      "source_xml": "<entry id=\"V01052\">\n<head-word>תְּרַפְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (תרף, cmp. רפא) \n<italic>healing, cicatrization</italic>.</definition>\n<notes> Keth. 39\n<sup>b</sup> כי ת' דסיכורי Vers. in Rashi a. Ar. as much pain as is caused by the healing of the puncture made in letting blood.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32444,
+      "source_id": "jastrow-xml-032444",
+      "canonical_entry_id": "V01053",
+      "headword": "תְּרַץ",
+      "source_xml": "<entry id=\"V01053\">\n<head-word>תְּרַץ</head-word>\n<senses>\n<sense>\n<definition> (cmp. תָּרוּט) \n<italic>to make straight, level</italic>.</definition>\n<notes> Targ. Ps. CXIX, 128 (Ms. \n<italic>Pa.</italic>). Targ. Prov. XI, 6 תִּתְרוֹץ Ms. (ed. \n<italic>Pa.</italic>); a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>תָּרֵיץ</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to make straight; to arrange, lead</italic>.</definition>\n<notes> Ib. III, 6 יְתָרֵץ (some ed. תָּרֵיץ Part. \n<italic>Pe.</italic>). Targ. Job XXXIII, 27 Ms. (ed. Wil. יִתְרִיץ; h. text יָשֹׁר!). Targ. Y. Ex. XXXIX, 33; a. e.—Targ. II Chr. XXIX, 34 תָּרֵיצוּ ed. Wil. (add.: לבא) they made their heart straight (ready; oth. ed. תְּרִיצֵי לבא were straight of heart; h. text ישרי לב).—Ber. 46\n<sup>b</sup>, v. infra.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (mentally) \n<italic>to set aright, settle, harmonize</italic>.</definition>\n<notes> Gitt. 4\n<sup>b</sup> רבה מְתָרֵץ לטעמיה ורבא מתרץ וכ' Rabbah settles (explains the differences of opinion in the Mishnah) in accordance with his principle (so that both disputants agree with his principle), and Raba in accordance with his. B. Mets. 14\n<sup>b</sup> לאו תָּרוּצֵי קא מְתָרְצַת תָּרֵיץ נמי בבעל חוב must you not (in order to uphold the Boraitha) explain it (that it refers to robbers)? explain it just as well that it refers to a creditor. Keth. 35\n<sup>b</sup> היכי מְתָרֵיץ לה how will he harmonize the Mishnah (with his principle)? Sabb. 62\n<sup>a</sup> תָּרְצַת אשה וכ' you have explained the case satisfactorily with regard to woman, what have you to say concerning the case of man? M. Kat. 13\n<sup>b</sup>; a. v. fr.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתָּרֵיץ, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיתְרִיץ</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to straighten one’s self, sit up</italic>.</definition>\n<notes> Ber. 46\n<sup>b</sup> מִתְרִיץ תָּרוּצֵי וכ' he (that reclines at a meal in front of another diner) would have to sit up in order to talk to him.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be set aright, be harmonized</italic>.</definition>\n<notes> B. Bath. 170\n<sup>a</sup> מתניתא לא מִיתָּרְצָא אלא כדמְתָרְצָהּ מר וכ' (not כדמתרצא) the Boraitha cannot be satisfactorily explained, except as you explained it, and this being so &amp;c.; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32445,
+      "source_id": "jastrow-xml-032445",
+      "canonical_entry_id": "V01054",
+      "headword": "תְּרִצָא",
+      "source_xml": "<entry id=\"V01054\">\n<head-word>תְּרִצָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01003\">תְּרִיצוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32446,
+      "source_id": "jastrow-xml-032446",
+      "canonical_entry_id": "V01055",
+      "headword": "תַּרְקָא",
+      "source_xml": "<entry id=\"V01055\">\n<head-word>תַּרְקָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01059\">תַּרְקִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32447,
+      "source_id": "jastrow-xml-032447",
+      "canonical_entry_id": "V01056",
+      "headword": "תַּרְקַב",
+      "source_xml": "<entry id=\"V01056\">\n<head-word>תַּרְקַב</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= תרי קב) [\n<italic>two Kabs</italic>; later] \n<italic>three Kabs</italic>, a dry measure (v. Herzfeld, Metrol. Voruntersuch. II, p. 63 sq.); also \n<italic>a field requiring a Tarḳab of seed</italic>.</definition>\n<notes> Tosef. Maasr. II, 7 בינונית אינה פחותה מת' וכ' a medium size basket is no less than a Tarḳab, a small one no less than two Kabs; (differ. in Y. ib. II, 49\n<sup>c</sup> bot.). Tam. V, 4 והכף דומה לת' גדול וכ' the spoon (for frankincense) resembled a large Tarḳab …, containing three Kabs. Nidd. 49\n<sup>b</sup> או ת' וישב עליו or if he inverted a T. and sat on it; Sabb. 59\n<sup>a</sup>; Ḥag. 23\n<sup>b</sup> (not עליה). Y. Ber. I, 2\n<sup>c</sup> bot., v. תַּמְצִית; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32448,
+      "source_id": "jastrow-xml-032448",
+      "canonical_entry_id": "V01057",
+      "headword": "תַּרְקַבָּא",
+      "source_xml": "<entry id=\"V01057\">\n<head-word>תַּרְקַבָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Kidd. 11\n<sup>a</sup> ת' דדינרי a Tarḳabful of gold Denars. Yoma 18\n<sup>a</sup> ת' דדינרי עיילא ליה וכ' Martha … gave king Jannai a T. of Denars to nominate Joshua ben Gamla as one of the high priests (to be elected by the electors); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32449,
+      "source_id": "jastrow-xml-032449",
+      "canonical_entry_id": "V01058",
+      "headword": "תַּרְקוֹשׁ",
+      "source_xml": "<entry id=\"V01058\">\n<head-word>תַּרְקוֹשׁ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01009\">תַּרְכּוֹס</xref>, a. טַרְכֵּשׁ.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32450,
+      "source_id": "jastrow-xml-032450",
+      "canonical_entry_id": "V01059",
+      "headword": "תַּרְקִי",
+      "source_xml": "<entry id=\"V01059\">\n<head-word>תַּרְקִי</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition> (θρᾴκη) \n<italic>Thracia, Thrace</italic>, a country in the south-eastern extremity of Europe.</definition>\n<notes> Targ. Y. Gen. X, 2; Targ. I Chr. I, 5 (ed. Rahmer Var. תַּרְקְיָא or תְּרָקְיָא; h. text תירס);—Y. Meg. I, 71\n<sup>b</sup> bot. תרקא; Gen. R. s. 37 תּוּרְקִי; Yalk. ib. 61; Yoma 10\n<sup>a</sup> בית תְּרַיְיקִי (Ms. M. 1 טרוקי; Ms. M. 2 טראקי; Ms. O. a. Ar. טרקי; Ms. L. טרקאי, v. Rabb. D. S. a. l. note 8). Y. Kidd. I, 61\n<sup>d</sup> top; Y. Shebi. VI, 36\n<sup>b</sup> bot. תורקי (for הקדמני, Gen. XV, 19); Gen. R. s. 44 תרקי (for קנזי, Gen. l. c.); Yalk. ib. 78 טרקי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32451,
+      "source_id": "jastrow-xml-032451",
+      "canonical_entry_id": "V01060",
+      "headword": "תַּרְקְיָא",
+      "source_xml": "<entry id=\"V01060\">\n<head-word>תַּרְקְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> I, v. \n<xref rid=\"V01059\">preced.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32452,
+      "source_id": "jastrow-xml-032452",
+      "canonical_entry_id": "V01061",
+      "headword": "תַּרְקְיָא",
+      "source_xml": "<entry id=\"V01061\">\n<head-word>תַּרְקְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> II, v. טַרְקְיָא.—[Gen. R. s. 12, end; Yalk. ib. 19, v. \n<xref rid=\"V01062\">next w.</xref>]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32453,
+      "source_id": "jastrow-xml-032453",
+      "canonical_entry_id": "V01062",
+      "headword": "תַּרְקיעַ",
+      "source_xml": "<entry id=\"V01062\">\n<head-word>תַּרְקיעַ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (רָקַע) \n<italic>beaten metal, foil</italic>.</definition>\n<notes> Gen. R. s. 12, end (ref. to Job XXXVII, 18 תרקיע וכ') נראים כמין ת' (ed. Wil., as Ar., תרקיא) the heavens look like a beaten metal plate; Yalk. ib. 19 נראין כבשעת יציקתן כמו תרקיא they look always as at the time they were cast, like &amp;c.; (Y. Ber. I, 2\n<sup>c</sup> bot. תרקיע מלמד שעשויין כטס \n<italic>tarkiʿa</italic> intimates that they are like foil).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32454,
+      "source_id": "jastrow-xml-032454",
+      "canonical_entry_id": "V01063",
+      "headword": "תרת",
+      "source_xml": "<entry id=\"V01063\">\n<head-word>תרת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. B. Mets. VI, beg. 10\n<sup>d</sup> מתרית, v. \n<xref rid=\"V00972\">תְּרַח</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32455,
+      "source_id": "jastrow-xml-032455",
+      "canonical_entry_id": "V01064",
+      "headword": "תרתא",
+      "source_xml": "<entry id=\"V01064\">\n<head-word>תרתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00323\">תּוּרְתָּיָיה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32456,
+      "source_id": "jastrow-xml-032456",
+      "canonical_entry_id": "V01065",
+      "headword": "תַּרְתָּא",
+      "source_xml": "<entry id=\"V01065\">\n<head-word>תַּרְתָּא</head-word>\n<head-word>תַּרְתֵּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">תְּרֵי III</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32457,
+      "source_id": "jastrow-xml-032457",
+      "canonical_entry_id": "V01066",
+      "headword": "תִּרְתָּיָיה",
+      "source_xml": "<entry id=\"V01066\">\n<head-word>תִּרְתָּיָיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00323\">תּוּרְתָּיָיה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32458,
+      "source_id": "jastrow-xml-032458",
+      "canonical_entry_id": "V01067",
+      "headword": "תַּרְתֵּר",
+      "source_xml": "<entry id=\"V01067\">\n<head-word>תַּרְתֵּר</head-word>\n<senses>\n<sense>\n<definition> (cmp. נְתַר \n<italic>Pa</italic>.</definition>\n<notes>) \n<italic>to crumble, cast loose earth</italic>. Pesik. B’shall., p. 80\n<sup>a</sup> שרי מְתַרְתֵּר עפרא עליהון it (the domestic serpent) began to crumble dust upon them (the garlic bulbs); Y. Ter. VIII, 46\n<sup>a</sup> מישרי מתרתר וכ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32459,
+      "source_id": "jastrow-xml-032459",
+      "canonical_entry_id": "V01068",
+      "headword": "תַּשׁ",
+      "source_xml": "<entry id=\"V01068\">\n<head-word>תַּשׁ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (תָּשַׁשׁ) \n<italic>weak</italic>.</definition>\n<notes> Y. Bets. V, 63\n<sup>a</sup> top, v. שָׁעַן.—\n<plural-form>Pl. תַּשִּׁים, תַּשִּׁין</plural-form>. Midr. Sam. ch. IX האילת הזו איבריה ת' וכ' the hind has tender limbs, and when she wants water, she is afraid &amp;c. Gen. R. s. 20 (play on ת̇ש̇ו̇ק̇תו, Cant. VII, 1</notes></sense>\n<sense>\n<number>1)</number>\n<definition> ת̇ש̇ים אנו ואפי' שאנו ת' אנו מק̇ו̇ים וכ' we are weak (in good deeds), but although we are weak, we hope for &amp;c. Num. R. s. 10\n<sup>1</sup>, v. \n<xref rid=\"V01110\">תָּשַׁש</xref>; a. e.—\n<italic>Fem.</italic></definition>\n<notes> תַּשָּׁה. Yalk. Ps. 862 יעלה זו ת' היא, v. יְעֵלָה; Gen. R. s. 12 תְּשִׁיָּיה.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32460,
+      "source_id": "jastrow-xml-032460",
+      "canonical_entry_id": "V01069",
+      "headword": "תֻּשְׁבְּחָא",
+      "source_xml": "<entry id=\"V01069\">\n<head-word>תֻּשְׁבְּחָא</head-word>\n<head-word>תִּשְׁבָּחָה</head-word>\n<head-word>תֻּשְׁבַּחְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub תּוּשְׁ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32461,
+      "source_id": "jastrow-xml-032461",
+      "canonical_entry_id": "V01070",
+      "headword": "תַּשָּׁה",
+      "source_xml": "<entry id=\"V01070\">\n<head-word>תַּשָּׁה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00327\">תַּשׁ</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32462,
+      "source_id": "jastrow-xml-032462",
+      "canonical_entry_id": "V01071",
+      "headword": "תְּשׁוּב",
+      "source_xml": "<entry id=\"V01071\">\n<head-word>תְּשׁוּב</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>T’shub</italic>, native place of Elijah the Tishbite.</definition>\n<notes> Targ. I Kings XVII, 1; II Kings I, 8 ed. Lag. (oth. ed. תּוֹשָׁב); a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32463,
+      "source_id": "jastrow-xml-032463",
+      "canonical_entry_id": "V01072",
+      "headword": "תְּשׁוּבָה",
+      "source_xml": "<entry id=\"V01072\">\n<head-word>תְּשׁוּבָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> שׁוּב)</xref></language-reference>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>return to God, repentance</italic>.</definition>\n<notes> Ab. IV, 11, v. תָּרִיס. Pes. 54\n<sup>a</sup> שבעה … תורה ת' וכ' seven things were created before the world was made, they are: the Law, repentance &amp;c. Ib. 119\n<sup>a</sup> (ref. to Ez. I, 8) זה ידו … כדי לקבל בעלי ת' that is the hand of the Lord which is spread under the wings of the Ḥayoth (v. חַיָּה I) to receive the repentant sinners. Ber. 34\n<sup>b</sup> מקום שבעלי ת' עומדין וכ' where the repentant sinners stand, the perfectly righteous are not permitted to stand, for it is said (Is. LVII, 19) &amp;c. Yeb. 21\n<sup>a</sup> (in Chald. dict.) הני אפשר בת' הני לא אפשר בת' these sins (of incest) may be remedied by repentance, but those (of giving false measures) cannot be remedied by repentance (because you can make no restoration). Pesik. R. s. 28 (ref. to Ps. CXXXVII, </notes></sense>\n<sense>\n<number>2)</number>\n<definition> בא וראה עפרה … לת' וכ' come and see (the power of the love of) the dust of the land of Israel for repentance: as long as they were in the land of Israel, Jeremiah said to them, do penance, &amp;c.; a. fr.— \n<italic>reply, answer</italic>.</definition>\n<notes> Sabb. 88\n<sup>b</sup> החזיר להן ת' give them an answer (refute their argument). Pes. 94\n<sup>a</sup> מה ת' השיבתו בת קול וכ' what was the reply the divine voice gave to that wicked man (Nebuchadnezzar), when he said (Is. XIV, 1</notes></sense>\n<sense>\n<number>3)</number>\n<definition>, I will rise &amp;c.?; Ḥag. 13\n<sup>a</sup>.</definition>\n<notes> Snh. 91\n<sup>a</sup> החזירו לו ת' make your argument against him; לא מצאו ת' they could find nothing to reply. Ib. 105\n<sup>a</sup>, v. נִצֵּחַ. Ab. Zar. 44\n<sup>b</sup> ת' גנובה, v. גָּנַב; a. fr.—\n<plural-form>Pl. תְּשׁוּבוֹת</plural-form>. Yoma 12\n<sup>b</sup> שתי ת' בדבר חדא וכ' there are two arguments against it, first that &amp;c.; Keth. 87\n<sup>b</sup>; a. fr.—Gen. R. s. 20 בעל ת', v. בַּעַל.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32464,
+      "source_id": "jastrow-xml-032464",
+      "canonical_entry_id": "V01073",
+      "headword": "תַּשְׁוַויְתָא",
+      "source_xml": "<entry id=\"V01073\">\n<head-word>תַּשְׁוַויְתָא</head-word>\n<head-word>תַּשְׁוִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (שְׁוִיִ) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>bed, couch, mattress, carpet</italic>.</definition>\n<notes> Targ. Prov. XXII, 27.—\n<plural-form>Pl. תַּשְׁוָויָיתָא, תַּשְׁוָיָ'</plural-form>. Ib. XXXI, 22 (h. text מרבדים). Ib. VII, 16.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>bed, bottom</italic>.</definition>\n<notes> Targ. Ez. XLIII, 13; 14; 17 (h. text חיק).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32465,
+      "source_id": "jastrow-xml-032465",
+      "canonical_entry_id": "V01074",
+      "headword": "תְּשׂוֹמֶת",
+      "source_xml": "<entry id=\"V01074\">\n<head-word>תְּשׂוֹמֶת</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> שׂוּם)</xref></language-reference>\n<senses>\n<sense>\n<definition> , ת' יד \n<italic>trust, loan</italic>.</definition>\n<notes> Sifra Vayiḳra, Ḥob., Par. 9, ch. XV; Shebu. IV, 5 פקדון ות' יד a charge or a loan. B. Mets. 48\n<sup>a</sup>, a. e. ת' יד … כגון שיחד לו וכ' by \n<italic>t’someth yad</italic> we mean a loan for which the debtor has designated a certain object in his possession as security. Ib. (ref. to Lev. V, 24) לרבות ת' יד להישבון this includes the \n<italic>t’someth yad</italic> as amenable to the law of restoration (v. הֵשָׁבוֹן); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32466,
+      "source_id": "jastrow-xml-032466",
+      "canonical_entry_id": "V01075",
+      "headword": "תִּשּׁוּעַ",
+      "source_xml": "<entry id=\"V01075\">\n<head-word>תִּשּׁוּעַ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00517\">תִּישּׁוּעַ</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32467,
+      "source_id": "jastrow-xml-032467",
+      "canonical_entry_id": "V01076",
+      "headword": "תְּשׁוּעָה",
+      "source_xml": "<entry id=\"V01076\">\n<head-word>תְּשׁוּעָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> יָשַׁע)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>help, salvation</italic>.</definition>\n<notes> Ex. R. s. 18, end ביום שעשיתי לכם ת' וכ' on the anniversary of the day on which I wrought salvation for you (on the fourteenth of Nisan), and in that very night. Ib. s. 19, end ועשה להם ת' and he saved them; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32468,
+      "source_id": "jastrow-xml-032468",
+      "canonical_entry_id": "V01077",
+      "headword": "תּשׁוּקָה",
+      "source_xml": "<entry id=\"V01077\">\n<head-word>תּשׁוּקָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"U00518\"> שׁוּק I)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>desire</italic>.</definition>\n<notes> Gen. R. s. 20 אין תְּשׁוּקָתָהּ של אשה וכ' the wife’s longing is for her husband (Gen. III, 16) אין תְּשׁוּקָתוֹ של יצר וכ' the tempter longs for Cain and the like of him (ib. IV, 7); אין תְּשׁוּקָתָן של the rains long for the earth (Ps. LXV, 10); ואין תשוקתו של הקב\"ה וכ' and the Lord longs for Israel (Cant. VII, 11). Ib. תשובי לתְשׁוּקָתֵךְ return to thy desire; תשובי לתְשׁוּקַת אישך return to the desire for thy husband; a. e.—\n<plural-form>Pl. תְּשׁוּקוֹת</plural-form>. Ib. ארבע ת' הן וכ' there are four desires (four Biblical passages containing the word \n<italic>t’shuḳah</italic> or its root); Yalk. ib. 32.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32469,
+      "source_id": "jastrow-xml-032469",
+      "canonical_entry_id": "V01078",
+      "headword": "תְּשׁוּרָה",
+      "source_xml": "<entry id=\"V01078\">\n<head-word>תְּשׁוּרָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"U00533\"> שור</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"U00911\">שְׁיָירָה I</xref>) \n<italic>traveller’s gift</italic> to the host, \n<italic>present</italic>.</definition>\n<notes> Yalk. Cant. 988 (ref. to תשורי, Cant. IV, 8) שעתידין … כת' הזו the nations will bring Israel as the travellers’ gift (alluding to Is. LXVI, 20; cmp. Cant. R. to l. c.). Midr. Till. to Ps. LXXXVII (ref. to תשורי, Cant. l. c.) למה נקרא דורון ת' דבר נש מסתכל וכ' why is a gift called \n<italic>t’shurah</italic>? Because man looks at it and says, how beautiful! (ed. Bub. שמסתכלין בה ומזמרין; by ref. to Job VII, 8); Yalk. ib. 838 (not תשורו).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32470,
+      "source_id": "jastrow-xml-032470",
+      "canonical_entry_id": "V01079",
+      "headword": "תָּשׁוּשׁ",
+      "source_xml": "<entry id=\"V01079\">\n<head-word>תָּשׁוּשׁ</head-word>\n<senses>\n<sense>\n<definition>\n<italic>weak</italic>, v. \n<xref rid=\"V01110\">תָּשַׁשׁ</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32471,
+      "source_id": "jastrow-xml-032471",
+      "canonical_entry_id": "V01080",
+      "headword": "תַּשּׁוּתָא",
+      "source_xml": "<entry id=\"V01080\">\n<head-word>תַּשּׁוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (תְּשַׁשׁ) \n<italic>weakness, feebleness</italic>.</definition>\n<notes> Targ. Lam. I, 6 תַּשּׁוּת כח (ed. Vien. תָּשׁוּת).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32472,
+      "source_id": "jastrow-xml-032472",
+      "canonical_entry_id": "V01081",
+      "headword": "תִּשְׁחוֹרֶת",
+      "source_xml": "<entry id=\"V01081\">\n<head-word>תִּשְׁחוֹרֶת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (שָׁחַר II, v. Ned. III, 8 quot.</definition>\n<notes> s. v. שָׁחוֹר I) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>early manhood, youth</italic>.</definition>\n<notes> Ab. III, 2 נוח לת', v. נוֹחַ II; Y. Taan. II, 65\n<sup>b</sup> bot. (corr. acc.). Lam. R. to I, 2 היה לה בן ת' ומת she had a grown up son, and he died; ib. II, 11.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (sub. מיתת) \n<italic>death at manhood, premature death</italic>.</definition>\n<notes> Ib. של ת' (דמעה) tears over the loss of a grown up child. Treat. Der. Er. Zutta ch. IX כרי שתנצל ממלאך הת' in order that thou mayest be saved from the angel of premature death.—[</notes></sense>\n<sense>\n<number>3)</number>\n<definition>\n<italic>search for young men, conscription</italic>.</definition>\n<notes> Tanna d’be Elijahu ch. I.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32473,
+      "source_id": "jastrow-xml-032473",
+      "canonical_entry_id": "V01082",
+      "headword": "תַּשְׁיוּתָא",
+      "source_xml": "<entry id=\"V01082\">\n<head-word>תַּשְׁיוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. (תשי = תשש) = תַּשּׁוּתָא. Targ. Job XXX, 22 Ms. (ed. Lag. תַּשְׁיָיתָא; ed. Wil. תֻּשִׁיָתָא; h. text תשוה, Ḳ’ri תשיה).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32474,
+      "source_id": "jastrow-xml-032474",
+      "canonical_entry_id": "V01083",
+      "headword": "תְּשִׁיָּיה",
+      "source_xml": "<entry id=\"V01083\">\n<head-word>תְּשִׁיָּיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00327\">תַּשׁ</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32475,
+      "source_id": "jastrow-xml-032475",
+      "canonical_entry_id": "V01084",
+      "headword": "תַּשְׁיָיתָא",
+      "source_xml": "<entry id=\"V01084\">\n<head-word>תַּשְׁיָיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01082\">תַּשְׁיוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32476,
+      "source_id": "jastrow-xml-032476",
+      "canonical_entry_id": "V01085",
+      "headword": "תְּשֵׁיסַר",
+      "source_xml": "<entry id=\"V01085\">\n<head-word>תְּשֵׁיסַר</head-word>\n<head-word>תְּשֵׁיסְרָאָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01104\">תְּשַׁע</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32477,
+      "source_id": "jastrow-xml-032477",
+      "canonical_entry_id": "V01086",
+      "headword": "תְּשִׁיעָאָה",
+      "source_xml": "<entry id=\"V01086\">\n<head-word>תְּשִׁיעָאָה</head-word>\n<head-word>תְּשִׁיעֵיתָא</head-word>\n<head-word>תְּשִׁיעַתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (תְּשַׁע) \n<italic>ninth</italic>.</definition>\n<notes> Targ. Num. VII, 60. Targ. II Kings XVII, 6. Ib. XXV, 1; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32478,
+      "source_id": "jastrow-xml-032478",
+      "canonical_entry_id": "V01087",
+      "headword": "תְּשִׁיעִי",
+      "source_xml": "<entry id=\"V01087\">\n<head-word>תְּשִׁיעִי</head-word>\n<head-word>תְּשִׁיעִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. (b. h.; תֵּשַׁע) same. Yoma 81\n<sup>b</sup> כל האוכל ושותה … ת' ועשירי whoever eats and drinks on the ninth (of Tishri, being cheerful in his faith in God’s forgiveness) is considered as if he fasted on the ninth and the tenth. Bekh. IX, 8 קרא לת' עשירי if (in counting the sheep for tithes) he called the ninth the tenth; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32479,
+      "source_id": "jastrow-xml-032479",
+      "canonical_entry_id": "V01088",
+      "headword": "תְּשִׁיעֵיתָא",
+      "source_xml": "<entry id=\"V01088\">\n<head-word>תְּשִׁיעֵיתָא</head-word>\n<head-word>תְּשִׁיעֲתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01086\">תְּשִׁיעָאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32480,
+      "source_id": "jastrow-xml-032480",
+      "canonical_entry_id": "V01089",
+      "headword": "תָּשִׁישׁ",
+      "source_xml": "<entry id=\"V01089\">\n<head-word>תָּשִׁישׁ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01091\">תְּשִׁישׁוּת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32481,
+      "source_id": "jastrow-xml-032481",
+      "canonical_entry_id": "V01090",
+      "headword": "תַּשִּׁישׁ",
+      "source_xml": "<entry id=\"V01090\">\n<head-word>תַּשִּׁישׁ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (תְּשַׁשׁ) \n<italic>weak, frail, sick</italic>.</definition>\n<notes> Koh. R. to V, 12, v. כָּפִין. Y. Ber. II, 4\n<sup>b</sup> top בגין דאנא ת' ואנא וכ' because I am feeble (old), and I become drowsy when reading the Sh’mʿa &amp;c. Ib. V, 9\n<sup>d</sup> top כד הוה ת' וכ' when he felt too weak (to pronounce the priestly benediction), he tied his head up &amp;c. Y. Sabb. VI, 8\n<sup>c</sup> bot. סלקון … דהוה ת' they went to visit R. A., who was sick. Y. M. Kat. III, 83\n<sup>d</sup> top שמע דר' חנינא ת' heard that R. H. was sick; a. e.—\n<plural-form>Pl. תַּשִּׁישִׁין, תַּשִּׁישִׁי</plural-form>. Lev. R. s. 5, end מה תורי … ת' how are the oxen? Said he, they are sick; a. e.—Cant. R. to V, 16 לתשישין, read: לתְשׁוּשִׁין, v. תָּשַׁשׁ.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32482,
+      "source_id": "jastrow-xml-032482",
+      "canonical_entry_id": "V01091",
+      "headword": "תְּשִׁישׁוּת",
+      "source_xml": "<entry id=\"V01091\">\n<head-word>תְּשִׁישׁוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>feebleness, frailty</italic>.</definition>\n<notes> Koh. R. to X, 17 (ref. to בשתי, ib.) בגבורתו ולא בתְשִׁישׁוּתוֹ (some ed. בתְשִׁישׁוֹ) (who does good) while he is in his strength, and not when he is feeble (old).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32483,
+      "source_id": "jastrow-xml-032483",
+      "canonical_entry_id": "V01092",
+      "headword": "תֻּשִׁיָתָא",
+      "source_xml": "<entry id=\"V01092\">\n<head-word>תֻּשִׁיָתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01082\">תַּשְׁיוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32484,
+      "source_id": "jastrow-xml-032484",
+      "canonical_entry_id": "V01093",
+      "headword": "תַּשְׁלוּם",
+      "source_xml": "<entry id=\"V01093\">\n<head-word>תַּשְׁלוּם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (שָׁלַם) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>payment, indemnity.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. תַּשְׁלוּמִים, תַּשְׁלוּמִין</plural-form>. B. Kam. I, 1 תַּשְׁלוּמֵי נזק, v. נֵזֶק. Ib. 2 חבתי בת' (Y. a. Bab. ed. 9\n<sup>b</sup> בתשלומי נזקו), v. חוּב h. Ib. 3 הניזק והמזיק בת' the injured and the injurer may be subject to payment of indemnities; Tosef. ib. I, 3 הניזק … בת' לשלם חצי נזק they may be subject to payment in the event of half-damage having to be paid (v. Bab. ib. 15\n<sup>a</sup>). Tosef. Keth. III, 5 יום הכפורים הרי הוא כשבת לת' the Day of Atonement is like the Sabbath with regard to indemnification; Keth. 30\n<sup>a</sup> מה שבת … ופטור מן הת' וכ' as he who does forbidden labor on the Sabbath forfeits his life, and is exempt from indemnity (if he did damage through his labor), so he &amp;c. Sifra Emor Par. 14, ch. XX (ref. to Lev. XXIV, 21) מה מכה בהמה בת' אף … בת' as he who injures an animal pays damages, so he who injures a man has to pay an indemnity for the injured limb. Y. B. Bab. II, end, 3\n<sup>a</sup> וייעשה מי שחלו עליו ת' let him be treated as one on whom rests the obligation to pay damages. Ib. על … נתחייב מיתה מכאן והילך ת' let him be guilty of death for the first ear of corn (which he ignited on the Sabbath), and guilty of damages for the rest; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>complement</italic>.</definition>\n<notes> Ker. 27\n<sup>a</sup>, v. next w.—\n<italic>Pl.</italic> as ab. Y. Erub. II, 20\n<sup>b</sup> מטלטלין בשני ת' לראשון you may move things (on the Sabbath) within the second partition as far as would make up the legally allowed distance for the first partition.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32485,
+      "source_id": "jastrow-xml-032485",
+      "canonical_entry_id": "V01094",
+      "headword": "תַּשְׁלוּם",
+      "source_xml": "<entry id=\"V01094\">\n<head-word>תַּשְׁלוּם</head-word>\n<head-word>תַּשְׁלוּמָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>payment, retribution, reward; indemnity</italic>.</definition>\n<notes> Targ. II Sam. XIX, 37 (h. text גמולה).—Y. Keth. IV, 29\n<sup>a</sup> top שכן הוא כותב ת' מן נכסיה וכ' for so he writes (in his marriage agreement), ‘payment to be secured from property that may come to me’ &amp;c.; Y. Yeb. XV, 14\n<sup>d</sup> bot. תַּשְׁלַמְתָּה מן ניכסיי וכ'.—\n<plural-form>Pl. תַּשְׁלוּמִין, תַּשְׁלוּמֵי</plural-form>. Targ. Y. II Lev. XXIV, 20 תשלומי in payment for (h. text תחת).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>complement</italic>.</definition>\n<notes> Ker. 27\n<sup>a</sup> תשלום דסלע (Rashi תשלומי) that which is wanted to make it a full Sela.—\n<plural-form>Pl. as ab. Ib. ת' דסלע</plural-form></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32486,
+      "source_id": "jastrow-xml-032486",
+      "canonical_entry_id": "V01095",
+      "headword": "תֻּשְׁלַחְתָּא",
+      "source_xml": "<entry id=\"V01095\">\n<head-word>תֻּשְׁלַחְתָּא</head-word>\n<head-word>תֻּשְׁלֵימָא</head-word>\n<head-word>תֻּשְׁלָמָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub תּוּשְׁל'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32487,
+      "source_id": "jastrow-xml-032487",
+      "canonical_entry_id": "V01096",
+      "headword": "תַּשְׁלַמְתָּה",
+      "source_xml": "<entry id=\"V01096\">\n<head-word>תַּשְׁלַמְתָּה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01094\">תַּשְׁלוּמָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32488,
+      "source_id": "jastrow-xml-032488",
+      "canonical_entry_id": "V01097",
+      "headword": "תַּשְׁמִישׁ",
+      "source_xml": "<entry id=\"V01097\">\n<head-word>תַּשְׁמִישׁ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (שָׁמַשׁ) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>handling, use</italic>; (sub. כלי) \n<italic>utensil</italic>.</definition>\n<notes> Sabb. 8\n<sup>a</sup> ת' ע\"י הדחק לא שמיה ת' use by force (with inconvenience) is not considered use (such as makes the place so utilized public ground for Sabbath purposes). Num. R. s. 18\n<sup>8</sup> (ref. to Num. XVI, 6) הרי לכם ת' החביב וכ' here is that service for you which is the choicest of all, the offering of frankincense &amp;c.; Tanḥ. Kor. 5. Ib. בשביל תִּשְׁמִישׁוֹ של עולם for the service (benefit) of the world. Meg. 26\n<sup>b</sup> ת' קדושה הוא ואסיר it is an object used at a sacred function, and is therefore forbidden for profane use; ib. ת' דת' הוא it is an object subservient to an object which is used at a sacred function (e. g. a thing on which a sacred implement is laid); a. fr.—\n<plural-form>Pl. תַּשְׁמִישִׁים, תַּשְׁמִישִׁין</plural-form>. Ib. תַּשְׁמִישֵׁי מצוה נזרקין things used for a religious ceremony may be thrown away (after having served their purpose); תשמישי קדושה נגנזין implements for sacred things must be stored away (v. גָּנַז); ואלו הן ת' מצוה סוכה וכ' these are implements for a religious ceremony: the Succah, the Lulab &amp;c.; ואלו הן ת' קדושה וכ' and these are sacred implements: boxes for sacred scrolls &amp;c.; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (with or without המטה) \n<italic>marital connection</italic>; in gen. \n<italic>copulation</italic>.</definition>\n<notes> Yoma VIII, 1. Keth. 65\n<sup>b</sup>. Bekh. 8\n<sup>a</sup> כל שתַּשְׁמִישׁוֹ ביום all animals which copulate in day time; a. v. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32489,
+      "source_id": "jastrow-xml-032489",
+      "canonical_entry_id": "V01098",
+      "headword": "תַּשְׁמִישׁ",
+      "source_xml": "<entry id=\"V01098\">\n<head-word>תַּשְׁמִישׁ</head-word>\n<head-word>תַּשְׁמִישָׁא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>implement.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. תַּשְׁמִישִׁין, תַּשְׁמִישַׁיָּא, תַּשְׁמִישֵׁי</plural-form>. Targ. Y. Deut. VII, 26.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (with or without ערסא) \n<italic>marital connection, copulation</italic>.</definition>\n<notes> Targ. Y. II Gen. XIX, 8. Targ. Y. Ex. XIX, 15; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32490,
+      "source_id": "jastrow-xml-032490",
+      "canonical_entry_id": "V01099",
+      "headword": "תַּשְׁמִישְׁתָּא",
+      "source_xml": "<entry id=\"V01099\">\n<head-word>תַּשְׁמִישְׁתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> same, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>use, handling</italic>.</definition>\n<notes> Sabb. 7\n<sup>b</sup> ניחא תַשְׁמִישְׁתֵּיה, v. נִיחָא I. B. Bath. 61\n<sup>b</sup> הא ת' לחור וחא ת' לחוד the purpose which this (the house) serves is different from what this (the castle) serves; ib. כולא חדא ת' היא it all serves the same purpose; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>sexual intercourse</italic>.</definition>\n<notes> Targ. Y. Lev. XVIII, 6; 21.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32491,
+      "source_id": "jastrow-xml-032491",
+      "canonical_entry_id": "V01100",
+      "headword": "תַּשְׁנוּק",
+      "source_xml": "<entry id=\"V01100\">\n<head-word>תַּשְׁנוּק</head-word>\n<head-word>תַּשְׁנִיק</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (שָׁנַק) \n<italic>strangulation, suffocation;</italic> trnsf. \n<italic>anguish</italic>.</definition>\n<notes> Y. Ber. IV, 7\n<sup>b</sup> bot. (ref. to שנער, Gen. XI, 2; v. Targ. O. to Ex. XIV, 27 שַׁנֵּיק for h. text נִעֵר) שנער שהם מתים בת' וכ' Babylonia is called Shinar, because they (the Babylonians) die in anguish, without light and without baths; Gen. R. s. 37; Lam. R. introd. (R. Josh. 2) (some ed. בתַשְׁנֵק); Koh. R. to XII, 7; Yalk. Gen. 62.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32492,
+      "source_id": "jastrow-xml-032492",
+      "canonical_entry_id": "V01101",
+      "headword": "תַּשְׁנִיק",
+      "source_xml": "<entry id=\"V01101\">\n<head-word>תַּשְׁנִיק</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. II Esth. V, 1.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32493,
+      "source_id": "jastrow-xml-032493",
+      "canonical_entry_id": "V01102",
+      "headword": "תַּשְׁנֵק",
+      "source_xml": "<entry id=\"V01102\">\n<head-word>תַּשְׁנֵק</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01100\">תַּשְׁנוּק</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32494,
+      "source_id": "jastrow-xml-032494",
+      "canonical_entry_id": "V01103",
+      "headword": "תְּשֵׁסְרֵי",
+      "source_xml": "<entry id=\"V01103\">\n<head-word>תְּשֵׁסְרֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01104\">תְּשַׁע</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32495,
+      "source_id": "jastrow-xml-032495",
+      "canonical_entry_id": "V01104",
+      "headword": "תָּשַׁע",
+      "source_xml": "<entry id=\"V01104\">\n<head-word>תָּשַׁע</head-word>\n<head-word>תִּשֵּׁעַ</head-word>\n<senses>\n<sense>\n<definition> (denom. of next w.) \n<italic>to divide by nine</italic>.</definition>\n<notes>—Part. pass. מְתוּשָּׁע; \n<plural-form>pl. מְתוּשָּׁעִים</plural-form>. Y. Shebi. I, 33\n<sup>b</sup> ובלבד שלא יפחות מחשבון מת' provided that there be no less than the quantity (of one Kikkar) divided by nine, i.e. that none of the nine trees yield less than one-ninth of a Kikkar.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32496,
+      "source_id": "jastrow-xml-032496",
+      "canonical_entry_id": "V01105",
+      "headword": "תֵּשַׁע",
+      "source_xml": "<entry id=\"V01105\">\n<head-word>תֵּשַׁע</head-word>\n<senses>\n<sense>\n<definition> f., תִּשְׁעָה\n<pos> m.</pos> (b. h.) \n<italic>nine; ninth</italic>.</definition>\n<notes> Ber. 8\n<sup>a</sup> תְּשַׁע מאות וכ' nine-hundred and thirty modes of death &amp;c. \n<pgbrk id=\"pg1705\" />Taan. IV, 5 זמן … ת' nine days in the year were designated for the offering of wood (for the Temple) by priests and the people. Ib. 6 בת' באב on the ninth of Ab; a. v. fr.—תְּשַׁע עֶשְׂרֵה, תִּשְׁעָה עָשָׂר \n<italic>nineteen</italic>.—\n<plural-form>Pl. תִּשְׁעִים, תִּשְׁעִין</plural-form>\n<italic>ninety</italic>. Ab. V, 21, v. שׁוּחַ I. Gen. R. s. 47 בת ת' שנה at the age of ninety years. Lev. R. s. 16 וכ' (מתים) ת' ותשעה ninety-nine people die of … against one of &amp;c.; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32497,
+      "source_id": "jastrow-xml-032497",
+      "canonical_entry_id": "V01106",
+      "headword": "תְּשַׁע",
+      "source_xml": "<entry id=\"V01106\">\n<head-word>תְּשַׁע</head-word>\n<head-word>תִּשְׁעָא</head-word>\n<head-word>תִּשְׁעָה</head-word>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Gen. V, 5. Targ. Num. I, 23. Targ. II Kings XXV, 3; a. fr.—Ber. 29\n<sup>a</sup> הני ת' דר\"ה those nine benedictions in the New Year’s prayer; a. fr.—תְּשַׁע עֲשַׂר, תְּ' עַשְׂרֵי, תְּ' סְרֵי, contr. תְּשֵׁיסַר, תְּשֵׁסְרֵי \n<italic>nineteen</italic>. Targ. Gen. XI, 25 (Y. ed. Vien. שתסרי, corr. acc.). Targ. Josh. XIX, 38; a. e.—Ber. l. c. תמני סרי תקון תשסרי וכ' eighteen benedictions they introduced, nineteen they did not; a. e.—תְּשֵׁיסְרָאָה, תְּשֵׁסְ' \n<italic>the nineteenth</italic>. Targ. I Chr. XXIV, 16.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32498,
+      "source_id": "jastrow-xml-032498",
+      "canonical_entry_id": "V01107",
+      "headword": "תִּשְׁעָה",
+      "source_xml": "<entry id=\"V01107\">\n<head-word>תִּשְׁעָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01106\">preced.</xref>, a. תֵּשַׁע.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32499,
+      "source_id": "jastrow-xml-032499",
+      "canonical_entry_id": "V01108",
+      "headword": "תַּשְׂקוּפִים",
+      "source_xml": "<entry id=\"V01108\">\n<head-word>תַּשְׂקוּפִים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V00770\">תַּסְקוּפִים</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32500,
+      "source_id": "jastrow-xml-032500",
+      "canonical_entry_id": "V01109",
+      "headword": "תִּשְׁרִי",
+      "source_xml": "<entry id=\"V01109\">\n<head-word>תִּשְׁרִי</head-word>\n<senses>\n<sense>\n<definition> (v. Schr. KAT\n<sup>2</sup>, p. 380) \n<italic>Tishri</italic>, the seventh month of the Jewish calendar, containing thirty days, varying between the fifth of September and the third of November.</definition>\n<notes> R. Hash. I, 1 באחד בת' וכ' the first of Tishri is the era for years, for Sabbatical years, for jubilees &amp;c. Ib. 10\n<sup>b</sup> בת' נברא העולם the world was created in Tishri; Gen. R. s. 22; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32501,
+      "source_id": "jastrow-xml-032501",
+      "canonical_entry_id": "V01110",
+      "headword": "תָּשַׁשׁ",
+      "source_xml": "<entry id=\"V01110\">\n<head-word>תָּשַׁשׁ</head-word>\n<senses>\n<sense>\n<definition> (privative of יש; cmp. יָשִׁישׁ) \n<italic>to be weak, slender, old</italic>.</definition>\n<notes> Ber. 32\n<sup>a</sup> עכשיו … ת' כחו כנקבה now the nations will say, his (God’s) power has grown weak as that of a woman. Pes. 62\n<sup>b</sup> מיום … ת' כחן וכ' from the day that the Book of Genealogy was suppressed, the strength of the wise has failed, and the light of their eyes has grown dim. Esth. R. to I, 1 ותַשׁ, v. רָתַח. Men. 29\n<sup>b</sup>; a. fr.—Part. pass. תָּשׁוּשׁ; \n<plural-form>pl. תְּשׁוּשִׁים, תְּשׁוּשִׁין</plural-form>. Midr. Till. to Ps. XVIII, 17 מה … הת' וכ' what did the feeble (old) among them (that crossed the Red Sea) do?; Yalk. Sam. 161 הת' והפודגרין the feeble and the lame. Cant. R. to V, 16 (ref. to Ps. XXIX, 4) קול ה' בכח לבחורים … לת' (not לתשי') ‘the voice of the Lord with strength’—for the youths; ‘the voice of the Lord with majesty’—for the feeble; (Num. R. s. 10\n<sup>1</sup> לַתַּשִּׁים); a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֵתֵישׁ</binyan-form>\n<senses>\n<sense>\n<definition> or הִתִּישׁ \n<italic>to weaken</italic>.</definition>\n<notes> Snh. 26\n<sup>b</sup> (play on תושיה, Is. XXVIII, 29) למה נקרא … שמַתֶּשֶׁת כחו וכ' why is the law called \n<italic>tushiyah</italic>? Because the study of it weakens the strength of man (v. תַּשְׁיוּתָא). Gitt. 70\n<sup>a</sup> שלשה דברים מַתִּישִׁין וכ' Ar. (ed. מתיזין) three things weaken man’s strength; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32502,
+      "source_id": "jastrow-xml-032502",
+      "canonical_entry_id": "V01111",
+      "headword": "תְּשַׁשׁ",
+      "source_xml": "<entry id=\"V01111\">\n<head-word>תְּשַׁשׁ</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Y. Num. XIV, 9 תַּשׁ.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיתְתִּישׁ, אִיתְּשִׁישׁ, </binyan-form>\n<senses>\n<sense>\n<definition>, אִיתְּשַׁשׁ \n<italic>to grow feeble, be sick</italic>.</definition>\n<notes> Targ. Y. Deut. IX, 28.—Pesik. B’shall., p. 93\n<sup>b</sup> ר' … א' ואיתגלית וכ' R. El. … was falling away, and his (emaciated) arm was uncovered &amp;c.; Koh. R. to XI, 2; a. e.—Cant. R. to II, 16 אתשש ed. Wil., v. חֲשַׁשׁ.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Polel.</binyan-name>\n<binyan-form>תּוֹשֵׁשׁ</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to weaken</italic>.</definition>\n<notes> Targ. Ps. CXVIII, 10, sq. אֲתוֹשְׁשִׁינוּן Regia (ed. Lag. אֶתּוֹשִׁינוּן; ed. Wil. אֶתְּשִׁי' \n<italic>Af</italic>.).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32503,
+      "source_id": "jastrow-xml-032503",
+      "canonical_entry_id": "V01112",
+      "headword": "תְּתָא",
+      "source_xml": "<entry id=\"V01112\">\n<head-word>תְּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01118\">תְּתֵי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32504,
+      "source_id": "jastrow-xml-032504",
+      "canonical_entry_id": "V01113",
+      "headword": "תַּתָּא",
+      "source_xml": "<entry id=\"V01113\">\n<head-word>תַּתָּא</head-word>\n<senses>\n<sense>\n<definition> (= תחתא) \n<italic>below</italic>.</definition>\n<notes> Lam. R. to I, 1 רבתי זיל מנינן מעילא לת' מת' לעילא וכ' (חד בר נש) go and count them (the joists) from the upper side (of the room) down (to the other end), and from there up, until &amp;c. B. Bath. 45\n<sup>a</sup>, v. עֵיל; a. e.—[Sabb. 102\n<sup>b</sup>, v. next w.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32505,
+      "source_id": "jastrow-xml-032505",
+      "canonical_entry_id": "V01114",
+      "headword": "תַּתָּאָה",
+      "source_xml": "<entry id=\"V01114\">\n<head-word>תַּתָּאָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>lower, nethermost</italic>.</definition>\n<notes> Pes. 76\n<sup>a</sup>, v. גְּבַר I. Ḥull. 112\n<sup>a</sup>, v. מְטֵי. Sabb. 102\n<sup>b</sup> Ms. M. (ed. תתא), v. צְדַד; a. e.—\n<italic>Pl.</italic> תַּתָּאִין, תַּתָּאֵי. Targ. Y. Gen. VI, 16. Targ. II Chr. VI, 18; a. e.—B. Mets. 108\n<sup>a</sup>, v. עִילָאָה. Pes. 8\n<sup>a</sup>; a. fr.—\n<italic>Fem</italic>. תַּתַּיְתָא; \n<plural-form>pl. תַּתְּיָיתָא</plural-form>. Ib.\n<sup>b</sup> למעוטי ת' דת' Ms. M. (ed. תתאי דת') to exclude the nethermost casks of the lower rows.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32506,
+      "source_id": "jastrow-xml-032506",
+      "canonical_entry_id": "V01115",
+      "headword": "תַּתַּאי",
+      "source_xml": "<entry id=\"V01115\">\n<head-word>תַּתַּאי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = תַּתָּא. Pes. 74\n<sup>b</sup> בית השחיטה לת' with the throat downward. Ḥull. 8\n<sup>b</sup> bot. קרמא מפסיק מת' there is the membrane separating (the fat) from (the meat) below. Snh. 39\n<sup>a</sup> מפלגך לת' from the middle of thy body downward, v. \n<xref rid=\"A00491\">אֲהוּרְמִין</xref>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32507,
+      "source_id": "jastrow-xml-032507",
+      "canonical_entry_id": "V01116",
+      "headword": "תתה",
+      "source_xml": "<entry id=\"V01116\">\n<head-word>תתה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Ab. Zar. II, 41\n<sup>d</sup> bot. אתר ת', read: אַתַּרְתָּהּ; v. \n<xref rid=\"V00334\">תּוֹת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32508,
+      "source_id": "jastrow-xml-032508",
+      "canonical_entry_id": "V01117",
+      "headword": "תְּתוּבָא",
+      "source_xml": "<entry id=\"V01117\">\n<head-word>תְּתוּבָא</head-word>\n<head-word>תְּתוּבָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> = h. תְּשׁוּבָה, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>reply, refutation</italic>.</definition>\n<notes> Y. Ḥall. III, 59\n<sup>b</sup> bot. לית הדא דר' זעירה ת' על וכ' (not תתי') what R. Z. said is no argument bearing on what R. Bun asked.—\n<plural-form>Pl. תְּתוּבָתָא</plural-form>. Y. Peah IV, 18\n<sup>b</sup> top כל אילין התובתא (prob. to be read: תת'), v. הֲתוֹבְתָּא.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>return</italic> to God, \n<italic>repentance</italic>.</definition>\n<notes> Targ. Ps. XC, 2. Targ. II Chr. XXXIII, 13; a. fr.—Lev. R. s. 35, v. חֲרוּבָא I; ib. s. 13; Yalk. Is. 256; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32509,
+      "source_id": "jastrow-xml-032509",
+      "canonical_entry_id": "V01118",
+      "headword": "תְּתֵי",
+      "source_xml": "<entry id=\"V01118\">\n<head-word>תְּתֵי</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa.</italic> תַּתֵּי (denom. of תַּתָּא) \n<italic>to lower, go down</italic>.</definition>\n<notes> Zeb. 54\n<sup>b</sup> נִיתַתֵּי ביה קליל let us go down a little with it (build it a little lower; Yalk. Deut. 910 ליחתי ליה פורתא; Yalk. Josh. 24 ניחתא ביה קליל).</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִיתַּתֵּי</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be lowered, placed under</italic>.</definition>\n<notes> Men. 99\n<sup>a</sup> מידלי ליה ומִיתַּתֵּי להו לדידהו פורתא it was lifted over and let down (and placed) a little lower than they (the other tables). Pes. 8\n<sup>a</sup> דמִיתַּתְּיָא (not דמיתתאי) when the bed stands on low legs, opp. דמידליא, v. דְּלֵי.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 32510,
+      "source_id": "jastrow-xml-032510",
+      "canonical_entry_id": "V01119",
+      "headword": "תתיבה",
+      "source_xml": "<entry id=\"V01119\">\n<head-word>תתיבה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"V01117\">תְּתוּבָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32511,
+      "source_id": "jastrow-xml-032511",
+      "canonical_entry_id": "V01120",
+      "headword": "תתיה",
+      "source_xml": "<entry id=\"V01120\">\n<head-word>תתיה</head-word>\n<head-word>אין ת'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Gen. R. s. 29 Ar. (ed. אינוניתא), a corrupt., prob. to be read: עֵין תּוֹנָיָה, v. \n<xref rid=\"P01027\">עֵנְתּוּנָיָא</xref> (and correct art. אינוניתא).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 32512,
+      "source_id": "jastrow-xml-032512",
+      "canonical_entry_id": "V01121",
+      "headword": "תתנא",
+      "source_xml": "<entry id=\"V01121\">\n<head-word>תתנא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Lev. R. s. 9, read: אתעני, v. עֲנִי II.</notes></sense></senses></entry>"
+    }
+  ]
+}

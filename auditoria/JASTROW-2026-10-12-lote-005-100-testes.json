@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-12",
+  "batch": "JASTROW-005",
+  "source_commit": "90da238c8aab0a1e0df4f02554b397b130edae79",
+  "source_snapshot_blob": "ad36d8e261bd62d70ecec988433449f17675ff74",
+  "result_counts": {
+    "A": 76,
+    "C": 24,
+    "P": 0
+  },
+  "checks": {
+    "distinct": 100,
+    "sourceSha": 100,
+    "cardMatched": 100,
+    "noChangesExpected": 76,
+    "changesExpected": 24
+  },
+  "modules_5_js_syntax": "passed",
+  "total_loaded_rows_and_cards": 125,
+  "paired_and_unique_targets": true,
+  "records_in_evidence": 100,
+  "errors": [],
+  "source_xml_modified": false,
+  "real_browser_executed": false,
+  "external_manuscript_collation": false,
+  "popups_manually_tested": false,
+  "integration_committed": false
+}

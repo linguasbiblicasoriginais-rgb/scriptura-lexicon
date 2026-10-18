@@ -50,6 +50,28 @@
 }
 
 .entry-card[data-source="DGP"] .dgp-example-meaning::before {
-    content: " — ";
+    content: " → ";
     color: #889cb9;
+}
+
+
+/* DGP 1–1000: AUTOR/OBRA → GREGO (popup) → TRADUÇÃO. */
+.entry-card[data-source="DGP"] .dgp-example-content::before {
+    content: " → ";
+    color: var(--text-muted);
+}
+.entry-card[data-source="DGP"] .dgp-greek-quotation {
+    color: inherit;
+    cursor: help;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.16em;
+}
+.entry-card[data-source="DGP"] .dgp-greek-quotation:focus-visible {
+    outline: 2px solid var(--interactive);
+    outline-offset: 2px;
+}
+.entry-card[data-source="DGP"] .dgp-citation-work {
+    font-variant-caps: small-caps;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }

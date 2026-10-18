@@ -1,0 +1,33 @@
+name: THAYER - inventario integral do facsimile por geometria e imagem
+on:
+  push:
+    branches: [chat-gpt-thayer-indice-titulos]
+    paths:
+      - .github/workflows/thayer-inventario-683.yml
+      - tools/thayer_indexar_fotografias_v2.py
+
+permissions: {contents: write}
+concurrency:
+  group: thayer-fotografias-v2
+  cancel-in-progress: false
+
+jobs:
+  inventario:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-thayer-indice-titulos
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Instalar reconhecimento de grego e planilhas
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
+          sudo curl -fsSL --retry 3 https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/grc.traineddata -o /usr/share/tesseract-ocr/5/tessdata/grc.traineddata
+          python -m pip install --quiet pymupdf pillow pytesseract openpyxl
+      - name: Gerar candidatos de todas as 683 folhas e gravar planilha
+        run: python tools/thayer_indexar_fotografias_v2.py

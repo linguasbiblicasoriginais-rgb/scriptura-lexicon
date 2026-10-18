@@ -53,6 +53,15 @@ window.ScripturaLexicons.DGP = {
         { key: "cf.", type: "abbr", text: "confira" },
         { key: "sing.", type: "abbr", text: "singular" },
         { key: "pres.", type: "abbr", text: "presente" },
+        { key: "fut.", type: "abbr", text: "futuro (tempo verbal)" },
+        { key: "xen.", type: "biblio", text: "Xenofonte — historiador, filósofo e escritor grego dos séculos V–IV a.C." },
+        { key: "her.", type: "biblio", text: "Heródoto — historiador grego do século V a.C." },
+        { key: "dem.", type: "biblio", text: "Demóstenes — orador ateniense do século IV a.C." },
+        { key: "pínd.", type: "biblio", text: "Píndaro — poeta lírico grego dos séculos VI–V a.C." },
+        { key: "pol.", type: "biblio", text: "Políbio — historiador grego dos séculos III–II a.C." },
+        { key: "luc.", type: "biblio", text: "Luciano de Samósata — escritor grego do século II d.C." },
+        { key: "lís.", type: "biblio", text: "Lísias — orador e logógrafo ateniense dos séculos V–IV a.C." },
+        { key: "ar.", type: "biblio", text: "Aristófanes — comediógrafo ateniense dos séculos V–IV a.C." },
         { key: "méd.", type: "abbr", text: "médio, média; em formas verbais, voz média" },
         { key: "gen.", type: "abbr", text: "genitivo" },
         { key: "aor.", type: "abbr", text: "aoristo" },
@@ -1000,7 +1009,7 @@ window.ScripturaLexicons.DGP = {
     <div class="entry-divider"></div>
     <section class="entry-section">
         <div class="section-title">Definição do DGP</div>
-        <p class="entry-text">1 inocuidade 2 precaução; cautela 3 au- sência de mal; incolumidade; bom estado. 〈ἀβλαβής〉</p>
+        <p class="entry-text">1 inocuidade 2 precaução; cautela 3 ausência de mal; incolumidade; bom estado. 〈ἀβλαβής〉</p>
     </section>
 </article>
 
@@ -1344,4 +1353,14 @@ window.ScripturaLexicons.DGP.bibliographicTerms.push(
     {key: "inter.", type: "abbr", text: "interrogativa (em oração interrogativa indireta)"},
     {key: "indir.", type: "abbr", text: "indireta (em oração interrogativa indireta)"},
     {key: "verb.", type: "abbr", text: "verbal (em adjetivo verbal)"}
+);
+
+/* Auditoria DGP lote 70: siglas de identificação segura. Não cadastrar
+ * hom. globalmente: a fonte explicita Homero/homérico. */
+window.ScripturaLexicons.DGP.bibliographicTerms.push(
+    { key: "ésql.", type: "biblio", text: "Ésquilo — poeta trágico grego, autor citado pelo DGP." },
+    { key: "eur.", type: "biblio", text: "Eurípides — poeta trágico grego, autor citado pelo DGP." },
+    { key: "tuc.", type: "biblio", text: "Tucídides — historiador grego, autor citado pelo DGP." },
+    { key: "plut.", type: "biblio", text: "Plutarco — escritor e biógrafo grego, autor citado pelo DGP." },
+    { key: "irreg.", type: "abbr", text: "irregular (forma gramatical ou flexão irregular)" }
 );

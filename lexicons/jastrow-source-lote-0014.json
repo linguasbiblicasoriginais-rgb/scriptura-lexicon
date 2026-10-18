@@ -1,0 +1,1418 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data upstream XML)",
+  "source_start_ordinal": 2601,
+  "source_end_ordinal": 2800,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "source_path": "dictionaries/Jastrow/data/01-Merged XML/Jastrow-full.xml",
+  "source_url": "https://raw.githubusercontent.com/Sefaria/Sefaria-Data/947c1b91684df9f8b92f14cf0d281b5d4f29bfc7/dictionaries/Jastrow/data/01-Merged%20XML/Jastrow-full.xml",
+  "source_xml_sha256": "7361ffd1ffe3594092976ebceeb87dc8eac60fbbc9b91693e1aa9102a478d8d2",
+  "status": "source_only_untranslated_not_published",
+  "entry_count": 200,
+  "first_headword": "אָפָא",
+  "last_headword": "אפרגל",
+  "next_headword": "אפרדוכסוס",
+  "records": [
+    {
+      "ordinal": 2601,
+      "source_id": "jastrow-xml-002601",
+      "headword": "אָפָא",
+      "source_xml": "<entry id=\"A02600\">\n<head-word>אָפָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (contr. of אַפְעָא q. v.) \n<italic>a striped wild animal</italic> (of the genus \n<italic>felis</italic>) of which the male (stronger) and the female species are distinguished, corresp. to h. צָבוּע q. v.; \n<pgbrk id=\"pg100\" />\n<italic>leopard</italic>, and \n<italic>hyæna striata</italic> (\n<italic>striped hyena</italic>).</definition>\n<notes> B. Kam. 16\n<sup>a</sup> (expl. נפרזא leopard); ib. (expl. צבוע); v. discussion ib. Yoma 84\n<sup>a</sup> א' דיכרא Ms. M. (ed. דדיכרא, corr. acc.) a male \n<italic>afa</italic>. [Not to be confounded with b. h. אֶפְעֶה, v. Nöld. M. Gr. p. 58 sq. note.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "80fd6c14ea1f6fe41542fc78dd0101f0bf2bf126179ced5f3fb60b4a1b31af84"
+    },
+    {
+      "ordinal": 2602,
+      "source_id": "jastrow-xml-002602",
+      "headword": "אפדייני",
+      "source_xml": "<entry id=\"A02601\">\n<head-word>אפדייני</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02610\">אֲפוּזְיָינֵי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "256d8e63737abd242ebed3a8864bd7c0ee8117917d37cc00b450765b88b2a5b1"
+    },
+    {
+      "ordinal": 2603,
+      "source_id": "jastrow-xml-002603",
+      "headword": "*אפדכסיס,",
+      "source_xml": "<entry id=\"A02602\">\n<head-word>*אפדכסיס, </head-word>\n<head-word>אפרדכסיס, </head-word>\n<head-word>אפור'</head-word>\n<senses>\n<sense>\n<definition>, read אֶפִּידֶכְסְיֹוס\n<pos> m.</pos> (ἐπιδέξιος) \n<italic>dexterous, clever, refined</italic>.</definition>\n<notes> Num. R. s. 10 (alluding to Laban, v. לָבַן) he was surnamed (to his praise) א' ‘the refined.’ R. B. says מלובן ברשע refined in wicked acts. [In parallels Gen. R. s. 60; Ruth R. to I, 22; Yalk. Gen. 109 פרדוכסוס read פְּרִידֶכְסְיֹוס (περιδέξιος).]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "24a374bd209d881ae3ed9e96c08ed73592a02341f12980d08845782946b4e53e"
+    },
+    {
+      "ordinal": 2604,
+      "source_id": "jastrow-xml-002604",
+      "headword": "אַפַּדְנָא",
+      "source_xml": "<entry id=\"A02603\">\n<head-word>אַפַּדְנָא</head-word>\n<pos> m.</pos>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אַפֶּדֶן</xref></language-reference>\n<senses>\n<sense>\n<definition> , Pers.</definition>\n<notes>; v. Friedr. Del. Proleg. p. 149, note) \n<italic>country-seat, mansion, palace</italic>. Targ. Jer. XLIII, 10 (h. text שפריר).—M. Kat. 12\n<sup>a</sup>. Ber. 56\n<sup>a</sup>. Keth. 62\n<sup>a</sup> גני בטולא דא' sleeps in the shade of his palace (at home, in safety).—\n<plural-form>Pl. אַפַּדְנֵי</plural-form>. Kerith. 6\n<sup>a</sup> (read אא' or with Rashi על א'). Keth. 97\n<sup>a</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "aba4c351b9a993c35367d9311ff91c137d25c49221d36585840c3e4dcae5a00b"
+    },
+    {
+      "ordinal": 2605,
+      "source_id": "jastrow-xml-002605",
+      "headword": "אָפָה",
+      "source_xml": "<entry id=\"A02604\">\n<head-word>אָפָה</head-word>\n<senses>\n<sense>\n<definition>\n<italic>to bake</italic>, v. \n<xref rid=\"A02666\">אפי</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "c341db55f7d8f3a5337e780b33a6eac8f72ab33d62fa39687b285ab48c680ea0"
+    },
+    {
+      "ordinal": 2606,
+      "source_id": "jastrow-xml-002606",
+      "headword": "אַפָּהּ",
+      "source_xml": "<entry id=\"A02605\">\n<head-word>אַפָּהּ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02600\">אַפָּא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7bc9105dc53193d249bab9f0a2df8230af426eb15cd7ddd08101ca3586ee5f32"
+    },
+    {
+      "ordinal": 2607,
+      "source_id": "jastrow-xml-002607",
+      "headword": "אפו",
+      "source_xml": "<entry id=\"A02606\">\n<head-word>אפו</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Lev. R. s. 30, read אֹופִי.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7ccfe0a43fd28b6ab1ed12c9b19365a3b706bf32f072d9611eb4305d854ac279"
+    },
+    {
+      "ordinal": 2608,
+      "source_id": "jastrow-xml-002608",
+      "headword": "אפודרים",
+      "source_xml": "<entry id=\"A02607\">\n<head-word>אפודרים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02671\">אַפִּידְרָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6fc296bc00491f2f38f68444da1bc169a774d1bbd8b71616a85d8d216a60a156"
+    },
+    {
+      "ordinal": 2609,
+      "source_id": "jastrow-xml-002609",
+      "headword": "אָפֹּובַּלְסְמֹון,",
+      "source_xml": "<entry id=\"A02608\">\n<head-word>אָפֹּובַּלְסְמֹון, </head-word>\n<head-word>אָפֹּופַּלְסְמֹון</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ὀποβάλσαμον) \n<italic>juice of the balsam-tree, balsam</italic>.</definition>\n<notes> Gen. R. s. 27 היו מביאין א' ושף וכ' (read ושפין) they would take balsam and smear it on the stones (of the houses of the wealthy); Y. Shebi. V, 55\n<sup>d</sup> bot. רושמין בא' marked out with balsam. Y. Hor. III, 47\n<sup>c</sup> באפי בלסמון (corr. acc.). Gen. R. s. 39, beg. אפופל', אפופילסימון (corr. acc.). V. אֲפַרְסָמוֹן.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2b28feada9fdbcc213191d74f33ead674f3b9aca7f6371ccd4a5285b54056dbd"
+    },
+    {
+      "ordinal": 2610,
+      "source_id": "jastrow-xml-002610",
+      "headword": "אפוזיינו",
+      "source_xml": "<entry id=\"A02609\">\n<head-word>אפוזיינו</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02610\">next w.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2d0c475770a1919b1f5408133718fbc9914e76f97e741fb3b5ee85b93551e982"
+    },
+    {
+      "ordinal": 2611,
+      "source_id": "jastrow-xml-002611",
+      "headword": "*אֲפוּזְיָינֵי,",
+      "source_xml": "<entry id=\"A02610\">\n<head-word>*אֲפוּזְיָינֵי, </head-word>\n<head-word>אָפְזְיָינֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (ὀψιανός, sub λίθος, obsianus) \n<italic>obsidian beads</italic> [Rashi: \n<italic>of gold</italic>, thinking of פז].</definition>\n<notes> Sabb. 57\n<sup>b</sup> Ms. M. אפוז' (ed. אפוזיינו, Ar. s. v. אָבְז' אב; Var. in Mss. אפד', אפיד', v. Rabb. D. S. a. l.), expl. טוטפת, of Mish., contrad. to חומרתא דקטיפתא balsam beads, v. חוּמַרְתָּא. V. אָפְסְיָין.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "76a742fbfe37fb34894164e0cfe418120967391b6238d50eccff84bdc682d627"
+    },
+    {
+      "ordinal": 2612,
+      "source_id": "jastrow-xml-002612",
+      "headword": "אפודרים",
+      "source_xml": "<entry id=\"A02611\">\n<head-word>אפודרים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02671\">אַפִּידְרָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0bbfb04700ff99285bbb6e43038a80f198dbbfda880fa58d00e3551774afc02b"
+    },
+    {
+      "ordinal": 2613,
+      "source_id": "jastrow-xml-002613",
+      "headword": "אַפּוּחָא",
+      "source_xml": "<entry id=\"A02612\">\n<head-word>אַפּוּחָא</head-word>\n<head-word>אֲפּוּחְיָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (נפח or פוח) \n<italic>swelling</italic>, whence \n<italic>bulk, volume</italic>.</definition>\n<notes> Pes. 50\n<sup>b</sup> נפיש אפוחייהו Ms. Oxf. (ed. אפחזייהו, v. Rabb. D. S. a. l. note) their bulk is large.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "21183a314767ec839b62b79676a72c2300102871a2a12f0bcadd5ff3fed18c1d"
+    },
+    {
+      "ordinal": 2614,
+      "source_id": "jastrow-xml-002614",
+      "headword": "אפוטיין",
+      "source_xml": "<entry id=\"A02613\">\n<head-word>אפוטיין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אֹופְסְיָין, v. \n<xref rid=\"A02759\">אָפְסְיָין</xref>; cmp. אפוזייני.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5cfc639d013770c22fbea0c4b3a10fcaf188b9484c3dd140b08368dec8cdef5d"
+    },
+    {
+      "ordinal": 2615,
+      "source_id": "jastrow-xml-002615",
+      "headword": "*אפוטיקון",
+      "source_xml": "<entry id=\"A02614\">\n<head-word>*אפוטיקון</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Ex. R. s. 24, in a corrupt passage; cmp. אֵיפּוּס a. Num. R. s. 23, by combination of which the original version may be restored; perhaps; מה הצאן אין מתקינין לה אֵיפוּסִין אלא רועה בכל יום כך ישראל לא התקינו להם אַפּוֹתִּיקָאוֹת במדבר.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "151e3a101fea49862d71f50b8a6aa8dc3559044f8c7910fd026f596eef5b1cc4"
+    },
+    {
+      "ordinal": 2616,
+      "source_id": "jastrow-xml-002616",
+      "headword": "אפוטמים,",
+      "source_xml": "<entry id=\"A02615\">\n<head-word>אפוטמים, </head-word>\n<head-word>אפוטמות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read מְפוטָּ', v. \n<xref rid=\"Q00535\">פָּטַם</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a8d272a8979f3eba6e6064877e9253a2efbffa89d5472ae320c38ad707c21e4a"
+    },
+    {
+      "ordinal": 2617,
+      "source_id": "jastrow-xml-002617",
+      "headword": "*אַפֹּוטְנִיֹּות,",
+      "source_xml": "<entry id=\"A02616\">\n<head-word>*אַפֹּוטְנִיֹּות, </head-word>\n<head-word>אַפֹּטְ', </head-word>\n<head-word>(אַפּוּטְנֵי)</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (putealia, or puteana) \n<italic>enclosures surrounding a well, protected cisterns</italic> (in Noah’s ark).</definition>\n<notes> Pirké d’R. El. ch. 23, expl. ib. המכסים את אמות המים וכ' (not והמכניסים) which cover the wells and can be opened and closed. Targ. Y. Gen. VI, 14 אַפֹּוטְנִיוּתָא (נְיָיתָא …?). Tosef. Erub. XI (VIII), 7 כלי אפוטני (ed. Zuck. אב' כלים, in oth. ed. omitted) tools for unlocking the puteal.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ce215474ebc18b6e49cc7a320c56099aba97976629b945d7b7f45e8942843587"
+    },
+    {
+      "ordinal": 2618,
+      "source_id": "jastrow-xml-002618",
+      "headword": "אַפֹּוטְרֹופֹּוס",
+      "source_xml": "<entry id=\"A02617\">\n<head-word>אַפֹּוטְרֹופֹּוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אֶפִּיטְרֹו'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6e821d301c9f210afb5670035664cadf0f40c09260101d0abb380cd4111cfe9b"
+    },
+    {
+      "ordinal": 2619,
+      "source_id": "jastrow-xml-002619",
+      "headword": "*אפוטריקא",
+      "source_xml": "<entry id=\"A02618\">\n<head-word>*אפוטריקא</head-word>\n<senses>\n<sense>\n<definition> ed., אפוטרכא\n<language-key> Ar.,</language-key> read פַּטְרִיאַרְכָא\n<pos> m.</pos> (πατριάρχης) \n<italic>patriarch, religious chief of the Samaritans</italic>.</definition>\n<notes> Gen. R. s. 94.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1229a3a47853d3da4f1b0407b0e07688bccd92ea5b7e33d3b900ab7e3c5df33e"
+    },
+    {
+      "ordinal": 2620,
+      "source_id": "jastrow-xml-002620",
+      "headword": "אַפּוּכִי,",
+      "source_xml": "<entry id=\"A02619\">\n<head-word>אַפּוּכִי, </head-word>\n<head-word>(אוּפְכִי, </head-word>\n<head-word>אִיפּוּכִי)</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (אפך, הפך, cmp. חליפין) \n<italic>return, exchange, equivalent, settlement</italic> (cmp. esp. Targ. Prov. XXIV, 29, a. P. Sm. s. v. הפך).</definition>\n<notes> Lev. R. s. 34, end א' דידה הן היא (Yalk. Lev. 665 אִיפּוּכִין, pl.) where is the equivalent for the money spent? Ib. and of all those (praised for their deeds with \n<italic>ashré</italic>) לא נטל א' אלא זה (Yal. l. c. איפוכין) none received the promise of an equivalent except this (Ps. XLI, 2). Gen. R. s. 42 on the day of the destruction of Jerusalem נטלו ישראל אפכי Ar. (ed. אופכי) Israel received full payment for all their sins (ref. to Lam. IV, 22). Ib. א' גדולה ample, general settlement; Lam. R. l. c. א' שלימה settlement in full. [Tanḥ. Sh’moth 13, אפיפסים, corr. acc.] Num. R. s. 13; Esth. R. introd. Ruth R. introd. אופכין (corr. acc.). [Lam. R. to III, 13 אפוכי בני Mus., \n<italic>hostages;</italic> v. אֹופִיכָא]—\n<plural-form>Pl. אִפֹּוכִיֹּות, אַפְכִיֹּות</plural-form>. Y’lamd. Sh’laḥ, quot. in Ar.; Num. R. s. 17 a citizen was paying \n<italic>annonae</italic> ובותב א' and writing agreements of converting (security for the case of forfeiture); v., however, אַנְפָּרוּת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "14a990f613dba341cc35d99979cea6439da442296aa23b28472d6f82831325b5"
+    },
+    {
+      "ordinal": 2621,
+      "source_id": "jastrow-xml-002621",
+      "headword": "*(אפיליא) אַפּוּלְיָא",
+      "source_xml": "<entry id=\"A02620\">\n<head-word>*(אפיליא) אַפּוּלְיָא</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Apulia</italic>, the country in the S. E.</definition>\n<notes> of Italy. Targ. Ezek. XXVII, 6 some ed., oth. ed. a. Ar. אִיטַלְיָא (h. text כתיים).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "803bde627b0e3f82b5f0d06fec38d9d648cb3ae203c445fcb58966fdb5291b1e"
+    },
+    {
+      "ordinal": 2622,
+      "source_id": "jastrow-xml-002622",
+      "headword": "אפוליון",
+      "source_xml": "<entry id=\"A02621\">\n<head-word>אפוליון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Ex. 365, read פָּאפִילְיֹון.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9ca65f5bcd9cbf0e3f19a5c5fd9b27da8bfe070596f7ae1595034135d6cc0bcb"
+    },
+    {
+      "ordinal": 2623,
+      "source_id": "jastrow-xml-002623",
+      "headword": "אֲפֹולִים,",
+      "source_xml": "<entry id=\"A02622\">\n<head-word>אֲפֹולִים, </head-word>\n<head-word>אִיפֹולִים, </head-word>\n<head-word>אִיפֹולִין</head-word>\n<pos> m. pl.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">פֹּול)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>beans</italic>.</definition>\n<notes> Tosef. Ter. X, 15 איפולין, איפילין ed. Zuck. (Var. אפולים, איפילים). Ib. II, 4 איפולין (Var. אופילין). V. אָפוּן.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2425a67976e2ab9a9101b4669d1bb91a4921000135d3f8f7dd2c61f45e95d30e"
+    },
+    {
+      "ordinal": 2624,
+      "source_id": "jastrow-xml-002624",
+      "headword": "אפולמוטוס",
+      "source_xml": "<entry id=\"A02623\">\n<head-word>אפולמוטוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02693\">אֶפִּימְלֵיטֵיס</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e06a0abfb2b32a5e5c69a8e2646b539bb39fbe0701014c0b795270f3f030e82f"
+    },
+    {
+      "ordinal": 2625,
+      "source_id": "jastrow-xml-002625",
+      "headword": "אפומטא",
+      "source_xml": "<entry id=\"A02624\">\n<head-word>אפומטא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02048\">אמפומטא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b1b1d86cd284c540d7bece810ce4b47276addd90697987f00fdd3021c9b03342"
+    },
+    {
+      "ordinal": 2626,
+      "source_id": "jastrow-xml-002626",
+      "headword": "אפומליטיס",
+      "source_xml": "<entry id=\"A02625\">\n<head-word>אפומליטיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אֶפִּימְלֵיטֵיס.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8f4ba1f6c6fa560115a5bf313ceb8a071182d635d118b67fa2507175d24f0934"
+    },
+    {
+      "ordinal": 2627,
+      "source_id": "jastrow-xml-002627",
+      "headword": "*אפומלייא",
+      "source_xml": "<entry id=\"A02626\">\n<head-word>*אפומלייא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Ned. II, beg. 40\n<sup>b</sup>, read אֵיפַּטֵלְיָא, v. \n<xref rid=\"E00601\">הֵמְטַלְיָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "fe03390f3c2dabcb24f4fd721640f3d2ff1f36244b095f1a8bdf555f37367b39"
+    },
+    {
+      "ordinal": 2628,
+      "source_id": "jastrow-xml-002628",
+      "headword": "אָפוּן",
+      "source_xml": "<entry id=\"A02627\">\n<head-word>אָפוּן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>bean</italic> (cmp. אפול s. v. \n<xref rid=\"A02622\">אֲפֹולִים</xref>).</definition>\n<notes> Y. Yoma IV, 43\n<sup>c</sup> bot. עד כא' only the size of a bean; v. חָאפוּן. Y. Ab. Zar. III, 43\n<sup>a</sup> bot. וכא' היה had the shape of a bean.—\n<plural-form>Pl. אֲפוּנִים, אֲפוּנִין</plural-form>. Kel. III, 2 א' הגמלונין Ar., Ms. M. (ed. הגמלנים) large beans; v. גַּמְלֹון. Sabb. XXI, 3 (143\n<sup>a</sup>) שער של א' (Ms. L. עפ'; ed. Sonc. פולין) the silique of the bean. Teb. Yom I, 5; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "03a88d5487cc82daf7c4ae8d60a18a5dcf92b4b243477bc93704b7cbe9725956"
+    },
+    {
+      "ordinal": 2629,
+      "source_id": "jastrow-xml-002629",
+      "headword": "אֲפוּנְדָּה",
+      "source_xml": "<entry id=\"A02628\">\n<head-word>אֲפוּנְדָּה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= פונדה q. v., funda) \n<italic>money bag, purse</italic>, suspended from the neck or from a belt.</definition>\n<notes> Y. Sabb. X, 12\n<sup>c</sup>. Sabb. X, 3 (92\n<sup>ab</sup>) Ar. (ed. פו'); a. fr.—Trnsf. \n<italic>womb</italic>. Tanḥ. Thazr. 3 האפונדיה, אפונדיה; ed. Bub. 5 פונדיה (corr. acc.); [Lev. R. s. 14 ארנקי]. </notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5a39fc273719ed498f2e057ef32fa53cabc3d78a6e79f3b895b41e3dfea71826"
+    },
+    {
+      "ordinal": 2630,
+      "source_id": "jastrow-xml-002630",
+      "headword": "אפונדיה",
+      "source_xml": "<entry id=\"A02629\">\n<head-word>אפונדיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02628\">preced.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b742d4998aae2a2a82a092b11eaba51b04053ca91d5651d0a3a629c0606dee87"
+    },
+    {
+      "ordinal": 2631,
+      "source_id": "jastrow-xml-002631",
+      "headword": "*אפונס",
+      "source_xml": "<entry id=\"A02630\">\n<head-word>*אפונס</head-word>\n<senses>\n<sense>\n<definition> Ḥull.</definition>\n<notes> 66\n<sup>b</sup> top; Ab. Zar. 39\n<sup>a</sup>, a. corrupt. of פֵּילָמוּס (πήλαμυς) \n<italic>pelamys</italic>, a species of \n<italic>thunny</italic> or \n<italic>scomber</italic>\n<italic>;</italic> Tosef. Ḥull. III (IV), 27 פולמוס (read פי').</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f225f7f5cab9ee4769f743c43afd072d677644599f0e3d4a9f8d61178066cdf4"
+    },
+    {
+      "ordinal": 2632,
+      "source_id": "jastrow-xml-002632",
+      "headword": "אפונראות",
+      "source_xml": "<entry id=\"A02631\">\n<head-word>אפונראות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02270\">אַנְפֹּורָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c3403f6140632b59cee29f542641b1b597a4210c8519d8ba2b8b067dfc9bd5eb"
+    },
+    {
+      "ordinal": 2633,
+      "source_id": "jastrow-xml-002633",
+      "headword": "*אַפֹּוסְטֹומֹוס,",
+      "source_xml": "<entry id=\"A02632\">\n<head-word>*אַפֹּוסְטֹומֹוס, </head-word>\n<head-word>אַפֹּוסְטְמֹוס</head-word>\n<senses>\n<sense>\n<definition> (Var. פוסטמוס, פס')\n<pos> pr. n. m.</pos>\n<italic>Apostomos</italic> (Postomos), one who is mentioned as having burned the Law [and put up an idol in the Temple].</definition>\n<notes> Taan. IV, 6; Y. ib. 68\n<sup>cd</sup>; Yalk. II Kings 250. [Prob. an officer of king Antioch Epiphanes of Syria; perh. a popul. corrupt. of ἀπόστολος, cmp. II Macc. VI, 1.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6b37e006f6032e1a60644434a718fc410d6fd22a62f63cc372bc1d0126646acc"
+    },
+    {
+      "ordinal": 2634,
+      "source_id": "jastrow-xml-002634",
+      "headword": "אפוספיס",
+      "source_xml": "<entry id=\"A02633\">\n<head-word>אפוספיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02638\">אַפֹּופְסִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "30bdaa8cb49cd117746e613bf23cb1eea527876393bf3d42973f1c3df96c9ef7"
+    },
+    {
+      "ordinal": 2635,
+      "source_id": "jastrow-xml-002635",
+      "headword": "אִפֹּופֹּודִין,",
+      "source_xml": "<entry id=\"A02634\">\n<head-word>אִפֹּופֹּודִין, </head-word>\n<head-word>אִי'</head-word>\n<senses>\n<sense>\n<definition> (frequ. miscopied אפיפ', and with ר for ד) c. (ὑποπόδιον) \n<italic>footstool to the throne or to a high chair of distinction</italic>.</definition>\n<notes> Targ. Y. Ex. XXIV, 10 (corr. acc.).—Y. Ḥag. II, 77\n<sup>c</sup> bot. after building the throne, he makes אפו' שלו his foot-stool; Gen. R. s. 1; Lev. R. s. 36 (corr. acc.). Kel. XVI, 1 א' של בעלי הבית (in Talm. ed. בעל) the people’s footstool of the household (a folding stool, cmp. אַסְלָא II). Ib. XXIV, 7 ג' פנקסין יש הא' וכ' (corr. acc.) there are three boards or tablets in use (v. פנקס), that which is used as a footsool is susceptible of uncleanness by being trod upon, that with a receptacle for wax (writing tablet) gets unclean by &amp;c. [Gen. R. s. 17; Koh. R. to III, 19, v. אֱפִיפְּיוֹן.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "616876248dead2e311a16c6deb0ba637270c0f5ca87ab9f9db124065f9357b20"
+    },
+    {
+      "ordinal": 2636,
+      "source_id": "jastrow-xml-002636",
+      "headword": "אפופיירות",
+      "source_xml": "<entry id=\"A02635\">\n<head-word>אפופיירות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02666\">אפי'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "abccae6317a771bf72b2a4a258e4c29d895a186e1074d792d897069e45b285e0"
+    },
+    {
+      "ordinal": 2637,
+      "source_id": "jastrow-xml-002637",
+      "headword": "אפופלסמון",
+      "source_xml": "<entry id=\"A02636\">\n<head-word>אפופלסמון</head-word>\n<head-word>א</head-word>\n<senses>\n<sense>\n<definition />\n<notes>פֹּובַּלְסְמֹון.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "40e3d078275ca0ee5f3a8b080523067eb95eb3f8407ddfe68fbe772d7138b926"
+    },
+    {
+      "ordinal": 2638,
+      "source_id": "jastrow-xml-002638",
+      "headword": "אפופסים",
+      "source_xml": "<entry id=\"A02637\">\n<head-word>אפופסים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f7a6a409e388a1ee8bc86d4f0c4130b055666940df9b49e4d4569b10f6ecea91"
+    },
+    {
+      "ordinal": 2639,
+      "source_id": "jastrow-xml-002639",
+      "headword": "אַפֹּופְסִין,",
+      "source_xml": "<entry id=\"A02638\">\n<head-word>אַפֹּופְסִין, </head-word>\n<head-word>אַפֹּופְסִיס</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ἀπόφασις, ἀπόφανσις) \n<italic>verdict, dispensation</italic>.</definition>\n<notes> [Variously corrupted: איפופסין, איפוספ', איפרפס &amp;c.] Y’lamd. to Gen. III, 1 quot. in Ar. (ref. to Prov. XVIII, 7) the fools give out האפופסין שלהן their own verdict. Pesik. R. s. 44 איספוסין, אפוספיס (corr. acc.). Ib. s. 46 (ed. Fr. p. 187\n<sup>b</sup>) ניתן פאופרי read נטל א' he received his verdict (of expulsion from Eden). Y. Sot. VII, 21\n<sup>d</sup> bot.; Y. R. Hash. I, 57\n<sup>a</sup> bot. איפ'; a. fr. [Tanḥ. Sh’moth 13 שנטלו אפופסים, read אַפּוּכִי.]—Midr. Till to Ps. XVII; Yalk. Ps. 670 two curiosi (v. הנדיוסין) רצין בהפרכוס (באין באיפרפוס) (read באפופסיס) run (come) each with a verdict; v. בָּאיָין.—Lev. R. s. 21, beg. אפופסיות Ar., read with ed. אפופסיס.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "46a7c5e2677af6da18ad1851578e3702d00273e4bdc8fee69719477022861ae7"
+    },
+    {
+      "ordinal": 2640,
+      "source_id": "jastrow-xml-002640",
+      "headword": "אפופרין",
+      "source_xml": "<entry id=\"A02639\">\n<head-word>אפופרין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Koh. R. to III, 19, v. \n<xref rid=\"A02700\">אֱפִיפְּיוֹן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7c4160ca848f2935e2a97b948ce838db324851e18c103111acb79589320db225"
+    },
+    {
+      "ordinal": 2641,
+      "source_id": "jastrow-xml-002641",
+      "headword": "אֲפוּקֵי,",
+      "source_xml": "<entry id=\"A02640\">\n<head-word>אֲפוּקֵי, </head-word>\n<head-word>פּוּקֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (נפק, פוק) \n<italic>exit, end</italic> (= h. מוצאי).</definition>\n<notes> Y. Pes. IV, 30\n<sup>d</sup> top בא' שובת' on Sabbath night. Pes. 105\n<sup>b</sup> א' יומא dismissal of the festive day with benediction; a. fr.—Y. Peah VII, 20\n<sup>b</sup>, top אפיקי (corr. acc.) a. פוקי.—[לאפוקי, v. אַפֵּק.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ddc18ecc8f5ac2ad49c749ecf97db61401dcf797515236b02f63734e02c7276d"
+    },
+    {
+      "ordinal": 2642,
+      "source_id": "jastrow-xml-002642",
+      "headword": "אַפֹּוקֵי",
+      "source_xml": "<entry id=\"A02641\">\n<head-word>אַפֹּוקֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (Af. of נפק) \n<italic>carrying out</italic>.</definition>\n<notes> Targ. O. Lev. XXVI, 5 לא' בר זרעא until seed-time.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ff722d1d8611ac193dade587f6a27d380958377a22f136626cc52951385fed59"
+    },
+    {
+      "ordinal": 2643,
+      "source_id": "jastrow-xml-002643",
+      "headword": "אפוקלוס,",
+      "source_xml": "<entry id=\"A02642\">\n<head-word>אפוקלוס, </head-word>\n<head-word>אפוקליס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02712\">אַפִּיקֹורִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9563d097c62a483dc74d14f3257a835f6269bc684292b67b1f6a54e1b5a4b422"
+    },
+    {
+      "ordinal": 2644,
+      "source_id": "jastrow-xml-002644",
+      "headword": "אפוקסנין",
+      "source_xml": "<entry id=\"A02643\">\n<head-word>אפוקסנין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אִסְטַקְטֹון.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f070ba16d4c6a1075e0eb73888fc3ae4254da2113e4ebe078cccc322603f84f0"
+    },
+    {
+      "ordinal": 2645,
+      "source_id": "jastrow-xml-002645",
+      "headword": "אפורדכיס",
+      "source_xml": "<entry id=\"A02644\">\n<head-word>אפורדכיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אפדכס'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "255b0e1cbe11083eff0573bf1a64691b6dfa3e29c62d137bf332af6c6fab8158"
+    },
+    {
+      "ordinal": 2646,
+      "source_id": "jastrow-xml-002646",
+      "headword": "אפורטין",
+      "source_xml": "<entry id=\"A02645\">\n<head-word>אפורטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Lev. R. s. 25, beg. מפני א', Yalk. Lev. 615 אפרטין, read מפני הַפִּירָטִין, v. פִּירָטֵיס.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e8fd5372094ce347baa31e68a3b4cfd17e25306a035a2faba40780e0d9e8ddc7"
+    },
+    {
+      "ordinal": 2647,
+      "source_id": "jastrow-xml-002647",
+      "headword": "*אָפֹּורְיָיא,",
+      "source_xml": "<entry id=\"A02646\">\n<head-word>*אָפֹּורְיָיא, </head-word>\n<head-word>אֹופֹּורְיָיא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ὀπωριαῖα, τὰ) \n<italic>fruit</italic>.</definition>\n<notes> Gen. R. s. 72 בשעת בִּכּוּר כל מיני א' Ar. (ed. איפוריא, read אֹו') in the season when all kinds of fruit ripen.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "35202210de70132925503fc6bd7bcd98332015b09f90e0510cb083a50ec9c2a0"
+    },
+    {
+      "ordinal": 2648,
+      "source_id": "jastrow-xml-002648",
+      "headword": "אַפּוּתָא",
+      "source_xml": "<entry id=\"A02647\">\n<head-word>אַפּוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= אַפָּא) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>nose</italic>.</definition>\n<notes>. Targ. Job XLI, 12 (9).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>front of the face, forehead</italic>.</definition>\n<notes> Pes. 112\n<sup>a</sup> ידא אא' וכ' the hand on the forehead is one step to sleep. Ber. 44\n<sup>a</sup>, v. דִּידְבָא.—Taan. 25\n<sup>a</sup> מאַפּוּתֵיה out of his forehead. Ib. אפותאִי ed. (read אאפ'), v. אִסְקוּטְלָא I.—Ab. Zar. 26\n<sup>a</sup> אאפותיה Ar. (ed. אפותא, Ms. M. אפותיה, corr.) on its (the child’s) forehead. Sabb. 80\n<sup>b</sup>, v. אַנְדִּיפָא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5713a53c3107120327afeca96900853d74b0740bbee6b1a16b7c4036a58d8ef8"
+    },
+    {
+      "ordinal": 2649,
+      "source_id": "jastrow-xml-002649",
+      "headword": "אפותיק",
+      "source_xml": "<entry id=\"A02648\">\n<head-word>אפותיק</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"E00775\">הֶפְתֵּק</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b72f5f1e65fc0911cc100a8aadebd845904b855a9a2680fd18cbe136f3669540"
+    },
+    {
+      "ordinal": 2650,
+      "source_id": "jastrow-xml-002650",
+      "headword": "אַפֹּותִּיקִי",
+      "source_xml": "<entry id=\"A02649\">\n<head-word>אַפֹּותִּיקִי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ἀποθήκη) \n<italic>store-house, store</italic>.</definition>\n<notes> Targ. Y. I, Gen. XXIV, 2. Ib. v. 10 שפר א' וכ' the best things of his store (Y. II אַפּוּתְיָקִי …, Ar. only דְּיָתִיקִי, v. Gen. R. s. 59).—Y. Sabb. IV, beg. 6\n<sup>d</sup> bot., opp. to אצל בעה\"ב in dwelling rooms, cmp. הֶפְתֵּק.—\n<plural-form>Pl. h. אַפֹּותִּיקָאֹות</plural-form>. Ex. R. s. 30 יש לך א' וכ' hast thou store-houses where to put them?—Ch. אַפֹּותִּיקַיָּא, אַפֹּותִּיקֵי. Targ. Y. I Deut XXXII, 34; a. e.—Y. Ned. IX, 41\n<sup>c</sup> bot.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c6e1c8d7f516d25b4f8d610048c46acf1922ae2c10b02fac6081019456635ee7"
+    },
+    {
+      "ordinal": 2651,
+      "source_id": "jastrow-xml-002651",
+      "headword": "אִפֹּותִּיקִי",
+      "source_xml": "<entry id=\"A02650\">\n<head-word>אִפֹּותִּיקִי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ὑποθήκη) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>pledge, mortgage</italic>; an object made a security without being placed in the possession of the pledgee, opp. to מַשְׁכּוֹן.</definition>\n<notes>—B. Kam. 96\n<sup>a</sup> שווייה ניהליה א' וכ' he made it a mortgage by saying, ‘You can pay yourself only out of this thing’. Ib. 11\n<sup>b</sup> עשה עבדו א' if he mortgaged his slave; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>mortgage-document, deed</italic>.</definition>\n<notes> Tosef. Shebi. VIII, 6 שטר שיש בו א' (ed. Zuck. הִפֹּותִּקִי) a note (contract) containing a mortgage obligation. Ex. R. s. 31 כתוב לי א' על וכ' give me a mortgage on thy field.—\n<plural-form>Pl. אִפֹּותִּיקָאֹות</plural-form>. B. Mets. 19\n<sup>a</sup> דייתיקאות א' וכ' (Ms. M. הפותיקו', v. Rabb. D. S. a. l. note) wills, mortgage deeds &amp;c. Tosef. Sabb. VIII (IX), 13 שטרי דייתיקי וא' ed. Zuck. (ed. הפות', read והפ').</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "acb5df85fca679addfbfef929dded8d82c883df825dc3a95fde0cc13dff31f05"
+    },
+    {
+      "ordinal": 2652,
+      "source_id": "jastrow-xml-002652",
+      "headword": "אָפֵז",
+      "source_xml": "<entry id=\"A02651\">\n<head-word>אָפֵז</head-word>\n<senses>\n<sense>\n<definition> (= b. h. פָּזַז) \n<italic>to dance, leap, sport</italic>.</definition>\n<notes> Gen. R. s. 68 (emphasizing \n<italic>bo</italic>, Gen. XXVIII, 12 as referring to Jacob) אֲפֵזִים בו וכ' sporting with him.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ee3b88784f6d97edfe68f8d0f1fad7372b25639279ca3670c34cb030b0335081"
+    },
+    {
+      "ordinal": 2653,
+      "source_id": "jastrow-xml-002653",
+      "headword": "אָפְזְיָינֵי",
+      "source_xml": "<entry id=\"A02652\">\n<head-word>אָפְזְיָינֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02610\">אֲפוּזְיָינֵי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "173f1fbdad845c45b9f907e3ccb8f841d73d81d4ab577a6c63dd49da136e2c44"
+    },
+    {
+      "ordinal": 2654,
+      "source_id": "jastrow-xml-002654",
+      "headword": "*אֵפְּחָא",
+      "source_xml": "<entry id=\"A02653\">\n<head-word>*אֵפְּחָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>, const. (נפח) אַפְּחַת, with רוּחָא \n<italic>grief, cause of grief</italic>.</definition>\n<notes> Targ. Y. II Gen. XXVI, 35 ed. (Ar. רָפְחַן).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "56375caf7336933eca2a9d1c97584ea77a498d3688b68c8c8eedeb31aff1ade0"
+    },
+    {
+      "ordinal": 2655,
+      "source_id": "jastrow-xml-002655",
+      "headword": "אַפְחֲזָא",
+      "source_xml": "<entry id=\"A02654\">\n<head-word>אַפְחֲזָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (פחז) \n<italic>levity, wantonness</italic>.</definition>\n<notes> Snh. 57\n<sup>a </sup>דקא מגלי אפחזייהו Ar. (ed. אורחייהו; Var. lect. v. Rabb. D. S. a. l. note 7) the Bible text describes their wantonness, lewdness.—Pes. 50\n<sup>b</sup>, v. אַפּוּחָא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0ceda4ddf087286580e3207c17aa6c5869ce84d5dbf6a3cb23dca6c85b0000fa"
+    },
+    {
+      "ordinal": 2656,
+      "source_id": "jastrow-xml-002656",
+      "headword": "אֶפְטָא",
+      "source_xml": "<entry id=\"A02655\">\n<head-word>אֶפְטָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01549\">אֶיפְטָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "87a63d25bc298a14d5c436b1cb1efd7dbfa1c1baf4f784d83ffd0ade204172d1"
+    },
+    {
+      "ordinal": 2657,
+      "source_id": "jastrow-xml-002657",
+      "headword": "*אפטוניות",
+      "source_xml": "<entry id=\"A02656\">\n<head-word>*אפטוניות</head-word>\n<senses>\n<sense>\n<definition> Koh. R. to I, 8 עבד בן א', prob. to be read אָפְסוֹנְיוּתָא\n<pos> f.</pos> (denom. of אָפְסוֹנִין) \n<italic>catering, cooking</italic>\n<pgbrk id=\"pg102\" />(for the Jew-Christians living in community of goods).</definition>\n<notes> [The entire passage seems to be corrupt or defective. V. Zunz Gott. Vortr. p. 275.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5127e03ffbf9c164342fd8a467f8026f07d0277d45fd4104628a51c3cfefada1"
+    },
+    {
+      "ordinal": 2658,
+      "source_id": "jastrow-xml-002658",
+      "headword": "אפוטריקא",
+      "source_xml": "<entry id=\"A02657\">\n<head-word>אפוטריקא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אפטוריקא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bcc3b239ef1254affc25ab978e340b1bc0ed9018685d5fc8a8f11a21735ea5a7"
+    },
+    {
+      "ordinal": 2659,
+      "source_id": "jastrow-xml-002659",
+      "headword": "אַפְטוֹרִיקִי",
+      "source_xml": "<entry id=\"A02658\">\n<head-word>אַפְטוֹרִיקִי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Aftoriki</italic>.</definition>\n<notes> B. Mets. 5\n<sup>a</sup> אבוה דר' א'; Ḥull. 64\n<sup>b</sup> … דוסתאי (Dostai) the father of R. A. (Y. Yoma IV, 41\n<sup>d</sup> top פטרוקי אחוה וכ' Patruki, brother of R. Darosa).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "632a3d595d7e75d20f9db978116066395e78bdf57d40d7ed150e847e30652fb5"
+    },
+    {
+      "ordinal": 2660,
+      "source_id": "jastrow-xml-002660",
+      "headword": "אֶפְטֵט,",
+      "source_xml": "<entry id=\"A02659\">\n<head-word>אֶפְטֵט, </head-word>\n<head-word>אֶפְטֵיט</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= פִּיטְפּוּט; v. \n<xref rid=\"B00502\">בטט</xref>) \n<italic>puppets of clay, a set of clay</italic> (\n<italic>or metal</italic>) \n<italic>pins to put pots on for cooking, pot-stand</italic>.</definition>\n<notes> Tosef. Kel. B. Mets. I, 12 א' שיש בו וכ' a pot-stand containing metal. Tosef. Nidd. VII, 3 אפטי (corr. acc.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "53ff972d9575dc9891084ec870ede810d3511fc22fd233355c49d54a1152ad4f"
+    },
+    {
+      "ordinal": 2661,
+      "source_id": "jastrow-xml-002661",
+      "headword": "אפטי",
+      "source_xml": "<entry id=\"A02660\">\n<head-word>אפטי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Yalk. Deut. 810, read אִיפַּטְיָא.—Tosef. Nidd. VII, 3; v. \n<xref rid=\"A02659\">preced.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f124324adb34cf7a0a68a7221ae80a50f9138a699bad530a528d0cfa827acbc0"
+    },
+    {
+      "ordinal": 2662,
+      "source_id": "jastrow-xml-002662",
+      "headword": "אִפַּטְיָא",
+      "source_xml": "<entry id=\"A02661\">\n<head-word>אִפַּטְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02789\">אִיפַּ'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "39a19bdd20d1e6be05f2732aef468434767f1a3148897fe0389b054534e3f1ab"
+    },
+    {
+      "ordinal": 2663,
+      "source_id": "jastrow-xml-002663",
+      "headword": "אַפֹּטְנִיּוֹת",
+      "source_xml": "<entry id=\"A02662\">\n<head-word>אַפֹּטְנִיּוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אַפּוֹטְ'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e52eb95eff4179698b294fd31b6c10225b0bde236d95b0df530ffd99fa9f5e1c"
+    },
+    {
+      "ordinal": 2664,
+      "source_id": "jastrow-xml-002664",
+      "headword": "אַפְטָרָה",
+      "source_xml": "<entry id=\"A02663\">\n<head-word>אַפְטָרָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (פטר, Nif. נִפְטַר \n<italic>to part;</italic> v. \n<xref rid=\"E00730\">הַפְטָרָה</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>farewell-address, homiletic observations made on parting with the host that entertained scholars, toast</italic> (in praise of hospitality, charity, support of students &amp;c.).</definition>\n<notes> Gen. R. s. 60 R. Y. עבד לה א' used the (preceding) text for a toast; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition />\n<notes> v. \n<xref rid=\"A02665\">אַפְטַרְתָּא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "af8891f3184c45ead706fe6d9ff2835ecb8c220a32dd67267768eba324acd4b4"
+    },
+    {
+      "ordinal": 2665,
+      "source_id": "jastrow-xml-002665",
+      "headword": "אפטרופולין",
+      "source_xml": "<entry id=\"A02664\">\n<head-word>אפטרופולין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Yalk. Gen. 9; אפטרפא, אפטרפוס, אפטרפין, v. \n<xref rid=\"A02675\">אֶפִּיטְרוֹפּוֹס</xref> a. follow.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e6c8f166c9cb22349aa29419d06476737bc11e99e869746a268f1d0efb4e3d39"
+    },
+    {
+      "ordinal": 2666,
+      "source_id": "jastrow-xml-002666",
+      "headword": "אַפְטַרְתָּא",
+      "source_xml": "<entry id=\"A02665\">\n<head-word>אַפְטַרְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A02663\">אַפְטָרָה</xref>) prop. \n<italic>conclusion</italic>, esp. \n<italic>Aftarah</italic>, or \n<italic>Haftarah</italic>, i.e. the prophetic lesson read in Synagogue after the reading from the Pentateuch.</definition>\n<notes> Pes. 117\n<sup>b</sup> דא' (the benediction) belonging to the Aft.—*Gitt. 60\n<sup>a</sup> ספר א' (or pl. אַפְטָרָתָא) prob. \n<italic>a book containing homiletic notes</italic> for toasts &amp;c., v. אַפְטָרָה. [V. Rapap. Er. Mill. p. 167.]—Cmp. הַפְטָרָה.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bb39b05cf95fed3a47286b3cb10108e683d084c783a1979e3af03d98e7c06ab4"
+    },
+    {
+      "ordinal": 2667,
+      "source_id": "jastrow-xml-002667",
+      "headword": "אפי,",
+      "source_xml": "<entry id=\"A02666\">\n<head-word>אפי, </head-word>\n<head-word>א' בלסמון</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Hor. III, 47\n<sup>c</sup> bot., v. \n<xref rid=\"A02608\">אָפּוֹבַּלְסְמוֹן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "3bb78af84abba7a4fa43322099c8b2cee5fe72cfa8070e1e6cf51626d1feadcd"
+    },
+    {
+      "ordinal": 2668,
+      "source_id": "jastrow-xml-002668",
+      "headword": "אפי,",
+      "source_xml": "<entry id=\"A02667\">\n<head-word>אפי, </head-word>\n<head-word>אָפָה</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √אף</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"A02770\">אפף</xref>) [\n<italic>to heat, darken</italic>, cmp. חמץ,] \n<italic>to bake</italic>.</definition>\n<notes> Keth. V, 5 ואוֹפָה and must bake. Pes. 116\n<sup>a</sup>. Y. Ab. Zar. V, 45\n<sup>a</sup> bot. א' ג' תנורים baked three ovenfulls of bread; a. fr.—Part. pass. אָפוּי baked, (as a noun) \n<italic>pastry</italic>. Pesik. R. s. 16 א' אחד וכ' (some ed. עפוי; Pesik. Eth Korb. p. 58\n<sup>b</sup>, Yalk. Num. 777 שבוי corr. acc.) I charged thee with the furnishing of one kind of pastry (to supply the governor’s household).—\n<plural-form>Pl. אֲפוּיִים</plural-form>. Mekh. Bs’hall. Vay. 4.—Fem. אֲפוּיָה. Gen. R. s. 67 (play on \n<italic>epho</italic>, Gen. XXVII, 37) פתך א' thy bread is baked, thou shalt have to eat without labor. Ib. פורניתא א' (read פורניתך), v. פּורָנִית a. פּוֹרְנִי.</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֶאֱפָה</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be baked</italic>.</definition>\n<notes> Cant. R. to IV, 11 (play on \n<italic>epho</italic>, v. supra) מי נ' בתנור זה who is to be baked in this oven (hell)?—Men. XI, 1; a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְאַפֶּה</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> same. Mekh. l. c. היה מִתְאַפֶּה became baked of itself. Sifré Num. 89 המתְאַפִּים בתנור things baked in the oven.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "ac3d4c18ec6bb67f6df4172a81b817657288c5e2759a3af626c91cc7d410b419"
+    },
+    {
+      "ordinal": 2669,
+      "source_id": "jastrow-xml-002669",
+      "headword": "אָפֵי,",
+      "source_xml": "<entry id=\"A02668\">\n<head-word>אָפֵי, </head-word>\n<head-word>אֲפָא, </head-word>\n<head-word> , </head-word>\n<head-word>(אֲפָה)</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Gen. XIX, 3; a. fr.—Men. 94\n<sup>a</sup> כיון דא' לה after he baked it. Sabb. 63\n<sup>b</sup> למֵיפָא to bake.—אָפָן, אָפְיָיתָא \n<italic>baking women, bakers</italic>. Targ. I Sam. VIII, 13.—Ber. 58\n<sup>b</sup> שתין א' sixty bakers.—Ib. ואפיין and they used to bake. Y. Bets. IV, 62\n<sup>c</sup> bot. אתת מופה (read מֵיפָה) she came in order to bake; a. fr.</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְאָפֵי</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be baked</italic>.</definition>\n<notes> Targ. Lev. VI, 10; a. e.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "30d5bc8379eed61b370d78c36b5e819ff85cbc176ad74d7052c08c49e4c276d5"
+    },
+    {
+      "ordinal": 2670,
+      "source_id": "jastrow-xml-002670",
+      "headword": "אַפַּיָּא",
+      "source_xml": "<entry id=\"A02669\">\n<head-word>אַפַּיָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02600\">אַפָּא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "eb3e93885ab0281a0ba2429251899a60dafe8bb24dd78bc7f2fa399609775a8a"
+    },
+    {
+      "ordinal": 2671,
+      "source_id": "jastrow-xml-002671",
+      "headword": "אַפְיָאן",
+      "source_xml": "<entry id=\"A02670\">\n<head-word>אַפְיָאן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02680\">אַפְיָין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8ce12aed18951165e518798a6f951b9beeba4c78ff30e81301a402d04f2fcc37"
+    },
+    {
+      "ordinal": 2672,
+      "source_id": "jastrow-xml-002672",
+      "headword": "*אַפִּידְרָא",
+      "source_xml": "<entry id=\"A02671\">\n<head-word>*אַפִּידְרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (פדר) \n<italic>stable-floor</italic>, or \n<italic>cement formed on the stable-floor by moistening and stamping the dung</italic>.</definition>\n<notes> Nidd. 28\n<sup>a</sup> he burned the corpse ע\"ג פידרא בא' Ar. (ed. ע\"ג אפודרים) over the dung on the cemented stable-floor. [Oth. opin. \n<italic>marble-plate</italic>, meaning \n<italic>a hard cemented substance</italic>, cmp. כלי גָּלָל.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d1b04fa926393dc9ce28765e87a8436f3b2c788e5e1ab4a6ce94e24dccd39ecd"
+    },
+    {
+      "ordinal": 2673,
+      "source_id": "jastrow-xml-002673",
+      "headword": "*אִפְיוֹטוֹת",
+      "source_xml": "<entry id=\"A02672\">\n<head-word>*אִפְיוֹטוֹת</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (פוט) prop. \n<italic>able to talk</italic> (sensibly), hence \n<italic>children</italic> of about six or seven years.</definition>\n<notes> Y. Gitt. V, 47\n<sup>b</sup> bot. א' פרייא \n<italic>ifyototh</italic> (Mish. ib. 8 referred to reads פְּעוּטוֹת q. v.) means \n<italic>little ones</italic> (v. פרא). Y. Maas. Sh. IV, 55\n<sup>a</sup> פתר לה … א' וכ' expounds the subject by analogy with the law concerning minors, for we read in the Mishnah &amp;c., v. supra.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1ba607427dbb14fb11e767aa69dca45ca3791231a8e085ba5d61096eb29f74be"
+    },
+    {
+      "ordinal": 2674,
+      "source_id": "jastrow-xml-002674",
+      "headword": "אפיטריסות",
+      "source_xml": "<entry id=\"A02673\">\n<head-word>אפיטריסות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אֶפִיטְרוֹפְסוּת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ba7de053d3c10d805ec090b3945dff30e6002f96bfd98a5df5ebae9c9df67e47"
+    },
+    {
+      "ordinal": 2675,
+      "source_id": "jastrow-xml-002675",
+      "headword": "אֶפִּיטְרוֹפָּא",
+      "source_xml": "<entry id=\"A02674\">\n<head-word>אֶפִּיטְרוֹפָּא</head-word>\n<pos> m.</pos>\n<language-key>(ch. </language-key>\n<senses>\n<sense>\n<number>1)</number>\n<definition> form = next w.) m. \n<language-key>(ch. </language-key>form = next w.) \n<italic>guardian, administrator; procurator</italic> (of a Roman district).</definition>\n<notes> B. Mets. 39\n<sup>a</sup> א' לדיקנני וכ' we appoint no guardian for the bearded (adults). Y. ib. III, beg. 9\n<sup>a</sup> לעשות בה א' to appoint another person as an administrator of the hired or loaned object. Lam. R. to V, 12 א' עליל לקרתא a governor (proconsul) entered a town.—\n<plural-form>Pl. אֶפִּיטְרוֹפַּיָּא</plural-form>. Pesik. Asser p. 95\n<sup>b</sup> אילין א' וכ' those Roman proconsuls that go out visiting the country places (cmp. Ex. R. s. 31, end).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> fem. \n<italic>administratrix</italic>\n<italic>;</italic> v. \n<xref rid=\"A02676\">אֶפִּיטְרוֹפְיָא</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "c105634dda8a7c4de0751cb9ca6cddae8e3331b8883299f259061c2367efc3e0"
+    },
+    {
+      "ordinal": 2676,
+      "source_id": "jastrow-xml-002676",
+      "headword": "אֶפִּיטְרוֹפּוֹס,",
+      "source_xml": "<entry id=\"A02675\">\n<head-word>אֶפִּיטְרוֹפּוֹס, </head-word>\n<head-word>(אַפִּי', </head-word>\n<head-word>אַפּוֹ', </head-word>\n<head-word>אַפַּטְ')</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition> ( m. (ἐπίτροπος) same.</definition>\n<notes> Targ. Y. Gen. XXXIX, 4; a. e.—B. Mets. 39\n<sup>a</sup> מעמידין א' the court appoints an administrator. Y. Ter. I, 40\n<sup>b</sup> bot. א' לעולם a permanent administrator (guardian), א' לשעה a temporary administrator (substitute). Ex. R. s. 46 מתגדלת אצל א' reared in the house of a guardian; a. fr.—Sabb. 121\n<sup>a</sup> א' של מלך royal administrator (of the fiscus).—Trnsf. Keth. 13\n<sup>b</sup>, a. e. אין א' לעריות there is no guardian (no means of guarding) against inchastity; Y. ib. I, 25\n<sup>d</sup> top א' על עריות.—\n<plural-form>Pl. אֶפִּיטְרוֹפְסִים, אֶפִּיטְרוֹפְסִין, אַפַּטְרְפִין אֶפִּיטְרוֹפִין</plural-form>. Targ. Y. Gen. XLI, 34. Pes. VIII, 1. Esth. R. to I, 2; a. fr.—Tosef. Ter. V, 7 תרומת א' T’rumah set apart by administrators in behalf of minors. Y. ib. l. c.—Gen. R. s. 6; Yalk. Gen. 9 אפיטרופולין (corr. acc.); a. fr. [Yalk. Ps. 771 אפיקורוס twice, read our w.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4a66a9b030ac4d19591459ce69d38cf8870b9ed935cce77baab0ea1eb3c7902e"
+    },
+    {
+      "ordinal": 2677,
+      "source_id": "jastrow-xml-002677",
+      "headword": "אֶפִּיטְרוֹפְיָא,",
+      "source_xml": "<entry id=\"A02676\">\n<head-word>אֶפִּיטְרוֹפְיָא, </head-word>\n<head-word>(אַפּוֹ') אֶפִּיטְרוֹפָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>administratrix, guardian</italic>.</definition>\n<notes> Keth. IX, 6 (86\n<sup>b</sup>) (Mish. ed. פא …, Talm. ed. פיא …). B. Bath. 144\n<sup>a</sup> פא … Y. Keth. IX, 33\n<sup>a</sup> top אפיטרופא, אפטרפא a. אפטרפוס. Tosef. ib. IX, 3.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "daede03b31564fd937efc4e8439317f043b8aa6ea0ff8115096dc34df73a1d5b"
+    },
+    {
+      "ordinal": 2678,
+      "source_id": "jastrow-xml-002678",
+      "headword": "אֶפִּיטְרוֹפְסוּת",
+      "source_xml": "<entry id=\"A02677\">\n<head-word>אֶפִּיטְרוֹפְסוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (denom. of אפיטרופוס) \n<italic>guardianship, administration</italic>.</definition>\n<notes> Tosef. B. Bath II, 5 (אפיטרוסות ed. Zuck., corr. acc.); Tosef. Keth. IX, 3 יוצא מאפיטרופסותו when he has ceased to be an administrator.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8e1e716d95e7cb53a8f81acac8065d8b9f9546c9abfbed0f7a41e1a4bc5fda5f"
+    },
+    {
+      "ordinal": 2679,
+      "source_id": "jastrow-xml-002679",
+      "headword": "אֲפִיָיה,",
+      "source_xml": "<entry id=\"A02678\">\n<head-word>אֲפִיָיה, </head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (אפי) \n<italic>baking</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>b</sup> bot. א' תולדה לבישול baking is a labor forbidden on the Sabbath as a species of cooking; v. אָב II. Men. 94\n<sup>a</sup>; a. fr.—\n<plural-form>Pl. אֲפִיּוֹת</plural-form>. Y. Pes. III, 30\n<sup>b</sup> top כדי שתי א' twice the time required for baking. [Y. Ned. VII, 40\n<sup>b</sup> bot. הנודר מן הא', read חֲפִירָה as Tosef. Ned. IV, 3.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6a7e1b33042106588a4eb85cf48fbdd3c1beb27100eab381450555ab6e65e320"
+    },
+    {
+      "ordinal": 2680,
+      "source_id": "jastrow-xml-002680",
+      "headword": "אִפְּיַיטְרוֹס",
+      "source_xml": "<entry id=\"A02679\">\n<head-word>אִפְּיַיטְרוֹס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἱππίατρος) \n<italic>veterinary surgeon</italic>.</definition>\n<notes> Num. R. s. 9.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f834bf06c75b3a0dfea899e988cf9e6c0b5a823d6a49c22ee83a8834380c8501"
+    },
+    {
+      "ordinal": 2681,
+      "source_id": "jastrow-xml-002681",
+      "headword": "אַפְיָין,",
+      "source_xml": "<entry id=\"A02680\">\n<head-word>אַפְיָין, </head-word>\n<head-word>אַפְיָאן, </head-word>\n<head-word>(עַפְיָאן, </head-word>\n<head-word>עַפְיָין)</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אפי) \n<italic>bake-fish</italic> (cmp. סולתנות), a small fish believed to grow scales when reaching a certain age.</definition>\n<notes> Ḥull. 66\n<sup>a</sup> bot. Ar. אפיין (ed. עפיאן); Ab. Zar. 39\n<sup>a</sup> עפיץ ed. (Ms. M. עפאץ, read עפיין, עפיאן); Tosef. Ḥull. III (IV), 27 אנפיא ed. Zuck. (Var. נפיא).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8814a2d88d0e284c0a9f4f1fa641f0ff79dc254e121cb02791c4d50b8bee005d"
+    },
+    {
+      "ordinal": 2682,
+      "source_id": "jastrow-xml-002682",
+      "headword": "אֲפֵיךְ",
+      "source_xml": "<entry id=\"A02681\">\n<head-word>אֲפֵיךְ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02727\">אֲפַךְ</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c7e97bb4c8b9b902b7c9c488e420ede50243d3cb29ef269a1a753be8d37e9e61"
+    },
+    {
+      "ordinal": 2683,
+      "source_id": "jastrow-xml-002683",
+      "headword": "אָפִיל",
+      "source_xml": "<entry id=\"A02682\">\n<head-word>אָפִיל</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> אפל)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>slow to ripen, late in the season</italic>.</definition>\n<notes> M. Kat. 6\n<sup>a</sup> א' late produces, opp. בַּכִּיר. Gen. R. s. 61, beg. זרע בא' sow at the advanced season. Fem. אֲפִילָה \n<italic>advanced autumn, rainy season</italic>. Y. Taan. I, 64\n<sup>a</sup> bot.—\n<plural-form>Pl. אֲפִילוֹת</plural-form>. Y. R. Hash. III, beg. 47\n<sup>b</sup>\n<italic>sheeps which conceive late in the season</italic>.—קרן אפיל, v. אָפֵל II.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c7fe865e50b44c796dd53be4bff77b30fb1ad7b28da3c826da11e802c4250c6c"
+    },
+    {
+      "ordinal": 2684,
+      "source_id": "jastrow-xml-002684",
+      "headword": "אֲפֵילָא,",
+      "source_xml": "<entry id=\"A02683\">\n<head-word>אֲפֵילָא, </head-word>\n<head-word>אַפְלָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> M. Kat. 6\n<sup>b</sup> אפלא וקא משוי לה וכ' Ms. M. (ed. א' קא, diff. vers. in Rashi) it is a slowly growing garden and by watering he makes it fast growing.—\n<plural-form>Pl. m. אֲפֵילֵי, אַפְלֵי</plural-form>. Targ. Koh. XI, 2 \n<italic>late seeds</italic>. Taan. 3\n<sup>b</sup> אפילי late clouds (after the rain), v. חָרְפָא. Nidd. 65\n<sup>b</sup> חרפי ואפלי earlier and later crops (in two succeeding years, so that the interval of time varies). \n<plural-form>Pl. f. אֲפֵילָתָא, אַפְלָתָא</plural-form>. Targ. O. Ex. IX, 32. R. Hash. 8\n<sup>a</sup> late \n<italic>conceiving</italic>, sluggish sheep, opp. חָרְפְּיָיתָא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cf13275c1598dc290e186ab1e457ddebe20228c5584652fcdedf29e2215b2a8b"
+    },
+    {
+      "ordinal": 2685,
+      "source_id": "jastrow-xml-002685",
+      "headword": "אֲפִילָה",
+      "source_xml": "<entry id=\"A02684\">\n<head-word>אֲפִילָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02682\">אָפִיל</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "02f25803f605466deb72d500fe5f2a841ea6ebd57b7532471bb0956926d5c13c"
+    },
+    {
+      "ordinal": 2686,
+      "source_id": "jastrow-xml-002686",
+      "headword": "אֲפֵילָה",
+      "source_xml": "<entry id=\"A02685\">\n<head-word>אֲפֵילָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> adj., v. \n<xref rid=\"A02731\">אָפֵל</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a1a31a8934ef0ac1ee59157711666a174b16f962cfa96056a8ef15c114689213"
+    },
+    {
+      "ordinal": 2687,
+      "source_id": "jastrow-xml-002687",
+      "headword": "אֲפֵילָה",
+      "source_xml": "<entry id=\"A02686\">\n<head-word>אֲפֵילָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אֲפֵלָה)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>darkness</italic>.</definition>\n<notes> Gen. R. s. 89 beg. (mental darkness; trials &amp;c.); v. אוֹפֶל.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "18d1fd99e7c5d6374d7b25c36d6aea8852b08f10ee2ea4aaa6cab80be18dc0bd"
+    },
+    {
+      "ordinal": 2688,
+      "source_id": "jastrow-xml-002688",
+      "headword": "אֲפִילּוּ",
+      "source_xml": "<entry id=\"A02687\">\n<head-word>אֲפִילּוּ</head-word>\n<senses>\n<sense>\n<definition> (abbrev. \n<xref rid=\"A02666\">אפי'</xref>) (= אַף אִילּוּ) \n<italic>even if, although, even</italic>.</definition>\n<notes> Targ. Ps. XIV, 3 (h. text גם); a. e.—R. Hash. 25\n<sup>a</sup> (reading אתם Lev. XXIII, 2; 4; 37 as if אַתֶּם) ‘which \n<italic>ye</italic> will proclaim’, אתם אפי' וכ' \n<italic>ye</italic> even if erring in the appointment of the festive calendar &amp;c., i.e. the appointment of the Supreme Court is definite and binding. Ber. 9\n<sup>a</sup>, a. fr. א' לרבנן even if following the opinion of &amp;c.; a. v. fr. [Cant. R. end א' להחריבו, v. next w.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a174319c13ccd6eb3c1b16f2e6a1a80b0eddcebb71a15e88e436c91ea34a0ef4"
+    },
+    {
+      "ordinal": 2689,
+      "source_id": "jastrow-xml-002689",
+      "headword": "אַפִּילוֹן,",
+      "source_xml": "<entry id=\"A02688\">\n<head-word>אַפִּילוֹן, </head-word>\n<head-word>אַפִּילְיוֹן, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἀπειλῶν, ἀπειλέων, part. pres.</definition>\n<notes> of ἀπειλέω, prob. borrowed fr. Aquila to Ps. CIV, 32) \n<italic>threatening</italic>. Y. Ber. IX, 13\n<sup>c</sup> bot. הוא א' לעולמו להחריבו He looks upon his world threatening to destroy it. Cant. R. end, that time חושב הקב\"ה אפילו להחריבו וכ' (read אפילון לעולמו להח') the Lord plans threatening &amp;c. Y’lamd. beg. (quot. in Ar. with ref. to Ps. l. c.) מסתכל אפיליון של עולם (read על עולמו) He looks threatening upon His world; cmp. Midr. Till. to Ps. XVIII, 8; Yalk. II Sam. 158.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "229ae9d857ba32a92ca70af48abda0d1c6ca591d095971b0f053557de56e0cf7"
+    },
+    {
+      "ordinal": 2690,
+      "source_id": "jastrow-xml-002690",
+      "headword": "אַפִּילוֹן,",
+      "source_xml": "<entry id=\"A02689\">\n<head-word>אַפִּילוֹן, </head-word>\n<head-word>אַפִּילְיוֹן, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (πυλών, πυλεών) \n<italic>gate-way</italic>.</definition>\n<notes> Ber. 16\n<sup>b</sup> נכנס לאפיליון Ar. (ed. אנפילון, Ms. F. לבית המרחץ, read לבית החצר, Treat. S’maḥ. I, 10 לחצר).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7d4128d964d86c797bb9adbf8020e0af46bcf65b99ed2afe5cc314d7f47aa7fd"
+    },
+    {
+      "ordinal": 2691,
+      "source_id": "jastrow-xml-002691",
+      "headword": "*אַפִּילְיוֹן,",
+      "source_xml": "<entry id=\"A02690\">\n<head-word>*אַפִּילְיוֹן, </head-word>\n<hw-number>III</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (pilleum, πιλίον) \n<italic>felt-cap, hat</italic> &amp;c. Kel. XXIX, 1 א' של ראש some ed. (others פִּילְיוֹן).</definition>\n<notes>—[Sabb. 120\n<sup>a</sup> אפיליון, פיליון Ms., ed. אפיליות, read אַפַּלְיוֹן, פַּלְיוֹן q. v.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "52304c81e34999360579c0b447839f76c0e41eac04195d7acd291a0daccab716"
+    },
+    {
+      "ordinal": 2692,
+      "source_id": "jastrow-xml-002692",
+      "headword": "אפיליות",
+      "source_xml": "<entry id=\"A02691\">\n<head-word>אפיליות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02690\">preced.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4f2aa3056be96c1d6aee6d98925dbf23fcfaed2f2374e2e29bed436fc3dd2696"
+    },
+    {
+      "ordinal": 2693,
+      "source_id": "jastrow-xml-002693",
+      "headword": "אפימיות",
+      "source_xml": "<entry id=\"A02692\">\n<head-word>אפימיות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pirke d’R. El. ch. X, read אוֹפְסְיָינִיּוֹת; v. \n<xref rid=\"A02049\">אמפומיות</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a5cbb1204f22f7e1df2c782a5039568d0015c814a894c825fa66c9e378ab5c11"
+    },
+    {
+      "ordinal": 2694,
+      "source_id": "jastrow-xml-002694",
+      "headword": "אֶפִּימְלֵיטֵיס",
+      "source_xml": "<entry id=\"A02693\">\n<head-word>אֶפִּימְלֵיטֵיס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἐπιμελήτης) \n<italic>manager, commissioner</italic>.</definition>\n<notes> Tosef. B. Bath. X, 5 אפומ' ed. Zuck. (ed. אפולמוטוס, corr. acc.). B. Bath. 144\n<sup>b</sup> פולמוסטוס ed. (Ms. פומליטוס, oth. var. v. Rabb. D. S. a. l. note 2; corr. acc.). Men. 85\n<sup>b</sup> פולמוסטוס ed. (Ar. פלמיטוס); corr. acc.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "92443be74e7e0ba01627bbfb1c9e384fdce4355bbedcf23a7443fbf342086246"
+    },
+    {
+      "ordinal": 2695,
+      "source_id": "jastrow-xml-002695",
+      "headword": "*אָפִיס,",
+      "source_xml": "<entry id=\"A02694\">\n<head-word>*אָפִיס, </head-word>\n<head-word>סָר א'</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition> (\n<italic>Sarapis</italic>, Σάραπις) \n<italic>Serapis</italic>, the Nile-god.</definition>\n<notes> Ab. Zar. 43\n<sup>a</sup> the figure of מיניקה וסר א' ed. (Ms. סָרָפִיס; v. Rabb. D. S. a. l.) a nursing woman (Isis) and of Serapis. [Cmp. Sachs Beitr. II, 99 and illustr. in Sm. Ant. s. v. Coma.] [Tosef. Par. V (IV), 2 האפיס ed., read with ed. Zuck. חפאים, v. חַפַּאי.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "024693b2571991312460f77850a569724a87a1e6240207a18f39cecc59884732"
+    },
+    {
+      "ordinal": 2696,
+      "source_id": "jastrow-xml-002696",
+      "headword": "אֶפִּיסְטוֹלִי",
+      "source_xml": "<entry id=\"A02695\">\n<head-word>אֶפִּיסְטוֹלִי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (ἐπιστολαί) \n<italic>message, injunction, last will</italic>.</definition>\n<notes> Gen. R. s. 74 end, ed.; v. אִסְטְלִי II. Y’lamd. to Deut. II, 2 (quot. in Ar. ed. pr.; oth. ed. פיסטולי).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9b1b4cdbaa23bb4354d641750e841dea315535764658f7125b266a14f259c409"
+    },
+    {
+      "ordinal": 2697,
+      "source_id": "jastrow-xml-002697",
+      "headword": "*אֶפִּיסְטִילְיוֹת",
+      "source_xml": "<entry id=\"A02696\">\n<head-word>*אֶפִּיסְטִילְיוֹת</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (ἐπιστύλιον) \n<italic>architraves</italic>, lower members of an entablature.</definition>\n<notes> Y. Succ. I, 52\n<sup>a</sup> bot. Mus.; cmp. פִּיסְטִלְיוֹת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "431a890452df25fd21394b4af94689a42084bec40b5586f9549ada802c50fc24"
+    },
+    {
+      "ordinal": 2698,
+      "source_id": "jastrow-xml-002698",
+      "headword": "אפיסניות",
+      "source_xml": "<entry id=\"A02697\">\n<head-word>אפיסניות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02763\">אָפְסַנְיָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a4c52bcc07069ed2c4b3cd2cace638335e63af79b2827c23a8bd1c0ef5734477"
+    },
+    {
+      "ordinal": 2699,
+      "source_id": "jastrow-xml-002699",
+      "headword": "אפיסתקיתיה,",
+      "source_xml": "<entry id=\"A02698\">\n<head-word>אפיסתקיתיה, </head-word>\n<head-word>אפיסתיקתיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02767\">אפסתקי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bcab094522197551fb7e1eceee1fa12337a17b31809c524dd900ab7b488cd7e3"
+    },
+    {
+      "ordinal": 2700,
+      "source_id": "jastrow-xml-002700",
+      "headword": "אפיפודין,",
+      "source_xml": "<entry id=\"A02699\">\n<head-word>אפיפודין, </head-word>\n<head-word>אפיפורין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, corruptions of אִפּוֹפּוֹדִין, אַפּוֹפְסִין or of next w.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7911b9dca270bd5a1cdd687bfab23fc2ff20b44593c6baf36a72c1d203477295"
+    },
+    {
+      "ordinal": 2701,
+      "source_id": "jastrow-xml-002701",
+      "headword": "*אֱפִיפְּיוֹן",
+      "source_xml": "<entry id=\"A02700\">\n<head-word>*אֱפִיפְּיוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἐφίππιον, ephippium) \n<italic>saddle cloth</italic>, a figurative expression for the protuberances of the human buttock; v. \n<xref rid=\"A01361\">אַיִן I</xref>.</definition>\n<notes> Koh. R. to III, 19 (ref. to ‘the advantage of man over beast’ Koh. l. c.) ואפופרין כפוי עליו וכ' (corr. acc.) and an ephippium is pressed over it (the lock of the buttock) in order that he may not look as hideous as a beast; Gen. R. s. 17 אפיפורין (and otherwise, to be corrected after Koh. R. l. c.); Yalk. Koh. 969 אפיפורי פרוסה על רגליו (corr. acc.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b41fd584ad9fd0458a07c979ac2d5e743c2254bf6e2901ffc4c732924a014a78"
+    },
+    {
+      "ordinal": 2702,
+      "source_id": "jastrow-xml-002702",
+      "headword": "*אַפִּיפְיוֹרָא",
+      "source_xml": "<entry id=\"A02701\">\n<head-word>*אַפִּיפְיוֹרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (על פיפיורא, v. \n<xref rid=\"Q00785\">פִּיפְיוֹרָא</xref> a. next w.) \n<italic>litter-carrier, chief lecticarius</italic>.</definition>\n<notes> Ab. Zar. 11\n<sup>a</sup> (v. פיפיורא for correct versions).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d573fdb478fbfacbe51b9c3f24227f800969b0e05d99a11fb52eb4ea97572389"
+    },
+    {
+      "ordinal": 2703,
+      "source_id": "jastrow-xml-002703",
+      "headword": "אַפִּיפְיָירוֹת,",
+      "source_xml": "<entry id=\"A02702\">\n<head-word>אַפִּיפְיָירוֹת, </head-word>\n<head-word>אַפִּיפְיָרוֹת, </head-word>\n<head-word>פִּיפְיָרוֹת</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (פִּיפְיָרוּת, רִית—f.</definition>\n<notes> sing.) (√פר, cmp. b. h. פרפר = בקע \n<italic>to split;</italic> cmp. פַּרְפֶּרֶת, a. פְּרִיפְרִיוֹת, פִּרְפְּרָאוֹת) \n<italic>split pieces of wood, laths</italic>, slabs used for \n<italic>espaliers</italic>, also \n<italic>as frames for decorative </italic>\n<pgbrk id=\"pg104\" />\n<italic>hangings</italic>. Y. Sot. IX, end, 24\n<sup>c</sup>; Tosef. ib. XV, 9 אבל עושה הוא אפיפיי' וכ' but one may make lath frames and hang thereon whatever decorations he may desire. [Bab. ib. 49\n<sup>b</sup> פִּפְיָרִית; Rashi פְּרִיפְרִית sing.] Kil. VI, 3 על מקצת א' on a portion of the espaliers. Ib. VII, 3 מותר א' the balance of the espaliers (on which no vine is trained). Kel. XVII, 3 אפי' וכ' (Ar. פי'; Mish. אפו') frames for hangings to which reeds were fastened from the bottom upward (crosswise) for support. Tosef Kel. B. Mets. VI, 6 (a. freq. in comment.) פִּיפְיָארוֹת. Ib. פִּיפְיָארוּת שאינה וכ' a frame (baldachin) which cannot be taken up by its handles and carried through the door (outside).—Ch. פֵּיפוּרָא, פִּיפְיוֹרָא. V. also פּוּרְיָא a. אַפִּרְיוֹן. [ר softened into י, cmp. חצוצרה.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b3cb83e08738c3240e6cc148a5da4abe1f6f47f6def9e1d4e1ee557f5dbf865f"
+    },
+    {
+      "ordinal": 2704,
+      "source_id": "jastrow-xml-002704",
+      "headword": "*אפיפסדוס",
+      "source_xml": "<entry id=\"A02703\">\n<head-word>*אפיפסדוס</head-word>\n<head-word>אפיפסרוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Ter. VIII, 46\n<sup>b</sup> לא מטון א' וכ', prob. to be read לא מטון לפלמירא וכ' they (the would-be captors of R. Isi) had not arrived at Palmyra before all of them (the royal court &amp;c.) were gone (carried into captivity). V. \n<xref rid=\"unknown\">זנביא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "963a40e5cbfd3cbeb7af74eada76ecbcb72b471796041fdd7cfda1c0a452e565"
+    },
+    {
+      "ordinal": 2705,
+      "source_id": "jastrow-xml-002705",
+      "headword": "אפיצטלין",
+      "source_xml": "<entry id=\"A02704\">\n<head-word>אפיצטלין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01555\">אִיפַּסְטְלִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5abcf66a0acc91f4ffa4415e177401364cf748a7400d2d432be1c187d7f94881"
+    },
+    {
+      "ordinal": 2706,
+      "source_id": "jastrow-xml-002706",
+      "headword": "אָפִיק",
+      "source_xml": "<entry id=\"A02705\">\n<head-word>אָפִיק</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A02775\"> אפק</xref>,\n<xref rid=\"unknown\"> √פק</xref>, v. פוק,\n<xref rid=\"Q01514\"> פקק</xref>,\n<xref rid=\"N01074\"> נפק</xref>,\n<xref rid=\"unknown\"> פנק; a)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to break through, go forth</italic>\n<italic>;</italic> b) \n<italic>to be a free man, ruler</italic>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>spring, rivulet</italic>\n<language-key>(ch. </language-key>\n<language-reference>\n<xref rid=\"A00083\">פצידא)</xref></language-reference>.</definition>\n<notes>—\n<plural-form>Pl. אֲפִיקִים</plural-form>. Ab. Zar. 54\n<sup>b</sup> bot.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>ruler.</italic></definition>\n<notes>\n<italic> Pl.</italic> as above. Cant. R. to V, 12 (allud. to \n<italic>ăfiké mayim</italic>, Cant. ib.) שהם א' על וכ' they (the scholars) are appointed officers over the waters of the Law.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "202a2ee2883a84abf22696f2aae5bf5d28c0b8d05f44b7eca257a661309ae393"
+    },
+    {
+      "ordinal": 2707,
+      "source_id": "jastrow-xml-002707",
+      "headword": "*אֲפִיקְדּוֹנָא",
+      "source_xml": "<entry id=\"A02706\">\n<head-word>*אֲפִיקְדּוֹנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = פִּיקָּדוֹנָא. Y. Shebu. VII, 37\n<sup>d</sup> מריה דא' (Y. B. Kam. VI, end, 5\n<sup>c</sup> דפ').</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2a34963049bac5e45c0878473c8dadcb5ff137b2bece8acad2a6f9b4c02930ef"
+    },
+    {
+      "ordinal": 2708,
+      "source_id": "jastrow-xml-002708",
+      "headword": "אֲפִיקוֹלוֹס",
+      "source_xml": "<entry id=\"A02707\">\n<head-word>אֲפִיקוֹלוֹס</head-word>\n<senses>\n<sense>\n<definition>(?)\n<pos> pr. n. m.</pos>\n<italic>Aphikolos</italic>.</definition>\n<notes> Tosef. Ḥull. VIII, 3; cmp. אבקולס. V. אַפִּיקוֹרִין.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f0688c2241400f8f7081ddac80997b7f1381350ac5beda1fe69a271b736ad473"
+    },
+    {
+      "ordinal": 2709,
+      "source_id": "jastrow-xml-002709",
+      "headword": "אֶפִּיקוֹמוֹן,",
+      "source_xml": "<entry id=\"A02708\">\n<head-word>אֶפִּיקוֹמוֹן, </head-word>\n<head-word>אֶפִּיקוֹמִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02709\">next w.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "99bb93e03a276c7cd0b26fabe0ed86ff2060b30ded2ec4d7162a2e3deddc9808"
+    },
+    {
+      "ordinal": 2710,
+      "source_id": "jastrow-xml-002710",
+      "headword": "*אֶפִּיקוֹמָן",
+      "source_xml": "<entry id=\"A02709\">\n<head-word>*אֶפִּיקוֹמָן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἐπὶκῶμον = comessatum ire; cmp. Sm.</definition>\n<notes> Ant. s. v. \n<italic>Comissatio;</italic> Plut. II, 726 Fragm. ed. Wytt.) ‘\n<italic>to the aftermeal entertainment!</italic>’ = our, ‘\n<italic>Remove the cloth</italic>’. Pes. X, 8 אין מפטירין אחר הפסח א' after the Paschal meal one must not wind up by saying, ‘Now to the after-meal entertainment’; (cmp. אַפְטָרָה). Y. ib. 37\n<sup>d</sup> top אֶפִּיקוֹמוֹן שלא יהא וכ' in order that one should not break loose from his company and join another.—אֶפִּיקוֹמִין m. pl. (ἐπίκωμοι) \n<italic>things belonging to the after-meal, dessert</italic>. Ib. bot. מאי א' what are \n<italic>epicomoi? Fruits, sweet-meats</italic> &amp;c., v. זֶמֶר II. Tosef. ib. 11 אין מפטירין … אפיקימון וכ' ed. Zuck. (read … קומין) we must not offer \n<italic>epikomoi</italic>, as nuts, dates &amp;c. [Pes. 119\n<sup>b</sup> מאי א' אמר רב שלא וכ' seems to be a corrupt text; prob. to be read: מאי טעמא אמר רב שלא וכ' מאי א' אמר שמואל כגון וכ'; cmp. Y. l. c. top … א' שלא וכ'; bot. מאי א' … שמואל אמר וכ']</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "74399e53537c6039c3e335da88cc2b8b438506a61e171ab71cb1da58d44acab9"
+    },
+    {
+      "ordinal": 2711,
+      "source_id": "jastrow-xml-002711",
+      "headword": "אַפִּיקוֹרָא",
+      "source_xml": "<entry id=\"A02710\">\n<head-word>אַפִּיקוֹרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (פקר, v. \n<xref rid=\"A02711\">next w.</xref>) \n<italic>an irreverent person, scorner.</italic></definition>\n<notes>\n<plural-form>Pl. אַפִּיקוֹרֵי</plural-form>. Ned. 23\n<sup>a</sup> דשכיחי א' וכ' for it occurs frequently that disrespectful persons attack the scholars.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "83e2c4ea8d421824da856724b918c592e81c465509a2458167b58465e2e6a58d"
+    },
+    {
+      "ordinal": 2712,
+      "source_id": "jastrow-xml-002712",
+      "headword": "אַפִּיקוֹרוֹס",
+      "source_xml": "<entry id=\"A02711\">\n<head-word>אַפִּיקוֹרוֹס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (פקרס, enlarg.</definition>\n<notes> of פקר, cmp. פרכס &amp;c.; cmp. אפקרסין) \n<italic>one irreverent of authority</italic> or \n<italic>religion, sceptic, heretic</italic>. [The peculiar form and also the meaning assigned to our w. found a ready support in its phonetic coincidence with \n<italic>Epicurus</italic>, the philosopher; cmp. N. T. Acta XVII, 18. The derivatives of our w. and those of the plain root פקר interchange frequently.] Snh. X (XI), 1, the following have no share in the world to come … וא' and the Ep.; Y. ib. XI, 27\n<sup>d</sup> bot. כהן דאמר אהן ספרא וכ' as the one who (speaking of the Law) says (sneeringly) ‘That book’, or ‘Those Rabbis’. Bab. ib. 99\n<sup>b</sup> (similar definition). Ab. II, 14 ודע מה שתשיב לא' that you may know what to reply to the sceptic; cmp. Snh. 38\n<sup>b</sup>; a. fr.—\n<plural-form>Pl. אַפִּיקוֹרְסִין, סִים</plural-form> …, אַפִּיקוֹרוֹ'. R. Hash. 17\n<sup>a</sup> Yalk. Num. 764. Ḥag. 5\n<sup>b</sup> מאי תיהוי עלן מא' how shall we henceforth cope with the heretics?, i.e. opponents of tradition (Jew-Christians; cmp. מִין a. Snh. 38\n<sup>b</sup>).—Cmp. אַפְקָרוּתָא.—Denom. אַפִּיקוֹרוֹסִית, v. אַפִּיקוֹרְסוּת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5167ab30a2da713e258e943b80c82b0c29d605cca6987d46a7d6cd7acfd18129"
+    },
+    {
+      "ordinal": 2713,
+      "source_id": "jastrow-xml-002713",
+      "headword": "*אַפִּיקוֹרִין,",
+      "source_xml": "<entry id=\"A02712\">\n<head-word>*אַפִּיקוֹרִין, </head-word>\n<head-word>אַפִּיקוֹרָן</head-word>\n<senses>\n<sense>\n<definition>, only in בא' as adv. (v. \n<xref rid=\"A02711\">preced.</xref> ws.) \n<italic>without restraint</italic>.</definition>\n<notes> Ḥull. 104\n<sup>b</sup> עוף וגבינה נאכלין בא' (Ar. רין …, ed. רן …, some ed. אפיק', without prefix ב) poultry and cheese may be eaten without restraint, expl. ibid. בלא נטיל' וכ' without intermission by washing hands &amp;c. *[A marginal note referring to the opinion of אפיקולוס, Tosef. Ḥull. VIII, 3, has been mistaken for a var. lect. of our w., as אפקיליס, אפוקלוס, אפיקולוס, אפקוליס, and another glossator, prob. thinking of \n<italic>facialis</italic>, φακίολης, added פי' מטלית—all of which was interpolated in Alfasi a. l., a. in Ar. s. v. אפיקורין.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b732bfe714435f34a3816e1ce42ea1c9a5ef165501ff9d44f9d7e406b899d713"
+    },
+    {
+      "ordinal": 2714,
+      "source_id": "jastrow-xml-002714",
+      "headword": "אַפִּיקוֹרְסוּת",
+      "source_xml": "<entry id=\"A02713\">\n<head-word>אַפִּיקוֹרְסוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (denom. of אפיקורוס) \n<italic>licentiousness, scepticism</italic>.</definition>\n<notes> Kidd. 66\n<sup>b</sup> נזרקה בו א' (some ed. רוֹסִית …) scepticism (Sadduceism) came over him.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "51d37503ec93644ccb6743b74f3c80ce8fa90795d47d12386ce409b8ce382d5f"
+    },
+    {
+      "ordinal": 2715,
+      "source_id": "jastrow-xml-002715",
+      "headword": "אַפִּיקְטְוִיזִין,",
+      "source_xml": "<entry id=\"A02714\">\n<head-word>אַפִּיקְטְוִיזִין, </head-word>\n<head-word>אַפִּיקְטְפִיזִין</head-word>\n<senses>\n<sense>\n<definition> (corr. אַפּוֹ')\n<pos> f.</pos> (ἀποκοτταβίζειν) orig.</definition>\n<notes>\n<italic>playing at cottabus</italic>, or \n<italic>squirting wine into a bowl;</italic> trnsf. (S.) \n<italic>the gourmand’s practice of taking an emetic before meal; to vomit</italic>. Sabb. 12\n<sup>a</sup>; 123\n<sup>ab</sup>. Ib. XXII, 6. Tosef. ib. XVI (XVII), 22, Var. ed. Zuck. אפקטויזין. Succ. 40\n<sup>b</sup>; B. Kam. 102\n<sup>a</sup>; Sifra B’har ch. I, end אפיקטפיזים (corr. acc.). [A noun ἀποκοττάβισις to which our w. would correspond, is not in the vocabulary.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "442493e3f087cde35dc7dddc806bfd7c5c6f36b0773211f75198274edd7a25fa"
+    },
+    {
+      "ordinal": 2716,
+      "source_id": "jastrow-xml-002716",
+      "headword": "אַפִּיקִילְטָא,",
+      "source_xml": "<entry id=\"A02715\">\n<head-word>אַפִּיקִילְטָא, </head-word>\n<head-word>אַפִּיקִילְטִין, </head-word>\n<head-word>פִּיקִילְטִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (ἐμποκιλτὰ, ποικιλτὰ, τὰ) \n<italic>embroidered garments</italic> (quoted as Aquila’s translation of רקמה Ez. XVI, 10; LXX ποικίλα).</definition>\n<notes> Pesik. B’shall. p. 84\n<sup>b</sup>. Cant. R. to IV, 11; 12 איפליקתא, אפליקטא (corr. acc.). Lam. R. beg. תרגם אונק' אפלקטורין פליקטא (read עקילס, and corr. acc. by striking out one of the two words as var. lect. that came into the text; cmp. Pesik. l. c. note).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bd73b858155c9b1338286519f2ec62d6fa60027e6ee60ca05267da520e0e2fa7"
+    },
+    {
+      "ordinal": 2717,
+      "source_id": "jastrow-xml-002717",
+      "headword": "אֲפִיקֵירוֹס,",
+      "source_xml": "<entry id=\"A02716\">\n<head-word>אֲפִיקֵירוֹס, </head-word>\n<head-word>אֲפִיקֶרֶס, </head-word>\n<head-word>אַפְקֵירוֹס</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Epicærus</italic>, a town East of the Jordan (Ptol. V, 16, 9), in Targ. corresp. to h. מַעֲכָה.</definition>\n<notes> Targ. Deut. III, 14, O. אפקי'; Y. II קריית אפיק' (Y. I corrupt קורוי ואנטיקירוס). Targ. Josh. XII, 5; XIII, 11; 13.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "27b509de2204b6643acc1475103e5b6c876b3eef88ff16df264c75766a54cd5e"
+    },
+    {
+      "ordinal": 2718,
+      "source_id": "jastrow-xml-002718",
+      "headword": "אפיקלין",
+      "source_xml": "<entry id=\"A02717\">\n<head-word>אפיקלין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00807\">אוֹפִיקְיָלִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b6a935b9bc89b353e480085f2c581cf8c83296051011f8e557c6fe94ced7bcd2"
+    },
+    {
+      "ordinal": 2719,
+      "source_id": "jastrow-xml-002719",
+      "headword": "אַפִּיקְרוּתָא",
+      "source_xml": "<entry id=\"A02718\">\n<head-word>אַפִּיקְרוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02783\">אַפְקָרוּתָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2a6a6a1c68352cd1b18f22123de9cb5d5012afde8fa5e3fa07e37e9a8bf7a636"
+    },
+    {
+      "ordinal": 2720,
+      "source_id": "jastrow-xml-002720",
+      "headword": "אפיקריסין,",
+      "source_xml": "<entry id=\"A02719\">\n<head-word>אפיקריסין, </head-word>\n<head-word>אפיקריתין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02789\">אַפְקַרְסִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4cb6a928d4d699cd013b3f0cd20e17508ba32c27abed3b44259ef5d8c0c5271e"
+    },
+    {
+      "ordinal": 2721,
+      "source_id": "jastrow-xml-002721",
+      "headword": "אֲפִיקֶרֶס",
+      "source_xml": "<entry id=\"A02720\">\n<head-word>אֲפִיקֶרֶס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02716\">אֲפִיקֵירוֹס</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "76e768f2296dfab60b710e2463bac4da311f8f973f1eee4636b46a0e6637cdf4"
+    },
+    {
+      "ordinal": 2722,
+      "source_id": "jastrow-xml-002722",
+      "headword": "אַפִּיקַרְסוּת",
+      "source_xml": "<entry id=\"A02721\">\n<head-word>אַפִּיקַרְסוּת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02786\">אַפְקַרְסוּת</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "294aabec15d251b0cc08eb8125de76c438b921d9bc71d089f99749fc05d8c375"
+    },
+    {
+      "ordinal": 2723,
+      "source_id": "jastrow-xml-002723",
+      "headword": "אִפִּיקְרָסִי",
+      "source_xml": "<entry id=\"A02722\">\n<head-word>אִפִּיקְרָסִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>; v. \n<xref rid=\"A02788\">אַפְקְרָסִי</xref>.—אַפִּיקַרְסִין, v. אַפְקַר'.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b5fa6a110d7a3f0c6cb9001d2c3fc3b8379fc33026647439a77241d33097b20a"
+    },
+    {
+      "ordinal": 2724,
+      "source_id": "jastrow-xml-002724",
+      "headword": "אפירטין",
+      "source_xml": "<entry id=\"A02723\">\n<head-word>אפירטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אפורטן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1d93eef84947c6272c641c9d480a6fb9668ab5f416fb1e44f48d4fe1e1c59c15"
+    },
+    {
+      "ordinal": 2725,
+      "source_id": "jastrow-xml-002725",
+      "headword": "אַפִּירְיוֹן",
+      "source_xml": "<entry id=\"A02724\">\n<head-word>אַפִּירְיוֹן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02817\">אַפִּרְיוֹן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a8e4f022eed367a9feddaacf99da2d6c50316b4ad35112385e2c53f98689e845"
+    },
+    {
+      "ordinal": 2726,
+      "source_id": "jastrow-xml-002726",
+      "headword": "אפירסמן",
+      "source_xml": "<entry id=\"A02725\">\n<head-word>אפירסמן</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Shek. V, 49\n<sup>c</sup> bot., read אפַּרְסְמוֹן.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "40e9fbcd69534bb69d2c92d4142582f4394c2dd6fe225470d652a3aceb902ee9"
+    },
+    {
+      "ordinal": 2727,
+      "source_id": "jastrow-xml-002727",
+      "headword": "אפיסקיתי,",
+      "source_xml": "<entry id=\"A02726\">\n<head-word>אפיסקיתי, </head-word>\n<head-word>אפיסקיתה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02767\">אפסתקי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "28d778d74bf9a4542af8d17863378ed84b9115012eb58358c6affd7ac48786ed"
+    },
+    {
+      "ordinal": 2728,
+      "source_id": "jastrow-xml-002728",
+      "headword": "אָפַךְ",
+      "source_xml": "<entry id=\"A02727\">\n<head-word>אָפַךְ</head-word>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"E00740\">הָפַךְ q. v.)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to turn, change, reverse, overthrow.</italic></definition>\n<notes> Kil. II, 3 say not I will plant ואח\"כ אוֹפַךְ and then turn the soil over (destroy the previous seed) אלא אוֹפֵךְ Ar. (ed. הוֹפֵךְ) but one must first uproot &amp;c. (cmp. אוכל fr. אָכַל). Ter. IX, 1; Tosef. Kil. I, 16 יוֹפַךְ he shall &amp;c. Ib. end לייפך ed. Zuck. (Var. לוֹפַךְ) to uproot.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4ebaee9e2cb32b18b255486cebb275066dd6fe36f3fc40bf0649f0bf5d25007b"
+    },
+    {
+      "ordinal": 2729,
+      "source_id": "jastrow-xml-002729",
+      "headword": "אֲפַךְ",
+      "source_xml": "<entry id=\"A02728\">\n<head-word>אֲפַךְ</head-word>\n<senses>\n<sense>\n<definition>, Af. אָפִיךְ, Pa. אַפַךְ\n<language-key> ch. </language-key></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to turn</italic> (act. a. neut.) also \n<italic>to turn around, to flee; to make turn around, to beat</italic>.</definition>\n<notes> Targ. Ps. LXXVIII, 9. Targ. I Chron. VIII, 13; a. fr.—Y. Kil. IX, 32\n<sup>c</sup> top אפיך אפיך turn around, turn around. Men. 25\n<sup>b</sup>, a. fr. איפוך reverse it, or, I reverse it. Ib. ומי מצית אפכת לה how can you reverse it? Gitt. 69\n<sup>b</sup> ונַפְּכֵיה let him reverse it; a. fr.—(With שבועה) \n<italic>to reverse the oath, shift the oath over to the opponent</italic>. Shebu. 41\n<sup>a</sup> in a case where the Biblical law prescribes an oath לא מַפְכִינָן we allow it not to be shifted over to the claimant; a. fr.—Sabb. 31\n<sup>a</sup> אפיך ליה he reversed it, i.e. recited the alphabet to him in inverted order. Yeb. 63\n<sup>a</sup> א' לה he said to her just the reverse. Gitt. 67\n<sup>b</sup> מֵיפַךְ אפכי they will do the reverse; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to overturn, destroy</italic>.</definition>\n<notes> Taan. 25\n<sup>a</sup> דאפכיה לעלמא מרישא (Ms. M. דאחרב) that I should destroy the world.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (cmp. אִיכְפַּת) \n<italic>to have to do with, care for, mind</italic>.</definition>\n<notes> Y. Bets. I, 60\n<sup>a</sup> bot.; Y. Shebi. IX, 38\n<sup>c</sup> top; Y. Erub. III, 21\n<sup>b</sup> bot. (read:) מה אפך לן פתילה גבי וכ' what does the law about wicks concern us when speaking of the egg, i.e. what relation is there between the two? Y. Ter. VIII, 46\n<sup>a</sup> top מה אפך לן מִצְוֹת וכ' what relation is there between religious laws and sanitary precautions concerning snake-bitten fruit? Ib. מה אפכיי וכ' (corr. acc.).</notes></sense>\n<sense>\n<number>—4)</number>\n<definition>\n<italic>to move about, travel, traffic</italic>.</definition>\n<notes> Ab. Zar. 31\n<sup>b</sup> כ\"ע אפכי all the people are about, on the road.</notes></sense>\n<sense>\n<number>—5)</number>\n<definition>\n<italic>to pay in return, to retaliate</italic>, v. \n<xref rid=\"E00740\">הֲפַךְ</xref> a. \n<xref rid=\"A02619\">אַפּוּכִי.</xref></definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְּפִיךְ, אִתְּפַךְ, </binyan-form>\n<senses>\n<sense>\n<definition>, אִי' \n<italic>to change off</italic>.</definition>\n<notes> Bets. 10\n<sup>b</sup> איתפוכי אתפך (old ed. correctly אתְּפוּךְ, mod. ed. אתהפוכי אתהפוך, Ms. M. והפוכי) they changed places. Deriv. אַפּוּכִי, אִיפְּכָא.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "a222c7e17179042401c835c6a5641362a0174f9fc80b1ebfb2028f835b7e079c"
+    },
+    {
+      "ordinal": 2730,
+      "source_id": "jastrow-xml-002730",
+      "headword": "אפכיי,",
+      "source_xml": "<entry id=\"A02729\">\n<head-word>אפכיי, </head-word>\n<head-word>אפכן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02728\">preced.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cc6d18779380c738b21e0d5132d34ff0431685cd121dac9d922d079fe602592e"
+    },
+    {
+      "ordinal": 2731,
+      "source_id": "jastrow-xml-002731",
+      "headword": "אַפְכִיּוֹת",
+      "source_xml": "<entry id=\"A02730\">\n<head-word>אַפְכִיּוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02619\">אַפּוּכִי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "61e57fa2d862dffbe995aeda240bdd313f89438f114e69665aafda3039e9dcdc"
+    },
+    {
+      "ordinal": 2732,
+      "source_id": "jastrow-xml-002732",
+      "headword": "אָפַל",
+      "source_xml": "<entry id=\"A02731\">\n<head-word>אָפַל</head-word>\n<senses>\n<sense>\n<definition>, only in Hif. הֶאֱפִיל (denom. of אָפֵל q. v.) \n<italic>to make dark, obscure</italic>.</definition>\n<notes> Sabb. 86\n<sup>a</sup> bot. מַאֲפִיל בטליתו he makes dark by spreading his cloak (cover) over himself. Y. B. Bath. III, 13\n<sup>c</sup> top עומד ומא' the tree stands there and takes the light away.—2) \n<italic>to be late in ripening, giving birth</italic>, &amp;c.; \n<italic>to have late crops</italic>. Y. Shebi. V, beg. 35\n<sup>d</sup> שנים מַאֲפִילֹות years slow in ripening, when the crop is delayed. Gen. R. s. 99 שהיא מַאֲפֶלֶת which has late crops.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "18642673ac8b5c71579db5fb9134af990129cf29f99e8a84e108d6b74f389337"
+    },
+    {
+      "ordinal": 2733,
+      "source_id": "jastrow-xml-002733",
+      "headword": "אֲפַל",
+      "source_xml": "<entry id=\"A02732\">\n<head-word>אֲפַל</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>\n<italic>Pa.</italic> אַפֵּיל as foreg. Hif. 1). B. Bath. 7\n<sup>a</sup> קא מאפלת עלי thou makest my building dark, obstructest my light.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4e0710fdb6cdeacbd4bda43f78a2703c88b33de93af34aead073662f626896f0"
+    },
+    {
+      "ordinal": 2734,
+      "source_id": "jastrow-xml-002734",
+      "headword": "אָפֵל,",
+      "source_xml": "<entry id=\"A02733\">\n<head-word>אָפֵל, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (√אף, v. \n<xref rid=\"A02770\">אפף</xref>; cmp. אבל, הבל) [thick vapory,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>dark</italic>.</definition>\n<notes> Sabb. 86\n<sup>a</sup>, a. fr. בית א' a dark (windowless) house.—אֲפֵילָה f. \n<italic>dark place</italic>. Y. Naz. IX, 57\n<sup>d</sup> top; Pes. 81\n<sup>b</sup> בא', במים in water or in a dark place (cave).—\n<plural-form>Pl. fem. אֲפֵילוֹת</plural-form>. Lev. R. s. 9 מבואות א' dark alleys; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>heavy, sluggish, slow, late</italic>.</definition>\n<notes> Denom. האפיל, v. אָפַל.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8b725ab0be862b42d5be2a67fe3bb6c1ab5ad631b4091a471ad6329c9d3193d7"
+    },
+    {
+      "ordinal": 2735,
+      "source_id": "jastrow-xml-002735",
+      "headword": "אָפֵל,",
+      "source_xml": "<entry id=\"A02734\">\n<head-word>אָפֵל, </head-word>\n<hw-number>II</hw-number>\n<head-word>(אָפִיל), </head-word>\n<head-word>קרן א'</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Keren Afel</italic> (Dark-Horn), name of a height.</definition>\n<notes> Taan. 22\n<sup>b</sup> עד שישב וכ' Ms. M. (ed. שיעמוד) until one sits on \n<italic>Ker. Afel</italic> and can bathe his feet in water. Ib. חזייא לי קרן א' … ed. (Ms. ההיא דוכתא) I have seen (that place) K. A.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7074654762c4d7a05d813815e16aac3d0fd4761a82c00f21ad5dd26f6442d911"
+    },
+    {
+      "ordinal": 2736,
+      "source_id": "jastrow-xml-002736",
+      "headword": "אַפְלָא",
+      "source_xml": "<entry id=\"A02735\">\n<head-word>אַפְלָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02683\">אֲפֵילָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "fee83edc55011d9ea236842316958833d5927cb51b0ef95f80d6f766299fc832"
+    },
+    {
+      "ordinal": 2737,
+      "source_id": "jastrow-xml-002737",
+      "headword": "אפלון",
+      "source_xml": "<entry id=\"A02736\">\n<head-word>אפלון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02738\">אַפַּלְיוֹן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "32eb5ae3e1cbc148ee1a7f0bc38130c1ec8db908e7f66248bd6ae2d17a438d45"
+    },
+    {
+      "ordinal": 2738,
+      "source_id": "jastrow-xml-002738",
+      "headword": "אַפְלָטוֹר",
+      "source_xml": "<entry id=\"A02737\">\n<head-word>אַפְלָטוֹר</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Syr. = אִמְפְּרָטוֹר q. v.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7d1656aa631835f969ec48fd95718d9bdd7677132856af2981c0035f3209528a"
+    },
+    {
+      "ordinal": 2739,
+      "source_id": "jastrow-xml-002739",
+      "headword": "אַפַּלְיוֹן,",
+      "source_xml": "<entry id=\"A02738\">\n<head-word>אַפַּלְיוֹן, </head-word>\n<head-word>פַּלְיוּם, </head-word>\n<head-word>פַּלְיוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (pallium, παλλίον) \n<italic>pallium, a sheet worn as a cloak and used for bed-cover</italic>.</definition>\n<notes> Sabb. 120\n<sup>a</sup> Ar. a. Rashi (ed. אפיליות, Ms. M. פיליון, corr. acc.). Y. ib. XVI, 15\n<sup>d</sup> top פיליון (corr. acc.). Nidd. VIII, 1 וכן בפליום Mish. (Bab. ed. פוליוס, corr. acc., Var. פליון). Treat. S’mahoth XII מאפלוני, read מֵאַפַּלְיוֹנִי.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a447aab601543d19038f20c83696fedf9e0c8723ca4d2bc099d87f6864f468b2"
+    },
+    {
+      "ordinal": 2740,
+      "source_id": "jastrow-xml-002740",
+      "headword": "אפליקטא,",
+      "source_xml": "<entry id=\"A02739\">\n<head-word>אפליקטא, </head-word>\n<head-word>אפליקתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02715\">אַפִּיקִילְטָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0b27f09f68633e4c2cdd5f02f1c0709a0e5bf8d91d8e22727f8aa3fd830aa4b0"
+    },
+    {
+      "ordinal": 2741,
+      "source_id": "jastrow-xml-002741",
+      "headword": "אַפַּלְסְמוֹן",
+      "source_xml": "<entry id=\"A02740\">\n<head-word>אַפַּלְסְמוֹן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02832\">אַפַּרְסְמוֹן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f3dba2cf5096160725063c1b45e1a99f1b2dc73935e16c784aa5275c37e4dae5"
+    },
+    {
+      "ordinal": 2742,
+      "source_id": "jastrow-xml-002742",
+      "headword": "אַפַּמְיָא",
+      "source_xml": "<entry id=\"A02741\">\n<head-word>אַפַּמְיָא</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (= פַּמְיָיס q. v.) \n<italic>Paneas</italic> in Northern Galilee (Cæsarea).</definition>\n<notes> Y. Kil. IX, 32\n<sup>c</sup> bot. ימא דא' the lake of P.—Y. Ḥall. IV, end, 60\n<sup>b</sup> (?).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>Apamæa</italic> in Babylon; v. \n<xref rid=\"A02502\">אִסְפַּמְיָא</xref> 2).</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "773f958ad3ef75405642264b6ceae3f795e0d96a9a3d7e4f730021380e2a6178"
+    },
+    {
+      "ordinal": 2743,
+      "source_id": "jastrow-xml-002743",
+      "headword": "אַפַּנְטוֹר,",
+      "source_xml": "<entry id=\"A02742\">\n<head-word>אַפַּנְטוֹר, </head-word>\n<head-word>אַפַּנְטוֹרִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = פַּנְתֵּירִין.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "82df06e266da25483e57f8043bc8f6bd81f731686d56b8e29b6b47dc4d872b81"
+    },
+    {
+      "ordinal": 2744,
+      "source_id": "jastrow-xml-002744",
+      "headword": "אַפַּנְטֵי",
+      "source_xml": "<entry id=\"A02743\">\n<head-word>אַפַּנְטֵי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ἀπαντή = ἀπάντησις) \n<italic>encountering</italic>.</definition>\n<notes>—לא' (= εἰς ἀπαντήν, h. לקראת) \n<italic>to meet, to receive</italic>. Tanḥ. Emor 22 לא' של טלך to salute the king. Pesik. R. Ten Command. 1 לא' של מלך וכ' (some ed. לאנפטי, corr. acc.) to salute his father the king. Cant. R. to I, 12 לאפנתי (corr. acc.). Y. Ab. Zar. II, 41\n<sup>b</sup> bot. לפגטי; Midr. Sam. ch. VII לאפרכי דידיה (corr. acc., or Var. לאפי). [Yalk. Esth. 1058 לאנפטי some ed., read: אַנְבְּטֵי.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4ce41734cd5b8150ee3ecdcd97612e1c0823d08142e3c01e0ce857d9d240bd52"
+    },
+    {
+      "ordinal": 2745,
+      "source_id": "jastrow-xml-002745",
+      "headword": "*אַפַּנְטִיסוֹן",
+      "source_xml": "<entry id=\"A02744\">\n<head-word>*אַפַּנְטִיסוֹן</head-word>\n<senses>\n<sense>\n<definition> (ἀπάντησον) \n<italic>go to meet</italic> (to join battle).</definition>\n<notes> Pesik. R. s. 31 translating \n<italic>kadd’ma panav</italic> (Ps. XVII, 13). [Correct: אין לנו זוג להזדווג לה אלא אתה קומה ד' קדמה פניו א' לה; v. Midr. Till. to Ps. l. c.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2d9d2fa68f888bba719b766f1d383f2a345e8b6c78a53b2b2a26055f2cd252a8"
+    },
+    {
+      "ordinal": 2746,
+      "source_id": "jastrow-xml-002746",
+      "headword": "אַפַּנְקְרִיסִין,",
+      "source_xml": "<entry id=\"A02745\">\n<head-word>אַפַּנְקְרִיסִין, </head-word>\n<head-word>פַּנְקְרִיסִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (transposition of קַפְרִיסִין, with נ inserted) \n<italic>caper-fruit</italic>.</definition>\n<notes> Y. Sabb. III, 5\n<sup>d</sup> top א' Ar. (ed. פ'). Ib. I, 3\n<sup>c</sup> bot. פנקריסים (read … ין); Y. Ab. Zar. II, 41\n<sup>d</sup> פ'. [In parallel places קַפְרִיסִין q. v.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a3a6c04b7a0b986024323bceef9a5b3386f2a0f0ac499108f0524572e5da6a91"
+    },
+    {
+      "ordinal": 2747,
+      "source_id": "jastrow-xml-002747",
+      "headword": "אַפַּנְתָּא,",
+      "source_xml": "<entry id=\"A02746\">\n<head-word>אַפַּנְתָּא, </head-word>\n<head-word>פַּנְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (פנה, v. \n<xref rid=\"Q01198\">פנים</xref>; cmp. אַפּוּתָא fr. אַף) \n<italic>upper</italic>, (\n<italic>front</italic>), a kind of \n<italic>legging</italic> connected with a shoe \n<pgbrk id=\"pg106\" />or sole over which straps are drawn for fastening; corresp. to h. מַנְעַל.</definition>\n<notes> Taan. 12\n<sup>b</sup> מסיימי א' (Ms. M. פַּנְתָּאֵי pl.) having put on \n<italic>appantas</italic> (on a public fast-day). Yeb. 102\n<sup>a</sup> הוה ליה א' מֵעַל וכ' (ed. פ'; v. Ar. ed. Koh. s. v.) the panta is one ‘from on’ (referring to Deut. XXV, 9 ‘and she shall strip his shoe from on his foot’), and the thong a ‘from on’ of a ‘from on’, i.e. panta and thong are two coverings. Ber. 43\n<sup>b</sup> ולא אמרו אלא בא' (ed. בפ') this applies only to the panta (upper).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cf9a267fcd6ac267a91e25d58aa21c839fd930137e5eb90aaac0125fd46d4b46"
+    },
+    {
+      "ordinal": 2748,
+      "source_id": "jastrow-xml-002748",
+      "headword": "אפנתי",
+      "source_xml": "<entry id=\"A02747\">\n<head-word>אפנתי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02743\">אַפַּנְטֵי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d0e7fe23109abf6ee675986fd7207e8bcf63b994213c500418214e33afd2fcd1"
+    },
+    {
+      "ordinal": 2749,
+      "source_id": "jastrow-xml-002749",
+      "headword": "אֶפֶס",
+      "source_xml": "<entry id=\"A02748\">\n<head-word>אֶפֶס</head-word>\n<pos> m.</pos>\n<language-key>(b. h.,</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"A02749\">next w.</xref>) [\n<italic>extremity</italic>,] \n<italic>ankle</italic>.</definition>\n<notes>—Dual אַפְסַיִים. Yoma 77\n<sup>b</sup>. Cmp. אוּפְסַיִם.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "44bd533c8530fb37b057899f1295f8e088a10673b7767d86b31bd90445bcb2d7"
+    },
+    {
+      "ordinal": 2750,
+      "source_id": "jastrow-xml-002750",
+      "headword": "אָפֵס,",
+      "source_xml": "<entry id=\"A02749\">\n<head-word>אָפֵס, </head-word>\n<head-word> , </head-word>\n<head-word>(אָפֶס)</head-word>\n<language-key>(b. h.,</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √פס</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"Q01339\">פסס</xref> to cut off) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be gone</italic>.</definition>\n<notes>—[As a noun: \n<italic>there is an end of</italic> …] B. Bath. 111\n<sup>a</sup> אפס (דברי) זכריה (v. Rabb. D. S. a. l.) (the words of) Zachariah (to whom you refer as an authority) are (is) gone, i.e. they are no authority.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> homiletically used as though a Greek word (ἄφες) \n<italic>let go, leave alone</italic>.</definition>\n<notes> Pesik. Vattomer p. 130\n<sup>a</sup> (ref. to \n<italic>heäfes</italic>, Ps. LXXVII, 9) לשון יוני הוא כמד\"א אָפֵיס it is a Greek word, as if you were to say, \n<italic>afes</italic> (let alone); Lam. R. to I, 2 וכמד\"א אמר אפס (strike out ואמר, a. read אפיס); Ex. R. s. 45 לשון יוני אפס הניח in Greek \n<italic>aphes</italic> means, (he) \n<italic>let go</italic>; Yalk. Ps. 816.—[Gen. R. s. 40 (ref. to \n<italic>efes</italic> Jud. IV, 9); omitted in Yalk. Gen. 67,—an interpolation from passages quoted above.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "fbd116e18c8b23fcc2715aa5a9a36c307c5b6b8396735909a403c9da83359942"
+    },
+    {
+      "ordinal": 2751,
+      "source_id": "jastrow-xml-002751",
+      "headword": "אָפֵס",
+      "source_xml": "<entry id=\"A02750\">\n<head-word>אָפֵס</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Afes</italic>, an Amora.</definition>\n<notes> Sabb. 59\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2422cbe49a043d241e26ca5e5595fdf13d408e4e41fd8c56584cf2235e454481"
+    },
+    {
+      "ordinal": 2752,
+      "source_id": "jastrow-xml-002752",
+      "headword": "אָפַס",
+      "source_xml": "<entry id=\"A02751\">\n<head-word>אָפַס</head-word>\n<senses>\n<sense>\n<definition />\n<notes> dialect. for אָפַץ q. v.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b8d3f9b42c6544062b08e5e24833923f087994941f655b640f33ddb7f8239909"
+    },
+    {
+      "ordinal": 2753,
+      "source_id": "jastrow-xml-002753",
+      "headword": "אפסוגין",
+      "source_xml": "<entry id=\"A02752\">\n<head-word>אפסוגין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read:</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "dbffb70407d7d6c5075b2074d7a7bee4ee571486355c5a855597ae79ccae389a"
+    },
+    {
+      "ordinal": 2754,
+      "source_id": "jastrow-xml-002754",
+      "headword": "אָפְסוֹנִין,",
+      "source_xml": "<entry id=\"A02753\">\n<head-word>אָפְסוֹנִין, </head-word>\n<head-word>אוֹפְסוֹנִין</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ὀψώνιον) \n<italic>provision, marketing</italic>.</definition>\n<notes> Tanḥ. Tsav 1 כבר שלחתי אפסונין וכ' (some ed. גין …) I have already sent the marketing to thy house (bribing the market commissioner); Yalk. Lev. 479 אופסנון; Mic. 555 אופסיטן (corr. acc.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a9818dfde29c0dc4b0ef8b31745c23c99bb9db6988386996d907eb8c481a9aa9"
+    },
+    {
+      "ordinal": 2755,
+      "source_id": "jastrow-xml-002755",
+      "headword": "*אפסחתיה",
+      "source_xml": "<entry id=\"A02754\">\n<head-word>*אפסחתיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Treat. Der. Er. VIII, beg. היו הולכין את א' וכ' (v. Var. lect. ibid.) a corrupt and defective passage, to be restored from Lam. R. to IV, 2 a. Tosef. Ber. IV, 8, our w. being a remnant of מטפחת. V. Koh. Ar. Compl. s. v. I, 224.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "99de4e21d1150dacdad625f9804bd072f7a599790340f2e2f59370f3bc53b41c"
+    },
+    {
+      "ordinal": 2756,
+      "source_id": "jastrow-xml-002756",
+      "headword": "*אפסטיא",
+      "source_xml": "<entry id=\"A02755\">\n<head-word>*אפסטיא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Erub. 100\n<sup>b</sup>, supposed to be pr. n. pl. (Var. in Rabb. D. S. a. l. note 60 אשפיא, אישפיטא, אשפיפיא). V. Neub. Géogr. p. 348.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "04c974b3e7185bcb94e33e6c4a92d52dbc35ad303c10bc016cad94295ffbbfef"
+    },
+    {
+      "ordinal": 2757,
+      "source_id": "jastrow-xml-002757",
+      "headword": "*אֲפַסְטִיתָה",
+      "source_xml": "<entry id=\"A02756\">\n<head-word>*אֲפַסְטִיתָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (redupl. of פס, v. \n<xref rid=\"Q01339\">פסס</xref>) \n<italic>rake</italic> or \n<italic>pitchfork</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>a</sup> bot. if one works on flax stalks (on a Sabbath) בא' חייב וכ' with a rake (spreading them apart), he is guilty of an act resembling winnowing.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8dff2945382080e0ff24404bfdc1d85754e1d96f4a7879a1317ce3b8fda25a44"
+    },
+    {
+      "ordinal": 2758,
+      "source_id": "jastrow-xml-002758",
+      "headword": "אַפִּסְטְקִין",
+      "source_xml": "<entry id=\"A02757\">\n<head-word>אַפִּסְטְקִין</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (πιστάκια, τὰ) \n<italic>the fruits of the pistachio-tree</italic>.</definition>\n<notes> Y. Dem. II, beg. 22\n<sup>b</sup>; Y. Maasr. I, 48\n<sup>d</sup> bot. איפ'; cmp. אִלְצָרִין.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e49a077744106e00999d344510cacf72b63b82ac35eb6cfeb577267e092f83ce"
+    },
+    {
+      "ordinal": 2759,
+      "source_id": "jastrow-xml-002759",
+      "headword": "*אִפְסִיּוֹת",
+      "source_xml": "<entry id=\"A02758\">\n<head-word>*אִפְסִיּוֹת</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition>, prob. denomin. of אֶפֶס (אפס דמים I Sam. XVII, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> of \n<italic>Ephes</italic>.</definition>\n<notes> Y. Dem. II, 22\n<sup>c</sup> bot. תמרין א' Ephes dates.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cebc3c05648a32cd78e20d2e1f5836ba833e7e9c0c4d4c1cddcffd012ebe4568"
+    },
+    {
+      "ordinal": 2760,
+      "source_id": "jastrow-xml-002760",
+      "headword": "*אָפְסְיָין",
+      "source_xml": "<entry id=\"A02759\">\n<head-word>*אָפְסְיָין</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (obsianus, ὀψιανός) \n<italic>obsidian</italic>, a stone used as glass.</definition>\n<notes> Tanḥ. Naso 23. Yalk. Ps. 842 אפוטיין (read אוֹפְסְיָין). [Midr. Till. to Ps. XCI; Num. R. s. 12 קליפין.] Cmp. אָפְזְיָינֵי. V. אמפומיות.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "db2e0ceec33ed8650487a23b37d9ae45febc7f4985818d9bc29b4e4f4f78ef21"
+    },
+    {
+      "ordinal": 2761,
+      "source_id": "jastrow-xml-002761",
+      "headword": "אַפְסִינְתִּין",
+      "source_xml": "<entry id=\"A02760\">\n<head-word>אַפְסִינְתִּין</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ἀψίνθιον) \n<italic>absynth, worm-wood</italic>.</definition>\n<notes> Ab. Zar. 30\n<sup>a</sup> מר א' the bitter wine is that of absynth (absinthites); v. פסינטון.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1f60db8e57821e3b5bef04e483c5f33970598b86fb677c58d95ff2a6854de34e"
+    },
+    {
+      "ordinal": 2762,
+      "source_id": "jastrow-xml-002762",
+      "headword": "אפסיקימא,",
+      "source_xml": "<entry id=\"A02761\">\n<head-word>אפסיקימא, </head-word>\n<head-word>אפסיקמא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02764\">אַפְסְקִימָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "23183a95eb2e98fdd9f833845d8c69709b657407de4a7429aa4648d77761df02"
+    },
+    {
+      "ordinal": 2763,
+      "source_id": "jastrow-xml-002763",
+      "headword": "אַפְסִירָא",
+      "source_xml": "<entry id=\"A02762\">\n<head-word>אַפְסִירָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02766\">אַפְסָרָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "577cabad0caec30c865b1c91c4637bbc54811884b0b19ce698780370e4c370f7"
+    },
+    {
+      "ordinal": 2764,
+      "source_id": "jastrow-xml-002764",
+      "headword": "אָפְסַנְיָא",
+      "source_xml": "<entry id=\"A02763\">\n<head-word>אָפְסַנְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ὀψώνιον, cmp. אָפְסוֹנִין) \n<italic>provision</italic>, esp. \n<italic>supply and pay for an army</italic>.</definition>\n<notes> Snh. 18\n<sup>b</sup> מלך משום א' the king (is excluded from the court deciding on the intercalation of a thirteenth month) on account of the soldiers’ pay (it being to his interest to create an embolistic year). Ib. II, 4 (21\n<sup>b</sup>) (Mish. a. Gem. ed. אספ' throughout the whole page, Ms. M. אפס') כדי ליתן א' as much as is required for the stipends he has to pay. Y. Snh. II, 20\n<sup>c</sup> top אפסנייא.—\n<plural-form>Pl. אָפְסַנְיוֹת</plural-form> (doubtful, prob. אַכְסַנְיוּת). Cant. R. to I, 2 שהיה מהלך א' (read מחלק, ed. אפסיניות, אפיסניות). Sifré Deut. 328; Yalk. ib. 946 אָפְסַנְיָאוֹת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1fb94f8ddfbb61a4f1b227eb580a94376703df50e4d717a783ecb611f5ad2b8d"
+    },
+    {
+      "ordinal": 2765,
+      "source_id": "jastrow-xml-002765",
+      "headword": "*אַפְסְקִימָא,",
+      "source_xml": "<entry id=\"A02764\">\n<head-word>*אַפְסְקִימָא, </head-word>\n<head-word>אפסיקמא, </head-word>\n<head-word>אפסיקימא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (a corruption of σκίφινος) (\n<italic>rope</italic>) \n<italic>twisted of palm-leaves</italic>, (v. Löw Pfl. p. 118).</definition>\n<notes> Erub. 58\n<sup>a</sup> ed. a. Ms. (Ar. אפקימא).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "616ecf7f6340e24a7ba83c14379105fef7ab13b4ab7ace3cbab10d3a47426159"
+    },
+    {
+      "ordinal": 2766,
+      "source_id": "jastrow-xml-002766",
+      "headword": "אַפְסָר,",
+      "source_xml": "<entry id=\"A02765\">\n<head-word>אַפְסָר, </head-word>\n<head-word>אִיפְסָר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (Pers. afsâr, Fl. to Levy Targ. Dict. I, 418\n<sup>b</sup>; ψάλλιον) \n<italic>bit</italic>.</definition>\n<notes> Sabb. V, 1; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bb2dbd6f109514e4dcbfbf5b442edad85334be6a7fb67f82fe01567aecd7ec07"
+    },
+    {
+      "ordinal": 2767,
+      "source_id": "jastrow-xml-002767",
+      "headword": "(אַפְסִירָא) אַפְסָרָא",
+      "source_xml": "<entry id=\"A02766\">\n<head-word>(אַפְסִירָא) אַפְסָרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Y. Num. XIX, 2.—Trnsf. \n<italic>the means of taking possession</italic>, as possession is taken of the horse by seizing it by the bit. Kidd. 27\n<sup>a</sup> שטר דא' דארעא וכ' the deed is valueless in itself as it is merely the bit of landed property. B. Bath. 53\n<sup>b</sup> מצר א' דארעא the balk is &amp;c. (taking possession of which is equal to taking possession of the fields to which it belongs).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "95a3b9ac267a78ac2ec5d1c48cdb73948412f2a9d43a067e141676f403654884"
+    },
+    {
+      "ordinal": 2768,
+      "source_id": "jastrow-xml-002768",
+      "headword": "*אפסתיק,",
+      "source_xml": "<entry id=\"A02767\">\n<head-word>*אפסתיק, </head-word>\n<head-word>אפסתקי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (supposed to be an adapt. of ὀψοθήκη) \n<italic>wallet</italic>.</definition>\n<notes> Gen. R. s. 70 when Laban could not see אפי' אפסתקיתיה (יתי …, Yalk. Gen. 124 אפסתיק' without אפי', Ar. omits אפי', Lonz. אפיסטוקתיא, Rashi אפסט' without אפי') even his (Jacob’s) wallet. [Prob. to be read חמי אַפּוֹתִּיקִי דידיה … or אַפוֹתִּיקַיָּתֵיה, cmp. Targ. Y. Gen. XXIV, 10.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "687cc52b57a3a8d42aebe72f9ebe331c9e6882526a69ac265d94daa203705644"
+    },
+    {
+      "ordinal": 2769,
+      "source_id": "jastrow-xml-002769",
+      "headword": "אַפְעָא",
+      "source_xml": "<entry id=\"A02768\">\n<head-word>אַפְעָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (contr. אָפָא; corresp. to h. צָבוּעַ; אפע \n<italic>to color</italic>, cmp. אפה) [the checkered,] \n<italic>hyena</italic> or \n<italic>leopard.</italic></definition>\n<notes>\n<plural-form>Pl. אַפְעַיָּא</plural-form>. Targ. I Sam. XIII, 18 (h. text צְבֹעִים).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ee246dfe9b6c982b95b4a5036b06ae5104427f9e391be2b22b923a327416a1f9"
+    },
+    {
+      "ordinal": 2770,
+      "source_id": "jastrow-xml-002770",
+      "headword": "אֶפְעֶה",
+      "source_xml": "<entry id=\"A02769\">\n<head-word>אֶפְעֶה</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> prob. fr. אפע</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"A00800\">אוּפְיָא</xref>; cmp., however foreg. w.) [the foaming,] \n<italic>viper, adder</italic>.</definition>\n<notes> Bekh. 8\n<sup>a</sup>. Gen. R. s. 20.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4f93cca91c1581a025855fdcdfb7118a2b2a9dce5d9fd82a646478c0702f20ed"
+    },
+    {
+      "ordinal": 2771,
+      "source_id": "jastrow-xml-002771",
+      "headword": "אָפַף",
+      "source_xml": "<entry id=\"A02770\">\n<head-word>אָפַף</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √אף; cmp. אבב</xref>,\n<xref rid=\"H01465\"> חפף</xref>,\n<xref rid=\"K01043\"> כפף &amp;c.)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to swell, to bend; to press, to surround, to heat, to darken</italic>, (v. \n<pgbrk id=\"pg107\" />אפי, אנף, אפל, אפץ &amp;c.).</definition>\n<notes> Midr. Till. to Ps. XVIII, 5, v. next w.—Denomin.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6b8621c88bc98bf9b39fd9b5af00ff25ef32ea9545eb0e100703b199dcc4f383"
+    },
+    {
+      "ordinal": 2772,
+      "source_id": "jastrow-xml-002772",
+      "headword": "*אֲפָפֹון",
+      "source_xml": "<entry id=\"A02771\">\n<head-word>*אֲפָפֹון</head-word>\n<senses>\n<sense>\n<definition> m. (or אֲפָפִין\n<pos> m. pl.</pos>) \n<italic>thick web</italic>.</definition>\n<notes> Midr. Till. to Ps. XVIII, 5 (explain. \n<italic>ăfafuni</italic> ib.) when a woman weaves with two double threads הן נקראין א' they are called ăfafon (ăfafin); so did David say אפפוני וכ' troubles wove around me and came over me doubled.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "fb6e3d0adf6eda6406e174d8922f8045d773f7a53ca8220966f6302cd5ebd305"
+    },
+    {
+      "ordinal": 2773,
+      "source_id": "jastrow-xml-002773",
+      "headword": "אָפַץ,",
+      "source_xml": "<entry id=\"A02772\">\n<head-word>אָפַץ, </head-word>\n<head-word>אָפַס</head-word>\n<senses>\n<sense>\n<definition> (√אף, v. \n<xref rid=\"A02770\">אפף</xref>; cmp. חפץ) \n<italic>to press, squeeze, contract</italic>.</definition>\n<notes>—Part. pass. אָפוּץ. Ohol. IX, 3 a gap which was filled with straw או אֲפוּצָה or was made narrower by squeezing the parts together (e.g. pressing the lid down). Tosef. ib. X, 6 אֲפוּסָה a narrowing of the gap by pressing. Y. Sabb. III, 6\n<sup>c</sup> באפוצה when the wick is compressed in the candlestick. Ib. V, beg. 7\n<sup>b</sup> באֲפוּצִים when the vessels are closely packed. Y. Pes. I, 27\n<sup>c</sup> top אֲפוּצוֹת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f1ae4cc9314415bfbc787838777ca3f79da80e263465b8030d8e85242f3e78dd"
+    },
+    {
+      "ordinal": 2774,
+      "source_id": "jastrow-xml-002774",
+      "headword": "אֲפַץ,",
+      "source_xml": "<entry id=\"A02773\">\n<head-word>אֲפַץ, </head-word>\n<head-word>עֲפַץ</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, esp. \n<italic>to use</italic> אַפְצָא q. v., \n<italic>to dress</italic> or \n<italic>prepare with gall-nut juice</italic>.</definition>\n<notes>—Part. pass. אָפִיץ, עָפִיץ. Meg. 19\n<sup>a</sup> top ולא א' Ms. M. (ed. ע') a skin not moistened with gall-nut. Gitt. 19\n<sup>a</sup> הא דאֲפִיצָן Rashi (ed. אפיץ) in the one case it means when the parchment has been dressed &amp;c. Ib. 11\n<sup>a</sup>; 19\n<sup>b</sup>.—Ib. 22\n<sup>a</sup>; Sabb. 79\n<sup>a</sup> ע'.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5c997b1a057565ace81cbda8ce37125ae5ddfd38e7250db62eb376715df46d81"
+    },
+    {
+      "ordinal": 2775,
+      "source_id": "jastrow-xml-002775",
+      "headword": "אַפְצָא,",
+      "source_xml": "<entry id=\"A02774\">\n<head-word>אַפְצָא, </head-word>\n<head-word>עַפְצָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) [contracting,] \n<italic>gall-nut</italic>.</definition>\n<notes> Gitt. 19\n<sup>a</sup>; Sabb. 104\n<sup>b</sup> (מי) א' gall-nut juice.—\n<plural-form>Pl. אַפְצֵי, עַפְצֵי</plural-form>. Shebu. 41\n<sup>b</sup> sq. Ms Fl. א', ed. ע'.—V. עֶפֶץ.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9ad44efc45aa7852e0b2e14362161ca6ef513182756e210a16e4a60cc8e25fad"
+    },
+    {
+      "ordinal": 2776,
+      "source_id": "jastrow-xml-002776",
+      "headword": "אַפֵּק",
+      "source_xml": "<entry id=\"A02775\">\n<head-word>אַפֵּק</head-word>\n<senses>\n<sense>\n<definition> (Af. of נפק q. v.) \n<italic>to bring out, take away</italic>.</definition>\n<notes>—לְאַפּוּקֵי \n<italic>to the exclusion of</italic>. Ned. 41\n<sup>a</sup>; a. fr. = למעוטי, להוציא, v. מעט, יצא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2477697abad6ee703be2eea0cba5ec4427a0c189db8464dd409dc24704d2c557"
+    },
+    {
+      "ordinal": 2777,
+      "source_id": "jastrow-xml-002777",
+      "headword": "אפקוליס",
+      "source_xml": "<entry id=\"A02776\">\n<head-word>אפקוליס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02712\">אַפִּיקוֹרִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8153126a79b99eb4c929c52ad14a7043be45e65923c05430a570e6bd62659a15"
+    },
+    {
+      "ordinal": 2778,
+      "source_id": "jastrow-xml-002778",
+      "headword": "אַפְקוֹתָא",
+      "source_xml": "<entry id=\"A02777\">\n<head-word>אַפְקוֹתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (אפק, v. \n<xref rid=\"A02705\">אָפִיק</xref>) \n<italic>that which branches off the trunk</italic>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>neck</italic>.</definition>\n<notes> Targ. Y. Lev. VII, 30(20). Targ. I Sam. IV, 18 Ar. (Var. אפרק', פרק', פקותא).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> א' דדיקלא \n<italic>that portion of the palm-tree where the ramification starts</italic> (Oth. opin. \n<italic>the ramification, upper portion</italic>).</definition>\n<notes> Succ. 13\n<sup>a</sup>. Nidd. 24\n<sup>a</sup> אַפְקְתָא וכ'.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "70ade9623448570aa29f8e4a29c1b0f5e129a4373ca0cb10a9f171dabae71b5c"
+    },
+    {
+      "ordinal": 2779,
+      "source_id": "jastrow-xml-002779",
+      "headword": "אפקימא",
+      "source_xml": "<entry id=\"A02778\">\n<head-word>אפקימא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02764\">אַפְסְקִימָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b876a8e43b68c1676be42fedb24e4fed5c925a17c6d1e1df6230bfe0152e34ce"
+    },
+    {
+      "ordinal": 2780,
+      "source_id": "jastrow-xml-002780",
+      "headword": "אפקלטורין",
+      "source_xml": "<entry id=\"A02779\">\n<head-word>אפקלטורין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02715\">אַפִּיקִילְטָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "dac9b67fc9d8103bc92175e0b92be3ce7784bd2e8b77b42c07b8fc47030f3862"
+    },
+    {
+      "ordinal": 2781,
+      "source_id": "jastrow-xml-002781",
+      "headword": "אֲפִקְלִין",
+      "source_xml": "<entry id=\"A02780\">\n<head-word>אֲפִקְלִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00807\">אוֹפִיקְיָלִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d66a33a25572c6f5db5dc5b13da4b11f5f89254abe63fa311c002af37b37582a"
+    },
+    {
+      "ordinal": 2782,
+      "source_id": "jastrow-xml-002782",
+      "headword": "אפקסיון,",
+      "source_xml": "<entry id=\"A02781\">\n<head-word>אפקסיון, </head-word>\n<head-word>אפקסינן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אִסְטַקְטוֹן.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2e6fcbf91aaaa3e6b2722982fc84ebb4fefdc61af199890e512834aae3228f2a"
+    },
+    {
+      "ordinal": 2783,
+      "source_id": "jastrow-xml-002783",
+      "headword": "אַפְקַעְתָּא",
+      "source_xml": "<entry id=\"A02782\">\n<head-word>אַפְקַעְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (פקע) \n<italic>cancellation of obligations, exceptional legislation</italic>.</definition>\n<notes> דמלכא א' \n<italic>a special royal dispensation</italic> (with reference to the suspensions of rights connected with the Sabbath and Yobel years). B. Mets. 106\n<sup>a</sup>; 109\n<sup>a</sup>.—Ib. 39\n<sup>a</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e0e1c13e67a43cfacb6e9a7fcf988fcdbf30b3c733c92c0ba5a60ac664f19836"
+    },
+    {
+      "ordinal": 2784,
+      "source_id": "jastrow-xml-002784",
+      "headword": "(אַפִּיקְרוּתָא) אַפְקָרוּתָא",
+      "source_xml": "<entry id=\"A02783\">\n<head-word>(אַפִּיקְרוּתָא) אַפְקָרוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (פקר; v. \n<xref rid=\"A02711\">אַפִּיקוֹרוֹס</xref>) \n<italic>making free, irreverence, contempt of the Law and its teachers</italic>.</definition>\n<notes> M. Kat. 16\n<sup>a</sup> לאפיק' לאלתר for contempt of the Law excommunication is pronounced forth with (without warning). Snh. 100\n<sup>a</sup> מי מיחזי כי אפק' Ms. M. (ed. incorr. נמי מיחזי כו') does that look like showing irreverence (to one’s teacher)? Erub. 63\n<sup>a</sup> same (with מתחזי for מיחזי). [Snh. l. c. second time כה\"ג מיחזי א', corr. as above.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0817254b3fd0cd8484c62b25faf66eaebba4e1aae2711413ea67c10538c7ffe7"
+    },
+    {
+      "ordinal": 2785,
+      "source_id": "jastrow-xml-002785",
+      "headword": "אפקרייתם",
+      "source_xml": "<entry id=\"A02784\">\n<head-word>אפקרייתם</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02789\">אַפְקַרְסִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "aaa94093bc13fa97f1630cb4ef3174c62a14dbc69ccc1f49f9c9ea1729b2d22d"
+    },
+    {
+      "ordinal": 2786,
+      "source_id": "jastrow-xml-002786",
+      "headword": "אפקרסו",
+      "source_xml": "<entry id=\"A02785\">\n<head-word>אפקרסו</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Treat. Der. Er. X, Ar., read … סוּתוֹ; v. \n<xref rid=\"A02789\">אַפְקַרְסִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2f289567510b868f96b00f2107c31b0c5f7ec48639fc0086cac2222ed119b8e8"
+    },
+    {
+      "ordinal": 2787,
+      "source_id": "jastrow-xml-002787",
+      "headword": "אַפִּקַרְסוּת,",
+      "source_xml": "<entry id=\"A02786\">\n<head-word>אַפִּקַרְסוּת, </head-word>\n<head-word>אַפְּיקַרְסוּת</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. denom. of אַפְקַרְסִין q. v.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1813e6fa454922726688e5e6d6470a9d90bdc59a6e2bd9dd7bac55aa8f074f0a"
+    },
+    {
+      "ordinal": 2788,
+      "source_id": "jastrow-xml-002788",
+      "headword": "אַפְקְרָסוּתָא",
+      "source_xml": "<entry id=\"A02787\">\n<head-word>אַפְקְרָסוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> f. (v. \n<xref rid=\"A02711\">אפיקורוס</xref>) = אַפְקָרוּתָא. Targ. Y. Deut. I, 12.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "3711460ae0332435030fbc1e242f603acc34862ea20f91388e160867f93d0754"
+    },
+    {
+      "ordinal": 2789,
+      "source_id": "jastrow-xml-002789",
+      "headword": "אַפְקְרָסִי,",
+      "source_xml": "<entry id=\"A02788\">\n<head-word>אַפְקְרָסִי, </head-word>\n<head-word>אַפִּיקְרָסִי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A02787\">preced.</xref>) \n<italic>of an irreverent, rebellious disposition</italic>.</definition>\n<notes> Y. Snh. X, 27\n<sup>d</sup> bot.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7b862a51c7e4386d7b9497cd3f0774b00f1b8a01109daf8e11c0567d08b3f086"
+    },
+    {
+      "ordinal": 2790,
+      "source_id": "jastrow-xml-002790",
+      "headword": "אַפְקַרְסִין,",
+      "source_xml": "<entry id=\"A02789\">\n<head-word>אַפְקַרְסִין, </head-word>\n<head-word>אַפִּיקַרְסִין, </head-word>\n<head-word>אַפִּיקְרִיסִין, </head-word>\n<head-word>אִיפְ'</head-word>\n<senses>\n<sense>\n<definition> f. pl. \n<alternative>(also used as sing. a. m.)</alternative> (פקר, with format.</definition>\n<notes> ס; v. אפיקורוס; cmp. אַבְרְקִין, פַּקְרְסִין, סַבְרִיקִין, סְפַרְקִין, a. אוּנְקְלַי II) \n<italic>undress</italic>, (\n<italic>negligee</italic>), whence \n<italic>underwear, the garment next to the skin, shirt, bathing</italic> or \n<italic>night gown, sheet</italic>. Y. Ber. II, 4\n<sup>c</sup> top אפיק' היה וכ' he had an undergarment on beneath; cmp. Pesik. R. s. 22.—Pesik. Shek. p. 15\n<sup>b</sup> sq. אפיקריסין (sing. a. pl.); Lev. R. s. 24; (Ib. s. 2 פרקסין, פקרסין). Y. Pes. VIII, 36\n<sup>b</sup> top המעביר בא' he who carries a skeleton wrapped in sheets; Y. M. Kat. I, 80\n<sup>d</sup> top.—Ib. III, end, 83\n<sup>d</sup> אין א' מעכבת (Bab. ib. 22\n<sup>b</sup> אַפִּיקַרְסוּתוֹ) his underwear (shirt) forms no check (but must likewise be rent; diff. in Rashi a. l.). Treat. S’maḥoth XII אפיקריסין (Tur Yor. Deah 203 אפרסקא). [Pesik. R. l. c. אפיקריתים, אפיקרייתם corr. acc.]—Deriv. אַפְקַרְסוּת, אַפִּי' &amp;c., \n<italic>underwear</italic>. Ber. 23\n<sup>b</sup> one may wrap up &amp;c. &amp;c. באפקרסותו Ar. (Ms. M. באפקרי', ed. אפרק') in his sheet. Nidd. 48\n<sup>b</sup> נישוף בא' is rubbed against their underwear (corset &amp;c.). Ḥag. 26\n<sup>a </sup>וֹ לתוכו—ואפי' נפל א Ms. M. (read נפלה, ed. נפל omitted) even if his underwear fell into it, (the vessel remains clean). Mikv. X, 4 הקשר של אפרקסותו שבכתף Ar. ed. Koh. (ed. שבפרקסים) the knot of one’s bathing sheet which is on the shoulder.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d065ba3ca1841c3aff1d8768438e3088f78cd37a33331b5f0f0b0252f733e136"
+    },
+    {
+      "ordinal": 2791,
+      "source_id": "jastrow-xml-002791",
+      "headword": "*אַפְקַשְׁיוֹן,",
+      "source_xml": "<entry id=\"A02790\">\n<head-word>*אַפְקַשְׁיוֹן, </head-word>\n<head-word>אַפְקַשְׁיָאן</head-word>\n<senses>\n<sense>\n<definition> (Ms. M.)\n<pos> pr. n. m.</pos>\n<italic>Afkashion, Afkashian</italic>.</definition>\n<notes> Yoma 28\n<sup>b</sup> (Var. אפקישן).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e165fdbf78d87e769d13132e9547f9e8dc98124ca734632ab4ebadee22b2d488"
+    },
+    {
+      "ordinal": 2792,
+      "source_id": "jastrow-xml-002792",
+      "headword": "אַפְקְתָא",
+      "source_xml": "<entry id=\"A02791\">\n<head-word>אַפְקְתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02777\">אַפְקוֹתָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "987ceff2a1423fc30a0e8636ba4e35df6e9be0cbda75ee2c8bda0aae11728f81"
+    },
+    {
+      "ordinal": 2793,
+      "source_id": "jastrow-xml-002793",
+      "headword": "*אפר",
+      "source_xml": "<entry id=\"A02792\">\n<head-word>*אפר</head-word>\n<senses>\n<sense>\n<definition>, Y. Bicc. II, beg. 64\n<sup>c</sup> bot. א' חמשים, א' שתין—.</definition>\n<notes> The entire passage is corrupt, and allows no inference that אפר means (= עבר) \n<italic>to pass, be past</italic>. The text possibly read: אפי', אפי' (בן) חמשים ועשה דבר שהוא בהיכרת (בן) ששים ועשה דבר שהוא בעון מיתה מת בהיכרת כהא דתני ר' חנינ' וכ'. [אבל רב חדי a. אבל חדי ibid. (read: אבל רבתי) is a gloss referr. to S’maḥoth ch. III.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5ac0cbd73058dfdf1684bc001d979c5218019110a86133228dbacd189be61284"
+    },
+    {
+      "ordinal": 2794,
+      "source_id": "jastrow-xml-002794",
+      "headword": "אֵפֶר",
+      "source_xml": "<entry id=\"A02793\">\n<head-word>אֵפֶר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √אף</xref>,\n<xref rid=\"A00188\"> cmp. אבק</xref>,\n<xref rid=\"A00083\"> אפה)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>ashes.</italic></definition>\n<notes> Ohol. II, 2 א' שרופים ashes of persons burnt to death (by accident). B. Bath. 60\n<sup>b</sup>; Taan. II, 1 א' מקלה calcined ashes (symbol of mourning, supplication &amp;c.). Y. ib. II, 65\n<sup>a</sup> אֶפְרוֹ של יצחק the ashes of (the ram substituted for) Isaac. Gen. R. s. 49. Lev. R. s. 36; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "3d2b62005000775e279c1d6226a1ae1ddb4ec7b20a25ef3af6d9ea75341ffb38"
+    },
+    {
+      "ordinal": 2795,
+      "source_id": "jastrow-xml-002795",
+      "headword": "אֲפַר",
+      "source_xml": "<entry id=\"A02794\">\n<head-word>אֲפַר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (√פר, cmp. Ges. H. Dict. s. v. \n<xref rid=\"Q00827\">פרא</xref>) \n<italic>pasture-ground</italic> (outside of the town), in gen. \n<italic>meadow</italic>.</definition>\n<notes> Bets. V, 7. Pes. 8\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5f002b3a4c6007d708d6e5c3d1c384019af7a47b925ce3d1011bf492d166d2ce"
+    },
+    {
+      "ordinal": 2796,
+      "source_id": "jastrow-xml-002796",
+      "headword": "אֲפַר,",
+      "source_xml": "<entry id=\"A02795\">\n<head-word>אֲפַר, </head-word>\n<head-word>אֶפְרָא, </head-word>\n<hw-number>I</hw-number>\n<head-word>(אֶפְרָה)</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Y. II Ex. II, 3; 5 (Var. אפרה; Targ. O. יערא). [Y. Sabb. I, 3\n<sup>b</sup> חד אפר, v. חוֹחָא.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "10cd92c592a36b50cd86103b548a3ee89af6988450e4f71b05c00e647a7b580d"
+    },
+    {
+      "ordinal": 2797,
+      "source_id": "jastrow-xml-002797",
+      "headword": "אֶפְרָא,",
+      "source_xml": "<entry id=\"A02796\">\n<head-word>אֶפְרָא, </head-word>\n<hw-number>II</hw-number>\n<head-word>(אֶיפְרָא) אֶפְרָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> ch. = h. אֵפֶר. Targ. I Chr. XXI, 15 א' דעקדת' וכ' the ashes of Isaac’s offering, v. \n<xref rid=\"A02792\">אֵפֶר</xref>.—Y. Taan. II, 67\n<sup>a</sup> a foolish son א' בעיני וכ' is ashes in the eyes of his mother (תוגת by permutation אפרא; v. א\"ת).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "11d7a1619c5d9dfa91a86f4cd9b5cf8a3debc24103f43dbd2a51988ae7d81a13"
+    },
+    {
+      "ordinal": 2798,
+      "source_id": "jastrow-xml-002798",
+      "headword": "אַפְּרַגְיָא,",
+      "source_xml": "<entry id=\"A02797\">\n<head-word>אַפְּרַגְיָא, </head-word>\n<head-word>אַפְּרַגְזְיָא, </head-word>\n<head-word>אַפְּרַגְסְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ἀπραγία, ἀπραξία) \n<italic>inactivity, cessation of labor, holiday</italic>.</definition>\n<notes> Pesik. Sh’mini, p. 195\n<sup>a</sup> (v. Buber note 66 to p. 193\n<sup>a</sup>) if both of us open (sales) at the same time הרי אנו עושין אפרגיא במדינה (Ar. Var. אפרגיזא, אפרגינה, read אפרגזיא) we shall create a cessation of labor in the district (as all the laboring people will run to the market town on one and the same day; Yalk. Num. 782 זול from misunderstanding); Cant. R. to VII, 2 אפרגייס (read אפרגייא or אפרגסייא). Pesik. R. s. 41 R. Yonathan … had goods with him והייתה אפרגיס (corr. acc.) and there was inactivity and dull business in consequence thereof [for which Yalk. Ps. 758 ולא היה יכול למוכרה—prob. to be read אַפְּרַטוֹס ἄπρατος \n<italic>unsaleable</italic>].</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bb9f5b10bdf3e3593d0d9b135e1524743b847a0e62ed6eba878f2f7eeed1ba5e"
+    },
+    {
+      "ordinal": 2799,
+      "source_id": "jastrow-xml-002799",
+      "headword": "אפרגיזא,",
+      "source_xml": "<entry id=\"A02798\">\n<head-word>אפרגיזא, </head-word>\n<head-word>אפרגייס, </head-word>\n<head-word>אפרגינא, </head-word>\n<head-word>אפרגיס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02797\">preced.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d26006cc017ce7f6a90336c595cbf1ef24da157c07d05716d45e092e093cb60d"
+    },
+    {
+      "ordinal": 2800,
+      "source_id": "jastrow-xml-002800",
+      "headword": "אפרגל",
+      "source_xml": "<entry id=\"A02799\">\n<head-word>אפרגל</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Mekh. Yithro 6 מא', read, as Yalk. a. l., מאה פ', v. \n<xref rid=\"Q01553\">פַּרְגוֹל</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "48e494120b59e76800d7b204eda8ab1f983731cf6b21073f852c8a89cd5c7604"
+    }
+  ]
+}

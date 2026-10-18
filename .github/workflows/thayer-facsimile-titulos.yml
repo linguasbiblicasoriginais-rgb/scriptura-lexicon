@@ -1,0 +1,39 @@
+name: THAYER - extrair cabecalhos do fac-simile
+on:
+  push:
+    branches:
+      - chat-gpt-thayer-indice-titulos
+    paths:
+      - .github/workflows/thayer-facsimile-titulos.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: thayer-facsimile-titulos
+  cancel-in-progress: false
+
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-thayer-indice-titulos
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar motores locais de imagem e planilha
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
+          python -m pip install --quiet pymupdf pillow pytesseract openpyxl
+      - name: Adicionar modelo OCR grego politonico
+        run: |
+          sudo curl -fsSL --retry 3 https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/grc.traineddata -o /usr/share/tesseract-ocr/5/tessdata/grc.traineddata
+          tesseract --list-langs
+      - name: Extrair as folhas fotografadas e gerar Excel
+        run: python tools/thayer_facsimile_candidatos.py

@@ -1,3 +1,7 @@
+## Norma superior sobre a etapa de auditoria (11/10/2026)
+
+Independentemente da separação operacional entre incorporação, correções e integração, a **unidade editorial de auditoria é o verbete completo**, conforme [`regras/Rauditoria.txt`](regras/Rauditoria.txt). Cada entrada deve ter todas as discrepâncias fundamentadas corrigidas, testes pertinentes executados, ficha de evidências e merge confirmados antes de ser classificada `AUDITORIA_CONCLUIDA`. Triagem automática ou correção sem integração não recebe esse selo; registrar `BLOQUEADA` ou `AGUARDANDO_INTEGRACAO` quando necessário. As permissões de branch e a independência dos processos continuam intactas.
+
 # Política de branches e execução paralela — 09/10/2026
 
 BDAG, DGP, LEH e PEREIRA são fontes **independentes**; não há mais ciclo sequencial. Cada uma tem agendamento horário e branch exclusiva para publicação lexical, checkpoint e documentação pertinente.
