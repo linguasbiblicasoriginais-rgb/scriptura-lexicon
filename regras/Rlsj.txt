@@ -1,0 +1,26 @@
+LSJ — REGRA CANÔNICA DE INCORPORAÇÃO (18/10/2026)
+
+1. Obra: Henry George Liddell; Robert Scott; revisão Henry Stuart Jones e Roderick McKenzie, A Greek-English Lexicon, Oxford: Clarendon Press, 9ª ed., 1940. Não confundir com o Intermediate Greek-English Lexicon.
+2. Branch única de escrita do LSJ: chat-gpt-lsj. Nunca escrever em main, chat-gpt-commits ou nas branches dos demais dicionários por execução LSJ; não criar branches temporárias. Não realizar PR, merge ou rebase como parte do ciclo exclusivo de incorporação, sem autorização específica.
+3. Fontes digitais canônicas indicadas pelo mantenedor para consulta e confronto:
+   a) https://perseids-project.github.io/lsj-js/
+   b) https://philolog.us/
+   c) https://folio2.furman.edu/lsjj/
+   A segmentação e a redação podem divergir entre implementações. Nunca assumir identidade numérica entre bases.
+4. Fonte editorial auxiliar do primeiro lote: Helma Dik/LSJLogeion (https://github.com/helmadik/LSJLogeion), derivado do Perseus/Tufts, com variantes editoriais e correções próprias; arquivo greatscott02.xml, blob 6d95548f3d3524ba0d726baa017cb763e75bd7bb. Licença declarada CC BY-SA 4.0; creditar Perseus Digital Library, Gregory Crane, Helma Dik/Logeion. Sua natureza auxiliar deve permanecer identificada, sem promovê-la silenciosamente à autoridade da edição impressa nem aos três portais canônicos.
+5. Lotes de 1.000 artigos tipográficos contínuos, sem subdividir acepções, sentidos, citações ou homógrafos para inflar contagens. Manter IDs da fonte e cabeçalhos gregos originais com diacríticos. Uma leitura divergente exige anotação, não emenda conjectural silenciosa.
+6. Separar em todas as etapas as camadas FONTE (texto original), TRADUÇÃO (português), ANÁLISE (comentários) e GDHAGP (versão editorial integrada). Arquivos da camada FONTE não constituem traduções em português nem artigos homologados. A interface ao leitor deve usar português nos verbetes traduzidos; não converter automaticamente a redação inglesa em tradução com aproximações.
+7. Estado próprio: lexicons/lsj-progress.json. Reportar, separadamente, artigos extraídos na camada Fonte, traduções portuguesas completas, traduções revisadas, artigos efetivamente publicados na interface e total geral de referência. É vedado exibir registros de fonte como se fossem verbetes portugueses concluídos.
+8. Contagem de referência inicial: 116.854 registros informados pelo portal Furman (https://folio2.furman.edu/lsj/). Denominador PROVISÓRIO e dependente da segmentação do catálogo; verificar total de artigos tipográficos da edição escolhida e registrar divergências antes de tratá-lo como exato.
+9. Verificações mínimas por lote: contagem real de <div2>, singularidade dos orig_id, integridade dos cabeçalhos, continuidade do próximo id/lema, preservação integral dos fragmentos de fonte, identificação do blob de origem, confirmação de commit remoto e HEAD; mais tarde auditar bibliografia, referências, popups, busca, search-row/entry-card e grafias nas traduções e na interface.
+10. Processo seguro de escrita: verificar HEAD e caminho remoto antes de publicar; após falha, reconciliar estado remoto e somente repetir quando se comprovar que a gravação não ocorreu. Proibir commits duplicados e force push. Manter a documentação de fontes, limitações e pontos de retomada atualizada.
+
+CICLO 0001 — RESULTADO VERIFICADO
+Arquivo: lexicons/lsj-source-batch-0001.xml
+Commit-fonte: 04fc88cb3df7bde9ddc17627b700517487f0260b
+Blob de destino: 5953f6923adb9fc2870b44f32697679c41279864
+Fonte digital: LSJLogeion greatscott02.xml (não colacionado integralmente com edição impressa ou os três portais de referência).
+Artigos extraídos: 1.000. IDs únicos: 1.000. Cabeçalhos ausentes: 0.
+Primeiro cabeçalho: Α α. Último: ἀγῠρ-τευτής. Próximo: ἀγῠρ-τεύω (orig_id n988, ordinal 1001).
+Traduções portuguesas completas nesta rodada: 0. Artigos publicados na interface nesta rodada: 0.
+Estado: extração estrutural real; tradução e verificação filológica completas pendentes.
