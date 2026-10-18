@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## LSJ — segundo lote da camada Fonte: 2.000 artigos acumulados (18/10/2026)
+
+Na branch exclusiva `chat-gpt-lsj` foi publicado o [segundo lote da fonte original](lexicons/lsj-source-batch-0002.xml), com **1.000 artigos** (`ἀγῠρ-τεύω` a `ἀθέσφᾰτος`), completando **2.000 registros originais acumulados**. A verificação remota confirmou 1.000 identificadores únicos, nenhum cabeçalho ausente e continuidade literal em relação ao lote 0001. O commit-fonte é [2855df0](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/2855df0223b593d7b25bc2935b907caa83269241). **Próximo lema:** `ἀθετ-έω` (orig_id `n1965`, ordinal 2001 da transcrição).
+
+**Contagem por camada:** 2.000 artigos na **Fonte**, **0 traduções portuguesas completas**, **0 traduções revisadas**, **0 artigos portugueses publicados na interface**. A cifra **116.854** permanece um *denominador de referência provisório* oriundo da implementação Furman, não uma contagem certificada dos artigos da edição impressa ou do LSJLogeion. Os fragmentos TEI provêm da transcrição auxiliar LSJLogeion/Perseus, com atribuições e condições de uso na [regra LSJ](regras/Rlsj.txt). Ainda não houve cotejo exaustivo com os portais Perseids, Philolog.us e Furman, nem tradução/homologação. O checkpoint remoto é [lsj-progress.json](lexicons/lsj-progress.json).
+
+
 ## LSJ — fonte original: primeiro lote de 1.000 artigos (18/10/2026)
 
 A branch exclusiva `chat-gpt-lsj` contém `lexicons/lsj-source-batch-0001.xml` com **1.000 artigos gregos originais** extraídos, preservados em fragmentos TEI, de **Α α** a **ἀγῠρ-τευτής**, a partir da transcrição editorial LSJLogeion/Perseus. A verificação estrutural confirmou 1.000 IDs únicos e nenhum cabeçalho ausente. **Próximo lema:** **ἀγῠρ-τεύω** (orig_id `n988`, posição 1001 da sequência extraída).
