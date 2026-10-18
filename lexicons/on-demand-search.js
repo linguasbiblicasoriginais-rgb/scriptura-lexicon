@@ -79,7 +79,7 @@
         if (!query || (source && !(catalog.counts?.[dictionary]?.[source] > 0))) {
             return {ids:[], total:0};
         }
-        const terms = query.split(/[\\s,;]+/u).filter(Boolean);
+        const terms = query.split(/[\s,;]+/u).filter(Boolean);
         if (!terms.length) return {ids:[], total:0};
         const grams = new Set();
         for (const term of terms) {
