@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## LSJ — quinto lote: 5.000 artigos incorporados na Fonte (18/10/2026)
+
+Na branch exclusiva `chat-gpt-lsj`, o [lote 0005](lexicons/lsj-source-batch-0005.xml) contém **1.000 artigos originais completos** (ordinais globais **4.001–5.000** da transcrição auxiliar LSJLogeion/Perseus), de **ἄλεθρα** (ID `n3934`) até **ἀμᾰλ-όω·** (ID `n4898`). **Próximo:** **Ἀμαλώιος** (ID `n4899`, ordinal **5.001**). A transcrição percorreu dois arquivos: `greatscott03.xml` (57 artigos finais, blob `5fdda44cef71e03de0204b65ade066006d6c4933`) e `greatscott04.xml` (943 artigos iniciais, blob `d560de329f17ab692fb134cccd4994fc37622081`). A verificação estrutural confirmou **1.000 IDs únicos e nenhum cabeçalho ausente**, além da continuidade com o lote 0004. Publicação confirmada pelo [commit be9ebab](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/be9ebab5aa38d05058a65d840c573507a6c38cdf).
+
+**Progresso por camada:** **5.000 artigos da Fonte**, **0 verbetes integralmente traduzidos para o português**, **0 revistos integralmente** e **0 publicados na interface**. O denominador **116.854** (Furman) permanece provisório e não foi homologado contra a segmentação da transcrição LSJLogeion ou a edição impressa. Ainda é necessária colação com os portais designados, revisão filológica e tradução. O [checkpoint](lexicons/lsj-progress.json) e [Rlsj.txt](regras/Rlsj.txt) mantêm o estado e a rastreabilidade. Não houve PR/merge nem escrita fora de `chat-gpt-lsj`.
+
+
 ## LSJ — quarto lote da Fonte: 4.000 artigos confirmados (18/10/2026)
 
 A branch exclusiva `chat-gpt-lsj` contém agora [o lote 0004](lexicons/lsj-source-batch-0004.xml), correspondente aos ordinais **3.001–4.000** da transcrição TEI auxiliar LSJLogeion/Perseus, de **ἀκαρφής** (orig_id `n2955`) até **ἀλεής** (orig_id `n3933`). O [commit de publicação](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/2b41bb0cc8cc2ef04808e60e327621fc02b5db4f) foi confirmado remotamente, assim como os **1.000 artigos completos, 1.000 IDs únicos e zero cabeçalhos ausentes**. A fonte foi `greatscott03.xml`, blob `5fdda44cef71e03de0204b65ade066006d6c4933`. **Próximo artigo:** **ἄλεθρα**, ID `n3934`, ordinal global **4.001**.
