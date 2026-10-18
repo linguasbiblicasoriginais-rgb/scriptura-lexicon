@@ -1,3 +1,13 @@
+## LSJ — reinício do fluxo integral em lotes de 1.000 (18/10/2026)
+
+**Mudança de orientação aprovada:** não continuar extraindo artigos originais em lotes de 2.000 sem tradução e integração. O trabalho útil passa a ser **uma passagem integral por artigo**, da fonte existente até a tradução fiel, revisão real, linha de pesquisa, cartão, integração ao build e verificação de publicação. Unidade de entrega: **1.000 artigos completos por lote**; um lote ainda parcial não pode ser informado como concluído.
+
+**Estado factual inicial:** 16.000 artigos originais em arquivos TEI/XML já armazenados na branch `chat-gpt-lsj`, preservados sem exclusão; **0 traduções integrais completas comprovadas**, **0 artigos do LSJ efetivamente integrados à interface**, **0 publicações LSJ em produção verificadas**. Os XML continuam úteis e não devem ser reextraídos. Retomada do produto final: **ordinal 1, Α α, `orig_id=n0`**, primeiro intervalo-alvo **1–1.000**.
+
+O site usa `lexicon-modules.json` e `scripts/build-on-demand.mjs` para construir o índice `lexicon-data/`, e `lexicons/on-demand-search.js` para apresentar a busca e os cartões. Assim, um arquivo XML ou um JS isolado não comprova a publicação. **Nenhum lote integral foi entregue neste reinício.** A meta de 1.000 é uma unidade de organização, não uma declaração de capacidade de traduzir mil artigos longos em uma única execução.
+
+A nova [regra canônica](regras/Rlsj.txt) prevalece sobre os ciclos históricos de extração isolada; o [checkpoint](lexicons/lsj-progress.json) separa a matéria-prima preservada do produto final entregue. Permanecem proibidos commits em outras branches e PR/merge não autorizados.
+
 ## LSJ — lote 0012: 16.000 artigos originais na Fonte (18/10/2026)
 
 O [lote 0012](lexicons/lsj-source-batch-0012.xml) incorporou **2.000 artigos tipográficos completos**, ordinais globais **14.001–16.000**, de **ἀποστηθίζω** (`orig_id=n13851`) a **ἀρχαιοφανής** (`orig_id=n15846`). **Próximo lema: ἀρχαιόομαι** (`orig_id=n15847`, ordinal **16.001**, `greatscott09.xml`, artigo local 1.855). [Commit de publicação](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/6c0a9bab3d7583190ab6054f26fba186f346190a); blob remoto `39b3fc3d68f2fb8f7f88495caf95a5c1f6c9b709` relido e verificado: **2.000 IDs únicos**, **2.000 cabeçalhos**, **0 IDs repetidos com o lote anterior**.
