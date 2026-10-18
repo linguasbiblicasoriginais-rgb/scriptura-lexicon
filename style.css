@@ -852,6 +852,50 @@ tbody tr:last-child td {
 }
 
 
+/* Resultados compactos: cartão continua integral e é aberto sob demanda. */
+#search-table { table-layout: fixed; }
+#search-table th:nth-child(1) { width: 26%; }
+#search-table th:nth-child(2) { width: 19%; }
+#search-table th:nth-child(3) { width: 39%; }
+#search-table th:nth-child(4) { width: 16%; }
+#search-table td { overflow: hidden; text-overflow: ellipsis; }
+#search-table td:nth-child(3) { max-width: 0; white-space: nowrap; }
+.search-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 16px 12px;
+    border-top: 1px solid var(--border-soft);
+}
+.search-pagination[hidden], .entry-navigation[hidden] { display: none !important; }
+.search-pagination button {
+    min-width: 36px;
+    padding: 8px 11px;
+    font: 600 .82rem var(--font-main);
+    color: var(--text-secondary);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.search-pagination button[aria-current="page"] {
+    color: var(--text-primary);
+    border-color: var(--accent-dark);
+    background: var(--surface-3);
+}
+.search-pagination button:hover:not(:disabled) { border-color: var(--accent); }
+.search-pagination button:focus-visible { outline: 2px solid var(--interactive); outline-offset: 2px; }
+.search-pagination button:disabled { cursor: default; opacity: .45; }
+.search-pagination .page-ellipsis { color: var(--text-muted); padding: 0 2px; }
+@media (max-width: 720px) {
+    #search-table th:nth-child(1) { width: 35%; }
+    #search-table th:nth-child(3) { width: 65%; }
+    #search-table td { padding: 12px 10px; }
+    .search-pagination { gap: 5px; }
+}
+
 /* ==========================================================
    VERBETES
    ========================================================== */

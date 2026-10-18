@@ -282,7 +282,27 @@ if (collisions.length) {
     console.warn("Colisões de ID do legado: " + collisions.length,
         JSON.stringify(collisions.slice(0,12)));
 }
+// A lista conserva somente o primeiro significado resumido; os cartões
+// lexicográficos originais permanecem intactos em cards/.
+function compactRow(record) {
+    const cells = Array.from(record.row.matchAll(/<td\b[^>]*>[\s\S]*?<\/td>/gi), match => match[0]);
+    if (cells.length < 4) throw Error("Linha sem quatro colunas: " + record.target);
+    const raw = textOnly(cells[2]).replace(/\s+/gu, " ").trim();
+    const lead = raw.split(/\s*[;|]\s*/u, 1)[0].trim() || raw;
+    const limit = 118;
+    let meaning = lead.length > limit ?
+        lead.slice(0, limit + 1).replace(/\s+\S*$/u, "").trim() : lead;
+    if (!meaning) meaning = raw.slice(0, limit);
+    if (meaning.length < raw.length) meaning += "…";
+    const escaped = meaning.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    const glossCell = cells[2].replace(/^(<td\b[^>]*>)[\s\S]*?(<\/td>)$/i,
+        (_, opening, closing) => opening + escaped + closing);
+    // data-search pode ter megabytes em linhas históricas; só pertence ao índice.
+    const opening = openTag(record.row).replace(/\sdata-search=(["'])[\s\S]*?\1/i,"");
+    return opening + cells[0] + cells[1] + glossCell + cells[3] + "</tr>";
+}
 const chunkSize = 128;
+const runs = [];
 const counts = {};
 const samples = {};
 const postings = new Map();
@@ -308,8 +328,14 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
                 samples[record.dictionary][record.source] = {target:record.target, lemma};
             }
         }
+        const previousRun = runs.at(-1);
+        if (previousRun && previousRun.dictionary === record.dictionary &&
+                previousRun.source === record.source) previousRun.end = id + 1;
+        else runs.push({start:id, end:id + 1, dictionary:record.dictionary, source:record.source});
+        const lemmaCell = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
+        const lemma = normalize(lemmaCell ? textOnly(lemmaCell[1]) : "");
         meta.push({id, target:record.target, dictionary:record.dictionary, source:record.source,
-            search:record.search, row:record.row});
+            lemma, search:record.search, row:compactRow(record)});
         cards.push({id, target:record.target, html:record.card});
         // A mesma normalização do navegador; substrings de 1, 2 ou 3
         // caracteres Unicode (não apenas letras) para preservar busca integral.
@@ -338,7 +364,7 @@ for (let i = 0; i < buckets.length; i++) {
     emit("grams/" + String(i).padStart(3, "0") + ".json", buckets[i]);
 }
 emit("catalog.json", {
-    version: 1, chunkSize, total: records.length, counts, samples, sourceTerms,
+    version: 2, chunkSize, total: records.length, counts, samples, runs, sourceTerms,
     duplicateSamples:duplicateSamples.slice(0,8)
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,

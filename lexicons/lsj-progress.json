@@ -6,32 +6,32 @@
   "total_entries_reference": 116854,
   "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
   "total_estimate_provisional": true,
-  "batch_size": 1000,
-  "source_records_incorporated": 6000,
+  "batch_size": 2000,
+  "source_records_incorporated": 12000,
   "portuguese_articles_translated": 0,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
-  "last_committed_source_batch": "lexicons/lsj-source-batch-0006.xml",
-  "source_batch_commit": "ecd4da9795305e6d8671fb5d2a1c39733ec6ac3d",
-  "source_batch_blob": "1c6bf269fce8d0f516ec54f2f729f44de5b5f242",
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0010.xml",
+  "source_batch_commit": "220203aad8fab74da870e293e6e692ef709abe91",
+  "source_batch_blob": "1cf2dbdb9d734542c69b9d3f8b3d856d40137f4f",
   "source_original_repository": "helmadik/LSJLogeion",
-  "source_original_path": "greatscott04.xml",
-  "source_original_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+  "source_original_path": "greatscott07.xml",
+  "source_original_blob_sha": "c4c9b61641854b40c393a98bb234dfbe8729f5aa",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
-  "last_lemma": "ἀμφίκεστον·",
-  "next_lemma": "ἀμφικεύθω",
-  "next_orig_id": "n5875",
-  "next_source_file": "greatscott04.xml",
-  "next_ordinal": 6001,
+  "last_lemma": "ἀπενέπω",
+  "next_lemma": "ἀπενθής",
+  "next_orig_id": "n11857",
+  "next_source_file": "greatscott07.xml",
+  "next_ordinal": 12001,
   "validation": {
-    "source_count": 1000,
-    "cumulative_source_count": 6000,
-    "unique_orig_ids_in_batch": 1000,
+    "source_count": 2000,
+    "cumulative_source_count": 12000,
+    "unique_orig_ids_in_batch": 2000,
     "missing_headwords": 0,
-    "previous_batch_unchanged_source_fragment": true,
+    "previous_batch_exact_source_match": true,
     "overlapping_ids_previous_batch": 0,
-    "scope": "structural source TEI verification only",
+    "scope": "verificação estrutural do blob remoto TEI contendo 2000 div2, 2000 orig_id distintos e 2000 cabeçalhos; sem colação da edição impressa",
     "full_collation": false,
     "portuguese_translation": false,
     "frontend_integration": false
@@ -161,6 +161,123 @@
       ],
       "next_orig_id": "n5875",
       "next_lemma": "ἀμφικεύθω"
+    },
+    {
+      "batch": 7,
+      "start_ordinal": 6001,
+      "end_ordinal": 7000,
+      "first_lemma": "ἀμφικεύθω",
+      "last_lemma": "ἀνακωχή",
+      "commit": null,
+      "creation_commit_identified": false,
+      "published_file_confirmed_at_head": "2d7046e7bc93f629f332ff8f12ed4d1e14dea041",
+      "blob_sha": "bcb475fd3b69699ab7e3193c32acf5720726679d",
+      "origin_segments": [
+        {
+          "file": "greatscott04.xml",
+          "source_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+          "count": 124,
+          "source_entry_ordinals": [
+            1944,
+            2067
+          ]
+        },
+        {
+          "file": "greatscott05.xml",
+          "source_blob_sha": "4b6ec54a8e9f67b3d351123933cedaff624aab62",
+          "count": 876,
+          "source_entry_ordinals": [
+            1,
+            876
+          ]
+        }
+      ],
+      "next_orig_id": "n6866",
+      "next_lemma": "ἀναλάζομαι",
+      "verified_by": "read published content and compare all 1000 records against pinned source blob; original creating commit not identified"
+    },
+    {
+      "batch": 8,
+      "start_ordinal": 7001,
+      "end_ordinal": 8000,
+      "first_lemma": "ἀναλάζομαι",
+      "last_lemma": "ἀνδηρευτής",
+      "commit": "3758f097976fc3a4991906d8e9d3afc4806bb771",
+      "blob_sha": "67c334c424d2caac9957647b03186f505d8923bc",
+      "source_file": "greatscott05.xml",
+      "source_blob_sha": "4b6ec54a8e9f67b3d351123933cedaff624aab62",
+      "source_entry_ordinals": [
+        877,
+        1876
+      ],
+      "next_orig_id": "n7864",
+      "next_lemma": "ἄνδηρον"
+    },
+    {
+      "batch": 9,
+      "start_ordinal": 8001,
+      "end_ordinal": 10000,
+      "first_lemma": "ἄνδηρον",
+      "last_lemma": "ἀντιδαπανάω",
+      "commit": "f6597c8882f471158d68d8a936ada8b322eb4a78",
+      "blob_sha": "eead7c08f368edd2b559339fa8611877df8ff6fc",
+      "origin_segments": [
+        {
+          "file": "greatscott05.xml",
+          "source_blob_sha": "4b6ec54a8e9f67b3d351123933cedaff624aab62",
+          "count": 133,
+          "source_entry_ordinals": [
+            1877,
+            2009
+          ]
+        },
+        {
+          "file": "greatscott06.xml",
+          "source_blob_sha": "108adcb1065d66b0e299d0e8e1b39de083579a08",
+          "count": 1867,
+          "source_entry_ordinals": [
+            1,
+            1867
+          ]
+        }
+      ],
+      "next_orig_id": "n9859",
+      "next_lemma": "ἀντίδειξις",
+      "verified_by": "leitura do blob publicado no GitHub: 2000 div2 completos; 2000 orig_ids exclusivos; 2000 cabeçalhos"
+    },
+    {
+      "batch": 10,
+      "start_ordinal": 10001,
+      "end_ordinal": 12000,
+      "first_lemma": "ἀντίδειξις",
+      "last_lemma": "ἀπενέπω",
+      "commit": "220203aad8fab74da870e293e6e692ef709abe91",
+      "blob_sha": "1cf2dbdb9d734542c69b9d3f8b3d856d40137f4f",
+      "origin_segments": [
+        {
+          "file": "greatscott06.xml",
+          "source_blob_sha": "108adcb1065d66b0e299d0e8e1b39de083579a08",
+          "count": 136,
+          "source_entry_ordinals": [
+            1868,
+            2003
+          ]
+        },
+        {
+          "file": "greatscott07.xml",
+          "source_blob_sha": "c4c9b61641854b40c393a98bb234dfbe8729f5aa",
+          "count": 1864,
+          "source_entry_ordinals": [
+            1,
+            1864
+          ]
+        }
+      ],
+      "next_orig_id": "n11857",
+      "next_lemma": "ἀπενθής",
+      "verified_by": "releitura do blob remoto do lote 0010 após commit; contagem 2000/2000; sem IDs repetidos"
     }
-  ]
+  ],
+  "source_batch_creation_commit_status": "identified",
+  "source_batch_publication_verified_at_head": "220203aad8fab74da870e293e6e692ef709abe91"
 }
