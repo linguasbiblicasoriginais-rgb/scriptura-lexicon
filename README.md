@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## LSJ — quarto lote da Fonte: 4.000 artigos confirmados (18/10/2026)
+
+A branch exclusiva `chat-gpt-lsj` contém agora [o lote 0004](lexicons/lsj-source-batch-0004.xml), correspondente aos ordinais **3.001–4.000** da transcrição TEI auxiliar LSJLogeion/Perseus, de **ἀκαρφής** (orig_id `n2955`) até **ἀλεής** (orig_id `n3933`). O [commit de publicação](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/2b41bb0cc8cc2ef04808e60e327621fc02b5db4f) foi confirmado remotamente, assim como os **1.000 artigos completos, 1.000 IDs únicos e zero cabeçalhos ausentes**. A fonte foi `greatscott03.xml`, blob `5fdda44cef71e03de0204b65ade066006d6c4933`. **Próximo artigo:** **ἄλεθρα**, ID `n3934`, ordinal global **4.001**.
+
+**Progresso por camada:** 4.000 artigos da **Fonte**; **0 traduções portuguesas completas**, **0 revisões filológicas completas**, **0 artigos publicados na interface**. O número de referência **116.854** é provisório, proveniente da implementação Furman; não é contagem homologada dos artigos da transcrição LSJLogeion. A fonte ainda exige confronto com Perseids, Philolog.us, Furman e, quando possível, o impresso de 1940. Os históricos de bloqueios de publicação do lote 4 não são contados como sucesso; a publicação foi recuperada nesta execução. O [checkpoint](lexicons/lsj-progress.json) e as [regras](regras/Rlsj.txt) registram as evidências e os pontos de retomada. As alterações permaneceram exclusivamente em `chat-gpt-lsj`.
+
+
 ## LSJ — terceiro lote: 3.000 artigos na camada Fonte (18/10/2026)
 
 O [lote 0003](lexicons/lsj-source-batch-0003.xml) incorporou **1.000 artigos originais completos**, de **ἀθετ-έω** a **ἄκαρτος** (ordinais 2.001–3.000), elevando o acumulado a **3.000 artigos na camada Fonte**. Commit de publicação: [303e492](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/303e492d6f7988e31aeee91606fa2ca77301a4e2). A transcrição auxiliar de Helma Dik/Logeion (derivada do Perseus/Tufts) foi utilizada de `greatscott02.xml` (23 artigos finais) e `greatscott03.xml` (977 artigos iniciais), com SHA dos blobs anotados no [manifesto de progresso](lexicons/lsj-progress.json) e nas [regras do LSJ](regras/Rlsj.txt). Conferência estrutural: **1.000 IDs únicos no lote**, 3.000 únicos no conjunto de três lotes, 0 cabeçalhos faltantes e continuidade confirmada entre arquivos.
