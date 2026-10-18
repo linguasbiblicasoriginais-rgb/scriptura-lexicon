@@ -1,5 +1,12 @@
 # Scriptura Lexicon
 
+## LSJ — sexto lote: 6.000 artigos originais na Fonte (18/10/2026)
+
+O [lote 0006](lexicons/lsj-source-batch-0006.xml) foi publicado em `chat-gpt-lsj`, com **1.000 artigos originais completos**, ordinais **5.001–6.000**, abrangendo **Ἀμαλώιος** (`n4899`) a **ἀμφίκεστον·** (`n5874`). O próximo artigo é **ἀμφικεύθω** (`n5875`, ordinal 6.001). Fonte TEI auxiliar: `helmadik/LSJLogeion/greatscott04.xml`, blob `d560de329f17ab692fb134cccd4994fc37622081`, ordinais locais 944–1943. O [commit ecd4da9](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/ecd4da9795305e6d8671fb5d2a1c39733ec6ac3d) foi confirmado no GitHub; o arquivo remoto contém **1.000 IDs únicos** e nenhum cabeçalho ausente, com continuidade em relação ao lote 0005.
+
+O acumulado é **6.000 artigos da camada Fonte**, **0 traduções portuguesas completas**, **0 revisões integrais** e **0 verbetes publicados na interface**. O total **116.854** permanece referência provisória da implementação Furman e não é contagem homologada da transcrição auxiliar ou edição impressa. A transcrição ainda requer colação completa com os portais indicados, revisão filológica e tradução. Ver [checkpoint](lexicons/lsj-progress.json) e [regras](regras/Rlsj.txt). Não houve PR/merge, nem escrita em `main` ou outras branches.
+
+
 ## LSJ — quinto lote: 5.000 artigos incorporados na Fonte (18/10/2026)
 
 Na branch exclusiva `chat-gpt-lsj`, o [lote 0005](lexicons/lsj-source-batch-0005.xml) contém **1.000 artigos originais completos** (ordinais globais **4.001–5.000** da transcrição auxiliar LSJLogeion/Perseus), de **ἄλεθρα** (ID `n3934`) até **ἀμᾰλ-όω·** (ID `n4898`). **Próximo:** **Ἀμαλώιος** (ID `n4899`, ordinal **5.001**). A transcrição percorreu dois arquivos: `greatscott03.xml` (57 artigos finais, blob `5fdda44cef71e03de0204b65ade066006d6c4933`) e `greatscott04.xml` (943 artigos iniciais, blob `d560de329f17ab692fb134cccd4994fc37622081`). A verificação estrutural confirmou **1.000 IDs únicos e nenhum cabeçalho ausente**, além da continuidade com o lote 0004. Publicação confirmada pelo [commit be9ebab](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/be9ebab5aa38d05058a65d840c573507a6c38cdf).
