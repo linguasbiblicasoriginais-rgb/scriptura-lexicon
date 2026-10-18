@@ -194,3 +194,20 @@ Total 116854 da implementação Furman permanece provisório e sujeito a diferen
 Licença declarada da transcrição: CC BY-SA 4.0; atribuição Perseus Digital Library/Tufts, Gregory Crane, Helma Dik/Logeion.
 Limitações: colação integral com Oxford 1940, Perseids, Philolog.us e Furman, tradução portuguesa, análise e publicação na interface pendentes.
 Esta rodada não criou PR nem realizou merge, rebase, force push ou alterações em outras branches.
+
+
+CICLO 0012 — LOTE DE 2.000 ARTIGOS DA CAMADA FONTE — PUBLICAÇÃO VERIFICADA (18/10/2026)
+Branch exclusiva chat-gpt-lsj. Arquivo publicado lexicons/lsj-source-batch-0012.xml.
+Commit de incorporação: 6c0a9bab3d7583190ab6054f26fba186f346190a.
+Blob de destino relido após publicação: 39b3fc3d68f2fb8f7f88495caf95a5c1f6c9b709.
+Fonte digital auxiliar: Helma Dik/LSJLogeion, derivada do Perseus/Tufts.
+Segmento A: greatscott08.xml, blob 17968bed226318875bdc078da3c37867fb9ce7f6, artigos locais 1860–2005, 146 artigos.
+Segmento B: greatscott09.xml, blob 90c8273e07f86eae681e24e9f1ca58d12b99494a, artigos locais 1–1854, 1854 artigos.
+Intervalo global 14001–16000; primeiro ἀποστηθίζω (orig_id n13851), último ἀρχαιοφανής (orig_id n15846).
+Próximo artigo: ἀρχαιόομαι (orig_id n15847), ordinal 16001, greatscott09.xml, artigo local 1855.
+Verificações estruturais: 2000 div2 completos, 2000 cabeçalhos, 2000 orig_id únicos, zero sobreposições com lote 0011. Continuidade na fronteira n13850→n13851.
+Acumulado da camada FONTE: 16000. Traduções portuguesas completas: 0; revisões integrais: 0; artigos publicados na interface: 0.
+Denominador inicial Furman 116854 PROVISÓRIO, sujeito à segmentação editorial.
+Créditos Perseus Digital Library (Tufts), Gregory Crane, Helma Dik/Logeion; licença declarada CC BY-SA 4.0.
+Ainda pendentes colação integral com Oxford 1940, Perseids, Philolog.us e Furman, tradução, análise, integração e testes visuais.
+Sem PR/merge/rebase/force push ou escrita fora de chat-gpt-lsj nesta execução.

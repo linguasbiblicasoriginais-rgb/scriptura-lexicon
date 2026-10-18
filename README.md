@@ -1,3 +1,11 @@
+## LSJ — lote 0012: 16.000 artigos originais na Fonte (18/10/2026)
+
+O [lote 0012](lexicons/lsj-source-batch-0012.xml) incorporou **2.000 artigos tipográficos completos**, ordinais globais **14.001–16.000**, de **ἀποστηθίζω** (`orig_id=n13851`) a **ἀρχαιοφανής** (`orig_id=n15846`). **Próximo lema: ἀρχαιόομαι** (`orig_id=n15847`, ordinal **16.001**, `greatscott09.xml`, artigo local 1.855). [Commit de publicação](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/6c0a9bab3d7583190ab6054f26fba186f346190a); blob remoto `39b3fc3d68f2fb8f7f88495caf95a5c1f6c9b709` relido e verificado: **2.000 IDs únicos**, **2.000 cabeçalhos**, **0 IDs repetidos com o lote anterior**.
+
+**Proveniência da transcrição TEI auxiliar:** Helma Dik/LSJLogeion, derivada do Perseus/Tufts; `greatscott08.xml` (146 artigos, locais 1.860–2.005, blob `17968bed226318875bdc078da3c37867fb9ce7f6`) e `greatscott09.xml` (1.854 artigos, locais 1–1.854, blob `90c8273e07f86eae681e24e9f1ca58d12b99494a`). Créditos Perseus Digital Library/Tufts, Gregory Crane, Helma Dik/Logeion; licença declarada CC BY-SA 4.0.
+
+**Progresso discriminado:** **16.000 registros da camada Fonte**, **0 traduções portuguesas completas**, **0 revisões filológicas integrais**, **0 artigos na interface**. O total **116.854** do catálogo Furman continua provisório, não homologado contra esta segmentação. Permanecem pendentes colação com o impresso de 1940 e os portais Perseids, Philolog.us e Furman, tradução e homologação. Atualizados [checkpoint](lexicons/lsj-progress.json) e [regra LSJ](regras/Rlsj.txt). Nenhuma outra branch modificada; sem PR ou merge.
+
 ## LSJ — lote 0011: 14.000 artigos originais incorporados na Fonte (18/10/2026)
 
 O [lote 0011](lexicons/lsj-source-batch-0011.xml) incorpora **2.000 artigos tipográficos completos** (ordinais globais **12.001–14.000**) de **ἀπενθής** (`orig_id=n11857`) até **ἀποστεφανόω** (`orig_id=n13850`). O próximo é **ἀποστηθίζω** (`orig_id=n13851`, posição global **14.001**, em `greatscott08.xml`, artigo local 1.860). Publicação: [commit f036d42](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/f036d42a6e2ae3e1a6c3a9b478f16e59221513aa); blob remoto `4d9b7aa2b5305ec48ea35ed16c7dac29fb54f9f8` verificado com **2.000 orig_id exclusivos, 2.000 cabeçalhos** e **nenhuma sobreposição com o lote 0010**.
