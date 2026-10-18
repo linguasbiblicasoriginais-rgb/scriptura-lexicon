@@ -177,6 +177,57 @@ try {
         report.push(group);
     }
 
+    // Consulta no significado: o lema hebraico é encontrado por "prata".
+    await page.goto(url + "#hebraico", {waitUntil:"domcontentloaded",timeout:180000});
+    await page.waitForFunction(() => window.ScripturaLexiconSearch?.isReady);
+    await page.locator("#search-input").fill("prata moeda metal branco");
+    await page.locator('tr.search-row[data-target="entry-kesef-halot"]')
+        .waitFor({state:"visible",timeout:60000});
+
+    // Cenário controlado: vinte e três resultados devem renderizar 10/10/3.
+    await page.evaluate(() => {
+        const actual = window.ScripturaLexiconSearch;
+        window.__scripturaRealSearch = actual;
+        const fixtures = Array.from({length:23}, (_, id) => ({
+            id: 100000 + id, target: "test-page-" + id, dictionary:"hebraico",
+            source:"HALOT", search:"paginacao", lemma:"test",
+            row: '<tr class="search-row" data-dictionary="hebraico" ' +
+                'data-target="test-page-' + id + '" data-source="HALOT" tabindex="0">' +
+                '<td class="table-lemma">Teste ' + id + '</td><td>Substantivo</td>' +
+                '<td>significado</td><td><span class="source-pill">HALOT</span></td></tr>'
+        }));
+        window.ScripturaLexiconSearch = Object.freeze({...actual,
+            search: async () => ({rows:fixtures, truncated:false})});
+    });
+    await page.locator("#search-input").fill("paginacao");
+    await page.waitForFunction(() =>
+        document.querySelectorAll("#search-results .search-row").length === 10 &&
+        document.querySelector("#search-pagination")?.hidden === false);
+    assert.equal(await page.locator("#search-count").textContent(), "23 verbetes");
+    await page.locator('#search-pagination button[data-page="2"]').click();
+    assert.equal(await page.locator("#search-results .search-row").count(), 10);
+    assert.equal(await page.locator("#search-results .search-row").first().getAttribute("data-target"),
+        "test-page-10");
+    await page.locator('#search-pagination button[data-page="3"]').click();
+    assert.equal(await page.locator("#search-results .search-row").count(), 3);
+    assert.equal(await page.locator("#search-results .search-row").first().getAttribute("data-target"),
+        "test-page-20");
+    await page.locator('#search-pagination button').filter({hasText:"Anterior"}).click();
+    assert.equal(await page.locator("#search-results .search-row").count(), 10);
+    assert.equal(await page.locator("#search-pagination [aria-current='page']").textContent(), "2");
+    await page.evaluate(() => {
+        window.ScripturaLexiconSearch = window.__scripturaRealSearch;
+        delete window.__scripturaRealSearch;
+    });
+    await page.locator("#search-input").fill("prata moeda metal branco");
+    await page.locator('tr.search-row[data-target="entry-kesef-halot"]')
+        .waitFor({state:"visible",timeout:60000});
+    assert.equal(await page.locator("#search-results .search-row").count() <= 10, true);
+    const glossLengths = await page.locator("#search-results td:nth-child(3)")
+        .evaluateAll(nodes => nodes.map(node => node.textContent.length));
+    assert.ok(glossLengths.every(n => n <= 125),
+        "Os resumos da tabela não podem conter definições extensas");
+
     // IDs legados colidentes: ambas as ocorrências são recuperáveis
     // individualmente, preservando o ID original do verbete.
     const aliases = await page.evaluate(() =>
