@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "dictionary": "LSJ",
+  "branch": "chat-gpt-lsj",
+  "edition": "Liddell–Scott–Jones–McKenzie, A Greek-English Lexicon, Oxford 1940",
+  "total_entries_reference": 116854,
+  "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
+  "total_estimate_provisional": true,
+  "batch_size": 1000,
+  "source_records_incorporated": 6000,
+  "portuguese_articles_translated": 0,
+  "portuguese_articles_reviewed": 0,
+  "ui_articles_published": 0,
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0006.xml",
+  "source_batch_commit": "ecd4da9795305e6d8671fb5d2a1c39733ec6ac3d",
+  "source_batch_blob": "1c6bf269fce8d0f516ec54f2f729f44de5b5f242",
+  "source_original_repository": "helmadik/LSJLogeion",
+  "source_original_path": "greatscott04.xml",
+  "source_original_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+  "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
+  "first_lemma": "Α α",
+  "last_lemma": "ἀμφίκεστον·",
+  "next_lemma": "ἀμφικεύθω",
+  "next_orig_id": "n5875",
+  "next_source_file": "greatscott04.xml",
+  "next_ordinal": 6001,
+  "validation": {
+    "source_count": 1000,
+    "cumulative_source_count": 6000,
+    "unique_orig_ids_in_batch": 1000,
+    "missing_headwords": 0,
+    "previous_batch_unchanged_source_fragment": true,
+    "overlapping_ids_previous_batch": 0,
+    "scope": "structural source TEI verification only",
+    "full_collation": false,
+    "portuguese_translation": false,
+    "frontend_integration": false
+  },
+  "canonical_reference_sites": [
+    "https://perseids-project.github.io/lsj-js/",
+    "https://philolog.us/",
+    "https://folio2.furman.edu/lsjj/"
+  ],
+  "prohibitions": [
+    "não afirmar 1000 verbetes portugueses",
+    "não contar acepções como artigos separados",
+    "não modificar outras branches",
+    "não realizar PR/merge nem modificar main sem instrução específica"
+  ],
+  "batch_history": [
+    {
+      "batch": 1,
+      "start_ordinal": 1,
+      "end_ordinal": 1000,
+      "first_lemma": "Α α",
+      "last_lemma": "ἀγῠρ-τευτής",
+      "commit": "04fc88cb3df7bde9ddc17627b700517487f0260b",
+      "blob_sha": "5953f6923adb9fc2870b44f32697679c41279864"
+    },
+    {
+      "batch": 2,
+      "start_ordinal": 1001,
+      "end_ordinal": 2000,
+      "first_lemma": "ἀγῠρ-τεύω",
+      "last_lemma": "ἀθέσφᾰτος",
+      "commit": "2855df0223b593d7b25bc2935b907caa83269241",
+      "blob_sha": "735491d4040c96281e6213349719ee58e08e0856"
+    },
+    {
+      "batch": 3,
+      "start_ordinal": 2001,
+      "end_ordinal": 3000,
+      "first_lemma": "ἀθετ-έω",
+      "last_lemma": "ἄκαρτος",
+      "commit": "303e492d6f7988e31aeee91606fa2ca77301a4e2",
+      "blob_sha": "f2748113a9eaacaf2a62184dad93916b44d9dc80",
+      "origin_segments": [
+        {
+          "file": "greatscott02.xml",
+          "source_blob_sha": "6d95548f3d3524ba0d726baa017cb763e75bd7bb",
+          "count": 23,
+          "source_entry_ordinals": [
+            2001,
+            2023
+          ]
+        },
+        {
+          "file": "greatscott03.xml",
+          "source_blob_sha": "5fdda44cef71e03de0204b65ade066006d6c4933",
+          "count": 977,
+          "source_entry_ordinals": [
+            1,
+            977
+          ]
+        }
+      ],
+      "next_orig_id": "n2955",
+      "next_lemma": "ἀκαρφής"
+    },
+    {
+      "batch": 4,
+      "start_ordinal": 3001,
+      "end_ordinal": 4000,
+      "first_lemma": "ἀκαρφής",
+      "last_lemma": "ἀλεής",
+      "commit": "2b41bb0cc8cc2ef04808e60e327621fc02b5db4f",
+      "blob_sha": "646d9c2c6c8b4c9c16b0b7c47ab235c3e1654874",
+      "source_file": "greatscott03.xml",
+      "source_blob_sha": "5fdda44cef71e03de0204b65ade066006d6c4933",
+      "source_entry_ordinals": [
+        978,
+        1977
+      ],
+      "next_orig_id": "n3934",
+      "next_lemma": "ἄλεθρα"
+    },
+    {
+      "batch": 5,
+      "start_ordinal": 4001,
+      "end_ordinal": 5000,
+      "first_lemma": "ἄλεθρα",
+      "last_lemma": "ἀμᾰλ-όω·",
+      "commit": "be9ebab5aa38d05058a65d840c573507a6c38cdf",
+      "blob_sha": "7dc1adf8e29c1936c677d2de2dd568a49d683845",
+      "origin_segments": [
+        {
+          "file": "greatscott03.xml",
+          "source_blob_sha": "5fdda44cef71e03de0204b65ade066006d6c4933",
+          "count": 57,
+          "source_entry_ordinals": [
+            1978,
+            2034
+          ]
+        },
+        {
+          "file": "greatscott04.xml",
+          "source_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+          "count": 943,
+          "source_entry_ordinals": [
+            1,
+            943
+          ]
+        }
+      ],
+      "next_orig_id": "n4899",
+      "next_lemma": "Ἀμαλώιος"
+    },
+    {
+      "batch": 6,
+      "start_ordinal": 5001,
+      "end_ordinal": 6000,
+      "first_lemma": "Ἀμαλώιος",
+      "last_lemma": "ἀμφίκεστον·",
+      "commit": "ecd4da9795305e6d8671fb5d2a1c39733ec6ac3d",
+      "blob_sha": "1c6bf269fce8d0f516ec54f2f729f44de5b5f242",
+      "source_file": "greatscott04.xml",
+      "source_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+      "source_entry_ordinals": [
+        944,
+        1943
+      ],
+      "next_orig_id": "n5875",
+      "next_lemma": "ἀμφικεύθω"
+    }
+  ]
+}

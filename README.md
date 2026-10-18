@@ -1,3 +1,47 @@
+## LSJ — sexto lote: 6.000 artigos originais na Fonte (18/10/2026)
+
+O [lote 0006](lexicons/lsj-source-batch-0006.xml) foi publicado em `chat-gpt-lsj`, com **1.000 artigos originais completos**, ordinais **5.001–6.000**, abrangendo **Ἀμαλώιος** (`n4899`) a **ἀμφίκεστον·** (`n5874`). O próximo artigo é **ἀμφικεύθω** (`n5875`, ordinal 6.001). Fonte TEI auxiliar: `helmadik/LSJLogeion/greatscott04.xml`, blob `d560de329f17ab692fb134cccd4994fc37622081`, ordinais locais 944–1943. O [commit ecd4da9](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/ecd4da9795305e6d8671fb5d2a1c39733ec6ac3d) foi confirmado no GitHub; o arquivo remoto contém **1.000 IDs únicos** e nenhum cabeçalho ausente, com continuidade em relação ao lote 0005.
+
+O acumulado é **6.000 artigos da camada Fonte**, **0 traduções portuguesas completas**, **0 revisões integrais** e **0 verbetes publicados na interface**. O total **116.854** permanece referência provisória da implementação Furman e não é contagem homologada da transcrição auxiliar ou edição impressa. A transcrição ainda requer colação completa com os portais indicados, revisão filológica e tradução. Ver [checkpoint](lexicons/lsj-progress.json) e [regras](regras/Rlsj.txt). Não houve PR/merge, nem escrita em `main` ou outras branches.
+
+
+## LSJ — quinto lote: 5.000 artigos incorporados na Fonte (18/10/2026)
+
+Na branch exclusiva `chat-gpt-lsj`, o [lote 0005](lexicons/lsj-source-batch-0005.xml) contém **1.000 artigos originais completos** (ordinais globais **4.001–5.000** da transcrição auxiliar LSJLogeion/Perseus), de **ἄλεθρα** (ID `n3934`) até **ἀμᾰλ-όω·** (ID `n4898`). **Próximo:** **Ἀμαλώιος** (ID `n4899`, ordinal **5.001**). A transcrição percorreu dois arquivos: `greatscott03.xml` (57 artigos finais, blob `5fdda44cef71e03de0204b65ade066006d6c4933`) e `greatscott04.xml` (943 artigos iniciais, blob `d560de329f17ab692fb134cccd4994fc37622081`). A verificação estrutural confirmou **1.000 IDs únicos e nenhum cabeçalho ausente**, além da continuidade com o lote 0004. Publicação confirmada pelo [commit be9ebab](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/be9ebab5aa38d05058a65d840c573507a6c38cdf).
+
+**Progresso por camada:** **5.000 artigos da Fonte**, **0 verbetes integralmente traduzidos para o português**, **0 revistos integralmente** e **0 publicados na interface**. O denominador **116.854** (Furman) permanece provisório e não foi homologado contra a segmentação da transcrição LSJLogeion ou a edição impressa. Ainda é necessária colação com os portais designados, revisão filológica e tradução. O [checkpoint](lexicons/lsj-progress.json) e [Rlsj.txt](regras/Rlsj.txt) mantêm o estado e a rastreabilidade. Não houve PR/merge nem escrita fora de `chat-gpt-lsj`.
+
+
+## LSJ — quarto lote da Fonte: 4.000 artigos confirmados (18/10/2026)
+
+A branch exclusiva `chat-gpt-lsj` contém agora [o lote 0004](lexicons/lsj-source-batch-0004.xml), correspondente aos ordinais **3.001–4.000** da transcrição TEI auxiliar LSJLogeion/Perseus, de **ἀκαρφής** (orig_id `n2955`) até **ἀλεής** (orig_id `n3933`). O [commit de publicação](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/2b41bb0cc8cc2ef04808e60e327621fc02b5db4f) foi confirmado remotamente, assim como os **1.000 artigos completos, 1.000 IDs únicos e zero cabeçalhos ausentes**. A fonte foi `greatscott03.xml`, blob `5fdda44cef71e03de0204b65ade066006d6c4933`. **Próximo artigo:** **ἄλεθρα**, ID `n3934`, ordinal global **4.001**.
+
+**Progresso por camada:** 4.000 artigos da **Fonte**; **0 traduções portuguesas completas**, **0 revisões filológicas completas**, **0 artigos publicados na interface**. O número de referência **116.854** é provisório, proveniente da implementação Furman; não é contagem homologada dos artigos da transcrição LSJLogeion. A fonte ainda exige confronto com Perseids, Philolog.us, Furman e, quando possível, o impresso de 1940. Os históricos de bloqueios de publicação do lote 4 não são contados como sucesso; a publicação foi recuperada nesta execução. O [checkpoint](lexicons/lsj-progress.json) e as [regras](regras/Rlsj.txt) registram as evidências e os pontos de retomada. As alterações permaneceram exclusivamente em `chat-gpt-lsj`.
+
+
+## LSJ — terceiro lote: 3.000 artigos na camada Fonte (18/10/2026)
+
+O [lote 0003](lexicons/lsj-source-batch-0003.xml) incorporou **1.000 artigos originais completos**, de **ἀθετ-έω** a **ἄκαρτος** (ordinais 2.001–3.000), elevando o acumulado a **3.000 artigos na camada Fonte**. Commit de publicação: [303e492](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/303e492d6f7988e31aeee91606fa2ca77301a4e2). A transcrição auxiliar de Helma Dik/Logeion (derivada do Perseus/Tufts) foi utilizada de `greatscott02.xml` (23 artigos finais) e `greatscott03.xml` (977 artigos iniciais), com SHA dos blobs anotados no [manifesto de progresso](lexicons/lsj-progress.json) e nas [regras do LSJ](regras/Rlsj.txt). Conferência estrutural: **1.000 IDs únicos no lote**, 3.000 únicos no conjunto de três lotes, 0 cabeçalhos faltantes e continuidade confirmada entre arquivos.
+
+**Próximo:** **ἀκαρφής**, `orig_id=n2955`, ordinal global 3.001. O total **116.854** é apenas referência provisória da implementação Furman, cuja segmentação pode diferir da usada aqui. Não houve tradução, revisão filológica completa nem ativação de cartões na interface: **0 verbetes portugueses concluídos ou publicados**. A escrita foi exclusiva em `chat-gpt-lsj`, sem PR/merge ou modificações em `main`.
+
+
+## LSJ — segundo lote da camada Fonte: 2.000 artigos acumulados (18/10/2026)
+
+Na branch exclusiva `chat-gpt-lsj` foi publicado o [segundo lote da fonte original](lexicons/lsj-source-batch-0002.xml), com **1.000 artigos** (`ἀγῠρ-τεύω` a `ἀθέσφᾰτος`), completando **2.000 registros originais acumulados**. A verificação remota confirmou 1.000 identificadores únicos, nenhum cabeçalho ausente e continuidade literal em relação ao lote 0001. O commit-fonte é [2855df0](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/2855df0223b593d7b25bc2935b907caa83269241). **Próximo lema:** `ἀθετ-έω` (orig_id `n1965`, ordinal 2001 da transcrição).
+
+**Contagem por camada:** 2.000 artigos na **Fonte**, **0 traduções portuguesas completas**, **0 traduções revisadas**, **0 artigos portugueses publicados na interface**. A cifra **116.854** permanece um *denominador de referência provisório* oriundo da implementação Furman, não uma contagem certificada dos artigos da edição impressa ou do LSJLogeion. Os fragmentos TEI provêm da transcrição auxiliar LSJLogeion/Perseus, com atribuições e condições de uso na [regra LSJ](regras/Rlsj.txt). Ainda não houve cotejo exaustivo com os portais Perseids, Philolog.us e Furman, nem tradução/homologação. O checkpoint remoto é [lsj-progress.json](lexicons/lsj-progress.json).
+
+
+## LSJ — fonte original: primeiro lote de 1.000 artigos (18/10/2026)
+
+A branch exclusiva `chat-gpt-lsj` contém `lexicons/lsj-source-batch-0001.xml` com **1.000 artigos gregos originais** extraídos, preservados em fragmentos TEI, de **Α α** a **ἀγῠρ-τευτής**, a partir da transcrição editorial LSJLogeion/Perseus. A verificação estrutural confirmou 1.000 IDs únicos e nenhum cabeçalho ausente. **Próximo lema:** **ἀγῠρ-τεύω** (orig_id `n988`, posição 1001 da sequência extraída).
+
+A licença da transcrição é CC BY-SA 4.0; reconhecer Perseus/Tufts, Gregory Crane, Helma Dik e Logeion. O arquivo é uma **camada de fonte, não tradução portuguesa**: **0 traduções completas, 0 artigos portugueses publicados** nesta etapa. É proibido chamar esses 1.000 registros de 1.000 verbetes portugueses concluídos. A contagem de **116.854** é referência **provisória** do catálogo Furman, que não precisa coincidir com a segmentação editorial do LSJLogeion.
+
+Fontes designadas para colação: [Perseids](https://perseids-project.github.io/lsj-js/), [Philolog.us](https://philolog.us/) e [Furman](https://folio2.furman.edu/lsjj/). Regra exclusiva: `regras/Rlsj.txt`. Estado: `lexicons/lsj-progress.json`. A revisão da edição impressa, a tradução, os popups e a integração na interface ainda estão pendentes. Nenhum PR/merge é realizado nesta incorporação.
+
+
 ## Integração THAYER — resolução conservadora do PR #127 (14/10/2026)
 
 O conflito entre `chat-gpt-thayer` e `chat-gpt-commits` foi conciliado sem descartar os avanços atuais dos demais léxicos. A interface ativa THAYER passou a usar os módulos do reinício fotográfico; os arquivos anteriores de auditoria e os módulos legados não carregados permanecem no repositório como histórico, sem constituir homologação dos novos artigos. O fluxo de auditoria automatizada legada do THAYER foi desativado, pois tinha escopo anterior ao reinício. O verbete `Α, α, ἄλφα` mantém o cabeçalho e o texto fornecido pelo mantenedor. Esta integração resolve conflitos de versionamento, não realiza auditoria filológica geral nem implica merge em `main`.
