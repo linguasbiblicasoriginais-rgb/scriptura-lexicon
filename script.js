@@ -137,7 +137,8 @@ const entryCards = Array.from(
 const searchCount = document.getElementById("search-count");
 const searchPagination = document.getElementById("search-pagination");
 const RESULTS_PER_PAGE = 10;
-let matchedRows = [];
+let searchMatches = {ids:[], total:0};
+let pageGeneration = 0;
 let currentResultsPage = 1;
 
 const rowsByDictionary = new Map();
@@ -1375,9 +1376,11 @@ function cardsForActiveDictionary() {
 
 function resetSearchState() {
     ++searchGeneration;
+    window.clearTimeout(searchInputTimer);
     searchInput.value = "";
     lastOpenedRow = null;
-    matchedRows = [];
+    searchMatches = {ids:[], total:0};
+    ++pageGeneration;
     currentResultsPage = 1;
     searchPagination.hidden = true;
     searchPagination.replaceChildren();
@@ -1408,8 +1411,15 @@ function populateSourceFilter() {
         '<option value="">Todas as fontes</option>';
 
     const indexed = window.ScripturaLexiconSearch?.catalog?.counts?.[activeDictionary];
-    const sources = (indexed ? Object.keys(indexed) :
-        [...new Set(rowsForActiveDictionary().map(row => row.dataset.source).filter(Boolean))])
+    const known = indexed ? Object.keys(indexed) :
+        rowsForActiveDictionary().map(row => row.dataset.source).filter(Boolean);
+    // Fontes catalogadas mas sem cartões publicados continuam identificáveis,
+    // claramente marcadas como em preparação; não representam verbetes prontos.
+    const pending = Object.entries(window.ScripturaSourceCatalog || {})
+        .filter(([code, data]) => data.dictionary === activeDictionary &&
+            data.publicationStatus === "source-only" && !(indexed?.[code] > 0))
+        .map(([code]) => code);
+    const sources = [...new Set([...known, ...pending])]
         .sort((a, b) => a.localeCompare(b, "pt-BR"));
 
     sources.forEach(function (source) {
@@ -1417,7 +1427,8 @@ function populateSourceFilter() {
             document.createElement("option");
 
         option.value = source;
-        option.textContent = source;
+        option.textContent = pending.includes(source) ?
+            source + " · em preparação" : source;
 
         sourceFilter.appendChild(option);
     });
@@ -1730,54 +1741,68 @@ function updateCounter(count) {
 let searchGeneration = 0;
 let searchInputTimer = null;
 
-function renderResultsPage(page, focusPagination = false) {
-    const totalPages = Math.max(1, Math.ceil(matchedRows.length / RESULTS_PER_PAGE));
-    currentResultsPage = Math.max(1, Math.min(totalPages, page));
-    const offset = (currentResultsPage - 1) * RESULTS_PER_PAGE;
-    const visible = matchedRows.slice(offset, offset + RESULTS_PER_PAGE);
-    searchResultsBody.innerHTML = visible.map(item => item.row).join("");
-    searchResultsBody.querySelectorAll(".search-row").forEach((row, index) => {
-        row.hidden = false;
-        row.dataset.scripturaIndexId = String(visible[index].id);
-    });
-    window.ScripturaLexiconSearch?.track(visible);
-    searchPagination.hidden = totalPages <= 1;
-    searchPagination.replaceChildren();
-    if (totalPages <= 1) return;
+async function renderResultsPage(page, focusPagination = false, generation = searchGeneration) {
+    const totalPages = Math.max(1, Math.ceil(searchMatches.total / RESULTS_PER_PAGE));
+    const selectedPage = Math.max(1, Math.min(totalPages, page));
+    const request = ++pageGeneration;
+    const matches = searchMatches;
+    try {
+        // Apenas as dez linhas desta página; não transferir todas as entradas.
+        const visible = await window.ScripturaLexiconSearch.page(matches, selectedPage, RESULTS_PER_PAGE);
+        if (request !== pageGeneration || generation !== searchGeneration ||
+                matches !== searchMatches) return;
+        currentResultsPage = selectedPage;
+        searchResultsBody.innerHTML = visible.map(item => item.row).join("");
+        searchResultsBody.querySelectorAll(".search-row").forEach((row, index) => {
+            row.hidden = false;
+            row.dataset.scripturaIndexId = String(visible[index].id);
+        });
+        window.ScripturaLexiconSearch.track(visible);
+        searchTableWrapper.hidden = false;
+        searchPagination.hidden = totalPages <= 1;
+        searchPagination.replaceChildren();
+        if (totalPages <= 1) return;
 
-    const numbers = new Set([1, totalPages]);
-    for (let n = Math.max(1, currentResultsPage - 2);
-         n <= Math.min(totalPages, currentResultsPage + 2); n++) numbers.add(n);
-    const pages = [...numbers].sort((a, b) => a - b);
-    function addButton(label, target, disabled = false, active = false) {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.textContent = label;
-        button.dataset.page = String(target);
-        button.disabled = disabled;
-        if (active) button.setAttribute("aria-current", "page");
-        button.setAttribute("aria-label",
-            label === "Anterior" || label === "Próxima" ?
-                label + " página" : "Página " + label);
-        searchPagination.append(button);
-    }
-    addButton("Anterior", currentResultsPage - 1, currentResultsPage === 1);
-    let previous = 0;
-    for (const n of pages) {
-        if (previous && n - previous > 1) {
-            const gap = document.createElement("span");
-            gap.className = "page-ellipsis";
-            gap.textContent = "…";
-            gap.setAttribute("aria-hidden", "true");
-            searchPagination.append(gap);
+        const numbers = new Set([1, totalPages]);
+        for (let n = Math.max(1, selectedPage - 2);
+             n <= Math.min(totalPages, selectedPage + 2); n++) numbers.add(n);
+        const pages = [...numbers].sort((a, b) => a - b);
+        function addButton(label, target, disabled = false, active = false) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.textContent = label;
+            button.dataset.page = String(target);
+            button.disabled = disabled;
+            if (active) button.setAttribute("aria-current", "page");
+            button.setAttribute("aria-label",
+                label === "Anterior" || label === "Próxima" ?
+                    label + " página" : "Página " + label);
+            searchPagination.append(button);
         }
-        addButton(String(n), n, false, n === currentResultsPage);
-        previous = n;
-    }
-    addButton("Próxima", currentResultsPage + 1, currentResultsPage === totalPages);
-    if (focusPagination) {
-        searchPagination.querySelector('[aria-current="page"]')?.focus({preventScroll: true});
-        document.getElementById("search-table").scrollIntoView({block: "start"});
+        addButton("Anterior", selectedPage - 1, selectedPage === 1);
+        let previous = 0;
+        for (const n of pages) {
+            if (previous && n - previous > 1) {
+                const gap = document.createElement("span");
+                gap.className = "page-ellipsis";
+                gap.textContent = "…";
+                gap.setAttribute("aria-hidden", "true");
+                searchPagination.append(gap);
+            }
+            addButton(String(n), n, false, n === selectedPage);
+            previous = n;
+        }
+        addButton("Próxima", selectedPage + 1, selectedPage === totalPages);
+        if (focusPagination) {
+            searchPagination.querySelector('[aria-current="page"]')?.focus({preventScroll:true});
+            document.getElementById("search-table").scrollIntoView({block:"start"});
+        }
+    } catch (error) {
+        if (request !== pageGeneration || generation !== searchGeneration) return;
+        searchTableWrapper.hidden = false;
+        noResults.textContent = "Não foi possível carregar esta página. " + error.message;
+        noResults.hidden = false;
+        console.error("Scriptura Lexicon: falha na página", error);
     }
 }
 
@@ -1790,7 +1815,8 @@ function filterEntries() {
         openedEntryCard = null;
     }
     lastOpenedRow = null;
-    matchedRows = [];
+    searchMatches = {ids:[], total:0};
+    ++pageGeneration;
     currentResultsPage = 1;
     searchPagination.hidden = true;
     searchPagination.replaceChildren();
@@ -1800,11 +1826,21 @@ function filterEntries() {
     searchTableWrapper.hidden = true;
     noResults.hidden = true;
     window.ScripturaLexiconSearch?.reset();
+    const sourcePending = !!(source &&
+        window.ScripturaSourceCatalog?.[source]?.publicationStatus === "source-only" &&
+        !window.ScripturaLexiconSearch?.count(dictionary, source));
+    const pendingMessage = sourcePending ?
+        "O LSJ está em preparação: existem registros na camada FONTE, mas nenhum verbete traduzido e publicado para pesquisa." : "";
     if (!query) {
-        searchCount.textContent = "Digite para pesquisar";
+        searchCount.textContent = sourcePending ? "Fonte em preparação" : "Digite para pesquisar";
+        if (sourcePending) {
+            searchTableWrapper.hidden = false;
+            noResults.hidden = false;
+            noResults.textContent = pendingMessage;
+        }
         return;
     }
-    searchCount.textContent = "Pesquisando...";
+    searchCount.textContent = sourcePending ? "Fonte em preparação" : "Pesquisando...";
     const searcher = window.ScripturaLexiconSearch;
     if (!searcher) {
         searchCount.textContent = "Preparando índice...";
@@ -1813,12 +1849,18 @@ function filterEntries() {
     searcher.search(query, dictionary, source).then(result => {
         if (generation !== searchGeneration || activeDictionary !== dictionary ||
             sourceFilter.value !== source || normalizeText(searchInput.value.trim()) !== query) return;
-        matchedRows = result.rows;
-        searchTableWrapper.hidden = false;
-        updateCounter(matchedRows.length);
-        renderResultsPage(1);
-        noResults.hidden = matchedRows.length > 0;
-        noResults.textContent = matchedRows.length ? "" : "Nenhum verbete encontrado.";
+        searchMatches = result;
+        // Mostrar o total exato ANTES de requisitar as linhas da primeira página.
+        updateCounter(result.total);
+        if (sourcePending) searchCount.textContent = "Fonte em preparação";
+        noResults.hidden = result.total > 0;
+        noResults.textContent = result.total ? "" :
+            (pendingMessage || "Nenhum verbete encontrado.");
+        if (result.total > 0) {
+            void renderResultsPage(1, false, generation);
+        } else {
+            searchTableWrapper.hidden = false;
+        }
     }).catch(error => {
         if (generation !== searchGeneration) return;
         searchCount.textContent = "Erro na pesquisa";
@@ -2268,6 +2310,7 @@ themeInputs.forEach(function (input) {
 // O índice por dicionário e o cache de normalização limitam o custo.
 searchInput.addEventListener("input", function () {
     ++searchGeneration;
+    ++pageGeneration;
     window.clearTimeout(searchInputTimer);
     searchCount.textContent = searchInput.value.trim() ? "Pesquisando..." : "Digite para pesquisar";
     searchTableWrapper.hidden = true;

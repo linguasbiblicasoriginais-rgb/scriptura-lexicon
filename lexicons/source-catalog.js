@@ -7,6 +7,21 @@
  * referem-se a registros identificados do Internet Archive.
  */
 window.ScripturaSourceCatalog = Object.freeze({
+    "LSJ": {
+        title: "A Greek–English Lexicon",
+        authors: "Henry George Liddell; Robert Scott; revisão de Henry Stuart Jones e Roderick McKenzie",
+        publisher: "Clarendon Press, Oxford",
+        date: "1940",
+        edition: "9ª edição; transcrição digital auxiliar LSJLogeion/Perseus ainda não homologada",
+        isbn: null,
+        pages: null,
+        coverUrl: null,
+        coverColor: "#54637e",
+        dictionary: "grego",
+        publicationStatus: "source-only",
+        note: "Fonte em preparação. Os arquivos LSJ disponíveis pertencem exclusivamente à camada FONTE, em inglês; ainda não há verbetes traduzidos para português, revistos ou publicados para consulta neste site. Os registros da fonte não são contabilizados como artigos pesquisáveis. Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion.",
+        reference: "regras/Rlsj.txt"
+    },
     "ROBINSON": {
         title: "A Greek and English Lexicon of the New Testament",
         authors: "Edward Robinson",

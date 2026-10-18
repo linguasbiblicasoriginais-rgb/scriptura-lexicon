@@ -80,7 +80,15 @@ try {
         const sources = await page.locator("#source-filter option").evaluateAll(options =>
             options.map(o => o.value).filter(Boolean)
         );
-        const group = { dictionary, sources: sources.length, tested: 0 };
+        const group = { dictionary, sources: sources.length, tested: 0, pending: 0 };
+        if (dictionary === "grego") {
+            assert.ok(sources.includes("LSJ"), "LSJ precisa aparecer no seletor grego");
+            assert.equal(await page.locator('#source-filter option[value="LSJ"]').textContent(),
+                "LSJ · em preparação");
+        } else {
+            assert.equal(sources.includes("LSJ"), false,
+                "LSJ não pertence a um dicionário diferente do grego");
+        }
 
         for (const source of sources) {
             // Testa a interface visual do combobox, não apenas o select auxiliar.
@@ -115,6 +123,22 @@ try {
                 renderedCovers.add(source);
             }
 
+            if (source === "LSJ") {
+                assert.equal(count, 0, "LSJ ainda não tem cartões publicados");
+                assert.match(await page.locator("#source-details-note").textContent(),
+                    /camada FONTE|Fonte em preparação/i);
+                assert.equal(await page.locator("#search-count").textContent(),
+                    "Fonte em preparação");
+                assert.match(await page.locator("#no-results").textContent(),
+                    /nenhum verbete traduzido/i);
+                await page.locator("#search-input").fill("ἀγαθός");
+                await page.waitForFunction(() =>
+                    document.getElementById("no-results")?.textContent?.includes("LSJ") &&
+                    !document.getElementById("no-results").hidden);
+                assert.equal(await page.locator("#search-results .search-row").count(), 0);
+                group.pending++;
+                continue;
+            }
             const sample = await page.evaluate(({dictionary,source}) =>
                 window.ScripturaLexiconSearch.sample(dictionary,source),
                 {dictionary,source}
@@ -196,14 +220,24 @@ try {
                 '<td class="table-lemma">Teste ' + id + '</td><td>Substantivo</td>' +
                 '<td>significado</td><td><span class="source-pill">HALOT</span></td></tr>'
         }));
+        window.__scripturaPageLoads = [];
         window.ScripturaLexiconSearch = Object.freeze({...actual,
-            search: async () => ({rows:fixtures, truncated:false})});
+            search: async () => ({ids:fixtures.map(item => item.id),total:fixtures.length}),
+            page: async (results,number,perPage) => {
+                const ids = results.ids.slice((number-1)*perPage,number*perPage);
+                window.__scripturaPageLoads.push({number,perPage,requested:ids.length});
+                return ids.map(id => fixtures[id-100000]);
+            }});
+
     });
     await page.locator("#search-input").fill("paginacao");
     await page.waitForFunction(() =>
         document.querySelectorAll("#search-results .search-row").length === 10 &&
         document.querySelector("#search-pagination")?.hidden === false);
     assert.equal(await page.locator("#search-count").textContent(), "23 verbetes");
+    assert.deepEqual(await page.evaluate(() => window.__scripturaPageLoads),
+        [{number:1,perPage:10,requested:10}],
+        "Primeira página deve solicitar somente dez linhas");
     await page.locator('#search-pagination button[aria-label="Página 2"]').click();
     assert.equal(await page.locator("#search-results .search-row").count(), 10);
     assert.equal(await page.locator("#search-results .search-row").first().getAttribute("data-target"),
@@ -215,9 +249,16 @@ try {
     await page.locator('#search-pagination button').filter({hasText:"Anterior"}).click();
     assert.equal(await page.locator("#search-results .search-row").count(), 10);
     assert.equal(await page.locator("#search-pagination [aria-current='page']").textContent(), "2");
+    assert.equal(await page.locator("#search-count").textContent(), "23 verbetes",
+        "O total deve permanecer visível em todas as páginas");
+    assert.deepEqual(await page.evaluate(() => window.__scripturaPageLoads),
+        [{number:1,perPage:10,requested:10}, {number:2,perPage:10,requested:10},
+         {number:3,perPage:10,requested:3}, {number:2,perPage:10,requested:10}],
+        "A navegação não deve requisitar as demais linhas");
     await page.evaluate(() => {
         window.ScripturaLexiconSearch = window.__scripturaRealSearch;
         delete window.__scripturaRealSearch;
+        delete window.__scripturaPageLoads;
     });
     await page.locator("#search-input").fill("prata moeda metal branco");
     await page.locator('tr.search-row[data-target="entry-kesef-halot"]')
