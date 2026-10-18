@@ -1834,6 +1834,7 @@ function filterEntries() {
         matchedRows = result.rows;
         searchTableWrapper.hidden = false;
         updateCounter(matchedRows.length);
+        if (sourcePending) searchCount.textContent = "Fonte em preparação";
         renderResultsPage(1);
         noResults.hidden = matchedRows.length > 0;
         noResults.textContent = matchedRows.length ? "" :
