@@ -7,31 +7,31 @@
   "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
   "total_estimate_provisional": true,
   "batch_size": 2000,
-  "source_records_incorporated": 10000,
+  "source_records_incorporated": 12000,
   "portuguese_articles_translated": 0,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
-  "last_committed_source_batch": "lexicons/lsj-source-batch-0009.xml",
-  "source_batch_commit": "f6597c8882f471158d68d8a936ada8b322eb4a78",
-  "source_batch_blob": "eead7c08f368edd2b559339fa8611877df8ff6fc",
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0010.xml",
+  "source_batch_commit": "220203aad8fab74da870e293e6e692ef709abe91",
+  "source_batch_blob": "1cf2dbdb9d734542c69b9d3f8b3d856d40137f4f",
   "source_original_repository": "helmadik/LSJLogeion",
-  "source_original_path": "greatscott06.xml",
-  "source_original_blob_sha": "108adcb1065d66b0e299d0e8e1b39de083579a08",
+  "source_original_path": "greatscott07.xml",
+  "source_original_blob_sha": "c4c9b61641854b40c393a98bb234dfbe8729f5aa",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
-  "last_lemma": "ἀντιδαπανάω",
-  "next_lemma": "ἀντίδειξις",
-  "next_orig_id": "n9859",
-  "next_source_file": "greatscott06.xml",
-  "next_ordinal": 10001,
+  "last_lemma": "ἀπενέπω",
+  "next_lemma": "ἀπενθής",
+  "next_orig_id": "n11857",
+  "next_source_file": "greatscott07.xml",
+  "next_ordinal": 12001,
   "validation": {
     "source_count": 2000,
-    "cumulative_source_count": 10000,
+    "cumulative_source_count": 12000,
     "unique_orig_ids_in_batch": 2000,
     "missing_headwords": 0,
     "previous_batch_exact_source_match": true,
     "overlapping_ids_previous_batch": 0,
-    "scope": "verificação estrutural de 2.000 div2 íntegros no blob TEI remoto; origem digital auxiliar sem cotejo integral com edição impressa",
+    "scope": "verificação estrutural do blob remoto TEI contendo 2000 div2, 2000 orig_id distintos e 2000 cabeçalhos; sem colação da edição impressa",
     "full_collation": false,
     "portuguese_translation": false,
     "frontend_integration": false
@@ -244,8 +244,40 @@
       "next_orig_id": "n9859",
       "next_lemma": "ἀντίδειξις",
       "verified_by": "leitura do blob publicado no GitHub: 2000 div2 completos; 2000 orig_ids exclusivos; 2000 cabeçalhos"
+    },
+    {
+      "batch": 10,
+      "start_ordinal": 10001,
+      "end_ordinal": 12000,
+      "first_lemma": "ἀντίδειξις",
+      "last_lemma": "ἀπενέπω",
+      "commit": "220203aad8fab74da870e293e6e692ef709abe91",
+      "blob_sha": "1cf2dbdb9d734542c69b9d3f8b3d856d40137f4f",
+      "origin_segments": [
+        {
+          "file": "greatscott06.xml",
+          "source_blob_sha": "108adcb1065d66b0e299d0e8e1b39de083579a08",
+          "count": 136,
+          "source_entry_ordinals": [
+            1868,
+            2003
+          ]
+        },
+        {
+          "file": "greatscott07.xml",
+          "source_blob_sha": "c4c9b61641854b40c393a98bb234dfbe8729f5aa",
+          "count": 1864,
+          "source_entry_ordinals": [
+            1,
+            1864
+          ]
+        }
+      ],
+      "next_orig_id": "n11857",
+      "next_lemma": "ἀπενθής",
+      "verified_by": "releitura do blob remoto do lote 0010 após commit; contagem 2000/2000; sem IDs repetidos"
     }
   ],
   "source_batch_creation_commit_status": "identified",
-  "source_batch_publication_verified_at_head": "f6597c8882f471158d68d8a936ada8b322eb4a78"
+  "source_batch_publication_verified_at_head": "220203aad8fab74da870e293e6e692ef709abe91"
 }

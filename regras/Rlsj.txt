@@ -159,3 +159,21 @@ Denominador provisório: 116854 no catálogo Furman, sem equivalência de segmen
 Créditos: Perseus Digital Library (Tufts), Gregory Crane, Helma Dik/Logeion. Licença declarada: CC BY-SA 4.0.
 Limitações: não houve colação integral com o impresso de Oxford (1940), Perseids, Philolog.us ou Furman; tradução, revisão e integração permanecem pendentes.
 Sem PR, merge, rebase, force push ou alterações em outras branches.
+
+
+CICLO 0010 — LOTE DE 2.000 ARTIGOS DA FONTE — PUBLICAÇÃO VERIFICADA (18/10/2026)
+Branch exclusiva: chat-gpt-lsj. Lote contínuo 10001–12000, 2000 artigos completos.
+Arquivo: lexicons/lsj-source-batch-0010.xml.
+Commit da publicação: 220203aad8fab74da870e293e6e692ef709abe91.
+Blob publicado e relido: 1cf2dbdb9d734542c69b9d3f8b3d856d40137f4f.
+Fonte auxiliar: Helma Dik/LSJLogeion, derivada do Perseus Digital Library (Tufts).
+Segmento A: greatscott06.xml, blob 108adcb1065d66b0e299d0e8e1b39de083579a08, ordinais locais 1868–2003, 136 artigos.
+Segmento B: greatscott07.xml, blob c4c9b61641854b40c393a98bb234dfbe8729f5aa, ordinais locais 1–1864, 1864 artigos.
+Primeiro: ἀντίδειξις (orig_id n9859); último: ἀπενέπω (orig_id n11856).
+Próximo: ἀπενθής (orig_id n11857), ordinal global 12001, greatscott07.xml, local 1865.
+Auditoria estrutural: 2000 fragmentos div2 e cabeçalhos, 2000 orig_id únicos, zero sobreposição com lote 0009, transição correta n9858→n9859.
+Total Fonte: 12000. Traduções portuguesas completas: 0. Traduções revisadas integralmente: 0. Artigos publicados na interface: 0.
+Total de referência Furman: 116854, provisório, sem equivalência entre segmentações certificada.
+Créditos da transcrição: Perseus Digital Library/Tufts, Gregory Crane, Helma Dik/Logeion; licença declarada CC BY-SA 4.0.
+Pendente colação integral da edição impressa de 1940 e dos três portais de referência; nenhuma tradução ou revisão integral foi executada.
+Sem PR, merge ou alteração de outras branches.
