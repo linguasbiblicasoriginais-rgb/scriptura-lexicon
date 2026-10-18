@@ -1,3 +1,11 @@
+## LSJ — execução do lote integral 0001 em andamento: 12/1.000 traduções preparadas (18/10/2026)
+
+**Resultado verificável da execução inicial:** o módulo `lexicons/lsj-final-batch-0001.js` contém os artigos tipográficos **1–12** (de **Α α** a **ἀαδής**, `orig_id=n0` a `n9b`) com **12 traduções portuguesas de trabalho, 12 linhas de busca e 12 cartões completos**. O código JS foi executado isoladamente e os 12 alvos foram confirmados, sem duplicações. O módulo foi incluído no `lexicon-modules.json`, o LSJ cadastrado no catálogo de fontes e configurado teste de consistência pós-build.
+
+**Atenção ao status:** tradução preparada **12/1.000 (1,2%)**. Revisão filológica integral contra Oxford 1940 **0/1.000**. Validação do build completo do Netlify **pendente**. Artigos LSJ efetivamente verificados no site público **0/1.000**. Por essas razões, o **lote 0001 ainda não está concluído**. O próximo artigo a traduzir é **ἀάζω**, `orig_id=n10`, ordinal **13**.
+
+As 16.000 entradas originais TEI/XML de execuções anteriores continuam preservadas e serão reutilizadas, evitando uma segunda extração. Não confundir arquivos originais, traduções parciais, integração ao código e publicação efetiva.
+
 ## LSJ — reinício do fluxo integral em lotes de 1.000 (18/10/2026)
 
 **Mudança de orientação aprovada:** não continuar extraindo artigos originais em lotes de 2.000 sem tradução e integração. O trabalho útil passa a ser **uma passagem integral por artigo**, da fonte existente até a tradução fiel, revisão real, linha de pesquisa, cartão, integração ao build e verificação de publicação. Unidade de entrega: **1.000 artigos completos por lote**; um lote ainda parcial não pode ser informado como concluído.

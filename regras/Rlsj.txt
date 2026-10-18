@@ -229,3 +229,13 @@ Denominador inicial Furman 116854 PROVISÓRIO, sujeito à segmentação editoria
 Créditos Perseus Digital Library (Tufts), Gregory Crane, Helma Dik/Logeion; licença declarada CC BY-SA 4.0.
 Ainda pendentes colação integral com Oxford 1940, Perseids, Philolog.us e Furman, tradução, análise, integração e testes visuais.
 Sem PR/merge/rebase/force push ou escrita fora de chat-gpt-lsj nesta execução.
+
+
+CICLO DE EXECUÇÃO LSJ 0001 — PRIMEIRA ENTREGA PARCIAL REVISÁVEL (18/10/2026)
+Origem: lexicons/lsj-source-batch-0001.xml, blob 5953f6923adb9fc2870b44f32697679c41279864.
+Artigos originais examinados: ordinais 1–12 (orig_ids n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, n9a, n9b).
+12 traduções portuguesas de trabalho, com 12 pares de linhas de pesquisa/cartões, código JS executado e correspondência dos IDs validada. Os exemplos, acepções e referências da transcrição TEI serviram de fundamento; não foi realizada colação independente da edição Oxford 1940.
+Implementação: lexicons/lsj-final-batch-0001.js, incorporado ao lexicon-modules.json, LSJ adicionado ao catálogo bibliográfico, sem confundir edição impressa e TEI auxiliar.
+Situação: 12 traduções/códigos de apresentação; 0 artigos com revisão filológica integral do impresso; 0 artigos comprovadamente publicados em produção. O build Netlify do site inteiro não foi executado e o deploy público não foi confirmado.
+Próxima entrada para tradução: ordinal 13, ἀάζω (orig_id n10), mesma fonte XML já armazenada.
+Cada artigo conta no máximo uma vez; um lote de 1000 permanece EM ANDAMENTO, não CONCLUÍDO.
