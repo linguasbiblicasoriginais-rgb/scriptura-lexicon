@@ -2,7 +2,7 @@
 /*
  * Scriptura Lexicon — compilação estática sob demanda.
  * Lê os arquivos lexicográficos originais sem modificá-los e gera:
- *   catálogo, índice invertido de n-gramas, linhas e artigos em blocos.
+ *   catálogo, índice de n-gramas, verificação compacta, linhas e artigos em blocos.
  * Não exige pacotes npm; use node --max-old-space-size=4096 scripts/build-on-demand.mjs
  */
 import fs from "node:fs";
@@ -24,7 +24,7 @@ for (const file of modules) {
 }
 const output = path.join(root, "lexicon-data");
 fs.rmSync(output, {recursive: true, force: true});
-for (const dir of ["grams", "meta", "cards"]) {
+for (const dir of ["grams", "lookup", "meta", "cards"]) {
     fs.mkdirSync(path.join(output, dir), {recursive: true});
 }
 function emit(file, value) {
@@ -315,7 +315,7 @@ function postingKey(token) {
 }
 for (let offset = 0; offset < records.length; offset += chunkSize) {
     const current = records.slice(offset, offset + chunkSize);
-    const meta = [], cards = [];
+    const meta = [], cards = [], lookup = [];
     for (let i = 0; i < current.length; i++) {
         const record = current[i], id = offset + i;
         counts[record.dictionary] ||= {};
@@ -334,8 +334,11 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
         else runs.push({start:id, end:id + 1, dictionary:record.dictionary, source:record.source});
         const lemmaCell = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
         const lemma = normalize(lemmaCell ? textOnly(lemmaCell[1]) : "");
-        meta.push({id, target:record.target, dictionary:record.dictionary, source:record.source,
-            lemma, search:record.search, row:compactRow(record)});
+        // Busca apenas com dados compactos. A definição permanece nas
+        // partes do índice de verificação, jamais nas linhas HTML da página.
+        lookup.push([record.search, lemma]);
+        meta.push({id, target:record.target, dictionary:record.dictionary,
+            source:record.source, row:compactRow(record)});
         cards.push({id, target:record.target, html:record.card});
         // A mesma normalização do navegador; substrings de 1, 2 ou 3
         // caracteres Unicode (não apenas letras) para preservar busca integral.
@@ -353,6 +356,7 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
         }
     }
     const block = String(offset / chunkSize).padStart(4, "0") + ".json";
+    emit("lookup/" + block, lookup);
     emit("meta/" + block, meta);
     emit("cards/" + block, cards);
 }
@@ -364,7 +368,7 @@ for (let i = 0; i < buckets.length; i++) {
     emit("grams/" + String(i).padStart(3, "0") + ".json", buckets[i]);
 }
 emit("catalog.json", {
-    version: 2, chunkSize, total: records.length, counts, samples, runs, sourceTerms,
+    version: 3, chunkSize, total: records.length, counts, samples, runs, sourceTerms,
     duplicateSamples:duplicateSamples.slice(0,8)
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,
