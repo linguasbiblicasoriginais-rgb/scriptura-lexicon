@@ -1,3 +1,9 @@
+## LSJ — lote integral 0001 em andamento: 34/1.000 traduções de trabalho (18/10/2026)
+
+Nova parcela traduzida e integrada ao módulo `lexicons/lsj-final-batch-0001.js`: **21 artigos** (ordinais 14–34, de **ἄαθι** a **ἀάτυλον**). O acumulado chega a **34 traduções de trabalho**, com **34 linhas de pesquisa e 34 cartões**, conferidos por execução do JS e confronto dos IDs com o XML auxiliar. Os 16.000 artigos originais continuam preservados.
+
+**Não homologar como lote completo:** 0 revisões filológicas integrais contra Oxford 1940, 0 compilações do site executadas nesta execução e 0 publicações LSJ em produção confirmadas. Próximo ordinal: **35**, **ἀάω** (`n31`). Um commit na branch não comprova deploy.
+
 ## LSJ — execução do lote integral 0001 em andamento: 12/1.000 traduções preparadas (18/10/2026)
 
 **Resultado verificável da execução inicial:** o módulo `lexicons/lsj-final-batch-0001.js` contém os artigos tipográficos **1–12** (de **Α α** a **ἀαδής**, `orig_id=n0` a `n9b`) com **12 traduções portuguesas de trabalho, 12 linhas de busca e 12 cartões completos**. O código JS foi executado isoladamente e os 12 alvos foram confirmados, sem duplicações. O módulo foi incluído no `lexicon-modules.json`, o LSJ cadastrado no catálogo de fontes e configurado teste de consistência pós-build.
