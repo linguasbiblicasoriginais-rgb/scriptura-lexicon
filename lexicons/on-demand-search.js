@@ -7,7 +7,6 @@
     const root = "lexicon-data/";
     const blocks = new Map(), gramFiles = new Map(), cardBlocks = new Map();
     const targetIds = new Map();
-    const searchLimit = 250;
     let catalog = null;
     let initialized = false;
     let failMessage = "";
@@ -22,14 +21,23 @@
     rowsByDictionary.clear();
 
     async function json(relative, cache, key) {
-        if (!cache.has(key)) {
-            const request = fetch(root + relative).then(response => {
-                if (!response.ok) throw Error("Índice indisponível: " + relative + " (HTTP " + response.status + ")");
-                return response.json();
-            });
-            cache.set(key, request);
+        if (cache.has(key)) {
+            const cached = cache.get(key);
+            cache.delete(key);
+            cache.set(key, cached);
+            return cached;
         }
-        return cache.get(key);
+        const request = fetch(root + relative).then(response => {
+            if (!response.ok) throw Error("Índice indisponível: " + relative + " (HTTP " + response.status + ")");
+            return response.json();
+        }).catch(error => {
+            cache.delete(key);
+            throw error;
+        });
+        cache.set(key, request);
+        const limit = cache === blocks ? 24 : cache === gramFiles ? 16 : 12;
+        while (cache.size > limit) cache.delete(cache.keys().next().value);
+        return request;
     }
     function hashGram(value) {
         let hash = 2166136261;
@@ -51,37 +59,68 @@
         const data = await json("grams/" + pad(part,3) + ".json", gramFiles, part);
         return data[gram] || [];
     }
+    // Localização binária do dicionário e da fonte, sem baixar metadados.
+    function inSelectedSource(id, dictionary, source) {
+        const runs = catalog.runs;
+        if (!runs?.length) return true;
+        let left = 0, right = runs.length - 1;
+        while (left <= right) {
+            const middle = (left + right) >> 1, run = runs[middle];
+            if (id < run.start) right = middle - 1;
+            else if (id >= run.end) left = middle + 1;
+            else return run.dictionary === dictionary && (!source || run.source === source);
+        }
+        return false;
+    }
     async function search(query, dictionary, source) {
         await ready;
         if (!query) return {rows:[], truncated:false};
-        const chars = Array.from(query);
-        const grams = [];
-        const width = Math.min(3, chars.length);
-        for (let n = 0; n <= chars.length-width; n++) {
-            grams.push(chars.slice(n,n+width).join(""));
-        }
-        const distinct = [...new Set(grams)];
-        const sets = await Promise.all(distinct.map(posting));
-        if (sets.some(x => !x.length)) return {rows:[], truncated:false};
-        sets.sort((a,b)=>a.length-b.length);
-        const other = sets.slice(1).map(values=>new Set(values));
-        const ids = sets[0].filter(id=>other.every(group=>group.has(id)));
-        const rows = [];
-        let truncated = false;
-        // Os arquivos de metadados são carregados só para candidatos. Para
-        // consultas amplas, a visualização é limitada; o usuário pode refinar.
-        for (const id of ids) {
-            const record = await getMeta(id);
-            if (!record || record.dictionary !== dictionary ||
-                    (source && source !== record.source) ||
-                    !record.search.includes(query)) continue;
-            rows.push(record);
-            if (rows.length >= searchLimit) {
-                truncated = ids.length > rows.length;
-                break;
+        // Termos independentes: lema, transliteração, glosas e definições.
+        const terms = query.split(/[\s,;]+/u).filter(Boolean);
+        if (!terms.length) return {rows:[], truncated:false};
+        const grams = new Set();
+        for (const term of terms) {
+            const chars = Array.from(term), width = Math.min(3, chars.length);
+            for (let n = 0; n <= chars.length - width; n++) {
+                grams.add(chars.slice(n, n + width).join(""));
             }
         }
-        return {rows, truncated};
+        const sets = await Promise.all([...grams].map(posting));
+        if (sets.some(values => !values.length)) return {rows:[], truncated:false};
+        sets.sort((a, b) => a.length - b.length);
+        const other = sets.slice(1).map(values => new Set(values));
+        const ids = sets[0].filter(id => inSelectedSource(id, dictionary, source) &&
+            other.every(group => group.has(id)));
+        const parts = new Map();
+        for (const id of ids) {
+            const part = Math.floor(id / catalog.chunkSize);
+            if (!parts.has(part)) parts.set(part, []);
+            parts.get(part).push(id);
+        }
+        const rows = [];
+        const groups = [...parts];
+        // Nunca baixar todos os blocos de metadados simultaneamente.
+        for (let i = 0; i < groups.length; i += 6) {
+            const batches = await Promise.all(groups.slice(i, i + 6).map(async ([part, groupIds]) => {
+                const data = await json("meta/" + pad(part, 4) + ".json", blocks, part);
+                return groupIds.map(id => data[id % catalog.chunkSize]).filter(record =>
+                    record && record.dictionary === dictionary &&
+                    (!source || record.source === source) &&
+                    terms.every(term => record.search.includes(term)));
+            }));
+            for (const batch of batches) rows.push(...batch);
+        }
+        // O lema exato tem precedência sobre definições com as mesmas palavras.
+        const rank = record => {
+            const lemma = record.lemma || "";
+            if (lemma === query) return 0;
+            if (lemma.startsWith(query)) return 1;
+            if (terms.every(term => lemma.includes(term))) return 2;
+            if (terms.some(term => lemma.includes(term))) return 3;
+            return 4;
+        };
+        rows.sort((a, b) => rank(a) - rank(b) || a.id - b.id);
+        return {rows, truncated:false};
     }
     async function loadArticle(recordId) {
         await ready;
@@ -125,7 +164,7 @@
     const ready = fetch(root + "catalog.json").then(async response => {
         if (!response.ok) throw Error("Catálogo indisponível (HTTP " + response.status + ")");
         catalog = await response.json();
-        if (!catalog || !catalog.chunkSize || catalog.version !== 1) {
+        if (!catalog || !catalog.chunkSize || ![1, 2].includes(catalog.version)) {
             throw Error("Catálogo incompatível");
         }
         const lexicons = window.ScripturaLexicons ||= {};
