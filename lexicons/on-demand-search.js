@@ -5,7 +5,7 @@
  */
 (function () {
     const root = "lexicon-data/";
-    const blocks = new Map(), gramFiles = new Map(), cardBlocks = new Map();
+    const blocks = new Map(), lookups = new Map(), gramFiles = new Map(), cardBlocks = new Map();
     const targetIds = new Map();
     let catalog = null;
     let initialized = false;
@@ -35,7 +35,7 @@
             throw error;
         });
         cache.set(key, request);
-        const limit = cache === blocks ? 24 : cache === gramFiles ? 16 : 12;
+        const limit = cache === blocks ? 16 : cache === lookups ? 24 : cache === gramFiles ? 16 : 12;
         while (cache.size > limit) cache.delete(cache.keys().next().value);
         return request;
     }
@@ -72,12 +72,15 @@
         }
         return false;
     }
+    // A contagem e a ordenação usam SOMENTE o índice de busca (lookup),
+    // sem transferir HTML de resultados ou de artigos ao navegador.
     async function search(query, dictionary, source) {
         await ready;
-        if (!query) return {rows:[], truncated:false};
-        // Termos independentes: lema, transliteração, glosas e definições.
+        if (!query || (source && !(catalog.counts?.[dictionary]?.[source] > 0))) {
+            return {ids:[], total:0};
+        }
         const terms = query.split(/[\s,;]+/u).filter(Boolean);
-        if (!terms.length) return {rows:[], truncated:false};
+        if (!terms.length) return {ids:[], total:0};
         const grams = new Set();
         for (const term of terms) {
             const chars = Array.from(term), width = Math.min(3, chars.length);
@@ -86,41 +89,59 @@
             }
         }
         const sets = await Promise.all([...grams].map(posting));
-        if (sets.some(values => !values.length)) return {rows:[], truncated:false};
+        if (sets.some(values => !values.length)) return {ids:[], total:0};
         sets.sort((a, b) => a.length - b.length);
         const other = sets.slice(1).map(values => new Set(values));
-        const ids = sets[0].filter(id => inSelectedSource(id, dictionary, source) &&
+        const candidateIds = sets[0].filter(id => inSelectedSource(id, dictionary, source) &&
             other.every(group => group.has(id)));
         const parts = new Map();
-        for (const id of ids) {
+        for (const id of candidateIds) {
             const part = Math.floor(id / catalog.chunkSize);
             if (!parts.has(part)) parts.set(part, []);
             parts.get(part).push(id);
         }
-        const rows = [];
+
+        const ranked = [];
         const groups = [...parts];
-        // Nunca baixar todos os blocos de metadados simultaneamente.
+        // Seis requisições concorrentes, somente texto normalizado e lema.
         for (let i = 0; i < groups.length; i += 6) {
             const batches = await Promise.all(groups.slice(i, i + 6).map(async ([part, groupIds]) => {
-                const data = await json("meta/" + pad(part, 4) + ".json", blocks, part);
-                return groupIds.map(id => data[id % catalog.chunkSize]).filter(record =>
-                    record && record.dictionary === dictionary &&
-                    (!source || record.source === source) &&
-                    terms.every(term => record.search.includes(term)));
+                const lookup = await json("lookup/" + pad(part, 4) + ".json", lookups, part);
+                const matches = [];
+                for (const id of groupIds) {
+                    const item = lookup[id % catalog.chunkSize];
+                    if (!item || !terms.every(term => item[0].includes(term))) continue;
+                    const lemma = item[1];
+                    const rank = lemma === query ? 0 :
+                        lemma.startsWith(query) ? 1 :
+                        terms.every(term => lemma.includes(term)) ? 2 :
+                        terms.some(term => lemma.includes(term)) ? 3 : 4;
+                    matches.push([id, rank]);
+                }
+                return matches;
             }));
-            for (const batch of batches) rows.push(...batch);
+            for (const batch of batches) ranked.push(...batch);
         }
-        // O lema exato tem precedência sobre definições com as mesmas palavras.
-        const rank = record => {
-            const lemma = record.lemma || "";
-            if (lemma === query) return 0;
-            if (lemma.startsWith(query)) return 1;
-            if (terms.every(term => lemma.includes(term))) return 2;
-            if (terms.some(term => lemma.includes(term))) return 3;
-            return 4;
-        };
-        rows.sort((a, b) => rank(a) - rank(b) || a.id - b.id);
-        return {rows, truncated:false};
+        // Guardar só identificadores, NÃO objetos com HTML e definições.
+        ranked.sort((a, b) => a[1] - b[1] || a[0] - b[0]);
+        const ids = ranked.map(item => item[0]);
+        return {ids, total:ids.length};
+    }
+    // Cada troca de página transfere apenas 10 linhas do índice de metadados.
+    // Cartões integrais continuam sendo baixados somente quando selecionados.
+    async function page(results, pageNumber, perPage = 10) {
+        await ready;
+        if (!Number.isSafeInteger(pageNumber) || pageNumber < 1 ||
+                !Number.isSafeInteger(perPage) || perPage < 1) {
+            throw Error("Página de resultados inválida");
+        }
+        const offset = (pageNumber - 1) * perPage;
+        const ids = results.ids.slice(offset, offset + perPage);
+        return Promise.all(ids.map(async id => {
+            const row = await getMeta(id);
+            if (!row || row.id !== id) throw Error("Linha não corresponde ao índice: " + id);
+            return row;
+        }));
     }
     async function loadArticle(recordId) {
         await ready;
@@ -164,7 +185,7 @@
     const ready = fetch(root + "catalog.json").then(async response => {
         if (!response.ok) throw Error("Catálogo indisponível (HTTP " + response.status + ")");
         catalog = await response.json();
-        if (!catalog || !catalog.chunkSize || ![1, 2].includes(catalog.version)) {
+        if (!catalog || !catalog.chunkSize || catalog.version !== 3) {
             throw Error("Catálogo incompatível");
         }
         const lexicons = window.ScripturaLexicons ||= {};
@@ -196,7 +217,7 @@
     // A promessa não aguardada deve ter observador para evitar rejection global.
     ready.catch(() => {});
     window.ScripturaLexiconSearch = Object.freeze({
-        ready, search, loadArticle, count, sample,
+        ready, search, page, loadArticle, count, sample,
         get isReady() {return initialized;},
         get error() {return failMessage;},
         get catalog() {return catalog;},
