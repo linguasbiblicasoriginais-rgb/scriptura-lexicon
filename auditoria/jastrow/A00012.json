@@ -1,0 +1,50 @@
+{
+  "verbete": {
+    "sid": "A00012",
+    "lemma": "אַב־,",
+    "type": "Prefixo de origem grega",
+    "gloss": "elemento au-; eu-",
+    "dicionario": "JASTROW",
+    "lote": "011-040",
+    "arquivo": "jastrow-011-040.js"
+  },
+  "fonte": {
+    "edicao": "A Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature",
+    "autor": "Marcus Jastrow",
+    "volume": "1 (a confirmar no fac-simile)",
+    "pagina": "1 (a confirmar no fac-simile)",
+    "entrada_facsimile": "אַב־, אֶבְ־ (prefixo grego)",
+    "url_facsimile": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "url_sefaria": "https://www.sefaria.org/Jastrow",
+    "texto_fonte": "אַב־, אֶבְ־ a prefix of words of Greek origin answering to αὐ-, au-, e.g. אבטומטוס = αὐτόματος; or to εὐ, e.g. אבגינוס = εὐγενής."
+  },
+  "conferencia": {
+    "lematizacao_confere": true,
+    "gloss_completo": true,
+    "exemplos_html_conferidos": true,
+    "variantes_registradas": true,
+    "observacoes": "[NOTA DE COLACAO] O segundo cabeçalho original é אֶבְ־, além de אַב־. Jastrow associa-os respectivamente a elementos gregos εὐ- e αὐ-.\n\n[CONSULTA REALIZADA — Sefaria] Texto conferido em 2026-10-14. Confere integralmente: 2º cabeçalho אֶבְ־, correspondência a αὐ-/εὐ-, exemplos אבטומטוס (αὐτόματος) e אבגינוס (εὐγενής). Nenhuma correção necessária.\n\n[PENDENTE] Confirmar vol./pág. no fac-símile."
+  },
+  "correcoes_aplicadas": [],
+  "regressao": {
+    "textual": null,
+    "filologica": null,
+    "funcional": null,
+    "comandos_executados": []
+  },
+  "estado": "AGUARDANDO_INTEGRACAO",
+  "pr_merge": null,
+  "data": "2026-10-14",
+  "kit_auditoria": {
+    "fonte_primaria": "Jastrow 1903, 2 vols (Luzac / Putnam)",
+    "url_sefaria_base": "https://www.sefaria.org/Jastrow",
+    "url_facsimile_base": "https://archive.org/details/bub_gb_G0ATAAAAYAAJ_2",
+    "instrucoes": [
+      "1. Consultar a entrada no Sefaria (buscar pelo lemma).",
+      "2. Confirmar contra o fac-simile no archive.org (vol. 1 ou 2).",
+      "3. Preencher os campos de conferencia.",
+      "4. Executar regressao textual, filologica e funcional.",
+      "5. Marcar estado final e registrar PR."
+    ]
+  }
+}

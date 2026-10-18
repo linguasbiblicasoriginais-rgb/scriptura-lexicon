@@ -1,0 +1,6 @@
+[build]
+  command = "node --max-old-space-size=4096 scripts/build-on-demand.mjs"
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "22"

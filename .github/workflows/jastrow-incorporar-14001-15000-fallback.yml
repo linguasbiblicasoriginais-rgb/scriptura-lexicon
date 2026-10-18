@@ -1,0 +1,32 @@
+name: JASTROW - incorporar fonte 14001 a 15000 (fallback fiel)
+on:
+  push:
+    branches: [chat-gpt-jastrow]
+    paths: [".github/workflows/jastrow-incorporar-14001-15000-fallback.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  incorporar:
+    name: Incorporacao editorial exclusiva sem auditoria nem integracao
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-jastrow
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Publicar 1000 entradas a partir das fontes originais
+        run: python tools/jastrow_incorporate_14001_15000_source_fallback.py
+      - name: Persistir somente modulos, indice e checkpoint JASTROW
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexicons/jastrow-14*.js lexicons/jastrow-progress.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "JASTROW: incorporar 1000 verbetes 14001–15000 com ingles original marcado, sem auditoria nem integracao"
+            git push origin HEAD:chat-gpt-jastrow
+          fi

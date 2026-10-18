@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-11",
+  "scope": "JASTROW module 1-140, selected 100 originals for batch 002",
+  "source_unchanged": true,
+  "tests": {
+    "js_modules_syntax": [
+      {
+        "path": "lexicons/jastrow.js",
+        "syntax": true
+      },
+      {
+        "path": "lexicons/jastrow-011-040.js",
+        "syntax": true
+      },
+      {
+        "path": "lexicons/jastrow-041-080.js",
+        "syntax": true
+      },
+      {
+        "path": "lexicons/jastrow-081-110.js",
+        "syntax": true
+      },
+      {
+        "path": "lexicons/jastrow-111-140.js",
+        "syntax": true
+      }
+    ],
+    "loaded_rows": 140,
+    "loaded_cards": 140,
+    "unique_rows": true,
+    "unique_cards": true,
+    "paired_id_targets": true,
+    "all_100_selected_present": true,
+    "selected_distinct": 100,
+    "original_source_reference_count": 100,
+    "corrected_records": 28,
+    "pending_records": 0,
+    "all_100_source_sha256_present": true
+  },
+  "excluded_tests": [
+    "DOM real in browser",
+    "RTL and keyboard interaction",
+    "independent rabbinic manuscript collation",
+    "facsimile type setting"
+  ],
+  "status": "static checks passed",
+  "module_blobs": {
+    "lexicons/jastrow-011-040.js": "0b1bef280efa2e40bb05ca559dd0cbab436e753b",
+    "lexicons/jastrow-041-080.js": "4b54d5c6853ad5af7c4c8f1b4f6dd44664fdd6ff",
+    "lexicons/jastrow-081-110.js": "38f0f3a85ff54f594d7eb29931de9fe533d780fb",
+    "lexicons/jastrow-111-140.js": "233f7a50d67404abfd69419dcfe51dc92635eed4"
+  }
+}

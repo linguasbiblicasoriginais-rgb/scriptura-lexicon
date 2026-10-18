@@ -1,0 +1,513 @@
+{
+  "batch": "005",
+  "part": "02",
+  "records": [
+    {
+      "id": "A00394",
+      "ordinal": 395,
+      "lemma": "אדיא",
+      "source_xml": "<entry id=\"A00394\">\n<head-word>אדיא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Maasr. I, 49\n<sup>b</sup>, prob. אֻרְזָא or אוּרְזָא; v. Y. Sabb. III, 6\n<sup>b</sup> top.</notes></sense></senses></entry>\n",
+      "source_sha256": "4b8e73546c46a083f9a95d92675c505353ba55f347610f2f097325e5aca99e02",
+      "source_headwords": [
+        "אדיא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> Y. Maasr. I, 49\n<sup>b</sup>, prob. אֻרְזָא or אוּרְזָא; v. Y. Sabb. III, 6\n<sup>b</sup> top.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Forma em Jerusalém Maaserot 1, 49b que Jastrow considera provavelmente <bdi lang='he' dir='rtl'>אֻרְזָא / אוּרְזָא</bdi>; comparar Jerusalém Shabbat 3, 6b. A correção é hipótese editorial.",
+      "html_after": "Forma em Jerusalém Maaserot 1, 49b que Jastrow considera provavelmente <bdi lang='he' dir='rtl'>אֻרְזָא / אוּרְזָא</bdi>; comparar Jerusalém Shabbat 3, 6b. A correção é hipótese editorial.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00395",
+      "ordinal": 396,
+      "lemma": "אדיבון",
+      "source_xml": "<entry id=\"A00395\">\n<head-word>אדיבון</head-word>\n<senses>\n<sense>\n<definition />\n<notes> read אִימִירֹון.</notes></sense></senses></entry>\n",
+      "source_sha256": "5290b852fe5ed5bfd34f47d8011428861570531545d6bb4413780bb207e096c7",
+      "source_headwords": [
+        "אדיבון"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> read אִימִירֹון.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Jastrow recomenda ler <bdi lang='he' dir='rtl'>אִימִירֹון</bdi>.",
+      "html_after": "Jastrow recomenda ler <bdi lang='he' dir='rtl'>אִימִירֹון</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00396",
+      "ordinal": 397,
+      "lemma": "אַדָּיוּתָא",
+      "source_xml": "<entry id=\"A00396\">\n<head-word>אַדָּיוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (נדי = h. הַזָּאָה) \n<italic>sprinkling</italic> (for purification).</definition>\n<notes> Targ. Num. XIX, 13 (Var. אַדְיוּתָא; h. text נִדָּה!). Targ. Ezek. XXXVI, 25 אַדְיוּתָא.</notes></sense></senses></entry>\n",
+      "source_sha256": "5b010109653d57955f874cc3612e7c95df165122965937e19bceacf5e674eae2",
+      "source_headwords": [
+        "אַדָּיוּתָא"
+      ],
+      "source_senses": [
+        "\n<definition> (נדי = h. הַזָּאָה) \n<italic>sprinkling</italic> (for purification).</definition>\n<notes> Targ. Num. XIX, 13 (Var. אַדְיוּתָא; h. text נִדָּה!). Targ. Ezek. XXXVI, 25 אַדְיוּתָא.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Derivado, na análise da fonte, da ideia de aspergir, com correspondência ao hebraico <bdi lang='he' dir='rtl'>הַזָּאָה</bdi>. Targum Números 19.13, variante <bdi lang='he' dir='rtl'>אַדְיוּתָא</bdi>; Targum Ezequiel 36.25. O texto hebraico usa <bdi lang='he' dir='rtl'>נִדָּה</bdi> em Números 19.13.",
+      "html_after": "Derivado, na análise da fonte, da ideia de aspergir, com correspondência ao hebraico <bdi lang='he' dir='rtl'>הַזָּאָה</bdi>. Targum Números 19.13, variante <bdi lang='he' dir='rtl'>אַדְיוּתָא</bdi>; Targum Ezequiel 36.25. O texto hebraico usa <bdi lang='he' dir='rtl'>נִדָּה</bdi> em Números 19.13. <strong>Aparato filológico — lote 005:</strong> <strong>Contexto ritual e leituras:</strong> <bdi lang='he' dir='rtl'>אַדָּיוּתָא</bdi>, feminino, é «aspersão» para purificação, relacionado pelo autor a <bdi lang='he' dir='rtl'>נדי</bdi> e comparado ao hebraico <bdi lang='he' dir='rtl'>הַזָּאָה</bdi>. Targum Números 19.13 apresenta a variante <bdi lang='he' dir='rtl'>אַדְיוּתָא</bdi>, num trecho cujo hebraico tem <bdi lang='he' dir='rtl'>נִדָּה</bdi>, diferença assinalada pelo lexicógrafo; Targum Ezequiel 36.25 igualmente apresenta <bdi lang='he' dir='rtl'>אַדְיוּתָא</bdi>. Não confundir aspersão ritual com outra acepção independente de <bdi lang='he' dir='rtl'>נִדָּה</bdi>.",
+      "result": "C",
+      "decision": "<strong>Contexto ritual e leituras:</strong> <bdi lang='he' dir='rtl'>אַדָּיוּתָא</bdi>, feminino, é «aspersão» para purificação, relacionado pelo autor a <bdi lang='he' dir='rtl'>נדי</bdi> e comparado ao hebraico <bdi lang='he' dir='rtl'>הַזָּאָה</bdi>. Targum Números 19.13 apresenta a variante <bdi lang='he' dir='rtl'>אַדְיוּתָא</bdi>, num trecho cujo hebraico tem <bdi lang='he' dir='rtl'>נִדָּה</bdi>, diferença assinalada pelo lexicógrafo; Targum Ezequiel 36.25 igualmente apresenta <bdi lang='he' dir='rtl'>אַדְיוּתָא</bdi>. Não confundir aspersão ritual com outra acepção independente de <bdi lang='he' dir='rtl'>נִדָּה</bdi>.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00398",
+      "ordinal": 399,
+      "lemma": "אֲדִיל",
+      "source_xml": "<entry id=\"A00398\">\n<head-word>אֲדִיל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00414\">אֲדַל</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "1c306f73af93bbe71d6e8afcb020064f1bb8dd6168849a9638a9193e8dd503ab",
+      "source_headwords": [
+        "אֲדִיל"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00414\">אֲדַל</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00414"
+      ],
+      "html_before": "Forma remetida a <bdi lang='he' dir='rtl'>אֲדַל</bdi>.",
+      "html_after": "Forma remetida a <bdi lang='he' dir='rtl'>אֲדַל</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00399",
+      "ordinal": 400,
+      "lemma": "אַדִּילֵי",
+      "source_xml": "<entry id=\"A00399\">\n<head-word>אַדִּילֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m. pl., dialect. for אַרְזִילֵי. B. Bath. 74\n<sup>b</sup>, v. \n<xref rid=\"A00870\">אוּרְזִילָא</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "76e6df6a07a13e2da2bd42ea3fee8788ac4a31187876570daba0d9db47fc9ef1",
+      "source_headwords": [
+        "אַדִּילֵי"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes> m. pl., dialect. for אַרְזִילֵי. B. Bath. 74\n<sup>b</sup>, v. \n<xref rid=\"A00870\">אוּרְזִילָא</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00870"
+      ],
+      "html_before": "Forma dialetal de <bdi lang='he' dir='rtl'>אַרְזִילֵי</bdi>, atestada em Bava Batra 74b; comparar <bdi lang='he' dir='rtl'>אוּרְזִילָא</bdi>.",
+      "html_after": "Forma dialetal de <bdi lang='he' dir='rtl'>אַרְזִילֵי</bdi>, atestada em Bava Batra 74b; comparar <bdi lang='he' dir='rtl'>אוּרְזִילָא</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00400",
+      "ordinal": 401,
+      "lemma": "אֲדִימָּא",
+      "source_xml": "<entry id=\"A00400\">\n<head-word>אֲדִימָּא</head-word>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= h. אָדֹום) \n<italic>red, full of sap, fresh</italic>.</definition>\n<notes> Bets. 24\n<sup>b</sup>, Rashi; v. however, הֲדַם.</notes></sense></senses></entry>\n",
+      "source_sha256": "9a275eb9977454615702236f5e6d238c5278e5654ce086e046a30533ecf5e3c6",
+      "source_headwords": [
+        "אֲדִימָּא"
+      ],
+      "source_senses": [
+        "\n<definition>(= h. אָדֹום) \n<italic>red, full of sap, fresh</italic>.</definition>\n<notes> Bets. 24\n<sup>b</sup>, Rashi; v. however, הֲדַם.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Equivalente aramaico do hebraico <bdi lang='he' dir='rtl'>אָדֹום</bdi>: vermelho e, por extensão, cheio de seiva, fresco. Beitzá 24b, interpretação de Rashi; Jastrow remete também a <bdi lang='he' dir='rtl'>הֲדַם</bdi> para comparação ou ressalva.",
+      "html_after": "Equivalente aramaico do hebraico <bdi lang='he' dir='rtl'>אָדֹום</bdi>: vermelho e, por extensão, cheio de seiva, fresco. Beitzá 24b, interpretação de Rashi; Jastrow remete também a <bdi lang='he' dir='rtl'>הֲדַם</bdi> para comparação ou ressalva.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00401",
+      "ordinal": 402,
+      "lemma": "אֱדַיִן",
+      "source_xml": "<entry id=\"A00401\">\n<head-word>אֱדַיִן</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= h. אֲזַי, אָז; √ד־ = h. ז־) \n<italic>at that time, thereupon.</italic></definition>\n<notes> Dan. II, 15; 17; 19.—בֵּאדַ' \n<italic>at the same time, forthwith</italic>. Ibid. 14; 35.—מן א' \n<italic>from that time.</italic> Ezra V, 16.</notes></sense></senses></entry>\n",
+      "source_sha256": "2e0208baf52d912d711c7dc730c8777f14622021220034107617f5843434b160",
+      "source_headwords": [
+        "אֱדַיִן"
+      ],
+      "source_senses": [
+        "\n<definition>(= h. אֲזַי, אָז; √ד־ = h. ז־) \n<italic>at that time, thereupon.</italic></definition>\n<notes> Dan. II, 15; 17; 19.—בֵּאדַ' \n<italic>at the same time, forthwith</italic>. Ibid. 14; 35.—מן א' \n<italic>from that time.</italic> Ezra V, 16.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Equivalente a “então, naquele momento”, em Daniel 2.15,17,19. <bdi lang='he' dir='rtl'>בֵּאדַיִן</bdi>: naquele instante, imediatamente (Dn 2.14,35); <bdi lang='he' dir='rtl'>מן אֱדַיִן</bdi>: desde então (Esdras 5.16). Jastrow compara o hebraico <bdi lang='he' dir='rtl'>אֲזַי, אָז</bdi>.",
+      "html_after": "Equivalente a “então, naquele momento”, em Daniel 2.15,17,19. <bdi lang='he' dir='rtl'>בֵּאדַיִן</bdi>: naquele instante, imediatamente (Dn 2.14,35); <bdi lang='he' dir='rtl'>מן אֱדַיִן</bdi>: desde então (Esdras 5.16). Jastrow compara o hebraico <bdi lang='he' dir='rtl'>אֲזַי, אָז</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00402",
+      "ordinal": 403,
+      "lemma": "אֲדִינַיָּא",
+      "source_xml": "<entry id=\"A00402\">\n<head-word>אֲדִינַיָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00570\">אוּדְנָא III</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "4a2f071aae31d9ad383967ba62f908770e34e5cb052a5820864c4938f0f9e831",
+      "source_headwords": [
+        "אֲדִינַיָּא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00570\">אוּדְנָא III</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00570"
+      ],
+      "html_before": "Forma remetida a <bdi lang='he' dir='rtl'>אוּדְנָא</bdi>, terceira entrada homógrafa.",
+      "html_after": "Forma remetida a <bdi lang='he' dir='rtl'>אוּדְנָא</bdi>, terceira entrada homógrafa.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00403",
+      "ordinal": 404,
+      "lemma": "אֲדִיצוּתָא",
+      "source_xml": "<entry id=\"A00403\">\n<head-word>אֲדִיצוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00564\">אֹודִיצוּתָא</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "8c4008c625656f922acc57b23d6371e22d59787e218b8b93f501359a9dfd556e",
+      "source_headwords": [
+        "אֲדִיצוּתָא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00564\">אֹודִיצוּתָא</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00564"
+      ],
+      "html_before": "Forma remetida a <bdi lang='he' dir='rtl'>אֹודִיצוּתָא</bdi>.",
+      "html_after": "Forma remetida a <bdi lang='he' dir='rtl'>אֹודִיצוּתָא</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00404",
+      "ordinal": 405,
+      "lemma": "אֲדִיק,",
+      "source_xml": "<entry id=\"A00404\">\n<head-word>אֲדִיק, </head-word>\n<head-word>אֹודִיק</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"D00695\">דִּיק</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "9bb243609d0303e8c8078687822db17b8a9f13fbf473f3c8b11589dde9eb362b",
+      "source_headwords": [
+        "אֲדִיק, ",
+        "אֹודִיק"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"D00695\">דִּיק</xref></notes>"
+      ],
+      "source_xrefs": [
+        "D00695"
+      ],
+      "html_before": "Variantes <bdi lang='he' dir='rtl'>אֲדִיק, אֹודִיק</bdi> remetidas a <bdi lang='he' dir='rtl'>דִּיק</bdi>.",
+      "html_after": "Variantes <bdi lang='he' dir='rtl'>אֲדִיק, אֹודִיק</bdi> remetidas a <bdi lang='he' dir='rtl'>דִּיק</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00405",
+      "ordinal": 406,
+      "lemma": "אַדִּיר",
+      "source_xml": "<entry id=\"A00405\">\n<head-word>אַדִּיר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> אָדַר)</xref></language-reference>\n<senses>\n<sense>\n<definition> ; \n<italic>distinguished, glorious, mighty</italic>.</definition>\n<notes>—\n<plural-form>Pl. אַדִּירִים</plural-form>. Men. 53\n<sup>a</sup></notes></sense></senses></entry>\n",
+      "source_sha256": "980711ba227a32a7552e9f8b863f8c8845898b993e4586a2d0e71b55260d4723",
+      "source_headwords": [
+        "אַדִּיר"
+      ],
+      "source_senses": [
+        "\n<definition> ; \n<italic>distinguished, glorious, mighty</italic>.</definition>\n<notes>—\n<plural-form>Pl. אַדִּירִים</plural-form>. Men. 53\n<sup>a</sup></notes>"
+      ],
+      "source_xrefs": [
+        "A00083"
+      ],
+      "html_before": "Do hebraico bíblico, ilustre, forte, majestoso ou glorioso. Plural <bdi lang='he' dir='rtl'>אַדִּירִים</bdi>. Menahot 53a.",
+      "html_after": "Do hebraico bíblico, ilustre, forte, majestoso ou glorioso. Plural <bdi lang='he' dir='rtl'>אַדִּירִים</bdi>. Menahot 53a.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00406",
+      "ordinal": 407,
+      "lemma": "אַדִּיר,",
+      "source_xml": "<entry id=\"A00406\">\n<head-word>אַדִּיר, </head-word>\n<head-word>אַדִּירָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. O. Ex. XV, 6; a. fr.</notes></sense></senses></entry>\n",
+      "source_sha256": "530a33c2d6438b39e909e2ca805193c4b8ff993756ba506c25abedcf995eb57a",
+      "source_headwords": [
+        "אַדִּיר, ",
+        "אַדִּירָא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>Targ. O. Ex. XV, 6; a. fr.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Equivalente aramaico ao hebraico <bdi lang='he' dir='rtl'>אַדִּיר</bdi>, com variante <bdi lang='he' dir='rtl'>אַדִּירָא</bdi>. Targum Onkelos Êxodo 15.6 e outras ocorrências.",
+      "html_after": "Equivalente aramaico ao hebraico <bdi lang='he' dir='rtl'>אַדִּיר</bdi>, com variante <bdi lang='he' dir='rtl'>אַדִּירָא</bdi>. Targum Onkelos Êxodo 15.6 e outras ocorrências.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00408",
+      "ordinal": 409,
+      "lemma": "אָדֵישׁ",
+      "source_xml": "<entry id=\"A00408\">\n<head-word>אָדֵישׁ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"D00389\">דּוּשׁ</xref> ch.</notes></sense></senses></entry>\n",
+      "source_sha256": "13bce7292eaa6e81adaa5f02843591703f8f0b55a3218dfda8658a07a38209ae",
+      "source_headwords": [
+        "אָדֵישׁ"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"D00389\">דּוּשׁ</xref> ch.</notes>"
+      ],
+      "source_xrefs": [
+        "D00389"
+      ],
+      "html_before": "Forma remetida ao verbo aramaico <bdi lang='he' dir='rtl'>דּוּשׁ</bdi>.",
+      "html_after": "Forma remetida ao verbo aramaico <bdi lang='he' dir='rtl'>דּוּשׁ</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00409",
+      "ordinal": 410,
+      "lemma": "אד\"ך",
+      "source_xml": "<entry id=\"A00409\">\n<head-word>אד\"ך</head-word>\n<senses>\n<sense>\n<definition>\n<italic>Adakh</italic>, substitute of תקל (Dan. V, 25) by permutation of letters called א\"תב\"ש q. v. Snh. 22\n<sup>a</sup>.</definition>\n<notes> Cant. R. to III, 4 אנם (corr. acc.).</notes></sense></senses></entry>\n",
+      "source_sha256": "1ea8ae19591890cc1cb8952da3a5c5d1759f83050ed5414c35dd781422cdadf9",
+      "source_headwords": [
+        "אד\"ך"
+      ],
+      "source_senses": [
+        "\n<definition>\n<italic>Adakh</italic>, substitute of תקל (Dan. V, 25) by permutation of letters called א\"תב\"ש q. v. Snh. 22\n<sup>a</sup>.</definition>\n<notes> Cant. R. to III, 4 אנם (corr. acc.).</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "<bdi lang='he' dir='rtl'>אד״ך</bdi>, leitura **Adakh**, obtida como substituto de <bdi lang='he' dir='rtl'>תקל</bdi> de Daniel 5.25 por permutação de letras designada <bdi lang='he' dir='rtl'>א״תב״ש</bdi> (*atbash*). Sanhedrin 22a; Cântico dos Cânticos Rabá 3.4 traz leitura <bdi lang='he' dir='rtl'>אנם</bdi> que a fonte recomenda corrigir.",
+      "html_after": "<bdi lang='he' dir='rtl'>אד״ך</bdi>, leitura **Adakh**, obtida como substituto de <bdi lang='he' dir='rtl'>תקל</bdi> de Daniel 5.25 por permutação de letras designada <bdi lang='he' dir='rtl'>א״תב״ש</bdi> (*atbash*). Sanhedrin 22a; Cântico dos Cânticos Rabá 3.4 traz leitura <bdi lang='he' dir='rtl'>אנם</bdi> que a fonte recomenda corrigir.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-386-410.js"
+    },
+    {
+      "id": "A00410",
+      "ordinal": 411,
+      "lemma": "אדכי",
+      "source_xml": "<entry id=\"A00410\">\n<head-word>אדכי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00848\">אוּרְבָּא</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "93767da0c56113b5d753be4780ae857e32e296abb1f502f13353dd843d56c0c2",
+      "source_headwords": [
+        "אדכי"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00848\">אוּרְבָּא</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00848"
+      ],
+      "html_before": "Entrada remissiva para <bdi dir='rtl' lang='he'>אוּרְבָּא</bdi>; Jastrow não fornece definição autônoma aqui.",
+      "html_after": "Entrada remissiva para <bdi dir='rtl' lang='he'>אוּרְבָּא</bdi>; Jastrow não fornece definição autônoma aqui.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00413",
+      "ordinal": 414,
+      "lemma": "אַדְכַּרְתָּא",
+      "source_xml": "<entry id=\"A00413\">\n<head-word>אַדְכַּרְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00411\">אַדְכָּרָה</xref></notes></sense></senses></entry>\n",
+      "source_sha256": "d88d6f1f27d53e9c26fbb01eddec83ebcc20c6c715527b1b919dbd80d4850ac8",
+      "source_headwords": [
+        "אַדְכַּרְתָּא"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"A00411\">אַדְכָּרָה</xref></notes>"
+      ],
+      "source_xrefs": [
+        "A00411"
+      ],
+      "html_before": "Variante remetida ao vocábulo <bdi dir='rtl' lang='he'>אַדְכָּרָה</bdi>, “menção, invocação, oferta memorial”.",
+      "html_after": "Variante remetida ao vocábulo <bdi dir='rtl' lang='he'>אַדְכָּרָה</bdi>, “menção, invocação, oferta memorial”.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00415",
+      "ordinal": 416,
+      "lemma": "אַדְלָקָה",
+      "source_xml": "<entry id=\"A00415\">\n<head-word>אַדְלָקָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= הַדְלָקָה) \n<italic>lighting.</italic></definition>\n<notes>\n<plural-form>Pl. אַדְלָקֹות</plural-form>. Y. Shebi. VII, beg. 37\n<sup>b</sup> מיני א' sorts of plants used for lighting purposes.</notes></sense></senses></entry>\n",
+      "source_sha256": "2da8137629189aae5521dade98f7025063541470c29ad3878c954745c021933b",
+      "source_headwords": [
+        "אַדְלָקָה"
+      ],
+      "source_senses": [
+        "\n<definition> (= הַדְלָקָה) \n<italic>lighting.</italic></definition>\n<notes>\n<plural-form>Pl. אַדְלָקֹות</plural-form>. Y. Shebi. VII, beg. 37\n<sup>b</sup> מיני א' sorts of plants used for lighting purposes.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Acender ou iluminar; equivalente de <bdi dir='rtl' lang='he'>הַדְלָקָה</bdi>. Plural <bdi dir='rtl' lang='he'>אַדְלָקֹות</bdi>. Jerusalém Sheviit 7, 37b: variedades de plantas utilizadas para iluminação.",
+      "html_after": "Acender ou iluminar; equivalente de <bdi dir='rtl' lang='he'>הַדְלָקָה</bdi>. Plural <bdi dir='rtl' lang='he'>אַדְלָקֹות</bdi>. Jerusalém Sheviit 7, 37b: variedades de plantas utilizadas para iluminação.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00416",
+      "ordinal": 417,
+      "lemma": "אֲדַם",
+      "source_xml": "<entry id=\"A00416\">\n<head-word>אֲדַם</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"E00131\">הֲדַם</xref>. [v. Rabb. D. S. to Ab. Zar. 38\n<sup>b</sup>, Bets. 24\n<sup>b</sup>, note.]</notes></sense></senses></entry>\n",
+      "source_sha256": "281a1399c9c0e8006034e8101e75b97665fa4559d95181e714c46fc3b271721d",
+      "source_headwords": [
+        "אֲדַם"
+      ],
+      "source_senses": [
+        "\n<definition />\n<notes>, v. \n<xref rid=\"E00131\">הֲדַם</xref>. [v. Rabb. D. S. to Ab. Zar. 38\n<sup>b</sup>, Bets. 24\n<sup>b</sup>, note.]</notes>"
+      ],
+      "source_xrefs": [
+        "E00131"
+      ],
+      "html_before": "Remete a <bdi dir='rtl' lang='he'>הֲדַם</bdi>; Jastrow indica discussão das leituras em Avodah Zarah 38b e Beitzá 24b nas notas de <i>Rabb. D. S.</i>.",
+      "html_after": "Remete a <bdi dir='rtl' lang='he'>הֲדַם</bdi>; Jastrow indica discussão das leituras em Avodah Zarah 38b e Beitzá 24b nas notas de <i>Rabb. D. S.</i>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00417",
+      "ordinal": 418,
+      "lemma": "אָדַם",
+      "source_xml": "<entry id=\"A00417\">\n<head-word>אָדַם</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √דם</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"D00903\">דמם</xref>) [\n<italic>to be viscous, thick, dark</italic>] \n<italic>to be red, grow red</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>אִדֵּם</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to redden, make red</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>c</sup> top המְאַדֵּם אודם he who produces a red spot (congestion of blood, on a Sabbath).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֶאֱדִים</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (b. h.) (b. h.) \n<italic>to be, grow red</italic>.</definition>\n<notes> Num. R. s. 9 (p. 231\n<sup>b</sup> ed. Amst.) מַאֲדֶמֶת (היתה) if she was red-faced. Ḥull. 53\n<sup>b</sup>; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to cause to blush, put to shame</italic> (usu. הלבין).</definition>\n<notes> Num. R. s. 4 (p. 218\n<sup>d</sup> ed. Amst.) (play on עובד אדום).—\n<italic>Part.</italic> מַאֲדִים \n<italic>the planet Mars</italic>. Sabb. 156\n<sup>a</sup>.—\n<italic>Part. Hof</italic>. מְאָדָּם, מְאוּדָּם. Y. Sabb. VII, 10\n<sup>c</sup> top מְאָדָּמִים dyed red.</notes></sense></senses></binyan></entry>\n",
+      "source_sha256": "54fdbada44adc8349f2903aa25f7a305b157b886a456dc545fc48aa36ba78d77",
+      "source_headwords": [
+        "אָדַם"
+      ],
+      "source_senses": [
+        "\n<definition> , v. \n<xref rid=\"D00903\">דמם</xref>) [\n<italic>to be viscous, thick, dark</italic>] \n<italic>to be red, grow red</italic>.</definition>\n<notes />",
+        "\n<definition>\n<italic>to redden, make red</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>c</sup> top המְאַדֵּם אודם he who produces a red spot (congestion of blood, on a Sabbath).</notes>",
+        "\n<number>1)</number>\n<definition> (b. h.) (b. h.) \n<italic>to be, grow red</italic>.</definition>\n<notes> Num. R. s. 9 (p. 231\n<sup>b</sup> ed. Amst.) מַאֲדֶמֶת (היתה) if she was red-faced. Ḥull. 53\n<sup>b</sup>; a. fr.</notes>",
+        "\n<number>—2)</number>\n<definition>\n<italic>to cause to blush, put to shame</italic> (usu. הלבין).</definition>\n<notes> Num. R. s. 4 (p. 218\n<sup>d</sup> ed. Amst.) (play on עובד אדום).—\n<italic>Part.</italic> מַאֲדִים \n<italic>the planet Mars</italic>. Sabb. 156\n<sup>a</sup>.—\n<italic>Part. Hof</italic>. מְאָדָּם, מְאוּדָּם. Y. Sabb. VII, 10\n<sup>c</sup> top מְאָדָּמִים dyed red.</notes>"
+      ],
+      "source_xrefs": [
+        "unknown",
+        "D00903"
+      ],
+      "html_before": "Tornar-se vermelho ou corar. <strong>Piel</strong> <bdi dir='rtl' lang='he'>אִדֵּם</bdi>: avermelhar, produzir uma mancha vermelha (Jerusalém Shabbat 7, 10c: congestão sanguínea). <strong>Hifil</strong> <bdi dir='rtl' lang='he'>הֶאֱדִים</bdi>: ficar vermelho (Números Rabá 9) ou levar alguém a corar de vergonha (Números Rabá 4, com jogo de palavras). O particípio <bdi dir='rtl' lang='he'>מַאֲדִים</bdi> designa Marte (Shabbat 156a). <strong>Hofal</strong> <bdi dir='rtl' lang='he'>מְאָדָּם / מְאוּדָּם</bdi>: tingido de vermelho (Jerusalém Shabbat 7, 10c).",
+      "html_after": "Tornar-se vermelho ou corar. <strong>Piel</strong> <bdi dir='rtl' lang='he'>אִדֵּם</bdi>: avermelhar, produzir uma mancha vermelha (Jerusalém Shabbat 7, 10c: congestão sanguínea). <strong>Hifil</strong> <bdi dir='rtl' lang='he'>הֶאֱדִים</bdi>: ficar vermelho (Números Rabá 9) ou levar alguém a corar de vergonha (Números Rabá 4, com jogo de palavras). O particípio <bdi dir='rtl' lang='he'>מַאֲדִים</bdi> designa Marte (Shabbat 156a). <strong>Hofal</strong> <bdi dir='rtl' lang='he'>מְאָדָּם / מְאוּדָּם</bdi>: tingido de vermelho (Jerusalém Shabbat 7, 10c). <strong>Aparato filológico — lote 005:</strong> <strong>Morfologia e variantes de edição:</strong> <bdi lang='he' dir='rtl'>אָדַם</bdi> significa «ficar vermelho»; a ideia radical anterior «viscoso, espesso, escuro» é proposta de Jastrow. <i>Piel</i> <bdi lang='he' dir='rtl'>אִדֵּם</bdi>, «tingir de vermelho», em Jerusalém Shabbat 7, 10c, <bdi lang='he' dir='rtl'>המְאַדֵּם אודם</bdi>, refere-se a produzir mancha/congestão sanguínea no sábado. <i>Hifil</i> <bdi lang='he' dir='rtl'>הֶאֱדִים</bdi> apresenta (1) ficar vermelho, Números Rabá §9, edição de Amsterdã p. 231b, <bdi lang='he' dir='rtl'>מַאֲדֶמֶת</bdi>, e Hulin 53b; (2) causar vergonha/vermelhidão, Números Rabá §4, p. 218d, por paronomásia de Obede-Edom, ainda que o verbo costumeiro seja <bdi lang='he' dir='rtl'>הלבין</bdi>. Particípio <bdi lang='he' dir='rtl'>מַאֲדִים</bdi> nomeia Marte (Shabbat 156a); particípio passivo <i>hofal</i> <bdi lang='he' dir='rtl'>מְאָדָּם, מְאוּדָּם</bdi>, «tingido de vermelho», Jerusalém Shabbat 7, 10c. A duplicação «(b. h.) (b. h.)» na extração XML não constitui segunda acepção.",
+      "result": "C",
+      "decision": "<strong>Morfologia e variantes de edição:</strong> <bdi lang='he' dir='rtl'>אָדַם</bdi> significa «ficar vermelho»; a ideia radical anterior «viscoso, espesso, escuro» é proposta de Jastrow. <i>Piel</i> <bdi lang='he' dir='rtl'>אִדֵּם</bdi>, «tingir de vermelho», em Jerusalém Shabbat 7, 10c, <bdi lang='he' dir='rtl'>המְאַדֵּם אודם</bdi>, refere-se a produzir mancha/congestão sanguínea no sábado. <i>Hifil</i> <bdi lang='he' dir='rtl'>הֶאֱדִים</bdi> apresenta (1) ficar vermelho, Números Rabá §9, edição de Amsterdã p. 231b, <bdi lang='he' dir='rtl'>מַאֲדֶמֶת</bdi>, e Hulin 53b; (2) causar vergonha/vermelhidão, Números Rabá §4, p. 218d, por paronomásia de Obede-Edom, ainda que o verbo costumeiro seja <bdi lang='he' dir='rtl'>הלבין</bdi>. Particípio <bdi lang='he' dir='rtl'>מַאֲדִים</bdi> nomeia Marte (Shabbat 156a); particípio passivo <i>hofal</i> <bdi lang='he' dir='rtl'>מְאָדָּם, מְאוּדָּם</bdi>, «tingido de vermelho», Jerusalém Shabbat 7, 10c. A duplicação «(b. h.) (b. h.)» na extração XML não constitui segunda acepção.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00418",
+      "ordinal": 419,
+      "lemma": "אָדָם",
+      "source_xml": "<entry id=\"A00418\">\n<head-word>אָדָם</head-word>\n<senses>\n<sense>\n<definition> m. (b. h.) \n<italic>man</italic>,\n<pos> pr. n. m.</pos>\n<italic>Adam</italic>, frequ.</definition>\n<notes> א' הראשון (abbr. אה\"ר). Gen. R. s. 17; a. fr.—ספרו של, ספרא דאה\"ר אה\"ר the (allegorical) book of Adam containing all generations and their leaders from beginning to resurrection, i.e. destinies of humanity. Ex. R. s. 40 beg. B. Mets. 85\n<sup>b</sup> bot.</notes></sense></senses></entry>\n",
+      "source_sha256": "3608dcdf0a69a3160507af46780658947eaaa7ae4eff21476d4dc4155814975f",
+      "source_headwords": [
+        "אָדָם"
+      ],
+      "source_senses": [
+        "\n<definition> m. (b. h.) \n<italic>man</italic>,\n<pos> pr. n. m.</pos>\n<italic>Adam</italic>, frequ.</definition>\n<notes> א' הראשון (abbr. אה\"ר). Gen. R. s. 17; a. fr.—ספרו של, ספרא דאה\"ר אה\"ר the (allegorical) book of Adam containing all generations and their leaders from beginning to resurrection, i.e. destinies of humanity. Ex. R. s. 40 beg. B. Mets. 85\n<sup>b</sup> bot.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "“Homem” e, como nome próprio, <strong>Adão</strong>. Expressão <bdi dir='rtl' lang='he'>אָדָם הראשון</bdi>: o primeiro Adão (abreviatura <bdi dir='rtl' lang='he'>אה״ר</bdi>). Gênesis Rabá 17. <bdi dir='rtl' lang='he'>ספרו של אדם הראשון</bdi>, o livro alegórico de Adão, abrange gerações e líderes até a ressurreição, representando os destinos da humanidade (Êxodo Rabá 40; Bava Metzia 85b).",
+      "html_after": "“Homem” e, como nome próprio, <strong>Adão</strong>. Expressão <bdi dir='rtl' lang='he'>אָדָם הראשון</bdi>: o primeiro Adão (abreviatura <bdi dir='rtl' lang='he'>אה״ר</bdi>). Gênesis Rabá 17. <bdi dir='rtl' lang='he'>ספרו של אדם הראשון</bdi>, o livro alegórico de Adão, abrange gerações e líderes até a ressurreição, representando os destinos da humanidade (Êxodo Rabá 40; Bava Metzia 85b). <strong>Aparato filológico — lote 005:</strong> <strong>Explicação das fórmulas e do livro alegórico:</strong> <bdi lang='he' dir='rtl'>אָדָם הראשון</bdi>, «o primeiro homem, Adão», é abreviado <bdi lang='he' dir='rtl'>אה״ר</bdi> (Gênesis Rabá §17). <bdi lang='he' dir='rtl'>ספרו של אדם הראשון</bdi> ou <bdi lang='he' dir='rtl'>ספרא דאה״ר</bdi> é o «livro de Adão», apresentado por Jastrow **alegoricamente** como registro de todas as gerações e líderes, desde a origem até a ressurreição, figurando os destinos humanos (Êxodo Rabá §40, início; Bava Metzia 85b, parte inferior). Não afirmar a existência documental de um livro autógrafo de Adão.",
+      "result": "C",
+      "decision": "<strong>Explicação das fórmulas e do livro alegórico:</strong> <bdi lang='he' dir='rtl'>אָדָם הראשון</bdi>, «o primeiro homem, Adão», é abreviado <bdi lang='he' dir='rtl'>אה״ר</bdi> (Gênesis Rabá §17). <bdi lang='he' dir='rtl'>ספרו של אדם הראשון</bdi> ou <bdi lang='he' dir='rtl'>ספרא דאה״ר</bdi> é o «livro de Adão», apresentado por Jastrow **alegoricamente** como registro de todas as gerações e líderes, desde a origem até a ressurreição, figurando os destinos humanos (Êxodo Rabá §40, início; Bava Metzia 85b, parte inferior). Não afirmar a existência documental de um livro autógrafo de Adão.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00419",
+      "ordinal": 420,
+      "lemma": "אֲדָם,",
+      "source_xml": "<entry id=\"A00419\">\n<head-word>אֲדָם, </head-word>\n<head-word>אַדְמָא, </head-word>\n<head-word>אִדְמָא</head-word>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= דָּם, דְּמָא) \n<italic>blood</italic>.</definition>\n<notes> Targ. I Chron. XXII, 7; a. e.—Y. Maas. Sh. V, 56\n<sup>d</sup> top מגבלא אַדְמֵיה to mix its (the bird’s) blood. Git. 47\n<sup>a</sup>; v. חוּל II. \n<plural-form>Pl. אַדְמִין</plural-form>. Targ. I Chr. l. c.; a. e.</notes></sense></senses></entry>\n",
+      "source_sha256": "0535ff05464247c4e7f688d8c3833be0cfb6d0e8324170da8474d79519eeb0ac",
+      "source_headwords": [
+        "אֲדָם, ",
+        "אַדְמָא, ",
+        "אִדְמָא"
+      ],
+      "source_senses": [
+        "\n<definition>(= דָּם, דְּמָא) \n<italic>blood</italic>.</definition>\n<notes> Targ. I Chron. XXII, 7; a. e.—Y. Maas. Sh. V, 56\n<sup>d</sup> top מגבלא אַדְמֵיה to mix its (the bird’s) blood. Git. 47\n<sup>a</sup>; v. חוּל II. \n<plural-form>Pl. אַדְמִין</plural-form>. Targ. I Chr. l. c.; a. e.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Variantes <bdi dir='rtl' lang='he'>אֲדָם, אַדְמָא, אִדְמָא</bdi>, equivalentes a <bdi dir='rtl' lang='he'>דָּם / דְּמָא</bdi>. Targum 1 Crônicas 22.7; Jerusalém Maaser Sheni 5, 56d: misturar o sangue de uma ave; Gitin 47a. Plural <bdi dir='rtl' lang='he'>אַדְמִין</bdi>, atestado nos Targumim.",
+      "html_after": "Variantes <bdi dir='rtl' lang='he'>אֲדָם, אַדְמָא, אִדְמָא</bdi>, equivalentes a <bdi dir='rtl' lang='he'>דָּם / דְּמָא</bdi>. Targum 1 Crônicas 22.7; Jerusalém Maaser Sheni 5, 56d: misturar o sangue de uma ave; Gitin 47a. Plural <bdi dir='rtl' lang='he'>אַדְמִין</bdi>, atestado nos Targumim.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00420",
+      "ordinal": 421,
+      "lemma": "אֲדַמְדָּם",
+      "source_xml": "<entry id=\"A00420\">\n<head-word>אֲדַמְדָּם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>reddish</italic>.</definition>\n<notes> Y. Succ. III, 53\n<sup>d</sup> איזהו א' שׁבאדומים which of the red colors is called \n<italic>adamdam?</italic>—Shebu. 6\n<sup>a</sup>\n<italic>reddish leprosy</italic> (Lev. XIII, 42); a. e.</notes></sense></senses></entry>\n",
+      "source_sha256": "e4912d01551acde07d58efcfc059b5cc129a8ac2c254eb0da38fd059e0d4f624",
+      "source_headwords": [
+        "אֲדַמְדָּם"
+      ],
+      "source_senses": [
+        "\n<definition> (b. h.) \n<italic>reddish</italic>.</definition>\n<notes> Y. Succ. III, 53\n<sup>d</sup> איזהו א' שׁבאדומים which of the red colors is called \n<italic>adamdam?</italic>—Shebu. 6\n<sup>a</sup>\n<italic>reddish leprosy</italic> (Lev. XIII, 42); a. e.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Vermelho em tonalidade atenuada ou avermelhada. Jerusalém Sucá 3, 53d pergunta que matiz de vermelho recebe tal denominação; Shevuot 6a aplica-o à descoloração avermelhada associada à doença descrita em Levítico 13.42.",
+      "html_after": "Vermelho em tonalidade atenuada ou avermelhada. Jerusalém Sucá 3, 53d pergunta que matiz de vermelho recebe tal denominação; Shevuot 6a aplica-o à descoloração avermelhada associada à doença descrita em Levítico 13.42.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00421",
+      "ordinal": 422,
+      "lemma": "אֲדַמְדְּמָנֵי",
+      "source_xml": "<entry id=\"A00421\">\n<head-word>אֲדַמְדְּמָנֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (דמם) \n<italic>lumps of dripping grapes</italic>.</definition>\n<notes> Gen. R. s. 34, end אנא גבלין ליה א' we make for it a dough of &amp;c., v. דַבְדְּבָנִיֹּות, דַּמְדְּמָנִיֹּות.</notes></sense></senses></entry>\n",
+      "source_sha256": "353a74c16bcda2a90a882a0a35473be62a115bbe4f6bc2167b2e1251dcb5977a",
+      "source_headwords": [
+        "אֲדַמְדְּמָנֵי"
+      ],
+      "source_senses": [
+        "\n<definition> (דמם) \n<italic>lumps of dripping grapes</italic>.</definition>\n<notes> Gen. R. s. 34, end אנא גבלין ליה א' we make for it a dough of &amp;c., v. דַבְדְּבָנִיֹּות, דַּמְדְּמָנִיֹּות.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Aglomerados de uvas que pingam sumo. Gênesis Rabá 34: preparar uma massa com tais aglomerados. Comparar <bdi dir='rtl' lang='he'>דַבְדְּבָנִיֹּות</bdi> e <bdi dir='rtl' lang='he'>דַּמְדְּמָנִיֹּות</bdi>; a etimologia sugerida relaciona-se a <bdi dir='rtl' lang='he'>דמם</bdi>.",
+      "html_after": "Aglomerados de uvas que pingam sumo. Gênesis Rabá 34: preparar uma massa com tais aglomerados. Comparar <bdi dir='rtl' lang='he'>דַבְדְּבָנִיֹּות</bdi> e <bdi dir='rtl' lang='he'>דַּמְדְּמָנִיֹּות</bdi>; a etimologia sugerida relaciona-se a <bdi dir='rtl' lang='he'>דמם</bdi>.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00422",
+      "ordinal": 423,
+      "lemma": "אֲדָמָה",
+      "source_xml": "<entry id=\"A00422\">\n<head-word>אֲדָמָה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.,</language-key>\n<language-reference>\n<xref rid=\"D00903\"> prob. fr. דמם</xref></language-reference>\n<senses>\n<sense>\n<definition> , cmp. foreg.; \n<italic>thick and moist</italic>) [earth], \n<italic>clay</italic>.</definition>\n<notes> Gen. R. s. 14 the potter takes sand (עפר) which is male (masc. gender) and clay (אדמה) which is female (fem. gender).—Sabb. VIII, 5 א' כחותם וכ' as much clay as is required for a seal on bag-knots. [For the meaning of the phonetic equivalents of our w. in other Semit. tongues, v. Ges. H. Dict. s. v.]</notes></sense></senses></entry>\n",
+      "source_sha256": "17d78fecf936440364cb913a5e997f92bc28a00ad44cae7932de23ea31b6f428",
+      "source_headwords": [
+        "אֲדָמָה"
+      ],
+      "source_senses": [
+        "\n<definition> , cmp. foreg.; \n<italic>thick and moist</italic>) [earth], \n<italic>clay</italic>.</definition>\n<notes> Gen. R. s. 14 the potter takes sand (עפר) which is male (masc. gender) and clay (אדמה) which is female (fem. gender).—Sabb. VIII, 5 א' כחותם וכ' as much clay as is required for a seal on bag-knots. [For the meaning of the phonetic equivalents of our w. in other Semit. tongues, v. Ges. H. Dict. s. v.]</notes>"
+      ],
+      "source_xrefs": [
+        "D00903"
+      ],
+      "html_before": "Solo ou, especialmente neste uso, argila/barro. Gênesis Rabá 14 contrapõe <bdi dir='rtl' lang='he'>עָפָר</bdi> (areia/pó, gramaticalmente masculino) a <bdi dir='rtl' lang='he'>אֲדָמָה</bdi> (argila, feminino) na atividade do oleiro. Shabbat 8.5: porção de argila suficiente para selar o nó de um saco. Etimologia ligada a umidade/espessura apresentada por Jastrow como provável.",
+      "html_after": "Solo ou, especialmente neste uso, argila/barro. Gênesis Rabá 14 contrapõe <bdi dir='rtl' lang='he'>עָפָר</bdi> (areia/pó, gramaticalmente masculino) a <bdi dir='rtl' lang='he'>אֲדָמָה</bdi> (argila, feminino) na atividade do oleiro. Shabbat 8.5: porção de argila suficiente para selar o nó de um saco. Etimologia ligada a umidade/espessura apresentada por Jastrow como provável. <strong>Aparato filológico — lote 005:</strong> <strong>Separação da glosa e do comentário:</strong> Jastrow privilegia para <bdi lang='he' dir='rtl'>אֲדָמָה</bdi> «argila» no uso rabínico, sem apagar o sentido geral «terra». Em Gênesis Rabá §14, o oleiro utiliza <bdi lang='he' dir='rtl'>עפר</bdi> (areia/pó, gramaticalmente masculino) e <bdi lang='he' dir='rtl'>אדמה</bdi> (barro, gramaticalmente feminino). Shabbat 8.5 quantifica a argila necessária para selar os nós de um saco. A hipótese que relaciona o termo a «úmido e espesso» ou <bdi lang='he' dir='rtl'>דמם</bdi> é marcada como **provável** por Jastrow, com remissão a Gesenius para comparação semítica; não é tradução da acepção.",
+      "result": "C",
+      "decision": "<strong>Separação da glosa e do comentário:</strong> Jastrow privilegia para <bdi lang='he' dir='rtl'>אֲדָמָה</bdi> «argila» no uso rabínico, sem apagar o sentido geral «terra». Em Gênesis Rabá §14, o oleiro utiliza <bdi lang='he' dir='rtl'>עפר</bdi> (areia/pó, gramaticalmente masculino) e <bdi lang='he' dir='rtl'>אדמה</bdi> (barro, gramaticalmente feminino). Shabbat 8.5 quantifica a argila necessária para selar os nós de um saco. A hipótese que relaciona o termo a «úmido e espesso» ou <bdi lang='he' dir='rtl'>דמם</bdi> é marcada como **provável** por Jastrow, com remissão a Gesenius para comparação semítica; não é tradução da acepção.",
+      "module": "lexicons/jastrow-411-435.js"
+    },
+    {
+      "id": "A00423",
+      "ordinal": 424,
+      "lemma": "אַדְמוּמִית",
+      "source_xml": "<entry id=\"A00423\">\n<head-word>אַדְמוּמִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (אדם) \n<italic>redness</italic>.</definition>\n<notes> Ḥull. 87\n<sup>b</sup>, a. e. מראה א' reddish color.</notes></sense></senses></entry>\n",
+      "source_sha256": "57e25bc9754cc7306ea9c4d283c28d4ac37594caf83d5614b4d6ebf112f9626b",
+      "source_headwords": [
+        "אַדְמוּמִית"
+      ],
+      "source_senses": [
+        "\n<definition> (אדם) \n<italic>redness</italic>.</definition>\n<notes> Ḥull. 87\n<sup>b</sup>, a. e. מראה א' reddish color.</notes>"
+      ],
+      "source_xrefs": [],
+      "html_before": "Vermelhidão, especialmente expressão <bdi dir='rtl' lang='he'>מראה אדמומית</bdi>, aparência avermelhada. Hulin 87b e paralelos.",
+      "html_after": "Vermelhidão, especialmente expressão <bdi dir='rtl' lang='he'>מראה אדמומית</bdi>, aparência avermelhada. Hulin 87b e paralelos.",
+      "result": "A",
+      "decision": "Fonte confrontada integralmente com o cartão; acepções e remissões preservadas sem divergência material demonstrada.",
+      "module": "lexicons/jastrow-411-435.js"
+    }
+  ]
+}

@@ -1,0 +1,862 @@
+{
+  "lote": 2,
+  "inicio": 101,
+  "fim": 200,
+  "primeiro_id": "A00100",
+  "ultimo_id": "A00199",
+  "tipo": "Exame linguístico de glosas e redação editorial, confrontadas com o Jastrow original",
+  "metodologia": "Leitura dos 100 registros, das glosas e do texto HTML publicado, confronto com os trechos de definição e notas preservados do XML. Termos gregos/hebraicos, nomes próprios e referências bibliográficas não são automaticamente erros de tradução.",
+  "contagens": {
+    "verbetes_examinados": 100,
+    "glosas_com_definicoes_inteiramente_em_ingles": 0,
+    "ingles_residual_confirmado_em_notas": 3,
+    "problemas_de_traducao_confirmados": 3,
+    "equivalencias_semanticas_exaustivas_certificadas": 0,
+    "problemas_de_traducao_acumulados_lotes_1_2": 3
+  },
+  "ocorrencias": [
+    {
+      "sid": "A00105",
+      "ordinal": 106,
+      "classe": "ingles_residual_em_nota_editorial",
+      "trecho": "chief justice",
+      "explicacao": "A forma inglesa aparece em itálico, embora 'juiz principal' e 'autoridade judiciária' já estejam explicados em português."
+    },
+    {
+      "sid": "A00123",
+      "ordinal": 124,
+      "classe": "ingles_residual_em_nota_editorial",
+      "trecho": "1) a renowned Babyl.",
+      "explicacao": "Fragmento inglês do XML original citado literalmente na nota de colação, sem equivalência portuguesa explícita naquele trecho."
+    },
+    {
+      "sid": "A00136",
+      "ordinal": 137,
+      "classe": "ingles_residual_em_nota_editorial",
+      "trecho": "a disciple of Rabbah",
+      "explicacao": "Fragmento inglês do XML original repetido em nota editorial; o texto também contém a forma portuguesa 'discípulo de Rabbah'."
+    }
+  ],
+  "verbetes": [
+    {
+      "ordinal": 101,
+      "sid": "A00100",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 102,
+      "sid": "A00101",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 103,
+      "sid": "A00102",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 104,
+      "sid": "A00103",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 105,
+      "sid": "A00104",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 106,
+      "sid": "A00105",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "ingles_residual_confirmado",
+      "problema": {
+        "classe": "ingles_residual_em_nota_editorial",
+        "trecho": "chief justice",
+        "explicacao": "A forma inglesa aparece em itálico, embora 'juiz principal' e 'autoridade judiciária' já estejam explicados em português."
+      },
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 107,
+      "sid": "A00106",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 108,
+      "sid": "A00107",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 109,
+      "sid": "A00108",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 110,
+      "sid": "A00109",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 111,
+      "sid": "A00110",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 112,
+      "sid": "A00111",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 113,
+      "sid": "A00112",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 114,
+      "sid": "A00113",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 115,
+      "sid": "A00114",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 116,
+      "sid": "A00115",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 117,
+      "sid": "A00116",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 118,
+      "sid": "A00117",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 119,
+      "sid": "A00118",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 120,
+      "sid": "A00119",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 121,
+      "sid": "A00120",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 122,
+      "sid": "A00121",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 123,
+      "sid": "A00122",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 124,
+      "sid": "A00123",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "ingles_residual_confirmado",
+      "problema": {
+        "classe": "ingles_residual_em_nota_editorial",
+        "trecho": "1) a renowned Babyl.",
+        "explicacao": "Fragmento inglês do XML original citado literalmente na nota de colação, sem equivalência portuguesa explícita naquele trecho."
+      },
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 125,
+      "sid": "A00124",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 126,
+      "sid": "A00125",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 127,
+      "sid": "A00126",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 128,
+      "sid": "A00127",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 129,
+      "sid": "A00128",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 130,
+      "sid": "A00129",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 131,
+      "sid": "A00130",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 132,
+      "sid": "A00131",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 133,
+      "sid": "A00132",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 134,
+      "sid": "A00133",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 135,
+      "sid": "A00134",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 136,
+      "sid": "A00135",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 137,
+      "sid": "A00136",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "ingles_residual_confirmado",
+      "problema": {
+        "classe": "ingles_residual_em_nota_editorial",
+        "trecho": "a disciple of Rabbah",
+        "explicacao": "Fragmento inglês do XML original repetido em nota editorial; o texto também contém a forma portuguesa 'discípulo de Rabbah'."
+      },
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 138,
+      "sid": "A00137",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 139,
+      "sid": "A00138",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 140,
+      "sid": "A00139",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 141,
+      "sid": "A00140",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 142,
+      "sid": "A00141",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 143,
+      "sid": "A00142",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 144,
+      "sid": "A00143",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 145,
+      "sid": "A00144",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 146,
+      "sid": "A00145",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 147,
+      "sid": "A00146",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 148,
+      "sid": "A00147",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 149,
+      "sid": "A00148",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 150,
+      "sid": "A00149",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 151,
+      "sid": "A00150",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 152,
+      "sid": "A00151",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 153,
+      "sid": "A00152",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 154,
+      "sid": "A00153",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 155,
+      "sid": "A00154",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 156,
+      "sid": "A00155",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 157,
+      "sid": "A00156",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 158,
+      "sid": "A00157",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 159,
+      "sid": "A00158",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 160,
+      "sid": "A00159",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 161,
+      "sid": "A00160",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 162,
+      "sid": "A00161",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 163,
+      "sid": "A00162",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 164,
+      "sid": "A00163",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 165,
+      "sid": "A00164",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 166,
+      "sid": "A00165",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 167,
+      "sid": "A00166",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 168,
+      "sid": "A00167",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 169,
+      "sid": "A00168",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 170,
+      "sid": "A00169",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 171,
+      "sid": "A00170",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 172,
+      "sid": "A00171",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 173,
+      "sid": "A00172",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 174,
+      "sid": "A00173",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 175,
+      "sid": "A00174",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 176,
+      "sid": "A00175",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 177,
+      "sid": "A00176",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 178,
+      "sid": "A00177",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 179,
+      "sid": "A00178",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 180,
+      "sid": "A00179",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 181,
+      "sid": "A00180",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 182,
+      "sid": "A00181",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 183,
+      "sid": "A00182",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 184,
+      "sid": "A00183",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 185,
+      "sid": "A00184",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 186,
+      "sid": "A00185",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 187,
+      "sid": "A00186",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 188,
+      "sid": "A00187",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 189,
+      "sid": "A00188",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 190,
+      "sid": "A00189",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 191,
+      "sid": "A00190",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 192,
+      "sid": "A00191",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 193,
+      "sid": "A00192",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 194,
+      "sid": "A00193",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 195,
+      "sid": "A00194",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 196,
+      "sid": "A00195",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 197,
+      "sid": "A00196",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 198,
+      "sid": "A00197",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 199,
+      "sid": "A00198",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    },
+    {
+      "ordinal": 200,
+      "sid": "A00199",
+      "glosa_idioma": "portugues",
+      "texto_editorial": "sem_ingles_inequivoco_detectado",
+      "problema": null,
+      "avaliacao_equivalencia_semantica_exaustiva": "pendente"
+    }
+  ],
+  "limites": "A ausência de inglês detectável não prova equivalência semântica integral nem valida o aparato crítico; não homologar entradas como integralmente corrigidas.",
+  "acumulado": {
+    "lotes_examinados": 2,
+    "verbetes_examinados": 200,
+    "problemas_confirmados_nesses_lotes": 3,
+    "total_global_previamente_conhecido_fora_dessa_revisao": 2055,
+    "minimo_global_sem_sobreposicao": 2058
+  }
+}

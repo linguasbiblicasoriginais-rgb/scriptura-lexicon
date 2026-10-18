@@ -1,0 +1,121 @@
+name: KLEIN — inventário e incorporação única
+on:
+  push:
+    branches:
+      - chat-gpt-klein
+    paths:
+      - .github/workflows/klein-ingest-once.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scriptura-klein-ingestion
+  cancel-in-progress: false
+
+jobs:
+  incorporar-klein:
+    if: github.ref == 'refs/heads/chat-gpt-klein'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout exclusivo da branch KLEIN
+        uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-klein
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Configurar identidade técnica de commits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Confirmar HEAD remoto
+        run: |
+          git fetch origin chat-gpt-klein
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/chat-gpt-klein)"
+          git rev-parse HEAD
+      - name: Verificar licença, enumerar e confirmar inventário integral
+        run: python tools/klein_count_full.py
+      - name: Incorporar no máximo 1000 verbetes em commits separados de 100
+        env:
+          KLEIN_TARGET_NEW: '1000'
+        run: python tools/klein_ingest.py
+      - name: Comprovar HEAD remoto e checkpoint
+        if: always()
+        run: |
+          echo "HEAD local:"
+          git rev-parse HEAD
+          echo "HEAD remoto:"
+          git ls-remote origin refs/heads/chat-gpt-klein
+          if [ -f lexicons/klein-progress.json ]; then
+            python -c "import json; d=json.load(open('lexicons/klein-progress.json')); print('KLEIN:',d['total_incorporated'],'/',d['source_total'],'; próximo:',d['next_ref'])"
+          else
+            echo 'Checkpoint ainda não disponível: contagem integral não foi concluída.'
+          fi
+
+# Continuação solicitada: KLEIN verbetes 1001–2000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 2001–3000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 3001–4000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 4001–5000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 5001–6000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 6001–7000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 7001–8000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 8001–9000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 9001–10000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 10001–11000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 11001–12000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 12001–13000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 13001–14000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 14001–15000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 15001–16000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 16001–17000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 17001–18000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 18001–19000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 19001–20000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 20001–21000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 21001–22000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 22001–23000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 23001–24000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 24001–25000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 25001–26000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 26001–27000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 27001–28000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 28001–29000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 29001–30000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 30001–31000, em até dez commits independentes.
+
+# Continuação solicitada: KLEIN verbetes 31001–31111, em até dois commits independentes.

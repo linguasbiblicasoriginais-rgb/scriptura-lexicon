@@ -1,0 +1,34 @@
+name: BDB Hebraico — Inventário da fonte
+on:
+  push:
+    branches:
+      - chat-gpt-bdbh
+    paths:
+      - .github/workflows/bdbh-total-count.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scriptura-bdbh-source-count
+  cancel-in-progress: false
+
+jobs:
+  contar-bdb-hebraico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-bdbh
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Autor dos commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Enumerar toda a seção hebraica da Sefaria
+        run: python tools/bdbh_count_full.py

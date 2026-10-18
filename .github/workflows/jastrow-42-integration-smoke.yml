@@ -1,0 +1,36 @@
+name: JASTROW - 42 deltas em copia descartavel do consolidado
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - ".github/workflows/jastrow-42-integration-smoke.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verificar-candidato:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Aplicar 3 modulos apenas em worktree efemera (sem refs remotas)
+        run: |
+          set -e
+          git fetch origin chat-gpt-commits
+          echo "BASE_HEAD=$(git rev-parse origin/chat-gpt-commits)"
+          echo "CORRECOES_HEAD=$(git rev-parse HEAD)"
+          git worktree add --detach /tmp/jastrow-candidato origin/chat-gpt-commits
+          for file in lexicons/jastrow-011-040.js lexicons/jastrow-041-080.js lexicons/jastrow-081-110.js; do
+            cp "$GITHUB_WORKSPACE/$file" "/tmp/jastrow-candidato/$file"
+            echo "CANDIDATE_FILE=$file"
+          done
+          cd /tmp/jastrow-candidato
+          node --check lexicons/jastrow-011-040.js
+          node --check lexicons/jastrow-041-080.js
+          node --check lexicons/jastrow-081-110.js
+          node tools/audit_jastrow_600.js
+          git diff --check
+          echo "JASTROW_42_SIMULATION_PASS=true"
+          echo "NO_REMOTE_WRITE=true"
