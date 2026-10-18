@@ -74,7 +74,9 @@
     }
     async function search(query, dictionary, source) {
         await ready;
-        if (!query) return {rows:[], truncated:false};
+        if (!query || (source && !(catalog.counts?.[dictionary]?.[source] > 0))) {
+            return {rows:[], truncated:false};
+        }
         // Termos independentes: lema, transliteração, glosas e definições.
         const terms = query.split(/[\s,;]+/u).filter(Boolean);
         if (!terms.length) return {rows:[], truncated:false};

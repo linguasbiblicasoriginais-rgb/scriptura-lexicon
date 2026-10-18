@@ -1,3 +1,11 @@
+## LSJ no seletor de fontes — 18/10/2026
+
+A interface reconhece agora o LSJ exclusivamente como fonte **em preparação**, no dicionário grego, pelo registro `publicationStatus: "source-only"` do catálogo bibliográfico `lexicons/source-catalog.js`. O seletor é preenchido pela união das fontes publicadas no índice com os registros declaradamente pendentes. Isso impede que o LSJ desapareça do menu quando o catálogo `lexicon-data/catalog.json` terminar de carregar.
+
+**Situação documental:** os arquivos `lexicons/lsj-source-batch-*.xml` são transcrições na camada FONTE (inglês), e não traduções portuguesas. O estado `lexicons/lsj-progress.json` e as regras em `regras/Rlsj.txt` distinguem extração da fonte, tradução, revisão e publicação. A inclusão do nome LSJ **não** incorpora seus registros ao índice nem implica aprovação filológica. Quando selecionado, a interface mostra zero cartões publicados, ficha bibliográfica e aviso contextual. Consultas para fontes sem registros retornam imediatamente, sem buscar os blocos do índice invertido. Os dicionários hebraico, aramaico e latino não listam o LSJ.
+
+A suíte em Chromium verifica: presença e anotação do LSJ no seletor grego, ausência nos demais, contagem 0, informação bibliográfica, aviso de indisponibilidade, inexistência de linhas falsas, além das regressões funcionais de todas as outras fontes. Para torná-lo pesquisável será necessário publicar artigos portugueses de acordo com a metodologia do projeto.
+
 ## Busca paginada, ampla e leve — 18/10/2026
 
 Branch de trabalho: `chat-gpt-melhorias`.

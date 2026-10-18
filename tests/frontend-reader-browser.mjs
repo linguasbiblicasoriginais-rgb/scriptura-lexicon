@@ -80,7 +80,15 @@ try {
         const sources = await page.locator("#source-filter option").evaluateAll(options =>
             options.map(o => o.value).filter(Boolean)
         );
-        const group = { dictionary, sources: sources.length, tested: 0 };
+        const group = { dictionary, sources: sources.length, tested: 0, pending: 0 };
+        if (dictionary === "grego") {
+            assert.ok(sources.includes("LSJ"), "LSJ precisa aparecer no seletor grego");
+            assert.equal(await page.locator('#source-filter option[value="LSJ"]').textContent(),
+                "LSJ · em preparação");
+        } else {
+            assert.equal(sources.includes("LSJ"), false,
+                "LSJ não pertence a um dicionário diferente do grego");
+        }
 
         for (const source of sources) {
             // Testa a interface visual do combobox, não apenas o select auxiliar.
@@ -115,6 +123,22 @@ try {
                 renderedCovers.add(source);
             }
 
+            if (source === "LSJ") {
+                assert.equal(count, 0, "LSJ ainda não tem cartões publicados");
+                assert.match(await page.locator("#source-details-note").textContent(),
+                    /camada FONTE|Fonte em preparação/i);
+                assert.equal(await page.locator("#search-count").textContent(),
+                    "Fonte em preparação");
+                assert.match(await page.locator("#no-results").textContent(),
+                    /nenhum verbete traduzido/i);
+                await page.locator("#search-input").fill("ἀγαθός");
+                await page.waitForFunction(() =>
+                    document.getElementById("no-results")?.textContent?.includes("LSJ") &&
+                    !document.getElementById("no-results").hidden);
+                assert.equal(await page.locator("#search-results .search-row").count(), 0);
+                group.pending++;
+                continue;
+            }
             const sample = await page.evaluate(({dictionary,source}) =>
                 window.ScripturaLexiconSearch.sample(dictionary,source),
                 {dictionary,source}

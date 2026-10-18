@@ -1408,8 +1408,15 @@ function populateSourceFilter() {
         '<option value="">Todas as fontes</option>';
 
     const indexed = window.ScripturaLexiconSearch?.catalog?.counts?.[activeDictionary];
-    const sources = (indexed ? Object.keys(indexed) :
-        [...new Set(rowsForActiveDictionary().map(row => row.dataset.source).filter(Boolean))])
+    const known = indexed ? Object.keys(indexed) :
+        rowsForActiveDictionary().map(row => row.dataset.source).filter(Boolean);
+    // Fontes catalogadas mas sem cartões publicados continuam identificáveis,
+    // claramente marcadas como em preparação; não representam verbetes prontos.
+    const pending = Object.entries(window.ScripturaSourceCatalog || {})
+        .filter(([code, data]) => data.dictionary === activeDictionary &&
+            data.publicationStatus === "source-only" && !(indexed?.[code] > 0))
+        .map(([code]) => code);
+    const sources = [...new Set([...known, ...pending])]
         .sort((a, b) => a.localeCompare(b, "pt-BR"));
 
     sources.forEach(function (source) {
@@ -1417,7 +1424,8 @@ function populateSourceFilter() {
             document.createElement("option");
 
         option.value = source;
-        option.textContent = source;
+        option.textContent = pending.includes(source) ?
+            source + " · em preparação" : source;
 
         sourceFilter.appendChild(option);
     });
@@ -1800,11 +1808,21 @@ function filterEntries() {
     searchTableWrapper.hidden = true;
     noResults.hidden = true;
     window.ScripturaLexiconSearch?.reset();
+    const sourcePending = !!(source &&
+        window.ScripturaSourceCatalog?.[source]?.publicationStatus === "source-only" &&
+        !window.ScripturaLexiconSearch?.count(dictionary, source));
+    const pendingMessage = sourcePending ?
+        "O LSJ está em preparação: existem registros na camada FONTE, mas nenhum verbete traduzido e publicado para pesquisa." : "";
     if (!query) {
-        searchCount.textContent = "Digite para pesquisar";
+        searchCount.textContent = sourcePending ? "Fonte em preparação" : "Digite para pesquisar";
+        if (sourcePending) {
+            searchTableWrapper.hidden = false;
+            noResults.hidden = false;
+            noResults.textContent = pendingMessage;
+        }
         return;
     }
-    searchCount.textContent = "Pesquisando...";
+    searchCount.textContent = sourcePending ? "Fonte em preparação" : "Pesquisando...";
     const searcher = window.ScripturaLexiconSearch;
     if (!searcher) {
         searchCount.textContent = "Preparando índice...";
@@ -1818,7 +1836,8 @@ function filterEntries() {
         updateCounter(matchedRows.length);
         renderResultsPage(1);
         noResults.hidden = matchedRows.length > 0;
-        noResults.textContent = matchedRows.length ? "" : "Nenhum verbete encontrado.";
+        noResults.textContent = matchedRows.length ? "" :
+            (pendingMessage || "Nenhum verbete encontrado.");
     }).catch(error => {
         if (generation !== searchGeneration) return;
         searchCount.textContent = "Erro na pesquisa";

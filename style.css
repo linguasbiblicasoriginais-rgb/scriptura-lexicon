@@ -998,6 +998,11 @@ tbody tr:last-child td {
 }
 
 /* Cores consistentes por fonte em resultados e verbetes. */
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="LSJ"] {
+    --source-text: #b9c7e9;
+    --source-bg: rgba(88, 110, 161, 0.14);
+    --source-border: rgba(155, 174, 218, 0.40);
+}
 :is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"] {
     --source-text: #a6c8ff;
     --source-bg: rgba(56, 114, 225, 0.16);
@@ -1665,6 +1670,12 @@ tbody tr:last-child td {
 }
 
 /* Mesmas famílias cromáticas das fontes, com tons legíveis no fundo claro. */
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="LSJ"] {
+    --source-text: #344869;
+    --source-bg: rgba(80, 103, 157, 0.11);
+    --source-border: rgba(82, 105, 155, 0.32);
+}
+
 :root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"] {
     --source-text: #2459a3;
     --source-bg: rgba(56, 114, 225, 0.105);
