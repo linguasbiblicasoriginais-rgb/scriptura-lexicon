@@ -1,5 +1,14 @@
 # Scriptura Lexicon
 
+## LSJ — fonte original: primeiro lote de 1.000 artigos (18/10/2026)
+
+A branch exclusiva `chat-gpt-lsj` contém `lexicons/lsj-source-batch-0001.xml` com **1.000 artigos gregos originais** extraídos, preservados em fragmentos TEI, de **Α α** a **ἀγῠρ-τευτής**, a partir da transcrição editorial LSJLogeion/Perseus. A verificação estrutural confirmou 1.000 IDs únicos e nenhum cabeçalho ausente. **Próximo lema:** **ἀγῠρ-τεύω** (orig_id `n988`, posição 1001 da sequência extraída).
+
+A licença da transcrição é CC BY-SA 4.0; reconhecer Perseus/Tufts, Gregory Crane, Helma Dik e Logeion. O arquivo é uma **camada de fonte, não tradução portuguesa**: **0 traduções completas, 0 artigos portugueses publicados** nesta etapa. É proibido chamar esses 1.000 registros de 1.000 verbetes portugueses concluídos. A contagem de **116.854** é referência **provisória** do catálogo Furman, que não precisa coincidir com a segmentação editorial do LSJLogeion.
+
+Fontes designadas para colação: [Perseids](https://perseids-project.github.io/lsj-js/), [Philolog.us](https://philolog.us/) e [Furman](https://folio2.furman.edu/lsjj/). Regra exclusiva: `regras/Rlsj.txt`. Estado: `lexicons/lsj-progress.json`. A revisão da edição impressa, a tradução, os popups e a integração na interface ainda estão pendentes. Nenhum PR/merge é realizado nesta incorporação.
+
+
 ## Tarefas agendadas no ChatGPT — implantação experimental (09/10/2026)
 
 **Estado comprovado:** três tarefas recorrentes foram criadas e habilitadas em ChatGPT Tasks, fuso `America/Sao_Paulo`. São independentes e executam a cada hora em janelas defasadas: **incorporação DGP aos :05** (escrita somente em `chat-gpt-dgp`), **auditoria aos :25** (somente `chat-gpt-correcoes`) e **integração aos :45** (PRs/merges somente para `chat-gpt-commits`, se a aprovação filológica aplicável estiver comprovada). A ingestão almeja **até 100 registros canônicos por rodada**, sem assumir garantias de produção contínua.
