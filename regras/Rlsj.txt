@@ -107,3 +107,20 @@ Acumulado da camada FONTE: 6000 artigos. Artigos traduzidos para português: 0; 
 A cifra 116854 permanece denominador provisório da implementação Furman, não contagem homologada desta fonte digital ou da edição impressa.
 Créditos e licença indicados no lote: Perseus Digital Library (Tufts), Gregory Crane, Helma Dik/Logeion; CC BY-SA 4.0 declarada para transcrição.
 Limitações: não houve colação integral com o impresso de 1940, Perseids, Philolog.us e Furman; não houve tradução, homologação ou testes de interface. Nenhuma alteração em main ou em branches de outros dicionários.
+
+
+CICLO 0007 — RESULTADO VERIFICADO (RECONCILIAÇÃO DE LOTE JÁ PUBLICADO)
+Branch exclusiva para toda a escrita deste ciclo: chat-gpt-lsj.
+Arquivo de destino, publicado antes desta execução: lexicons/lsj-source-batch-0007.xml.
+SHA do blob confirmado: bcb475fd3b69699ab7e3193c32acf5720726679d.
+HEAD onde a presença do arquivo foi confirmada: 2d7046e7bc93f629f332ff8f12ed4d1e14dea041. O commit original de criação do arquivo NÃO foi identificado pelo histórico disponível; não atribuir sua criação a esse HEAD.
+Verificação de proveniência: a transcrição auxiliar Helma Dik/LSJLogeion, derivada de Perseus/Tufts, foi confrontada artigo por artigo.
+Fonte A: greatscott04.xml, blob d560de329f17ab692fb134cccd4994fc37622081, ordinais locais 1944–2067 (124 artigos).
+Fonte B: greatscott05.xml, blob 4b6ec54a8e9f67b3d351123933cedaff624aab62, ordinais locais 1–876 (876 artigos).
+Ordinais globais: 6001–7000; primeiro ἀμφικεύθω (n5875), último ἀνακωχή (n6865a).
+Próximo: ἀναλάζομαι (n6866), ordinal global 7001, arquivo greatscott05.xml.
+Verificação estrutural remota: 1000 artigos, 1000 orig_id distintos, zero cabeçalhos ausentes, correspondência literal integral com os 1000 fragmentos TEI de origem e ausência de sobreposição de IDs com o lote 0006. Transição entre os dois arquivos TEI conferida.
+Acumulado após reconciliação: 7000 artigos da camada FONTE; 0 traduções portuguesas completas; 0 revisões integrais; 0 artigos publicados na interface.
+O denominador 116854 permanece referência PROVISÓRIA Furman, não total homogêneo comprovado do LSJLogeion nem da edição impressa de 1940.
+Créditos da transcrição: Perseus Digital Library/Tufts, Gregory Crane, Helma Dik/Logeion; licença declarada CC BY-SA 4.0.
+Limitações: nenhuma colação completa com a edição impressa ou todas as plataformas designadas; tradução e revisão filológica integral pendentes. Nenhuma alteração em branches estranhas ao LSJ; não houve PR/merge neste ciclo.
