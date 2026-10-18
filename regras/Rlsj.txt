@@ -8,7 +8,7 @@ LSJ — REGRA CANÔNICA DE INCORPORAÇÃO (18/10/2026)
    c) https://folio2.furman.edu/lsjj/
    A segmentação e a redação podem divergir entre implementações. Nunca assumir identidade numérica entre bases.
 4. Fonte editorial auxiliar do primeiro lote: Helma Dik/LSJLogeion (https://github.com/helmadik/LSJLogeion), derivado do Perseus/Tufts, com variantes editoriais e correções próprias; arquivo greatscott02.xml, blob 6d95548f3d3524ba0d726baa017cb763e75bd7bb. Licença declarada CC BY-SA 4.0; creditar Perseus Digital Library, Gregory Crane, Helma Dik/Logeion. Sua natureza auxiliar deve permanecer identificada, sem promovê-la silenciosamente à autoridade da edição impressa nem aos três portais canônicos.
-5. Lotes de 1.000 artigos tipográficos contínuos, sem subdividir acepções, sentidos, citações ou homógrafos para inflar contagens. Manter IDs da fonte e cabeçalhos gregos originais com diacríticos. Uma leitura divergente exige anotação, não emenda conjectural silenciosa.
+5. A partir do LOTE 0009, incorporar em lotes de 2.000 artigos tipográficos contínuos, sem subdividir acepções, sentidos, citações ou homógrafos para inflar contagens. Os oito lotes anteriores (0001–0008) permanecem históricos de 1.000 cada. O checkpoint lexicons/lsj-progress.json é a referência de retomada; cada novo lote incorpora exatamente 2.000 artigos, salvo insuficiência real de fonte, documentada. Manter IDs da fonte e cabeçalhos gregos originais com diacríticos. Uma leitura divergente exige anotação, não emenda conjectural silenciosa.
 6. Separar em todas as etapas as camadas FONTE (texto original), TRADUÇÃO (português), ANÁLISE (comentários) e GDHAGP (versão editorial integrada). Arquivos da camada FONTE não constituem traduções em português nem artigos homologados. A interface ao leitor deve usar português nos verbetes traduzidos; não converter automaticamente a redação inglesa em tradução com aproximações.
 7. Estado próprio: lexicons/lsj-progress.json. Reportar, separadamente, artigos extraídos na camada Fonte, traduções portuguesas completas, traduções revisadas, artigos efetivamente publicados na interface e total geral de referência. É vedado exibir registros de fonte como se fossem verbetes portugueses concluídos.
 8. Contagem de referência inicial: 116.854 registros informados pelo portal Furman (https://folio2.furman.edu/lsj/). Denominador PROVISÓRIO e dependente da segmentação do catálogo; verificar total de artigos tipográficos da edição escolhida e registrar divergências antes de tratá-lo como exato.
@@ -139,3 +139,23 @@ Acumulado da camada FONTE: 8000; traduções portuguesas integrais: 0; revisões
 Total de referência 116854 (Furman) PROVISÓRIO, não necessariamente igual à segmentação da transcrição.
 Créditos: Perseus Digital Library/Tufts, Gregory Crane, Helma Dik/Logeion. Licença declarada da transcrição: CC BY-SA 4.0, sujeita às condições de atribuição.
 Limitações: não foi feita colação integral com a edição de 1940 nem com Perseids, Philolog.us e Furman; não houve tradução, revisão editorial integral, testes de interface, PR ou merge. Nenhuma outra branch foi modificada.
+
+
+CICLO 0009 — LOTE DE 2.000 ARTIGOS DA FONTE — PUBLICAÇÃO VERIFICADA (18/10/2026)
+Mudança autorizada pelo mantenedor: a partir deste lote, tamanho operacional de 2000 artigos, sem alterar ou dividir lotes anteriores de 1000.
+Branch única: chat-gpt-lsj.
+Arquivo: lexicons/lsj-source-batch-0009.xml.
+Commit original do arquivo: f6597c8882f471158d68d8a936ada8b322eb4a78.
+SHA do blob publicado (releitura remota): eead7c08f368edd2b559339fa8611877df8ff6fc.
+Origem digital auxiliar: helmadik/LSJLogeion, transcrição derivada do Perseus/Tufts.
+Segmento 1: greatscott05.xml (blob 4b6ec54a8e9f67b3d351123933cedaff624aab62), artigos locais 1877–2009 (133).
+Segmento 2: greatscott06.xml (blob 108adcb1065d66b0e299d0e8e1b39de083579a08), artigos locais 1–1867 (1867).
+Total: ordinais globais 8001–10000, 2000 artigos tipográficos completos.
+Primeiro: ἄνδηρον, orig_id n7864. Último: ἀντιδαπανάω, orig_id n9858.
+Próximo: ἀντίδειξις, orig_id n9859, ordinal global 10001, greatscott06.xml.
+Auditoria estrutural: 2000 div2, 2000 IDs de origem únicos, 2000 cabeçalhos, zero IDs em comum com o lote anterior; fronteira de retomada confirmada. Blob remoto relido pelo SHA.
+Acumulado: 10000 artigos na camada FONTE; 0 traduções portuguesas completas; 0 revisões filológicas integrais; 0 artigos na interface.
+Denominador provisório: 116854 no catálogo Furman, sem equivalência de segmentação comprovada.
+Créditos: Perseus Digital Library (Tufts), Gregory Crane, Helma Dik/Logeion. Licença declarada: CC BY-SA 4.0.
+Limitações: não houve colação integral com o impresso de Oxford (1940), Perseids, Philolog.us ou Furman; tradução, revisão e integração permanecem pendentes.
+Sem PR, merge, rebase, force push ou alterações em outras branches.
