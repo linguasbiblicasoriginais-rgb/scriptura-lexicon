@@ -1,0 +1,41 @@
+name: PEREIRA — pré-voo de fonte e checkpoint
+
+on:
+  push:
+    branches:
+      - chat-gpt-pereira
+    paths:
+      - .github/workflows/pereira-source-preflight.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scriptura-pereira-ingestion
+  cancel-in-progress: false
+
+jobs:
+  verificar-fonte:
+    if: github.ref == 'refs/heads/chat-gpt-pereira'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Obter somente a branch PEREIRA
+        uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-pereira
+          persist-credentials: false
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Auditar checkpoint existente sem alterar arquivos
+        run: python tools/pereira_validate.py
+      - name: Verificar a API somente em metadados do próximo lema
+        run: python tools/pereira_source.py --check-next
+      - name: Declarar os limites da operação
+        if: always()
+        run: |
+          echo 'Este workflow não incorpora verbetes nem publica dados da fonte.'
+          echo 'A incorporação exige fonte íntegra, sequência comprovada e direitos de redistribuição verificados.'

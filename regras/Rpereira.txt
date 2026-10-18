@@ -1573,3 +1573,22 @@ lexicons/pereira-progress.json e regras/Rpereira.txt.
 Não alterar main, README compartilhado, branches de outras fontes,
 nem abrir PR, merge ou usar force push.
 O SHA definitivo será o HEAD remoto confirmado após publicação.
+
+========================================================================
+18/10/2026 — PRÉ-VOO TÉCNICO PERMANENTE, SEM INCORPORAÇÃO
+========================================================================
+Criados .github/workflows/pereira-source-preflight.yml,
+tools/pereira_source.py e tools/pereira_validate.py exclusivamente na
+branch chat-gpt-pereira. O workflow de pré-voo verifica o checkpoint
+publicado e consulta metadados de um único registro via HTTP POST.
+Executa uma vez quando seu YAML é alterado; também admite despacho
+manual. Permissões: contents:read; sem git push; concorrência exclusiva;
+cancel-in-progress:false.
+Esta implantação administrativa NÃO constitui lote lexical.
+NÃO considera a existência da API como licença de redistribuição.
+A incorporação de até 1.000 novos registros, em lotes de 50,
+permanece pendente de verificação da fonte integral, sequência,
+limites da API e autorização para republicação dos textos.
+O total integral do PEREIRA segue desconhecido e nunca deve ser
+substituído por estimativa ou pela contagem do DGP.
+========================================================================
