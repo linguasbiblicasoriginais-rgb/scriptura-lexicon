@@ -7,31 +7,33 @@
   "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
   "total_estimate_provisional": true,
   "batch_size": 1000,
-  "source_records_incorporated": 6000,
+  "source_records_incorporated": 7000,
   "portuguese_articles_translated": 0,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
-  "last_committed_source_batch": "lexicons/lsj-source-batch-0006.xml",
-  "source_batch_commit": "ecd4da9795305e6d8671fb5d2a1c39733ec6ac3d",
-  "source_batch_blob": "1c6bf269fce8d0f516ec54f2f729f44de5b5f242",
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0007.xml",
+  "source_batch_commit": null,
+  "source_batch_blob": "bcb475fd3b69699ab7e3193c32acf5720726679d",
   "source_original_repository": "helmadik/LSJLogeion",
-  "source_original_path": "greatscott04.xml",
-  "source_original_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+  "source_original_path": "greatscott05.xml",
+  "source_original_blob_sha": "4b6ec54a8e9f67b3d351123933cedaff624aab62",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
-  "last_lemma": "ἀμφίκεστον·",
-  "next_lemma": "ἀμφικεύθω",
-  "next_orig_id": "n5875",
-  "next_source_file": "greatscott04.xml",
-  "next_ordinal": 6001,
+  "last_lemma": "ἀνακωχή",
+  "next_lemma": "ἀναλάζομαι",
+  "next_orig_id": "n6866",
+  "next_source_file": "greatscott05.xml",
+  "next_ordinal": 7001,
   "validation": {
     "source_count": 1000,
-    "cumulative_source_count": 6000,
+    "cumulative_source_count": 7000,
     "unique_orig_ids_in_batch": 1000,
     "missing_headwords": 0,
-    "previous_batch_unchanged_source_fragment": true,
+    "previous_batch_source_exact_match": true,
     "overlapping_ids_previous_batch": 0,
-    "scope": "structural source TEI verification only",
+    "source_file_transition_checked": true,
+    "source_file_transition": "greatscott04.xml (124 finais) → greatscott05.xml (876 iniciais)",
+    "scope": "structural source TEI verification only; no printed-edition collation",
     "full_collation": false,
     "portuguese_translation": false,
     "frontend_integration": false
@@ -161,6 +163,42 @@
       ],
       "next_orig_id": "n5875",
       "next_lemma": "ἀμφικεύθω"
+    },
+    {
+      "batch": 7,
+      "start_ordinal": 6001,
+      "end_ordinal": 7000,
+      "first_lemma": "ἀμφικεύθω",
+      "last_lemma": "ἀνακωχή",
+      "commit": null,
+      "creation_commit_identified": false,
+      "published_file_confirmed_at_head": "2d7046e7bc93f629f332ff8f12ed4d1e14dea041",
+      "blob_sha": "bcb475fd3b69699ab7e3193c32acf5720726679d",
+      "origin_segments": [
+        {
+          "file": "greatscott04.xml",
+          "source_blob_sha": "d560de329f17ab692fb134cccd4994fc37622081",
+          "count": 124,
+          "source_entry_ordinals": [
+            1944,
+            2067
+          ]
+        },
+        {
+          "file": "greatscott05.xml",
+          "source_blob_sha": "4b6ec54a8e9f67b3d351123933cedaff624aab62",
+          "count": 876,
+          "source_entry_ordinals": [
+            1,
+            876
+          ]
+        }
+      ],
+      "next_orig_id": "n6866",
+      "next_lemma": "ἀναλάζομαι",
+      "verified_by": "read published content and compare all 1000 records against pinned source blob; original creating commit not identified"
     }
-  ]
+  ],
+  "source_batch_creation_commit_status": "not_identified_from_available_history",
+  "source_batch_publication_verified_at_head": "2d7046e7bc93f629f332ff8f12ed4d1e14dea041"
 }
