@@ -1,0 +1,30 @@
+name: DGP Etapa 3 — casos individuais
+on:
+  push:
+    branches: [chat-gpt-correcoes, chat-gpt-commits]
+    paths:
+      - '.github/workflows/dgp-stage3-candidatos.yml'
+      - 'tests/test_dgp_stage3_candidatos.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cinco-casos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Construir catálogo como Netlify no destino consolidado
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar navegador
+        run: |
+          python -m pip install 'playwright>=1.55,<2'
+          python -m playwright install --with-deps chromium
+      - name: Auditar cinco artigos individualmente no navegador
+        run: python tests/test_dgp_stage3_candidatos.py

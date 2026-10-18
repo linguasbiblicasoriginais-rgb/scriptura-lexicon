@@ -1,0 +1,34 @@
+name: BDB Hebraico — Completar contagem da fonte
+on:
+  push:
+    branches:
+      - chat-gpt-bdbh
+    paths:
+      - .github/workflows/bdbh-total-finish.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scriptura-bdbh-source-count
+  cancel-in-progress: false
+
+jobs:
+  finalizar-contagem-bdb-hebraico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-bdbh
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Configurar autor
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Contar somente as duas letras pendentes e registrar total
+        run: python tools/bdbh_count_finish.py

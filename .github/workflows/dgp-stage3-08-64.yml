@@ -1,0 +1,31 @@
+name: DGP etapa 3 — dez candidatos 08–64
+on:
+  push:
+    branches: [chat-gpt-correcoes, chat-gpt-commits]
+    paths:
+      - 'auditorias/dgp-etapa3-candidatos-08-64.json'
+      - 'tests/test_dgp_stage3_08_64.py'
+      - '.github/workflows/dgp-stage3-08-64.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar-dez:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compilar índice de busca da produção
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar navegador Chromium
+        run: |
+          python -m pip install 'playwright>=1.55,<2'
+          python -m playwright install --with-deps chromium
+      - name: Verificar individualmente dez candidatos
+        run: python tests/test_dgp_stage3_08_64.py

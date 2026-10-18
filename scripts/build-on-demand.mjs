@@ -145,6 +145,119 @@ for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) 
         sourceTerms[label].push(...source.bibliographicTerms);
     }
 }
+// Deduplicação estritamente comprovável da APRESENTAÇÃO DGP (não da fonte).
+// Alguns módulos históricos carregam duas vezes o mesmo ordinal com IDs
+// técnicos formatados de modo distinto. Só retiramos do índice a segunda
+// ocorrência se lema e texto integral da definição forem literalmente
+// equivalentes após NFC e normalização dos espaços. Diferenças textuais,
+// variantes e outros léxicos ficam preservados, para cotejo individual.
+const canonicalNfcText = value => String(value || "").normalize("NFC")
+    .replace(/\s+/gu, " ").trim();
+function cardLemma(card) {
+    const m = card.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    return m ? canonicalNfcText(textOnly(m[1])) : "";
+}
+// Os 1000 primeiros artigos possuem cotejo documental individualizado com
+// a transcrição do XML canônico. Essa evidência permite resolver somente
+// variantes cuja redação coincide efetivamente com a fonte publicada.
+const cotejoDgpEtapa1 = JSON.parse(fs.readFileSync(path.join(root,
+    "auditorias/dgp-2026-10-14-cotejo-0001-1000.json"), "utf8"));
+if (cotejoDgpEtapa1.source?.source_blob !==
+        "eec318bb6150b6b2f4422ea4a76383ac0a254de2" ||
+        cotejoDgpEtapa1.records?.length !== 1000) {
+    throw Error("Cotejo canônico DGP 0001-1000 não está disponível/validado");
+}
+const dgpSourceText = new Map(cotejoDgpEtapa1.records.map(x=>
+    [x.ordinal, x.definition_original_xml]));
+const sourcePresentationText = value => canonicalNfcText(value)
+    .replace(/\u00ad/gu, "").replace(/〈/gu, "〈").replace(/〉/gu, "〉");
+function adoptSourceMatchedCard(primary, duplicate) {
+    if (primary.target === duplicate.target) {
+        primary.row = duplicate.row;
+        primary.card = duplicate.card;
+        return;
+    }
+    const oldRowId = 'data-target="' + duplicate.target + '"';
+    const oldCardId = 'id="' + duplicate.target + '"';
+    if (!duplicate.row.includes(oldRowId) || !duplicate.card.includes(oldCardId)) {
+        throw Error("ID do DGP divergente da linha ou do cartão " + duplicate.target);
+    }
+    // Mantém o ID canônico de quatro dígitos e incorpora o texto efetivamente
+    // atestado, sem tocar nos arquivos de fonte e sem inventar definição.
+    primary.row = duplicate.row.replace(oldRowId,
+        'data-target="' + primary.target + '"');
+    primary.card = duplicate.card.replace(oldCardId,
+        'id="' + primary.target + '"');
+}
+
+const canonicalByOrdinal = new Map();
+const retainedRecords = [];
+const filteredDuplicates = [];
+const pendingDgpDifferences = [];
+for (const record of records) {
+    const match = record.source === "DGP" ?
+        /^entry-dgp-(\d+)$/.exec(record.target) : null;
+    if (!match) {
+        retainedRecords.push(record);
+        continue;
+    }
+    const ordinal = Number(match[1]);
+    const primary = canonicalByOrdinal.get(ordinal);
+    if (!primary) {
+        canonicalByOrdinal.set(ordinal, record);
+        retainedRecords.push(record);
+        continue;
+    }
+    const lemmaA = cardLemma(primary.card);
+    const lemmaB = cardLemma(record.card);
+    const definitionA = canonicalNfcText(fullText(primary.card));
+    const definitionB = canonicalNfcText(fullText(record.card));
+    if (lemmaA && lemmaA === lemmaB && definitionA &&
+            definitionA === definitionB) {
+        // Indexação por todas as variantes documentadas, sem mexer nos artigos.
+        if (record.search !== primary.search) {
+            primary.search += " " + record.search;
+        }
+        filteredDuplicates.push({ordinal, target:record.target,
+            keptTarget:primary.target, lemma:lemmaA});
+        continue;
+    }
+    if (ordinal >= 1 && ordinal <= 1000 && lemmaA === lemmaB &&
+            lemmaA && definitionA && definitionB) {
+        const original = dgpSourceText.get(ordinal);
+        const source = sourcePresentationText(original);
+        const aMatches = source && sourcePresentationText(definitionA) === source;
+        const bMatches = source && sourcePresentationText(definitionB) === source;
+        if (aMatches || bMatches) {
+            // Se apenas a segunda versão mantém a abreviatura original,
+            // usa-se sua redação e conserva-se o identificador técnico estável.
+            if (bMatches && !aMatches) adoptSourceMatchedCard(primary, record);
+            if (record.search !== primary.search) {
+                primary.search += " " + record.search;
+            }
+            filteredDuplicates.push({ordinal, target:record.target,
+                keptTarget:primary.target, lemma:lemmaA,
+                rule:"XML_DOCUMENTAL_VERIFICADO", selected:bMatches&&!aMatches?
+                    "segunda_redacao_com_id_estavel":"primeira_redacao"});
+            continue;
+        }
+    }
+    pendingDgpDifferences.push({ordinal, firstTarget:primary.target,
+        nextTarget:record.target, firstLemma:lemmaA, nextLemma:lemmaB,
+        firstDefinition:definitionA.slice(0,160),
+        nextDefinition:definitionB.slice(0,160)});
+    retainedRecords.push(record);
+}
+records.length = 0;
+for (const record of retainedRecords) records.push(record);
+console.log("DGP_DEDUP_STRICT", JSON.stringify({
+    inspectedFromModules:retainedRecords.length + filteredDuplicates.length,
+    removedFromPresentationOnly:filteredDuplicates.length,
+    textDifferencesPreserved:pendingDgpDifferences.length,
+    sampleRemoved:filteredDuplicates.slice(0,6),
+    samplePending:pendingDgpDifferences.slice(0,6)
+}));
+
 // Um ID histórico repetido não pode suprimir a segunda entrada.
 // Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
 const firstByTarget = new Map();
@@ -169,7 +282,27 @@ if (collisions.length) {
     console.warn("Colisões de ID do legado: " + collisions.length,
         JSON.stringify(collisions.slice(0,12)));
 }
+// A lista conserva somente o primeiro significado resumido; os cartões
+// lexicográficos originais permanecem intactos em cards/.
+function compactRow(record) {
+    const cells = Array.from(record.row.matchAll(/<td\b[^>]*>[\s\S]*?<\/td>/gi), match => match[0]);
+    if (cells.length < 4) throw Error("Linha sem quatro colunas: " + record.target);
+    const raw = textOnly(cells[2]).replace(/\s+/gu, " ").trim();
+    const lead = raw.split(/\s*[;|]\s*/u, 1)[0].trim() || raw;
+    const limit = 118;
+    let meaning = lead.length > limit ?
+        lead.slice(0, limit + 1).replace(/\s+\S*$/u, "").trim() : lead;
+    if (!meaning) meaning = raw.slice(0, limit);
+    if (meaning.length < raw.length) meaning += "…";
+    const escaped = meaning.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    const glossCell = cells[2].replace(/^(<td\b[^>]*>)[\s\S]*?(<\/td>)$/i,
+        (_, opening, closing) => opening + escaped + closing);
+    // data-search pode ter megabytes em linhas históricas; só pertence ao índice.
+    const opening = openTag(record.row).replace(/\sdata-search=(["'])[\s\S]*?\1/i,"");
+    return opening + cells[0] + cells[1] + glossCell + cells[3] + "</tr>";
+}
 const chunkSize = 128;
+const runs = [];
 const counts = {};
 const samples = {};
 const postings = new Map();
@@ -195,8 +328,14 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
                 samples[record.dictionary][record.source] = {target:record.target, lemma};
             }
         }
+        const previousRun = runs.at(-1);
+        if (previousRun && previousRun.dictionary === record.dictionary &&
+                previousRun.source === record.source) previousRun.end = id + 1;
+        else runs.push({start:id, end:id + 1, dictionary:record.dictionary, source:record.source});
+        const lemmaCell = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
+        const lemma = normalize(lemmaCell ? textOnly(lemmaCell[1]) : "");
         meta.push({id, target:record.target, dictionary:record.dictionary, source:record.source,
-            search:record.search, row:record.row});
+            lemma, search:record.search, row:compactRow(record)});
         cards.push({id, target:record.target, html:record.card});
         // A mesma normalização do navegador; substrings de 1, 2 ou 3
         // caracteres Unicode (não apenas letras) para preservar busca integral.
@@ -225,7 +364,7 @@ for (let i = 0; i < buckets.length; i++) {
     emit("grams/" + String(i).padStart(3, "0") + ".json", buckets[i]);
 }
 emit("catalog.json", {
-    version: 1, chunkSize, total: records.length, counts, samples, sourceTerms,
+    version: 2, chunkSize, total: records.length, counts, samples, runs, sourceTerms,
     duplicateSamples:duplicateSamples.slice(0,8)
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,

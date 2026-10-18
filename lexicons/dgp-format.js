@@ -16,6 +16,18 @@
     const lexicons = window.ScripturaLexicons ||= {};
     const source = lexicons.DGP ||= {source:"DGP", bibliographicTerms:[]};
 
+    /* Fonte DGP: abreviatura composta atestada em ἀδεᾶ (#466).
+       Evita dividir “acusativo plural neutro” em duas janelas isoladas. */
+    if (!source.bibliographicTerms.some(function (item) {
+        return item.key === "ac. pl. n.";
+    })) {
+        source.bibliographicTerms.push({
+            key: "ac. pl. n.",
+            type: "abbr",
+            text: "acusativo plural neutro"
+        });
+    }
+
     function hasGreek(value) {
         return /\p{Script=Greek}/u.test(value);
     }
@@ -157,6 +169,100 @@
         });
     }
 
+    /* Auditoria DGP 1–1000. Somente apresentação; preservar a fonte. */
+    function dgpTransliterateGreek(input) {
+        const alphabet = {
+            "α":"a","β":"b","γ":"g","δ":"d","ε":"e","ζ":"z",
+            "η":"ē","θ":"th","ι":"i","κ":"k","λ":"l","μ":"m",
+            "ν":"n","ξ":"x","ο":"o","π":"p","ρ":"r","σ":"s",
+            "ς":"s","τ":"t","υ":"y","φ":"ph","χ":"kh","ψ":"ps",
+            "ω":"ō","ϝ":"w"
+        };
+        return (input || "").normalize("NFD").replace(
+            /[\u0391-\u03A9\u03B1-\u03C9\u03C2\u03DD][\u0300-\u036F]*/gu,
+            function (part) {
+                const base = part[0], lower = base.toLowerCase();
+                let result = alphabet[lower];
+                if (!result) { return part; }
+                if (base !== lower) {
+                    result = result[0].toUpperCase() + result.slice(1);
+                }
+                const signs = part.slice(1);
+                if (signs.includes("\u0314")) { result = "h" + result; }
+                if (signs.includes("\u0345")) { result += "i"; }
+                if (signs.includes("\u0301")) { result += "\u0301"; }
+                else if (signs.includes("\u0300")) { result += "\u0300"; }
+                else if (signs.includes("\u0342")) { result += "\u0302"; }
+                if (signs.includes("\u0308")) { result += "\u0308"; }
+                return result;
+            }
+        ).normalize("NFC");
+    }
+
+    /* Referências verificadas externamente, NÃO deduzidas da sigla. */
+    const dgpVerifiedWorks = {
+        14: { greek: "ἀάσατο μέγα θυμῷ",
+              author: "Homero", work: "Ilíada 9.537" },
+        17: { greek: "ἐν παντὶ ἀβαρῆ ἐμαυτὸν ὑμῖν ἐτήρησα καὶ τηρήσω",
+              author: "Novo Testamento",
+              work: "Segunda Epístola aos Coríntios 11.9" },
+        60: { greek: "μή πως ἀβροτάξομεν ἀλλήλοιιν ἐρχομένω",
+              author: "Homero", work: "Ilíada 10.65–66" },
+        78: { greek: "τὰ θεῶν μηδὲν ἀγάζειν",
+              author: "Ésquilo", work: "Suplicantes 1061" }
+    };
+
+    function decorateDgpCitationExamples(root, audit) {
+        const card = root.closest(".entry-card[data-source='DGP']");
+        const id = card ? Number(
+            (card.id.match(/^entry-dgp-0*(\d+)$/) || [])[1]
+        ) : 0;
+        if (id < 1 || id > 1000) { return; }
+
+        root.querySelectorAll(".dgp-example").forEach(function (example) {
+            const author = example.querySelector(".dgp-citation-source");
+            const greek = example.querySelector(".dgp-example-greek");
+            if (!author || !greek) { return; }
+
+            if (greek.dataset.dgpTransliterated !== "true") {
+                const original = greek.textContent.trim();
+                const roman = dgpTransliterateGreek(original);
+                if (original && roman) {
+                    greek.classList.add("tooltip-trigger", "dgp-greek-quotation");
+                    greek.tabIndex = 0;
+                    greek.dataset.tooltipType = "greek";
+                    greek.dataset.tooltipLabel = original;
+                    greek.dataset.transliteration = roman;
+                    greek.dataset.dgpTransliterated = "true";
+                    greek.setAttribute("aria-label",
+                        "Citação em grego: consultar transliteração");
+                    audit.greekPopups += 1;
+                }
+            }
+
+            if (author.dataset.dgpCitationReviewed === "true") { return; }
+            author.dataset.dgpCitationReviewed = "true";
+            const locus = dgpVerifiedWorks[id];
+            const name = author.dataset.tooltipLabel ||
+                author.textContent.trim();
+            if (locus && name === locus.author &&
+                greek.textContent.normalize("NFC").includes(
+                    locus.greek.normalize("NFC"))) {
+                const work = document.createElement("span");
+                work.className = "dgp-citation-work";
+                work.dataset.editorialLayer = "GDHAGP";
+                work.textContent = " — " + locus.work;
+                author.appendChild(work);
+                audit.verifiedWorks += 1;
+            } else {
+                author.dataset.dgpWorkStatus = "nao-identificada";
+                author.title = "O DGP não identifica a obra nesta abonação. " +
+                    "É necessário cotejar o autor e o texto antigo.";
+                audit.unspecifiedWorks += 1;
+            }
+        });
+    }
+
     function emphasizeSenses(root, audit) {
         const walker = document.createTreeWalker(
             root,
@@ -238,7 +344,10 @@
             senses: 0,
             sources: 0,
             examples: 0,
-            ambiguous: 0
+            ambiguous: 0,
+            greekPopups: 0,
+            verifiedWorks: 0,
+            unspecifiedWorks: 0
         };
 
         roots.forEach(function (root) {
@@ -247,6 +356,7 @@
             }
 
             rearrangeExamples(root, audit);
+            decorateDgpCitationExamples(root, audit);
             emphasizeSenses(root, audit);
             root.dataset.dgpFormatted = "true";
             audit.cards += 1;

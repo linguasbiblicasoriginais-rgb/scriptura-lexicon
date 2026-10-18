@@ -1,3 +1,14 @@
+## Busca paginada, ampla e leve — 18/10/2026
+
+Branch de trabalho: `chat-gpt-melhorias`.
+
+- Cada consulta encontra substrings normalizadas, sem exigir o lema completo. Termos separados por espaços, vírgulas ou ponto e vírgula podem ocorrer em campos distintos: lema, transliteração, glosas ou definições indexadas. A ordem de relevância prioriza lemas exatos, prefixos, correspondência parcial no lema e, por fim, ocorrências nas definições.
+- O limite anterior de 250 resultados foi retirado. O total corresponde aos registros confirmados pelo índice, filtrados por dicionário/fonte. A lista apresenta dez registros por página, controle Anterior/Próxima e números de página. Somente dez linhas são inseridas no DOM.
+- Os resumos da tabela são derivados da glosa histórica (até aproximadamente 120 caracteres), sem pretensão de conservar nela a redação integral. O cartão preserva o artigo original e aparece sozinho; o botão de retorno conserva os resultados e a página.
+- O compilador de índice gera `catalog.json` v2 com intervalos compactos por dicionário/fonte e versões abreviadas das linhas HTML. O texto original dos artigos continua em `cards/`; o texto de busca fica em `meta/`. Não há alterações nos módulos filológicos.
+- Otimizações: descarte de IDs de outras fontes antes de carregar metadados; concorrência limitada a seis blocos; cache LRU com limites; descarte de falhas transitórias do cache; debounce de 180 ms; invalidação de pesquisas obsoletas. O desempenho depende também do tamanho do corpus, comprimento da consulta e rede do navegador.
+- O teste `tests/frontend-reader-browser.mjs` ganhou verificações de pesquisa por significado, resumos compactos e paginação determinística de 23 registros (10/10/3), além das verificações existentes de abertura/retorno, teclado, fontes, capas e IDs colidentes. A execução de validação está configurada para a branch `chat-gpt-melhorias`; seu resultado deve ser verificado no GitHub Actions.
+
 ## Homologação funcional das capas — 13/10/2026
 
 GitHub Actions [frontend-reader #38402737323](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/38402737323), commit de correção CSS `ef5804cba8ec6a1a59a17b8e84a4f1be66f38abd`: **PASS em Chromium**. Confirmados HTTP 200 e assinatura PNG de **8/8 arquivos**, carregamento efetivo de **8/8 imagens** nos filtros de fontes, `object-fit: contain` aplicado ao elemento correto `#source-cover-image`; regressão funcional de 6 fontes gregas, 1 hebraica e 1 aramaica. Latim permanece sem corpus. A execução não valida fidelidade filológica ou identidade entre edições.
