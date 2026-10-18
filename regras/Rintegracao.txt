@@ -1,3 +1,24 @@
+================================================================================
+REGRA CANÔNICA DE AUDITORIA ATÔMICA — GATE DE INTEGRAÇÃO (11/10/2026)
+================================================================================
+Consultar regras/Rauditoria.txt antes de aceitar qualquer declaração de “auditoria concluída”. Para cada verbete envolvido em PR de auditoria, exigir ficha individual com dez controles pertinentes, correções aplicadas (ou justificativa de nenhuma correção necessária), testes reais comprovados quando cabíveis, ausência de pendências obrigatórias e prova do estado da origem. Após o merge, conferir merged=true, SHA real e conteúdo publicado em chat-gpt-commits; SOMENTE então registrar AUDITORIA_CONCLUIDA. Antes disso: EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO. Lotes com triagem 100/100 ou “estrutura OK” NÃO satisfazem essa condição.
+Isto é regra de **rotulagem e aceitação editorial**: não apaga commits válidos, não proíbe registro de incorporação preliminar claramente rotulada, não habilita merges fora das autorizações vigentes, não modifica agendamentos e não autoriza escrita em main. Manter fontes e branches independentes; verificar HEAD e conflitos com prova da ferramenta.
+================================================================================
+
+ADENDO HALOT — 10/10/2026 (PREVALECE PARA A NOVA FONTE)
+
+Por indicação expressa do mantenedor, fica registrada a branch de origem
+chat-gpt-halot, exclusiva da fonte HALOT, conforme regras/Rhalot.txt.
+A regra histórica de SEIS origens e as tarefas agendadas efetivamente
+implantadas abaixo NÃO devem ser confundidas com uma automação HALOT.
+A nova branch poderá gerar PR de integração para chat-gpt-commits,
+com auditoria, verificações e merge efetivo, conservando a origem;
+NÃO realizar PR/merge de lotes HALOT ainda não auditados.
+A presente inclusão é DOCUMENTAL e NÃO instala, ativa nem modifica
+agendamento; qualquer inclusão de HALOT no integrador automático
+requer ajuste expresso de sua configuração e validação técnica.
+Nenhuma alteração em main ou em checkpoints de outras fontes.
+
 RINTEGRACAO — NORMA EXCLUSIVA DO AGENDAMENTO DE INTEGRAÇÃO (09/10/2026)
 
 1. Frequência: a cada 3 horas, oito verificações por dia; independente das quatro rotinas horárias.
@@ -114,3 +135,38 @@ dos testes, SHAs e tabela atualizada dos quatro totais lexicográficos.
     expected_sha/force=false antes da atualização. Verificar que
     PR #66 ficou sem conflitos e permaneceu ABERTO, sem merge para main.
     Somente autorização expressa nova permite editar main.
+
+16. PR #80 — resolução DGP (10/10/2026)
+    Origem chat-gpt-dgp (70f09b8348b35d7a4b82fe2eed2a2759024691cb) → base chat-gpt-commits (e8025f6df839843aeb6ab214e34e30c2d76a8a62); merge-base 9e3717634532dd3dd34204531424b419036fede6. Preservar o conteúdo da base, inclusive BDAG, LEH, PEREIRA, JASTROW e correções visuais. Preservar dgp.js da base com novos popups. Conservar dgp-batches.js da base nos ordinais 1–2180 e acrescentar SOMENTE os lotes 70–72 (2181–2480) da origem. Preservar as correções dos verbetes 95/124/150 do destino. Incorporar os novos módulos 073/074/075 (2481–2780) na ordem e antes do formatador, sem eliminar pereira.js. Usar o manifesto do DGP para os lotes 70–75, conservando o estado integrado do lote 69. Não substituir o manifesto legado BDAG regras/estado-orquestracao.json; novo snapshot DGP exclusivamente em regras/estado-orquestracao-dgp.json. Rdgp da origem é extensão exata do Rdgp da base; README conserva as demais frentes, com adendo DGP.
+    Auditorias estáticas dos lotes 70–74 documentadas em chat-gpt-correcoes. Lote 75 aprovado estaticamente em f28a5f282f2df7f90007c55d196044acee12b145 (100/100), com DOM, acessibilidade e popups dinâmicos pendentes. A resolução usa commit de dois pais reais diretamente na base com expected_sha e force=false; confirmar merged=true do PR, SHA final e integridade remota, preservando as origens. Sem alterações em main ou force push.
+
+17. PR #86 — resolução do lote DGP 76 (10/10/2026)
+    Origem: chat-gpt-dgp (87d01c4b9d14454c81c866dc9daf6aee259178ca) → destino chat-gpt-commits (c07509d65c86daf3b16f0d56c9562f9d1beaf982 antes da resolução); merge-base 70f09b8348b35d7a4b82fe2eed2a2759024691cb. A origem incorpora 100 verbetes canônicos consecutivos, ordinais 2781–2880, em lexicons/dgp-batch-076.js; todos os pares row/card e definições foram comparados contra XML fixado e aprovados na auditoria estática independente 6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069, registrada em auditorias/dgp-2026-10-10-lote76.md, branch chat-gpt-correcoes. A revisão filológica contextual ampliada, os popups dinâmicos, acessibilidade e testes de navegador continuam pendentes.
+    Resolução: manter a árvore do DESTINO como base, com todas as atualizações recentes de JASTROW, PEREIRA, BDAG, LEH, estilos e auditorias; acrescentar no index.html somente a linha de carregamento do módulo 076 após 075 e antes do formatador, sem apagar scripts alheios. Preservar 75 lotes DGP anteriores e suas auditorias, adicionar o 76 no manifesto, total 2880, próximo ordinal 2881 (ἀναπληρωτέον). Preservar regras/estado-orquestracao.json do destino (BDAG) INTACTO e atualizar exclusivamente regras/estado-orquestracao-dgp.json, sem retroceder nem perder o histórico. Adotar Rdgp da origem, que é extensão do prefixo íntegro do destino. Acrescentar adendo ao README sem apagar registros de outras fontes.
+    Usar commit de merge com dois pais reais na branch de integração, atualizando ref com expected_sha, force=false. Não modificar as branches de origem/correções nem main, não excluir branches. Confirmar PR state=closed E merged=true, dois pais Git, HEAD remoto, scripts e checkpoints depois da publicação.
+
+18. PR #87 — resolução e integração de auditorias/THAYER (10/10/2026)
+    Origem chat-gpt-correcoes (6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069) → destino chat-gpt-commits (6a06e1ccc7d474fb4ab2d3f900109d0d6e3f61f5 antes da resolução), merge-base 37c0c7cf9c3e79c22df9aff74abdf00ffaa7b3e0. PR inicialmente com mergeable=false, mergeable_state=dirty; diferença inclui 10 arquivos: quatro relatórios de auditoria, módulos THAYER 001/002, progresso e regra THAYER, e mudanças concorrentes de README e index.html.
+    Conciliação em DESTINO: manter README consolidado completo (inclusive registro do PR #86), acrescentando os dois blocos históricos de THAYER da origem e nota atual de integração; manter index.html com TODOS os scripts consolidados DGP/PEREIRA/JASTROW e adicionar apenas quatro âncoras próprias e os dois scripts THAYER antes de script.js. Preservar por blob as quatro auditorias, inclusive os relatórios JASTROW que explicitamente NÃO certificam tradução exaustiva e registram pendências; preservar literalmente os dois módulos lexicais THAYER. IDs dinâmicos THAYER de entry-thayer-0001 a entry-thayer-0120 (120/120, 20 + 100); cartão estático Ἀαρών independente. Checkpoint total THAYER 121, próximo ἀθυμέω. O conteúdo auditado DGP76 mantém 2880 verbetes e o relatório fica no consolidado sem perda de fonte.
+    A origem chat-gpt-correcoes é uma das seis origens autorizadas; os arquivos THAYER transitam NESTE PR por decisão específica do usuário, sem extensão automática de autorização à branch chat-gpt-thayer ou mudança de sua rotina. Checkpoint e Rthayer apenas registram a situação. Revisão filológica integral, browser, acessibilidade, popups e todos links seguem pendentes.
+    Merge exclusivo na base chat-gpt-commits com dois pais reais, expected_sha/force=false; confirmar HEAD remoto, PR closed+merged=true, scripts, arquivos, checkpoints e auditorias. Preservar todas branches, main inalterada.
+
+    CONFIRMAÇÃO APÓS A PUBLICAÇÃO PR #87: GitHub retornou state=closed e merged=true, merge_commit_sha ae92905500b289ae2f1f4ab6c9623ca2f1a04e46. HEAD chat-gpt-commits no momento da confirmação = ae92905500b289ae2f1f4ab6c9623ca2f1a04e46; origem chat-gpt-correcoes preservada em 6c3e55f8feceac5cbbcfdb8a2e63c4cf8666a069. Módulos THAYER idênticos aos blobs de origem (20 + 100 search-row/entry-card, IDs consecutivos 0001–0120), quatro âncoras únicas; cartão histórico de Ἀαρών preservado. Scripts DGP76, PEREIRA e JASTROW mantidos; legado BDAG 1061 e snapshot DGP 2880 intactos. Nenhum status de CI presente; navegador, acessibilidade e revisão filológica completa ainda pendentes.
+
+19. PR #89 — JASTROW 410 (11/10/2026)
+    Origem chat-gpt-jastrow, destino chat-gpt-commits. Resolver somente README.md e index.html conservando literalmente o histórico de THAYER/DGP e de JASTROW. Os dez scripts novos de JASTROW, os XML 401–600, workflow, regras e progresso transitam para a base sem perda; scripts THAYER e DGP76 permanecem. Atualizar manifesto integrado JASTROW para 410 registros, próximo A00410, 600 registros-fonte, 0 auditados filologicamente; ressalvar revisão filológica e testes de navegador. Criar merge real de dois pais e preservar origem/main.
+
+20. PR #90 — AUTORIZAÇÃO MANUAL (11/10/2026)
+    Resolver PR #90 de chat-gpt-thayer (1e0066a5e7966c244ad840ff1b4ccadd4cd35a10) para chat-gpt-commits (c652136c1220cfe780c2697531d7da9a2fddcea2); merge-base 443851429592a26355f552b10daa3ffe7aa9ab61. Preservar integralmente as fontes e scripts da base, o README da integração JASTROW e os dados da integração THAYER PR #87. Acrescentar literalmente thayer-batch-003.js e thayer-batch-004.js, com 100 pares de IDs/cartões cada, mais duas auditorias, unindo README, Rthayer e progresso final 321. Carregar os dois módulos depois de thayer-batch-002.js antes de script.js. Executar merge com dois pais reais na base, sem alterar origem/main, force=false; conferir PR closed/merged=true. Esta aprovação não muda a lista de origens automatizadas. Filologia, DOM/browser e acessibilidade pendentes.
+
+    CONFIRMAÇÃO PR #90 — state=closed, merged=true (11/10/2026): o GitHub confirmou merge_commit_sha adcc52d941904383c9a1d3fd905b6d14f98eb657, merged_at 2026-10-11T05:14:18Z, pais [c652136c1220cfe780c2697531d7da9a2fddcea2, 1e0066a5e7966c244ad840ff1b4ccadd4cd35a10]. Integridade remota: 320 registros modulares THAYER correspondentes, mais Ἀαρών estático, total 321; sem IDs/targets duplicados ou órfãos. Os blobs lexicais de BDAG, DGP, LEH, PEREIRA e JASTROW permaneceram inalterados, os 34 scripts anteriores preservados e acrescentados os dois THAYER. Branches de origem e main preservadas; testes de navegador e revisão filológica integral não realizados.
+
+21. PR #91 — JASTROW, sexta rodada (11/10/2026)
+    Origem chat-gpt-jastrow; base chat-gpt-commits. Preservar destino DGP76, THAYER PR90 e outros léxicos; incorporar 100 verbetes A00410–A00509 e seus popups com base no XML fixo, mantendo total JASTROW 510, originais 600, próximo A00510 e total_audited=0. Resolver index.html acrescentando somente cinco scripts de JASTROW depois do popup 311–410. Conservar README inteiro da base, acrescentando sexta rodada e nota da integração. Importar relatório auditoria/JASTROW-2026-10-11-lote-006.md da branch correcoes. Executar auditoria em Node antes do merge de dois pais; não editar main nem eliminar branches. Revisão filológica e browser pendentes.
+
+22. PR #92 — JASTROW, conclusão ordinal 600 (11/10/2026)
+    Origem chat-gpt-jastrow, destino chat-gpt-commits. Preservar o conteúdo integral do destino BDAG/LEH/DGP/PEREIRA/THAYER; incorporar 90 verbetes A00510–A00599 em seis módulos, um de popups e auditoria Node. Inserir scripts após o popup JASTROW 411–510, antes de THAYER; preservar README histórico e registrar a rodada. Importar relatorio auditoria/JASTROW-2026-10-11-lote-007.md. Total 600 verbetes JASTROW, 600 originais XML, 176 popups únicos; próximo A00600 não extraído. Auditoria cumulativa Actions 38117209491 passou; revisão filológica integral e navegador pendentes. Não escrever em main nem excluir branches. Merge real com dois pais, sem force.
+
+
+NORMA TRANSVERSAL — QUADRO CONSOLIDADO DE TODOS OS DICIONÁRIOS (11/10/2026)
+Retificação do item histórico que mencionava somente quatro fontes no relatório: incluir obrigatoriamente TODOS os dicionários ativos, iniciados ou zerados, em toda resposta de execução/auditoria/integrador, com as colunas `Dicionário | Incorporação | Auditoria textual e estrutural | Auditoria filológica | Integração | Total incorporado`, legenda ✓/◐/—, total numérico por fonte e linha TOTAL. A lista mínima e critérios constam de `regras/Rprogresso-global.txt`. Essa norma de RELATÓRIO não acrescenta origens aos agendamentos de integração nem altera o escopo de escrita; fontes como THAYER, JASTROW e HALOT continuam sujeitas às respectivas políticas de PR.

@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "lexicon": "DGP",
+  "kind": "philology_first_pass",
+  "source": {
+    "repository": "aniseferreira/Grc-Por-DigDict",
+    "commit": "deb54b426ead447d01ced7534736f3e77be7015b",
+    "blob": "eec318bb6150b6b2f4422ea4a76383ac0a254de2",
+    "alpha_entries": 7204
+  },
+  "lexical_head": "59d497c25c0a9bbc0a15a2d49d6586e5d6892500",
+  "corrections_base_head": "3728a682973d37093e1a3bac14163b0d47107396",
+  "scope": {
+    "from": 41,
+    "to": 140,
+    "records": 100,
+    "external_directed": 20,
+    "internal_only": 80,
+    "next_ordinal": 141
+  },
+  "static_audit": {
+    "source": {
+      "rows": 100,
+      "cards": 100,
+      "duplicates": [],
+      "orphans": [],
+      "lemma_differ": [
+        95,
+        124
+      ],
+      "full_headword_search_missing": [
+        61,
+        62,
+        63,
+        64,
+        67,
+        70,
+        71,
+        74,
+        80,
+        95,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        129,
+        130,
+        131,
+        133,
+        134,
+        136,
+        138,
+        139,
+        140
+      ],
+      "definition_literal": 91,
+      "soft_hyphen_only": [
+        117
+      ],
+      "other_definition_expansions_or_differences": [
+        43,
+        60,
+        78,
+        86,
+        110,
+        111,
+        112,
+        124
+      ]
+    },
+    "corrections": {
+      "rows": 100,
+      "cards": 100,
+      "duplicates": [],
+      "orphans": [],
+      "lemma_differ": [],
+      "full_headword_search_missing": [],
+      "definition_literal": 92,
+      "soft_hyphen_only": [
+        117
+      ],
+      "other_definition_expansions_or_differences": [
+        43,
+        60,
+        78,
+        86,
+        110,
+        111,
+        112
+      ]
+    }
+  },
+  "priority_pending": [
+    43,
+    56,
+    60,
+    62,
+    70,
+    71,
+    74,
+    77,
+    78,
+    80,
+    83,
+    85,
+    86,
+    95,
+    98,
+    100,
+    103,
+    106,
+    109,
+    111,
+    112,
+    123,
+    124,
+    127,
+    136,
+    137,
+    139,
+    140
+  ],
+  "records": [
+    {
+      "ordinal": 41,
+      "lemma": "ἀβλής, ῆτος",
+      "commentary": "Adjetivo em -ητ- com genitivo -ῆτος, registrado para masculino/feminino. O privativo é relacionado pelo DGP a βάλλω. Distinguir 'não lançado' do resultado 'não atingido' do verbete seguinte.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 42,
+      "lemma": "ἄβλητος, ος, ον",
+      "commentary": "Adjetivo privativo de três terminações, com valor 'não atingido'. A semelhança de formação com #41 não prova equivalência de distribuição, que exigiria abonações.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 43,
+      "lemma": "ἀβληχρός, ά, όν",
+      "commentary": "DGP classifica ἀ- como intensivo (não privativo); as acepções abrangem muralhas, sono, doença e morte. Rubricas Homero, Aristófanes e Plutarco foram expandidas na interface; conferir loci específicos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 44,
+      "lemma": "ἀβοήθητος, ος, ον",
+      "commentary": "Três esferas de aplicação: doença/veneno incurável, pessoa sem socorro e coisa ineficaz. A polissemia de ἀβοήθητος não se reduz a um único tipo de desamparo.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 45,
+      "lemma": "ἀβόσχητος, ος, ον",
+      "commentary": "Formação privativa com βόσχω segundo a fonte; 'sem pastagens' é relativo à disponibilidade de pasto. A seleção de referentes depende de testemunhos ainda não localizados.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 46,
+      "lemma": "ἀβουκόλητος, ος, ον",
+      "commentary": "Composto com βουκολέω: o DGP registra desinteresse e negligência, valores metafóricos. Não fabricar acepção literal 'sem pastor' por decomposição morfológica.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 47,
+      "lemma": "ἀβουλία, ας (ἡ)",
+      "commentary": "Nome feminino derivado de ἄβουλος, com 'irreflexão' e 'indecisão'. São conceitos relacionados, mas não sinônimos necessários em todo contexto.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 48,
+      "lemma": "ἄβουλος, ος, ον",
+      "commentary": "Adjetivo com referentes pessoais e não pessoais. Preservar regência em dativo do sentido 'indiferente a'; não confundir com o substantivo ἀβουλία.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 49,
+      "lemma": "ἀβούλως",
+      "commentary": "Advérbio em -ως 'irrefletidamente'. Corresponde ao campo de ἄβουλος sem que a fonte autorize novas acepções de vontade deliberada.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 50,
+      "lemma": "ἄβρεκτος, ος, ον",
+      "commentary": "Remissão pura a ἄβροχος (#64). Preservar a relação lexical; não reproduzir toda a definição como se constasse originalmente deste verbete.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 51,
+      "lemma": "ἁβροβάτης, ου",
+      "commentary": "Composto de ἁβρός e βαίνω. 'Andar delicado' e avaliação 'efeminado' são caracterizações lexicais históricas, não descrições gerais de gênero.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 52,
+      "lemma": "ἁβρόβιος, ος, ον",
+      "commentary": "Composto de ἁβρός e βίος, qualificação de modo de vida. A tradução avaliativa do DGP não deve ser universalizada para qualquer uso de ἁβρός.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 53,
+      "lemma": "ἁβρόγοος, ος, ον",
+      "commentary": "Composto com γόος, qualificando modo de gemer. A comparação 'como mulher' é expressão da fonte, sem implicar exclusividade do referente feminino.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 54,
+      "lemma": "ἁβροδίαιτα, ης (ἡ)",
+      "commentary": "Nome feminino relativo a δίαιτα; 'vida efeminada' no DGP. Relacioná-lo com o adjetivo #55 sem fundir classes gramaticais.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 55,
+      "lemma": "ἁβροδίαιτος, ος, ον",
+      "commentary": "Adjetivo e substantivação neutra τὸ ἁβροδίαιτον na mesma entrada. A substantivação nomeia um modo de vida; não converte todas as formas em substantivos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 56,
+      "lemma": "ἄβρομος, ος, ον",
+      "commentary": "O 'duv.' é explícito: DGP admite leitura intensiva 'fragoroso' e privativa 'silencioso'. Cunliffe cita Ilíada 13.41 para leitura ruidosa; outra tradição distingue ἄβρωμος 'sem cheiro'. Suspender decisão editorial até colação contextual.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:cunliffe_lex-n13/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 57,
+      "lemma": "ἁβροπενθής, ής, ές",
+      "commentary": "Composto ἁβρός + πένθος. O sentido de lamento langoroso exige prova de gênero/contexto antes de atribuir intensidade psicológica específica.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 58,
+      "lemma": "ἁβρόπλουτος, ος, ον",
+      "commentary": "Composto ἁβρός + πλοῦτος com uso metafórico para cabelo viçoso/sedoso. Não transportar literalmente 'riqueza' financeira à interpretação.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 59,
+      "lemma": "ἁβρός, ά, όν",
+      "commentary": "ἁβρός assume conotação positiva ('gracioso/delicado') e pejorativa ('luxuoso/efeminado'), segundo contexto e referente. Essa variação é corroborada no LSJ.",
+      "external_link": "https://cld.bbaw.de/lemma/grc/%E1%BC%81%CE%B2%CF%81%CF%8C%CF%82",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 60,
+      "lemma": "ἀβροτάζω",
+      "commentary": "O DGP restringe ἀβροτάζω a primeira pessoa plural do subjuntivo aoristo. Ilíada 10.65 traz ἀβροτάξομεν ἀλλήλοιιν; o pronome é dual e a construção é descrita com genitivo por Cunliffe. Locus identificado.",
+      "external_link": "https://atlas.perseus.tufts.edu/nodes/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:10.65/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 61,
+      "lemma": "ἁβρότης, ητος (ἡ)",
+      "commentary": "Substantivo abstrato de ἁβρός. Distinguir requinte/opulência, delicadeza/indolência e viço da juventude; são três ambientes semânticos no DGP, não uma glosa universal.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 62,
+      "lemma": "ἄβροτος, ος",
+      "commentary": "A forma ἄβροτος é descrita com duas e três terminações distribuídas entre cabeçalho e corpo. LSJ/Bailly atestam valor sacral em Ilíada 14.78 e lugar desabitado em tradição trágica. Não confundir com βρότος 'sangue'.",
+      "external_link": "https://cld.bbaw.de/lemma/grc/%E1%BC%84%CE%B2%CF%81%CE%BF%CF%84%CE%BF%CF%82",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 63,
+      "lemma": "ἁβροχίτων, ωνος",
+      "commentary": "Composto de ἁβρός com χιτών e flexão comum aos dois gêneros no DGP. O sentido têxtil 'túnica delicada' não autoriza generalizar 'cobertas finas' para todos os usos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 64,
+      "lemma": "ἄβροχος, ος, ον",
+      "commentary": "Adjetivo ἄβροχος tem valor de não molhado e de privado de chuva/água. Não confundir os dois predicados: um incide sobre molhamento, outro sobre ambiente seco.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 65,
+      "lemma": "ἁβρύνω",
+      "commentary": "ἁβρύνω distingue ativa (ornar, mimar) e média (afetar superioridade, orgulhar-se). Preservar o dativo registrado no último sentido em vez de nivelar regências.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 66,
+      "lemma": "ἁβρῶς",
+      "commentary": "Advérbio em -ῶς ligado à família de ἁβρός, com nuance de delicadeza e languidez. Polaridade avaliativa requer contexto da ocorrência.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 67,
+      "lemma": "Ἀβυδηνός, ή, όν",
+      "commentary": "Gentílico de Ἄβυδος (#70) com feminino substantivado ἡ Ἀβυδηνή [χώρη], 'território de Abido'. A elipse da palavra entre colchetes é análise editorial, não parte atestada necessariamente.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 68,
+      "lemma": "Ἀβυδόθεν",
+      "commentary": "Advérbio em -θεν indica proveniência 'de Abido', contrastando com o locativo #69. Não normalizar ambos como indicação genérica de lugar.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 69,
+      "lemma": "Ἀβυδόθι",
+      "commentary": "Advérbio em -θι traduz 'em Abido'. A diferença espacial de proveniência em #68 vs localização em #69 é informação lexical relevante.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 70,
+      "lemma": "Ἄβυδος, ου (ἡ)",
+      "commentary": "Topônimo Ἄβυδος aplicado a cidade da Trôade e a cidade do Egito segundo a fonte. Remissões históricas futuras precisam distinguir os dois referentes geográficos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 71,
+      "lemma": "ἄβυσσος, ος, ον",
+      "commentary": "ἄβυσσος passa de adjetivo 'sem fundo' a substantivo ἡ ἄβυσσος. LXX emprega o termo para o abismo/profundidade e Lc 8.31 o usa num contexto demonológico; 'habitação dos mortos' não vale para toda ocorrência.",
+      "external_link": "https://biblehub.com/greek/12.htm",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 72,
+      "lemma": "ἄγα",
+      "commentary": "ἄγα, dórico para ἄγη no DGP: preservar acento inicial. A forma não é intercambiável graficamente com ἀγά (#73).",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 73,
+      "lemma": "ἀγά",
+      "commentary": "ἀγά, dórico para ἀγή no DGP: acento final e forma-base diferem de #72; conservar as duas remissões sem colapso por normalização.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 74,
+      "lemma": "ἀγάασθαι, ἀγάασθε",
+      "commentary": "Agrupamento de infinitivo ἀγάασθαι e segunda pessoa plural presente ἀγάασθε de ἀγάομαι. O modo de ἀγάασθε não vem especificado no DGP; não inventá-lo.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 75,
+      "lemma": "Ἀγαβάτανα",
+      "commentary": "Remissão ortográfica Ἀγαβάτανα → Ἀγβάτανα (#136). Manter grafia alternativa sem promover explicação etimológica ou geográfica própria.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 76,
+      "lemma": "ἀγαγεῖν",
+      "commentary": "ἀγαγεῖν é infinitivo de segundo aoristo de ἄγω, distinto do infinitivo presente do mesmo verbo. Preservar tempo/aspecto na análise morfológica.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 77,
+      "lemma": "ἄγαγον",
+      "commentary": "ἄγαγον classificado no DGP como forma dórica de segundo aoristo de ἄγω; a forma isolada não autoriza decidir pessoa, número e contexto.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 78,
+      "lemma": "ἀγάζω",
+      "commentary": "ἀγάζω apresenta insistência excessiva, valor médio de veneração e uso tardio de irritação. A citação de Ésquilo está na fonte, mas seu locus exato não foi estabelecido nesta rodada.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 79,
+      "lemma": "ἀγάθεος",
+      "commentary": "ἠγάθεος é forma de referência do dórico ἀγάθεος no DGP. Registrar como variação dialetal, sem apagar acentos ou fundir entradas.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 80,
+      "lemma": "ἀγαθοεργέω-ῶ",
+      "commentary": "O DGP reúne ἀγαθοεργέω e ἀγαθουργέω para 'fazer o bem'. LSJ identifica 1Timóteo 6.18 para a primeira e Atos 14.17 para a forma contraída; não inferir diferença semântica apenas da grafia.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n250/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 81,
+      "lemma": "ἀγαθοεργία, ας (ἡ)",
+      "commentary": "Substantivo abstrato de ἀγαθοεργός: 'boa ação/benefício/serviço'. A fonte não especifica caráter litúrgico de serviço; evitar introduzir tal distinção sem testemunho.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 82,
+      "lemma": "ἀγαθοεργός, ός, όν",
+      "commentary": "Adjetivo de agente ἀγαθός + ἔργον, 'que pratica o bem'. Manter flexão fornecida pelo DGP e não equiparar automaticamente a formas em -ουργ-.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 83,
+      "lemma": "ἀγαθοποιέω-ῶ",
+      "commentary": "Verbo ἀγαθοποιέω marcado bíblico, com socorro a alguém e agir honestamente. O particípio ἀγαθοποιοῦντας em 1Pedro 2.15 corrobora ação boa no contexto ético; preservar as regências distintas da fonte.",
+      "external_link": "https://www.biblegateway.com/verse/grc/1%20Peter%202%3A15",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 84,
+      "lemma": "ἀγαθοποιΐα, ας (ἡ)",
+      "commentary": "Nome feminino ἀγαθοποιΐα, formado na família de #85, 'prática do bem/boa ação'. A rubrica bíblica não fornece locus específico nesta entrada e não autoriza atribuição de versículo por conjectura.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 85,
+      "lemma": "ἀγαθοποιός, ός, όν",
+      "commentary": "ἀγαθοποιός combina valor geral benéfico, uso astrológico e substantivação bíblica. Separar terminologia astrológica de valor moral cristão; exigir abonação antes de ampliar sentidos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 86,
+      "lemma": "ἀγαθός, ή, όν",
+      "commentary": "ἀγαθός envolve nobreza, bravura, virtude, habilidade, utilidade, bens materiais e o bem filosófico; apresenta comparativos/superlativos em grande parte supletivos. A etimologia 〈ἄγαμαι〉 é proposta do DGP: Chantraine/Beekes consideram a origem incerta.",
+      "external_link": "https://iecor.clld.org/cognatesets/4118",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 87,
+      "lemma": "ἀγαθουργέω-ῶ",
+      "commentary": "Remissão de ἀγαθουργέω para ἀγαθοεργέω (#80), preservando a variante verbal. Uma remissão não garante identidade de distribuição cronológica.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 88,
+      "lemma": "ἀγαθουργία",
+      "commentary": "Remissão nominal ἀγαθουργία → ἀγαθοεργία (#81). Documentar variante formativa, sem fabricar sentidos próprios.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 89,
+      "lemma": "ἀγαθουργός",
+      "commentary": "Remissão de agente ἀγαθουργός → ἀγαθοεργός (#82), com alteração de vogal/construção do composto. Manter ambos os índices lexicalmente recuperáveis.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 90,
+      "lemma": "ἀγαθῶς",
+      "commentary": "Advérbio ἀγαθῶς 'bem'; não confundir com o neutro substantivado τὸ ἀγαθόν de #86, porque classe e sintaxe diferem.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 91,
+      "lemma": "ἀγαθωσύνη, ης (ἡ)",
+      "commentary": "Nome abstrato ἀγαθωσύνη, rubrica bíblica; quatro ocorrências do NT documentadas em Rm 15.14, Gl 5.22, Ef 5.9 e 2Ts 1.11. O DGP traduz 'bondade'; nuanças contextuais precisam de estudo de passagem.",
+      "external_link": "https://www.billmounce.com/greek-dictionary/agathosyne",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 92,
+      "lemma": "ἀγαίομαι",
+      "commentary": "Verbo médio ἀγαίομαι apresenta indignação/inveja e admiração; a direção afetiva pode inverter conforme contexto. Não resolver ambiguidade sem frase atestada.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 93,
+      "lemma": "ἀγακλεής, ής, ές",
+      "commentary": "ἀγακλεής derivado de ἄγαν + κλέος segundo DGP, qualificando fama extraordinária. Não confundir com as formações próximas #94–95.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 94,
+      "lemma": "ἀγακλειτός, ή, όν",
+      "commentary": "ἀγακλειτός aplica-se a pessoa renomada ou objeto conhecido/memorável. A distribuição por referente está explícita, mas os loci individuais não foram conferidos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 95,
+      "lemma": "ἀγακλυτός, ή, όν",
+      "commentary": "A fonte traz ἀγακλυτός, ή, όν; o HEAD lexical ainda tem ής na segunda terminação. A branch de correções já restaura ή, e nenhuma nova emenda é necessária neste lote.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 96,
+      "lemma": "ἀγάλακτος, ος, ον",
+      "commentary": "ἀγάλακτος: paciente pode ser mulher sem leite, pastagem incapaz de propiciar leite ou cria não aleitada. Preservar os três referentes para evitar uma definição excessivamente genérica.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 97,
+      "lemma": "ἀγαλλίασις, εως (ἡ)",
+      "commentary": "Substantivo ἀγαλλίασις em -σις, designando regozijo/exultação e relacionado ao verbo #98. O DGP assinala uso bíblico, sem locus próprio.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 98,
+      "lemma": "ἀγαλλιάω-ῶ",
+      "commentary": "Verbo ἀγαλλιάω no DGP admite ativa/média e construções com acusativo, dativo e preposições. Uma glosa única não resolve a sintaxe; verificar cada ocorrência bíblica em trabalho de atestação.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 99,
+      "lemma": "ἀγάλλω",
+      "commentary": "ἀγάλλω: distinguir ativo 'honrar/ornar' de médio 'vangloriar-se/alegrar-se', com regências múltiplas. Não tratar toda forma média como passiva.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 100,
+      "lemma": "ἄγαλμα, ατος (τό)",
+      "commentary": "ἄγαλμα progride de objeto precioso/oferenda a imagem cultual, estátua, símbolo e hieróglifo tardio no DGP. Não verter toda ocorrência como 'ídolo' sem contexto religioso e cronológico.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 101,
+      "lemma": "ἀγαλμάτιον, ου (τό)",
+      "commentary": "Diminutivo ἀγαλμάτιον relacionado a ἄγαλμα. O sufixo pode indicar objeto pequeno, mas não implica necessariamente função cultual.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 102,
+      "lemma": "ἀγαλματοποιός, οῦ (ὁ)",
+      "commentary": "Nome profissional ἀγαλματοποιός formado com ποιέω, 'escultor/estatuário'. Não reduzir sua denotação a fabricante de ídolos sem contexto da atividade.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 103,
+      "lemma": "ἄγαμαι",
+      "commentary": "ἄγαμαι tem sentidos de admirar, encantar-se, invejar e irritar-se, com regências diferenciadas. Bailly confirma a polaridade positiva/negativa; registrar acusativo, genitivo e dativo quando contextualizados.",
+      "external_link": "https://cld.bbaw.de/lemma/grc/%E1%BC%84%CE%B3%CE%B1%CE%BC%CE%B1%CE%B9",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 104,
+      "lemma": "Ἀγαμεμνόνειος, α, ον",
+      "commentary": "Adjetivo referente a Agamenão com variantes Ἀγαμεμνόνειος e Ἀγαμεμνόνεος. Preservar as duas flexões, sem transformar a variante do corpo em acepção independente.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 105,
+      "lemma": "Ἀγαμεμνονίδης, ου (ὁ)",
+      "commentary": "Patronímico Ἀγαμεμνονίδης indica filho ou descendente de Agamenão, não necessariamente uma personagem mitológica específica na ausência de ocorrência.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 106,
+      "lemma": "Ἀγαμέμνων, ονος (ὁ)",
+      "commentary": "Nome próprio Ἀγαμέμνων, chefe dos gregos no ciclo troiano, conforme DGP. A relação 〈ἄγαν, μένος〉 é hipótese etimológica da fonte, não derivação histórica comprovada pelo resumo mítico.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 107,
+      "lemma": "ἀγαμένως",
+      "commentary": "Advérbio ἀγαμένως relacionado a ἄγαμαι, com admiração, modo admirável e aprovação. Distinguir juízo do observador de modo de ação.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 108,
+      "lemma": "ἀγαμία, ας (ἡ)",
+      "commentary": "Nome feminino ἀγαμία (celibato) derivado de ἄγαμος; o DGP não apresenta lei ou contexto institucional que permita determinar o regime jurídico.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 109,
+      "lemma": "ἀγαμίου δίκη (ἡ)",
+      "commentary": "Expressão jurídica composta ἀγαμίου δίκη: ação contra homens que ultrapassam idade de casar, segundo o DGP. Faltam fontes legais primárias para época, local e procedimento; não inventá-los.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 110,
+      "lemma": "ἄγαμος, ος, ον",
+      "commentary": "ἄγαμος tanto qualifica solteiro quanto, na citação de Sófocles, um 'casamento que não é casamento'. O exemplo literário é uso paradoxal e não definição cívica geral.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 111,
+      "lemma": "ἄγαν",
+      "commentary": "ἄγαν indica grau muito/eccessivo, inclusive μηδὲν ἄγαν. A derivação 〈ἄγω〉 consta do DGP e exige controle etimológico independente antes de ser aceita como estabelecida.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 112,
+      "lemma": "ἀγανακτέω-ῶ",
+      "commentary": "ἀγανακτέω abrange vinho em fermentação, agitação interior e indignação de pessoa. O DGP registra múltiplas preposições/casos (dat., ἐπί, περί, πρός etc.), a preservar, sem nivelar tudo como transitivo direto.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 113,
+      "lemma": "ἀγανάκτησις, εως (ἡ)",
+      "commentary": "ἀγανάκτησις denota causa de indignação, sentimento e sensação desagradável. Distinguir objeto motivador e estado afetivo, em vez de fundir as três acepções.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 114,
+      "lemma": "ἀγάννιφος, ος, ον",
+      "commentary": "Composto com ἄγαν e νίφω 'coberto de neve'. Não quantificar neve ou postular região climática sem testemunhos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 115,
+      "lemma": "ἀγανόρειος, α, ον",
+      "commentary": "Remissão de ἀγανόρειος a ἀγήνωρ. Preservar destino e grafia; não deduzir pessoa, gênero ou uso genealógico sem contexto.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 116,
+      "lemma": "ἀγανός, ή, όν",
+      "commentary": "ἀγανός com ἀ- declarado intensivo no DGP, não privativo. Os valores suave/sereno dependem de palavra, objeto ou pessoa qualificados.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 117,
+      "lemma": "ἀγανοφροσύνη, ης (ἡ)",
+      "commentary": "ἀγανοφροσύνη, nome feminino derivado de ἀγανόφρων; o XML possui hífen discricionário dentro da base, omitido na exibição. É normalização tipográfica, não erro de morfologia.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 118,
+      "lemma": "ἀγανόφρων, ων, ον",
+      "commentary": "ἀγανόφρων registra genitivo -ονος e dois referentes: sujeito gentil ou qualidade que traz serenidade. O genitivo deve ser mantido no paradigma.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 119,
+      "lemma": "ἀγανῶς",
+      "commentary": "Advérbio ἀγανῶς 'gentilmente/serenamente', distinto do adjetivo #116 e do composto #118; nenhuma regência própria foi dada.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 120,
+      "lemma": "ἀγάομαι",
+      "commentary": "O DGP classifica ἀγάομαι como forma épica de ἄγαμαι. Equivalência dialetal não prova coincidência em todos os tempos e formas verbais.",
+      "external_link": "https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%84%CE%B3%CE%B1%CE%BC%CE%B1%CE%B9",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 121,
+      "lemma": "ἀγαπάζω",
+      "commentary": "Verbo ἀγαπάζω em usos restritos e variantes épicas/líricas, relacionado a ἀγαπάω. LSJ/Cunliffe confirmam acolher com afeição em Od 16.17 e voz média; distinguir gesto de acolhida de afeto abstrato.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n345/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 122,
+      "lemma": "ἀγαπάω-ῶ",
+      "commentary": "ἀγαπάω abrange acolher, amar, preferir, contentar-se, ter hábito e uso passivo, com regências diferentes. Lexicon Thucydideum confirma 'contentar-se'; não reduzir tudo a 'amor' no sentido afetivo.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lexicon-thucydideum-14/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 123,
+      "lemma": "ἀγάπη, ης (ἡ)",
+      "commentary": "ἀγάπη é amor/caridade e também refeição comunitária cristã. LSJ registra Judas 12 para o segundo uso, mas 'ceia eucarística' no DGP é qualificação que necessita análise ritual histórica: ágape não equivale automaticamente à Eucaristia em todos os textos.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n347/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 124,
+      "lemma": "ἀγαπήνωρ, ορος",
+      "commentary": "Fonte distingue lema ἀγαπήνωρ, ορος e nota inicial definicional '(masc.)'. HEAD lexical deslocou-a para o lema, enquanto ramo de correções preserva a segmentação XML. É divergência editorial previamente tratada, não nova emenda.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 125,
+      "lemma": "ἀγάπησις, εως (ἡ)",
+      "commentary": "Nome abstrato ἀγάπησις em -σις relacionado a ἀγαπάω. Afeição/carinhos/amor não designa por si refeição cristã de ἀγάπη (#123).",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 126,
+      "lemma": "ἀγαπητικός, ή, όν",
+      "commentary": "Adjetivo ἀγαπητικός designa agente afetuoso, associado a ἀγαπητός, mas não é sinônimo de ser objeto do amor; distinguir voz semântica ativa/dispositiva.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 127,
+      "lemma": "ἀγαπητός, ή, όν",
+      "commentary": "ἀγαπητός: amado, desejável, uso impessoal de aceitação e substantivação para filho/filha únicos. LSJ confirma Homero, LXX e Platão; a acepção familiar não equivale necessariamente a μονογενής em qualquer contexto.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n354/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 128,
+      "lemma": "ἀγαπητῶς",
+      "commentary": "Advérbio ἀγαπητῶς tem dois valores contextuais contrastantes: 'de bom grado' e 'mal/com dificuldade'. LSJ confirma 'gladly/contentedly' e 'barely/scarcely'; conservar ambas as acepções.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n354/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 129,
+      "lemma": "ἀγάρροος-ους, οος-ους, οον-ουν",
+      "commentary": "Adjetivo com formas contraídas -ρροος/-ρρους, declinadas no cabeçalho. A variação gráfica não significa múltiplas raízes; o valor é curso caudaloso/impetuoso.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 130,
+      "lemma": "ἀγάστονος, ος, ον",
+      "commentary": "ἄγαν + στένω, com mar que brame e pessoa que geme. Os diferentes referentes justificam glosas sonoras distintas sem postular verbetes homógrafos.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 131,
+      "lemma": "ἀγαστός, ή, όν",
+      "commentary": "ἀγαστός relacionado a ἄγαμαι: admirável ou querido, segundo o DGP. A proximidade de sentidos não garante substituição lexical em toda construção.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 132,
+      "lemma": "ἀγαστῶς",
+      "commentary": "Advérbio ἀγαστῶς 'admiravelmente'; não transportar automaticamente o segundo valor afetivo do adjetivo #131.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 133,
+      "lemma": "ἀγαυός, ή, όν",
+      "commentary": "ἀγαυός pode qualificar pessoa ilustre e coisa esplêndida, com domínios diferentes na fonte. Sem etimologia explícita não acrescentar uma reconstrução.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 134,
+      "lemma": "ἀγαυρός, ά, όν",
+      "commentary": "ἀγαυρός com base intensiva no DGP; ἀγαυρότατα é advérbio de superlativo presente na definição. Não promovê-lo a novo lema adjetival autônomo.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 135,
+      "lemma": "ἀγάω",
+      "commentary": "ἀγάω ocorre especialmente como médio ἀγάομαι e é remetido a ἄγαμαι, sob restrição de tempos presente/imperfeito. Não criar paradigma restante.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 136,
+      "lemma": "Ἀγβάτανα, ων (τά)",
+      "commentary": "Ἀγβάτανα, topônimo plural neutro da Média e da Síria segundo DGP. A remissão de #75 fornece grafia alternativa; não fundir cidades distintas nem atribuir etimologia não fornecida.",
+      "external_link": null,
+      "evidence_class": "source_and_internal_review",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 137,
+      "lemma": "ἀγγαρεύω",
+      "commentary": "Verbo ἀγγαρεύω bíblico com valor de requisição coercitiva. Mt 5.41 e 27.32 exemplificam emprego no período romano, derivado historicamente da instituição de correios persas. Separar história institucional de tradução contextual.",
+      "external_link": "https://www.bibliaplus.org/en/commentaries/236/cambridge-greek-testament-for-schools-and-colleges-commentary/matthew/5/41",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 138,
+      "lemma": "ἀγγαρήϊον, ου (τό)",
+      "commentary": "Substantivo ἀγγαρήϊον designa serviço postal persa. Middle Liddell confirma registro jônico de correio montado; não atribuir automaticamente origem hebraica por semelhança.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:middle-liddell.perseus-eng2-n119/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": false
+    },
+    {
+      "ordinal": 139,
+      "lemma": "ἀγγαρήϊος, ου (ὁ)",
+      "commentary": "ἀγγαρήϊος é variante jônica de ἄγγαρος segundo Middle Liddell, com nota '[persa]' na fonte DGP. Distinguir etiqueta de empréstimo de relação cognata comprovada.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:middle-liddell.perseus-eng2-n119/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    },
+    {
+      "ordinal": 140,
+      "lemma": "ἄγγαρος, ος, ον",
+      "commentary": "ἄγγαρος designa mensageiro real e adjetivo de correio. LSJ cita Heródoto 3.126, Xenofonte, Ciropédia 8.6.17, e uso metafórico 'fogo mensageiro' em Ésquilo Agamêmnon 282; não reconstruir etimologia iraniana específica sem evidência.",
+      "external_link": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n382/",
+      "evidence_class": "external_targeted_and_internal",
+      "pending_directed_followup": true
+    }
+  ],
+  "limitations": [
+    "Not all 100 entries externally attested for every sense",
+    "Not full contextual philological certification",
+    "No browser/DOM test",
+    "No PR or merge"
+  ]
+}

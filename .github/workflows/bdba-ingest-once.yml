@@ -1,0 +1,38 @@
+name: BDB Aramaico — Incorporação única
+on:
+  push:
+    branches:
+      - chat-gpt-bdba
+    paths:
+      - .github/workflows/bdba-ingest-once.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scriptura-bdba-ingestion
+  cancel-in-progress: false
+
+jobs:
+  incorporar-bdb-aramaico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Checkout exclusivo da branch BDB Aramaico
+        uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-bdba
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Autor técnico dos commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Confirmar inventário integral aramaico da Sefaria
+        run: python tools/bdba_count_full.py
+      - name: Incorporar até 1000 verbetes em commits de 100
+        run: python tools/bdba_ingest.py

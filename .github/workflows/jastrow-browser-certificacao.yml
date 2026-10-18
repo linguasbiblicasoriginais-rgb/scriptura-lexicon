@@ -1,0 +1,58 @@
+name: JASTROW - regressao real Chromium e evidencias 600
+on:
+  push:
+    branches: [chat-gpt-correcoes]
+    paths:
+      - ".github/workflows/jastrow-browser-certificacao.yml"
+      - "tests/jastrow_browser_certification.mjs"
+      - "tests/jastrow_100_atomic_attempt.mjs"
+      - "lexicons/jastrow*.js"
+      - "script.js"
+      - "style.css"
+      - "index.html"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  navegador-e-regressao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Auditoria estrutural cumulativa existente
+        run: node tools/audit_jastrow_600.js
+      - name: Instalar Playwright e axe-core
+        run: npm install --no-save --package-lock=false playwright@1.56.1 @axe-core/playwright@4.11.0
+      - name: Preparar Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Iniciar servidor HTML local
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/scriptura-server.log 2>&1 &
+          echo $! > /tmp/scriptura-server.pid
+          for i in $(seq 1 30); do
+            if curl --silent --fail http://127.0.0.1:8765/ >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/scriptura-server.log
+          exit 1
+      - name: Conferir 600 verbetes em Chromium desktop e celular
+        run: node tests/jastrow_browser_certification.mjs
+        env:
+          JASTROW_TEST_URL: http://127.0.0.1:8765/#aramaico
+      - name: Avaliar criterios DOM, teclado, RTL, referencias internas e WCAG nos 100 primeiros
+        run: node tests/jastrow_100_atomic_attempt.mjs
+        env:
+          JASTROW_TEST_URL: http://127.0.0.1:8765/#aramaico
+      - name: Publicar evidencias mesmo em caso de falha
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: JASTROW-600-chromium
+          path: |
+            auditoria/evidencias-jastrow-navegador/
+            auditoria/evidencias-jastrow-lote-001/
+          if-no-files-found: warn
+          retention-days: 30

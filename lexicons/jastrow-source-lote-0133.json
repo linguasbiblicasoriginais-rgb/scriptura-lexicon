@@ -1,0 +1,1415 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data pinned XML)",
+  "source_start_ordinal": 26401,
+  "source_end_ordinal": 26600,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "entry_count": 200,
+  "first_headword": "קוֹרֵיא",
+  "last_headword": "קִטְנֵי",
+  "next_headword": "קְטַנְתָּא",
+  "status": "source_only_untranslated_not_published",
+  "records": [
+    {
+      "ordinal": 26401,
+      "source_id": "jastrow-xml-026401",
+      "canonical_entry_id": "S00602",
+      "headword": "קוֹרֵיא",
+      "source_xml": "<entry id=\"S00602\">\n<head-word>קוֹרֵיא</head-word>\n<head-word>קוֹרֵיאָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00566\">קוֹרֵאָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26402,
+      "source_id": "jastrow-xml-026402",
+      "canonical_entry_id": "S00603",
+      "headword": "קוּרְיוֹטָה",
+      "source_xml": "<entry id=\"S00603\">\n<head-word>קוּרְיוֹטָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>cariota, caryota</italic>, a species of \n<italic>dates</italic>.</definition>\n<notes> Y. Ab. Zar. I, 39\n<sup>d</sup> bot. (expl. חֲצָד); Bab. ib. 14\n<sup>b</sup> (expl. נקלס) קוּרְיָיטֵי \n<plural-form>pl. (Ms. M. קולאטא, קורי אטא, קוריטי,</plural-form> v. Rabb. D. S. a. l.). Ber. 50\n<sup>b</sup> חזי לקורייטי is fit for a drink made of cariota (cariotum), v. Löw, Pfl., p. 111.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26403,
+      "source_id": "jastrow-xml-026403",
+      "canonical_entry_id": "S00604",
+      "headword": "קוריות",
+      "source_xml": "<entry id=\"S00604\">\n<head-word>קוריות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Deut. 850, כלי ק', v. \n<xref rid=\"unknown\">קוֹרְיָיס I</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26404,
+      "source_id": "jastrow-xml-026404",
+      "canonical_entry_id": "S00605",
+      "headword": "קוּרְיָיא",
+      "source_xml": "<entry id=\"S00605\">\n<head-word>קוּרְיָיא</head-word>\n<head-word>קוֹ'</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>place, town</italic>, v. \n<xref rid=\"S02049\">קִרְיָיא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26405,
+      "source_id": "jastrow-xml-026405",
+      "canonical_entry_id": "S00606",
+      "headword": "קוּרְיָיאָה",
+      "source_xml": "<entry id=\"S00606\">\n<head-word>קוּרְיָיאָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>inhabitant of a small place, villager.</italic></definition>\n<notes>—\n<plural-form>Pl. קוּרְיָיאֵי</plural-form>. Y. Sabb. I, 4\n<sup>a</sup> top כגון אילין ק' דלא וכ' as is the case with country people who are not particular (about their linen ware).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26406,
+      "source_id": "jastrow-xml-026406",
+      "canonical_entry_id": "S00607",
+      "headword": "קוּרְיָיה",
+      "source_xml": "<entry id=\"S00607\">\n<head-word>קוּרְיָיה</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ḳuryah</italic>.</definition>\n<notes> Gen. R. s. 19 אבא בר ק'; v. בַּרְקִירְיָיא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26407,
+      "source_id": "jastrow-xml-026407",
+      "canonical_entry_id": "S00608",
+      "headword": "קוּרְיָיטֵי",
+      "source_xml": "<entry id=\"S00608\">\n<head-word>קוּרְיָיטֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00603\">קוּרְיוֹטָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26408,
+      "source_id": "jastrow-xml-026408",
+      "canonical_entry_id": "S00609",
+      "headword": "קוֹרִיִּים",
+      "source_xml": "<entry id=\"S00609\">\n<head-word>קוֹרִיִּים</head-word>\n<head-word>קוֹרִיִּין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (denom. of קוֹרָה III) \n<italic>those handling the press-beam, pressers</italic>.</definition>\n<notes> Gen. R. s. 71 אף הגיתיות מאחורי הקורים וכ' (Ar. הנשים … הקורייס; corr. acc.), v. גִּתִּית; Esth. R. to I, 10 הקורייס (corr. acc.). Y. Pes. VI, 33\n<sup>a</sup> bot. אפי' נשים מאחורי הק' וכ' even the women (wine-treaders) behind the pressers knew that David was to be king.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26409,
+      "source_id": "jastrow-xml-026409",
+      "canonical_entry_id": "S00610",
+      "headword": "קוֹרְיָיס",
+      "source_xml": "<entry id=\"S00610\">\n<head-word>קוֹרְיָיס</head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (corius, corium) \n<italic>leather, skin, bark</italic>; כלי ק' leather garments, \n<italic>working clothes</italic>.</definition>\n<notes> Y. Sabb. XVII, 16\n<sup>a</sup> bot. מהו לטלטל כ' ק' וכ' is it permitted to handle working garments on the Sabbath? Gen. R. s. 49, beg. שמותם … לכ' ק' וכ' the names of the wicked are like leather garments; as long as you use them, they wear well; when you let them lie, they rot. Koh. R. to II, 17 נתעטף בכ' ק' שלו he wrapped himself in his working clothes. Deut. R. s. 7 (ref. to Deut. XXIX, 4) (כלום) כ' ק' וכ' were leather garments carried with the Israelites out of Egypt (that they did not wear out)?; Cant. R. to IV, 11; Pesik. B’shall., p. 92\n<sup>a</sup>, a. Yalk. Deut. 850 קוריות (read: קוֹרְיוּם); Yalk. Ps. 691; Midr. Till. to Ps. XXIII קוריים (ed. Bub. קואים, read: קוריום).—[Gen. R. s. 71 Ar.; Esth. R. to I, 10, v. קוֹרִיִּים.—Koh. R. to III, 11 שפעת ק', read: קוֹרִים, v. שִׁפְעָה I, a. קוֹרָה III.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26410,
+      "source_id": "jastrow-xml-026410",
+      "canonical_entry_id": "S00611",
+      "headword": "קוֹרְיָיס",
+      "source_xml": "<entry id=\"S00611\">\n<head-word>קוֹרְיָיס</head-word>\n<hw-number>II</hw-number>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ḳorias</italic>.</definition>\n<notes> Y. Orl. II, 62\n<sup>a</sup> ר' ק' (ed. Amst. ביריית; v. Fr. M’bo, p. 122\n<sup>a</sup>; p. 69\n<sup>a</sup>).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26411,
+      "source_id": "jastrow-xml-026411",
+      "canonical_entry_id": "S00612",
+      "headword": "קורינוס",
+      "source_xml": "<entry id=\"S00612\">\n<head-word>קורינוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02058\">קִרְיָינוֹס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26412,
+      "source_id": "jastrow-xml-026412",
+      "canonical_entry_id": "S00613",
+      "headword": "*,",
+      "source_xml": "<entry id=\"S00613\">\n<head-word>*, </head-word>\n<head-word>*קוּרִיסִין</head-word>\n<senses>\n<sense>\n<definition> adv. (κηρύσσων) \n<italic>advertising for sale, at auction</italic>.</definition>\n<notes> Deut. R. s. 3, beg. כעבד שאדונו … ק' בכל וכ' like a slave whom his master desires to sell at auction for what he may get.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26413,
+      "source_id": "jastrow-xml-026413",
+      "canonical_entry_id": "S00614",
+      "headword": "קורכין",
+      "source_xml": "<entry id=\"S00614\">\n<head-word>קורכין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Num. R. s. 23, end בק', v. \n<xref rid=\"S01943\">קְרוּכִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26414,
+      "source_id": "jastrow-xml-026414",
+      "canonical_entry_id": "S00615",
+      "headword": "קוֹרָלִין",
+      "source_xml": "<entry id=\"S00615\">\n<head-word>קוֹרָלִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (corallium, corallum) \n<italic>corals</italic>.</definition>\n<notes> Y. Sabb. VII, 10\n<sup>a</sup> ההן דגזז … קרולין (corr. acc.) he that cuts … corals (on the Sabbath).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26415,
+      "source_id": "jastrow-xml-026415",
+      "canonical_entry_id": "S00616",
+      "headword": "קורם",
+      "source_xml": "<entry id=\"S00616\">\n<head-word>קורם</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Cant. R. to VI, 4 some ed., v. \n<xref rid=\"S01192\">קֵירָס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26416,
+      "source_id": "jastrow-xml-026416",
+      "canonical_entry_id": "S00617",
+      "headword": "קוּרָמֵי",
+      "source_xml": "<entry id=\"S00617\">\n<head-word>קוּרָמֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>ḳuramé</italic>, name of a \n<italic>water plant</italic> bearing fruit the kernels of which can be made edible by cooking (v. Löw, Pfl., p. 202).</definition>\n<notes> Erub. 22\n<sup>a</sup> (R. Adda to his wife asking what she could do for his children during his absence at college) מי שלימו ק' באגמי (Ms. M., with slight difference of diction, קִירָמֵי; Ms. O. קוּרָאמֵי, v. Rabb. D. S. a. l. note) are the ḳ. in the marshes all gone?—V. קְרָמִית.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26417,
+      "source_id": "jastrow-xml-026417",
+      "canonical_entry_id": "S00618",
+      "headword": "קוּרְמִין",
+      "source_xml": "<entry id=\"S00618\">\n<head-word>קוּרְמִין</head-word>\n<head-word>קוּרְמֶל</head-word>\n<head-word>קוּרְמָן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02093\">קַרְמוּלִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26418,
+      "source_id": "jastrow-xml-026418",
+      "canonical_entry_id": "S00619",
+      "headword": "קוּרְנוֹס",
+      "source_xml": "<entry id=\"S00619\">\n<head-word>קוּרְנוֹס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00624\">קוּרְנָס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26419,
+      "source_id": "jastrow-xml-026419",
+      "canonical_entry_id": "S00620",
+      "headword": "קוּרְנֵיסָא",
+      "source_xml": "<entry id=\"S00620\">\n<head-word>קוּרְנֵיסָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00625\">קוּרְנְסָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26420,
+      "source_id": "jastrow-xml-026420",
+      "canonical_entry_id": "S00621",
+      "headword": "קורניסין",
+      "source_xml": "<entry id=\"S00621\">\n<head-word>קורניסין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S01192\">קֵירָס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26421,
+      "source_id": "jastrow-xml-026421",
+      "canonical_entry_id": "S00622",
+      "headword": "קוֹרָנִית",
+      "source_xml": "<entry id=\"S00622\">\n<head-word>קוֹרָנִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (cmp. קֶרֶן) \n<italic>thyme</italic> or \n<italic>origanum</italic> (v. Löw, Pfl., pp. 181; 329).</definition>\n<notes> Tosef. Sabb. XIV (XV), 12; Sabb. 128\n<sup>a</sup>; Y. ib. VIII, 11\n<sup>b</sup>. Maasr. III, 9; Y. Dem. I, beg. 21\n<sup>c</sup>; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26422,
+      "source_id": "jastrow-xml-026422",
+      "canonical_entry_id": "S00623",
+      "headword": "קוֹרָנִיתָא",
+      "source_xml": "<entry id=\"S00623\">\n<head-word>קוֹרָנִיתָא</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Sabb. 128\n<sup>a</sup>, v. \n<xref rid=\"H01803\">חֲשָׁאֵי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26423,
+      "source_id": "jastrow-xml-026423",
+      "canonical_entry_id": "S00624",
+      "headword": "קוּרְנָס",
+      "source_xml": "<entry id=\"S00624\">\n<head-word>קוּרְנָס</head-word>\n<head-word>קוּרְנֵס</head-word>\n<senses>\n<sense>\n<definition>,\n<pos> m.</pos> (enlargement of קֶרֶן) \n<italic>mallet; smith’s hammer</italic> (v. Sm. Ant. s. v. Malleus).</definition>\n<notes> Sabb. XII, 1. Ib. XVII, 2. Kel. XXIX, 6 (7) הק' של זהבים (ed. Dehr. נוס …) the goldsmiths’ hammer; Sabb. 123\n<sup>a</sup>. Ib. ק' של בַּשָּׂמִים the spice-dealers’ mallet. Tosef. Ab. Zar. V (VI), 7 עד שיכה בק' ויחבל (not ויאכל) until he strikes upon it with the hammer and batters it. Y. ib. IV, 43\n<sup>d</sup> bot. מתרין בו על כל ק' וק' he is forewarned at every stroke of the mallet (with which he chisels the idol). Yalk. Ex. 369 מעשה ק' beaten work; a. fr.—[קורנסין, Gen. R. s. 58 Ar., v. קְלִירוֹס.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26424,
+      "source_id": "jastrow-xml-026424",
+      "canonical_entry_id": "S00625",
+      "headword": "קוּרְנְסָא",
+      "source_xml": "<entry id=\"S00625\">\n<head-word>קוּרְנְסָא</head-word>\n<head-word>קוּרְנֵיסָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Ps. LXXIV, 5. Targ. Is. XLI, 7 (h. text פעם). Targ. Y. Num. VIII, 4 עובד אומן בק' gold-beating work (h. text מעשה מקשה).—Ned. 10\n<sup>b</sup> ק' לא אמר כלום Ar. (ed. קוּרְנְשָׁא) if a person used the word \n<italic>ḳurn’sa</italic> for a vow (in place of קונם), he has said nothing (it is no vow).—Trnsf. \n<italic>proboscis</italic>. Ḥull. 58\n<sup>b</sup> בקוּרְנְסֵיה, v. בַּקָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26425,
+      "source_id": "jastrow-xml-026425",
+      "canonical_entry_id": "S00626",
+      "headword": "קורס",
+      "source_xml": "<entry id=\"S00626\">\n<head-word>קורס</head-word>\n<head-word>קורסין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S01192\">קֵירָס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26426,
+      "source_id": "jastrow-xml-026426",
+      "canonical_entry_id": "S00627",
+      "headword": "קוּרְסֵל",
+      "source_xml": "<entry id=\"S00627\">\n<head-word>קוּרְסֵל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02114\">קַרְסוּל</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26427,
+      "source_id": "jastrow-xml-026427",
+      "canonical_entry_id": "S00628",
+      "headword": "קוּרְסַם",
+      "source_xml": "<entry id=\"S00628\">\n<head-word>קוּרְסַם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S02125\">קִרְסֵם</xref>; cmp. מגלב, fr. גלב) \n<italic>a blow</italic> or \n<italic>lash</italic>.</definition>\n<notes> Y. Ber. II, 5\n<sup>c</sup> bot.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26428,
+      "source_id": "jastrow-xml-026428",
+      "canonical_entry_id": "S00629",
+      "headword": "קוּרְפְּדַאי",
+      "source_xml": "<entry id=\"S00629\">\n<head-word>קוּרְפְּדַאי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (cmp. קוּפָּד) \n<italic>mole</italic>.</definition>\n<notes> Ḥull. 63\n<sup>a</sup> באות … ק' (Ar. קַרְפְּ'; Ms. R. 1 קרופ'), v. בָּאוָת.—Ber. 57\n<sup>b</sup> [read:] כל מיני שרצים יפין לחלום חוץ מק' (Ms. M. קוּפְּדַאי, ed. קורפראי, v. Rabb. D. S. a. l. note 8) dreams of all kinds of creeping things, except moles, are auspicious.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26429,
+      "source_id": "jastrow-xml-026429",
+      "canonical_entry_id": "S00630",
+      "headword": "קוּרְפְּדַיָּיא",
+      "source_xml": "<entry id=\"S00630\">\n<head-word>קוּרְפְּדַיָּיא</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (cmp. preced.) \n<italic>long and narrow jars</italic>.</definition>\n<notes> Y. Bets. IV, beg. 62\n<sup>b</sup> אילין ק' דקיקתה וכ' the slender jars two or three of which can be carried in one hand.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26430,
+      "source_id": "jastrow-xml-026430",
+      "canonical_entry_id": "S00631",
+      "headword": "קוּרְפָּיוֹת",
+      "source_xml": "<entry id=\"S00631\">\n<head-word>קוּרְפָּיוֹת</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> a kind of \n<italic>cups</italic> or \n<italic>bowls</italic> with pointed bottoms.</definition>\n<notes> Kel. IV, 3 (R. S. קַרְפָּאוֹת; Ar. קִירְפָּ'); Tosef. ib. B. Kam. III, 11 קַפְרָאוֹת ed. Zuck. (Var. קרפאות).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26431,
+      "source_id": "jastrow-xml-026431",
+      "canonical_entry_id": "S00632",
+      "headword": "קורפסה",
+      "source_xml": "<entry id=\"S00632\">\n<head-word>קורפסה</head-word>\n<head-word>קוראפסה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> quid?—Y’lamd. to Num. VIII, 2 quot. in Ar., and explained קונקי (= קוֹנְכִי?).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26432,
+      "source_id": "jastrow-xml-026432",
+      "canonical_entry_id": "S00633",
+      "headword": "קורפראי",
+      "source_xml": "<entry id=\"S00633\">\n<head-word>קורפראי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00629\">קוּרְפְּדַאי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26433,
+      "source_id": "jastrow-xml-026433",
+      "canonical_entry_id": "S00634",
+      "headword": "קוּרְצָא",
+      "source_xml": "<entry id=\"S00634\">\n<head-word>קוּרְצָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02145\">קרְצָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26434,
+      "source_id": "jastrow-xml-026434",
+      "canonical_entry_id": "S00635",
+      "headword": "קורצד",
+      "source_xml": "<entry id=\"S00635\">\n<head-word>קורצד</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Tosef. Makhsh. I, 7 ed. Zuck., oth. ed. קירצוד, read with R. S. to Makhsh. II, 3: בור ציר a pitful of brine (Var. in R. S. בור סיד a lime pitful).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26435,
+      "source_id": "jastrow-xml-026435",
+      "canonical_entry_id": "S00636",
+      "headword": "*,",
+      "source_xml": "<entry id=\"S00636\">\n<head-word>*, </head-word>\n<head-word>*קוֹרְצִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (קָרַץ; cmp. קָרוֹצָא) \n<italic>destructive insects, worms</italic>.</definition>\n<notes> Ab. d’R. N. ch. XXXI ברא ק' בעולם וברא ק' באדם זה בני מיעיו וכ' (not זה אזניו; Var. ed. Schechter כִּרְצִים, v. כִּרְצָא) he created destroyers in the world (vegetable kingdom), and so he did in man, namely the intestinal \n<pgbrk id=\"pg1344\" />worms. [The entire passage is a Var. of the preced. ברא חיה וכ'.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26436,
+      "source_id": "jastrow-xml-026436",
+      "canonical_entry_id": "S00637",
+      "headword": "קוּרְצִין",
+      "source_xml": "<entry id=\"S00637\">\n<head-word>קוּרְצִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S02145\">קַרְצָא</xref>) \n<italic>destruction</italic>.</definition>\n<notes> Treat. Der. Er. ch. XI [read:] האוכל ק' הרי זה וכ' the informer belongs to the class of shedders of blood (ref. to Lev. XIX, 16).—[Tosef. B. Mets. IX, 19, v. קֶרֶץ.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26437,
+      "source_id": "jastrow-xml-026437",
+      "canonical_entry_id": "S00638",
+      "headword": "קורצין",
+      "source_xml": "<entry id=\"S00638\">\n<head-word>קורצין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Deut. R. s. 2 תפיסת ק', v. \n<xref rid=\"S00265\">קְווּצּוֹת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26438,
+      "source_id": "jastrow-xml-026438",
+      "canonical_entry_id": "S00639",
+      "headword": "קוּרְקָא",
+      "source_xml": "<entry id=\"S00639\">\n<head-word>קוּרְקָא</head-word>\n<head-word>קַרְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (perh. a corrupt. of קורדקא, v. \n<xref rid=\"S00583\">קוּרְדְּקִין</xref>) a \n<italic>shoe</italic> made entirely of goats’ hair or of cloth, \n<italic>slipper</italic>.</definition>\n<notes> Yeb. 102\n<sup>b</sup> ההוא קו' מקרי Rashi (ed. קרקא) such a shoe has the special name of ḳurḳa (and is not included in נעל or מנעול).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26439,
+      "source_id": "jastrow-xml-026439",
+      "canonical_entry_id": "S00640",
+      "headword": "קוֹרְקְבָן",
+      "source_xml": "<entry id=\"S00640\">\n<head-word>קוֹרְקְבָן</head-word>\n<head-word>קָרְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= קבקב'; cmp. קוֹבַע, כּוֹבַע) \n<italic>the thick muscular stomach of birds, craw</italic>.</definition>\n<notes> Ḥull. III, 3. Ib. 6 (among the characteristics of clean birds) קוֹרְקְבָנוֹ נקלף whose craw peels easily; Tosef. ib. III (IV), 22; Ḥull. 61\n<sup>a</sup> וקוּרְקְבָנָן נקלף (not וקורקבן); Yalk. Lev. 537 וקרקבנו (corr. acc.); a. fr.—\n<plural-form>Pl. קָרְקְבָנִין</plural-form> (with sing. meaning). Tosef. l. c. 16 באלו … אמרו בק' וכ' by these intestines are meant: the craw, the liver, and the heart. Sifra Vayiḳra, N’dabah, ch. VIII, Par. 7.—In gen. \n<italic>stomach</italic> (= הֶמְסֵס). Ber. 61\n<sup>b</sup> top ק' טוחן the stomach (of man) grinds. Sabb. 152\n<sup>a</sup> (ref. to Koh. XII, 4) בשביל ק' שאינו טוחן on account of the stomach’s failing to grind.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26440,
+      "source_id": "jastrow-xml-026440",
+      "canonical_entry_id": "S00641",
+      "headword": "קוּרְקְבָנָא",
+      "source_xml": "<entry id=\"S00641\">\n<head-word>קוּרְקְבָנָא</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Y. II Lev. I, 16. Targ. Y. ib. XI, 13; Deut. XIV, 11.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26441,
+      "source_id": "jastrow-xml-026441",
+      "canonical_entry_id": "S00642",
+      "headword": "קוּרְקוּנְיָא",
+      "source_xml": "<entry id=\"S00642\">\n<head-word>קוּרְקוּנְיָא</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ḳurḳunia</italic> in Babylonia.</definition>\n<notes> Ab. Zar. 16\n<sup>b</sup> (Ms. M. אַקְרוֹקוּנְיָא). B. Kam. 7\n<sup>b</sup> אקרוקניא Ms. M. (Ms. H. אקרקוניא; ed. אקרוניא). Ib. 88\n<sup>a</sup> אקרוקניא Ms. M. (Ms. O. ארוקינייא; ed. הגרוניא). Erub. 60\n<sup>a</sup> בני קוקוניא Ms. M. (Ms. O. קקוניא; ed. קקונאי, corr. acc., v. Rabb. D. S. a. l. note).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26442,
+      "source_id": "jastrow-xml-026442",
+      "canonical_entry_id": "S00643",
+      "headword": "קורקון",
+      "source_xml": "<entry id=\"S00643\">\n<head-word>קורקון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00583\">קוֹרְדְּקִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26443,
+      "source_id": "jastrow-xml-026443",
+      "canonical_entry_id": "S00644",
+      "headword": "קוּרְקוֹס",
+      "source_xml": "<entry id=\"S00644\">\n<head-word>קוּרְקוֹס</head-word>\n<head-word>קוּרְקוֹסָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00651\">קוּרְקָס</xref>, \n<xref rid=\"S00652\">קוּרְקְסָא.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26444,
+      "source_id": "jastrow-xml-026444",
+      "canonical_entry_id": "S00645",
+      "headword": "קוּרְקוּר",
+      "source_xml": "<entry id=\"S00645\">\n<head-word>קוּרְקוּר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S01201\">קִירְקוּר</xref>) \n<italic>croaking</italic>.</definition>\n<notes> B. Bath. 23\n<sup>a</sup> אפיקו לי ק' get that croaking (those ravens) away from here.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26445,
+      "source_id": "jastrow-xml-026445",
+      "canonical_entry_id": "S00646",
+      "headword": "קוּרְקוּרָה",
+      "source_xml": "<entry id=\"S00646\">\n<head-word>קוּרְקוּרָה</head-word>\n<head-word>קוּרְקוּרוּת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02185\">קַרְקָרָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26446,
+      "source_id": "jastrow-xml-026446",
+      "canonical_entry_id": "S00647",
+      "headword": "קוּרְקְיָאנֵי",
+      "source_xml": "<entry id=\"S00647\">\n<head-word>קוּרְקְיָאנֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00552\">קוּקְיָאנֵי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26447,
+      "source_id": "jastrow-xml-026447",
+      "canonical_entry_id": "S00648",
+      "headword": "קוּרְקִין",
+      "source_xml": "<entry id=\"S00648\">\n<head-word>קוּרְקִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00583\">קוּרְדְּקִין</xref> a. \n<xref rid=\"S00639\">קוּרְקָא.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26448,
+      "source_id": "jastrow-xml-026448",
+      "canonical_entry_id": "S00649",
+      "headword": "קוֹרְקִיסָתָא",
+      "source_xml": "<entry id=\"S00649\">\n<head-word>קוֹרְקִיסָתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02169\">קִרְקְסָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26449,
+      "source_id": "jastrow-xml-026449",
+      "canonical_entry_id": "S00650",
+      "headword": "קוּרְקָנוֹת",
+      "source_xml": "<entry id=\"S00650\">\n<head-word>קוּרְקָנוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S01202\">קִירְקָנוֹת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26450,
+      "source_id": "jastrow-xml-026450",
+      "canonical_entry_id": "S00651",
+      "headword": "קוּרְקָס",
+      "source_xml": "<entry id=\"S00651\">\n<head-word>קוּרְקָס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (reduplic. of קֶרֶס) \n<italic>hook, ring, clasp</italic>.</definition>\n<notes>—\n<plural-form>Pl. קוּרְקָסִים, קוּרְקָסִין, קוּרְקוֹסִ'</plural-form>. Gen. R. s. 18 אפי' ק' של זהב וכ' even gold curtain rings he made for him. Num. R. s. 4 היו מגביהין … ופורקין את הק' they lifted the curtain on poles and unhooked it. Pirké d’R. El. ch. III קוּרְקוֹסֵי השמים במימי וכ' the hooks of the heavenly canopy are fastened to the waters of the Ocean (that surrounds the earth).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26451,
+      "source_id": "jastrow-xml-026451",
+      "canonical_entry_id": "S00652",
+      "headword": "קוּרְקְסָא",
+      "source_xml": "<entry id=\"S00652\">\n<head-word>קוּרְקְסָא</head-word>\n<head-word>קוּרְקוֹסָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> *עיזא דק' ‘a goat with hooks’, name of a threshing sledge (v. טוּרְבֵּיל). Ab. Zar. 24\n<sup>b</sup>; Yalk. Sam. 122 קוּרְקְשָׁא; Men. 22\n<sup>a</sup> (Ms. R. 1 קורפסא, 2 קורקסאי, v. Rabb. D. S. a. l. note 100); Zeb. 116\n<sup>b</sup> קוּרְקְסֵי Ms. M. (ed. קרקשא, Rashi קורקשא).—\n<plural-form>Pl. קוּרְקְסַיָּא, קוּרְקְסֵי, קוּרְקוֹס',</plural-form> Y. Ned. IX, end, 41\n<sup>c</sup> אין אתין … ק' דאפותיקיא דידי (ed. Krot. קי'; Ar. קר') if all the camels of Arabia came together, they could not carry the clasps (bolts) of my treasuries. Y. Peah. III, 17\n<sup>d</sup> top אשכח … על קַרְקְסוֹי found a snake wound around his locks; Yalk. Ex. 404 קוּרְקוֹסוֹי; Yalk. Kings 222 קירקוסיי (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26452,
+      "source_id": "jastrow-xml-026452",
+      "canonical_entry_id": "S00653",
+      "headword": "קוּרְקַסְוָון",
+      "source_xml": "<entry id=\"S00653\">\n<head-word>קוּרְקַסְוָון</head-word>\n<head-word>קוּרְקַסְוָותָא</head-word>\n<pos> f. pl.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>threshing sledges</italic>.</definition>\n<notes> Targ. I Chr. XXI, 23.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26453,
+      "source_id": "jastrow-xml-026453",
+      "canonical_entry_id": "S00654",
+      "headword": "קורקסיו",
+      "source_xml": "<entry id=\"S00654\">\n<head-word>קורקסיו</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pesik. R. s. 6 תיאטרון וק', read: וקִירְקְסִין; v. \n<xref rid=\"S02173\">קִרְקְסָיוֹת</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26454,
+      "source_id": "jastrow-xml-026454",
+      "canonical_entry_id": "S00655",
+      "headword": "קוּרְקְסָתָא",
+      "source_xml": "<entry id=\"S00655\">\n<head-word>קוּרְקְסָתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02169\">קִרְקְסָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26455,
+      "source_id": "jastrow-xml-026455",
+      "canonical_entry_id": "S00656",
+      "headword": "קוּרְקָרָה",
+      "source_xml": "<entry id=\"S00656\">\n<head-word>קוּרְקָרָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02185\">קַרְקָרָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26456,
+      "source_id": "jastrow-xml-026456",
+      "canonical_entry_id": "S00657",
+      "headword": "קוּרְקְשָׁא",
+      "source_xml": "<entry id=\"S00657\">\n<head-word>קוּרְקְשָׁא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S00658\">next w.</xref>) \n<italic>a frame of boards</italic>; עיזא דק' threshing sledge; v. קוּרְקְסָא.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26457,
+      "source_id": "jastrow-xml-026457",
+      "canonical_entry_id": "S00658",
+      "headword": "קוּרְשָׁא",
+      "source_xml": "<entry id=\"S00658\">\n<head-word>קוּרְשָׁא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> = h. קֶרֶשׁ, \n<italic>board</italic>.</definition>\n<notes> Koh. R. to XI, 1 ק' דספינתא the board of a wrecked ship.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26458,
+      "source_id": "jastrow-xml-026458",
+      "canonical_entry_id": "S00659",
+      "headword": "קוֹרָתָא",
+      "source_xml": "<entry id=\"S00659\">\n<head-word>קוֹרָתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>cold</italic>, v. \n<xref rid=\"S02203\">קָרְתָא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26459,
+      "source_id": "jastrow-xml-026459",
+      "canonical_entry_id": "S00660",
+      "headword": "קוּשׁ",
+      "source_xml": "<entry id=\"S00660\">\n<head-word>קוּשׁ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">קשש</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26460,
+      "source_id": "jastrow-xml-026460",
+      "canonical_entry_id": "S00661",
+      "headword": "קוֹשְׁטְ",
+      "source_xml": "<entry id=\"S00661\">\n<head-word>קוֹשְׁטְ</head-word>\n<senses>\n<sense>\n<definition> c. \n<italic>Ḳoshṭ</italic> (costum, κοστός), name of a fragrant root or shrub, \n<italic>putchuck</italic>.</definition>\n<notes> Ukts. III, 5; Nidd. 51\n<sup>b</sup>; Y. Ḥag. III, 79\n<sup>c</sup> כוש'; Y. Erub. IX, end, 25\n<sup>d</sup> כּוֹשְׁתְּ; Sifré Deut. 107. Ker. 6\n<sup>a</sup>; Y. Yoma IV, 41\n<sup>c</sup> (one of the ingredients of frankincense). Ch. כָּשַׁרְתָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26461,
+      "source_id": "jastrow-xml-026461",
+      "canonical_entry_id": "S00662",
+      "headword": "קוֹשֶׁט",
+      "source_xml": "<entry id=\"S00662\">\n<head-word>קוֹשֶׁט</head-word>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">קשֶׁט; קָשַׁט)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>straightness, truth</italic>.</definition>\n<notes> Gen. R. s. 55 (ref. to Ps. LX, 6) וכל כך למה מפני ק' בשביל שתתקשט וכ' and wherefor all this (trial)? For the sake of truth, in order that divine justice be justified in the world; Yalk. ib. 95; Yalk. Ps. 777 כדי ליתן … בק' in order to give them their reward in truth (ref. to Is. LXI, 8); Yalk. Job 906.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26462,
+      "source_id": "jastrow-xml-026462",
+      "canonical_entry_id": "S00663",
+      "headword": "קוּשְׁטָא",
+      "source_xml": "<entry id=\"S00663\">\n<head-word>קוּשְׁטָא</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> v. \n<xref rid=\"S02225\">קְשׁוֹט</xref>.—[Targ. Ps. LXI, 4, v. קוּסְטַל a. קוּשְׁקָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26463,
+      "source_id": "jastrow-xml-026463",
+      "canonical_entry_id": "S00664",
+      "headword": "קוּשְׁטָן",
+      "source_xml": "<entry id=\"S00664\">\n<head-word>קוּשְׁטָן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>true</italic>.</definition>\n<notes> Lev. R. s. 26 כבר מילא ק' (some ed. קַשְׁטָן) surely, the thing is true.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26464,
+      "source_id": "jastrow-xml-026464",
+      "canonical_entry_id": "S00665",
+      "headword": "קוּשְׁטַנְטִינָא",
+      "source_xml": "<entry id=\"S00665\">\n<head-word>קוּשְׁטַנְטִינָא</head-word>\n<head-word>קוּשְׁטַנְטִינֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub קוּסְטַ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26465,
+      "source_id": "jastrow-xml-026465",
+      "canonical_entry_id": "S00666",
+      "headword": "קוּשְׁטָנִית",
+      "source_xml": "<entry id=\"S00666\">\n<head-word>קוּשְׁטָנִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02234\">קַשְׁטָנִית</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26466,
+      "source_id": "jastrow-xml-026466",
+      "canonical_entry_id": "S00667",
+      "headword": "קוֹשִׁי",
+      "source_xml": "<entry id=\"S00667\">\n<head-word>קוֹשִׁי</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קָשָׁה) [\n<italic>hardness, stiffness</italic>,] </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>erection</italic>.</definition>\n<notes> Snh. 55\n<sup>a</sup>, opp. מת (אבר).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>protracted travailing</italic> (v. Gen. XXXV, 17).</definition>\n<notes> Sifra Thazr. ch. II; Nidd. 38\n<sup>b</sup>, opp. שופי. \n<pgbrk id=\"pg1345\" />Ib. IV, 6. Yeb. 83\n<sup>a</sup>; a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>hard effort</italic>; בק' \n<italic>by an effort, reluctantly</italic>.</definition>\n<notes> Sabb. 12\n<sup>b</sup> בק' התירו לנחם וכ' it was with reluctance that they allowed mourners to be comforted and the sick to be visited on the Sabbath (because it disturbs the Sabbath joy).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26467,
+      "source_id": "jastrow-xml-026467",
+      "canonical_entry_id": "S00668",
+      "headword": "קוּשְׁיָא",
+      "source_xml": "<entry id=\"S00668\">\n<head-word>קוּשְׁיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>difficulty, question, objection, argument</italic>.</definition>\n<notes> Snh. 75\n<sup>b</sup>, sq. מהאי ק' לא נידונה we cannot draw the analogy on account of this argument. B. Kam. 117\n<sup>a</sup> אמר להו האי ק' והאי ק' וכ' he told them of one difficulty and of another, and how they were solved. Men. 95\n<sup>b</sup>, a. fr. מאי ק' what argument is this?, i.e. this is no argument. Ib. מאי קַשְׁיָא (Ms. K. קוש'). Ḥull. 3\n<sup>b</sup> כי קוּשְׁיֵיה in accordance with his argument; a. v. fr.—Y. Sabb. XIX, 17\n<sup>b</sup>; Y. Pes. VI, 33\n<sup>d</sup> top מן קוֹשַׁיי מקשי לה וכ' what was the difficulty that R. J. found (to induce him to say), provided that &amp;c.?—\n<plural-form>Pl. קוּשְׁיָיתָא</plural-form>. Hor. 13\n<sup>b</sup>, v. פִּיתְקָא. Yoma 3\n<sup>b</sup> לאפוקי כולי קוּשְׁיָיתִין excluding all the cases which we argued. Yeb. 77\n<sup>a</sup> top, v. קְשֵׁי; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26468,
+      "source_id": "jastrow-xml-026468",
+      "canonical_entry_id": "S00669",
+      "headword": "קוֹשַׁיי",
+      "source_xml": "<entry id=\"S00669\">\n<head-word>קוֹשַׁיי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00668\">preced.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26469,
+      "source_id": "jastrow-xml-026469",
+      "canonical_entry_id": "S00670",
+      "headword": "קוּשְׁקָא",
+      "source_xml": "<entry id=\"S00670\">\n<head-word>קוּשְׁקָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (Pers. ḳushḳ aedificium magnum et altum, Vollers; prob. Semitic, cmp. קִישְׁקוּשָׁא) \n<italic>high building, tower</italic>.</definition>\n<notes> Targ. Ps. LXI, 4 ק' עשינא Ms. a. Ar. (ed. Lag. בקושטא עישונא), v. קוּסְטַל.—\n<plural-form>Pl. קוּשְׁקֵי</plural-form>. Targ. II Chr. XXXVI, 15.—Sabb. 11\n<sup>a</sup> Ar. a Ms. O., v. קִישְׁקוּשָׁא II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26470,
+      "source_id": "jastrow-xml-026470",
+      "canonical_entry_id": "S00671",
+      "headword": "קַוְשֶׁקֶר",
+      "source_xml": "<entry id=\"S00671\">\n<head-word>קַוְשֶׁקֶר</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition> (= קַו שֶׁקֶר) \n<italic>Ḳavsheḳer</italic> (\n<italic>Rule of Falsehood</italic>), a fictitious name of one of the judges of Sodom.</definition>\n<notes> Gen. R. s. 50 Ar. (ed., a. Yalk. ib. 84 קץ שקר, v. קָצַץ).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26471,
+      "source_id": "jastrow-xml-026471",
+      "canonical_entry_id": "S00672",
+      "headword": "קוּשְׁקְרָא",
+      "source_xml": "<entry id=\"S00672\">\n<head-word>קוּשְׁקְרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"C00509\">גּוּשְׁקְרָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26472,
+      "source_id": "jastrow-xml-026472",
+      "canonical_entry_id": "S00673",
+      "headword": "קושרי",
+      "source_xml": "<entry id=\"S00673\">\n<head-word>קושרי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Sabb. VI, 8\n<sup>c</sup> ק' פיאה, read: קישורי פואה, v. \n<xref rid=\"S01214\">קִישּׁוּר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26473,
+      "source_id": "jastrow-xml-026473",
+      "canonical_entry_id": "S00674",
+      "headword": "קוֹשַׁרְתָּא",
+      "source_xml": "<entry id=\"S00674\">\n<head-word>קוֹשַׁרְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קשר) \n<italic>belt of knotted rope, poor man’s belt</italic>.</definition>\n<notes> Tanḥ. Aḥăré 1 קו שררתיה, read: קוֹשַׁרְתֵּיה his belt (was all that was left to Solomon, v. קוֹד); Y. Snh. II, 20\n<sup>c</sup> bot. קִישַׁרְתֵּיה; Koh. R. to II, 10; IX, 11 קְשַׁרְתֵּיה.—\n<plural-form>Pl. קוּשְׁרָן</plural-form>. Y. Sabb. II, 10\n<sup>c</sup> top, v. קוּנְטְרָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26474,
+      "source_id": "jastrow-xml-026474",
+      "canonical_entry_id": "S00675",
+      "headword": "קוֹשֵׁשׁ",
+      "source_xml": "<entry id=\"S00675\">\n<head-word>קוֹשֵׁשׁ</head-word>\n<head-word>בֵּית ק'</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>(?) \n<italic>Beth Ḳoshesh</italic>.</definition>\n<notes> Y. Yeb. I, 3\n<sup>a</sup> bot., v. מְקוֹשֵׁשׁ II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26475,
+      "source_id": "jastrow-xml-026475",
+      "canonical_entry_id": "S00676",
+      "headword": "קותונה",
+      "source_xml": "<entry id=\"S00676\">\n<head-word>קותונה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Kidd. III, 64\n<sup>a</sup>, v. \n<xref rid=\"S01227\">קִיתוֹנָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26476,
+      "source_id": "jastrow-xml-026476",
+      "canonical_entry_id": "S00677",
+      "headword": "קוֹתְלָא",
+      "source_xml": "<entry id=\"S00677\">\n<head-word>קוֹתְלָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. קוֹתְלֵי; ק' דחזירי</plural-form>\n<italic>bacon</italic>.</definition>\n<notes> Ḥull. 17\n<sup>a</sup>; Meg. 13\n<sup>a</sup> Ar., v. כּוֹתְלָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26477,
+      "source_id": "jastrow-xml-026477",
+      "canonical_entry_id": "S00678",
+      "headword": "קָזָא",
+      "source_xml": "<entry id=\"S00678\">\n<head-word>קָזָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00005\">קָאזָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26478,
+      "source_id": "jastrow-xml-026478",
+      "canonical_entry_id": "S00679",
+      "headword": "קזדור",
+      "source_xml": "<entry id=\"S00679\">\n<head-word>קזדור</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00459\">קוּסְדּוֹר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26479,
+      "source_id": "jastrow-xml-026479",
+      "canonical_entry_id": "S00680",
+      "headword": "קְזַז",
+      "source_xml": "<entry id=\"S00680\">\n<head-word>קְזַז</head-word>\n<senses>\n<sense>\n<definition> (cmp. קצץ, נקז) \n<italic>to cut, divide</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>קַזֵּז</binyan-form>\n<senses>\n<sense>\n<definition> (\n<italic>to mark; to calculate, settle, strike the balance</italic>.</definition>\n<notes> Y. Ber. IX, 14\n<sup>b</sup> bot.; Y. Sot. V, 20\n<sup>c</sup> bot. (expl. פרוש קיזי) עביד … ומְקַזֵּז חדא עם חדא he commits one sin and does one good deed, and strikes the balance, ‘one against one.’ Y. Hag. II, 77\n<sup>d</sup> bot. דהוות ציימא … ומְקַזָּה ליה תריי she used to fast one day and mark down two (deceiving herself in her account with God).</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 26480,
+      "source_id": "jastrow-xml-026480",
+      "canonical_entry_id": "S00681",
+      "headword": "קזמיקרטור",
+      "source_xml": "<entry id=\"S00681\">\n<head-word>קזמיקרטור</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00277\">קוֹזְמוֹקְרָטוֹר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26481,
+      "source_id": "jastrow-xml-026481",
+      "canonical_entry_id": "S00682",
+      "headword": "קָח",
+      "source_xml": "<entry id=\"S00682\">\n<head-word>קָח</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"S00256\"> cmp. Syr. קוחא</xref></language-reference>\n<senses>\n<sense>\n<definition> , P. Sm. 3516) \n<italic>stalk, shoot</italic>.</definition>\n<notes> Succ. 34\n<sup>a</sup>, v. צַפְצָפָה; Yalk. Ez. 357.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26482,
+      "source_id": "jastrow-xml-026482",
+      "canonical_entry_id": "S00683",
+      "headword": "קְחַח",
+      "source_xml": "<entry id=\"S00683\">\n<head-word>קְחַח</head-word>\n<senses>\n<sense>\n<definition>\n<italic>to be dull, faint</italic>.</definition>\n<notes> Targ. Y. II Gen. XXXII, 26 some ed., v. קְהֵי.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26483,
+      "source_id": "jastrow-xml-026483",
+      "canonical_entry_id": "S00684",
+      "headword": "קְחָחָא",
+      "source_xml": "<entry id=\"S00684\">\n<head-word>קְחָחָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>faint-colored, gray</italic> (?).</definition>\n<notes>—\n<plural-form>Pl. קְחָחִין</plural-form>. Targ. Zech. I, 8 ed. Lag. (oth. ed. קְוָוחִין, קְוָח'; h. text שרקים).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26484,
+      "source_id": "jastrow-xml-026484",
+      "canonical_entry_id": "S00685",
+      "headword": "קְטָא",
+      "source_xml": "<entry id=\"S00685\">\n<head-word>קְטָא</head-word>\n<hw-number>I</hw-number>\n<head-word>קְטָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= קְטַע) \n<italic>to cut, pluck</italic>; (cmp. קְטַף) \n<italic>to harvest</italic>.</definition>\n<notes> Y. Ter. VIII, 45\n<sup>d</sup> top (proverbial expression) אין ק' ק' שיחור וכ' if he plucks (gains anything), he plucks a piece of coal, if he loses, he loses a pearl (i.e. he risks his life for a trifle); Y. Ab. Zar. II, 41\n<sup>a</sup> bot. ק' שידו (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26485,
+      "source_id": "jastrow-xml-026485",
+      "canonical_entry_id": "S00686",
+      "headword": "קְטָא",
+      "source_xml": "<entry id=\"S00686\">\n<head-word>קְטָא</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>fragment, chip</italic>.</definition>\n<notes> Pesik. R. s. 21 ההוא תלמידא ק' מן וכ' that student is a chip from (the rock of) Mount Sinai; Y. Snh. IV, beg. 22\n<sup>a</sup> קְטוֹעַ.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26486,
+      "source_id": "jastrow-xml-026486",
+      "canonical_entry_id": "S00687",
+      "headword": "קַטָּא",
+      "source_xml": "<entry id=\"S00687\">\n<head-word>קַטָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00745\">קַטַּיָּיא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26487,
+      "source_id": "jastrow-xml-026487",
+      "canonical_entry_id": "S00688",
+      "headword": "קָטָאבָה",
+      "source_xml": "<entry id=\"S00688\">\n<head-word>קָטָאבָה</head-word>\n<head-word>קָאטָאבָה</head-word>\n<senses>\n<sense>\n<definition> (κατάβα) \n<italic>descend!</italic></definition>\n<notes> Tanḥ. Tsav 2, v. \n<xref rid=\"A01923\">אֲלִנִסְטִי</xref>.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26488,
+      "source_id": "jastrow-xml-026488",
+      "canonical_entry_id": "S00689",
+      "headword": "קטאדיקון",
+      "source_xml": "<entry id=\"S00689\">\n<head-word>קטאדיקון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00690\">next w.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26489,
+      "source_id": "jastrow-xml-026489",
+      "canonical_entry_id": "S00690",
+      "headword": "קָטָאדִיקוֹס",
+      "source_xml": "<entry id=\"S00690\">\n<head-word>קָטָאדִיקוֹס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (κατάδικος) \n<italic>collector of fines</italic>.</definition>\n<notes> [This meaning of our w. is not recorded in Dictionaries.] Yalk. Jer. 305 משל לארכיטקטון שבנה מדינה ועשה … ואחר כך יצא ק' על אותה מדינה (not קאטרקי) like the case of an architect that built a fortress and made underground passages and caves and secret chambers therein, and who afterwards came forth as a collector of fines against that same city; Yalk. Num. 705 לארכיטקסן … שהשליך קטיריס למדינה (corr. and supplement acc.); Tanḥ. Naso 5 לארכיטקטון שהיה קאטריקוס על מדינה; ed. Bub. 8 יצא קאטריקון; Num. R. s. 9 beg. לארכיקיטון קטאדיקוס על אותה מדינה (supplement and corr. acc.); (v. Gen. R. s. 24 beg. לאחר ימים נעשה גבאי).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26490,
+      "source_id": "jastrow-xml-026490",
+      "canonical_entry_id": "S00691",
+      "headword": "קָטָאדִיקִי",
+      "source_xml": "<entry id=\"S00691\">\n<head-word>קָטָאדִיקִי</head-word>\n<head-word>קָטָדִ'</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (καταδίκη) \n<italic>judgment, sentence, fine</italic>.</definition>\n<notes> Ex. R. s. 11 [read:] כאדם שאומר לחבירו לא יטול פלוני ק' זו … עליו like a man saying to his neighbor, that man will not undergo that sentence, for such and such stands by him as his patron. Ib. s. 30 [read:] נתן ק' לקומיס he passed sentence on the Comes; נתן ק' לאברהם he sentenced Abraham (thy seed shall be strangers &amp;c., Gen. XV, 13). Lev. R. s. 18, end בו\"ד גובה ק' וכ' (not קטירקי) a human being (king) collects a fine, and so does the Lord (ref. to Deut. XXII, 19); Num. R. s. 7 יש לו קטריקס (corr. acc.). Deut. R. s. 3 בניך חוטאין ואתה נותן עלי ק' thy children sinned, and me thou punishest? Ib. לתת עליך ק' אתה וכ' (I want) to fine thee; thou hast broken them (the tablets) and thou must replace them. Koh. R. to V, 12 היא ק' \n<pgbrk id=\"pg1346\" />דידיה … ק' דמלכות וכ' it (his wealth) is his punishment; when a verdict from the government comes out against him, he will give whatever he has (to be released). Pesik. R. s. 10 מהו ק' שלו what is the fine he has to pay?; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26491,
+      "source_id": "jastrow-xml-026491",
+      "canonical_entry_id": "S00692",
+      "headword": "קִטָּאוֹת",
+      "source_xml": "<entry id=\"S00692\">\n<head-word>קִטָּאוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00909\">קִיטָּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26492,
+      "source_id": "jastrow-xml-026492",
+      "canonical_entry_id": "S00693",
+      "headword": "קטב",
+      "source_xml": "<entry id=\"S00693\">\n<head-word>קטב</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Targ. Y. II Ex. XXX, 34, v. \n<xref rid=\"unknown\">קְטַף II</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26493,
+      "source_id": "jastrow-xml-026493",
+      "canonical_entry_id": "S00694",
+      "headword": "קְטַב",
+      "source_xml": "<entry id=\"S00694\">\n<head-word>קְטַב</head-word>\n<senses>\n<sense>\n<definition>\n<italic>to cut, split</italic>.</definition>\n<notes> Targ. Y. Deut. XIX, 5 Ar. (ed. קטע).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26494,
+      "source_id": "jastrow-xml-026494",
+      "canonical_entry_id": "S00695",
+      "headword": "קֶטֶב",
+      "source_xml": "<entry id=\"S00695\">\n<head-word>קֶטֶב</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"S00694\">preced.</xref>) [\n<italic>cutting down</italic>,] \n<italic>pestilence;</italic> ק' or ק' מרירי [bitter, deadly disease], \n<italic>Ḳeṭeb</italic> (\n<italic>M’riri</italic>), name of a demon.</definition>\n<notes> Lam. R. to I, 3 ביומן דעקא … שבהם ק' מ' מצוי in the days of anguish, from the seventeenth of Tammuz to the ninth of Ab, during which Ḳ. M. is about. Num. R. s. 12 (ref. to Ps. XCI, 6) שד … שמו ק' וכ' it is a demon, and why is his name Ḳeṭeb? &amp;c., v. בְּזַז, גְּזַז. Ib. ק' מ' עשוי וכ' Ḳ. M. is covered with peeling crusts, with hairs and with eyes; Yalk. Ps. 842; Midr. Till. to Ps. XCI. Pes. 111\n<sup>b</sup> חזייה להאי ק' מ' וכ' he said K. M. coming to his left side.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26495,
+      "source_id": "jastrow-xml-026495",
+      "canonical_entry_id": "S00696",
+      "headword": "קִטְבָּא",
+      "source_xml": "<entry id=\"S00696\">\n<head-word>קִטְבָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. קִטְבֵּי</plural-form>. Pes. 111\n<sup>b</sup> תרי ק' הוו וכ' there are two Ḳeṭebs, one before noon &amp;c.; that of the forenoon is named Ḳeṭeb M’riri, that of the afternoon, ‘Ḳeṭeb that wasteth at noon’ (Ps. XCI, 6).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26496,
+      "source_id": "jastrow-xml-026496",
+      "canonical_entry_id": "S00697",
+      "headword": "קָטָבוֹלְיָא",
+      "source_xml": "<entry id=\"S00697\">\n<head-word>קָטָבוֹלְיָא</head-word>\n<head-word>קָטָבוֹלְיָה</head-word>\n<head-word>קָטָבְלְיָא</head-word>\n<head-word>(קָטָבְלָא)</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (corresp. to a word καταβολία; cmp. κατάβλημα) \n<italic>a</italic> (\n<italic>leather</italic>) \n<italic>curtain, spread, cover</italic>.</definition>\n<notes> Kel. XVI, 4 ק' the hide spread over the bed-frame. Tosef. Sabb. III (IV), 17 קיטבליא חדשה (Var. קטבליא, טבלה) a new leather spread; Y. ib. VI, 8\n<sup>a</sup> קטיבלייא; Tosef. Ter. X, 11 קיטבילא ed. Zuck. (Var. קטבוליא); Y. Snh. X, 28\n<sup>a</sup> bot. קטיב'. Kel. XXVI, 5 (6) עור קטבוליא Mish. ed. (Talm. ed. קטבולין) the hide which is used as a spread. B. Mets. 90\n<sup>b</sup> פרס לה קיטבליא ע\"ג דישה (Ms. M. קטביל'; Ms. F. קרטבליא) if he spread a leather cover over the grain to be threshed (preventing the ox from eating); a. e.—\n<plural-form>Pl. (fr. קָטַבְלִי</plural-form> καταβολή) קָטָבְלָאוֹת, קָטַבְלָיוֹת. Shek. III, 4 מחפה בק' (Ms. M. קיטבל') he covered (last year’s contributions) with leather spreads. Y. ib. III, end, 47\n<sup>c</sup> שמט את הקטבליו' (ed. Krot. הקטבליי'; Bab. ed. קטבליאות; Ms. M. קיטבלאות) when the covers are removed; Tosef. ib. II, 4 שמנו ק' (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26497,
+      "source_id": "jastrow-xml-026497",
+      "canonical_entry_id": "S00698",
+      "headword": "קָטָבְלָא",
+      "source_xml": "<entry id=\"S00698\">\n<head-word>קָטָבְלָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S01991\">קַרְטוּבְלָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26498,
+      "source_id": "jastrow-xml-026498",
+      "canonical_entry_id": "S00699",
+      "headword": "קטבלטון",
+      "source_xml": "<entry id=\"S00699\">\n<head-word>קטבלטון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00702\">קָטָבְלִימָטִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26499,
+      "source_id": "jastrow-xml-026499",
+      "canonical_entry_id": "S00700",
+      "headword": "קָטָבְלִי",
+      "source_xml": "<entry id=\"S00700\">\n<head-word>קָטָבְלִי</head-word>\n<head-word>קָטָבְלְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00697\">קָטָבוֹלְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26500,
+      "source_id": "jastrow-xml-026500",
+      "canonical_entry_id": "S00701",
+      "headword": "קטבליטון",
+      "source_xml": "<entry id=\"S00701\">\n<head-word>קטבליטון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read:</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26501,
+      "source_id": "jastrow-xml-026501",
+      "canonical_entry_id": "S00702",
+      "headword": "קָטָבְלִימָטִין",
+      "source_xml": "<entry id=\"S00702\">\n<head-word>קָטָבְלִימָטִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (καταβλήματα) \n<italic>proceeds of taxes</italic> (v. Sm. Ant. s. v. Eisphora).</definition>\n<notes> Num. R. s. 4 אותו … חייב ק' that (deposed) banker owes the proceeds (which he had failed to deliver).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26502,
+      "source_id": "jastrow-xml-026502",
+      "canonical_entry_id": "S00703",
+      "headword": "קָטָדִיקוֹס",
+      "source_xml": "<entry id=\"S00703\">\n<head-word>קָטָדִיקוֹס</head-word>\n<head-word>קָטָדִיקִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub קָטָאדִ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26503,
+      "source_id": "jastrow-xml-026503",
+      "canonical_entry_id": "S00704",
+      "headword": "קָטָה",
+      "source_xml": "<entry id=\"S00704\">\n<head-word>קָטָה</head-word>\n<senses>\n<sense>\n<definition> (= קטע) \n<italic>to cut off</italic>.</definition>\n<notes> Y. Keth. IV, 28\n<sup>b</sup> top, v. קָטַע.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26504,
+      "source_id": "jastrow-xml-026504",
+      "canonical_entry_id": "S00705",
+      "headword": "קְטָה",
+      "source_xml": "<entry id=\"S00705\">\n<head-word>קְטָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> ch., v. \n<xref rid=\"S00687\">קְטָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26505,
+      "source_id": "jastrow-xml-026505",
+      "canonical_entry_id": "S00706",
+      "headword": "קִטָּה",
+      "source_xml": "<entry id=\"S00706\">\n<head-word>קִטָּה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Neg. XI, 7 Ar., v. \n<xref rid=\"S00909\">קִיטָּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26506,
+      "source_id": "jastrow-xml-026506",
+      "canonical_entry_id": "S00707",
+      "headword": "קטה",
+      "source_xml": "<entry id=\"S00707\">\n<head-word>קטה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Pesik. R. s. 31 קטה כמין ניכו', a corrupt., v. \n<xref rid=\"K00209\">כַּוָּוי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26507,
+      "source_id": "jastrow-xml-026507",
+      "canonical_entry_id": "S00708",
+      "headword": "קְטוּ",
+      "source_xml": "<entry id=\"S00708\">\n<head-word>קְטוּ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00731\">קְטוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26508,
+      "source_id": "jastrow-xml-026508",
+      "canonical_entry_id": "S00709",
+      "headword": "קִטּוּל",
+      "source_xml": "<entry id=\"S00709\">\n<head-word>קִטּוּל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00895\">קִיטּוּל</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26509,
+      "source_id": "jastrow-xml-026509",
+      "canonical_entry_id": "S00710",
+      "headword": "קָטוֹל",
+      "source_xml": "<entry id=\"S00710\">\n<head-word>קָטוֹל</head-word>\n<head-word>קָטוֹלָא</head-word>\n<head-word>, (, </head-word>\n<head-word>קַטּ')</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַל) \n<italic>manslayer, murderer</italic>.</definition>\n<notes> Targ. Is. XIV, 12 (ed. Wil. קְ', corr. acc.). Targ. Num. XXXV, 16; a. e.—Y. Sot. IX, 24\n<sup>a</sup> (expl. בן הרוצחן) [read:] בריה דקָטוֹלָה son of a murderer; a. e.—\n<plural-form>Pl. קָטוֹלִין, קָטוֹלַיָּא, קְ'</plural-form>. Targ. Y. Ex. XX, 13. Targ. Ps. LXII, 4 (Ms. קַטּ'); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26510,
+      "source_id": "jastrow-xml-026510",
+      "canonical_entry_id": "S00711",
+      "headword": "קְטוֹל",
+      "source_xml": "<entry id=\"S00711\">\n<head-word>קְטוֹל</head-word>\n<head-word>קְטוֹלָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>slaying, death</italic>.</definition>\n<notes> Targ. Is. XXI, 15. Targ. Job V, 15 Ms. (ed. קְטִילָא). Targ. I Kings II, 26; a. fr.—Lam. R. introd. (R. Joḥ. </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> ק' אכזראה (some ed. קטי'), v. \n<xref rid=\"A01680\">אַכְזְרָאָה</xref>.—V. קְטָלָא, a. קִיטּוּל.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26511,
+      "source_id": "jastrow-xml-026511",
+      "canonical_entry_id": "S00712",
+      "headword": "קָטוֹלָא",
+      "source_xml": "<entry id=\"S00712\">\n<head-word>קָטוֹלָא</head-word>\n<head-word>קָטוֹלָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00709\">קָטוֹל</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26512,
+      "source_id": "jastrow-xml-026512",
+      "canonical_entry_id": "S00713",
+      "headword": "קטומא",
+      "source_xml": "<entry id=\"S00713\">\n<head-word>קטומא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00744\">קְטִיזְמָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26513,
+      "source_id": "jastrow-xml-026513",
+      "canonical_entry_id": "S00714",
+      "headword": "קָטוֹן",
+      "source_xml": "<entry id=\"S00714\">\n<head-word>קָטוֹן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00794\">קָטָן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26514,
+      "source_id": "jastrow-xml-026514",
+      "canonical_entry_id": "S00715",
+      "headword": "קטוניות",
+      "source_xml": "<entry id=\"S00715\">\n<head-word>קטוניות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yoma 15\n<sup>b</sup>, v. \n<xref rid=\"S00897\">קִיטוֹן</xref> h.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26515,
+      "source_id": "jastrow-xml-026515",
+      "canonical_entry_id": "S00716",
+      "headword": "קִטּוּנִית",
+      "source_xml": "<entry id=\"S00716\">\n<head-word>קִטּוּנִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes> pr. n. pl. Y. Meg. I, 70\n<sup>b</sup> bot. (rend. of קַטָּת, Josh. XIX, 15), v. Neub. Géogr. p. 189.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26516,
+      "source_id": "jastrow-xml-026516",
+      "canonical_entry_id": "S00717",
+      "headword": "קִטּוּנְתָּא",
+      "source_xml": "<entry id=\"S00717\">\n<head-word>קִטּוּנְתָּא</head-word>\n<head-word>קִטּוּנְתָּה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00900\">קִיטּוּנְתָּא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26517,
+      "source_id": "jastrow-xml-026517",
+      "canonical_entry_id": "S00718",
+      "headword": "קְטוּסְפָּאָה",
+      "source_xml": "<entry id=\"S00718\">\n<head-word>קְטוּסְפָּאָה</head-word>\n<head-word>קטוספין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub קְטִיסְפּ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26518,
+      "source_id": "jastrow-xml-026518",
+      "canonical_entry_id": "S00719",
+      "headword": "קָטוֹעַ",
+      "source_xml": "<entry id=\"S00719\">\n<head-word>קָטוֹעַ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַע) \n<italic>chopper, hewer</italic>.</definition>\n<notes> Targ. Y. I Deut. XXIX, 10.—\n<plural-form>Pl. קָטוֹעַיָּא,</plural-form> constr. קְטוֹעֵי. Targ. Y. II ib.—Targ. II Chr. II, 9 קַטָּעַיָּא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26519,
+      "source_id": "jastrow-xml-026519",
+      "canonical_entry_id": "S00720",
+      "headword": "קְטוֹעַ",
+      "source_xml": "<entry id=\"S00720\">\n<head-word>קְטוֹעַ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>chip</italic>.</definition>\n<notes> Y. Snh. IV, beg. 22\n<sup>a</sup>, v. קְטָא II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26520,
+      "source_id": "jastrow-xml-026520",
+      "canonical_entry_id": "S00721",
+      "headword": "קִטּוּף",
+      "source_xml": "<entry id=\"S00721\">\n<head-word>קִטּוּף</head-word>\n<head-word>קִטּוּפָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub קִיטּ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26521,
+      "source_id": "jastrow-xml-026521",
+      "canonical_entry_id": "S00722",
+      "headword": "קְטוֹף",
+      "source_xml": "<entry id=\"S00722\">\n<head-word>קְטוֹף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00814\">קְטַף III</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26522,
+      "source_id": "jastrow-xml-026522",
+      "canonical_entry_id": "S00723",
+      "headword": "קָטוֹפָא",
+      "source_xml": "<entry id=\"S00723\">\n<head-word>קָטוֹפָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַף) \n<italic>cutter, grape-gatherer.</italic></definition>\n<notes>—\n<plural-form>Pl. קָטוֹפִין, קְ'</plural-form>. Targ. Ob. 5; Targ. Jer. XLIX, 9 (some ed. קַטְפִ'; h. text בצרים). Ib. IV, 16 (h. text נצרים!).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26523,
+      "source_id": "jastrow-xml-026523",
+      "canonical_entry_id": "S00724",
+      "headword": "קְטוֹפָא",
+      "source_xml": "<entry id=\"S00724\">\n<head-word>קְטוֹפָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) [\n<italic>ready to be cut</italic>,] \n<italic>vine with ripe clusters.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. קְטוֹפֵי</plural-form>. Keth. 112\n<sup>a</sup> חזנהו להנהו ק' וכ' (some ed. קְטִיפֵי) saw the laden vines standing (looking) like calves.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26524,
+      "source_id": "jastrow-xml-026524",
+      "canonical_entry_id": "S00725",
+      "headword": "קִטּוּר",
+      "source_xml": "<entry id=\"S00725\">\n<head-word>קִטּוּר</head-word>\n<head-word>קִטּוּרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub קִיטּ'.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26525,
+      "source_id": "jastrow-xml-026525",
+      "canonical_entry_id": "S00726",
+      "headword": "קְטוֹר",
+      "source_xml": "<entry id=\"S00726\">\n<head-word>קְטוֹר</head-word>\n<head-word>קְטוֹרָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַר II) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>knot</italic>.</definition>\n<notes> Targ. Y. I Ex. XXXIII, 23 ק' דתפילי (strike out דבידא, or דבירא, which came over from Y. II).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>band, girdle</italic>.</definition>\n<notes> Targ. Y. Deut. XVIII, 4 (v. Ḥull. 138\n<sup>a</sup>).—\n<plural-form>Pl. constr. קְטוֹרֵי</plural-form>. Targ. Y. Gen. L, 11 (ed. Vien. קְטוּ').—V. קִיטְרָא II.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26526,
+      "source_id": "jastrow-xml-026526",
+      "canonical_entry_id": "S00727",
+      "headword": "קְטוּרָה",
+      "source_xml": "<entry id=\"S00727\">\n<head-word>קְטוּרָה</head-word>\n<senses>\n<sense>\n<definition> (b. h.)\n<pos> pr. n. f.</pos>\n<italic>Keturah</italic>, the second wife of Abraham.</definition>\n<notes> Gen. R. s. 61 ק' … זו הגר K. is Hagar; Tanḥ. Ḥayé 8; ib. ק' שהית' קשורה כנוד she was called K. (the tied up, v. קָטַר II), because she was tied up like a water bag (was chaste). Zeb. 62\n<sup>b</sup> קרי עלייהו בני ק' (not עליהם, v. Rabb. D. S. a. l. note 70) he cried out over them, sons of K. (i.e. sons of Abraham, but not of Sarah); a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26527,
+      "source_id": "jastrow-xml-026527",
+      "canonical_entry_id": "S00728",
+      "headword": "קטורין",
+      "source_xml": "<entry id=\"S00728\">\n<head-word>קטורין</head-word>\n<head-word>כל ק'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"K00779\">כַּלַּקְטֵירִין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26528,
+      "source_id": "jastrow-xml-026528",
+      "canonical_entry_id": "S00729",
+      "headword": "קטורנים",
+      "source_xml": "<entry id=\"S00729\">\n<head-word>קטורנים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00834\">קִטְּרוֹנִים</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26529,
+      "source_id": "jastrow-xml-026529",
+      "canonical_entry_id": "S00730",
+      "headword": "קְטוֹרֶת",
+      "source_xml": "<entry id=\"S00730\">\n<head-word>קְטוֹרֶת</head-word>\n<head-word>קְטוֹרְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00844\">קְטֹרֶת</xref>, \n<xref rid=\"S00845\">קְטָרְתָּא.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26530,
+      "source_id": "jastrow-xml-026530",
+      "canonical_entry_id": "S00731",
+      "headword": "קְטוּתָא",
+      "source_xml": "<entry id=\"S00731\">\n<head-word>קְטוּתָא</head-word>\n<head-word>קְטוּ</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קְטָא) \n<italic>branch, switch</italic>.</definition>\n<notes> Lam. R. to I, 3 (some ed. קְטִיתָא); Num. R. s. 12.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26531,
+      "source_id": "jastrow-xml-026531",
+      "canonical_entry_id": "S00732",
+      "headword": "קָטַט",
+      "source_xml": "<entry id=\"S00732\">\n<head-word>קָטַט</head-word>\n<senses>\n<sense>\n<definition> (cmp. קצץ) \n<italic>to cut, diminish</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pilp.</binyan-name>\n<binyan-form>קִטְקֵט</binyan-form>\n<senses>\n<sense>\n<definition> [\n<italic>to make fine</italic>,] (cmp. דִּקְדֵּק) \n<italic>to even the woof by beating</italic>.</definition>\n<notes> Y. Sabb. XII, 13\n<sup>c</sup> bot. השובט והמְקַטְקֵט על האריג he who beats to make the web close or to make the woof even; ib.\n<sup>d</sup> top; Y. Pes. VI, 33\n<sup>b</sup> top.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֵיקֵט</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00733\">next w.</xref></notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 26532,
+      "source_id": "jastrow-xml-026532",
+      "canonical_entry_id": "S00733",
+      "headword": "קְטַט",
+      "source_xml": "<entry id=\"S00733\">\n<head-word>קְטַט</head-word>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אָקֵיט</binyan-form>\n<senses>\n<sense>\n<definition> (cmp. צָעַר) \n<italic>to vex, annoy</italic>.</definition>\n<notes> B. Mets. 61\n<sup>b</sup> (in Hebrew diction) לא תגנב על מנת למֵיקַט (some ed. למֵקַט; Ms. M. למקט', corr. acc.) ‘thou shalt not steal (Ex. XX, 15), not even if it be only with the intention of vexing (thy neighbor, until thou restore the stolen object); Tosef. B. Kam. X, 37; Yalk. Lev. 605; Sifra Ḳ’dosh. ch. III, Par. 2; Y. Snh. X, beg. 30\n<sup>a</sup></notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>קַטֵּיט</binyan-form>\n<senses>\n<sense>\n<definition> [\n<italic>to thin</italic>,], (music) \n<italic>to produce a fine</italic> (\n<italic>high</italic>) \n<italic>sound, to sing tenor</italic> or \n<italic>soprano</italic>.</definition>\n<notes> Arakh. 13\n<sup>b</sup> הני מְקַטְּטֵי וכ' they (the young Levites) sang high, and they (the older Levites) could not do it.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִיקַּט</binyan-form>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S00734\">next w.</xref>) \n<italic>to quarrel</italic>.</definition>\n<notes> Nidd. 67\n<sup>b</sup> לאו הכי הוה עובדא … דאִיקּוּט וכ' was it not so with the wife of Abba Mari … when they had a quarrel, and R. N. went &amp;c.?</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpol.</binyan-name>\n<binyan-form>אִתְקוֹטַט</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> (fr. קוּט) same. Targ. Y. Lev. XXIV, 10. Targ. Lam. IV, 15.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 26533,
+      "source_id": "jastrow-xml-026533",
+      "canonical_entry_id": "S00734",
+      "headword": "קְטָטָה",
+      "source_xml": "<entry id=\"S00734\">\n<head-word>קְטָטָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.; cmp. meanings of חסד, חרף &amp;c.) \n<italic>quarrel, dispute, discord</italic>, opp. שלום.</definition>\n<notes> Yeb. XV, 1 ק' בינו לבינה וכ' if there had been a dispute between husband and wife (at the time of, or before his alleged death) &amp;c. Y. ib. 14\n<sup>d</sup> top לא קדשתני … אין זה ק' if she had said (at the time of the dispute), thou hast never betrothed me …, this is not a dispute (on account of which her statement concerning her husband’s death is to be rejected); קידשתני … הרי זה ק' thou didst betroth me, but thou hast divorced me and not given me my \n<italic>ḳ’thubah</italic>, that is a dispute (which makes her untrustworthy); Bab. ib. 116\n<sup>a</sup>. Ib. מאי טעמא דק' what is the reason that her statement is disbelieved in the case of a dispute? Ib.\n<sup>b</sup> דארגיל הוא ק' (Tosaf. דארגיל בה ק' when he was in the habit of quarrelling (whereas she loved him). Ib. עד אחד בק' מהו if there is one witness testifying to the husband’s death, is it sufficient also if disunion was known to have existed between them? Ib. כיון דאית ליה ק' וכ' because there has been discord between them, (we apprehend that) she will not be careful to ascertain her husband’s death, and get married again. Sabb. 130\n<sup>a</sup> מצוה שקבלו עליהם בק' a law that the Israelites accepted under quarrel (protest) &amp;c., opp. בשמחה. Pesik. R. s. 38 אם היתה ק' וכ' if there has been a quarrel between a man and his neighbor, how can he obtain forgiveness on the Day of Atonement? Gen. R. s. 8 שלום … דכוליה ק' Peace said (to God), let him (man) not be created, for he will be all quarrel. Koh. R. to IV, 9 (when he saw two men walking on the road, he said) שלום לכון מרי ק' peace to you, men of quarrel (sure to have a dispute); a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26534,
+      "source_id": "jastrow-xml-026534",
+      "canonical_entry_id": "S00735",
+      "headword": "קִטָּי",
+      "source_xml": "<entry id=\"S00735\">\n<head-word>קִטָּי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00909\">קִיטָּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26535,
+      "source_id": "jastrow-xml-026535",
+      "canonical_entry_id": "S00736",
+      "headword": "קַטַּיָּא",
+      "source_xml": "<entry id=\"S00736\">\n<head-word>קַטַּיָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00745\">קַטַּיָּיא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26536,
+      "source_id": "jastrow-xml-026536",
+      "canonical_entry_id": "S00737",
+      "headword": "קטיבלייא",
+      "source_xml": "<entry id=\"S00737\">\n<head-word>קטיבלייא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00697\">קָטָבוֹלְיָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26537,
+      "source_id": "jastrow-xml-026537",
+      "canonical_entry_id": "S00738",
+      "headword": "קָטֵיגוֹר",
+      "source_xml": "<entry id=\"S00738\">\n<head-word>קָטֵיגוֹר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (κατήγορος) \n<italic>accuser, public prosecutor</italic>.</definition>\n<notes> Ab. IV, 11 העובר … קונה לו ק' אחד he who commits one sin, acquires one prosecutor for himself, opp. פרקליט. R. Hash. 26\n<sup>a</sup>, v. סְנֵיגוֹר. Ex. R. s. 43, beg. Lev. R. s. 19 עלה קָטֵיגוֹרוֹ וכ' his (Solomon’s) accuser (before the Lord) arose &amp;c. Ib. s. 30; a. fr.—[Ab. d’R. N. ch. II קושרין ק', read: קָטֵיגוֹרְיָא.]—\n<plural-form>Pl. קָטֵיגוֹרִים, קָטֵיגוֹרִין</plural-form>. Pesik. R. s. 40 וק' עומדים לפניך … קטיגוריא (not רים …) the accusers stand before thee, and the advocates stand before thee, these pleading in our favor, and those bringing charges against us. Y. R. Hash. I, 57\n<sup>b</sup> top. Midr. Till. to Ps. VIII, 2 בכל יום הייתם ק' וכ' ed. Bub. (ed. קטיגטין, corr. acc.) at all times you have been accusers (creating mischief) between me and Israel; a. e.—Gen. R. s. 31, beg. הגיע ק' some ed., read: קָטֵיגוֹרְיָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26538,
+      "source_id": "jastrow-xml-026538",
+      "canonical_entry_id": "S00739",
+      "headword": "קַטֵיגוֹרָא",
+      "source_xml": "<entry id=\"S00739\">\n<head-word>קַטֵיגוֹרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. קַטֵיגוֹרַיָּא</plural-form>. Targ. Job XXXIII, 23.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26539,
+      "source_id": "jastrow-xml-026539",
+      "canonical_entry_id": "S00740",
+      "headword": "קָטֵיגוֹרְיָא",
+      "source_xml": "<entry id=\"S00740\">\n<head-word>קָטֵיגוֹרְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (κατηγορία) \n<italic>accusation, denunciation, prosecution</italic>.</definition>\n<notes> Lam. R. to I, 13 קפצה ק' לפני כסא וכ' Prosecution sprang up before the throne of glory, and spoke &amp;c. Ex. R. s. 15 end אחד מלמד ק' שלו וכ' one pleads for his prosecution (proving him guilty), and the other for the defence; אבל הקב\"ה … והוא מלמד ק' but not so the Lord, he defends and he accuses. Pesik. R. s. 40 אומרים ק' (not רים …), v. קָטֵיגוֹר. Gen. R. s. 31, beg. הגיע ק' שלהן לפני the charges against them have come before me; a. fr.—Keth. 112\n<sup>b</sup> דור … ק' בתלמידים in the period of the advent of the Messiah there will be prosecution (ill-will) against scholars. Ab. d’R. N. ch. II היו … קושרין ק' על משה (not קטיגור) the angels conspired to speak ill of Moses.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26540,
+      "source_id": "jastrow-xml-026540",
+      "canonical_entry_id": "S00741",
+      "headword": "קטיגטין",
+      "source_xml": "<entry id=\"S00741\">\n<head-word>קטיגטין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00738\">קָטֵיגוֹר</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26541,
+      "source_id": "jastrow-xml-026541",
+      "canonical_entry_id": "S00742",
+      "headword": "קטיגמא",
+      "source_xml": "<entry id=\"S00742\">\n<head-word>קטיגמא</head-word>\n<head-word>קטיומא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00744\">קְטִיזְמָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26542,
+      "source_id": "jastrow-xml-026542",
+      "canonical_entry_id": "S00743",
+      "headword": "קִטָּיוֹת",
+      "source_xml": "<entry id=\"S00743\">\n<head-word>קִטָּיוֹת</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00909\">קִיטָּי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26543,
+      "source_id": "jastrow-xml-026543",
+      "canonical_entry_id": "S00744",
+      "headword": "קְטִיזְמָא",
+      "source_xml": "<entry id=\"S00744\">\n<head-word>קְטִיזְמָא</head-word>\n<head-word>קְטִיזְמָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (κτίσμα) \n<italic>creature, creation</italic>.</definition>\n<notes> Midr. Till. to Ps. XVIII, 36 בו\"ד … ק' שלו אלא מזכיר ק' \n<pgbrk id=\"pg1348\" />וכ' ed. Bub. (not קטיגמא) when a human being sets a memorial to his name, he mentions first his name, and then his creation, but not so the Lord, he records his creation first and then his name, as we read (Gen. I, </notes></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes>, ‘In the beginning created God;’ Gen. R. s. 1 (misplaced and curtailed, v. Ar. s. v. קטיזמא); Tanḥ. ed. Bub. B’resh. 4 קטומה (corr. acc.); ib. 5 הטיומא (corr. acc.); Yalk. Sam. 162 קטיומא (corr. acc.).—Y. B. Kam. V, 5\n<sup>a</sup> top [read:] רשב\"ג אומר אומר קְטִיזְמִי היא זו (not קוט') R. S. b. G. says, he (the purchaser of a breeding slave) may say, it is my creation (i.e. damages for injury to his slave’s embryo belong to him).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26544,
+      "source_id": "jastrow-xml-026544",
+      "canonical_entry_id": "S00745",
+      "headword": "קַטַּיָּיא",
+      "source_xml": "<entry id=\"S00745\">\n<head-word>קַטַּיָּיא</head-word>\n<head-word>קִטַּ'</head-word>\n<head-word>קְטַ'</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S00685\">קְטָא I</xref>) \n<italic>cucumbers</italic>.</definition>\n<notes> Targ. Y. I, II Num. XI, 5.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26545,
+      "source_id": "jastrow-xml-026545",
+      "canonical_entry_id": "S00746",
+      "headword": "קְטֵיל",
+      "source_xml": "<entry id=\"S00746\">\n<head-word>קְטֵיל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00774\">קְטַל</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26546,
+      "source_id": "jastrow-xml-026546",
+      "canonical_entry_id": "S00747",
+      "headword": "קְטִיל",
+      "source_xml": "<entry id=\"S00747\">\n<head-word>קְטִיל</head-word>\n<head-word>קְטִילָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, part. pass. of קְטַל.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26547,
+      "source_id": "jastrow-xml-026547",
+      "canonical_entry_id": "S00748",
+      "headword": "קְטִילָא",
+      "source_xml": "<entry id=\"S00748\">\n<head-word>קְטִילָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> = קְטוֹלָא, \n<italic>putting to death</italic>.</definition>\n<notes> Targ. Job V, 15, v. קְטוֹלָא.—Constr. קְטִילַת. Targ. Ruth I, 17; Targ. Esth. IX, 5 ק' סייפא death by the sword.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26548,
+      "source_id": "jastrow-xml-026548",
+      "canonical_entry_id": "S00749",
+      "headword": "קָטִילָא",
+      "source_xml": "<entry id=\"S00749\">\n<head-word>קָטִילָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>chain</italic>, v. \n<xref rid=\"S00775\">קַטְלָא</xref> ch.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26549,
+      "source_id": "jastrow-xml-026549",
+      "canonical_entry_id": "S00750",
+      "headword": "קַטִּין",
+      "source_xml": "<entry id=\"S00750\">\n<head-word>קַטִּין</head-word>\n<hw-number>I</hw-number>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ḳaṭṭin</italic>.</definition>\n<notes> Yoma III, 10 (37\n<sup>a</sup>) בן ק' (Ms. O. קטן) Ben Ḳ.; Tosef. ib. II, 2; Y. Shek. V, beg. 48\n<sup>c</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26550,
+      "source_id": "jastrow-xml-026550",
+      "canonical_entry_id": "S00751",
+      "headword": "קַטִּין",
+      "source_xml": "<entry id=\"S00751\">\n<head-word>קַטִּין</head-word>\n<hw-number>II</hw-number>\n<head-word>קַטִּינָא</head-word>\n<hw-number>I</hw-number>\n<head-word>קַטִּינְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קטן) \n<italic>slender, thin, fine</italic>.</definition>\n<notes> Zeb. 62\n<sup>b</sup> דאריך וק' that the altar may be long and narrow (an oblong instead of a square). B. Mets. 85\n<sup>a</sup>, v. חֲרוֹכָא. Arakh. 13\n<sup>b</sup> ק' קלייהו their voices were fine (high tenor), opp. עב, v. קְטַט. Y. Maas. Sh. IV, end, 55\n<sup>c</sup> חמית … רגלי ק' I saw in my dream that my foot was emaciated. Ḥull. 48\n<sup>b</sup> ק' a thin pin. Lam. R. to III, 19 (prov.) עד דשמינא עביד ק' נפשיה דק' וכ' by the time the stout becomes thin, the life of the thin is gone out (until the mighty are punished, the weak perish); a. e.—ארעא ק', v. next w.—\n<plural-form>Pl. קַטִּינֵי;</plural-form> f. קַטִּינָתָא. B. Mets. 89\n<sup>a</sup> משליף ק' וכ' he pulls out the slender onions from among the large. Yeb. 43\n<sup>a</sup> ק' thin (fine) combs, v. אַלִּים. Pes. 112\n<sup>b</sup> גרמי ק' thin bones. Erub. 65\n<sup>a</sup>, v. נוּם ch.; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26551,
+      "source_id": "jastrow-xml-026551",
+      "canonical_entry_id": "S00752",
+      "headword": "קַטִּינָא",
+      "source_xml": "<entry id=\"S00752\">\n<head-word>קַטִּינָא</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>something small</italic>; ק' דארעא (or sub. דארעא) \n<italic>a small piece of ground</italic>.</definition>\n<notes> B. Kam. 59\n<sup>a</sup> אגב ק' דא' in connection with a small piece of ground. Keth. 91\n<sup>b</sup> שבק ק' דא' וכ' left to his heirs a small piece of ground worth fifty Zuz. Ib. הני חמשין זוזי דמי דארעא ק' (Rashi: דמי ק') these fifty Zuz I give in payment for the small field. Gitt. 30\n<sup>b</sup> כמעשה ק' דאביי like the case of the small field that Abayi had to decide upon (Keth. l. c.).—\n<plural-form>Pl. קַטִּינֵי</plural-form>. Keth. l. c. תרי ק' דא' two small fields.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26552,
+      "source_id": "jastrow-xml-026552",
+      "canonical_entry_id": "S00753",
+      "headword": "קַטִּינָא",
+      "source_xml": "<entry id=\"S00753\">\n<head-word>קַטִּינָא</head-word>\n<hw-number>III</hw-number>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ḳaṭṭina</italic>, name of an Amora.</definition>\n<notes> Ber. 59\n<sup>a</sup>. B. Mets. 79\n<sup>a</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26553,
+      "source_id": "jastrow-xml-026553",
+      "canonical_entry_id": "S00754",
+      "headword": "קַטִּינָאֵי",
+      "source_xml": "<entry id=\"S00754\">\n<head-word>קַטִּינָאֵי</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S00751\">קַטִּינָא I</xref>) \n<italic>slender onions</italic> (with small heads and long stems, v. פְּלַלְגּוּלָא, a. Sm.</definition>\n<notes> Dict. Ant. s. v. Caepa). Y. Shebi. V, 36\n<sup>a</sup> top (expl. קיצונים); [R. S. to Shebi. V, 4 reads: קַיְיטְנָאֵי (denom. of קַיְיטָא) \n<italic>summer-onions</italic>.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26554,
+      "source_id": "jastrow-xml-026554",
+      "canonical_entry_id": "S00755",
+      "headword": "קַטִּינוּתָא",
+      "source_xml": "<entry id=\"S00755\">\n<head-word>קַטִּינוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00799\">קַטְנוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26555,
+      "source_id": "jastrow-xml-026555",
+      "canonical_entry_id": "S00756",
+      "headword": "קַטִּינְתָּא",
+      "source_xml": "<entry id=\"S00756\">\n<head-word>קַטִּינְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00751\">קַטִּין II</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26556,
+      "source_id": "jastrow-xml-026556",
+      "canonical_entry_id": "S00757",
+      "headword": "קטיסין",
+      "source_xml": "<entry id=\"S00757\">\n<head-word>קטיסין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Ez. 362; Yalk. Dan. 1061, a perversion of דְּיוֹנִיסִין, v. \n<xref rid=\"S00014\">קאניסין</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26557,
+      "source_id": "jastrow-xml-026557",
+      "canonical_entry_id": "S00758",
+      "headword": "קְטִיסְפָּאָה",
+      "source_xml": "<entry id=\"S00758\">\n<head-word>קְטִיסְפָּאָה</head-word>\n<head-word>קְטוּסְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (next art.) \n<italic>of Ctesiphon</italic>.</definition>\n<notes> B. Bath. 93\n<sup>b</sup> חייא קטו' (Ms. H. כטיפסאה, emended ק'); Bets. 38\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26558,
+      "source_id": "jastrow-xml-026558",
+      "canonical_entry_id": "S00759",
+      "headword": "קטיספו",
+      "source_xml": "<entry id=\"S00759\">\n<head-word>קטיספו</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00760\">next w.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26559,
+      "source_id": "jastrow-xml-026559",
+      "canonical_entry_id": "S00760",
+      "headword": "קְטִיסְפּוֹן",
+      "source_xml": "<entry id=\"S00760\">\n<head-word>קְטִיסְפּוֹן</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Ctesiphon</italic>, a city in the southern part of Assyria, on the eastern bank of the river Tigris.</definition>\n<notes> Targ. Y. I Gen. X, 10 (ed. Vien. קְטִסְפּוֹן); Y. II קַטִּיסְפּוּ (h. text כלנה).—Gen. R. s. 37 (not קטוספין, קטיספין). Lev. R. s. 5; Num. R. s. 10; Yalk. Am. 545 קטס'; a. e.; V. אִקְטִיסְפּוֹן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26560,
+      "source_id": "jastrow-xml-026560",
+      "canonical_entry_id": "S00761",
+      "headword": "קַטִּיעַ",
+      "source_xml": "<entry id=\"S00761\">\n<head-word>קַטִּיעַ</head-word>\n<head-word>קַטִּיעָא</head-word>\n<head-word>קַטִּיעֲתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קְטַע) \n<italic>mutilating, barbarous</italic>.</definition>\n<notes> Ab. Zar. 10\n<sup>b</sup> קרו לך מלכותא ק' they will call thee (thy government) a mutilating government (that kills its own subjects); Yalk. Ez. 373; Pes. 87\n<sup>b</sup></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26561,
+      "source_id": "jastrow-xml-026561",
+      "canonical_entry_id": "S00762",
+      "headword": "קְטִיעָא",
+      "source_xml": "<entry id=\"S00762\">\n<head-word>קְטִיעָא</head-word>\n<head-word>קְטִיעָה</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>dwarfed, puny</italic>.</definition>\n<notes> Yalk. Dan. 1062, v. פּוּשְׁקָא.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<pos> pr. n. m.</pos>\n<italic>Ḳ’ṭiʿa</italic>.</definition>\n<notes> Ab. Zar. 10\n<sup>b</sup> ק' בר שלום name of a gentile Roman counsellor, who suffered death for pleading in favor of the Jews, saying to the emperor, They will call thee מלכותא קטיעא (v. preced.); Yalk. Ez. 373.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26562,
+      "source_id": "jastrow-xml-026562",
+      "canonical_entry_id": "S00763",
+      "headword": "קַטִּיעֲתָא",
+      "source_xml": "<entry id=\"S00763\">\n<head-word>קַטִּיעֲתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00761\">קֵטִּיעַ</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26563,
+      "source_id": "jastrow-xml-026563",
+      "canonical_entry_id": "S00764",
+      "headword": "קְטִיף",
+      "source_xml": "<entry id=\"S00764\">\n<head-word>קְטִיף</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַף) [\n<italic>the movement of the grape-cutter,</italic>] \n<italic>cut</italic>.</definition>\n<notes> Koh. R. to X, 2 מחמי ליה ק' מן הדין גיסא showed him (with his hand) a cut from that (left)side (threatening punishment; Var. in Matt. K. מחי וכ' he struck him a cutting blow with his hand).—[Koh. R. to XI, 9, v. קְטַף I.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26564,
+      "source_id": "jastrow-xml-026564",
+      "canonical_entry_id": "S00765",
+      "headword": "קְטִיפָא",
+      "source_xml": "<entry id=\"S00765\">\n<head-word>קְטִיפָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, \n<plural-form>pl. קְטִיפֵי,</plural-form> v. \n<xref rid=\"S00721\">קְטוֹפָא</xref>.</definition>\n<notes /></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26565,
+      "source_id": "jastrow-xml-026565",
+      "canonical_entry_id": "S00766",
+      "headword": "קְטִיפָה",
+      "source_xml": "<entry id=\"S00766\">\n<head-word>קְטִיפָה</head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קָטַף) \n<italic>plucking</italic>.</definition>\n<notes> Pes. 11\n<sup>a</sup> בשעת ק' while engaged in plucking (instead of cutting the ears for the ʿOmer with the sickle), v. קִיטּוּף.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26566,
+      "source_id": "jastrow-xml-026566",
+      "canonical_entry_id": "S00767",
+      "headword": "*,",
+      "source_xml": "<entry id=\"S00767\">\n<head-word>*, </head-word>\n<head-word>*קְטִיפָה</head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קָטַף; cmp. Arab.</definition>\n<notes>\n<italic>ḳaṭifath</italic> vestis externa incisis fimbris instructa) a sort of \n<italic>cloak</italic> with fringes.—\n<plural-form>Pl. קְטִיפוֹת</plural-form>. Ar. s. v. קטף, quoted from a second version of Sifré (Midrash Sefer Vay’dabber), and explained as Arabic, corresponding to סָגוּס.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26567,
+      "source_id": "jastrow-xml-026567",
+      "canonical_entry_id": "S00768",
+      "headword": "קטיפריסות",
+      "source_xml": "<entry id=\"S00768\">\n<head-word>קטיפריסות</head-word>\n<head-word>קטיפרס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00819\">קָטָפְרֵיס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26568,
+      "source_id": "jastrow-xml-026568",
+      "canonical_entry_id": "S00769",
+      "headword": "*,",
+      "source_xml": "<entry id=\"S00769\">\n<head-word>*, </head-word>\n<head-word>*קְטִיקְטוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (redupl. of קטט, with formative ון; cmp. קִטְקֵט, a. קַטִּין II) \n<italic>pettiness, narrowness</italic>.</definition>\n<notes> Lev. R. s. 15, beg. (ref. to Job XXVIII, 25) as people say, איש פלוני רוחו קצרה … רוח ק' this man has a narrow spirit (is selfish), for a spirit of pettiness has been put into him; \n<pgbrk id=\"pg1349\" />[Ar. has קטריטון, ed. Koh. קטרקון, and a different version]; Yalk. Job 916 קטק' (Yalk. Lev. 554 רוח קצרה).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26569,
+      "source_id": "jastrow-xml-026569",
+      "canonical_entry_id": "S00770",
+      "headword": "קְטִיר",
+      "source_xml": "<entry id=\"S00770\">\n<head-word>קְטִיר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַר II) [\n<italic>knot,</italic>] \n<italic>conspiracy</italic>.</definition>\n<notes> Yeb. 61\n<sup>a</sup> ק' קחזינא הכא I see here a conspiracy (a nomination achieved through bribery).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26570,
+      "source_id": "jastrow-xml-026570",
+      "canonical_entry_id": "S00771",
+      "headword": "קטירה",
+      "source_xml": "<entry id=\"S00771\">\n<head-word>קטירה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Tosef. Kel. B. Kam. IV, 3 Var., v. \n<xref rid=\"I00430\">טִירָה</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26571,
+      "source_id": "jastrow-xml-026571",
+      "canonical_entry_id": "S00772",
+      "headword": "קטיריקי",
+      "source_xml": "<entry id=\"S00772\">\n<head-word>קטיריקי</head-word>\n<head-word>קטירקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00691\">קָטָאִדִיקִי</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26572,
+      "source_id": "jastrow-xml-026572",
+      "canonical_entry_id": "S00773",
+      "headword": "קְטִיתָא",
+      "source_xml": "<entry id=\"S00773\">\n<head-word>קְטִיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00731\">קְטוּתָא</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26573,
+      "source_id": "jastrow-xml-026573",
+      "canonical_entry_id": "S00774",
+      "headword": "קְטַל",
+      "source_xml": "<entry id=\"S00774\">\n<head-word>קְטַל</head-word>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to cut</italic>.</definition>\n<notes> Snh. 74\n<sup>b</sup> if a gentile says to a Jew, קְטוֹל אספסתא וכ' cut grass on the Sabbath and throw it to the cattle, or I shall kill thee, לִיקְטִיל ולא לִיקְטְלֵיה let him cut, that he (the gentile) may not kill him; שדי לנהרא ליקטליה ולא ליקטול but if he says to him, (cut grass and) throw it into the river, let him (the gentile) kill him, but he must not cut, because the gentile’s intention is merely to make him commit a sin; Yeb. 121\n<sup>b</sup>. Sabb. 95\n<sup>a</sup> רבך קָטֵיל … הוה thy teacher must have been a cutter of reeds in the marsh (an ignorant man); Snh. 33\n<sup>a</sup> אטו אנן קַטְלֵי וכ' are we reed-cutters?; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to kill</italic>.</definition>\n<notes> Targ. Gen. V, 8. Targ. Ex. IV, 23, sq.; a. fr.—Part. pass. קְטִיל, קְטִילָא; f. קְטִילָא; \n<plural-form>pl. קְטִילִין, קְטִילַיָּא; קְטִילָן</plural-form>. Targ. II Sam. XXIII, 8. Targ. Prov. VII, 26; a. fr.—Cant. R. to III, 4 אריא קטילא קְטִילַת thou hast killed a dead lion; Snh. 96\n<sup>b</sup> עמא ק' קַטְלַת thou hast killed a dead people, v. טְחַן. Ib. 74\n<sup>a</sup> אמר … זיל קַטְלֵיה … ואי לא קַטְלִינָא לן the governor of my place told me, go and kill that man, or I shall kill thee; א\"ל לִיקְטְלוּךְ ולא תִיקְטוֹל וכ' said he (Raba) to him, let them kill thee, but do thou not kill; who tells thee that thy blood is redder &amp;c.? Cant. R. to IV, 1 (expl. טרף, Gen. VIII, 11) קטיל וכ' killed, as we read (Gen. XXXVII, 3</notes></sense>\n<sense>\n<number>3)</number>\n<definition>\n<italic>ṭarof</italic> &amp;c.; אמר לה אילו לא קְטַלְתִּינֵיה וכ' he (Noah) said to her (the dove), hadst thou not killed it, it would have become a big tree; Lev. R. s. 31 אילו לא קְטַלְתֵּיה; Yalk. Gen. 59; (Gen. R. s. 33 אילו שבקתה); a. fr.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Pa.</binyan-name>\n<binyan-form>קַטֵּיל</binyan-form>\n<senses>\n<sense>\n<definition> same, \n<italic>to Kill</italic>.</definition>\n<notes> Targ. Ex. XVII, 3. Targ. II Kings XVII, 26; a. fr.—Y. Taan. IV, 69\n<sup>a</sup> והוון רומים … ומְקַטְּלִין לון the Romans came and massacred them (the inhabitants); a. e.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְקְטִיל, אִיקְּטִיל</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be killed, put to death</italic>.</definition>\n<notes> Targ. Ex. XXI, 15. Targ. Prov. XXII, 13; a. fr.—Keth. 35\n<sup>b</sup> אע\"ג דמִיקְּטִיל משלם although he is to be put to death, he must pay damages; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 26574,
+      "source_id": "jastrow-xml-026574",
+      "canonical_entry_id": "S00775",
+      "headword": "קְטָלָא",
+      "source_xml": "<entry id=\"S00775\">\n<head-word>קְטָלָא</head-word>\n<head-word>(קַטְּלָא)</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (preced.) \n<italic>killing, death-penalty</italic>.</definition>\n<notes> Targ. Lev. XX, 9; 11 (O. ed. Berl. קַטְּ'). Targ. Prov. XXIV, 11; a. e.—Snh. 11\n<sup>a</sup> שמעון … לחרבא וחברוהי לק' Simon and Yishmael are destined to fall by the sword, and their colleagues to be executed. Ab. I, 13 ק' חייב deserves death. Snh. 73\n<sup>b</sup> מסרה נפשה לק' she was prepared to die (resisting her assailant). Ib. 78\n<sup>b</sup> בר ק' הוא … קְטָלֵיה במאי he was guilty of a capital crime, but Moses did not know in what manner he was to be executed. Ib. 79\n<sup>b</sup> אי בר ק' הוא וכ' if he is to be put to death &amp;c. Keth. 35\n<sup>a</sup> האי בק' כתיב this (\n<italic>makkeh</italic>, Lev. XXIV, 2</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26575,
+      "source_id": "jastrow-xml-026575",
+      "canonical_entry_id": "S00776",
+      "headword": "קַטְלָא",
+      "source_xml": "<entry id=\"S00776\">\n<head-word>קַטְלָא</head-word>\n<head-word>קַטְלָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (catella) \n<italic>chain, necklace</italic>.</definition>\n<notes> Kel. XI, 8 ק' שחוליות שלה וכ' a chain the links of which are of metal and strung on a linen or a woolen thread. Ib. שירי ק' וכ' the fragments of a necklace (in order to be susceptible of levitical uncleanness) must be large enough &amp;c. Meil. V, 1. Tosef. Kel. B. Mets. I, 9; a. fr.—\n<plural-form>Pl. קַטְלָאוֹת, קַטְלָיוֹת</plural-form>. Ib. 13; Kel. l. c. Ab. Zar. I, 8 (19\n<sup>b</sup>) אין עושין … קוטלאות וכ' (omitted in Y. ed.) you must not manufacture jewelry for idols: necklaces &amp;c.; a. e.—Gen. R. s. 98 שירין וקַטְלִין וכ' chains, necklaces &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26576,
+      "source_id": "jastrow-xml-026576",
+      "canonical_entry_id": "S00777",
+      "headword": "קַטְלָא",
+      "source_xml": "<entry id=\"S00777\">\n<head-word>קַטְלָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. קַטְלָאִין, קטְלַיָּא, קַטְלִין</plural-form>. Targ. Y. I Gen. XLIX, 22 (Y. II קָטִילִין). Targ. Y. I Num. XXXI, 50; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26577,
+      "source_id": "jastrow-xml-026577",
+      "canonical_entry_id": "S00778",
+      "headword": "קטלא",
+      "source_xml": "<entry id=\"S00778\">\n<head-word>קטלא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Ps. 848 ק' דימא, v. \n<xref rid=\"S01331\">קָלִיט</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26578,
+      "source_id": "jastrow-xml-026578",
+      "canonical_entry_id": "S00779",
+      "headword": "קַטְלָה",
+      "source_xml": "<entry id=\"S00779\">\n<head-word>קַטְלָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00775\">קַטְלָא</xref> h.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26579,
+      "source_id": "jastrow-xml-026579",
+      "canonical_entry_id": "S00780",
+      "headword": "קַטְלוֹזָא",
+      "source_xml": "<entry id=\"S00780\">\n<head-word>קַטְלוֹזָא</head-word>\n<head-word>קַטְלָזוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קטלז, enlargement of קטל) [\n<italic>chopping place,</italic>] \n<italic>counter for retail sale</italic> of provisions &amp;c., opp. to אוצר, הפתק &amp;c. Ab. Zar. 40\n<sup>b</sup> יין תפוחים … הנמכר בק' וכ' (Ar. קַטְלֵיזָא) apple wine of gentiles … which is sold over the counter is forbidden, because they mix it with wine; Tosef. ib.</definition>\n<notes> IV (V), 12 בקטלזון בשוק הרי זה אסור … ed. Zuck. (ed. incorr.) at retail, in the market. [Ab. Zar. l. c. הנמכרין בק' לפני חנוני, read as Tosef. l. c.: בסלולה.] Tosef. B. Bath. V, 4, v. פִּיקְטְנִי. Tosef. B. Mets. VI, 13 המוכר … כדרך שמעמיד בקטלזון ed. Zuck. (Var. בקַטְלוֹזִין, בקוּטְלֵזִין, \n<italic>pl.</italic>) if one sells his neighbor wine or oil to be delivered during the whole year (taking payment in advance), he must charge him as he would charge at retail (being paid as he delivers; otherwise it would be usury).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26580,
+      "source_id": "jastrow-xml-026580",
+      "canonical_entry_id": "S00781",
+      "headword": "קַטְלֵיזָא",
+      "source_xml": "<entry id=\"S00781\">\n<head-word>קַטְלֵיזָא</head-word>\n<head-word>קטליזון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S00780\">preced.</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26581,
+      "source_id": "jastrow-xml-026581",
+      "canonical_entry_id": "S00782",
+      "headword": "קטליקוס",
+      "source_xml": "<entry id=\"S00782\">\n<head-word>קטליקוס</head-word>\n<head-word>קטליקין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"S02288\">קָתוֹלִיקוֹס</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26582,
+      "source_id": "jastrow-xml-026582",
+      "canonical_entry_id": "S00783",
+      "headword": "קַטְלִית",
+      "source_xml": "<entry id=\"S00783\">\n<head-word>קַטְלִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קטל) [\n<italic>club-shaped,</italic>] \n<italic>the thigh with the kneepan</italic>.</definition>\n<notes> Ohol. I, 8 שלשה בק' there are three limbs in the \n<italic>ḳaṭlith</italic></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26583,
+      "source_id": "jastrow-xml-026583",
+      "canonical_entry_id": "S00784",
+      "headword": "קָטָלֶפְטָא",
+      "source_xml": "<entry id=\"S00784\">\n<head-word>קָטָלֶפְטָא</head-word>\n<senses>\n<sense>\n<definition> (κατὰ λεπτά) \n<italic>piece by piece, in small quantities</italic>.</definition>\n<notes> Lam. R. to I, 1 (העיר) Ar., v. לוּקְטָא.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26584,
+      "source_id": "jastrow-xml-026584",
+      "canonical_entry_id": "S00785",
+      "headword": "קָטַם",
+      "source_xml": "<entry id=\"S00785\">\n<head-word>קָטַם</head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (cmp. גדם) \n<italic>to cut, chop, lop</italic>.</definition>\n<notes> Shebi. II, 4 וקוֹטְמִין אותן and trim them; [oth. opin., v. קָטַם II]. Y. Sabb. VII, 10\n<sup>b</sup> bot. הקוֹטְמָהּ he that clips it (the wing-feather); Tosef. ib. IX (X), 20; Bab. ib. 74\n<sup>b</sup> הקוֹטְמוֹ. Bets. 33\n<sup>b</sup> לא יִקְטְמֶנּוּ … ואם קְטָמוֹ וכ' one must not nip it in order to smell at it, but if one did &amp;c.; a. fr.—Part. pass. קָטוּם; f. קְטוּמָה; \n<plural-form>pl. קְטוּמִים</plural-form> &amp;c. Succ. III, 4 שנים ק' ואחד אינו ק' if two (of the three myrtle sprigs) are broken on the top, and one is not. Y. ib. 53\n<sup>c</sup> bot. ק' הדר even if the point is broken off, it may still be called \n<italic>hadar</italic> (beautiful); ib.\n<sup>d</sup> top ק' הדור; a. e.</notes></sense></senses>\n<binyan>\n<binyan-name>Pi.</binyan-name>\n<binyan-form>קִיטֵּם</binyan-form>\n<senses>\n<sense>\n<definition />\n<notes> same. Tosef. B. Kam. II, 1, v. \n<xref rid=\"S02009\">קִרְטֵם</xref></notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נִקְטָם</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be lopped, nipped</italic>.</definition>\n<notes> Succ. III, 1 נ' ראשו if its top is broken off; ib. 2; 3; a. e.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 26585,
+      "source_id": "jastrow-xml-026585",
+      "canonical_entry_id": "S00786",
+      "headword": "קְטַם",
+      "source_xml": "<entry id=\"S00786\">\n<head-word>קְטַם</head-word>\n<hw-number>I</hw-number>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<number>1)</number>\n<definition> same, \n<italic>to break off, pluck</italic>.</definition>\n<notes>—Part. pass. \n<pgbrk id=\"pg1350\" />קְטִים. Targ. Y. Gen. VIII, 11 Ar. (ed. לקיט; h. text טרף).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to crumble, crush</italic>.</definition>\n<notes>—Denom. קְטַם III.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26586,
+      "source_id": "jastrow-xml-026586",
+      "canonical_entry_id": "S00787",
+      "headword": "קָטַם",
+      "source_xml": "<entry id=\"S00787\">\n<head-word>קָטַם</head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (denom. of קְטַם III) \n<italic>to cover with ashes</italic> or \n<italic>powder</italic>.</definition>\n<notes> Shebi. II, 4 קוֹטְמִין אותן you may cover them with powder (v. אָבַק); [oth. opin., v. קָטַם I.]—Esp. \n<italic>to cover embers with ashes</italic> on which to put dishes to be kept warm for the Sabbath. Y. Sabb. III, beg. 5\n<sup>c</sup> הקוֹטֵם עד שיִקְטוֹם וכ' he that covers must not put dishes on until he has sufficiently covered (choked the flame). Ib.; Bab. ib. 37\n<sup>a</sup> קְטָמָהּ, v. לָבָה; a. e.—Part. pass. קָטוּם; f. קְטוּמָה &amp;c. Ib. Tosef. ib. III, (II) 3 אחת גרופה וק' one part of the double store being swept or covered. Ib. 2 הרי הן כק' they are considered as if they were covered; a. e.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26587,
+      "source_id": "jastrow-xml-026587",
+      "canonical_entry_id": "S00788",
+      "headword": "קְטַם",
+      "source_xml": "<entry id=\"S00788\">\n<head-word>קְטַם</head-word>\n<hw-number>II</hw-number>\n<language-key>ch.</language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Tam. 29\n<sup>b</sup> משום דקָטְמֵי vers. of Ḳorban Ahăron and of Rabad to Sifra Vayikra, N’dab., Par. 4, ch. VI (ed. דקטרי) because these kinds of wood cover up the flames with their ashes.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26588,
+      "source_id": "jastrow-xml-026588",
+      "canonical_entry_id": "S00789",
+      "headword": "קְטַם",
+      "source_xml": "<entry id=\"S00789\">\n<head-word>קְטַם</head-word>\n<hw-number>III</hw-number>\n<head-word>קִטְמָא</head-word>\n<head-word>קִי'</head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַם I, </definition>\n<notes /></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>ashes, powder</italic>.</definition>\n<notes> Targ. Gen. XVIII, 27. Targ. Y. Ex. IX, 8 ק' דקיק (h. text פיח). Targ. Lev. I, 16 (h. text דשן); a. fr.—Ḥull. 51\n<sup>b</sup> ק' נהילא (fem.), v. נְהַל. Ber. 28\n<sup>a</sup>, v. חַצְבָּא; a. fr.—[Midr. Till. to Ps. XII קיטמא כולה ed. Bub., v. קוּפְסָא.]—[Targ. Zech. VI, 3 קטמין Ar., v. קִטְמָנָא.]</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26589,
+      "source_id": "jastrow-xml-026589",
+      "canonical_entry_id": "S00790",
+      "headword": "קִטְמָא",
+      "source_xml": "<entry id=\"S00790\">\n<head-word>קִטְמָא</head-word>\n<head-word>קִי'</head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַם I, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>that which is lopped;</italic> (euphem.) בית ק' (cmp. גְּזֵירְתָא) \n<italic>membrum virile</italic>.</definition>\n<notes> Targ. Y. II Deut. XXV, 11 בית קִיטְמֵיה (not קיטמי; h. text מבשיו).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26590,
+      "source_id": "jastrow-xml-026590",
+      "canonical_entry_id": "S00791",
+      "headword": "קטמוס",
+      "source_xml": "<entry id=\"S00791\">\n<head-word>קטמוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Y. Taan. IV, 69\n<sup>a</sup> bot., read: הטוֹמוֹס or קִינְסוֹס.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26591,
+      "source_id": "jastrow-xml-026591",
+      "canonical_entry_id": "S00792",
+      "headword": "קִטְמִית",
+      "source_xml": "<entry id=\"S00792\">\n<head-word>קִטְמִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"S00789\">קְטַם III</xref>) \n<italic>powdered earth.</italic></definition>\n<notes>—\n<plural-form>Pl. קִטְמִיּוֹת</plural-form>. Gen. R. s. 90 נתן בהם עפר וק' וכ' (Ar. קוּטְמִיּוֹת) he put in them (the grain stores) dust and powder, things which preserve the fruits (cmp. חוּמְטוֹן); Yalk. ib. 148 קמאיות (corr. acc.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26592,
+      "source_id": "jastrow-xml-026592",
+      "canonical_entry_id": "S00793",
+      "headword": "קִטְמָנָא",
+      "source_xml": "<entry id=\"S00793\">\n<head-word>קִטְמָנָא</head-word>\n<head-word>קִי'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (קְטַם III) \n<italic>ash-colored.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. קִטְמָנִין, קִי'</plural-form>. Targ. Zech. VI, 83 (Ar. קטמין, corr. acc.; h. text אמצים).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26593,
+      "source_id": "jastrow-xml-026593",
+      "canonical_entry_id": "S00794",
+      "headword": "קטן",
+      "source_xml": "<entry id=\"S00794\">\n<head-word>קטן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Yalk. Sam. 124, ק' השמן, read: קִיתוֹן.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26594,
+      "source_id": "jastrow-xml-026594",
+      "canonical_entry_id": "S00795",
+      "headword": "קֹטֶן",
+      "source_xml": "<entry id=\"S00795\">\n<head-word>קֹטֶן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">קוֹטֶן</xref></notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26595,
+      "source_id": "jastrow-xml-026595",
+      "canonical_entry_id": "S00796",
+      "headword": "קָטֹן",
+      "source_xml": "<entry id=\"S00796\">\n<head-word>קָטֹן</head-word>\n<head-word>קָטַן</head-word>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to be short, small, inferior</italic>.</definition>\n<notes> Gen. R. s. 76 (expl. קטנתי, Gen. XXXII, 1</notes></sense>\n<sense>\n<number>1)</number>\n<definition> איני כדאי … כדאי אני אכל קָטֹנְתִּי מכל וכ' I am not deserving (of any of the mercies &amp;c.); R. L.</definition>\n<notes> says, I am deserving, but I am too small for (unworthy of) \n<italic>all</italic> the mercies &amp;c.</notes></sense></senses>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הִקְטִין</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to make small; to subordinate</italic>.</definition>\n<notes> B. Bath. 90\n<sup>b</sup> מַקְטִינֵי איפה those who make the Ephah (measure) small (Am. VIII, 5). Y. Sot. IX, 24\n<sup>b</sup> Samuel was surnamed ‘the small’, לפי שהוא מַקְטִין את עצמו because he made himself small (bore himself humbly). Gen. R. s. 37 (play on יקטן, Gen. X, 25) מקטין את עסקיו made his affairs small (was contented with subordinate services); מקטין את עצמו ואת עסקיו subordinated himself and his affairs, v. צָעַר. Meg. 11\n<sup>a</sup>, v. קַטְנוּת; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to grow smaller, be narrower</italic>.</definition>\n<notes> Lev. R. s. 31 מַקְטִינוֹת, v. רָחב; Pesik. Ḳumi, p. 145\n<sup>a</sup>; ib.\n<sup>b</sup> מקיטנות (corr. acc.).</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hof.</binyan-name>\n<binyan-form>הוּקְטָן</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to shrink</italic>.</definition>\n<notes> Snh. 81\n<sup>b</sup> עד שיוּקְטָן, v. מַעְיָן.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Nithpa.</binyan-name>\n<binyan-form>נִתְקַטֵּן</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be reduced, become less</italic>.</definition>\n<notes> Tosef. Sot. XV, 5 Var. משמת … נִתְקַטְּנָה חסידות וכ' when Abba José ben Ḳiṭnith died, piety became rare in Israel; v. קִיטּוּנְתָּא.</notes></sense></senses></binyan></entry>\n"
+    },
+    {
+      "ordinal": 26596,
+      "source_id": "jastrow-xml-026596",
+      "canonical_entry_id": "S00797",
+      "headword": "קָטָן",
+      "source_xml": "<entry id=\"S00797\">\n<head-word>קָטָן</head-word>\n<head-word>קָטוֹן</head-word>\n<head-word>קְטַנָּה</head-word>\n<pos> f.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> preced.) \n<italic>small, young; inferior</italic>.</definition>\n<notes> Y. Kil. IV, beg. 29\n<sup>a</sup>. Ab. IV, 19, a. fr. שמואל הק' Samuel the junior; Y. Sot. IX, 24\n<sup>b</sup>, v. preced. Yeb. II, 8 הק' a younger brother. Gen. R. s. 37 ומה אם הק' שהוא מקטין וכ' if an inferior person that is contented with a subordinate position (v. preced.) is thus rewarded, how much more a great man &amp;c. Gen. R. s. 93 קְטַנָּן של שבטים one of the youngest of the tribes; Yalk. ib. 152 (not קטנו); Yalk. Ps. 762; a. fr.—Esp. \n<italic>minor</italic>, a boy under thirteen, a girl under twelve years. Gitt. 65\n<sup>a</sup> שלש מדות בק' וכ' there are three legal stages of a minor: when he throws away a pebble &amp;c., v. צְרוֹר II; וכנגדן בק' מתקדשת וכ' and in the corresponding stage a girl may be betrothed subject to protest (מִיאוּן). Ib. II, 6 קבל הק' והגדיל if he received a letter of divorce (as a carrier) while he was a minor, and reached majority before delivery. Ber. 47\n<sup>b</sup>; a. fr.—Sot. 22\n<sup>a</sup> (among those who are a ruin to the world) ק' שלא כלו לו וכ' a child whose months are not complete (a prematurely born child), expl. ib. ‘a student who disregards his teacher’, or ‘a student who constitutes himself a teacher before regular ordination.’—\n<plural-form>Pl. קְטַנִּים; קְטַנּוֹת</plural-form>. Tosef. Snh. XIII, 1 קטנים בני רשעי ארץ ed. Zuck. (Var. קְטַנֵּי) children of the wicked of the land that died in childhood; Snh. 110\n<sup>b</sup>; Y. Shebi. IV, end, 35\n<sup>c</sup> ק' ישראל children of Israelites (that died); ק' גוים of gentiles. Keth. II, 3 ק' היינו we were minors (when we signed as witnesses). Ib. VII, 9 מומין הק' minor physical blemishes. Sot. 48\n<sup>b</sup> ק' אמנה, v. אֲמָנָה. Ib. 49\n<sup>b</sup> מק' חסידים of the youngest (last) of the pious men (v. next w.); a. fr.—Euphem. קְטַנִּים (sub. נקבים) the minor functions of the body, \n<italic>urinating</italic>. Ber. 23\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26597,
+      "source_id": "jastrow-xml-026597",
+      "canonical_entry_id": "S00798",
+      "headword": "קַטְנוּת",
+      "source_xml": "<entry id=\"S00798\">\n<head-word>קַטְנוּת</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (preced.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>youth; inferior position</italic>.</definition>\n<notes> Lam. R. introd. (R. Joh. 1) אוי … שבקַטְנוּתוֹ וכ' woe to the king who succeeded when he was young but failed in his old age. Meg. 11\n<sup>a</sup> (ref. to הקטן, I Sam. XVII, 14) כשם שבקטנותו הקטין וכ' as in his inferior position he (David) subordinated himself to one greater …, so when he was king &amp;c.; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>humility, modesty</italic>.</definition>\n<notes> Ib. הוא בקטנותו he was always the same as to his humility.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (sub. אמנה) \n<italic>want of faith, pusillanimity</italic>.</definition>\n<notes> Sot. 48\n<sup>b</sup> (ref. to Zech. IV, 10) מי גרם … ק' שהיתה בהן שלא האמינו וכ' (not שהיה) what causes the table of the righteous in the hereafter to be contemptible? The pusillanimity that was in them, in that they had no faith in God; Yalk. Zech. 571.</notes></sense>\n<sense>\n<number>—4)</number>\n<definition>\n<italic>the thinner end, tail-end</italic> (cmp. קוֹטֶן).</definition>\n<notes> Sot. IX, 15 (49\n<sup>a</sup>) Abba José was surnamed קטונתא, שהיה קַטְנוּתָן של וכ' (Y. ed. תמצותן; Bab. ed. קטנתא) because he was the tail-end (the last) of the pious men (v. קָטֹן, \n<italic>Nithpa.</italic>); (ib. 49\n<sup>b</sup> שהיה מקטני חסידים, v. preced. w.).</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26598,
+      "source_id": "jastrow-xml-026598",
+      "canonical_entry_id": "S00799",
+      "headword": "קַטְנוּתָא",
+      "source_xml": "<entry id=\"S00799\">\n<head-word>קַטְנוּתָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>younger days</italic>.</definition>\n<notes> Gitt. 29\n<sup>b</sup> הא דאבא \n<pgbrk id=\"pg1351\" />דק' היא (Ar. דקַטִּינוּתָא) this my father’s opinion dates from his early days.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26599,
+      "source_id": "jastrow-xml-026599",
+      "canonical_entry_id": "S00800",
+      "headword": "קְטַנְטִין",
+      "source_xml": "<entry id=\"S00800\">\n<head-word>קְטַנְטִין</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (reduplic. of קטן) \n<italic>a subordinate officer, attendant of a magistrate</italic>.</definition>\n<notes> Midr. Till. to Ps. LIV, 3 ק' שהוא רודף לאדם וכ' ed. Bub. (oth. ed. אחר חבירו, corr. acc.) if an attendant persecutes a man, he may complain against him to the lieutenant (hyparch), and if the lieutenant persecutes him, he may complain to the king; Yalk. ib. 771 קְטַנְתָּן … קובל עליו לאפיקורוס וכ' (read: לאפיטרופוס) if an attendant …, he appeals to the proconsul &amp;c.</notes></sense></senses></entry>\n"
+    },
+    {
+      "ordinal": 26600,
+      "source_id": "jastrow-xml-026600",
+      "canonical_entry_id": "S00801",
+      "headword": "קִטְנֵי",
+      "source_xml": "<entry id=\"S00801\">\n<head-word>קִטְנֵי</head-word>\n<head-word>קִטְנִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. sub קִיטְ'.</notes></sense></senses></entry>\n"
+    }
+  ]
+}

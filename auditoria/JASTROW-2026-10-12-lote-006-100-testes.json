@@ -1,0 +1,71 @@
+{
+  "schema": "JASTROW-finale-static-verification/6",
+  "date": "2026-10-12",
+  "source_HEAD": "3f2de7883b9742909969f0821c25d19526c310de",
+  "groups": [
+    {
+      "group": 1,
+      "blob_sha": "67afd2800d27840c861b6e8d34062f0f31312f12",
+      "modules": 9,
+      "first": "A00000",
+      "last": "A00209",
+      "rows": 210,
+      "cards": 210,
+      "unique": 210
+    },
+    {
+      "group": 2,
+      "blob_sha": "a992a5d4083f7c54a30d4ade98b8a3ca7947d78d",
+      "modules": 9,
+      "first": "A00210",
+      "last": "A00434",
+      "rows": 225,
+      "cards": 225,
+      "unique": 225
+    },
+    {
+      "group": 3,
+      "blob_sha": "75fe7c29f5375d0496946ac0b026ece64316745d",
+      "modules": 9,
+      "first": "A00435",
+      "last": "A00599",
+      "rows": 165,
+      "cards": 165,
+      "unique": 165
+    }
+  ],
+  "stats": {
+    "all_source_entries": 600,
+    "all_source_unique": 600,
+    "all_published_cards": 600,
+    "all_published_unique": 600,
+    "all_card_sequence_equal_canonical": true,
+    "all_source_IDs_match_published_cards": true,
+    "current_batch_evidence_records": 100,
+    "current_batch_counts": {
+      "A": 73,
+      "C": 27,
+      "P": 0
+    },
+    "current_batch_sources_and_html_verified": true,
+    "cumulative_count": 600,
+    "cumulative_counts": {
+      "A": 401,
+      "C": 199,
+      "P": 0
+    },
+    "checkpoint_all_source_IDs_exact": true,
+    "modules_syntax_passed": 27,
+    "popup_modules_syntax_passed": 6,
+    "popup_dom_rendering_tested": false,
+    "independent_manuscript_collation": false,
+    "real_browser_test": false,
+    "source_files_modified": false,
+    "errors": []
+  },
+  "limits": [
+    "Validates text and code statically but not browser execution/visual RTL",
+    "No independent collation of Rabbinic manuscript and facsimile witnesses",
+    "A/C statuses are results of Jastrow Sefaria digital-to-Portuguese editorial audit"
+  ]
+}

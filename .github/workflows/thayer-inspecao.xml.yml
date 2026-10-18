@@ -1,0 +1,15 @@
+name: THAYER - inspecionar derivativos do facsimile
+on:
+  push:
+    branches: [chat-gpt-thayer-indice-titulos]
+    paths: [.github/workflows/thayer-inspecao.xml.yml, tools/thayer_inspect_scans.py]
+permissions: {contents: read}
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python tools/thayer_inspect_scans.py

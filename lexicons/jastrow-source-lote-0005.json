@@ -1,0 +1,1418 @@
+{
+  "source": "Marcus Jastrow (Sefaria-Data upstream XML)",
+  "source_start_ordinal": 801,
+  "source_end_ordinal": 1000,
+  "source_repository": "Sefaria/Sefaria-Data",
+  "source_commit": "947c1b91684df9f8b92f14cf0d281b5d4f29bfc7",
+  "source_blob_sha": "98292a0c219835df19b9da7cea1edbc4dcc6526d",
+  "source_path": "dictionaries/Jastrow/data/01-Merged XML/Jastrow-full.xml",
+  "source_url": "https://raw.githubusercontent.com/Sefaria/Sefaria-Data/947c1b91684df9f8b92f14cf0d281b5d4f29bfc7/dictionaries/Jastrow/data/01-Merged%20XML/Jastrow-full.xml",
+  "source_xml_sha256": "7361ffd1ffe3594092976ebceeb87dc8eac60fbbc9b91693e1aa9102a478d8d2",
+  "status": "source_only_untranslated_not_published",
+  "entry_count": 200,
+  "first_headword": "(הֹופְיָא) אֹופְיָא",
+  "last_headword": "אָחָה",
+  "next_headword": "אַחְוָא,",
+  "records": [
+    {
+      "ordinal": 801,
+      "source_id": "jastrow-xml-000801",
+      "headword": "(הֹופְיָא) אֹופְיָא",
+      "source_xml": "<entry id=\"A00800\">\n<head-word>(הֹופְיָא) אֹופְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (אוף; v. \n<xref rid=\"A02265\">אנף</xref>;\n<language-key> b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אָפַע</xref>)</language-reference>\n<italic>what is blown off, foam, froth</italic>.</definition>\n<notes> Ab. Zara 26\n<sup>a</sup> כי א' דימא Ms. M. (ed. דנהרא, v. Rabb. D. S. a. l., a. Ar. ed. Koh. s. v. אפי) as the foam of the Sea [river]; (Ar. \n<italic>as logs on the river</italic>, v. אוּפְתָּא, אוּפֵי). Ib. 70\n<sup>b</sup> הוות נקיטא א' (Var. חופיא, ה', v. Rabb. D. S. a. l. note 20) she took the froth off. Ḥull. 105\n<sup>b</sup> א' (Ar. ה').</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f8aefb87bb3f727af53523a82028f2c6340c6b96724794a849904674b401838b"
+    },
+    {
+      "ordinal": 802,
+      "source_id": "jastrow-xml-000802",
+      "headword": "*אֹופְיוֹן",
+      "source_xml": "<entry id=\"A00801\">\n<head-word>*אֹופְיוֹן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ὄπιον) \n<italic>poppy-juice, opium</italic>.</definition>\n<notes> Y. Ab. Zar. II, 40\n<sup>d</sup> top אהן א' סכנה an opium drink (prepared by a gentile) is dangerous.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f7c36223c7405e37d5808091d0c4665c12d37770e6bddbd2b715021626807d40"
+    },
+    {
+      "ordinal": 803,
+      "source_id": "jastrow-xml-000803",
+      "headword": "אופיטא",
+      "source_xml": "<entry id=\"A00802\">\n<head-word>אופיטא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02194\">אַנְטִיפִּיטָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d43764fe9b7f5370e7dc6bc32520ba4435af83154b849c692901ddfe14ad89fa"
+    },
+    {
+      "ordinal": 804,
+      "source_id": "jastrow-xml-000804",
+      "headword": "אוּפְיֵי",
+      "source_xml": "<entry id=\"A00803\">\n<head-word>אוּפְיֵי</head-word>\n<senses>\n<sense>\n<definition>\n<italic>twigs</italic>, v. \n<xref rid=\"A00798\">אוּפֵי</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "42e3ce93f238dee4649ffd912cb92b03bf5e62338f30f7ead7f8fa5d9b7a2c89"
+    },
+    {
+      "ordinal": 805,
+      "source_id": "jastrow-xml-000805",
+      "headword": "אֹופִיכָא",
+      "source_xml": "<entry id=\"A00804\">\n<head-word>אֹופִיכָא</head-word>\n<senses>\n<sense>\n<definition> (אֹופְכָיָיא\n<pos> f.</pos>) (אפך) \n<italic>destruction, ruin</italic> Lam. R. to III, 13 (expl. בני אשפתו ibid.</definition>\n<notes>, v. אַשְׁפָּה) בני אֹופִיכֵיה (Var. אֹופְכָיֵיה) the children of those he laid in ruins; v. אִימְרָיָיא. [Differ. in Esth. R. to I, 1\n<sup>b</sup>, v. אוּכַּיְיפָא a. אֲמוּרְיָא.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a71439edab3356ff9daae2bead370d8ecc977aa86f1f3032d9471fc1159d0614"
+    },
+    {
+      "ordinal": 806,
+      "source_id": "jastrow-xml-000806",
+      "headword": "אופילין",
+      "source_xml": "<entry id=\"A00805\">\n<head-word>אופילין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Tosef. Ter. II, 4, v. \n<xref rid=\"A02622\">אֲפֹולִים</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0139563be1f2564dc3402953fd0bc69ded02b8c13a5696913e06fa59df8d57ef"
+    },
+    {
+      "ordinal": 807,
+      "source_id": "jastrow-xml-000807",
+      "headword": "*אופימטטאטא,",
+      "source_xml": "<entry id=\"A00806\">\n<head-word>*אופימטטאטא, </head-word>\n<head-word>אופימשט'</head-word>\n<senses>\n<sense>\n<definition>, read אוּפֹּומְנֵימָאטָא\n<pos> m. pl.</pos> (ὑπομνήματα) \n<italic>public records, acts</italic>.</definition>\n<notes> Ex. R. s. 28 a king wanted לעשות א' חוץ וכ' to pass acts without consulting the lieutenant-governor (hyparch).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "169b45f70eb6261db26f6215a55372c2c31f2fcea33a2918e7f12809c14d5b73"
+    },
+    {
+      "ordinal": 808,
+      "source_id": "jastrow-xml-000808",
+      "headword": "אֹופִיקְיָלִין",
+      "source_xml": "<entry id=\"A00807\">\n<head-word>אֹופִיקְיָלִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (officialis, ὀφφικιάλιος) \n<italic>subordinate officials, constables</italic>.</definition>\n<notes> Y’lamd. Balak (quot. in Ar. s. v. בלש) או' ed. Koh. Ib. שלח אפיקלין (corr. acc.) he sent constables (for her son).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "516ed11bff40c391255ac6f01b98f2a17a0a1063d8b60b2cbe5d7bd4cbd2fba5"
+    },
+    {
+      "ordinal": 809,
+      "source_id": "jastrow-xml-000809",
+      "headword": "אֹופִיתָא",
+      "source_xml": "<entry id=\"A00808\">\n<head-word>אֹופִיתָא</head-word>\n<pos> f.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= h. אֹופִי) \n<italic>nature, disposition</italic>.</definition>\n<notes> Gen. R. s. 14, end, v. אֹופִי.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a349f192782e8ebba75e4ebc50baac239970f8e2a615b0335314bcada43abf3b"
+    },
+    {
+      "ordinal": 810,
+      "source_id": "jastrow-xml-000810",
+      "headword": "אופכי,",
+      "source_xml": "<entry id=\"A00809\">\n<head-word>אופכי, </head-word>\n<head-word>אופכין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02619\">אַפּוּכִי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ddb60b80f081ab37d7ae6eca639eb6e578e329d270c8b5f8c23e43dfaf089a57"
+    },
+    {
+      "ordinal": 811,
+      "source_id": "jastrow-xml-000811",
+      "headword": "אֹופֶל",
+      "source_xml": "<entry id=\"A00810\">\n<head-word>אֹופֶל</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אֹפֶל)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>darkness</italic>.</definition>\n<notes> Gen. R. s. 89, beg. v. אֲפֵילָה.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "43f553f38565b2350de9b446b41a570780788e401df7763a34fc3a8406b468d1"
+    },
+    {
+      "ordinal": 812,
+      "source_id": "jastrow-xml-000812",
+      "headword": "אֹופָן",
+      "source_xml": "<entry id=\"A00811\">\n<head-word>אֹופָן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> אפן</xref>,\n<xref rid=\"unknown\"> √פן</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"Q00720\">פנה</xref>) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>wheel</italic>.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition> (with ref. to Ezek. I, 15)\n<pos> pr. n.</pos>\n<italic>Ofan</italic>, name of an angel.</definition>\n<notes> Ḥag. 13\n<sup>b</sup>.—\n<plural-form>Pl. אֹופַנִּים</plural-form>. Ib. 12\n<sup>b</sup>. R. Hash. 24\n<sup>b</sup>.—[In liturgic literature אופנים and אופן are used as the names of a section of the morning prayers; v. אֹופַנָּא.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5a0894a4b0a367ee31c9b472da8a72b801c88f070b82c8690b0aef7980c05333"
+    },
+    {
+      "ordinal": 813,
+      "source_id": "jastrow-xml-000813",
+      "headword": "אֹופֶן",
+      "source_xml": "<entry id=\"A00812\">\n<head-word>אֹופֶן</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אֹפֶן; v. foreg.)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>turn, method, plan</italic>.</definition>\n<notes> [In later Hebr.: \n<italic>method of interpretation</italic> = פָּנִים.]—\n<plural-form>Pl. אֹופָנִים;</plural-form>\n<italic>Du.</italic> אֹופְנַיִים. Ruth. R. s. 2, beg. You will soon find out איפניים שלהם וכ' (Yalk. Josh. 7 אופנים) their plans (strategic movements). Ab. d’R. Nath. (ed. Taussig, N’veh Shal. p. 12) על אופניו in its proper way.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "be831088f0965eed18a280ca4f59fc690bb4ed3bdfc9834e1246a9ca15e86f04"
+    },
+    {
+      "ordinal": 814,
+      "source_id": "jastrow-xml-000814",
+      "headword": "אֹופַנָּא",
+      "source_xml": "<entry id=\"A00813\">\n<head-word>אֹופַנָּא</head-word>\n<language-key> ch. = h.</language-key>\n<language-reference>\n<xref rid=\"A00811\">אֹופָן.</xref></language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. אֹופַנַּיָּא</plural-form>. Targ. Ezek. X, 13.—אֹופַנַּיָּיה \n<italic>that section of the morning prayers beginning with v’haofannim</italic> and describing the angelic praises. Y. Ber. V, 9\n<sup>c</sup> bot.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "170916acca9509ec9b919c8117e4d3f788b1bc43b762e80225b717f657f6414c"
+    },
+    {
+      "ordinal": 815,
+      "source_id": "jastrow-xml-000815",
+      "headword": "אֹופְנָא",
+      "source_xml": "<entry id=\"A00814\">\n<head-word>אֹופְנָא</head-word>\n<language-key> ch. = אֹופֶן.</language-key>\n<senses>\n<sense>\n<definition />\n<notes>\n<italic>turn, interpretation, qualification</italic>. Y. Dem. VI, 25\n<sup>b</sup> bot. א' לית לון א' לית לסתמא we do not recognize an interpretation (of an agreement, so as to say, נעשה כאומר וכ' ‘it means as though they had said—’); no qualification is admissible for an unqualified agreement.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "3350aa9a7d4455418931ed2bfa2d646c6a8faa191c92a03ae464a77a223b879d"
+    },
+    {
+      "ordinal": 816,
+      "source_id": "jastrow-xml-000816",
+      "headword": "אוּפְסַיִם",
+      "source_xml": "<entry id=\"A00815\">\n<head-word>אוּפְסַיִם</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> du.</definition>\n<notes> (cmp. אֶפֶס—, a. פֵּס, פִּסָּה) \n<italic>palms of the hand</italic>. Mekh. B’shall. Vayissa, s. 3, to Ex. XVI, 12 the Mannah came down על האו' וכ' on the hands of the Lord, as if it were to say, the Lord held forth &amp;c. [In some ed. אוּפְסִין.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "126eae24233434e30e2787347981b800ec7ac6fcb32883d011645795788fa26e"
+    },
+    {
+      "ordinal": 817,
+      "source_id": "jastrow-xml-000817",
+      "headword": "אוּפְסִין",
+      "source_xml": "<entry id=\"A00816\">\n<head-word>אוּפְסִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> m. pl., v. foreg.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "645eafab0da9ef44cafddd6d364a7028adf1a49a401c0d842ceb9899a4d739b7"
+    },
+    {
+      "ordinal": 818,
+      "source_id": "jastrow-xml-000818",
+      "headword": "אופסנון",
+      "source_xml": "<entry id=\"A00817\">\n<head-word>אופסנון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02753\">אָפְסֹונִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "71cf5832124d5f2aec5926a638ce1f3f7b39494ae4aa9013bd30008c8e51fc8b"
+    },
+    {
+      "ordinal": 819,
+      "source_id": "jastrow-xml-000819",
+      "headword": "אוּפְתָּא",
+      "source_xml": "<entry id=\"A00818\">\n<head-word>אוּפְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A00798\">אוּפֵי</xref>) prop. \n<italic>the large central branch</italic>, hence \n<italic>trunk, stalk</italic>.</definition>\n<notes> Succ. 32\n<sup>a</sup> ואימא א' may I not say (as you insist on the palm-branch being \n<italic>kafuth</italic>, tied, joined) that I must use the stalk?—Ḥull. 47\n<sup>b</sup> lungs resembling לא' a trunk (in color, touch &amp;c.). Ib. 16\n<sup>a</sup> וי\"ו דכתיב אא' a Vav. written on a trunk (being broken on account of the rough surface = \n<italic>idle-talk</italic>).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "27b7977ba2ec38c1b061c4c16cd00b5a691693b028dccc6ba2bbbdc64967fc50"
+    },
+    {
+      "ordinal": 820,
+      "source_id": "jastrow-xml-000820",
+      "headword": "אוּפְתֵּיק,",
+      "source_xml": "<entry id=\"A00819\">\n<head-word>אוּפְתֵּיק, </head-word>\n<head-word>אוּפְתֵּק</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = הֶפְתֵּק.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5bf58dc49c30185c63ac27544c3a47b266958a2a04de6ad7fb0cdf479e266f4e"
+    },
+    {
+      "ordinal": 821,
+      "source_id": "jastrow-xml-000821",
+      "headword": "אוּץ",
+      "source_xml": "<entry id=\"A00820\">\n<head-word>אוּץ</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √או</xref></language-reference>\n<senses>\n<sense>\n<definition> , v. \n<xref rid=\"unknown\">אוי I</xref>; cmp. אָפַץ; v. חוּץ a. חָצָה) \n<italic>to be pressed</italic> (\n<italic>to press, hurry</italic>).</definition>\n<notes>—Part. אוֹצֶה, pl. אוֹצִין (as from אצה, v. חוּץ, חוּל) \n<italic>squeezed in</italic>. Tosef. Kel. B. Mets. IX, 5 א' חבור (Var. הוצין) when they are squeezed in (tight), they are considered as connected for levitical purposes.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5ae7798d1977f65be486ed1ca4a2bbeab653a1203983b47a77250fe35f3b6786"
+    },
+    {
+      "ordinal": 822,
+      "source_id": "jastrow-xml-000822",
+      "headword": "אוּצְבָּתָא",
+      "source_xml": "<entry id=\"A00821\">\n<head-word>אוּצְבָּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A02853\">אֶצְבְּעָא</xref> a. \n<xref rid=\"A02854\">אֶצְבָּעִי.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5b94168c7ebf471efca40329cac05d4ca210835e77fa57d26fae0258c86a90b4"
+    },
+    {
+      "ordinal": 823,
+      "source_id": "jastrow-xml-000823",
+      "headword": "אוּצְיָא",
+      "source_xml": "<entry id=\"A00822\">\n<head-word>אוּצְיָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אָצְיָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b1ca8693be92043e89876aead8ec9b099339304eab60a8e38459119b2a43f77b"
+    },
+    {
+      "ordinal": 824,
+      "source_id": "jastrow-xml-000824",
+      "headword": "אוציטילין",
+      "source_xml": "<entry id=\"A00823\">\n<head-word>אוציטילין</head-word>\n<senses>\n<sense>\n<definition />\n<notes> read אִיצְטֹולִין, v. \n<xref rid=\"A02376\">אִסְטְלָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "31222e4b3884506ee4a088342969eded978de58039208d426286254b3565d658"
+    },
+    {
+      "ordinal": 825,
+      "source_id": "jastrow-xml-000825",
+      "headword": "אֹוצֶן",
+      "source_xml": "<entry id=\"A00824\">\n<head-word>אֹוצֶן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"E00268\">הֹוצֶן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "02a3276a5ce4cb6d5cd786867b18003c6d7eb09e379f2a3b3c4f6c6e42447e4d"
+    },
+    {
+      "ordinal": 826,
+      "source_id": "jastrow-xml-000826",
+      "headword": "אֹוצָר",
+      "source_xml": "<entry id=\"A00825\">\n<head-word>אֹוצָר</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> אצר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>store-house, magazine; provision; hoarded up treasure</italic>.</definition>\n<notes> B. Bath 58\n<sup>a</sup>; Git. 67\n<sup>a</sup>, v. בָּלַם a. בָּלַס. Ab. Zar. 40\n<sup>b</sup>; v. הֶפְתֵּק; a. fr.—Esp. \n<italic>treasury, the</italic> (\n<italic>Roman</italic>) \n<italic>government’s treasury department</italic> where taxes in kind and money had to be paid. Y. Dem. VI, end, 26\n<sup>a</sup> ושקול על ידי לא' and pay for me in the treasury-department. Tosef. Dem. VI, 4 ושקול תחתיי מן הא' (read אל הא'). Ib. 3 ושוקל לא' ed. Zuck. (ed. incorr. ואוצר). Ib. 4 פוטריני מן הא' get me a release from the treasury-dep.—Y. Dem. l. c. פרשיני מן הא' (read פוטריני). Ab. Zar. 71\n<sup>a</sup> לא', מן הא', Ms. M. (ed. עוצר); cmp. אָצַר.—\n<plural-form>Pl. אֹוצָרוֹת</plural-form>. B. Bath. 11\n<sup>a</sup> גנזו א' Ms. (ed. א' omitted); v. גָּנַז.—Ḥag. 12\n<sup>b</sup> אֹוצְרֹות שלג וכ' the stores of snow &amp;c. (in the heavens); a. fr. V. אֹצְרֹות, א' רוח.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8138702a33d3b63228dad0fe973d2ac711a3d99c2e678f297a937506f71b8c91"
+    },
+    {
+      "ordinal": 827,
+      "source_id": "jastrow-xml-000827",
+      "headword": "אֹוצָרָא",
+      "source_xml": "<entry id=\"A00826\">\n<head-word>אֹוצָרָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Jerem. XXXVIII, 11; a. fr.—\n<plural-form>Pl. אֹוצְרִין, אֹוצְרַיָּא</plural-form>. Targ. Gen. XLI, 56; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8ef0e94b089b634b829e4e64ef812fefd384bf617156643dada922f6a45519ce"
+    },
+    {
+      "ordinal": 828,
+      "source_id": "jastrow-xml-000828",
+      "headword": "אוקומיני",
+      "source_xml": "<entry id=\"A00827\">\n<head-word>אוקומיני</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01588\">אִיקוּמֵינֵי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2bd12bcdb1e5c5ad06972c2636e06b2dd1b025f1bd22af5a2fc365380e89cf60"
+    },
+    {
+      "ordinal": 829,
+      "source_id": "jastrow-xml-000829",
+      "headword": "אוקונים",
+      "source_xml": "<entry id=\"A00828\">\n<head-word>אוקונים</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אִיקֹונִין, v. \n<xref rid=\"A01590\">אִיקֹון</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ab66ca2af89d116c0a43cefdf0ea6d60a65fd66eb1dd8ac6d060a579d7ff6e5c"
+    },
+    {
+      "ordinal": 830,
+      "source_id": "jastrow-xml-000830",
+      "headword": "אוקטוריא,",
+      "source_xml": "<entry id=\"A00829\">\n<head-word>אוקטוריא, </head-word>\n<head-word>אוקטר'</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אקט'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9e6ca4ed34cda9769b10aefe4a9ad27bd1d9268246b9f6b63f0826419ede5561"
+    },
+    {
+      "ordinal": 831,
+      "source_id": "jastrow-xml-000831",
+      "headword": "אֹוקִי",
+      "source_xml": "<entry id=\"A00830\">\n<head-word>אֹוקִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = אֹוקִים, v. \n<xref rid=\"S00374\">קוּם</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7f128b0d7611438275242dfefcf16f49511ee070b9bf06744c712dec15b831d9"
+    },
+    {
+      "ordinal": 832,
+      "source_id": "jastrow-xml-000832",
+      "headword": "אוקי",
+      "source_xml": "<entry id=\"A00831\">\n<head-word>אוקי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00834\">אוקיי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8a1c483116bdeedf62526805f561edc411c7bb14bd536c0bde4d04f4249da4db"
+    },
+    {
+      "ordinal": 833,
+      "source_id": "jastrow-xml-000833",
+      "headword": "*אוּקְיָא",
+      "source_xml": "<entry id=\"A00832\">\n<head-word>*אוּקְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> = אוּנְקְיָא [?] Ex. R. s. 43, beg.—[\n<plural-form>Pl. אוּקְיֵי</plural-form>.</definition>\n<notes> Ber. 44\n<sup>b</sup> משיתא א' סולתא, Ar. s. v. גלגל I, ‘than six ouncess of fine flour’.—Ed. קייסי; Ms. M. omits the entire sentence.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4d7d63e39e26aa42bd91f672dc61ec9916f472dc22876b9f07ce751e73f53a8e"
+    },
+    {
+      "ordinal": 834,
+      "source_id": "jastrow-xml-000834",
+      "headword": "אֹוקְיָאנֹוס",
+      "source_xml": "<entry id=\"A00833\">\n<head-word>אֹוקְיָאנֹוס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00835\">אֹוקְיָינוֹס</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "18e3ae02a98f3bfc7b6ab3c8f26a01ae894344f52ae578fa3d17b797214d9367"
+    },
+    {
+      "ordinal": 835,
+      "source_id": "jastrow-xml-000835",
+      "headword": "*אוקיי",
+      "source_xml": "<entry id=\"A00834\">\n<head-word>*אוקיי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> (Muss. אווקי) Cant. R. to VII, 8, read אֹוקְיָינֹוס. כמין א' inundating like an Ocean tide; v. \n<xref rid=\"I00518\">טלנס</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d9a34788bec00fcbd9bbe667df25c656b62746397216896eca6a90aaf2d0d6e6"
+    },
+    {
+      "ordinal": 836,
+      "source_id": "jastrow-xml-000836",
+      "headword": "אֹוקְיָינֹוס,",
+      "source_xml": "<entry id=\"A00835\">\n<head-word>אֹוקְיָינֹוס, </head-word>\n<head-word>אֹוקְיָנֹוס, </head-word>\n<head-word>אֹוקְיָאנֹוס</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (Ὠκέανος) \n<italic>Ocean</italic>, mostly \n<italic>Mediterranean Sea</italic>.</definition>\n<notes> Targ. Y. Gen. I, 7; a. e.—Y. Ḥall. IV, 60\n<sup>a</sup> bot.; a. fr.—Tanḥ. Ḥaye 3, and so is א' ים המת the Okeanos called the Sea of (covering) the dead. [Var. אונק', אנק'.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "5a663af86adfbd9a355133f9d1f93f45f709e07b5cb74e19bf2f6ccb79b64715"
+    },
+    {
+      "ordinal": 837,
+      "source_id": "jastrow-xml-000837",
+      "headword": "אֹוקִים",
+      "source_xml": "<entry id=\"A00836\">\n<head-word>אֹוקִים</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Af. of קוּם ch.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "89b08f15960feed8d1a3e2a4c268952cd2a06fffccc8178a35c0ddfb693045ab"
+    },
+    {
+      "ordinal": 838,
+      "source_id": "jastrow-xml-000838",
+      "headword": "אֹוקִימוּתָא",
+      "source_xml": "<entry id=\"A00837\">\n<head-word>אֹוקִימוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (קום) \n<italic>raising</italic>, [\n<italic>rising</italic>].</definition>\n<notes> Targ. Ps. CXXXIX, 2 [prob. אֹוקָמוּתָא].</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ac0fc00d6864dbe7b49e28cf5f717c1e03e06e7e0e73b4431dfd852cfc317fbe"
+    },
+    {
+      "ordinal": 839,
+      "source_id": "jastrow-xml-000839",
+      "headword": "אוקינין",
+      "source_xml": "<entry id=\"A00838\">\n<head-word>אוקינין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, read אִיקֹונִין.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "82ff7fb8b1e49b14a9556815b966ce26d89c001ce6be0bfb5c00f6ecefe7a9c8"
+    },
+    {
+      "ordinal": 840,
+      "source_id": "jastrow-xml-000840",
+      "headword": "אוּקְצָא",
+      "source_xml": "<entry id=\"A00839\">\n<head-word>אוּקְצָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"P00341\">עוּקְצָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "547fe89ea10120ca6ad467b7faf333c5fe01d97c9692d09d87d2e242189cb02d"
+    },
+    {
+      "ordinal": 841,
+      "source_id": "jastrow-xml-000841",
+      "headword": "אֹור,",
+      "source_xml": "<entry id=\"A00840\">\n<head-word>אֹור, </head-word>\n<hw-number>I</hw-number>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √או</xref>, v. אוי II; cmp. חָוַר,\n<xref rid=\"H00107\"> חָבַר</xref>,\n<xref rid=\"A00083\"> a. sec. r. אָרַר)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to perforate, break through, shine</italic>.</definition>\n<notes>—Denom. אַוִּיר, מְאוּרָה &amp;c.</notes></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֵאֹור</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to be broken through, grow light</italic>.</definition>\n<notes> Y. Ber. I, 2\n<sup>c</sup> משיֵאֹור המזרח from the time the Eastern horizon is broken through, grows light.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Hif.</binyan-name>\n<binyan-form>הֵאִיר</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition> (neut. v.) (neut. v.) \n<italic>to break through, shine</italic>.</definition>\n<notes> Y. ib. III, 6\n<sup>c</sup> bot. open thy lips ויָאִירוּ דבריך and let thy words come forth, speak out boldly. Yoma III, 1 ה' פני כל וכ' it has grown light all over the Eastern horizon.—פנים מֵאִירֹות \n<italic>bright countenance</italic>. Num. R. s. 11; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (act. v.) \n<italic>to enlighten, brighten, make shine</italic>.</definition>\n<notes> Y. M. Kat. III, 83\n<sup>b</sup> ה' עיניו וכ' (the teacher had opened his (Samuel’s) eyes &amp;c. B. Mets. 33\n<sup>a</sup>. Num. R. l. c. Ib. המזבח מֵאִירִים את (fr. Mal. I, 10) making the altar bright (with fire), feeding the fire on the altar. Yoma 73\n<sup>b</sup>, v. אוּר.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "6034159af3c03c358f6f3866fff15a9f4e758109b6d09f117d1972495353dd1b"
+    },
+    {
+      "ordinal": 842,
+      "source_id": "jastrow-xml-000842",
+      "headword": "אֹור",
+      "source_xml": "<entry id=\"A00841\">\n<head-word>אֹור</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Part. pass. נָאֹור \n<italic>clear</italic>. Targ. Prov. IV, 25 נְאֹורָן, נְאֹרָן, v. חֲוַר.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "47870db62834e89144f801eeb23886d8f37b01059b1973a7a9589c2b0247967a"
+    },
+    {
+      "ordinal": 843,
+      "source_id": "jastrow-xml-000843",
+      "headword": "אֹור,",
+      "source_xml": "<entry id=\"A00842\">\n<head-word>אֹור, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> foreg.) \n<italic>breaking forth</italic> (cmp. Is. LVIII, 8) whence </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>break of day, light, day; fire;</italic> trnsf. \n<italic>rise, glory, power, happiness</italic>.</definition>\n<notes> Ber. 2\n<sup>b</sup> ביאת אֹורֹו the entrance of his day-break (dawn of his eighth day; Tosaf. a. l. \n<italic>the sunset</italic> of his seventh day). Y. Pes. I, beg. 27\n<sup>a</sup> א' החמה sun-light. Ib. א' הנר candle light. Keth. 111\n<sup>b</sup> א' תורה light of the Law. B. Bath. 4\n<sup>a</sup> אֹורֹו של עולם intellectual light of the wold (a great man; the Law). Num. R. s. 15 אור של מעלן the celestial fire (believed to be the source of all light and fire); a. v. fr. </notes></sense>\n<sense>\n<number>2)</number>\n<definition> (breaking in of night) \n<italic>twilight, evening</italic>.</definition>\n<notes> Pes. I, 1 לארבעה וכ' א' on the evening (eve) of the fourteenth day of Nissan; v. discussion ibid. 2\n<sup>a</sup> sq., about the meaning of our w. R. Hash. 22\n<sup>b</sup>; Snh. 70\n<sup>b</sup> לא' עיבורו the evening following the eventual intercalation, i.e. the evening from the thirtieth of the past to the first of the beginning month.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> (homil. = אֹורָה II) \n<italic>rue</italic>.</definition>\n<notes> Gen. R. s. 20 in the Pentat. of R. M. it read כתנות אור וכ' (in place of עור Gen. III, 21) this alludes to the garments of Adam resembling the rue, wide below and narrow above; Ar. (Rashi diff.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "afcdc0d1315374c4836d8dfcac48069300d5a1b86409ade6668a0ddd973ba864"
+    },
+    {
+      "ordinal": 844,
+      "source_id": "jastrow-xml-000844",
+      "headword": "אוּר,",
+      "source_xml": "<entry id=\"A00843\">\n<head-word>אוּר, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<senses>\n<sense>\n<definition> foreg.) prop. \n<italic>light, flame;</italic> esp. \n<plural-form>Pl. אוּרִים ותומים</plural-form>\n<italic>the Urim and Tummim</italic> in the High-priest’s breast-plate.</definition>\n<notes> Yoma 73\n<sup>b</sup> א' שמאירים את דבריהם they are called \n<italic>Urim</italic> because they give their decisions in a clear way (not ambiguous as the oracles); cmp. Y. ib. VII, end, 44\n<sup>c</sup>. Sot. IX, 12. Y. Kid. IV, beg. 65\n<sup>b</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "40da6a6eb057b6cab8da3e148c930ca5246dc526d0f40d3bf78b24b4f457bf62"
+    },
+    {
+      "ordinal": 845,
+      "source_id": "jastrow-xml-000845",
+      "headword": "*אוּר,",
+      "source_xml": "<entry id=\"A00844\">\n<head-word>*אוּר, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= עוּר q. v.) \n<italic>chaff</italic>.</definition>\n<notes> Y. Ab. Zar. II. 40\n<sup>d</sup> א' דשערין chaff of barley; (Y. Sabb. XIV, 14\n<sup>d</sup> עור דסערין).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b3d66d0b71807ac5e5c0f9fad7e8e862e86428a962ca992555e328c19a9839be"
+    },
+    {
+      "ordinal": 846,
+      "source_id": "jastrow-xml-000846",
+      "headword": "אוּרָא,",
+      "source_xml": "<entry id=\"A00845\">\n<head-word>אוּרָא, </head-word>\n<hw-number>I</hw-number>\n<language-key> ch. = אוּר</language-key>\n<senses>\n<sense>\n<definition>, \n<plural-form>Pl. אוּרַיָּא</plural-form>\n<italic>the Urim</italic>.</definition>\n<notes> Targ. Num. XXVII, 21; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "689d6fe8039d6e1764d493ce7d1d59257f0ed7254fe2ab5cf3bf8370dc3d3eab"
+    },
+    {
+      "ordinal": 847,
+      "source_id": "jastrow-xml-000847",
+      "headword": "*אוּרָא,",
+      "source_xml": "<entry id=\"A00846\">\n<head-word>*אוּרָא, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<language-key>(h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">עֹור)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>skin</italic>.</definition>\n<notes> Y. Ned. III beg. 37\n<sup>d</sup> אוּרֵיה (read אוּדְרֵיה?, v. אֵדֶר I); v. however Y. Shebu. III, 34\n<sup>d</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1aac029c1d4b3f56e8895e7d48dd4e44905405dff952b61b6533f258cc6b0ee5"
+    },
+    {
+      "ordinal": 848,
+      "source_id": "jastrow-xml-000848",
+      "headword": "אֹורָאָה",
+      "source_xml": "<entry id=\"A00847\">\n<head-word>אֹורָאָה</head-word>\n<pos> f.</pos>\n<language-key> ch. = הֹורָאָה</language-key>\n<senses>\n<sense>\n<definition>\n<italic>teaching, decision</italic>.</definition>\n<notes> Targ. Ez. VII, 26; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "22fb930e16fdd705da6b473329116114dc792dc3a7a35b6c66518033413b63e0"
+    },
+    {
+      "ordinal": 849,
+      "source_id": "jastrow-xml-000849",
+      "headword": "אוּרְבָּא,",
+      "source_xml": "<entry id=\"A00848\">\n<head-word>אוּרְבָּא, </head-word>\n<head-word>אָרְבָּא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ארב, ערב \n<italic>to braid, interlace</italic> &amp;c.); pl. אוּרְבֵּי, אָרְבֵּי \n<italic>meshes, void spaces, intervals</italic>.</definition>\n<notes> Sabb. 50\n<sup>b</sup> ביני או' ed. (Ar. ארבי, Var. אַרְכֵי, v. אַרְכָא I; אדכי, v. Ar. ed. Koh. S. V. ארכי, note) between the meshes or void spaces between the bricks. Git. 69\n<sup>b</sup>. B. Bath. 3\n<sup>a</sup> (Ms. ירכי, oth. Var. v. Rabb. D. S. a. l. note).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2247211a709844b9473ee4a9382d77749ea7ac5ecb45a11122281c424d5864dd"
+    },
+    {
+      "ordinal": 850,
+      "source_id": "jastrow-xml-000850",
+      "headword": "אוּרְבִּינָא",
+      "source_xml": "<entry id=\"A00849\">\n<head-word>אוּרְבִּינָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ארב, v. foreg., cmp. סבך, סכך) \n<italic>brier, nettle</italic> or a similar plant (corresp. to h. סרפד).</definition>\n<notes> Targ. II, Esth. II, 7 (Ar. ארבניא).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "dac93191d5d311aaa3e6a5c370478899fa42df70e727cd4b063b3d39d3042631"
+    },
+    {
+      "ordinal": 851,
+      "source_id": "jastrow-xml-000851",
+      "headword": "אוּרְבָּנָא",
+      "source_xml": "<entry id=\"A00850\">\n<head-word>אוּרְבָּנָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>, </italic>\n<plural-form>pl.אוּרְבָּנֵי</plural-form>\n<pos> m.</pos> (v. foreg.; cmp. עֲרָבָה) \n<italic>bulrushes</italic>.</definition>\n<notes> Sabb. 101\n<sup>a</sup> קני ואו' (some ed. ואר') reeds and bulrushes. Snh. 82\n<sup>b</sup> בין קני לא' וכ' what has Sh’vilnai (a woman) to do between the reeds and the bulrushes? (prov. for suspicious movements of women). B. Bath. 6\n<sup>a</sup>, v. צְרִיפָא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "79b75b41d1d6989972da7ea7640780bda3bf9919c066cca983ab62aa31ada51d"
+    },
+    {
+      "ordinal": 852,
+      "source_id": "jastrow-xml-000852",
+      "headword": "*אוּרְבָּנִין",
+      "source_xml": "<entry id=\"A00851\">\n<head-word>*אוּרְבָּנִין</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (v. foreg.) name of a \n<italic>seasoning reed</italic>.</definition>\n<notes> Erub. 34\n<sup>b</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4fb366637a11b99619eb8a40bd791751299bb090611034bd38b478bfe09f9ef4"
+    },
+    {
+      "ordinal": 853,
+      "source_id": "jastrow-xml-000853",
+      "headword": "אורדי",
+      "source_xml": "<entry id=\"A00852\">\n<head-word>אורדי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Kid. 12\n<sup>a</sup>, זוודא דא', read דאוּדְרֵי or דאוּדְדֵי, v. \n<xref rid=\"A00556\">אוּדְדָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "21165635dd63cd0e2afa9c07ba1fcdcbd7a4cf8696ceabab043057e0f6f9def3"
+    },
+    {
+      "ordinal": 854,
+      "source_id": "jastrow-xml-000854",
+      "headword": "*אוּרְדַּיָּא",
+      "source_xml": "<entry id=\"A00853\">\n<head-word>*אוּרְדַּיָּא</head-word>\n<senses>\n<sense>\n<definition>, Keth. 67\n<sup>a</sup> שקי דא' (Ms. אדוריא, ed. רֹודַיָּא) prob.\n<pos> pr. n. pl.</pos>\n<italic>Urdaya, Rodaya</italic>, [or identical with foreg. w.?].</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "e45e075619e998234a6adcde711fa85ea7c547848c02784587212e9c74364e36"
+    },
+    {
+      "ordinal": 855,
+      "source_id": "jastrow-xml-000855",
+      "headword": "אוּרְדִּילָאֵי",
+      "source_xml": "<entry id=\"A00854\">\n<head-word>אוּרְדִּילָאֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אַרְדִּילַיָּא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c535d99eb3c9b091a9358a7fffa848ea30c26f136900a0ffbc078dfbd0934c76"
+    },
+    {
+      "ordinal": 856,
+      "source_id": "jastrow-xml-000856",
+      "headword": "*אוּרְדָּךְ",
+      "source_xml": "<entry id=\"A00855\">\n<head-word>*אוּרְדָּךְ</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (= אוּדָּךְ, דוך) \n<italic>crushing tool, pestle</italic>.</definition>\n<notes> Targ. Prov. XXVII, 22 some ed. (oth. אוּדְרָךְ q. v.). [The entire verse is corrupted, combining the traditional vers. with one from which LXX is translated.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e669939f1ee7f2b1001d0de62e2cd61501b0ebc86620b3b63cafc3e6435ea02f"
+    },
+    {
+      "ordinal": 857,
+      "source_id": "jastrow-xml-000857",
+      "headword": "אוּרְדְּעָה",
+      "source_xml": "<entry id=\"A00856\">\n<head-word>אוּרְדְּעָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"P00354\">עוּרְדְּעָן</xref>, and its hebr.</definition>\n<notes> phonet. equival. צְפַרְרֵּעַ) \n<italic>frog</italic>. Koh. R. to V, 8. Lev. R. s. 22 (אוּרְדְּעָן fem.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a43046c4710ed88540313b38857b490cd8e351b5e0c62c58b4d506801b39f1a9"
+    },
+    {
+      "ordinal": 858,
+      "source_id": "jastrow-xml-000858",
+      "headword": "אורדען",
+      "source_xml": "<entry id=\"A00857\">\n<head-word>אורדען</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. foreg.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f691ca5328c1f06a73d596301f59bd4c4b137c26c012a21e280fd03ac0ff3a24"
+    },
+    {
+      "ordinal": 859,
+      "source_id": "jastrow-xml-000859",
+      "headword": "אוּרְדַּעְנָה",
+      "source_xml": "<entry id=\"A00858\">\n<head-word>אוּרְדַּעְנָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. foreg.) \n<italic>a disease of the tongue, rana</italic> (\n<italic>frog</italic>).</definition>\n<notes> Y. Sabb. XIV, 14\n<sup>d</sup> top.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ecf38a9f0f7754b837cc0b51e5df8a054d031a1c0f12eba92b0339bebd7d1f1e"
+    },
+    {
+      "ordinal": 860,
+      "source_id": "jastrow-xml-000860",
+      "headword": "אֹורָה,",
+      "source_xml": "<entry id=\"A00859\">\n<head-word>אֹורָה, </head-word>\n<hw-number>I</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (b. h. = אֹור) \n<italic>light, sun</italic>.</definition>\n<notes> Y. Pes. II, 29\n<sup>a</sup> מאיר כא' clear as the sun. Zeb. 19\n<sup>b</sup>, a. e. לא' \n<italic>at daybreak</italic>. Gen. R. s. 3 beg.; a. fr.—Chald. Adv. לִכְאֹורָה \n<italic>at first sight, apparently</italic>. Keth. 54\n<sup>a</sup> לכא' כשמואל רהיטא apparently it would run (agree) with Samuel, כי מעיינת וכ' but when you consider &amp;c.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "70fa28d98f00665a580388838393f2528975cbb2b3ea5d0adb7a7b4208daa18e"
+    },
+    {
+      "ordinal": 861,
+      "source_id": "jastrow-xml-000861",
+      "headword": "אֹורָה,",
+      "source_xml": "<entry id=\"A00860\">\n<head-word>אֹורָה, </head-word>\n<hw-number>II</hw-number>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>; pl. אֹורֹות \n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אֹרֹת</xref>, II Kings IV,\n<xref rid=\"A00083\"> 39; prob. fr. אָרָה)</xref></language-reference>\n<italic>herbs</italic>, esp. \n<italic>rocket</italic>.</definition>\n<notes> Yoma 18\n<sup>b</sup>, expl. גַּרְגִּיר (etymol. שמאירות וכ'; cmp. Plin. XX, 13 quot. in Löw Aram. Pfl. p. 93). [Gen. R. s. 20 אֹור \n<italic>rue;</italic> v. אֹור II, 3.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0ced542700478fe5c5e42f2edf99cfd98657411f5c5922b2e25db7c147403213"
+    },
+    {
+      "ordinal": 862,
+      "source_id": "jastrow-xml-000862",
+      "headword": "אֹורֶה",
+      "source_xml": "<entry id=\"A00861\">\n<head-word>אֹורֶה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> part. of אָרָה, v. \n<xref rid=\"A03077\">ארי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "eec85b48c4e2815f039040bc9a9e46ad1adbf3ebf13c52e3eced513b8c023918"
+    },
+    {
+      "ordinal": 863,
+      "source_id": "jastrow-xml-000863",
+      "headword": "אורוורין",
+      "source_xml": "<entry id=\"A00862\">\n<head-word>אורוורין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00892\">אֹורְיָיר</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "37b98705014ca84d5a847c2bf15cc7b17646974eea1dcbce6a523ab68c442575"
+    },
+    {
+      "ordinal": 864,
+      "source_id": "jastrow-xml-000864",
+      "headword": "אוּרְוֹות",
+      "source_xml": "<entry id=\"A00863\">\n<head-word>אוּרְוֹות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אוּרְיָא II</xref> a. \n<xref rid=\"unknown\">אֻרְוָה.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "19323a16be16da69bd5135f7bb4f0bfc42a2484529c52f11a33313d354ccdff4"
+    },
+    {
+      "ordinal": 865,
+      "source_id": "jastrow-xml-000865",
+      "headword": "אוּרְוָותָא",
+      "source_xml": "<entry id=\"A00864\">\n<head-word>אוּרְוָותָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אוּרְיָא II</xref> ch., a. אֵדֶר I.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "067afb5512a526c4ef8764807db41aee32ed7ae5e6131929d502c8d7c0a722bf"
+    },
+    {
+      "ordinal": 866,
+      "source_id": "jastrow-xml-000866",
+      "headword": "אֹורֹולֹוגִין",
+      "source_xml": "<entry id=\"A00865\">\n<head-word>אֹורֹולֹוגִין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00904\">אֹורְלֹוגִין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9bbaaf292bda3c600f327c3d083b9648da733e08c1c65316301fa0e58986c4dd"
+    },
+    {
+      "ordinal": 867,
+      "source_id": "jastrow-xml-000867",
+      "headword": "*אורוסטי",
+      "source_xml": "<entry id=\"A00866\">\n<head-word>*אורוסטי</head-word>\n<senses>\n<sense>\n<definition>, a corrupt., prob. רֹוסָאטוֹן,\n<pos> m.</pos> (ῥοσᾶτον, rosatum) \n<italic>vin-aux-roses, rose-wine</italic>.</definition>\n<notes> Y. Shebi. VII, beg. 37\n<sup>b</sup> א' שרי (Mas. איריוסטו) rose-wine is permitted in the Sabbath year.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ff060c39c0fb5f242823e9c4f7d5d1d795baba0beb43c63e8f86c3318e9b2e78"
+    },
+    {
+      "ordinal": 868,
+      "source_id": "jastrow-xml-000868",
+      "headword": "אורורין",
+      "source_xml": "<entry id=\"A00867\">\n<head-word>אורורין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00892\">אֹורְיָיר</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "307072c2752e4922b692f42bc32512849c0b6c5a383bcd5df5b5d1ff819198a3"
+    },
+    {
+      "ordinal": 869,
+      "source_id": "jastrow-xml-000869",
+      "headword": "אֹורֶז",
+      "source_xml": "<entry id=\"A00868\">\n<head-word>אֹורֶז</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (cmp. ὄρυζα, b. h. r. ארז \n<italic>to be hard</italic>) \n<italic>rice</italic>.</definition>\n<notes> Ber. 37\n<sup>a</sup>; a. fr.—Pes. 35\n<sup>a</sup> (opinions as to its classification with ref. to Passover laws). Cmp. אֶרֶז.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6965f4b09ce40f69043c75de896fbb3c34479955ce5db602bd678aac3f2aaf56"
+    },
+    {
+      "ordinal": 870,
+      "source_id": "jastrow-xml-000870",
+      "headword": "אוּרְזָא,",
+      "source_xml": "<entry id=\"A00869\">\n<head-word>אוּרְזָא, </head-word>\n<head-word>אֲרוּזָא, </head-word>\n<head-word>אֹורִיזָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Y. Num. XV, 19 אורי'.—Y. Sabb. III, 6\n<sup>b</sup> top אורז'. Pes. 50\n<sup>b</sup> ארו' (Ms. M. אורז; ib. 51\n<sup>a</sup> top ארזא, corr. acc.). Ib. 114\n<sup>b</sup> ארוזא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f1ff78e18cdb598f623ff97b2a7c88aea711484a4121e239d27c8bae37ff3fed"
+    },
+    {
+      "ordinal": 871,
+      "source_id": "jastrow-xml-000871",
+      "headword": "אוּרְזִילָא,",
+      "source_xml": "<entry id=\"A00870\">\n<head-word>אוּרְזִילָא, </head-word>\n<head-word>אוּרְזְלָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אזל with anorg.</definition>\n<notes> ר; Syr. עוזילא) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>a slender young animal</italic>, esp. \n<italic>the young of the gazelle</italic> or any similar animal (Reëm).</definition>\n<notes> Targ. Cant. II, 9 א' דאיילא (h. text עֹפֶר). Zeb. 113\n<sup>b</sup> א' דרימא בת יומא (read בר); B. Bath. 73\n<sup>b</sup> (corr. as Zeb. l. c.; v. Rabb. D. S. a. l. note) a young antilope one day old. Num. R. s. 11; Cant. R. to II, 9; Pesik. R. s. 15 א' דאיילתא (עוּרְזִילֵיהוֹן וכ' pl.) young deer.—\n<plural-form>Pl. אוּרְזִילִין, אֹורְ'; אַרְזִילֵי</plural-form>. Targ. Cant. IV, 5; VII, 4. B. Bath. 74\n<sup>b</sup> ארזילי דימא (Ms. M. אוזילי) sea-gazelles.—[</notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>hammock</italic>, v. \n<xref rid=\"A03057\">אַרְזְלָא</xref>.</definition>\n<notes>]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "72078baf9dba7964b9a5d7bb5fee75017628b8721f4915af7ac0405f5d73302a"
+    },
+    {
+      "ordinal": 872,
+      "source_id": "jastrow-xml-000872",
+      "headword": "אוּרְזָנַיָּיא,",
+      "source_xml": "<entry id=\"A00871\">\n<head-word>אוּרְזָנַיָּיא, </head-word>\n<head-word>אוּרְזָנַיָּיה</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (אורזא) \n<italic>a rice dish</italic> (prepared with wine).</definition>\n<notes> [Oth. opin. \n<italic>cedar-fruits; millet</italic>.] Y. Maas. Sh. II, beg. 53\n<sup>b</sup>. Y. Yoma VIII, 45\n<sup>a</sup> top; Y. Shebu. III, 34\n<sup>b</sup> bot. אורזרייה (corr. acc.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "477208200bf49bba1c2a1e8ee17a7704b7f39c9ac3c7cf248e12c20e735d622c"
+    },
+    {
+      "ordinal": 873,
+      "source_id": "jastrow-xml-000873",
+      "headword": "אֹורֵחַ,",
+      "source_xml": "<entry id=\"A00872\">\n<head-word>אֹורֵחַ, </head-word>\n<head-word>אֹורַח</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אֹרֵחַ; ארח)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>wayfarer</italic>, esp. \n<italic>guest</italic>.</definition>\n<notes> Ber. 58\n<sup>a</sup>; a. fr.—Euphem. \n<italic>menstruation</italic>. Nid. 16\n<sup>a</sup> (cmp. Gen. XVIII, 11 \n<italic>ora</italic>\n<italic>ḥ</italic>). Lev. R. s. 4.—\n<plural-form>Pl. אֹורְחִים, אֹורְחִין</plural-form>.—הכנסת א' the invitation of guests, \n<italic>hospitality</italic>. Sabb. 127\n<sup>a</sup>; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0f91767b736b413eb5e2b2d0ce0b09db3c66227bd3512f17e9a66512be0d342a"
+    },
+    {
+      "ordinal": 874,
+      "source_id": "jastrow-xml-000874",
+      "headword": "אֹורַח,",
+      "source_xml": "<entry id=\"A00873\">\n<head-word>אֹורַח, </head-word>\n<head-word>אֹורְחָא, </head-word>\n<head-word>אָרְחָא</head-word>\n<senses>\n<sense>\n<definition> c. = h. אֹרַח, \n<italic>road, path, way</italic>.</definition>\n<notes> Targ. Jud. V, 6; a. fr.—א' ארעא (h. דרך ארץ) \n<italic>custom</italic>. Ab. Zar. 2\n<sup>b</sup>; a. fr.—א' דמילתא a usual incident. Git. 29\n<sup>a</sup>; a. fr.—אגב אורחך, אגב אורחיה &amp;c. on thy road (his road &amp;c.), i.e. \n<italic>by the way, occasionally, incidentally</italic>. Ber. 2\n<sup>a</sup>. Snh. 95\n<sup>b</sup>; a. fr.—Gen. R. s. 100 על א' for the journey (death). Targ. Y. II, Gen. XXXV, 9 ארחא דעלמא the way of the world (death).—\n<italic>P</italic>\n<italic>l</italic>\n<italic>.</italic> אֹורְחָן, אָרְחָן; אָרְחָתָא. Targ. Jud. l. c. Targ. Y. II Gen. XLIX, 17; a. e.—Snh. 109\n<sup>a</sup> יהבית אֹורְחַיָּה לגנבַיָּה (missing in Ms. M., v. Rabb. D. S. a. l. note) thou hast shown the thieves the ways (of stealing).—[אֹורְחָא \n<italic>guest</italic>, v. אָרְחָא.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ed4636afb8c5494f03dc9a3063bc3cb8f8702371070009be5846c662a390f3b3"
+    },
+    {
+      "ordinal": 875,
+      "source_id": "jastrow-xml-000875",
+      "headword": "אוּרִי",
+      "source_xml": "<entry id=\"A00874\">\n<head-word>אוּרִי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>Uri</italic>, an Amora.</definition>\n<notes> Y. Ber. II, beg. 4\n<sup>a</sup> ר' חונה ר' א' R. Ḥuna in the name of R. U.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d848d813448fd6a96cc14146e214e5ab1db3f57d7ffdbbfe0727fae5700ff240"
+    },
+    {
+      "ordinal": 876,
+      "source_id": "jastrow-xml-000876",
+      "headword": "אֹורִי",
+      "source_xml": "<entry id=\"A00875\">\n<head-word>אֹורִי</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Af. of ירי.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a7ddd7b1eda95f2afdca11a8acce3133bc08ca9c68d13b83c29b7e70db323808"
+    },
+    {
+      "ordinal": 877,
+      "source_id": "jastrow-xml-000877",
+      "headword": "אֹורְיָא",
+      "source_xml": "<entry id=\"A00876\">\n<head-word>אֹורְיָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>teaching</italic>, v. \n<xref rid=\"A00878\">אֹורָיָיא</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "3924b3558a085258a393f6e26987136d647604c949db1798231672402211314a"
+    },
+    {
+      "ordinal": 878,
+      "source_id": "jastrow-xml-000878",
+      "headword": "אוּרְיָא,",
+      "source_xml": "<entry id=\"A00877\">\n<head-word>אוּרְיָא, </head-word>\n<head-word>אוּרְיָה, </head-word>\n<hw-number>I</hw-number>\n<head-word>אוּרִית</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A00841\">אֹור</xref> a. \n<xref rid=\"A00083\">אוּרְתָּא)</xref>\n<italic>evening horizon, Sun-set, West</italic>, v. מערבא.</definition>\n<notes> B. Bath. 25\n<sup>a </sup>אוריה מאי ed. (Ar. אוריא) why is it called \n<italic>Urya</italic>? אויר יה (Var. אור) divine air (divine light = Palestine). Kid. 12\n<sup>b </sup>איכא סהדי באוריא הא Ar. (ed. אידית, emend. in Tossaf. אורית), [read with ב\"ח: הא אמרי איכא וכ'] but people say, there are witnesses in the West &amp;c. Cmp. אֶסְתָּן.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a4df7c473159de7a66acc034b4f8eb21a36a96eb4e5bbe1819e9afb215197a66"
+    },
+    {
+      "ordinal": 879,
+      "source_id": "jastrow-xml-000879",
+      "headword": "אוּרְיָא,",
+      "source_xml": "<entry id=\"A00878\">\n<head-word>אוּרְיָא, </head-word>\n<head-word>אוּרְיָה, </head-word>\n<hw-number>II</hw-number>\n<head-word>אוּרְיָיא</head-word>\n<pos> f.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אֻרְוָה q. v.; ארי</xref>,\n<xref rid=\"A00083\"> אָרָה)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>pile of plucked plants, stalk, shed containing feed</italic> (dist. fr. אֹוצָר granary).</definition>\n<notes>—\n<plural-form>Pl. אוּרְיָאֹות, אוּרְיָי'</plural-form> (אוּרְיֹות). Tosef. Maasr. II, 20 ed. Zuck. (Var. אוריות); ib. Erub. VI (V), 4; Erub. 55\n<sup>b</sup> Ar. (ed. אוריות, אורוות, v. Rabb. D. S. a. l. note). [In bibl. h. אֻרְוָה \n<italic>crib, stable</italic> q. v.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c2e54447f807f67c59867e58f80b1d5f8397ae695e70598921951642379c19cb"
+    },
+    {
+      "ordinal": 880,
+      "source_id": "jastrow-xml-000880",
+      "headword": "אוּרְיָא,",
+      "source_xml": "<entry id=\"A00879\">\n<head-word>אוּרְיָא, </head-word>\n<head-word>אוּרְוָוא</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= b. h. אֻרְוָה) \n<italic>crib</italic>;\n<italic> stable</italic>.</definition>\n<notes> Targ. Is. I, 3 (h. text אֵבוּס q. v.).—Snh. 98\n<sup>b</sup> סוסיא באוּרְיֵיה … a horse is placed at his (the ox’s) crib., i.e. Israel is displaced and other nations feed on his soil.—M. Kat. 10\n<sup>b</sup> למבני א' to build a stable (during the festive week). [Targ. II Esth. VI, 10; 11 אוּרַיָּא, read אוּרְיָא \n<italic>stable</italic>.]—\n<plural-form>Pl. אוּרְיָין, אוּרְוָותָא,</plural-form> (אוּרְיָיתָא) אֻרְוָותָא. Targ. II Chr. IX, 25; I Kings V, 6. Targ. II Esth. l. c. (אוּרְיָיתָא prob. sing.); a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e5d1cbb393eabb6eebd958c89143be3fd50bf51f89e03c3b3867c51dad7b79e6"
+    },
+    {
+      "ordinal": 881,
+      "source_id": "jastrow-xml-000881",
+      "headword": "אֹורְיָא",
+      "source_xml": "<entry id=\"A00880\">\n<head-word>אֹורְיָא</head-word>\n<head-word>אוּרְיָא, </head-word>\n<hw-number>III</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (horreum, pl. horrea, ὡρεῖον, ὥριον; v. Sm. Ant. s. v.) \n<italic>store-house, store</italic> (of all kinds).</definition>\n<notes> Tanḥ. B’resh. 7 וכל א' שלי בתוכה all my stores are in that ship.—\n<plural-form>Pl. אוּרְיָאַיָּא</plural-form> (ch. form). Targ. I Chr. XXI, 13.—אוּרְיָיאֹות (h. form). Targ. II Chr. XXXII, 28 (h. text מסכנות). V. אֹורְיָיר, אֲהֹורְיָיר.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "997a7e7ecd58628f0c5e4f84e8b0deb23e210057ad16b14d88fbb79cf96708a9"
+    },
+    {
+      "ordinal": 882,
+      "source_id": "jastrow-xml-000882",
+      "headword": "אוּרִיאֵל",
+      "source_xml": "<entry id=\"A00881\">\n<head-word>אוּרִיאֵל</head-word>\n<pos> pr. n.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Uriël</italic>, name of an angel.</definition>\n<notes> Targ. Y. Deut. XXXIV, 6.—Num. R. s. 2.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6f8348fc3e76107d0d3f7687b2ab8ac6baa0dde152102728b4ffd4bbd66c1284"
+    },
+    {
+      "ordinal": 883,
+      "source_id": "jastrow-xml-000883",
+      "headword": "אֹורְיָאן",
+      "source_xml": "<entry id=\"A00882\">\n<head-word>אֹורְיָאן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אֹורְיָין I</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cef42347c703fb0320a8bafa4c2493dcd3dc3371962515d37dec4eabc4985acf"
+    },
+    {
+      "ordinal": 884,
+      "source_id": "jastrow-xml-000884",
+      "headword": "אוּרְיָה,",
+      "source_xml": "<entry id=\"A00883\">\n<head-word>אוּרְיָה, </head-word>\n<head-word> I, II</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00876\">אוּרְיָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4e047da05fe9aa30e68efd75dbf3b3f487cfd1d5e6de8c67fbc84881695beb5e"
+    },
+    {
+      "ordinal": 885,
+      "source_id": "jastrow-xml-000885",
+      "headword": "אֹורְיָה",
+      "source_xml": "<entry id=\"A00884\">\n<head-word>אֹורְיָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00878\">אֹורָיָיא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b78562b5f55d7b63193cbf558315229d43ed990596722026394ca028e1e32445"
+    },
+    {
+      "ordinal": 886,
+      "source_id": "jastrow-xml-000886",
+      "headword": "אֹורְיֹון",
+      "source_xml": "<entry id=\"A00885\">\n<head-word>אֹורְיֹון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00890\">אֹורְיָין II</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ed801dd8cbdad7eb41626d41f4ec3d6aedca24f4d7dab9081f06f7522f5d80d2"
+    },
+    {
+      "ordinal": 887,
+      "source_id": "jastrow-xml-000887",
+      "headword": "אֹורִיזָא",
+      "source_xml": "<entry id=\"A00886\">\n<head-word>אֹורִיזָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00869\">אוּרְזָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "11b8b591ba9bc49f1cae5d52eb7f95ab2fb8ee0204697fd5c33319c80f1f8e2e"
+    },
+    {
+      "ordinal": 888,
+      "source_id": "jastrow-xml-000888",
+      "headword": "אוּרְיָיא",
+      "source_xml": "<entry id=\"A00887\">\n<head-word>אוּרְיָיא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אוּרְיָא II</xref> h. a. ch.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7995e9e71042188fb130957f485c61ca5b70cdd1d16ec92b9cc97cf965b72e62"
+    },
+    {
+      "ordinal": 889,
+      "source_id": "jastrow-xml-000889",
+      "headword": "אֹורָיָיא,",
+      "source_xml": "<entry id=\"A00888\">\n<head-word>אֹורָיָיא, </head-word>\n<head-word>(אֹורַיְיתָא) אֹורָיָיתָא, </head-word>\n<head-word>, (, </head-word>\n<head-word>אֹורְיָא, </head-word>\n<head-word>אֹורַיְתָא, </head-word>\n<head-word>אֹורְיָה)</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ירי, Af. אֹורִי = h. תֹּורָה) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>instruction, the Law, Bible-verse</italic>.</definition>\n<notes> Targ. Lev. VI, 7; a. fr.—מילה דא' (= דברי תורה) \n<italic>religious discourse, lesson, remarks</italic> &amp;c. Y. B. Bath. VIII, 16\n<sup>a</sup> אורייא; Y. Taan. III, 66\n<sup>c</sup> bot. ייתא …—Y. Snh. I, 18\n<sup>c</sup> אפלגינון במילי דא' he entertained them with religious discussions. Y. Hor. III, beg. 47\n<sup>a</sup> עתיד לך מילה דא' be prepared for a religious discourse. Y. Shek. III, 47\n<sup>c</sup> top מאי א' חדתא שמעת what novel interpretation hast thou heard? Y. Yeb. II, 4\n<sup>a</sup> top מן הדא אורייה from what verse?—Taan. 4\n<sup>a </sup>ליה א' … מרתח' it is the zeal of study that makes him warm (excited). Kid. 71\n<sup>b</sup> אורייתין כשר' my instruction is acceptable, but my daughters are not desired. Sabb. 116\n<sup>b</sup> א' דמשה the Mosaic dispensation (opp. א' אחריתי the new dispensation, v. אָוֶון).—דְּאֹורַיְיתָא (sub. הלכה = h. התורה מן) \n<italic>an enactment founded on the Bible text</italic>, opp. דרבנן. Succ. 44\n<sup>a</sup> לולב דא' Lulab, the law concerning which is Biblical &amp;c.; a. fr.—מִדְּאֹורַיְיתָא, adv. \n<italic>biblically, according to the Biblical law</italic>, opp. מדרבנן. Pes. 10\n<sup>a</sup>; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>the Torah, the scroll containing the Pentateuch</italic>, used at divine service.</definition>\n<notes> Y. Yoma VII, 44\n<sup>b</sup> top כד היא חדא אוריא when you have no more than one scroll. Y. Meg. IV, 75\n<sup>b</sup> bot.; Y. Sot. VII, end, 22\n<sup>a</sup> כד חזרא אורייה (corr. as Y. Yoma l. c.). Ib. תא וכ'—תמן מייבלין א \n<italic>there</italic> (in Babylon) the Torah is carried to the Resh Galutha.—בר אוריא \n<italic>a scholar, man of learning</italic>. Yoma 78\n<sup>a</sup>. Ḥag. 14\n<sup>a</sup> אריא (corr. acc.); v. next w.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d7019739b48b952a4f734c77cc4ec3bc5776ebaceedec7fa3b0c244fa2db92cb"
+    },
+    {
+      "ordinal": 890,
+      "source_id": "jastrow-xml-000890",
+      "headword": "אֹורְיָין,",
+      "source_xml": "<entry id=\"A00889\">\n<head-word>אֹורְיָין, </head-word>\n<head-word>אֹורְיָאן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> same; 1) the Law.</definition>\n<notes> m. same; </notes></sense>\n<sense>\n<number>1)</number>\n<definition> the Law. Sabb. 31\n<sup>b</sup>.</definition>\n<notes> Ib. 88\n<sup>a</sup> א' תליתאי the threefold law (Pentat., Proph., Hagiogr.).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>scholarship, authority to teach and judge</italic>.</definition>\n<notes> Ber. 12\n<sup>a</sup> בר אוריאן ed. (Ms. M. אוריא); v. foreg. w.—[</notes></sense>\n<sense>\n<number>3)</number>\n<definition> *\n<italic>authority, office</italic>.</definition>\n<notes> Gen. R. s. 50 בית אוריין ed. (Ar. מיתורין, Lev. R. s. 26 מתורין) \n<italic>place of office</italic>. V. מִיתֹורְיִין.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "623ab4c47816fd867790a3d3b974143679d5aa6f1de769941292ff40d31e843c"
+    },
+    {
+      "ordinal": 891,
+      "source_id": "jastrow-xml-000891",
+      "headword": "אֹורְיָין,",
+      "source_xml": "<entry id=\"A00890\">\n<head-word>אֹורְיָין, </head-word>\n<hw-number>II</hw-number>\n<head-word>אֹורְיֹון</head-word>\n<senses>\n<sense>\n<definition> (v. foreg.)\n<pos> pr. n. m.</pos>\n<italic>Oryan, Oryon</italic>.</definition>\n<notes> Esth. R. beg. אבא א', Abba O. (cmp. אַבָּא). Y. Sabb. X, 12\n<sup>d</sup> top יצחק בר אוריון.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "199ffd2ba6a2cf771cf18440920b5eb72bf07f1f41f478028263c54101fb3f64"
+    },
+    {
+      "ordinal": 892,
+      "source_id": "jastrow-xml-000892",
+      "headword": "*אוּרְיָינִי",
+      "source_xml": "<entry id=\"A00891\">\n<head-word>*אוּרְיָינִי</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. foreg. ws.) \n<italic>officer’s or teacher’s chair</italic>.</definition>\n<notes> M. Kat. 21\n<sup>b</sup>; 27\n<sup>a</sup> א' גדולה Ms. M. (v. Rabb. D. S. a. l.; ed. אוד') a high (teacher’s) chair. V. אוּדְיָינִי.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "42335d58920278d5cf344e2bedc69fc186a72f4c1dc584f3c8d79f86a5d8986d"
+    },
+    {
+      "ordinal": 893,
+      "source_id": "jastrow-xml-000893",
+      "headword": "אֹורְיָיר",
+      "source_xml": "<entry id=\"A00892\">\n<head-word>אֹורְיָיר</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (horrearius, ὡρειάριος, v. \n<xref rid=\"A00876\">אֹורְיָא</xref>, \n<xref rid=\"A00083\">אֲהֹורְיָיר)</xref>\n<italic>store-keeper</italic>, used in the sense of אֹולְיָיר.</definition>\n<notes> Y. B. Bath. IV, beg. 14\n<sup>c</sup> מקום הא' (Tosef. ibid. III, 3 בית האוליירין) the clothes-keeper’s room.—\n<plural-form>Pl. אֹורְיָירִין</plural-form>. Y. l. c. אורורין, אורוו' (corr. acc.) Toh. VIII, 7 אודיארין (corr. acc.; Tosef. ib. VII, 8 אוליארין).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "303e1b92630ce4b5dc5ecfd10d01b096900531764e9473dd01d880fdc18ad932"
+    },
+    {
+      "ordinal": 894,
+      "source_id": "jastrow-xml-000894",
+      "headword": "אוּרְיָירָא",
+      "source_xml": "<entry id=\"A00893\">\n<head-word>אוּרְיָירָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>—\n<plural-form>Pl. אוּרְיָירַיָּא</plural-form>. Targ. I Chr. XXVII, 25; XXVI, 22 (ed. Rahm. אורייד', corr. acc.; Var. אוּרְיָרַיָּא, h. text על אוצרות).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "76208d9e807351c6b437a24f457b1944f2b170aacbef39336057cb125dba0541"
+    },
+    {
+      "ordinal": 895,
+      "source_id": "jastrow-xml-000895",
+      "headword": "אֹורַיְיתָא",
+      "source_xml": "<entry id=\"A00894\">\n<head-word>אֹורַיְיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00878\">אֹורָיָיא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4f5eab20f41dc4fa433b5c4d09b608ea911203ce1be8f23cb640e99e951767e8"
+    },
+    {
+      "ordinal": 896,
+      "source_id": "jastrow-xml-000896",
+      "headword": "אוּרִית",
+      "source_xml": "<entry id=\"A00895\">\n<head-word>אוּרִית</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אוּרְיָא I</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e5828acdd18d9dfdb24259e01e06bce1eaa7c142500b450c2555c0f1330064dc"
+    },
+    {
+      "ordinal": 897,
+      "source_id": "jastrow-xml-000897",
+      "headword": "אֹורַיְתָא",
+      "source_xml": "<entry id=\"A00896\">\n<head-word>אֹורַיְתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00878\">אֹורָיָיא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ab2910a0149836ec0264473c50b3c0747cd6f796004f3dcea75d7e436d0c764e"
+    },
+    {
+      "ordinal": 898,
+      "source_id": "jastrow-xml-000898",
+      "headword": "אוריכות",
+      "source_xml": "<entry id=\"A00897\">\n<head-word>אוריכות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03162\">אַרְכַּת</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d47da9c9c1a1b26b48f8b1bb446d40b0238b1598c93cb5d919363911277d12d7"
+    },
+    {
+      "ordinal": 899,
+      "source_id": "jastrow-xml-000899",
+      "headword": "אֹורִיכוּתָא",
+      "source_xml": "<entry id=\"A00898\">\n<head-word>אֹורִיכוּתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00901\">אֹורָכוּתָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "25094e543a5b006e03407e0b863bdacc825d2d137800f079a92d110301181fff"
+    },
+    {
+      "ordinal": 900,
+      "source_id": "jastrow-xml-000900",
+      "headword": "אֹורֶךְ",
+      "source_xml": "<entry id=\"A00899\">\n<head-word>אֹורֶךְ</head-word>\n<pos> m.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A03124\">אֹרֶךְ</xref>,\n<xref rid=\"A00083\"> ארך)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>length, lengthiness</italic>.</definition>\n<notes> Midr. Sam. ch. XIII, וכל הא' הזה למה and why all this lengthiness (of speech).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bf7de4b4f3638d7866e7dcfa625651462b4b04ff1b725ffdd71aad2c88a54e25"
+    },
+    {
+      "ordinal": 901,
+      "source_id": "jastrow-xml-000901",
+      "headword": "אוּרְכָּא",
+      "source_xml": "<entry id=\"A00900\">\n<head-word>אוּרְכָּא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, \n<italic>length</italic>.</definition>\n<notes> Targ. O. Gen. VI, 15 [Constr. אֹורֶךְ Targ. Y. Ex. XXVI, 13; Targ. O. ib., corr. acc.]—Sabb. 140\n<sup>b</sup> טונא כי טונא וא' וכ' a load (of twigs) is a load, and the length goes in the bargain (the price is the same).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9adbdd2a5aa888cebe8c586665cc1029f060ba47017016cae84e31b657f3643e"
+    },
+    {
+      "ordinal": 902,
+      "source_id": "jastrow-xml-000902",
+      "headword": "אֹורָכוּתָא,",
+      "source_xml": "<entry id=\"A00901\">\n<head-word>אֹורָכוּתָא, </head-word>\n<head-word>אֹורִיכוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (= אֲרִיכוּת) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>length</italic> (of life).</definition>\n<notes> (of life). Targ. Ps. XCI, 16; a. e.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>waiting, hope</italic>.</definition>\n<notes>\n<pgbrk id=\"pg35\" />Ibid. XXXIX, 8; a. e.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition>\n<italic>tarrying</italic>.</definition>\n<notes> Targ. Y. Deut. II, 31.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "1fe35ae0a1ed68b93d656a146bd949eb4be7a3bb8c969e783991cb180f9f0b73"
+    },
+    {
+      "ordinal": 903,
+      "source_id": "jastrow-xml-000903",
+      "headword": "*אוּרְכָנִיס",
+      "source_xml": "<entry id=\"A00902\">\n<head-word>*אוּרְכָנִיס</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Urkhanes</italic>.</definition>\n<notes> Y. Yeb. VIII, 8\n<sup>d</sup> bot. (allusion to a case concerning the child of a certain U., otherwise unknown).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b00659d3adaf69214ca7c7d92c0a7fc2b85e3dd29fc4de2a5781442c7ec1a40d"
+    },
+    {
+      "ordinal": 904,
+      "source_id": "jastrow-xml-000904",
+      "headword": "אורכתא",
+      "source_xml": "<entry id=\"A00903\">\n<head-word>אורכתא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> B. Kam. 70\n<sup>a</sup>; Shebu. 33\n<sup>b</sup>, v. \n<xref rid=\"A00475\">אַדְרַכְתָּא</xref> 2).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "212b10ed0ae5bf5828b0942df53bbdcd6814bfcf4ccbe2391805f40bf56a4ce5"
+    },
+    {
+      "ordinal": 905,
+      "source_id": "jastrow-xml-000905",
+      "headword": "אֹורְלֹוגִין,",
+      "source_xml": "<entry id=\"A00904\">\n<head-word>אֹורְלֹוגִין, </head-word>\n<head-word>אֹורֹולֹוגִין</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (ὡρολόγιον) \n<italic>horologe, time-piece</italic>.</definition>\n<notes> Y. R. Hash. I, 57\n<sup>b</sup> top. Pesik. R. s. 15; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7b41c78a58c7a876c42824332080eb7dbf3cc49a8ea1d5f594b81605f999a0c7"
+    },
+    {
+      "ordinal": 906,
+      "source_id": "jastrow-xml-000906",
+      "headword": "אֹורֶן",
+      "source_xml": "<entry id=\"A00905\">\n<head-word>אֹורֶן</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03190\">אֹרֶן</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "892491e6d2c009b50724d8343fd68ea58e53fa7865604fe266b207cfdb980d0a"
+    },
+    {
+      "ordinal": 907,
+      "source_id": "jastrow-xml-000907",
+      "headword": "אֹורָן,",
+      "source_xml": "<entry id=\"A00906\">\n<head-word>אֹורָן, </head-word>\n<head-word>אוּרְנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> ch. = h. אֹרֶן. Targ. Is. XL, 20; XLIV, 14.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "27a6268ddcf3ba9e81fd6c9ba8fb13f13d901fd9cd52608fd40a4729f349f269"
+    },
+    {
+      "ordinal": 908,
+      "source_id": "jastrow-xml-000908",
+      "headword": "*אַוְרַנֹּוס,",
+      "source_xml": "<entry id=\"A00907\">\n<head-word>*אַוְרַנֹּוס, </head-word>\n<head-word>אַבְרַנֹּוס</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> אַוְרַנְסֵי, אַבְרַ' (ῥάμνος, rhamnus) \n<italic>a kind of prickly shrubs</italic>, used for medical purposes and carried in lengthy bundles (v. D. C. Gr. s. v., a. Sm. Ant. s. v.).</definition>\n<notes> Sabb. 91\n<sup>b</sup> או' ed. (Ms. M. אב'; Ar. ארנסי). [As to ור, בר for aspirate r, v. Lidd. a. Scott, Gr. Lex, 7\n<sup>th</sup> ed. s. lit. P.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b3287d339d554c631b732c56332d736430d4f333dcd311320b97deb9a98cb20c"
+    },
+    {
+      "ordinal": 909,
+      "source_id": "jastrow-xml-000909",
+      "headword": "אורסיקין,",
+      "source_xml": "<entry id=\"A00908\">\n<head-word>אורסיקין, </head-word>\n<head-word>אורסקין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00589\">אוורקסין</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cd3d4ec6bdf9c413f9bdaeea729acdba224355f3a27884875cc1a1eea5848ee6"
+    },
+    {
+      "ordinal": 910,
+      "source_id": "jastrow-xml-000910",
+      "headword": "אֹורָעָא",
+      "source_xml": "<entry id=\"A00909\">\n<head-word>אֹורָעָא</head-word>\n<head-word>אֹורָעוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ארע) \n<italic>meeting</italic>.</definition>\n<notes> לא' with suff. of pers. pron., \n<italic>to meet—, against</italic>—. Targ. Prov. VII, 10 (ed. Vien. לְעוּרְ'); 15. Targ. Ps. XXXV, 3 לְאֹורְעוּת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "79f92a36d6dfbb562411c695ba2d49d5514a09e32d51182e6ed8e0973d9d589b"
+    },
+    {
+      "ordinal": 911,
+      "source_id": "jastrow-xml-000911",
+      "headword": "אוּרְעֵי",
+      "source_xml": "<entry id=\"A00910\">\n<head-word>אוּרְעֵי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00911\">next w.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a1da5c09c3537eae475d1f9bec98d8673a5a17d0f69323e96f0a2de2f76c1c08"
+    },
+    {
+      "ordinal": 912,
+      "source_id": "jastrow-xml-000912",
+      "headword": "אוּרְעִיתָא",
+      "source_xml": "<entry id=\"A00911\">\n<head-word>אוּרְעִיתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ארע; corresp. to h. צִרְעָה) \n<italic>wasp, hornet</italic> (collect.).</definition>\n<notes> Targ. Y. Ex. XXIII, 28; a. e.—\n<plural-form>Pl. אוּרְעַיָּיתָא</plural-form>. Targ. Y. Deut. I, 44; a. e.—אוּרְעֵי, אוּרְעַיָּה. Targ. Y. Lev. XI, 20 ed. pr. (corr. vowel signs; later ed. אוזפיה). Y. Sabb. I, 3\n<sup>b</sup> bot. תולעתא דסוסיא וכ' the mite in the horse’s carcass turns into hornets. [Cmp. same ideas among the Greek, Sachs Beitr. II, 92; Nican Ther. 741.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f1014abeaf8fc95cfd212e29058be8e3d299ffc091e2a5cbf87b417bfba181d1"
+    },
+    {
+      "ordinal": 913,
+      "source_id": "jastrow-xml-000913",
+      "headword": "אורשינא",
+      "source_xml": "<entry id=\"A00912\">\n<head-word>אורשינא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00590\">אַוְורַשְׁנָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "3bfb797e48378022b17210a1fe8dd3e561195c08caf4b0d66224002dc3492baf"
+    },
+    {
+      "ordinal": 914,
+      "source_id": "jastrow-xml-000914",
+      "headword": "אוּרְתָּא",
+      "source_xml": "<entry id=\"A00913\">\n<head-word>אוּרְתָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. \n<xref rid=\"A00841\">אֹור</xref></definition>\n<notes /></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>evening, night</italic>.</definition>\n<notes> Pes. 2\n<sup>ab</sup> אור א' the \n<italic>or</italic> of the Mishn. means \n<italic>evening</italic>. Ber. 3\n<sup>b</sup>; a. fr.—Y. Sot. I, 17\n<sup>b</sup> top, v. בְּרַת.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "31db4c57673e81890f74c12541aa0326b5b3febf135c72728925557cdf46f061"
+    },
+    {
+      "ordinal": 915,
+      "source_id": "jastrow-xml-000915",
+      "headword": "אֲוַשׁ,",
+      "source_xml": "<entry id=\"A00914\">\n<head-word>אֲוַשׁ, </head-word>\n<head-word>אֲוַושׁ</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa</italic>.</definition>\n<notes> אַוֵּושׁ, (√אוו, v. אָוָוז; cmp. אוף, אנף, אפף, אופי, אוסי, אבב) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to blow vehemently, make noise, shout</italic>.</definition>\n<notes> B. Mets. 86\n<sup>a</sup> נשב זיקא וא' וכ' the wind blew and howled between the branches. Ber. 50\n<sup>a </sup>וכ' איידי דאוושו because all shouted, the prayer was not heard. Ib. אוושו כ\"ע ברכו they all shouted \n<italic>‘bar’khu’</italic>.—Erub. 97\n<sup>b</sup> אוושא מילתא the thing grows loud, becomes known. Ḥull. 46\n<sup>b</sup> ריאה דא' lungs which give out a sound when blown up (indicating perforation). Ber. 58\n<sup>a</sup> כי קא אוושא (Ms. M. שמעו קל א') when shouting was heard.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to swell, to be large, fulsome, lengthy</italic> (in wording).</definition>\n<notes> R. Hash. 35\n<sup>a</sup> משום דאוושי ברכות (Ms. M. קראי …) because the benedictions are numerous and lengthy. Ned. 2\n<sup>b </sup>הלין דא' וכ' משום because the last named propositions are lengthy, he explained first what he had commenced with.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8ee29632cb63b8c527d9fcc031cc4d9df7a593c5f846709bcc97f0a91635125e"
+    },
+    {
+      "ordinal": 916,
+      "source_id": "jastrow-xml-000916",
+      "headword": "אוּשׁ,",
+      "source_xml": "<entry id=\"A00915\">\n<head-word>אוּשׁ, </head-word>\n<hw-number>I</hw-number>\n<senses>\n<sense>\n<definition> (v. foreg; cmp. יֵשׁ, אִישׁ) \n<italic>to be strong, exist.</italic></definition>\n<notes>\n<italic> Nithpol</italic>. נִתְאֹושֵׁשׁ \n<italic>to be confirmed</italic>. Gen. R. s. 67; s. 78 והיכן נ' בידן when were the blessings made sure &amp;c. Cmp. אָשַׁשׁ.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "349da87efe2397ead482c0eaa18153a543ef190a9a1c89138ee43dd244f99b63"
+    },
+    {
+      "ordinal": 917,
+      "source_id": "jastrow-xml-000917",
+      "headword": "אוּשׁ,",
+      "source_xml": "<entry id=\"A00916\">\n<head-word>אוּשׁ, </head-word>\n<hw-number>II</hw-number>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (אשש 2, cmp. foreg.) pl. אוּשִּׁין \n<italic>foundations</italic>.</definition>\n<notes> B. Kam. 50\n<sup>a</sup> חופר לא' digs excavations for supporting walls.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4554dd1414aa1eb872caa9d45e427a065fdb699e08c7169233e062c7c7c2ca46"
+    },
+    {
+      "ordinal": 918,
+      "source_id": "jastrow-xml-000918",
+      "headword": "אוּשָּׁא,",
+      "source_xml": "<entry id=\"A00917\">\n<head-word>אוּשָּׁא, </head-word>\n<head-word>(אַוְשָׁא) אֻשָּׁא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same</language-reference>\n<senses>\n<sense>\n<definition>, also \n<italic>fortification</italic>.</definition>\n<notes> Targ. Cant. VIII, 9.—\n<plural-form>Pl. אוּשַּׁיָּא</plural-form>. [Ezra IV, 12; a. e.]. Targ. I Kings VII, 7; VI, 16; a. e. [Targ. Mic. I, 6 ed. Ven. אַוְשָׁהָא her foundations. Targ. Y. Ex. IX, 18 אנשהא (corr. אַוְ')]. [Not to be conf. with אשיתא].</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "22abcd8d5f25ce2dbe58128425e734373e34cd33353e6c39f292ee0e99241644"
+    },
+    {
+      "ordinal": 919,
+      "source_id": "jastrow-xml-000919",
+      "headword": "אוּשָׁא",
+      "source_xml": "<entry id=\"A00918\">\n<head-word>אוּשָׁא</head-word>\n<pos> pr. n. pl.</pos>\n<senses>\n<sense>\n<definition>\n<italic>Uhsa</italic>, in Galilee; freq. the scene of rabbin.</definition>\n<notes> synods and enactments during and after the Hadrianic persecutions. Keth. 50\n<sup>a</sup> מרה דשמעתא דא' master of the traditions of U. (in whose name they are quoted). [Ib. קאי באוכלוסא דא', read בהילכתא engaged in teaching the laws passed at U.] R. Hash. 31\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4b1b1b63efe7afbfec029121100077dfa28132065876c765dbc4cbd7391a679d"
+    },
+    {
+      "ordinal": 920,
+      "source_id": "jastrow-xml-000920",
+      "headword": "אוּשְׁוָותָא",
+      "source_xml": "<entry id=\"A00919\">\n<head-word>אוּשְׁוָותָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03300\">אֲשִׁיתָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "403a98c00f957cef98283b61a67c1a6874286e98dc563c3870d030aeb798a7d4"
+    },
+    {
+      "ordinal": 921,
+      "source_id": "jastrow-xml-000921",
+      "headword": "אֹושָׁטוּתָא",
+      "source_xml": "<entry id=\"A00920\">\n<head-word>אֹושָׁטוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (ישט) \n<italic>stretching forth, obtaining</italic>.</definition>\n<notes>—אֹושָׁטוּת ידא \n<italic>acquisition, business</italic>. Targ. Deut. XII, 7; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a49370fc2e9ec372a0ccc2c1b129e375c6a85312ba2c11f63d0b179201c3bc5c"
+    },
+    {
+      "ordinal": 922,
+      "source_id": "jastrow-xml-000922",
+      "headword": "אוּשְׁיָיתָא",
+      "source_xml": "<entry id=\"A00921\">\n<head-word>אוּשְׁיָיתָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03300\">אֲשִׁיתָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d57c5b32a9483df7376d7942c0dd402e18f952884615b96774e4a0f71d1074c6"
+    },
+    {
+      "ordinal": 923,
+      "source_id": "jastrow-xml-000923",
+      "headword": "*אוּשְׁכִּי,",
+      "source_xml": "<entry id=\"A00922\">\n<head-word>*אוּשְׁכִּי, </head-word>\n<head-word>אַשְׁכִּי</head-word>\n<senses>\n<sense>\n<definition> a word in a charm formula, supposed to mean \n<italic>day</italic>.</definition>\n<notes> Sabb. 67\n<sup>b</sup> או' Ar. (ed. אש', Ms. M. אושקי). Cmp. Tosef. Sabb. VII (VIII), 1.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2f0635074e790bb6a8944c88a1089554b2235254bf2a2cd5e217334c6d26a4fb"
+    },
+    {
+      "ordinal": 924,
+      "source_id": "jastrow-xml-000924",
+      "headword": "אוּשְׁכָּף",
+      "source_xml": "<entry id=\"A00923\">\n<head-word>אוּשְׁכָּף</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03308\">אַשְׁכָּף</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "69525c2a086a1c4cdc39a35b2c18605447e062562d3f0e2eff2f28d2ab11de9b"
+    },
+    {
+      "ordinal": 925,
+      "source_id": "jastrow-xml-000925",
+      "headword": "אוּשְׁכָּפָא",
+      "source_xml": "<entry id=\"A00924\">\n<head-word>אוּשְׁכָּפָא</head-word>\n<pos> m.</pos>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>(= h. שַׁכָּף; שכף, √כף, cmp. אוּכָּף) \n<italic>worker in leather, saddler, shoemaker</italic>.</definition>\n<notes> Git. 68\n<sup>b</sup>.—\n<plural-form>Pl. אוּשְׁכָּפֵי</plural-form>. Sabb. 112\n<sup>a</sup> the travellers’ sandals דקטרי א' which the shoemakers knot (tightly). Ib. 104\n<sup>b</sup> חרתא דא' the blacking used by shoemakers. Ib. 123\n<sup>b</sup> חרבא דא' the leather dressers’ knife. Pes. 42\n<sup>b</sup> פרורא דא' the shoemakers’ paste. Ib. 113\n<sup>b</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ea0b23954bcbd683e09263be8f5b7b773e11383afeb98a20fe2c59a3051a93e1"
+    },
+    {
+      "ordinal": 926,
+      "source_id": "jastrow-xml-000926",
+      "headword": "אוּשְׁלָא",
+      "source_xml": "<entry id=\"A00925\">\n<head-word>אוּשְׁלָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> = חוּשְׁלָא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ae7c9496598470c876aa955187d70bedd6df73ad32cfc6d1aab416c3ea535d7b"
+    },
+    {
+      "ordinal": 927,
+      "source_id": "jastrow-xml-000927",
+      "headword": "אוּשְׁלַיָּא",
+      "source_xml": "<entry id=\"A00926\">\n<head-word>אוּשְׁלַיָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Targ. I Chr. I, 20, v. \n<xref rid=\"A03315\">אַשְׁלָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ff6f2e3d66ab1f1bbdcc08985dccfbf65ffc64f324219b033c086d345c0792b8"
+    },
+    {
+      "ordinal": 928,
+      "source_id": "jastrow-xml-000928",
+      "headword": "אֹושַׁעְיָא",
+      "source_xml": "<entry id=\"A00927\">\n<head-word>אֹושַׁעְיָא</head-word>\n<senses>\n<sense>\n<definition> (in Y. הֹושַׁעְיָא q. v.)\n<pos> pr. n. m.</pos>\n<italic>Oshāya</italic>, </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition />\n<notes> freq. surnamed רַבָּא (the elder), an Amora of the first generation, redactor of Tosefta. Yeb. 18\n<sup>b</sup>; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ac787d44e996333e8707ac3d448170688ce329e217ab1a1b5042a2295a8a9781"
+    },
+    {
+      "ordinal": 929,
+      "source_id": "jastrow-xml-000929",
+      "headword": "אוּשְׁפְּזִיכָא",
+      "source_xml": "<entry id=\"A00928\">\n<head-word>אוּשְׁפְּזִיכָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00932\">אוּשְׁפִּיזָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "da0915140250c229727cf7e6993af9d3323b5da2f9246c3bddc08ce8c741937b"
+    },
+    {
+      "ordinal": 930,
+      "source_id": "jastrow-xml-000930",
+      "headword": "אוּשְׁפְּזִיכְנָא",
+      "source_xml": "<entry id=\"A00929\">\n<head-word>אוּשְׁפְּזִיכְנָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00935\">אוּשְׁפִּיזְכָנָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "897e66d19780648cbc77b3a9206ee2a552a8ea9c85b89e0b3fa04ed0da992ddd"
+    },
+    {
+      "ordinal": 931,
+      "source_id": "jastrow-xml-000931",
+      "headword": "אושפזתי",
+      "source_xml": "<entry id=\"A00930\">\n<head-word>אושפזתי</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00936\">אושפרתי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8b64db191a921a532396168f366c5cad9426571f0d4e53f0da67244e8f930514"
+    },
+    {
+      "ordinal": 932,
+      "source_id": "jastrow-xml-000932",
+      "headword": "אוּשְׁפֵּיז",
+      "source_xml": "<entry id=\"A00931\">\n<head-word>אוּשְׁפֵּיז</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (נשף, with ז format; cmp. אטליז) \n<italic>night’s lodging, inn.</italic></definition>\n<notes>\n<italic>—</italic>\n<plural-form>Pl. אוּשְׁפִּיזִין</plural-form>. בעלי א' \n<italic>innkeepers</italic>. Tosef. Maas. Sh. I, 13; Meg. 26\n<sup>a</sup>. [Mand. שפינזא, v. Nœld. Mand. Gr. p. 51.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a3c0343de3cc7dcb5b01e5de7cc1b74518fb61bcb8f00500b491ea4bef7e6f71"
+    },
+    {
+      "ordinal": 933,
+      "source_id": "jastrow-xml-000933",
+      "headword": "אוּשְׁפִּיזָא",
+      "source_xml": "<entry id=\"A00932\">\n<head-word>אוּשְׁפִּיזָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Git. 44\n<sup>b</sup> אית ליה א' וכ' he has a lodging place in Palestine, (is an occasional resident), opp. ביתא permanent home. Meg. 26\n<sup>a</sup>; Yoma 12\n<sup>a</sup> it is \n<pgbrk id=\"pg36\" />customary to leave empty jars and hides of slaughtered animals (ל) באושפיזֵיה in one’s inn. Zeb. 61\n<sup>b</sup> א' הוה נקט וכ' (Ms. M. אוּשְׁפְּזִיכָא … נקיטא, v. \n<xref rid=\"A00934\">אושפיזכן</xref>; v. Rabb. D. S. a. l.) the Divine fire took up its abode now here and now there. Erub. 53\n<sup>b</sup> שאיל בא' (Rashi משייל בעניין אושפזיכני, read ניה …, v. Rabb. D. S. a. l. note 80) inquired after the character of an inn (of his landlord). Ib. (enigmatic inquiry that the landlord might not overhear it) גבר פום דין חי מה טיבו Ar. (v. Rabb. l. c. note 90) = איש־פי־ז־נא our inn—what is its character?</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "706e234128690fafc3fec68f91608609a2fa58240cf7eca67075e5d8168794af"
+    },
+    {
+      "ordinal": 934,
+      "source_id": "jastrow-xml-000934",
+      "headword": "אוּשְׁפִּיזִיכְנָא,",
+      "source_xml": "<entry id=\"A00933\">\n<head-word>אוּשְׁפִּיזִיכְנָא, </head-word>\n<head-word>אוּשְׁפִּיזִיכְתָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"unknown\">אושפיזכ'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "87bb814c46a25342035831962eeb3e4dea125f6e65e6ca7449a86a1fd98ed084"
+    },
+    {
+      "ordinal": 935,
+      "source_id": "jastrow-xml-000935",
+      "headword": "אוּשְׁפִּיזְכָן",
+      "source_xml": "<entry id=\"A00934\">\n<head-word>אוּשְׁפִּיזְכָן</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (Denom. of אושפיז = אושפיזך, with locat.</definition>\n<notes> ך, cmp. דָּא, דֵּךְ) \n<italic>innkeeper, landlord, host</italic>. Meg. 26\n<sup>a</sup>; Yoma 12\n<sup>a</sup>; Sot. 37\n<sup>a</sup>; Zeb. 54\n<sup>a</sup> נעשה א' וכ' Benjamin became the host of the Divine Presence (the Temple being partly situated in his territory).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "db6f7ada7d36d03f17a2dea33480011f099440779c4e3e24f1d3e51c09834b0a"
+    },
+    {
+      "ordinal": 936,
+      "source_id": "jastrow-xml-000936",
+      "headword": "אוּשְׁפִּיזְכָנָא,",
+      "source_xml": "<entry id=\"A00935\">\n<head-word>אוּשְׁפִּיזְכָנָא, </head-word>\n<head-word>אוּשְׁפִּיזִיכְנָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Zeb. 18\n<sup>b</sup> בר אושפיזכניה (Ms. M. only אוּשְׁפְּזִיכְנֵיה) (the son of) his host. Snh. 7\n<sup>b</sup> bot. Yoma 78\n<sup>a</sup> פיזכנה … Ms. M. (ed. נין …). Bets. 4\n<sup>a</sup>; a. fr.—Erub. 53\n<sup>b</sup>, v. אוּשְׁפִּיזָא.—Fem. אוּשְׁפִּיזַכְתָּא \n<italic>hostess</italic>. Ber. 18\n<sup>b</sup> ed. Ms. M. (בת אושפיזכניה).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e5d9f4011d38b4c82145b860195dde606ef7ea8c9661d3db1211be160c05aaca"
+    },
+    {
+      "ordinal": 937,
+      "source_id": "jastrow-xml-000937",
+      "headword": "*אוּשְׁפַּרְתִּי",
+      "source_xml": "<entry id=\"A00936\">\n<head-word>*אוּשְׁפַּרְתִּי</head-word>\n<pos> pr. n. f.</pos>\n<senses>\n<sense>\n<definition> (?) \n<italic>Ushparti</italic>.</definition>\n<notes> Taan. 24\n<sup>b</sup> Ms. (ed. אושפז', v. Rabb. D. S. a. l. note, a. Var. lect. ibid.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7216cc862621bfd197fba9ecf1d3a448d365b6c37cefa4ce9e7bb075b68f2adb"
+    },
+    {
+      "ordinal": 938,
+      "source_id": "jastrow-xml-000938",
+      "headword": "אוּשְׁקָקָא",
+      "source_xml": "<entry id=\"A00937\">\n<head-word>אוּשְׁקָקָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A03346\">אִשְׁקָקָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "02bcf07aa9cbe3f8e782e2ae96f3531ece66911444def2df044c3b894240aada"
+    },
+    {
+      "ordinal": 939,
+      "source_id": "jastrow-xml-000939",
+      "headword": "אֶוְשַׁר",
+      "source_xml": "<entry id=\"A00938\">\n<head-word>אֶוְשַׁר</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00592\">אֶוְושַׁר</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "8628b283724b2cd060ca9a44bb405f5aeb644a4d18e8756f7c42a6b22106a123"
+    },
+    {
+      "ordinal": 940,
+      "source_id": "jastrow-xml-000940",
+      "headword": "אוֹת,",
+      "source_xml": "<entry id=\"A00939\">\n<head-word>אוֹת, </head-word>\n<hw-number>I</hw-number>\n<head-word>אוּת</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √אה</xref>, v. אוי I; cmp. אתא,\n<xref rid=\"A01641\"> אֶת</xref>,\n<xref rid=\"A03444\"> אתר</xref>,\n<xref rid=\"unknown\"> a. אָתָה; v. also Ges. H. Dict. s. v.)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to join, fit</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Nif.</binyan-name>\n<binyan-form>נֵאוֹת, נֵיאוֹת</binyan-form>\n<senses>\n<sense>\n<definition> (b. h.) \n<italic>to be suited, pleased</italic>, whence \n<italic>to be gratified, to enjoy</italic>.</definition>\n<notes> Y. Ber. III, 6\n<sup>c</sup> top ראה את עצמו נ' וכ' he dreamt he felt sexual gratification; Y. Yoma VII, 44\n<sup>d</sup> bot.; Y. Taan. I, 64\n<sup>c</sup> bot.—Y. Bets. I, 61\n<sup>a</sup> כל שנֵאותין בו בי\"ט whatever you are permitted to make use of on Holy Days.—\n<italic>Fut</italic>. יֵאוֹת. Ber. VIII, 6 עד שיֵאוֹתוּ לאורו until being near enough to enjoy its light. Y. Ab. Zar. I, 39\n<sup>c</sup> top, a. e., differences as to spelling יֵאוֹתוּ or יֵעוּתוּ.—Denom. הֲנָאָה, נָאֶה, נָאוֶה, נוֹי.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "612f837ef2fb1626852c3f9054fc2bd068b7908213f74dd07cd31f16b9b662ad"
+    },
+    {
+      "ordinal": 941,
+      "source_id": "jastrow-xml-000941",
+      "headword": "אוֹת,",
+      "source_xml": "<entry id=\"A00940\">\n<head-word>אוֹת, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> c. \n<language-key>(b. h.;</language-key> v. \n<xref rid=\"A00626\">אוי</xref>,\n<language-reference>\n<xref rid=\"A00573\"> אָוָה II; תְּאָו)</xref></language-reference></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>mark, sign, emblem; test, signal, military ensign</italic>.</definition>\n<notes> Ḥag. 16\n<sup>a</sup> (play on ואתה Deut. XXXIII, 2; cmp. foreg.) אות הוא וכ' He is the ensign among his myriad; v. דּוּגְמָא. M. Kat. 25\n<sup>b</sup> אל תזניחנו בא' וכ' forsake us not in the symbolic trial of bitter waters (in our trials). \n<plural-form>Pl. אוֹתוֹת</plural-form>. Kil. IX, 10 א' הגרדין וכ' the marks which the weavers &amp;c. put on goods in their charge. B. Kam. 119\n<sup>b</sup> you must not buy from the dyer לא א' ולא דוגמות either \n<italic>tests</italic> (pieces cut off to test the color) or samples (as specimens of color).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>letter, writing, symbol</italic>.</definition>\n<notes> B. Bath. 15\n<sup>a</sup> אות אחת one letter. Sabb. 103\n<sup>a</sup>; a. fr.—\n<plural-form>Pl. אוֹתִיּוֹת</plural-form> (fr. אוֹתוּת or אוֹתִית). Kid. 30\n<sup>a</sup> סופרים כל הא' recorded (or counted) all the letters of the Torah. Snh. X, 1 השם באוֹתִיוֹתָיו the Divine Name with the letters in which it is written (Jehovah). Kid. 71\n<sup>a</sup> שם בן ארבע א' the quadriliteral Name; cmp. שֵׁם.—Lev. R. s. 26, beg. ח' א' eight letters. Sabb. XII. 3; a. fr.—Trnsf. \n<italic>notes, documents</italic>. Tosef. Kid. I, 7; B. Bath. 75\n<sup>b</sup>; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "d63d4057d4896f9d2964d96556f959a5aa2471c049e19c994c3453ea0c0bcf19"
+    },
+    {
+      "ordinal": 942,
+      "source_id": "jastrow-xml-000942",
+      "headword": "אוֹת,",
+      "source_xml": "<entry id=\"A00941\">\n<head-word>אוֹת, </head-word>\n<hw-number>III</hw-number>\n<language-key>(b. h.,</language-key>\n<senses>\n<sense>\n<definition> v. \n<xref rid=\"A01641\">אֵת</xref>) only with pronominal suffix </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition> indicating the objective case, אוֹתִי \n<italic>me</italic>, אוֹתְךָ \n<italic>thee</italic>, &amp;c.—2) with pronom.</definition>\n<notes>, &amp;c.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> with pronom. suffix of third person, for emphasizing the subject, אוֹתוֹ \n<italic>he himself, this one, the same, he who</italic> &amp;c. Gen. R. s. 2, beg. ישב לו א' וכ' the latter now sat there confounded &amp;c. Y. Git.</definition>\n<notes> VI, 47\n<sup>d</sup> באותו ענין on this very subject (divorce). Sabb. 13\n<sup>b</sup> זכור אותו האיש וכ' may that man be remembered for good. Ber. V, 3 באוֹתָהּ שעה in that hour; a. fr.—אותו מקום euphem. for \n<italic>pudenda</italic>. Nid. 47\n<sup>b</sup>. Git. 69\n<sup>b</sup>; a. e.—אותו ואת בנו \n<italic>the law concerning the killing of the young with its mother on the same day</italic> (Lev. XXII, 28). Ḥull. V, 1; a. fr.—\n<plural-form>Pl. אוֹתָן</plural-form>. Y. Meg. IV, 74\n<sup>d</sup> top א' שבפה those laws delivered orally. Keth. 4\n<sup>a</sup> כל א' הימים all those days; a. fr. [In later writings אותו האיש is freq. used for Jesus of Nazareth.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "f8b086276e77250ca96fbdb24ab43d13b82d679f8f49b08aaf0fc7b8f7c331ec"
+    },
+    {
+      "ordinal": 943,
+      "source_id": "jastrow-xml-000943",
+      "headword": "אוֹתָבוּתָא",
+      "source_xml": "<entry id=\"A00942\">\n<head-word>אוֹתָבוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (יתב) \n<italic>sitting down, sitting</italic>.</definition>\n<notes> Targ. Ps. CXXXIX, 2.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7a635e8240eb344b739755e7fc686a00f56c950a64c3ef8e415462615027beb3"
+    },
+    {
+      "ordinal": 944,
+      "source_id": "jastrow-xml-000944",
+      "headword": "אותונין",
+      "source_xml": "<entry id=\"A00943\">\n<head-word>אותונין</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, Cant. R. to III, 11, read אִיקוֹנִין as Ex. R. s. 35, end.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "39a88bc022154827b71b85a4bb0aec35233b2b5a4b547b0054f9b6fec5cf494d"
+    },
+    {
+      "ordinal": 945,
+      "source_id": "jastrow-xml-000945",
+      "headword": "*אוּתְיָא",
+      "source_xml": "<entry id=\"A00944\">\n<head-word>*אוּתְיָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition>\n<italic>night-bird, owl</italic>.</definition>\n<notes> Targ. Y. Lev. XI, 18 (Targ. O. ib. בותא q. v.; Targ. Y. Deut. XIV, 16 צַדְיָא). [Perh. corrupt. of בָּאוְתָא v. בָּאוָת.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ea7af1a26baddd16fc71a1d40d31bbc7dac22e0e084f75d343338a73e248d9da"
+    },
+    {
+      "ordinal": 946,
+      "source_id": "jastrow-xml-000946",
+      "headword": "אותיום,",
+      "source_xml": "<entry id=\"A00945\">\n<head-word>אותיום, </head-word>\n<head-word>אֶוְתִּיוֹס</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00593\">אֶוְותִּיאֹוס</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4409cb47b502e71a4433138a6de755df8884fe1b8f4e4096cfa0c2b6c98c1ed9"
+    },
+    {
+      "ordinal": 947,
+      "source_id": "jastrow-xml-000947",
+      "headword": "אותינייה",
+      "source_xml": "<entry id=\"A00946\">\n<head-word>אותינייה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00597\">אַוְותֶּנְטְיָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "49126c7d0e2f82e72a328072d3164498f3d46e97f206ec409486a15c66e2e853"
+    },
+    {
+      "ordinal": 948,
+      "source_id": "jastrow-xml-000948",
+      "headword": "אותניתיה",
+      "source_xml": "<entry id=\"A00947\">\n<head-word>אותניתיה</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Y. Snh. II, 20\n<sup>c</sup> bot. read כִּיתְנִיתֵיה, v. \n<xref rid=\"K00653\">כִּיתְנִיתָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "242aef43183a1f8fd36c991a24ffbffc63dbbd130fbdb17dc78aa5d2ea0691ec"
+    },
+    {
+      "ordinal": 949,
+      "source_id": "jastrow-xml-000949",
+      "headword": "אֲזָא",
+      "source_xml": "<entry id=\"A00948\">\n<head-word>אֲזָא</head-word>\n<senses>\n<sense>\n<definition>\n<italic>to kindle</italic>, v. \n<xref rid=\"A00968\">אֲזִי</xref>.</definition>\n<notes /></sense></senses></entry>\n",
+      "source_entry_sha256": "55db460e597a3f52fa39e60de78188b3f74389df65d5979f73c690ecebaaf444"
+    },
+    {
+      "ordinal": 950,
+      "source_id": "jastrow-xml-000950",
+      "headword": "*אָזָא",
+      "source_xml": "<entry id=\"A00949\">\n<head-word>*אָזָא</head-word>\n<head-word>אַזָּא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>sea-eagle</italic> (cmp. עוזא).</definition>\n<notes> Targ. Y. Deut. XIV, 12 Ar. (ed. בר גזא, בר גיזא; h. text עזניה).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "276fc491c434b510202495101f98c2e85819fcda3b99d4abb10790d3fa3c5c4b"
+    },
+    {
+      "ordinal": 951,
+      "source_id": "jastrow-xml-000951",
+      "headword": "אזביון",
+      "source_xml": "<entry id=\"A00950\">\n<head-word>אזביון</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00964\">אַזוֹב</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "69955c50ab148cf0fb2c4ba670abbb7d303dcb5e5c3a48856ea3fc2cbb1b60b2"
+    },
+    {
+      "ordinal": 952,
+      "source_id": "jastrow-xml-000952",
+      "headword": "*אַזְגָּא",
+      "source_xml": "<entry id=\"A00951\">\n<head-word>*אַזְגָּא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>glass</italic> (v. \n<xref rid=\"G00058\">זְגָגָא</xref>).</definition>\n<notes> Keth. 77\n<sup>b</sup> גירדא דא' Ar. parings of glass (ed. אגוזא).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "850a637e2383319751a9468b27c2c854c8aade3c5e0ca6508c2fffb519a86d26"
+    },
+    {
+      "ordinal": 953,
+      "source_id": "jastrow-xml-000953",
+      "headword": "אִזְגַּד,",
+      "source_xml": "<entry id=\"A00952\">\n<head-word>אִזְגַּד, </head-word>\n<head-word>אִזְגַּדָּא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00987\">אִיזְ'</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "6427620fddbd37f7075ccff9e581d8709244b84d38479dab3c0836d48ea7a306"
+    },
+    {
+      "ordinal": 954,
+      "source_id": "jastrow-xml-000954",
+      "headword": "אזגור",
+      "source_xml": "<entry id=\"A00953\">\n<head-word>אזגור</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01191\">אִיזְגְּדַר</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9c70d52d427c5667c39a3cc379c36aee22238b2eb1fab23fb7e8f373dc98216b"
+    },
+    {
+      "ordinal": 955,
+      "source_id": "jastrow-xml-000955",
+      "headword": "אזד־",
+      "source_xml": "<entry id=\"A00954\">\n<head-word>אזד־</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Ithpe. prefix of verbs with prim. lit. ז as אזדווג fr. זווג &amp;c.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "4fd122fc12321c05f1a14181f7406347d25e9e2fe969288b394e9886b336a642"
+    },
+    {
+      "ordinal": 956,
+      "source_id": "jastrow-xml-000956",
+      "headword": "אֲזַד",
+      "source_xml": "<entry id=\"A00955\">\n<head-word>אֲזַד</head-word>\n<senses>\n<sense>\n<definition> (= אזז √אז; cmp. אזל I; גז, חז, עז, חצד &amp;c.) \n<italic>to be cut off; to go apart, be gone</italic>.</definition>\n<notes> Sabb. 34\n<sup>b</sup>; a. fr. ואזדו לטעמייהו they differ (cmp. פלג), each following his own principle (or consistent with opinions elsewhere expressed). Ned. 41\n<sup>a</sup> שיתא אזדו (Rashi אזלו ליה) six of them are gone (escaped his memory). Bets. 10\n<sup>b</sup> אזדו לעלמא disappeared (Ms. M. אזלו; 11\n<sup>a</sup> אזלו). Meïl. 17\n<sup>b</sup> נפק אזדא Ar. (read אזד, ed. אזל) he went out and away. V. אֲזַל.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "18a3e6519d257afcab7aeb389e77bc20535c1848e450f4ef923600fd44f8796c"
+    },
+    {
+      "ordinal": 957,
+      "source_id": "jastrow-xml-000957",
+      "headword": "אַזְדָּא",
+      "source_xml": "<entry id=\"A00956\">\n<head-word>אַזְדָּא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (foreg.) [\n<italic>it is</italic>] \n<italic>decreed</italic> (cmp. גְּזֵרָה).</definition>\n<notes> Dan. II, 5.—B. Mets. 116\n<sup>b</sup> if the landlord said, I let you \n<italic>this</italic> loft (as it is) א' it is a (divine) decree, i.e. it is the tenant’s misfortune that the loft fell in, and he has no claims. V. Ges. H. Dict. s. v.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a7d83031b74da2a7d241714f454327ddda1a1a890902ee494f20f2d5ab82fc98"
+    },
+    {
+      "ordinal": 958,
+      "source_id": "jastrow-xml-000958",
+      "headword": "אִזְדַּעְזְעָא",
+      "source_xml": "<entry id=\"A00957\">\n<head-word>אִזְדַּעְזְעָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00958\">next w.</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "16c003e806b645e346bccf446a91127145bc2c80eb7fc201adfd0b17f052d857"
+    },
+    {
+      "ordinal": 959,
+      "source_id": "jastrow-xml-000959",
+      "headword": "אִזְדַּעֲזָעוּתָא",
+      "source_xml": "<entry id=\"A00958\">\n<head-word>אִזְדַּעֲזָעוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (זוּעַ) \n<italic>shaking, trembling</italic>.</definition>\n<notes> Targ. Job. XII, 5 Ms. (ed. אזדעזעא, const. … עַת).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "49b744c4e72ecabb5e77dfd0cc3eb20f59c76819e08a47ea508ad8d49da3e35c"
+    },
+    {
+      "ordinal": 960,
+      "source_id": "jastrow-xml-000960",
+      "headword": "אִזְדְּקָפוּתָא,",
+      "source_xml": "<entry id=\"A00959\">\n<head-word>אִזְדְּקָפוּתָא, </head-word>\n<head-word>אִזְדַּקָּפוּתָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (\n<italic>Ithpe.</italic> or \n<italic>Ithpa.</italic> of זְקַף) \n<italic>rising</italic>.</definition>\n<notes> Targ. Job. XIII, 11. Ib. XLI, 17 Ms. Var., v. מספיא.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0cf7f46c4526fc227d82d26ebf62a587a614f1b11160b4caa71a1c69af66f73e"
+    },
+    {
+      "ordinal": 961,
+      "source_id": "jastrow-xml-000961",
+      "headword": "אֵזֶהוּ",
+      "source_xml": "<entry id=\"A00960\">\n<head-word>אֵזֶהוּ</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01194\">אֵיזֶה</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "528db812b1b08ba3ea36e08af21691447a7f4714daf6eccc63e46a41acc2efea"
+    },
+    {
+      "ordinal": 962,
+      "source_id": "jastrow-xml-000962",
+      "headword": "אַזְהָרָא",
+      "source_xml": "<entry id=\"A00961\">\n<head-word>אַזְהָרָא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00963\">אַזְהַרְתָּא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c24793244915d91588b8b03f0517e4ca885793a41c7a4b9fcf749643fc0ec4f2"
+    },
+    {
+      "ordinal": 963,
+      "source_id": "jastrow-xml-000963",
+      "headword": "אַזְהָרָה",
+      "source_xml": "<entry id=\"A00962\">\n<head-word>אַזְהָרָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (זהר) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>forewarning, prohibition</italic>, esp. \n<italic>the explicit prohibition</italic> (‘\n<italic>thou shalt not</italic>’) \n<italic>in the Bible</italic>, required for punishing trespassers.</definition>\n<notes> Y. Peah I, 16\n<sup>a</sup> top א' ללה\"ר a biblical admonition against calumny. Num. R. s. 7 (play on \n<italic>zara</italic> Num. XI, 20) והי' לכם לא' it shall be a warning to you. Yeb. 3\n<sup>b</sup> א' שמענו וכ' we learn here the legal prohibition, whence do we derive the penalty? a. tr.—\n<plural-form>Pl. אַזְהָרֹות</plural-form>. Kerith. III, 10; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>enlightenment</italic>.</definition>\n<notes> Cant. R. to VII, 3, v. אִדַּר.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "60bb4bbea39bc330a86a98dc624413ab23a5fcc58d7dde6b00b698072d0789d1"
+    },
+    {
+      "ordinal": 964,
+      "source_id": "jastrow-xml-000964",
+      "headword": "אַזְהַרְתָּא,",
+      "source_xml": "<entry id=\"A00963\">\n<head-word>אַזְהַרְתָּא, </head-word>\n<head-word>אַזְהָרָא</head-word>\n<language-key> ch. </language-key>\n<senses>\n<sense>\n<definition>as foreg. 1.</definition>\n<notes> Shebu. 20\n<sup>b</sup> ואַזְהַרְתֵּיה מה' and the legal prohibition concerning it, is to be derived from this verse.—\n<plural-form>Pl. אַזְהָרָן</plural-form>. Y. Yoma VIII, 45\n<sup>a</sup> תלת א' three prohibitory verses.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "fcebe6a5586d85bd1280e9827327f56e99dcac73ae5c71063a8c8a028f035faf"
+    },
+    {
+      "ordinal": 965,
+      "source_id": "jastrow-xml-000965",
+      "headword": "אֵזֹוב,",
+      "source_xml": "<entry id=\"A00964\">\n<head-word>אֵזֹוב, </head-word>\n<head-word>אֵיזֹוב</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> זוּב)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>hyssop.</italic></definition>\n<notes> Neg. XIV, 6 א' יון (Ar. אזביון) Greek hyssop. Sabb. XIV, 3 (109\n<sup>b</sup>) איזוביון, איזביון (read two words, Ms. O., v. Rabb. D. S. a. l. note 4); a. fr.—\n<plural-form>Pl. אֵיזֹובִים</plural-form> M. Kat. 25\n<sup>b</sup> אֵיזֹובֵי קִיר the hyssop (moss) on the wall (common humanity); v. אֶרֶז.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bef52ed71a722d305d62b1e3c7bf922030b68bad2eb051a3ad0f9d8f168b170c"
+    },
+    {
+      "ordinal": 966,
+      "source_id": "jastrow-xml-000966",
+      "headword": "אֵזֹובָא,",
+      "source_xml": "<entry id=\"A00965\">\n<head-word>אֵזֹובָא, </head-word>\n<head-word>אֵיזֹובָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Targ. Ex. XII, 22; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e06c0cdb48e2d27a696f8875e4c267aa2f61ff63f39a1a1a7775595b0e97af27"
+    },
+    {
+      "ordinal": 967,
+      "source_id": "jastrow-xml-000967",
+      "headword": "אֵזֹור,",
+      "source_xml": "<entry id=\"A00966\">\n<head-word>אֵזֹור, </head-word>\n<head-word>אֵיזֹור</head-word>\n<senses>\n<sense>\n<definition> c. \n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"A00083\"> אזר)</xref></language-reference>\n<italic>girdle, belt</italic>.</definition>\n<notes> M. Kat. 14\n<sup>a</sup> אֵיזֹורֹו וכ' his girdle (around his house-gown) testifies for him (that he has no more than the shirt he is washing). Tosef. Shebu. V, 12 sq.; a. e.—\n<plural-form>Pl. אֵזֹורִים, אֵיז'</plural-form>. Gen. R. s. 100 אֵזוֹרֵי מתניהם וכ' they loosened the girdles of their loins (in mourning sympathy). [Ch. זריז.]</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b370789b411ca669e9015150c1547600014b5ab277741916bf894e0c5df5e8b4"
+    },
+    {
+      "ordinal": 968,
+      "source_id": "jastrow-xml-000968",
+      "headword": "אֵזֹורָא,",
+      "source_xml": "<entry id=\"A00967\">\n<head-word>אֵזֹורָא, </head-word>\n<head-word>אֵיזֹורָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes>Sot. I, 17\n<sup>b</sup> top איזורִי ואיזורֵיה דברי וכ' my belt, and my son’s belt and that of his father in law; Num. R. s. 9 (p. 232\n<sup>b</sup> ed. Amst.); Y. Peah VII, 20\n<sup>a</sup> bot. (corr. acc.); cmp. Midr. Sam. ch. XIII.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "14f4d98053cbe0f58c1c6617c5694873785063f742f760275e2d6253f1ff189b"
+    },
+    {
+      "ordinal": 969,
+      "source_id": "jastrow-xml-000969",
+      "headword": "אֲזִי,",
+      "source_xml": "<entry id=\"A00968\">\n<head-word>אֲזִי, </head-word>\n<head-word>אֲזָא</head-word>\n<senses>\n<sense>\n<definition> (= אַזְעִי, v. \n<xref rid=\"unknown\">אוּדְיָיתָא</xref> a. \n<xref rid=\"A00083\">זִיעַ)</xref>\n<italic>to heat</italic> (\n<italic>make steam</italic>).</definition>\n<notes> Dan. III, 19; 22.—Targ. Is. XXXIII, 4 וַאֲזַן (Regia אֵיזִין) and they shall heat (baths, ovens) therewith (h. text מַשַּׂק = מַשַּׁק), v. זִירְקְתָא; (cmp. Ezek. XXXIX, 9). Ib. XLIV, 15 (for baking); a. e.—Y. Ter. VIII, end, 46\n<sup>c</sup> a bath house דאזייה וכ' which he had heated for seven days. Koh. R. to II, 8; a. e. דהוון אָזְיִין בהון that entertained the fires in them.—Lev. R. s. 28, end ועל מזגיה וקנחיה (read ואַזְּיֵיה Pa.) and he (Haman) went and made him sweat and cleansed him (with the scraper).</notes></sense></senses>\n<binyan>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְּזִי</binyan-form>\n<senses>\n<sense>\n<definition> (contr. of אתאזי) \n<italic>to be heated</italic>.</definition>\n<notes> Gen. R. s. 63 קלוון אנא דיִתְּזוּן וכ' I command that the bath-houses be heated. Ib. אזלון ואִתְּזוּן they went off, and the bath-houses were heated (some ed. דְּיִחֲמוּן a. אַחְמוּן).</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "61077d317bc739e7fe3116fc9bf109886ad38f2579964b5e0b9e48da526a25c0"
+    },
+    {
+      "ordinal": 970,
+      "source_id": "jastrow-xml-000970",
+      "headword": "אֲזִיל",
+      "source_xml": "<entry id=\"A00969\">\n<head-word>אֲזִיל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00973\">אֲזַל</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "368f04812a69640aa1f3aee51022bd208161be4b564fc16926294ee75561f9b0"
+    },
+    {
+      "ordinal": 971,
+      "source_id": "jastrow-xml-000971",
+      "headword": "אֲזֵינָא",
+      "source_xml": "<entry id=\"A00970\">\n<head-word>אֲזֵינָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, pl. (זין) אֲזֵינִין \n<italic>weapons</italic>, בית א' \n<italic>receptacle of weapons, quiver</italic>.</definition>\n<notes> Targ. Jer. V, 16. Targ. Is. XLIX, 2 (ed. Ven. אַזְנִין). V. Targ. to Deut. XXIII, 14 אֲזֵנֶךָ.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c3214aa923666e0d89897407703f1974828ad9d276adcf3aa2974a821fbf4100"
+    },
+    {
+      "ordinal": 972,
+      "source_id": "jastrow-xml-000972",
+      "headword": "*אַזֵּיק",
+      "source_xml": "<entry id=\"A00971\">\n<head-word>*אַזֵּיק</head-word>\n<senses>\n<sense>\n<definition> (Af. of אזק, v. \n<xref rid=\"H00553\">חזק</xref>, \n<xref rid=\"A00083\">עזק)</xref>\n<italic>to tie up</italic>.</definition>\n<notes> Koh. R. to VIII, 1 א' לרישי I have to tie up my head. (Yalk. Koh. 977 דחיק, Vers. אדיק; Y. Pes. X, 37\n<sup>c</sup> חזיק רישיה his head was tied; cmp. Ned. 49\n<sup>b</sup>.)</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "506292bce13c84628e8b427c338536a634bc96cd803a205c2993d5e521c653f6"
+    },
+    {
+      "ordinal": 973,
+      "source_id": "jastrow-xml-000973",
+      "headword": "אַזְכָּרָה",
+      "source_xml": "<entry id=\"A00972\">\n<head-word>אַזְכָּרָה</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (b. h.; = הַזְכָּרָה,\n<language-reference>\n<xref rid=\"A00083\"> זכר)</xref></language-reference></definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>remembrance, mention</italic> (of Div. Name), \n<italic>recitation</italic> (of prayer); \n<italic>reference</italic>.</definition>\n<notes> Y. Ber. V, 9\n<sup>b</sup> א' שהיא מריוח the reference to rain (in the second section of the eighteen benedictions) which is an expression of satisfaction (plenty), opp. שאלה, the prayer for rain (in the ninth benediction) which is an expression of anxiety.—Y. Meg. III, 74\n<sup>b</sup> top שתהא אַזְכָּרָתָן קודם וכ' that the recitation (of the events commemorated on Purim) precede the celebration thereof.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (v. \n<xref rid=\"A00411\">אַדְכָּרָה</xref>) \n<italic>the Divine Name, Tetragrammaton</italic>.</definition>\n<notes> Num. R. s. 2, beg. the students מראים את הא' וכ' point out the Div. Name with their fingers; Cant. R. to II, 4 מדלג על הא' skips the Div. Name in recitation of lessons.—\n<plural-form>Pl. אַזְכָּרֹות</plural-form>. Yoma 8\n<sup>a</sup> שיש בהן א' הרבה in which the Div. N. frequently occurs. Y. Ber. III, 6\n<sup>c</sup>.—Y. Sabb. XVI, 15\n<sup>c</sup> bot.; Bab. ibid. 116\n<sup>a</sup> קודר אזכרותֵיהֶן you must cut out the Div. N. occurring in them (the heretic writings). Y. Taan. II, 65\n<sup>c</sup> top י\"ח א' וכ' eighteen times that the Tetragrammaton appears in the Psalm \n<italic>Habu</italic> (XXIX). Num. R. s. 2, beg.; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "ed6dfe5ee23c4c295e637af1e050c61dd97cbe1b08766646e79a96617dcc9def"
+    },
+    {
+      "ordinal": 974,
+      "source_id": "jastrow-xml-000974",
+      "headword": "אֲזַל,",
+      "source_xml": "<entry id=\"A00973\">\n<head-word>אֲזַל, </head-word>\n<hw-number>I</hw-number>\n<head-word>אָזַל, </head-word>\n<head-word>אֲזִיל</head-word>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"unknown\">אָזַל; √אז; v. אזד)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to be gone, to leave; to go</italic>.</definition>\n<notes> Targ. Gen. XXXII, 1. \n<italic>Imper</italic>. אִיזֵּיל, אִזֵּיל. Targ. O. Num. XXII, 20; a. fr.—Y. Snh. X, 28\n<sup>b</sup> איזיל חמי וכ' go, show thy face &amp;c. Ib. לינה מֵיזַל … דנא מיזל וכ' I will not go … for if I did go &amp;c. Sabb. 116\n<sup>a</sup> א' כתב א' וכ' after the writing is gone, the sacredness of the scroll is gone (after the scroll has become unfit for sacred use, the material has lost its sacred character). Y. Dem. III, 23\n<sup>b</sup> bot. הא אזילא מיבלא וכ' that man’s load would soon be gone (if each were permitted to take a chip). Y. Ber. VIII, 12\n<sup>a</sup> הא אזילא ההיא דרב וכ' is the decision of Rab and Samuel gone (to be disregarded)? Y. Snh. X, 28\n<sup>a</sup> bot. הא א' הדא וכ' (ed. Krot. חדא) is that which was received from (is the tradition of) … to be disregarded? Y. Yeb. VIII, 9\n<sup>c</sup> bot. הא אזילא היא וכ' (ed. Krot. איזלא, corr. acc.; for היא read הדא or ההיא).—Trnsf. \n<italic>to depart life, die</italic>. Y. Ḥag. II, 77\n<sup>d</sup> bot. this one committed a sin וא' בה and died in it, and the other &amp;c. M. Kat. 28\n<sup>b</sup> ווי לאזלא woe, for the departed one! Y. Keth. XII, 35\n<sup>a</sup> top אזיל \n<italic>to die</italic>, contrad. to אתי to \n<italic>resurrect</italic>.—Imperat. usu. זִיל = אזיל.—Ḥull. 11\n<sup>b</sup> ז' בתר רובא follow the majority of cases; a. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "0087e3636d96d3255d16d3f9db5cadd5c945f5d455fefd0009276b67076f33f4"
+    },
+    {
+      "ordinal": 975,
+      "source_id": "jastrow-xml-000975",
+      "headword": "אֲזַל,",
+      "source_xml": "<entry id=\"A00974\">\n<head-word>אֲזַל, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> (= עזל; v. Ezek.</definition>\n<notes> XXVII, 19; √זל) \n<italic>to spin, weave</italic>. B. Mets. 24\n<sup>b</sup> קיבורא דאזלי ביה אזלויי a skein which the net-weavers had used; v. זוּל II. Denom. אִיזְלָא a. next w.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "2edac142b86b456dbbe1c511e83d71080d2ed660890772290c6a75b48cf55d56"
+    },
+    {
+      "ordinal": 976,
+      "source_id": "jastrow-xml-000976",
+      "headword": "אַזְלֹויָא",
+      "source_xml": "<entry id=\"A00975\">\n<head-word>אַזְלֹויָא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (foreg.) \n<italic>weaver.</italic></definition>\n<notes>\n<plural-form>Pl. אַזְלֹויֵי</plural-form>. B. Mets. 24\n<sup>b</sup> (some ed. אזלוי corr. acc.), v. foreg.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "e7137888e3be08817cecddd765c8f445187dd9154ccee87a50299838e1d66244"
+    },
+    {
+      "ordinal": 977,
+      "source_id": "jastrow-xml-000977",
+      "headword": "*אֲזָלַיָּא",
+      "source_xml": "<entry id=\"A00976\">\n<head-word>*אֲזָלַיָּא</head-word>\n<pos> m. pl.</pos>\n<senses>\n<sense>\n<definition> (= נזל) \n<italic>running waters, waves</italic>.</definition>\n<notes> Targ. O. Ex. XV, 8 (Var. אָזְלַיָּא; Y. נָזְלַיָּא).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c5c5eee23a1ee7e2a17b9054977fd423896bd8795190274754319ab9e2579674"
+    },
+    {
+      "ordinal": 978,
+      "source_id": "jastrow-xml-000978",
+      "headword": "אזמאזמא",
+      "source_xml": "<entry id=\"A00977\">\n<head-word>אזמאזמא</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01199\">אִיזְמָא</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "a773e1f138cd8fd5c0caa8bad41a94da7eed84f40f6e895546e59f78b1310eca"
+    },
+    {
+      "ordinal": 979,
+      "source_id": "jastrow-xml-000979",
+      "headword": "אזמורד",
+      "source_xml": "<entry id=\"A00978\">\n<head-word>אזמורד</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00980\">אִזְמַרְגַּד</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "41b97a6cf01c844c0f11c834540bd9150ae28396ffbc248b83d5a88d5f9bae25"
+    },
+    {
+      "ordinal": 980,
+      "source_id": "jastrow-xml-000980",
+      "headword": "אִזְמֵל",
+      "source_xml": "<entry id=\"A00979\">\n<head-word>אִזְמֵל</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01200\">אִיזְמֵל</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "84562ffc4e24583b9a918bd4b1caa8f391ba4d2f2d86738e970af05e26a96061"
+    },
+    {
+      "ordinal": 981,
+      "source_id": "jastrow-xml-000981",
+      "headword": "אִזְמַרְגַּד,",
+      "source_xml": "<entry id=\"A00980\">\n<head-word>אִזְמַרְגַּד, </head-word>\n<head-word>אִזְמַרְגְּדָא, </head-word>\n<head-word>אִזְמַרְגְּדִין, </head-word>\n<head-word>(אִזְמַרְגְּזִין, </head-word>\n<head-word>אִזְמְרַגְדִּין)</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (σμάραγδος, σμαράγδιον) \n<italic>emerald</italic>, a jewel \n<alternative>(also \n<italic>colored crystal</italic>; v. \n<xref rid=\"G00551\">זמרגד</xref> a. \n<xref rid=\"A00083\">זמרגדין)</xref></alternative>.</definition>\n<notes> Targ. Job. XLII, 13. Targ. O. Ex. XXVIII, 18 (Targ. Y. ib. אִזְמֹורַד); a. e. Ex. R. s. 38, end אִסְמַרַגְדִּין.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "656c5b0605d384494d46ff0a94ca5ff36fcc8b7da339706b8328adef6c508640"
+    },
+    {
+      "ordinal": 982,
+      "source_id": "jastrow-xml-000982",
+      "headword": "אֲזַן",
+      "source_xml": "<entry id=\"A00981\">\n<head-word>אֲזַן</head-word>\n<senses>\n<sense>\n<definition />\n<notes> Targ. Is. XXXIII, 4, third pers. pl. of אֲזָא, v. \n<xref rid=\"A00968\">אֲזִי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "19c0811f7869c07f8f5eb8d32359575913e381da2ef82040a560cfc45a46871f"
+    },
+    {
+      "ordinal": 983,
+      "source_id": "jastrow-xml-000983",
+      "headword": "אֹזֶן,",
+      "source_xml": "<entry id=\"A00982\">\n<head-word>אֹזֶן, </head-word>\n<head-word>אֹוזֶן</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\">√אז</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to be pointed, cut</italic>, cmp. חז, גז.</definition>\n<notes> v. אוּדְנָא) </notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>ear</italic>.</definition>\n<notes> B. Kam. 79\n<sup>b</sup> א' של מַטָּה human ear, opp. Divine perception. Y. Sabb. I, 3\n<sup>b</sup> top; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>handle</italic>.</definition>\n<notes> Cant. R. beg. ולא הי' לה א' וכ' but had no handle and could not be carried; a. fr.—\n<italic>Du</italic>. אָזְנַיִם 1) \n<italic>ears</italic>. Lev. R. s. 32, beg. א' לדרך the road has ears (be on your guard in speaking); a. fr.—2) \n<italic>handles.</italic> Kel. IV, 3, v. גיסטרא; a. fr.</notes></sense>\n<sense>\n<number>—3)</number>\n<definition> אָזְנַיִם or בנות א' \n<italic>swollen glands of the throat</italic> (Rashi).</definition>\n<notes> Ab. Zar. 28\n<sup>b</sup> א'; Y. ib. II, 40\n<sup>d</sup> top; Y. Sabb. XIV, 14\n<sup>d</sup> top בנות א'.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "996d8870692a87f4ec726d3e91297571afe7f455a51bddf9e13e8926602579a4"
+    },
+    {
+      "ordinal": 984,
+      "source_id": "jastrow-xml-000984",
+      "headword": "אָזְנִיֹּות",
+      "source_xml": "<entry id=\"A00983\">\n<head-word>אָזְנִיֹּות</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A00608\">אוּזְנִיּוֹת</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "9348fac38eb780d4fe14239027ada8e9461477f25e3e0cce51ef0791dcb203e7"
+    },
+    {
+      "ordinal": 985,
+      "source_id": "jastrow-xml-000985",
+      "headword": "אָזַר",
+      "source_xml": "<entry id=\"A00984\">\n<head-word>אָזַר</head-word>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> √זר</xref>,\n<xref rid=\"G00685\"> cmp. זרז</xref>,\n<xref rid=\"A00083\"> אֶזְרֹועַ)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>to put around, girdle; to strengthen</italic>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Hithpa.</binyan-name>\n<binyan-form>הִתְאַזָּר</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to gird, strengthen one’s self</italic>.</definition>\n<notes> Ber. 16\n<sup>b</sup> ותִתְאַזָּר וכ' and gird thyself with thy mercy.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "13f64c4e758bc221422a43e491c89430e6787b51b5710cf2af59640909d3df06"
+    },
+    {
+      "ordinal": 986,
+      "source_id": "jastrow-xml-000986",
+      "headword": "אֶזְרָח",
+      "source_xml": "<entry id=\"A00985\">\n<head-word>אֶזְרָח</head-word>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"G00695\"> זרח = זרע)</xref></language-reference>\n<senses>\n<sense>\n<definition> [\n<italic>planted</italic>], \n<italic>native, citizen</italic>.</definition>\n<notes> Succ. 28\n<sup>a</sup> א' זה א' if it read \n<italic>ezra</italic>\n<italic>ḥ</italic> (Lev. XXIII, 42), it would mean every native (man or woman); a. fr.—\n<plural-form>Pl. אֶזְרָחִים</plural-form>. Sifra Emor, end.—Fem. אֶזְרָחִית, pl. אֶזְרָחִיּות. Succ. l. c.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "64b69c4624de50636385244102db099385aa64adbcffa369195134c16abc893e"
+    },
+    {
+      "ordinal": 987,
+      "source_id": "jastrow-xml-000987",
+      "headword": "אֶזְרְעָא",
+      "source_xml": "<entry id=\"A00986\">\n<head-word>אֶזְרְעָא</head-word>\n<pos> f.</pos>\n<language-key>(b. h. </language-key>\n<language-reference>\n<xref rid=\"A00083\">אֶזְרעַ)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>arm</italic>.</definition>\n<notes> Targ. Y. II. Num. XXXI, 50; v. זְרֹועַ.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7a388c472fb6967773e50c89b27fd99e83dd6fc98f04569028a1ed216fff1156"
+    },
+    {
+      "ordinal": 988,
+      "source_id": "jastrow-xml-000988",
+      "headword": "*אִזְתַּוְודָּא,",
+      "source_xml": "<entry id=\"A00987\">\n<head-word>*אִזְתַּוְודָּא, </head-word>\n<head-word>אִיזְ'</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (זווד) \n<italic>attachment, handle.</italic></definition>\n<notes>\n<plural-form>Pl. אִזְתַּוְודֵּי</plural-form>. Targ. Y. Ex. XXV, 12 ed. Vien. (oth. ed. אזתוור'; ib. XXXVII, 3 אסתוור', v. Ibn Ezra comment. a. l.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "67c9e15399ac4575eb82d98d57783ea47d815b694c3ad5b05d8374fec70ec4fd"
+    },
+    {
+      "ordinal": 989,
+      "source_id": "jastrow-xml-000989",
+      "headword": "אָח,",
+      "source_xml": "<entry id=\"A00988\">\n<head-word>אָח, </head-word>\n<hw-number>I</hw-number>\n<pos> m.</pos>\n<language-key>(b. h.;</language-key>\n<language-reference>\n<xref rid=\"unknown\"> אחה; cmp. אָב)</xref></language-reference>\n<senses>\n<sense>\n<definition>\n<italic>brother, kinsman; fellow, equal, fellow-believer</italic> &amp;c. Meg. 11\n<sup>a</sup> (play on \n<italic>ăhashverosh</italic>, Ahasverus) אָׄחִׄיו ש̇ל ר̇אש̇ וכ' a brother (in cruelty) to the chief tyrant (Nebucadn.); a. fr.—\n<plural-form>Pl. אַחִים, אַחִין</plural-form>.</definition>\n<notes> Gen. R. s. 89, beg. (play on \n<italic>ā</italic>\n<italic>ḥ</italic>\n<italic>u</italic>, Gen. XLI, 2) in years of plenty הבריות נעשו א' וכ' people are brotherly to each other. Ib. s. 99 אחים דפחתא וכ' brothers to the degraded woman (Dinah), … but not to Joseph; a. fr.—Cant. R. to VIII, 1 שני אחים \n<italic>brother and sister</italic></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "7e7432a89a1a7d1b4db19724f7d1a3bc51f306fa88ca63419145e89af9bb7feb"
+    },
+    {
+      "ordinal": 990,
+      "source_id": "jastrow-xml-000990",
+      "headword": "אַח,",
+      "source_xml": "<entry id=\"A00989\">\n<head-word>אַח, </head-word>\n<head-word>אַחָא, </head-word>\n<head-word>אָחָא</head-word>\n<language-key> ch. </language-key>\n<language-reference>same.</language-reference>\n<senses>\n<sense>\n<definition />\n<notes> Targ. fr.—\n<plural-form>Pl. אָחִין</plural-form>. Targ. Gen. XIII, 8; a. e.—אַחֵי Yeb. 65\n<sup>b</sup>.—Y. Yoma VI, 43\n<sup>d</sup> אֲחֵינָן \n<italic>our brothers</italic></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bd6ccd311c7cab566e510850d595e1bd27ebe3670aacf6fb623068f799f2991b"
+    },
+    {
+      "ordinal": 991,
+      "source_id": "jastrow-xml-000991",
+      "headword": "אָח,",
+      "source_xml": "<entry id=\"A00990\">\n<head-word>אָח, </head-word>\n<hw-number>II</hw-number>\n<senses>\n<sense>\n<definition> interj.</definition>\n<notes> interj. </notes></sense>\n<sense>\n<number>1)</number>\n<definition> (b. h.) exclamation of sorrow, \n<italic>Oh!</italic> Meg. 11\n<sup>a</sup> (play on \n<italic>ăhashverosh;</italic> v. \n<xref rid=\"A00988\">אָח I</xref>) א' לראשו woe upon his head.</definition>\n<notes> Snh. 102\n<sup>b</sup> (play on \n<italic>Ahab</italic> אח־אב) א' לשמי' a subject of grief to the Lord, and father (friend) of idolatry.—2 (= Syr.) exclamation of joy, \n<italic>Ah!</italic> Targ. Is. XLIV, 16 (h. הֶאָח).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "80581b08469adca10ba7c9c1aeb0ffb7c08ec13f6137a5d2c9945f68167101b9"
+    },
+    {
+      "ordinal": 992,
+      "source_id": "jastrow-xml-000992",
+      "headword": "אַחָא,",
+      "source_xml": "<entry id=\"A00991\">\n<head-word>אַחָא, </head-word>\n<head-word>אָחָא</head-word>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>brother;</italic> v. \n<xref rid=\"A00989\">אַח</xref>.</definition>\n<notes /></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<pos> pr. n. m.</pos>\n<italic>A</italic>\n<italic>ḥ</italic>\n<italic>a</italic>.</definition>\n<notes> Arakh. 22\n<sup>b</sup>; Keth. 88\n<sup>a</sup>, surnamed שר הבירה superintendent of the palace. Y. Ber. II, 5\n<sup>a</sup> R. A. surnamed Roba; a. many others. Y. Taan. II, 65\n<sup>a</sup> bot.; a. v. fr.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "74f8d101a0bca81ceae0a85b9355bcb0f6cb16a0fddab08674511f8bc7b4221b"
+    },
+    {
+      "ordinal": 993,
+      "source_id": "jastrow-xml-000993",
+      "headword": "אַחַאי",
+      "source_xml": "<entry id=\"A00992\">\n<head-word>אַחַאי</head-word>\n<pos> pr. n. m.</pos>\n<senses>\n<sense>\n<definition>\n<italic>A</italic>\n<italic>ḥ</italic>\n<italic>ai</italic>.</definition>\n<notes> Ḥull. 59\n<sup>b</sup></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "c1a42856b22d4647c9ab091f8c4050c074d1839294326860dbf8bb4de10e0d88"
+    },
+    {
+      "ordinal": 994,
+      "source_id": "jastrow-xml-000994",
+      "headword": "אַחֲבָא,",
+      "source_xml": "<entry id=\"A00993\">\n<head-word>אַחֲבָא, </head-word>\n<head-word>אַחְבָּא</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition> (contr. of אחי אבא) \n<italic>father’s brother, uncle</italic>.</definition>\n<notes> Targ. Jer. XXXII, 7 אַחֲבוּךְ thy uncle. Targ. O. Lev. X, 4 (Ms. I a. III אח אבוהי; Targ. Y. חביבא q. v.); a. e. Yeb. 21\n<sup>b</sup> Ar. s. v. בי אחבא (ed. בי דודי).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "bff08da02f43a8796f2d9616c001e67b0e0298195f568abd4ec4cac8bde36b4a"
+    },
+    {
+      "ordinal": 995,
+      "source_id": "jastrow-xml-000995",
+      "headword": "אֶחָד",
+      "source_xml": "<entry id=\"A00994\">\n<head-word>אֶחָד</head-word>\n<pos> m.</pos>\n<senses>\n<sense>\n<definition>, אַחַת f. \n<language-key>(b. h.;</language-key> v. \n<xref rid=\"A00995\">next w.</xref>,\n<language-reference>\n<xref rid=\"A00083\"> a. חַד)</xref></language-reference>\n<italic>one</italic>.</definition>\n<notes> [Freq. represented by א'.] Kid. 50\n<sup>b</sup>, a. fr. בבת אחת \n<italic>simultaneously</italic>, v. בַּת III. Peah III, 3 המחליק מאחת יד וכ' (Ms. M. בא') he who takes out onions with a unity of hand, i.e. all of them for one purpose. Ber. 61\n<sup>b</sup>, a. fr. על אחת כמה וכמה (abbr. עאכ\"ו) how much against one, i.e. \n<italic>how much the more</italic>.—אחד … אחד \n<italic>both … as well as</italic>. Tem. I, 1 א' האנשים וכ' both, men as well as women. Y. Keth. V, 29\n<sup>d</sup> top אחת זו ואחתֹ זו the one as well as the other; a. fr.—כְּאֶחָד, כְּאַחַת \n<italic>at the same time</italic>. Tosef. Neg. I, 11; sq. Sot. 8\n<sup>a</sup>; a. fr.—Yoma I, 7 והפג אחת and cool thyself \n<italic>for once, for a change</italic>, v. חֲדַת.—\n<plural-form>Pl. אֲחָדִים</plural-form></notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>singular, unique</italic>.</definition>\n<notes> Yalk. Gen. 62 (ref. to דברים אחדים Gen. XI, 1) they spoke words על שני א' against two only ones (ref. to אחד Ezek. XXXIII, 24 a. Deut. VI, 4) [corr. acc. Gen. R. s. 38].</notes></sense>\n<sense>\n<number>—2)</number>\n<definition> (cmp. אֲחַד) \n<italic>closed up, mysterious</italic>.</definition>\n<notes> Gen. R. l. c. (Yalk. l. c. אֲחוּדִים v. next w.).</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "b774b55420356964ae86c3838218fb39243ddde34f080f8ec75540d557a467af"
+    },
+    {
+      "ordinal": 996,
+      "source_id": "jastrow-xml-000996",
+      "headword": "אָחַד",
+      "source_xml": "<entry id=\"A00995\">\n<head-word>אָחַד</head-word>\n<senses>\n<sense>\n<definition> (sec. r. of חוּד, v. \n<xref rid=\"unknown\">חוּד I</xref>) \n<italic>to join, close.</italic></definition>\n<notes>\n<italic> Part. pass</italic>. אָחוּד, \n<plural-form>pl. אֲחוּדִים</plural-form></notes></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>closed up, mysterious</italic>.</definition>\n<notes>. Yalk. Gen. 62, v. foreg.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>joined, united</italic>.</definition>\n<notes> Gen. R. s. 38 (ref. to Gen. XI, 1, v. foreg.) דברים א' common goods, communism.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "fd1876b76a7e4036c66adbcc037e33e54de73aa5bb456e3ce6b2f534b329843e"
+    },
+    {
+      "ordinal": 997,
+      "source_id": "jastrow-xml-000997",
+      "headword": "אֲחַד",
+      "source_xml": "<entry id=\"A00996\">\n<head-word>אֲחַד</head-word>\n<senses>\n<sense>\n<definition>, \n<italic>Pa</italic>.</definition>\n<notes> אָחֵיד, אַחֵד ch. (v. foreg.) </notes></sense>\n<sense>\n<number>1)</number>\n<definition> (corresp. to h. סגר a. תפש; cmp. h. אחז) \n<italic>to close</italic> (the door), \n<italic>to lock up; to seize, capture</italic>.</definition>\n<notes> Targ. Is. XXII, 22 אָחֵיד. Ib. יֵיחֹוד, יִיחֹוד (fut.).—Targ. Deut. XXI, 19 יְאַ' = יַחֲדוּן (Pa.; Var. יֶחֱדוּן = יֶאֶח' Pe.). Targ. Am. III, 5; a. fr.—Snh. 26\n<sup>a</sup> bot., a. e. אחדיה לדשא locked the door. Pes. 111\n<sup>b</sup>\n<pgbrk id=\"pg39\" />ליה רוחא אחדא a spirit (demon, disease) seizes him.—\n<italic>Part. pass</italic>. אֲחִיד a) \n<italic>locked up</italic>. Targ. Josh. VI, 1; a. e.—b) (v. אָחוּז, s. v. אָחַז) \n<italic>holding</italic>. Targ. Am. II, 15; a. fr.—\n<italic>Part. pass. Pa</italic>. מְאַחַד \n<italic>locked up, hidden</italic>. Targ. Job. XXVI, 9. </notes></sense>\n<sense>\n<number>2)</number>\n<definition>\n<italic>to devote</italic>, v. \n<xref rid=\"A01025\">אֲחִיד</xref>.</definition>\n<notes /></sense></senses>\n<binyan>\n<binyan-name>Af.</binyan-name>\n<binyan-form>אֹוחַד</binyan-form>\n<senses>\n<sense>\n<definition>\n<italic>to seize</italic>.</definition>\n<notes> Targ. Ps. LXXIII, 23.</notes></sense></senses></binyan>\n<binyan>\n<binyan-name>Ithpa.</binyan-name>\n<binyan-form>אִתְאָחַד, אִתָּחַד, </binyan-form>\n<binyan-name>Ithpe.</binyan-name>\n<binyan-form>אִתְאֲחִיד</binyan-form>\n<senses>\n<sense>\n<number>1)</number>\n<definition>\n<italic>to be seized</italic>.</definition>\n<notes>. Targ. Ez. XIX, 4; a. fr.</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>to be locked up, joined</italic>.</definition>\n<notes> Targ. Is. XXIV, 10 את אחידו … (read אתאחידו). Ib. LIX, 10 Rashi (ed. אתא חד corr. acc.). Targ. Job XLI, 9 (8); a. e.—אִתְּחִיד. Ḥull. 52\n<sup>b</sup> א' דשא the door was locked.</notes></sense></senses></binyan></entry>\n",
+      "source_entry_sha256": "635e6992f50e05cc8edc4fafe054c5fb6304b0e6951dbc76f26cc1516e97782e"
+    },
+    {
+      "ordinal": 998,
+      "source_id": "jastrow-xml-000998",
+      "headword": "אַחֲדָא",
+      "source_xml": "<entry id=\"A00997\">\n<head-word>אַחֲדָא</head-word>\n<pos> f.</pos>\n<senses>\n<sense>\n<definition> (v. foreg.) </definition>\n<notes /></sense>\n<sense>\n<number>1)</number>\n<definition>\n<italic>bolt</italic>.</definition>\n<notes> Targ. Prov. XVIII, 19 (read … היך א' ד).</notes></sense>\n<sense>\n<number>—2)</number>\n<definition>\n<italic>shutting up</italic>.</definition>\n<notes> אֵחֲדַת רחמי shutting up of the womb, barrenness. Ibid. XXX, 16.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "cf7d30022c10730705c0f548dbeb266490d88c87fa84253918d8c870057a0c87"
+    },
+    {
+      "ordinal": 999,
+      "source_id": "jastrow-xml-000999",
+      "headword": "אֲחַדְבֹּוי",
+      "source_xml": "<entry id=\"A00998\">\n<head-word>אֲחַדְבֹּוי</head-word>\n<senses>\n<sense>\n<definition> (contr. of אח־דאבא; v. \n<xref rid=\"A00993\">אחבא</xref>)\n<pos> pr. n. m.</pos>\n<italic>A</italic>\n<italic>ḥ</italic>\n<italic>adboy</italic>, an Amora.</definition>\n<notes> Ḥull. 113\n<sup>b</sup>; a. e.</notes></sense></senses></entry>\n",
+      "source_entry_sha256": "06556e654bf2387396a6f5c4dbb444b8f37b93373c66c5493b17dc70ea8aa703"
+    },
+    {
+      "ordinal": 1000,
+      "source_id": "jastrow-xml-001000",
+      "headword": "אָחָה",
+      "source_xml": "<entry id=\"A00999\">\n<head-word>אָחָה</head-word>\n<senses>\n<sense>\n<definition />\n<notes>, v. \n<xref rid=\"A01023\">אחי</xref></notes></sense></senses></entry>\n",
+      "source_entry_sha256": "22780fe1fc7b1794fe676ef3caf7fc43fdb0373f54994a879985df8a02d4f583"
+    }
+  ]
+}

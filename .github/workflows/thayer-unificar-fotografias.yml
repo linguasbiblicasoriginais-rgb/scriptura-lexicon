@@ -1,0 +1,22 @@
+name: THAYER - consolidar indice fotografico
+on:
+  push:
+    branches: [chat-gpt-thayer-catalogo-fotografico]
+    paths: [.github/workflows/thayer-unificar-fotografias.yml]
+permissions: {contents: write}
+jobs:
+  consolidar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-thayer-catalogo-fotografico
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Instalar ferramenta de exportacao Excel
+        run: python -m pip install --quiet openpyxl
+      - name: Aguardar ambos os indices OCR das fotografias e gerar XLSX unificado
+        run: python tools/thayer_unificar_facsimile.py

@@ -1,0 +1,245 @@
+{
+  "source": "Klein Dictionary",
+  "source_url": "https://www.sefaria.org/Klein_Dictionary?tab=contents",
+  "api_index_url": "https://www.sefaria.org/api/index/Klein%20Dictionary",
+  "edition": {
+    "version_title": "Carta Jerusalem; 1st edition, 1987",
+    "version_source": "https://www.nli.org.il/he/books/NNL01",
+    "license": "CC-BY-NC",
+    "digitized_by_sefaria": true
+  },
+  "count_verified": true,
+  "counted_at_utc": "2026-10-16T04:18:44.091182+00:00",
+  "method": "DictionaryNode.headwordMap; /api/texts sequenciado por next até cada fronteira; sem API de pesquisa",
+  "first_word_from_index": "א",
+  "last_word_from_index": "תִּתֹּֽרֶת",
+  "last_word_matches_terminal_ref": true,
+  "first_ref": "Klein Dictionary, א",
+  "last_ref": "Klein Dictionary, תִּתֹּֽרֶת",
+  "sections": [
+    {
+      "letter": "א",
+      "start_ref": "Klein Dictionary, א",
+      "first_ref": "Klein Dictionary, א",
+      "last_ref": "Klein Dictionary, אַתָּתוּת",
+      "count": 2389,
+      "refs_sha256": "2354997c6eac938db35384b3d2beb245d474aa9701568d2c3b478a40d10232d8",
+      "next_boundary": "Klein Dictionary, ב",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ב",
+      "start_ref": "Klein Dictionary, ב",
+      "first_ref": "Klein Dictionary, ב",
+      "last_ref": "Klein Dictionary, בִּתְרוֹן",
+      "count": 1165,
+      "refs_sha256": "9396a3be8d75d656c8f3374cff27d6353fb49064d14bda91a7b5f39ae369e131",
+      "next_boundary": "Klein Dictionary, ג",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ג",
+      "start_ref": "Klein Dictionary, ג",
+      "first_ref": "Klein Dictionary, ג",
+      "last_ref": "Klein Dictionary, גִּתִּית",
+      "count": 1132,
+      "refs_sha256": "01917aba0d4febe3fe4978580e348943a76c7b200349709e3fc8649ae68bc581",
+      "next_boundary": "Klein Dictionary, ד",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ד",
+      "start_ref": "Klein Dictionary, ד",
+      "first_ref": "Klein Dictionary, ד",
+      "last_ref": "Klein Dictionary, דָּתִיּוּת",
+      "count": 875,
+      "refs_sha256": "3855d81851bc61c76be77c26cacc84d58e7b33bf5280d77fc041a4400e6b6b44",
+      "next_boundary": "Klein Dictionary, ה",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ה",
+      "start_ref": "Klein Dictionary, ה",
+      "first_ref": "Klein Dictionary, ה",
+      "last_ref": "Klein Dictionary, התת",
+      "count": 2548,
+      "refs_sha256": "256976f7944713bdd49705eeea08d4b184db8469225b32fe67d0905fc769a8a8",
+      "next_boundary": "Klein Dictionary, ו",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ו",
+      "start_ref": "Klein Dictionary, ו",
+      "first_ref": "Klein Dictionary, ו",
+      "last_ref": "Klein Dictionary, וַתְּרָנִי",
+      "count": 160,
+      "refs_sha256": "222500c59a7e3645a63fe128a16ff00d2c8359250bc098f6e45bd3ff107b73cd",
+      "next_boundary": "Klein Dictionary, ז",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ז",
+      "start_ref": "Klein Dictionary, ז",
+      "first_ref": "Klein Dictionary, ז",
+      "last_ref": "Klein Dictionary, זרת",
+      "count": 543,
+      "refs_sha256": "0ae0d069d4b5c0281e3de064c5a1814ad769731a8345ec2928351d4a8733147d",
+      "next_boundary": "Klein Dictionary, ח",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ח",
+      "start_ref": "Klein Dictionary, ח",
+      "first_ref": "Klein Dictionary, ח",
+      "last_ref": "Klein Dictionary, חֲתַת",
+      "count": 1591,
+      "refs_sha256": "c9d4092736a70fa506cbe0e8376d02307577a9a89f4e8b199ba132c4a9f5384d",
+      "next_boundary": "Klein Dictionary, ט",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ט",
+      "start_ref": "Klein Dictionary, ט",
+      "first_ref": "Klein Dictionary, ט",
+      "last_ref": "Klein Dictionary, טשטש",
+      "count": 600,
+      "refs_sha256": "69c7a6be429575282e04e928eac42509d88d6acd837f9d6aaa938b4d20868066",
+      "next_boundary": "Klein Dictionary, י",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "י",
+      "start_ref": "Klein Dictionary, י",
+      "first_ref": "Klein Dictionary, י",
+      "last_ref": "Klein Dictionary, יְתֶֽרֶת",
+      "count": 646,
+      "refs_sha256": "46e5763dece5e350aa2ed1391ab3283605842853a95838e3605e5fc6dbef3723",
+      "next_boundary": "Klein Dictionary, כ",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "כ",
+      "start_ref": "Klein Dictionary, כ",
+      "first_ref": "Klein Dictionary, כ",
+      "last_ref": "Klein Dictionary, כִּתָּתִיּוּת",
+      "count": 1001,
+      "refs_sha256": "fce6b563fe5e23dff215388ee9bef3f802daf8f41ac40718d002caff2fbd35ee",
+      "next_boundary": "Klein Dictionary, ל",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ל",
+      "start_ref": "Klein Dictionary, ל",
+      "first_ref": "Klein Dictionary, ל",
+      "last_ref": "Klein Dictionary, לֶֽתֶת",
+      "count": 693,
+      "refs_sha256": "1f1717e2ba6517397b9dedc7c14a1257eafd54ed13cd13c8edd1f6283ae6826d",
+      "next_boundary": "Klein Dictionary, מ",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "מ",
+      "start_ref": "Klein Dictionary, מ",
+      "first_ref": "Klein Dictionary, מ",
+      "last_ref": "Klein Dictionary, מַתָּת",
+      "count": 4862,
+      "refs_sha256": "3e4f8340d9d8c08210169548f400b769467f29e4992a15939a9973a25865c3b4",
+      "next_boundary": "Klein Dictionary, נ",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "נ",
+      "start_ref": "Klein Dictionary, נ",
+      "first_ref": "Klein Dictionary, נ",
+      "last_ref": "Klein Dictionary, נתשׁ",
+      "count": 1402,
+      "refs_sha256": "a8953a5dc0333e9353756d08685edae97d59cee356ebf012697676c375721c0f",
+      "next_boundary": "Klein Dictionary, ס",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ס",
+      "start_ref": "Klein Dictionary, ס",
+      "first_ref": "Klein Dictionary, ס",
+      "last_ref": "Klein Dictionary, סַתָּתוּת",
+      "count": 1274,
+      "refs_sha256": "b700a2bad0a6fb796ad7665c9a0f752975ba16edd8a51d0565869c28bf930f7e",
+      "next_boundary": "Klein Dictionary, ע",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ע",
+      "start_ref": "Klein Dictionary, ע",
+      "first_ref": "Klein Dictionary, ע",
+      "last_ref": "Klein Dictionary, עתת",
+      "count": 1306,
+      "refs_sha256": "0f890199de6e10f0779157c25810725200c615d4d6c4786b3145e5785d4849b7",
+      "next_boundary": "Klein Dictionary, פ",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "פ",
+      "start_ref": "Klein Dictionary, פ",
+      "first_ref": "Klein Dictionary, פ",
+      "last_ref": "Klein Dictionary, פתת",
+      "count": 1761,
+      "refs_sha256": "694bb71ecfa6aa1f368c52e955df8d1998f6ed241b8596d492b2de6f6e376989",
+      "next_boundary": "Klein Dictionary, צ",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "צ",
+      "start_ref": "Klein Dictionary, צ",
+      "first_ref": "Klein Dictionary, צ",
+      "last_ref": "Klein Dictionary, צתת",
+      "count": 800,
+      "refs_sha256": "df2ef639aad449e839d1e4ebaa24fc02b66e27c3254826437ead9ab2ecf5438d",
+      "next_boundary": "Klein Dictionary, ק",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ק",
+      "start_ref": "Klein Dictionary, ק",
+      "first_ref": "Klein Dictionary, ק",
+      "last_ref": "Klein Dictionary, קָתַרְסִיס",
+      "count": 1590,
+      "refs_sha256": "172617b10940b6f140143851622074ea0cd42d63e7073ffd2efe503d3d32a359",
+      "next_boundary": "Klein Dictionary, ר",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ר",
+      "start_ref": "Klein Dictionary, ר",
+      "first_ref": "Klein Dictionary, ר",
+      "last_ref": "Klein Dictionary, רַתְתָנוּת",
+      "count": 1301,
+      "refs_sha256": "9dea4c2e77bd973b4dc8b78ec41035870aeb2e3b5f9270248f5be3161fdf760f",
+      "next_boundary": "Klein Dictionary, ש",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ש",
+      "start_ref": "Klein Dictionary, ש",
+      "first_ref": "Klein Dictionary, ש",
+      "last_ref": "Klein Dictionary, שֶֽׁתֶת",
+      "count": 2082,
+      "refs_sha256": "7b4ad16b67cdda73c79cdaa67be24c912d550b6e21ef131afeae733c08f93f0b",
+      "next_boundary": "Klein Dictionary, ת",
+      "terminal_next_is_null": false
+    },
+    {
+      "letter": "ת",
+      "start_ref": "Klein Dictionary, ת",
+      "first_ref": "Klein Dictionary, ת",
+      "last_ref": "Klein Dictionary, תִּתֹּֽרֶת",
+      "count": 1390,
+      "refs_sha256": "539271a9018ca54344b3135c2b7cace2cb46cf360379219250494e905a4dfa8b",
+      "next_boundary": null,
+      "terminal_next_is_null": true
+    }
+  ],
+  "total_entries": 31111,
+  "unique_references": 31111,
+  "refs_sha256_sorted": "7642395278a7db9111cf28e0f9822e1b8ca216d902c18a6e2ae06e379dc8b3fd",
+  "last_next": null
+}
