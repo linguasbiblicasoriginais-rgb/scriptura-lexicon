@@ -75,3 +75,19 @@ O denominador de 116854 registros é referência provisória Furman, podendo dif
 Histórico: em ciclos automáticos anteriores, a publicação do lote 4 foi bloqueada; nesta retomada, a operação de escrita foi bem-sucedida na primeira tentativa e o commit foi verificado. Preservar as evidências de falhas anteriores; não declarar que os ciclos bloqueados foram bem-sucedidos.
 Agendamento horário: restaurado ao estado ativo por solicitação de continuidade do mantenedor; nunca desativar por erro em execuções futuras.
 Nenhuma operação PR, merge, rebase, force push ou escrita em outras branches.
+
+
+CICLO 0005 — RESULTADO VERIFICADO
+Branch exclusiva de escrita: chat-gpt-lsj.
+Arquivo: lexicons/lsj-source-batch-0005.xml.
+Commit da camada Fonte: be9ebab5aa38d05058a65d840c573507a6c38cdf.
+SHA do blob de destino: 7dc1adf8e29c1936c677d2de2dd568a49d683845.
+Transcrição auxiliar: helmadik/LSJLogeion (baseada no Perseus Digital Library, Tufts).
+Composição: greatscott03.xml, blob 5fdda44cef71e03de0204b65ade066006d6c4933, ordinais 1978–2034 (57 artigos), seguida de greatscott04.xml, blob d560de329f17ab692fb134cccd4994fc37622081, ordinais 1–943 (943 artigos).
+Lote global: artigos 4001–5000, primeiro ἄλεθρα (orig_id n3934), último ἀμᾰλ-όω· (orig_id n4898). Próximo Ἀμαλώιος (orig_id n4899; ordinal global 5001).
+Validação: 1000 artigos preservados, 1000 IDs de origem únicos, zero cabeçalhos ausentes; o lote 0004 (1000 registros) foi cotejado fragmento a fragmento com o mesmo arquivo TEI de origem; continuidade confirmada na junção entre arquivos, n3990 → n3991. Conteúdo publicado relido remotamente.
+Acumulado: 5000 registros da camada FONTE. Traduções integrais portuguesas concluídas: 0. Revisões filológicas completas: 0. Artigos apresentados na interface: 0.
+Denominador provisório de referência: 116854 (catálogo Furman); não pressupor equivalência de segmentação com LSJLogeion.
+Fonte, créditos e licença: preservar avisos nos arquivos do lote, incluindo Perseus/Tufts, Gregory Crane, Helma Dik/Logeion e CC BY-SA 4.0.
+Limitações: sem colação integral com a edição impressa, Perseids, Philolog.us e Furman; sem tradução, revisão editorial individual ou teste da interface.
+Nenhum PR/merge, nenhuma escrita em main ou outras branches.
