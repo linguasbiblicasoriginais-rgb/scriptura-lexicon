@@ -2,7 +2,7 @@ name: Frontend — navegação e catálogo em Chromium
 
 on:
   push:
-    branches: [chat-gpt-frontend, chat-gpt-performance, chat-gpt-jastrow, chat-gpt-bdbh, chat-gpt-klein]
+    branches: [chat-gpt-frontend, chat-gpt-performance, chat-gpt-jastrow, chat-gpt-bdbh, chat-gpt-klein, chat-gpt-bdba]
     paths:
       - 'index.html'
       - 'script.js'
