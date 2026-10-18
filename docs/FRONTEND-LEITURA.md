@@ -1,3 +1,7 @@
+## Identificação visual e capa do LSJ — 18/10/2026
+
+Na lista suspensa do dicionário grego, o rótulo passa a ser exclusivamente `LSJ`, sem o sufixo “em preparação”. A ficha bibliográfica utiliza `imagens/capas/lsj.png` (imagem existente no repositório). Foi retirada somente a advertência inicial solicitada pelo mantenedor da **observação** exibida na ficha, preservando a informação de proveniência, atribuição e licença da transcrição auxiliar. O estado interno `source-only`, a indisponibilidade de artigos pesquisáveis e o aviso contextual da pesquisa não foram alterados. O teste Chromium valida o rótulo, a observação remanescente e o PNG local, além da imagem exibida.
+
 ## Paginação verdadeiramente sob demanda — 18/10/2026
 
 A consulta foi dividida em **busca/contagem** e **materialização de página**. O índice gerado por `scripts/build-on-demand.mjs` passou ao **catálogo v3**. Arquivos `lexicon-data/lookup/*.json` armazenam exclusivamente as cadeias normalizadas usadas para confirmar correspondências e priorizar lemas, sem HTML de lista ou de cartões. O resultado da busca em `lexicons/on-demand-search.js` contém somente IDs ordenados e `total`. A contagem corresponde às correspondências verificadas (não é estimativa ou truncamento). Para manter buscas por substrings, termos independentes, transliterações e definições, é necessário ler os segmentos leves do índice correspondentes aos candidatos, **mas nunca os verbetes completos para contá-los**.

@@ -1427,8 +1427,7 @@ function populateSourceFilter() {
             document.createElement("option");
 
         option.value = source;
-        option.textContent = pending.includes(source) ?
-            source + " · em preparação" : source;
+        option.textContent = source;
 
         sourceFilter.appendChild(option);
     });

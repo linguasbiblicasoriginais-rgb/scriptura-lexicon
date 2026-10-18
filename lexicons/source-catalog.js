@@ -15,11 +15,11 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "9ª edição; transcrição digital auxiliar LSJLogeion/Perseus ainda não homologada",
         isbn: null,
         pages: null,
-        coverUrl: null,
+        coverUrl: "imagens/capas/lsj.png",
         coverColor: "#54637e",
         dictionary: "grego",
         publicationStatus: "source-only",
-        note: "Fonte em preparação. Os arquivos LSJ disponíveis pertencem exclusivamente à camada FONTE, em inglês; ainda não há verbetes traduzidos para português, revistos ou publicados para consulta neste site. Os registros da fonte não são contabilizados como artigos pesquisáveis. Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion.",
+        note: "Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion.",
         reference: "regras/Rlsj.txt"
     },
     "ROBINSON": {

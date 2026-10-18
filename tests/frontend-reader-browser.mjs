@@ -11,7 +11,7 @@ const pageErrors = [];
 page.on("pageerror", e => pageErrors.push(e.message));
 
 const report = [];
-const localCovers = {"THAYER":"imagens/capas/thayer.png","BDAG":"imagens/capas/bdag.png","LEH":"imagens/capas/leh.png","DGP":"imagens/capas/dgp.png","ROBINSON":"imagens/capas/robinson.png","ABBOTT-SMITH":"imagens/capas/abbott-smith.png","HALOT":"imagens/capas/halot.png","JASTROW":"imagens/capas/jastrow.png"};
+const localCovers = {"THAYER":"imagens/capas/thayer.png","BDAG":"imagens/capas/bdag.png","LEH":"imagens/capas/leh.png","DGP":"imagens/capas/dgp.png","ROBINSON":"imagens/capas/robinson.png","ABBOTT-SMITH":"imagens/capas/abbott-smith.png","HALOT":"imagens/capas/halot.png","JASTROW":"imagens/capas/jastrow.png","LSJ":"imagens/capas/lsj.png"};
 const renderedCovers = new Set();
 
 async function assertNoLeakedEntries(phase) {
@@ -84,7 +84,7 @@ try {
         if (dictionary === "grego") {
             assert.ok(sources.includes("LSJ"), "LSJ precisa aparecer no seletor grego");
             assert.equal(await page.locator('#source-filter option[value="LSJ"]').textContent(),
-                "LSJ · em preparação");
+                "LSJ");
         } else {
             assert.equal(sources.includes("LSJ"), false,
                 "LSJ não pertence a um dicionário diferente do grego");
@@ -126,7 +126,7 @@ try {
             if (source === "LSJ") {
                 assert.equal(count, 0, "LSJ ainda não tem cartões publicados");
                 assert.match(await page.locator("#source-details-note").textContent(),
-                    /camada FONTE|Fonte em preparação/i);
+                    /Transcrição auxiliar derivada de Perseus\/Tufts/);
                 assert.equal(await page.locator("#search-count").textContent(),
                     "Fonte em preparação");
                 assert.match(await page.locator("#no-results").textContent(),
