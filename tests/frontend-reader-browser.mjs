@@ -99,6 +99,20 @@ try {
 
             assert.equal(await page.locator("#source-details").isVisible(), true,
                 "Selecionar uma fonte deve mostrar sua ficha bibliográfica");
+            if (source === "DGP") {
+                const details = await page.evaluate(() => {
+                    const field = suffix => document.getElementById("source-details-" + suffix).textContent;
+                    return {publisher:field("publisher"),date:field("date"),
+                        edition:field("edition"),isbn:field("isbn"),pages:field("pages")};
+                });
+                assert.deepEqual(details, {
+                    publisher:"Ateliê Editorial, Cotia (SP); Editora Mnēma, Araçoiaba da Serra (SP)",
+                    date:"27/09/2022",
+                    edition:"2ª edição em volume único",
+                    isbn:"978-6599195198",
+                    pages:"1.264 p."
+                }, "Dados bibliográficos da 2ª edição do DGP");
+            }
             const count = await page.evaluate(
                 ({dictionary,source}) => window.ScripturaLexiconSearch.count(dictionary,source),
                 {dictionary,source}
@@ -200,6 +214,46 @@ try {
         }
         report.push(group);
     }
+
+    // Citação do DGP: pontilhado removido sem perder os dois tipos de popup.
+    // O CSS justifica o texto em popups de todas as fontes.
+    await page.goto(url + "#grego", {waitUntil:"domcontentloaded",timeout:180000});
+    await page.waitForFunction(() => window.ScripturaLexiconSearch?.isReady);
+    await page.locator("#source-filter").evaluate(select => {
+        select.value = "DGP";
+        select.dispatchEvent(new Event("change", {bubbles:true}));
+    });
+    await page.locator("#search-input").fill("ἀάω");
+    const dgpCitationRow = page.locator('tr.search-row[data-target="entry-dgp-0014"]');
+    await dgpCitationRow.waitFor({state:"visible",timeout:60000});
+    await dgpCitationRow.focus();
+    await page.keyboard.press("Enter");
+    const dgpArticle = page.locator("#entry-dgp-0014");
+    await dgpArticle.waitFor({state:"visible",timeout:60000});
+    const greekQuotation = dgpArticle.locator(".dgp-greek-quotation").first();
+    await greekQuotation.waitFor({state:"visible"});
+    assert.equal(await greekQuotation.evaluate(el => getComputedStyle(el).textDecorationLine),
+        "none", "Citação grega não deve ter sublinhado pontilhado");
+    assert.equal(await greekQuotation.getAttribute("data-tooltip-type"), "greek");
+    await greekQuotation.focus();
+    const dgpPopup = page.locator("#lexical-tooltip");
+    await page.waitForFunction(() => document.getElementById("lexical-tooltip")?.getAttribute("aria-hidden") === "false");
+    assert.match(await dgpPopup.textContent(), /Transliteração/i);
+    const alignment = await dgpPopup.evaluate(el => ({
+        root:getComputedStyle(el).textAlign,
+        heading:getComputedStyle(el.querySelector(".tooltip-heading")).textAlign,
+        label:getComputedStyle(el.querySelector(".tooltip-label")).textAlign,
+        value:getComputedStyle(el.querySelector(".tooltip-value")).textAlign
+    }));
+    assert.deepEqual(alignment, {
+        root:"justify",heading:"justify",label:"justify",value:"justify"
+    }, "Todos os textos do popup devem estar justificados");
+    const citationAuthor = dgpArticle.locator(".dgp-citation-source.tooltip-trigger").first();
+    assert.ok(await citationAuthor.count() > 0, "Citação bibliográfica perdeu o popup");
+    await citationAuthor.focus();
+    await page.waitForFunction(() => document.querySelector("#lexical-tooltip .tooltip-label")?.textContent === "Referência");
+    assert.equal(await dgpPopup.getAttribute("aria-hidden"), "false",
+        "O popup bibliográfico deve continuar funcionando");
 
     // Consulta no significado: o lema hebraico é encontrado por "prata".
     await page.goto(url + "#hebraico", {waitUntil:"domcontentloaded",timeout:180000});

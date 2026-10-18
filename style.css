@@ -1454,6 +1454,17 @@ tbody tr:last-child td {
 }
 
 
+/* Conteúdo de todos os popups lexicais, bibliográficos e textuais:
+   justificado, inclusive os títulos RTL que antes forçavam alinhamento à esquerda. */
+.lexical-tooltip,
+.lexical-tooltip .tooltip-heading,
+.lexical-tooltip .tooltip-label,
+.lexical-tooltip .tooltip-value,
+.lexical-tooltip .tooltip-meaning {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* ==========================================================
    DESTAQUE
    ========================================================== */

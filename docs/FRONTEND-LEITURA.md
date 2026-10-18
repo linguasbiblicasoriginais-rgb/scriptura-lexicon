@@ -1,3 +1,11 @@
+## Citações, popups e ficha do DGP — 18/10/2026
+
+A regra exclusiva `lexicons/dgp-format.css` que aplicava `text-decoration: underline dotted` a `.dgp-greek-quotation` passou a `text-decoration: none`. Os elementos, classes, eventos de foco e popup grego/bibliográfico não foram removidos. A cor, a interação por teclado, os popups de transliteração e os rótulos de autor/obra são preservados. Em `style.css`, o conteúdo do componente `.lexical-tooltip` e de seus títulos, rótulos, valores e etiquetas usa `text-align: justify` (`text-justify: inter-word`), independentemente da fonte ou do tema.
+
+A ficha bibliográfica DGP descreve a **2ª edição em volume único**, conforme os metadados informados pelo mantenedor: Ateliê Editorial (Cotia/SP) e Editora Mnēma (Araçoiaba da Serra/SP), publicação em 27/09/2022, 1.264 páginas, ISBN 978-6599195198. Isto não altera a redação da transcrição digital nem certifica a identidade textual integral entre ela e o exemplar comercial.
+
+Testes de regressão do Chromium acrescentados: campos bibliográficos apresentados, ausência de sublinhado na citação grega DGP, manutenção dos popups grego e bibliográfico com foco e texto justificado. Os testes existentes de busca/paginação, fontes, teclados, leitura de cartão e retorno permanecem.
+
 ## Identificação visual e capa do LSJ — 18/10/2026
 
 Na lista suspensa do dicionário grego, o rótulo passa a ser exclusivamente `LSJ`, sem o sufixo “em preparação”. A ficha bibliográfica utiliza `imagens/capas/lsj.png` (imagem existente no repositório). Foi retirada somente a advertência inicial solicitada pelo mantenedor da **observação** exibida na ficha, preservando a informação de proveniência, atribuição e licença da transcrição auxiliar. O estado interno `source-only`, a indisponibilidade de artigos pesquisáveis e o aviso contextual da pesquisa não foram alterados. O teste Chromium valida o rótulo, a observação remanescente e o PNG local, além da imagem exibida.
