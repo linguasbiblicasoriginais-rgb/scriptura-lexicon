@@ -1361,6 +1361,5 @@ window.ScripturaLexicons.DGP.bibliographicTerms.push(
     { key: "ésql.", type: "biblio", text: "Ésquilo — poeta trágico grego, autor citado pelo DGP." },
     { key: "eur.", type: "biblio", text: "Eurípides — poeta trágico grego, autor citado pelo DGP." },
     { key: "tuc.", type: "biblio", text: "Tucídides — historiador grego, autor citado pelo DGP." },
-    { key: "plut.", type: "biblio", text: "Plutarco — escritor e biógrafo grego, autor citado pelo DGP." },
     { key: "irreg.", type: "abbr", text: "irregular (forma gramatical ou flexão irregular)" }
 );
