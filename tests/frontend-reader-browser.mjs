@@ -204,11 +204,11 @@ try {
         document.querySelectorAll("#search-results .search-row").length === 10 &&
         document.querySelector("#search-pagination")?.hidden === false);
     assert.equal(await page.locator("#search-count").textContent(), "23 verbetes");
-    await page.locator('#search-pagination button[data-page="2"]').click();
+    await page.locator('#search-pagination button[aria-label="Página 2"]').click();
     assert.equal(await page.locator("#search-results .search-row").count(), 10);
     assert.equal(await page.locator("#search-results .search-row").first().getAttribute("data-target"),
         "test-page-10");
-    await page.locator('#search-pagination button[data-page="3"]').click();
+    await page.locator('#search-pagination button[aria-label="Página 3"]').click();
     assert.equal(await page.locator("#search-results .search-row").count(), 3);
     assert.equal(await page.locator("#search-results .search-row").first().getAttribute("data-target"),
         "test-page-20");
