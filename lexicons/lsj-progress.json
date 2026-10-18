@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "dictionary": "LSJ",
+  "branch": "chat-gpt-lsj",
+  "edition": "Liddell–Scott–Jones–McKenzie, A Greek-English Lexicon, Oxford 1940",
+  "total_entries_reference": 116854,
+  "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
+  "total_estimate_provisional": true,
+  "batch_size": 1000,
+  "source_records_incorporated": 1000,
+  "portuguese_articles_translated": 0,
+  "portuguese_articles_reviewed": 0,
+  "ui_articles_published": 0,
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0001.xml",
+  "source_batch_commit": "04fc88cb3df7bde9ddc17627b700517487f0260b",
+  "source_batch_blob": "5953f6923adb9fc2870b44f32697679c41279864",
+  "source_original_repository": "helmadik/LSJLogeion",
+  "source_original_path": "greatscott02.xml",
+  "source_original_blob_sha": "6d95548f3d3524ba0d726baa017cb763e75bd7bb",
+  "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
+  "first_lemma": "Α α",
+  "last_lemma": "ἀγῠρ-τευτής",
+  "next_lemma": "ἀγῠρ-τεύω",
+  "next_orig_id": "n988",
+  "next_source_file": "greatscott02.xml",
+  "next_ordinal": 1001,
+  "validation": {
+    "source_count": 1000,
+    "unique_orig_ids": 1000,
+    "missing_headwords": 0,
+    "scope": "deterministic structural verification only",
+    "full_collation": false,
+    "portuguese_translation": false,
+    "frontend_integration": false
+  },
+  "canonical_reference_sites": [
+    "https://perseids-project.github.io/lsj-js/",
+    "https://philolog.us/",
+    "https://folio2.furman.edu/lsjj/"
+  ],
+  "prohibitions": [
+    "não afirmar 1000 verbetes portugueses",
+    "não contar acepções como artigos separados",
+    "não modificar outras branches",
+    "não realizar PR/merge nem modificar main sem instrução específica"
+  ]
+}
