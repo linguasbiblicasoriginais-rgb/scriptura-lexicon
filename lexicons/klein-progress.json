@@ -3,10 +3,10 @@
   "source_url": "https://www.sefaria.org/Klein_Dictionary?tab=contents",
   "source_total": 31111,
   "source_total_inventory_path": "lexicons/klein-source-inventory.json",
-  "total_incorporated": 31100,
-  "next_ref": "Klein Dictionary, תַּשְׁתִּית",
-  "last_ref": "Klein Dictionary, תשׁשׁ",
-  "last_headword": "תשׁשׁ",
+  "total_incorporated": 31111,
+  "next_ref": null,
+  "last_ref": "Klein Dictionary, תִּתֹּֽרֶת",
+  "last_headword": "תִּתֹּֽרֶת",
   "seen_refs": [
     "Klein Dictionary, א",
     "Klein Dictionary, אַ◌",
@@ -31107,7 +31107,18 @@
     "Klein Dictionary, תַּשֽׁרַ״ק",
     "Klein Dictionary, תִּשְׁרֹֽקֶת",
     "Klein Dictionary, תִּשְׁרֹֽרֶת",
-    "Klein Dictionary, תשׁשׁ"
+    "Klein Dictionary, תשׁשׁ",
+    "Klein Dictionary, תַּשְׁתִּית",
+    "Klein Dictionary, תֵּת",
+    "Klein Dictionary, תַּת",
+    "Klein Dictionary, תַּתָּאָה",
+    "Klein Dictionary, תַּתּוֹן־הַמֹּֽחַ",
+    "Klein Dictionary, תִּתּוֹרָה",
+    "Klein Dictionary, תִּתְמֹֽכֶת",
+    "Klein Dictionary, תַּתֽקִין",
+    "Klein Dictionary, תַּתְרָן",
+    "Klein Dictionary, תַּתְרָנוּת",
+    "Klein Dictionary, תִּתֹּֽרֶת"
   ],
   "batches": [
     {
@@ -34219,6 +34230,16 @@
       "last_headword": "תשׁשׁ",
       "first_ref": "Klein Dictionary, תַּרְמִית ᴵᴵ",
       "last_ref": "Klein Dictionary, תשׁשׁ"
+    },
+    {
+      "file": "lexicons/klein-batch-312.js",
+      "first_ordinal": 31101,
+      "last_ordinal": 31111,
+      "count": 11,
+      "first_headword": "תַּשְׁתִּית",
+      "last_headword": "תִּתֹּֽרֶת",
+      "first_ref": "Klein Dictionary, תַּשְׁתִּית",
+      "last_ref": "Klein Dictionary, תִּתֹּֽרֶת"
     }
   ]
 }
