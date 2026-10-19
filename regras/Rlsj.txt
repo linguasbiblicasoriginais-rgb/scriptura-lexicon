@@ -1,3 +1,15 @@
+LSJ — LOTE DE 200 ARTIGOS: REGRA VIGENTE A PARTIR DA SOLICITAÇÃO DE 19/10/2026
+
+Esta regra atualiza a cadência da tradução do produto final para 200 ARTIGOS TIPOGRÁFICOS por lote, por solicitação expressa do usuário; SUBSTITUI, quanto à cadência, a regra histórica de 100, 1000 ou 2000. Regras de fidelidade, crítica textual, proveniência e proibição de inventar permanecem intactas.
+
+1. Lote 004: artigos globais 301–500, de ἀγαλματογλύφος (orig_id n297) a ἀγηνορέω (n496), com n482a como artigo independente; os 200 novos pares linha de pesquisa/cartão estão incorporados no manifesto lexicon-modules.json. O texto TEI original continua preservado em lexicons/lsj-source-batch-0001.xml.
+2. Estado verificado: 500/116854 artigos com tradução portuguesa DE TRABALHO e interface compilada (denominador 116854 PROVISÓRIO); build do GitHub Actions SUCESSO em https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39299805289, LSJ_BUILD_CHECK_OK expected=500 checked=500, 500 linhas, 500 cartões, 500 IDs únicos, zero colisões do catálogo. Fonte XML extraída, tradução preliminar, colação filológica independente e deploy público são estados DIFERENTES. Ainda não se comprovou colação integral de nenhum dos 500 contra a edição impressa Oxford 1940 nem a disponibilidade efetiva do site público.
+3. A revisão desta centena deverá confrontar cada tradução de trabalho com cada acepção, flexão, referência, variante, homógrafo e remissão, sem considerar validação estrutural de HTML prova de equivalência integral. Em particular, ἀγέχορος (orig_id n482a) é «que conduz o coro», variante ἄγε χορόν em Aristófanes, Lisístrata 1281, adição do suplemento do LSJ. A tradução inicial equivocada foi corrigida na linha de busca, tooltip e corpo do cartão antes do build final.
+4. Relatório obrigatório: barra global acumulada «X / 116.854» com percentual, saldo, e indicação de que X contabiliza artigos PORTUGUESES DE TRABALHO compilados, não artigos integralmente revisados ou produzidos em website público.
+5. Próximo lote em sequência (salvo nova orientação): 005, artigos globais 501–700, começar ἀγηνορία (orig_id n497). Nunca duplicar ou saltar verbetes; verificar HEAD remoto, manifesto, checkpoint e fonte. Branch de escrita exclusiva chat-gpt-lsj, não fazer merge na main.
+
+---
+
 LSJ — CADÊNCIA VIGENTE DO PRODUTO FINAL (19/10/2026) — SUBSTITUI A META ANTERIOR DE 1.000 POR LOTE
 
 1. O usuário determinou que a unidade de incorporação do PRODUTO FINAL, nas próximas continuações, será de 100 ARTIGOS TIPOGRÁFICOS por lote, em ordem sequencial. Esta regra PREVALECE sobre as seções históricas abaixo que prescrevem 1.000 ou 2.000. As fontes XML existentes continuam preservadas; seus lotes de extração não são renumerados nem contabilizados como traduções.
