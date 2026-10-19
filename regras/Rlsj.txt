@@ -1,3 +1,11 @@
+LSJ — LOTE 006 CONCLUÍDO TECNICAMENTE (19/10/2026)
+
+Artigos 701–900, de ἁγνάκορος (n692a) até ἀγριορίγανος (n890), em nove módulos lexicons/lsj-final-batch-0006-*.js na branch chat-gpt-lsj. Foram integradas 200 traduções portuguesas de trabalho com seus 200 cartões e linhas de busca, IDs únicos, ordinais em ordem da fonte, originais TEI integrais preservados nos cartões e registro no manifesto. O CI https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39313102714 terminou SUCCESS: 900 cartões, 900 linhas, 900 IDs únicos, 0 colisões, LSJ_BUILD_CHECK_OK expected=900 checked=900. A falha anterior 39312964532 decorreu apenas da concorrência entre o manifesto já com 900 artigos e o checkpoint temporariamente com 800; no commit validado os dois coincidem.
+
+Barra global: 900 / 116.854 = 0,7702% (denominador provisório); faltam aproximadamente 115.954. A contagem significa apenas traduções portuguesas PRELIMINARES integradas e compiladas, não tradução completa revisada palavra a palavra, não colação independente da edição impressa Oxford 1940 e não deploy público verificado. Fonte, tradução, revisão e publicação permanecem camadas distintas. O próximo artigo é 901, ἀγριόρροδον (orig_id n891), próximo lote 007 901–1100. Preservar branch, fontes, homógrafos e remissões; não criar PR ou fazer merge na main.
+
+---
+
 LSJ — LOTE 005: CONCLUSÃO DE INCORPORAÇÃO TÉCNICA (19/10/2026)
 
 Lote tipográfico 005, artigos 501–700 (200), ἀγηνορία [orig_id n497] até ἀγναῖος [n692], escrito exclusivamente na branch chat-gpt-lsj. Os oito arquivos lexicons/lsj-final-batch-0005-*.js contêm tradução portuguesa DE TRABALHO, linha de busca e cartão por artigo, com texto original TEI integral preservado para colação. O manifesto lexicon-modules.json foi atualizado e o checkpoint lexicons/lsj-progress.json aponta para o artigo 701 ἁγνάκορος, orig_id n692a.
