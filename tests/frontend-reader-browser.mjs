@@ -47,6 +47,20 @@ try {
             "Arquivo de capa inválido (esperado PNG): " + source);
     }
 
+    // Fragmentos sem lema não são verbetes do DGP, mas ficam em quarentena
+    // com o conteúdo original intacto e identificadores rastreáveis.
+    const quarantineResponse = await page.request.get(
+        new URL("lexicon-data/auditorias/dgp-fragmentos-sem-lema.json", url).toString());
+    assert.equal(quarantineResponse.status(), 200, "Inventário de fragmentos DGP ausente");
+    const quarantine = await quarantineResponse.json();
+    assert.ok(quarantine.count > 0, "Falha na identificação de fragmentos do XML");
+    assert.equal(quarantine.records.length, quarantine.count);
+    assert.ok(quarantine.records.some(item => item.target === "entry-dgp-26069"),
+        "Não foi inventariado o fragmento conhecido após μέγας");
+    assert.ok(quarantine.records.every(item => item.origin && item.target &&
+        item.lemma && (item.flag || item.placeholder)),
+        "Inventário do DGP sem proveniência ou motivo");
+
     for (const dictionary of ["grego", "hebraico", "aramaico", "latim"]) {
         await page.goto(url + "#" + dictionary, {
             waitUntil: "domcontentloaded", timeout: 180000
@@ -217,6 +231,19 @@ try {
         }
         report.push(group);
     }
+
+    // Total publicado ≠ total bruto do XML. Nenhum identificador fictício
+    // deve participar da contagem ou aparecer nos resultados.
+    const publicDgpCount = await page.evaluate(() =>
+        window.ScripturaLexiconSearch.count("grego","DGP"));
+    assert.equal(publicDgpCount + quarantine.count, 44590,
+        "Apenas os fragmentos comprovados podem sair do índice do DGP");
+    const queryCheck = await page.evaluate(() =>
+        window.ScripturaLexiconSearch.search("fragmento sem lema no xml","grego","DGP"));
+    assert.equal(queryCheck.total, 0,
+        "Marcadores técnicos de fragmento continuam sendo tratados como verbetes");
+    report.push({dgpRecordsOriginal:44590, dgpPublicados:publicDgpCount,
+        dgpQuarentena:quarantine.count});
 
     // Citação do DGP: pontilhado removido sem perder os dois tipos de popup.
     // O CSS justifica o texto em popups de todas as fontes.

@@ -24,7 +24,7 @@ for (const file of modules) {
 }
 const output = path.join(root, "lexicon-data");
 fs.rmSync(output, {recursive: true, force: true});
-for (const dir of ["grams", "lookup", "lookup-large", "meta", "cards"]) {
+for (const dir of ["grams", "lookup", "lookup-large", "meta", "cards", "auditorias"]) {
     fs.mkdirSync(path.join(output, dir), {recursive: true});
 }
 function emit(file, value) {
@@ -61,6 +61,9 @@ function normalize(value) {
     return value.toLocaleLowerCase("pt-BR").normalize("NFD")
         .replace(/\p{M}/gu, "").replace(/\s+/g, " ").trim();
 }
+// Quarentena apenas da APRESENTAÇÃO: conserva os módulos-fonte inalterados,
+// incluindo a definição e o identificador original para cotejo posterior.
+const quarantinedDgpFragments = [];
 function register(records, rows, cards, origin) {
     const byId = new Map();
     for (const card of entries(cards, "article", "entry-card")) {
@@ -89,10 +92,30 @@ function register(records, rows, cards, origin) {
     };
     for (const row of parsedRows) {
         const tag = openTag(row), target = attribute(tag, "data-target");
+        const rowSource = attribute(tag, "data-source");
+        const rowLemma = lemmaInRow(row);
+        // Fragmentos técnicos do XML não possuem lema válido e não podem
+        // aparecer na lista pública como verbetes autônomos.
+        // Não inferir um lema com base na posição: possíveis continuações
+        // de acepções serão reconciliadas separadamente, mediante cotejo.
+        const explicitFragment = attribute(tag, "data-source-fragment") === "true";
+        const placeholderLemma = /^⟦fragmento sem lema no xml\b[^⟧]*⟧$/iu.test(rowLemma);
+        if (rowSource === "DGP" && (explicitFragment || placeholderLemma)) {
+            const cells = Array.from(row.matchAll(/<td\b[^>]*>([\s\S]*?)<\/td>/gi),
+                match => match[1]);
+            const alternatives = byId.get(target) || [];
+            const article = alternatives.length ? alternatives[0] : "";
+            quarantinedDgpFragments.push({
+                target, origin, lemma: textOnly(cells[0] || "").trim(),
+                definition: textOnly(cells[2] || "").trim(),
+                cardDefinition: article ? fullText(article) : null,
+                flag:explicitFragment, placeholder:placeholderLemma
+            });
+            continue;
+        }
         const alternatives = byId.get(target) || [];
         let used = assigned.get(target);
         if (!used) assigned.set(target, used = new Set());
-        const rowLemma = lemmaInRow(row);
         // Casos de IDs repetidos: preferir o lema coincidente; ainda assim,
         // manter a ocorrência completa mesmo que o cabeçalho seja diferente.
         let chosen = alternatives.findIndex((card,i) =>
@@ -145,6 +168,19 @@ for (const [key, source] of Object.entries(ctx.window.ScripturaLexicons || {})) 
         sourceTerms[label].push(...source.bibliographicTerms);
     }
 }
+// Os registros técnicos continuam integralmente nos módulos históricos.
+const quarantinePath = "auditorias/dgp-fragmentos-sem-lema.json";
+emit(quarantinePath, {
+    source:"DGP", reason:"fragmento do XML sem lema atestado",
+    count:quarantinedDgpFragments.length, records:quarantinedDgpFragments
+});
+console.log("DGP_FRAGMENT_QUARANTINE", JSON.stringify({
+    count:quarantinedDgpFragments.length,
+    origins:[...new Set(quarantinedDgpFragments.map(item => item.origin))].length,
+    sample:quarantinedDgpFragments.slice(0,5).map(item=>({
+        target:item.target, lemma:item.lemma, origin:item.origin
+    }))
+}));
 // Deduplicação estritamente comprovável da APRESENTAÇÃO DGP (não da fonte).
 // Alguns módulos históricos carregam duas vezes o mesmo ordinal com IDs
 // técnicos formatados de modo distinto. Só retiramos do índice a segunda
@@ -402,7 +438,8 @@ for (let i = 0; i < buckets.length; i++) {
 }
 emit("catalog.json", {
     version: 4, chunkSize, lookupLargeSize, total: records.length, counts, samples, runs, sourceTerms,
+    quarantined:{DGP:quarantinedDgpFragments.length},
     duplicateSamples:duplicateSamples.slice(0,8)
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,
-    records:records.length,collisions:collisions.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize),lookupLargeChunks:Math.ceil(records.length/lookupLargeSize)}));
+    records:records.length,collisions:collisions.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize),lookupLargeChunks:Math.ceil(records.length/lookupLargeSize),quarantinedDgp:quarantinedDgpFragments.length}));

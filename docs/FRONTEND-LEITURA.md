@@ -1,3 +1,13 @@
+## DGP: fragmentos técnicos do XML fora da busca — 19/10/2026
+
+A captura da interface mostrou registros intitulados `⟦fragmento sem lema no XML · …⟧` como se fossem lemas. Nos módulos DGP há casos marcados com `data-source-fragment="true"`; por exemplo, `entry-dgp-26069` aparece após `μέγας`, com uma definição que parece continuação de acepções. Sem cotejar o XML e a edição impressa, não se pode recuperar automaticamente o verdadeiro cabeçalho, nem afirmar que todas as continuações pertencem ao item precedente.
+
+**Tratamento conservador:** `scripts/build-on-demand.mjs` não publica como resultados independentes os registros DGP marcados explicitamente ou com o marcador canônico `⟦fragmento sem lema no XML …⟧`. Nenhum módulo lexical original é reescrito, e o conteúdo integral desses registros é preservado nos módulos de origem. Cada registro retido passa a constar em `lexicon-data/auditorias/dgp-fragmentos-sem-lema.json`, com ID, módulo de origem, cabeçalho e definição; o arquivo é produzido durante o build. Os demais verbetes e idiomas não recebem esse filtro. Uma revisão filológica posterior poderá localizar o verdadeiro lema e reintegrar definições, mediante evidência, sem inventar nem descartar material da fonte.
+
+**Contagens separadas:** `lexicons/dgp-progress.json` conserva o número bruto de registros XML incorporados (44.590), enquanto `lexicon-data/catalog.json` passa a informar os artigos DGP pesquisáveis e o total de fragmentos em `quarantined.DGP`. O número pesquisável deve ser reduzido apenas na quantidade efetivamente identificada. A suíte Chromium compara `publicados + quarentena = 44590`, verifica o inventário, a ausência do marcador na busca e a navegação restante. O procedimento não é uma certificação global da qualidade do DGP: erros lexicais não marcados ainda podem exigir cotejo manual.
+
+**Publicação:** o print do navegador ainda mostrava uma observação bibliográfica que já não consta nesta branch, indicando possível deploy defasado ou cache antigo. Confirmar que o ambiente público utiliza a revisão da branch após gerar o catálogo correspondente.
+
 ## Pesquisa rápida universal e paginação limitada — 19/10/2026
 
 Aplicado uniformemente aos dicionários grego, hebraico, aramaico e latino (quando tiver registros publicados), sem exceções por fonte. A API `page(results,n,perPage)` rejeita pedidos acima de **10 linhas por página**. O número de correspondências permanece exato, no topo, e nenhum artigo completo é solicitado durante a pesquisa/paginação.
