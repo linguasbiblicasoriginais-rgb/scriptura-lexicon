@@ -295,3 +295,8 @@ CICLO LSJ 002 — SUBLOTE 101–120 (19/10/2026)
 
 CICLO LSJ 002 — SUBLOTE 121–140 (19/10/2026)
 20 artigos tipográficos adicionais, n115–n134, traduções portuguesas preliminares; verbetes e remissões gregas cotejados com XML, referências conservadas. Total 140 rascunhos; testes de build global para 140 ainda pendentes. Revisão impressa e deploy público não comprovados. Próximo 141: ἀβόρβορος.
+
+
+LSJ — VALIDAÇÃO DA CENTENA 002 (19/10/2026)
+100 artigos novos, ordinais 101–200, lemas ἀβίωτος — ἀβροτονίτης, orig_ids n95–n194. 11 módulos JS lsj-final-batch-0002-*.js; 100 pares de linhas e cartões, IDs distintos consecutivos, sem duplicações nem lacunas. Conferência remota de conteúdo e integridade; CI GitHub Actions run 39259958240, commit e877073c0e35c69ae85a56175357c332f6916451: SUCESSO (Node 22, build completo, verify-lsj-index.mjs LSJ_BUILD_CHECK_OK expected=200 checked=200, EXTRACTION LSJ 200 rows/200 cards/200 IDs exclusivos). URL: https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39259958240.
+Progresso global confirmado de traduções portuguesas de trabalho compiladas: 200 / 116854, cerca de 0,171%. Denominador provisório. Diferenciar 22000 originais XML, 200 apresentações portuguesas preliminares, 0 colações filológicas integrais independentes, 0 disponibilizações públicas em produção comprovadas. A tradução de trabalho não é homologação de fidelidade plena. Novo lote 003: ordinais 201–300, início ἀβρότονον (n195). Nenhum PR, merge ou alteração na main.
