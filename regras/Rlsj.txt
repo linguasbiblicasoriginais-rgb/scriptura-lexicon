@@ -1,3 +1,11 @@
+LSJ — LOTE 008: CONSOLIDAÇÃO TÉCNICA (19/10/2026)
+
+Lote 008: artigos ordinais 1101–1300, 200 artigos de trabalho de ἀγωγή (orig_id n1087) a ἀδιακρισία (n1283), incorporados exclusivamente na branch chat-gpt-lsj. Arquivos lexicons/lsj-final-batch-0008-*.js: oito módulos de 25 verbetes, cada um com tradução portuguesa RESUMIDA DE TRABALHO, original TEI integral, linha search-row, entry-card e ID persistente. O artigo ᾍδης está, por decisão de ordenação da fonte, entre ἀδήριτος e ἁδήσω, com orig_id n2244 (não renumerar para n1256). Ordem comparada à fonte lexicons/lsj-source-batch-0002.xml: 200 IDs distintos, 200 cartões/linhas e ordinais em sequência. A compilação estática e a auditoria automática foram APROVADAS em https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39341244197: EXTRACTION LSJ rowMatches=1300, cardMatches=1300, uniqueCardIDs=1300; catálogo LSJ records=1300, collisions=0; LSJ_BUILD_CHECK_OK expected=1300 checked=1300.
+
+Progresso global 1300/116854 (1.1125%), faltam 115554 artigos pelo denominador PROVISÓRIO. A métrica representa resumos lexicográficos portugueses preliminares integrados e compilados; não significa 1300 traduções completas palavra por palavra. Cotejo exaustivo da edição impressa Oxford 1940, revisão filológica independente e deploy público verificado continuam PENDENTES. Preservar as camadas Fonte, Tradução, Análise, Publicação distintas. Próximo lote 009: 1301–1500, começando por ἀδιάκριτος (orig_id n1284). Não alterar main nem fazer merge.
+
+---
+
 LSJ — LOTE 007, 200 ARTIGOS (19/10/2026)
 
 Lote 007: artigos ordinais 901–1100, de ἀγριόρροδον (n891) a ἀγωγεύς (n1086). Originais reais em lexicons/lsj-source-batch-0001.xml (ordinais 901–1000) e lexicons/lsj-source-batch-0002.xml (1001–1100). Nove módulos lexicons/lsj-final-batch-0007-*.js gravados exclusivamente em chat-gpt-lsj, com 200 linhas de busca e cartões, 200 IDs originais únicos e na ordem correta, 200 seções de tradução portuguesa de trabalho e 200 originais TEI integrais para revisão. O artigo ἄγω (n1083, ordinal 1097) é extenso, com 29 divisões e grande número de referências: o português atualmente é um RESUMO SEMÂNTICO, não tradução completa de todas as acepções.
