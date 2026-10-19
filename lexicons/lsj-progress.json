@@ -25,15 +25,25 @@
   "next_source_file": "lexicons/lsj-source-batch-0001.xml",
   "next_ordinal": 301,
   "validation": {
-    "scope": "300 traduções portuguesas de trabalho, 100 novas nesta centena; compilação do novo estado pendente; colação independente e deploy público não comprovados",
+    "scope": "300 artigos LSJ de tradução portuguesa de trabalho, 300 cartões e 300 linhas efetivamente compilados, 300 IDs únicos, zero colisões; colação independente integral contra Oxford 1940=0, deploy público verificado=0.",
     "source_count": 22000,
     "translated_draft": 300,
     "source_identity_checked_for_translations": 300,
     "search_cards_prepared": 300,
     "independent_full_collation_completed": 0,
-    "frontend_integration": "300 pares HTML manifestados; build de 300 pendente",
-    "build_verification": false,
-    "production_deployment_verified": false
+    "frontend_integration": "300 cartões e linhas LSJ presentes no índice compilado pelo build Node 22; EXTRACATION 300/300; LSJ_BUILD_CHECK_OK expected=300 checked=300; execução 39265222724.",
+    "build_verification": true,
+    "production_deployment_verified": false,
+    "build_verification_evidence": {
+      "workflow": "LSJ — compilação e validação do índice",
+      "run_id": 39265222724,
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39265222724",
+      "commit_sha": "52bb1c8dd502433972c08e64bfb2f134dc8b0b74",
+      "conclusion": "success",
+      "actual_cards": 300,
+      "actual_search_rows": 300,
+      "unique_ids": 300
+    }
   },
   "canonical_reference_sites": [
     "https://perseids-project.github.io/lsj-js/",
@@ -380,16 +390,16 @@
     "unit": "one typographic LSJ article",
     "batch_size": 100,
     "start_ordinal": 1,
-    "current_batch": 3,
-    "batch_start_ordinal": 201,
-    "batch_end_ordinal": 300,
+    "current_batch": 4,
+    "batch_start_ordinal": 301,
+    "batch_end_ordinal": 400,
     "next_article_ordinal": 301,
     "next_orig_id": "n297",
     "next_lemma": "ἀγαλματογλύφος",
     "full_cycle_articles_completed": 0,
     "current_batch_articles_completed": 0,
     "fully_completed_batches": 0,
-    "current_batch_status": "100_of_100_pt_draft_articles_committed_build_pending",
+    "current_batch_status": "batch_0004_not_started; previous_batch_0003_100_portuguese_working_entries_compiled_successfully; independent_print_review_and_deploy_unverified",
     "translation_faithful_completed": 300,
     "source_individually_checked": 300,
     "philological_review_completed": 0,
@@ -397,7 +407,7 @@
     "article_cards_integrated": 300,
     "site_production_verified": 0,
     "blocking_rule": "Do not mark an article complete until its source, faithful PT translation, review, search row and full card have been checked; count live publication separately only with deploy evidence.",
-    "source_reuse": "22000 registros na camada fonte XML, NÃO contabilizados como traduções portuguesas; 200 artigos do produto final de trabalho compilados.",
+    "source_reuse": "22000 registros XML da camada Fonte preservados, NÃO considerados traduções; 300 apresentações portuguesas de trabalho compiladas.",
     "build_requirements": [
       "include LSJ module in lexicon-modules.json",
       "ensure source LSJ present in source-catalog.js",
@@ -711,33 +721,33 @@
       "n295",
       "n296"
     ],
-    "translation_state": "200 traduções portuguesas de trabalho de acepções e glosas, com referências preservadas e compilação aprovada; colação integral independente com a edição de Oxford 1940 e deploy público ainda não comprovados",
+    "translation_state": "300 traduções portuguesas preliminares, parágrafos por acepção e referências gregas quando disponíveis, 300 pares de cartões e buscas compilados; sem colação independente completa de Oxford 1940 ou confirmação do site público.",
     "checks": {
       "manuscript_source_source_batch_sha": "5953f6923adb9fc2870b44f32697679c41279864",
       "js_module_path": "lexicons/lsj-final-batch-0001.js",
       "js_module_blob_sha": "74367a86390c5f45c00a19ec459ad0c2c2f2a58e",
-      "checked_for_correct_source_orig_ids": 200,
-      "compilation_test": "GitHub Actions PASSOU run 39259958240, construção estática integral e índice LSJ conferidos 200/200",
-      "javascript_runtime_test": "LSJ_BUILD_CHECK_OK expected 200 checked 200, IDs únicos; sem colisões",
+      "checked_for_correct_source_orig_ids": 300,
+      "compilation_test": "GitHub Actions run 39265222724: SUCCESS, Node 22 static build, LSJ index 300 checked",
+      "javascript_runtime_test": "EXTRACTION LSJ 300 rows/cards IDs; LSJ_BUILD_CHECK_OK expected=300 checked=300; collisions=0",
       "deploy_production": "not_verified",
       "accurate_portuguese_translation_stage": "translation_draft",
       "printed_1940_collation": "not_performed",
       "integrity_sense_and_order": "55 artigos originais consultados nos XML e lemas IDs preservados; integral print collation pending"
     },
     "production_status": "NOT_PUBLISHED_NO_DEPLOY_EVIDENCE",
-    "next_phase": "Lote 004: artigos 301–400, início ἀγαλματογλύφος (n297)",
-    "last_build_evidence": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39259958240",
+    "next_phase": "Lote 004, ordinais 301–400; iniciar ἀγαλματογλύφος (n297). Revisão filológica independente e deploy público dos lotes anteriores pendentes.",
+    "last_build_evidence": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39265222724",
     "translation_batch_tracking": {
       "unit": "100 distinct source typographic articles",
-      "translated_and_compiled_batches": 2,
+      "translated_and_compiled_batches": 3,
       "full_filological_reviewed_batches": 0,
       "public_deployment_verified_batches": 0,
-      "next_translation_batch_number": 3,
-      "next_translation_batch_start_ordinal": 201,
-      "next_translation_batch_end_ordinal": 300,
-      "previous_translation_batch_start_ordinal": 101,
-      "previous_translation_batch_end_ordinal": 200,
-      "previous_translation_batch_status": "100 artigos portugueses preliminares e cartões aprovados na compilação; não colacionados com edição impressa nem deploy confirmados"
+      "next_translation_batch_number": 4,
+      "next_translation_batch_start_ordinal": 301,
+      "next_translation_batch_end_ordinal": 400,
+      "previous_translation_batch_start_ordinal": 201,
+      "previous_translation_batch_end_ordinal": 300,
+      "previous_translation_batch_status": "100 artigos preliminares compilados com sucesso; revisão impressa e deploy não verificados"
     }
   },
   "legacy_source_extraction": {
@@ -749,7 +759,7 @@
     "legacy_next_unextracted_lemma": "ἀρχαιόομαι",
     "status": "preserved_as_input_no_further_source_only_cycles"
   },
-  "notes": "Lote vigente de 100. Artigos 101–200 preparados e compilados com sucesso (run 39259958240): 200 de 116854 provisórios, progresso geral 0,17115%; revisão impressa independente=0; publicação no site público verificada=0. 22000 fontes XML não equivalem a traduções.",
+  "notes": "Regra vigente: lotes de 100, barra global X/116854 provisório. Lote 003 artigos 201–300 tem compilação estrutural SUCESSO (https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39265222724), novos 100, acumulado 300, 0 colações impressas integrais e 0 deploys públicos verificados. 22000 registros originais XML não contam como traduções portuguesas.",
   "deliveries": [
     {
       "stage": "LSJ_0001_TRANS_01",
@@ -1016,20 +1026,35 @@
       "run_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39259958240",
       "status": "compile_and_index_success; translation_drafts_only; printed_collation_and_public_deployment_unverified",
       "next_article_ordinal": 201
+    },
+    {
+      "stage": "LSJ_BUILD_VALIDATION_300",
+      "start_ordinal": 201,
+      "end_ordinal": 300,
+      "total_compiled": 300,
+      "added_articles": 100,
+      "source_orig_id_range": [
+        "n195",
+        "n296"
+      ],
+      "workflow_run_id": 39265222724,
+      "workflow_url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39265222724",
+      "status": "CI-success; 300 article_cards and search_rows; printed collation and public deploy unverified",
+      "next_ordinal": 301
     }
   ],
   "last_committed_translation_batch": "lexicons/lsj-final-batch-0003-0298-0300.js",
   "global_progress": {
     "unit": "LSJ articles translated into Portuguese and verified present in compiled interface, NOT print-collated or verified publicly deployed",
-    "incorporated_and_compiled": 200,
+    "incorporated_and_compiled": 300,
     "estimated_total": 116854,
     "estimated_total_is_provisional": true,
-    "ratio": 0.0017115374741129958,
-    "remaining_estimate": 116654,
+    "ratio": 0.0025673062111694935,
+    "remaining_estimate": 116554,
     "source_records_distinct_from_product": 22000,
     "independent_print_collation_completed": 0,
     "public_deploy_verified": 0,
-    "last_verified_build_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39259958240",
-    "unverified_prepared_drafts": 100
+    "last_verified_build_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39265222724",
+    "unverified_prepared_drafts": 0
   }
 }
