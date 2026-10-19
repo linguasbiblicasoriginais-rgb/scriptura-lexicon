@@ -25,15 +25,23 @@
   "next_source_file": "lexicons/lsj-source-batch-0001.xml",
   "next_ordinal": 70,
   "validation": {
-    "scope": "80 traduções portuguesas de trabalho e respectivos pares de pesquisa/cartão no código; sem colação filológica independente completa, build geral ou deploy confirmado",
+    "scope": "80 traduções de trabalho; 80 pares de busca/cartão compilados e certificados estruturalmente no build GitHub Actions; ainda 0 colações filológicas independentes integrais; publicação em produção não verificada",
     "source_count": 17000,
     "translated_draft": 80,
     "source_identity_checked_for_translations": 80,
     "search_cards_prepared": 80,
     "independent_full_collation_completed": 0,
-    "frontend_integration": "JS module registered in build manifest",
-    "build_verification": false,
-    "production_deployment_verified": false
+    "frontend_integration": "80 artigos LSJ incorporados à compilação e verificados no índice gerado pelo Node 22",
+    "build_verification": true,
+    "production_deployment_verified": false,
+    "build_verification_evidence": {
+      "workflow": "LSJ — compilação e validação do índice",
+      "run_id": 39196224032,
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39196224032",
+      "commit_sha": "1a42d152d98fdc5d4d9a04a25cd7b76f09dcd8d0",
+      "conclusion": "success",
+      "actual_cards": 80
+    }
   },
   "canonical_reference_sites": [
     "https://perseids-project.github.io/lsj-js/",
@@ -389,7 +397,7 @@
     "full_cycle_articles_completed": 0,
     "current_batch_articles_completed": 0,
     "fully_completed_batches": 0,
-    "current_batch_status": "in_progress_build_unverified",
+    "current_batch_status": "in_progress_build_passed_print_review_and_public_deploy_unverified",
     "translation_faithful_completed": 80,
     "source_individually_checked": 80,
     "philological_review_completed": 0,
@@ -497,15 +505,16 @@
       "js_module_path": "lexicons/lsj-final-batch-0001.js",
       "js_module_blob_sha": "74367a86390c5f45c00a19ec459ad0c2c2f2a58e",
       "checked_for_correct_source_orig_ids": 80,
-      "compilation_test": "not_run",
-      "javascript_runtime_test": "Validação estática dos 11 pares novos; 80 pares no total conforme checkpoint; build/runtime global não executados",
+      "compilation_test": "PASSOU: GitHub Actions run 39196224032, compilação completa do site e script verify-lsj-index.mjs, 80 cartões",
+      "javascript_runtime_test": "PASSOU: build Node 22, verificações do catálogo LSJ para 80 cartões/linhas",
       "deploy_production": "not_verified",
       "accurate_portuguese_translation_stage": "translation_draft",
       "printed_1940_collation": "not_performed",
       "integrity_sense_and_order": "55 artigos originais consultados nos XML e lemas IDs preservados; integral print collation pending"
     },
     "production_status": "NOT_PUBLISHED_NO_DEPLOY_EVIDENCE",
-    "next_phase": "81: ἄβελλον (n75), tradução de trabalho pendente"
+    "next_phase": "81: ἄβελλον (n75), tradução de trabalho pendente",
+    "last_build_evidence": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39196224032"
   },
   "legacy_source_extraction": {
     "records_existing": 16000,
