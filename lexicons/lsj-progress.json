@@ -7,16 +7,16 @@
   "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
   "total_estimate_provisional": true,
   "batch_size": 1000,
-  "source_records_incorporated": 16000,
+  "source_records_incorporated": 17000,
   "portuguese_articles_translated": 69,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
-  "last_committed_source_batch": "lexicons/lsj-source-batch-0012.xml",
-  "source_batch_commit": "6c0a9bab3d7583190ab6054f26fba186f346190a",
-  "source_batch_blob": "39b3fc3d68f2fb8f7f88495caf95a5c1f6c9b709",
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0013.xml",
+  "source_batch_commit": "ef3c69fb1de9cda90ffe5bf69aaee365bee20e13",
+  "source_batch_blob": "2eb57d217390c3ed8b992e11cf00a871273bd3e4",
   "source_original_repository": "helmadik/LSJLogeion",
-  "source_original_path": "greatscott09.xml",
-  "source_original_blob_sha": "90c8273e07f86eae681e24e9f1ca58d12b99494a",
+  "source_original_path": "greatscott10.xml",
+  "source_original_blob_sha": "4d2586cfc5c32239f027048d12fb40af44e5f742",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
   "last_lemma": "ἀβατόομαι",
@@ -26,7 +26,7 @@
   "next_ordinal": 70,
   "validation": {
     "scope": "55 traduções portuguesas de trabalho ligadas a 55 pares linha/cartão; sem compilação completa, revisão filológica independente ou deploy",
-    "source_count": 16000,
+    "source_count": 17000,
     "translated_draft": 69,
     "source_identity_checked_for_translations": 69,
     "search_cards_prepared": 69,
@@ -339,10 +339,41 @@
       "next_orig_id": "n15847",
       "next_lemma": "ἀρχαιόομαι",
       "verified_by": "blob publicado e relido no GitHub; 2000 artigos com 2000 IDs de origem e 2000 cabeçalhos, sem IDs sobrepostos com lote 0011"
+    },
+    {
+      "batch": 13,
+      "start_ordinal": 16001,
+      "end_ordinal": 17000,
+      "first_lemma": "ἀρχαιόομαι",
+      "last_lemma": "ἀσυντρόχαστος",
+      "commit": "ef3c69fb1de9cda90ffe5bf69aaee365bee20e13",
+      "blob_sha": "2eb57d217390c3ed8b992e11cf00a871273bd3e4",
+      "origin_segments": [
+        {
+          "file": "greatscott09.xml",
+          "source_blob_sha": "90c8273e07f86eae681e24e9f1ca58d12b99494a",
+          "count": 154,
+          "source_entry_ordinals": [
+            1855,
+            2008
+          ]
+        },
+        {
+          "file": "greatscott10.xml",
+          "source_blob_sha": "4d2586cfc5c32239f027048d12fb40af44e5f742",
+          "count": 846,
+          "source_entry_ordinals": [
+            1,
+            846
+          ]
+        }
+      ],
+      "next_orig_id": "n16845",
+      "next_lemma": "ἀσυνύπαρκτος"
     }
   ],
   "source_batch_creation_commit_status": "identified",
-  "source_batch_publication_verified_at_head": "6c0a9bab3d7583190ab6054f26fba186f346190a",
+  "source_batch_publication_verified_at_head": "ef3c69fb1de9cda90ffe5bf69aaee365bee20e13",
   "workflow_mode": "end_to_end_per_article_in_1000_article_batches",
   "full_pipeline": {
     "schema_version": 1,
@@ -600,5 +631,13 @@
       "module_blob": "74367a86390c5f45c00a19ec459ad0c2c2f2a58e",
       "status": "11 Portuguese draft translations, source retained, no print collation or deploy"
     }
-  ]
+  ],
+  "source_extraction_current": {
+    "last_ordinal": 17000,
+    "next_ordinal": 17001,
+    "next_orig_id": "n16845",
+    "next_lemma": "ἀσυνύπαρκτος",
+    "next_file": "greatscott10.xml",
+    "next_file_local_ordinal": 847
+  }
 }
