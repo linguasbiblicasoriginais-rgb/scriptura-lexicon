@@ -265,3 +265,7 @@ Tradução de trabalho de 11 artigos tipográficos completos do XML auxiliar, de
 
 LSJ — VALIDAÇÃO DE COMPILAÇÃO (19/10/2026)
 GitHub Actions LSJ — compilação e validação do índice, run 39196224032, URL https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39196224032, resultado SUCCESS em commit 1a42d152d98fdc5d4d9a04a25cd7b76f09dcd8d0. Etapas aprovadas: sintaxe JS, compilação estática integral com Node 22, scripts/verify-lsj-index.mjs para 80 pares LSJ e repositório versionado sem mudanças. Esta evidência permite contar 80 cartões compilados, mas não comprova colação individual com Oxford 1940 nem deploy público; os 80 continuam traduções de trabalho e o lote completo 1000 permanece inconcluso.
+
+
+CICLO LSJ 0001 — CONTINUAÇÃO ORDINAIS 81–100 (19/10/2026)
+Traduções portuguesas de trabalho de 20 artigos tipográficos, de ἄβελλον (n75) a ἀβιωτοποιός (n94), com registros homógrafos ἄβιος A/B preservados separadamente e glosas secundárias internas sem contagem inflada. Novo módulo lexicons/lsj-final-batch-0001-0081-0100.js; 20 pares HTML de linha/cartão; incorporado ao lexicon-modules.json após os módulos LSJ existentes. Referência original: lexicons/lsj-source-batch-0001.xml, orig_ids n75..n94. Acumulado proposto: 100/1000 traduções de trabalho; 17000 originais armazenados, NÃO 17000 traduzidos. Revisão independente contra Oxford 1940 e disponibilização pública NÃO atestadas. Status do build a registrar após GitHub Actions. Próximo artigo 101: ἀβίωτος (n95). Lote permanece INCOMPLETO.

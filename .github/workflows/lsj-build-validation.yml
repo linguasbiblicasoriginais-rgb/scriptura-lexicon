@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   compile:
-    name: Validar sintaxe, compilar site e verificar 80 cartões LSJ
+    name: Validar sintaxe, compilar site e verificar cartões LSJ
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
