@@ -1,3 +1,7 @@
+## LSJ — lote documental 0014 publicado (19/10/2026)
+
+Publicado o arquivo `lexicons/lsj-source-batch-0014.xml`, com 1.000 artigos originais, ordinais 17.001–18.000, de ἀσυνύπαρκτος (`n16845`) a αὐτοξενεῖν (`n17839`). Próximo artigo original: αὐτόξεστος (`n17840`), ordinal 18.001. Commit `c6ab8c3d58a6f39b0f2712d6f73ebf1d7d3ecb1d`; blob `32d98705af56455e868695829a9e9003efa1b431`. Fonte: LSJLogeion `greatscott10.xml` (blob `4d2586cfc5c32239f027048d12fb40af44e5f742`), artigos locais 847–1846, atribuição Perseus/Tufts, Gregory Crane e Helma Dik; licença declarada CC BY-SA 4.0. Contagem Fonte acumulada verificada: 18.000. Traduções portuguesas de trabalho: 100; revisões filológicas integrais: 0; deploy público confirmado: 0. Cursor tradutório: 101 (ἀβίωτος, `n95`). O checkpoint JSON ainda requer atualização, pendente por bloqueio técnico da operação de escrita. Sem colação integral com o impresso de 1940 nem os portais. Denominador Furman 116.854 permanece provisório.
+
 ## LSJ — lote integral 0001 em andamento: 55/1.000 traduções de trabalho (18/10/2026)
 
 Acrescentados **21 artigos** (ordinais 35–55, de **ἀάω** a **ἀβαμβάκευτος**), perfazendo **55 traduções de trabalho, 55 search-rows e 55 entry-cards** no módulo `lexicons/lsj-final-batch-0001.js`. Código executado isoladamente: 55 identificadores únicos, com correspondência linha/cartão. O artigo extenso ἀάω inclui os dois sentidos principais, formas verbais, leituras divergentes e referências.
