@@ -1,3 +1,7 @@
+## LSJ — Fonte 0019 (19/10/2026)
+
+Publicado e verificado o lote 0019: 1.000 artigos originais, ordinais 22.001–23.000. Total documental: 23.000; traduções portuguesas de trabalho: 300; revisões integrais: 0; deploy público confirmado: 0. Próximo artigo da fonte: γραοτρεφής (n22789). O checkpoint JSON requer reconciliação.
+
 ## LSJ — Fonte 0018 publicada (19/10/2026)
 
 Na branch `chat-gpt-lsj`, o arquivo `lexicons/lsj-source-batch-0018.xml` contém **1.000 artigos originais** (ordinais **21.001–22.000**), de **βράζω** (`n20803`) a **γελίκη** (`n21793`). Próximo: **Γελλώ** (`n21794`), ordinal **22.001**, `greatscott14.xml` local 442. Fontes LSJLogeion: `greatscott13.xml` blob `fba3d7380442fa580698846924a3e76f62001c20` (559 artigos) e `greatscott14.xml` blob `d30c9a82ac5302239c77f1e345087aca2aad9403` (441 artigos). Créditos Perseus Digital Library/Tufts, Gregory Crane, Helma Dik; licença declarada CC BY-SA 4.0. Commit-fonte `7c9e3a77df4787bee5bfa5b960a3a2e4f2e48b14`; blob `2ba31c90badf1fe3a5155b997d8b7c56d511ed3f`.
