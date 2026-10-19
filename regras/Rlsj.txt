@@ -1,3 +1,13 @@
+LSJ — LOTE 007, 200 ARTIGOS (19/10/2026)
+
+Lote 007: artigos ordinais 901–1100, de ἀγριόρροδον (n891) a ἀγωγεύς (n1086). Originais reais em lexicons/lsj-source-batch-0001.xml (ordinais 901–1000) e lexicons/lsj-source-batch-0002.xml (1001–1100). Nove módulos lexicons/lsj-final-batch-0007-*.js gravados exclusivamente em chat-gpt-lsj, com 200 linhas de busca e cartões, 200 IDs originais únicos e na ordem correta, 200 seções de tradução portuguesa de trabalho e 200 originais TEI integrais para revisão. O artigo ἄγω (n1083, ordinal 1097) é extenso, com 29 divisões e grande número de referências: o português atualmente é um RESUMO SEMÂNTICO, não tradução completa de todas as acepções.
+
+Verificação GitHub Actions https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39319176199: SUCCESS; EXTRACTION LSJ 1100 rowMatches, 1100 cardMatches, 1100 uniqueCardIDs, catálogo 1100 LSJ e zero colisões, LSJ_BUILD_CHECK_OK expected=1100 checked=1100. O run anterior 39319067611 falhou por checkpoint temporariamente em 900 enquanto o manifesto já continha 1100; sincronização foi corrigida e o run seguinte passou. O número de entradas «incorporadas e compiladas» é 1100/116854 (0,9413%, total estimado provisório), faltando 115754. Colação integral independente da edição Oxford impressa e publicação em produção não foram comprovadas, e a compilação não equivale a tradução filológica completa.
+
+Próximo lote 008: ordinais 1101–1300, iniciar ἀγωγή (orig_id n1087), com conferência de HEAD remoto, fonte, manifesto e checkpoint. Respeitar original e rótulos Fonte/Tradução/Revisão/Publicação separados, preservar homógrafos, variantes, registros adicionais, IDs e referências; nenhuma alteração na main nem merge.
+
+---
+
 LSJ — LOTE 006 CONCLUÍDO TECNICAMENTE (19/10/2026)
 
 Artigos 701–900, de ἁγνάκορος (n692a) até ἀγριορίγανος (n890), em nove módulos lexicons/lsj-final-batch-0006-*.js na branch chat-gpt-lsj. Foram integradas 200 traduções portuguesas de trabalho com seus 200 cartões e linhas de busca, IDs únicos, ordinais em ordem da fonte, originais TEI integrais preservados nos cartões e registro no manifesto. O CI https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39313102714 terminou SUCCESS: 900 cartões, 900 linhas, 900 IDs únicos, 0 colisões, LSJ_BUILD_CHECK_OK expected=900 checked=900. A falha anterior 39312964532 decorreu apenas da concorrência entre o manifesto já com 900 artigos e o checkpoint temporariamente com 800; no commit validado os dois coincidem.
