@@ -1,3 +1,13 @@
+LSJ — LOTE 005: CONCLUSÃO DE INCORPORAÇÃO TÉCNICA (19/10/2026)
+
+Lote tipográfico 005, artigos 501–700 (200), ἀγηνορία [orig_id n497] até ἀγναῖος [n692], escrito exclusivamente na branch chat-gpt-lsj. Os oito arquivos lexicons/lsj-final-batch-0005-*.js contêm tradução portuguesa DE TRABALHO, linha de busca e cartão por artigo, com texto original TEI integral preservado para colação. O manifesto lexicon-modules.json foi atualizado e o checkpoint lexicons/lsj-progress.json aponta para o artigo 701 ἁγνάκορος, orig_id n692a.
+
+Auditoria estrutural da ordem tipográfica: 200 IDs distintos, 200 linhas e 200 cartões em sequência exata, incluindo n574a, n629a, n631a e n644a. Compilação GitHub Actions SUCESSO, execução https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39306959669: EXTRACTION LSJ rowMatches=700, cardMatches=700, uniqueCardIDs=700; catálogo LSJ=700 e collisions=0; LSJ_BUILD_CHECK_OK expected=700 checked=700. Uma primeira execução falhou porque o título da seção dos novos cartões diferia do esperado pelo validador; todos foram corrigidos atomicamente na branch, e a execução acima foi aprovada.
+
+Progresso global verificável 700/116854, 0.5990%, faltam 116154 pelo denominador PROVISÓRIO; esses 700 são traduções portuguesas preliminares com interface compilada. Não atestar colação independente exaustiva de nenhuma entrada com LSJ impresso Oxford 1940, nem deploy público no Netlify: ambas ainda PENDENTES. A integridade do HTML e da compilação não equivale à revisão filológica integral. Na próxima solicitação continuar em lotes de 200, desde 701 até 900, após conferência do HEAD, índice, fonte e checkpoint. Não alterar a branch main ou fazer merge.
+
+---
+
 LSJ — LOTE DE 200 ARTIGOS: REGRA VIGENTE A PARTIR DA SOLICITAÇÃO DE 19/10/2026
 
 Esta regra atualiza a cadência da tradução do produto final para 200 ARTIGOS TIPOGRÁFICOS por lote, por solicitação expressa do usuário; SUBSTITUI, quanto à cadência, a regra histórica de 100, 1000 ou 2000. Regras de fidelidade, crítica textual, proveniência e proibição de inventar permanecem intactas.
