@@ -7,16 +7,16 @@
   "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
   "total_estimate_provisional": true,
   "batch_size": 1000,
-  "source_records_incorporated": 19000,
+  "source_records_incorporated": 22000,
   "portuguese_articles_translated": 100,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
-  "last_committed_source_batch": "lexicons/lsj-source-batch-0013.xml",
-  "source_batch_commit": "ef3c69fb1de9cda90ffe5bf69aaee365bee20e13",
-  "source_batch_blob": "2eb57d217390c3ed8b992e11cf00a871273bd3e4",
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0018.xml",
+  "source_batch_commit": "7c9e3a77df4787bee5bfa5b960a3a2e4f2e48b14",
+  "source_batch_blob": "2ba31c90badf1fe3a5155b997d8b7c56d511ed3f",
   "source_original_repository": "helmadik/LSJLogeion",
-  "source_original_path": "greatscott10.xml",
-  "source_original_blob_sha": "4d2586cfc5c32239f027048d12fb40af44e5f742",
+  "source_original_path": "greatscott14.xml",
+  "source_original_blob_sha": "d30c9a82ac5302239c77f1e345087aca2aad9403",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
   "last_lemma": "ἀβιωτοποιός",
@@ -26,7 +26,7 @@
   "next_ordinal": 101,
   "validation": {
     "scope": "100 traduções de trabalho e 100 pares linha/cartão compilados com sucesso no GitHub Actions; 0 artigos com colação independente integral com Oxford 1940; sem prova de deploy público",
-    "source_count": 19000,
+    "source_count": 22000,
     "translated_draft": 100,
     "source_identity_checked_for_translations": 100,
     "search_cards_prepared": 100,
@@ -382,7 +382,7 @@
     }
   ],
   "source_batch_creation_commit_status": "identified",
-  "source_batch_publication_verified_at_head": "ef3c69fb1de9cda90ffe5bf69aaee365bee20e13",
+  "source_batch_publication_verified_at_head": "7c9e3a77df4787bee5bfa5b960a3a2e4f2e48b14",
   "workflow_mode": "end_to_end_per_article_in_1000_article_batches",
   "full_pipeline": {
     "schema_version": 1,
@@ -674,12 +674,12 @@
     }
   ],
   "source_extraction_current": {
-    "last_ordinal": 19000,
-    "next_ordinal": 19001,
-    "next_orig_id": "n18835",
-    "next_lemma": "ἄχυτος",
-    "next_file": "greatscott11.xml",
-    "next_file_local_ordinal": 837
+    "last_ordinal": 22000,
+    "next_ordinal": 22001,
+    "next_orig_id": "n21794",
+    "next_lemma": "Γελλώ",
+    "next_file": "greatscott14.xml",
+    "next_file_local_ordinal": 442
   },
   "stage_history": [
     {
