@@ -7,7 +7,7 @@
   "total_entries_reference_source": "https://folio2.furman.edu/lsj/ (contador CITE/LSJ.js, não necessariamente idêntico à segmentação Logeion)",
   "total_estimate_provisional": true,
   "batch_size": 1000,
-  "source_records_incorporated": 17000,
+  "source_records_incorporated": 19000,
   "portuguese_articles_translated": 100,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
@@ -26,7 +26,7 @@
   "next_ordinal": 101,
   "validation": {
     "scope": "100 traduções de trabalho e 100 pares linha/cartão compilados com sucesso no GitHub Actions; 0 artigos com colação independente integral com Oxford 1940; sem prova de deploy público",
-    "source_count": 17000,
+    "source_count": 19000,
     "translated_draft": 100,
     "source_identity_checked_for_translations": 100,
     "search_cards_prepared": 100,
@@ -674,12 +674,12 @@
     }
   ],
   "source_extraction_current": {
-    "last_ordinal": 17000,
-    "next_ordinal": 17001,
-    "next_orig_id": "n16845",
-    "next_lemma": "ἀσυνύπαρκτος",
-    "next_file": "greatscott10.xml",
-    "next_file_local_ordinal": 847
+    "last_ordinal": 19000,
+    "next_ordinal": 19001,
+    "next_orig_id": "n18835",
+    "next_lemma": "ἄχυτος",
+    "next_file": "greatscott11.xml",
+    "next_file_local_ordinal": 837
   },
   "stage_history": [
     {
