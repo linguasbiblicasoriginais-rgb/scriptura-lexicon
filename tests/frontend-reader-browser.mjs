@@ -163,6 +163,9 @@ try {
             const row = page.locator('tr.search-row[data-target="' + sample.target + '"]');
             await row.waitFor({state:"visible",timeout:60000});
             assert.equal(await row.isVisible(), true, "Linha não visível após busca: " + source);
+            // A mesma API pagina TODO dicionário, não somente o DGP.
+            assert.ok(await page.locator("#search-results .search-row").count() <= 10,
+                "Mais de dez linhas materializadas para " + dictionary + "/" + source);
 
             await row.focus();
             await page.keyboard.press("Enter");
@@ -322,6 +325,56 @@ try {
         .evaluateAll(nodes => nodes.map(node => node.textContent.length));
     assert.ok(glossLengths.every(n => n <= 125),
         "Os resumos da tabela não podem conter definições extensas");
+
+    // Verificação real de fontes grandes e idiomas diferentes.
+    // Uma consulta de 1 caractere tem contagem EXATA pelo índice invertido,
+    // sem downloads de lookup; só a página demanda até dez linhas.
+    const performancePage = await browser.newPage({viewport:{width:1180,height:850}});
+    const lookupsRequested = [];
+    const cardRequests = [];
+    performancePage.on("request", request => {
+        const u = request.url();
+        if (/\/lexicon-data\/lookup(?:-large)?\//.test(u)) lookupsRequested.push(u);
+        if (/\/lexicon-data\/cards\//.test(u)) cardRequests.push(u);
+    });
+    for (const test of [
+        {dictionary:"grego", source:"DGP", query:"α"},
+        {dictionary:"hebraico", source:"BDB", query:"א"},
+        {dictionary:"aramaico", source:"JASTROW", query:"א"}
+    ]) {
+        await performancePage.goto(url+"#"+test.dictionary,{waitUntil:"domcontentloaded",timeout:180000});
+        await performancePage.waitForFunction(() => window.ScripturaLexiconSearch?.isReady,
+            null,{timeout:30000});
+        lookupsRequested.length=0;
+        cardRequests.length=0;
+        await performancePage.locator("#source-filter").evaluate((node,source)=>{
+            node.value=source;
+            node.dispatchEvent(new Event("change",{bubbles:true}));
+        },test.source);
+        await performancePage.locator("#search-input").fill(test.query);
+        await performancePage.waitForFunction(() => {
+            const total=Number((document.getElementById("search-count")?.textContent || "").replace(/[^0-9]/g,""));
+            return total>10 && document.querySelectorAll("#search-results .search-row").length===10;
+        },null,{timeout:120000});
+        const initialCount=await performancePage.locator("#search-count").textContent();
+        const rows=await performancePage.locator("#search-results .search-row").evaluateAll(nodes=>
+            nodes.map(node=>node.dataset.source));
+        assert.ok(rows.every(source=>source===test.source),
+            "Fonte indevida na página: "+test.dictionary+"/"+test.source);
+        assert.equal(lookupsRequested.length,0,
+            "A busca de termo curto não pode baixar verbetes em lookup: "+test.source);
+        assert.equal(cardRequests.length,0,
+            "A pesquisa não deve carregar cartões completos: "+test.source);
+        await performancePage.locator('#search-pagination button[aria-label="Próxima página"]').click();
+        await performancePage.waitForFunction(() =>
+            document.querySelector('#search-pagination [aria-current="page"]')?.textContent==="2");
+        assert.equal(await performancePage.locator("#search-results .search-row").count(),10);
+        assert.equal(await performancePage.locator("#search-count").textContent(),initialCount);
+        assert.equal(cardRequests.length,0,"Paginar não pode buscar cartões: "+test.source);
+        report.push({fastIndex:test.source,language:test.dictionary,
+            total:initialCount,lookupRequests:lookupsRequested.length,cards:cardRequests.length});
+    }
+    await performancePage.close();
 
     // IDs legados colidentes: ambas as ocorrências são recuperáveis
     // individualmente, preservando o ID original do verbete.

@@ -24,7 +24,7 @@ for (const file of modules) {
 }
 const output = path.join(root, "lexicon-data");
 fs.rmSync(output, {recursive: true, force: true});
-for (const dir of ["grams", "lookup", "meta", "cards"]) {
+for (const dir of ["grams", "lookup", "lookup-large", "meta", "cards"]) {
     fs.mkdirSync(path.join(output, dir), {recursive: true});
 }
 function emit(file, value) {
@@ -302,6 +302,9 @@ function compactRow(record) {
     return opening + cells[0] + cells[1] + glossCell + cells[3] + "</tr>";
 }
 const chunkSize = 128;
+const lookupLargeSize = 2048;
+const lookupLarge = [];
+const lemmaPostings = new Map();
 const runs = [];
 const counts = {};
 const samples = {};
@@ -337,6 +340,28 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
         // Busca apenas com dados compactos. A definição permanece nas
         // partes do índice de verificação, jamais nas linhas HTML da página.
         lookup.push([record.search, lemma]);
+        lookupLarge.push([record.search, lemma]);
+        // Ranking preservado para termos curtos, sem carregar 40 mil
+        // definições nem os arquivos lookup. Apenas os lemas são indexados.
+        const lemmaPoints = Array.from(lemma);
+        const lemmaGrams = new Set();
+        for (let start = 0; start < lemmaPoints.length; start++) {
+            for (let size = 1; size <= 3 && start + size <= lemmaPoints.length; size++) {
+                lemmaGrams.add(lemmaPoints.slice(start, start + size).join(""));
+            }
+        }
+        for (const gram of lemmaGrams) {
+            let ranks = lemmaPostings.get(gram);
+            if (!ranks) lemmaPostings.set(gram, ranks = [[],[],[]]);
+            ranks[0].push(id);                         // contém no lema
+            if (lemma.startsWith(gram)) ranks[1].push(id); // prefixo
+            if (lemma === gram) ranks[2].push(id);        // lema exato
+        }
+        if (lookupLarge.length === lookupLargeSize) {
+            emit("lookup-large/" + String(Math.floor(id / lookupLargeSize)).padStart(4,"0") + ".json",
+                lookupLarge);
+            lookupLarge.length = 0;
+        }
         meta.push({id, target:record.target, dictionary:record.dictionary,
             source:record.source, row:compactRow(record)});
         cards.push({id, target:record.target, html:record.card});
@@ -360,16 +385,24 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
     emit("meta/" + block, meta);
     emit("cards/" + block, cards);
 }
-const buckets = Array.from({length:256},()=>({}));
+if (lookupLarge.length) {
+    emit("lookup-large/" +
+        String(Math.floor((records.length - 1) / lookupLargeSize)).padStart(4,"0") + ".json",
+        lookupLarge);
+}
+const buckets = Array.from({length:256},()=>({__lemmaRank:{}}));
 for (const [gram,list] of postings) {
     buckets[postingKey(gram)][gram] = list;
+}
+for (const [gram,ranked] of lemmaPostings) {
+    buckets[postingKey(gram)].__lemmaRank[gram] = ranked;
 }
 for (let i = 0; i < buckets.length; i++) {
     emit("grams/" + String(i).padStart(3, "0") + ".json", buckets[i]);
 }
 emit("catalog.json", {
-    version: 3, chunkSize, total: records.length, counts, samples, runs, sourceTerms,
+    version: 4, chunkSize, lookupLargeSize, total: records.length, counts, samples, runs, sourceTerms,
     duplicateSamples:duplicateSamples.slice(0,8)
 });
 console.log(JSON.stringify({status:"OK",modules:modules.length,
-    records:records.length,collisions:collisions.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize)}));
+    records:records.length,collisions:collisions.length,byDictionary:counts,grams:postings.size,chunks:Math.ceil(records.length/chunkSize),lookupLargeChunks:Math.ceil(records.length/lookupLargeSize)}));
