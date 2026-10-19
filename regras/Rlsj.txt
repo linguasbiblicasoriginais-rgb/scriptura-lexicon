@@ -273,3 +273,7 @@ Traduções portuguesas de trabalho de 20 artigos tipográficos, de ἄβελλ�
 
 LSJ — VALIDAÇÃO DO BUILD DE 100 ARTIGOS (19/10/2026)
 GitHub Actions: https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39198340887, run 39198340887, commit aba28e05d8d0ad571e1bc848b08b3bad407fa5f4, conclusão SUCCESS. Sintaxe de módulos LSJ OK; compilação integral em Node 22 OK; verificador scripts/verify-lsj-index.mjs OK, com 100 cartões LSJ e índices correspondentes. O resultado é validação da compilação e da integridade estrutural dos cartões — não comprova revisão filológica independente artigo por artigo nem deployment em produção. Contagens: 100 traduções de trabalho/1000 do lote, 17000 fontes XML, 0 colações impressas integrais e 0 publicações no site público verificadas. Próximo ordinal 101, ἀβίωτος, n95.
+
+
+LSJ — NORMALIZAÇÃO DO CURSOR (19/10/2026)
+A referência superior de retomada em lexicons/lsj-progress.json foi sincronizada ao cursor canônico full_pipeline, para evitar usar um valor obsoleto depois do artigo 100. Último lema efetivamente traduzido em caráter de trabalho: ἀβιωτοποιός (n94); próximo: ἀβίωτος (n95), ordinal global 101. A extração original 17000 permanece em source_extraction_current, independente do cursor das traduções. Revisão impressa e deploy público continuam pendentes.

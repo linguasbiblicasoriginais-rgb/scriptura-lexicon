@@ -19,11 +19,11 @@
   "source_original_blob_sha": "4d2586cfc5c32239f027048d12fb40af44e5f742",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
-  "last_lemma": "ἀβατόομαι",
-  "next_lemma": "ἄβατος",
-  "next_orig_id": "n65",
+  "last_lemma": "ἀβιωτοποιός",
+  "next_lemma": "ἀβίωτος",
+  "next_orig_id": "n95",
   "next_source_file": "lexicons/lsj-source-batch-0001.xml",
-  "next_ordinal": 70,
+  "next_ordinal": 101,
   "validation": {
     "scope": "100 traduções de trabalho e 100 pares linha/cartão compilados com sucesso no GitHub Actions; 0 artigos com colação independente integral com Oxford 1940; sem prova de deploy público",
     "source_count": 17000,
@@ -738,5 +738,6 @@
       "site_deploy_verified": false,
       "build_evidence": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39198340887"
     }
-  ]
+  ],
+  "last_committed_translation_batch": "lexicons/lsj-final-batch-0001-0081-0100.js"
 }
