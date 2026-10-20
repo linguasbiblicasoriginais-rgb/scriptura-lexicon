@@ -363,3 +363,6 @@ Na branch `chat-gpt-lsj` foi incorporado ao manifesto o lote documental `lexicon
 ### LSJ — incorporação documental 8.001–9.000 (20/10/2026)
 
 Foram adicionados na branch `chat-gpt-lsj` 1.000 artigos da primeira metade de `lexicons/lsj-source-batch-0009.xml`, do lema **ἄνδηρον** ao lema **ἀνθρωπεύομαι**, em 40 módulos de consulta. Foram redigidas 12 glosas provisórias, sem declaração de tradução integral; os demais conservam marcação explícita de tradução pendente. Os dados TEI originais são preservados nos cartões. A incorporação no manifesto alcançou **9.000 / 116.854 artigos estimados**; revisão filológica independente e publicação pública devem ser verificadas separadamente. Próximo artigo: **ἀνθρωπήϊος** (ordinal 9.001).
+
+
+**Validação CI do LSJ em 20/10/2026:** o [workflow 39487850719](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39487850719) confirmou 9.000 cartões LSJ, 9.000 linhas de busca, 9.000 identificadores únicos e nenhuma colisão. Publicação pública, revisão filológica integral e traduções completas não foram comprovadas.
