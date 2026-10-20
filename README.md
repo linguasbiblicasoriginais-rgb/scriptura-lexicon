@@ -342,3 +342,8 @@ As contribuições devem respeitar independência das fontes, atribuição bibli
 ---
 
 **Scriptura Lexicon** — a tradição lexicográfica preservada em suas diferenças, organizada para consulta e investigação em língua portuguesa.
+
+
+### LSJ — atualização documental de 20/10/2026 (ordinais 6001–7000)
+
+A branch `chat-gpt-lsj` recebeu 1.000 artigos adicionais no manifesto da interface (40 módulos de 25), vinculados ao TEI de `lexicons/lsj-source-batch-0007.xml`. Os lemas vão de **ἀμφικεύθω** a **ἀνακωχή**. Há 12 glosas portuguesas estritamente preliminares nos primeiros 12 artigos; as outras 988 entradas da rodada conservam indicação de tradução pendente. Os cartões preservam o TEI original e as remissões, sem se apresentarem como tradução integral. Total manifestado: 7.000 artigos; nenhuma tradução integral homologada. Último build comprovado anteriormente: 3.300 cartões; a verificação da nova compilação e do deploy público é independente e não foi presumida. Próximo lema: **ἀναλάζομαι** (ordinal 7.001).
