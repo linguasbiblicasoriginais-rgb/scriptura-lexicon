@@ -164,5 +164,18 @@ window.ScripturaSourceCatalog = Object.freeze({
         coverColor: "#292e3e",
         note: "Cada volume tem sua própria edição, paginação e ISBN. A data de 2011 em reimpressões não substitui a data original de cada volume.",
         reference: "regras/Rfontes-consulta.txt"
+    },
+    "LSJ": {
+        title: "A Greek-English Lexicon",
+        authors: "Henry George Liddell; Robert Scott; revisão de Henry Stuart Jones e Roderick McKenzie",
+        publisher: "Clarendon Press, Oxford",
+        date: "1940 (nona edição de referência)",
+        edition: "A Greek-English Lexicon, nona edição; transcrição auxiliar Perseus/Tufts–LSJLogeion",
+        isbn: null,
+        pages: null,
+        coverUrl: null,
+        coverColor: "#4e536d",
+        note: "Os artigos portugueses estão sendo traduzidos progressivamente da transcrição TEI auxiliar LSJLogeion/Perseus. O exemplar impresso de Oxford (1940) permanece por cotejar integralmente. O total de fonte não é o total de artigos publicados.",
+        reference: "regras/Rlsj.txt"
     }
 });
