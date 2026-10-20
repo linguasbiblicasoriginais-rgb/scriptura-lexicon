@@ -1,3 +1,19 @@
+LSJ — RODADA DE 1.000 ARTIGOS (20/10/2026), SUBLOTES 014–018 — INTEGRAÇÃO E COMPILAÇÃO CONFIRMADAS
+
+Estado inicial: branch exclusiva chat-gpt-lsj, HEAD 2c48778854431b4feccb1d96d7b02205cbbdc7e9, 2300 artigos LSJ compilados. Intervalo efetivo: artigos tipográficos 2301–3300, inclusivos, 1000 artigos novos. Seleção por ordem real de elementos div2, não pelo incremento aritmético de orig_id. Origem: últimos 700 artigos de lsj-source-batch-0003.xml (2301–3000) e primeiros 300 de lsj-source-batch-0004.xml (3001–3300). Primeiro αἰδόφρων (n2261), último ἀκμητεί (n3246), próximo ἄκμητος (n3247), ordinal 3301.
+Os artigos incluem remissões, inserções alfanuméricas e homógrafos que devem permanecer separados (p.ex. ἀκακία A/B, αἶα anteriores; e ἀκή A/B/C, ἀκήριος A/B). Cinco sublotes atômicos de 200, oito módulos de 25 cada; 40 módulos novos adicionados a lexicon-modules.json:
+0014: ordinais 2301–2500, αἰδόφρων → αἱμόδωρον; commit 8e390259f1ab37a30c8b1b06fa67fc108fa6cecc; fonte lexicons/lsj-source-batch-0003.xml
+0015: ordinais 2501–2700, αἱμοειδής → αἱρησιτείχης; commit 44f3786a3c9abfc0a0517287815a30110d9bff3a; fonte lexicons/lsj-source-batch-0003.xml
+0016: ordinais 2701–2900, αἴρινος → ἄκαιρος; commit 772a8a8fe1eb3f282581fd1c3cffb0ae84756220; fonte lexicons/lsj-source-batch-0003.xml
+0017: ordinais 2901–3100, ἀκακαλίς → ἄκαυτος; commit 5dafe356f6174a3b52cd650ee16e7be5bbbe4c74; fonte lexicons/lsj-source-batch-0003.xml + lexicons/lsj-source-batch-0004.xml
+0018: ordinais 3101–3300, ἀκάχημαι → ἀκμητεί; commit 3ab8a98f3c848b038d080524df3adc2b7fca7d56; fonte lexicons/lsj-source-batch-0004.xml
+Verificação independente após os commits: relidos os 40 módulos na branch remota, confrontadas as cópias TEI do HTML decodificado com os respectivos elementos div2 no XML canônico. Resultados por sublote: 200/200 em cada um dos 5; total 1000/1000 sem divergências; 1000 search-row, 1000 entry-card, 1000 ordinais únicos e 1000 orig_ids únicos. A identidade textual da fonte não comprova tradução integral.
+Os cinco workflows iniciais GitHub Actions falharam no teste scripts/verify-lsj-index.mjs por incompatibilidade do rótulo textual; erro concreto: 'LSJ: cartão sem seção de tradução entry-lsj-n2261', embora a compilação estática estivesse concluída. A seção correta nos artigos novos é 'Síntese portuguesa preliminar incompleta'; não a renomear como tradução integral. No commit 7ad4eb4b47e9a13efe6773aa528f6c392ba260a2, o verificador passou a aceitar expressamente esse título como conteúdo português de trabalho, além dos títulos legados. GitHub Actions https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39368297943: SUCCESS, com EXTRACTION LSJ rowMatches=3300, cardMatches=3300, uniqueCardIDs=3300, catálogo grego.LSJ=3300, collisions=0, LSJ_BUILD_CHECK_OK expected=3300 checked=3300.
+Estado global: 3300 / 116854 (2.8240%) sínteses portuguesas preliminares incompletas compiladas; 113554 artigos ainda não incorporados ao produto (denominador provisório). Fonte: 23000 XML canônicos documentados; não são tradução. Não houve cotejo filológico integral da edição impressa Oxford 1940, revisão independente de todas as acepções e referências ou comprovação de deploy público. Homologadas integralmente: 0 comprovadas.
+Próximo lote 019: artigos 3301–3500, primeiro ἄκμητος (n3247), origem lsj-source-batch-0004.xml. Não houve merge, PR, alteração na main ou criação de branches.
+
+---
+
 LSJ — LOTE 013, 200 ARTIGOS (20/10/2026) — INTEGRAÇÃO E BUILD CONFIRMADOS
 
 Branch exclusiva: chat-gpt-lsj. HEAD inicial: f3228b3cd9695542deea12db63f244f60ae66deb. Commit de incorporação: 80be534542a9eab3b211755ccad49a0d2bbe5183 (8 módulos, manifesto e checkpoint transitório). Não houve escrita em main, Pull Request, merge ou branch nova.
