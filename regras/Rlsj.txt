@@ -1,3 +1,24 @@
+LSJ — LOTE 009, 200 ARTIGOS (19/10/2026) — INTEGRAÇÃO E COMPILAÇÃO CONFIRMADAS
+
+Branch exclusiva: chat-gpt-lsj. HEAD inicial 37b2f45ef6ce15df104ed5ca6fd2e982f22c91db. Commit de incorporação 05dae49e4cfd59f77112296fbb4f325b39da4ec3 (8 módulos + manifesto + checkpoint provisório; nenhuma escrita na main, PR ou merge).
+Intervalo tipográfico: ordinais 1301–1500. Primeiro lema ἀδιάκριτος (orig_id n1284); último ἀδρανίζομαι (orig_id n1477). Próximo ordinal 1501: Ἀδράστεια (n1478). Fonte canônica: lexicons/lsj-source-batch-0002.xml; 200 artigos lidos em sequência real, 200 orig_ids distintos; inserções alfanuméricas da fonte preservadas.
+Módulos:
+lexicons/lsj-final-batch-0009-1301-1325.js
+lexicons/lsj-final-batch-0009-1326-1350.js
+lexicons/lsj-final-batch-0009-1351-1375.js
+lexicons/lsj-final-batch-0009-1376-1400.js
+lexicons/lsj-final-batch-0009-1401-1425.js
+lexicons/lsj-final-batch-0009-1426-1450.js
+lexicons/lsj-final-batch-0009-1451-1475.js
+lexicons/lsj-final-batch-0009-1476-1500.js
+Todos registrados no lexicon-modules.json. Cada módulo contém exatamente 25 search-row, 25 entry-card e 25 cópias TEI integrais, total de 200 IDs e ordinais distintos, compatíveis com o frontend.
+As expressões portuguesas são SÍNTESES LEXICOGRÁFICAS PRELIMINARES INCOMPLETAS: não são traduções íntegras nem revisadas palavra por palavra. Nos cartões, o original TEI é preservado para cotejo; significados acessórios, variantes, exemplos, citações, abreviaturas e argumentos permanecem no original até tradução crítica completa. Nenhuma revisão independente integral da edição Oxford 1940 foi feita. Nenhum deploy de produção foi confirmado.
+Evidência de build: https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39360948125 — SUCCESS no commit 05dae49e4cfd59f77112296fbb4f325b39da4ec3; Node.js 22, sintaxe OK, compilação estática OK, EXTRACTION LSJ rowMatches=1500, cardMatches=1500, uniqueCardIDs=1500; catálogo LSJ=1500 e collisions=0; LSJ_BUILD_CHECK_OK expected=1500 checked=1500. Validação estrutural não prova fidelidade filológica.
+Progresso: 1.500 / 116.854 (1,2837%, estimativa provisória); restam 115.354. Lote novo: 200 preparações portuguesas de trabalho, 200 cartões/linhas compilados; 0 artigos integralmente homologados e 0 publicações públicas comprovadas.
+Camada Fonte separada: 23.000 registros documentais da fonte foram identificados até lsj-source-batch-0019.xml, cujo conteúdo foi conferido com 1.000 div2 orig_ids distintos (22001–23000). Corrigida defasagem de 22.000 no checkpoint, sem confundir dados de Fonte e Tradução. A camada Fonte é responsabilidade de extração distinta e seu cursor não deve ser usado como cursor de tradução. Próximo lote tradutório 010: ordinais 1501–1700.
+
+---
+
 LSJ — LOTE 008: CONSOLIDAÇÃO TÉCNICA (19/10/2026)
 
 Lote 008: artigos ordinais 1101–1300, 200 artigos de trabalho de ἀγωγή (orig_id n1087) a ἀδιακρισία (n1283), incorporados exclusivamente na branch chat-gpt-lsj. Arquivos lexicons/lsj-final-batch-0008-*.js: oito módulos de 25 verbetes, cada um com tradução portuguesa RESUMIDA DE TRABALHO, original TEI integral, linha search-row, entry-card e ID persistente. O artigo ᾍδης está, por decisão de ordenação da fonte, entre ἀδήριτος e ἁδήσω, com orig_id n2244 (não renumerar para n1256). Ordem comparada à fonte lexicons/lsj-source-batch-0002.xml: 200 IDs distintos, 200 cartões/linhas e ordinais em sequência. A compilação estática e a auditoria automática foram APROVADAS em https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39341244197: EXTRACTION LSJ rowMatches=1300, cardMatches=1300, uniqueCardIDs=1300; catálogo LSJ records=1300, collisions=0; LSJ_BUILD_CHECK_OK expected=1300 checked=1300.

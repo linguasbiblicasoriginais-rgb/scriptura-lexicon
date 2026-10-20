@@ -1,3 +1,9 @@
+## LSJ — lote 009 incorporado e compilado (19/10/2026)
+
+Na branch `chat-gpt-lsj`, o lote 009 acrescentou **200 cartões LSJ com sínteses portuguesas preliminares e TEI original integral**, ordinais **1301–1500**, de **ἀδιάκριτος** (`n1284`) a **ἀδρανίζομαι** (`n1477`). O commit de incorporação é [05dae49e](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/05dae49e4cfd59f77112296fbb4f325b39da4ec3). A compilação [GitHub Actions 39360948125](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39360948125) terminou **SUCCESS**, com **1.500 linhas, 1.500 cartões, 1.500 IDs únicos e zero colisões**; `LSJ_BUILD_CHECK_OK expected=1500 checked=1500`. A próxima entrada é **Ἀδράστεια** (`n1478`), ordinal 1501.
+
+**Progresso do produto traduzido de trabalho:** **1.500 / 116.854 (1,2837%)**, restam **115.354** (denominador provisório). Essas são sínteses incompletas, não traduções críticas integrais homologadas; cotejo Oxford 1940 e publicação pública continuam **não verificados**. **Camada Fonte independente:** foram confirmados 23.000 artigos XML, inclusive o lote 0019 com 1.000 entradas; o checkpoint anterior ainda marcava 22.000 e foi reconciliado. Arquivos e métodos no `regras/Rlsj.txt`.
+
 ## LSJ — Fonte 0019 (19/10/2026)
 
 Publicado e verificado o lote 0019: 1.000 artigos originais, ordinais 22.001–23.000. Total documental: 23.000; traduções portuguesas de trabalho: 300; revisões integrais: 0; deploy público confirmado: 0. Próximo artigo da fonte: γραοτρεφής (n22789). O checkpoint JSON requer reconciliação.
