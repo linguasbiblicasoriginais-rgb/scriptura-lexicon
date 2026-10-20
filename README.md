@@ -347,3 +347,6 @@ As contribuições devem respeitar independência das fontes, atribuição bibli
 ### LSJ — atualização documental de 20/10/2026 (ordinais 6001–7000)
 
 A branch `chat-gpt-lsj` recebeu 1.000 artigos adicionais no manifesto da interface (40 módulos de 25), vinculados ao TEI de `lexicons/lsj-source-batch-0007.xml`. Os lemas vão de **ἀμφικεύθω** a **ἀνακωχή**. Há 12 glosas portuguesas estritamente preliminares nos primeiros 12 artigos; as outras 988 entradas da rodada conservam indicação de tradução pendente. Os cartões preservam o TEI original e as remissões, sem se apresentarem como tradução integral. Total manifestado: 7.000 artigos; nenhuma tradução integral homologada. Último build comprovado anteriormente: 3.300 cartões; a verificação da nova compilação e do deploy público é independente e não foi presumida. Próximo lema: **ἀναλάζομαι** (ordinal 7.001).
+
+
+**Validação do LSJ (20/10/2026):** [GitHub Actions 39482289169](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39482289169) concluiu com sucesso a compilação e as verificações de índice e cartões: 7.000 artigos LSJ, 7.000 IDs únicos e zero colisões. Este resultado não comprova tradução integral nem publicação do site.
