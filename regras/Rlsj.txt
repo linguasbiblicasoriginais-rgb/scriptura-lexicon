@@ -1,3 +1,25 @@
+LSJ — LOTE 012, 200 ARTIGOS (20/10/2026) — COMPILAÇÃO TÉCNICA CONFIRMADA
+
+Branch de escrita: chat-gpt-lsj. HEAD anterior c09edf785108a7fc6e754d5f83ce0535318dfd2b; commit dos módulos cfeeba7abaa33ddc985a319e6dd68927efaec44f. Sem alteração na main, merge, PR ou criação de branch.
+Intervalo tipográfico 1901–2100, começando ἀηθία (n1868), terminando ἄθρυπτος (n2064); próximo ἀθρυψία (n2065), ordinal 2101.
+Fontes canônicas contínuas: lsj-source-batch-0002.xml: ordinais 1901–2000, 100 artigos, n1868–n1964; lsj-source-batch-0003.xml: ordinais 2001–2100, 100 artigos, n1965–n2064. As inserções suplementares e homógrafos estão preservados, sem derivar a ordem de incremento de orig_id.
+Módulos adicionados ao lexicon-modules.json:
+lexicons/lsj-final-batch-0012-1901-1925.js
+lexicons/lsj-final-batch-0012-1926-1950.js
+lexicons/lsj-final-batch-0012-1951-1975.js
+lexicons/lsj-final-batch-0012-1976-2000.js
+lexicons/lsj-final-batch-0012-2001-2025.js
+lexicons/lsj-final-batch-0012-2026-2050.js
+lexicons/lsj-final-batch-0012-2051-2075.js
+lexicons/lsj-final-batch-0012-2076-2100.js
+Foram verificados remotamente 200 search-row, 200 entry-card, 200 IDs exclusivos e 200 ordinais exclusivos; todos os 200 elementos <details> contêm TEI integral. A releitura e decodificação HTML dos módulos publicados confirmou coincidência exata das 200 fontes com seus div2 originais dos dois XMLs (200/200).
+Camada TRADUÇÃO: 200 SÍNTESES PORTUGUESAS PRELIMINARES INCOMPLETAS. Mantidas remissões e ambiguidades nas sínteses quando cabível; exemplos, citações, variantes e todas as subdivisões permanecem no TEI para cotejo futuro. Artigos extensos, especialmente ἀήρ, ἀθάνατος, ἀθετέω, ἀθρέω e ἀθροίζω, NÃO receberam tradução integral. Nenhuma colação independente de Oxford 1940 ou homologação filológica foi comprovada. Publicação pública e deploy não verificados.
+GitHub Actions https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39364413828: SUCCESS no commit cfeeba7abaa33ddc985a319e6dd68927efaec44f. Validação sintática e compilação estática bem-sucedidas; EXTRACTION LSJ rowMatches=2100 cardMatches=2100 uniqueCardIDs=2100; catálogo LSJ=2100, collisions=0; LSJ_BUILD_CHECK_OK expected=2100 checked=2100. A validação técnica não comprova fidelidade filológica.
+Estado global: 2.100 / 116.854 (1.7971%); faltam 114754. Estimativa do denominador sujeita a determinação definitiva de artigos tipográficos. Fonte documental distinta da tradução: 23.000 artigos TEI/XML. Artigos integralmente homologados: 0 comprovados; deploy público comprovado: 0.
+Próxima rodada: lote 013, ordinais 2101–2300; iniciar ἀθρυψία (n2065), na fonte lsj-source-batch-0003.xml.
+
+---
+
 LSJ — LOTE 011: 200 ARTIGOS (20/10/2026) — INCORPORAÇÃO E COMPILAÇÃO TÉCNICA CONFIRMADAS
 
 Somente branch chat-gpt-lsj; HEAD inicial 148b87cd90fee4c755c96b971e27463d5f835928. Commit de incorporação 3ebfcb42953eb522f29527c82da3bc6fb3279894. Sem escrita na main, novos branches, PR ou merge.
