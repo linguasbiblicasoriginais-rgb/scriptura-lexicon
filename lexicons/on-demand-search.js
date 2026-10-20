@@ -5,7 +5,7 @@
  */
 (function () {
     const root = "lexicon-data/";
-    const blocks = new Map(), lookups = new Map(), gramFiles = new Map(), cardBlocks = new Map();
+    const blocks = new Map(), lookups = new Map(), largeLookups = new Map(), gramFiles = new Map(), cardBlocks = new Map();
     const targetIds = new Map();
     let catalog = null;
     let initialized = false;
@@ -35,7 +35,7 @@
             throw error;
         });
         cache.set(key, request);
-        const limit = cache === blocks ? 16 : cache === lookups ? 24 : cache === gramFiles ? 16 : 12;
+        const limit = cache === blocks ? 16 : cache === lookups ? 24 : cache === largeLookups ? 6 : cache === gramFiles ? 16 : 12;
         while (cache.size > limit) cache.delete(cache.keys().next().value);
         return request;
     }
@@ -57,7 +57,7 @@
     async function posting(gram) {
         const part = hashGram(gram);
         const data = await json("grams/" + pad(part,3) + ".json", gramFiles, part);
-        return data[gram] || [];
+        return {ids:data[gram] || [], lemmaRank:data.__lemmaRank?.[gram] || [[],[],[]]};
     }
     // Localização binária do dicionário e da fonte, sem baixar metadados.
     function inSelectedSource(id, dictionary, source) {
@@ -88,51 +88,81 @@
                 grams.add(chars.slice(n, n + width).join(""));
             }
         }
-        const sets = await Promise.all([...grams].map(posting));
-        if (sets.some(values => !values.length)) return {ids:[], total:0};
-        sets.sort((a, b) => a.length - b.length);
-        const other = sets.slice(1).map(values => new Set(values));
+        const found = await Promise.all([...grams].map(posting));
+        if (found.some(result => !result.ids.length)) return {ids:[], total:0};
+        const sets = found.map(result => result.ids);
+        sets.sort((a,b) => a.length - b.length);
+        const other = sets.slice(1).map(list => new Set(list));
         const candidateIds = sets[0].filter(id => inSelectedSource(id, dictionary, source) &&
-            other.every(group => group.has(id)));
-        const parts = new Map();
-        for (const id of candidateIds) {
-            const part = Math.floor(id / catalog.chunkSize);
-            if (!parts.has(part)) parts.set(part, []);
-            parts.get(part).push(id);
+            other.every(list => list.has(id)));
+        if (!candidateIds.length) return {ids:[], total:0};
+
+        // Gram de 1, 2 ou 3 caracteres corresponde EXATAMENTE a uma
+        // substring. Não existe falso positivo a verificar no texto completo.
+        // Essa via cobre lemas curtos e consultas amplas em todos os idiomas.
+        if (terms.every(term => Array.from(term).length <= 3)) {
+            const gramNames = [...grams];
+            const ranks = new Map(gramNames.map((gram,i)=>[gram,found[i].lemmaRank]));
+            const lemmaIncludes = terms.map(term => new Set(ranks.get(term)?.[0] || []));
+            const oneTerm = terms.length === 1 ? ranks.get(terms[0]) : null;
+            const exact = new Set(oneTerm?.[2] || []);
+            const prefix = new Set(oneTerm?.[1] || []);
+            const ranked = [[],[],[],[],[]];
+            for (const id of candidateIds) {
+                const rank = exact.has(id) ? 0 : prefix.has(id) ? 1 :
+                    lemmaIncludes.every(set => set.has(id)) ? 2 :
+                    lemmaIncludes.some(set => set.has(id)) ? 3 : 4;
+                ranked[rank].push(id);
+            }
+            const ids = ranked.flat();
+            return {ids,total:ids.length};
         }
 
+        // Para termos longos, o cruzamento de gramas ainda pode conter
+        // falsos positivos. Validar o texto normalizado, sem ler nenhum
+        // cartão e sem transportar as linhas HTML das outras páginas.
+        const smallParts = new Set(candidateIds.map(id => Math.floor(id / catalog.chunkSize)));
+        // Consultas genéricas deixavam o DGP abrir centenas de arquivos.
+        // Acima do limiar, usar blocos compactados grandes (~2 mil chaves).
+        const useLarge = smallParts.size > 32;
+        const size = useLarge ? catalog.lookupLargeSize : catalog.chunkSize;
+        const groups = new Map();
+        for (const id of candidateIds) {
+            const part = Math.floor(id / size);
+            if (!groups.has(part)) groups.set(part, []);
+            groups.get(part).push(id);
+        }
         const ranked = [];
-        const groups = [...parts];
-        // Seis requisições concorrentes, somente texto normalizado e lema.
-        for (let i = 0; i < groups.length; i += 6) {
-            const batches = await Promise.all(groups.slice(i, i + 6).map(async ([part, groupIds]) => {
-                const lookup = await json("lookup/" + pad(part, 4) + ".json", lookups, part);
-                const matches = [];
-                for (const id of groupIds) {
-                    const item = lookup[id % catalog.chunkSize];
-                    if (!item || !terms.every(term => item[0].includes(term))) continue;
-                    const lemma = item[1];
-                    const rank = lemma === query ? 0 :
-                        lemma.startsWith(query) ? 1 :
+        const chunks = [...groups];
+        const concurrency = useLarge ? 4 : 6;
+        for (let i=0;i<chunks.length;i+=concurrency) {
+            const batches = await Promise.all(chunks.slice(i,i+concurrency).map(async ([part,ids]) => {
+                const name = (useLarge ? "lookup-large/" : "lookup/") + pad(part,4) + ".json";
+                const data = await json(name,useLarge ? largeLookups : lookups,part);
+                const valid = [];
+                for (const id of ids) {
+                    const pair = data[id % size];
+                    if (!pair || !terms.every(term => pair[0].includes(term))) continue;
+                    const lemma = pair[1];
+                    const rank = lemma === query ? 0 : lemma.startsWith(query) ? 1 :
                         terms.every(term => lemma.includes(term)) ? 2 :
                         terms.some(term => lemma.includes(term)) ? 3 : 4;
-                    matches.push([id, rank]);
+                    valid.push([id,rank]);
                 }
-                return matches;
+                return valid;
             }));
             for (const batch of batches) ranked.push(...batch);
         }
-        // Guardar só identificadores, NÃO objetos com HTML e definições.
-        ranked.sort((a, b) => a[1] - b[1] || a[0] - b[0]);
-        const ids = ranked.map(item => item[0]);
-        return {ids, total:ids.length};
+        ranked.sort((a,b)=>a[1]-b[1]||a[0]-b[0]);
+        const ids=ranked.map(item=>item[0]);
+        return {ids,total:ids.length};
     }
     // Cada troca de página transfere apenas 10 linhas do índice de metadados.
     // Cartões integrais continuam sendo baixados somente quando selecionados.
     async function page(results, pageNumber, perPage = 10) {
         await ready;
         if (!Number.isSafeInteger(pageNumber) || pageNumber < 1 ||
-                !Number.isSafeInteger(perPage) || perPage < 1) {
+                !Number.isSafeInteger(perPage) || perPage < 1 || perPage > 10) {
             throw Error("Página de resultados inválida");
         }
         const offset = (pageNumber - 1) * perPage;
@@ -185,7 +215,7 @@
     const ready = fetch(root + "catalog.json").then(async response => {
         if (!response.ok) throw Error("Catálogo indisponível (HTTP " + response.status + ")");
         catalog = await response.json();
-        if (!catalog || !catalog.chunkSize || catalog.version !== 3) {
+        if (!catalog || !catalog.chunkSize || catalog.version !== 4) {
             throw Error("Catálogo incompatível");
         }
         const lexicons = window.ScripturaLexicons ||= {};

@@ -1,3 +1,69 @@
+## LSJ — lote 009 incorporado e compilado (19/10/2026)
+
+Na branch `chat-gpt-lsj`, o lote 009 acrescentou **200 cartões LSJ com sínteses portuguesas preliminares e TEI original integral**, ordinais **1301–1500**, de **ἀδιάκριτος** (`n1284`) a **ἀδρανίζομαι** (`n1477`). O commit de incorporação é [05dae49e](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/05dae49e4cfd59f77112296fbb4f325b39da4ec3). A compilação [GitHub Actions 39360948125](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39360948125) terminou **SUCCESS**, com **1.500 linhas, 1.500 cartões, 1.500 IDs únicos e zero colisões**; `LSJ_BUILD_CHECK_OK expected=1500 checked=1500`. A próxima entrada é **Ἀδράστεια** (`n1478`), ordinal 1501.
+
+**Progresso do produto traduzido de trabalho:** **1.500 / 116.854 (1,2837%)**, restam **115.354** (denominador provisório). Essas são sínteses incompletas, não traduções críticas integrais homologadas; cotejo Oxford 1940 e publicação pública continuam **não verificados**. **Camada Fonte independente:** foram confirmados 23.000 artigos XML, inclusive o lote 0019 com 1.000 entradas; o checkpoint anterior ainda marcava 22.000 e foi reconciliado. Arquivos e métodos no `regras/Rlsj.txt`.
+
+## LSJ — Fonte 0019 (19/10/2026)
+
+Publicado e verificado o lote 0019: 1.000 artigos originais, ordinais 22.001–23.000. Total documental: 23.000; traduções portuguesas de trabalho: 300; revisões integrais: 0; deploy público confirmado: 0. Próximo artigo da fonte: γραοτρεφής (n22789). O checkpoint JSON requer reconciliação.
+
+## LSJ — Fonte 0018 publicada (19/10/2026)
+
+Na branch `chat-gpt-lsj`, o arquivo `lexicons/lsj-source-batch-0018.xml` contém **1.000 artigos originais** (ordinais **21.001–22.000**), de **βράζω** (`n20803`) a **γελίκη** (`n21793`). Próximo: **Γελλώ** (`n21794`), ordinal **22.001**, `greatscott14.xml` local 442. Fontes LSJLogeion: `greatscott13.xml` blob `fba3d7380442fa580698846924a3e76f62001c20` (559 artigos) e `greatscott14.xml` blob `d30c9a82ac5302239c77f1e345087aca2aad9403` (441 artigos). Créditos Perseus Digital Library/Tufts, Gregory Crane, Helma Dik; licença declarada CC BY-SA 4.0. Commit-fonte `7c9e3a77df4787bee5bfa5b960a3a2e4f2e48b14`; blob `2ba31c90badf1fe3a5155b997d8b7c56d511ed3f`.
+
+Checkpoint documental reconciliado em **22.000 fontes**; histórico detalhado 0014–0018 no JSON permanece pendente de sincronização. **100 traduções portuguesas de trabalho**, **0 revisões filológicas integrais** e **0 artigos confirmadamente publicados em produção**. O próximo artigo a traduzir permanece **ἀβίωτος** (`n95`, ordinal 101). Não houve colação integral com a edição impressa Oxford 1940 ou os três portais; denominador Furman 116.854 provisório. O lote editorial de 1.000 traduções não está concluído.
+
+## LSJ — lote documental 0014 publicado (19/10/2026)
+
+Publicado o arquivo `lexicons/lsj-source-batch-0014.xml`, com 1.000 artigos originais, ordinais 17.001–18.000, de ἀσυνύπαρκτος (`n16845`) a αὐτοξενεῖν (`n17839`). Próximo artigo original: αὐτόξεστος (`n17840`), ordinal 18.001. Commit `c6ab8c3d58a6f39b0f2712d6f73ebf1d7d3ecb1d`; blob `32d98705af56455e868695829a9e9003efa1b431`. Fonte: LSJLogeion `greatscott10.xml` (blob `4d2586cfc5c32239f027048d12fb40af44e5f742`), artigos locais 847–1846, atribuição Perseus/Tufts, Gregory Crane e Helma Dik; licença declarada CC BY-SA 4.0. Contagem Fonte acumulada verificada: 18.000. Traduções portuguesas de trabalho: 100; revisões filológicas integrais: 0; deploy público confirmado: 0. Cursor tradutório: 101 (ἀβίωτος, `n95`). O checkpoint JSON ainda requer atualização, pendente por bloqueio técnico da operação de escrita. Sem colação integral com o impresso de 1940 nem os portais. Denominador Furman 116.854 permanece provisório.
+
+## LSJ — lote integral 0001 em andamento: 55/1.000 traduções de trabalho (18/10/2026)
+
+Acrescentados **21 artigos** (ordinais 35–55, de **ἀάω** a **ἀβαμβάκευτος**), perfazendo **55 traduções de trabalho, 55 search-rows e 55 entry-cards** no módulo `lexicons/lsj-final-batch-0001.js`. Código executado isoladamente: 55 identificadores únicos, com correspondência linha/cartão. O artigo extenso ἀάω inclui os dois sentidos principais, formas verbais, leituras divergentes e referências.
+
+**Não confundir etapas:** ainda 0 artigos com colação filológica independente integral contra Oxford 1940, 0 compilações completas executadas neste ciclo e 0 artigos LSJ confirmadamente publicados no site público. O lote de 1.000 artigos está INCOMPLETO; 55/1.000 indica só traduções preparadas. Próximo ordinal 56: **ἄβαξ** (`orig_id=n51`). Os 16.000 artigos-fonte preservados continuam disponíveis para reutilização.
+
+## LSJ — lote integral 0001 em andamento: 34/1.000 traduções de trabalho (18/10/2026)
+
+Nova parcela traduzida e integrada ao módulo `lexicons/lsj-final-batch-0001.js`: **21 artigos** (ordinais 14–34, de **ἄαθι** a **ἀάτυλον**). O acumulado chega a **34 traduções de trabalho**, com **34 linhas de pesquisa e 34 cartões**, conferidos por execução do JS e confronto dos IDs com o XML auxiliar. Os 16.000 artigos originais continuam preservados.
+
+**Não homologar como lote completo:** 0 revisões filológicas integrais contra Oxford 1940, 0 compilações do site executadas nesta execução e 0 publicações LSJ em produção confirmadas. Próximo ordinal: **35**, **ἀάω** (`n31`). Um commit na branch não comprova deploy.
+
+## LSJ — execução do lote integral 0001 em andamento: 12/1.000 traduções preparadas (18/10/2026)
+
+**Resultado verificável da execução inicial:** o módulo `lexicons/lsj-final-batch-0001.js` contém os artigos tipográficos **1–12** (de **Α α** a **ἀαδής**, `orig_id=n0` a `n9b`) com **12 traduções portuguesas de trabalho, 12 linhas de busca e 12 cartões completos**. O código JS foi executado isoladamente e os 12 alvos foram confirmados, sem duplicações. O módulo foi incluído no `lexicon-modules.json`, o LSJ cadastrado no catálogo de fontes e configurado teste de consistência pós-build.
+
+**Atenção ao status:** tradução preparada **12/1.000 (1,2%)**. Revisão filológica integral contra Oxford 1940 **0/1.000**. Validação do build completo do Netlify **pendente**. Artigos LSJ efetivamente verificados no site público **0/1.000**. Por essas razões, o **lote 0001 ainda não está concluído**. O próximo artigo a traduzir é **ἀάζω**, `orig_id=n10`, ordinal **13**.
+
+As 16.000 entradas originais TEI/XML de execuções anteriores continuam preservadas e serão reutilizadas, evitando uma segunda extração. Não confundir arquivos originais, traduções parciais, integração ao código e publicação efetiva.
+
+## LSJ — reinício do fluxo integral em lotes de 1.000 (18/10/2026)
+
+**Mudança de orientação aprovada:** não continuar extraindo artigos originais em lotes de 2.000 sem tradução e integração. O trabalho útil passa a ser **uma passagem integral por artigo**, da fonte existente até a tradução fiel, revisão real, linha de pesquisa, cartão, integração ao build e verificação de publicação. Unidade de entrega: **1.000 artigos completos por lote**; um lote ainda parcial não pode ser informado como concluído.
+
+**Estado factual inicial:** 16.000 artigos originais em arquivos TEI/XML já armazenados na branch `chat-gpt-lsj`, preservados sem exclusão; **0 traduções integrais completas comprovadas**, **0 artigos do LSJ efetivamente integrados à interface**, **0 publicações LSJ em produção verificadas**. Os XML continuam úteis e não devem ser reextraídos. Retomada do produto final: **ordinal 1, Α α, `orig_id=n0`**, primeiro intervalo-alvo **1–1.000**.
+
+O site usa `lexicon-modules.json` e `scripts/build-on-demand.mjs` para construir o índice `lexicon-data/`, e `lexicons/on-demand-search.js` para apresentar a busca e os cartões. Assim, um arquivo XML ou um JS isolado não comprova a publicação. **Nenhum lote integral foi entregue neste reinício.** A meta de 1.000 é uma unidade de organização, não uma declaração de capacidade de traduzir mil artigos longos em uma única execução.
+
+A nova [regra canônica](regras/Rlsj.txt) prevalece sobre os ciclos históricos de extração isolada; o [checkpoint](lexicons/lsj-progress.json) separa a matéria-prima preservada do produto final entregue. Permanecem proibidos commits em outras branches e PR/merge não autorizados.
+
+## LSJ — lote 0012: 16.000 artigos originais na Fonte (18/10/2026)
+
+O [lote 0012](lexicons/lsj-source-batch-0012.xml) incorporou **2.000 artigos tipográficos completos**, ordinais globais **14.001–16.000**, de **ἀποστηθίζω** (`orig_id=n13851`) a **ἀρχαιοφανής** (`orig_id=n15846`). **Próximo lema: ἀρχαιόομαι** (`orig_id=n15847`, ordinal **16.001**, `greatscott09.xml`, artigo local 1.855). [Commit de publicação](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/6c0a9bab3d7583190ab6054f26fba186f346190a); blob remoto `39b3fc3d68f2fb8f7f88495caf95a5c1f6c9b709` relido e verificado: **2.000 IDs únicos**, **2.000 cabeçalhos**, **0 IDs repetidos com o lote anterior**.
+
+**Proveniência da transcrição TEI auxiliar:** Helma Dik/LSJLogeion, derivada do Perseus/Tufts; `greatscott08.xml` (146 artigos, locais 1.860–2.005, blob `17968bed226318875bdc078da3c37867fb9ce7f6`) e `greatscott09.xml` (1.854 artigos, locais 1–1.854, blob `90c8273e07f86eae681e24e9f1ca58d12b99494a`). Créditos Perseus Digital Library/Tufts, Gregory Crane, Helma Dik/Logeion; licença declarada CC BY-SA 4.0.
+
+**Progresso discriminado:** **16.000 registros da camada Fonte**, **0 traduções portuguesas completas**, **0 revisões filológicas integrais**, **0 artigos na interface**. O total **116.854** do catálogo Furman continua provisório, não homologado contra esta segmentação. Permanecem pendentes colação com o impresso de 1940 e os portais Perseids, Philolog.us e Furman, tradução e homologação. Atualizados [checkpoint](lexicons/lsj-progress.json) e [regra LSJ](regras/Rlsj.txt). Nenhuma outra branch modificada; sem PR ou merge.
+
+## LSJ — lote 0011: 14.000 artigos originais incorporados na Fonte (18/10/2026)
+
+O [lote 0011](lexicons/lsj-source-batch-0011.xml) incorpora **2.000 artigos tipográficos completos** (ordinais globais **12.001–14.000**) de **ἀπενθής** (`orig_id=n11857`) até **ἀποστεφανόω** (`orig_id=n13850`). O próximo é **ἀποστηθίζω** (`orig_id=n13851`, posição global **14.001**, em `greatscott08.xml`, artigo local 1.860). Publicação: [commit f036d42](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/f036d42a6e2ae3e1a6c3a9b478f16e59221513aa); blob remoto `4d9b7aa2b5305ec48ea35ed16c7dac29fb54f9f8` verificado com **2.000 orig_id exclusivos, 2.000 cabeçalhos** e **nenhuma sobreposição com o lote 0010**.
+
+**Fonte TEI auxiliar:** Helma Dik/LSJLogeion, derivada do Perseus/Tufts: `greatscott07.xml` (**141** artigos, ordinais locais 1.865–2.005; blob `c4c9b61641854b40c393a98bb234dfbe8729f5aa`) e `greatscott08.xml` (**1.859** artigos, ordinais locais 1–1.859; blob `17968bed226318875bdc078da3c37867fb9ce7f6`). Créditos da transcrição: Perseus Digital Library (Tufts), Gregory Crane, Helma Dik e Logeion; licença declarada CC BY-SA 4.0.
+
+**Camadas distintas:** **14.000 registros da Fonte**; **0 traduções portuguesas integrais**, **0 revisões filológicas integrais**, **0 artigos publicados na interface**. O total de referência **116.854** (Furman) é **provisório** e não homologado contra esta segmentação. Pendente colação com o impresso de 1940, Perseids, Philolog.us e Furman. Atualizados [checkpoint](lexicons/lsj-progress.json) e [regra do LSJ](regras/Rlsj.txt). Nenhum PR/merge ou escrita em outras branches nesta execução.
+
 ## LSJ — lote 0010: 12.000 artigos originais na camada Fonte (18/10/2026)
 
 Publicado o [lote 0010](lexicons/lsj-source-batch-0010.xml) com **2.000 artigos completos**, ordinais globais **10.001–12.000**: **ἀντίδειξις** (`orig_id=n9859`) até **ἀπενέπω** (`orig_id=n11856`). Próximo: **ἀπενθής** (`orig_id=n11857`), ordinal **12.001**, `greatscott07.xml`, artigo local 1.865. O [commit da Fonte](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/220203aad8fab74da870e293e6e692ef709abe91) foi confirmado; o blob `1cf2dbdb9d734542c69b9d3f8b3d856d40137f4f` foi relido com **2.000 IDs únicos e 2.000 cabeçalhos**, sem sobreposição com o lote anterior.

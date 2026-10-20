@@ -15,11 +15,11 @@ window.ScripturaSourceCatalog = Object.freeze({
         edition: "9ª edição; transcrição digital auxiliar LSJLogeion/Perseus ainda não homologada",
         isbn: null,
         pages: null,
-        coverUrl: null,
+        coverUrl: "imagens/capas/lsj.png",
         coverColor: "#54637e",
         dictionary: "grego",
         publicationStatus: "source-only",
-        note: "Fonte em preparação. Os arquivos LSJ disponíveis pertencem exclusivamente à camada FONTE, em inglês; ainda não há verbetes traduzidos para português, revistos ou publicados para consulta neste site. Os registros da fonte não são contabilizados como artigos pesquisáveis. Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion.",
+        note: "Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion.",
         reference: "regras/Rlsj.txt"
     },
     "ROBINSON": {
@@ -90,14 +90,14 @@ window.ScripturaSourceCatalog = Object.freeze({
     "DGP": {
         title: "Dicionário Grego–Português (DGP)",
         authors: "Coordenação: Daisi Malhadas; Maria Celeste C. Dezotti; Maria Helena de Moura Neves",
-        publisher: "Ateliê Editorial, Cotia (SP)",
-        date: "2006 (vol. I da edição original)",
-        edition: "Obra originalmente publicada em volumes; o site utiliza transcrição digital com proveniência própria",
-        isbn: "85-7480-327-8 (vol. I)",
-        pages: "264 p. (vol. I, α–δ); não representa a coleção inteira",
+        publisher: "Ateliê Editorial, Cotia (SP); Editora Mnēma, Araçoiaba da Serra (SP)",
+        date: "27/09/2022",
+        edition: "2ª edição em volume único",
+        isbn: "978-6599195198",
+        pages: "1.264 p.",
         coverUrl: "imagens/capas/dgp.png",
         coverColor: "#675348",
-        note: "A base digital incorporada possui cobertura própria. Dados físicos do primeiro volume, não da edição em volume único de 2025.",
+        note: "Dados bibliográficos da 2ª edição em volume único (2022). A transcrição digital incorporada ao projeto possui proveniência própria e sua correspondência textual integral com esta edição não foi certificada.",
         reference: "regras/Rdgp.txt"
     },
     "PEREIRA": {
@@ -164,5 +164,18 @@ window.ScripturaSourceCatalog = Object.freeze({
         coverColor: "#292e3e",
         note: "Cada volume tem sua própria edição, paginação e ISBN. A data de 2011 em reimpressões não substitui a data original de cada volume.",
         reference: "regras/Rfontes-consulta.txt"
+    },
+    "LSJ": {
+        title: "A Greek-English Lexicon",
+        authors: "Henry George Liddell; Robert Scott; revisão de Henry Stuart Jones e Roderick McKenzie",
+        publisher: "Clarendon Press, Oxford",
+        date: "1940 (nona edição de referência)",
+        edition: "A Greek-English Lexicon, nona edição; transcrição auxiliar Perseus/Tufts–LSJLogeion",
+        isbn: null,
+        pages: null,
+        coverUrl: null,
+        coverColor: "#4e536d",
+        note: "Os artigos portugueses estão sendo traduzidos progressivamente da transcrição TEI auxiliar LSJLogeion/Perseus. O exemplar impresso de Oxford (1940) permanece por cotejar integralmente. O total de fonte não é o total de artigos publicados.",
+        reference: "regras/Rlsj.txt"
     }
 });

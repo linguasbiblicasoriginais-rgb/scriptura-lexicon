@@ -1,0 +1,51 @@
+name: LSJ — compilação e validação do índice
+
+on:
+  push:
+    branches:
+      - chat-gpt-lsj
+    paths:
+      - "lexicons/lsj-final-batch-*.js"
+      - "lexicons/lsj-progress.json"
+      - "lexicon-modules.json"
+      - "scripts/build-on-demand.mjs"
+      - "scripts/verify-lsj-index.mjs"
+      - ".github/workflows/lsj-build-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lsj-build-validation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  compile:
+    name: Validar sintaxe, compilar site e verificar cartões LSJ
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout da branch LSJ
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validar sintaxe dos módulos LSJ
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in lexicons/lsj-final-batch-*.js; do
+            node --check "$file"
+          done
+      - name: Compilação estática integral
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - name: Conferir catálogo, integridade e conteúdo dos cartões LSJ
+        run: node scripts/verify-lsj-index.mjs
+      - name: Não alterar arquivos versionados
+        shell: bash
+        run: |
+          test -z "$(git status --porcelain --untracked-files=no)"
