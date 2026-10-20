@@ -1,3 +1,24 @@
+LSJ — LOTE 013, 200 ARTIGOS (20/10/2026) — INTEGRAÇÃO E BUILD CONFIRMADOS
+
+Branch exclusiva: chat-gpt-lsj. HEAD inicial: f3228b3cd9695542deea12db63f244f60ae66deb. Commit de incorporação: 80be534542a9eab3b211755ccad49a0d2bbe5183 (8 módulos, manifesto e checkpoint transitório). Não houve escrita em main, Pull Request, merge ou branch nova.
+Intervalo tipográfico: 2101–2300 (200 artigos). Primeiro ἀθρυψία (orig_id=n2065), último αἰδοφοίτης (orig_id=n2260); próximo ordinal 2301, αἰδόφρων (n2261). Fonte canônica: lexicons/lsj-source-batch-0003.xml, sequência real de div2, sem estimar IDs por incremento. Mantidas inserções editoriais como n2126a, n2145a, n2189a, n2192a e n2234a e homógrafos como αἶα (A/B/C) e αἴγινος (A/B).
+Arquivos incorporados ao lexicon-modules.json:
+lexicons/lsj-final-batch-0013-2101-2125.js
+lexicons/lsj-final-batch-0013-2126-2150.js
+lexicons/lsj-final-batch-0013-2151-2175.js
+lexicons/lsj-final-batch-0013-2176-2200.js
+lexicons/lsj-final-batch-0013-2201-2225.js
+lexicons/lsj-final-batch-0013-2226-2250.js
+lexicons/lsj-final-batch-0013-2251-2275.js
+lexicons/lsj-final-batch-0013-2276-2300.js
+Em releitura dos JS no GitHub foram constatados 200 search-row, 200 entry-card, 200 IDs exclusivos e 200 ordinais exclusivos. Todos os artigos contêm fonte TEI integral em <details>; após decodificação HTML, as 200 cópias foram cotejadas diretamente com seus div2 originais em XML: 200/200 textos idênticos.
+As expressões portuguesas são 200 SÍNTESES LEXICOGRÁFICAS DE TRABALHO PRELIMINARES E INCOMPLETAS, não tradução integral de sentidos, formas, referências ou citações. Artigos complexos, em particular αἰδέομαι, αἰγίς, αἴγλη e αἰδοῖος, necessitam tradução crítica. Conjecturas e significados incertos devem permanecer assim assinalados. A colação exaustiva da edição impressa Oxford 1940 não foi realizada e não há homologação filológica independente comprovada. Não foi verificado deploy público.
+GitHub Actions: https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39365819353 — SUCCESS sobre o commit 80be534542a9eab3b211755ccad49a0d2bbe5183. Compilação estática e verificação do catálogo aprovadas; EXTRACTION LSJ rowMatches=2300, cardMatches=2300, uniqueCardIDs=2300; catálogo LSJ=2300, collisions=0; LSJ_BUILD_CHECK_OK expected=2300 checked=2300. Esses testes não são prova de precisão lexicográfica.
+Progresso global do produto: 2300 / 116854 (1.9683%); faltam 114554, denominador provisório. Camada Fonte: 23.000 registros XML independentes. Homologação integral dos artigos: 0 comprovadas; implantação pública: não verificada.
+Próximo lote 014: ordinais 2301–2500, iniciar αἰδόφρων (n2261), continuar por sequência real do XML.
+
+---
+
 LSJ — LOTE 012, 200 ARTIGOS (20/10/2026) — COMPILAÇÃO TÉCNICA CONFIRMADA
 
 Branch de escrita: chat-gpt-lsj. HEAD anterior c09edf785108a7fc6e754d5f83ce0535318dfd2b; commit dos módulos cfeeba7abaa33ddc985a319e6dd68927efaec44f. Sem alteração na main, merge, PR ou criação de branch.
