@@ -1,3 +1,9 @@
+## LSJ — lote 010 compilado e validado (20/10/2026)
+
+Na branch `chat-gpt-lsj`, o lote 010 incorporou os artigos **1501–1700**, de **Ἀδράστεια** (`n1478`) a **ἀελλομάχος** (`n1678`), em oito módulos de 25. O commit é [bbf0469](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/bbf0469b1030e99b1df91bd1af9326084944dacc). A compilação [GitHub Actions 39362134090](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39362134090) foi **SUCCESS**, com **1.700 linhas de busca, 1.700 cartões, 1.700 IDs únicos, zero colisões** e `LSJ_BUILD_CHECK_OK expected=1700 checked=1700`. Todas as 200 cópias TEI integrais do novo lote foram conferidas exatamente com o XML de origem.
+
+**Progresso global: 1.700 / 116.854 (1.4548%)**, saldo **115.154**. Trata-se de **sínteses portuguesas preliminares incompletas**, não traduções integrais revistas. Sem colação independente completa da Oxford 1940, sem homologação filológica e sem deploy público verificado. O cursor da Fonte permanece separado em 23.000 registros XML. Próximo lote 011: **1701–1900**, a partir de **ἀελλόπος** (`n1679`). Documentação em `regras/Rlsj.txt`.
+
 ## LSJ — lote 009 incorporado e compilado (19/10/2026)
 
 Na branch `chat-gpt-lsj`, o lote 009 acrescentou **200 cartões LSJ com sínteses portuguesas preliminares e TEI original integral**, ordinais **1301–1500**, de **ἀδιάκριτος** (`n1284`) a **ἀδρανίζομαι** (`n1477`). O commit de incorporação é [05dae49e](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/commit/05dae49e4cfd59f77112296fbb4f325b39da4ec3). A compilação [GitHub Actions 39360948125](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39360948125) terminou **SUCCESS**, com **1.500 linhas, 1.500 cartões, 1.500 IDs únicos e zero colisões**; `LSJ_BUILD_CHECK_OK expected=1500 checked=1500`. A próxima entrada é **Ἀδράστεια** (`n1478`), ordinal 1501.

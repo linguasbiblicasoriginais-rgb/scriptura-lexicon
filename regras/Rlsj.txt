@@ -1,3 +1,26 @@
+LSJ — LOTE 010, 200 ARTIGOS (20/10/2026) — COMPILAÇÃO TÉCNICA VERIFICADA
+
+Execução restrita à branch chat-gpt-lsj. HEAD inicial: 4f64520ce49238b5bac77e8308da03be6bd91366. Commit de incorporação: bbf0469b1030e99b1df91bd1af9326084944dacc, com 8 módulos de 25 artigos, manifesto e checkpoint transitório. Nenhum commit na main, merge ou Pull Request.
+Ordinais 1501–1700: de Ἀδράστεια (orig_id n1478) até ἀελλομάχος (n1678), origem lexicons/lsj-source-batch-0002.xml. Próximo ordinal: 1701, lema ἀελλόπος (n1679). Não inferir continuação pelo incremento de orig_id; a seleção provém dos elementos div2 tipográficos reais (inclui orig_ids n1502a e n1671a).
+Arquivos criados:
+lexicons/lsj-final-batch-0010-1501-1525.js
+lexicons/lsj-final-batch-0010-1526-1550.js
+lexicons/lsj-final-batch-0010-1551-1575.js
+lexicons/lsj-final-batch-0010-1576-1600.js
+lexicons/lsj-final-batch-0010-1601-1625.js
+lexicons/lsj-final-batch-0010-1626-1650.js
+lexicons/lsj-final-batch-0010-1651-1675.js
+lexicons/lsj-final-batch-0010-1676-1700.js
+Os oito arquivos estão registrados em lexicon-modules.json na ordem crescente e contêm 200 search-row, 200 entry-card e 200 orig_ids e ordinais únicos, com títulos gregos e popups de significados. Cada artigo inclui em <details> a reprodução integral do seu TEI, com escaping HTML; as 200 reproduções foram relidas no GitHub e comparadas exatamente aos 200 div2 canônicos correspondentes (200/200 iguais, sem divergências).
+
+A seção portuguesa contém RESUMOS LEXICOGRÁFICOS PRELIMINARES, necessariamente incompletos para vários artigos extensos, particularmente ἁδρός, ἀδύνατος, ἀεί, ἀείδω e ἀείρω. Não foi feita tradução analítica integral de todas as referências, acepções, variantes, passagens ou construções; nenhuma colação independente da edição impressa Oxford 1940 foi realizada. Não declarar revisão filológica integral, homologação crítica, nem deploy público por mera compilação. A camada Fonte tem 23.000 artigos XML documentados, não confundir com 1.700 sínteses compiladas.
+
+Validação técnica: GitHub Actions https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39362134090 — SUCCESS no commit bbf0469b1030e99b1df91bd1af9326084944dacc. Node 22, sintaxe JS OK, build estático OK; EXTRACTION LSJ rowMatches=1700 cardMatches=1700 uniqueCardIDs=1700; catálogo LSJ=1700, collisions=0; LSJ_BUILD_CHECK_OK expected=1700 checked=1700.
+Progresso GLOBAL: 1.700 / 116.854 = 1.4548%, saldo 115.154 artigos (denominador estimado provisório). O número 1.700 refere-se a apresentações portuguesas de trabalho compiladas; nenhuma revisão integral do texto impresso nem publicação de produção foi comprovada.
+Próxima rodada: lote 011, ordinais 1701–1900, começar ἀελλόπος (n1679), sempre verificando HEAD e evitando duplicação.
+
+---
+
 LSJ — LOTE 009, 200 ARTIGOS (19/10/2026) — INTEGRAÇÃO E COMPILAÇÃO CONFIRMADAS
 
 Branch exclusiva: chat-gpt-lsj. HEAD inicial 37b2f45ef6ce15df104ed5ca6fd2e982f22c91db. Commit de incorporação 05dae49e4cfd59f77112296fbb4f325b39da4ec3 (8 módulos + manifesto + checkpoint provisório; nenhuma escrita na main, PR ou merge).
