@@ -355,3 +355,6 @@ A branch `chat-gpt-lsj` recebeu 1.000 artigos adicionais no manifesto da interfa
 ### LSJ — continuação da incorporação (artigos 7.001–8.000, 20/10/2026)
 
 Na branch `chat-gpt-lsj` foi incorporado ao manifesto o lote documental `lexicons/lsj-source-batch-0008.xml`: 1.000 novos artigos, de **ἀναλάζομαι** a **ἀνδηρευτής**, em 40 módulos de 25 cartões. Foram redigidas 12 glosas portuguesas preliminares sem pretensão de tradução integral e conservado todo o TEI original. O acumulado na interface passou a **8.000 artigos LSJ / cerca de 116.854 artigos estimados**; a cifra de referência é provisória. Não confundir 8.000 cartões com 8.000 traduções. A verificação de build, CI, homologação editorial e deploy público deve ser relatada separadamente. Próximo artigo: **ἄνδηρον**, ordinal 8.001.
+
+
+**Verificação técnica LSJ (20/10/2026):** [workflow 39483789192](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39483789192) concluiu com êxito a compilação de 8.000 cartões/linhas de busca LSJ, identificadores únicos e ausência de colisões. Tradução integral e publicação pública permanecem independentes dessa validação.
