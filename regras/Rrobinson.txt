@@ -1,0 +1,25 @@
+# ROBINSON — regras editoriais permanentes (20/10/2026)
+
+**Escopo:** somente o léxico de Edward Robinson, nunca os cartões de THAYER, BDAG, LEH ou outros dicionários. Branch de trabalho: `chat-gpt-robinson`. A fonte primária é o fac-símile de Robinson, mantendo separadas as camadas Fonte, Tradução, Análise e GDHAGP. Não acrescentar conteúdo não atestado na fonte.
+
+## Cabeçalho e corpo
+O cabeçalho deve apresentar o lema completo. Não o reproduzir no primeiro parágrafo do cartão. Exemplo: cabeçalho `Α, α`; início do corpo `alfa, a primeira letra do alfabeto grego, ...`. Esta regra alcança **cada verbete novo** e deve ser verificada antes da incorporação/publicação. Não remover palavras do sentido apenas para suprimir a duplicação tipográfica.
+
+## Popups canônicos reutilizáveis
+Em qualquer novo verbete ROBINSON que contenha as abreviaturas a seguir, aplicar as mesmas expansões (sem modificar a ocorrência original no corpo):
+- `Buttm.`: título em itálico `A Greek Grammar for the use of High Schools and Universities`; `de Philip Buttmann, revisada por seu filho; a partir da 18. ed. alemã, por E. Robinson. Nova York, 1851. A 18. ed. alemã foi publicada em Berlin recentemente, em 1849.`
+- `Kühner`: título em itálico `Grammar of the Greek Language, for the use of High Schools and Colleges`; `por R. Küehner; a partir do alemão, por B. B. Edwards e S. H. Taylor. Andover, 1844.`
+- `Strom.`: título em itálico `Stromata`; `(Στρώματα), obra atribuída a Clemente de Alexandria, é a terceira de uma trilogia de obras sobre a vida cristã. O texto visa o aperfeiçoamento da vida cristã por meio da iniciação ao conhecimento completo. Com base nas Escrituras e na tradição, busca apresentar uma descrição da fé cristã que atenda a todas as demandas dos eruditos e conduza o estudante às realidades mais íntimas de sua crença.`
+- `c. ed. Sylb.`: `Coluna C, da edição de Friedrich Sylburg`.
+- `Ap` (em referências ao livro bíblico): `Livro de Apocalipse, ou Apocalipse de João`.
+- `Clem. Alex.`: `Clemente de Alexandria (c. 150 – c. 215), escritor, teólogo, apologista cristão grego, nascido em Atenas.`
+
+## Referências e tradução grega
+- `Strom. 4. 25` é linkado ao endereço solicitado, `http://www.poesialatina.it/_ns/greek/testi/Clemens/Stromata04.html?`; o sufixo `#:~:text=` é uma tentativa de destaque no navegador, dependente da coincidência com o texto efetivamente servido. Se a página não apresentar o fragmento, manter a referência sem alegar que o destaque funcionou.
+- O trecho grego `κύκλος γὰρ αὐτὸς (ὁ υἱὸς) πασῶν τῶν δυνάμεων, εἰς ἓν εἰλουμένων καὶ ἑνουμένων· διὰ τοῦτο Α καὶ Ω ὁ λόγος εἴρηται.` conserva sua grafia tal como reproduzida no cartão; popup integral: `Pois ele próprio (o Filho) é o círculo de todas as potências, enlaçadas e unidas em uma só; por isso, o Logos foi chamado Alfa e Ômega.`
+- Não substituir automaticamente o trecho grego de Robinson pela variante de outra edição de Clemente sem registro expresso de crítica textual e fonte.
+
+## Implementação
+Usar `data-tooltip-type="biblio"`, `data-tooltip-title` para título bibliográfico em itálico e `data-tooltip-text` para descrição. O suporte `data-tooltip-title` no `script.js` escapa HTML, evita executar marcação fornecida como metadado e preserva popups legados sem título. Para `abbr`, usar `data-tooltip-text`. Conservar `tooltip-trigger` e `tabindex="0"` em elementos não interativos, além de `rel="noopener noreferrer"` em links externos.
+
+**Incorporação futura:** conferir se o verbete não duplica o lema no corpo, se todas as abreviaturas aqui registradas recebem popup e se as referências mantêm sua indicação precisa. Esta norma deve ser aplicada a cada inserção de conteúdo ROBINSON; criar regras permanentes no repositório não altera automaticamente o conteúdo de arquivos novos produzidos por outros agentes sem aderência a este fluxo.
