@@ -11,7 +11,7 @@ const pageErrors = [];
 page.on("pageerror", e => pageErrors.push(e.message));
 
 const report = [];
-const localCovers = {"THAYER":"imagens/capas/thayer.png","BDAG":"imagens/capas/bdag.png","LEH":"imagens/capas/leh.png","DGP":"imagens/capas/dgp.png","ROBINSON":"imagens/capas/robinson.png","ABBOTT-SMITH":"imagens/capas/abbott-smith.png","HALOT":"imagens/capas/halot.png","JASTROW":"imagens/capas/jastrow.png"};
+const localCovers = {"THAYER":"imagens/capas/thayer.png","BDAG":"imagens/capas/bdag.png","LEH":"imagens/capas/leh.png","DGP":"imagens/capas/dgp.png","ROBINSON":"imagens/capas/robinson.png","ABBOTT-SMITH":"imagens/capas/abbott-smith.png","HALOT":"imagens/capas/halot.png","JASTROW":"imagens/capas/jastrow.png","LSJ":"imagens/capas/lsj.png"};
 const renderedCovers = new Set();
 
 async function assertNoLeakedEntries(phase) {
@@ -46,6 +46,20 @@ try {
         assert.equal(bytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a",
             "Arquivo de capa inválido (esperado PNG): " + source);
     }
+
+    // Fragmentos sem lema não são verbetes do DGP, mas ficam em quarentena
+    // com o conteúdo original intacto e identificadores rastreáveis.
+    const quarantineResponse = await page.request.get(
+        new URL("lexicon-data/auditorias/dgp-fragmentos-sem-lema.json", url).toString());
+    assert.equal(quarantineResponse.status(), 200, "Inventário de fragmentos DGP ausente");
+    const quarantine = await quarantineResponse.json();
+    assert.ok(quarantine.count > 0, "Falha na identificação de fragmentos do XML");
+    assert.equal(quarantine.records.length, quarantine.count);
+    assert.ok(quarantine.records.some(item => item.target === "entry-dgp-26069"),
+        "Não foi inventariado o fragmento conhecido após μέγας");
+    assert.ok(quarantine.records.every(item => item.origin && item.target &&
+        item.lemma && (item.flag || item.placeholder)),
+        "Inventário do DGP sem proveniência ou motivo");
 
     for (const dictionary of ["grego", "hebraico", "aramaico", "latim"]) {
         await page.goto(url + "#" + dictionary, {
@@ -84,7 +98,7 @@ try {
         if (dictionary === "grego") {
             assert.ok(sources.includes("LSJ"), "LSJ precisa aparecer no seletor grego");
             assert.equal(await page.locator('#source-filter option[value="LSJ"]').textContent(),
-                "LSJ · em preparação");
+                "LSJ");
         } else {
             assert.equal(sources.includes("LSJ"), false,
                 "LSJ não pertence a um dicionário diferente do grego");
@@ -99,6 +113,20 @@ try {
 
             assert.equal(await page.locator("#source-details").isVisible(), true,
                 "Selecionar uma fonte deve mostrar sua ficha bibliográfica");
+            if (source === "DGP") {
+                const details = await page.evaluate(() => {
+                    const field = suffix => document.getElementById("source-details-" + suffix).textContent;
+                    return {publisher:field("publisher"),date:field("date"),
+                        edition:field("edition"),isbn:field("isbn"),pages:field("pages")};
+                });
+                assert.deepEqual(details, {
+                    publisher:"Ateliê Editorial, Cotia (SP); Editora Mnēma, Araçoiaba da Serra (SP)",
+                    date:"27/09/2022",
+                    edition:"2ª edição em volume único",
+                    isbn:"978-6599195198",
+                    pages:"1.264 p."
+                }, "Dados bibliográficos da 2ª edição do DGP");
+            }
             const count = await page.evaluate(
                 ({dictionary,source}) => window.ScripturaLexiconSearch.count(dictionary,source),
                 {dictionary,source}
@@ -126,7 +154,7 @@ try {
             if (source === "LSJ") {
                 assert.equal(count, 0, "LSJ ainda não tem cartões publicados");
                 assert.match(await page.locator("#source-details-note").textContent(),
-                    /camada FONTE|Fonte em preparação/i);
+                    /Transcrição auxiliar derivada de Perseus\/Tufts/);
                 assert.equal(await page.locator("#search-count").textContent(),
                     "Fonte em preparação");
                 assert.match(await page.locator("#no-results").textContent(),
@@ -149,6 +177,9 @@ try {
             const row = page.locator('tr.search-row[data-target="' + sample.target + '"]');
             await row.waitFor({state:"visible",timeout:60000});
             assert.equal(await row.isVisible(), true, "Linha não visível após busca: " + source);
+            // A mesma API pagina TODO dicionário, não somente o DGP.
+            assert.ok(await page.locator("#search-results .search-row").count() <= 10,
+                "Mais de dez linhas materializadas para " + dictionary + "/" + source);
 
             await row.focus();
             await page.keyboard.press("Enter");
@@ -200,6 +231,59 @@ try {
         }
         report.push(group);
     }
+
+    // Total publicado ≠ total bruto do XML. Nenhum identificador fictício
+    // deve participar da contagem ou aparecer nos resultados.
+    const publicDgpCount = await page.evaluate(() =>
+        window.ScripturaLexiconSearch.count("grego","DGP"));
+    assert.equal(publicDgpCount + quarantine.count, 44590,
+        "Apenas os fragmentos comprovados podem sair do índice do DGP");
+    const queryCheck = await page.evaluate(() =>
+        window.ScripturaLexiconSearch.search("fragmento sem lema no xml","grego","DGP"));
+    assert.equal(queryCheck.total, 0,
+        "Marcadores técnicos de fragmento continuam sendo tratados como verbetes");
+    report.push({dgpRecordsOriginal:44590, dgpPublicados:publicDgpCount,
+        dgpQuarentena:quarantine.count});
+
+    // Citação do DGP: pontilhado removido sem perder os dois tipos de popup.
+    // O CSS justifica o texto em popups de todas as fontes.
+    await page.goto(url + "#grego", {waitUntil:"domcontentloaded",timeout:180000});
+    await page.waitForFunction(() => window.ScripturaLexiconSearch?.isReady);
+    await page.locator("#source-filter").evaluate(select => {
+        select.value = "DGP";
+        select.dispatchEvent(new Event("change", {bubbles:true}));
+    });
+    await page.locator("#search-input").fill("ἀάω");
+    const dgpCitationRow = page.locator('tr.search-row[data-target="entry-dgp-0014"]');
+    await dgpCitationRow.waitFor({state:"visible",timeout:60000});
+    await dgpCitationRow.focus();
+    await page.keyboard.press("Enter");
+    const dgpArticle = page.locator("#entry-dgp-0014");
+    await dgpArticle.waitFor({state:"visible",timeout:60000});
+    const greekQuotation = dgpArticle.locator(".dgp-greek-quotation").first();
+    await greekQuotation.waitFor({state:"visible"});
+    assert.equal(await greekQuotation.evaluate(el => getComputedStyle(el).textDecorationLine),
+        "none", "Citação grega não deve ter sublinhado pontilhado");
+    assert.equal(await greekQuotation.getAttribute("data-tooltip-type"), "greek");
+    await greekQuotation.focus();
+    const dgpPopup = page.locator("#lexical-tooltip");
+    await page.waitForFunction(() => document.getElementById("lexical-tooltip")?.getAttribute("aria-hidden") === "false");
+    assert.match(await dgpPopup.textContent(), /Transliteração/i);
+    const alignment = await dgpPopup.evaluate(el => ({
+        root:getComputedStyle(el).textAlign,
+        heading:getComputedStyle(el.querySelector(".tooltip-heading")).textAlign,
+        label:getComputedStyle(el.querySelector(".tooltip-label")).textAlign,
+        value:getComputedStyle(el.querySelector(".tooltip-value")).textAlign
+    }));
+    assert.deepEqual(alignment, {
+        root:"justify",heading:"justify",label:"justify",value:"justify"
+    }, "Todos os textos do popup devem estar justificados");
+    const citationAuthor = dgpArticle.locator(".dgp-citation-source.tooltip-trigger").first();
+    assert.ok(await citationAuthor.count() > 0, "Citação bibliográfica perdeu o popup");
+    await citationAuthor.focus();
+    await page.waitForFunction(() => document.querySelector("#lexical-tooltip .tooltip-label")?.textContent === "Referência");
+    assert.equal(await dgpPopup.getAttribute("aria-hidden"), "false",
+        "O popup bibliográfico deve continuar funcionando");
 
     // Consulta no significado: o lema hebraico é encontrado por "prata".
     await page.goto(url + "#hebraico", {waitUntil:"domcontentloaded",timeout:180000});
@@ -268,6 +352,56 @@ try {
         .evaluateAll(nodes => nodes.map(node => node.textContent.length));
     assert.ok(glossLengths.every(n => n <= 125),
         "Os resumos da tabela não podem conter definições extensas");
+
+    // Verificação real de fontes grandes e idiomas diferentes.
+    // Uma consulta de 1 caractere tem contagem EXATA pelo índice invertido,
+    // sem downloads de lookup; só a página demanda até dez linhas.
+    const performancePage = await browser.newPage({viewport:{width:1180,height:850}});
+    const lookupsRequested = [];
+    const cardRequests = [];
+    performancePage.on("request", request => {
+        const u = request.url();
+        if (/\/lexicon-data\/lookup(?:-large)?\//.test(u)) lookupsRequested.push(u);
+        if (/\/lexicon-data\/cards\//.test(u)) cardRequests.push(u);
+    });
+    for (const test of [
+        {dictionary:"grego", source:"DGP", query:"α"},
+        {dictionary:"hebraico", source:"BDB", query:"א"},
+        {dictionary:"aramaico", source:"JASTROW", query:"א"}
+    ]) {
+        await performancePage.goto(url+"#"+test.dictionary,{waitUntil:"domcontentloaded",timeout:180000});
+        await performancePage.waitForFunction(() => window.ScripturaLexiconSearch?.isReady,
+            null,{timeout:30000});
+        lookupsRequested.length=0;
+        cardRequests.length=0;
+        await performancePage.locator("#source-filter").evaluate((node,source)=>{
+            node.value=source;
+            node.dispatchEvent(new Event("change",{bubbles:true}));
+        },test.source);
+        await performancePage.locator("#search-input").fill(test.query);
+        await performancePage.waitForFunction(() => {
+            const total=Number((document.getElementById("search-count")?.textContent || "").replace(/[^0-9]/g,""));
+            return total>10 && document.querySelectorAll("#search-results .search-row").length===10;
+        },null,{timeout:120000});
+        const initialCount=await performancePage.locator("#search-count").textContent();
+        const rows=await performancePage.locator("#search-results .search-row").evaluateAll(nodes=>
+            nodes.map(node=>node.dataset.source));
+        assert.ok(rows.every(source=>source===test.source),
+            "Fonte indevida na página: "+test.dictionary+"/"+test.source);
+        assert.equal(lookupsRequested.length,0,
+            "A busca de termo curto não pode baixar verbetes em lookup: "+test.source);
+        assert.equal(cardRequests.length,0,
+            "A pesquisa não deve carregar cartões completos: "+test.source);
+        await performancePage.locator('#search-pagination button[aria-label="Próxima página"]').click();
+        await performancePage.waitForFunction(() =>
+            document.querySelector('#search-pagination [aria-current="page"]')?.textContent==="2");
+        assert.equal(await performancePage.locator("#search-results .search-row").count(),10);
+        assert.equal(await performancePage.locator("#search-count").textContent(),initialCount);
+        assert.equal(cardRequests.length,0,"Paginar não pode buscar cartões: "+test.source);
+        report.push({fastIndex:test.source,language:test.dictionary,
+            total:initialCount,lookupRequests:lookupsRequested.length,cards:cardRequests.length});
+    }
+    await performancePage.close();
 
     // IDs legados colidentes: ambas as ocorrências são recuperáveis
     // individualmente, preservando o ID original do verbete.

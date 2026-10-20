@@ -63,8 +63,8 @@
 .entry-card[data-source="DGP"] .dgp-greek-quotation {
     color: inherit;
     cursor: help;
-    text-decoration: underline dotted;
-    text-underline-offset: 0.16em;
+    /* O indicativo visual não precisa de pontilhado; o popup permanece ativo. */
+    text-decoration: none;
 }
 .entry-card[data-source="DGP"] .dgp-greek-quotation:focus-visible {
     outline: 2px solid var(--interactive);
