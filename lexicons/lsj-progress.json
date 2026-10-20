@@ -25,7 +25,7 @@
   "next_source_file": "lexicons/lsj-source-batch-0003.xml",
   "next_ordinal": 2301,
   "validation": {
-    "scope": "2300 artigos com sínteses portuguesas preliminares incompletas, 2300 cartões/linhas/IDs únicos e nenhuma colisão; 200 cópias integrais TEI do lote 013 iguais ao XML canônico. Nenhum cotejo exaustivo independente da edição Oxford 1940 nem deploy público confirmados.",
+    "scope": "2300 artigos compilados previamente; 1000 novos artigos (2301–3300) gravados, 1000/1000 textos TEI comparados e coincidentes com as fontes canônicas, 40 módulos; primeiro CI falhou por incompatibilidade de rótulo, verificador corrigido para reconhecer sínteses portuguesas preliminares; nova compilação aguardada.",
     "source_count": 23000,
     "translated_draft": 3300,
     "source_identity_checked_for_translations": 2300,
@@ -44,7 +44,8 @@
       "unique_ids": 2300,
       "collisions": 0,
       "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39365819353"
-    }
+    },
+    "pending_workflow_note": "O título 'Síntese portuguesa preliminar incompleta' é intencional e não deve ser tratado como ausência de tradução apresentada; o build verifica a presença de apresentação portuguesa, mas não sua exaustividade ou rigor filológico."
   },
   "canonical_reference_sites": [
     "https://perseids-project.github.io/lsj-js/",
