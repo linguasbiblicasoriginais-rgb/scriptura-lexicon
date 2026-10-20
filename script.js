@@ -2039,6 +2039,9 @@ function buildTooltipContent(trigger) {
             '<div class="tooltip-block">' +
             '<span class="tooltip-label">Referência</span>' +
             '<div class="tooltip-value">' +
+            (trigger.dataset.tooltipTitle
+                ? '<em class="tooltip-biblio-title">' + escapeHtml(trigger.dataset.tooltipTitle) + '</em> '
+                : '') +
             escapeHtml(text) +
             "</div>" +
             "</div>"
