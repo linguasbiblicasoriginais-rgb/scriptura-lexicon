@@ -11,15 +11,15 @@
   "portuguese_articles_translated": 1500,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
-  "last_committed_source_batch": "lexicons/lsj-source-batch-0018.xml",
-  "source_batch_commit": "7c9e3a77df4787bee5bfa5b960a3a2e4f2e48b14",
-  "source_batch_blob": "2ba31c90badf1fe3a5155b997d8b7c56d511ed3f",
+  "last_committed_source_batch": "lexicons/lsj-source-batch-0019.xml",
+  "source_batch_commit": "e5d049b5081f58480d51343ac9f872a62c7f1a27",
+  "source_batch_blob": "df8ce7b761646f7af2b2423ac42c0e635e2c522f",
   "source_original_repository": "helmadik/LSJLogeion",
   "source_original_path": "greatscott14.xml",
   "source_original_blob_sha": "d30c9a82ac5302239c77f1e345087aca2aad9403",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
-  "last_lemma": "ἀδιακρισία",
+  "last_lemma": "ἀδρανίζομαι",
   "next_lemma": "Ἀδράστεια",
   "next_orig_id": "n1478",
   "next_source_file": "lexicons/lsj-source-batch-0002.xml",
@@ -383,8 +383,8 @@
       "next_lemma": "ἀσυνύπαρκτος"
     }
   ],
-  "source_batch_creation_commit_status": "identified",
-  "source_batch_publication_verified_at_head": "7c9e3a77df4787bee5bfa5b960a3a2e4f2e48b14",
+  "source_batch_creation_commit_status": "confirmed_remotely_at_commit_e5d049b",
+  "source_batch_publication_verified_at_head": "e5d049b5081f58480d51343ac9f872a62c7f1a27",
   "workflow_mode": "end_to_end_per_article_in_200_article_batches",
   "full_pipeline": {
     "schema_version": 1,
@@ -408,7 +408,7 @@
     "article_cards_integrated": 1500,
     "site_production_verified": 0,
     "blocking_rule": "Do not mark an article complete until its source, faithful PT translation, review, search row and full card have been checked; count live publication separately only with deploy evidence.",
-    "source_reuse": "22000 registros XML da camada Fonte preservados, NÃO considerados traduções; 300 apresentações portuguesas de trabalho compiladas.",
+    "source_reuse": "23000 registros XML na camada Fonte preservados, não contados como tradução; 1500 sínteses portuguesas de trabalho compiladas, não integrais ou homologadas.",
     "build_requirements": [
       "include LSJ module in lexicon-modules.json",
       "ensure source LSJ present in source-catalog.js",
@@ -1933,7 +1933,7 @@
       "deploy_production": "not_verified",
       "accurate_portuguese_translation_stage": "working_summaries_incomplete",
       "printed_1940_collation": "not_performed",
-      "integrity_sense_and_order": "55 artigos originais consultados nos XML e lemas IDs preservados; integral print collation pending"
+      "integrity_sense_and_order": "1500 identidades orig_id e ordinais preservadas a partir dos XML; inteireza das acepções e cotejo com edição impressa ainda pendentes"
     },
     "production_status": "NOT_PUBLISHED_NO_DEPLOY_EVIDENCE",
     "next_phase": "Lote 010, artigos 1501–1700; começar Ἀδράστεια (n1478).",
@@ -2090,12 +2090,12 @@
     }
   ],
   "source_extraction_current": {
-    "last_ordinal": 22000,
-    "next_ordinal": 22001,
-    "next_orig_id": "n21794",
-    "next_lemma": "Γελλώ",
-    "next_file": "greatscott14.xml",
-    "next_file_local_ordinal": 442
+    "last_ordinal": 23000,
+    "next_ordinal": 23001,
+    "next_orig_id": "n22789",
+    "next_lemma": "γραοτρεφής",
+    "next_file": "greatscott15.xml",
+    "next_file_local_ordinal": 785
   },
   "stage_history": [
     {
@@ -2367,6 +2367,40 @@
       "github_action_run": 39341244197,
       "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39341244197",
       "status": "SUCCESS; 1300 rows/cards/IDs unique, 0 collisions; print collation and deploy unverified"
+    },
+    {
+      "stage": "LSJ_TRANSLATION_AND_BUILD_1301_1500",
+      "batch": "0009",
+      "start_ordinal": 1301,
+      "end_ordinal": 1500,
+      "added_articles": 200,
+      "total_compiled": 1500,
+      "source_first_id": "n1284",
+      "source_last_id": "n1477",
+      "first_lemma": "ἀδιάκριτος",
+      "last_lemma": "ἀδρανίζομαι",
+      "next_id": "n1478",
+      "next_lemma": "Ἀδράστεια",
+      "module_count": 8,
+      "source": "lexicons/lsj-source-batch-0002.xml",
+      "source_xml_preserved_in_each_card": true,
+      "commit": "05dae49e4cfd59f77112296fbb4f325b39da4ec3",
+      "github_action_run": 39360948125,
+      "validation_result": "SUCCESS; LSJ_BUILD_CHECK_OK expected=1500 checked=1500; 1500 unique IDs and zero collisions",
+      "translation_status": "200 incomplete working Portuguese summaries, full TEI retained; no independent print collation",
+      "public_deploy_verified": false
+    },
+    {
+      "stage": "LSJ_SOURCE_CHECKPOINT_RECONCILIATION_23000",
+      "source_file": "lexicons/lsj-source-batch-0019.xml",
+      "source_file_sha": "df8ce7b761646f7af2b2423ac42c0e635e2c522f",
+      "source_commit": "e5d049b5081f58480d51343ac9f872a62c7f1a27",
+      "source_file_entries_verified": 1000,
+      "source_file_unique_orig_ids": 1000,
+      "source_ordinal_end": 23000,
+      "next_orig_id": "n22789",
+      "next_lemma": "γραοτρεφής",
+      "translation_cursor_separate": 1501
     }
   ],
   "last_committed_translation_batch": "lexicons/lsj-final-batch-0009-1476-1500.js",
