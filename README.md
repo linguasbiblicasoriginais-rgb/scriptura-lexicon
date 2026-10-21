@@ -371,3 +371,6 @@ Foram adicionados na branch `chat-gpt-lsj` 1.000 artigos da primeira metade de `
 ### LSJ — lote 9.001–10.000 (21/10/2026)
 
 Incorporados à branch `chat-gpt-lsj` mais 1.000 artigos tipográficos da segunda metade de `lexicons/lsj-source-batch-0009.xml`, de **ἀνθρωπήϊος** a **ἀντιδαπανάω**, em 40 módulos JS com 25 artigos, cada um com índice de busca e TEI original integral. Há 17 glosas em português de caráter preliminar; os outros 983 continuam com tradução pendente, sem atribuir ao LSJ sentidos que não tenham sido conferidos. Total manifestado: **10.000 / 116854 artigos estimados**. O número total é provisório e não corresponde a traduções integrais. Próximo artigo: **ἀντίδειξις**, ordinal 10.001. A compilação e a publicação do site devem ser verificadas separadamente.
+
+
+**LSJ — compilação confirmada (21/10/2026):** o [workflow GitHub Actions 39542906688](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688) validou 10.000 artigos LSJ, 10.000 linhas de pesquisa, 10.000 cartões, IDs únicos e nenhuma colisão no catálogo. Essa validação não equivale a revisão filológica integral, tradução integral ou publicação pública.

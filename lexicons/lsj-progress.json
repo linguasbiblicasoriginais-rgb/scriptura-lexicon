@@ -25,41 +25,41 @@
   "next_source_file": "lexicons/lsj-source-batch-0010.xml",
   "next_ordinal": 10001,
   "validation": {
-    "scope": "10000 artigos LSJ manifestados, 4053 apresentações/glosas preliminares, 5947 novos artigos posteriores sem glosa; TEI integral preservado. Nova CI ainda pendente, 0 traduções integrais homologadas, 0 deploy comprovados.",
+    "scope": "10000 artigos LSJ compilados, 10000 search-row, 10000 entry-card, 10000 IDs únicos, colisões 0; 4000 sínteses antigas incompletas e 53 glosas posteriores em caráter preliminar; nenhuma tradução integral filologicamente homologada; deploy público não comprovado.",
     "source_count": 23000,
     "translated_draft": 4012,
     "source_identity_checked_for_translations": 3300,
     "search_cards_prepared": 10000,
     "independent_full_collation_completed": 0,
     "frontend_integration": "6000 artigos manifestados; 2000 somente TEI sem tradução; build não comprovado",
-    "build_verification": false,
+    "build_verification": true,
     "production_deployment_verified": false,
     "build_verification_evidence": {
       "workflow": "LSJ — compilação e validação do índice",
-      "run_id": 39487850719,
-      "commit_sha": "b74ff07f4ce04774254b12113039543e8e33b848",
+      "run_id": 39542906688,
+      "commit_sha": "aee2efb584cf93756b85db8f4e17deee26f067d7",
       "conclusion": "success",
-      "actual_search_rows": 9000,
-      "actual_cards": 9000,
-      "unique_ids": 9000,
+      "actual_search_rows": 10000,
+      "actual_cards": 10000,
+      "unique_ids": 10000,
       "collisions": 0,
-      "verification": "LSJ_BUILD_CHECK_OK expected=9000 checked=9000",
-      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39487850719"
+      "verification": "LSJ_BUILD_CHECK_OK expected=10000 checked=10000",
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688"
     },
     "pending_workflow_note": "Verificador atualizado em 7ad4eb4 para aceitar seção 'Síntese portuguesa preliminar incompleta', sem fingir que resumos são traduções críticas integrais.",
     "latest_build_verification_evidence": {
       "workflow": "LSJ — compilação e validação do índice",
-      "run_id": 39487850719,
-      "commit_sha": "b74ff07f4ce04774254b12113039543e8e33b848",
+      "run_id": 39542906688,
+      "commit_sha": "aee2efb584cf93756b85db8f4e17deee26f067d7",
       "conclusion": "success",
-      "actual_search_rows": 9000,
-      "actual_cards": 9000,
-      "unique_ids": 9000,
+      "actual_search_rows": 10000,
+      "actual_cards": 10000,
+      "unique_ids": 10000,
       "collisions": 0,
-      "verification": "LSJ_BUILD_CHECK_OK expected=9000 checked=9000",
-      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39487850719"
+      "verification": "LSJ_BUILD_CHECK_OK expected=10000 checked=10000",
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688"
     },
-    "pending_build_for_commit": "LSJ artigos 9001–10000 aguardando workflow GitHub Actions."
+    "pending_build_for_commit": null
   },
   "canonical_reference_sites": [
     "https://perseids-project.github.io/lsj-js/",
@@ -415,7 +415,7 @@
     "full_cycle_articles_completed": 0,
     "current_batch_articles_completed": 0,
     "fully_completed_batches": 0,
-    "current_batch_status": "1000 artigos documentais 9001–10000 preparados, 17 glosas preliminares e 983 sem glosa. Verificação de build pendente neste commit. Nenhuma tradução integral homologada.",
+    "current_batch_status": "1000 artigos 9001–10000 incorporados, com 17 glosas preliminares e 983 artigos sem glosa nesta rodada; workflow 39542906688 SUCCESS, compilação de 10000 cartões/linhas e zero colisões. Traduções integrais e deploy público ainda não comprovados.",
     "translation_faithful_completed": 0,
     "source_individually_checked": 3300,
     "philological_review_completed": 0,
@@ -3767,8 +3767,8 @@
     },
     "translation_working_summaries_compiled": 3300,
     "translation_faithful_completed_legacy_note": "Campo histórico: contagens antigas de sínteses foram registradas sob nome ambíguo; NÃO constitui contagem de traduções completas revistas. Métrica inequívoca: translation_working_summaries_compiled.",
-    "last_build_verified_run": 39487850719,
-    "last_build_verified_commit": "b74ff07f4ce04774254b12113039543e8e33b848"
+    "last_build_verified_run": 39542906688,
+    "last_build_verified_commit": "aee2efb584cf93756b85db8f4e17deee26f067d7"
   },
   "legacy_source_extraction": {
     "records_existing": 16000,
@@ -3985,8 +3985,9 @@
       "tei_roundtrip_exact": 1000,
       "provisional_glosses": 17,
       "full_pt_translations": 0,
-      "build_verified": false,
-      "public_deploy_verified": false
+      "build_verified": true,
+      "public_deploy_verified": false,
+      "build_run_id": 39542906688
     }
   ],
   "source_extraction_current": {
@@ -4530,7 +4531,7 @@
   "last_committed_translation_batch": "lexicons/lsj-final-batch-0018-3276-3300.js",
   "global_progress": {
     "unit": "Artigos LSJ incorporados em cartões/índice de consulta (não equivalem a traduções homologadas)",
-    "incorporated_and_compiled": 9000,
+    "incorporated_and_compiled": 10000,
     "estimated_total": 116854,
     "estimated_total_is_provisional": true,
     "ratio": 0.08557687370564979,
@@ -4538,13 +4539,13 @@
     "source_records_distinct_from_product": 23000,
     "independent_print_collation_completed": 0,
     "public_deploy_verified": 0,
-    "last_verified_build_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39487850719",
+    "last_verified_build_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688",
     "unverified_prepared_drafts": 0,
     "full_translations_filologically_homologated": 0,
     "integrated_manifested": 10000,
     "working_preliminary_summaries_and_glosses": 4053,
     "source_only_pending_translation": 6000,
-    "build_new_batch_unverified": true
+    "build_new_batch_unverified": false
   },
   "articles_incorporated_manifested": 10000,
   "portuguese_articles_working_summaries": 4053,
