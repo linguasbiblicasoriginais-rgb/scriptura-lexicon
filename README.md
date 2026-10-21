@@ -392,3 +392,8 @@ Foram preparados **1.000 cartões documentais adicionais** na branch `chat-gpt-l
 
 
 **LSJ — compilação do lote 12.001–13.000 confirmada (21/10/2026):** o [workflow 39620632838](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39620632838) passou no commit `1172a4ebee1fc3c5fbdd696751de51878674f315`. Confirmados 13.000 cartões, 13.000 linhas de pesquisa, 13.000 IDs distintos e zero colisões no catálogo compilado. Traduções portuguesas integrais homologadas: **0**; deploy público: **não verificado**.
+
+
+### LSJ — lote 13.001–14.000 (21/10/2026)
+
+Foram incorporados à branch `chat-gpt-lsj` **1.000 cartões documentais adicionais**, do lema **ἀποκλείω** ao lema **ἀποστεφανόω**, em 40 módulos de 25 artigos, pela ordem real dos `div2` da segunda metade de `lexicons/lsj-source-batch-0011.xml`. Os 1.000 textos TEI integrais foram preservados sem substituição semântica. Todos os novos registros estão marcados **“Tradução portuguesa pendente”**: não constituem traduções portuguesas homologadas. Total manifestado: **14.000 / 116.854 artigos estimados (provisório)**; camada Fonte separada: 23.000 artigos. Próximo: **ἀποστηθίζω** (n13851), ordinal 14.001. CI/build e publicação em produção devem ser verificados separadamente.
