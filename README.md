@@ -384,3 +384,8 @@ A branch `chat-gpt-lsj` incorpora 1.000 artigos adicionais do arquivo TEI `lexic
 ### LSJ — lote 11.001–12.000 (21/10/2026)
 
 A segunda metade de `lexicons/lsj-source-batch-0010.xml` foi incorporada em 40 módulos JS (25 artigos cada), de **ἀνυπέροχος** a **ἀπενέπω**, com os 1.000 textos TEI preservados integralmente e 18 glosas de caráter preliminar. Total manifestado: **12.000 / 116.854 artigos estimados**. Os registros documentais não equivalem a traduções integrais revisadas. Próximo artigo: **ἀπενθής**, ordinal 12.001.
+
+
+### LSJ — lote 12.001–13.000 (21/10/2026)
+
+Foram preparados **1.000 cartões documentais adicionais** na branch `chat-gpt-lsj`, em 40 módulos de 25 artigos, do lema **ἀπενθής** ao lema **ἀπόκλειστος**, usando a primeira metade de `lexicons/lsj-source-batch-0011.xml`. Os 1.000 registros conservam o TEI integral e estão identificados para pesquisa. **Não há tradução portuguesa completa desses 1.000 artigos**: são registros documentais com a tradução pendente, não entregas lexicográficas homologadas. Total: **13.000 / 116.854 cartões manifestados (estimativa provisória)**; próxima entrada: **ἀποκλείω**, ordinal 13.001. A compilação, a colação filológica e o deploy público exigem comprovação independente.
