@@ -405,3 +405,6 @@ Foram incorporados à branch `chat-gpt-lsj` **1.000 cartões documentais adicion
 ### LSJ — lote 14.001–15.000 (21/10/2026)
 
 Incorporados **1.000 artigos documentais** em 40 módulos de 25, desde **ἀποστηθίζω** (n13851) até **ἀργυρόεις** (n14847), pelos primeiros 1.000 `div2` de `lexicons/lsj-source-batch-0012.xml`. Texto TEI original integral preservado e verificado na ida e volta HTML. Os novos cartões assinalam **“Tradução portuguesa pendente”**: não são 1.000 artigos integralmente traduzidos. Acumulado: **15.000 / 116.854 cartões estimados (denominador provisório)**; fonte documental distinta: 23.000 artigos. Próximo: **ἀργυρόηλος** (n14848), ordinal 15.001. A aprovação da CI e eventual deploy exigem comprovação independente.
+
+
+**LSJ — validação técnica de 15.000 artigos confirmada (21/10/2026):** [workflow GitHub Actions 39673142181](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39673142181) concluiu `success` no commit `79fb2829d34402352abec5b01d5c32bcfd145bc1`, com **15.000 linhas de pesquisa, 15.000 cartões, 15.000 IDs únicos e zero colisões**. Permanecem independentes e pendentes a tradução portuguesa integral, a revisão filológica do impresso e o deploy público; não apresentar registros documentais como traduções homologadas.
