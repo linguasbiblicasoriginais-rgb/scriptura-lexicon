@@ -374,3 +374,8 @@ Incorporados à branch `chat-gpt-lsj` mais 1.000 artigos tipográficos da segund
 
 
 **LSJ — compilação confirmada (21/10/2026):** o [workflow GitHub Actions 39542906688](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688) validou 10.000 artigos LSJ, 10.000 linhas de pesquisa, 10.000 cartões, IDs únicos e nenhuma colisão no catálogo. Essa validação não equivale a revisão filológica integral, tradução integral ou publicação pública.
+
+
+### LSJ — lote 10.001–11.000 (21/10/2026)
+
+A branch `chat-gpt-lsj` incorpora 1.000 artigos adicionais do arquivo TEI `lexicons/lsj-source-batch-0010.xml`, desde **ἀντίδειξις** até **ἀνυπέρθετος**, em 40 módulos de 25. Preservados integralmente os 1.000 textos TEI; 20 glosas portuguesas são preliminares, e os demais artigos mantêm indicação expressa de tradução pendente. Total registrado no manifesto: **11.000 / 116.854 artigos LSJ (estimativa provisória)**. A contagem não representa tradução integral. Próximo: **ἀνυπέροχος**, ordinal 11.001.
