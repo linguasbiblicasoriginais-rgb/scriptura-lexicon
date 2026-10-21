@@ -416,3 +416,8 @@ A branch `chat-gpt-lsj` contém **1.000 novos artigos documentais** em 40 módul
 
 
 **LSJ — compilação dos 16.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39677152379](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39677152379) terminou em `success` no commit `eee79fb0c9096cf4e5d9e3fd7fb9dc30163df0da`: **16.000 linhas de pesquisa, 16.000 cartões, 16.000 IDs exclusivos e zero colisões**. Isto confirma a compilação documental e estrutural, **não a tradução portuguesa integral**, a colação da edição impressa nem o deploy público.
+
+
+### LSJ — lote 16.001–17.000 (2026-10-21)
+
+Incorporados **1.000 artigos documentais** ao frontend em 40 módulos de 25, de **ἀρχαιόομαι** (n15847) a **ἀσυντρόχαστος** (n16844). Fonte canônica: `lexicons/lsj-source-batch-0013.xml`, com a sequência real dos 1.000 elementos `div2`. O TEI foi preservado integralmente e confrontado por ida/volta HTML. **Os 1.000 cartões permanecem com tradução portuguesa pendente**, sem homologação filológica integral. Total manifestado: **17.000 / 116.854 artigos estimados**; camada Fonte independente: 23.000 registros. Próximo ordinal 17.001: **ἀσυνύπαρκτος** (n16845), fonte `lsj-source-batch-0014.xml`. A validação da compilação e o deploy exigem confirmação separada.
