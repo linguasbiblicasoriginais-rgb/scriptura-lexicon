@@ -8,7 +8,7 @@
   "total_estimate_provisional": true,
   "batch_size": 200,
   "source_records_incorporated": 23000,
-  "portuguese_articles_translated": 3700,
+  "portuguese_articles_translated": 0,
   "portuguese_articles_reviewed": 0,
   "ui_articles_published": 0,
   "last_committed_source_batch": "lexicons/lsj-source-batch-0019.xml",
@@ -19,33 +19,47 @@
   "source_original_blob_sha": "d30c9a82ac5302239c77f1e345087aca2aad9403",
   "source_licence": "CC BY-SA 4.0; crédito Perseus Tufts, Gregory Crane, Helma Dik/Logeion",
   "first_lemma": "Α α",
-  "last_lemma": "ἀκροτελεύτιον",
-  "next_lemma": "ἀκροτελής",
-  "next_orig_id": "n3646",
-  "next_source_file": "lexicons/lsj-source-batch-0004.xml",
-  "next_ordinal": 3701,
+  "last_lemma": "ἀπενέπω",
+  "next_lemma": "ἀπενθής",
+  "next_orig_id": "n11857",
+  "next_source_file": "lexicons/lsj-source-batch-0011.xml",
+  "next_ordinal": 12001,
   "validation": {
-    "scope": "3300 artigos LSJ com sínteses portuguesas preliminares incompletas, 3300 cartões/linhas/IDs únicos e 0 colisões; na rodada de 1000 artigos, 1000 TEI originais verificados por igualdade de texto exata com os respectivos div2 dos XMLs canônicos 0003/0004. Sem tradução crítica integral, cotejo independente da Oxford 1940 ou deploy público comprovados.",
+    "scope": "12000 cartões/linhas de consulta registrados; fonte TEI integral confrontada no intervalo 11001–12000 (1000 registros), 0 traduções integrais homologadas, compilação 12000 ainda pendente.",
     "source_count": 23000,
-    "translated_draft": 3700,
+    "translated_draft": 4012,
     "source_identity_checked_for_translations": 3300,
-    "search_cards_prepared": 3700,
+    "search_cards_prepared": 12000,
     "independent_full_collation_completed": 0,
-    "frontend_integration": "3700 módulos/artigos manifestados; compilação dos lotes 019–020 pendente",
+    "frontend_integration": "6000 artigos manifestados; 2000 somente TEI sem tradução; build não comprovado",
     "build_verification": false,
     "production_deployment_verified": false,
     "build_verification_evidence": {
       "workflow": "LSJ — compilação e validação do índice",
-      "run_id": 39368297943,
-      "commit_sha": "7ad4eb4b47e9a13efe6773aa528f6c392ba260a2",
+      "run_id": 39542906688,
+      "commit_sha": "aee2efb584cf93756b85db8f4e17deee26f067d7",
       "conclusion": "success",
-      "actual_cards": 3300,
-      "actual_search_rows": 3300,
-      "unique_ids": 3300,
+      "actual_search_rows": 10000,
+      "actual_cards": 10000,
+      "unique_ids": 10000,
       "collisions": 0,
-      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39368297943"
+      "verification": "LSJ_BUILD_CHECK_OK expected=10000 checked=10000",
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688"
     },
-    "pending_workflow_note": "Verificador atualizado em 7ad4eb4 para aceitar seção 'Síntese portuguesa preliminar incompleta', sem fingir que resumos são traduções críticas integrais."
+    "pending_workflow_note": "Verificador atualizado em 7ad4eb4 para aceitar seção 'Síntese portuguesa preliminar incompleta', sem fingir que resumos são traduções críticas integrais.",
+    "latest_build_verification_evidence": {
+      "workflow": "LSJ — compilação e validação do índice",
+      "run_id": 39542906688,
+      "commit_sha": "aee2efb584cf93756b85db8f4e17deee26f067d7",
+      "conclusion": "success",
+      "actual_search_rows": 10000,
+      "actual_cards": 10000,
+      "unique_ids": 10000,
+      "collisions": 0,
+      "verification": "LSJ_BUILD_CHECK_OK expected=10000 checked=10000",
+      "url": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688"
+    },
+    "pending_build_for_commit": "LSJ 11001–12000 aguardando GitHub Actions"
   },
   "canonical_reference_sites": [
     "https://perseids-project.github.io/lsj-js/",
@@ -392,24 +406,24 @@
     "unit": "one typographic LSJ article",
     "batch_size": 200,
     "start_ordinal": 1,
-    "current_batch": 21,
-    "batch_start_ordinal": 3701,
-    "batch_end_ordinal": 3900,
-    "next_article_ordinal": 3701,
-    "next_orig_id": "n3646",
-    "next_lemma": "ἀκροτελής",
+    "current_batch": 31,
+    "batch_start_ordinal": 11001,
+    "batch_end_ordinal": 12000,
+    "next_article_ordinal": 12001,
+    "next_orig_id": "n11857",
+    "next_lemma": "ἀπενθής",
     "full_cycle_articles_completed": 0,
     "current_batch_articles_completed": 0,
     "fully_completed_batches": 0,
-    "current_batch_status": "lote_0020_manifestado; build_nao_confirmado",
-    "translation_faithful_completed": 1300,
+    "current_batch_status": "1000 artigos 11001–12000 em 40 módulos; 18 glosas provisórias e 982 artigos sem glosa; build aguardando nova CI; nenhuma tradução integral homologada.",
+    "translation_faithful_completed": 0,
     "source_individually_checked": 3300,
     "philological_review_completed": 0,
-    "search_rows_integrated": 3700,
-    "article_cards_integrated": 3700,
+    "search_rows_integrated": 12000,
+    "article_cards_integrated": 12000,
     "site_production_verified": 0,
     "blocking_rule": "Do not mark an article complete until its source, faithful PT translation, review, search row and full card have been checked; count live publication separately only with deploy evidence.",
-    "source_reuse": "23000 artigos TEI na camada Fonte (não traduzidos por mera extração); 3300 artigos com síntese portuguesa preliminar compilados; não equivalentes a tradução integral.",
+    "source_reuse": "23000 textos TEI na camada Fonte independente, 12000 cartões manifestados; 4000 apresentações históricas incompletas, 91 glosas recentes e 7909 artigos posteriores sem glosa; zero traduções integrais homologadas.",
     "build_requirements": [
       "include LSJ module in lexicon-modules.json",
       "ensure source LSJ present in source-catalog.js",
@@ -418,9 +432,9 @@
       "verify deployment if available"
     ],
     "limitation": "100 artigos por lote são a meta negociada, não garantia de revisão filológica integral e deploy em uma execução; registrar sempre entregas realmente verificadas.",
-    "first_translated_ordinal": 1,
-    "last_translated_ordinal": 3700,
-    "last_translated_orig_id": "n3645",
+    "first_translated_ordinal": null,
+    "last_translated_ordinal": 0,
+    "last_translated_orig_id": null,
     "prepared_entries": [
       "n0",
       "n1",
@@ -3723,7 +3737,7 @@
       "n3245",
       "n3246"
     ],
-    "translation_state": "3700 artigos com síntese portuguesa preliminar ou acepção expressamente pendente. Tradução integral não homologada; build comprovado até 3300.",
+    "translation_state": "6000 cartões manifestados; 4000 sínteses portuguesas anteriores, incompletas e não homologadas; 2000 apenas TEI com tradução pendente.",
     "checks": {
       "manuscript_source_source_batch_sha": "5953f6923adb9fc2870b44f32697679c41279864",
       "js_module_path": "lexicons/lsj-final-batch-0001.js",
@@ -3752,7 +3766,9 @@
       "previous_translation_batch_status": "Sublote 018 (200 artigos) compilado com 800 anteriores; 1000 resumos preliminares de trabalho, 1000 TEI conferidos, sucesso CI 39368297943, 0 colisões; revisão integral e deploy pendentes."
     },
     "translation_working_summaries_compiled": 3300,
-    "translation_faithful_completed_legacy_note": "Campo histórico: contagens antigas de sínteses foram registradas sob nome ambíguo; NÃO constitui contagem de traduções completas revistas. Métrica inequívoca: translation_working_summaries_compiled."
+    "translation_faithful_completed_legacy_note": "Campo histórico: contagens antigas de sínteses foram registradas sob nome ambíguo; NÃO constitui contagem de traduções completas revistas. Métrica inequívoca: translation_working_summaries_compiled.",
+    "last_build_verified_run": 39542906688,
+    "last_build_verified_commit": "aee2efb584cf93756b85db8f4e17deee26f067d7"
   },
   "legacy_source_extraction": {
     "records_existing": 16000,
@@ -3888,6 +3904,136 @@
       "end_ordinal": 69,
       "module_blob": "74367a86390c5f45c00a19ec459ad0c2c2f2a58e",
       "status": "11 Portuguese draft translations, source retained, no print collation or deploy"
+    },
+    {
+      "date": "2026-10-20",
+      "range": [
+        6001,
+        7000
+      ],
+      "first": "ἀμφικεύθω",
+      "last": "ἀνακωχή",
+      "modules": 40,
+      "source": "lexicons/lsj-source-batch-0007.xml",
+      "status": "documentary-manifested-TEI",
+      "provisional_glosses": 12,
+      "full_pt_translations": 0,
+      "philological_review": 0,
+      "build_verified": true,
+      "public_deploy_verified": false,
+      "build_run_id": 39482289169
+    },
+    {
+      "date": "2026-10-20",
+      "range": [
+        7001,
+        8000
+      ],
+      "first_lemma": "ἀναλάζομαι",
+      "last_lemma": "ἀνδηρευτής",
+      "source": "lexicons/lsj-source-batch-0008.xml",
+      "modules": 40,
+      "source_texts": 1000,
+      "search_rows": 1000,
+      "entry_cards": 1000,
+      "provisional_glosses": 12,
+      "full_pt_translations": 0,
+      "build_verified": true,
+      "public_deploy_verified": false,
+      "build_run_id": 39483789192
+    },
+    {
+      "date": "2026-10-20",
+      "range": [
+        8001,
+        9000
+      ],
+      "first_lemma": "ἄνδηρον",
+      "last_lemma": "ἀνθρωπεύομαι",
+      "source": "lexicons/lsj-source-batch-0009.xml",
+      "source_local_ordinals": [
+        1,
+        1000
+      ],
+      "modules": 40,
+      "source_texts": 1000,
+      "search_rows": 1000,
+      "entry_cards": 1000,
+      "provisional_glosses": 12,
+      "full_pt_translations": 0,
+      "build_verified": true,
+      "public_deploy_verified": false,
+      "build_run_id": 39487850719
+    },
+    {
+      "date": "2026-10-21",
+      "range": [
+        9001,
+        10000
+      ],
+      "first_lemma": "ἀνθρωπήϊος",
+      "last_lemma": "ἀντιδαπανάω",
+      "source": "lexicons/lsj-source-batch-0009.xml",
+      "source_local_ordinals": [
+        1001,
+        2000
+      ],
+      "modules": 40,
+      "source_texts": 1000,
+      "search_rows": 1000,
+      "entry_cards": 1000,
+      "tei_roundtrip_exact": 1000,
+      "provisional_glosses": 17,
+      "full_pt_translations": 0,
+      "build_verified": true,
+      "public_deploy_verified": false,
+      "build_run_id": 39542906688
+    },
+    {
+      "date": "2026-10-21",
+      "range": [
+        10001,
+        11000
+      ],
+      "first_lemma": "ἀντίδειξις",
+      "last_lemma": "ἀνυπέρθετος",
+      "source": "lexicons/lsj-source-batch-0010.xml",
+      "source_local_ordinals": [
+        1,
+        1000
+      ],
+      "modules": 40,
+      "source_texts": 1000,
+      "search_rows": 1000,
+      "entry_cards": 1000,
+      "tei_roundtrip_exact": 1000,
+      "provisional_glosses": 20,
+      "full_pt_translations": 0,
+      "build_verified": false,
+      "public_deploy_verified": false
+    },
+    {
+      "date": "2026-10-21",
+      "range": [
+        11001,
+        12000
+      ],
+      "first_lemma": "ἀνυπέροχος",
+      "last_lemma": "ἀπενέπω",
+      "source": "lexicons/lsj-source-batch-0010.xml",
+      "source_local_ordinals": [
+        1001,
+        2000
+      ],
+      "modules": 40,
+      "source_texts": 1000,
+      "search_rows": 1000,
+      "entry_cards": 1000,
+      "tei_roundtrip_exact": 1000,
+      "provisional_glosses": 18,
+      "full_pt_translations": 0,
+      "build_verified": false,
+      "public_deploy_verified": false
     }
   ],
   "source_extraction_current": {
@@ -4430,17 +4576,27 @@
   ],
   "last_committed_translation_batch": "lexicons/lsj-final-batch-0018-3276-3300.js",
   "global_progress": {
-    "unit": "Artigos LSJ com sínteses portuguesas preliminares, preservação TEI e compilação validada; não equivalem a tradução integral homologada ou deploy público",
-    "incorporated_and_compiled": 3300,
+    "unit": "Artigos LSJ incorporados em cartões/índice de consulta (não equivalem a traduções homologadas)",
+    "incorporated_and_compiled": 10000,
     "estimated_total": 116854,
     "estimated_total_is_provisional": true,
-    "ratio": 0.028240368322864428,
-    "remaining_estimate": 113554,
+    "ratio": 0.10269224844677974,
+    "remaining_estimate": 104854,
     "source_records_distinct_from_product": 23000,
     "independent_print_collation_completed": 0,
     "public_deploy_verified": 0,
-    "last_verified_build_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39368297943",
+    "last_verified_build_run": "https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688",
     "unverified_prepared_drafts": 0,
-    "full_translations_filologically_homologated": 0
-  }
+    "full_translations_filologically_homologated": 0,
+    "integrated_manifested": 12000,
+    "working_preliminary_summaries_and_glosses": 4091,
+    "source_only_pending_translation": 8000,
+    "build_new_batch_unverified": true
+  },
+  "articles_incorporated_manifested": 12000,
+  "portuguese_articles_working_summaries": 4091,
+  "source_only_pending_translation": 8000,
+  "portuguese_glosses_new_provisional": 91,
+  "portuguese_full_translations_verified": 0,
+  "last_committed_presentation_batch": "lexicons/lsj-final-batch-0031-11976-12000.js"
 }

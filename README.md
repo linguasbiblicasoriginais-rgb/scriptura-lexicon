@@ -342,3 +342,45 @@ As contribuições devem respeitar independência das fontes, atribuição bibli
 ---
 
 **Scriptura Lexicon** — a tradição lexicográfica preservada em suas diferenças, organizada para consulta e investigação em língua portuguesa.
+
+
+### LSJ — atualização documental de 20/10/2026 (ordinais 6001–7000)
+
+A branch `chat-gpt-lsj` recebeu 1.000 artigos adicionais no manifesto da interface (40 módulos de 25), vinculados ao TEI de `lexicons/lsj-source-batch-0007.xml`. Os lemas vão de **ἀμφικεύθω** a **ἀνακωχή**. Há 12 glosas portuguesas estritamente preliminares nos primeiros 12 artigos; as outras 988 entradas da rodada conservam indicação de tradução pendente. Os cartões preservam o TEI original e as remissões, sem se apresentarem como tradução integral. Total manifestado: 7.000 artigos; nenhuma tradução integral homologada. Último build comprovado anteriormente: 3.300 cartões; a verificação da nova compilação e do deploy público é independente e não foi presumida. Próximo lema: **ἀναλάζομαι** (ordinal 7.001).
+
+
+**Validação do LSJ (20/10/2026):** [GitHub Actions 39482289169](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39482289169) concluiu com sucesso a compilação e as verificações de índice e cartões: 7.000 artigos LSJ, 7.000 IDs únicos e zero colisões. Este resultado não comprova tradução integral nem publicação do site.
+
+
+### LSJ — continuação da incorporação (artigos 7.001–8.000, 20/10/2026)
+
+Na branch `chat-gpt-lsj` foi incorporado ao manifesto o lote documental `lexicons/lsj-source-batch-0008.xml`: 1.000 novos artigos, de **ἀναλάζομαι** a **ἀνδηρευτής**, em 40 módulos de 25 cartões. Foram redigidas 12 glosas portuguesas preliminares sem pretensão de tradução integral e conservado todo o TEI original. O acumulado na interface passou a **8.000 artigos LSJ / cerca de 116.854 artigos estimados**; a cifra de referência é provisória. Não confundir 8.000 cartões com 8.000 traduções. A verificação de build, CI, homologação editorial e deploy público deve ser relatada separadamente. Próximo artigo: **ἄνδηρον**, ordinal 8.001.
+
+
+**Verificação técnica LSJ (20/10/2026):** [workflow 39483789192](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39483789192) concluiu com êxito a compilação de 8.000 cartões/linhas de busca LSJ, identificadores únicos e ausência de colisões. Tradução integral e publicação pública permanecem independentes dessa validação.
+
+
+### LSJ — incorporação documental 8.001–9.000 (20/10/2026)
+
+Foram adicionados na branch `chat-gpt-lsj` 1.000 artigos da primeira metade de `lexicons/lsj-source-batch-0009.xml`, do lema **ἄνδηρον** ao lema **ἀνθρωπεύομαι**, em 40 módulos de consulta. Foram redigidas 12 glosas provisórias, sem declaração de tradução integral; os demais conservam marcação explícita de tradução pendente. Os dados TEI originais são preservados nos cartões. A incorporação no manifesto alcançou **9.000 / 116.854 artigos estimados**; revisão filológica independente e publicação pública devem ser verificadas separadamente. Próximo artigo: **ἀνθρωπήϊος** (ordinal 9.001).
+
+
+**Validação CI do LSJ em 20/10/2026:** o [workflow 39487850719](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39487850719) confirmou 9.000 cartões LSJ, 9.000 linhas de busca, 9.000 identificadores únicos e nenhuma colisão. Publicação pública, revisão filológica integral e traduções completas não foram comprovadas.
+
+
+### LSJ — lote 9.001–10.000 (21/10/2026)
+
+Incorporados à branch `chat-gpt-lsj` mais 1.000 artigos tipográficos da segunda metade de `lexicons/lsj-source-batch-0009.xml`, de **ἀνθρωπήϊος** a **ἀντιδαπανάω**, em 40 módulos JS com 25 artigos, cada um com índice de busca e TEI original integral. Há 17 glosas em português de caráter preliminar; os outros 983 continuam com tradução pendente, sem atribuir ao LSJ sentidos que não tenham sido conferidos. Total manifestado: **10.000 / 116854 artigos estimados**. O número total é provisório e não corresponde a traduções integrais. Próximo artigo: **ἀντίδειξις**, ordinal 10.001. A compilação e a publicação do site devem ser verificadas separadamente.
+
+
+**LSJ — compilação confirmada (21/10/2026):** o [workflow GitHub Actions 39542906688](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688) validou 10.000 artigos LSJ, 10.000 linhas de pesquisa, 10.000 cartões, IDs únicos e nenhuma colisão no catálogo. Essa validação não equivale a revisão filológica integral, tradução integral ou publicação pública.
+
+
+### LSJ — lote 10.001–11.000 (21/10/2026)
+
+A branch `chat-gpt-lsj` incorpora 1.000 artigos adicionais do arquivo TEI `lexicons/lsj-source-batch-0010.xml`, desde **ἀντίδειξις** até **ἀνυπέρθετος**, em 40 módulos de 25. Preservados integralmente os 1.000 textos TEI; 20 glosas portuguesas são preliminares, e os demais artigos mantêm indicação expressa de tradução pendente. Total registrado no manifesto: **11.000 / 116.854 artigos LSJ (estimativa provisória)**. A contagem não representa tradução integral. Próximo: **ἀνυπέροχος**, ordinal 11.001.
+
+
+### LSJ — lote 11.001–12.000 (21/10/2026)
+
+A segunda metade de `lexicons/lsj-source-batch-0010.xml` foi incorporada em 40 módulos JS (25 artigos cada), de **ἀνυπέροχος** a **ἀπενέπω**, com os 1.000 textos TEI preservados integralmente e 18 glosas de caráter preliminar. Total manifestado: **12.000 / 116.854 artigos estimados**. Os registros documentais não equivalem a traduções integrais revisadas. Próximo artigo: **ἀπενθής**, ordinal 12.001.
