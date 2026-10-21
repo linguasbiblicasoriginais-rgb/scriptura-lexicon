@@ -389,3 +389,6 @@ A segunda metade de `lexicons/lsj-source-batch-0010.xml` foi incorporada em 40 m
 ### LSJ — lote 12.001–13.000 (21/10/2026)
 
 Foram preparados **1.000 cartões documentais adicionais** na branch `chat-gpt-lsj`, em 40 módulos de 25 artigos, do lema **ἀπενθής** ao lema **ἀπόκλειστος**, usando a primeira metade de `lexicons/lsj-source-batch-0011.xml`. Os 1.000 registros conservam o TEI integral e estão identificados para pesquisa. **Não há tradução portuguesa completa desses 1.000 artigos**: são registros documentais com a tradução pendente, não entregas lexicográficas homologadas. Total: **13.000 / 116.854 cartões manifestados (estimativa provisória)**; próxima entrada: **ἀποκλείω**, ordinal 13.001. A compilação, a colação filológica e o deploy público exigem comprovação independente.
+
+
+**LSJ — compilação do lote 12.001–13.000 confirmada (21/10/2026):** o [workflow 39620632838](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39620632838) passou no commit `1172a4ebee1fc3c5fbdd696751de51878674f315`. Confirmados 13.000 cartões, 13.000 linhas de pesquisa, 13.000 IDs distintos e zero colisões no catálogo compilado. Traduções portuguesas integrais homologadas: **0**; deploy público: **não verificado**.
