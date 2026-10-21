@@ -429,3 +429,6 @@ Incorporados **1.000 artigos documentais** ao frontend em 40 módulos de 25, de 
 ### LSJ — lote 17.001–18.000 (21/10/2026)
 
 Incorporados **1.000 novos artigos documentais** da fonte `lexicons/lsj-source-batch-0014.xml`, de **ἀσυνύπαρκτος** (n16845) a **αὐτοξενεῖν** (n17839), em 40 módulos de 25 artigos. O texto TEI integral foi conservado e confrontado por ida/volta HTML; 1.000 identificadores e ordinais distintos. **Todos os novos artigos têm tradução portuguesa pendente**, não sendo verbetes integralmente traduzidos ou homologados. Total manifestado: **18.000 / 116.854 artigos estimados** (denominador provisório); a camada documental Fonte mantém 23.000 entradas separadas. Próximo: **αὐτόξεστος** (n17840), ordinal 18.001, fonte `lsj-source-batch-0015.xml`. CI, colação filológica e deploy público deverão ser verificados separadamente.
+
+
+**LSJ — compilação de 18.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39681834256](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39681834256) concluiu em `success` no commit `b4388c80850839789b07d23f4a51198b56cf54ae`, com **18.000 linhas de pesquisa, 18.000 cartões, 18.000 IDs exclusivos e zero colisões**. Verificação técnica, não comprovação de tradução portuguesa integral, cotejo independente do impresso ou deploy público.
