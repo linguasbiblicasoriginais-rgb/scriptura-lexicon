@@ -8,7 +8,8 @@ A seção **Escrituras Sagradas**, acima de **Dicionários** no menu lateral, co
 2. **Septuaginta (LXX)** — catálogo textual independente;
 3. **Novo Testamento Grego – Texto Crítico (NA28)**;
 4. **Novo Testamento Grego – Texto Crítico (UBS5)**;
-5. **Novo Testamento Grego – Texto Recebido (TR)** — edição textual específica ainda por fixar.
+5. **Novo Testamento Grego – Texto Recebido (TR)** — edição textual específica ainda por fixar;
+6. **Biblia Sacra Vulgata (VUL)** — catálogo de livros latinos recebido do usuário, com edição textual exata ainda não indicada.
 
 O leitor permite selecionar **edição, livro, capítulo e um número de versículo**, navegar entre capítulos, copiar a referência e abrir o **capítulo** no portal oficial das quatro primeiras edições quando o identificador do livro é mapeável. A interface usa hash de URL, por exemplo `#escrituras/BHS/GEN.1.1`, sem sobrepor o roteamento dos dicionários.
 
@@ -19,6 +20,7 @@ O leitor permite selecionar **edição, livro, capítulo e um número de versíc
 - **BHS:** 39 unidades de navegação. A tradição hebraica dos 24 livros é representada por agrupamentos de Samuel, Reis, Crônicas, Esdras–Neemias e os Doze, enquanto a seleção individual preserva a referência usual a cada volume.
 - **LXX:** 62 unidades, inclusive variantes e materiais adicionais explicitamente presentes na lista fornecida. As variantes de Josué, Juízes, Tobias, Daniel, Susana e Bel e o Dragão não são fundidas às demais tradições. **Josué A (3 capítulos)** e **Sirácida (52 capítulos)** foram conservados conforme a relação fornecida e exigem cotejo editorial: sua presença no índice não atesta que essas delimitações tenham sido verificadas na edição digital da LXX.
 - **NA28, UBS5 e TR:** 27 livros cada, mantidos sob namespaces textuais distintos.
+- **VUL:** 78 unidades de navegação no catálogo independente — **39** no Antigo Testamento, **27** no Novo Testamento e **12** no grupo “Apócrifos”, de acordo com a lista recebida. Esta classificação reproduz as categorias fornecidas, sem estabelecer juízo de canonicidade.
 
 Os livros da BHS com contagens divergentes das divisões correntes foram ajustados no catálogo de navegação para: Cântico dos Cânticos **8**, Rute **4**, Lamentações **5**, Eclesiastes **12**, Ester **10**, 1 Crônicas **29** e 2 Crônicas **36**. Samuel (31+24), Reis (22+25) e Esdras–Neemias (10+13) ficam subdivididos sem perder o agrupamento da Bíblia hebraica. Joel conserva os quatro capítulos do cômputo hebraico informado.
 
@@ -61,6 +63,37 @@ O exemplo é **estrutura de dados, não conteúdo da BHS**. O componente exibe a
 
 A atribuição da edição e eventuais autorizações necessárias para disponibilizar publicamente o texto são questões editoriais independentes da fidelidade da transcrição.
 
+## Estrutura da Biblia Sacra Vulgata — VUL
+
+**Estado:** catálogo incorporado em 22/10/2026; **nenhum versículo latino publicado** nesta etapa.
+
+**Procedência do catálogo:** lista enviada pelo usuário, contendo nomes latinos, nomes portugueses e a quantidade de capítulos. A edição textual latina específica (por exemplo, texto de uma Vulgata crítica ou de outra tradição editorial) **não foi identificada** e não pode ser presumida a partir da designação VUL.
+
+**Inventário preservado:**
+
+| Divisão | Livros/unidades |
+| --- | ---: |
+| Antigo Testamento · Pentateuco | 5 |
+| Antigo Testamento · Livros Históricos | 12 |
+| Antigo Testamento · Livros Poéticos e Sapienciais | 5 |
+| Antigo Testamento · Profetas maiores | 5 |
+| Antigo Testamento · Profetas menores | 12 |
+| Novo Testamento · Evangelhos | 4 |
+| Novo Testamento · Atos | 1 |
+| Novo Testamento · Epístolas paulinas | 13 |
+| Novo Testamento · Epístolas universais | 8 |
+| Novo Testamento · Apocalipse | 1 |
+| Apócrifos (categoria da lista fornecida) | 12 |
+| **Total** | **78** |
+
+As contagens de capítulos foram mantidas **exatamente como informadas**: entre outros exemplos, *Liber Hester* (16), *Danihel Propheta* (14), *Iohel Propheta* (3), *Malachi Propheta* (4), *Liber Iesu Filii Sirach* (52) e *Liber Baruch* (6). O catálogo inclui *Psalmi Iuxta Hebr.* (150), *Psalmus CLI* (1), *Oratio Manasse* (1), *Liber Ezrae III* (9), *Liber Ezrae IV* (16) e *Ad Laodicenses* (1), sem deduzir correspondência textual com outras edições. **Esses números ainda não foram cotejados com uma edição crítica escolhida.**
+
+A repetição do cabeçalho “Epístolas universais” na lista de entrada foi consolidada num único agrupamento visual, sem excluir *Ad Hebraeos*. Os demais nomes editoriais latinos foram conservados, inclusive grafias como *Samuhelis*, *Malachim*, *Neemiae*, *Hester*, *Danihel* e *Zaccharias*.
+
+**Implementação:** `scriptures/catalog-vul.js` contém os metadados em `window.ScripturaVulCatalog`; `scriptures/reader.js` integra a edição `VUL` ao menu, aos agrupamentos de livros e à navegação por capítulo e referência de versículo. No futuro, os versículos deverão ser carregados exclusivamente em `window.ScripturaScriptureTexts.VUL[bookId][chapter]`, usando `lang="la"` e `dir="ltr"`. O leitor **não cria URL da editora** para a VUL enquanto não houver fonte externa verificada. Nenhum texto de outra edição é apresentado como VUL.
+
+**Exemplo de referência:** `#escrituras/VUL/GEN.1.1`. A seleção de números de versículo em capítulos ainda sem texto é provisória e não atesta o número real de versos do capítulo.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
@@ -79,4 +112,4 @@ Os links não transferem direitos de reprodução. **Não realizar raspagem, tra
 - Incorporar apenas texto permitido e efetivamente cotejado, mantendo registro de procedência e correções.
 - Testar interface em navegador e leitor de tela; os commits desta etapa não constituem homologação editorial do corpus.
 
-Arquivos: `scriptures/reader.js`, `scriptures/reader.css`, integração em `index.html` e `script.js`.
+Arquivos: `scriptures/reader.js`, `scriptures/reader.css`, `scriptures/catalog-vul.js`, integração em `index.html` e `script.js`.
