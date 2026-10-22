@@ -101,6 +101,24 @@ A atribuição da edição e eventuais autorizações necessárias para disponib
 
 **Limites filológicos e legais:** a atribuição à UBS5 foi informada pelo usuário. Não houve cotejo crítico independente contra o texto impresso, nem incorporação do aparato. Os direitos de publicação precisam ser tratados separadamente do registro interno da transcrição.
 
+## Estrutura da Biblia Sacra Vulgata (VUL)
+
+A estrutura da Vulgata foi incorporada nesta branch a partir do catálogo já criado em `chat-gpt-melhorias`, **sem mesclar outras alterações daquela branch**. O arquivo `scriptures/catalog-vul.js` contém 78 unidades independentes: **39** livros sob o Antigo Testamento, **27** sob o Novo Testamento e **12** entradas na seção denominada «Apócrifos» pela relação fornecida pelo usuário. As grafias latinas e o número de capítulos preservam a fonte enviada, incluindo *Liber Hester* (16), *Danihel Propheta* (14), *Iohel Propheta* (3), *Malachi Propheta* (4) e *Psalmus CLI* (1). A classificação de apócrifos é reproduzida sem julgamento de canonicidade.
+
+O catálogo é carregado **antes** de `scriptures/reader.js`, e `VUL` é uma edição independente, com navegação por livro, capítulo e versículo. Os versículos de capítulos ainda não fornecidos permanecem indisponíveis. O sistema não inventa vínculos de consulta externa para essa edição.
+
+## Incorporação textual 005 — Gênesis 1 (VUL)
+
+- **Material textual:** transcrição em latim fornecida diretamente pelo usuário em 22/10/2026 e designada «Vulgata (VUL)», **não cotejada independentemente** com uma edição crítica ou impressa.
+- **Arquivo:** `scriptures/texts/vul-genesis-1.js`, que registra `window.ScripturaScriptureTexts.VUL.GEN[1]` com **31 entradas**, uma por versículo, sem compartilhar cadeias com BHS ou LXX.
+- **Segmentação:** números 1 a 31 tratados exclusivamente como metadados de versificação. Os quatro encontros entre a última palavra de um versículo e o número do seguinte, em `bonum11`, `terram18`, `bonum26` e `escam30`, foram separados sem inserir palavras, sinais ou espaços inexistentes na fonte.
+- **Formatação:** as barras invertidas que delimitavam linhas no material recebido foram traduzidas em **quebras de linha internas** das entradas textuais, para apresentação por `white-space: pre-line`; isso é transformação de layout, não normalização ortográfica.
+- **Preservação:** foram mantidas as grafias `caelum`, `inluminent`, `adferentem`, `cete`, `semet`, a redação e a pontuação conforme a transcrição enviada.
+- **Idioma:** `lang="la"`, direção `ltr`.
+- **Consulta:** `#escrituras/VUL/GEN.1.1`; seleção de versículos de 1 a 31.
+
+**Limites:** o rótulo VUL identifica o namespace solicitado, não atesta qual edição específica da tradição vulgata é representada pelo texto enviado. Nenhuma colação da versão impressa, do aparato crítico ou de direitos de republicação foi concluída. Não declarar homologação editorial.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
