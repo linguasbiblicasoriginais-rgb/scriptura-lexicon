@@ -103,6 +103,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Popups lexicais por palavra:** os textos bíblicos incorporados contam com consulta interativa de cada palavra, transliteração mecânica para hebraico e grego e minidicionário editorial introdutório de **cobertura parcial**; palavras sem glosa validada são identificadas explicitamente. O texto canônico permanece inalterado, e não são atribuídos verbetes automaticamente aos léxicos de referência.
 
+**Sétima incorporação textual:** Gênesis 3–10 (BHS), **oito capítulos e 211 versículos** fornecidos pelo usuário, com *niqqud*, acentos de cantilação, caracteres originais e **26 sinais de parashah** (10 פ abertas e 16 ס fechadas) em metadados. Os dez primeiros capítulos de Gênesis na BHS somam agora **267 versículos**; popups por palavra e testes de regressão abrangem o novo lote. O cotejo independente com a edição impressa permanece pendente.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
