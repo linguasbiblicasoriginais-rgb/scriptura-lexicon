@@ -146,11 +146,39 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         const sectionBreakSet = new Set(sectionBreaks.map(Number));
         const editorialSeparators = window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const editorialSeparatorSet = new Set(editorialSeparators.map(Number));
+        const headings = window.ScripturaScriptureHeadings?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
+        const headingsByVerse = new Map(headings.map(function (heading) {
+            return [heading.beforeVerse, heading];
+        }));
         verses.forEach(function (entry) {
             const number = positiveInt(entry[0], 0);
             if (!number) return;
             const content = typeof entry[1] === "string" ? entry[1] : entry[1]?.text;
             if (typeof content !== "string" || !content) return;
+            const heading = headingsByVerse.get(number);
+            if (heading) {
+                const section = document.createElement("div");
+                section.className = "scripture-section-heading";
+                if (typeof heading.bookTitle === "string") {
+                    const bookLabel = document.createElement("p");
+                    bookLabel.className = "scripture-section-book-label";
+                    bookLabel.textContent = heading.bookTitle;
+                    bookLabel.lang = "grc";
+                    section.append(bookLabel);
+                }
+                if (typeof heading.title === "string") {
+                    const title = document.createElement("h3");
+                    title.textContent = heading.title;
+                    section.append(title);
+                }
+                if (typeof heading.parallel === "string") {
+                    const parallel = document.createElement("p");
+                    parallel.className = "scripture-section-parallel";
+                    parallel.textContent = heading.parallel;
+                    section.append(parallel);
+                }
+                textRegion.append(section);
+            }
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
             para.dir = state.edition === "BHS" ? "rtl" : "ltr";
