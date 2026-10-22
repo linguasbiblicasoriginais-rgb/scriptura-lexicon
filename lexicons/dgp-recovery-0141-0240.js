@@ -19,8 +19,8 @@
     return "";
   });
 
-  const rowMarker = 'data-target="entry-dgp-1631"';
-  const cardMarker = 'id="entry-dgp-1631"';
+  const rowMarker = 'data-target="entry-dgp-0241"';
+  const cardMarker = 'id="entry-dgp-0241"';
   const rowIndex = rowBase.indexOf(rowMarker);
   const cardIndex = cardBase.indexOf(cardMarker);
   const rowStart = rowBase.lastIndexOf("<tr", rowIndex);
