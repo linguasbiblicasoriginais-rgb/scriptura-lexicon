@@ -88,6 +88,19 @@ A atribuição da edição e eventuais autorizações necessárias para disponib
 
 **Limites:** a atribuição à NA28 é proveniente do usuário. A conformidade exata com a edição crítica de referência, o aparato e as permissões de reprodução pública não foram independentemente verificados. O estado de incorporação não constitui homologação filológica ou licença editorial.
 
+## Incorporação textual 004 — Mateus 1 (UBS5)
+
+**Estado:** os 25 versículos de Mateus 1 foram incorporados em transcrição própria da **UBS5**, fornecida pelo usuário na conversa de 22/10/2026, independentemente da transcrição da NA28. Não foi realizada colação com a edição UBS5 impressa.
+
+- **Corpus:** `scriptures/texts/ubs5-matthew-1.js`, `window.ScripturaScriptureTexts.UBS5.MAT[1]`, versículos **1–25**.
+- **Metadados editoriais:** `window.ScripturaScriptureHeadings.UBS5.MAT[1]` registra, sem fundir ao texto do versículo: antes do v. 1, a identificação **«Κατὰ Μαθθαῖον 1»**, o título **«Genealogia de Jesus Cristo»** e a referência **«(Lc 3.23–38)»**; antes do v. 18, **«The Birth of Jesus Christ»** e **«(Lk 2.1‑7)»**. As grafias e línguas dos títulos são preservadas como recebidas, sem tradução ou harmonização.
+- **Diferenças frente à NA28 fornecida anteriormente:** detectadas por comparação literal nos vv. **20, 22 e 23**, envolvendo apóstrofos, pontuação e maiúsculas; conservadas em cada namespace, sem impor uniformidade editorial. Isso **não representa necessariamente variante textual substantiva**: é apenas uma comparação do material recebido.
+- **Quebras internas:** os vv. **6** e **23** conservam as quebras de linha recebidas; exibição pelo recurso `white-space: pre-line` já presente no leitor.
+- **Apresentação:** texto grego marcado como `lang="grc"`, `dir="ltr"`; títulos e referências paralelas exibidos em blocos separados.
+- **Navegação:** `#escrituras/UBS5/MAT.1.1`. Número máximo do capítulo conferido no arquivo: **25**.
+
+**Limites filológicos e legais:** a atribuição à UBS5 foi informada pelo usuário. Não houve cotejo crítico independente contra o texto impresso, nem incorporação do aparato. Os direitos de publicação precisam ser tratados separadamente do registro interno da transcrição.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
