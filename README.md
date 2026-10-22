@@ -392,3 +392,43 @@ Foram preparados **1.000 cartões documentais adicionais** na branch `chat-gpt-l
 
 
 **LSJ — compilação do lote 12.001–13.000 confirmada (21/10/2026):** o [workflow 39620632838](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39620632838) passou no commit `1172a4ebee1fc3c5fbdd696751de51878674f315`. Confirmados 13.000 cartões, 13.000 linhas de pesquisa, 13.000 IDs distintos e zero colisões no catálogo compilado. Traduções portuguesas integrais homologadas: **0**; deploy público: **não verificado**.
+
+
+### LSJ — lote 13.001–14.000 (21/10/2026)
+
+Foram incorporados à branch `chat-gpt-lsj` **1.000 cartões documentais adicionais**, do lema **ἀποκλείω** ao lema **ἀποστεφανόω**, em 40 módulos de 25 artigos, pela ordem real dos `div2` da segunda metade de `lexicons/lsj-source-batch-0011.xml`. Os 1.000 textos TEI integrais foram preservados sem substituição semântica. Todos os novos registros estão marcados **“Tradução portuguesa pendente”**: não constituem traduções portuguesas homologadas. Total manifestado: **14.000 / 116.854 artigos estimados (provisório)**; camada Fonte separada: 23.000 artigos. Próximo: **ἀποστηθίζω** (n13851), ordinal 14.001. CI/build e publicação em produção devem ser verificados separadamente.
+
+
+**LSJ — compilação do lote 13.001–14.000 aprovada (21/10/2026):** [GitHub Actions 39668179451](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39668179451), commit `c1f46d0d0bc5f7a7fa8215e91431aa3d9428267f`, confirmou 14.000 linhas de pesquisa, 14.000 cartões, 14.000 IDs exclusivos e zero colisões. Esta validação é técnica, não uma homologação filológica; tradução integral em português permanece pendente, e deploy público não foi verificado.
+
+
+### LSJ — lote 14.001–15.000 (21/10/2026)
+
+Incorporados **1.000 artigos documentais** em 40 módulos de 25, desde **ἀποστηθίζω** (n13851) até **ἀργυρόεις** (n14847), pelos primeiros 1.000 `div2` de `lexicons/lsj-source-batch-0012.xml`. Texto TEI original integral preservado e verificado na ida e volta HTML. Os novos cartões assinalam **“Tradução portuguesa pendente”**: não são 1.000 artigos integralmente traduzidos. Acumulado: **15.000 / 116.854 cartões estimados (denominador provisório)**; fonte documental distinta: 23.000 artigos. Próximo: **ἀργυρόηλος** (n14848), ordinal 15.001. A aprovação da CI e eventual deploy exigem comprovação independente.
+
+
+**LSJ — validação técnica de 15.000 artigos confirmada (21/10/2026):** [workflow GitHub Actions 39673142181](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39673142181) concluiu `success` no commit `79fb2829d34402352abec5b01d5c32bcfd145bc1`, com **15.000 linhas de pesquisa, 15.000 cartões, 15.000 IDs únicos e zero colisões**. Permanecem independentes e pendentes a tradução portuguesa integral, a revisão filológica do impresso e o deploy público; não apresentar registros documentais como traduções homologadas.
+
+
+### LSJ — lote 15.001–16.000 (21/10/2026)
+
+A branch `chat-gpt-lsj` contém **1.000 novos artigos documentais** em 40 módulos JavaScript de 25, de **ἀργυρόηλος** (n14848) até **ἀρχαιοφανής** (n15846), extraídos da segunda metade do XML `lexicons/lsj-source-batch-0012.xml`. O TEI foi preservado na íntegra nos cartões e a ida/volta HTML foi verificada. **A tradução portuguesa dos 1.000 artigos está pendente; nenhum deles é apresentado como tradução integral homologada.** Total manifestado: **16.000 de 116.854 artigos estimados** (denominador provisório); camada Fonte separada: 23.000 artigos. Próximo artigo: **ἀρχαιόομαι** (n15847), ordinal 16.001, arquivo `lsj-source-batch-0013.xml`. A compilação e a publicação pública exigem verificação independente.
+
+
+**LSJ — compilação dos 16.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39677152379](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39677152379) terminou em `success` no commit `eee79fb0c9096cf4e5d9e3fd7fb9dc30163df0da`: **16.000 linhas de pesquisa, 16.000 cartões, 16.000 IDs exclusivos e zero colisões**. Isto confirma a compilação documental e estrutural, **não a tradução portuguesa integral**, a colação da edição impressa nem o deploy público.
+
+
+### LSJ — lote 16.001–17.000 (2026-10-21)
+
+Incorporados **1.000 artigos documentais** ao frontend em 40 módulos de 25, de **ἀρχαιόομαι** (n15847) a **ἀσυντρόχαστος** (n16844). Fonte canônica: `lexicons/lsj-source-batch-0013.xml`, com a sequência real dos 1.000 elementos `div2`. O TEI foi preservado integralmente e confrontado por ida/volta HTML. **Os 1.000 cartões permanecem com tradução portuguesa pendente**, sem homologação filológica integral. Total manifestado: **17.000 / 116.854 artigos estimados**; camada Fonte independente: 23.000 registros. Próximo ordinal 17.001: **ἀσυνύπαρκτος** (n16845), fonte `lsj-source-batch-0014.xml`. A validação da compilação e o deploy exigem confirmação separada.
+
+
+**LSJ — compilação dos 17.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39678067697](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39678067697) terminou em `success` no commit `5509504b2448a63942f0018b5bffbd36dd30d1e2`, conferindo **17.000 linhas de pesquisa, 17.000 cartões, 17.000 IDs exclusivos e zero colisões**. O resultado não comprova tradução portuguesa integral, colação filológica da edição impressa nem deploy público.
+
+
+### LSJ — lote 17.001–18.000 (21/10/2026)
+
+Incorporados **1.000 novos artigos documentais** da fonte `lexicons/lsj-source-batch-0014.xml`, de **ἀσυνύπαρκτος** (n16845) a **αὐτοξενεῖν** (n17839), em 40 módulos de 25 artigos. O texto TEI integral foi conservado e confrontado por ida/volta HTML; 1.000 identificadores e ordinais distintos. **Todos os novos artigos têm tradução portuguesa pendente**, não sendo verbetes integralmente traduzidos ou homologados. Total manifestado: **18.000 / 116.854 artigos estimados** (denominador provisório); a camada documental Fonte mantém 23.000 entradas separadas. Próximo: **αὐτόξεστος** (n17840), ordinal 18.001, fonte `lsj-source-batch-0015.xml`. CI, colação filológica e deploy público deverão ser verificados separadamente.
+
+
+**LSJ — compilação de 18.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39681834256](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39681834256) concluiu em `success` no commit `b4388c80850839789b07d23f4a51198b56cf54ae`, com **18.000 linhas de pesquisa, 18.000 cartões, 18.000 IDs exclusivos e zero colisões**. Verificação técnica, não comprovação de tradução portuguesa integral, cotejo independente do impresso ou deploy público.
