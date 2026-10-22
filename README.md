@@ -89,6 +89,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. A edição de referência do TR permanece pendente.
 
+**Primeira incorporação textual:** Gênesis 1 (BHS), com **31 versículos** fornecidos pelo usuário e **seis marcações פ** de seção aberta. A transcrição está integrada ao leitor, mas o cotejo caractere a caractere com a edição impressa e a questão dos direitos de publicação ainda exigem verificação.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
