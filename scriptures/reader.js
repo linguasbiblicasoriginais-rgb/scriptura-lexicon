@@ -8,12 +8,15 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         LXX: "Septuaginta (LXX)",
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
-        TR: "Novo Testamento Grego – Texto Recebido (TR)"
+        TR: "Novo Testamento Grego – Texto Recebido (TR)",
+        VUL: "Biblia Sacra Vulgata (VUL)"
     };
-    const editionOrder = ["BHS", "LXX", "NA28", "UBS5", "TR"];
+    const editionOrder = ["BHS", "LXX", "NA28", "UBS5", "TR", "VUL"];
     const catalog = {};
     for (const edition of editionOrder) {
-        const source = edition === "BHS" ? rawCatalog.BHS : edition === "LXX" ? rawCatalog.LXX : rawCatalog.NT;
+        const source = edition === "BHS" ? rawCatalog.BHS :
+            edition === "LXX" ? rawCatalog.LXX :
+            edition === "VUL" ? window.ScripturaVulCatalog : rawCatalog.NT;
         catalog[edition] = source.trim().split("\n").map(function (line) {
             const pieces = line.split("|");
             return { group: pieces[0], original: pieces[1], name: pieces[2],
@@ -142,6 +145,8 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             return;
         }
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
+        const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
+        const sectionBreakSet = new Set(sectionBreaks.map(Number));
         verses.forEach(function (entry) {
             const number = positiveInt(entry[0], 0);
             if (!number) return;
@@ -149,24 +154,40 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             if (typeof content !== "string" || !content) return;
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
+            para.dir = state.edition === "BHS" ? "rtl" : "ltr";
             if (number === state.verse) para.classList.add("scripture-verse-selected");
             const count = document.createElement("span");
             count.className = "scripture-verse-number";
             count.textContent = String(number) + " ";
             const passage = document.createElement("bdi");
-            passage.lang = state.edition === "BHS" ? "he" : "grc";
+            passage.lang = state.edition === "BHS" ? "he" : state.edition === "VUL" ? "la" : "grc";
             passage.dir = state.edition === "BHS" ? "rtl" : "ltr";
             passage.textContent = content;
             para.append(count, passage);
             textRegion.append(para);
+            if (sectionBreakSet.has(number)) {
+                const breakMarker = document.createElement("p");
+                breakMarker.className = "scripture-parashah-open";
+                breakMarker.lang = "he";
+                breakMarker.dir = "rtl";
+                breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
+                breakMarker.textContent = "פ";
+                textRegion.append(breakMarker);
+            }
         });
     }
     function render() {
         const selected = book();
-        const lang = state.edition === "BHS" ? "he" : "grc";
+        const lang = state.edition === "BHS" ? "he" : state.edition === "VUL" ? "la" : "grc";
         editionSelect.value = state.edition;
         bookSelect.value = state.bookId;
         chapterSelect.value = String(state.chapter);
+        const verseMap = window.ScripturaScriptureTexts?.[state.edition]?.[state.bookId]?.[state.chapter];
+        const knownVerseNumbers = verseMap ? Object.keys(verseMap).map(Number).filter(Number.isSafeInteger) : [];
+        const knownVerseLimit = knownVerseNumbers.length ? Math.max(...knownVerseNumbers) : null;
+        if (knownVerseLimit !== null && state.verse > knownVerseLimit) state.verse = knownVerseLimit;
+        if (knownVerseLimit === null) verseInput.removeAttribute("max");
+        else verseInput.max = String(knownVerseLimit);
         verseInput.value = String(state.verse);
         heading.textContent = labels[state.edition];
         category.textContent = selected.group;
@@ -176,7 +197,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         original.dir = lang === "he" ? "rtl" : "ltr";
         panel.querySelector("#scripture-previous-chapter").disabled = state.chapter === 1;
         panel.querySelector("#scripture-next-chapter").disabled = state.chapter === selected.chapters;
-        const canLink = state.edition !== "TR" && /^[A-Z0-9]{3}$/.test(selected.id);
+        const canLink = ["BHS", "LXX", "NA28", "UBS5"].includes(state.edition) && /^[A-Z0-9]{3}$/.test(selected.id);
         external.hidden = !canLink;
         if (canLink) external.href = "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter;
         else external.removeAttribute("href");
@@ -189,6 +210,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         renderTexts();
         feedback.textContent = !canLink ?
             (state.edition === "TR" ? "O Texto Recebido depende da definição de uma edição canônica (por exemplo, Stephanus ou Scrivener)." :
+            state.edition === "VUL" ? "O catálogo da Vulgata está disponível; a edição textual latina e um endereço externo verificado ainda não foram incorporados." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
     }
     function show(edition, bookId, chapter, verse, updateHash) {
@@ -214,10 +236,10 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         });
     }
     function isScriptureHash() {
-        return /^#escrituras\/(BHS|LXX|NA28|UBS5|TR)(?:\/|$)/.test(window.location.hash);
+        return /^#escrituras\/(BHS|LXX|NA28|UBS5|TR|VUL)(?:\/|$)/.test(window.location.hash);
     }
     function showFromHash() {
-        const match = /^#escrituras\/(BHS|LXX|NA28|UBS5|TR)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
+        const match = /^#escrituras\/(BHS|LXX|NA28|UBS5|TR|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
         if (!match) return false;
         show(match[1], match[2], match[3], match[4], false);
         return true;

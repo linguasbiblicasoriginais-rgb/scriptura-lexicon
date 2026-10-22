@@ -85,9 +85,13 @@ A existência de uma funcionalidade na aplicação não implica que **todos** os
 
 ## Escrituras Sagradas
 
-A interface inclui **Escrituras Sagradas** como categoria independente acima dos dicionários, com cinco edições: **BHS, LXX, NA28, UBS5 e TR**. O novo leitor organiza o catálogo por **edição → livro → capítulo → versículo**, preserva subdivisões hebraicas e variantes textuais da Septuaginta, permite copiar a referência e utiliza URLs específicas para acesso aos capítulos do portal editorial quando o mapeamento é conhecido.
+A interface inclui **Escrituras Sagradas** como categoria independente acima dos dicionários, com seis edições: **BHS, LXX, NA28, UBS5, TR e VUL**. O novo leitor organiza o catálogo por **edição → livro → capítulo → versículo**, preserva subdivisões hebraicas e variantes textuais da Septuaginta, permite copiar a referência e utiliza URLs específicas para acesso aos capítulos do portal editorial quando o mapeamento é conhecido.
 
-**Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. A edição de referência do TR permanece pendente.
+**Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. As edições textuais de referência do TR e da VUL permanecem pendentes.
+
+**Primeira incorporação textual:** Gênesis 1 (BHS), com **31 versículos** fornecidos pelo usuário e **seis marcações פ** de seção aberta. A transcrição está integrada ao leitor, mas o cotejo caractere a caractere com a edição impressa e a questão dos direitos de publicação ainda exigem verificação.
+
+**Nova estrutura:** Biblia Sacra Vulgata (VUL), com **78 entradas** organizadas em Antigo Testamento (39), Novo Testamento (27) e Apócrifos (12), preservando nomes latinos e quantidades de capítulos conforme a relação recebida. A navegação está habilitada; os versículos latinos ainda não foram incorporados. Catálogo independente em `scriptures/catalog-vul.js`.
 
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
