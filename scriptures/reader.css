@@ -221,7 +221,8 @@
     unicode-bidi: isolate;
     padding-inline-end: .35rem;
 }
-.scripture-parashah-open {
+.scripture-parashah-open,
+.scripture-parashah-closed {
     font-family: "Noto Serif Hebrew", serif;
     font-weight: 600;
     text-align: right;
@@ -399,4 +400,12 @@
 }
 @media (max-width: 520px) {
     .scripture-word-popup { padding: 13px; width: min(315px, calc(100vw - 20px)); }
+}
+
+/* ס = setumah: marcação fechada diferenciada de פ (petuchah). */
+.scripture-parashah-closed {
+    margin-block-start: 4px;
+    margin-block-end: 9px;
+    border-bottom: 0;
+    opacity: .85;
 }
