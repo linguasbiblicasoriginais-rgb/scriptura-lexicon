@@ -1,0 +1,289 @@
+/* Escrituras Sagradas — componente independente dos dicionários. */
+.scripture-nav {
+    display: grid;
+    gap: 6px;
+    margin: 18px 0 0;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border-soft);
+}
+.scripture-menu-title {
+    margin: 0 0 8px;
+    padding: 0 6px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-size: .73rem;
+    letter-spacing: .085em;
+    font-weight: 700;
+}
+.scripture-menu-dictionaries { margin: 17px 0 0; }
+.scripture-menu-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 46px;
+    padding: 10px 12px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    color: var(--text-secondary);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+.scripture-menu-option:hover, .scripture-menu-option:focus-visible {
+    color: var(--text-primary);
+    background: var(--surface-3);
+    border-color: var(--border);
+    outline: none;
+}
+.scripture-menu-option.active {
+    color: var(--accent-light);
+    background: rgba(117,170,255,.10);
+    border-color: rgba(117,170,255,.28);
+}
+.scripture-menu-name { font-size: .83rem; line-height: 1.4; }
+.scripture-menu-code {
+    font-size: .68rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+.scripture-reader[hidden] { display: none !important; }
+.scripture-reader {
+    padding: 30px 0 44px;
+    color: var(--text-primary);
+}
+.scripture-reader-kicker {
+    color: var(--accent-light);
+    text-transform: uppercase;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .10em;
+    margin-bottom: 9px;
+}
+.scripture-reader h1 {
+    font-family: var(--font-main, Georgia, serif);
+    font-size: clamp(1.35rem,3vw,2rem);
+    line-height: 1.25;
+    margin: 0 0 10px;
+}
+.scripture-reader-intro {
+    color: var(--text-secondary);
+    margin: 0 0 24px;
+}
+.scripture-reader-controls {
+    display: grid;
+    grid-template-columns: minmax(180px, 1.5fr) minmax(200px, 1.6fr) minmax(110px, .5fr) minmax(110px, .5fr);
+    gap: 13px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    border-radius: 12px;
+    padding: 18px;
+}
+.scripture-reader-controls label {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-width: 0;
+    color: var(--text-secondary);
+    font-size: .81rem;
+    font-weight: 600;
+}
+.scripture-reader-controls select, .scripture-reader-controls input {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    height: 42px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--surface-2);
+    color: var(--text-primary);
+    padding: 8px 11px;
+    font: inherit;
+    font-size: .9rem;
+}
+.scripture-reader-controls select:focus-visible, .scripture-reader-controls input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+.scripture-reader-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px 0 22px;
+}
+.scripture-reader-navigation button,
+.scripture-reader-actions button,
+.scripture-reader-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 9px 13px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    background: var(--surface-2);
+    font: inherit;
+    font-size: .85rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.scripture-reader-navigation button:hover:not(:disabled),
+.scripture-reader-actions button:hover,
+.scripture-reader-actions a:hover {
+    border-color: var(--accent);
+    color: var(--accent-light);
+}
+.scripture-reader-navigation button:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+}
+.scripture-reader-result {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: clamp(17px,3.5vw,28px);
+}
+.scripture-reader-category {
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: .08em;
+    font-size: .72rem;
+    font-weight: 700;
+}
+.scripture-reader-result h2 {
+    font-size: clamp(1.2rem,2.7vw,1.6rem);
+    margin: 12px 0 4px;
+}
+.scripture-reader-original {
+    color: var(--text-secondary);
+    font-size: 1.14rem;
+    margin: 0 0 16px;
+    font-family: "Noto Serif Hebrew","Noto Serif",serif;
+}
+.scripture-text {
+    border-top: 1px solid var(--border-soft);
+    padding-top: 14px;
+    line-height: 2.1;
+}
+.scripture-empty-text {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: .92rem;
+    line-height: 1.7;
+}
+.scripture-verse-line {
+    margin: 6px 0;
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-size: 1.1rem;
+    line-height: 1.9;
+}
+.scripture-verse-selected { background: var(--surface-3); }
+.scripture-verse-number {
+    display: inline-block;
+    color: var(--accent-light);
+    min-width: 2.25rem;
+    font-size: .8rem;
+    vertical-align: middle;
+    font-family: sans-serif;
+    direction: ltr;
+}
+.scripture-verse-line bdi[lang="he"] {
+    font-family: "Noto Serif Hebrew",serif;
+    font-size: 1.3rem;
+}
+.scripture-limit-note { color: var(--text-muted); font-size: .83rem; line-height: 1.6; }
+.scripture-reader-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; }
+.scripture-reader-actions a { background: var(--accent-dark); color: white; border-color: transparent; }
+.scripture-reader-actions a[hidden] { display: none !important; }
+.scripture-reader-feedback { color: var(--text-secondary); font-size: .84rem; margin: 10px 0 0; }
+@media (max-width: 900px) {
+    .scripture-reader-controls { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 520px) {
+    .scripture-reader-controls { grid-template-columns: 1fr 1fr; padding: 13px; }
+    .scripture-reader-controls label:nth-child(1), .scripture-reader-controls label:nth-child(2) { grid-column: span 2; }
+    .scripture-reader-navigation button { flex: 1; }
+}
+
+/* Gênesis 1: numeração isolada e marcas de seção aberta (פ). */
+.scripture-verse-line[dir="rtl"] {
+    text-align: right;
+    direction: rtl;
+}
+.scripture-verse-line[dir="rtl"] .scripture-verse-number {
+    direction: ltr;
+    unicode-bidi: isolate;
+    padding-inline-end: .35rem;
+}
+.scripture-parashah-open {
+    font-family: "Noto Serif Hebrew", serif;
+    font-weight: 600;
+    text-align: right;
+    direction: rtl;
+    margin: 12px 0 20px;
+    padding: 3px 10px 9px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-soft);
+}
+
+/* LXX — separadores editoriais independentes do texto grego. */
+.scripture-editorial-separator {
+    color: var(--text-muted);
+    text-align: center;
+    line-height: 1;
+    font-size: .9rem;
+    margin: 8px 0 12px;
+}
+.scripture-paragraph-break {
+    display: block;
+    height: 1rem;
+    margin: 3px 0 13px;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+/* Preserva quebras poéticas internas dos versículos gregos (p.ex., Mt 1:23). */
+.scripture-verse-line bdi[lang="grc"] {
+    white-space: pre-line;
+}
+
+/* UBS5: paratextos editoriais fornecidos com a transcrição, separados dos versos. */
+.scripture-section-heading {
+    margin: 18px 0 12px;
+    padding: 13px 16px 10px;
+    border-inline-start: 3px solid var(--accent);
+    background: var(--surface-2);
+    border-radius: 0 8px 8px 0;
+}
+.scripture-section-heading h3 {
+    margin: 3px 0 5px;
+    font-size: 1.05rem;
+    font-weight: 650;
+    color: var(--text-primary);
+}
+.scripture-section-book-label {
+    margin: 0 0 6px;
+    color: var(--text-secondary);
+    font: inherit;
+    font-size: .95rem;
+}
+.scripture-section-parallel {
+    margin: 0;
+    font-size: .82rem;
+    color: var(--text-muted);
+}
+
+/* VUL: tipografia latina e preservação da divisão interna dos versículos. */
+.scripture-reader-original[lang="la"],
+.scripture-verse-line bdi[lang="la"] {
+    font-family: "Noto Serif", Georgia, serif;
+    direction: ltr;
+}
+.scripture-verse-line bdi[lang="la"] {
+    white-space: pre-line;
+}

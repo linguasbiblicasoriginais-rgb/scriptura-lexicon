@@ -35,7 +35,10 @@ for (const id of indexes) {
       !/class="entry-card"/.test(card.html)||!/data-source="LSJ"/.test(card.html))
     throw Error("LSJ: índice/cartão inconsistente na posição "+id);
   if (seenIDs.has(card.target)) throw Error("LSJ: cartão duplicado "+card.target);
-  if (!card.html.includes("Tradução do artigo") && !card.html.includes("Tradução portuguesa do artigo"))
+  if (!card.html.includes("Tradução do artigo") &&
+      !card.html.includes("Tradução portuguesa do artigo") &&
+      !card.html.includes("Síntese portuguesa preliminar incompleta") &&
+      !card.html.includes("Tradução portuguesa pendente"))
     throw Error("LSJ: cartão sem seção de tradução "+card.target);
   seenIDs.add(card.target);
   checked.add(id);

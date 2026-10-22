@@ -1648,6 +1648,7 @@ function returnToResults() {
 
 
 function selectDictionary(dictionary, options) {
+    window.ScripturaScriptures?.hide();
     const settings =
         Object.assign(
             {
@@ -2039,6 +2040,9 @@ function buildTooltipContent(trigger) {
             '<div class="tooltip-block">' +
             '<span class="tooltip-label">Referência</span>' +
             '<div class="tooltip-value">' +
+            (trigger.dataset.tooltipTitle
+                ? '<em class="tooltip-biblio-title">' + escapeHtml(trigger.dataset.tooltipTitle) + '</em> '
+                : '') +
             escapeHtml(text) +
             "</div>" +
             "</div>"
@@ -2534,6 +2538,10 @@ window.addEventListener(
 window.addEventListener(
     "hashchange",
     function () {
+        if (window.ScripturaScriptures?.isScriptureHash()) {
+            window.ScripturaScriptures.showFromHash();
+            return;
+        }
         selectDictionary(
             dictionaryFromHash(),
             {
@@ -2605,10 +2613,14 @@ entryCards.forEach(function (card) {
 sourceCombobox.hidden = false;
 sourceFilterBox.classList.add("is-enhanced");
 
-selectDictionary(
-    dictionaryFromHash(),
-    {
-        updateHash: true,
-        focusSearch: false
-    }
-);
+if (window.ScripturaScriptures?.isScriptureHash()) {
+    window.ScripturaScriptures.showFromHash();
+} else {
+    selectDictionary(
+        dictionaryFromHash(),
+        {
+            updateHash: true,
+            focusSearch: false
+        }
+    );
+}
