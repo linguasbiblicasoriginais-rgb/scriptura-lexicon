@@ -47,6 +47,20 @@ window.ScripturaScriptureTexts = {
 
 O exemplo é **estrutura de dados, não conteúdo da BHS**. O componente exibe apenas strings de versículos explicitamente carregadas, via `textContent`, para preservar os caracteres originais e evitar interpretação de HTML. Hebraico utiliza `lang="he"`, `dir="rtl"`; grego usa `lang="grc"`, `dir="ltr"`.
 
+## Incorporação textual 001 — Gênesis 1 (BHS, Texto Massorético)
+
+**Estado:** capítulo disponibilizado no leitor; 31 de 31 versículos inseridos, na numeração de Gênesis 1. 
+
+**Arquivo:** `scriptures/texts/bhs-genesis-1.js`. O arquivo registra os 31 versículos individualmente em `window.ScripturaScriptureTexts.BHS.GEN[1]` e armazena as seis marcas de seção aberta `פ` em `window.ScripturaScriptureParagraphBreaks.BHS.GEN[1]`, após os versículos **5, 8, 13, 19, 23 e 31**. O sinal `׃` permanece dentro de cada versículo. Os números dos versículos e o `פ` não foram fundidos ao texto lexical.
+
+**Procedência:** transcrição integral do capítulo fornecida diretamente pelo usuário nesta conversa em 22/10/2026, identificada por ele como **BHS**. O conteúdo não foi raspado do portal editorial. A confirmação de que cada caractere corresponde exatamente à edição impressa, inclusive todas as marcas massoréticas, **ainda depende de cotejo filológico independente**. Os registros não devem ser descritos como texto homologado.
+
+**Exibição:** hebraico vocalizado e acentuado, `lang="he"`, `dir="rtl"`; seleção do versículo destaca a respectiva linha, e `פ` é exposto como marcador de seção. O campo de seleção limita Gênesis 1 ao versículo **31**, pois esse limite foi confirmado pelo conjunto incorporado.
+
+**Endereço direto no aplicativo:** `#escrituras/BHS/GEN.1.1`.
+
+A atribuição da edição e eventuais autorizações necessárias para disponibilizar publicamente o texto são questões editoriais independentes da fidelidade da transcrição.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
