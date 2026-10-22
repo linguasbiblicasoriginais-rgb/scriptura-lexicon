@@ -157,6 +157,23 @@ A repetição do cabeçalho “Epístolas universais” na lista de entrada foi 
 
 **Limites:** não houve cotejo caractere a caractere contra o livro impresso da BHS, nem verificação jurídica de republicação; a incorporação registra literalmente o material recebido, sem atestar a identidade editorial externa.
 
+## Consultas lexicais por palavra
+
+**Estado:** todos os capítulos bíblicos já incorporados apresentam cada palavra como botão de consulta; o texto subjacente permanece literal e separado das camadas lexicais.
+
+**Implementação:** o módulo `scriptures/word-popups.js` é carregado antes de `scriptures/reader.js` e oferece popups acessíveis por clique, toque, Enter ou Espaço. O fechamento ocorre pelo botão ×, pela tecla Escape, por clique fora ou pela rolagem; a tecla Escape devolve o foco à palavra. A interface informa a edição e a referência precisa do versículo.
+
+**Conteúdo do popup:**
+
+- **Forma original:** mesmo segmento Unicode lido no versículo; hebraico `he`, grego `grc`, latim `la`, sem alterar a string bíblica.
+- **Transliteração aproximada:** algoritmo determinístico próprio para hebraico e grego; no latim, a forma original já está em alfabeto latino. A transliteração mecânica **não é pronúncia reconstruída, sistema ISO certificado, análise morfológica nem identificação de lema**. Os acentos de cantilação hebraicos não são transliterados e as vogais massoréticas são aproximadas.
+- **Minidicionário:** pequeno glossário editorial para **algumas formas** conhecidas, com significado introdutório em português. Não é transcrição nem síntese atribuída automaticamente às obras BDAG, KBS, Clines, Thayer etc. **Uma palavra pode ter outros valores contextuais ou morfológicos**, mesmo quando há glosa.
+- **Sem cobertura lexical:** em todas as outras palavras, o popup continua disponível, mas exibe explicitamente `Sem acepção cadastrada` — nunca inventa significado, lema ou referência bibliográfica.
+
+O algoritmo segmenta palavras Unicode sem reescrever o texto, mantendo espaços, sinais massoréticos, maqqef `־`, sof pasuq `׃`, pontuação grega, citações e quebras de linha como nós textuais separados. Assim, as marcas de parashah, as divisões da LXX e os títulos editoriais da UBS5 não são transformados em entradas lexicais.
+
+**Limites e tarefas futuras:** ampliar o glossário mediante revisão filológica por edição e associação verificável `ocorrência → lema → fonte lexicográfica → acepção`; realizar conferência em navegador e tecnologias assistivas; nunca divulgar a atual cobertura parcial como análise exaustiva.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
