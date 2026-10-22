@@ -144,6 +144,8 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
         const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const sectionBreakSet = new Set(sectionBreaks.map(Number));
+        const editorialSeparators = window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
+        const editorialSeparatorSet = new Set(editorialSeparators.map(Number));
         verses.forEach(function (entry) {
             const number = positiveInt(entry[0], 0);
             if (!number) return;
@@ -162,14 +164,29 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             passage.textContent = content;
             para.append(count, passage);
             textRegion.append(para);
+            if (editorialSeparatorSet.has(number)) {
+                const separator = document.createElement("p");
+                separator.className = "scripture-editorial-separator";
+                separator.setAttribute("aria-label", "Travessão editorial entre versículos");
+                separator.textContent = "—";
+                textRegion.append(separator);
+            }
             if (sectionBreakSet.has(number)) {
-                const breakMarker = document.createElement("p");
-                breakMarker.className = "scripture-parashah-open";
-                breakMarker.lang = "he";
-                breakMarker.dir = "rtl";
-                breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
-                breakMarker.textContent = "פ";
-                textRegion.append(breakMarker);
+                if (state.edition === "BHS") {
+                    const breakMarker = document.createElement("p");
+                    breakMarker.className = "scripture-parashah-open";
+                    breakMarker.lang = "he";
+                    breakMarker.dir = "rtl";
+                    breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
+                    breakMarker.textContent = "פ";
+                    textRegion.append(breakMarker);
+                } else {
+                    const breakMarker = document.createElement("div");
+                    breakMarker.className = "scripture-paragraph-break";
+                    breakMarker.setAttribute("role", "separator");
+                    breakMarker.setAttribute("aria-label", "Divisão de parágrafo indicada na fonte");
+                    textRegion.append(breakMarker);
+                }
             }
         });
     }
