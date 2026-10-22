@@ -231,3 +231,10 @@
     color: var(--text-muted);
     border-bottom: 1px solid var(--border-soft);
 }
+
+/* VUL: tipografia latina sem herdar a família usada para os caracteres hebraicos. */
+.scripture-reader-original[lang="la"],
+.scripture-verse-line bdi[lang="la"] {
+    font-family: "Noto Serif", Georgia, serif;
+    direction: ltr;
+}
