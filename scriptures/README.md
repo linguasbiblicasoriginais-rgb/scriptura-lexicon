@@ -190,7 +190,7 @@ O algoritmo segmenta palavras Unicode sem reescrever o texto, mantendo espaços,
 | Gênesis 8 | 22 | 14 ס |
 | Gênesis 9 | 29 | 7 ס; 17 פ; 29 פ |
 | Gênesis 10 | 32 | 14 ס; 20 ס; 32 פ |
-| **Total** | **211** | **26 marcações: 11 פ e 15 ס** |
+| **Total** | **211** | **26 marcações: 10 פ e 16 ס** |
 
 - **Fonte material:** exclusivamente os oito capítulos enviados pelo usuário, mantidos como transcrição designada BHS. Não se afirma cotejo independente com exemplar impresso ou aparato crítico da BHS.
 - **Arquivos:** `scriptures/texts/bhs-genesis-3.js` a `bhs-genesis-10.js`. Os objetos ficam no namespace `ScripturaScriptureTexts.BHS.GEN[capítulo]`, com chaves de versículos consecutivas.
