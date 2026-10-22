@@ -150,6 +150,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
         const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const sectionBreakSet = new Set(sectionBreaks.map(Number));
+        const parashahTypes = window.ScripturaScriptureParashahTypes?.[state.edition]?.[state.bookId]?.[state.chapter] || {};
         const editorialSeparators = window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const editorialSeparatorSet = new Set(editorialSeparators.map(Number));
         const headings = window.ScripturaScriptureHeadings?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
@@ -213,11 +214,17 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             if (sectionBreakSet.has(number)) {
                 if (state.edition === "BHS") {
                     const breakMarker = document.createElement("p");
-                    breakMarker.className = "scripture-parashah-open";
+                    // Compatibilidade: os capítulos antigos usam apenas o marcador פ.
+                    // Os novos registram explicitamente פ (aberta) e ס (fechada).
+                    const mark = parashahTypes[number] === "ס" ? "ס" : "פ";
+                    breakMarker.className = mark === "ס" ?
+                        "scripture-parashah-closed" : "scripture-parashah-open";
                     breakMarker.lang = "he";
                     breakMarker.dir = "rtl";
-                    breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
-                    breakMarker.textContent = "פ";
+                    breakMarker.setAttribute("aria-label", mark === "ס" ?
+                        "ס — parashah setumah, seção fechada" :
+                        "פ — parashah petuchah, seção aberta");
+                    breakMarker.textContent = mark;
                     textRegion.append(breakMarker);
                 } else {
                     const breakMarker = document.createElement("div");
