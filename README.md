@@ -91,6 +91,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Primeira incorporação textual:** Gênesis 1 (BHS), com **31 versículos** fornecidos pelo usuário e **seis marcações פ** de seção aberta. A transcrição está integrada ao leitor, mas o cotejo caractere a caractere com a edição impressa e a questão dos direitos de publicação ainda exigem verificação.
 
+**Segunda incorporação textual:** Gênesis 1 (LXX), com **31 versículos gregos** fornecidos pelo usuário, separados do texto hebraico. As quebras e os travessões editoriais estão documentados; o cotejo independente com a edição de referência continua pendente.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
