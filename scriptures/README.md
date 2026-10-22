@@ -176,6 +176,31 @@ O algoritmo segmenta palavras Unicode sem reescrever o texto, mantendo espaços,
 
 **Limites e tarefas futuras:** ampliar o glossário mediante revisão filológica por edição e associação verificável `ocorrência → lema → fonte lexicográfica → acepção`; realizar conferência em navegador e tecnologias assistivas; nunca divulgar a atual cobertura parcial como análise exaustiva.
 
+## Incorporação textual 007 — Gênesis 3–10 (BHS, Texto Massorético)
+
+**Estado:** oito capítulos incorporados da transcrição hebraica fornecida pelo usuário no chat em 22/10/2026, totalizando **211 versículos**, sem emendas, reconstruções ou normalização Unicode. Os 10 primeiros capítulos de Gênesis (BHS) possuem agora **267 versículos registrados**.
+
+| Capítulo | Versículos | Marcas massoréticas de seção após os versículos |
+| --- | ---: | --- |
+| Gênesis 3 | 24 | 15 ס; 16 ס; 21 פ; 24 ס |
+| Gênesis 4 | 26 | 26 פ |
+| Gênesis 5 | 32 | 2 ס; 5 ס; 8 ס; 11 ס; 14 ס; 17 ס; 20 פ; 24 פ; 27 פ; 31 ס |
+| Gênesis 6 | 22 | 4 פ; 8 פ; 12 ס; 22 ס |
+| Gênesis 7 | 24 | Nenhuma indicada no material recebido |
+| Gênesis 8 | 22 | 14 ס |
+| Gênesis 9 | 29 | 7 ס; 17 פ; 29 פ |
+| Gênesis 10 | 32 | 14 ס; 20 ס; 32 פ |
+| **Total** | **211** | **26 marcações: 11 פ e 15 ס** |
+
+- **Fonte material:** exclusivamente os oito capítulos enviados pelo usuário, mantidos como transcrição designada BHS. Não se afirma cotejo independente com exemplar impresso ou aparato crítico da BHS.
+- **Arquivos:** `scriptures/texts/bhs-genesis-3.js` a `bhs-genesis-10.js`. Os objetos ficam no namespace `ScripturaScriptureTexts.BHS.GEN[capítulo]`, com chaves de versículos consecutivas.
+- **Fidelidade:** consoantes, *niqqud*, *teʿamim*, *sof pasuq* (`׃`), *maqqef* (`־`), *paseq* (`׀`), grafias particulares e sinais combinantes foram transportados literalmente. Não modificar sequências como `יְהוָֹ֨ה` (Gênesis 3:14) ou `שְׁמוֹנִים` sem autorização e colação documentada.
+- **Marcas de parashah:** as letras isoladas `פ` (petuchah, seção aberta) e `ס` (setumah, seção fechada), posicionadas após versículos, são guardadas fora das cadeias textuais em `ScripturaScriptureParashahTypes.BHS.GEN[capítulo]`; suas posições ficam em `ScripturaScriptureParagraphBreaks.BHS.GEN[capítulo]`. O leitor distingue as duas, e capítulos 1–2 continuam usando o formato anterior com `פ` implícito.
+- **Consulta:** `#escrituras/BHS/GEN.3.1` até `#escrituras/BHS/GEN.10.32`. Os popups de palavra são aplicados pela camada do leitor e não alteram o texto-fonte.
+- **Verificação:** para cada capítulo, a segmentação dos versículos com seus números e as letras de seção foi remontada e comparada exatamente à cadeia recebida, excetuando a unificação de espaços em branco entre versículos. Os testes de regressão em `tests/scripture-word-popups.test.cjs` foram estendidos a todas as dez unidades de Gênesis e à validação das marcações de seção.
+
+**Pendências:** cotejo externo com a edição impressa, esclarecimentos editoriais, licenciamento e ensaios visuais no navegador; os commits não constituem homologação da transcrição.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
