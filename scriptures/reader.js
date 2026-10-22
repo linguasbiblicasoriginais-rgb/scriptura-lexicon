@@ -147,11 +147,41 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
         const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const sectionBreakSet = new Set(sectionBreaks.map(Number));
+        const editorialSeparators = window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
+        const editorialSeparatorSet = new Set(editorialSeparators.map(Number));
+        const headings = window.ScripturaScriptureHeadings?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
+        const headingsByVerse = new Map(headings.map(function (heading) {
+            return [heading.beforeVerse, heading];
+        }));
         verses.forEach(function (entry) {
             const number = positiveInt(entry[0], 0);
             if (!number) return;
             const content = typeof entry[1] === "string" ? entry[1] : entry[1]?.text;
             if (typeof content !== "string" || !content) return;
+            const heading = headingsByVerse.get(number);
+            if (heading) {
+                const section = document.createElement("div");
+                section.className = "scripture-section-heading";
+                if (typeof heading.bookTitle === "string") {
+                    const bookLabel = document.createElement("p");
+                    bookLabel.className = "scripture-section-book-label";
+                    bookLabel.textContent = heading.bookTitle;
+                    bookLabel.lang = "grc";
+                    section.append(bookLabel);
+                }
+                if (typeof heading.title === "string") {
+                    const title = document.createElement("h3");
+                    title.textContent = heading.title;
+                    section.append(title);
+                }
+                if (typeof heading.parallel === "string") {
+                    const parallel = document.createElement("p");
+                    parallel.className = "scripture-section-parallel";
+                    parallel.textContent = heading.parallel;
+                    section.append(parallel);
+                }
+                textRegion.append(section);
+            }
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
             para.dir = state.edition === "BHS" ? "rtl" : "ltr";
@@ -165,14 +195,29 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             passage.textContent = content;
             para.append(count, passage);
             textRegion.append(para);
+            if (editorialSeparatorSet.has(number)) {
+                const separator = document.createElement("p");
+                separator.className = "scripture-editorial-separator";
+                separator.setAttribute("aria-label", "Travessão editorial entre versículos");
+                separator.textContent = "—";
+                textRegion.append(separator);
+            }
             if (sectionBreakSet.has(number)) {
-                const breakMarker = document.createElement("p");
-                breakMarker.className = "scripture-parashah-open";
-                breakMarker.lang = "he";
-                breakMarker.dir = "rtl";
-                breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
-                breakMarker.textContent = "פ";
-                textRegion.append(breakMarker);
+                if (state.edition === "BHS") {
+                    const breakMarker = document.createElement("p");
+                    breakMarker.className = "scripture-parashah-open";
+                    breakMarker.lang = "he";
+                    breakMarker.dir = "rtl";
+                    breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
+                    breakMarker.textContent = "פ";
+                    textRegion.append(breakMarker);
+                } else {
+                    const breakMarker = document.createElement("div");
+                    breakMarker.className = "scripture-paragraph-break";
+                    breakMarker.setAttribute("role", "separator");
+                    breakMarker.setAttribute("aria-label", "Divisão de parágrafo indicada na fonte");
+                    textRegion.append(breakMarker);
+                }
             }
         });
     }
@@ -210,7 +255,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         renderTexts();
         feedback.textContent = !canLink ?
             (state.edition === "TR" ? "O Texto Recebido depende da definição de uma edição canônica (por exemplo, Stephanus ou Scrivener)." :
-            state.edition === "VUL" ? "O catálogo da Vulgata está disponível; a edição textual latina e um endereço externo verificado ainda não foram incorporados." :
+            state.edition === "VUL" ? "A Vulgata utiliza o texto latino fornecido; a edição exata e o vínculo externo ainda não foram verificados." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
     }
     function show(edition, bookId, chapter, verse, updateHash) {

@@ -232,9 +232,58 @@
     border-bottom: 1px solid var(--border-soft);
 }
 
-/* VUL: tipografia latina sem herdar a família usada para os caracteres hebraicos. */
+/* LXX — separadores editoriais independentes do texto grego. */
+.scripture-editorial-separator {
+    color: var(--text-muted);
+    text-align: center;
+    line-height: 1;
+    font-size: .9rem;
+    margin: 8px 0 12px;
+}
+.scripture-paragraph-break {
+    display: block;
+    height: 1rem;
+    margin: 3px 0 13px;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+/* Preserva quebras poéticas internas dos versículos gregos (p.ex., Mt 1:23). */
+.scripture-verse-line bdi[lang="grc"] {
+    white-space: pre-line;
+}
+
+/* UBS5: paratextos editoriais fornecidos com a transcrição, separados dos versos. */
+.scripture-section-heading {
+    margin: 18px 0 12px;
+    padding: 13px 16px 10px;
+    border-inline-start: 3px solid var(--accent);
+    background: var(--surface-2);
+    border-radius: 0 8px 8px 0;
+}
+.scripture-section-heading h3 {
+    margin: 3px 0 5px;
+    font-size: 1.05rem;
+    font-weight: 650;
+    color: var(--text-primary);
+}
+.scripture-section-book-label {
+    margin: 0 0 6px;
+    color: var(--text-secondary);
+    font: inherit;
+    font-size: .95rem;
+}
+.scripture-section-parallel {
+    margin: 0;
+    font-size: .82rem;
+    color: var(--text-muted);
+}
+
+/* VUL: tipografia latina e preservação da divisão interna dos versículos. */
 .scripture-reader-original[lang="la"],
 .scripture-verse-line bdi[lang="la"] {
     font-family: "Noto Serif", Georgia, serif;
     direction: ltr;
+}
+.scripture-verse-line bdi[lang="la"] {
+    white-space: pre-line;
 }

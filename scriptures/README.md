@@ -8,8 +8,7 @@ A seção **Escrituras Sagradas**, acima de **Dicionários** no menu lateral, co
 2. **Septuaginta (LXX)** — catálogo textual independente;
 3. **Novo Testamento Grego – Texto Crítico (NA28)**;
 4. **Novo Testamento Grego – Texto Crítico (UBS5)**;
-5. **Novo Testamento Grego – Texto Recebido (TR)** — edição textual específica ainda por fixar;
-6. **Biblia Sacra Vulgata (VUL)** — catálogo de livros latinos recebido do usuário, com edição textual exata ainda não indicada.
+5. **Novo Testamento Grego – Texto Recebido (TR)** — edição textual específica ainda por fixar.
 
 O leitor permite selecionar **edição, livro, capítulo e um número de versículo**, navegar entre capítulos, copiar a referência e abrir o **capítulo** no portal oficial das quatro primeiras edições quando o identificador do livro é mapeável. A interface usa hash de URL, por exemplo `#escrituras/BHS/GEN.1.1`, sem sobrepor o roteamento dos dicionários.
 
@@ -20,7 +19,6 @@ O leitor permite selecionar **edição, livro, capítulo e um número de versíc
 - **BHS:** 39 unidades de navegação. A tradição hebraica dos 24 livros é representada por agrupamentos de Samuel, Reis, Crônicas, Esdras–Neemias e os Doze, enquanto a seleção individual preserva a referência usual a cada volume.
 - **LXX:** 62 unidades, inclusive variantes e materiais adicionais explicitamente presentes na lista fornecida. As variantes de Josué, Juízes, Tobias, Daniel, Susana e Bel e o Dragão não são fundidas às demais tradições. **Josué A (3 capítulos)** e **Sirácida (52 capítulos)** foram conservados conforme a relação fornecida e exigem cotejo editorial: sua presença no índice não atesta que essas delimitações tenham sido verificadas na edição digital da LXX.
 - **NA28, UBS5 e TR:** 27 livros cada, mantidos sob namespaces textuais distintos.
-- **VUL:** 78 unidades de navegação no catálogo independente — **39** no Antigo Testamento, **27** no Novo Testamento e **12** no grupo “Apócrifos”, de acordo com a lista recebida. Esta classificação reproduz as categorias fornecidas, sem estabelecer juízo de canonicidade.
 
 Os livros da BHS com contagens divergentes das divisões correntes foram ajustados no catálogo de navegação para: Cântico dos Cânticos **8**, Rute **4**, Lamentações **5**, Eclesiastes **12**, Ester **10**, 1 Crônicas **29** e 2 Crônicas **36**. Samuel (31+24), Reis (22+25) e Esdras–Neemias (10+13) ficam subdivididos sem perder o agrupamento da Bíblia hebraica. Joel conserva os quatro capítulos do cômputo hebraico informado.
 
@@ -63,9 +61,49 @@ O exemplo é **estrutura de dados, não conteúdo da BHS**. O componente exibe a
 
 A atribuição da edição e eventuais autorizações necessárias para disponibilizar publicamente o texto são questões editoriais independentes da fidelidade da transcrição.
 
+## Incorporação textual 002 — Gênesis 1 (LXX)
+
+**Situação:** 31 versículos transcritos como texto grego da Septuaginta e integrados ao leitor, independentes da BHS. A transcrição foi **fornecida integralmente pelo usuário na conversa de 22/10/2026**; não foi obtida por extração automática de terceiros.
+
+- **Identidade:** edição `LXX`, livro `GEN`, capítulo `1`; referências `LXX/GEN.1.1` a `LXX/GEN.1.31`.
+- **Arquivo do texto:** `scriptures/texts/lxx-genesis-1.js`.
+- **Unidade de armazenamento:** `window.ScripturaScriptureTexts.LXX.GEN[1]` com chaves numéricas de 1 a 31, sem mistura com `BHS.GEN[1]`.
+- **Quebras entre unidades:** após os vv. **5, 8, 13, 19 e 23**; oriundas da disposição fornecida, não devem ser confundidas com parashot massoréticas.
+- **Travessões editoriais entre versículos:** preservados após **10, 25 e 29** como metadados `ScripturaScriptureEditorialSeparators.LXX.GEN[1]`. O travessão **interno** ao v. 29 permanece na cadeia textual.
+- **Idioma e direção:** `lang="grc"`, da esquerda para a direita; manutenção da acentuação e da pontuação fornecidas, inclusive formas como `κατ᾽` e `καθ᾽`.
+- **Cotejo crítico:** a transcrição foi recebida com a atribuição editorial “LXX”; ainda **não foi conferida independentemente** contra a impressão de Rahlfs–Hanhart ou com a apresentação da Deutsche Bibelgesellschaft. Não atribuir variantes específicas sem confrontação documental.
+
+**Consulta direta:** `#escrituras/LXX/GEN.1.1`. A atribuição editorial e os direitos de republicação exigem verificação específica antes de qualquer afirmação de homologação do texto.
+
+## Incorporação textual 003 — Mateus 1 (NA28)
+
+**Estado:** 25 de 25 versículos incorporados e habilitados no leitor da edição NA28, sem interferir em BHS, LXX, UBS5 ou TR.
+
+- **Fonte material recebida:** transcrição grega integral fornecida pelo usuário nesta conversa, identificada como *Novo Testamento Grego — Texto Crítico (NA28)*. Não foi feita extração automática do site da editora nem colação independente com o volume impresso.
+- **Arquivo:** `scriptures/texts/na28-matthew-1.js`, registrado em `window.ScripturaScriptureTexts.NA28.MAT[1]`, versículos 1–25.
+- **Segmentação:** números dos versículos removidos do conteúdo textual e representados pelas chaves do objeto. Mantêm-se todos os sinais de acentuação e pontuação presentes no material recebido. Nenhuma leitura foi substituída por texto conhecido de outra edição.
+- **Composição:** as quebras de linha internas dos versículos **6** (genealogia) e **23** (citação) permanecem no valor textual, com exibição por `white-space: pre-line` na interface.
+- **Apresentação:** `lang="grc"`, `dir="ltr"`. A seleção de versículo em Mateus 1 tem máximo documentado de 25.
+- **Endereço de consulta interna:** `#escrituras/NA28/MAT.1.1`.
+
+**Limites:** a atribuição à NA28 é proveniente do usuário. A conformidade exata com a edição crítica de referência, o aparato e as permissões de reprodução pública não foram independentemente verificados. O estado de incorporação não constitui homologação filológica ou licença editorial.
+
+## Incorporação textual 004 — Mateus 1 (UBS5)
+
+**Estado:** os 25 versículos de Mateus 1 foram incorporados em transcrição própria da **UBS5**, fornecida pelo usuário na conversa de 22/10/2026, independentemente da transcrição da NA28. Não foi realizada colação com a edição UBS5 impressa.
+
+- **Corpus:** `scriptures/texts/ubs5-matthew-1.js`, `window.ScripturaScriptureTexts.UBS5.MAT[1]`, versículos **1–25**.
+- **Metadados editoriais:** `window.ScripturaScriptureHeadings.UBS5.MAT[1]` registra, sem fundir ao texto do versículo: antes do v. 1, a identificação **«Κατὰ Μαθθαῖον 1»**, o título **«Genealogia de Jesus Cristo»** e a referência **«(Lc 3.23–38)»**; antes do v. 18, **«The Birth of Jesus Christ»** e **«(Lk 2.1‑7)»**. As grafias e línguas dos títulos são preservadas como recebidas, sem tradução ou harmonização.
+- **Diferenças frente à NA28 fornecida anteriormente:** detectadas por comparação literal nos vv. **20, 22 e 23**, envolvendo apóstrofos, pontuação e maiúsculas; conservadas em cada namespace, sem impor uniformidade editorial. Isso **não representa necessariamente variante textual substantiva**: é apenas uma comparação do material recebido.
+- **Quebras internas:** os vv. **6** e **23** conservam as quebras de linha recebidas; exibição pelo recurso `white-space: pre-line` já presente no leitor.
+- **Apresentação:** texto grego marcado como `lang="grc"`, `dir="ltr"`; títulos e referências paralelas exibidos em blocos separados.
+- **Navegação:** `#escrituras/UBS5/MAT.1.1`. Número máximo do capítulo conferido no arquivo: **25**.
+
+**Limites filológicos e legais:** a atribuição à UBS5 foi informada pelo usuário. Não houve cotejo crítico independente contra o texto impresso, nem incorporação do aparato. Os direitos de publicação precisam ser tratados separadamente do registro interno da transcrição.
+
 ## Estrutura da Biblia Sacra Vulgata — VUL
 
-**Estado:** catálogo incorporado em 22/10/2026; **nenhum versículo latino publicado** nesta etapa.
+**Estado:** catálogo de 78 unidades incorporado em 22/10/2026 e Gênesis 1 latino publicado com 31 versículos fornecidos pelo usuário; demais capítulos ainda sem textos.
 
 **Procedência do catálogo:** lista enviada pelo usuário, contendo nomes latinos, nomes portugueses e a quantidade de capítulos. A edição textual latina específica (por exemplo, texto de uma Vulgata crítica ou de outra tradição editorial) **não foi identificada** e não pode ser presumida a partir da designação VUL.
 
@@ -90,9 +128,21 @@ As contagens de capítulos foram mantidas **exatamente como informadas**: entre 
 
 A repetição do cabeçalho “Epístolas universais” na lista de entrada foi consolidada num único agrupamento visual, sem excluir *Ad Hebraeos*. Os demais nomes editoriais latinos foram conservados, inclusive grafias como *Samuhelis*, *Malachim*, *Neemiae*, *Hester*, *Danihel* e *Zaccharias*.
 
-**Implementação:** `scriptures/catalog-vul.js` contém os metadados em `window.ScripturaVulCatalog`; `scriptures/reader.js` integra a edição `VUL` ao menu, aos agrupamentos de livros e à navegação por capítulo e referência de versículo. No futuro, os versículos deverão ser carregados exclusivamente em `window.ScripturaScriptureTexts.VUL[bookId][chapter]`, usando `lang="la"` e `dir="ltr"`. O leitor **não cria URL da editora** para a VUL enquanto não houver fonte externa verificada. Nenhum texto de outra edição é apresentado como VUL.
+**Implementação:** `scriptures/catalog-vul.js` contém os metadados em `window.ScripturaVulCatalog`; `scriptures/reader.js` integra a edição `VUL` ao menu, aos agrupamentos de livros e à navegação por capítulo e referência de versículo. Os versículos latinos são carregados exclusivamente em `window.ScripturaScriptureTexts.VUL[bookId][chapter]`, usando `lang="la"` e `dir="ltr"`; Gênesis 1 está registrado em `scriptures/texts/vul-genesis-1.js`. O leitor **não cria URL da editora** para a VUL enquanto não houver fonte externa verificada. Nenhum texto de outra edição é apresentado como VUL.
 
 **Exemplo de referência:** `#escrituras/VUL/GEN.1.1`. A seleção de números de versículo em capítulos ainda sem texto é provisória e não atesta o número real de versos do capítulo.
+
+## Incorporação textual 005 — Gênesis 1 (VUL)
+
+- **Material textual:** transcrição em latim fornecida diretamente pelo usuário em 22/10/2026 e designada «Vulgata (VUL)», **não cotejada independentemente** com uma edição crítica ou impressa.
+- **Arquivo:** `scriptures/texts/vul-genesis-1.js`, que registra `window.ScripturaScriptureTexts.VUL.GEN[1]` com **31 entradas**, uma por versículo, sem compartilhar cadeias com BHS ou LXX.
+- **Segmentação:** números 1 a 31 tratados exclusivamente como metadados de versificação. Os quatro encontros entre a última palavra de um versículo e o número do seguinte, em `bonum11`, `terram18`, `bonum26` e `escam30`, foram separados sem inserir palavras, sinais ou espaços inexistentes na fonte.
+- **Formatação:** as barras invertidas que delimitavam linhas no material recebido foram traduzidas em **quebras de linha internas** das entradas textuais, para apresentação por `white-space: pre-line`; isso é transformação de layout, não normalização ortográfica.
+- **Preservação:** foram mantidas as grafias `caelum`, `inluminent`, `adferentem`, `cete`, `semet`, a redação e a pontuação conforme a transcrição enviada.
+- **Idioma:** `lang="la"`, direção `ltr`.
+- **Consulta:** `#escrituras/VUL/GEN.1.1`; seleção de versículos de 1 a 31.
+
+**Limites:** o rótulo VUL identifica o namespace solicitado, não atesta qual edição específica da tradição vulgata é representada pelo texto enviado. Nenhuma colação da versão impressa, do aparato crítico ou de direitos de republicação foi concluída. Não declarar homologação editorial.
 
 ## Fontes e licenciamento
 
@@ -112,4 +162,4 @@ Os links não transferem direitos de reprodução. **Não realizar raspagem, tra
 - Incorporar apenas texto permitido e efetivamente cotejado, mantendo registro de procedência e correções.
 - Testar interface em navegador e leitor de tela; os commits desta etapa não constituem homologação editorial do corpus.
 
-Arquivos: `scriptures/reader.js`, `scriptures/reader.css`, `scriptures/catalog-vul.js`, integração em `index.html` e `script.js`.
+Arquivos: `scriptures/reader.js`, `scriptures/reader.css`, integração em `index.html` e `script.js`.
