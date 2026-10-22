@@ -101,6 +101,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Sexta incorporação textual:** Gênesis 2 (BHS), com **25 versículos hebraicos** enviados pelo usuário, preservando *niqqud*, acentos massoréticos e a marcação **פ** após o versículo 3. Registrado de modo independente de Gênesis 1; cotejo impresso pendente.
 
+**Popups lexicais por palavra:** os textos bíblicos incorporados contam com consulta interativa de cada palavra, transliteração mecânica para hebraico e grego e minidicionário editorial introdutório de **cobertura parcial**; palavras sem glosa validada são identificadas explicitamente. O texto canônico permanece inalterado, e não são atribuídos verbetes automaticamente aos léxicos de referência.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
