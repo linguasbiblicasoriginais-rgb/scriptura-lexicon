@@ -151,6 +151,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             if (typeof content !== "string" || !content) return;
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
+            para.dir = state.edition === "BHS" ? "rtl" : "ltr";
             if (number === state.verse) para.classList.add("scripture-verse-selected");
             const count = document.createElement("span");
             count.className = "scripture-verse-number";
