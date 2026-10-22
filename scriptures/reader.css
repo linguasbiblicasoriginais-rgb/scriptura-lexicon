@@ -287,3 +287,116 @@
 .scripture-verse-line bdi[lang="la"] {
     white-space: pre-line;
 }
+
+
+/* Popups lexicais por palavra: texto-base não é substituído pelo glossário. */
+.scripture-word {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 2px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: inherit;
+    white-space: inherit;
+    text-align: inherit;
+    direction: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .18em;
+    text-decoration-color: var(--text-muted);
+}
+.scripture-word:hover,
+.scripture-word:focus-visible,
+.scripture-word[aria-expanded="true"] {
+    color: var(--accent-light);
+    background: var(--surface-3);
+    text-decoration-color: var(--accent-light);
+}
+.scripture-word:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+.scripture-word-popup[hidden] { display: none !important; }
+.scripture-word-popup {
+    position: fixed;
+    z-index: 1200;
+    width: min(350px, calc(100vw - 20px));
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 16px;
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--surface-1);
+    box-shadow: 0 12px 40px rgba(0,0,0,.28);
+    text-align: left;
+    direction: ltr;
+    line-height: 1.5;
+    font-size: .87rem;
+}
+.scripture-word-popup-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+.scripture-word-popup-head > strong {
+    font-size: 1.28rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+    font-family: "Noto Serif Hebrew", "Noto Serif", serif;
+}
+.scripture-word-popup-head > strong[lang="he"] {
+    font-size: 1.55rem;
+}
+.scripture-word-popup-close {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface-2);
+    color: var(--text-primary);
+    font: inherit;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.scripture-word-popup-close:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+.scripture-word-popup-ref {
+    margin: 3px 0 12px;
+    font-size: .75rem;
+    color: var(--text-muted);
+}
+.scripture-word-popup-field {
+    display: grid;
+    gap: 3px;
+    margin: 8px 0;
+}
+.scripture-word-popup-field > strong {
+    color: var(--text-secondary);
+    font-size: .75rem;
+}
+.scripture-word-popup-field > span {
+    font-size: .98rem;
+    overflow-wrap: anywhere;
+}
+.scripture-word-popup-status {
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-soft);
+    padding-top: 9px;
+    margin: 12px 0 0;
+    font-size: .74rem;
+}
+@media (max-width: 520px) {
+    .scripture-word-popup { padding: 13px; width: min(315px, calc(100vw - 20px)); }
+}
