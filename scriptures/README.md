@@ -101,11 +101,36 @@ A atribuição da edição e eventuais autorizações necessárias para disponib
 
 **Limites filológicos e legais:** a atribuição à UBS5 foi informada pelo usuário. Não houve cotejo crítico independente contra o texto impresso, nem incorporação do aparato. Os direitos de publicação precisam ser tratados separadamente do registro interno da transcrição.
 
-## Estrutura da Biblia Sacra Vulgata (VUL)
+## Estrutura da Biblia Sacra Vulgata — VUL
 
-A estrutura da Vulgata foi incorporada nesta branch a partir do catálogo já criado em `chat-gpt-melhorias`, **sem mesclar outras alterações daquela branch**. O arquivo `scriptures/catalog-vul.js` contém 78 unidades independentes: **39** livros sob o Antigo Testamento, **27** sob o Novo Testamento e **12** entradas na seção denominada «Apócrifos» pela relação fornecida pelo usuário. As grafias latinas e o número de capítulos preservam a fonte enviada, incluindo *Liber Hester* (16), *Danihel Propheta* (14), *Iohel Propheta* (3), *Malachi Propheta* (4) e *Psalmus CLI* (1). A classificação de apócrifos é reproduzida sem julgamento de canonicidade.
+**Estado:** catálogo de 78 unidades incorporado em 22/10/2026 e Gênesis 1 latino publicado com 31 versículos fornecidos pelo usuário; demais capítulos ainda sem textos.
 
-O catálogo é carregado **antes** de `scriptures/reader.js`, e `VUL` é uma edição independente, com navegação por livro, capítulo e versículo. Os versículos de capítulos ainda não fornecidos permanecem indisponíveis. O sistema não inventa vínculos de consulta externa para essa edição.
+**Procedência do catálogo:** lista enviada pelo usuário, contendo nomes latinos, nomes portugueses e a quantidade de capítulos. A edição textual latina específica (por exemplo, texto de uma Vulgata crítica ou de outra tradição editorial) **não foi identificada** e não pode ser presumida a partir da designação VUL.
+
+**Inventário preservado:**
+
+| Divisão | Livros/unidades |
+| --- | ---: |
+| Antigo Testamento · Pentateuco | 5 |
+| Antigo Testamento · Livros Históricos | 12 |
+| Antigo Testamento · Livros Poéticos e Sapienciais | 5 |
+| Antigo Testamento · Profetas maiores | 5 |
+| Antigo Testamento · Profetas menores | 12 |
+| Novo Testamento · Evangelhos | 4 |
+| Novo Testamento · Atos | 1 |
+| Novo Testamento · Epístolas paulinas | 13 |
+| Novo Testamento · Epístolas universais | 8 |
+| Novo Testamento · Apocalipse | 1 |
+| Apócrifos (categoria da lista fornecida) | 12 |
+| **Total** | **78** |
+
+As contagens de capítulos foram mantidas **exatamente como informadas**: entre outros exemplos, *Liber Hester* (16), *Danihel Propheta* (14), *Iohel Propheta* (3), *Malachi Propheta* (4), *Liber Iesu Filii Sirach* (52) e *Liber Baruch* (6). O catálogo inclui *Psalmi Iuxta Hebr.* (150), *Psalmus CLI* (1), *Oratio Manasse* (1), *Liber Ezrae III* (9), *Liber Ezrae IV* (16) e *Ad Laodicenses* (1), sem deduzir correspondência textual com outras edições. **Esses números ainda não foram cotejados com uma edição crítica escolhida.**
+
+A repetição do cabeçalho “Epístolas universais” na lista de entrada foi consolidada num único agrupamento visual, sem excluir *Ad Hebraeos*. Os demais nomes editoriais latinos foram conservados, inclusive grafias como *Samuhelis*, *Malachim*, *Neemiae*, *Hester*, *Danihel* e *Zaccharias*.
+
+**Implementação:** `scriptures/catalog-vul.js` contém os metadados em `window.ScripturaVulCatalog`; `scriptures/reader.js` integra a edição `VUL` ao menu, aos agrupamentos de livros e à navegação por capítulo e referência de versículo. Os versículos latinos são carregados exclusivamente em `window.ScripturaScriptureTexts.VUL[bookId][chapter]`, usando `lang="la"` e `dir="ltr"`; Gênesis 1 está registrado em `scriptures/texts/vul-genesis-1.js`. O leitor **não cria URL da editora** para a VUL enquanto não houver fonte externa verificada. Nenhum texto de outra edição é apresentado como VUL.
+
+**Exemplo de referência:** `#escrituras/VUL/GEN.1.1`. A seleção de números de versículo em capítulos ainda sem texto é provisória e não atesta o número real de versos do capítulo.
 
 ## Incorporação textual 005 — Gênesis 1 (VUL)
 
