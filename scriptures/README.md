@@ -61,6 +61,20 @@ O exemplo é **estrutura de dados, não conteúdo da BHS**. O componente exibe a
 
 A atribuição da edição e eventuais autorizações necessárias para disponibilizar publicamente o texto são questões editoriais independentes da fidelidade da transcrição.
 
+## Incorporação textual 002 — Gênesis 1 (LXX)
+
+**Situação:** 31 versículos transcritos como texto grego da Septuaginta e integrados ao leitor, independentes da BHS. A transcrição foi **fornecida integralmente pelo usuário na conversa de 22/10/2026**; não foi obtida por extração automática de terceiros.
+
+- **Identidade:** edição `LXX`, livro `GEN`, capítulo `1`; referências `LXX/GEN.1.1` a `LXX/GEN.1.31`.
+- **Arquivo do texto:** `scriptures/texts/lxx-genesis-1.js`.
+- **Unidade de armazenamento:** `window.ScripturaScriptureTexts.LXX.GEN[1]` com chaves numéricas de 1 a 31, sem mistura com `BHS.GEN[1]`.
+- **Quebras entre unidades:** após os vv. **5, 8, 13, 19 e 23**; oriundas da disposição fornecida, não devem ser confundidas com parashot massoréticas.
+- **Travessões editoriais entre versículos:** preservados após **10, 25 e 29** como metadados `ScripturaScriptureEditorialSeparators.LXX.GEN[1]`. O travessão **interno** ao v. 29 permanece na cadeia textual.
+- **Idioma e direção:** `lang="grc"`, da esquerda para a direita; manutenção da acentuação e da pontuação fornecidas, inclusive formas como `κατ᾽` e `καθ᾽`.
+- **Cotejo crítico:** a transcrição foi recebida com a atribuição editorial “LXX”; ainda **não foi conferida independentemente** contra a impressão de Rahlfs–Hanhart ou com a apresentação da Deutsche Bibelgesellschaft. Não atribuir variantes específicas sem confrontação documental.
+
+**Consulta direta:** `#escrituras/LXX/GEN.1.1`. A atribuição editorial e os direitos de republicação exigem verificação específica antes de qualquer afirmação de homologação do texto.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
