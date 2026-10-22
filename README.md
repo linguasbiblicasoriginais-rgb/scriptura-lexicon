@@ -85,9 +85,9 @@ A existência de uma funcionalidade na aplicação não implica que **todos** os
 
 ## Escrituras Sagradas
 
-A interface inclui **Escrituras Sagradas** como categoria independente acima dos dicionários, com cinco edições: **BHS, LXX, NA28, UBS5 e TR**. O novo leitor organiza o catálogo por **edição → livro → capítulo → versículo**, preserva subdivisões hebraicas e variantes textuais da Septuaginta, permite copiar a referência e utiliza URLs específicas para acesso aos capítulos do portal editorial quando o mapeamento é conhecido.
+A interface inclui **Escrituras Sagradas** como categoria independente acima dos dicionários, com seis edições: **BHS, LXX, NA28, UBS5, TR e VUL**. O novo leitor organiza o catálogo por **edição → livro → capítulo → versículo**, preserva subdivisões hebraicas e variantes textuais da Septuaginta, permite copiar a referência e utiliza URLs específicas para acesso aos capítulos do portal editorial quando o mapeamento é conhecido.
 
-**Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. A edição de referência do TR permanece pendente.
+**Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. As edições textuais exatas do TR e da VUL permanecem pendentes de identificação.
 
 **Primeira incorporação textual:** Gênesis 1 (BHS), com **31 versículos** fornecidos pelo usuário e **seis marcações פ** de seção aberta. A transcrição está integrada ao leitor, mas o cotejo caractere a caractere com a edição impressa e a questão dos direitos de publicação ainda exigem verificação.
 
@@ -96,6 +96,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 **Terceira incorporação textual:** Mateus 1 (NA28), com **25 versículos gregos** fornecidos pelo usuário, preservados de modo independente das demais edições. As quebras internas de 1:6 e 1:23 estão registradas e a conferência contra a edição impressa continua pendente.
 
 **Quarta incorporação textual:** Mateus 1 (UBS5), com **25 versículos gregos** fornecidos pelo usuário, dois blocos de títulos e referências paralelas. Conservam-se as diferenças de pontuação, apóstrofos e maiúsculas em relação à transcrição anterior da NA28; cotejo impresso pendente.
+
+**Estrutura da Vulgata:** 78 entradas de navegação (39 no Antigo Testamento, 27 no Novo Testamento e 12 na seção de apócrifos informada). **Quinta incorporação textual:** Gênesis 1 (VUL), com **31 versículos latinos** fornecidos pelo usuário e integrados ao leitor na branch `chat-gpt-escrituras`, conservando as quebras internas. A confirmação da edição impressa permanece pendente.
 
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
