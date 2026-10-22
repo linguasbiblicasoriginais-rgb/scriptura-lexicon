@@ -87,6 +87,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
     const reference = panel.querySelector("#scripture-reference");
     const original = panel.querySelector("#scripture-original");
     const textRegion = panel.querySelector("#scripture-text");
+    const wordUI = window.ScripturaWordPopups?.attach(panel, textRegion) || null;
     const external = panel.querySelector("#scripture-external");
     const feedback = panel.querySelector("#scripture-reader-feedback");
     const siblings = Array.from(main.children).filter(function (node) {
@@ -103,6 +104,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
     }
     editionOrder.forEach(function (code) { editionSelect.append(makeOption(code, labels[code])); });
     function book() { return catalog[state.edition].find(function (item) { return item.id === state.bookId; }); }
+    function selectedBookName() { return book()?.name || state.bookId; }
     function fillBooks() {
         bookSelect.replaceChildren();
         let last = "", group;
@@ -133,6 +135,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         if (window.location.hash !== newHash) history.replaceState(null, "", newHash);
     }
     function renderTexts() {
+        wordUI?.close(false);
         textRegion.replaceChildren();
         const corpus = window.ScripturaScriptureTexts || {};
         const entries = corpus[state.edition]?.[state.bookId]?.[state.chapter];
@@ -192,7 +195,12 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             const passage = document.createElement("bdi");
             passage.lang = state.edition === "BHS" ? "he" : state.edition === "VUL" ? "la" : "grc";
             passage.dir = state.edition === "BHS" ? "rtl" : "ltr";
-            passage.textContent = content;
+            if (wordUI) {
+                wordUI.decorate(passage, content, {
+                    edition: state.edition,
+                    reference: selectedBookName() + " " + state.chapter + ":" + number
+                });
+            } else passage.textContent = content;
             para.append(count, passage);
             textRegion.append(para);
             if (editorialSeparatorSet.has(number)) {
@@ -273,6 +281,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         if (updateHash) syncHash();
     }
     function hide() {
+        wordUI?.close(false);
         panel.hidden = true;
         siblings.forEach(function (node) { node.hidden = initialVisibility.get(node); });
         menuButtons.forEach(function (button) {
