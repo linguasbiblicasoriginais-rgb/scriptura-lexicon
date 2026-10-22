@@ -93,6 +93,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Segunda incorporação textual:** Gênesis 1 (LXX), com **31 versículos gregos** fornecidos pelo usuário, separados do texto hebraico. As quebras e os travessões editoriais estão documentados; o cotejo independente com a edição de referência continua pendente.
 
+**Terceira incorporação textual:** Mateus 1 (NA28), com **25 versículos gregos** fornecidos pelo usuário, preservados de modo independente das demais edições. As quebras internas de 1:6 e 1:23 estão registradas e a conferência contra a edição impressa continua pendente.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
