@@ -99,6 +99,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Estrutura da Vulgata:** 78 entradas de navegação (39 no Antigo Testamento, 27 no Novo Testamento e 12 na seção de apócrifos informada). **Quinta incorporação textual:** Gênesis 1 (VUL), com **31 versículos latinos** fornecidos pelo usuário e integrados ao leitor na branch `chat-gpt-escrituras`, conservando as quebras internas. A confirmação da edição impressa permanece pendente.
 
+**Sexta incorporação textual:** Gênesis 2 (BHS), com **25 versículos hebraicos** enviados pelo usuário, preservando *niqqud*, acentos massoréticos e a marcação **פ** após o versículo 3. Registrado de modo independente de Gênesis 1; cotejo impresso pendente.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
