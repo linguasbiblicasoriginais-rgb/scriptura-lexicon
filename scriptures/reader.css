@@ -210,3 +210,24 @@
     .scripture-reader-controls label:nth-child(1), .scripture-reader-controls label:nth-child(2) { grid-column: span 2; }
     .scripture-reader-navigation button { flex: 1; }
 }
+
+/* Gênesis 1: numeração isolada e marcas de seção aberta (פ). */
+.scripture-verse-line[dir="rtl"] {
+    text-align: right;
+    direction: rtl;
+}
+.scripture-verse-line[dir="rtl"] .scripture-verse-number {
+    direction: ltr;
+    unicode-bidi: isolate;
+    padding-inline-end: .35rem;
+}
+.scripture-parashah-open {
+    font-family: "Noto Serif Hebrew", serif;
+    font-weight: 600;
+    text-align: right;
+    direction: rtl;
+    margin: 12px 0 20px;
+    padding: 3px 10px 9px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-soft);
+}

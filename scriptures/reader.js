@@ -142,6 +142,8 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             return;
         }
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
+        const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
+        const sectionBreakSet = new Set(sectionBreaks.map(Number));
         verses.forEach(function (entry) {
             const number = positiveInt(entry[0], 0);
             if (!number) return;
@@ -149,6 +151,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             if (typeof content !== "string" || !content) return;
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
+            para.dir = state.edition === "BHS" ? "rtl" : "ltr";
             if (number === state.verse) para.classList.add("scripture-verse-selected");
             const count = document.createElement("span");
             count.className = "scripture-verse-number";
@@ -159,6 +162,15 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             passage.textContent = content;
             para.append(count, passage);
             textRegion.append(para);
+            if (sectionBreakSet.has(number)) {
+                const breakMarker = document.createElement("p");
+                breakMarker.className = "scripture-parashah-open";
+                breakMarker.lang = "he";
+                breakMarker.dir = "rtl";
+                breakMarker.setAttribute("aria-label", "פ — parashah petuchah, seção aberta");
+                breakMarker.textContent = "פ";
+                textRegion.append(breakMarker);
+            }
         });
     }
     function render() {
@@ -167,6 +179,12 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         editionSelect.value = state.edition;
         bookSelect.value = state.bookId;
         chapterSelect.value = String(state.chapter);
+        const verseMap = window.ScripturaScriptureTexts?.[state.edition]?.[state.bookId]?.[state.chapter];
+        const knownVerseNumbers = verseMap ? Object.keys(verseMap).map(Number).filter(Number.isSafeInteger) : [];
+        const knownVerseLimit = knownVerseNumbers.length ? Math.max(...knownVerseNumbers) : null;
+        if (knownVerseLimit !== null && state.verse > knownVerseLimit) state.verse = knownVerseLimit;
+        if (knownVerseLimit === null) verseInput.removeAttribute("max");
+        else verseInput.max = String(knownVerseLimit);
         verseInput.value = String(state.verse);
         heading.textContent = labels[state.edition];
         category.textContent = selected.group;
