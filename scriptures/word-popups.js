@@ -20,7 +20,7 @@
             "היום": "o dia", "ימים": "dias", "לילה": "noite", "הלילה": "a noite",
             "אור": "luz", "האור": "a luz", "חשך": "trevas; escuridão",
             "החשך": "as trevas", "תהום": "abismo; profundidade", "רוח": "vento; espírito",
-            "מים": "água(s)", "המים": "as águas", "הארץ": "a terra",
+            "מים": "água(s)", "המים": "as águas",
             "אדם": "ser humano; Adão (conforme o contexto)", "האדם": "o ser humano; o homem",
             "איש": "homem", "אשה": "mulher", "האשה": "a mulher",
             "גן": "jardim", "בגן": "no jardim", "עדן": "Éden",
@@ -32,7 +32,7 @@
             "אלה": "estes; estas", "תולדות": "gerações; origens",
             "ויפח": "e soprou", "ויפקד": "e encarregou", "ויצר": "e formou",
             "ויקח": "e tomou", "ויקרא": "e chamou; deu nome",
-            "ויקרא": "e chamou; deu nome", "ויקם": "e levantou",
+            "ויקם": "e levantou",
             "עזר": "ajuda; auxílio", "לבדו": "sozinho; só",
             "ויבן": "e construiu; formou", "בשר": "carne",
             "וימת": "e morreu", "שמו": "seu nome", "שמות": "nomes",
@@ -186,7 +186,7 @@
                 group === "GRC" ? transliterateGreek(form) : form,
             meaning: gloss,
             label: group === "BHS" ? "Hebraico" : group === "GRC" ? "Grego" : "Latim",
-            status: gloss ? "Glossa editorial preliminar" : "Acepção não cadastrada",
+            status: gloss ? "Glosa editorial preliminar" : "Acepção não cadastrada",
             note: gloss ?
                 "Resumo editorial introdutório; não substitui análise morfológica nem verbete cotejado de BDAG, KBS, Clines ou outro léxico." :
                 "A forma ainda não possui análise lexical validada. Não foi atribuída uma tradução por inferência."
