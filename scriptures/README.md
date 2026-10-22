@@ -172,6 +172,8 @@ A repetição do cabeçalho “Epístolas universais” na lista de entrada foi 
 
 O algoritmo segmenta palavras Unicode sem reescrever o texto, mantendo espaços, sinais massoréticos, maqqef `־`, sof pasuq `׃`, pontuação grega, citações e quebras de linha como nós textuais separados. Assim, as marcas de parashah, as divisões da LXX e os títulos editoriais da UBS5 não são transformados em entradas lexicais.
 
+**Teste de regressão:** executar a partir da raiz com `node tests/scripture-word-popups.test.cjs`. O teste verifica reconstrução idêntica das cadeias Unicode em todos os seis capítulos, a existência de transliteração em cada ocorrência e a ausência de glosas inventadas no caso de formas desconhecidas. A interface visual ainda requer teste manual em navegador e leitor de tela.
+
 **Limites e tarefas futuras:** ampliar o glossário mediante revisão filológica por edição e associação verificável `ocorrência → lema → fonte lexicográfica → acepção`; realizar conferência em navegador e tecnologias assistivas; nunca divulgar a atual cobertura parcial como análise exaustiva.
 
 ## Fontes e licenciamento
