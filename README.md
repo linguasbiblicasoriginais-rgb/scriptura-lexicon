@@ -13,6 +13,7 @@ O projeto está associado ao **GDHAGP — Grande Dicionário Hebraico–Aramaico
 - [Finalidade e objetivos](#finalidade-e-objetivos)
 - [Abrangência e conteúdo](#abrangência-e-conteúdo)
 - [Funcionalidades](#funcionalidades)
+- [Escrituras Sagradas](#escrituras-sagradas)
 - [Biblioteca de fontes lexicográficas](#biblioteca-de-fontes-lexicográficas)
   - [Grego](#fontes-gregas)
   - [Hebraico e aramaico](#fontes-hebraicas-e-aramaicas)
@@ -81,6 +82,14 @@ O acervo compreende, conforme os materiais efetivamente incorporados e seu está
 - **Ligações externas para textos e testemunhos**, quando a obra, a edição e a passagem de destino puderem ser verificadas.
 
 A existência de uma funcionalidade na aplicação não implica que **todos** os verbetes tenham recebido integralmente esse tratamento. A cobertura editorial deve ser comprovada por fonte e por artigo.
+
+## Escrituras Sagradas
+
+A interface inclui **Escrituras Sagradas** como categoria independente acima dos dicionários, com cinco edições: **BHS, LXX, NA28, UBS5 e TR**. O novo leitor organiza o catálogo por **edição → livro → capítulo → versículo**, preserva subdivisões hebraicas e variantes textuais da Septuaginta, permite copiar a referência e utiliza URLs específicas para acesso aos capítulos do portal editorial quando o mapeamento é conhecido.
+
+**Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. A edição de referência do TR permanece pendente.
+
+**Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
 
