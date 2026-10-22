@@ -75,6 +75,19 @@ A atribuição da edição e eventuais autorizações necessárias para disponib
 
 **Consulta direta:** `#escrituras/LXX/GEN.1.1`. A atribuição editorial e os direitos de republicação exigem verificação específica antes de qualquer afirmação de homologação do texto.
 
+## Incorporação textual 003 — Mateus 1 (NA28)
+
+**Estado:** 25 de 25 versículos incorporados e habilitados no leitor da edição NA28, sem interferir em BHS, LXX, UBS5 ou TR.
+
+- **Fonte material recebida:** transcrição grega integral fornecida pelo usuário nesta conversa, identificada como *Novo Testamento Grego — Texto Crítico (NA28)*. Não foi feita extração automática do site da editora nem colação independente com o volume impresso.
+- **Arquivo:** `scriptures/texts/na28-matthew-1.js`, registrado em `window.ScripturaScriptureTexts.NA28.MAT[1]`, versículos 1–25.
+- **Segmentação:** números dos versículos removidos do conteúdo textual e representados pelas chaves do objeto. Mantêm-se todos os sinais de acentuação e pontuação presentes no material recebido. Nenhuma leitura foi substituída por texto conhecido de outra edição.
+- **Composição:** as quebras de linha internas dos versículos **6** (genealogia) e **23** (citação) permanecem no valor textual, com exibição por `white-space: pre-line` na interface.
+- **Apresentação:** `lang="grc"`, `dir="ltr"`. A seleção de versículo em Mateus 1 tem máximo documentado de 25.
+- **Endereço de consulta interna:** `#escrituras/NA28/MAT.1.1`.
+
+**Limites:** a atribuição à NA28 é proveniente do usuário. A conformidade exata com a edição crítica de referência, o aparato e as permissões de reprodução pública não foram independentemente verificados. O estado de incorporação não constitui homologação filológica ou licença editorial.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
