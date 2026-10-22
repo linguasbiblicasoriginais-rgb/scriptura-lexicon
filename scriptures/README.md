@@ -144,6 +144,19 @@ A repetição do cabeçalho “Epístolas universais” na lista de entrada foi 
 
 **Limites:** o rótulo VUL identifica o namespace solicitado, não atesta qual edição específica da tradição vulgata é representada pelo texto enviado. Nenhuma colação da versão impressa, do aparato crítico ou de direitos de republicação foi concluída. Não declarar homologação editorial.
 
+## Incorporação textual 006 — Gênesis 2 (BHS, Texto Massorético)
+
+**Estado:** 25 versículos hebraicos incorporados a partir da transcrição fornecida pelo usuário, sem substituições textuais nem normalização Unicode.
+
+- **Fonte material:** texto de Gênesis 2:1–25 colado pelo usuário no chat; identificado como BHS. O conteúdo **não foi cotejado independentemente** contra a edição impressa e, portanto, esta atribuição de edição representa a procedência informada, não homologação crítica.
+- **Arquivo textual:** `scriptures/texts/bhs-genesis-2.js`, com versículos consecutivos de 1 a 25 armazenados em `window.ScripturaScriptureTexts.BHS.GEN[2]`; a numeração fica em chaves, não no texto hebraico.
+- **Marcação massorética:** `פ` isolado após 2:3 mantido como marcador de *parashah petuchah*, em `window.ScripturaScriptureParagraphBreaks.BHS.GEN[2] = [3]`, sem introduzir a letra no texto do versículo.
+- **Diacríticos e pontuação:** conservados a vocalização, os acentos de cantilação, o *maqqef* `־`, o *sof pasuq* `׃` e o *paseq* `׀` nas posições fornecidas; sem correção inferida, retirada de variantes ou conversão para outra tradição editorial.
+- **Navegação:** `#escrituras/BHS/GEN.2.1`; idioma `he` e direção `rtl`; máximo verificável neste capítulo: 25 versículos.
+- **Independência:** o capítulo 1 BHS e os textos LXX, NA28, UBS5 e VUL existentes permanecem em seus próprios registros, sem harmonização.
+
+**Limites:** não houve cotejo caractere a caractere contra o livro impresso da BHS, nem verificação jurídica de republicação; a incorporação registra literalmente o material recebido, sem atestar a identidade editorial externa.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
