@@ -246,3 +246,8 @@
     margin: 3px 0 13px;
     border-bottom: 1px solid var(--border-soft);
 }
+
+/* Preserva quebras poéticas internas dos versículos gregos (p.ex., Mt 1:23). */
+.scripture-verse-line bdi[lang="grc"] {
+    white-space: pre-line;
+}
