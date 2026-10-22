@@ -277,3 +277,13 @@
     font-size: .82rem;
     color: var(--text-muted);
 }
+
+/* VUL: tipografia latina e preservação da divisão interna dos versículos. */
+.scripture-reader-original[lang="la"],
+.scripture-verse-line bdi[lang="la"] {
+    font-family: "Noto Serif", Georgia, serif;
+    direction: ltr;
+}
+.scripture-verse-line bdi[lang="la"] {
+    white-space: pre-line;
+}
