@@ -119,6 +119,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Décima quarta incorporação textual:** Êxodo 11–20 (BHS), **271 versículos** e **40 marcas de *parashah*** (20 פ e 20 ס), integralmente reproduzidos da transcrição do usuário sem emenda, tradução ou normalização Unicode, inclusive os acentos múltiplos de Êxodo 20. Dez novos módulos, scripts de carregamento, registros de testes e documentação. **Acumulado: Gênesis 50/50 capítulos (1.533 versículos), Êxodo 20/40 (545), total BHS de 2.078 versículos.** A auditoria filológica, execução da suíte em Node.js e direitos de publicação continuam independentes.
 
+**Décima quinta incorporação textual:** Êxodo 21–30 (BHS), **343 versículos** e **58 marcas de *parashah*** (14 פ e 44 ס), reproduzidos literalmente do material do usuário sem normalização, emendas ou tradução. Incluídos dez módulos, carregamento no leitor, testes de contagens e posições de *parashot* e documentação. **Acumulado: Gênesis 50/50 (1.533 versículos); Êxodo 30/40 (888 versículos); total BHS de 2.421 versículos, distribuídos em 80 capítulos.** Cotejo filológico, execução da suíte Node.js e direitos de publicação são verificações independentes.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas

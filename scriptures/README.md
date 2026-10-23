@@ -349,6 +349,28 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Cobertura:** Êxodo **20/40 capítulos (50%)**, **545 versículos**, incluindo o lote anterior de Êxodo 1–10. Com Gênesis 1–50 (**1.533 versículos**), o acumulado da camada BHS é de **2.078 versículos** e **70 capítulos** incorporados. Êxodo 21–40 permanece pendente. O texto foi conferido estruturalmente em relação à transcrição recebida; não equivale a cotejo impresso, homologação filológica, execução automatizada da suíte Node.js nem autorização de redistribuição.
 
+## Incorporação textual 015 — Êxodo 21–30 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário. Foram conservados a grafia, o *niqqud*, os *teʿamim*, os sinais especiais, o *maqaf*, o *sof pasuq*, a ordem dos pontos de código Unicode e as marcas de *parashah*. Não houve normalização Unicode, correção editorial, tradução ou cotejo com a edição impressa. A numeração em Êxodo 21 (37 versículos) corresponde literalmente à transcrição recebida.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 21 | 37 | 6 ס; 11 ס; 13 ס; 14 ס; 16 ס; 17 ס; 19 ס; 21 ס; 25 ס; 26 ס; 27 פ; 32 ס; 34 ס; 36 ס |
+| 22 | 30 | 3 ס; 4 ס; 5 ס; 8 ס; 12 פ; 14 ס; 16 ס; 17 ס; 18 ס; 23 פ; 26 ס; 30 ס |
+| 23 | 33 | 1 ס; 3 ס; 4 ס; 5 ס; 19 ס; 33 פ |
+| 24 | 18 | 11 ס; 18 פ |
+| 25 | 40 | 9 ס; 22 פ; 30 פ; 40 ס |
+| 26 | 37 | 6 פ; 14 פ; 30 ס; 37 ס |
+| 27 | 21 | 8 ס; 19 ס; 21 ס |
+| 28 | 43 | 5 פ; 12 ס; 14 ס; 30 ס; 35 ס; 43 ס |
+| 29 | 46 | 37 ס; 46 פ |
+| 30 | 38 | 10 פ; 16 פ; 21 פ; 33 ס; 38 ס |
+| **Total** | **343** | **14 פ e 44 ס** |
+
+**Integração:** dez novos módulos `scriptures/texts/bhs-exodus-21.js` a `bhs-exodus-30.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical foi mantido separado dos metadados de marcas parasséticas.
+
+**Cobertura:** Êxodo **30/40 capítulos (75%)** e **888 versículos**; juntamente com Gênesis 1–50 (**1.533 versículos**), são **2.421 versículos** incorporados na camada BHS em **80 capítulos**. Êxodo 31–40 permanece pendente. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
