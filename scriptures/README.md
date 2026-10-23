@@ -594,6 +594,41 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Limitações:** preservação da fonte fornecida não equivale a homologação filológica, comparação independente com a edição impressa da BHS ou autorização para reprodução editorial. Diferenciar verificações estruturais de execução real de testes automatizados Node.js e testes visuais no navegador.
 
+## Incorporação textual 023 — Juízes 1–21 (BHS)
+
+**Procedência:** transcrição hebraica massorética completa fornecida pelo usuário em 23/10/2026 e identificada no projeto como BHS. Mantidos exatamente os caracteres de cada versículo (*niqqud*, *teʿamim*, pontuação, *maqaf*, *paseq*, *sof pasuq*, grafias e sinais incomuns), sem normalização Unicode, correção editorial ou conjectura. Marcas isoladas פ (*petuchah*) e ס (*setumah*) ao final dos versículos foram transferidas para os metadados de `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`; as **três marcas internas** de Juízes 2:1 (פ), 6:22 (ס) e 7:5 (ס) foram preservadas em `ScripturaScriptureInlineParashahTypes`, com deslocamentos Unicode exatos e quebras de linha preservadas nos versos.
+
+| Capítulo | Versículos | Marcas de *parashah* explícitas |
+| --- | ---: | --- |
+| 1 | 36 | 7 פ; 15 פ; 21 ס; 26 פ; 28 ס; 29 פ; 30 ס; 32 ס; 33 ס; 36 פ |
+| 2 | 23 | 5 פ; 10 ס; 23 פ; 1 פ (interna) |
+| 3 | 31 | 6 פ; 11 פ; 14 ס; 30 ס; 31 ס |
+| 4 | 24 | 3 ס; 12 ס; 24 פ |
+| 5 | 31 | 31 פ |
+| 6 | 40 | 6 פ; 10 פ; 19 ס; 24 פ; 32 פ; 40 פ; 22 ס (interna) |
+| 7 | 25 | 3 ס; 6 ס; 8 פ; 14 פ; 18 פ; 5 ס (interna) |
+| 8 | 35 | 9 פ; 28 פ; 32 פ; 35 פ |
+| 9 | 57 | 5 ס; 21 פ; 25 פ; 33 ס; 36 ס; 38 ס; 45 פ; 49 פ; 57 פ |
+| 10 | 18 | 2 פ; 5 פ; 10 פ; 16 פ; 18 פ |
+| 11 | 40 | 3 פ; 11 פ; 28 פ; 31 פ; 33 פ; 40 ס |
+| 12 | 15 | 7 פ; 10 פ; 12 פ; 15 פ |
+| 13 | 25 | 1 פ; 7 פ; 18 ס; 25 פ |
+| 14 | 20 | 4 פ; 19 פ |
+| 15 | 20 | 8 ס; 20 פ |
+| 16 | 31 | 3 פ; 22 פ; 31 פ |
+| 17 | 13 | 6 פ |
+| 18 | 31 | 1 ס; 6 פ; 31 פ |
+| 19 | 30 | 30 פ |
+| 20 | 48 | 2 פ; 11 פ; 16 פ; 19 פ; 23 פ; 29 פ; 34 פ; 48 פ |
+| 21 | 25 | 4 פ; 12 ס; 18 ס; 22 ס |
+| **Total 1–21** | **618** | **65 פ e 27 ס (92 ao todo; 3 internas)** |
+
+**Integração:** `scriptures/texts/bhs-judges-1.js` a `bhs-judges-21.js` (21 módulos), registrados em `ScripturaScriptureTexts.BHS.JDG`; scripts incluídos uma única vez em `index.html` antes de `scriptures/reader.js` e após Josué. Contagens de versículos, tipologia das parashot e reconstrução literal das marcas internas adicionadas a `tests/scripture-word-popups.test.cjs`. O catálogo do leitor já apresenta Juízes sob Profetas anteriores; não foi necessário alterá-lo.
+
+**Cobertura BHS acumulada conforme transcrições do usuário:** Gênesis (50 capítulos, 1.533 versículos), Êxodo (40, 1.213), Levítico (27, 859), Números (36, 1.289), Deuteronômio (34, 959), Josué (24, 658) e Juízes (21, 618). **Total: 232 capítulos e 7.129 versículos em sete livros completos**.
+
+**Limitações:** preservação da fonte fornecida não equivale a homologação filológica, comparação independente com a edição impressa da BHS ou autorização para reprodução editorial. Diferenciar verificações estruturais de execução real de testes automatizados Node.js e testes visuais no navegador.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1

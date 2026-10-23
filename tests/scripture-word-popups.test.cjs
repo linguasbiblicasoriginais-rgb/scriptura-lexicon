@@ -223,6 +223,27 @@ const sourceFiles = [
     "scriptures/texts/bhs-joshua-22.js",
     "scriptures/texts/bhs-joshua-23.js",
     "scriptures/texts/bhs-joshua-24.js",
+    "scriptures/texts/bhs-judges-1.js",
+    "scriptures/texts/bhs-judges-2.js",
+    "scriptures/texts/bhs-judges-3.js",
+    "scriptures/texts/bhs-judges-4.js",
+    "scriptures/texts/bhs-judges-5.js",
+    "scriptures/texts/bhs-judges-6.js",
+    "scriptures/texts/bhs-judges-7.js",
+    "scriptures/texts/bhs-judges-8.js",
+    "scriptures/texts/bhs-judges-9.js",
+    "scriptures/texts/bhs-judges-10.js",
+    "scriptures/texts/bhs-judges-11.js",
+    "scriptures/texts/bhs-judges-12.js",
+    "scriptures/texts/bhs-judges-13.js",
+    "scriptures/texts/bhs-judges-14.js",
+    "scriptures/texts/bhs-judges-15.js",
+    "scriptures/texts/bhs-judges-16.js",
+    "scriptures/texts/bhs-judges-17.js",
+    "scriptures/texts/bhs-judges-18.js",
+    "scriptures/texts/bhs-judges-19.js",
+    "scriptures/texts/bhs-judges-20.js",
+    "scriptures/texts/bhs-judges-21.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -458,6 +479,27 @@ const chapters = [
     ["BHS", "JOS", 22, 34],
     ["BHS", "JOS", 23, 16],
     ["BHS", "JOS", 24, 33],
+    ["BHS", "JDG", 1, 36],
+    ["BHS", "JDG", 2, 23],
+    ["BHS", "JDG", 3, 31],
+    ["BHS", "JDG", 4, 24],
+    ["BHS", "JDG", 5, 31],
+    ["BHS", "JDG", 6, 40],
+    ["BHS", "JDG", 7, 25],
+    ["BHS", "JDG", 8, 35],
+    ["BHS", "JDG", 9, 57],
+    ["BHS", "JDG", 10, 18],
+    ["BHS", "JDG", 11, 40],
+    ["BHS", "JDG", 12, 15],
+    ["BHS", "JDG", 13, 25],
+    ["BHS", "JDG", 14, 20],
+    ["BHS", "JDG", 15, 20],
+    ["BHS", "JDG", 16, 31],
+    ["BHS", "JDG", 17, 13],
+    ["BHS", "JDG", 18, 31],
+    ["BHS", "JDG", 19, 30],
+    ["BHS", "JDG", 20, 48],
+    ["BHS", "JDG", 21, 25],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -803,6 +845,62 @@ for (const [chapter, versesMap] of Object.entries(expectedJoshuaInline)) {
         }
         assert.equal(reconstructed, originalJoshuaInlineVerses[chapter + ":" + verse],
             "Reconstrução massorética interna alterada em Josué " + chapter + ":" + verse);
+    }
+}
+
+const expectedJudgesParashot = {
+    1: {"7":"פ","15":"פ","21":"ס","26":"פ","28":"ס","29":"פ","30":"ס","32":"ס","33":"ס","36":"פ"},
+    2: {"5":"פ","10":"ס","23":"פ"},
+    3: {"6":"פ","11":"פ","14":"ס","30":"ס","31":"ס"},
+    4: {"3":"ס","12":"ס","24":"פ"},
+    5: {"31":"פ"},
+    6: {"6":"פ","10":"פ","19":"ס","24":"פ","32":"פ","40":"פ"},
+    7: {"3":"ס","6":"ס","8":"פ","14":"פ","18":"פ"},
+    8: {"9":"פ","28":"פ","32":"פ","35":"פ"},
+    9: {"5":"ס","21":"פ","25":"פ","33":"ס","36":"ס","38":"ס","45":"פ","49":"פ","57":"פ"},
+    10: {"2":"פ","5":"פ","10":"פ","16":"פ","18":"פ"},
+    11: {"3":"פ","11":"פ","28":"פ","31":"פ","33":"פ","40":"ס"},
+    12: {"7":"פ","10":"פ","12":"פ","15":"פ"},
+    13: {"1":"פ","7":"פ","18":"ס","25":"פ"},
+    14: {"4":"פ","19":"פ"},
+    15: {"8":"ס","20":"פ"},
+    16: {"3":"פ","22":"פ","31":"פ"},
+    17: {"6":"פ"},
+    18: {"1":"ס","6":"פ","31":"פ"},
+    19: {"30":"פ"},
+    20: {"2":"פ","11":"פ","16":"פ","19":"פ","23":"פ","29":"פ","34":"פ","48":"פ"},
+    21: {"4":"פ","12":"ס","18":"ס","22":"ס"}
+};
+for (const [chapter, expected] of Object.entries(expectedJudgesParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS.JDG[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em Juízes " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.JDG[chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em Juízes " + chapter);
+}
+const expectedJudgesInline = {
+    2: {"1":[{"offset":58,"type":"פ"}]},
+    6: {"22":[{"offset":50,"type":"ס"}]},
+    7: {"5":[{"offset":35,"type":"ס"}]}
+};
+const originalJudgesInlineVerses = {
+    "2:1": "וַיַּ֧עַל מַלְאַךְ־יְהוָ֛ה מִן־הַגִּלְגָּ֖ל אֶל־הַבֹּכִ֑ים פ\nוַיֹּאמֶר֩ אַעֲלֶ֨ה אֶתְכֶ֜ם מִמִּצְרַ֗יִם וָאָבִ֤יא אֶתְכֶם֙ אֶל־הָאָ֗רֶץ אֲשֶׁ֤ר נִשְׁבַּ֨עְתִּי֙ לַאֲבֹ֣תֵיכֶ֔ם וָאֹמַ֕ר לֹֽא־אָפֵ֧ר בְּרִיתִ֛י אִתְּכֶ֖ם לְעוֹלָֽם׃",
+    "6:22": "וַיַּ֣רְא גִּדְע֔וֹן כִּֽי־מַלְאַ֥ךְ יְהוָ֖ה ה֑וּא ס\nוַיֹּ֣אמֶר גִּדְע֗וֹן אֲהָהּ֙ אֲדֹנָ֣י יְהוִ֔ה כִּֽי־עַל־כֵּ֤ן רָאִ֨יתִי֙ מַלְאַ֣ךְ יְהוָ֔ה פָּנִ֖ים אֶל־פָּנִֽים׃",
+    "7:5": "וַיּ֥וֹרֶד אֶת־הָעָ֖ם אֶל־הַמָּ֑יִם ס\nוַיֹּ֨אמֶר יְהוָ֜ה אֶל־גִּדְע֗וֹן כֹּ֣ל אֲשֶׁר־יָלֹק֩ בִּלְשֹׁונ֨וֹ מִן־הַמַּ֜יִם כַּאֲשֶׁ֧ר יָלֹ֣ק הַכֶּ֗לֶב תַּצִּ֤יג אוֹתוֹ֙ לְבָ֔ד וְכֹ֛ל אֲשֶׁר־יִכְרַ֥ע עַל־בִּרְכָּ֖יו לִשְׁתּֽוֹת׃"
+};
+for (const [chapter, versesMap] of Object.entries(expectedJudgesInline)) {
+    const actual = window.ScripturaScriptureInlineParashahTypes.BHS.JDG[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(versesMap),
+        "Marcadores internos incorretos em Juízes " + chapter);
+    for (const [verse, marks] of Object.entries(versesMap)) {
+        let reconstructed = window.ScripturaScriptureTexts.BHS.JDG[chapter][verse];
+        for (let index = marks.length - 1; index >= 0; index--) {
+            const mark = marks[index];
+            reconstructed = reconstructed.slice(0, mark.offset) + " " + mark.type + reconstructed.slice(mark.offset);
+        }
+        assert.equal(reconstructed, originalJudgesInlineVerses[chapter + ":" + verse],
+            "Reconstrução massorética interna alterada em Juízes " + chapter + ":" + verse);
     }
 }
 
