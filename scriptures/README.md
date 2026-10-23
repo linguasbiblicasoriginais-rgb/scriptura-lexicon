@@ -468,6 +468,46 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Cobertura:** Números **10/36 capítulos (27,8%)**, **420 versículos**. A camada BHS soma agora Gênesis 1–50 (1.533), Êxodo 1–40 (1.213), Levítico 1–27 (859) e Números 1–10 (420): **4.025 versículos em 127 capítulos**. Permanecem pendentes Números 11–36 e Deuteronômio. Controles estruturais não substituem testes efetivamente executados, homologação filológica, cotejo impresso ou verificação dos direitos de publicação.
 
+## Incorporação textual 020 — Números 11–36 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário em 23/10/2026 e por ele identificada como BHS. Transcrição literal dos caracteres Unicode do arquivo: consoantes, sinais vocálicos (*niqqud*), acentos (*teʿamim*), *maqaf*, *paseq*, *sof pasuq*, grafias e demais sinais, sem normalização ou correções editoriais. As marcas isoladas פ (*petuchah*) e ס (*setumah*) após os versículos foram separadas do texto lexical e registradas em `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 11 | 35 | 15 פ; 22 פ; 35 פ |
+| 12 | 16 | 3 ס; 13 פ; 16 פ |
+| 13 | 33 | Sem marca final no trecho recebido |
+| 14 | 45 | 10 פ; 25 פ; 45 פ |
+| 15 | 41 | 16 פ; 21 ס; 26 ס; 31 פ; 34 ס; 36 פ; 41 פ |
+| 16 | 35 | 19 פ; 22 פ; 35 פ |
+| 17 | 28 | 8 פ; 15 פ; 24 ס; 26 ס; 28 ס |
+| 18 | 32 | 7 ס; 20 ס; 24 פ; 32 פ |
+| 19 | 22 | 22 פ |
+| 20 | 29 | 6 פ; 11 ס; 13 ס; 21 פ; 29 ס |
+| 21 | 35 | 3 פ; 16 ס; 20 פ |
+| 22 | 41 | 1 ס |
+| 23 | 30 | Sem marca final no trecho recebido |
+| 24 | 25 | 25 פ |
+| 25 | 19 | 9 פ; 15 פ; 19 פ |
+| 26 | 65 | 11 ס; 14 ס; 18 ס; 22 ס; 25 ס; 27 ס; 34 ס; 37 ס; 41 ס; 43 ס; 47 ס; 51 פ; 56 ס; 65 ס |
+| 27 | 23 | 5 ס; 11 ס; 14 פ; 23 פ |
+| 28 | 31 | 8 פ; 10 ס; 15 ס; 25 ס; 31 פ |
+| 29 | 39 | 6 ס; 11 פ; 16 ס; 19 ס; 22 ס; 25 ס; 28 ס; 31 פ; 34 פ |
+| 30 | 17 | 1 פ; 17 פ |
+| 31 | 54 | 12 ס; 20 ס; 24 פ; 54 פ |
+| 32 | 42 | 4 ס; 15 ס; 19 פ; 42 פ |
+| 33 | 56 | 39 ס; 49 ס; 56 פ |
+| 34 | 29 | 15 פ; 29 פ |
+| 35 | 34 | 8 פ; 34 פ |
+| 36 | 13 | Sem marca final no trecho recebido |
+| **Total 11–36** | **869** | **47 פ e 44 ס** |
+
+**Integração técnica:** `scriptures/texts/bhs-numbers-11.js` até `bhs-numbers-36.js`, totalizando 26 módulos de `ScripturaScriptureTexts.BHS.NUM`; `index.html` carrega os novos textos depois de Números 1–10 e antes do leitor; `tests/scripture-word-popups.test.cjs` enumera e valida a quantidade de versículos e os mapas de parashah para todos os 36 capítulos. A inexistência de marcas finais explícitas em determinados capítulos — especialmente 13, 23 e 36 — foi mantida conforme a fonte recebida. Os metadados especiais já existentes para os sinais ׆ em Números 10 permanecem inalterados.
+
+**Cobertura acumulada:** Números 1–36 completo (**1.289 versículos em 36 capítulos**). No conjunto BHS já incorporado: Gênesis 1–50 (**1.533**), Êxodo 1–40 (**1.213**), Levítico 1–27 (**859**) e Números 1–36 (**1.289**), total de **4.894 versículos e 153 capítulos** em quatro livros. Resta incorporar Deuteronômio para encerrar o Pentateuco.
+
+**Limitações:** conferir números de versículos, preservação literal e estrutura de metadados não constitui homologação filológica, cotejo independente da edição impressa nem conclusão sobre direitos de publicação. Diferenciar validações estruturais de execução real da suíte automatizada ou verificação visual no navegador.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
