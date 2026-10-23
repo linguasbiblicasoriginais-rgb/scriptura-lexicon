@@ -201,6 +201,40 @@ O algoritmo segmenta palavras Unicode sem reescrever o texto, mantendo espaços,
 
 **Pendências:** cotejo externo com a edição impressa, esclarecimentos editoriais, licenciamento e ensaios visuais no navegador; os commits não constituem homologação da transcrição.
 
+## Incorporação textual 008 — Gênesis 11–16 (BHS)
+
+**Estado confirmado:** todos os seis capítulos incorporados a partir da transcrição fornecida pelo usuário, com **131 versículos**; a dificuldade anterior de gravar Gênesis 14 e 16 foi solucionada com commits específicos. Os 16 primeiros capítulos somam **398 versículos**.
+
+| Capítulo | Versículos | Parashot após os versículos |
+| --- | ---: | --- |
+| 11 | 32 | 9 פ; 11, 13, 15, 17, 19, 21, 23, 25 e 32 ס |
+| 12 | 20 | 9 פ |
+| 13 | 18 | 18 פ |
+| 14 | 24 | 24 ס |
+| 15 | 21 | 21 ס |
+| 16 | 16 | 16 ס |
+| **Total** | **131** | **3 פ e 12 ס** |
+
+Os arquivos `scriptures/texts/bhs-genesis-11.js` a `bhs-genesis-16.js` estão conectados ao leitor antes de `scriptures/reader.js`. O texto hebraico conserva literalmente os caracteres enviados, incluindo cantilação, *niqqud*, pontuação e sinais especiais. As letras isoladas פ e ס após o versículo são metadados em `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`, não acréscimos ao texto versicular. O teste `tests/scripture-word-popups.test.cjs` contém verificações de numeração, popups e tipos de parashah para os seis capítulos.
+
+## Incorporação textual 009 — Gênesis 17–20 (BHS)
+
+**Estado confirmado:** quatro capítulos e **116 versículos** extraídos da transcrição fornecida pelo usuário, preservando a forma e a ordem dos sinais Unicode, sem emendas ou normalização automática.
+
+| Capítulo | Versículos | Parashot após os versículos |
+| --- | ---: | --- |
+| 17 | 27 | 14 ס; 27 פ |
+| 18 | 33 | Nenhuma assinalada no material recebido |
+| 19 | 38 | 38 ס |
+| 20 | 18 | 18 ס |
+| **Total** | **116** | **1 פ e 3 ס** |
+
+Os textos estão em `scriptures/texts/bhs-genesis-17.js` a `bhs-genesis-20.js`, registrados em `ScripturaScriptureTexts.BHS.GEN[capítulo]` e carregados antes do leitor. O leitor aplica a camada geral de transliteração e minidicionário por palavra, sem preencher significados ausentes com invenções. A integração ao teste de regressão foi feita para os quatro capítulos.
+
+**Progresso acumulado BHS/Gênesis:** **20 de 50 capítulos**, **514 versículos** (Gênesis 1–20).
+
+**Limites editoriais:** a transcrição foi fornecida pelo usuário, não extraída automaticamente nem cotejada com exemplar impresso da BHS; a correspondência com uma edição crítica determinada, os direitos de redistribuição e a visualização efetiva em navegador permanecem sujeitos a verificação independente. A integração técnica não é homologação filológica.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
