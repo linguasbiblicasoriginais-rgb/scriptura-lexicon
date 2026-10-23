@@ -1,6 +1,6 @@
 # Escrituras Sagradas — leitor do Scriptura Lexicon
 
-## Escopo e estado (22/10/2026)
+## Escopo e estado (23/10/2026)
 
 A seção **Escrituras Sagradas**, acima de **Dicionários** no menu lateral, contém:
 
@@ -392,6 +392,28 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 **Integração:** dez novos módulos `scriptures/texts/bhs-exodus-31.js` a `bhs-exodus-40.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical permanece separado dos metadados de marcas parasséticas.
 
 **Cobertura:** Êxodo **40/40 capítulos (100%)** e **1.213 versículos**; com Gênesis 1–50 (**1.533 versículos**), são **2.746 versículos** da camada BHS distribuídos em **90 capítulos**. O Pentateuco permanece em andamento: faltam Levítico, Números e Deuteronômio. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
+
+## Incorporação textual 017 — Levítico 1–10 (BHS)
+
+**Procedência:** texto hebraico integral fornecido pelo usuário em 23/10/2026, identificado como BHS. Mantidos literalmente grafia consonantal, *niqqud*, *teʿamim*, *maqaf*, *paseq*, *sof pasuq* e sequências Unicode, sem normalização ou correções. As letras isoladas פ/ס após os versículos foram registradas como metadados, não como conteúdo lexical. A transcrição não foi cotejada com a edição impressa.
+
+| Capítulo | Versículos | Marcas de *parashah* após os versículos |
+| --- | ---: | --- |
+| 1 | 17 | 9 ס; 13 פ; 17 ס |
+| 2 | 16 | 3 ס; 4 ס; 6 ס; 13 ס; 16 פ |
+| 3 | 17 | 5 פ; 11 פ; 17 פ |
+| 4 | 35 | 12 פ; 21 פ; 26 פ; 31 פ; 35 פ |
+| 5 | 26 | 10 ס; 13 ס; 16 פ; 19 פ; 26 פ |
+| 6 | 23 | 6 ס; 11 פ; 16 פ; 23 פ |
+| 7 | 38 | 10 פ; 21 פ; 27 פ; 38 פ |
+| 8 | 36 | 36 ס |
+| 9 | 24 | Nenhuma assinalada na fonte |
+| 10 | 20 | 7 פ; 11 פ; 20 פ |
+| **Total** | **252** | **23 פ e 10 ס** |
+
+**Integração:** dez módulos `scriptures/texts/bhs-leviticus-1.js` a `bhs-leviticus-10.js`, carregados em `index.html` antes de `scriptures/reader.js`, nos namespaces `ScripturaScriptureTexts.BHS.LEV`, `ScripturaScriptureParagraphBreaks.BHS.LEV` e `ScripturaScriptureParashahTypes.BHS.LEV`. A regressão estrutural foi ampliada em `tests/scripture-word-popups.test.cjs`.
+
+**Cobertura:** Levítico **10 de 27 capítulos (37,0%)**, com **252 versículos**. A camada BHS passa a totalizar **2.998 versículos em 100 capítulos** (Gênesis 1–50, Êxodo 1–40 e Levítico 1–10). Levítico 11–27 permanece pendente. Não houve homologação filológica, avaliação conclusiva de direitos de publicação, teste de navegador nem execução da suíte Node.js nesta operação.
 
 ## Fontes e licenciamento
 

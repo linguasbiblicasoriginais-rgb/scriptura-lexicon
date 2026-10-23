@@ -102,6 +102,16 @@ const sourceFiles = [
     "scriptures/texts/bhs-exodus-38.js",
     "scriptures/texts/bhs-exodus-39.js",
     "scriptures/texts/bhs-exodus-40.js",
+    "scriptures/texts/bhs-leviticus-1.js",
+    "scriptures/texts/bhs-leviticus-2.js",
+    "scriptures/texts/bhs-leviticus-3.js",
+    "scriptures/texts/bhs-leviticus-4.js",
+    "scriptures/texts/bhs-leviticus-5.js",
+    "scriptures/texts/bhs-leviticus-6.js",
+    "scriptures/texts/bhs-leviticus-7.js",
+    "scriptures/texts/bhs-leviticus-8.js",
+    "scriptures/texts/bhs-leviticus-9.js",
+    "scriptures/texts/bhs-leviticus-10.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -216,6 +226,16 @@ const chapters = [
     ["BHS", "EXO", 38, 31],
     ["BHS", "EXO", 39, 43],
     ["BHS", "EXO", 40, 38],
+    ["BHS", "LEV", 1, 17],
+    ["BHS", "LEV", 2, 16],
+    ["BHS", "LEV", 3, 17],
+    ["BHS", "LEV", 4, 35],
+    ["BHS", "LEV", 5, 26],
+    ["BHS", "LEV", 6, 23],
+    ["BHS", "LEV", 7, 38],
+    ["BHS", "LEV", 8, 36],
+    ["BHS", "LEV", 9, 24],
+    ["BHS", "LEV", 10, 20],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -349,6 +369,27 @@ for (const [chapter, expected] of Object.entries(expectedExodusParashot)) {
     assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.EXO[chapter]),
         JSON.stringify(Object.keys(expected).map(Number)),
         "Posições de parashah incorretas em Êxodo " + chapter);
+}
+
+const expectedLeviticusParashot = {
+    1: {"9":"ס","13":"פ","17":"ס"},
+    2: {"3":"ס","4":"ס","6":"ס","13":"ס","16":"פ"},
+    3: {"5":"פ","11":"פ","17":"פ"},
+    4: {"12":"פ","21":"פ","26":"פ","31":"פ","35":"פ"},
+    5: {"10":"ס","13":"ס","16":"פ","19":"פ","26":"פ"},
+    6: {"6":"ס","11":"פ","16":"פ","23":"פ"},
+    7: {"10":"פ","21":"פ","27":"פ","38":"פ"},
+    8: {"36":"ס"},
+    9: {},
+    10: {"7":"פ","11":"פ","20":"פ"}
+};
+for (const [chapter, expected] of Object.entries(expectedLeviticusParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS.LEV[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em Levítico " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.LEV[chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em Levítico " + chapter);
 }
 
 const inlineGen35 = window.ScripturaScriptureInlineParashahTypes.BHS.GEN[35][22];
