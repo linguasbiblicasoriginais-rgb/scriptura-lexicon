@@ -305,6 +305,94 @@ Em **Gênesis 35:22**, a marca פ foi fornecida **no interior do versículo**, e
 
 O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento em `index.html`, a adaptação do leitor e os testes de regressão. **Gênesis: 50/50 capítulos (100% de cobertura textual fornecida), 1.533 versículos.** O número de capítulos incorporados não implica cotejo impresso, homologação filológica, licença de redistribuição ou publicação em produção.
 
+## Incorporação textual 013 — Êxodo 1–10 (BHS)
+
+**Procedência:** texto hebraico integral fornecido pelo usuário, sem extração do portal da editora. A transcrição conserva grafia, *niqqud*, *teʿamim*, pontuação massorética e ordem dos pontos de código Unicode, sem emendas, normalização ou tradução. A numeração de Êxodo 7:26–29 corresponde à fonte recebida e não foi adaptada a outras tradições de versificação.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 1 | 22 | 7 פ; 22 ס |
+| 2 | 25 | 22 פ; 25 ס |
+| 3 | 22 | Nenhuma explicitada no material |
+| 4 | 31 | 17 פ; 26 פ |
+| 5 | 23 | Nenhuma explicitada no material |
+| 6 | 30 | 1 ס; 9 פ; 12 פ; 13 ס; 28 פ; 30 פ |
+| 7 | 29 | 7 פ; 13 פ; 18 ס; 25 פ |
+| 8 | 28 | 11 ס; 15 ס; 28 פ |
+| 9 | 35 | 7 פ; 12 ס; 21 פ; 35 פ |
+| 10 | 29 | 11 פ; 20 פ; 29 פ |
+| **Total** | **274** | **18 פ e 8 ס** |
+
+**Integração:** arquivos `scriptures/texts/bhs-exodus-1.js` a `bhs-exodus-10.js`, registrados no leitor antes de `scriptures/reader.js`, com os mapas `ScripturaScriptureTexts.BHS.EXO`, `ScripturaScriptureParagraphBreaks.BHS.EXO` e `ScripturaScriptureParashahTypes.BHS.EXO`. Foram ampliadas a matriz de contagens, a verificação de segmentação/lexicografia por palavra e a de `פ`/`ס` em `tests/scripture-word-popups.test.cjs`.
+
+**Cobertura:** Êxodo **10/40 capítulos (25%)**, **274 versículos**; somados aos **1.533 versículos de Gênesis 1–50**, são **1.807 versículos** incorporados na camada BHS. Os capítulos Êxodo 11–40 continuam sem transcrição incorporada. A verificação dos direitos de publicação, o cotejo com a BHS impressa e os testes reais de navegador continuam independentes deste trabalho técnico.
+
+## Incorporação textual 014 — Êxodo 11–20 (BHS)
+
+**Procedência:** transcrição hebraica fornecida diretamente pelo usuário. Foram preservados os sinais vocálicos, acentos de cantilação, *maqaf*, *sof pasuq*, letras e ordem original dos pontos de código Unicode, inclusive as sequências particulares de múltiplos sinais em Êxodo 20. Não houve cotejo, emenda editorial, normalização Unicode ou tradução.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 11 | 10 | 3 ס; 8 ס; 10 פ |
+| 12 | 51 | 20 פ; 28 ס; 36 פ; 42 פ; 50 ס; 51 פ |
+| 13 | 22 | 10 ס; 16 ס; 22 פ |
+| 14 | 31 | 14 פ; 25 פ; 31 פ |
+| 15 | 27 | 19 פ; 21 ס; 26 ס |
+| 16 | 36 | 3 ס; 5 ס; 10 פ; 27 ס; 36 פ |
+| 17 | 16 | 7 פ; 13 פ; 16 פ |
+| 18 | 27 | 27 פ |
+| 19 | 25 | 25 ס |
+| 20 | 26 | 1 ס; 6 ס; 7 פ; 11 ס; 12 ס; 13 ס; 14 ס; 15 ס; 16 ס; 17 פ; 21 פ; 26 פ |
+| **Total** | **271** | **20 פ e 20 ס** |
+
+**Integração:** módulos `scriptures/texts/bhs-exodus-11.js` a `bhs-exodus-20.js`; carregamento registrado em `index.html`; contagens e metadados de *parashah* registrados em `tests/scripture-word-popups.test.cjs`. O conteúdo de cada verso é armazenado em `ScripturaScriptureTexts.BHS.EXO`, com marcas divisórias em `ScripturaScriptureParagraphBreaks` e `ScripturaScriptureParashahTypes` para não confundir `פ` e `ס` com texto lexical.
+
+**Cobertura:** Êxodo **20/40 capítulos (50%)**, **545 versículos**, incluindo o lote anterior de Êxodo 1–10. Com Gênesis 1–50 (**1.533 versículos**), o acumulado da camada BHS é de **2.078 versículos** e **70 capítulos** incorporados. Êxodo 21–40 permanece pendente. O texto foi conferido estruturalmente em relação à transcrição recebida; não equivale a cotejo impresso, homologação filológica, execução automatizada da suíte Node.js nem autorização de redistribuição.
+
+## Incorporação textual 015 — Êxodo 21–30 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário. Foram conservados a grafia, o *niqqud*, os *teʿamim*, os sinais especiais, o *maqaf*, o *sof pasuq*, a ordem dos pontos de código Unicode e as marcas de *parashah*. Não houve normalização Unicode, correção editorial, tradução ou cotejo com a edição impressa. A numeração em Êxodo 21 (37 versículos) corresponde literalmente à transcrição recebida.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 21 | 37 | 6 ס; 11 ס; 13 ס; 14 ס; 16 ס; 17 ס; 19 ס; 21 ס; 25 ס; 26 ס; 27 פ; 32 ס; 34 ס; 36 ס |
+| 22 | 30 | 3 ס; 4 ס; 5 ס; 8 ס; 12 פ; 14 ס; 16 ס; 17 ס; 18 ס; 23 פ; 26 ס; 30 ס |
+| 23 | 33 | 1 ס; 3 ס; 4 ס; 5 ס; 19 ס; 33 פ |
+| 24 | 18 | 11 ס; 18 פ |
+| 25 | 40 | 9 ס; 22 פ; 30 פ; 40 ס |
+| 26 | 37 | 6 פ; 14 פ; 30 ס; 37 ס |
+| 27 | 21 | 8 ס; 19 ס; 21 ס |
+| 28 | 43 | 5 פ; 12 ס; 14 ס; 30 ס; 35 ס; 43 ס |
+| 29 | 46 | 37 ס; 46 פ |
+| 30 | 38 | 10 פ; 16 פ; 21 פ; 33 ס; 38 ס |
+| **Total** | **343** | **14 פ e 44 ס** |
+
+**Integração:** dez novos módulos `scriptures/texts/bhs-exodus-21.js` a `bhs-exodus-30.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical foi mantido separado dos metadados de marcas parasséticas.
+
+**Cobertura:** Êxodo **30/40 capítulos (75%)** e **888 versículos**; juntamente com Gênesis 1–50 (**1.533 versículos**), são **2.421 versículos** incorporados na camada BHS em **80 capítulos**. Êxodo 31–40 permanece pendente. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
+
+## Incorporação textual 016 — Êxodo 31–40 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário. Foram conservados a grafia, o *niqqud*, os *teʿamim*, os sinais especiais, o *maqaf*, o *sof pasuq*, a ordem dos pontos de código Unicode e as marcas de *parashah*. Não houve normalização Unicode, correção editorial, tradução ou cotejo com a edição impressa. A versificação utilizada é a do material transcrito.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 31 | 18 | 11 פ; 17 ס |
+| 32 | 35 | 6 פ; 14 פ; 35 ס |
+| 33 | 23 | 11 ס; 16 פ; 23 ס |
+| 34 | 35 | 26 פ; 35 ס |
+| 35 | 35 | 3 פ; 29 פ |
+| 36 | 38 | 7 ס; 13 ס; 19 ס; 38 פ |
+| 37 | 29 | 9 פ; 16 פ; 24 פ; 29 פ |
+| 38 | 31 | 7 ס; 8 ס; 20 ס; 23 ס |
+| 39 | 43 | 1 פ; 7 פ; 26 ס; 29 ס; 31 ס; 32 פ; 43 פ |
+| 40 | 38 | 16 ס; 19 ס; 21 ס; 23 ס; 25 ס; 27 פ; 29 ס; 32 ס; 33 פ |
+| **Total** | **325** | **18 פ e 22 ס** |
+
+**Integração:** dez novos módulos `scriptures/texts/bhs-exodus-31.js` a `bhs-exodus-40.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical permanece separado dos metadados de marcas parasséticas.
+
+**Cobertura:** Êxodo **40/40 capítulos (100%)** e **1.213 versículos**; com Gênesis 1–50 (**1.533 versículos**), são **2.746 versículos** da camada BHS distribuídos em **90 capítulos**. O Pentateuco permanece em andamento: faltam Levítico, Números e Deuteronômio. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
