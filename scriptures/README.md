@@ -371,6 +371,28 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Cobertura:** Êxodo **30/40 capítulos (75%)** e **888 versículos**; juntamente com Gênesis 1–50 (**1.533 versículos**), são **2.421 versículos** incorporados na camada BHS em **80 capítulos**. Êxodo 31–40 permanece pendente. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
 
+## Incorporação textual 016 — Êxodo 31–40 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário. Foram conservados a grafia, o *niqqud*, os *teʿamim*, os sinais especiais, o *maqaf*, o *sof pasuq*, a ordem dos pontos de código Unicode e as marcas de *parashah*. Não houve normalização Unicode, correção editorial, tradução ou cotejo com a edição impressa. A versificação utilizada é a do material transcrito.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 31 | 18 | 11 פ; 17 ס |
+| 32 | 35 | 6 פ; 14 פ; 35 ס |
+| 33 | 23 | 11 ס; 16 פ; 23 ס |
+| 34 | 35 | 26 פ; 35 ס |
+| 35 | 35 | 3 פ; 29 פ |
+| 36 | 38 | 7 ס; 13 ס; 19 ס; 38 פ |
+| 37 | 29 | 9 פ; 16 פ; 24 פ; 29 פ |
+| 38 | 31 | 7 ס; 8 ס; 20 ס; 23 ס |
+| 39 | 43 | 1 פ; 7 פ; 26 ס; 29 ס; 31 ס; 32 פ; 43 פ |
+| 40 | 38 | 16 ס; 19 ס; 21 ס; 23 ס; 25 ס; 27 פ; 29 ס; 32 ס; 33 פ |
+| **Total** | **325** | **18 פ e 22 ס** |
+
+**Integração:** dez novos módulos `scriptures/texts/bhs-exodus-31.js` a `bhs-exodus-40.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical permanece separado dos metadados de marcas parasséticas.
+
+**Cobertura:** Êxodo **40/40 capítulos (100%)** e **1.213 versículos**; com Gênesis 1–50 (**1.533 versículos**), são **2.746 versículos** da camada BHS distribuídos em **90 capítulos**. O Pentateuco permanece em andamento: faltam Levítico, Números e Deuteronômio. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
