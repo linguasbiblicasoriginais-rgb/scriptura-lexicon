@@ -235,6 +235,32 @@ Os textos estão em `scriptures/texts/bhs-genesis-17.js` a `bhs-genesis-20.js`, 
 
 **Limites editoriais:** a transcrição foi fornecida pelo usuário, não extraída automaticamente nem cotejada com exemplar impresso da BHS; a correspondência com uma edição crítica determinada, os direitos de redistribuição e a visualização efetiva em navegador permanecem sujeitos a verificação independente. A integração técnica não é homologação filológica.
 
+## Incorporação textual 010 — Gênesis 21–30 (BHS)
+
+**Origem:** transcrição massorética integral fornecida diretamente pelo usuário nesta conversa, sem consulta de extração externa. **Operação:** transporte para arquivos independentes sem normalização Unicode, correções silenciosas, traduções ou criação de variantes.
+
+| Capítulo | Versículos | Marcas de *parashah* |
+| --- | ---: | --- |
+| 21 | 34 | 21 פ; 34 פ |
+| 22 | 24 | 19 פ; 24 ס |
+| 23 | 20 | 20 ס |
+| 24 | 67 | 67 פ |
+| 25 | 34 | 11 ס; 18 פ; 34 ס |
+| 26 | 35 | 33 ס; 35 ס |
+| 27 | 46 | Nenhuma fornecida |
+| 28 | 22 | 9 ס |
+| 29 | 35 | Nenhuma fornecida |
+| 30 | 43 | Nenhuma fornecida |
+| **Total** | **360** | **5 פ e 7 ס** |
+
+**Arquivos:** `scriptures/texts/bhs-genesis-21.js` a `scriptures/texts/bhs-genesis-30.js` carregados por `index.html` antes de `scriptures/reader.js`. Os versículos são indexados em `ScripturaScriptureTexts.BHS.GEN[capítulo]`; os tipos e posições de seção estão em `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`. Em Gênesis 27, 29 e 30 foram registrados mapas de *parashot* vazios por inexistirem marcas explicitadas no material recebido, sem supor ausências na edição impressa.
+
+**Controles técnicos:** sequência de versículos 1–N por capítulo, pontuação `׃`, reconstrução idêntica à entrada enviada (com mera padronização dos espaços entre versículos), parsing JavaScript, segmentação Unicode e popups sem atribuições lexicais não cadastradas. O teste `tests/scripture-word-popups.test.cjs` foi ampliado aos dez capítulos.
+
+**Progresso do texto BHS em Gênesis:** **30/50 capítulos (60%)**, **874 versículos**, cobrindo Gênesis 1–30.
+
+**Limitações:** testes de interface visual em navegador, cotejo impresso da edição e verificação de autorização de publicação pública ainda não fazem parte desta incorporação. Não confundir validação técnica com homologação filológica.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
