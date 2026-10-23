@@ -165,6 +165,40 @@ const sourceFiles = [
     "scriptures/texts/bhs-numbers-34.js",
     "scriptures/texts/bhs-numbers-35.js",
     "scriptures/texts/bhs-numbers-36.js",
+    "scriptures/texts/bhs-deuteronomy-1.js",
+    "scriptures/texts/bhs-deuteronomy-2.js",
+    "scriptures/texts/bhs-deuteronomy-3.js",
+    "scriptures/texts/bhs-deuteronomy-4.js",
+    "scriptures/texts/bhs-deuteronomy-5.js",
+    "scriptures/texts/bhs-deuteronomy-6.js",
+    "scriptures/texts/bhs-deuteronomy-7.js",
+    "scriptures/texts/bhs-deuteronomy-8.js",
+    "scriptures/texts/bhs-deuteronomy-9.js",
+    "scriptures/texts/bhs-deuteronomy-10.js",
+    "scriptures/texts/bhs-deuteronomy-11.js",
+    "scriptures/texts/bhs-deuteronomy-12.js",
+    "scriptures/texts/bhs-deuteronomy-13.js",
+    "scriptures/texts/bhs-deuteronomy-14.js",
+    "scriptures/texts/bhs-deuteronomy-15.js",
+    "scriptures/texts/bhs-deuteronomy-16.js",
+    "scriptures/texts/bhs-deuteronomy-17.js",
+    "scriptures/texts/bhs-deuteronomy-18.js",
+    "scriptures/texts/bhs-deuteronomy-19.js",
+    "scriptures/texts/bhs-deuteronomy-20.js",
+    "scriptures/texts/bhs-deuteronomy-21.js",
+    "scriptures/texts/bhs-deuteronomy-22.js",
+    "scriptures/texts/bhs-deuteronomy-23.js",
+    "scriptures/texts/bhs-deuteronomy-24.js",
+    "scriptures/texts/bhs-deuteronomy-25.js",
+    "scriptures/texts/bhs-deuteronomy-26.js",
+    "scriptures/texts/bhs-deuteronomy-27.js",
+    "scriptures/texts/bhs-deuteronomy-28.js",
+    "scriptures/texts/bhs-deuteronomy-29.js",
+    "scriptures/texts/bhs-deuteronomy-30.js",
+    "scriptures/texts/bhs-deuteronomy-31.js",
+    "scriptures/texts/bhs-deuteronomy-32.js",
+    "scriptures/texts/bhs-deuteronomy-33.js",
+    "scriptures/texts/bhs-deuteronomy-34.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -342,6 +376,40 @@ const chapters = [
     ["BHS", "NUM", 34, 29],
     ["BHS", "NUM", 35, 34],
     ["BHS", "NUM", 36, 13],
+    ["BHS", "DEU", 1, 46],
+    ["BHS", "DEU", 2, 37],
+    ["BHS", "DEU", 3, 29],
+    ["BHS", "DEU", 4, 49],
+    ["BHS", "DEU", 5, 33],
+    ["BHS", "DEU", 6, 25],
+    ["BHS", "DEU", 7, 26],
+    ["BHS", "DEU", 8, 20],
+    ["BHS", "DEU", 9, 29],
+    ["BHS", "DEU", 10, 22],
+    ["BHS", "DEU", 11, 32],
+    ["BHS", "DEU", 12, 31],
+    ["BHS", "DEU", 13, 19],
+    ["BHS", "DEU", 14, 29],
+    ["BHS", "DEU", 15, 23],
+    ["BHS", "DEU", 16, 22],
+    ["BHS", "DEU", 17, 20],
+    ["BHS", "DEU", 18, 22],
+    ["BHS", "DEU", 19, 21],
+    ["BHS", "DEU", 20, 20],
+    ["BHS", "DEU", 21, 23],
+    ["BHS", "DEU", 22, 29],
+    ["BHS", "DEU", 23, 26],
+    ["BHS", "DEU", 24, 22],
+    ["BHS", "DEU", 25, 19],
+    ["BHS", "DEU", 26, 19],
+    ["BHS", "DEU", 27, 26],
+    ["BHS", "DEU", 28, 69],
+    ["BHS", "DEU", 29, 28],
+    ["BHS", "DEU", 30, 20],
+    ["BHS", "DEU", 31, 30],
+    ["BHS", "DEU", 32, 52],
+    ["BHS", "DEU", 33, 29],
+    ["BHS", "DEU", 34, 12],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -565,6 +633,75 @@ assert.equal(JSON.stringify(window.ScripturaScriptureInvertedNuns.BHS.NUM[10]), 
     "Posições do nun invertido incorretas em Números 10");
 assert.equal(window.ScripturaScriptureTexts.BHS.NUM[10][34].endsWith("׃ ׆"), true);
 assert.equal(window.ScripturaScriptureTexts.BHS.NUM[10][36].endsWith("׃ ׆"), true);
+
+const expectedDeuteronomyParashot = {
+    1: {},
+    2: {"1":"ס","16":"ס","30":"ס"},
+    3: {"22":"ס","29":"פ"},
+    4: {"24":"פ","40":"פ","49":"פ"},
+    5: {"5":"ס","11":"ס","15":"ס","16":"ס","17":"ס","18":"ס","19":"ס","20":"ס","21":"ס"},
+    6: {"3":"פ","9":"ס","15":"ס","19":"ס","25":"ס"},
+    7: {"6":"ס","11":"פ","16":"ס","26":"פ"},
+    8: {"18":"פ","20":"פ"},
+    9: {"29":"פ"},
+    10: {"11":"פ"},
+    11: {"9":"ס","12":"ס","21":"ס","25":"ס","28":"ס"},
+    12: {"19":"ס","28":"ס"},
+    13: {"1":"פ","12":"ס","19":"ס"},
+    14: {"2":"ס","8":"ס","10":"ס","21":"פ","27":"ס","29":"ס"},
+    15: {"6":"ס","11":"ס","18":"פ","23":"פ"},
+    16: {"8":"ס","12":"פ","17":"ס","20":"ס","21":"ס","22":"ס"},
+    17: {"1":"ס","7":"פ","13":"ס","20":"ס"},
+    18: {"2":"ס","5":"ס","8":"ס","13":"ס","22":"ס"},
+    19: {"7":"ס","10":"ס","13":"ס","14":"ס","21":"ס"},
+    20: {"9":"ס","18":"ס","20":"פ"},
+    21: {"9":"ס","14":"ס","17":"ס","21":"ס","23":"ס"},
+    22: {"3":"ס","4":"ס","5":"פ","7":"ס","8":"ס","9":"ס","10":"ס","11":"ס","12":"ס","19":"ס","21":"ס","22":"ס","24":"ס","27":"ס","29":"ס"},
+    23: {"1":"ס","2":"ס","3":"ס","7":"ס","9":"ס","15":"ס","17":"ס","21":"ס","24":"ס","25":"ס","26":"ס"},
+    24: {"4":"ס","5":"ס","6":"ס","8":"ס","9":"ס","13":"ס","15":"ס","16":"ס","18":"ס","20":"ס","22":"ס"},
+    25: {"3":"ס","4":"ס","10":"ס","12":"ס","13":"ס","16":"פ","19":"פ"},
+    26: {"11":"ס","15":"ס","19":"ס"},
+    27: {"8":"ס","10":"ס","14":"ס","15":"ס","16":"ס","17":"ס","18":"ס","19":"ס","20":"ס","21":"ס","22":"ס","23":"ס","24":"ס","25":"ס","26":"פ"},
+    28: {"14":"ס","68":"ס","69":"פ"},
+    29: {"8":"פ","28":"ס"},
+    30: {"10":"פ","14":"ס","20":"פ"},
+    31: {"6":"פ","13":"פ","15":"ס","30":"פ"},
+    32: {"43":"פ","47":"פ","52":"פ"},
+    33: {"6":"ס","7":"ס","11":"ס","12":"ס","17":"ס","19":"ס","21":"ס","23":"ס","29":"ס"},
+    34: {}
+};
+for (const [chapter, expected] of Object.entries(expectedDeuteronomyParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS.DEU[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em Deuteronômio " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.DEU[chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em Deuteronômio " + chapter);
+}
+const expectedDeuteronomyInline = {
+    2: {"8":[{"offset":125,"type":"ס"}]},
+    5: {"21":[{"offset":31,"type":"ס"}]},
+    23: {"8":[{"offset":43,"type":"ס"}]}
+};
+const originalDeuteronomyInlineVerses = {
+    "2:8": "וַֽנַּעֲבֹ֞ר מֵאֵ֧ת אַחֵ֣ינוּ בְנֵי־עֵשָׂ֗ו הַיֹּֽשְׁבִים֙ בְּשֵׂעִ֔יר מִדֶּ֨רֶךְ֙ הָֽעֲרָבָ֔ה מֵאֵילַ֖ת וּמֵעֶצְיֹ֣ן גָּ֑בֶר ס\nוַנֵּ֨פֶן֙ וַֽנַּעֲבֹ֔ר דֶּ֖רֶךְ מִדְבַּ֥ר מוֹאָֽב׃",
+    "5:21": "וְלֹ֥א תַחְמֹ֖ד אֵ֣שֶׁת רֵעֶ֑ךָ ס\nוְלֹ֨א תִתְאַוֶּ֜ה בֵּ֣ית רֵעֶ֗ךָ שָׂדֵ֜הוּ וְעַבְדּ֤וֹ וַאֲמָתוֹ֙ שֹׁור֣וֹ וַחֲמֹר֔וֹ וְכֹ֖ל אֲשֶׁ֥ר לְרֵעֶֽךָ׃",
+    "23:8": "לֹֽא־תְתַעֵ֣ב אֲדֹמִ֔י כִּ֥י אָחִ֖יךָ ה֑וּא ס\nלֹא־תְתַעֵ֣ב מִצְרִ֔י כִּי־גֵ֖ר הָיִ֥יתָ בְאַרְצֽוֹ׃"
+};
+for (const [chapter, versesMap] of Object.entries(expectedDeuteronomyInline)) {
+    const actual = window.ScripturaScriptureInlineParashahTypes.BHS.DEU[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(versesMap),
+        "Marcadores internos incorretos em Deuteronômio " + chapter);
+    for (const [verse, marks] of Object.entries(versesMap)) {
+        let reconstructed = window.ScripturaScriptureTexts.BHS.DEU[chapter][verse];
+        for (let index = marks.length - 1; index >= 0; index--) {
+            const mark = marks[index];
+            reconstructed = reconstructed.slice(0, mark.offset) + " " + mark.type + reconstructed.slice(mark.offset);
+        }
+        assert.equal(reconstructed, originalDeuteronomyInlineVerses[chapter + ":" + verse],
+            "Reconstrução massorética interna alterada em Deuteronômio " + chapter + ":" + verse);
+    }
+}
 
 const inlineGen35 = window.ScripturaScriptureInlineParashahTypes.BHS.GEN[35][22];
 assert.equal(inlineGen35.length, 1);

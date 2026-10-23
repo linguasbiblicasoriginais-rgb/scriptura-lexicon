@@ -508,6 +508,54 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Limitações:** conferir números de versículos, preservação literal e estrutura de metadados não constitui homologação filológica, cotejo independente da edição impressa nem conclusão sobre direitos de publicação. Diferenciar validações estruturais de execução real da suíte automatizada ou verificação visual no navegador.
 
+## Incorporação textual 021 — Deuteronômio 1–34 (BHS)
+
+**Procedência:** transcrição massorética hebraica completa fornecida pelo usuário em 23/10/2026 e identificada como BHS. Conservados os caracteres originais de cada versículo (*niqqud*, *teʿamim*, pontuação, *maqaf*, *paseq*, *sof pasuq*, grafias e sinais incomuns), sem normalização Unicode, alteração editorial nem cotejo conjectural. As marcas isoladas פ (*petuchah*) e ס (*setumah*) após os versículos constam nos metadados de `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`; as marcas **internas** em 2:8, 5:21 e 23:8 foram preservadas por `ScripturaScriptureInlineParashahTypes`, com deslocamento Unicode exato e quebra de linha conservada no verso (padrão já existente em Gênesis 35:22). Em 5:21, há tanto uma marca interna como outra após o término do versículo.
+
+| Capítulo | Versículos | Marcas de *parashah* explícitas |
+| --- | ---: | --- |
+| 1 | 46 | Nenhuma marca explícita |
+| 2 | 37 | 1 ס; 16 ס; 30 ס; 8 ס (interna) |
+| 3 | 29 | 22 ס; 29 פ |
+| 4 | 49 | 24 פ; 40 פ; 49 פ |
+| 5 | 33 | 5 ס; 11 ס; 15 ס; 16 ס; 17 ס; 18 ס; 19 ס; 20 ס; 21 ס; 21 ס (interna) |
+| 6 | 25 | 3 פ; 9 ס; 15 ס; 19 ס; 25 ס |
+| 7 | 26 | 6 ס; 11 פ; 16 ס; 26 פ |
+| 8 | 20 | 18 פ; 20 פ |
+| 9 | 29 | 29 פ |
+| 10 | 22 | 11 פ |
+| 11 | 32 | 9 ס; 12 ס; 21 ס; 25 ס; 28 ס |
+| 12 | 31 | 19 ס; 28 ס |
+| 13 | 19 | 1 פ; 12 ס; 19 ס |
+| 14 | 29 | 2 ס; 8 ס; 10 ס; 21 פ; 27 ס; 29 ס |
+| 15 | 23 | 6 ס; 11 ס; 18 פ; 23 פ |
+| 16 | 22 | 8 ס; 12 פ; 17 ס; 20 ס; 21 ס; 22 ס |
+| 17 | 20 | 1 ס; 7 פ; 13 ס; 20 ס |
+| 18 | 22 | 2 ס; 5 ס; 8 ס; 13 ס; 22 ס |
+| 19 | 21 | 7 ס; 10 ס; 13 ס; 14 ס; 21 ס |
+| 20 | 20 | 9 ס; 18 ס; 20 פ |
+| 21 | 23 | 9 ס; 14 ס; 17 ס; 21 ס; 23 ס |
+| 22 | 29 | 3 ס; 4 ס; 5 פ; 7 ס; 8 ס; 9 ס; 10 ס; 11 ס; 12 ס; 19 ס; 21 ס; 22 ס; 24 ס; 27 ס; 29 ס |
+| 23 | 26 | 1 ס; 2 ס; 3 ס; 7 ס; 9 ס; 15 ס; 17 ס; 21 ס; 24 ס; 25 ס; 26 ס; 8 ס (interna) |
+| 24 | 22 | 4 ס; 5 ס; 6 ס; 8 ס; 9 ס; 13 ס; 15 ס; 16 ס; 18 ס; 20 ס; 22 ס |
+| 25 | 19 | 3 ס; 4 ס; 10 ס; 12 ס; 13 ס; 16 פ; 19 פ |
+| 26 | 19 | 11 ס; 15 ס; 19 ס |
+| 27 | 26 | 8 ס; 10 ס; 14 ס; 15 ס; 16 ס; 17 ס; 18 ס; 19 ס; 20 ס; 21 ס; 22 ס; 23 ס; 24 ס; 25 ס; 26 פ |
+| 28 | 69 | 14 ס; 68 ס; 69 פ |
+| 29 | 28 | 8 פ; 28 ס |
+| 30 | 20 | 10 פ; 14 ס; 20 פ |
+| 31 | 30 | 6 פ; 13 פ; 15 ס; 30 פ |
+| 32 | 52 | 43 פ; 47 פ; 52 פ |
+| 33 | 29 | 6 ס; 7 ס; 11 ס; 12 ס; 17 ס; 19 ס; 21 ס; 23 ס; 29 ס |
+| 34 | 12 | Nenhuma marca explícita |
+| **Total 1–34** | **959** | **32 פ e 135 ס (167 no total; 3 internas)** |
+
+**Integração:** `scriptures/texts/bhs-deuteronomy-1.js` a `bhs-deuteronomy-34.js` (34 módulos), registrados em `ScripturaScriptureTexts.BHS.DEU`; scripts incluídos uma única vez em `index.html` antes de `scriptures/reader.js`. Cobertura dos capítulos, contagens, tipologia das parashot e reconstrução literal das três posições internas adicionada a `tests/scripture-word-popups.test.cjs`.
+
+**Pentateuco BHS completo conforme transcrições fornecidas:** Gênesis (**50 capítulos, 1.533 versículos**), Êxodo (**40, 1.213**), Levítico (**27, 859**), Números (**36, 1.289**) e Deuteronômio (**34, 959**) — ao todo **187 capítulos e 5.853 versículos**.
+
+**Limitações:** preservação da fonte fornecida não equivale a homologação filológica, comparação independente com o texto impresso da BHS nem autorização para reprodução editorial. Registrar separadamente verificações técnicas estáticas e execução real de testes Node.js ou em navegador.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
