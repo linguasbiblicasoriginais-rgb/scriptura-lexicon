@@ -444,6 +444,30 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Cobertura atualizada:** Levítico **27/27 capítulos (100%)**, **859 versículos** (1–27). Com Gênesis **1.533** e Êxodo **1.213**, a camada BHS conta **3.605 versículos em 117 capítulos**. Para prosseguir no Pentateuco, faltam Números e Deuteronômio. Estes controles estruturais não equivalem a homologação filológica, avaliação de direitos de publicação, cotejo impresso nem execução dos testes de navegador/Node.js.
 
+## Incorporação textual 019 — Números 1–10 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário em 23/10/2026, identificada como BHS. Preservados consoantes, *niqqud*, *teʿamim*, *maqaf*, *paseq*, *sof pasuq*, grafias e pontos de código Unicode de cada versículo, sem normalização nem alterações editoriais. As marcas isoladas פ e ס após versículos foram separadas em metadados, sem inserção no texto lexical. Este material não foi cotejado independentemente com a edição impressa.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 1 | 54 | 19 פ; 21 פ; 23 פ; 25 פ; 27 פ; 29 פ; 31 פ; 33 פ; 35 פ; 37 פ; 39 פ; 41 פ; 43 פ; 47 פ; 54 פ |
+| 2 | 34 | 6 ס; 9 ס; 16 ס; 17 ס; 24 ס; 31 פ |
+| 3 | 51 | 4 פ; 10 פ; 13 ס; 39 ס; 43 פ; 51 פ |
+| 4 | 49 | 16 ס; 20 פ; 28 פ; 37 ס; 49 פ |
+| 5 | 31 | 4 פ; 10 פ; 31 פ |
+| 6 | 27 | 21 פ; 23 ס; 24 ס; 25 ס; 26 ס; 27 פ |
+| 7 | 89 | 11 ס; 17 פ; 23 פ; 29 פ; 35 פ; 41 פ; 47 פ; 53 פ; 59 פ; 65 פ; 71 פ; 77 פ; 83 פ; 89 פ |
+| 8 | 26 | 4 פ; 22 ס; 26 פ |
+| 9 | 23 | 8 פ; 14 פ; 23 פ |
+| 10 | 36 | 10 פ; 17 ס; 21 ס; 24 ס; 28 ס; 34 ס; 36 פ |
+| **Total** | **420** | **48 פ e 20 ס** |
+
+**Sinais especiais:** Números **10:34** e **10:36** apresentam o sinal massorético **׆** depois do *sof pasuq* na fonte recebida. Os dois sinais foram preservados literalmente em suas posições nos textos e também indexados em `ScripturaScriptureInvertedNuns.BHS.NUM[10] = [34,36]`. O registro não supõe outro posicionamento ou leitura.
+
+**Integração:** dez módulos `scriptures/texts/bhs-numbers-1.js` até `bhs-numbers-10.js` com `ScripturaScriptureTexts.BHS.NUM`, `ScripturaScriptureParagraphBreaks.BHS.NUM` e `ScripturaScriptureParashahTypes.BHS.NUM`; carregamento em `index.html` anterior a `scriptures/reader.js`; contagens por capítulo e metadados conferidos em `tests/scripture-word-popups.test.cjs`.
+
+**Cobertura:** Números **10/36 capítulos (27,8%)**, **420 versículos**. A camada BHS soma agora Gênesis 1–50 (1.533), Êxodo 1–40 (1.213), Levítico 1–27 (859) e Números 1–10 (420): **4.025 versículos em 127 capítulos**. Permanecem pendentes Números 11–36 e Deuteronômio. Controles estruturais não substituem testes efetivamente executados, homologação filológica, cotejo impresso ou verificação dos direitos de publicação.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1

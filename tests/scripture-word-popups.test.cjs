@@ -129,6 +129,16 @@ const sourceFiles = [
     "scriptures/texts/bhs-leviticus-25.js",
     "scriptures/texts/bhs-leviticus-26.js",
     "scriptures/texts/bhs-leviticus-27.js",
+    "scriptures/texts/bhs-numbers-1.js",
+    "scriptures/texts/bhs-numbers-2.js",
+    "scriptures/texts/bhs-numbers-3.js",
+    "scriptures/texts/bhs-numbers-4.js",
+    "scriptures/texts/bhs-numbers-5.js",
+    "scriptures/texts/bhs-numbers-6.js",
+    "scriptures/texts/bhs-numbers-7.js",
+    "scriptures/texts/bhs-numbers-8.js",
+    "scriptures/texts/bhs-numbers-9.js",
+    "scriptures/texts/bhs-numbers-10.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -270,6 +280,16 @@ const chapters = [
     ["BHS", "LEV", 25, 55],
     ["BHS", "LEV", 26, 46],
     ["BHS", "LEV", 27, 34],
+    ["BHS", "NUM", 1, 54],
+    ["BHS", "NUM", 2, 34],
+    ["BHS", "NUM", 3, 51],
+    ["BHS", "NUM", 4, 49],
+    ["BHS", "NUM", 5, 31],
+    ["BHS", "NUM", 6, 27],
+    ["BHS", "NUM", 7, 89],
+    ["BHS", "NUM", 8, 26],
+    ["BHS", "NUM", 9, 23],
+    ["BHS", "NUM", 10, 36],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -442,6 +462,31 @@ for (const [chapter, expected] of Object.entries(expectedLeviticusParashot)) {
         JSON.stringify(Object.keys(expected).map(Number)),
         "Posições de parashah incorretas em Levítico " + chapter);
 }
+
+const expectedNumbersParashot = {
+    1: {"19":"פ","21":"פ","23":"פ","25":"פ","27":"פ","29":"פ","31":"פ","33":"פ","35":"פ","37":"פ","39":"פ","41":"פ","43":"פ","47":"פ","54":"פ"},
+    2: {"6":"ס","9":"ס","16":"ס","17":"ס","24":"ס","31":"פ"},
+    3: {"4":"פ","10":"פ","13":"ס","39":"ס","43":"פ","51":"פ"},
+    4: {"16":"ס","20":"פ","28":"פ","37":"ס","49":"פ"},
+    5: {"4":"פ","10":"פ","31":"פ"},
+    6: {"21":"פ","23":"ס","24":"ס","25":"ס","26":"ס","27":"פ"},
+    7: {"11":"ס","17":"פ","23":"פ","29":"פ","35":"פ","41":"פ","47":"פ","53":"פ","59":"פ","65":"פ","71":"פ","77":"פ","83":"פ","89":"פ"},
+    8: {"4":"פ","22":"ס","26":"פ"},
+    9: {"8":"פ","14":"פ","23":"פ"},
+    10: {"10":"פ","17":"ס","21":"ס","24":"ס","28":"ס","34":"ס","36":"פ"}
+};
+for (const [chapter, expected] of Object.entries(expectedNumbersParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS.NUM[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em Números " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.NUM[chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em Números " + chapter);
+}
+assert.equal(JSON.stringify(window.ScripturaScriptureInvertedNuns.BHS.NUM[10]), "[34,36]",
+    "Posições do nun invertido incorretas em Números 10");
+assert.equal(window.ScripturaScriptureTexts.BHS.NUM[10][34].endsWith("׃ ׆"), true);
+assert.equal(window.ScripturaScriptureTexts.BHS.NUM[10][36].endsWith("׃ ׆"), true);
 
 const inlineGen35 = window.ScripturaScriptureInlineParashahTypes.BHS.GEN[35][22];
 assert.equal(inlineGen35.length, 1);
