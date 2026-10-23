@@ -261,6 +261,28 @@ Os textos estão em `scriptures/texts/bhs-genesis-17.js` a `bhs-genesis-20.js`, 
 
 **Limitações:** testes de interface visual em navegador, cotejo impresso da edição e verificação de autorização de publicação pública ainda não fazem parte desta incorporação. Não confundir validação técnica com homologação filológica.
 
+## Incorporação textual 011 — Gênesis 41–50 (BHS)
+
+**Origem:** transcrição hebraica fornecida diretamente pelo usuário; os capítulos 31–40 não fazem parte deste lote e continuam pendentes na branch. Nenhuma reconstrução de texto, normalização Unicode ou tradução foi realizada.
+
+| Capítulo | Versículos | Marcas de *parashah* |
+| --- | ---: | --- |
+| 41 | 57 | Nenhuma explicitada no material |
+| 42 | 38 | Nenhuma explicitada no material |
+| 43 | 34 | Nenhuma explicitada no material |
+| 44 | 34 | 17 פ |
+| 45 | 28 | Nenhuma explicitada no material |
+| 46 | 34 | 7 ס; 27 פ |
+| 47 | 31 | 31 פ |
+| 48 | 22 | 22 פ |
+| 49 | 33 | 4 פ; 7 ס; 12 פ; 13 ס; 15 ס; 19 ס; 20 ס; 21 ס; 26 פ |
+| 50 | 26 | Nenhuma explicitada no material |
+| **Total** | **337** | **7 פ e 7 ס** |
+
+**Arquivos:** `scriptures/texts/bhs-genesis-41.js` a `bhs-genesis-50.js`. Foram adicionados ao carregamento em `index.html`, à matriz de regressão `tests/scripture-word-popups.test.cjs` e aos metadados `ScripturaScriptureParagraphBreaks` e `ScripturaScriptureParashahTypes`.
+
+**Progresso na branch:** **40 de 50 capítulos (80%)** e **1.211 versículos** incorporados, considerando Gênesis 1–30 e 41–50. A sequência 31–40 permanece ausente; o percentual representa cobertura, não continuidade. A edição impressa, direitos de distribuição, execução dos testes de navegador e cotejo filológico ainda exigem verificação independente.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
