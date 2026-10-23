@@ -327,6 +327,28 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Cobertura:** Êxodo **10/40 capítulos (25%)**, **274 versículos**; somados aos **1.533 versículos de Gênesis 1–50**, são **1.807 versículos** incorporados na camada BHS. Os capítulos Êxodo 11–40 continuam sem transcrição incorporada. A verificação dos direitos de publicação, o cotejo com a BHS impressa e os testes reais de navegador continuam independentes deste trabalho técnico.
 
+## Incorporação textual 014 — Êxodo 11–20 (BHS)
+
+**Procedência:** transcrição hebraica fornecida diretamente pelo usuário. Foram preservados os sinais vocálicos, acentos de cantilação, *maqaf*, *sof pasuq*, letras e ordem original dos pontos de código Unicode, inclusive as sequências particulares de múltiplos sinais em Êxodo 20. Não houve cotejo, emenda editorial, normalização Unicode ou tradução.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 11 | 10 | 3 ס; 8 ס; 10 פ |
+| 12 | 51 | 20 פ; 28 ס; 36 פ; 42 פ; 50 ס; 51 פ |
+| 13 | 22 | 10 ס; 16 ס; 22 פ |
+| 14 | 31 | 14 פ; 25 פ; 31 פ |
+| 15 | 27 | 19 פ; 21 ס; 26 ס |
+| 16 | 36 | 3 ס; 5 ס; 10 פ; 27 ס; 36 פ |
+| 17 | 16 | 7 פ; 13 פ; 16 פ |
+| 18 | 27 | 27 פ |
+| 19 | 25 | 25 ס |
+| 20 | 26 | 1 ס; 6 ס; 7 פ; 11 ס; 12 ס; 13 ס; 14 ס; 15 ס; 16 ס; 17 פ; 21 פ; 26 פ |
+| **Total** | **271** | **20 פ e 20 ס** |
+
+**Integração:** módulos `scriptures/texts/bhs-exodus-11.js` a `bhs-exodus-20.js`; carregamento registrado em `index.html`; contagens e metadados de *parashah* registrados em `tests/scripture-word-popups.test.cjs`. O conteúdo de cada verso é armazenado em `ScripturaScriptureTexts.BHS.EXO`, com marcas divisórias em `ScripturaScriptureParagraphBreaks` e `ScripturaScriptureParashahTypes` para não confundir `פ` e `ס` com texto lexical.
+
+**Cobertura:** Êxodo **20/40 capítulos (50%)**, **545 versículos**, incluindo o lote anterior de Êxodo 1–10. Com Gênesis 1–50 (**1.533 versículos**), o acumulado da camada BHS é de **2.078 versículos** e **70 capítulos** incorporados. Êxodo 21–40 permanece pendente. O texto foi conferido estruturalmente em relação à transcrição recebida; não equivale a cotejo impresso, homologação filológica, execução automatizada da suíte Node.js nem autorização de redistribuição.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
