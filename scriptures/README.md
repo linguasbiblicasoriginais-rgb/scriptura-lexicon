@@ -556,6 +556,44 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Limitações:** preservação da fonte fornecida não equivale a homologação filológica, comparação independente com o texto impresso da BHS nem autorização para reprodução editorial. Registrar separadamente verificações técnicas estáticas e execução real de testes Node.js ou em navegador.
 
+## Incorporação textual 022 — Josué 1–24 (BHS)
+
+**Procedência:** transcrição hebraica massorética completa fornecida pelo usuário em 23/10/2026 e identificada no projeto como BHS. Mantidos exatamente os caracteres de cada versículo (*niqqud*, *teʿamim*, pontuação, *maqaf*, *paseq*, *sof pasuq*, grafias e sinais incomuns), sem normalização Unicode, correção editorial ou conjectura. Marcas isoladas פ (*petuchah*) e ס (*setumah*) ao final dos versículos foram transferidas para os metadados de `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`; a marca **interna** de Josué 4:1 (פ) foi preservada em `ScripturaScriptureInlineParashahTypes`, com deslocamento Unicode exato e quebra de linha preservada no verso.
+
+| Capítulo | Versículos | Marcas de *parashah* explícitas |
+| --- | ---: | --- |
+| 1 | 18 | 9 פ; 11 ס; 18 פ |
+| 2 | 24 | 24 ס |
+| 3 | 17 | 4 ס; 6 ס; 8 פ |
+| 4 | 24 | 3 ס; 13 ס; 14 פ; 24 ס; 1 פ (interna) |
+| 5 | 15 | 1 ס; 8 פ; 12 ס |
+| 6 | 27 | 1 ס; 11 פ; 25 פ |
+| 7 | 26 | 9 ס; 26 פ |
+| 8 | 35 | 17 פ; 29 פ; 35 פ |
+| 9 | 27 | 2 פ; 27 פ |
+| 10 | 43 | 7 פ; 11 ס; 14 פ; 27 פ; 30 ס; 32 פ; 35 פ; 37 ס; 43 פ |
+| 11 | 23 | 5 פ; 9 ס; 20 ס; 23 פ |
+| 12 | 24 | 6 ס; 8 פ; 24 פ |
+| 13 | 33 | 14 ס; 23 פ; 32 ס |
+| 14 | 15 | 5 פ; 15 פ |
+| 15 | 63 | 19 פ; 32 ס; 41 ס; 47 ס; 54 ס; 60 ס; 63 פ |
+| 16 | 10 | 10 פ |
+| 17 | 18 | 13 ס; 18 פ |
+| 18 | 28 | 10 פ; 28 פ |
+| 19 | 51 | 9 פ; 16 פ; 23 פ; 31 פ; 39 פ; 48 פ; 51 פ |
+| 20 | 9 | 9 פ |
+| 21 | 45 | 4 ס; 5 ס; 6 ס; 8 פ; 12 ס; 16 פ; 19 ס; 22 ס; 24 ס; 26 ס; 27 ס; 29 ס; 31 ס; 33 ס; 37 ס; 42 ס; 45 פ |
+| 22 | 34 | 6 ס; 8 פ; 12 פ; 20 פ; 29 פ; 34 פ |
+| 23 | 16 | 16 פ |
+| 24 | 33 | 15 פ; 18 ס; 26 ס; 28 פ |
+| **Total 1–24** | **658** | **52 פ e 42 ס (94 ao todo; 1 interna)** |
+
+**Integração:** `scriptures/texts/bhs-joshua-1.js` a `bhs-joshua-24.js` (24 módulos), registrados em `ScripturaScriptureTexts.BHS.JOS`; scripts incluídos uma única vez em `index.html` antes de `scriptures/reader.js` e após Deuteronômio. Contagens de versículos, tipologia das parashot e reconstrução literal da marca interna de 4:1 adicionadas a `tests/scripture-word-popups.test.cjs`. O catálogo do leitor já apresenta Josué sob Profetas anteriores; não foi necessário alterá-lo.
+
+**Cobertura BHS acumulada conforme transcrições do usuário:** Gênesis (50 capítulos, 1.533 versículos), Êxodo (40, 1.213), Levítico (27, 859), Números (36, 1.289), Deuteronômio (34, 959) e Josué (24, 658). **Total: 211 capítulos e 6.511 versículos em seis livros completos**.
+
+**Limitações:** preservação da fonte fornecida não equivale a homologação filológica, comparação independente com a edição impressa da BHS ou autorização para reprodução editorial. Diferenciar verificações estruturais de execução real de testes automatizados Node.js e testes visuais no navegador.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1

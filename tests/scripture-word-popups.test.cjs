@@ -199,6 +199,30 @@ const sourceFiles = [
     "scriptures/texts/bhs-deuteronomy-32.js",
     "scriptures/texts/bhs-deuteronomy-33.js",
     "scriptures/texts/bhs-deuteronomy-34.js",
+    "scriptures/texts/bhs-joshua-1.js",
+    "scriptures/texts/bhs-joshua-2.js",
+    "scriptures/texts/bhs-joshua-3.js",
+    "scriptures/texts/bhs-joshua-4.js",
+    "scriptures/texts/bhs-joshua-5.js",
+    "scriptures/texts/bhs-joshua-6.js",
+    "scriptures/texts/bhs-joshua-7.js",
+    "scriptures/texts/bhs-joshua-8.js",
+    "scriptures/texts/bhs-joshua-9.js",
+    "scriptures/texts/bhs-joshua-10.js",
+    "scriptures/texts/bhs-joshua-11.js",
+    "scriptures/texts/bhs-joshua-12.js",
+    "scriptures/texts/bhs-joshua-13.js",
+    "scriptures/texts/bhs-joshua-14.js",
+    "scriptures/texts/bhs-joshua-15.js",
+    "scriptures/texts/bhs-joshua-16.js",
+    "scriptures/texts/bhs-joshua-17.js",
+    "scriptures/texts/bhs-joshua-18.js",
+    "scriptures/texts/bhs-joshua-19.js",
+    "scriptures/texts/bhs-joshua-20.js",
+    "scriptures/texts/bhs-joshua-21.js",
+    "scriptures/texts/bhs-joshua-22.js",
+    "scriptures/texts/bhs-joshua-23.js",
+    "scriptures/texts/bhs-joshua-24.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -410,6 +434,30 @@ const chapters = [
     ["BHS", "DEU", 32, 52],
     ["BHS", "DEU", 33, 29],
     ["BHS", "DEU", 34, 12],
+    ["BHS", "JOS", 1, 18],
+    ["BHS", "JOS", 2, 24],
+    ["BHS", "JOS", 3, 17],
+    ["BHS", "JOS", 4, 24],
+    ["BHS", "JOS", 5, 15],
+    ["BHS", "JOS", 6, 27],
+    ["BHS", "JOS", 7, 26],
+    ["BHS", "JOS", 8, 35],
+    ["BHS", "JOS", 9, 27],
+    ["BHS", "JOS", 10, 43],
+    ["BHS", "JOS", 11, 23],
+    ["BHS", "JOS", 12, 24],
+    ["BHS", "JOS", 13, 33],
+    ["BHS", "JOS", 14, 15],
+    ["BHS", "JOS", 15, 63],
+    ["BHS", "JOS", 16, 10],
+    ["BHS", "JOS", 17, 18],
+    ["BHS", "JOS", 18, 28],
+    ["BHS", "JOS", 19, 51],
+    ["BHS", "JOS", 20, 9],
+    ["BHS", "JOS", 21, 45],
+    ["BHS", "JOS", 22, 34],
+    ["BHS", "JOS", 23, 16],
+    ["BHS", "JOS", 24, 33],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -700,6 +748,61 @@ for (const [chapter, versesMap] of Object.entries(expectedDeuteronomyInline)) {
         }
         assert.equal(reconstructed, originalDeuteronomyInlineVerses[chapter + ":" + verse],
             "Reconstrução massorética interna alterada em Deuteronômio " + chapter + ":" + verse);
+    }
+}
+
+const expectedJoshuaParashot = {
+    1: {"9":"פ","11":"ס","18":"פ"},
+    2: {"24":"ס"},
+    3: {"4":"ס","6":"ס","8":"פ"},
+    4: {"3":"ס","13":"ס","14":"פ","24":"ס"},
+    5: {"1":"ס","8":"פ","12":"ס"},
+    6: {"1":"ס","11":"פ","25":"פ"},
+    7: {"9":"ס","26":"פ"},
+    8: {"17":"פ","29":"פ","35":"פ"},
+    9: {"2":"פ","27":"פ"},
+    10: {"7":"פ","11":"ס","14":"פ","27":"פ","30":"ס","32":"פ","35":"פ","37":"ס","43":"פ"},
+    11: {"5":"פ","9":"ס","20":"ס","23":"פ"},
+    12: {"6":"ס","8":"פ","24":"פ"},
+    13: {"14":"ס","23":"פ","32":"ס"},
+    14: {"5":"פ","15":"פ"},
+    15: {"19":"פ","32":"ס","41":"ס","47":"ס","54":"ס","60":"ס","63":"פ"},
+    16: {"10":"פ"},
+    17: {"13":"ס","18":"פ"},
+    18: {"10":"פ","28":"פ"},
+    19: {"9":"פ","16":"פ","23":"פ","31":"פ","39":"פ","48":"פ","51":"פ"},
+    20: {"9":"פ"},
+    21: {"4":"ס","5":"ס","6":"ס","8":"פ","12":"ס","16":"פ","19":"ס","22":"ס","24":"ס","26":"ס","27":"ס","29":"ס","31":"ס","33":"ס","37":"ס","42":"ס","45":"פ"},
+    22: {"6":"ס","8":"פ","12":"פ","20":"פ","29":"פ","34":"פ"},
+    23: {"16":"פ"},
+    24: {"15":"פ","18":"ס","26":"ס","28":"פ"}
+};
+for (const [chapter, expected] of Object.entries(expectedJoshuaParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS.JOS[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em Josué " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.JOS[chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em Josué " + chapter);
+}
+const expectedJoshuaInline = {
+    4: {"1":[{"offset":67,"type":"פ"}]}
+};
+const originalJoshuaInlineVerses = {
+    "4:1": "וַיְהִי֙ כַּאֲשֶׁר־תַּ֣מּוּ כָל־הַגּ֔וֹי לַעֲב֖וֹר אֶת־הַיַּרְדֵּ֑ן פ\nוַיֹּ֣אמֶר יְהוָ֔ה אֶל־יְהוֹשֻׁ֖עַ לֵאמֹֽר׃"
+};
+for (const [chapter, versesMap] of Object.entries(expectedJoshuaInline)) {
+    const actual = window.ScripturaScriptureInlineParashahTypes.BHS.JOS[chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(versesMap),
+        "Marcadores internos incorretos em Josué " + chapter);
+    for (const [verse, marks] of Object.entries(versesMap)) {
+        let reconstructed = window.ScripturaScriptureTexts.BHS.JOS[chapter][verse];
+        for (let index = marks.length - 1; index >= 0; index--) {
+            const mark = marks[index];
+            reconstructed = reconstructed.slice(0, mark.offset) + " " + mark.type + reconstructed.slice(mark.offset);
+        }
+        assert.equal(reconstructed, originalJoshuaInlineVerses[chapter + ":" + verse],
+            "Reconstrução massorética interna alterada em Josué " + chapter + ":" + verse);
     }
 }
 
