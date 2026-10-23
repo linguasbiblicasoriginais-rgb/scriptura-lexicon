@@ -666,6 +666,46 @@ A representação preserva literalmente o texto recebido: vogais massoréticas (
 
 **Limitações:** conferir os textos fornecidos não equivale a cotejo independente com a edição impressa da BHS, homologação filológica ou determinação de direitos de reprodução. Testes de estrutura e comparação literal de arquivos publicados não substituem a execução automatizada completa ou a conferência visual no navegador.
 
+## Incorporação textual 025 — 2º Samuel 1–24 (BHS)
+
+**Fonte:** transcrição hebraica fornecida pelo usuário em 23/10/2026, identificada no projeto como BHS. Foram incorporados integralmente os **24 capítulos de 2º Samuel (695 versículos)**. O arquivo contém também um capítulo rotulado **“Capítulo 25” (53 versículos)**, cujo conteúdo começa com a velhice de Davi e a história de Adonias, correspondendo a **1 Reis 1**, e **não pertence a 2º Samuel**. Para impedir contaminação entre livros, o trecho excedente **não foi incorporado** neste lote, nem transferido automaticamente para 1 Reis; permanece reservado para uma incorporação editorialmente separada, quando solicitada.
+
+A incorporação preserva a grafia original da transcrição, sinais vocálicos (*niqqud*), cantilação (*teʿamim*), *maqaf*, *paseq*, *sof pasuq*, espaços e quebras internas de linha. Nenhuma normalização Unicode, correção ou harmonização textual foi feita. As **143 marcas explícitas de parashah** são **46 פ** (*petuchah*) e **97 ס** (*setumah*): **127 finais e 16 internas**; estas ocorreram em **10:17; 12:13; 16:13; 18:2, 28; 20:10, 14; 21:1, 6; 23:29, 34, 36, 37; 24:10, 11, 23** e foram registradas com offsets UTF-16.
+
+| Capítulo | Versículos | Marcas explícitas de *parashah* |
+| --- | ---: | --- |
+| 1 | 27 | 12 ס; 16 ס; 27 פ |
+| 2 | 32 | 4 ס; 7 פ; 9 פ; 11 ס |
+| 3 | 39 | 1 ס; 5 פ; 11 ס; 13 ס; 30 פ; 32 פ; 37 פ; 39 פ |
+| 4 | 12 | 3 ס; 8 ס; 12 פ |
+| 5 | 25 | 3 פ; 10 פ; 12 ס; 16 פ; 21 פ; 25 פ |
+| 6 | 23 | 23 פ |
+| 7 | 29 | 3 ס; 17 ס; 24 ס; 29 פ |
+| 8 | 18 | 8 ס; 18 פ |
+| 9 | 13 | 13 פ |
+| 10 | 19 | 19 פ; 17 ס (interna) |
+| 11 | 27 | 1 ס; 15 ס; 24 ס; 27 פ |
+| 12 | 31 | 10 ס; 12 ס; 25 פ; 31 פ; 13 ס (interna) |
+| 13 | 39 | 22 פ; 27 ס; 30 ס; 31 ס; 33 פ; 39 ס |
+| 14 | 33 | 4 ס; 7 פ; 9 ס; 12 ס; 17 פ; 20 ס; 23 פ; 24 ס; 27 פ; 30 פ; 33 פ |
+| 15 | 37 | 6 פ; 9 פ; 26 ס |
+| 16 | 23 | 9 ס; 10 ס; 13 פ; 19 פ; 23 ס; 13 ס (interna) |
+| 17 | 29 | 4 ס; 6 ס; 13 פ; 14 ס; 20 ס; 23 ס; 26 ס |
+| 18 | 32 | 18 ס; 31 ס; 32 ס; 2 ס (interna); 28 ס (interna) |
+| 19 | 44 | 5 ס; 8 ס; 9 ס; 11 ס; 21 ס; 22 ס; 24 ס; 29 פ; 31 ס; 38 ס; 40 ס; 42 ס; 43 ס; 44 ס |
+| 20 | 26 | 3 ס; 5 ס; 8 ס; 19 פ; 22 ס; 26 ס; 10 ס (interna); 14 ס (interna) |
+| 21 | 22 | 14 פ; 17 פ; 18 פ; 19 ס; 22 פ; 1 ס (interna); 6 ס (interna) |
+| 22 | 51 | 51 פ |
+| 23 | 39 | 7 פ; 10 ס; 12 ס; 17 ס; 19 ס; 23 ס; 25 ס; 26 ס; 27 ס; 28 ס; 29 ס; 30 ס; 31 ס; 32 ס; 33 ס; 34 ס; 35 ס; 36 ס; 37 ס; 38 ס; 39 פ; 29 ס (interna); 34 ס (interna); 36 ס (interna); 37 ס (interna) |
+| 24 | 25 | 2 ס; 13 ס; 16 ס; 17 פ; 10 ס (interna); 11 פ (interna); 23 ס (interna) |
+| **Total** | **695** | **46 פ e 97 ס (143 ao todo; 16 internas)** |
+
+**Arquivos e integração:** 24 módulos, `scriptures/texts/bhs-2-samuel-1.js` até `scriptures/texts/bhs-2-samuel-24.js`, atribuídos a `ScripturaScriptureTexts.BHS["2SA"]`. `index.html` carrega os módulos após 1 Samuel; `tests/scripture-word-popups.test.cjs` contém a verificação estrutural dos 24 capítulos, das 143 marcas e da reconstrução literal das 16 marcas internas. O catálogo de `scriptures/reader.js` já registra 2 Samuel com 24 capítulos e permanece inalterado.
+
+**Cobertura acumulada das transcrições fornecidas:** **oito livros completos** — Gênesis (50 capítulos, 1.533 versículos), Êxodo (40, 1.213), Levítico (27, 859), Números (36, 1.289), Deuteronômio (34, 959), Josué (24, 658), Juízes (21, 618), 2 Samuel (24, 695) — e **1 Samuel parcial** (21 capítulos, 576 versículos). **Total: 277 capítulos e 8.400 versículos**. O excerto de 1 Reis 1 não entra na contagem.
+
+**Limitações:** a atribuição BHS decorre da transcrição fornecida, sem cotejo independente com edição impressa. A verificação literal contra o texto do usuário não substitui homologação filológica, revisão editorial, aferição de direitos de uso ou testes visuais em navegador. A suíte Node.js deve ser executada separadamente para verificação dinâmica completa.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1

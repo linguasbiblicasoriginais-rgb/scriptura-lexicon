@@ -265,6 +265,30 @@ const sourceFiles = [
     "scriptures/texts/bhs-1-samuel-19.js",
     "scriptures/texts/bhs-1-samuel-20.js",
     "scriptures/texts/bhs-1-samuel-21.js",
+    "scriptures/texts/bhs-2-samuel-1.js",
+    "scriptures/texts/bhs-2-samuel-2.js",
+    "scriptures/texts/bhs-2-samuel-3.js",
+    "scriptures/texts/bhs-2-samuel-4.js",
+    "scriptures/texts/bhs-2-samuel-5.js",
+    "scriptures/texts/bhs-2-samuel-6.js",
+    "scriptures/texts/bhs-2-samuel-7.js",
+    "scriptures/texts/bhs-2-samuel-8.js",
+    "scriptures/texts/bhs-2-samuel-9.js",
+    "scriptures/texts/bhs-2-samuel-10.js",
+    "scriptures/texts/bhs-2-samuel-11.js",
+    "scriptures/texts/bhs-2-samuel-12.js",
+    "scriptures/texts/bhs-2-samuel-13.js",
+    "scriptures/texts/bhs-2-samuel-14.js",
+    "scriptures/texts/bhs-2-samuel-15.js",
+    "scriptures/texts/bhs-2-samuel-16.js",
+    "scriptures/texts/bhs-2-samuel-17.js",
+    "scriptures/texts/bhs-2-samuel-18.js",
+    "scriptures/texts/bhs-2-samuel-19.js",
+    "scriptures/texts/bhs-2-samuel-20.js",
+    "scriptures/texts/bhs-2-samuel-21.js",
+    "scriptures/texts/bhs-2-samuel-22.js",
+    "scriptures/texts/bhs-2-samuel-23.js",
+    "scriptures/texts/bhs-2-samuel-24.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -542,6 +566,30 @@ const chapters = [
     ["BHS", "1SA", 19, 24],
     ["BHS", "1SA", 20, 42],
     ["BHS", "1SA", 21, 16],
+    ["BHS", "2SA", 1, 27],
+    ["BHS", "2SA", 2, 32],
+    ["BHS", "2SA", 3, 39],
+    ["BHS", "2SA", 4, 12],
+    ["BHS", "2SA", 5, 25],
+    ["BHS", "2SA", 6, 23],
+    ["BHS", "2SA", 7, 29],
+    ["BHS", "2SA", 8, 18],
+    ["BHS", "2SA", 9, 13],
+    ["BHS", "2SA", 10, 19],
+    ["BHS", "2SA", 11, 27],
+    ["BHS", "2SA", 12, 31],
+    ["BHS", "2SA", 13, 39],
+    ["BHS", "2SA", 14, 33],
+    ["BHS", "2SA", 15, 37],
+    ["BHS", "2SA", 16, 23],
+    ["BHS", "2SA", 17, 29],
+    ["BHS", "2SA", 18, 32],
+    ["BHS", "2SA", 19, 44],
+    ["BHS", "2SA", 20, 26],
+    ["BHS", "2SA", 21, 22],
+    ["BHS", "2SA", 22, 51],
+    ["BHS", "2SA", 23, 39],
+    ["BHS", "2SA", 24, 25],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -1006,6 +1054,82 @@ for (const [chapter, byVerse] of Object.entries(expectedFirstSamuelInline)) {
         }
         assert.equal(restored, originalFirstSamuelInlineVerses[chapter + ":" + verse],
             "Quebra interna alterada em 1º Samuel " + chapter + ":" + verse);
+    }
+}
+
+const expectedSecondSamuelParashot = {
+    1: {"12":"ס","16":"ס","27":"פ"},
+    2: {"4":"ס","7":"פ","9":"פ","11":"ס"},
+    3: {"1":"ס","5":"פ","11":"ס","13":"ס","30":"פ","32":"פ","37":"פ","39":"פ"},
+    4: {"3":"ס","8":"ס","12":"פ"},
+    5: {"3":"פ","10":"פ","12":"ס","16":"פ","21":"פ","25":"פ"},
+    6: {"23":"פ"},
+    7: {"3":"ס","17":"ס","24":"ס","29":"פ"},
+    8: {"8":"ס","18":"פ"},
+    9: {"13":"פ"},
+    10: {"19":"פ"},
+    11: {"1":"ס","15":"ס","24":"ס","27":"פ"},
+    12: {"10":"ס","12":"ס","25":"פ","31":"פ"},
+    13: {"22":"פ","27":"ס","30":"ס","31":"ס","33":"פ","39":"ס"},
+    14: {"4":"ס","7":"פ","9":"ס","12":"ס","17":"פ","20":"ס","23":"פ","24":"ס","27":"פ","30":"פ","33":"פ"},
+    15: {"6":"פ","9":"פ","26":"ס"},
+    16: {"9":"ס","10":"ס","13":"פ","19":"פ","23":"ס"},
+    17: {"4":"ס","6":"ס","13":"פ","14":"ס","20":"ס","23":"ס","26":"ס"},
+    18: {"18":"ס","31":"ס","32":"ס"},
+    19: {"5":"ס","8":"ס","9":"ס","11":"ס","21":"ס","22":"ס","24":"ס","29":"פ","31":"ס","38":"ס","40":"ס","42":"ס","43":"ס","44":"ס"},
+    20: {"3":"ס","5":"ס","8":"ס","19":"פ","22":"ס","26":"ס"},
+    21: {"14":"פ","17":"פ","18":"פ","19":"ס","22":"פ"},
+    22: {"51":"פ"},
+    23: {"7":"פ","10":"ס","12":"ס","17":"ס","19":"ס","23":"ס","25":"ס","26":"ס","27":"ס","28":"ס","29":"ס","30":"ס","31":"ס","32":"ס","33":"ס","34":"ס","35":"ס","36":"ס","37":"ס","38":"ס","39":"פ"},
+    24: {"2":"ס","13":"ס","16":"ס","17":"פ"}
+};
+for (const [chapter, expected] of Object.entries(expectedSecondSamuelParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS["2SA"][chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em 2º Samuel " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS["2SA"][chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em 2º Samuel " + chapter);
+}
+const expectedSecondSamuelInline = {
+    10: {"17":[{"offset":19,"type":"ס"}]},
+    12: {"13":[{"offset":49,"type":"ס"}]},
+    16: {"13":[{"offset":43,"type":"ס"}]},
+    18: {"2":[{"offset":171,"type":"ס"}],"28":[{"offset":106,"type":"ס"}]},
+    20: {"10":[{"offset":155,"type":"ס"}],"14":[{"offset":84,"type":"ס"}]},
+    21: {"1":[{"offset":115,"type":"ס"}],"6":[{"offset":110,"type":"ס"}]},
+    23: {"29":[{"offset":36,"type":"ס"}],"34":[{"offset":48,"type":"ס"}],"36":[{"offset":30,"type":"ס"}],"37":[{"offset":18,"type":"ס"}]},
+    24: {"10":[{"offset":58,"type":"ס"}],"11":[{"offset":28,"type":"פ"}],"23":[{"offset":47,"type":"ס"}]}
+};
+const originalSecondSamuelInlineVerses = {
+    "10:17": "וַיֻּגַּ֣ד לְדָוִ֗ד ס\nוַיֶּאֱסֹ֤ף אֶת־כָּל־יִשְׂרָאֵל֙ וַיַּעֲבֹ֣ר אֶת־הַיַּרְדֵּ֔ן וַיָּבֹ֖א חֵלָ֑אמָה וַיַּעַרְכ֤וּ אֲרָם֙ לִקְרַ֣את דָּוִ֔ד וַיִּלָּחֲמ֖וּ עִמּֽוֹ׃",
+    "12:13": "וַיֹּ֤אמֶר דָּוִד֙ אֶל־נָתָ֔ן חָטָ֖אתִי לַֽיהוָ֑ה ס\nוַיֹּ֨אמֶר נָתָ֜ן אֶל־דָּוִ֗ד גַּם־יְהוָ֛ה הֶעֱבִ֥יר חַטָּאתְךָ֖ לֹ֥א תָמֽוּת׃",
+    "16:13": "וַיֵּ֧לֶךְ דָּוִ֛ד וַאֲנָשָׁ֖יו בַּדָּ֑רֶךְ ס\nוְשִׁמְעִ֡י הֹלֵךְ֩ בְּצֵ֨לַע הָהָ֜ר לְעֻמָּת֗וֹ הָלוֹךְ֙ וַיְקַלֵּ֔ל וַיְסַקֵּ֤ל בָּֽאֲבָנִים֙ לְעֻמָּת֔וֹ וְעִפַּ֖ר בֶּעָפָֽר׃",
+    "18:2": "וַיְשַׁלַּ֨ח דָּוִ֜ד אֶת־הָעָ֗ם הַשְּׁלִשִׁ֤ית בְּיַד־יוֹאָב֙ וְ֠הַשְּׁלִשִׁית בְּיַ֨ד אֲבִישַׁ֤י בֶּן־צְרוּיָה֙ אֲחִ֣י יוֹאָ֔ב וְהַ֨שְּׁלִשִׁ֔ת בְּיַ֖ד אִתַּ֣י הַגִּתִּ֑י ס\nוַיֹּ֤אמֶר הַמֶּ֨לֶךְ֙ אֶל־הָעָ֔ם יָצֹ֥א אֵצֵ֛א גַּם־אֲנִ֖י עִמָּכֶֽם׃",
+    "18:28": "וַיִּקְרָ֣א אֲחִימַ֗עַץ וַיֹּ֤אמֶר אֶל־הַמֶּ֨לֶךְ֙ שָׁל֔וֹם וַיִּשְׁתַּ֧חוּ לַמֶּ֛לֶךְ לְאַפָּ֖יו אָ֑רְצָה ס\nוַיֹּ֗אמֶר בָּרוּךְ֙ יְהוָ֣ה אֱלֹהֶ֔יךָ אֲשֶׁ֤ר סִגַּר֙ אֶת־הָ֣אֲנָשִׁ֔ים אֲשֶׁר־נָשְׂא֥וּ אֶת־יָדָ֖ם בַּֽאדֹנִ֥י הַמֶּֽלֶךְ׃",
+    "20:10": "וַעֲמָשָׂ֨א לֹֽא־נִשְׁמַ֜ר בַּחֶ֣רֶב ׀ אֲשֶׁ֣ר בְּיַד־יוֹאָ֗ב וַיַּכֵּהוּ֩ בָ֨הּ אֶל־הַחֹ֜מֶשׁ וַיִּשְׁפֹּ֨ךְ מֵעָ֥יו אַ֛רְצָה וְלֹא־שָׁ֥נָה ל֖וֹ וַיָּמֹ֑ת ס\nוְיוֹאָב֙ וַאֲבִישַׁ֣י אָחִ֔יו רָדַ֕ף אַחֲרֵ֖י שֶׁ֥בַע בֶּן־בִּכְרִֽי׃",
+    "20:14": "וַֽיַּעֲבֹ֞ר בְּכָל־שִׁבְטֵ֣י יִשְׂרָאֵ֗ל אָבֵ֛לָה וּבֵ֥ית מַעֲכָ֖ה וְכָל־הַבֵּרִ֑ים ס\nוַיִּקָּ֣לֲה֔וּ וַיָּבֹ֖אוּ אַף־אַחֲרָֽיו׃",
+    "21:1": "וַיְהִ֣י רָעָב֩ בִּימֵ֨י דָוִ֜ד שָׁלֹ֣שׁ שָׁנִ֗ים שָׁנָה֙ אַחֲרֵ֣י שָׁנָ֔ה וַיְבַקֵּ֥שׁ דָּוִ֖ד אֶת־פְּנֵ֣י יְהוָ֑ה ס\nוַיֹּ֣אמֶר יְהוָ֗ה אֶל־שָׁאוּל֙ וְאֶל־בֵּ֣ית הַדָּמִ֔ים עַל־אֲשֶׁר־הֵמִ֖ית אֶת־הַגִּבְעֹנִֽים׃",
+    "21:6": "יֻנתַּן־לָ֜נוּ שִׁבְעָ֤ה אֲנָשִׁים֙ מִבָּנָ֔יו וְהוֹקַֽעֲנוּם֙ לַֽיהוָ֔ה בְּגִבְעַ֥ת שָׁא֖וּל בְּחִ֣יר יְהוָ֑ה ס\nוַיֹּ֥אמֶר הַמֶּ֖לֶךְ אֲנִ֥י אֶתֵּֽן׃",
+    "23:29": "חֵ֥לֶב בֶּֽן־בַּעֲנָ֖ה הַנְּטֹפָתִ֑י ס\nאִתַּי֙ בֶּן־רִיבַ֔י מִגִּבְעַ֖ת בְּנֵ֥י בִנְיָמִֽן׃",
+    "23:34": "אֱלִיפֶ֥לֶט בֶּן־אֲחַסְבַּ֖י בֶּן־הַמַּֽעֲכָתִ֑י ס\nאֱלִיעָ֥ם בֶּן־אֲחִיתֹ֖פֶל הַגִּלֹנִֽי׃",
+    "23:36": "יִגְאָ֤ל בֶּן־נָתָן֙ מִצֹּבָ֔ה ס\nבָּנִ֖י הַגָּדִֽי׃",
+    "23:37": "צֶ֖לֶק הָעַמֹּנִ֑י ס\nנַחְרַי֙ הַבְּאֵ֣רֹתִ֔י נֹשֵׂ֕אי כְּלֵ֖י יוֹאָ֥ב בֶּן־צְרֻיָֽה׃",
+    "24:10": "וַיַּ֤ךְ לֵב־דָּוִד֙ אֹת֔וֹ אַחֲרֵי־כֵ֖ן סָפַ֣ר אֶת־הָעָ֑ם ס\nוַיֹּ֨אמֶר דָּוִ֜ד אֶל־יְהוָ֗ה חָטָ֤אתִי מְאֹד֙ אֲשֶׁ֣ר עָשִׂ֔יתִי וְעַתָּ֣ה יְהוָ֔ה הַֽעֲבֶר־נָא֙ אֶת־עֲוֹ֣ן עַבְדְּךָ֔ כִּ֥י נִסְכַּ֖לְתִּי מְאֹֽד׃",
+    "24:11": "וַיָּ֥קָם דָּוִ֖ד בַּבֹּ֑קֶר פ\nוּדְבַר־יְהוָ֗ה הָיָה֙ אֶל־גָּ֣ד הַנָּבִ֔יא חֹזֵ֥ה דָוִ֖ד לֵאמֹֽר׃",
+    "24:23": "הַכֹּ֗ל נָתַ֛ן אֲרַ֥וְנָה הַמֶּ֖לֶךְ לַמֶּ֑לֶךְ ס\nוַיֹּ֤אמֶר אֲרַ֨וְנָה֙ אֶל־הַמֶּ֔לֶךְ יְהוָ֥ה אֱלֹהֶ֖יךָ יִרְצֶֽךָ׃"
+};
+for (const [chapter, byVerse] of Object.entries(expectedSecondSamuelInline)) {
+    assert.equal(JSON.stringify(window.ScripturaScriptureInlineParashahTypes.BHS["2SA"][chapter]),
+        JSON.stringify(byVerse), "Marcadores internos incorretos em 2º Samuel " + chapter);
+    for (const [verse, marks] of Object.entries(byVerse)) {
+        let reconstructed = window.ScripturaScriptureTexts.BHS["2SA"][chapter][verse];
+        for (let i = marks.length - 1; i >= 0; i--) {
+            const m = marks[i];
+            reconstructed = reconstructed.slice(0, m.offset) + " " + m.type + reconstructed.slice(m.offset);
+        }
+        assert.equal(reconstructed, originalSecondSamuelInlineVerses[chapter + ":" + verse],
+            "Quebra interna alterada em 2º Samuel " + chapter + ":" + verse);
     }
 }
 
