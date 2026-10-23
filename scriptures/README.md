@@ -706,6 +706,46 @@ A incorporação preserva a grafia original da transcrição, sinais vocálicos 
 
 **Limitações:** a atribuição BHS decorre da transcrição fornecida, sem cotejo independente com edição impressa. A verificação literal contra o texto do usuário não substitui homologação filológica, revisão editorial, aferição de direitos de uso ou testes visuais em navegador. A suíte Node.js deve ser executada separadamente para verificação dinâmica completa.
 
+## Incorporação textual 026 — 1º Reis 1–22 (BHS)
+
+**Fonte:** transcrição hebraica fornecida pelo usuário em 23/10/2026, identificada no projeto como BHS. O arquivo contém todos os **22 capítulos de 1º Reis, com 817 versículos**. A transcrição de **1 Reis 1 (53 versículos)** foi comparada com o trecho identificado equivocadamente como “Capítulo 25” na fonte anterior de 2 Samuel; os dois trechos **coincidem literalmente**. A incorporação foi feita **somente sob 1 Reis**, sem duplicação no registro de 2 Samuel.
+
+A transcrição conserva todos os caracteres de origem, inclusive os sinais vocálicos (*niqqud*), cantilação (*teʿamim*), *maqaf*, *paseq*, *sof pasuq*, quebras de linha internas e espaços, sem normalização Unicode, correção ou harmonização. As **108 marcas explícitas de parashah** são **51 פ** (*petuchah*) e **57 ס** (*setumah*). **107 aparecem no final dos versículos e uma é interna**, em **1 Reis 13:20**, registrada com offset UTF-16 **41**.
+
+**Particularidade da fonte:** **1 Reis 16:26** está transcrito **sem o sinal final ׃ (*sof pasuq*)**. A ausência foi preservada literalmente, sem emenda editorial, e registrada em teste específico. A observação não constitui cotejo com a BHS impressa nem decisão crítica sobre a leitura correta.
+
+| Capítulo | Versículos | Marcas explícitas de *parashah* |
+| --- | ---: | --- |
+| 1 | 53 | 27 ס; 31 פ; 53 פ |
+| 2 | 46 | 6 ס; 10 פ; 22 פ; 25 ס; 27 פ; 38 ס |
+| 3 | 28 | 2 פ; 14 ס; 15 פ; 23 פ; 28 ס |
+| 4 | 20 | 1 ס; 2 ס; 4 ס; 6 ס; 7 ס; 8 ס; 9 ס; 10 ס; 11 ס; 12 ס; 13 ס; 16 ס; 17 ס; 18 ס |
+| 5 | 32 | 1 פ; 5 ס; 8 ס; 14 ס; 15 ס; 25 פ; 28 ס; 32 פ |
+| 6 | 38 | 10 פ; 13 ס |
+| 7 | 51 | 12 פ; 26 פ; 37 ס; 39 ס; 50 פ; 51 פ |
+| 8 | 66 | 11 פ; 21 ס; 32 ס; 34 ס; 36 ס; 53 פ |
+| 9 | 28 | 1 פ; 9 פ; 13 פ; 22 ס; 28 פ |
+| 10 | 29 | 13 ס; 17 פ; 25 ס; 29 פ |
+| 11 | 43 | 6 ס; 10 פ; 25 פ; 28 ס; 39 ס; 43 ס |
+| 12 | 33 | 17 פ; 19 ס; 21 פ; 24 ס; 33 פ |
+| 13 | 34 | 10 פ; 32 פ; 34 פ; 20 פ (interna) |
+| 14 | 31 | 4 ס; 9 ס; 20 פ; 24 פ; 31 פ |
+| 15 | 34 | 8 פ; 24 פ; 32 פ; 34 ס |
+| 16 | 34 | 7 פ; 14 פ; 20 פ; 22 פ; 28 פ; 34 ס |
+| 17 | 24 | 1 ס; 7 ס; 13 ס; 16 פ; 24 פ |
+| 18 | 46 | 14 ס |
+| 19 | 21 | 14 ס; 21 פ |
+| 20 | 43 | 22 ס; 25 פ; 30 ס; 34 ס; 43 פ |
+| 21 | 29 | 16 ס; 26 ס; 27 ס |
+| 22 | 54 | 1 פ; 40 פ; 51 ס |
+| **Total** | **817** | **51 פ e 57 ס (108 ao todo; 1 interna)** |
+
+**Arquivos e integração:** 22 módulos `scriptures/texts/bhs-1-kings-1.js` até `scriptures/texts/bhs-1-kings-22.js`, registrados em `ScripturaScriptureTexts.BHS["1KI"]`, com metadados independentes para as marcas. O `index.html` inclui os 22 scripts depois de 2 Samuel. O arquivo `tests/scripture-word-popups.test.cjs` contém os casos dos 22 capítulos, as marcas terminais e internas, a reconstrução da marca em 13:20 e a ausência do *sof pasuq* em 16:26. O catálogo existente em `scriptures/reader.js` já relaciona 1 Reis como `1KI` e 22 capítulos, sem necessidade de alteração.
+
+**Cobertura acumulada:** **nove livros completos** (Gênesis, Êxodo, Levítico, Números, Deuteronômio, Josué, Juízes, 2 Samuel e 1 Reis), mais **1 Samuel parcial (1–21)**: **299 capítulos e 9.217 versículos**. Continuam ausentes os capítulos 22–31 de 1 Samuel.
+
+**Limitações:** a atribuição BHS corresponde à transcrição disponibilizada pelo usuário; não houve confronto independente com a edição impressa, revisão crítica do hebraico nem homologação editorial. Os testes de integração em Node.js e navegador são verificação separada da comparação literal de fontes.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
