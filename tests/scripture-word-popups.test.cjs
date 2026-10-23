@@ -311,6 +311,31 @@ const sourceFiles = [
     "scriptures/texts/bhs-1-kings-20.js",
     "scriptures/texts/bhs-1-kings-21.js",
     "scriptures/texts/bhs-1-kings-22.js",
+    "scriptures/texts/bhs-2-kings-1.js",
+    "scriptures/texts/bhs-2-kings-2.js",
+    "scriptures/texts/bhs-2-kings-3.js",
+    "scriptures/texts/bhs-2-kings-4.js",
+    "scriptures/texts/bhs-2-kings-5.js",
+    "scriptures/texts/bhs-2-kings-6.js",
+    "scriptures/texts/bhs-2-kings-7.js",
+    "scriptures/texts/bhs-2-kings-8.js",
+    "scriptures/texts/bhs-2-kings-9.js",
+    "scriptures/texts/bhs-2-kings-10.js",
+    "scriptures/texts/bhs-2-kings-11.js",
+    "scriptures/texts/bhs-2-kings-12.js",
+    "scriptures/texts/bhs-2-kings-13.js",
+    "scriptures/texts/bhs-2-kings-14.js",
+    "scriptures/texts/bhs-2-kings-15.js",
+    "scriptures/texts/bhs-2-kings-16.js",
+    "scriptures/texts/bhs-2-kings-17.js",
+    "scriptures/texts/bhs-2-kings-18.js",
+    "scriptures/texts/bhs-2-kings-19.js",
+    "scriptures/texts/bhs-2-kings-20.js",
+    "scriptures/texts/bhs-2-kings-21.js",
+    "scriptures/texts/bhs-2-kings-22.js",
+    "scriptures/texts/bhs-2-kings-23.js",
+    "scriptures/texts/bhs-2-kings-24.js",
+    "scriptures/texts/bhs-2-kings-25.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -634,6 +659,31 @@ const chapters = [
     ["BHS", "1KI", 20, 43],
     ["BHS", "1KI", 21, 29],
     ["BHS", "1KI", 22, 54],
+    ["BHS", "2KI", 1, 18],
+    ["BHS", "2KI", 2, 25],
+    ["BHS", "2KI", 3, 27],
+    ["BHS", "2KI", 4, 44],
+    ["BHS", "2KI", 5, 27],
+    ["BHS", "2KI", 6, 33],
+    ["BHS", "2KI", 7, 20],
+    ["BHS", "2KI", 8, 29],
+    ["BHS", "2KI", 9, 37],
+    ["BHS", "2KI", 10, 36],
+    ["BHS", "2KI", 11, 20],
+    ["BHS", "2KI", 12, 22],
+    ["BHS", "2KI", 13, 25],
+    ["BHS", "2KI", 14, 29],
+    ["BHS", "2KI", 15, 38],
+    ["BHS", "2KI", 16, 20],
+    ["BHS", "2KI", 17, 41],
+    ["BHS", "2KI", 18, 37],
+    ["BHS", "2KI", 19, 37],
+    ["BHS", "2KI", 20, 21],
+    ["BHS", "2KI", 21, 26],
+    ["BHS", "2KI", 22, 20],
+    ["BHS", "2KI", 23, 37],
+    ["BHS", "2KI", 24, 20],
+    ["BHS", "2KI", 25, 30],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -1231,6 +1281,60 @@ for (const [chapter, byVerse] of Object.entries(expectedFirstKingsInline)) {
 assert.equal(window.ScripturaScriptureTexts.BHS["1KI"][16][26].includes("׃"), false,
     "1º Reis 16:26: não acrescentar sof pasuq ausente no documento recebido");
 
+const expectedSecondKingsParashot = {
+    1: {"2":"ס","14":"ס","18":"פ"},
+    2: {"22":"פ","25":"פ"},
+    3: {"3":"ס","27":"פ"},
+    4: {"7":"פ","37":"פ","41":"ס","44":"פ"},
+    5: {"19":"ס","27":"ס"},
+    6: {"7":"פ","23":"פ","33":"ס"},
+    7: {"2":"ס","20":"ס"},
+    8: {"6":"פ","15":"פ","24":"פ","29":"פ"},
+    9: {"28":"פ","37":"פ"},
+    10: {"14":"ס","17":"פ","29":"ס","36":"פ"},
+    11: {"3":"פ","12":"ס","14":"ס","16":"ס"},
+    12: {"1":"פ","6":"פ","17":"פ","22":"פ"},
+    13: {"9":"פ","13":"פ","19":"ס","21":"פ","25":"פ"},
+    14: {"7":"פ","16":"פ","22":"פ","29":"פ"},
+    15: {"7":"פ","12":"פ","15":"ס","16":"פ","22":"פ","26":"פ","31":"פ","38":"פ"},
+    16: {"6":"פ","20":"פ"},
+    17: {"6":"פ","23":"פ","41":"פ"},
+    18: {"8":"פ","12":"פ","16":"פ"},
+    19: {"14":"פ","19":"ס","31":"ס","37":"פ"},
+    20: {"3":"ס","11":"פ","21":"פ"},
+    21: {"11":"פ","18":"פ","26":"פ"},
+    22: {"2":"פ"},
+    23: {"30":"פ","35":"ס"},
+    24: {"7":"פ","17":"פ","20":"ס"},
+    25: {"7":"ס","22":"פ","24":"ס","26":"פ"}
+};
+for (const [chapter, expected] of Object.entries(expectedSecondKingsParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS["2KI"][chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em 2º Reis " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS["2KI"][chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em 2º Reis " + chapter);
+}
+const expectedSecondKingsInline = {
+    1: {"17":[{"offset":92,"type":"פ"}]}
+};
+const originalSecondKingsInlineVerses = {
+    "1:17": "וַיָּ֜מָת כִּדְבַ֥ר יְהוָ֣ה ׀ אֲשֶׁר־דִּבֶּ֣ר אֵלִיָּ֗הוּ וַיִּמְלֹ֤ךְ יְהוֹרָם֙ תַּחְתָּ֔יו פ\nבִּשְׁנַ֣ת שְׁתַּ֔יִם לִיהוֹרָ֥ם בֶּן־יְהוֹשָׁפָ֖ט מֶ֣לֶךְ יְהוּדָ֑ה כִּ֛י לֹֽא־הָ֥יָה ל֖וֹ בֵּֽן׃"
+};
+for (const [chapter, byVerse] of Object.entries(expectedSecondKingsInline)) {
+    assert.equal(JSON.stringify(window.ScripturaScriptureInlineParashahTypes.BHS["2KI"][chapter]),
+        JSON.stringify(byVerse), "Marcadores internos incorretos em 2º Reis " + chapter);
+    for (const [verse, marks] of Object.entries(byVerse)) {
+        let reconstructed = window.ScripturaScriptureTexts.BHS["2KI"][chapter][verse];
+        for (let i = marks.length - 1; i >= 0; i--) {
+            const m = marks[i];
+            reconstructed = reconstructed.slice(0, m.offset) + " " + m.type + reconstructed.slice(m.offset);
+        }
+        assert.equal(reconstructed, originalSecondKingsInlineVerses[chapter + ":" + verse],
+            "Quebra interna alterada em 2º Reis " + chapter + ":" + verse);
+    }
+}
 const inlineGen35 = window.ScripturaScriptureInlineParashahTypes.BHS.GEN[35][22];
 assert.equal(inlineGen35.length, 1);
 assert.equal(inlineGen35[0].type, "פ");

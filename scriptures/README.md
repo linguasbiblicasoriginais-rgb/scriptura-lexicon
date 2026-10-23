@@ -746,6 +746,47 @@ A transcrição conserva todos os caracteres de origem, inclusive os sinais voc�
 
 **Limitações:** a atribuição BHS corresponde à transcrição disponibilizada pelo usuário; não houve confronto independente com a edição impressa, revisão crítica do hebraico nem homologação editorial. Os testes de integração em Node.js e navegador são verificação separada da comparação literal de fontes.
 
+## Incorporação textual 027 — 2º Reis 1–25 (BHS)
+
+**Fonte:** transcrição hebraica fornecida pelo usuário em 23/10/2026, identificada no projeto como BHS. Foram incorporados integralmente os **25 capítulos de 2º Reis (719 versículos)**, do início da narrativa após a morte de Acabe até 2 Reis 25:30.
+
+**Transcrição literal:** preservar cada caractere hebraico e seu sinal de origem, incluindo *niqqud*, *teʿamim*, *maqaf*, *paseq*, *sof pasuq*, espaços e quebras de linha internas, sem normalização Unicode, preenchimentos ou emendas. As **82 marcas explícitas de parashah** distribuem-se em **59 פ** (*petuchah*) e **23 ס** (*setumah*). Há **81 marcas terminais** e **uma marca interna** em **2 Reis 1:17**, do tipo **פ**, com offset UTF-16 **92**. A marca está antes de uma quebra de linha, cuja continuação ainda pertence ao versículo 17; por isso foi separada como metadado sem cortar o versículo, e há teste de reconstrução exata. Todos os 719 versículos apresentados na fonte contêm um sinal `׃` (*sof pasuq*).
+
+| Capítulo | Versículos | Marcas explícitas de *parashah* |
+| --- | ---: | --- |
+| 1 | 18 | 2 ס; 14 ס; 18 פ; 17 פ (interna) |
+| 2 | 25 | 22 פ; 25 פ |
+| 3 | 27 | 3 ס; 27 פ |
+| 4 | 44 | 7 פ; 37 פ; 41 ס; 44 פ |
+| 5 | 27 | 19 ס; 27 ס |
+| 6 | 33 | 7 פ; 23 פ; 33 ס |
+| 7 | 20 | 2 ס; 20 ס |
+| 8 | 29 | 6 פ; 15 פ; 24 פ; 29 פ |
+| 9 | 37 | 28 פ; 37 פ |
+| 10 | 36 | 14 ס; 17 פ; 29 ס; 36 פ |
+| 11 | 20 | 3 פ; 12 ס; 14 ס; 16 ס |
+| 12 | 22 | 1 פ; 6 פ; 17 פ; 22 פ |
+| 13 | 25 | 9 פ; 13 פ; 19 ס; 21 פ; 25 פ |
+| 14 | 29 | 7 פ; 16 פ; 22 פ; 29 פ |
+| 15 | 38 | 7 פ; 12 פ; 15 ס; 16 פ; 22 פ; 26 פ; 31 פ; 38 פ |
+| 16 | 20 | 6 פ; 20 פ |
+| 17 | 41 | 6 פ; 23 פ; 41 פ |
+| 18 | 37 | 8 פ; 12 פ; 16 פ |
+| 19 | 37 | 14 פ; 19 ס; 31 ס; 37 פ |
+| 20 | 21 | 3 ס; 11 פ; 21 פ |
+| 21 | 26 | 11 פ; 18 פ; 26 פ |
+| 22 | 20 | 2 פ |
+| 23 | 37 | 30 פ; 35 ס |
+| 24 | 20 | 7 פ; 17 פ; 20 ס |
+| 25 | 30 | 7 ס; 22 פ; 24 ס; 26 פ |
+| **Total** | **719** | **59 פ e 23 ס (82 ao todo; 1 interna)** |
+
+**Arquivos e integração:** 25 módulos `scriptures/texts/bhs-2-kings-1.js` até `scriptures/texts/bhs-2-kings-25.js`, registrados em `ScripturaScriptureTexts.BHS["2KI"]`. O `index.html` inclui os scripts depois dos capítulos de 1 Reis. O arquivo `tests/scripture-word-popups.test.cjs` inclui os casos de todos os capítulos, as marcas terminais e a posição e reconstrução da marca interna. O catálogo `scriptures/reader.js` já contém o registro `2 Reis|25|2KI`, portanto não requer modificação.
+
+**Cobertura acumulada:** **dez livros completos** (Gênesis, Êxodo, Levítico, Números, Deuteronômio, Josué, Juízes, 2 Samuel, 1 Reis e 2 Reis), além de **1 Samuel parcial (capítulos 1–21)**: **324 capítulos e 9.936 versículos**. Continuam ausentes os capítulos 22–31 de 1 Samuel.
+
+**Limitações:** a designação BHS é a indicada na transcrição do usuário; não houve cotejo independente com a BHS impressa nem revisão filológica editorial. A validação estática da integração e a comparação literal após publicação são distintas da execução da suíte Node.js e da inspeção visual do navegador.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
