@@ -22,6 +22,12 @@ const sourceFiles = [
     "scriptures/texts/bhs-genesis-8.js",
     "scriptures/texts/bhs-genesis-9.js",
     "scriptures/texts/bhs-genesis-10.js",
+    "scriptures/texts/bhs-genesis-11.js",
+    "scriptures/texts/bhs-genesis-12.js",
+    "scriptures/texts/bhs-genesis-13.js",
+    "scriptures/texts/bhs-genesis-14.js",
+    "scriptures/texts/bhs-genesis-15.js",
+    "scriptures/texts/bhs-genesis-16.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -56,6 +62,12 @@ const chapters = [
     ["BHS", "GEN", 8, 22],
     ["BHS", "GEN", 9, 29],
     ["BHS", "GEN", 10, 32],
+    ["BHS", "GEN", 11, 32],
+    ["BHS", "GEN", 12, 20],
+    ["BHS", "GEN", 13, 18],
+    ["BHS", "GEN", 14, 24],
+    ["BHS", "GEN", 15, 21],
+    ["BHS", "GEN", 16, 16],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -90,7 +102,13 @@ const expectedParashot = {
     7: {},
     8: {14:"ס"},
     9: {7:"ס",17:"פ",29:"פ"},
-    10: {14:"ס",20:"ס",32:"פ"}
+    10: {14:"ס",20:"ס",32:"פ"},
+    11: {9:"פ",11:"ס",13:"ס",15:"ס",17:"ס",19:"ס",21:"ס",23:"ס",25:"ס",32:"ס"},
+    12: {9:"פ"},
+    13: {18:"פ"},
+    14: {24:"ס"},
+    15: {21:"ס"},
+    16: {16:"ס"}
 };
 for (const [chapter, expected] of Object.entries(expectedParashot)) {
     const types = window.ScripturaScriptureParashahTypes.BHS.GEN[chapter];
