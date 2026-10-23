@@ -629,6 +629,43 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Limitações:** preservação da fonte fornecida não equivale a homologação filológica, comparação independente com a edição impressa da BHS ou autorização para reprodução editorial. Diferenciar verificações estruturais de execução real de testes automatizados Node.js e testes visuais no navegador.
 
+## Incorporação textual 024 — 1º Samuel 1–21 (BHS, parcial)
+
+**Fonte:** transcrição hebraica fornecida pelo usuário em 23/10/2026, identificada no projeto como BHS. O arquivo recebido contém apenas os capítulos **1–21**, totalizando **576 versículos**. A transcrição termina logo após **1º Samuel 21:16**, seguido somente do cabeçalho truncado `Cap`. Os capítulos **22–31 não foram fornecidos nem incorporados**. Por isso, **o livro permanece incompleto**, embora constem 31 capítulos no catálogo canônico do leitor.
+
+A representação preserva literalmente o texto recebido: vogais massoréticas (*niqqud*), sinais cantilatórios (*teʿamim*), grafias, *maqaf*, *paseq*, pontuação, *sof pasuq* e as quebras de linha dentro dos versículos. Não houve normalização Unicode, harmonização, emenda ou substituição por outra fonte. As **121 marcas de parashah** consistem em **46 פ** (*petuchah*) e **75 ס** (*setumah*). Foram registradas separadamente **112 marcas finais** e **9 internas** nos versículos **10:18, 10:22, 14:12, 14:19, 14:36, 16:2, 16:12, 17:37 e 20:27**, preservando as posições UTF-16 e as quebras de linha originais. O cabeçalho solto `Cap` não pertence ao texto de 21:16 e foi descartado somente como fragmento de estrutura editorial.
+
+| Capítulo | Versículos | Marcas explícitas de *parashah* |
+| --- | ---: | --- |
+| 1 | 28 | 28 פ |
+| 2 | 36 | 10 פ; 21 ס; 26 ס; 36 ס |
+| 3 | 21 | 1 ס; 3 פ; 5 ס; 10 פ; 18 פ; 21 פ |
+| 4 | 22 | 17 פ; 22 פ |
+| 5 | 12 | 5 ס; 8 ס |
+| 6 | 21 | 14 ס; 16 ס; 17 ס; 20 ס |
+| 7 | 17 | 1 פ; 2 ס; 4 פ; 17 פ |
+| 8 | 22 | 3 פ; 6 פ; 9 ס; 10 ס; 21 פ; 22 פ |
+| 9 | 27 | 14 ס; 20 ס; 21 ס; 27 פ |
+| 10 | 27 | 9 ס; 16 פ; 24 פ; 27 פ; 18 פ (interna); 22 ס (interna) |
+| 11 | 15 | 10 ס; 13 ס; 15 פ |
+| 12 | 25 | 5 פ; 17 ס; 19 ס; 25 פ |
+| 13 | 23 | 12 ס; 14 פ; 18 ס; 23 ס |
+| 14 | 52 | 5 ס; 7 ס; 16 פ; 24 ס; 35 פ; 40 ס; 45 ס; 48 ס; 51 ס; 52 ס; 12 פ (interna); 19 פ (interna); 36 ס (interna) |
+| 15 | 35 | 1 ס; 3 ס; 9 פ; 15 ס; 16 ס; 19 ס; 23 ס; 26 ס; 31 ס; 32 ס; 33 ס; 35 פ |
+| 16 | 23 | 13 ס; 16 פ; 23 פ; 2 ס (interna); 12 פ (interna) |
+| 17 | 58 | 11 פ; 14 ס; 16 פ; 33 ס; 36 ס; 44 ס; 54 ס; 56 ס; 37 ס (interna) |
+| 18 | 30 | 5 פ; 9 ס; 13 פ; 16 פ; 17 ס; 24 פ; 27 ס; 29 ס; 30 ס |
+| 19 | 24 | 3 ס; 7 ס; 10 פ; 13 ס; 14 פ; 24 פ |
+| 20 | 42 | 4 פ; 8 פ; 9 ס; 10 ס; 11 ס; 17 ס; 23 ס; 26 ס; 29 ס; 31 ס; 33 ס; 34 ס; 42 פ; 27 ס (interna) |
+| 21 | 16 | 5 פ; 9 ס; 16 ס |
+| **Total 1–21** | **576** | **46 פ e 75 ס (121 ao todo; 9 internas)** |
+
+**Integração:** 21 módulos, de `scriptures/texts/bhs-1-samuel-1.js` até `bhs-1-samuel-21.js`, no registro `ScripturaScriptureTexts.BHS["1SA"]`. Scripts incluídos em `index.html` após Juízes e antes do leitor. A suíte `tests/scripture-word-popups.test.cjs` passa a incluir a contagem dos 21 capítulos, a identificação das parashot e a reconstrução exata das nove marcas internas. O catálogo de `scriptures/reader.js` já prevê 1 Samuel (31 capítulos), por isso permanece inalterado; capítulos 22–31 aguardam a transcrição.
+
+**Cobertura acumulada das transcrições do usuário:** **sete livros completos** — Gênesis (50 capítulos, 1.533 versículos), Êxodo (40, 1.213), Levítico (27, 859), Números (36, 1.289), Deuteronômio (34, 959), Josué (24, 658) e Juízes (21, 618) — mais **1 Samuel parcialmente incorporado** (21 capítulos, 576 versículos). **Total: 253 capítulos e 7.705 versículos.**
+
+**Limitações:** conferir os textos fornecidos não equivale a cotejo independente com a edição impressa da BHS, homologação filológica ou determinação de direitos de reprodução. Testes de estrutura e comparação literal de arquivos publicados não substituem a execução automatizada completa ou a conferência visual no navegador.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1

@@ -244,6 +244,27 @@ const sourceFiles = [
     "scriptures/texts/bhs-judges-19.js",
     "scriptures/texts/bhs-judges-20.js",
     "scriptures/texts/bhs-judges-21.js",
+    "scriptures/texts/bhs-1-samuel-1.js",
+    "scriptures/texts/bhs-1-samuel-2.js",
+    "scriptures/texts/bhs-1-samuel-3.js",
+    "scriptures/texts/bhs-1-samuel-4.js",
+    "scriptures/texts/bhs-1-samuel-5.js",
+    "scriptures/texts/bhs-1-samuel-6.js",
+    "scriptures/texts/bhs-1-samuel-7.js",
+    "scriptures/texts/bhs-1-samuel-8.js",
+    "scriptures/texts/bhs-1-samuel-9.js",
+    "scriptures/texts/bhs-1-samuel-10.js",
+    "scriptures/texts/bhs-1-samuel-11.js",
+    "scriptures/texts/bhs-1-samuel-12.js",
+    "scriptures/texts/bhs-1-samuel-13.js",
+    "scriptures/texts/bhs-1-samuel-14.js",
+    "scriptures/texts/bhs-1-samuel-15.js",
+    "scriptures/texts/bhs-1-samuel-16.js",
+    "scriptures/texts/bhs-1-samuel-17.js",
+    "scriptures/texts/bhs-1-samuel-18.js",
+    "scriptures/texts/bhs-1-samuel-19.js",
+    "scriptures/texts/bhs-1-samuel-20.js",
+    "scriptures/texts/bhs-1-samuel-21.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -500,6 +521,27 @@ const chapters = [
     ["BHS", "JDG", 19, 30],
     ["BHS", "JDG", 20, 48],
     ["BHS", "JDG", 21, 25],
+    ["BHS", "1SA", 1, 28],
+    ["BHS", "1SA", 2, 36],
+    ["BHS", "1SA", 3, 21],
+    ["BHS", "1SA", 4, 22],
+    ["BHS", "1SA", 5, 12],
+    ["BHS", "1SA", 6, 21],
+    ["BHS", "1SA", 7, 17],
+    ["BHS", "1SA", 8, 22],
+    ["BHS", "1SA", 9, 27],
+    ["BHS", "1SA", 10, 27],
+    ["BHS", "1SA", 11, 15],
+    ["BHS", "1SA", 12, 25],
+    ["BHS", "1SA", 13, 23],
+    ["BHS", "1SA", 14, 52],
+    ["BHS", "1SA", 15, 35],
+    ["BHS", "1SA", 16, 23],
+    ["BHS", "1SA", 17, 58],
+    ["BHS", "1SA", 18, 30],
+    ["BHS", "1SA", 19, 24],
+    ["BHS", "1SA", 20, 42],
+    ["BHS", "1SA", 21, 16],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -901,6 +943,69 @@ for (const [chapter, versesMap] of Object.entries(expectedJudgesInline)) {
         }
         assert.equal(reconstructed, originalJudgesInlineVerses[chapter + ":" + verse],
             "Reconstrução massorética interna alterada em Juízes " + chapter + ":" + verse);
+    }
+}
+
+const expectedFirstSamuelParashot = {
+    1: {"28":"פ"},
+    2: {"10":"פ","21":"ס","26":"ס","36":"ס"},
+    3: {"1":"ס","3":"פ","5":"ס","10":"פ","18":"פ","21":"פ"},
+    4: {"17":"פ","22":"פ"},
+    5: {"5":"ס","8":"ס"},
+    6: {"14":"ס","16":"ס","17":"ס","20":"ס"},
+    7: {"1":"פ","2":"ס","4":"פ","17":"פ"},
+    8: {"3":"פ","6":"פ","9":"ס","10":"ס","21":"פ","22":"פ"},
+    9: {"14":"ס","20":"ס","21":"ס","27":"פ"},
+    10: {"9":"ס","16":"פ","24":"פ","27":"פ"},
+    11: {"10":"ס","13":"ס","15":"פ"},
+    12: {"5":"פ","17":"ס","19":"ס","25":"פ"},
+    13: {"12":"ס","14":"פ","18":"ס","23":"ס"},
+    14: {"5":"ס","7":"ס","16":"פ","24":"ס","35":"פ","40":"ס","45":"ס","48":"ס","51":"ס","52":"ס"},
+    15: {"1":"ס","3":"ס","9":"פ","15":"ס","16":"ס","19":"ס","23":"ס","26":"ס","31":"ס","32":"ס","33":"ס","35":"פ"},
+    16: {"13":"ס","16":"פ","23":"פ"},
+    17: {"11":"פ","14":"ס","16":"פ","33":"ס","36":"ס","44":"ס","54":"ס","56":"ס"},
+    18: {"5":"פ","9":"ס","13":"פ","16":"פ","17":"ס","24":"פ","27":"ס","29":"ס","30":"ס"},
+    19: {"3":"ס","7":"ס","10":"פ","13":"ס","14":"פ","24":"פ"},
+    20: {"4":"פ","8":"פ","9":"ס","10":"ס","11":"ס","17":"ס","23":"ס","26":"ס","29":"ס","31":"ס","33":"ס","34":"ס","42":"פ"},
+    21: {"5":"פ","9":"ס","16":"ס"}
+};
+for (const [chapter, expected] of Object.entries(expectedFirstSamuelParashot)) {
+    const actual = window.ScripturaScriptureParashahTypes.BHS["1SA"][chapter];
+    assert.equal(JSON.stringify(actual), JSON.stringify(expected),
+        "Parashah incorreta em 1º Samuel " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS["1SA"][chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em 1º Samuel " + chapter);
+}
+const expectedFirstSamuelInline = {
+    10: {"18":[{"offset":36,"type":"פ"}],"22":[{"offset":57,"type":"ס"}]},
+    14: {"12":[{"offset":133,"type":"פ"}],"19":[{"offset":118,"type":"פ"}],"36":[{"offset":184,"type":"ס"}]},
+    16: {"2":[{"offset":68,"type":"ס"}],"12":[{"offset":83,"type":"פ"}]},
+    17: {"37":[{"offset":133,"type":"ס"}]},
+    20: {"27":[{"offset":72,"type":"ס"}]}
+};
+const originalFirstSamuelInlineVerses = {
+    "10:18": "וַיֹּ֣אמֶר ׀ אֶל־בְּנֵ֣י יִשְׂרָאֵ֗ל פ\nכֹּֽה־אָמַ֤ר יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל אָנֹכִ֛י הֶעֱלֵ֥יתִי אֶת־יִשְׂרָאֵ֖ל מִמִּצְרָ֑יִם וָאַצִּ֤יל אֶתְכֶם֙ מִיַּ֣ד מִצְרַ֔יִם וּמִיַּד֙ כָּל־הַמַּמְלָכ֔וֹת הַלֹּחֲצִ֖ים אֶתְכֶֽם׃",
+    "10:22": "וַיִּשְׁאֲלוּ־עוֹד֙ בַּֽיהוָ֔ה הֲבָ֥א ע֖וֹד הֲלֹ֣ם אִ֑ישׁ ס\nוַיֹּ֣אמֶר יְהוָ֔ה הִנֵּה־ה֥וּא נֶחְבָּ֖א אֶל־הַכֵּלִֽים׃",
+    "14:12": "וַיַּעֲנוּ֩ אַנְשֵׁ֨י הַמַּצָּבָ֜ה אֶת־יוֹנָתָ֣ן ׀ וְאֶת־נֹשֵׂ֣א כֵלָ֗יו וַיֹּֽאמְרוּ֙ עֲל֣וּ אֵלֵ֔ינוּ וְנוֹדִ֥יעָה אֶתְכֶ֖ם דָּבָ֑ר פ\nוַיֹּ֨אמֶר יוֹנָתָ֜ן אֶל־נֹשֵׂ֤א כֵלָיו֙ עֲלֵ֣ה אַחֲרַ֔י כִּֽי־נְתָנָ֥ם יְהוָ֖ה בְּיַ֥ד יִשְׂרָאֵֽל׃",
+    "14:19": "וַיְהִ֗י עַ֣ד דִּבֶּ֤ר שָׁאוּל֙ אֶל־הַכֹּהֵ֔ן וְהֶהָמ֗וֹן אֲשֶׁר֙ בְּמַחֲנֵ֣ה פְלִשְׁתִּ֔ים וַיֵּ֥לֶךְ הָל֖וֹךְ וָרָ֑ב פ\nוַיֹּ֧אמֶר שָׁא֛וּל אֶל־הַכֹּהֵ֖ן אֱסֹ֥ף יָדֶֽךָ׃",
+    "14:36": "וַיֹּ֣אמֶר שָׁא֡וּל נֵרְדָ֣ה אַחֲרֵי֩ פְלִשְׁתִּ֨ים ׀ לַ֜יְלָה וְֽנָבֹ֥זָה בָהֶ֣ם ׀ עַד־א֣וֹר הַבֹּ֗קֶר וְלֹֽא־נַשְׁאֵ֤ר בָּהֶם֙ אִ֔ישׁ וַיֹּ֣אמְר֔וּ כָּל־הַטּ֥וֹב בְּעֵינֶ֖יךָ עֲשֵׂ֑ה ס\nוַיֹּ֨אמֶר֙ הַכֹּהֵ֔ן נִקְרְבָ֥ה הֲלֹ֖ם אֶל־הָאֱלֹהִֽים׃",
+    "16:2": "וַיֹּ֤אמֶר שְׁמוּאֵל֙ אֵ֣יךְ אֵלֵ֔ךְ וְשָׁמַ֥ע שָׁא֖וּל וַהֲרָגָ֑נִי ס\nוַיֹּ֣אמֶר יְהוָ֗ה עֶגְלַ֤ת בָּקָר֙ תִּקַּ֣ח בְּיָדֶ֔ךָ וְאָ֣מַרְתָּ֔ לִזְבֹּ֥חַ לַֽיהוָ֖ה בָּֽאתִי׃",
+    "16:12": "וַיִּשְׁלַ֤ח וַיְבִיאֵ֨הוּ֙ וְה֣וּא אַדְמוֹנִ֔י עִם־יְפֵ֥ה עֵינַ֖יִם וְט֣וֹב רֹ֑אִי פ\nוַיֹּ֧אמֶר יְהוָ֛ה ק֥וּם מְשָׁחֵ֖הוּ כִּֽי־זֶ֥ה הֽוּא׃",
+    "17:37": "וַיֹּאמֶר֮ דָּוִד֒ יְהוָ֗ה אֲשֶׁ֨ר הִצִּלַ֜נִי מִיַּ֤ד הָֽאֲרִי֙ וּמִיַּ֣ד הַדֹּ֔ב ה֣וּא יַצִּילֵ֔נִי מִיַּ֥ד הַפְּלִשְׁתִּ֖י הַזֶּ֑ה ס\nוַיֹּ֨אמֶר שָׁא֤וּל אֶל־דָּוִד֙ לֵ֔ךְ וַֽיהוָ֖ה יִהְיֶ֥ה עִמָּֽךְ׃",
+    "20:27": "וַיְהִ֗י מִֽמָּחֳרַ֤ת הַחֹ֨דֶשׁ֙ הַשֵּׁנִ֔י וַיִּפָּקֵ֖ד מְק֣וֹם דָּוִ֑ד ס\nוַיֹּ֤אמֶר שָׁאוּל֙ אֶל־יְהוֹנָתָ֣ן בְּנ֔וֹ מַדּ֜וּעַ לֹא־בָ֧א בֶן־יִשַׁ֛י גַּם־תְּמ֥וֹל גַּם־הַיּ֖וֹם אֶל־הַלָּֽחֶם׃"
+};
+for (const [chapter, byVerse] of Object.entries(expectedFirstSamuelInline)) {
+    assert.equal(JSON.stringify(window.ScripturaScriptureInlineParashahTypes.BHS["1SA"][chapter]),
+        JSON.stringify(byVerse), "Marcadores internos incorretos em 1º Samuel " + chapter);
+    for (const [verse, markers] of Object.entries(byVerse)) {
+        let restored = window.ScripturaScriptureTexts.BHS["1SA"][chapter][verse];
+        for (let i = markers.length - 1; i >= 0; i--) {
+            const mark = markers[i];
+            restored = restored.slice(0, mark.offset) + " " + mark.type + restored.slice(mark.offset);
+        }
+        assert.equal(restored, originalFirstSamuelInlineVerses[chapter + ":" + verse],
+            "Quebra interna alterada em 1º Samuel " + chapter + ":" + verse);
     }
 }
 
