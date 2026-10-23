@@ -62,6 +62,16 @@ const sourceFiles = [
     "scriptures/texts/bhs-genesis-48.js",
     "scriptures/texts/bhs-genesis-49.js",
     "scriptures/texts/bhs-genesis-50.js",
+    "scriptures/texts/bhs-exodus-1.js",
+    "scriptures/texts/bhs-exodus-2.js",
+    "scriptures/texts/bhs-exodus-3.js",
+    "scriptures/texts/bhs-exodus-4.js",
+    "scriptures/texts/bhs-exodus-5.js",
+    "scriptures/texts/bhs-exodus-6.js",
+    "scriptures/texts/bhs-exodus-7.js",
+    "scriptures/texts/bhs-exodus-8.js",
+    "scriptures/texts/bhs-exodus-9.js",
+    "scriptures/texts/bhs-exodus-10.js",
     "scriptures/texts/lxx-genesis-1.js",
     "scriptures/texts/na28-matthew-1.js",
     "scriptures/texts/ubs5-matthew-1.js",
@@ -136,6 +146,16 @@ const chapters = [
     ["BHS", "GEN", 48, 22],
     ["BHS", "GEN", 49, 33],
     ["BHS", "GEN", 50, 26],
+    ["BHS", "EXO", 1, 22],
+    ["BHS", "EXO", 2, 25],
+    ["BHS", "EXO", 3, 22],
+    ["BHS", "EXO", 4, 31],
+    ["BHS", "EXO", 5, 23],
+    ["BHS", "EXO", 6, 30],
+    ["BHS", "EXO", 7, 29],
+    ["BHS", "EXO", 8, 28],
+    ["BHS", "EXO", 9, 35],
+    ["BHS", "EXO", 10, 29],
     ["LXX", "GEN", 1, 31],
     ["NA28", "MAT", 1, 25],
     ["UBS5", "MAT", 1, 25],
@@ -220,6 +240,27 @@ for (const [chapter, expected] of Object.entries(expectedParashot)) {
         JSON.stringify(Object.keys(expected).map(Number)),
         "Posições de parashah incorretas em Gênesis " + chapter);
 }
+const expectedExodusParashot = {
+    1: {"7":"פ","22":"ס"},
+    2: {"22":"פ","25":"ס"},
+    3: {},
+    4: {"17":"פ","26":"פ"},
+    5: {},
+    6: {"1":"ס","9":"פ","12":"פ","13":"ס","28":"פ","30":"פ"},
+    7: {"7":"פ","13":"פ","18":"ס","25":"פ"},
+    8: {"11":"ס","15":"ס","28":"פ"},
+    9: {"7":"פ","12":"ס","21":"פ","35":"פ"},
+    10: {"11":"פ","20":"פ","29":"פ"}
+};
+for (const [chapter, expected] of Object.entries(expectedExodusParashot)) {
+    const typeMap = window.ScripturaScriptureParashahTypes.BHS.EXO[chapter];
+    assert.equal(JSON.stringify(typeMap), JSON.stringify(expected),
+        "Tipos de parashah incorretos em Êxodo " + chapter);
+    assert.equal(JSON.stringify(window.ScripturaScriptureParagraphBreaks.BHS.EXO[chapter]),
+        JSON.stringify(Object.keys(expected).map(Number)),
+        "Posições de parashah incorretas em Êxodo " + chapter);
+}
+
 const inlineGen35 = window.ScripturaScriptureInlineParashahTypes.BHS.GEN[35][22];
 assert.equal(inlineGen35.length, 1);
 assert.equal(inlineGen35[0].type, "פ");

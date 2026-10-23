@@ -115,6 +115,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Décima segunda incorporação textual:** Gênesis 31–40 (BHS), **322 versículos**, completando o intervalo que permanecia pendente. Preservadas 14 marcas de parashah, inclusive **פ dentro de Gênesis 35:22** com tratamento especial no leitor. **Acumulado BHS Gênesis: 50/50 capítulos (100%), 1.533 versículos**. O cotejo da edição impressa, a avaliação de direitos e a homologação editorial permanecem pendentes.
 
+**Décima terceira incorporação textual:** Êxodo 1–10 (BHS), **274 versículos** e **26 marcas de *parashah*** (18 פ e 8 ס), a partir da transcrição hebraica fornecida pelo usuário, sem normalização ou emendas. Incluídos os dez módulos de capítulos, seus links de carregamento, testes de contagem/segmentação/posições de *parashot* e documentação. **Acumulado: Gênesis 50/50 capítulos (1.533 versículos), Êxodo 10/40 (274), total BHS de 1.807 versículos.** Edição impressa, licença e homologação filológica permanecem pendentes.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas

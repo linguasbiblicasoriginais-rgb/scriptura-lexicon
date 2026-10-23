@@ -305,6 +305,28 @@ Em **Gênesis 35:22**, a marca פ foi fornecida **no interior do versículo**, e
 
 O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento em `index.html`, a adaptação do leitor e os testes de regressão. **Gênesis: 50/50 capítulos (100% de cobertura textual fornecida), 1.533 versículos.** O número de capítulos incorporados não implica cotejo impresso, homologação filológica, licença de redistribuição ou publicação em produção.
 
+## Incorporação textual 013 — Êxodo 1–10 (BHS)
+
+**Procedência:** texto hebraico integral fornecido pelo usuário, sem extração do portal da editora. A transcrição conserva grafia, *niqqud*, *teʿamim*, pontuação massorética e ordem dos pontos de código Unicode, sem emendas, normalização ou tradução. A numeração de Êxodo 7:26–29 corresponde à fonte recebida e não foi adaptada a outras tradições de versificação.
+
+| Capítulo | Versículos | Marcas de *parashah* após versículos |
+| --- | ---: | --- |
+| 1 | 22 | 7 פ; 22 ס |
+| 2 | 25 | 22 פ; 25 ס |
+| 3 | 22 | Nenhuma explicitada no material |
+| 4 | 31 | 17 פ; 26 פ |
+| 5 | 23 | Nenhuma explicitada no material |
+| 6 | 30 | 1 ס; 9 פ; 12 פ; 13 ס; 28 פ; 30 פ |
+| 7 | 29 | 7 פ; 13 פ; 18 ס; 25 פ |
+| 8 | 28 | 11 ס; 15 ס; 28 פ |
+| 9 | 35 | 7 פ; 12 ס; 21 פ; 35 פ |
+| 10 | 29 | 11 פ; 20 פ; 29 פ |
+| **Total** | **274** | **18 פ e 8 ס** |
+
+**Integração:** arquivos `scriptures/texts/bhs-exodus-1.js` a `bhs-exodus-10.js`, registrados no leitor antes de `scriptures/reader.js`, com os mapas `ScripturaScriptureTexts.BHS.EXO`, `ScripturaScriptureParagraphBreaks.BHS.EXO` e `ScripturaScriptureParashahTypes.BHS.EXO`. Foram ampliadas a matriz de contagens, a verificação de segmentação/lexicografia por palavra e a de `פ`/`ס` em `tests/scripture-word-popups.test.cjs`.
+
+**Cobertura:** Êxodo **10/40 capítulos (25%)**, **274 versículos**; somados aos **1.533 versículos de Gênesis 1–50**, são **1.807 versículos** incorporados na camada BHS. Os capítulos Êxodo 11–40 continuam sem transcrição incorporada. A verificação dos direitos de publicação, o cotejo com a BHS impressa e os testes reais de navegador continuam independentes deste trabalho técnico.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
