@@ -99,6 +99,22 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Estrutura da Vulgata:** 78 entradas de navegação (39 no Antigo Testamento, 27 no Novo Testamento e 12 na seção de apócrifos informada). **Quinta incorporação textual:** Gênesis 1 (VUL), com **31 versículos latinos** fornecidos pelo usuário e integrados ao leitor na branch `chat-gpt-escrituras`, conservando as quebras internas. A confirmação da edição impressa permanece pendente.
 
+**Sexta incorporação textual:** Gênesis 2 (BHS), com **25 versículos hebraicos** enviados pelo usuário, preservando *niqqud*, acentos massoréticos e a marcação **פ** após o versículo 3. Registrado de modo independente de Gênesis 1; cotejo impresso pendente.
+
+**Popups lexicais por palavra:** os textos bíblicos incorporados contam com consulta interativa de cada palavra, transliteração mecânica para hebraico e grego e minidicionário editorial introdutório de **cobertura parcial**; palavras sem glosa validada são identificadas explicitamente. O texto canônico permanece inalterado, e não são atribuídos verbetes automaticamente aos léxicos de referência.
+
+**Sétima incorporação textual:** Gênesis 3–10 (BHS), **oito capítulos e 211 versículos** fornecidos pelo usuário, com *niqqud*, acentos de cantilação, caracteres originais e **26 sinais de parashah** (10 פ abertas e 16 ס fechadas) em metadados. Os dez primeiros capítulos de Gênesis na BHS somam agora **267 versículos**; popups por palavra e testes de regressão abrangem o novo lote. O cotejo independente com a edição impressa permanece pendente.
+
+**Oitava incorporação textual:** Gênesis 11–16 (BHS), **131 versículos**, com marcas de parashah registradas em metadados e os capítulos anteriormente pendentes 14 e 16 finalmente incorporados. Transcrição hebraica literal fornecida pelo usuário, sem cotejo impresso independente.
+
+**Nona incorporação textual:** Gênesis 17–20 (BHS), **116 versículos**, preservando pontuação, *niqqud*, cantilação e sinais especiais. Capítulo 17: 14 ס e 27 פ; Gênesis 18: sem marca informada; Gênesis 19: 38 ס; Gênesis 20: 18 ס. Arquivos integrados ao leitor e abrangidos pela suíte de testes de texto/popups/parashot. **Acumulado BHS Gênesis: 20/50 capítulos, 514 versículos**, sujeito a cotejo filológico e avaliação de direitos de distribuição.
+
+**Décima incorporação textual:** Gênesis 21–30 (BHS), **360 versículos**, em dez arquivos independentes com *niqqud*, *teʿamim*, grafia e pontuação hebraica, sem normalização ou emendas. Foram preservadas **12 marcas de parashah** (5 פ abertas, 7 ס fechadas) fora das cadeias versiculares. O leitor e o teste de regressão foram ampliados aos dez capítulos. **Acumulado BHS Gênesis: 30/50 capítulos (60%), 874 versículos**. Cotejo com a edição impressa, direitos de distribuição e ensaio visual permanecem pendentes.
+
+**Décima primeira incorporação textual:** Gênesis 41–50 (BHS), **337 versículos**, transcritos literalmente do material fornecido pelo usuário, com 14 marcas massoréticas de *parashah* (7 פ e 7 ס). Integrados ao leitor e ampliada a suíte de regressão. **Acumulado BHS Gênesis: 40/50 capítulos (80%), 1.211 versículos**; capítulos 31–40 ainda não incorporados, sem inferir continuidade. Publicação e cotejo editorial continuam pendentes.
+
+**Décima segunda incorporação textual:** Gênesis 31–40 (BHS), **322 versículos**, completando o intervalo que permanecia pendente. Preservadas 14 marcas de parashah, inclusive **פ dentro de Gênesis 35:22** com tratamento especial no leitor. **Acumulado BHS Gênesis: 50/50 capítulos (100%), 1.533 versículos**. O cotejo da edição impressa, a avaliação de direitos e a homologação editorial permanecem pendentes.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
