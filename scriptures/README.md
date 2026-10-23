@@ -283,6 +283,28 @@ Os textos estão em `scriptures/texts/bhs-genesis-17.js` a `bhs-genesis-20.js`, 
 
 **Progresso na branch:** **40 de 50 capítulos (80%)** e **1.211 versículos** incorporados, considerando Gênesis 1–30 e 41–50. A sequência 31–40 permanece ausente; o percentual representa cobertura, não continuidade. A edição impressa, direitos de distribuição, execução dos testes de navegador e cotejo filológico ainda exigem verificação independente.
 
+## Incorporação textual 012 — Gênesis 31–40 (BHS)
+
+**Origem:** transcrição fornecida pelo usuário no lote anterior, incorporada depois dos capítulos 41–50. Nenhuma correção silenciosa, variante inventada ou normalização Unicode.
+
+| Capítulo | Versículos | Marcas de *parashah* |
+| --- | ---: | --- |
+| 31 | 54 | Nenhuma explicitada no material |
+| 32 | 33 | 3 פ |
+| 33 | 20 | 17 ס; 20 ס |
+| 34 | 31 | 31 פ |
+| 35 | 29 | 8 פ; 22 פ (interna ao versículo); 29 פ |
+| 36 | 43 | 19 ס; 30 פ; 43 פ |
+| 37 | 36 | 36 פ |
+| 38 | 30 | 30 ס |
+| 39 | 23 | 23 ס |
+| 40 | 23 | 23 פ |
+| **Total** | **322** | **9 פ e 5 ס** |
+
+Em **Gênesis 35:22**, a marca פ foi fornecida **no interior do versículo**, entre a oração sobre Rúben e a frase `וַיִּֽהְי֥וּ בְנֵֽי־יַעֲקֹ֖ב`. A marca e sua posição são preservadas no metadado `ScripturaScriptureInlineParashahTypes`; o leitor apresenta o sinal no ponto correto, sem tratá-lo como vocábulo. A reconstrução restitui literalmente a sequência fornecida, inclusive quebra de linha.
+
+O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento em `index.html`, a adaptação do leitor e os testes de regressão. **Gênesis: 50/50 capítulos (100% de cobertura textual fornecida), 1.533 versículos.** O número de capítulos incorporados não implica cotejo impresso, homologação filológica, licença de redistribuição ou publicação em produção.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1

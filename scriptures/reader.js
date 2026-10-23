@@ -151,6 +151,7 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
         const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const sectionBreakSet = new Set(sectionBreaks.map(Number));
         const parashahTypes = window.ScripturaScriptureParashahTypes?.[state.edition]?.[state.bookId]?.[state.chapter] || {};
+        const inlineParashahTypes = window.ScripturaScriptureInlineParashahTypes?.[state.edition]?.[state.bookId]?.[state.chapter] || {};
         const editorialSeparators = window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
         const editorialSeparatorSet = new Set(editorialSeparators.map(Number));
         const headings = window.ScripturaScriptureHeadings?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
@@ -196,11 +197,37 @@ const rawCatalog = {"BHS":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|�
             const passage = document.createElement("bdi");
             passage.lang = state.edition === "BHS" ? "he" : state.edition === "VUL" ? "la" : "grc";
             passage.dir = state.edition === "BHS" ? "rtl" : "ltr";
-            if (wordUI) {
-                wordUI.decorate(passage, content, {
-                    edition: state.edition,
-                    reference: selectedBookName() + " " + state.chapter + ":" + number
+            const textOptions = {
+                edition: state.edition,
+                reference: selectedBookName() + " " + state.chapter + ":" + number
+            };
+            const inline = inlineParashahTypes[number] || [];
+            if (inline.length) {
+                let cursor = 0;
+                const appendText = function (text) {
+                    if (!text) return;
+                    const part = document.createElement("span");
+                    if (wordUI) wordUI.decorate(part, text, textOptions);
+                    else part.textContent = text;
+                    passage.append(part);
+                };
+                inline.forEach(function (marker) {
+                    const offset = Number(marker.offset);
+                    if (!Number.isInteger(offset) || offset < cursor || offset > content.length) return;
+                    appendText(content.slice(cursor, offset));
+                    const parashah = document.createElement("span");
+                    parashah.className = "scripture-inline-parashah";
+                    parashah.lang = "he";
+                    parashah.textContent = " " + (marker.type === "ס" ? "ס" : "פ");
+                    parashah.setAttribute("aria-label", marker.type === "ס" ?
+                        "ס — parashah interna, seção fechada" :
+                        "פ — parashah interna, seção aberta");
+                    passage.append(parashah);
+                    cursor = offset;
                 });
+                appendText(content.slice(cursor));
+            } else if (wordUI) {
+                wordUI.decorate(passage, content, textOptions);
             } else passage.textContent = content;
             para.append(count, passage);
             textRegion.append(para);

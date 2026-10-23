@@ -42,6 +42,16 @@ const sourceFiles = [
     "scriptures/texts/bhs-genesis-28.js",
     "scriptures/texts/bhs-genesis-29.js",
     "scriptures/texts/bhs-genesis-30.js",
+    "scriptures/texts/bhs-genesis-31.js",
+    "scriptures/texts/bhs-genesis-32.js",
+    "scriptures/texts/bhs-genesis-33.js",
+    "scriptures/texts/bhs-genesis-34.js",
+    "scriptures/texts/bhs-genesis-35.js",
+    "scriptures/texts/bhs-genesis-36.js",
+    "scriptures/texts/bhs-genesis-37.js",
+    "scriptures/texts/bhs-genesis-38.js",
+    "scriptures/texts/bhs-genesis-39.js",
+    "scriptures/texts/bhs-genesis-40.js",
     "scriptures/texts/bhs-genesis-41.js",
     "scriptures/texts/bhs-genesis-42.js",
     "scriptures/texts/bhs-genesis-43.js",
@@ -106,6 +116,16 @@ const chapters = [
     ["BHS", "GEN", 28, 22],
     ["BHS", "GEN", 29, 35],
     ["BHS", "GEN", 30, 43],
+    ["BHS", "GEN", 31, 54],
+    ["BHS", "GEN", 32, 33],
+    ["BHS", "GEN", 33, 20],
+    ["BHS", "GEN", 34, 31],
+    ["BHS", "GEN", 35, 29],
+    ["BHS", "GEN", 36, 43],
+    ["BHS", "GEN", 37, 36],
+    ["BHS", "GEN", 38, 30],
+    ["BHS", "GEN", 39, 23],
+    ["BHS", "GEN", 40, 23],
     ["BHS", "GEN", 41, 57],
     ["BHS", "GEN", 42, 38],
     ["BHS", "GEN", 43, 34],
@@ -171,6 +191,16 @@ const expectedParashot = {
     28: {9:"ס"},
     29: {},
     30: {},
+    31: {},
+    32: {"3":"פ"},
+    33: {"17":"ס","20":"ס"},
+    34: {"31":"פ"},
+    35: {"8":"פ","29":"פ"},
+    36: {"19":"ס","30":"פ","43":"פ"},
+    37: {"36":"פ"},
+    38: {"30":"ס"},
+    39: {"23":"ס"},
+    40: {"23":"פ"},
     41: {},
     42: {},
     43: {},
@@ -190,5 +220,14 @@ for (const [chapter, expected] of Object.entries(expectedParashot)) {
         JSON.stringify(Object.keys(expected).map(Number)),
         "Posições de parashah incorretas em Gênesis " + chapter);
 }
+const inlineGen35 = window.ScripturaScriptureInlineParashahTypes.BHS.GEN[35][22];
+assert.equal(inlineGen35.length, 1);
+assert.equal(inlineGen35[0].type, "פ");
+const verse35_22 = window.ScripturaScriptureTexts.BHS.GEN[35][22];
+const reconstructed35_22 = verse35_22.slice(0, inlineGen35[0].offset) +
+    " פ" + verse35_22.slice(inlineGen35[0].offset);
+assert.ok(reconstructed35_22.includes("וַיִּשְׁמַ֖ע יִשְׂרָאֵֽ֑ל פ\\nוַיִּֽהְי֥וּ בְנֵֽי־יַעֲקֹ֖ב".replace("\\n", "\n")),
+    "Posição interna da parashah Gênesis 35:22 alterada");
+
 console.log("OK: " + chapters.length + " capítulos, " + words +
     " ocorrências vocabulares, integridade preservada.");

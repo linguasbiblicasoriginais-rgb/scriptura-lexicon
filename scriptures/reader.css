@@ -194,6 +194,7 @@
     direction: ltr;
 }
 .scripture-verse-line bdi[lang="he"] {
+    white-space: pre-line;
     font-family: "Noto Serif Hebrew",serif;
     font-size: 1.3rem;
 }
@@ -231,6 +232,11 @@
     padding: 3px 10px 9px;
     color: var(--text-muted);
     border-bottom: 1px solid var(--border-soft);
+}
+
+.scripture-inline-parashah {
+    color: var(--text-muted);
+    font-weight: 600;
 }
 
 /* LXX — separadores editoriais independentes do texto grego. */
