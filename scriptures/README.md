@@ -415,6 +415,35 @@ O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento
 
 **Cobertura:** Levítico **10 de 27 capítulos (37,0%)**, com **252 versículos**. A camada BHS passa a totalizar **2.998 versículos em 100 capítulos** (Gênesis 1–50, Êxodo 1–40 e Levítico 1–10). Levítico 11–27 permanece pendente. Não houve homologação filológica, avaliação conclusiva de direitos de publicação, teste de navegador nem execução da suíte Node.js nesta operação.
 
+## Incorporação textual 018 — Levítico 11–27 (BHS)
+
+**Procedência:** transcrição hebraica integral fornecida pelo usuário em 23/10/2026, identificada como BHS. Preservaram-se literalmente consoantes, *niqqud*, *teʿamim*, *maqaf*, *paseq*, *sof pasuq*, grafias particulares e sequência de pontos de código Unicode, sem normalização, correção editorial ou cotejo independente com a edição impressa. As letras isoladas פ e ס após o versículo são registradas apenas em metadados de *parashah*; a ausência de sinal nos encerramentos de Levítico 25 e 27 também foi preservada.
+
+| Capítulo | Versículos | Marcas de *parashah* após os versículos |
+| --- | ---: | --- |
+| 11 | 47 | 20 ס; 28 ס; 38 ס; 47 פ |
+| 12 | 8 | 8 פ |
+| 13 | 59 | 8 פ; 17 פ; 23 ס; 28 פ; 37 ס; 39 ס; 46 ס; 59 פ |
+| 14 | 57 | 20 ס; 32 פ; 57 ס |
+| 15 | 33 | 15 ס; 17 פ; 24 פ; 33 פ |
+| 16 | 34 | 34 פ |
+| 17 | 16 | 12 ס; 16 פ |
+| 18 | 30 | 5 ס; 6 ס; 7 ס; 8 ס; 9 ס; 10 ס; 11 ס; 12 ס; 13 ס; 14 ס; 15 ס; 16 ס; 30 פ |
+| 19 | 37 | 19 פ; 22 פ; 32 פ; 37 פ |
+| 20 | 27 | 27 פ |
+| 21 | 24 | 9 ס; 15 פ; 24 פ |
+| 22 | 33 | 13 ס; 16 פ; 25 פ; 33 פ |
+| 23 | 44 | 3 פ; 8 פ; 14 ס; 22 ס; 25 ס; 32 פ; 44 פ |
+| 24 | 23 | 4 פ; 9 ס; 12 פ; 23 פ |
+| 25 | 55 | 7 ס; 24 ס; 34 ס; 38 ס; 46 ס |
+| 26 | 46 | 2 ס; 13 פ; 17 ס; 26 ס; 46 פ |
+| 27 | 34 | 8 ס; 25 ס |
+| **Total** | **607** | **32 פ e 39 ס** |
+
+**Integração:** arquivos `scriptures/texts/bhs-leviticus-11.js` a `bhs-leviticus-27.js`, carregados antes de `scriptures/reader.js`, com armazenamento independente em `ScripturaScriptureTexts.BHS.LEV`, `ScripturaScriptureParagraphBreaks.BHS.LEV` e `ScripturaScriptureParashahTypes.BHS.LEV`. A matriz de contagens e as verificações de *parashah* em `tests/scripture-word-popups.test.cjs` foram ampliadas até o capítulo 27.
+
+**Cobertura atualizada:** Levítico **27/27 capítulos (100%)**, **859 versículos** (1–27). Com Gênesis **1.533** e Êxodo **1.213**, a camada BHS conta **3.605 versículos em 117 capítulos**. Para prosseguir no Pentateuco, faltam Números e Deuteronômio. Estes controles estruturais não equivalem a homologação filológica, avaliação de direitos de publicação, cotejo impresso nem execução dos testes de navegador/Node.js.
+
 ## Fontes e licenciamento
 
 - BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
