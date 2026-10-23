@@ -109,6 +109,8 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Nona incorporação textual:** Gênesis 17–20 (BHS), **116 versículos**, preservando pontuação, *niqqud*, cantilação e sinais especiais. Capítulo 17: 14 ס e 27 פ; Gênesis 18: sem marca informada; Gênesis 19: 38 ס; Gênesis 20: 18 ס. Arquivos integrados ao leitor e abrangidos pela suíte de testes de texto/popups/parashot. **Acumulado BHS Gênesis: 20/50 capítulos, 514 versículos**, sujeito a cotejo filológico e avaliação de direitos de distribuição.
 
+**Décima incorporação textual:** Gênesis 21–30 (BHS), **360 versículos**, em dez arquivos independentes com *niqqud*, *teʿamim*, grafia e pontuação hebraica, sem normalização ou emendas. Foram preservadas **12 marcas de parashah** (5 פ abertas, 7 ס fechadas) fora das cadeias versiculares. O leitor e o teste de regressão foram ampliados aos dez capítulos. **Acumulado BHS Gênesis: 30/50 capítulos (60%), 874 versículos**. Cotejo com a edição impressa, direitos de distribuição e ensaio visual permanecem pendentes.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
