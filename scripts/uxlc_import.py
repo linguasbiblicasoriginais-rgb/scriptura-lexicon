@@ -92,37 +92,49 @@ def verse_tokens(node,name,c,v):
             # XML UXLC representa parashot abertas por <pe/> e fechadas por
             # <samekh/>. Compatibilidade explícita com tags hebraicas.
             events.append(("mark",{"pe":"פ","samekh":"ס"}.get(t,t)))
-        elif t=="׆":
-            events.append(("word",word_text(x) or "׆"))
+        elif t in ("reversednun","׆"):
+            # Sinal massorético de nun invertido, Unicode U+05C6.
+            # É um elemento próprio do XML, não uma palavra nem uma parashah.
+            value=word_text(x) or "׆"
+            need(value=="׆",f"Nun invertido inesperado em {name} {c}:{v}: {value!r}")
+            events.append(("glyph",value))
         elif t=="x":
             pass  # Nota editorial não é texto bíblico licenciável.
         else:
             raise RuntimeError(f"Elemento XML desconhecido em {name} {c}:{v}: {t}")
     need(any(k=="word" for k,_ in events),f"Versículo sem palavra: {name} {c}:{v}")
-    parts=[];marks=[]
+    parts=[];marks=[];reversed_nuns=[]
     for i,(kind,value) in enumerate(events):
-        if kind=="word":
+        if kind in ("word","glyph"):
             if parts and not parts[-1].endswith("־"):
                 parts.append(" ")
+            if kind=="glyph":
+                reversed_nuns.append(units("".join(parts)))
             parts.append(value)
         else:
             marks.append({"offset":units("".join(parts)),"type":value,
                           "terminal":not any(k=="word" for k,_ in events[i+1:])})
-    return "".join(parts),marks,alternatives
+    result="".join(parts)
+    need(all(result.encode("utf-16-le")[offset*2:offset*2+2].decode("utf-16-le")=="׆"
+             for offset in reversed_nuns),f"Offset de nun invertido incorreto: {name} {c}:{v}")
+    return result,marks,alternatives,reversed_nuns
 def parse_book(z,member,name,code,slug,expected):
     root=ET.fromstring(z.read(member))
     chapters=[e for e in root.iter() if local(e.tag)=="c" and e.get("n","").isdigit()]
     need(len(chapters)==expected,f"{name}: capítulos {len(chapters)} != {expected}")
-    result={}; chapter_lengths=[]; pet=setum=variants=0
+    result={}; chapter_lengths=[]; pet=setum=variants=reversed_count=0
     for c,chapter in enumerate(chapters,1):
         need(int(chapter.get("n"))==c,f"{name}: capítulo fora de ordem")
         vv=[e for e in chapter.iter() if local(e.tag)=="v" and e.get("n","").isdigit()]
         need(bool(vv),f"{name} {c}: sem versículos")
-        verses={};typ={};internal={};alternate={}
+        verses={};typ={};internal={};alternate={};reversed_positions={}
         for v,node in enumerate(vv,1):
             need(int(node.get("n"))==v,f"{name} {c}:{v}: numeração XML fora de ordem")
-            text,marks,alts=verse_tokens(node,name,c,v)
+            text,marks,alts,nun_positions=verse_tokens(node,name,c,v)
             verses[str(v)]=text
+            if nun_positions:
+                reversed_positions[str(v)]=nun_positions
+                reversed_count+=len(nun_positions)
             for m in marks:
                 if m["type"]=="פ":pet+=1
                 else:setum+=1
@@ -171,11 +183,20 @@ def parse_book(z,member,name,code,slug,expected):
                 f'window.ScripturaScriptureUXLCVariants.UXLC["{code}"][{c}]='+
                 encoded(alternate)+";"
             ])
+        if reversed_positions:
+            lines.extend([
+                "window.ScripturaScriptureUXLCReversedNunPositions ||= {};",
+                "window.ScripturaScriptureUXLCReversedNunPositions.UXLC ||= {};",
+                f'window.ScripturaScriptureUXLCReversedNunPositions.UXLC["{code}"] ||= {{}};',
+                f'window.ScripturaScriptureUXLCReversedNunPositions.UXLC["{code}"][{c}]='+
+                encoded(reversed_positions)+";"
+            ])
         lines.extend(["})();",""])
         result[path]="\n".join(lines)
     return result,{"name":name,"id":code,"slug":slug,"chapters":expected,
                    "verses":sum(chapter_lengths),"perChapter":chapter_lengths,
-                   "petuchot":pet,"setumot":setum,"variantTokens":variants}
+                   "petuchot":pet,"setumot":setum,"variantTokens":variants,
+                   "reversedNuns":reversed_count}
 def main():
     need(len(sys.argv)==2,"Uso: scripts/uxlc_import.py /caminho/Tanach.xml.zip")
     data=Path(sys.argv[1]).read_bytes()
@@ -185,6 +206,29 @@ def main():
     generated={}; progress=[]
     with zipfile.ZipFile(sys.argv[1]) as z:
         members=z.namelist()
+        # Inspeção exaustiva, antes de produzir qualquer arquivo:
+        # se aparecer tag nova, a importação falha com inventário de fonte.
+        allowed={"w","q","k","pe","samekh","פ","ס","reversednun","׆","x"}
+        unexpected={}
+        book_stems={book_key(alias)
+                    for name,code,slug,chapters in BOOKS
+                    for alias in [name]+ALIASES.get(name,[])}
+        for member in members:
+            if not member.lower().endswith(".xml") or member.lower().endswith(".dh.xml"):
+                continue
+            if book_key(Path(member).stem) not in book_stems:
+                continue
+            root=ET.fromstring(z.read(member))
+            for node in root.iter():
+                if local(node.tag)!="v" or not node.get("n","").isdigit():
+                    continue
+                for child in node:
+                    t=local(child.tag)
+                    if t not in allowed:
+                        unexpected.setdefault(member,{}).setdefault(t,0)
+                        unexpected[member][t]+=1
+        need(not unexpected,"Elementos filhos de versículo ainda não tratados: "+repr(unexpected))
+        print("Inventário XML: todas as tags de versículo reconhecidas.",flush=True)
         for name,code,slug,chapters in BOOKS:
             candidates=[name]+ALIASES.get(name,[])
             candidate_keys={book_key(x) for x in candidates}
@@ -235,6 +279,7 @@ def main():
               "build":"27.7","url":SOURCE,"sha256":digest,"zipBytes":len(data),
               "totalBooks":39,"completedBooks":39,"chapters":929,
               "verses":total,"books":progress,
+              "reversedNuns":sum(x["reversedNuns"] for x in progress),
               "qerePolicy":"qere na leitura; ketiv registrado separadamente",
               "legacyArchived":324}
     verification=r''' "use strict";
@@ -246,7 +291,7 @@ assert.equal(manifest.books.length,39);
 const window={};
 const context=vm.createContext({window});
 vm.runInContext(fs.readFileSync("scriptures/word-popups.js","utf8"),context);
-let chapters=0,verses=0;
+let chapters=0,verses=0,reversedNuns=0;
 for (const book of manifest.books) {
   for (let c=1;c<=book.chapters;c++) {
     const path="scriptures/texts/uxlc-"+book.slug+"-"+c+".js";
@@ -258,11 +303,19 @@ for (const book of manifest.books) {
       assert.equal(window.ScripturaWordPopups.tokenize(value).map(t=>t.text).join(""),value);
       verses++;
     }
+    const perChapter=window.ScripturaScriptureUXLCReversedNunPositions?.UXLC?.[book.id]?.[c] || {};
+    for (const [verse,offsets] of Object.entries(perChapter)) {
+      for (const offset of offsets) {
+        assert.equal(data[verse].slice(offset,offset+1),"׆",path+" nun invertido");
+        reversedNuns++;
+      }
+    }
     chapters++;
   }
 }
 assert.equal(chapters,929);
 assert.equal(verses,manifest.verses);
+assert.equal(reversedNuns,manifest.reversedNuns);
 assert.equal(window.ScripturaScriptureTexts.BHS,undefined);
 assert.equal(window.ScripturaWordPopups.getInfo("UXLC","בְּרֵאשִׁ֖ית").meaning,"no princípio");
 console.log("OK: UXLC",chapters,"capítulos,",verses,"versículos");
@@ -279,7 +332,9 @@ console.log("OK: UXLC",chapters,"capítulos,",verses,"versículos");
       "SHA-256 do ZIP fonte: "+HASH+". Cada palavra XML é copiada sem normalização "
       "Unicode. O texto de leitura representa qere quando disponível e retém "
       "as palavras ketiv em metadados; as marcas פ e ס são registradas com "
-      "sua posição. Espaços entre palavras XML são representação derivada; "
+      "sua posição. Elementos XML reversednun são representados por ׆ "
+      "(U+05C6), com offsets UTF-16 e testes de posição. Espaços entre "
+      "palavras XML são representação derivada; "
       "não se afirma que o módulo JavaScript seja uma transcrição byte a byte "
       "do arquivo XML. Anotações editoriais não foram publicadas.\n\n"
       "## Progresso\n\n"
