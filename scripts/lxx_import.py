@@ -141,7 +141,7 @@ def main():
     need(len(result)==CHAPTERS,f"Módulos gerados divergentes {len(result)}")
     # Testa reconstrução de todas as saídas a partir da fonte antes de escrever.
     for path,content in result.items():
-        need(content.count("window.ScripturaScriptureTexts.LXX")==2,f"Formato JS inválido {path}")
+        need(content.count("window.ScripturaScriptureTexts.LXX")==3,f"Formato JS inválido {path}")
     html_path=ROOT/"index.html"
     html=html_path.read_text(encoding="utf8")
     old_tag='    <script defer src="scriptures/texts/lxx-genesis-1.js"></script>\n'
