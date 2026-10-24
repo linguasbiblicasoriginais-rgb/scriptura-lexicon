@@ -1,0 +1,54 @@
+name: Jerome Latin Vulgate — inspect CrossWire module
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths:
+      - .github/workflows/jerome-source-inspect.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download CrossWire Vulgate PD module
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 \
+            https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Vulgate.zip \
+            -o /tmp/jerome-vulgate.zip
+          sha256sum /tmp/jerome-vulgate.zip
+          unzip -l /tmp/jerome-vulgate.zip | tail -20
+          unzip -oq /tmp/jerome-vulgate.zip -d /tmp/crosswire-source
+          find /tmp/crosswire-source -maxdepth 5 -type f | head -60
+          cat /tmp/crosswire-source/mods.d/vulgate.conf || true
+      - name: Set up the official SWORD export tool
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libsword-utils
+          which mod2imp || true
+          which diatheke || true
+          mod2imp 2>&1 | head -25 || true
+      - name: Export source in SWORD IMP format and inspect
+        run: |
+          set -euo pipefail
+          export SWORD_PATH=/tmp/crosswire-source
+          mod2imp Vulgate > /tmp/vulgate-jerome.imp
+          wc -lc /tmp/vulgate-jerome.imp
+          sha256sum /tmp/vulgate-jerome.imp
+          head -c 7000 /tmp/vulgate-jerome.imp
+          python3 - <<'PY'
+          from pathlib import Path
+          import re,collections
+          data=Path("/tmp/vulgate-jerome.imp").read_text(encoding="utf-8")
+          lines=data.splitlines()
+          refs=[l[2:].strip() for l in lines if l.startswith("$$")]
+          print("IMP_LINE_COUNT",len(lines),"REF_MARKERS",len(refs))
+          print("REFERENCE_FIRST",refs[:15])
+          print("REFERENCE_LAST",refs[-25:])
+          print("REFERENCE_BOOKS",collections.Counter(x.rsplit(" ",1)[0] for x in refs).most_common(110))
+          print("XML_STYLE_MARKERS",len(re.findall(r"<[^>]+>",data)))
+          PY
