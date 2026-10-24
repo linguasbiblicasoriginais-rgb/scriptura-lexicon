@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 10. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][10]={"1":"in finem psalmus David victori David","2":"in Domino confido quomodo dicitis animae meae transmigra in montes sicut passer in Domino speravi quomodo dicitis animae meae transvola in montem ut avis","3":"quoniam ecce peccatores intenderunt arcum paraverunt sagittas suas in faretra ut sagittent in obscuro rectos corde quia ecce impii tetenderunt arcum posuerunt sagittam suam super nervum ut sagittent in abscondito rectos corde","4":"quoniam quae perfecisti destruxerunt iustus autem quid fecit quia leges dissipatae sunt iustus quid operatus est","5":"Dominus in templo sancto suo Dominus in caelo sedis eius oculi eius in pauperem respiciunt palpebrae eius interrogant filios hominum Dominus in templo sancto suo Dominus in caelo thronus eius oculi eius vident palpebrae eius probant filios hominum","6":"Dominus interrogat iustum et impium qui autem diligit iniquitatem odit animam suam Dominus iustum probat impium autem et diligentem iniquitatem odit anima eius","7":"pluet super peccatores laqueos ignis et sulphur et spiritus procellarum pars calicis eorum pluet super peccatores laqueos ignis et sulphur et spiritus tempestatum pars calicis eorum","8":"quoniam iustus Dominus et iustitias dilexit aequitatem vidit vultus eius quoniam iustus Dominus iustitias dilexit rectum videbunt facies eorum"};
+})();

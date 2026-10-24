@@ -10,14 +10,16 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
         TR: "Textus Receptus — Scrivener (1894)",
+        VULJ: "Vulgata Latina — tradição de Jerônimo (CrossWire)",
         VUL: "Biblia Sacra Vulgata Clementina (1598)"
     };
-    const editionOrder = ["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VUL"];
+    const editionOrder = ["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VULJ", "VUL"];
     const catalog = {};
     for (const edition of editionOrder) {
         const source = edition === "UXLC" ? rawCatalog.UXLC :
             edition === "LXX" ? rawCatalog.LXX :
-            edition === "VUL" ? window.ScripturaVulCatalog : rawCatalog.NT;
+            edition === "VUL" ? window.ScripturaVulCatalog :
+            edition === "VULJ" ? window.ScripturaVulJeromeCatalog : rawCatalog.NT;
         catalog[edition] = source.trim().split("\n").map(function (line) {
             const pieces = line.split("|");
             return { group: pieces[0], original: pieces[1], name: pieces[2],
@@ -196,7 +198,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             count.className = "scripture-verse-number";
             count.textContent = String(number) + " ";
             const passage = document.createElement("bdi");
-            passage.lang = state.edition === "UXLC" ? "he" : state.edition === "VUL" ? "la" : "grc";
+            passage.lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
             passage.dir = state.edition === "UXLC" ? "rtl" : "ltr";
             const textOptions = {
                 edition: state.edition,
@@ -266,7 +268,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     }
     function render() {
         const selected = book();
-        const lang = state.edition === "UXLC" ? "he" : state.edition === "VUL" ? "la" : "grc";
+        const lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
         editionSelect.value = state.edition;
         bookSelect.value = state.bookId;
         chapterSelect.value = String(state.chapter);
@@ -299,6 +301,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         renderTexts();
         feedback.textContent = state.edition === "SBLGNT" ? "SBLGNT, edição crítica de Michael W. Holmes (2010), v1.2. © 2010 Society of Biblical Literature e Logos Bible Software. CC BY 4.0. Sinais críticos preservados; aparato armazenado separadamente." : !canLink ?
             (state.edition === "TR" ? "Edição identificada: F. H. A. Scrivener (1894); transcrição digital de Honza Pokorny." :
+            state.edition === "VULJ" ? "Texto latino CrossWire Vulgate 2.1 (domínio público), tradição jeronimiana; não equivale à edição crítica Weber–Gryson." :
             state.edition === "VUL" ? "Texto latino da Vulgata Clementina (1598), eBible latVUC; notas editoriais preservadas separadamente." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
     }
@@ -326,10 +329,10 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         });
     }
     function isScriptureHash() {
-        return /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL)(?:\/|$)/.test(window.location.hash);
+        return /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL)(?:\/|$)/.test(window.location.hash);
     }
     function showFromHash() {
-        const match = /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
+        const match = /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
         if (!match) return false;
         show(match[1], match[2], match[3], match[4], false);
         return true;
