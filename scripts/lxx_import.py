@@ -144,10 +144,13 @@ def main():
         need(content.count("window.ScripturaScriptureTexts.LXX")==3,f"Formato JS inválido {path}")
     html_path=ROOT/"index.html"
     html=html_path.read_text(encoding="utf8")
-    old_tag='    <script defer src="scriptures/texts/lxx-genesis-1.js"></script>\n'
-    need(html.count(old_tag)==1,"Âncora LXX Genesis 1 ausente/duplicada")
-    html=html.replace(old_tag,"".join(
-      '    <script defer src="'+path+'"></script>\n' for path in result))
+    # Reconstrução idempotente da lista de referências LXX.
+    html,removed=re.subn(r'(?m)^[ \t]*<script defer src="scriptures/texts/lxx-[^"]+\.js"></script>\r?\n',"",html)
+    need(removed in (1,len(result)),f"Quantidade inesperada de referências LXX: {removed}")
+    anchor='    <script defer src="scriptures/texts/na28-matthew-1.js"></script>'
+    need(html.count(anchor)==1,"Âncora do NT grego ausente")
+    html=html.replace(anchor,"".join(
+      '    <script defer src="'+path+'"></script>\n' for path in result)+anchor)
     need(html.count('scriptures/texts/lxx-')==len(result),"Referências HTML LXX duplicadas")
     reader_path=ROOT/"scriptures/reader.js"
     reader=reader_path.read_text(encoding="utf8")
@@ -157,8 +160,9 @@ def main():
     # O corpus contém a Oração de Manassés como livro independente.
     entry="Apócrifos|Ἐπιστολὴ Ἰερεμίου|Epístola de Jeremias|1|LJE"
     need(reader.count(entry)==1,"Entrada LJE não encontrada")
-    reader=reader.replace(entry,
-        "Apócrifos|Προσευχὴ Μανασσῆ|Oração de Manassés|1|MAN\\n"+entry)
+    if "Apócrifos|Προσευχὴ Μανασσῆ|Oração de Manassés|1|MAN" not in reader:
+        reader=reader.replace(entry,
+            "Apócrifos|Προσευχὴ Μανασσῆ|Oração de Manassés|1|MAN\\n"+entry)
     manifest={"source":"eBible Brenton Septuagint (Greek)","edition":"LXX Brenton",
          "sourceUrl":SOURCE,"sha256":SHA256,"zipBytes":BYTES,
          "sourceBooks":BOOKS,"outputBooks":len(status),
@@ -169,13 +173,16 @@ def main():
          "note":"Esta edição não representa todas as recensões nem Göttingen/Rahlfs."}
     # Verificação do arquivo demonstrativo preservado antes de substituí-lo.
     old=ROOT/"scriptures/texts/lxx-genesis-1.js"
-    need(old.exists(),"Módulo antigo LXX Genesis 1 ausente")
     archive=ROOT/"scriptures/archive/legacy-pre-brenton-2026-10-24/lxx-genesis-1.js"
-    if archive.exists():
-        need(archive.read_bytes()==old.read_bytes(),"Histórico LXX divergente")
+    if old.exists():
+        if archive.exists():
+            need(archive.read_bytes()==old.read_bytes(),"Histórico LXX divergente")
+        else:
+            archive.parent.mkdir(parents=True,exist_ok=True)
+            archive.write_bytes(old.read_bytes())
+        old.unlink()
     else:
-        archive.parent.mkdir(parents=True,exist_ok=True)
-        archive.write_bytes(old.read_bytes())
+        need(archive.exists(),"Módulo legado e arquivo histórico ausentes")
     for path,content in result.items():
         dest=ROOT/path;dest.parent.mkdir(parents=True,exist_ok=True)
         dest.write_text(content,encoding="utf8")
