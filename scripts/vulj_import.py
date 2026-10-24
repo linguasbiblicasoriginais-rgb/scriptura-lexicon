@@ -112,9 +112,10 @@ def main():
         need(c>=0 and v>=0,f"Capítulo/versículo inválido: {ref}")
         verse,notes,headings=extract_osis(content.strip(),ref)
         if c==0 or v==0:
-            need(not verse,f"Textos canônicos em cabeçalho! {ref}: {verse[:200]}")
+            # Alguns livros (Sirácida) conservam prefácio real no nó 0:0.
+            # Preservá-lo separadamente, sem inventar uma referência 1:0.
             paratext[code].append({"ref":ref,"headings":headings,"notes":notes,
-                                  "rawOSIS":content.strip()})
+                                  "textOutsideVerses":verse,"rawOSIS":content.strip()})
             continue
         bucket=groups.setdefault(code,collections.OrderedDict())
         verse_map=bucket.setdefault(c,collections.OrderedDict())
