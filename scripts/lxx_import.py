@@ -71,10 +71,11 @@ def parse_book(book):
             return
         if t in {"id","h","toc","mt","rem","ide","cl"}: return
         if t in {"d","s"}:
+            # A fonte usa <d> em Salmos, inclusive contendo marcos <v/>.
+            # Percorrer seus filhos: ignorá-los perde a abertura do versículo.
             if current_chapter is not None:
                 headings[current_chapter].append({"type":t,"text":text_only(node)})
-            return
-        if t not in {"p","q","b","w","add","it","bk","wj","nd","em","sc","qs","qt","rq","tl","sig","pn","ord","k","sup","rb","pro","span","bd"}:
+        if t not in {"p","q","b","w","add","it","bk","wj","nd","em","sc","qs","qt","rq","tl","sig","pn","ord","k","sup","rb","pro","span","bd","d","s"}:
             raise RuntimeError(f"Elemento USFX desconhecido: {code} cap={current_chapter} vers={current_verse}, tag={t}, attrs={node.attrib}")
         collect(node.text or "")
         for child in node:
