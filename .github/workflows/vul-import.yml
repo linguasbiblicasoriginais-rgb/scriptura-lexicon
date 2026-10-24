@@ -1,0 +1,72 @@
+name: VUL — importar e publicar Vulgata Clementina
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths: ['scripts/vul_import.py','.github/workflows/vul-import.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: vul-clementine-import-locked
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-melhorias
+          fetch-depth: 1
+      - name: Baixar pacote fixado por SHA-256
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 \
+            https://ebible.org/Scriptures/latVUC_usfx.zip -o /tmp/latVUC_usfx.zip
+      - name: Importar 73 livros e preservar notas
+        run: |
+          set -euo pipefail
+          python3 scripts/vul_import.py /tmp/latVUC_usfx.zip
+      - name: Validar texto, catalogação e popups
+        run: |
+          set -euo pipefail
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+          const m=JSON.parse(fs.readFileSync('scriptures/vul-clementine-progress.json','utf8'));
+          const p=JSON.parse(fs.readFileSync('scriptures/vul-clementine-paratext.json','utf8'));
+          assert.equal(m.totalBooks,73); assert.equal(m.chapters,1334);
+          assert.equal(m.verses,35809); assert.equal(m.notes,13775);
+          assert.equal(Object.keys(p).length,73);
+          let notes=0; for(const book of Object.values(p))notes+=book.notes.length;
+          assert.equal(notes,m.notes);
+          const html=fs.readFileSync('index.html','utf8');
+          const reader=fs.readFileSync('scriptures/reader.js','utf8');
+          assert.ok(reader.includes('Biblia Sacra Vulgata Clementina (1598)'));
+          assert.ok(reader.includes('ScripturaWordPopups?.attach(panel, textRegion)'));
+          const window={},ctx=vm.createContext({window});
+          let chapters=0,verses=0;
+          for(const b of m.books)for(let c=1;c<=b.chapters;c++){
+            const path='scriptures/texts/vul-'+b.slug+'-'+c+'.js';
+            assert.equal(html.split('src="'+path+'"').length-1,1,path);
+            vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
+            const data=window.ScripturaScriptureTexts.VUL[b.id][c];
+            assert.equal(Object.keys(data).length,b.perChapter[c-1],path);
+            for(const text of Object.values(data)){assert.ok(text && !text.includes('\uFFFD'));verses++;}
+            chapters++;
+          }
+          assert.equal(chapters,m.chapters);assert.equal(verses,m.verses);
+          assert.equal(window.ScripturaScriptureTexts.VUL.GEN[1]['1'].includes('In principio'),true);
+          console.log('OK VUL:',m.totalBooks,'livros;',chapters,'capítulos;',verses,'versículos;',notes,'notas.');
+          NODE
+      - name: Publicar somente após todos os testes
+        run: |
+          set -euo pipefail
+          git config user.name 'Scriptura Lexicon'
+          git config user.email 'vul-import@users.noreply.github.com'
+          git add index.html scriptures/reader.js scriptures/catalog-vul.js \
+            scriptures/vul-clementine-progress.json scriptures/vul-clementine-paratext.json \
+            scriptures/archive/legacy-pre-clementina-2026-10-24/
+          git add -A scriptures/texts
+          if git diff --cached --quiet; then echo 'Nenhuma alteração para publicar'; exit 0; fi
+          git commit -m 'Escrituras: incorporar Vulgata Clementina com 73 livros e notas separadas'
+          git push origin HEAD:chat-gpt-melhorias
