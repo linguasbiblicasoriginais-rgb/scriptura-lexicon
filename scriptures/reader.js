@@ -4,7 +4,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
 (function () {
     "use strict";
     const labels = {
-        UXLC: "Unicode/XML Leningrad Codex (UXLC 2.6)",
+        UXLC: "Códice de Leningrado [L/Firkovich B19A]",
         LXX: "Septuaginta (LXX)",
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
