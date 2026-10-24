@@ -1,0 +1,22 @@
+name: TR — inventariar Scrivener 1894
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths: ['scripts/tr_inspect.py','.github/workflows/tr-inspect.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Obter fonte canônica e imutável
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 \
+            https://codeload.github.com/honza/textus-receptus/zip/2bac2dae4a0961c84d6d544a40cbef8b8d8c4e32 \
+            -o /tmp/tr-scrivener-1894.zip
+      - name: Inventariar estrutura, livros e versículos
+        run: python3 scripts/tr_inspect.py /tmp/tr-scrivener-1894.zip
