@@ -26,7 +26,7 @@ script("scriptures/catalog-vul.js");script("scriptures/catalog-vulj.js");
 for(const path of [
 "scriptures/texts/vul-genesis-1.js",
 "scriptures/texts/vulj-genesis-1.js",
-"scriptures/texts/lxx-genesis-1.js",
+"scriptures/texts/lxx-gen-1.js",
 "scriptures/texts/lxx-tob-1.js",
 "scriptures/texts/lxx-wis-1.js",
 "scriptures/texts/vul-esther-10.js",
