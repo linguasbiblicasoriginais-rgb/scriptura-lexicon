@@ -55,7 +55,10 @@ BOOKS=[(name,code,slug,int(chapters)) for name,code,slug,chapters in
 ALIASES={"Samuel 1":["1 Samuel"],"Samuel 2":["2 Samuel"],
          "Kings 1":["1 Kings"],"Kings 2":["2 Kings"],
          "Chronicles 1":["1 Chronicles"],"Chronicles 2":["2 Chronicles"],
-         "Song of Songs":["Song of Solomon"],"Psalms":["Psalm"]}
+         "Song of Songs":["Song of Solomon","Song of songs"],"Psalms":["Psalm"]}
+def book_key(name):
+    """Formas UXLC com underscore ou espaço, sem alterar o nome canônico."""
+    return re.sub(r"[_\s]+"," ",name).casefold().strip()
 def need(test,msg):
     if not test:
         raise RuntimeError(msg)
@@ -85,8 +88,10 @@ def verse_tokens(node,name,c,v):
                 alternatives.append({"kind":t,"text":value})
             if t!="k" or not has_q:
                 events.append(("word",value))
-        elif t in ("פ","ס"):
-            events.append(("mark",t))
+        elif t in ("pe","samekh","פ","ס"):
+            # XML UXLC representa parashot abertas por <pe/> e fechadas por
+            # <samekh/>. Compatibilidade explícita com tags hebraicas.
+            events.append(("mark",{"pe":"פ","samekh":"ס"}.get(t,t)))
         elif t=="׆":
             events.append(("word",word_text(x) or "׆"))
         elif t=="x":
@@ -182,9 +187,14 @@ def main():
         members=z.namelist()
         for name,code,slug,chapters in BOOKS:
             candidates=[name]+ALIASES.get(name,[])
-            matches=[p for p in members if Path(p).stem in candidates
-                     and p.endswith(".xml") and not p.endswith(".DH.xml")]
-            need(len(matches)==1,f"Arquivo do livro {name} não identificado inequivocamente: {matches}")
+            candidate_keys={book_key(x) for x in candidates}
+            matches=[p for p in members
+                     if p.lower().endswith(".xml")
+                     and not p.lower().endswith(".dh.xml")
+                     and book_key(Path(p).stem) in candidate_keys]
+            need(len(matches)==1,
+                 f"Arquivo do livro {name} não identificado inequivocamente: {matches}; "
+                 f"candidatos={candidates}; arquivos XML={list(p for p in members if p.lower().endswith('.xml'))}")
             chunks,status=parse_book(z,matches[0],name,code,slug,chapters)
             need(not generated.keys() & chunks.keys(),"Caminho duplicado")
             generated.update(chunks);progress.append(status)

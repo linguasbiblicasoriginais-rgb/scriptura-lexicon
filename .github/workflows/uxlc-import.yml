@@ -33,17 +33,27 @@ jobs:
           with ZipFile("/tmp/Tanach.xml.zip") as z:
               files = z.namelist()
               print("Arquivos no pacote:", len(files), flush=True)
-              for expected in ("Genesis.xml", "Kings 2.xml", "Chronicles 2.xml"):
-                  matches = [p for p in files if PurePosixPath(p).name == expected]
+              for name in ("Genesis","Kings 2","Chronicles 2"):
+                  key=name.replace(" ","_").casefold()
+                  matches = [p for p in files
+                             if PurePosixPath(p).stem.replace(" ","_").casefold()==key
+                             and p.lower().endswith(".xml")
+                             and not p.lower().endswith(".dh.xml")]
                   if len(matches) != 1:
-                      raise RuntimeError("Arquivo esperado ausente/ambíguo: " + expected + " " + repr(matches))
+                      raise RuntimeError("Arquivo esperado ausente/ambíguo: " + name +
+                                         "; encontrados=" + repr(matches))
                   root = ET.fromstring(z.read(matches[0]))
-                  tags = Counter(e.tag.rsplit("}", 1)[-1] for e in root.iter())
-                  chapters = [e for e in root.iter() if e.tag.rsplit("}", 1)[-1] == "c"]
-                  sample = chapters[0] if chapters else root
-                  print(expected, "capítulos XML:", len(chapters),
-                        "atributos capítulo:", sample.attrib,
-                        "contagens de tags:", dict(tags), flush=True)
+                  chapters = [e for e in root.iter()
+                              if e.tag.rsplit("}",1)[-1] == "c" and e.get("n","").isdigit()]
+                  verse = next((v for v in root.iter() if v.tag.rsplit("}",1)[-1]=="v"),None)
+                  child_tags = Counter(e.tag.rsplit("}", 1)[-1]
+                                       for c in chapters for v in c.iter()
+                                       if v.tag.rsplit("}",1)[-1]=="v"
+                                       for e in v)
+                  print(name, "arquivo:", matches[0],
+                        "capítulos:", len(chapters),
+                        "primeiro versículo:", verse.attrib if verse is not None else None,
+                        "tags filhas de versículos:", dict(child_tags), flush=True)
           PY
       - name: Importar de Gênesis a 2 Crônicas
         run: python3 scripts/uxlc_import.py /tmp/Tanach.xml.zip
