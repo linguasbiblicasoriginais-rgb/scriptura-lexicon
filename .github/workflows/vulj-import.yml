@@ -1,0 +1,90 @@
+name: Jerome Vulgate — importar CrossWire Latin
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths: ['scripts/vulj_import.py','.github/workflows/vulj-import.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: vulj-crosswire-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-melhorias
+          fetch-depth: 1
+      - name: Baixar CrossWire Latin Vulgate v2.1
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 \
+            https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Vulgate.zip \
+            -o /tmp/vulj-source.zip
+      - name: Converter módulo SWORD com ferramenta oficial
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libsword-utils
+          unzip -oq /tmp/vulj-source.zip -d /tmp/vulj-module
+          export SWORD_PATH=/tmp/vulj-module
+          mod2imp Vulgate > /tmp/vulj-source.imp
+      - name: Importar texto e preservar anotações OSIS
+        run: |
+          set -euo pipefail
+          python3 scripts/vulj_import.py /tmp/vulj-source.zip /tmp/vulj-source.imp
+      - name: Validar módulos, catálogos, popups e fontes anteriores
+        run: |
+          set -euo pipefail
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('vm'),a=require('node:assert/strict');
+          const m=JSON.parse(fs.readFileSync('scriptures/vulj-crosswire-progress.json','utf8'));
+          const text=fs.readFileSync('index.html','utf8');
+          const reader=fs.readFileSync('scriptures/reader.js','utf8');
+          const popups=fs.readFileSync('scriptures/word-popups.js','utf8');
+          a.equal(m.totalBooks,78);a.ok(m.chapters>=1300);
+          a.ok(reader.includes('Vulgata Latina — tradição de Jerônimo (CrossWire)'));
+          a.ok(reader.includes('ScripturaWordPopups?.attach(panel, textRegion)'));
+          a.ok(popups.includes('(edition === "VUL" || edition === "VULJ") ? "VUL"'));
+          a.equal(text.split('src="scriptures/catalog-vulj.js"').length-1,1);
+          const sandbox={window:{}},context=vm.createContext(sandbox);
+          const catalog=fs.readFileSync('scriptures/catalog-vulj.js','utf8');
+          vm.runInContext(catalog,context);
+          a.equal(sandbox.window.ScripturaVulJeromeCatalog.split('\n').length,78);
+          let verses=0,modules=0,slots=0;
+          for(const b of m.books)for(let c=1;c<=b.chapters;c++){
+            const path='scriptures/texts/vulj-'+b.slug+'-'+c+'.js';
+            a.equal(text.split('src="'+path+'"').length-1,1,path);
+            vm.runInContext(fs.readFileSync(path,'utf8'),context,{filename:path});
+            const v=sandbox.window.ScripturaScriptureTexts.VULJ[b.id][c];
+            a.equal(Object.keys(v).length,b.perChapter[c-1],path);
+            for(const t of Object.values(v)){if(t)verses++;slots++;}
+            modules++;
+          }
+          a.equal(modules,m.chapters);a.equal(verses,m.versesWithText);
+          a.equal(slots,m.verseSlots);
+          a.ok(sandbox.window.ScripturaScriptureTexts.VULJ.GEN[1]["1"].includes("in principio"));
+          for(const pref of ['uxlc','lxx','tr','vul','sblgnt']){
+            a.ok(text.includes('scriptures/texts/'+pref+'-'),pref+' ausente');
+          }
+          a.ok(reader.includes('Códice de Leningrado [L/Firkovich B19A]'));
+          a.ok(reader.includes('Biblia Sacra Vulgata Clementina (1598)'));
+          a.ok(reader.includes('SBL Greek New Testament — Holmes (2010)'));
+          a.ok(fs.readFileSync('scriptures/reader.css','utf8').includes('text-decoration: none'));
+          console.log('OK VULJ',m.totalBooks,'livros',modules,'capítulos',verses,'versículos');
+          NODE
+      - name: Commit somente após validação completa
+        run: |
+          set -euo pipefail
+          git config user.name 'Scriptura Lexicon'
+          git config user.email 'vulj-import@users.noreply.github.com'
+          git add index.html scriptures/reader.js scriptures/word-popups.js \
+              scriptures/catalog-vulj.js scriptures/vulj-crosswire-progress.json \
+              scriptures/vulj-crosswire-paratext.json
+          git add -A scriptures/texts
+          if git diff --cached --quiet; then echo 'Sem alterações'; exit 0; fi
+          git commit -m 'Escrituras: incorporar Vulgata latina CrossWire, tradição jeronimiana'
+          git push origin HEAD:chat-gpt-melhorias
