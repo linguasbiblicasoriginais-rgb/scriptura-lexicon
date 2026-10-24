@@ -8,7 +8,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         LXX: "Septuaginta — Brenton (texto grego, 1851)",
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
-        TR: "Novo Testamento Grego – Texto Recebido (TR)",
+        TR: "Textus Receptus — Scrivener (1894)",
         VUL: "Biblia Sacra Vulgata Clementina (1598)"
     };
     const editionOrder = ["UXLC", "LXX", "NA28", "UBS5", "TR", "VUL"];
@@ -296,7 +296,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         });
         renderTexts();
         feedback.textContent = !canLink ?
-            (state.edition === "TR" ? "O Texto Recebido depende da definição de uma edição canônica (por exemplo, Stephanus ou Scrivener)." :
+            (state.edition === "TR" ? "Edição identificada: F. H. A. Scrivener (1894); transcrição digital de Honza Pokorny." :
             state.edition === "VUL" ? "Texto latino da Vulgata Clementina (1598), eBible latVUC; notas editoriais preservadas separadamente." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
     }
