@@ -1,0 +1,22 @@
+/* Unicode/XML Leningrad Codex UXLC 2.6; Psalms 6; 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3 */
+(function(){
+'use strict';
+const verses={"1":"לַמְנַצֵּ֣חַ בִּ֭נְגִינוֹת עַֽל־הַשְּׁמִינִ֗ית מִזְמ֥וֹר לְדָוִֽד׃","2":"יְֽהוָ֗ה אַל־בְּאַפְּךָ֥ תוֹכִיחֵ֑נִי וְֽאַל־בַּחֲמָתְךָ֥ תְיַסְּרֵֽנִי׃","3":"חָנֵּ֥נִי יְהוָה֮ כִּ֤י אֻמְלַ֫ל אָ֥נִי רְפָאֵ֥נִי יְהוָ֑ה כִּ֖י נִבְהֲל֣וּ עֲצָֽמָי׃","4":"וְ֭נַפְשִׁי נִבְהֲלָ֣ה מְאֹ֑ד וְאַתָּ֥ה יְ֝הוָ֗ה עַד־מָתָֽי׃","5":"שׁוּבָ֣ה יְ֭הוָה חַלְּצָ֣ה נַפְשִׁ֑י ה֝וֹשִׁיעֵ֗נִי לְמַ֣עַן חַסְדֶּֽךָ׃","6":"כִּ֤י אֵ֣ין בַּמָּ֣וֶת זִכְרֶ֑ךָ בִּ֝שְׁא֗וֹל מִ֣י יֽוֹדֶה־לָּֽךְ׃","7":"יָגַ֤עְתִּי ׀ בְּֽאַנְחָתִ֗י אַשְׂחֶ֣ה בְכָל־לַ֭יְלָה מִטָּתִ֑י בְּ֝דִמְעָתִ֗י עַרְשִׂ֥י אַמְסֶֽה׃","8":"עָֽשְׁשָׁ֣ה מִכַּ֣עַס עֵינִ֑י עָֽ֝תְקָ֗ה בְּכָל־צוֹרְרָֽי׃","9":"ס֣וּרוּ מִ֭מֶּנִּי כָּל־פֹּ֣עֲלֵי אָ֑וֶן כִּֽי־שָׁמַ֥ע יְ֝הוָ֗ה ק֣וֹל בִּכְיִֽי׃","10":"שָׁמַ֣ע יְ֭הוָה תְּחִנָּתִ֑י יְ֝הוָ֗ה תְּֽפִלָּתִ֥י יִקָּֽח׃","11":"יֵבֹ֤שׁוּ ׀ וְיִבָּהֲל֣וּ מְ֭אֹד כָּל־אֹיְבָ֑י יָ֝שֻׁ֗בוּ יֵבֹ֥שׁוּ רָֽגַע׃"};
+const types={};
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.UXLC ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"] ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"][6]=verses;
+window.ScripturaScriptureParagraphBreaks ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"][6]=[];
+window.ScripturaScriptureParashahTypes ||= {};
+window.ScripturaScriptureParashahTypes.UXLC ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"][6]=types;
+window.ScripturaScriptureUXLCVariants ||= {};
+window.ScripturaScriptureUXLCVariants.UXLC ||= {};
+window.ScripturaScriptureUXLCVariants.UXLC["PSA"] ||= {};
+window.ScripturaScriptureUXLCVariants.UXLC["PSA"][6]={"4":[{"kind":"k","text":"ואת"},{"kind":"q","text":"וְאַתָּ֥ה"}]};
+})();

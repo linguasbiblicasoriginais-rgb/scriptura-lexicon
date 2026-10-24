@@ -1,414 +1,55 @@
-# Escrituras Sagradas — leitor do Scriptura Lexicon
-
-## Escopo e estado (22/10/2026)
-
-A seção **Escrituras Sagradas**, acima de **Dicionários** no menu lateral, contém:
-
-1. **Biblia Hebraica Stuttgartensia (BHS)** — fonte canônica inicialmente definida para o Texto Massorético;
-2. **Septuaginta (LXX)** — catálogo textual independente;
-3. **Novo Testamento Grego – Texto Crítico (NA28)**;
-4. **Novo Testamento Grego – Texto Crítico (UBS5)**;
-5. **Novo Testamento Grego – Texto Recebido (TR)** — edição textual específica ainda por fixar.
-
-O leitor permite selecionar **edição, livro, capítulo e um número de versículo**, navegar entre capítulos, copiar a referência e abrir o **capítulo** no portal oficial das quatro primeiras edições quando o identificador do livro é mapeável. A interface usa hash de URL, por exemplo `#escrituras/BHS/GEN.1.1`, sem sobrepor o roteamento dos dicionários.
-
-**Importante:** este commit incorpora a **estrutura de navegação**, não o corpus integral. Um capítulo sem texto incorporado informa claramente a indisponibilidade. O número introduzido como versículo é positivo, mas o número máximo específico de cada capítulo ainda **não foi auditado**; a referência não deve ser usada como evidência da existência do versículo. O link externo aponta ao capítulo, não necessariamente à posição exata do versículo.
-
-## Inventário de livros
-
-- **BHS:** 39 unidades de navegação. A tradição hebraica dos 24 livros é representada por agrupamentos de Samuel, Reis, Crônicas, Esdras–Neemias e os Doze, enquanto a seleção individual preserva a referência usual a cada volume.
-- **LXX:** 62 unidades, inclusive variantes e materiais adicionais explicitamente presentes na lista fornecida. As variantes de Josué, Juízes, Tobias, Daniel, Susana e Bel e o Dragão não são fundidas às demais tradições. **Josué A (3 capítulos)** e **Sirácida (52 capítulos)** foram conservados conforme a relação fornecida e exigem cotejo editorial: sua presença no índice não atesta que essas delimitações tenham sido verificadas na edição digital da LXX.
-- **NA28, UBS5 e TR:** 27 livros cada, mantidos sob namespaces textuais distintos.
-
-Os livros da BHS com contagens divergentes das divisões correntes foram ajustados no catálogo de navegação para: Cântico dos Cânticos **8**, Rute **4**, Lamentações **5**, Eclesiastes **12**, Ester **10**, 1 Crônicas **29** e 2 Crônicas **36**. Samuel (31+24), Reis (22+25) e Esdras–Neemias (10+13) ficam subdivididos sem perder o agrupamento da Bíblia hebraica. Joel conserva os quatro capítulos do cômputo hebraico informado.
-
-As designações **canônicos** e **apócrifos**, quando presentes na lista original, são categorias descritivas do inventário fornecido, não determinações acerca da canonicidade em outras tradições.
-
-## Camadas documentais
-
-1. **Fonte**: texto canônico identificável por edição, livro, capítulo, versículo e eventual testemunho específico.
-2. **Transcrição**: futura incorporação de texto conferido, com niqqud, sinais massoréticos, ortografia e diacríticos inalterados; separar variantes e aparato.
-3. **Tradução/análise**: futura camada editorial, nunca apresentada como se fosse a própria BHS, LXX, NA28, UBS5 ou TR.
-4. **Interface**: catálogo, visualizador e referências independentes dos dicionários.
-
-O módulo `scriptures/reader.js` expõe `window.ScripturaScriptures.catalog`. No futuro, textos autorizados podem ser registrados **antes** da execução do leitor em `window.ScripturaScriptureTexts`, usando a estrutura:
-
-```js
-window.ScripturaScriptureTexts = {
-  BHS: {
-    GEN: {
-      1: {
-        // 1: "transcrição conferida com direitos de uso regularizados"
-      }
-    }
-  }
-};
-```
-
-O exemplo é **estrutura de dados, não conteúdo da BHS**. O componente exibe apenas strings de versículos explicitamente carregadas, via `textContent`, para preservar os caracteres originais e evitar interpretação de HTML. Hebraico utiliza `lang="he"`, `dir="rtl"`; grego usa `lang="grc"`, `dir="ltr"`.
-
-## Incorporação textual 001 — Gênesis 1 (BHS, Texto Massorético)
-
-**Estado:** capítulo disponibilizado no leitor; 31 de 31 versículos inseridos, na numeração de Gênesis 1. 
-
-**Arquivo:** `scriptures/texts/bhs-genesis-1.js`. O arquivo registra os 31 versículos individualmente em `window.ScripturaScriptureTexts.BHS.GEN[1]` e armazena as seis marcas de seção aberta `פ` em `window.ScripturaScriptureParagraphBreaks.BHS.GEN[1]`, após os versículos **5, 8, 13, 19, 23 e 31**. O sinal `׃` permanece dentro de cada versículo. Os números dos versículos e o `פ` não foram fundidos ao texto lexical.
-
-**Procedência:** transcrição integral do capítulo fornecida diretamente pelo usuário nesta conversa em 22/10/2026, identificada por ele como **BHS**. O conteúdo não foi raspado do portal editorial. A confirmação de que cada caractere corresponde exatamente à edição impressa, inclusive todas as marcas massoréticas, **ainda depende de cotejo filológico independente**. Os registros não devem ser descritos como texto homologado.
-
-**Exibição:** hebraico vocalizado e acentuado, `lang="he"`, `dir="rtl"`; seleção do versículo destaca a respectiva linha, e `פ` é exposto como marcador de seção. O campo de seleção limita Gênesis 1 ao versículo **31**, pois esse limite foi confirmado pelo conjunto incorporado.
-
-**Endereço direto no aplicativo:** `#escrituras/BHS/GEN.1.1`.
-
-A atribuição da edição e eventuais autorizações necessárias para disponibilizar publicamente o texto são questões editoriais independentes da fidelidade da transcrição.
-
-## Incorporação textual 002 — Gênesis 1 (LXX)
-
-**Situação:** 31 versículos transcritos como texto grego da Septuaginta e integrados ao leitor, independentes da BHS. A transcrição foi **fornecida integralmente pelo usuário na conversa de 22/10/2026**; não foi obtida por extração automática de terceiros.
-
-- **Identidade:** edição `LXX`, livro `GEN`, capítulo `1`; referências `LXX/GEN.1.1` a `LXX/GEN.1.31`.
-- **Arquivo do texto:** `scriptures/texts/lxx-genesis-1.js`.
-- **Unidade de armazenamento:** `window.ScripturaScriptureTexts.LXX.GEN[1]` com chaves numéricas de 1 a 31, sem mistura com `BHS.GEN[1]`.
-- **Quebras entre unidades:** após os vv. **5, 8, 13, 19 e 23**; oriundas da disposição fornecida, não devem ser confundidas com parashot massoréticas.
-- **Travessões editoriais entre versículos:** preservados após **10, 25 e 29** como metadados `ScripturaScriptureEditorialSeparators.LXX.GEN[1]`. O travessão **interno** ao v. 29 permanece na cadeia textual.
-- **Idioma e direção:** `lang="grc"`, da esquerda para a direita; manutenção da acentuação e da pontuação fornecidas, inclusive formas como `κατ᾽` e `καθ᾽`.
-- **Cotejo crítico:** a transcrição foi recebida com a atribuição editorial “LXX”; ainda **não foi conferida independentemente** contra a impressão de Rahlfs–Hanhart ou com a apresentação da Deutsche Bibelgesellschaft. Não atribuir variantes específicas sem confrontação documental.
-
-**Consulta direta:** `#escrituras/LXX/GEN.1.1`. A atribuição editorial e os direitos de republicação exigem verificação específica antes de qualquer afirmação de homologação do texto.
-
-## Incorporação textual 003 — Mateus 1 (NA28)
-
-**Estado:** 25 de 25 versículos incorporados e habilitados no leitor da edição NA28, sem interferir em BHS, LXX, UBS5 ou TR.
-
-- **Fonte material recebida:** transcrição grega integral fornecida pelo usuário nesta conversa, identificada como *Novo Testamento Grego — Texto Crítico (NA28)*. Não foi feita extração automática do site da editora nem colação independente com o volume impresso.
-- **Arquivo:** `scriptures/texts/na28-matthew-1.js`, registrado em `window.ScripturaScriptureTexts.NA28.MAT[1]`, versículos 1–25.
-- **Segmentação:** números dos versículos removidos do conteúdo textual e representados pelas chaves do objeto. Mantêm-se todos os sinais de acentuação e pontuação presentes no material recebido. Nenhuma leitura foi substituída por texto conhecido de outra edição.
-- **Composição:** as quebras de linha internas dos versículos **6** (genealogia) e **23** (citação) permanecem no valor textual, com exibição por `white-space: pre-line` na interface.
-- **Apresentação:** `lang="grc"`, `dir="ltr"`. A seleção de versículo em Mateus 1 tem máximo documentado de 25.
-- **Endereço de consulta interna:** `#escrituras/NA28/MAT.1.1`.
-
-**Limites:** a atribuição à NA28 é proveniente do usuário. A conformidade exata com a edição crítica de referência, o aparato e as permissões de reprodução pública não foram independentemente verificados. O estado de incorporação não constitui homologação filológica ou licença editorial.
-
-## Incorporação textual 004 — Mateus 1 (UBS5)
-
-**Estado:** os 25 versículos de Mateus 1 foram incorporados em transcrição própria da **UBS5**, fornecida pelo usuário na conversa de 22/10/2026, independentemente da transcrição da NA28. Não foi realizada colação com a edição UBS5 impressa.
-
-- **Corpus:** `scriptures/texts/ubs5-matthew-1.js`, `window.ScripturaScriptureTexts.UBS5.MAT[1]`, versículos **1–25**.
-- **Metadados editoriais:** `window.ScripturaScriptureHeadings.UBS5.MAT[1]` registra, sem fundir ao texto do versículo: antes do v. 1, a identificação **«Κατὰ Μαθθαῖον 1»**, o título **«Genealogia de Jesus Cristo»** e a referência **«(Lc 3.23–38)»**; antes do v. 18, **«The Birth of Jesus Christ»** e **«(Lk 2.1‑7)»**. As grafias e línguas dos títulos são preservadas como recebidas, sem tradução ou harmonização.
-- **Diferenças frente à NA28 fornecida anteriormente:** detectadas por comparação literal nos vv. **20, 22 e 23**, envolvendo apóstrofos, pontuação e maiúsculas; conservadas em cada namespace, sem impor uniformidade editorial. Isso **não representa necessariamente variante textual substantiva**: é apenas uma comparação do material recebido.
-- **Quebras internas:** os vv. **6** e **23** conservam as quebras de linha recebidas; exibição pelo recurso `white-space: pre-line` já presente no leitor.
-- **Apresentação:** texto grego marcado como `lang="grc"`, `dir="ltr"`; títulos e referências paralelas exibidos em blocos separados.
-- **Navegação:** `#escrituras/UBS5/MAT.1.1`. Número máximo do capítulo conferido no arquivo: **25**.
-
-**Limites filológicos e legais:** a atribuição à UBS5 foi informada pelo usuário. Não houve cotejo crítico independente contra o texto impresso, nem incorporação do aparato. Os direitos de publicação precisam ser tratados separadamente do registro interno da transcrição.
-
-## Estrutura da Biblia Sacra Vulgata — VUL
-
-**Estado:** catálogo de 78 unidades incorporado em 22/10/2026 e Gênesis 1 latino publicado com 31 versículos fornecidos pelo usuário; demais capítulos ainda sem textos.
-
-**Procedência do catálogo:** lista enviada pelo usuário, contendo nomes latinos, nomes portugueses e a quantidade de capítulos. A edição textual latina específica (por exemplo, texto de uma Vulgata crítica ou de outra tradição editorial) **não foi identificada** e não pode ser presumida a partir da designação VUL.
-
-**Inventário preservado:**
-
-| Divisão | Livros/unidades |
-| --- | ---: |
-| Antigo Testamento · Pentateuco | 5 |
-| Antigo Testamento · Livros Históricos | 12 |
-| Antigo Testamento · Livros Poéticos e Sapienciais | 5 |
-| Antigo Testamento · Profetas maiores | 5 |
-| Antigo Testamento · Profetas menores | 12 |
-| Novo Testamento · Evangelhos | 4 |
-| Novo Testamento · Atos | 1 |
-| Novo Testamento · Epístolas paulinas | 13 |
-| Novo Testamento · Epístolas universais | 8 |
-| Novo Testamento · Apocalipse | 1 |
-| Apócrifos (categoria da lista fornecida) | 12 |
-| **Total** | **78** |
-
-As contagens de capítulos foram mantidas **exatamente como informadas**: entre outros exemplos, *Liber Hester* (16), *Danihel Propheta* (14), *Iohel Propheta* (3), *Malachi Propheta* (4), *Liber Iesu Filii Sirach* (52) e *Liber Baruch* (6). O catálogo inclui *Psalmi Iuxta Hebr.* (150), *Psalmus CLI* (1), *Oratio Manasse* (1), *Liber Ezrae III* (9), *Liber Ezrae IV* (16) e *Ad Laodicenses* (1), sem deduzir correspondência textual com outras edições. **Esses números ainda não foram cotejados com uma edição crítica escolhida.**
-
-A repetição do cabeçalho “Epístolas universais” na lista de entrada foi consolidada num único agrupamento visual, sem excluir *Ad Hebraeos*. Os demais nomes editoriais latinos foram conservados, inclusive grafias como *Samuhelis*, *Malachim*, *Neemiae*, *Hester*, *Danihel* e *Zaccharias*.
-
-**Implementação:** `scriptures/catalog-vul.js` contém os metadados em `window.ScripturaVulCatalog`; `scriptures/reader.js` integra a edição `VUL` ao menu, aos agrupamentos de livros e à navegação por capítulo e referência de versículo. Os versículos latinos são carregados exclusivamente em `window.ScripturaScriptureTexts.VUL[bookId][chapter]`, usando `lang="la"` e `dir="ltr"`; Gênesis 1 está registrado em `scriptures/texts/vul-genesis-1.js`. O leitor **não cria URL da editora** para a VUL enquanto não houver fonte externa verificada. Nenhum texto de outra edição é apresentado como VUL.
-
-**Exemplo de referência:** `#escrituras/VUL/GEN.1.1`. A seleção de números de versículo em capítulos ainda sem texto é provisória e não atesta o número real de versos do capítulo.
-
-## Incorporação textual 005 — Gênesis 1 (VUL)
-
-- **Material textual:** transcrição em latim fornecida diretamente pelo usuário em 22/10/2026 e designada «Vulgata (VUL)», **não cotejada independentemente** com uma edição crítica ou impressa.
-- **Arquivo:** `scriptures/texts/vul-genesis-1.js`, que registra `window.ScripturaScriptureTexts.VUL.GEN[1]` com **31 entradas**, uma por versículo, sem compartilhar cadeias com BHS ou LXX.
-- **Segmentação:** números 1 a 31 tratados exclusivamente como metadados de versificação. Os quatro encontros entre a última palavra de um versículo e o número do seguinte, em `bonum11`, `terram18`, `bonum26` e `escam30`, foram separados sem inserir palavras, sinais ou espaços inexistentes na fonte.
-- **Formatação:** as barras invertidas que delimitavam linhas no material recebido foram traduzidas em **quebras de linha internas** das entradas textuais, para apresentação por `white-space: pre-line`; isso é transformação de layout, não normalização ortográfica.
-- **Preservação:** foram mantidas as grafias `caelum`, `inluminent`, `adferentem`, `cete`, `semet`, a redação e a pontuação conforme a transcrição enviada.
-- **Idioma:** `lang="la"`, direção `ltr`.
-- **Consulta:** `#escrituras/VUL/GEN.1.1`; seleção de versículos de 1 a 31.
-
-**Limites:** o rótulo VUL identifica o namespace solicitado, não atesta qual edição específica da tradição vulgata é representada pelo texto enviado. Nenhuma colação da versão impressa, do aparato crítico ou de direitos de republicação foi concluída. Não declarar homologação editorial.
-
-## Incorporação textual 006 — Gênesis 2 (BHS, Texto Massorético)
-
-**Estado:** 25 versículos hebraicos incorporados a partir da transcrição fornecida pelo usuário, sem substituições textuais nem normalização Unicode.
-
-- **Fonte material:** texto de Gênesis 2:1–25 colado pelo usuário no chat; identificado como BHS. O conteúdo **não foi cotejado independentemente** contra a edição impressa e, portanto, esta atribuição de edição representa a procedência informada, não homologação crítica.
-- **Arquivo textual:** `scriptures/texts/bhs-genesis-2.js`, com versículos consecutivos de 1 a 25 armazenados em `window.ScripturaScriptureTexts.BHS.GEN[2]`; a numeração fica em chaves, não no texto hebraico.
-- **Marcação massorética:** `פ` isolado após 2:3 mantido como marcador de *parashah petuchah*, em `window.ScripturaScriptureParagraphBreaks.BHS.GEN[2] = [3]`, sem introduzir a letra no texto do versículo.
-- **Diacríticos e pontuação:** conservados a vocalização, os acentos de cantilação, o *maqqef* `־`, o *sof pasuq* `׃` e o *paseq* `׀` nas posições fornecidas; sem correção inferida, retirada de variantes ou conversão para outra tradição editorial.
-- **Navegação:** `#escrituras/BHS/GEN.2.1`; idioma `he` e direção `rtl`; máximo verificável neste capítulo: 25 versículos.
-- **Independência:** o capítulo 1 BHS e os textos LXX, NA28, UBS5 e VUL existentes permanecem em seus próprios registros, sem harmonização.
-
-**Limites:** não houve cotejo caractere a caractere contra o livro impresso da BHS, nem verificação jurídica de republicação; a incorporação registra literalmente o material recebido, sem atestar a identidade editorial externa.
-
-## Consultas lexicais por palavra
-
-**Estado:** todos os capítulos bíblicos já incorporados apresentam cada palavra como botão de consulta; o texto subjacente permanece literal e separado das camadas lexicais.
-
-**Implementação:** o módulo `scriptures/word-popups.js` é carregado antes de `scriptures/reader.js` e oferece popups acessíveis por clique, toque, Enter ou Espaço. O fechamento ocorre pelo botão ×, pela tecla Escape, por clique fora ou pela rolagem; a tecla Escape devolve o foco à palavra. A interface informa a edição e a referência precisa do versículo.
-
-**Conteúdo do popup:**
-
-- **Forma original:** mesmo segmento Unicode lido no versículo; hebraico `he`, grego `grc`, latim `la`, sem alterar a string bíblica.
-- **Transliteração aproximada:** algoritmo determinístico próprio para hebraico e grego; no latim, a forma original já está em alfabeto latino. A transliteração mecânica **não é pronúncia reconstruída, sistema ISO certificado, análise morfológica nem identificação de lema**. Os acentos de cantilação hebraicos não são transliterados e as vogais massoréticas são aproximadas.
-- **Minidicionário:** pequeno glossário editorial para **algumas formas** conhecidas, com significado introdutório em português. Não é transcrição nem síntese atribuída automaticamente às obras BDAG, KBS, Clines, Thayer etc. **Uma palavra pode ter outros valores contextuais ou morfológicos**, mesmo quando há glosa.
-- **Sem cobertura lexical:** em todas as outras palavras, o popup continua disponível, mas exibe explicitamente `Sem acepção cadastrada` — nunca inventa significado, lema ou referência bibliográfica.
-
-O algoritmo segmenta palavras Unicode sem reescrever o texto, mantendo espaços, sinais massoréticos, maqqef `־`, sof pasuq `׃`, pontuação grega, citações e quebras de linha como nós textuais separados. Assim, as marcas de parashah, as divisões da LXX e os títulos editoriais da UBS5 não são transformados em entradas lexicais.
-
-**Teste de regressão:** executar a partir da raiz com `node tests/scripture-word-popups.test.cjs`. O teste verifica reconstrução idêntica das cadeias Unicode em todos os seis capítulos, a existência de transliteração em cada ocorrência e a ausência de glosas inventadas no caso de formas desconhecidas. A interface visual ainda requer teste manual em navegador e leitor de tela.
-
-**Limites e tarefas futuras:** ampliar o glossário mediante revisão filológica por edição e associação verificável `ocorrência → lema → fonte lexicográfica → acepção`; realizar conferência em navegador e tecnologias assistivas; nunca divulgar a atual cobertura parcial como análise exaustiva.
-
-## Incorporação textual 007 — Gênesis 3–10 (BHS, Texto Massorético)
-
-**Estado:** oito capítulos incorporados da transcrição hebraica fornecida pelo usuário no chat em 22/10/2026, totalizando **211 versículos**, sem emendas, reconstruções ou normalização Unicode. Os 10 primeiros capítulos de Gênesis (BHS) possuem agora **267 versículos registrados**.
-
-| Capítulo | Versículos | Marcas massoréticas de seção após os versículos |
-| --- | ---: | --- |
-| Gênesis 3 | 24 | 15 ס; 16 ס; 21 פ; 24 ס |
-| Gênesis 4 | 26 | 26 פ |
-| Gênesis 5 | 32 | 2 ס; 5 ס; 8 ס; 11 ס; 14 ס; 17 ס; 20 פ; 24 פ; 27 פ; 31 ס |
-| Gênesis 6 | 22 | 4 פ; 8 פ; 12 ס; 22 ס |
-| Gênesis 7 | 24 | Nenhuma indicada no material recebido |
-| Gênesis 8 | 22 | 14 ס |
-| Gênesis 9 | 29 | 7 ס; 17 פ; 29 פ |
-| Gênesis 10 | 32 | 14 ס; 20 ס; 32 פ |
-| **Total** | **211** | **26 marcações: 10 פ e 16 ס** |
-
-- **Fonte material:** exclusivamente os oito capítulos enviados pelo usuário, mantidos como transcrição designada BHS. Não se afirma cotejo independente com exemplar impresso ou aparato crítico da BHS.
-- **Arquivos:** `scriptures/texts/bhs-genesis-3.js` a `bhs-genesis-10.js`. Os objetos ficam no namespace `ScripturaScriptureTexts.BHS.GEN[capítulo]`, com chaves de versículos consecutivas.
-- **Fidelidade:** consoantes, *niqqud*, *teʿamim*, *sof pasuq* (`׃`), *maqqef* (`־`), *paseq* (`׀`), grafias particulares e sinais combinantes foram transportados literalmente. Não modificar sequências como `יְהוָֹ֨ה` (Gênesis 3:14) ou `שְׁמוֹנִים` sem autorização e colação documentada.
-- **Marcas de parashah:** as letras isoladas `פ` (petuchah, seção aberta) e `ס` (setumah, seção fechada), posicionadas após versículos, são guardadas fora das cadeias textuais em `ScripturaScriptureParashahTypes.BHS.GEN[capítulo]`; suas posições ficam em `ScripturaScriptureParagraphBreaks.BHS.GEN[capítulo]`. O leitor distingue as duas, e capítulos 1–2 continuam usando o formato anterior com `פ` implícito.
-- **Consulta:** `#escrituras/BHS/GEN.3.1` até `#escrituras/BHS/GEN.10.32`. Os popups de palavra são aplicados pela camada do leitor e não alteram o texto-fonte.
-- **Verificação:** para cada capítulo, a segmentação dos versículos com seus números e as letras de seção foi remontada e comparada exatamente à cadeia recebida, excetuando a unificação de espaços em branco entre versículos. Os testes de regressão em `tests/scripture-word-popups.test.cjs` foram estendidos a todas as dez unidades de Gênesis e à validação das marcações de seção.
-
-**Pendências:** cotejo externo com a edição impressa, esclarecimentos editoriais, licenciamento e ensaios visuais no navegador; os commits não constituem homologação da transcrição.
-
-## Incorporação textual 008 — Gênesis 11–16 (BHS)
-
-**Estado confirmado:** todos os seis capítulos incorporados a partir da transcrição fornecida pelo usuário, com **131 versículos**; a dificuldade anterior de gravar Gênesis 14 e 16 foi solucionada com commits específicos. Os 16 primeiros capítulos somam **398 versículos**.
-
-| Capítulo | Versículos | Parashot após os versículos |
-| --- | ---: | --- |
-| 11 | 32 | 9 פ; 11, 13, 15, 17, 19, 21, 23, 25 e 32 ס |
-| 12 | 20 | 9 פ |
-| 13 | 18 | 18 פ |
-| 14 | 24 | 24 ס |
-| 15 | 21 | 21 ס |
-| 16 | 16 | 16 ס |
-| **Total** | **131** | **3 פ e 12 ס** |
-
-Os arquivos `scriptures/texts/bhs-genesis-11.js` a `bhs-genesis-16.js` estão conectados ao leitor antes de `scriptures/reader.js`. O texto hebraico conserva literalmente os caracteres enviados, incluindo cantilação, *niqqud*, pontuação e sinais especiais. As letras isoladas פ e ס após o versículo são metadados em `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`, não acréscimos ao texto versicular. O teste `tests/scripture-word-popups.test.cjs` contém verificações de numeração, popups e tipos de parashah para os seis capítulos.
-
-## Incorporação textual 009 — Gênesis 17–20 (BHS)
-
-**Estado confirmado:** quatro capítulos e **116 versículos** extraídos da transcrição fornecida pelo usuário, preservando a forma e a ordem dos sinais Unicode, sem emendas ou normalização automática.
-
-| Capítulo | Versículos | Parashot após os versículos |
-| --- | ---: | --- |
-| 17 | 27 | 14 ס; 27 פ |
-| 18 | 33 | Nenhuma assinalada no material recebido |
-| 19 | 38 | 38 ס |
-| 20 | 18 | 18 ס |
-| **Total** | **116** | **1 פ e 3 ס** |
-
-Os textos estão em `scriptures/texts/bhs-genesis-17.js` a `bhs-genesis-20.js`, registrados em `ScripturaScriptureTexts.BHS.GEN[capítulo]` e carregados antes do leitor. O leitor aplica a camada geral de transliteração e minidicionário por palavra, sem preencher significados ausentes com invenções. A integração ao teste de regressão foi feita para os quatro capítulos.
-
-**Progresso acumulado BHS/Gênesis:** **20 de 50 capítulos**, **514 versículos** (Gênesis 1–20).
-
-**Limites editoriais:** a transcrição foi fornecida pelo usuário, não extraída automaticamente nem cotejada com exemplar impresso da BHS; a correspondência com uma edição crítica determinada, os direitos de redistribuição e a visualização efetiva em navegador permanecem sujeitos a verificação independente. A integração técnica não é homologação filológica.
-
-## Incorporação textual 010 — Gênesis 21–30 (BHS)
-
-**Origem:** transcrição massorética integral fornecida diretamente pelo usuário nesta conversa, sem consulta de extração externa. **Operação:** transporte para arquivos independentes sem normalização Unicode, correções silenciosas, traduções ou criação de variantes.
-
-| Capítulo | Versículos | Marcas de *parashah* |
-| --- | ---: | --- |
-| 21 | 34 | 21 פ; 34 פ |
-| 22 | 24 | 19 פ; 24 ס |
-| 23 | 20 | 20 ס |
-| 24 | 67 | 67 פ |
-| 25 | 34 | 11 ס; 18 פ; 34 ס |
-| 26 | 35 | 33 ס; 35 ס |
-| 27 | 46 | Nenhuma fornecida |
-| 28 | 22 | 9 ס |
-| 29 | 35 | Nenhuma fornecida |
-| 30 | 43 | Nenhuma fornecida |
-| **Total** | **360** | **5 פ e 7 ס** |
-
-**Arquivos:** `scriptures/texts/bhs-genesis-21.js` a `scriptures/texts/bhs-genesis-30.js` carregados por `index.html` antes de `scriptures/reader.js`. Os versículos são indexados em `ScripturaScriptureTexts.BHS.GEN[capítulo]`; os tipos e posições de seção estão em `ScripturaScriptureParashahTypes` e `ScripturaScriptureParagraphBreaks`. Em Gênesis 27, 29 e 30 foram registrados mapas de *parashot* vazios por inexistirem marcas explicitadas no material recebido, sem supor ausências na edição impressa.
-
-**Controles técnicos:** sequência de versículos 1–N por capítulo, pontuação `׃`, reconstrução idêntica à entrada enviada (com mera padronização dos espaços entre versículos), parsing JavaScript, segmentação Unicode e popups sem atribuições lexicais não cadastradas. O teste `tests/scripture-word-popups.test.cjs` foi ampliado aos dez capítulos.
-
-**Progresso do texto BHS em Gênesis:** **30/50 capítulos (60%)**, **874 versículos**, cobrindo Gênesis 1–30.
-
-**Limitações:** testes de interface visual em navegador, cotejo impresso da edição e verificação de autorização de publicação pública ainda não fazem parte desta incorporação. Não confundir validação técnica com homologação filológica.
-
-## Incorporação textual 011 — Gênesis 41–50 (BHS)
-
-**Origem:** transcrição hebraica fornecida diretamente pelo usuário; os capítulos 31–40 não fazem parte deste lote e continuam pendentes na branch. Nenhuma reconstrução de texto, normalização Unicode ou tradução foi realizada.
-
-| Capítulo | Versículos | Marcas de *parashah* |
-| --- | ---: | --- |
-| 41 | 57 | Nenhuma explicitada no material |
-| 42 | 38 | Nenhuma explicitada no material |
-| 43 | 34 | Nenhuma explicitada no material |
-| 44 | 34 | 17 פ |
-| 45 | 28 | Nenhuma explicitada no material |
-| 46 | 34 | 7 ס; 27 פ |
-| 47 | 31 | 31 פ |
-| 48 | 22 | 22 פ |
-| 49 | 33 | 4 פ; 7 ס; 12 פ; 13 ס; 15 ס; 19 ס; 20 ס; 21 ס; 26 פ |
-| 50 | 26 | Nenhuma explicitada no material |
-| **Total** | **337** | **7 פ e 7 ס** |
-
-**Arquivos:** `scriptures/texts/bhs-genesis-41.js` a `bhs-genesis-50.js`. Foram adicionados ao carregamento em `index.html`, à matriz de regressão `tests/scripture-word-popups.test.cjs` e aos metadados `ScripturaScriptureParagraphBreaks` e `ScripturaScriptureParashahTypes`.
-
-**Progresso na branch:** **40 de 50 capítulos (80%)** e **1.211 versículos** incorporados, considerando Gênesis 1–30 e 41–50. A sequência 31–40 permanece ausente; o percentual representa cobertura, não continuidade. A edição impressa, direitos de distribuição, execução dos testes de navegador e cotejo filológico ainda exigem verificação independente.
-
-## Incorporação textual 012 — Gênesis 31–40 (BHS)
-
-**Origem:** transcrição fornecida pelo usuário no lote anterior, incorporada depois dos capítulos 41–50. Nenhuma correção silenciosa, variante inventada ou normalização Unicode.
-
-| Capítulo | Versículos | Marcas de *parashah* |
-| --- | ---: | --- |
-| 31 | 54 | Nenhuma explicitada no material |
-| 32 | 33 | 3 פ |
-| 33 | 20 | 17 ס; 20 ס |
-| 34 | 31 | 31 פ |
-| 35 | 29 | 8 פ; 22 פ (interna ao versículo); 29 פ |
-| 36 | 43 | 19 ס; 30 פ; 43 פ |
-| 37 | 36 | 36 פ |
-| 38 | 30 | 30 ס |
-| 39 | 23 | 23 ס |
-| 40 | 23 | 23 פ |
-| **Total** | **322** | **9 פ e 5 ס** |
-
-Em **Gênesis 35:22**, a marca פ foi fornecida **no interior do versículo**, entre a oração sobre Rúben e a frase `וַיִּֽהְי֥וּ בְנֵֽי־יַעֲקֹ֖ב`. A marca e sua posição são preservadas no metadado `ScripturaScriptureInlineParashahTypes`; o leitor apresenta o sinal no ponto correto, sem tratá-lo como vocábulo. A reconstrução restitui literalmente a sequência fornecida, inclusive quebra de linha.
-
-O lote inclui arquivos `bhs-genesis-31.js` a `bhs-genesis-40.js`, o carregamento em `index.html`, a adaptação do leitor e os testes de regressão. **Gênesis: 50/50 capítulos (100% de cobertura textual fornecida), 1.533 versículos.** O número de capítulos incorporados não implica cotejo impresso, homologação filológica, licença de redistribuição ou publicação em produção.
-
-## Incorporação textual 013 — Êxodo 1–10 (BHS)
-
-**Procedência:** texto hebraico integral fornecido pelo usuário, sem extração do portal da editora. A transcrição conserva grafia, *niqqud*, *teʿamim*, pontuação massorética e ordem dos pontos de código Unicode, sem emendas, normalização ou tradução. A numeração de Êxodo 7:26–29 corresponde à fonte recebida e não foi adaptada a outras tradições de versificação.
-
-| Capítulo | Versículos | Marcas de *parashah* após versículos |
-| --- | ---: | --- |
-| 1 | 22 | 7 פ; 22 ס |
-| 2 | 25 | 22 פ; 25 ס |
-| 3 | 22 | Nenhuma explicitada no material |
-| 4 | 31 | 17 פ; 26 פ |
-| 5 | 23 | Nenhuma explicitada no material |
-| 6 | 30 | 1 ס; 9 פ; 12 פ; 13 ס; 28 פ; 30 פ |
-| 7 | 29 | 7 פ; 13 פ; 18 ס; 25 פ |
-| 8 | 28 | 11 ס; 15 ס; 28 פ |
-| 9 | 35 | 7 פ; 12 ס; 21 פ; 35 פ |
-| 10 | 29 | 11 פ; 20 פ; 29 פ |
-| **Total** | **274** | **18 פ e 8 ס** |
-
-**Integração:** arquivos `scriptures/texts/bhs-exodus-1.js` a `bhs-exodus-10.js`, registrados no leitor antes de `scriptures/reader.js`, com os mapas `ScripturaScriptureTexts.BHS.EXO`, `ScripturaScriptureParagraphBreaks.BHS.EXO` e `ScripturaScriptureParashahTypes.BHS.EXO`. Foram ampliadas a matriz de contagens, a verificação de segmentação/lexicografia por palavra e a de `פ`/`ס` em `tests/scripture-word-popups.test.cjs`.
-
-**Cobertura:** Êxodo **10/40 capítulos (25%)**, **274 versículos**; somados aos **1.533 versículos de Gênesis 1–50**, são **1.807 versículos** incorporados na camada BHS. Os capítulos Êxodo 11–40 continuam sem transcrição incorporada. A verificação dos direitos de publicação, o cotejo com a BHS impressa e os testes reais de navegador continuam independentes deste trabalho técnico.
-
-## Incorporação textual 014 — Êxodo 11–20 (BHS)
-
-**Procedência:** transcrição hebraica fornecida diretamente pelo usuário. Foram preservados os sinais vocálicos, acentos de cantilação, *maqaf*, *sof pasuq*, letras e ordem original dos pontos de código Unicode, inclusive as sequências particulares de múltiplos sinais em Êxodo 20. Não houve cotejo, emenda editorial, normalização Unicode ou tradução.
-
-| Capítulo | Versículos | Marcas de *parashah* após versículos |
-| --- | ---: | --- |
-| 11 | 10 | 3 ס; 8 ס; 10 פ |
-| 12 | 51 | 20 פ; 28 ס; 36 פ; 42 פ; 50 ס; 51 פ |
-| 13 | 22 | 10 ס; 16 ס; 22 פ |
-| 14 | 31 | 14 פ; 25 פ; 31 פ |
-| 15 | 27 | 19 פ; 21 ס; 26 ס |
-| 16 | 36 | 3 ס; 5 ס; 10 פ; 27 ס; 36 פ |
-| 17 | 16 | 7 פ; 13 פ; 16 פ |
-| 18 | 27 | 27 פ |
-| 19 | 25 | 25 ס |
-| 20 | 26 | 1 ס; 6 ס; 7 פ; 11 ס; 12 ס; 13 ס; 14 ס; 15 ס; 16 ס; 17 פ; 21 פ; 26 פ |
-| **Total** | **271** | **20 פ e 20 ס** |
-
-**Integração:** módulos `scriptures/texts/bhs-exodus-11.js` a `bhs-exodus-20.js`; carregamento registrado em `index.html`; contagens e metadados de *parashah* registrados em `tests/scripture-word-popups.test.cjs`. O conteúdo de cada verso é armazenado em `ScripturaScriptureTexts.BHS.EXO`, com marcas divisórias em `ScripturaScriptureParagraphBreaks` e `ScripturaScriptureParashahTypes` para não confundir `פ` e `ס` com texto lexical.
-
-**Cobertura:** Êxodo **20/40 capítulos (50%)**, **545 versículos**, incluindo o lote anterior de Êxodo 1–10. Com Gênesis 1–50 (**1.533 versículos**), o acumulado da camada BHS é de **2.078 versículos** e **70 capítulos** incorporados. Êxodo 21–40 permanece pendente. O texto foi conferido estruturalmente em relação à transcrição recebida; não equivale a cotejo impresso, homologação filológica, execução automatizada da suíte Node.js nem autorização de redistribuição.
-
-## Incorporação textual 015 — Êxodo 21–30 (BHS)
-
-**Procedência:** transcrição hebraica integral fornecida pelo usuário. Foram conservados a grafia, o *niqqud*, os *teʿamim*, os sinais especiais, o *maqaf*, o *sof pasuq*, a ordem dos pontos de código Unicode e as marcas de *parashah*. Não houve normalização Unicode, correção editorial, tradução ou cotejo com a edição impressa. A numeração em Êxodo 21 (37 versículos) corresponde literalmente à transcrição recebida.
-
-| Capítulo | Versículos | Marcas de *parashah* após versículos |
-| --- | ---: | --- |
-| 21 | 37 | 6 ס; 11 ס; 13 ס; 14 ס; 16 ס; 17 ס; 19 ס; 21 ס; 25 ס; 26 ס; 27 פ; 32 ס; 34 ס; 36 ס |
-| 22 | 30 | 3 ס; 4 ס; 5 ס; 8 ס; 12 פ; 14 ס; 16 ס; 17 ס; 18 ס; 23 פ; 26 ס; 30 ס |
-| 23 | 33 | 1 ס; 3 ס; 4 ס; 5 ס; 19 ס; 33 פ |
-| 24 | 18 | 11 ס; 18 פ |
-| 25 | 40 | 9 ס; 22 פ; 30 פ; 40 ס |
-| 26 | 37 | 6 פ; 14 פ; 30 ס; 37 ס |
-| 27 | 21 | 8 ס; 19 ס; 21 ס |
-| 28 | 43 | 5 פ; 12 ס; 14 ס; 30 ס; 35 ס; 43 ס |
-| 29 | 46 | 37 ס; 46 פ |
-| 30 | 38 | 10 פ; 16 פ; 21 פ; 33 ס; 38 ס |
-| **Total** | **343** | **14 פ e 44 ס** |
-
-**Integração:** dez novos módulos `scriptures/texts/bhs-exodus-21.js` a `bhs-exodus-30.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical foi mantido separado dos metadados de marcas parasséticas.
-
-**Cobertura:** Êxodo **30/40 capítulos (75%)** e **888 versículos**; juntamente com Gênesis 1–50 (**1.533 versículos**), são **2.421 versículos** incorporados na camada BHS em **80 capítulos**. Êxodo 31–40 permanece pendente. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
-
-## Incorporação textual 016 — Êxodo 31–40 (BHS)
-
-**Procedência:** transcrição hebraica integral fornecida pelo usuário. Foram conservados a grafia, o *niqqud*, os *teʿamim*, os sinais especiais, o *maqaf*, o *sof pasuq*, a ordem dos pontos de código Unicode e as marcas de *parashah*. Não houve normalização Unicode, correção editorial, tradução ou cotejo com a edição impressa. A versificação utilizada é a do material transcrito.
-
-| Capítulo | Versículos | Marcas de *parashah* após versículos |
-| --- | ---: | --- |
-| 31 | 18 | 11 פ; 17 ס |
-| 32 | 35 | 6 פ; 14 פ; 35 ס |
-| 33 | 23 | 11 ס; 16 פ; 23 ס |
-| 34 | 35 | 26 פ; 35 ס |
-| 35 | 35 | 3 פ; 29 פ |
-| 36 | 38 | 7 ס; 13 ס; 19 ס; 38 פ |
-| 37 | 29 | 9 פ; 16 פ; 24 פ; 29 פ |
-| 38 | 31 | 7 ס; 8 ס; 20 ס; 23 ס |
-| 39 | 43 | 1 פ; 7 פ; 26 ס; 29 ס; 31 ס; 32 פ; 43 פ |
-| 40 | 38 | 16 ס; 19 ס; 21 ס; 23 ס; 25 ס; 27 פ; 29 ס; 32 ס; 33 פ |
-| **Total** | **325** | **18 פ e 22 ס** |
-
-**Integração:** dez novos módulos `scriptures/texts/bhs-exodus-31.js` a `bhs-exodus-40.js`, scripts de carregamento em `index.html`, contagens por capítulo e mapeamento de *parashot* em `tests/scripture-word-popups.test.cjs`. O texto lexical permanece separado dos metadados de marcas parasséticas.
-
-**Cobertura:** Êxodo **40/40 capítulos (100%)** e **1.213 versículos**; com Gênesis 1–50 (**1.533 versículos**), são **2.746 versículos** da camada BHS distribuídos em **90 capítulos**. O Pentateuco permanece em andamento: faltam Levítico, Números e Deuteronômio. Os controles estruturais e a comparação literal com a fonte não substituem homologação filológica, execução da suíte Node.js, cotejo impresso nem avaliação de direitos de publicação.
-
-## Fontes e licenciamento
-
-- BHS canônica para esta fase: https://www.die-bibel.de/en/bible/BHS/GEN.1
-- LXX: https://www.die-bibel.de/en/bible/LXX/GEN.1
-- NA28: https://www.die-bibel.de/en/bible/NA28/MAT.1
-- UBS5: https://www.die-bibel.de/en/bible/UBS5/MAT.1
-- Orientações de direitos da editora: https://www.die-bibel.de/en/rights
-
-Os links não transferem direitos de reprodução. **Não realizar raspagem, transcrição integral nem redistribuição de edições protegidas sem licença apropriada.** Para o TR, definir previamente a edição exata (por exemplo, Stephanus 1550 ou Scrivener 1894) e sua proveniência digital.
-
-## Pendências verificáveis
-
-- Conferir para cada edição o **número de versículos em cada capítulo**, numeração de títulos e versos e diferenças intereditoriais.
-- Auditar IDs de URL e mapeamento dos livros especiais da LXX com a fonte de edição adotada.
-- Definir o Texto Recebido que servirá de base e os direitos da fonte digital.
-- Incorporar apenas texto permitido e efetivamente cotejado, mantendo registro de procedência e correções.
-- Testar interface em navegador e leitor de tela; os commits desta etapa não constituem homologação editorial do corpus.
-
-Arquivos: `scriptures/reader.js`, `scriptures/reader.css`, integração em `index.html` e `script.js`.
+# Texto hebraico do Scriptura Lexicon — UXLC 2.6
+
+Fonte: Unicode/XML Leningrad Codex, UXLC 2.6 (build 27.7), disponível em https://www.tanach.us/Books/Tanach.xml.zip. A transcrição hebraica pode ser livremente copiada nos termos de https://www.tanach.us/License.html. Os demais arquivos editoriais possuem outras restrições e não são reproduzidos neste corpus.
+
+SHA-256 do ZIP fonte: 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3. Cada palavra XML é copiada sem normalização Unicode. O texto de leitura representa qere quando disponível e retém as palavras ketiv em metadados; as marcas פ e ס são registradas com sua posição. Elementos XML reversednun são representados por ׆ (U+05C6), com offsets UTF-16 e testes de posição. Espaços entre palavras XML são representação derivada; não se afirma que o módulo JavaScript seja uma transcrição byte a byte do arquivo XML. Anotações editoriais não foram publicadas.
+
+## Progresso
+
+| # | Livro | Capítulos | Versículos | Progresso |
+|---:|---|---:|---:|---:|
+| 01 | Genesis | 50/50 | 1533 | 100% |
+| 02 | Exodus | 40/40 | 1213 | 100% |
+| 03 | Leviticus | 27/27 | 859 | 100% |
+| 04 | Numbers | 36/36 | 1289 | 100% |
+| 05 | Deuteronomy | 34/34 | 959 | 100% |
+| 06 | Joshua | 24/24 | 658 | 100% |
+| 07 | Judges | 21/21 | 618 | 100% |
+| 08 | Samuel 1 | 31/31 | 811 | 100% |
+| 09 | Samuel 2 | 24/24 | 695 | 100% |
+| 10 | Kings 1 | 22/22 | 817 | 100% |
+| 11 | Kings 2 | 25/25 | 719 | 100% |
+| 12 | Isaiah | 66/66 | 1291 | 100% |
+| 13 | Jeremiah | 52/52 | 1364 | 100% |
+| 14 | Ezekiel | 48/48 | 1273 | 100% |
+| 15 | Hosea | 14/14 | 197 | 100% |
+| 16 | Joel | 4/4 | 73 | 100% |
+| 17 | Amos | 9/9 | 146 | 100% |
+| 18 | Obadiah | 1/1 | 21 | 100% |
+| 19 | Jonah | 4/4 | 48 | 100% |
+| 20 | Micah | 7/7 | 105 | 100% |
+| 21 | Nahum | 3/3 | 47 | 100% |
+| 22 | Habakkuk | 3/3 | 56 | 100% |
+| 23 | Zephaniah | 3/3 | 53 | 100% |
+| 24 | Haggai | 2/2 | 38 | 100% |
+| 25 | Zechariah | 14/14 | 211 | 100% |
+| 26 | Malachi | 3/3 | 55 | 100% |
+| 27 | Psalms | 150/150 | 2527 | 100% |
+| 28 | Proverbs | 31/31 | 915 | 100% |
+| 29 | Job | 42/42 | 1070 | 100% |
+| 30 | Song of Songs | 8/8 | 117 | 100% |
+| 31 | Ruth | 4/4 | 85 | 100% |
+| 32 | Lamentations | 5/5 | 154 | 100% |
+| 33 | Ecclesiastes | 12/12 | 222 | 100% |
+| 34 | Esther | 10/10 | 167 | 100% |
+| 35 | Daniel | 12/12 | 357 | 100% |
+| 36 | Ezra | 10/10 | 280 | 100% |
+| 37 | Nehemiah | 13/13 | 405 | 100% |
+| 38 | Chronicles 1 | 29/29 | 943 | 100% |
+| 39 | Chronicles 2 | 36/36 | 822 | 100% |
+
+Total: 39/39 livros, 929/929 capítulos, 23213 versículos.
+
+## Histórico
+
+Os 324 módulos antigos, com documentação e testes originais, permanecem em scriptures/archive/legacy-pre-uxlc-2026-10-23/, apenas para comparação e rastreabilidade; não são carregados pela edição UXLC do leitor.
