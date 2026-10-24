@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; PSA 38 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"] ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"][38]={"1":"In finem, ipsi Idithun. Canticum David.","2":"[Dixi: Custodiam vias meas: ut non delinquam in lingua mea. Posui ori meo custodiam, cum consisteret peccator adversum me.","3":"Obmutui, et humiliatus sum, et silui a bonis; et dolor meus renovatus est.","4":"Concaluit cor meum intra me; et in meditatione mea exardescet ignis.","5":"Locutus sum in lingua mea: Notum fac mihi, Domine, finem meum, et numerum dierum meorum quis est, ut sciam quid desit mihi.","6":"Ecce mensurabiles posuisti dies meos, et substantia mea tamquam nihilum ante te. Verumtamen universa vanitas, omnis homo vivens.","7":"Verumtamen in imagine pertransit homo; sed et frustra conturbatur: thesaurizat, et ignorat cui congregabit ea.","8":"Et nunc quæ est exspectatio mea: nonne Dominus? et substantia mea apud te est.","9":"Ab omnibus iniquitatibus meis erue me: opprobrium insipienti dedisti me.","10":"Obmutui, et non aperui os meum, quoniam tu fecisti;","11":"amove a me plagas tuas.","12":"A fortitudine manus tuæ ego defeci in increpationibus: propter iniquitatem corripuisti hominem. Et tabescere fecisti sicut araneam animam ejus: verumtamen vane conturbatur omnis homo.","13":"Exaudi orationem meam, Domine, et deprecationem meam; auribus percipe lacrimas meas. Ne sileas, quoniam advena ego sum apud te, et peregrinus sicut omnes patres mei.","14":"Remitte mihi, ut refrigerer priusquam abeam et amplius non ero.]"};
+})();

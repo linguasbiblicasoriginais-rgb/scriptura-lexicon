@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; PSA 35 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"] ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"][35]={"1":"In finem. Servo Domini ipsi David.","2":"[Dixit injustus ut delinquat in semetipso: non est timor Dei ante oculos ejus.","3":"Quoniam dolose egit in conspectu ejus, ut inveniatur iniquitas ejus ad odium.","4":"Verba oris ejus iniquitas, et dolus; noluit intelligere ut bene ageret.","5":"Iniquitatem meditatus est in cubili suo; astitit omni viæ non bonæ: malitiam autem non odivit.","6":"Domine, in cælo misericordia tua, et veritas tua usque ad nubes.","7":"Justitia tua sicut montes Dei; judicia tua abyssus multa. Homines et jumenta salvabis, Domine,","8":"quemadmodum multiplicasti misericordiam tuam, Deus. Filii autem hominum in tegmine alarum tuarum sperabunt.","9":"Inebriabuntur ab ubertate domus tuæ, et torrente voluptatis tuæ potabis eos:","10":"quoniam apud te est fons vitæ, et in lumine tuo videbimus lumen.","11":"Prætende misericordiam tuam scientibus te, et justitiam tuam his qui recto sunt corde.","12":"Non veniat mihi pes superbiæ, et manus peccatoris non moveat me.","13":"Ibi ceciderunt qui operantur iniquitatem; expulsi sunt, nec potuerunt stare.]"};
+})();

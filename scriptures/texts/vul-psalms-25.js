@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; PSA 25 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"] ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"][25]={"1":"In finem. Psalmus David. [Judica me, Domine, quoniam ego in innocentia mea ingressus sum, et in Domino sperans non infirmabor.","2":"Proba me, Domine, et tenta me; ure renes meos et cor meum.","3":"Quoniam misericordia tua ante oculos meos est, et complacui in veritate tua.","4":"Non sedi cum concilio vanitatis, et cum iniqua gerentibus non introibo.","5":"Odivi ecclesiam malignantium, et cum impiis non sedebo.","6":"Lavabo inter innocentes manus meas, et circumdabo altare tuum, Domine:","7":"ut audiam vocem laudis, et enarrem universa mirabilia tua.","8":"Domine, dilexi decorem domus tuæ, et locum habitationis gloriæ tuæ.","9":"Ne perdas cum impiis, Deus, animam meam, et cum viris sanguinum vitam meam:","10":"in quorum manibus iniquitates sunt; dextera eorum repleta est muneribus.","11":"Ego autem in innocentia mea ingressus sum; redime me, et miserere mei.","12":"Pes meus stetit in directo; in ecclesiis benedicam te, Domine.]"};
+})();

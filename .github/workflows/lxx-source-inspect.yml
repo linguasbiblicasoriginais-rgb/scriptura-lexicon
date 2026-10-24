@@ -1,0 +1,26 @@
+name: LXX — inventariar fonte Brenton antes da importação
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths:
+      - .github/workflows/lxx-source-inspect.yml
+      - scripts/lxx_inspect.py
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lxx-source-inspect
+  cancel-in-progress: false
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar corpus grego declarado de domínio público
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 \
+            https://ebible.org/Scriptures/grcbrent_usfx.zip -o /tmp/grcbrent_usfx.zip
+      - name: Inventariar todos os livros, versículos e elementos estruturais
+        run: python3 scripts/lxx_inspect.py /tmp/grcbrent_usfx.zip
