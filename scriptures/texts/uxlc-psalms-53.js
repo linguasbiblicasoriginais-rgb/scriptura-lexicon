@@ -1,0 +1,18 @@
+/* Unicode/XML Leningrad Codex UXLC 2.6; Psalms 53; 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3 */
+(function(){
+'use strict';
+const verses={"1":"לַמְנַצֵּ֥חַ עַֽל־מָחֲלַ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃","2":"אָ֘מַ֤ר נָבָ֣ל בְּ֭לִבּוֹ אֵ֣ין אֱלֹהִ֑ים הִֽ֝שְׁחִ֗יתוּ וְהִֽתְעִ֥יבוּ עָ֝֗וֶל אֵ֣ין עֹֽשֵׂה־טֽוֹב׃","3":"אֱ‍ֽלֹהִ֗ים מִשָּׁמַיִם֮ הִשְׁקִ֢יף עַֽל־בְּנֵ֫י אָדָֽם לִ֭רְאוֹת הֲיֵ֣שׁ מַשְׂכִּ֑יל דֹּ֝רֵ֗שׁ אֶת־אֱלֹהִֽים׃","4":"כֻּלּ֥וֹ סָג֮ יַחְדָּ֢ו נֶ֫אֱלָ֥חוּ אֵ֤ין עֹֽשֵׂה־ט֑וֹב אֵ֝֗ין גַּם־אֶחָֽד׃","5":"הֲלֹ֥א יָדְעוּ֮ פֹּ֤עֲלֵ֫י אָ֥וֶן אֹכְלֵ֣י עַ֭מִּי אָ֣כְלוּ לֶ֑חֶם אֱ֝לֹהִ֗ים לֹ֣א קָרָֽאוּ׃","6":"שָׁ֤ם ׀ פָּ֥חֲדוּ פַחַד֮ לֹא־הָ֢יָ֫ה פָ֥חַד כִּֽי־אֱלֹהִ֗ים פִּ֭זַּר עַצְמ֣וֹת חֹנָ֑ךְ הֱ֝בִשֹׁ֗תָה כִּֽי־אֱלֹהִ֥ים מְאָסָֽם׃","7":"מִֽי יִתֵּ֣ן מִצִיּוֹן֮ יְשֻׁע֢וֹת יִשְׂרָ֫אֵ֥ל בְּשׁ֣וּב אֱ֭לֹהִים שְׁב֣וּת עַמּ֑וֹ יָגֵ֥ל יַ֝עֲקֹ֗ב יִשְׂמַ֥ח יִשְׂרָאֵֽל׃"};
+const types={};
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.UXLC ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"] ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"][53]=verses;
+window.ScripturaScriptureParagraphBreaks ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"][53]=[];
+window.ScripturaScriptureParashahTypes ||= {};
+window.ScripturaScriptureParashahTypes.UXLC ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"][53]=types;
+})();

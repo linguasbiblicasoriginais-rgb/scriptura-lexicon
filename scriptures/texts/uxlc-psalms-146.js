@@ -1,0 +1,18 @@
+/* Unicode/XML Leningrad Codex UXLC 2.6; Psalms 146; 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3 */
+(function(){
+'use strict';
+const verses={"1":"הַֽלְלוּ־יָ֡הּ הַלְלִ֥י נַ֝פְשִׁ֗י אֶת־יְהוָֽה׃","2":"אֲהַלְלָ֣ה יְהוָ֣ה בְּחַיָּ֑י אֲזַמְּרָ֖ה לֵֽאלֹהַ֣י בְּעוֹדִֽי׃","3":"אַל־תִּבְטְח֥וּ בִנְדִיבִ֑ים בְּבֶן־אָדָ֓ם ׀ שֶׁ֤אֵֽין ל֥וֹ תְשׁוּעָֽה׃","4":"תֵּצֵ֣א ר֭וּחוֹ יָשֻׁ֣ב לְאַדְמָת֑וֹ בַּיּ֥וֹם הַ֝ה֗וּא אָבְד֥וּ עֶשְׁתֹּנֹתָֽיו׃","5":"אַשְׁרֵ֗י שֶׁ֤אֵ֣ל יַעֲקֹ֣ב בְּעֶזְר֑וֹ שִׂ֝בְר֗וֹ עַל־יְהוָ֥ה אֱלֹהָֽיו׃","6":"עֹשֶׂ֤ה ׀ שָׁ֘מַ֤יִם וָאָ֗רֶץ אֶת־הַיָּ֥ם וְאֶת־כָּל־אֲשֶׁר־בָּ֑ם הַשֹּׁמֵ֖ר אֱמֶ֣ת לְעוֹלָֽם׃","7":"עֹשֶׂ֤ה מִשְׁפָּ֨ט ׀ לָעֲשׁוּקִ֗ים נֹתֵ֣ן לֶ֭חֶם לָרְעֵבִ֑ים יְ֝הוָ֗ה מַתִּ֥יר אֲסוּרִֽים׃","8":"יְהוָ֤ה ׀ פֹּ֘קֵ֤חַ עִוְרִ֗ים יְ֭הוָה זֹקֵ֣ף כְּפוּפִ֑ים יְ֝הוָ֗ה אֹהֵ֥ב צַדִּיקִֽים׃","9":"יְהוָ֤ה ׀ שֹׁ֘מֵ֤ר אֶת־גֵּרִ֗ים יָת֣וֹם וְאַלְמָנָ֣ה יְעוֹדֵ֑ד וְדֶ֖רֶךְ רְשָׁעִ֣ים יְעַוֵּֽת׃","10":"יִמְלֹ֤ךְ יְהוָ֨ה ׀ לְעוֹלָ֗ם אֱלֹהַ֣יִךְ צִ֭יּוֹן לְדֹ֥ר וָדֹ֗ר הַֽלְלוּ־יָֽהּ׃"};
+const types={};
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.UXLC ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"] ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"][146]=verses;
+window.ScripturaScriptureParagraphBreaks ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"][146]=[];
+window.ScripturaScriptureParashahTypes ||= {};
+window.ScripturaScriptureParashahTypes.UXLC ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"][146]=types;
+})();
