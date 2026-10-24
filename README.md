@@ -115,6 +115,14 @@ A interface inclui **Escrituras Sagradas** como categoria independente acima dos
 
 **Décima segunda incorporação textual:** Gênesis 31–40 (BHS), **322 versículos**, completando o intervalo que permanecia pendente. Preservadas 14 marcas de parashah, inclusive **פ dentro de Gênesis 35:22** com tratamento especial no leitor. **Acumulado BHS Gênesis: 50/50 capítulos (100%), 1.533 versículos**. O cotejo da edição impressa, a avaliação de direitos e a homologação editorial permanecem pendentes.
 
+**Décima terceira incorporação textual:** Êxodo 1–10 (BHS), **274 versículos** e **26 marcas de *parashah*** (18 פ e 8 ס), a partir da transcrição hebraica fornecida pelo usuário, sem normalização ou emendas. Incluídos os dez módulos de capítulos, seus links de carregamento, testes de contagem/segmentação/posições de *parashot* e documentação. **Acumulado: Gênesis 50/50 capítulos (1.533 versículos), Êxodo 10/40 (274), total BHS de 1.807 versículos.** Edição impressa, licença e homologação filológica permanecem pendentes.
+
+**Décima quarta incorporação textual:** Êxodo 11–20 (BHS), **271 versículos** e **40 marcas de *parashah*** (20 פ e 20 ס), integralmente reproduzidos da transcrição do usuário sem emenda, tradução ou normalização Unicode, inclusive os acentos múltiplos de Êxodo 20. Dez novos módulos, scripts de carregamento, registros de testes e documentação. **Acumulado: Gênesis 50/50 capítulos (1.533 versículos), Êxodo 20/40 (545), total BHS de 2.078 versículos.** A auditoria filológica, execução da suíte em Node.js e direitos de publicação continuam independentes.
+
+**Décima quinta incorporação textual:** Êxodo 21–30 (BHS), **343 versículos** e **58 marcas de *parashah*** (14 פ e 44 ס), reproduzidos literalmente do material do usuário sem normalização, emendas ou tradução. Incluídos dez módulos, carregamento no leitor, testes de contagens e posições de *parashot* e documentação. **Acumulado: Gênesis 50/50 (1.533 versículos); Êxodo 30/40 (888 versículos); total BHS de 2.421 versículos, distribuídos em 80 capítulos.** Cotejo filológico, execução da suíte Node.js e direitos de publicação são verificações independentes.
+
+**Décima sexta incorporação textual:** Êxodo 31–40 (BHS), **325 versículos** e **40 marcas de *parashah*** (18 פ e 22 ס), reproduzidos literalmente do material do usuário sem normalização, emendas ou tradução. Incluídos dez módulos, carregamento no leitor, testes de contagens e posições de *parashot* e documentação. **Êxodo está completo: 40/40 capítulos, 1.213 versículos.** **Acumulado BHS:** Gênesis 50/50 (1.533 versículos) e Êxodo 40/40 (1.213 versículos), **2.746 versículos em 90 capítulos**. Cotejo filológico, execução da suíte Node.js e direitos de publicação são verificações independentes.
+
 **Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas

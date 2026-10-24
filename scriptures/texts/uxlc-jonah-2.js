@@ -1,0 +1,18 @@
+/* Unicode/XML Leningrad Codex UXLC 2.6; Jonah 2; 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3 */
+(function(){
+'use strict';
+const verses={"1":"וַיְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִבְלֹ֖עַ אֶת־יוֹנָ֑ה וַיְהִ֤י יוֹנָה֙ בִּמְעֵ֣י הַדָּ֔ג שְׁלֹשָׁ֥ה יָמִ֖ים וּשְׁלֹשָׁ֥ה לֵילֽוֹת׃","2":"וַיִּתְפַּלֵּ֣ל יוֹנָ֔ה אֶל־יְהוָ֖ה אֱלֹהָ֑יו מִמְּעֵ֖י הַדָּגָֽה׃","3":"וַיֹּ֗אמֶר קָ֠רָאתִי מִצָּ֥רָה לִ֛י אֶל־יְהוָ֖ה וַֽיַּעֲנֵ֑נִי מִבֶּ֧טֶן שְׁא֛וֹל שִׁוַּ֖עְתִּי שָׁמַ֥עְתָּ קוֹלִֽי׃","4":"וַתַּשְׁלִיכֵ֤נִי מְצוּלָה֙ בִּלְבַ֣ב יַמִּ֔ים וְנָהָ֖ר יְסֹבְבֵ֑נִי כָּל־מִשְׁבָּרֶ֥יךָ וְגַלֶּ֖יךָ עָלַ֥י עָבָֽרוּ׃","5":"וַאֲנִ֣י אָמַ֔רְתִּי נִגְרַ֖שְׁתִּי מִנֶּ֣גֶד עֵינֶ֑יךָ אַ֚ךְ אוֹסִ֣יף לְהַבִּ֔יט אֶל־הֵיכַ֖ל קָדְשֶֽׁךָ׃","6":"אֲפָפ֤וּנִי מַ֙יִם֙ עַד־נֶ֔פֶשׁ תְּה֖וֹם יְסֹבְבֵ֑נִי ס֖וּף חָב֥וּשׁ לְרֹאשִֽׁי׃","7":"לְקִצְבֵ֤י הָרִים֙ יָרַ֔דְתִּי הָאָ֛רֶץ בְּרִחֶ֥יהָ בַעֲדִ֖י לְעוֹלָ֑ם וַתַּ֧עַל מִשַּׁ֛חַת חַיַּ֖י יְהוָ֥ה אֱלֹהָֽי׃","8":"בְּהִתְעַטֵּ֤ף עָלַי֙ נַפְשִׁ֔י אֶת־יְהוָ֖ה זָכָ֑רְתִּי וַתָּב֤וֹא אֵלֶ֙יךָ֙ תְּפִלָּתִ֔י אֶל־הֵיכַ֖ל קָדְשֶֽׁךָ׃","9":"מְשַׁמְּרִ֖ים הַבְלֵי־שָׁ֑וְא חַסְדָּ֖ם יַעֲזֹֽבוּ׃","10":"וַאֲנִ֗י בְּק֤וֹל תּוֹדָה֙ אֶזְבְּחָה־לָּ֔ךְ אֲשֶׁ֥ר נָדַ֖רְתִּי אֲשַׁלֵּ֑מָה יְשׁוּעָ֖תָה לַיהוָֽה׃","11":"וַיֹּ֥אמֶר יְהוָ֖ה לַדָּ֑ג וַיָּקֵ֥א אֶת־יוֹנָ֖ה אֶל־הַיַּבָּשָֽׁה׃"};
+const types={"10":"ס","11":"פ"};
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.UXLC ||= {};
+window.ScripturaScriptureTexts.UXLC["JON"] ||= {};
+window.ScripturaScriptureTexts.UXLC["JON"][2]=verses;
+window.ScripturaScriptureParagraphBreaks ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["JON"] ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["JON"][2]=[10,11];
+window.ScripturaScriptureParashahTypes ||= {};
+window.ScripturaScriptureParashahTypes.UXLC ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["JON"] ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["JON"][2]=types;
+})();

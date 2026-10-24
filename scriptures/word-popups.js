@@ -177,7 +177,7 @@
         return output || text;
     }
     function getInfo(edition, form) {
-        const group = edition === "BHS" ? "BHS" : edition === "VUL" ? "VUL" : "GRC";
+        const group = (edition === "BHS" || edition === "UXLC") ? "BHS" : edition === "VUL" ? "VUL" : "GRC";
         const key = group === "BHS" ? stripHebrew(form) :
             group === "GRC" ? stripGreek(form) : form.toLowerCase();
         const gloss = lexemes[group][key] || null;

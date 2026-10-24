@@ -1,0 +1,18 @@
+/* Unicode/XML Leningrad Codex UXLC 2.6; Psalms 13; 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3 */
+(function(){
+'use strict';
+const verses={"1":"לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃","2":"עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣יךָ מִמֶּֽנִי","3":"עַד־אָ֨נָה אָשִׁ֪ית עֵצ֡וֹת בְּנַפְשִׁ֗י יָג֣וֹן בִּלְבָבִ֣י יוֹמָ֑ם עַד־אָ֓נָה ׀ יָר֖וּם אֹיְבִ֣י עָלָֽי׃","4":"הַבִּ֣יטָֽה עֲ֭נֵנִי יְהוָ֣ה אֱלֹהָ֑י הָאִ֥ירָה עֵ֝ינַ֗י פֶּן־אִישַׁ֥ן הַמָּֽוֶת׃","5":"פֶּן־יֹאמַ֣ר אֹיְבִ֣י יְכָלְתִּ֑יו צָרַ֥י יָ֝גִ֗ילוּ כִּ֣י אֶמּֽוֹט׃","6":"וַאֲנִ֤י ׀ בְּחַסְדְּךָ֣ בָטַחְתִּי֮ יָ֤גֵ֥ל לִבִּ֗י בִּֽישׁוּעָ֫תֶ֥ךָ אָשִׁ֥ירָה לַיהוָ֑ה כִּ֖י גָמַ֣ל עָלָֽי׃"};
+const types={};
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.UXLC ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"] ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"][13]=verses;
+window.ScripturaScriptureParagraphBreaks ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"][13]=[];
+window.ScripturaScriptureParashahTypes ||= {};
+window.ScripturaScriptureParashahTypes.UXLC ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"][13]=types;
+})();
