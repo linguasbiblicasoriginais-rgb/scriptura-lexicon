@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; PSA 84 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"] ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"][84]={"1":"In finem, filiis Core. Psalmus.","2":"[Benedixisti, Domine, terram tuam; avertisti captivitatem Jacob.","3":"Remisisti iniquitatem plebis tuæ; operuisti omnia peccata eorum.","4":"Mitigasti omnem iram tuam; avertisti ab ira indignationis tuæ.","5":"Converte nos, Deus salutaris noster, et averte iram tuam a nobis.","6":"Numquid in æternum irasceris nobis? aut extendes iram tuam a generatione in generationem?","7":"Deus, tu conversus vivificabis nos, et plebs tua lætabitur in te.","8":"Ostende nobis, Domine, misericordiam tuam, et salutare tuum da nobis.","9":"Audiam quid loquatur in me Dominus Deus, quoniam loquetur pacem in plebem suam, et super sanctos suos, et in eos qui convertuntur ad cor.","10":"Verumtamen prope timentes eum salutare ipsius, ut inhabitet gloria in terra nostra.","11":"Misericordia et veritas obviaverunt sibi; justitia et pax osculatæ sunt.","12":"Veritas de terra orta est, et justitia de cælo prospexit.","13":"Etenim Dominus dabit benignitatem, et terra nostra dabit fructum suum.","14":"Justitia ante eum ambulabit, et ponet in via gressus suos.]"};
+})();

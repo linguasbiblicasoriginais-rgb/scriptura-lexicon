@@ -9,7 +9,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
         TR: "Novo Testamento Grego – Texto Recebido (TR)",
-        VUL: "Biblia Sacra Vulgata (VUL)"
+        VUL: "Biblia Sacra Vulgata Clementina (1598)"
     };
     const editionOrder = ["UXLC", "LXX", "NA28", "UBS5", "TR", "VUL"];
     const catalog = {};
@@ -297,7 +297,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         renderTexts();
         feedback.textContent = !canLink ?
             (state.edition === "TR" ? "O Texto Recebido depende da definição de uma edição canônica (por exemplo, Stephanus ou Scrivener)." :
-            state.edition === "VUL" ? "A Vulgata utiliza o texto latino fornecido; a edição exata e o vínculo externo ainda não foram verificados." :
+            state.edition === "VUL" ? "Texto latino da Vulgata Clementina (1598), eBible latVUC; notas editoriais preservadas separadamente." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
     }
     function show(edition, bookId, chapter, verse, updateHash) {
