@@ -1,35 +1,54 @@
-name: UXLC — inspeção inicial sem alterações no corpus
+name: UXLC — inspecionar XML e registrar estrutura
 on:
   push:
     branches: [chat-gpt-escrituras]
-    paths: ['.github/workflows/uxlc-inspect.yml']
+    paths:
+      - '.github/workflows/uxlc-inspect.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   inspect:
     runs-on: ubuntu-latest
     steps:
-      - name: Obter UXLC 2.6 oficial e conferir SHA-256
+      - uses: actions/checkout@v4
+      - name: Baixar fonte fixada e conferir SHA-256
         run: |
           set -euo pipefail
-          curl --fail --location --silent --show-error --retry 3 'https://www.tanach.us/Books/Tanach.xml.zip' --output /tmp/Tanach.xml.zip
-          echo "423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3  /tmp/Tanach.xml.zip" | sha256sum --check
+          curl --fail --location --silent --show-error --retry 3 \
+            'https://www.tanach.us/Books/Tanach.xml.zip' -o /tmp/Tanach.xml.zip
+          echo '423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3  /tmp/Tanach.xml.zip' | sha256sum -c -
+      - name: Inspecionar estrutura sem publicar conteúdo
+        run: |
           python3 - <<'PY'
-          import zipfile,xml.etree.ElementTree as E,collections
+          import zipfile,xml.etree.ElementTree as E,collections,json
           with zipfile.ZipFile('/tmp/Tanach.xml.zip') as z:
               names=z.namelist()
-              print('ARCHIVE',len(names),names[:12])
-              for book in ['Genesis.xml','Habakkuk.xml','Chronicles 2.xml']:
-                  found=[x for x in names if x.endswith('/'+book) or x==book]
-                  assert len(found)==1,(book,found)
+              info={"zipFiles":names,"examples":{}}
+              for book in ["Genesis.xml","Habakkuk.xml","Chronicles 2.xml"]:
+                  found=[x for x in names if x.endswith("/"+book) or x==book]
+                  assert len(found)==1, (book,found)
                   root=E.fromstring(z.read(found[0]))
-                  print('BOOK',book,'ROOT',root.tag,'CHILDREN',[(x.tag,x.attrib) for x in list(root)[:6]])
-                  d=collections.Counter(x.tag.rsplit('}',1)[-1] for x in root.iter())
-                  print('TAGS',d.most_common(20))
-                  cvs=[x for x in root.iter() if x.tag.rsplit('}',1)[-1] in ('c','v')]
-                  print('CV SAMPLE',[(x.tag,x.attrib,repr(''.join(x.itertext())[:35])) for x in cvs[:5]])
-                  vv=[x for x in root.iter() if x.tag.rsplit('}',1)[-1]=='v']
-                  if vv:
-                      print('VERSE CHILDREN',[(x.tag,x.attrib,repr(''.join(x.itertext())[:30]),repr(x.tail)) for x in list(vv[0])[:12]])
+                  t=lambda x:x.tag.rsplit("}",1)[-1]
+                  chapters=[x for x in root.iter() if t(x)=="c"]
+                  verses=[x for x in root.iter() if t(x)=="v"]
+                  v=verses[0] if verses else None
+                  info["examples"][book]={
+                      "rootTag":t(root),"rootChildren":[[t(x),x.attrib] for x in list(root)[:6]],
+                      "tags":dict(collections.Counter(t(x) for x in root.iter())),
+                      "chapters":len(chapters),"chapterFirst":[x.attrib for x in chapters[:3]],
+                      "verseFirst":[x.attrib for x in verses[:5]],
+                      "verseChildKinds":[[t(x),x.attrib] for x in list(v)[:15]] if v is not None else [],
+                      "verseTextLen":len("".join(v.itertext())) if v is not None else 0,
+                  }
+              with open("scriptures/uxlc-inspection.json","w",encoding="utf8") as f:
+                  json.dump(info,f,ensure_ascii=False,indent=2)
           PY
+      - name: Registrar resultado da inspeção na branch de trabalho
+        run: |
+          set -euo pipefail
+          git config user.name 'Scriptura Lexicon UXLC'
+          git config user.email 'uxlc-import@users.noreply.github.com'
+          git add scriptures/uxlc-inspection.json
+          git commit -m 'Escrituras UXLC: registrar estrutura XML comprovada'
+          git push origin HEAD:chat-gpt-escrituras
