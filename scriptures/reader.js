@@ -321,6 +321,8 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         const verseMap = activeVerseMap();
         const knownVerseNumbers = verseMap ? Object.keys(verseMap).map(Number).filter(Number.isSafeInteger) : [];
         const knownVerseLimit = knownVerseNumbers.length ? Math.max(...knownVerseNumbers) : null;
+        const knownVerseMinimum = knownVerseNumbers.length ? Math.min(...knownVerseNumbers) : null;
+        if (knownVerseMinimum !== null && state.verse < knownVerseMinimum) state.verse = knownVerseMinimum;
         if (knownVerseLimit !== null && state.verse > knownVerseLimit) state.verse = knownVerseLimit;
         if (knownVerseLimit === null) verseInput.removeAttribute("max");
         else verseInput.max = String(knownVerseLimit);
@@ -380,10 +382,23 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         const match = /^#(escrituras|apocrifos)\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
         if (!match) return false;
         const scope=match[1],edition=match[2],bookId=match[3];
-        // Links históricos que apontam para livros apócrifos levam à seção correta.
+        const chapter=positiveInt(match[4],1),verse=positiveInt(match[5],1);
+        const latin = edition === "VUL" || edition === "VULJ";
+        // URLs antigas apontam para a nova seção sem perder a referência da fonte.
+        if (latin && bookId === "EST" && chapter === 10 && verse >= 4) {
+            show(edition,"EST_ADD",1,verse,false,"apocrifos");syncHash();return true;
+        }
+        if (latin && bookId === "EST" && chapter >= 11 && chapter <= 16) {
+            show(edition,"EST_ADD",chapter-9,verse,false,"apocrifos");syncHash();return true;
+        }
+        if (latin && bookId === "DAN" && (chapter === 13 || chapter === 14)) {
+            show(edition,chapter === 13 ? "DAN_SUS" : "DAN_BEL",1,verse,false,"apocrifos");
+            syncHash();return true;
+        }
         const isApocrypha=bookId && apocryphaCatalog[edition]?.some(b=>b.id===bookId);
-        show(edition,bookId,match[4],match[5],false,isApocrypha?"apocrifos":scope);
-        if(isApocrypha && scope!=="apocrifos")syncHash();
+        show(edition,bookId,chapter,verse,false,isApocrypha?"apocrifos":scope);
+        if ((isApocrypha && scope !== "apocrifos") || chapter !== state.chapter || verse !== state.verse)
+            syncHash();
         return true;
     }
     editionSelect.addEventListener("change", function () { show(editionSelect.value, null, 1, 1, true, state.scope); });
