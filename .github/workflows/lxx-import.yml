@@ -1,0 +1,62 @@
+name: LXX — importar Brenton com validação integral
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths: ['scripts/lxx_import.py','.github/workflows/lxx-import.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: lxx-brenton-import-locked
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-melhorias
+          fetch-depth: 1
+      - name: Baixar fonte oficial fixa por SHA256
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 \
+            https://ebible.org/Scriptures/grcbrent_usfx.zip -o /tmp/grcbrent_usfx.zip
+      - name: Gerar e validar corpus completo
+        run: |
+          set -euo pipefail
+          python3 scripts/lxx_import.py /tmp/grcbrent_usfx.zip
+      - name: Validar módulos e integridade de referências
+        run: |
+          set -euo pipefail
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+          const manifest=JSON.parse(fs.readFileSync('scriptures/lxx-brenton-progress.json','utf8'));
+          assert.equal(manifest.chapters,1104);
+          assert.equal(manifest.sourceBooks,52);
+          const html=fs.readFileSync('index.html','utf8');
+          let sum=0,loaded=0;
+          const window={},ctx=vm.createContext({window});
+          for(const b of manifest.books)for(let c=1;c<=b.chapters;c++){
+            const path='scriptures/texts/lxx-'+b.slug+'-'+c+'.js';
+            assert.equal(html.split('src="'+path+'"').length-1,1,path);
+            vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
+            const v=window.ScripturaScriptureTexts.LXX[b.id][c];
+            assert.equal(Object.keys(v).length,b.perChapter[c-1],path);
+            sum+=Object.keys(v).length;loaded++;
+          }
+          assert.equal(loaded,manifest.chapters);
+          assert.equal(sum,manifest.verses);
+          console.log('OK LXX:',loaded,'capítulos;',sum,'versículos');
+          NODE
+      - name: Publicar somente após validação completa
+        run: |
+          set -euo pipefail
+          git config user.name 'Scriptura Lexicon UXLC/LXX'
+          git config user.email 'lxx-import@users.noreply.github.com'
+          git add index.html scriptures/reader.js scriptures/texts/lxx-*.js \
+            scriptures/lxx-brenton-progress.json scriptures/archive/legacy-pre-brenton-2026-10-24/
+          if git diff --cached --quiet; then echo 'Nenhuma alteração'; exit 0; fi
+          git commit -m 'Escrituras: incorporar Septuaginta grega de Brenton com rastreabilidade'
+          git push origin HEAD:chat-gpt-melhorias
