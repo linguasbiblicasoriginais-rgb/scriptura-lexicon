@@ -42,13 +42,13 @@
     <aside
         id="dictionary-menu"
         class="dictionary-drawer"
-        aria-label="Escrituras Sagradas, dicionários e aparência"
+        aria-label="Navegação principal"
         aria-hidden="true"
     >
         <div class="dictionary-drawer-header">
             <div>
                 <div class="drawer-title">Scriptura Lexicon</div>
-                <div class="drawer-subtitle">Escrituras Sagradas · Dicionários</div>
+                <div class="drawer-subtitle">Seções do acervo</div>
             </div>
 
             <button
@@ -61,53 +61,14 @@
             </button>
         </div>
 
-        <nav class="dictionary-nav" aria-label="Escolher dicionário">
-            <button class="dictionary-option" type="button" data-dictionary-target="hebraico">
-                <span class="dictionary-option-name">Hebraico–Português</span>
-                <span class="dictionary-option-code">HE–PT</span>
-            </button>
-
-            <button class="dictionary-option" type="button" data-dictionary-target="aramaico">
-                <span class="dictionary-option-name">Aramaico–Português</span>
-                <span class="dictionary-option-code">AR–PT</span>
-            </button>
-
-            <button class="dictionary-option" type="button" data-dictionary-target="grego">
-                <span class="dictionary-option-name">Grego–Português</span>
-                <span class="dictionary-option-code">GR–PT</span>
-            </button>
-
-            <button class="dictionary-option" type="button" data-dictionary-target="latim">
-                <span class="dictionary-option-name">Latim–Português</span>
-                <span class="dictionary-option-code">LA–PT</span>
-            </button>
+        <nav class="site-menu-nav" aria-label="Seções principais">
+            <button type="button" class="site-menu-item" data-site-section="escrituras"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M12 6c-2.6-2-5.6-2.5-9-1.6v14c3.4-.9 6.4-.4 9 1.6m0-14c2.6-2 5.6-2.5 9-1.6v14c-3.4-.9-6.4-.4-9 1.6M12 6v14'/></svg><span>Escrituras Sagradas</span></button>
+            <button type="button" class="site-menu-item" data-site-section="patristica"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M5 21V4l7-2 7 2v17l-7 2-7-2ZM12 2v21M8 9h2m4 0h2m-8 4h2m4 0h2'/></svg><span>Literatura patrística</span></button>
+            <button type="button" class="site-menu-item" data-site-section="apocrifos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M6 3h13v18H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3ZM3 18a3 3 0 0 1 3-3h13M9 8h7m-7 3h5'/></svg><span>Literatura apócrifa</span></button>
+            <button type="button" class="site-menu-item" data-site-section="pseudepigrafos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M5 2h11l4 4v15H5V2Zm11 0v4h4M8 11h9m-9 4h9m-9 3h6'/></svg><span>Textos pseudepigráficos</span></button>
+            <button type="button" class="site-menu-item" data-site-section="dicionarios"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M3 5h7a4 4 0 0 1 4 4v12a4 4 0 0 0-4-4H3V5Zm18 0h-3a4 4 0 0 0-4 4v12a4 4 0 0 1 4-4h3V5ZM6 9h5m-5 3h5'/></svg><span>Dicionários e Léxicos</span></button>
+            <button type="button" class="site-menu-item" data-site-section="configuracoes"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx='12' cy='12' r='3'/><path d='M10 2h4l.6 2.4 2 1 2.2-1 2 3.3-1.7 1.8v2.3l1.7 1.8-2 3.3-2.2-1-2 1L14 20h-4l-.6-2.4-2-1-2.2 1-2-3.3 1.7-1.8v-2.3L3.2 8l2-3.3 2.2 1 2-1L10 2Z'/></svg><span>Configurações</span></button>
         </nav>
-
-        <fieldset class="theme-selector">
-            <legend class="theme-selector-title">Aparência</legend>
-            <div class="theme-options">
-                <label class="theme-choice">
-                    <input type="radio" name="site-theme" value="light">
-                    <span class="theme-choice-content">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="12" cy="12" r="4"></circle>
-                            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
-                        </svg>
-                        <span>Tema claro</span>
-                    </span>
-                </label>
-
-                <label class="theme-choice">
-                    <input type="radio" name="site-theme" value="dark" checked>
-                    <span class="theme-choice-content">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M20.8 14.1A9 9 0 0 1 9.9 3.2 9 9 0 1 0 20.8 14.1Z"></path>
-                        </svg>
-                        <span>Tema escuro</span>
-                    </span>
-                </label>
-            </div>
-        </fieldset>
     </aside>
 
 
@@ -139,6 +100,59 @@
             <div class="project-short">LEXICON</div>
         </header>
 
+        <section id="site-section-hub" class="site-section-hub" aria-labelledby="site-section-title" hidden>
+            <button type="button" class="site-back-link" data-site-section="inicio">← Página inicial</button>
+            <div class="site-section-kicker">Scriptura Lexicon · Biblioteca</div>
+            <h1 id="site-section-title">Biblioteca</h1>
+            <p id="site-section-description"></p>
+            <div id="site-section-cards" class="site-section-cards"></div>
+            <div id="site-dictionary-options" class="site-subsection-content" hidden>        <nav class="dictionary-nav" aria-label="Escolher dicionário">
+            <button class="dictionary-option" type="button" data-dictionary-target="hebraico">
+                <span class="dictionary-option-name">Hebraico–Português</span>
+                <span class="dictionary-option-code">HE–PT</span>
+            </button>
+
+            <button class="dictionary-option" type="button" data-dictionary-target="aramaico">
+                <span class="dictionary-option-name">Aramaico–Português</span>
+                <span class="dictionary-option-code">AR–PT</span>
+            </button>
+
+            <button class="dictionary-option" type="button" data-dictionary-target="grego">
+                <span class="dictionary-option-name">Grego–Português</span>
+                <span class="dictionary-option-code">GR–PT</span>
+            </button>
+
+            <button class="dictionary-option" type="button" data-dictionary-target="latim">
+                <span class="dictionary-option-name">Latim–Português</span>
+                <span class="dictionary-option-code">LA–PT</span>
+            </button>
+        </nav></div>
+            <div id="site-settings-content" class="site-subsection-content" hidden><fieldset class="theme-selector">
+            <legend class="theme-selector-title">Aparência</legend>
+            <div class="theme-options">
+                <label class="theme-choice">
+                    <input type="radio" name="site-theme" value="light">
+                    <span class="theme-choice-content">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+                        </svg>
+                        <span>Tema claro</span>
+                    </span>
+                </label>
+
+                <label class="theme-choice">
+                    <input type="radio" name="site-theme" value="dark" checked>
+                    <span class="theme-choice-content">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.8 14.1A9 9 0 0 1 9.9 3.2 9 9 0 1 0 20.8 14.1Z"></path>
+                        </svg>
+                        <span>Tema escuro</span>
+                    </span>
+                </label>
+            </div>
+        </fieldset></div>
+        </section>
 
         <section class="dictionary-context" aria-labelledby="dictionary-title">
             <div class="dictionary-kicker">Dicionário ativo</div>
@@ -9481,6 +9495,7 @@
     <script defer src="scriptures/texts/vulj-laodiceans-1.js"></script>
     <script defer src="scriptures/word-popups.js"></script>
     <script defer src="scriptures/reader.js"></script>
+    <script defer src="scriptures/sections.js"></script>
     <script defer src="script.js"></script>
     <script defer src="lexicons/dgp-format.js"></script>
     <script defer src="lexicons/on-demand-search.js"></script>
