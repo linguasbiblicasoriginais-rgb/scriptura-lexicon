@@ -123,7 +123,7 @@ def extract_apparatus(z):
                 headings.append("".join(element.itertext()))
             elif element.tag=="verse":
                 reference=(element.text or "").strip()
-                need(bool(re.fullmatch(r"[^ ]+ \d+:\d+",reference)),
+                need(bool(re.fullmatch(r".+ \d+:\d+",reference)),
                      f"Referência crítica inválida: {base} {reference}")
                 need(reference not in data,f"Referência crítica repetida: {reference}")
                 data[reference]=[]
