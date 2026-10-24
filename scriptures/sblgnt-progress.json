@@ -1,0 +1,559 @@
+{
+  "edition": "The Greek New Testament: SBL Edition (SBLGNT)",
+  "editor": "Michael W. Holmes",
+  "editionYear": 2010,
+  "digitalVersion": "1.2 (2023-07-10)",
+  "copyright": "© 2010 Society of Biblical Literature and Logos Bible Software",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "Faithlife/SBLGNT",
+  "sourceUrl": "https://codeload.github.com/Faithlife/SBLGNT/zip/c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+  "sourceCommit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+  "sha256": "4fc2659ce10ec6f57552f22e039de927ed3e417c7b5a757f34f05dae530e4c0f",
+  "zipBytes": 1414688,
+  "books": [
+    {
+      "source": "Matt",
+      "id": "MAT",
+      "slug": "matthew",
+      "title": "ΚΑΤΑ ΜΑΘΘΑΙΟΝ",
+      "chapters": 28,
+      "verses": 1068,
+      "perChapter": [
+        25,
+        23,
+        17,
+        25,
+        48,
+        34,
+        29,
+        34,
+        38,
+        42,
+        30,
+        50,
+        58,
+        36,
+        39,
+        28,
+        26,
+        34,
+        30,
+        34,
+        46,
+        46,
+        38,
+        51,
+        46,
+        75,
+        66,
+        20
+      ]
+    },
+    {
+      "source": "Mark",
+      "id": "MRK",
+      "slug": "mark",
+      "title": "ΚΑΤΑ ΜΑΡΚΟΝ",
+      "chapters": 16,
+      "verses": 673,
+      "perChapter": [
+        45,
+        28,
+        35,
+        41,
+        43,
+        56,
+        36,
+        38,
+        48,
+        52,
+        32,
+        44,
+        37,
+        72,
+        46,
+        20
+      ]
+    },
+    {
+      "source": "Luke",
+      "id": "LUK",
+      "slug": "luke",
+      "title": "ΚΑΤΑ ΛΟΥΚΑΝ",
+      "chapters": 24,
+      "verses": 1149,
+      "perChapter": [
+        80,
+        52,
+        38,
+        44,
+        39,
+        49,
+        50,
+        56,
+        62,
+        42,
+        54,
+        59,
+        35,
+        35,
+        32,
+        31,
+        36,
+        43,
+        48,
+        47,
+        38,
+        71,
+        55,
+        53
+      ]
+    },
+    {
+      "source": "John",
+      "id": "JHN",
+      "slug": "john",
+      "title": "ΚΑΤΑ ΙΩΑΝΝΗΝ",
+      "chapters": 21,
+      "verses": 878,
+      "perChapter": [
+        51,
+        25,
+        36,
+        54,
+        46,
+        71,
+        53,
+        59,
+        41,
+        42,
+        57,
+        50,
+        38,
+        31,
+        27,
+        33,
+        26,
+        40,
+        42,
+        31,
+        25
+      ]
+    },
+    {
+      "source": "Acts",
+      "id": "ACT",
+      "slug": "acts",
+      "title": "ΠΡΑΞΕΙΣ ΑΠΟΣΤΟΛΩΝ",
+      "chapters": 28,
+      "verses": 1002,
+      "perChapter": [
+        26,
+        47,
+        26,
+        37,
+        42,
+        15,
+        60,
+        39,
+        43,
+        48,
+        30,
+        25,
+        52,
+        28,
+        40,
+        40,
+        34,
+        28,
+        40,
+        38,
+        40,
+        30,
+        35,
+        26,
+        27,
+        32,
+        44,
+        30
+      ]
+    },
+    {
+      "source": "Rom",
+      "id": "ROM",
+      "slug": "romans",
+      "title": "ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+      "chapters": 16,
+      "verses": 430,
+      "perChapter": [
+        32,
+        29,
+        31,
+        25,
+        21,
+        23,
+        25,
+        39,
+        33,
+        21,
+        36,
+        21,
+        14,
+        23,
+        33,
+        24
+      ]
+    },
+    {
+      "source": "1Cor",
+      "id": "1CO",
+      "slug": "1-corinthians",
+      "title": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Α",
+      "chapters": 16,
+      "verses": 437,
+      "perChapter": [
+        31,
+        16,
+        23,
+        21,
+        13,
+        20,
+        40,
+        13,
+        27,
+        33,
+        34,
+        31,
+        13,
+        40,
+        58,
+        24
+      ]
+    },
+    {
+      "source": "2Cor",
+      "id": "2CO",
+      "slug": "2-corinthians",
+      "title": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Β",
+      "chapters": 13,
+      "verses": 256,
+      "perChapter": [
+        24,
+        17,
+        18,
+        18,
+        21,
+        18,
+        16,
+        24,
+        15,
+        18,
+        33,
+        21,
+        13
+      ]
+    },
+    {
+      "source": "Gal",
+      "id": "GAL",
+      "slug": "galatians",
+      "title": "ΠΡΟΣ ΓΑΛΑΤΑΣ",
+      "chapters": 6,
+      "verses": 149,
+      "perChapter": [
+        24,
+        21,
+        29,
+        31,
+        26,
+        18
+      ]
+    },
+    {
+      "source": "Eph",
+      "id": "EPH",
+      "slug": "ephesians",
+      "title": "ΠΡΟΣ ΕΦΕΣΙΟΥΣ",
+      "chapters": 6,
+      "verses": 155,
+      "perChapter": [
+        23,
+        22,
+        21,
+        32,
+        33,
+        24
+      ]
+    },
+    {
+      "source": "Phil",
+      "id": "PHP",
+      "slug": "philippians",
+      "title": "ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ",
+      "chapters": 4,
+      "verses": 104,
+      "perChapter": [
+        30,
+        30,
+        21,
+        23
+      ]
+    },
+    {
+      "source": "Col",
+      "id": "COL",
+      "slug": "colossians",
+      "title": "ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ",
+      "chapters": 4,
+      "verses": 95,
+      "perChapter": [
+        29,
+        23,
+        25,
+        18
+      ]
+    },
+    {
+      "source": "1Thess",
+      "id": "1TH",
+      "slug": "1-thessalonians",
+      "title": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α",
+      "chapters": 5,
+      "verses": 89,
+      "perChapter": [
+        10,
+        20,
+        13,
+        18,
+        28
+      ]
+    },
+    {
+      "source": "2Thess",
+      "id": "2TH",
+      "slug": "2-thessalonians",
+      "title": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β",
+      "chapters": 3,
+      "verses": 47,
+      "perChapter": [
+        12,
+        17,
+        18
+      ]
+    },
+    {
+      "source": "1Tim",
+      "id": "1TI",
+      "slug": "1-timothy",
+      "title": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Α",
+      "chapters": 6,
+      "verses": 113,
+      "perChapter": [
+        20,
+        15,
+        16,
+        16,
+        25,
+        21
+      ]
+    },
+    {
+      "source": "2Tim",
+      "id": "2TI",
+      "slug": "2-timothy",
+      "title": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Β",
+      "chapters": 4,
+      "verses": 83,
+      "perChapter": [
+        18,
+        26,
+        17,
+        22
+      ]
+    },
+    {
+      "source": "Titus",
+      "id": "TIT",
+      "slug": "titus",
+      "title": "ΠΡΟΣ ΤΙΤΟΝ",
+      "chapters": 3,
+      "verses": 46,
+      "perChapter": [
+        16,
+        15,
+        15
+      ]
+    },
+    {
+      "source": "Phlm",
+      "id": "PHM",
+      "slug": "philemon",
+      "title": "ΠΡΟΣ ΦΙΛΗΜΟΝΑ",
+      "chapters": 1,
+      "verses": 25,
+      "perChapter": [
+        25
+      ]
+    },
+    {
+      "source": "Heb",
+      "id": "HEB",
+      "slug": "hebrews",
+      "title": "ΠΡΟΣ ΕΒΡΑΙΟΥΣ",
+      "chapters": 13,
+      "verses": 303,
+      "perChapter": [
+        14,
+        18,
+        19,
+        16,
+        14,
+        20,
+        28,
+        13,
+        28,
+        39,
+        40,
+        29,
+        25
+      ]
+    },
+    {
+      "source": "Jas",
+      "id": "JAS",
+      "slug": "james",
+      "title": "ΙΑΚΩΒΟΥ",
+      "chapters": 5,
+      "verses": 108,
+      "perChapter": [
+        27,
+        26,
+        18,
+        17,
+        20
+      ]
+    },
+    {
+      "source": "1Pet",
+      "id": "1PE",
+      "slug": "1-peter",
+      "title": "ΠΕΤΡΟΥ Α",
+      "chapters": 5,
+      "verses": 105,
+      "perChapter": [
+        25,
+        25,
+        22,
+        19,
+        14
+      ]
+    },
+    {
+      "source": "2Pet",
+      "id": "2PE",
+      "slug": "2-peter",
+      "title": "ΠΕΤΡΟΥ Β",
+      "chapters": 3,
+      "verses": 61,
+      "perChapter": [
+        21,
+        22,
+        18
+      ]
+    },
+    {
+      "source": "1John",
+      "id": "1JN",
+      "slug": "1-john",
+      "title": "ΙΩΑΝΝΟΥ Α",
+      "chapters": 5,
+      "verses": 105,
+      "perChapter": [
+        10,
+        29,
+        24,
+        21,
+        21
+      ]
+    },
+    {
+      "source": "2John",
+      "id": "2JN",
+      "slug": "2-john",
+      "title": "ΙΩΑΝΝΟΥ Β",
+      "chapters": 1,
+      "verses": 13,
+      "perChapter": [
+        13
+      ]
+    },
+    {
+      "source": "3John",
+      "id": "3JN",
+      "slug": "3-john",
+      "title": "ΙΩΑΝΝΟΥ Γ",
+      "chapters": 1,
+      "verses": 15,
+      "perChapter": [
+        15
+      ]
+    },
+    {
+      "source": "Jude",
+      "id": "JUD",
+      "slug": "jude",
+      "title": "ΙΟΥΔΑ",
+      "chapters": 1,
+      "verses": 25,
+      "perChapter": [
+        25
+      ]
+    },
+    {
+      "source": "Rev",
+      "id": "REV",
+      "slug": "revelation",
+      "title": "ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ",
+      "chapters": 22,
+      "verses": 405,
+      "perChapter": [
+        20,
+        29,
+        22,
+        11,
+        14,
+        17,
+        17,
+        13,
+        21,
+        11,
+        19,
+        18,
+        18,
+        20,
+        8,
+        21,
+        18,
+        24,
+        21,
+        15,
+        27,
+        21
+      ]
+    }
+  ],
+  "totalBooks": 27,
+  "chapters": 260,
+  "verses": 7939,
+  "criticalSigns": {
+    "⸀": 5117,
+    "⸂": 1765,
+    "⸃": 1765
+  },
+  "apparatusVerseUnits": 4468,
+  "apparatusNotes": 6934,
+  "textPolicy": "Texto de cada versículo transcrito da edição v1.2, sem emendas; somente espaços finais de separação excluídos; sinais ⸀ ⸂ ⸃ preservados",
+  "apparatusPolicy": "Dados críticos próprios da edição separados do texto bíblico, em JSON; não correspondem ao aparato da NA28",
+  "relationship": "Edição independente, não substitui e não replica NA28/UBS5"
+}

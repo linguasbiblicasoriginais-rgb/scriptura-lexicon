@@ -6,12 +6,13 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     const labels = {
         UXLC: "Códice de Leningrado [L/Firkovich B19A]",
         LXX: "Septuaginta — Brenton (texto grego, 1851)",
+        SBLGNT: "SBL Greek New Testament — Holmes (2010)",
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
         TR: "Textus Receptus — Scrivener (1894)",
         VUL: "Biblia Sacra Vulgata Clementina (1598)"
     };
-    const editionOrder = ["UXLC", "LXX", "NA28", "UBS5", "TR", "VUL"];
+    const editionOrder = ["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VUL"];
     const catalog = {};
     for (const edition of editionOrder) {
         const source = edition === "UXLC" ? rawCatalog.UXLC :
@@ -284,10 +285,11 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         original.dir = lang === "he" ? "rtl" : "ltr";
         panel.querySelector("#scripture-previous-chapter").disabled = state.chapter === 1;
         panel.querySelector("#scripture-next-chapter").disabled = state.chapter === selected.chapters;
-        const canLink = ["UXLC", "LXX", "NA28", "UBS5"].includes(state.edition) && /^[A-Z0-9]{3}$/.test(selected.id);
+        const canLink = ["UXLC", "LXX", "NA28", "UBS5", "SBLGNT"].includes(state.edition) && /^[A-Z0-9]{3}$/.test(selected.id);
         external.hidden = !canLink;
-        if (canLink) external.href = (state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter);
+        if (canLink) external.href = (state.edition === "SBLGNT" ? "https://github.com/Faithlife/SBLGNT/tree/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text" : state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter);
         else external.removeAttribute("href");
+        external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
         menuButtons.forEach(function (button, code) {
             const active = code === state.edition && !panel.hidden;
             button.classList.toggle("active", active);
@@ -295,7 +297,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             else button.removeAttribute("aria-current");
         });
         renderTexts();
-        feedback.textContent = !canLink ?
+        feedback.textContent = state.edition === "SBLGNT" ? "SBLGNT, edição crítica de Michael W. Holmes (2010), v1.2. © 2010 Society of Biblical Literature e Logos Bible Software. CC BY 4.0. Sinais críticos preservados; aparato armazenado separadamente." : !canLink ?
             (state.edition === "TR" ? "Edição identificada: F. H. A. Scrivener (1894); transcrição digital de Honza Pokorny." :
             state.edition === "VUL" ? "Texto latino da Vulgata Clementina (1598), eBible latVUC; notas editoriais preservadas separadamente." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
@@ -324,10 +326,10 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         });
     }
     function isScriptureHash() {
-        return /^#escrituras\/(UXLC|LXX|NA28|UBS5|TR|VUL)(?:\/|$)/.test(window.location.hash);
+        return /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL)(?:\/|$)/.test(window.location.hash);
     }
     function showFromHash() {
-        const match = /^#escrituras\/(UXLC|LXX|NA28|UBS5|TR|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
+        const match = /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
         if (!match) return false;
         show(match[1], match[2], match[3], match[4], false);
         return true;
