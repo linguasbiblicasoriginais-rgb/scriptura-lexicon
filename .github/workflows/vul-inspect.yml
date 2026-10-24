@@ -1,0 +1,21 @@
+name: VUL — inspecionar fonte Clementina
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths: ['scripts/vul_inspect.py','.github/workflows/vul-inspect.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Obter fonte de domínio público
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 \
+            https://ebible.org/Scriptures/latVUC_usfx.zip -o /tmp/latVUC_usfx.zip
+      - name: Registrar checksum, livros e tags do XML
+        run: python3 scripts/vul_inspect.py /tmp/latVUC_usfx.zip

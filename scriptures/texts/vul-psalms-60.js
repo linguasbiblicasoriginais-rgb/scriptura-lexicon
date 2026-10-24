@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; PSA 60 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"] ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"][60]={"1":"In finem. In hymnis David.","2":"[Exaudi, Deus, deprecationem meam; intende orationi meæ.","3":"A finibus terræ ad te clamavi, dum anxiaretur cor meum; in petra exaltasti me. Deduxisti me,","4":"quia factus es spes mea: turris fortitudinis a facie inimici.","5":"Inhabitabo in tabernaculo tuo in sæcula; protegar in velamento alarum tuarum.","6":"Quoniam tu, Deus meus, exaudisti orationem meam; dedisti hæreditatem timentibus nomen tuum.","7":"Dies super dies regis adjicies; annos ejus usque in diem generationis et generationis.","8":"Permanet in æternum in conspectu Dei: misericordiam et veritatem ejus quis requiret?","9":"Sic psalmum dicam nomini tuo in sæculum sæculi, ut reddam vota mea de die in diem.]"};
+})();

@@ -1,0 +1,71 @@
+name: TR — importar Textus Receptus Scrivener 1894
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths: ['scripts/tr_import.py','.github/workflows/tr-import.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tr-scrivener-import-locked
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-melhorias
+          fetch-depth: 1
+      - name: Baixar fonte Scrivener (commit fixo)
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 \
+            https://codeload.github.com/honza/textus-receptus/zip/2bac2dae4a0961c84d6d544a40cbef8b8d8c4e32 \
+            -o /tmp/tr-scrivener-1894.zip
+      - name: Importar com checksum e cobertura integral
+        run: |
+          set -euo pipefail
+          python3 scripts/tr_import.py /tmp/tr-scrivener-1894.zip
+      - name: Testar 260 módulos, 7957 versículos e popups
+        run: |
+          set -euo pipefail
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+          const m=JSON.parse(fs.readFileSync('scriptures/tr-scrivener-progress.json','utf8'));
+          assert.equal(m.totalBooks,27);assert.equal(m.chapters,260);assert.equal(m.verses,7957);
+          assert.equal(m.sourceWordRecords,140628);
+          const html=fs.readFileSync('index.html','utf8');
+          const reader=fs.readFileSync('scriptures/reader.js','utf8');
+          assert.ok(reader.includes('Textus Receptus — Scrivener (1894)'));
+          assert.ok(reader.includes('ScripturaWordPopups?.attach(panel, textRegion)'));
+          assert.ok(fs.readFileSync('scriptures/reader.css','utf8').includes('text-decoration: none;'));
+          const window={},ctx=vm.createContext({window});
+          let verses=0,modules=0;
+          for(const b of m.books)for(let c=1;c<=b.chapters;c++){
+            const path='scriptures/texts/tr-'+b.slug+'-'+c+'.js';
+            assert.equal(html.split('src="'+path+'"').length-1,1,path);
+            vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
+            const obj=window.ScripturaScriptureTexts.TR[b.id][c];
+            assert.equal(Object.keys(obj).length,b.perChapter[c-1],path);
+            for(const txt of Object.values(obj)){
+              assert.ok(txt && !txt.includes('\uFFFD'),path);
+              verses++;
+            }
+            modules++;
+          }
+          assert.equal(verses,7957);assert.equal(modules,260);
+          assert.ok(window.ScripturaScriptureTexts.TR.MAT[1]['1'].includes('Β'));
+          console.log('OK TR:',m.totalBooks,'livros;',modules,'capítulos;',verses,'versículos.');
+          NODE
+      - name: Publicar apenas após validação completa
+        run: |
+          set -euo pipefail
+          git config user.name 'Scriptura Lexicon'
+          git config user.email 'tr-import@users.noreply.github.com'
+          git add index.html scriptures/reader.js scriptures/tr-scrivener-progress.json
+          git add -A scriptures/texts
+          if git diff --cached --quiet; then echo 'Nenhuma alteração'; exit 0; fi
+          git commit -m 'Escrituras: incorporar Textus Receptus Scrivener (1894), 27 livros'
+          git push origin HEAD:chat-gpt-melhorias

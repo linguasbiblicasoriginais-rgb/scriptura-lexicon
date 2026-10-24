@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; SNG 6 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["SNG"] ||= {};
+window.ScripturaScriptureTexts.VUL["SNG"][6]={"1":"[Sponsa Dilectus meus descendit in hortum suum ad areolam aromatum, ut pascatur in hortis, et lilia colligat.","2":"Ego dilecto meo, et dilectus meus mihi, qui pascitur inter lilia.","3":"Sponsus Pulchra es, amica mea; suavis, et decora sicut Jerusalem; terribilis ut castrorum acies ordinata.","4":"Averte oculos tuos a me, quia ipsi me avolare fecerunt. Capilli tui sicut grex caprarum quæ apparuerunt de Galaad.","5":"Dentes tui sicut grex ovium quæ ascenderunt de lavacro: omnes gemellis fœtibus, et sterilis non est in eis.","6":"Sicut cortex mali punici, sic genæ tuæ, absque occultis tuis.","7":"Sexaginta sunt reginæ, et octoginta concubinæ, et adolescentularum non est numerus.","8":"Una est columba mea, perfecta mea, una est matris suæ, electa genetrici suæ. Viderunt eam filiæ, et beatissimam prædicaverunt; reginæ et concubinæ, et laudaverunt eam.","9":"Quæ est ista quæ progreditur quasi aurora consurgens, pulchra ut luna, electa ut sol, terribilis ut castrorum acies ordinata?","10":"Sponsa Descendi in hortum nucum, ut viderem poma convallium, et inspicerem si floruisset vinea, et germinassent mala punica.","11":"Nescivi: anima mea conturbavit me, propter quadrigas Aminadab.","12":"Chorus Revertere, revertere, Sulamitis ! revertere, revertere ut intueamur te.]"};
+})();

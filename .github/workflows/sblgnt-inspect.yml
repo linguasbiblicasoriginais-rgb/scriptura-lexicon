@@ -1,0 +1,24 @@
+name: SBLGNT — inspeção da fonte crítica
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths:
+      - scripts/sblgnt_inspect.py
+      - .github/workflows/sblgnt-inspect.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar fonte oficial fixada
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 \
+            https://codeload.github.com/Faithlife/SBLGNT/zip/c4d241a9c1c479a55b989ba35a4976c1d0b8052c \
+            -o /tmp/sblgnt.zip
+      - name: Contar livros, capítulos, versículos e marcadores críticos
+        run: python3 scripts/sblgnt_inspect.py /tmp/sblgnt.zip
