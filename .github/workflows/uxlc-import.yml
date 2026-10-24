@@ -21,6 +21,30 @@ jobs:
           curl --fail --location --silent --show-error --retry 3 \
             'https://www.tanach.us/Books/Tanach.xml.zip' -o /tmp/Tanach.xml.zip
           echo '423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3  /tmp/Tanach.xml.zip' | sha256sum -c -
+      - name: Inspecionar estrutura do XML e validar sintaxe do importador
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/uxlc_import.py
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import PurePosixPath
+          from zipfile import ZipFile
+          from collections import Counter
+          with ZipFile("/tmp/Tanach.xml.zip") as z:
+              files = z.namelist()
+              print("Arquivos no pacote:", len(files), flush=True)
+              for expected in ("Genesis.xml", "Kings 2.xml", "Chronicles 2.xml"):
+                  matches = [p for p in files if PurePosixPath(p).name == expected]
+                  if len(matches) != 1:
+                      raise RuntimeError("Arquivo esperado ausente/ambíguo: " + expected + " " + repr(matches))
+                  root = ET.fromstring(z.read(matches[0]))
+                  tags = Counter(e.tag.rsplit("}", 1)[-1] for e in root.iter())
+                  chapters = [e for e in root.iter() if e.tag.rsplit("}", 1)[-1] == "c"]
+                  sample = chapters[0] if chapters else root
+                  print(expected, "capítulos XML:", len(chapters),
+                        "atributos capítulo:", sample.attrib,
+                        "contagens de tags:", dict(tags), flush=True)
+          PY
       - name: Importar de Gênesis a 2 Crônicas
         run: python3 scripts/uxlc_import.py /tmp/Tanach.xml.zip
       - name: Validar todo o texto importado
