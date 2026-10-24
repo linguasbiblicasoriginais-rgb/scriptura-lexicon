@@ -27,6 +27,7 @@ def parse_book(book):
     chapters=collections.OrderedDict()
     headings=collections.defaultdict(list)
     orphan=[]
+    front_matter=[]
     current_chapter=None
     current_verse=None
     fragments=[]
@@ -35,6 +36,7 @@ def parse_book(book):
         if not piece or not piece.strip(): return
         if current_verse is not None: fragments.append(piece)
         elif current_chapter is not None: orphan.append({"chapter":current_chapter,"text":piece.strip()})
+        else: front_matter.append(piece.strip())
     def end_verse():
         nonlocal current_verse,fragments
         need(current_verse is not None,f"{code}: marcador de encerramento sem abertura")
@@ -86,7 +88,10 @@ def parse_book(book):
     need(current_verse is None,f"Versículo não encerrado: {code} {current_chapter}:{current_verse}")
     need(chapters,f"Nenhum capítulo: {code}")
     need(verse_markers==sum(map(len,chapters.values())),f"Versículos perdidos: {code}")
-    return {"id":code,"chapters":chapters,"markers":verse_markers,"headings":dict(headings),"outsideVerse":orphan}
+    return {"id":code,"chapters":chapters,"markers":verse_markers,
+            "headings":dict(headings),"outsideVerse":orphan,"frontMatter":front_matter,
+            "titles":[{"type":local(x.tag),"text":text_only(x),"attributes":dict(x.attrib)}
+                      for x in book if local(x.tag) in {"h","toc"}]}
 
 def main():
     need(len(sys.argv)==2,"Uso: scripts/lxx_import.py ZIP")
@@ -171,6 +176,12 @@ def main():
          "mapping":{"EZR 11-23":"NEH 1-13","PSA 151":"PSA151 1","ESG":"EST","DAG":"DAN"},
          "notPresentInSource":["JOS_A","JDG_A","JDG_B","TOB_S","DAN_TH","SUS_TH","BEL_TH","ODE","PSS"],
          "note":"Esta edição não representa todas as recensões nem Göttingen/Rahlfs."}
+    # Títulos e fragmentos fora dos versículos são preservados separadamente.
+    paratext={book["id"]:{"headings":book["headings"],
+                         "outsideVerse":book["outsideVerse"],
+                         "frontMatter":book["frontMatter"],
+                         "titles":book["titles"]} for book in books}
+    need(len(paratext)==BOOKS,"Metadados paratextuais incompletos")
     # Verificação do arquivo demonstrativo preservado antes de substituí-lo.
     old=ROOT/"scriptures/texts/lxx-genesis-1.js"
     archive=ROOT/"scriptures/archive/legacy-pre-brenton-2026-10-24/lxx-genesis-1.js"
@@ -188,6 +199,8 @@ def main():
         dest.write_text(content,encoding="utf8")
     (ROOT/"scriptures/lxx-brenton-progress.json").write_text(
         json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+    (ROOT/"scriptures/lxx-brenton-paratext.json").write_text(
+        json.dumps(paratext,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     reader_path.write_text(reader,encoding="utf8")
     html_path.write_text(html,encoding="utf8")
     print(f"PRONTO: {BOOKS} livros-fonte, {len(status)} grupos, {len(result)} capítulos, {total} versículos.",flush=True)

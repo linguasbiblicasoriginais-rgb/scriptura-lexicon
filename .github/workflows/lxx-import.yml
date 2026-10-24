@@ -35,6 +35,8 @@ jobs:
           const manifest=JSON.parse(fs.readFileSync('scriptures/lxx-brenton-progress.json','utf8'));
           assert.equal(manifest.chapters,1104);
           assert.equal(manifest.sourceBooks,52);
+          const paratext=JSON.parse(fs.readFileSync('scriptures/lxx-brenton-paratext.json','utf8'));
+          assert.equal(Object.keys(paratext).length,52);
           const html=fs.readFileSync('index.html','utf8');
           let sum=0,loaded=0;
           const window={},ctx=vm.createContext({window});
@@ -55,7 +57,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Scriptura Lexicon UXLC/LXX'
           git config user.email 'lxx-import@users.noreply.github.com'
-          git add index.html scriptures/reader.js scriptures/lxx-brenton-progress.json scriptures/archive/legacy-pre-brenton-2026-10-24/
+          git add index.html scriptures/reader.js scriptures/lxx-brenton-progress.json scriptures/lxx-brenton-paratext.json scriptures/archive/legacy-pre-brenton-2026-10-24/
           git add -A scriptures/texts
           if git diff --cached --quiet; then echo 'Nenhuma alteração'; exit 0; fi
           git commit -m 'Escrituras: incorporar Septuaginta grega de Brenton com rastreabilidade'
