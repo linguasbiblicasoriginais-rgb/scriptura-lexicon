@@ -26,8 +26,12 @@ async function verifyReady(context) {
     chapterOptions:document.querySelector("#stromata-chapter").options.length,
     sectionOptions:document.querySelector("#stromata-section").options.length,
     text:document.querySelector("#stromata-text").textContent,
-    reference:document.querySelector("#stromata-reference").textContent
+    reference:document.querySelector("#stromata-reference").textContent,
+    articleAlign:getComputedStyle(document.querySelector(".patristic-text")).textAlign,
+    paragraphAlign:getComputedStyle(document.querySelector(".patristic-text p")).textAlign
   }));
+  assert.equal(snapshot.articleAlign,"justify","Todos os textos patrísticos devem ser justificados");
+  assert.equal(snapshot.paragraphAlign,"justify","Os parágrafos patrísticos devem ser justificados");
   assert.equal(snapshot.bookOptions,8,"Oito livros devem ser selecionáveis");
   assert.ok(snapshot.chapterOptions>0,"Capítulos disponíveis");
   assert.ok(snapshot.sectionOptions>0,"Seções disponíveis");
