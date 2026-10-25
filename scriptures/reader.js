@@ -7,6 +7,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         UXLC: "Códice de Leningrado [L/Firkovich B19A]",
         LXX: "Septuaginta — Brenton (texto grego, 1851)",
         SBLGNT: "SBL Greek New Testament — Holmes (2010)",
+        SBLGNT: "SBL Greek New Testament — Holmes (2010)",
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
         TR: "Textus Receptus — Scrivener (1894)",
@@ -346,6 +347,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         external.hidden = !canLink;
         if (canLink) external.href = (state.edition === "SBLGNT" ? "https://github.com/Faithlife/SBLGNT/tree/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text" : state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter);
         else external.removeAttribute("href");
+        external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
         external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
         const where = sourceLocation();
         const activeLoader = window.ScripturaChapterLoader;
