@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 141. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][141]={"1":"intellectus David cum esset in spelunca oratio eruditio David cum esset in spelunca oratio","2":"voce mea ad Dominum clamavi voce mea ad Dominum deprecatus sum voce mea ad Dominum clamavi voce mea ad Dominum deprecatus sum","3":"effundo in conspectu eius deprecationem meam tribulationem meam ante ipsum pronuntio effundam in conspectu eius eloquium meum tribulationem meam coram illo adnuntiabo","4":"in deficiendo ex me spiritum meum et tu cognovisti semitas meas in via hac qua ambulabam absconderunt laqueum mihi cum anxius in me fuerit spiritus meus tu enim nosti semitam meam in via hac qua ambulabo absconderunt laqueum mihi","5":"considerabam ad dexteram et videbam et non erat qui cognosceret me periit fuga a me et non est qui requirit animam meam respice ad dexteram et vide quia non sit qui cognoscat me periit fuga a me non est qui quaerat animam meam","6":"clamavi ad te Domine dixi tu es spes mea portio mea in terra viventium clamavi ad te Domine dixi tu spes mea pars mea in terra viventium","7":"intende ad deprecationem meam quia humiliatus sum nimis libera me a persequentibus me quia confortati sunt super me ausculta deprecationem meam quoniam infirmatus sum nimis libera me a persecutoribus quoniam confortati sunt super me","8":"educ de custodia animam meam ad confitendum nomini tuo me expectant iusti donec retribuas mihi educ de carcere animam meam ut confiteatur nomini tuo me expectant iusti cum retribueris mihi"};
+})();

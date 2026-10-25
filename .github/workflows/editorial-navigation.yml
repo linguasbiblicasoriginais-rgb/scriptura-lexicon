@@ -1,0 +1,31 @@
+name: Navegação editorial — seis áreas e apócrifos
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths:
+      - index.html
+      - style.css
+      - script.js
+      - scriptures/reader.js
+      - scriptures/reader.css
+      - scriptures/sections.js
+      - tests/test_editorial_navigation.cjs
+      - tests/test_editorial_browser.cjs
+      - .github/workflows/editorial-navigation.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-melhorias
+      - name: Verificar navegação, referências e integridade textual
+        run: node tests/test_editorial_navigation.cjs
+      - name: Instalar ambiente de teste DOM
+        run: npm install --no-save --ignore-scripts --no-package-lock jsdom@24
+      - name: Exercitar seleção, referências e recortes canônicos em DOM
+        run: node tests/test_editorial_browser.cjs

@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 52. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][52]={"1":"in finem pro Melech intellegentiae David dixit insipiens in corde suo non est Deus victori per chorum eruditi David dixit stultus in corde suo non est Deus","2":"corrupti sunt et abominabiles facti sunt in iniquitatibus non est qui faciat bonum corrupti sunt et abominabiles facti sunt in iniquitate non est qui faciat bonum","3":"Deus de caelo prospexit in filios hominum ut videat si est intellegens aut requirens Deum Deus de caelo prospexit super filios hominum ut videret si esset intellegens requirens Deum","4":"omnes declinaverunt simul inutiles facti sunt non est qui faciat bonum non est usque ad unum omnes aversi sunt pariter adheserunt non est qui faciat bonum non est usque ad unum","5":"nonne scient omnes qui operantur iniquitatem qui devorant plebem meam ut cibum panis numquid non cognoverunt qui operantur iniquitatem qui comedunt populum meum ut cibum panis","6":"Deum non invocaverunt illic trepidabunt timore ubi non fuit timor quoniam Deus dissipavit ossa eorum qui hominibus placent confusi sunt quoniam Deus sprevit eos Deum non invocaverunt ibi timuerunt timore ubi non est timor quoniam Deus dispersit ossa circumdantium te confunderis quia Deus proiecit eos","7":"quis dabit ex Sion salutare Israhel dum convertit Deus captivitatem plebis suae exultabit Iacob et laetabitur Israhel quis dabit ex Sion salutare Israhel cum reduxerit Deus captivitatem populi sui exultabit Iacob laetabitur Israhel"};
+})();

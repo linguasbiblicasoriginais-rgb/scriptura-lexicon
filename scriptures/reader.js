@@ -10,49 +10,60 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
         TR: "Textus Receptus — Scrivener (1894)",
+        VULJ: "Vulgata Latina — tradição de Jerônimo (CrossWire)",
         VUL: "Biblia Sacra Vulgata Clementina (1598)"
     };
-    const editionOrder = ["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VUL"];
-    const catalog = {};
+    const editionOrder = ["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VULJ", "VUL"];
+    const originalCatalog = {};
     for (const edition of editionOrder) {
         const source = edition === "UXLC" ? rawCatalog.UXLC :
             edition === "LXX" ? rawCatalog.LXX :
-            edition === "VUL" ? window.ScripturaVulCatalog : rawCatalog.NT;
-        catalog[edition] = source.trim().split("\n").map(function (line) {
+            edition === "VUL" ? window.ScripturaVulCatalog :
+            edition === "VULJ" ? window.ScripturaVulJeromeCatalog : rawCatalog.NT;
+        originalCatalog[edition] = source.trim().split("\n").map(function (line) {
             const pieces = line.split("|");
             return { group: pieces[0], original: pieces[1], name: pieces[2],
                 chapters: Number(pieces[3]), id: pieces[4] };
         });
     }
-    const drawerNav = document.querySelector(".dictionary-nav");
+    // Classificação editorial separada dos textos; nenhum módulo de fonte é reescrito.
+    // Cânon de 66 livros adotado neste projeto, não norma universal das tradições cristãs.
+    const canonical = new Set(("GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH " +
+        "EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC " +
+        "NAM HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL " +
+        "1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV " +
+        "JOS_A JDG_A JDG_B").split(" "));
+    const catalog = {}, apocryphaCatalog = {};
+    for (const edition of editionOrder) {
+        const originals = originalCatalog[edition];
+        catalog[edition] = originals.filter(item => canonical.has(item.id)).map(item => {
+            if ((edition === "VUL" || edition === "VULJ") && item.id === "EST")
+                return {...item,chapters:10};
+            if ((edition === "VUL" || edition === "VULJ") && item.id === "DAN")
+                return {...item,chapters:12};
+            return item;
+        });
+        apocryphaCatalog[edition] = originals.filter(item => !canonical.has(item.id) &&
+            !!window.ScripturaScriptureTexts?.[edition]?.[item.id]);
+        if (edition === "VUL" || edition === "VULJ") {
+            // Cap. 10:4–13 e caps. 11–16 de Ester: mantêm numeração da fonte.
+            apocryphaCatalog[edition].push({
+                group:"Acréscimos textuais",original:"Additamenta Esther",
+                name:"Acréscimos a Ester",chapters:7,id:"EST_ADD"
+            });
+            // Segundo ambas as fontes latinas: cap. 13 = Susanna; 14 = Bel et Draco.
+            apocryphaCatalog[edition].push({
+                group:"Acréscimos textuais",original:"Susanna",
+                name:"Susanna",chapters:1,id:"DAN_SUS"
+            },{
+                group:"Acréscimos textuais",original:"Bel et Draco",
+                name:"Bel et Draco",chapters:1,id:"DAN_BEL"
+            });
+        }
+    }
     const dictionaryContext = document.querySelector(".dictionary-context");
-    if (!drawerNav || !dictionaryContext) return;
+    if (!dictionaryContext) return;
     const main = dictionaryContext.parentElement;
-    const menu = document.createElement("nav");
-    menu.className = "scripture-nav";
-    menu.setAttribute("aria-label", "Escrituras Sagradas");
-    const menuTitle = document.createElement("div");
-    menuTitle.className = "scripture-menu-title";
-    menuTitle.textContent = "Escrituras Sagradas";
-    menu.append(menuTitle);
-    const menuButtons = new Map();
-    editionOrder.forEach(function (edition) {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "scripture-menu-option";
-        button.dataset.scriptureEdition = edition;
-        button.innerHTML = '<span class="scripture-menu-name"></span><span class="scripture-menu-code"></span>';
-        button.querySelector(".scripture-menu-name").textContent = labels[edition];
-        button.querySelector(".scripture-menu-code").textContent = edition;
-        button.addEventListener("click", function () { show(edition, catalog[edition][0].id, 1, 1, true); });
-        menu.append(button);
-        menuButtons.set(edition, button);
-    });
-    drawerNav.parentElement.insertBefore(menu, drawerNav);
-    const lexiconTitle = document.createElement("div");
-    lexiconTitle.className = "scripture-menu-title scripture-menu-dictionaries";
-    lexiconTitle.textContent = "Dicionários";
-    drawerNav.parentElement.insertBefore(lexiconTitle, drawerNav);
     const panel = document.createElement("section");
     panel.id = "scripture-reader";
     panel.className = "scripture-reader";
@@ -95,7 +106,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         return node !== panel && node.tagName !== "HEADER";
     });
     const initialVisibility = new Map(siblings.map(function (node) { return [node, node.hidden]; }));
-    const state = { edition: "UXLC", bookId: "GEN", chapter: 1, verse: 1 };
+    const state = { scope: "escrituras", edition: "UXLC", bookId: "GEN", chapter: 1, verse: 1 };
     function makeOption(value, label, group) {
         const option = document.createElement("option");
         option.value = value;
@@ -103,13 +114,45 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         if (group) group.append(option); else return option;
         return option;
     }
-    editionOrder.forEach(function (code) { editionSelect.append(makeOption(code, labels[code])); });
-    function book() { return catalog[state.edition].find(function (item) { return item.id === state.bookId; }); }
+    function activeCatalog() {
+        return state.scope === "apocrifos" ? apocryphaCatalog[state.edition] : catalog[state.edition];
+    }
+    function fillEditions() {
+        editionSelect.replaceChildren();
+        const allowed = state.scope === "apocrifos" ? ["LXX","VUL","VULJ"] : editionOrder;
+        allowed.forEach(code => editionSelect.append(makeOption(code, labels[code])));
+    }
+    function book() { return activeCatalog().find(function (item) { return item.id === state.bookId; }); }
+    // Uma entrada virtual aponta para capítulo existente; nenhuma cópia de texto é criada.
+    function sourceLocation() {
+        if (state.bookId === "EST_ADD") return {id:"EST",chapter:state.chapter+9};
+        if (state.bookId === "DAN_SUS") return {id:"DAN",chapter:13};
+        if (state.bookId === "DAN_BEL") return {id:"DAN",chapter:14};
+        return {id:state.bookId,chapter:state.chapter};
+    }
+    function activeVerseMap() {
+        const where=sourceLocation();
+        const raw=window.ScripturaScriptureTexts?.[state.edition]?.[where.id]?.[where.chapter];
+        if (!raw) return undefined;
+        if (state.scope === "apocrifos" && state.bookId === "EST_ADD" && state.chapter === 1)
+            return Object.fromEntries(Object.entries(raw).filter(([v])=>Number(v)>=4));
+        if (state.scope === "escrituras" && state.bookId === "EST" &&
+            (state.edition === "VUL" || state.edition === "VULJ") && state.chapter === 10)
+            return Object.fromEntries(Object.entries(raw).filter(([v])=>Number(v)<=3));
+        return raw;
+    }
+    function sourceReference(verse) {
+        const b=book(),where=sourceLocation();
+        if (b.id === "EST_ADD") return "Acréscimos a Ester (Ester " + where.chapter + ":" + verse + ")";
+        if (b.id === "DAN_SUS" || b.id === "DAN_BEL")
+            return b.name + " (Daniel " + where.chapter + ":" + verse + ")";
+        return b.name + " " + state.chapter + ":" + verse;
+    }
     function selectedBookName() { return book()?.name || state.bookId; }
     function fillBooks() {
         bookSelect.replaceChildren();
         let last = "", group;
-        catalog[state.edition].forEach(function (entry) {
+        activeCatalog().forEach(function (entry) {
             if (entry.group !== last) {
                 group = document.createElement("optgroup");
                 group.label = entry.group;
@@ -121,7 +164,12 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     }
     function fillChapters() {
         chapterSelect.replaceChildren();
-        for (let n = 1; n <= book().chapters; n++) chapterSelect.append(makeOption(String(n), String(n)));
+        for (let n = 1; n <= book().chapters; n++) {
+            const label = book().id === "EST_ADD" ? (n === 1 ? "10:4–13" : String(n+9)) :
+                (book().id === "DAN_SUS" ? "Daniel 13" :
+                book().id === "DAN_BEL" ? "Daniel 14" : String(n));
+            chapterSelect.append(makeOption(String(n), label));
+        }
     }
     function positiveInt(value, defaultValue) {
         const n = Number(value);
@@ -132,14 +180,14 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         if (drawer && drawer.classList.contains("open")) document.getElementById("menu-close")?.click();
     }
     function syncHash() {
-        const newHash = "#escrituras/" + state.edition + "/" + state.bookId + "." + state.chapter + "." + state.verse;
+        const newHash = "#" + state.scope + "/" + state.edition + "/" + state.bookId + "." + state.chapter + "." + state.verse;
         if (window.location.hash !== newHash) history.replaceState(null, "", newHash);
     }
     function renderTexts() {
         wordUI?.close(false);
         textRegion.replaceChildren();
         const corpus = window.ScripturaScriptureTexts || {};
-        const entries = corpus[state.edition]?.[state.bookId]?.[state.chapter];
+        const entries = activeVerseMap();
         const verses = entries && typeof entries === "object" ? Object.entries(entries) : [];
         if (!verses.length) {
             const note = document.createElement("p");
@@ -196,11 +244,11 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             count.className = "scripture-verse-number";
             count.textContent = String(number) + " ";
             const passage = document.createElement("bdi");
-            passage.lang = state.edition === "UXLC" ? "he" : state.edition === "VUL" ? "la" : "grc";
+            passage.lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
             passage.dir = state.edition === "UXLC" ? "rtl" : "ltr";
             const textOptions = {
                 edition: state.edition,
-                reference: selectedBookName() + " " + state.chapter + ":" + number
+                reference: sourceReference(number)
             };
             const inline = inlineParashahTypes[number] || [];
             if (inline.length) {
@@ -266,20 +314,26 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     }
     function render() {
         const selected = book();
-        const lang = state.edition === "UXLC" ? "he" : state.edition === "VUL" ? "la" : "grc";
+        const lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
         editionSelect.value = state.edition;
         bookSelect.value = state.bookId;
         chapterSelect.value = String(state.chapter);
-        const verseMap = window.ScripturaScriptureTexts?.[state.edition]?.[state.bookId]?.[state.chapter];
+        const verseMap = activeVerseMap();
         const knownVerseNumbers = verseMap ? Object.keys(verseMap).map(Number).filter(Number.isSafeInteger) : [];
         const knownVerseLimit = knownVerseNumbers.length ? Math.max(...knownVerseNumbers) : null;
+        const knownVerseMinimum = knownVerseNumbers.length ? Math.min(...knownVerseNumbers) : null;
+        if (knownVerseMinimum !== null && state.verse < knownVerseMinimum) state.verse = knownVerseMinimum;
         if (knownVerseLimit !== null && state.verse > knownVerseLimit) state.verse = knownVerseLimit;
         if (knownVerseLimit === null) verseInput.removeAttribute("max");
         else verseInput.max = String(knownVerseLimit);
         verseInput.value = String(state.verse);
         heading.textContent = labels[state.edition];
+        panel.querySelector(".scripture-reader-kicker").textContent =
+            (state.scope === "apocrifos" ? "Literatura apócrifa" : "Escrituras Sagradas") +
+            " · Consulta por edição";
+        panel.querySelector(".scripture-reader h1")?.setAttribute("data-reader-scope", state.scope);
         category.textContent = selected.group;
-        reference.textContent = selected.name + " " + state.chapter + ":" + state.verse;
+        reference.textContent = sourceReference(state.verse);
         original.textContent = selected.original;
         original.lang = lang;
         original.dir = lang === "he" ? "rtl" : "ltr";
@@ -290,26 +344,26 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         if (canLink) external.href = (state.edition === "SBLGNT" ? "https://github.com/Faithlife/SBLGNT/tree/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text" : state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter);
         else external.removeAttribute("href");
         external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
-        menuButtons.forEach(function (button, code) {
-            const active = code === state.edition && !panel.hidden;
-            button.classList.toggle("active", active);
-            if (active) button.setAttribute("aria-current", "page");
-            else button.removeAttribute("aria-current");
-        });
         renderTexts();
         feedback.textContent = state.edition === "SBLGNT" ? "SBLGNT, edição crítica de Michael W. Holmes (2010), v1.2. © 2010 Society of Biblical Literature e Logos Bible Software. CC BY 4.0. Sinais críticos preservados; aparato armazenado separadamente." : !canLink ?
             (state.edition === "TR" ? "Edição identificada: F. H. A. Scrivener (1894); transcrição digital de Honza Pokorny." :
+            state.edition === "VULJ" ? "Texto latino CrossWire Vulgate 2.1 (domínio público), tradição jeronimiana; não equivale à edição crítica Weber–Gryson." :
             state.edition === "VUL" ? "Texto latino da Vulgata Clementina (1598), eBible latVUC; notas editoriais preservadas separadamente." :
             "Esta variante ainda não possui um vínculo externo verificado.") : "";
     }
-    function show(edition, bookId, chapter, verse, updateHash) {
+    function show(edition, bookId, chapter, verse, updateHash, scope) {
+        state.scope = scope === "apocrifos" ? "apocrifos" : "escrituras";
+        if (state.scope === "apocrifos" && !["LXX","VUL","VULJ"].includes(edition)) edition="LXX";
         if (!catalog[edition]) return;
         state.edition = edition;
-        state.bookId = catalog[edition].some(function (item) { return item.id === bookId; }) ? bookId : catalog[edition][0].id;
+        const list=activeCatalog();
+        if (!list?.length) return;
+        state.bookId = list.some(function (item) { return item.id === bookId; }) ? bookId : list[0].id;
         state.chapter = Math.min(positiveInt(chapter, 1), book().chapters);
         state.verse = positiveInt(verse, 1);
         siblings.forEach(function (node) { node.hidden = true; });
         panel.hidden = false;
+        fillEditions();
         fillBooks();
         fillChapters();
         render();
@@ -320,22 +374,35 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         wordUI?.close(false);
         panel.hidden = true;
         siblings.forEach(function (node) { node.hidden = initialVisibility.get(node); });
-        menuButtons.forEach(function (button) {
-            button.classList.remove("active");
-            button.removeAttribute("aria-current");
-        });
     }
     function isScriptureHash() {
-        return /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL)(?:\/|$)/.test(window.location.hash);
+        return /^#(?:escrituras|apocrifos)\//.test(window.location.hash);
     }
     function showFromHash() {
-        const match = /^#escrituras\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
+        const match = /^#(escrituras|apocrifos)\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
         if (!match) return false;
-        show(match[1], match[2], match[3], match[4], false);
+        const scope=match[1],edition=match[2],bookId=match[3];
+        const chapter=positiveInt(match[4],1),verse=positiveInt(match[5],1);
+        const latin = edition === "VUL" || edition === "VULJ";
+        // URLs antigas apontam para a nova seção sem perder a referência da fonte.
+        if (latin && bookId === "EST" && chapter === 10 && verse >= 4) {
+            show(edition,"EST_ADD",1,verse,false,"apocrifos");syncHash();return true;
+        }
+        if (latin && bookId === "EST" && chapter >= 11 && chapter <= 16) {
+            show(edition,"EST_ADD",chapter-9,verse,false,"apocrifos");syncHash();return true;
+        }
+        if (latin && bookId === "DAN" && (chapter === 13 || chapter === 14)) {
+            show(edition,chapter === 13 ? "DAN_SUS" : "DAN_BEL",1,verse,false,"apocrifos");
+            syncHash();return true;
+        }
+        const isApocrypha=bookId && apocryphaCatalog[edition]?.some(b=>b.id===bookId);
+        show(edition,bookId,chapter,verse,false,isApocrypha?"apocrifos":scope);
+        if ((isApocrypha && scope !== "apocrifos") || chapter !== state.chapter || verse !== state.verse)
+            syncHash();
         return true;
     }
-    editionSelect.addEventListener("change", function () { show(editionSelect.value, null, 1, 1, true); });
-    bookSelect.addEventListener("change", function () { show(state.edition, bookSelect.value, 1, 1, true); });
+    editionSelect.addEventListener("change", function () { show(editionSelect.value, null, 1, 1, true, state.scope); });
+    bookSelect.addEventListener("change", function () { show(state.edition, bookSelect.value, 1, 1, true, state.scope); });
     chapterSelect.addEventListener("change", function () {
         state.chapter = Math.min(positiveInt(chapterSelect.value, 1), book().chapters);
         state.verse = 1; render(); syncHash();
@@ -345,13 +412,13 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         render(); syncHash();
     });
     panel.querySelector("#scripture-previous-chapter").addEventListener("click", function () {
-        show(state.edition, state.bookId, state.chapter - 1, 1, true);
+        show(state.edition, state.bookId, state.chapter - 1, 1, true, state.scope);
     });
     panel.querySelector("#scripture-next-chapter").addEventListener("click", function () {
-        show(state.edition, state.bookId, state.chapter + 1, 1, true);
+        show(state.edition, state.bookId, state.chapter + 1, 1, true, state.scope);
     });
     panel.querySelector("#scripture-copy").addEventListener("click", function () {
-        const value = state.edition + " — " + book().name + " " + state.chapter + ":" + state.verse;
+        const value = state.edition + " — " + sourceReference(state.verse);
         if (!navigator.clipboard?.writeText) {
             feedback.textContent = "Copie a referência: " + value;
             return;
@@ -361,5 +428,5 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         }).catch(function () { feedback.textContent = "Copie a referência: " + value; });
     });
     window.ScripturaScriptures = { isScriptureHash: isScriptureHash, showFromHash: showFromHash,
-        hide: hide, show: show, catalog: catalog };
+        hide: hide, show: show, catalog: catalog, apocryphaCatalog: apocryphaCatalog };
 })();
