@@ -34,5 +34,12 @@
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto inglês integral e forma siríaca supridos pelo usuário em mensagens distintas. A tradução do chat foi mantida; intervenção no siríaco descrita somente em metadados, não no cartão. Não modificar os verbetes antigos.",
-  "notes": "Lema grego apenas no cabeçalho do cartão. A palavra portuguesa Arão é a tradução da acepção no corpo, não a repetição do lema. Quinto registro da nova importação de 5828 verbetes previstos."
+  "notes": "Lema grego apenas no cabeçalho do cartão. A palavra portuguesa Arão é a tradução da acepção no corpo, não a repetição do lema. Quinto registro da nova importação de 5828 verbetes previstos.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0002"
+    ],
+    "requires_exact_card_match": true
+  }
 }
