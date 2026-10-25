@@ -12,7 +12,9 @@ assert.ok(catalog.total > 5000,"O índice integral não foi gerado");
 
 const sourceDir = path.join(root,"lexicons/thayer-reinicio-2026-10-25");
 const files = fs.readdirSync(sourceDir).filter(name => /^\d{4}-[a-z0-9-]+\.json$/i.test(name)).sort();
-assert.ok(files.length >= 6,"Faltam artigos aprovados do reinício");
+assert.ok(files.length >= 7,"Faltam artigos aprovados do Thayer");
+assert.equal(catalog.thayerReviewed?.approved,files.length,"Contagem de artigos aprovados não corresponde aos arquivos");
+assert.equal(catalog.thayerReviewed?.approvedIds?.length,files.length,"Manifesto de publicação incompleto");
 
 const metas = new Map(), cards = new Map(), lookups = new Map();
 for(const run of catalog.runs.filter(run => run.dictionary === "grego" && run.source === "THAYER")) {
@@ -47,8 +49,28 @@ for(const file of files){
 const alfa=published.get("entry-thayer-reinicio-0001");
 assert.ok(alfa,"Lema inicial ausente");
 assert.ok(alfa.lookup?.[2]?.includes("alfa"),"Alias 'alfa' não entrou no índice");
-// As entradas independentes do Thayer devem coexistir.
-assert.ok(published.has("entry-thayer-0006"),"O artigo histórico de Abel foi removido");
+// O artigo de Abel do acervo antigo continua arquivado em lexicons/thayer.js,
+// mas não pode substituir o revisado na interface nem coexistir como duplicata.
+assert.ok(fs.readFileSync(path.join(root,"lexicons/thayer.js"),"utf8").includes("entry-thayer-0006"),
+    "Arquivo de Abel histórico foi indevidamente alterado");
+assert.ok(published.has("entry-thayer-reinicio-0007"),"Abel revisado não foi publicado");
+assert.ok(!published.has("entry-thayer-0006"),"Abel histórico ainda aparece na busca");
+const reviewedIds = new Set(catalog.thayerReviewed.approvedIds);
+for(const file of files){
+    const record=JSON.parse(fs.readFileSync(path.join(sourceDir,file),"utf8"));
+    assert.ok(reviewedIds.has(record.entry_id),"Arquivo não entrou no manifesto: "+file);
+    assert.equal(record.publication?.approval,"approved_in_chat","Aprovação editorial ausente: "+file);
+    assert.equal(record.publication?.requires_exact_card_match,true,"Validação obrigatória desativada: "+file);
+    for(const old of record.publication.supersedes_legacy_targets){
+        assert.equal(catalog.thayerReviewed.superseded[old],record.entry_id,
+            "Substituição histórica divergente: "+file);
+        assert.ok(!published.has(old),"Cartão antigo permaneceu na busca: "+old);
+    }
+}
+const abel = published.get("entry-thayer-reinicio-0007");
+assert.ok(abel?.card?.html.includes("הֶבֶל"),"Hebraico do Abel revisado não confere com o impresso");
+assert.ok(!abel.card.html.includes("fonte fotográfica") &&
+           !abel.card.html.includes("OCR"),"Metadados administrativos visíveis no cartão Abel");
 const css=fs.readFileSync(path.join(root,"style.css"),"utf8");
 for(const name of ["THAYER","ROBINSON","BDAG","DGP","PEREIRA"]){
     assert.ok(css.includes('.search-row[data-source="'+name+'"] .source-pill'),"Cor da etiqueta ausente: "+name);
@@ -66,6 +88,7 @@ console.log(JSON.stringify({
     checkedNew:files.length,
     thayerPublished:published.size,
     alfaAlias:true,
-    legacyAbelPreserved:true,
+    legacyAbelArchivedNotPublished:true,
+    publicationGate:true,
     sourceColors:true
 }));

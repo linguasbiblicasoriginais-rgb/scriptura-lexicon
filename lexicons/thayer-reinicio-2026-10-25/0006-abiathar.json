@@ -42,5 +42,12 @@
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Fotografia da edição impressa fornecida pelo usuário no chat. Tradução exposta ao usuário e autorizada para incorporação. Notas editoriais armazenadas somente nos metadados, fora do cartão.",
-  "notes": "Título unicamente no cabeçalho; íntegra da tradução no corpo. Preservar os colchetes do impresso, as referências históricas e a posição interpretativa de Thayer sobre Mc 2.26."
+  "notes": "Título unicamente no cabeçalho; íntegra da tradução no corpo. Preservar os colchetes do impresso, as referências históricas e a posição interpretativa de Thayer sobre Mc 2.26.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0008"
+    ],
+    "requires_exact_card_match": true
+  }
 }

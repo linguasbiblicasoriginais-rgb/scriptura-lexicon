@@ -294,74 +294,108 @@ console.log("DGP_DEDUP_STRICT", JSON.stringify({
     samplePending:pendingDgpDifferences.slice(0,6)
 }));
 
-// THAYER_RESTART_PRESENTATION: integra traduções aprovadas no catálogo público.
-// Os registros antigos permanecem intactos nos arquivos lexicons/thayer*.js;
-// somente os resultados históricos com o mesmo lema cedem lugar à edição revisada.
-// Qualquer novo verbete JSON validado aqui entra automaticamente no próximo build.
+// THAYER_PUBLICATION_GATE — falhar fechado em caso de divergência editorial.
+// Fontes históricas permanecem intactas. Somente artigos revisados e aprovados
+// substituem seus correspondentes no índice público; nenhum substituto é inferido.
 const thayerRestartDirectory = path.join(root, "lexicons/thayer-reinicio-2026-10-25");
 const thayerRestartFiles = fs.readdirSync(thayerRestartDirectory)
     .filter(file => /^\d{4}-[a-z0-9-]+\.json$/i.test(file)).sort();
-if (!thayerRestartFiles.length) throw Error("Nenhum verbete do reinício Thayer encontrado");
-const thayerRestartKeys = new Set();
-const thayerRestartTargets = new Set();
-for (const filename of thayerRestartFiles) {
-    const file = path.join(thayerRestartDirectory, filename);
-    const data = JSON.parse(fs.readFileSync(file, "utf8"));
-    if (data.source !== "THAYER" || !/^entry-thayer-reinicio-\d{4}$/.test(data.entry_id) ||
-            !data.render?.search_row_html || !data.render?.entry_card_html ||
-            !Array.isArray(data.translation_portuguese_full) || !data.source_english_full ||
-            thayerRestartTargets.has(data.entry_id)) {
-        throw Error("Verbete Thayer inválido ou duplicado: " + filename);
-    }
-    // Controle de qualidade: o cartão precisa reproduzir todos os parágrafos
-    // aprovados sem omissões, paráfrases ou rótulos internos de processamento.
-    const matchTitle = data.render.entry_card_html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
-    const textualNfc = value => String(value || "").normalize("NFC").replace(/\s+/gu, " ").trim();
-    if (!matchTitle || textualNfc(textOnly(matchTitle[1])) !== textualNfc(data.card_title)) {
-        throw Error("Título publicado diverge do cartão aprovado: " + filename);
-    }
-    const renderedParagraphs = Array.from(data.render.entry_card_html.matchAll(
-        /<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/gi),
-        match => textualNfc(textOnly(match[1])));
-    const approvedParagraphs = data.translation_portuguese_full.map(textualNfc);
-    if (renderedParagraphs.length !== approvedParagraphs.length ||
-            renderedParagraphs.some((text,i) => text !== approvedParagraphs[i])) {
-        throw Error("Cartão não corresponde à tradução integral aprovada: " + filename);
-    }
-    const subtitle = data.render.entry_card_html.match(/<div class="entry-meta">([\s\S]*?)<\/div>/i);
-    if (!subtitle || !textualNfc(textOnly(subtitle[1])) ||
-            /rein[ií]cio\s+20\d{2}/iu.test(subtitle[1])) {
-        throw Error("Subtítulo editorial inadequado para publicação: " + filename);
-    }
-    const before = records.length;
-    register(records, data.render.search_row_html, data.render.entry_card_html, "thayer-reinicio/" + filename);
-    if (records.length !== before + 1 || records[before].target !== data.entry_id ||
-            records[before].source !== "THAYER") {
-        throw Error("Incompatibilidade entre linha e cartão Thayer: " + filename);
-    }
-    thayerRestartTargets.add(data.entry_id);
-    const headword = data.lemma_original?.split(",")[0].trim();
-    if (!headword) throw Error("Lema Thayer ausente: " + filename);
-    thayerRestartKeys.add(normalize(headword));
-}
+if (!thayerRestartFiles.length) throw Error("THAYER_PUBLICATION_GATE: nenhum verbete aprovado");
+const textualNfc = value => String(value || "").normalize("NFC").replace(/\s+/gu, " ").trim();
 function thayerPublishedLemmaKey(row) {
     const cell = row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
     return normalize(textOnly(cell ? cell[1] : "").split(",")[0].trim());
 }
-const replacedLegacyThayerTargets = [];
-const published = records.filter(record => {
-    const legacy = record.source === "THAYER" && /^entry-thayer-\d{4}$/.test(record.target) &&
-        thayerRestartKeys.has(thayerPublishedLemmaKey(record.row));
-    if (legacy) replacedLegacyThayerTargets.push(record.target);
-    return !legacy;
-});
+const historicalThayer = records.filter(record => record.source === "THAYER");
+const historicalByTarget = new Map(historicalThayer.map(record => [record.target, record]));
+const approvedByKey = new Map();
+const approvedIds = new Set();
+const supersededHistorical = new Map();
+for (const filename of thayerRestartFiles) {
+    const file = path.join(thayerRestartDirectory, filename);
+    const data = JSON.parse(fs.readFileSync(file, "utf8"));
+    const fileOrdinal = Number(filename.slice(0,4));
+    const isApproved = data.publication?.approval === "approved_in_chat" &&
+        data.publication?.requires_exact_card_match === true &&
+        data.editorial_status?.startsWith("TRADUCAO_APROVADA_PELO_USUARIO");
+    if (data.source !== "THAYER" || !isApproved ||
+            !Number.isSafeInteger(data.ordinal) || data.ordinal !== fileOrdinal ||
+            data.entry_id !== "entry-thayer-reinicio-" + filename.slice(0,4) ||
+            !data.lemma_original || !data.card_title || !data.grammatical_class ||
+            !data.render?.search_row_html || !data.render?.entry_card_html ||
+            !Array.isArray(data.translation_portuguese_full) ||
+            data.translation_portuguese_full.length === 0 ||
+            data.translation_portuguese_full.some(p => !textualNfc(p)) ||
+            !data.source_english_full || approvedIds.has(data.entry_id)) {
+        throw Error("THAYER_PUBLICATION_GATE: verbete não aprovado/incompleto: " + filename);
+    }
+    const heading = data.render.entry_card_html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    if (!heading || textualNfc(textOnly(heading[1])) !== textualNfc(data.card_title) ||
+            (data.render.entry_card_html.match(/<h1\b/gi) || []).length !== 1) {
+        throw Error("THAYER_PUBLICATION_GATE: cabeçalho diferente do aprovado: " + filename);
+    }
+    const paragraphs = Array.from(data.render.entry_card_html.matchAll(
+        /<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/gi),
+        match => textualNfc(textOnly(match[1])));
+    const approvedParagraphs = data.translation_portuguese_full.map(textualNfc);
+    if (paragraphs.length !== approvedParagraphs.length ||
+            paragraphs.some((value,index) => value !== approvedParagraphs[index])) {
+        throw Error("THAYER_PUBLICATION_GATE: corpo diverge da tradução integral: " + filename);
+    }
+    const subtitle = data.render.entry_card_html.match(/<div class="entry-meta">([\s\S]*?)<\/div>/i);
+    if (!subtitle || !textualNfc(textOnly(subtitle[1])) ||
+            /rein[ií]cio\s+20\d{2}/iu.test(subtitle[1]) ||
+            /fonte fotogr[aá]fica|ocr auxiliar|texto auxiliar/iu.test(data.render.entry_card_html)) {
+        throw Error("THAYER_PUBLICATION_GATE: metadados internos no cartão: " + filename);
+    }
+    const key = normalize(data.lemma_original.split(",")[0].trim());
+    const rowKey = thayerPublishedLemmaKey(data.render.search_row_html);
+    if (!key || key !== rowKey || approvedByKey.has(key)) {
+        throw Error("THAYER_PUBLICATION_GATE: lema divergente ou homógrafo sem revisão: " + filename);
+    }
+    const expected = historicalThayer.filter(record =>
+        thayerPublishedLemmaKey(record.row) === key).map(record => record.target).sort();
+    const declared = data.publication?.supersedes_legacy_targets;
+    if (!Array.isArray(declared) || new Set(declared).size !== declared.length ||
+            declared.some(target => !/^entry-thayer-\d{4}$/.test(target)) ||
+            JSON.stringify(declared.slice().sort()) !== JSON.stringify(expected)) {
+        throw Error("THAYER_PUBLICATION_GATE: concorrência histórica não resolvida em " +
+            filename + "; encontrados=" + JSON.stringify(expected) +
+            "; declarados=" + JSON.stringify(declared));
+    }
+    for (const oldTarget of declared) {
+        if (!historicalByTarget.has(oldTarget) || supersededHistorical.has(oldTarget)) {
+            throw Error("THAYER_PUBLICATION_GATE: substituição inválida: " + oldTarget);
+        }
+        supersededHistorical.set(oldTarget,data.entry_id);
+    }
+    const beforeRegister = records.length;
+    register(records,data.render.search_row_html,data.render.entry_card_html,
+        "thayer-revisado/" + filename);
+    if (records.length !== beforeRegister + 1 ||
+            records[beforeRegister].target !== data.entry_id ||
+            records[beforeRegister].source !== "THAYER") {
+        throw Error("THAYER_PUBLICATION_GATE: linha e cartão desacoplados: " + filename);
+    }
+    approvedByKey.set(key,data.entry_id);
+    approvedIds.add(data.entry_id);
+}
+// Garante que nenhuma versão histórica substituída permaneça na busca.
+// Os arquivos originais e seus dados continuam guardados integralmente.
+const published = records.filter(record => !supersededHistorical.has(record.target));
 records.length = 0;
 for (const record of published) records.push(record);
-console.log("THAYER_RESTART_PRESENTATION", JSON.stringify({
-    included: thayerRestartFiles.length,
-    supersededLegacyInPublicIndex: replacedLegacyThayerTargets.sort(),
-    preservedHistoricalSources: true
-}));
+if (records.filter(record => approvedIds.has(record.target)).length !== approvedIds.size ||
+        records.some(record => supersededHistorical.has(record.target))) {
+    throw Error("THAYER_PUBLICATION_GATE: inconsistência no índice público");
+}
+const thayerPublicationGate = {
+    approved: approvedIds.size,
+    approvedIds: [...approvedIds].sort(),
+    superseded: Object.fromEntries([...supersededHistorical].sort(([a],[b])=>a.localeCompare(b))),
+    corpusPreserved: true
+};
+console.log("THAYER_PUBLICATION_GATE", JSON.stringify(thayerPublicationGate));
 
 // Um ID histórico repetido não pode suprimir a segunda entrada.
 // Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
@@ -514,6 +548,7 @@ for (let i = 0; i < buckets.length; i++) {
 }
 emit("catalog.json", {
     version: 4, chunkSize, lookupLargeSize, total: records.length, counts, samples, runs, sourceTerms,
+    thayerReviewed: thayerPublicationGate,
     quarantined:{DGP:quarantinedDgpFragments.length},
     duplicateSamples:duplicateSamples.slice(0,8)
 });

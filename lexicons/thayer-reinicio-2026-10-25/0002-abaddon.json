@@ -49,5 +49,12 @@
     "reference": "Rev. 11:11",
     "origin": "Transcrição digital em inglês enviada pelo usuário",
     "status": "divergente_do_impresso"
+  },
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0003"
+    ],
+    "requires_exact_card_match": true
   }
 }
