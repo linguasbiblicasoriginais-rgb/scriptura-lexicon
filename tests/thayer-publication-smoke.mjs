@@ -45,6 +45,27 @@ for(const file of files){
     assert.equal(pub.card?.html,record.render.entry_card_html,"O cartão publicado difere do texto aprovado: "+file);
     assert.ok(pub.row?.row?.includes('data-source="THAYER"'),"Falta origem THAYER: "+file);
     assert.ok(!pub.card.html.includes("reinício 2026-10-25"),"Rótulo editorial no cabeçalho: "+file);
+    const intro=pub.card.html.match(/<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/i)?.[1]?.replace(/<[^>]*>/g,"");
+    assert.ok(intro,"Primeiro parágrafo ausente do cartão: "+file);
+    const duplicateGrammar=/(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
+    assert.ok(!duplicateGrammar.test(intro.slice(0,260)),
+        "Classe gramatical repetida no corpo do cartão: "+file);
+
+}
+const expectedOpening = new Map([
+    ["0001-alpha.json","A primeira letra do alfabeto grego"],
+    ["0002-abaddon.json","Do hebraico אֲבַדּוֹן."],
+    ["0003-abaries.json","(De βάρος, peso.)"],
+    ["0004-abba.json","[WH -βά], do hebraico"],
+    ["0005-aaron.json","(Em Josefo, ὁ Ἀαρών"],
+    ["0006-abiathar.json","(Embora em Josefo, Antiguidades Judaicas"],
+    ["0007-abel.json","(WH Ἅβ.; ver sua Introdução, § 408; em Josefo"]
+]);
+assert.equal(files.length,expectedOpening.size,"Inventário revisado não corresponde aos sete verbetes");
+for (const [name,start] of expectedOpening) {
+    const rec=JSON.parse(fs.readFileSync(path.join(sourceDir,name),"utf8"));
+    assert.ok(rec.translation_portuguese_full[0].startsWith(start),
+        "Abertura do verbete não corresponde à revisão aprovada: "+name);
 }
 const alfa=published.get("entry-thayer-reinicio-0001");
 assert.ok(alfa,"Lema inicial ausente");

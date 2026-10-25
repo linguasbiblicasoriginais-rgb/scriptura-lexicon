@@ -61,6 +61,49 @@ try {
     assert.equal(aaron.text,"ܐܰܗܻܝܪܳܐ");
     assert.match(aaron.css,/Estrangelo Edessa/);
     assert.equal(aaron.dir,"rtl");
+    // Testar o cartão que o navegador realmente abre, não apenas o JSON-fonte.
+    const publicationAudit=await page.evaluate(async (specs)=>{
+        const api=window.ScripturaLexiconSearch;
+        const audit=[];
+        for(const spec of specs){
+            // A interface normaliza a entrada antes de consultar o índice.
+            const normalizedTerm=spec.term.toLocaleLowerCase("pt-BR").normalize("NFD")
+                .replace(/\p{M}/gu,"").replace(/\s+/g," ").trim();
+            const results=await api.search(normalizedTerm,"grego","THAYER");
+            let row=null;
+            // Contrato do frontend: no máximo 10 linhas por página.
+            for(let pageNo=1;pageNo<=Math.min(20,Math.ceil(results.total/10));pageNo++){
+                const pageRows=await api.page(results,pageNo,10);
+                row=pageRows.find(entry=>entry.target===spec.target);
+                if(row) break;
+            }
+            if (!row){audit.push({term:spec.term,target:spec.target,error:"não encontrado entre os resultados"});continue;}
+            const article=await api.loadArticle(row.id);
+            const body=article.querySelector(".entry-section .entry-text")?.textContent?.trim();
+            const sub=article.querySelector(".entry-meta")?.textContent?.trim();
+            audit.push({term:spec.term,target:spec.target,title:article.querySelector("h1")?.textContent?.trim(),
+                subtitle:sub,firstParagraph:body?.slice(0,280),technical:article.querySelectorAll(".section-title").length});
+        }
+        return audit;
+    },[
+        {term:"alfa",target:"entry-thayer-reinicio-0001"},
+        {term:"abadom",target:"entry-thayer-reinicio-0002"},
+        {term:"ἀβαρής",target:"entry-thayer-reinicio-0003"},
+        {term:"abba",target:"entry-thayer-reinicio-0004"},
+        {term:"arao",target:"entry-thayer-reinicio-0005"},
+        {term:"abiatar",target:"entry-thayer-reinicio-0006"},
+        {term:"abel",target:"entry-thayer-reinicio-0007"}
+    ]);
+    assert.equal(publicationAudit.length,7);
+    const grammar=/(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
+    for(const item of publicationAudit){
+        assert.ok(!item.error,"Cartão não encontrado para "+item.term+": "+item.error);
+        assert.ok(item.title && item.subtitle && item.firstParagraph,
+            "Título, subtítulo ou definição ausente em "+item.term);
+        assert.equal(item.technical,0,"Seções administrativas expostas em "+item.term);
+        assert.ok(!grammar.test(item.firstParagraph),"Redundância gramatical visível em "+item.term);
+    }
+
     assert.deepEqual(errors,[],"Erros JS no navegador: "+errors.join(" | "));
     console.log(JSON.stringify({status:"PASS",alfa:alfa.firstTarget,abel:abel.firstTarget,syriac:aaron.text,jsErrors:0}));
 }finally{await browser.close();}

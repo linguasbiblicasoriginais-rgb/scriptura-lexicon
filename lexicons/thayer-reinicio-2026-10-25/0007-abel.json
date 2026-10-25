@@ -11,7 +11,7 @@
   "printed_page": 1,
   "source_english_full": "Ἄβελ (WH Ἅβ. (see their Introductory section 408)), indeclinable proper name (in Josephus (e. g. Antiquities 1, 2, 1) Ἄβελος, -ου), ) חֶבֶלbreath, vanity(, Abel, the second son born to Adam )Gen. 4:2ff(, so called from his short life and sudden death (cf. B. D. American edition, p. 5), (Job 7:16; Ps. 39:6):  Matt. 23:35; Luke 11:51; Heb. 11:4; 12:24.*",
   "translation_portuguese_full": [
-    "(WH Ἅβ.; ver sua Introdução, § 408), nome próprio indeclinável (em Josefo, por exemplo, Antiguidades Judaicas, 1, 2, 1, Ἄβελος, -ου), do hebraico הֶבֶל, sopro, vaidade, Abel, o segundo filho nascido de Adão (Gn 4.2ss.), assim chamado em razão da brevidade de sua vida e de sua morte repentina (cf. B. D., edição americana, p. 5; Jó 7.16; Sl 39.6): Mt 23.35; Lc 11.51; Hb 11.4; 12.24."
+    "(WH Ἅβ.; ver sua Introdução, § 408; em Josefo, por exemplo, Antiguidades Judaicas, 1, 2, 1, Ἄβελος, -ου), do hebraico הֶבֶל, sopro, vaidade, Abel, o segundo filho nascido de Adão (Gn 4.2ss.), assim chamado em razão da brevidade de sua vida e de sua morte repentina (cf. B. D., edição americana, p. 5; Jó 7.16; Sl 39.6): Mt 23.35; Lc 11.51; Hb 11.4; 12.24."
   ],
   "biblical_references": [
     "Gn 4.2ss.",
@@ -35,7 +35,7 @@
   ],
   "render": {
     "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0007\" data-lemma-alias=\"abel\" data-search=\"Ἄβελ Ἅβελ Abel הֶבֶל sopro vaidade Adão Jó 7.16 Sl 39.6 Mt 23.35 Lc 11.51 Hb 11.4 Hb 12.24\" tabindex=\"0\"><td class=\"table-lemma greek\">Ἄβελ</td><td>nome próprio indeclinável</td><td>Abel; segundo filho de Adão</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
-    "entry_card_html": "<article id=\"entry-thayer-reinicio-0007\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἄβελ</h1><div class=\"entry-meta\">Nome próprio indeclinável</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(WH Ἅβ.; ver sua Introdução, § 408), nome próprio indeclinável (em Josefo, por exemplo, <em>Antiguidades Judaicas</em>, 1, 2, 1, <span lang=\"grc\">Ἄβελος, -ου</span>), do hebraico <span lang=\"he\" dir=\"rtl\">הֶבֶל</span>, <em>sopro, vaidade</em>, <strong>Abel</strong>, o segundo filho nascido de Adão (Gn 4.2ss.), assim chamado em razão da brevidade de sua vida e de sua morte repentina (cf. B. D., edição americana, p. 5; Jó 7.16; Sl 39.6): Mt 23.35; Lc 11.51; Hb 11.4; 12.24.</p></section></article>"
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0007\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἄβελ</h1><div class=\"entry-meta\">Nome próprio indeclinável</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(WH Ἅβ.; ver sua Introdução, § 408; em Josefo, por exemplo, <em>Antiguidades Judaicas</em>, 1, 2, 1, <span lang=\"grc\">Ἄβελος, -ου</span>), do hebraico <span lang=\"he\" dir=\"rtl\">הֶבֶל</span>, <em>sopro, vaidade</em>, <strong>Abel</strong>, o segundo filho nascido de Adão (Gn 4.2ss.), assim chamado em razão da brevidade de sua vida e de sua morte repentina (cf. B. D., edição americana, p. 5; Jó 7.16; Sl 39.6): Mt 23.35; Lc 11.51; Hb 11.4; 12.24.</p></section></article>"
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto inglês fornecido pelo usuário; leitura hebraica cotejada e corrigida com sua edição impressa; tradução portuguesa aprovada no chat. A autorização para incorporar foi reiterada após a reclamação sobre a versão histórica visível.",
@@ -46,5 +46,12 @@
       "entry-thayer-0006"
     ],
     "requires_exact_card_match": true
+  },
+  "presentation_revision": {
+    "type": "deduplicate_grammatical_label",
+    "subtitle_kept": true,
+    "body_classification_removed": "), nome próprio indeclinável (em Josefo,",
+    "source_preserved": true,
+    "requested_by_user": true
   }
 }

@@ -348,6 +348,19 @@ for (const filename of thayerRestartFiles) {
             /fonte fotogr[aá]fica|ocr auxiliar|texto auxiliar/iu.test(data.render.entry_card_html)) {
         throw Error("THAYER_PUBLICATION_GATE: metadados internos no cartão: " + filename);
     }
+    // Evita repetir no início do artigo a classe gramatical já exibida no subtítulo.
+    // Alusões semânticas legítimas posteriores (p. ex. "nome próprio" como acepção)
+    // permanecem intactas; esta regra cobre somente a abertura do primeiro parágrafo.
+    const introduction = paragraphs[0].slice(0,260);
+    const duplicateGrammar = /(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
+    const subtitleText = textualNfc(textOnly(subtitle[1])).toLocaleLowerCase("pt-BR");
+    const introLower = introduction.toLocaleLowerCase("pt-BR");
+    const exactSubtitleDup = introLower.startsWith(subtitleText + " ") ||
+        introLower.startsWith(subtitleText + ",") ||
+        introLower.includes("), " + subtitleText + " ");
+    if (duplicateGrammar.test(introduction) || exactSubtitleDup) {
+        throw Error("THAYER_PUBLICATION_GATE: classificação gramatical repetida no corpo: " + filename);
+    }
     const key = normalize(data.lemma_original.split(",")[0].trim());
     const rowKey = thayerPublishedLemmaKey(data.render.search_row_html);
     if (!key || key !== rowKey || approvedByKey.has(key)) {
