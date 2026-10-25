@@ -294,6 +294,54 @@ console.log("DGP_DEDUP_STRICT", JSON.stringify({
     samplePending:pendingDgpDifferences.slice(0,6)
 }));
 
+// THAYER_RESTART_PRESENTATION: integra traduções aprovadas no catálogo público.
+// Os registros antigos permanecem intactos nos arquivos lexicons/thayer*.js;
+// somente os resultados históricos com o mesmo lema cedem lugar à edição revisada.
+// Qualquer novo verbete JSON validado aqui entra automaticamente no próximo build.
+const thayerRestartDirectory = path.join(root, "lexicons/thayer-reinicio-2026-10-25");
+const thayerRestartFiles = fs.readdirSync(thayerRestartDirectory)
+    .filter(file => /^\\d{4}-[a-z0-9-]+\\.json$/i.test(file)).sort();
+if (!thayerRestartFiles.length) throw Error("Nenhum verbete do reinício Thayer encontrado");
+const thayerRestartKeys = new Set();
+const thayerRestartTargets = new Set();
+for (const filename of thayerRestartFiles) {
+    const file = path.join(thayerRestartDirectory, filename);
+    const data = JSON.parse(fs.readFileSync(file, "utf8"));
+    if (data.source !== "THAYER" || !/^entry-thayer-reinicio-\\d{4}$/.test(data.entry_id) ||
+            !data.render?.search_row_html || !data.render?.entry_card_html ||
+            !Array.isArray(data.translation_portuguese_full) || !data.source_english_full ||
+            thayerRestartTargets.has(data.entry_id)) {
+        throw Error("Verbete Thayer inválido ou duplicado: " + filename);
+    }
+    const before = records.length;
+    register(records, data.render.search_row_html, data.render.entry_card_html, "thayer-reinicio/" + filename);
+    if (records.length !== before + 1 || records[before].target !== data.entry_id ||
+            records[before].source !== "THAYER") {
+        throw Error("Incompatibilidade entre linha e cartão Thayer: " + filename);
+    }
+    thayerRestartTargets.add(data.entry_id);
+    const headword = data.lemma_original?.split(",")[0].trim();
+    if (!headword) throw Error("Lema Thayer ausente: " + filename);
+    thayerRestartKeys.add(normalize(headword));
+}
+function thayerPublishedLemmaKey(row) {
+    const cell = row.match(/<td\\b[^>]*class="[^"]*\\btable-lemma\\b[^"]*"[^>]*>([\\s\\S]*?)<\\/td>/i);
+    return normalize(textOnly(cell ? cell[1] : "").split(",")[0].trim());
+}
+const replacedLegacyThayerTargets = [];
+const published = records.filter(record => {
+    const legacy = record.source === "THAYER" && /^entry-thayer-\\d{4}$/.test(record.target) &&
+        thayerRestartKeys.has(thayerPublishedLemmaKey(record.row));
+    if (legacy) replacedLegacyThayerTargets.push(record.target);
+    return !legacy;
+});
+records.splice(0, records.length, ...published);
+console.log("THAYER_RESTART_PRESENTATION", JSON.stringify({
+    included: thayerRestartFiles.length,
+    supersededLegacyInPublicIndex: replacedLegacyThayerTargets.sort(),
+    preservedHistoricalSources: true
+}));
+
 // Um ID histórico repetido não pode suprimir a segunda entrada.
 // Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
 const firstByTarget = new Map();
