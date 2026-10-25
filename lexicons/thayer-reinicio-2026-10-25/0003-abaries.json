@@ -24,5 +24,12 @@
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto inglês integral fornecido pelo usuário; tradução aprovada na conversa e incorporada literalmente ao cartão, sem mistura com os artigos anteriores.",
-  "notes": "A cabeça do verbete fica exclusivamente no título; o corpo não a repete. A remissão cf. 2.6 é mantida conforme a tradução aprovada e remete a 1Ts 2.6."
+  "notes": "A cabeça do verbete fica exclusivamente no título; o corpo não a repete. A remissão cf. 2.6 é mantida conforme a tradução aprovada e remete a 1Ts 2.6.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0004"
+    ],
+    "requires_exact_card_match": true
+  }
 }
