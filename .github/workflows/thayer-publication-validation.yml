@@ -1,0 +1,48 @@
+name: THAYER — validar publicação dos verbetes revisados
+
+on:
+  push:
+    branches:
+      - chat-gpt-thayer
+    paths:
+      - 'lexicons/thayer-reinicio-2026-10-25/**'
+      - 'scripts/build-on-demand.mjs'
+      - 'lexicons/on-demand-search.js'
+      - 'style.css'
+      - 'tests/thayer-publication-smoke.mjs'
+      - '.github/workflows/thayer-publication-validation.yml'
+  pull_request:
+    branches:
+      - chat-gpt-commits
+    paths:
+      - 'lexicons/thayer-reinicio-2026-10-25/**'
+      - 'scripts/build-on-demand.mjs'
+      - 'lexicons/on-demand-search.js'
+      - 'style.css'
+      - 'tests/thayer-publication-smoke.mjs'
+      - '.github/workflows/thayer-publication-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Conferir sintaxe dos scripts
+        run: |
+          node --check scripts/build-on-demand.mjs
+          node --check lexicons/on-demand-search.js
+          node --check tests/thayer-publication-smoke.mjs
+      - name: Gerar catálogo completo
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs > /tmp/thayer-build.log 2>&1 || (tail -n 120 /tmp/thayer-build.log; exit 1)
+      - name: Conferir verbetes integrais e busca
+        run: node tests/thayer-publication-smoke.mjs
+      - name: Resumo da compilação
+        if: always()
+        run: tail -n 4 /tmp/thayer-build.log || true
