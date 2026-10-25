@@ -66,7 +66,10 @@ try {
         const api=window.ScripturaLexiconSearch;
         const audit=[];
         for(const spec of specs){
-            const results=await api.search(spec.term,"grego","THAYER");
+            // A interface normaliza a entrada antes de consultar o índice.
+            const normalizedTerm=spec.term.toLocaleLowerCase("pt-BR").normalize("NFD")
+                .replace(/\p{M}/gu,"").replace(/\s+/g," ").trim();
+            const results=await api.search(normalizedTerm,"grego","THAYER");
             let row=null;
             // Contrato do frontend: no máximo 10 linhas por página.
             for(let pageNo=1;pageNo<=Math.min(20,Math.ceil(results.total/10));pageNo++){
