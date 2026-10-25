@@ -4,6 +4,7 @@ on:
     branches: ['chat-gpt-patristicos/clemente-alexandria']
     paths:
       - 'patristics/reader.js'
+      - 'patristics/reader.css'
       - 'patristics/data/stromata.xml'
       - 'tests/stromata-reader-browser.mjs'
       - '.github/workflows/stromata-browser-smoke.yml'
