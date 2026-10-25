@@ -252,18 +252,14 @@ def main():
     need(len(list((archive/"texts").glob("bhs-*.js")))==324,
          "Arquivo histórico incompleto: migração proibida")
     old=list((ROOT/"scriptures/texts").glob("bhs-*.js"))
-    need(len(old)==324,f"Módulos ativos legados diferentes do esperado: {len(old)}")
+    need(len(old) in (0,324),f"Módulos ativos legados inesperados: {len(old)}")
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
     indexfile=ROOT/"index.html"
     html=indexfile.read_text(encoding="utf8")
-    html,removed=re.subn(r'(?m)^[ \t]*<script defer src="scriptures/texts/bhs-[^"]+\.js"></script>\r?\n',"",html)
-    need(removed==324,f"Links BHS removidos: {removed}, esperado 324")
-    anchor='    <script defer src="scriptures/texts/lxx-genesis-1.js"></script>'
-    need(html.count(anchor)==1,"Âncora HTML da LXX ausente")
-    html=html.replace(anchor,"".join(
-        '    <script defer src="'+path+'"></script>\n' for path in generated)+anchor)
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     readfile=ROOT/"scriptures/reader.js"
     reader=readfile.read_text(encoding="utf8")
-    need('"BHS":"' in reader,"Catalogação BHS não encontrada")
+    need('UXLC:' in reader or '"BHS":"' in reader,"Catalogação hebraica não encontrada")
     reader=reader.replace("BHS","UXLC")
     reader=reader.replace("Biblia Hebraica Stuttgartensia (UXLC)",
                           "Unicode/XML Leningrad Codex (UXLC 2.6)")
@@ -272,7 +268,7 @@ def main():
        '(state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter)')
     popupfile=ROOT/"scriptures/word-popups.js"
     popup=popupfile.read_text(encoding="utf8")
-    need('edition === "BHS" ? "BHS"' in popup,"Glossas hebraicas BHS desconhecidas")
+    need('edition === "BHS" ? "BHS"' in popup or 'edition === "UXLC"' in popup,"Glossas hebraicas desconhecidas")
     popup=popup.replace('edition === "BHS" ? "BHS"',
                         '(edition === "BHS" || edition === "UXLC") ? "BHS"')
     manifest={"source":"Unicode/XML Leningrad Codex","edition":"UXLC 2.6",

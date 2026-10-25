@@ -59,6 +59,11 @@
         const data = await json("grams/" + pad(part,3) + ".json", gramFiles, part);
         return {ids:data[gram] || [], lemmaRank:data.__lemmaRank?.[gram] || [[],[],[]]};
     }
+    // Os registros auxiliares são preservados no índice, mas não publicados como tradução.
+    function isAuxiliaryOnly(source) {
+        return Boolean(source &&
+            window.ScripturaSourceCatalog?.[source]?.publicationStatus === "source-only");
+    }
     // Localização binária do dicionário e da fonte, sem baixar metadados.
     function inSelectedSource(id, dictionary, source) {
         const runs = catalog.runs;
@@ -68,7 +73,8 @@
             const middle = (left + right) >> 1, run = runs[middle];
             if (id < run.start) right = middle - 1;
             else if (id >= run.end) left = middle + 1;
-            else return run.dictionary === dictionary && (!source || run.source === source);
+            else return run.dictionary === dictionary && !isAuxiliaryOnly(run.source) &&
+                    (!source || run.source === source);
         }
         return false;
     }
@@ -76,7 +82,8 @@
     // sem transferir HTML de resultados ou de artigos ao navegador.
     async function search(query, dictionary, source) {
         await ready;
-        if (!query || (source && !(catalog.counts?.[dictionary]?.[source] > 0))) {
+        if (!query || isAuxiliaryOnly(source) ||
+            (source && !(catalog.counts?.[dictionary]?.[source] > 0))) {
             return {ids:[], total:0};
         }
         const terms = query.split(/[\s,;]+/u).filter(Boolean);
@@ -207,9 +214,11 @@
         return card;
     }
     function count(dictionary, source) {
+        if (isAuxiliaryOnly(source)) return 0;
         return catalog?.counts?.[dictionary]?.[source] || 0;
     }
     function sample(dictionary, source) {
+        if (isAuxiliaryOnly(source)) return null;
         return catalog?.samples?.[dictionary]?.[source] || null;
     }
     const ready = fetch(root + "catalog.json").then(async response => {

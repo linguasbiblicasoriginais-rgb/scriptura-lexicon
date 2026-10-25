@@ -147,16 +147,10 @@ def main():
     # Testa reconstrução de todas as saídas a partir da fonte antes de escrever.
     for path,content in result.items():
         need(content.count("window.ScripturaScriptureTexts.LXX")==3,f"Formato JS inválido {path}")
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
     html_path=ROOT/"index.html"
     html=html_path.read_text(encoding="utf8")
-    # Reconstrução idempotente da lista de referências LXX.
-    html,removed=re.subn(r'(?m)^[ \t]*<script defer src="scriptures/texts/lxx-[^"]+\.js"></script>\r?\n',"",html)
-    need(removed in (1,len(result)),f"Quantidade inesperada de referências LXX: {removed}")
-    anchor='    <script defer src="scriptures/texts/na28-matthew-1.js"></script>'
-    need(html.count(anchor)==1,"Âncora do NT grego ausente")
-    html=html.replace(anchor,"".join(
-      '    <script defer src="'+path+'"></script>\n' for path in result)+anchor)
-    need(html.count('scriptures/texts/lxx-')==len(result),"Referências HTML LXX duplicadas")
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     reader_path=ROOT/"scriptures/reader.js"
     reader=reader_path.read_text(encoding="utf8")
     reader=reader.replace("Septuaginta (LXX)","Septuaginta — Brenton (texto grego, 1851)")

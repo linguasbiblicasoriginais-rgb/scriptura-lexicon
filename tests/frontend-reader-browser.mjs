@@ -137,12 +137,27 @@ try {
 
             if (Object.hasOwn(localCovers, source)) {
                 const expected = localCovers[source];
-                await page.waitForFunction(path => {
-                    const image = document.getElementById("source-cover-image");
-                    return image && !image.hidden && image.complete &&
-                        image.naturalWidth > 0 && image.naturalHeight > 0 &&
-                        image.getAttribute("src") === path;
-                }, expected, { timeout: 20000 });
+                try {
+                    await page.waitForFunction(path => {
+                        const image = document.getElementById("source-cover-image");
+                        return image && !image.hidden && image.complete &&
+                            image.naturalWidth > 0 && image.naturalHeight > 0 &&
+                            image.getAttribute("src") === path;
+                    }, expected, { timeout: 20000 });
+                } catch (error) {
+                    const diagnostic = await page.evaluate(() => {
+                        const img = document.getElementById("source-cover-image");
+                        const filter = document.getElementById("source-filter");
+                        const data = window.ScripturaSourceCatalog?.[filter.value];
+                        return {filter:filter.value,expectedSource:data?.coverUrl,
+                            src:img?.getAttribute("src"),hidden:img?.hidden,
+                            complete:img?.complete,width:img?.naturalWidth,
+                            isVisible:img?getComputedStyle(img).display!=="none":false,
+                            placeholderHidden:document.getElementById("source-cover-placeholder")?.hidden};
+                    });
+                    throw new Error("Capa "+source+" ("+dictionary+"): "+
+                        JSON.stringify(diagnostic)+"; "+error.message);
+                }
 
                 const fit = await page.locator("#source-cover-image").evaluate(
                     image => getComputedStyle(image).objectFit
