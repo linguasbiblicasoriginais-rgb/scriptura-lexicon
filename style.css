@@ -28,7 +28,7 @@
 
     --font-main: "Noto Serif", serif;
     --font-hebrew: "Noto Serif Hebrew", "Noto Serif", serif;
-    --font-syriac: "Noto Sans Syriac", "Noto Serif", serif;
+    --font-syriac: "Estrangelo Edessa", "Noto Sans Syriac", "Noto Serif", serif;
 
     --shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
     --tooltip-shadow: 0 18px 45px rgba(0, 0, 0, 0.48);
@@ -1210,7 +1210,8 @@ tbody tr:last-child td {
     margin-top: 1.05rem;
 }
 
-.syriac {
+.syriac,
+:lang(syr) {
     color: var(--interactive);
 
     font-family: var(--font-syriac);
@@ -1218,7 +1219,8 @@ tbody tr:last-child td {
 }
 
 
-.syriac-token {
+.syriac-token,
+:lang(syr) {
     direction: rtl;
     unicode-bidi: isolate;
 
