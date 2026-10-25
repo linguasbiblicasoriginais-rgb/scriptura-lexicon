@@ -195,7 +195,7 @@ def main():
     reader=reader.replace('state.edition === "VUL" ? "la" : "grc"',
                            '(state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc"')
     if 'state.edition === "VULJ" ? "Texto latino CrossWire Vulgate 2.1' not in reader:
-    reader=reader.replace('state.edition === "VUL" ? "Texto latino da Vulgata Clementina',
+        reader=reader.replace('state.edition === "VUL" ? "Texto latino da Vulgata Clementina',
                            'state.edition === "VULJ" ? "Texto latino CrossWire Vulgate 2.1 (domínio público), tradição jeronimiana; não equivale à edição crítica Weber–Gryson." :\n'
                            '            state.edition === "VUL" ? "Texto latino da Vulgata Clementina')
     reader=reader.replace('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL',
