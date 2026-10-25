@@ -109,19 +109,10 @@ def main():
     need(len(files)==EXPECTED_CHAPTERS,f"Módulos faltantes: {len(files)}")
     need(sum(b["verses"] for b in summary)==EXPECTED_VERSES,"Total de versículos inconsistente")
 
-    html_path=ROOT/"index.html";html=html_path.read_text(encoding="utf8")
-    html,old=re.subn(
-        r'(?m)^[ \t]*<script defer src="scriptures/texts/tr-[^"]+\.js"></script>\r?\n',
-        "",html)
-    need(old in (0,EXPECTED_CHAPTERS),
-         f"Quantidade inesperada de módulos TR anteriores: {old}")
-    anchor='    <script defer src="scriptures/catalog-vul.js"></script>'
-    need(html.count(anchor)==1,"Não encontrei a posição das Escrituras latinas")
-    html=html.replace(anchor,"".join(
-        f'    <script defer src="{path}"></script>\n' for path in files)+anchor)
-    need(html.count('src="scriptures/texts/tr-')==EXPECTED_CHAPTERS,
-         "Quantidade errada de referências TR no HTML")
-
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
+    html_path=ROOT/"index.html"
+    html=html_path.read_text(encoding="utf8")
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     reader_path=ROOT/"scriptures/reader.js"
     reader=reader_path.read_text(encoding="utf8")
     oldlabel='TR: "Novo Testamento Grego – Texto Recebido (TR)"'

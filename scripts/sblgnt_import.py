@@ -146,19 +146,10 @@ def main():
         modules,titles,summary,marks=extract_text(z)
         apparatus,n_apparatus_verses,n_apparatus_notes=extract_apparatus(z)
     need(len(apparatus)==EXPECTED_BOOKS, "Aparato parcial")
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
     html_file=ROOT/"index.html"
     html=html_file.read_text(encoding="utf8")
-    html,old_count=re.subn(
-        r'(?m)^[ \t]*<script defer src="scriptures/texts/sblgnt-[^"]+\.js"></script>\r?\n',
-        "",html)
-    need(old_count in (0,EXPECTED_CHAPTERS),
-         f"Conjunto anterior de módulos SBLGNT incompleto: {old_count}")
-    anchor='    <script defer src="scriptures/catalog-vul.js"></script>'
-    need(html.count(anchor)==1, "Âncora do catálogo latino ausente")
-    html=html.replace(anchor,"".join(
-        f'    <script defer src="{p}"></script>\n' for p in modules)+anchor)
-    need(html.count('src="scriptures/texts/sblgnt-')==EXPECTED_CHAPTERS,
-         "Referências HTML incompletas")
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     reader_file=ROOT/"scriptures/reader.js"
     reader=reader_file.read_text(encoding="utf8")
     reader=replace_once(reader,

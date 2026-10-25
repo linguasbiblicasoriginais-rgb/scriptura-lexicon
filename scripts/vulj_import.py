@@ -178,19 +178,10 @@ def main():
     need(seen==set(byid),f"Livros ausentes no catálogo latino: {set(byid)-seen}")
     newcatalog="/* Catálogo VULJ separado; divisão original da fonte CrossWire. */\n" + \
         "window.ScripturaVulJeromeCatalog = "+js("\n".join(adjusted))+";\n"
-    html_file=ROOT/"index.html";html=html_file.read_text(encoding="utf8")
-    html,old=re.subn(r'(?m)^[ \t]*<script defer src="scriptures/texts/vulj-[^"]+\.js"></script>\r?\n',"",html)
-    need(old in (0,len(result)),f"Referências VULJ preexistentes incompletas: {old}")
-    catalog_anchor='    <script defer src="scriptures/catalog-vul.js"></script>\n'
-    need(html.count(catalog_anchor)==1,"Âncora de catálogo latino ausente")
-    if 'src="scriptures/catalog-vulj.js"' not in html:
-        html=html.replace(catalog_anchor,catalog_anchor+'    <script defer src="scriptures/catalog-vulj.js"></script>\n')
-    close_anchor='    <script defer src="scriptures/word-popups.js"></script>'
-    need(html.count(close_anchor)==1,"Âncora popups ausente")
-    html=html.replace(close_anchor,"".join(
-        f'    <script defer src="{p}"></script>\n' for p in result)+close_anchor)
-    need(html.count('src="scriptures/texts/vulj-')==len(result),"Referências incorretas")
-
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
+    html_file=ROOT/"index.html"
+    html=html_file.read_text(encoding="utf8")
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     reader_file=ROOT/"scriptures/reader.js";reader=reader_file.read_text(encoding="utf8")
     label='        VULJ: "Vulgata Latina — tradição de Jerônimo (CrossWire)",\n'
     if "VULJ:" not in reader:reader=reader.replace(
