@@ -300,14 +300,14 @@ console.log("DGP_DEDUP_STRICT", JSON.stringify({
 // Qualquer novo verbete JSON validado aqui entra automaticamente no próximo build.
 const thayerRestartDirectory = path.join(root, "lexicons/thayer-reinicio-2026-10-25");
 const thayerRestartFiles = fs.readdirSync(thayerRestartDirectory)
-    .filter(file => /^\\d{4}-[a-z0-9-]+\\.json$/i.test(file)).sort();
+    .filter(file => /^\d{4}-[a-z0-9-]+\.json$/i.test(file)).sort();
 if (!thayerRestartFiles.length) throw Error("Nenhum verbete do reinício Thayer encontrado");
 const thayerRestartKeys = new Set();
 const thayerRestartTargets = new Set();
 for (const filename of thayerRestartFiles) {
     const file = path.join(thayerRestartDirectory, filename);
     const data = JSON.parse(fs.readFileSync(file, "utf8"));
-    if (data.source !== "THAYER" || !/^entry-thayer-reinicio-\\d{4}$/.test(data.entry_id) ||
+    if (data.source !== "THAYER" || !/^entry-thayer-reinicio-\d{4}$/.test(data.entry_id) ||
             !data.render?.search_row_html || !data.render?.entry_card_html ||
             !Array.isArray(data.translation_portuguese_full) || !data.source_english_full ||
             thayerRestartTargets.has(data.entry_id)) {
@@ -325,12 +325,12 @@ for (const filename of thayerRestartFiles) {
     thayerRestartKeys.add(normalize(headword));
 }
 function thayerPublishedLemmaKey(row) {
-    const cell = row.match(/<td\\b[^>]*class="[^"]*\\btable-lemma\\b[^"]*"[^>]*>([\\s\\S]*?)<\\/td>/i);
+    const cell = row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
     return normalize(textOnly(cell ? cell[1] : "").split(",")[0].trim());
 }
 const replacedLegacyThayerTargets = [];
 const published = records.filter(record => {
-    const legacy = record.source === "THAYER" && /^entry-thayer-\\d{4}$/.test(record.target) &&
+    const legacy = record.source === "THAYER" && /^entry-thayer-\d{4}$/.test(record.target) &&
         thayerRestartKeys.has(thayerPublishedLemmaKey(record.row));
     if (legacy) replacedLegacyThayerTargets.push(record.target);
     return !legacy;
