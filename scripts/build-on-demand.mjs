@@ -313,6 +313,26 @@ for (const filename of thayerRestartFiles) {
             thayerRestartTargets.has(data.entry_id)) {
         throw Error("Verbete Thayer inválido ou duplicado: " + filename);
     }
+    // Controle de qualidade: o cartão precisa reproduzir todos os parágrafos
+    // aprovados sem omissões, paráfrases ou rótulos internos de processamento.
+    const matchTitle = data.render.entry_card_html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    const textualNfc = value => String(value || "").normalize("NFC").replace(/\s+/gu, " ").trim();
+    if (!matchTitle || textualNfc(textOnly(matchTitle[1])) !== textualNfc(data.card_title)) {
+        throw Error("Título publicado diverge do cartão aprovado: " + filename);
+    }
+    const renderedParagraphs = Array.from(data.render.entry_card_html.matchAll(
+        /<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/gi),
+        match => textualNfc(textOnly(match[1])));
+    const approvedParagraphs = data.translation_portuguese_full.map(textualNfc);
+    if (renderedParagraphs.length !== approvedParagraphs.length ||
+            renderedParagraphs.some((text,i) => text !== approvedParagraphs[i])) {
+        throw Error("Cartão não corresponde à tradução integral aprovada: " + filename);
+    }
+    const subtitle = data.render.entry_card_html.match(/<div class="entry-meta">([\s\S]*?)<\/div>/i);
+    if (!subtitle || !textualNfc(textOnly(subtitle[1])) ||
+            /rein[ií]cio\s+20\d{2}/iu.test(subtitle[1])) {
+        throw Error("Subtítulo editorial inadequado para publicação: " + filename);
+    }
     const before = records.length;
     register(records, data.render.search_row_html, data.render.entry_card_html, "thayer-reinicio/" + filename);
     if (records.length !== before + 1 || records[before].target !== data.entry_id ||
