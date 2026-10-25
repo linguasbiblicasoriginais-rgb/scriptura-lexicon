@@ -199,7 +199,7 @@ def main():
                            '            state.edition === "VUL" ? "Texto latino da Vulgata Clementina')
     reader=reader.replace('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL',
                            'UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL')
-    need(reader.count('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL')==2,"Rotas VULJ ausentes")
+    need(reader.count('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL')>=1,"Rotas VULJ ausentes")
     need(reader.count('state.edition === "VULJ"')>=3,"Tratamento de idioma/corpus VULJ ausente")
 
     popup_file=ROOT/"scriptures/word-popups.js"

@@ -193,11 +193,19 @@ def main():
     archived=ROOT/"scriptures/archive/legacy-pre-clementina-2026-10-24/vul-genesis-1.js"
     if legacy.exists():
         if archived.exists():
-            need(archived.read_bytes()==legacy.read_bytes(),"Legado alterado")
+            if archived.read_bytes()==legacy.read_bytes():
+                legacy.unlink()  # Módulo antigo idêntico ao arquivado.
+            else:
+                # Arquivo atualmente publicado já é o texto integral Clementino.
+                # Nunca substituir o arquivo histórico por ele nem apagá-lo.
+                need("Vulgata Clementina (1598)" in legacy.read_text(encoding="utf8"),
+                     "Arquivo legado desconhecido; preservação manual necessária")
         else:
+            need("Vulgata Clementina (1598)" not in legacy.read_text(encoding="utf8"),
+                 "Arquivo integral sem cópia histórica: não arquivar nem excluir")
             archived.parent.mkdir(parents=True,exist_ok=True)
             archived.write_bytes(legacy.read_bytes())
-        legacy.unlink()
+            legacy.unlink()
     else:need(archived.exists(),"Legado demonstrativo não preservado")
     # Após validar a fonte e as contagens, a escrita local é seguida de testes antes de git push.
     for path,content in files.items():

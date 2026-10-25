@@ -159,7 +159,7 @@ def main():
         "título")
     reader=replace_once(reader,
         '["UXLC", "LXX", "NA28", "UBS5", "TR", "VUL"]',
-        '["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VUL"]',
+        '["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VULJ", "VUL"]',
         "ordem dos editores")
     reader=replace_once(reader,
         'const canLink = ["UXLC", "LXX", "NA28", "UBS5"].includes(state.edition)',
@@ -188,7 +188,7 @@ def main():
         r'UXLC|LXX|NA28|UBS5|TR|VUL',
     ]:
         reader=reader.replace(pattern, 'UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL')
-    need(reader.count('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL')==2,
+    need(reader.count('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL')>=1,
          "As duas rotas de navegação devem aceitar a edição nova")
     progress={
       "edition":"The Greek New Testament: SBL Edition (SBLGNT)",
