@@ -8,18 +8,18 @@
  */
 window.ScripturaSourceCatalog = Object.freeze({
     "LSJ": {
-        title: "A Greek–English Lexicon",
+        title: "A Greek-English Lexicon",
         authors: "Henry George Liddell; Robert Scott; revisão de Henry Stuart Jones e Roderick McKenzie",
         publisher: "Clarendon Press, Oxford",
-        date: "1940",
-        edition: "9ª edição; transcrição digital auxiliar LSJLogeion/Perseus ainda não homologada",
+        date: "1940 (nona edição de referência)",
+        edition: "A Greek-English Lexicon, nona edição; transcrição auxiliar Perseus/Tufts–LSJLogeion",
         isbn: null,
         pages: null,
         coverUrl: "imagens/capas/lsj.png",
-        coverColor: "#54637e",
+        coverColor: "#4e536d",
         dictionary: "grego",
         publicationStatus: "source-only",
-        note: "Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion.",
+        note: "Os artigos portugueses estão sendo traduzidos progressivamente da transcrição TEI auxiliar LSJLogeion/Perseus. O exemplar impresso de Oxford (1940) permanece por cotejar integralmente. O total de fonte não é o total de artigos publicados.",
         reference: "regras/Rlsj.txt"
     },
     "ROBINSON": {
@@ -164,18 +164,4 @@ window.ScripturaSourceCatalog = Object.freeze({
         coverColor: "#292e3e",
         note: "Cada volume tem sua própria edição, paginação e ISBN. A data de 2011 em reimpressões não substitui a data original de cada volume.",
         reference: "regras/Rfontes-consulta.txt"
-    },
-    "LSJ": {
-        title: "A Greek-English Lexicon",
-        authors: "Henry George Liddell; Robert Scott; revisão de Henry Stuart Jones e Roderick McKenzie",
-        publisher: "Clarendon Press, Oxford",
-        date: "1940 (nona edição de referência)",
-        edition: "A Greek-English Lexicon, nona edição; transcrição auxiliar Perseus/Tufts–LSJLogeion",
-        isbn: null,
-        pages: null,
-        coverUrl: null,
-        coverColor: "#4e536d",
-        note: "Os artigos portugueses estão sendo traduzidos progressivamente da transcrição TEI auxiliar LSJLogeion/Perseus. O exemplar impresso de Oxford (1940) permanece por cotejar integralmente. O total de fonte não é o total de artigos publicados.",
-        reference: "regras/Rlsj.txt"
-    }
-});
+    }});
