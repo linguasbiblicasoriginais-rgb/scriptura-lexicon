@@ -9,6 +9,9 @@ on:
       - 'scripts/*_import.py'
       - 'scripts/update-chapter-manifest.mjs'
       - 'tests/chapter-loader.test.cjs'
+      - 'tests/source-catalog-integrity.test.cjs'
+      - 'lexicons/source-catalog.js'
+      - 'lexicons/on-demand-search.js'
       - 'tests/chapter-loader-browser.mjs'
       - '.github/workflows/chapter-on-demand.yml'
   workflow_dispatch:
@@ -31,6 +34,8 @@ jobs:
           node scripts/update-chapter-manifest.mjs
           git diff --exit-code -- index.html scriptures/chapter-manifest.js
           node tests/chapter-loader.test.cjs
+          node tests/source-catalog-integrity.test.cjs
+          python3 -m py_compile scripts/{uxlc,lxx,tr,sblgnt,vul,vulj}_import.py
           node tests/test_editorial_navigation.cjs
       - name: Testar navegação editorial em DOM
         run: |
