@@ -210,8 +210,10 @@ function change(b,c,s,sub,push) {
   }
 }
 async function show(book=1,chapter=1,section=1,subsection=1,push=false) {
-  const request=++sequence;
+  // showHub() hides the former reader and advances sequence.  Capture the
+  // current request AFTER that reset, so the eventual XML result stays valid.
   window.ScripturaSections?.showHub("patristica");
+  const request=++sequence;
   cards.hidden=true;
   root.hidden=false;
   content.replaceChildren();

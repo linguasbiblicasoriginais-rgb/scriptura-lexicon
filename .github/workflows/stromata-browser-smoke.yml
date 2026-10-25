@@ -1,0 +1,53 @@
+name: Testar leitor de Stromata
+on:
+  push:
+    branches: ['chat-gpt-patristicos/clemente-alexandria']
+    paths:
+      - 'patristics/reader.js'
+      - 'patristics/data/stromata.xml'
+      - 'tests/stromata-reader-browser.mjs'
+      - '.github/workflows/stromata-browser-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  navegador:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Confirmar integridade e divisões da fonte
+        run: |
+          node scripts/import-stromata.mjs
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          path="patristics/data/stromata.xml"
+          root=ET.parse(path).getroot()
+          def local(elem): return elem.tag.split("}")[-1]
+          editions=[x for x in root.iter() if local(x)=="div" and x.get("type")=="edition"]
+          print("Edições:",len(editions),flush=True)
+          books=[x for x in editions[0] if local(x)=="div" and x.get("subtype")=="book"] if editions else []
+          print("Livros diretos:",[(x.get("n"),len(x)) for x in books],flush=True)
+          if books:
+              chapters=[x for x in books[0] if local(x)=="div" and x.get("subtype")=="chapter"]
+              print("Capítulos livro I:",len(chapters),flush=True)
+              if chapters:
+                  sections=[x for x in chapters[0] if local(x)=="div" and x.get("subtype")=="section"]
+                  print("Seções capítulo I:",len(sections),flush=True)
+          assert len(books)==8,"A estrutura XML não possui oito livros diretos"
+          PY
+      - name: Instalar Chromium para teste de interface
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verificar script e iniciar servidor
+        run: |
+          node --check patristics/reader.js
+          node --check tests/stromata-reader-browser.mjs
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/stromata-server.log 2>&1 &
+          echo $! > /tmp/stromata-server.pid
+      - name: Testar seletores, texto grego e rotas em Chromium
+        run: node tests/stromata-reader-browser.mjs
