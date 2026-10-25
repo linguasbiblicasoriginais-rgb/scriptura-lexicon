@@ -50,10 +50,10 @@ try {
     const aaron=await page.evaluate(async ()=>{
         const api=window.ScripturaLexiconSearch;
         const results=await api.search("arao","grego","THAYER");
-        // O teste de fonte não depende da transliteração em uma busca específica.
-        const id=(await api.search("ܐܰܗܻܝܪܳܐ","grego","THAYER")).ids[0];
-        if (id===undefined)return {error:"não encontrado"};
-        const card=await api.loadArticle(id);
+        const rows=await api.page(results,1,10);
+        const match=rows.find(row=>row.target==="entry-thayer-reinicio-0005");
+        if (!match)return {error:"Arão revisado não encontrado"};
+        const card=await api.loadArticle(match.id);
         const word=card.querySelector('[lang="syr"]');
         return word?{text:word.textContent,css:getComputedStyle(word).fontFamily,dir:getComputedStyle(word).direction}:null;
     });
