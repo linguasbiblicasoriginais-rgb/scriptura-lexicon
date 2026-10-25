@@ -17,6 +17,8 @@ const pages={
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
+ josefo:["Obras de Flávio Josefo","Área destinada aos escritos de Flávio Josefo, historiador judeu do século I d.C. Ainda não há obras publicadas nesta seção."],
+ filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
 };
@@ -25,6 +27,8 @@ const categories=[
  ["patristica","Literatura patrística","Stromata, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
+ ["josefo","Obras de Flávio Josefo","Escritos históricos de Flávio Josefo."],
+ ["filon","Obras de Fílon de Alexandria","Escritos filosóficos e exegéticos de Fílon de Alexandria."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -100,7 +104,7 @@ function openSection(section){
 function handleHash(){
  if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
- const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|dicionarios|configuracoes)$/.exec(window.location.hash);
+ const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|dicionarios|configuracoes)$/.exec(window.location.hash);
  if(m)return showHub(m[1]);
  if(!window.location.hash)return showHub("inicio");
  return false;
