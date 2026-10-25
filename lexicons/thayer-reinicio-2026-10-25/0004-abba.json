@@ -25,5 +25,12 @@
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto inglês integral fornecido pelo usuário; tradução integral já apresentada e aceita no chat. Conservar WH -βά, a terminologia histórica 'caldaico', as formas semíticas e gregas.",
-  "notes": "Lema exclusivamente no título; corpo com as duas unidades textuais traduzidas. Contagem da nova importação: 4 de 5828 verbetes no total informado pelo usuário; publicação na interface depende de integração do índice."
+  "notes": "Lema exclusivamente no título; corpo com as duas unidades textuais traduzidas. Contagem da nova importação: 4 de 5828 verbetes no total informado pelo usuário; publicação na interface depende de integração do índice.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0005"
+    ],
+    "requires_exact_card_match": true
+  }
 }
