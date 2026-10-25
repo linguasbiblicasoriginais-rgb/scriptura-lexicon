@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0002",
+  "ordinal": 2,
+  "lemma_original": "Ἀβαδδών",
+  "card_title": "Ἀβαδδών",
+  "grammatical_class": "indeclinável; nome próprio",
+  "printed_page": 1,
+  "source_english_full": "Ἀβαδδών, indeclinable, אֲבַדּוֹן,\n\n1. ruin, destruction )from אָבַד to perish(, Job 31:12.\n\n2. the place of destruction equivalent to Orcus, joined with שְׁאוֹל, Job 26:6; Prov. 15:11.\n\n3. as a proper name it is given to the angel-prince of the infernal regions, the minister of death and author of havoc on earth, and is rendered in Greek by Ἀπολλύων Destroyer, Rev. 11:11.*",
+  "translation_portuguese_full": [
+    "Indeclinável, do hebraico אֲבַדּוֹן.",
+    "1. Ruína, destruição (do hebraico אָבַד, perecer), Jó 31.12.",
+    "2. Lugar de destruição, equivalente ao Orco (mundo dos mortos), associado a שְׁאוֹל (Xeol), Jó 26.6; Pv 15.11.",
+    "3. Como nome próprio, é atribuído ao príncipe angélico das regiões infernais, ministro da morte e causador de devastação na terra, sendo traduzido em grego por Ἀπολλύων, Destruidor, Ap 9.11."
+  ],
+  "biblical_references": [
+    "Jó 31.12",
+    "Jó 26.6",
+    "Pv 15.11",
+    "Ap 9.11"
+  ],
+  "editorial_notes": [
+    {
+      "type": "correcao_de_referencia_biblica",
+      "source_reading": "Rev. 11:11",
+      "translation_reading": "Ap 9.11",
+      "rationale": "A identificação grega Ἀπολλύων corresponde à passagem de Ap 9.11; a correção foi expressamente autorizada pelo usuário. A leitura da transcrição inglesa foi mantida sem alteração."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0002\" data-search=\"Ἀβαδδών Abadom indeclinável אֲבַדּוֹן ruína destruição Orco Xeol príncipe angélico Ἀπολλύων Destruidor Jó 31.12 Jó 26.6 Pv 15.11 Ap 9.11\" tabindex=\"0\"><td class=\"table-lemma greek\">Ἀβαδδών</td><td>indeclinável; nome próprio</td><td>ruína, destruição; Abadom; designação de príncipe angélico</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0002\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἀβαδδών</h1><div class=\"entry-meta\">Thayer · p. 1 · reinício 2026-10-25</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">Indeclinável, do hebraico <span dir=\"rtl\" lang=\"he\">אֲבַדּוֹן</span>.</p><p class=\"entry-text\"><strong>1.</strong> Ruína, destruição (do hebraico <span dir=\"rtl\" lang=\"he\">אָבַד</span>, <em>perecer</em>), Jó 31.12.</p><p class=\"entry-text\"><strong>2.</strong> Lugar de destruição, equivalente ao Orco (mundo dos mortos), associado a <span dir=\"rtl\" lang=\"he\">שְׁאוֹל</span> (<em>Xeol</em>), Jó 26.6; Pv 15.11.</p><p class=\"entry-text\"><strong>3.</strong> Como nome próprio, é atribuído ao príncipe angélico das regiões infernais, ministro da morte e causador de devastação na terra, sendo traduzido em grego por <span lang=\"grc\">Ἀπολλύων</span>, <em>Destruidor</em>, Ap 9.11.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Texto em inglês integralmente fornecido pelo usuário na conversa. Tradução aprovada pelo usuário e emenda explicitamente autorizada. Nenhum reaproveitamento automático dos 557 artigos da versão antiga.",
+  "notes": "Cabeça do verbete somente no título do cartão; conteúdo integral traduzido no corpo; correção de referência isolada em nota editorial, fora da exibição do verbete."
+}
