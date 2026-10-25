@@ -20,8 +20,10 @@ async function show(hash,edition,book,chapter){
 try{
  await page.goto(base,{waitUntil:"domcontentloaded",timeout:45000});
  await page.waitForTimeout(500);
- assert.equal(requests.length,2,"Abertura inicial deve conter somente as duas amostras NA28/UBS5");
+ assert.equal(requests.length,0,"Abertura inicial não deve baixar capítulos, inclusive NA28/UBS5");
  requests.length=0;
+ await show("#escrituras/NA28/MAT.1.1","NA28","MAT",1);
+ await show("#escrituras/UBS5/MAT.1.1","UBS5","MAT",1);
  await show("#escrituras/UXLC/GEN.1.1","UXLC","GEN",1);
  await show("#escrituras/LXX/GEN.1.1","LXX","GEN",1);
  await show("#escrituras/TR/MAT.1.1","TR","MAT",1);

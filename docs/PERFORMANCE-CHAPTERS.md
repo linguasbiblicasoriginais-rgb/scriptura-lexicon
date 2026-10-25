@@ -4,12 +4,12 @@
 
 Antes da otimização, o `index.html` continha **5.251** tags `<script defer>` para módulos bíblicos: 929 UXLC, 1.104 LXX, 1.334 VUL, 1.362 VULJ, 260 TR e 260 SBLGNT, mais duas amostras NA28/UBS5. O HTML tinha 575.372 caracteres na representação consultada pelo conector. Todos os capítulos integrais eram declarados como scripts iniciais. Isso não é uma medição HTTP ou Lighthouse.
 
-Após a otimização, as 5.249 tags das seis edições integrais foram retiradas, deixando duas amostras NA28/UBS5. O HTML tinha 215.654 caracteres na mesma contagem, diferença de **359.718 caracteres (~62,5%)**. O arquivo HTML ainda contém material lexicográfico inline; sua otimização requer auditoria própria.
+Após a otimização, **todas as 5.251 tags bíblicas foram retiradas** do HTML inicial, incluindo as duas amostras NA28/UBS5 (também carregadas sob demanda). O HTML passou a ter **215.516 caracteres**, diferença de **359.856 caracteres (~62,5%)**. O arquivo HTML ainda contém material lexicográfico inline; sua otimização requer auditoria própria.
 
 ## Arquitetura atual
 
-- `scriptures/chapter-manifest.js`: associa **edição → ID editorial do livro → [prefixo verificado, quantidade de capítulos]**. Cerca de 7,6 mil caracteres. Não contém versículos.
-- `scriptures/chapter-loader.js`: somente requisita um módulo ao visitar um capítulo; valida o registro global criado por ele, unifica pedidos concorrentes, rejeita módulos ausentes ou inválidos, remove falhas do cache e mantém até 16 capítulos em memória (LRU).
+- `scriptures/chapter-manifest.js`: associa **edição → ID editorial do livro → [prefixo verificado, quantidade de capítulos]**. Cerca de 7,7 mil caracteres; inclui as amostras NA28 e UBS5. Não contém versículos.
+- `scriptures/chapter-loader.js`: somente requisita um módulo ao visitar um capítulo; valida o registro global criado por ele, unifica pedidos concorrentes, rejeita módulos ausentes ou inválidos, remove falhas do cache e mantém até 16 capítulos em memória (LRU). A página inicial não requisita capítulos bíblicos sem navegação direta.
 - `scriptures/reader.js`: continua responsável por navegação, versificação e popups. O token de navegação impede que uma resposta tardia substitua o capítulo vigente. Estados de carregamento e erro aparecem na área de texto, com ação de nova tentativa.
 - `scripts/update-chapter-manifest.mjs`: durante o build, lê os seis arquivos `*-progress.json`, confere **todos os 5.249 caminhos em disco e os identificadores nos módulos** e regenera o manifesto. Remove tags antigas de capítulos que possam ter sido reinseridas.
 - `netlify.toml`: executa a regeneração antes do compilador lexicográfico. Não utiliza Service Worker.
@@ -35,3 +35,11 @@ Não foram aplicadas mudanças em normalização Unicode, textos dos versículos
 - `.github/workflows/chapter-on-demand.yml`: executa tais verificações em cada atualização relevante na branch.
 
 As contagens de tags e caracteres são análises estáticas. Tempo até interação, Core Web Vitals, bytes de transferência, memória de navegador e Lighthouse **não foram medidos** nesta etapa. Não inferir melhora de tempo apenas da redução do HTML. O frontend geral possui uma suíte Chromium independente, cuja aprovação deve ser acompanhada separadamente. A estratégia de cache HTTP e de fontes externas merece revisão por medição real.
+
+## Testes, limitações e acompanhamento
+
+A suíte de performance, integridade e Chromium móvel passou após as correções de idempotência: <https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/40153194042>. As validações das cinco importações automáticas (TR, LXX, VUL, SBLGNT, VULJ) foram aprovadas em suas execuções subsequentes. O leitor monta versículos em DocumentFragment antes de inseri-los no DOM.
+
+O novo teste verifica zero requests para capítulos na página inicial, além de recuperar NA28 e UBS5 sob demanda. Medições de tempo, Lighthouse, Core Web Vitals, gzip/Brotli e memória em dispositivo real permanecem pendentes; **não medido** não é inferência de melhoria.
+
+O HTML mantém 24 cartões lexicográficos legados ocultos; removê-los exige comprovação de equivalência com o índice compilado, evitando perda de dados. Um teste geral antigo de capas lexicográficas apresenta timeout de imagem, observado antes desta otimização, para investigação separada.

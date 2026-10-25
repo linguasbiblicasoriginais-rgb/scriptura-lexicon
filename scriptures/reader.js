@@ -426,7 +426,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         return /^#(?:escrituras|apocrifos)\//.test(window.location.hash);
     }
     function showFromHash() {
-        const match = /^#(escrituras|apocrifos)\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VULJ|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
+        const match = /^#(escrituras|apocrifos)\/(UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL)(?:\/([A-Z0-9_]+)\.(\d+)\.(\d+))?$/.exec(window.location.hash);
         if (!match) return false;
         const scope=match[1],edition=match[2],bookId=match[3];
         const chapter=positiveInt(match[4],1),verse=positiveInt(match[5],1);

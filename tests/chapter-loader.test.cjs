@@ -3,7 +3,7 @@
 const assert=require("node:assert/strict"),fs=require("node:fs"),vm=require("node:vm");
 const read=path=>fs.readFileSync(path,"utf8");
 const html=read("index.html");
-assert.equal([...html.matchAll(/<script\b[^>]+src="scriptures\/texts\/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-/g)].length,0);
+assert.equal([...html.matchAll(/<script\b[^>]+src="scriptures\/texts\//g)].length,0);
 assert.ok(html.includes('src="scriptures/chapter-manifest.js"'));
 assert.ok(html.includes('src="scriptures/chapter-loader.js"'));
 let browserWindow={},failPath=null,requests=[];
@@ -35,6 +35,8 @@ for(const [edition,count] of Object.entries(expected)){
  assert.equal(n,count,edition+" módulos"); 
 }
 assert.equal(seen.size,5249);
+assert.deepEqual(JSON.parse(JSON.stringify(m.NA28)),{MAT:["na28-matthew",1]});
+assert.deepEqual(JSON.parse(JSON.stringify(m.UBS5)),{MAT:["ubs5-matthew",1]});
 vm.runInContext(read("scriptures/chapter-loader.js"),ctx);
 const loader=browserWindow.ScripturaChapterLoader;
 assert.equal(loader.location("LXX","GEN",1),"scriptures/texts/lxx-gen-1.js");
@@ -53,6 +55,9 @@ async function run(){
                           ["VUL","GEN",1],["VULJ","GEN",1]]){
    const verses=await loader.load(ed,id,c);
    assert.ok(Object.keys(verses).length>=10,ed);
+ }
+ for(const edition of ["NA28","UBS5"]){
+   assert.equal(Object.keys(await loader.load(edition,"MAT",1)).length,25,edition+" amostra");
  }
  for(const ed of ["VUL","VULJ"]){
    const est=await loader.load(ed,"EST",10),sus=await loader.load(ed,"DAN",13),

@@ -39,11 +39,22 @@ for (const [edition, prefix, file, expected] of corpora) {
     throw Error("Total incorreto: "+edition+" ("+count+" de "+expected+")");
   manifest[edition] = records;
 }
+// NA28 e UBS5 são amostras independentes: carregá-las apenas quando solicitadas.
+for (const [edition, base] of [["NA28","na28-matthew"],["UBS5","ubs5-matthew"]]) {
+  const relative="scriptures/texts/"+base+"-1.js";
+  if (!fs.existsSync(path.join(root,relative)) || covered.has(relative))
+    throw Error("Amostra ausente ou duplicada: "+relative);
+  const content=fs.readFileSync(path.join(root,relative),"utf8");
+  if (!content.includes("ScripturaScriptureTexts."+edition+".MAT[1]"))
+    throw Error("Amostra com identificação editorial incorreta: "+relative);
+  manifest[edition]={MAT:[base,1]};
+  covered.add(relative);
+}
 const output = "/* Gerado automaticamente por scripts/update-chapter-manifest.mjs. Não editar manualmente. */\n"+
   "window.ScripturaChapterManifest = Object.freeze("+JSON.stringify(manifest)+");\n";
 fs.writeFileSync(path.join(root,"scriptures/chapter-manifest.js"),output,"utf8");
 const htmlFile = path.join(root,"index.html");
 const html = fs.readFileSync(htmlFile,"utf8");
-const cleaned = html.replace(/^[ \t]*<script defer src="scriptures\/texts\/(?:uxlc|lxx|vulj|vul|tr|sblgnt)-[^"]+\.js"><\/script>[ \t]*\r?\n/gm,"");
+const cleaned = html.replace(/^[ \t]*<script defer src="scriptures\/texts\/(?:uxlc|lxx|vulj|vul|tr|sblgnt|na28|ubs5)-[^"]+\.js"><\/script>[ \t]*\r?\n/gm,"");
 if (cleaned !== html) fs.writeFileSync(htmlFile,cleaned,"utf8");
-console.log("MANIFESTO VALIDADO: "+covered.size+" módulos; zero módulos integrais no HTML.");
+console.log("MANIFESTO VALIDADO: "+covered.size+" módulos; zero capítulos bíblicos no HTML inicial.");
