@@ -335,7 +335,8 @@ const published = records.filter(record => {
     if (legacy) replacedLegacyThayerTargets.push(record.target);
     return !legacy;
 });
-records.splice(0, records.length, ...published);
+records.length = 0;
+for (const record of published) records.push(record);
 console.log("THAYER_RESTART_PRESENTATION", JSON.stringify({
     included: thayerRestartFiles.length,
     supersededLegacyInPublicIndex: replacedLegacyThayerTargets.sort(),
