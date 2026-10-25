@@ -141,7 +141,7 @@ function renderNode(node,parent) {
     if(node.getAttribute("unit")==="subsection") {
       const n=number(node);
       if(Number.isInteger(n)){
-        const mark=editorial(" "+n+" ","patristic-submark","Subseção "+n);
+        const mark=editorial(String(n),"patristic-submark","Subseção "+n);
         mark.id="stromata-subsection-"+n;
         parent.append(mark);
       }
@@ -165,25 +165,56 @@ function renderNode(node,parent) {
   }
   Array.from(node.childNodes).forEach(child=>renderNode(child,host));
 }
+// Milestones TEI são marcas posicionais, não parágrafos HTML. A fonte pode
+// iniciar uma subseção dentro de um <p> ou de uma marca editorial inline.
+// Recortamos o DOM já renderizado por Range, conservando a ordem do grego
+// e os spans editoriais; cada subseção passa a ocupar um <p> independente.
+function appendTextSegment(fragment) {
+  if(!fragment.textContent?.trim())return;
+  const paragraph=document.createElement("p");
+  paragraph.className="patristic-subsection";
+  paragraph.append(fragment);
+  content.append(paragraph);
+}
+function appendSubsectionLines(paragraph) {
+  const markers=Array.from(paragraph.querySelectorAll(".patristic-submark"));
+  if(!markers.length){content.append(paragraph);return;}
+  for(const marker of markers) {
+    const range=document.createRange();
+    range.selectNodeContents(paragraph);
+    range.setEndBefore(marker);
+    appendTextSegment(range.extractContents());
+  }
+  const remainder=document.createDocumentFragment();
+  while(paragraph.firstChild)remainder.append(paragraph.firstChild);
+  appendTextSegment(remainder);
+}
 function renderCurrent() {
   const [b,c,s,sub]=selected;
   const section=getSection(b,c,s);
   content.replaceChildren();
   if(!section){status.textContent="Seção ausente na edição.";return;}
-  const first=document.createElement("span");
-  first.id="stromata-subsection-1";
-  content.append(first);
   const paragraphs=Array.from(section.children).filter(x=>x.localName==="p");
   if(paragraphs.length) {
     paragraphs.forEach(p=>{
       const out=document.createElement("p");
       Array.from(p.childNodes).forEach(node=>renderNode(node,out));
-      content.append(out);
+      appendSubsectionLines(out);
     });
   } else {
     const out=document.createElement("p");
     Array.from(section.childNodes).forEach(node=>renderNode(node,out));
-    content.append(out);
+    appendSubsectionLines(out);
+  }
+  // Em algumas passagens a primeira subseção é implícita no TEI.
+  // Tornamos sua referência visível, sem alterar o texto da fonte.
+  if(!content.querySelector("#stromata-subsection-1")){
+    const first=content.querySelector("p");
+    if(first){
+      const mark=editorial("1","patristic-submark","Subseção 1");
+      mark.id="stromata-subsection-1";
+      first.prepend(mark);
+    }
   }
   reference.textContent="Stromata "+roman(b)+", "+c+"."+s+(sub>1?"."+sub:"");
   el("stromata-perseus").href="https://beta.perseus.tufts.edu/"+SOURCE_CTS+"/section:"+b+"."+c+"."+s+"/";

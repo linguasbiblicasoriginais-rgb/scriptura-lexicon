@@ -41,6 +41,39 @@ async function verifyReady(context) {
 try {
   await page.goto(origin+"/#patristica/stromata/1/1/1/1",{waitUntil:"domcontentloaded"});
   await verifyReady("Acesso por endereço direto");
+  // A quebra entre subseções deve produzir parágrafos individuais, com
+  // o número no início da mesma linha que o conteúdo original.
+  let testedSplit=false;
+  for(const sec of ["1","2","3","4","5","6","7","8","9","10"]) {
+    const option=page.locator('#stromata-section option[value="'+sec+'"]');
+    if(await option.count()===0)continue;
+    await page.selectOption("#stromata-section",sec);
+    const n=await page.locator("#stromata-subsection option").count();
+    if(n<2)continue;
+    const split=await page.evaluate(()=>{
+      const marks=Array.from(document.querySelectorAll("#stromata-text .patristic-submark"));
+      const options=document.querySelector("#stromata-subsection").options.length;
+      return {
+        options,
+        marks:marks.map(m=>({
+          n:m.textContent.trim(),
+          atStart:m.closest("p")?.textContent?.trim().startsWith(m.textContent.trim())===true,
+          paragraphClass:m.closest("p")?.classList.contains("patristic-subsection")===true,
+          top:m.getBoundingClientRect().top
+        }))
+      };
+    });
+    assert.equal(split.marks.length,split.options,"Cada subseção deve ter uma única marca visível");
+    assert.ok(split.marks.every(x=>x.atStart && x.paragraphClass),"Cada subseção precisa iniciar seu próprio parágrafo, com número e texto juntos");
+    assert.equal(new Set(split.marks.map(x=>x.top)).size,split.marks.length,"As subseções devem começar em linhas distintas");
+    await page.selectOption("#stromata-subsection","2");
+    await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.endsWith(".2"),null,{timeout:5000});
+    assert.ok(await page.locator("#stromata-subsection-2").isVisible(),"O seletor deve localizar a subseção 2 no texto");
+    testedSplit=true;
+    console.log("Subseções em linhas individuais OK",split);
+    break;
+  }
+  assert.ok(testedSplit,"Não foi possível encontrar uma seção com múltiplas subseções para testar");
   await page.selectOption("#stromata-book","2");
   await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.includes("II"),null,{timeout:5000});
   await verifyReady("Troca de livro I → II");
