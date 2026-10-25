@@ -14,7 +14,7 @@ for(const [code,entry] of Object.entries(catalog)) {
  assert.ok(/^imagens\/capas\/[a-z0-9-]+\.png$/.test(entry.coverUrl),code+" caminho da capa");
  assert.ok(fs.existsSync(entry.coverUrl),code+": capa local ausente");
 }
-const module=fs.readFileSync("lexicons/on-demand-search.js","utf8");
-assert.ok(module.includes("isAuxiliaryOnly(run.source)"),"Fonte auxiliar não pode aparecer na pesquisa geral.");
-assert.ok(module.includes("if (isAuxiliaryOnly(source)) return 0;"),"A contagem não distingue fonte auxiliar.");
+const searchModule=fs.readFileSync("lexicons/on-demand-search.js","utf8");
+assert.ok(searchModule.includes("isAuxiliaryOnly(run.source)"),"Fonte auxiliar não pode aparecer na pesquisa geral.");
+assert.ok(searchModule.includes("if (isAuxiliaryOnly(source)) return 0;"),"A contagem não distingue fonte auxiliar.");
 console.log("OK: catálogo bibliográfico sem chaves duplicadas; capas locais, LSJ auxiliar e proteção editorial.");
