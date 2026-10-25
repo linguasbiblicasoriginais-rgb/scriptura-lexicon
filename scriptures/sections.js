@@ -52,6 +52,7 @@ function closeMenu(){
 function card(name,desc,attrs){
  const button=document.createElement("button");
  button.type="button";button.className="site-section-card";
+ if(attrs.siteSection==="escrituras")button.classList.add("site-section-card--scriptures");
  const heading=document.createElement("strong");heading.textContent=name;
  const info=document.createElement("span");info.textContent=desc;
  button.append(heading,info);

@@ -2038,3 +2038,33 @@ tbody tr:last-child td {
 #site-dictionary-options .dictionary-option{width:100%;border:1px solid var(--border);border-radius:9px;background:var(--surface-2)}
 #site-settings-content .theme-selector{margin:0;max-width:570px}
 @media(max-width:600px){.site-section-card{min-height:95px}.site-subsection-content{padding:12px}}
+
+/* Ícone das Escrituras: máscara vetorial sem fundo; herda automaticamente
+   as cores de texto dos temas e dos estados de interação. */
+.site-scripture-icon,
+.site-section-card--scriptures strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/escrituras-sagradas.svg");
+    mask-image:url("imagens/icones/escrituras-sagradas.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--scriptures strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--scriptures strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
