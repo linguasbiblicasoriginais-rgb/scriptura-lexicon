@@ -15,14 +15,14 @@ const pages={
  inicio:["Biblioteca Scriptura Lexicon","Escrituras, tradições textuais e instrumentos de pesquisa filológica, organizados em áreas independentes."],
  escrituras:["Escrituras Sagradas","Selecione a edição para consultar livros, capítulos, versículos e suas palavras originais."],
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
- patristica:["Literatura patrística","Área de organização dos escritos dos antigos autores cristãos. Ainda não há textos patrísticos publicados nesta seção."],
+ patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
 };
 const categories=[
  ["escrituras","Escrituras Sagradas","Textos bíblicos organizados por edição e referência."],
- ["patristica","Literatura patrística","Espaço reservado às fontes patrísticas."],
+ ["patristica","Literatura patrística","Stromata, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
@@ -61,6 +61,7 @@ function card(name,desc,attrs){
 }
 function showHub(section){
  if(!pages[section])return false;
+ window.ScripturaPatristics?.hide();
  window.ScripturaScriptures?.hide();
  for(const node of main.children){
    if(node.classList.contains("header"))continue;
@@ -73,6 +74,7 @@ function showHub(section){
  settings.hidden=section!=="configuracoes";
  cards.replaceChildren();
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
+ if(section==="patristica")card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
  if(editions[section])for(const [code,name] of editions[section])
    card(name,section==="apocrifos"?"Consultar os livros apócrifos e os acréscimos disponíveis":"Consultar o texto desta edição",{siteEdition:code,siteEditionScope:section});
  for(const button of document.querySelectorAll(".site-menu-item")){
@@ -96,6 +98,7 @@ function openSection(section){
  return true;
 }
 function handleHash(){
+ if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
  const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|dicionarios|configuracoes)$/.exec(window.location.hash);
  if(m)return showHub(m[1]);
@@ -105,6 +108,8 @@ function handleHash(){
 document.addEventListener("click",function(event){
  const section=event.target.closest("[data-site-section]");
  if(section){event.preventDefault();openSection(section.dataset.siteSection);return;}
+ const work=event.target.closest("[data-patristic-work]");
+ if(work?.dataset.patristicWork==="stromata"){event.preventDefault();window.ScripturaPatristics?.show(1,1,1,1,true);return;}
  const edition=event.target.closest("[data-site-edition]");
  if(edition){window.ScripturaScriptures?.show(edition.dataset.siteEdition,null,1,1,true,edition.dataset.siteEditionScope);}
 });
