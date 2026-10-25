@@ -45,6 +45,9 @@ def read_source(z, suffix):
     need(len(matches)==1, f"Fonte ausente ou ambígua: {suffix} ({matches})")
     return z.read(matches[0]).decode("utf-8-sig")
 def replace_once(text, a, b, name):
+    # Uma substituição já aplicada não deve duplicar conteúdo da linha-âncora.
+    if b in text:
+        return text
     n=text.count(a)
     need(n==1 or (n==0 and b in text), f"Âncora {name}: {n} ocorrências")
     return text.replace(a,b) if n else text

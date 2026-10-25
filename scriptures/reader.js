@@ -7,7 +7,6 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         UXLC: "Códice de Leningrado [L/Firkovich B19A]",
         LXX: "Septuaginta — Brenton (texto grego, 1851)",
         SBLGNT: "SBL Greek New Testament — Holmes (2010)",
-        SBLGNT: "SBL Greek New Testament — Holmes (2010)",
         NA28: "Novo Testamento Grego – Texto Crítico (NA28)",
         UBS5: "Novo Testamento Grego – Texto Crítico (UBS5)",
         TR: "Textus Receptus — Scrivener (1894)",
@@ -188,6 +187,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     function renderTexts() {
         wordUI?.close(false);
         textRegion.replaceChildren();
+        const fragment = document.createDocumentFragment();
         const corpus = window.ScripturaScriptureTexts || {};
         const entries = activeVerseMap();
         const verses = entries && typeof entries === "object" ? Object.entries(entries) : [];
@@ -195,7 +195,8 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             const note = document.createElement("p");
             note.className = "scripture-empty-text";
             note.textContent = "Texto integral não incorporado nesta edição. Utilize a referência externa da fonte, quando disponível. A presença no catálogo não significa transcrição publicada.";
-            textRegion.append(note);
+            fragment.append(note);
+            textRegion.append(fragment);
             return;
         }
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
@@ -236,7 +237,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                     parallel.textContent = heading.parallel;
                     section.append(parallel);
                 }
-                textRegion.append(section);
+                fragment.append(section);
             }
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
@@ -281,13 +282,13 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                 wordUI.decorate(passage, content, textOptions);
             } else passage.textContent = content;
             para.append(count, passage);
-            textRegion.append(para);
+            fragment.append(para);
             if (editorialSeparatorSet.has(number)) {
                 const separator = document.createElement("p");
                 separator.className = "scripture-editorial-separator";
                 separator.setAttribute("aria-label", "Travessão editorial entre versículos");
                 separator.textContent = "—";
-                textRegion.append(separator);
+                fragment.append(separator);
             }
             if (sectionBreakSet.has(number)) {
                 if (state.edition === "UXLC") {
@@ -303,16 +304,17 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                         "ס — parashah setumah, seção fechada" :
                         "פ — parashah petuchah, seção aberta");
                     breakMarker.textContent = mark;
-                    textRegion.append(breakMarker);
+                    fragment.append(breakMarker);
                 } else {
                     const breakMarker = document.createElement("div");
                     breakMarker.className = "scripture-paragraph-break";
                     breakMarker.setAttribute("role", "separator");
                     breakMarker.setAttribute("aria-label", "Divisão de parágrafo indicada na fonte");
-                    textRegion.append(breakMarker);
+                    fragment.append(breakMarker);
                 }
             }
         });
+        textRegion.append(fragment);
     }
     let renderRequest = 0;
     function render() {
