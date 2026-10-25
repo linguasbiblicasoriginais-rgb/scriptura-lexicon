@@ -1,0 +1,51 @@
+name: Performance — carregamento bíblico sob demanda
+on:
+  push:
+    branches: [chat-gpt-melhorias]
+    paths:
+      - 'index.html'
+      - 'scriptures/chapter-*.js'
+      - 'scriptures/reader.js'
+      - 'scripts/*_import.py'
+      - 'scripts/update-chapter-manifest.mjs'
+      - 'tests/chapter-loader.test.cjs'
+      - 'tests/chapter-loader-browser.mjs'
+      - '.github/workflows/chapter-on-demand.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  chapters:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Conferir sintaxe, manifesto e ausência de milhares de scripts
+        run: |
+          node --check scriptures/chapter-loader.js
+          node --check scriptures/reader.js
+          node --check scripts/update-chapter-manifest.mjs
+          node scripts/update-chapter-manifest.mjs
+          git diff --exit-code -- index.html scriptures/chapter-manifest.js
+          node tests/chapter-loader.test.cjs
+          node tests/test_editorial_navigation.cjs
+      - name: Testar navegação editorial em DOM
+        run: |
+          npm install --no-save --ignore-scripts --no-package-lock jsdom@24
+          node tests/test_editorial_browser.cjs
+      - name: Instalar Playwright e Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Servir aplicação estática
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/scriptura-performance.log 2>&1 &
+          sleep 2
+      - name: Verificar requisições e apócrifos em Chromium móvel
+        run: node tests/chapter-loader-browser.mjs
+      - name: Exibir logs em caso de falha
+        if: failure()
+        run: cat /tmp/scriptura-performance.log || true
