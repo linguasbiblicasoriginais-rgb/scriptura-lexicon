@@ -24,10 +24,12 @@
   ],
   "editorial_notes": [
     {
-      "type": "correcao_de_referencia_biblica",
-      "source_reading": "Rev. 11:11",
+      "type": "divergencia_da_transcricao_digital",
+      "source_printed_reading": "Rev. ix. 11.",
+      "digital_transcription_reading": "Rev. 11:11",
       "translation_reading": "Ap 9.11",
-      "rationale": "A identificação grega Ἀπολλύων corresponde à passagem de Ap 9.11; a correção foi expressamente autorizada pelo usuário. A leitura da transcrição inglesa foi mantida sem alteração."
+      "rationale": "O fac-símile impresso apresentado pelo usuário confirma Rev. ix. 11. (= Ap 9.11). A forma Rev. 11:11 ocorre apenas na transcrição digital fornecida, não é erro de Thayer impresso. A tradução portuguesa segue corretamente a referência impressa.",
+      "intervention": "Correção da transcrição digital na tradução, sem emenda ao texto da edição impressa."
     }
   ],
   "render": {
@@ -35,6 +37,17 @@
     "entry_card_html": "<article id=\"entry-thayer-reinicio-0002\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἀβαδδών</h1><div class=\"entry-meta\">Thayer · p. 1 · reinício 2026-10-25</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">Indeclinável, do hebraico <span dir=\"rtl\" lang=\"he\">אֲבַדּוֹן</span>.</p><p class=\"entry-text\"><strong>1.</strong> Ruína, destruição (do hebraico <span dir=\"rtl\" lang=\"he\">אָבַד</span>, <em>perecer</em>), Jó 31.12.</p><p class=\"entry-text\"><strong>2.</strong> Lugar de destruição, equivalente ao Orco (mundo dos mortos), associado a <span dir=\"rtl\" lang=\"he\">שְׁאוֹל</span> (<em>Xeol</em>), Jó 26.6; Pv 15.11.</p><p class=\"entry-text\"><strong>3.</strong> Como nome próprio, é atribuído ao príncipe angélico das regiões infernais, ministro da morte e causador de devastação na terra, sendo traduzido em grego por <span lang=\"grc\">Ἀπολλύων</span>, <em>Destruidor</em>, Ap 9.11.</p></section></article>"
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
-  "provenance": "Texto em inglês integralmente fornecido pelo usuário na conversa. Tradução aprovada pelo usuário e emenda explicitamente autorizada. Nenhum reaproveitamento automático dos 557 artigos da versão antiga.",
-  "notes": "Cabeça do verbete somente no título do cartão; conteúdo integral traduzido no corpo; correção de referência isolada em nota editorial, fora da exibição do verbete."
+  "provenance": "Texto digital integral em inglês fornecido pelo usuário; transcrição digital divergente em Rev. 11:11. Fotografia fornecida pelo usuário em 25/10/2026 confirma a leitura impressa Rev. ix. 11. O texto digital recebido foi preservado literalmente em source_english_full. Tradução portuguesa mantém Ap 9.11 conforme a edição impressa. Nenhum reaproveitamento automático dos 557 artigos da versão antiga.",
+  "notes": "Cabeça do verbete somente no título do cartão; corpo integralmente traduzido. Divergência entre texto digital e fac-símile documentada em metadados; não atribuir a leitura Rev. 11:11 ao Thayer impresso.",
+  "source_printed_reference": {
+    "reference": "Rev. ix. 11.",
+    "normalized": "Ap 9.11",
+    "evidence": "Fotografia da página impressa 1 do exemplar de Thayer, enviada pelo usuário em 25/10/2026",
+    "status": "cotejado_visualmente"
+  },
+  "source_digital_reference": {
+    "reference": "Rev. 11:11",
+    "origin": "Transcrição digital em inglês enviada pelo usuário",
+    "status": "divergente_do_impresso"
+  }
 }
