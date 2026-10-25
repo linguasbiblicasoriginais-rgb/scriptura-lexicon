@@ -67,8 +67,13 @@ try {
         const audit=[];
         for(const spec of specs){
             const results=await api.search(spec.term,"grego","THAYER");
-            const pageRows=await api.page(results,1,60);
-            const row=pageRows.find(entry=>entry.target===spec.target);
+            let row=null;
+            // Contrato do frontend: no máximo 10 linhas por página.
+            for(let pageNo=1;pageNo<=Math.min(20,Math.ceil(results.total/10));pageNo++){
+                const pageRows=await api.page(results,pageNo,10);
+                row=pageRows.find(entry=>entry.target===spec.target);
+                if(row) break;
+            }
             if (!row){audit.push({term:spec.term,target:spec.target,error:"não encontrado entre os resultados"});continue;}
             const article=await api.loadArticle(row.id);
             const body=article.querySelector(".entry-section .entry-text")?.textContent?.trim();
