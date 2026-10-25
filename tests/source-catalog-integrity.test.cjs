@@ -8,6 +8,7 @@ vm.runInNewContext(source,sandbox);
 const catalog=sandbox.window.ScripturaSourceCatalog;
 assert.ok(catalog.LSJ && catalog.LSJ.publicationStatus==="source-only");
 assert.equal(catalog.LSJ.dictionary,"grego");
+assert.ok(catalog.LSJ.note.includes("Perseus/Tufts") && catalog.LSJ.note.includes("CC BY-SA 4.0"),"Créditos e licença da fonte LSJ não preservados.");
 assert.ok(catalog.LSJ.coverUrl,"LSJ perdeu a capa histórica cadastrada.");
 for(const [code,entry] of Object.entries(catalog)) {
  if(!entry.coverUrl)continue;

@@ -19,7 +19,7 @@ window.ScripturaSourceCatalog = Object.freeze({
         coverColor: "#4e536d",
         dictionary: "grego",
         publicationStatus: "source-only",
-        note: "Os artigos portugueses estão sendo traduzidos progressivamente da transcrição TEI auxiliar LSJLogeion/Perseus. O exemplar impresso de Oxford (1940) permanece por cotejar integralmente. O total de fonte não é o total de artigos publicados.",
+        note: "Transcrição auxiliar derivada de Perseus/Tufts e LSJLogeion (CC BY-SA 4.0); créditos: Perseus Digital Library, Gregory Crane e Helma Dik/Logeion. Os artigos portugueses estão sendo traduzidos progressivamente da transcrição TEI auxiliar LSJLogeion/Perseus. O exemplar impresso de Oxford (1940) permanece por cotejar integralmente. O total de fonte não é o total de artigos publicados.",
         reference: "regras/Rlsj.txt"
     },
     "ROBINSON": {
