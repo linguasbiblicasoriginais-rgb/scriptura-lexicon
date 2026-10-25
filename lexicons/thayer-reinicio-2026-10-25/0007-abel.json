@@ -39,5 +39,12 @@
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto inglês fornecido pelo usuário; leitura hebraica cotejada e corrigida com sua edição impressa; tradução portuguesa aprovada no chat. A autorização para incorporar foi reiterada após a reclamação sobre a versão histórica visível.",
-  "notes": "Lema somente no cabeçalho; corpo integral da tradução aprovada; sem metadados internos visíveis."
+  "notes": "Lema somente no cabeçalho; corpo integral da tradução aprovada; sem metadados internos visíveis.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0006"
+    ],
+    "requires_exact_card_match": true
+  }
 }
