@@ -422,25 +422,32 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
         else runs.push({start:id, end:id + 1, dictionary:record.dictionary, source:record.source});
         const lemmaCell = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
         const lemma = normalize(lemmaCell ? textOnly(lemmaCell[1]) : "");
+        // Formas equivalentes explícitas para pesquisa; a grafia do lema permanece intacta.
+        const lemmaAlias = attribute(openTag(record.row), "data-lemma-alias")
+            .split(";").map(normalize).filter(Boolean);
+        const lemmaForms = [lemma, ...lemmaAlias];
         // Busca apenas com dados compactos. A definição permanece nas
         // partes do índice de verificação, jamais nas linhas HTML da página.
-        lookup.push([record.search, lemma]);
-        lookupLarge.push([record.search, lemma]);
+        const lookupRow = lemmaAlias.length ? [record.search, lemma, lemmaAlias] : [record.search, lemma];
+        lookup.push(lookupRow);
+        lookupLarge.push(lookupRow);
         // Ranking preservado para termos curtos, sem carregar 40 mil
         // definições nem os arquivos lookup. Apenas os lemas são indexados.
-        const lemmaPoints = Array.from(lemma);
         const lemmaGrams = new Set();
-        for (let start = 0; start < lemmaPoints.length; start++) {
-            for (let size = 1; size <= 3 && start + size <= lemmaPoints.length; size++) {
-                lemmaGrams.add(lemmaPoints.slice(start, start + size).join(""));
+        for (const form of lemmaForms) {
+            const points = Array.from(form);
+            for (let start = 0; start < points.length; start++) {
+                for (let size = 1; size <= 3 && start + size <= points.length; size++) {
+                    lemmaGrams.add(points.slice(start, start + size).join(""));
+                }
             }
         }
         for (const gram of lemmaGrams) {
             let ranks = lemmaPostings.get(gram);
             if (!ranks) lemmaPostings.set(gram, ranks = [[],[],[]]);
-            ranks[0].push(id);                         // contém no lema
-            if (lemma.startsWith(gram)) ranks[1].push(id); // prefixo
-            if (lemma === gram) ranks[2].push(id);        // lema exato
+            ranks[0].push(id);
+            if (lemmaForms.some(form => form.startsWith(gram))) ranks[1].push(id);
+            if (lemmaForms.includes(gram)) ranks[2].push(id);
         }
         if (lookupLarge.length === lookupLargeSize) {
             emit("lookup-large/" + String(Math.floor(id / lookupLargeSize)).padStart(4,"0") + ".json",
