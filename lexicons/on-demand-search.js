@@ -150,10 +150,11 @@
                 for (const id of ids) {
                     const pair = data[id % size];
                     if (!pair || !terms.every(term => pair[0].includes(term))) continue;
-                    const lemma = pair[1];
-                    const rank = lemma === query ? 0 : lemma.startsWith(query) ? 1 :
-                        terms.every(term => lemma.includes(term)) ? 2 :
-                        terms.some(term => lemma.includes(term)) ? 3 : 4;
+                    const lemmaForms = [pair[1], ...(Array.isArray(pair[2]) ? pair[2] : [])];
+                    const rank = lemmaForms.some(form => form === query) ? 0 :
+                        lemmaForms.some(form => form.startsWith(query)) ? 1 :
+                        terms.every(term => lemmaForms.some(form => form.includes(term))) ? 2 :
+                        terms.some(term => lemmaForms.some(form => form.includes(term))) ? 3 : 4;
                     valid.push([id,rank]);
                 }
                 return valid;

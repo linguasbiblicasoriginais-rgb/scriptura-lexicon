@@ -294,6 +294,75 @@ console.log("DGP_DEDUP_STRICT", JSON.stringify({
     samplePending:pendingDgpDifferences.slice(0,6)
 }));
 
+// THAYER_RESTART_PRESENTATION: integra traduções aprovadas no catálogo público.
+// Os registros antigos permanecem intactos nos arquivos lexicons/thayer*.js;
+// somente os resultados históricos com o mesmo lema cedem lugar à edição revisada.
+// Qualquer novo verbete JSON validado aqui entra automaticamente no próximo build.
+const thayerRestartDirectory = path.join(root, "lexicons/thayer-reinicio-2026-10-25");
+const thayerRestartFiles = fs.readdirSync(thayerRestartDirectory)
+    .filter(file => /^\d{4}-[a-z0-9-]+\.json$/i.test(file)).sort();
+if (!thayerRestartFiles.length) throw Error("Nenhum verbete do reinício Thayer encontrado");
+const thayerRestartKeys = new Set();
+const thayerRestartTargets = new Set();
+for (const filename of thayerRestartFiles) {
+    const file = path.join(thayerRestartDirectory, filename);
+    const data = JSON.parse(fs.readFileSync(file, "utf8"));
+    if (data.source !== "THAYER" || !/^entry-thayer-reinicio-\d{4}$/.test(data.entry_id) ||
+            !data.render?.search_row_html || !data.render?.entry_card_html ||
+            !Array.isArray(data.translation_portuguese_full) || !data.source_english_full ||
+            thayerRestartTargets.has(data.entry_id)) {
+        throw Error("Verbete Thayer inválido ou duplicado: " + filename);
+    }
+    // Controle de qualidade: o cartão precisa reproduzir todos os parágrafos
+    // aprovados sem omissões, paráfrases ou rótulos internos de processamento.
+    const matchTitle = data.render.entry_card_html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    const textualNfc = value => String(value || "").normalize("NFC").replace(/\s+/gu, " ").trim();
+    if (!matchTitle || textualNfc(textOnly(matchTitle[1])) !== textualNfc(data.card_title)) {
+        throw Error("Título publicado diverge do cartão aprovado: " + filename);
+    }
+    const renderedParagraphs = Array.from(data.render.entry_card_html.matchAll(
+        /<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/gi),
+        match => textualNfc(textOnly(match[1])));
+    const approvedParagraphs = data.translation_portuguese_full.map(textualNfc);
+    if (renderedParagraphs.length !== approvedParagraphs.length ||
+            renderedParagraphs.some((text,i) => text !== approvedParagraphs[i])) {
+        throw Error("Cartão não corresponde à tradução integral aprovada: " + filename);
+    }
+    const subtitle = data.render.entry_card_html.match(/<div class="entry-meta">([\s\S]*?)<\/div>/i);
+    if (!subtitle || !textualNfc(textOnly(subtitle[1])) ||
+            /rein[ií]cio\s+20\d{2}/iu.test(subtitle[1])) {
+        throw Error("Subtítulo editorial inadequado para publicação: " + filename);
+    }
+    const before = records.length;
+    register(records, data.render.search_row_html, data.render.entry_card_html, "thayer-reinicio/" + filename);
+    if (records.length !== before + 1 || records[before].target !== data.entry_id ||
+            records[before].source !== "THAYER") {
+        throw Error("Incompatibilidade entre linha e cartão Thayer: " + filename);
+    }
+    thayerRestartTargets.add(data.entry_id);
+    const headword = data.lemma_original?.split(",")[0].trim();
+    if (!headword) throw Error("Lema Thayer ausente: " + filename);
+    thayerRestartKeys.add(normalize(headword));
+}
+function thayerPublishedLemmaKey(row) {
+    const cell = row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
+    return normalize(textOnly(cell ? cell[1] : "").split(",")[0].trim());
+}
+const replacedLegacyThayerTargets = [];
+const published = records.filter(record => {
+    const legacy = record.source === "THAYER" && /^entry-thayer-\d{4}$/.test(record.target) &&
+        thayerRestartKeys.has(thayerPublishedLemmaKey(record.row));
+    if (legacy) replacedLegacyThayerTargets.push(record.target);
+    return !legacy;
+});
+records.length = 0;
+for (const record of published) records.push(record);
+console.log("THAYER_RESTART_PRESENTATION", JSON.stringify({
+    included: thayerRestartFiles.length,
+    supersededLegacyInPublicIndex: replacedLegacyThayerTargets.sort(),
+    preservedHistoricalSources: true
+}));
+
 // Um ID histórico repetido não pode suprimir a segunda entrada.
 // Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
 const firstByTarget = new Map();
@@ -373,25 +442,32 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
         else runs.push({start:id, end:id + 1, dictionary:record.dictionary, source:record.source});
         const lemmaCell = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
         const lemma = normalize(lemmaCell ? textOnly(lemmaCell[1]) : "");
+        // Formas equivalentes explícitas para pesquisa; a grafia do lema permanece intacta.
+        const lemmaAlias = attribute(openTag(record.row), "data-lemma-alias")
+            .split(";").map(normalize).filter(Boolean);
+        const lemmaForms = [lemma, ...lemmaAlias];
         // Busca apenas com dados compactos. A definição permanece nas
         // partes do índice de verificação, jamais nas linhas HTML da página.
-        lookup.push([record.search, lemma]);
-        lookupLarge.push([record.search, lemma]);
+        const lookupRow = lemmaAlias.length ? [record.search, lemma, lemmaAlias] : [record.search, lemma];
+        lookup.push(lookupRow);
+        lookupLarge.push(lookupRow);
         // Ranking preservado para termos curtos, sem carregar 40 mil
         // definições nem os arquivos lookup. Apenas os lemas são indexados.
-        const lemmaPoints = Array.from(lemma);
         const lemmaGrams = new Set();
-        for (let start = 0; start < lemmaPoints.length; start++) {
-            for (let size = 1; size <= 3 && start + size <= lemmaPoints.length; size++) {
-                lemmaGrams.add(lemmaPoints.slice(start, start + size).join(""));
+        for (const form of lemmaForms) {
+            const points = Array.from(form);
+            for (let start = 0; start < points.length; start++) {
+                for (let size = 1; size <= 3 && start + size <= points.length; size++) {
+                    lemmaGrams.add(points.slice(start, start + size).join(""));
+                }
             }
         }
         for (const gram of lemmaGrams) {
             let ranks = lemmaPostings.get(gram);
             if (!ranks) lemmaPostings.set(gram, ranks = [[],[],[]]);
-            ranks[0].push(id);                         // contém no lema
-            if (lemma.startsWith(gram)) ranks[1].push(id); // prefixo
-            if (lemma === gram) ranks[2].push(id);        // lema exato
+            ranks[0].push(id);
+            if (lemmaForms.some(form => form.startsWith(gram))) ranks[1].push(id);
+            if (lemmaForms.includes(gram)) ranks[2].push(id);
         }
         if (lookupLarge.length === lookupLargeSize) {
             emit("lookup-large/" + String(Math.floor(id / lookupLargeSize)).padStart(4,"0") + ".json",
