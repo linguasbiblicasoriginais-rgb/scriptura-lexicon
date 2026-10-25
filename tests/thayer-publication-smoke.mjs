@@ -54,6 +54,13 @@ for(const name of ["THAYER","ROBINSON","BDAG","DGP","PEREIRA"]){
     assert.ok(css.includes('.search-row[data-source="'+name+'"] .source-pill'),"Cor da etiqueta ausente: "+name);
     assert.ok(css.includes('.entry-card[data-source="'+name+'"] .source-tag'),"Cor do cartão ausente: "+name);
 }
+// Tipografia siríaca aplicada automaticamente aos spans lang="syr", sem reescrever a fonte.
+assert.ok(css.includes('"Estrangelo Edessa", "Noto Sans Syriac"'),"Fonte siríaca preferencial ausente");
+assert.equal(css.split(":lang(syr)").length - 1,2,"Falta tipografia ou isolamento direcional siríaco");
+const aaron = published.get("entry-thayer-reinicio-0005");
+assert.ok(aaron?.card?.html.includes('lang="syr"'),"Siríaco original ausente do verbete Ἀαρών");
+assert.ok(aaron.card.html.includes("ܐܰܗܻܝܪܳܐ"),"Sinais vocálicos siríacos perdidos");
+
 console.log(JSON.stringify({
     status:"OK",
     checkedNew:files.length,
