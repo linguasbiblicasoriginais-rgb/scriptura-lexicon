@@ -44,7 +44,8 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             return item;
         });
         apocryphaCatalog[edition] = originals.filter(item => !canonical.has(item.id) &&
-            !!window.ScripturaScriptureTexts?.[edition]?.[item.id]);
+            !!(window.ScripturaChapterManifest?.[edition]?.[item.id] ||
+                window.ScripturaScriptureTexts?.[edition]?.[item.id]));
         if (edition === "VUL" || edition === "VULJ") {
             // Cap. 10:4–13 e caps. 11–16 de Ester: mantêm numeração da fonte.
             apocryphaCatalog[edition].push({
@@ -186,6 +187,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     function renderTexts() {
         wordUI?.close(false);
         textRegion.replaceChildren();
+        const fragment = document.createDocumentFragment();
         const corpus = window.ScripturaScriptureTexts || {};
         const entries = activeVerseMap();
         const verses = entries && typeof entries === "object" ? Object.entries(entries) : [];
@@ -193,7 +195,8 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             const note = document.createElement("p");
             note.className = "scripture-empty-text";
             note.textContent = "Texto integral não incorporado nesta edição. Utilize a referência externa da fonte, quando disponível. A presença no catálogo não significa transcrição publicada.";
-            textRegion.append(note);
+            fragment.append(note);
+            textRegion.append(fragment);
             return;
         }
         verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
@@ -234,7 +237,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                     parallel.textContent = heading.parallel;
                     section.append(parallel);
                 }
-                textRegion.append(section);
+                fragment.append(section);
             }
             const para = document.createElement("p");
             para.className = "scripture-verse-line";
@@ -279,13 +282,13 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                 wordUI.decorate(passage, content, textOptions);
             } else passage.textContent = content;
             para.append(count, passage);
-            textRegion.append(para);
+            fragment.append(para);
             if (editorialSeparatorSet.has(number)) {
                 const separator = document.createElement("p");
                 separator.className = "scripture-editorial-separator";
                 separator.setAttribute("aria-label", "Travessão editorial entre versículos");
                 separator.textContent = "—";
-                textRegion.append(separator);
+                fragment.append(separator);
             }
             if (sectionBreakSet.has(number)) {
                 if (state.edition === "UXLC") {
@@ -301,18 +304,21 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                         "ס — parashah setumah, seção fechada" :
                         "פ — parashah petuchah, seção aberta");
                     breakMarker.textContent = mark;
-                    textRegion.append(breakMarker);
+                    fragment.append(breakMarker);
                 } else {
                     const breakMarker = document.createElement("div");
                     breakMarker.className = "scripture-paragraph-break";
                     breakMarker.setAttribute("role", "separator");
                     breakMarker.setAttribute("aria-label", "Divisão de parágrafo indicada na fonte");
-                    textRegion.append(breakMarker);
+                    fragment.append(breakMarker);
                 }
             }
         });
+        textRegion.append(fragment);
     }
+    let renderRequest = 0;
     function render() {
+        const ticket = ++renderRequest;
         const selected = book();
         const lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
         editionSelect.value = state.edition;
@@ -344,7 +350,47 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         if (canLink) external.href = (state.edition === "SBLGNT" ? "https://github.com/Faithlife/SBLGNT/tree/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text" : state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter);
         else external.removeAttribute("href");
         external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
-        renderTexts();
+        external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
+        const where = sourceLocation();
+        const activeLoader = window.ScripturaChapterLoader;
+        if (activeVerseMap() || !activeLoader?.location(state.edition, where.id, where.chapter)) {
+            renderTexts();
+        } else {
+            textRegion.replaceChildren();
+            const notice = document.createElement("p");
+            notice.className = "scripture-empty-text";
+            notice.textContent = "Carregando capítulo…";
+            textRegion.append(notice);
+            activeLoader.load(state.edition,where.id,where.chapter).then(function () {
+                if (ticket !== renderRequest || panel.hidden) return;
+                const loaded = activeVerseMap();
+                const numbers = loaded ? Object.keys(loaded).map(Number).filter(Number.isSafeInteger) : [];
+                if (numbers.length) {
+                    const previous = state.verse;
+                    state.verse = Math.max(Math.min(state.verse,Math.max(...numbers)),Math.min(...numbers));
+                    verseInput.value = String(state.verse);
+                    verseInput.max = String(Math.max(...numbers));
+                    reference.textContent = sourceReference(state.verse);
+                    if (previous !== state.verse) syncHash();
+                }
+                renderTexts();
+                activeLoader.prefetch(state.edition,where.id,where.chapter,
+                    () => ticket === renderRequest && !panel.hidden);
+            }).catch(function (error) {
+                if (ticket !== renderRequest || panel.hidden) return;
+                textRegion.replaceChildren();
+                const note = document.createElement("p");
+                note.className = "scripture-empty-text";
+                note.textContent = error.code === "NOT_FOUND" ? "Capítulo inexistente nesta edição." :
+                    "Falha no carregamento do capítulo. Verifique a conexão e tente novamente.";
+                const retry = document.createElement("button");
+                retry.type = "button";
+                retry.textContent = "Tentar novamente";
+                retry.addEventListener("click",render,{once:true});
+                textRegion.append(note,retry);
+                feedback.textContent = error.message;
+            });
+        }
         feedback.textContent = state.edition === "SBLGNT" ? "SBLGNT, edição crítica de Michael W. Holmes (2010), v1.2. © 2010 Society of Biblical Literature e Logos Bible Software. CC BY 4.0. Sinais críticos preservados; aparato armazenado separadamente." : !canLink ?
             (state.edition === "TR" ? "Edição identificada: F. H. A. Scrivener (1894); transcrição digital de Honza Pokorny." :
             state.edition === "VULJ" ? "Texto latino CrossWire Vulgate 2.1 (domínio público), tradição jeronimiana; não equivale à edição crítica Weber–Gryson." :
@@ -371,6 +417,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         if (updateHash) syncHash();
     }
     function hide() {
+        renderRequest++;
         wordUI?.close(false);
         panel.hidden = true;
         siblings.forEach(function (node) { node.hidden = initialVisibility.get(node); });

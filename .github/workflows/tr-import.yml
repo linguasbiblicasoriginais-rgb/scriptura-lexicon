@@ -28,6 +28,8 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/tr_import.py /tmp/tr-scrivener-1894.zip
+      - name: Regenerar e validar manifesto para o leitor sob demanda
+        run: node scripts/update-chapter-manifest.mjs
       - name: Testar 260 módulos, 7957 versículos e popups
         run: |
           set -euo pipefail
@@ -45,7 +47,8 @@ jobs:
           let verses=0,modules=0;
           for(const b of m.books)for(let c=1;c<=b.chapters;c++){
             const path='scriptures/texts/tr-'+b.slug+'-'+c+'.js';
-            assert.equal(html.split('src="'+path+'"').length-1,1,path);
+            assert.equal(html.split('src="'+path+'"').length-1,0,path);
+            assert.ok(fs.readFileSync('scriptures/chapter-manifest.js','utf8').includes('"'+b.id+'":["tr-'+b.slug+'",'+b.chapters+']'),path);
             vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
             const obj=window.ScripturaScriptureTexts.TR[b.id][c];
             assert.equal(Object.keys(obj).length,b.perChapter[c-1],path);
@@ -64,7 +67,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Scriptura Lexicon'
           git config user.email 'tr-import@users.noreply.github.com'
-          git add index.html scriptures/reader.js scriptures/tr-scrivener-progress.json
+          git add index.html scriptures/chapter-manifest.js scriptures/reader.js scriptures/tr-scrivener-progress.json
           git add -A scriptures/texts
           if git diff --cached --quiet; then echo 'Nenhuma alteração'; exit 0; fi
           git commit -m 'Escrituras: incorporar Textus Receptus Scrivener (1894), 27 livros'

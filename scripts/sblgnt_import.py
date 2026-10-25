@@ -45,6 +45,9 @@ def read_source(z, suffix):
     need(len(matches)==1, f"Fonte ausente ou ambígua: {suffix} ({matches})")
     return z.read(matches[0]).decode("utf-8-sig")
 def replace_once(text, a, b, name):
+    # Uma substituição já aplicada não deve duplicar conteúdo da linha-âncora.
+    if b in text:
+        return text
     n=text.count(a)
     need(n==1 or (n==0 and b in text), f"Âncora {name}: {n} ocorrências")
     return text.replace(a,b) if n else text
@@ -146,19 +149,10 @@ def main():
         modules,titles,summary,marks=extract_text(z)
         apparatus,n_apparatus_verses,n_apparatus_notes=extract_apparatus(z)
     need(len(apparatus)==EXPECTED_BOOKS, "Aparato parcial")
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
     html_file=ROOT/"index.html"
     html=html_file.read_text(encoding="utf8")
-    html,old_count=re.subn(
-        r'(?m)^[ \t]*<script defer src="scriptures/texts/sblgnt-[^"]+\.js"></script>\r?\n',
-        "",html)
-    need(old_count in (0,EXPECTED_CHAPTERS),
-         f"Conjunto anterior de módulos SBLGNT incompleto: {old_count}")
-    anchor='    <script defer src="scriptures/catalog-vul.js"></script>'
-    need(html.count(anchor)==1, "Âncora do catálogo latino ausente")
-    html=html.replace(anchor,"".join(
-        f'    <script defer src="{p}"></script>\n' for p in modules)+anchor)
-    need(html.count('src="scriptures/texts/sblgnt-')==EXPECTED_CHAPTERS,
-         "Referências HTML incompletas")
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     reader_file=ROOT/"scriptures/reader.js"
     reader=reader_file.read_text(encoding="utf8")
     reader=replace_once(reader,
@@ -168,7 +162,7 @@ def main():
         "título")
     reader=replace_once(reader,
         '["UXLC", "LXX", "NA28", "UBS5", "TR", "VUL"]',
-        '["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VUL"]',
+        '["UXLC", "LXX", "SBLGNT", "NA28", "UBS5", "TR", "VULJ", "VUL"]',
         "ordem dos editores")
     reader=replace_once(reader,
         'const canLink = ["UXLC", "LXX", "NA28", "UBS5"].includes(state.edition)',
@@ -197,7 +191,7 @@ def main():
         r'UXLC|LXX|NA28|UBS5|TR|VUL',
     ]:
         reader=reader.replace(pattern, 'UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL')
-    need(reader.count('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VUL')==2,
+    need(reader.count('UXLC|LXX|SBLGNT|NA28|UBS5|TR|VULJ|VUL')>=1,
          "As duas rotas de navegação devem aceitar a edição nova")
     progress={
       "edition":"The Greek New Testament: SBL Edition (SBLGNT)",

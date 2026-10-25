@@ -27,6 +27,8 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/lxx_import.py /tmp/grcbrent_usfx.zip
+      - name: Regenerar e validar manifesto para o leitor sob demanda
+        run: node scripts/update-chapter-manifest.mjs
       - name: Validar módulos e integridade de referências
         run: |
           set -euo pipefail
@@ -42,7 +44,8 @@ jobs:
           const window={},ctx=vm.createContext({window});
           for(const b of manifest.books)for(let c=1;c<=b.chapters;c++){
             const path='scriptures/texts/lxx-'+b.slug+'-'+c+'.js';
-            assert.equal(html.split('src="'+path+'"').length-1,1,path);
+            assert.equal(html.split('src="'+path+'"').length-1,0,path);
+            assert.ok(fs.readFileSync('scriptures/chapter-manifest.js','utf8').includes('"'+b.id+'":["lxx-'+b.slug+'",'+b.chapters+']'),path);
             vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
             const v=window.ScripturaScriptureTexts.LXX[b.id][c];
             assert.equal(Object.keys(v).length,b.perChapter[c-1],path);
@@ -57,7 +60,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Scriptura Lexicon UXLC/LXX'
           git config user.email 'lxx-import@users.noreply.github.com'
-          git add index.html scriptures/reader.js scriptures/lxx-brenton-progress.json scriptures/lxx-brenton-paratext.json scriptures/archive/legacy-pre-brenton-2026-10-24/
+          git add index.html scriptures/chapter-manifest.js scriptures/reader.js scriptures/lxx-brenton-progress.json scriptures/lxx-brenton-paratext.json scriptures/archive/legacy-pre-brenton-2026-10-24/
           git add -A scriptures/texts
           if git diff --cached --quiet; then echo 'Nenhuma alteração'; exit 0; fi
           git commit -m 'Escrituras: incorporar Septuaginta grega de Brenton com rastreabilidade'

@@ -171,19 +171,10 @@ def main():
                      "paragraphs":book["paragraphs"]}
         print(f"VALIDADO: {code}: {len(per)} capítulos; {sum(per)} versículos; {len(book['notes'])} notas",flush=True)
     need(len(files)==EXPECTED_CHAPTERS,"Número de módulos inesperado")
-    html_path=ROOT/"index.html";html=html_path.read_text(encoding="utf8")
-    html,removed=re.subn(
-        r'(?m)^[ \t]*<script defer src="scriptures/texts/vul-[^"]+\.js"></script>\r?\n',
-        "",html)
-    need(removed in (1,EXPECTED_CHAPTERS),
-         f"Referências VUL antigas inesperadas: {removed}")
-    anchor='    <script defer src="scriptures/word-popups.js"></script>'
-    need(html.count(anchor)==1,"Âncora dos popups não encontrada")
-    html=html.replace(anchor,"".join(
-        '    <script defer src="'+path+'"></script>\n'
-        for path in files)+anchor)
-    need(html.count('src="scriptures/texts/vul-')==EXPECTED_CHAPTERS,
-         "Referências HTML VUL divergentes")
+    # O frontend carrega capítulos sob demanda; nunca recriar scripts no HTML.
+    html_path=ROOT/"index.html"
+    html=html_path.read_text(encoding="utf8")
+    html=re.sub(r'(?m)^[ \t]*<script defer src="scriptures/texts/(?:uxlc|lxx|tr|sblgnt|vul|vulj)-[^"]+\.js"></script>\r?\n',"",html)
     reader_path=ROOT/"scriptures/reader.js"
     reader=reader_path.read_text(encoding="utf8")
     reader=reader.replace('VUL: "Biblia Sacra Vulgata (VUL)"',
@@ -202,11 +193,19 @@ def main():
     archived=ROOT/"scriptures/archive/legacy-pre-clementina-2026-10-24/vul-genesis-1.js"
     if legacy.exists():
         if archived.exists():
-            need(archived.read_bytes()==legacy.read_bytes(),"Legado alterado")
+            if archived.read_bytes()==legacy.read_bytes():
+                legacy.unlink()  # Módulo antigo idêntico ao arquivado.
+            else:
+                # Arquivo atualmente publicado já é o texto integral Clementino.
+                # Nunca substituir o arquivo histórico por ele nem apagá-lo.
+                need("Vulgata Clementina (1598)" in legacy.read_text(encoding="utf8"),
+                     "Arquivo legado desconhecido; preservação manual necessária")
         else:
+            need("Vulgata Clementina (1598)" not in legacy.read_text(encoding="utf8"),
+                 "Arquivo integral sem cópia histórica: não arquivar nem excluir")
             archived.parent.mkdir(parents=True,exist_ok=True)
             archived.write_bytes(legacy.read_bytes())
-        legacy.unlink()
+            legacy.unlink()
     else:need(archived.exists(),"Legado demonstrativo não preservado")
     # Após validar a fonte e as contagens, a escrita local é seguida de testes antes de git push.
     for path,content in files.items():

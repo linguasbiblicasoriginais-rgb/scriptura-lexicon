@@ -36,6 +36,8 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/vulj_import.py /tmp/vulj-source.zip /tmp/vulj-source.imp
+      - name: Regenerar e validar manifesto para o leitor sob demanda
+        run: node scripts/update-chapter-manifest.mjs
       - name: Validar módulos, catálogos, popups e fontes anteriores
         run: |
           set -euo pipefail
@@ -57,7 +59,8 @@ jobs:
           let verses=0,modules=0,slots=0;
           for(const b of m.books)for(let c=1;c<=b.chapters;c++){
             const path='scriptures/texts/vulj-'+b.slug+'-'+c+'.js';
-            a.equal(text.split('src="'+path+'"').length-1,1,path);
+            a.equal(text.split('src="'+path+'"').length-1,0,path);
+            a.ok(fs.readFileSync('scriptures/chapter-manifest.js','utf8').includes('"'+b.id+'":["vulj-'+b.slug+'",'+b.chapters+']'),path);
             vm.runInContext(fs.readFileSync(path,'utf8'),context,{filename:path});
             const v=sandbox.window.ScripturaScriptureTexts.VULJ[b.id][c];
             a.equal(Object.keys(v).length,b.perChapter[c-1],path);
@@ -68,7 +71,7 @@ jobs:
           a.equal(slots,m.verseSlots);
           a.ok(sandbox.window.ScripturaScriptureTexts.VULJ.GEN[1]["1"].includes("in principio"));
           for(const pref of ['uxlc','lxx','tr','vul','sblgnt']){
-            a.ok(text.includes('scriptures/texts/'+pref+'-'),pref+' ausente');
+            a.ok(fs.readFileSync('scriptures/chapter-manifest.js','utf8').includes('"'+pref.toUpperCase()+'":{'),pref+' ausente do manifesto');
           }
           a.ok(reader.includes('Códice de Leningrado [L/Firkovich B19A]'));
           a.ok(reader.includes('Biblia Sacra Vulgata Clementina (1598)'));
@@ -81,7 +84,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Scriptura Lexicon'
           git config user.email 'vulj-import@users.noreply.github.com'
-          git add index.html scriptures/reader.js scriptures/word-popups.js \
+          git add index.html scriptures/chapter-manifest.js scriptures/reader.js scriptures/word-popups.js \
               scriptures/catalog-vulj.js scriptures/vulj-crosswire-progress.json \
               scriptures/vulj-crosswire-paratext.json
           git add -A scriptures/texts

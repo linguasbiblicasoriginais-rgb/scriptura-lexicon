@@ -27,6 +27,8 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/vul_import.py /tmp/latVUC_usfx.zip
+      - name: Regenerar e validar manifesto para o leitor sob demanda
+        run: node scripts/update-chapter-manifest.mjs
       - name: Validar texto, catalogação e popups
         run: |
           set -euo pipefail
@@ -47,7 +49,8 @@ jobs:
           let chapters=0,verses=0;
           for(const b of m.books)for(let c=1;c<=b.chapters;c++){
             const path='scriptures/texts/vul-'+b.slug+'-'+c+'.js';
-            assert.equal(html.split('src="'+path+'"').length-1,1,path);
+            assert.equal(html.split('src="'+path+'"').length-1,0,path);
+            assert.ok(fs.readFileSync('scriptures/chapter-manifest.js','utf8').includes('"'+b.id+'":["vul-'+b.slug+'",'+b.chapters+']'),path);
             vm.runInContext(fs.readFileSync(path,'utf8'),ctx,{filename:path});
             const data=window.ScripturaScriptureTexts.VUL[b.id][c];
             assert.equal(Object.keys(data).length,b.perChapter[c-1],path);
@@ -63,7 +66,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Scriptura Lexicon'
           git config user.email 'vul-import@users.noreply.github.com'
-          git add index.html scriptures/reader.js scriptures/catalog-vul.js \
+          git add index.html scriptures/chapter-manifest.js scriptures/reader.js scriptures/catalog-vul.js \
             scriptures/vul-clementine-progress.json scriptures/vul-clementine-paratext.json \
             scriptures/archive/legacy-pre-clementina-2026-10-24/
           git add -A scriptures/texts
