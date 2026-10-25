@@ -276,19 +276,34 @@
         window.addEventListener("resize", function () { close(false); });
         function decorate(node, text, context) {
             const frag = document.createDocumentFragment();
-            for (const token of tokenize(text)) {
-                if (!token.word) { frag.append(document.createTextNode(token.text)); continue; }
-                const button = document.createElement("button");
-                button.type = "button";
-                button.className = "scripture-word";
-                button.textContent = token.text;
-                button.dataset.word = token.text;
-                button.dataset.edition = context.edition;
-                button.dataset.reference = context.reference;
-                button.setAttribute("aria-haspopup", "dialog");
-                button.setAttribute("aria-expanded", "false");
-                button.setAttribute("aria-label", token.text + ": consultar transliteração e minidicionário");
-                frag.append(button);
+            // Quebrar somente nos espaços: palavra e pontuação adjacente
+            // devem permanecer juntas, sem modificar a superfície textual.
+            for (const chunk of text.split(/(\s+)/u)) {
+                if (!chunk) continue;
+                if (/^\s+$/u.test(chunk)) {
+                    frag.append(document.createTextNode(chunk));
+                    continue;
+                }
+                const unit = document.createElement("span");
+                unit.className = "scripture-word-unit";
+                for (const token of tokenize(chunk)) {
+                    if (!token.word) {
+                        unit.append(document.createTextNode(token.text));
+                        continue;
+                    }
+                    const button = document.createElement("button");
+                    button.type = "button";
+                    button.className = "scripture-word";
+                    button.textContent = token.text;
+                    button.dataset.word = token.text;
+                    button.dataset.edition = context.edition;
+                    button.dataset.reference = context.reference;
+                    button.setAttribute("aria-haspopup", "dialog");
+                    button.setAttribute("aria-expanded", "false");
+                    button.setAttribute("aria-label", token.text + ": consultar transliteração e minidicionário");
+                    unit.append(button);
+                }
+                frag.append(unit);
             }
             node.replaceChildren(frag);
         }
