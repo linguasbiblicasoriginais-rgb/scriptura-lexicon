@@ -182,6 +182,8 @@
     padding: 5px 8px;
     font-size: 1.1rem;
     line-height: 1.9;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .scripture-verse-selected { background: var(--surface-3); }
 .scripture-verse-number {
@@ -214,7 +216,8 @@
 
 /* Gênesis 1: numeração isolada e marcas de seção aberta (פ). */
 .scripture-verse-line[dir="rtl"] {
-    text-align: right;
+    text-align: justify;
+    text-align-last: right;
     direction: rtl;
 }
 .scripture-verse-line[dir="rtl"] .scripture-verse-number {
@@ -295,6 +298,12 @@
     white-space: pre-line;
 }
 
+
+/* Cada sequência sem espaços forma uma unidade tipográfica.
+   A pontuação permanece junto à palavra, inclusive com popups ativos. */
+.scripture-word-unit {
+    white-space: nowrap;
+}
 
 /* Popups lexicais por palavra: texto-base não é substituído pelo glossário. */
 .scripture-word {
