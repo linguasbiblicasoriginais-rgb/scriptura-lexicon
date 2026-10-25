@@ -61,6 +61,41 @@ try {
     assert.equal(aaron.text,"ܐܰܗܻܝܪܳܐ");
     assert.match(aaron.css,/Estrangelo Edessa/);
     assert.equal(aaron.dir,"rtl");
+    // Testar o cartão que o navegador realmente abre, não apenas o JSON-fonte.
+    const publicationAudit=await page.evaluate(async (specs)=>{
+        const api=window.ScripturaLexiconSearch;
+        const audit=[];
+        for(const spec of specs){
+            const results=await api.search(spec.term,"grego","THAYER");
+            const pageRows=await api.page(results,1,60);
+            const row=pageRows.find(entry=>entry.target===spec.target);
+            if (!row){audit.push({term:spec.term,target:spec.target,error:"não encontrado entre os resultados"});continue;}
+            const article=await api.loadArticle(row.id);
+            const body=article.querySelector(".entry-section .entry-text")?.textContent?.trim();
+            const sub=article.querySelector(".entry-meta")?.textContent?.trim();
+            audit.push({term:spec.term,target:spec.target,title:article.querySelector("h1")?.textContent?.trim(),
+                subtitle:sub,firstParagraph:body?.slice(0,280),technical:article.querySelectorAll(".section-title").length});
+        }
+        return audit;
+    },[
+        {term:"alfa",target:"entry-thayer-reinicio-0001"},
+        {term:"abadom",target:"entry-thayer-reinicio-0002"},
+        {term:"ἀβαρής",target:"entry-thayer-reinicio-0003"},
+        {term:"abba",target:"entry-thayer-reinicio-0004"},
+        {term:"arao",target:"entry-thayer-reinicio-0005"},
+        {term:"abiatar",target:"entry-thayer-reinicio-0006"},
+        {term:"abel",target:"entry-thayer-reinicio-0007"}
+    ]);
+    assert.equal(publicationAudit.length,7);
+    const grammar=/(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
+    for(const item of publicationAudit){
+        assert.ok(!item.error,"Cartão não encontrado para "+item.term+": "+item.error);
+        assert.ok(item.title && item.subtitle && item.firstParagraph,
+            "Título, subtítulo ou definição ausente em "+item.term);
+        assert.equal(item.technical,0,"Seções administrativas expostas em "+item.term);
+        assert.ok(!grammar.test(item.firstParagraph),"Redundância gramatical visível em "+item.term);
+    }
+
     assert.deepEqual(errors,[],"Erros JS no navegador: "+errors.join(" | "));
     console.log(JSON.stringify({status:"PASS",alfa:alfa.firstTarget,abel:abel.firstTarget,syriac:aaron.text,jsErrors:0}));
 }finally{await browser.close();}
