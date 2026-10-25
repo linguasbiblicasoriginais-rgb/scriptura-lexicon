@@ -1,4 +1,5 @@
 /* Scriptura Lexicon — leitura patrística (herda paleta e tipografia) */
+#site-section-cards[hidden] {display:none!important}
 .patristic-reader[hidden], #stromata-subsection-label[hidden] {display:none!important}
 .patristic-reader {margin:1.5rem 0 3rem;max-width:100%}
 .patristic-heading {font-size:clamp(1.4rem,3vw,2rem);margin:1.1rem 0 .25rem;color:var(--text-primary)}
