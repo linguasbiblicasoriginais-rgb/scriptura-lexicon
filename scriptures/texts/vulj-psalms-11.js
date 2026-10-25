@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 11. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][11]={"1":"in finem pro octava psalmus David victori pro octava canticum David","2":"salvum me fac Domine quoniam defecit sanctus quoniam deminutae sunt veritates a filiis hominum salva Domine quoniam defecit sanctus quoniam inminuti sunt fideles a filiis hominum","3":"vana locuti sunt unusquisque ad proximum suum labia dolosa in corde et corde locuti sunt frustra loquuntur unusquisque proximo suo labium subdolum in corde et corde locuti sunt","4":"disperdat Dominus universa labia dolosa linguam magniloquam disperdat Dominus omnia labia dolosa linguam magniloquam","5":"qui dixerunt linguam nostram magnificabimus labia nostra a nobis sunt quis noster dominus est qui dixerunt linguam nostram roboremus labia nostra nobiscum sunt quis dominus noster est","6":"propter miseriam inopum et gemitum pauperum nunc exsurgam dicit Dominus ponam in salutari fiducialiter agam in eo propter vastitatem inopum et gemitum pauperum nunc consurgam dicit Dominus ponam in salutari auxilium eorum","7":"eloquia Domini eloquia casta argentum igne examinatum probatum terrae purgatum septuplum eloquia Domini eloquia munda argentum igne probatum separatum a terra colatum septuplum","8":"tu Domine servabis nos et custodies nos a generatione hac et in aeternum tu Domine custodies ea servabis nos a generatione hac in aeternum","9":"in circuitu impii ambulant secundum altitudinem tuam multiplicasti filios hominum in circuitu impii ambulabunt cum exaltati fuerint vilissimi filiorum hominum"};
+})();

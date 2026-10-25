@@ -2017,3 +2017,24 @@ tbody tr:last-child td {
     .source-cover-title { font-size: .84rem; }
 }
 
+
+/* Six-section editorial navigation — monochromatic outline icons. */
+.site-menu-nav{display:grid;gap:7px;margin-top:20px}
+.site-menu-item{display:flex;align-items:center;gap:14px;width:100%;min-height:51px;padding:12px;border:1px solid transparent;border-radius:10px;background:transparent;color:var(--text-secondary);font:inherit;font-size:.88rem;text-align:left;cursor:pointer}
+.site-menu-item svg{flex:0 0 22px;width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.site-menu-item:hover,.site-menu-item:focus-visible,.site-menu-item.active{color:var(--text-primary);background:var(--surface-3);border-color:var(--border);outline:none}
+.site-section-hub[hidden],.site-subsection-content[hidden],.site-back-link[hidden]{display:none!important}
+.site-section-hub{padding:20px 0 50px;color:var(--text-primary)}
+.site-section-kicker{font-size:.73rem;color:var(--accent-light);letter-spacing:.1em;font-weight:700;text-transform:uppercase}
+.site-section-hub h1{font-size:clamp(1.6rem,4vw,2.4rem);margin:12px 0;line-height:1.3}
+#site-section-description{max-width:760px;color:var(--text-secondary);margin:0 0 30px}
+.site-section-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:15px}
+.site-section-card{min-height:125px;display:grid;gap:9px;align-content:start;border:1px solid var(--border);border-radius:13px;background:var(--surface-1);color:var(--text-primary);padding:20px;font:inherit;text-align:left;cursor:pointer}
+.site-section-card strong{line-height:1.45;font-size:1.02rem}.site-section-card span{color:var(--text-secondary);font-size:.82rem;line-height:1.5}
+.site-section-card:hover,.site-section-card:focus-visible{border-color:var(--accent-dark);background:var(--surface-3);outline:none}
+.site-back-link{color:var(--accent-light);font:inherit;font-size:.85rem;border:0;background:transparent;padding:5px 0;margin:0 0 23px;cursor:pointer}
+.site-subsection-content{margin-top:26px;border:1px solid var(--border);border-radius:13px;padding:20px;background:var(--surface-1)}
+#site-dictionary-options .dictionary-nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:10px}
+#site-dictionary-options .dictionary-option{width:100%;border:1px solid var(--border);border-radius:9px;background:var(--surface-2)}
+#site-settings-content .theme-selector{margin:0;max-width:570px}
+@media(max-width:600px){.site-section-card{min-height:95px}.site-subsection-content{padding:12px}}

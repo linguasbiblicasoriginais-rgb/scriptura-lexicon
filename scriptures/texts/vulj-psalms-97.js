@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 97. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][97]={"1":"psalmus David cantate Domino canticum novum quoniam mirabilia fecit salvavit sibi dextera eius et brachium sanctum eius canticum cantate Domino canticum novum quia mirabilia fecit salvavit sibi dextera eius et brachium sanctum eius","2":"notum fecit Dominus salutare suum in conspectu gentium revelavit iustitiam suam notum fecit Dominus salutare suum in conspectu gentium revelavit iustitiam suam","3":"recordatus est misericordiae suae et veritatem suam domui Israhel viderunt omnes termini terrae salutare Dei nostri recordatus est misericordiae suae et veritatis suae domui Iacob viderunt omnes fines terrae salutare Dei nostri","4":"iubilate Domino omnis terra cantate et exultate et psallite iubilate Domino omnis terra vociferamini et laudate et canite","5":"psallite Domino in cithara in cithara et voce psalmi cantate Domino in cithara in cithara et voce carminis","6":"in tubis ductilibus et voce tubae corneae iubilate in conspectu regis Domini in tubis et clangore bucinae iubilate coram rege Domino","7":"moveatur mare et plenitudo eius orbis terrarum et qui habitant in eo tonet mare et plenitudo eius orbis et habitatores eius","8":"flumina plaudent manu simul montes exultabunt flumina plaudent manu simul montes laudabunt","9":"a conspectu Domini quoniam venit iudicare terram iudicabit orbem terrarum in iustitia et populos in aequitate ante Dominum quia venit iudicare terram iudicabit orbem in iustitia et populos in aequitatibus"};
+})();
