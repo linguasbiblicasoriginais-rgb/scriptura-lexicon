@@ -21,3 +21,26 @@
 .josefo-reader .josefo-message {margin-top:14px;color:var(--text-secondary);font-size:.87rem;line-height:1.7}
 .josefo-reader .josefo-credit {margin-top:17px;font-size:.78rem;line-height:1.6;color:var(--text-muted)}
 .josefo-reader .josefo-reader-controls select:disabled{opacity:.65;cursor:not-allowed}
+
+/* Sinopse e cabeçalhos gregos transcritos da fonte */
+.josefo-reader .josefo-argument {
+  color:var(--text-primary);
+  font-family:"Noto Serif",Georgia,serif;
+  font-size:1.06rem;
+  line-height:1.85;
+}
+.josefo-reader .josefo-argument h3,
+.josefo-reader .josefo-argument h4 {
+  margin:0 0 12px;
+  font:inherit;
+  font-weight:700;
+  color:var(--text-primary);
+}
+.josefo-reader .josefo-argument p {
+  margin:0;
+  white-space:pre-line;
+}
+.josefo-reader #josefo-retry {
+  margin-top:12px;
+  padding:10px 16px;
+}

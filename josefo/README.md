@@ -1,19 +1,38 @@
-# Flávio Josefo — Antiguidades Judaicas
+# Flávio Josefo — Antiguidades Judaicas (texto grego integral)
 
-## Organização
+## Texto incorporado
 
-Integração independente da seção Obras de Flávio Josefo. Navegação por obra, livro, capítulo tradicional e seção numerada (parágrafo de Niese). Referência científica: Ant. livro.seção. As seções são numeradas continuamente dentro do mesmo livro; não são versículos bíblicos.
+O leitor apresenta os 20 livros de *Antiguidades Judaicas* (Ἰουδαϊκὴ ἀρχαιολογία) em grego, usando o texto TEI publicado pela Perseus Digital Library segundo a edição de Benedikt Niese (1885–1890). Os dados provêm da fonte XML, não de geração livre nem de tradução.
 
-Há 20 livros e 256 capítulos, segundo a divisão tradicional dos capítulos utilizada na tradução de William Whiston, cf. https://ccel.org/ccel/josephus/complete.toc.html. Totais por livro: 22, 16, 15, 8, 11, 14, 15, 15, 14, 11, 8, 11, 16, 16, 11, 11, 13, 9, 9, 11.
+São **7.376 seções numeradas**, **20 sinopses** (uma para cada livro), **257 capítulos**, e o prefácio do Livro I (§§ 1–26) é acessível separadamente dos capítulos.
 
-Fonte de referência: texto grego na edição de Benedikt Niese, Flavii Iosephi Opera (1885–1890); catálogo Perseus https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0526.tlg001.perseus-grc2/ (licença indicada pelo Perseus: CC BY-SA 4.0).
+Contagens de capítulos segundo os marcadores Whiston_chapter do TEI, por livro:
 
-Estado editorial: o catálogo foi habilitado, mas a obra NÃO foi transcrita integralmente. O arquivo texts/ant-1-1.js contém somente excertos iniciais dos §§ 27 e 28 de Ant. 1.1, consultados em https://www.biblical.ie/page.php?fl=josephus/Antiquities/AJGk01. Os excertos são marcados visualmente e aguardam cotejo com a edição de Niese. Não há tradução portuguesa incorporada.
+    [22,16,15,8,11,14,15,15,14,11,8,11,16,16,11,11,13,9,9,12]
 
-A seleção de uma seção transcrita realça o parágrafo inteiro e atualiza o endereço da página. Exemplo de endereço: #josefo/antiguidades/1/1/27. Os capítulos não transcritos exibem indisponibilidade explícita e NÃO produzem números artificiais de seção.
+**Variação editorial:** certas apresentações da divisão Whiston contam 11 capítulos para o Livro XX. O XML Perseus utilizado marca expressamente capítulo 12, abrangendo as seções 259–268; preservamos essa divisão documental. A numeração das seções de Niese é contínua por livro; a citação primária é Ant. livro.seção.
 
-## Adição de texto
+## Fonte, atribuição e licença
 
-O formato esperado para cada capítulo é uma lista de objetos contendo number (seção de Niese), text (texto da fonte) e complete (verdadeiro apenas para transcrição completa daquela seção). Registrar em window.ScripturaJosephusTexts.antiguidades[livro][capítulo], preservando o texto da fonte; não introduzir variantes, traduções ou paráfrases não documentadas.
+- Obra: Flavius Josephus, *Antiquitates Judaicae*.
+- Edição histórica: Benedikt Niese (ed.), *Flavii Iosephi opera*, Berlim: Weidmann, 1885–1890, vols. 1–4.
+- Transcrição digital: **Perseus Digital Library, Tufts University**, URN urn:cts:greekLit:tlg0526.tlg001.perseus-grc2.
+- XML: https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0526/tlg001/tlg0526.tlg001.perseus-grc2.xml
+- SHA do arquivo XML original: b7311f2559afeb84a9f95484d8d02d04a0bad86c.
+- Catálogo: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0526.tlg001.perseus-grc2/
+- **Licença dos dados adaptados:** CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
 
-Manter as camadas fonte, tradução, análise e redação lexicográfica separadas.
+A integração removeu marcação TEI/XML, marcas editoriais e indicação de páginas, normalizou espaços e quebras de linha e manteve o conteúdo textual das seções, sinopses e prefácio. Não é reprodução diplomática da estrutura crítica XML; elementos como del, q ou num perderam sua semântica de marcação. Para decisões textuais ou filológicas, consultar a fonte crítica citada.
+
+## Estrutura técnica
+
+- josefo/catalog.js: catálogo de 20 livros e 257 capítulos, conforme o TEI.
+- josefo/texts/ant-group-1.js a ant-group-5.js: cinco pacotes locais, com quatro livros por arquivo e carregamento sob demanda.
+- josefo/reader.js: seletor por obra, livro, capítulo, prefácio/sinopse e seções Niese, com realce e URL de referência.
+- tests/josefo-catalog.test.cjs: testes da estrutura e integridade dos dados.
+
+Referências de URL: #josefo/antiguidades/1/1/27, #josefo/antiguidades/1/0/1 (prefácio), #josefo/antiguidades/1/arg (sinopse).
+
+A amostra de dois excertos em josefo/texts/ant-1-1.js foi substituída pelos arquivos integrais.
+
+Não há tradução portuguesa nessa camada. Preservar a independência de **fonte**, **tradução**, **análise** e **GDHAGP**.

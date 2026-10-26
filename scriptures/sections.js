@@ -17,7 +17,7 @@ const pages={
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
- josefo:["Obras de Flávio Josefo","Antiguidades Judaicas: 20 livros, capítulos tradicionais e seções de Niese. Texto grego em incorporação."],
+ josefo:["Obras de Flávio Josefo","Antiguidades Judaicas: 20 livros, capítulos tradicionais e seções de Niese. Texto grego integral disponível por livro, capítulo e seção."],
  filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -167,7 +167,7 @@ function showHub(section){
   card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
   card("Pedagogo — Παιδαγωγός","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1905)",{patristicWork:"paedagogus"});
  }
- if(section==="josefo")card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","Flávio Josefo · 20 livros · 256 capítulos · texto grego conforme disponibilidade",{josefoWork:"antiguidades"});
+ if(section==="josefo")card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","Flávio Josefo · 20 livros · 257 capítulos · texto grego integral: edição Niese/Perseus",{josefoWork:"antiguidades"});
  if(editions[section])for(const [code,name] of editions[section])
    editionCard(code,name,section);
  for(const button of document.querySelectorAll(".site-menu-item")){
