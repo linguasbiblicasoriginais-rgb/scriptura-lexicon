@@ -366,8 +366,16 @@ for (const filename of thayerRestartFiles) {
     if (!key || key !== rowKey || approvedByKey.has(key)) {
         throw Error("THAYER_PUBLICATION_GATE: lema divergente ou homógrafo sem revisão: " + filename);
     }
+    // Permite, com declaração explícita e verificável, que hífens editoriais
+    // no lema impresso não impeçam a correspondência com o índice histórico.
+    // Nenhuma outra mudança ortográfica pode ser usada para suprimir artigo antigo.
+    const legacyKey = data.publication?.legacy_lookup_lemma ?
+        normalize(data.publication.legacy_lookup_lemma) : key;
+    if (legacyKey !== key && legacyKey !== key.replace(/[-‐‑‒–]/gu, "")) {
+        throw Error("THAYER_PUBLICATION_GATE: equivalência histórica não demonstrada: " + filename);
+    }
     const expected = historicalThayer.filter(record =>
-        thayerPublishedLemmaKey(record.row) === key).map(record => record.target).sort();
+        thayerPublishedLemmaKey(record.row) === legacyKey).map(record => record.target).sort();
     const declared = data.publication?.supersedes_legacy_targets;
     if (!Array.isArray(declared) || new Set(declared).size !== declared.length ||
             declared.some(target => !/^entry-thayer-\d{4}$/.test(target)) ||
