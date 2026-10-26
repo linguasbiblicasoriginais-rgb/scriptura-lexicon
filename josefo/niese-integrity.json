@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "hash": "FNV-1a 64-bit over UTF-16 code units, sections serialized as chapter:number<TAB>normalized TEI paragraph text<LF>",
+  "hash": "FNV-1a 64-bit over UTF-16 code units; each TEI section normalized as a whole after joining its paragraphs; lines are chapter:number<TAB>text<LF>",
   "basis": "Source Perseus TEI/XML, SHA git blob verificadas em 26/10/2026",
   "works": {
     "guerra": {
@@ -200,7 +200,7 @@
           "chapters": 13,
           "first": 1,
           "last": 355,
-          "fingerprint": "85a5f2b0f594c97f",
+          "fingerprint": "08bd7b12baaca8f1",
           "argumentFingerprint": "e770f3db537a39d0"
         },
         "18": {
