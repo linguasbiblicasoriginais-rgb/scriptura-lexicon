@@ -146,7 +146,9 @@ function renderArgument(data){
  const bookTitle=document.createElement("h3");bookTitle.textContent=data.title;
  const argTitle=document.createElement("h4");argTitle.textContent=data.argument.title;
  const text=document.createElement("p");text.textContent=data.argument.text;
- block.append(bookTitle,argTitle,text);textArea.append(block);
+ block.append(bookTitle);
+ if(data.argument.title)block.append(argTitle);
+ block.append(text);textArea.append(block);
  message.textContent="Sinopse grega reproduzida do texto-fonte; não corresponde a uma seção numerada.";
  copy.disabled=false;
 }

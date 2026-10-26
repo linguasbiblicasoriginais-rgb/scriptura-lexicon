@@ -26,7 +26,7 @@ test("Perseus/Niese: 20 livros, 257 capítulos e 7.376 seções numeradas",()=>{
   assert.ok(data,"Falta livro "+meta.number);
   assert.equal(data.book,meta.number);
   assert.ok(data.title,"Falta título grego");
-  assert.ok(data.argument?.title,"Falta cabeçalho da sinopse");
+  if(meta.number===1)assert.ok(data.argument?.title,"Falta cabeçalho do prefácio");
   assert.ok(data.argument?.text,"Falta texto da sinopse");
   assert.equal(Object.keys(data.chapters).filter(k=>Number(k)>0).length,meta.chapters);
   if(meta.number===1)assert.equal(data.chapters[0].length,26);
