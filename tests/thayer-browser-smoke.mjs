@@ -110,8 +110,9 @@ try {
         return audit;
     },auditSpecs);
     assert.equal(publicationAudit.length,auditSpecs.length);
-    assert.ok(publicationAudit.some(x=>x.target==="entry-thayer-reinicio-0008"),
-        "O novo verbete Ἀβιά não foi avaliado no navegador");
+    const latestTarget=newest.at(-1)?.target;
+    assert.ok(latestTarget && publicationAudit.some(x=>x.target===latestTarget),
+        "O verbete mais recente não foi avaliado no navegador");
     const grammar=/(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
     for(const item of publicationAudit){
         assert.ok(!item.error,"Cartão não encontrado para "+item.term+": "+item.error);
