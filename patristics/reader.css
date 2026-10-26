@@ -15,7 +15,8 @@
 .patristic-text {margin:1rem 0;padding:clamp(1rem,3.5vw,2rem);background:var(--surface-1);border:1px solid var(--border-soft);border-radius:12px;font-family:"Noto Serif",serif;font-size:1.06rem;line-height:2.05;text-align:justify;text-justify:inter-word}
 .patristic-text p {margin:0 0 1.05em;text-align:justify;overflow-wrap:break-word}
 .patristic-text p:last-child {margin-bottom:0}
-.patristic-text p.patristic-subsection {margin-bottom:.45em}
+.patristic-text p.patristic-subsection {margin-bottom:.45em;padding:5px 8px;border-radius:6px}
+.patristic-text p.patristic-subsection-selected {background:var(--surface-3)}
 .patristic-text .patristic-submark {font-weight:700;margin-inline-end:.5em}
 .patristic-gap {color:var(--accent);font-size:.86em}
 .patristic-submark {color:var(--accent);font-size:.82em;white-space:nowrap}
