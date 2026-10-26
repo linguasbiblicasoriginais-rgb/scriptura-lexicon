@@ -40,7 +40,7 @@ panel.innerHTML=[
 '<button type="button" id="josefo-copy">Copiar referência</button>',
 '</div>',
 '<p id="josefo-feedback" class="scripture-reader-feedback" role="status"></p>',
-'<p class="josefo-credit">Fonte: Flávio Josefo, <em>Antiguidades Judaicas</em>, ed. Benedikt Niese (1885–1890), transcrição TEI do Perseus Digital Library. Texto distribuído sob <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Formatação XML adaptada, mantendo as divisões da fonte. Sem tradução.</p>'
+'<p class="josefo-credit">Fonte: Flávio Josefo, <em>Antiguidades Judaicas</em>, Benedikt Niese (ed.), <em>Flavii Iosephi Opera</em>, vols. 1–4 (Berlim: Weidmann, 1885–1890), transcrição TEI do Perseus Digital Library. Texto distribuído sob <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Marcação TEI removida e espaços normalizados; não é reprodução diplomática da fonte. Sem tradução.</p>'
 ].join("");
 main.insertBefore(panel,anchor);
 const bookSelect=panel.querySelector("#josefo-book");
@@ -87,6 +87,27 @@ function rows(){
  const data=sourceData(state.book);
  if(!data||state.chapter==="arg")return [];
  return data.chapters?.[String(state.chapter)]||[];
+}
+function displayedReference(){
+ return "Antiguidades Judaicas · Livro "+state.book+" · "+chapterLabel(state.chapter)+
+  (state.section===null?"":" · § "+state.section)+" ("+reference()+")";
+}
+function activateSection(number,shouldScroll){
+ if(!rows().some(row=>row.number===number))return;
+ state.section=number;
+ sectionSelect.value=String(number);
+ for(const line of textArea.querySelectorAll("[data-josefo-section]")){
+   const selected=Number(line.dataset.josefoSection)===number;
+   line.classList.toggle("scripture-verse-selected",selected);
+   line.setAttribute("aria-pressed",String(selected));
+ }
+ heading.textContent=displayedReference();
+ syncHash("push");
+ if(shouldScroll){
+   const target=textArea.querySelector('[data-josefo-section="'+number+'"]');
+   target?.scrollIntoView({block:"center",behavior:"smooth"});
+   target?.focus({preventScroll:true});
+ }
 }
 function reference(){
  if(state.chapter==="arg")return "Ant. "+state.book+" · sinopse";
@@ -165,6 +186,7 @@ function renderSections(data){
  selectedRows.forEach(r=>sectionSelect.append(option(r.number,"§ "+r.number)));
  sectionSelect.value=String(state.section);
  sectionSelect.disabled=false;
+ heading.textContent=displayedReference();
  for(const r of selectedRows){
   const line=document.createElement("button");
   line.type="button";
@@ -177,12 +199,7 @@ function renderSections(data){
   const num=document.createElement("span");num.className="scripture-verse-number";num.textContent="§ "+r.number;
   const greek=document.createElement("span");greek.className="josefo-greek";greek.lang="grc";greek.textContent=r.text;
   line.append(num,greek);
-  line.addEventListener("click",()=>{
-   state.section=r.number;
-   render();syncHash("push");
-   const target=textArea.querySelector('[data-josefo-section="'+r.number+'"]');
-   target?.focus({preventScroll:true});
-  });
+  line.addEventListener("click",()=>activateSection(r.number,true));
   textArea.append(line);
  }
  message.textContent=selectedRows.length+" seções da edição grega carregadas neste "+(state.chapter===0?"prefácio":"capítulo")+".";
@@ -206,6 +223,7 @@ function show(bookNumber,chapterNumber,sectionNumber,writeHash){
  state.chapter=normalizeChapter(chapterNumber,state.book);
  state.section=state.chapter==="arg"?null:positive(sectionNumber,null);
  const current=++generation;
+ const requestedSection=state.section;
  window.ScripturaScriptures?.hide();
  window.ScripturaPatristics?.hide();
  window.ScripturaPaedagogus?.hide();
@@ -223,6 +241,8 @@ function show(bookNumber,chapterNumber,sectionNumber,writeHash){
   if(current!==generation)return;
   render();
   if(writeHash)syncHash("replace");
+  if(requestedSection!==null&&state.chapter!=="arg")
+    textArea.querySelector('[data-josefo-section="'+state.section+'"]')?.scrollIntoView({block:"center"});
  }).catch(()=>{
   if(current!==generation)return;
   clearResult("Não foi possível carregar este grupo de livros. Verifique a conexão e tente novamente.");
@@ -243,28 +263,26 @@ function navigate(b,c){
  show(b,c,null,true);
 }
 function adjacent(direction){
- const list=chaptersFor(state.book),idx=list.indexOf(state.chapter),target=idx+direction;
+ const list=chaptersFor(state.book).filter(c=>c!=="arg"),idx=list.indexOf(state.chapter),target=idx+direction;
+ if(idx<0){navigate(state.book,list[0]);return;}
  if(target>=0&&target<list.length){navigate(state.book,list[target]);return;}
  const neighbor=state.book+direction;
  if(neighbor<1||neighbor>catalog.books.length)return;
- const next=chaptersFor(neighbor);
+ const next=chaptersFor(neighbor).filter(c=>c!=="arg");
  navigate(neighbor,direction===1?next[0]:next[next.length-1]);
 }
-bookSelect.addEventListener("change",()=>navigate(positive(bookSelect.value,1),"arg"));
+bookSelect.addEventListener("change",()=>navigate(positive(bookSelect.value,1),1));
 chapterSelect.addEventListener("change",()=>navigate(state.book,chapterSelect.value));
 sectionSelect.addEventListener("change",()=>{
  if(!sectionSelect.disabled){
-  state.section=positive(sectionSelect.value,null);
-  render();syncHash("push");
-  const target=textArea.querySelector('[data-josefo-section="'+state.section+'"]');
-  target?.scrollIntoView({block:"nearest",behavior:"smooth"});
+  activateSection(positive(sectionSelect.value,null),true);
  }
 });
 panel.querySelector("#josefo-prev").addEventListener("click",()=>adjacent(-1));
 panel.querySelector("#josefo-next").addEventListener("click",()=>adjacent(1));
 retry.addEventListener("click",()=>show(state.book,state.chapter,state.section,false));
 copy.addEventListener("click",()=>{
- const value=reference()+" (Antiguidades Judaicas, "+chapterLabel(state.chapter).toLowerCase()+")";
+ const value=reference()+" — Flávio Josefo, Antiguidades Judaicas, "+chapterLabel(state.chapter).toLowerCase()+"; Benedikt Niese (ed.), Flavii Iosephi Opera, vols. 1–4 (Berlim: Weidmann, 1885–1890); Perseus Digital Library (urn:cts:greekLit:tlg0526.tlg001.perseus-grc2).";
  if(!navigator.clipboard?.writeText){feedback.textContent="Copie a referência: "+value;return;}
  navigator.clipboard.writeText(value).then(()=>feedback.textContent="Referência copiada.")
   .catch(()=>feedback.textContent="Copie a referência: "+value);
