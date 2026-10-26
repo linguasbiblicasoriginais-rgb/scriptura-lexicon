@@ -1,4 +1,4 @@
-/* História dos Hebreus — leitor das obras gregas autênticas de Flávio Josefo.
+/* Obras de Flávio Josefo — leitor das obras gregas autênticas de Flávio Josefo.
  * Guerra, Vida e Contra Ápio usam dados integrais locais da transcrição TEI Perseus;
  * Antiguidades Judaicas conserva seu leitor independente, acessível pelo seletor Obra.
  */
@@ -14,7 +14,7 @@ panel.className="scripture-reader josefo-reader josefo-history-reader";
 panel.hidden=true;
 panel.setAttribute("aria-labelledby","josefo-historia-title");
 panel.innerHTML=[
-'<div class="scripture-reader-kicker">História dos Hebreus · Flávio Josefo · texto grego</div>',
+'<div class="scripture-reader-kicker">Obras de Flávio Josefo · texto grego</div>',
 '<h1 id="josefo-historia-title"></h1>',
 '<p id="josefo-historia-original" class="scripture-reader-intro" lang="grc"></p>',
 '<div class="scripture-reader-controls josefo-reader-controls">',
@@ -28,7 +28,7 @@ panel.innerHTML=[
 '<button type="button" id="josefo-historia-next">Próximo capítulo →</button>',
 '</div>',
 '<div class="scripture-reader-result" aria-live="polite">',
-'<div class="scripture-reader-category">Flávio Josefo · História dos Hebreus</div>',
+'<div class="scripture-reader-category">Flávio Josefo · texto grego da edição Niese / Perseus</div>',
 '<h2 id="josefo-historia-reference"></h2>',
 '<div id="josefo-historia-text" class="scripture-text"></div>',
 '<p id="josefo-historia-message" class="josefo-message" role="status"></p>',
@@ -40,7 +40,7 @@ panel.innerHTML=[
 '<button type="button" id="josefo-historia-copy">Copiar referência</button>',
 '</div>',
 '<p id="josefo-historia-feedback" class="scripture-reader-feedback" role="status"></p>',
-'<p class="josefo-credit">Fonte: Flávio Josefo, texto grego da edição de Benedikt Niese, transcrito pelo Perseus Digital Library, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. A coletânea portuguesa <em>História dos Hebreus</em> é um título editorial, não o título antigo de uma obra única. Não contém tradução portuguesa.</p>'
+'<p class="josefo-credit">Fonte: Flávio Josefo, texto grego da edição de Benedikt Niese, transcrito pelo Perseus Digital Library. Para <em>A Guerra dos Judeus</em>: <em>Flavii Iosephi Opera</em>, vol. 6 (Berlim: Weidmann, 1895). Licença <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Conversão TEI/XML com remoção da marcação e normalização de espaços; não é reprodução diplomática. Sem tradução portuguesa.</p>'
 ].join("");
 main.insertBefore(panel,anchor);
 const el=id=>panel.querySelector("#josefo-historia-"+id);
@@ -122,7 +122,7 @@ function reference(){
  return state.section==null?w.title+": "+caption():prefix+state.section;
 }
 function syncHash(mode){
- const hash="#josefo/historia/"+state.work+"/"+state.book+"/"+state.chapter+
+ const hash=(state.work==="guerra"?"#josefo/guerra/":"#josefo/historia/"+state.work+"/")+state.book+"/"+state.chapter+
   (state.section==null?"":"/"+state.section);
  if(window.location.hash===hash)return;
  if(mode==="replace")history.replaceState(null,"",hash);
@@ -208,6 +208,7 @@ function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
  state.chapter=normalizeChapter(w,state.book,chapterNumber);
  state.section=positive(sectionNumber,null);
  const mine=++generation;
+ const requestedSection=state.section;
  window.ScripturaScriptures?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaPatristics?.hide();
@@ -219,6 +220,7 @@ function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
  load(state.work,state.book).then(()=>{
    if(generation!==mine)return;
    render();if(writeHash)syncHash("replace");
+   if(requestedSection!==null)textArea.querySelector('[data-josefo-history-section="'+state.section+'"]')?.scrollIntoView({block:"center"});
  }).catch(()=>{
    if(generation!==mine)return;
    clear("Não foi possível carregar o texto grego. Verifique a conexão e tente novamente.");
@@ -229,8 +231,10 @@ function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
  return true;
 }
 function hide(){panel.hidden=true;generation++;}
-function isHistoryHash(){return /^#josefo\/historia\//.test(window.location.hash);}
+function isHistoryHash(){return /^#josefo\/(?:historia\/|guerra\/)/.test(window.location.hash);}
 function showFromHash(){
+ const direct=/^#josefo\/guerra\/(\d+)\/(\d+)(?:\/(\d+))?$/.exec(window.location.hash);
+ if(direct)return show("guerra",direct[1],direct[2],direct[3]??null,false);
  const match=/^#josefo\/historia\/(guerra|vida|apiao)\/(\d+)\/(\d+)(?:\/(\d+))?$/.exec(window.location.hash);
  if(!match)return false;
  return show(match[1],match[2],match[3],match[4]??null,false);
@@ -263,7 +267,8 @@ prev.addEventListener("click",()=>adjacent(-1));
 next.addEventListener("click",()=>adjacent(1));
 retry.addEventListener("click",()=>show(state.work,state.book,state.chapter,state.section,false));
 copy.addEventListener("click",()=>{
- const value=reference()+" ("+work().title+")";
+ const w=work();
+ const value=reference()+" — Flávio Josefo, "+w.title+"; "+(w.edition||"ed. Benedikt Niese, Flavii Iosephi Opera")+"; Perseus Digital Library (urn:cts:greekLit:tlg0526."+w.cts+".perseus-grc2).";
  if(!navigator.clipboard?.writeText){feedback.textContent="Copie a referência: "+value;return;}
  navigator.clipboard.writeText(value).then(()=>feedback.textContent="Referência copiada.")
   .catch(()=>feedback.textContent="Copie a referência: "+value);
