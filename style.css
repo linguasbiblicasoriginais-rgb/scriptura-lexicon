@@ -2068,3 +2068,61 @@ tbody tr:last-child td {
     width:25px;
     height:25px;
 }
+
+
+/* Biblioteca bíblica — cartões editoriais por sigla e edição. */
+.site-section-cards--editions {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 235px), 1fr));
+    gap: 16px;
+}
+.site-section-card--edition {
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px 18px;
+    text-align: center;
+    transition: border-color .2s, background .2s, transform .2s;
+}
+.site-section-card--edition .edition-sigla {
+    display: block;
+    font-size: clamp(2.8rem, 4vw, 4.2rem);
+    line-height: 1;
+    font-weight: 700;
+    margin: 12px 0 17px;
+    color: var(--text-primary);
+    letter-spacing: -.035em;
+    overflow-wrap: anywhere;
+}
+.site-section-card--edition .edition-name {
+    display: block;
+    color: var(--text-primary);
+    font-size: .97rem;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.site-section-card--edition .edition-subtitle {
+    display: block;
+    color: var(--text-secondary);
+    font-size: .8rem;
+    line-height: 1.4;
+    margin-top: 4px;
+}
+.site-section-card--edition .edition-description {
+    align-self: stretch;
+    margin-top: auto;
+    padding-top: 24px;
+    text-align: left;
+    color: var(--text-secondary);
+    font-size: .76rem;
+    line-height: 1.4;
+}
+.site-section-card--edition:hover { transform: translateY(-3px); }
+.site-section-card--edition:focus-visible {
+    outline: 2px solid var(--accent-light);
+    outline-offset: 3px;
+}
+@media (max-width: 600px) {
+    .site-section-card--edition { min-height: 235px; }
+}
