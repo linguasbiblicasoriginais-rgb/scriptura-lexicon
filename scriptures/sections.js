@@ -17,7 +17,7 @@ const pages={
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
  patristica:["Literatura patrística","Área de organização dos escritos dos antigos autores cristãos. Ainda não há textos patrísticos publicados nesta seção."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
- josefo:["Obras de Flávio Josefo","Área destinada aos escritos de Flávio Josefo, historiador judeu do século I d.C. Ainda não há obras publicadas nesta seção."],
+ josefo:["Obras de Flávio Josefo","Antiguidades Judaicas: 20 livros, capítulos tradicionais e seções de Niese. Texto grego em incorporação."],
  filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -147,6 +147,7 @@ function card(name,desc,attrs){
 }
 function showHub(section){
  if(!pages[section])return false;
+ window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
  for(const node of main.children){
    if(node.classList.contains("header"))continue;
@@ -160,6 +161,7 @@ function showHub(section){
  cards.replaceChildren();
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
+ if(section==="josefo")card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","Flávio Josefo · 20 livros · 256 capítulos · texto grego conforme disponibilidade",{josefoWork:"antiguidades"});
  if(editions[section])for(const [code,name] of editions[section])
    editionCard(code,name,section);
  for(const button of document.querySelectorAll(".site-menu-item")){
@@ -171,6 +173,7 @@ function showHub(section){
  return true;
 }
 function showDictionary(){
+ window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
  for(const [node,wasHidden] of originalVisibility)node.hidden=wasHidden;
  hub.hidden=true;
@@ -183,7 +186,8 @@ function openSection(section){
  return true;
 }
 function handleHash(){
- if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
+ if(window.ScripturaJosephus?.isJosephusHash())return window.ScripturaJosephus.showFromHash();
+ if(window.ScripturaScriptures?.isScriptureHash()){window.ScripturaJosephus?.hide();return window.ScripturaScriptures.showFromHash();}
  const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|dicionarios|configuracoes)$/.exec(window.location.hash);
  if(m)return showHub(m[1]);
  if(!window.location.hash)return showHub("inicio");
@@ -192,6 +196,8 @@ function handleHash(){
 document.addEventListener("click",function(event){
  const section=event.target.closest("[data-site-section]");
  if(section){event.preventDefault();openSection(section.dataset.siteSection);return;}
+ const josefo=event.target.closest("[data-josefo-work]");
+ if(josefo?.dataset.josefoWork==="antiguidades"){event.preventDefault();window.ScripturaJosephus?.show(1,1,27,true);return;}
  const edition=event.target.closest("[data-site-edition]");
  if(edition){window.ScripturaScriptures?.show(edition.dataset.siteEdition,null,1,1,true,edition.dataset.siteEditionScope);}
 });
