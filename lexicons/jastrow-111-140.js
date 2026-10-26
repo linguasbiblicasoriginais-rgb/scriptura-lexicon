@@ -57,14 +57,16 @@ const entries=[
     "lemma": "אֶבְיוֹן",
     "type": "Adjetivo ou substantivo masculino",
     "gloss": "pobre; necessitado; aflito",
-    "html": "Pobre, pessoa necessitada ou em aflição. Levítico Rabá 34 propõe etimologia homilética: chama-se <bdi lang='he' dir='rtl'>אֶבְיוֹן</bdi> porque “anseia por tudo”; há variante <bdi lang='he' dir='rtl'>מתאוה</bdi>. Gênesis Rabá 71; Bava Metzia 111b. <strong>Complemento filológico:</strong> <strong>Etimologia homilética e testemunhos:</strong> Levítico Rabá §34 explica o nome «necessitado» por <bdi dir='rtl' lang='he'>שהוא מתאב לכל</bdi>, «porque deseja tudo»; Yalkut à mesma passagem registra <bdi dir='rtl' lang='he'>מתאוה</bdi>. Trata-se de jogo exegético sobre o verbo de desejar, não de uma derivação histórica comprovada. Outros testemunhos: Gênesis Rabá §71 e Bava Metzia 111b."
+    "html": "Pobre, pessoa necessitada ou em aflição. Levítico Rabá 34 propõe etimologia homilética: chama-se <bdi lang='he' dir='rtl'>אֶבְיוֹן</bdi> porque “anseia por tudo”; há variante <bdi lang='he' dir='rtl'>מתאוה</bdi>. Gênesis Rabá 71; Bava Metzia 111b. <strong>Complemento filológico:</strong> <strong>Etimologia homilética e testemunhos:</strong> Levítico Rabá §34 explica o nome «necessitado» por <bdi dir='rtl' lang='he'>שהוא מתאב לכל</bdi>, «porque deseja tudo»; Yalkut à mesma passagem registra <bdi dir='rtl' lang='he'>מתאוה</bdi>. Trata-se de jogo exegético sobre o verbo de desejar, não de uma derivação histórica comprovada. Outros testemunhos: Gênesis Rabá §71 e Bava Metzia 111b.",
+    "sourceXrefs": [{"rid":"A00083","text":"אבי)","resolution":"RID_INCONSISTENTE_NA_FONTE","href":null}]
   },
   {
     "sid": "A00118",
     "lemma": "אֲבִיּוֹנָה",
     "type": "Substantivo feminino",
     "gloss": "alcaparreira; alcaparra",
-    "html": "Designa a alcaparreira ou o fruto da alcaparra, ao qual Jastrow atribui efeitos estimulantes das sementes. Plural <bdi lang='he' dir='rtl'>אִבְיוֹנוֹת</bdi>. Maaserot 4.6 e outras passagens."
+    "html": "Designa a alcaparreira ou o fruto da alcaparra, ao qual Jastrow atribui efeitos estimulantes das sementes. Plural <bdi lang='he' dir='rtl'>אִבְיוֹנוֹת</bdi>. Maaserot 4.6 e outras passagens.",
+    "sourceXrefs": [{"rid":"A00083","text":"אבי)","resolution":"RID_INCONSISTENTE_NA_FONTE","href":null}]
   },
   {
     "sid": "A00119",

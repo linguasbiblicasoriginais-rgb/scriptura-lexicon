@@ -36,7 +36,8 @@ const entries=[
     "lemma": "אַבִּיר",
     "type": "Adjetivo ou substantivo masculino",
     "gloss": "forte; poderoso; eminente; nobre",
-    "html": "Do hebraico bíblico, forte, poderoso, distinto ou influente, em oposição a <bdi lang='he' dir='rtl'>קל</bdi>, “leve, sem influência”. Plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi>: nobres, poderosos. Rosh Hashaná 25b: “o mais nobre entre os nobres”; Jerusalém Rosh Hashaná 2, 58b: “os mais nobres do mundo”, com variantes nas fontes paralelas. <strong>Complemento filológico — lote 003:</strong> <strong>Aparato e antônimo:</strong> a forma plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi> contrasta com <bdi lang='he' dir='rtl'>קַל</bdi>, «leve», metaforicamente «sem influência». Jerusalém Rosh Hashaná 2, 58b, parte inferior, tem <bdi lang='he' dir='rtl'>אַבִּירֵי עולם</bdi>, enquanto o paralelo babilônico (Rosh Hashaná 25b) transmite <bdi lang='he' dir='rtl'>חֲמוּרֵי</bdi> e Eclesiastes Rabá a 1.4 lê <bdi lang='he' dir='rtl'>גדולי</bdi>. Ester Rabá a 2.4 requer confronto com o homógrafo <bdi lang='he' dir='rtl'>אֲבִירָם</bdi>; as variantes não são sentidos alternativos do mesmo adjetivo."
+    "html": "Do hebraico bíblico, forte, poderoso, distinto ou influente, em oposição a <bdi lang='he' dir='rtl'>קל</bdi>, “leve, sem influência”. Plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi>: nobres, poderosos. Rosh Hashaná 25b: “o mais nobre entre os nobres”; Jerusalém Rosh Hashaná 2, 58b: “os mais nobres do mundo”, com variantes nas fontes paralelas. <strong>Complemento filológico — lote 003:</strong> <strong>Aparato e antônimo:</strong> a forma plural <bdi lang='he' dir='rtl'>אַבִּירִים</bdi> contrasta com <bdi lang='he' dir='rtl'>קַל</bdi>, «leve», metaforicamente «sem influência». Jerusalém Rosh Hashaná 2, 58b, parte inferior, tem <bdi lang='he' dir='rtl'>אַבִּירֵי עולם</bdi>, enquanto o paralelo babilônico (Rosh Hashaná 25b) transmite <bdi lang='he' dir='rtl'>חֲמוּרֵי</bdi> e Eclesiastes Rabá a 1.4 lê <bdi lang='he' dir='rtl'>גדולי</bdi>. Ester Rabá a 2.4 requer confronto com o homógrafo <bdi lang='he' dir='rtl'>אֲבִירָם</bdi>; as variantes não são sentidos alternativos do mesmo adjetivo.",
+    "sourceXrefs": [{"rid":"A00083","text":"אבר)","resolution":"RID_INCONSISTENTE_NA_FONTE","href":null}]
   },
   {
     "sid": "A00145",
@@ -78,7 +79,8 @@ const entries=[
     "lemma": "אָבַךְ",
     "type": "Verbo",
     "gloss": "entrelaçar; misturar-se",
-    "html": "Raiz hebraica ligada a entrelaçamento. <strong>Hitpael:</strong> <bdi lang='he' dir='rtl'>הִתְאַבֵּךְ</bdi>, misturar-se ou enroscar-se, usado para colunas de fumaça que se revolvem. Pesikta Rabati 29–30. Jastrow compara <bdi lang='he' dir='rtl'>אבק</bdi> e <bdi lang='he' dir='rtl'>עב</bdi>."
+    "html": "Raiz hebraica ligada a entrelaçamento. <strong>Hitpael:</strong> <bdi lang='he' dir='rtl'>הִתְאַבֵּךְ</bdi>, misturar-se ou enroscar-se, usado para colunas de fumaça que se revolvem. Pesikta Rabati 29–30. Jastrow compara <bdi lang='he' dir='rtl'>אבק</bdi> e <bdi lang='he' dir='rtl'>עב</bdi>.",
+    "sourceXrefs": [{"rid":"unknown","text":"√אב","resolution":"RID_DESCONHECIDO_NA_FONTE","href":null},{"rid":"A00188","text":"cmp. אבק","resolution":"REMISSAO_XML_PRESERVADA_LINK_FUNCIONAL_PENDENTE","href":null},{"rid":"A00083","text":"עב)","resolution":"RID_INCONSISTENTE_NA_FONTE","href":null}]
   },
   {
     "sid": "A00151",
