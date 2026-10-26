@@ -17,7 +17,7 @@ const pages={
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
- josefo:["Obras de Flávio Josefo","Área destinada aos escritos de Flávio Josefo, historiador judeu do século I d.C. Ainda não há obras publicadas nesta seção."],
+ josefo:["Obras de Flávio Josefo","Antiguidades Judaicas: 20 livros, capítulos tradicionais e seções de Niese. Texto grego em incorporação."],
  filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -149,6 +149,7 @@ function showHub(section){
  if(!pages[section])return false;
  window.ScripturaPatristics?.hide();
  window.ScripturaPaedagogus?.hide();
+ window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
  for(const node of main.children){
    if(node.classList.contains("header"))continue;
@@ -166,6 +167,7 @@ function showHub(section){
   card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
   card("Pedagogo — Παιδαγωγός","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1905)",{patristicWork:"paedagogus"});
  }
+ if(section==="josefo")card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","Flávio Josefo · 20 livros · 256 capítulos · texto grego conforme disponibilidade",{josefoWork:"antiguidades"});
  if(editions[section])for(const [code,name] of editions[section])
    editionCard(code,name,section);
  for(const button of document.querySelectorAll(".site-menu-item")){
@@ -177,6 +179,7 @@ function showHub(section){
  return true;
 }
 function showDictionary(){
+ window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
  for(const [node,wasHidden] of originalVisibility)node.hidden=wasHidden;
  hub.hidden=true;
@@ -189,6 +192,8 @@ function openSection(section){
  return true;
 }
 function handleHash(){
+ if(window.ScripturaJosephus?.isJosephusHash())return window.ScripturaJosephus.showFromHash();
+ window.ScripturaJosephus?.hide();
  if(window.ScripturaPaedagogus?.isPaedagogusHash())return window.ScripturaPaedagogus.showFromHash();
  if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
@@ -203,6 +208,8 @@ document.addEventListener("click",function(event){
  const work=event.target.closest("[data-patristic-work]");
  if(work?.dataset.patristicWork==="stromata"){event.preventDefault();window.ScripturaPatristics?.show(1,1,1,1,true);return;}
  if(work?.dataset.patristicWork==="paedagogus"){event.preventDefault();window.ScripturaPaedagogus?.show(1,"1",null,1,true);return;}
+ const josefo=event.target.closest("[data-josefo-work]");
+ if(josefo?.dataset.josefoWork==="antiguidades"){event.preventDefault();window.ScripturaJosephus?.show(1,1,27,true);return;}
  const edition=event.target.closest("[data-site-edition]");
  if(edition){window.ScripturaScriptures?.show(edition.dataset.siteEdition,null,1,1,true,edition.dataset.siteEditionScope);}
 });
