@@ -1,0 +1,8 @@
+/* Vulgata Clementina (1598); eBible latVUC; SHA256 f5e4ea08acaa8bf10736df2677b27ce244ba7ef5016d98b10d3bb67b58bca86e; PSA 141 */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VUL ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"] ||= {};
+window.ScripturaScriptureTexts.VUL["PSA"][141]={"1":"Intellectus David, cum esset in spelunca, oratio.","2":"[Voce mea ad Dominum clamavi, voce mea ad Dominum deprecatus sum.","3":"Effundo in conspectu ejus orationem meam, et tribulationem meam ante ipsum pronuntio:","4":"in deficiendo ex me spiritum meum, et tu cognovisti semitas meas. In via hac qua ambulabam absconderunt laqueum mihi.","5":"Considerabam ad dexteram, et videbam, et non erat qui cognosceret me: periit fuga a me, et non est qui requirat animam meam.","6":"Clamavi ad te, Domine; dixi: Tu es spes mea, portio mea in terra viventium.","7":"Intende ad deprecationem meam, quia humiliatus sum nimis. Libera me a persequentibus me, quia confortati sunt super me.","8":"Educ de custodia animam meam ad confitendum nomini tuo; me exspectant justi donec retribuas mihi.]"};
+})();

@@ -1,5 +1,5 @@
 [build]
-  command = "node --max-old-space-size=4096 scripts/build-on-demand.mjs && node scripts/verify-lsj-index.mjs"
+  command = "node scripts/import-stromata.mjs && node scripts/import-paedagogus.mjs && node scripts/update-chapter-manifest.mjs && node --max-old-space-size=4096 scripts/build-on-demand.mjs && node scripts/verify-lsj-index.mjs"
   publish = "."
 
 [build.environment]

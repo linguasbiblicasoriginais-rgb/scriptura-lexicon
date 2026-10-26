@@ -1,0 +1,42 @@
+name: Incorporar Stromata grego (Perseus)
+on:
+  push:
+    branches:
+      - 'chat-gpt-patristicos/clemente-alexandria'
+    paths:
+      - 'patristics/reader.js'
+      - 'patristics/reader.css'
+      - 'scripts/import-stromata.mjs'
+      - '.github/workflows/import-stromata.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: stromata-clemente-alexandria
+  cancel-in-progress: false
+jobs:
+  integral:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-patristicos/clemente-alexandria
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar sintaxe da interface e do importador
+        run: |
+          node --check patristics/reader.js
+          node --check scripts/import-stromata.mjs
+      - name: Importar e verificar os oito livros (TEI-XML intacto)
+        run: node scripts/import-stromata.mjs
+      - name: Publicar fonte integral na branch dedicada
+        run: |
+          git add patristics/data/stromata.xml
+          if git diff --cached --quiet; then
+            echo "O arquivo original já está atualizado."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "data(patristica): incorporar Stromata integral TEI-XML de Perseus"
+          git push origin HEAD:refs/heads/chat-gpt-patristicos/clemente-alexandria

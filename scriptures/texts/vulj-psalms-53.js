@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 53. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][53]={"1":"in finem in carminibus intellectus David victori in psalmis eruditi David","2":"cum venissent Ziphei et dixissent ad Saul nonne David absconditus est apud nos quando venerunt Ziphei et dixerunt Saul nonne David absconditus est apud nos","3":"Deus in nomine tuo salvum me fac et in virtute tua iudica me Deus in nomine tuo salva me et in fortitudine tua ulciscere me","4":"Deus exaudi orationem meam auribus percipe verba oris mei Deus exaudi orationem meam auribus percipe verba oris mei","5":"quoniam alieni insurrexerunt adversum me et fortes quaesierunt animam meam non proposuerunt Deum ante conspectum suum diapsalma quia alieni insurrexerunt adversus me et fortes quaesierunt animam meam et non posuerunt Deum in conspectu suo semper","6":"ecce enim Deus adiuvat me Dominus susceptor animae meae ecce Deus auxiliatur mihi Dominus sustentans animam meam","7":"avertet mala inimicis meis in veritate tua disperde illos reddet malum insidiatoribus meis in veritate tua disperde eos","8":"voluntarie sacrificabo tibi confitebor nomini tuo Domine quoniam bonum voluntarie sacrificabo tibi confitebor nomini tuo Domine quoniam bonum est","9":"quoniam ex omni tribulatione eripuisti me et super inimicos meos despexit oculus meus quoniam ex omni tribulatione liberavit me et inimicos meos dispexit oculus meus"};
+})();

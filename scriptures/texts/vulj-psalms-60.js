@@ -1,0 +1,8 @@
+/* Latin Vulgate CrossWire v2.1 — tradição de Jerônimo; public domain. PSA 60. */
+(function(){
+'use strict';
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.VULJ ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"] ||= {};
+window.ScripturaScriptureTexts.VULJ["PSA"][60]={"1":"in finem in hymnis David victori in psalmis David","2":"exaudi Deus deprecationem meam intende orationi meae exaudi Deus laudationem meam intende orationi meae","3":"a finibus terrae ad te clamavi dum anxiaretur cor meum in petra exaltasti me deduxisti me de novissimo terrae ad te clamabo cum triste fuerit cor meum cum fortis elevabitur adversum me tu eris ductor meus","4":"quia factus es spes mea turris fortitudinis a facie inimici fuisti spes mea turris munitissima a facie inimici","5":"inhabitabo in tabernaculo tuo in saecula protegar in velamento alarum tuarum diapsalma habitabo in tabernaculo tuo iugiter sperabo in protectione alarum tuarum semper","6":"quoniam tu Deus meus exaudisti orationem meam dedisti hereditatem timentibus nomen tuum tu enim Deus exaudisti orationem meam dedisti hereditatem timentibus nomen tuum","7":"dies super dies regis adicies annos eius usque in diem generationis et generationis dies super dies regis adicies annos eius donec est generatio et generatio","8":"permanet in aeternum in conspectu Dei misericordiam et veritatem quis requiret eius sedebit semper ante faciem Dei misericordia et veritas servabunt eum","9":"sic psalmum dicam nomini tuo in saeculum saeculi ut reddam vota mea de die in diem sic canam nomini tuo iugiter reddens vota mea per singulos dies"};
+})();

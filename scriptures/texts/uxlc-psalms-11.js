@@ -1,0 +1,22 @@
+/* Unicode/XML Leningrad Codex UXLC 2.6; Psalms 11; 423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3 */
+(function(){
+'use strict';
+const verses={"1":"לַמְנַצֵּ֗חַ לְדָ֫וִ֥ד בַּֽיהוָ֨ה ׀ חָסִ֗יתִי אֵ֭יךְ תֹּאמְר֣וּ לְנַפְשִׁ֑י נ֝֗וּדִי הַרְכֶ֥ם צִפּֽוֹר׃","2":"כִּ֤י הִנֵּ֪ה הָרְשָׁעִ֡ים יִדְרְכ֬וּן קֶ֗שֶׁת כּוֹנְנ֣וּ חִצָּ֣ם עַל־יֶ֑תֶר לִיר֥וֹת בְּמוֹ־אֹ֝֗פֶל לְיִשְׁרֵי־לֵֽב׃","3":"כִּ֣י הַ֭שָּׁתוֹת יֵֽהָרֵס֑וּן צַ֝דִּ֗יק מַה־פָּעָֽל׃","4":"יְהוָ֤ה ׀ בְּֽהֵ֘יכַ֤ל קָדְשׁ֗וֹ יְהוָה֮ בַּשָּׁמַ֢יִם כִּ֫סְא֥וֹ עֵינָ֥יו יֶחֱז֑וּ עַפְעַפָּ֥יו יִ֝בְחֲנ֗וּ בְּנֵ֣י אָדָֽם׃","5":"יְהוָה֮ צַדִּ֢יק יִ֫בְחָ֥ן וְ֭רָשָׁע וְאֹהֵ֣ב חָמָ֑ס שָֽׂנְאָ֥ה נַפְשֽׁוֹ׃","6":"יַמְטֵ֥ר עַל־רְשָׁעִ֗ים פַּ֫חִ֥ים אֵ֣שׁ וְ֭גָפְרִית וְר֥וּחַ זִלְעָפ֗וֹת מְנָ֣ת כּוֹסָֽם׃","7":"כִּֽי־צַדִּ֣יק יְ֭הוָה צְדָק֣וֹת אָהֵ֑ב יָ֝שָׁ֗ר יֶחֱז֥וּ פָנֵֽימוֹ׃"};
+const types={};
+window.ScripturaScriptureTexts ||= {};
+window.ScripturaScriptureTexts.UXLC ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"] ||= {};
+window.ScripturaScriptureTexts.UXLC["PSA"][11]=verses;
+window.ScripturaScriptureParagraphBreaks ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParagraphBreaks.UXLC["PSA"][11]=[];
+window.ScripturaScriptureParashahTypes ||= {};
+window.ScripturaScriptureParashahTypes.UXLC ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"] ||= {};
+window.ScripturaScriptureParashahTypes.UXLC["PSA"][11]=types;
+window.ScripturaScriptureUXLCVariants ||= {};
+window.ScripturaScriptureUXLCVariants.UXLC ||= {};
+window.ScripturaScriptureUXLCVariants.UXLC["PSA"] ||= {};
+window.ScripturaScriptureUXLCVariants.UXLC["PSA"][11]={"1":[{"kind":"k","text":"נודו"},{"kind":"q","text":"נ֝֗וּדִי"}]};
+})();

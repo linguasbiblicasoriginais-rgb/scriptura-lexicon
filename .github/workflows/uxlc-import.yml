@@ -1,0 +1,72 @@
+name: UXLC — importar e publicar 39 livros após validação
+on:
+  push:
+    branches: [chat-gpt-escrituras]
+    paths: ['scripts/uxlc_import.py', '.github/workflows/uxlc-import.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: uxlc-import-locked
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar ZIP oficial fixado por checksum
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 \
+            'https://www.tanach.us/Books/Tanach.xml.zip' -o /tmp/Tanach.xml.zip
+          echo '423469bdcc4bfe36d7666f8e76fbd02c1674d77469093c06cee9779c0fba83e3  /tmp/Tanach.xml.zip' | sha256sum -c -
+      - name: Inspecionar estrutura do XML e validar sintaxe do importador
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/uxlc_import.py
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import PurePosixPath
+          from zipfile import ZipFile
+          from collections import Counter
+          with ZipFile("/tmp/Tanach.xml.zip") as z:
+              files = z.namelist()
+              print("Arquivos no pacote:", len(files), flush=True)
+              for name in ("Genesis","Kings 2","Chronicles 2"):
+                  key=name.replace(" ","_").casefold()
+                  matches = [p for p in files
+                             if PurePosixPath(p).stem.replace(" ","_").casefold()==key
+                             and p.lower().endswith(".xml")
+                             and not p.lower().endswith(".dh.xml")]
+                  if len(matches) != 1:
+                      raise RuntimeError("Arquivo esperado ausente/ambíguo: " + name +
+                                         "; encontrados=" + repr(matches))
+                  root = ET.fromstring(z.read(matches[0]))
+                  chapters = [e for e in root.iter()
+                              if e.tag.rsplit("}",1)[-1] == "c" and e.get("n","").isdigit()]
+                  verse = next((v for v in root.iter() if v.tag.rsplit("}",1)[-1]=="v"),None)
+                  child_tags = Counter(e.tag.rsplit("}", 1)[-1]
+                                       for c in chapters for v in c.iter()
+                                       if v.tag.rsplit("}",1)[-1]=="v"
+                                       for e in v)
+                  print(name, "arquivo:", matches[0],
+                        "capítulos:", len(chapters),
+                        "primeiro versículo:", verse.attrib if verse is not None else None,
+                        "tags filhas de versículos:", dict(child_tags), flush=True)
+          PY
+      - name: Importar de Gênesis a 2 Crônicas
+        run: python3 scripts/uxlc_import.py /tmp/Tanach.xml.zip
+      - name: Validar todo o texto importado
+        run: node tests/scripture-word-popups.test.cjs
+      - name: Publicar alterações somente após teste completo
+        run: |
+          set -euo pipefail
+          git config user.name 'Scriptura Lexicon UXLC'
+          git config user.email 'uxlc-import@users.noreply.github.com'
+          git add -- index.html scriptures/reader.js scriptures/word-popups.js \
+            scriptures/README.md scriptures/uxlc-progress.json \
+            scriptures/texts tests/scripture-word-popups.test.cjs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Escrituras: corpus UXLC 2.6 completo, 39 livros e 929 capítulos'
+          git push origin HEAD:chat-gpt-escrituras

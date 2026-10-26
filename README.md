@@ -13,6 +13,7 @@ O projeto está associado ao **GDHAGP — Grande Dicionário Hebraico–Aramaico
 - [Finalidade e objetivos](#finalidade-e-objetivos)
 - [Abrangência e conteúdo](#abrangência-e-conteúdo)
 - [Funcionalidades](#funcionalidades)
+- [Escrituras Sagradas](#escrituras-sagradas)
 - [Biblioteca de fontes lexicográficas](#biblioteca-de-fontes-lexicográficas)
   - [Grego](#fontes-gregas)
   - [Hebraico e aramaico](#fontes-hebraicas-e-aramaicas)
@@ -81,6 +82,48 @@ O acervo compreende, conforme os materiais efetivamente incorporados e seu está
 - **Ligações externas para textos e testemunhos**, quando a obra, a edição e a passagem de destino puderem ser verificadas.
 
 A existência de uma funcionalidade na aplicação não implica que **todos** os verbetes tenham recebido integralmente esse tratamento. A cobertura editorial deve ser comprovada por fonte e por artigo.
+
+## Escrituras Sagradas
+
+A interface inclui **Escrituras Sagradas** como categoria independente acima dos dicionários, com seis edições: **BHS, LXX, NA28, UBS5, TR e VUL**. O novo leitor organiza o catálogo por **edição → livro → capítulo → versículo**, preserva subdivisões hebraicas e variantes textuais da Septuaginta, permite copiar a referência e utiliza URLs específicas para acesso aos capítulos do portal editorial quando o mapeamento é conhecido.
+
+**Estado editorial:** este recurso disponibiliza **navegação e estrutura de dados**, não a transcrição integral das edições. O Texto Massorético tem a **BHS** como fonte canônica inicialmente escolhida. A republicação de texto depende de direitos de uso e cotejo da fonte; os limites de versículos ainda carecem de verificação específica. As edições textuais exatas do TR e da VUL permanecem pendentes de identificação.
+
+**Primeira incorporação textual:** Gênesis 1 (BHS), com **31 versículos** fornecidos pelo usuário e **seis marcações פ** de seção aberta. A transcrição está integrada ao leitor, mas o cotejo caractere a caractere com a edição impressa e a questão dos direitos de publicação ainda exigem verificação.
+
+**Segunda incorporação textual:** Gênesis 1 (LXX), com **31 versículos gregos** fornecidos pelo usuário, separados do texto hebraico. As quebras e os travessões editoriais estão documentados; o cotejo independente com a edição de referência continua pendente.
+
+**Terceira incorporação textual:** Mateus 1 (NA28), com **25 versículos gregos** fornecidos pelo usuário, preservados de modo independente das demais edições. As quebras internas de 1:6 e 1:23 estão registradas e a conferência contra a edição impressa continua pendente.
+
+**Quarta incorporação textual:** Mateus 1 (UBS5), com **25 versículos gregos** fornecidos pelo usuário, dois blocos de títulos e referências paralelas. Conservam-se as diferenças de pontuação, apóstrofos e maiúsculas em relação à transcrição anterior da NA28; cotejo impresso pendente.
+
+**Estrutura da Vulgata:** 78 entradas de navegação (39 no Antigo Testamento, 27 no Novo Testamento e 12 na seção de apócrifos informada). **Quinta incorporação textual:** Gênesis 1 (VUL), com **31 versículos latinos** fornecidos pelo usuário e integrados ao leitor na branch `chat-gpt-escrituras`, conservando as quebras internas. A confirmação da edição impressa permanece pendente.
+
+**Sexta incorporação textual:** Gênesis 2 (BHS), com **25 versículos hebraicos** enviados pelo usuário, preservando *niqqud*, acentos massoréticos e a marcação **פ** após o versículo 3. Registrado de modo independente de Gênesis 1; cotejo impresso pendente.
+
+**Popups lexicais por palavra:** os textos bíblicos incorporados contam com consulta interativa de cada palavra, transliteração mecânica para hebraico e grego e minidicionário editorial introdutório de **cobertura parcial**; palavras sem glosa validada são identificadas explicitamente. O texto canônico permanece inalterado, e não são atribuídos verbetes automaticamente aos léxicos de referência.
+
+**Sétima incorporação textual:** Gênesis 3–10 (BHS), **oito capítulos e 211 versículos** fornecidos pelo usuário, com *niqqud*, acentos de cantilação, caracteres originais e **26 sinais de parashah** (10 פ abertas e 16 ס fechadas) em metadados. Os dez primeiros capítulos de Gênesis na BHS somam agora **267 versículos**; popups por palavra e testes de regressão abrangem o novo lote. O cotejo independente com a edição impressa permanece pendente.
+
+**Oitava incorporação textual:** Gênesis 11–16 (BHS), **131 versículos**, com marcas de parashah registradas em metadados e os capítulos anteriormente pendentes 14 e 16 finalmente incorporados. Transcrição hebraica literal fornecida pelo usuário, sem cotejo impresso independente.
+
+**Nona incorporação textual:** Gênesis 17–20 (BHS), **116 versículos**, preservando pontuação, *niqqud*, cantilação e sinais especiais. Capítulo 17: 14 ס e 27 פ; Gênesis 18: sem marca informada; Gênesis 19: 38 ס; Gênesis 20: 18 ס. Arquivos integrados ao leitor e abrangidos pela suíte de testes de texto/popups/parashot. **Acumulado BHS Gênesis: 20/50 capítulos, 514 versículos**, sujeito a cotejo filológico e avaliação de direitos de distribuição.
+
+**Décima incorporação textual:** Gênesis 21–30 (BHS), **360 versículos**, em dez arquivos independentes com *niqqud*, *teʿamim*, grafia e pontuação hebraica, sem normalização ou emendas. Foram preservadas **12 marcas de parashah** (5 פ abertas, 7 ס fechadas) fora das cadeias versiculares. O leitor e o teste de regressão foram ampliados aos dez capítulos. **Acumulado BHS Gênesis: 30/50 capítulos (60%), 874 versículos**. Cotejo com a edição impressa, direitos de distribuição e ensaio visual permanecem pendentes.
+
+**Décima primeira incorporação textual:** Gênesis 41–50 (BHS), **337 versículos**, transcritos literalmente do material fornecido pelo usuário, com 14 marcas massoréticas de *parashah* (7 פ e 7 ס). Integrados ao leitor e ampliada a suíte de regressão. **Acumulado BHS Gênesis: 40/50 capítulos (80%), 1.211 versículos**; capítulos 31–40 ainda não incorporados, sem inferir continuidade. Publicação e cotejo editorial continuam pendentes.
+
+**Décima segunda incorporação textual:** Gênesis 31–40 (BHS), **322 versículos**, completando o intervalo que permanecia pendente. Preservadas 14 marcas de parashah, inclusive **פ dentro de Gênesis 35:22** com tratamento especial no leitor. **Acumulado BHS Gênesis: 50/50 capítulos (100%), 1.533 versículos**. O cotejo da edição impressa, a avaliação de direitos e a homologação editorial permanecem pendentes.
+
+**Décima terceira incorporação textual:** Êxodo 1–10 (BHS), **274 versículos** e **26 marcas de *parashah*** (18 פ e 8 ס), a partir da transcrição hebraica fornecida pelo usuário, sem normalização ou emendas. Incluídos os dez módulos de capítulos, seus links de carregamento, testes de contagem/segmentação/posições de *parashot* e documentação. **Acumulado: Gênesis 50/50 capítulos (1.533 versículos), Êxodo 10/40 (274), total BHS de 1.807 versículos.** Edição impressa, licença e homologação filológica permanecem pendentes.
+
+**Décima quarta incorporação textual:** Êxodo 11–20 (BHS), **271 versículos** e **40 marcas de *parashah*** (20 פ e 20 ס), integralmente reproduzidos da transcrição do usuário sem emenda, tradução ou normalização Unicode, inclusive os acentos múltiplos de Êxodo 20. Dez novos módulos, scripts de carregamento, registros de testes e documentação. **Acumulado: Gênesis 50/50 capítulos (1.533 versículos), Êxodo 20/40 (545), total BHS de 2.078 versículos.** A auditoria filológica, execução da suíte em Node.js e direitos de publicação continuam independentes.
+
+**Décima quinta incorporação textual:** Êxodo 21–30 (BHS), **343 versículos** e **58 marcas de *parashah*** (14 פ e 44 ס), reproduzidos literalmente do material do usuário sem normalização, emendas ou tradução. Incluídos dez módulos, carregamento no leitor, testes de contagens e posições de *parashot* e documentação. **Acumulado: Gênesis 50/50 (1.533 versículos); Êxodo 30/40 (888 versículos); total BHS de 2.421 versículos, distribuídos em 80 capítulos.** Cotejo filológico, execução da suíte Node.js e direitos de publicação são verificações independentes.
+
+**Décima sexta incorporação textual:** Êxodo 31–40 (BHS), **325 versículos** e **40 marcas de *parashah*** (18 פ e 22 ס), reproduzidos literalmente do material do usuário sem normalização, emendas ou tradução. Incluídos dez módulos, carregamento no leitor, testes de contagens e posições de *parashot* e documentação. **Êxodo está completo: 40/40 capítulos, 1.213 versículos.** **Acumulado BHS:** Gênesis 50/50 (1.533 versículos) e Êxodo 40/40 (1.213 versículos), **2.746 versículos em 90 capítulos**. Cotejo filológico, execução da suíte Node.js e direitos de publicação são verificações independentes.
+
+**Documentação técnica e editorial:** [Escrituras Sagradas — método, catálogo, limitações e fontes](scriptures/README.md).
 
 ## Biblioteca de fontes lexicográficas
 
@@ -342,3 +385,93 @@ As contribuições devem respeitar independência das fontes, atribuição bibli
 ---
 
 **Scriptura Lexicon** — a tradição lexicográfica preservada em suas diferenças, organizada para consulta e investigação em língua portuguesa.
+
+
+### LSJ — atualização documental de 20/10/2026 (ordinais 6001–7000)
+
+A branch `chat-gpt-lsj` recebeu 1.000 artigos adicionais no manifesto da interface (40 módulos de 25), vinculados ao TEI de `lexicons/lsj-source-batch-0007.xml`. Os lemas vão de **ἀμφικεύθω** a **ἀνακωχή**. Há 12 glosas portuguesas estritamente preliminares nos primeiros 12 artigos; as outras 988 entradas da rodada conservam indicação de tradução pendente. Os cartões preservam o TEI original e as remissões, sem se apresentarem como tradução integral. Total manifestado: 7.000 artigos; nenhuma tradução integral homologada. Último build comprovado anteriormente: 3.300 cartões; a verificação da nova compilação e do deploy público é independente e não foi presumida. Próximo lema: **ἀναλάζομαι** (ordinal 7.001).
+
+
+**Validação do LSJ (20/10/2026):** [GitHub Actions 39482289169](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39482289169) concluiu com sucesso a compilação e as verificações de índice e cartões: 7.000 artigos LSJ, 7.000 IDs únicos e zero colisões. Este resultado não comprova tradução integral nem publicação do site.
+
+
+### LSJ — continuação da incorporação (artigos 7.001–8.000, 20/10/2026)
+
+Na branch `chat-gpt-lsj` foi incorporado ao manifesto o lote documental `lexicons/lsj-source-batch-0008.xml`: 1.000 novos artigos, de **ἀναλάζομαι** a **ἀνδηρευτής**, em 40 módulos de 25 cartões. Foram redigidas 12 glosas portuguesas preliminares sem pretensão de tradução integral e conservado todo o TEI original. O acumulado na interface passou a **8.000 artigos LSJ / cerca de 116.854 artigos estimados**; a cifra de referência é provisória. Não confundir 8.000 cartões com 8.000 traduções. A verificação de build, CI, homologação editorial e deploy público deve ser relatada separadamente. Próximo artigo: **ἄνδηρον**, ordinal 8.001.
+
+
+**Verificação técnica LSJ (20/10/2026):** [workflow 39483789192](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39483789192) concluiu com êxito a compilação de 8.000 cartões/linhas de busca LSJ, identificadores únicos e ausência de colisões. Tradução integral e publicação pública permanecem independentes dessa validação.
+
+
+### LSJ — incorporação documental 8.001–9.000 (20/10/2026)
+
+Foram adicionados na branch `chat-gpt-lsj` 1.000 artigos da primeira metade de `lexicons/lsj-source-batch-0009.xml`, do lema **ἄνδηρον** ao lema **ἀνθρωπεύομαι**, em 40 módulos de consulta. Foram redigidas 12 glosas provisórias, sem declaração de tradução integral; os demais conservam marcação explícita de tradução pendente. Os dados TEI originais são preservados nos cartões. A incorporação no manifesto alcançou **9.000 / 116.854 artigos estimados**; revisão filológica independente e publicação pública devem ser verificadas separadamente. Próximo artigo: **ἀνθρωπήϊος** (ordinal 9.001).
+
+
+**Validação CI do LSJ em 20/10/2026:** o [workflow 39487850719](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39487850719) confirmou 9.000 cartões LSJ, 9.000 linhas de busca, 9.000 identificadores únicos e nenhuma colisão. Publicação pública, revisão filológica integral e traduções completas não foram comprovadas.
+
+
+### LSJ — lote 9.001–10.000 (21/10/2026)
+
+Incorporados à branch `chat-gpt-lsj` mais 1.000 artigos tipográficos da segunda metade de `lexicons/lsj-source-batch-0009.xml`, de **ἀνθρωπήϊος** a **ἀντιδαπανάω**, em 40 módulos JS com 25 artigos, cada um com índice de busca e TEI original integral. Há 17 glosas em português de caráter preliminar; os outros 983 continuam com tradução pendente, sem atribuir ao LSJ sentidos que não tenham sido conferidos. Total manifestado: **10.000 / 116854 artigos estimados**. O número total é provisório e não corresponde a traduções integrais. Próximo artigo: **ἀντίδειξις**, ordinal 10.001. A compilação e a publicação do site devem ser verificadas separadamente.
+
+
+**LSJ — compilação confirmada (21/10/2026):** o [workflow GitHub Actions 39542906688](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39542906688) validou 10.000 artigos LSJ, 10.000 linhas de pesquisa, 10.000 cartões, IDs únicos e nenhuma colisão no catálogo. Essa validação não equivale a revisão filológica integral, tradução integral ou publicação pública.
+
+
+### LSJ — lote 10.001–11.000 (21/10/2026)
+
+A branch `chat-gpt-lsj` incorpora 1.000 artigos adicionais do arquivo TEI `lexicons/lsj-source-batch-0010.xml`, desde **ἀντίδειξις** até **ἀνυπέρθετος**, em 40 módulos de 25. Preservados integralmente os 1.000 textos TEI; 20 glosas portuguesas são preliminares, e os demais artigos mantêm indicação expressa de tradução pendente. Total registrado no manifesto: **11.000 / 116.854 artigos LSJ (estimativa provisória)**. A contagem não representa tradução integral. Próximo: **ἀνυπέροχος**, ordinal 11.001.
+
+
+### LSJ — lote 11.001–12.000 (21/10/2026)
+
+A segunda metade de `lexicons/lsj-source-batch-0010.xml` foi incorporada em 40 módulos JS (25 artigos cada), de **ἀνυπέροχος** a **ἀπενέπω**, com os 1.000 textos TEI preservados integralmente e 18 glosas de caráter preliminar. Total manifestado: **12.000 / 116.854 artigos estimados**. Os registros documentais não equivalem a traduções integrais revisadas. Próximo artigo: **ἀπενθής**, ordinal 12.001.
+
+
+### LSJ — lote 12.001–13.000 (21/10/2026)
+
+Foram preparados **1.000 cartões documentais adicionais** na branch `chat-gpt-lsj`, em 40 módulos de 25 artigos, do lema **ἀπενθής** ao lema **ἀπόκλειστος**, usando a primeira metade de `lexicons/lsj-source-batch-0011.xml`. Os 1.000 registros conservam o TEI integral e estão identificados para pesquisa. **Não há tradução portuguesa completa desses 1.000 artigos**: são registros documentais com a tradução pendente, não entregas lexicográficas homologadas. Total: **13.000 / 116.854 cartões manifestados (estimativa provisória)**; próxima entrada: **ἀποκλείω**, ordinal 13.001. A compilação, a colação filológica e o deploy público exigem comprovação independente.
+
+
+**LSJ — compilação do lote 12.001–13.000 confirmada (21/10/2026):** o [workflow 39620632838](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39620632838) passou no commit `1172a4ebee1fc3c5fbdd696751de51878674f315`. Confirmados 13.000 cartões, 13.000 linhas de pesquisa, 13.000 IDs distintos e zero colisões no catálogo compilado. Traduções portuguesas integrais homologadas: **0**; deploy público: **não verificado**.
+
+
+### LSJ — lote 13.001–14.000 (21/10/2026)
+
+Foram incorporados à branch `chat-gpt-lsj` **1.000 cartões documentais adicionais**, do lema **ἀποκλείω** ao lema **ἀποστεφανόω**, em 40 módulos de 25 artigos, pela ordem real dos `div2` da segunda metade de `lexicons/lsj-source-batch-0011.xml`. Os 1.000 textos TEI integrais foram preservados sem substituição semântica. Todos os novos registros estão marcados **“Tradução portuguesa pendente”**: não constituem traduções portuguesas homologadas. Total manifestado: **14.000 / 116.854 artigos estimados (provisório)**; camada Fonte separada: 23.000 artigos. Próximo: **ἀποστηθίζω** (n13851), ordinal 14.001. CI/build e publicação em produção devem ser verificados separadamente.
+
+
+**LSJ — compilação do lote 13.001–14.000 aprovada (21/10/2026):** [GitHub Actions 39668179451](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39668179451), commit `c1f46d0d0bc5f7a7fa8215e91431aa3d9428267f`, confirmou 14.000 linhas de pesquisa, 14.000 cartões, 14.000 IDs exclusivos e zero colisões. Esta validação é técnica, não uma homologação filológica; tradução integral em português permanece pendente, e deploy público não foi verificado.
+
+
+### LSJ — lote 14.001–15.000 (21/10/2026)
+
+Incorporados **1.000 artigos documentais** em 40 módulos de 25, desde **ἀποστηθίζω** (n13851) até **ἀργυρόεις** (n14847), pelos primeiros 1.000 `div2` de `lexicons/lsj-source-batch-0012.xml`. Texto TEI original integral preservado e verificado na ida e volta HTML. Os novos cartões assinalam **“Tradução portuguesa pendente”**: não são 1.000 artigos integralmente traduzidos. Acumulado: **15.000 / 116.854 cartões estimados (denominador provisório)**; fonte documental distinta: 23.000 artigos. Próximo: **ἀργυρόηλος** (n14848), ordinal 15.001. A aprovação da CI e eventual deploy exigem comprovação independente.
+
+
+**LSJ — validação técnica de 15.000 artigos confirmada (21/10/2026):** [workflow GitHub Actions 39673142181](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39673142181) concluiu `success` no commit `79fb2829d34402352abec5b01d5c32bcfd145bc1`, com **15.000 linhas de pesquisa, 15.000 cartões, 15.000 IDs únicos e zero colisões**. Permanecem independentes e pendentes a tradução portuguesa integral, a revisão filológica do impresso e o deploy público; não apresentar registros documentais como traduções homologadas.
+
+
+### LSJ — lote 15.001–16.000 (21/10/2026)
+
+A branch `chat-gpt-lsj` contém **1.000 novos artigos documentais** em 40 módulos JavaScript de 25, de **ἀργυρόηλος** (n14848) até **ἀρχαιοφανής** (n15846), extraídos da segunda metade do XML `lexicons/lsj-source-batch-0012.xml`. O TEI foi preservado na íntegra nos cartões e a ida/volta HTML foi verificada. **A tradução portuguesa dos 1.000 artigos está pendente; nenhum deles é apresentado como tradução integral homologada.** Total manifestado: **16.000 de 116.854 artigos estimados** (denominador provisório); camada Fonte separada: 23.000 artigos. Próximo artigo: **ἀρχαιόομαι** (n15847), ordinal 16.001, arquivo `lsj-source-batch-0013.xml`. A compilação e a publicação pública exigem verificação independente.
+
+
+**LSJ — compilação dos 16.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39677152379](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39677152379) terminou em `success` no commit `eee79fb0c9096cf4e5d9e3fd7fb9dc30163df0da`: **16.000 linhas de pesquisa, 16.000 cartões, 16.000 IDs exclusivos e zero colisões**. Isto confirma a compilação documental e estrutural, **não a tradução portuguesa integral**, a colação da edição impressa nem o deploy público.
+
+
+### LSJ — lote 16.001–17.000 (2026-10-21)
+
+Incorporados **1.000 artigos documentais** ao frontend em 40 módulos de 25, de **ἀρχαιόομαι** (n15847) a **ἀσυντρόχαστος** (n16844). Fonte canônica: `lexicons/lsj-source-batch-0013.xml`, com a sequência real dos 1.000 elementos `div2`. O TEI foi preservado integralmente e confrontado por ida/volta HTML. **Os 1.000 cartões permanecem com tradução portuguesa pendente**, sem homologação filológica integral. Total manifestado: **17.000 / 116.854 artigos estimados**; camada Fonte independente: 23.000 registros. Próximo ordinal 17.001: **ἀσυνύπαρκτος** (n16845), fonte `lsj-source-batch-0014.xml`. A validação da compilação e o deploy exigem confirmação separada.
+
+
+**LSJ — compilação dos 17.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39678067697](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39678067697) terminou em `success` no commit `5509504b2448a63942f0018b5bffbd36dd30d1e2`, conferindo **17.000 linhas de pesquisa, 17.000 cartões, 17.000 IDs exclusivos e zero colisões**. O resultado não comprova tradução portuguesa integral, colação filológica da edição impressa nem deploy público.
+
+
+### LSJ — lote 17.001–18.000 (21/10/2026)
+
+Incorporados **1.000 novos artigos documentais** da fonte `lexicons/lsj-source-batch-0014.xml`, de **ἀσυνύπαρκτος** (n16845) a **αὐτοξενεῖν** (n17839), em 40 módulos de 25 artigos. O texto TEI integral foi conservado e confrontado por ida/volta HTML; 1.000 identificadores e ordinais distintos. **Todos os novos artigos têm tradução portuguesa pendente**, não sendo verbetes integralmente traduzidos ou homologados. Total manifestado: **18.000 / 116.854 artigos estimados** (denominador provisório); a camada documental Fonte mantém 23.000 entradas separadas. Próximo: **αὐτόξεστος** (n17840), ordinal 18.001, fonte `lsj-source-batch-0015.xml`. CI, colação filológica e deploy público deverão ser verificados separadamente.
+
+
+**LSJ — compilação de 18.000 artigos validada (21/10/2026):** o [workflow GitHub Actions 39681834256](https://github.com/linguasbiblicasoriginais-rgb/scriptura-lexicon/actions/runs/39681834256) concluiu em `success` no commit `b4388c80850839789b07d23f4a51198b56cf54ae`, com **18.000 linhas de pesquisa, 18.000 cartões, 18.000 IDs exclusivos e zero colisões**. Verificação técnica, não comprovação de tradução portuguesa integral, cotejo independente do impresso ou deploy público.

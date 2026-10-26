@@ -1648,6 +1648,8 @@ function returnToResults() {
 
 
 function selectDictionary(dictionary, options) {
+    window.ScripturaSections?.showDictionary();
+    window.ScripturaScriptures?.hide();
     const settings =
         Object.assign(
             {
@@ -2537,6 +2539,7 @@ window.addEventListener(
 window.addEventListener(
     "hashchange",
     function () {
+        if (window.ScripturaSections?.handleHash()) return;
         selectDictionary(
             dictionaryFromHash(),
             {
@@ -2608,10 +2611,14 @@ entryCards.forEach(function (card) {
 sourceCombobox.hidden = false;
 sourceFilterBox.classList.add("is-enhanced");
 
-selectDictionary(
-    dictionaryFromHash(),
-    {
-        updateHash: true,
-        focusSearch: false
-    }
-);
+if (window.ScripturaSections?.handleHash()) {
+    // A página inicial mostra somente as seis áreas principais.
+} else {
+    selectDictionary(
+        dictionaryFromHash(),
+        {
+            updateHash: true,
+            focusSearch: false
+        }
+    );
+}
