@@ -2240,3 +2240,42 @@ tbody tr:last-child td {
     width:25px;
     height:25px;
 }
+
+/* Autores gregos — identidade clássica e pesquisa hierárquica por obra. */
+.site-greek-authors-icon,
+.site-section-card--greek-authors strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask:url("imagens/icones/autores-gregos.svg") center / contain no-repeat;
+    mask:url("imagens/icones/autores-gregos.svg") center / contain no-repeat;
+}
+.site-section-card--greek-authors strong {display:flex;align-items:center;gap:10px}
+.site-section-card--greek-authors strong::before {content:"";width:25px;height:25px}
+#site-greek-authors-content[hidden]{display:none!important}
+.greek-authors-panel h2{font-size:1.12rem;line-height:1.35;margin:0 0 8px;color:var(--text-primary)}
+.greek-authors-intro{color:var(--text-secondary);font-size:.88rem;line-height:1.55;margin:0 0 22px}
+.greek-authors-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:end}
+.greek-authors-field{display:grid;gap:6px;min-width:0}
+.greek-authors-field label{font-size:.83rem;font-weight:700;color:var(--text-primary)}
+.greek-authors-field select,.greek-authors-field input{
+    width:100%;min-height:42px;border:1px solid var(--border);border-radius:9px;
+    background:var(--surface-2);color:var(--text-primary);font:inherit;
+    padding:8px 10px;box-sizing:border-box;
+}
+.greek-authors-field select:focus-visible,.greek-authors-field input:focus-visible,
+.greek-authors-actions button:focus-visible{outline:2px solid var(--accent-light);outline-offset:2px}
+.greek-authors-field select:disabled,.greek-authors-field input:disabled{opacity:.65;cursor:not-allowed}
+.greek-authors-reference-fields{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.greek-authors-actions{grid-column:1/-1}
+.greek-authors-actions button{background:var(--accent-dark);color:white;border:0;border-radius:9px;min-height:42px;padding:9px 18px;font:inherit;font-weight:700;cursor:pointer}
+.greek-authors-actions button:disabled{opacity:.5;cursor:not-allowed}
+.greek-authors-status{margin:17px 0 0;color:var(--text-secondary);font-size:.86rem;line-height:1.5}
+.greek-authors-results{margin-top:18px;display:grid;gap:12px}
+.greek-authors-result{border:1px solid var(--border);border-radius:10px;background:var(--surface-2);padding:15px}
+.greek-authors-result strong{display:block;color:var(--text-primary);margin-bottom:8px}
+.greek-authors-result p{margin:7px 0 0;line-height:1.6;white-space:pre-wrap;color:var(--text-primary)}
+.greek-authors-result .greek-authors-translation{font-size:.91rem;color:var(--text-secondary)}
+@media(max-width:600px){.greek-authors-form,.greek-authors-reference-fields{grid-template-columns:minmax(0,1fr)}}
