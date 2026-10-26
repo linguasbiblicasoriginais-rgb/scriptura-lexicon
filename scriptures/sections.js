@@ -10,6 +10,7 @@ const cards=document.getElementById("site-section-cards");
 const back=hub.querySelector(".site-back-link");
 const dictionaryOptions=document.getElementById("site-dictionary-options");
 const settings=document.getElementById("site-settings-content");
+const greekAuthors=document.getElementById("site-greek-authors-content");
 const originalVisibility=new Map(Array.from(main.children).map(node=>[node,node.hidden]));
 const pages={
  inicio:["Biblioteca Scriptura Lexicon","Escrituras, tradições textuais e instrumentos de pesquisa filológica, organizados em áreas independentes."],
@@ -17,8 +18,7 @@ const pages={
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
  patristica:["Literatura patrística","Área de organização dos escritos dos antigos autores cristãos. Ainda não há textos patrísticos publicados nesta seção."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
- josefo:["Obras de Flávio Josefo","Área destinada aos escritos de Flávio Josefo, historiador judeu do século I d.C. Ainda não há obras publicadas nesta seção."],
- filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
+ "autores-gregos":["Autores gregos","Obras de autores que escreveram em grego, incluindo Fílon, Flávio Josefo e futuros autores clássicos. A pesquisa segue a estrutura própria de cada obra."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
 };
@@ -27,8 +27,7 @@ const categories=[
  ["patristica","Literatura patrística","Espaço reservado às fontes patrísticas."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
- ["josefo","Obras de Flávio Josefo","Escritos históricos de Flávio Josefo."],
- ["filon","Obras de Fílon de Alexandria","Escritos filosóficos e exegéticos de Fílon de Alexandria."],
+ ["autores-gregos","Autores gregos","Fílon, Josefo e outros autores de língua grega."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -141,7 +140,7 @@ function card(name,desc,attrs){
  if(attrs.siteSection==="escrituras")button.classList.add("site-section-card--scriptures");
  if(attrs.siteSection==="patristica")button.classList.add("site-section-card--patristic");
  if(attrs.siteSection==="configuracoes")button.classList.add("site-section-card--settings");
- if(attrs.siteSection==="josefo")button.classList.add("site-section-card--josephus");
+ if(attrs.siteSection==="autores-gregos")button.classList.add("site-section-card--greek-authors");
  const heading=document.createElement("strong");heading.textContent=name;
  const info=document.createElement("span");info.textContent=desc;
  button.append(heading,info);
@@ -160,6 +159,7 @@ function showHub(section){
  back.hidden=section==="inicio";
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
+ if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos";
  cards.replaceChildren();
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
@@ -187,7 +187,13 @@ function openSection(section){
 }
 function handleHash(){
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
- const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|dicionarios|configuracoes)$/.exec(window.location.hash);
+ // Compatibilidade com os antigos endereços das páginas de Josefo e Fílon.
+ if(window.location.hash==="#josefo"||window.location.hash==="#filon"){
+   window.ScripturaGreekAuthors?.selectAuthor(window.location.hash==="#josefo"?"josefo":"filon");
+   history.replaceState(null,"","#autores-gregos");
+   return showHub("autores-gregos");
+ }
+ const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|autores-gregos|dicionarios|configuracoes)$/.exec(window.location.hash);
  if(m)return showHub(m[1]);
  if(!window.location.hash)return showHub("inicio");
  return false;
