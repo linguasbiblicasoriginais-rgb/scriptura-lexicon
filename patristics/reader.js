@@ -216,6 +216,14 @@ function renderCurrent() {
       first.prepend(mark);
     }
   }
+  // Mesma indicação da linha selecionada usada nos versículos bíblicos.
+  // O realce pertence à subseção renderizada, nunca ao XML-fonte.
+  const activeMark=content.querySelector("#stromata-subsection-"+sub);
+  const activeParagraph=activeMark?.closest("p");
+  if(activeParagraph){
+    activeParagraph.classList.add("patristic-subsection-selected");
+    activeParagraph.setAttribute("aria-current","location");
+  }
   reference.textContent="Stromata "+roman(b)+", "+c+"."+s+(sub>1?"."+sub:"");
   el("stromata-perseus").href="https://beta.perseus.tufts.edu/"+SOURCE_CTS+"/section:"+b+"."+c+"."+s+"/";
   const flat=allSections();
@@ -224,7 +232,7 @@ function renderCurrent() {
   next.disabled=offset<0||offset===flat.length-1;
   status.textContent=externalSource?"Texto integral carregado diretamente da Perseus (cópia local indisponível).":"Texto integral carregado do acervo Scriptura Lexicon.";
   if(sub>1) {
-    root.querySelector("#stromata-subsection-"+sub)?.scrollIntoView({block:"center",behavior:"smooth"});
+    activeParagraph?.scrollIntoView({block:"center",behavior:"smooth"});
   }
 }
 function allSections() {

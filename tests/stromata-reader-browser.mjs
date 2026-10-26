@@ -28,10 +28,19 @@ async function verifyReady(context) {
     text:document.querySelector("#stromata-text").textContent,
     reference:document.querySelector("#stromata-reference").textContent,
     articleAlign:getComputedStyle(document.querySelector(".patristic-text")).textAlign,
-    paragraphAlign:getComputedStyle(document.querySelector(".patristic-text p")).textAlign
+    paragraphAlign:getComputedStyle(document.querySelector(".patristic-text p")).textAlign,
+    active: Array.from(document.querySelectorAll("#stromata-text p.patristic-subsection-selected")).map(p=>({
+      number:p.querySelector(".patristic-submark")?.textContent.trim(),
+      aria:p.getAttribute("aria-current"),
+      background:getComputedStyle(p).backgroundColor
+    }))
   }));
   assert.equal(snapshot.articleAlign,"justify","Todos os textos patrísticos devem ser justificados");
   assert.equal(snapshot.paragraphAlign,"justify","Os parágrafos patrísticos devem ser justificados");
+  assert.equal(snapshot.active.length,1,"Uma única subseção deve permanecer realçada");
+  assert.equal(snapshot.active[0].number,"1","A primeira subseção deve começar selecionada");
+  assert.equal(snapshot.active[0].aria,"location","O realce deve indicar a localização acessível");
+  assert.notEqual(snapshot.active[0].background,"rgba(0, 0, 0, 0)","Subseção escolhida deve ter fundo visível");
   assert.equal(snapshot.bookOptions,8,"Oito livros devem ser selecionáveis");
   assert.ok(snapshot.chapterOptions>0,"Capítulos disponíveis");
   assert.ok(snapshot.sectionOptions>0,"Seções disponíveis");
@@ -69,6 +78,24 @@ try {
     await page.selectOption("#stromata-subsection","2");
     await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.endsWith(".2"),null,{timeout:5000});
     assert.ok(await page.locator("#stromata-subsection-2").isVisible(),"O seletor deve localizar a subseção 2 no texto");
+    const active=await page.evaluate(()=>{
+      const rows=Array.from(document.querySelectorAll("#stromata-text p"));
+      const chosen=rows.filter(p=>p.classList.contains("patristic-subsection-selected"));
+      return {
+        count:chosen.length,
+        number:chosen[0]?.querySelector(".patristic-submark")?.textContent.trim(),
+        aria:chosen[0]?.getAttribute("aria-current"),
+        background:chosen[0]?getComputedStyle(chosen[0]).backgroundColor:null,
+        otherBackground:rows.find(p=>p!==chosen[0])?getComputedStyle(rows.find(p=>p!==chosen[0])).backgroundColor:null,
+        text:document.querySelector("#stromata-text")?.textContent
+      };
+    });
+    assert.equal(active.count,1,"Somente a subseção 2 deve ficar destacada");
+    assert.equal(active.number,"2","O realce deve acompanhar o seletor");
+    assert.equal(active.aria,"location","A subseção 2 deve indicar localização atual");
+    assert.notEqual(active.background,active.otherBackground,"Realce visual deve diferir dos parágrafos vizinhos");
+    assert.match(active.text,/[\u0370-\u03ff\u1f00-\u1fff]/,"Texto grego deve permanecer após a seleção");
+    console.log("Realce da subseção selecionada OK",active.number);
     testedSplit=true;
     console.log("Subseções em linhas individuais OK",split);
     break;
