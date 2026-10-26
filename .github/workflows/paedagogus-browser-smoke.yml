@@ -1,0 +1,38 @@
+name: Testar leitor do Pedagogo
+on:
+  push:
+    branches: ['chat-gpt-patristicos/clemente-alexandria']
+    paths:
+      - 'patristics/paedagogus-reader.js'
+      - 'patristics/reader.css'
+      - 'patristics/data/paedagogus.xml'
+      - 'tests/paedagogus-reader-browser.mjs'
+      - '.github/workflows/paedagogus-browser-smoke.yml'
+      - 'scriptures/sections.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Conferir fontes gregas sem alterar XML
+        run: |
+          node scripts/import-paedagogus.mjs
+          node scripts/import-stromata.mjs
+          node --check patristics/paedagogus-reader.js
+          node --check tests/paedagogus-reader-browser.mjs
+      - name: Instalar navegador
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Servir repositório estático
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/paedagogus.log 2>&1 &
+      - name: Conferir navegação real com Chromium
+        run: node tests/paedagogus-reader-browser.mjs

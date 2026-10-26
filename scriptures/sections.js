@@ -24,7 +24,7 @@ const pages={
 };
 const categories=[
  ["escrituras","Escrituras Sagradas","Textos bíblicos organizados por edição e referência."],
- ["patristica","Literatura patrística","Stromata, de Clemente de Alexandria, em grego."],
+ ["patristica","Literatura patrística","Stromata e Pedagogo, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
  ["josefo","Obras de Flávio Josefo","Escritos históricos de Flávio Josefo."],
@@ -66,6 +66,7 @@ function card(name,desc,attrs){
 function showHub(section){
  if(!pages[section])return false;
  window.ScripturaPatristics?.hide();
+ window.ScripturaPaedagogus?.hide();
  window.ScripturaScriptures?.hide();
  for(const node of main.children){
    if(node.classList.contains("header"))continue;
@@ -78,7 +79,10 @@ function showHub(section){
  settings.hidden=section!=="configuracoes";
  cards.replaceChildren();
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
- if(section==="patristica")card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
+ if(section==="patristica"){
+  card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
+  card("Pedagogo — Παιδαγωγός","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1905)",{patristicWork:"paedagogus"});
+ }
  if(editions[section])for(const [code,name] of editions[section])
    card(name,section==="apocrifos"?"Consultar os livros apócrifos e os acréscimos disponíveis":"Consultar o texto desta edição",{siteEdition:code,siteEditionScope:section});
  for(const button of document.querySelectorAll(".site-menu-item")){
@@ -102,6 +106,7 @@ function openSection(section){
  return true;
 }
 function handleHash(){
+ if(window.ScripturaPaedagogus?.isPaedagogusHash())return window.ScripturaPaedagogus.showFromHash();
  if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
  const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|dicionarios|configuracoes)$/.exec(window.location.hash);
@@ -114,6 +119,7 @@ document.addEventListener("click",function(event){
  if(section){event.preventDefault();openSection(section.dataset.siteSection);return;}
  const work=event.target.closest("[data-patristic-work]");
  if(work?.dataset.patristicWork==="stromata"){event.preventDefault();window.ScripturaPatristics?.show(1,1,1,1,true);return;}
+ if(work?.dataset.patristicWork==="paedagogus"){event.preventDefault();window.ScripturaPaedagogus?.show(1,"1",null,1,true);return;}
  const edition=event.target.closest("[data-site-edition]");
  if(edition){window.ScripturaScriptures?.show(edition.dataset.siteEdition,null,1,1,true,edition.dataset.siteEditionScope);}
 });
