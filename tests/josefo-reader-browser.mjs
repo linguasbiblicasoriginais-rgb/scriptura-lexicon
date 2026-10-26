@@ -29,7 +29,7 @@ async function selected(page,selector,section){
  assert.ok(parseInt(style.border)>0);
 }
 try{
- const context=await browser.newContext({viewport:{width:1280,height:900}});
+ const context=await browser.newContext({viewport:{width:1280,height:900},permissions:["clipboard-read","clipboard-write"]});
  const page=await context.newPage();page.on("pageerror",e=>errors.push(e.message));
  await page.goto(base+"/#josefo",{waitUntil:"domcontentloaded"});
  const cards=page.locator('[data-josefo-work]');
@@ -49,6 +49,8 @@ try{
  assert.equal(await page.locator("#josefo-section").inputValue(),"28");
  const refAnt=await page.locator("#josefo-reference").textContent();
  assert.match(refAnt,/Ant\. 1\.28/);
+ await page.locator("#josefo-copy").click();
+ assert.match(await page.evaluate(()=>navigator.clipboard.readText()),/Ant\. 1\.28/,"Antiquities citation copied into clipboard");
  await page.reload({waitUntil:"domcontentloaded"});
  await ready(page,"antiguidades");await selected(page,"#josefo-text",28);
  await page.goto(base+"/#josefo/antiguidades/1/22",{waitUntil:"domcontentloaded"});
@@ -70,6 +72,8 @@ try{
  assert.match(page.url(),/#josefo\/guerra\/1\/1\/32$/);
  assert.equal(await page.locator("#josefo-historia-section").inputValue(),"32");
  assert.match(await page.locator("#josefo-historia-reference").textContent(),/Bell\. 1\.32/);
+ await page.locator("#josefo-historia-copy").click();
+ assert.match(await page.evaluate(()=>navigator.clipboard.readText()),/Bell\. 1\.32/,"War citation copied into clipboard");
  await page.reload({waitUntil:"domcontentloaded"});
  await ready(page,"guerra");await selected(page,"#josefo-historia-text",32);
  await page.goto(base+"/#josefo/historia/guerra/1/0/1",{waitUntil:"domcontentloaded"});
@@ -90,7 +94,11 @@ try{
  await ready(phone,"guerra");await selected(phone,"#josefo-historia-text",455);
  assert.equal(await phone.locator("#josefo-historia-book").inputValue(),"7");
  assert.equal(await phone.locator("#josefo-historia-chapter").inputValue(),"11");
+ await phone.goto(base+"/#josefo/antiguidades/20/12/268",{waitUntil:"domcontentloaded"});
+ await ready(phone,"antiguidades");await selected(phone,"#josefo-text",268);
+ assert.equal(await phone.locator("#josefo-book").inputValue(),"20");
+ assert.equal(await phone.locator("#josefo-chapter").inputValue(),"12");
  await mobile.close();
  assert.deepEqual(errors,[],"JavaScript errors in Chromium");
- console.log("JOSEFO_BROWSER_PASS: two cards, 27 books, direct URLs, whole-paragraph highlight, chapter boundaries, mobile, biblical regression");
+ console.log("JOSEFO_BROWSER_PASS: two cards, 27 books, direct URLs, whole-paragraph highlight, citation clipboard, chapter boundaries, both readers mobile, biblical regression");
 }finally{await browser.close();}
