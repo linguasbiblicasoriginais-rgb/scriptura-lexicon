@@ -51,7 +51,7 @@ try {
  console.log("Realce e subseções OK");
  await page.selectOption("#paedagogus-chapter","2");
  const sec=await ready("Capítulo II do Livro I");
- assert.ok(sec.reference.includes("1.4"),"Seção original 4 no capítulo II");
+ assert.ok(sec.reference.includes("2.4"),"Seção original 4 no capítulo II");
  await page.selectOption("#paedagogus-chapter","argument");
  await page.waitForFunction(()=>document.querySelector("#paedagogus-reference")?.textContent.includes("argumento"),null,{timeout:5000});
  const argument=await page.evaluate(()=>({
