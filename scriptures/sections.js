@@ -39,16 +39,98 @@ const editions={
   ["SBLGNT","SBL Greek New Testament — Holmes (2010)"],
   ["TR","Textus Receptus — Scrivener (1894)"],
   ["VUL","Vulgata Clementina (1598)"],
-  ["VULJ","Vulgata latina — tradição de Jerônimo (CrossWire)"],
-  ["NA28","Texto crítico — NA28 (somente amostra)"],
-  ["UBS5","Texto crítico — UBS5 (somente amostra)"]
+  ["VULJ","Vulgata latina — tradição de Jerônimo"],
+  ["NA28","Novum Testamentum Graece — 28ª edição"],
+  ["UBS5","The Greek New Testament — 5ª edição"]
  ],
  apocrifos:[
   ["LXX","Septuaginta — Brenton (1851)"],
   ["VUL","Vulgata Clementina (1598)"],
-  ["VULJ","Vulgata latina — tradição de Jerônimo (CrossWire)"]
+  ["VULJ","Vulgata latina — tradição de Jerônimo"]
  ]
 };
+/* Apresentação editorial das edições, sem alterar seus identificadores de leitura. */
+const editionVisuals = {
+  UXLC: {
+    sigla: "L",
+    titulo: "Códice de Leningrado",
+    subtitulo: "Firkovich B19A",
+    descricao: "Texto massorético da Bíblia Hebraica, com vocalização e acentuação tiberianas."
+  },
+  LXX: {
+    sigla: "LXX",
+    titulo: "Septuaginta",
+    subtitulo: "Brenton (1851)",
+    descricao: "Texto grego do Antigo Testamento na edição de Brenton."
+  },
+  SBLGNT: {
+    sigla: "SBLGNT",
+    titulo: "SBL Greek New Testament",
+    subtitulo: "Holmes (2010)",
+    descricao: "Edição do Novo Testamento grego organizada por Michael W. Holmes."
+  },
+  TR: {
+    sigla: "TR",
+    titulo: "Textus Receptus",
+    subtitulo: "Scrivener (1894)",
+    descricao: "Edição do texto grego do Novo Testamento associada à tradição do Textus Receptus."
+  },
+  VUL: {
+    sigla: "VUL",
+    titulo: "Vulgata Clementina",
+    subtitulo: "Edição de 1598",
+    descricao: "Texto bíblico latino da edição clementina."
+  },
+  VULJ: {
+    sigla: "VULJ",
+    titulo: "Vulgata latina",
+    subtitulo: "Tradição de Jerônimo",
+    descricao: "Texto latino da tradição da Vulgata disponibilizado por CrossWire."
+  },
+  NA28: {
+    sigla: "NA28",
+    titulo: "Novum Testamentum Graece",
+    subtitulo: "28ª edição",
+    descricao: "Texto crítico do Novo Testamento grego. Somente amostra."
+  },
+  UBS5: {
+    sigla: "UBS5",
+    titulo: "The Greek New Testament",
+    subtitulo: "5ª edição",
+    descricao: "Texto crítico do Novo Testamento grego. Somente amostra."
+  }
+};
+
+function editionCard(code, name, scope) {
+  const visual = editionVisuals[code];
+  if (!visual) return;
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "site-section-card site-section-card--edition";
+  button.dataset.siteEdition = code;
+  button.dataset.siteEditionScope = scope;
+  button.setAttribute("aria-label", "Consultar " + name);
+
+  const sigla = document.createElement("strong");
+  sigla.className = "edition-sigla";
+  sigla.textContent = visual.sigla;
+
+  const titulo = document.createElement("span");
+  titulo.className = "edition-name";
+  titulo.textContent = visual.titulo;
+
+  const subtitulo = document.createElement("span");
+  subtitulo.className = "edition-subtitle";
+  subtitulo.textContent = visual.subtitulo;
+
+  const descricao = document.createElement("small");
+  descricao.className = "edition-description";
+  descricao.textContent = visual.descricao;
+
+  button.append(sigla, titulo, subtitulo, descricao);
+  cards.append(button);
+}
+
 function closeMenu(){
  const drawer=document.getElementById("dictionary-menu");
  if(drawer?.classList.contains("open"))document.getElementById("menu-close")?.click();
@@ -78,13 +160,14 @@ function showHub(section){
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
  cards.replaceChildren();
+ cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
  if(section==="patristica"){
   card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
   card("Pedagogo — Παιδαγωγός","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1905)",{patristicWork:"paedagogus"});
  }
  if(editions[section])for(const [code,name] of editions[section])
-   card(name,section==="apocrifos"?"Consultar os livros apócrifos e os acréscimos disponíveis":"Consultar o texto desta edição",{siteEdition:code,siteEditionScope:section});
+   editionCard(code,name,section);
  for(const button of document.querySelectorAll(".site-menu-item")){
    const active=button.dataset.siteSection===section;
    button.classList.toggle("active",active);
