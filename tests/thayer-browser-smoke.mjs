@@ -68,7 +68,7 @@ try {
     // Todos os verbetes (sem amostragem) são validados no teste estático do índice.
     const sourceDir=path.join(process.cwd(),"lexicons/thayer-reinicio-2026-10-25");
     const approvedFiles=fs.readdirSync(sourceDir)
-        .filter(name=>/^\\d{4}-[a-z0-9-]+\\.json$/i.test(name)).sort();
+        .filter(name=>/^\d{4}-[a-z0-9-]+\.json$/i.test(name)).sort();
     const fixedSpecs=[
         {term:"alfa",target:"entry-thayer-reinicio-0001"},
         {term:"abadom",target:"entry-thayer-reinicio-0002"},
@@ -78,6 +78,7 @@ try {
         {term:"abiatar",target:"entry-thayer-reinicio-0006"},
         {term:"abel",target:"entry-thayer-reinicio-0007"}
     ];
+    assert.ok(approvedFiles.length>=8,"Nenhum verbete revisado encontrado para teste real");
     const newest=approvedFiles.slice(-25).map(name=>{
         const record=JSON.parse(fs.readFileSync(path.join(sourceDir,name),"utf8"));
         const alias=record.render.search_row_html.match(/data-lemma-alias="([^"]+)"/)?.[1]?.split(";")[0];
