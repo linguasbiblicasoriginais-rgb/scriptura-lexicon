@@ -131,6 +131,26 @@ function syncHash(mode){
 function readRows(){
  return dataFor(state.work,state.book)?.chapters?.[String(state.chapter)]||[];
 }
+function displayedReference(){
+ return work().title+" · "+caption()+(state.section==null?"":" · § "+state.section)+" ("+reference()+")";
+}
+function activateSection(number,shouldScroll){
+ if(!readRows().some(row=>row.number===number))return;
+ state.section=number;
+ controls.section.value=String(number);
+ for(const line of textArea.querySelectorAll("[data-josefo-history-section]")){
+   const selected=Number(line.dataset.josefoHistorySection)===number;
+   line.classList.toggle("scripture-verse-selected",selected);
+   line.setAttribute("aria-pressed",String(selected));
+ }
+ heading.textContent=displayedReference();
+ syncHash("push");
+ if(shouldScroll){
+   const target=textArea.querySelector('[data-josefo-history-section="'+number+'"]');
+   target?.scrollIntoView({block:"center",behavior:"smooth"});
+   target?.focus({preventScroll:true});
+ }
+}
 function clear(note){
  fillSelections();updateNav();heading.textContent=caption();
  textArea.replaceChildren();
@@ -174,6 +194,7 @@ function render(){
  for(const row of list)controls.section.append(option(row.number,"§ "+row.number));
  controls.section.value=String(state.section);
  controls.section.disabled=false;
+ heading.textContent=displayedReference();
  for(const row of list){
    const button=document.createElement("button");
    button.type="button";
@@ -188,10 +209,7 @@ function render(){
    const greek=document.createElement("span");
    greek.className="josefo-greek";greek.lang="grc";greek.textContent=row.text;
    button.append(num,greek);
-   button.addEventListener("click",()=>{
-      state.section=row.number;render();syncHash("push");
-      textArea.querySelector('[data-josefo-history-section="'+row.number+'"]')?.focus({preventScroll:true});
-   });
+   button.addEventListener("click",()=>activateSection(row.number,true));
    textArea.append(button);
  }
  message.textContent="Texto grego integral · "+list.length+" seções nesta divisão.";
@@ -251,9 +269,7 @@ controls.book.addEventListener("change",()=>{
 controls.chapter.addEventListener("change",()=>navigate(state.work,state.book,controls.chapter.value));
 controls.section.addEventListener("change",()=>{
  if(controls.section.disabled)return;
- state.section=positive(controls.section.value,null);
- render();syncHash("push");
- textArea.querySelector('[data-josefo-history-section="'+state.section+'"]')?.scrollIntoView({block:"nearest",behavior:"smooth"});
+ activateSection(positive(controls.section.value,null),true);
 });
 function adjacent(delta){
  const w=work(),chapters=chaptersFor(w,state.book),i=chapters.indexOf(state.chapter)+delta;
