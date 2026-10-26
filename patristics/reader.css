@@ -28,3 +28,9 @@
 .patristic-source a {color:var(--reference)}
 @media(max-width:650px){.patristic-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.patristic-text{font-size:1rem}}
 @media(max-width:380px){.patristic-controls{grid-template-columns:1fr}}
+
+/* Pedagogo: mesmos estilos patrísticos e realce dos Stromata. */
+#paedagogus-reference {color:var(--accent);font-weight:600}
+#paedagogus-status {font-size:.81rem;color:var(--text-muted)}
+.patristic-text .patristic-chapter-title {font-size:1.1rem;font-weight:600;color:var(--accent-light);margin:0 0 .8rem;line-height:1.5;text-align:left}
+#paedagogus-text p.patristic-subsection {scroll-margin-block:7rem}
