@@ -209,6 +209,9 @@ function show(bookNumber,chapterNumber,sectionNumber,writeHash){
  window.ScripturaScriptures?.hide();
  window.ScripturaPatristics?.hide();
  window.ScripturaPaedagogus?.hide();
+ window.ScripturaJosephusHistory?.hide();
+ const workChooser=panel.querySelector("#josefo-work");
+ if(workChooser)workChooser.value="antiguidades";
  for(const node of main.children)if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
  panel.hidden=false;
  bookSelect.value=String(state.book);
