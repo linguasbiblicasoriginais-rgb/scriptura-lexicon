@@ -141,6 +141,7 @@ function card(name,desc,attrs){
  if(attrs.siteSection==="escrituras")button.classList.add("site-section-card--scriptures");
  if(attrs.siteSection==="patristica")button.classList.add("site-section-card--patristic");
  if(attrs.siteSection==="configuracoes")button.classList.add("site-section-card--settings");
+ if(attrs.siteSection==="josefo")button.classList.add("site-section-card--josephus");
  const heading=document.createElement("strong");heading.textContent=name;
  const info=document.createElement("span");info.textContent=desc;
  button.append(heading,info);
