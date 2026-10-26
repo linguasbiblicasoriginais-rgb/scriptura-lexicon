@@ -144,6 +144,8 @@ function show(bookNumber,chapterNumber,sectionNumber,writeHash){
  const rows=readRows(state.book,state.chapter);
  state.section=sectionNumber==null?(rows[0]?.number??null):positive(sectionNumber,null);
  window.ScripturaScriptures?.hide();
+ window.ScripturaPatristics?.hide();
+ window.ScripturaPaedagogus?.hide();
  for(const node of main.children){
    if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
  }

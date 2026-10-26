@@ -20,9 +20,9 @@
   },
   {
     "sid": "A00012",
-    "lemma": "אַב־,",
+    "lemma": "אַב־ / אֶבְ־",
     "type": "Prefixo de origem grega",
-    "gloss": "elemento au-; eu-",
+    "gloss": "prefixo de origem grega: αὐ- (au-) ou εὐ- (eu-)",
     "html": "Prefixo em vocábulos gregos adaptados, correspondente a <span lang='grc'>αὐ-</span> (<i>au-</i>), como <bdi lang='he' dir='rtl'>אבטומטוס</bdi> (<span lang='grc'>αὐτόματος</span>), ou a <span lang='grc'>εὐ-</span> (<i>eu-</i>), como <bdi lang='he' dir='rtl'>אבגינוס</bdi> (<span lang='grc'>εὐγενής</span>). <strong>Nota de colação:</strong> O segundo cabeçalho original é אֶבְ־, além de אַב־. O XML apresenta os cabeçalhos אַב־ e אֶבְ־, mas não determina correspondência exclusiva entre cada cabeçalho e os elementos gregos; os exemplos vinculam אבטומטוס a αὐ- e אבגינוס a εὐ-."
   },
   {

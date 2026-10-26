@@ -1,0 +1,36 @@
+/* Scriptura Lexicon — leitura patrística (herda paleta e tipografia) */
+#site-section-cards[hidden] {display:none!important}
+.patristic-reader[hidden], #stromata-subsection-label[hidden] {display:none!important}
+.patristic-reader {margin:1.5rem 0 3rem;max-width:100%}
+.patristic-heading {font-size:clamp(1.4rem,3vw,2rem);margin:1.1rem 0 .25rem;color:var(--text-primary)}
+.patristic-context {margin:0 0 1.3rem;color:var(--text-secondary)}
+.patristic-controls {display:grid;grid-template-columns:repeat(4,minmax(125px,1fr));gap:.8rem;margin:1rem 0;padding:1rem;border:1px solid var(--border);border-radius:12px;background:var(--surface-1)}
+.patristic-controls label {display:flex;flex-direction:column;gap:.4rem;font-size:.85rem;color:var(--text-secondary)}
+.patristic-controls select {width:100%;min-width:0;padding:.65rem .7rem;font:inherit;color:var(--text-primary);background:var(--surface-2);border:1px solid var(--border);border-radius:8px}
+.patristic-steps {display:flex;align-items:center;justify-content:space-between;gap:.6rem;flex-wrap:wrap;margin:1rem 0}
+.patristic-steps button {padding:.55rem .8rem;border:1px solid var(--border);border-radius:8px;color:var(--text-primary);background:var(--surface-2);cursor:pointer}
+.patristic-steps button:disabled {opacity:.4;cursor:default}
+#stromata-reference {color:var(--accent);font-weight:600}
+#stromata-status {font-size:.81rem;color:var(--text-muted)}
+.patristic-text {margin:1rem 0;padding:clamp(1rem,3.5vw,2rem);background:var(--surface-1);border:1px solid var(--border-soft);border-radius:12px;font-family:"Noto Serif",serif;font-size:1.06rem;line-height:2.05;text-align:justify;text-justify:inter-word}
+.patristic-text p {margin:0 0 1.05em;text-align:justify;overflow-wrap:break-word}
+.patristic-text p:last-child {margin-bottom:0}
+.patristic-text p.patristic-subsection {margin-bottom:.45em;padding:5px 8px;border-radius:6px}
+.patristic-text p.patristic-subsection-selected {background:var(--surface-3)}
+.patristic-text .patristic-submark {font-weight:700;margin-inline-end:.5em}
+.patristic-gap {color:var(--accent);font-size:.86em}
+.patristic-submark {color:var(--accent);font-size:.82em;white-space:nowrap}
+.patristic-tei-add {border-bottom:1px dotted var(--accent)}
+.patristic-tei-del {text-decoration:line-through;opacity:.65}
+.patristic-tei-supplied {border-bottom:1px dashed var(--accent)}
+.patristic-tei-unclear {text-decoration:underline dotted}
+.patristic-source {color:var(--text-secondary);font-size:.8rem;line-height:1.8}
+.patristic-source a {color:var(--reference)}
+@media(max-width:650px){.patristic-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.patristic-text{font-size:1rem}}
+@media(max-width:380px){.patristic-controls{grid-template-columns:1fr}}
+
+/* Pedagogo: mesmos estilos patrísticos e realce dos Stromata. */
+#paedagogus-reference {color:var(--accent);font-weight:600}
+#paedagogus-status {font-size:.81rem;color:var(--text-muted)}
+.patristic-text .patristic-chapter-title {font-size:1.1rem;font-weight:600;color:var(--accent-light);margin:0 0 .8rem;line-height:1.5;text-align:left}
+#paedagogus-text p.patristic-subsection {scroll-margin-block:7rem}
