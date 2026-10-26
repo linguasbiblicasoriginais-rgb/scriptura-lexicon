@@ -12,7 +12,7 @@ assert.ok(catalog.total > 5000,"O índice integral não foi gerado");
 
 const sourceDir = path.join(root,"lexicons/thayer-reinicio-2026-10-25");
 const files = fs.readdirSync(sourceDir).filter(name => /^\d{4}-[a-z0-9-]+\.json$/i.test(name)).sort();
-assert.ok(files.length >= 7,"Faltam artigos aprovados do Thayer");
+assert.ok(files.length >= 8,"Faltam artigos aprovados do Thayer");
 assert.equal(catalog.thayerReviewed?.approved,files.length,"Contagem de artigos aprovados não corresponde aos arquivos");
 assert.equal(catalog.thayerReviewed?.approvedIds?.length,files.length,"Manifesto de publicação incompleto");
 
@@ -59,9 +59,10 @@ const expectedOpening = new Map([
     ["0004-abba.json","[WH -βά], do hebraico"],
     ["0005-aaron.json","(Em Josefo, ὁ Ἀαρών"],
     ["0006-abiathar.json","(Embora em Josefo, Antiguidades Judaicas"],
-    ["0007-abel.json","(WH Ἅβ.; ver sua Introdução, § 408; em Josefo"]
+    ["0007-abel.json","(WH Ἅβ.; ver sua Introdução, § 408; em Josefo"],
+    ["0008-abia.json","(Em Josefo, Antiguidades Judaicas, 7.10.3; 8.10.1"]
 ]);
-assert.equal(files.length,expectedOpening.size,"Inventário revisado não corresponde aos sete verbetes");
+assert.ok(files.length >= expectedOpening.size,"Inventário dos verbetes de referência incompleto");
 for (const [name,start] of expectedOpening) {
     const rec=JSON.parse(fs.readFileSync(path.join(sourceDir,name),"utf8"));
     assert.ok(rec.translation_portuguese_full[0].startsWith(start),

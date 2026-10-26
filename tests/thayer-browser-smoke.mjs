@@ -4,6 +4,8 @@
  */
 import assert from "node:assert/strict";
 import { chromium } from "playwright";
+import fs from "node:fs";
+import path from "node:path";
 
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:1280,height:900}});
@@ -61,6 +63,28 @@ try {
     assert.equal(aaron.text,"ܐܰܗܻܝܪܳܐ");
     assert.match(aaron.css,/Estrangelo Edessa/);
     assert.equal(aaron.dir,"rtl");
+    // Os verbetes mais recentes são descobertos a partir de todos os JSON aprovados.
+    // A amostragem do navegador cresce automaticamente, sem modificar o teste a cada entrada.
+    // Todos os verbetes (sem amostragem) são validados no teste estático do índice.
+    const sourceDir=path.join(process.cwd(),"lexicons/thayer-reinicio-2026-10-25");
+    const approvedFiles=fs.readdirSync(sourceDir)
+        .filter(name=>/^\d{4}-[a-z0-9-]+\.json$/i.test(name)).sort();
+    const fixedSpecs=[
+        {term:"alfa",target:"entry-thayer-reinicio-0001"},
+        {term:"abadom",target:"entry-thayer-reinicio-0002"},
+        {term:"ἀβαρής",target:"entry-thayer-reinicio-0003"},
+        {term:"abba",target:"entry-thayer-reinicio-0004"},
+        {term:"arao",target:"entry-thayer-reinicio-0005"},
+        {term:"abiatar",target:"entry-thayer-reinicio-0006"},
+        {term:"abel",target:"entry-thayer-reinicio-0007"}
+    ];
+    assert.ok(approvedFiles.length>=8,"Nenhum verbete revisado encontrado para teste real");
+    const newest=approvedFiles.slice(-25).map(name=>{
+        const record=JSON.parse(fs.readFileSync(path.join(sourceDir,name),"utf8"));
+        const alias=record.render.search_row_html.match(/data-lemma-alias="([^"]+)"/)?.[1]?.split(";")[0];
+        return {term:alias||record.lemma_original.split(",")[0],target:record.entry_id};
+    });
+    const auditSpecs=[...new Map([...fixedSpecs,...newest].map(x=>[x.target,x])).values()];
     // Testar o cartão que o navegador realmente abre, não apenas o JSON-fonte.
     const publicationAudit=await page.evaluate(async (specs)=>{
         const api=window.ScripturaLexiconSearch;
@@ -85,16 +109,11 @@ try {
                 subtitle:sub,firstParagraph:body?.slice(0,280),technical:article.querySelectorAll(".section-title").length});
         }
         return audit;
-    },[
-        {term:"alfa",target:"entry-thayer-reinicio-0001"},
-        {term:"abadom",target:"entry-thayer-reinicio-0002"},
-        {term:"ἀβαρής",target:"entry-thayer-reinicio-0003"},
-        {term:"abba",target:"entry-thayer-reinicio-0004"},
-        {term:"arao",target:"entry-thayer-reinicio-0005"},
-        {term:"abiatar",target:"entry-thayer-reinicio-0006"},
-        {term:"abel",target:"entry-thayer-reinicio-0007"}
-    ]);
-    assert.equal(publicationAudit.length,7);
+    },auditSpecs);
+    assert.equal(publicationAudit.length,auditSpecs.length);
+    const latestTarget=newest.at(-1)?.target;
+    assert.ok(latestTarget && publicationAudit.some(x=>x.target===latestTarget),
+        "O verbete mais recente não foi avaliado no navegador");
     const grammar=/(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
     for(const item of publicationAudit){
         assert.ok(!item.error,"Cartão não encontrado para "+item.term+": "+item.error);
