@@ -60,8 +60,8 @@ function audit(work){
   const text=rows.map(row=>row.chapter+":"+row.number+"\t"+row.text+"\n").join("");
   assert.equal(fingerprint(text),expected.fingerprint,"TEI source fingerprint mismatch "+work+" "+i);
   if(work==="antiguidades"){
-   assert.ok(book.argument?.title && book.argument?.text,"Missing argument "+i);
-   assert.equal(fingerprint(norm(book.argument.title)+"\n"+norm(book.argument.text)),
+   assert.ok(book.argument && book.argument.text.trim(),"Missing argument "+i);
+   assert.equal(fingerprint(norm(book.argument.title||"")+"\n"+norm(book.argument.text)),
      expected.argumentFingerprint,"Greek argument mismatch "+i);
   }
   allSections+=rows.length;allChapters+=keys.length;
