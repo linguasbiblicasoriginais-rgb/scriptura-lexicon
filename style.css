@@ -2122,23 +2122,42 @@ tbody tr:last-child td {
     gap: 16px;
 }
 .site-section-card--edition {
-    min-height: 260px;
+    min-height: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px 20px 18px;
+    justify-content: flex-start;
+    padding: 26px 20px 18px;
     text-align: center;
     transition: border-color .2s, background .2s, transform .2s;
 }
 .site-section-card--edition .edition-sigla {
-    display: block;
-    font-size: clamp(2.8rem, 4vw, 4.2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 112px;
+    font-size: clamp(4.2rem, 8vw, 6.6rem);
     line-height: 1;
     font-weight: 700;
-    margin: 12px 0 17px;
+    margin: 0 0 18px;
     color: var(--text-primary);
-    letter-spacing: -.035em;
+    letter-spacing: -.045em;
+    text-align: center;
     overflow-wrap: anywhere;
+}
+/* As siglas longas usam tamanhos proporcionais à largura dos cartões. */
+.site-section-card--edition[data-site-edition="LXX"] .edition-sigla,
+.site-section-card--edition[data-site-edition="VUL"] .edition-sigla {
+    font-size: clamp(3.8rem, 6vw, 5rem);
+}
+.site-section-card--edition[data-site-edition="VULJ"] .edition-sigla,
+.site-section-card--edition[data-site-edition="NA28"] .edition-sigla,
+.site-section-card--edition[data-site-edition="UBS5"] .edition-sigla {
+    font-size: clamp(3.2rem, 4.5vw, 3.8rem);
+}
+.site-section-card--edition[data-site-edition="SBLGNT"] .edition-sigla {
+    font-size: clamp(2.6rem, 3.8vw, 3.1rem);
 }
 .site-section-card--edition .edition-name {
     display: block;
@@ -2170,5 +2189,41 @@ tbody tr:last-child td {
     outline-offset: 3px;
 }
 @media (max-width: 600px) {
-    .site-section-card--edition { min-height: 235px; }
+    .site-section-card--edition {
+        min-height: 250px;
+    }
+    .site-section-card--edition .edition-sigla {
+        min-height: 92px;
+        font-size: clamp(3.4rem, 12vw, 5.2rem);
+    }
+}
+
+/* Literatura patrística — SVG original aplicado ao menu e ao cartão inicial.
+   A máscara utiliza a transparência e acompanha a cor dos temas. */
+.site-patristic-icon,
+.site-section-card--patristic strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/literatura-patristica.svg");
+    mask-image:url("imagens/icones/literatura-patristica.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--patristic strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--patristic strong::before {
+    content:"";
+    width:25px;
+    height:25px;
 }
