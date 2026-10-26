@@ -2194,8 +2194,9 @@ tbody tr:last-child td {
     mask-image:url("imagens/icones/configuracoes.svg");
     -webkit-mask-position:center;
     mask-position:center;
-    -webkit-mask-size:contain;
-    mask-size:contain;
+    /* Redução óptica: mantém a caixa de 22/25 px e o alinhamento do texto. */
+    -webkit-mask-size:84% 84%;
+    mask-size:84% 84%;
     -webkit-mask-repeat:no-repeat;
     mask-repeat:no-repeat;
     vertical-align:middle;
