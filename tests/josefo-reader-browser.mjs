@@ -94,18 +94,7 @@ try{
  assert.equal(await page.locator("#josefo-book").locator("option").count(),20);
  assert.equal(await page.locator("#josefo-chapter").locator("option").count(),24,"Synopsis + preface + 22 chapters");
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
- await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
- await page.locator('[data-patristic-work="stromata"]').click();
- await page.locator("#patristic-reader").waitFor({state:"visible",timeout:30000});
- await page.goto(base+"/#dicionarios",{waitUntil:"domcontentloaded"});
- await page.locator("#site-dictionary-options").waitFor({state:"visible"});
- await page.locator('[data-dictionary-target="grego"]').click();
- await page.locator("#search-input").waitFor({state:"visible"});
- await page.goto(base+"/#configuracoes",{waitUntil:"domcontentloaded"});
- await page.locator('input[name="site-theme"][value="light"]').check();
- assert.equal(await page.locator("html").getAttribute("data-theme"),"light");
- await page.locator('input[name="site-theme"][value="dark"]').check();
- assert.equal(await page.locator("html").getAttribute("data-theme"),"dark");
+
 
  await selected(page,"#josefo-text",27);
  await checkCompleteChapter(page,"antiguidades");
@@ -179,6 +168,18 @@ try{
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
+ await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
+ await page.locator('[data-patristic-work="stromata"]').click();
+ await page.locator("#patristic-reader").waitFor({state:"visible",timeout:30000});
+ await page.goto(base+"/#dicionarios",{waitUntil:"domcontentloaded"});
+ await page.locator("#site-dictionary-options").waitFor({state:"visible"});
+ await page.locator('[data-dictionary-target="grego"]').click();
+ await page.locator("#search-input").waitFor({state:"visible"});
+ await page.goto(base+"/#configuracoes",{waitUntil:"domcontentloaded"});
+ await page.locator('input[name="site-theme"][value="light"]').check();
+ assert.equal(await page.locator("html").getAttribute("data-theme"),"light");
+ await page.locator('input[name="site-theme"][value="dark"]').check();
+ assert.equal(await page.locator("html").getAttribute("data-theme"),"dark");
  await context.close();
  const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  const phone=await mobile.newPage();phone.on("pageerror",e=>errors.push(e.message));watchAssetErrors(phone);
