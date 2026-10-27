@@ -1,0 +1,61 @@
+name: Josefo — integralidade grega e leitores Chromium
+on:
+  push:
+    branches: [chat-gpt-josefo-guerra]
+    paths:
+      - 'josefo/**'
+      - 'scriptures/sections.js'
+      - 'tests/josefo-*.cjs'
+      - 'tests/josefo-*.mjs'
+      - '.github/workflows/josefo-integridade.yml'
+  pull_request:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'josefo/**'
+      - 'scriptures/sections.js'
+      - 'tests/josefo-*.cjs'
+      - 'tests/josefo-*.mjs'
+      - '.github/workflows/josefo-integridade.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  integridade-e-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Conferir sintaxe dos leitores e testes
+        run: |
+          node --check josefo/catalog.js
+          node --check josefo/historia-catalog.js
+          node --check josefo/reader.js
+          node --check josefo/historia-reader.js
+          node --check scriptures/sections.js
+          node --check tests/josefo-reader-browser.mjs
+      - name: Validar o corpus grego e os fingerprints Perseus/Niese
+        run: |
+          node --test tests/josefo-catalog.test.cjs tests/josefo-historia.test.cjs tests/josefo-niese-integrity.test.cjs
+      - name: Instalar Chromium com Playwright
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Servir o frontend local
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/josefo-server.log 2>&1 &
+          for i in $(seq 1 25); do
+            if curl --silent --fail http://127.0.0.1:8765/ >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/josefo-server.log
+          exit 1
+      - name: Testar dois leitores em desktop e dispositivo móvel
+        run: node tests/josefo-reader-browser.mjs
+      - name: Mostrar erros do servidor
+        if: failure()
+        run: cat /tmp/josefo-server.log || true

@@ -17,7 +17,7 @@ const pages={
  apocrifos:["Literatura apócrifa","Livros e acréscimos separados conforme o cânon de 66 livros adotado neste projeto. A classificação não pretende ser universal às tradições cristãs."],
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
- josefo:["Obras de Flávio Josefo","História dos Hebreus: coletânea editorial reunindo Antiguidades Judaicas, Guerra dos Judeus, Vida de Josefo e Contra Ápio, em texto grego integral."],
+ josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
  filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -172,10 +172,8 @@ function showHub(section){
   card("Pedagogo — Παιδαγωγός","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1905)",{patristicWork:"paedagogus"});
  }
  if(section==="josefo"){
-  card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","20 livros · texto grego integral · edição Niese / Perseus",{josefoWork:"antiguidades"});
-  card("Guerra dos Judeus — Ἰουδαϊκὸς πόλεμος","7 livros · 110 capítulos tradicionais · 4.001 seções gregas",{josefoWork:"guerra"});
-  card("Vida de Flávio Josefo — Ἰωσήπου βίος","Autobiografia · texto grego integral · 430 seções",{josefoWork:"vida"});
-  card("Contra Ápio — Περὶ ἀρχαιότητος Ἰουδαίων","2 livros · texto grego integral · 616 seções",{josefoWork:"apiao"});
+  card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","20 livros · 257 capítulos · 7.376 seções · texto grego integral · Niese / Perseus",{josefoWork:"antiguidades"});
+  card("A Guerra dos Judeus — Ἰουδαϊκοῦ πολέμου πρὸς Ῥωμαίους","7 livros · 110 capítulos · 4.001 seções · texto grego integral · Niese / Perseus",{josefoWork:"guerra"});
  }
  if(editions[section])for(const [code,name] of editions[section])
    editionCard(code,name,section);
