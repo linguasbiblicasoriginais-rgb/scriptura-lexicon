@@ -45,6 +45,15 @@ for(const file of files){
     assert.equal(pub.card?.html,record.render.entry_card_html,"O cartão publicado difere do texto aprovado: "+file);
     assert.ok(pub.row?.row?.includes('data-source="THAYER"'),"Falta origem THAYER: "+file);
     assert.ok(!pub.card.html.includes("reinício 2026-10-25"),"Rótulo editorial no cabeçalho: "+file);
+    // O alias não deve existir apenas para pontuação: precisa ter gramas
+    // pesquisáveis em lookup[0] ou o navegador não encontrará o cartão.
+    const aliases=record.render.search_row_html.match(/data-lemma-alias="([^"]+)"/)?.[1]
+        ?.split(";").map(s=>s.toLocaleLowerCase("pt-BR").normalize("NFD")
+            .replace(/\p{M}/gu,"").replace(/\s+/g," ").trim()).filter(Boolean)||[];
+    for(const alias of aliases){
+        assert.ok(pub.lookup?.[0]?.includes(alias),
+            "Alias sem indexação pesquisável: "+alias+" em "+file);
+    }
     const intro=pub.card.html.match(/<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/i)?.[1]?.replace(/<[^>]*>/g,"");
     assert.ok(intro,"Primeiro parágrafo ausente do cartão: "+file);
     const duplicateGrammar=/(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
