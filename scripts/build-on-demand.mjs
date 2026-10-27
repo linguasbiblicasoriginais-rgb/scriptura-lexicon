@@ -144,6 +144,12 @@ function register(records, rows, cards, origin) {
             collisions.push({target, kind:"card-absent", origin});
         }
         let rawSearch = attribute(tag, "data-search") || textOnly(row);
+        // Aliases aprovados integram obrigatoriamente o texto pesquisável.
+        // Não basta usá-los para ranquear: sem gramas eles não entram entre
+        // os candidatos da busca e o artigo pode tornar-se inacessível.
+        const searchAliases = attribute(tag, "data-lemma-alias")
+            .split(";").map(value => value.trim()).filter(Boolean);
+        if (searchAliases.length) rawSearch += " " + searchAliases.join(" ");
         // Inclui também o texto integral publicado nas seções dos verbetes,
         // sem alterar a redação de origem ou limitar a busca ao lema.
         const paragraphs = Array.from(card.matchAll(/<(?:p|div)\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/(?:p|div)>/gi), m => m[1]);
