@@ -44,6 +44,42 @@ async function selected(page,selector,section){
  assert.notEqual(style.background,"rgba(0, 0, 0, 0)","Entire selected line must be highlighted");
  assert.ok(parseInt(style.border)>0);
 }
+
+async function verifyEveryChapter(page){
+ const counts={
+  antiguidades:[22,16,15,8,11,14,15,15,14,11,8,11,16,16,11,11,13,9,9,12],
+  guerra:[33,22,10,11,13,10,11]
+ };
+ let examined=0;
+ for(const [work,books] of Object.entries(counts)){
+  for(let b=1;b<=books.length;b++){
+   for(let c=1;c<=books[b-1];c++){
+    await page.evaluate(({work,book,chapter})=>{
+     if(work==="antiguidades")window.ScripturaJosephus.show(book,chapter,null,false);
+     else window.ScripturaJosephusHistory.show("guerra",book,chapter,null,false);
+    },{work,book:b,chapter:c});
+    await page.waitForFunction(({work,book,chapter})=>{
+     const prefix=work==="antiguidades"?"josefo":"josefo-historia";
+     const selectedBook=document.getElementById(prefix+"-book");
+     const selectedChapter=document.getElementById(prefix+"-chapter");
+     const reader=document.getElementById(prefix+"-reader");
+     if(reader.hidden||selectedBook.value!==String(book)||selectedChapter.value!==String(chapter))return false;
+     const source=work==="antiguidades"
+      ?window.ScripturaJosephusTexts?.antiguidades?.[book]
+      :window.ScripturaJosephusWorks?.guerra?.[book];
+     const rows=source?.chapters?.[String(chapter)];
+     const rendered=document.querySelectorAll("#"+prefix+"-text .josefo-section-line");
+     return Array.isArray(rows)&&rows.length>0&&rendered.length===rows.length&&
+       [...rendered].every(el=>el.querySelector(".josefo-greek")?.textContent?.trim());
+    },{work,book:b,chapter:c},{timeout:30000});
+    examined++;
+   }
+  }
+ }
+ assert.equal(examined,367,"Every Whiston chapter must render fully in Chromium");
+ console.log("JOSEFO_ALL_CHAPTERS_PASS: "+examined+" chapters rendered with all source sections");
+}
+
 try{
  const context=await browser.newContext({viewport:{width:1280,height:900},permissions:["clipboard-read","clipboard-write"]});
  const page=await context.newPage();page.on("pageerror",e=>errors.push(e.message));watchAssetErrors(page);
@@ -58,6 +94,19 @@ try{
  assert.equal(await page.locator("#josefo-book").locator("option").count(),20);
  assert.equal(await page.locator("#josefo-chapter").locator("option").count(),24,"Synopsis + preface + 22 chapters");
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
+ await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
+ await page.locator('[data-patristic-work="stromata"]').click();
+ await page.locator("#patristic-reader").waitFor({state:"visible",timeout:30000});
+ await page.goto(base+"/#dicionarios",{waitUntil:"domcontentloaded"});
+ await page.locator("#site-dictionary-options").waitFor({state:"visible"});
+ await page.locator('[data-dictionary-target="grego"]').click();
+ await page.locator("#search-input").waitFor({state:"visible"});
+ await page.goto(base+"/#configuracoes",{waitUntil:"domcontentloaded"});
+ await page.locator('input[name="site-theme"][value="light"]').check();
+ assert.equal(await page.locator("html").getAttribute("data-theme"),"light");
+ await page.locator('input[name="site-theme"][value="dark"]').check();
+ assert.equal(await page.locator("html").getAttribute("data-theme"),"dark");
+
  await selected(page,"#josefo-text",27);
  await checkCompleteChapter(page,"antiguidades");
  await page.locator('#josefo-text [data-josefo-section="28"]').click();
@@ -125,6 +174,8 @@ try{
  await ready(page,"guerra");await selected(page,"#josefo-historia-text",455);
  await checkCompleteChapter(page,"guerra");
  assert.match(await page.locator('#josefo-historia-text [data-josefo-history-section="455"]').textContent(),/ἐστοχασάμην/);
+ await verifyEveryChapter(page);
+
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
@@ -151,5 +202,5 @@ try{
  await mobile.close();
  assert.deepEqual(errors,[],"JavaScript errors in Chromium");
  assert.deepEqual(failedGreekAssets,[],"All Greek corpus assets must load successfully");
- console.log("JOSEFO_BROWSER_PASS: complete chapters, deep links, synopsis, preface, browser history, selectors, themes, mobile overflow, asset loading, clipboard and biblical regression");
+ console.log("JOSEFO_BROWSER_PASS: complete chapters, deep links, synopsis, preface, browser history, selectors, themes, mobile overflow, all 367 chapters, asset loading, clipboard, biblical/patristic/dictionary/settings regressions");
 }finally{await browser.close();}
