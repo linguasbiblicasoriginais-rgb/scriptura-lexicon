@@ -3,6 +3,22 @@ import {chromium,devices} from "playwright";
 const base=process.env.JOSEFO_BROWSER_URL||"http://127.0.0.1:8765";
 const browser=await chromium.launch({headless:true,args:["--no-sandbox"]});
 const errors=[];
+const failedGreekAssets=[];
+function watchAssetErrors(page){
+ page.on("requestfailed",r=>{if(r.url().includes("/josefo/texts/"))failedGreekAssets.push("request: "+r.url());});
+ page.on("response",r=>{if(r.url().includes("/josefo/texts/")&&r.status()>=400)failedGreekAssets.push("HTTP "+r.status()+": "+r.url());});
+}
+async function checkCompleteChapter(page,work){
+ const result=await page.evaluate(w=>{
+  const historical=w==="guerra",prefix=historical?"josefo-historia":"josefo";
+  const book=Number(document.getElementById(prefix+"-book").value);
+  const chapter=document.getElementById(prefix+"-chapter").value;
+  const data=historical?window.ScripturaJosephusWorks.guerra[book]:window.ScripturaJosephusTexts.antiguidades[book];
+  return {source:data.chapters[chapter].length,shown:document.querySelectorAll("#"+prefix+"-text .josefo-section-line").length};
+ },work);
+ assert.equal(result.shown,result.source,"The complete chapter must be displayed, without omitting sections");
+}
+
 async function ready(page,work){
  const selector=work==="guerra"?"#josefo-historia-text":"#josefo-text";
  await page.waitForFunction((sel)=>{
@@ -30,7 +46,7 @@ async function selected(page,selector,section){
 }
 try{
  const context=await browser.newContext({viewport:{width:1280,height:900},permissions:["clipboard-read","clipboard-write"]});
- const page=await context.newPage();page.on("pageerror",e=>errors.push(e.message));
+ const page=await context.newPage();page.on("pageerror",e=>errors.push(e.message));watchAssetErrors(page);
  await page.goto(base+"/#josefo",{waitUntil:"domcontentloaded"});
  const cards=page.locator('[data-josefo-work]');
  await cards.first().waitFor();
@@ -43,9 +59,20 @@ try{
  assert.equal(await page.locator("#josefo-chapter").locator("option").count(),24,"Synopsis + preface + 22 chapters");
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
  await selected(page,"#josefo-text",27);
+ await checkCompleteChapter(page,"antiguidades");
  await page.locator('#josefo-text [data-josefo-section="28"]').click();
  await selected(page,"#josefo-text",28);
  assert.match(page.url(),/#josefo\/antiguidades\/1\/1\/28$/);
+ await page.locator("#josefo-section").selectOption("27");
+ await selected(page,"#josefo-text",27);
+ assert.match(page.url(),/#josefo\/antiguidades\/1\/1\/27$/);
+ await page.goBack({waitUntil:"domcontentloaded"});
+ await selected(page,"#josefo-text",28);
+ await page.goForward({waitUntil:"domcontentloaded"});
+ await selected(page,"#josefo-text",27);
+ await page.locator("#josefo-section").selectOption("28");
+ await selected(page,"#josefo-text",28);
+
  assert.equal(await page.locator("#josefo-section").inputValue(),"28");
  const refAnt=await page.locator("#josefo-reference").textContent();
  assert.match(refAnt,/Ant\. 1\.28/);
@@ -58,8 +85,15 @@ try{
  await page.locator("#josefo-next").click();
  await page.waitForFunction(()=>document.querySelector("#josefo-book")?.value==="2" && document.querySelector("#josefo-chapter")?.value==="1");
  assert.match(page.url(),/#josefo\/antiguidades\/2\/1\//);
+ await page.goto(base+"/#josefo/antiguidades/1/0/1",{waitUntil:"domcontentloaded"});
+ await ready(page,"antiguidades");await selected(page,"#josefo-text",1);
+ await page.goto(base+"/#josefo/antiguidades/1/arg",{waitUntil:"domcontentloaded"});
+ await page.locator("#josefo-text .josefo-argument").waitFor({state:"visible"});
+ assert.match(await page.locator("#josefo-reference").textContent(),/sinopse/i);
+
  await page.goto(base+"/#josefo/antiguidades/20/12/268",{waitUntil:"domcontentloaded"});
  await ready(page,"antiguidades");await selected(page,"#josefo-text",268);
+ await checkCompleteChapter(page,"antiguidades");
  assert.match(await page.locator('#josefo-text [data-josefo-section="268"]').textContent(),/κεκώλυται/);
  await page.goto(base+"/#josefo/guerra/1/1/31",{waitUntil:"domcontentloaded"});
  await ready(page,"guerra");
@@ -67,9 +101,15 @@ try{
  assert.equal(await page.locator("#josefo-historia-chapter").locator("option").count(),34,"Preface + 33 chapters");
  assert.equal(await page.locator("#josefo-reader").isVisible(),false);
  await selected(page,"#josefo-historia-text",31);
+ await checkCompleteChapter(page,"guerra");
  await page.locator('#josefo-historia-text [data-josefo-history-section="32"]').click();
  await selected(page,"#josefo-historia-text",32);
  assert.match(page.url(),/#josefo\/guerra\/1\/1\/32$/);
+ await page.locator("#josefo-historia-section").selectOption("31");
+ await selected(page,"#josefo-historia-text",31);
+ await page.locator("#josefo-historia-section").selectOption("32");
+ await selected(page,"#josefo-historia-text",32);
+
  assert.equal(await page.locator("#josefo-historia-section").inputValue(),"32");
  assert.match(await page.locator("#josefo-historia-reference").textContent(),/Bell\. 1\.32/);
  await page.locator("#josefo-historia-copy").click();
@@ -83,22 +123,33 @@ try{
  await page.waitForFunction(()=>document.querySelector("#josefo-historia-book")?.value==="2" && document.querySelector("#josefo-historia-chapter")?.value==="1");
  await page.goto(base+"/#josefo/guerra/7/11/455",{waitUntil:"domcontentloaded"});
  await ready(page,"guerra");await selected(page,"#josefo-historia-text",455);
+ await checkCompleteChapter(page,"guerra");
  assert.match(await page.locator('#josefo-historia-text [data-josefo-history-section="455"]').textContent(),/ἐστοχασάμην/);
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
  await context.close();
  const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
- const phone=await mobile.newPage();phone.on("pageerror",e=>errors.push(e.message));
+ const phone=await mobile.newPage();phone.on("pageerror",e=>errors.push(e.message));watchAssetErrors(phone);
  await phone.goto(base+"/#josefo/guerra/7/11/455",{waitUntil:"domcontentloaded"});
  await ready(phone,"guerra");await selected(phone,"#josefo-historia-text",455);
+ await checkCompleteChapter(phone,"guerra");
  assert.equal(await phone.locator("#josefo-historia-book").inputValue(),"7");
  assert.equal(await phone.locator("#josefo-historia-chapter").inputValue(),"11");
  await phone.goto(base+"/#josefo/antiguidades/20/12/268",{waitUntil:"domcontentloaded"});
  await ready(phone,"antiguidades");await selected(phone,"#josefo-text",268);
+ await checkCompleteChapter(phone,"antiguidades");
+ for(const theme of ["light","dark"]){
+  await phone.evaluate(t=>document.documentElement.dataset.theme=t,theme);
+  await selected(phone,"#josefo-text",268);
+  const overflow=await phone.evaluate(()=>document.documentElement.scrollWidth-window.innerWidth);
+  assert.ok(overflow<=1,"No unwanted horizontal scrolling on mobile "+theme+" theme: "+overflow+"px");
+ }
+
  assert.equal(await phone.locator("#josefo-book").inputValue(),"20");
  assert.equal(await phone.locator("#josefo-chapter").inputValue(),"12");
  await mobile.close();
  assert.deepEqual(errors,[],"JavaScript errors in Chromium");
- console.log("JOSEFO_BROWSER_PASS: two cards, 27 books, direct URLs, whole-paragraph highlight, citation clipboard, chapter boundaries, both readers mobile, biblical regression");
+ assert.deepEqual(failedGreekAssets,[],"All Greek corpus assets must load successfully");
+ console.log("JOSEFO_BROWSER_PASS: complete chapters, deep links, synopsis, preface, browser history, selectors, themes, mobile overflow, asset loading, clipboard and biblical regression");
 }finally{await browser.close();}
