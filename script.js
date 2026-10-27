@@ -1962,12 +1962,15 @@ document.addEventListener("click", async function (event) {
     const searcher = window.ScripturaLexiconSearch;
     if (!searcher) return;
     try {
-        const matches = await searcher.search(normalizeText(sid), "aramaico", "JASTROW");
         let record = null;
-        for (let page = 1; page <= Math.ceil(matches.total / RESULTS_PER_PAGE); page++) {
-            const records = await searcher.page(matches, page, RESULTS_PER_PAGE);
-            record = records.find(item => item.target === expectedTarget &&
-                item.source === "JASTROW" && item.dictionary === "aramaico");
+        for (const dictionary of ["aramaico", "hebraico"]) {
+            const matches = await searcher.search(normalizeText(sid), dictionary, "JASTROW");
+            for (let page = 1; page <= Math.ceil(matches.total / RESULTS_PER_PAGE); page++) {
+                const records = await searcher.page(matches, page, RESULTS_PER_PAGE);
+                record = records.find(item => item.target === expectedTarget &&
+                    item.source === "JASTROW" && item.dictionary === dictionary);
+                if (record) break;
+            }
             if (record) break;
         }
         if (!record || sourceCard.hidden || !sourceCard.isConnected ||
@@ -1976,11 +1979,11 @@ document.addEventListener("click", async function (event) {
         if (!target || target.id !== expectedTarget ||
             target.dataset.source !== "JASTROW" ||
             target.dataset.sourceEntry !== sid ||
-            target.dataset.dictionary !== "aramaico" ||
+            target.dataset.dictionary !== record.dictionary ||
             sourceCard.hidden || !sourceCard.isConnected ||
             openedEntryCard !== sourceCard) return;
-        if (activeDictionary !== "aramaico") {
-            selectDictionary("aramaico", {updateHash:true,focusSearch:false});
+        if (activeDictionary !== record.dictionary) {
+            selectDictionary(record.dictionary, {updateHash:true,focusSearch:false});
         }
         if (target.dataset.scripturaPrepared !== "true") {
             enrichBibliographicTooltips(target);
