@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0018",
+  "ordinal": 18,
+  "lemma_original": "ἀγαθωσύνη, -ης, ἡ",
+  "card_title": "ἀγαθωσύνη, -ης, ἡ",
+  "grammatical_class": "Substantivo feminino",
+  "printed_page": 3,
+  "source_english_full": "ἀγαθωσύνη, -ης, ἡ, [on its formation see W. 95 (90); WH. App. p. 152], found only in bibl. and eccl. writ., uprightness of heart and life, [A. V. goodness]: 2 Th. i. 11; Gal. v. 22 (unless here it denotes kindness, beneficence); Ro. xv. 14; Eph. v. 9. [Cf. Trench § lxiii.; Ellic. and Bp. Lghtft. on Gal. l. c.]*",
+  "translation_portuguese_full": [
+    "[Sobre sua formação, ver W., 95 (90); WH, Apêndice, p. 152.]",
+    "Encontrado somente em escritos bíblicos e eclesiásticos; retidão de coração e de vida [A. V.: bondade]: 2Ts 1.11; Gl 5.22 (a menos que aqui denote bondade, beneficência); Rm 15.14; Ef 5.9.",
+    "[Cf. Trench, § 63; Ellic. e Bp. Lghtft., sobre Gl, ad loc.]"
+  ],
+  "biblical_references": [
+    "2Ts 1.11",
+    "Gl 5.22",
+    "Rm 15.14",
+    "Ef 5.9"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Artigo integral da última das seis fotografias enviadas pelo usuário. Tradução já apresentada e aprovada no chat."
+    },
+    {
+      "type": "filologia",
+      "note": "A interpretação 'bondade, beneficência' em Gl 5.22 permanece explicitamente condicional ('a menos que'), conforme Thayer."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0018\" data-lemma-alias=\"agathosune\" data-search=\"ἀγαθωσύνη, -ης, ἡ Retidão de coração e vida; bondade bondade retidão coração vida beneficência 2Ts 1.11 Gl 5.22 Rm 15.14 Ef 5.9\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγαθωσύνη, -ης, ἡ</td><td>Substantivo feminino</td><td>Retidão de coração e vida; bondade</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0018\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγαθωσύνη, -ης, ἡ</h1><div class=\"entry-meta\">Substantivo feminino</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">[Sobre sua formação, ver W., 95 (90); WH, Apêndice, p. 152.]</p><p class=\"entry-text\">Encontrado somente em escritos bíblicos e eclesiásticos; retidão de coração e de vida [A. V.: bondade]: 2Ts 1.11; Gl 5.22 (a menos que aqui denote bondade, beneficência); Rm 15.14; Ef 5.9.</p><p class=\"entry-text\">[Cf. Trench, § 63; Ellic. e Bp. Lghtft., sobre Gl, ad loc.]</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Última fotografia da edição impressa de Thayer; tradução do usuário aprovada para incorporação em conjunto com os verbetes 0016 e 0017.",
+  "notes": "A classificação gramatical consta apenas no subtítulo do cartão. O texto de cada parágrafo é idêntico ao português aprovado.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0020"
+    ],
+    "requires_exact_card_match": true
+  }
+}
