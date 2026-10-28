@@ -14,6 +14,7 @@ panel.className="scripture-reader josefo-reader josefo-history-reader";
 panel.hidden=true;
 panel.setAttribute("aria-labelledby","josefo-historia-title");
 panel.innerHTML=[
+'<button type="button" class="site-back-link" data-greek-author="josefo">← Escritores gregos · Flávio Josefo</button>',
 '<div class="scripture-reader-kicker">Obras de Flávio Josefo · texto grego</div>',
 '<h1 id="josefo-historia-title"></h1>',
 '<p id="josefo-historia-original" class="scripture-reader-intro" lang="grc"></p>',

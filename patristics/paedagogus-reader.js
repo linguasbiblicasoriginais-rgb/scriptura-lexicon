@@ -17,7 +17,7 @@ root.className="patristic-reader";
 root.hidden=true;
 root.setAttribute("aria-label","Leitor do Pedagogo");
 root.innerHTML=[
-'<button type="button" class="site-back-link" data-site-section="patristica">← Literatura patrística</button>',
+'<button type="button" class="site-back-link" data-greek-author="clemente-alexandria">← Escritores gregos · Clemente de Alexandria</button>',
 '<h2 class="patristic-heading"><span lang="grc">Παιδαγωγός</span> · Pedagogo</h2>',
 '<p class="patristic-context">Clemente de Alexandria · Texto grego · Edição Otto Stählin (1905)</p>',
 '<div class="patristic-controls" role="group" aria-label="Navegação do Pedagogo">',

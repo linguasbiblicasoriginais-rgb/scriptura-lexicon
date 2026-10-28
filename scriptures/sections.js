@@ -20,7 +20,7 @@ const pages={
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
  filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
- "autores-gregos":["Autores gregos","Catálogo de autores de língua grega e pesquisa com divisões próprias de cada obra. Os leitores publicados de Josefo permanecem disponíveis em sua seção."],
+ "autores-gregos":["Escritores gregos","Selecione um escritor e abra suas obras gregas nos leitores completos, com a numeração própria de cada edição."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
 };
@@ -29,9 +29,7 @@ const categories=[
  ["patristica","Literatura patrística","Stromata e Pedagogo, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
- ["josefo","Obras de Flávio Josefo","Escritos históricos de Flávio Josefo."],
- ["filon","Obras de Fílon de Alexandria","Escritos filosóficos e exegéticos de Fílon de Alexandria."],
- ["autores-gregos","Autores gregos","Catálogo extensível de autores e obras em língua grega."],
+ ["autores-gregos","Escritores gregos","Obras gregas de Josefo e Clemente de Alexandria; Fílon já catalogado."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -175,12 +173,12 @@ function showHub(section){
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
  if(section==="patristica"){
-  card("Stromata — Στρώματα","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1906–1909)",{patristicWork:"stromata"});
-  card("Pedagogo — Παιδαγωγός","Clemente de Alexandria · texto grego integral · edição Otto Stählin (1905)",{patristicWork:"paedagogus"});
+  card("Clemente de Alexandria","Acesse as obras patrísticas gregas pela biblioteca Escritores gregos.",{greekAuthor:"clemente-alexandria"});
  }
- if(section==="josefo"){
-  card("Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία","20 livros · 257 capítulos · 7.376 seções · texto grego integral · Niese / Perseus",{josefoWork:"antiguidades"});
-  card("A Guerra dos Judeus — Ἰουδαϊκοῦ πολέμου πρὸς Ῥωμαίους","7 livros · 110 capítulos · 4.001 seções · texto grego integral · Niese / Perseus",{josefoWork:"guerra"});
+ if(section==="autores-gregos"){
+  card("Flávio Josefo","Quatro obras gregas disponíveis, com navegação por edição.",{greekAuthor:"josefo"});
+  card("Clemente de Alexandria","Stromata e Pedagogo, em texto grego.",{greekAuthor:"clemente-alexandria"});
+  card("Fílon de Alexandria","Registro autoral preservado; obras ainda não publicadas.",{greekAuthor:"filon"});
  }
  if(editions[section])for(const [code,name] of editions[section])
    editionCard(code,name,section);
@@ -192,6 +190,26 @@ function showHub(section){
  }
  return true;
 }
+const greekAuthorNames=Object.freeze({
+ josefo:"Flávio Josefo",
+ "clemente-alexandria":"Clemente de Alexandria",
+ filon:"Fílon de Alexandria"
+});
+function showGreekAuthor(authorId,push=true){
+ if(!Object.prototype.hasOwnProperty.call(greekAuthorNames,authorId))return false;
+ if(!showHub("autores-gregos"))return false;
+ if(greekAuthors)greekAuthors.hidden=true;
+ title.textContent=greekAuthorNames[authorId];
+ const works=window.ScripturaGreekAuthors?.listWorks(authorId)||[];
+ description.textContent=works.length
+  ?works.length+" obra(s) registrada(s). Selecione uma obra para consultar o texto integral."
+  :"Ainda não há obras gregas publicadas deste autor.";
+ cards.replaceChildren();
+ card("← Escritores gregos","Voltar à lista dos escritores.",{siteSection:"autores-gregos"});
+ for(const work of works)card(work.title,"Abrir texto grego original e navegar pelas divisões próprias da edição.",{greekWork:work.id});
+ if(push&&location.hash!=="#autores-gregos/"+authorId)history.pushState(null,"","#autores-gregos/"+authorId);
+ return true;
+}
 function showDictionary(){
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaJosephus?.hide();
@@ -201,6 +219,7 @@ function showDictionary(){
  document.querySelectorAll(".site-menu-item").forEach(button=>{button.classList.remove("active");button.removeAttribute("aria-current")});
 }
 function openSection(section){
+ if(section==="josefo"||section==="filon")return showGreekAuthor(section,true);
  if(!showHub(section))return false;
  closeMenu();
  if(window.location.hash!=="#"+section)history.pushState(null,"","#"+section);
@@ -214,12 +233,20 @@ function handleHash(){
  if(window.ScripturaPaedagogus?.isPaedagogusHash())return window.ScripturaPaedagogus.showFromHash();
  if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
- const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|autores-gregos|dicionarios|configuracoes)$/.exec(window.location.hash);
+ const greek=/^#autores-gregos\/(josefo|clemente-alexandria|filon)$/.exec(window.location.hash);
+ if(greek)return showGreekAuthor(greek[1],false);
+ if(window.location.hash==="#josefo")return showGreekAuthor("josefo",false);
+ if(window.location.hash==="#filon")return showGreekAuthor("filon",false);
+ const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|autores-gregos|dicionarios|configuracoes)$/.exec(window.location.hash);
  if(m)return showHub(m[1]);
  if(!window.location.hash)return showHub("inicio");
  return false;
 }
 document.addEventListener("click",function(event){
+ const author=event.target.closest("[data-greek-author]");
+ if(author){event.preventDefault();showGreekAuthor(author.dataset.greekAuthor,true);closeMenu();return;}
+ const greekWork=event.target.closest("[data-greek-work]");
+ if(greekWork){event.preventDefault();if(!window.ScripturaGreekAuthors?.openWork(greekWork.dataset.greekWork))description.textContent="Leitor não disponível.";return;}
  const section=event.target.closest("[data-site-section]");
  if(section){event.preventDefault();openSection(section.dataset.siteSection);return;}
  const work=event.target.closest("[data-patristic-work]");
@@ -235,5 +262,5 @@ document.addEventListener("click",function(event){
  const edition=event.target.closest("[data-site-edition]");
  if(edition){window.ScripturaScriptures?.show(edition.dataset.siteEdition,null,1,1,true,edition.dataset.siteEditionScope);}
 });
-window.ScripturaSections={openSection,showHub,showDictionary,handleHash,pages};
+window.ScripturaSections={openSection,showHub,showGreekAuthor,showDictionary,handleHash,pages};
 })();
