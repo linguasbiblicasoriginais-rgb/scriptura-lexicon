@@ -16,6 +16,7 @@ const drawer=html.split('<aside')[1]?.split("</aside>")[0]||"";
 const expected=[
  ["escrituras","Escrituras Sagradas"],
  ["patristica","Literatura patrística"],
+ ["autores-gregos","Escritores gregos"],
  ["apocrifos","Literatura apócrifa"],
  ["pseudepigrafos","Textos pseudepigráficos"],
  ["dicionarios","Dicionários e Léxicos"],
@@ -23,12 +24,12 @@ const expected=[
 ];
 const mainMenu=[...drawer.matchAll(/class="site-menu-item"\s+data-site-section="([^"]+)"/g)]
 .map(m=>m[1]);
-assert.deepEqual(mainMenu,expected.map(x=>x[0]),"O menu sanduíche deve conter apenas 6 itens");
+assert.deepEqual(mainMenu,["escrituras","patristica","apocrifos","pseudepigrafos","autores-gregos","dicionarios","configuracoes"],"O menu deve apresentar as categorias públicas esperadas");
 assert.ok(!/dictionary-option|scripture-menu-option|name="site-theme"/.test(drawer),
           "Subitens ou controles de tema vazaram para o menu sanduíche");
 for(const [key,title] of expected){
  assert.ok(drawer.includes(title),title+" faltando");
- assert.ok(controller.includes(key+":"),key+" sem rota");
+ assert.ok(controller.includes(key+":")||controller.includes('"'+key+'":'),key+" sem rota");
 }
 const hub=html.split('id="site-section-hub"')[1]?.split("</section>")[0]||"";
 assert.ok(hub.includes('id="site-settings-content"'));
@@ -84,5 +85,5 @@ for(const [pref,count] of [["uxlc",929],["lxx",1104],["vul",1334],
 }
 const refs=[...html.matchAll(/src="(scriptures\/texts\/[^"]+\.js)"/g)].map(x=>x[1]);
 assert.equal(refs.length,new Set(refs).size,"Scripts bíblicos duplicados no HTML");
-console.log("OK: 6 itens principais; subitens no painel; tema em configurações;");
+console.log("OK: categorias públicas e escritores consolidados; subitens no painel; tema em configurações;");
 console.log("   separação dinâmica de Ester e Daniel, fonte preservada, 6 corpora íntegros.");
