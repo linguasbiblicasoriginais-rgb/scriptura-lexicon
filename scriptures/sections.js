@@ -146,6 +146,7 @@ function card(name,desc,attrs){
  if(attrs.siteSection==="autores-gregos")button.classList.add("site-section-card--greek-authors");
  if(attrs.siteSection==="dicionarios")button.classList.add("site-section-card--lexicons");
  if(attrs.siteSection==="apocrifos")button.classList.add("site-section-card--apocrypha");
+ if(attrs.siteSection==="pseudepigrafos")button.classList.add("site-section-card--pseudepigrapha");
  const heading=document.createElement("strong");heading.textContent=name;
  const info=document.createElement("span");info.textContent=desc;
  button.append(heading,info);
