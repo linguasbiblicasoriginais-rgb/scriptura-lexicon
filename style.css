@@ -28,7 +28,7 @@
 
     --font-main: "Noto Serif", serif;
     --font-hebrew: "Noto Serif Hebrew", "Noto Serif", serif;
-    --font-syriac: "Noto Sans Syriac", "Noto Serif", serif;
+    --font-syriac: "Estrangelo Edessa", "Noto Sans Syriac", "Noto Serif", serif;
 
     --shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
     --tooltip-shadow: 0 18px 45px rgba(0, 0, 0, 0.48);
@@ -998,66 +998,88 @@ tbody tr:last-child td {
 }
 
 /* Cores consistentes por fonte em resultados e verbetes. */
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="LSJ"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="LSJ"],
+.search-row[data-source="LSJ"] .source-pill,
+.entry-card[data-source="LSJ"] .source-tag {
     --source-text: #b9c7e9;
     --source-bg: rgba(88, 110, 161, 0.14);
     --source-border: rgba(155, 174, 218, 0.40);
 }
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"],
+.search-row[data-source="ROBINSON"] .source-pill,
+.entry-card[data-source="ROBINSON"] .source-tag {
     --source-text: #a6c8ff;
     --source-bg: rgba(56, 114, 225, 0.16);
     --source-border: rgba(111, 165, 255, 0.43);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="ABBOTT-SMITH"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="ABBOTT-SMITH"],
+.search-row[data-source="ABBOTT-SMITH"] .source-pill,
+.entry-card[data-source="ABBOTT-SMITH"] .source-tag {
     --source-text: #8fdbef;
     --source-bg: rgba(28, 142, 179, 0.14);
     --source-border: rgba(70, 196, 218, 0.36);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="BDAG"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="BDAG"],
+.search-row[data-source="BDAG"] .source-pill,
+.entry-card[data-source="BDAG"] .source-tag {
     --source-text: #c5b6ff;
     --source-bg: rgba(115, 90, 205, 0.17);
     --source-border: rgba(158, 136, 246, 0.42);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="LEH"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="LEH"],
+.search-row[data-source="LEH"] .source-pill,
+.entry-card[data-source="LEH"] .source-tag {
     --source-text: #8be2d6;
     --source-bg: rgba(38, 147, 131, 0.15);
     --source-border: rgba(75, 199, 177, 0.39);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="PEREIRA"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="PEREIRA"],
+.search-row[data-source="PEREIRA"] .source-pill,
+.entry-card[data-source="PEREIRA"] .source-tag {
     --source-text: #edb3d2;
     --source-bg: rgba(157, 77, 129, 0.17);
     --source-border: rgba(212, 131, 177, 0.41);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="DGP"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="DGP"],
+.search-row[data-source="DGP"] .source-pill,
+.entry-card[data-source="DGP"] .source-tag {
     --source-text: #f1d096;
     --source-bg: rgba(159, 117, 49, 0.15);
     --source-border: rgba(223, 173, 89, 0.40);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="HALOT"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="HALOT"],
+.search-row[data-source="HALOT"] .source-pill,
+.entry-card[data-source="HALOT"] .source-tag {
     --source-text: #b5deaa;
     --source-bg: rgba(99, 151, 85, 0.14);
     --source-border: rgba(144, 194, 130, 0.37);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="THAYER"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="THAYER"],
+.search-row[data-source="THAYER"] .source-pill,
+.entry-card[data-source="THAYER"] .source-tag {
     --source-text: #b8b8ff;
     --source-bg: rgba(92, 96, 184, 0.17);
     --source-border: rgba(151, 155, 245, 0.39);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="KBS"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="KBS"],
+.search-row[data-source="KBS"] .source-pill,
+.entry-card[data-source="KBS"] .source-tag {
     --source-text: #b1c8d9;
     --source-bg: rgba(91, 125, 147, 0.16);
     --source-border: rgba(150, 180, 203, 0.40);
 }
 
-:is(.source-pill, .source-tag, .source-filter-option)[data-source="CLINES"] {
+:is(.source-pill, .source-tag, .source-filter-option)[data-source="CLINES"],
+.search-row[data-source="CLINES"] .source-pill,
+.entry-card[data-source="CLINES"] .source-tag {
     --source-text: #ddb8ec;
     --source-bg: rgba(132, 83, 155, 0.16);
     --source-border: rgba(182, 134, 211, 0.39);
@@ -1188,7 +1210,8 @@ tbody tr:last-child td {
     margin-top: 1.05rem;
 }
 
-.syriac {
+.syriac,
+:lang(syr) {
     color: var(--interactive);
 
     font-family: var(--font-syriac);
@@ -1196,7 +1219,8 @@ tbody tr:last-child td {
 }
 
 
-.syriac-token {
+.syriac-token,
+:lang(syr) {
     direction: rtl;
     unicode-bidi: isolate;
 
@@ -1681,67 +1705,89 @@ tbody tr:last-child td {
 }
 
 /* Mesmas famílias cromáticas das fontes, com tons legíveis no fundo claro. */
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="LSJ"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="LSJ"],
+:root[data-theme="light"] .search-row[data-source="LSJ"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="LSJ"] .source-tag {
     --source-text: #344869;
     --source-bg: rgba(80, 103, 157, 0.11);
     --source-border: rgba(82, 105, 155, 0.32);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ROBINSON"],
+:root[data-theme="light"] .search-row[data-source="ROBINSON"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="ROBINSON"] .source-tag {
     --source-text: #2459a3;
     --source-bg: rgba(56, 114, 225, 0.105);
     --source-border: rgba(56, 114, 225, 0.34);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ABBOTT-SMITH"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="ABBOTT-SMITH"],
+:root[data-theme="light"] .search-row[data-source="ABBOTT-SMITH"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="ABBOTT-SMITH"] .source-tag {
     --source-text: #006a84;
     --source-bg: rgba(28, 142, 179, 0.10);
     --source-border: rgba(28, 142, 179, 0.32);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="BDAG"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="BDAG"],
+:root[data-theme="light"] .search-row[data-source="BDAG"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="BDAG"] .source-tag {
     --source-text: #6144aa;
     --source-bg: rgba(115, 90, 205, 0.105);
     --source-border: rgba(115, 90, 205, 0.33);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="LEH"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="LEH"],
+:root[data-theme="light"] .search-row[data-source="LEH"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="LEH"] .source-tag {
     --source-text: #147366;
     --source-bg: rgba(38, 147, 131, 0.105);
     --source-border: rgba(38, 147, 131, 0.34);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="PEREIRA"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="PEREIRA"],
+:root[data-theme="light"] .search-row[data-source="PEREIRA"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="PEREIRA"] .source-tag {
     --source-text: #904265;
     --source-bg: rgba(157, 77, 129, 0.105);
     --source-border: rgba(157, 77, 129, 0.32);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="DGP"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="DGP"],
+:root[data-theme="light"] .search-row[data-source="DGP"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="DGP"] .source-tag {
     --source-text: #865815;
     --source-bg: rgba(159, 117, 49, 0.115);
     --source-border: rgba(159, 117, 49, 0.34);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="HALOT"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="HALOT"],
+:root[data-theme="light"] .search-row[data-source="HALOT"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="HALOT"] .source-tag {
     --source-text: #3d6a31;
     --source-bg: rgba(99, 151, 85, 0.105);
     --source-border: rgba(99, 151, 85, 0.35);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="THAYER"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="THAYER"],
+:root[data-theme="light"] .search-row[data-source="THAYER"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="THAYER"] .source-tag {
     --source-text: #514b9d;
     --source-bg: rgba(92, 96, 184, 0.105);
     --source-border: rgba(92, 96, 184, 0.34);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="KBS"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="KBS"],
+:root[data-theme="light"] .search-row[data-source="KBS"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="KBS"] .source-tag {
     --source-text: #43657b;
     --source-bg: rgba(91, 125, 147, 0.105);
     --source-border: rgba(91, 125, 147, 0.34);
 }
 
-:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="CLINES"] {
+:root[data-theme="light"] :is(.source-pill, .source-tag, .source-filter-option)[data-source="CLINES"],
+:root[data-theme="light"] .search-row[data-source="CLINES"] .source-pill,
+:root[data-theme="light"] .entry-card[data-source="CLINES"] .source-tag {
     --source-text: #7a4b8d;
     --source-bg: rgba(132, 83, 155, 0.105);
     --source-border: rgba(132, 83, 155, 0.34);
@@ -2194,7 +2240,6 @@ tbody tr:last-child td {
     mask-image:url("imagens/icones/configuracoes.svg");
     -webkit-mask-position:center;
     mask-position:center;
-    /* Redução óptica: mantém a caixa de 22/25 px e o alinhamento do texto. */
     -webkit-mask-size:84% 84%;
     mask-size:84% 84%;
     -webkit-mask-repeat:no-repeat;

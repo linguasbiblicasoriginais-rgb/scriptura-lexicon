@@ -1945,6 +1945,68 @@ async function openEntry(row) {
 }
 
 
+
+// JASTROW: remissões com RID e destino interno documentalmente verificados.
+// Não interfere nos links dos demais léxicos nem nos RID desconhecidos.
+document.addEventListener("click", async function (event) {
+    const link = event.target instanceof Element
+        ? event.target.closest("a.scriptura-jastrow-xref[data-jastrow-target]")
+        : null;
+    if (!link) return;
+    const sourceCard = link.closest('article.entry-card[data-source="JASTROW"]');
+    if (!sourceCard) return;
+    event.preventDefault();
+    const sid = link.dataset.jastrowTarget;
+    if (!/^[A-Z]\d{5}$/.test(sid)) return;
+    const expectedTarget = "entry-jastrow-" + sid.toLowerCase();
+    const searcher = window.ScripturaLexiconSearch;
+    if (!searcher) return;
+    try {
+        let record = null;
+        for (const dictionary of ["aramaico", "hebraico"]) {
+            const matches = await searcher.search(normalizeText(sid), dictionary, "JASTROW");
+            for (let page = 1; page <= Math.ceil(matches.total / RESULTS_PER_PAGE); page++) {
+                const records = await searcher.page(matches, page, RESULTS_PER_PAGE);
+                record = records.find(item => item.target === expectedTarget &&
+                    item.source === "JASTROW" && item.dictionary === dictionary);
+                if (record) break;
+            }
+            if (record) break;
+        }
+        if (!record || sourceCard.hidden || !sourceCard.isConnected ||
+            openedEntryCard !== sourceCard) return;
+        const target = await searcher.loadArticle(record.id);
+        if (!target || target.id !== expectedTarget ||
+            target.dataset.source !== "JASTROW" ||
+            target.dataset.sourceEntry !== sid ||
+            target.dataset.dictionary !== record.dictionary ||
+            sourceCard.hidden || !sourceCard.isConnected ||
+            openedEntryCard !== sourceCard) return;
+        if (activeDictionary !== record.dictionary) {
+            selectDictionary(record.dictionary, {updateHash:true,focusSearch:false});
+        }
+        if (target.dataset.scripturaPrepared !== "true") {
+            enrichBibliographicTooltips(target);
+            enrichBibleReferenceTooltips(target);
+            target.dataset.scripturaPrepared = "true";
+        }
+        if (openedEntryCard && openedEntryCard !== target) openedEntryCard.hidden = true;
+        target.hidden = false;
+        openedEntryCard = target;
+        lastOpenedRow = null;
+        entryNavigationCount.textContent = "Remissão JASTROW · " + sid;
+        searchTableWrapper.hidden = true;
+        noResults.hidden = true;
+        entryNavigation.hidden = false;
+        target.scrollIntoView({behavior:"smooth",block:"start"});
+        target.classList.remove("entry-highlight");
+        void target.offsetWidth;
+        target.classList.add("entry-highlight");
+    } catch (error) {
+        console.error("Scriptura Lexicon: remissão JASTROW não aberta", sid, error);
+    }
+});
+
 /* ==========================================================
    UTILIDADES
    ========================================================== */

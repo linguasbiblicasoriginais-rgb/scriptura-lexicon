@@ -2,9 +2,9 @@
 
 ## Escopo editorial
 
-A seção **Autores gregos** reúne autores de **língua grega**, não apenas autores de etnia grega. As antigas seções dedicadas a **Flávio Josefo** e **Fílon de Alexandria** foram consolidadas. O catálogo inicial contém somente esses **autores**; não contém obras ou passagens fictícias nem textos publicados nessa área.
+A seção **Autores gregos** reúne autores de **língua grega**, não apenas autores de etnia grega. O catálogo transversal complementa as seções existentes de **Flávio Josefo** e **Fílon de Alexandria**, sem remover leitores nem acervos publicados. O catálogo inicial contém somente esses **autores**; não contém obras ou passagens fictícias nem textos publicados nessa área.
 
-A entrada de menu e a página inicial abrem a mesma seção (`#autores-gregos`). URLs antigas (`#josefo` e `#filon`) são redirecionadas para a nova seção, com seleção automática do autor correspondente.
+A entrada de menu e a página inicial abrem a mesma seção (`#autores-gregos`). As URLs existentes (`#josefo`, `#filon` e os links diretos dos leitores de Josefo) continuam funcionando. A nova seção é acessível por `#autores-gregos`; o autor é escolhido no formulário.
 
 ## Estrutura de pesquisa
 
@@ -49,7 +49,7 @@ window.ScripturaGreekAuthors.registerWork({
 
 ## Limites atuais
 
-- Não há obras nem trechos de Fílon, Josefo, Platão ou Aristóteles publicados nesta seção.
+- Ainda não há obras nem trechos cadastrados **no novo catálogo de pesquisa**. Isso não altera as obras gregas de Josefo já publicadas nos leitores independentes de `#josefo`.
 - A pesquisa pode receber novos autores, obras e divisões por módulos JavaScript, mas os textos deverão ser providos e verificados editorialmente.
 - A integração com pesquisa textual integral, variantes, edições múltiplas e aparato crítico é trabalho separado.
 - A verificação deste desenvolvimento cobre a estrutura do frontend e um teste simulado de registro, filtragem e resultado; não substitui teste visual no navegador, nem comprova deploy público.
