@@ -5,7 +5,8 @@
 "use strict";
 const authors = new Map([
   ["filon", {id:"filon",name:"Fílon de Alexandria"}],
-  ["josefo", {id:"josefo",name:"Flávio Josefo"}]
+  ["josefo", {id:"josefo",name:"Flávio Josefo"}],
+  ["clemente-alexandria", {id:"clemente-alexandria",name:"Clemente de Alexandria"}]
 ]);
 const works = new Map(); // Sem obras fictícias; futuro preenchimento editorial.
 const ui = {
@@ -56,6 +57,12 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
+  if(work && publishedOpeners[work.id]){
+    ui.fields.replaceChildren();
+    if(ui.submit)ui.submit.textContent="Abrir texto integral";
+    return;
+  }
+  if(ui.submit)ui.submit.textContent="Pesquisar trechos";
   const defs=work?.levels?.length ? work.levels : [
     {key:"capitulo-secao",label:"Capítulo/Seção"},
     {key:"subsecao",label:"Subseção"}
@@ -110,6 +117,10 @@ function search(event){
   event.preventDefault();
   const work=currentWork();
   if(!work){setStatus("Selecione uma obra cadastrada.");return;}
+  if(publishedOpeners[work.id]){
+    if(!openWork(work.id))setStatus("Não foi possível abrir o leitor desta obra.");
+    return;
+  }
   if(ui.results)ui.results.replaceChildren();
   const terms=new Map();
   work.levels.forEach(level=>{
@@ -137,6 +148,37 @@ function search(event){
   });
   if(matches.length>100)setStatus(matches.length+" trechos encontrados; mostrando os primeiros 100. Refine a referência.");
 }
+// Catálogo relacional: a obra aponta ao leitor original; corpora e IDs não são copiados.
+const publishedOpeners=Object.freeze({
+  "josefo-antiguidades":()=>window.ScripturaJosephus?.show(1,1,27,true),
+  "josefo-guerra":()=>window.ScripturaJosephusHistory?.show("guerra",1,0,1,true),
+  "josefo-vida":()=>window.ScripturaJosephusHistory?.show("vida",1,1,1,true),
+  "josefo-apiao":()=>window.ScripturaJosephusHistory?.show("apiao",1,1,1,true),
+  "clemente-stromata":()=>window.ScripturaPatristics?.show(1,1,1,1,true),
+  "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true)
+});
+function openWork(id){
+  if(!Object.prototype.hasOwnProperty.call(publishedOpeners,id))return false;
+  const ready={
+    "josefo-antiguidades":window.ScripturaJosephus?.show,
+    "josefo-guerra":window.ScripturaJosephusHistory?.show,
+    "josefo-vida":window.ScripturaJosephusHistory?.show,
+    "josefo-apiao":window.ScripturaJosephusHistory?.show,
+    "clemente-stromata":window.ScripturaPatristics?.show,
+    "clemente-paedagogus":window.ScripturaPaedagogus?.show
+  };
+  if(typeof ready[id]!=="function")return false;
+  publishedOpeners[id]();return true;
+}
+const publishedWorks=[
+  {id:"josefo-antiguidades",authorId:"josefo",title:"Antiguidades Judaicas — Ἰουδαϊκὴ ἀρχαιολογία",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"}]},
+  {id:"josefo-guerra",authorId:"josefo",title:"A Guerra dos Judeus — Ἰουδαϊκοῦ πολέμου πρὸς Ῥωμαίους",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"}]},
+  {id:"josefo-vida",authorId:"josefo",title:"Vida de Flávio Josefo — Ἰωσήπου βίος",levels:[{key:"livro",label:"Livro"},{key:"secao",label:"Seção"}]},
+  {id:"josefo-apiao",authorId:"josefo",title:"Contra Ápio — Περὶ ἀρχαιότητος Ἰουδαίων",levels:[{key:"livro",label:"Livro"},{key:"secao",label:"Seção"}]},
+  {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
+  {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
+];
+publishedWorks.forEach(registerWork);
 if(ui.form&&ui.author&&ui.work&&ui.fields){
   refreshAuthors();
   refreshWorks();
@@ -144,7 +186,7 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
   ui.work.addEventListener("change",()=>{renderFields();if(ui.submit)ui.submit.disabled=!currentWork();ui.results?.replaceChildren();setStatus(currentWork()?"Preencha a referência desejada ou pesquise todos os trechos publicados.":"Selecione uma obra.");});
   ui.form.addEventListener("submit",search);
 }
-window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,
+window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,openWork,
   listAuthors:()=>sorted(Array.from(authors.values())).map(a=>({...a})),
   listWorks:authorId=>getWorks(authorId).map(w=>({id:w.id,authorId:w.authorId,title:w.title,levels:w.levels.map(x=>({...x})),passageCount:w.passages.length}))
 };

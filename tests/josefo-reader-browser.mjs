@@ -83,13 +83,11 @@ async function verifyEveryChapter(page){
 try{
  const context=await browser.newContext({viewport:{width:1280,height:900},permissions:["clipboard-read","clipboard-write"]});
  const page=await context.newPage();page.on("pageerror",e=>errors.push(e.message));watchAssetErrors(page);
- await page.goto(base+"/#josefo",{waitUntil:"domcontentloaded"});
- const cards=page.locator('[data-josefo-work]');
+ await page.goto(base+"/#autores-gregos/josefo",{waitUntil:"domcontentloaded"});
+ const cards=page.locator('[data-greek-work]');
  await cards.first().waitFor();
- assert.equal(await cards.count(),2,"Exactly two Josefo cards");
- assert.equal(await cards.nth(0).getAttribute("data-josefo-work"),"antiguidades");
- assert.equal(await cards.nth(1).getAttribute("data-josefo-work"),"guerra");
- await cards.nth(0).click();
+ assert.equal(await cards.count(),4,"All four Josefo works must be listed");
+ await page.locator('[data-greek-work="josefo-antiguidades"]').click();
  await ready(page,"antiguidades");
  assert.equal(await page.locator("#josefo-book").locator("option").count(),20);
  assert.equal(await page.locator("#josefo-chapter").locator("option").count(),24,"Synopsis + preface + 22 chapters");
@@ -168,8 +166,8 @@ try{
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
- await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
- await page.locator('[data-patristic-work="stromata"]').click();
+ await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+ await page.locator('[data-greek-work="clemente-stromata"]').click();
  await page.locator("#patristic-reader").waitFor({state:"visible",timeout:30000});
  await page.goto(base+"/#dicionarios",{waitUntil:"domcontentloaded"});
  await page.locator("#site-dictionary-options").waitFor({state:"visible"});

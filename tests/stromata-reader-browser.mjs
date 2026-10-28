@@ -104,8 +104,8 @@ try {
   await page.selectOption("#stromata-book","2");
   await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.includes("II"),null,{timeout:5000});
   await verifyReady("Troca de livro I → II");
-  await page.goto(origin+"/#patristica",{waitUntil:"domcontentloaded"});
-  await page.locator('[data-patristic-work="stromata"]').click();
+  await page.goto(origin+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+  await page.locator('[data-greek-work="clemente-stromata"]').click();
   await verifyReady("Acesso pelo cartão de Literatura patrística");
   console.log("STROMATA_BROWSE_SMOKE_PASS");
 }finally{await browser.close();}

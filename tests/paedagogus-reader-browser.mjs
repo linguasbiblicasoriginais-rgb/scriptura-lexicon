@@ -64,11 +64,11 @@ try {
  await ready("Navegação para Livro II");
  await page.selectOption("#paedagogus-book","3");
  await ready("Navegação para Livro III");
- await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
- await page.locator('[data-patristic-work="paedagogus"]').click();
+ await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+ await page.locator('[data-greek-work="clemente-paedagogus"]').click();
  await ready("Cartão de Literatura patrística");
- await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
- await page.locator('[data-patristic-work="stromata"]').click();
+ await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+ await page.locator('[data-greek-work="clemente-stromata"]').click();
  await page.waitForFunction(()=>document.querySelector("#stromata-status")?.textContent.startsWith("Texto integral carregado"),null,{timeout:60000});
  assert.equal(await page.locator("#paedagogus-reader").isVisible(),false,"Obras patrísticas isoladas entre si");
  console.log("PAEDAGOGUS_BROWSER_PASS");
