@@ -25,7 +25,7 @@ const originalBlobs={
 };
 for(const [path,expected] of Object.entries(originalBlobs)){
  const data=readFileSync(path);
- const actual=createHash("sha1").update("blob "+data.length+"\\0").update(data).digest("hex");
+ const actual=createHash("sha1").update("blob "+data.length+"\0").update(data).digest("hex");
  assert.equal(actual,expected,"Arquivo grego alterado: "+path);
 }
 console.log("PASS: 17 arquivos canônicos preservados por hash Git.");
