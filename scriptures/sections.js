@@ -10,6 +10,7 @@ const cards=document.getElementById("site-section-cards");
 const back=hub.querySelector(".site-back-link");
 const dictionaryOptions=document.getElementById("site-dictionary-options");
 const settings=document.getElementById("site-settings-content");
+const greekAuthors=document.getElementById("site-greek-authors-content");
 const originalVisibility=new Map(Array.from(main.children).map(node=>[node,node.hidden]));
 const pages={
  inicio:["Biblioteca Scriptura Lexicon","Escrituras, tradições textuais e instrumentos de pesquisa filológica, organizados em áreas independentes."],
@@ -19,6 +20,7 @@ const pages={
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
  filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
+ "autores-gregos":["Autores gregos","Catálogo de autores de língua grega e pesquisa com divisões próprias de cada obra. Os leitores publicados de Josefo permanecem disponíveis em sua seção."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
 };
@@ -29,6 +31,7 @@ const categories=[
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
  ["josefo","Obras de Flávio Josefo","Escritos históricos de Flávio Josefo."],
  ["filon","Obras de Fílon de Alexandria","Escritos filosóficos e exegéticos de Fílon de Alexandria."],
+ ["autores-gregos","Autores gregos","Catálogo extensível de autores e obras em língua grega."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -142,6 +145,7 @@ function card(name,desc,attrs){
  if(attrs.siteSection==="patristica")button.classList.add("site-section-card--patristic");
  if(attrs.siteSection==="configuracoes")button.classList.add("site-section-card--settings");
  if(attrs.siteSection==="josefo")button.classList.add("site-section-card--josephus");
+ if(attrs.siteSection==="autores-gregos")button.classList.add("site-section-card--greek-authors");
  const heading=document.createElement("strong");heading.textContent=name;
  const info=document.createElement("span");info.textContent=desc;
  button.append(heading,info);
@@ -164,6 +168,7 @@ function showHub(section){
  back.hidden=section==="inicio";
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
+ if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos";
  cards.replaceChildren();
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
@@ -207,7 +212,7 @@ function handleHash(){
  if(window.ScripturaPaedagogus?.isPaedagogusHash())return window.ScripturaPaedagogus.showFromHash();
  if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
- const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|dicionarios|configuracoes)$/.exec(window.location.hash);
+ const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|josefo|filon|autores-gregos|dicionarios|configuracoes)$/.exec(window.location.hash);
  if(m)return showHub(m[1]);
  if(!window.location.hash)return showHub("inicio");
  return false;

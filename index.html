@@ -70,6 +70,7 @@
             <button type="button" class="site-menu-item" data-site-section="pseudepigrafos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M5 2h11l4 4v15H5V2Zm11 0v4h4M8 11h9m-9 4h9m-9 3h6'/></svg><span>Textos pseudepigráficos</span></button>
             <button type="button" class="site-menu-item" data-site-section="josefo"><span class="site-josephus-icon" aria-hidden="true"></span><span>Obras de Flávio Josefo</span></button>
             <button type="button" class="site-menu-item" data-site-section="filon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 18V8h14v10M3 8l9-5 9 5M9 11v5m6-5v5"/></svg><span>Obras de Fílon de Alexandria</span></button>
+            <button type="button" class="site-menu-item" data-site-section="autores-gregos"><span class="site-greek-authors-icon" aria-hidden="true"></span><span>Autores gregos</span></button>
             <button type="button" class="site-menu-item" data-site-section="dicionarios"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M3 5h7a4 4 0 0 1 4 4v12a4 4 0 0 0-4-4H3V5Zm18 0h-3a4 4 0 0 0-4 4v12a4 4 0 0 1 4-4h3V5ZM6 9h5m-5 3h5'/></svg><span>Dicionários e Léxicos</span></button>
             <button type="button" class="site-menu-item" data-site-section="configuracoes"><span class="site-settings-icon" aria-hidden="true"></span><span>Configurações</span></button>
         </nav>
@@ -110,6 +111,24 @@
             <h1 id="site-section-title">Biblioteca</h1>
             <p id="site-section-description"></p>
             <div id="site-section-cards" class="site-section-cards"></div>
+            <section id="site-greek-authors-content" class="site-subsection-content greek-authors-panel" aria-labelledby="greek-authors-search-title" hidden>
+                <h2 id="greek-authors-search-title">Pesquisa de autores gregos</h2>
+                <p class="greek-authors-intro">Autores de língua grega, independentemente de origem étnica. A organização das referências respeita a divisão própria de cada obra e edição.</p>
+                <form id="greek-authors-search" class="greek-authors-form">
+                    <div class="greek-authors-field">
+                        <label for="greek-author">Autor</label>
+                        <select id="greek-author" name="author" required><option value="">Selecione um autor</option></select>
+                    </div>
+                    <div class="greek-authors-field">
+                        <label for="greek-work">Obra</label>
+                        <select id="greek-work" name="work" disabled required><option value="">Selecione uma obra</option></select>
+                    </div>
+                    <div id="greek-authors-reference-fields" class="greek-authors-reference-fields" aria-label="Divisões da obra"></div>
+                    <div class="greek-authors-actions"><button type="submit" id="greek-authors-submit" disabled>Pesquisar trechos</button></div>
+                </form>
+                <p id="greek-authors-status" class="greek-authors-status" role="status" aria-live="polite"></p>
+                <div id="greek-authors-results" class="greek-authors-results" aria-label="Trechos encontrados"></div>
+            </section>
             <div id="site-dictionary-options" class="site-subsection-content" hidden>        <nav class="dictionary-nav" aria-label="Escolher dicionário">
             <button class="dictionary-option" type="button" data-dictionary-target="hebraico">
                 <span class="dictionary-option-name">Hebraico–Português</span>
@@ -4256,6 +4275,7 @@
     <script defer src="josefo/reader.js"></script>
     <script defer src="josefo/historia-catalog.js"></script>
     <script defer src="josefo/historia-reader.js"></script>
+    <script defer src="scriptures/greek-authors.js"></script>
     <script defer src="scriptures/sections.js"></script>
     <script defer src="script.js"></script>
     <script defer src="lexicons/dgp-format.js"></script>
