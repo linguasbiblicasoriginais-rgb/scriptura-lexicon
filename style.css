@@ -2352,3 +2352,32 @@ tbody tr:last-child td {
     width:25px;
     height:25px;
 }
+/* Literatura apócrifa — SVG original aplicado ao menu lateral e ao cartão inicial.
+   O formato monocromático acompanha os temas claro e escuro por currentColor. */
+.site-apocrypha-icon,
+.site-section-card--apocrypha strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/literatura-apocrifa.svg");
+    mask-image:url("imagens/icones/literatura-apocrifa.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--apocrypha strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--apocrypha strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
