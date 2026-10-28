@@ -2324,3 +2324,31 @@ tbody tr:last-child td {
 .greek-authors-result p{margin:7px 0 0;line-height:1.6;white-space:pre-wrap;color:var(--text-primary)}
 .greek-authors-result .greek-authors-translation{font-size:.91rem;color:var(--text-secondary)}
 @media(max-width:600px){.greek-authors-form,.greek-authors-reference-fields{grid-template-columns:minmax(0,1fr)}}
+/* Dicionários e Léxicos — SVG original, cor adaptável aos temas claro/escuro. */
+.site-lexicons-icon,
+.site-section-card--lexicons strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/dicionarios-lexicos.svg");
+    mask-image:url("imagens/icones/dicionarios-lexicos.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--lexicons strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--lexicons strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
