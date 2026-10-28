@@ -17,7 +17,7 @@ const originalBlobs={
  "josefo/texts/guerra-3.js":"9faeeae55237a3fd8173ad1ea124514778b297ed",
  "josefo/texts/guerra-4.js":"f9639b896c9cc2d94d67c4d545298b98e043b2ee",
  "josefo/texts/guerra-5.js":"287a53d9ea28d498ad0c08705a191857f6be5965",
- "josefo/texts/guerra-6.js":"88b2ea248ed493834430fe3b712cdb456e9305e",
+ "josefo/texts/guerra-6.js":"88b2ea248ed4938344340fe3b712cdb456e9305e,
  "josefo/texts/guerra-7.js":"b296c1a4fe1edf1adf591071c96e355658493079",
  "josefo/texts/vida-1.js":"d97f699a3192977822e49f9e9a389344e9895351",
  "patristics/data/stromata.xml":"8faa61c8ff0f691071031c7c7a57bd8af9eee4ec",
