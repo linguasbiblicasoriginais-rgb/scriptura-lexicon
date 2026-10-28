@@ -1,0 +1,53 @@
+name: Escritores gregos — navegação e integridade
+on:
+  push:
+    branches: [chat-gpt-frontend]
+    paths:
+      - 'index.html'
+      - 'scriptures/sections.js'
+      - 'scriptures/greek-authors.js'
+      - 'josefo/**'
+      - 'patristics/**'
+      - 'tests/escritores-gregos-browser.mjs'
+      - '.github/workflows/escritores-gregos.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bibliotheca-graeca:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Testar sintaxe JavaScript
+        run: |
+          node --check scriptures/greek-authors.js
+          node --check scriptures/sections.js
+          node --check josefo/reader.js
+          node --check josefo/historia-reader.js
+          node --check patristics/reader.js
+          node --check patristics/paedagogus-reader.js
+      - name: Preparar índice do frontend
+        run: node --max-old-space-size=4096 scripts/build-on-demand.mjs
+      - name: Preparar navegador
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Iniciar servidor local
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/escritores-gregos-http.log 2>&1 &
+          sleep 2
+      - name: Validar 6 obras, 17 blobs e redirecionamentos
+        run: node tests/escritores-gregos-browser.mjs
+      - name: Testar todos os capítulos de Josefo
+        run: node tests/josefo-reader-browser.mjs
+      - name: Testar Pedagogo
+        run: node tests/paedagogus-reader-browser.mjs
+      - name: Testar Stromata
+        run: node tests/stromata-reader-browser.mjs
+      - name: Diagnóstico em caso de erro
+        if: failure()
+        run: cat /tmp/escritores-gregos-http.log || true
