@@ -1,0 +1,38 @@
+name: Incorporar Pedagogo grego (Stählin)
+on:
+  push:
+    branches: ['chat-gpt-patristicos/clemente-alexandria']
+    paths:
+      - 'scripts/import-paedagogus.mjs'
+      - 'patristics/paedagogus-reader.js'
+      - '.github/workflows/import-paedagogus.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paedagogus-clemente-alexandria
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chat-gpt-patristicos/clemente-alexandria
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Conferir leitor e integridade da fonte
+        run: |
+          node --check patristics/paedagogus-reader.js
+          node --check scripts/import-paedagogus.mjs
+          node scripts/import-paedagogus.mjs
+      - name: Arquivar TEI original na branch dedicada
+        run: |
+          git add patristics/data/paedagogus.xml
+          if git diff --cached --quiet; then
+            echo "TEI original já arquivado."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "data(patristica): arquivar Paedagogus integral de Stählin 1905"
+          git push origin HEAD:refs/heads/chat-gpt-patristicos/clemente-alexandria

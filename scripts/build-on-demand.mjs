@@ -144,6 +144,12 @@ function register(records, rows, cards, origin) {
             collisions.push({target, kind:"card-absent", origin});
         }
         let rawSearch = attribute(tag, "data-search") || textOnly(row);
+        // Aliases aprovados integram obrigatoriamente o texto pesquisável.
+        // Não basta usá-los para ranquear: sem gramas eles não entram entre
+        // os candidatos da busca e o artigo pode tornar-se inacessível.
+        const searchAliases = attribute(tag, "data-lemma-alias")
+            .split(";").map(value => value.trim()).filter(Boolean);
+        if (searchAliases.length) rawSearch += " " + searchAliases.join(" ");
         // Inclui também o texto integral publicado nas seções dos verbetes,
         // sem alterar a redação de origem ou limitar a busca ao lema.
         const paragraphs = Array.from(card.matchAll(/<(?:p|div)\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/(?:p|div)>/gi), m => m[1]);
@@ -294,6 +300,130 @@ console.log("DGP_DEDUP_STRICT", JSON.stringify({
     samplePending:pendingDgpDifferences.slice(0,6)
 }));
 
+// THAYER_PUBLICATION_GATE — falhar fechado em caso de divergência editorial.
+// Fontes históricas permanecem intactas. Somente artigos revisados e aprovados
+// substituem seus correspondentes no índice público; nenhum substituto é inferido.
+const thayerRestartDirectory = path.join(root, "lexicons/thayer-reinicio-2026-10-25");
+const thayerRestartFiles = fs.readdirSync(thayerRestartDirectory)
+    .filter(file => /^\d{4}-[a-z0-9-]+\.json$/i.test(file)).sort();
+if (!thayerRestartFiles.length) throw Error("THAYER_PUBLICATION_GATE: nenhum verbete aprovado");
+const textualNfc = value => String(value || "").normalize("NFC").replace(/\s+/gu, " ").trim();
+function thayerPublishedLemmaKey(row) {
+    const cell = row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
+    return normalize(textOnly(cell ? cell[1] : "").split(",")[0].trim());
+}
+const historicalThayer = records.filter(record => record.source === "THAYER");
+const historicalByTarget = new Map(historicalThayer.map(record => [record.target, record]));
+const approvedByKey = new Map();
+const approvedIds = new Set();
+const supersededHistorical = new Map();
+for (const filename of thayerRestartFiles) {
+    const file = path.join(thayerRestartDirectory, filename);
+    const data = JSON.parse(fs.readFileSync(file, "utf8"));
+    const fileOrdinal = Number(filename.slice(0,4));
+    const isApproved = data.publication?.approval === "approved_in_chat" &&
+        data.publication?.requires_exact_card_match === true &&
+        data.editorial_status?.startsWith("TRADUCAO_APROVADA_PELO_USUARIO");
+    if (data.source !== "THAYER" || !isApproved ||
+            !Number.isSafeInteger(data.ordinal) || data.ordinal !== fileOrdinal ||
+            data.entry_id !== "entry-thayer-reinicio-" + filename.slice(0,4) ||
+            !data.lemma_original || !data.card_title || !data.grammatical_class ||
+            !data.render?.search_row_html || !data.render?.entry_card_html ||
+            !Array.isArray(data.translation_portuguese_full) ||
+            data.translation_portuguese_full.length === 0 ||
+            data.translation_portuguese_full.some(p => !textualNfc(p)) ||
+            !data.source_english_full || approvedIds.has(data.entry_id)) {
+        throw Error("THAYER_PUBLICATION_GATE: verbete não aprovado/incompleto: " + filename);
+    }
+    const heading = data.render.entry_card_html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    if (!heading || textualNfc(textOnly(heading[1])) !== textualNfc(data.card_title) ||
+            (data.render.entry_card_html.match(/<h1\b/gi) || []).length !== 1) {
+        throw Error("THAYER_PUBLICATION_GATE: cabeçalho diferente do aprovado: " + filename);
+    }
+    const paragraphs = Array.from(data.render.entry_card_html.matchAll(
+        /<p\b[^>]*class="[^"]*\bentry-text\b[^"]*"[^>]*>([\s\S]*?)<\/p>/gi),
+        match => textualNfc(textOnly(match[1])));
+    const approvedParagraphs = data.translation_portuguese_full.map(textualNfc);
+    if (paragraphs.length !== approvedParagraphs.length ||
+            paragraphs.some((value,index) => value !== approvedParagraphs[index])) {
+        throw Error("THAYER_PUBLICATION_GATE: corpo diverge da tradução integral: " + filename);
+    }
+    const subtitle = data.render.entry_card_html.match(/<div class="entry-meta">([\s\S]*?)<\/div>/i);
+    if (!subtitle || !textualNfc(textOnly(subtitle[1])) ||
+            /rein[ií]cio\s+20\d{2}/iu.test(subtitle[1]) ||
+            /fonte fotogr[aá]fica|ocr auxiliar|texto auxiliar/iu.test(data.render.entry_card_html)) {
+        throw Error("THAYER_PUBLICATION_GATE: metadados internos no cartão: " + filename);
+    }
+    // Evita repetir no início do artigo a classe gramatical já exibida no subtítulo.
+    // Alusões semânticas legítimas posteriores (p. ex. "nome próprio" como acepção)
+    // permanecem intactas; esta regra cobre somente a abertura do primeiro parágrafo.
+    const introduction = paragraphs[0].slice(0,260);
+    const duplicateGrammar = /(?:^|[),;]\s+)(?:nome próprio(?: masculino)?,?\s+indeclinável|indeclinável|adjetivo de duas terminações|forma aramaica de tratamento,?\s+indeclinável|letra grega;\s*elemento formativo)(?=\s|[,;.(]|$)/iu;
+    const subtitleText = textualNfc(textOnly(subtitle[1])).toLocaleLowerCase("pt-BR");
+    const introLower = introduction.toLocaleLowerCase("pt-BR");
+    const exactSubtitleDup = introLower.startsWith(subtitleText + " ") ||
+        introLower.startsWith(subtitleText + ",") ||
+        introLower.includes("), " + subtitleText + " ");
+    if (duplicateGrammar.test(introduction) || exactSubtitleDup) {
+        throw Error("THAYER_PUBLICATION_GATE: classificação gramatical repetida no corpo: " + filename);
+    }
+    const key = normalize(data.lemma_original.split(",")[0].trim());
+    const rowKey = thayerPublishedLemmaKey(data.render.search_row_html);
+    if (!key || key !== rowKey || approvedByKey.has(key)) {
+        throw Error("THAYER_PUBLICATION_GATE: lema divergente ou homógrafo sem revisão: " + filename);
+    }
+    // Permite, com declaração explícita e verificável, que hífens editoriais
+    // no lema impresso não impeçam a correspondência com o índice histórico.
+    // Nenhuma outra mudança ortográfica pode ser usada para suprimir artigo antigo.
+    const legacyKey = data.publication?.legacy_lookup_lemma ?
+        normalize(data.publication.legacy_lookup_lemma) : key;
+    if (legacyKey !== key && legacyKey !== key.replace(/[-‐‑‒–]/gu, "")) {
+        throw Error("THAYER_PUBLICATION_GATE: equivalência histórica não demonstrada: " + filename);
+    }
+    const expected = historicalThayer.filter(record =>
+        thayerPublishedLemmaKey(record.row) === legacyKey).map(record => record.target).sort();
+    const declared = data.publication?.supersedes_legacy_targets;
+    if (!Array.isArray(declared) || new Set(declared).size !== declared.length ||
+            declared.some(target => !/^entry-thayer-\d{4}$/.test(target)) ||
+            JSON.stringify(declared.slice().sort()) !== JSON.stringify(expected)) {
+        throw Error("THAYER_PUBLICATION_GATE: concorrência histórica não resolvida em " +
+            filename + "; encontrados=" + JSON.stringify(expected) +
+            "; declarados=" + JSON.stringify(declared));
+    }
+    for (const oldTarget of declared) {
+        if (!historicalByTarget.has(oldTarget) || supersededHistorical.has(oldTarget)) {
+            throw Error("THAYER_PUBLICATION_GATE: substituição inválida: " + oldTarget);
+        }
+        supersededHistorical.set(oldTarget,data.entry_id);
+    }
+    const beforeRegister = records.length;
+    register(records,data.render.search_row_html,data.render.entry_card_html,
+        "thayer-revisado/" + filename);
+    if (records.length !== beforeRegister + 1 ||
+            records[beforeRegister].target !== data.entry_id ||
+            records[beforeRegister].source !== "THAYER") {
+        throw Error("THAYER_PUBLICATION_GATE: linha e cartão desacoplados: " + filename);
+    }
+    approvedByKey.set(key,data.entry_id);
+    approvedIds.add(data.entry_id);
+}
+// Garante que nenhuma versão histórica substituída permaneça na busca.
+// Os arquivos originais e seus dados continuam guardados integralmente.
+const published = records.filter(record => !supersededHistorical.has(record.target));
+records.length = 0;
+for (const record of published) records.push(record);
+if (records.filter(record => approvedIds.has(record.target)).length !== approvedIds.size ||
+        records.some(record => supersededHistorical.has(record.target))) {
+    throw Error("THAYER_PUBLICATION_GATE: inconsistência no índice público");
+}
+const thayerPublicationGate = {
+    approved: approvedIds.size,
+    approvedIds: [...approvedIds].sort(),
+    superseded: Object.fromEntries([...supersededHistorical].sort(([a],[b])=>a.localeCompare(b))),
+    corpusPreserved: true
+};
+console.log("THAYER_PUBLICATION_GATE", JSON.stringify(thayerPublicationGate));
+
 // Um ID histórico repetido não pode suprimir a segunda entrada.
 // Cada resultado ganha um ID técnico numérico; o ID original permanece intacto.
 const firstByTarget = new Map();
@@ -373,25 +503,32 @@ for (let offset = 0; offset < records.length; offset += chunkSize) {
         else runs.push({start:id, end:id + 1, dictionary:record.dictionary, source:record.source});
         const lemmaCell = record.row.match(/<td\b[^>]*class="[^"]*\btable-lemma\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i);
         const lemma = normalize(lemmaCell ? textOnly(lemmaCell[1]) : "");
+        // Formas equivalentes explícitas para pesquisa; a grafia do lema permanece intacta.
+        const lemmaAlias = attribute(openTag(record.row), "data-lemma-alias")
+            .split(";").map(normalize).filter(Boolean);
+        const lemmaForms = [lemma, ...lemmaAlias];
         // Busca apenas com dados compactos. A definição permanece nas
         // partes do índice de verificação, jamais nas linhas HTML da página.
-        lookup.push([record.search, lemma]);
-        lookupLarge.push([record.search, lemma]);
+        const lookupRow = lemmaAlias.length ? [record.search, lemma, lemmaAlias] : [record.search, lemma];
+        lookup.push(lookupRow);
+        lookupLarge.push(lookupRow);
         // Ranking preservado para termos curtos, sem carregar 40 mil
         // definições nem os arquivos lookup. Apenas os lemas são indexados.
-        const lemmaPoints = Array.from(lemma);
         const lemmaGrams = new Set();
-        for (let start = 0; start < lemmaPoints.length; start++) {
-            for (let size = 1; size <= 3 && start + size <= lemmaPoints.length; size++) {
-                lemmaGrams.add(lemmaPoints.slice(start, start + size).join(""));
+        for (const form of lemmaForms) {
+            const points = Array.from(form);
+            for (let start = 0; start < points.length; start++) {
+                for (let size = 1; size <= 3 && start + size <= points.length; size++) {
+                    lemmaGrams.add(points.slice(start, start + size).join(""));
+                }
             }
         }
         for (const gram of lemmaGrams) {
             let ranks = lemmaPostings.get(gram);
             if (!ranks) lemmaPostings.set(gram, ranks = [[],[],[]]);
-            ranks[0].push(id);                         // contém no lema
-            if (lemma.startsWith(gram)) ranks[1].push(id); // prefixo
-            if (lemma === gram) ranks[2].push(id);        // lema exato
+            ranks[0].push(id);
+            if (lemmaForms.some(form => form.startsWith(gram))) ranks[1].push(id);
+            if (lemmaForms.includes(gram)) ranks[2].push(id);
         }
         if (lookupLarge.length === lookupLargeSize) {
             emit("lookup-large/" + String(Math.floor(id / lookupLargeSize)).padStart(4,"0") + ".json",
@@ -438,6 +575,7 @@ for (let i = 0; i < buckets.length; i++) {
 }
 emit("catalog.json", {
     version: 4, chunkSize, lookupLargeSize, total: records.length, counts, samples, runs, sourceTerms,
+    thayerReviewed: thayerPublicationGate,
     quarantined:{DGP:quarantinedDgpFragments.length},
     duplicateSamples:duplicateSamples.slice(0,8)
 });

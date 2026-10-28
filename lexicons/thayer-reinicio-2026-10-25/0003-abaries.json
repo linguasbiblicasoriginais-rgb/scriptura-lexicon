@@ -20,9 +20,16 @@
   ],
   "render": {
     "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0003\" data-search=\"ἀβαρής ἀβαρής βάρος sem peso leve não oneroso encargo despesas 2Co 11.9 1Ts 2.9 1Ts 2.6 Aristóteles\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀβαρής, -ές</td><td>adjetivo de duas terminações</td><td>sem peso, leve; não oneroso</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
-    "entry_card_html": "<article id=\"entry-thayer-reinicio-0003\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀβαρής, -ές</h1><div class=\"entry-meta\">Thayer · p. 1 · reinício 2026-10-25</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(De <span lang=\"grc\">βάρος</span>, <em>peso</em>.) <em>Sem peso, leve</em>; em sentido figurado, <em>não oneroso, que não constitui encargo</em>: <span lang=\"grc\">ἀβαρῆ ὑμῖν, ἐμαυτόν ἐτήρησα</span>, «evitei impor-vos despesas por minha causa», 2Co 11.9; ver 1Ts 2.9; cf. 2.6. (Atestado desde Aristóteles.)</p></section></article>"
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0003\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀβαρής, -ές</h1><div class=\"entry-meta\">Adjetivo de duas terminações</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(De <span lang=\"grc\">βάρος</span>, <em>peso</em>.) <em>Sem peso, leve</em>; em sentido figurado, <em>não oneroso, que não constitui encargo</em>: <span lang=\"grc\">ἀβαρῆ ὑμῖν, ἐμαυτόν ἐτήρησα</span>, «evitei impor-vos despesas por minha causa», 2Co 11.9; ver 1Ts 2.9; cf. 2.6. (Atestado desde Aristóteles.)</p></section></article>"
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto inglês integral fornecido pelo usuário; tradução aprovada na conversa e incorporada literalmente ao cartão, sem mistura com os artigos anteriores.",
-  "notes": "A cabeça do verbete fica exclusivamente no título; o corpo não a repete. A remissão cf. 2.6 é mantida conforme a tradução aprovada e remete a 1Ts 2.6."
+  "notes": "A cabeça do verbete fica exclusivamente no título; o corpo não a repete. A remissão cf. 2.6 é mantida conforme a tradução aprovada e remete a 1Ts 2.6.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0004"
+    ],
+    "requires_exact_card_match": true
+  }
 }

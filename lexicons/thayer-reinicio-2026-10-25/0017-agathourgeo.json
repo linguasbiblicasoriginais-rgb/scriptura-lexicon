@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0017",
+  "ordinal": 17,
+  "lemma_original": "ἀγαθουργέω, -ῶ",
+  "card_title": "ἀγαθουργέω, -ῶ",
+  "grammatical_class": "Verbo",
+  "printed_page": 3,
+  "source_english_full": "ἀγαθουργέω, -ῶ; Acts xiv. 17 L T Tr WH for R ἀγαθοποιῶ. The contracted form is the rarer [cf. WH. App. p. 145], see ἀγαθοεργέω; but cf. κακοῦργος, ἱερουργέω.*",
+  "translation_portuguese_full": [
+    "At 14.17: leitura de L T Tr WH em lugar de ἀγαθοποιῶ do Texto Recebido (R).",
+    "A forma contraída é a mais rara [cf. WH, Apêndice, p. 145]; ver ἀγαθοεργέω; contudo, cf. κακοῦργος, ἱερουργέω."
+  ],
+  "biblical_references": [
+    "At 14.17"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Artigo integral da última das seis fotografias enviadas pelo usuário. Tradução já apresentada e aprovada no chat."
+    },
+    {
+      "type": "filologia",
+      "note": "A forma de ἀγαθουργέω é distinta do ἀγαθοεργέω anteriormente incorporado; as siglas críticas L T Tr WH e R foram conservadas."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0017\" data-lemma-alias=\"agathourgeo\" data-search=\"ἀγαθουργέω, -ῶ Forma verbal; remissão a ἀγαθοεργέω ἀγαθοεργέω; ἀγαθοποιῶ At 14.17\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγαθουργέω, -ῶ</td><td>Verbo</td><td>Forma verbal; remissão a ἀγαθοεργέω</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0017\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγαθουργέω, -ῶ</h1><div class=\"entry-meta\">Verbo</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">At 14.17: leitura de L T Tr WH em lugar de ἀγαθοποιῶ do Texto Recebido (R).</p><p class=\"entry-text\">A forma contraída é a mais rara [cf. WH, Apêndice, p. 145]; ver ἀγαθοεργέω; contudo, cf. κακοῦργος, ἱερουργέω.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Última fotografia da edição impressa de Thayer; tradução do usuário aprovada para incorporação em conjunto com os verbetes 0016 e 0017.",
+  "notes": "A classificação gramatical consta apenas no subtítulo do cartão. O texto de cada parágrafo é idêntico ao português aprovado.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0019"
+    ],
+    "requires_exact_card_match": true
+  }
+}

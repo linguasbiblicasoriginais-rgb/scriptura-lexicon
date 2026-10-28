@@ -1,0 +1,46 @@
+/* Complemento visual ao leitor das Escrituras Sagradas. */
+.josefo-reader[hidden]{display:none!important}
+.josefo-reader .josefo-section-line {
+ display:block;width:100%;text-align:left;cursor:pointer;
+ font:inherit;color:var(--text-primary);
+ border:1px solid transparent;
+ background:transparent;
+}
+.josefo-reader .josefo-section-line:hover,
+.josefo-reader .josefo-section-line:focus-visible {
+ border-color:var(--accent);background:var(--surface-3);outline-offset:2px;
+}
+.josefo-reader .josefo-section-line.scripture-verse-selected {
+ background:var(--surface-3);
+ border-color:var(--accent);
+ border-inline-start:4px solid var(--accent);
+ padding-inline-start:5px;
+}
+.josefo-reader .josefo-greek {font-family:"Noto Serif",Georgia,serif;font-size:1.12rem}
+.josefo-reader .josefo-excerpt {margin-left:.4rem;font:.75rem sans-serif;color:var(--text-muted)}
+.josefo-reader .josefo-message {margin-top:14px;color:var(--text-secondary);font-size:.87rem;line-height:1.7}
+.josefo-reader .josefo-credit {margin-top:17px;font-size:.78rem;line-height:1.6;color:var(--text-muted)}
+.josefo-reader .josefo-reader-controls select:disabled{opacity:.65;cursor:not-allowed}
+
+/* Sinopse e cabeçalhos gregos transcritos da fonte */
+.josefo-reader .josefo-argument {
+  color:var(--text-primary);
+  font-family:"Noto Serif",Georgia,serif;
+  font-size:1.06rem;
+  line-height:1.85;
+}
+.josefo-reader .josefo-argument h3,
+.josefo-reader .josefo-argument h4 {
+  margin:0 0 12px;
+  font:inherit;
+  font-weight:700;
+  color:var(--text-primary);
+}
+.josefo-reader .josefo-argument p {
+  margin:0;
+  white-space:pre-line;
+}
+.josefo-reader #josefo-retry {
+  margin-top:12px;
+  padding:10px 16px;
+}

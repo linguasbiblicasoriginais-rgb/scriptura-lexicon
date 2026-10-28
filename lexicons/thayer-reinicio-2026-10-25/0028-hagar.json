@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0028",
+  "ordinal": 28,
+  "lemma_original": "Ἄγαρ",
+  "card_title": "Ἄγαρ",
+  "grammatical_class": "Nome próprio feminino indeclinável (ἡ)",
+  "printed_page": 5,
+  "source_english_full": "Ἄγαρ [WH Ἅγ. (see their Intr. § 408)], ἡ, indecl., (in Joseph. Ἀγάρα, -ης), הָגָר (flight), Hagar, a bondmaid of Abraham, and by him the mother of Ishmael (Gen. xvi.): Gal. iv. 24, [25 L txt. T om. Tr br.]. Since the Arabians according to Paul (who had formerly dwelt among them, Gal. i. 17) called the rocky Mt. Sinai by a name similar in sound to הָגָר (حَجَر i. e. rock), the apostle in the passage referred to employs the name Hagar allegorically to denote the servile sense of fear with which the Mosaic economy imbued its subjects. [Cf. B. D. Am. ed. pp. 978, 2366 note a; Bp. Lghtft.'s remarks appended to his Com. on Gal. l. c.]*",
+  "translation_portuguese_full": [
+    "[WH: Ἅγ. (ver sua Introdução, § 408). Em Josefo, Ἀγάρα, -ης.]",
+    "Do hebraico הָגָר (fuga), Agar, serva de Abraão e, por meio dele, mãe de Ismael (Gn 16): Gl 4.24, [25 segundo o texto de L; T omite; Tr coloca entre colchetes].",
+    "Visto que os árabes, segundo Paulo (que anteriormente habitara entre eles, Gl 1.17), chamavam o monte rochoso Sinai por um nome de sonoridade semelhante a הָגָר (árabe حَجَر, isto é, rocha), o apóstolo, na passagem mencionada, emprega alegoricamente o nome Agar para designar o sentimento servil de temor que a economia mosaica incutia em seus súditos.",
+    "[Cf. B. D., edição americana, p. 978, 2366, nota a; observações do bispo Lightfoot acrescentadas ao seu comentário sobre Gálatas, na passagem citada.]"
+  ],
+  "biblical_references": [
+    "Gn 16",
+    "Gl 4.24,25",
+    "Gl 1.17"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Artigo transcrito das fotografias impressas fornecidas pelo usuário; tradução portuguesa fiel à versão apresentada e aprovada para incorporação em lote."
+    },
+    {
+      "type": "metodo",
+      "note": "Conservar hipóteses, testemunhos, variantes e fontes do impresso, distinguindo-os de observações editoriais posteriores."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0028\" data-lemma-alias=\"agar;hagar;Ἅγαρ\" data-search=\"Ἄγαρ Nome próprio feminino indeclinável (ἡ) Agar, mãe de Ismael agar;hagar;Ἅγαρ Gn 16 Gl 4.24,25 Gl 1.17\" tabindex=\"0\"><td class=\"table-lemma greek\">Ἄγαρ</td><td>Nome próprio feminino indeclinável (ἡ)</td><td>Agar, mãe de Ismael</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0028\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἄγαρ</h1><div class=\"entry-meta\">Nome próprio feminino indeclinável (ἡ)</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">[WH: Ἅγ. (ver sua Introdução, § 408). Em Josefo, Ἀγάρα, -ης.]</p><p class=\"entry-text\">Do hebraico הָגָר (fuga), Agar, serva de Abraão e, por meio dele, mãe de Ismael (Gn 16): Gl 4.24, [25 segundo o texto de L; T omite; Tr coloca entre colchetes].</p><p class=\"entry-text\">Visto que os árabes, segundo Paulo (que anteriormente habitara entre eles, Gl 1.17), chamavam o monte rochoso Sinai por um nome de sonoridade semelhante a הָגָר (árabe حَجَر, isto é, rocha), o apóstolo, na passagem mencionada, emprega alegoricamente o nome Agar para designar o sentimento servil de temor que a economia mosaica incutia em seus súditos.</p><p class=\"entry-text\">[Cf. B. D., edição americana, p. 978, 2366, nota a; observações do bispo Lightfoot acrescentadas ao seu comentário sobre Gálatas, na passagem citada.]</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO; INDEXAÇÃO SUJEITA A VALIDAÇÃO",
+  "provenance": "Fotografias do Thayer e tradução aprovada em chat em 28/10/2026",
+  "notes": "A classe gramatical consta apenas no subtítulo; conteúdo completo sem reduzir referências.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0030"
+    ],
+    "requires_exact_card_match": true
+  }
+}
