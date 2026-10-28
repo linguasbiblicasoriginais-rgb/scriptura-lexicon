@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0019",
+  "ordinal": 19,
+  "lemma_original": "ἀγαλλιάομαι",
+  "card_title": "ἀγαλλιάομαι",
+  "grammatical_class": "Forma verbal remissiva",
+  "printed_page": 3,
+  "source_english_full": "ἀγαλλιάομαι, see ἀγαλλιάω.",
+  "translation_portuguese_full": [
+    "Ver ἀγαλλιάω."
+  ],
+  "biblical_references": [],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Texto original transcrito da fotografia impressa fornecida pelo usuário. Tradução portuguesa integral apresentada em chat, aprovada em lote, preservada em campo próprio."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0019\" data-lemma-alias=\"agalliaomai\" data-search=\"ἀγαλλιάομαι Forma verbal remissiva Ver ἀγαλλιάω  agalliaomai\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγαλλιάομαι</td><td>Forma verbal remissiva</td><td>Ver ἀγαλλιάω</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0019\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγαλλιάομαι</h1><div class=\"entry-meta\">Forma verbal remissiva</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">Ver ἀγαλλιάω.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO; INDEXAÇÃO SUJEITA A VALIDAÇÃO",
+  "provenance": "Fotografias impressas e tradução aprovada no chat em 28/10/2026",
+  "notes": "Lema apenas no título; categoria apenas no subtítulo; preservar citações e ressalvas.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0021"
+    ],
+    "requires_exact_card_match": true
+  }
+}
