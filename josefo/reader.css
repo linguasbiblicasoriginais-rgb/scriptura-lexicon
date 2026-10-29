@@ -44,3 +44,36 @@
   margin-top:12px;
   padding:10px 16px;
 }
+
+/* Alinhamento uniforme e separação explícita dos testemunhos linguísticos. */
+.josefo-reader .josefo-section-line,
+.josefo-reader .josefo-section-line .josefo-greek,
+.josefo-reader .josefo-argument p{
+ text-align:justify;
+ text-align-last:left;
+ overflow-wrap:anywhere;
+}
+.josefo-reader .josefo-language-segment--mixed{display:block}
+.josefo-reader .josefo-language-segment--la{
+ display:block;
+ font-family:"Noto Serif",Georgia,serif;
+ border-inline-start:2px solid var(--accent);
+ padding-inline-start:.65rem;
+ margin-block:.35rem;
+}
+.josefo-reader .josefo-language-segment--la::before{
+ content:"Latim — testemunho da fonte";
+ display:block;
+ font:600 .7rem/1.5 system-ui,sans-serif;
+ color:var(--text-secondary);
+ margin-bottom:.2rem;
+}
+.josefo-reader .josefo-language-segment--und::before{
+ content:"Idioma não confirmado";
+ display:block;
+ font:600 .7rem/1.5 system-ui,sans-serif;
+ color:var(--text-secondary);
+}
+
+.josefo-history-reader .josefo-reader-controls label[hidden]{display:none!important}
+#site-section-cards:empty{display:none!important}

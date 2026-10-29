@@ -169,18 +169,11 @@ function showHub(section){
  back.hidden=section==="inicio";
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
- if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos";
+ if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos"&&section!=="patristica";
+ if(section==="patristica")window.ScripturaGreekAuthors?.selectAuthor("clemente-alexandria");
  cards.replaceChildren();
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
- if(section==="patristica"){
-  card("Clemente de Alexandria","Acesse as obras patrísticas gregas pela biblioteca Escritores gregos.",{greekAuthor:"clemente-alexandria"});
- }
- if(section==="autores-gregos"){
-  card("Flávio Josefo","Quatro obras gregas disponíveis, com navegação por edição.",{greekAuthor:"josefo"});
-  card("Clemente de Alexandria","Stromata e Pedagogo, em texto grego.",{greekAuthor:"clemente-alexandria"});
-  card("Fílon de Alexandria","Registro autoral preservado; obras ainda não publicadas.",{greekAuthor:"filon"});
- }
  if(editions[section])for(const [code,name] of editions[section])
    editionCard(code,name,section);
  for(const button of document.querySelectorAll(".site-menu-item")){
@@ -199,15 +192,11 @@ const greekAuthorNames=Object.freeze({
 function showGreekAuthor(authorId,push=true){
  if(!Object.prototype.hasOwnProperty.call(greekAuthorNames,authorId))return false;
  if(!showHub("autores-gregos"))return false;
- if(greekAuthors)greekAuthors.hidden=true;
+ if(greekAuthors)greekAuthors.hidden=false;
+ window.ScripturaGreekAuthors?.selectAuthor(authorId);
  title.textContent=greekAuthorNames[authorId];
- const works=window.ScripturaGreekAuthors?.listWorks(authorId)||[];
- description.textContent=works.length
-  ?works.length+" obra(s) registrada(s). Selecione uma obra para consultar o texto integral."
-  :"Ainda não há obras gregas publicadas deste autor.";
+ description.textContent="Selecione a obra no formulário para abrir o leitor integral.";
  cards.replaceChildren();
- card("← Escritores gregos","Voltar à lista dos escritores.",{siteSection:"autores-gregos"});
- for(const work of works)card(work.title,"Abrir texto grego original e navegar pelas divisões próprias da edição.",{greekWork:work.id});
  if(push&&location.hash!=="#autores-gregos/"+authorId)history.pushState(null,"","#autores-gregos/"+authorId);
  return true;
 }
@@ -221,6 +210,7 @@ function showDictionary(){
 }
 function openSection(section){
  if(section==="josefo"||section==="filon")return showGreekAuthor(section,true);
+ if(section==="patristica")return showGreekAuthor("clemente-alexandria",true);
  if(!showHub(section))return false;
  closeMenu();
  if(window.location.hash!=="#"+section)history.pushState(null,"","#"+section);

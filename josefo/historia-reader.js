@@ -92,7 +92,7 @@ function normalizeChapter(w,b,v){
  return Number.isSafeInteger(num)&&items.includes(num)?num:items[0];
 }
 function chapterLabel(w,c){
- if(!w.chapterMarked)return "Texto contínuo (sem capítulos na fonte)";
+ if(!w.chapterMarked)return "";
  return c===0?"Prefácio":"Capítulo "+c;
 }
 function fillSelections(){
@@ -106,11 +106,12 @@ function fillSelections(){
  for(const c of chaptersFor(w,state.book))controls.chapter.append(option(c,chapterLabel(w,c)));
  controls.chapter.value=String(state.chapter);
  controls.chapter.disabled=!w.chapterMarked;
+ controls.chapter.closest("label").hidden=!w.chapterMarked;
  el("title").textContent=w.title;
  el("original").textContent=w.original;
  el("division").textContent=w.chapterMarked
    ?"Capítulos segundo os marcadores Whiston na transcrição Perseus; as seções numeradas são contínuas dentro de cada livro."
-   :"A transcrição TEI consultada não delimita capítulos nesta obra. O leitor conserva o texto integral e a seleção das seções, sem criar capítulos artificiais.";
+   :"As seções são numeradas na edição; não são criados capítulos que não constam da fonte.";
  const mixed=state.work==="apiao"&&state.book===2;
  kicker.textContent=mixed?"Obras de Flávio Josefo · grego e latim":"Obras de Flávio Josefo · texto grego";
  category.textContent=mixed?"Flávio Josefo · grego e versão latina · Niese / Perseus":"Flávio Josefo · texto grego · Niese / Perseus";
@@ -126,7 +127,7 @@ function updateNav(){
 }
 function caption(){
  const w=work();
- return (w.books>1?"Livro "+state.book+" · ":"") +chapterLabel(w,state.chapter);
+ return "Livro "+state.book+(w.chapterMarked?" · "+chapterLabel(w,state.chapter):"");
 }
 function reference(){
  const w=work();
@@ -222,9 +223,12 @@ function render(){
    const sourceText=document.createElement("span");
    sourceText.className="josefo-greek";
    const parts=window.ScripturaJosephusLanguages.segments(state.work,state.book,row.number,row.text);
+   button.dataset.textLanguage=parts.length>1?"mixed":parts[0]?.lang||"und";
    for(const part of parts){
      const span=document.createElement("span");
      span.lang=part.lang;
+     span.className="josefo-language-segment josefo-language-segment--"+part.lang;
+     if(parts.length>1)span.classList.add("josefo-language-segment--mixed");
      span.textContent=part.text;
      sourceText.append(span);
      if(part.lang==="und")uncertainLanguages++;

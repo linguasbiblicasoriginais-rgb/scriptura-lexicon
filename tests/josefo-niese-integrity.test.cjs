@@ -78,9 +78,9 @@ test("Interface: quatro obras de Josefo em Escritores gregos e leitores independ
  const ant=read("josefo/reader.js");
  const css=read("josefo/reader.css");
  const html=read("index.html");
- assert.match(hub,/if\(section==="autores-gregos"\)/);
- assert.match(hub,/greekAuthor:"josefo"/);
- assert.match(hub,/greekWork:work\.id/);
+ assert.match(hub,/window\.ScripturaGreekAuthors\?\.selectAuthor\(authorId\)/);
+ assert.doesNotMatch(hub,/card\("Flávio Josefo"/);
+ assert.doesNotMatch(hub,/card\("Clemente de Alexandria"/);
  assert.match(greek,/function openWork/);
  for(const name of ["josefo-antiguidades","josefo-guerra","josefo-vida","josefo-apiao"]){
    assert.ok(greek.includes('id:"'+name+'"'),"Obra não registrada: "+name);

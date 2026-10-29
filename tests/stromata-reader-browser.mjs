@@ -30,15 +30,19 @@ async function verifyReady(context) {
     reference:document.querySelector("#stromata-reference").textContent,
     articleAlign:getComputedStyle(document.querySelector(".patristic-text")).textAlign,
     paragraphAlign:getComputedStyle(document.querySelector(".patristic-text p")).textAlign,
+    totalBlocks:document.querySelectorAll("#stromata-text .patristic-section-card").length,
+    selectedBlocks:document.querySelectorAll("#stromata-text .patristic-section-card--selected").length,
     active: Array.from(document.querySelectorAll("#stromata-text p.patristic-subsection-selected")).map(p=>({
       number:p.querySelector(".patristic-submark")?.textContent.trim(),
       aria:p.getAttribute("aria-current"),
-      background:getComputedStyle(p).backgroundColor
+      background:getComputedStyle(p.closest(".patristic-section-card")).backgroundColor
     }))
   }));
   assert.equal(snapshot.articleAlign,"justify","Todos os textos patrísticos devem ser justificados");
   assert.equal(snapshot.paragraphAlign,"justify","Os parágrafos patrísticos devem ser justificados");
   assert.equal(snapshot.active.length,1,"Uma única subseção deve permanecer realçada");
+  assert.equal(snapshot.selectedBlocks,1,"Somente uma moldura ativa");
+  assert.equal(snapshot.totalBlocks,snapshot.sectionOptions,"Mostrar todas as seções do capítulo");
   assert.equal(snapshot.active[0].number,"1","A primeira subseção deve começar selecionada");
   assert.equal(snapshot.active[0].aria,"location","O realce deve indicar a localização acessível");
   assert.notEqual(snapshot.active[0].background,"rgba(0, 0, 0, 0)","Subseção escolhida deve ter fundo visível");
@@ -62,7 +66,7 @@ try {
     const n=await page.locator("#stromata-subsection option").count();
     if(n<2)continue;
     const split=await page.evaluate(()=>{
-      const marks=Array.from(document.querySelectorAll("#stromata-text .patristic-submark"));
+      const marks=Array.from(document.querySelectorAll("#stromata-text .patristic-section-card--selected .patristic-submark"));
       const options=document.querySelector("#stromata-subsection").options.length;
       return {
         options,
@@ -81,14 +85,14 @@ try {
     await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.endsWith(".2"),null,{timeout:5000});
     assert.ok(await page.locator("#stromata-subsection-2").isVisible(),"O seletor deve localizar a subseção 2 no texto");
     const active=await page.evaluate(()=>{
-      const rows=Array.from(document.querySelectorAll("#stromata-text p"));
+      const rows=Array.from(document.querySelectorAll("#stromata-text .patristic-section-card--selected p"));
       const chosen=rows.filter(p=>p.classList.contains("patristic-subsection-selected"));
       return {
         count:chosen.length,
         number:chosen[0]?.querySelector(".patristic-submark")?.textContent.trim(),
         aria:chosen[0]?.getAttribute("aria-current"),
-        background:chosen[0]?getComputedStyle(chosen[0]).backgroundColor:null,
-        otherBackground:rows.find(p=>p!==chosen[0])?getComputedStyle(rows.find(p=>p!==chosen[0])).backgroundColor:null,
+        background:chosen[0]?getComputedStyle(chosen[0].closest(".patristic-section-card")).backgroundColor:null,
+        otherBackground:document.querySelector("#stromata-text .patristic-section-card:not(.patristic-section-card--selected)")?getComputedStyle(document.querySelector("#stromata-text .patristic-section-card:not(.patristic-section-card--selected)")).backgroundColor:null,
         text:document.querySelector("#stromata-text")?.textContent
       };
     });
@@ -103,11 +107,19 @@ try {
     break;
   }
   assert.ok(testedSplit,"Não foi possível encontrar uma seção com múltiplas subseções para testar");
+  const second=page.locator('#stromata-text [data-patristic-section="2"]');
+  if(await second.count()){
+    await second.click();
+    assert.equal(await page.locator("#stromata-section").inputValue(),"2","Clique muda a seção");
+    assert.equal(await page.locator("#stromata-text .patristic-section-card--selected").getAttribute("aria-pressed"),"true");
+    assert.match(await page.locator("#stromata-reference").textContent(),/§ 2/);
+  }
   await page.selectOption("#stromata-book","2");
   await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.includes("II"),null,{timeout:5000});
   await verifyReady("Troca de livro I → II");
   await page.goto(origin+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
-  await page.locator('[data-greek-work="clemente-stromata"]').click();
+  await page.locator("#greek-work").selectOption("clemente-stromata");
+  await page.locator("#greek-authors-submit").click();
   await verifyReady("Acesso pelo cartão de Literatura patrística");
   console.log("STROMATA_BROWSE_SMOKE_PASS");
 }finally{await browser.close();}
