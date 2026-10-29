@@ -2409,12 +2409,9 @@ tbody tr:last-child td {
     height:25px;
 }
 
-/* 2026-10-29 — masthead em duas linhas, SVG original e temas. */
-html { scroll-padding-top: 270px; }
+/* Cabeçalho no fluxo normal: não acompanha a rolagem. */
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 80;
+    position: static;
     display: block;
     min-height: 0;
     margin: 0 0 28px;
@@ -2481,8 +2478,46 @@ html { scroll-padding-top: 270px; }
 #site-section-hub[data-active-section="autores-gregos"] #site-greek-authors-content,
 #site-section-hub[data-active-section="patristica"] #site-greek-authors-content { margin-top: 0; }
 
+/* Navegação independente de rolagem: botão de retorno ao topo. */
+.back-to-top {
+    position: fixed;
+    right: max(20px, env(safe-area-inset-right, 0px));
+    bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    z-index: 90;
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    color: var(--interactive);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    transition: color .15s ease, background-color .15s ease, border-color .15s ease;
+}
+.back-to-top[hidden] { display: none !important; }
+.back-to-top:hover,
+.back-to-top:focus-visible {
+    color: var(--interactive-hover);
+    background: var(--surface-3);
+    border-color: var(--accent);
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+.back-to-top svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
 @media (max-width: 720px) {
-    html { scroll-padding-top: 238px; }
     .header { flex-direction: column; gap: 0; padding: 12px 0 15px; }
     .header-main { gap: 10px; }
     .site-brand-logo { width: clamp(208px, 55vw, 260px); }
