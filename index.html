@@ -77,7 +77,7 @@
 
     <main class="container">
 
-        <header class="header">
+        <header class="header" aria-label="Navegação principal">
             <div class="header-main">
                 <button
                     id="menu-toggle"
@@ -91,20 +91,28 @@
                         <path d="M4 7h16M4 12h16M4 17h16"/>
                     </svg>
                 </button>
-
-                <div>
-                    <div class="project-name">Scriptura Lexicon</div>
-                    <div class="project-subtitle">
-                        Hebraico–Português · Aramaico–Português · Grego–Português · Latim–Português
-                    </div>
-                </div>
+                <button
+                    id="home-button"
+                    class="menu-toggle home-button"
+                    type="button"
+                    data-site-section="inicio"
+                    aria-label="Voltar à página inicial"
+                    title="Página inicial"
+                >
+                    <img src="imagens/icones/home.svg" alt="" aria-hidden="true" width="22" height="22">
+                </button>
+                <img
+                    id="site-brand-logo"
+                    class="site-brand-logo"
+                    src="imagens/logo.svg"
+                    alt="Scriptura Lexicon"
+                    width="110"
+                    height="70"
+                >
             </div>
-
-            <div class="project-short">LEXICON</div>
         </header>
 
         <section id="site-section-hub" class="site-section-hub" aria-labelledby="site-section-title" hidden>
-            <button type="button" class="site-back-link" data-site-section="inicio">← Página inicial</button>
             <div class="site-section-kicker">Scriptura Lexicon · Biblioteca</div>
             <h1 id="site-section-title">Biblioteca</h1>
             <p id="site-section-description"></p>
