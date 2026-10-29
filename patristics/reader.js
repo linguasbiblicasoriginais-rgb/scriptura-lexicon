@@ -29,7 +29,7 @@ root.innerHTML = [
   '<div class="patristic-steps"><button type="button" id="stromata-prev">← Anterior</button>',
   '<span id="stromata-reference" aria-live="polite"></span>',
   '<button type="button" id="stromata-next">Próxima →</button></div>',
-  '<p id="stromata-status" role="status" aria-live="polite"></p>',
+  '<p id="stromata-status" role="status" aria-live="polite" hidden></p>',
   '<article id="stromata-text" class="patristic-text greek" lang="grc"></article>',
   '<p class="patristic-source"><strong>Fonte:</strong> <a id="stromata-perseus" target="_blank" rel="noopener noreferrer" href="https://atlas.perseus.tufts.edu/library/urn:cts:greekLit:tlg0555.tlg004/">Perseus Digital Library</a> · ',
   '<a id="stromata-xml" target="_blank" rel="noopener noreferrer" href="' + SOURCE_URL + '">TEI-XML integral</a> · ',
@@ -48,6 +48,7 @@ const controls = {
 };
 const content = el("stromata-text");
 const status = el("stromata-status");
+function setStatus(text){status.textContent=text||"";status.hidden=!status.textContent;}
 const reference = el("stromata-reference");
 const prev = el("stromata-prev"), next = el("stromata-next");
 let books = [], selected = [1,1,1,1], loading = null, sequence = 0, externalSource = false;
@@ -193,7 +194,7 @@ function renderCurrent() {
   const [b,c,s,sub]=selected;
   const section=getSection(b,c,s);
   content.replaceChildren();
-  if(!section){status.textContent="Seção ausente na edição.";return;}
+  if(!section){setStatus("Seção ausente na edição.");return;}
   const paragraphs=Array.from(section.children).filter(x=>x.localName==="p");
   if(paragraphs.length) {
     paragraphs.forEach(p=>{
@@ -230,7 +231,7 @@ function renderCurrent() {
   const offset=flat.findIndex(x=>x[0]===b&&x[1]===c&&x[2]===s);
   prev.disabled=offset<1;
   next.disabled=offset<0||offset===flat.length-1;
-  status.textContent=externalSource?"Texto integral carregado diretamente da Perseus (cópia local indisponível).":"Texto integral carregado do acervo Scriptura Lexicon.";
+  setStatus("");
   if(sub>1) {
     activeParagraph?.scrollIntoView({block:"center",behavior:"smooth"});
   }
@@ -256,7 +257,7 @@ async function show(book=1,chapter=1,section=1,subsection=1,push=false) {
   cards.hidden=true;
   root.hidden=false;
   content.replaceChildren();
-  status.textContent="Carregando edição grega integral...";
+  setStatus("Carregando edição grega integral...");
   try{
     await load();
     if(request!==sequence||root.hidden)return false;
@@ -264,7 +265,7 @@ async function show(book=1,chapter=1,section=1,subsection=1,push=false) {
     return true;
   }catch(e){
     if(request!==sequence)return false;
-    status.textContent="Não foi possível carregar o texto integral. Verifique a cópia local ou a ligação com a Perseus.";
+    setStatus("Não foi possível carregar o texto integral. Verifique a cópia local ou a ligação com a Perseus.");
     content.textContent="";
     return false;
   }

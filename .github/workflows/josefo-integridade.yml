@@ -1,7 +1,7 @@
 name: Josefo — integralidade grega e leitores Chromium
 on:
   push:
-    branches: [chat-gpt-josefo-guerra, chat-gpt-josefo-contra-apiao-idiomas]
+    branches: [chat-gpt-josefo-guerra, chat-gpt-josefo-contra-apiao-idiomas, chat-gpt-frontend-leitores-sem-logs]
     paths:
       - 'josefo/**'
       - 'scriptures/sections.js'

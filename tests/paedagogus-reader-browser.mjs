@@ -5,8 +5,10 @@ const page=await browser.newPage({viewport:{width:1200,height:900}});
 page.on("pageerror",e=>console.error("PAGEERROR",e.message));
 async function ready(message) {
  await page.waitForFunction(()=>{
-  const s=document.querySelector("#paedagogus-status")?.textContent||"";
-  return s.includes("Texto integral carregado")&&document.querySelector("#paedagogus-text")?.textContent?.length>30;
+  const status=document.querySelector("#paedagogus-status");
+  const reader=document.querySelector("#paedagogus-reader");
+  return reader&&!reader.hidden&&status?.hidden&&!status.textContent.trim()&&
+    document.querySelector("#paedagogus-text")?.textContent?.length>30;
  },null,{timeout:60000});
  const data=await page.evaluate(()=>{
   const text=document.querySelector("#paedagogus-text");
@@ -21,6 +23,7 @@ async function ready(message) {
    justified:chosen[0]?getComputedStyle(chosen[0]).textAlign:null
   };
  });
+ assert.equal(await page.locator("#paedagogus-status").isVisible(),false,"Sem logs junto ao Pedagogo");
  assert.equal(data.books,3,"Três livros do Pedagogo");
  assert.ok(data.chapters>=12,"Capítulos da edição");
  assert.match(data.greek,/[\u0370-\u03ff\u1f00-\u1fff]/,"Texto grego");
@@ -69,7 +72,10 @@ try {
  await ready("Cartão de Literatura patrística");
  await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
  await page.locator('[data-greek-work="clemente-stromata"]').click();
- await page.waitForFunction(()=>document.querySelector("#stromata-status")?.textContent.startsWith("Texto integral carregado"),null,{timeout:60000});
+ await page.waitForFunction(()=>{
+  const status=document.querySelector("#stromata-status");
+  return status?.hidden&&!status.textContent.trim()&&document.querySelector("#stromata-text")?.textContent?.length>30;
+ },null,{timeout:60000});
  assert.equal(await page.locator("#paedagogus-reader").isVisible(),false,"Obras patrísticas isoladas entre si");
  console.log("PAEDAGOGUS_BROWSER_PASS");
 }finally{await browser.close();}
