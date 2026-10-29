@@ -1,0 +1,59 @@
+name: Site — cabeçalho fixo, identidade e navegação
+on:
+  push:
+    branches: [chat-gpt-header-sticky-identidade-20261029]
+    paths:
+      - 'index.html'
+      - 'style.css'
+      - 'scriptures/sections.js'
+      - 'imagens/icones/home.svg'
+      - 'imagens/logo.svg'
+      - 'tests/header-navigation-browser.mjs'
+      - '.github/workflows/header-navigation.yml'
+  pull_request:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'index.html'
+      - 'style.css'
+      - 'scriptures/sections.js'
+      - 'imagens/icones/home.svg'
+      - 'imagens/logo.svg'
+      - 'tests/header-navigation-browser.mjs'
+      - '.github/workflows/header-navigation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  header-navigation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar sintaxe e SVGs
+        run: |
+          node --check scriptures/sections.js
+          node --check tests/header-navigation-browser.mjs
+          python3 - <<'PY'
+          from xml.etree import ElementTree as ET
+          for asset in ('imagens/icones/home.svg','imagens/logo.svg'):
+              root=ET.parse(asset).getroot()
+              assert root.tag.endswith('svg'), asset
+              assert root.get('viewBox'), asset
+              print('SVG_OK:',asset)
+          PY
+      - name: Instalar Chromium
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Iniciar servidor local
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/scriptura-header.log 2>&1 &
+          sleep 2
+      - name: Validar cabeçalho, navegação e bibliotecas em desktop e mobile
+        run: node tests/header-navigation-browser.mjs
+      - name: Logs do servidor em falha
+        if: failure()
+        run: cat /tmp/scriptura-header.log || true

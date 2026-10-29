@@ -7,7 +7,6 @@ if(!hub||!main)return;
 const title=document.getElementById("site-section-title");
 const description=document.getElementById("site-section-description");
 const cards=document.getElementById("site-section-cards");
-const back=hub.querySelector(".site-back-link");
 const dictionaryOptions=document.getElementById("site-dictionary-options");
 const settings=document.getElementById("site-settings-content");
 const greekAuthors=document.getElementById("site-greek-authors-content");
@@ -165,14 +164,16 @@ function showHub(section){
    node.hidden=node!==hub;
  }
  hub.hidden=false;
+ hub.dataset.activeSection=section;
  title.textContent=pages[section][0];description.textContent=pages[section][1];
- back.hidden=section==="inicio";
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
  if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos"&&section!=="patristica";
  if(section==="patristica"||section==="autores-gregos")
   window.ScripturaGreekAuthors?.setScope(section);
  cards.replaceChildren();
+ // Escritores e patrísticos usam exclusivamente os comboboxes, nunca cartões.
+ cards.hidden=section==="autores-gregos"||section==="patristica";
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
  if(editions[section])for(const [code,name] of editions[section])
@@ -219,6 +220,7 @@ function openSection(section){
  if(!showHub(section))return false;
  closeMenu();
  if(window.location.hash!=="#"+section)history.pushState(null,"","#"+section);
+ if(section==="inicio")window.scrollTo({top:0,behavior:"instant"});
  return true;
 }
 function handleHash(){
