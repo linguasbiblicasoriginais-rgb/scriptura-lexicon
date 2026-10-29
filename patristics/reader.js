@@ -17,7 +17,7 @@ root.className = "patristic-reader";
 root.setAttribute("aria-label", "Leitor de Stromata");
 root.hidden = true;
 root.innerHTML = [
-  '<button type="button" class="site-back-link" data-greek-author="clemente-alexandria">← Escritores gregos · Clemente de Alexandria</button>',
+  '<button type="button" class="site-back-link" data-site-section="patristica">← Literatura patrística</button>',
   '<h2 class="patristic-heading"><span lang="grc">Στρώματα</span> · Stromata</h2>',
   '<p class="patristic-context">Clemente de Alexandria · Texto grego · Edição Otto Stählin (1906–1909)</p>',
   '<div class="patristic-controls" role="group" aria-label="Navegação do texto">',

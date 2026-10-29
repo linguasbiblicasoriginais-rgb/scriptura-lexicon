@@ -76,11 +76,21 @@ try {
  await ready("Navegação para Livro II");
  await page.selectOption("#paedagogus-book","3");
  await ready("Navegação para Livro III");
- await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+ await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
+ assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
+ assert.deepEqual(await page.evaluate(()=>window.ScripturaGreekAuthors.listAuthors().map(x=>x.id)),["clemente-alexandria"]);
+ assert.equal(await page.locator("#greek-work option").count(),3,"Stromata, Pedagogo e opção vazia");
  await page.locator("#greek-work").selectOption("clemente-paedagogus");
  await page.locator("#greek-authors-submit").click();
- await ready("Cartão de Literatura patrística");
+ await ready("Seleção pelo combobox de Literatura patrística");
+ assert.equal(await page.locator("#paedagogus-text .patristic-section-card--selected").count(),1);
+ await page.locator("#paedagogus-reader [data-site-section='patristica']").click();
+ await page.locator("#site-greek-authors-content").waitFor({state:"visible"});
+ assert.match(page.url(),/#patristica$/);
  await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+ await page.locator("#site-greek-authors-content").waitFor({state:"visible"});
+ assert.match(page.url(),/#patristica$/,"URL antiga de Clemente redireciona para Literatura patrística");
+ assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
  await page.locator("#greek-work").selectOption("clemente-stromata");
  await page.locator("#greek-authors-submit").click();
  await page.waitForFunction(()=>{

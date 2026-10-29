@@ -87,6 +87,9 @@ try{
  await page.locator("#greek-author").waitFor();
  assert.equal(await page.locator("#site-section-cards [data-greek-author]").count(),0,"Sem cartões de autores");
  assert.equal(await page.locator("#greek-author").inputValue(),"josefo");
+ assert.equal(await page.locator("#greek-author option[value='clemente-alexandria']").count(),0,"Clemente ausente dos escritores gregos");
+ assert.equal(await page.evaluate(()=>window.ScripturaGreekAuthors.openWork("clemente-stromata")),false,"Não permitir abrir obra patrística pelo catálogo de escritores");
+ assert.deepEqual(await page.evaluate(()=>window.ScripturaGreekAuthors.listAuthors().map(x=>x.id)),["filon","josefo"]);
  assert.equal(await page.locator("#greek-work option").count(),5,"Quatro obras + opção vazia");
  await page.locator("#greek-work").selectOption("josefo-antiguidades");
  await page.locator("#greek-authors-submit").click();
@@ -210,7 +213,10 @@ try{
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
- await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+ await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
+ assert.equal(await page.locator("#site-greek-authors-content").isVisible(),true);
+ assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
+ assert.equal(await page.locator("#greek-author option[value='josefo']").count(),0);
  await page.locator("#greek-work").selectOption("clemente-stromata");
  await page.locator("#greek-authors-submit").click();
  await page.locator("#patristic-reader").waitFor({state:"visible",timeout:30000});
