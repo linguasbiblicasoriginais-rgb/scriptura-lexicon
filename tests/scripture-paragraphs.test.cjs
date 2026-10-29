@@ -49,7 +49,7 @@ test("UXLC: preservar as divisões פ e ס documentadas pela fonte",()=>{
  const {verses,breaks}=sample("scriptures/texts/uxlc-genesis-1.js","UXLC","GEN");
  assert.deepEqual(Array.from(breaks),[5,8,13,19,23,31]);
  const plan=group(Object.entries(verses),{sourceEnds:breaks});
- assert.deepEqual(plan.map(p=>p.verses.at(-1).number),breaks);
+ assert.deepEqual(plan.map(p=>p.verses.at(-1).number),Array.from(breaks));
  assert.ok(plan.every(p=>p.origin==="fonte"));
 });
 test("Grego: não capitalizar cada versículo; preservar nomes próprios e dados de origem",()=>{
