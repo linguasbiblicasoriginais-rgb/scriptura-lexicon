@@ -36,6 +36,12 @@ try{
    "Cabeçalho sem sombra de moldura");
   for(const theme of ["dark","light"]){
    await page.evaluate(value=>document.documentElement.dataset.theme=value,theme);
+   const headerStyle=await header.evaluate(node=>({
+    color:getComputedStyle(node).backgroundColor,
+    image:getComputedStyle(node).backgroundImage
+   }));
+   assert.deepEqual(headerStyle,{color:"rgba(0, 0, 0, 0)",image:"none"},
+    "Cabeçalho não deve ter preenchimento em tema "+theme);
    const logoVariant=page.locator(".site-brand-logo--"+theme);
    assert.equal(await logoVariant.isVisible(),true,"Logotipo do tema "+theme+" deve aparecer");
    assert.equal(await logoVariant.evaluate(node=>node.complete&&node.naturalWidth>0),true,
