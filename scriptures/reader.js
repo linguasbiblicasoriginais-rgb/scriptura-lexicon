@@ -318,7 +318,26 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                     appendText(content.slice(cursor));
                 }else if(wordUI)wordUI.decorate(passage,display,options);
                 else passage.textContent=display;
-                line.append(count,passage);
+                // Evita número de versículo órfão no fim da linha (inclusive RTL).
+                // O número e a primeira unidade lexical formam um bloco inquebrável.
+                // Extrair nós existentes preserva integralmente texto, diacríticos e popups.
+                const firstWord=passage.querySelector(".scripture-word-unit");
+                if(firstWord){
+                    const range=document.createRange();
+                    range.setStart(passage,0);
+                    range.setEndAfter(firstWord);
+                    const leadText=document.createElement("bdi");
+                    leadText.lang=passage.lang;
+                    leadText.dir=passage.dir;
+                    leadText.append(range.extractContents());
+                    const lead=document.createElement("span");
+                    lead.className="scripture-verse-lead";
+                    lead.append(count,leadText);
+                    line.append(lead,passage);
+                }else{
+                    // Segurança para passagens sem unidades lexicais decoradas.
+                    line.append(count,passage);
+                }
                 paragraph.append(line);
                 if(index<group.verses.length-1)
                     paragraph.append(document.createTextNode(" "));
