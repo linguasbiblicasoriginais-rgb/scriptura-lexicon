@@ -184,136 +184,165 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         const newHash = "#" + state.scope + "/" + state.edition + "/" + state.bookId + "." + state.chapter + "." + state.verse;
         if (window.location.hash !== newHash) history.replaceState(null, "", newHash);
     }
+    // A seleção dos versículos não altera nem recarrega os dados da edição.
+    function activateVerse(number,updateUrl=true) {
+        const target=textRegion.querySelector('[data-scripture-verse="'+number+'"]');
+        if(!target)return false;
+        state.verse=number;
+        verseInput.value=String(number);
+        reference.textContent=sourceReference(number);
+        for(const line of textRegion.querySelectorAll("[data-scripture-verse]")){
+            const active=Number(line.dataset.scriptureVerse)===number;
+            line.classList.toggle("scripture-verse-selected",active);
+            line.setAttribute("aria-pressed",String(active));
+        }
+        if(updateUrl)syncHash();
+        return true;
+    }
+    textRegion.addEventListener("click",event=>{
+        // Os botões de palavras continuam abrindo o minidicionário, sem navegar.
+        if(event.target.closest(".scripture-word"))return;
+        const line=event.target.closest("[data-scripture-verse]");
+        if(line&&textRegion.contains(line))activateVerse(Number(line.dataset.scriptureVerse));
+    });
+    textRegion.addEventListener("keydown",event=>{
+        if(event.target.closest(".scripture-word"))return;
+        const line=event.target.closest("[data-scripture-verse]");
+        if(line&&textRegion.contains(line)&&(event.key==="Enter"||event.key===" ")){
+            event.preventDefault();
+            activateVerse(Number(line.dataset.scriptureVerse));
+        }
+    });
     function renderTexts() {
         wordUI?.close(false);
         textRegion.replaceChildren();
-        const fragment = document.createDocumentFragment();
-        const corpus = window.ScripturaScriptureTexts || {};
-        const entries = activeVerseMap();
-        const verses = entries && typeof entries === "object" ? Object.entries(entries) : [];
-        if (!verses.length) {
-            const note = document.createElement("p");
-            note.className = "scripture-empty-text";
-            note.textContent = "Texto integral não incorporado nesta edição. Utilize a referência externa da fonte, quando disponível. A presença no catálogo não significa transcrição publicada.";
-            fragment.append(note);
-            textRegion.append(fragment);
+        const fragment=document.createDocumentFragment();
+        const entries=activeVerseMap();
+        const verses=entries&&typeof entries==="object"?Object.entries(entries):[];
+        if(!verses.length){
+            const note=document.createElement("p");
+            note.className="scripture-empty-text";
+            note.textContent="Texto integral não incorporado nesta edição. Utilize a referência externa da fonte, quando disponível. A presença no catálogo não significa transcrição publicada.";
+            textRegion.append(note);
             return;
         }
-        verses.sort(function (a, b) { return Number(a[0]) - Number(b[0]); });
-        const sectionBreaks = window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
-        const sectionBreakSet = new Set(sectionBreaks.map(Number));
-        const parashahTypes = window.ScripturaScriptureParashahTypes?.[state.edition]?.[state.bookId]?.[state.chapter] || {};
-        const inlineParashahTypes = window.ScripturaScriptureInlineParashahTypes?.[state.edition]?.[state.bookId]?.[state.chapter] || {};
-        const editorialSeparators = window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
-        const editorialSeparatorSet = new Set(editorialSeparators.map(Number));
-        const headings = window.ScripturaScriptureHeadings?.[state.edition]?.[state.bookId]?.[state.chapter] || [];
-        const headingsByVerse = new Map(headings.map(function (heading) {
-            return [heading.beforeVerse, heading];
-        }));
-        verses.forEach(function (entry) {
-            const number = positiveInt(entry[0], 0);
-            if (!number) return;
-            const content = typeof entry[1] === "string" ? entry[1] : entry[1]?.text;
-            if (typeof content !== "string" || !content) return;
-            const heading = headingsByVerse.get(number);
-            if (heading) {
-                const section = document.createElement("div");
-                section.className = "scripture-section-heading";
-                if (typeof heading.bookTitle === "string") {
-                    const bookLabel = document.createElement("p");
-                    bookLabel.className = "scripture-section-book-label";
-                    bookLabel.textContent = heading.bookTitle;
-                    bookLabel.lang = "grc";
+        const where=sourceLocation();
+        const parashahBreaks=window.ScripturaScriptureParagraphBreaks?.[state.edition]?.[where.id]?.[where.chapter]||[];
+        const sourceBreaks=new Set(parashahBreaks.map(Number));
+        const parashahTypes=window.ScripturaScriptureParashahTypes?.[state.edition]?.[where.id]?.[where.chapter]||{};
+        const inlineParashahTypes=window.ScripturaScriptureInlineParashahTypes?.[state.edition]?.[where.id]?.[where.chapter]||{};
+        const editorialSeparators=window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[where.id]?.[where.chapter]||[];
+        const separatorEnds=new Set(editorialSeparators.map(Number));
+        const headings=window.ScripturaScriptureHeadings?.[state.edition]?.[where.id]?.[where.chapter]||[];
+        const headingsByVerse=new Map(headings.map(h=>[Number(h.beforeVerse),h]));
+        const grouping=window.ScripturaScriptureParagraphs;
+        const greek=grouping.greekEditions.has(state.edition);
+        const protectedWords=greek?grouping.sourceGreekInitials(verses):null;
+        const paragraphs=grouping.group(verses,{
+            sourceEnds:parashahBreaks,separatorEnds:editorialSeparators,
+            headingBefore:headings.map(h=>h.beforeVerse)
+        });
+        for(const group of paragraphs){
+            const first=group.verses[0].number;
+            const heading=headingsByVerse.get(first);
+            if(heading){
+                const section=document.createElement("div");
+                section.className="scripture-section-heading";
+                if(typeof heading.bookTitle==="string"){
+                    const bookLabel=document.createElement("p");
+                    bookLabel.className="scripture-section-book-label";
+                    bookLabel.lang="grc";bookLabel.textContent=heading.bookTitle;
                     section.append(bookLabel);
                 }
-                if (typeof heading.title === "string") {
-                    const title = document.createElement("h3");
-                    title.textContent = heading.title;
-                    section.append(title);
+                if(typeof heading.title==="string"){
+                    const title=document.createElement("h3");
+                    title.textContent=heading.title;section.append(title);
                 }
-                if (typeof heading.parallel === "string") {
-                    const parallel = document.createElement("p");
-                    parallel.className = "scripture-section-parallel";
-                    parallel.textContent = heading.parallel;
-                    section.append(parallel);
+                if(typeof heading.parallel==="string"){
+                    const parallel=document.createElement("p");
+                    parallel.className="scripture-section-parallel";
+                    parallel.textContent=heading.parallel;section.append(parallel);
                 }
                 fragment.append(section);
             }
-            const para = document.createElement("p");
-            para.className = "scripture-verse-line";
-            para.dir = state.edition === "UXLC" ? "rtl" : "ltr";
-            if (number === state.verse) para.classList.add("scripture-verse-selected");
-            const count = document.createElement("span");
-            count.className = "scripture-verse-number";
-            count.textContent = String(number) + " ";
-            const passage = document.createElement("bdi");
-            passage.lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
-            passage.dir = state.edition === "UXLC" ? "rtl" : "ltr";
-            const textOptions = {
-                edition: state.edition,
-                reference: sourceReference(number)
-            };
-            const inline = inlineParashahTypes[number] || [];
-            if (inline.length) {
-                let cursor = 0;
-                const appendText = function (text) {
-                    if (!text) return;
-                    const part = document.createElement("span");
-                    if (wordUI) wordUI.decorate(part, text, textOptions);
-                    else part.textContent = text;
-                    passage.append(part);
-                };
-                inline.forEach(function (marker) {
-                    const offset = Number(marker.offset);
-                    if (!Number.isInteger(offset) || offset < cursor || offset > content.length) return;
-                    appendText(content.slice(cursor, offset));
-                    const parashah = document.createElement("span");
-                    parashah.className = "scripture-inline-parashah";
-                    parashah.lang = "he";
-                    parashah.textContent = " " + (marker.type === "ס" ? "ס" : "פ");
-                    parashah.setAttribute("aria-label", marker.type === "ס" ?
-                        "ס — parashah interna, seção fechada" :
-                        "פ — parashah interna, seção aberta");
-                    passage.append(parashah);
-                    cursor = offset;
-                });
-                appendText(content.slice(cursor));
-            } else if (wordUI) {
-                wordUI.decorate(passage, content, textOptions);
-            } else passage.textContent = content;
-            para.append(count, passage);
-            fragment.append(para);
-            if (editorialSeparatorSet.has(number)) {
-                const separator = document.createElement("p");
-                separator.className = "scripture-editorial-separator";
-                separator.setAttribute("aria-label", "Travessão editorial entre versículos");
-                separator.textContent = "—";
+            const paragraph=document.createElement("p");
+            paragraph.className="scripture-paragraph";
+            paragraph.dir=state.edition==="UXLC"?"rtl":"ltr";
+            paragraph.dataset.paragraphOrigin=group.origin;
+            for(let index=0;index<group.verses.length;index++){
+                const {number,text:content}=group.verses[index];
+                const line=document.createElement("span");
+                line.className="scripture-verse-line";
+                line.dataset.scriptureVerse=String(number);
+                line.tabIndex=0;
+                line.setAttribute("role","button");
+                line.setAttribute("aria-label",sourceReference(number));
+                line.setAttribute("aria-pressed",String(number===state.verse));
+                line.dir=state.edition==="UXLC"?"rtl":"ltr";
+                if(number===state.verse)line.classList.add("scripture-verse-selected");
+                const count=document.createElement("span");
+                count.className="scripture-verse-number";
+                count.textContent=String(number)+" ";
+                const passage=document.createElement("bdi");
+                passage.lang=state.edition==="UXLC"?"he":
+                    (state.edition==="VUL"||state.edition==="VULJ")?"la":"grc";
+                passage.dir=state.edition==="UXLC"?"rtl":"ltr";
+                const display=greek?grouping.displayGreek(content,{
+                    paragraphStart:index===0,protectedWords
+                }):content;
+                const options={edition:state.edition,reference:sourceReference(number)};
+                const inline=inlineParashahTypes[number]||[];
+                if(inline.length){
+                    let cursor=0;
+                    const appendText=part=>{
+                        if(!part)return;
+                        const span=document.createElement("span");
+                        // UXLC não passa por transformação de caixa.
+                        if(wordUI)wordUI.decorate(span,part,options);
+                        else span.textContent=part;
+                        passage.append(span);
+                    };
+                    for(const marker of inline){
+                        const offset=Number(marker.offset);
+                        if(!Number.isInteger(offset)||offset<cursor||offset>content.length)continue;
+                        appendText(content.slice(cursor,offset));
+                        const sign=document.createElement("span");
+                        sign.className="scripture-inline-parashah";
+                        sign.lang="he";
+                        sign.textContent=" "+(marker.type==="ס"?"ס":"פ");
+                        sign.setAttribute("aria-label",marker.type==="ס"?
+                            "ס — parashah interna, seção fechada":
+                            "פ — parashah interna, seção aberta");
+                        passage.append(sign);cursor=offset;
+                    }
+                    appendText(content.slice(cursor));
+                }else if(wordUI)wordUI.decorate(passage,display,options);
+                else passage.textContent=display;
+                line.append(count,passage);
+                paragraph.append(line);
+                if(index<group.verses.length-1)
+                    paragraph.append(document.createTextNode(" "));
+            }
+            fragment.append(paragraph);
+            const last=group.verses.at(-1).number;
+            if(separatorEnds.has(last)){
+                const separator=document.createElement("p");
+                separator.className="scripture-editorial-separator";
+                separator.setAttribute("aria-label","Travessão editorial entre versículos");
+                separator.textContent="—";
                 fragment.append(separator);
             }
-            if (sectionBreakSet.has(number)) {
-                if (state.edition === "UXLC") {
-                    const breakMarker = document.createElement("p");
-                    // Compatibilidade: os capítulos antigos usam apenas o marcador פ.
-                    // Os novos registram explicitamente פ (aberta) e ס (fechada).
-                    const mark = parashahTypes[number] === "ס" ? "ס" : "פ";
-                    breakMarker.className = mark === "ס" ?
-                        "scripture-parashah-closed" : "scripture-parashah-open";
-                    breakMarker.lang = "he";
-                    breakMarker.dir = "rtl";
-                    breakMarker.setAttribute("aria-label", mark === "ס" ?
-                        "ס — parashah setumah, seção fechada" :
-                        "פ — parashah petuchah, seção aberta");
-                    breakMarker.textContent = mark;
-                    fragment.append(breakMarker);
-                } else {
-                    const breakMarker = document.createElement("div");
-                    breakMarker.className = "scripture-paragraph-break";
-                    breakMarker.setAttribute("role", "separator");
-                    breakMarker.setAttribute("aria-label", "Divisão de parágrafo indicada na fonte");
-                    fragment.append(breakMarker);
-                }
+            if(sourceBreaks.has(last)&&state.edition==="UXLC"){
+                const mark=parashahTypes[last]==="ס"?"ס":"פ";
+                const marker=document.createElement("p");
+                marker.className=mark==="ס"?"scripture-parashah-closed":"scripture-parashah-open";
+                marker.lang="he";marker.dir="rtl";
+                marker.textContent=mark;
+                marker.setAttribute("aria-label",mark==="ס"?
+                  "ס — parashah setumah, seção fechada":"פ — parashah petuchah, seção aberta");
+                fragment.append(marker);
             }
-        });
+        }
         textRegion.append(fragment);
     }
     let renderRequest = 0;

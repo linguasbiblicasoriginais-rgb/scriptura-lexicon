@@ -42,6 +42,7 @@ for(const path of [
 "scriptures/texts/vul-tobit-1.js",
 "scriptures/texts/vulj-tobit-1.js"
 ])script(path);
+script("scriptures/paragraphs.js");
 script("scriptures/reader.js");
 script("scriptures/sections.js");
 const api=w.ScripturaScriptures,nav=w.ScripturaSections;
