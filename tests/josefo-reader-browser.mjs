@@ -20,7 +20,7 @@ async function checkCompleteChapter(page,work){
 }
 
 async function ready(page,work){
- const selector=work==="guerra"?"#josefo-historia-text":"#josefo-text";
+ const selector=work==="antiguidades"?"#josefo-text":"#josefo-historia-text";
  await page.waitForFunction((sel)=>{
   const area=document.querySelector(sel);
   return area && !area.closest(".josefo-reader").hidden &&
@@ -162,6 +162,36 @@ try{
  await checkCompleteChapter(page,"guerra");
  assert.match(await page.locator('#josefo-historia-text [data-josefo-history-section="455"]').textContent(),/ἐστοχασάμην/);
  await verifyEveryChapter(page);
+
+ // Contra Ápio II: confrontar cada seção renderizada com o texto do pacote local.
+ await page.goto(base+"/#josefo/historia/apiao/2/1/51",{waitUntil:"domcontentloaded"});
+ await ready(page,"apiao");
+ await selected(page,"#josefo-historia-text",51);
+ assert.equal(await page.locator("#josefo-historia-languages-note").isVisible(),true);
+ assert.match(await page.locator("#josefo-historia-languages-note").textContent(),/§§ 52–112/);
+ const apion=await page.evaluate(()=>{
+  const rows=window.ScripturaJosephusWorks.apiao[2].chapters["1"];
+  const lines=[...document.querySelectorAll("#josefo-historia-text [data-josefo-history-section]")];
+  const mismatches=lines.filter((line,index)=>line.querySelector(".josefo-greek")?.textContent!==rows[index]?.text);
+  const languages=n=>[...document.querySelectorAll('#josefo-historia-text [data-josefo-history-section="'+n+'"] .josefo-greek [lang]')].map(x=>x.lang);
+  return {source:rows.length,rendered:lines.length,mismatches:mismatches.length,
+   s50:languages(50),s51:languages(51),s52:languages(52),
+   s112:languages(112),s113:languages(113),s114:languages(114),
+   unmarked:lines.filter(x=>!x.querySelector(".josefo-greek [lang]")).length,
+   undetermined:lines.filter(x=>x.querySelector('[lang="und"]')).length};
+ });
+ assert.equal(apion.source,296);
+ assert.equal(apion.rendered,296);
+ assert.equal(apion.mismatches,0,"A renderização deve preservar o texto-fonte integralmente");
+ assert.equal(apion.unmarked,0);
+ assert.equal(apion.undetermined,0);
+ assert.deepEqual([apion.s50,apion.s51,apion.s52,apion.s112,apion.s113,apion.s114],
+  [["grc"],["grc","la"],["la"],["la"],["la","grc"],["grc"]]);
+ assert.match(await page.locator("#josefo-historia-reference").textContent(),/C[.] Ap[.] 2[.]51/);
+ await page.goto(base+"/#josefo/guerra/1/1/31",{waitUntil:"domcontentloaded"});
+ await ready(page,"guerra");
+ assert.equal(await page.locator("#josefo-historia-languages-note").isVisible(),false);
+ console.log("JOSEFO_APION_LANGUAGE_PASS: 296 sections intact, correct language segments in sections 51–113");
 
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});

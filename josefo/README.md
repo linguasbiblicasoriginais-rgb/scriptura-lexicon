@@ -80,3 +80,18 @@ node --test tests/josefo-catalog.test.cjs tests/josefo-historia.test.cjs tests/j
 ```
 
 O navegador é ensaiado por GitHub Actions com Chromium/Playwright e servidor estático. Um teste descrito aqui **só é considerado aprovado quando sua execução registrar sucesso**. A validação do corpus está documentada pelos SHA e pelos testes; a comprovação de interação em browser requer a aprovação da etapa correspondente no workflow.
+
+## Contra Ápio II — preservação da suplência latina e marcação de idioma
+
+A transcrição TEI da Perseus de *Contra Ápio* (`tlg0526.tlg003.perseus-grc2`) contém trechos latinos marcados com `<foreign xml:lang="lat">` para suprir uma lacuna do grego:
+
+- § 51: final em latim, a partir de *et filios regis, ut ipse...*;
+- §§ 52–112: texto inteiramente latino;
+- § 113: início em latim, com retorno ao grego em *τὴν πορείαν ποιουμένων,*;
+- §§ restantes dos livros I e II: grego.
+
+A divisão dos idiomas é **característica do testemunho da edição**, não tradução ou reconstrução do projeto. O leitor aplica `lang="grc"` e `lang="la"` em cada fragmento, sem modificar os dados em `texts/apiao-1.js` e `texts/apiao-2.js`. Alteração inesperada das duas âncoras mistas resulta em `lang="und"` (idioma não confirmado), sem inferência. A nota editorial é exibida especificamente no livro II.
+
+[Consultar o XML TEI de Contra Ápio na Perseus](https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0526/tlg003/tlg0526.tlg003.perseus-grc2.xml).
+
+O arquivo `tests/josefo-linguagens.test.cjs` verifica a integridade de todas as 616 seções e as marcas linguísticas, e `tests/josefo-reader-browser.mjs` valida o resultado no Chromium, inclusive seções com ambos os idiomas.
