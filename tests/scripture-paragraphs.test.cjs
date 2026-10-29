@@ -47,7 +47,7 @@ test("Todas as oito edições: parágrafos cobrem os versículos sem perda nem d
 });
 test("UXLC: preservar as divisões פ e ס documentadas pela fonte",()=>{
  const {verses,breaks}=sample("scriptures/texts/uxlc-genesis-1.js","UXLC","GEN");
- assert.deepEqual(breaks,[5,8,13,19,23,31]);
+ assert.deepEqual(Array.from(breaks),[5,8,13,19,23,31]);
  const plan=group(Object.entries(verses),{sourceEnds:breaks});
  assert.deepEqual(plan.map(p=>p.verses.at(-1).number),breaks);
  assert.ok(plan.every(p=>p.origin==="fonte"));
@@ -71,7 +71,7 @@ test("CSS, controles clicáveis, popups e módulos carregados na ordem correta",
  const html=read("index.html"),reader=read("scriptures/reader.js"),css=read("scriptures/reader.css");
  assert.ok(html.indexOf('src="scriptures/paragraphs.js"')<html.indexOf('src="scriptures/reader.js"'));
  assert.match(reader,/window\.ScripturaScriptureParagraphs/);
- assert.match(reader,/data\.scriptureVerse/);
+ assert.match(reader,/dataset\.scriptureVerse/);
  assert.match(reader,/event\.target\.closest\("\.scripture-word"\)/);
  assert.match(reader,/wordUI\.decorate\(passage,display,options\)/);
  assert.match(css,/\.scripture-paragraph\s*\{[^}]*text-align:\s*justify/s);

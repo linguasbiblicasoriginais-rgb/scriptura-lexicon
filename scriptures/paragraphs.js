@@ -11,6 +11,9 @@
  "use strict";
  const greekEditions=new Set(["LXX","SBLGNT","TR","NA28","UBS5"]);
  const firstGreek=/[\p{Script=Greek}][\p{Script=Greek}\p{M}᾽’'\-]*/u;
+ const commonStarts=new Set(("καὶ ἡ ὁ οἱ τὸ τὰ τὴν τὸν τοῦ τῆς δὲ τε οὖν " +
+  "ἔστιν ἦν ἐγένετο εἶπεν ἰδοὺ ἀλλὰ ἀπὸ ἐν εἰς ἐπὶ κατὰ " +
+  "τοῦτο ταῦτα πᾶσαι μετὰ πρὸς ὅτι ὡς ἀμὴν ἤδη").split(/\s+/u));
  const greekGrapheme=/[\p{Script=Greek}]\p{M}*/u;
  // Nomes próprios com capitalização significativa: nunca alterar automaticamente.
  const properGreek=new Set(("Ἰησοῦς Ἰησοῦ Ἰησοῦν Χριστός Χριστοῦ Χριστόν " +
@@ -73,7 +76,7 @@
    // Capitalizar somente o início editorial do parágrafo.
    if(first[0]===first[0].toLocaleLowerCase("el"))
     display=token.replace(first[0],first[0].toLocaleUpperCase("el"));
-  }else if(!protectedWords?.has(lower)){
+  }else if(commonStarts.has(lower)||!protectedWords?.has(lower)){
    // Reduzir apenas a maiúscula inicial de versificação, não os nomes.
    display=token===token.toLocaleUpperCase("el")
     ?lower:token.replace(first[0],first[0].toLocaleLowerCase("el"));
