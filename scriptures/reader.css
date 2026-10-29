@@ -468,6 +468,17 @@
  border-inline-start:4px solid var(--accent);
  padding-inline-start:calc(.3em - 3px);
 }
+/* O número e a primeira palavra são uma única unidade de quebra.
+   O restante do versículo segue quebrando e justificando normalmente. */
+.scripture-reader .scripture-paragraph .scripture-verse-lead{
+ display:inline-block;
+ white-space:nowrap;
+ direction:inherit;
+ unicode-bidi:isolate;
+}
+.scripture-reader .scripture-paragraph .scripture-verse-lead bdi{
+ white-space:nowrap;
+}
 .scripture-reader .scripture-paragraph .scripture-verse-number{
  min-width:0;
  padding-inline-end:.25rem;
