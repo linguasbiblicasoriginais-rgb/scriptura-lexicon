@@ -22,8 +22,26 @@ try{
   assert.equal(await logo.count(),1);
   assert.equal(await logo.evaluate(node=>node.complete&&node.naturalWidth>0),true,
    "SVG de identidade visual deve carregar");
-  assert.equal(await home.locator("img").evaluate(node=>node.complete&&node.naturalWidth>0),true,
-   "SVG do botão Início deve carregar");
+  assert.equal(await home.locator(".home-icon").count(),1,
+   "Botão Início deve conservar o SVG original aplicado como máscara");
+  assert.notEqual(await home.locator(".home-icon").evaluate(node=>getComputedStyle(node).maskImage),"none",
+   "SVG do Início deve acompanhar currentColor");
+  const brandBounds=await page.locator(".site-brand").boundingBox();
+  const actionsBounds=await page.locator(".header-actions").boundingBox();
+  assert.ok(brandBounds&&actionsBounds&&brandBounds.y+brandBounds.height<=actionsBounds.y,
+   "A logomarca deve ficar acima dos botões de navegação");
+  assert.equal(await header.evaluate(node=>getComputedStyle(node).borderBottomWidth),"0px",
+   "Cabeçalho sem moldura/borda");
+  assert.equal(await header.evaluate(node=>getComputedStyle(node).boxShadow),"none",
+   "Cabeçalho sem sombra de moldura");
+  for(const theme of ["dark","light"]){
+   await page.evaluate(value=>document.documentElement.dataset.theme=value,theme);
+   const logoVariant=page.locator(".site-brand-logo--"+theme);
+   assert.equal(await logoVariant.isVisible(),true,"Logotipo do tema "+theme+" deve aparecer");
+   assert.equal(await logoVariant.evaluate(node=>node.complete&&node.naturalWidth>0),true,
+    "SVG do tema "+theme+" deve carregar");
+  }
+  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
   assert.equal(await page.locator(".project-name,.project-subtitle,.project-short").count(),0,
    "Textos antigos do cabeçalho foram removidos");
   assert.equal(await page.getByText("← Página inicial",{exact:true}).count(),0);
