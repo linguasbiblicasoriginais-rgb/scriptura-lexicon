@@ -117,9 +117,18 @@ try {
   await page.selectOption("#stromata-book","2");
   await page.waitForFunction(()=>document.querySelector("#stromata-reference")?.textContent?.includes("II"),null,{timeout:5000});
   await verifyReady("Troca de livro I → II");
-  await page.goto(origin+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
+  await page.goto(origin+"/#patristica",{waitUntil:"domcontentloaded"});
+  assert.equal(await page.locator("#site-greek-authors-content").isVisible(),true,"A seleção de obras funciona em Literatura patrística");
+  assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
+  assert.equal(await page.locator("#greek-author option[value='josefo']").count(),0,"Josefo ausente da categoria patrística");
+  assert.equal(await page.locator("#greek-work option[value='clemente-paedagogus']").count(),1);
   await page.locator("#greek-work").selectOption("clemente-stromata");
   await page.locator("#greek-authors-submit").click();
-  await verifyReady("Acesso pelo cartão de Literatura patrística");
+  await verifyReady("Acesso pelo combobox de Literatura patrística");
+  assert.equal(await page.locator("#patristic-reader .patristic-section-card--selected").count(),1);
+  await page.locator("#patristic-reader [data-site-section='patristica']").click();
+  await page.locator("#site-greek-authors-content").waitFor({state:"visible"});
+  assert.match(page.url(),/#patristica$/);
+  assert.equal(await page.locator("#patristic-reader").isVisible(),false);
   console.log("STROMATA_BROWSE_SMOKE_PASS");
 }finally{await browser.close();}

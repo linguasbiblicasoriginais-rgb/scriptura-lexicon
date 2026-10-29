@@ -29,7 +29,7 @@ const categories=[
  ["patristica","Literatura patrística","Stromata e Pedagogo, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
- ["autores-gregos","Escritores gregos","Obras gregas de Josefo e Clemente de Alexandria; Fílon já catalogado."],
+ ["autores-gregos","Escritores gregos","Obras de Flávio Josefo; Fílon de Alexandria já catalogado."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -170,7 +170,8 @@ function showHub(section){
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
  if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos"&&section!=="patristica";
- if(section==="patristica")window.ScripturaGreekAuthors?.selectAuthor("clemente-alexandria");
+ if(section==="patristica"||section==="autores-gregos")
+  window.ScripturaGreekAuthors?.setScope(section);
  cards.replaceChildren();
  cards.classList.toggle("site-section-cards--editions", Boolean(editions[section]));
  if(section==="inicio")for(const [code,name,desc] of categories)card(name,desc,{siteSection:code});
@@ -191,6 +192,11 @@ const greekAuthorNames=Object.freeze({
 });
 function showGreekAuthor(authorId,push=true){
  if(!Object.prototype.hasOwnProperty.call(greekAuthorNames,authorId))return false;
+ if(authorId==="clemente-alexandria"){
+  if(!showHub("patristica"))return false;
+  if(push&&location.hash!=="#patristica")history.pushState(null,"","#patristica");
+  return true;
+ }
  if(!showHub("autores-gregos"))return false;
  if(greekAuthors)greekAuthors.hidden=false;
  window.ScripturaGreekAuthors?.selectAuthor(authorId);
@@ -210,7 +216,6 @@ function showDictionary(){
 }
 function openSection(section){
  if(section==="josefo"||section==="filon")return showGreekAuthor(section,true);
- if(section==="patristica")return showGreekAuthor("clemente-alexandria",true);
  if(!showHub(section))return false;
  closeMenu();
  if(window.location.hash!=="#"+section)history.pushState(null,"","#"+section);
@@ -225,7 +230,13 @@ function handleHash(){
  if(window.ScripturaPatristics?.isPatristicHash())return window.ScripturaPatristics.showFromHash();
  if(window.ScripturaScriptures?.isScriptureHash())return window.ScripturaScriptures.showFromHash();
  const greek=/^#autores-gregos\/(josefo|clemente-alexandria|filon)$/.exec(window.location.hash);
- if(greek)return showGreekAuthor(greek[1],false);
+ if(greek){
+  if(greek[1]==="clemente-alexandria"){
+   history.replaceState(null,"","#patristica");
+   return showHub("patristica");
+  }
+  return showGreekAuthor(greek[1],false);
+ }
  if(window.location.hash==="#josefo")return showGreekAuthor("josefo",false);
  if(window.location.hash==="#filon")return showGreekAuthor("filon",false);
  const m=/^#(inicio|escrituras|apocrifos|patristica|pseudepigrafos|autores-gregos|dicionarios|configuracoes)$/.exec(window.location.hash);

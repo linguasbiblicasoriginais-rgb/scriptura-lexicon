@@ -78,7 +78,10 @@ test("Interface: quatro obras de Josefo em Escritores gregos e leitores independ
  const ant=read("josefo/reader.js");
  const css=read("josefo/reader.css");
  const html=read("index.html");
- assert.match(hub,/window\.ScripturaGreekAuthors\?\.selectAuthor\(authorId\)/);
+ assert.match(hub,/window\.ScripturaGreekAuthors\?\.setScope\(section\)/);
+ assert.match(hub,/if\(authorId==="clemente-alexandria"\)/);
+ assert.match(greek,/function setScope\(scope\)/);
+ assert.match(greek,/activeScope==="patristica"/);
  assert.doesNotMatch(hub,/card\("Flávio Josefo"/);
  assert.doesNotMatch(hub,/card\("Clemente de Alexandria"/);
  assert.match(greek,/function openWork/);

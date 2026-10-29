@@ -9,6 +9,8 @@ const authors = new Map([
   ["clemente-alexandria", {id:"clemente-alexandria",name:"Clemente de Alexandria"}]
 ]);
 const works = new Map(); // Sem obras fictícias; futuro preenchimento editorial.
+let activeScope="autores-gregos";
+const scopeAllowsAuthor=id=>activeScope==="patristica"?id==="clemente-alexandria":id!=="clemente-alexandria";
 const ui = {
   form:document.getElementById("greek-authors-search"),
   author:document.getElementById("greek-author"),
@@ -16,7 +18,9 @@ const ui = {
   fields:document.getElementById("greek-authors-reference-fields"),
   status:document.getElementById("greek-authors-status"),
   results:document.getElementById("greek-authors-results"),
-  submit:document.getElementById("greek-authors-submit")
+  submit:document.getElementById("greek-authors-submit"),
+  title:document.getElementById("greek-authors-search-title"),
+  intro:document.querySelector("#site-greek-authors-content .greek-authors-intro")
 };
 function option(value,label){
   const node=document.createElement("option");
@@ -25,22 +29,36 @@ function option(value,label){
 }
 function sorted(values){return values.sort((a,b)=>a.name.localeCompare(b.name,"pt-BR"));}
 function getWorks(authorId){
-  return Array.from(works.values()).filter(w=>w.authorId===authorId)
+  return Array.from(works.values()).filter(w=>w.authorId===authorId&&scopeAllowsAuthor(w.authorId))
     .sort((a,b)=>a.title.localeCompare(b.title,"pt-BR"));
 }
 function selectAuthor(authorId){
   if(!ui.author)return false;
   refreshAuthors();
-  ui.author.value=authors.has(authorId)?authorId:"";
+  ui.author.value=authors.has(authorId)&&scopeAllowsAuthor(authorId)?authorId:"";
   refreshWorks();
   return !!ui.author.value;
 }
 function refreshAuthors(){
   if(!ui.author)return;
   const current=ui.author.value;
-  ui.author.replaceChildren(option("","Selecione um autor"),
-    ...sorted(Array.from(authors.values())).map(a=>option(a.id,a.name)));
-  if(authors.has(current))ui.author.value=current;
+  const allowed=sorted(Array.from(authors.values()).filter(a=>scopeAllowsAuthor(a.id)));
+  ui.author.replaceChildren(option("","Selecione um autor"),...allowed.map(a=>option(a.id,a.name)));
+  if(allowed.some(a=>a.id===current))ui.author.value=current;
+}
+function setScope(scope){
+ if(scope!=="patristica"&&scope!=="autores-gregos")return false;
+ activeScope=scope;
+ if(ui.title)ui.title.textContent=scope==="patristica"
+  ?"Literatura patrística — obras cadastradas":"Escritores gregos — obras cadastradas";
+ if(ui.intro)ui.intro.textContent=scope==="patristica"
+  ?"Clemente de Alexandria: Stromata e Pedagogo. A numeração de cada edição é preservada."
+  :"Selecione um escritor e uma obra para consultar o texto original e as divisões da edição.";
+ refreshAuthors();
+ if(scope==="patristica")ui.author.value="clemente-alexandria";
+ else if(!scopeAllowsAuthor(ui.author.value))ui.author.value="";
+ refreshWorks();
+ return true;
 }
 function field(name,key,disabled){
   const wrap=document.createElement("div");wrap.className="greek-authors-field";
@@ -116,7 +134,7 @@ function registerWork(value){
 function search(event){
   event.preventDefault();
   const work=currentWork();
-  if(!work){setStatus("Selecione uma obra cadastrada.");return;}
+  if(!work||!scopeAllowsAuthor(work.authorId)){setStatus("Selecione uma obra cadastrada nesta área.");return;}
   if(publishedOpeners[work.id]){
     if(!openWork(work.id))setStatus("Não foi possível abrir o leitor desta obra.");
     return;
@@ -159,6 +177,8 @@ const publishedOpeners=Object.freeze({
 });
 function openWork(id){
   if(!Object.prototype.hasOwnProperty.call(publishedOpeners,id))return false;
+  const chosen=works.get(id);
+  if(!chosen||!scopeAllowsAuthor(chosen.authorId))return false;
   const ready={
     "josefo-antiguidades":window.ScripturaJosephus?.show,
     "josefo-guerra":window.ScripturaJosephusHistory?.show,
@@ -186,8 +206,8 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
   ui.work.addEventListener("change",()=>{renderFields();if(ui.submit)ui.submit.disabled=!currentWork();ui.results?.replaceChildren();setStatus(currentWork()?"Preencha a referência desejada ou pesquise todos os trechos publicados.":"Selecione uma obra.");});
   ui.form.addEventListener("submit",search);
 }
-window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,openWork,
-  listAuthors:()=>sorted(Array.from(authors.values())).map(a=>({...a})),
+window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,setScope,openWork,
+  listAuthors:()=>sorted(Array.from(authors.values()).filter(a=>scopeAllowsAuthor(a.id))).map(a=>({...a})),
   listWorks:authorId=>getWorks(authorId).map(w=>({id:w.id,authorId:w.authorId,title:w.title,levels:w.levels.map(x=>({...x})),passageCount:w.passages.length}))
 };
 })();
