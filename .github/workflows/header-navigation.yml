@@ -1,11 +1,12 @@
-name: Site — cabeçalho fixo, identidade e navegação
+name: Site — cabeçalho e retorno ao topo
 on:
   push:
-    branches: [chat-gpt-header-logo-revisao-20261029]
+    branches: [chat-gpt-botao-voltar-topo-20261029]
     paths:
       - 'index.html'
       - 'style.css'
       - 'scriptures/sections.js'
+      - 'scriptures/back-to-top.js'
       - 'imagens/icones/home.svg'
       - 'imagens/logo.svg'
       - 'imagens/logo-light.svg'
@@ -18,6 +19,7 @@ on:
       - 'index.html'
       - 'style.css'
       - 'scriptures/sections.js'
+      - 'scriptures/back-to-top.js'
       - 'imagens/icones/home.svg'
       - 'imagens/logo.svg'
       - 'imagens/logo-light.svg'
@@ -39,6 +41,7 @@ jobs:
       - name: Verificar sintaxe e SVGs
         run: |
           node --check scriptures/sections.js
+          node --check scriptures/back-to-top.js
           node --check tests/header-navigation-browser.mjs
           python3 - <<'PY'
           from xml.etree import ElementTree as ET
