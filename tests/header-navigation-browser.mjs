@@ -13,6 +13,10 @@ try{
   const menu=page.locator("#menu-toggle");
   const home=page.locator("#home-button");
   const logo=page.locator("#site-brand-logo");
+  assert.equal(await page.locator(".site-section-kicker").count(),0,
+   "O rótulo Scriptura Lexicon · Biblioteca não deve existir em nenhuma seção");
+  assert.equal(await page.getByText("Scriptura Lexicon · Biblioteca",{exact:true}).count(),0,
+   "O rótulo redundante não deve aparecer na interface");
   assert.equal(await header.count(),1);
   assert.equal(await menu.count(),1);
   assert.equal(await home.count(),1);
