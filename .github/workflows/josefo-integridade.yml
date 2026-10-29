@@ -1,9 +1,10 @@
 name: Josefo — integralidade grega e leitores Chromium
 on:
   push:
-    branches: [chat-gpt-josefo-guerra]
+    branches: [chat-gpt-josefo-guerra, chat-gpt-josefo-contra-apiao-idiomas, chat-gpt-leitores-uniformidade-20261029, chat-gpt-patristica-clemente-exclusivo]
     paths:
       - 'josefo/**'
+      - 'scriptures/greek-authors.js'
       - 'scriptures/sections.js'
       - 'tests/josefo-*.cjs'
       - 'tests/josefo-*.mjs'
@@ -12,6 +13,7 @@ on:
     branches: [chat-gpt-commits]
     paths:
       - 'josefo/**'
+      - 'scriptures/greek-authors.js'
       - 'scriptures/sections.js'
       - 'tests/josefo-*.cjs'
       - 'tests/josefo-*.mjs'
@@ -36,11 +38,13 @@ jobs:
           node --check josefo/historia-catalog.js
           node --check josefo/reader.js
           node --check josefo/historia-reader.js
+          node --check josefo/linguagem-apiao.js
+          node --check tests/josefo-linguagens.test.cjs
           node --check scriptures/sections.js
           node --check tests/josefo-reader-browser.mjs
       - name: Validar o corpus grego e os fingerprints Perseus/Niese
         run: |
-          node --test tests/josefo-catalog.test.cjs tests/josefo-historia.test.cjs tests/josefo-niese-integrity.test.cjs
+          node --test tests/josefo-catalog.test.cjs tests/josefo-historia.test.cjs tests/josefo-linguagens.test.cjs tests/josefo-niese-integrity.test.cjs
       - name: Instalar Chromium com Playwright
         run: |
           npm install --no-save --package-lock=false playwright@1.56.1

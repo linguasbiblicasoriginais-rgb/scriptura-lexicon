@@ -17,19 +17,19 @@ root.className = "patristic-reader";
 root.setAttribute("aria-label", "Leitor de Stromata");
 root.hidden = true;
 root.innerHTML = [
-  '<button type="button" class="site-back-link" data-greek-author="clemente-alexandria">← Escritores gregos · Clemente de Alexandria</button>',
+  '<button type="button" class="site-back-link" data-site-section="patristica">← Literatura patrística</button>',
   '<h2 class="patristic-heading"><span lang="grc">Στρώματα</span> · Stromata</h2>',
   '<p class="patristic-context">Clemente de Alexandria · Texto grego · Edição Otto Stählin (1906–1909)</p>',
   '<div class="patristic-controls" role="group" aria-label="Navegação do texto">',
   '<label>Livro<select id="stromata-book"></select></label>',
   '<label>Capítulo<select id="stromata-chapter"></select></label>',
-  '<label>Seção<select id="stromata-section"></select></label>',
+  '<label>Seção (§)<select id="stromata-section"></select></label>',
   '<label id="stromata-subsection-label">Subseção<select id="stromata-subsection"></select></label>',
   '</div>',
   '<div class="patristic-steps"><button type="button" id="stromata-prev">← Anterior</button>',
   '<span id="stromata-reference" aria-live="polite"></span>',
   '<button type="button" id="stromata-next">Próxima →</button></div>',
-  '<p id="stromata-status" role="status" aria-live="polite"></p>',
+  '<p id="stromata-status" role="status" aria-live="polite" hidden></p>',
   '<article id="stromata-text" class="patristic-text greek" lang="grc"></article>',
   '<p class="patristic-source"><strong>Fonte:</strong> <a id="stromata-perseus" target="_blank" rel="noopener noreferrer" href="https://atlas.perseus.tufts.edu/library/urn:cts:greekLit:tlg0555.tlg004/">Perseus Digital Library</a> · ',
   '<a id="stromata-xml" target="_blank" rel="noopener noreferrer" href="' + SOURCE_URL + '">TEI-XML integral</a> · ',
@@ -48,6 +48,7 @@ const controls = {
 };
 const content = el("stromata-text");
 const status = el("stromata-status");
+function setStatus(text){status.textContent=text||"";status.hidden=!status.textContent;}
 const reference = el("stromata-reference");
 const prev = el("stromata-prev"), next = el("stromata-next");
 let books = [], selected = [1,1,1,1], loading = null, sequence = 0, externalSource = false;
@@ -87,7 +88,7 @@ function syncControls(b,c,s,sub) {
   setOptions(controls.chapter,chapters,n=>"Capítulo "+n);
   const secs=childParts(getChapter(b,c),"section").map(number);
   s=choose(secs,s);
-  setOptions(controls.section,secs,n=>"Seção "+n);
+  setOptions(controls.section,secs,n=>"§ "+n);
   const subs=getSubsections(getSection(b,c,s));
   sub=choose(subs,sub);
   setOptions(controls.subsection,subs,n=>"Subseção "+n);
@@ -142,7 +143,6 @@ function renderNode(node,parent) {
       const n=number(node);
       if(Number.isInteger(n)){
         const mark=editorial(String(n),"patristic-submark","Subseção "+n);
-        mark.id="stromata-subsection-"+n;
         parent.append(mark);
       }
     }
@@ -161,6 +161,7 @@ function renderNode(node,parent) {
     if(tag==="add")host.title="Acréscimo editorial";
     if(tag==="del")host.title="Supressão editorial";
     if(tag==="supplied")host.title="Texto suprido pelo editor";
+    if(tag==="foreign")host.lang=node.getAttributeNS?.("http://www.w3.org/XML/1998/namespace","lang")||"und";
     parent.append(host);
   }
   Array.from(node.childNodes).forEach(child=>renderNode(child,host));
@@ -169,72 +170,95 @@ function renderNode(node,parent) {
 // iniciar uma subseção dentro de um <p> ou de uma marca editorial inline.
 // Recortamos o DOM já renderizado por Range, conservando a ordem do grego
 // e os spans editoriais; cada subseção passa a ocupar um <p> independente.
-function appendTextSegment(fragment) {
+function appendTextSegment(fragment,target=content) {
   if(!fragment.textContent?.trim())return;
   const paragraph=document.createElement("p");
   paragraph.className="patristic-subsection";
   paragraph.append(fragment);
-  content.append(paragraph);
+  target.append(paragraph);
 }
-function appendSubsectionLines(paragraph) {
+function appendSubsectionLines(paragraph,target=content) {
   const markers=Array.from(paragraph.querySelectorAll(".patristic-submark"));
-  if(!markers.length){content.append(paragraph);return;}
+  if(!markers.length){target.append(paragraph);return;}
   for(const marker of markers) {
     const range=document.createRange();
     range.selectNodeContents(paragraph);
     range.setEndBefore(marker);
-    appendTextSegment(range.extractContents());
+    appendTextSegment(range.extractContents(),target);
   }
   const remainder=document.createDocumentFragment();
   while(paragraph.firstChild)remainder.append(paragraph.firstChild);
-  appendTextSegment(remainder);
+  appendTextSegment(remainder,target);
 }
 function renderCurrent() {
-  const [b,c,s,sub]=selected;
-  const section=getSection(b,c,s);
-  content.replaceChildren();
-  if(!section){status.textContent="Seção ausente na edição.";return;}
-  const paragraphs=Array.from(section.children).filter(x=>x.localName==="p");
-  if(paragraphs.length) {
-    paragraphs.forEach(p=>{
-      const out=document.createElement("p");
-      Array.from(p.childNodes).forEach(node=>renderNode(node,out));
-      appendSubsectionLines(out);
-    });
-  } else {
-    const out=document.createElement("p");
-    Array.from(section.childNodes).forEach(node=>renderNode(node,out));
-    appendSubsectionLines(out);
-  }
-  // Em algumas passagens a primeira subseção é implícita no TEI.
-  // Tornamos sua referência visível, sem alterar o texto da fonte.
-  if(!content.querySelector("#stromata-subsection-1")){
-    const first=content.querySelector("p");
-    if(first){
-      const mark=editorial("1","patristic-submark","Subseção 1");
-      mark.id="stromata-subsection-1";
-      first.prepend(mark);
-    }
-  }
-  // Mesma indicação da linha selecionada usada nos versículos bíblicos.
-  // O realce pertence à subseção renderizada, nunca ao XML-fonte.
-  const activeMark=content.querySelector("#stromata-subsection-"+sub);
-  const activeParagraph=activeMark?.closest("p");
-  if(activeParagraph){
-    activeParagraph.classList.add("patristic-subsection-selected");
-    activeParagraph.setAttribute("aria-current","location");
-  }
-  reference.textContent="Stromata "+roman(b)+", "+c+"."+s+(sub>1?"."+sub:"");
-  el("stromata-perseus").href="https://beta.perseus.tufts.edu/"+SOURCE_CTS+"/section:"+b+"."+c+"."+s+"/";
-  const flat=allSections();
-  const offset=flat.findIndex(x=>x[0]===b&&x[1]===c&&x[2]===s);
-  prev.disabled=offset<1;
-  next.disabled=offset<0||offset===flat.length-1;
-  status.textContent=externalSource?"Texto integral carregado diretamente da Perseus (cópia local indisponível).":"Texto integral carregado do acervo Scriptura Lexicon.";
-  if(sub>1) {
-    activeParagraph?.scrollIntoView({block:"center",behavior:"smooth"});
-  }
+ const [b,c,s,sub]=selected;
+ const chapter=getChapter(b,c);
+ content.replaceChildren();
+ if(!chapter){setStatus("Capítulo ausente na edição.");return;}
+ for(const section of childParts(chapter,"section")){
+   const n=number(section);
+   const block=document.createElement("div");
+   block.className="patristic-section-card";
+   block.dataset.patristicSection=String(n);
+   block.setAttribute("role","button");
+   block.tabIndex=0;
+   block.setAttribute("aria-label","Selecionar seção § "+n);
+   block.setAttribute("aria-pressed",String(n===s));
+   if(n===s)block.classList.add("patristic-section-card--selected");
+   const label=document.createElement("strong");
+   label.className="patristic-section-number";
+   label.textContent="§ "+n;
+   const body=document.createElement("div");
+   body.className="patristic-section-body";
+   block.append(label,body);
+   const paragraphs=Array.from(section.children).filter(x=>x.localName==="p");
+   if(paragraphs.length){
+     for(const p of paragraphs){
+       const out=document.createElement("p");
+       Array.from(p.childNodes).forEach(node=>renderNode(node,out));
+       appendSubsectionLines(out,body);
+     }
+   }else{
+     const out=document.createElement("p");
+     Array.from(section.childNodes).forEach(node=>renderNode(node,out));
+     appendSubsectionLines(out,body);
+   }
+   if(![...body.querySelectorAll(".patristic-submark")].some(mark=>mark.textContent.trim()==="1")){
+     const first=body.querySelector("p");
+     if(first)first.prepend(editorial("1","patristic-submark","Subseção 1"));
+   }
+   let currentSub=1,selectedSubMarked=false;
+   for(const p of body.querySelectorAll("p")){
+     const mark=p.querySelector(".patristic-submark");
+     if(mark)currentSub=Number(mark.textContent)||1;
+     p.dataset.patristicSubsection=String(currentSub);
+     if(n===s&&currentSub===sub&&!selectedSubMarked){
+       selectedSubMarked=true;
+       p.classList.add("patristic-subsection-selected");
+       p.setAttribute("aria-current","location");
+     }
+     if(n===s&&mark)mark.id="stromata-subsection-"+currentSub;
+   }
+   const select=subsection=>change(b,c,n,subsection,true);
+   block.addEventListener("click",event=>{
+     const p=event.target.closest("p[data-patristic-subsection]");
+     select(p?Number(p.dataset.patristicSubsection):1);
+   });
+   block.addEventListener("keydown",event=>{
+     if(event.key==="Enter"||event.key===" "){event.preventDefault();select(1);}
+   });
+   content.append(block);
+ }
+ reference.textContent="Stromata "+roman(b)+", "+c+" · § "+s+(sub>1?"."+sub:"");
+ el("stromata-perseus").href="https://beta.perseus.tufts.edu/"+SOURCE_CTS+"/section:"+b+"."+c+"."+s+"/";
+ const flat=allSections();
+ const offset=flat.findIndex(x=>x[0]===b&&x[1]===c&&x[2]===s);
+ prev.disabled=offset<1;
+ next.disabled=offset<0||offset===flat.length-1;
+ setStatus("");
+ if(sub>1)content.querySelector(".patristic-section-card--selected .patristic-subsection-selected")?.scrollIntoView({block:"center",behavior:"smooth"});
 }
+
 function allSections() {
   const list=[];
   books.forEach(book=>childParts(book,"chapter").forEach(ch=>childParts(ch,"section").forEach(sec=>list.push([number(book),number(ch),number(sec)]))));
@@ -254,9 +278,11 @@ async function show(book=1,chapter=1,section=1,subsection=1,push=false) {
   window.ScripturaSections?.showHub("patristica");
   const request=++sequence;
   cards.hidden=true;
+  const authorForm=document.getElementById("site-greek-authors-content");
+  if(authorForm)authorForm.hidden=true;
   root.hidden=false;
   content.replaceChildren();
-  status.textContent="Carregando edição grega integral...";
+  setStatus("Carregando edição grega integral...");
   try{
     await load();
     if(request!==sequence||root.hidden)return false;
@@ -264,7 +290,7 @@ async function show(book=1,chapter=1,section=1,subsection=1,push=false) {
     return true;
   }catch(e){
     if(request!==sequence)return false;
-    status.textContent="Não foi possível carregar o texto integral. Verifique a cópia local ou a ligação com a Perseus.";
+    setStatus("Não foi possível carregar o texto integral. Verifique a cópia local ou a ligação com a Perseus.");
     content.textContent="";
     return false;
   }

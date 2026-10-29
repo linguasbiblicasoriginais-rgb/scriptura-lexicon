@@ -20,7 +20,7 @@ async function checkCompleteChapter(page,work){
 }
 
 async function ready(page,work){
- const selector=work==="guerra"?"#josefo-historia-text":"#josefo-text";
+ const selector=work==="antiguidades"?"#josefo-text":"#josefo-historia-text";
  await page.waitForFunction((sel)=>{
   const area=document.querySelector(sel);
   return area && !area.closest(".josefo-reader").hidden &&
@@ -84,11 +84,18 @@ try{
  const context=await browser.newContext({viewport:{width:1280,height:900},permissions:["clipboard-read","clipboard-write"]});
  const page=await context.newPage();page.on("pageerror",e=>errors.push(e.message));watchAssetErrors(page);
  await page.goto(base+"/#autores-gregos/josefo",{waitUntil:"domcontentloaded"});
- const cards=page.locator('[data-greek-work]');
- await cards.first().waitFor();
- assert.equal(await cards.count(),4,"All four Josefo works must be listed");
- await page.locator('[data-greek-work="josefo-antiguidades"]').click();
+ await page.locator("#greek-author").waitFor();
+ assert.equal(await page.locator("#site-section-cards [data-greek-author]").count(),0,"Sem cartões de autores");
+ assert.equal(await page.locator("#greek-author").inputValue(),"josefo");
+ assert.equal(await page.locator("#greek-author option[value='clemente-alexandria']").count(),0,"Clemente ausente dos escritores gregos");
+ assert.equal(await page.evaluate(()=>window.ScripturaGreekAuthors.openWork("clemente-stromata")),false,"Não permitir abrir obra patrística pelo catálogo de escritores");
+ assert.deepEqual(await page.evaluate(()=>window.ScripturaGreekAuthors.listAuthors().map(x=>x.id)),["filon","josefo"]);
+ assert.equal(await page.locator("#greek-work option").count(),5,"Quatro obras + opção vazia");
+ await page.locator("#greek-work").selectOption("josefo-antiguidades");
+ await page.locator("#greek-authors-submit").click();
  await ready(page,"antiguidades");
+ assert.equal(await page.locator("#josefo-message").isVisible(),false,"Sem logs abaixo do texto de Antiguidades");
+ assert.equal(await page.locator("#josefo-message").textContent(),"");
  assert.equal(await page.locator("#josefo-book").locator("option").count(),20);
  assert.equal(await page.locator("#josefo-chapter").locator("option").count(),24,"Synopsis + preface + 22 chapters");
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
@@ -125,6 +132,7 @@ try{
  await ready(page,"antiguidades");await selected(page,"#josefo-text",1);
  await page.goto(base+"/#josefo/antiguidades/1/arg",{waitUntil:"domcontentloaded"});
  await page.locator("#josefo-text .josefo-argument").waitFor({state:"visible"});
+ assert.equal(await page.locator("#josefo-message").isVisible(),false,"Sinopse sem comentário técnico");
  assert.match(await page.locator("#josefo-reference").textContent(),/sinopse/i);
 
  await page.goto(base+"/#josefo/antiguidades/20/12/268",{waitUntil:"domcontentloaded"});
@@ -133,6 +141,8 @@ try{
  assert.match(await page.locator('#josefo-text [data-josefo-section="268"]').textContent(),/κεκώλυται/);
  await page.goto(base+"/#josefo/guerra/1/1/31",{waitUntil:"domcontentloaded"});
  await ready(page,"guerra");
+ assert.equal(await page.locator("#josefo-historia-message").isVisible(),false,"Sem logs junto à Guerra");
+ assert.equal(await page.locator("#josefo-historia-message").textContent(),"");
  assert.equal(await page.locator("#josefo-historia-book").locator("option").count(),7);
  assert.equal(await page.locator("#josefo-historia-chapter").locator("option").count(),34,"Preface + 33 chapters");
  assert.equal(await page.locator("#josefo-reader").isVisible(),false);
@@ -163,11 +173,52 @@ try{
  assert.match(await page.locator('#josefo-historia-text [data-josefo-history-section="455"]').textContent(),/ἐστοχασάμην/);
  await verifyEveryChapter(page);
 
+ // Contra Ápio II: confrontar cada seção renderizada com o texto do pacote local.
+ await page.goto(base+"/#josefo/historia/apiao/2/1/51",{waitUntil:"domcontentloaded"});
+ await ready(page,"apiao");
+ assert.equal(await page.locator("#josefo-historia-message").isVisible(),false,"Sem logs junto a Contra Ápio");
+ assert.equal(await page.locator("#josefo-historia-chapter").isVisible(),false,"Sem seletor artificial de capítulos");
+ assert.doesNotMatch(await page.locator("#josefo-historia-reference").textContent(),/Texto contínuo/);
+ assert.match(await page.locator("#josefo-historia-reference").textContent(),/Livro 2 · § 51/);
+ await selected(page,"#josefo-historia-text",51);
+ assert.equal(await page.locator("#josefo-historia-languages-note").isVisible(),true);
+ assert.match(await page.locator("#josefo-historia-languages-note").textContent(),/§§ 52–112/);
+ const apion=await page.evaluate(()=>{
+  const rows=window.ScripturaJosephusWorks.apiao[2].chapters["1"];
+  const lines=[...document.querySelectorAll("#josefo-historia-text [data-josefo-history-section]")];
+  const mismatches=lines.filter((line,index)=>line.querySelector(".josefo-greek")?.textContent!==rows[index]?.text);
+  const languages=n=>[...document.querySelectorAll('#josefo-historia-text [data-josefo-history-section="'+n+'"] .josefo-greek [lang]')].map(x=>x.lang);
+  return {source:rows.length,rendered:lines.length,mismatches:mismatches.length,
+   s50:languages(50),s51:languages(51),s52:languages(52),
+   s112:languages(112),s113:languages(113),s114:languages(114),
+   unmarked:lines.filter(x=>!x.querySelector(".josefo-greek [lang]")).length,
+   undetermined:lines.filter(x=>x.querySelector('[lang="und"]')).length};
+ });
+ assert.equal(apion.source,296);
+ assert.equal(apion.rendered,296);
+ assert.equal(apion.mismatches,0,"A renderização deve preservar o texto-fonte integralmente");
+ assert.equal(apion.unmarked,0);
+ assert.equal(apion.undetermined,0);
+ assert.equal(await page.locator('#josefo-historia-text [data-josefo-history-section="51"] [lang="la"]').count(),1);
+ assert.equal(await page.locator('#josefo-historia-text [data-josefo-history-section="113"] [lang="grc"]').count(),1);
+ assert.equal(await page.locator('#josefo-historia-text [data-josefo-history-section="51"]').getAttribute("data-text-language"),"mixed");
+ assert.deepEqual([apion.s50,apion.s51,apion.s52,apion.s112,apion.s113,apion.s114],
+  [["grc"],["grc","la"],["la"],["la"],["la","grc"],["grc"]]);
+ assert.match(await page.locator("#josefo-historia-reference").textContent(),/C[.] Ap[.] 2[.]51/);
+ await page.goto(base+"/#josefo/guerra/1/1/31",{waitUntil:"domcontentloaded"});
+ await ready(page,"guerra");
+ assert.equal(await page.locator("#josefo-historia-languages-note").isVisible(),false);
+ console.log("JOSEFO_APION_LANGUAGE_PASS: 296 sections intact, correct language segments in sections 51–113");
+
  await page.goto(base+"/#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
  await page.locator("#scripture-reader").waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#josefo-historia-reader").isVisible(),false);
- await page.goto(base+"/#autores-gregos/clemente-alexandria",{waitUntil:"domcontentloaded"});
- await page.locator('[data-greek-work="clemente-stromata"]').click();
+ await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
+ assert.equal(await page.locator("#site-greek-authors-content").isVisible(),true);
+ assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
+ assert.equal(await page.locator("#greek-author option[value='josefo']").count(),0);
+ await page.locator("#greek-work").selectOption("clemente-stromata");
+ await page.locator("#greek-authors-submit").click();
  await page.locator("#patristic-reader").waitFor({state:"visible",timeout:30000});
  await page.goto(base+"/#dicionarios",{waitUntil:"domcontentloaded"});
  await page.locator("#site-dictionary-options").waitFor({state:"visible"});

@@ -1,4 +1,4 @@
-/* Obras de Flávio Josefo — leitor das obras gregas autênticas de Flávio Josefo.
+/* Obras de Flávio Josefo — leitor da transcrição grega com suplemento latino em Contra Ápio II.
  * Guerra, Vida e Contra Ápio usam dados integrais locais da transcrição TEI Perseus;
  * Antiguidades Judaicas conserva seu leitor independente, acessível pelo seletor Obra.
  */
@@ -29,26 +29,33 @@ panel.innerHTML=[
 '<button type="button" id="josefo-historia-next">Próximo capítulo →</button>',
 '</div>',
 '<div class="scripture-reader-result" aria-live="polite">',
-'<div class="scripture-reader-category">Flávio Josefo · texto grego da edição Niese / Perseus</div>',
+'<div class="scripture-reader-category">Flávio Josefo · transcrição Niese / Perseus</div>',
 '<h2 id="josefo-historia-reference"></h2>',
 '<div id="josefo-historia-text" class="scripture-text"></div>',
-'<p id="josefo-historia-message" class="josefo-message" role="status"></p>',
+'<p id="josefo-historia-message" class="josefo-message" role="status" hidden></p>',
 '<button type="button" id="josefo-historia-retry" hidden>Tentar carregar novamente</button>',
 '</div>',
 '<p id="josefo-historia-division" class="scripture-limit-note"></p>',
+'<p id="josefo-historia-languages-note" class="josefo-message" hidden></p>',
 '<div class="scripture-reader-actions">',
-'<a id="josefo-historia-source" target="_blank" rel="noopener noreferrer">Consultar o texto grego de referência ↗</a>',
+'<a id="josefo-historia-source" target="_blank" rel="noopener noreferrer">Consultar o texto de referência ↗</a>',
 '<button type="button" id="josefo-historia-copy">Copiar referência</button>',
 '</div>',
 '<p id="josefo-historia-feedback" class="scripture-reader-feedback" role="status"></p>',
-'<p class="josefo-credit">Fonte: Flávio Josefo, texto grego da edição de Benedikt Niese, transcrito pelo Perseus Digital Library. Para <em>A Guerra dos Judeus</em>: <em>Flavii Iosephi Opera</em>, vol. 6 (Berlim: Weidmann, 1895). Licença <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Conversão TEI/XML com remoção da marcação e normalização de espaços; não é reprodução diplomática. Sem tradução portuguesa.</p>'
+'<p class="josefo-credit">Fonte: Flávio Josefo, edição de Benedikt Niese, transcrição TEI da Perseus Digital Library. <em>Contra Ápio</em> II inclui suplência latina antiga de uma lacuna do texto grego, assinalada na fonte por <code>xml:lang="lat"</code>. Para <em>A Guerra dos Judeus</em>: <em>Flavii Iosephi Opera</em>, vol. 6 (Berlim: Weidmann, 1895). Licença <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Conversão TEI/XML com remoção da marcação e normalização de espaços; não é reprodução diplomática. Sem tradução portuguesa.</p>'
 ].join("");
 main.insertBefore(panel,anchor);
 const el=id=>panel.querySelector("#josefo-historia-"+id);
 const controls={work:el("work"),book:el("book"),chapter:el("chapter"),section:el("section")};
 const textArea=el("text"),heading=el("reference"),message=el("message");
+function setMessage(text){message.textContent=text||"";message.hidden=!message.textContent;}
 const retry=el("retry"),feedback=el("feedback"),copy=el("copy");
 const prev=el("prev"),next=el("next"),source=el("source");
+const kicker=panel.querySelector(".scripture-reader-kicker");
+const category=panel.querySelector(".scripture-reader-category");
+const languageNote=el("languages-note");
+languageNote.textContent="Nota textual — Contra Ápio II: a § 51 passa do grego ao latim; as §§ 52–112 são latinas; a § 113 retorna do latim ao grego. O testemunho latino antigo supre uma lacuna da transmissão grega. A divisão dos idiomas segue a marcação do TEI Perseus, não uma reconstrução do texto grego.";
+
 const state={work:"guerra",book:1,chapter:0,section:1};
 const loads=new Map();
 let generation=0;
@@ -85,7 +92,7 @@ function normalizeChapter(w,b,v){
  return Number.isSafeInteger(num)&&items.includes(num)?num:items[0];
 }
 function chapterLabel(w,c){
- if(!w.chapterMarked)return "Texto contínuo (sem capítulos na fonte)";
+ if(!w.chapterMarked)return "";
  return c===0?"Prefácio":"Capítulo "+c;
 }
 function fillSelections(){
@@ -99,11 +106,16 @@ function fillSelections(){
  for(const c of chaptersFor(w,state.book))controls.chapter.append(option(c,chapterLabel(w,c)));
  controls.chapter.value=String(state.chapter);
  controls.chapter.disabled=!w.chapterMarked;
+ controls.chapter.closest("label").hidden=!w.chapterMarked;
  el("title").textContent=w.title;
  el("original").textContent=w.original;
  el("division").textContent=w.chapterMarked
    ?"Capítulos segundo os marcadores Whiston na transcrição Perseus; as seções numeradas são contínuas dentro de cada livro."
-   :"O arquivo grego consultado não delimita capítulos nesta obra. O leitor conserva o texto integral e a seleção das seções, sem criar capítulos artificiais.";
+   :"As seções são numeradas na edição; não são criados capítulos que não constam da fonte.";
+ const mixed=state.work==="apiao"&&state.book===2;
+ kicker.textContent=mixed?"Obras de Flávio Josefo · grego e latim":"Obras de Flávio Josefo · texto grego";
+ category.textContent=mixed?"Flávio Josefo · grego e versão latina · Niese / Perseus":"Flávio Josefo · texto grego · Niese / Perseus";
+ languageNote.hidden=!mixed;
  source.href="https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0526."+w.cts+".perseus-grc2/";
  prev.textContent=w.chapterMarked?"← Capítulo anterior":"← Livro anterior";
  next.textContent=w.chapterMarked?"Próximo capítulo →":"Próximo livro →";
@@ -115,7 +127,7 @@ function updateNav(){
 }
 function caption(){
  const w=work();
- return (w.books>1?"Livro "+state.book+" · ":"") +chapterLabel(w,state.chapter);
+ return "Livro "+state.book+(w.chapterMarked?" · "+chapterLabel(w,state.chapter):"");
 }
 function reference(){
  const w=work();
@@ -156,7 +168,7 @@ function clear(note){
  fillSelections();updateNav();heading.textContent=caption();
  textArea.replaceChildren();
  controls.section.replaceChildren(option("","A carregar…"));
- controls.section.disabled=true;message.textContent=note;retry.hidden=true;
+ controls.section.disabled=true;setMessage(note);retry.hidden=true;
  copy.disabled=true;feedback.textContent="";
 }
 function load(w,b){
@@ -173,7 +185,7 @@ function load(w,b){
      else reject(new Error("Arquivo carregado sem texto do livro solicitado."));
    };
    script.onerror=()=>{
-     script.remove();reject(new Error("Falha na transferência do texto grego."));
+     script.remove();reject(new Error("Falha na transferência do texto de referência."));
    };
    document.head.append(script);
  });
@@ -186,7 +198,7 @@ function render(){
  fillSelections();updateNav();heading.textContent=caption();
  textArea.replaceChildren();retry.hidden=true;
  if(!list.length){
-   message.textContent="O arquivo deste livro não apresentou seções para esta divisão.";
+   setMessage("O arquivo deste livro não apresentou seções para esta divisão.");
    controls.section.replaceChildren(option("","Sem seções"));
    controls.section.disabled=true;copy.disabled=true;return;
  }
@@ -196,6 +208,7 @@ function render(){
  controls.section.value=String(state.section);
  controls.section.disabled=false;
  heading.textContent=displayedReference();
+ let uncertainLanguages=0;
  for(const row of list){
    const button=document.createElement("button");
    button.type="button";
@@ -207,13 +220,24 @@ function render(){
    button.setAttribute("aria-label","Seção "+row.number);
    const num=document.createElement("span");
    num.className="scripture-verse-number";num.textContent="§ "+row.number;
-   const greek=document.createElement("span");
-   greek.className="josefo-greek";greek.lang="grc";greek.textContent=row.text;
-   button.append(num,greek);
+   const sourceText=document.createElement("span");
+   sourceText.className="josefo-greek";
+   const parts=window.ScripturaJosephusLanguages.segments(state.work,state.book,row.number,row.text);
+   button.dataset.textLanguage=parts.length>1?"mixed":parts[0]?.lang||"und";
+   for(const part of parts){
+     const span=document.createElement("span");
+     span.lang=part.lang;
+     span.className="josefo-language-segment josefo-language-segment--"+part.lang;
+     if(parts.length>1)span.classList.add("josefo-language-segment--mixed");
+     span.textContent=part.text;
+     sourceText.append(span);
+     if(part.lang==="und")uncertainLanguages++;
+   }
+   button.append(num,sourceText);
    button.addEventListener("click",()=>activateSection(row.number,true));
    textArea.append(button);
  }
- message.textContent="Texto grego integral · "+list.length+" seções nesta divisão.";
+ setMessage(uncertainLanguages?"Atenção: limites linguísticos não confirmados em "+uncertainLanguages+" seção(ões).":"");
  copy.disabled=false;feedback.textContent="";
 }
 function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
@@ -234,7 +258,7 @@ function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
  window.ScripturaPaedagogus?.hide();
  for(const node of main.children)if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
  panel.hidden=false;
- clear("Carregando texto grego…");
+ clear("Carregando texto de referência…");
  if(writeHash)syncHash("push");
  load(state.work,state.book).then(()=>{
    if(generation!==mine)return;
@@ -242,7 +266,7 @@ function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
    if(requestedSection!==null)textArea.querySelector('[data-josefo-history-section="'+state.section+'"]')?.scrollIntoView({block:"center"});
  }).catch(()=>{
    if(generation!==mine)return;
-   clear("Não foi possível carregar o texto grego. Verifique a conexão e tente novamente.");
+   clear("Não foi possível carregar o texto de referência. Verifique a conexão e tente novamente.");
    retry.hidden=false;
  });
  const drawer=document.getElementById("dictionary-menu");

@@ -7,7 +7,7 @@ const vm=require("node:vm");
 const root=path.resolve(__dirname,"..");
 function read(file){return fs.readFileSync(path.join(root,file),"utf8");}
 function exec(file,win){vm.runInNewContext(read(file),{window:win},{filename:file});}
-test("História dos Hebreus: todas as obras e todas as 5.047 seções gregas adicionais",()=>{
+test("História dos Hebreus: todas as obras e todas as 5.047 seções da fonte (com suplência latina em Contra Ápio II)",()=>{
  const w={};exec("josefo/historia-catalog.js",w);
  const expected={guerra:{books:7,sections:[673,654,542,663,572,442,455],chapters:[33,22,10,11,13,10,11]},vida:{books:1,sections:[430],chapters:[]},apiao:{books:2,sections:[320,296],chapters:[]}};
  assert.deepEqual(Array.from(w.ScripturaJosephusHistoryCatalog.works,x=>x.key),["antiguidades","guerra","vida","apiao"]);
@@ -33,7 +33,7 @@ test("História dos Hebreus: todas as obras e todas as 5.047 seções gregas adi
    }
    for(let n=0;n<rows.length;n++){
     assert.equal(rows[n].number,n+1,"Seção faltante em "+name+" "+i+"."+(n+1));
-    assert.ok(rows[n].text.trim(),"Parágrafo grego vazio em "+name+" "+i+"."+(n+1));
+    assert.ok(rows[n].text.trim(),"Seção sem texto em "+name+" "+i+"."+(n+1));
    }
    total+=book.count;
   }

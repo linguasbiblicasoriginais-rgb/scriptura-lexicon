@@ -419,3 +419,73 @@
     border-bottom: 0;
     opacity: .85;
 }
+
+/* Leitor bíblico uniformizado: um parágrafo pode conter vários versículos.
+ * A separação visual NÃO reescreve os limites do corpus original. */
+.scripture-reader .scripture-paragraph {
+ margin:0 0 1.25rem;
+ padding:0;
+ font-family:"Noto Serif",Georgia,serif;
+ font-size:1.1rem;
+ line-height:2.05;
+ text-align:justify;
+ text-align-last:start;
+ text-justify:inter-word;
+ overflow-wrap:break-word;
+}
+.scripture-reader .scripture-paragraph[dir="rtl"] {
+ text-align:justify;
+ text-align-last:right;
+ direction:rtl;
+ font-family:"Noto Serif Hebrew","Noto Serif",serif;
+}
+.scripture-reader .scripture-paragraph .scripture-verse-line {
+ display:inline;
+ width:auto;
+ margin:0;
+ padding:.18em .3em;
+ border:1px solid transparent;
+ border-radius:6px;
+ background:transparent;
+ font:inherit;
+ line-height:inherit;
+ text-align:inherit;
+ text-align-last:inherit;
+ cursor:pointer;
+ -webkit-box-decoration-break:clone;
+ box-decoration-break:clone;
+ scroll-margin-block:8rem;
+}
+.scripture-reader .scripture-paragraph .scripture-verse-line:hover,
+.scripture-reader .scripture-paragraph .scripture-verse-line:focus-visible{
+ background:var(--surface-3);
+ border-color:var(--accent);
+ outline-offset:2px;
+}
+.scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected{
+ background:var(--surface-3);
+ border-color:var(--accent);
+ border-inline-start:4px solid var(--accent);
+ padding-inline-start:calc(.3em - 3px);
+}
+.scripture-reader .scripture-paragraph .scripture-verse-number{
+ min-width:0;
+ padding-inline-end:.25rem;
+ color:var(--accent);
+ font-size:.78em;
+ font-weight:600;
+ vertical-align:baseline;
+}
+.scripture-reader .scripture-paragraph bdi{
+ white-space:pre-line;
+ unicode-bidi:isolate;
+}
+.scripture-reader .scripture-paragraph bdi[lang="he"]{
+ font-family:"Noto Serif Hebrew",serif;
+ font-size:1.15em;
+}
+@media(max-width:520px){
+ .scripture-reader .scripture-paragraph{font-size:1rem;line-height:1.9}
+ .scripture-reader .scripture-paragraph .scripture-verse-line{padding:.1em .2em}
+ .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected{padding-inline-start:calc(.2em - 3px)}
+}

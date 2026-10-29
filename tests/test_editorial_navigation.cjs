@@ -6,7 +6,7 @@ const read=p=>fs.readFileSync(p,"utf8");
 const html=read("index.html"),reader=read("scriptures/reader.js"),siteJS=read("script.js");
 const controller=read("scriptures/sections.js");
 const css=read("style.css"),readerCss=read("scriptures/reader.css");
-const files=["script.js","scriptures/reader.js","scriptures/sections.js",
+const files=["script.js","scriptures/reader.js","scriptures/paragraphs.js","scriptures/sections.js",
              "scriptures/word-popups.js"];
 for(const f of files){
  const result=cp.spawnSync(process.execPath,["--check",f],{encoding:"utf8"});

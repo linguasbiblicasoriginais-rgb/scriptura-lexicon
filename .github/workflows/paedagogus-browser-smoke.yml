@@ -1,14 +1,16 @@
 name: Testar leitor do Pedagogo
 on:
   push:
-    branches: ['chat-gpt-patristicos/clemente-alexandria']
+    branches: ['chat-gpt-patristicos/clemente-alexandria', 'chat-gpt-leitores-uniformidade-20261029', 'chat-gpt-patristica-clemente-exclusivo']
     paths:
       - 'patristics/paedagogus-reader.js'
       - 'patristics/reader.css'
       - 'patristics/data/paedagogus.xml'
+      - 'scriptures/sections.js'
+      - 'scriptures/greek-authors.js'
       - 'tests/paedagogus-reader-browser.mjs'
       - '.github/workflows/paedagogus-browser-smoke.yml'
-      - 'scriptures/sections.js'
+
   workflow_dispatch:
 permissions:
   contents: read

@@ -71,17 +71,24 @@ function audit(work){
 }
 test("Perseus/Niese: Antiguidades — 20 livros, 257 capítulos, 7.376 seções e 20 sinopses integrais",()=>audit("antiguidades"));
 test("Perseus/Niese: Guerra — 7 livros, 110 capítulos, 4.001 seções integrais",()=>audit("guerra"));
-test("Interface: dois cartões e URLs independentes sem apagar outros leitores",()=>{
+test("Interface: quatro obras de Josefo em Escritores gregos e leitores independentes",()=>{
  const hub=read("scriptures/sections.js");
+ const greek=read("scriptures/greek-authors.js");
  const war=read("josefo/historia-reader.js");
  const ant=read("josefo/reader.js");
  const css=read("josefo/reader.css");
  const html=read("index.html");
- const cards=hub.slice(hub.indexOf('if(section==="josefo"){'),hub.indexOf('if(editions[section])'));
- assert.equal((cards.match(/card\("/g)||[]).length,2);
- assert.match(cards,/josefoWork:"antiguidades"/);
- assert.match(cards,/josefoWork:"guerra"/);
- assert.ok(!cards.includes('josefoWork:"vida"')&&!cards.includes('josefoWork:"apiao"'));
+ assert.match(hub,/window\.ScripturaGreekAuthors\?\.setScope\(section\)/);
+ assert.match(hub,/if\(authorId==="clemente-alexandria"\)/);
+ assert.match(greek,/function setScope\(scope\)/);
+ assert.match(greek,/activeScope==="patristica"/);
+ assert.doesNotMatch(hub,/card\("Flávio Josefo"/);
+ assert.doesNotMatch(hub,/card\("Clemente de Alexandria"/);
+ assert.match(greek,/function openWork/);
+ for(const name of ["josefo-antiguidades","josefo-guerra","josefo-vida","josefo-apiao"]){
+   assert.ok(greek.includes('id:"'+name+'"'),"Obra não registrada: "+name);
+   assert.ok(greek.includes('"'+name+'":'),"Abertura da obra não registrada: "+name);
+ }
  assert.ok(war.includes('#josefo/guerra/'));
  assert.ok(war.includes('#josefo/historia/'));
  assert.ok(ant.includes('#josefo/antiguidades/'));

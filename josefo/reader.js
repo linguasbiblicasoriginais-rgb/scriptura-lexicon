@@ -32,7 +32,7 @@ panel.innerHTML=[
 '<div class="scripture-reader-category">Flávio Josefo · Antiguidades Judaicas</div>',
 '<h2 id="josefo-reference"></h2>',
 '<div id="josefo-text" class="scripture-text"></div>',
-'<p id="josefo-message" class="josefo-message" role="status"></p>',
+'<p id="josefo-message" class="josefo-message" role="status" hidden></p>',
 '<button type="button" id="josefo-retry" hidden>Tentar carregar novamente</button>',
 '</div>',
 '<p class="scripture-limit-note">As seções (§) são numeradas continuamente por livro. A sinopse de cada livro não possui número de seção. O Livro I contém também o prefácio (§§ 1–26).</p>',
@@ -50,6 +50,7 @@ const sectionSelect=panel.querySelector("#josefo-section");
 const textArea=panel.querySelector("#josefo-text");
 const heading=panel.querySelector("#josefo-reference");
 const message=panel.querySelector("#josefo-message");
+function setMessage(text){message.textContent=text||"";message.hidden=!message.textContent;}
 const retry=panel.querySelector("#josefo-retry");
 const feedback=panel.querySelector("#josefo-feedback");
 const copy=panel.querySelector("#josefo-copy");
@@ -131,7 +132,7 @@ function navigationState(){
 function clearResult(note){
  heading.textContent="Livro "+state.book+" · "+chapterLabel(state.chapter);
  textArea.replaceChildren();
- message.textContent=note||"";
+ setMessage(note);
  sectionSelect.replaceChildren(option("","A carregar…"));
  sectionSelect.disabled=true;
  copy.disabled=true;
@@ -171,7 +172,7 @@ function renderArgument(data){
  block.append(bookTitle);
  if(data.argument.title)block.append(argTitle);
  block.append(text);textArea.append(block);
- message.textContent="Sinopse grega reproduzida do texto-fonte; não corresponde a uma seção numerada.";
+ setMessage("");
  copy.disabled=false;
 }
 function renderSections(data){
@@ -179,7 +180,7 @@ function renderSections(data){
  if(!selectedRows.length){
   sectionSelect.replaceChildren(option("","Não há seções na fonte"));
   sectionSelect.disabled=true;
-  message.textContent="Não foram encontradas seções para esta divisão na fonte.";
+  setMessage("Não foram encontradas seções para esta divisão na fonte.");
   return;
  }
  if(!selectedRows.some(r=>r.number===state.section))state.section=selectedRows[0].number;
@@ -203,7 +204,7 @@ function renderSections(data){
   line.addEventListener("click",()=>activateSection(r.number,true));
   textArea.append(line);
  }
- message.textContent=selectedRows.length+" seções da edição grega carregadas neste "+(state.chapter===0?"prefácio":"capítulo")+".";
+ setMessage("");
  copy.disabled=false;
 }
 function render(){
