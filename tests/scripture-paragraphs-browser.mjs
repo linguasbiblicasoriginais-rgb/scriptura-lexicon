@@ -40,6 +40,9 @@ try{
    assert.equal(await page.locator("#scripture-verse").inputValue(),"2",
     edition+" clicar no conteúdo deve selecionar o versículo");
    assert.equal(await page.locator("#scripture-text .scripture-verse-selected").count(),1);
+   // O clique no elemento bdi pode abrir o popup se atingir uma palavra.
+   if(await page.locator(".scripture-word-popup").isVisible())
+    await page.locator(".scripture-word-popup-close").click();
    await word.click();
    assert.equal(await page.locator(".scripture-word-popup").isVisible(),true,
     edition+" minidicionário deve continuar abrindo ao clicar na palavra");
