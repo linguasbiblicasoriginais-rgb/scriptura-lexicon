@@ -23,7 +23,7 @@ root.innerHTML=[
 '<div class="patristic-controls" role="group" aria-label="Navegação do Pedagogo">',
 '<label>Livro<select id="paedagogus-book"></select></label>',
 '<label>Capítulo<select id="paedagogus-chapter"></select></label>',
-'<label id="paedagogus-section-label">Seção<select id="paedagogus-section"></select></label>',
+'<label id="paedagogus-section-label">Seção (§)<select id="paedagogus-section"></select></label>',
 '<label id="paedagogus-subsection-label">Subseção<select id="paedagogus-subsection"></select></label>',
 '</div>',
 '<div class="patristic-steps">',
@@ -82,7 +82,7 @@ function sync(b,c,s,sub) {
  const cList=chapters(b).map(x=>x.getAttribute("n"));
  c=choose(cList,c);choices(control.chapter,cList,x=>x==="argument"?"Argumento":"Capítulo "+x);
  const sList=secValues(b,c);
- s=choose(sList,s);choices(control.section,sList,x=>"Seção "+x);
+ s=choose(sList,s);choices(control.section,sList,x=>"§ "+x);
  el("paedagogus-section-label").hidden=!sList.length;
  const subList=subsections(b,c,s);
  sub=subList.includes(Number(sub))?Number(sub):(subList[0]||1);
@@ -109,83 +109,126 @@ function render(node,parent) {
   if(unit==="section"){const span=editor("","paedagogus-section-boundary","Seção "+n);span.dataset.n=n;parent.append(span);}
   else if(unit==="subsection"){
    const span=editor(String(n),"patristic-submark","Subseção "+n);
-   span.id="paedagogus-subsection-"+n;parent.append(span);
+   parent.append(span);
   }
   return;
  }
  const inline=["add","del","supplied","unclear","foreign","hi","q","num"].includes(tag);
  const wrapper=tag==="p"?document.createElement("p"):inline?document.createElement("span"):parent;
  if(tag==="p")parent.append(wrapper);
- if(inline){wrapper.className="patristic-tei-"+tag;parent.append(wrapper);}
+ if(inline){wrapper.className="patristic-tei-"+tag;
+  if(tag==="foreign")wrapper.lang=node.getAttributeNS?.("http://www.w3.org/XML/1998/namespace","lang")||"und";
+  parent.append(wrapper);}
  Array.from(node.childNodes).forEach(x=>render(x,wrapper));
 }
-function addLine(fragment) {
+function addLine(fragment,target=text) {
  if(!fragment.textContent?.trim())return;
  const p=document.createElement("p");p.className="patristic-subsection";
- p.append(fragment);text.append(p);
+ p.append(fragment);target.append(p);
 }
-function splitParagraph(p) {
+function splitParagraph(p,target=text) {
  const markers=Array.from(p.querySelectorAll(".patristic-submark"));
- if(!markers.length){if(p.textContent?.trim())text.append(p);return;}
+ if(!markers.length){if(p.textContent?.trim())target.append(p);return;}
  for(const mark of markers){
   const range=document.createRange();range.selectNodeContents(p);range.setEndBefore(mark);
-  addLine(range.extractContents());
+  addLine(range.extractContents(),target);
  }
  const remainder=document.createDocumentFragment();
  while(p.firstChild)remainder.append(p.firstChild);
- addLine(remainder);
+ addLine(remainder,target);
 }
 function renderCurrent(){
- const {b,c,s,sub}=selected, ch=chapter(b,c);
+ const {b,c,s,sub}=selected,ch=chapter(b,c);
  text.replaceChildren();
  if(!ch){setStatus("Capítulo não encontrado.");return;}
  const head=Array.from(ch.children).find(x=>x.localName==="head");
  if(head){
-  const title=document.createElement("h3");title.className="patristic-chapter-title";
-  title.textContent=head.textContent?.trim()||"";
-  text.append(title);
+   const title=document.createElement("h3");
+   title.className="patristic-chapter-title";
+   title.textContent=head.textContent?.trim()||"";
+   text.append(title);
  }
- // Renderiza o capítulo preservando todas as marcas; cada seção é
- // extraída por Range, inclusive se começar dentro de um parágrafo TEI.
+ // A fonte TEI marca seções por milestones, inclusive no interior de parágrafos.
  const rendered=document.createElement("div");
- for(const item of ch.childNodes){if(item.nodeType===1&&item.localName==="head")continue;render(item,rendered);}
- let fragment;
- if(s){
-  const boundaries=Array.from(rendered.querySelectorAll(".paedagogus-section-boundary"));
-  const at=boundaries.findIndex(x=>x.dataset.n===s);
-  if(at<0){setStatus("Seção não encontrada na edição.");return;}
-  const range=document.createRange();range.selectNodeContents(rendered);
-  range.setStartAfter(boundaries[at]);
-  if(boundaries[at+1])range.setEndBefore(boundaries[at+1]);
-  fragment=range.cloneContents();
- }else{
-  fragment=document.createDocumentFragment();
-  while(rendered.firstChild)fragment.append(rendered.firstChild);
+ for(const item of ch.childNodes){
+   if(item.nodeType===1&&item.localName==="head")continue;
+   render(item,rendered);
  }
- const slice=document.createElement("div");slice.append(fragment);
- for(const item of Array.from(slice.childNodes)){
-  if(item.nodeType===1&&item.localName==="p"){splitParagraph(item);continue;}
-  if(item.nodeType===1&&item.localName==="br"){text.append(item);continue;}
-  const p=document.createElement("p");
-  p.append(item);splitParagraph(p);
+ const boundaries=Array.from(rendered.querySelectorAll(".paedagogus-section-boundary"));
+ const ids=secValues(b,c);
+ if(s&&!ids.includes(s)){setStatus("Seção não encontrada na edição.");return;}
+ function appendFragment(target,fragment){
+   const slice=document.createElement("div");slice.append(fragment);
+   for(const item of Array.from(slice.childNodes)){
+     if(item.nodeType===1&&item.localName==="p"){splitParagraph(item,target);continue;}
+     if(item.nodeType===1&&item.localName==="br"){target.append(item);continue;}
+     const p=document.createElement("p");
+     p.append(item);splitParagraph(p,target);
+   }
  }
- if(s){
-  // A subseção 1 é implícita no TEI: não há milestone n="1".
-  if(!text.querySelector("#paedagogus-subsection-1")){
-   const first=text.querySelector("p");
-   if(first){const mark=editor("1","patristic-submark","Subseção 1");mark.id="paedagogus-subsection-1";first.prepend(mark);}
-  }
-  const marker=text.querySelector("#paedagogus-subsection-"+sub);
-  const paragraph=marker?.closest("p");
-  if(paragraph){paragraph.classList.add("patristic-subsection-selected");paragraph.setAttribute("aria-current","location");}
-  if(sub>1)paragraph?.scrollIntoView({block:"center",behavior:"smooth"});
+ if(!ids.length){
+   // Argumentos da edição não possuem numeração de seção.
+   const fragment=document.createDocumentFragment();
+   while(rendered.firstChild)fragment.append(rendered.firstChild);
+   appendFragment(text,fragment);
  }
- reference.textContent="Pedagogo "+roman(b)+", "+(c==="argument"?"argumento":c)+(s?"."+s+(sub>1?"."+sub:""):"");
+ for(const numberValue of ids){
+   const n=String(numberValue);
+   const at=boundaries.findIndex(x=>x.dataset.n===n);
+   if(at<0)continue;
+   const range=document.createRange();
+   range.selectNodeContents(rendered);
+   range.setStartAfter(boundaries[at]);
+   if(boundaries[at+1])range.setEndBefore(boundaries[at+1]);
+   const block=document.createElement("div");
+   block.className="patristic-section-card";
+   block.dataset.patristicSection=n;
+   block.setAttribute("role","button");
+   block.tabIndex=0;
+   block.setAttribute("aria-label","Selecionar seção § "+n);
+   block.setAttribute("aria-pressed",String(n===s));
+   if(n===s)block.classList.add("patristic-section-card--selected");
+   const label=document.createElement("strong");
+   label.className="patristic-section-number";label.textContent="§ "+n;
+   const body=document.createElement("div");
+   body.className="patristic-section-body";
+   block.append(label,body);
+   appendFragment(body,range.cloneContents());
+   if(![...body.querySelectorAll(".patristic-submark")].some(mark=>mark.textContent.trim()==="1")){
+     const first=body.querySelector("p");
+     if(first)first.prepend(editor("1","patristic-submark","Subseção 1"));
+   }
+   let currentSub=1,selectedSubMarked=false;
+   for(const p of body.querySelectorAll("p")){
+     const mark=p.querySelector(".patristic-submark");
+     if(mark)currentSub=Number(mark.textContent)||1;
+     p.dataset.patristicSubsection=String(currentSub);
+     if(n===s&&currentSub===sub&&!selectedSubMarked){
+       selectedSubMarked=true;
+       p.classList.add("patristic-subsection-selected");
+       p.setAttribute("aria-current","location");
+     }
+     if(n===s&&mark)mark.id="paedagogus-subsection-"+currentSub;
+   }
+   const activate=value=>setSelection(b,c,n,value,true);
+   block.addEventListener("click",event=>{
+     const p=event.target.closest("p[data-patristic-subsection]");
+     activate(p?Number(p.dataset.patristicSubsection):1);
+   });
+   block.addEventListener("keydown",event=>{
+     if(event.key==="Enter"||event.key===" "){event.preventDefault();activate(1);}
+   });
+   text.append(block);
+ }
+ if(s&&sub>1)
+   text.querySelector(".patristic-section-card--selected .patristic-subsection-selected")?.scrollIntoView({block:"center",behavior:"smooth"});
+ reference.textContent="Pedagogo "+roman(b)+", "+(c==="argument"?"argumento":c)+(s?" · § "+s+(sub>1?"."+sub:""):"");
  const sequenceList=allPassages();
  const idx=sequenceList.findIndex(x=>x.b===b&&x.c===c&&x.s===s);
  prev.disabled=idx<1;next.disabled=idx<0||idx===sequenceList.length-1;
  setStatus("");
 }
+
 function allPassages() {
  const list=[];
  books.forEach(b=>{
@@ -231,7 +274,10 @@ async function load(){
 async function show(b=1,c="1",s=null,sub=1,push=false){
  window.ScripturaSections?.showHub("patristica");
  const request=++sequence;
- cards.hidden=true;root.hidden=false;text.replaceChildren();
+ cards.hidden=true;
+ const authorForm=document.getElementById("site-greek-authors-content");
+ if(authorForm)authorForm.hidden=true;
+ root.hidden=false;text.replaceChildren();
  setStatus("Carregando edição grega integral...");
  try{
   await load();

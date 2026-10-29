@@ -34,3 +34,66 @@
 #paedagogus-status {font-size:.81rem;color:var(--text-muted)}
 .patristic-text .patristic-chapter-title {font-size:1.1rem;font-weight:600;color:var(--accent-light);margin:0 0 .8rem;line-height:1.5;text-align:left}
 #paedagogus-text p.patristic-subsection {scroll-margin-block:7rem}
+
+/* Seções gregas: mesmo cartão clicável e moldura de realce usado em Contra Ápio. */
+.patristic-text .patristic-section-card{
+ display:block;
+ width:100%;
+ margin:0 0 .9rem;
+ padding:.7rem .85rem;
+ color:var(--text-primary);
+ background:transparent;
+ border:1px solid transparent;
+ border-radius:6px;
+ cursor:pointer;
+ text-align:justify;
+ text-align-last:left;
+ overflow-wrap:anywhere;
+ scroll-margin-block:7rem;
+}
+.patristic-text .patristic-section-card:hover,
+.patristic-text .patristic-section-card:focus-visible{
+ background:var(--surface-3);
+ border-color:var(--accent);
+ outline-offset:2px;
+}
+.patristic-text .patristic-section-card--selected{
+ background:var(--surface-3);
+ border-color:var(--accent);
+ border-inline-start:4px solid var(--accent);
+ padding-inline-start:calc(.85rem - 3px);
+}
+.patristic-text .patristic-section-number{
+ display:block;
+ color:var(--accent);
+ font-weight:700;
+ font-size:.86em;
+ margin-bottom:.35rem;
+}
+.patristic-text .patristic-section-body,
+.patristic-text .patristic-section-body p{text-align:justify;text-align-last:left}
+.patristic-text .patristic-section-body p.patristic-subsection{
+ padding:.25em .45em;
+ margin:.1rem 0 .45rem;
+}
+.patristic-text .patristic-section-body p.patristic-subsection-selected{
+ background:transparent;
+ border-inline-start:2px solid var(--accent);
+ padding-inline-start:calc(.45em - 2px);
+}
+.patristic-text .patristic-tei-foreign[lang="la"]{
+ display:block;
+ border-inline-start:2px solid var(--accent);
+ padding-inline-start:.65rem;
+ margin:.35rem 0;
+}
+.patristic-text .patristic-tei-foreign[lang="la"]::before{
+ content:"Latim — testemunho da fonte";
+ display:block;
+ font:600 .7rem/1.5 system-ui,sans-serif;
+ color:var(--text-secondary);
+}
+@media(max-width:650px){
+ .patristic-text .patristic-section-card{padding:.45rem .55rem}
+ .patristic-text .patristic-section-card--selected{padding-inline-start:calc(.55rem - 3px)}
+}
