@@ -25,6 +25,40 @@ try{
   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").evaluate(node=>getComputedStyle(node).borderInlineStartStyle),"solid");
   const second=page.locator('#scripture-text [data-scripture-verse="2"]');
   if(await second.count()){
+   // A passagem do mouse não deve produzir uma segunda seleção.
+   await second.locator(".scripture-word").first().hover();
+   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").count(),1,
+    edition+" hover não deve selecionar outro versículo");
+   assert.equal(await verses.first().getAttribute("aria-pressed"),"true");
+   assert.equal(await second.evaluate(node=>getComputedStyle(node).backgroundColor),"rgba(0, 0, 0, 0)",
+    edition+" hover de versículo não deve preencher o fundo");
+   const word=second.locator(".scripture-word").first();
+   assert.equal(await word.evaluate(node=>getComputedStyle(node).backgroundColor),"rgba(0, 0, 0, 0)",
+    edition+" hover de palavra não deve preencher o fundo");
+   // Clicar no corpo do versículo, e não no numeral, deve selecioná-lo.
+   await second.locator("bdi").click();
+   assert.equal(await page.locator("#scripture-verse").inputValue(),"2",
+    edition+" clicar no conteúdo deve selecionar o versículo");
+   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").count(),1);
+   // O clique no elemento bdi pode abrir o popup se atingir uma palavra.
+   if(await page.locator(".scripture-word-popup").isVisible())
+    await page.locator(".scripture-word-popup-close").click();
+   await word.click();
+   assert.equal(await page.locator(".scripture-word-popup").isVisible(),true,
+    edition+" minidicionário deve continuar abrindo ao clicar na palavra");
+   assert.equal(await word.evaluate(node=>getComputedStyle(node).backgroundColor),"rgba(0, 0, 0, 0)",
+    edition+" palavra com popup aberto não deve receber preenchimento");
+   assert.equal(await page.locator("#scripture-verse").inputValue(),"2");
+   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").count(),1);
+   await page.locator(".scripture-word-popup-close").click();
+   // Ao clicar noutra palavra a seleção migra e continua única.
+   await verses.first().locator(".scripture-word").first().click();
+   assert.equal(await page.locator("#scripture-verse").inputValue(),"1",
+    edition+" clique numa palavra também deve selecionar o versículo");
+   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").count(),1);
+   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").getAttribute("data-scripture-verse"),"1");
+   await page.locator(".scripture-word-popup-close").click();
+   // Seleção pelo número permanece disponível.
    await second.locator(".scripture-verse-number").click();
    assert.equal(await page.locator("#scripture-verse").inputValue(),"2");
    assert.equal(await page.locator("#scripture-text .scripture-verse-selected").getAttribute("data-scripture-verse"),"2");
@@ -36,7 +70,8 @@ try{
     assert.equal(await second.locator(".scripture-word").count()>0,true,"Popups gregos preservados");
     await second.locator(".scripture-word").first().click();
     assert.equal(await page.locator(".scripture-word-popup").isVisible(),true,edition+" perdeu minidicionário");
-    assert.equal(await page.locator("#scripture-verse").inputValue(),"2","Popup não deve alterar a seleção");
+    assert.equal(await page.locator("#scripture-verse").inputValue(),"2","Popup deve preservar o versículo já selecionado");
+    await page.locator(".scripture-word-popup-close").click();
    }
   }
   if(edition==="UXLC"){

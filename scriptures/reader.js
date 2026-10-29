@@ -200,8 +200,8 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         return true;
     }
     textRegion.addEventListener("click",event=>{
-        // Os botões de palavras continuam abrindo o minidicionário, sem navegar.
-        if(event.target.closest(".scripture-word"))return;
+        // Qualquer ponto do versículo, inclusive uma palavra consultável, ativa a seleção.
+        // O minidicionário tem seu próprio handler delegado; ambos funcionam no mesmo clique.
         const line=event.target.closest("[data-scripture-verse]");
         if(line&&textRegion.contains(line))activateVerse(Number(line.dataset.scriptureVerse));
     });
