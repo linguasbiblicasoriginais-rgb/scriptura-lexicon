@@ -9,9 +9,10 @@ page.on("console", msg => {if(msg.type()==="error")console.error("CONSOLE ERROR"
 async function verifyReady(context) {
   try {
     await page.waitForFunction(() => {
-      const status = document.querySelector("#stromata-status")?.textContent||"";
+      const status = document.querySelector("#stromata-status");
       const text = document.querySelector("#stromata-text")?.textContent||"";
-      return status.startsWith("Texto integral carregado") && text.trim().length > 30;
+      const reader = document.querySelector("#patristic-reader");
+      return reader && !reader.hidden && status?.hidden && !status.textContent.trim() && text.trim().length > 30;
     },null,{timeout:60000});
   } catch (e) {
     console.error("Diagnóstico", context, await page.evaluate(()=>({
@@ -45,6 +46,7 @@ async function verifyReady(context) {
   assert.ok(snapshot.chapterOptions>0,"Capítulos disponíveis");
   assert.ok(snapshot.sectionOptions>0,"Seções disponíveis");
   assert.match(snapshot.text,/[\u0370-\u03ff\u1f00-\u1fff]/,"Texto em grego original");
+  assert.equal(await page.locator("#stromata-status").isVisible(),false,"Sem mensagens de carga junto a Stromata");
   console.log(context, "OK", {books:snapshot.bookOptions,chapters:snapshot.chapterOptions,sections:snapshot.sectionOptions,reference:snapshot.reference,textChars:snapshot.text.length});
 }
 try {

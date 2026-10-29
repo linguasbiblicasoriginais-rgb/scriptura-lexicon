@@ -31,7 +31,7 @@ root.innerHTML=[
 '<span id="paedagogus-reference" aria-live="polite"></span>',
 '<button type="button" id="paedagogus-next">Próxima →</button>',
 '</div>',
-'<p id="paedagogus-status" role="status" aria-live="polite"></p>',
+'<p id="paedagogus-status" role="status" aria-live="polite" hidden></p>',
 '<article id="paedagogus-text" class="patristic-text greek" lang="grc"></article>',
 '<p class="patristic-source"><strong>Fonte:</strong> ',
 '<a target="_blank" rel="noopener noreferrer" href="https://atlas.perseus.tufts.edu/library/urn:cts:greekLit:tlg0555.tlg002/">Perseus Digital Library</a> · ',
@@ -44,6 +44,7 @@ hub.append(root);
 const el=id=>root.querySelector("#"+id);
 const control={book:el("paedagogus-book"),chapter:el("paedagogus-chapter"),section:el("paedagogus-section"),sub:el("paedagogus-subsection")};
 const text=el("paedagogus-text"),status=el("paedagogus-status"),reference=el("paedagogus-reference");
+function setStatus(value){status.textContent=value||"";status.hidden=!status.textContent;}
 const prev=el("paedagogus-prev"),next=el("paedagogus-next");
 let books=[],selected={b:1,c:"1",s:null,sub:1},loading=null,sequence=0,remote=false;
 const roman=n=>["","I","II","III"][Number(n)]||String(n);
@@ -137,7 +138,7 @@ function splitParagraph(p) {
 function renderCurrent(){
  const {b,c,s,sub}=selected, ch=chapter(b,c);
  text.replaceChildren();
- if(!ch){status.textContent="Capítulo não encontrado.";return;}
+ if(!ch){setStatus("Capítulo não encontrado.");return;}
  const head=Array.from(ch.children).find(x=>x.localName==="head");
  if(head){
   const title=document.createElement("h3");title.className="patristic-chapter-title";
@@ -152,7 +153,7 @@ function renderCurrent(){
  if(s){
   const boundaries=Array.from(rendered.querySelectorAll(".paedagogus-section-boundary"));
   const at=boundaries.findIndex(x=>x.dataset.n===s);
-  if(at<0){status.textContent="Seção não encontrada na edição.";return;}
+  if(at<0){setStatus("Seção não encontrada na edição.");return;}
   const range=document.createRange();range.selectNodeContents(rendered);
   range.setStartAfter(boundaries[at]);
   if(boundaries[at+1])range.setEndBefore(boundaries[at+1]);
@@ -183,7 +184,7 @@ function renderCurrent(){
  const sequenceList=allPassages();
  const idx=sequenceList.findIndex(x=>x.b===b&&x.c===c&&x.s===s);
  prev.disabled=idx<1;next.disabled=idx<0||idx===sequenceList.length-1;
- status.textContent=remote?"Texto integral carregado da fonte First1KGreek (cópia local indisponível).":"Texto integral carregado do acervo Scriptura Lexicon.";
+ setStatus("");
 }
 function allPassages() {
  const list=[];
@@ -231,14 +232,14 @@ async function show(b=1,c="1",s=null,sub=1,push=false){
  window.ScripturaSections?.showHub("patristica");
  const request=++sequence;
  cards.hidden=true;root.hidden=false;text.replaceChildren();
- status.textContent="Carregando edição grega integral...";
+ setStatus("Carregando edição grega integral...");
  try{
   await load();
   if(request!==sequence||root.hidden)return false;
   setSelection(b,c,s,sub,push);return true;
  }catch(e){
   if(request!==sequence)return false;
-  status.textContent="Erro ao carregar o Pedagogo: "+e.message;
+  setStatus("Erro ao carregar o Pedagogo: "+e.message);
   text.replaceChildren();return false;
  }
 }

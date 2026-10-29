@@ -32,7 +32,7 @@ panel.innerHTML=[
 '<div class="scripture-reader-category">Flávio Josefo · transcrição Niese / Perseus</div>',
 '<h2 id="josefo-historia-reference"></h2>',
 '<div id="josefo-historia-text" class="scripture-text"></div>',
-'<p id="josefo-historia-message" class="josefo-message" role="status"></p>',
+'<p id="josefo-historia-message" class="josefo-message" role="status" hidden></p>',
 '<button type="button" id="josefo-historia-retry" hidden>Tentar carregar novamente</button>',
 '</div>',
 '<p id="josefo-historia-division" class="scripture-limit-note"></p>',
@@ -48,6 +48,7 @@ main.insertBefore(panel,anchor);
 const el=id=>panel.querySelector("#josefo-historia-"+id);
 const controls={work:el("work"),book:el("book"),chapter:el("chapter"),section:el("section")};
 const textArea=el("text"),heading=el("reference"),message=el("message");
+function setMessage(text){message.textContent=text||"";message.hidden=!message.textContent;}
 const retry=el("retry"),feedback=el("feedback"),copy=el("copy");
 const prev=el("prev"),next=el("next"),source=el("source");
 const kicker=panel.querySelector(".scripture-reader-kicker");
@@ -166,7 +167,7 @@ function clear(note){
  fillSelections();updateNav();heading.textContent=caption();
  textArea.replaceChildren();
  controls.section.replaceChildren(option("","A carregar…"));
- controls.section.disabled=true;message.textContent=note;retry.hidden=true;
+ controls.section.disabled=true;setMessage(note);retry.hidden=true;
  copy.disabled=true;feedback.textContent="";
 }
 function load(w,b){
@@ -196,7 +197,7 @@ function render(){
  fillSelections();updateNav();heading.textContent=caption();
  textArea.replaceChildren();retry.hidden=true;
  if(!list.length){
-   message.textContent="O arquivo deste livro não apresentou seções para esta divisão.";
+   setMessage("O arquivo deste livro não apresentou seções para esta divisão.");
    controls.section.replaceChildren(option("","Sem seções"));
    controls.section.disabled=true;copy.disabled=true;return;
  }
@@ -232,7 +233,7 @@ function render(){
    button.addEventListener("click",()=>activateSection(row.number,true));
    textArea.append(button);
  }
- message.textContent=(state.work==="apiao"&&state.book===2?"Transcrição grega e latina":"Texto grego")+" · "+list.length+" seções nesta divisão."+(uncertainLanguages?" Atenção: limites linguísticos não confirmados em "+uncertainLanguages+" seção(ões).":"");
+ setMessage(uncertainLanguages?"Atenção: limites linguísticos não confirmados em "+uncertainLanguages+" seção(ões).":"");
  copy.disabled=false;feedback.textContent="";
 }
 function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){

@@ -1,7 +1,7 @@
 name: Testar leitor de Stromata
 on:
   push:
-    branches: ['chat-gpt-patristicos/clemente-alexandria']
+    branches: ['chat-gpt-patristicos/clemente-alexandria', 'chat-gpt-frontend-leitores-sem-logs']
     paths:
       - 'patristics/reader.js'
       - 'patristics/reader.css'
