@@ -1,0 +1,55 @@
+name: Escrituras — parágrafos, tipografia e leitores Chromium
+on:
+  push:
+    branches: [chat-gpt-escrituras-paragrafos-leitores]
+    paths:
+      - 'scriptures/reader.js'
+      - 'scriptures/reader.css'
+      - 'scriptures/paragraphs.js'
+      - 'index.html'
+      - 'tests/scripture-paragraphs.test.cjs'
+      - 'tests/scripture-paragraphs-browser.mjs'
+      - '.github/workflows/scripture-paragraphs.yml'
+  pull_request:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'scriptures/reader.js'
+      - 'scriptures/reader.css'
+      - 'scriptures/paragraphs.js'
+      - 'index.html'
+      - 'tests/scripture-paragraphs.test.cjs'
+      - 'tests/scripture-paragraphs-browser.mjs'
+      - '.github/workflows/scripture-paragraphs.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scripture-reader:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar sintaxe e integridade dos oito formatos
+        run: |
+          node --check scriptures/reader.js
+          node --check scriptures/paragraphs.js
+          node --check tests/scripture-paragraphs-browser.mjs
+          node --test tests/scripture-paragraphs.test.cjs
+          node tests/scripture-typography.test.cjs
+          node tests/chapter-loader.test.cjs
+      - name: Instalar Playwright e Chromium
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Iniciar site local
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/scriptura-escrituras.log 2>&1 &
+          sleep 2
+      - name: Verificar parágrafos, gregos, oito edições e mobile
+        run: node tests/scripture-paragraphs-browser.mjs
+      - name: Mostrar erros do servidor
+        if: failure()
+        run: cat /tmp/scriptura-escrituras.log || true
