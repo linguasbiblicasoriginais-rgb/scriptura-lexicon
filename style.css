@@ -2409,3 +2409,45 @@ tbody tr:last-child td {
     width:25px;
     height:25px;
 }
+
+/* 2026-10-29 — cabeçalho persistente, logomarca original e botão Início. */
+html{scroll-padding-top:100px}
+.header{
+ position:sticky;
+ top:0;
+ z-index:80;
+ display:flex;
+ align-items:center;
+ justify-content:flex-start;
+ min-height:80px;
+ padding:8px 0 11px;
+ margin-bottom:30px;
+ background:var(--bg-main);
+ border-bottom:1px solid var(--border-soft);
+ box-shadow:0 6px 14px rgba(0,0,0,.08);
+}
+.header-main{display:flex;align-items:center;gap:12px;min-width:0;width:100%}
+.header .menu-toggle{margin-top:0}
+.home-button img{display:block;width:22px;height:22px;object-fit:contain;filter:invert(1)}
+.site-brand-logo{
+ display:block;
+ width:auto;
+ height:68px;
+ max-width:min(220px,calc(100vw - 140px));
+ object-fit:contain;
+ object-position:left center;
+ filter:invert(1);
+}
+:root[data-theme="light"] .home-button img,
+:root[data-theme="light"] .site-brand-logo{filter:none}
+#site-section-cards[hidden]{display:none!important}
+#site-section-hub[data-active-section="autores-gregos"] #site-section-cards,
+#site-section-hub[data-active-section="patristica"] #site-section-cards{display:none!important}
+#site-section-hub[data-active-section="autores-gregos"] #site-greek-authors-content,
+#site-section-hub[data-active-section="patristica"] #site-greek-authors-content{margin-top:0}
+@media(max-width:720px){
+ .header{flex-direction:row;gap:0;padding:8px 0;min-height:69px}
+ .header-main{width:100%;gap:9px}
+ .header .menu-toggle{width:40px;height:40px}
+ .site-brand-logo{height:54px;max-width:calc(100vw - 122px)}
+}
