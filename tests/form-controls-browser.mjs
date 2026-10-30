@@ -19,7 +19,7 @@ try {
         "Listas dinâmicas dos leitores devem ser transformadas");
     // Todos os campos do filtro bíblico devem ter exatamente a mesma altura,
     // mesmo quando o valor do Livro contém hebraico com niqqud.
-    const controls = await page.locator(".scripture-reader-controls").evaluate(node => {
+    const controls = await page.locator(".scripture-reader-controls:has(#scripture-book)").evaluate(node => {
         const ids = ["scripture-edition","scripture-book","scripture-chapter","scripture-verse"];
         return ids.map(id => {
             const el = node.querySelector("#"+id);
@@ -161,7 +161,7 @@ try {
     await mobile.goto(base+"#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
     const mobileButton=mobile.locator('.lx-select[data-for="scripture-book"] .lx-select-button');
     await mobileButton.waitFor({state:"visible"});
-    const mobileControls = await mobile.locator(".scripture-reader-controls").evaluate(node => {
+    const mobileControls = await mobile.locator(".scripture-reader-controls:has(#scripture-book)").evaluate(node => {
         return ["scripture-edition","scripture-book","scripture-chapter","scripture-verse"]
             .map(id => {
                 const el = node.querySelector("#"+id);
