@@ -9,6 +9,9 @@ on:
       - 'index.html'
       - 'tests/scripture-paragraphs.test.cjs'
       - 'tests/scripture-paragraphs-browser.mjs'
+      - 'tests/form-controls-browser.mjs'
+      - 'ui/form-controls.js'
+      - 'ui/form-controls.css'
       - '.github/workflows/scripture-paragraphs.yml'
   pull_request:
     branches: [chat-gpt-commits]
@@ -19,6 +22,9 @@ on:
       - 'index.html'
       - 'tests/scripture-paragraphs.test.cjs'
       - 'tests/scripture-paragraphs-browser.mjs'
+      - 'tests/form-controls-browser.mjs'
+      - 'ui/form-controls.js'
+      - 'ui/form-controls.css'
       - '.github/workflows/scripture-paragraphs.yml'
   workflow_dispatch:
 permissions:
@@ -35,6 +41,8 @@ jobs:
       - name: Verificar sintaxe e integridade dos oito formatos
         run: |
           node --check scriptures/reader.js
+          node --check ui/form-controls.js
+          node --check tests/form-controls-browser.mjs
           node --check scriptures/paragraphs.js
           node --check tests/scripture-paragraphs-browser.mjs
           node --test tests/scripture-paragraphs.test.cjs
@@ -49,7 +57,9 @@ jobs:
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/scriptura-escrituras.log 2>&1 &
           sleep 2
       - name: Verificar parágrafos, gregos, oito edições e mobile
-        run: node tests/scripture-paragraphs-browser.mjs
+        run: |
+          node tests/scripture-paragraphs-browser.mjs
+          node tests/form-controls-browser.mjs
       - name: Mostrar erros do servidor
         if: failure()
         run: cat /tmp/scriptura-escrituras.log || true
