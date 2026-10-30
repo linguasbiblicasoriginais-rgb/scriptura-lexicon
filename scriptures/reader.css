@@ -489,7 +489,11 @@
  position:relative;
  z-index:1;
  min-width:0;
- padding:.1em .36em;
+ /* Altura compacta, semelhante ao fragmento destacado do versículo,
+    sem criar um bloco mais alto que o contorno. */
+ line-height:1.5;
+ /* A borda superior acompanha a moldura; a base permanece alinhada. */
+ padding:.38em .36em .12em;
  /* A margem separa a faixa da primeira palavra nos dois sentidos de leitura. */
  margin:0 .42em 0 0;
  border-radius:3px;
@@ -505,7 +509,6 @@
 .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected .scripture-verse-number{
  color:var(--bg-main);
  background:var(--accent);
- box-shadow:0 0 0 1px var(--accent);
 }
 .scripture-reader .scripture-paragraph bdi{
  white-space:pre-line;
