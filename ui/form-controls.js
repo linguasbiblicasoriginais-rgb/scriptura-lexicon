@@ -228,6 +228,7 @@
         wrapper.append(select, button);
         select.classList.add("lx-native-select");
         select.tabIndex = -1;
+        select.setAttribute("aria-hidden", "true");
         select._lx = {wrapper, button, text, id: ++nextId};
         button.addEventListener("click", () => {
             if (active?.select === select) close(false);
@@ -327,8 +328,10 @@
             }
         });
         window.addEventListener("resize", positionDropdown);
-        window.addEventListener("scroll", () => { if (active) close(false); },
-            {passive: true, capture: true});
+        window.addEventListener("scroll", event => {
+            if (!active || event.target === dropdown || dropdown.contains(event.target)) return;
+            close(false);
+        }, {passive: true, capture: true});
         document.addEventListener("change", event => {
             if (event.target.matches?.('input[type="number"]')) {
                 syncNumber(event.target);
