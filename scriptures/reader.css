@@ -326,7 +326,7 @@
 .scripture-word:focus-visible,
 .scripture-word[aria-expanded="true"] {
     color: var(--accent-light);
-    background: var(--surface-3);
+    background: transparent;
 }
 .scripture-word:focus-visible {
     outline: 2px solid var(--accent);
@@ -456,10 +456,10 @@
  box-decoration-break:clone;
  scroll-margin-block:8rem;
 }
-.scripture-reader .scripture-paragraph .scripture-verse-line:hover,
+/* O hover não seleciona visualmente o versículo: somente a classe de seleção o faz.
+   Foco por teclado mantém indicação acessível, sem preenchimento. */
 .scripture-reader .scripture-paragraph .scripture-verse-line:focus-visible{
- background:var(--surface-3);
- border-color:var(--accent);
+ outline:2px solid var(--accent);
  outline-offset:2px;
 }
 .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected{
@@ -467,6 +467,17 @@
  border-color:var(--accent);
  border-inline-start:4px solid var(--accent);
  padding-inline-start:calc(.3em - 3px);
+}
+/* O número e a primeira palavra são uma única unidade de quebra.
+   O restante do versículo segue quebrando e justificando normalmente. */
+.scripture-reader .scripture-paragraph .scripture-verse-lead{
+ display:inline-block;
+ white-space:nowrap;
+ direction:inherit;
+ unicode-bidi:isolate;
+}
+.scripture-reader .scripture-paragraph .scripture-verse-lead bdi{
+ white-space:nowrap;
 }
 .scripture-reader .scripture-paragraph .scripture-verse-number{
  min-width:0;

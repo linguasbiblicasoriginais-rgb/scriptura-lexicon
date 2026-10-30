@@ -79,41 +79,33 @@
 
         <header class="header" aria-label="Navegação principal">
             <div class="header-main">
-                <button
-                    id="menu-toggle"
-                    class="menu-toggle"
-                    type="button"
-                    aria-label="Abrir menu de navegação"
-                    aria-controls="dictionary-menu"
-                    aria-expanded="false"
-                >
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M4 7h16M4 12h16M4 17h16"/>
-                    </svg>
-                </button>
-                <button
-                    id="home-button"
-                    class="menu-toggle home-button"
-                    type="button"
-                    data-site-section="inicio"
-                    aria-label="Voltar à página inicial"
-                    title="Página inicial"
-                >
-                    <img src="imagens/icones/home.svg" alt="" aria-hidden="true" width="22" height="22">
-                </button>
-                <img
-                    id="site-brand-logo"
-                    class="site-brand-logo"
-                    src="imagens/logo.svg"
-                    alt="Scriptura Lexicon"
-                    width="110"
-                    height="70"
-                >
+                <div class="site-brand" role="img" aria-label="Scriptura Lexicon">
+                    <!-- Mesmo desenho e tipografia vetorial original do SVG fornecido. -->
+                    <img id="site-brand-logo" class="site-brand-logo site-brand-logo--dark"
+                         src="imagens/logo-dark.svg" alt="" aria-hidden="true"
+                         width="300" height="190">
+                    <img class="site-brand-logo site-brand-logo--light"
+                         src="imagens/logo-light.svg" alt="" aria-hidden="true"
+                         width="300" height="190">
+                </div>
+                <div class="header-actions" role="group" aria-label="Atalhos de navegação">
+                    <button id="menu-toggle" class="menu-toggle" type="button"
+                            aria-label="Abrir menu de navegação"
+                            aria-controls="dictionary-menu" aria-expanded="false">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 7h16M4 12h16M4 17h16"/>
+                        </svg>
+                    </button>
+                    <button id="home-button" class="menu-toggle home-button"
+                            type="button" data-site-section="inicio"
+                            aria-label="Voltar à página inicial" title="Página inicial">
+                        <span class="home-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
             </div>
         </header>
 
         <section id="site-section-hub" class="site-section-hub" aria-labelledby="site-section-title" hidden>
-            <div class="site-section-kicker">Scriptura Lexicon · Biblioteca</div>
             <h1 id="site-section-title">Biblioteca</h1>
             <p id="site-section-description"></p>
             <div id="site-section-cards" class="site-section-cards"></div>
@@ -4261,6 +4253,18 @@
 
     </main>
 
+    <button
+        id="back-to-top"
+        class="back-to-top"
+        type="button"
+        aria-label="Voltar ao topo da página"
+        title="Voltar ao topo"
+        hidden
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 14l7-7 7 7M12 7v12"/>
+        </svg>
+    </button>
 
     <div
         id="lexical-tooltip"
@@ -4285,6 +4289,7 @@
     <script defer src="josefo/historia-reader.js"></script>
     <script defer src="scriptures/greek-authors.js"></script>
     <script defer src="scriptures/sections.js"></script>
+    <script defer src="scriptures/back-to-top.js"></script>
     <script defer src="script.js"></script>
     <script defer src="lexicons/dgp-format.js"></script>
     <script defer src="lexicons/on-demand-search.js"></script>

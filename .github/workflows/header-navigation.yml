@@ -1,13 +1,16 @@
-name: Site — cabeçalho fixo, identidade e navegação
+name: Site — cabeçalho e retorno ao topo
 on:
   push:
-    branches: [chat-gpt-header-sticky-identidade-20261029]
+    branches: [chat-gpt-botao-voltar-topo-20261029]
     paths:
       - 'index.html'
       - 'style.css'
       - 'scriptures/sections.js'
+      - 'scriptures/back-to-top.js'
       - 'imagens/icones/home.svg'
       - 'imagens/logo.svg'
+      - 'imagens/logo-light.svg'
+      - 'imagens/logo-dark.svg'
       - 'tests/header-navigation-browser.mjs'
       - '.github/workflows/header-navigation.yml'
   pull_request:
@@ -16,8 +19,11 @@ on:
       - 'index.html'
       - 'style.css'
       - 'scriptures/sections.js'
+      - 'scriptures/back-to-top.js'
       - 'imagens/icones/home.svg'
       - 'imagens/logo.svg'
+      - 'imagens/logo-light.svg'
+      - 'imagens/logo-dark.svg'
       - 'tests/header-navigation-browser.mjs'
       - '.github/workflows/header-navigation.yml'
   workflow_dispatch:
@@ -35,10 +41,11 @@ jobs:
       - name: Verificar sintaxe e SVGs
         run: |
           node --check scriptures/sections.js
+          node --check scriptures/back-to-top.js
           node --check tests/header-navigation-browser.mjs
           python3 - <<'PY'
           from xml.etree import ElementTree as ET
-          for asset in ('imagens/icones/home.svg','imagens/logo.svg'):
+          for asset in ('imagens/icones/home.svg','imagens/logo.svg','imagens/logo-light.svg','imagens/logo-dark.svg'):
               root=ET.parse(asset).getroot()
               assert root.tag.endswith('svg'), asset
               assert root.get('viewBox'), asset
