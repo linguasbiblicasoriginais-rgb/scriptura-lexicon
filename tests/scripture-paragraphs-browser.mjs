@@ -20,6 +20,17 @@ try{
   assert.ok(pCount>0&&pCount<count,edition+" não agrupou versículos em parágrafos");
   assert.equal(await page.locator("#scripture-text .scripture-verse-selected").count(),1);
   assert.equal(await verses.first().locator(".scripture-verse-lead bdi").getAttribute("lang"),lang);
+  const numberSpacing=await verses.first().evaluate(node=>{
+   const numeral=node.querySelector(".scripture-verse-number");
+   const style=getComputedStyle(numeral);
+   const rtl=node.dir==="rtl";
+   const gap=parseFloat(rtl?style.marginLeft:style.marginRight);
+   return {gap,paddingStart:getComputedStyle(node).paddingInlineStart,
+     paddingEnd:getComputedStyle(node).paddingInlineEnd};
+  });
+  assert.ok(numberSpacing.gap>=4,edition+" número colado à primeira palavra");
+  assert.equal(numberSpacing.paddingStart,"0px",edition+" recuo lateral do início");
+  assert.equal(numberSpacing.paddingEnd,"0px",edition+" recuo lateral do fim");
   // Todo número deve formar uma unidade de quebra com a primeira palavra.
   assert.equal(await verses.locator(".scripture-verse-lead").count(),count,
    edition+" todos os versículos devem agrupar número e primeira palavra");
@@ -44,8 +55,36 @@ try{
   }
   await page.locator("#scripture-text").evaluate(node=>node.style.removeProperty("max-width"));
   assert.equal(await paragraphs.first().evaluate(node=>getComputedStyle(node).textAlign),"justify");
+  // Uma quebra forçada permite comparar a posição inicial de dois versículos.
+  // A marcação de seleção não pode modificar a margem de entrada da linha.
+  const alignment=await paragraphs.first().evaluate(paragraph=>{
+   const verses=[...paragraph.querySelectorAll(".scripture-verse-line")];
+   if(verses.length<2)return null;
+   const first=verses[0],last=verses.at(-1);
+   const br=document.createElement("br");
+   last.before(br);
+   const rtl=paragraph.dir==="rtl";
+   const position=node=>{
+    const r=node.querySelector(".scripture-verse-lead").getBoundingClientRect();
+    return rtl?r.right:r.left;
+   };
+   const original=[position(first),position(last)];
+   const firstSelected=first.classList.contains("scripture-verse-selected");
+   const lastSelected=last.classList.contains("scripture-verse-selected");
+   first.classList.remove("scripture-verse-selected");
+   last.classList.add("scripture-verse-selected");
+   const switched=[position(first),position(last)];
+   first.classList.toggle("scripture-verse-selected",firstSelected);
+   last.classList.toggle("scripture-verse-selected",lastSelected);
+   br.remove();
+   return {original,switched};
+  });
+  assert.ok(alignment,edition+" sem versículos consecutivos para conferir alinhamento");
+  for(const coords of [alignment.original,alignment.switched])
+   assert.ok(Math.abs(coords[0]-coords[1])<=3,
+    edition+" início irregular entre versículos: "+JSON.stringify(alignment));
   assert.equal(await verses.first().evaluate(node=>getComputedStyle(node).cursor),"pointer");
-  assert.equal(await page.locator("#scripture-text .scripture-verse-selected").evaluate(node=>getComputedStyle(node).borderInlineStartStyle),"solid");
+  assert.notEqual(await page.locator("#scripture-text .scripture-verse-selected").evaluate(node=>getComputedStyle(node).boxShadow),"none","Realce selecionado não deve deslocar o alinhamento");
   const second=page.locator('#scripture-text [data-scripture-verse="2"]');
   if(await second.count()){
    // A passagem do mouse não deve produzir uma segunda seleção.

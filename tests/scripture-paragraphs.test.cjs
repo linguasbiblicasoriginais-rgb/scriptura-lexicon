@@ -75,5 +75,6 @@ test("CSS, controles clicáveis, popups e módulos carregados na ordem correta",
  assert.match(reader,/event\.target\.closest\("\.scripture-word"\)/);
  assert.match(reader,/wordUI\.decorate\(passage,display,options\)/);
  assert.match(css,/\.scripture-paragraph\s*\{[^}]*text-align:\s*justify/s);
- assert.match(css,/\.scripture-verse-line\.scripture-verse-selected\s*\{[^}]*border-inline-start:/s);
+ assert.match(css,/\.scripture-verse-line\.scripture-verse-selected\s*\{[^}]*box-shadow:/s);
+ assert.match(css,/\.scripture-paragraph\[dir="rtl"\] \.scripture-verse-number\s*\{[^}]*margin:/s);
 });
