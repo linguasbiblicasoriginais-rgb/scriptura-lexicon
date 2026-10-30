@@ -1,0 +1,218 @@
+/* Scriptura Lexicon — identidade cromática de formulários e scrollbars.
+   Listas personalizadas coexistem com selects nativos (fallback sem JS).
+   As cores vêm exclusivamente das variáveis dos temas do site. */
+.lx-select, .lx-number {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+}
+.lx-select .lx-native-select {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+.lx-select-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .55rem;
+    width: 100%;
+    min-width: 0;
+    min-height: 42px;
+    padding: .55rem .75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font: inherit;
+    font-size: .92rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: start;
+    color: var(--text-primary);
+    background: var(--surface-2);
+    cursor: pointer;
+}
+.lx-select-button:hover:not(:disabled),
+.lx-select-button[aria-expanded="true"] {
+    border-color: var(--accent);
+    background: var(--surface-3);
+}
+.lx-select-button:focus-visible,
+.lx-number:focus-within .lx-step:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+.lx-select-button:disabled {
+    opacity: .55;
+    cursor: not-allowed;
+}
+.lx-select-value {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lx-option-text {
+    display: inline-flex;
+    align-items: baseline;
+    gap: .35em;
+    max-width: 100%;
+}
+.lx-select-chevron {
+    width: .55rem;
+    height: .55rem;
+    flex: none;
+    border-right: 2px solid var(--accent-light);
+    border-bottom: 2px solid var(--accent-light);
+    transform: translateY(-2px) rotate(45deg);
+}
+.lx-select-button[aria-expanded="true"] .lx-select-chevron {
+    transform: translateY(2px) rotate(225deg);
+}
+.lx-options[hidden] { display: none !important; }
+.lx-options {
+    position: fixed;
+    z-index: 9500;
+    box-sizing: border-box;
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding: 6px;
+    color: var(--text-primary);
+    background: var(--surface-2);
+    border: 1px solid var(--border-tooltip);
+    border-radius: 10px;
+    box-shadow: var(--tooltip-shadow);
+}
+.lx-group-title {
+    padding: 9px 10px 5px;
+    font-size: .82rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--accent-light);
+}
+.lx-group + .lx-group { border-top: 1px solid var(--border-soft); }
+.lx-option {
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    min-height: 37px;
+    border-radius: 6px;
+    font-family: var(--font-main);
+    font-size: .86rem;
+    font-weight: 500;
+    line-height: 1.7;
+    color: var(--text-primary);
+    cursor: pointer;
+    user-select: none;
+}
+.lx-option.is-active,
+.lx-option:hover:not(.is-disabled) {
+    color: var(--text-primary);
+    background: var(--surface-3);
+}
+.lx-option[aria-selected="true"] {
+    box-shadow: inset 3px 0 0 var(--accent);
+}
+.lx-option.is-disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+/* Códice de Leningrado: grafia hebraica mais legível que o nome português. */
+.lx-option .lx-hebrew,
+.lx-select-value .lx-hebrew {
+    display: inline-block;
+    font: 600 1.25rem/1.6 "Noto Serif Hebrew", "Noto Serif", serif;
+    direction: rtl;
+    unicode-bidi: isolate;
+    white-space: nowrap;
+}
+.lx-select-value .lx-hebrew {
+    font-size: 1.13rem;
+}
+/* Barras de rolagem dos seletores, inclusive o filtro personalizado existente. */
+.lx-options, .source-filter-options {
+    scrollbar-color: var(--accent-dark) var(--surface-1);
+    scrollbar-width: thin;
+}
+.lx-options::-webkit-scrollbar,
+.source-filter-options::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+.lx-options::-webkit-scrollbar-track,
+.source-filter-options::-webkit-scrollbar-track {
+    background: var(--surface-1);
+    border-radius: 9px;
+}
+.lx-options::-webkit-scrollbar-thumb,
+.source-filter-options::-webkit-scrollbar-thumb {
+    background: var(--accent-dark);
+    border: 2px solid var(--surface-1);
+    border-radius: 9px;
+}
+.lx-options::-webkit-scrollbar-thumb:hover,
+.source-filter-options::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+/* Setas próprias, com mesma paleta em inputs numéricos de todas as seções. */
+.lx-number input[type="number"] {
+    width: 100%;
+    min-width: 0;
+    appearance: textfield !important;
+    -moz-appearance: textfield;
+    padding-right: 38px !important;
+}
+.lx-number input[type="number"]::-webkit-inner-spin-button,
+.lx-number input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.lx-number-steps {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    width: 29px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--border);
+    border-radius: 0 7px 7px 0;
+    overflow: hidden;
+    background: var(--surface-2);
+}
+.lx-step {
+    display: grid;
+    place-items: center;
+    flex: 1 1 50%;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    font: 700 .85rem/1 system-ui, sans-serif;
+    color: var(--accent-light);
+    background: transparent;
+    cursor: pointer;
+}
+.lx-step + .lx-step { border-top: 1px solid var(--border-soft); }
+.lx-step:hover:not(:disabled),
+.lx-step:focus-visible {
+    color: var(--interactive-hover);
+    background: var(--surface-3);
+}
+.lx-step:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+@media (max-width: 520px) {
+    .lx-options { max-width: calc(100vw - 16px); }
+    .lx-option { padding: 7px 9px; }
+    .lx-option .lx-hebrew { font-size: 1.2rem; }
+}
