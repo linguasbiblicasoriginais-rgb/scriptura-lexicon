@@ -9,7 +9,7 @@ try {
     const page = await browser.newPage({viewport:{width:1280,height:800}});
     page.on("pageerror", err => errors.push(err.message));
     await page.goto(base+"#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
-    await page.locator("#scripture-book option").first().waitFor();
+    await page.waitForFunction(() => document.querySelector("#scripture-book")?.options.length > 10);
     const bookButton = page.locator('.lx-select[data-for="scripture-book"] .lx-select-button');
     await bookButton.waitFor({state:"visible"});
     assert.equal(await page.locator("#scripture-book").getAttribute("aria-hidden"),"true");
