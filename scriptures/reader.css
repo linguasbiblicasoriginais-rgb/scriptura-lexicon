@@ -443,8 +443,8 @@
  display:inline;
  width:auto;
  margin:0;
- padding:.18em .3em;
- border:1px solid transparent;
+ padding:.18em 0;
+ border:0;
  border-radius:6px;
  background:transparent;
  font:inherit;
@@ -464,9 +464,11 @@
 }
 .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected{
  background:var(--surface-3);
- border-color:var(--accent);
- border-inline-start:4px solid var(--accent);
- padding-inline-start:calc(.3em - 3px);
+ /* Contorno interno não altera a geometria nem recua o começo da linha. */
+ box-shadow:inset 0 0 0 1px var(--accent), inset 3px 0 0 var(--accent);
+}
+.scripture-reader .scripture-paragraph[dir="rtl"] .scripture-verse-line.scripture-verse-selected{
+ box-shadow:inset 0 0 0 1px var(--accent), inset -3px 0 0 var(--accent);
 }
 /* O número e a primeira palavra são uma única unidade de quebra.
    O restante do versículo segue quebrando e justificando normalmente. */
@@ -480,12 +482,18 @@
  white-space:nowrap;
 }
 .scripture-reader .scripture-paragraph .scripture-verse-number{
+ display:inline-block;
  min-width:0;
- padding-inline-end:.25rem;
+ padding:0;
+ /* O numeral é isolado em LTR: a margem deve respeitar o lado do texto. */
+ margin:0 .42em 0 0;
  color:var(--accent);
  font-size:.78em;
  font-weight:600;
  vertical-align:baseline;
+}
+.scripture-reader .scripture-paragraph[dir="rtl"] .scripture-verse-number{
+ margin:0 0 0 .42em;
 }
 .scripture-reader .scripture-paragraph bdi{
  white-space:pre-line;
@@ -497,6 +505,5 @@
 }
 @media(max-width:520px){
  .scripture-reader .scripture-paragraph{font-size:1rem;line-height:1.9}
- .scripture-reader .scripture-paragraph .scripture-verse-line{padding:.1em .2em}
- .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected{padding-inline-start:calc(.2em - 3px)}
+ .scripture-reader .scripture-paragraph .scripture-verse-line{padding:.1em 0}
 }
