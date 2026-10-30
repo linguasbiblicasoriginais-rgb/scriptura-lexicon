@@ -185,7 +185,7 @@
     text-align: justify;
     text-justify: inter-word;
 }
-.scripture-verse-selected { background: var(--surface-3); }
+.scripture-verse-selected { background: color-mix(in srgb, var(--accent) 18%, transparent); }
 .scripture-verse-number {
     display: inline-block;
     color: var(--accent-light);
@@ -456,19 +456,19 @@
  box-decoration-break:clone;
  scroll-margin-block:8rem;
 }
-/* O hover não seleciona visualmente o versículo: somente a classe de seleção o faz.
-   Foco por teclado mantém indicação acessível, sem preenchimento. */
-.scripture-reader .scripture-paragraph .scripture-verse-line:focus-visible{
+/* Apenas o versículo selecionado recebe sombreamento azul translúcido.
+   Sem borda, contorno, faixa sólida ou sombra de moldura, inclusive em RTL.
+   O foco por teclado continua visível somente em versículos NÃO selecionados. */
+.scripture-reader .scripture-paragraph .scripture-verse-line:focus-visible:not(.scripture-verse-selected){
  outline:2px solid var(--accent);
  outline-offset:2px;
 }
 .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected{
- background:var(--surface-3);
- /* Contorno interno não altera a geometria nem recua o começo da linha. */
- box-shadow:inset 0 0 0 1px var(--accent), inset 3px 0 0 var(--accent);
-}
-.scripture-reader .scripture-paragraph[dir="rtl"] .scripture-verse-line.scripture-verse-selected{
- box-shadow:inset 0 0 0 1px var(--accent), inset -3px 0 0 var(--accent);
+ background:color-mix(in srgb, var(--accent) 18%, transparent);
+ border:0;
+ border-radius:0;
+ outline:none;
+ box-shadow:none;
 }
 /* O número e a primeira palavra são uma única unidade de quebra.
    O restante do versículo segue quebrando e justificando normalmente. */
@@ -481,22 +481,18 @@
 .scripture-reader .scripture-paragraph .scripture-verse-lead bdi{
  white-space:nowrap;
 }
-/* O numeral ocupa a borda mais larga do realce, sem ser coberto por ela.
-   A mesma dimensão com e sem seleção impede deslocamentos entre versículos.
-   No tema escuro o numeral é escuro sobre azul; no claro, claro sobre azul. */
+/* Numeral sem emblema: mesmo sombreamento que o texto do versículo.
+   Mantém a distância em ambos os sentidos e o bloco antiórfão. */
 .scripture-reader .scripture-paragraph .scripture-verse-number{
  display:inline-block;
- position:relative;
- z-index:1;
  min-width:0;
- /* Altura compacta, semelhante ao fragmento destacado do versículo,
-    sem criar um bloco mais alto que o contorno. */
  line-height:1.5;
- /* A borda superior acompanha a moldura; a base permanece alinhada. */
- padding:.38em .36em .12em;
- /* A margem separa a faixa da primeira palavra nos dois sentidos de leitura. */
+ padding:0;
  margin:0 .42em 0 0;
- border-radius:3px;
+ border:0;
+ border-radius:0;
+ outline:none;
+ box-shadow:none;
  background:transparent;
  color:var(--accent);
  font-size:.78em;
@@ -507,8 +503,11 @@
  margin:0 0 0 .42em;
 }
 .scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected .scripture-verse-number{
- color:var(--bg-main);
- background:var(--accent);
+ color:var(--accent);
+ background:transparent;
+ border:0;
+ outline:none;
+ box-shadow:none;
 }
 .scripture-reader .scripture-paragraph bdi{
  white-space:pre-line;
