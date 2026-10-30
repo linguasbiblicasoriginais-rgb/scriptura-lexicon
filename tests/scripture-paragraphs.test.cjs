@@ -77,4 +77,5 @@ test("CSS, controles clicáveis, popups e módulos carregados na ordem correta",
  assert.match(css,/\.scripture-paragraph\s*\{[^}]*text-align:\s*justify/s);
  assert.match(css,/\.scripture-verse-line\.scripture-verse-selected\s*\{[^}]*box-shadow:/s);
  assert.match(css,/\.scripture-paragraph\[dir="rtl"\] \.scripture-verse-number\s*\{[^}]*margin:/s);
+ assert.match(css,/\.scripture-verse-line\.scripture-verse-selected \.scripture-verse-number\s*\{[^}]*background:var\(--accent\)/s);
 });
