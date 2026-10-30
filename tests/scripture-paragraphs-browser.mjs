@@ -44,7 +44,12 @@ try{
      left:number.getBoundingClientRect().left,
      right:number.getBoundingClientRect().right,
      position:getComputedStyle(number).position,
-     zIndex:getComputedStyle(number).zIndex
+     zIndex:getComputedStyle(number).zIndex,
+     height:number.getBoundingClientRect().height,
+     top:number.getBoundingClientRect().top,
+     bottom:number.getBoundingClientRect().bottom,
+     verseTop:line.getClientRects()[0].top,
+     verseBottom:line.getClientRects()[0].bottom
     });
     const selected=read();
     line.classList.remove("scripture-verse-selected");
@@ -60,6 +65,12 @@ try{
     edition+" numeral não selecionado não deve ter faixa");
    assert.equal(badge.selected.position,"relative");
    assert.equal(badge.selected.zIndex,"1","Faixa do numeral deve ficar acima da moldura");
+   // O emblema não deve superar a altura do contorno nem ficar desalinhado.
+   const topDelta=Math.abs(badge.selected.top-badge.selected.verseTop);
+   const bottomDelta=Math.abs(badge.selected.bottom-badge.selected.verseBottom);
+   assert.ok(topDelta<=3&&bottomDelta<=3,
+    edition+" faixa numérica com altura diferente da moldura, tema "+theme+
+    ": "+JSON.stringify({topDelta,bottomDelta,selected:badge.selected}));
    assert.ok(Math.abs(badge.selected.width-badge.normal.width)<1,
     edition+" largura da faixa mudou com seleção");
    assert.ok(Math.abs(badge.selected.left-badge.normal.left)<1 &&
