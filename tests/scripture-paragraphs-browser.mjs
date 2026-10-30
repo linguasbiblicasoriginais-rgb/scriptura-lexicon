@@ -31,51 +31,44 @@ try{
   assert.ok(numberSpacing.gap>=4,edition+" número colado à primeira palavra");
   assert.equal(numberSpacing.paddingStart,"0px",edition+" recuo lateral do início");
   assert.equal(numberSpacing.paddingEnd,"0px",edition+" recuo lateral do fim");
-  // O número integra uma faixa da borda, com contraste e sem sobreposição.
-  // O tamanho da numeração não pode mudar quando a seleção troca de versículo.
+  // O realce inteiro é apenas um sombreamento azulado translúcido,
+  // sem contornos (nem no número) nos dois temas e nas oito edições.
   for(const theme of ["dark","light"]){
    await page.evaluate(value=>document.documentElement.dataset.theme=value,theme);
-   const badge=await verses.first().evaluate(line=>{
+   const visual=await verses.first().evaluate(line=>{
     const number=line.querySelector(".scripture-verse-number");
-    const read=()=>({
-     background:getComputedStyle(number).backgroundColor,
-     color:getComputedStyle(number).color,
-     width:number.getBoundingClientRect().width,
-     left:number.getBoundingClientRect().left,
-     right:number.getBoundingClientRect().right,
-     position:getComputedStyle(number).position,
-     zIndex:getComputedStyle(number).zIndex,
-     height:number.getBoundingClientRect().height,
-     top:number.getBoundingClientRect().top,
-     bottom:number.getBoundingClientRect().bottom,
-     verseTop:line.getClientRects()[0].top,
-     verseBottom:line.getClientRects()[0].bottom
-    });
-    const selected=read();
+    const describe=node=>{
+     const css=getComputedStyle(node),rect=node.getBoundingClientRect();
+     return {background:css.backgroundColor,color:css.color,
+       shadow:css.boxShadow,outline:css.outlineStyle,border:css.borderStyle,
+       radius:css.borderRadius,width:rect.width,left:rect.left,right:rect.right};
+    };
+    const selectedLine=describe(line),selectedNumber=describe(number);
     line.classList.remove("scripture-verse-selected");
-    const normal=read();
+    const normalLine=describe(line),normalNumber=describe(number);
     line.classList.add("scripture-verse-selected");
-    return {selected,normal};
+    return {selectedLine,selectedNumber,normalLine,normalNumber};
    });
-   assert.notEqual(badge.selected.background,"rgba(0, 0, 0, 0)",
-    edition+" numeral selecionado precisa de faixa colorida no tema "+theme);
-   assert.notEqual(badge.selected.color,badge.selected.background,
-    edition+" numeral precisa de contraste no tema "+theme);
-   assert.equal(badge.normal.background,"rgba(0, 0, 0, 0)",
-    edition+" numeral não selecionado não deve ter faixa");
-   assert.equal(badge.selected.position,"relative");
-   assert.equal(badge.selected.zIndex,"1","Faixa do numeral deve ficar acima da moldura");
-   // O emblema não deve superar a altura do contorno nem ficar desalinhado.
-   const topDelta=Math.abs(badge.selected.top-badge.selected.verseTop);
-   const bottomDelta=Math.abs(badge.selected.bottom-badge.selected.verseBottom);
-   assert.ok(topDelta<=3&&bottomDelta<=3,
-    edition+" faixa numérica com altura diferente da moldura, tema "+theme+
-    ": "+JSON.stringify({topDelta,bottomDelta,selected:badge.selected}));
-   assert.ok(Math.abs(badge.selected.width-badge.normal.width)<1,
-    edition+" largura da faixa mudou com seleção");
-   assert.ok(Math.abs(badge.selected.left-badge.normal.left)<1 &&
-    Math.abs(badge.selected.right-badge.normal.right)<1,
-    edition+" faixa deslocou a posição do número");
+   assert.notEqual(visual.selectedLine.background,visual.normalLine.background,
+    edition+" versículo deve receber sombreamento ao selecionar em "+theme);
+   assert.notEqual(visual.selectedLine.background,"rgba(0, 0, 0, 0)",
+    edition+" realce azul não pode ficar transparente em "+theme);
+   for(const [element,style] of [["versículo",visual.selectedLine],
+                                  ["número",visual.selectedNumber]]){
+    assert.equal(style.shadow,"none",edition+" "+element+" ainda tem moldura");
+    assert.equal(style.outline,"none",edition+" "+element+" ainda tem contorno");
+    assert.equal(style.border,"none",edition+" "+element+" ainda tem borda");
+   }
+   assert.equal(visual.selectedNumber.background,"rgba(0, 0, 0, 0)",
+    edition+" número não deve ter faixa própria em "+theme);
+   assert.equal(visual.selectedNumber.color,visual.normalNumber.color,
+    edition+" número não deve trocar para caracteres escuros");
+   assert.ok(Math.abs(visual.selectedNumber.width-visual.normalNumber.width)<1 &&
+    Math.abs(visual.selectedNumber.left-visual.normalNumber.left)<1 &&
+    Math.abs(visual.selectedNumber.right-visual.normalNumber.right)<1,
+    edition+" a seleção não pode mover a posição do numeral");
+   assert.equal(visual.selectedLine.radius,"0px",
+    edition+" sombreamento não deve parecer uma moldura arredondada");
   }
   await page.evaluate(()=>document.documentElement.dataset.theme="dark");
   // Todo número deve formar uma unidade de quebra com a primeira palavra.
@@ -131,7 +124,7 @@ try{
    assert.ok(Math.abs(coords[0]-coords[1])<=3,
     edition+" início irregular entre versículos: "+JSON.stringify(alignment));
   assert.equal(await verses.first().evaluate(node=>getComputedStyle(node).cursor),"pointer");
-  assert.notEqual(await page.locator("#scripture-text .scripture-verse-selected").evaluate(node=>getComputedStyle(node).boxShadow),"none","Realce selecionado não deve deslocar o alinhamento");
+  assert.equal(await page.locator("#scripture-text .scripture-verse-selected").evaluate(node=>getComputedStyle(node).boxShadow),"none","A seleção não deve produzir moldura");
   const second=page.locator('#scripture-text [data-scripture-verse="2"]');
   if(await second.count()){
    // A passagem do mouse não deve produzir uma segunda seleção.
