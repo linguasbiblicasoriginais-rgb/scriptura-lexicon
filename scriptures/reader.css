@@ -481,12 +481,19 @@
 .scripture-reader .scripture-paragraph .scripture-verse-lead bdi{
  white-space:nowrap;
 }
+/* O numeral ocupa a borda mais larga do realce, sem ser coberto por ela.
+   A mesma dimensão com e sem seleção impede deslocamentos entre versículos.
+   No tema escuro o numeral é escuro sobre azul; no claro, claro sobre azul. */
 .scripture-reader .scripture-paragraph .scripture-verse-number{
  display:inline-block;
+ position:relative;
+ z-index:1;
  min-width:0;
- padding:0;
- /* O numeral é isolado em LTR: a margem deve respeitar o lado do texto. */
+ padding:.1em .36em;
+ /* A margem separa a faixa da primeira palavra nos dois sentidos de leitura. */
  margin:0 .42em 0 0;
+ border-radius:3px;
+ background:transparent;
  color:var(--accent);
  font-size:.78em;
  font-weight:600;
@@ -494,6 +501,11 @@
 }
 .scripture-reader .scripture-paragraph[dir="rtl"] .scripture-verse-number{
  margin:0 0 0 .42em;
+}
+.scripture-reader .scripture-paragraph .scripture-verse-line.scripture-verse-selected .scripture-verse-number{
+ color:var(--bg-main);
+ background:var(--accent);
+ box-shadow:0 0 0 1px var(--accent);
 }
 .scripture-reader .scripture-paragraph bdi{
  white-space:pre-line;

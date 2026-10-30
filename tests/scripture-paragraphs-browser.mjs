@@ -31,6 +31,42 @@ try{
   assert.ok(numberSpacing.gap>=4,edition+" número colado à primeira palavra");
   assert.equal(numberSpacing.paddingStart,"0px",edition+" recuo lateral do início");
   assert.equal(numberSpacing.paddingEnd,"0px",edition+" recuo lateral do fim");
+  // O número integra uma faixa da borda, com contraste e sem sobreposição.
+  // O tamanho da numeração não pode mudar quando a seleção troca de versículo.
+  for(const theme of ["dark","light"]){
+   await page.evaluate(value=>document.documentElement.dataset.theme=value,theme);
+   const badge=await verses.first().evaluate(line=>{
+    const number=line.querySelector(".scripture-verse-number");
+    const read=()=>({
+     background:getComputedStyle(number).backgroundColor,
+     color:getComputedStyle(number).color,
+     width:number.getBoundingClientRect().width,
+     left:number.getBoundingClientRect().left,
+     right:number.getBoundingClientRect().right,
+     position:getComputedStyle(number).position,
+     zIndex:getComputedStyle(number).zIndex
+    });
+    const selected=read();
+    line.classList.remove("scripture-verse-selected");
+    const normal=read();
+    line.classList.add("scripture-verse-selected");
+    return {selected,normal};
+   });
+   assert.notEqual(badge.selected.background,"rgba(0, 0, 0, 0)",
+    edition+" numeral selecionado precisa de faixa colorida no tema "+theme);
+   assert.notEqual(badge.selected.color,badge.selected.background,
+    edition+" numeral precisa de contraste no tema "+theme);
+   assert.equal(badge.normal.background,"rgba(0, 0, 0, 0)",
+    edition+" numeral não selecionado não deve ter faixa");
+   assert.equal(badge.selected.position,"relative");
+   assert.equal(badge.selected.zIndex,"1","Faixa do numeral deve ficar acima da moldura");
+   assert.ok(Math.abs(badge.selected.width-badge.normal.width)<1,
+    edition+" largura da faixa mudou com seleção");
+   assert.ok(Math.abs(badge.selected.left-badge.normal.left)<1 &&
+    Math.abs(badge.selected.right-badge.normal.right)<1,
+    edition+" faixa deslocou a posição do número");
+  }
+  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
   // Todo número deve formar uma unidade de quebra com a primeira palavra.
   assert.equal(await verses.locator(".scripture-verse-lead").count(),count,
    edition+" todos os versículos devem agrupar número e primeira palavra");
