@@ -17,6 +17,32 @@ try {
         "Filtro de fontes existente deve manter a combobox própria");
     assert.ok(await page.locator(".lx-select").count() >= 5,
         "Listas dinâmicas dos leitores devem ser transformadas");
+    // Todos os campos do filtro bíblico devem ter exatamente a mesma altura,
+    // mesmo quando o valor do Livro contém hebraico com niqqud.
+    const controls = await page.locator(".scripture-reader-controls:has(#scripture-book)").evaluate(node => {
+        const ids = ["scripture-edition","scripture-book","scripture-chapter","scripture-verse"];
+        return ids.map(id => {
+            const el = node.querySelector("#"+id);
+            const visible = el.tagName === "SELECT" ? el._lx.button : el;
+            const rect = visible.getBoundingClientRect();
+            return {id,height:rect.height,top:rect.top};
+        });
+    });
+    for (const item of controls) {
+        assert.ok(Math.abs(item.height-42) <= 1,
+            item.id+" altura inconsistente: "+JSON.stringify(controls));
+        assert.ok(Math.abs(item.top-controls[0].top) <= 1,
+            item.id+" desalinhado verticalmente: "+JSON.stringify(controls));
+    }
+    const bookValueHebrew = await bookButton.locator(".lx-hebrew").evaluate(node => ({
+        height:node.getBoundingClientRect().height,
+        size:parseFloat(getComputedStyle(node).fontSize)
+    }));
+    assert.ok(bookValueHebrew.size>=17,
+        "Nome hebraico permanece maior no valor selecionado");
+    assert.ok(bookValueHebrew.height<42,
+        "Nome hebraico não deve forçar altura do seletor");
+
 
     for (const theme of ["dark","light"]) {
         await page.evaluate(value => document.documentElement.dataset.theme=value,theme);
@@ -68,6 +94,43 @@ try {
     assert.equal(await wrapper.getAttribute("class"),"lx-number");
     const up = wrapper.getByRole("button",{name:/Aumentar Versículo/i});
     const down = wrapper.getByRole("button",{name:/Diminuir Versículo/i});
+    const arrows = await wrapper.evaluate(node => {
+        const input = node.querySelector('input[type="number"]');
+        const steps = node.querySelector(".lx-number-steps");
+        const inputBox = input.getBoundingClientRect();
+        const stepBox = steps.getBoundingClientRect();
+        const all = [...steps.querySelectorAll(".lx-step")].map(button => {
+            const svg = button.querySelector("svg");
+            if (!svg) return {missing:true};
+            const outer = button.getBoundingClientRect();
+            const icon = svg.getBoundingClientRect();
+            return {
+                missing:false, width:icon.width, height:icon.height,
+                dx:Math.abs((outer.left+outer.right)/2-(icon.left+icon.right)/2),
+                dy:Math.abs((outer.top+outer.bottom)/2-(icon.top+icon.bottom)/2),
+                heightButton:outer.height,
+                direction:button.classList.contains("lx-step-up")?"up":"down",
+                path:svg.querySelector("path")?.getAttribute("d")
+            };
+        });
+        return {inputHeight:inputBox.height,stepsTop:stepBox.top,
+            stepsBottom:stepBox.bottom,inputTop:inputBox.top,inputBottom:inputBox.bottom,all};
+    });
+    assert.equal(arrows.all.length,2);
+    assert.ok(Math.abs(arrows.inputHeight-42)<=1);
+    assert.ok(Math.abs(arrows.stepsTop-arrows.inputTop)<=2 &&
+              Math.abs(arrows.stepsBottom-arrows.inputBottom)<=2,
+        "Setas precisam ocupar exatamente a altura do campo: "+JSON.stringify(arrows));
+    for(const item of arrows.all){
+        assert.equal(item.missing,false,"Botões devem utilizar SVG, não glifos de texto");
+        assert.ok(item.heightButton>=17 && item.heightButton<=24,
+            "Cada seta deve ocupar metade do seletor: "+JSON.stringify(item));
+        assert.equal(item.width,12);
+        assert.equal(item.height,12);
+        assert.ok(item.dx<=1 && item.dy<=1,
+            "Ícone não centrado no próprio botão: "+JSON.stringify(item));
+        assert.ok(item.path && item.path.startsWith("M3 "));
+    }
     await up.click();
     assert.equal(await number.inputValue(),"2");
     assert.match(page.url(),/EXO\.1\.2$/);
@@ -98,6 +161,24 @@ try {
     await mobile.goto(base+"#escrituras/UXLC/GEN.1.1",{waitUntil:"domcontentloaded"});
     const mobileButton=mobile.locator('.lx-select[data-for="scripture-book"] .lx-select-button');
     await mobileButton.waitFor({state:"visible"});
+    const mobileControls = await mobile.locator(".scripture-reader-controls:has(#scripture-book)").evaluate(node => {
+        return ["scripture-edition","scripture-book","scripture-chapter","scripture-verse"]
+            .map(id => {
+                const el = node.querySelector("#"+id);
+                const visible = el.tagName==="SELECT" ? el._lx.button : el;
+                return {id,height:visible.getBoundingClientRect().height};
+            });
+    });
+    assert.ok(mobileControls.every(control => Math.abs(control.height-42)<=1),
+        "Controles móveis não têm a mesma altura: "+JSON.stringify(mobileControls));
+    const mobileArrows = await mobile.locator("#scripture-verse").locator("xpath=..").evaluate(node =>
+        [...node.querySelectorAll(".lx-step")].map(btn => {
+            const icon=btn.querySelector("svg").getBoundingClientRect();
+            const rect=btn.getBoundingClientRect();
+            return Math.abs((rect.top+rect.bottom)/2-(icon.top+icon.bottom)/2);
+        }));
+    assert.ok(mobileArrows.length===2 && mobileArrows.every(delta=>delta<=1),
+        "Setas precisam permanecer centradas no celular");
     await mobileButton.click();
     const bounds=await mobile.locator("#lx-global-options").boundingBox();
     assert.ok(bounds && bounds.x>=0 && bounds.x+bounds.width<=390,

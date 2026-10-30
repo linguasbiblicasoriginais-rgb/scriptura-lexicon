@@ -248,11 +248,19 @@
         const text = labelFor(input);
         input.before(wrapper);
         wrapper.append(input, steppers);
-        for (const [direction, symbol] of [["up", "⌃"], ["down", "⌄"]]) {
+        for (const direction of ["up", "down"]) {
             const button = document.createElement("button");
             button.type = "button";
             button.className = "lx-step lx-step-" + direction;
-            button.textContent = symbol;
+            // Chevron vetorial centralizado: não depende do alinhamento da fonte
+            // (os caracteres ⌃/⌄ ficavam visualmente junto às bordas).
+            const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            icon.setAttribute("viewBox", "0 0 16 16");
+            icon.setAttribute("aria-hidden", "true");
+            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            path.setAttribute("d", direction === "up" ? "M3 10 L8 5 L13 10" : "M3 6 L8 11 L13 6");
+            icon.append(path);
+            button.append(icon);
             button.setAttribute("aria-label", (direction === "up" ?
                 "Aumentar " : "Diminuir ") + text);
             button.addEventListener("click", () => {
