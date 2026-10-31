@@ -47,7 +47,7 @@ try {
     assert.match(last.features,/noopener/);
     assert.match(last.features,/noreferrer/);
   }
-  // De Abrahamo é agora texto local; as demais 30 obras são externas.
+  // Duas obras gregas de Fílon são locais; as outras 29 permanecem externas.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
   await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
@@ -61,6 +61,19 @@ try {
   assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
     "De Abrahamo deve abrir dentro do site, sem consulta externa");
   assert.match(page.url(),/#filon\/de-abrahamo\/1$/);
+  // A segunda obra interna é aberta ao ser selecionada, sem botão intermediário.
+  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
+  await page.locator("#lx-global-options").getByRole("option",{name:"De Aeternitate Mundi",exact:true}).click();
+  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg029");
+  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
+  assert.equal(await page.locator("#greek-authors-status").textContent(),
+    "De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).");
+  await page.locator('#philo-aet-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+  assert.match(page.url(),/#filon\/de-aeternitate-mundi\/1$/);
+  assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
+    "A nova obra incorporada deve abrir localmente, sem consulta externa");
   await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
   assert.equal(await page.locator("#greek-author").inputValue(),"filon");
@@ -74,7 +87,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
   assert.deepEqual(errors,[]);
-  console.log("FILON_CATALOG_PASS: 31 obras, De Abrahamo local, 30 externas, rotas, isolamento e proveniência");
+  console.log("FILON_CATALOG_PASS: 31 obras, 2 internas, 29 externas, rotas, isolamento e proveniência");
 } finally {
   await browser.close();
 }
