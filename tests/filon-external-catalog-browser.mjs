@@ -23,7 +23,6 @@ try {
   assert.match(await page.locator("#greek-authors-status").textContent(),/Selecione uma obra/);
   const expected=new Map([
     ["De Opificio Mundi","tlg001"],
-    ["De Abrahamo","tlg020"],
     ["Legatio Ad Gaium","tlg031"]
   ]);
   for (const [title,urn] of expected) {
@@ -46,6 +45,18 @@ try {
     assert.match(last.features,/noopener/);
     assert.match(last.features,/noreferrer/);
   }
+  // De Abrahamo é agora texto local; as demais 30 obras são externas.
+  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
+  await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
+  assert.match(await page.locator("#greek-authors-submit").textContent(),/Abrir texto integral/);
+  assert.match(await page.locator("#greek-authors-status").textContent(),/276 seções/);
+  const externalCount=await page.evaluate(()=>window.__externalReads.length);
+  await page.locator("#greek-authors-submit").click();
+  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+  assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
+    "De Abrahamo deve abrir dentro do site, sem consulta externa");
+  assert.match(page.url(),/#filon\/de-abrahamo\/1$/);
   await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
   assert.equal(await page.locator("#greek-author").inputValue(),"filon");
@@ -59,7 +70,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
   assert.deepEqual(errors,[]);
-  console.log("FILON_EXTERNAL_CATALOG_PASS: 31 obras, links CTS, rotas, isolamento, origem Perseus, sem corpus simulado");
+  console.log("FILON_CATALOG_PASS: 31 obras, De Abrahamo local, 30 externas, rotas, isolamento e proveniência");
 } finally {
   await browser.close();
 }
