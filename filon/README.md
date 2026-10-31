@@ -64,4 +64,23 @@ O arquivo `filon/data/tlg0018.tlg009.1st1K-grc1.xml` foi incorporado **sem alter
 - **Rota interna:** `#filon/de-agricultura/1` a `#filon/de-agricultura/181`.
 - **Testes:** `tests/filon-de-agricultura-browser.mjs`, para identidade do corpus, divisão, notas, leitor, links, temas e apresentação móvel.
 
-Esta incorporação não adiciona emendas, conjecturas, interpretações nem tradução portuguesa. A leitura HTML é uma apresentação interpretativa da estrutura TEI, não uma edição diplomática da obra impressa. O catálogo de Fílon passa a conter **três obras incorporadas** e **28 obras com acesso externo**.
+Esta incorporação não adiciona emendas, conjecturas, interpretações nem tradução portuguesa. A leitura HTML é uma apresentação interpretativa da estrutura TEI, não uma edição diplomática da obra impressa. O catálogo de Fílon passa a conter **quatro obras incorporadas** e **27 obras com acesso externo**.
+
+
+## De Cherubim — texto grego integral
+
+- **Obra:** *De Cherubim*, de Fílon de Alexandria; texto original em grego antigo (`grc`).
+- **Edição impressa de base:** Leopold Cohn (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. I** (Berlim: Reimer, **1896**); conforme a descrição bibliográfica do cabeçalho TEI.
+- **Transcrição:** First1KGreek / Perseus Digital Library, TEI-XML (Universidade de Leipzig, 2014).
+- **URN CTS:** `urn:cts:greekLit:tlg0018.tlg003.1st1K-grc1`.
+- **Fonte integral:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg003/tlg0018.tlg003.1st1K-grc1.xml
+- **Consulta à biblioteca externa:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg003/
+- **Licença da transcrição:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **SHA Git blob da fonte original e cópia local (idênticos):** `5a637c0c8f03c2ab31e854169ea17eca68b8e361`.
+
+O arquivo `filon/data/tlg0018.tlg003.1st1K-grc1.xml` foi incorporado **sem edição**. Conserva **130 seções consecutivas (§§ 1–130)**, além de 44 notas (43 notas de rodapé e uma marginal), 18 passagens marcadas `add` e os marcos de paginação e linha presentes no TEI. A interface `filon/cherubim-reader.js` apresenta doze seções por lote, permite selecionar qualquer seção e mantém as notas em painéis expansíveis; o arquivo original conserva as marcas editoriais integralmente.
+
+- **Rota:** `#filon/de-cherubim/1` a `#filon/de-cherubim/130`.
+- **Validação:** `tests/filon-de-cherubim-browser.mjs`, incluindo SHA da fonte, título, edição, sequência das 130 seções, notas, navegação por endereço, aparência dos dois temas e dispositivo móvel.
+
+Não se incorporaram tradução portuguesa, conjecturas, normalizações ou correções editoriais à fonte. O leitor HTML oferece representação estruturada do TEI, não uma reprodução diplomática do volume impresso. O catálogo de Fílon contém, após esta incorporação, **quatro obras internas** e **27 obras externas**.

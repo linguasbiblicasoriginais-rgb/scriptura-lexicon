@@ -201,6 +201,7 @@
     const token=++generation;
     window.ScripturaPhilo?.hide();
     window.ScripturaPhiloAgricultura?.hide();
+    window.ScripturaPhiloCherubim?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();
