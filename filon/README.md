@@ -176,3 +176,17 @@ Esta incorporação não inclui tradução portuguesa, correções conjecturais 
 O arquivo `filon/data/tlg0018.tlg017.1st1K-grc1.xml` foi incorporado **sem normalizações, emendas ou intervenções**. Reúne **213 seções consecutivas (§§ 1–213)** e **77 notas editoriais** (75 de rodapé, 2 marginais). Mantém o cabeçalho, informações de proveniência, marcadores de página e linha e aparato crítico no arquivo original.
 
 O leitor `filon/fuga-reader.js` apresenta o texto grego em lotes de doze seções, com seleção individual, notas expansíveis e citação. Endereços internos: `#filon/de-fuga-et-inventione/1` a `#filon/de-fuga-et-inventione/213`. Teste dedicado: `tests/filon-de-fuga-browser.mjs`, cobrindo integridade, seções, notas, edição, rotas, temas e dispositivo móvel. O leitor HTML não é reprodução diplomática do volume; **nenhuma tradução portuguesa foi incorporada**. O catálogo passa a contabilizar **nove obras integrais** de Fílon e **22 obras externas**.
+
+
+## De Gigantibus — texto grego integral
+
+- **Obra:** *De Gigantibus* (Περὶ γιγάντων), de Fílon de Alexandria; grego original (`grc`).
+- **Edição de base:** Paul Wendland (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. II** (Berlim: Reimer, **1897**), conforme o `teiHeader`.
+- **Transcrição:** First1KGreek / Perseus Digital Library, Universidade de Leipzig (2014, com revisão digital documentada no `teiHeader`).
+- **URN CTS:** `urn:cts:greekLit:tlg0018.tlg007.1st1K-grc1`.
+- **Fonte original TEI:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg007/tlg0018.tlg007.1st1K-grc1.xml
+- **Catálogo Perseus:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg007/
+- **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **SHA Git blob da fonte e da cópia:** `758adb38d6a874f76c7c2951d3b43610ac2e1f38` (idênticos).
+
+O arquivo `filon/data/tlg0018.tlg007.1st1K-grc1.xml` foi incorporado **integralmente e sem transformações**. Contém **67 seções consecutivas (§§ 1–67)** e **20 notas** (19 de rodapé, uma marginal), além da marcação editorial e das referências da transcrição. O leitor `filon/gigantibus-reader.js` exibe 12 seções por lote, seleção individual, notas expansíveis e rota `#filon/de-gigantibus/<seção>`. O teste dedicado `tests/filon-de-gigantibus-browser.mjs` cobre integridade SHA, sequência, metadados, aparato, rotas, temas e dispositivo móvel. A interface não é reprodução diplomática nem edição crítica própria. **Sem tradução portuguesa.** O catálogo passa a conter **10 obras locais** de Fílon e **21 externas**.
