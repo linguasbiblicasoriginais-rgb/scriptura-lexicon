@@ -1,0 +1,39 @@
+name: Fílon — catálogo externo de obras e navegação
+on:
+  pull_request:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'scriptures/greek-authors.js'
+      - 'scriptures/sections.js'
+      - 'tests/filon-external-catalog-browser.mjs'
+      - '.github/workflows/filon-catalog.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  philo-catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar sintaxe dos arquivos modificados
+        run: |
+          node --check scriptures/greek-authors.js
+          node --check scriptures/sections.js
+          node --check tests/filon-external-catalog-browser.mjs
+      - name: Instalar Chromium
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Iniciar aplicação
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/filon-http.log 2>&1 &
+          sleep 2
+      - name: Validar catálogo Fílon, URLs, interface e isolamento editorial
+        run: node tests/filon-external-catalog-browser.mjs
+      - name: Logs da aplicação
+        if: failure()
+        run: cat /tmp/filon-http.log || true
