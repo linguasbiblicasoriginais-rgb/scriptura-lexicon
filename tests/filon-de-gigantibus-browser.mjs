@@ -20,6 +20,10 @@ try {
  await page.locator("#lx-global-options").getByRole("option",{name:"De Gigantibus",exact:true}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg007");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
+ assert.equal(await page.locator("#filon-gigantibus-reader").isVisible(),true,
+  "A seleção deve exibir o leitor interno, não apenas cadastrar a obra");
+ assert.match(await page.locator("#filon-gigantibus-reader .scripture-reader-intro").textContent(),/Sobre os gigantes/);
+ assert.doesNotMatch(await page.locator("#filon-gigantibus-reader .scripture-reader-intro").textContent(),/descoberta/);
  assert.equal(await page.locator("#greek-authors-status").textContent(),
    "De Gigantibus: texto grego integral com notas da edição Wendland (1897).");
  await page.locator('#philo-gig-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
@@ -27,6 +31,8 @@ try {
  assert.equal(await page.locator("#philo-gig-section option").count(),67);
  assert.equal(await page.locator("#philo-gig-text .philo-section").count(),12);
  assert.match(await page.locator('#philo-gig-text [data-philo-section="1"]').textContent(),/Καὶ δὴ ἐγένετο/);
+ assert.ok((await page.locator("#philo-gig-text").innerText()).trim().length>200,
+  "O leitor deve apresentar o texto grego legível, não um painel vazio");
  assert.equal(await page.locator("#philo-gig-prev").isDisabled(),true);
 
  const metadata=await page.evaluate(async()=>{
@@ -90,6 +96,16 @@ try {
  assert.equal(await page.locator("#filon-gigantibus-reader").isVisible(),false,
  "O leitor de De Gigantibus não deve se sobrepor ao de De Abrahamo");
  assert.deepEqual(errors,[]);
+ // Uma URL compartilhada também deve carregar o texto, sem passar pelo catálogo.
+ const direct=await browser.newPage({viewport:{width:1280,height:850}});
+ direct.on("pageerror",error=>errors.push(error.message));
+ await direct.goto(base+"/#filon/de-gigantibus/67",{waitUntil:"domcontentloaded"});
+ await direct.locator('#philo-gig-text [data-philo-section="67"]').waitFor({state:"visible",timeout:30000});
+ assert.equal(await direct.locator("#filon-gigantibus-reader").isVisible(),true);
+ assert.equal(await direct.locator("#philo-gig-section").inputValue(),"67");
+ assert.match(await direct.locator('#philo-gig-text [data-philo-section="67"]').innerText(),/ἀκόλουθον/);
+ assert.equal(await direct.locator("#philo-gig-status").textContent(),"");
+ await direct.close();
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  mobile.on("pageerror",error=>errors.push(error.message));
  await mobile.goto(base+"/#filon/de-gigantibus/67",{waitUntil:"domcontentloaded"});
