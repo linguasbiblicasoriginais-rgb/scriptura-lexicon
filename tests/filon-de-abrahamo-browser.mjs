@@ -54,7 +54,10 @@ try {
  assert.ok(await page.locator("#philo-text .philo-notes").count()>0,
   "Aparato crítico das seções iniciais deve ser visível em detalhes");
  await page.locator("#philo-text .philo-notes summary").first().click();
- assert.ok((await page.locator("#philo-text .philo-notes[open] p").first().textContent()).length>25);
+ assert.ok((await page.locator("#philo-text .philo-notes[open] p").first().textContent()).trim().length>5,
+  "Notas marginais curtas também precisam ser preservadas");
+ assert.ok((await page.locator("#philo-text .philo-notes p").allTextContents()).some(text=>text.length>100),
+  "Aparato crítico extenso deve permanecer integral");
  for(const theme of ["dark","light"]){
   await page.evaluate(value=>document.documentElement.dataset.theme=value,theme);
   const css=await page.locator(".philo-section-selected").evaluate(el=>{
