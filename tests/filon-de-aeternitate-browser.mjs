@@ -83,7 +83,7 @@ try {
  await page.reload({waitUntil:"domcontentloaded"});
  await page.locator('#philo-aet-text [data-philo-section="150"]').waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#philo-aet-section").inputValue(),"150");
- await page.locator('[data-greek-author="filon"]').last().click();
+ await page.locator('#filon-aeternitate-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
  await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
