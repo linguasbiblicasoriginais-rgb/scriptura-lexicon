@@ -18,7 +18,7 @@ const pages={
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
- filon:["Obras de Fílon de Alexandria","De Abrahamo: texto grego integral, com 276 seções e notas da edição; outras obras com consulta externa ao Perseus/Scaife."],
+ filon:["Obras de Fílon de Alexandria","De Abrahamo (276 seções) e De Aeternitate Mundi (150 seções): textos gregos integrais; demais obras com consulta externa ao Perseus/Scaife."],
  "autores-gregos":["Escritores gregos","Selecione um escritor e abra suas obras gregas nos leitores completos, com a numeração própria de cada edição."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -28,7 +28,7 @@ const categories=[
  ["patristica","Literatura patrística","Stromata e Pedagogo, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
- ["autores-gregos","Escritores gregos","Obras de Flávio Josefo e De Abrahamo de Fílon com leitura integral; demais obras de Fílon no Perseus."],
+ ["autores-gregos","Escritores gregos","Obras de Flávio Josefo e dois tratados gregos integrais de Fílon; demais obras consultáveis no Perseus."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -157,6 +157,7 @@ function showHub(section){
  window.ScripturaPatristics?.hide();
  window.ScripturaPaedagogus?.hide();
  window.ScripturaPhilo?.hide();
+ window.ScripturaPhiloAeternitate?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaScriptures?.hide();
@@ -204,7 +205,7 @@ function showGreekAuthor(authorId,push=true){
  window.ScripturaGreekAuthors?.selectAuthor(authorId);
  title.textContent=greekAuthorNames[authorId];
  description.textContent=authorId==="filon"
-   ?"De Abrahamo possui leitor interno em grego (276 seções); as demais obras de Fílon permanecem acessíveis pelo Perseus/Scaife."
+   ?"De Abrahamo (276 seções) e De Aeternitate Mundi (150 seções) possuem leitores internos em grego; as demais obras permanecem acessíveis no Perseus/Scaife."
    :"Selecione a obra no formulário para abrir o leitor integral.";
  cards.replaceChildren();
  if(push&&location.hash!=="#autores-gregos/"+authorId)history.pushState(null,"","#autores-gregos/"+authorId);
@@ -212,6 +213,7 @@ function showGreekAuthor(authorId,push=true){
 }
 function showDictionary(){
  window.ScripturaPhilo?.hide();
+ window.ScripturaPhiloAeternitate?.hide();
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
@@ -229,6 +231,7 @@ function openSection(section){
 }
 function handleHash(){
  if(window.ScripturaPhilo?.isPhiloHash())return window.ScripturaPhilo.showFromHash();
+ if(window.ScripturaPhiloAeternitate?.isPhiloHash())return window.ScripturaPhiloAeternitate.showFromHash();
  if(window.ScripturaJosephusHistory?.isHistoryHash())return window.ScripturaJosephusHistory.showFromHash();
  window.ScripturaJosephusHistory?.hide();
  if(window.ScripturaJosephus?.isJosephusHash())return window.ScripturaJosephus.showFromHash();
