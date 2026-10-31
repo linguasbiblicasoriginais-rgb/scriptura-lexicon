@@ -205,6 +205,7 @@
     window.ScripturaPhiloConfusione?.hide();
     window.ScripturaPhiloCongressu?.hide();
     window.ScripturaPhiloDecalogo?.hide();
+    window.ScripturaPhiloEbrietate?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();

@@ -140,4 +140,23 @@ O arquivo `filon/data/tlg0018.tlg023.1st1K-grc1.xml` foi incorporado **sem modif
 - **Rotas:** `#filon/de-decalogo/1` a `#filon/de-decalogo/178`.
 - **Teste:** `tests/filon-de-decalogo-browser.mjs`, conferindo integridade, metadados, §§ 1 e 178, notas, navegação, temas e dispositivo móvel.
 
-A incorporação não inventa tradução, variantes, conjecturas ou emendas. A exibição é uma representação interpretativa da estrutura TEI e não uma reprodução diplomática do impresso. O catálogo possui agora **sete textos integrais** e **24 obras com consulta externa**.
+A incorporação não inventa tradução, variantes, conjecturas ou emendas. A exibição é uma representação interpretativa da estrutura TEI e não uma reprodução diplomática do impresso. O catálogo possui agora **oito textos integrais** e **23 obras com consulta externa**.
+
+
+## De Ebrietate — texto grego integral
+
+- **Obra:** *De Ebrietate*, de Fílon de Alexandria, no grego original (`grc`).
+- **Edição-fonte:** Paul Wendland (ed.), *Philonis Alexandrini Opera quae supersunt*, **volume II** (Berlim: Reimer, **1897**), identificada no cabeçalho TEI.
+- **Transcrição:** First1KGreek / Perseus Digital Library, Universidade de Leipzig (2014).
+- **URN CTS:** `urn:cts:greekLit:tlg0018.tlg011.1st1K-grc1`.
+- **Arquivo-fonte:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg011/tlg0018.tlg011.1st1K-grc1.xml
+- **Catálogo de origem:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg011/
+- **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **Git blob SHA, idêntico no original e na cópia local:** `db23b8d7901266863ba1203986d54c96604ce84f`.
+
+O arquivo `filon/data/tlg0018.tlg011.1st1K-grc1.xml` foi incorporado **sem qualquer alteração**, preservando **224 seções consecutivas (§§ 1–224)**, **74 notas editoriais** (72 de rodapé, duas marginais), marcações de página, linha e intervenções registradas no TEI. O leitor `filon/ebrietate-reader.js` apresenta o grego original em lotes de doze seções, navegação individual, realce suave da seção selecionada e notas em painéis expansíveis.
+
+- **Rota local:** `#filon/de-ebrietate/1` a `#filon/de-ebrietate/224`.
+- **Validação:** `tests/filon-de-ebrietate-browser.mjs`, que verifica SHA, seção inicial e final, metadados editoriais, notas, navegação, temas e leitura em celular.
+
+Esta incorporação não inclui tradução portuguesa, correções conjecturais nem intervenções no conteúdo da fonte. A interface é uma apresentação organizada do TEI, **não uma edição crítica própria ou reprodução diplomática**. O catálogo contém agora **oito obras integrais de Fílon** e **23 obras com acesso externo**.
