@@ -75,9 +75,9 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
-  // As oito obras locais de Fílon abrem automaticamente, sem botão intermediário.
+  // As nove obras locais de Fílon abrem automaticamente, sem botão intermediário.
   // As outras obras mantêm seus controles de consulta intactos.
-  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020"||work?.id==="filon-tlg029"||work?.id==="filon-tlg009"||work?.id==="filon-tlg003"||work?.id==="filon-tlg013"||work?.id==="filon-tlg016"||work?.id==="filon-tlg023"||work?.id==="filon-tlg011";
+  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020"||work?.id==="filon-tlg029"||work?.id==="filon-tlg009"||work?.id==="filon-tlg003"||work?.id==="filon-tlg013"||work?.id==="filon-tlg016"||work?.id==="filon-tlg023"||work?.id==="filon-tlg011"||work?.id==="filon-tlg017";
   if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
     ui.fields.replaceChildren();
     if(ui.submit)ui.submit.textContent=externalPhiloLinks[work.id]
@@ -115,6 +115,7 @@ function refreshWorks(){
   else if(ui.work.value==="filon-tlg016")setStatus("De Congressu Eruditionis Gratia: texto grego integral com notas da edição Wendland (1898).");
   else if(ui.work.value==="filon-tlg023")setStatus("De Decalogo: texto grego integral com notas da edição Cohn (1902).");
   else if(ui.work.value==="filon-tlg011")setStatus("De Ebrietate: texto grego integral com notas da edição Wendland (1897).");
+  else if(ui.work.value==="filon-tlg017")setStatus("De Fuga Et Inventione: texto grego integral com notas da edição Wendland (1898).");
   else if(externalPhiloLinks[ui.work.value])setStatus("Consulta externa ao Perseus/Scaife: edições gregas disponíveis na biblioteca de origem; o texto ainda não foi incorporado ao acervo local.");
   else setStatus("Preencha os níveis desejados ou pesquise todos os trechos cadastrados desta obra.");
 }
@@ -217,7 +218,7 @@ const externalPhiloCatalog=Object.freeze([
   ["tlg031","Legatio Ad Gaium"]
 ]);
 const externalPhiloLinks=Object.freeze(Object.fromEntries(
-  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009"&&urn!=="tlg003"&&urn!=="tlg013"&&urn!=="tlg016"&&urn!=="tlg023"&&urn!=="tlg011").map(([urn])=>[
+  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009"&&urn!=="tlg003"&&urn!=="tlg013"&&urn!=="tlg016"&&urn!=="tlg023"&&urn!=="tlg011"&&urn!=="tlg017").map(([urn])=>[
     "filon-"+urn,
     "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
   ])
@@ -238,7 +239,8 @@ const publishedOpeners=Object.freeze({
   "filon-tlg013":()=>window.ScripturaPhiloConfusione?.show(1,true),
   "filon-tlg016":()=>window.ScripturaPhiloCongressu?.show(1,true),
   "filon-tlg023":()=>window.ScripturaPhiloDecalogo?.show(1,true),
-  "filon-tlg011":()=>window.ScripturaPhiloEbrietate?.show(1,true)
+  "filon-tlg011":()=>window.ScripturaPhiloEbrietate?.show(1,true),
+  "filon-tlg017":()=>window.ScripturaPhiloFuga?.show(1,true)
 });
 function openWork(id){
   const chosen=works.get(id);
@@ -265,7 +267,8 @@ function openWork(id){
     "filon-tlg013":window.ScripturaPhiloConfusione?.show,
     "filon-tlg016":window.ScripturaPhiloCongressu?.show,
     "filon-tlg023":window.ScripturaPhiloDecalogo?.show,
-    "filon-tlg011":window.ScripturaPhiloEbrietate?.show
+    "filon-tlg011":window.ScripturaPhiloEbrietate?.show,
+    "filon-tlg017":window.ScripturaPhiloFuga?.show
   };
   if(typeof ready[id]!=="function")return false;
   publishedOpeners[id]();return true;
@@ -278,7 +281,7 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
-// Oito obras gregas possuem leitores internos e XMLs próprios; outras 23 permanecem externas.
+// Nove obras gregas possuem leitores internos e XMLs próprios; outras 22 permanecem externas.
 publishedWorks.forEach(registerWork);
 externalPhiloCatalog.forEach(([urn,title])=>registerWork({
   id:"filon-"+urn,authorId:"filon",title,levels:[]
@@ -309,10 +312,12 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
       "De Decalogo: texto grego integral com notas da edição Cohn (1902).":
       selected.id==="filon-tlg011"?
       "De Ebrietate: texto grego integral com notas da edição Wendland (1897).":
+      selected.id==="filon-tlg017"?
+      "De Fuga Et Inventione: texto grego integral com notas da edição Wendland (1898).":
       externalPhiloLinks[selected.id]?
       "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
       "Preencha a referência desejada ou pesquise todos os trechos publicados.");
-    if((selected?.id==="filon-tlg020"||selected?.id==="filon-tlg029"||selected?.id==="filon-tlg009"||selected?.id==="filon-tlg003"||selected?.id==="filon-tlg013"||selected?.id==="filon-tlg016"||selected?.id==="filon-tlg023"||selected?.id==="filon-tlg011") && !openWork(selected.id)){
+    if((selected?.id==="filon-tlg020"||selected?.id==="filon-tlg029"||selected?.id==="filon-tlg009"||selected?.id==="filon-tlg003"||selected?.id==="filon-tlg013"||selected?.id==="filon-tlg016"||selected?.id==="filon-tlg023"||selected?.id==="filon-tlg011"||selected?.id==="filon-tlg017") && !openWork(selected.id)){
       setStatus("Não foi possível abrir o leitor de "+selected.title+".");
     }
   });

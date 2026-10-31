@@ -15,6 +15,7 @@ on:
       - 'tests/filon-de-congressu-browser.mjs'
       - 'tests/filon-de-decalogo-browser.mjs'
       - 'tests/filon-de-ebrietate-browser.mjs'
+      - 'tests/filon-de-fuga-browser.mjs'
       - 'index.html'
       - '.github/workflows/filon-catalog.yml'
   workflow_dispatch:
@@ -39,6 +40,7 @@ jobs:
           node --check filon/congressu-reader.js
           node --check filon/decalogo-reader.js
           node --check filon/ebrietate-reader.js
+          node --check filon/fuga-reader.js
           node --check scriptures/greek-authors.js
           node --check scriptures/sections.js
           node --check tests/filon-external-catalog-browser.mjs
@@ -50,6 +52,7 @@ jobs:
           node --check tests/filon-de-congressu-browser.mjs
           node --check tests/filon-de-decalogo-browser.mjs
           node --check tests/filon-de-ebrietate-browser.mjs
+          node --check tests/filon-de-fuga-browser.mjs
       - name: Instalar Chromium
         run: |
           npm install --no-save --package-lock=false playwright@1.56.1
@@ -58,7 +61,7 @@ jobs:
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/filon-http.log 2>&1 &
           sleep 2
-      - name: Validar oito obras integrais e demais obras externas
+      - name: Validar nove obras integrais e demais obras externas
         run: |
           node tests/filon-external-catalog-browser.mjs
           node tests/filon-de-abrahamo-browser.mjs
@@ -69,6 +72,7 @@ jobs:
           node tests/filon-de-congressu-browser.mjs
           node tests/filon-de-decalogo-browser.mjs
           node tests/filon-de-ebrietate-browser.mjs
+          node tests/filon-de-fuga-browser.mjs
       - name: Logs da aplicação
         if: failure()
         run: cat /tmp/filon-http.log || true

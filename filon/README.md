@@ -160,3 +160,19 @@ O arquivo `filon/data/tlg0018.tlg011.1st1K-grc1.xml` foi incorporado **sem qualq
 - **Validação:** `tests/filon-de-ebrietate-browser.mjs`, que verifica SHA, seção inicial e final, metadados editoriais, notas, navegação, temas e leitura em celular.
 
 Esta incorporação não inclui tradução portuguesa, correções conjecturais nem intervenções no conteúdo da fonte. A interface é uma apresentação organizada do TEI, **não uma edição crítica própria ou reprodução diplomática**. O catálogo contém agora **oito obras integrais de Fílon** e **23 obras com acesso externo**.
+
+
+## De Fuga Et Inventione — texto grego integral
+
+- **Obra:** *De Fuga Et Inventione* (Περὶ φυγῆς καὶ εὑρέσεως), de Fílon de Alexandria; original grego antigo (`grc`).
+- **Edição impressa de base:** Paul Wendland (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. III** (Berlim: Reimer, **1898**), conforme o cabeçalho TEI.
+- **Transcrição:** First1KGreek / Perseus Digital Library, Universidade de Leipzig (2014; revisão de 1º de agosto de 2023 registrada no cabeçalho).
+- **URN CTS:** `urn:cts:greekLit:tlg0018.tlg017.1st1K-grc1`.
+- **Fonte TEI integral:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg017/tlg0018.tlg017.1st1K-grc1.xml
+- **Catálogo do Perseus:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg017/
+- **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/), conforme `publicationStmt`.
+- **Git blob SHA original e local (idênticos):** `a3b737626450a6adda6d53cefbfe3eb7368d9e22`.
+
+O arquivo `filon/data/tlg0018.tlg017.1st1K-grc1.xml` foi incorporado **sem normalizações, emendas ou intervenções**. Reúne **213 seções consecutivas (§§ 1–213)** e **77 notas editoriais** (75 de rodapé, 2 marginais). Mantém o cabeçalho, informações de proveniência, marcadores de página e linha e aparato crítico no arquivo original.
+
+O leitor `filon/fuga-reader.js` apresenta o texto grego em lotes de doze seções, com seleção individual, notas expansíveis e citação. Endereços internos: `#filon/de-fuga-et-inventione/1` a `#filon/de-fuga-et-inventione/213`. Teste dedicado: `tests/filon-de-fuga-browser.mjs`, cobrindo integridade, seções, notas, edição, rotas, temas e dispositivo móvel. O leitor HTML não é reprodução diplomática do volume; **nenhuma tradução portuguesa foi incorporada**. O catálogo passa a contabilizar **nove obras integrais** de Fílon e **22 obras externas**.

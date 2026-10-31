@@ -18,7 +18,7 @@ const pages={
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
- filon:["Obras de Fílon de Alexandria","De Abrahamo (276 seções), De Aeternitate Mundi (150 seções), De Agricultura (181 seções), De Cherubim (130 seções), De Confusione Linguarum (198 seções), De Congressu Eruditionis Gratia (180 seções), De Decalogo (178 seções) e De Ebrietate (224 seções): textos gregos integrais; demais obras no Perseus/Scaife."],
+ filon:["Obras de Fílon de Alexandria","De Abrahamo (276 seções), De Aeternitate Mundi (150 seções), De Agricultura (181 seções), De Cherubim (130 seções), De Confusione Linguarum (198 seções), De Congressu Eruditionis Gratia (180 seções), De Decalogo (178 seções) De Ebrietate (224 seções) e De Fuga Et Inventione (213 seções): textos gregos integrais; demais obras no Perseus/Scaife."],
  "autores-gregos":["Escritores gregos","Selecione um escritor e abra suas obras gregas nos leitores completos, com a numeração própria de cada edição."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -164,6 +164,7 @@ function showHub(section){
  window.ScripturaPhiloCongressu?.hide();
  window.ScripturaPhiloDecalogo?.hide();
  window.ScripturaPhiloEbrietate?.hide();
+ window.ScripturaPhiloFuga?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaScriptures?.hide();
@@ -211,7 +212,7 @@ function showGreekAuthor(authorId,push=true){
  window.ScripturaGreekAuthors?.selectAuthor(authorId);
  title.textContent=greekAuthorNames[authorId];
  description.textContent=authorId==="filon"
-   ?"De Abrahamo (276 seções), De Aeternitate Mundi (150 seções), De Agricultura (181 seções), De Cherubim (130 seções), De Confusione Linguarum (198 seções), De Congressu Eruditionis Gratia (180 seções), De Decalogo (178 seções) e De Ebrietate (224 seções) possuem leitores internos em grego; as demais obras permanecem acessíveis no Perseus/Scaife."
+   ?"De Abrahamo (276 seções), De Aeternitate Mundi (150 seções), De Agricultura (181 seções), De Cherubim (130 seções), De Confusione Linguarum (198 seções), De Congressu Eruditionis Gratia (180 seções), De Decalogo (178 seções) De Ebrietate (224 seções) e De Fuga Et Inventione (213 seções) possuem leitores internos em grego; as demais obras permanecem acessíveis no Perseus/Scaife."
    :"Selecione a obra no formulário para abrir o leitor integral.";
  cards.replaceChildren();
  if(push&&location.hash!=="#autores-gregos/"+authorId)history.pushState(null,"","#autores-gregos/"+authorId);
@@ -226,6 +227,7 @@ function showDictionary(){
  window.ScripturaPhiloCongressu?.hide();
  window.ScripturaPhiloDecalogo?.hide();
  window.ScripturaPhiloEbrietate?.hide();
+ window.ScripturaPhiloFuga?.hide();
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
@@ -250,6 +252,7 @@ function handleHash(){
  if(window.ScripturaPhiloCongressu?.isPhiloHash())return window.ScripturaPhiloCongressu.showFromHash();
  if(window.ScripturaPhiloDecalogo?.isPhiloHash())return window.ScripturaPhiloDecalogo.showFromHash();
  if(window.ScripturaPhiloEbrietate?.isPhiloHash())return window.ScripturaPhiloEbrietate.showFromHash();
+ if(window.ScripturaPhiloFuga?.isPhiloHash())return window.ScripturaPhiloFuga.showFromHash();
  if(window.ScripturaJosephusHistory?.isHistoryHash())return window.ScripturaJosephusHistory.showFromHash();
  window.ScripturaJosephusHistory?.hide();
  if(window.ScripturaJosephus?.isJosephusHash())return window.ScripturaJosephus.showFromHash();
