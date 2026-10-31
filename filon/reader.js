@@ -204,6 +204,7 @@
     window.ScripturaPhiloCherubim?.hide();
     window.ScripturaPhiloConfusione?.hide();
     window.ScripturaPhiloCongressu?.hide();
+    window.ScripturaPhiloDecalogo?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();
