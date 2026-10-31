@@ -75,9 +75,9 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
-  // As duas obras locais de Fílon abrem automaticamente, sem botão intermediário.
+  // As três obras locais de Fílon abrem automaticamente, sem botão intermediário.
   // As outras obras mantêm seus controles de consulta intactos.
-  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020"||work?.id==="filon-tlg029";
+  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020"||work?.id==="filon-tlg029"||work?.id==="filon-tlg009";
   if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
     ui.fields.replaceChildren();
     if(ui.submit)ui.submit.textContent=externalPhiloLinks[work.id]
@@ -109,6 +109,7 @@ function refreshWorks(){
   else if(!ui.work.value)setStatus("Selecione uma obra; os níveis de referência serão adaptados à sua estrutura.");
   else if(ui.work.value==="filon-tlg020")setStatus("De Abrahamo: texto grego integral com notas da edição Cohn (1902).");
   else if(ui.work.value==="filon-tlg029")setStatus("De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).");
+  else if(ui.work.value==="filon-tlg009")setStatus("De Agricultura: texto grego integral com notas da edição Wendland (1897).");
   else if(externalPhiloLinks[ui.work.value])setStatus("Consulta externa ao Perseus/Scaife: edições gregas disponíveis na biblioteca de origem; o texto ainda não foi incorporado ao acervo local.");
   else setStatus("Preencha os níveis desejados ou pesquise todos os trechos cadastrados desta obra.");
 }
@@ -211,7 +212,7 @@ const externalPhiloCatalog=Object.freeze([
   ["tlg031","Legatio Ad Gaium"]
 ]);
 const externalPhiloLinks=Object.freeze(Object.fromEntries(
-  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020"&&urn!=="tlg029").map(([urn])=>[
+  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009").map(([urn])=>[
     "filon-"+urn,
     "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
   ])
@@ -226,7 +227,8 @@ const publishedOpeners=Object.freeze({
   "clemente-stromata":()=>window.ScripturaPatristics?.show(1,1,1,1,true),
   "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true),
   "filon-tlg020":()=>window.ScripturaPhilo?.show(1,true),
-  "filon-tlg029":()=>window.ScripturaPhiloAeternitate?.show(1,true)
+  "filon-tlg029":()=>window.ScripturaPhiloAeternitate?.show(1,true),
+  "filon-tlg009":()=>window.ScripturaPhiloAgricultura?.show(1,true)
 });
 function openWork(id){
   const chosen=works.get(id);
@@ -247,7 +249,8 @@ function openWork(id){
     "clemente-stromata":window.ScripturaPatristics?.show,
     "clemente-paedagogus":window.ScripturaPaedagogus?.show,
     "filon-tlg020":window.ScripturaPhilo?.show,
-    "filon-tlg029":window.ScripturaPhiloAeternitate?.show
+    "filon-tlg029":window.ScripturaPhiloAeternitate?.show,
+    "filon-tlg009":window.ScripturaPhiloAgricultura?.show
   };
   if(typeof ready[id]!=="function")return false;
   publishedOpeners[id]();return true;
@@ -260,7 +263,7 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
-// Duas obras gregas possuem leitores internos e XMLs próprios; outras 29 permanecem externas.
+// Três obras gregas possuem leitores internos e XMLs próprios; outras 28 permanecem externas.
 publishedWorks.forEach(registerWork);
 externalPhiloCatalog.forEach(([urn,title])=>registerWork({
   id:"filon-"+urn,authorId:"filon",title,levels:[]
@@ -279,10 +282,12 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
       "De Abrahamo: texto grego integral com notas da edição Cohn (1902).":
       selected.id==="filon-tlg029"?
       "De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).":
+      selected.id==="filon-tlg009"?
+      "De Agricultura: texto grego integral com notas da edição Wendland (1897).":
       externalPhiloLinks[selected.id]?
       "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
       "Preencha a referência desejada ou pesquise todos os trechos publicados.");
-    if((selected?.id==="filon-tlg020"||selected?.id==="filon-tlg029") && !openWork(selected.id)){
+    if((selected?.id==="filon-tlg020"||selected?.id==="filon-tlg029"||selected?.id==="filon-tlg009") && !openWork(selected.id)){
       setStatus("Não foi possível abrir o leitor de "+selected.title+".");
     }
   });

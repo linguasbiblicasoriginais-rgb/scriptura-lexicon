@@ -46,4 +46,22 @@ O arquivo `filon/data/tlg0018.tlg029.1st1K-grc1.xml` foi incorporado **sem ediç
 - **Rota interna:** `#filon/de-aeternitate-mundi/1` a `#filon/de-aeternitate-mundi/150`, com navegação por seção e referência bibliográfica.
 - **Teste:** `tests/filon-de-aeternitate-browser.mjs`, incluindo integridade do Git blob, §§ 1 e 150, notas, temas, carregamento direto e dispositivo móvel.
 
-A apresentação não adiciona conjecturas, variantes, emendas ou tradução portuguesa. Os textos das **outras 29 obras de Fílon** continuam externos.
+A apresentação não adiciona conjecturas, variantes, emendas ou tradução portuguesa. As demais obras devem receber incorporação individual com edição e proveniência verificadas.
+
+## De Agricultura — texto grego integral
+
+- **Obra:** *De Agricultura*, de Fílon de Alexandria; texto original em grego antigo (`grc`).
+- **Edição:** Paul Wendland (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. II** (Berlim: Reimer, **1897**), conforme o `teiHeader`.
+- **Transcrição TEI:** First1KGreek / Perseus Digital Library, Universidade de Leipzig, 2014.
+- **Identificador:** `urn:cts:greekLit:tlg0018.tlg009.1st1K-grc1`.
+- **Fonte integral:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg009/tlg0018.tlg009.1st1K-grc1.xml
+- **Consulta na biblioteca de origem:** https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0018.tlg009.1st1K-grc1%3A1/
+- **Licença da transcrição:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **SHA Git blob da fonte e da cópia local (idênticos):** `c31f276f31879e0e2e760d9e3315540815d06578`.
+
+O arquivo `filon/data/tlg0018.tlg009.1st1K-grc1.xml` foi incorporado **sem alterações**. A divisão original contém **181 seções consecutivas (§§ 1–181)**, sem lacunas. O leitor `filon/agricultura-reader.js` exibe doze seções por lote, permite selecionar uma seção específica e separa as notas da edição do corpo do texto. Notas marginais, variantes, marcas de linha, página e demais intervenções editoriais permanecem integralmente disponíveis no XML de origem.
+
+- **Rota interna:** `#filon/de-agricultura/1` a `#filon/de-agricultura/181`.
+- **Testes:** `tests/filon-de-agricultura-browser.mjs`, para identidade do corpus, divisão, notas, leitor, links, temas e apresentação móvel.
+
+Esta incorporação não adiciona emendas, conjecturas, interpretações nem tradução portuguesa. A leitura HTML é uma apresentação interpretativa da estrutura TEI, não uma edição diplomática da obra impressa. O catálogo de Fílon passa a conter **três obras incorporadas** e **28 obras com acesso externo**.
