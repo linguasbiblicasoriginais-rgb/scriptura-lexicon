@@ -83,4 +83,23 @@ O arquivo `filon/data/tlg0018.tlg003.1st1K-grc1.xml` foi incorporado **sem ediç
 - **Rota:** `#filon/de-cherubim/1` a `#filon/de-cherubim/130`.
 - **Validação:** `tests/filon-de-cherubim-browser.mjs`, incluindo SHA da fonte, título, edição, sequência das 130 seções, notas, navegação por endereço, aparência dos dois temas e dispositivo móvel.
 
-Não se incorporaram tradução portuguesa, conjecturas, normalizações ou correções editoriais à fonte. O leitor HTML oferece representação estruturada do TEI, não uma reprodução diplomática do volume impresso. O catálogo de Fílon contém, após esta incorporação, **quatro obras internas** e **27 obras externas**.
+Não se incorporaram tradução portuguesa, conjecturas, normalizações ou correções editoriais à fonte. O leitor HTML oferece representação estruturada do TEI, não uma reprodução diplomática do volume impresso. O catálogo de Fílon agora contém **cinco obras internas** e **26 obras externas**.
+
+
+## De Confusione Linguarum — texto grego integral
+
+- **Obra:** *De Confusione Linguarum*, de Fílon de Alexandria, original grego antigo (`grc`).
+- **Edição de base:** Paul Wendland (ed.), *Philonis Alexandrini Opera quae supersunt*, **volume II** (Berlim: Reimer, **1897**), identificada no cabeçalho TEI.
+- **Transcrição:** First1KGreek / Perseus Digital Library, Universidade de Leipzig (2014).
+- **CTS:** `urn:cts:greekLit:tlg0018.tlg013.1st1K-grc1`.
+- **Fonte integral:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg013/tlg0018.tlg013.1st1K-grc1.xml
+- **Consulta na biblioteca de origem:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg013/
+- **Licença da transcrição:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **SHA Git blob da fonte e da cópia local (idênticos):** `50902ce04b6eb592eb321da05cf8f4cf4a9a5706`.
+
+O arquivo `filon/data/tlg0018.tlg013.1st1K-grc1.xml` foi incorporado **sem alterações**. Contém **198 seções consecutivas (§§ 1–198)**, **52 notas** (50 de rodapé e duas marginais), além das marcações editoriais e de paginação do TEI. O leitor `filon/confusione-reader.js` apresenta o texto por grupos de doze seções, com seleção de seção individual, notas em painéis próprios e navegação pelo identificador CTS. Todo o aparato original continua disponível no XML-fonte; a apresentação HTML não é uma reprodução diplomática da edição impressa.
+
+- **Rotas:** `#filon/de-confusione-linguarum/1` a `#filon/de-confusione-linguarum/198`.
+- **Testes:** `tests/filon-de-confusione-browser.mjs`, para identidade da fonte, §1–§198, notas, edição, rotas, temas e mobile.
+
+Não foi criada tradução, nem se acrescentaram conjecturas ou emendas. O catálogo passa a compreender **cinco tratados gregos integrais de Fílon** e **26 obras com links externos**.

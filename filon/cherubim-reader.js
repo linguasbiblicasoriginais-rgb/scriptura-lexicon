@@ -202,6 +202,7 @@
     window.ScripturaPhilo?.hide();
     window.ScripturaPhiloAeternitate?.hide();
     window.ScripturaPhiloAgricultura?.hide();
+    window.ScripturaPhiloConfusione?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();
