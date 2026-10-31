@@ -47,7 +47,7 @@ try {
     assert.match(last.features,/noopener/);
     assert.match(last.features,/noreferrer/);
   }
-  // Quatro obras gregas de Fílon são locais; as outras 27 permanecem externas.
+  // Cinco obras gregas de Fílon são locais; as outras 26 permanecem externas.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
   await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
@@ -100,6 +100,19 @@ try {
   assert.match(page.url(),/#filon\/de-cherubim\/1$/);
   assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
     "De Cherubim não deve abrir consulta externa");
+  // De Confusione Linguarum abre no leitor local imediatamente.
+  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
+  await page.locator("#lx-global-options").getByRole("option",{name:"De Confusione Linguarum",exact:true}).click();
+  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg013");
+  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
+  assert.equal(await page.locator("#greek-authors-status").textContent(),
+    "De Confusione Linguarum: texto grego integral com notas da edição Wendland (1897).");
+  await page.locator('#philo-conf-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+  assert.match(page.url(),/#filon\/de-confusione-linguarum\/1$/);
+  assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
+    "De Confusione Linguarum deve ser obra local, sem consulta externa");
   await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
   assert.equal(await page.locator("#greek-author").inputValue(),"filon");
@@ -113,7 +126,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
   assert.deepEqual(errors,[]);
-  console.log("FILON_CATALOG_PASS: 31 obras, 4 internas, 27 externas, rotas, isolamento e proveniência");
+  console.log("FILON_CATALOG_PASS: 31 obras, 5 internas, 26 externas, rotas, isolamento e proveniência");
 } finally {
   await browser.close();
 }
