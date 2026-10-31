@@ -77,7 +77,7 @@ try {
  assert.match(await page.locator("#philo-aet-heading").textContent(),/145–150/);
  assert.equal(await page.locator("#philo-aet-next").isDisabled(),true);
  assert.match(await page.locator('#philo-aet-text [data-philo-section="150"]').textContent(),/Ἃ μὲν οὖν/);
- assert.match(await page.locator(".philo-credit").last().textContent(),/Cohn/);
+ assert.match(await page.locator("#filon-aeternitate-reader .philo-credit").textContent(),/Cohn/);
  assert.match(await page.locator("#filon-aeternitate-reader .philo-credit").textContent(),/1915/);
  assert.match(await page.locator("#filon-aeternitate-reader .philo-credit").textContent(),/CC BY-SA 4.0/);
  await page.reload({waitUntil:"domcontentloaded"});
