@@ -75,9 +75,10 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
-  if(work && publishedOpeners[work.id]){
+  if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
     ui.fields.replaceChildren();
-    if(ui.submit)ui.submit.textContent="Abrir texto integral";
+    if(ui.submit)ui.submit.textContent=externalPhiloLinks[work.id]
+      ?"Consultar no Perseus ↗":"Abrir texto integral";
     return;
   }
   if(ui.submit)ui.submit.textContent="Pesquisar trechos";
@@ -103,6 +104,7 @@ function refreshWorks(){
   if(!author)setStatus("Selecione um autor para consultar as obras disponíveis.");
   else if(!available.length)setStatus("Nenhuma obra cadastrada para este autor. O catálogo será preenchido somente com textos e referências documentados.");
   else if(!ui.work.value)setStatus("Selecione uma obra; os níveis de referência serão adaptados à sua estrutura.");
+  else if(externalPhiloLinks[ui.work.value])setStatus("Consulta externa ao Perseus/Scaife: edições gregas disponíveis na biblioteca de origem; o texto ainda não foi incorporado ao acervo local.");
   else setStatus("Preencha os níveis desejados ou pesquise todos os trechos cadastrados desta obra.");
 }
 function registerAuthor(value){
@@ -135,8 +137,8 @@ function search(event){
   event.preventDefault();
   const work=currentWork();
   if(!work||!scopeAllowsAuthor(work.authorId)){setStatus("Selecione uma obra cadastrada nesta área.");return;}
-  if(publishedOpeners[work.id]){
-    if(!openWork(work.id))setStatus("Não foi possível abrir o leitor desta obra.");
+  if(publishedOpeners[work.id] || externalPhiloLinks[work.id]){
+    if(!openWork(work.id))setStatus("Não foi possível abrir a consulta desta obra.");
     return;
   }
   if(ui.results)ui.results.replaceChildren();
@@ -166,6 +168,50 @@ function search(event){
   });
   if(matches.length>100)setStatus(matches.length+" trechos encontrados; mostrando os primeiros 100. Refine a referência.");
 }
+/* Índice bibliográfico documentado no Perseus/Scaife (TLG 0018).
+ * Não confundir links externos de leitura com corpora já publicados no site.
+ * Fonte: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018/
+ * O portal de origem oferece as edições gregas e respectivas traduções. */
+const externalPhiloCatalog=Object.freeze([
+  ["tlg001","De Opificio Mundi"],
+  ["tlg002","Legum Allegoriarum Libri I-III"],
+  ["tlg003","De Cherubim"],
+  ["tlg004","De Sacrificiis Abelis Et Caini"],
+  ["tlg005","Quod Deterius Potiori Insidiari Soleat"],
+  ["tlg006","De Posteritate Caini"],
+  ["tlg007","De Gigantibus"],
+  ["tlg008","Quod Deus Sit Immutabilis"],
+  ["tlg009","De Agricultura"],
+  ["tlg010","De Plantatione"],
+  ["tlg011","De Ebrietate"],
+  ["tlg012","De Sobrietate"],
+  ["tlg013","De Confusione Linguarum"],
+  ["tlg014","De Migratione Abrahami"],
+  ["tlg015","Quis Rerum Divinarum Heres Sit"],
+  ["tlg016","De Congressu Eruditionis Gratia"],
+  ["tlg017","De Fuga Et Inventione"],
+  ["tlg018","De Mutatione Nominum"],
+  ["tlg019","De Somniis (lib. i-ii)"],
+  ["tlg020","De Abrahamo"],
+  ["tlg021","De Josepho"],
+  ["tlg022","De Vita Mosis (Lib. I-II)"],
+  ["tlg023","De Decalogo"],
+  ["tlg024","De Specialibus Legibus (lib. i-iv)"],
+  ["tlg025","De Virtutibus"],
+  ["tlg026","De Praemiis Et Poenis Et De Exsecrationibus"],
+  ["tlg027","Quod Omnis Probus Liber Sit"],
+  ["tlg028","De Vita Contemplativa"],
+  ["tlg029","De Aeternitate Mundi"],
+  ["tlg030","In Flaccum"],
+  ["tlg031","Legatio Ad Gaium"]
+]);
+const externalPhiloLinks=Object.freeze(Object.fromEntries(
+  externalPhiloCatalog.map(([urn])=>[
+    "filon-"+urn,
+    "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
+  ])
+));
+
 // Catálogo relacional: a obra aponta ao leitor original; corpora e IDs não são copiados.
 const publishedOpeners=Object.freeze({
   "josefo-antiguidades":()=>window.ScripturaJosephus?.show(1,1,27,true),
@@ -176,9 +222,16 @@ const publishedOpeners=Object.freeze({
   "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true)
 });
 function openWork(id){
-  if(!Object.prototype.hasOwnProperty.call(publishedOpeners,id))return false;
   const chosen=works.get(id);
   if(!chosen||!scopeAllowsAuthor(chosen.authorId))return false;
+  if(Object.prototype.hasOwnProperty.call(externalPhiloLinks,id)){
+    // Apenas URNs verificadas do autor no catálogo Perseus; sem conteúdo simulado.
+    const url=externalPhiloLinks[id];
+    window.open(url,"_blank","noopener,noreferrer");
+    setStatus("Obra aberta em nova aba no Perseus/Scaife. Se o navegador bloquear a aba, permita pop-ups para este site.");
+    return true;
+  }
+  if(!Object.prototype.hasOwnProperty.call(publishedOpeners,id))return false;
   const ready={
     "josefo-antiguidades":window.ScripturaJosephus?.show,
     "josefo-guerra":window.ScripturaJosephusHistory?.show,
@@ -198,12 +251,25 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
+// O catálogo externo de Fílon não é tratado como corpus incorporado.
 publishedWorks.forEach(registerWork);
+externalPhiloCatalog.forEach(([urn,title])=>registerWork({
+  id:"filon-"+urn,authorId:"filon",title,levels:[]
+}));
 if(ui.form&&ui.author&&ui.work&&ui.fields){
   refreshAuthors();
   refreshWorks();
   ui.author.addEventListener("change",refreshWorks);
-  ui.work.addEventListener("change",()=>{renderFields();if(ui.submit)ui.submit.disabled=!currentWork();ui.results?.replaceChildren();setStatus(currentWork()?"Preencha a referência desejada ou pesquise todos os trechos publicados.":"Selecione uma obra.");});
+  ui.work.addEventListener("change",()=>{
+    renderFields();
+    const selected=currentWork();
+    if(ui.submit)ui.submit.disabled=!selected;
+    ui.results?.replaceChildren();
+    setStatus(!selected?"Selecione uma obra.":
+      externalPhiloLinks[selected.id]?
+      "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
+      "Preencha a referência desejada ou pesquise todos os trechos publicados.");
+  });
   ui.form.addEventListener("submit",search);
 }
 window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,setScope,openWork,
