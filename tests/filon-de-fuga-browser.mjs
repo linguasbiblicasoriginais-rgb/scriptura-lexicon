@@ -47,7 +47,7 @@ try {
    notesFootnote:notes.filter(n=>n.getAttribute("type")==="footnote").length
   };
  });
- assert.deepEqual(metadata,{error:false,count:213,sequential:true,title:"De fuga",
+ assert.deepEqual(metadata,{error:false,count:213,sequential:true,title:"De fuga et inventione",
   year:"1898",volume:"3",notes:77,notesMarginal:2,notesFootnote:75});
  assert.ok(await page.locator("#philo-fuga-text .philo-notes").count()>0);
  await page.locator("#philo-fuga-text .philo-notes summary").first().click();
