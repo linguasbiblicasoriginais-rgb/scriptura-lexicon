@@ -103,7 +103,13 @@
             row.classList.toggle("is-active", i === n);
             if (i === n) {
                 active.button.setAttribute("aria-activedescendant", row.id);
-                row.scrollIntoView({block: "nearest"});
+                // Rolagem restrita à lista: scrollIntoView pode rolar a página
+                // e disparar o listener global de fechamento do próprio menu.
+                const item=row.getBoundingClientRect();
+                const viewport=dropdown.getBoundingClientRect();
+                if(item.top<viewport.top)dropdown.scrollTop-=viewport.top-item.top;
+                else if(item.bottom>viewport.bottom)
+                    dropdown.scrollTop+=item.bottom-viewport.bottom;
             }
         }
     }
