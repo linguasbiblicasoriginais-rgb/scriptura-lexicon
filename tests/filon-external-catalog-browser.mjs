@@ -185,6 +185,8 @@ try {
   assert.equal(await page.locator("#greek-authors-status").textContent(),
     "De Gigantibus: texto grego integral com notas da edição Wendland (1897).");
   await page.locator('#philo-gig-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+  assert.equal(await page.locator("#filon-gigantibus-reader").isVisible(),true);
+  assert.match(await page.locator('#philo-gig-text [data-philo-section="1"]').innerText(),/Καὶ δὴ ἐγένετο/);
   assert.match(page.url(),/#filon\/de-gigantibus\/1$/);
   assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount);
   await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
