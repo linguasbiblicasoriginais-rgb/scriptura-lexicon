@@ -6,6 +6,7 @@ const main=document.querySelector("main.container");
 if(!hub||!main)return;
 const title=document.getElementById("site-section-title");
 const description=document.getElementById("site-section-description");
+const philoProfile=document.getElementById("site-philo-profile");
 const cards=document.getElementById("site-section-cards");
 const dictionaryOptions=document.getElementById("site-dictionary-options");
 const settings=document.getElementById("site-settings-content");
@@ -18,7 +19,7 @@ const pages={
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
- filon:["Obras de Fílon de Alexandria","De Abrahamo (276 seções), De Aeternitate Mundi (150 seções), De Agricultura (181 seções), De Cherubim (130 seções), De Confusione Linguarum (198 seções), De Congressu Eruditionis Gratia (180 seções), De Decalogo (178 seções), De Ebrietate (224 seções), De Fuga Et Inventione (213 seções) e De Gigantibus (67 seções): textos gregos integrais; demais obras no Perseus/Scaife."],
+ filon:["Fílon de Alexandria",""],
  "autores-gregos":["Escritores gregos","Selecione um escritor e abra suas obras gregas nos leitores completos, com a numeração própria de cada edição."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -28,7 +29,7 @@ const categories=[
  ["patristica","Literatura patrística","Stromata e Pedagogo, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
- ["autores-gregos","Escritores gregos","Obras de Flávio Josefo e oito tratados gregos integrais de Fílon; demais obras consultáveis no Perseus."],
+ ["autores-gregos","Escritores gregos","Obras de Flávio Josefo e Fílon de Alexandria, com acesso aos textos e às edições de origem."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -176,6 +177,8 @@ function showHub(section){
  hub.hidden=false;
  hub.dataset.activeSection=section;
  title.textContent=pages[section][0];description.textContent=pages[section][1];
+ description.hidden=false;
+ if(philoProfile)philoProfile.hidden=true;
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
  if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos"&&section!=="patristica";
@@ -212,9 +215,9 @@ function showGreekAuthor(authorId,push=true){
  if(greekAuthors)greekAuthors.hidden=false;
  window.ScripturaGreekAuthors?.selectAuthor(authorId);
  title.textContent=greekAuthorNames[authorId];
- description.textContent=authorId==="filon"
-   ?"De Abrahamo (276 seções), De Aeternitate Mundi (150 seções), De Agricultura (181 seções), De Cherubim (130 seções), De Confusione Linguarum (198 seções), De Congressu Eruditionis Gratia (180 seções), De Decalogo (178 seções), De Ebrietate (224 seções), De Fuga Et Inventione (213 seções) e De Gigantibus (67 seções) possuem leitores internos em grego; as demais obras permanecem acessíveis no Perseus/Scaife."
-   :"Selecione a obra no formulário para abrir o leitor integral.";
+ if(philoProfile)philoProfile.hidden=authorId!=="filon";
+ description.hidden=authorId==="filon";
+ description.textContent=authorId==="filon"?"":"Selecione a obra no formulário para abrir o leitor integral.";
  cards.replaceChildren();
  if(push&&location.hash!=="#autores-gregos/"+authorId)history.pushState(null,"","#autores-gregos/"+authorId);
  return true;

@@ -17,7 +17,17 @@ try {
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
   assert.equal((await page.locator("#site-section-title").textContent()).trim(),"Fílon de Alexandria");
-  assert.match(await page.locator("#site-section-description").textContent(),/Perseus\/Scaife/);
+  assert.equal(await page.locator("#site-section-description").isVisible(),false);
+  assert.equal(await page.locator("#site-philo-profile").isVisible(),true);
+  assert.match(await page.locator(".site-philo-profile__bio").textContent(),/filósofo e exegeta judeu/);
+  assert.match(await page.locator(".site-philo-profile__bio").textContent(),/Calígula/);
+  assert.doesNotMatch(await page.locator(".site-philo-profile__bio").textContent(),/\d+ seções/);
+  const portrait=page.locator(".site-philo-profile__portrait img");
+  assert.match(await portrait.getAttribute("src"),/PhiloThevet\.jpg$/);
+  assert.match(await portrait.getAttribute("alt"),/Representação artística/);
+  assert.match(await page.locator(".site-philo-profile__portrait figcaption").textContent(),/1584/);
+  assert.equal(await page.locator(".site-philo-profile__portrait a").getAttribute("href"),
+    "https://commons.wikimedia.org/wiki/File:PhiloThevet.jpg");
   assert.equal(await page.locator("#greek-author").inputValue(),"filon");
   assert.equal(await page.locator("#greek-work").isDisabled(),false);
   assert.match(await page.locator("#greek-authors-status").textContent(),/Selecione uma obra/);
@@ -185,6 +195,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"josefo");
   assert.equal(await page.locator("#greek-work option").count(),5);
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
+  assert.equal(await page.locator("#site-philo-profile").isVisible(),false);
   await page.goto(base+"/#patristica",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===3);
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");

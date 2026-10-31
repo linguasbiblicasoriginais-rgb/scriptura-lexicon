@@ -43,3 +43,9 @@ As rotas `#josefo` e `#filon` seguem direcionando à seleção dos escritores. O
 Os botões de retorno de *Stromata* e *Pedagogo* levam a **Literatura patrística**. A documentação e os testes distinguem os dois catálogos e certificam os fluxos de navegação.
 
 Nenhum arquivo de corpus em `josefo/texts/` ou `patristics/data/` é alterado por esta separação de interface.
+
+## Apresentação biográfica de Fílon no site
+
+As rotas `#filon` e `#autores-gregos/filon` exibem uma minibiografia no lugar da antiga enumeração de seções e uma gravura de **André Thevet (1584)**. É uma **representação artística posterior**, não um retrato contemporâneo. A imagem está em domínio público: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PhiloThevet.jpg); endereço incorporado ao HTML: https://upload.wikimedia.org/wikipedia/commons/6/6c/PhiloThevet.jpg.
+
+Dados biográficos de referência: [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/philo/) e [Jewish Encyclopedia](https://www.jewishencyclopedia.com/articles/12116-philo-judaeus). O seletor de obras e os textos gregos permanecem independentes e inalterados.

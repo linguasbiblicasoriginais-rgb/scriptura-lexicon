@@ -103,7 +103,13 @@
             row.classList.toggle("is-active", i === n);
             if (i === n) {
                 active.button.setAttribute("aria-activedescendant", row.id);
-                row.scrollIntoView({block: "nearest"});
+                // Rolagem restrita à lista: scrollIntoView pode rolar a página
+                // e disparar o listener global de fechamento do próprio menu.
+                const item=row.getBoundingClientRect();
+                const viewport=dropdown.getBoundingClientRect();
+                if(item.top<viewport.top)dropdown.scrollTop-=viewport.top-item.top;
+                else if(item.bottom>viewport.bottom)
+                    dropdown.scrollTop+=item.bottom-viewport.bottom;
             }
         }
     }
@@ -338,7 +344,11 @@
         window.addEventListener("resize", positionDropdown);
         window.addEventListener("scroll", event => {
             if (!active || event.target === dropdown || dropdown.contains(event.target)) return;
-            close(false);
+            // Manter o menu junto ao controle quando a página rolar; um
+            // fechamento por rolagem automática invalidava o menu recém-aberto.
+            const rect = active.button.getBoundingClientRect();
+            if (rect.bottom < 0 || rect.top > window.innerHeight) close(false);
+            else positionDropdown();
         }, {passive: true, capture: true});
         document.addEventListener("change", event => {
             if (event.target.matches?.('input[type="number"]')) {
