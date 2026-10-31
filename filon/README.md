@@ -102,4 +102,23 @@ O arquivo `filon/data/tlg0018.tlg013.1st1K-grc1.xml` foi incorporado **sem alter
 - **Rotas:** `#filon/de-confusione-linguarum/1` a `#filon/de-confusione-linguarum/198`.
 - **Testes:** `tests/filon-de-confusione-browser.mjs`, para identidade da fonte, §1–§198, notas, edição, rotas, temas e mobile.
 
-Não foi criada tradução, nem se acrescentaram conjecturas ou emendas. O catálogo passa a compreender **cinco tratados gregos integrais de Fílon** e **26 obras com links externos**.
+Não foi criada tradução, nem se acrescentaram conjecturas ou emendas. O catálogo passa a compreender **seis tratados gregos integrais de Fílon** e **25 obras com links externos**.
+
+
+## De Congressu Eruditionis Gratia — texto grego integral
+
+- **Obra:** *De Congressu Eruditionis Gratia*, de Fílon de Alexandria, em grego antigo (`grc`).
+- **Edição impressa de base:** Paul Wendland (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. III** (Berlim: Reimer, **1898**), conforme `teiHeader`.
+- **Transcrição digital:** First1KGreek / Perseus Digital Library, Universidade de Leipzig (2014).
+- **URN CTS:** `urn:cts:greekLit:tlg0018.tlg016.1st1K-grc1`.
+- **Fonte TEI:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg016/tlg0018.tlg016.1st1K-grc1.xml
+- **Biblioteca da fonte:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg016/
+- **Licença declarada no XML:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **SHA Git blob da fonte e da cópia local (idênticos):** `bf81414cf6c8e94b0a9cda058d6000791633ac9c`.
+
+A transcrição `filon/data/tlg0018.tlg016.1st1K-grc1.xml` foi incorporada **sem alterações**. Ela contém **180 seções consecutivas (§§ 1–180)**, **60 notas editoriais** (59 de rodapé, uma marginal) e as demais marcas estruturais e editoriais do TEI. O leitor `filon/congressu-reader.js` apresenta doze seções por lote, conserva o aparato em painéis expansíveis e permite citar as seções sem fabricar divisões não existentes na edição.
+
+- **Rota local:** `#filon/de-congressu-eruditionis-gratia/1` a `#filon/de-congressu-eruditionis-gratia/180`.
+- **Teste:** `tests/filon-de-congressu-browser.mjs`, com integridade, edição, §§ 1 e 180, notas, URLs, temas e mobile.
+
+Não foram produzidas tradução portuguesa nem emendas ao texto-fonte. O leitor HTML é uma apresentação editorial estruturada, não uma reprodução diplomática do livro impresso. O catálogo passa a conter **seis obras gregas integrais** e **25 obras com acesso externo**.

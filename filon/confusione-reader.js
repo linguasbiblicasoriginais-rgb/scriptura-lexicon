@@ -203,6 +203,7 @@
     window.ScripturaPhiloAeternitate?.hide();
     window.ScripturaPhiloAgricultura?.hide();
     window.ScripturaPhiloCherubim?.hide();
+    window.ScripturaPhiloCongressu?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();

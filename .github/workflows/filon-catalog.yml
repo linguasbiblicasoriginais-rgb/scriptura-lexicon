@@ -12,6 +12,7 @@ on:
       - 'tests/filon-de-agricultura-browser.mjs'
       - 'tests/filon-de-cherubim-browser.mjs'
       - 'tests/filon-de-confusione-browser.mjs'
+      - 'tests/filon-de-congressu-browser.mjs'
       - 'index.html'
       - '.github/workflows/filon-catalog.yml'
   workflow_dispatch:
@@ -33,6 +34,7 @@ jobs:
           node --check filon/agricultura-reader.js
           node --check filon/cherubim-reader.js
           node --check filon/confusione-reader.js
+          node --check filon/congressu-reader.js
           node --check scriptures/greek-authors.js
           node --check scriptures/sections.js
           node --check tests/filon-external-catalog-browser.mjs
@@ -41,6 +43,7 @@ jobs:
           node --check tests/filon-de-agricultura-browser.mjs
           node --check tests/filon-de-cherubim-browser.mjs
           node --check tests/filon-de-confusione-browser.mjs
+          node --check tests/filon-de-congressu-browser.mjs
       - name: Instalar Chromium
         run: |
           npm install --no-save --package-lock=false playwright@1.56.1
@@ -49,7 +52,7 @@ jobs:
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/filon-http.log 2>&1 &
           sleep 2
-      - name: Validar cinco obras integrais e demais obras externas
+      - name: Validar seis obras integrais e demais obras externas
         run: |
           node tests/filon-external-catalog-browser.mjs
           node tests/filon-de-abrahamo-browser.mjs
@@ -57,6 +60,7 @@ jobs:
           node tests/filon-de-agricultura-browser.mjs
           node tests/filon-de-cherubim-browser.mjs
           node tests/filon-de-confusione-browser.mjs
+          node tests/filon-de-congressu-browser.mjs
       - name: Logs da aplicação
         if: failure()
         run: cat /tmp/filon-http.log || true
