@@ -200,6 +200,7 @@
     selected=Number.isInteger(n)&&n>=1&&n<=150?n:1;
     const token=++generation;
     window.ScripturaPhilo?.hide();
+    window.ScripturaPhiloAgricultura?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();
