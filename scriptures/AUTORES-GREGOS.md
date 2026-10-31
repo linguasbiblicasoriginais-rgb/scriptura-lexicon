@@ -4,7 +4,7 @@ A biblioteca disponibiliza **duas categorias independentes** que reutilizam o me
 
 ## Escritores gregos — `#autores-gregos`
 
-O combobox de autores apresenta **Flávio Josefo** e **Fílon de Alexandria** (este ainda sem obras publicadas). Josefo possui as seguintes obras no catálogo:
+O combobox de autores apresenta **Flávio Josefo** e **Fílon de Alexandria**. Josefo possui leitores internos; Fílon possui **31 obras indexadas com acesso externo à biblioteca Perseus/Scaife**, sem texto integral incorporado ao repositório. Os registros externos são identificados pelo URN `tlg0018.tlg001`–`tlg0018.tlg031` e pela edição digital de origem. A transcrição grega utilizada pelo Perseus decorre da tradição editorial de Cohn/Wendland, com revisão digital relatada pelo projeto Perseus (2023). Esse vínculo bibliográfico **não equivale a uma edição crítica própria** do Scriptura Lexicon. Josefo possui as seguintes obras no catálogo:
 
 - **Antiguidades Judaicas**
 - **A Guerra dos Judeus**
@@ -12,6 +12,18 @@ O combobox de autores apresenta **Flávio Josefo** e **Fílon de Alexandria** (e
 - **Contra Ápio**
 
 As obras abrem os leitores de `josefo/`, com seus pacotes derivados de Niese/Perseus e os critérios de integridade já estabelecidos. **Clemente de Alexandria não aparece nem pode ser selecionado nesta categoria.**
+
+
+
+### Obras de Fílon — acesso externo
+
+O campo **Obra** fica habilitado ao selecionar Fílon e apresenta 31 títulos atestados no catálogo digital do Perseus. O botão **Consultar no Perseus ↗** abre a página específica da obra em nova aba. O catálogo de origem disponibiliza edições gregas; a interface local **não copia, traduz, completa ou altera o texto** e não oferece, por ora, leitura interna de Fílon.
+
+- Catálogo e URNs: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018/
+- Leitor externo: https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg001/
+- Proveniência da transcrição grega revista: https://sites.tufts.edu/perseusupdates/2023/08/02/philo-of-alexandria-translations-and-perseus-the-next-thirty-years/
+
+Ao disponibilizar textos locais futuramente, cada obra deverá receber identificação de edição, licença, estrutura de referência, dados e leitor próprios. Enquanto isso, nenhum item externo pode ser contabilizado como transcrição interna publicada.
 
 ## Literatura patrística — `#patristica`
 
