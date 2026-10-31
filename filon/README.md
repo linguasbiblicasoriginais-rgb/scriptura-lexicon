@@ -121,4 +121,23 @@ A transcrição `filon/data/tlg0018.tlg016.1st1K-grc1.xml` foi incorporada **sem
 - **Rota local:** `#filon/de-congressu-eruditionis-gratia/1` a `#filon/de-congressu-eruditionis-gratia/180`.
 - **Teste:** `tests/filon-de-congressu-browser.mjs`, com integridade, edição, §§ 1 e 180, notas, URLs, temas e mobile.
 
-Não foram produzidas tradução portuguesa nem emendas ao texto-fonte. O leitor HTML é uma apresentação editorial estruturada, não uma reprodução diplomática do livro impresso. O catálogo passa a conter **seis obras gregas integrais** e **25 obras com acesso externo**.
+Não foram produzidas tradução portuguesa nem emendas ao texto-fonte. O leitor HTML é uma apresentação editorial estruturada, não uma reprodução diplomática do livro impresso. O catálogo passa a conter **sete obras gregas integrais** e **24 obras com acesso externo**.
+
+
+## De Decalogo — texto grego integral
+
+- **Obra:** *De Decalogo*, de Fílon de Alexandria, em grego antigo (`grc`).
+- **Edição impressa de base:** Leopold Cohn (ed.), *Philonis Alexandrini Opera quae supersunt*, **volume IV** (Berlim: Reimer, **1902**), de acordo com o cabeçalho TEI.
+- **Transcrição digital:** First1KGreek / Perseus Digital Library, Universidade de Leipzig (2014).
+- **URN CTS:** `urn:cts:greekLit:tlg0018.tlg023.1st1K-grc1`.
+- **Fonte TEI:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg023/tlg0018.tlg023.1st1K-grc1.xml
+- **Biblioteca externa:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg023/
+- **Licença do TEI:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **SHA Git blob da fonte e da cópia local (idênticos):** `814c59e2160f3f2e697031b5408d0f8a531f9ea3`.
+
+O arquivo `filon/data/tlg0018.tlg023.1st1K-grc1.xml` foi incorporado **sem modificações**. Contém **178 seções consecutivas (§§ 1–178)**, **57 notas editoriais** (55 de rodapé e duas marginais), além das marcações editoriais do TEI. O leitor `filon/decalogo-reader.js` apresenta doze seções por lote, seleção individual e notas expansíveis separadas do corpo principal, conservando as marcações no XML-fonte.
+
+- **Rotas:** `#filon/de-decalogo/1` a `#filon/de-decalogo/178`.
+- **Teste:** `tests/filon-de-decalogo-browser.mjs`, conferindo integridade, metadados, §§ 1 e 178, notas, navegação, temas e dispositivo móvel.
+
+A incorporação não inventa tradução, variantes, conjecturas ou emendas. A exibição é uma representação interpretativa da estrutura TEI e não uma reprodução diplomática do impresso. O catálogo possui agora **sete textos integrais** e **24 obras com consulta externa**.
