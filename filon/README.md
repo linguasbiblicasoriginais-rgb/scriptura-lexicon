@@ -1,4 +1,4 @@
-# Fílon de Alexandria — De Abrahamo
+# Fílon de Alexandria — obras gregas integrais
 
 ## Identificação filológica da fonte
 
@@ -27,4 +27,23 @@ O texto lido no navegador conserva os caracteres gregos e intervenções represe
 
 **Não há tradução portuguesa incorporada** nesta etapa. O direito de reutilização do arquivo TEI digital é exercido com indicação de autoria, origem, editores e licença CC BY-SA 4.0, sem reivindicar autoria da transcrição. A fonte permanece identificável e separada da camada de apresentação.
 
-Os textos das outras trinta obras de Fílon **não** foram incorporados nesta etapa e continuam acessíveis em consultas externas.
+As demais obras e suas fontes devem ser verificadas separadamente; esta seção documenta apenas *De Abrahamo*. A próxima seção descreve a segunda incorporação.
+
+
+## De Aeternitate Mundi — texto grego integral
+
+- **Obra:** *De Aeternitate Mundi* (Περὶ ἀφθαρσίας κόσμου), em grego antigo (`grc`).
+- **Edição de base:** Leopold Cohn e Siegfried Reiter (eds.), *Philonis Alexandrini Opera quae supersunt*, **vol. VI** (Berlim: Reimer, **1915**). Metadados transcritos do `teiHeader` da fonte.
+- **Transcrição:** First1KGreek / Perseus Digital Library, TEI-XML, Universidade de Leipzig, 2014.
+- **CTS:** `urn:cts:greekLit:tlg0018.tlg029.1st1K-grc1`.
+- **Fonte:** https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg029/tlg0018.tlg029.1st1K-grc1.xml
+- **Biblioteca externa:** https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg029/
+- **Licença:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), conforme o `publicationStmt` do TEI.
+- **Git blob SHA da transcrição original e da cópia incorporada:** `e313594c110f1b075c1b0f861144ea2fe5fdef10`.
+
+O arquivo `filon/data/tlg0018.tlg029.1st1K-grc1.xml` foi incorporado **sem edição nem normalização**. A sequência da fonte compreende **150 seções numeradas (§§ 1–150)**, sem lacunas numéricas. O leitor `filon/aeternitate-reader.js` interpreta temporariamente os dados no navegador, exibindo doze seções por lote e preservando a consulta às notas da edição. Os sinais tipográficos de divisão e o aparato continuam integralmente disponíveis no XML; o leitor não se apresenta como reprodução diplomática.
+
+- **Rota interna:** `#filon/de-aeternitate-mundi/1` a `#filon/de-aeternitate-mundi/150`, com navegação por seção e referência bibliográfica.
+- **Teste:** `tests/filon-de-aeternitate-browser.mjs`, incluindo integridade do Git blob, §§ 1 e 150, notas, temas, carregamento direto e dispositivo móvel.
+
+A apresentação não adiciona conjecturas, variantes, emendas ou tradução portuguesa. Os textos das **outras 29 obras de Fílon** continuam externos.
