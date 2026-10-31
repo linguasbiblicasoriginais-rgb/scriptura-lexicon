@@ -1,4 +1,4 @@
-name: Fílon — De Abrahamo integral e catálogo de obras
+name: Fílon — obras integrais e catálogo editorial
 on:
   pull_request:
     branches: [chat-gpt-commits]
@@ -8,6 +8,7 @@ on:
       - 'scriptures/sections.js'
       - 'tests/filon-external-catalog-browser.mjs'
       - 'tests/filon-de-abrahamo-browser.mjs'
+      - 'tests/filon-de-aeternitate-browser.mjs'
       - 'index.html'
       - '.github/workflows/filon-catalog.yml'
   workflow_dispatch:
@@ -25,10 +26,12 @@ jobs:
       - name: Verificar sintaxe dos arquivos modificados
         run: |
           node --check filon/reader.js
+          node --check filon/aeternitate-reader.js
           node --check scriptures/greek-authors.js
           node --check scriptures/sections.js
           node --check tests/filon-external-catalog-browser.mjs
           node --check tests/filon-de-abrahamo-browser.mjs
+          node --check tests/filon-de-aeternitate-browser.mjs
       - name: Instalar Chromium
         run: |
           npm install --no-save --package-lock=false playwright@1.56.1
@@ -37,10 +40,11 @@ jobs:
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/filon-http.log 2>&1 &
           sleep 2
-      - name: Validar De Abrahamo integral e obras externas
+      - name: Validar as duas obras integrais e as demais obras externas
         run: |
           node tests/filon-external-catalog-browser.mjs
           node tests/filon-de-abrahamo-browser.mjs
+          node tests/filon-de-aeternitate-browser.mjs
       - name: Logs da aplicação
         if: failure()
         run: cat /tmp/filon-http.log || true
