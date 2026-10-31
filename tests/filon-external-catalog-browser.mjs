@@ -47,7 +47,7 @@ try {
     assert.match(last.features,/noopener/);
     assert.match(last.features,/noreferrer/);
   }
-  // Oito obras gregas de Fílon são locais; as outras 23 permanecem externas.
+  // Nove obras gregas de Fílon são locais; as outras 22 permanecem externas.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
   await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
@@ -152,6 +152,19 @@ try {
   assert.match(page.url(),/#filon\/de-ebrietate\/1$/);
   assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
     "De Ebrietate abre dentro do site, sem consulta externa");
+  // De Fuga Et Inventione é a nona obra integrada, com acesso imediato.
+  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
+  await page.locator("#lx-global-options").getByRole("option",{name:"De Fuga Et Inventione",exact:true}).click();
+  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg017");
+  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
+  assert.equal(await page.locator("#greek-authors-status").textContent(),
+    "De Fuga Et Inventione: texto grego integral com notas da edição Wendland (1898).");
+  await page.locator('#philo-fuga-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+  assert.match(page.url(),/#filon\/de-fuga-et-inventione\/1$/);
+  assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
+    "De Fuga Et Inventione abre dentro do site, sem consulta externa");
   await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
   assert.equal(await page.locator("#greek-author").inputValue(),"filon");
@@ -165,7 +178,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
   assert.deepEqual(errors,[]);
-  console.log("FILON_CATALOG_PASS: 31 obras, 8 internas, 23 externas, rotas, isolamento e proveniência");
+  console.log("FILON_CATALOG_PASS: 31 obras, 9 internas, 22 externas, rotas, isolamento e proveniência");
 } finally {
   await browser.close();
 }
