@@ -19,9 +19,11 @@ try {
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
  await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
- assert.match(await page.locator("#greek-authors-submit").textContent(),/Abrir texto integral/);
- assert.match(await page.locator("#greek-authors-status").textContent(),/276 seções/);
- await page.locator("#greek-authors-submit").click();
+ assert.equal(await page.locator("#greek-authors-submit").isVisible(),false,
+  "O leitor de De Abrahamo não deve exigir botão Abrir texto integral");
+ assert.equal(await page.locator("#greek-authors-status").textContent(),
+  "De Abrahamo: texto grego integral com notas da edição Cohn (1902).");
+ // O clique na opção do menu deve ter aberto imediatamente o leitor.
  await page.locator("#filon-abrahamo-reader").waitFor({state:"visible"});
  await page.locator("#philo-text .philo-section").first().waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-abrahamo\/1$/);

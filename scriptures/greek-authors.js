@@ -75,6 +75,9 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
+  // De Abrahamo abre automaticamente ao ser escolhido; não precisa de botão.
+  // As outras obras mantêm seus controles de consulta intactos.
+  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020";
   if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
     ui.fields.replaceChildren();
     if(ui.submit)ui.submit.textContent=externalPhiloLinks[work.id]
@@ -104,7 +107,7 @@ function refreshWorks(){
   if(!author)setStatus("Selecione um autor para consultar as obras disponíveis.");
   else if(!available.length)setStatus("Nenhuma obra cadastrada para este autor. O catálogo será preenchido somente com textos e referências documentados.");
   else if(!ui.work.value)setStatus("Selecione uma obra; os níveis de referência serão adaptados à sua estrutura.");
-  else if(ui.work.value==="filon-tlg020")setStatus("De Abrahamo: texto grego integral incorporado ao leitor local, com 276 seções numeradas e notas da edição Cohn (1902).");
+  else if(ui.work.value==="filon-tlg020")setStatus("De Abrahamo: texto grego integral com notas da edição Cohn (1902).");
   else if(externalPhiloLinks[ui.work.value])setStatus("Consulta externa ao Perseus/Scaife: edições gregas disponíveis na biblioteca de origem; o texto ainda não foi incorporado ao acervo local.");
   else setStatus("Preencha os níveis desejados ou pesquise todos os trechos cadastrados desta obra.");
 }
@@ -270,10 +273,13 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
     ui.results?.replaceChildren();
     setStatus(!selected?"Selecione uma obra.":
       selected.id==="filon-tlg020"?
-      "De Abrahamo disponível no leitor local: 276 seções e notas da edição Cohn (1902).":
+      "De Abrahamo: texto grego integral com notas da edição Cohn (1902).":
       externalPhiloLinks[selected.id]?
       "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
       "Preencha a referência desejada ou pesquise todos os trechos publicados.");
+    if(selected?.id==="filon-tlg020" && !openWork(selected.id)){
+      setStatus("Não foi possível abrir o leitor de De Abrahamo.");
+    }
   });
   ui.form.addEventListener("submit",search);
 }
