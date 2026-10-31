@@ -37,7 +37,9 @@ if (-not (Test-Path -LiteralPath (Join-Path $root "index.html") -PathType Leaf) 
 }
 if (Get-Command git -ErrorAction SilentlyContinue) {
  $branch=(& git -C $root branch --show-current 2>$null)
- if ($LASTEXITCODE -eq 0 -and $branch -and $branch.Trim() -ne "chat-gpt-commits") {
+ $gitExitCode=$LASTEXITCODE
+ $global:LASTEXITCODE=0
+ if ($gitExitCode -eq 0 -and $branch -and $branch.Trim() -ne "chat-gpt-commits") {
   throw "Branch local '$branch' nao permitida. Este reparo exige chat-gpt-commits. Nenhum arquivo foi alterado."
  }
 }
