@@ -6,6 +6,7 @@ const main=document.querySelector("main.container");
 if(!hub||!main)return;
 const title=document.getElementById("site-section-title");
 const description=document.getElementById("site-section-description");
+const philoProfile=document.getElementById("site-philo-profile");
 const cards=document.getElementById("site-section-cards");
 const dictionaryOptions=document.getElementById("site-dictionary-options");
 const settings=document.getElementById("site-settings-content");
@@ -18,7 +19,7 @@ const pages={
  patristica:["Literatura patrística","Obras dos antigos autores cristãos, em suas línguas originais e com identificação das edições utilizadas."],
  pseudepigrafos:["Textos pseudepigráficos","Área destinada aos textos pseudepigráficos, com identificação futura de obras, versões e testemunhos."],
  josefo:["Obras de Flávio Josefo","Antiguidades Judaicas (20 livros) e A Guerra dos Judeus (7 livros): edições gregas de Benedikt Niese, transcritas pela Perseus Digital Library."],
- filon:["Obras de Fílon de Alexandria","Área destinada aos escritos filosóficos e exegéticos de Fílon de Alexandria. Ainda não há obras publicadas nesta seção."],
+ filon:["Fílon de Alexandria",""],
  "autores-gregos":["Escritores gregos","Selecione um escritor e abra suas obras gregas nos leitores completos, com a numeração própria de cada edição."],
  dicionarios:["Dicionários e Léxicos","Escolha uma das tradições linguísticas abaixo para consultar as fontes lexicográficas."],
  configuracoes:["Configurações","Personalize a aparência. O tema selecionado aplica-se imediatamente e, quando possível, permanece salvo neste navegador."]
@@ -28,7 +29,7 @@ const categories=[
  ["patristica","Literatura patrística","Stromata e Pedagogo, de Clemente de Alexandria, em grego."],
  ["apocrifos","Literatura apócrifa","Livros e acréscimos de Ester e Daniel em leitura própria."],
  ["pseudepigrafos","Textos pseudepigráficos","Biblioteca de escritos pseudepigráficos."],
- ["autores-gregos","Escritores gregos","Obras de Flávio Josefo; Fílon de Alexandria já catalogado."],
+ ["autores-gregos","Escritores gregos","Obras de Flávio Josefo e Fílon de Alexandria, com acesso aos textos e às edições de origem."],
  ["dicionarios","Dicionários e Léxicos","Pesquisa em hebraico, aramaico, grego e latim."],
  ["configuracoes","Configurações","Alternância de temas claro e escuro."]
 ];
@@ -156,6 +157,16 @@ function showHub(section){
  if(!pages[section])return false;
  window.ScripturaPatristics?.hide();
  window.ScripturaPaedagogus?.hide();
+ window.ScripturaPhilo?.hide();
+ window.ScripturaPhiloAeternitate?.hide();
+ window.ScripturaPhiloAgricultura?.hide();
+ window.ScripturaPhiloCherubim?.hide();
+ window.ScripturaPhiloConfusione?.hide();
+ window.ScripturaPhiloCongressu?.hide();
+ window.ScripturaPhiloDecalogo?.hide();
+ window.ScripturaPhiloEbrietate?.hide();
+ window.ScripturaPhiloFuga?.hide();
+ window.ScripturaPhiloGigantibus?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaScriptures?.hide();
@@ -166,6 +177,8 @@ function showHub(section){
  hub.hidden=false;
  hub.dataset.activeSection=section;
  title.textContent=pages[section][0];description.textContent=pages[section][1];
+ description.hidden=false;
+ if(philoProfile)philoProfile.hidden=true;
  dictionaryOptions.hidden=section!=="dicionarios";
  settings.hidden=section!=="configuracoes";
  if(greekAuthors)greekAuthors.hidden=section!=="autores-gregos"&&section!=="patristica";
@@ -202,12 +215,24 @@ function showGreekAuthor(authorId,push=true){
  if(greekAuthors)greekAuthors.hidden=false;
  window.ScripturaGreekAuthors?.selectAuthor(authorId);
  title.textContent=greekAuthorNames[authorId];
- description.textContent="Selecione a obra no formulário para abrir o leitor integral.";
+ if(philoProfile)philoProfile.hidden=authorId!=="filon";
+ description.hidden=authorId==="filon";
+ description.textContent=authorId==="filon"?"":"Selecione a obra no formulário para abrir o leitor integral.";
  cards.replaceChildren();
  if(push&&location.hash!=="#autores-gregos/"+authorId)history.pushState(null,"","#autores-gregos/"+authorId);
  return true;
 }
 function showDictionary(){
+ window.ScripturaPhilo?.hide();
+ window.ScripturaPhiloAeternitate?.hide();
+ window.ScripturaPhiloAgricultura?.hide();
+ window.ScripturaPhiloCherubim?.hide();
+ window.ScripturaPhiloConfusione?.hide();
+ window.ScripturaPhiloCongressu?.hide();
+ window.ScripturaPhiloDecalogo?.hide();
+ window.ScripturaPhiloEbrietate?.hide();
+ window.ScripturaPhiloFuga?.hide();
+ window.ScripturaPhiloGigantibus?.hide();
  window.ScripturaJosephusHistory?.hide();
  window.ScripturaJosephus?.hide();
  window.ScripturaScriptures?.hide();
@@ -224,6 +249,16 @@ function openSection(section){
  return true;
 }
 function handleHash(){
+ if(window.ScripturaPhilo?.isPhiloHash())return window.ScripturaPhilo.showFromHash();
+ if(window.ScripturaPhiloAeternitate?.isPhiloHash())return window.ScripturaPhiloAeternitate.showFromHash();
+ if(window.ScripturaPhiloAgricultura?.isPhiloHash())return window.ScripturaPhiloAgricultura.showFromHash();
+ if(window.ScripturaPhiloCherubim?.isPhiloHash())return window.ScripturaPhiloCherubim.showFromHash();
+ if(window.ScripturaPhiloConfusione?.isPhiloHash())return window.ScripturaPhiloConfusione.showFromHash();
+ if(window.ScripturaPhiloCongressu?.isPhiloHash())return window.ScripturaPhiloCongressu.showFromHash();
+ if(window.ScripturaPhiloDecalogo?.isPhiloHash())return window.ScripturaPhiloDecalogo.showFromHash();
+ if(window.ScripturaPhiloEbrietate?.isPhiloHash())return window.ScripturaPhiloEbrietate.showFromHash();
+ if(window.ScripturaPhiloFuga?.isPhiloHash())return window.ScripturaPhiloFuga.showFromHash();
+ if(window.ScripturaPhiloGigantibus?.isPhiloHash())return window.ScripturaPhiloGigantibus.showFromHash();
  if(window.ScripturaJosephusHistory?.isHistoryHash())return window.ScripturaJosephusHistory.showFromHash();
  window.ScripturaJosephusHistory?.hide();
  if(window.ScripturaJosephus?.isJosephusHash())return window.ScripturaJosephus.showFromHash();

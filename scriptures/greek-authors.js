@@ -75,9 +75,13 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
-  if(work && publishedOpeners[work.id]){
+  // As dez obras locais de Fílon abrem automaticamente, sem botão intermediário.
+  // As outras obras mantêm seus controles de consulta intactos.
+  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020"||work?.id==="filon-tlg029"||work?.id==="filon-tlg009"||work?.id==="filon-tlg003"||work?.id==="filon-tlg013"||work?.id==="filon-tlg016"||work?.id==="filon-tlg023"||work?.id==="filon-tlg011"||work?.id==="filon-tlg017"||work?.id==="filon-tlg007";
+  if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
     ui.fields.replaceChildren();
-    if(ui.submit)ui.submit.textContent="Abrir texto integral";
+    if(ui.submit)ui.submit.textContent=externalPhiloLinks[work.id]
+      ?"Consultar no Perseus ↗":"Abrir texto integral";
     return;
   }
   if(ui.submit)ui.submit.textContent="Pesquisar trechos";
@@ -103,6 +107,17 @@ function refreshWorks(){
   if(!author)setStatus("Selecione um autor para consultar as obras disponíveis.");
   else if(!available.length)setStatus("Nenhuma obra cadastrada para este autor. O catálogo será preenchido somente com textos e referências documentados.");
   else if(!ui.work.value)setStatus("Selecione uma obra; os níveis de referência serão adaptados à sua estrutura.");
+  else if(ui.work.value==="filon-tlg020")setStatus("De Abrahamo: texto grego integral com notas da edição Cohn (1902).");
+  else if(ui.work.value==="filon-tlg029")setStatus("De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).");
+  else if(ui.work.value==="filon-tlg009")setStatus("De Agricultura: texto grego integral com notas da edição Wendland (1897).");
+  else if(ui.work.value==="filon-tlg003")setStatus("De Cherubim: texto grego integral com notas da edição Cohn (1896).");
+  else if(ui.work.value==="filon-tlg013")setStatus("De Confusione Linguarum: texto grego integral com notas da edição Wendland (1897).");
+  else if(ui.work.value==="filon-tlg016")setStatus("De Congressu Eruditionis Gratia: texto grego integral com notas da edição Wendland (1898).");
+  else if(ui.work.value==="filon-tlg023")setStatus("De Decalogo: texto grego integral com notas da edição Cohn (1902).");
+  else if(ui.work.value==="filon-tlg011")setStatus("De Ebrietate: texto grego integral com notas da edição Wendland (1897).");
+  else if(ui.work.value==="filon-tlg017")setStatus("De Fuga Et Inventione: texto grego integral com notas da edição Wendland (1898).");
+  else if(ui.work.value==="filon-tlg007")setStatus("De Gigantibus: texto grego integral com notas da edição Wendland (1897).");
+  else if(externalPhiloLinks[ui.work.value])setStatus("Consulta externa ao Perseus/Scaife: edições gregas disponíveis na biblioteca de origem; o texto ainda não foi incorporado ao acervo local.");
   else setStatus("Preencha os níveis desejados ou pesquise todos os trechos cadastrados desta obra.");
 }
 function registerAuthor(value){
@@ -135,8 +150,8 @@ function search(event){
   event.preventDefault();
   const work=currentWork();
   if(!work||!scopeAllowsAuthor(work.authorId)){setStatus("Selecione uma obra cadastrada nesta área.");return;}
-  if(publishedOpeners[work.id]){
-    if(!openWork(work.id))setStatus("Não foi possível abrir o leitor desta obra.");
+  if(publishedOpeners[work.id] || externalPhiloLinks[work.id]){
+    if(!openWork(work.id))setStatus("Não foi possível abrir a consulta desta obra.");
     return;
   }
   if(ui.results)ui.results.replaceChildren();
@@ -166,6 +181,50 @@ function search(event){
   });
   if(matches.length>100)setStatus(matches.length+" trechos encontrados; mostrando os primeiros 100. Refine a referência.");
 }
+/* Índice bibliográfico documentado no Perseus/Scaife (TLG 0018).
+ * Não confundir links externos de leitura com corpora já publicados no site.
+ * Fonte: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018/
+ * O portal de origem oferece as edições gregas e respectivas traduções. */
+const externalPhiloCatalog=Object.freeze([
+  ["tlg001","De Opificio Mundi"],
+  ["tlg002","Legum Allegoriarum Libri I-III"],
+  ["tlg003","De Cherubim"],
+  ["tlg004","De Sacrificiis Abelis Et Caini"],
+  ["tlg005","Quod Deterius Potiori Insidiari Soleat"],
+  ["tlg006","De Posteritate Caini"],
+  ["tlg007","De Gigantibus"],
+  ["tlg008","Quod Deus Sit Immutabilis"],
+  ["tlg009","De Agricultura"],
+  ["tlg010","De Plantatione"],
+  ["tlg011","De Ebrietate"],
+  ["tlg012","De Sobrietate"],
+  ["tlg013","De Confusione Linguarum"],
+  ["tlg014","De Migratione Abrahami"],
+  ["tlg015","Quis Rerum Divinarum Heres Sit"],
+  ["tlg016","De Congressu Eruditionis Gratia"],
+  ["tlg017","De Fuga Et Inventione"],
+  ["tlg018","De Mutatione Nominum"],
+  ["tlg019","De Somniis (lib. i-ii)"],
+  ["tlg020","De Abrahamo"],
+  ["tlg021","De Josepho"],
+  ["tlg022","De Vita Mosis (Lib. I-II)"],
+  ["tlg023","De Decalogo"],
+  ["tlg024","De Specialibus Legibus (lib. i-iv)"],
+  ["tlg025","De Virtutibus"],
+  ["tlg026","De Praemiis Et Poenis Et De Exsecrationibus"],
+  ["tlg027","Quod Omnis Probus Liber Sit"],
+  ["tlg028","De Vita Contemplativa"],
+  ["tlg029","De Aeternitate Mundi"],
+  ["tlg030","In Flaccum"],
+  ["tlg031","Legatio Ad Gaium"]
+]);
+const externalPhiloLinks=Object.freeze(Object.fromEntries(
+  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009"&&urn!=="tlg003"&&urn!=="tlg013"&&urn!=="tlg016"&&urn!=="tlg023"&&urn!=="tlg011"&&urn!=="tlg017"&&urn!=="tlg007").map(([urn])=>[
+    "filon-"+urn,
+    "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
+  ])
+));
+
 // Catálogo relacional: a obra aponta ao leitor original; corpora e IDs não são copiados.
 const publishedOpeners=Object.freeze({
   "josefo-antiguidades":()=>window.ScripturaJosephus?.show(1,1,27,true),
@@ -173,19 +232,46 @@ const publishedOpeners=Object.freeze({
   "josefo-vida":()=>window.ScripturaJosephusHistory?.show("vida",1,1,1,true),
   "josefo-apiao":()=>window.ScripturaJosephusHistory?.show("apiao",1,1,1,true),
   "clemente-stromata":()=>window.ScripturaPatristics?.show(1,1,1,1,true),
-  "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true)
+  "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true),
+  "filon-tlg020":()=>window.ScripturaPhilo?.show(1,true),
+  "filon-tlg029":()=>window.ScripturaPhiloAeternitate?.show(1,true),
+  "filon-tlg009":()=>window.ScripturaPhiloAgricultura?.show(1,true),
+  "filon-tlg003":()=>window.ScripturaPhiloCherubim?.show(1,true),
+  "filon-tlg013":()=>window.ScripturaPhiloConfusione?.show(1,true),
+  "filon-tlg016":()=>window.ScripturaPhiloCongressu?.show(1,true),
+  "filon-tlg023":()=>window.ScripturaPhiloDecalogo?.show(1,true),
+  "filon-tlg011":()=>window.ScripturaPhiloEbrietate?.show(1,true),
+  "filon-tlg017":()=>window.ScripturaPhiloFuga?.show(1,true),
+  "filon-tlg007":()=>window.ScripturaPhiloGigantibus?.show(1,true)
 });
 function openWork(id){
-  if(!Object.prototype.hasOwnProperty.call(publishedOpeners,id))return false;
   const chosen=works.get(id);
   if(!chosen||!scopeAllowsAuthor(chosen.authorId))return false;
+  if(Object.prototype.hasOwnProperty.call(externalPhiloLinks,id)){
+    // Apenas URNs verificadas do autor no catálogo Perseus; sem conteúdo simulado.
+    const url=externalPhiloLinks[id];
+    window.open(url,"_blank","noopener,noreferrer");
+    setStatus("Obra aberta em nova aba no Perseus/Scaife. Se o navegador bloquear a aba, permita pop-ups para este site.");
+    return true;
+  }
+  if(!Object.prototype.hasOwnProperty.call(publishedOpeners,id))return false;
   const ready={
     "josefo-antiguidades":window.ScripturaJosephus?.show,
     "josefo-guerra":window.ScripturaJosephusHistory?.show,
     "josefo-vida":window.ScripturaJosephusHistory?.show,
     "josefo-apiao":window.ScripturaJosephusHistory?.show,
     "clemente-stromata":window.ScripturaPatristics?.show,
-    "clemente-paedagogus":window.ScripturaPaedagogus?.show
+    "clemente-paedagogus":window.ScripturaPaedagogus?.show,
+    "filon-tlg020":window.ScripturaPhilo?.show,
+    "filon-tlg029":window.ScripturaPhiloAeternitate?.show,
+    "filon-tlg009":window.ScripturaPhiloAgricultura?.show,
+    "filon-tlg003":window.ScripturaPhiloCherubim?.show,
+    "filon-tlg013":window.ScripturaPhiloConfusione?.show,
+    "filon-tlg016":window.ScripturaPhiloCongressu?.show,
+    "filon-tlg023":window.ScripturaPhiloDecalogo?.show,
+    "filon-tlg011":window.ScripturaPhiloEbrietate?.show,
+    "filon-tlg017":window.ScripturaPhiloFuga?.show,
+    "filon-tlg007":window.ScripturaPhiloGigantibus?.show
   };
   if(typeof ready[id]!=="function")return false;
   publishedOpeners[id]();return true;
@@ -198,12 +284,48 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
+// Dez obras gregas possuem leitores internos e XMLs próprios; outras 21 permanecem externas.
 publishedWorks.forEach(registerWork);
+externalPhiloCatalog.forEach(([urn,title])=>registerWork({
+  id:"filon-"+urn,authorId:"filon",title,levels:[]
+}));
 if(ui.form&&ui.author&&ui.work&&ui.fields){
   refreshAuthors();
   refreshWorks();
   ui.author.addEventListener("change",refreshWorks);
-  ui.work.addEventListener("change",()=>{renderFields();if(ui.submit)ui.submit.disabled=!currentWork();ui.results?.replaceChildren();setStatus(currentWork()?"Preencha a referência desejada ou pesquise todos os trechos publicados.":"Selecione uma obra.");});
+  ui.work.addEventListener("change",()=>{
+    renderFields();
+    const selected=currentWork();
+    if(ui.submit)ui.submit.disabled=!selected;
+    ui.results?.replaceChildren();
+    setStatus(!selected?"Selecione uma obra.":
+      selected.id==="filon-tlg020"?
+      "De Abrahamo: texto grego integral com notas da edição Cohn (1902).":
+      selected.id==="filon-tlg029"?
+      "De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).":
+      selected.id==="filon-tlg009"?
+      "De Agricultura: texto grego integral com notas da edição Wendland (1897).":
+      selected.id==="filon-tlg003"?
+      "De Cherubim: texto grego integral com notas da edição Cohn (1896).":
+      selected.id==="filon-tlg013"?
+      "De Confusione Linguarum: texto grego integral com notas da edição Wendland (1897).":
+      selected.id==="filon-tlg016"?
+      "De Congressu Eruditionis Gratia: texto grego integral com notas da edição Wendland (1898).":
+      selected.id==="filon-tlg023"?
+      "De Decalogo: texto grego integral com notas da edição Cohn (1902).":
+      selected.id==="filon-tlg011"?
+      "De Ebrietate: texto grego integral com notas da edição Wendland (1897).":
+      selected.id==="filon-tlg017"?
+      "De Fuga Et Inventione: texto grego integral com notas da edição Wendland (1898).":
+      selected.id==="filon-tlg007"?
+      "De Gigantibus: texto grego integral com notas da edição Wendland (1897).":
+      externalPhiloLinks[selected.id]?
+      "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
+      "Preencha a referência desejada ou pesquise todos os trechos publicados.");
+    if((selected?.id==="filon-tlg020"||selected?.id==="filon-tlg029"||selected?.id==="filon-tlg009"||selected?.id==="filon-tlg003"||selected?.id==="filon-tlg013"||selected?.id==="filon-tlg016"||selected?.id==="filon-tlg023"||selected?.id==="filon-tlg011"||selected?.id==="filon-tlg017"||selected?.id==="filon-tlg007") && !openWork(selected.id)){
+      setStatus("Não foi possível abrir o leitor de "+selected.title+".");
+    }
+  });
   ui.form.addEventListener("submit",search);
 }
 window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,setScope,openWork,

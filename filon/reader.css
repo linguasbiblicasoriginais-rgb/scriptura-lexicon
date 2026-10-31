@@ -1,0 +1,87 @@
+/* Fílon de Alexandria — leitor grego temático com realce exclusivamente suave. */
+.philo-reader[hidden] { display:none !important; }
+.philo-reader .philo-controls { grid-template-columns:minmax(200px,300px); }
+.philo-reader .philo-text { font-family:"Noto Serif",Georgia,serif; color:var(--text-primary); }
+.philo-reader .philo-section {
+    margin:0 0 1rem;
+    padding:.35rem .55rem;
+    border:0;
+    border-radius:0;
+    outline:none;
+    background:transparent;
+    cursor:pointer;
+}
+.philo-reader .philo-section.philo-section-selected {
+    background:color-mix(in srgb, var(--accent) 15%, transparent);
+    border:0;
+    box-shadow:none;
+}
+.philo-reader .philo-section:focus-visible:not(.philo-section-selected) {
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+}
+.philo-reader .philo-section-reading {
+    display:flex;
+    align-items:baseline;
+    gap:.8rem;
+}
+.philo-reader .philo-number {
+    flex:none;
+    font:600 .87rem/1.8 "Noto Serif",Georgia,serif;
+    color:var(--accent-light);
+    white-space:nowrap;
+}
+.philo-reader .philo-greek-paragraph {
+    flex:1;
+    min-width:0;
+    margin:0;
+    font:400 1.1rem/2 "Noto Serif",Georgia,serif;
+    text-align:justify;
+    text-align-last:start;
+    overflow-wrap:break-word;
+    white-space:normal;
+}
+.philo-reader .philo-editorial-add {
+    text-decoration:underline dotted var(--accent);
+    text-underline-offset:.14em;
+}
+.philo-reader .philo-editorial-sic {
+    text-decoration:underline wavy var(--accent);
+    text-underline-offset:.13em;
+}
+.philo-reader .philo-notes {
+    margin:.2rem 0 0 2.9rem;
+    font-size:.82rem;
+    line-height:1.7;
+    color:var(--text-secondary);
+}
+.philo-reader .philo-notes summary { cursor:pointer;color:var(--accent-light); }
+.philo-reader .philo-notes p { margin:.45rem 0; overflow-wrap:anywhere; }
+.philo-reader .philo-status {
+    color:var(--text-secondary);
+    font-size:.9rem;
+    margin:.6rem 0;
+}
+.philo-reader .philo-status:empty { display:none; }
+.philo-reader .philo-credit {
+    color:var(--text-muted);
+    margin:1.15rem 0;
+    font-size:.8rem;
+    line-height:1.75;
+}
+.philo-reader .philo-credit a { color:var(--accent-light); }
+.philo-reader #philo-retry,
+.philo-reader #philo-aet-retry,
+.philo-reader #philo-agr-retry,
+.philo-reader #philo-cher-retry,
+.philo-reader #philo-conf-retry,
+.philo-reader #philo-cong-retry,
+.philo-reader #philo-deca-retry,
+.philo-reader #philo-ebri-retry { margin:12px 0;padding:.65rem 1rem; }
+@media(max-width:520px) {
+    .philo-reader .philo-controls { grid-template-columns:1fr; }
+    .philo-reader .philo-section { padding:.25rem .1rem; }
+    .philo-reader .philo-section-reading { gap:.45rem; }
+    .philo-reader .philo-greek-paragraph { font-size:1rem;line-height:1.9; }
+    .philo-reader .philo-notes { margin-inline-start:2rem; }
+}
