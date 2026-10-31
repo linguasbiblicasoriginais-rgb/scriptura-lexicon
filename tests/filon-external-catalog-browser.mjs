@@ -33,6 +33,8 @@ try {
     await list.getByRole("option",{name:title,exact:true}).click();
     assert.equal(await page.locator("#greek-work").inputValue(),"filon-"+urn);
     assert.match(await page.locator("#greek-authors-submit").textContent(),/Consultar no Perseus/);
+    assert.equal(await page.locator("#greek-authors-submit").isVisible(),true,
+      "As demais obras de Fílon devem conservar o botão de consulta externa");
     assert.equal(await page.locator("#greek-authors-reference-fields").locator("input").count(),0,
       "Obras externas não têm falsa referência de capítulo/seção local");
     assert.match(await page.locator("#greek-authors-status").textContent(),/não foi incorporado ao acervo local/i);
@@ -49,10 +51,12 @@ try {
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
   await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
-  assert.match(await page.locator("#greek-authors-submit").textContent(),/Abrir texto integral/);
-  assert.match(await page.locator("#greek-authors-status").textContent(),/276 seções/);
+  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false,
+    "De Abrahamo não deve exibir o botão intermediário");
+  assert.equal(await page.locator("#greek-authors-status").textContent(),
+    "De Abrahamo: texto grego integral com notas da edição Cohn (1902).");
   const externalCount=await page.evaluate(()=>window.__externalReads.length);
-  await page.locator("#greek-authors-submit").click();
+  // A seleção no menu já abre o texto, sem clique adicional.
   await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
   assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount,
     "De Abrahamo deve abrir dentro do site, sem consulta externa");
