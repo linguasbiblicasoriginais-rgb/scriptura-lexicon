@@ -71,7 +71,8 @@
 }
 .philo-reader .philo-credit a { color:var(--accent-light); }
 .philo-reader #philo-retry,
-.philo-reader #philo-aet-retry { margin:12px 0;padding:.65rem 1rem; }
+.philo-reader #philo-aet-retry,
+.philo-reader #philo-agr-retry { margin:12px 0;padding:.65rem 1rem; }
 @media(max-width:520px) {
     .philo-reader .philo-controls { grid-template-columns:1fr; }
     .philo-reader .philo-section { padding:.25rem .1rem; }
