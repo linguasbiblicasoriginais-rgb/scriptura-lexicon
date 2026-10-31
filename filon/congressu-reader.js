@@ -204,6 +204,7 @@
     window.ScripturaPhiloAgricultura?.hide();
     window.ScripturaPhiloCherubim?.hide();
     window.ScripturaPhiloConfusione?.hide();
+    window.ScripturaPhiloDecalogo?.hide();
     window.ScripturaScriptures?.hide();
     window.ScripturaJosephus?.hide();
     window.ScripturaJosephusHistory?.hide();
