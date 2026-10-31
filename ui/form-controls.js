@@ -344,7 +344,11 @@
         window.addEventListener("resize", positionDropdown);
         window.addEventListener("scroll", event => {
             if (!active || event.target === dropdown || dropdown.contains(event.target)) return;
-            close(false);
+            // Manter o menu junto ao controle quando a página rolar; um
+            // fechamento por rolagem automática invalidava o menu recém-aberto.
+            const rect = active.button.getBoundingClientRect();
+            if (rect.bottom < 0 || rect.top > window.innerHeight) close(false);
+            else positionDropdown();
         }, {passive: true, capture: true});
         document.addEventListener("change", event => {
             if (event.target.matches?.('input[type="number"]')) {
