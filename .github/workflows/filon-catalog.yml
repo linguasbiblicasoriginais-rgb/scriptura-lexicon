@@ -18,6 +18,7 @@ on:
       - 'tests/filon-de-fuga-browser.mjs'
       - 'tests/filon-de-gigantibus-browser.mjs'
       - 'index.html'
+      - 'style.css'
       - '.github/workflows/filon-catalog.yml'
   workflow_dispatch:
 permissions:
