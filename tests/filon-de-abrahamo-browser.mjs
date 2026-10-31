@@ -91,8 +91,8 @@ try {
  await page.reload({waitUntil:"domcontentloaded"});
  await page.locator('#philo-text [data-philo-section="276"]').waitFor({state:"visible"});
  assert.equal(await page.locator("#philo-section").inputValue(),"276");
- assert.match(await page.locator(".philo-credit").textContent(),/1902/);
- assert.match(await page.locator(".philo-credit").textContent(),/CC BY-SA 4.0/);
+ assert.match(await page.locator("#filon-abrahamo-reader .philo-credit").textContent(),/1902/);
+ assert.match(await page.locator("#filon-abrahamo-reader .philo-credit").textContent(),/CC BY-SA 4.0/);
  assert.deepEqual(errors,[],"Erros JavaScript no desktop");
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  mobile.on("pageerror",error=>errors.push(error.message));
