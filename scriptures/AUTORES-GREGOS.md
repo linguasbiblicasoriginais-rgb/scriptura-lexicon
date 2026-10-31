@@ -4,7 +4,7 @@ A biblioteca disponibiliza **duas categorias independentes** que reutilizam o me
 
 ## Escritores gregos — `#autores-gregos`
 
-O combobox de autores apresenta **Flávio Josefo** e **Fílon de Alexandria**. Josefo possui leitores internos; Fílon possui **31 obras indexadas com acesso externo à biblioteca Perseus/Scaife**, sem texto integral incorporado ao repositório. Os registros externos são identificados pelo URN `tlg0018.tlg001`–`tlg0018.tlg031` e pela edição digital de origem. A transcrição grega utilizada pelo Perseus decorre da tradição editorial de Cohn/Wendland, com revisão digital relatada pelo projeto Perseus (2023). Esse vínculo bibliográfico **não equivale a uma edição crítica própria** do Scriptura Lexicon. Josefo possui as seguintes obras no catálogo:
+O combobox de autores apresenta **Flávio Josefo** e **Fílon de Alexandria**. Josefo possui leitores internos; Fílon possui **31 obras indexadas**: *De Abrahamo* incorporado integralmente em grego ao leitor local, e as **30 demais** com consulta externa à biblioteca Perseus/Scaife. Os registros externos são identificados pelo URN `tlg0018.tlg001`–`tlg0018.tlg031` e pela edição digital de origem. A transcrição grega utilizada pelo Perseus decorre da tradição editorial de Cohn/Wendland, com revisão digital relatada pelo projeto Perseus (2023). Esse vínculo bibliográfico **não equivale a uma edição crítica própria** do Scriptura Lexicon. Josefo possui as seguintes obras no catálogo:
 
 - **Antiguidades Judaicas**
 - **A Guerra dos Judeus**
@@ -15,15 +15,15 @@ As obras abrem os leitores de `josefo/`, com seus pacotes derivados de Niese/Per
 
 
 
-### Obras de Fílon — acesso externo
+### Obras de Fílon — leitura local e acesso externo
 
-O campo **Obra** fica habilitado ao selecionar Fílon e apresenta 31 títulos atestados no catálogo digital do Perseus. O botão **Consultar no Perseus ↗** abre a página específica da obra em nova aba. O catálogo de origem disponibiliza edições gregas; a interface local **não copia, traduz, completa ou altera o texto** e não oferece, por ora, leitura interna de Fílon.
+O campo **Obra** apresenta 31 títulos. Para **De Abrahamo** (`tlg0018.tlg020`), o botão **Abrir texto integral** exibe o leitor local `#filon/de-abrahamo/1`, com **276 seções** do TEI original (Cohn, 1902) e notas de edição identificadas. Para as outras **30 obras**, o botão **Consultar no Perseus ↗** abre a página específica em nova aba. Não há tradução portuguesa incorporada nem texto inventado.
 
 - Catálogo e URNs: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018/
 - Leitor externo: https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg001/
 - Proveniência da transcrição grega revista: https://sites.tufts.edu/perseusupdates/2023/08/02/philo-of-alexandria-translations-and-perseus-the-next-thirty-years/
 
-Ao disponibilizar textos locais futuramente, cada obra deverá receber identificação de edição, licença, estrutura de referência, dados e leitor próprios. Enquanto isso, nenhum item externo pode ser contabilizado como transcrição interna publicada.
+**Fonte local:** `filon/data/tlg0018.tlg020.1st1K-grc1.xml` (Git blob SHA `5d578cf23afeae6a2fb2e5317eb712d6121e0af8`, idêntico ao arquivo de origem), com `filon/reader.js` e `filon/reader.css`. Licença CC BY-SA 4.0 e atribuição detalhadas em `filon/README.md`. As demais obras continuam externas e não são contabilizadas como transcrições publicadas.
 
 ## Literatura patrística — `#patristica`
 

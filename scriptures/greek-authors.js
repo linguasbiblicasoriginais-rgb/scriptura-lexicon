@@ -104,6 +104,7 @@ function refreshWorks(){
   if(!author)setStatus("Selecione um autor para consultar as obras disponíveis.");
   else if(!available.length)setStatus("Nenhuma obra cadastrada para este autor. O catálogo será preenchido somente com textos e referências documentados.");
   else if(!ui.work.value)setStatus("Selecione uma obra; os níveis de referência serão adaptados à sua estrutura.");
+  else if(ui.work.value==="filon-tlg020")setStatus("De Abrahamo: texto grego integral incorporado ao leitor local, com 276 seções numeradas e notas da edição Cohn (1902).");
   else if(externalPhiloLinks[ui.work.value])setStatus("Consulta externa ao Perseus/Scaife: edições gregas disponíveis na biblioteca de origem; o texto ainda não foi incorporado ao acervo local.");
   else setStatus("Preencha os níveis desejados ou pesquise todos os trechos cadastrados desta obra.");
 }
@@ -206,7 +207,7 @@ const externalPhiloCatalog=Object.freeze([
   ["tlg031","Legatio Ad Gaium"]
 ]);
 const externalPhiloLinks=Object.freeze(Object.fromEntries(
-  externalPhiloCatalog.map(([urn])=>[
+  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020").map(([urn])=>[
     "filon-"+urn,
     "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
   ])
@@ -219,7 +220,8 @@ const publishedOpeners=Object.freeze({
   "josefo-vida":()=>window.ScripturaJosephusHistory?.show("vida",1,1,1,true),
   "josefo-apiao":()=>window.ScripturaJosephusHistory?.show("apiao",1,1,1,true),
   "clemente-stromata":()=>window.ScripturaPatristics?.show(1,1,1,1,true),
-  "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true)
+  "clemente-paedagogus":()=>window.ScripturaPaedagogus?.show(1,"1",null,1,true),
+  "filon-tlg020":()=>window.ScripturaPhilo?.show(1,true)
 });
 function openWork(id){
   const chosen=works.get(id);
@@ -238,7 +240,8 @@ function openWork(id){
     "josefo-vida":window.ScripturaJosephusHistory?.show,
     "josefo-apiao":window.ScripturaJosephusHistory?.show,
     "clemente-stromata":window.ScripturaPatristics?.show,
-    "clemente-paedagogus":window.ScripturaPaedagogus?.show
+    "clemente-paedagogus":window.ScripturaPaedagogus?.show,
+    "filon-tlg020":window.ScripturaPhilo?.show
   };
   if(typeof ready[id]!=="function")return false;
   publishedOpeners[id]();return true;
@@ -251,7 +254,7 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
-// O catálogo externo de Fílon não é tratado como corpus incorporado.
+// As 30 obras externas não são tratadas como corpora incorporados; De Abrahamo tem leitor e XML próprios.
 publishedWorks.forEach(registerWork);
 externalPhiloCatalog.forEach(([urn,title])=>registerWork({
   id:"filon-"+urn,authorId:"filon",title,levels:[]
@@ -266,6 +269,8 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
     if(ui.submit)ui.submit.disabled=!selected;
     ui.results?.replaceChildren();
     setStatus(!selected?"Selecione uma obra.":
+      selected.id==="filon-tlg020"?
+      "De Abrahamo disponível no leitor local: 276 seções e notas da edição Cohn (1902).":
       externalPhiloLinks[selected.id]?
       "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
       "Preencha a referência desejada ou pesquise todos os trechos publicados.");
