@@ -10,6 +10,7 @@ on:
       - 'tests/filon-de-abrahamo-browser.mjs'
       - 'tests/filon-de-aeternitate-browser.mjs'
       - 'tests/filon-de-agricultura-browser.mjs'
+      - 'tests/filon-de-opificio-browser.mjs'
       - 'tests/filon-de-cherubim-browser.mjs'
       - 'tests/filon-de-confusione-browser.mjs'
       - 'tests/filon-de-congressu-browser.mjs'
@@ -38,6 +39,7 @@ jobs:
           node --check filon/reader.js
           node --check filon/aeternitate-reader.js
           node --check filon/agricultura-reader.js
+          node --check filon/opificio-reader.js
           node --check filon/cherubim-reader.js
           node --check filon/confusione-reader.js
           node --check filon/congressu-reader.js
@@ -53,6 +55,7 @@ jobs:
           node --check tests/filon-de-abrahamo-browser.mjs
           node --check tests/filon-de-aeternitate-browser.mjs
           node --check tests/filon-de-agricultura-browser.mjs
+          node --check tests/filon-de-opificio-browser.mjs
           node --check tests/filon-de-cherubim-browser.mjs
           node --check tests/filon-de-confusione-browser.mjs
           node --check tests/filon-de-congressu-browser.mjs
@@ -68,12 +71,13 @@ jobs:
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/filon-http.log 2>&1 &
           sleep 2
-      - name: Validar dez obras integrais e demais obras externas
+      - name: Validar onze obras integrais e demais obras externas
         run: |
           node tests/filon-external-catalog-browser.mjs
           node tests/filon-de-abrahamo-browser.mjs
           node tests/filon-de-aeternitate-browser.mjs
           node tests/filon-de-agricultura-browser.mjs
+          node tests/filon-de-opificio-browser.mjs
           node tests/filon-de-cherubim-browser.mjs
           node tests/filon-de-confusione-browser.mjs
           node tests/filon-de-congressu-browser.mjs
