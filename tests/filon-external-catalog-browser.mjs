@@ -48,7 +48,7 @@ try {
   assert.equal(await page.locator("#greek-work").isDisabled(),false);
   assert.match(await page.locator("#greek-authors-status").textContent(),/Selecione uma obra/);
   const expected=new Map([
-    ["De Opificio Mundi","tlg001"],
+    ["De Plantatione","tlg010"],
     ["Legatio Ad Gaium","tlg031"]
   ]);
   for (const [title,urn] of expected) {
@@ -73,7 +73,20 @@ try {
     assert.match(last.features,/noopener/);
     assert.match(last.features,/noreferrer/);
   }
-  // Dez obras gregas de Fílon são locais; as outras 21 permanecem externas.
+  // De Opificio Mundi passou do catálogo externo ao leitor local.
+  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
+  await page.locator("#lx-global-options").getByRole("option",{name:"De Opificio Mundi",exact:true}).click();
+  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg001");
+  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
+  assert.equal(await page.locator("#greek-authors-status").textContent(),
+    "De Opificio Mundi: texto grego integral com notas da edição Cohn (1896).");
+  await page.locator('#philo-op-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+  assert.match(page.url(),/#filon\/de-opificio-mundi\/1$/);
+  assert.equal(await page.evaluate(()=>window.__externalReads.length),2,
+    "De Opificio Mundi deve abrir no leitor local, sem consulta externa");
+  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  // Onze obras gregas de Fílon são locais; as outras 20 permanecem externas.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
   await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
@@ -219,7 +232,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
   assert.deepEqual(errors,[]);
-  console.log("FILON_CATALOG_PASS: 31 obras, 10 internas, 21 externas, rotas, isolamento e proveniência");
+  console.log("FILON_CATALOG_PASS: 31 obras, 11 internas, 20 externas, rotas, isolamento e proveniência");
 } finally {
   await browser.close();
 }
