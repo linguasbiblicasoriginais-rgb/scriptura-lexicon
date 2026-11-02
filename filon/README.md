@@ -190,3 +190,24 @@ O leitor `filon/fuga-reader.js` apresenta o texto grego em lotes de doze seçõe
 - **SHA Git blob da fonte e da cópia:** `758adb38d6a874f76c7c2951d3b43610ac2e1f38` (idênticos).
 
 O arquivo `filon/data/tlg0018.tlg007.1st1K-grc1.xml` foi incorporado **integralmente e sem transformações**. Contém **67 seções consecutivas (§§ 1–67)** e **20 notas** (19 de rodapé, uma marginal), além da marcação editorial e das referências da transcrição. O leitor `filon/gigantibus-reader.js` exibe 12 seções por lote, seleção individual, notas expansíveis e rota `#filon/de-gigantibus/<seção>`. O teste dedicado `tests/filon-de-gigantibus-browser.mjs` cobre integridade SHA, sequência, metadados, aparato, rotas, temas e dispositivo móvel. A interface não é reprodução diplomática nem edição crítica própria. **Sem tradução portuguesa.** O catálogo passa a conter **10 obras locais** de Fílon e **21 externas**.
+
+## De Opificio Mundi — texto grego integral
+
+- **Título latino:** *De Opificio Mundi*; título grego tradicional: **Περὶ τῆς κατὰ Μωυσέα κοσμοποιίας**.
+- **Autor:** Fílon de Alexandria (Φίλων ὁ Ἀλεξανδρεύς).
+- **Edição impressa de base:** Leopold Cohn (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. I** (Berlim: Georg Reimer, **1896**), conforme o `teiHeader`.
+- **Transcrição:** First1KGreek / OpenGreekAndLatin e Perseus Digital Library, TEI-XML (Universidade de Leipzig, 2014).
+- **Identificação:** TLG `0018.001`; URN CTS `urn:cts:greekLit:tlg0018.tlg001.1st1K-grc1`.
+- **Fonte TEI integral:** https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0018/tlg001/tlg0018.tlg001.1st1K-grc1.xml
+- **Catálogo Perseus:** https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg001/
+- **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/), informada pelo `publicationStmt`.
+- **Git blob SHA original e local (idênticos):** `b7a7546f5a27cc30a79976f29ff86c6afb297e5d`.
+
+O arquivo `filon/data/tlg0018.tlg001.1st1K-grc1.xml` foi incorporado **integralmente, sem alteração**. Contém **172 seções numeradas consecutivamente (§§ 1–172)** e **97 notas editoriais** (**95** de rodapé e **2** marginais). A divisão TEI utiliza `<div type="textpart" subtype="section" n="…">`, particularidade respeitada pela leitura. Marcas de linha e de página, aparato, variantes, intervenções editoriais e metadados permanecem preservados na fonte.
+
+O leitor `filon/opificio-reader.js` reutiliza a apresentação existente e exibe doze seções por lote, com seleção individual, navegação anterior/próxima, notas expansíveis, referência copiável e atualização do endereço.
+
+- **Rota interna:** `#filon/de-opificio-mundi/1` a `#filon/de-opificio-mundi/172`.
+- **Teste de integridade e interface:** `tests/filon-de-opificio-browser.mjs`, incorporado à execução de `.github/workflows/filon-catalog.yml`.
+
+A interface conserva o grego da edição digital, sem tradução, normalização nem conjecturas. A leitura em HTML não constitui reprodução diplomática da obra impressa. O catálogo passa a contabilizar **11 obras integrais de Fílon** e **20 com consulta externa**.
