@@ -110,6 +110,7 @@ function refreshWorks(){
   else if(ui.work.value==="filon-tlg020")setStatus("De Abrahamo: texto grego integral com notas da edição Cohn (1902).");
   else if(ui.work.value==="filon-tlg029")setStatus("De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).");
   else if(ui.work.value==="filon-tlg009")setStatus("De Agricultura: texto grego integral com notas da edição Wendland (1897).");
+  else if(ui.work.value==="filon-tlg001")setStatus("De Opificio Mundi: texto grego integral com notas da edição Cohn (1896).");
   else if(ui.work.value==="filon-tlg003")setStatus("De Cherubim: texto grego integral com notas da edição Cohn (1896).");
   else if(ui.work.value==="filon-tlg013")setStatus("De Confusione Linguarum: texto grego integral com notas da edição Wendland (1897).");
   else if(ui.work.value==="filon-tlg016")setStatus("De Congressu Eruditionis Gratia: texto grego integral com notas da edição Wendland (1898).");
@@ -219,7 +220,7 @@ const externalPhiloCatalog=Object.freeze([
   ["tlg031","Legatio Ad Gaium"]
 ]);
 const externalPhiloLinks=Object.freeze(Object.fromEntries(
-  externalPhiloCatalog.filter(([urn])=>urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009"&&urn!=="tlg003"&&urn!=="tlg013"&&urn!=="tlg016"&&urn!=="tlg023"&&urn!=="tlg011"&&urn!=="tlg017"&&urn!=="tlg007").map(([urn])=>[
+  externalPhiloCatalog.filter(([urn])=>urn!=="tlg001"&&urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009"&&urn!=="tlg003"&&urn!=="tlg013"&&urn!=="tlg016"&&urn!=="tlg023"&&urn!=="tlg011"&&urn!=="tlg017"&&urn!=="tlg007").map(([urn])=>[
     "filon-"+urn,
     "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
   ])
@@ -236,6 +237,7 @@ const publishedOpeners=Object.freeze({
   "filon-tlg020":()=>window.ScripturaPhilo?.show(1,true),
   "filon-tlg029":()=>window.ScripturaPhiloAeternitate?.show(1,true),
   "filon-tlg009":()=>window.ScripturaPhiloAgricultura?.show(1,true),
+  "filon-tlg001":()=>window.ScripturaPhiloOpificio?.show(1,true),
   "filon-tlg003":()=>window.ScripturaPhiloCherubim?.show(1,true),
   "filon-tlg013":()=>window.ScripturaPhiloConfusione?.show(1,true),
   "filon-tlg016":()=>window.ScripturaPhiloCongressu?.show(1,true),
@@ -265,6 +267,7 @@ function openWork(id){
     "filon-tlg020":window.ScripturaPhilo?.show,
     "filon-tlg029":window.ScripturaPhiloAeternitate?.show,
     "filon-tlg009":window.ScripturaPhiloAgricultura?.show,
+    "filon-tlg001":window.ScripturaPhiloOpificio?.show,
     "filon-tlg003":window.ScripturaPhiloCherubim?.show,
     "filon-tlg013":window.ScripturaPhiloConfusione?.show,
     "filon-tlg016":window.ScripturaPhiloCongressu?.show,
@@ -284,7 +287,7 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
-// Dez obras gregas possuem leitores internos e XMLs próprios; outras 21 permanecem externas.
+// Onze obras de Fílon possuem leitores internos e XMLs próprios; as demais permanecem externas.
 publishedWorks.forEach(registerWork);
 externalPhiloCatalog.forEach(([urn,title])=>registerWork({
   id:"filon-"+urn,authorId:"filon",title,levels:[]
@@ -299,6 +302,8 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
     if(ui.submit)ui.submit.disabled=!selected;
     ui.results?.replaceChildren();
     setStatus(!selected?"Selecione uma obra.":
+      selected.id==="filon-tlg001"?
+      "De Opificio Mundi: texto grego integral com notas da edição Cohn (1896).":
       selected.id==="filon-tlg020"?
       "De Abrahamo: texto grego integral com notas da edição Cohn (1902).":
       selected.id==="filon-tlg029"?
