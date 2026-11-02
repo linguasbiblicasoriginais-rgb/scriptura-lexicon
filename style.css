@@ -2532,3 +2532,13 @@ tbody tr:last-child td {
     .header-actions { gap: 9px; }
     .header .menu-toggle { width: 40px; height: 40px; }
 }
+
+/* Consulta contínua: autor, obra, referência e leitura no mesmo painel. */
+#greek-inline-reader[hidden]{display:none!important}
+.greek-inline-reader{min-width:0;margin-top:1.5rem;border-top:1px solid var(--border);padding-top:1.2rem}
+.greek-inline-reader>.scripture-reader{display:block;min-width:0;margin:0;padding:0;border:0;background:transparent;box-shadow:none}
+.greek-inline-reader>.scripture-reader[hidden]{display:none!important}
+.greek-inline-reader>.scripture-reader>.site-back-link{display:none}
+.greek-inline-reader .scripture-reader-controls,.greek-inline-reader .scripture-reader-result{min-width:0}
+.greek-authors-panel:has(.greek-inline-reader:not([hidden])) .greek-authors-status{display:none}
+@media(max-width:600px){.greek-inline-reader{margin-top:1rem;padding-top:1rem}}
