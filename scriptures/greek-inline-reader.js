@@ -15,6 +15,7 @@ const specs=[
  ["ScripturaPhilo","filon-abrahamo-reader","filon-tlg020"],
  ["ScripturaPhiloAeternitate","filon-aeternitate-reader","filon-tlg029"],
  ["ScripturaPhiloAgricultura","filon-agricultura-reader","filon-tlg009"],
+ ["ScripturaPhiloOpificio","filon-opificio-reader","filon-tlg001"],
  ["ScripturaPhiloCherubim","filon-cherubim-reader","filon-tlg003"],
  ["ScripturaPhiloConfusione","filon-confusione-reader","filon-tlg013"],
  ["ScripturaPhiloCongressu","filon-congressu-reader","filon-tlg016"],
