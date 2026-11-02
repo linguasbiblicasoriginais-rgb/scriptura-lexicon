@@ -17,6 +17,7 @@ on:
       - 'tests/filon-de-ebrietate-browser.mjs'
       - 'tests/filon-de-fuga-browser.mjs'
       - 'tests/filon-de-gigantibus-browser.mjs'
+      - 'tests/greek-inline-reader-browser.mjs'
       - 'index.html'
       - 'style.css'
       - '.github/workflows/filon-catalog.yml'
@@ -46,6 +47,8 @@ jobs:
           node --check filon/gigantibus-reader.js
           node --check scriptures/greek-authors.js
           node --check scriptures/sections.js
+          node --check scriptures/greek-inline-reader.js
+          node --check tests/greek-inline-reader-browser.mjs
           node --check tests/filon-external-catalog-browser.mjs
           node --check tests/filon-de-abrahamo-browser.mjs
           node --check tests/filon-de-aeternitate-browser.mjs
@@ -78,6 +81,7 @@ jobs:
           node tests/filon-de-ebrietate-browser.mjs
           node tests/filon-de-fuga-browser.mjs
           node tests/filon-de-gigantibus-browser.mjs
+          node tests/greek-inline-reader-browser.mjs
       - name: Logs da aplicação
         if: failure()
         run: cat /tmp/filon-http.log || true
