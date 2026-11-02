@@ -212,7 +212,7 @@
     window.ScripturaPatristics?.hide();
     window.ScripturaPaedagogus?.hide();
     for(const node of main.children)
-      if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
+      if(node!==panel&&!node.contains(panel)&&!node.classList.contains("header"))node.hidden=true;
     panel.hidden=false;
     sectionSelect.replaceChildren(...Array.from({length:276},(_,i)=>option(i+1,"§ "+(i+1))));
     sectionSelect.value=String(selected);

@@ -77,7 +77,7 @@ function renderFields(){
   const work=currentWork();
   // As dez obras locais de Fílon abrem automaticamente, sem botão intermediário.
   // As outras obras mantêm seus controles de consulta intactos.
-  if(ui.submit)ui.submit.hidden=work?.id==="filon-tlg020"||work?.id==="filon-tlg029"||work?.id==="filon-tlg009"||work?.id==="filon-tlg003"||work?.id==="filon-tlg013"||work?.id==="filon-tlg016"||work?.id==="filon-tlg023"||work?.id==="filon-tlg011"||work?.id==="filon-tlg017"||work?.id==="filon-tlg007";
+  if(ui.submit)ui.submit.hidden=!!work&&!!publishedOpeners[work.id]&&work.authorId!=="clemente-alexandria";
   if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
     ui.fields.replaceChildren();
     if(ui.submit)ui.submit.textContent=externalPhiloLinks[work.id]
@@ -322,13 +322,25 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
       externalPhiloLinks[selected.id]?
       "Consulta externa ao Perseus/Scaife. O texto grego ainda não foi incorporado ao acervo local.":
       "Preencha a referência desejada ou pesquise todos os trechos publicados.");
-    if((selected?.id==="filon-tlg020"||selected?.id==="filon-tlg029"||selected?.id==="filon-tlg009"||selected?.id==="filon-tlg003"||selected?.id==="filon-tlg013"||selected?.id==="filon-tlg016"||selected?.id==="filon-tlg023"||selected?.id==="filon-tlg011"||selected?.id==="filon-tlg017"||selected?.id==="filon-tlg007") && !openWork(selected.id)){
+    if(selected&&selected.authorId!=="clemente-alexandria"&&publishedOpeners[selected.id]&&!openWork(selected.id)){
       setStatus("Não foi possível abrir o leitor de "+selected.title+".");
     }
   });
   ui.form.addEventListener("submit",search);
 }
-window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,setScope,openWork,
+function syncReaderSelection(workId){
+ const item=works.get(workId);
+ if(!item||!scopeAllowsAuthor(item.authorId))return false;
+ if(ui.author.value!==item.authorId)selectAuthor(item.authorId);
+ if(ui.work.value!==item.id)ui.work.value=item.id;
+ renderFields();
+ if(ui.submit)ui.submit.disabled=false;
+ // Atualizar a superfície temática sem disparar um segundo "change".
+ ui.author.dispatchEvent(new Event("input",{bubbles:true}));
+ ui.work.dispatchEvent(new Event("input",{bubbles:true}));
+ return true;
+}
+window.ScripturaGreekAuthors={registerAuthor,registerWork,selectAuthor,setScope,openWork,syncReaderSelection,
   listAuthors:()=>sorted(Array.from(authors.values()).filter(a=>scopeAllowsAuthor(a.id))).map(a=>({...a})),
   listWorks:authorId=>getWorks(authorId).map(w=>({id:w.id,authorId:w.authorId,title:w.title,levels:w.levels.map(x=>({...x})),passageCount:w.passages.length}))
 };
