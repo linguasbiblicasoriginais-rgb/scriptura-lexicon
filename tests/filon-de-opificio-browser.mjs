@@ -74,20 +74,20 @@ try {
  await page.locator('#philo-op-text [data-philo-section="172"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-opificio-mundi\/172$/);
  assert.equal(await page.locator("#philo-op-text .philo-section").count(),4);
- assert.match(await page.locator("#philo-op-heading").textContent(),/172–172/);
+ assert.match(await page.locator("#philo-op-heading").textContent(),/169–172/);
  assert.equal(await page.locator("#philo-op-next").isDisabled(),true);
  assert.match(await page.locator('#philo-op-text [data-philo-section="172"]').textContent(),/ὁ δὴ ταῦτα/);
- assert.match(await page.locator("#filon-agricultura-reader .philo-credit").textContent(),/Cohn/);
- assert.match(await page.locator("#filon-agricultura-reader .philo-credit").textContent(),/1896/);
- assert.match(await page.locator("#filon-agricultura-reader .philo-credit").textContent(),/CC BY-SA 4.0/);
+ assert.match(await page.locator("#filon-opificio-reader .philo-credit").textContent(),/Cohn/);
+ assert.match(await page.locator("#filon-opificio-reader .philo-credit").textContent(),/1896/);
+ assert.match(await page.locator("#filon-opificio-reader .philo-credit").textContent(),/CC BY-SA 4.0/);
  await page.reload({waitUntil:"domcontentloaded"});
  await page.locator('#philo-op-text [data-philo-section="172"]').waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#philo-op-section").inputValue(),"172");
- await page.locator('#filon-agricultura-reader [data-greek-author="filon"]').click();
+ await page.locator('#filon-opificio-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
  await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
- assert.equal(await page.locator("#filon-agricultura-reader").isVisible(),false,
+ assert.equal(await page.locator("#filon-opificio-reader").isVisible(),false,
  "O leitor de De Opificio Mundi não deve se sobrepor ao de De Abrahamo");
  assert.deepEqual(errors,[]);
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
