@@ -2080,6 +2080,15 @@ tbody tr:last-child td {
 .site-philo-profile__portrait figcaption{margin-top:7px;font-size:.69rem;line-height:1.4;color:var(--text-secondary)}
 .site-philo-profile__portrait figcaption a{color:inherit;text-underline-offset:2px}
 .site-philo-profile__bio{flex:1;min-width:0;margin:0;color:var(--text-secondary);line-height:1.72;font-size:.98rem}
+/* Regra editorial reutilizável para TODOS os escritores atuais e futuros.
+   Adicionar class="author-biography" a cada minibiografia. Não afeta
+   legendas de retratos, títulos, notas editoriais nem texto grego. */
+.author-biography{
+ text-align:justify;
+ text-align-last:start;
+ hyphens:auto;
+ overflow-wrap:break-word;
+}
 @media(max-width:560px){.site-philo-profile{flex-direction:column;gap:15px}.site-philo-profile__portrait{width:125px;flex-basis:auto}.site-philo-profile__portrait img{width:125px;height:153px}.site-philo-profile__bio{font-size:.94rem}}
 .site-section-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:15px}
 .site-section-card{min-height:125px;display:grid;gap:9px;align-content:start;border:1px solid var(--border);border-radius:13px;background:var(--surface-1);color:var(--text-primary);padding:20px;font:inherit;text-align:left;cursor:pointer}

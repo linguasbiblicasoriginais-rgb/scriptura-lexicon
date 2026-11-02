@@ -21,6 +21,22 @@ try {
   assert.equal(await page.locator("#site-philo-profile").isVisible(),true);
   assert.match(await page.locator(".site-philo-profile__bio").textContent(),/filósofo e exegeta judeu/);
   assert.match(await page.locator(".site-philo-profile__bio").textContent(),/Calígula/);
+  assert.equal(await page.locator(".site-philo-profile__bio").getAttribute("lang"),"pt-BR");
+  assert.equal(await page.locator(".site-philo-profile__bio").evaluate(el=>getComputedStyle(el).textAlign),"justify",
+    "A minibiografia de Fílon deve ser justificada");
+  // A convenção também deve valer para futuros escritores, sem CSS individual.
+  const defaultAuthorBio=await page.evaluate(()=>{
+    const node=document.createElement("p");
+    node.className="author-biography";
+    node.lang="pt-BR";
+    node.textContent="Texto biográfico de um futuro escritor.";
+    document.getElementById("site-section-hub").append(node);
+    const computed=getComputedStyle(node);
+    const value={align:computed.textAlign,last:computed.textAlignLast};
+    node.remove();
+    return value;
+  });
+  assert.deepEqual(defaultAuthorBio,{align:"justify",last:"start"});
   assert.doesNotMatch(await page.locator(".site-philo-profile__bio").textContent(),/\d+ seções/);
   const portrait=page.locator(".site-philo-profile__portrait img");
   assert.match(await portrait.getAttribute("src"),/PhiloThevet\.jpg$/);
