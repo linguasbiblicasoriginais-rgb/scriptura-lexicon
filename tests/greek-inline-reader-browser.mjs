@@ -56,8 +56,12 @@ try{
  await page.locator("#greek-work").evaluate(el=>{
    el.value="filon-tlg001";el.dispatchEvent(new Event("change",{bubbles:true}));
  });
- assert.equal(await page.locator("#greek-inline-reader").isVisible(),false);
- assert.equal(await page.locator("#greek-authors-submit").isVisible(),true);
+ await page.locator('#philo-op-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
+ assert.equal(await page.locator("#greek-inline-reader").isVisible(),true);
+ assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
+ assert.equal(await page.locator("#filon-opificio-reader").evaluate(el=>el.parentElement.id),"greek-inline-reader");
+ assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg001");
+ assert.match(page.url(),/#filon\/de-opificio-mundi\/1$/);
  // Um endereço compartilhado deve abrir a seção correta E manter a seleção.
  const direct=await browser.newPage({viewport:{width:1280,height:900}});
  direct.on("pageerror",e=>errors.push(e.message));
