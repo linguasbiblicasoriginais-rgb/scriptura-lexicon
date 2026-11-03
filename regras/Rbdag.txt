@@ -2781,3 +2781,36 @@ Estrutura: módulo lexicons/bdag-part-0056.js após lexicons/bdag-part-0055.js, 
 Auditabilidade: revisão, colação textual e validação estática executadas; AUDITORIA ATÔMICA NÃO CONCLUÍDA (regras/Rauditoria.txt), pois dependem ainda de certificação integral individual, testes funcionais/CI e integração PR/merge pela rotina exclusivamente autorizada. Não incrementar contador de auditados por simples incorporação.
 Somente a confirmação do HEAD Git remoto e dos arquivos do commit constitui prova de publicação.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἀχάριστος → ἀψηλάφητος — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: d339103568cd58cb15f262276921d64bd3b2235c. Fonte canônica: HTML Bauer–Danker da Biblioteca Scriptura Lexicon (30.790.409 bytes), efetivamente consultado nesta execução entre as linhas 22121 e 22251. Primeira entrada ἀχάριστος, ον; vigésima ἀψηλάφητος, ον; próxima ἀψίνθιον, ου, τό.
+Tradução original para este lote, baseada diretamente no texto canônico, preservando citações, formas, remissões e a polissemia. Rascunhos temporários na base de objetos Git, sem referência de árvore: ca96b9d3413f03cf4d149df1d6483f8c9eb2f292 e 503f89cf5d38ec071f888fc32783bc5eee7e1595.
+Colação individual concluída na primeira leitura bem-sucedida do HTML: cabeçalhos consecutivos; 340 marcadores numéricos e 104 expressões gregas identificados; sem ausências nos controles de presença, após regularizar a expressão grega εὔχρηστος, χρηστός em ἄχρηστος. Pormenores das acepções ἀχλύς (2), ἀχρεῖος (2), ἀχρειόω (2), ἄχρι (2 com subdivisões) revisados e preservados.
+Limitação técnica de transparência: após a leitura completa e a colação bem-sucedida no mesmo ciclo, tentativas posteriores de reler o HTML retornaram "No readable content was found" e não puderam constituir uma nova conferência independente. A evidência de colação refere-se estritamente à primeira leitura, não à repetição malsucedida. Não interpretar ausência na ferramenta como validação adicional.
+Resultados por entrada (controle de presença, não auditoria atômica):
+1. ἀχάριστος, ον: fonte=428 caracteres textuais; tradução=431; marcadores numéricos=27; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+2. Ἀχάς: fonte=13 caracteres textuais; tradução=9; marcadores numéricos=0; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+3. ἀχειροποίητος, ον: fonte=279 caracteres textuais; tradução=292; marcadores numéricos=11; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+4. Ἁχελδαμάχ: fonte=23 caracteres textuais; tradução=14; marcadores numéricos=0; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+5. Ἀχερούσιος, α, ον: fonte=574 caracteres textuais; tradução=578; marcadores numéricos=8; expressões gregas=5; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+6. ἀχθῆναι, ἀχθήσεσθαι: fonte=27 caracteres textuais; tradução=8; marcadores numéricos=0; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+7. ἄχθομαι, ὁ: fonte=412 caracteres textuais; tradução=459; marcadores numéricos=7; expressões gregas=3; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+8. Ἀχίμ, ὁ: fonte=80 caracteres textuais; tradução=122; marcadores numéricos=1; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+9. ἀχλύς, ύος, ἡ: fonte=806 caracteres textuais; tradução=859; marcadores numéricos=27; expressões gregas=4; subdivisões da fonte=2; omissões detectadas no cotejo inicial=0.
+10. ἀχρεῖος, ον: fonte=1237 caracteres textuais; tradução=1408; marcadores numéricos=24; expressões gregas=6; subdivisões da fonte=2; omissões detectadas no cotejo inicial=0.
+11. ἀχρειόω: fonte=601 caracteres textuais; tradução=812; marcadores numéricos=22; expressões gregas=7; subdivisões da fonte=2; omissões detectadas no cotejo inicial=0.
+12. ἄχρηστος, ον: fonte=682 caracteres textuais; tradução=761; marcadores numéricos=16; expressões gregas=10; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+13. ἄχρι: fonte=3709 caracteres textuais; tradução=4156; marcadores numéricos=120; expressões gregas=35; subdivisões da fonte=4; omissões detectadas no cotejo inicial=0.
+14. ἄχρονος, ον: fonte=298 caracteres textuais; tradução=288; marcadores numéricos=7; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+15. ἄχυρον, ου, τό: fonte=297 caracteres textuais; tradução=334; marcadores numéricos=10; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+16. ἀχώρητος, ον: fonte=313 caracteres textuais; tradução=336; marcadores numéricos=7; expressões gregas=4; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+17. ἀχώριστος, ον: fonte=363 caracteres textuais; tradução=379; marcadores numéricos=12; expressões gregas=6; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+18. ἀψευδής, ές: fonte=553 caracteres textuais; tradução=639; marcadores numéricos=17; expressões gregas=6; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+19. ἄψευστος, ον: fonte=218 caracteres textuais; tradução=229; marcadores numéricos=13; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+20. ἀψηλάφητος, ον: fonte=342 caracteres textuais; tradução=328; marcadores numéricos=11; expressões gregas=4; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+Módulo lexicons/bdag-part-0057.js acrescentado após lexicons/bdag-part-0056.js no manifesto, com 20 pares search-row/entry-card, IDs exclusivos e correspondência 1:1. Módulos anteriores, bibliographicTerms e demais léxicos mantidos.
+Contagem estrutural esperada: 1.361 → 1.381 pares BDAG; 57 módulos. Próximo lema ἀψίνθιον, ου, τό. Nenhum novo popup nem URL externa.
+Status do padrão regras/Rauditoria.txt: AUDITORIA ATÔMICA NÃO CONCLUÍDA; pendem colação integral individual certificada, testes funcionais/CI e integração PR/merge pela rotina competente. Não incrementar total_auditoria_concluida.
+================================================================================
