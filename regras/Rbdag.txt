@@ -2717,3 +2717,15 @@ Popups BDAG adicionados: nenhum. URLs externas novas: nenhuma.
 Estado RAUDITORIA: EM_EXECUCAO / NAO CONCLUIDA; faltam fichas de evidência individual integral, teste funcional de DOM e integração PR/merge por integrador autorizado, sem qualquer alegação de AUDITORIA_CONCLUIDA.
 Este registro é documental, não acrescenta um verbete e não informa SHA autorreferencial. Conferir o commit publicado e o HEAD após movimentação da referência remota.
 ================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO ἀφανίζω → ἀφήκω — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD de partida 64707540fc0b54cc1fbe9d453948359002402fc1. Fonte primária exclusiva: HTML canônico de Bauer–Danker na Biblioteca do Scriptura Lexicon, linhas 21778–21878, confrontadas nesta execução.
+20 lemas consecutivos: ἀφανίζω; ἀφανισμός, οῦ, ὁ; ἄφαντος, ον; ἄφεδρος, ου, ἡ; ἀφεδρών, ῶνος, ὁ; ἀφέθην, ἀφεθήσομαι; ἀφειδία, ας, ἡ; ἀφεῖδον; ἀφεῖλον; ἀφεῖναι; ἀφείς, ἀφεῖς; ἀφελεῖν; ἀφελότης, ητος, ἡ; ἀφελπίζω; ἀφελῶ, ἀφέλωμαι; ἄφεσις, έσεως, ἡ; ἄφετε, ἀφέωνται; ἁφή, ῆς, ἡ; ἀφῆκα; ἀφήκω.
+Rascunho preliminar: blob Git 02482ee80b143d6e1a834cbdf57c16f62d97877e. Tradução cotejada com o HTML quanto a todos os cabeçalhos, referências numéricas identificadas, expressões gregas identificadas, bem como revisão textual de artigos longos e remissivos. Correções: ἀφανίζω, referência da LXX 2 Km 15:30 normalizada para 2Sm 15:30, não 2Rs 15:30; glosa de pesquisa de ἄφαντος tornada gramaticalmente explícita para a expressão ἄ. γίνεσθαι. Não se acrescentou conteúdo não atestado no HTML.
+Módulo acrescentado: lexicons/bdag-part-0054.js, inserido após lexicons/bdag-part-0053.js em lexicon-modules.json; 20 search-row e 20 entry-card, IDs e alvos únicos e alinhados, sem alterações nos módulos preexistentes, em bibliographicTerms ou em outros léxicos.
+Contagem BDAG esperada e a confirmar remotamente: 1301 → 1321 pares; 54 módulos BDAG; próximo lema canônico: ἀφήσω. URLs novas: 0. Popups BDAG adicionados: nenhum.
+Rigor de auditoria: controle estrutural e colação parcial comprovados; ainda NÃO representa AUDITORIA_CONCLUIDA nos termos de regras/Rauditoria.txt, pois requer fichas filológicas individuais exaustivas, regressão funcional DOM, CI e integração por PR/merge executados pela rotina competente. Não incrementar contador de auditoria concluída.
+O SHA da publicação deverá ser identificado por consulta ao HEAD remoto; evitar SHA autorreferencial.
+================================================================================
