@@ -1,4 +1,25 @@
 ================================================================================
+BDAG — FRAGMENTAÇÃO EQUIVALENTE EM MÓDULOS — 03/11/2026
+================================================================================
+Por determinação expressa do mantenedor, fica autorizada a divisão do antigo
+arquivo monolítico lexicons/bdag.js em módulos menores, preservando todos os
+verbetes e suas relações linha/cartão. lexicons/bdag.js conserva os metadados
+canônicos, incluindo bibliographicTerms; os módulos adicionais se chamam
+lexicons/bdag-part-NNNN.js e são registrados em lexicon-modules.json,
+imediatamente após lexicons/bdag.js, na ordem original.
+Cada módulo adicional registra window.ScripturaLexicons.BDAG_PART_NNNN com
+source: "BDAG", rowsHtml e cardsHtml, sem duplicar bibliographicTerms.
+A compilação padrão scripts/build-on-demand.mjs processa esses módulos.
+Esta migração é exclusivamente estrutural: não equivale à tradução de novos
+verbetes nem à certificação filológica. Os 1.261 pares originais devem
+permanecer semanticamente e textualmente idênticos após a concatenação.
+Qualquer incorporação posterior deve respeitar o HTML canônico exclusivo do
+BDAG e as exigências de tradução, colação, testes e auditoria.
+Esta autorização pontual de alteração de lexicon-modules.json para a
+fragmentação não autoriza mudanças em outros léxicos ou na infraestrutura.
+================================================================================
+
+================================================================================
 NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
 ================================================================================
 A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
