@@ -25,7 +25,7 @@
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
     '<h1 id="philo-cong-title">'+DISPLAY_TITLE_HTML+'</h1>',
-    '<p class="scripture-reader-intro">Sobre a união para a educação · edição Paul Wendland (1898) · divisão original em 180 seções (§)</p>',
+    '<p class="scripture-reader-intro">Sobre a união para a educação · edição Paul Wendland (1898)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-cong-section">Seção (§)<select id="philo-cong-section"></select></label>',
     '</div>',
