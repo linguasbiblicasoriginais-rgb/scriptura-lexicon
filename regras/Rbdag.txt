@@ -2935,3 +2935,38 @@ Checkpoint estrutural: 1.424 → 1.444 pares BDAG; 61 módulos BDAG; próximo le
 Estado sob regras/Rauditoria.txt: AUDITORIA ATÔMICA NÃO CONCLUÍDA; faltam certificação exaustiva por verbete, testes funcionais reais de DOM/CI e PR/merge pela rotina de integração. Não alterar total_auditoria_concluida. Nenhum popup nem URL externa criado neste lote.
 Publicação somente comprovada por commit Git e reconsulta ao HEAD remoto.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βδέλυγμα → βελτίων — 03/11/2026
+================================================================================
+Branch exclusiva de trabalho: chat-gpt-bdag; HEAD pai fceefa8a528a71c50fec7fc11f2a44eace993926.
+Fonte canônica: Bauer–Danker, A Greek-English Lexicon of the New Testament and Other Early Christian Literature, HTML da Biblioteca Scriptura Lexicon (30.790.409 bytes), linhas 22859–22988. Vinte verbetes consecutivos de βδέλυγμα, ατος, τό até βελτίων, ον; o próximo é Βενιαμ(ε)ίν, ὁ (linha 22989).
+Traduções completas preparadas com distinção das camadas fonte/tradução, acepções, remissões, flexões, citações e bibliografia, preservando que βεβαμμένος, βέβληκα/βέβλημαι, βέβρωκα e Βελζεθά são verbetes remissivos. Foram preservadas como dados da fonte as hipóteses filológicas, inclusive a incerteza sobre a etimologia de Βεελζεβούλ e a ausência de comprovação para a identificação do 'olho da agulha' como uma porta estreita. Referências à Septuaginta foram convertidas à nomenclatura portuguesa dos livros do Antigo Testamento, por exemplo 3Km = 1Rs, 4Km = 2Rs, sem modificar o texto fonte. Omissões de citações gregas/hebraicas e referências não foram detectadas nos controles.
+Inventário auxiliar do HTML canônico: blob Git 3132840892824f8416f7e55c42cd4448b872c294 (objeto provisório sem registro na árvore), gerado a partir de vinte fragmentos consecutivos; colação determinística de 390 marcadores numéricos distintos por verbete e 140 ocorrências gregas/hebraicas, todos presentes nos respectivos textos. Isso é comprovação de presença de marcadores, NÃO certificação exaustiva de equivalência semântica de cada palavra. Artigos de maior densidade: βέβαιος, βεβαιόω e βδέλυγμα.
+Rascunhos de preparação, não incorporados como arquivos: e48e47cf4f9c345952dcf3d88eebc6f6b17d36b4; 1fd59ed0b064ddd492880ce2cb38adb10c08890e; ec41d620df267f2e13dc3587ab300ddaade68e86.
+Conservadas as estruturas search-row/entry-card, 20 IDs únicos, pareamento data-target/id 1:1, HTML balanceado; sem URLs externas ou popups. Novo arquivo lexicons/bdag-part-0062.js, após lexicons/bdag-part-0061.js no manifesto, com todos os módulos anteriores e outros léxicos intactos.
+Evidências individuais:
+01. βδέλυγμα, ατος, τό | linha 22859 | fonte 1763 caracteres | tradução 1943 caracteres | 40 marcadores numéricos | 14 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+02. βδελυκτός, ή, όν | linha 22871 | fonte 446 caracteres | tradução 487 caracteres | 16 marcadores numéricos | 3 expressões gregas/hebraicas | divisões: ⓐⓑ | falhas de presença: 0
+03. βδελύσσομαι | linha 22882 | fonte 916 caracteres | tradução 1062 caracteres | 36 marcadores numéricos | 9 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+04. βέβαιος, α, ον | linha 22887 | fonte 2936 caracteres | tradução 3163 caracteres | 51 marcadores numéricos | 29 expressões gregas/hebraicas | divisões: ①②③ | falhas de presença: 0
+05. βεβαιόω | linha 22902 | fonte 1934 caracteres | tradução 2167 caracteres | 46 marcadores numéricos | 19 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+06. βεβαίως | linha 22914 | fonte 595 caracteres | tradução 670 caracteres | 19 marcadores numéricos | 6 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+07. βεβαίωσις, εως, ἡ | linha 22925 | fonte 615 caracteres | tradução 647 caracteres | 10 marcadores numéricos | 5 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+08. βεβαιωσύνη, ης, ἡ | linha 22929 | fonte 162 caracteres | tradução 164 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+09. βεβαμμένος | linha 22933 | fonte 20 caracteres | tradução 10 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+10. βέβηλος, ον | linha 22938 | fonte 1074 caracteres | tradução 1116 caracteres | 30 marcadores numéricos | 5 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+11. βεβηλόω | linha 22949 | fonte 610 caracteres | tradução 732 caracteres | 21 marcadores numéricos | 9 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+12. βέβληκα, βέβλημαι | linha 22953 | fonte 27 caracteres | tradução 10 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+13. βέβρωκα | linha 22957 | fonte 20 caracteres | tradução 13 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+14. Βεελζεβούλ, ὁ | linha 22961 | fonte 1079 caracteres | tradução 1276 caracteres | 24 marcadores numéricos | 13 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+15. Βελζεθά | linha 22965 | fonte 20 caracteres | tradução 12 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+16. Βελιάρ, ὁ | linha 22969 | fonte 930 caracteres | tradução 1084 caracteres | 27 marcadores numéricos | 5 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+17. βελόνη, ης, ἡ | linha 22973 | fonte 405 caracteres | tradução 431 caracteres | 19 marcadores numéricos | 3 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+18. βέλος, ους, τό | linha 22977 | fonte 407 caracteres | tradução 460 caracteres | 11 marcadores numéricos | 4 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+19. βελτιόω | linha 22981 | fonte 307 caracteres | tradução 330 caracteres | 13 marcadores numéricos | 2 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+20. βελτίων, ον | linha 22985 | fonte 658 caracteres | tradução 761 caracteres | 27 marcadores numéricos | 9 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+Checkpoint estrutural: 1.444 → 1.464 pares BDAG; 62 módulos; próximo Βενιαμ(ε)ίν, ὁ.
+Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendem certificação filológica exaustiva, testes funcionais DOM, CI e eventual PR/merge autorizado. Não incrementar contagem de auditorias concluídas.
+Publicação somente comprovada por reconsulta remota do commit e HEAD.
+================================================================================
