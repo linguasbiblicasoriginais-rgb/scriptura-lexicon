@@ -319,7 +319,7 @@ const externalPhiloCatalog=Object.freeze([
   ],
   [
     "tlg027",
-    "Περὶ τοῦ πάντα σπουδαῖον εἶναι ἐλεύθερον",
+    "Περὶ τοῦ πάντα σπουδαῖον ἐλεύθερον εἶναι",
     "Quod omnis probus liber sit"
   ],
   [
