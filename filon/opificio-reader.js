@@ -8,6 +8,7 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg001.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg001.1st1K-grc1";
+  const DISPLAY_TITLE="Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De Opificio Mundi]";
   const SOURCE="https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0018/tlg001/tlg0018.tlg001.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -20,7 +21,7 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-op-title"><span lang="la">De Opificio Mundi</span></h1>',
+    '<h1 id="philo-op-title"><span lang="grc">Περὶ τῆς κατὰ μωυσέα κοσμοποιίας</span> <span lang="la">[De Opificio Mundi]</span></h1>',
     '<p class="scripture-reader-intro">Sobre a criação do mundo · edição Leopold Cohn (1896) · divisão original em 172 seções (§)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-op-section">Seção (§)<select id="philo-op-section"></select></label>',
@@ -30,11 +31,15 @@
     '<button type="button" id="philo-op-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">De Opificio Mundi · Fílon · Cohn, Opera quae supersunt, vol. I</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE+' · Fílon · Cohn, Opera quae supersunt, vol. I</div>',
     '<h2 id="philo-op-heading"></h2>',
     '<p id="philo-op-status" class="philo-status" role="status"></p>',
     '<div id="philo-op-text" class="philo-text" lang="grc"></div>',
     '<button id="philo-op-retry" type="button" hidden>Tentar carregar novamente</button>',
+    '</div>',
+    '<div class="scripture-reader-navigation philo-navigation-bottom" aria-label="Navegação ao final das seções">',
+    '<button type="button" id="philo-op-prev-bottom">← Seções anteriores</button>',
+    '<button type="button" id="philo-op-next-bottom">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-actions">',
     '<a href="'+SOURCE+'" target="_blank" rel="noopener noreferrer">Consultar TEI-XML original ↗</a>',
@@ -48,8 +53,9 @@
   const el=name=>panel.querySelector("#philo-op-"+name);
   const sectionSelect=el("section"),area=el("text"),heading=el("heading");
   const status=el("status"),prev=el("prev"),next=el("next");
+  const prevBottom=el("prev-bottom"),nextBottom=el("next-bottom");
   const retry=el("retry"),copy=el("copy"),feedback=el("feedback");
-  const BATCH=12;
+  const BATCH=25;
   let sections=null;
   let loading=null;
   let generation=0;
@@ -106,7 +112,7 @@
     article.className="philo-section";
     article.dataset.philoSection=String(number);
     article.tabIndex=0;
-    article.setAttribute("aria-label","De Opificio Mundi, seção "+number);
+    article.setAttribute("aria-label",DISPLAY_TITLE+", seção "+number);
     const top=document.createElement("div");
     top.className="philo-section-reading";
     const numeral=document.createElement("span");
@@ -157,11 +163,11 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent="De Opificio Mundi · §§ "+rangeStart(selected)+"–"+
+    heading.textContent=DISPLAY_TITLE+" · §§ "+rangeStart(selected)+"–"+
       Math.min(172,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
-    prev.disabled=rangeStart(selected)===1;
-    next.disabled=rangeStart(selected)+BATCH>172;
+    prev.disabled=prevBottom.disabled=rangeStart(selected)===1;
+    next.disabled=nextBottom.disabled=rangeStart(selected)+BATCH>172;
   }
   function render(){
     const start=rangeStart(selected),end=Math.min(172,start+BATCH-1);
@@ -244,6 +250,8 @@
   });
   prev.addEventListener("click",()=>{if(selected>1)activate(Math.max(1,rangeStart(selected)-BATCH),true);});
   next.addEventListener("click",()=>{if(selected<172)activate(Math.min(172,rangeStart(selected)+BATCH),true);});
+  prevBottom.addEventListener("click",()=>{prev.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
+  nextBottom.addEventListener("click",()=>{next.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
   retry.addEventListener("click",()=>show(selected,false));
   copy.addEventListener("click",()=>{
     const citation="Fílon de Alexandria, De Opificio Mundi § "+selected+
