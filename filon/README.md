@@ -12,8 +12,12 @@ Quatro obras contêm livros identificados separadamente no catálogo, em sequên
 
 Assim, **31 tratados** correspondem a **38 opções de seleção**. A apresentação por livro **não implica incorporação textual** dos 20 tratados ainda externos: cada opção externa conserva o endereço da obra no Perseus/Scaife, sem fabricar URNs, seções ou arquivos TEI de livros ainda ausentes.
 
-Os **11 leitores locais** exibem agora **25 seções por lote**, respeitando a divisão original e preservando os identificadores de seção das URLs. A navegação anterior/próxima aparece **antes e depois do texto**, com botões inferiores sincronizados com os superiores. Os testes de navegador verificam títulos, ordem, distinção entre obras locais e externas, paginação, referências e navegação inferior.
+Os **11 leitores locais** exibem agora **25 seções por lote**, respeitando a divisão original e preservando os identificadores de seção das URLs.
 
+**Resumo introdutório dos leitores:** a linha abaixo do título exibe apenas a descrição da obra e a edição (editor e ano), sem a quantidade total de seções do original. Esta decisão é exclusiva da apresentação: os números das seções seguem disponíveis no seletor, na paginação e na documentação técnica. A navegação anterior/próxima aparece **antes e depois do texto**, com botões inferiores sincronizados com os superiores. Os testes de navegador verificam títulos, ordem, distinção entre obras locais e externas, paginação, referências e navegação inferior.
+
+
+A forma grega do tratado `tlg027` no catálogo foi corrigida para **Περὶ τοῦ πάντα σπουδαῖον ἐλεύθερον εἶναι** [*Quod omnis probus liber sit*], sem modificar qualquer fonte TEI.
 
 ## Identificação filológica da fonte
 
