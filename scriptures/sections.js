@@ -162,6 +162,7 @@ function showHub(section){
  window.ScripturaPhiloAeternitate?.hide();
  window.ScripturaPhiloAgricultura?.hide();
  window.ScripturaPhiloOpificio?.hide();
+ window.ScripturaPhiloLegumI?.hide();
  window.ScripturaPhiloCherubim?.hide();
  window.ScripturaPhiloConfusione?.hide();
  window.ScripturaPhiloCongressu?.hide();
@@ -230,6 +231,7 @@ function showDictionary(){
  window.ScripturaPhiloAeternitate?.hide();
  window.ScripturaPhiloAgricultura?.hide();
  window.ScripturaPhiloOpificio?.hide();
+ window.ScripturaPhiloLegumI?.hide();
  window.ScripturaPhiloCherubim?.hide();
  window.ScripturaPhiloConfusione?.hide();
  window.ScripturaPhiloCongressu?.hide();
@@ -258,6 +260,7 @@ function handleHash(){
  if(window.ScripturaPhiloAeternitate?.isPhiloHash())return window.ScripturaPhiloAeternitate.showFromHash();
  if(window.ScripturaPhiloAgricultura?.isPhiloHash())return window.ScripturaPhiloAgricultura.showFromHash();
  if(window.ScripturaPhiloOpificio?.isPhiloHash())return window.ScripturaPhiloOpificio.showFromHash();
+ if(window.ScripturaPhiloLegumI?.isPhiloHash())return window.ScripturaPhiloLegumI.showFromHash();
  if(window.ScripturaPhiloCherubim?.isPhiloHash())return window.ScripturaPhiloCherubim.showFromHash();
  if(window.ScripturaPhiloConfusione?.isPhiloHash())return window.ScripturaPhiloConfusione.showFromHash();
  if(window.ScripturaPhiloCongressu?.isPhiloHash())return window.ScripturaPhiloCongressu.showFromHash();

@@ -230,3 +230,20 @@ O leitor `filon/opificio-reader.js` reutiliza a apresentação existente e exibe
 - **Teste de integridade e interface:** `tests/filon-de-opificio-browser.mjs`, incorporado à execução de `.github/workflows/filon-catalog.yml`.
 
 A interface conserva o grego da edição digital, sem tradução, normalização nem conjecturas. A leitura em HTML não constitui reprodução diplomática da obra impressa. O catálogo passa a contabilizar **11 obras integrais de Fílon** e **20 com consulta externa**.
+
+
+## Legum allegoriarum — Livro I (Νόμων ἱερῶν ἀλληγορίας τῶν μετὰ τὴν ἑξαήμερον)
+
+- **Autor:** Fílon de Alexandria; grego antigo (`grc`).
+- **Unidade:** exclusivamente Livro I, §§ 1–108; os livros II e III continuam como consultas externas.
+- **Edição impressa:** Leopold Cohn (ed.), *Philonis Alexandrini Opera quae supersunt*, vol. I (Berlim: Reimer, 1896).
+- **Transcrição:** First1KGreek / Perseus (Universidade de Leipzig, 2014; revisão registrada em 2023-08-01).
+- **TLG:** `tlg0018.tlg002`; **CTS:** `urn:cts:greekLit:tlg0018.tlg002.1st1K-grc1:1` (passagens `:1.1`–`:1.108`).
+- **Fonte TEI dos três livros:** https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0018/tlg002/tlg0018.tlg002.1st1K-grc1.xml
+- **Git blob SHA da fonte integral:** `9e26b69b588c36751f1e1de8755b2e9325d39106`.
+- **Extrato local:** `filon/data/tlg0018.tlg002.1st1K-grc1.book1.xml`; **SHA:** `92ef99aa4a9f16e6071d9d4d51defda58585cb2e`.
+- **Licença da transcrição:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **Leitor:** `filon/legum-l1-reader.js`; rotas `#filon/legum-allegoriarum-i/1` a `#filon/legum-allegoriarum-i/108`.
+- **Teste:** `tests/filon-legum-l1-browser.mjs`, no workflow `filon-catalog.yml`.
+
+**Integridade filológica:** o TEI local mantém o cabeçalho bibliográfico e o elemento `div subtype="book" n="1"` exatamente como transcritos na fonte, com 108 seções consecutivas e 41 notas (40 de rodapé e uma marginal), variantes e sinais editoriais. É um **extrato estruturado** do XML dos livros I–III; por isso, seu SHA difere do original. A menção aos três livros no título original do cabeçalho preserva a proveniência, mas não indica incorporação de II e III. Não houve emenda, tradução, normalização ou reconstrução. O leitor separa as notas do texto, sem alegar reprodução diplomática da edição impressa.

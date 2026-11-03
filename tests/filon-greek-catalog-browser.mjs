@@ -18,7 +18,7 @@ try{
  assert.equal(works.length,38);
  // Metadados introdutórios: nunca exibir o total de seções da obra.
  const intros=await page.locator(".philo-reader .scripture-reader-intro").allTextContents();
- assert.equal(intros.length,11,"Cada um dos onze leitores locais deve apresentar uma introdução");
+ assert.equal(intros.length,12,"Cada um dos doze leitores locais deve apresentar uma introdução");
  for(const line of intros){
    assert.doesNotMatch(line,/divisão original em|\b\d+\s+seções\b|seções\s*\(§\)/i);
    assert.match(line,/ · edição .+\(\d{4}\)$/);
