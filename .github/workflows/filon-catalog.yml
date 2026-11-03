@@ -7,6 +7,7 @@ on:
       - 'scriptures/greek-authors.js'
       - 'scriptures/sections.js'
       - 'tests/filon-external-catalog-browser.mjs'
+      - 'tests/filon-greek-catalog-browser.mjs'
       - 'tests/filon-de-abrahamo-browser.mjs'
       - 'tests/filon-de-aeternitate-browser.mjs'
       - 'tests/filon-de-agricultura-browser.mjs'
@@ -52,6 +53,7 @@ jobs:
           node --check scriptures/greek-inline-reader.js
           node --check tests/greek-inline-reader-browser.mjs
           node --check tests/filon-external-catalog-browser.mjs
+          node --check tests/filon-greek-catalog-browser.mjs
           node --check tests/filon-de-abrahamo-browser.mjs
           node --check tests/filon-de-aeternitate-browser.mjs
           node --check tests/filon-de-agricultura-browser.mjs
@@ -73,6 +75,7 @@ jobs:
           sleep 2
       - name: Validar onze obras integrais e demais obras externas
         run: |
+          node tests/filon-greek-catalog-browser.mjs
           node tests/filon-external-catalog-browser.mjs
           node tests/filon-de-abrahamo-browser.mjs
           node tests/filon-de-aeternitate-browser.mjs
