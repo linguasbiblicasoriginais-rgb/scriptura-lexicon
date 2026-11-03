@@ -190,97 +190,97 @@ const externalPhiloCatalog=Object.freeze([
   [
     "tlg001",
     "Περὶ τῆς κατὰ μωυσέα κοσμοποιίας",
-    "De Opificio Mundi"
+    "De opificio mundi"
   ],
   [
     "tlg002",
     "Νόμων ἱερῶν ἀλληγορίας τῶν μετὰ τὴν ἑξαήμερον",
-    "Legum Allegoriarum"
+    "Legum allegoriarum"
   ],
   [
     "tlg003",
     "Περὶ τῶν Χερουβὶμ καὶ τῆς φλογίνης ῥομφαίας καὶ τοῦ κτισθέντος πρώτου ἐξ ἀνθρώπου Κάιν",
-    "De Cherubim"
+    "De cherubim"
   ],
   [
     "tlg004",
     "Περὶ γενέσεως Ἄβελ καὶ ὧν αὐτός τε καὶ ὁ ἀδελφὸς αὐτοῦ Κάιν ἱερουργοῦσιν",
-    "De Sacrificiis Abelis et Caini"
+    "De sacrificiis Abelis et Caini"
   ],
   [
     "tlg005",
     "Περὶ τοῦ τὸ χεῖρον τῷ κρείττονι φιλεῖν ἐπιτίθεσθαι",
-    "Quod Deterius Potiori Insidiari Soleat"
+    "Quod deterius potiori insidiari soleat"
   ],
   [
     "tlg006",
     "Περὶ τῶν τοῦ δοκησισόφου Κάιν ἐγγόνων καὶ ὡς μετανάστης γίνεται",
-    "De Posteritate Caini"
+    "De posteritate Caini"
   ],
   [
     "tlg007",
     "Περὶ γιγάντων",
-    "De Gigantibus"
+    "De gigantibus"
   ],
   [
     "tlg008",
     "Ὅτι ἄτρεπτον τὸ θεῖον",
-    "Quod Deus sit Immutabilis"
+    "Quod Deus sit immutabilis"
   ],
   [
     "tlg009",
     "Περὶ γεωργίας",
-    "De Agricultura"
+    "De agricultura"
   ],
   [
     "tlg010",
     "Περὶ φυτουργίας Νῶε τὸ δεύτερον",
-    "De Plantatione"
+    "De plantatione"
   ],
   [
     "tlg011",
     "Περὶ μέθης",
-    "De Ebrietate"
+    "De ebrietate"
   ],
   [
     "tlg012",
     "Περὶ ὧν νήψας ὁ Νῶε εὔχεται καὶ καταρᾶται",
-    "De Sobrietate"
+    "De sobrietate"
   ],
   [
     "tlg013",
     "Περὶ συγχύσεως διαλέκτων",
-    "De Confusione Linguarum"
+    "De confusione linguarum"
   ],
   [
     "tlg014",
     "Περὶ ἀποικίας",
-    "De Migratione Abrahami"
+    "De migratione Abrahami"
   ],
   [
     "tlg015",
     "Περὶ τοῦ τίς ὁ τῶν θείων ἐστὶν κληρονόμος καὶ περὶ τῆς εἰς τὰ ἴσα καὶ ἐναντία τομῆς",
-    "Quis Rerum Divinarum Heres Sit"
+    "Quis rerum divinarum heres sit"
   ],
   [
     "tlg016",
     "Περὶ τῆς πρὸς τὰ προπαιδεύματα συνόδου",
-    "De Congressu Eruditionis Gratia"
+    "De congressu eruditionis gratia"
   ],
   [
     "tlg017",
     "Περὶ φυγῆς καὶ εὑρέσεως",
-    "De Fuga et Inventione"
+    "De fuga et inventione"
   ],
   [
     "tlg018",
     "Περὶ τῶν μετονομαζομένων καὶ ὧν ἕνεκα μετονομάζονται",
-    "De Mutatione Nominum"
+    "De mutatione nominum"
   ],
   [
     "tlg019",
     "Περὶ τοῦ θεοπέμπτους εἶναι τοὺς ὀνείρους",
-    "De Somniis"
+    "De somniis"
   ],
   [
     "tlg020",
@@ -295,22 +295,22 @@ const externalPhiloCatalog=Object.freeze([
   [
     "tlg022",
     "Περὶ τοῦ βίου Μωυσέως",
-    "De Vita Mosis"
+    "De vita Mosis"
   ],
   [
     "tlg023",
     "Περὶ τῶν δέκα λόγων, οἳ κεφάλαια νόμων εἰσίν",
-    "De Decalogo"
+    "De decalogo"
   ],
   [
     "tlg024",
     "Περὶ τῶν ἐν μέρει διαταγμάτων εἰς δύο κεφάλαια τῶν δέκα λόγων",
-    "Specialibus Legibus"
+    "Specialibus legibus"
   ],
   [
     "tlg025",
     "Περὶ ἀρετῶν ἃς σὺν ἄλλαις ἀνέγραψε Μωυσῆς",
-    "De Virtutibus"
+    "De virtutibus"
   ],
   [
     "tlg026",
@@ -340,7 +340,7 @@ const externalPhiloCatalog=Object.freeze([
   [
     "tlg031",
     "Πρεσβεία πρὸς Γάιον",
-    "Embaixada a Gaio"
+    "Legatio ad Gaium"
   ]
 ]);
  // Livros distintos, sem fingir que esses textos já foram incorporados localmente.
