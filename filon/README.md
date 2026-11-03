@@ -2,7 +2,7 @@
 
 ## Organização editorial do catálogo e paginação (novembro de 2026)
 
-A apresentação do catálogo adota **a ordem dos 31 tratados identificados por TLG 0018.001–031**, e não a antiga ordem alfabética dos títulos latinos. Cada entrada traz o **título grego fornecido na lista editorial**, seguido do título de referência entre colchetes: `grego [latim]`. A alteração diz respeito às legendas da interface; não modifica o título preservado nos `teiHeader` nem o texto grego original.
+A apresentação do catálogo adota **a ordem dos 31 tratados identificados por TLG 0018.001–031**, e não a antiga ordem alfabética dos títulos latinos. Cada entrada traz o **título grego fornecido na lista editorial**, seguido do título latino entre colchetes: `grego [*latim*]`. O latim conserva apenas a inicial maiúscula e os nomes próprios conforme a lista editorial; sua composição tipográfica é **itálica** no seletor, no cabeçalho e na indicação do texto. O grego e os colchetes continuam em redondo. A alteração diz respeito às legendas da interface; não modifica o título preservado nos `teiHeader` nem o texto grego original.
 
 Quatro obras contêm livros identificados separadamente no catálogo, em sequência:
 - `tlg002` — *Legum Allegoriarum*, livros I–III.
