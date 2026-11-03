@@ -8,7 +8,10 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg029.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg029.1st1K-grc1";
-  const DISPLAY_TITLE="Περὶ ἀφθαρσίας κόσμου [De aeternitate mundi]";
+  const GREEK_TITLE="Περὶ ἀφθαρσίας κόσμου";
+  const LATIN_TITLE="De aeternitate mundi";
+  const DISPLAY_TITLE=GREEK_TITLE+" ["+LATIN_TITLE+"]";
+  const DISPLAY_TITLE_HTML='<span lang="grc">'+GREEK_TITLE+'</span> [<em lang="la">'+LATIN_TITLE+'</em>]';
   const SOURCE="https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg029/tlg0018.tlg029.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -21,7 +24,7 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-aet-title"><span lang="grc">Περὶ ἀφθαρσίας κόσμου</span> <span lang="la">[De aeternitate mundi]</span></h1>',
+    '<h1 id="philo-aet-title">'+DISPLAY_TITLE_HTML+'</h1>',
     '<p class="scripture-reader-intro">Sobre a eternidade do mundo · edição Leopold Cohn e Siegfried Reiter (1915) · divisão original em 150 seções (§)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-aet-section">Seção (§)<select id="philo-aet-section"></select></label>',
@@ -31,7 +34,7 @@
     '<button type="button" id="philo-aet-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">'+DISPLAY_TITLE+' · Fílon · Cohn–Reiter, Opera quae supersunt, vol. VI</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE_HTML+' · Fílon · Cohn–Reiter, Opera quae supersunt, vol. VI</div>',
     '<h2 id="philo-aet-heading"></h2>',
     '<p id="philo-aet-status" class="philo-status" role="status"></p>',
     '<div id="philo-aet-text" class="philo-text" lang="grc"></div>',
@@ -163,7 +166,7 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent=DISPLAY_TITLE+" · §§ "+rangeStart(selected)+"–"+
+    heading.innerHTML=DISPLAY_TITLE_HTML+" · §§ "+rangeStart(selected)+"–"+
       Math.min(150,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
     prev.disabled=prevBottom.disabled=rangeStart(selected)===1;

@@ -5,6 +5,8 @@ on:
     paths:
       - 'filon/**'
       - 'scriptures/greek-authors.js'
+      - 'ui/form-controls.js'
+      - 'ui/form-controls.css'
       - 'scriptures/sections.js'
       - 'tests/filon-external-catalog-browser.mjs'
       - 'tests/filon-greek-catalog-browser.mjs'
@@ -49,6 +51,7 @@ jobs:
           node --check filon/fuga-reader.js
           node --check filon/gigantibus-reader.js
           node --check scriptures/greek-authors.js
+          node --check ui/form-controls.js
           node --check scriptures/sections.js
           node --check scriptures/greek-inline-reader.js
           node --check tests/greek-inline-reader-browser.mjs

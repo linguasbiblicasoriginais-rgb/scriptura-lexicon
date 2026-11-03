@@ -23,17 +23,54 @@ try{
    for(let book=1;book<=count;book++)expected.push(tag+(count>1?"-l"+book:""));
  }
  assert.deepEqual(works.map(w=>w.id),expected,"A ordem deve respeitar a lista de 31 tratados e livros I–IV");
- assert.equal(works[0].title,"Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De Opificio Mundi]");
- assert.equal(works.at(-1).title,"Πρεσβεία πρὸς Γάιον [Embaixada a Gaio]");
+ assert.equal(works[0].title,"Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De opificio mundi]");
+ assert.equal(works.at(-1).title,"Πρεσβεία πρὸς Γάιον [Legatio ad Gaium]");
  for(const w of works)assert.match(w.title,/\[[^\]]+\](?: · Livro (?:I|II|III|IV))?$/);
  assert.equal(works.find(w=>w.id==="filon-tlg002-l3").title,
-  "Νόμων ἱερῶν ἀλληγορίας τῶν μετὰ τὴν ἑξαήμερον [Legum Allegoriarum] · Livro III");
+  "Νόμων ἱερῶν ἀλληγορίας τῶν μετὰ τὴν ἑξαήμερον [Legum allegoriarum] · Livro III");
  assert.equal(works.find(w=>w.id==="filon-tlg019-l2").title,
-  "Περὶ τοῦ θεοπέμπτους εἶναι τοὺς ὀνείρους [De Somniis] · Livro II");
+  "Περὶ τοῦ θεοπέμπτους εἶναι τοὺς ὀνείρους [De somniis] · Livro II");
  assert.equal(works.find(w=>w.id==="filon-tlg022-l2").title,
-  "Περὶ τοῦ βίου Μωυσέως [De Vita Mosis] · Livro II");
+  "Περὶ τοῦ βίου Μωυσέως [De vita Mosis] · Livro II");
  assert.equal(works.find(w=>w.id==="filon-tlg024-l4").title,
-  "Περὶ τῶν ἐν μέρει διαταγμάτων εἰς δύο κεφάλαια τῶν δέκα λόγων [Specialibus Legibus] · Livro IV");
+  "Περὶ τῶν ἐν μέρει διαταγμάτων εἰς δύο κεφάλαια τῶν δέκα λόγων [Specialibus legibus] · Livro IV");
+
+ const expectedLatin=[
+  "De opificio mundi","Legum allegoriarum","De cherubim",
+  "De sacrificiis Abelis et Caini","Quod deterius potiori insidiari soleat",
+  "De posteritate Caini","De gigantibus","Quod Deus sit immutabilis",
+  "De agricultura","De plantatione","De ebrietate","De sobrietate",
+  "De confusione linguarum","De migratione Abrahami",
+  "Quis rerum divinarum heres sit","De congressu eruditionis gratia",
+  "De fuga et inventione","De mutatione nominum","De somniis",
+  "De Abrahamo","De Iosepho","De vita Mosis","De decalogo",
+  "Specialibus legibus","De virtutibus",
+  "De praemiis et poenis et exsecrationibus","Quod omnis probus liber sit",
+  "De vita contemplativa","De aeternitate mundi","In Flaccum",
+  "Legatio ad Gaium"
+ ];
+ const seenLatin=[];
+ for(const w of works){
+    const latin=/\[([^\]]+)\]/.exec(w.title)?.[1];
+   if(!latin)throw new Error("Título sem latim: "+w.id);
+   if(!seenLatin.includes(latin))seenLatin.push(latin);
+ }
+ assert.deepEqual(seenLatin,expectedLatin,"Capitalização exata dos 31 títulos latinos");
+
+ // O seletor customizado conserva o valor do SELECT e aplica itálico
+ // só ao elemento latino, mantendo o grego sem itálico.
+ await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
+ const first=page.locator('#lx-global-options [role="option"]').nth(1);
+ await first.waitFor({state:"visible"});
+ assert.equal(await first.locator('em.lx-latin-title').textContent(),"De opificio mundi");
+ assert.equal(await first.locator('[lang="grc"]').textContent(),"Περὶ τῆς κατὰ μωυσέα κοσμοποιίας");
+ assert.equal(await first.locator('em.lx-latin-title').evaluate(el=>getComputedStyle(el).fontStyle),"italic");
+ assert.notEqual(await first.locator('[lang="grc"]').evaluate(el=>getComputedStyle(el).fontStyle),"italic");
+ await first.click();
+ assert.equal(await page.locator('.lx-select[data-for="greek-work"] .lx-select-value em.lx-latin-title').textContent(),"De opificio mundi");
+ await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
+
 
  // Textos ainda externos permanecem externos, sem falsa incorporação por livro.
  await page.locator("#greek-work").evaluate(el=>{
@@ -50,7 +87,12 @@ try{
  await page.goto(base+"/#filon/de-opificio-mundi/1",{waitUntil:"domcontentloaded"});
  await page.locator('#philo-op-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#filon-opificio-reader h1").textContent(),
-  "Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De Opificio Mundi]");
+  "Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De opificio mundi]");
+ assert.equal(await page.locator('#filon-opificio-reader h1 em[lang="la"]').textContent(),"De opificio mundi");
+ assert.equal(await page.locator('#filon-opificio-reader h1 em[lang="la"]').evaluate(el=>getComputedStyle(el).fontStyle),"italic");
+ assert.notEqual(await page.locator('#filon-opificio-reader h1 [lang="grc"]').evaluate(el=>getComputedStyle(el).fontStyle),"italic");
+ assert.equal(await page.locator('#filon-opificio-reader .scripture-reader-category em[lang="la"]').textContent(),"De opificio mundi");
+ assert.equal(await page.locator('#philo-op-heading em[lang="la"]').textContent(),"De opificio mundi");
  assert.equal(await page.locator("#philo-op-text .philo-section").count(),25);
  assert.equal(await page.locator("#filon-opificio-reader .scripture-reader-navigation").count(),2);
  assert.equal(await page.locator("#philo-op-prev").isDisabled(),true);

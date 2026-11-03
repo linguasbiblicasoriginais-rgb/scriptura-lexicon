@@ -239,3 +239,7 @@
     .lx-option { padding: 7px 9px; }
     .lx-option .lx-hebrew { font-size: 1.2rem; }
 }
+
+/* Fílon: manter apenas o título latino em itálico dentro do seletor. */
+.lx-option-text:has(.lx-latin-title) { display:inline; overflow-wrap:anywhere; }
+.lx-option-text .lx-latin-title { font-style:italic; font-weight:inherit; }
