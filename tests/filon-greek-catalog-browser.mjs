@@ -20,8 +20,8 @@ try{
  const intros=await page.locator(".philo-reader .scripture-reader-intro").allTextContents();
  assert.equal(intros.length,11,"Cada um dos onze leitores locais deve apresentar uma introdução");
  for(const line of intros){
-   assert.doesNotMatch(line,/divisão original em|\\b\\d+\\s+seções\\b|seções\\s*\\(§\\)/i);
-   assert.match(line,/ · edição .+\\(\\d{4}\\)$/);
+   assert.doesNotMatch(line,/divisão original em|\b\d+\s+seções\b|seções\s*\(§\)/i);
+   assert.match(line,/ · edição .+\(\d{4}\)$/);
  }
  assert.ok(intros.includes("Sobre a criação do mundo · edição Leopold Cohn (1896)"));
 
