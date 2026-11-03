@@ -2865,3 +2865,38 @@ Checkpoint esperado 1.384 -> 1.404 pares BDAG, 59 módulos; próximo lema βαπ
 Auditoria segundo regras/Rauditoria.txt: EM_EXECUCAO / NÃO CONCLUÍDA; faltam colação exaustiva por verbete, testes funcionais DOM/CI e integração autorizada por PR/merge. Não incrementar o contador de auditorias concluídas.
 Conferir publicação exclusivamente por HEAD remoto, sem SHA autorreferencial no protocolo.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DOS 20 VERBETES βαπτιστής → βασανίζω — 03/11/2026
+================================================================================
+Branch de publicação exclusiva: chat-gpt-bdag. HEAD pai: c2adb903a6a5e7286ad35306c27e704e9673b9c3.
+Fonte canônica: HTML de Bauer–Danker na Biblioteca Scriptura Lexicon, 30.790.409 bytes, da linha 22475 (βαπτιστής, οῦ, ὁ) à linha 22641 (final de βασανίζω). Próximo cabeçalho βασανισμός, οῦ, ὁ, linha 22642.
+A colação baseou-se na leitura direta do HTML canônico durante a execução, com inventário auxiliar auditável de marcadores do HTML em blob Git 9c0ef40f0e4618c334ad4ed41eb2bbb12e03c5f7; esse objeto não foi integrado à árvore. O inventário abrange as 20 entradas, registra os cabeçalhos e limites, 487 marcadores numéricos distintos por verbete e 138 ocorrências de expressões gregas. Todos presentes nas traduções após correções. Esta correspondência por presença não constitui, isoladamente, certificação filológica integral nem prova de identidade textual literal.
+Tradução dos 20 artigos na ordem original, mantendo acepções, flexões, regência, remissões, variantes manuscritas, contexto histórico e referências bibliográficas. Verbetes de especial atenção: βάπτω (variantes e discussão de Ap 19:13), Βαραββᾶς (dois referentes), Βαραχίας (identificações discutidas), βάρβαρος (dois sentidos e distinção semântica de registro), βάρος (três acepções), Βαρσα(β)βᾶς (dois referentes), βαρύς (quatro sentidos) e βασανίζω (dois sentidos com subdivisões).
+Correções documentadas durante a colação: βάπτω, sigla manuscrita P 66 numericamente preservada; Βαρθολομαῖος, "12 apóstolos" em lugar de escrita por extenso; βάρος, citação grega τοῦ πολέμου explicitamente conservada; Βαρτιμαῖος, distinção entre códice D e testemunho latino antigo (it). A fonte original não foi alterada.
+Objetos provisórios de traduções no armazenamento Git, não incorporados como arquivos: e83f95053eee286c94908a31d931d3659942dff2; 3fd2d1750b4e75823b8d01cb311dbb947edd427c; 999d550e9d5dd1806b098ab4346ec3b4d26dcfa7. Módulo final lexicons/bdag-part-0060.js inserido após lexicons/bdag-part-0059.js no manifesto, mantendo todos os módulos preexistentes e os demais léxicos e bibliographicTerms intactos; 20 search-row e 20 entry-card, IDs únicos e pareamento data-target/id 1:1, HTML balanceado, nenhuma URL externa ou popup novo.
+Evidência individual de cotejo:
+01. βαπτιστής, οῦ, ὁ | linha 22475 do HTML | fonte 419 caracteres | tradução 437 caracteres | 21 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+02. βάπτω | linha 22479 do HTML | fonte 1384 caracteres | tradução 1602 caracteres | 33 marcadores numéricos | 19 expressões gregas | subdivisões: — | omissões detectadas: 0
+03. Βαρ | linha 22483 do HTML | fonte 15 caracteres | tradução 12 caracteres | 0 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+04. Βαραββᾶς, ᾶ, ὁ | linha 22488 do HTML | fonte 910 caracteres | tradução 1063 caracteres | 37 marcadores numéricos | 2 expressões gregas | subdivisões: ①② | omissões detectadas: 0
+05. Βαράκ, ὁ | linha 22499 do HTML | fonte 141 caracteres | tradução 147 caracteres | 4 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+06. Βαραχίας, ου, ὁ | linha 22503 do HTML | fonte 1188 caracteres | tradução 1255 caracteres | 27 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+07. βάρβαρος, ον | linha 22508 do HTML | fonte 2320 caracteres | tradução 2495 caracteres | 51 marcadores numéricos | 9 expressões gregas | subdivisões: ①②ⓐⓑ | omissões detectadas: 0
+08. βαρέω | linha 22526 do HTML | fonte 1739 caracteres | tradução 1915 caracteres | 40 marcadores numéricos | 22 expressões gregas | subdivisões: ⓐⓑ | omissões detectadas: 0
+09. βαρέως | linha 22537 do HTML | fonte 278 caracteres | tradução 355 caracteres | 16 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+10. Βαρθολομαῖος, ου, ὁ | linha 22541 do HTML | fonte 338 caracteres | tradução 322 caracteres | 11 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+11. Βαριησοῦ, ὁ | linha 22545 do HTML | fonte 217 caracteres | tradução 255 caracteres | 3 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+12. Βαριωνᾶ/Βαριωνᾶς, ᾶ, ὁ | linha 22549 do HTML | fonte 381 caracteres | tradução 407 caracteres | 17 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+13. Βαρναβᾶς, ᾶ, ὁ | linha 22553 do HTML | fonte 767 caracteres | tradução 851 caracteres | 30 marcadores numéricos | 2 expressões gregas | subdivisões: — | omissões detectadas: 0
+14. βάρος, ους, τό | linha 22558 do HTML | fonte 1500 caracteres | tradução 1765 caracteres | 42 marcadores numéricos | 17 expressões gregas | subdivisões: ①②③ | omissões detectadas: 0
+15. Βαρσα(β)βᾶς, ᾶ, ὁ | linha 22573 do HTML | fonte 783 caracteres | tradução 771 caracteres | 20 marcadores numéricos | 3 expressões gregas | subdivisões: ①② | omissões detectadas: 0
+16. Βαρτιμαῖος, ου, ὁ | linha 22584 do HTML | fonte 342 caracteres | tradução 421 caracteres | 7 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+17. βαρύνω | linha 22588 do HTML | fonte 570 caracteres | tradução 707 caracteres | 30 marcadores numéricos | 8 expressões gregas | subdivisões: — | omissões detectadas: 0
+18. βαρύς, εῖα, ύ | linha 22593 do HTML | fonte 2053 caracteres | tradução 2174 caracteres | 42 marcadores numéricos | 16 expressões gregas | subdivisões: ①②ⓐⓑ③④ | omissões detectadas: 0
+19. βαρύτιμος, ον | linha 22616 do HTML | fonte 214 caracteres | tradução 190 caracteres | 7 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+20. βασανίζω | linha 22621 do HTML | fonte 1725 caracteres | tradução 1992 caracteres | 49 marcadores numéricos | 18 expressões gregas | subdivisões: ①②ⓐⓑⓒ | omissões detectadas: 0
+Checkpoint estrutural esperado: 1.404 → 1.424 registros BDAG, 60 módulos. Próximo lema βασανισμός, οῦ, ὁ.
+Estado de auditoria nos termos de regras/Rauditoria.txt: EM_EXECUCAO / NÃO CONCLUÍDA; faltam certificação filológica exaustiva, regressão de interface real DOM/CI, evidência completa e integração PR/merge pela rotina competente. Não declarar AUDITORIA_CONCLUIDA nem incrementar total_auditoria_concluida.
+Provar publicação com consulta direta ao HEAD remoto depois do update_ref.
+================================================================================
