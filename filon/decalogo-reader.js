@@ -25,7 +25,7 @@
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
     '<h1 id="philo-deca-title">'+DISPLAY_TITLE_HTML+'</h1>',
-    '<p class="scripture-reader-intro">Sobre o Decálogo · edição Leopold Cohn (1902) · divisão original em 178 seções (§)</p>',
+    '<p class="scripture-reader-intro">Sobre o Decálogo · edição Leopold Cohn (1902)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-deca-section">Seção (§)<select id="philo-deca-section"></select></label>',
     '</div>',
