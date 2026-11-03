@@ -2698,3 +2698,22 @@ Contagem prevista: 1261 → 1281 pares. Próximo lema: αὔριον. Popups nov
 Status: NÃO CONCLUÍDA a auditoria atômica de Rauditoria.txt. Pendem controles adicionais de conteúdo e detalhes editoriais, teste funcional da interface, evidência individual e integração PR/merge por integrador autorizado.
 Verificar SHA de publicação efetivo pelo histórico Git; este registro não constitui verbete separado.
 ================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO αὔριον → ἀφανής — 03/11/2026
+================================================================================
+Branch: chat-gpt-bdag. HEAD pai confirmado antes da escrita: b57e768a01e57cfaa5d902b298a6d562dad5f9d8.
+Fonte: HTML canônico de Frederick William Danker e Walter Bauer, na Biblioteca do projeto; confronto dos vinte verbetes com a sequência e os testemunhos da fonte no contexto desta execução.
+Rascunhos recuperados de três objetos Git: d415f3d9563f78392cc3f73035cd771050e316e7; b020849d1b068a306bf623eeca6325836a252d19; 1022756c34b11d222b560244e899a1cebd938492. Não constituem publicação independente.
+Lemas: αὔριον; αὐστηρός, ά, όν; αὐτάρκεια, ας, ἡ; αὐτάρκης, ες; αὐτεπαίνετος, ον; αὐτοκατάκριτος, ον; αὐτολεξεί; αὐτόματος, η, ον; αὐτομολέω; αὐτόπτης, ου, ὁ; αὐτός, ή, ὁ; αὐτοσώρας; αὐτοῦ; αὐτόφωρος, ον; αὐτόχειρ, ρος; αὐχέω; αὐχμηρός, ά, όν; ἀφαιρέω; ἀφάνεια, ας, ἡ; ἀφανής, ές.
+Correções documentadas:
+1. No lema αὔριον, referência LXX 1 Km 11:11 normalizada a 1Sm 11:11 (não 1Rs).
+2. No lema αὐτός, restituídas as expressões gregas τοῦ τυφλοῦ e τ. Γαλιλαίων, preservadas as glosas portuguesas.
+3. IDs gerados de modo inequívoco para advérbios e demais lemas; validação dos 20 pares.
+Verificação de pré-publicação: cabeçalhos consecutivos conferidos; todas as referências numéricas da fonte identificadas nas traduções preliminares; após ajustes, expressões gregas reconhecidas sem omissões no controle textual de presença. Isso não equivale à colação filológica certificada em todas as suas dimensões.
+Estrutura: novo módulo lexicons/bdag-part-0053.js após bdag-part-0052.js no lexicon-modules.json, com 20 pares de search-row/entry-card na mesma ordem, 20 identificadores únicos e 0 alvos órfãos no lote. Demais módulos, outros léxicos e bibliographicTerms conservados.
+Contagem BDAG projetada e sujeita a verificação remota: 1281 → 1301 pares. Próximo lema: ἀφανίζω.
+Popups BDAG adicionados: nenhum. URLs externas novas: nenhuma.
+Estado RAUDITORIA: EM_EXECUCAO / NAO CONCLUIDA; faltam fichas de evidência individual integral, teste funcional de DOM e integração PR/merge por integrador autorizado, sem qualquer alegação de AUDITORIA_CONCLUIDA.
+Este registro é documental, não acrescenta um verbete e não informa SHA autorreferencial. Conferir o commit publicado e o HEAD após movimentação da referência remota.
+================================================================================
