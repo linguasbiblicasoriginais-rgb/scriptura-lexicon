@@ -2729,3 +2729,20 @@ Contagem BDAG esperada e a confirmar remotamente: 1301 → 1321 pares; 54 módul
 Rigor de auditoria: controle estrutural e colação parcial comprovados; ainda NÃO representa AUDITORIA_CONCLUIDA nos termos de regras/Rauditoria.txt, pois requer fichas filológicas individuais exaustivas, regressão funcional DOM, CI e integração por PR/merge executados pela rotina competente. Não incrementar contador de auditoria concluída.
 O SHA da publicação deverá ser identificado por consulta ao HEAD remoto; evitar SHA autorreferencial.
 ================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO ἀφήσω → ἀφοράω — 03/11/2026
+================================================================================
+Destino: exclusivamente chat-gpt-bdag. HEAD inicial e29c58ff6888ca2d838fd3508aa4e5ec0132c29c.
+Fonte exclusiva para incorporação: HTML canônico de Bauer–Danker da Biblioteca do Scriptura Lexicon, linhas 21879–22016. Próximo cabeçalho: ἀφορίζω.
+Rascunhos preliminares recuperados dos objetos Git c1d4a6d0f0aa5432bab9ddaf40e1e22b9265968a; 4b3df6077b1025ed546a18b435d80bbe5f0973e9; a5a6cf7c539532fbaab07b48b683885a4e5aa6f3.
+20 lemas consecutivos: ἀφήσω; ἀφθαρσία, ας, ἡ; ἄφθαρτος, ον; ἀφθονία, ας, ἡ; ἀφθορία, ας, ἡ; ἀφίδω; ἀφιερόω; ἀφίημι; ἀφικνέομαι; ἀφιλάγαθος, ον; ἀφιλάργυρος, ον; ἀφιλοξενία, ας, ἡ; ἄφιξις, εως, ἡ; ἀφίστημι; ἄφνω; ἀφοβία, ας, ἡ; ἀφόβως; ἀφόδευσις, εως, ἡ; ἀφομοιόω; ἀφοράω.
+Colação efetuada: conferência individual dos cabeçalhos, da sucessão, de 638 ocorrências de referências numéricas e 239 ocorrências de expressões gregas identificadas no HTML, além de verificação das subdivisões dos verbetes extensos ἀφίημι (5 sentidos) e ἀφίστημι (2 sentidos) e das remissões.
+Três correções documentadas em ἀφίημι: referência canônica 2 Km 15:16 corresponde a 2Sm 15:16 (não 2Rs); 3 Km 19:3 corresponde a 1Rs 19:3 (não 3Rs); 4 Km 4:27 corresponde a 2Rs 4:27 (não 4Rs).
+Divergência que impede certificação filológica integral: em ἀφθαρσία, HTML canônico traz ἀ. ζντεῖν, enquanto o rascunho de tradução contém ἀ. ζητεῖν. Mantida no rascunho a leitura grega normalizada, sem alterar a fonte e sem declará-la confirmada; exige colação futura no fac-símile antes da auditoria atômica. Em ἀφίημι, sequências gregas ἀφίομεν (ἀφίεμεν e τὸν πόλεμον ἀφίημι= foram segmentadas de forma distinta no HTML; os vocábulos constam na tradução, sem omissão efetiva.
+Novo módulo lexicons/bdag-part-0055.js, inserido depois de lexicons/bdag-part-0054.js no lexicon-modules.json, com 20 pares search-row/entry-card de ID e data-target alinhados. Os 54 módulos anteriores, bibliographicTerms e os demais léxicos permaneceram intactos no commit.
+Checkpoint estrutural previsto: 1321 → 1341 pares; 55 módulos BDAG. Próximo lema: ἀφορίζω.
+Auditoria atômica nos termos de regras/Rauditoria.txt: NÃO CONCLUÍDA; pendem certificação lexical individual, regressão funcional real, evidências completas e integração pela rotina exclusiva de PR/merge. Não incrementar contagem de auditados.
+Não foram introduzidos URLs externos ou popups BDAG.
+O SHA final deve ser obtido do remoto, não registrado antecipadamente nesta regra.
+================================================================================
