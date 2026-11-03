@@ -8,7 +8,10 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg001.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg001.1st1K-grc1";
-  const DISPLAY_TITLE="Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De Opificio Mundi]";
+  const GREEK_TITLE="Περὶ τῆς κατὰ μωυσέα κοσμοποιίας";
+  const LATIN_TITLE="De opificio mundi";
+  const DISPLAY_TITLE=GREEK_TITLE+" ["+LATIN_TITLE+"]";
+  const DISPLAY_TITLE_HTML='<span lang="grc">'+GREEK_TITLE+'</span> [<em lang="la">'+LATIN_TITLE+'</em>]';
   const SOURCE="https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0018/tlg001/tlg0018.tlg001.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -21,7 +24,7 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-op-title"><span lang="grc">Περὶ τῆς κατὰ μωυσέα κοσμοποιίας</span> <span lang="la">[De Opificio Mundi]</span></h1>',
+    '<h1 id="philo-op-title">'+DISPLAY_TITLE_HTML+'</h1>',
     '<p class="scripture-reader-intro">Sobre a criação do mundo · edição Leopold Cohn (1896) · divisão original em 172 seções (§)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-op-section">Seção (§)<select id="philo-op-section"></select></label>',
@@ -31,7 +34,7 @@
     '<button type="button" id="philo-op-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">'+DISPLAY_TITLE+' · Fílon · Cohn, Opera quae supersunt, vol. I</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE_HTML+' · Fílon · Cohn, Opera quae supersunt, vol. I</div>',
     '<h2 id="philo-op-heading"></h2>',
     '<p id="philo-op-status" class="philo-status" role="status"></p>',
     '<div id="philo-op-text" class="philo-text" lang="grc"></div>',
@@ -163,7 +166,7 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent=DISPLAY_TITLE+" · §§ "+rangeStart(selected)+"–"+
+    heading.innerHTML=DISPLAY_TITLE_HTML+" · §§ "+rangeStart(selected)+"–"+
       Math.min(172,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
     prev.disabled=prevBottom.disabled=rangeStart(selected)===1;
