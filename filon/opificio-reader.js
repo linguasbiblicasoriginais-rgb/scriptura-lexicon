@@ -25,7 +25,7 @@
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
     '<h1 id="philo-op-title">'+DISPLAY_TITLE_HTML+'</h1>',
-    '<p class="scripture-reader-intro">Sobre a criação do mundo · edição Leopold Cohn (1896) · divisão original em 172 seções (§)</p>',
+    '<p class="scripture-reader-intro">Sobre a criação do mundo · edição Leopold Cohn (1896)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-op-section">Seção (§)<select id="philo-op-section"></select></label>',
     '</div>',

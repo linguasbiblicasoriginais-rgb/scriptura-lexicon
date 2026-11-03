@@ -16,6 +16,15 @@ try{
  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  const works=await page.evaluate(()=>window.ScripturaGreekAuthors.listWorks("filon"));
  assert.equal(works.length,38);
+ // Metadados introdutórios: nunca exibir o total de seções da obra.
+ const intros=await page.locator(".philo-reader .scripture-reader-intro").allTextContents();
+ assert.equal(intros.length,11,"Cada um dos onze leitores locais deve apresentar uma introdução");
+ for(const line of intros){
+   assert.doesNotMatch(line,/divisão original em|\b\d+\s+seções\b|seções\s*\(§\)/i);
+   assert.match(line,/ · edição .+\(\d{4}\)$/);
+ }
+ assert.ok(intros.includes("Sobre a criação do mundo · edição Leopold Cohn (1896)"));
+
  const groups={2:3,19:2,22:2,24:4};
  const expected=[];
  for(let n=1;n<=31;n++){
@@ -25,6 +34,8 @@ try{
  assert.deepEqual(works.map(w=>w.id),expected,"A ordem deve respeitar a lista de 31 tratados e livros I–IV");
  assert.equal(works[0].title,"Περὶ τῆς κατὰ μωυσέα κοσμοποιίας [De opificio mundi]");
  assert.equal(works.at(-1).title,"Πρεσβεία πρὸς Γάιον [Legatio ad Gaium]");
+ assert.equal(works.find(w=>w.id==="filon-tlg027").title,
+  "Περὶ τοῦ πάντα σπουδαῖον ἐλεύθερον εἶναι [Quod omnis probus liber sit]");
  for(const w of works)assert.match(w.title,/\[[^\]]+\](?: · Livro (?:I|II|III|IV))?$/);
  assert.equal(works.find(w=>w.id==="filon-tlg002-l3").title,
   "Νόμων ἱερῶν ἀλληγορίας τῶν μετὰ τὴν ἑξαήμερον [Legum allegoriarum] · Livro III");

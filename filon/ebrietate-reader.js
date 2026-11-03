@@ -25,7 +25,7 @@
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
     '<h1 id="philo-ebri-title">'+DISPLAY_TITLE_HTML+'</h1>',
-    '<p class="scripture-reader-intro">Sobre a embriaguez · edição Paul Wendland (1897) · divisão original em 224 seções (§)</p>',
+    '<p class="scripture-reader-intro">Sobre a embriaguez · edição Paul Wendland (1897)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-ebri-section">Seção (§)<select id="philo-ebri-section"></select></label>',
     '</div>',

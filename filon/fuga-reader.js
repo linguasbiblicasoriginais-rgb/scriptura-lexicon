@@ -25,7 +25,7 @@
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
     '<h1 id="philo-fuga-title">'+DISPLAY_TITLE_HTML+'</h1>',
-    '<p class="scripture-reader-intro">Sobre a fuga e a descoberta · edição Paul Wendland (1898) · divisão original em 213 seções (§)</p>',
+    '<p class="scripture-reader-intro">Sobre a fuga e a descoberta · edição Paul Wendland (1898)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-fuga-section">Seção (§)<select id="philo-fuga-section"></select></label>',
     '</div>',
