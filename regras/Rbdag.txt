@@ -2685,3 +2685,16 @@ REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 4/5 (PEDIDO DE 100 VER
 - Contagem 1141 → 1161 linhas/cartões; próximo: ἀρχιστράτηγος, ου, ὁ.
 - IDs e alvos confrontados em 1161 pares únicos, sem inserção de URLs externas.
 - Para manter a transferência GitHub confiável sem perder dados, o conteúdo HTML de cardsHtml utiliza codificação de tags comuns: §S=<strong>, §s=</strong>, §E=<em>, §e=</em>, §G=<span class="greek">; as cinco substituições sincrônicas .replaceAll() reconstituem a mesma string HTML exata. Ausência de colisão entre tokens foi auditada; não codificar elementos estruturais search-row/entry-card, IDs ou data-targets. A descompactação ocorre ao carregar o módulo antes de passar à interface. Para próximo lote, manter esta codificação e novamente testar equivalência exata.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 03/11/2026 — BDAG — αὐγή → αὔρα
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: 8619e8aea116bd9b68861610c8b7c8fdf6e812ff.
+Fonte canônica exclusiva: HTML A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, Biblioteca do projeto; lote localizado nas linhas 21471–21587, sem utilizar o PDF como substituto.
+Lote de 20 lemas consecutivos: αὐγή, ῆς, ἡ; Αὔγουστος, ου, ὁ; αὐθάδεια, ας, ἡ; αὐθάδης, ες; αὐθαίρετος, ον; αὐθαιρέτως; αὐθεντέω; αὐθέντης, ου, ὁ; αὐθεντικός, ή, όν; αὐθεντικῶς; αὐλέω; αὐλή, ῆς, ἡ; αὐλητής, οῦ, ὁ; αὐλητρίς, ίδος, ἡ; αὐλίζομαι; αὐλός, οῦ, ὁ; αὐξάνω/αὔξω; αὔξησις, εως, ἡ; αὔξω; αὔρα, ας, ἡ.
+Rascunho recuperado do objeto Git 4fbeafe38f5ce2e1ed73f14edf367be3b554f02b. Verificação automatizada anterior nesta execução: sequência de 20 cabeçalhos cotejada com HTML canônico; nenhum número nem expressão grega da fonte identificado como ausente no rascunho. Foi detectada e corrigida colisão de IDs dos advérbios. Posteriormente, a ferramenta de leitura HTML apresentou indisponibilidade; as evidências não autorizam alegação de auditoria filológica integral.
+Estrutura: novo módulo lexicons/bdag-part-0052.js, registrado imediatamente após bdag-part-0051.js no lexicon-modules.json; 20 pares search-row/entry-card, IDs/alvos em correspondência 1:1, sem alterar o conteúdo dos módulos anteriores nem bibliographicTerms.
+Contagem prevista: 1261 → 1281 pares. Próximo lema: αὔριον. Popups novos: nenhum; URLs novas: nenhuma.
+Status: NÃO CONCLUÍDA a auditoria atômica de Rauditoria.txt. Pendem controles adicionais de conteúdo e detalhes editoriais, teste funcional da interface, evidência individual e integração PR/merge por integrador autorizado.
+Verificar SHA de publicação efetivo pelo histórico Git; este registro não constitui verbete separado.
+================================================================================
