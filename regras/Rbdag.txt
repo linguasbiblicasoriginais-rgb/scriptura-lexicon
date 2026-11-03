@@ -2814,3 +2814,19 @@ Módulo lexicons/bdag-part-0057.js acrescentado após lexicons/bdag-part-0056.js
 Contagem estrutural esperada: 1.361 → 1.381 pares BDAG; 57 módulos. Próximo lema ἀψίνθιον, ου, τό. Nenhum novo popup nem URL externa.
 Status do padrão regras/Rauditoria.txt: AUDITORIA ATÔMICA NÃO CONCLUÍDA; pendem colação integral individual certificada, testes funcionais/CI e integração PR/merge pela rotina competente. Não incrementar total_auditoria_concluida.
 ================================================================================
+
+================================================================================
+BDAG — ENCERRAMENTO DA LETRA ALFA, ἀψίνθιον → ἄωρος — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: 073b71324cd4fb2714c7abe96854ab60ca3bd508.
+Exceção canônica aplicada: seção 06 de Rbdag.txt expressamente prevê lote inferior a 20 se restarem menos de 20 verbetes até o final da letra alfa. Fonte HTML do BDAG na Biblioteca do projeto: ἀψίνθιον, ου, τό na linha 22251, ἄψυχος, ον na linha 22255, ἄωρος, ον na linha 22259; início da letra beta em linha 22267 com o verbete β´. Contam-se exatamente TRÊS verbetes e a variante ἄψινθος, ου, ἡ é interna ao primeiro, não um quarto cabeçalho. Nenhuma entrada beta incorporada neste lote.
+Traduções diretamente confrontadas com o HTML canônico, incluindo semântica, morfologia/variantes, referências bibliográficas e scripturísticas, usos figurados e de registro. Rascunho de trabalho não publicado na árvore: blob 04df642f99450080083b176244b2daf4dd39c025. Não foram acrescentadas informações não atestadas na fonte.
+Verificação de presença na fonte: 59 marcadores numéricos distintos por artigo (12+19+28); 10 expressões gregas (6+1+3); nenhuma omissão identificada nos controles, com os quatro cabeçalhos consecutivos verificados até β´.
+Evidência individual de colação parcial:
+ἀψίνθιον, ου, τό, linha 22251: 702 caracteres do texto fonte, 12 marcadores numéricos, 6 expressões gregas; ausência nos controles de presença=0.
+ἄψυχος, ον, linha 22255: 460 caracteres do texto fonte, 19 marcadores numéricos, 1 expressões gregas; ausência nos controles de presença=0.
+ἄωρος, ον, linha 22259: 487 caracteres do texto fonte, 28 marcadores numéricos, 3 expressões gregas; ausência nos controles de presença=0.
+Novo módulo lexicons/bdag-part-0058.js inserido depois de lexicons/bdag-part-0057.js em lexicon-modules.json: 3 pares search-row/entry-card, 3 IDs distintos, correspondência 1:1 entre alvos e cartões. Demais módulos BDAG, bibliographicTerms e outros léxicos preservados. Sem URLs novas ou popups novos.
+Checkpoint estrutural previsto, sujeito a confirmação remota: BDAG 1.381 → 1.384 pares; 58 módulos BDAG. LEGISLAÇÃO DE CONTINUIDADE: letra alfa encerrada; próxima seção é beta, primeiro lema β´. Não começar automaticamente a beta sem novo comando.
+Auditoria atômica de regras/Rauditoria.txt: NÃO CONCLUÍDA. O registro atesta incorporação e colação parcial; faltam evidências integrais, teste funcional real/CI e PR/merge pela rotina de integração autorizada. Não aumentar contador de auditorias concluídas.
+================================================================================
