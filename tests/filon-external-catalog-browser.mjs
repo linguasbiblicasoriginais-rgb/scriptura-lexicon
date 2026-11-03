@@ -49,7 +49,7 @@ try {
   assert.match(await page.locator("#greek-authors-status").textContent(),/Selecione uma obra/);
   const expected=new Map([
     ["De Plantatione","tlg010"],
-    ["Embaixada a Gaio","tlg031"]
+    ["Legatio ad Gaium","tlg031"]
   ]);
   for (const [title,urn] of expected) {
     await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
