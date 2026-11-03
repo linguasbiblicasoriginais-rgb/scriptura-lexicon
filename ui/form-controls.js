@@ -25,9 +25,28 @@
         return select.id === "scripture-book" &&
             document.getElementById("scripture-edition")?.value === "UXLC";
     }
-    function optionText(label, target, hebrew) {
+    function optionText(label, target, hebrew, philo = false) {
         const text = document.createElement("span");
         text.className = "lx-option-text";
+        if (philo && label.includes(" [") && label.includes("]")) {
+            // O select nativo conserva o texto integral; só o controle visual
+            // apresenta o segmento latino em itálico, sem alterar seu valor.
+            const begin = label.lastIndexOf(" [");
+            const end = label.indexOf("]", begin + 2);
+            if (begin >= 0 && end > begin + 2) {
+                const greek = document.createElement("span");
+                greek.lang = "grc";
+                greek.textContent = label.slice(0, begin);
+                const latin = document.createElement("em");
+                latin.lang = "la";
+                latin.className = "lx-latin-title";
+                latin.textContent = label.slice(begin + 2, end);
+                text.append(greek, document.createTextNode(" ["), latin,
+                    document.createTextNode("]" + label.slice(end + 1)));
+                target.replaceChildren(text);
+                return;
+            }
+        }
         if (hebrew && label.includes(" · ")) {
             const split = label.lastIndexOf(" · ");
             const portuguese = document.createElement("span");
@@ -50,7 +69,7 @@
         const {button, text} = select._lx;
         const current = select.selectedOptions[0];
         optionText(current?.textContent || "Selecione uma opção", text,
-            isHebrewBook(select));
+            isHebrewBook(select), select.id === "greek-work" && current?.value.startsWith("filon-"));
         button.disabled = select.disabled;
         button.setAttribute("aria-label", labelFor(select) + ": " +
             (current?.textContent || "Selecione uma opção"));
@@ -160,7 +179,8 @@
             row.setAttribute("aria-selected", String(option.selected));
             row.setAttribute("aria-disabled", String(option.disabled));
             row._lxOption = option;
-            optionText(option.textContent, row, hebrew);
+            optionText(option.textContent, row, hebrew,
+                select.id === "greek-work" && option.value.startsWith("filon-"));
             row.addEventListener("pointermove", () => {
                 if (active?.select === select && active.index !== index) setActive(index);
             });
