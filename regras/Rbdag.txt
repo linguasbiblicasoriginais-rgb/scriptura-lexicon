@@ -3007,3 +3007,39 @@ Checkpoint estrutural previsto: 1.464 → 1.484 registros BDAG; 63 módulos BDAG
 AUDITORIA: NÃO CONCLUÍDA nos termos de regras/Rauditoria.txt. Pendente de certificação independente integral, testes de interface DOM/CI, integração autorizada por PR/merge. Não atualizar total_auditoria_concluida.
 Publicação só é comprovada após confirmação remota de commit, update_ref e releitura de HEAD.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βιβλάριον → βλασφημία — 03/11/2026
+================================================================================
+Branch proprietária exclusiva chat-gpt-bdag. HEAD pai 6917b9e7868b75047ab20f6750c969e5bd482846.
+Fonte HTML canônica Bauer–Danker, Biblioteca Scriptura Lexicon (30.790.409 bytes), seção beta, linhas 23126–23283, 20 entradas consecutivas de βιβλάριον, ου, τό a βλασφημία, ας, ἡ. O próximo artigo, fora deste lote, é βλάσφημος, ον (linha 23284).
+Os 20 verbetes foram traduzidos do HTML canônico com suas acepções, formas flexionadas, variantes, regências, referências literárias, gregas, bíblicas e bibliográficas. Preservados os dois sentidos de βιβλίον, βίβλος, βίος e βλαστάνω; as distinções gerais/específicas de βλασφημέω e βλασφημία (inclusive suas subacepções e a discussão de blasfêmia como difamação em sociedade regida por honra e vergonha). O verbete βιβλιδάριον permanece remissivo, não ampliado artificialmente.
+No verbete βλαστάνω, abreviatura original 'Jo 2:22' interpretada como Jl 2:22 (Joel 2:22, passagem com brotação de plantas; não se refere a Jó). No verbete βιβρώσκω, '1 Km 30:12' da Septuaginta é 1Sm 30:12; em βλασφημέω, '4 Km 19:4, 22' = 2Rs 19:4, 22 na nomenclatura portuguesa. Em βλαβερός, reproduzida a cadeia grega de antônimos τὸ συμφέρων, -ουσα, -ον, ὠφέλιμος, sem interpolação lexical.
+Os homógrafos βλαστός, οῦ, ὁ (substantivo, broto) e Βλάστος, ου, ὁ (nome próprio, Blasto) foram preservados como verbetes diferentes, com IDs distintos entry-blastos-substantivo-bdag e entry-blastos-nome-proprio-bdag.
+Inventário documental provisório de presença extraído de vinte fragmentos completos do HTML: blob Git 9d0707ed5076238ae4925ab871c3bc5a99893e39 (não incorporado na árvore). Conferência: 579 marcadores numéricos distintos por verbete e 205 ocorrências de expressões gregas/hebraicas; todos encontrados nos respectivos textos traduzidos, após correção registrada. Conferidas as subdivisões principais. O controle de presença não equivale por si só à certificação de identidade semântica integral nem à auditoria filológica formal.
+Rascunhos de tradução, blobs provisórios não adicionados à árvore: cc1cd4e7e20bd0f95fb5c18d5cde9bbe00953a06; 1904c8b2b55281111d1ba7fa56cb537e9f5846b8; b37fd9a56850622363d2802de9e9a3c7eaecc348.
+Arquivos exclusivos: lexicons/bdag-part-0064.js, inserido após lexicons/bdag-part-0063.js no lexicon-modules.json, e este checkpoint em regras/Rbdag.txt; outros léxicos, módulos preexistentes e bibliographicTerms não alterados. 20 search-row, 20 entry-card, IDs únicos, correspondência data-target/id 1:1, HTML balanceado, sem URLs externas ou popups novos.
+Evidência individual de presença documental:
+01. βιβλάριον, ου, τό | fonte linha 23126 | 185 caracteres fonte | 209 tradução | 8 marcadores numéricos | 4 expressões originais | subdivisões — | omissões detectadas: 0
+02. βιβλιδάριον | fonte linha 23130 | 48 caracteres fonte | 37 tradução | 0 marcadores numéricos | 2 expressões originais | subdivisões — | omissões detectadas: 0
+03. βιβλίδιον, ου, τό | fonte linha 23134 | 358 caracteres fonte | 366 tradução | 15 marcadores numéricos | 3 expressões originais | subdivisões — | omissões detectadas: 0
+04. βιβλίον, ου, τό | fonte linha 23139 | 1744 caracteres fonte | 2082 tradução | 54 marcadores numéricos | 18 expressões originais | subdivisões ①② | omissões detectadas: 0
+05. βίβλος, ου, ἡ | fonte linha 23151 | 1889 caracteres fonte | 2308 tradução | 80 marcadores numéricos | 17 expressões originais | subdivisões ①② | omissões detectadas: 0
+06. βιβρώσκω | fonte linha 23162 | 549 caracteres fonte | 715 tradução | 16 marcadores numéricos | 11 expressões originais | subdivisões — | omissões detectadas: 0
+07. Βιθυνία, ας, ἡ | fonte linha 23166 | 198 caracteres fonte | 205 tradução | 6 marcadores numéricos | 0 expressões originais | subdivisões — | omissões detectadas: 0
+08. βίος, ου, ὁ | fonte linha 23171 | 2799 caracteres fonte | 3388 tradução | 73 marcadores numéricos | 36 expressões originais | subdivisões ①② | omissões detectadas: 0
+09. βιόω | fonte linha 23182 | 584 caracteres fonte | 687 tradução | 19 marcadores numéricos | 10 expressões originais | subdivisões — | omissões detectadas: 0
+10. Βίτων, ωνος, ὁ | fonte linha 23186 | 118 caracteres fonte | 108 tradução | 5 marcadores numéricos | 0 expressões originais | subdivisões — | omissões detectadas: 0
+11. βίωσις, εως, ἡ | fonte linha 23190 | 117 caracteres fonte | 140 tradução | 4 marcadores numéricos | 1 expressões originais | subdivisões — | omissões detectadas: 0
+12. βιωτικός, ή, όν | fonte linha 23194 | 1010 caracteres fonte | 1197 tradução | 29 marcadores numéricos | 10 expressões originais | subdivisões — | omissões detectadas: 0
+13. βλαβερός, ά, όν | fonte linha 23198 | 444 caracteres fonte | 546 tradução | 14 marcadores numéricos | 8 expressões originais | subdivisões — | omissões detectadas: 0
+14. βλάβη, ης, ἡ | fonte linha 23202 | 229 caracteres fonte | 247 tradução | 3 marcadores numéricos | 6 expressões originais | subdivisões — | omissões detectadas: 0
+15. βλάπτω | fonte linha 23206 | 873 caracteres fonte | 1132 tradução | 33 marcadores numéricos | 15 expressões originais | subdivisões — | omissões detectadas: 0
+16. βλαστάνω | fonte linha 23211 | 932 caracteres fonte | 1144 tradução | 28 marcadores numéricos | 10 expressões originais | subdivisões ①② | omissões detectadas: 0
+17. βλαστός, οῦ, ὁ | fonte linha 23222 | 265 caracteres fonte | 280 tradução | 12 marcadores numéricos | 2 expressões originais | subdivisões — | omissões detectadas: 0
+18. Βλάστος, ου, ὁ | fonte linha 23226 | 196 caracteres fonte | 183 tradução | 13 marcadores numéricos | 0 expressões originais | subdivisões — | omissões detectadas: 0
+19. βλασφημέω | fonte linha 23231 | 3516 caracteres fonte | 4356 tradução | 103 marcadores numéricos | 35 expressões originais | subdivisões ⓐⓑ | omissões detectadas: 0
+20. βλασφημία, ας, ἡ | fonte linha 23264 | 2448 caracteres fonte | 2939 tradução | 64 marcadores numéricos | 17 expressões originais | subdivisões ⓐⓑ | omissões detectadas: 0
+Checkpoint estrutural projetado: 1.484 → 1.504 pares BDAG, 64 módulos BDAG. Próximo lema βλάσφημος, ον.
+Estado em regras/Rauditoria.txt: AUDITORIA FILOLÓGICA INDEPENDENTE NÃO CONCLUÍDA. Faltam certificação filológica integral por terceiro, testes funcionais DOM/CI e PR/merge da rotina competente. Não alterar total_auditoria_concluida. Publicação confirmável exclusivamente pelo commit Git e pela releitura do HEAD remoto.
+================================================================================
