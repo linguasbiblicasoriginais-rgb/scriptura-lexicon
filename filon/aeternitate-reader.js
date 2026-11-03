@@ -25,7 +25,7 @@
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
     '<h1 id="philo-aet-title">'+DISPLAY_TITLE_HTML+'</h1>',
-    '<p class="scripture-reader-intro">Sobre a eternidade do mundo · edição Leopold Cohn e Siegfried Reiter (1915) · divisão original em 150 seções (§)</p>',
+    '<p class="scripture-reader-intro">Sobre a eternidade do mundo · edição Leopold Cohn e Siegfried Reiter (1915)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-aet-section">Seção (§)<select id="philo-aet-section"></select></label>',
     '</div>',
