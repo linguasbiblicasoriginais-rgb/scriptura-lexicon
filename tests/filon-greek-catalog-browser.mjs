@@ -51,7 +51,7 @@ try{
  ];
  const seenLatin=[];
  for(const w of works){
-   const latin=/\\[([^\\]]+)\\]/.exec(w.title)?.[1];
+    const latin=/\[([^\]]+)\]/.exec(w.title)?.[1];
    if(!latin)throw new Error("Título sem latim: "+w.id);
    if(!seenLatin.includes(latin))seenLatin.push(latin);
  }
