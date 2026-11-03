@@ -15,9 +15,9 @@ try {
  const page=await browser.newPage({viewport:{width:1280,height:850}});
  page.on("pageerror",error=>errors.push(error.message));
  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false,
   "O leitor de De Abrahamo não deve exigir botão Abrir texto integral");
@@ -28,7 +28,7 @@ try {
  await page.locator("#philo-text .philo-section").first().waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-abrahamo\/1$/);
  assert.equal(await page.locator("#philo-section option").count(),276);
- assert.equal(await page.locator("#philo-text .philo-section").count(),12);
+ assert.equal(await page.locator("#philo-text .philo-section").count(),25);
  assert.equal(await page.locator('#philo-text [data-philo-section="1"]').count(),1);
  assert.match(await page.locator('#philo-text [data-philo-section="1"]').textContent(),/Τῶν ἱερῶν νόμων/);
  assert.equal(await page.locator('#philo-text [data-philo-section="1"] .philo-number').textContent(),"§ 1");
@@ -72,8 +72,8 @@ try {
  }
  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
  await page.locator("#philo-next").click();
- assert.match(page.url(),/#filon\/de-abrahamo\/13$/);
- assert.equal(await page.locator('#philo-text [data-philo-section="13"]').count(),1);
+ assert.match(page.url(),/#filon\/de-abrahamo\/26$/);
+ assert.equal(await page.locator('#philo-text [data-philo-section="26"]').count(),1);
  await page.locator("#philo-prev").click();
  assert.match(page.url(),/#filon\/de-abrahamo\/1$/);
  await page.locator("#philo-section").evaluate(node=>{
@@ -82,8 +82,8 @@ try {
  });
  await page.locator('#philo-text [data-philo-section="276"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-abrahamo\/276$/);
- assert.equal(await page.locator("#philo-text .philo-section").count(),12);
- assert.match(await page.locator("#philo-heading").textContent(),/265–276/);
+ assert.equal(await page.locator("#philo-text .philo-section").count(),1);
+ assert.match(await page.locator("#philo-heading").textContent(),/276–276/);
  assert.equal(await page.locator("#philo-next").isDisabled(),true);
  const ending=await page.locator('#philo-text [data-philo-section="276"] .philo-greek-paragraph').textContent();
  assert.ok(ending.trim().length>30&&/[\u0370-\u03ff\u1f00-\u1fff]/u.test(ending),
