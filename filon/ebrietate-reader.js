@@ -8,7 +8,10 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg011.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg011.1st1K-grc1";
-  const DISPLAY_TITLE="Περὶ μέθης [De Ebrietate]";
+  const GREEK_TITLE="Περὶ μέθης";
+  const LATIN_TITLE="De ebrietate";
+  const DISPLAY_TITLE=GREEK_TITLE+" ["+LATIN_TITLE+"]";
+  const DISPLAY_TITLE_HTML='<span lang="grc">'+GREEK_TITLE+'</span> [<em lang="la">'+LATIN_TITLE+'</em>]';
   const SOURCE="https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg011/tlg0018.tlg011.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -21,7 +24,7 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-ebri-title"><span lang="grc">Περὶ μέθης</span> <span lang="la">[De Ebrietate]</span></h1>',
+    '<h1 id="philo-ebri-title">'+DISPLAY_TITLE_HTML+'</h1>',
     '<p class="scripture-reader-intro">Sobre a embriaguez · edição Paul Wendland (1897) · divisão original em 224 seções (§)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-ebri-section">Seção (§)<select id="philo-ebri-section"></select></label>',
@@ -31,7 +34,7 @@
     '<button type="button" id="philo-ebri-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">'+DISPLAY_TITLE+' · Fílon · Wendland, Opera quae supersunt, vol. II</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE_HTML+' · Fílon · Wendland, Opera quae supersunt, vol. II</div>',
     '<h2 id="philo-ebri-heading"></h2>',
     '<p id="philo-ebri-status" class="philo-status" role="status"></p>',
     '<div id="philo-ebri-text" class="philo-text" lang="grc"></div>',
@@ -163,7 +166,7 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent=DISPLAY_TITLE+" · §§ "+rangeStart(selected)+"–"+
+    heading.innerHTML=DISPLAY_TITLE_HTML+" · §§ "+rangeStart(selected)+"–"+
       Math.min(224,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
     prev.disabled=prevBottom.disabled=rangeStart(selected)===1;
