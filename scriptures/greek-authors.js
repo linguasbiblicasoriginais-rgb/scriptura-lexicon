@@ -75,7 +75,7 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
-  // As onze obras locais de Fílon abrem automaticamente, sem botão intermediário.
+  // As obras locais de Fílon abrem automaticamente, sem botão intermediário.
   // As outras obras mantêm seus controles de consulta intactos.
   if(ui.submit)ui.submit.hidden=!!work&&!!publishedOpeners[work.id]&&work.authorId!=="clemente-alexandria";
   if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
@@ -111,6 +111,7 @@ function refreshWorks(){
   else if(ui.work.value==="filon-tlg029")setStatus("De Aeternitate Mundi: texto grego integral com notas da edição Cohn–Reiter (1915).");
   else if(ui.work.value==="filon-tlg009")setStatus("De Agricultura: texto grego integral com notas da edição Wendland (1897).");
   else if(ui.work.value==="filon-tlg001")setStatus("De Opificio Mundi: texto grego integral com notas da edição Cohn (1896).");
+  else if(ui.work.value==="filon-tlg002-l1")setStatus("Legum allegoriarum, Livro I: texto grego integral com notas da edição Cohn (1896).");
   else if(ui.work.value==="filon-tlg003")setStatus("De Cherubim: texto grego integral com notas da edição Cohn (1896).");
   else if(ui.work.value==="filon-tlg013")setStatus("De Confusione Linguarum: texto grego integral com notas da edição Wendland (1897).");
   else if(ui.work.value==="filon-tlg016")setStatus("De Congressu Eruditionis Gratia: texto grego integral com notas da edição Wendland (1898).");
@@ -352,7 +353,7 @@ const externalPhiloCatalog=Object.freeze([
      Array.from({length:philoBookCounts[urn]||1},(_,i)=>[
        "filon-"+urn+(philoBookCounts[urn]?"-l"+(i+1):""),
        "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
-     ])
+     ]).filter(([id])=>id!=="filon-tlg002-l1")
    )
  ));
  // Catálogo relacional: a obra aponta ao leitor original; corpora e IDs não são copiados.
@@ -367,6 +368,7 @@ const publishedOpeners=Object.freeze({
   "filon-tlg029":()=>window.ScripturaPhiloAeternitate?.show(1,true),
   "filon-tlg009":()=>window.ScripturaPhiloAgricultura?.show(1,true),
   "filon-tlg001":()=>window.ScripturaPhiloOpificio?.show(1,true),
+  "filon-tlg002-l1":()=>window.ScripturaPhiloLegumI?.show(1,true),
   "filon-tlg003":()=>window.ScripturaPhiloCherubim?.show(1,true),
   "filon-tlg013":()=>window.ScripturaPhiloConfusione?.show(1,true),
   "filon-tlg016":()=>window.ScripturaPhiloCongressu?.show(1,true),
@@ -397,6 +399,7 @@ function openWork(id){
     "filon-tlg029":window.ScripturaPhiloAeternitate?.show,
     "filon-tlg009":window.ScripturaPhiloAgricultura?.show,
     "filon-tlg001":window.ScripturaPhiloOpificio?.show,
+    "filon-tlg002-l1":window.ScripturaPhiloLegumI?.show,
     "filon-tlg003":window.ScripturaPhiloCherubim?.show,
     "filon-tlg013":window.ScripturaPhiloConfusione?.show,
     "filon-tlg016":window.ScripturaPhiloCongressu?.show,
@@ -416,7 +419,7 @@ const publishedWorks=[
   {id:"clemente-stromata",authorId:"clemente-alexandria",title:"Stromata — Στρώματα",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]},
   {id:"clemente-paedagogus",authorId:"clemente-alexandria",title:"Pedagogo — Παιδαγωγός",levels:[{key:"livro",label:"Livro"},{key:"capitulo",label:"Capítulo"},{key:"secao",label:"Seção"},{key:"subsecao",label:"Subseção"}]}
 ];
-// Onze obras de Fílon possuem leitores internos e XMLs próprios; as demais permanecem externas.
+// Doze entradas de Fílon possuem leitores internos e XMLs próprios; as demais permanecem externas.
 publishedWorks.forEach(registerWork);
 externalPhiloCatalog.forEach(([urn,greek,latin])=>{
  const count=philoBookCounts[urn]||1;
@@ -441,6 +444,8 @@ if(ui.form&&ui.author&&ui.work&&ui.fields){
     setStatus(!selected?"Selecione uma obra.":
       selected.id==="filon-tlg001"?
       "De Opificio Mundi: texto grego integral com notas da edição Cohn (1896).":
+      selected.id==="filon-tlg002-l1"?
+      "Legum allegoriarum, Livro I: texto grego integral com notas da edição Cohn (1896).":
       selected.id==="filon-tlg020"?
       "De Abrahamo: texto grego integral com notas da edição Cohn (1902).":
       selected.id==="filon-tlg029"?
