@@ -8,6 +8,7 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg007.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg007.1st1K-grc1";
+  const DISPLAY_TITLE="Περὶ γιγάντων [De Gigantibus]";
   const SOURCE="https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg007/tlg0018.tlg007.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -20,7 +21,7 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-gig-title"><span lang="la">De Gigantibus</span></h1>',
+    '<h1 id="philo-gig-title"><span lang="grc">Περὶ γιγάντων</span> <span lang="la">[De Gigantibus]</span></h1>',
     '<p class="scripture-reader-intro">Sobre os gigantes · edição Paul Wendland (1897) · divisão original em 67 seções (§)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-gig-section">Seção (§)<select id="philo-gig-section"></select></label>',
@@ -30,11 +31,15 @@
     '<button type="button" id="philo-gig-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">De Gigantibus · Fílon · Wendland, Opera quae supersunt, vol. II</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE+' · Fílon · Wendland, Opera quae supersunt, vol. II</div>',
     '<h2 id="philo-gig-heading"></h2>',
     '<p id="philo-gig-status" class="philo-status" role="status"></p>',
     '<div id="philo-gig-text" class="philo-text" lang="grc"></div>',
     '<button id="philo-gig-retry" type="button" hidden>Tentar carregar novamente</button>',
+    '</div>',
+    '<div class="scripture-reader-navigation philo-navigation-bottom" aria-label="Navegação ao final das seções">',
+    '<button type="button" id="philo-gig-prev-bottom">← Seções anteriores</button>',
+    '<button type="button" id="philo-gig-next-bottom">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-actions">',
     '<a href="'+SOURCE+'" target="_blank" rel="noopener noreferrer">Consultar TEI-XML original ↗</a>',
@@ -48,8 +53,9 @@
   const el=name=>panel.querySelector("#philo-gig-"+name);
   const sectionSelect=el("section"),area=el("text"),heading=el("heading");
   const status=el("status"),prev=el("prev"),next=el("next");
+  const prevBottom=el("prev-bottom"),nextBottom=el("next-bottom");
   const retry=el("retry"),copy=el("copy"),feedback=el("feedback");
-  const BATCH=12;
+  const BATCH=25;
   let sections=null;
   let loading=null;
   let generation=0;
@@ -106,7 +112,7 @@
     article.className="philo-section";
     article.dataset.philoSection=String(number);
     article.tabIndex=0;
-    article.setAttribute("aria-label","De Gigantibus, seção "+number);
+    article.setAttribute("aria-label",DISPLAY_TITLE+", seção "+number);
     const top=document.createElement("div");
     top.className="philo-section-reading";
     const numeral=document.createElement("span");
@@ -157,11 +163,11 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent="De Gigantibus · §§ "+rangeStart(selected)+"–"+
+    heading.textContent=DISPLAY_TITLE+" · §§ "+rangeStart(selected)+"–"+
       Math.min(67,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
-    prev.disabled=rangeStart(selected)===1;
-    next.disabled=rangeStart(selected)+BATCH>67;
+    prev.disabled=prevBottom.disabled=rangeStart(selected)===1;
+    next.disabled=nextBottom.disabled=rangeStart(selected)+BATCH>67;
   }
   function render(){
     const start=rangeStart(selected),end=Math.min(67,start+BATCH-1);
@@ -246,6 +252,8 @@
   });
   prev.addEventListener("click",()=>{if(selected>1)activate(Math.max(1,rangeStart(selected)-BATCH),true);});
   next.addEventListener("click",()=>{if(selected<67)activate(Math.min(67,rangeStart(selected)+BATCH),true);});
+  prevBottom.addEventListener("click",()=>{prev.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
+  nextBottom.addEventListener("click",()=>{next.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
   retry.addEventListener("click",()=>show(selected,false));
   copy.addEventListener("click",()=>{
     const citation="Fílon de Alexandria, De Gigantibus § "+selected+
