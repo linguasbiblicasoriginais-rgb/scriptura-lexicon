@@ -2830,3 +2830,38 @@ Novo módulo lexicons/bdag-part-0058.js inserido depois de lexicons/bdag-part-00
 Checkpoint estrutural previsto, sujeito a confirmação remota: BDAG 1.381 → 1.384 pares; 58 módulos BDAG. LEGISLAÇÃO DE CONTINUIDADE: letra alfa encerrada; próxima seção é beta, primeiro lema β´. Não começar automaticamente a beta sem novo comando.
 Auditoria atômica de regras/Rauditoria.txt: NÃO CONCLUÍDA. O registro atesta incorporação e colação parcial; faltam evidências integrais, teste funcional real/CI e PR/merge pela rotina de integração autorizada. Não aumentar contador de auditorias concluídas.
 ================================================================================
+
+================================================================================
+BDAG — PRIMEIRO LOTE DA LETRA BETA — 03/11/2026
+================================================================================
+Branch exclusiva chat-gpt-bdag. HEAD de partida: 719545ed6988a11bf90aca8b68081d81254d7225.
+HTML canônico Bauer–Danker da Biblioteca Scriptura Lexicon, 30.790.409 bytes; vinte verbetes de β´ (linha 22267) a βαπτισμός, οῦ, ὁ (linha 22464); próximo βαπτιστής, οῦ, ὁ (linha 22475). A sequência foi extraída e verificada nas leituras de fonte nesta execução.
+Foram elaboradas traduções portuguesas dos 20 verbetes, respeitando acepções, regências, variantes e citações; atenção especial aos verbetes extensos βάλλω (seis sentidos), βαπτίζω (três maiores, com subitens), βάπτισμα (dois) e βαπτισμός (dois). Objetos de rascunho, não inclusos no commit: d383937d66110b61b28e476009a84d2fd1c9ce61; bd2c3413614bbad3539035e04ce0a8168dc43132; 13a39b4c1f20f302540077a0edce0212e0768579; b0cfa3dbdfceb96fb08de34b0d0697184fbc68a5.
+Correções comprovadas de equivalência de livros bíblicos, sem alterar o original: Βάαλ, 3 Km 19:18 -> 1Rs 19:18, 4 Km 21:3 -> 2Rs 21:3; βαπτίζω, 4 Km 5:14 -> 2Rs 5:14 (duas ocorrências no rascunho).
+LIMITAÇÃO FILOLÓGICA EXPRESSA: o HTML foi lido para os 20 artigos e seus textos em consultas iniciais desta execução, mas todas as tentativas de releitura posterior retornaram 'No readable content was found in this file for the requested mode.'. Tentativas de materializar a fonte HTML também foram recusadas. Por isso não foi possível fazer a colação AUTOMÁTICA exaustiva (termo a termo e referências numéricas) de forma novamente verificável. Houve revisão editorial dos conteúdos obtidos e validações estáticas do módulo, sem afirmar ausência universal de omissões ou certificação filológica.
+Evidência de cada entrada, ainda não certificada pela auditoria atômica:
+1. β´ | fonte HTML, linha inicial 22267 | tradução 389 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+2. Βάαλ, ὁ | fonte HTML, linha inicial 22271 | tradução 637 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+3. Βαβυλών, ῶνος, ἡ | fonte HTML, linha inicial 22275 | tradução 1906 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+4. βαδίζω | fonte HTML, linha inicial 22279 | tradução 639 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+5. βάδος, ὁ | fonte HTML, linha inicial 22283 | tradução 43 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+6. βαθέως | fonte HTML, linha inicial 22287 | tradução 28 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+7. βαθμός, οῦ, ὁ | fonte HTML, linha inicial 22292 | tradução 1396 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+8. βάθος, ους, τό | fonte HTML, linha inicial 22304 | tradução 2234 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+9. βαθύνω | fonte HTML, linha inicial 22315 | tradução 531 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+10. βαθύς, εῖα, ύ | fonte HTML, linha inicial 22320 | tradução 1367 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+11. βαί̈ον, ου, τό | fonte HTML, linha inicial 22340 | tradução 713 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+12. Βαλαάμ, ὁ | fonte HTML, linha inicial 22344 | tradução 359 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+13. Βαλάκ, ὁ | fonte HTML, linha inicial 22348 | tradução 313 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+14. βαλανεῖον, ου, τό | fonte HTML, linha inicial 22352 | tradução 291 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+15. βαλλάντιον, ου, τό | fonte HTML, linha inicial 22356 | tradução 538 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+16. βάλλω | fonte HTML, linha inicial 22361 | tradução 7378 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+17. βάναυσος, ον | fonte HTML, linha inicial 22402 | tradução 577 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+18. βαπτίζω | fonte HTML, linha inicial 22407 | tradução 11695 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+19. βάπτισμα, ατος, τό | fonte HTML, linha inicial 22440 | tradução 1681 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+20. βαπτισμός, οῦ, ὁ | fonte HTML, linha inicial 22464 | tradução 710 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+Adição exclusiva de lexicons/bdag-part-0059.js e registros em lexicon-modules.json e regras/Rbdag.txt. Contagem: 20 pares row/card, IDs exclusivos 20, 1:1 entre data-target e card. Sem URLs externas nem popups novos, outros módulos/léxicos e bibliographicTerms inalterados.
+Checkpoint esperado 1.384 -> 1.404 pares BDAG, 59 módulos; próximo lema βαπτιστής, οῦ, ὁ.
+Auditoria segundo regras/Rauditoria.txt: EM_EXECUCAO / NÃO CONCLUÍDA; faltam colação exaustiva por verbete, testes funcionais DOM/CI e integração autorizada por PR/merge. Não incrementar o contador de auditorias concluídas.
+Conferir publicação exclusivamente por HEAD remoto, sem SHA autorreferencial no protocolo.
+================================================================================
