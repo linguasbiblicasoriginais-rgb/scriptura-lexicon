@@ -30,7 +30,7 @@ function option(value,label){
 function sorted(values){return values.sort((a,b)=>a.name.localeCompare(b.name,"pt-BR"));}
 function getWorks(authorId){
   return Array.from(works.values()).filter(w=>w.authorId===authorId&&scopeAllowsAuthor(w.authorId))
-    .sort((a,b)=>a.title.localeCompare(b.title,"pt-BR"));
+    .sort((a,b)=>authorId==="filon"?a.id.localeCompare(b.id,"en"):a.title.localeCompare(b.title,"pt-BR"));
 }
 function selectAuthor(authorId){
   if(!ui.author)return false;
@@ -75,7 +75,7 @@ function currentWork(){return works.get(ui.work?.value||"")||null;}
 function renderFields(){
   if(!ui.fields)return;
   const work=currentWork();
-  // As dez obras locais de Fílon abrem automaticamente, sem botão intermediário.
+  // As onze obras locais de Fílon abrem automaticamente, sem botão intermediário.
   // As outras obras mantêm seus controles de consulta intactos.
   if(ui.submit)ui.submit.hidden=!!work&&!!publishedOpeners[work.id]&&work.authorId!=="clemente-alexandria";
   if(work && (publishedOpeners[work.id] || externalPhiloLinks[work.id])){
@@ -187,46 +187,175 @@ function search(event){
  * Fonte: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018/
  * O portal de origem oferece as edições gregas e respectivas traduções. */
 const externalPhiloCatalog=Object.freeze([
-  ["tlg001","De Opificio Mundi"],
-  ["tlg002","Legum Allegoriarum Libri I-III"],
-  ["tlg003","De Cherubim"],
-  ["tlg004","De Sacrificiis Abelis Et Caini"],
-  ["tlg005","Quod Deterius Potiori Insidiari Soleat"],
-  ["tlg006","De Posteritate Caini"],
-  ["tlg007","De Gigantibus"],
-  ["tlg008","Quod Deus Sit Immutabilis"],
-  ["tlg009","De Agricultura"],
-  ["tlg010","De Plantatione"],
-  ["tlg011","De Ebrietate"],
-  ["tlg012","De Sobrietate"],
-  ["tlg013","De Confusione Linguarum"],
-  ["tlg014","De Migratione Abrahami"],
-  ["tlg015","Quis Rerum Divinarum Heres Sit"],
-  ["tlg016","De Congressu Eruditionis Gratia"],
-  ["tlg017","De Fuga Et Inventione"],
-  ["tlg018","De Mutatione Nominum"],
-  ["tlg019","De Somniis (lib. i-ii)"],
-  ["tlg020","De Abrahamo"],
-  ["tlg021","De Josepho"],
-  ["tlg022","De Vita Mosis (Lib. I-II)"],
-  ["tlg023","De Decalogo"],
-  ["tlg024","De Specialibus Legibus (lib. i-iv)"],
-  ["tlg025","De Virtutibus"],
-  ["tlg026","De Praemiis Et Poenis Et De Exsecrationibus"],
-  ["tlg027","Quod Omnis Probus Liber Sit"],
-  ["tlg028","De Vita Contemplativa"],
-  ["tlg029","De Aeternitate Mundi"],
-  ["tlg030","In Flaccum"],
-  ["tlg031","Legatio Ad Gaium"]
+  [
+    "tlg001",
+    "Περὶ τῆς κατὰ μωυσέα κοσμοποιίας",
+    "De Opificio Mundi"
+  ],
+  [
+    "tlg002",
+    "Νόμων ἱερῶν ἀλληγορίας τῶν μετὰ τὴν ἑξαήμερον",
+    "Legum Allegoriarum"
+  ],
+  [
+    "tlg003",
+    "Περὶ τῶν Χερουβὶμ καὶ τῆς φλογίνης ῥομφαίας καὶ τοῦ κτισθέντος πρώτου ἐξ ἀνθρώπου Κάιν",
+    "De Cherubim"
+  ],
+  [
+    "tlg004",
+    "Περὶ γενέσεως Ἄβελ καὶ ὧν αὐτός τε καὶ ὁ ἀδελφὸς αὐτοῦ Κάιν ἱερουργοῦσιν",
+    "De Sacrificiis Abelis et Caini"
+  ],
+  [
+    "tlg005",
+    "Περὶ τοῦ τὸ χεῖρον τῷ κρείττονι φιλεῖν ἐπιτίθεσθαι",
+    "Quod Deterius Potiori Insidiari Soleat"
+  ],
+  [
+    "tlg006",
+    "Περὶ τῶν τοῦ δοκησισόφου Κάιν ἐγγόνων καὶ ὡς μετανάστης γίνεται",
+    "De Posteritate Caini"
+  ],
+  [
+    "tlg007",
+    "Περὶ γιγάντων",
+    "De Gigantibus"
+  ],
+  [
+    "tlg008",
+    "Ὅτι ἄτρεπτον τὸ θεῖον",
+    "Quod Deus sit Immutabilis"
+  ],
+  [
+    "tlg009",
+    "Περὶ γεωργίας",
+    "De Agricultura"
+  ],
+  [
+    "tlg010",
+    "Περὶ φυτουργίας Νῶε τὸ δεύτερον",
+    "De Plantatione"
+  ],
+  [
+    "tlg011",
+    "Περὶ μέθης",
+    "De Ebrietate"
+  ],
+  [
+    "tlg012",
+    "Περὶ ὧν νήψας ὁ Νῶε εὔχεται καὶ καταρᾶται",
+    "De Sobrietate"
+  ],
+  [
+    "tlg013",
+    "Περὶ συγχύσεως διαλέκτων",
+    "De Confusione Linguarum"
+  ],
+  [
+    "tlg014",
+    "Περὶ ἀποικίας",
+    "De Migratione Abrahami"
+  ],
+  [
+    "tlg015",
+    "Περὶ τοῦ τίς ὁ τῶν θείων ἐστὶν κληρονόμος καὶ περὶ τῆς εἰς τὰ ἴσα καὶ ἐναντία τομῆς",
+    "Quis Rerum Divinarum Heres Sit"
+  ],
+  [
+    "tlg016",
+    "Περὶ τῆς πρὸς τὰ προπαιδεύματα συνόδου",
+    "De Congressu Eruditionis Gratia"
+  ],
+  [
+    "tlg017",
+    "Περὶ φυγῆς καὶ εὑρέσεως",
+    "De Fuga et Inventione"
+  ],
+  [
+    "tlg018",
+    "Περὶ τῶν μετονομαζομένων καὶ ὧν ἕνεκα μετονομάζονται",
+    "De Mutatione Nominum"
+  ],
+  [
+    "tlg019",
+    "Περὶ τοῦ θεοπέμπτους εἶναι τοὺς ὀνείρους",
+    "De Somniis"
+  ],
+  [
+    "tlg020",
+    "Βίος σοφοῦ τοῦ κατὰ διδασκαλίαν τελειωθέντος ἢ νόμων ἀγράφων, ὅ ἐστι περὶ Ἀβραάμ",
+    "De Abrahamo"
+  ],
+  [
+    "tlg021",
+    "Βίος πολιτικοῦ ὅπερ ἐστὶ περὶ Ἰωσήφ",
+    "De Iosepho"
+  ],
+  [
+    "tlg022",
+    "Περὶ τοῦ βίου Μωυσέως",
+    "De Vita Mosis"
+  ],
+  [
+    "tlg023",
+    "Περὶ τῶν δέκα λόγων, οἳ κεφάλαια νόμων εἰσίν",
+    "De Decalogo"
+  ],
+  [
+    "tlg024",
+    "Περὶ τῶν ἐν μέρει διαταγμάτων εἰς δύο κεφάλαια τῶν δέκα λόγων",
+    "Specialibus Legibus"
+  ],
+  [
+    "tlg025",
+    "Περὶ ἀρετῶν ἃς σὺν ἄλλαις ἀνέγραψε Μωυσῆς",
+    "De Virtutibus"
+  ],
+  [
+    "tlg026",
+    "Περὶ ἄθλων καὶ ἐπιτιμίων καὶ ἀρῶν",
+    "De praemiis et poenis et exsecrationibus"
+  ],
+  [
+    "tlg027",
+    "Περὶ τοῦ πάντα σπουδαῖον εἶναι ἐλεύθερον",
+    "Quod omnis probus liber sit"
+  ],
+  [
+    "tlg028",
+    "Περὶ βίου θεωρητικοῦ",
+    "De vita contemplativa"
+  ],
+  [
+    "tlg029",
+    "Περὶ ἀφθαρσίας κόσμου",
+    "De aeternitate mundi"
+  ],
+  [
+    "tlg030",
+    "Εἰς Φλάκκον",
+    "In Flaccum"
+  ],
+  [
+    "tlg031",
+    "Πρεσβεία πρὸς Γάιον",
+    "Embaixada a Gaio"
+  ]
 ]);
-const externalPhiloLinks=Object.freeze(Object.fromEntries(
-  externalPhiloCatalog.filter(([urn])=>urn!=="tlg001"&&urn!=="tlg020"&&urn!=="tlg029"&&urn!=="tlg009"&&urn!=="tlg003"&&urn!=="tlg013"&&urn!=="tlg016"&&urn!=="tlg023"&&urn!=="tlg011"&&urn!=="tlg017"&&urn!=="tlg007").map(([urn])=>[
-    "filon-"+urn,
-    "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
-  ])
-));
-
-// Catálogo relacional: a obra aponta ao leitor original; corpora e IDs não são copiados.
+ // Livros distintos, sem fingir que esses textos já foram incorporados localmente.
+ const philoBookCounts=Object.freeze({tlg002:3,tlg019:2,tlg022:2,tlg024:4});
+ const romanBooks=Object.freeze(["I","II","III","IV"]);
+ const philoLocalIds=new Set(["tlg001","tlg003","tlg007","tlg009","tlg011","tlg013","tlg016","tlg017","tlg020","tlg023","tlg029"]);
+ const externalPhiloLinks=Object.freeze(Object.fromEntries(
+   externalPhiloCatalog.filter(([urn])=>!philoLocalIds.has(urn)).flatMap(([urn])=>
+     Array.from({length:philoBookCounts[urn]||1},(_,i)=>[
+       "filon-"+urn+(philoBookCounts[urn]?"-l"+(i+1):""),
+       "https://scaife.perseus.org/library/urn%3Acts%3AgreekLit%3Atlg0018."+urn+"/"
+     ])
+   )
+ ));
+ // Catálogo relacional: a obra aponta ao leitor original; corpora e IDs não são copiados.
 const publishedOpeners=Object.freeze({
   "josefo-antiguidades":()=>window.ScripturaJosephus?.show(1,1,27,true),
   "josefo-guerra":()=>window.ScripturaJosephusHistory?.show("guerra",1,0,1,true),
@@ -289,9 +418,17 @@ const publishedWorks=[
 ];
 // Onze obras de Fílon possuem leitores internos e XMLs próprios; as demais permanecem externas.
 publishedWorks.forEach(registerWork);
-externalPhiloCatalog.forEach(([urn,title])=>registerWork({
-  id:"filon-"+urn,authorId:"filon",title,levels:[]
-}));
+externalPhiloCatalog.forEach(([urn,greek,latin])=>{
+ const count=philoBookCounts[urn]||1;
+ for(let book=1;book<=count;book++){
+   registerWork({
+     id:"filon-"+urn+(count>1?"-l"+book:""),
+     authorId:"filon",
+     title:greek+" ["+latin+"]"+(count>1?" · Livro "+romanBooks[book-1]:""),
+     levels:[]
+   });
+ }
+});
 if(ui.form&&ui.author&&ui.work&&ui.fields){
   refreshAuthors();
   refreshWorks();

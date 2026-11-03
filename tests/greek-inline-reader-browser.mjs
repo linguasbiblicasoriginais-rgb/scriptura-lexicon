@@ -8,9 +8,9 @@ try{
  const page=await browser.newPage({viewport:{width:1280,height:900}});
  page.on("pageerror",e=>errors.push(e.message));
  await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Gigantibus",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Gigantibus\]/i}).click();
  await page.locator('#philo-gig-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.equal(await page.locator("#site-section-hub").isVisible(),true);
  assert.equal(await page.locator("#site-greek-authors-content").isVisible(),true);

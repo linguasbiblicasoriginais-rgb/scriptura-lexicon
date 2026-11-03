@@ -15,7 +15,7 @@ try {
     };
   });
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   assert.equal((await page.locator("#site-section-title").textContent()).trim(),"Fílon de Alexandria");
   assert.equal(await page.locator("#site-section-description").isVisible(),false);
   assert.equal(await page.locator("#site-philo-profile").isVisible(),true);
@@ -49,14 +49,14 @@ try {
   assert.match(await page.locator("#greek-authors-status").textContent(),/Selecione uma obra/);
   const expected=new Map([
     ["De Plantatione","tlg010"],
-    ["Legatio Ad Gaium","tlg031"]
+    ["Embaixada a Gaio","tlg031"]
   ]);
   for (const [title,urn] of expected) {
     await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
     const list=page.locator("#lx-global-options");
     await list.waitFor({state:"visible"});
-    assert.equal(await list.getByRole("option").count(),32);
-    await list.getByRole("option",{name:title,exact:true}).click();
+    assert.equal(await list.getByRole("option").count(),39);
+    await list.getByRole("option",{name:new RegExp("\\["+title+"\\]","i")}).click();
     assert.equal(await page.locator("#greek-work").inputValue(),"filon-"+urn);
     assert.match(await page.locator("#greek-authors-submit").textContent(),/Consultar no Perseus/);
     assert.equal(await page.locator("#greek-authors-submit").isVisible(),true,
@@ -75,7 +75,7 @@ try {
   }
   // De Opificio Mundi passou do catálogo externo ao leitor local.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Opificio Mundi",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Opificio Mundi\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg001");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -85,10 +85,10 @@ try {
   assert.equal(await page.evaluate(()=>window.__externalReads.length),2,
     "De Opificio Mundi deve abrir no leitor local, sem consulta externa");
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   // Onze obras gregas de Fílon são locais; as outras 20 permanecem externas.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false,
     "De Abrahamo não deve exibir o botão intermediário");
@@ -102,9 +102,9 @@ try {
   assert.match(page.url(),/#filon\/de-abrahamo\/1$/);
   // A segunda obra interna é aberta ao ser selecionada, sem botão intermediário.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Aeternitate Mundi",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Aeternitate Mundi\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg029");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -115,9 +115,9 @@ try {
     "A nova obra incorporada deve abrir localmente, sem consulta externa");
   // De Agricultura também abre no próprio site e mantém seu texto integral.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Agricultura",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Agricultura\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg009");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -128,9 +128,9 @@ try {
     "De Agricultura deve abrir como obra local, sem janela externa");
   // De Cherubim abre imediatamente o quarto leitor interno, sem botão.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Cherubim",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Cherubim\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg003");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -141,9 +141,9 @@ try {
     "De Cherubim não deve abrir consulta externa");
   // De Confusione Linguarum abre no leitor local imediatamente.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Confusione Linguarum",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Confusione Linguarum\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg013");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -154,9 +154,9 @@ try {
     "De Confusione Linguarum deve ser obra local, sem consulta externa");
   // De Congressu Eruditionis Gratia também abre imediatamente dentro do site.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Congressu Eruditionis Gratia",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Congressu Eruditionis Gratia\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg016");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -167,9 +167,9 @@ try {
     "De Congressu não deve abrir consulta externa");
   // De Decalogo abre imediatamente o leitor integral sem janela externa.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Decalogo",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Decalogo\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg023");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -180,9 +180,9 @@ try {
     "De Decalogo deve ser obra interna, sem consulta externa");
   // De Ebrietate abre automaticamente o oitavo leitor interno.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Ebrietate",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Ebrietate\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg011");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -193,9 +193,9 @@ try {
     "De Ebrietate abre dentro do site, sem consulta externa");
   // De Fuga Et Inventione é a nona obra integrada, com acesso imediato.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Fuga Et Inventione",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Fuga Et Inventione\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg017");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -206,9 +206,9 @@ try {
     "De Fuga Et Inventione abre dentro do site, sem consulta externa");
   // De Gigantibus também abre imediatamente no leitor local.
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
-  await page.locator("#lx-global-options").getByRole("option",{name:"De Gigantibus",exact:true}).click();
+  await page.locator("#lx-global-options").getByRole("option",{name:/\[De Gigantibus\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg007");
   assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
   assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -219,7 +219,7 @@ try {
   assert.match(page.url(),/#filon\/de-gigantibus\/1$/);
   assert.equal(await page.evaluate(()=>window.__externalReads.length),externalCount);
   await page.goto(base+"/#autores-gregos/filon",{waitUntil:"domcontentloaded"});
-  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+  await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
   assert.equal(await page.locator("#greek-author").inputValue(),"filon");
   await page.goto(base+"/#autores-gregos/josefo",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===5);
@@ -232,7 +232,7 @@ try {
   assert.equal(await page.locator("#greek-author").inputValue(),"clemente-alexandria");
   assert.equal(await page.locator("#greek-work option[value^='filon-']").count(),0);
   assert.deepEqual(errors,[]);
-  console.log("FILON_CATALOG_PASS: 31 obras, 11 internas, 20 externas, rotas, isolamento e proveniência");
+  console.log("FILON_CATALOG_PASS: 31 tratados, 38 entradas, 11 internos, 20 externos, rotas, isolamento e proveniência");
 } finally {
   await browser.close();
 }

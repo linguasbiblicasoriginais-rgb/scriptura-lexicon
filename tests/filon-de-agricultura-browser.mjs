@@ -15,9 +15,9 @@ try {
  const page=await browser.newPage({viewport:{width:1280,height:850}});
  page.on("pageerror",error=>errors.push(error.message));
  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Agricultura",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Agricultura\]/i}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg009");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
  assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -25,7 +25,7 @@ try {
  await page.locator('#philo-agr-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-agricultura\/1$/);
  assert.equal(await page.locator("#philo-agr-section option").count(),181);
- assert.equal(await page.locator("#philo-agr-text .philo-section").count(),12);
+ assert.equal(await page.locator("#philo-agr-text .philo-section").count(),25);
  assert.match(await page.locator('#philo-agr-text [data-philo-section="1"]').textContent(),/Καὶ ἤρξατο Νῶε/);
  assert.equal(await page.locator("#philo-agr-prev").isDisabled(),true);
 
@@ -64,8 +64,8 @@ try {
  }
  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
  await page.locator("#philo-agr-next").click();
- assert.match(page.url(),/#filon\/de-agricultura\/13$/);
- assert.equal(await page.locator('#philo-agr-text [data-philo-section="13"]').count(),1);
+ assert.match(page.url(),/#filon\/de-agricultura\/26$/);
+ assert.equal(await page.locator('#philo-agr-text [data-philo-section="26"]').count(),1);
  await page.locator("#philo-agr-prev").click();
  assert.match(page.url(),/#filon\/de-agricultura\/1$/);
  await page.locator("#philo-agr-section").evaluate(node=>{
@@ -73,8 +73,8 @@ try {
  });
  await page.locator('#philo-agr-text [data-philo-section="181"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-agricultura\/181$/);
- assert.equal(await page.locator("#philo-agr-text .philo-section").count(),1);
- assert.match(await page.locator("#philo-agr-heading").textContent(),/181–181/);
+ assert.equal(await page.locator("#philo-agr-text .philo-section").count(),6);
+ assert.match(await page.locator("#philo-agr-heading").textContent(),/176–181/);
  assert.equal(await page.locator("#philo-agr-next").isDisabled(),true);
  assert.match(await page.locator('#philo-agr-text [data-philo-section="181"]').textContent(),/ταῦτα μὲν οὖν/);
  assert.match(await page.locator("#filon-agricultura-reader .philo-credit").textContent(),/Wendland/);
@@ -85,7 +85,7 @@ try {
  assert.equal(await page.locator("#philo-agr-section").inputValue(),"181");
  await page.locator('#filon-agricultura-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
  assert.equal(await page.locator("#filon-agricultura-reader").isVisible(),false,
  "O leitor de De Agricultura não deve se sobrepor ao de De Abrahamo");

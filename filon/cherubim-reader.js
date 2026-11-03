@@ -8,6 +8,7 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg003.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg003.1st1K-grc1";
+  const DISPLAY_TITLE="Περὶ τῶν Χερουβὶμ καὶ τῆς φλογίνης ῥομφαίας καὶ τοῦ κτισθέντος πρώτου ἐξ ἀνθρώπου Κάιν [De Cherubim]";
   const SOURCE="https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg003/tlg0018.tlg003.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -20,7 +21,7 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-cher-title"><span lang="la">De Cherubim</span></h1>',
+    '<h1 id="philo-cher-title"><span lang="grc">Περὶ τῶν Χερουβὶμ καὶ τῆς φλογίνης ῥομφαίας καὶ τοῦ κτισθέντος πρώτου ἐξ ἀνθρώπου Κάιν</span> <span lang="la">[De Cherubim]</span></h1>',
     '<p class="scripture-reader-intro">Sobre os querubins · edição Leopold Cohn (1896) · divisão original em 130 seções (§)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-cher-section">Seção (§)<select id="philo-cher-section"></select></label>',
@@ -30,11 +31,15 @@
     '<button type="button" id="philo-cher-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">De Cherubim · Fílon · Cohn, Opera quae supersunt, vol. I</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE+' · Fílon · Cohn, Opera quae supersunt, vol. I</div>',
     '<h2 id="philo-cher-heading"></h2>',
     '<p id="philo-cher-status" class="philo-status" role="status"></p>',
     '<div id="philo-cher-text" class="philo-text" lang="grc"></div>',
     '<button id="philo-cher-retry" type="button" hidden>Tentar carregar novamente</button>',
+    '</div>',
+    '<div class="scripture-reader-navigation philo-navigation-bottom" aria-label="Navegação ao final das seções">',
+    '<button type="button" id="philo-cher-prev-bottom">← Seções anteriores</button>',
+    '<button type="button" id="philo-cher-next-bottom">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-actions">',
     '<a href="'+SOURCE+'" target="_blank" rel="noopener noreferrer">Consultar TEI-XML original ↗</a>',
@@ -48,8 +53,9 @@
   const el=name=>panel.querySelector("#philo-cher-"+name);
   const sectionSelect=el("section"),area=el("text"),heading=el("heading");
   const status=el("status"),prev=el("prev"),next=el("next");
+  const prevBottom=el("prev-bottom"),nextBottom=el("next-bottom");
   const retry=el("retry"),copy=el("copy"),feedback=el("feedback");
-  const BATCH=12;
+  const BATCH=25;
   let sections=null;
   let loading=null;
   let generation=0;
@@ -106,7 +112,7 @@
     article.className="philo-section";
     article.dataset.philoSection=String(number);
     article.tabIndex=0;
-    article.setAttribute("aria-label","De Cherubim, seção "+number);
+    article.setAttribute("aria-label",DISPLAY_TITLE+", seção "+number);
     const top=document.createElement("div");
     top.className="philo-section-reading";
     const numeral=document.createElement("span");
@@ -157,11 +163,11 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent="De Cherubim · §§ "+rangeStart(selected)+"–"+
+    heading.textContent=DISPLAY_TITLE+" · §§ "+rangeStart(selected)+"–"+
       Math.min(130,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
-    prev.disabled=rangeStart(selected)===1;
-    next.disabled=rangeStart(selected)+BATCH>130;
+    prev.disabled=prevBottom.disabled=rangeStart(selected)===1;
+    next.disabled=nextBottom.disabled=rangeStart(selected)+BATCH>130;
   }
   function render(){
     const start=rangeStart(selected),end=Math.min(130,start+BATCH-1);
@@ -244,6 +250,8 @@
   });
   prev.addEventListener("click",()=>{if(selected>1)activate(Math.max(1,rangeStart(selected)-BATCH),true);});
   next.addEventListener("click",()=>{if(selected<130)activate(Math.min(130,rangeStart(selected)+BATCH),true);});
+  prevBottom.addEventListener("click",()=>{prev.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
+  nextBottom.addEventListener("click",()=>{next.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
   retry.addEventListener("click",()=>show(selected,false));
   copy.addEventListener("click",()=>{
     const citation="Fílon de Alexandria, De Cherubim § "+selected+

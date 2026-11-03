@@ -15,9 +15,9 @@ try {
  const page=await browser.newPage({viewport:{width:1280,height:850}});
  page.on("pageerror",error=>errors.push(error.message));
  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Cherubim",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Cherubim\]/i}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg003");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
  assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -25,7 +25,7 @@ try {
  await page.locator('#philo-cher-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-cherubim\/1$/);
  assert.equal(await page.locator("#philo-cher-section option").count(),130);
- assert.equal(await page.locator("#philo-cher-text .philo-section").count(),12);
+ assert.equal(await page.locator("#philo-cher-text .philo-section").count(),25);
  assert.match(await page.locator('#philo-cher-text [data-philo-section="1"]').textContent(),/Καὶ ἐξέβαλε τὸν Ἀδὰμ/);
  assert.equal(await page.locator("#philo-cher-prev").isDisabled(),true);
 
@@ -64,8 +64,8 @@ try {
  }
  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
  await page.locator("#philo-cher-next").click();
- assert.match(page.url(),/#filon\/de-cherubim\/13$/);
- assert.equal(await page.locator('#philo-cher-text [data-philo-section="13"]').count(),1);
+ assert.match(page.url(),/#filon\/de-cherubim\/26$/);
+ assert.equal(await page.locator('#philo-cher-text [data-philo-section="26"]').count(),1);
  await page.locator("#philo-cher-prev").click();
  assert.match(page.url(),/#filon\/de-cherubim\/1$/);
  await page.locator("#philo-cher-section").evaluate(node=>{
@@ -73,8 +73,8 @@ try {
  });
  await page.locator('#philo-cher-text [data-philo-section="130"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-cherubim\/130$/);
- assert.equal(await page.locator("#philo-cher-text .philo-section").count(),10);
- assert.match(await page.locator("#philo-cher-heading").textContent(),/121–130/);
+ assert.equal(await page.locator("#philo-cher-text .philo-section").count(),5);
+ assert.match(await page.locator("#philo-cher-heading").textContent(),/126–130/);
  assert.equal(await page.locator("#philo-cher-next").isDisabled(),true);
  assert.match(await page.locator('#philo-cher-text [data-philo-section="130"]').textContent(),/Μωυσῆς γοῦν/);
  assert.match(await page.locator("#filon-cherubim-reader .philo-credit").textContent(),/Cohn/);
@@ -85,7 +85,7 @@ try {
  assert.equal(await page.locator("#philo-cher-section").inputValue(),"130");
  await page.locator('#filon-cherubim-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
  assert.equal(await page.locator("#filon-cherubim-reader").isVisible(),false,
  "O leitor de De Cherubim não deve se sobrepor ao de De Abrahamo");
