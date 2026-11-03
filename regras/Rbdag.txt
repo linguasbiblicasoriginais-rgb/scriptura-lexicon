@@ -2970,3 +2970,40 @@ Checkpoint estrutural: 1.444 → 1.464 pares BDAG; 62 módulos; próximo Βεν�
 Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendem certificação filológica exaustiva, testes funcionais DOM, CI e eventual PR/merge autorizado. Não incrementar contagem de auditorias concluídas.
 Publicação somente comprovada por reconsulta remota do commit e HEAD.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DOS 20 VERBETES Βενιαμ(ε)ίν → βιβλαρίδιον — 03/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag; HEAD pai 1c2bc5b836faade212c39b765b563abb6d620776.
+Fonte canônica BDAG, HTML da Biblioteca Scriptura Lexicon (30.790.409 bytes), linhas 22989–23125. Sequência completa de vinte cabeçalhos de Βενιαμ(ε)ίν, ὁ a βιβλαρίδιον, ου, τό; próximo cabeçalho βιβλάριον, ου, τό, linha 23126. Nenhuma entrada foi pulada, inclusive as formas variantes Βηθαβαρά, Βηθαραβά, Βηθεσδά, Βηθζαθά, Βηθσαϊδά(ν).
+Foram traduzidos os vinte artigos completos, preservando atestações, etimologias, transliterações, variantes, acepções (Βηθανία 2; Βηθσαϊδά 2; βῆμα 3; βιάζω 4), subacepções, citações de obras antigas, referências bíblicas e bibliografia. A tradução de βιάζω separa expressamente as leituras alternativas e controvertidas de Mt 11:12/Lc 16:16, sem transformar hipóteses lexicográficas em conclusão doutrinária.
+Inventário provisório de colação do próprio HTML: blob Git cbf3a114ed14410dc0440953da9e87cb39ad3b45 (não adicionado como arquivo à árvore). Cotejo determinístico confirmou a presença de 441 marcadores numéricos distintos por verbete e 91 expressões gregas/hebraicas, sem omissões detectadas por presença, e correspondência de sentidos/subsentidos principais. Esse teste não prova equivalência semântica perfeita de todos os segmentos e não equivale à auditoria filológica atômica integral.
+Correções efetuadas antes da publicação: Βηθανία, preservada a distância '15 estádios'; βιάζω, preservada referência Dg 10:15; βίαιος, corrigida transliteração para 'bíaios'.
+RESSALVA DOCUMENTAL: em Βηθλέεμ, o HTML canônico apresenta a referência 'Gen. 1:16' após menção ao nascimento de Benjamim. A tradução reproduz 'Gn 1:16', com anotação de que a referência demanda conferência; não se alterou ou corrigiu silenciosamente o texto fonte. Verificar em auditoria filológica posterior (possível remissão a Gn 35:16–19, mas isso é hipótese de correção, não dado do HTML).
+Módulo novo lexicons/bdag-part-0063.js, registrado após lexicons/bdag-part-0062.js em lexicon-modules.json, com 20 search-row, 20 entry-card, IDs distintos e pareamento data-target/id 1:1, HTML balanceado. Sem URLs externas, popups, mudanças em outros módulos, outros léxicos, bibliographicTerms, main, PR ou merge.
+Blobs de preparação sem inclusão na árvore: 8c21e6825e26d07a08ae11a7e2807624809db9f7; 4eb52eef9d5d5c238f418e2323475c7aad86c379; 1b788605f468aa30dd9fd23da7b9ef0c65a12ed1.
+Evidência individual da colação:
+01. Βενιαμ(ε)ίν, ὁ | fonte linha 22989, 326 caracteres | tradução 330 caracteres | 8 marcadores numéricos | 4 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+02. Βερνίκη, ης, ἡ | fonte linha 22993, 791 caracteres | tradução 816 caracteres | 34 marcadores numéricos | 1 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+03. Βέροια, ας, ἡ | fonte linha 22997, 401 caracteres | tradução 426 caracteres | 16 marcadores numéricos | 0 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+04. Βεροιαῖος, α, ον | fonte linha 23001, 124 caracteres | tradução 136 caracteres | 4 marcadores numéricos | 0 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+05. Βεώρ, ὁ | fonte linha 23005, 139 caracteres | tradução 164 caracteres | 8 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+06. Βηθαβαρά, ἡ | fonte linha 23009, 278 caracteres | tradução 299 caracteres | 4 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+07. Βηθανία, ας, ἡ | fonte linha 23014, 1144 caracteres | tradução 1268 caracteres | 37 marcadores numéricos | 4 expressões gregas/hebraicas | subdivisões ①② | faltas encontradas 0
+08. Βηθαραβά | fonte linha 23025, 34 caracteres | tradução 45 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+09. Βηθεσδά, ἡ | fonte linha 23029, 749 caracteres | tradução 866 caracteres | 21 marcadores numéricos | 4 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+10. Βηθζαθά, ἡ | fonte linha 23033, 436 caracteres | tradução 444 caracteres | 13 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+11. Βηθλέεμ, ἡ | fonte linha 23037, 797 caracteres | tradução 921 caracteres | 39 marcadores numéricos | 6 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+12. Βηθσαϊδά(ν), ἡ | fonte linha 23042, 736 caracteres | tradução 848 caracteres | 23 marcadores numéricos | 6 expressões gregas/hebraicas | subdivisões ①② | faltas encontradas 0
+13. Βηθφαγή, ἡ | fonte linha 23053, 388 caracteres | tradução 433 caracteres | 14 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+14. βῆμα, ατος, τό | fonte linha 23058, 1332 caracteres | tradução 1511 caracteres | 44 marcadores numéricos | 5 expressões gregas/hebraicas | subdivisões ①②③ | faltas encontradas 0
+15. βήρυλλος, ου, ὁ, ἡ | fonte linha 23072, 423 caracteres | tradução 462 caracteres | 20 marcadores numéricos | 3 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+16. βία, ας, ἡ | fonte linha 23077, 615 caracteres | tradução 805 caracteres | 22 marcadores numéricos | 9 expressões gregas/hebraicas | subdivisões ⓐⓑ | faltas encontradas 0
+17. βιάζω | fonte linha 23089, 4514 caracteres | tradução 4890 caracteres | 83 marcadores numéricos | 19 expressões gregas/hebraicas | subdivisões ①②③④ | faltas encontradas 0
+18. βίαιος, α, ον | fonte linha 23107, 599 caracteres | tradução 629 caracteres | 24 marcadores numéricos | 10 expressões gregas/hebraicas | subdivisões ⓐⓑ | faltas encontradas 0
+19. βιαστής, οῦ, ὁ | fonte linha 23118, 272 caracteres | tradução 327 caracteres | 8 marcadores numéricos | 3 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+20. βιβλαρίδιον, ου, τό | fonte linha 23122, 632 caracteres | tradução 758 caracteres | 19 marcadores numéricos | 8 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+Checkpoint estrutural previsto: 1.464 → 1.484 registros BDAG; 63 módulos BDAG; próximo lema βιβλάριον, ου, τό.
+AUDITORIA: NÃO CONCLUÍDA nos termos de regras/Rauditoria.txt. Pendente de certificação independente integral, testes de interface DOM/CI, integração autorizada por PR/merge. Não atualizar total_auditoria_concluida.
+Publicação só é comprovada após confirmação remota de commit, update_ref e releitura de HEAD.
+================================================================================
