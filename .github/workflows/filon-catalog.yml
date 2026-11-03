@@ -5,11 +5,15 @@ on:
     paths:
       - 'filon/**'
       - 'scriptures/greek-authors.js'
+      - 'ui/form-controls.js'
+      - 'ui/form-controls.css'
       - 'scriptures/sections.js'
       - 'tests/filon-external-catalog-browser.mjs'
+      - 'tests/filon-greek-catalog-browser.mjs'
       - 'tests/filon-de-abrahamo-browser.mjs'
       - 'tests/filon-de-aeternitate-browser.mjs'
       - 'tests/filon-de-agricultura-browser.mjs'
+      - 'tests/filon-de-opificio-browser.mjs'
       - 'tests/filon-de-cherubim-browser.mjs'
       - 'tests/filon-de-confusione-browser.mjs'
       - 'tests/filon-de-congressu-browser.mjs'
@@ -17,6 +21,7 @@ on:
       - 'tests/filon-de-ebrietate-browser.mjs'
       - 'tests/filon-de-fuga-browser.mjs'
       - 'tests/filon-de-gigantibus-browser.mjs'
+      - 'tests/greek-inline-reader-browser.mjs'
       - 'index.html'
       - 'style.css'
       - '.github/workflows/filon-catalog.yml'
@@ -37,6 +42,7 @@ jobs:
           node --check filon/reader.js
           node --check filon/aeternitate-reader.js
           node --check filon/agricultura-reader.js
+          node --check filon/opificio-reader.js
           node --check filon/cherubim-reader.js
           node --check filon/confusione-reader.js
           node --check filon/congressu-reader.js
@@ -45,11 +51,16 @@ jobs:
           node --check filon/fuga-reader.js
           node --check filon/gigantibus-reader.js
           node --check scriptures/greek-authors.js
+          node --check ui/form-controls.js
           node --check scriptures/sections.js
+          node --check scriptures/greek-inline-reader.js
+          node --check tests/greek-inline-reader-browser.mjs
           node --check tests/filon-external-catalog-browser.mjs
+          node --check tests/filon-greek-catalog-browser.mjs
           node --check tests/filon-de-abrahamo-browser.mjs
           node --check tests/filon-de-aeternitate-browser.mjs
           node --check tests/filon-de-agricultura-browser.mjs
+          node --check tests/filon-de-opificio-browser.mjs
           node --check tests/filon-de-cherubim-browser.mjs
           node --check tests/filon-de-confusione-browser.mjs
           node --check tests/filon-de-congressu-browser.mjs
@@ -65,12 +76,14 @@ jobs:
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/filon-http.log 2>&1 &
           sleep 2
-      - name: Validar dez obras integrais e demais obras externas
+      - name: Validar onze obras integrais e demais obras externas
         run: |
+          node tests/filon-greek-catalog-browser.mjs
           node tests/filon-external-catalog-browser.mjs
           node tests/filon-de-abrahamo-browser.mjs
           node tests/filon-de-aeternitate-browser.mjs
           node tests/filon-de-agricultura-browser.mjs
+          node tests/filon-de-opificio-browser.mjs
           node tests/filon-de-cherubim-browser.mjs
           node tests/filon-de-confusione-browser.mjs
           node tests/filon-de-congressu-browser.mjs
@@ -78,6 +91,7 @@ jobs:
           node tests/filon-de-ebrietate-browser.mjs
           node tests/filon-de-fuga-browser.mjs
           node tests/filon-de-gigantibus-browser.mjs
+          node tests/greek-inline-reader-browser.mjs
       - name: Logs da aplicação
         if: failure()
         run: cat /tmp/filon-http.log || true

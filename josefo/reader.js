@@ -232,7 +232,7 @@ function show(bookNumber,chapterNumber,sectionNumber,writeHash){
  window.ScripturaJosephusHistory?.hide();
  const workChooser=panel.querySelector("#josefo-work");
  if(workChooser)workChooser.value="antiguidades";
- for(const node of main.children)if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
+ for(const node of main.children)if(node!==panel&&!node.contains(panel)&&!node.classList.contains("header"))node.hidden=true;
  panel.hidden=false;
  bookSelect.value=String(state.book);
  buildChapters();

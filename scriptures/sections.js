@@ -11,6 +11,7 @@ const cards=document.getElementById("site-section-cards");
 const dictionaryOptions=document.getElementById("site-dictionary-options");
 const settings=document.getElementById("site-settings-content");
 const greekAuthors=document.getElementById("site-greek-authors-content");
+const greekInline=document.getElementById("greek-inline-reader");
 const originalVisibility=new Map(Array.from(main.children).map(node=>[node,node.hidden]));
 const pages={
  inicio:["Biblioteca Scriptura Lexicon","Escrituras, tradições textuais e instrumentos de pesquisa filológica, organizados em áreas independentes."],
@@ -160,6 +161,7 @@ function showHub(section){
  window.ScripturaPhilo?.hide();
  window.ScripturaPhiloAeternitate?.hide();
  window.ScripturaPhiloAgricultura?.hide();
+ window.ScripturaPhiloOpificio?.hide();
  window.ScripturaPhiloCherubim?.hide();
  window.ScripturaPhiloConfusione?.hide();
  window.ScripturaPhiloCongressu?.hide();
@@ -176,6 +178,7 @@ function showHub(section){
  }
  hub.hidden=false;
  hub.dataset.activeSection=section;
+ if(greekInline)greekInline.hidden=true;
  title.textContent=pages[section][0];description.textContent=pages[section][1];
  description.hidden=false;
  if(philoProfile)philoProfile.hidden=true;
@@ -226,6 +229,7 @@ function showDictionary(){
  window.ScripturaPhilo?.hide();
  window.ScripturaPhiloAeternitate?.hide();
  window.ScripturaPhiloAgricultura?.hide();
+ window.ScripturaPhiloOpificio?.hide();
  window.ScripturaPhiloCherubim?.hide();
  window.ScripturaPhiloConfusione?.hide();
  window.ScripturaPhiloCongressu?.hide();
@@ -238,6 +242,7 @@ function showDictionary(){
  window.ScripturaScriptures?.hide();
  for(const [node,wasHidden] of originalVisibility)node.hidden=wasHidden;
  hub.hidden=true;
+ if(greekInline)greekInline.hidden=true;
  document.querySelectorAll(".site-menu-item").forEach(button=>{button.classList.remove("active");button.removeAttribute("aria-current")});
 }
 function openSection(section){
@@ -252,6 +257,7 @@ function handleHash(){
  if(window.ScripturaPhilo?.isPhiloHash())return window.ScripturaPhilo.showFromHash();
  if(window.ScripturaPhiloAeternitate?.isPhiloHash())return window.ScripturaPhiloAeternitate.showFromHash();
  if(window.ScripturaPhiloAgricultura?.isPhiloHash())return window.ScripturaPhiloAgricultura.showFromHash();
+ if(window.ScripturaPhiloOpificio?.isPhiloHash())return window.ScripturaPhiloOpificio.showFromHash();
  if(window.ScripturaPhiloCherubim?.isPhiloHash())return window.ScripturaPhiloCherubim.showFromHash();
  if(window.ScripturaPhiloConfusione?.isPhiloHash())return window.ScripturaPhiloConfusione.showFromHash();
  if(window.ScripturaPhiloCongressu?.isPhiloHash())return window.ScripturaPhiloCongressu.showFromHash();

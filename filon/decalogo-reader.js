@@ -8,6 +8,10 @@
   const TEI="http://www.tei-c.org/ns/1.0";
   const FILE="filon/data/tlg0018.tlg023.1st1K-grc1.xml";
   const CTS="urn:cts:greekLit:tlg0018.tlg023.1st1K-grc1";
+  const GREEK_TITLE="Περὶ τῶν δέκα λόγων, οἳ κεφάλαια νόμων εἰσίν";
+  const LATIN_TITLE="De decalogo";
+  const DISPLAY_TITLE=GREEK_TITLE+" ["+LATIN_TITLE+"]";
+  const DISPLAY_TITLE_HTML='<span lang="grc">'+GREEK_TITLE+'</span> [<em lang="la">'+LATIN_TITLE+'</em>]';
   const SOURCE="https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0018/tlg023/tlg0018.tlg023.1st1K-grc1.xml";
   const main=document.querySelector("main.container");
   const anchor=document.querySelector(".dictionary-context");
@@ -20,8 +24,8 @@
   panel.innerHTML=[
     '<button type="button" class="site-back-link" data-greek-author="filon">← Escritores gregos · Fílon de Alexandria</button>',
     '<div class="scripture-reader-kicker">Fílon de Alexandria · texto grego integral</div>',
-    '<h1 id="philo-deca-title"><span lang="la">De Decalogo</span></h1>',
-    '<p class="scripture-reader-intro">Sobre o Decálogo · edição Leopold Cohn (1902) · divisão original em 178 seções (§)</p>',
+    '<h1 id="philo-deca-title">'+DISPLAY_TITLE_HTML+'</h1>',
+    '<p class="scripture-reader-intro">Sobre o Decálogo · edição Leopold Cohn (1902)</p>',
     '<div class="scripture-reader-controls philo-controls">',
     '<label for="philo-deca-section">Seção (§)<select id="philo-deca-section"></select></label>',
     '</div>',
@@ -30,11 +34,15 @@
     '<button type="button" id="philo-deca-next">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-result">',
-    '<div class="scripture-reader-category">De Decalogo · Fílon · Cohn, Opera quae supersunt, vol. IV</div>',
+    '<div class="scripture-reader-category">'+DISPLAY_TITLE_HTML+' · Fílon · Cohn, Opera quae supersunt, vol. IV</div>',
     '<h2 id="philo-deca-heading"></h2>',
     '<p id="philo-deca-status" class="philo-status" role="status"></p>',
     '<div id="philo-deca-text" class="philo-text" lang="grc"></div>',
     '<button id="philo-deca-retry" type="button" hidden>Tentar carregar novamente</button>',
+    '</div>',
+    '<div class="scripture-reader-navigation philo-navigation-bottom" aria-label="Navegação ao final das seções">',
+    '<button type="button" id="philo-deca-prev-bottom">← Seções anteriores</button>',
+    '<button type="button" id="philo-deca-next-bottom">Próximas seções →</button>',
     '</div>',
     '<div class="scripture-reader-actions">',
     '<a href="'+SOURCE+'" target="_blank" rel="noopener noreferrer">Consultar TEI-XML original ↗</a>',
@@ -48,8 +56,9 @@
   const el=name=>panel.querySelector("#philo-deca-"+name);
   const sectionSelect=el("section"),area=el("text"),heading=el("heading");
   const status=el("status"),prev=el("prev"),next=el("next");
+  const prevBottom=el("prev-bottom"),nextBottom=el("next-bottom");
   const retry=el("retry"),copy=el("copy"),feedback=el("feedback");
-  const BATCH=12;
+  const BATCH=25;
   let sections=null;
   let loading=null;
   let generation=0;
@@ -106,7 +115,7 @@
     article.className="philo-section";
     article.dataset.philoSection=String(number);
     article.tabIndex=0;
-    article.setAttribute("aria-label","De Decalogo, seção "+number);
+    article.setAttribute("aria-label",DISPLAY_TITLE+", seção "+number);
     const top=document.createElement("div");
     top.className="philo-section-reading";
     const numeral=document.createElement("span");
@@ -157,11 +166,11 @@
       node.classList.toggle("philo-section-selected",active);
       node.setAttribute("aria-current",active?"true":"false");
     }
-    heading.textContent="De Decalogo · §§ "+rangeStart(selected)+"–"+
+    heading.innerHTML=DISPLAY_TITLE_HTML+" · §§ "+rangeStart(selected)+"–"+
       Math.min(178,rangeStart(selected)+BATCH-1);
     sectionSelect.value=String(selected);
-    prev.disabled=rangeStart(selected)===1;
-    next.disabled=rangeStart(selected)+BATCH>178;
+    prev.disabled=prevBottom.disabled=rangeStart(selected)===1;
+    next.disabled=nextBottom.disabled=rangeStart(selected)+BATCH>178;
   }
   function render(){
     const start=rangeStart(selected),end=Math.min(178,start+BATCH-1);
@@ -212,7 +221,7 @@
     window.ScripturaPatristics?.hide();
     window.ScripturaPaedagogus?.hide();
     for(const node of main.children)
-      if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
+      if(node!==panel&&!node.contains(panel)&&!node.classList.contains("header"))node.hidden=true;
     panel.hidden=false;
     sectionSelect.replaceChildren(...Array.from({length:178},(_,i)=>option(i+1,"§ "+(i+1))));
     sectionSelect.value=String(selected);
@@ -244,6 +253,8 @@
   });
   prev.addEventListener("click",()=>{if(selected>1)activate(Math.max(1,rangeStart(selected)-BATCH),true);});
   next.addEventListener("click",()=>{if(selected<178)activate(Math.min(178,rangeStart(selected)+BATCH),true);});
+  prevBottom.addEventListener("click",()=>{prev.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
+  nextBottom.addEventListener("click",()=>{next.click();heading.scrollIntoView({behavior:"smooth",block:"start"});});
   retry.addEventListener("click",()=>show(selected,false));
   copy.addEventListener("click",()=>{
     const citation="Fílon de Alexandria, De Decalogo § "+selected+

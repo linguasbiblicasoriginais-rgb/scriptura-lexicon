@@ -15,9 +15,9 @@ try {
  const page=await browser.newPage({viewport:{width:1280,height:850}});
  page.on("pageerror",error=>errors.push(error.message));
  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Ebrietate",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Ebrietate\]/i}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg011");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
  assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -25,7 +25,7 @@ try {
  await page.locator('#philo-ebri-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-ebrietate\/1$/);
  assert.equal(await page.locator("#philo-ebri-section option").count(),224);
- assert.equal(await page.locator("#philo-ebri-text .philo-section").count(),12);
+ assert.equal(await page.locator("#philo-ebri-text .philo-section").count(),25);
  assert.match(await page.locator('#philo-ebri-text [data-philo-section="1"]').textContent(),/Τὰ μὲν τοῖς ἄλλοις φιλοσόφοις/);
  assert.equal(await page.locator("#philo-ebri-prev").isDisabled(),true);
 
@@ -64,8 +64,8 @@ try {
  }
  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
  await page.locator("#philo-ebri-next").click();
- assert.match(page.url(),/#filon\/de-ebrietate\/13$/);
- assert.equal(await page.locator('#philo-ebri-text [data-philo-section="13"]').count(),1);
+ assert.match(page.url(),/#filon\/de-ebrietate\/26$/);
+ assert.equal(await page.locator('#philo-ebri-text [data-philo-section="26"]').count(),1);
  await page.locator("#philo-ebri-prev").click();
  assert.match(page.url(),/#filon\/de-ebrietate\/1$/);
  await page.locator("#philo-ebri-section").evaluate(node=>{
@@ -73,8 +73,8 @@ try {
  });
  await page.locator('#philo-ebri-text [data-philo-section="224"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-ebrietate\/224$/);
- assert.equal(await page.locator("#philo-ebri-text .philo-section").count(),8);
- assert.match(await page.locator("#philo-ebri-heading").textContent(),/217–224/);
+ assert.equal(await page.locator("#philo-ebri-text .philo-section").count(),24);
+ assert.match(await page.locator("#philo-ebri-heading").textContent(),/201–224/);
  assert.equal(await page.locator("#philo-ebri-next").isDisabled(),true);
  assert.match(await page.locator('#philo-ebri-text [data-philo-section="224"]').textContent(),/ὧν ἀποτροπὴν/);
  assert.match(await page.locator("#filon-ebrietate-reader .philo-credit").textContent(),/Wendland/);
@@ -85,7 +85,7 @@ try {
  assert.equal(await page.locator("#philo-ebri-section").inputValue(),"224");
  await page.locator('#filon-ebrietate-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
  assert.equal(await page.locator("#filon-ebrietate-reader").isVisible(),false,
  "O leitor de De Ebrietate não deve se sobrepor ao de De Abrahamo");

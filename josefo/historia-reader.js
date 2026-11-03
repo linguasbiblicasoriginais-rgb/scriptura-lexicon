@@ -256,7 +256,7 @@ function show(workKey,bookNumber,chapterNumber,sectionNumber,writeHash){
  window.ScripturaJosephus?.hide();
  window.ScripturaPatristics?.hide();
  window.ScripturaPaedagogus?.hide();
- for(const node of main.children)if(node!==panel&&!node.classList.contains("header"))node.hidden=true;
+ for(const node of main.children)if(node!==panel&&!node.contains(panel)&&!node.classList.contains("header"))node.hidden=true;
  panel.hidden=false;
  clear("Carregando texto de referência…");
  if(writeHash)syncHash("push");

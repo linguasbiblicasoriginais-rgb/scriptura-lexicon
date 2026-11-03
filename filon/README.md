@@ -1,5 +1,24 @@
 # Fílon de Alexandria — obras gregas integrais
 
+## Organização editorial do catálogo e paginação (novembro de 2026)
+
+A apresentação do catálogo adota **a ordem dos 31 tratados identificados por TLG 0018.001–031**, e não a antiga ordem alfabética dos títulos latinos. Cada entrada traz o **título grego fornecido na lista editorial**, seguido do título latino entre colchetes: `grego [*latim*]`. O latim conserva apenas a inicial maiúscula e os nomes próprios conforme a lista editorial; sua composição tipográfica é **itálica** no seletor, no cabeçalho e na indicação do texto. O grego e os colchetes continuam em redondo. A alteração diz respeito às legendas da interface; não modifica o título preservado nos `teiHeader` nem o texto grego original.
+
+Quatro obras contêm livros identificados separadamente no catálogo, em sequência:
+- `tlg002` — *Legum Allegoriarum*, livros I–III.
+- `tlg019` — *De Somniis*, livros I–II.
+- `tlg022` — *De Vita Mosis*, livros I–II.
+- `tlg024` — *Specialibus Legibus*, livros I–IV.
+
+Assim, **31 tratados** correspondem a **38 opções de seleção**. A apresentação por livro **não implica incorporação textual** dos 20 tratados ainda externos: cada opção externa conserva o endereço da obra no Perseus/Scaife, sem fabricar URNs, seções ou arquivos TEI de livros ainda ausentes.
+
+Os **11 leitores locais** exibem agora **25 seções por lote**, respeitando a divisão original e preservando os identificadores de seção das URLs.
+
+**Resumo introdutório dos leitores:** a linha abaixo do título exibe apenas a descrição da obra e a edição (editor e ano), sem a quantidade total de seções do original. Esta decisão é exclusiva da apresentação: os números das seções seguem disponíveis no seletor, na paginação e na documentação técnica. A navegação anterior/próxima aparece **antes e depois do texto**, com botões inferiores sincronizados com os superiores. Os testes de navegador verificam títulos, ordem, distinção entre obras locais e externas, paginação, referências e navegação inferior.
+
+
+A forma grega do tratado `tlg027` no catálogo foi corrigida para **Περὶ τοῦ πάντα σπουδαῖον ἐλεύθερον εἶναι** [*Quod omnis probus liber sit*], sem modificar qualquer fonte TEI.
+
 ## Identificação filológica da fonte
 
 - **Autor:** Fílon de Alexandria (*Philo Judaeus*).
@@ -21,7 +40,7 @@
 
 ## Critérios editoriais e limitações
 
-A numeração §§ 1–276 **pertence à fonte**; não se inventam livros nem capítulos. O seletor de seção oferece referências `#filon/de-abrahamo/1` a `#filon/de-abrahamo/276`. A interface exibe doze seções consecutivas por tela, com navegação para os lotes anterior e posterior; clicar na seção atualiza a referência.
+A numeração §§ 1–276 **pertence à fonte**; não se inventam livros nem capítulos. O seletor de seção oferece referências `#filon/de-abrahamo/1` a `#filon/de-abrahamo/276`. A interface exibe 25 seções consecutivas por tela, com navegação para os lotes anterior e posterior; clicar na seção atualiza a referência.
 
 O texto lido no navegador conserva os caracteres gregos e intervenções representadas no XML. Para uma apresentação fluida, as quebras tipográficas de linha (`lb`), página (`pb`) e marcas de referência auxiliar (`milestone`) não se tornam novos parágrafos; todas continuam preservadas no XML integral. O aparato (`note`) não é misturado ao texto principal: aparece em quadros expansíveis por seção, incluindo variantes e notas marginais. Os trechos marcados por `add` e `sic` têm identificação visual, sem emendar o conteúdo. Não se afirma que o leitor seja uma reprodução diplomática da página impressa ou uma nova edição crítica.
 
@@ -41,7 +60,7 @@ As demais obras e suas fontes devem ser verificadas separadamente; esta seção 
 - **Licença:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), conforme o `publicationStmt` do TEI.
 - **Git blob SHA da transcrição original e da cópia incorporada:** `e313594c110f1b075c1b0f861144ea2fe5fdef10`.
 
-O arquivo `filon/data/tlg0018.tlg029.1st1K-grc1.xml` foi incorporado **sem edição nem normalização**. A sequência da fonte compreende **150 seções numeradas (§§ 1–150)**, sem lacunas numéricas. O leitor `filon/aeternitate-reader.js` interpreta temporariamente os dados no navegador, exibindo doze seções por lote e preservando a consulta às notas da edição. Os sinais tipográficos de divisão e o aparato continuam integralmente disponíveis no XML; o leitor não se apresenta como reprodução diplomática.
+O arquivo `filon/data/tlg0018.tlg029.1st1K-grc1.xml` foi incorporado **sem edição nem normalização**. A sequência da fonte compreende **150 seções numeradas (§§ 1–150)**, sem lacunas numéricas. O leitor `filon/aeternitate-reader.js` interpreta temporariamente os dados no navegador, exibindo 25 seções por lote e preservando a consulta às notas da edição. Os sinais tipográficos de divisão e o aparato continuam integralmente disponíveis no XML; o leitor não se apresenta como reprodução diplomática.
 
 - **Rota interna:** `#filon/de-aeternitate-mundi/1` a `#filon/de-aeternitate-mundi/150`, com navegação por seção e referência bibliográfica.
 - **Teste:** `tests/filon-de-aeternitate-browser.mjs`, incluindo integridade do Git blob, §§ 1 e 150, notas, temas, carregamento direto e dispositivo móvel.
@@ -59,7 +78,7 @@ A apresentação não adiciona conjecturas, variantes, emendas ou tradução por
 - **Licença da transcrição:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **SHA Git blob da fonte e da cópia local (idênticos):** `c31f276f31879e0e2e760d9e3315540815d06578`.
 
-O arquivo `filon/data/tlg0018.tlg009.1st1K-grc1.xml` foi incorporado **sem alterações**. A divisão original contém **181 seções consecutivas (§§ 1–181)**, sem lacunas. O leitor `filon/agricultura-reader.js` exibe doze seções por lote, permite selecionar uma seção específica e separa as notas da edição do corpo do texto. Notas marginais, variantes, marcas de linha, página e demais intervenções editoriais permanecem integralmente disponíveis no XML de origem.
+O arquivo `filon/data/tlg0018.tlg009.1st1K-grc1.xml` foi incorporado **sem alterações**. A divisão original contém **181 seções consecutivas (§§ 1–181)**, sem lacunas. O leitor `filon/agricultura-reader.js` exibe 25 seções por lote, permite selecionar uma seção específica e separa as notas da edição do corpo do texto. Notas marginais, variantes, marcas de linha, página e demais intervenções editoriais permanecem integralmente disponíveis no XML de origem.
 
 - **Rota interna:** `#filon/de-agricultura/1` a `#filon/de-agricultura/181`.
 - **Testes:** `tests/filon-de-agricultura-browser.mjs`, para identidade do corpus, divisão, notas, leitor, links, temas e apresentação móvel.
@@ -78,7 +97,7 @@ Esta incorporação não adiciona emendas, conjecturas, interpretações nem tra
 - **Licença da transcrição:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **SHA Git blob da fonte original e cópia local (idênticos):** `5a637c0c8f03c2ab31e854169ea17eca68b8e361`.
 
-O arquivo `filon/data/tlg0018.tlg003.1st1K-grc1.xml` foi incorporado **sem edição**. Conserva **130 seções consecutivas (§§ 1–130)**, além de 44 notas (43 notas de rodapé e uma marginal), 18 passagens marcadas `add` e os marcos de paginação e linha presentes no TEI. A interface `filon/cherubim-reader.js` apresenta doze seções por lote, permite selecionar qualquer seção e mantém as notas em painéis expansíveis; o arquivo original conserva as marcas editoriais integralmente.
+O arquivo `filon/data/tlg0018.tlg003.1st1K-grc1.xml` foi incorporado **sem edição**. Conserva **130 seções consecutivas (§§ 1–130)**, além de 44 notas (43 notas de rodapé e uma marginal), 18 passagens marcadas `add` e os marcos de paginação e linha presentes no TEI. A interface `filon/cherubim-reader.js` apresenta 25 seções por lote, permite selecionar qualquer seção e mantém as notas em painéis expansíveis; o arquivo original conserva as marcas editoriais integralmente.
 
 - **Rota:** `#filon/de-cherubim/1` a `#filon/de-cherubim/130`.
 - **Validação:** `tests/filon-de-cherubim-browser.mjs`, incluindo SHA da fonte, título, edição, sequência das 130 seções, notas, navegação por endereço, aparência dos dois temas e dispositivo móvel.
@@ -97,7 +116,7 @@ Não se incorporaram tradução portuguesa, conjecturas, normalizações ou corr
 - **Licença da transcrição:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **SHA Git blob da fonte e da cópia local (idênticos):** `50902ce04b6eb592eb321da05cf8f4cf4a9a5706`.
 
-O arquivo `filon/data/tlg0018.tlg013.1st1K-grc1.xml` foi incorporado **sem alterações**. Contém **198 seções consecutivas (§§ 1–198)**, **52 notas** (50 de rodapé e duas marginais), além das marcações editoriais e de paginação do TEI. O leitor `filon/confusione-reader.js` apresenta o texto por grupos de doze seções, com seleção de seção individual, notas em painéis próprios e navegação pelo identificador CTS. Todo o aparato original continua disponível no XML-fonte; a apresentação HTML não é uma reprodução diplomática da edição impressa.
+O arquivo `filon/data/tlg0018.tlg013.1st1K-grc1.xml` foi incorporado **sem alterações**. Contém **198 seções consecutivas (§§ 1–198)**, **52 notas** (50 de rodapé e duas marginais), além das marcações editoriais e de paginação do TEI. O leitor `filon/confusione-reader.js` apresenta o texto por grupos de 25 seções, com seleção de seção individual, notas em painéis próprios e navegação pelo identificador CTS. Todo o aparato original continua disponível no XML-fonte; a apresentação HTML não é uma reprodução diplomática da edição impressa.
 
 - **Rotas:** `#filon/de-confusione-linguarum/1` a `#filon/de-confusione-linguarum/198`.
 - **Testes:** `tests/filon-de-confusione-browser.mjs`, para identidade da fonte, §1–§198, notas, edição, rotas, temas e mobile.
@@ -116,7 +135,7 @@ Não foi criada tradução, nem se acrescentaram conjecturas ou emendas. O catá
 - **Licença declarada no XML:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **SHA Git blob da fonte e da cópia local (idênticos):** `bf81414cf6c8e94b0a9cda058d6000791633ac9c`.
 
-A transcrição `filon/data/tlg0018.tlg016.1st1K-grc1.xml` foi incorporada **sem alterações**. Ela contém **180 seções consecutivas (§§ 1–180)**, **60 notas editoriais** (59 de rodapé, uma marginal) e as demais marcas estruturais e editoriais do TEI. O leitor `filon/congressu-reader.js` apresenta doze seções por lote, conserva o aparato em painéis expansíveis e permite citar as seções sem fabricar divisões não existentes na edição.
+A transcrição `filon/data/tlg0018.tlg016.1st1K-grc1.xml` foi incorporada **sem alterações**. Ela contém **180 seções consecutivas (§§ 1–180)**, **60 notas editoriais** (59 de rodapé, uma marginal) e as demais marcas estruturais e editoriais do TEI. O leitor `filon/congressu-reader.js` apresenta 25 seções por lote, conserva o aparato em painéis expansíveis e permite citar as seções sem fabricar divisões não existentes na edição.
 
 - **Rota local:** `#filon/de-congressu-eruditionis-gratia/1` a `#filon/de-congressu-eruditionis-gratia/180`.
 - **Teste:** `tests/filon-de-congressu-browser.mjs`, com integridade, edição, §§ 1 e 180, notas, URLs, temas e mobile.
@@ -135,7 +154,7 @@ Não foram produzidas tradução portuguesa nem emendas ao texto-fonte. O leitor
 - **Licença do TEI:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **SHA Git blob da fonte e da cópia local (idênticos):** `814c59e2160f3f2e697031b5408d0f8a531f9ea3`.
 
-O arquivo `filon/data/tlg0018.tlg023.1st1K-grc1.xml` foi incorporado **sem modificações**. Contém **178 seções consecutivas (§§ 1–178)**, **57 notas editoriais** (55 de rodapé e duas marginais), além das marcações editoriais do TEI. O leitor `filon/decalogo-reader.js` apresenta doze seções por lote, seleção individual e notas expansíveis separadas do corpo principal, conservando as marcações no XML-fonte.
+O arquivo `filon/data/tlg0018.tlg023.1st1K-grc1.xml` foi incorporado **sem modificações**. Contém **178 seções consecutivas (§§ 1–178)**, **57 notas editoriais** (55 de rodapé e duas marginais), além das marcações editoriais do TEI. O leitor `filon/decalogo-reader.js` apresenta 25 seções por lote, seleção individual e notas expansíveis separadas do corpo principal, conservando as marcações no XML-fonte.
 
 - **Rotas:** `#filon/de-decalogo/1` a `#filon/de-decalogo/178`.
 - **Teste:** `tests/filon-de-decalogo-browser.mjs`, conferindo integridade, metadados, §§ 1 e 178, notas, navegação, temas e dispositivo móvel.
@@ -154,7 +173,7 @@ A incorporação não inventa tradução, variantes, conjecturas ou emendas. A e
 - **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **Git blob SHA, idêntico no original e na cópia local:** `db23b8d7901266863ba1203986d54c96604ce84f`.
 
-O arquivo `filon/data/tlg0018.tlg011.1st1K-grc1.xml` foi incorporado **sem qualquer alteração**, preservando **224 seções consecutivas (§§ 1–224)**, **74 notas editoriais** (72 de rodapé, duas marginais), marcações de página, linha e intervenções registradas no TEI. O leitor `filon/ebrietate-reader.js` apresenta o grego original em lotes de doze seções, navegação individual, realce suave da seção selecionada e notas em painéis expansíveis.
+O arquivo `filon/data/tlg0018.tlg011.1st1K-grc1.xml` foi incorporado **sem qualquer alteração**, preservando **224 seções consecutivas (§§ 1–224)**, **74 notas editoriais** (72 de rodapé, duas marginais), marcações de página, linha e intervenções registradas no TEI. O leitor `filon/ebrietate-reader.js` apresenta o grego original em lotes de 25 seções, navegação individual, realce suave da seção selecionada e notas em painéis expansíveis.
 
 - **Rota local:** `#filon/de-ebrietate/1` a `#filon/de-ebrietate/224`.
 - **Validação:** `tests/filon-de-ebrietate-browser.mjs`, que verifica SHA, seção inicial e final, metadados editoriais, notas, navegação, temas e leitura em celular.
@@ -175,7 +194,7 @@ Esta incorporação não inclui tradução portuguesa, correções conjecturais 
 
 O arquivo `filon/data/tlg0018.tlg017.1st1K-grc1.xml` foi incorporado **sem normalizações, emendas ou intervenções**. Reúne **213 seções consecutivas (§§ 1–213)** e **77 notas editoriais** (75 de rodapé, 2 marginais). Mantém o cabeçalho, informações de proveniência, marcadores de página e linha e aparato crítico no arquivo original.
 
-O leitor `filon/fuga-reader.js` apresenta o texto grego em lotes de doze seções, com seleção individual, notas expansíveis e citação. Endereços internos: `#filon/de-fuga-et-inventione/1` a `#filon/de-fuga-et-inventione/213`. Teste dedicado: `tests/filon-de-fuga-browser.mjs`, cobrindo integridade, seções, notas, edição, rotas, temas e dispositivo móvel. O leitor HTML não é reprodução diplomática do volume; **nenhuma tradução portuguesa foi incorporada**. O catálogo passa a contabilizar **nove obras integrais** de Fílon e **22 obras externas**.
+O leitor `filon/fuga-reader.js` apresenta o texto grego em lotes de 25 seções, com seleção individual, notas expansíveis e citação. Endereços internos: `#filon/de-fuga-et-inventione/1` a `#filon/de-fuga-et-inventione/213`. Teste dedicado: `tests/filon-de-fuga-browser.mjs`, cobrindo integridade, seções, notas, edição, rotas, temas e dispositivo móvel. O leitor HTML não é reprodução diplomática do volume; **nenhuma tradução portuguesa foi incorporada**. O catálogo passa a contabilizar **nove obras integrais** de Fílon e **22 obras externas**.
 
 
 ## De Gigantibus — texto grego integral
@@ -189,4 +208,25 @@ O leitor `filon/fuga-reader.js` apresenta o texto grego em lotes de doze seçõe
 - **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **SHA Git blob da fonte e da cópia:** `758adb38d6a874f76c7c2951d3b43610ac2e1f38` (idênticos).
 
-O arquivo `filon/data/tlg0018.tlg007.1st1K-grc1.xml` foi incorporado **integralmente e sem transformações**. Contém **67 seções consecutivas (§§ 1–67)** e **20 notas** (19 de rodapé, uma marginal), além da marcação editorial e das referências da transcrição. O leitor `filon/gigantibus-reader.js` exibe 12 seções por lote, seleção individual, notas expansíveis e rota `#filon/de-gigantibus/<seção>`. O teste dedicado `tests/filon-de-gigantibus-browser.mjs` cobre integridade SHA, sequência, metadados, aparato, rotas, temas e dispositivo móvel. A interface não é reprodução diplomática nem edição crítica própria. **Sem tradução portuguesa.** O catálogo passa a conter **10 obras locais** de Fílon e **21 externas**.
+O arquivo `filon/data/tlg0018.tlg007.1st1K-grc1.xml` foi incorporado **integralmente e sem transformações**. Contém **67 seções consecutivas (§§ 1–67)** e **20 notas** (19 de rodapé, uma marginal), além da marcação editorial e das referências da transcrição. O leitor `filon/gigantibus-reader.js` exibe 25 seções por lote, seleção individual, notas expansíveis e rota `#filon/de-gigantibus/<seção>`. O teste dedicado `tests/filon-de-gigantibus-browser.mjs` cobre integridade SHA, sequência, metadados, aparato, rotas, temas e dispositivo móvel. A interface não é reprodução diplomática nem edição crítica própria. **Sem tradução portuguesa.** O catálogo passa a conter **10 obras locais** de Fílon e **21 externas**.
+
+## De Opificio Mundi — texto grego integral
+
+- **Título latino:** *De Opificio Mundi*; título grego tradicional: **Περὶ τῆς κατὰ Μωυσέα κοσμοποιίας**.
+- **Autor:** Fílon de Alexandria (Φίλων ὁ Ἀλεξανδρεύς).
+- **Edição impressa de base:** Leopold Cohn (ed.), *Philonis Alexandrini Opera quae supersunt*, **vol. I** (Berlim: Georg Reimer, **1896**), conforme o `teiHeader`.
+- **Transcrição:** First1KGreek / OpenGreekAndLatin e Perseus Digital Library, TEI-XML (Universidade de Leipzig, 2014).
+- **Identificação:** TLG `0018.001`; URN CTS `urn:cts:greekLit:tlg0018.tlg001.1st1K-grc1`.
+- **Fonte TEI integral:** https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0018/tlg001/tlg0018.tlg001.1st1K-grc1.xml
+- **Catálogo Perseus:** https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0018.tlg001/
+- **Licença:** [Creative Commons Attribution–ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/), informada pelo `publicationStmt`.
+- **Git blob SHA original e local (idênticos):** `b7a7546f5a27cc30a79976f29ff86c6afb297e5d`.
+
+O arquivo `filon/data/tlg0018.tlg001.1st1K-grc1.xml` foi incorporado **integralmente, sem alteração**. Contém **172 seções numeradas consecutivamente (§§ 1–172)** e **97 notas editoriais** (**95** de rodapé e **2** marginais). A divisão TEI utiliza `<div type="textpart" subtype="section" n="…">`, particularidade respeitada pela leitura. Marcas de linha e de página, aparato, variantes, intervenções editoriais e metadados permanecem preservados na fonte.
+
+O leitor `filon/opificio-reader.js` reutiliza a apresentação existente e exibe 25 seções por lote, com seleção individual, navegação anterior/próxima, notas expansíveis, referência copiável e atualização do endereço.
+
+- **Rota interna:** `#filon/de-opificio-mundi/1` a `#filon/de-opificio-mundi/172`.
+- **Teste de integridade e interface:** `tests/filon-de-opificio-browser.mjs`, incorporado à execução de `.github/workflows/filon-catalog.yml`.
+
+A interface conserva o grego da edição digital, sem tradução, normalização nem conjecturas. A leitura em HTML não constitui reprodução diplomática da obra impressa. O catálogo passa a contabilizar **11 obras integrais de Fílon** e **20 com consulta externa**.

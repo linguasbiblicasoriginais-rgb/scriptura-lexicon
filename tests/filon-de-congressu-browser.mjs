@@ -15,9 +15,9 @@ try {
  const page=await browser.newPage({viewport:{width:1280,height:850}});
  page.on("pageerror",error=>errors.push(error.message));
  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Congressu Eruditionis Gratia",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Congressu Eruditionis Gratia\]/i}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg016");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
  assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -25,7 +25,7 @@ try {
  await page.locator('#philo-cong-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-congressu-eruditionis-gratia\/1$/);
  assert.equal(await page.locator("#philo-cong-section option").count(),180);
- assert.equal(await page.locator("#philo-cong-text .philo-section").count(),12);
+ assert.equal(await page.locator("#philo-cong-text .philo-section").count(),25);
  assert.match(await page.locator('#philo-cong-text [data-philo-section="1"]').textContent(),/Σάρα δὲ ἡ γυνὴ Ἀβραὰμ/);
  assert.equal(await page.locator("#philo-cong-prev").isDisabled(),true);
 
@@ -64,8 +64,8 @@ try {
  }
  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
  await page.locator("#philo-cong-next").click();
- assert.match(page.url(),/#filon\/de-congressu-eruditionis-gratia\/13$/);
- assert.equal(await page.locator('#philo-cong-text [data-philo-section="13"]').count(),1);
+ assert.match(page.url(),/#filon\/de-congressu-eruditionis-gratia\/26$/);
+ assert.equal(await page.locator('#philo-cong-text [data-philo-section="26"]').count(),1);
  await page.locator("#philo-cong-prev").click();
  assert.match(page.url(),/#filon\/de-congressu-eruditionis-gratia\/1$/);
  await page.locator("#philo-cong-section").evaluate(node=>{
@@ -73,8 +73,8 @@ try {
  });
  await page.locator('#philo-cong-text [data-philo-section="180"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-congressu-eruditionis-gratia\/180$/);
- assert.equal(await page.locator("#philo-cong-text .philo-section").count(),12);
- assert.match(await page.locator("#philo-cong-heading").textContent(),/169–180/);
+ assert.equal(await page.locator("#philo-cong-text .philo-section").count(),5);
+ assert.match(await page.locator("#philo-cong-heading").textContent(),/176–180/);
  assert.equal(await page.locator("#philo-cong-next").isDisabled(),true);
  assert.match(await page.locator('#philo-cong-text [data-philo-section="180"]').textContent(),/ὅταν οὖν τὴν Ἄγαρ κακουμένην/);
  assert.match(await page.locator("#filon-congressu-reader .philo-credit").textContent(),/Wendland/);
@@ -85,7 +85,7 @@ try {
  assert.equal(await page.locator("#philo-cong-section").inputValue(),"180");
  await page.locator('#filon-congressu-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
  assert.equal(await page.locator("#filon-congressu-reader").isVisible(),false,
  "O leitor de De Congressu Eruditionis Gratia não deve se sobrepor ao de De Abrahamo");

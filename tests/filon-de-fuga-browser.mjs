@@ -15,9 +15,9 @@ try {
  const page=await browser.newPage({viewport:{width:1280,height:850}});
  page.on("pageerror",error=>errors.push(error.message));
  await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
- await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===32);
+ await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Fuga Et Inventione",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Fuga Et Inventione\]/i}).click();
  assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg017");
  assert.equal(await page.locator("#greek-authors-submit").isVisible(),false);
  assert.equal(await page.locator("#greek-authors-status").textContent(),
@@ -25,7 +25,7 @@ try {
  await page.locator('#philo-fuga-text [data-philo-section="1"]').waitFor({state:"visible",timeout:30000});
  assert.match(page.url(),/#filon\/de-fuga-et-inventione\/1$/);
  assert.equal(await page.locator("#philo-fuga-section option").count(),213);
- assert.equal(await page.locator("#philo-fuga-text .philo-section").count(),12);
+ assert.equal(await page.locator("#philo-fuga-text .philo-section").count(),25);
  assert.match(await page.locator('#philo-fuga-text [data-philo-section="1"]').textContent(),/Καὶ ἐκάκωσεν αὐτὴν Σάρα/);
  assert.equal(await page.locator("#philo-fuga-prev").isDisabled(),true);
 
@@ -64,8 +64,8 @@ try {
  }
  await page.evaluate(()=>document.documentElement.dataset.theme="dark");
  await page.locator("#philo-fuga-next").click();
- assert.match(page.url(),/#filon\/de-fuga-et-inventione\/13$/);
- assert.equal(await page.locator('#philo-fuga-text [data-philo-section="13"]').count(),1);
+ assert.match(page.url(),/#filon\/de-fuga-et-inventione\/26$/);
+ assert.equal(await page.locator('#philo-fuga-text [data-philo-section="26"]').count(),1);
  await page.locator("#philo-fuga-prev").click();
  assert.match(page.url(),/#filon\/de-fuga-et-inventione\/1$/);
  await page.locator("#philo-fuga-section").evaluate(node=>{
@@ -73,8 +73,8 @@ try {
  });
  await page.locator('#philo-fuga-text [data-philo-section="213"]').waitFor({state:"visible"});
  assert.match(page.url(),/#filon\/de-fuga-et-inventione\/213$/);
- assert.equal(await page.locator("#philo-fuga-text .philo-section").count(),9);
- assert.match(await page.locator("#philo-fuga-heading").textContent(),/205–213/);
+ assert.equal(await page.locator("#philo-fuga-text .philo-section").count(),13);
+ assert.match(await page.locator("#philo-fuga-heading").textContent(),/201–213/);
  assert.equal(await page.locator("#philo-fuga-next").isDisabled(),true);
  assert.match(await page.locator('#philo-fuga-text [data-philo-section="213"]').textContent(),/ἀλλ’ οὐκ ἔμελλες/);
  assert.match(await page.locator("#filon-fuga-reader .philo-credit").textContent(),/Wendland/);
@@ -85,7 +85,7 @@ try {
  assert.equal(await page.locator("#philo-fuga-section").inputValue(),"213");
  await page.locator('#filon-fuga-reader [data-greek-author="filon"]').click();
  await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
- await page.locator("#lx-global-options").getByRole("option",{name:"De Abrahamo",exact:true}).click();
+ await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
  await page.locator('#philo-text [data-philo-section="1"]').waitFor({state:"visible"});
  assert.equal(await page.locator("#filon-fuga-reader").isVisible(),false,
  "O leitor de De Fuga Et Inventione não deve se sobrepor ao de De Abrahamo");

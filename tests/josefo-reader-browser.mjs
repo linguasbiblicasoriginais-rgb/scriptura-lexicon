@@ -92,8 +92,11 @@ try{
  assert.deepEqual(await page.evaluate(()=>window.ScripturaGreekAuthors.listAuthors().map(x=>x.id)),["filon","josefo"]);
  assert.equal(await page.locator("#greek-work option").count(),5,"Quatro obras + opção vazia");
  await page.locator("#greek-work").selectOption("josefo-antiguidades");
- await page.locator("#greek-authors-submit").click();
+ assert.equal(await page.locator("#greek-authors-submit").isVisible(),false,
+  "As obras internas abrem pelo seletor, sem botão intermediário");
  await ready(page,"antiguidades");
+ assert.equal(await page.locator("#site-section-hub").isVisible(),true);
+ assert.equal(await page.locator("#josefo-reader").evaluate(el=>el.parentElement.id),"greek-inline-reader");
  assert.equal(await page.locator("#josefo-message").isVisible(),false,"Sem logs abaixo do texto de Antiguidades");
  assert.equal(await page.locator("#josefo-message").textContent(),"");
  assert.equal(await page.locator("#josefo-book").locator("option").count(),20);
