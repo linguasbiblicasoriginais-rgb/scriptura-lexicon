@@ -3043,3 +3043,38 @@ Evidência individual de presença documental:
 Checkpoint estrutural projetado: 1.484 → 1.504 pares BDAG, 64 módulos BDAG. Próximo lema βλάσφημος, ον.
 Estado em regras/Rauditoria.txt: AUDITORIA FILOLÓGICA INDEPENDENTE NÃO CONCLUÍDA. Faltam certificação filológica integral por terceiro, testes funcionais DOM/CI e PR/merge da rotina competente. Não alterar total_auditoria_concluida. Publicação confirmável exclusivamente pelo commit Git e pela releitura do HEAD remoto.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βλάσφημος → βολίς — 03/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag. HEAD pai d304ff0b1238e62472f978e5b8082d1812d03c48.
+Fonte HTML canônica do BDAG na Biblioteca Scriptura Lexicon, 30.790.409 bytes, seção β, linhas 23284–23449. Vinte cabeçalhos consecutivos: βλάσφημος, ον até βολίς, ίδος, ἡ. O próximo cabeçalho fora do lote é Βόος, ὁ (linha 23450). Não omitir o verbete numerado βληθήσομαι nem βόησον, ambos meras remissões.
+Traduções integrais preparadas a partir da fonte canônica, com flexões, sentidos, subdivisões, notas filológicas, regência e testemunhos textuais, referências e bibliografia. Destaque: βλέπω com oito acepções (1–8) e subacepções; βοάω com duas acepções e subdivisões a–c; βοήθεια com dois sentidos, inclusive a terminologia náutica de At 27:17; Βοανηργές com análise etimológica discutida, sem converter as hipóteses em certezas.
+Inventário provisório de colação do HTML, blob Git a3787ee63d56f1db441fe8e6a01bc2d1384df329 (não adicionado à árvore). Conferidos 522 marcadores numéricos distintos por artigo e 168 ocorrências de expressões originais. Todos presentes nas respectivas traduções após correções; verificação de presença não demonstra, sozinha, a equivalência semântica integral. Comparação de grego normaliza diacríticos e pontuação, inclusive marcador de quebra editorial '|' no fragmento de AcPl Ha 4, 36, mas não altera a leitura grega normalizada no texto final.
+Ocorrências de numeração concatenada no HTML canônico explicitadas: BGU 1079, '2426' (entendido como linhas 24–26) em βλέπω; Sb '158' (interpretado como Sb 15:8) em βοηθέω. Ambas as leituras do HTML permanecem visíveis na tradução acompanhadas da interpretação, sem emenda silenciosa. Foram restituídas referências Josefo, Bell. 7, 351; Ant. 20, 57 no verbete βλέπω. As equivalências dos livros de Reis no corpus grego foram convertidas à nomenclatura portuguesa (1Km = 1Sm; 2Km = 2Sm; 4Km = 2Rs), com indicação quando útil.
+Traduções provisórias em objetos Git não incorporados à árvore: 80c47c0c53ac67afe332a43254844f85c9b1d68c; f74b52025ddf4b96416539952ac73da0110918f7; 1703053ddc928f345b25cbdcb45b7ec1917576de; 7773e44f10bc632c3f647892aea1e59aa0658ad3.
+Módulo lexicons/bdag-part-0065.js registrado após lexicons/bdag-part-0064.js no manifesto, com 20 search-row e 20 entry-card, pares data-target/id 1:1, identificadores únicos, HTML balanceado; demais módulos, demais léxicos e bibliographicTerms preservados. Nenhum popup ou URL externa incluídos.
+Evidência individual de presença e subdivisões:
+01. βλάσφημος, ον | linha 23284 | fonte 611 caracteres | tradução 830 caracteres | 23 marcadores numéricos | 7 ocorrências gregas | subdivisões — | faltas: 0
+02. βλέμμα, ατος, τό | linha 23289 | fonte 527 caracteres | tradução 543 caracteres | 22 marcadores numéricos | 5 ocorrências gregas | subdivisões ①② | faltas: 0
+03. βλέπω | linha 23301 | fonte 5786 caracteres | tradução 6873 caracteres | 176 marcadores numéricos | 59 ocorrências gregas | subdivisões ①ⓐⓑⓒⓓ②③④⑤⑥ⓐⓑⓒ⑦ⓐⓑ⑧ | faltas: 0
+04. βλέφαρον, ου, τό | linha 23357 | fonte 217 caracteres | tradução 290 caracteres | 8 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+05. βληθήσομαι | linha 23361 | fonte 20 caracteres | tradução 10 caracteres | 0 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas: 0
+06. βλητέος, α, ον | linha 23365 | fonte 190 caracteres | tradução 244 caracteres | 8 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas: 0
+07. βληχρός, ά, όν | linha 23369 | fonte 175 caracteres | tradução 231 caracteres | 4 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas: 0
+08. Βοανηργές | linha 23373 | fonte 1437 caracteres | tradução 1603 caracteres | 41 marcadores numéricos | 6 ocorrências gregas | subdivisões — | faltas: 0
+09. βοάω | linha 23378 | fonte 1636 caracteres | tradução 2102 caracteres | 64 marcadores numéricos | 23 ocorrências gregas | subdivisões ①ⓐⓑⓒ② | faltas: 0
+10. Βόες, ὁ | linha 23398 | fonte 301 caracteres | tradução 338 caracteres | 11 marcadores numéricos | 6 ocorrências gregas | subdivisões — | faltas: 0
+11. βοή, ῆς, ἡ | linha 23402 | fonte 236 caracteres | tradução 292 caracteres | 11 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+12. βοήθεια, ας, ἡ | linha 23407 | fonte 794 caracteres | tradução 1162 caracteres | 19 marcadores numéricos | 10 ocorrências gregas | subdivisões ①② | faltas: 0
+13. βοηθέω | linha 23418 | fonte 887 caracteres | tradução 1196 caracteres | 36 marcadores numéricos | 16 ocorrências gregas | subdivisões — | faltas: 0
+14. βοηθός, όν | linha 23422 | fonte 625 caracteres | tradução 801 caracteres | 26 marcadores numéricos | 7 ocorrências gregas | subdivisões — | faltas: 0
+15. βόησον | linha 23426 | fonte 15 caracteres | tradução 9 caracteres | 0 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas: 0
+16. βόθρος, ου, ὁ | linha 23430 | fonte 455 caracteres | tradução 516 caracteres | 19 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+17. βόθυνος, ου, ὁ | linha 23434 | fonte 318 caracteres | tradução 389 caracteres | 19 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+18. βολή, ῆς, ἡ | linha 23438 | fonte 411 caracteres | tradução 513 caracteres | 13 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas: 0
+19. βολίζω | linha 23442 | fonte 576 caracteres | tradução 716 caracteres | 15 marcadores numéricos | 8 ocorrências gregas | subdivisões — | faltas: 0
+20. βολίς, ίδος, ἡ | linha 23446 | fonte 164 caracteres | tradução 164 caracteres | 7 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+Checkpoint estrutural projetado: 1.504 → 1.524 pares BDAG, 65 módulos; próximo lema Βόος, ὁ.
+Auditoria independente de regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendem certificação filológica exaustiva por revisão independente, teste funcional DOM/CI, eventual PR/merge autorizado. Não elevar total_auditoria_concluida. Verificar commit e HEAD remotos para comprovar publicação segura.
+================================================================================
