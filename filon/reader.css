@@ -89,3 +89,7 @@
 .philo-reader h1 { overflow-wrap:anywhere; }
 .philo-reader h1 [lang="grc"] { font-family:"Noto Serif",Georgia,serif; }
 .philo-reader .philo-navigation-bottom { margin:1.25rem 0 .6rem; }
+
+/* Fílon: a parte grega permanece em redondo; só o latim é itálico. */
+.philo-reader [lang="la"] em,
+.philo-reader em[lang="la"] { font-style:italic; }
