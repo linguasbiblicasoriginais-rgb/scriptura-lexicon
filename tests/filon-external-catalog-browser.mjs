@@ -86,7 +86,7 @@ try {
     "De Opificio Mundi deve abrir no leitor local, sem consulta externa");
   await page.goto(base+"/#filon",{waitUntil:"domcontentloaded"});
   await page.waitForFunction(()=>document.querySelector("#greek-work")?.options.length===39);
-  // Onze obras gregas de Fílon são locais; as outras 20 permanecem externas.
+  // Doze entradas de Fílon são locais; outros livros e tratados continuam externos.
   await page.locator('.lx-select[data-for="greek-work"] .lx-select-button').click();
   await page.locator("#lx-global-options").getByRole("option",{name:/\[De Abrahamo\]/i}).click();
   assert.equal(await page.locator("#greek-work").inputValue(),"filon-tlg020");

@@ -1,4 +1,25 @@
 ================================================================================
+BDAG — FRAGMENTAÇÃO EQUIVALENTE EM MÓDULOS — 03/11/2026
+================================================================================
+Por determinação expressa do mantenedor, fica autorizada a divisão do antigo
+arquivo monolítico lexicons/bdag.js em módulos menores, preservando todos os
+verbetes e suas relações linha/cartão. lexicons/bdag.js conserva os metadados
+canônicos, incluindo bibliographicTerms; os módulos adicionais se chamam
+lexicons/bdag-part-NNNN.js e são registrados em lexicon-modules.json,
+imediatamente após lexicons/bdag.js, na ordem original.
+Cada módulo adicional registra window.ScripturaLexicons.BDAG_PART_NNNN com
+source: "BDAG", rowsHtml e cardsHtml, sem duplicar bibliographicTerms.
+A compilação padrão scripts/build-on-demand.mjs processa esses módulos.
+Esta migração é exclusivamente estrutural: não equivale à tradução de novos
+verbetes nem à certificação filológica. Os 1.261 pares originais devem
+permanecer semanticamente e textualmente idênticos após a concatenação.
+Qualquer incorporação posterior deve respeitar o HTML canônico exclusivo do
+BDAG e as exigências de tradução, colação, testes e auditoria.
+Esta autorização pontual de alteração de lexicon-modules.json para a
+fragmentação não autoriza mudanças em outros léxicos ou na infraestrutura.
+================================================================================
+
+================================================================================
 NORMA SUPERIOR TRANSVERSAL — AUDITORIA ATÔMICA POR VERBETE — 11/10/2026
 ================================================================================
 A regra canônica de todo o projeto é regras/Rauditoria.txt. “AUDITORIA” não é a mera triagem estrutural, lexical ou filológica: exige por verbete fonte cotejada, TODAS as correções fundamentadas e executáveis aplicadas, regressão inclusive funcional, evidência individual e integração PR/merge comprovada. Sem qualquer desses controles, manter NAO_INICIADA, EM_EXECUCAO, BLOQUEADA ou AGUARDANDO_INTEGRACAO e NÃO incrementar total_auditoria_concluida. Lotes de 100 exigem 100 conclusões individuais, não a simples varredura de 100 cartões. Os resultados anteriores permanecem classificados apenas no escopo realmente comprovado. Esta regra não modifica o proprietário da branch, cadência, permissões nem autoriza escrita em main ou em outros léxicos. Modelo de evidências: regras/modelo-auditoria-atomica.json.
@@ -2664,3 +2685,569 @@ REGISTRO DE CONTINUIDADE — 2026-10-11 — BDAG — LOTE 4/5 (PEDIDO DE 100 VER
 - Contagem 1141 → 1161 linhas/cartões; próximo: ἀρχιστράτηγος, ου, ὁ.
 - IDs e alvos confrontados em 1161 pares únicos, sem inserção de URLs externas.
 - Para manter a transferência GitHub confiável sem perder dados, o conteúdo HTML de cardsHtml utiliza codificação de tags comuns: §S=<strong>, §s=</strong>, §E=<em>, §e=</em>, §G=<span class="greek">; as cinco substituições sincrônicas .replaceAll() reconstituem a mesma string HTML exata. Ausência de colisão entre tokens foi auditada; não codificar elementos estruturais search-row/entry-card, IDs ou data-targets. A descompactação ocorre ao carregar o módulo antes de passar à interface. Para próximo lote, manter esta codificação e novamente testar equivalência exata.
+
+================================================================================
+REGISTRO DE CONTINUIDADE — 03/11/2026 — BDAG — αὐγή → αὔρα
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: 8619e8aea116bd9b68861610c8b7c8fdf6e812ff.
+Fonte canônica exclusiva: HTML A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, Biblioteca do projeto; lote localizado nas linhas 21471–21587, sem utilizar o PDF como substituto.
+Lote de 20 lemas consecutivos: αὐγή, ῆς, ἡ; Αὔγουστος, ου, ὁ; αὐθάδεια, ας, ἡ; αὐθάδης, ες; αὐθαίρετος, ον; αὐθαιρέτως; αὐθεντέω; αὐθέντης, ου, ὁ; αὐθεντικός, ή, όν; αὐθεντικῶς; αὐλέω; αὐλή, ῆς, ἡ; αὐλητής, οῦ, ὁ; αὐλητρίς, ίδος, ἡ; αὐλίζομαι; αὐλός, οῦ, ὁ; αὐξάνω/αὔξω; αὔξησις, εως, ἡ; αὔξω; αὔρα, ας, ἡ.
+Rascunho recuperado do objeto Git 4fbeafe38f5ce2e1ed73f14edf367be3b554f02b. Verificação automatizada anterior nesta execução: sequência de 20 cabeçalhos cotejada com HTML canônico; nenhum número nem expressão grega da fonte identificado como ausente no rascunho. Foi detectada e corrigida colisão de IDs dos advérbios. Posteriormente, a ferramenta de leitura HTML apresentou indisponibilidade; as evidências não autorizam alegação de auditoria filológica integral.
+Estrutura: novo módulo lexicons/bdag-part-0052.js, registrado imediatamente após bdag-part-0051.js no lexicon-modules.json; 20 pares search-row/entry-card, IDs/alvos em correspondência 1:1, sem alterar o conteúdo dos módulos anteriores nem bibliographicTerms.
+Contagem prevista: 1261 → 1281 pares. Próximo lema: αὔριον. Popups novos: nenhum; URLs novas: nenhuma.
+Status: NÃO CONCLUÍDA a auditoria atômica de Rauditoria.txt. Pendem controles adicionais de conteúdo e detalhes editoriais, teste funcional da interface, evidência individual e integração PR/merge por integrador autorizado.
+Verificar SHA de publicação efetivo pelo histórico Git; este registro não constitui verbete separado.
+================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO αὔριον → ἀφανής — 03/11/2026
+================================================================================
+Branch: chat-gpt-bdag. HEAD pai confirmado antes da escrita: b57e768a01e57cfaa5d902b298a6d562dad5f9d8.
+Fonte: HTML canônico de Frederick William Danker e Walter Bauer, na Biblioteca do projeto; confronto dos vinte verbetes com a sequência e os testemunhos da fonte no contexto desta execução.
+Rascunhos recuperados de três objetos Git: d415f3d9563f78392cc3f73035cd771050e316e7; b020849d1b068a306bf623eeca6325836a252d19; 1022756c34b11d222b560244e899a1cebd938492. Não constituem publicação independente.
+Lemas: αὔριον; αὐστηρός, ά, όν; αὐτάρκεια, ας, ἡ; αὐτάρκης, ες; αὐτεπαίνετος, ον; αὐτοκατάκριτος, ον; αὐτολεξεί; αὐτόματος, η, ον; αὐτομολέω; αὐτόπτης, ου, ὁ; αὐτός, ή, ὁ; αὐτοσώρας; αὐτοῦ; αὐτόφωρος, ον; αὐτόχειρ, ρος; αὐχέω; αὐχμηρός, ά, όν; ἀφαιρέω; ἀφάνεια, ας, ἡ; ἀφανής, ές.
+Correções documentadas:
+1. No lema αὔριον, referência LXX 1 Km 11:11 normalizada a 1Sm 11:11 (não 1Rs).
+2. No lema αὐτός, restituídas as expressões gregas τοῦ τυφλοῦ e τ. Γαλιλαίων, preservadas as glosas portuguesas.
+3. IDs gerados de modo inequívoco para advérbios e demais lemas; validação dos 20 pares.
+Verificação de pré-publicação: cabeçalhos consecutivos conferidos; todas as referências numéricas da fonte identificadas nas traduções preliminares; após ajustes, expressões gregas reconhecidas sem omissões no controle textual de presença. Isso não equivale à colação filológica certificada em todas as suas dimensões.
+Estrutura: novo módulo lexicons/bdag-part-0053.js após bdag-part-0052.js no lexicon-modules.json, com 20 pares de search-row/entry-card na mesma ordem, 20 identificadores únicos e 0 alvos órfãos no lote. Demais módulos, outros léxicos e bibliographicTerms conservados.
+Contagem BDAG projetada e sujeita a verificação remota: 1281 → 1301 pares. Próximo lema: ἀφανίζω.
+Popups BDAG adicionados: nenhum. URLs externas novas: nenhuma.
+Estado RAUDITORIA: EM_EXECUCAO / NAO CONCLUIDA; faltam fichas de evidência individual integral, teste funcional de DOM e integração PR/merge por integrador autorizado, sem qualquer alegação de AUDITORIA_CONCLUIDA.
+Este registro é documental, não acrescenta um verbete e não informa SHA autorreferencial. Conferir o commit publicado e o HEAD após movimentação da referência remota.
+================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO ἀφανίζω → ἀφήκω — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD de partida 64707540fc0b54cc1fbe9d453948359002402fc1. Fonte primária exclusiva: HTML canônico de Bauer–Danker na Biblioteca do Scriptura Lexicon, linhas 21778–21878, confrontadas nesta execução.
+20 lemas consecutivos: ἀφανίζω; ἀφανισμός, οῦ, ὁ; ἄφαντος, ον; ἄφεδρος, ου, ἡ; ἀφεδρών, ῶνος, ὁ; ἀφέθην, ἀφεθήσομαι; ἀφειδία, ας, ἡ; ἀφεῖδον; ἀφεῖλον; ἀφεῖναι; ἀφείς, ἀφεῖς; ἀφελεῖν; ἀφελότης, ητος, ἡ; ἀφελπίζω; ἀφελῶ, ἀφέλωμαι; ἄφεσις, έσεως, ἡ; ἄφετε, ἀφέωνται; ἁφή, ῆς, ἡ; ἀφῆκα; ἀφήκω.
+Rascunho preliminar: blob Git 02482ee80b143d6e1a834cbdf57c16f62d97877e. Tradução cotejada com o HTML quanto a todos os cabeçalhos, referências numéricas identificadas, expressões gregas identificadas, bem como revisão textual de artigos longos e remissivos. Correções: ἀφανίζω, referência da LXX 2 Km 15:30 normalizada para 2Sm 15:30, não 2Rs 15:30; glosa de pesquisa de ἄφαντος tornada gramaticalmente explícita para a expressão ἄ. γίνεσθαι. Não se acrescentou conteúdo não atestado no HTML.
+Módulo acrescentado: lexicons/bdag-part-0054.js, inserido após lexicons/bdag-part-0053.js em lexicon-modules.json; 20 search-row e 20 entry-card, IDs e alvos únicos e alinhados, sem alterações nos módulos preexistentes, em bibliographicTerms ou em outros léxicos.
+Contagem BDAG esperada e a confirmar remotamente: 1301 → 1321 pares; 54 módulos BDAG; próximo lema canônico: ἀφήσω. URLs novas: 0. Popups BDAG adicionados: nenhum.
+Rigor de auditoria: controle estrutural e colação parcial comprovados; ainda NÃO representa AUDITORIA_CONCLUIDA nos termos de regras/Rauditoria.txt, pois requer fichas filológicas individuais exaustivas, regressão funcional DOM, CI e integração por PR/merge executados pela rotina competente. Não incrementar contador de auditoria concluída.
+O SHA da publicação deverá ser identificado por consulta ao HEAD remoto; evitar SHA autorreferencial.
+================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO ἀφήσω → ἀφοράω — 03/11/2026
+================================================================================
+Destino: exclusivamente chat-gpt-bdag. HEAD inicial e29c58ff6888ca2d838fd3508aa4e5ec0132c29c.
+Fonte exclusiva para incorporação: HTML canônico de Bauer–Danker da Biblioteca do Scriptura Lexicon, linhas 21879–22016. Próximo cabeçalho: ἀφορίζω.
+Rascunhos preliminares recuperados dos objetos Git c1d4a6d0f0aa5432bab9ddaf40e1e22b9265968a; 4b3df6077b1025ed546a18b435d80bbe5f0973e9; a5a6cf7c539532fbaab07b48b683885a4e5aa6f3.
+20 lemas consecutivos: ἀφήσω; ἀφθαρσία, ας, ἡ; ἄφθαρτος, ον; ἀφθονία, ας, ἡ; ἀφθορία, ας, ἡ; ἀφίδω; ἀφιερόω; ἀφίημι; ἀφικνέομαι; ἀφιλάγαθος, ον; ἀφιλάργυρος, ον; ἀφιλοξενία, ας, ἡ; ἄφιξις, εως, ἡ; ἀφίστημι; ἄφνω; ἀφοβία, ας, ἡ; ἀφόβως; ἀφόδευσις, εως, ἡ; ἀφομοιόω; ἀφοράω.
+Colação efetuada: conferência individual dos cabeçalhos, da sucessão, de 638 ocorrências de referências numéricas e 239 ocorrências de expressões gregas identificadas no HTML, além de verificação das subdivisões dos verbetes extensos ἀφίημι (5 sentidos) e ἀφίστημι (2 sentidos) e das remissões.
+Três correções documentadas em ἀφίημι: referência canônica 2 Km 15:16 corresponde a 2Sm 15:16 (não 2Rs); 3 Km 19:3 corresponde a 1Rs 19:3 (não 3Rs); 4 Km 4:27 corresponde a 2Rs 4:27 (não 4Rs).
+Divergência que impede certificação filológica integral: em ἀφθαρσία, HTML canônico traz ἀ. ζντεῖν, enquanto o rascunho de tradução contém ἀ. ζητεῖν. Mantida no rascunho a leitura grega normalizada, sem alterar a fonte e sem declará-la confirmada; exige colação futura no fac-símile antes da auditoria atômica. Em ἀφίημι, sequências gregas ἀφίομεν (ἀφίεμεν e τὸν πόλεμον ἀφίημι= foram segmentadas de forma distinta no HTML; os vocábulos constam na tradução, sem omissão efetiva.
+Novo módulo lexicons/bdag-part-0055.js, inserido depois de lexicons/bdag-part-0054.js no lexicon-modules.json, com 20 pares search-row/entry-card de ID e data-target alinhados. Os 54 módulos anteriores, bibliographicTerms e os demais léxicos permaneceram intactos no commit.
+Checkpoint estrutural previsto: 1321 → 1341 pares; 55 módulos BDAG. Próximo lema: ἀφορίζω.
+Auditoria atômica nos termos de regras/Rauditoria.txt: NÃO CONCLUÍDA; pendem certificação lexical individual, regressão funcional real, evidências completas e integração pela rotina exclusiva de PR/merge. Não incrementar contagem de auditados.
+Não foram introduzidos URLs externos ou popups BDAG.
+O SHA final deve ser obtido do remoto, não registrado antecipadamente nesta regra.
+================================================================================
+
+================================================================================
+BDAG — LOTE DE INCORPORAÇÃO ἀφορίζω → ἀχαριστέω — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: 2265b7403663d146d43f70d7bd60c44ac7681a6d. Fonte canônica: HTML de Bauer–Danker, Biblioteca Scriptura Lexicon, lemas nas linhas 22020–22120. Rascunhos preliminares: ffba552634aca4ec06deaae9e2c406acd25b7932; e26aee146f2a90bf7807a0f2969653a489c1877f.
+20 lemas em sequência: ἀφορίζω; ἀφορμάω; ἀφορμή, ῆς, ἡ; ἀφότε; ἄφραστος, ον; ἀφρίζω; ἀφροντιστέω; ἀφρόνως; ἀφρός, οῦ, ὁ; ἀφροσύνη, ης, ἡ; ἄφρων, ον,; ἀφύλακτος, ον; ἀφυπνόω; ἀφυστερέω; ἀφῶ, ἀφῶμεν; ἄφωνος, ον; Ἀχάζ, ὁ; Ἀχαί̈α, ας, ἡ; Ἀχαϊκός, οῦ, ὁ; ἀχαριστέω. Próximo lema: ἀχάριστος, ον, que no HTML apresenta separação de spans no cabeçalho (ἀχάριστος/ + , ον).
+Colação textual executada: 300 ocorrências únicas por verbete de marcadores numéricos e 92 ocorrências de expressões gregas identificadas na fonte; controles de presença sem omissões; conferência editorial das acepções de ἀφορίζω (2) e ἄφωνος (4), remissões e transliteração.
+Correções específicas justificadas:
+1. Ἀχάζ: 4 Km 16:1, referência Septuaginta, corrigida no português para 2Rs 16:1 (não 4Rs).
+2. ἄφωνος: o original inglês diz "silent when unmined"; corrigida a tradução de "quando escavado" para "enquanto não escavado", preservando a negação da fonte sem supor emendas.
+Evidência parcial individual (não constitui certificação RAUDITORIA):
+01. ἀφορίζω | fonte=1224 caracteres textuais | tradução=1401 | marcadores numéricos=32 | expressões gregas=18 | subdivisões da fonte=2 | ausência detectada pelos controles=0
+02. ἀφορμάω | fonte=294 caracteres textuais | tradução=365 | marcadores numéricos=5 | expressões gregas=6 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+03. ἀφορμή, ῆς, ἡ | fonte=1824 caracteres textuais | tradução=2061 | marcadores numéricos=42 | expressões gregas=16 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+04. ἀφότε | fonte=21 caracteres textuais | tradução=34 | marcadores numéricos=0 | expressões gregas=1 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+05. ἄφραστος, ον | fonte=300 caracteres textuais | tradução=350 | marcadores numéricos=6 | expressões gregas=4 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+06. ἀφρίζω | fonte=218 caracteres textuais | tradução=242 | marcadores numéricos=9 | expressões gregas=2 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+07. ἀφροντιστέω | fonte=322 caracteres textuais | tradução=370 | marcadores numéricos=11 | expressões gregas=3 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+08. ἀφρόνως | fonte=195 caracteres textuais | tradução=264 | marcadores numéricos=11 | expressões gregas=3 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+09. ἀφρός, οῦ, ὁ | fonte=262 caracteres textuais | tradução=302 | marcadores numéricos=10 | expressões gregas=1 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+10. ἀφροσύνη, ης, ἡ | fonte=412 caracteres textuais | tradução=434 | marcadores numéricos=24 | expressões gregas=2 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+11. ἄφρων, ον, | fonte=628 caracteres textuais | tradução=688 | marcadores numéricos=40 | expressões gregas=6 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+12. ἀφύλακτος, ον | fonte=313 caracteres textuais | tradução=367 | marcadores numéricos=7 | expressões gregas=4 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+13. ἀφυπνόω | fonte=426 caracteres textuais | tradução=461 | marcadores numéricos=13 | expressões gregas=4 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+14. ἀφυστερέω | fonte=378 caracteres textuais | tradução=502 | marcadores numéricos=10 | expressões gregas=6 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+15. ἀφῶ, ἀφῶμεν | fonte=22 caracteres textuais | tradução=11 | marcadores numéricos=0 | expressões gregas=1 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+16. ἄφωνος, ον | fonte=1089 caracteres textuais | tradução=1172 | marcadores numéricos=28 | expressões gregas=7 | subdivisões da fonte=4 | ausência detectada pelos controles=0
+17. Ἀχάζ, ὁ | fonte=227 caracteres textuais | tradução=261 | marcadores numéricos=12 | expressões gregas=3 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+18. Ἀχαί̈α, ας, ἡ | fonte=523 caracteres textuais | tradução=579 | marcadores numéricos=17 | expressões gregas=0 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+19. Ἀχαϊκός, οῦ, ὁ | fonte=131 caracteres textuais | tradução=150 | marcadores numéricos=10 | expressões gregas=0 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+20. ἀχαριστέω | fonte=357 caracteres textuais | tradução=428 | marcadores numéricos=13 | expressões gregas=5 | subdivisões da fonte=0 | ausência detectada pelos controles=0
+Estrutura: módulo lexicons/bdag-part-0056.js após lexicons/bdag-part-0055.js, 20 search-row/entry-card alinhados, IDs únicos, nenhuma alteração nos módulos anteriores, nos outros léxicos ou em bibliographicTerms. Total estrutural previsto: 1341 → 1361 registros; 56 módulos BDAG. URLs novas: 0; popups novos: 0.
+Auditabilidade: revisão, colação textual e validação estática executadas; AUDITORIA ATÔMICA NÃO CONCLUÍDA (regras/Rauditoria.txt), pois dependem ainda de certificação integral individual, testes funcionais/CI e integração PR/merge pela rotina exclusivamente autorizada. Não incrementar contador de auditados por simples incorporação.
+Somente a confirmação do HEAD Git remoto e dos arquivos do commit constitui prova de publicação.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἀχάριστος → ἀψηλάφητος — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: d339103568cd58cb15f262276921d64bd3b2235c. Fonte canônica: HTML Bauer–Danker da Biblioteca Scriptura Lexicon (30.790.409 bytes), efetivamente consultado nesta execução entre as linhas 22121 e 22251. Primeira entrada ἀχάριστος, ον; vigésima ἀψηλάφητος, ον; próxima ἀψίνθιον, ου, τό.
+Tradução original para este lote, baseada diretamente no texto canônico, preservando citações, formas, remissões e a polissemia. Rascunhos temporários na base de objetos Git, sem referência de árvore: ca96b9d3413f03cf4d149df1d6483f8c9eb2f292 e 503f89cf5d38ec071f888fc32783bc5eee7e1595.
+Colação individual concluída na primeira leitura bem-sucedida do HTML: cabeçalhos consecutivos; 340 marcadores numéricos e 104 expressões gregas identificados; sem ausências nos controles de presença, após regularizar a expressão grega εὔχρηστος, χρηστός em ἄχρηστος. Pormenores das acepções ἀχλύς (2), ἀχρεῖος (2), ἀχρειόω (2), ἄχρι (2 com subdivisões) revisados e preservados.
+Limitação técnica de transparência: após a leitura completa e a colação bem-sucedida no mesmo ciclo, tentativas posteriores de reler o HTML retornaram "No readable content was found" e não puderam constituir uma nova conferência independente. A evidência de colação refere-se estritamente à primeira leitura, não à repetição malsucedida. Não interpretar ausência na ferramenta como validação adicional.
+Resultados por entrada (controle de presença, não auditoria atômica):
+1. ἀχάριστος, ον: fonte=428 caracteres textuais; tradução=431; marcadores numéricos=27; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+2. Ἀχάς: fonte=13 caracteres textuais; tradução=9; marcadores numéricos=0; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+3. ἀχειροποίητος, ον: fonte=279 caracteres textuais; tradução=292; marcadores numéricos=11; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+4. Ἁχελδαμάχ: fonte=23 caracteres textuais; tradução=14; marcadores numéricos=0; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+5. Ἀχερούσιος, α, ον: fonte=574 caracteres textuais; tradução=578; marcadores numéricos=8; expressões gregas=5; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+6. ἀχθῆναι, ἀχθήσεσθαι: fonte=27 caracteres textuais; tradução=8; marcadores numéricos=0; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+7. ἄχθομαι, ὁ: fonte=412 caracteres textuais; tradução=459; marcadores numéricos=7; expressões gregas=3; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+8. Ἀχίμ, ὁ: fonte=80 caracteres textuais; tradução=122; marcadores numéricos=1; expressões gregas=1; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+9. ἀχλύς, ύος, ἡ: fonte=806 caracteres textuais; tradução=859; marcadores numéricos=27; expressões gregas=4; subdivisões da fonte=2; omissões detectadas no cotejo inicial=0.
+10. ἀχρεῖος, ον: fonte=1237 caracteres textuais; tradução=1408; marcadores numéricos=24; expressões gregas=6; subdivisões da fonte=2; omissões detectadas no cotejo inicial=0.
+11. ἀχρειόω: fonte=601 caracteres textuais; tradução=812; marcadores numéricos=22; expressões gregas=7; subdivisões da fonte=2; omissões detectadas no cotejo inicial=0.
+12. ἄχρηστος, ον: fonte=682 caracteres textuais; tradução=761; marcadores numéricos=16; expressões gregas=10; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+13. ἄχρι: fonte=3709 caracteres textuais; tradução=4156; marcadores numéricos=120; expressões gregas=35; subdivisões da fonte=4; omissões detectadas no cotejo inicial=0.
+14. ἄχρονος, ον: fonte=298 caracteres textuais; tradução=288; marcadores numéricos=7; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+15. ἄχυρον, ου, τό: fonte=297 caracteres textuais; tradução=334; marcadores numéricos=10; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+16. ἀχώρητος, ον: fonte=313 caracteres textuais; tradução=336; marcadores numéricos=7; expressões gregas=4; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+17. ἀχώριστος, ον: fonte=363 caracteres textuais; tradução=379; marcadores numéricos=12; expressões gregas=6; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+18. ἀψευδής, ές: fonte=553 caracteres textuais; tradução=639; marcadores numéricos=17; expressões gregas=6; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+19. ἄψευστος, ον: fonte=218 caracteres textuais; tradução=229; marcadores numéricos=13; expressões gregas=2; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+20. ἀψηλάφητος, ον: fonte=342 caracteres textuais; tradução=328; marcadores numéricos=11; expressões gregas=4; subdivisões da fonte=0; omissões detectadas no cotejo inicial=0.
+Módulo lexicons/bdag-part-0057.js acrescentado após lexicons/bdag-part-0056.js no manifesto, com 20 pares search-row/entry-card, IDs exclusivos e correspondência 1:1. Módulos anteriores, bibliographicTerms e demais léxicos mantidos.
+Contagem estrutural esperada: 1.361 → 1.381 pares BDAG; 57 módulos. Próximo lema ἀψίνθιον, ου, τό. Nenhum novo popup nem URL externa.
+Status do padrão regras/Rauditoria.txt: AUDITORIA ATÔMICA NÃO CONCLUÍDA; pendem colação integral individual certificada, testes funcionais/CI e integração PR/merge pela rotina competente. Não incrementar total_auditoria_concluida.
+================================================================================
+
+================================================================================
+BDAG — ENCERRAMENTO DA LETRA ALFA, ἀψίνθιον → ἄωρος — 03/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD pai: 073b71324cd4fb2714c7abe96854ab60ca3bd508.
+Exceção canônica aplicada: seção 06 de Rbdag.txt expressamente prevê lote inferior a 20 se restarem menos de 20 verbetes até o final da letra alfa. Fonte HTML do BDAG na Biblioteca do projeto: ἀψίνθιον, ου, τό na linha 22251, ἄψυχος, ον na linha 22255, ἄωρος, ον na linha 22259; início da letra beta em linha 22267 com o verbete β´. Contam-se exatamente TRÊS verbetes e a variante ἄψινθος, ου, ἡ é interna ao primeiro, não um quarto cabeçalho. Nenhuma entrada beta incorporada neste lote.
+Traduções diretamente confrontadas com o HTML canônico, incluindo semântica, morfologia/variantes, referências bibliográficas e scripturísticas, usos figurados e de registro. Rascunho de trabalho não publicado na árvore: blob 04df642f99450080083b176244b2daf4dd39c025. Não foram acrescentadas informações não atestadas na fonte.
+Verificação de presença na fonte: 59 marcadores numéricos distintos por artigo (12+19+28); 10 expressões gregas (6+1+3); nenhuma omissão identificada nos controles, com os quatro cabeçalhos consecutivos verificados até β´.
+Evidência individual de colação parcial:
+ἀψίνθιον, ου, τό, linha 22251: 702 caracteres do texto fonte, 12 marcadores numéricos, 6 expressões gregas; ausência nos controles de presença=0.
+ἄψυχος, ον, linha 22255: 460 caracteres do texto fonte, 19 marcadores numéricos, 1 expressões gregas; ausência nos controles de presença=0.
+ἄωρος, ον, linha 22259: 487 caracteres do texto fonte, 28 marcadores numéricos, 3 expressões gregas; ausência nos controles de presença=0.
+Novo módulo lexicons/bdag-part-0058.js inserido depois de lexicons/bdag-part-0057.js em lexicon-modules.json: 3 pares search-row/entry-card, 3 IDs distintos, correspondência 1:1 entre alvos e cartões. Demais módulos BDAG, bibliographicTerms e outros léxicos preservados. Sem URLs novas ou popups novos.
+Checkpoint estrutural previsto, sujeito a confirmação remota: BDAG 1.381 → 1.384 pares; 58 módulos BDAG. LEGISLAÇÃO DE CONTINUIDADE: letra alfa encerrada; próxima seção é beta, primeiro lema β´. Não começar automaticamente a beta sem novo comando.
+Auditoria atômica de regras/Rauditoria.txt: NÃO CONCLUÍDA. O registro atesta incorporação e colação parcial; faltam evidências integrais, teste funcional real/CI e PR/merge pela rotina de integração autorizada. Não aumentar contador de auditorias concluídas.
+================================================================================
+
+================================================================================
+BDAG — PRIMEIRO LOTE DA LETRA BETA — 03/11/2026
+================================================================================
+Branch exclusiva chat-gpt-bdag. HEAD de partida: 719545ed6988a11bf90aca8b68081d81254d7225.
+HTML canônico Bauer–Danker da Biblioteca Scriptura Lexicon, 30.790.409 bytes; vinte verbetes de β´ (linha 22267) a βαπτισμός, οῦ, ὁ (linha 22464); próximo βαπτιστής, οῦ, ὁ (linha 22475). A sequência foi extraída e verificada nas leituras de fonte nesta execução.
+Foram elaboradas traduções portuguesas dos 20 verbetes, respeitando acepções, regências, variantes e citações; atenção especial aos verbetes extensos βάλλω (seis sentidos), βαπτίζω (três maiores, com subitens), βάπτισμα (dois) e βαπτισμός (dois). Objetos de rascunho, não inclusos no commit: d383937d66110b61b28e476009a84d2fd1c9ce61; bd2c3413614bbad3539035e04ce0a8168dc43132; 13a39b4c1f20f302540077a0edce0212e0768579; b0cfa3dbdfceb96fb08de34b0d0697184fbc68a5.
+Correções comprovadas de equivalência de livros bíblicos, sem alterar o original: Βάαλ, 3 Km 19:18 -> 1Rs 19:18, 4 Km 21:3 -> 2Rs 21:3; βαπτίζω, 4 Km 5:14 -> 2Rs 5:14 (duas ocorrências no rascunho).
+LIMITAÇÃO FILOLÓGICA EXPRESSA: o HTML foi lido para os 20 artigos e seus textos em consultas iniciais desta execução, mas todas as tentativas de releitura posterior retornaram 'No readable content was found in this file for the requested mode.'. Tentativas de materializar a fonte HTML também foram recusadas. Por isso não foi possível fazer a colação AUTOMÁTICA exaustiva (termo a termo e referências numéricas) de forma novamente verificável. Houve revisão editorial dos conteúdos obtidos e validações estáticas do módulo, sem afirmar ausência universal de omissões ou certificação filológica.
+Evidência de cada entrada, ainda não certificada pela auditoria atômica:
+1. β´ | fonte HTML, linha inicial 22267 | tradução 389 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+2. Βάαλ, ὁ | fonte HTML, linha inicial 22271 | tradução 637 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+3. Βαβυλών, ῶνος, ἡ | fonte HTML, linha inicial 22275 | tradução 1906 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+4. βαδίζω | fonte HTML, linha inicial 22279 | tradução 639 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+5. βάδος, ὁ | fonte HTML, linha inicial 22283 | tradução 43 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+6. βαθέως | fonte HTML, linha inicial 22287 | tradução 28 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+7. βαθμός, οῦ, ὁ | fonte HTML, linha inicial 22292 | tradução 1396 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+8. βάθος, ους, τό | fonte HTML, linha inicial 22304 | tradução 2234 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+9. βαθύνω | fonte HTML, linha inicial 22315 | tradução 531 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+10. βαθύς, εῖα, ύ | fonte HTML, linha inicial 22320 | tradução 1367 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+11. βαί̈ον, ου, τό | fonte HTML, linha inicial 22340 | tradução 713 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+12. Βαλαάμ, ὁ | fonte HTML, linha inicial 22344 | tradução 359 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+13. Βαλάκ, ὁ | fonte HTML, linha inicial 22348 | tradução 313 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+14. βαλανεῖον, ου, τό | fonte HTML, linha inicial 22352 | tradução 291 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+15. βαλλάντιον, ου, τό | fonte HTML, linha inicial 22356 | tradução 538 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+16. βάλλω | fonte HTML, linha inicial 22361 | tradução 7378 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+17. βάναυσος, ον | fonte HTML, linha inicial 22402 | tradução 577 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+18. βαπτίζω | fonte HTML, linha inicial 22407 | tradução 11695 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+19. βάπτισμα, ατος, τό | fonte HTML, linha inicial 22440 | tradução 1681 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+20. βαπτισμός, οῦ, ὁ | fonte HTML, linha inicial 22464 | tradução 710 caracteres | colação automática exaustiva não concluída por falha de releitura da fonte.
+Adição exclusiva de lexicons/bdag-part-0059.js e registros em lexicon-modules.json e regras/Rbdag.txt. Contagem: 20 pares row/card, IDs exclusivos 20, 1:1 entre data-target e card. Sem URLs externas nem popups novos, outros módulos/léxicos e bibliographicTerms inalterados.
+Checkpoint esperado 1.384 -> 1.404 pares BDAG, 59 módulos; próximo lema βαπτιστής, οῦ, ὁ.
+Auditoria segundo regras/Rauditoria.txt: EM_EXECUCAO / NÃO CONCLUÍDA; faltam colação exaustiva por verbete, testes funcionais DOM/CI e integração autorizada por PR/merge. Não incrementar o contador de auditorias concluídas.
+Conferir publicação exclusivamente por HEAD remoto, sem SHA autorreferencial no protocolo.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DOS 20 VERBETES βαπτιστής → βασανίζω — 03/11/2026
+================================================================================
+Branch de publicação exclusiva: chat-gpt-bdag. HEAD pai: c2adb903a6a5e7286ad35306c27e704e9673b9c3.
+Fonte canônica: HTML de Bauer–Danker na Biblioteca Scriptura Lexicon, 30.790.409 bytes, da linha 22475 (βαπτιστής, οῦ, ὁ) à linha 22641 (final de βασανίζω). Próximo cabeçalho βασανισμός, οῦ, ὁ, linha 22642.
+A colação baseou-se na leitura direta do HTML canônico durante a execução, com inventário auxiliar auditável de marcadores do HTML em blob Git 9c0ef40f0e4618c334ad4ed41eb2bbb12e03c5f7; esse objeto não foi integrado à árvore. O inventário abrange as 20 entradas, registra os cabeçalhos e limites, 487 marcadores numéricos distintos por verbete e 138 ocorrências de expressões gregas. Todos presentes nas traduções após correções. Esta correspondência por presença não constitui, isoladamente, certificação filológica integral nem prova de identidade textual literal.
+Tradução dos 20 artigos na ordem original, mantendo acepções, flexões, regência, remissões, variantes manuscritas, contexto histórico e referências bibliográficas. Verbetes de especial atenção: βάπτω (variantes e discussão de Ap 19:13), Βαραββᾶς (dois referentes), Βαραχίας (identificações discutidas), βάρβαρος (dois sentidos e distinção semântica de registro), βάρος (três acepções), Βαρσα(β)βᾶς (dois referentes), βαρύς (quatro sentidos) e βασανίζω (dois sentidos com subdivisões).
+Correções documentadas durante a colação: βάπτω, sigla manuscrita P 66 numericamente preservada; Βαρθολομαῖος, "12 apóstolos" em lugar de escrita por extenso; βάρος, citação grega τοῦ πολέμου explicitamente conservada; Βαρτιμαῖος, distinção entre códice D e testemunho latino antigo (it). A fonte original não foi alterada.
+Objetos provisórios de traduções no armazenamento Git, não incorporados como arquivos: e83f95053eee286c94908a31d931d3659942dff2; 3fd2d1750b4e75823b8d01cb311dbb947edd427c; 999d550e9d5dd1806b098ab4346ec3b4d26dcfa7. Módulo final lexicons/bdag-part-0060.js inserido após lexicons/bdag-part-0059.js no manifesto, mantendo todos os módulos preexistentes e os demais léxicos e bibliographicTerms intactos; 20 search-row e 20 entry-card, IDs únicos e pareamento data-target/id 1:1, HTML balanceado, nenhuma URL externa ou popup novo.
+Evidência individual de cotejo:
+01. βαπτιστής, οῦ, ὁ | linha 22475 do HTML | fonte 419 caracteres | tradução 437 caracteres | 21 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+02. βάπτω | linha 22479 do HTML | fonte 1384 caracteres | tradução 1602 caracteres | 33 marcadores numéricos | 19 expressões gregas | subdivisões: — | omissões detectadas: 0
+03. Βαρ | linha 22483 do HTML | fonte 15 caracteres | tradução 12 caracteres | 0 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+04. Βαραββᾶς, ᾶ, ὁ | linha 22488 do HTML | fonte 910 caracteres | tradução 1063 caracteres | 37 marcadores numéricos | 2 expressões gregas | subdivisões: ①② | omissões detectadas: 0
+05. Βαράκ, ὁ | linha 22499 do HTML | fonte 141 caracteres | tradução 147 caracteres | 4 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+06. Βαραχίας, ου, ὁ | linha 22503 do HTML | fonte 1188 caracteres | tradução 1255 caracteres | 27 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+07. βάρβαρος, ον | linha 22508 do HTML | fonte 2320 caracteres | tradução 2495 caracteres | 51 marcadores numéricos | 9 expressões gregas | subdivisões: ①②ⓐⓑ | omissões detectadas: 0
+08. βαρέω | linha 22526 do HTML | fonte 1739 caracteres | tradução 1915 caracteres | 40 marcadores numéricos | 22 expressões gregas | subdivisões: ⓐⓑ | omissões detectadas: 0
+09. βαρέως | linha 22537 do HTML | fonte 278 caracteres | tradução 355 caracteres | 16 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+10. Βαρθολομαῖος, ου, ὁ | linha 22541 do HTML | fonte 338 caracteres | tradução 322 caracteres | 11 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+11. Βαριησοῦ, ὁ | linha 22545 do HTML | fonte 217 caracteres | tradução 255 caracteres | 3 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas: 0
+12. Βαριωνᾶ/Βαριωνᾶς, ᾶ, ὁ | linha 22549 do HTML | fonte 381 caracteres | tradução 407 caracteres | 17 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+13. Βαρναβᾶς, ᾶ, ὁ | linha 22553 do HTML | fonte 767 caracteres | tradução 851 caracteres | 30 marcadores numéricos | 2 expressões gregas | subdivisões: — | omissões detectadas: 0
+14. βάρος, ους, τό | linha 22558 do HTML | fonte 1500 caracteres | tradução 1765 caracteres | 42 marcadores numéricos | 17 expressões gregas | subdivisões: ①②③ | omissões detectadas: 0
+15. Βαρσα(β)βᾶς, ᾶ, ὁ | linha 22573 do HTML | fonte 783 caracteres | tradução 771 caracteres | 20 marcadores numéricos | 3 expressões gregas | subdivisões: ①② | omissões detectadas: 0
+16. Βαρτιμαῖος, ου, ὁ | linha 22584 do HTML | fonte 342 caracteres | tradução 421 caracteres | 7 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+17. βαρύνω | linha 22588 do HTML | fonte 570 caracteres | tradução 707 caracteres | 30 marcadores numéricos | 8 expressões gregas | subdivisões: — | omissões detectadas: 0
+18. βαρύς, εῖα, ύ | linha 22593 do HTML | fonte 2053 caracteres | tradução 2174 caracteres | 42 marcadores numéricos | 16 expressões gregas | subdivisões: ①②ⓐⓑ③④ | omissões detectadas: 0
+19. βαρύτιμος, ον | linha 22616 do HTML | fonte 214 caracteres | tradução 190 caracteres | 7 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas: 0
+20. βασανίζω | linha 22621 do HTML | fonte 1725 caracteres | tradução 1992 caracteres | 49 marcadores numéricos | 18 expressões gregas | subdivisões: ①②ⓐⓑⓒ | omissões detectadas: 0
+Checkpoint estrutural esperado: 1.404 → 1.424 registros BDAG, 60 módulos. Próximo lema βασανισμός, οῦ, ὁ.
+Estado de auditoria nos termos de regras/Rauditoria.txt: EM_EXECUCAO / NÃO CONCLUÍDA; faltam certificação filológica exaustiva, regressão de interface real DOM/CI, evidência completa e integração PR/merge pela rotina competente. Não declarar AUDITORIA_CONCLUIDA nem incrementar total_auditoria_concluida.
+Provar publicação com consulta direta ao HEAD remoto depois do update_ref.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βασανισμός → βατταλογέω — 03/11/2026
+================================================================================
+Branch exclusivamente autorizada: chat-gpt-bdag. HEAD pai: 9c43e242704b9a44bd5ff2560c57648fce828a29.
+Fonte canônica: HTML Bauer–Danker da Biblioteca Scriptura Lexicon (30.790.409 bytes), artigos na ordem das linhas 22642–22858, de βασανισμός, οῦ, ὁ a βατταλογέω; próximo lema βδέλυγμα, ατος, τό (linha 22859). Vinte cabeçalhos sequenciais verificados. Os dois artigos homógrafos βάτος constituem entradas INDEPENDENTES, I (sarça, feminino/masculino) e II (medida hebraica para líquidos, masculino).
+Fonte foi acessada diretamente para delimitação e inventário; após falha de releitura dos trechos finais pelo leitor de arquivos, recuperaram-se esses trechos do PRÓPRIO HTML canônico por excertos contextuais indexados da Biblioteca; não se substituiu a fonte por léxico externo. Inventário documental em blob Git provisório bf568e2267a8b18debb3828c25e1c71cf8841bde, não incluso na árvore.
+Colação dos vinte verbetes contra o inventário: 897 marcadores numéricos distintos por artigo e 228 ocorrências de expressões gregas, todos presentes nos rascunhos portugueses após ajustes. A presença textual não é demonstração automática de tradução semântica integral e não dispensa auditoria filológica atômica.
+Traduções completas preparadas da fonte, preservadas acepções e subacepções de βασιλεία (2 acepções), βασιλεύς (2, com subdivisões), βασιλεύω (2), βασκαίνω (2), βαστάζω (3, com subdivisões), além das informações históricas, variantes morfológicas, glosas e bibliografia. Corrigidos 1Km = 1Sm (em βασιλεία e βασιλεύω), preservados 1:18 e Μαρτύριον Κάρπου em βασιλεύς, ἀντίζηλος, πονηρός em βάσκανος; Βάσσος identificado como dirigente de comunidade em Magnésia com atestações epigráficas. Em βαστάζω, mantida graficamente a leitura ὸ̔ δύνασαι βάστασον tal qual extraída da fonte, sem emenda conjectural.
+Blobs provisórios de tradução (não inseridos como arquivos): 093891242b28a0c18fee66f1b4f829bd6f721cbe; 87a75292da4ff10c00275dd86ea76793faf86ab3; 217106178f9b93e5fe32494ba31fbb8bf9eca7a9; 68cf3eded330840809d95527fd2871771e426e46; 4a07402b78c1b17fafe8d56179e604ae15e1aae8. Novo módulo lexicons/bdag-part-0061.js após lexicons/bdag-part-0060.js, 20 search-row, 20 entry-card; IDs exclusivos, com desambiguação entry-batos-i-bdag e entry-batos-ii-bdag; pareamento data-target/id verificado. Manifesto dos módulos atualizado; antigos módulos BDAG, bibliographicTerms e outros léxicos preservados.
+Evidências individuais (presença de tokens da fonte, não certificação RAUDITORIA):
+01. βασανισμός, οῦ, ὁ | fonte linha 22642 | 329 caracteres de fonte | 347 caracteres de tradução | 11 marcadores numéricos | 3 expressões gregas | subdivisões: ①② | omissões detectadas pelo controle: 0
+02. βασανιστής, οῦ, ὁ | fonte linha 22653 | 613 caracteres de fonte | 645 caracteres de tradução | 11 marcadores numéricos | 3 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+03. βάσανος, ου, ἡ | fonte linha 22658 | 1120 caracteres de fonte | 1200 caracteres de tradução | 39 marcadores numéricos | 3 expressões gregas | subdivisões: ①② | omissões detectadas pelo controle: 0
+04. βασιλεία, ας, ἡ | fonte linha 22670 | 8736 caracteres de fonte | 10302 caracteres de tradução | 226 marcadores numéricos | 80 expressões gregas | subdivisões: ①ⓐⓑ② | omissões detectadas pelo controle: 0
+05. βασίλειος, ον | fonte linha 22708 | 969 caracteres de fonte | 1115 caracteres de tradução | 44 marcadores numéricos | 11 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+06. βασιλεύς, έως, ὁ | fonte linha 22713 | 4802 caracteres de fonte | 5297 caracteres de tradução | 174 marcadores numéricos | 35 expressões gregas | subdivisões: ①②ⓐⓑⓒ | omissões detectadas pelo controle: 0
+07. βασιλεύω | fonte linha 22734 | 1654 caracteres de fonte | 1927 caracteres de tradução | 57 marcadores numéricos | 21 expressões gregas | subdivisões: ①ⓐⓑⓒ② | omissões detectadas pelo controle: 0
+08. βασιλικός, ή, όν | fonte linha 22766 | 1278 caracteres de fonte | 1325 caracteres de tradução | 41 marcadores numéricos | 11 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+09. βασιλίσκος, ου, ὁ | fonte linha 22770 | 217 caracteres de fonte | 246 caracteres de tradução | 13 marcadores numéricos | 2 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+10. βασίλισσα, ης, ἡ | fonte linha 22774 | 681 caracteres de fonte | 735 caracteres de tradução | 33 marcadores numéricos | 4 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+11. βάσις, εως, ἡ | fonte linha 22778 | 514 caracteres de fonte | 598 caracteres de tradução | 13 marcadores numéricos | 6 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+12. βασκαίνω | fonte linha 22783 | 1388 caracteres de fonte | 1578 caracteres de tradução | 43 marcadores numéricos | 13 expressões gregas | subdivisões: ①② | omissões detectadas pelo controle: 0
+13. βασκανία, ας, ἡ | fonte linha 22794 | 215 caracteres de fonte | 205 caracteres de tradução | 12 marcadores numéricos | 2 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+14. βάσκανος, ου, ὁ | fonte linha 22798 | 421 caracteres de fonte | 488 caracteres de tradução | 22 marcadores numéricos | 2 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+15. Βάσσος, ου, ὁ | fonte linha 22802 | 252 caracteres de fonte | 289 caracteres de tradução | 11 marcadores numéricos | 0 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+16. βαστάζω | fonte linha 22807 | 3328 caracteres de fonte | 3861 caracteres de tradução | 80 marcadores numéricos | 20 expressões gregas | subdivisões: ①②ⓐⓑⓒ③ⓐⓑ | omissões detectadas pelo controle: 0
+17. βάτος, ου, ἡ, ὁ | fonte linha 22842 | 843 caracteres de fonte | 829 caracteres de tradução | 26 marcadores numéricos | 2 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+18. βάτος, ου, ὁ | fonte linha 22846 | 346 caracteres de fonte | 394 caracteres de tradução | 14 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+19. βάτραχος, ου, ὁ | fonte linha 22850 | 288 caracteres de fonte | 320 caracteres de tradução | 11 marcadores numéricos | 1 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+20. βατταλογέω | fonte linha 22854 | 867 caracteres de fonte | 955 caracteres de tradução | 16 marcadores numéricos | 8 expressões gregas | subdivisões: — | omissões detectadas pelo controle: 0
+Checkpoint estrutural: 1.424 → 1.444 pares BDAG; 61 módulos BDAG; próximo lema βδέλυγμα, ατος, τό.
+Estado sob regras/Rauditoria.txt: AUDITORIA ATÔMICA NÃO CONCLUÍDA; faltam certificação exaustiva por verbete, testes funcionais reais de DOM/CI e PR/merge pela rotina de integração. Não alterar total_auditoria_concluida. Nenhum popup nem URL externa criado neste lote.
+Publicação somente comprovada por commit Git e reconsulta ao HEAD remoto.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βδέλυγμα → βελτίων — 03/11/2026
+================================================================================
+Branch exclusiva de trabalho: chat-gpt-bdag; HEAD pai fceefa8a528a71c50fec7fc11f2a44eace993926.
+Fonte canônica: Bauer–Danker, A Greek-English Lexicon of the New Testament and Other Early Christian Literature, HTML da Biblioteca Scriptura Lexicon (30.790.409 bytes), linhas 22859–22988. Vinte verbetes consecutivos de βδέλυγμα, ατος, τό até βελτίων, ον; o próximo é Βενιαμ(ε)ίν, ὁ (linha 22989).
+Traduções completas preparadas com distinção das camadas fonte/tradução, acepções, remissões, flexões, citações e bibliografia, preservando que βεβαμμένος, βέβληκα/βέβλημαι, βέβρωκα e Βελζεθά são verbetes remissivos. Foram preservadas como dados da fonte as hipóteses filológicas, inclusive a incerteza sobre a etimologia de Βεελζεβούλ e a ausência de comprovação para a identificação do 'olho da agulha' como uma porta estreita. Referências à Septuaginta foram convertidas à nomenclatura portuguesa dos livros do Antigo Testamento, por exemplo 3Km = 1Rs, 4Km = 2Rs, sem modificar o texto fonte. Omissões de citações gregas/hebraicas e referências não foram detectadas nos controles.
+Inventário auxiliar do HTML canônico: blob Git 3132840892824f8416f7e55c42cd4448b872c294 (objeto provisório sem registro na árvore), gerado a partir de vinte fragmentos consecutivos; colação determinística de 390 marcadores numéricos distintos por verbete e 140 ocorrências gregas/hebraicas, todos presentes nos respectivos textos. Isso é comprovação de presença de marcadores, NÃO certificação exaustiva de equivalência semântica de cada palavra. Artigos de maior densidade: βέβαιος, βεβαιόω e βδέλυγμα.
+Rascunhos de preparação, não incorporados como arquivos: e48e47cf4f9c345952dcf3d88eebc6f6b17d36b4; 1fd59ed0b064ddd492880ce2cb38adb10c08890e; ec41d620df267f2e13dc3587ab300ddaade68e86.
+Conservadas as estruturas search-row/entry-card, 20 IDs únicos, pareamento data-target/id 1:1, HTML balanceado; sem URLs externas ou popups. Novo arquivo lexicons/bdag-part-0062.js, após lexicons/bdag-part-0061.js no manifesto, com todos os módulos anteriores e outros léxicos intactos.
+Evidências individuais:
+01. βδέλυγμα, ατος, τό | linha 22859 | fonte 1763 caracteres | tradução 1943 caracteres | 40 marcadores numéricos | 14 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+02. βδελυκτός, ή, όν | linha 22871 | fonte 446 caracteres | tradução 487 caracteres | 16 marcadores numéricos | 3 expressões gregas/hebraicas | divisões: ⓐⓑ | falhas de presença: 0
+03. βδελύσσομαι | linha 22882 | fonte 916 caracteres | tradução 1062 caracteres | 36 marcadores numéricos | 9 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+04. βέβαιος, α, ον | linha 22887 | fonte 2936 caracteres | tradução 3163 caracteres | 51 marcadores numéricos | 29 expressões gregas/hebraicas | divisões: ①②③ | falhas de presença: 0
+05. βεβαιόω | linha 22902 | fonte 1934 caracteres | tradução 2167 caracteres | 46 marcadores numéricos | 19 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+06. βεβαίως | linha 22914 | fonte 595 caracteres | tradução 670 caracteres | 19 marcadores numéricos | 6 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+07. βεβαίωσις, εως, ἡ | linha 22925 | fonte 615 caracteres | tradução 647 caracteres | 10 marcadores numéricos | 5 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+08. βεβαιωσύνη, ης, ἡ | linha 22929 | fonte 162 caracteres | tradução 164 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+09. βεβαμμένος | linha 22933 | fonte 20 caracteres | tradução 10 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+10. βέβηλος, ον | linha 22938 | fonte 1074 caracteres | tradução 1116 caracteres | 30 marcadores numéricos | 5 expressões gregas/hebraicas | divisões: ①② | falhas de presença: 0
+11. βεβηλόω | linha 22949 | fonte 610 caracteres | tradução 732 caracteres | 21 marcadores numéricos | 9 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+12. βέβληκα, βέβλημαι | linha 22953 | fonte 27 caracteres | tradução 10 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+13. βέβρωκα | linha 22957 | fonte 20 caracteres | tradução 13 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+14. Βεελζεβούλ, ὁ | linha 22961 | fonte 1079 caracteres | tradução 1276 caracteres | 24 marcadores numéricos | 13 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+15. Βελζεθά | linha 22965 | fonte 20 caracteres | tradução 12 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+16. Βελιάρ, ὁ | linha 22969 | fonte 930 caracteres | tradução 1084 caracteres | 27 marcadores numéricos | 5 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+17. βελόνη, ης, ἡ | linha 22973 | fonte 405 caracteres | tradução 431 caracteres | 19 marcadores numéricos | 3 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+18. βέλος, ους, τό | linha 22977 | fonte 407 caracteres | tradução 460 caracteres | 11 marcadores numéricos | 4 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+19. βελτιόω | linha 22981 | fonte 307 caracteres | tradução 330 caracteres | 13 marcadores numéricos | 2 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+20. βελτίων, ον | linha 22985 | fonte 658 caracteres | tradução 761 caracteres | 27 marcadores numéricos | 9 expressões gregas/hebraicas | divisões: — | falhas de presença: 0
+Checkpoint estrutural: 1.444 → 1.464 pares BDAG; 62 módulos; próximo Βενιαμ(ε)ίν, ὁ.
+Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendem certificação filológica exaustiva, testes funcionais DOM, CI e eventual PR/merge autorizado. Não incrementar contagem de auditorias concluídas.
+Publicação somente comprovada por reconsulta remota do commit e HEAD.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DOS 20 VERBETES Βενιαμ(ε)ίν → βιβλαρίδιον — 03/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag; HEAD pai 1c2bc5b836faade212c39b765b563abb6d620776.
+Fonte canônica BDAG, HTML da Biblioteca Scriptura Lexicon (30.790.409 bytes), linhas 22989–23125. Sequência completa de vinte cabeçalhos de Βενιαμ(ε)ίν, ὁ a βιβλαρίδιον, ου, τό; próximo cabeçalho βιβλάριον, ου, τό, linha 23126. Nenhuma entrada foi pulada, inclusive as formas variantes Βηθαβαρά, Βηθαραβά, Βηθεσδά, Βηθζαθά, Βηθσαϊδά(ν).
+Foram traduzidos os vinte artigos completos, preservando atestações, etimologias, transliterações, variantes, acepções (Βηθανία 2; Βηθσαϊδά 2; βῆμα 3; βιάζω 4), subacepções, citações de obras antigas, referências bíblicas e bibliografia. A tradução de βιάζω separa expressamente as leituras alternativas e controvertidas de Mt 11:12/Lc 16:16, sem transformar hipóteses lexicográficas em conclusão doutrinária.
+Inventário provisório de colação do próprio HTML: blob Git cbf3a114ed14410dc0440953da9e87cb39ad3b45 (não adicionado como arquivo à árvore). Cotejo determinístico confirmou a presença de 441 marcadores numéricos distintos por verbete e 91 expressões gregas/hebraicas, sem omissões detectadas por presença, e correspondência de sentidos/subsentidos principais. Esse teste não prova equivalência semântica perfeita de todos os segmentos e não equivale à auditoria filológica atômica integral.
+Correções efetuadas antes da publicação: Βηθανία, preservada a distância '15 estádios'; βιάζω, preservada referência Dg 10:15; βίαιος, corrigida transliteração para 'bíaios'.
+RESSALVA DOCUMENTAL: em Βηθλέεμ, o HTML canônico apresenta a referência 'Gen. 1:16' após menção ao nascimento de Benjamim. A tradução reproduz 'Gn 1:16', com anotação de que a referência demanda conferência; não se alterou ou corrigiu silenciosamente o texto fonte. Verificar em auditoria filológica posterior (possível remissão a Gn 35:16–19, mas isso é hipótese de correção, não dado do HTML).
+Módulo novo lexicons/bdag-part-0063.js, registrado após lexicons/bdag-part-0062.js em lexicon-modules.json, com 20 search-row, 20 entry-card, IDs distintos e pareamento data-target/id 1:1, HTML balanceado. Sem URLs externas, popups, mudanças em outros módulos, outros léxicos, bibliographicTerms, main, PR ou merge.
+Blobs de preparação sem inclusão na árvore: 8c21e6825e26d07a08ae11a7e2807624809db9f7; 4eb52eef9d5d5c238f418e2323475c7aad86c379; 1b788605f468aa30dd9fd23da7b9ef0c65a12ed1.
+Evidência individual da colação:
+01. Βενιαμ(ε)ίν, ὁ | fonte linha 22989, 326 caracteres | tradução 330 caracteres | 8 marcadores numéricos | 4 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+02. Βερνίκη, ης, ἡ | fonte linha 22993, 791 caracteres | tradução 816 caracteres | 34 marcadores numéricos | 1 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+03. Βέροια, ας, ἡ | fonte linha 22997, 401 caracteres | tradução 426 caracteres | 16 marcadores numéricos | 0 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+04. Βεροιαῖος, α, ον | fonte linha 23001, 124 caracteres | tradução 136 caracteres | 4 marcadores numéricos | 0 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+05. Βεώρ, ὁ | fonte linha 23005, 139 caracteres | tradução 164 caracteres | 8 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+06. Βηθαβαρά, ἡ | fonte linha 23009, 278 caracteres | tradução 299 caracteres | 4 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+07. Βηθανία, ας, ἡ | fonte linha 23014, 1144 caracteres | tradução 1268 caracteres | 37 marcadores numéricos | 4 expressões gregas/hebraicas | subdivisões ①② | faltas encontradas 0
+08. Βηθαραβά | fonte linha 23025, 34 caracteres | tradução 45 caracteres | 0 marcadores numéricos | 1 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+09. Βηθεσδά, ἡ | fonte linha 23029, 749 caracteres | tradução 866 caracteres | 21 marcadores numéricos | 4 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+10. Βηθζαθά, ἡ | fonte linha 23033, 436 caracteres | tradução 444 caracteres | 13 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+11. Βηθλέεμ, ἡ | fonte linha 23037, 797 caracteres | tradução 921 caracteres | 39 marcadores numéricos | 6 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+12. Βηθσαϊδά(ν), ἡ | fonte linha 23042, 736 caracteres | tradução 848 caracteres | 23 marcadores numéricos | 6 expressões gregas/hebraicas | subdivisões ①② | faltas encontradas 0
+13. Βηθφαγή, ἡ | fonte linha 23053, 388 caracteres | tradução 433 caracteres | 14 marcadores numéricos | 2 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+14. βῆμα, ατος, τό | fonte linha 23058, 1332 caracteres | tradução 1511 caracteres | 44 marcadores numéricos | 5 expressões gregas/hebraicas | subdivisões ①②③ | faltas encontradas 0
+15. βήρυλλος, ου, ὁ, ἡ | fonte linha 23072, 423 caracteres | tradução 462 caracteres | 20 marcadores numéricos | 3 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+16. βία, ας, ἡ | fonte linha 23077, 615 caracteres | tradução 805 caracteres | 22 marcadores numéricos | 9 expressões gregas/hebraicas | subdivisões ⓐⓑ | faltas encontradas 0
+17. βιάζω | fonte linha 23089, 4514 caracteres | tradução 4890 caracteres | 83 marcadores numéricos | 19 expressões gregas/hebraicas | subdivisões ①②③④ | faltas encontradas 0
+18. βίαιος, α, ον | fonte linha 23107, 599 caracteres | tradução 629 caracteres | 24 marcadores numéricos | 10 expressões gregas/hebraicas | subdivisões ⓐⓑ | faltas encontradas 0
+19. βιαστής, οῦ, ὁ | fonte linha 23118, 272 caracteres | tradução 327 caracteres | 8 marcadores numéricos | 3 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+20. βιβλαρίδιον, ου, τό | fonte linha 23122, 632 caracteres | tradução 758 caracteres | 19 marcadores numéricos | 8 expressões gregas/hebraicas | subdivisões — | faltas encontradas 0
+Checkpoint estrutural previsto: 1.464 → 1.484 registros BDAG; 63 módulos BDAG; próximo lema βιβλάριον, ου, τό.
+AUDITORIA: NÃO CONCLUÍDA nos termos de regras/Rauditoria.txt. Pendente de certificação independente integral, testes de interface DOM/CI, integração autorizada por PR/merge. Não atualizar total_auditoria_concluida.
+Publicação só é comprovada após confirmação remota de commit, update_ref e releitura de HEAD.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βιβλάριον → βλασφημία — 03/11/2026
+================================================================================
+Branch proprietária exclusiva chat-gpt-bdag. HEAD pai 6917b9e7868b75047ab20f6750c969e5bd482846.
+Fonte HTML canônica Bauer–Danker, Biblioteca Scriptura Lexicon (30.790.409 bytes), seção beta, linhas 23126–23283, 20 entradas consecutivas de βιβλάριον, ου, τό a βλασφημία, ας, ἡ. O próximo artigo, fora deste lote, é βλάσφημος, ον (linha 23284).
+Os 20 verbetes foram traduzidos do HTML canônico com suas acepções, formas flexionadas, variantes, regências, referências literárias, gregas, bíblicas e bibliográficas. Preservados os dois sentidos de βιβλίον, βίβλος, βίος e βλαστάνω; as distinções gerais/específicas de βλασφημέω e βλασφημία (inclusive suas subacepções e a discussão de blasfêmia como difamação em sociedade regida por honra e vergonha). O verbete βιβλιδάριον permanece remissivo, não ampliado artificialmente.
+No verbete βλαστάνω, abreviatura original 'Jo 2:22' interpretada como Jl 2:22 (Joel 2:22, passagem com brotação de plantas; não se refere a Jó). No verbete βιβρώσκω, '1 Km 30:12' da Septuaginta é 1Sm 30:12; em βλασφημέω, '4 Km 19:4, 22' = 2Rs 19:4, 22 na nomenclatura portuguesa. Em βλαβερός, reproduzida a cadeia grega de antônimos τὸ συμφέρων, -ουσα, -ον, ὠφέλιμος, sem interpolação lexical.
+Os homógrafos βλαστός, οῦ, ὁ (substantivo, broto) e Βλάστος, ου, ὁ (nome próprio, Blasto) foram preservados como verbetes diferentes, com IDs distintos entry-blastos-substantivo-bdag e entry-blastos-nome-proprio-bdag.
+Inventário documental provisório de presença extraído de vinte fragmentos completos do HTML: blob Git 9d0707ed5076238ae4925ab871c3bc5a99893e39 (não incorporado na árvore). Conferência: 579 marcadores numéricos distintos por verbete e 205 ocorrências de expressões gregas/hebraicas; todos encontrados nos respectivos textos traduzidos, após correção registrada. Conferidas as subdivisões principais. O controle de presença não equivale por si só à certificação de identidade semântica integral nem à auditoria filológica formal.
+Rascunhos de tradução, blobs provisórios não adicionados à árvore: cc1cd4e7e20bd0f95fb5c18d5cde9bbe00953a06; 1904c8b2b55281111d1ba7fa56cb537e9f5846b8; b37fd9a56850622363d2802de9e9a3c7eaecc348.
+Arquivos exclusivos: lexicons/bdag-part-0064.js, inserido após lexicons/bdag-part-0063.js no lexicon-modules.json, e este checkpoint em regras/Rbdag.txt; outros léxicos, módulos preexistentes e bibliographicTerms não alterados. 20 search-row, 20 entry-card, IDs únicos, correspondência data-target/id 1:1, HTML balanceado, sem URLs externas ou popups novos.
+Evidência individual de presença documental:
+01. βιβλάριον, ου, τό | fonte linha 23126 | 185 caracteres fonte | 209 tradução | 8 marcadores numéricos | 4 expressões originais | subdivisões — | omissões detectadas: 0
+02. βιβλιδάριον | fonte linha 23130 | 48 caracteres fonte | 37 tradução | 0 marcadores numéricos | 2 expressões originais | subdivisões — | omissões detectadas: 0
+03. βιβλίδιον, ου, τό | fonte linha 23134 | 358 caracteres fonte | 366 tradução | 15 marcadores numéricos | 3 expressões originais | subdivisões — | omissões detectadas: 0
+04. βιβλίον, ου, τό | fonte linha 23139 | 1744 caracteres fonte | 2082 tradução | 54 marcadores numéricos | 18 expressões originais | subdivisões ①② | omissões detectadas: 0
+05. βίβλος, ου, ἡ | fonte linha 23151 | 1889 caracteres fonte | 2308 tradução | 80 marcadores numéricos | 17 expressões originais | subdivisões ①② | omissões detectadas: 0
+06. βιβρώσκω | fonte linha 23162 | 549 caracteres fonte | 715 tradução | 16 marcadores numéricos | 11 expressões originais | subdivisões — | omissões detectadas: 0
+07. Βιθυνία, ας, ἡ | fonte linha 23166 | 198 caracteres fonte | 205 tradução | 6 marcadores numéricos | 0 expressões originais | subdivisões — | omissões detectadas: 0
+08. βίος, ου, ὁ | fonte linha 23171 | 2799 caracteres fonte | 3388 tradução | 73 marcadores numéricos | 36 expressões originais | subdivisões ①② | omissões detectadas: 0
+09. βιόω | fonte linha 23182 | 584 caracteres fonte | 687 tradução | 19 marcadores numéricos | 10 expressões originais | subdivisões — | omissões detectadas: 0
+10. Βίτων, ωνος, ὁ | fonte linha 23186 | 118 caracteres fonte | 108 tradução | 5 marcadores numéricos | 0 expressões originais | subdivisões — | omissões detectadas: 0
+11. βίωσις, εως, ἡ | fonte linha 23190 | 117 caracteres fonte | 140 tradução | 4 marcadores numéricos | 1 expressões originais | subdivisões — | omissões detectadas: 0
+12. βιωτικός, ή, όν | fonte linha 23194 | 1010 caracteres fonte | 1197 tradução | 29 marcadores numéricos | 10 expressões originais | subdivisões — | omissões detectadas: 0
+13. βλαβερός, ά, όν | fonte linha 23198 | 444 caracteres fonte | 546 tradução | 14 marcadores numéricos | 8 expressões originais | subdivisões — | omissões detectadas: 0
+14. βλάβη, ης, ἡ | fonte linha 23202 | 229 caracteres fonte | 247 tradução | 3 marcadores numéricos | 6 expressões originais | subdivisões — | omissões detectadas: 0
+15. βλάπτω | fonte linha 23206 | 873 caracteres fonte | 1132 tradução | 33 marcadores numéricos | 15 expressões originais | subdivisões — | omissões detectadas: 0
+16. βλαστάνω | fonte linha 23211 | 932 caracteres fonte | 1144 tradução | 28 marcadores numéricos | 10 expressões originais | subdivisões ①② | omissões detectadas: 0
+17. βλαστός, οῦ, ὁ | fonte linha 23222 | 265 caracteres fonte | 280 tradução | 12 marcadores numéricos | 2 expressões originais | subdivisões — | omissões detectadas: 0
+18. Βλάστος, ου, ὁ | fonte linha 23226 | 196 caracteres fonte | 183 tradução | 13 marcadores numéricos | 0 expressões originais | subdivisões — | omissões detectadas: 0
+19. βλασφημέω | fonte linha 23231 | 3516 caracteres fonte | 4356 tradução | 103 marcadores numéricos | 35 expressões originais | subdivisões ⓐⓑ | omissões detectadas: 0
+20. βλασφημία, ας, ἡ | fonte linha 23264 | 2448 caracteres fonte | 2939 tradução | 64 marcadores numéricos | 17 expressões originais | subdivisões ⓐⓑ | omissões detectadas: 0
+Checkpoint estrutural projetado: 1.484 → 1.504 pares BDAG, 64 módulos BDAG. Próximo lema βλάσφημος, ον.
+Estado em regras/Rauditoria.txt: AUDITORIA FILOLÓGICA INDEPENDENTE NÃO CONCLUÍDA. Faltam certificação filológica integral por terceiro, testes funcionais DOM/CI e PR/merge da rotina competente. Não alterar total_auditoria_concluida. Publicação confirmável exclusivamente pelo commit Git e pela releitura do HEAD remoto.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βλάσφημος → βολίς — 03/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag. HEAD pai d304ff0b1238e62472f978e5b8082d1812d03c48.
+Fonte HTML canônica do BDAG na Biblioteca Scriptura Lexicon, 30.790.409 bytes, seção β, linhas 23284–23449. Vinte cabeçalhos consecutivos: βλάσφημος, ον até βολίς, ίδος, ἡ. O próximo cabeçalho fora do lote é Βόος, ὁ (linha 23450). Não omitir o verbete numerado βληθήσομαι nem βόησον, ambos meras remissões.
+Traduções integrais preparadas a partir da fonte canônica, com flexões, sentidos, subdivisões, notas filológicas, regência e testemunhos textuais, referências e bibliografia. Destaque: βλέπω com oito acepções (1–8) e subacepções; βοάω com duas acepções e subdivisões a–c; βοήθεια com dois sentidos, inclusive a terminologia náutica de At 27:17; Βοανηργές com análise etimológica discutida, sem converter as hipóteses em certezas.
+Inventário provisório de colação do HTML, blob Git a3787ee63d56f1db441fe8e6a01bc2d1384df329 (não adicionado à árvore). Conferidos 522 marcadores numéricos distintos por artigo e 168 ocorrências de expressões originais. Todos presentes nas respectivas traduções após correções; verificação de presença não demonstra, sozinha, a equivalência semântica integral. Comparação de grego normaliza diacríticos e pontuação, inclusive marcador de quebra editorial '|' no fragmento de AcPl Ha 4, 36, mas não altera a leitura grega normalizada no texto final.
+Ocorrências de numeração concatenada no HTML canônico explicitadas: BGU 1079, '2426' (entendido como linhas 24–26) em βλέπω; Sb '158' (interpretado como Sb 15:8) em βοηθέω. Ambas as leituras do HTML permanecem visíveis na tradução acompanhadas da interpretação, sem emenda silenciosa. Foram restituídas referências Josefo, Bell. 7, 351; Ant. 20, 57 no verbete βλέπω. As equivalências dos livros de Reis no corpus grego foram convertidas à nomenclatura portuguesa (1Km = 1Sm; 2Km = 2Sm; 4Km = 2Rs), com indicação quando útil.
+Traduções provisórias em objetos Git não incorporados à árvore: 80c47c0c53ac67afe332a43254844f85c9b1d68c; f74b52025ddf4b96416539952ac73da0110918f7; 1703053ddc928f345b25cbdcb45b7ec1917576de; 7773e44f10bc632c3f647892aea1e59aa0658ad3.
+Módulo lexicons/bdag-part-0065.js registrado após lexicons/bdag-part-0064.js no manifesto, com 20 search-row e 20 entry-card, pares data-target/id 1:1, identificadores únicos, HTML balanceado; demais módulos, demais léxicos e bibliographicTerms preservados. Nenhum popup ou URL externa incluídos.
+Evidência individual de presença e subdivisões:
+01. βλάσφημος, ον | linha 23284 | fonte 611 caracteres | tradução 830 caracteres | 23 marcadores numéricos | 7 ocorrências gregas | subdivisões — | faltas: 0
+02. βλέμμα, ατος, τό | linha 23289 | fonte 527 caracteres | tradução 543 caracteres | 22 marcadores numéricos | 5 ocorrências gregas | subdivisões ①② | faltas: 0
+03. βλέπω | linha 23301 | fonte 5786 caracteres | tradução 6873 caracteres | 176 marcadores numéricos | 59 ocorrências gregas | subdivisões ①ⓐⓑⓒⓓ②③④⑤⑥ⓐⓑⓒ⑦ⓐⓑ⑧ | faltas: 0
+04. βλέφαρον, ου, τό | linha 23357 | fonte 217 caracteres | tradução 290 caracteres | 8 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+05. βληθήσομαι | linha 23361 | fonte 20 caracteres | tradução 10 caracteres | 0 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas: 0
+06. βλητέος, α, ον | linha 23365 | fonte 190 caracteres | tradução 244 caracteres | 8 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas: 0
+07. βληχρός, ά, όν | linha 23369 | fonte 175 caracteres | tradução 231 caracteres | 4 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas: 0
+08. Βοανηργές | linha 23373 | fonte 1437 caracteres | tradução 1603 caracteres | 41 marcadores numéricos | 6 ocorrências gregas | subdivisões — | faltas: 0
+09. βοάω | linha 23378 | fonte 1636 caracteres | tradução 2102 caracteres | 64 marcadores numéricos | 23 ocorrências gregas | subdivisões ①ⓐⓑⓒ② | faltas: 0
+10. Βόες, ὁ | linha 23398 | fonte 301 caracteres | tradução 338 caracteres | 11 marcadores numéricos | 6 ocorrências gregas | subdivisões — | faltas: 0
+11. βοή, ῆς, ἡ | linha 23402 | fonte 236 caracteres | tradução 292 caracteres | 11 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+12. βοήθεια, ας, ἡ | linha 23407 | fonte 794 caracteres | tradução 1162 caracteres | 19 marcadores numéricos | 10 ocorrências gregas | subdivisões ①② | faltas: 0
+13. βοηθέω | linha 23418 | fonte 887 caracteres | tradução 1196 caracteres | 36 marcadores numéricos | 16 ocorrências gregas | subdivisões — | faltas: 0
+14. βοηθός, όν | linha 23422 | fonte 625 caracteres | tradução 801 caracteres | 26 marcadores numéricos | 7 ocorrências gregas | subdivisões — | faltas: 0
+15. βόησον | linha 23426 | fonte 15 caracteres | tradução 9 caracteres | 0 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas: 0
+16. βόθρος, ου, ὁ | linha 23430 | fonte 455 caracteres | tradução 516 caracteres | 19 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+17. βόθυνος, ου, ὁ | linha 23434 | fonte 318 caracteres | tradução 389 caracteres | 19 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+18. βολή, ῆς, ἡ | linha 23438 | fonte 411 caracteres | tradução 513 caracteres | 13 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas: 0
+19. βολίζω | linha 23442 | fonte 576 caracteres | tradução 716 caracteres | 15 marcadores numéricos | 8 ocorrências gregas | subdivisões — | faltas: 0
+20. βολίς, ίδος, ἡ | linha 23446 | fonte 164 caracteres | tradução 164 caracteres | 7 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas: 0
+Checkpoint estrutural projetado: 1.504 → 1.524 pares BDAG, 65 módulos; próximo lema Βόος, ὁ.
+Auditoria independente de regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendem certificação filológica exaustiva por revisão independente, teste funcional DOM/CI, eventual PR/merge autorizado. Não elevar total_auditoria_concluida. Verificar commit e HEAD remotos para comprovar publicação segura.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO Βόος → βραβεύω — 03/11/2026
+================================================================================
+Branch exclusivamente autorizada: chat-gpt-bdag; HEAD pai ce8b7ff23dcf97ae49ef7f968a15969d639e1fdc.
+Fonte: HTML canônico BDAG da Biblioteca Scriptura Lexicon (30.790.409 bytes), 20 verbetes consecutivos nas linhas 23450–23618, de Βόος, ὁ até βραβεύω. O 21º lema βραδέως (linha 23619) não foi incluído neste lote.
+Traduções integrais dos vinte artigos a partir da fonte, incluindo flexões e variantes, definições, acepções, subacepções, regências, citações, glosas gregas, história lexical e bibliografia. Preservadas as distinções de βόρβορος (2 sentidos, com análises alternativas de 2Pe 2:22), βόσκω (2 sentidos), βοτάνη (2 sentidos), βουλεύω (2 sentidos), βουλή (3 sentidos, com subdivisões humanas/divinas), βούλομαι (2 sentidos, construções sintáticas e aplicação humana/divina), βραβεῖον (premiação atlética e recompensa moral/espiritual). Verbete Βόρρος preservado como remissão ao nome Βοῦρρος.
+Inventário canônico de controle: blob Git provisório 242e6963f60a0f09d5d13738eb5ce6020169dee7, não incluído na árvore. Conferência de presença integral por verbete: 578 marcadores numéricos distintos por artigo, 168 ocorrências de expressões gregas, nenhum ausente no texto português. Preservadas todas as subdivisões estruturais do original. Presença de símbolos não comprova automaticamente tradução semântica perfeita ou auditoria independente.
+Nomenclatura dos livros bíblicos traduzida ao português: 3Km = 1Rs na LXX, onde pertinente; outras abreviaturas, obras clássicas e numerações históricas mantidas sem substituições silenciosas.
+Rascunhos de tradução em blobs Git provisórios, fora da árvore: 8259c5695f4978f63e1f80c2e37920c755b11e93; 045a1d71727f02ab6984d580130f60eade2b4a96; 96c610d36036b369e0bff83494acc846b8f73873; de0f38163df2d312879778d07f9806ea41ddd967; d92891b0286cad57851665bb6a112955e03c0c4b.
+Arquivos inseridos neste commit: lexicons/bdag-part-0066.js, lexicon-modules.json, regras/Rbdag.txt. Manifesto preserva módulos existentes e outros léxicos. 20 linhas search-row e 20 cartões entry-card com IDs exclusivos, correspondência data-target/id 1:1, HTML balanceado. Não criados popups, links externos, PRs ou merges.
+Evidência individual:
+01. Βόος, ὁ | linha 23450 | fonte 81 caracteres | tradução 90 caracteres | 1 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas identificadas 0
+02. βορά, ᾶς, ἡ | linha 23454 | fonte 334 caracteres | tradução 467 caracteres | 14 marcadores numéricos | 5 ocorrências gregas | subdivisões — | faltas identificadas 0
+03. βόρβορος, ου, ὁ | linha 23459 | fonte 1778 caracteres | tradução 2097 caracteres | 42 marcadores numéricos | 9 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+04. βορρᾶς, ᾶ, ὁ | linha 23470 | fonte 715 caracteres | tradução 749 caracteres | 30 marcadores numéricos | 5 ocorrências gregas | subdivisões — | faltas identificadas 0
+05. Βόρρος | linha 23474 | fonte 19 caracteres | tradução 12 caracteres | 0 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas identificadas 0
+06. βόσκω | linha 23479 | fonte 764 caracteres | tradução 1087 caracteres | 31 marcadores numéricos | 9 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+07. Βοσόρ, ὁ | linha 23490 | fonte 86 caracteres | tradução 107 caracteres | 5 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas identificadas 0
+08. βοτάνη, ης, ἡ | linha 23495 | fonte 807 caracteres | tradução 985 caracteres | 24 marcadores numéricos | 8 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+09. βότρυς, υος, ὁ | linha 23506 | fonte 758 caracteres | tradução 750 caracteres | 23 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas identificadas 0
+10. βουλευτής, οῦ, ὁ | linha 23510 | fonte 344 caracteres | tradução 375 caracteres | 8 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas identificadas 0
+11. βουλεύω | linha 23515 | fonte 887 caracteres | tradução 1116 caracteres | 34 marcadores numéricos | 12 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+12. βουλή, ῆς, ἡ | linha 23527 | fonte 1808 caracteres | tradução 2078 caracteres | 55 marcadores numéricos | 19 ocorrências gregas | subdivisões ①②ⓐⓑ③ | faltas identificadas 0
+13. βούλημα, ατος, τό | linha 23547 | fonte 600 caracteres | tradução 748 caracteres | 20 marcadores numéricos | 9 ocorrências gregas | subdivisões — | faltas identificadas 0
+14. βούλησις, εως, ἡ | linha 23551 | fonte 834 caracteres | tradução 992 caracteres | 37 marcadores numéricos | 6 ocorrências gregas | subdivisões — | faltas identificadas 0
+15. βούλομαι | linha 23556 | fonte 3801 caracteres | tradução 4547 caracteres | 110 marcadores numéricos | 54 ocorrências gregas | subdivisões ①②ⓐⓑ | faltas identificadas 0
+16. βουνός, οῦ, ὁ | linha 23591 | fonte 475 caracteres | tradução 512 caracteres | 26 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas identificadas 0
+17. Βοῦρρος, ου, ὁ | linha 23595 | fonte 235 caracteres | tradução 289 caracteres | 3 marcadores numéricos | 4 ocorrências gregas | subdivisões — | faltas identificadas 0
+18. βοῦς, βοός | linha 23599 | fonte 811 caracteres | tradução 994 caracteres | 43 marcadores numéricos | 5 ocorrências gregas | subdivisões — | faltas identificadas 0
+19. βραβεῖον, ου, τό | linha 23604 | fonte 1091 caracteres | tradução 1253 caracteres | 37 marcadores numéricos | 9 ocorrências gregas | subdivisões ⓐⓑ | faltas identificadas 0
+20. βραβεύω | linha 23615 | fonte 652 caracteres | tradução 750 caracteres | 35 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas identificadas 0
+Checkpoint estrutural projetado: 1.524 → 1.544 pares BDAG; módulos BDAG 65 → 66. Próximo lema βραδέως.
+Regra Rauditoria.txt: AUDITORIA INDEPENDENTE INTEGRAL NÃO CONCLUÍDA. Ainda pendem certificação filológica independente, execução de DOM/CI e eventual integração por PR/merge autorizado. Não alterar total_auditoria_concluida. A publicação é comprovável apenas após releitura remota de HEAD, arquivos e commit.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βραδέως → βρώσιμος — 03/11/2026
+================================================================================
+Branch autorizada exclusivamente: chat-gpt-bdag. HEAD pai d8e61e8e34da5abe840c4a498589c20a549f9697.
+Fonte: HTML canônico BDAG (Bauer–Danker) da Biblioteca Scriptura Lexicon, 30.790.409 bytes, 20 artigos consecutivos das linhas 23619–23737. Primeiro βραδέως; último βρώσιμος, ον; próximo artigo βρῶσις, εως, ἡ na linha 23738. A delimitação inclui todos os vinte cabeçalhos na ordem da fonte, sem saltos.
+Traduções completas, preservadas flexões e variantes textuais, dados etimológicos, acepções e usos literais/figurados, citações gregas, remissões, passagens bíblicas, bibliografia e ressalvas de interpretação. Distinções estruturais: βραχύς (3 sentidos de espaço, duração e quantidade); βρέφος (2 sentidos, ainda não nascido e criança muito pequena); βρέχω (3 sentidos: molhar, fazer chover, chover impessoalmente); βρῶμα (2 sentidos, alimento literal e transcendente). Preservadas as observações de βροντή sobre possível relação dos sete trovões de Apocalipse com esferas planetárias como HIPÓTESE da bibliografia, sem afirmar certeza.
+Inventário canônico extraído do próprio HTML: blob Git provisório e4ab454cef87ade6ab938e28f6243a7a78761b9c, fora da árvore. Colação determinística de presença: 459 marcadores numéricos distintos por artigo, 111 ocorrências de expressões gregas (normalizados diacríticos/pontuação apenas para cotejo), todos encontrados na tradução. Correção da sequência literal ἀθάνατος, θεός em βροτός após primeira colação. Preservadas estruturas de acepções e HTML de tradução balanceado. A presença de marcadores não comprova por si só equivalência semântica integral nem constitui auditoria filológica independente.
+Rascunhos de trabalho, objetos Git temporários não adicionados à árvore: f731098d4a48e977fbcba009d08f9035a4e03314; 936665e2790ec63b856ebb8265c6649603079e16; 64e28733a9be99476c16f10eb6e9eb1c520ae055; bc6ff0727f601dc6f8a5f8d9a6f53c19edc1c165.
+Arquivo novo lexicons/bdag-part-0067.js, registrado imediatamente após lexicons/bdag-part-0066.js em lexicon-modules.json, mantendo intactos os módulos antigos, outros léxicos e bibliographicTerms. Criados 20 search-row e 20 entry-card com IDs únicos e pareamento data-target/id 1:1; sem popups, links externos ou efeitos colaterais.
+Evidências por artigo:
+01. βραδέως | linha 23619 | fonte 218 caracteres | tradução 253 caracteres | 15 marcadores numéricos | 3 expressões gregas | divisões: — | omissões detectadas: 0
+02. βραδύγλωσσος, ον | linha 23623 | fonte 340 caracteres | tradução 390 caracteres | 9 marcadores numéricos | 1 expressões gregas | divisões: — | omissões detectadas: 0
+03. βραδύνω | linha 23627 | fonte 557 caracteres | tradução 658 caracteres | 26 marcadores numéricos | 7 expressões gregas | divisões: — | omissões detectadas: 0
+04. βραδυπλοέω | linha 23631 | fonte 122 caracteres | tradução 133 caracteres | 7 marcadores numéricos | 1 expressões gregas | divisões: — | omissões detectadas: 0
+05. βραδύς, εῖα, ύ | linha 23635 | fonte 1137 caracteres | tradução 1383 caracteres | 38 marcadores numéricos | 17 expressões gregas | divisões: — | omissões detectadas: 0
+06. βραδύτης, ητος | linha 23639 | fonte 387 caracteres | tradução 470 caracteres | 17 marcadores numéricos | 4 expressões gregas | divisões: — | omissões detectadas: 0
+07. βραχίων, ονος, ὁ | linha 23643 | fonte 457 caracteres | tradução 523 caracteres | 20 marcadores numéricos | 4 expressões gregas | divisões: — | omissões detectadas: 0
+08. βραχύς, εῖα, ύ | linha 23648 | fonte 1008 caracteres | tradução 1144 caracteres | 37 marcadores numéricos | 9 expressões gregas | divisões: ①②③ | omissões detectadas: 0
+09. βρέφος, ους, τό | linha 23663 | fonte 1111 caracteres | tradução 1352 caracteres | 53 marcadores numéricos | 8 expressões gregas | divisões: ①② | omissões detectadas: 0
+10. βρέχω | linha 23675 | fonte 1371 caracteres | tradução 1701 caracteres | 43 marcadores numéricos | 15 expressões gregas | divisões: ①②③ | omissões detectadas: 0
+11. βριμάομαι | linha 23689 | fonte 94 caracteres | tradução 120 caracteres | 2 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+12. βροντή, ῆς, ἡ | linha 23693 | fonte 846 caracteres | tradução 996 caracteres | 34 marcadores numéricos | 9 expressões gregas | divisões: — | omissões detectadas: 0
+13. βροτός, ή, όν | linha 23697 | fonte 166 caracteres | tradução 209 caracteres | 5 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+14. βροχή, ῆς, ἡ | linha 23701 | fonte 324 caracteres | tradução 347 caracteres | 18 marcadores numéricos | 1 expressões gregas | divisões: — | omissões detectadas: 0
+15. βρόχος, ου, ὁ | linha 23705 | fonte 362 caracteres | tradução 440 caracteres | 16 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+16. βρυγμός, οῦ, ὁ | linha 23709 | fonte 714 caracteres | tradução 802 caracteres | 27 marcadores numéricos | 6 expressões gregas | divisões: — | omissões detectadas: 0
+17. βρύχω | linha 23713 | fonte 664 caracteres | tradução 731 caracteres | 15 marcadores numéricos | 5 expressões gregas | divisões: — | omissões detectadas: 0
+18. βρύω | linha 23717 | fonte 409 caracteres | tradução 524 caracteres | 20 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+19. βρῶμα, ατος, τό | linha 23722 | fonte 1273 caracteres | tradução 1596 caracteres | 41 marcadores numéricos | 11 expressões gregas | divisões: ①② | omissões detectadas: 0
+20. βρώσιμος, ον | linha 23733 | fonte 239 caracteres | tradução 244 caracteres | 16 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+Checkpoint estrutural projetado: 1.544 → 1.564 pares BDAG; módulos 66 → 67. Próximo lema βρῶσις, εως, ἡ.
+Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendentes certificação filológica semântica exaustiva, testes funcionais DOM/CI e eventual PR/merge de integração autorizado. Não alterar total_auditoria_concluida. Publicação confirmável apenas pelo commit Git e reconsulta do HEAD remoto.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βρῶσις → γάλα — 03/11/2026
+================================================================================
+Branch autorizada chat-gpt-bdag; HEAD pai 2b899ba9dfbc443ce23b37f7f4869e97b98c679f. Fonte HTML canônica da Biblioteca Scriptura Lexicon, BDAG, 30.790.409 bytes, linhas 23738–23878.
+Vinte verbetes consecutivos: primeiro βρῶσις, εως, ἡ; último γάλα, γάλακτος, τό; próximo Γαλάτης, ου, ὁ, linha 23879. Transição alfabética β→γ inclui o verbete γ´ (sinal numeral três/terceiro), e não omite nenhuma entrada intermediária.
+As traduções completas incluem flexões, variações, citações, expressões gregas/hebraicas, referências bíblicas, documentação antiga, bibliografia e ressalvas de leitura e etimologia, sem impor conclusões a questões em aberto. βρῶσις 3 acepções, incluindo discussão crítica de Mt 6:19; βυθίζω 2; γαζοφυλάκιον 2; Γάϊος 5 identificações textuais, e γάλα as subacepções literal/figurada. O significado de Γαββαθᾶ e as variantes de Γαδαρηνός permanecem apresentados como dados não resolvidos da fonte.
+Distinção entre γάζα, ης, ἡ (tesouraria) e Γάζα, ης, ἡ (cidade) com IDs entry-gaza-tesouraria-bdag e entry-gaza-toponimo-bdag. Distinção entre βροτός (*mortal*, no módulo 0067) e βρωτός (*comestível*, neste módulo) com ID novo entry-brotos-comestivel-bdag, sem modificar o módulo anterior; a checagem detectou e evitou colisão de transliteração sem diacríticos.
+Inventário do HTML canônico: Git blob de trabalho 30e2db6a8620eed4465fd99b585a35c6d790565f, fora da árvore, 420 marcadores numéricos distintos por verbete e 96 ocorrências de expressões gregas, todos encontrados no artigo correspondente. Os números são contagens de presença, não certificação exaustiva de equivalência semântica integral. Divisões e subacepções principais do HTML também verificadas.
+Blobs provisórios dos rascunhos, fora da árvore: acf78c36234eee3f573c314efd60887b342e227b; 31f3c2d48238d36fad8c19dbf7f1e26e9c9e6005; e717f88996f24439fbab636210aad202d262e142.
+Arquivos alterados: lexicons/bdag-part-0068.js, lexicon-modules.json e regras/Rbdag.txt. Módulo novo inserido depois de lexicons/bdag-part-0067.js, antes de lexicons/leh.js. Mantidos os módulos preexistentes, demais léxicos e regras não BDAG. 20 search-row e 20 entry-card com IDs exclusivos, ligação data-target/id 1:1, HTML balanceado; nenhum URL externo ou popup novo.
+Colação individual:
+01. βρῶσις, εως, ἡ | linha 23738 | fonte 2037 caracteres | tradução 2453 caracteres | 56 referências numéricas | 20 expressões gregas | divisões ①②③ⓐⓑ | faltas 0
+02. βρωτός, ή, όν | linha 23758 | fonte 428 caracteres | tradução 499 caracteres | 11 referências numéricas | 2 expressões gregas | divisões — | faltas 0
+03. βυθίζω | linha 23763 | fonte 1012 caracteres | tradução 1229 caracteres | 30 referências numéricas | 14 expressões gregas | divisões ①② | faltas 0
+04. βυθός, οῦ, ὁ | linha 23774 | fonte 578 caracteres | tradução 650 caracteres | 20 referências numéricas | 5 expressões gregas | divisões — | faltas 0
+05. βυρσεύς, έως, ὁ | linha 23778 | fonte 268 caracteres | tradução 290 caracteres | 17 referências numéricas | 1 expressões gregas | divisões — | faltas 0
+06. βύσσινος, η, ον | linha 23782 | fonte 439 caracteres | tradução 481 caracteres | 27 referências numéricas | 4 expressões gregas | divisões — | faltas 0
+07. βύσσος, ου, ἡ | linha 23786 | fonte 615 caracteres | tradução 729 caracteres | 33 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+08. βύω | linha 23790 | fonte 218 caracteres | tradução 265 caracteres | 5 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+09. βωμός, οῦ, ὁ | linha 23794 | fonte 249 caracteres | tradução 295 caracteres | 10 referências numéricas | 1 expressões gregas | divisões — | faltas 0
+10. γ´ | linha 23802 | fonte 298 caracteres | tradução 412 caracteres | 11 referências numéricas | 7 expressões gregas | divisões — | faltas 0
+11. Γαββαθᾶ | linha 23806 | fonte 370 caracteres | tradução 524 caracteres | 5 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+12. Γαβριήλ, ὁ | linha 23810 | fonte 436 caracteres | tradução 447 caracteres | 27 referências numéricas | 1 expressões gregas | divisões — | faltas 0
+13. γάγγραινα, ης, ἡ | linha 23814 | fonte 261 caracteres | tradução 284 caracteres | 2 referências numéricas | 0 expressões gregas | divisões — | faltas 0
+14. Γάδ, ὁ | linha 23818 | fonte 198 caracteres | tradução 224 caracteres | 10 referências numéricas | 6 expressões gregas | divisões — | faltas 0
+15. Γαδαρηνός, ή, όν | linha 23822 | fonte 1012 caracteres | tradução 1163 caracteres | 30 referências numéricas | 6 expressões gregas | divisões — | faltas 0
+16. Γάζα, ης, ἡ | linha 23826 | fonte 639 caracteres | tradução 704 caracteres | 20 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+17. γάζα, ης, ἡ | linha 23830 | fonte 341 caracteres | tradução 403 caracteres | 10 referências numéricas | 2 expressões gregas | divisões — | faltas 0
+18. γαζοφυλάκιον, ου, τό | linha 23835 | fonte 1290 caracteres | tradução 1380 caracteres | 35 referências numéricas | 6 expressões gregas | divisões ①② | faltas 0
+19. Γάϊος, ου, ὁ | linha 23847 | fonte 525 caracteres | tradução 610 caracteres | 18 referências numéricas | 2 expressões gregas | divisões ①②③④⑤ | faltas 0
+20. γάλα, γάλακτος, τό | linha 23868 | fonte 1478 caracteres | tradução 1835 caracteres | 43 referências numéricas | 7 expressões gregas | divisões ⓐⓑ | faltas 0
+Checkpoint estrutural projetado: 1.564 → 1.584 registros BDAG; módulos 67 → 68; próximo lema Γαλάτης, ου, ὁ.
+Auditoria filológica independente conforme regras/Rauditoria.txt NÃO CONCLUÍDA; pendentes revisão independente exaustiva, teste funcional DOM/CI e PR/merge autorizado. Não elevar contagem total_auditoria_concluida. Publicação comprovada por commit remoto e HEAD pós-operação.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO Γαλάτης → γαυριάω — 04/11/2026
+================================================================================
+Branch autorizada exclusiva: chat-gpt-bdag; HEAD pai 4716c0f0e8ed1a5726aac8d3bcfdd8590439e947.
+Fonte HTML canônica BDAG, Biblioteca Scriptura Lexicon, 30.790.409 bytes; 20 cabeçalhos consecutivos das linhas 23879–24064, Γαλάτης, ου, ὁ até γαυριάω. Próximo cabeçalho γαυρόω, linha 24065.
+Tradução integral com citações e formas gregas/hebraicas, lexemas, acepções, construções morfossintáticas, variantes textuais, informação histórico-filológica, referências e bibliografia. Em Γαλατία, apresentação separada das teorias do Norte e do Sul sem impor solução; Γαλλία mantido como verbete remissivo; Γαλλίων e Γαμαλιήλ preservam identidade histórica e atestações. Em γαμέω, formas flexionadas e usos masculinos, femininos e comuns, inclusive vozes ativa, média e passiva e construções alternativas. Em γαμίζω, os sentidos «dar em casamento» e «casar-se» e a disputa de 1Co 7:36–38 ficam expressamente separados. γάμος preserva os três sentidos e subdivisões; a análise semântica de Mt 22:10 permanece hipótese contextual.
+γάρ: verbete longo integralmente traduzido, preservando as três funções (causal, explicativa, inferencial), as seis subdivisões da primeira, suas combinações com outras partículas, exemplos de literatura antiga, ocorrências bíblicas e referências bibliográficas. γαστήρ preserva sentidos de ventre/barriga e útero, com suas subacepções. γαυριάω fecha o lote.
+Inventário de colação do próprio HTML: objeto provisório Git 4ef5bc3c4cf39f10774e22796c86237adb10bd9f, NÃO adicionado à árvore, 805 marcadores numéricos distintos por artigo e 192 ocorrências gregas, todos localizados nas traduções após ajustes pontuais de preservação de sequências originais; mantidas as subdivisões principais. O controle de presença é evidência mecânica, mas não certificação exaustiva da equivalência semântica.
+Traduções provisórias em objetos Git não adicionados à árvore: 27efbbc79dfdfdde26b7ec40b29d752452ffa19d; ab87d3e374b3950e91258ed507bbca03f1d21e7f; 2a663ef1ec94968084d0be3ad654039fd814e10b.
+Publicados somente lexicons/bdag-part-0069.js, lexicon-modules.json e regras/Rbdag.txt; novo módulo registrado após lexicons/bdag-part-0068.js antes de lexicons/leh.js, conservando todos os módulos e léxicos preexistentes. 20 search-row e 20 entry-card com IDs exclusivos, correspondência data-target/id 1:1, HTML balanceado, sem links externos, popups ou atualizações em outros léxicos.
+Evidência individual:
+01. Γαλάτης, ου, ὁ | linha 23879 | 491 caracteres fonte | 641 tradução | 15 marcadores numéricos | 3 expressões gregas | subdivisões — | faltas 0
+02. Γαλατία, ας, ἡ | linha 23883 | 2203 caracteres fonte | 2464 tradução | 43 marcadores numéricos | 5 expressões gregas | subdivisões — | faltas 0
+03. Γαλατικός, ή, όν | linha 23887 | 297 caracteres fonte | 324 tradução | 13 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+04. γαλεάγρα, ας, ἡ | linha 23891 | 223 caracteres fonte | 237 tradução | 9 marcadores numéricos | 1 expressões gregas | subdivisões — | faltas 0
+05. γαλῆ, ῆς, ἡ | linha 23895 | 466 caracteres fonte | 493 tradução | 18 marcadores numéricos | 3 expressões gregas | subdivisões — | faltas 0
+06. γαλήνη, ης, ἡ | linha 23899 | 319 caracteres fonte | 329 tradução | 15 marcadores numéricos | 0 expressões gregas | subdivisões — | faltas 0
+07. γαληνιάω | linha 23903 | 246 caracteres fonte | 278 tradução | 5 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+08. Γαλιλαία, ας, ἡ | linha 23907 | 1574 caracteres fonte | 1721 tradução | 53 marcadores numéricos | 10 expressões gregas | subdivisões — | faltas 0
+09. Γαλιλαῖος, α, ον | linha 23911 | 409 caracteres fonte | 476 tradução | 18 marcadores numéricos | 4 expressões gregas | subdivisões — | faltas 0
+10. Γαλλία | linha 23915 | 35 caracteres fonte | 51 tradução | 2 marcadores numéricos | 1 expressões gregas | subdivisões — | faltas 0
+11. Γαλλίων, ωνος, ὁ | linha 23919 | 697 caracteres fonte | 753 tradução | 33 marcadores numéricos | 0 expressões gregas | subdivisões — | faltas 0
+12. Γαμαλιήλ, ὁ | linha 23923 | 566 caracteres fonte | 605 tradução | 22 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+13. γαμετή, ῆς, ἡ | linha 23927 | 235 caracteres fonte | 239 tradução | 13 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+14. γαμέω | linha 23932 | 2919 caracteres fonte | 3502 tradução | 98 marcadores numéricos | 24 expressões gregas | subdivisões ⓐⓑⓒ | faltas 0
+15. γαμίζω | linha 23968 | 2427 caracteres fonte | 2659 tradução | 68 marcadores numéricos | 13 expressões gregas | subdivisões ①② | faltas 0
+16. γαμίσκω | linha 23979 | 320 caracteres fonte | 428 tradução | 15 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+17. γάμος, ου, ὁ | linha 23984 | 3052 caracteres fonte | 3501 tradução | 81 marcadores numéricos | 17 expressões gregas | subdivisões ①ⓐⓑ②ⓐⓑ③ | faltas 0
+18. γάρ | linha 24011 | 8367 caracteres fonte | 9500 tradução | 242 marcadores numéricos | 92 expressões gregas | subdivisões ①ⓐⓑⓒⓓⓔⓕ②③ | faltas 0
+19. γαστήρ, τρός, ἡ | linha 24044 | 1024 caracteres fonte | 1264 tradução | 36 marcadores numéricos | 7 expressões gregas | subdivisões ①ⓐⓑ② | faltas 0
+20. γαυριάω | linha 24061 | 198 caracteres fonte | 254 tradução | 6 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+Checkpoint estrutural projetado: 1.584 → 1.604 pares BDAG; módulos BDAG 68 → 69; próximo lema γαυρόω.
+Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem revisão independente semanticamente exaustiva, testes de interface DOM/CI e PR/merge autorizado. Não atualizar total_auditoria_concluida. Confirmar publicação pela releitura do commit, arquivos e HEAD remotos.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO γαυρόω → γένημα — 04/11/2026
+================================================================================
+Branch proprietária exclusiva: chat-gpt-bdag; HEAD pai f1601cfe789256bef782ca1a9f07bcc9c0caf724.
+Fonte HTML canônica do BDAG, Biblioteca Scriptura Lexicon (30.790.409 bytes), linhas 24065–24261, 20 verbetes consecutivos de γαυρόω a γένημα, ατος, τό; próximo cabeçalho γενναῖος, α, ον na linha 24262.
+Traduções integrais do conteúdo da fonte, incluindo flexões e variantes, acepções e subdivisões, regências, literatura greco-romana, expressões gregas/hebraicas, referências bíblicas, bibliografia e hipóteses explicitadas. Em γέ, preservadas a função enclítica e as diferenças entre restrição/intensidade e suas diversas combinações com partículas; γέγονα e γενέσθαι preservados como remissões simples a γίνομαι. γέεννα mantém a origem toponímica, desenvolvimentos semânticos e exemplos neotestamentários. γεμίζω descrito como processo de encher; γέμω como estado de estar cheio. γενεά distingue raça/grupo, geração de contemporâneos, períodos de tempo e história familiar; γενεαλογία conserva as hipóteses concorrentes de fundo gnóstico ou judaico; γενέθλιος e γενέσια diferenciam usos de celebração de aniversário; γένεσις conserva quatro sentidos principais e subacepções de existência e experiência humana; γένημα não é confundido etimologicamente com γέννημα.
+Inventário provisório de colação do HTML canônico, objeto Git 639bbf607c0a3ea0c3ea32e9839b33393c77cdae NÃO incluído na árvore: 603 marcadores numéricos distintos por artigo e 224 expressões originais gregas, todos presentes nos textos traduzidos após correção de ἔκ τινος em γέμω. Todas as acepções e subacepções principais estruturais conferidas. Presença textual automatizada não equivale a certificação semântica independente integral.
+Objetos auxiliares de tradução não incorporados à árvore: 094cc953f3499bf440a714e2230130fdcca506ca; 92803341ddcc65b830b27c1643c7697ddd7f4984; 2f2e9f4c35811494a3a09a66f00c5f83ad5afa29; 49c15b71163119d8f0d4aca404cd8024465ad222.
+Arquivos modificados exclusivamente: lexicons/bdag-part-0070.js, lexicon-modules.json, regras/Rbdag.txt. Novo módulo registrado imediatamente após lexicons/bdag-part-0069.js, antes de LEH, mantendo intactos demais módulos, outros léxicos e bibliographicTerms. 20 search-row e 20 entry-card, IDs exclusivos, relação data-target/id 1:1, HTML balanceado. Nenhum popup ou URL externa.
+Evidência por verbete:
+01. γαυρόω | fonte linha 24065 | 390 caracteres fonte | 572 tradução | 14 marcadores numéricos | 9 expressões gregas | subdivisões — | omissões identificadas 0
+02. γέ | fonte linha 24070 | 3853 caracteres fonte | 4310 tradução | 76 marcadores numéricos | 40 expressões gregas | subdivisões ⓐⓑ | omissões identificadas 0
+03. γέγονα | fonte linha 24117 | 18 caracteres fonte | 12 tradução | 0 marcadores numéricos | 1 expressões gregas | subdivisões — | omissões identificadas 0
+04. Γεδεών, ὁ | fonte linha 24121 | 186 caracteres fonte | 209 tradução | 4 marcadores numéricos | 2 expressões gregas | subdivisões — | omissões identificadas 0
+05. γέεννα, ης, ἡ | fonte linha 24125 | 1374 caracteres fonte | 1589 tradução | 40 marcadores numéricos | 20 expressões gregas | subdivisões — | omissões identificadas 0
+06. Γεθσημανί | fonte linha 24129 | 718 caracteres fonte | 845 tradução | 35 marcadores numéricos | 4 expressões gregas | subdivisões — | omissões identificadas 0
+07. γείτων, ονος, ὁ | fonte linha 24133 | 342 caracteres fonte | 416 tradução | 19 marcadores numéricos | 2 expressões gregas | subdivisões — | omissões identificadas 0
+08. γελάω | fonte linha 24137 | 578 caracteres fonte | 659 tradução | 18 marcadores numéricos | 9 expressões gregas | subdivisões — | omissões identificadas 0
+09. γέλως, ωτος, ὁ | fonte linha 24141 | 160 caracteres fonte | 166 tradução | 4 marcadores numéricos | 1 expressões gregas | subdivisões — | omissões identificadas 0
+10. γεμίζω | fonte linha 24146 | 1222 caracteres fonte | 1617 tradução | 30 marcadores numéricos | 17 expressões gregas | subdivisões ⓐⓑⓒⓓ | omissões identificadas 0
+11. γέμω | fonte linha 24164 | 1693 caracteres fonte | 2103 tradução | 52 marcadores numéricos | 17 expressões gregas | subdivisões ⓐⓑⓒ | omissões identificadas 0
+12. γενεά, ᾶς, ἡ | fonte linha 24179 | 3853 caracteres fonte | 4449 tradução | 102 marcadores numéricos | 39 expressões gregas | subdivisões ①②③ⓐⓑ④ | omissões identificadas 0
+13. γενεαλογέω | fonte linha 24202 | 329 caracteres fonte | 457 tradução | 14 marcadores numéricos | 5 expressões gregas | subdivisões — | omissões identificadas 0
+14. γενεαλογία, ας, ἡ | fonte linha 24206 | 878 caracteres fonte | 975 tradução | 18 marcadores numéricos | 3 expressões gregas | subdivisões — | omissões identificadas 0
+15. γενέθλιος, ον | fonte linha 24211 | 771 caracteres fonte | 937 tradução | 29 marcadores numéricos | 7 expressões gregas | subdivisões ①② | omissões identificadas 0
+16. γενέσθαι | fonte linha 24222 | 20 caracteres fonte | 12 tradução | 0 marcadores numéricos | 1 expressões gregas | subdivisões — | omissões identificadas 0
+17. γενέσια, ίων, τά | fonte linha 24226 | 759 caracteres fonte | 869 tradução | 33 marcadores numéricos | 9 expressões gregas | subdivisões — | omissões identificadas 0
+18. γένεσις, εως, ἡ | fonte linha 24231 | 2812 caracteres fonte | 3391 tradução | 53 marcadores numéricos | 19 expressões gregas | subdivisões ①②ⓐⓑ③④ | omissões identificadas 0
+19. γενετή, ῆς, ἡ | fonte linha 24254 | 447 caracteres fonte | 553 tradução | 21 marcadores numéricos | 4 expressões gregas | subdivisões — | omissões identificadas 0
+20. γένημα, ατος, τό | fonte linha 24258 | 1183 caracteres fonte | 1386 tradução | 41 marcadores numéricos | 15 expressões gregas | subdivisões — | omissões identificadas 0
+Checkpoint estrutural projetado: 1.604 → 1.624 pares BDAG; 69 → 70 módulos; próximo lema γενναῖος, α, ον.
+Auditoria filológica independente conforme regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem certificação semântica exaustiva independente, teste funcional DOM/CI e eventual PR/merge autorizado. Não alterar total_auditoria_concluida. Comprovar publicação por releitura de commit, arquivos e HEAD remotos.
+================================================================================
