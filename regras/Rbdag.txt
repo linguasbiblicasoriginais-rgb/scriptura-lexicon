@@ -3078,3 +3078,38 @@ Evidência individual de presença e subdivisões:
 Checkpoint estrutural projetado: 1.504 → 1.524 pares BDAG, 65 módulos; próximo lema Βόος, ὁ.
 Auditoria independente de regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendem certificação filológica exaustiva por revisão independente, teste funcional DOM/CI, eventual PR/merge autorizado. Não elevar total_auditoria_concluida. Verificar commit e HEAD remotos para comprovar publicação segura.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO Βόος → βραβεύω — 03/11/2026
+================================================================================
+Branch exclusivamente autorizada: chat-gpt-bdag; HEAD pai ce8b7ff23dcf97ae49ef7f968a15969d639e1fdc.
+Fonte: HTML canônico BDAG da Biblioteca Scriptura Lexicon (30.790.409 bytes), 20 verbetes consecutivos nas linhas 23450–23618, de Βόος, ὁ até βραβεύω. O 21º lema βραδέως (linha 23619) não foi incluído neste lote.
+Traduções integrais dos vinte artigos a partir da fonte, incluindo flexões e variantes, definições, acepções, subacepções, regências, citações, glosas gregas, história lexical e bibliografia. Preservadas as distinções de βόρβορος (2 sentidos, com análises alternativas de 2Pe 2:22), βόσκω (2 sentidos), βοτάνη (2 sentidos), βουλεύω (2 sentidos), βουλή (3 sentidos, com subdivisões humanas/divinas), βούλομαι (2 sentidos, construções sintáticas e aplicação humana/divina), βραβεῖον (premiação atlética e recompensa moral/espiritual). Verbete Βόρρος preservado como remissão ao nome Βοῦρρος.
+Inventário canônico de controle: blob Git provisório 242e6963f60a0f09d5d13738eb5ce6020169dee7, não incluído na árvore. Conferência de presença integral por verbete: 578 marcadores numéricos distintos por artigo, 168 ocorrências de expressões gregas, nenhum ausente no texto português. Preservadas todas as subdivisões estruturais do original. Presença de símbolos não comprova automaticamente tradução semântica perfeita ou auditoria independente.
+Nomenclatura dos livros bíblicos traduzida ao português: 3Km = 1Rs na LXX, onde pertinente; outras abreviaturas, obras clássicas e numerações históricas mantidas sem substituições silenciosas.
+Rascunhos de tradução em blobs Git provisórios, fora da árvore: 8259c5695f4978f63e1f80c2e37920c755b11e93; 045a1d71727f02ab6984d580130f60eade2b4a96; 96c610d36036b369e0bff83494acc846b8f73873; de0f38163df2d312879778d07f9806ea41ddd967; d92891b0286cad57851665bb6a112955e03c0c4b.
+Arquivos inseridos neste commit: lexicons/bdag-part-0066.js, lexicon-modules.json, regras/Rbdag.txt. Manifesto preserva módulos existentes e outros léxicos. 20 linhas search-row e 20 cartões entry-card com IDs exclusivos, correspondência data-target/id 1:1, HTML balanceado. Não criados popups, links externos, PRs ou merges.
+Evidência individual:
+01. Βόος, ὁ | linha 23450 | fonte 81 caracteres | tradução 90 caracteres | 1 marcadores numéricos | 2 ocorrências gregas | subdivisões — | faltas identificadas 0
+02. βορά, ᾶς, ἡ | linha 23454 | fonte 334 caracteres | tradução 467 caracteres | 14 marcadores numéricos | 5 ocorrências gregas | subdivisões — | faltas identificadas 0
+03. βόρβορος, ου, ὁ | linha 23459 | fonte 1778 caracteres | tradução 2097 caracteres | 42 marcadores numéricos | 9 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+04. βορρᾶς, ᾶ, ὁ | linha 23470 | fonte 715 caracteres | tradução 749 caracteres | 30 marcadores numéricos | 5 ocorrências gregas | subdivisões — | faltas identificadas 0
+05. Βόρρος | linha 23474 | fonte 19 caracteres | tradução 12 caracteres | 0 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas identificadas 0
+06. βόσκω | linha 23479 | fonte 764 caracteres | tradução 1087 caracteres | 31 marcadores numéricos | 9 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+07. Βοσόρ, ὁ | linha 23490 | fonte 86 caracteres | tradução 107 caracteres | 5 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas identificadas 0
+08. βοτάνη, ης, ἡ | linha 23495 | fonte 807 caracteres | tradução 985 caracteres | 24 marcadores numéricos | 8 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+09. βότρυς, υος, ὁ | linha 23506 | fonte 758 caracteres | tradução 750 caracteres | 23 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas identificadas 0
+10. βουλευτής, οῦ, ὁ | linha 23510 | fonte 344 caracteres | tradução 375 caracteres | 8 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas identificadas 0
+11. βουλεύω | linha 23515 | fonte 887 caracteres | tradução 1116 caracteres | 34 marcadores numéricos | 12 ocorrências gregas | subdivisões ①② | faltas identificadas 0
+12. βουλή, ῆς, ἡ | linha 23527 | fonte 1808 caracteres | tradução 2078 caracteres | 55 marcadores numéricos | 19 ocorrências gregas | subdivisões ①②ⓐⓑ③ | faltas identificadas 0
+13. βούλημα, ατος, τό | linha 23547 | fonte 600 caracteres | tradução 748 caracteres | 20 marcadores numéricos | 9 ocorrências gregas | subdivisões — | faltas identificadas 0
+14. βούλησις, εως, ἡ | linha 23551 | fonte 834 caracteres | tradução 992 caracteres | 37 marcadores numéricos | 6 ocorrências gregas | subdivisões — | faltas identificadas 0
+15. βούλομαι | linha 23556 | fonte 3801 caracteres | tradução 4547 caracteres | 110 marcadores numéricos | 54 ocorrências gregas | subdivisões ①②ⓐⓑ | faltas identificadas 0
+16. βουνός, οῦ, ὁ | linha 23591 | fonte 475 caracteres | tradução 512 caracteres | 26 marcadores numéricos | 1 ocorrências gregas | subdivisões — | faltas identificadas 0
+17. Βοῦρρος, ου, ὁ | linha 23595 | fonte 235 caracteres | tradução 289 caracteres | 3 marcadores numéricos | 4 ocorrências gregas | subdivisões — | faltas identificadas 0
+18. βοῦς, βοός | linha 23599 | fonte 811 caracteres | tradução 994 caracteres | 43 marcadores numéricos | 5 ocorrências gregas | subdivisões — | faltas identificadas 0
+19. βραβεῖον, ου, τό | linha 23604 | fonte 1091 caracteres | tradução 1253 caracteres | 37 marcadores numéricos | 9 ocorrências gregas | subdivisões ⓐⓑ | faltas identificadas 0
+20. βραβεύω | linha 23615 | fonte 652 caracteres | tradução 750 caracteres | 35 marcadores numéricos | 3 ocorrências gregas | subdivisões — | faltas identificadas 0
+Checkpoint estrutural projetado: 1.524 → 1.544 pares BDAG; módulos BDAG 65 → 66. Próximo lema βραδέως.
+Regra Rauditoria.txt: AUDITORIA INDEPENDENTE INTEGRAL NÃO CONCLUÍDA. Ainda pendem certificação filológica independente, execução de DOM/CI e eventual integração por PR/merge autorizado. Não alterar total_auditoria_concluida. A publicação é comprovável apenas após releitura remota de HEAD, arquivos e commit.
+================================================================================
