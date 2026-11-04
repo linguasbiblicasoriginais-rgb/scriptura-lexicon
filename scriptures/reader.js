@@ -234,6 +234,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         const editorialSeparators=window.ScripturaScriptureEditorialSeparators?.[state.edition]?.[where.id]?.[where.chapter]||[];
         const separatorEnds=new Set(editorialSeparators.map(Number));
         const headings=window.ScripturaScriptureHeadings?.[state.edition]?.[where.id]?.[where.chapter]||[];
+        const unnumberedPassages=window.ScripturaScriptureUnnumberedPassages?.[state.edition]?.[where.id]?.[where.chapter]||[];
         const headingsByVerse=new Map(headings.map(h=>[Number(h.beforeVerse),h]));
         const grouping=window.ScripturaScriptureParagraphs;
         const greek=grouping.greekEditions.has(state.edition);
@@ -244,6 +245,30 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         });
         for(const group of paragraphs){
             const first=group.verses[0].number;
+            // Mantém passagens não numeradas fora dos versículos numerados.
+            for(const item of unnumberedPassages){
+                if(Number(item.beforeVerse)!==first)continue;
+                const section=document.createElement("section");
+                section.className="scripture-section-heading";
+                const title=document.createElement("h3");
+                title.textContent=item.title||"Passagem não numerada";
+                section.append(title);
+                if(typeof item.marker==="string"){
+                    const marker=document.createElement("p");
+                    marker.className="scripture-section-parallel";
+                    marker.textContent=item.marker;
+                    section.append(marker);
+                }
+                const paragraph=document.createElement("p");
+                paragraph.className="scripture-paragraph";
+                paragraph.dir="ltr";
+                const content=document.createElement("bdi");
+                content.lang="grc";content.dir="ltr";
+                const reference=where.id+" "+where.chapter+" — "+(item.title||"Passagem não numerada");
+                if(wordUI)wordUI.decorate(content,item.text,{edition:state.edition,reference});
+                else content.textContent=item.text;
+                paragraph.append(content);section.append(paragraph);fragment.append(section);
+            }
             const heading=headingsByVerse.get(first);
             if(heading){
                 const section=document.createElement("div");
