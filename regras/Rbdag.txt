@@ -3113,3 +3113,37 @@ Evidência individual:
 Checkpoint estrutural projetado: 1.524 → 1.544 pares BDAG; módulos BDAG 65 → 66. Próximo lema βραδέως.
 Regra Rauditoria.txt: AUDITORIA INDEPENDENTE INTEGRAL NÃO CONCLUÍDA. Ainda pendem certificação filológica independente, execução de DOM/CI e eventual integração por PR/merge autorizado. Não alterar total_auditoria_concluida. A publicação é comprovável apenas após releitura remota de HEAD, arquivos e commit.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βραδέως → βρώσιμος — 03/11/2026
+================================================================================
+Branch autorizada exclusivamente: chat-gpt-bdag. HEAD pai d8e61e8e34da5abe840c4a498589c20a549f9697.
+Fonte: HTML canônico BDAG (Bauer–Danker) da Biblioteca Scriptura Lexicon, 30.790.409 bytes, 20 artigos consecutivos das linhas 23619–23737. Primeiro βραδέως; último βρώσιμος, ον; próximo artigo βρῶσις, εως, ἡ na linha 23738. A delimitação inclui todos os vinte cabeçalhos na ordem da fonte, sem saltos.
+Traduções completas, preservadas flexões e variantes textuais, dados etimológicos, acepções e usos literais/figurados, citações gregas, remissões, passagens bíblicas, bibliografia e ressalvas de interpretação. Distinções estruturais: βραχύς (3 sentidos de espaço, duração e quantidade); βρέφος (2 sentidos, ainda não nascido e criança muito pequena); βρέχω (3 sentidos: molhar, fazer chover, chover impessoalmente); βρῶμα (2 sentidos, alimento literal e transcendente). Preservadas as observações de βροντή sobre possível relação dos sete trovões de Apocalipse com esferas planetárias como HIPÓTESE da bibliografia, sem afirmar certeza.
+Inventário canônico extraído do próprio HTML: blob Git provisório e4ab454cef87ade6ab938e28f6243a7a78761b9c, fora da árvore. Colação determinística de presença: 459 marcadores numéricos distintos por artigo, 111 ocorrências de expressões gregas (normalizados diacríticos/pontuação apenas para cotejo), todos encontrados na tradução. Correção da sequência literal ἀθάνατος, θεός em βροτός após primeira colação. Preservadas estruturas de acepções e HTML de tradução balanceado. A presença de marcadores não comprova por si só equivalência semântica integral nem constitui auditoria filológica independente.
+Rascunhos de trabalho, objetos Git temporários não adicionados à árvore: f731098d4a48e977fbcba009d08f9035a4e03314; 936665e2790ec63b856ebb8265c6649603079e16; 64e28733a9be99476c16f10eb6e9eb1c520ae055; bc6ff0727f601dc6f8a5f8d9a6f53c19edc1c165.
+Arquivo novo lexicons/bdag-part-0067.js, registrado imediatamente após lexicons/bdag-part-0066.js em lexicon-modules.json, mantendo intactos os módulos antigos, outros léxicos e bibliographicTerms. Criados 20 search-row e 20 entry-card com IDs únicos e pareamento data-target/id 1:1; sem popups, links externos ou efeitos colaterais.
+Evidências por artigo:
+01. βραδέως | linha 23619 | fonte 218 caracteres | tradução 253 caracteres | 15 marcadores numéricos | 3 expressões gregas | divisões: — | omissões detectadas: 0
+02. βραδύγλωσσος, ον | linha 23623 | fonte 340 caracteres | tradução 390 caracteres | 9 marcadores numéricos | 1 expressões gregas | divisões: — | omissões detectadas: 0
+03. βραδύνω | linha 23627 | fonte 557 caracteres | tradução 658 caracteres | 26 marcadores numéricos | 7 expressões gregas | divisões: — | omissões detectadas: 0
+04. βραδυπλοέω | linha 23631 | fonte 122 caracteres | tradução 133 caracteres | 7 marcadores numéricos | 1 expressões gregas | divisões: — | omissões detectadas: 0
+05. βραδύς, εῖα, ύ | linha 23635 | fonte 1137 caracteres | tradução 1383 caracteres | 38 marcadores numéricos | 17 expressões gregas | divisões: — | omissões detectadas: 0
+06. βραδύτης, ητος | linha 23639 | fonte 387 caracteres | tradução 470 caracteres | 17 marcadores numéricos | 4 expressões gregas | divisões: — | omissões detectadas: 0
+07. βραχίων, ονος, ὁ | linha 23643 | fonte 457 caracteres | tradução 523 caracteres | 20 marcadores numéricos | 4 expressões gregas | divisões: — | omissões detectadas: 0
+08. βραχύς, εῖα, ύ | linha 23648 | fonte 1008 caracteres | tradução 1144 caracteres | 37 marcadores numéricos | 9 expressões gregas | divisões: ①②③ | omissões detectadas: 0
+09. βρέφος, ους, τό | linha 23663 | fonte 1111 caracteres | tradução 1352 caracteres | 53 marcadores numéricos | 8 expressões gregas | divisões: ①② | omissões detectadas: 0
+10. βρέχω | linha 23675 | fonte 1371 caracteres | tradução 1701 caracteres | 43 marcadores numéricos | 15 expressões gregas | divisões: ①②③ | omissões detectadas: 0
+11. βριμάομαι | linha 23689 | fonte 94 caracteres | tradução 120 caracteres | 2 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+12. βροντή, ῆς, ἡ | linha 23693 | fonte 846 caracteres | tradução 996 caracteres | 34 marcadores numéricos | 9 expressões gregas | divisões: — | omissões detectadas: 0
+13. βροτός, ή, όν | linha 23697 | fonte 166 caracteres | tradução 209 caracteres | 5 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+14. βροχή, ῆς, ἡ | linha 23701 | fonte 324 caracteres | tradução 347 caracteres | 18 marcadores numéricos | 1 expressões gregas | divisões: — | omissões detectadas: 0
+15. βρόχος, ου, ὁ | linha 23705 | fonte 362 caracteres | tradução 440 caracteres | 16 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+16. βρυγμός, οῦ, ὁ | linha 23709 | fonte 714 caracteres | tradução 802 caracteres | 27 marcadores numéricos | 6 expressões gregas | divisões: — | omissões detectadas: 0
+17. βρύχω | linha 23713 | fonte 664 caracteres | tradução 731 caracteres | 15 marcadores numéricos | 5 expressões gregas | divisões: — | omissões detectadas: 0
+18. βρύω | linha 23717 | fonte 409 caracteres | tradução 524 caracteres | 20 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+19. βρῶμα, ατος, τό | linha 23722 | fonte 1273 caracteres | tradução 1596 caracteres | 41 marcadores numéricos | 11 expressões gregas | divisões: ①② | omissões detectadas: 0
+20. βρώσιμος, ον | linha 23733 | fonte 239 caracteres | tradução 244 caracteres | 16 marcadores numéricos | 2 expressões gregas | divisões: — | omissões detectadas: 0
+Checkpoint estrutural projetado: 1.544 → 1.564 pares BDAG; módulos 66 → 67. Próximo lema βρῶσις, εως, ἡ.
+Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendentes certificação filológica semântica exaustiva, testes funcionais DOM/CI e eventual PR/merge de integração autorizado. Não alterar total_auditoria_concluida. Publicação confirmável apenas pelo commit Git e reconsulta do HEAD remoto.
+================================================================================
