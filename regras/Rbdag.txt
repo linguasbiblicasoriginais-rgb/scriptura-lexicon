@@ -3182,3 +3182,38 @@ Colação individual:
 Checkpoint estrutural projetado: 1.564 → 1.584 registros BDAG; módulos 67 → 68; próximo lema Γαλάτης, ου, ὁ.
 Auditoria filológica independente conforme regras/Rauditoria.txt NÃO CONCLUÍDA; pendentes revisão independente exaustiva, teste funcional DOM/CI e PR/merge autorizado. Não elevar contagem total_auditoria_concluida. Publicação comprovada por commit remoto e HEAD pós-operação.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO Γαλάτης → γαυριάω — 04/11/2026
+================================================================================
+Branch autorizada exclusiva: chat-gpt-bdag; HEAD pai 4716c0f0e8ed1a5726aac8d3bcfdd8590439e947.
+Fonte HTML canônica BDAG, Biblioteca Scriptura Lexicon, 30.790.409 bytes; 20 cabeçalhos consecutivos das linhas 23879–24064, Γαλάτης, ου, ὁ até γαυριάω. Próximo cabeçalho γαυρόω, linha 24065.
+Tradução integral com citações e formas gregas/hebraicas, lexemas, acepções, construções morfossintáticas, variantes textuais, informação histórico-filológica, referências e bibliografia. Em Γαλατία, apresentação separada das teorias do Norte e do Sul sem impor solução; Γαλλία mantido como verbete remissivo; Γαλλίων e Γαμαλιήλ preservam identidade histórica e atestações. Em γαμέω, formas flexionadas e usos masculinos, femininos e comuns, inclusive vozes ativa, média e passiva e construções alternativas. Em γαμίζω, os sentidos «dar em casamento» e «casar-se» e a disputa de 1Co 7:36–38 ficam expressamente separados. γάμος preserva os três sentidos e subdivisões; a análise semântica de Mt 22:10 permanece hipótese contextual.
+γάρ: verbete longo integralmente traduzido, preservando as três funções (causal, explicativa, inferencial), as seis subdivisões da primeira, suas combinações com outras partículas, exemplos de literatura antiga, ocorrências bíblicas e referências bibliográficas. γαστήρ preserva sentidos de ventre/barriga e útero, com suas subacepções. γαυριάω fecha o lote.
+Inventário de colação do próprio HTML: objeto provisório Git 4ef5bc3c4cf39f10774e22796c86237adb10bd9f, NÃO adicionado à árvore, 805 marcadores numéricos distintos por artigo e 192 ocorrências gregas, todos localizados nas traduções após ajustes pontuais de preservação de sequências originais; mantidas as subdivisões principais. O controle de presença é evidência mecânica, mas não certificação exaustiva da equivalência semântica.
+Traduções provisórias em objetos Git não adicionados à árvore: 27efbbc79dfdfdde26b7ec40b29d752452ffa19d; ab87d3e374b3950e91258ed507bbca03f1d21e7f; 2a663ef1ec94968084d0be3ad654039fd814e10b.
+Publicados somente lexicons/bdag-part-0069.js, lexicon-modules.json e regras/Rbdag.txt; novo módulo registrado após lexicons/bdag-part-0068.js antes de lexicons/leh.js, conservando todos os módulos e léxicos preexistentes. 20 search-row e 20 entry-card com IDs exclusivos, correspondência data-target/id 1:1, HTML balanceado, sem links externos, popups ou atualizações em outros léxicos.
+Evidência individual:
+01. Γαλάτης, ου, ὁ | linha 23879 | 491 caracteres fonte | 641 tradução | 15 marcadores numéricos | 3 expressões gregas | subdivisões — | faltas 0
+02. Γαλατία, ας, ἡ | linha 23883 | 2203 caracteres fonte | 2464 tradução | 43 marcadores numéricos | 5 expressões gregas | subdivisões — | faltas 0
+03. Γαλατικός, ή, όν | linha 23887 | 297 caracteres fonte | 324 tradução | 13 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+04. γαλεάγρα, ας, ἡ | linha 23891 | 223 caracteres fonte | 237 tradução | 9 marcadores numéricos | 1 expressões gregas | subdivisões — | faltas 0
+05. γαλῆ, ῆς, ἡ | linha 23895 | 466 caracteres fonte | 493 tradução | 18 marcadores numéricos | 3 expressões gregas | subdivisões — | faltas 0
+06. γαλήνη, ης, ἡ | linha 23899 | 319 caracteres fonte | 329 tradução | 15 marcadores numéricos | 0 expressões gregas | subdivisões — | faltas 0
+07. γαληνιάω | linha 23903 | 246 caracteres fonte | 278 tradução | 5 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+08. Γαλιλαία, ας, ἡ | linha 23907 | 1574 caracteres fonte | 1721 tradução | 53 marcadores numéricos | 10 expressões gregas | subdivisões — | faltas 0
+09. Γαλιλαῖος, α, ον | linha 23911 | 409 caracteres fonte | 476 tradução | 18 marcadores numéricos | 4 expressões gregas | subdivisões — | faltas 0
+10. Γαλλία | linha 23915 | 35 caracteres fonte | 51 tradução | 2 marcadores numéricos | 1 expressões gregas | subdivisões — | faltas 0
+11. Γαλλίων, ωνος, ὁ | linha 23919 | 697 caracteres fonte | 753 tradução | 33 marcadores numéricos | 0 expressões gregas | subdivisões — | faltas 0
+12. Γαμαλιήλ, ὁ | linha 23923 | 566 caracteres fonte | 605 tradução | 22 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+13. γαμετή, ῆς, ἡ | linha 23927 | 235 caracteres fonte | 239 tradução | 13 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+14. γαμέω | linha 23932 | 2919 caracteres fonte | 3502 tradução | 98 marcadores numéricos | 24 expressões gregas | subdivisões ⓐⓑⓒ | faltas 0
+15. γαμίζω | linha 23968 | 2427 caracteres fonte | 2659 tradução | 68 marcadores numéricos | 13 expressões gregas | subdivisões ①② | faltas 0
+16. γαμίσκω | linha 23979 | 320 caracteres fonte | 428 tradução | 15 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+17. γάμος, ου, ὁ | linha 23984 | 3052 caracteres fonte | 3501 tradução | 81 marcadores numéricos | 17 expressões gregas | subdivisões ①ⓐⓑ②ⓐⓑ③ | faltas 0
+18. γάρ | linha 24011 | 8367 caracteres fonte | 9500 tradução | 242 marcadores numéricos | 92 expressões gregas | subdivisões ①ⓐⓑⓒⓓⓔⓕ②③ | faltas 0
+19. γαστήρ, τρός, ἡ | linha 24044 | 1024 caracteres fonte | 1264 tradução | 36 marcadores numéricos | 7 expressões gregas | subdivisões ①ⓐⓑ② | faltas 0
+20. γαυριάω | linha 24061 | 198 caracteres fonte | 254 tradução | 6 marcadores numéricos | 2 expressões gregas | subdivisões — | faltas 0
+Checkpoint estrutural projetado: 1.584 → 1.604 pares BDAG; módulos BDAG 68 → 69; próximo lema γαυρόω.
+Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem revisão independente semanticamente exaustiva, testes de interface DOM/CI e PR/merge autorizado. Não atualizar total_auditoria_concluida. Confirmar publicação pela releitura do commit, arquivos e HEAD remotos.
+================================================================================
