@@ -3147,3 +3147,38 @@ Evidências por artigo:
 Checkpoint estrutural projetado: 1.544 → 1.564 pares BDAG; módulos 66 → 67. Próximo lema βρῶσις, εως, ἡ.
 Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Pendentes certificação filológica semântica exaustiva, testes funcionais DOM/CI e eventual PR/merge de integração autorizado. Não alterar total_auditoria_concluida. Publicação confirmável apenas pelo commit Git e reconsulta do HEAD remoto.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO βρῶσις → γάλα — 03/11/2026
+================================================================================
+Branch autorizada chat-gpt-bdag; HEAD pai 2b899ba9dfbc443ce23b37f7f4869e97b98c679f. Fonte HTML canônica da Biblioteca Scriptura Lexicon, BDAG, 30.790.409 bytes, linhas 23738–23878.
+Vinte verbetes consecutivos: primeiro βρῶσις, εως, ἡ; último γάλα, γάλακτος, τό; próximo Γαλάτης, ου, ὁ, linha 23879. Transição alfabética β→γ inclui o verbete γ´ (sinal numeral três/terceiro), e não omite nenhuma entrada intermediária.
+As traduções completas incluem flexões, variações, citações, expressões gregas/hebraicas, referências bíblicas, documentação antiga, bibliografia e ressalvas de leitura e etimologia, sem impor conclusões a questões em aberto. βρῶσις 3 acepções, incluindo discussão crítica de Mt 6:19; βυθίζω 2; γαζοφυλάκιον 2; Γάϊος 5 identificações textuais, e γάλα as subacepções literal/figurada. O significado de Γαββαθᾶ e as variantes de Γαδαρηνός permanecem apresentados como dados não resolvidos da fonte.
+Distinção entre γάζα, ης, ἡ (tesouraria) e Γάζα, ης, ἡ (cidade) com IDs entry-gaza-tesouraria-bdag e entry-gaza-toponimo-bdag. Distinção entre βροτός (*mortal*, no módulo 0067) e βρωτός (*comestível*, neste módulo) com ID novo entry-brotos-comestivel-bdag, sem modificar o módulo anterior; a checagem detectou e evitou colisão de transliteração sem diacríticos.
+Inventário do HTML canônico: Git blob de trabalho 30e2db6a8620eed4465fd99b585a35c6d790565f, fora da árvore, 420 marcadores numéricos distintos por verbete e 96 ocorrências de expressões gregas, todos encontrados no artigo correspondente. Os números são contagens de presença, não certificação exaustiva de equivalência semântica integral. Divisões e subacepções principais do HTML também verificadas.
+Blobs provisórios dos rascunhos, fora da árvore: acf78c36234eee3f573c314efd60887b342e227b; 31f3c2d48238d36fad8c19dbf7f1e26e9c9e6005; e717f88996f24439fbab636210aad202d262e142.
+Arquivos alterados: lexicons/bdag-part-0068.js, lexicon-modules.json e regras/Rbdag.txt. Módulo novo inserido depois de lexicons/bdag-part-0067.js, antes de lexicons/leh.js. Mantidos os módulos preexistentes, demais léxicos e regras não BDAG. 20 search-row e 20 entry-card com IDs exclusivos, ligação data-target/id 1:1, HTML balanceado; nenhum URL externo ou popup novo.
+Colação individual:
+01. βρῶσις, εως, ἡ | linha 23738 | fonte 2037 caracteres | tradução 2453 caracteres | 56 referências numéricas | 20 expressões gregas | divisões ①②③ⓐⓑ | faltas 0
+02. βρωτός, ή, όν | linha 23758 | fonte 428 caracteres | tradução 499 caracteres | 11 referências numéricas | 2 expressões gregas | divisões — | faltas 0
+03. βυθίζω | linha 23763 | fonte 1012 caracteres | tradução 1229 caracteres | 30 referências numéricas | 14 expressões gregas | divisões ①② | faltas 0
+04. βυθός, οῦ, ὁ | linha 23774 | fonte 578 caracteres | tradução 650 caracteres | 20 referências numéricas | 5 expressões gregas | divisões — | faltas 0
+05. βυρσεύς, έως, ὁ | linha 23778 | fonte 268 caracteres | tradução 290 caracteres | 17 referências numéricas | 1 expressões gregas | divisões — | faltas 0
+06. βύσσινος, η, ον | linha 23782 | fonte 439 caracteres | tradução 481 caracteres | 27 referências numéricas | 4 expressões gregas | divisões — | faltas 0
+07. βύσσος, ου, ἡ | linha 23786 | fonte 615 caracteres | tradução 729 caracteres | 33 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+08. βύω | linha 23790 | fonte 218 caracteres | tradução 265 caracteres | 5 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+09. βωμός, οῦ, ὁ | linha 23794 | fonte 249 caracteres | tradução 295 caracteres | 10 referências numéricas | 1 expressões gregas | divisões — | faltas 0
+10. γ´ | linha 23802 | fonte 298 caracteres | tradução 412 caracteres | 11 referências numéricas | 7 expressões gregas | divisões — | faltas 0
+11. Γαββαθᾶ | linha 23806 | fonte 370 caracteres | tradução 524 caracteres | 5 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+12. Γαβριήλ, ὁ | linha 23810 | fonte 436 caracteres | tradução 447 caracteres | 27 referências numéricas | 1 expressões gregas | divisões — | faltas 0
+13. γάγγραινα, ης, ἡ | linha 23814 | fonte 261 caracteres | tradução 284 caracteres | 2 referências numéricas | 0 expressões gregas | divisões — | faltas 0
+14. Γάδ, ὁ | linha 23818 | fonte 198 caracteres | tradução 224 caracteres | 10 referências numéricas | 6 expressões gregas | divisões — | faltas 0
+15. Γαδαρηνός, ή, όν | linha 23822 | fonte 1012 caracteres | tradução 1163 caracteres | 30 referências numéricas | 6 expressões gregas | divisões — | faltas 0
+16. Γάζα, ης, ἡ | linha 23826 | fonte 639 caracteres | tradução 704 caracteres | 20 referências numéricas | 3 expressões gregas | divisões — | faltas 0
+17. γάζα, ης, ἡ | linha 23830 | fonte 341 caracteres | tradução 403 caracteres | 10 referências numéricas | 2 expressões gregas | divisões — | faltas 0
+18. γαζοφυλάκιον, ου, τό | linha 23835 | fonte 1290 caracteres | tradução 1380 caracteres | 35 referências numéricas | 6 expressões gregas | divisões ①② | faltas 0
+19. Γάϊος, ου, ὁ | linha 23847 | fonte 525 caracteres | tradução 610 caracteres | 18 referências numéricas | 2 expressões gregas | divisões ①②③④⑤ | faltas 0
+20. γάλα, γάλακτος, τό | linha 23868 | fonte 1478 caracteres | tradução 1835 caracteres | 43 referências numéricas | 7 expressões gregas | divisões ⓐⓑ | faltas 0
+Checkpoint estrutural projetado: 1.564 → 1.584 registros BDAG; módulos 67 → 68; próximo lema Γαλάτης, ου, ὁ.
+Auditoria filológica independente conforme regras/Rauditoria.txt NÃO CONCLUÍDA; pendentes revisão independente exaustiva, teste funcional DOM/CI e PR/merge autorizado. Não elevar contagem total_auditoria_concluida. Publicação comprovada por commit remoto e HEAD pós-operação.
+================================================================================
