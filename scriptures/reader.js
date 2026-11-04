@@ -395,7 +395,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         panel.querySelector("#scripture-next-chapter").disabled = state.chapter === selected.chapters;
         const canLink = ["UXLC", "LXX", "NA28", "UBS5", "SBLGNT"].includes(state.edition) && /^[A-Z0-9]{3}$/.test(selected.id);
         external.hidden = !canLink;
-        if (canLink) external.href = (state.edition === "SBLGNT" ? "https://github.com/Faithlife/SBLGNT/tree/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text" : state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter);
+        if (canLink) external.href = (state.edition === "SBLGNT" ? "https://github.com/Faithlife/SBLGNT/tree/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text" : state.edition === "UXLC" ? "https://www.tanach.us/" : (state.edition === "UXLC" ? "https://www.tanach.us/" : "https://www.die-bibel.de/en/bible/" + state.edition + "/" + selected.id + "." + state.chapter));
         else external.removeAttribute("href");
         external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
         external.textContent = state.edition === "SBLGNT" ? "Consultar edição de origem ↗" : "Consultar capítulo na edição de origem ↗";
