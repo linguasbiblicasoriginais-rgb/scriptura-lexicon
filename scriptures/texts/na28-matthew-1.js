@@ -1,8 +1,8 @@
-/* NA28 — Mateus 1:1–25.
-   Transcrição apresentada pelo usuário em 22/10/2026 como NA28.
-   Segmentação editorial dos versículos sem normalização ortográfica.
-   Mantidas as quebras internas dos vv. 6 e 23; não foi realizado
-   cotejo independente com a edição crítica impressa nem aparato. */
+/* NA28 — Mateus 1.
+ * Transcrição fornecida em 04/11/2026; sem cotejo independente.
+ * Divisões de parágrafos extraídas da transcrição fornecida.
+ * Quebras internas preservadas; itálicos/recuos não reconstruídos por conjectura.
+ */
 (function () {
     "use strict";
     const verses = {
@@ -32,8 +32,13 @@
     "24": "ἐγερθεὶς δὲ ὁ Ἰωσὴφ ἀπὸ τοῦ ὕπνου ἐποίησεν ὡς προσέταξεν αὐτῷ ὁ ἄγγελος κυρίου καὶ παρέλαβεν τὴν γυναῖκα αὐτοῦ,",
     "25": "καὶ οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκεν υἱόν· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ἰησοῦν."
 };
+    const paragraphEnds = [1,11,16,17,22,25];
     window.ScripturaScriptureTexts = window.ScripturaScriptureTexts || {};
     window.ScripturaScriptureTexts.NA28 = window.ScripturaScriptureTexts.NA28 || {};
     window.ScripturaScriptureTexts.NA28.MAT = window.ScripturaScriptureTexts.NA28.MAT || {};
     window.ScripturaScriptureTexts.NA28.MAT[1] = verses;
+    window.ScripturaScriptureParagraphBreaks = window.ScripturaScriptureParagraphBreaks || {};
+    window.ScripturaScriptureParagraphBreaks.NA28 = window.ScripturaScriptureParagraphBreaks.NA28 || {};
+    window.ScripturaScriptureParagraphBreaks.NA28.MAT = window.ScripturaScriptureParagraphBreaks.NA28.MAT || {};
+    window.ScripturaScriptureParagraphBreaks.NA28.MAT[1] = paragraphEnds;
 })();
