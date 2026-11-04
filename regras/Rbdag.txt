@@ -3217,3 +3217,37 @@ Evidência individual:
 Checkpoint estrutural projetado: 1.584 → 1.604 pares BDAG; módulos BDAG 68 → 69; próximo lema γαυρόω.
 Auditoria independente segundo regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem revisão independente semanticamente exaustiva, testes de interface DOM/CI e PR/merge autorizado. Não atualizar total_auditoria_concluida. Confirmar publicação pela releitura do commit, arquivos e HEAD remotos.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO γαυρόω → γένημα — 04/11/2026
+================================================================================
+Branch proprietária exclusiva: chat-gpt-bdag; HEAD pai f1601cfe789256bef782ca1a9f07bcc9c0caf724.
+Fonte HTML canônica do BDAG, Biblioteca Scriptura Lexicon (30.790.409 bytes), linhas 24065–24261, 20 verbetes consecutivos de γαυρόω a γένημα, ατος, τό; próximo cabeçalho γενναῖος, α, ον na linha 24262.
+Traduções integrais do conteúdo da fonte, incluindo flexões e variantes, acepções e subdivisões, regências, literatura greco-romana, expressões gregas/hebraicas, referências bíblicas, bibliografia e hipóteses explicitadas. Em γέ, preservadas a função enclítica e as diferenças entre restrição/intensidade e suas diversas combinações com partículas; γέγονα e γενέσθαι preservados como remissões simples a γίνομαι. γέεννα mantém a origem toponímica, desenvolvimentos semânticos e exemplos neotestamentários. γεμίζω descrito como processo de encher; γέμω como estado de estar cheio. γενεά distingue raça/grupo, geração de contemporâneos, períodos de tempo e história familiar; γενεαλογία conserva as hipóteses concorrentes de fundo gnóstico ou judaico; γενέθλιος e γενέσια diferenciam usos de celebração de aniversário; γένεσις conserva quatro sentidos principais e subacepções de existência e experiência humana; γένημα não é confundido etimologicamente com γέννημα.
+Inventário provisório de colação do HTML canônico, objeto Git 639bbf607c0a3ea0c3ea32e9839b33393c77cdae NÃO incluído na árvore: 603 marcadores numéricos distintos por artigo e 224 expressões originais gregas, todos presentes nos textos traduzidos após correção de ἔκ τινος em γέμω. Todas as acepções e subacepções principais estruturais conferidas. Presença textual automatizada não equivale a certificação semântica independente integral.
+Objetos auxiliares de tradução não incorporados à árvore: 094cc953f3499bf440a714e2230130fdcca506ca; 92803341ddcc65b830b27c1643c7697ddd7f4984; 2f2e9f4c35811494a3a09a66f00c5f83ad5afa29; 49c15b71163119d8f0d4aca404cd8024465ad222.
+Arquivos modificados exclusivamente: lexicons/bdag-part-0070.js, lexicon-modules.json, regras/Rbdag.txt. Novo módulo registrado imediatamente após lexicons/bdag-part-0069.js, antes de LEH, mantendo intactos demais módulos, outros léxicos e bibliographicTerms. 20 search-row e 20 entry-card, IDs exclusivos, relação data-target/id 1:1, HTML balanceado. Nenhum popup ou URL externa.
+Evidência por verbete:
+01. γαυρόω | fonte linha 24065 | 390 caracteres fonte | 572 tradução | 14 marcadores numéricos | 9 expressões gregas | subdivisões — | omissões identificadas 0
+02. γέ | fonte linha 24070 | 3853 caracteres fonte | 4310 tradução | 76 marcadores numéricos | 40 expressões gregas | subdivisões ⓐⓑ | omissões identificadas 0
+03. γέγονα | fonte linha 24117 | 18 caracteres fonte | 12 tradução | 0 marcadores numéricos | 1 expressões gregas | subdivisões — | omissões identificadas 0
+04. Γεδεών, ὁ | fonte linha 24121 | 186 caracteres fonte | 209 tradução | 4 marcadores numéricos | 2 expressões gregas | subdivisões — | omissões identificadas 0
+05. γέεννα, ης, ἡ | fonte linha 24125 | 1374 caracteres fonte | 1589 tradução | 40 marcadores numéricos | 20 expressões gregas | subdivisões — | omissões identificadas 0
+06. Γεθσημανί | fonte linha 24129 | 718 caracteres fonte | 845 tradução | 35 marcadores numéricos | 4 expressões gregas | subdivisões — | omissões identificadas 0
+07. γείτων, ονος, ὁ | fonte linha 24133 | 342 caracteres fonte | 416 tradução | 19 marcadores numéricos | 2 expressões gregas | subdivisões — | omissões identificadas 0
+08. γελάω | fonte linha 24137 | 578 caracteres fonte | 659 tradução | 18 marcadores numéricos | 9 expressões gregas | subdivisões — | omissões identificadas 0
+09. γέλως, ωτος, ὁ | fonte linha 24141 | 160 caracteres fonte | 166 tradução | 4 marcadores numéricos | 1 expressões gregas | subdivisões — | omissões identificadas 0
+10. γεμίζω | fonte linha 24146 | 1222 caracteres fonte | 1617 tradução | 30 marcadores numéricos | 17 expressões gregas | subdivisões ⓐⓑⓒⓓ | omissões identificadas 0
+11. γέμω | fonte linha 24164 | 1693 caracteres fonte | 2103 tradução | 52 marcadores numéricos | 17 expressões gregas | subdivisões ⓐⓑⓒ | omissões identificadas 0
+12. γενεά, ᾶς, ἡ | fonte linha 24179 | 3853 caracteres fonte | 4449 tradução | 102 marcadores numéricos | 39 expressões gregas | subdivisões ①②③ⓐⓑ④ | omissões identificadas 0
+13. γενεαλογέω | fonte linha 24202 | 329 caracteres fonte | 457 tradução | 14 marcadores numéricos | 5 expressões gregas | subdivisões — | omissões identificadas 0
+14. γενεαλογία, ας, ἡ | fonte linha 24206 | 878 caracteres fonte | 975 tradução | 18 marcadores numéricos | 3 expressões gregas | subdivisões — | omissões identificadas 0
+15. γενέθλιος, ον | fonte linha 24211 | 771 caracteres fonte | 937 tradução | 29 marcadores numéricos | 7 expressões gregas | subdivisões ①② | omissões identificadas 0
+16. γενέσθαι | fonte linha 24222 | 20 caracteres fonte | 12 tradução | 0 marcadores numéricos | 1 expressões gregas | subdivisões — | omissões identificadas 0
+17. γενέσια, ίων, τά | fonte linha 24226 | 759 caracteres fonte | 869 tradução | 33 marcadores numéricos | 9 expressões gregas | subdivisões — | omissões identificadas 0
+18. γένεσις, εως, ἡ | fonte linha 24231 | 2812 caracteres fonte | 3391 tradução | 53 marcadores numéricos | 19 expressões gregas | subdivisões ①②ⓐⓑ③④ | omissões identificadas 0
+19. γενετή, ῆς, ἡ | fonte linha 24254 | 447 caracteres fonte | 553 tradução | 21 marcadores numéricos | 4 expressões gregas | subdivisões — | omissões identificadas 0
+20. γένημα, ατος, τό | fonte linha 24258 | 1183 caracteres fonte | 1386 tradução | 41 marcadores numéricos | 15 expressões gregas | subdivisões — | omissões identificadas 0
+Checkpoint estrutural projetado: 1.604 → 1.624 pares BDAG; 69 → 70 módulos; próximo lema γενναῖος, α, ον.
+Auditoria filológica independente conforme regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem certificação semântica exaustiva independente, teste funcional DOM/CI e eventual PR/merge autorizado. Não alterar total_auditoria_concluida. Comprovar publicação por releitura de commit, arquivos e HEAD remotos.
+================================================================================
