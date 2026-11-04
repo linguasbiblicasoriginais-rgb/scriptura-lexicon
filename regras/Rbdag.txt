@@ -3251,3 +3251,18 @@ Evidência por verbete:
 Checkpoint estrutural projetado: 1.604 → 1.624 pares BDAG; 69 → 70 módulos; próximo lema γενναῖος, α, ον.
 Auditoria filológica independente conforme regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem certificação semântica exaustiva independente, teste funcional DOM/CI e eventual PR/merge autorizado. Não alterar total_auditoria_concluida. Comprovar publicação por releitura de commit, arquivos e HEAD remotos.
 ================================================================================
+
+================================================================================
+BDAG — INDICADOR DE PROGRESSO 8.287 — DETERMINAÇÃO DO MANTENEDOR — 04/11/2026
+================================================================================
+Em toda resposta sobre novo lote de incorporação do BDAG, apresentar barra de
+progresso com numerador real de verbetes publicados no HEAD remoto confirmado
+e denominador fixado pelo mantenedor em 8.287 verbetes.
+Exibir explicitamente "N / 8.287" e o percentual correspondente.
+Antes da confirmação remota, não somar verbetes preliminares ao numerador.
+Distinção obrigatória: contador de incorporação não equivale a certificação de
+AUDITORIA_CONCLUIDA segundo regras/Rauditoria.txt.
+Se houver divergência de contagens, investigar pelo corpus carregado e reportar
+a divergência em vez de inflar o numerador.
+A alteração é apenas documental e integra o mesmo commit do lote a que se aplica.
+================================================================================
