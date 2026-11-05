@@ -3323,3 +3323,71 @@ após a colação inicial, sem retirar as leituras já consultadas.
 Não incrementar total_auditoria_concluida. Publicação a confirmar
 somente por commit atômico e revalidação do HEAD remoto.
 ================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διαπορέω → διαταγή — 05/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD inicial confirmado: 61fc2075b000e771f3873d3f40f2550986a1bef3.
+Fonte textual canônica exclusiva: A Greek-English Lexicon of the New Testament
+and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html,
+Biblioteca Scriptura Lexicon, versão 1, tamanho 30.790.409 bytes.
+Foram consultados diretamente os 20 cabeçalhos consecutivos e seu conteúdo
+integral no intervalo a partir da linha 26594. Primeiro: διαπορέω.
+Vigésimo: διαταγή, ῆς, ἡ. Próximo cabeçalho: διάταγμα, ατος, τό.
+
+Conteúdo preparado em duas parcelas de tradução não adicionadas à árvore:
+1af315cf32881685e3fdd484cbff5d7bcb14a074 (1–10);
+b9c6bb8860420532f6ebc2a24c3405c9aa831b20 (11–20).
+Registros incluem cabeçalhos, romaji, classes gramaticais, busca e tradução
+portuguesa detalhada, com formas gregas, variantes, etimologias, acepções,
+construções, citações bíblicas, greco-romanas e patrísticas, bibliografias,
+restrições e hipóteses do BDAG.
+
+Conferência filológica individual (revisão da tradução diante do HTML):
+01. διαπορέω — imperfeito e modos de regência; uso médio e variantes.
+02. διαπραγματεύομαι — deponente médio; aoristo; comércio e variante de Lc 19:15.
+03. διαπρίω — sentido literal «serrar» versus extensão figurada passiva.
+04. διαρθρόω — fala articulada; uso passivo e variante de Lc 1:64.
+05. διαρπάζω — flexões, saque, roubo, subsistência, rapto e restauração epigráfica.
+06. δια(ρ)ρήγνυμι — forma alternativa διαρήσσω, vozes e ①ⓐⓑ②.
+07. διασαφέω — clarificação e relato detalhado ①②; citações e regências.
+08. διασείω — sentido jurídico de extorsão; provas papirológicas e acusativo.
+09. διασκορπίζω — dispersão ① versus desperdício ②; possível «joeirar».
+10. διασπαράσσω — forma aorística, passiva e dilaceramento de cordeiros.
+11. διασπάω — rasgar material e uso figurado; referências e expressões gregas.
+12. διασπείρω — paradigmas e passivo referente a comunidades cristãs.
+13. διασπορά — dispersão como estado ① e lugar ②; emprego figurado.
+14. διάσταλμα — acepção e caráter provável da explicação alegórica.
+15. διαστέλλω — formas de três vozes; sentido de ordem em voz média.
+16. διάστημα — variante διάστεμα do códice D; expressão temporal.
+17. διαστολή — distinção étnica e diferenciação de sons instrumentais.
+18. διαστρέφω — três acepções ①②③ e exemplos de aplicação moral.
+19. διασῴζω — passivos, construções preposicionais, salvamento e cura.
+20. διαταγή — ordenança; uso de εἰς e mediação dos anjos em At 7:53.
+
+Módulo preparado: lexicons/bdag-part-0085.js, objeto Git
+f7a5bb71106808b5d49daea9459dc3a88b9ce50a.
+Manifesto preparado: objeto Git 68c157c497c1848cea6ede242d756cfaea9580cf.
+Controles estáticos do módulo: 20 search-row, 20 entry-card, 20 IDs
+exclusivos, relações data-target/id 1:1, estrutura HTML equilibrada,
+sem colisão com o módulo 0084; manifesto resultante com 2.112 itens,
+contendo uma única nova entrada após bdag-part-0084.js e antes de leh.js.
+Regressão histórica: todos os 84 arquivos BDAG publicados no HEAD inicial
+foram recuperados e recontados: 270 + 397 + 594 + 323 + 320 = 1.904
+pares linha/cartão; correspondência 1:1 em todos os arquivos consultados,
+sem colisões dos novos IDs contra qualquer arquivo histórico.
+Checkpoint estrutural: 1.904 → 1.924 verbetes / 8.287; 84 → 85 arquivos
+BDAG. Próximo verbete: διάταγμα, ατος, τό.
+
+Limitações: após a extração inicial, a releitura do HTML na Biblioteca
+tornou-se intermitentemente inacessível, impedindo uma segunda colação
+mecânica exaustiva de sequências gregas e marcadores numéricos.
+A revisão direta inicial do conteúdo foi realizada; não elevar tal
+revisão ao estado AUDITORIA_CONCLUIDA. Testes de navegador/DOM/CI,
+certificação filológica independente integral e integração por PR/merge
+não foram concluídos, conforme regras/Rauditoria.txt. O contador de
+auditoria concluída não muda. Publicação: somente após commit único
+com expected_sha, force=false e confirmação posterior do HEAD remoto.
+================================================================================
