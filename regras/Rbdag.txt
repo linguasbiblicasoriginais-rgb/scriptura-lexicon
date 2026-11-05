@@ -3585,3 +3585,104 @@ AUDITORIA_CONCLUIDA: NÃO; não incrementar total_auditoria_concluida.
 Publicar somente por commit Git único com expected_sha exato,
 force=false; conferir commit, arquivos, árvore e HEAD remotos.
 ================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διέβην → διεστειλάμην — 05/11/2026
+================================================================================
+Branch de publicação exclusiva: chat-gpt-bdag.
+HEAD remoto de partida: 58bf316552fb2e7ce6f4bef093906ab046b724c4.
+Fonte textual única: A Greek-English Lexicon of the New Testament
+and Other Early Christian Literature - Frederick William Danker,
+Walter Bauer.html, Biblioteca Scriptura Lexicon, versão 1,
+tamanho 30.790.409 bytes.
+O início do lote foi confirmado por leitura direta no HTML após
+δίδωμι: διέβην, s. διαβαίνω; o vigésimo artigo é
+διεστειλάμην, διεστραμμένος, s. διαστέλλω.
+Próximo artigo canônico confirmado para o lote 0089: διέστη.
+Janela do HTML diretamente lida: linhas 27090–27254; os 20 artigos
+formam 20 seções consecutivas. As remissões contam como artigos
+conforme a organização da própria fonte.
+
+Conferências filológicas individuais:
+01. διέβην — remissão literal a διαβαίνω; não criar acepção.
+02. διεγείρω — forma ativa e passiva; despertar literal e agitar
+figurado (mar, desejos); regências, variantes e bibliografia.
+03. διεγρηγορέω — ausência de outros testemunhos conforme BDAG;
+particípio διεγρηγορήσαντες e papiro P 45.
+04. διεῖλον — remissão a διαιρέω.
+05. διελαύνω — leitura duvidosa de GJs 18:3, voz média;
+alternância διηλαύνετο / ἀπηλαύνετο.
+06. διελέγχω — aoristo passivo; sentido de discussão na literatura
+do corpus, distinto do emprego comum de «convencer da culpa».
+07. διελέχθην — remissão a διαλέγομαι.
+08. διέλκω — dividir/dilacerar em conjunção com διασπάω.
+09. διενέγκω — remissão a διαφέρω.
+10. διενθυμέομαι — ponderar acerca da visão em At 10:19.
+11. διεξέρχομαι — paradigma e variante textual de At 28:3.
+12. διέξοδος — saída dos caminhos em Mt 22:9 com hipótese
+topográfica explicitamente provável; nascente em B 11:6;
+papiros judiciais e alusões bibliográficas.
+13. διέπω — administrar governo e poder provincial; subscrição Fm.
+14. διερμηνεία — remissão conceitual e variante de 1Co 12:10.
+15. διερμηνευτής — intérprete/tradutor de discurso extático,
+testemunho bizantino e paralelos.
+16. διερμηνεύω — ① traduzir de uma língua para outra,
+② explicar/interpretar; a primeira acepção também provável
+na linguagem extática do segundo conjunto de ocorrências.
+17. διέρχομαι — paradigma completo e ①ⓐⓑ②③; dentro de
+①ⓑ, as subdistinções α. travessia e β. destino;
+reconstituição Ox 1081 com lacunas e incertezas textuais,
+passagens bíblicas e patrísticas, usos espaciais, mentais e
+atravessamento de obstáculos.
+18. διερωτάω — indagação e construção com οἰκίαν.
+19. διεσπάρην — remissão a διασπείρω.
+20. διεστειλάμην, διεστραμμένος — conservar ambas as formas
+como grafadas no cabeçalho do HTML e sua remissão a διαστέλλω;
+não corrigir a fonte por conjectura.
+
+Primeira verificação mecânica do HTML contra os 20 artigos
+traduzidos: 105 segmentos candidatos de expressão grega e
+251 números ou marcadores numéricos distintos por artigo.
+Foram sinalizados e corrigidos: «P 45» em lugar da forma
+tipográfica não idêntica; gravis em περὶ τοῦ ὁράματος;
+a referência 1Cl 61:1f; dois finais de referência
+Mt 15:17f e Mc 7:19ff; expressão contígua
+διελήλυθα, διεληλυθώς; remoção de marcador ①
+extrínseco à subdivisão semântica de διερμηνεύω;
+remoção de comentário metatextual estranho ao verbete
+remissivo final. Todas as classes ①ⓐⓑ②③ de διέρχομαι
+constam da entrada traduzida.
+Uma tentativa posterior de nova leitura para recoloção
+automática mecânica integral do corpus-fonte foi bloqueada
+por erro interno da ferramenta Biblioteca. Não declarar que
+uma segunda colação integral foi concluída.
+
+Objetos de tradução preparados, não incluídos na árvore:
+c6f16ad8458e55538eb984e2d872703515252f25 — 01–10;
+339592bd22d8436f89f985f86b8d44e957fae6b9 — 11–16;
+b01581e51bf109f7dff2730b2b6b8c297fdf0c4e — 17–20.
+Módulo candidato único: lexicons/bdag-part-0088.js,
+blob 0ec4b774421b5b1849c902c6216cc1fe7f56d793.
+Manifesto candidato: lexicon-modules.json,
+blob 208f2295f2f5c32f40f45b7466361b9a9cf7bfee.
+20 search-row e 20 entry-card; 20 IDs distintos e relação
+data-target/id 1:1, tags HTML balanceadas, sem links/JS
+não autorizados; manifesto 2.114 → 2.115 entradas,
+inserção única após bdag-part-0087.js, antes de leh.js.
+Regressão de TODOS os 87 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 300 = 1.964 linhas e 1.964
+cartões, pareamento 1:1 em cada arquivo e nenhuma colisão
+dos novos 20 IDs com os IDs históricos.
+Progresso projetado após confirmação do HEAD:
+1.964 → 1.984 verbetes / 8.287; 87 → 88 módulos;
+restarão 6.303 verbetes.
+
+AUDITORIA_CONCLUIDA: NÃO. A revalidação funcional DOM/CI,
+a certificação filológica independente integral por verbete
+e a integração PR/merge de regras/Rauditoria.txt não
+foram executadas. Não incrementar total_auditoria_concluida.
+A rotina BDAG deve fazer publicação somente por um commit
+Git atômico na própria branch, com expected_sha exato,
+force=false, e confirmar a árvore e HEAD remoto após escrita.
+================================================================================
