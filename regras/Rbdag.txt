@@ -3266,3 +3266,60 @@ Se houver divergência de contagens, investigar pelo corpus carregado e reportar
 a divergência em vez de inflar o numerador.
 A alteração é apenas documental e integra o mesmo commit do lote a que se aplica.
 ================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διαμερισμός → διαπορεύομαι — 05/11/2026
+================================================================================
+Branch proprietária exclusiva: chat-gpt-bdag. HEAD de partida:
+2f395eb7c04622df11c646ed5fc8afb401273c78.
+Fonte exclusiva: HTML canônico "A Greek-English Lexicon of the New Testament
+and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html",
+Biblioteca Scriptura Lexicon, versão 1, 30.790.409 bytes. Inspeção textual direta
+do intervalo contíguo da fonte: primeiro cabeçalho διαμερισμός, οῦ, ὁ
+(linha 26475) e último διαπορεύομαι (linha 26591); seguinte διαπορέω.
+
+Incorporação de 20 verbetes consecutivos: διαμερισμός, διανέμω, διανεύω,
+διανοέομαι, διανόημα, διάνοια, διανοίγω, διανυκτέρευσις,
+διανυκτερεύω, διανύω, διαπαντός, διαπαρατριβή, διαπειράζω,
+διαπειράω, διαπέμπω, διαπεράω, διαπλανάω, διαπλέω,
+διαπονέομαι, διαπορεύομαι. Preservadas 5 divisões de διάνοια,
+①ⓐⓑ② de διανοίγω, ①② de διανύω e διαπορεύομαι,
+remissões autônomas e hipóteses semânticas.
+
+Blob preliminar recebido: c630b8d7661985b332deb785295d02ff2dbe2d9c.
+A colação identificou e corrigiu 2 divergências de reprodução de
+expressões gregas: τινί → τινὶ (διανεύω) e
+"ζωή, πίστις e ἐγκράτεια" → "ζωή, πίστις, ἐγκράτεια" (διάνοια).
+Retiradas 4 observações metatextuais do redator que não constavam da
+fonte, sem eliminar conteúdo original (διανοέομαι, διανυκτέρευσις,
+διαπειράζω e διαπλανάω).
+Módulo corrigido: objeto Git e5d66b9b4a1c2eda88df668fbaf0193f44b87eee.
+Manifesto preparado original: objeto Git 78192d6366b77553b1a7c023a21d58cd73fd2f0a,
+reutilizado sem alteração. Difere do manifesto no HEAD apenas pela inserção
+de lexicons/bdag-part-0084.js após bdag-part-0083.js e antes de leh.js.
+
+Controles de colação: vinte cabeçalhos autônomos confirmados na fonte,
+revisão individual de textos originais e traduções, zero perdas detectadas
+na comparação de sequências numéricas/referências, preservação das
+subdivisões numeradas; no primeiro controle, apenas duas expressões
+gregas divergiram, ambas corrigidas. Verificação estrutural final do
+módulo corrigido: 20 search-row, 20 entry-card, 20 IDs distintos,
+relacionamento data-target/id 1:1, nenhum conflito com IDs do módulo
+anterior 0083, fechamento equilibrado de tags HTML, 33 pares strong,
+51 pares i, nenhum link externo. Manifesto anterior: 2.110 entradas;
+manifesto resultante: 2.111, inserção única, nenhuma exclusão.
+Contagem estrutural do BDAG: 1.884 → 1.904 registros / 8.287
+(meta fixada pelo mantenedor). Próximo lema: διαπορέω.
+
+Limites expressos de certificação: não foram concluídos teste funcional
+com navegador, integração CI/DOM, auditoria filológica independente
+segundo regras/Rauditoria.txt, nem PR/merge (reservados ao fluxo
+de integração). A recontagem exaustiva de todos os 83 arquivos
+históricos não foi obtida nesta execução por limite do conector; foi
+verificada a contagem do commit HEAD anterior e a estrutura dos 20
+novos verbetes. A leitura da Biblioteca apresentou intermitência
+após a colação inicial, sem retirar as leituras já consultadas.
+Não incrementar total_auditoria_concluida. Publicação a confirmar
+somente por commit atômico e revalidação do HEAD remoto.
+================================================================================
