@@ -3391,3 +3391,87 @@ não foram concluídos, conforme regras/Rauditoria.txt. O contador de
 auditoria concluída não muda. Publicação: somente após commit único
 com expected_sha, force=false e confirmação posterior do HEAD remoto.
 ================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διάταγμα → διαφθορά — 05/11/2026
+================================================================================
+Branch proprietária exclusiva: chat-gpt-bdag.
+HEAD pai remoto conferido: 5b3b68d036530643e12105733c29c9a4ba189ad9.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon, versão 1,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html" (30.790.409 bytes).
+Janela de consulta direta: linhas 26708–26957 (engloba os vinte verbetes,
+seus vizinhos e testemunhos); 20 cabeçalhos consecutivos de
+διάταγμα, ατος, τό a διαφθορά. Próximo verbete: διαφορά, ᾶς, ἡ.
+
+Inventário de colação filológica textual:
+01. διάταγμα — edito oficial, ordem real, testemunhos documentais,
+    autenticidade de inscrição imperial como questão discutida.
+02. διάταξις — disposição formal e emprego administrativo; ato divino.
+03. διαταράσσω — forma passiva e perturbação de Lc 1:29.
+04. διατάσσω — paradigmas de três vozes e sentidos ① organização,
+    ② ordem/instrução; sintaxe, comandos militares e citação de Gl 3:19.
+05. διατελέω — completar (uso transitivo) versus continuar (intransitivo).
+06. διατηρέω — ① guardar na mente, ② abster-se; formas e regências.
+07. διατί — remissão autônoma a διά B2b, sem acepção fabricada.
+08. διατίθημι — três acepções ① decretar, ② conferir/dispor,
+    ③ dispor por testamento; linguagem da aliança e testamentária.
+09. διατρίβω — permanecer, expressão da duração e lugares, variantes.
+10. διατροφή — sustento e plural «meios de subsistência».
+11. διαυγάζω — ① brilhar através, ② raiar/amanhecer.
+12. διαυγής — transparência e referência a Ap 21:21.
+13. διαφαίνω — transmissão de luz; variante de tradução indicada na fonte.
+14. διαφανής — transparência, variante textual e possível leitura erasmiana.
+15. διάφαυμα — «romper do dia», cronologia dos testemunhos.
+16. διαφέρω — quatro divisões ① transportar, ② levar à deriva,
+    ③ diferir, ④ ser superior; variante πολλῷ versus πολλῶν.
+17. διαφεύγω — paradigmas e sentido de escapar.
+18. διαφημίζω — espalhar uma notícia, voz ativa/passiva e regência.
+19. διαφθείρω — ① deterioração/destruição física, ② corrupção moral,
+    incluindo jogo de palavras de Ap 11:18.
+20. διαφθορά — decomposição, corpo e mundo dos mortos como hipótese.
+
+Primeira colação mecânica da fonte HTML versus traduções:
+183 unidades candidatas de expressões gregas e 481 unidades numéricas
+distintas por artigo, com conferência das marcas ①②③④. Identificadas
+expressões omitidas ou segmentadas (ὁ νόμος; ἰδεῖν δ. [εἶδον]),
+dois marcadores de referência (9:16f, 13:35ff) e marcas de subacepção
+repetidas em remissões; corrigidos. Um agrupamento do parser ('δ. νόμους)')
+incluía o parêntese de fecho no token, sem perda das palavras gregas.
+Revisão semântica adicional: «issue a decree» traduzido como
+«promulgar um decreto» (não «estabelecer uma aliança»);
+'loanword in rabbinic' mantido sem inferência indevida de idioma;
+'keep oneself from doing' normalizado para «guardar-se de fazer».
+A fonte da Biblioteca apresentou falhas técnicas em tentativas
+subsequentes de releitura: por isso, não declarar concluída uma
+segunda certificação mecânica integral da correspondência.
+A colação original dos 20 artigos e correções localizadas estão
+documentadas, sem elevação a AUDITORIA_CONCLUIDA.
+
+Objetos auxiliares de tradução (fora da árvore):
+bcea88c86293782f37bd161f214adb54aea2c54b (verbetes 1–10),
+dfa6570689f48cbe650e7a96b83866b5e628c3c2 (verbetes 11–20).
+Módulo final preparado: lexicons/bdag-part-0086.js,
+blob 923601e36958c132723f8fabe35a1d84f6ede09e.
+Manifesto preparado: lexicon-modules.json,
+blob e286f817fb9fb732a431ae186b701c4c070baf19.
+Manifesto: 2.112 → 2.113 caminhos, apenas a nova entrada após
+bdag-part-0085.js, antes de lexicons/leh.js, sem remoções.
+Módulo 0086: 20 search-row, 20 entry-card, correspondência
+data-target/id 1:1, IDs exclusivos e sem links externos,
+estrutura de tags HTML validada.
+Regressão do HEAD anterior: 85 arquivos BDAG consultados;
+270 + 397 + 594 + 323 + 340 = 1.924 linhas/cartões, paridade 1:1,
+sem colisões dos IDs novos com os históricos.
+Checkpoint projetado após confirmação de publicação:
+1.924 → 1.944 registros BDAG / 8.287; 85 → 86 módulos.
+Próximo lema: διαφορά, ᾶς, ἡ.
+
+AUDITORIA_CONCLUIDA: NÃO. Não foram comprovadas auditoria
+filológica independente integral segundo regras/Rauditoria.txt,
+regressão de DOM em navegador / CI nem integração PR/merge.
+Não incrementar contador de auditoria certificada.
+Publicação somente por commit atômico na branch autorizada, com
+expected_sha e force=false; revalidar HEAD, árvore e objetos remotos.
+================================================================================
