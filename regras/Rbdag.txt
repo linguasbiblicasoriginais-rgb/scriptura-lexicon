@@ -3475,3 +3475,113 @@ Não incrementar contador de auditoria certificada.
 Publicação somente por commit atômico na branch autorizada, com
 expected_sha e force=false; revalidar HEAD, árvore e objetos remotos.
 ================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διαφορά → δίδωμι — 05/11/2026
+================================================================================
+Branch autorizada exclusivamente: chat-gpt-bdag.
+HEAD remoto inicial: 3929ed0cf536753c8f43dae3dffcb34942b4d281.
+Fonte lexical exclusiva: HTML canônico
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", Biblioteca,
+versão 1, 30.790.409 bytes.
+Trechos do texto canônico consultados diretamente: a partir de
+26760–27009 e 26970–27089 (janelas parcialmente sobrepostas).
+Os 20 cabeçalhos confirmados, em sequência, são:
+01 διαφορά, ᾶς, ἡ
+02 διάφορος, ον
+03 διαφυλάσσω
+04 διαχειρίζω
+05 διαχλευάζω
+06 διαχωριζω [grafia sem acento preservada como no cabeçalho HTML]
+07 διγαμία, ας, ἡ
+08 δίγαμος, ον
+09 διγλωσσία, ας, ἡ
+10 δίγλωσσος, ον
+11 διγνώμων, ον
+12 διδακτικός, ή, ὀν
+13 διδακτός, ή, όν
+14 διδασκαλία, ας, ἡ
+15 διδάσκαλος, ου, ὁ
+16 διδάσκω
+17 διδαχή, ῆς, ἡ
+18 δίδραχμον
+19 Δίδυμος, ου, ὁ
+20 δίδωμι
+
+Escopo individual de colação editorial com a fonte:
+01 διαφορά: diferença de valor, inscrições e restaurações textuais
+Ox 1081, preservados colchetes, alternativas e leituras inseguras.
+02 διάφορος: ① diferença/dessemelhança, ② excelência/superioridade.
+03 διαφυλάσσω: formas verbais, proteção divina e angelical.
+04 διαχειρίζω: valor médio, violência e consequência homicida.
+05 διαχλευάζω: emprego absoluto e paralelos helenísticos.
+06 διαχωριζω: voz ativa versus média/passiva e regência ἀπό.
+07 διγαμία: segundo casamento, exclusivamente variante de Tt 1:9.
+08 δίγαμος: ① simultaneidade, ② novo casamento, contextos jurídicos.
+09 διγλωσσία: duplicidade/insinceridade, não mera bilingualidade.
+10 δίγλωσσος: origem no valor «bilíngue», emprego ético «enganoso».
+11 διγνώμων: inconstância e duplicidade de intenção.
+12 διδακτικός: habilidade de ensinar, duas citações paulinas.
+13 διδακτός: ① pessoa ensinada, ② conteúdo transmitido por ensino.
+14 διδασκαλία: ① ato de ensinar, ② conteúdo doutrinário,
+inclusive expressões gregas e nota sobre possível paralelo rabínico.
+15 διδάσκαλος: mestre, título de Jesus e equivalentes semíticos,
+figura do mestre nas assembleias e testemunhos bibliográficos.
+16 διδάσκω: ① instruir, ② ensinar; preservadas subdivisões
+ⓐⓑⓒⓓⓔⓕ relativas a regência e construções sintáticas.
+17 διδαχή: ① ato, ② conteúdo, ③ ambiguidades entre os dois
+sentidos; restaurações textuais do evangelho Ox 1224 preservadas.
+18 δίδραχμον: genitivo e gênero, moeda antiga, imposto do templo,
+valor histórico aproximado, testemunhos e bibliografia.
+19 Δίδυμος: nome de Tomé, etimologia grega e hebraica e ocorrências.
+20 δίδωμι: formas verbais, vozes, modos, variantes e TODAS as
+17 acepções principais ①–⑰, com subdivisões de ⑤, ⑥, ⑰,
+expressões gregas, construções e testemunhos.
+
+Objetos auxiliares de tradução (não inseridos no manifesto):
+85961b40c7b7e2d64cf5ae2a8d0a5f06cfe4349e — verbetes 01–10;
+e1b4db0214ebf98bedded8cae87b7d5468722568 — 11–19;
+60222e6b93dd7d1d059a73fa02f4fe2d73305d3b —
+dbe6381f9439e6758b6fabe0a67d0c6684d38ff2 —
+ea719d8ad5c410171d4588b8a5d85a8db6b3e91e —
+três seções contíguas da tradução integral de δίδωμι.
+Módulo candidato final:
+lexicons/bdag-part-0087.js,
+blob fd809820db1501b1d91ac636e8657837c3f980dd.
+Manifesto candidato lexicon-modules.json:
+blob 34d161fa17a839cb702636c015d857af30e17ea6.
+
+Verificações estáticas de incorporação:
+20 search-row e 20 entry-card; IDs distintos e relação
+data-target/id integral 1:1; tags HTML estruturalmente equilibradas;
+nenhum link externo ou atributo de execução; cabeçalhos em ordem;
+17/17 acepções principais de δίδωμι preservadas; as seis
+subdivisões ⓐ–ⓕ de διδάσκω preservadas; expressões semíticas e
+gregas de referência examinadas no objeto final.
+Manifesto: 2.113 → 2.114 caminhos, inclusão única de 0087 logo
+após 0086 e antes do módulo LEH, nenhuma remoção.
+Regressão completa dos 86 arquivos anteriores: 287 + 447 +
+587 + 343 + 280 = 1.944 pares de busca/cartão recuperados.
+Todos com correspondência de ID 1:1 em cada arquivo e sem colisões
+entre os novos IDs e os registros existentes.
+Progresso estrutural projetado: 1.944 → 1.964 / 8.287,
+86 → 87 arquivos BDAG.
+Último lema: δίδωμι. Próximo cabeçalho após δίδωμι ainda
+não confirmado por leitura direta; não adivinhar, retomar
+na fonte canônica no próximo lote.
+
+Limites de certificação: a colação editorial inicial foi feita
+com o HTML canônico consultado e os artigos traduzidos integralmente.
+Tentativas posteriores de leitura mecânica adicional da Biblioteca
+retornaram falha técnica interna, de modo que uma segunda colação
+automatizada exaustiva dos caracteres gregos e de todas as
+referências não foi concluída. Não afirmar comprovação que não
+ocorreu. Teste funcional DOM/navegador/CI e auditoria filológica
+independente integral, bem como PR/merge autorizado pela rotina
+de integração, também não foram realizados.
+AUDITORIA_CONCLUIDA: NÃO; não incrementar total_auditoria_concluida.
+Publicar somente por commit Git único com expected_sha exato,
+force=false; conferir commit, arquivos, árvore e HEAD remotos.
+================================================================================
