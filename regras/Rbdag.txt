@@ -3686,3 +3686,110 @@ A rotina BDAG deve fazer publicação somente por um commit
 Git atômico na própria branch, com expected_sha exato,
 force=false, e confirmar a árvore e HEAD remoto após escrita.
 ================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διέστη → δικαιοκρισία — 05/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial validado: 52007414491fdef30a70e1994183ffeef3c44bac.
+Fonte única permitida: HTML canônico
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+Biblioteca Scriptura Lexicon, versão 1, 30.790.409 bytes.
+Janela canônica consultada diretamente: linhas 27152–27371.
+Foram extraídos e colacionados 20 artigos lexicais consecutivos
+imediatamente após o último do lote 0088. As entradas de mera remissão
+contam como verbetes e não receberam acepções inventadas.
+
+Lista dos 20 verbetes com distinções de fonte e tradução:
+01. διέστη — remissão a διί̈στημι.
+02. διέστραμμαι, διεστραμμένος — remissão a διαστρέφω.
+03. διεταράχθην — remissão a διαταράσσω.
+04. διετής, ές — idade de dois anos; masculino em Mt 2:16,
+    evidências externas e variante διετία em GJs 7:1.
+05. διετία — ① dois anos transcorridos; ② prazo bienal legal
+    proposto como interpretação jurídica, explicitamente hipótese,
+    sem apresentá-lo como fato comprovado para o processo de Paulo.
+06. διευθύνω — governo e condução da vida; três lugares de 1Cl.
+07. διεφθάρην, διέφθαρμαι — remissão a διαφθείρω.
+08. διήγειρα — remissão a διεγείρω.
+09. διηγέομαι — contar detalhadamente; formas verbais, regências,
+    narrativas e declarações indiretas em contexto bíblico e patrístico.
+10. διήγημα, τό — narrativa/relato, substituição por θεώρημα.
+11. διήγησις, εως, ἡ — relato ordenado, Lc 1:1, narrativas de Pápias,
+    distinção antiga entre διήγησις e διήγημα e bibliografia.
+12. διηνεκής, ές — continuidade e ausência de interrupção,
+    exemplos sacerdotais de Hb 7:3 e da oferta em Hb 10:12, 14;
+    uso adverbial e documentação histórica.
+13. διηνεκῶς — advérbio, com antecedentes e documentação externa.
+14. διθάλασσος — água de ambos os lados; τόπος δ. em At 27:41;
+    interpretações topográficas alternativas preservadas, sem
+    transformá-las em identificação geográfica certa.
+15. διϊκνέομαι — atravessar/penetrar, uso intransitivo em Hb 4:12.
+16. διί̈στημι — paradigmas; ① afastar-se, ② avançar,
+    ③ passar o tempo, com aspectos de transitividade diferenciados.
+17. διϊστορέω — examinar cuidadosamente, At 17:23 códice D,
+    primeira mão, variante de ἀναθεωρῶν.
+18. διϊσχυρίζομαι — insistir firmemente, construção com infinitivo.
+19. δικάζω — julgar/condenar, paradigmas, sentidos em voz média
+    extra-bíblica, oposição a δίκην τίνειν e variante de Lc 6:37.
+20. δικαιοκρισία, ας, ἡ — sentença justa, Rm 2:5,
+    critério conforme as ações, 2Ts 1:5 variante textual.
+
+Correções executadas durante duas passagens de colação:
+- διετία: ② de remissão metatextual substituído pela indicação
+  verbal "segunda acepção", preservada a contagem ①② do original.
+- διηνεκῶς: forma bibliográfica normalizada para "Mayser 13"
+  conforme conteúdo textual consultado da fonte canônica.
+- δικάζω: referência corrigida para o prefixo grego κατα-.
+- διεφθάρην, διέφθαρμαι: transliteração do segundo membro
+  diéphtharmai, sem alteração da grafia grega original.
+- διθάλασσος: "ον" reconhecido como forma neutra do adjetivo,
+  não "genitivo".
+- διηνεκής: referências do contexto de Hebreus 10 explicitadas
+  em Hb 10:12, 14, separadas de Hb 7:3.
+- O original mantém variantes, reconstruções, testemunhos e
+  conjecturas diferenciados.
+
+Resultado da segunda colação automatizada de correspondência:
+77 sequências candidatas de grego destacadas pela marcação HTML,
+266 marcadores numéricos distintos por artigo e comparação das
+marcas de subacepção entre origem e tradução; 20/20 cabeçalhos
+alinhados; ZERO divergências residuais nesses critérios de
+correspondência textual. Esse controle mecânico de tokens, embora
+integral para os critérios enumerados, NÃO é prova de equivalência
+semântica perfeita de cada segmento nem auditoria certificada.
+
+Objetos auxiliares de tradução preparados fora da árvore:
+1686d1b8f97a2e06db43caf83d202b7d356aa206 (01–10);
+c5f487745d89ccb536b91be2fa7830fea5e9ce8b (11–20).
+Módulo candidato final: lexicons/bdag-part-0089.js
+blob aea9b229ef2894ace7fb7c81dab6c4398a3f8bc0.
+Manifesto candidato: lexicon-modules.json
+blob 6f8ea8d7ad897df356c25ce677b7aceb41d6fafd.
+
+Verificações do módulo: 20 search-row e 20 entry-card;
+IDs distintos com 20 relações data-target/id 1:1;
+HTML com tags equilibradas, JSON round-trip bem-sucedido,
+nenhuma URL externa, handler ou link não autorizado.
+Manifesto: 2.115 → 2.116 caminhos; uma única entrada nova
+imediatamente após bdag-part-0088.js e antes de leh.js;
+nenhuma remoção.
+Regressão remota: os 88 arquivos BDAG anteriores foram
+consultados; 287 + 447 + 587 + 343 + 320 = 1.984
+pares busca/cartão, correspondência 1:1 em cada módulo,
+sem colisão entre os 20 novos IDs e os históricos.
+Progresso após confirmação da publicação:
+1.984 → 2.004 / 8.287 (restarão 6.283);
+88 → 89 módulos BDAG.
+Próximo verbete canônico já visto no HTML: δικαιοπραγία, ας, ἡ.
+
+AUDITORIA_CONCLUIDA: NÃO. Ausentes comprovação de auditoria
+filológica independente integral por verbete, testes funcionais
+DOM/navegador/CI e PR/merge de integração com evidência.
+Não alterar total_auditoria_concluida. Publicação autorizada
+somente por commit atômico em chat-gpt-bdag, com
+expected_sha literal e force=false, seguidos de verificação
+do novo HEAD, da árvore e dos objetos remotos.
+================================================================================
