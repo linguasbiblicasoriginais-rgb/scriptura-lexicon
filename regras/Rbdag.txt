@@ -3871,3 +3871,69 @@ AUDITORIA_CONCLUIDA: NÃO; não incrementar contador de auditados.
 Publicar somente em commit atômico, com expected_sha literal,
 force=false, e revalidar HEAD, árvore e blobs no remoto.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO διόρθωμα → δίστομος — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. Base remota consultada:
+8955f44e58c5471edde88a58a44a730331f885c0.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+janela consultada desde a linha 27498.
+Exatamente 20 cabeçalhos autônomos confirmados na ordem original:
+01 διόρθωμα, ατος, τό
+02 διόρθωσις, εως, ἡ
+03 διορίζω
+04 διορύσσω
+05 Διός
+06 Διόσκουροι, ων, οἱ
+07 διότι
+08 Διοτρέφης, ους, ὁ
+09 Διόφαντος, ου, ὁ
+10 διπλοκαρδία, ας, ἡ
+11 διπλοῦς, ῆ, οῦν
+12 διπλόω
+13 Δίρκη, ης, ἡ
+14 δίς
+15 δισμυριάς, άδος, ἡ
+16 δισσός, ή, όν
+17 δισσῶς
+18 δισταγμός, οῦ, ὁ
+19 διστάζω
+20 δίστομος, ον
+Próxima entrada (fora do lote): δισχίλιοι, αι, α.
+
+Traduções de todos os artigos preparadas a partir do HTML, incluindo
+referências, variantes, comentários e subdivisões explícitas.
+Os itens διότι (①–④) e διστάζω (①–②) preservam distinções e hipóteses.
+Remissões (Διός), formas de flexão e homógrafos não foram fundidos.
+Colação mecânica dos destaques gregos na fonte com tradução revelou
+três discrepâncias, corrigidas antes da geração final: Τιμάιους,
+Δαναί̈δες e remissões gregas em δίς. O texto da fonte não foi emendado.
+
+Módulo candidato: lexicons/bdag-part-0091.js
+Git blob 9f08b9c27895d8ea62002c880a51609c3c5b2e29.
+Manifesto candidato: lexicon-modules.json
+Git blob caa3824a214aa2321c6eb0dc1083f345e38fda15.
+
+Validação estática do novo módulo: 20 search-row; 20 entry-card;
+20 IDs únicos e relações data-target/id 1:1, com HTML de tags
+estruturais equilibradas e formato de módulo válido.
+Colisão de transliterações normalizadas δισσός e δισσῶς
+prevenida por sufixos distintos -adj e -adv nos IDs.
+Manifesto: 2.117 -> 2.118 caminhos, inclusão única após 0090
+e antes de leh.js, sem remover entradas anteriores.
+Regressão estática dos 90 módulos BDAG anteriores:
+287 + 447 + 587 + 343 + 360 = 2.024 pares de busca/cartão;
+paridade 1:1 dentro de cada módulo, sem erros encontrados.
+Previsão após publicação confirmada: 2.044/8.287,
+91 módulos contando lexicons/bdag.js; 6.243 restantes.
+
+LIMITES: não foram realizados execução CI, teste DOM/navegador,
+verificação independente exaustiva por verbete nem integração PR/merge
+(reservada ao integrador). Nenhum desses controles foi tratado como
+concluído. AUDITORIA_CONCLUIDA: NÃO. Não aumentar contador de auditados.
+A publicação exige commit único, expected_sha da base real,
+force=false e revalidação remota posterior.
+================================================================================
