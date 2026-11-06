@@ -3793,3 +3793,81 @@ somente por commit atômico em chat-gpt-bdag, com
 expected_sha literal e force=false, seguidos de verificação
 do novo HEAD, da árvore e dos objetos remotos.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δικαιοπραγία → διορθόω — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD inicial remoto confirmado: 9adadf3f3eab98603033a434bef7c0e795188264.
+Fonte canônica exclusiva: HTML da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, 30.790.409 bytes. Não se utilizou o PDF como substituto.
+Janela textual original lida: linhas 27301–27499; 20 artigos consecutivos:
+01 δικαιοπραγία, ας, ἡ
+02 δίκαιος, αία, ον
+03 δικαιοσύνη, ης, ἡ
+04 δικαιόω
+05 δικαίωμα, ατος, τό
+06 δικαίως
+07 δικαίωσις, εως, ἡ
+08 δικαστής, οῦ, ὁ
+09 δίκη, ης, ἡ
+10 δίκτυον, ου, τό
+11 δίλογος, ον
+12 διό
+13 Διόγνητος, ου, ὁ
+14 διοδεύω
+15 διοίκησις, εως, ἡ
+16 Διονύσιος, ου, ὁ
+17 διόπερ
+18 διοπετής, ές
+19 διόπτρα, ας, ἡ
+20 διορθόω
+Próximo cabeçalho no HTML: διόρθωμα, ατος, τό.
+
+Traduções editoriais preparadas com os testemunhos, formas e remissões
+presentes nos artigos, inclusive os grandes artigos δίκαιος,
+δικαιοσύνη e δικαιόω. Preservadas subdivisões explícitas:
+δίκαιος ①ⓐα/β ⓑα/β, ②; δικαιοσύνη ①ⓐⓑ, ②, ③ⓐⓑⓒ;
+δικαιόω ①, ②ⓐⓑα/β, ③, ④; δικαίωμα ①②③;
+δικαίως ①ⓐⓑ, ②; δίκη ①②; διοδεύω ①②.
+Correção fundamentada durante o cotejo: em δικαιοσύνη, a fonte
+repete o segmento δικαιοσύναι com referências em duas passagens
+contíguas; a primeira tradução o condensava numa ocorrência;
+a redação final recupera ambas as ocorrências e seus testemunhos.
+O original não foi emendado; interpretações controversas, variantes
+e probabilidades são identificadas como tais na tradução.
+
+Objetos auxiliares de tradução fora da árvore:
+- 01, 05–20: 4c9adeef9e14c1c8d93a160c0e05f95c656099c0;
+- 02 δίκαιος: d6ebb4950d35d21865844e62c9b29a7599a0fcb7;
+- 03 δικαιοσύνη, revisado: 28521b5970f82c00a90a4a7f3f6b6dcae18f8052;
+- 04 δικαιόω: 8cfee470c22b59320801ded61fbe3c5f77b1809e.
+Módulo preparado: lexicons/bdag-part-0090.js,
+blob bb5cebd6cb43ddfd26e72554163b95d8263824e4.
+Manifesto preparado: lexicon-modules.json,
+blob 17a04476a52ddeba474587379f8703125357a262.
+
+Validação estática da nova árvore: 20 search-row, 20 entry-card,
+20 relações data-target/id 1:1, 20 IDs inéditos, 20 cabeçalhos,
+atributos obrigatórios presentes; tags HTML sem desequilíbrios;
+nenhuma URL externa, script ou handler no novo módulo.
+Manifesto 2.116 → 2.117 caminhos: inclusão única de 0090
+imediatamente após 0089, antes de leh.js; nenhuma remoção.
+Regressão estática de TODOS os 89 módulos BDAG anteriores:
+2.004 search-row e 2.004 entry-card, 2.004 IDs globais únicos,
+paridade 1:1 em cada arquivo, sem colisão dos 20 IDs novos.
+Progresso estrutural após commit confirmado: 2.004 → 2.024 / 8.287,
+89 → 90 módulos; restarão 6.263 verbetes.
+
+LIMITES COMPROVADOS: Releitura mecânica suplementar integral
+do HTML para comparação token a token do grego e de todas as
+referências bloqueada por erro interno intermitente da Biblioteca;
+a conferência editorial inicial e os controles estruturais não
+substituem essa certificação. Não realizados teste funcional real
+DOM/navegador, execução CI, auditoria independente exaustiva por
+verbete nem integração PR/merge (reservada ao integrador).
+AUDITORIA_CONCLUIDA: NÃO; não incrementar contador de auditados.
+Publicar somente em commit atômico, com expected_sha literal,
+force=false, e revalidar HEAD, árvore e blobs no remoto.
+================================================================================
