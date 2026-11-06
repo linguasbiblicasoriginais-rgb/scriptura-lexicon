@@ -4213,3 +4213,74 @@ Não incrementar total de verbetes auditados.
 Publicar apenas um commit com expected_sha remoto exato e
 force=false, revalidando HEAD, árvore e blobs no repositório.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δυσκόλως → δωρεά — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: ac88bda9b2598f9132d703f7ad1b9eacfcd98cf5.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela da fonte: linhas 28308–28396 (com a continuação de δωδεκάφυλος
+em blocos internos); próximo cabeçalho canônico: δωρεάν.
+
+20 cabeçalhos consecutivos:
+01 δυσκόλως
+02 δυσμαθής, ές
+03 δυσμή, ῆς, ἡ
+04 δυσνόητος, ον
+05 δυσφημέω
+06 δυσφημία, ας, ἡ
+07 δύσχρηστος, ον
+08 δυσωδία, ας, ἡ
+09 δύω
+10 δῷ, δώσῃ, etc.
+11 δώδεκα
+12 δωδεκαετής, ες
+13 δωδεκακώδων, ωνος, ὁ
+14 δωδεκάσκηπτρον, ου, τό
+15 δωδέκατος, η, ον
+16 δωδεκάφυλος, ον
+17 δῴη, δώῃ
+18 δῶμα, ατος, τό
+19 δωμάτιον, ου, τό
+20 δωρεά, ᾶς, ἡ
+
+20 traduções editoriais com texto grego, referências, variantes e
+remissões preservados; δωδεκάφυλος tem dois usos (adjetivo e
+substantivo coletivo); δώδεκα conserva a variante ἕνδεκα e as
+interpretações bibliográficas divergentes. Os artigos remissivos
+foram computados separadamente. Não foi usada fonte substituta.
+
+Módulo novo: lexicons/bdag-part-0096.js.
+Blob candidato: 3ff7a35f11cb7e4bdf50bd8adc6e46768f7d568a.
+Manifesto candidato: lexicon-modules.json.
+Blob candidato: 199aad91b82307c30f91334253bb29117d8e55fe.
+Validação pré-publicação: 20 search-row, 20 entry-card, 20 IDs
+distintos, data-target/id 1:1, HTML estruturalmente equilibrado,
+20 registros BDAG, sem URLs de domínio proibido.
+Colisões prévias de slug corrigidas antes de publicação:
+δύω recebe entry-dyo-verb-bdag, distinto de δύο;
+δῶμα recebe entry-doma-roof-bdag, distinto de entrada anterior.
+Manifesto: 2122 -> 2123 caminhos; inclusão única de 0096 após 0095
+e antes de leh.js, sem remoções.
+
+Regressão estática dos 95 arquivos BDAG anteriores:
+19 + 86 + 347 + 566 + 466 + 360 + 280 = 2124 pares 1:1
+(separação: arquivo bdag.js, partes 0002–0009, 0010–0027,
+0028–0045, 0046–0063, 0064–0081, 0082–0095).
+Nenhum módulo anterior alterado; nenhum outro léxico alterado.
+Progresso previsto após commit remoto confirmado:
+2124 -> 2144 / 8287 (25,87%); 96 arquivos BDAG, 6143 restantes;
+próximo lema: δωρεάν.
+
+PENDÊNCIAS: segunda colação mecânica exaustiva independente do HTML
+(tentativas suplementares de leitura falharam); testes reais DOM/
+navegador e CI, auditoria filológica integral independente por
+verbetes, fichas individuais e integração PR/merge.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Publicação somente em commit único sobre HEAD remoto com
+expected_sha exato e force=false; exigir revalidação de HEAD,
+árvore, blobs remotos e ausência de alterações alheias.
+================================================================================
