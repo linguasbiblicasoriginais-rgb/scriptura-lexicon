@@ -4284,3 +4284,78 @@ Publicação somente em commit único sobre HEAD remoto com
 expected_sha exato e force=false; exigir revalidação de HEAD,
 árvore, blobs remotos e ausência de alterações alheias.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δωρεάν → Ἑβραϊκός — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 85652836f2495db5c70bff20619beb8971c26057.
+Árvore inicial: 1c13e22be3f81f2cf85c8728d0f58fe30cf9ae44.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela consultada: linhas 28397–28598, incluindo as subdivisões internas
+das entradas ἐάν e ἑαυτοῦ. Próximo cabeçalho independente: Ἑβραῖος.
+
+20 cabeçalhos consecutivos:
+01 δωρεάν
+02 δωρέομαι
+03 δώρημα, ατος, τό
+04 δῶρον, ου, τό
+05 δωροφορία, ας, ἡ
+06 ε´
+07 ἔα
+08 ἐάν
+09 ἐάνπερ
+10 ἐαρινός, ή, όν
+11 ἑαυτοῦ, ῆς, οῦ, pl. ἑαυτῶν
+12 ἐάω
+13 ἑβδομάς, άδος, ἡ
+14 ἑβδομήκοντα
+15 ἑβδομηκοντάκις
+16 ἕβδομος, η, ον
+17 ἐβεβλήκει, ἐβέβλητο
+18 Ἔβερ, ὁ
+19 ἐβλήθην
+20 Ἑβραϊκός, ή, όν
+
+20 traduções editoriais portuguesas preparadas a partir do conteúdo
+original, com referências, morfologia, citações gregas, variantes
+e remissões. Mantidas as três acepções de δωρεάν, a distinção entre
+δωρεά e δῶρον no artigo δῶρον, todas as divisões gramaticais do artigo
+ἐάν e os três usos de ἑαυτοῦ (reflexivo, recíproco, possessivo).
+O artigo ἑβδομηκοντάκις conserva os dois valores concorrentes e
+a preferência expressa pelo BDAG. Os três artigos estritamente
+remissivos foram mantidos como registros autônomos.
+
+Novo módulo candidato: lexicons/bdag-part-0097.js
+Blob Git: f7c2cd483ab4bb22da5120f5422a932a2ad5fdeb.
+Manifesto candidato: lexicon-modules.json
+Blob Git: 2048ecedf7c3479054007f7d9789c6aa0b9908c3.
+Validação estática pré-publicação: 20 linhas search-row, 20
+cartões entry-card, 20 data-target/id correspondentes, sem
+duplicação interna, HTML estruturalmente equilibrado.
+Manifesto: 2123 -> 2124 caminhos, com 0097 imediatamente depois
+de 0096 e antes de leh.js, sem excluir outros caminhos.
+Nenhum popup BDAG novo e nenhuma URL externa inventada.
+
+Regressão estática de todos os 96 módulos BDAG anteriores:
+316 + 459 + 566 + 343 + 240 + 220 = 2144 pares busca/cartão
+conferidos, sem divergências de ordem dentro dos módulos e
+sem colisões dos vinte novos IDs nos módulos anteriores.
+Nenhum módulo anterior nem outro léxico modificado.
+
+Progresso previsto APÓS confirmação remota do commit:
+2144 -> 2164 / 8287 (26,11%); 97 módulos BDAG; 6123 restantes.
+Próximo cabeçalho: Ἑβραῖος, ου, ὁ.
+
+LIMITAÇÕES: a segunda colação mecânica independente integral foi
+bloqueada por erro interno do serviço de leitura do HTML, após
+a primeira leitura dos artigos; testes funcionais DOM/navegador,
+CI, fichas individuais de auditoria filológica independente
+e integração PR/merge não concluídos.
+AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida não incrementado.
+Publicação exigida em commit único, em chat-gpt-bdag, com HEAD
+reconfirmado, expected_sha exato, force=false, e verificação de
+HEAD, árvore e blobs posteriormente.
+================================================================================
