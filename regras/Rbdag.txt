@@ -4075,3 +4075,72 @@ AUDITORIA_CONCLUIDA: NÃO; não incrementar total auditado.
 Publicar somente como um commit direto com expected_sha exato,
 force=false e revalidar HEAD, árvore e blobs no remoto.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δόσις → δρομαῖος — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: fa1c1ccbbce246218fb24d39b18b996b30472371.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+janela consultada linhas 27900–28249. Não utilizado PDF substituto.
+
+20 cabeçalhos consecutivos:
+01 δόσις, εως, ἡ
+02 δότης, ου, ὁ
+03 Δουβέριος
+04 δουλαγωγέω
+05 δουλεία, ας, ἡ
+06 δουλεύω
+07 δούλη, ης, ἡ
+08 δοῦλος, η, ον
+09 δοῦλος, ου, ὁ
+10 δουλόω
+11 δοῦναι, δούς
+12 δοχή, ῆς, ἡ
+13 δράκων, οντος, ὁ
+14 δραμεῖν,-ών
+15 δράξ, δρακός, ἡ
+16 δράσσομαι
+17 δραχμή, ῆς ἡ
+18 δράω
+19 δρέπανον, ου, τό
+20 δρομαῖος, α, ον
+Próximo cabeçalho canônico: δρόμος, ου, ὁ.
+
+20 traduções editoriais preparadas a partir do original, mantendo
+numerais e distinções fonte: δόσις ①②; δουλεία ①②;
+δουλεύω ①ⓐⓑ, ②ⓐα/βⓑ; δοῦλος substantivo ①ⓐⓑⓒ,
+②ⓐⓑα/β; δουλόω ①②. Mantidos separados os dois verbetes
+δοῦλος, adjetivo e substantivo, e remissões a δίδωμι e τρέχω.
+Foram preservadas as variantes e interpretações alternativas
+textuais nos artigos. A conferência editorial inicial baseou-se
+no HTML; a releitura mecânica suplementar do HTML para comparar
+cada forma grega e todas as referências foi bloqueada por erro
+intermitente da Biblioteca (files.read). Portanto, nenhuma
+certificação de cotejo exaustivo independente está sendo alegada.
+
+Novo módulo candidato: lexicons/bdag-part-0094.js,
+blob a49b1e2be0b25dc826b690a039c1cbadda541a0c.
+Manifesto candidato: lexicon-modules.json,
+blob 441925a5b5d0a1e01b86dd4e504bc82e83537fb0.
+
+Validação estrutural: 20 search-row e 20 entry-card,
+20 IDs distintos, 20 data-target/id 1:1, tags HTML estruturais
+equilibradas; nenhuma URL externa ou manipulador arbitrário.
+Manifesto: 2.120 → 2.121 caminhos, inclusão única de 0094
+após 0093 e antes de leh.js, sem remoções.
+Regressão estática dos 93 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 240 + 180 = 2.084 pares,
+sem divergências internas de paridade nem colisões dos 20 IDs
+novos nos módulos anteriores. Nenhum outro léxico alterado.
+Progresso estrutural previsto após commit confirmado:
+2.084 → 2.104 / 8.287, 94 arquivos BDAG, 6.183 restantes.
+
+PENDÊNCIAS: colação mecânica independente integral do original,
+teste DOM/navegador e CI, auditoria filológica independente,
+integração PR/merge. AUDITORIA_CONCLUIDA: NÃO. Não incrementar
+contador auditado. A publicação exige commit atômico com
+expected_sha exato e force=false, revalidação remota posterior.
+================================================================================
