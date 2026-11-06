@@ -4003,3 +4003,75 @@ Não declarar AUDITORIA_CONCLUIDA nem incrementar contador auditado.
 Publicar somente um commit direto no HEAD remoto com
 expected_sha exato, force=false; revalidar HEAD, árvore e blobs.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δοθείς → δόρυ — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 34622789e88db8f9e109fd92130bbffa652b4463.
+Fonte de conteúdo: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela consultada: a partir da linha 27680, contendo os 20 artigos
+e o cabeçalho seguinte, sem recorrer ao PDF como substituto.
+
+Sequência autônoma:
+01 δοθείς
+02 δοῖ
+03 δοκέω
+04 δοκιμάζω
+05 δοκιμασία, ας, ἡ
+06 δοκιμή, ῆς, ἡ
+07 δοκίμιον, ου, τό
+08 δόκιμος, ον
+09 δοκός, οῦ, ἡ
+10 δόλιος, ία, ον
+11 δολιότης, ητος, ἡ
+12 δολιόω
+13 δόλος, ου, ὁ
+14 δολόω
+15 δόμα, δόματος, τό
+16 δόξα, ης, ἡ
+17 δοξάζω
+18 δοξολογία, ας, ἡ
+19 Δορκάς, άδος, ἡ
+20 δόρυ, ρατος, τό
+Próximo cabeçalho: δόσις, εως, ἡ.
+
+Traduções dos 20 artigos preparadas, preservando os lemas
+remissivos, numerosas formas gregas, exemplos, distinções,
+citações, variantes e bibliografia. As duas remissões não ganharam
+acepções inventadas. Os verbetes longos foram segmentados segundo
+as subdivisões originais: δοκέω ①ⓐ–ⓕ, ②ⓐα/β, ⓑα/β;
+δοκιμάζω ① e ②ⓐⓑ; δόξα ①ⓐⓑⓒα/βⓓ, ②③④;
+δοξάζω ①②; os demais verbetes mantêm as subdivisões aplicáveis.
+O texto canônico foi consultado inicialmente para delimitação
+e tradução, mas uma segunda releitura mecânica suplementar integral
+foi bloqueada por falhas internas intermitentes da Biblioteca.
+Não se atribui certificação de colação exaustiva independente
+ou equivalência semântica perfeita.
+
+Novo módulo candidato: lexicons/bdag-part-0093.js,
+blob 77d6cd4f95621c1c3f3bf49d94b66f9962e472ee.
+Novo manifesto candidato: lexicon-modules.json,
+blob 8fd8351367d35a9c9ebc7da9429a2c2eef8d48fd.
+
+Validação estrutural estática:
+20 search-row, 20 entry-card, 20 relações data-target/id 1:1,
+20 IDs distintos, tags HTML estruturais equilibradas.
+Manifesto 2.119 -> 2.120 caminhos, inclusão de 0093
+imediatamente após 0092, antes de leh.js.
+Regressão estática dos 92 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 400 = 2.064 pares busca/cartão;
+paridade de IDs em cada módulo, sem erro; não foram detectadas
+colisões dos 20 novos IDs com os módulos anteriores.
+Progresso previsto após publicação confirmada:
+2.064 -> 2.084 / 8.287; 93 arquivos BDAG, 6.203 restantes.
+
+NÃO COMPROVADOS: comparação mecânica suplementar exaustiva
+de todas as formas e referências do HTML original, testes
+DOM/navegador/CI e integração independente por PR/merge.
+AUDITORIA_CONCLUIDA: NÃO; não incrementar total auditado.
+Publicar somente como um commit direto com expected_sha exato,
+force=false e revalidar HEAD, árvore e blobs no remoto.
+================================================================================
