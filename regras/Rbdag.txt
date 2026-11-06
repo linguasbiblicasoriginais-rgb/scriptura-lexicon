@@ -4144,3 +4144,72 @@ integração PR/merge. AUDITORIA_CONCLUIDA: NÃO. Não incrementar
 contador auditado. A publicação exige commit atômico com
 expected_sha exato e force=false, revalidação remota posterior.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δρόμος → δύσκολος — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 7cc54bc7f07d093a454b282aa4cc32df394ceb17.
+Fonte exclusiva de conteúdo: HTML canônico da Biblioteca,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janelas consultadas: desde linha 28020 e desde 28150. A segunda leitura
+suplementar automatizada do HTML falhou por erro intermitente.
+Não recorrer ao PDF como fonte substituta.
+Sequência de exatamente 20 cabeçalhos:
+01 δρόμος, ου, ὁ
+02 δροσίζω
+03 Δρούσιλλα, ης, ἡ
+04 δύναμαι
+05 δύναμις, εως, ἡ
+06 δυναμόω
+07 δυνάστης, ου, ὁ
+08 δυνατέω
+09 δυνατός, ή, όν
+10 δυνατῶς
+11 δύνω
+12 δύο
+13 δυσ-
+14 δυσβάστακτος, ον
+15 δύσβατος, ον
+16 δυσεντέριον, ου, τό
+17 δυσερμήνευτος, ον
+18 δυσθεράπευτος, ον
+19 δύσις, εως, ἡ
+20 δύσκολος, ον
+Próximo cabeçalho canônico: δυσκόλως.
+
+Traduções portuguesas preparadas com formas gregas, citações,
+referências, variantes e remissões; mantidas as distinções:
+δρόμος ①②; δύναμαι ⓐα/β/γ, ⓑⓒ;
+δύναμις ①ⓐⓑ, ②③④⑤⑥; δυνάστης ①ⓐⓑ②;
+δυνατός ①ⓐα/βⓑα/β, ②ⓐⓑ; δύο ⓐα–δⓑ.
+Os cabeçalhos foram confirmados em consulta ao HTML canônico.
+A segunda colação mecânica suplementar exaustiva de cada
+ocorrência grega com o HTML não pôde ser concluída por falhas
+do serviço files.read; não certificar equivalência integral
+independente apenas a partir da tradução realizada.
+
+Módulo candidato: lexicons/bdag-part-0095.js
+blob: 6f65da74a1b92834cdef24592238c2b573d3effa.
+Manifesto candidato: lexicon-modules.json
+blob: 6d4ae07dc5072324789a736c7204640ab6bb4f09.
+Verificações: 20 search-row, 20 entry-card, paridade 1:1,
+20 IDs distintos, tags HTML estruturais equilibradas;
+colisão de slug entre δυνατός (adjetivo) e δυνατῶς
+(advérbio) resolvida com sufixos -adj/-adv nos IDs.
+Manifesto de 2121 -> 2122 módulos; 0095 após 0094, antes de leh.js.
+Regressão estática dos 94 arquivos BDAG anteriores:
+316 + 484 + 581 + 363 + 360 = 2104 pares 1:1, sem
+erros detectados em cada arquivo ou colisão com os novos IDs.
+Progresso após publicação confirmada previsto:
+2104 -> 2124 / 8287 (25,63%); 95 arquivos BDAG,
+6163 verbetes restantes.
+
+NÃO CERTIFICADOS: colação independente exaustiva do HTML,
+testes DOM/navegador/CI, auditoria completa por verbete,
+integração PR/merge. AUDITORIA_CONCLUIDA: NÃO.
+Não incrementar total de verbetes auditados.
+Publicar apenas um commit com expected_sha remoto exato e
+force=false, revalidando HEAD, árvore e blobs no repositório.
+================================================================================
