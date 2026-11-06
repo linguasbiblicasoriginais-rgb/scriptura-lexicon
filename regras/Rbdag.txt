@@ -3937,3 +3937,69 @@ concluído. AUDITORIA_CONCLUIDA: NÃO. Não aumentar contador de auditados.
 A publicação exige commit único, expected_sha da base real,
 force=false e revalidação remota posterior.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δισχίλιοι → δογματίζω — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD inicial remoto verificado:
+d2340e97be9fc2c998df1988b2fc7732f0cd84a9.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+janela de consulta: linhas 27580 e seguintes, com limite imediatamente
+após δογματίζω. Os 20 cabeçalhos foram confrontados na sequência:
+01 δισχίλιοι, αι, α
+02 διϋλίζω
+03 δίχα
+04 διχάζω
+05 διχηλέω
+06 διχοστασία, ας, ἡ
+07 διχοστατέω
+08 διχοστάτης, ου, ὁ
+09 διχοτομέω
+10 διψάω
+11 δίψος, ους, τὸ
+12 διψυχέω
+13 διψυχία, ας, ἡ
+14 δίψυχος, ον
+15 διωγμίτης, ου, ὁ
+16 διωγμός, οῦ, ὁ
+17 διώκτης, ου, ὁ
+18 διώκω
+19 δόγμα, ατος, τό
+20 δογματίζω
+Próximo cabeçalho (fora do lote): δοθείς, remissão a δίδωμι.
+
+Tradução portuguesa integral dos artigos preparada, mantendo formas gregas,
+comentários, testemunhos, variantes e remissões. Distinções semânticas:
+διχοστατέω ①②; διψάω ①②; διώκω ①②③④ⓐⓑ;
+δόγμα ①ⓐⓑ②. Preservadas hipóteses, em particular
+a ausência de paralelos linguísticos em διχοτομέω.
+Colação automatizada das sequências gregas destacadas no HTML: todos
+os itens cotejados presentes, sem lacunas nesses elementos.
+Essa conferência, por si, não prova equivalência semântica exaustiva.
+
+Módulo preparado: lexicons/bdag-part-0092.js,
+blob eea2c3e993e49e74e7f0baccff07792b8b22f3d0.
+Manifesto candidato: lexicon-modules.json,
+blob 26c04cb76ecd3e795462c7dd626a0c6d1fecce43.
+
+Validação estrutural do novo módulo: 20 search-row,
+20 entry-card; 20 relações data-target/id 1:1 e IDs distintos;
+tags estruturais equilibradas; sem handlers, scripts
+ou links externos arbitrários.
+Manifesto: 2.118 -> 2.119 caminhos, inclusão após 0091 e antes
+de leh.js, sem remissões ou entradas de outros léxicos modificadas.
+Regressão estática dos 91 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 380 = 2.044 pares de busca/cartão;
+paridade de IDs confirmada em cada arquivo, sem divergências.
+Progresso estrutural esperado após commit confirmado:
+2.044 -> 2.064 / 8.287; 92 arquivos BDAG, 6.223 restantes.
+
+LIMITES NÃO CERTIFICADOS: teste DOM/navegador real, CI, auditoria
+filológica independente completa por verbete, integração PR/merge.
+Não declarar AUDITORIA_CONCLUIDA nem incrementar contador auditado.
+Publicar somente um commit direto no HEAD remoto com
+expected_sha exato, force=false; revalidar HEAD, árvore e blobs.
+================================================================================
