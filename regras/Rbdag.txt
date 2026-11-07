@@ -4502,3 +4502,75 @@ Publicar somente em um commit na branch chat-gpt-bdag com
 expected_sha do HEAD corrente e force=false; reconferir HEAD,
 árvore, pais, manifesto e blobs após atualização remota.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἐγκρίς → ἐθελο- — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial (EXPECTED_HEAD): 40e2f294fefd107782716fbcdc890af398a1a6a5.
+Árvore de base: b352c246469d1ab0e9b1f8a247ce6c51089cb00c.
+Fonte filológica exclusiva: HTML canônico do BDAG da Biblioteca Scriptura
+Lexicon, versão 1, cabeçalhos consecutivos a partir da linha 28903.
+Nenhum PDF, outro léxico ou fonte externa substituiu esse HTML.
+
+Os 20 cabeçalhos autônomos do lote, inclusive remissões:
+01 ἐγκρίς, ίδος, ἡ
+02 ἐγκρύπτω
+03 ἔγκυος, ον
+04 ἐγκύπτω
+05 ἔγνωκα, ἔγνων, ἔγνωσμαι
+06 ἐγρηγορέω
+07 ἐγχρίω
+08 ἐγχώριος, ον
+09 ἐγώ
+10 ἐδαφίζω
+11 ἔδαφος, ους, τό
+12 ἔδεσμα, ατος, τό
+13 ἔδομαι
+14 ἑδράζω
+15 ἑδραῖος, (αία,) αῖον
+16 ἑδραίωμα, ατος, τό
+17 ἔδραμον
+18 Ἑζεκίας, ου, ὁ
+19 ἔζην
+20 ἐθελο-
+
+Primeiro cabeçalho seguinte, excluído deste lote:
+ἐθελοδιδάσκαλος, ου, ὁ.
+
+Novo módulo: lexicons/bdag-part-0100.js, registrado logo após 0099 no
+manifesto lexicon-modules.json, antes de lexicons/leh.js.
+Traduções em português brasileiro, com textos gregos, citações, referências,
+variantes e remissões preservadas; ἐγώ conserva gramática e bibliografia
+extensas; ἐθελο- conserva suas duas acepções. O lema ἐγκρίς preserva a
+etimologia incerta e a interpretação do alimento de João Batista como
+alternativa a ἀκρίδες, sem converter a hipótese em certeza.
+O texto grego da fonte não foi reescrito por conjectura.
+
+Validação estática dos 99 módulos anteriores:
+2204 linhas search-row e 2204 cartões entry-card; alinhamento 1:1;
+sem ID duplicado, alvo duplicado, linha órfã ou cartão órfão.
+Novo módulo: +20 linhas e +20 cartões, sem colisão com os IDs prévios,
+todos data-source=BDAG e IDs -bdag; marcação HTML equilibrada.
+Manifesto: 2126 -> 2127 módulos; nenhum módulo BDAG anterior modificado.
+Não foram acrescentados links ao domínio beta.perseus.tufts.edu.
+Sem alterações em index.html, script.js, style.css ou lexicons/leh.js.
+
+Progresso a validar na publicação remota: 2204 -> 2224 / 8287
+(aproximadamente 26,84%; 6063 verbetes restantes).
+Total de módulos BDAG previsto após publicação: 100.
+
+PENDÊNCIAS: testes DOM reais, acessibilidade e navegação funcional,
+colação filológica independente integral com fichas individuais,
+CI e integração PR/merge em chat-gpt-commits não comprovados.
+Tratar as verificações documentadas como estáticas, não como auditoria
+concluída segundo regras/Rauditoria.txt.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+
+Publicar as três alterações deste lote em um único commit,
+com parent_sha = EXPECTED_HEAD, atualização fast-forward com
+expected_sha exato e force=false, e reconferência posterior
+de HEAD, árvore, manifesto e blobs. O SHA deste próprio commit
+não pode ser incorporado autorreferencialmente a esta regra.
+================================================================================
