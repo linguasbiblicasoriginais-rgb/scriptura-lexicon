@@ -4960,3 +4960,39 @@ Limites de verificação: a regressão estrutural estática e a revisão de font
 AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida até cumprimento de regras/Rauditoria.txt e integração comprovada.
 Publicação somente mediante commit único sobre HEAD real, com expected_sha exato, force=false, seguido de revalidação de HEAD, diff, manifesto e blobs remotos.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 107 — ἐκδίδωμι → ἐκθαμβέω — 07/11/2026
+================================================================================
+Branch única: chat-gpt-bdag. HEAD remoto inicial: 8d8bf9d1bc735d216c8d73fed127e982ac7ed5e4.
+Fonte exclusiva de conteúdo: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, versão 1, linhas 30322–30507; próximo cabeçalho, fora do lote: ἔκθαμβος, ον, linha 30508. Nenhum PDF foi usado em substituição ao HTML.
+Cabeçalhos autônomos consecutivos (remissões incluídas):
+01. ἐκδίδωμι
+02. ἐκδιηγέομαι
+03. ἐκδικέω
+04. ἐκδίκησις, εως, ἡ
+05. ἔκδικος, ον
+06. ἐκδιώκω
+07. ἔκδοτος, ον
+08. ἐκδοχή, ῆς, ἡ
+09. ἐκδύω
+10. ἐκεῖ
+11. ἐκεῖθεν
+12. ἐκείνης
+13. ἐκεῖνος, η, ο
+14. ἐκεῖσε
+15. ἐκέκραξα
+16. ἐκέρασα
+17. ἐκέρδησα
+18. ἐκζητέω
+19. ἐκζήτησις, εως, ἡ
+20. ἐκθαμβέω
+Foram preparados 20 cartões de tradução em português brasileiro: morfologia, todas as acepções/subacepções, citações e construções gregas, referências, siglas, variantes e graus de certeza conforme leitura do HTML. Verbetes extensos: ἐκδικέω (3 sentidos), ἐκδίκησις (3), ἐκδύω (2), ἐκεῖ (2), ἐκεῖνος (ⓐ e ⓑ, subdivisões e ⓒ), ἐκεῖσε (2), ἐκζητέω (4).
+Anomalia preservada da fonte: entrada autônoma ἐκέρδησα remete literalmente a κράζω no HTML canônico, embora a forma também conste na flexão de κερδαίνω. Não emendar silenciosamente; observação editorial em seção independente e pendência para auditoria filológica futura. Da mesma forma, respeitar as demais grafias do original.
+Módulo previsto: lexicons/bdag-part-0107.js, window.ScripturaLexicons.BDAG_PART_0107. Controles estáticos preparatórios: 20 search-row e 20 entry-card; todos data-target correspondem a IDs distintos, com lemas em ordem idêntica à fonte, HTML com tags estruturais equilibradas e checagens de subdivisões.
+Regressão estática de TODOS os 106 módulos BDAG anteriores no HEAD remoto: 2.344 linhas, 2.344 cartões, paridade/ordem e IDs únicos em grupos contíguos; não foram detectadas colisões com os 20 novos IDs. Não alterar nenhum módulo anterior, outros léxicos nem infraestrutura.
+Manifesto: inserir exatamente lexicons/bdag-part-0107.js depois de bdag-part-0106.js e antes de lexicons/leh.js; 2.133 → 2.134 caminhos, sem perda ou reordenação de terceiros.
+Progresso SOMENTE após confirmação da publicação: 2.344 → 2.364 / 8.287 (28,53%), 5.923 verbetes restantes. Próximo ἔκθαμβος, ον.
+Pendências: leitura/cotejo visual da fonte ocorreu, porém comparação mecânica suplementar independente e exaustiva foi prejudicada por falhas intermitentes em files.read; não atestar equivalência integral automatizada nem auditoria individual independente. Testes DOM/navegador, CI, PR/merge e integração final não comprovados; não declarar verificações não realizadas como aprovadas.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida. Publicar somente um commit atômico diretamente sobre o HEAD remoto com expected_sha exato e force=false, seguido de revalidação do novo HEAD, arquivos e blobs.
+================================================================================
