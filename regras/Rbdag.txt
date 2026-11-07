@@ -4359,3 +4359,75 @@ Publicação exigida em commit único, em chat-gpt-bdag, com HEAD
 reconfirmado, expected_sha exato, force=false, e verificação de
 HEAD, árvore e blobs posteriormente.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO Ἑβραῖος → ἐγκάρδια — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 7288964c9595045182e098ff7282b9aff791596a.
+Árvore inicial: 85f55e67dbee23eaf9393299a9be46df531e0ee7.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Trecho canônico: linhas 28600–28806, inclusive divisões internas
+dos artigos extensos. Cabeçalho seguinte: ἔγκαρπος, ον.
+
+20 cabeçalhos consecutivos, incluindo remissões autônomas:
+01 Ἑβραῖος, ου, ὁ
+02 Ἑβραί̈ς, ί̈δος, ἡ
+03 Ἑβραϊστί
+04 ἐγγεννάω
+05 ἐγγίζω
+06 ἔγγιστα
+07 ἔγγραφος, ον
+08 ἐγγράφω
+09 ἔγγυος, ον
+10 ἐγγύς
+11 ἐγεγόνει
+12 ἐγείρω
+13 ἔγερσις, εως, ἡ
+14 ἐγκάθετος, ον
+15 ἐγκάθημαι
+16 ἐγκαίνια, ίων, τά
+17 ἐγκαινίζω
+18 ἐγκακέω
+19 ἐγκαλέω
+20 ἐγκάρδια, ίων, τά
+
+Os 20 artigos foram transpostos em português em camadas editoriais
+com grego politônico, acepções, subacepções, morfologia, citações,
+variantes, bibliografia, remissões e juízos probabilísticos.
+Ἑβραῖος preserva os sentidos étnico e linguístico, com alternativas
+interpretativas; ἐγγίζω e ἐγγύς preservam usos espaciais/temporais
+e construções; ἐγείρω mantém 13 sentidos principais e subdivisões;
+ἐγκάρδια preserva dúvida quanto à leitura τὰ ἐν καρδίᾳ.
+
+Novo módulo: lexicons/bdag-part-0098.js
+Blob candidato: 63b70f1a6748ae2d9064ffc61bb401b8f9820fc6.
+Manifesto atualizado: lexicon-modules.json
+Blob candidato: b0db6e153bbc2a17aa234283527fd05cb498d442.
+Controles estáticos: 20 search-row, 20 entry-card, 20 IDs
+distintos, data-targets em correspondência 1:1 e na mesma ordem,
+HTML balanceado, source BDAG 20/20; nenhum link externo inventado.
+Manifesto: 2124 -> 2125 caminhos, inclusão única do módulo 0098
+imediatamente após 0097 e antes de leh.js. Popups novos: nenhum.
+
+Regressão estática integral dos 97 arquivos BDAG anteriores:
+270 + 397 + 594 + 323 + 340 + 240 = 2164 pares 1:1
+sem duplicações globais e sem colisões com os 20 IDs novos.
+Os arquivos anteriores e outros léxicos permanecem inalterados.
+Contagem condicionada à confirmação do commit remoto:
+2164 -> 2184 / 8287 (26,35%), 98 módulos BDAG;
+6103 verbetes restantes. Próximo: ἔγκαρπος, ον.
+
+PENDÊNCIAS: segunda colação mecânica automatizada independente do
+HTML não realizada por erro interno do leitor de arquivos, após
+consulta inicial integral da fonte; DOM real, testes funcionais,
+CI, auditoria filológica independente com evidências individuais
+e integração PR/merge não confirmados.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Publicar apenas em chat-gpt-bdag, em commit único atômico,
+com expected_sha exato, force=false, revalidando HEAD, árvore
+e blobs remotos após a publicação.
+================================================================================
