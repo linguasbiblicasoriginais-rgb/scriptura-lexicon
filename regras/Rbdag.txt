@@ -4996,3 +4996,39 @@ Progresso SOMENTE após confirmação da publicação: 2.344 → 2.364 / 8.287 (
 Pendências: leitura/cotejo visual da fonte ocorreu, porém comparação mecânica suplementar independente e exaustiva foi prejudicada por falhas intermitentes em files.read; não atestar equivalência integral automatizada nem auditoria individual independente. Testes DOM/navegador, CI, PR/merge e integração final não comprovados; não declarar verificações não realizadas como aprovadas.
 AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida. Publicar somente um commit atômico diretamente sobre o HEAD remoto com expected_sha exato e force=false, seguido de revalidação do novo HEAD, arquivos e blobs.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 108 — ἔκθαμβος → ἐκκρεμάννυμι — 07/11/2026
+================================================================================
+Branch de publicação: chat-gpt-bdag. HEAD remoto inicial de trabalho: 2488bf4e8476d8f8a6e9b0998650ef4f881aec54.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, linhas 30508–30679. Próximo verbete, fora do lote: ἐκλαλέω, linha 30680. Não utilizar PDF nem conteúdo externo em substituição ao HTML.
+20 cabeçalhos autônomos consecutivos:
+01. ἔκθαμβος, ον
+02. ἐκθαυμάζω
+03. ἔκθετος, ον
+04. ἐκκαθαίρω
+05. ἐκκαίω
+06. ἐκκακέω
+07. ἐκκεντέω
+08. ἐκκλάω
+09. ἐκκλείω
+10. ἐκκλησία, ας, ἡ
+11. ἐκκλησιάζω
+12. ἐκκλησιαστικός, ή, όν
+13. ἐκκλίνω
+14. ἐκκολάπτω
+15. ἐκκόλαψις, εως, ἡ
+16. ἐκκολυμβάω
+17. ἐκκομίζω
+18. ἐκκοπή, ῆς, ἡ
+19. ἐκκόπτω
+20. ἐκκρεμάννυμι
+Tradução portuguesa dos 20 verbetes baseada exclusivamente no HTML original; preserva referências gregas, citações e suas variantes, informações morfológicas, bibliografia e graus de certeza. Em particular, o artigo ἐκκλησία mantém três acepções (assembleia legislativa, reunião ocasional e comunidade/congregação), e as subdivisões relativas a Israel, assembleias cristãs locais, congregações territoriais e Igreja universal, além da bibliografia especializada do original.
+Novo módulo lexicons/bdag-part-0108.js registra window.ScripturaLexicons.BDAG_PART_0108. Verificações pré-publicação do módulo: 20 linhas search-row, 20 cartões entry-card; 20 IDs ASCII únicos; data-target em correspondência 1:1 com id; ordem de lemas idêntica à fonte; HTML de tags balanceadas e checagem das acepções numeradas principais.
+Regressão estática de todos os 107 módulos BDAG anteriores no HEAD remoto: 2364 pares linha/cartão, IDs e destinos correspondentes, nenhum erro detectado dentro dos lotes contíguos de verificação. Módulos anteriores não modificados. A ausência de colisões globais entre todos os lotes anteriores NÃO foi examinada em um único índice agregado, devido ao limite de chamadas por operação; não declarar que isso tenha sido testado globalmente. Os 20 IDs novos foram comparados a cada módulo anterior, sem colisões.
+Manifesto lexicon-modules.json: inserir somente lexicons/bdag-part-0108.js imediatamente após bdag-part-0107.js, antes de lexicons/leh.js, sem reordenar os demais; 2134 → 2135 caminhos.
+Progresso após publicação e conferência remota: 2364 → 2384 de 8287 (28,77%), restam 5903. Próximo cabeçalho a incorporar: ἐκλαλέω.
+Limites de certificação: a tradução foi preparada mediante leitura da fonte canônica, mas a auditoria lexical independente atomizada não foi concluída. Testes reais de DOM/navegador, CI, PR/merge e integração na branch principal não foram demonstrados. NÃO marcar essas verificações como aprovadas.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida sem auditoria individual integral e integração comprovada.
+Publicar em commit único do HEAD remoto confirmado, com expected_sha exato e force=false; depois revalidar HEAD, diff, arquivos e blobs remotos.
+================================================================================
