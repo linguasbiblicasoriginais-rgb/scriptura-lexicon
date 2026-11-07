@@ -4431,3 +4431,74 @@ Publicar apenas em chat-gpt-bdag, em commit único atômico,
 com expected_sha exato, force=false, revalidando HEAD, árvore
 e blobs remotos após a publicação.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἔγκαρπος → ἐγκρίνω — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 7e52a448451e5b94281683f94e31adccab458d6b.
+Árvore inicial: 197e3ca8c5b5a4cc272ec4a7f3523c119d59b3b8.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela da fonte: linhas 28807–28902, incluindo subdivisões internas.
+Próximo cabeçalho canônico, fora do lote: ἐγκρίς, ίδος, ἡ.
+
+20 cabeçalhos consecutivos:
+01 ἔγκαρπος, ον
+02 ἔγκατα, άτων, τά
+03 ἐγκατάλειμμα, ατος, τό
+04 ἐγκαταλείπω
+05 ἐγκαταστηρίζω
+06 ἐγκατασφραγίζω
+07 ἐγκατοικέω
+08 ἐγκαυχάομαι
+09 ἔγκειμαι
+10 ἐγκεντρίζω
+11 ἐγκεράννυμι
+12 ἐγκλείω
+13 ἔγκλημα, τος, τό
+14 ἐγκομβόομαι
+15 ἐγκοπή, ῆς, ἡ
+16 ἐγκόπτω
+17 ἐγκράτεια, είας, ἡ
+18 ἐγκρατεύομαι
+19 ἐγκρατής, ές
+20 ἐγκρίνω
+
+Transpostas em português as 20 entradas com fidelidade às
+distinções morfológicas e semânticas, citações gregas, variantes,
+remissões e referências bibliográficas. Distinções preservadas:
+ἐγκαταλείπω com os sentidos de deixar remanescentes e de
+abandonar; ἔγκλημα com usos jurídico e de censura; ἐγκόπτω
+com a discussão concorrente do sentido em At 24:4; ἐγκράτεια
+e ἐγκρατεύομαι com autodomínio e continência.
+
+Módulo novo: lexicons/bdag-part-0099.js.
+Blob candidato: d712448e8be404b633be8866e85a768a479134ba.
+Manifesto atualizado: lexicon-modules.json.
+Blob candidato: 4f8e67b065dc6cb713a1909cfe99f5a5f07a76e1.
+Validação estática pré-publicação: 20 search-row, 20 entry-card,
+20 IDs internos distintos, alvos data-target/id alinhados 1:1,
+HTML estruturalmente equilibrado; 20 registros com source BDAG.
+Manifesto: 2125 -> 2126 caminhos, 0099 logo após 0098 e antes
+de leh.js; nenhuma alteração de outro léxico.
+
+Regressão estática completa dos 98 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 360 + 160 = 2184 pares busca/cartão
+1:1, sem repetição global dos IDs anteriores, sem colisões com
+os vinte novos IDs. Nenhum blob dos módulos anteriores alterado.
+Progresso condicionado à confirmação de publicação remota:
+2184 -> 2204 / 8287 (26,60%), 99 módulos BDAG; 6083 restantes.
+Próximo início: ἐγκρίς, ίδος, ἡ.
+
+PENDÊNCIAS: segunda colação mecânica exaustiva independente da
+fonte não concluída: releitura complementar de HTML retornou
+erro interno, apesar da leitura inicial das 20 entradas.
+Testes reais DOM/navegação/CI, auditoria filológica individual
+independente e integração PR/merge não confirmados.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Publicar somente em um commit na branch chat-gpt-bdag com
+expected_sha do HEAD corrente e force=false; reconferir HEAD,
+árvore, pais, manifesto e blobs após atualização remota.
+================================================================================
