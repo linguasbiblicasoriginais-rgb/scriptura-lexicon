@@ -5068,3 +5068,39 @@ Limites de verificação: cotejo filológico preparado mediante leitura direta d
 AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida até verificação e correção individuais integrais, regressão, documentação e integração confirmada, conforme regras/Rauditoria.txt.
 Publicar somente em um commit atômico após conferir HEAD remoto, com expected_sha exato e force=false, e revalidar HEAD, diff, manifestos e blobs após publicação.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 110 — ἐκπέμπω → ἐκπορεύομαι — 07/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD remoto inicial confirmado: e07010b8df7971c3e4ba2bcbc2e612568cfb5885.
+Fonte única para a incorporação: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, linhas 30853–30974 (20 cabeçalhos autônomos consecutivos). Próximo lema NÃO incorporado: ἐκπορνεύω, linha 30975. Não substituir o HTML por PDF, outro léxico ou reconstrução.
+Cabeçalhos autônomos (incluídas as remissões):
+01. ἐκπέμπω
+02. ἐκπέπτωκα
+03. ἐκπερισσοῦ
+04. ἐκπερισσῶς
+05. ἐκπεσεῖν
+06. ἐκπετάννυμι
+07. ἐκπέτασις, εως, ἡ
+08. ἐκπέτομαι
+09. ἐκπηδάω
+10. ἐκπίπτω
+11. ἐκπλέκω
+12. ἐκπλέω
+13. ἔκπληκτος, ον
+14. ἔκπληξις, εως, ἡ
+15. ἐκπληρόω
+16. ἐκπλήρωσις, εως, ἡ
+17. ἐκπλήσσω
+18. ἐκπλοκή, ῆς, ἡ
+19. ἐκπνέω
+20. ἐκπορεύομαι
+20 verbetes traduzidos para português brasileiro com preservação de acepções, subdivisões, exemplos gregos, construções, referências escriturísticas e literárias, variantes, bibliografia e reservas de certeza. Verbetes extensos: ἐκπηδάω (3 acepções, incluindo leitura fragmentária e notas críticas), ἐκπίπτω (4 acepções), ἐκπορεύομαι (2 acepções e subdivisões ⓐ–ⓒ); três remissões plenas a outros lemas mais uma remissão ἐκπλοκή (total quatro remissões). Sem emendas conjecturais silenciosas.
+Módulo novo: lexicons/bdag-part-0110.js, window.ScripturaLexicons.BDAG_PART_0110. Pré-validação estrutural: 20 search-row; 20 entry-card; IDs ASCII distintos e data-target=id par a par, lemas em ordem de fonte; HTML com tags equilibradas; acepções principais preservadas.
+Regressão estática integral dos 109 módulos BDAG anteriores no HEAD de partida: 2.404 search-row, 2.404 entry-card, paridade 1:1; 2.404 identificadores globalmente distintos após agrupar todos os IDs dos 8 blocos e verificar colisões entre blocos. 20 novos IDs comparados com cada módulo anterior, nenhuma colisão encontrada. Nenhum arquivo de módulo anterior alterado.
+Manifesto: inserir somente lexicons/bdag-part-0110.js imediatamente depois de bdag-part-0109.js e antes de lexicons/leh.js; 2.136 → 2.137 caminhos, sem modificar outros léxicos nem reordenar entradas.
+Progresso somente após HEAD e blobs de publicação revalidados: 2.404 → 2.424 / 8.287 (29,25%); faltam 5.863 cabeçalhos; próximo ἐκπορνεύω.
+Limitações: colação e tradução a partir do HTML não equivalem à auditoria independente integral, individual e atomizada. Testes reais de DOM/navegador, build/CI, PR/merge e confirmação da integração em branch principal não executados/comprovados; não declarar esses controles aprovados. Verificações estruturais estáticas e regressão documentadas, sem certificação filológica integral.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida enquanto não estiverem satisfeitas todas as exigências de regras/Rauditoria.txt, incluindo correções e integração confirmada.
+Publicação condicionada a commit único sobre o HEAD remoto atual com expected_sha exato e force=false. Após publicar, revalidar HEAD, diff, manifesto e SHA dos blobs. A confirmação separada da árvore do commit pode estar limitada pela API; relatar com precisão.
+================================================================================
