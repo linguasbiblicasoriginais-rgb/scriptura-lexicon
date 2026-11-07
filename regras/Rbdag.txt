@@ -4651,3 +4651,77 @@ Nenhum teste ausente foi rotulado como aprovado.
 AUDITORIA_CONCLUIDA = NÃO.
 Não incrementar total_auditoria_concluida.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO εἰδός → εἴκω — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial (EXPECTED_HEAD): bd231f91c62c90ec50a8a6d8cb4fe9214455e641.
+Árvore base: ec17c3e77aaf9a88e925c0950860609422dfbfdc.
+Fonte exclusiva: Biblioteca Scriptura Lexicon, HTML canônico do BDAG:
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+aproximadamente linhas 29249–29363.
+Nenhuma substituição do HTML por PDF, dicionário concorrente ou conjectura.
+
+20 cabeçalhos consecutivos, inclusive remissões e compostos:
+01 εἰδός
+02 εἶδος, ους, τό
+03 εἰδυῖα, εἰδῶ
+04 εἰδωλεῖον, ου, τό
+05 εἰδωλόθυτος, ον
+06 εἰδωλολατρέω
+07 εἰδωλολάτρης, ου, ὁ
+08 εἰδωλολατρία, ας, ἡ
+09 εἰδωλομανής,-ές
+10 εἴδωλον, ου, τό
+11 εἰδώς, υῖα, ός
+12 εἴθισμαι
+13 εἰκάζω
+14 εἰκαιότης, ητος, ἡ
+15 εἰκῇ
+16 εἰκός
+17 εἴκοσι
+18 εἰκοσιπέντε, εἰκοσιτέσσαρες, εἰκοσιτρεῖς
+19 εἰκτικῶς
+20 εἴκω
+
+Próximo lema após o lote: εἰκών, όνος, ἡ.
+Módulo incorporado: lexicons/bdag-part-0102.js.
+A tradução preserva a tripartição de εἶδος, a oposição entre imagem
+material e divindade representada em εἴδωλον, as quatro distinções
+adverbiais de εἰκῇ, remissões, formas, variantes, textos em grego,
+hebraico onde houver, exemplificação, bibliografia e referências.
+Mantém as discussões de cultos e sacrifícios no contexto lexical da fonte,
+sem resolver questões filológicas por conjectura. Distinções específicas
+de variantes e restaurações não são convertidas em leituras certas.
+
+Validação estática e regressão pré-publicação:
+- inventário de 99 módulos prévios confrontado com os blobs da árvore
+  remota atual por SHA, sem divergências; bdag-part-0100.js e
+  bdag-part-0101.js também conferidos pelos blobs individuais;
+- 101 módulos BDAG anteriores, com 2244 search-row e 2244 entry-card;
+- todos os IDs e alvos anteriores únicos; nenhuma linha ou cartão órfão;
+- novo módulo com 20 linhas, 20 cartões e correspondência por posição 1:1;
+- IDs novos exclusivos no conjunto BDAG e sem colisão com index e LEH;
+- zero nomes de ID sem sufixo -bdag; data-source=BDAG em todos os pares;
+- HTML de linhas e cartões balanceado, sem tags pendentes;
+- 20 cabeçalhos de cartões; sem links beta.perseus.tufts.edu acrescentados;
+- manifesto de 2128 para 2129 arquivos, com 0102 depois de 0101;
+- arquivos base e todos os 101 módulos BDAG prévios sem alterações.
+
+Progresso condicionado à publicação remota: 2244 -> 2264 / 8287
+(27,32%; 6023 verbetes restantes); 102 módulos BDAG previstos.
+
+IMPORTANTE — AUDITORIA NÃO CONCLUÍDA:
+Verificações realizadas são estáticas e não equivalem à colação filológica
+independente e integral, nem substituem fichas individuais por verbete,
+testes funcionais/DOM, CI, acessibilidade, PR e merge exigidos por
+regras/Rauditoria.txt. Nenhuma execução ausente foi certificada.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+
+Publicar exclusivamente 3 arquivos (módulo, manifesto e Rbdag) num único
+commit com parent_sha=EXPECTED_HEAD, expected_sha exato e force=false.
+Revalidar HEAD remoto, pais, árvore, diff e blobs após fast-forward.
+================================================================================
