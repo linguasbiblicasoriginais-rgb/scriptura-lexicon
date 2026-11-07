@@ -4574,3 +4574,80 @@ expected_sha exato e force=false, e reconferência posterior
 de HEAD, árvore, manifesto e blobs. O SHA deste próprio commit
 não pode ser incorporado autorreferencialmente a esta regra.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἐθελοδιδάσκαλος → εἶδον — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto de partida (EXPECTED_HEAD): 38756a51b9c07df6991d404238540544c3e12e88.
+Árvore inicial: be77ef83e0382f5531d0e020645ad6985c93c863.
+Fonte exclusiva: HTML canônico do BDAG na Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Leitura diretamente no HTML, aproximadamente linhas 28985–29250;
+os cabeçalhos independentes contam também formas remissivas.
+A fonte não foi substituída por PDF, índices ou outros léxicos.
+
+Cabeçalhos consecutivos 01–20:
+01 ἐθελοδιδάσκαλος, ου, ὁ
+02 ἐθελοθρησκία, ας, ἡ
+03 ἐθέλω
+04 ἐθέμην, ἔθηκα
+05 ἐθίζω
+06 ἐθνάρχης, ου, ὁ
+07 ἐθνικός, ή, όν
+08 ἐθνικῶς
+09 ἔθνος, ους, τό
+10 ἔθος, ους, τό
+11 ἔθρεψα
+12 ἔθω
+13 εἰ
+14 εἰ μήν
+15 εἴα, ἔιασα
+16 εἶδα
+17 εἰδέα, ας, ἡ
+18 εἰδέναι, εἰδήσω
+19 -ειδής
+20 εἶδον
+
+Primeiro lema posterior, fora do lote: εἰδός.
+Novo módulo lexicons/bdag-part-0101.js com tradução portuguesa de todos
+os 20 artigos, preservadas suas distinções semânticas, construções,
+variantes, testemunhos, referências e remissões.
+O artigo ἔθνος conserva as duas grandes acepções, incluindo as
+subdivisões dos grupos externos a Israel e dos cristãos não israelitas.
+O artigo εἰ conserva sete seções, subdivisões gramaticais de tempo e
+modo verbal, partículas associadas e referências bibliográficas.
+O artigo εἶδον mantém a morfologia variante e cinco acepções.
+εἰδέα conserva a advertência de grafia incorreta no contexto de Mt 28:3.
+Foi resolvida previamente colisão potencial de ID com ἐθελο-,
+usando entry-ethelo-verb-bdag para o verbo ἐθέλω.
+
+Controles estáticos pré-publicação:
+- 100 arquivos BDAG anteriores, total de 2224 pares busca/cartão;
+- 99 blobs históricos conferidos contra inventário anterior por SHA
+  e mesmo HEAD da base; bdag-part-0100.js conferido separadamente;
+- nenhum ID novo duplicado ou colidente com BDAG, index.html ou LEH;
+- 20 linhas novas e 20 cartões novos, data-target/id 1:1;
+- HTML da nova tabela e dos cartões estruturalmente equilibrado;
+- todos data-source=BDAG e IDs terminados em -bdag;
+- nenhuma referência ao domínio beta.perseus.tufts.edu adicionada;
+- manifesto 2127 -> 2128 caminhos, bdag-part-0101 após 0100;
+- arquivos protegidos e todos os módulos históricos intocados.
+
+Progresso condicionado à confirmação da publicação remota:
+2224 -> 2244 / 8287 (~27,08%); 6043 restantes.
+Novo total de módulos BDAG: 101.
+Publicar em um único commit: novo módulo, manifesto, checkpoint Rbdag;
+commit com pai EXPECTED_HEAD e lease exacto expected_sha, force=false.
+Revalidar HEAD, árvore, parent, diff e blobs após o fast-forward.
+A correção de ID não altera o registro preexistente de ἐθελο-.
+
+PENDÊNCIAS SEGUNDO regras/Rauditoria.txt:
+colação filológica externa independente com ficha individual por verbete;
+execução de DOM real, testes funcionais de busca/cartão, teclado,
+acessibilidade e CI; integração por PR/merge verificada ainda não feita.
+Nenhum teste ausente foi rotulado como aprovado.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+================================================================================
