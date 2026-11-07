@@ -4924,3 +4924,39 @@ Pendências editoriais: uma segunda colação mecânica exaustiva do HTML com to
 AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
 Publicar um único commit contendo lexicons/bdag-part-0105.js, lexicon-modules.json e regras/Rbdag.txt, parent_sha=HEAD real, update_ref com expected_sha exato e force=false; revalidar HEAD, árvore e blobs posteriormente.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 106 — ἑκάτερος, α, ον → ἐκδημέω — 07/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag. HEAD remoto inicial de trabalho: 70b8dbbe573ffc7d50a7b3251e073484005a70ec.
+Fonte exclusiva: HTML canônico A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, arquivo disponível na Biblioteca Scriptura Lexicon, linhas 30206–30321. Cabeçalho seguinte, fora do lote: ἐκδίδωμι, linha 30322.
+20 cabeçalhos autônomos consecutivos, incluindo as remissões:
+01. ἑκάτερος, α, ον
+02. ἑκατέστησας
+03. ἑκατόν
+04. ἑκατονταετής, ές
+05. ἑκατονταπλασίων, ον
+06. ἑκατοντάρχης, ου, ὁ
+07. ἑκατόνταρχος
+08. ἐκβαίνω
+09. ἐκβάλλω
+10. ἔκβασις, εως, ἡ
+11. ἐκβλαστάνω
+12. ἐκβολή, ῆς, ἡ
+13. ἔκβολος, ον
+14. ἐκγαμίζω
+15. ἔκγονος, ον
+16. ἐκδαπανάω
+17. ἐκδέχομαι
+18. ἔκδηλος, ον
+19. ἐκδηλόω
+20. ἐκδημέω
+Tradução para o português brasileiro dos 20 artigos baseada exclusivamente no HTML canônico. Preservadas as cinco acepções de ἐκβάλλω, as três de ἔκβασις e as duas de ἐκδημέω, além das referências, variantes, remissões e graus de certeza.
+Novo módulo: lexicons/bdag-part-0106.js, BDAG_PART_0106; exatamente 20 search-row/entry-card, paridade de data-target e IDs, lemas em ordem de fonte, IDs próprios e HTML estruturalmente equilibrado.
+Regressão estática dos 105 módulos BDAG anteriores no HEAD remoto: 2324 linhas de busca, 2324 cartões, 2324 identificadores em verificações por segmentos, sem divergências detectadas. Nenhum módulo anterior deve ser modificado.
+Manifesto: inserir lexicons/bdag-part-0106.js imediatamente depois de lexicons/bdag-part-0105.js e antes de lexicons/leh.js; 2132 → 2133 caminhos; sem alteração de outros léxicos.
+Progresso após confirmação de publicação: 2324 → 2344 / 8287 (28,29%); 5943 verbetes restantes; próximo verbete ἐκδίδωμι.
+Limites de verificação: a regressão estrutural estática e a revisão de fonte durante a tradução NÃO constituem auditoria individual integral independente. Testes funcionais reais de DOM/navegador, CI e confirmação de PR/merge ainda não realizados. Não declarar controles ausentes como aprovados.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida até cumprimento de regras/Rauditoria.txt e integração comprovada.
+Publicação somente mediante commit único sobre HEAD real, com expected_sha exato, force=false, seguido de revalidação de HEAD, diff, manifesto e blobs remotos.
+================================================================================
