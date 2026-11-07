@@ -4875,3 +4875,15 @@ checkpoint Rbdag, com parent_sha=EXPECTED_HEAD,
 expected_sha exato e force=false. Revalidar depois da publicação
 o HEAD, commit-pai, árvore, diff e blobs remotos.
 ================================================================================
+
+================================================================================
+BDAG — CORREÇÃO COMPLEMENTAR LOTE 104 — 07/11/2026
+================================================================================
+HEAD de partida: 8bfb6fdd3a68a702e171d4ef542d0b8c1066220b. Correção de texto de quatro passagens gregas já incorporadas; nenhum novo verbete.
+Fonte exclusiva: HTML canônico BDAG da Biblioteca Scriptura Lexicon, versão 1, linhas aproximadamente 29580–29974.
+Em εἰς, restauradas as citações gregas da passagem de Est 1:5 e a construção ἐπαίρειν τοὺς ὀφθαλμοὺς εἴς τινα (Lc 6:20). Em εἰρήνη, restituído τινί em ἀφιέναι εἰ.; em εἰρηνικός, restaurado σοφία (Tg 3:17).
+Correções exclusivamente em cardsHtml de lexicons/bdag-part-0104.js; rowsHtml intocado. HTML e 20 pares busca/cartão submetidos à verificação estática, IDs preservados. Todos os 103 módulos BDAG anteriores e o manifesto devem permanecer idênticos, a comprovar pela árvore do commit publicado.
+Contagem permanece 2304/8287; próximo verbete εἰσῄει.
+Testes em DOM/navegador, CI, integração PR/merge e auditoria filológica independente ainda não comprovados. Não somar ao total auditado.
+AUDITORIA_CONCLUIDA = NÃO.
+================================================================================
