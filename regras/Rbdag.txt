@@ -5032,3 +5032,39 @@ Limites de certificação: a tradução foi preparada mediante leitura da fonte 
 AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida sem auditoria individual integral e integração comprovada.
 Publicar em commit único do HEAD remoto confirmado, com expected_sha exato e force=false; depois revalidar HEAD, diff, arquivos e blobs remotos.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 109 — ἐκλαλέω → ἐκπειράζω — 07/11/2026
+================================================================================
+Branch: chat-gpt-bdag; HEAD remoto inicial de trabalho: cfd44e6d3e9b879becdbfd8379ee56c30c5ac1b4.
+Fonte textual EXCLUSIVA: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, linhas 30680–30852. Próximo cabeçalho, fora do lote: ἐκπέμπω, linha 30853. Nenhum PDF ou tradução externa usado em substituição ao HTML.
+20 cabeçalhos autônomos consecutivos, com remissões preservadas:
+01. ἐκλαλέω
+02. ἐκλάμπω
+03. ἐκλανθάνομαι
+04. ἐκλέγομαι
+05. ἐκλείπω
+06. ἐκλεκτός, ή, όν
+07. ἐκλελεγμένος
+08. ἐκλέλησμαι
+09. ἐκλήθην
+10. ἐκλιπαρέω
+11. ἐκλογή, ῆς, ἡ
+12. ἐκλύω
+13. ἐκμάσσω
+14. ἐκμυκτηρίζω
+15. ἐκνεύω
+16. ἐκνήφω
+17. ἑκούσιος, ία, ιον
+18. ἑκουσίως
+19. ἔκπαλαι
+20. ἐκπειράζω
+Os 20 verbetes foram traduzidos para o português brasileiro diretamente do HTML; sentidos e subacepções numeradas, referências bibliográficas, citações e suas variantes, termos gregos, informações morfológicas e reservas de certeza preservados. Destaques: ἐκλέγομαι (3 sentidos e subcategorias), ἐκλείπω (4), ἐκλεκτός (3), ἐκλογή (2), ἔκπαλαι (2) e ἐκπειράζω (3). Três remissões próprias: ἐκλελεγμένος, ἐκλέλησμαι e ἐκλήθην.
+Novo módulo lexicons/bdag-part-0109.js define window.ScripturaLexicons.BDAG_PART_0109. Verificações estáticas do módulo: 20 search-row, 20 entry-card; ordem de lemas fiel ao original; 20 identificadores ASCII exclusivos; data-target = id em todos os pares; HTML com tags equilibradas e presença das divisões principais.
+Regressão estrutural de todos os 108 módulos BDAG anteriores: 2384 linhas, 2384 cartões e 2384 IDs globais distintos; conferências por oito grupos com posterior agregação global dos IDs; nenhum erro de correspondência, quantidade nem colisão com os novos IDs detectado. Os módulos existentes não foram editados.
+Manifesto: adicionar lexicons/bdag-part-0109.js imediatamente após bdag-part-0108.js e antes de lexicons/leh.js, de 2135 para 2136 caminhos, sem alterações nos outros léxicos.
+Progresso SOMENTE depois de confirmar publicação: 2384 → 2404 / 8287 (29,01%), faltam 5883; próximo verbete ἐκπέμπω.
+Limites de verificação: cotejo filológico preparado mediante leitura direta dos artigos no HTML canônico; uma comparação mecânica suplementar e exaustiva de formas gregas não pôde ser concluída por falhas internas intermitentes no leitor files.read. Não declarar auditoria filológica integral independente. Testes funcionais DOM/navegador, CI, confirmação de PR/merge e integração final não executados/comprovados. Não certificar verificações ausentes.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida até verificação e correção individuais integrais, regressão, documentação e integração confirmada, conforme regras/Rauditoria.txt.
+Publicar somente em um commit atômico após conferir HEAD remoto, com expected_sha exato e force=false, e revalidar HEAD, diff, manifestos e blobs após publicação.
+================================================================================
