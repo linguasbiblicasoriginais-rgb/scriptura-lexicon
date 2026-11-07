@@ -4725,3 +4725,76 @@ Publicar exclusivamente 3 arquivos (módulo, manifesto e Rbdag) num único
 commit com parent_sha=EXPECTED_HEAD, expected_sha exato e force=false.
 Revalidar HEAD remoto, pais, árvore, diff e blobs após fast-forward.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO εἰκών → εἴπως — 06/11/2026
+================================================================================
+Branch: chat-gpt-bdag. HEAD inicial (EXPECTED_HEAD):
+545d8a3c73a1259c7149cfa091793eaddeb6f704
+Árvore base: e8832658e7d1bcda72bab4e03d74f6e12b67e395.
+Fonte exclusiva: HTML canônico BDAG, Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+cabeçalhos nas linhas 29364–29580, confirmados sem PDF substitutivo.
+
+20 cabeçalhos consecutivos (remissões incluídas):
+01 εἰκών, όνος, ἡ
+02 εἱλάμην
+03 εἰλευθέρωσεν
+04 εἰλέω
+05 εἴλημμαι, εἴληπται, εἴληφα
+06 εἰλικρίνεια, ας, ἡ
+07 εἰλικρινής, ές,
+08 εἰλικρινῶς
+09 εἱλίσσω
+10 εἷλκον, εἵλκυσα
+11 εἵλκωμαι
+12 εἱλόμην
+13 εἰμί
+14 εἶμι
+15 εἵνεκεν
+16 εἶξα
+17 εἶπα, εἰπεῖν
+18 εἴπερ
+19 εἶπον
+20 εἴπως
+
+Primeiro cabeçalho posterior: εἰργασάμην, εἴγασμαι.
+Novo arquivo lexicons/bdag-part-0103.js, com 20 traduções ao português,
+sem recorrer a obras externas para inventar acepções, leituras ou fontes.
+εἰκών: 3 acepções, inclusive imagens vivas e discussão de imago Dei.
+εἰμί: 11 seções e todas as subdivisões, paradigmas, variantes,
+construções copulativas, existenciais, temporais, locais, auxiliares,
+exemplos, referências e material bibliográfico.
+εἶπον: seis acepções, flexão, formas passivas, contexto discursivo,
+usos reflexivos, variantes manuscritas e remissões.
+Os demais artigos, inclusive remissivos, conservaram suas particularidades.
+
+Verificações estáticas:
+- 102 arquivos BDAG anteriores, com 2264 search-row e 2264 entry-card;
+- 99 blobs do inventário histórico verificados por SHA contra árvore
+  remota e blobs de 0100, 0101 e 0102 conferidos separadamente;
+- zero divergências, IDs repetidos ou alvos duplicados anteriores;
+- novo módulo tem 20 linhas search-row e 20 cartões entry-card;
+- 20 pares data-target/id em sequência 1:1; IDs novos únicos globalmente;
+- ausência de alvos ou cartões órfãos e de colisões com index/LEH;
+- todas as linhas e cartões com data-source=BDAG e sufixos ID -bdag;
+- HTML estático de linhas e cartões com tags corretamente balanceadas;
+- 20 cabeçalhos e sem link novo ao domínio beta.perseus.tufts.edu;
+- manifesto 2129 -> 2130 itens, inserção de 0103 após 0102;
+- nenhum dos 102 módulos BDAG prévios ou arquivos protegidos alterado.
+
+Progresso condicionado à publicação: 2264 -> 2284 / 8287
+(27,56%; restantes 6003); 103 módulos BDAG após publicação.
+
+AUDITORIA_CONCLUIDA = NÃO.
+A análise realizada NÃO prova auditoria individual concluída. Permanecem
+pendentes colação independente exaustiva, fichas individuais por verbete,
+testes reais DOM/busca/cartões, acessibilidade, CI, revisão funcional,
+abertura/integração de PR e merge segundo regras/Rauditoria.txt.
+Não incrementar total_auditoria_concluida.
+
+Publicação única de módulo, manifesto e Rbdag, parent=EXPECTED_HEAD,
+update_ref com expected_sha exato e force=false. Revalidar HEAD,
+parent, árvore e blobs depois do fast-forward; evitar commits extras.
+================================================================================
