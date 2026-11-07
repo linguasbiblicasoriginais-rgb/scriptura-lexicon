@@ -4798,3 +4798,80 @@ Publicação única de módulo, manifesto e Rbdag, parent=EXPECTED_HEAD,
 update_ref com expected_sha exato e force=false. Revalidar HEAD,
 parent, árvore e blobs depois do fast-forward; evitar commits extras.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 104 — εἰργασάμην, εἴγασμαι → εἰσηγέομαι — 07/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial esperado (EXPECTED_HEAD): a611d48ba05090522a7fc54bf02a0513e93b9714.
+Árvore base: f1580250f7523172ea9a7033de4139f499ea29e9.
+
+Fonte exclusiva para artigos: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+aproximadamente linhas 29585–29965.
+Falha temporária de leitura foi superada; leitura recuperada antes
+da conclusão. Não se substituiu conteúdo faltante por conjectura.
+
+20 cabeçalhos consecutivos do HTML (inclusive remissivos):
+01 εἰργασάμην, εἴγασμαι
+02 εἴρηκα, εἰρήκει, εἴρημαι
+03 Εἰρηναῖος, ου, ὁ
+04 εἰρήναρχος, ου, ὁ
+05 εἰρηνεύω
+06 εἰρήνη, ης, ἡ
+07 εἰρηνικός, ή, όν
+08 εἰρηνοποιέω
+09 εἰρηνοποιός, όν
+10 εἴρυσμαι
+11 εἰρωνεία, ας, ἡ
+12 εἰς
+13 εἷς, μία, ἕν
+14 εἰσάγω
+15 εἰσακούω
+16 εἰσδέχομαι
+17 εἴσειμι
+18 εἰσέρχομαι
+19 εἰσηγαγον
+20 εἰσηγέομαι
+
+Próximo cabeçalho canônico: εἰσῄει.
+Novo módulo: lexicons/bdag-part-0104.js.
+Todos os vinte artigos traduzidos em português, com formas gregas,
+acepções, subacepções, variantes textuais, exemplos, bibliografia
+e remissões, conforme a fonte. Artigos especialmente extensos:
+εἰρήνη (2 acepções principais), εἰς (10 divisões principais),
+εἷς (5 divisões principais), εἰσέρχομαι (3 divisões principais).
+Tratamentos concorrentes (p.ex., preposição εἰς e nomes de interpretação
+de μιᾶς γυναικὸς ἀνήρ) documentados sem decisão conjectural.
+Não confundir εἶμι com εἰμί ou εἰς com εἷς.
+
+Validação estrutural pré-publicação e regressão:
+- 103 módulos BDAG anteriores conferidos por SHA contra a árvore remota:
+  99 históricos por inventário e 0100–0103 individualmente;
+- 2284 buscas e 2284 cartões anteriores conferidos;
+- nenhum ID, alvo ou destino anterior duplicado ou órfão;
+- módulo 0104: 20 search-row e 20 entry-card com correspondência 1:1;
+- novos IDs únicos no conjunto BDAG e sem colisão em index/LEH;
+- todas linhas e cartões data-source=BDAG e IDs terminados em -bdag;
+- HTML estático de linhas e cartões equilibrado;
+- 20 cabeçalhos preservados na sequência e sem domínio proibido;
+- manifesto 2130 -> 2131 itens, 0104 após 0103 e antes de LEH;
+- módulos BDAG antigos, arquivos protegidos e outras regras preservados.
+
+Progresso condicionado a publicação remota confirmada:
+2284 -> 2304 / 8287 (27,80%); 5983 verbetes restantes;
+104 módulos BDAG após a publicação.
+
+AUDITORIA_CONCLUIDA = NÃO.
+A validação estática e tradução não suprem a colação filológica
+independente individual com fichas e correções, testes reais de DOM,
+navegação e acessibilidade, CI, PR e merge prescritos por
+regras/Rauditoria.txt. Não atribuir conclusão à auditoria.
+Não incrementar total_auditoria_concluida.
+
+Publicar EXATAMENTE um commit de três arquivos: módulo, manifesto e
+checkpoint Rbdag, com parent_sha=EXPECTED_HEAD,
+expected_sha exato e force=false. Revalidar depois da publicação
+o HEAD, commit-pai, árvore, diff e blobs remotos.
+================================================================================
