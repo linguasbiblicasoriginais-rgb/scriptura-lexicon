@@ -4887,3 +4887,40 @@ Contagem permanece 2304/8287; próximo verbete εἰσῄει.
 Testes em DOM/navegador, CI, integração PR/merge e auditoria filológica independente ainda não comprovados. Não somar ao total auditado.
 AUDITORIA_CONCLUIDA = NÃO.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 105 — εἰσῄει → ἑκάστοτε — 07/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag. HEAD remoto de partida: 6b74908f106cade96e7b992a72c73c9909b2bfae.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, versão 1, linhas aproximadas 29969–30205.
+20 cabeçalhos autônomos consecutivos (inclusive remissões):
+01. εἰσῄει
+02. εἰσήκω
+03. εἰσήνεγκον
+04. εἰσιέναι
+05. εἰσκαλέομαι
+06. εἴσοδος, ου, ἡ
+07. εἰσπηδάω
+08. εἰσπορεύομαι
+09. εἱστήκειν
+10. εἰστρέχω
+11. εἰσφέρω
+12. εἶτα
+13. εἴτε
+14. εἶτεν
+15. εἶχον
+16. εἴωθα
+17. εἴων
+18. ἐκ
+19. ἕκαστος, η, ον
+20. ἑκάστοτε
+Próximo cabeçalho após este lote: ἑκάτερος, α, ον.
+Tradução em português brasileiro preparada para todos os vinte artigos, com morfologia, acepções, citações gregas, remissões, graus de certeza e bibliografia conforme os textos HTML consultados. ἐκ possui seis acepções principais, com todas as subdivisões indicadas pela fonte.
+Validação estática: módulo BDAG_PART_0105 criado; 20 linhas de busca e 20 cartões; todos os data-target pareados aos IDs; IDs únicos no módulo e sem colisões com os 2.304 registros preexistentes; cabeçalhos em ordem idêntica nos cartões e linhas; estrutura HTML equilibrada.
+Regressão: 104 módulos BDAG preexistentes lidos diretamente de seus blobs SHA no HEAD remoto; 2.304 linhas, 2.304 cartões, 2.304 IDs únicos, sem divergências de paridade ou duplicações; 104 módulos anteriores devem permanecer com SHA inalterado na árvore publicada.
+Manifesto: inserir exatamente lexicons/bdag-part-0105.js após bdag-part-0104.js e antes de lexicons/leh.js; 2131 → 2132 entradas; não tocar outros léxicos.
+Progresso condicionado a publicação remota confirmada: 2.304 → 2324 / 8.287 (28,04%); 5963 verbetes restantes.
+Pendências editoriais: uma segunda colação mecânica exaustiva do HTML com todos os caracteres e referências não pôde ser concluída por falhas intermitentes no serviço de leitura; o texto foi examinado na fonte canônica e traduzido manualmente. Testes reais em DOM/navegador, CI, auditoria filológica independente e integração PR/merge permanecem não comprovados. Não confundir verificação estática com auditoria concluída.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Publicar um único commit contendo lexicons/bdag-part-0105.js, lexicon-modules.json e regras/Rbdag.txt, parent_sha=HEAD real, update_ref com expected_sha exato e force=false; revalidar HEAD, árvore e blobs posteriormente.
+================================================================================
