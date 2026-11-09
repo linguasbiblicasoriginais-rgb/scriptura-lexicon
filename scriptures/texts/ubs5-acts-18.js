@@ -1,0 +1,72 @@
+/* UBS5 — Atos dos Apóstolos 18. Transcrição grega fornecida pelo usuário em 09/11/2026.
+ * Identificação UBS5 conforme o projeto, sem cotejo independente com exemplar impresso.
+ * O texto grego e os metadados editoriais permanecem em estruturas distintas.
+ */
+(function () {
+    "use strict";
+    const verses = {
+    "1": "Μετὰ ταῦτα χωρισθεὶς ἐκ τῶν Ἀθηνῶν ἦλθεν εἰς Κόρινθον.",
+    "2": "καὶ εὑρών τινα Ἰουδαῖον ὀνόματι Ἀκύλαν, Ποντικὸν τῷ γένει προσφάτως ἐληλυθότα ἀπὸ τῆς Ἰταλίας καὶ Πρίσκιλλαν γυναῖκα αὐτοῦ, διὰ τὸ διατεταχέναι Κλαύδιον χωρίζεσθαι πάντας τοὺς Ἰουδαίους ἀπὸ τῆς Ῥώμης, προσῆλθεν αὐτοῖς",
+    "3": "καὶ διὰ τὸ ὁμότεχνον εἶναι ἔμενεν παρ᾽ αὐτοῖς, καὶ ἠργάζετο· ἦσαν γὰρ σκηνοποιοὶ τῇ τέχνῃ.",
+    "4": "διελέγετο δὲ ἐν τῇ συναγωγῇ κατὰ πᾶν σάββατον ἔπειθέν τε Ἰουδαίους καὶ Ἕλληνας.",
+    "5": "Ὡς δὲ κατῆλθον ἀπὸ τῆς Μακεδονίας ὅ τε Σιλᾶς καὶ ὁ Τιμόθεος, συνείχετο τῷ λόγῳ ὁ Παῦλος διαμαρτυρόμενος τοῖς Ἰουδαίοις εἶναι τὸν Χριστὸν Ἰησοῦν.",
+    "6": "ἀντιτασσομένων δὲ αὐτῶν καὶ βλασφημούντων ἐκτιναξάμενος τὰ ἱμάτια εἶπεν πρὸς αὐτούς, Τὸ αἷμα ὑμῶν ἐπὶ τὴν κεφαλὴν ὑμῶν· καθαρὸς ἐγὼ ἀπὸ τοῦ νῦν εἰς τὰ ἔθνη πορεύσομαι.",
+    "7": "καὶ μεταβὰς ἐκεῖθεν εἰσῆλθεν εἰς οἰκίαν τινὸς ὀνόματι Τιτίου Ἰούστου σεβομένου τὸν θεόν, οὗ ἡ οἰκία ἦν συνομοροῦσα τῇ συναγωγῇ.",
+    "8": "Κρίσπος δὲ ὁ ἀρχισυνάγωγος ἐπίστευσεν τῷ κυρίῳ σὺν ὅλῳ τῷ οἴκῳ αὐτοῦ, καὶ πολλοὶ τῶν Κορινθίων ἀκούοντες ἐπίστευον καὶ ἐβαπτίζοντο.",
+    "9": "εἶπεν δὲ ὁ κύριος ἐν νυκτὶ δι᾽ ὁράματος τῷ Παύλῳ, Μὴ φοβοῦ, ἀλλὰ λάλει καὶ μὴ σιωπήσῃς,",
+    "10": "διότι ἐγώ εἰμι μετὰ σοῦ καὶ οὐδεὶς ἐπιθήσεταί σοι τοῦ κακῶσαί σε, διότι λαός ἐστίν μοι πολὺς ἐν τῇ πόλει ταύτῃ.",
+    "11": "Ἐκάθισεν δὲ ἐνιαυτὸν καὶ μῆνας ἓξ διδάσκων ἐν αὐτοῖς τὸν λόγον τοῦ θεοῦ.",
+    "12": "Γαλλίωνος δὲ ἀνθυπάτου ὄντος τῆς Ἀχαΐας κατεπέστησαν ὁμοθυμαδὸν οἱ Ἰουδαῖοι τῷ Παύλῳ καὶ ἤγαγον αὐτὸν ἐπὶ τὸ βῆμα",
+    "13": "λέγοντες ὅτι Παρὰ τὸν νόμον ἀναπείθει οὗτος τοὺς ἀνθρώπους σέβεσθαι τὸν θεόν.",
+    "14": "μέλλοντος δὲ τοῦ Παύλου ἀνοίγειν τὸ στόμα εἶπεν ὁ Γαλλίων πρὸς τοὺς Ἰουδαίους, Εἰ μὲν ἦν ἀδίκημά τι ἢ ῥᾳδιούργημα πονηρόν, ὦ Ἰουδαῖοι, κατὰ λόγον ἂν ἀνεσχόμην ὑμῶν,",
+    "15": "εἰ δὲ ζητήματά ἐστιν περὶ λόγου καὶ ὀνομάτων καὶ νόμου τοῦ καθ᾽ ὑμᾶς, ὄψεσθε αὐτοί· κριτὴς ἐγὼ τούτων οὐ βούλομαι εἶναι.",
+    "16": "καὶ ἀπήλασεν αὐτοὺς ἀπὸ τοῦ βήματος.",
+    "17": "ἐπιλαβόμενοι δὲ πάντες Σωσθένην τὸν ἀρχισυνάγωγον ἔτυπτον ἔμπροσθεν τοῦ βήματος· καὶ οὐδὲν τούτων τῷ Γαλλίωνι ἔμελεν.",
+    "18": "Ὁ δὲ Παῦλος ἔτι προσμείνας ἡμέρας ἱκανὰς τοῖς ἀδελφοῖς ἀποταξάμενος ἐξέπλει εἰς τὴν Συρίαν, καὶ σὺν αὐτῷ Πρίσκιλλα καὶ Ἀκύλας, κειράμενος ἐν Κεγχρεαῖς τὴν κεφαλήν, εἶχεν γὰρ εὐχήν.",
+    "19": "κατήντησαν δὲ εἰς Ἔφεσον, κἀκείνους κατέλιπεν αὐτοῦ, αὐτὸς δὲ εἰσελθὼν εἰς τὴν συναγωγὴν διελέξατο τοῖς Ἰουδαίοις.",
+    "20": "ἐρωτώντων δὲ αὐτῶν ἐπὶ πλείονα χρόνον μεῖναι οὐκ ἐπένευσεν,",
+    "21": "ἀλλ᾽ ἀποταξάμενος καὶ εἰπών, Πάλιν ἀνακάμψω πρὸς ὑμᾶς τοῦ θεοῦ θέλοντος, ἀνήχθη ἀπὸ τῆς Ἐφέσου,",
+    "22": "καὶ κατελθὼν εἰς Καισάρειαν, ἀναβὰς καὶ ἀσπασάμενος τὴν ἐκκλησίαν κατέβη εἰς Ἀντιόχειαν.",
+    "23": "καὶ ποιήσας χρόνον τινὰ ἐξῆλθεν διερχόμενος καθεξῆς τὴν Γαλατικὴν χώραν καὶ Φρυγίαν, ἐπιστηρίζων πάντας τοὺς μαθητάς.",
+    "24": "Ἰουδαῖος δέ τις Ἀπολλῶς ὀνόματι, Ἀλεξανδρεὺς τῷ γένει, ἀνὴρ λόγιος, κατήντησεν εἰς Ἔφεσον, δυνατὸς ὢν ἐν ταῖς γραφαῖς.",
+    "25": "οὗτος ἦν κατηχημένος τὴν ὁδὸν τοῦ κυρίου καὶ ζέων τῷ πνεύματι ἐλάλει καὶ ἐδίδασκεν ἀκριβῶς τὰ περὶ τοῦ Ἰησοῦ, ἐπιστάμενος μόνον τὸ βάπτισμα Ἰωάννου·",
+    "26": "οὗτός τε ἤρξατο παρρησιάζεσθαι ἐν τῇ συναγωγῇ. ἀκούσαντες δὲ αὐτοῦ Πρίσκιλλα καὶ Ἀκύλας προσελάβοντο αὐτὸν καὶ ἀκριβέστερον αὐτῷ ἐξέθεντο τὴν ὁδὸν [τοῦ θεοῦ].",
+    "27": "βουλομένου δὲ αὐτοῦ διελθεῖν εἰς τὴν Ἀχαΐαν, προτρεψάμενοι οἱ ἀδελφοὶ ἔγραψαν τοῖς μαθηταῖς ἀποδέξασθαι αὐτόν, ὃς παραγενόμενος συνεβάλετο πολὺ τοῖς πεπιστευκόσιν διὰ τῆς χάριτος·",
+    "28": "εὐτόνως γὰρ τοῖς Ἰουδαίοις διακατηλέγχετο δημοσίᾳ ἐπιδεικνὺς διὰ τῶν γραφῶν εἶναι τὸν χριστὸν Ἰησοῦν."
+};
+    const paragraphEnds = [4,11,17,23,28];
+    const headings = [
+    {
+        "beforeVerse": 1,
+        "title": "Paulo em Corinto",
+        "sourceTitle": "Paul at Corinth"
+    },
+    {
+        "beforeVerse": 18,
+        "title": "O regresso de Paulo a Antioquia",
+        "sourceTitle": "Paul’s Return to Antioch"
+    },
+    {
+        "beforeVerse": 24,
+        "title": "Apolo prega em Éfeso",
+        "sourceTitle": "Apollos Preaches at Ephesus"
+    }
+];
+    const unnumberedPassages = [];
+    window.ScripturaScriptureTexts = window.ScripturaScriptureTexts || {};
+    window.ScripturaScriptureTexts.UBS5 = window.ScripturaScriptureTexts.UBS5 || {};
+    window.ScripturaScriptureTexts.UBS5.ACT = window.ScripturaScriptureTexts.UBS5.ACT || {};
+    window.ScripturaScriptureTexts.UBS5.ACT[18] = verses;
+    window.ScripturaScriptureParagraphBreaks = window.ScripturaScriptureParagraphBreaks || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5 = window.ScripturaScriptureParagraphBreaks.UBS5 || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5.ACT = window.ScripturaScriptureParagraphBreaks.UBS5.ACT || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5.ACT[18] = paragraphEnds;
+    window.ScripturaScriptureHeadings = window.ScripturaScriptureHeadings || {};
+    window.ScripturaScriptureHeadings.UBS5 = window.ScripturaScriptureHeadings.UBS5 || {};
+    window.ScripturaScriptureHeadings.UBS5.ACT = window.ScripturaScriptureHeadings.UBS5.ACT || {};
+    window.ScripturaScriptureHeadings.UBS5.ACT[18] = headings;
+    window.ScripturaScriptureUnnumberedPassages = window.ScripturaScriptureUnnumberedPassages || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5 = window.ScripturaScriptureUnnumberedPassages.UBS5 || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5.ACT = window.ScripturaScriptureUnnumberedPassages.UBS5.ACT || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5.ACT[18] = unnumberedPassages;
+})();
