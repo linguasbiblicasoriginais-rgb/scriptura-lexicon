@@ -5552,3 +5552,54 @@ Progresso SOMENTE após publicação e revalidação remota: 2564 → 2584 de 82
 AUDITORIA_CONCLUIDA = NÃO; sem teste funcional real de DOM, links, popups e teclado, CI, auditoria atômica individual completa e integração/merge comprovada em chat-gpt-commits. Não incrementar total_auditoria_concluida.
 Publicar em commit único sobre HEAD real, update_ref expected_sha exato e force=false. Revalidar HEAD, blobs, manifesto e diff após publicar.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 119 — ἔμφυτος, ον → ἔνδειγμα, ατος, τό — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. Base HEAD verificada: fd841e8aacf28178c2cc5a2c965c2bd4940b3d7b.
+Fonte textual exclusiva: HTML canônico A Greek-English Lexicon of the New
+Testament and Other Early Christian Literature - Frederick William Danker,
+Walter Bauer.html, Biblioteca Scriptura Lexicon, versão 1 (30.790.409 bytes).
+Artigos localizados no trecho do HTML a partir da linha 32148; nenhum PDF,
+léxico alternativo ou conteúdo de memória usado para suprir a fonte.
+Cabeçalhos (20) em ordem: ἔμφυτος; ἐν; ἐναγκαλίζομαι; ἐνάλιος;
+ἐναλλάξ; ἐνάλλομαι; ἐνανθρωπέω; ἔναντι; ἐναντίον;
+ἐναντιόομαι; ἐναντίος; ἐναργής; ἐνάρετος; ἐναρμόνιος;
+ἐνάρχομαι; ἔνατος; ἐναφίημι; ἐνγ-; ἐνδεής; ἔνδειγμα.
+Próximo cabeçalho fora deste lote: ἐνδείκνυμι.
+Verbete extenso ἐν: tradução preparada de suas 12 divisões numeradas
+e subdivisões; preservadas referências, construções gregas, variantes,
+ressalvas de probabilidade e bibliografia. Os demais 19 artigos foram
+traduzidos seguindo o HTML canônico, inclusive o cabeçalho remissivo.
+Colação editorial de conteúdo feita contra os trechos recuperados do HTML.
+A leitura programática suplementar de todo o arquivo sofreu falhas internas
+intermitentes; não declarar conferência mecânica exaustiva nem auditoria
+filológica individual independente como concluídas por causa disso.
+Novo módulo: lexicons/bdag-part-0119.js (BDAG_PART_0119).
+Estrutura preparada: 20 linhas de pesquisa, 20 cartões BDAG, correspondência
+exata linha/cartão, IDs únicos, termos gregos conservados e estrutura de
+HTML equilibrada; sintaxe JavaScript verificada. As 12 divisões e 18
+subdivisões semânticas de ἐν estão identificadas no conteúdo.
+Regressão pré-publicação: leitura de 118 módulos BDAG históricos diretamente
+dos blobs do HEAD; 2584 linhas e 2584 cartões; unicidade global de 2584 IDs,
+pareamento 1:1 e nenhum erro detectado. Os vinte IDs novos não colidem
+com nenhum dos 2584 anteriores; projeção: 2604 IDs distintos e 2604 pares.
+Manifesto: inserir apenas lexicons/bdag-part-0119.js depois de
+lexicons/bdag-part-0118.js e antes de lexicons/leh.js, sem reordenar
+outros módulos e mantendo bibliographicTerms do BDAG sem modificação.
+Popups bibliográficos novos: nenhum; não houve expansão não verificada.
+Observação de fidelidade textual: o HTML contém no artigo ἐν a
+referência "ἐν ἡμῖν Hb 13:26", aparentemente inconsistente com a extensão
+do livro de Hebreus. A referência foi conservada literalmente, sem emenda
+conjectural; exigir revisão editorial separada antes de certificação
+filológica independente.
+Progresso condicionado à publicação e revalidação remota:
+2584 → 2604 de 8287 verbetes (31,42%), restantes 5683.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida:
+não foram demonstrados testes funcionais completos em DOM/navegador,
+testes de CI, auditoria atômica independente de cada artigo nem
+integração/merge em chat-gpt-commits conforme regras/Rauditoria.txt.
+A publicação só é admitida com um commit direto sobre o HEAD exato e
+update_ref expected_sha exato, force=false, seguida de verificação
+do novo HEAD, árvore, manifesto, blobs e diff; nenhum SHA autorreferencial.
+================================================================================
