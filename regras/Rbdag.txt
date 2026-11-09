@@ -5392,3 +5392,98 @@ AUDITORIA_CONCLUIDA = NÃO.
 Publicar somente em um único commit a partir do HEAD remoto atual,
 com expected_sha exato e force=false; revalidar HEAD, árvore e blobs.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 115 — ἕλιγμα → ἐλλογέω — 09/11/2026
+================================================================================
+RAMO AUTORIZADO: chat-gpt-bdag.
+HEAD remoto inicial e pré-revalidação: 838258ad537639e5d30f1b0d6787606f318e3130.
+Árvore base Git: ec38a2de1ed7149341f46fc2654a65744883de0f.
+FONTE EXCLUSIVA DE INCORPORAÇÃO:
+HTML canônico da Biblioteca Scriptura Lexicon,
+A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html,
+arquivo file_00000000429c820eb5aa2bcab96f1572, linhas de HTML
+31552–31672 aproximadamente. Não se empregaram PDFs nem outros
+dicionários para completar a leitura.
+SEQUÊNCIA DE VINTE CABEÇALHOS AUTÔNOMOS:
+01. ἕλιγμα, ατος, τό
+02. Ἐλιέζερ, ὁ
+03. Ἐλιούδ, ὁ
+04. Ἐλισάβετ, ἡ
+05. Ἐλισαιέ, ὁ
+06. Ἐλισαῖος, ου, ὁ
+07. ἑλίσσω
+08. ἕλκος, ους, τό
+09. ἑλκόω
+10. ἑλκύω
+11. ἕλκω
+12. Ἑλλάς, άδος, ἡ
+13. ἐλλείπω
+14. ἔλλειψις, εως, ἡ
+15. Ἕλλην, ηνος, ὁ
+16. Ἑλληνικός, ή, όν
+17. Ἑλληνίς, ίδος, ἡ
+18. Ἑλληνιστής, οῦ, ὁ
+19. Ἑλληνιστί
+20. ἐλλογέω
+O próximo verbete NÃO incorporado é: ἐλλόγιμος, ον.
+Incluídas sem supressão as remissões ἑλκύω, os nomes próprios e as
+formas gregas com suas variantes; Ἐλισαιέ e Ἐλισαῖος são cabeçalhos
+independentes consecutivos na fonte.
+
+CONTEÚDO: tradução editorial de todos os vinte artigos do HTML para
+português brasileiro, preservando dados gramaticais, construções gregas,
+acepções e subacepções, referências bíblicas e extrabíblicas, variantes
+textuais, bibliografia e reservas de certeza. Exemplos de diferenciação:
+ἕλκος (ferida vs. chaga/úlcera), ἑλκόω (termo médico), ἕλκω
+(três acepções, discussão de Ox 654 sem suprimento textual conjectural),
+Ἕλλην (grego quanto a língua/cultura versus gentio; interesse cultual
+de não israelitas), Ἑλληνίς (adjetivo e substantivo), Ἑλληνιστής
+(uso linguístico e etnocultural distinto), ἐλλογέω (terminologia
+comercial e aplicação figurada em Rm 5:13).
+Conservados graus de certeza, formas do grego politônico e escrita
+hebraica com span específico e direção RTL.
+
+COLAÇÃO SUPLEMENTAR: um confronto automatizado com o HTML canônico
+conseguiu percorrer os vinte artigos e identificar três diferenças de
+representação de frases gregas. As três foram corrigidas antes da
+publicação do módulo definitivo:
+(1) ἔστρωσεν τὸν ὸ̓νον mantido na grafia peculiar do HTML;
+(2) ἕλκ. πρός mantido como expressão conjunta;
+(3) Ἑβραϊστί, Ῥωμαϊστί mantidos como expressão conjunta.
+Uma segunda tentativa de colação mecânica após os ajustes foi
+bloqueada por erro interno do leitor; NÃO declarar segunda passagem
+automaticamente aprovada. Não houve auditoria filológica independente,
+individual e atômica certificada.
+
+ARQUIVO: lexicons/bdag-part-0115.js, registrando
+window.ScripturaLexicons.BDAG_PART_0115, 20 search-row e 20
+entry-card; 20 IDs ASCII com sufixo -bdag e 20 data-target exatamente
+correspondentes, HTML equilibrado, campos de busca, rótulos de fonte,
+sem novas URLs beta.perseus.tufts.edu e sem popups novos.
+REGRESSÃO GLOBAL: checkpoint de 2.444 pares/IDs/alvos únicos abrangendo
+os 111 módulos até bdag-part-0111.js. Os SHA de todos esses 111
+módulos foram comparados com a árvore remota e coincidiam; problemas
+preexistentes no checkpoint: zero. Módulos 112, 113, 114 lidos
+diretamente, cada um com 20 pares válidos. Novo módulo 115 somado
+e comparado com todo o índice anterior: 2.524 linhas de busca,
+2.524 cartões, 2.524 IDs BDAG distintos, 2.524 destinos distintos,
+zero duplicações, divergências ou órfãos. Nenhuma colisão dos novos
+IDs com index.html e lexicons/leh.js examinados.
+Isto é VERIFICAÇÃO ESTÁTICA e regressão por SHA, NÃO teste funcional
+real de DOM, busca, links, teclado ou popup, nem build/CI.
+MANIFESTO: lexicon-modules.json, 2141 → 2142
+itens; inserir somente lexicons/bdag-part-0115.js após
+bdag-part-0114.js e antes de lexicons/leh.js, preservando os outros
+módulos e dicionários, além dos arquivos de infraestrutura.
+PROGRESSO APLICÁVEL SOMENTE DEPOIS DE PUBLICAR E REVALIDAR:
+2.504 → 2.524 / 8.287 (30,46%), restam 5763 verbetes.
+AUDITORIA_CONCLUIDA = NÃO.
+A auditoria individual integral, o teste funcional real, o CI e
+a integração PR/merge na branch consolidada chat-gpt-commits não
+estão comprovados. Não incrementar total_auditoria_concluida.
+Publicação somente por commit atômico com expected_sha exato do HEAD
+e force=false; revalidar SHA do HEAD, árvore e blobs no remoto.
+================================================================================
