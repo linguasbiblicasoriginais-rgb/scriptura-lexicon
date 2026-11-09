@@ -5230,3 +5230,86 @@ de regras/Rauditoria.txt concluídas com evidência.
 Publicar somente um commit atômico com expected_sha do HEAD remoto exato e
 force=false; após publicação revalidar HEAD, árvore e blobs.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 113 — ἐκψύχω → ἐλεάω — 09/11/2026
+================================================================================
+DESTINO AUTORIZADO: chat-gpt-bdag.
+HEAD remoto inicial efetivamente verificado: fa09ab92014000e2867381f04abe5c81f25ec1d4.
+BASE TREE: 5a5234208d85695c2cef7427eb0472b39ef0c5ca.
+FONTE ÚNICA DE CONTEÚDO: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", linhas aproximadas
+31278–31426. Sem uso de PDF ou fontes lexicográficas substitutas.
+Foram identificados e traduzidos os vinte cabeçalhos autônomos consecutivos:
+01. ἐκψύχω
+02. ἑκών, οῦσα, όν
+03. ἔλαθον
+04. ἐλαία, ας, ἡ
+05. ἔλαιον, ου, τό
+06. ἐλαιών, ῶνος, ὁ
+07. Ἐλαμ(ε)ίτης, ου, ὁ
+08. ἐλάσσων, ἔλασσον
+09. ἐλαττονέω
+10. ἐλαττόω
+11. ἐλάττωμα, ατος, τό
+12. ἐλάττων
+13. ἐλαύνω
+14. ἐλαφρία, ας, ἡ
+15. ἐλαφρός, ά, όν
+16. ἔλαχε
+17. ἐλάχιστος, ίστη, ον
+18. Ἐλδάδ, ὁ
+19. Ἐλεάζαρ, ὁ
+20. ἐλεάω
+Remissões autônomas: ἔλαθον → λανθάνω; ἐλάττων → ἐλάσσων;
+ἔλαχε → λαγχάνω. Não confundir remissões com inexistência de verbete.
+Próximo cabeçalho fora do lote: ἐλεγμός, οῦ, ὁ.
+
+TRADUÇÃO EDITORIAL: equivalentes portugueses e morfologia; preservação das
+acepções e subacepções, citações e expressões gregas, referências bíblicas
+e extrabíblicas, variantes e bibliografia indicada pela fonte. Destaques:
+ἐλαία (oliveira e azeitona); ἔλαιον (azeite e olival); ἐλαιών
+(olival/topônimo, com ressalva de acentuação); ἐλάσσων e ἐλαττόω
+(três acepções cada); ἐλαφρός (três acepções); ἐλάχιστος (três
+acepções, subdivisões e bibliografia); ἐλεάω (mistura paradigmática,
+formas concorrentes em Jd 22–23). Preservação de graus de certeza e
+distinção entre leituras e conjecturas.
+Foi realizada leitura diretamente do HTML canônico por trechos. Colação
+SUPLEMENTAR MECÂNICA completa dos termos gregos da fonte com a tradução
+NÃO EXECUTADA: falha interna no leitor files.read ao tentar repetir
+a aquisição dos intervalos. Não afirmar auditoria filológica integral.
+
+MÓDULO: lexicons/bdag-part-0113.js, objeto global
+window.ScripturaLexicons.BDAG_PART_0113, com 20 search-row e 20
+entry-card, 20 lemas distintos, 20 IDs exclusivos, 20 data-target
+correspondentes, marcação HTML estaticamente equilibrada, sem URLs novas
+ou remissões externas automáticas. Testes reais de navegador/DOM e
+CI/build NÃO executados.
+REGRESSÃO ESTÁTICA GLOBAL BDAG: checkpoint anterior de 2.444 registros
+(111 módulos até bdag-part-0111.js) comparado por SHA de TODOS os seus
+blobs com a árvore remota vigente; zero mudanças. Módulo 112 lido
+diretamente e SHA revalidado, contendo outros 20 pares e IDs únicos.
+Os 20 novos pares não colidem nem com os 2.464 IDs/alvos anteriores,
+nem com IDs de index.html e lexicons/leh.js consultados; após o lote:
+2.484 linhas de busca, 2.484 cartões, 2.484 IDs BDAG e 2.484
+data-target globalmente distintos, sem linhas/cartões órfãos.
+Metodologia: checkpoint global anterior + SHA de todos os 111 módulos
+anteriores + leitura separada do módulo 112 + novo módulo. É regressão
+ESTÁTICA documentada, não uma auditoria atômica.
+MANIFESTO: lexicon-modules.json, 2139 → 2140
+caminhos; inserir somente lexicons/bdag-part-0113.js imediatamente
+depois de bdag-part-0112.js e antes de lexicons/leh.js; não alterar
+módulos BDAG anteriores, terceiros léxicos ou infraestrutura.
+PROGRESSO A PUBLICAR SOMENTE APÓS CONFIRMAÇÃO GIT:
+2.464 → 2.484 / 8.287 (29,97%),
+5.803 verbetes restantes. Próximo ἐλεγμός, οῦ, ὁ.
+AUDITORIA_CONCLUIDA = NÃO.
+Os 20 itens têm incorporação editorial e verificações estáticas, não
+auditoria filológica independente integral com provas individuais.
+Sem DOM funcional, CI e confirmação de integração PR/merge em
+chat-gpt-commits, nenhum item conta como auditoria concluída.
+Publicar em exatamente um commit com expected_sha remoto exato e
+force=false, revalidando HEAD, árvore e blobs imediatamente após.
+================================================================================
