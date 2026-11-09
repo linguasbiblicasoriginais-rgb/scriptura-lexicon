@@ -5521,3 +5521,17 @@ expected_sha exato e force=false; validar HEAD, árvore, blobs e diff
 após publicação. O SHA definitivo deverá ser consultado no GitHub;
 não gravar SHA autorreferencial neste arquivo.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 117 — ἐμέω → ἐμπί(μ)πλημι — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD base: c49093af683c0a35b081fec76b411ca11408fdb6.
+Fonte exclusiva: HTML canônico do BDAG, biblioteca do projeto, cabeçalhos entre ἐμέω e ἐμπί(μ)πλημι. Nenhum PDF ou outro léxico foi usado para completar conteúdo.
+Cabeçalhos (20): ἐμέω; ἐμμαίνομαι; Ἐμμανουήλ; Ἐμμαοῦς; ἐμμένω; ἐμμέσῳ; Ἑμμώρ; ἐμνήσθην; ἐμοί; ἐμός; ἐμπαιγμονή; ἐμπαιγμός; ἐμπαίζω; ἐμπαίκτης; ἐμπέμπω; ἐμπεπλησμένος; ἐμπεριέχω; ἐμπεριπατέω; ἐμπερίτομος; ἐμπί(μ)πλημι.
+Módulo novo: lexicons/bdag-part-0117.js, com BDAG_PART_0117, 20 linhas de busca e 20 cartões de conteúdo. Divisões e referências documentadas em português e grego original conservado.
+Manifesto: lexicon-modules.json recebe o módulo 117 imediatamente após o 116 e antes de lexicons/leh.js; nenhum módulo de outra fonte foi reordenado.
+Regressão estática: lidos 116 módulos anteriores; total 2.544 linhas e cartões, pares alinhados por módulo; IDs reunidos de oito grupos, 2.544 únicos. Novo lote: 20 novos alvos e IDs sem colisões, total 2.564 alvos/IDs únicos. HTML do novo módulo: tags equilibradas, 20 cartões, 20 linhas, 20 marcadores de fonte, sem IDs órfãos.
+Progresso condicionado à publicação e revalidação: 2.544 → 2.564 de 8.287 (30,94%), restantes 5.723. Próximo cabeçalho não publicado: ἐμπί(μ)πρημι.
+AUDITORIA_CONCLUIDA = NÃO. Não declarar auditoria individual integral, teste funcional real de navegador, CI ou integração/merge em chat-gpt-commits; não incrementar total_auditoria_concluida. A colação automática de elementos gregos adicionais enfrentou erro interno na ferramenta de leitura; manter cautela editorial e reabrir conferência nessa etapa.
+Publicação apenas com commit único e update_ref com expected_sha exato, force=false; pós-publicação verificar HEAD, blobs, manifesto e diff. Nenhum SHA autorreferencial é registrado.
+================================================================================
