@@ -5535,3 +5535,20 @@ Progresso condicionado à publicação e revalidação: 2.544 → 2.564 de 8.287
 AUDITORIA_CONCLUIDA = NÃO. Não declarar auditoria individual integral, teste funcional real de navegador, CI ou integração/merge em chat-gpt-commits; não incrementar total_auditoria_concluida. A colação automática de elementos gregos adicionais enfrentou erro interno na ferramenta de leitura; manter cautela editorial e reabrir conferência nessa etapa.
 Publicação apenas com commit único e update_ref com expected_sha exato, force=false; pós-publicação verificar HEAD, blobs, manifesto e diff. Nenhum SHA autorreferencial é registrado.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 118 — ἐμπί(μ)πρημι → ἐμφυσάω — 09/11/2026
+================================================================================
+Branch de trabalho exclusiva: chat-gpt-bdag.
+HEAD anterior confirmado: 6e9b8966607b5cabc62602fc4c75f4270384ec7d.
+Fonte exclusiva de leitura e tradução: HTML canônico do BDAG, biblioteca do projeto; artigos entre ἐμπί(μ)πρημι e ἐμφυσάω.
+Vinte cabeçalhos autônomos em ordem: ἐμπί(μ)πρημι; ἐμπίπτω; ἔμπλαστρος; ἐμπλέκω; ἐμπλοκή; ἐμπνέω; ἐμποδίζω; ἐμπολιτεύω; ἐμπορεύομαι; ἐμπορία; ἐμπόριον; ἔμπορος; ἔμπροσθεν; ἐμπτύω; ἐμφανής; ἐμφανίζω; ἔμφοβος; ἐμφράσσω; ἐμφύρω; ἐμφυσάω.
+Próximo cabeçalho não incorporado: ἔμφυτος, ον.
+Arquivo lexicográfico: lexicons/bdag-part-0118.js, BDAG_PART_0118, 20 linhas HTML de busca e 20 cartões correspondentes, em sequência idêntica.
+Transposição editorial feita por leitura direta dos artigos do HTML canônico, abrangendo acepções e subdivisões, dados morfológicos, grego original, citações, referências, variantes, ressalvas e bibliografia. Não foram utilizados PDFs substitutivos. Foi tentada colação automática adicional dos spans gregos; a leitura da ferramenta falhou internamente. NÃO apresentar essa etapa mecânica como certificada; manter aberta a auditoria filológica individual.
+Regressão estrutural: 116 módulos anteriores foram conferidos no HEAD imediatamente anterior por grupos, com 2544 pares; módulo 117 validado no último commit com 20 pares. IDs de todos os 117 módulos anteriores conferidos contra os 20 novos (total esperado 2584): nenhuma duplicação global. HTML e pares novos revalidados estruturalmente.
+Manifesto: inserir apenas lexicons/bdag-part-0118.js após lexicons/bdag-part-0117.js e antes de lexicons/leh.js, mantendo a ordem e os módulos de outras fontes.
+Progresso SOMENTE após publicação e revalidação remota: 2564 → 2584 de 8287, 31,18%, restam 5703.
+AUDITORIA_CONCLUIDA = NÃO; sem teste funcional real de DOM, links, popups e teclado, CI, auditoria atômica individual completa e integração/merge comprovada em chat-gpt-commits. Não incrementar total_auditoria_concluida.
+Publicar em commit único sobre HEAD real, update_ref expected_sha exato e force=false. Revalidar HEAD, blobs, manifesto e diff após publicar.
+================================================================================
