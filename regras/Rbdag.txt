@@ -5104,3 +5104,59 @@ Limitações: colação e tradução a partir do HTML não equivalem à auditori
 AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida enquanto não estiverem satisfeitas todas as exigências de regras/Rauditoria.txt, incluindo correções e integração confirmada.
 Publicação condicionada a commit único sobre o HEAD remoto atual com expected_sha exato e force=false. Após publicar, revalidar HEAD, diff, manifesto e SHA dos blobs. A confirmação separada da árvore do commit pode estar limitada pela API; relatar com precisão.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 111 — ἐκπορνεύω → ἐκτινάσσω — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD remoto inicial verificado: 17e06b8c7011c92dbdbd281f471492e79ff123e1.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+A Greek-English Lexicon of the New Testament and Other Early Christian Literature
+- Frederick William Danker, Walter Bauer.html, linhas 30975–31107.
+Sequência confirmada de 20 cabeçalhos autônomos, sem saltos:
+01. ἐκπορνεύω
+02. ἐκπρεπής, ές
+03. ἐκπτύω
+04. ἐκπυρόω
+05. ἐκριζόω
+06. ἐκρίπτω
+07. ἔκρυσις, εως, ἡ
+08. ἔκστασις, εως, ἡ
+09. ἐκστρέφω
+10. ἐκσφενδονάω
+11. ἐκσῴζω
+12. ἐκταράσσω
+13. ἐκτείνω
+14. ἐκτελέω
+15. ἐκτένεια, ας, ἡ
+16. ἐκτενής, ές
+17. ἐκτενῶς
+18. ἐκτίθημι
+19. ἐκτίλλω
+20. ἐκτινάσσω
+Traduções editoriais em português brasileiro, seguindo os vinte artigos da fonte
+com morfologia, distinções de acepções, construções gregas, citações,
+referências antigas, variantes e bibliografia; sem usar PDFs para completar
+o conteúdo. É material lexical incorporado, não certificação de auditoria
+filológica individual e integral.
+Módulo preparado: lexicons/bdag-part-0111.js; identificador:
+window.ScripturaLexicons.BDAG_PART_0111; 20 linhas de busca e 20 cartões.
+Verificação estática do HTML novo: tags equilibradas, 20 IDs e alvos
+correspondentes, sem ocorrências novas de beta.perseus.tufts.edu.
+Regressão estática de TODOS os 110 módulos BDAG anteriores mais o novo:
+2.444 linhas de busca, 2.444 cartões, 2.444 IDs únicos, 2.444 data-target
+únicos; duplicações 0, cartões órfãos 0, linhas órfãs 0, divergência de
+contagens 0. Blobs anteriores preservados.
+Manifesto: inserir apenas lexicons/bdag-part-0111.js imediatamente após
+lexicons/bdag-part-0110.js e antes de lexicons/leh.js; 2137 → 2138
+entradas. Nenhum módulo preexistente modificado.
+Progresso após confirmação de publicação: 2.424 → 2.444 / 8.287
+(29,49%); 5.843 cabeçalhos restantes. Próximo: ἐκτιτρώσκω.
+Limitações honestas: ausência de certificado de colação filológica
+independente integral por verbete; DOM/navegador e CI não executados; PR/merge
+e integração à branch consolidada não comprovados nesta etapa. Esses controles
+não devem ser declarados aprovados.
+AUDITORIA_CONCLUIDA = NÃO.
+Publicação condicionada a commit único sobre HEAD remoto com expected_sha exato
+e force=false. Revalidar remotamente HEAD, árvore e blobs após publicação.
+================================================================================
