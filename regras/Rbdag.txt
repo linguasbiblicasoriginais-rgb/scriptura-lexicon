@@ -5603,3 +5603,63 @@ A publicação só é admitida com um commit direto sobre o HEAD exato e
 update_ref expected_sha exato, force=false, seguida de verificação
 do novo HEAD, árvore, manifesto, blobs e diff; nenhum SHA autorreferencial.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 120 — ἐνδείκνυμι → ἔνδυσις, εως, ἡ — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag; HEAD-base remoto conferido:
+f5050387e18765bc299f6fd0eb417e4c8b902f43. Lote exato de 20 cabeçalhos consecutivos
+do HTML canônico BDAG, arquivo de Biblioteca intitulado
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html" (versão 1).
+Fonte HTML consultada nas linhas 32363–32521, incluindo 20 artigos
+e a fronteira com o próximo lema, ἐνδύω. PDFs, outros léxicos e
+pesquisas externas não foram usados como substitutos da fonte.
+Verbetes autônomos (20), em ordem:
+01 ἐνδείκνυμι; 02 ἔνδειξις, εως, ἡ; 03 ἕνδεκα;
+04 ἑνδέκατος, η, ον; 05 ἐνδελεχισμός, οῦ, ὁ;
+06 ἐνδέχομαι; 07 I. ἐνδέω; 08 II. ἐνδέω;
+09 ἐνδημέω; 10 ἐνδιδύσκω; 11 ἔνδικος, ον;
+12 ἔνδοθεν; 13 ἐνδόμησις; 14 ἐνδοξάζομαι;
+15 ἔνδοξος, ον; 16 ἐνδόξως; 17 ἔνδυμα, ατος, τό;
+18 ἐνδυναμόω; 19 ἐνδύνω; 20 ἔνδυσις, εως, ἡ.
+Próximo cabeçalho não incorporado: ἐνδύω.
+Dois artigos homógrafos ἐνδέω distinguidos por I e II, sem
+fusão de sentidos e com IDs independentes. A remissão
+ἐνδόμησις → ἐνδώμησις preserva a grafia e o caráter de variante.
+O texto grego de ἔνδοθεν, inclusive reconstruções entre sinais
+críticos, foi preservado sem conjecturas.
+Novo arquivo lexicográfico: lexicons/bdag-part-0120.js,
+window.ScripturaLexicons.BDAG_PART_0120, 20 search-row e
+20 entry-card, alinhados 1:1, sem IDs repetidos. Tradução das
+acepções, subdivisões, regência, variantes, morfologia, comentários,
+autores, datas, exemplos gregos e bibliografia segundo o HTML.
+Uma referência interna em ἐνδημέω foi explicitada como 2Co 5:9.
+Regressão: 118 módulos BDAG históricos cotejados a partir das
+evidências de verificação de IDs e SHA, contra a árvore real,
+mais bdag-part-0119.js; todos os seus blobs permaneceram intactos;
+2604 pares existentes, sem duplicatas; com 20 novos, resultado
+projetado de 2624 IDs globais distintos, 2624 linhas e cartões,
+sem divergência de data-target. Sintaxe de JavaScript verificada,
+tags e estrutura HTML equilibradas; sem domínio proibido.
+O leitor do HTML canônico teve falhas intermitentes na colação
+programática suplementar, após a recuperação e leitura dos textos
+necessários. Não considerar verificação mecânica exaustiva ou
+auditoria filológica independente por verbete como certificadas.
+Manifesto lexicon-modules.json: inserir somente
+lexicons/bdag-part-0120.js imediatamente após
+lexicons/bdag-part-0119.js e antes de lexicons/leh.js.
+Popups BDAG adicionados: nenhum; bibliographicTerms inalterado.
+Arquivos de infraestrutura e módulos de outras fontes intocados.
+Progresso APÓS publicação e revalidação remota:
+2604 → 2624 de 8287 (31,66%); restantes 5663.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Sem execução confirmada de teste funcional de navegador/DOM, CI,
+auditoria atômica independente artigo a artigo ou integração/merge
+comprovada em chat-gpt-commits. A conclusão editorial deste lote
+não deve ser apresentada como auditoria atômica concluída.
+Publicação apenas em um commit direto no HEAD remoto exato,
+sem force e com expected_sha preciso; revalidar após commit:
+HEAD, árvore, blobs, manifesto, diff e integridade dos módulos.
+Nenhum SHA autorreferencial será inserido neste registro.
+================================================================================
