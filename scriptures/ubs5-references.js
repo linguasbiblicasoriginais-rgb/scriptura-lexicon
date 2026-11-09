@@ -9,7 +9,7 @@
     ["MRK","Mc","UBS5","Mc","Mk","Mark","Marcos"],
     ["LUK","Lc","UBS5","Lc","Lk","Luke","Lucas"],
     ["JHN","Jo","UBS5","Jo","Jn","John","João"],
-    ["ACT","At","UBS5","At","Acts","Atos"],
+    ["ACT","At","UBS5","At","Ac","Acts","Atos"],
     ["ROM","Rm","UBS5","Rm","Rom","Romans","Romanos"],
     ["1CO","1Co","UBS5","1Co","1 Cor","1Cor","1 Corinthians","1 Coríntios"],
     ["2CO","2Co","UBS5","2Co","2 Cor","2Cor","2 Corinthians","2 Coríntios"],
@@ -87,23 +87,49 @@
   const alternatives=[...new Set(spellings)].sort((a,b)=>b.length-a.length)
     .map(s=>escape(s).replace(/\s+/g,"\\s*"));
   const matchRefs=new RegExp("(^|[^\\p{L}\\p{N}])("+alternatives.join("|")+")\\.?\\s+(\\d{1,3})\\s*[.:]\\s*(\\d{1,3})(?:\\s*[-\\u2010-\\u2015\\u2212]\\s*(?:(\\d{1,3})\\s*[.:]\\s*)?(\\d{1,3}))?","giu");
+  // Remissões compostas, elisões de livro/capítulo e sufixos parciais a/b.
+  const bookPrefix = new RegExp("^("+alternatives.join("|")+")\\.?\\s+","iu");
+  const rangeDash = "[-\\u2010-\\u2015\\u2212]";
+  const fullReference = new RegExp("^(\\d{1,3})\\s*[.:]\\s*(\\d{1,3})([ab])?(?:\\s*"+rangeDash+"\\s*(?:(\\d{1,3})\\s*[.:]\\s*)?(\\d{1,3})([ab])?)?$","iu");
+  const relativeReference = new RegExp("^(\\d{1,3})([ab])?(?:\\s*"+rangeDash+"\\s*(\\d{1,3})([ab])?)?$","iu");
   function parse(source){
     if(typeof source!=="string"||!source.trim())return [];
-    const found=[];
-    matchRefs.lastIndex=0;
-    let m;
-    while((m=matchRefs.exec(source))!==null){
-      const info=bookMap.get(normalizeAlias(m[2]));
-      if(!info)continue;
-      const chapter=Number(m[3]),verse=Number(m[4]);
-      const endChapter=m[6]?Number(m[5]||m[3]):chapter;
-      const endVerse=m[6]?Number(m[6]):verse;
-      if(!chapter||!verse||endChapter<chapter||(endChapter===chapter&&endVerse<verse))continue;
-      const ending=m[6]?(endChapter===chapter?"–"+endVerse:"–"+endChapter+"."+endVerse):"";
-      found.push(Object.freeze({...info,chapter,verse,endChapter,endVerse,
-        label:info.short+" "+chapter+"."+verse+ending,raw:m[0].trim()}));
+    const refs=[];
+    let currentBook=null, currentChapter=null;
+    const clauses=source.replace(/[\u2000-\u200b\u202f]/g," ")
+      .replace(/\b(?:See|Ver|Cf)\.?\s+/giu,"").replace(/[()]/g,"").split(";");
+    for(const clause of clauses){
+      let remaining=clause.trim();
+      if(!remaining)continue;
+      const named=bookPrefix.exec(remaining);
+      if(named){
+        currentBook=bookMap.get(normalizeAlias(named[1]))||null;
+        currentChapter=null;
+        remaining=remaining.slice(named[0].length).trim();
+      }
+      if(!currentBook)continue;
+      for(const segment of remaining.split(/\s*,\s*/)){
+        if(!segment)continue;
+        const full=fullReference.exec(segment),relative=full?null:relativeReference.exec(segment);
+        if(!full&&!relative)continue;
+        const chapter=full?Number(full[1]):currentChapter;
+        const verse=full?Number(full[2]):Number(relative[1]);
+        if(!Number.isSafeInteger(chapter)||chapter<1||verse<1)continue;
+        const endChapter=full&&full[5]?Number(full[4]||chapter):chapter;
+        const endVerse=full?(full[5]?Number(full[5]):verse):(relative[3]?Number(relative[3]):verse);
+        const startPart=full?(full[3]||""):(relative[2]||"");
+        const endPart=full?(full[6]||""):(relative[4]||"");
+        if(endChapter<chapter||(endChapter===chapter&&endVerse<verse))continue;
+        currentChapter=chapter;
+        const last=full?Boolean(full[5]):Boolean(relative[3]);
+        const ending=last?(endChapter===chapter?
+            "–"+endVerse+endPart:"–"+endChapter+"."+endVerse+endPart):"";
+        const label=currentBook.short+" "+chapter+"."+verse+startPart+ending;
+        refs.push(Object.freeze({...currentBook,chapter,verse,startPart,endChapter,endVerse,endPart,
+          label,raw:segment.trim()}));
+      }
     }
-    return found;
+    return refs;
   }
   window.ScripturaUBS5References=Object.freeze({parse});
 })();

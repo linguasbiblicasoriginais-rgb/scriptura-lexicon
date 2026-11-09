@@ -151,9 +151,11 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         readingLayout.classList.add("scripture-reading-layout--open");
         crossrefPanel.hidden=false;
         crossrefTitle.textContent=ref.label;
-        crossrefEdition.textContent=ref.edition==="UBS5" ?
+        crossrefEdition.textContent=(ref.edition==="UBS5" ?
             "Fonte: UBS5 · Novo Testamento grego" :
-            "Fonte: Septuaginta (LXX) · Antigo Testamento grego; não integra a UBS5";
+            "Fonte: Septuaginta (LXX) · Antigo Testamento grego; não integra a UBS5") +
+            ((ref.startPart||ref.endPart) ?
+            " · Referência parcial (a/b): o versículo é mostrado integralmente." : "");
         crossReferenceMessage("Carregando a passagem referenciada…");
         const loader=window.ScripturaChapterLoader;
         const maxChapter=catalog[ref.edition]?.find(item=>item.id===ref.book)?.chapters;
@@ -343,7 +345,14 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         const separatorEnds=new Set(editorialSeparators.map(Number));
         const headings=window.ScripturaScriptureHeadings?.[state.edition]?.[where.id]?.[where.chapter]||[];
         const unnumberedPassages=window.ScripturaScriptureUnnumberedPassages?.[state.edition]?.[where.id]?.[where.chapter]||[];
-        const headingsByVerse=new Map(headings.map(h=>[Number(h.beforeVerse),h]));
+        // A edição pode trazer mais de um título para o mesmo versículo
+        // (p.ex. final longo de Marcos + aparição a Maria Madalena).
+        const headingsByVerse=new Map();
+        for(const item of headings){
+            const n=Number(item.beforeVerse);
+            if(!headingsByVerse.has(n))headingsByVerse.set(n,[]);
+            headingsByVerse.get(n).push(item);
+        }
         const grouping=window.ScripturaScriptureParagraphs;
         const greek=grouping.greekEditions.has(state.edition);
         const protectedWords=greek?grouping.sourceGreekInitials(verses):null;
@@ -358,6 +367,13 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                 if(Number(item.beforeVerse)!==first)continue;
                 const section=document.createElement("section");
                 section.className="scripture-section-heading";
+                if(state.edition==="UBS5"){
+                    section.classList.add("scripture-section-heading--editorial");
+                    const editorial=document.createElement("span");
+                    editorial.className="scripture-section-editorial-label";
+                    editorial.textContent="Passagem editorial não numerada · UBS5";
+                    section.append(editorial);
+                }
                 const title=document.createElement("h3");
                 title.textContent=item.title||"Passagem não numerada";
                 section.append(title);
@@ -377,8 +393,8 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                 else content.textContent=item.text;
                 paragraph.append(content);section.append(paragraph);fragment.append(section);
             }
-            const heading=headingsByVerse.get(first);
-            if(heading){
+            const currentHeadings=headingsByVerse.get(first)||[];
+            for(const heading of currentHeadings){
                 const section=document.createElement("div");
                 section.className="scripture-section-heading";
                 if(state.edition==="UBS5"){
