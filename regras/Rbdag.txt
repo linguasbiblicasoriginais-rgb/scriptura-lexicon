@@ -5487,3 +5487,37 @@ estão comprovados. Não incrementar total_auditoria_concluida.
 Publicação somente por commit atômico com expected_sha exato do HEAD
 e force=false; revalidar SHA do HEAD, árvore e blobs no remoto.
 ================================================================================
+
+================================================================================
+BDAG — CONTINUIDADE DO LOTE 116 — 09/11/2026 (PUBLICAÇÃO PREVISTA NESTE COMMIT)
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD anterior verificado: e95945d3c315dabce2aff7edc4775fe3a1b0391c.
+Fonte: HTML canônico fornecido pelo mantenedor, sem uso de PDF substituto.
+Lote 116: 20 cabeçalhos autônomos, de ἐλλόγιμος, ον a ἐμβροχή, ῆς, ἡ.
+Ordem dos 20: ἐλλόγιμος; Ἐλμαδάμ; ἑλόμενος; ἐλπίζω; ἐλπίς;
+Ἐλύμας; ἐλωί̈; ἔμαθον; ἐμαυτοῦ; ἐμβαίνω; ἐμβάλλω; ἐμβαπτίζω;
+ἐμβάπτω; ἐμβατεύω; ἐμβιβάζω; ἐμβλέπω; ἐμβριθής;
+ἐμβριμάομαι; ἐμβριμῶς; ἐμβροχή.
+Próximo cabeçalho no HTML canônico: ἐμέω.
+Novo módulo: lexicons/bdag-part-0116.js, registrado imediatamente
+após lexicons/bdag-part-0115.js em lexicon-modules.json.
+Base conferida: 115 módulos BDAG, 2524 pares busca/cartão.
+Projeção após publicação: 116 módulos, 2544/8287 verbetes
+(30,70%), 2544 linhas e 2544 cartões, desde que a verificação
+pós-publicação confirme o estado remoto.
+Testes preparatórios: 115 módulos antigos em regressão estática,
+unicidade global de 2524 IDs anteriores, 20 novos IDs sem colisão,
+20 pares linha/cartão novos, balanceamento de HTML dos novos pares,
+manifesto de módulos conferido. Estes resultados NÃO constituem
+teste funcional real de navegador nem certificação de auditoria.
+AUDITORIA_CONCLUIDA = NÃO.
+Motivos: ainda não foram comprovados para cada verbete a auditoria
+integral do protocolo Rauditoria, os testes funcionais de navegador
+e a integração PR/merge em chat-gpt-commits.
+Não incrementar total_auditoria_concluida.
+A publicação deve ser um único commit com parent exato no HEAD,
+expected_sha exato e force=false; validar HEAD, árvore, blobs e diff
+após publicação. O SHA definitivo deverá ser consultado no GitHub;
+não gravar SHA autorreferencial neste arquivo.
+================================================================================
