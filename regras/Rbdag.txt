@@ -5313,3 +5313,82 @@ chat-gpt-commits, nenhum item conta como auditoria concluída.
 Publicar em exatamente um commit com expected_sha remoto exato e
 force=false, revalidando HEAD, árvore e blobs imediatamente após.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 114 — ἐλεγμός → Ἐλιακίμ — 09/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag. HEAD inicial confirmado: d2768b910f36ef071e70e7921fcf9af46ec95fe0.
+Árvore Git inicial: 5720b9ba3c8752b9ef4792934109df5dfa56d18d.
+Fonte EXCLUSIVA do conteúdo: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html"; excertos
+localizados e lidos nas linhas 31424–31550 aproximadamente.
+Nenhum outro léxico, PDF ou reconstrução substituiu o texto do HTML.
+Os 20 cabeçalhos autônomos consecutivos, sem saltos nem duplicações:
+01. ἐλεγμός, οῦ, ὁ
+02. ἔλεγξις, εως, ἡ
+03. ἔλεγχος, ου, ὁ
+04. ἐλέγχω
+05. ἐλεεινός, ή, όν
+06. ἐλεέω
+07. ἐλεημοσύνη, ης, ἡ
+08. ἐλεήμων, ον
+09. ἔλεος, ους, τό
+10. ἐλευθερία, ας, ἡ
+11. ἐλευθέριος, (α), ον
+12. ἐλεύθερος, έρα, ον
+13. ἐλευθερόω
+14. ἔλευσις, εως, ἡ
+15. ἐλεύσομαι
+16. ἐλεφάντινος, η, ον
+17. ἐλήλακα
+18. ἐλήλυθα
+19. ἐλθεῖν
+20. Ἐλιακίμ, ὁ
+Remissões autônomas mantidas: ἐλεύσομαι → ἔρχομαι;
+ἐλήλακα → ἐλαύνω; ἐλήλυθα → ἔρχομαι; ἐλθεῖν → ἔρχομαι.
+Próximo cabeçalho fora do lote: ἕλιγμα, ατος, τό.
+As traduções portuguesas foram compostas a partir da leitura direta do
+HTML, preservando acepções e subdivisões da fonte, construções e expressões
+gregas, dados morfológicos, citações bíblicas e extrabíblicas, testemunhos,
+variantes críticas, bibliografia e ressalvas de certeza.
+Pontos complexos: ἔλεγχος (três acepções e interpretações concorrentes
+de Hv 1, 1, 6 e Hb 11:1); ἐλέγχω (quatro acepções, passivos e variantes);
+ἐλεέω (uso pessoal e divino, passivo e concessão graciosa);
+ἐλεημοσύνη (caridade como atividade ou objeto doado);
+ἔλεος (neutro, variante masculina, misericórdia humana/divina);
+ἐλευθερία (liberdade jurídica, espiritual, bibliografia extensa);
+ἐλεύθερος (duas acepções, construções gramaticais e paradoxo).
+Módulo novo: lexicons/bdag-part-0114.js,
+window.ScripturaLexicons.BDAG_PART_0114. 20 search-row e
+20 entry-card; 20 IDs distintos, 20 data-target correspondentes, HTML
+estaticamente equilibrado, dados de busca na ordem original, zero
+duplicação interna, zero novos links beta.perseus.tufts.edu, zero popups
+bibliográficos adicionados.
+REGRESSÃO GLOBAL BDAG: checkpoint anterior de 2.444 linhas/cartões,
+IDs e destinos globalmente únicos, abrangendo os 111 módulos até
+bdag-part-0111.js; comparação dos SHA de TODOS esses módulos à árvore
+remota atual: zero diferenças, checkpoint sem problemas. Módulos 112 e
+113 lidos e conferidos individualmente, 20 pares cada. Acrescidos
+20 pares do lote 114, os 2.504 IDs globais e os 2.504 destinos
+são distintos e têm correspondência por ordem, sem colisões nem órfãos.
+Os novos IDs não colidem com index.html ou lexicons/leh.js examinados.
+A regressão é ESTÁTICA e usa SHA de módulos inalterados e índice global
+previamente verificado; não se deve chamá-la de teste de DOM/CI.
+MANIFESTO: lexicon-modules.json, 2140 → 2141
+caminhos, somente lexicons/bdag-part-0114.js inserido imediatamente
+após bdag-part-0113.js e antes de lexicons/leh.js. Nenhum módulo antigo,
+outro léxico ou infraestrutura modificado.
+PROGRESSO somente após confirmação remota de publicação:
+2.484 → 2.504 de 8.287 (30,22%), restando 5.783 verbetes.
+AVALIAÇÃO: colação preparatória por leitura direta do HTML canônico,
+mas tentativa de colação mecânica suplementar exaustiva de formas e
+expressões gregas falhou por indisponibilidade interna do files.read.
+NÃO TESTADOS: execução real de DOM/navegador, build/CI, PR e merge
+em chat-gpt-commits. Sem auditoria filológica independente integral
+individual e integração confirmada; nenhum verbete novo é homologado.
+AUDITORIA_CONCLUIDA = NÃO.
+Publicar somente em um único commit a partir do HEAD remoto atual,
+com expected_sha exato e force=false; revalidar HEAD, árvore e blobs.
+================================================================================
