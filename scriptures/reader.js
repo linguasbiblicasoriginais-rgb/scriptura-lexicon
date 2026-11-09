@@ -82,10 +82,18 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         '</div>' +
         '<div class="scripture-reader-navigation"><button id="scripture-previous-chapter" type="button">← Capítulo anterior</button>' +
         '<button id="scripture-next-chapter" type="button">Próximo capítulo →</button></div>' +
+        '<div id="scripture-reading-layout" class="scripture-reading-layout">' +
         '<div class="scripture-reader-result" aria-live="polite">' +
         '<div class="scripture-reader-category" id="scripture-category"></div>' +
         '<h2 id="scripture-reference"></h2><p id="scripture-original" class="scripture-reader-original"></p>' +
         '<div id="scripture-text" class="scripture-text"></div></div>' +
+        '<aside id="scripture-crossref-panel" class="scripture-crossref-panel" tabindex="-1" aria-labelledby="scripture-crossref-title" hidden>' +
+        '<div class="scripture-crossref-header"><div><span class="scripture-crossref-kicker">Leitura paralela</span>' +
+        '<h3 id="scripture-crossref-title"></h3></div>' +
+        '<button type="button" id="scripture-crossref-close" class="scripture-crossref-close" aria-label="Fechar leitura paralela">×</button></div>' +
+        '<p id="scripture-crossref-edition" class="scripture-crossref-edition"></p>' +
+        '<div id="scripture-crossref-text" class="scripture-crossref-text" role="status" aria-live="polite"></div>' +
+        '</aside></div>' +
         '<p id="scripture-limit-note" class="scripture-limit-note">A numeração exata dos versículos ainda depende da versificação de cada edição. A entrada de um número não comprova sua existência.</p>' +
         '<div class="scripture-reader-actions"><a id="scripture-external" href="#" target="_blank" rel="noopener noreferrer">Consultar capítulo na edição de origem ↗</a>' +
         '<button id="scripture-copy" type="button">Copiar referência</button></div>' +
@@ -100,6 +108,11 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     const reference = panel.querySelector("#scripture-reference");
     const original = panel.querySelector("#scripture-original");
     const textRegion = panel.querySelector("#scripture-text");
+    const readingLayout = panel.querySelector("#scripture-reading-layout");
+    const crossrefPanel = panel.querySelector("#scripture-crossref-panel");
+    const crossrefText = panel.querySelector("#scripture-crossref-text");
+    const crossrefTitle = panel.querySelector("#scripture-crossref-title");
+    const crossrefEdition = panel.querySelector("#scripture-crossref-edition");
     const wordUI = window.ScripturaWordPopups?.attach(panel, textRegion) || null;
     const external = panel.querySelector("#scripture-external");
     const feedback = panel.querySelector("#scripture-reader-feedback");
@@ -108,6 +121,101 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     });
     const initialVisibility = new Map(siblings.map(function (node) { return [node, node.hidden]; }));
     const state = { scope: "escrituras", edition: "UXLC", bookId: "GEN", chapter: 1, verse: 1 };
+    // Remissões editoriais UBS5: painel independente da seleção principal.
+    // O capítulo de referência é carregado sob demanda, preservando sua edição.
+    let crossrefRequest = 0;
+    let crossrefTrigger = null;
+    function closeCrossReference(restoreFocus) {
+        ++crossrefRequest;
+        crossrefPanel.hidden = true;
+        readingLayout.classList.remove("scripture-reading-layout--open");
+        for (const el of panel.querySelectorAll(".scripture-crossref-link[aria-expanded='true']"))
+            el.setAttribute("aria-expanded","false");
+        const trigger=crossrefTrigger;
+        crossrefTrigger=null;
+        if (restoreFocus && trigger?.isConnected) trigger.focus();
+    }
+    function crossReferenceMessage(message) {
+        crossrefText.replaceChildren();
+        const note=document.createElement("p");
+        note.className="scripture-crossref-message";
+        note.textContent=message;
+        crossrefText.append(note);
+    }
+    function openCrossReference(ref,trigger) {
+        const ticket=++crossrefRequest;
+        if (crossrefTrigger?.isConnected) crossrefTrigger.setAttribute("aria-expanded","false");
+        crossrefTrigger=trigger;
+        trigger.setAttribute("aria-expanded","true");
+        const name=catalog[ref.edition]?.find(item=>item.id===ref.book)?.name||ref.short;
+        readingLayout.classList.add("scripture-reading-layout--open");
+        crossrefPanel.hidden=false;
+        crossrefTitle.textContent=ref.label;
+        crossrefEdition.textContent=ref.edition==="UBS5" ?
+            "Fonte: UBS5 · Novo Testamento grego" :
+            "Fonte: Septuaginta (LXX) · Antigo Testamento grego; não integra a UBS5";
+        crossReferenceMessage("Carregando a passagem referenciada…");
+        const loader=window.ScripturaChapterLoader;
+        const maxChapter=catalog[ref.edition]?.find(item=>item.id===ref.book)?.chapters;
+        if (!Number.isSafeInteger(maxChapter)||ref.chapter>maxChapter||
+            ref.endChapter>maxChapter||ref.endChapter-ref.chapter>19) {
+            crossReferenceMessage("A referência ultrapassa os capítulos disponíveis para este livro.");
+            crossrefPanel.focus();
+            return;
+        }
+        const chapters=[];
+        for(let c=ref.chapter;c<=ref.endChapter;c++)chapters.push(c);
+        if (!loader || chapters.some(c=>!loader.location(ref.edition,ref.book,c))) {
+            crossReferenceMessage(ref.edition==="UBS5" ?
+                "Esta passagem ainda não foi incorporada à UBS5. Nenhum texto de outra edição será apresentado como se pertencesse à UBS5." :
+                "O capítulo não está disponível na coleção LXX deste leitor.");
+            crossrefPanel.focus();
+            return;
+        }
+        crossrefPanel.focus();
+        Promise.all(chapters.map(c=>loader.load(ref.edition,ref.book,c))).then(maps=>{
+            if(ticket!==crossrefRequest||crossrefPanel.hidden)return;
+            const fragment=document.createDocumentFragment();
+            let shown=0;
+            maps.forEach((verseMap,index)=>{
+                const c=chapters[index];
+                const first=c===ref.chapter?ref.verse:1;
+                const last=c===ref.endChapter?ref.endVerse:Number.MAX_SAFE_INTEGER;
+                const entries=Object.entries(verseMap).filter(([v])=>Number(v)>=first&&Number(v)<=last)
+                    .sort((a,b)=>Number(a[0])-Number(b[0]));
+                if (!entries.length)return;
+                const heading=document.createElement("h4");
+                heading.className="scripture-crossref-chapter";
+                heading.textContent=name+" "+c;
+                fragment.append(heading);
+                for(const [number,content] of entries){
+                    const line=document.createElement("p");
+                    line.className="scripture-crossref-verse";
+                    const numberSpan=document.createElement("span");
+                    numberSpan.className="scripture-crossref-number";
+                    numberSpan.textContent=number+" ";
+                    const greek=document.createElement("bdi");
+                    greek.lang="grc";
+                    greek.dir="ltr";
+                    greek.textContent=content;
+                    line.append(numberSpan,greek);
+                    fragment.append(line);
+                    ++shown;
+                }
+            });
+            if(ticket!==crossrefRequest||crossrefPanel.hidden)return;
+            if(!shown){
+                crossReferenceMessage("Não há versículos numerados nessa faixa da edição selecionada.");
+            }else crossrefText.replaceChildren(fragment);
+        }).catch(()=>{
+            if(ticket!==crossrefRequest||crossrefPanel.hidden)return;
+            crossReferenceMessage("Não foi possível carregar a passagem. Verifique a conexão e clique novamente na referência para tentar de novo.");
+        });
+    }
+    panel.querySelector("#scripture-crossref-close").addEventListener("click",()=>closeCrossReference(true));
+    crossrefPanel.addEventListener("keydown",event=>{
+        if(event.key==="Escape"){event.preventDefault();closeCrossReference(true);}
+    });
     function makeOption(value, label, group) {
         const option = document.createElement("option");
         option.value = value;
@@ -273,6 +381,13 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
             if(heading){
                 const section=document.createElement("div");
                 section.className="scripture-section-heading";
+                if(state.edition==="UBS5"){
+                    section.classList.add("scripture-section-heading--editorial");
+                    const note=document.createElement("span");
+                    note.className="scripture-section-editorial-label";
+                    note.textContent="Título editorial · UBS5 (não integra o texto bíblico)";
+                    section.append(note);
+                }
                 if(typeof heading.bookTitle==="string"){
                     const bookLabel=document.createElement("p");
                     bookLabel.className="scripture-section-book-label";
@@ -284,9 +399,28 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
                     title.textContent=heading.title;section.append(title);
                 }
                 if(typeof heading.parallel==="string"){
-                    const parallel=document.createElement("p");
+                    const parallel=document.createElement("div");
                     parallel.className="scripture-section-parallel";
-                    parallel.textContent=heading.parallel;section.append(parallel);
+                    const refs=state.edition==="UBS5" ?
+                        (window.ScripturaUBS5References?.parse(heading.parallel)||[]) : [];
+                    if(refs.length){
+                        const label=document.createElement("span");
+                        label.className="scripture-section-parallel-label";
+                        label.textContent="Referências: ";
+                        parallel.append(label);
+                        for(const ref of refs){
+                            const button=document.createElement("button");
+                            button.type="button";
+                            button.className="scripture-crossref-link";
+                            button.textContent=ref.label;
+                            button.setAttribute("aria-controls","scripture-crossref-panel");
+                            button.setAttribute("aria-expanded","false");
+                            button.setAttribute("aria-label","Consultar "+ref.label+" em leitura paralela");
+                            button.addEventListener("click",()=>openCrossReference(ref,button));
+                            parallel.append(button);
+                        }
+                    }else parallel.textContent=heading.parallel;
+                    section.append(parallel);
                 }
                 fragment.append(section);
             }
@@ -391,6 +525,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
     }
     let renderRequest = 0;
     function render() {
+        closeCrossReference(false);
         const ticket = ++renderRequest;
         const selected = book();
         const lang = state.edition === "UXLC" ? "he" : (state.edition === "VUL" || state.edition === "VULJ") ? "la" : "grc";
@@ -490,6 +625,7 @@ const rawCatalog = {"UXLC":"Torá|בְּרֵאשִׁית|Gênesis|50|GEN\nTorá|
         if (updateHash) syncHash();
     }
     function hide() {
+        closeCrossReference(false);
         renderRequest++;
         wordUI?.close(false);
         panel.hidden = true;

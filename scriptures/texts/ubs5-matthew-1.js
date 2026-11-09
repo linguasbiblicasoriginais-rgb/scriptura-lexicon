@@ -41,8 +41,8 @@
     },
     {
         "beforeVerse": 18,
-        "title": "The Birth of Jesus Christ",
-        "parallel": "(Lk 2.1‑7)"
+        "title": "O nascimento de Jesus Cristo",
+        "parallel": "(Lc 2.1–7)"
     }
 ];
     window.ScripturaScriptureTexts = window.ScripturaScriptureTexts || {};
