@@ -5663,3 +5663,59 @@ sem force e com expected_sha preciso; revalidar após commit:
 HEAD, árvore, blobs, manifesto, diff e integridade dos módulos.
 Nenhum SHA autorreferencial será inserido neste registro.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 121 — ἐνδύω → ἐνεργέω — 09/11/2026
+================================================================================
+Branch: chat-gpt-bdag. HEAD-base:
+99478b1a4cef7faba331a56a5b57b3e5ae0f0fb4.
+Fonte exclusiva: HTML canônico BDAG, arquivo de Biblioteca
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html" (versão 1).
+Trecho do documento indexado: linhas aproximadamente 32515–32640;
+fronteiras consultadas diretamente no HTML, não em outro léxico ou PDF.
+20 cabeçalhos consecutivos:
+01 ἐνδύω; 02 ἐνδώμησις, εως, ἡ; 03 ἐνεγκ-;
+04 ἐνέδρα, ας, ἡ; 05 ἐνεδρεύω; 06 ἔνεδρον, ου, τό;
+07 ἐνειλέω; 08 ἔνειμι; 09 ἕνεκα; 10 ἐνέκρυψα;
+11 ἐνελίσσω; 12 ἐνέμεινα; 13 ἐνενήκοντα;
+14 ἐνεός, ά, όν; 15 ἐνέπαιξα, ἐνεπαίχθην;
+16 ἐνέπεσον; 17 ἐνέπλησα, ἐνεπλήσθην;
+18 ἐνέπρησε; 19 ἐνέργεια, ας, ἡ; 20 ἐνεργέω.
+Próximo lema ainda não incorporado: ἐνέργημα, ατος, τό.
+
+Arquivo de publicação: lexicons/bdag-part-0121.js, chave JS
+window.ScripturaLexicons.BDAG_PART_0121; manifesto inclui o
+módulo imediatamente após bdag-part-0120.js, antes de leh.js.
+20 linhas de pesquisa e 20 cartões BDAG; IDs únicos, pareamento
+1:1, HTML equilibrado, sintaxe JS verificada; links bíblicos
+explícitos em die-bibel.de/en/bible/NA28 e letras gregas preservadas.
+Os verbetes extensos ἐνδύω, ἕνεκα, ἐνέργεια e ἐνεργέω
+mantêm subdivisões, regências, formas morfológicas, variantes,
+ressalvas e referências; remissões curtas mantidas como artigos.
+Na colação editorial com o HTML, preservaram-se deliberadamente as
+siglas Wsd e 1 Km da fonte, sem expansão conjectural.
+As consultas complementares ao arquivo canônico tiveram falhas
+intermitentes após leitura efetiva do trecho; não declarar
+cotejo automatizado absolutamente exaustivo nem certificação
+filológica atômica individual concluída.
+
+Regressão estática pré-publicação: inventário dos 118 primeiros
+módulos e seus SHA, conferido com árvore do HEAD-base, além dos
+módulos 119 e 120. Todos os 2624 IDs preexistentes diferentes e
+pares linha/cartão coerentes, sem blobs anteriores modificados.
+Com o lote 121: 2644 IDs globalmente distintos e 2644 pares.
+Verificações lexicais pontuais executadas; alterações estruturais
+restritas ao novo módulo, manifesto e esta regra.
+Popups BDAG adicionados: nenhum; bibliographicTerms preservado.
+Progresso condicionado ao commit e à revalidação do HEAD remoto:
+2624 → 2644 de 8287 (31,91%); restantes 5643.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida:
+sem auditoria individual completa, testes funcionais reais em DOM,
+CI demonstrado e integração/merge no destino chat-gpt-commits.
+A publicação do lote de incorporação não implica aprovação dos
+critérios atômicos de regras/Rauditoria.txt.
+Publicação autorizada somente em commit único sobre HEAD remoto
+exato com expected_sha e force=false. Verificar em seguida
+HEAD, árvore, blobs e diff; não autorreferenciar SHA futuro.
+================================================================================
