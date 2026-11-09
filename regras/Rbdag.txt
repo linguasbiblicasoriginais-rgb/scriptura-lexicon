@@ -5719,3 +5719,67 @@ Publicação autorizada somente em commit único sobre HEAD remoto
 exato com expected_sha e force=false. Verificar em seguida
 HEAD, árvore, blobs e diff; não autorreferenciar SHA futuro.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 122 — ἐνέργημα, ατος, τό → ἐνίστημι — 09/11/2026
+================================================================================
+Branch exclusiva chat-gpt-bdag; HEAD inicial:
+e0d735d76df32e2a501e1e4c61c68dde58bc05f2.
+Fonte exclusiva: HTML canônico "A Greek-English Lexicon of the
+New Testament and Other Early Christian Literature - Frederick
+William Danker, Walter Bauer.html", Biblioteca Scriptura Lexicon,
+versão 1, a partir da linha indexada 32655 até antes de ἐνισχύω.
+Nenhum PDF ou outro léxico substituiu esta fonte.
+20 artigos consecutivos e autônomos:
+01 ἐνέργημα, ατος, τό; 02 ἐνεργής, ές; 03 ἐνερείδω;
+04 ἐνεστηκώς, ἐνεστώς; 05 ἐνευλογέω; 06 ἐνεχθείς;
+07 ἐνέχω; 08 ἔνθα; 09 ἐνθάδε; 10 ἔνθεν;
+11 ἔνθεος, ον; 12 ἐνθυμέομαι; 13 ἐνθύμησις, εως, ἡ;
+14 ἐνί; 15 ἔνι; 16 ἐνιαυτός, οῦ, ὁ;
+17 ἐνιδρύω; 18 ἔνιοι, αι, α; 19 ἐνίοτε; 20 ἐνίστημι.
+Próximo artigo ainda não incorporado: ἐνισχύω.
+ἐνί e ἔνι mantidos separados, com acentuação e IDs individuais;
+formas puramente remissivas conservadas como artigos, sem
+inferir novas acepções; ἐνίστημι com 3 sentidos separados.
+O texto-fonte foi lido na íntegra desses 20 artigos; traduções
+editoriais portuguesas preparadas, colacionadas com os lemas,
+divisões, referências, formas gregas e ressalvas de leitura.
+Triagem programática de 119 segmentos gregos marcados
+resultou em zero ausências, após três reparos fiéis ao HTML
+em pontuação ou acento. Matriz adicional de 82 controles
+pontuais de acepções, variantes e citações: sem falhas finais.
+Isto não equivale a auditoria filológica atômica integral.
+
+Novo módulo: lexicons/bdag-part-0122.js, chave
+window.ScripturaLexicons.BDAG_PART_0122, 20 search-row,
+20 entry-card, pareamento 1:1, tags HTML equilibradas,
+script sintaticamente válido. 51 links bíblicos têm URL
+estruturalmente conforme o padrão NA28 do projeto;
+não declarar teste de navegação ou de rede dos destinos.
+Regressão BDAG: cotejados os SHA de 118 módulos históricos
+com inventário de auditoria e árvore-base, e lidos/verificados
+os módulos 119, 120, 121; 2644 IDs BDAG anteriores
+únicos e pareados. Projeção do lote: 2664 IDs BDAG distintos,
+2664 pares de linha/cartão e ausência de colisões internas.
+Não declarar varredura exaustiva de IDs de todos os demais
+léxicos como concluída.
+Manifesto: adicionar exclusivamente lexicons/bdag-part-0122.js
+após bdag-part-0121.js e antes de lexicons/leh.js.
+Outros módulos lexicográficos, arquivos de infraestrutura,
+bibliographicTerms e regras/Rauditoria.txt preservados.
+Acesso complementar ao HTML apresentou falhas intermitentes,
+mas os artigos e destaques gregos foram recuperados; nenhuma
+certificação de colação automática exaustiva é reivindicada.
+Progresso APÓS publicação e verificação remota:
+2644 → 2664 de 8287 (32,15%); restantes 5623.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Pendentes auditoria atomizada por verbete conforme checklist
+A–J, testes funcionais no DOM/browser, CI executado
+comprovadamente e integração/merge verificado em
+chat-gpt-commits. Commit de incorporação não equivale
+a certificação da auditoria.
+Publicar somente por commit único no HEAD remoto exato,
+update_ref expected_sha igual ao HEAD e force=false.
+Revalidar HEAD, árvore, manifesto, blobs e diff e
+comprovar ausência de alterações em módulos anteriores.
+================================================================================
