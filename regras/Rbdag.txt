@@ -5160,3 +5160,73 @@ AUDITORIA_CONCLUIDA = NÃO.
 Publicação condicionada a commit único sobre HEAD remoto com expected_sha exato
 e force=false. Revalidar remotamente HEAD, árvore e blobs após publicação.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 112 — ἐκτιτρώσκω → ἐκχωρέω — 09/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial verificado: de224c545d99a85f64bfeee60274d1a1d602789c.
+Fonte exclusiva de incorporação: HTML canônico da Biblioteca Scriptura Lexicon:
+A Greek-English Lexicon of the New Testament and Other Early Christian Literature
+- Frederick William Danker, Walter Bauer.html.
+20 cabeçalhos autônomos sucessivos do HTML, do verbete ἐκτιτρώσκω até
+ἐκχωρέω, inclusive; próximo verbete não incorporado: ἐκψύχω.
+LISTA ORDENADA:
+01. ἐκτιτρώσκω
+02. ἕκτος, η, ον
+03. ἐκτός
+04. ἐκτρέπω
+05. ἐκτρέφω
+06. ἐκτρίβω
+07. ἔκτρομος, ον
+08. ἔκτρωμα, ατος, τό
+09. ἐκτυπόω
+10. ἐκφέρω
+11. ἐκφεύγω
+12. ἐκφοβέω
+13. ἔκφοβος, ον
+14. ἔκφρικτος, ον
+15. ἐκφύω
+16. ἐκφωνέω
+17. ἐκχέω
+18. ἐκχύν(ν)ω
+19. ἔκχυσις, εως, ἡ
+20. ἐκχωρέω
+A entrada remissiva independente ἐκχύν(ν)ω conta como um verbete.
+Tradução editorial de todos os 20 artigos para português brasileiro, com
+morfologia, acepções, subdivisões, construções gregas, variantes e testemunhos,
+referências bíblicas, patrísticas, literárias, epigráficas, papirológicas e
+bibliografia da fonte. Casos filológicos de destaque: ἐκτρέπω (Hb 12:13,
+interpretações alternativas e preferência contextual); ἔκτρωμα (1Co 15:8,
+hipóteses de insulto e deficiência); ἐκφύω (acentuações alternativas);
+ἐκχέω (três sentidos, subdivisões, variantes e distinção cultual).
+Fonte original consultada via Files; uma segunda colação MECÂNICA integral
+foi bloqueada por erro interno intermitente no leitor. Não certificar tal
+colação como realizada. Não foram usados PDF nem outros léxicos como
+substitutos do HTML.
+Módulo: lexicons/bdag-part-0112.js e BDAG_PART_0112, composto por 20
+search-row e 20 entry-card. Verificações estruturais estáticas do módulo:
+20 IDs únicos com sufixo -bdag, 20 alvos correspondentes, tags HTML
+equilibradas, strings de dados decodificáveis e nenhuma URL nova para
+beta.perseus.tufts.edu. Popups BDAG adicionados: nenhum.
+Regressão do conjunto BDAG: comparar os SHA dos 111 módulos anteriores,
+a partir da árvore Git remota do HEAD de partida, contra checkpoint global
+de 2.444 pares/IDs unívocos. Todos os 111 blobs conferem, sem alterações.
+Os 20 novos IDs e alvos não colidem com os 2.444 anteriores: 2.464 linhas,
+2.464 cartões, 2.464 IDs globais BDAG e 2.464 alvos exclusivos; divergências,
+órfãos e colisões: 0. Consulta cruzada sem colisões também em index.html e
+lexicons/leh.js para os IDs novos. Inspeção estática, NÃO teste DOM funcional.
+Manifesto: lexicon-modules.json, 2138 → 2139 itens;
+inserir somente lexicons/bdag-part-0112.js depois de bdag-part-0111.js e
+antes de lexicons/leh.js. Blobs antigos preservados, demais fontes intactas.
+Progresso APÓS confirmação remota de publicação: 2.444 → 2.464 / 8.287,
+29,73% incorporados, 5.823 restantes. Próximo cabeçalho: ἐκψύχω.
+AUDITORIA_CONCLUIDA = NÃO.
+A auditoria filológica individual independente, ensaios reais DOM/navegador,
+CI e integração PR/merge na branch consolidada não foram comprovados nesta
+etapa. Não promover nenhum verbete a AUDITORIA_CONCLUIDA sem todas as etapas
+de regras/Rauditoria.txt concluídas com evidência.
+Publicar somente um commit atômico com expected_sha do HEAD remoto exato e
+force=false; após publicação revalidar HEAD, árvore e blobs.
+================================================================================
