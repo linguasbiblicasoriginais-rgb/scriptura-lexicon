@@ -7247,3 +7247,95 @@ em chat-gpt-commits. Sem PR, merge, rebase ou force.
 Publicação única com parent_sha/expected_sha do HEAD validado.
 Conferir HEAD remoto, árvore, blobs e diff depois da publicação.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 140 — ἐπιορκέω → ἐπισήμως — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: daa352afdb10443b3b569486417c3641728f0b88.
+Árvore-base: 78cbed756ddb1c9633906db34e7723f42242570b.
+Fonte filológica única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1. Intervalo inspecionado: linhas 35440–35669, delimitado
+pelos cabeçalhos ἐπιορκέω e o seguinte ἐπισιτισμός, οῦ, ὁ.
+Nenhum PDF ou outra obra substituiu o HTML.
+
+20 artigos autônomos, consecutivos:
+01 ἐπιορκέω
+02 ἐπίορκος, ον
+03 ἐπιοῦσα, ης, ἡ
+04 ἐπιούσιος, ον
+05 ἐπιπέτομαι
+06 ἐπιπίπτω
+07 ἐπιπλήσσω
+08 ἐπιποθέω
+09 ἐπιπόθησις, εως, ἡ
+10 ἐπιπόθητος, ον
+11 ἐπιποθία, ας, ἡ
+12 ἐπιπολύ
+13 ἐπιπορεύομαι
+14 ἐπιπρέπω
+15 ἐπι(ρ)ράπτω
+16 ἐπι(ρ)ρίπτω
+17 ἐπιρρώννυμι
+18 ἐπισείω
+19 ἐπίσημος, ον
+20 ἐπισήμως
+Próximo artigo, excluído: ἐπισιτισμός, οῦ, ὁ.
+
+Tradução editorial em português de 20 artigos com morfologia,
+acepções, subacepções, regências, variantes, testemunhos gregos,
+tradições de tradução, remissões e bibliografia.
+ἐπιούσιος conserva as interpretações concorrentes ①–④ e
+④ⓐ–ⓔ, testemunhos siríacos, latinos e hebraico e bibliografia;
+ἐπιποθέω conserva opções interpretativas alternativas de Tg 4:5.
+ἐπίσημος conserva o contraste entre eminente e notório.
+A origem do conteúdo foi efetivamente consultada no HTML canônico.
+Tentativas subsequentes de leitura da fonte para colação automática
+independente de todos os tokens e números retornaram erro interno;
+portanto NÃO se certifica colação automática exaustiva de todas
+as referências nem auditoria individual A–J.
+
+Módulo: lexicons/bdag-part-0140.js,
+window.ScripturaLexicons.BDAG_PART_0140, source BDAG.
+Testes estáticos: 20 search-row e 20 entry-card, 20 IDs novos
+distintos e correspondência data-target/id 1:1. A normalização
+do romaji inicialmente colidiu para ἐπίσημος e ἐπισήμως; o
+advérbio foi diferenciado com sufixo -adv antes da publicação,
+mantendo os lemas gregos originais.
+HTML estruturalmente equilibrado: 240 tags nas linhas,
+1458 tags nos cartões. Objeto JSON serializável.
+41 links NT no padrão sintático NA28; zero URL malformada;
+zero limite inválido de capítulo ou versículo; nenhuma
+confusão de referências a 1 Clemente com Colossenses.
+Destinos remotos de links não acessados. Sem testes reais de
+DOM/navegador, execução de CI ou integração.
+
+Regressão da árvore-base: consulta remota dos módulos 0127
+até 0139: 260 search-rows e 260 entry-cards; nenhuma
+divergência de contagem. Zero colisão entre os novos IDs
+e os IDs desses 13 módulos. Não se certifica nesta rodada
+uma nova conferência global integral dos 139 módulos
+anteriores. Arquivos preexistentes preservados.
+Manifesto: inserir part-0140 uma única vez após part-0139
+e antes de lexicons/leh.js. Caminhos autorizados SOMENTE:
+lexicons/bdag-part-0140.js,
+lexicon-modules.json,
+regras/Rbdag.txt.
+Preservar bdag.js, bibliographicTerms, Rauditoria.txt,
+outros léxicos, scripts, estilos e infraestrutura.
+
+Progresso condicionado à publicação: 3004 → 3024 de 8287
+(36,49%); restam 5263.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Pendências obrigatórias: colação filológica A–J individual,
+conferência bibliográfica exaustiva, validação de destinos
+de links, testes DOM/navegador, CI e integração autorizada
+em chat-gpt-commits. Nenhum PR, merge, rebase ou force.
+Publicação em commit único com parent_sha e expected_sha
+correspondentes ao HEAD remoto revalidado. Confirmar árvore,
+blobs e diff após publicação. Reconsultar HEAD a cada lote.
+================================================================================
