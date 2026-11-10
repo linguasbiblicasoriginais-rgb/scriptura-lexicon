@@ -6361,3 +6361,87 @@ Publicar em commit único com parent_sha igual ao HEAD real,
 expected_sha exato e force=false; após publicar confirmar HEAD,
 árvore, blobs e diff. Não abrir PR ou realizar merge nesta rotina.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 130 — ἐξιλάσκομαι → ἐξουσία — 10/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base remoto consultado: e9697a6dea2df026a10a703249ebd287dca912e8.
+Árvore-base: c06a813f176e984909492623c1cfa5b4d49220e8.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos e segmentos nas linhas 33811–33987.
+Nenhum conteúdo do PDF ou de outro léxico utilizado como substituto.
+Vinte artigos consecutivos independentes, na ordem canônica:
+01 ἐξιλάσκομαι
+02 ἕξις, εως, ἡ
+03 ἐξίστημι
+04 ἐξισχύω
+05 ἔξοδος, ου, ἡ
+06 ἐξοιδέω
+07 ἐξοίσουσι
+08 ἐξολεθρεύω
+09 ἐξομοιόω
+10 ἐξομολογέω
+11 ἐξομολόγησις, εως, ἡ
+12 ἐξόν
+13 ἐξορίζω
+14 ἐξορκίζω
+15 ἐξορκιστής, οῦ, ὁ
+16 ἐξορύσσω
+17 ἐξουδενέω/ἐξουδενόω
+18 ἐξουθενέω/ἐξουθενόω
+19 ἐξουθένημα, ατος, τό
+20 ἐξουσία, ας, ἡ
+Próximo artigo reservado, fora do lote: ἐξουσιάζω.
+
+Os 48 segmentos de texto do HTML distribuídos pelos 20 artigos
+foram traduzidos ao português brasileiro em camada editorial.
+Preservados os cabeçalhos morfológicos, variantes e grafias,
+citações gregas e hebraicas, testemunhos antigos, remissões
+independentes, referências bíblicas e bibliografia. Em especial:
+ἐξίστημι: contraste transitivo e intransitivo, e suas subdivisões.
+ἐξομολογέω: quatro acepções e semântica de confissão/louvor.
+ἐξουδενέω e ἐξουθενέω: grafias distintas, sem fusão de verbetes.
+ἐξουσία: sete acepções, subdivisões ⓐ/ⓑ na acepção ⑤,
+distinções de direito, poder, autoridade, jurisdição e domínio;
+alternativas interpretativas de 1Co 11:10 e bibliografia integral.
+Não inventar página impressa, expansão incerta de abreviaturas
+ou transformação de uma hipótese em fato.
+
+Módulo: lexicons/bdag-part-0130.js, chave BDAG_PART_0130;
+20 search-row, 20 entry-card, pares data-target/id 1:1,
+todas as fontes marcadas BDAG, IDs terminados em -bdag.
+Manifesto lexicon-modules.json atualizado com entrada única
+imediatamente após part-0129 e antes de lexicons/leh.js.
+Arquivo lexicons/bdag.js e bibliographicTerms preservados.
+Popups BDAG adicionados: nenhum.
+HTML candidato testado com verificador de pilha para tags de
+linhas (240 tags) e cartões (2284 tags), sem erro de fechamento;
+lemas gregos dos cartões em Unicode NFC. 118 links NT com
+formato NA28 válido; nenhum formato inválido e zero novas
+ocorrências de beta.perseus.tufts.edu. Destinos remotos NÃO
+verificados individualmente, testes DOM/navegador NÃO executados.
+Regressão global BDAG: inventário de 128 módulos precedentes
+reconciliado por SHA com a árvore do HEAD, sem divergências;
+módulo part-0129 relido integralmente, 129 módulos BDAG
+preexistentes, 2804 pares existentes. Com o candidato:
+2824 search-row, 2824 entry-card, 2824 IDs distintos,
+zero data-target duplicado, zero IDs duplicados e zero pares
+órfãos. BibliographicTerms, scripts, outros léxicos e arquivos
+de infraestrutura não alterados. Preservar exatamente estes
+três caminhos no commit do lote: lexicons/bdag-part-0130.js,
+lexicon-modules.json e regras/Rbdag.txt.
+
+Progresso condicionado à publicação e conferência remota:
+2804 → 2824 de 8287 verbetes (34,08%); restantes 5463.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar
+total_auditoria_concluida. O lote publicado não equivale a
+auditoria atômica por verbete: checklist A–J, testes funcionais
+reais DOM/navegador, confirmação externa de destino de links,
+CI e integração/merge em chat-gpt-commits permanecem pendentes.
+Publicar apenas um commit diretamente em chat-gpt-bdag
+com parent_sha = HEAD real, expected_sha exato, force=false.
+Revalidar HEAD, árvore, blobs e diff; sem PR/merge nesta rotina.
+================================================================================
