@@ -6817,3 +6817,96 @@ com parent_sha do HEAD-base, expected_sha exato
 e force=false. Revalidar HEAD, árvore, blobs e diff.
 Sem PR, sem merge e sem escrita em main neste processo.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 135 — ἐπεξεργάζομαι → ἔπηξα — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: 5c2f53c70b68cd1567e0af8f27e84214a64e2caa.
+Árvore-base: c284170fb897760b3e15d0b1d0858900e26d9239.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon:
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas 34555–34699, 39 segmentos textuais.
+Não utilizados PDFs nem fontes externas substitutivas.
+
+20 verbetes/artigos consecutivos:
+01 ἐπεξεργάζομαι
+02 ἐπεποίθειν
+03 ἐπέρχομαι
+04 ἐπερωτάω
+05 ἐπερώτημα, ατος, τό
+06 ἔπεσα, ἔπεσον
+07 ἐπέστειλα
+08 ἐπέστην
+09 ἐπεστράφην
+10 ἐπετίθεσαν
+11 ἐπετράπην
+12 ἐπέτυχον
+13 ἐπεφάνην
+14 ἐπέχω
+15 ἐπηγγειλάμην, ἐπήγγελμαι
+16 ἐπήγειρα
+17 ἐπῆλθον
+18 ἐπήλυτος, ον
+19 ἐπῄνεσα
+20 ἔπηξα
+Próximo artigo, excluído do lote: ἐπῆρα (linha 34700).
+
+Tradução editorial de 39 unidades canônicas em 20 entradas.
+Conferência automatizada dos tokens gregos com duas ou mais
+unidades Unicode normalizadas NFC no original e na tradução:
+39 segmentos confrontados; zero tokens gregos omitidos.
+Preservados lemas, flexões, variantes, acepções, remissões,
+citações gregas, exemplos de construções, testemunhos e
+bibliografia. ἐπέρχομαι: três acepções, subdivisões
+ⓐ/ⓑ e α/β; ἐπερωτάω: questionamento, consulta judicial
+e religiosa, pedido; ἐπερώτημα: pergunta, solicitação e
+as interpretações alternativas de 1Pe 3:21 com bibliografia,
+sem falsear consenso; ἐπέχω: três acepções.
+Remissões autônomas preservadas como entradas individuais.
+Conferência dos tokens gregos e revisão editorial não
+equivalem a auditoria filológica individual e atômica A–J,
+nem a comparação automática integral de todas as
+abreviaturas, referências e dados bibliográficos.
+
+Módulo: lexicons/bdag-part-0135.js, chave
+window.ScripturaLexicons.BDAG_PART_0135; source BDAG.
+20 search-row e 20 entry-card, data-target/id 1:1;
+20 IDs exclusivos sufixados -bdag; lemas Unicode NFC.
+Verificador de tags de pilha: 240 tags nas linhas,
+1138 tags nos cartões; nenhuma tag desbalanceada.
+43 links NT com formato sintático NA28 válido;
+nenhum URL novo em formato inválido.
+Destinos remotos não foram visitados/testados e
+navegação DOM/browser não foi executada.
+
+Regressão global dos 134 módulos anteriores:
+inventário dos 128 módulos históricos confrontado
+por SHA com árvore-base, módulos 0129–0134
+relidos e confirmados por SHA, zero divergência.
+Antes: 2904 linhas e 2904 cartões.
+Depois: 2924 linhas e 2924 cartões, 2924 IDs
+distintos, zero duplicatas e zero pares órfãos.
+Nenhuma modificação aos módulos anteriores.
+Manifesto lexicon-modules.json: inserção única
+de part-0135 após part-0134 e antes de lexicons/leh.js.
+Escopo de commit, apenas três caminhos:
+lexicons/bdag-part-0135.js, lexicon-modules.json,
+regras/Rbdag.txt. Preservados bdag.js, outros
+léxicos, bibliographicTerms, Rauditoria.txt e
+infraestrutura.
+
+Progresso sujeito à publicação efetiva:
+2904 → 2924 de 8287 verbetes (35,28%);
+restam 5363.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDÊNCIAS: auditoria A–J individual, testes DOM,
+verificação dos alvos de links, CI comprovada,
+integração autorizada e confirmada em chat-gpt-commits.
+Publicação em um único commit com parent_sha e
+expected_sha iguais ao HEAD-base e force=false.
+Revalidar HEAD remoto, árvore, blobs e diff após escrita.
+Proibido PR, merge e escrita em main nesta rotina.
+================================================================================
