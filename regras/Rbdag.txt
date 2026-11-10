@@ -6195,3 +6195,97 @@ usando parent_sha = HEAD-base exato, expected_sha exato
 e force=false. Após publicação, consultar de novo HEAD,
 árvore, blobs, diff e manifesto, sem PR/merge por esta rotina.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 128 — ἐξέβην → ἐξέπνευσα — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto consultado e reconfirmado: f711cb85b4cb212136b9f29061d6a909113c990f.
+Árvore-base: 919ce8bc12906089ae0f61a73219b7fca6bc504e.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura
+Lexicon, "A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos indexados nas linhas 33522–33618. Nenhum PDF ou
+outro léxico utilizado como texto-fonte.
+20 verbetes consecutivos, na ordem original:
+01 ἐξέβην
+02 ἐξεγείρω
+03 ἐξέδετο, ἐξεδόμην
+04 ἐξειλάμην, ἐξείλατο, ἐξεῖλον
+05 ἔξειμι (I, de εἶμι)
+06 ἔξειμι (II, de εἰμί)
+07 ἐξεῖπον
+08 ἔξελε, ἐξελέσθαι
+09 ἐξελέγχω
+10 ἐξελήλυθα
+11 ἐξελίσσω
+12 ἐξέλκω
+13 ἐξέμασα
+14 ἐξεμπλάριον, ίου, τό
+15 ἐξενεγκ-
+16 ἐξέπεσα
+17 ἐξεπέτασα
+18 ἐξεπλάγην
+19 ἐξέπλευσα
+20 ἐξέπνευσα
+Próximo artigo, ainda fora do lote: ἐξέραμα, ατος, τό.
+
+Colação editorial: 20 lemas e ordem confirmados diretamente no
+HTML; 60/60 segmentos gregos destacados recuperados nos respectivos
+cartões após correção pontual de τὶ e da sequência
+σελήνη: τὸν αὑτῆς κύκλον ἐξελίσσει. Os artigos remissivos foram
+mantidos autônomos, inclusive flexões e radical ἐξενεγκ-.
+Os dois homógrafos ἔξειμι foram separados por IDs distintos,
+preservando suas origens εἶμι e εἰμί.
+ἐξεγείρω: cinco acepções, incluindo interpretações concorrentes
+de Rm 9:17 (④/⑤); ἐξεῖπον: aoristo de ἐξαγορεύω, que não aparece
+como verbo usado na literatura considerada; ἐξελέγχω: Jd 15 como
+variante; ἐξέλκω: regência, ideia de arrastamento e exemplos
+antigos; ἐξεμπλάριον: empréstimo latino, atestações e ressalva
+de incerteza JHS. Variantes, flexões, casos, citações patrísticas,
+fontes gregas e notas bibliográficas preservadas.
+A colação mecânica de segmentos gregos não prova, por si só,
+colação filológica exaustiva de toda pontuação/referência:
+aplicada ainda revisão textual editorial de todos os artigos.
+
+Módulo novo: lexicons/bdag-part-0128.js;
+chave window.ScripturaLexicons.BDAG_PART_0128;
+source BDAG, 20 search-row e 20 entry-card,
+20 IDs/data-target exclusivos com correspondência 1:1;
+HTML balanceado, dados JSON/JavaScript serializáveis,
+13 URLs bíblicas conforme formato NA28 do projeto.
+Destinos remotos não visitados, DOM e navegação real NÃO TESTADOS.
+Regressão: base remota contém 127 arquivos BDAG (base +
+partes 0002–0127) registrados no manifesto; os 126 módulos
+anteriores à parte 0127 estão preservados por seus SHA de Git
+e seu inventário de 2744 IDs validado integralmente no lote
+anterior; a parte 0127 foi relida por blob e confere 20 pares.
+IDs existentes: 2764; com o candidato: 2784 IDs BDAG
+distintos, sem duplicatas e sem pares órfãos nos módulos
+conferidos. Busca de colisão adicional em index.html,
+script.js, lexicons/leh.js, lexicons/dgp.js,
+lexicons/pereira.js e lexicons/bdag.js: nenhuma.
+Não afirmar varredura integral dos outros milhares de
+módulos não BDAG nem regressão DOM/CI funcional.
+Manifesto recebe exclusivamente part-0128 após part-0127,
+antes de lexicons/leh.js, sem deslocar módulos existentes;
+bibliographicTerms e scripts preservados.
+Arquivos alteráveis: somente lexicons/bdag-part-0128.js,
+lexicon-modules.json e regras/Rbdag.txt.
+Árvore-base remota continha 8972 entradas.
+
+Progresso condicionado a publicação e revalidação:
+2764 → 2784 de 8287 (33,59%); faltam 5503.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria atômica individual A–J, teste funcional
+real de busca/cartões/links/popups no navegador, CI validado
+e merge comprovado por integrador autorizado em
+chat-gpt-commits. Colação editorial não é auditoria concluída.
+Publicar em commit único diretamente em chat-gpt-bdag,
+parent_sha = HEAD remoto exato, expected_sha exato e
+force=false; revalidar commit, HEAD, árvore, blobs e diff.
+Proibidos PR, merge, alterações em main e escrita em
+outros léxicos por este executor.
+================================================================================
