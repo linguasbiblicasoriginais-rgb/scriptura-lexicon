@@ -6039,3 +6039,72 @@ Publicação somente por commit único, parent_sha igual
 ao HEAD remoto e update_ref(expected_sha=HEAD exato,
 force=false). Revalidar HEAD final, árvore, blobs e diff.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 126 — ἐξαγοράζω → ἑξάμηνος — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto verificado: 86b3e78bfd3d1749a63e14bcb219f488a2b69aff.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, trecho sequencial a partir da linha indexada 33225.
+Não substituir por PDF, repertórios auxiliares ou reconstrução textual.
+20 verbetes consecutivos:
+01 ἐξαγοράζω
+02 ἐξάγω
+03 ἐξαίρετος, ον
+04 ἐξαιρέτως
+05 ἐξαιρέω
+06 ἐξαίρω
+07 ἐξαιτέω
+08 ἐξαίφνης
+09 ἑξάκις
+10 ἑξακισχίλιοι, αι, α
+11 ἐξακολουθέω
+12 ἐξακοντίζω
+13 ἑξακόσιοι, αι, α
+14 ἐξακριβάζομαι
+15 ἐξαλείφω
+16 ἐξάλλομαι
+17 ἐξαμαρτάνω
+18 ἐξαμβλόω
+19 ἑξαμηνιαῖος, α, ον
+20 ἑξάμηνος, ον
+Próximo lema após o lote: ἐξανάστασις, εως, ἡ.
+
+Preparação editorial: preservação de paradigmas, sentidos e subacepções,
+variantes textuais, gradações de certeza, citações gregas e bibliografia
+visíveis no HTML consultado. Atenção especial ao emprego metafórico
+de ἐξαγοράζω, à variante ζωήν/κόλασιν em MPol 2:3, à divergência
+interpretativa de At 26:17 em ἐξαιρέω e aos subitens de ἐξαλείφω.
+Corrigidas na preparação a sigla original Wsd 10:1, uma expansão
+bibliográfica de Ath. não autorizada pelo contexto e a tradução
+imprecisa de cause to miscarry. Não declarar colação mecânica integral
+de todas as marcas do HTML nem auditoria filológica atômica.
+
+Novo módulo lexicons/bdag-part-0126.js, chave BDAG_PART_0126,
+registrado imediatamente após 0125, antes de lexicons/leh.js.
+20 search-row, 20 entry-card, pares e alvos 1:1, zero colisões;
+normalização Unicode NFC para cabeçalhos;
+aninhamento de tags validado por parser de pilha;
+57 URLs bíblicas com padrão NA28 estruturalmente válido;
+destinos remotos e navegação em navegador real NÃO TESTADOS.
+Regressão estrutural do HTML: 124 partes modulares anteriores e
+arquivo-base lidos no HEAD; 2724 pares existentes, todos alinhados.
+IDs de todo o BDAG, inclusive módulo novo: 2744 únicos, zero
+duplicações e zero pares órfãos. Manifesto: somente uma entrada
+adicionada, sem deslocar as demais.
+Sem popup bibliográfico novo; bibliographicTerms preservado.
+Outros léxicos, scripts e infraestrutura não devem ser modificados.
+Progresso após publicação E APENAS se o HEAD final for confirmado:
+2724 → 2744 de 8287 verbetes previstos; restam 5543.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Permanecem pendentes checklist A–J por verbete, testes funcionais
+reais de navegador/DOM, validação externa de links, CI comprovado
+e integração confirmada pelo integrador exclusivo em chat-gpt-commits.
+Publicar em um único commit sobre o HEAD exato, expected_sha
+igual ao HEAD-base e force=false; após revalidar HEAD, árvore,
+blobs, diff e integridade. Não inserir SHA futuro autorreferencial.
+================================================================================
