@@ -1,0 +1,56 @@
+/* UBS5 — Segunda Epístola de Paulo aos Coríntios 5.
+ * Transcrição grega fornecida pelo mantenedor em 10/11/2026.
+ * Identificação UBS5 conforme o projeto; sem cotejo independente com a edição impressa.
+ * Textos gregos e paratextos editoriais conservados em campos separados.
+ */
+(function () {
+    "use strict";
+    const verses = {
+    "1": "Οἴδαμεν γὰρ ὅτι ἐὰν ἡ ἐπίγειος ἡμῶν οἰκία τοῦ σκήνους καταλυθῇ, οἰκοδομὴν ἐκ θεοῦ ἔχομεν, οἰκίαν ἀχειροποίητον αἰώνιον ἐν τοῖς οὐρανοῖς.",
+    "2": "καὶ γὰρ ἐν τούτῳ στενάζομεν τὸ οἰκητήριον ἡμῶν τὸ ἐξ οὐρανοῦ ἐπενδύσασθαι ἐπιποθοῦντες,",
+    "3": "εἴ γε καὶ ἐκδυσάμενοι οὐ γυμνοὶ εὑρεθησόμεθα.",
+    "4": "καὶ γὰρ οἱ ὄντες ἐν τῷ σκήνει στενάζομεν βαρούμενοι, ἐφ᾽ ᾧ οὐ θέλομεν ἐκδύσασθαι ἀλλ᾽ ἐπενδύσασθαι, ἵνα καταποθῇ τὸ θνητὸν ὑπὸ τῆς ζωῆς.",
+    "5": "ὁ δὲ κατεργασάμενος ἡμᾶς εἰς αὐτὸ τοῦτο θεός, ὁ δοὺς ἡμῖν τὸν ἀρραβῶνα τοῦ πνεύματος.",
+    "6": "Θαρροῦντες οὖν πάντοτε καὶ εἰδότες ὅτι ἐνδημοῦντες ἐν τῷ σώματι ἐκδημοῦμεν ἀπὸ τοῦ κυρίου·",
+    "7": "διὰ πίστεως γὰρ περιπατοῦμεν, οὐ διὰ εἴδους·",
+    "8": "θαρροῦμεν δὲ καὶ εὐδοκοῦμεν μᾶλλον ἐκδημῆσαι ἐκ τοῦ σώματος καὶ ἐνδημῆσαι πρὸς τὸν κύριον.",
+    "9": "διὸ καὶ φιλοτιμούμεθα, εἴτε ἐνδημοῦντες εἴτε ἐκδημοῦντες, εὐάρεστοι αὐτῷ εἶναι.",
+    "10": "τοὺς γὰρ πάντας ἡμᾶς φανερωθῆναι δεῖ ἔμπροσθεν τοῦ βήματος τοῦ Χριστοῦ, ἵνα κομίσηται ἕκαστος τὰ διὰ τοῦ σώματος πρὸς ἃ ἔπραξεν, εἴτε ἀγαθὸν εἴτε φαῦλον.",
+    "11": "Εἰδότες οὖν τὸν φόβον τοῦ κυρίου ἀνθρώπους πείθομεν, θεῷ δὲ πεφανερώμεθα· ἐλπίζω δὲ καὶ ἐν ταῖς συνειδήσεσιν ὑμῶν πεφανερῶσθαι.",
+    "12": "οὐ πάλιν ἑαυτοὺς συνιστάνομεν ὑμῖν ἀλλ᾽ ἀφορμὴν διδόντες ὑμῖν καυχήματος ὑπὲρ ἡμῶν, ἵνα ἔχητε πρὸς τοὺς ἐν προσώπῳ καυχωμένους καὶ μὴ ἐν καρδίᾳ.",
+    "13": "εἴτε γὰρ ἐξέστημεν, θεῷ· εἴτε σωφρονοῦμεν, ὑμῖν.",
+    "14": "ἡ γὰρ ἀγάπη τοῦ Χριστοῦ συνέχει ἡμᾶς, κρίναντας τοῦτο, ὅτι εἷς ὑπὲρ πάντων ἀπέθανεν, ἄρα οἱ πάντες ἀπέθανον·",
+    "15": "καὶ ὑπὲρ πάντων ἀπέθανεν, ἵνα οἱ ζῶντες μηκέτι ἑαυτοῖς ζῶσιν ἀλλὰ τῷ ὑπὲρ αὐτῶν ἀποθανόντι καὶ ἐγερθέντι.",
+    "16": "Ὥστε ἡμεῖς ἀπὸ τοῦ νῦν οὐδένα οἴδαμεν κατὰ σάρκα· εἰ καὶ ἐγνώκαμεν κατὰ σάρκα Χριστόν, ἀλλὰ νῦν οὐκέτι γινώσκομεν.",
+    "17": "ὥστε εἴ τις ἐν Χριστῷ, καινὴ κτίσις· τὰ ἀρχαῖα παρῆλθεν, ἰδοὺ γέγονεν καινά·",
+    "18": "τὰ δὲ πάντα ἐκ τοῦ θεοῦ τοῦ καταλλάξαντος ἡμᾶς ἑαυτῷ διὰ Χριστοῦ καὶ δόντος ἡμῖν τὴν διακονίαν τῆς καταλλαγῆς,",
+    "19": "ὡς ὅτι θεὸς ἦν ἐν Χριστῷ κόσμον καταλλάσσων ἑαυτῷ, μὴ λογιζόμενος αὐτοῖς τὰ παραπτώματα αὐτῶν καὶ θέμενος ἐν ἡμῖν τὸν λόγον τῆς καταλλαγῆς.",
+    "20": "ὑπὲρ Χριστοῦ οὖν πρεσβεύομεν ὡς τοῦ θεοῦ παρακαλοῦντος δι᾽ ἡμῶν· δεόμεθα ὑπὲρ Χριστοῦ, καταλλάγητε τῷ θεῷ.",
+    "21": "τὸν μὴ γνόντα ἁμαρτίαν ὑπὲρ ἡμῶν ἁμαρτίαν ἐποίησεν, ἵνα ἡμεῖς γενώμεθα δικαιοσύνη θεοῦ ἐν αὐτῷ."
+};
+    const paragraphEnds = [5,10,15,21];
+    const headings = [
+    {
+        "beforeVerse": 11,
+        "title": "O ministério da reconciliação",
+        "sourceTitle": "The Ministry of Reconciliation"
+    }
+];
+    const unnumberedPassages = [];
+    window.ScripturaScriptureTexts = window.ScripturaScriptureTexts || {};
+    window.ScripturaScriptureTexts.UBS5 = window.ScripturaScriptureTexts.UBS5 || {};
+    window.ScripturaScriptureTexts.UBS5["2CO"] = window.ScripturaScriptureTexts.UBS5["2CO"] || {};
+    window.ScripturaScriptureTexts.UBS5["2CO"][5] = verses;
+    window.ScripturaScriptureParagraphBreaks = window.ScripturaScriptureParagraphBreaks || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5 = window.ScripturaScriptureParagraphBreaks.UBS5 || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5["2CO"] = window.ScripturaScriptureParagraphBreaks.UBS5["2CO"] || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5["2CO"][5] = paragraphEnds;
+    window.ScripturaScriptureHeadings = window.ScripturaScriptureHeadings || {};
+    window.ScripturaScriptureHeadings.UBS5 = window.ScripturaScriptureHeadings.UBS5 || {};
+    window.ScripturaScriptureHeadings.UBS5["2CO"] = window.ScripturaScriptureHeadings.UBS5["2CO"] || {};
+    window.ScripturaScriptureHeadings.UBS5["2CO"][5] = headings;
+    window.ScripturaScriptureUnnumberedPassages = window.ScripturaScriptureUnnumberedPassages || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5 = window.ScripturaScriptureUnnumberedPassages.UBS5 || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5["2CO"] = window.ScripturaScriptureUnnumberedPassages.UBS5["2CO"] || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5["2CO"][5] = unnumberedPassages;
+})();

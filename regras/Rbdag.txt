@@ -3251,3 +3251,3662 @@ Evidência por verbete:
 Checkpoint estrutural projetado: 1.604 → 1.624 pares BDAG; 69 → 70 módulos; próximo lema γενναῖος, α, ον.
 Auditoria filológica independente conforme regras/Rauditoria.txt: NÃO CONCLUÍDA. Ainda pendem certificação semântica exaustiva independente, teste funcional DOM/CI e eventual PR/merge autorizado. Não alterar total_auditoria_concluida. Comprovar publicação por releitura de commit, arquivos e HEAD remotos.
 ================================================================================
+
+================================================================================
+BDAG — INDICADOR DE PROGRESSO 8.287 — DETERMINAÇÃO DO MANTENEDOR — 04/11/2026
+================================================================================
+Em toda resposta sobre novo lote de incorporação do BDAG, apresentar barra de
+progresso com numerador real de verbetes publicados no HEAD remoto confirmado
+e denominador fixado pelo mantenedor em 8.287 verbetes.
+Exibir explicitamente "N / 8.287" e o percentual correspondente.
+Antes da confirmação remota, não somar verbetes preliminares ao numerador.
+Distinção obrigatória: contador de incorporação não equivale a certificação de
+AUDITORIA_CONCLUIDA segundo regras/Rauditoria.txt.
+Se houver divergência de contagens, investigar pelo corpus carregado e reportar
+a divergência em vez de inflar o numerador.
+A alteração é apenas documental e integra o mesmo commit do lote a que se aplica.
+================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διαμερισμός → διαπορεύομαι — 05/11/2026
+================================================================================
+Branch proprietária exclusiva: chat-gpt-bdag. HEAD de partida:
+2f395eb7c04622df11c646ed5fc8afb401273c78.
+Fonte exclusiva: HTML canônico "A Greek-English Lexicon of the New Testament
+and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html",
+Biblioteca Scriptura Lexicon, versão 1, 30.790.409 bytes. Inspeção textual direta
+do intervalo contíguo da fonte: primeiro cabeçalho διαμερισμός, οῦ, ὁ
+(linha 26475) e último διαπορεύομαι (linha 26591); seguinte διαπορέω.
+
+Incorporação de 20 verbetes consecutivos: διαμερισμός, διανέμω, διανεύω,
+διανοέομαι, διανόημα, διάνοια, διανοίγω, διανυκτέρευσις,
+διανυκτερεύω, διανύω, διαπαντός, διαπαρατριβή, διαπειράζω,
+διαπειράω, διαπέμπω, διαπεράω, διαπλανάω, διαπλέω,
+διαπονέομαι, διαπορεύομαι. Preservadas 5 divisões de διάνοια,
+①ⓐⓑ② de διανοίγω, ①② de διανύω e διαπορεύομαι,
+remissões autônomas e hipóteses semânticas.
+
+Blob preliminar recebido: c630b8d7661985b332deb785295d02ff2dbe2d9c.
+A colação identificou e corrigiu 2 divergências de reprodução de
+expressões gregas: τινί → τινὶ (διανεύω) e
+"ζωή, πίστις e ἐγκράτεια" → "ζωή, πίστις, ἐγκράτεια" (διάνοια).
+Retiradas 4 observações metatextuais do redator que não constavam da
+fonte, sem eliminar conteúdo original (διανοέομαι, διανυκτέρευσις,
+διαπειράζω e διαπλανάω).
+Módulo corrigido: objeto Git e5d66b9b4a1c2eda88df668fbaf0193f44b87eee.
+Manifesto preparado original: objeto Git 78192d6366b77553b1a7c023a21d58cd73fd2f0a,
+reutilizado sem alteração. Difere do manifesto no HEAD apenas pela inserção
+de lexicons/bdag-part-0084.js após bdag-part-0083.js e antes de leh.js.
+
+Controles de colação: vinte cabeçalhos autônomos confirmados na fonte,
+revisão individual de textos originais e traduções, zero perdas detectadas
+na comparação de sequências numéricas/referências, preservação das
+subdivisões numeradas; no primeiro controle, apenas duas expressões
+gregas divergiram, ambas corrigidas. Verificação estrutural final do
+módulo corrigido: 20 search-row, 20 entry-card, 20 IDs distintos,
+relacionamento data-target/id 1:1, nenhum conflito com IDs do módulo
+anterior 0083, fechamento equilibrado de tags HTML, 33 pares strong,
+51 pares i, nenhum link externo. Manifesto anterior: 2.110 entradas;
+manifesto resultante: 2.111, inserção única, nenhuma exclusão.
+Contagem estrutural do BDAG: 1.884 → 1.904 registros / 8.287
+(meta fixada pelo mantenedor). Próximo lema: διαπορέω.
+
+Limites expressos de certificação: não foram concluídos teste funcional
+com navegador, integração CI/DOM, auditoria filológica independente
+segundo regras/Rauditoria.txt, nem PR/merge (reservados ao fluxo
+de integração). A recontagem exaustiva de todos os 83 arquivos
+históricos não foi obtida nesta execução por limite do conector; foi
+verificada a contagem do commit HEAD anterior e a estrutura dos 20
+novos verbetes. A leitura da Biblioteca apresentou intermitência
+após a colação inicial, sem retirar as leituras já consultadas.
+Não incrementar total_auditoria_concluida. Publicação a confirmar
+somente por commit atômico e revalidação do HEAD remoto.
+================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διαπορέω → διαταγή — 05/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD inicial confirmado: 61fc2075b000e771f3873d3f40f2550986a1bef3.
+Fonte textual canônica exclusiva: A Greek-English Lexicon of the New Testament
+and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html,
+Biblioteca Scriptura Lexicon, versão 1, tamanho 30.790.409 bytes.
+Foram consultados diretamente os 20 cabeçalhos consecutivos e seu conteúdo
+integral no intervalo a partir da linha 26594. Primeiro: διαπορέω.
+Vigésimo: διαταγή, ῆς, ἡ. Próximo cabeçalho: διάταγμα, ατος, τό.
+
+Conteúdo preparado em duas parcelas de tradução não adicionadas à árvore:
+1af315cf32881685e3fdd484cbff5d7bcb14a074 (1–10);
+b9c6bb8860420532f6ebc2a24c3405c9aa831b20 (11–20).
+Registros incluem cabeçalhos, romaji, classes gramaticais, busca e tradução
+portuguesa detalhada, com formas gregas, variantes, etimologias, acepções,
+construções, citações bíblicas, greco-romanas e patrísticas, bibliografias,
+restrições e hipóteses do BDAG.
+
+Conferência filológica individual (revisão da tradução diante do HTML):
+01. διαπορέω — imperfeito e modos de regência; uso médio e variantes.
+02. διαπραγματεύομαι — deponente médio; aoristo; comércio e variante de Lc 19:15.
+03. διαπρίω — sentido literal «serrar» versus extensão figurada passiva.
+04. διαρθρόω — fala articulada; uso passivo e variante de Lc 1:64.
+05. διαρπάζω — flexões, saque, roubo, subsistência, rapto e restauração epigráfica.
+06. δια(ρ)ρήγνυμι — forma alternativa διαρήσσω, vozes e ①ⓐⓑ②.
+07. διασαφέω — clarificação e relato detalhado ①②; citações e regências.
+08. διασείω — sentido jurídico de extorsão; provas papirológicas e acusativo.
+09. διασκορπίζω — dispersão ① versus desperdício ②; possível «joeirar».
+10. διασπαράσσω — forma aorística, passiva e dilaceramento de cordeiros.
+11. διασπάω — rasgar material e uso figurado; referências e expressões gregas.
+12. διασπείρω — paradigmas e passivo referente a comunidades cristãs.
+13. διασπορά — dispersão como estado ① e lugar ②; emprego figurado.
+14. διάσταλμα — acepção e caráter provável da explicação alegórica.
+15. διαστέλλω — formas de três vozes; sentido de ordem em voz média.
+16. διάστημα — variante διάστεμα do códice D; expressão temporal.
+17. διαστολή — distinção étnica e diferenciação de sons instrumentais.
+18. διαστρέφω — três acepções ①②③ e exemplos de aplicação moral.
+19. διασῴζω — passivos, construções preposicionais, salvamento e cura.
+20. διαταγή — ordenança; uso de εἰς e mediação dos anjos em At 7:53.
+
+Módulo preparado: lexicons/bdag-part-0085.js, objeto Git
+f7a5bb71106808b5d49daea9459dc3a88b9ce50a.
+Manifesto preparado: objeto Git 68c157c497c1848cea6ede242d756cfaea9580cf.
+Controles estáticos do módulo: 20 search-row, 20 entry-card, 20 IDs
+exclusivos, relações data-target/id 1:1, estrutura HTML equilibrada,
+sem colisão com o módulo 0084; manifesto resultante com 2.112 itens,
+contendo uma única nova entrada após bdag-part-0084.js e antes de leh.js.
+Regressão histórica: todos os 84 arquivos BDAG publicados no HEAD inicial
+foram recuperados e recontados: 270 + 397 + 594 + 323 + 320 = 1.904
+pares linha/cartão; correspondência 1:1 em todos os arquivos consultados,
+sem colisões dos novos IDs contra qualquer arquivo histórico.
+Checkpoint estrutural: 1.904 → 1.924 verbetes / 8.287; 84 → 85 arquivos
+BDAG. Próximo verbete: διάταγμα, ατος, τό.
+
+Limitações: após a extração inicial, a releitura do HTML na Biblioteca
+tornou-se intermitentemente inacessível, impedindo uma segunda colação
+mecânica exaustiva de sequências gregas e marcadores numéricos.
+A revisão direta inicial do conteúdo foi realizada; não elevar tal
+revisão ao estado AUDITORIA_CONCLUIDA. Testes de navegador/DOM/CI,
+certificação filológica independente integral e integração por PR/merge
+não foram concluídos, conforme regras/Rauditoria.txt. O contador de
+auditoria concluída não muda. Publicação: somente após commit único
+com expected_sha, force=false e confirmação posterior do HEAD remoto.
+================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διάταγμα → διαφθορά — 05/11/2026
+================================================================================
+Branch proprietária exclusiva: chat-gpt-bdag.
+HEAD pai remoto conferido: 5b3b68d036530643e12105733c29c9a4ba189ad9.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon, versão 1,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html" (30.790.409 bytes).
+Janela de consulta direta: linhas 26708–26957 (engloba os vinte verbetes,
+seus vizinhos e testemunhos); 20 cabeçalhos consecutivos de
+διάταγμα, ατος, τό a διαφθορά. Próximo verbete: διαφορά, ᾶς, ἡ.
+
+Inventário de colação filológica textual:
+01. διάταγμα — edito oficial, ordem real, testemunhos documentais,
+    autenticidade de inscrição imperial como questão discutida.
+02. διάταξις — disposição formal e emprego administrativo; ato divino.
+03. διαταράσσω — forma passiva e perturbação de Lc 1:29.
+04. διατάσσω — paradigmas de três vozes e sentidos ① organização,
+    ② ordem/instrução; sintaxe, comandos militares e citação de Gl 3:19.
+05. διατελέω — completar (uso transitivo) versus continuar (intransitivo).
+06. διατηρέω — ① guardar na mente, ② abster-se; formas e regências.
+07. διατί — remissão autônoma a διά B2b, sem acepção fabricada.
+08. διατίθημι — três acepções ① decretar, ② conferir/dispor,
+    ③ dispor por testamento; linguagem da aliança e testamentária.
+09. διατρίβω — permanecer, expressão da duração e lugares, variantes.
+10. διατροφή — sustento e plural «meios de subsistência».
+11. διαυγάζω — ① brilhar através, ② raiar/amanhecer.
+12. διαυγής — transparência e referência a Ap 21:21.
+13. διαφαίνω — transmissão de luz; variante de tradução indicada na fonte.
+14. διαφανής — transparência, variante textual e possível leitura erasmiana.
+15. διάφαυμα — «romper do dia», cronologia dos testemunhos.
+16. διαφέρω — quatro divisões ① transportar, ② levar à deriva,
+    ③ diferir, ④ ser superior; variante πολλῷ versus πολλῶν.
+17. διαφεύγω — paradigmas e sentido de escapar.
+18. διαφημίζω — espalhar uma notícia, voz ativa/passiva e regência.
+19. διαφθείρω — ① deterioração/destruição física, ② corrupção moral,
+    incluindo jogo de palavras de Ap 11:18.
+20. διαφθορά — decomposição, corpo e mundo dos mortos como hipótese.
+
+Primeira colação mecânica da fonte HTML versus traduções:
+183 unidades candidatas de expressões gregas e 481 unidades numéricas
+distintas por artigo, com conferência das marcas ①②③④. Identificadas
+expressões omitidas ou segmentadas (ὁ νόμος; ἰδεῖν δ. [εἶδον]),
+dois marcadores de referência (9:16f, 13:35ff) e marcas de subacepção
+repetidas em remissões; corrigidos. Um agrupamento do parser ('δ. νόμους)')
+incluía o parêntese de fecho no token, sem perda das palavras gregas.
+Revisão semântica adicional: «issue a decree» traduzido como
+«promulgar um decreto» (não «estabelecer uma aliança»);
+'loanword in rabbinic' mantido sem inferência indevida de idioma;
+'keep oneself from doing' normalizado para «guardar-se de fazer».
+A fonte da Biblioteca apresentou falhas técnicas em tentativas
+subsequentes de releitura: por isso, não declarar concluída uma
+segunda certificação mecânica integral da correspondência.
+A colação original dos 20 artigos e correções localizadas estão
+documentadas, sem elevação a AUDITORIA_CONCLUIDA.
+
+Objetos auxiliares de tradução (fora da árvore):
+bcea88c86293782f37bd161f214adb54aea2c54b (verbetes 1–10),
+dfa6570689f48cbe650e7a96b83866b5e628c3c2 (verbetes 11–20).
+Módulo final preparado: lexicons/bdag-part-0086.js,
+blob 923601e36958c132723f8fabe35a1d84f6ede09e.
+Manifesto preparado: lexicon-modules.json,
+blob e286f817fb9fb732a431ae186b701c4c070baf19.
+Manifesto: 2.112 → 2.113 caminhos, apenas a nova entrada após
+bdag-part-0085.js, antes de lexicons/leh.js, sem remoções.
+Módulo 0086: 20 search-row, 20 entry-card, correspondência
+data-target/id 1:1, IDs exclusivos e sem links externos,
+estrutura de tags HTML validada.
+Regressão do HEAD anterior: 85 arquivos BDAG consultados;
+270 + 397 + 594 + 323 + 340 = 1.924 linhas/cartões, paridade 1:1,
+sem colisões dos IDs novos com os históricos.
+Checkpoint projetado após confirmação de publicação:
+1.924 → 1.944 registros BDAG / 8.287; 85 → 86 módulos.
+Próximo lema: διαφορά, ᾶς, ἡ.
+
+AUDITORIA_CONCLUIDA: NÃO. Não foram comprovadas auditoria
+filológica independente integral segundo regras/Rauditoria.txt,
+regressão de DOM em navegador / CI nem integração PR/merge.
+Não incrementar contador de auditoria certificada.
+Publicação somente por commit atômico na branch autorizada, com
+expected_sha e force=false; revalidar HEAD, árvore e objetos remotos.
+================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διαφορά → δίδωμι — 05/11/2026
+================================================================================
+Branch autorizada exclusivamente: chat-gpt-bdag.
+HEAD remoto inicial: 3929ed0cf536753c8f43dae3dffcb34942b4d281.
+Fonte lexical exclusiva: HTML canônico
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", Biblioteca,
+versão 1, 30.790.409 bytes.
+Trechos do texto canônico consultados diretamente: a partir de
+26760–27009 e 26970–27089 (janelas parcialmente sobrepostas).
+Os 20 cabeçalhos confirmados, em sequência, são:
+01 διαφορά, ᾶς, ἡ
+02 διάφορος, ον
+03 διαφυλάσσω
+04 διαχειρίζω
+05 διαχλευάζω
+06 διαχωριζω [grafia sem acento preservada como no cabeçalho HTML]
+07 διγαμία, ας, ἡ
+08 δίγαμος, ον
+09 διγλωσσία, ας, ἡ
+10 δίγλωσσος, ον
+11 διγνώμων, ον
+12 διδακτικός, ή, ὀν
+13 διδακτός, ή, όν
+14 διδασκαλία, ας, ἡ
+15 διδάσκαλος, ου, ὁ
+16 διδάσκω
+17 διδαχή, ῆς, ἡ
+18 δίδραχμον
+19 Δίδυμος, ου, ὁ
+20 δίδωμι
+
+Escopo individual de colação editorial com a fonte:
+01 διαφορά: diferença de valor, inscrições e restaurações textuais
+Ox 1081, preservados colchetes, alternativas e leituras inseguras.
+02 διάφορος: ① diferença/dessemelhança, ② excelência/superioridade.
+03 διαφυλάσσω: formas verbais, proteção divina e angelical.
+04 διαχειρίζω: valor médio, violência e consequência homicida.
+05 διαχλευάζω: emprego absoluto e paralelos helenísticos.
+06 διαχωριζω: voz ativa versus média/passiva e regência ἀπό.
+07 διγαμία: segundo casamento, exclusivamente variante de Tt 1:9.
+08 δίγαμος: ① simultaneidade, ② novo casamento, contextos jurídicos.
+09 διγλωσσία: duplicidade/insinceridade, não mera bilingualidade.
+10 δίγλωσσος: origem no valor «bilíngue», emprego ético «enganoso».
+11 διγνώμων: inconstância e duplicidade de intenção.
+12 διδακτικός: habilidade de ensinar, duas citações paulinas.
+13 διδακτός: ① pessoa ensinada, ② conteúdo transmitido por ensino.
+14 διδασκαλία: ① ato de ensinar, ② conteúdo doutrinário,
+inclusive expressões gregas e nota sobre possível paralelo rabínico.
+15 διδάσκαλος: mestre, título de Jesus e equivalentes semíticos,
+figura do mestre nas assembleias e testemunhos bibliográficos.
+16 διδάσκω: ① instruir, ② ensinar; preservadas subdivisões
+ⓐⓑⓒⓓⓔⓕ relativas a regência e construções sintáticas.
+17 διδαχή: ① ato, ② conteúdo, ③ ambiguidades entre os dois
+sentidos; restaurações textuais do evangelho Ox 1224 preservadas.
+18 δίδραχμον: genitivo e gênero, moeda antiga, imposto do templo,
+valor histórico aproximado, testemunhos e bibliografia.
+19 Δίδυμος: nome de Tomé, etimologia grega e hebraica e ocorrências.
+20 δίδωμι: formas verbais, vozes, modos, variantes e TODAS as
+17 acepções principais ①–⑰, com subdivisões de ⑤, ⑥, ⑰,
+expressões gregas, construções e testemunhos.
+
+Objetos auxiliares de tradução (não inseridos no manifesto):
+85961b40c7b7e2d64cf5ae2a8d0a5f06cfe4349e — verbetes 01–10;
+e1b4db0214ebf98bedded8cae87b7d5468722568 — 11–19;
+60222e6b93dd7d1d059a73fa02f4fe2d73305d3b —
+dbe6381f9439e6758b6fabe0a67d0c6684d38ff2 —
+ea719d8ad5c410171d4588b8a5d85a8db6b3e91e —
+três seções contíguas da tradução integral de δίδωμι.
+Módulo candidato final:
+lexicons/bdag-part-0087.js,
+blob fd809820db1501b1d91ac636e8657837c3f980dd.
+Manifesto candidato lexicon-modules.json:
+blob 34d161fa17a839cb702636c015d857af30e17ea6.
+
+Verificações estáticas de incorporação:
+20 search-row e 20 entry-card; IDs distintos e relação
+data-target/id integral 1:1; tags HTML estruturalmente equilibradas;
+nenhum link externo ou atributo de execução; cabeçalhos em ordem;
+17/17 acepções principais de δίδωμι preservadas; as seis
+subdivisões ⓐ–ⓕ de διδάσκω preservadas; expressões semíticas e
+gregas de referência examinadas no objeto final.
+Manifesto: 2.113 → 2.114 caminhos, inclusão única de 0087 logo
+após 0086 e antes do módulo LEH, nenhuma remoção.
+Regressão completa dos 86 arquivos anteriores: 287 + 447 +
+587 + 343 + 280 = 1.944 pares de busca/cartão recuperados.
+Todos com correspondência de ID 1:1 em cada arquivo e sem colisões
+entre os novos IDs e os registros existentes.
+Progresso estrutural projetado: 1.944 → 1.964 / 8.287,
+86 → 87 arquivos BDAG.
+Último lema: δίδωμι. Próximo cabeçalho após δίδωμι ainda
+não confirmado por leitura direta; não adivinhar, retomar
+na fonte canônica no próximo lote.
+
+Limites de certificação: a colação editorial inicial foi feita
+com o HTML canônico consultado e os artigos traduzidos integralmente.
+Tentativas posteriores de leitura mecânica adicional da Biblioteca
+retornaram falha técnica interna, de modo que uma segunda colação
+automatizada exaustiva dos caracteres gregos e de todas as
+referências não foi concluída. Não afirmar comprovação que não
+ocorreu. Teste funcional DOM/navegador/CI e auditoria filológica
+independente integral, bem como PR/merge autorizado pela rotina
+de integração, também não foram realizados.
+AUDITORIA_CONCLUIDA: NÃO; não incrementar total_auditoria_concluida.
+Publicar somente por commit Git único com expected_sha exato,
+force=false; conferir commit, arquivos, árvore e HEAD remotos.
+================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διέβην → διεστειλάμην — 05/11/2026
+================================================================================
+Branch de publicação exclusiva: chat-gpt-bdag.
+HEAD remoto de partida: 58bf316552fb2e7ce6f4bef093906ab046b724c4.
+Fonte textual única: A Greek-English Lexicon of the New Testament
+and Other Early Christian Literature - Frederick William Danker,
+Walter Bauer.html, Biblioteca Scriptura Lexicon, versão 1,
+tamanho 30.790.409 bytes.
+O início do lote foi confirmado por leitura direta no HTML após
+δίδωμι: διέβην, s. διαβαίνω; o vigésimo artigo é
+διεστειλάμην, διεστραμμένος, s. διαστέλλω.
+Próximo artigo canônico confirmado para o lote 0089: διέστη.
+Janela do HTML diretamente lida: linhas 27090–27254; os 20 artigos
+formam 20 seções consecutivas. As remissões contam como artigos
+conforme a organização da própria fonte.
+
+Conferências filológicas individuais:
+01. διέβην — remissão literal a διαβαίνω; não criar acepção.
+02. διεγείρω — forma ativa e passiva; despertar literal e agitar
+figurado (mar, desejos); regências, variantes e bibliografia.
+03. διεγρηγορέω — ausência de outros testemunhos conforme BDAG;
+particípio διεγρηγορήσαντες e papiro P 45.
+04. διεῖλον — remissão a διαιρέω.
+05. διελαύνω — leitura duvidosa de GJs 18:3, voz média;
+alternância διηλαύνετο / ἀπηλαύνετο.
+06. διελέγχω — aoristo passivo; sentido de discussão na literatura
+do corpus, distinto do emprego comum de «convencer da culpa».
+07. διελέχθην — remissão a διαλέγομαι.
+08. διέλκω — dividir/dilacerar em conjunção com διασπάω.
+09. διενέγκω — remissão a διαφέρω.
+10. διενθυμέομαι — ponderar acerca da visão em At 10:19.
+11. διεξέρχομαι — paradigma e variante textual de At 28:3.
+12. διέξοδος — saída dos caminhos em Mt 22:9 com hipótese
+topográfica explicitamente provável; nascente em B 11:6;
+papiros judiciais e alusões bibliográficas.
+13. διέπω — administrar governo e poder provincial; subscrição Fm.
+14. διερμηνεία — remissão conceitual e variante de 1Co 12:10.
+15. διερμηνευτής — intérprete/tradutor de discurso extático,
+testemunho bizantino e paralelos.
+16. διερμηνεύω — ① traduzir de uma língua para outra,
+② explicar/interpretar; a primeira acepção também provável
+na linguagem extática do segundo conjunto de ocorrências.
+17. διέρχομαι — paradigma completo e ①ⓐⓑ②③; dentro de
+①ⓑ, as subdistinções α. travessia e β. destino;
+reconstituição Ox 1081 com lacunas e incertezas textuais,
+passagens bíblicas e patrísticas, usos espaciais, mentais e
+atravessamento de obstáculos.
+18. διερωτάω — indagação e construção com οἰκίαν.
+19. διεσπάρην — remissão a διασπείρω.
+20. διεστειλάμην, διεστραμμένος — conservar ambas as formas
+como grafadas no cabeçalho do HTML e sua remissão a διαστέλλω;
+não corrigir a fonte por conjectura.
+
+Primeira verificação mecânica do HTML contra os 20 artigos
+traduzidos: 105 segmentos candidatos de expressão grega e
+251 números ou marcadores numéricos distintos por artigo.
+Foram sinalizados e corrigidos: «P 45» em lugar da forma
+tipográfica não idêntica; gravis em περὶ τοῦ ὁράματος;
+a referência 1Cl 61:1f; dois finais de referência
+Mt 15:17f e Mc 7:19ff; expressão contígua
+διελήλυθα, διεληλυθώς; remoção de marcador ①
+extrínseco à subdivisão semântica de διερμηνεύω;
+remoção de comentário metatextual estranho ao verbete
+remissivo final. Todas as classes ①ⓐⓑ②③ de διέρχομαι
+constam da entrada traduzida.
+Uma tentativa posterior de nova leitura para recoloção
+automática mecânica integral do corpus-fonte foi bloqueada
+por erro interno da ferramenta Biblioteca. Não declarar que
+uma segunda colação integral foi concluída.
+
+Objetos de tradução preparados, não incluídos na árvore:
+c6f16ad8458e55538eb984e2d872703515252f25 — 01–10;
+339592bd22d8436f89f985f86b8d44e957fae6b9 — 11–16;
+b01581e51bf109f7dff2730b2b6b8c297fdf0c4e — 17–20.
+Módulo candidato único: lexicons/bdag-part-0088.js,
+blob 0ec4b774421b5b1849c902c6216cc1fe7f56d793.
+Manifesto candidato: lexicon-modules.json,
+blob 208f2295f2f5c32f40f45b7466361b9a9cf7bfee.
+20 search-row e 20 entry-card; 20 IDs distintos e relação
+data-target/id 1:1, tags HTML balanceadas, sem links/JS
+não autorizados; manifesto 2.114 → 2.115 entradas,
+inserção única após bdag-part-0087.js, antes de leh.js.
+Regressão de TODOS os 87 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 300 = 1.964 linhas e 1.964
+cartões, pareamento 1:1 em cada arquivo e nenhuma colisão
+dos novos 20 IDs com os IDs históricos.
+Progresso projetado após confirmação do HEAD:
+1.964 → 1.984 verbetes / 8.287; 87 → 88 módulos;
+restarão 6.303 verbetes.
+
+AUDITORIA_CONCLUIDA: NÃO. A revalidação funcional DOM/CI,
+a certificação filológica independente integral por verbete
+e a integração PR/merge de regras/Rauditoria.txt não
+foram executadas. Não incrementar total_auditoria_concluida.
+A rotina BDAG deve fazer publicação somente por um commit
+Git atômico na própria branch, com expected_sha exato,
+force=false, e confirmar a árvore e HEAD remoto após escrita.
+================================================================================
+
+
+================================================================================
+BDAG — INCORPORAÇÃO διέστη → δικαιοκρισία — 05/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial validado: 52007414491fdef30a70e1994183ffeef3c44bac.
+Fonte única permitida: HTML canônico
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+Biblioteca Scriptura Lexicon, versão 1, 30.790.409 bytes.
+Janela canônica consultada diretamente: linhas 27152–27371.
+Foram extraídos e colacionados 20 artigos lexicais consecutivos
+imediatamente após o último do lote 0088. As entradas de mera remissão
+contam como verbetes e não receberam acepções inventadas.
+
+Lista dos 20 verbetes com distinções de fonte e tradução:
+01. διέστη — remissão a διί̈στημι.
+02. διέστραμμαι, διεστραμμένος — remissão a διαστρέφω.
+03. διεταράχθην — remissão a διαταράσσω.
+04. διετής, ές — idade de dois anos; masculino em Mt 2:16,
+    evidências externas e variante διετία em GJs 7:1.
+05. διετία — ① dois anos transcorridos; ② prazo bienal legal
+    proposto como interpretação jurídica, explicitamente hipótese,
+    sem apresentá-lo como fato comprovado para o processo de Paulo.
+06. διευθύνω — governo e condução da vida; três lugares de 1Cl.
+07. διεφθάρην, διέφθαρμαι — remissão a διαφθείρω.
+08. διήγειρα — remissão a διεγείρω.
+09. διηγέομαι — contar detalhadamente; formas verbais, regências,
+    narrativas e declarações indiretas em contexto bíblico e patrístico.
+10. διήγημα, τό — narrativa/relato, substituição por θεώρημα.
+11. διήγησις, εως, ἡ — relato ordenado, Lc 1:1, narrativas de Pápias,
+    distinção antiga entre διήγησις e διήγημα e bibliografia.
+12. διηνεκής, ές — continuidade e ausência de interrupção,
+    exemplos sacerdotais de Hb 7:3 e da oferta em Hb 10:12, 14;
+    uso adverbial e documentação histórica.
+13. διηνεκῶς — advérbio, com antecedentes e documentação externa.
+14. διθάλασσος — água de ambos os lados; τόπος δ. em At 27:41;
+    interpretações topográficas alternativas preservadas, sem
+    transformá-las em identificação geográfica certa.
+15. διϊκνέομαι — atravessar/penetrar, uso intransitivo em Hb 4:12.
+16. διί̈στημι — paradigmas; ① afastar-se, ② avançar,
+    ③ passar o tempo, com aspectos de transitividade diferenciados.
+17. διϊστορέω — examinar cuidadosamente, At 17:23 códice D,
+    primeira mão, variante de ἀναθεωρῶν.
+18. διϊσχυρίζομαι — insistir firmemente, construção com infinitivo.
+19. δικάζω — julgar/condenar, paradigmas, sentidos em voz média
+    extra-bíblica, oposição a δίκην τίνειν e variante de Lc 6:37.
+20. δικαιοκρισία, ας, ἡ — sentença justa, Rm 2:5,
+    critério conforme as ações, 2Ts 1:5 variante textual.
+
+Correções executadas durante duas passagens de colação:
+- διετία: ② de remissão metatextual substituído pela indicação
+  verbal "segunda acepção", preservada a contagem ①② do original.
+- διηνεκῶς: forma bibliográfica normalizada para "Mayser 13"
+  conforme conteúdo textual consultado da fonte canônica.
+- δικάζω: referência corrigida para o prefixo grego κατα-.
+- διεφθάρην, διέφθαρμαι: transliteração do segundo membro
+  diéphtharmai, sem alteração da grafia grega original.
+- διθάλασσος: "ον" reconhecido como forma neutra do adjetivo,
+  não "genitivo".
+- διηνεκής: referências do contexto de Hebreus 10 explicitadas
+  em Hb 10:12, 14, separadas de Hb 7:3.
+- O original mantém variantes, reconstruções, testemunhos e
+  conjecturas diferenciados.
+
+Resultado da segunda colação automatizada de correspondência:
+77 sequências candidatas de grego destacadas pela marcação HTML,
+266 marcadores numéricos distintos por artigo e comparação das
+marcas de subacepção entre origem e tradução; 20/20 cabeçalhos
+alinhados; ZERO divergências residuais nesses critérios de
+correspondência textual. Esse controle mecânico de tokens, embora
+integral para os critérios enumerados, NÃO é prova de equivalência
+semântica perfeita de cada segmento nem auditoria certificada.
+
+Objetos auxiliares de tradução preparados fora da árvore:
+1686d1b8f97a2e06db43caf83d202b7d356aa206 (01–10);
+c5f487745d89ccb536b91be2fa7830fea5e9ce8b (11–20).
+Módulo candidato final: lexicons/bdag-part-0089.js
+blob aea9b229ef2894ace7fb7c81dab6c4398a3f8bc0.
+Manifesto candidato: lexicon-modules.json
+blob 6f8ea8d7ad897df356c25ce677b7aceb41d6fafd.
+
+Verificações do módulo: 20 search-row e 20 entry-card;
+IDs distintos com 20 relações data-target/id 1:1;
+HTML com tags equilibradas, JSON round-trip bem-sucedido,
+nenhuma URL externa, handler ou link não autorizado.
+Manifesto: 2.115 → 2.116 caminhos; uma única entrada nova
+imediatamente após bdag-part-0088.js e antes de leh.js;
+nenhuma remoção.
+Regressão remota: os 88 arquivos BDAG anteriores foram
+consultados; 287 + 447 + 587 + 343 + 320 = 1.984
+pares busca/cartão, correspondência 1:1 em cada módulo,
+sem colisão entre os 20 novos IDs e os históricos.
+Progresso após confirmação da publicação:
+1.984 → 2.004 / 8.287 (restarão 6.283);
+88 → 89 módulos BDAG.
+Próximo verbete canônico já visto no HTML: δικαιοπραγία, ας, ἡ.
+
+AUDITORIA_CONCLUIDA: NÃO. Ausentes comprovação de auditoria
+filológica independente integral por verbete, testes funcionais
+DOM/navegador/CI e PR/merge de integração com evidência.
+Não alterar total_auditoria_concluida. Publicação autorizada
+somente por commit atômico em chat-gpt-bdag, com
+expected_sha literal e force=false, seguidos de verificação
+do novo HEAD, da árvore e dos objetos remotos.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δικαιοπραγία → διορθόω — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD inicial remoto confirmado: 9adadf3f3eab98603033a434bef7c0e795188264.
+Fonte canônica exclusiva: HTML da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, 30.790.409 bytes. Não se utilizou o PDF como substituto.
+Janela textual original lida: linhas 27301–27499; 20 artigos consecutivos:
+01 δικαιοπραγία, ας, ἡ
+02 δίκαιος, αία, ον
+03 δικαιοσύνη, ης, ἡ
+04 δικαιόω
+05 δικαίωμα, ατος, τό
+06 δικαίως
+07 δικαίωσις, εως, ἡ
+08 δικαστής, οῦ, ὁ
+09 δίκη, ης, ἡ
+10 δίκτυον, ου, τό
+11 δίλογος, ον
+12 διό
+13 Διόγνητος, ου, ὁ
+14 διοδεύω
+15 διοίκησις, εως, ἡ
+16 Διονύσιος, ου, ὁ
+17 διόπερ
+18 διοπετής, ές
+19 διόπτρα, ας, ἡ
+20 διορθόω
+Próximo cabeçalho no HTML: διόρθωμα, ατος, τό.
+
+Traduções editoriais preparadas com os testemunhos, formas e remissões
+presentes nos artigos, inclusive os grandes artigos δίκαιος,
+δικαιοσύνη e δικαιόω. Preservadas subdivisões explícitas:
+δίκαιος ①ⓐα/β ⓑα/β, ②; δικαιοσύνη ①ⓐⓑ, ②, ③ⓐⓑⓒ;
+δικαιόω ①, ②ⓐⓑα/β, ③, ④; δικαίωμα ①②③;
+δικαίως ①ⓐⓑ, ②; δίκη ①②; διοδεύω ①②.
+Correção fundamentada durante o cotejo: em δικαιοσύνη, a fonte
+repete o segmento δικαιοσύναι com referências em duas passagens
+contíguas; a primeira tradução o condensava numa ocorrência;
+a redação final recupera ambas as ocorrências e seus testemunhos.
+O original não foi emendado; interpretações controversas, variantes
+e probabilidades são identificadas como tais na tradução.
+
+Objetos auxiliares de tradução fora da árvore:
+- 01, 05–20: 4c9adeef9e14c1c8d93a160c0e05f95c656099c0;
+- 02 δίκαιος: d6ebb4950d35d21865844e62c9b29a7599a0fcb7;
+- 03 δικαιοσύνη, revisado: 28521b5970f82c00a90a4a7f3f6b6dcae18f8052;
+- 04 δικαιόω: 8cfee470c22b59320801ded61fbe3c5f77b1809e.
+Módulo preparado: lexicons/bdag-part-0090.js,
+blob bb5cebd6cb43ddfd26e72554163b95d8263824e4.
+Manifesto preparado: lexicon-modules.json,
+blob 17a04476a52ddeba474587379f8703125357a262.
+
+Validação estática da nova árvore: 20 search-row, 20 entry-card,
+20 relações data-target/id 1:1, 20 IDs inéditos, 20 cabeçalhos,
+atributos obrigatórios presentes; tags HTML sem desequilíbrios;
+nenhuma URL externa, script ou handler no novo módulo.
+Manifesto 2.116 → 2.117 caminhos: inclusão única de 0090
+imediatamente após 0089, antes de leh.js; nenhuma remoção.
+Regressão estática de TODOS os 89 módulos BDAG anteriores:
+2.004 search-row e 2.004 entry-card, 2.004 IDs globais únicos,
+paridade 1:1 em cada arquivo, sem colisão dos 20 IDs novos.
+Progresso estrutural após commit confirmado: 2.004 → 2.024 / 8.287,
+89 → 90 módulos; restarão 6.263 verbetes.
+
+LIMITES COMPROVADOS: Releitura mecânica suplementar integral
+do HTML para comparação token a token do grego e de todas as
+referências bloqueada por erro interno intermitente da Biblioteca;
+a conferência editorial inicial e os controles estruturais não
+substituem essa certificação. Não realizados teste funcional real
+DOM/navegador, execução CI, auditoria independente exaustiva por
+verbete nem integração PR/merge (reservada ao integrador).
+AUDITORIA_CONCLUIDA: NÃO; não incrementar contador de auditados.
+Publicar somente em commit atômico, com expected_sha literal,
+force=false, e revalidar HEAD, árvore e blobs no remoto.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO διόρθωμα → δίστομος — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. Base remota consultada:
+8955f44e58c5471edde88a58a44a730331f885c0.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+janela consultada desde a linha 27498.
+Exatamente 20 cabeçalhos autônomos confirmados na ordem original:
+01 διόρθωμα, ατος, τό
+02 διόρθωσις, εως, ἡ
+03 διορίζω
+04 διορύσσω
+05 Διός
+06 Διόσκουροι, ων, οἱ
+07 διότι
+08 Διοτρέφης, ους, ὁ
+09 Διόφαντος, ου, ὁ
+10 διπλοκαρδία, ας, ἡ
+11 διπλοῦς, ῆ, οῦν
+12 διπλόω
+13 Δίρκη, ης, ἡ
+14 δίς
+15 δισμυριάς, άδος, ἡ
+16 δισσός, ή, όν
+17 δισσῶς
+18 δισταγμός, οῦ, ὁ
+19 διστάζω
+20 δίστομος, ον
+Próxima entrada (fora do lote): δισχίλιοι, αι, α.
+
+Traduções de todos os artigos preparadas a partir do HTML, incluindo
+referências, variantes, comentários e subdivisões explícitas.
+Os itens διότι (①–④) e διστάζω (①–②) preservam distinções e hipóteses.
+Remissões (Διός), formas de flexão e homógrafos não foram fundidos.
+Colação mecânica dos destaques gregos na fonte com tradução revelou
+três discrepâncias, corrigidas antes da geração final: Τιμάιους,
+Δαναί̈δες e remissões gregas em δίς. O texto da fonte não foi emendado.
+
+Módulo candidato: lexicons/bdag-part-0091.js
+Git blob 9f08b9c27895d8ea62002c880a51609c3c5b2e29.
+Manifesto candidato: lexicon-modules.json
+Git blob caa3824a214aa2321c6eb0dc1083f345e38fda15.
+
+Validação estática do novo módulo: 20 search-row; 20 entry-card;
+20 IDs únicos e relações data-target/id 1:1, com HTML de tags
+estruturais equilibradas e formato de módulo válido.
+Colisão de transliterações normalizadas δισσός e δισσῶς
+prevenida por sufixos distintos -adj e -adv nos IDs.
+Manifesto: 2.117 -> 2.118 caminhos, inclusão única após 0090
+e antes de leh.js, sem remover entradas anteriores.
+Regressão estática dos 90 módulos BDAG anteriores:
+287 + 447 + 587 + 343 + 360 = 2.024 pares de busca/cartão;
+paridade 1:1 dentro de cada módulo, sem erros encontrados.
+Previsão após publicação confirmada: 2.044/8.287,
+91 módulos contando lexicons/bdag.js; 6.243 restantes.
+
+LIMITES: não foram realizados execução CI, teste DOM/navegador,
+verificação independente exaustiva por verbete nem integração PR/merge
+(reservada ao integrador). Nenhum desses controles foi tratado como
+concluído. AUDITORIA_CONCLUIDA: NÃO. Não aumentar contador de auditados.
+A publicação exige commit único, expected_sha da base real,
+force=false e revalidação remota posterior.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δισχίλιοι → δογματίζω — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD inicial remoto verificado:
+d2340e97be9fc2c998df1988b2fc7732f0cd84a9.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+janela de consulta: linhas 27580 e seguintes, com limite imediatamente
+após δογματίζω. Os 20 cabeçalhos foram confrontados na sequência:
+01 δισχίλιοι, αι, α
+02 διϋλίζω
+03 δίχα
+04 διχάζω
+05 διχηλέω
+06 διχοστασία, ας, ἡ
+07 διχοστατέω
+08 διχοστάτης, ου, ὁ
+09 διχοτομέω
+10 διψάω
+11 δίψος, ους, τὸ
+12 διψυχέω
+13 διψυχία, ας, ἡ
+14 δίψυχος, ον
+15 διωγμίτης, ου, ὁ
+16 διωγμός, οῦ, ὁ
+17 διώκτης, ου, ὁ
+18 διώκω
+19 δόγμα, ατος, τό
+20 δογματίζω
+Próximo cabeçalho (fora do lote): δοθείς, remissão a δίδωμι.
+
+Tradução portuguesa integral dos artigos preparada, mantendo formas gregas,
+comentários, testemunhos, variantes e remissões. Distinções semânticas:
+διχοστατέω ①②; διψάω ①②; διώκω ①②③④ⓐⓑ;
+δόγμα ①ⓐⓑ②. Preservadas hipóteses, em particular
+a ausência de paralelos linguísticos em διχοτομέω.
+Colação automatizada das sequências gregas destacadas no HTML: todos
+os itens cotejados presentes, sem lacunas nesses elementos.
+Essa conferência, por si, não prova equivalência semântica exaustiva.
+
+Módulo preparado: lexicons/bdag-part-0092.js,
+blob eea2c3e993e49e74e7f0baccff07792b8b22f3d0.
+Manifesto candidato: lexicon-modules.json,
+blob 26c04cb76ecd3e795462c7dd626a0c6d1fecce43.
+
+Validação estrutural do novo módulo: 20 search-row,
+20 entry-card; 20 relações data-target/id 1:1 e IDs distintos;
+tags estruturais equilibradas; sem handlers, scripts
+ou links externos arbitrários.
+Manifesto: 2.118 -> 2.119 caminhos, inclusão após 0091 e antes
+de leh.js, sem remissões ou entradas de outros léxicos modificadas.
+Regressão estática dos 91 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 380 = 2.044 pares de busca/cartão;
+paridade de IDs confirmada em cada arquivo, sem divergências.
+Progresso estrutural esperado após commit confirmado:
+2.044 -> 2.064 / 8.287; 92 arquivos BDAG, 6.223 restantes.
+
+LIMITES NÃO CERTIFICADOS: teste DOM/navegador real, CI, auditoria
+filológica independente completa por verbete, integração PR/merge.
+Não declarar AUDITORIA_CONCLUIDA nem incrementar contador auditado.
+Publicar somente um commit direto no HEAD remoto com
+expected_sha exato, force=false; revalidar HEAD, árvore e blobs.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δοθείς → δόρυ — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 34622789e88db8f9e109fd92130bbffa652b4463.
+Fonte de conteúdo: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela consultada: a partir da linha 27680, contendo os 20 artigos
+e o cabeçalho seguinte, sem recorrer ao PDF como substituto.
+
+Sequência autônoma:
+01 δοθείς
+02 δοῖ
+03 δοκέω
+04 δοκιμάζω
+05 δοκιμασία, ας, ἡ
+06 δοκιμή, ῆς, ἡ
+07 δοκίμιον, ου, τό
+08 δόκιμος, ον
+09 δοκός, οῦ, ἡ
+10 δόλιος, ία, ον
+11 δολιότης, ητος, ἡ
+12 δολιόω
+13 δόλος, ου, ὁ
+14 δολόω
+15 δόμα, δόματος, τό
+16 δόξα, ης, ἡ
+17 δοξάζω
+18 δοξολογία, ας, ἡ
+19 Δορκάς, άδος, ἡ
+20 δόρυ, ρατος, τό
+Próximo cabeçalho: δόσις, εως, ἡ.
+
+Traduções dos 20 artigos preparadas, preservando os lemas
+remissivos, numerosas formas gregas, exemplos, distinções,
+citações, variantes e bibliografia. As duas remissões não ganharam
+acepções inventadas. Os verbetes longos foram segmentados segundo
+as subdivisões originais: δοκέω ①ⓐ–ⓕ, ②ⓐα/β, ⓑα/β;
+δοκιμάζω ① e ②ⓐⓑ; δόξα ①ⓐⓑⓒα/βⓓ, ②③④;
+δοξάζω ①②; os demais verbetes mantêm as subdivisões aplicáveis.
+O texto canônico foi consultado inicialmente para delimitação
+e tradução, mas uma segunda releitura mecânica suplementar integral
+foi bloqueada por falhas internas intermitentes da Biblioteca.
+Não se atribui certificação de colação exaustiva independente
+ou equivalência semântica perfeita.
+
+Novo módulo candidato: lexicons/bdag-part-0093.js,
+blob 77d6cd4f95621c1c3f3bf49d94b66f9962e472ee.
+Novo manifesto candidato: lexicon-modules.json,
+blob 8fd8351367d35a9c9ebc7da9429a2c2eef8d48fd.
+
+Validação estrutural estática:
+20 search-row, 20 entry-card, 20 relações data-target/id 1:1,
+20 IDs distintos, tags HTML estruturais equilibradas.
+Manifesto 2.119 -> 2.120 caminhos, inclusão de 0093
+imediatamente após 0092, antes de leh.js.
+Regressão estática dos 92 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 400 = 2.064 pares busca/cartão;
+paridade de IDs em cada módulo, sem erro; não foram detectadas
+colisões dos 20 novos IDs com os módulos anteriores.
+Progresso previsto após publicação confirmada:
+2.064 -> 2.084 / 8.287; 93 arquivos BDAG, 6.203 restantes.
+
+NÃO COMPROVADOS: comparação mecânica suplementar exaustiva
+de todas as formas e referências do HTML original, testes
+DOM/navegador/CI e integração independente por PR/merge.
+AUDITORIA_CONCLUIDA: NÃO; não incrementar total auditado.
+Publicar somente como um commit direto com expected_sha exato,
+force=false e revalidar HEAD, árvore e blobs no remoto.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δόσις → δρομαῖος — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: fa1c1ccbbce246218fb24d39b18b996b30472371.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+janela consultada linhas 27900–28249. Não utilizado PDF substituto.
+
+20 cabeçalhos consecutivos:
+01 δόσις, εως, ἡ
+02 δότης, ου, ὁ
+03 Δουβέριος
+04 δουλαγωγέω
+05 δουλεία, ας, ἡ
+06 δουλεύω
+07 δούλη, ης, ἡ
+08 δοῦλος, η, ον
+09 δοῦλος, ου, ὁ
+10 δουλόω
+11 δοῦναι, δούς
+12 δοχή, ῆς, ἡ
+13 δράκων, οντος, ὁ
+14 δραμεῖν,-ών
+15 δράξ, δρακός, ἡ
+16 δράσσομαι
+17 δραχμή, ῆς ἡ
+18 δράω
+19 δρέπανον, ου, τό
+20 δρομαῖος, α, ον
+Próximo cabeçalho canônico: δρόμος, ου, ὁ.
+
+20 traduções editoriais preparadas a partir do original, mantendo
+numerais e distinções fonte: δόσις ①②; δουλεία ①②;
+δουλεύω ①ⓐⓑ, ②ⓐα/βⓑ; δοῦλος substantivo ①ⓐⓑⓒ,
+②ⓐⓑα/β; δουλόω ①②. Mantidos separados os dois verbetes
+δοῦλος, adjetivo e substantivo, e remissões a δίδωμι e τρέχω.
+Foram preservadas as variantes e interpretações alternativas
+textuais nos artigos. A conferência editorial inicial baseou-se
+no HTML; a releitura mecânica suplementar do HTML para comparar
+cada forma grega e todas as referências foi bloqueada por erro
+intermitente da Biblioteca (files.read). Portanto, nenhuma
+certificação de cotejo exaustivo independente está sendo alegada.
+
+Novo módulo candidato: lexicons/bdag-part-0094.js,
+blob a49b1e2be0b25dc826b690a039c1cbadda541a0c.
+Manifesto candidato: lexicon-modules.json,
+blob 441925a5b5d0a1e01b86dd4e504bc82e83537fb0.
+
+Validação estrutural: 20 search-row e 20 entry-card,
+20 IDs distintos, 20 data-target/id 1:1, tags HTML estruturais
+equilibradas; nenhuma URL externa ou manipulador arbitrário.
+Manifesto: 2.120 → 2.121 caminhos, inclusão única de 0094
+após 0093 e antes de leh.js, sem remoções.
+Regressão estática dos 93 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 240 + 180 = 2.084 pares,
+sem divergências internas de paridade nem colisões dos 20 IDs
+novos nos módulos anteriores. Nenhum outro léxico alterado.
+Progresso estrutural previsto após commit confirmado:
+2.084 → 2.104 / 8.287, 94 arquivos BDAG, 6.183 restantes.
+
+PENDÊNCIAS: colação mecânica independente integral do original,
+teste DOM/navegador e CI, auditoria filológica independente,
+integração PR/merge. AUDITORIA_CONCLUIDA: NÃO. Não incrementar
+contador auditado. A publicação exige commit atômico com
+expected_sha exato e force=false, revalidação remota posterior.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δρόμος → δύσκολος — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 7cc54bc7f07d093a454b282aa4cc32df394ceb17.
+Fonte exclusiva de conteúdo: HTML canônico da Biblioteca,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janelas consultadas: desde linha 28020 e desde 28150. A segunda leitura
+suplementar automatizada do HTML falhou por erro intermitente.
+Não recorrer ao PDF como fonte substituta.
+Sequência de exatamente 20 cabeçalhos:
+01 δρόμος, ου, ὁ
+02 δροσίζω
+03 Δρούσιλλα, ης, ἡ
+04 δύναμαι
+05 δύναμις, εως, ἡ
+06 δυναμόω
+07 δυνάστης, ου, ὁ
+08 δυνατέω
+09 δυνατός, ή, όν
+10 δυνατῶς
+11 δύνω
+12 δύο
+13 δυσ-
+14 δυσβάστακτος, ον
+15 δύσβατος, ον
+16 δυσεντέριον, ου, τό
+17 δυσερμήνευτος, ον
+18 δυσθεράπευτος, ον
+19 δύσις, εως, ἡ
+20 δύσκολος, ον
+Próximo cabeçalho canônico: δυσκόλως.
+
+Traduções portuguesas preparadas com formas gregas, citações,
+referências, variantes e remissões; mantidas as distinções:
+δρόμος ①②; δύναμαι ⓐα/β/γ, ⓑⓒ;
+δύναμις ①ⓐⓑ, ②③④⑤⑥; δυνάστης ①ⓐⓑ②;
+δυνατός ①ⓐα/βⓑα/β, ②ⓐⓑ; δύο ⓐα–δⓑ.
+Os cabeçalhos foram confirmados em consulta ao HTML canônico.
+A segunda colação mecânica suplementar exaustiva de cada
+ocorrência grega com o HTML não pôde ser concluída por falhas
+do serviço files.read; não certificar equivalência integral
+independente apenas a partir da tradução realizada.
+
+Módulo candidato: lexicons/bdag-part-0095.js
+blob: 6f65da74a1b92834cdef24592238c2b573d3effa.
+Manifesto candidato: lexicon-modules.json
+blob: 6d4ae07dc5072324789a736c7204640ab6bb4f09.
+Verificações: 20 search-row, 20 entry-card, paridade 1:1,
+20 IDs distintos, tags HTML estruturais equilibradas;
+colisão de slug entre δυνατός (adjetivo) e δυνατῶς
+(advérbio) resolvida com sufixos -adj/-adv nos IDs.
+Manifesto de 2121 -> 2122 módulos; 0095 após 0094, antes de leh.js.
+Regressão estática dos 94 arquivos BDAG anteriores:
+316 + 484 + 581 + 363 + 360 = 2104 pares 1:1, sem
+erros detectados em cada arquivo ou colisão com os novos IDs.
+Progresso após publicação confirmada previsto:
+2104 -> 2124 / 8287 (25,63%); 95 arquivos BDAG,
+6163 verbetes restantes.
+
+NÃO CERTIFICADOS: colação independente exaustiva do HTML,
+testes DOM/navegador/CI, auditoria completa por verbete,
+integração PR/merge. AUDITORIA_CONCLUIDA: NÃO.
+Não incrementar total de verbetes auditados.
+Publicar apenas um commit com expected_sha remoto exato e
+force=false, revalidando HEAD, árvore e blobs no repositório.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δυσκόλως → δωρεά — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: ac88bda9b2598f9132d703f7ad1b9eacfcd98cf5.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela da fonte: linhas 28308–28396 (com a continuação de δωδεκάφυλος
+em blocos internos); próximo cabeçalho canônico: δωρεάν.
+
+20 cabeçalhos consecutivos:
+01 δυσκόλως
+02 δυσμαθής, ές
+03 δυσμή, ῆς, ἡ
+04 δυσνόητος, ον
+05 δυσφημέω
+06 δυσφημία, ας, ἡ
+07 δύσχρηστος, ον
+08 δυσωδία, ας, ἡ
+09 δύω
+10 δῷ, δώσῃ, etc.
+11 δώδεκα
+12 δωδεκαετής, ες
+13 δωδεκακώδων, ωνος, ὁ
+14 δωδεκάσκηπτρον, ου, τό
+15 δωδέκατος, η, ον
+16 δωδεκάφυλος, ον
+17 δῴη, δώῃ
+18 δῶμα, ατος, τό
+19 δωμάτιον, ου, τό
+20 δωρεά, ᾶς, ἡ
+
+20 traduções editoriais com texto grego, referências, variantes e
+remissões preservados; δωδεκάφυλος tem dois usos (adjetivo e
+substantivo coletivo); δώδεκα conserva a variante ἕνδεκα e as
+interpretações bibliográficas divergentes. Os artigos remissivos
+foram computados separadamente. Não foi usada fonte substituta.
+
+Módulo novo: lexicons/bdag-part-0096.js.
+Blob candidato: 3ff7a35f11cb7e4bdf50bd8adc6e46768f7d568a.
+Manifesto candidato: lexicon-modules.json.
+Blob candidato: 199aad91b82307c30f91334253bb29117d8e55fe.
+Validação pré-publicação: 20 search-row, 20 entry-card, 20 IDs
+distintos, data-target/id 1:1, HTML estruturalmente equilibrado,
+20 registros BDAG, sem URLs de domínio proibido.
+Colisões prévias de slug corrigidas antes de publicação:
+δύω recebe entry-dyo-verb-bdag, distinto de δύο;
+δῶμα recebe entry-doma-roof-bdag, distinto de entrada anterior.
+Manifesto: 2122 -> 2123 caminhos; inclusão única de 0096 após 0095
+e antes de leh.js, sem remoções.
+
+Regressão estática dos 95 arquivos BDAG anteriores:
+19 + 86 + 347 + 566 + 466 + 360 + 280 = 2124 pares 1:1
+(separação: arquivo bdag.js, partes 0002–0009, 0010–0027,
+0028–0045, 0046–0063, 0064–0081, 0082–0095).
+Nenhum módulo anterior alterado; nenhum outro léxico alterado.
+Progresso previsto após commit remoto confirmado:
+2124 -> 2144 / 8287 (25,87%); 96 arquivos BDAG, 6143 restantes;
+próximo lema: δωρεάν.
+
+PENDÊNCIAS: segunda colação mecânica exaustiva independente do HTML
+(tentativas suplementares de leitura falharam); testes reais DOM/
+navegador e CI, auditoria filológica integral independente por
+verbetes, fichas individuais e integração PR/merge.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Publicação somente em commit único sobre HEAD remoto com
+expected_sha exato e force=false; exigir revalidação de HEAD,
+árvore, blobs remotos e ausência de alterações alheias.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO δωρεάν → Ἑβραϊκός — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 85652836f2495db5c70bff20619beb8971c26057.
+Árvore inicial: 1c13e22be3f81f2cf85c8728d0f58fe30cf9ae44.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela consultada: linhas 28397–28598, incluindo as subdivisões internas
+das entradas ἐάν e ἑαυτοῦ. Próximo cabeçalho independente: Ἑβραῖος.
+
+20 cabeçalhos consecutivos:
+01 δωρεάν
+02 δωρέομαι
+03 δώρημα, ατος, τό
+04 δῶρον, ου, τό
+05 δωροφορία, ας, ἡ
+06 ε´
+07 ἔα
+08 ἐάν
+09 ἐάνπερ
+10 ἐαρινός, ή, όν
+11 ἑαυτοῦ, ῆς, οῦ, pl. ἑαυτῶν
+12 ἐάω
+13 ἑβδομάς, άδος, ἡ
+14 ἑβδομήκοντα
+15 ἑβδομηκοντάκις
+16 ἕβδομος, η, ον
+17 ἐβεβλήκει, ἐβέβλητο
+18 Ἔβερ, ὁ
+19 ἐβλήθην
+20 Ἑβραϊκός, ή, όν
+
+20 traduções editoriais portuguesas preparadas a partir do conteúdo
+original, com referências, morfologia, citações gregas, variantes
+e remissões. Mantidas as três acepções de δωρεάν, a distinção entre
+δωρεά e δῶρον no artigo δῶρον, todas as divisões gramaticais do artigo
+ἐάν e os três usos de ἑαυτοῦ (reflexivo, recíproco, possessivo).
+O artigo ἑβδομηκοντάκις conserva os dois valores concorrentes e
+a preferência expressa pelo BDAG. Os três artigos estritamente
+remissivos foram mantidos como registros autônomos.
+
+Novo módulo candidato: lexicons/bdag-part-0097.js
+Blob Git: f7c2cd483ab4bb22da5120f5422a932a2ad5fdeb.
+Manifesto candidato: lexicon-modules.json
+Blob Git: 2048ecedf7c3479054007f7d9789c6aa0b9908c3.
+Validação estática pré-publicação: 20 linhas search-row, 20
+cartões entry-card, 20 data-target/id correspondentes, sem
+duplicação interna, HTML estruturalmente equilibrado.
+Manifesto: 2123 -> 2124 caminhos, com 0097 imediatamente depois
+de 0096 e antes de leh.js, sem excluir outros caminhos.
+Nenhum popup BDAG novo e nenhuma URL externa inventada.
+
+Regressão estática de todos os 96 módulos BDAG anteriores:
+316 + 459 + 566 + 343 + 240 + 220 = 2144 pares busca/cartão
+conferidos, sem divergências de ordem dentro dos módulos e
+sem colisões dos vinte novos IDs nos módulos anteriores.
+Nenhum módulo anterior nem outro léxico modificado.
+
+Progresso previsto APÓS confirmação remota do commit:
+2144 -> 2164 / 8287 (26,11%); 97 módulos BDAG; 6123 restantes.
+Próximo cabeçalho: Ἑβραῖος, ου, ὁ.
+
+LIMITAÇÕES: a segunda colação mecânica independente integral foi
+bloqueada por erro interno do serviço de leitura do HTML, após
+a primeira leitura dos artigos; testes funcionais DOM/navegador,
+CI, fichas individuais de auditoria filológica independente
+e integração PR/merge não concluídos.
+AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida não incrementado.
+Publicação exigida em commit único, em chat-gpt-bdag, com HEAD
+reconfirmado, expected_sha exato, force=false, e verificação de
+HEAD, árvore e blobs posteriormente.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO Ἑβραῖος → ἐγκάρδια — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 7288964c9595045182e098ff7282b9aff791596a.
+Árvore inicial: 85f55e67dbee23eaf9393299a9be46df531e0ee7.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Trecho canônico: linhas 28600–28806, inclusive divisões internas
+dos artigos extensos. Cabeçalho seguinte: ἔγκαρπος, ον.
+
+20 cabeçalhos consecutivos, incluindo remissões autônomas:
+01 Ἑβραῖος, ου, ὁ
+02 Ἑβραί̈ς, ί̈δος, ἡ
+03 Ἑβραϊστί
+04 ἐγγεννάω
+05 ἐγγίζω
+06 ἔγγιστα
+07 ἔγγραφος, ον
+08 ἐγγράφω
+09 ἔγγυος, ον
+10 ἐγγύς
+11 ἐγεγόνει
+12 ἐγείρω
+13 ἔγερσις, εως, ἡ
+14 ἐγκάθετος, ον
+15 ἐγκάθημαι
+16 ἐγκαίνια, ίων, τά
+17 ἐγκαινίζω
+18 ἐγκακέω
+19 ἐγκαλέω
+20 ἐγκάρδια, ίων, τά
+
+Os 20 artigos foram transpostos em português em camadas editoriais
+com grego politônico, acepções, subacepções, morfologia, citações,
+variantes, bibliografia, remissões e juízos probabilísticos.
+Ἑβραῖος preserva os sentidos étnico e linguístico, com alternativas
+interpretativas; ἐγγίζω e ἐγγύς preservam usos espaciais/temporais
+e construções; ἐγείρω mantém 13 sentidos principais e subdivisões;
+ἐγκάρδια preserva dúvida quanto à leitura τὰ ἐν καρδίᾳ.
+
+Novo módulo: lexicons/bdag-part-0098.js
+Blob candidato: 63b70f1a6748ae2d9064ffc61bb401b8f9820fc6.
+Manifesto atualizado: lexicon-modules.json
+Blob candidato: b0db6e153bbc2a17aa234283527fd05cb498d442.
+Controles estáticos: 20 search-row, 20 entry-card, 20 IDs
+distintos, data-targets em correspondência 1:1 e na mesma ordem,
+HTML balanceado, source BDAG 20/20; nenhum link externo inventado.
+Manifesto: 2124 -> 2125 caminhos, inclusão única do módulo 0098
+imediatamente após 0097 e antes de leh.js. Popups novos: nenhum.
+
+Regressão estática integral dos 97 arquivos BDAG anteriores:
+270 + 397 + 594 + 323 + 340 + 240 = 2164 pares 1:1
+sem duplicações globais e sem colisões com os 20 IDs novos.
+Os arquivos anteriores e outros léxicos permanecem inalterados.
+Contagem condicionada à confirmação do commit remoto:
+2164 -> 2184 / 8287 (26,35%), 98 módulos BDAG;
+6103 verbetes restantes. Próximo: ἔγκαρπος, ον.
+
+PENDÊNCIAS: segunda colação mecânica automatizada independente do
+HTML não realizada por erro interno do leitor de arquivos, após
+consulta inicial integral da fonte; DOM real, testes funcionais,
+CI, auditoria filológica independente com evidências individuais
+e integração PR/merge não confirmados.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Publicar apenas em chat-gpt-bdag, em commit único atômico,
+com expected_sha exato, force=false, revalidando HEAD, árvore
+e blobs remotos após a publicação.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἔγκαρπος → ἐγκρίνω — 06/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD remoto inicial: 7e52a448451e5b94281683f94e31adccab458d6b.
+Árvore inicial: 197e3ca8c5b5a4cc272ec4a7f3523c119d59b3b8.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Janela da fonte: linhas 28807–28902, incluindo subdivisões internas.
+Próximo cabeçalho canônico, fora do lote: ἐγκρίς, ίδος, ἡ.
+
+20 cabeçalhos consecutivos:
+01 ἔγκαρπος, ον
+02 ἔγκατα, άτων, τά
+03 ἐγκατάλειμμα, ατος, τό
+04 ἐγκαταλείπω
+05 ἐγκαταστηρίζω
+06 ἐγκατασφραγίζω
+07 ἐγκατοικέω
+08 ἐγκαυχάομαι
+09 ἔγκειμαι
+10 ἐγκεντρίζω
+11 ἐγκεράννυμι
+12 ἐγκλείω
+13 ἔγκλημα, τος, τό
+14 ἐγκομβόομαι
+15 ἐγκοπή, ῆς, ἡ
+16 ἐγκόπτω
+17 ἐγκράτεια, είας, ἡ
+18 ἐγκρατεύομαι
+19 ἐγκρατής, ές
+20 ἐγκρίνω
+
+Transpostas em português as 20 entradas com fidelidade às
+distinções morfológicas e semânticas, citações gregas, variantes,
+remissões e referências bibliográficas. Distinções preservadas:
+ἐγκαταλείπω com os sentidos de deixar remanescentes e de
+abandonar; ἔγκλημα com usos jurídico e de censura; ἐγκόπτω
+com a discussão concorrente do sentido em At 24:4; ἐγκράτεια
+e ἐγκρατεύομαι com autodomínio e continência.
+
+Módulo novo: lexicons/bdag-part-0099.js.
+Blob candidato: d712448e8be404b633be8866e85a768a479134ba.
+Manifesto atualizado: lexicon-modules.json.
+Blob candidato: 4f8e67b065dc6cb713a1909cfe99f5a5f07a76e1.
+Validação estática pré-publicação: 20 search-row, 20 entry-card,
+20 IDs internos distintos, alvos data-target/id alinhados 1:1,
+HTML estruturalmente equilibrado; 20 registros com source BDAG.
+Manifesto: 2125 -> 2126 caminhos, 0099 logo após 0098 e antes
+de leh.js; nenhuma alteração de outro léxico.
+
+Regressão estática completa dos 98 arquivos BDAG anteriores:
+287 + 447 + 587 + 343 + 360 + 160 = 2184 pares busca/cartão
+1:1, sem repetição global dos IDs anteriores, sem colisões com
+os vinte novos IDs. Nenhum blob dos módulos anteriores alterado.
+Progresso condicionado à confirmação de publicação remota:
+2184 -> 2204 / 8287 (26,60%), 99 módulos BDAG; 6083 restantes.
+Próximo início: ἐγκρίς, ίδος, ἡ.
+
+PENDÊNCIAS: segunda colação mecânica exaustiva independente da
+fonte não concluída: releitura complementar de HTML retornou
+erro interno, apesar da leitura inicial das 20 entradas.
+Testes reais DOM/navegação/CI, auditoria filológica individual
+independente e integração PR/merge não confirmados.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Publicar somente em um commit na branch chat-gpt-bdag com
+expected_sha do HEAD corrente e force=false; reconferir HEAD,
+árvore, pais, manifesto e blobs após atualização remota.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἐγκρίς → ἐθελο- — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial (EXPECTED_HEAD): 40e2f294fefd107782716fbcdc890af398a1a6a5.
+Árvore de base: b352c246469d1ab0e9b1f8a247ce6c51089cb00c.
+Fonte filológica exclusiva: HTML canônico do BDAG da Biblioteca Scriptura
+Lexicon, versão 1, cabeçalhos consecutivos a partir da linha 28903.
+Nenhum PDF, outro léxico ou fonte externa substituiu esse HTML.
+
+Os 20 cabeçalhos autônomos do lote, inclusive remissões:
+01 ἐγκρίς, ίδος, ἡ
+02 ἐγκρύπτω
+03 ἔγκυος, ον
+04 ἐγκύπτω
+05 ἔγνωκα, ἔγνων, ἔγνωσμαι
+06 ἐγρηγορέω
+07 ἐγχρίω
+08 ἐγχώριος, ον
+09 ἐγώ
+10 ἐδαφίζω
+11 ἔδαφος, ους, τό
+12 ἔδεσμα, ατος, τό
+13 ἔδομαι
+14 ἑδράζω
+15 ἑδραῖος, (αία,) αῖον
+16 ἑδραίωμα, ατος, τό
+17 ἔδραμον
+18 Ἑζεκίας, ου, ὁ
+19 ἔζην
+20 ἐθελο-
+
+Primeiro cabeçalho seguinte, excluído deste lote:
+ἐθελοδιδάσκαλος, ου, ὁ.
+
+Novo módulo: lexicons/bdag-part-0100.js, registrado logo após 0099 no
+manifesto lexicon-modules.json, antes de lexicons/leh.js.
+Traduções em português brasileiro, com textos gregos, citações, referências,
+variantes e remissões preservadas; ἐγώ conserva gramática e bibliografia
+extensas; ἐθελο- conserva suas duas acepções. O lema ἐγκρίς preserva a
+etimologia incerta e a interpretação do alimento de João Batista como
+alternativa a ἀκρίδες, sem converter a hipótese em certeza.
+O texto grego da fonte não foi reescrito por conjectura.
+
+Validação estática dos 99 módulos anteriores:
+2204 linhas search-row e 2204 cartões entry-card; alinhamento 1:1;
+sem ID duplicado, alvo duplicado, linha órfã ou cartão órfão.
+Novo módulo: +20 linhas e +20 cartões, sem colisão com os IDs prévios,
+todos data-source=BDAG e IDs -bdag; marcação HTML equilibrada.
+Manifesto: 2126 -> 2127 módulos; nenhum módulo BDAG anterior modificado.
+Não foram acrescentados links ao domínio beta.perseus.tufts.edu.
+Sem alterações em index.html, script.js, style.css ou lexicons/leh.js.
+
+Progresso a validar na publicação remota: 2204 -> 2224 / 8287
+(aproximadamente 26,84%; 6063 verbetes restantes).
+Total de módulos BDAG previsto após publicação: 100.
+
+PENDÊNCIAS: testes DOM reais, acessibilidade e navegação funcional,
+colação filológica independente integral com fichas individuais,
+CI e integração PR/merge em chat-gpt-commits não comprovados.
+Tratar as verificações documentadas como estáticas, não como auditoria
+concluída segundo regras/Rauditoria.txt.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+
+Publicar as três alterações deste lote em um único commit,
+com parent_sha = EXPECTED_HEAD, atualização fast-forward com
+expected_sha exato e force=false, e reconferência posterior
+de HEAD, árvore, manifesto e blobs. O SHA deste próprio commit
+não pode ser incorporado autorreferencialmente a esta regra.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO ἐθελοδιδάσκαλος → εἶδον — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto de partida (EXPECTED_HEAD): 38756a51b9c07df6991d404238540544c3e12e88.
+Árvore inicial: be77ef83e0382f5531d0e020645ad6985c93c863.
+Fonte exclusiva: HTML canônico do BDAG na Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1.
+Leitura diretamente no HTML, aproximadamente linhas 28985–29250;
+os cabeçalhos independentes contam também formas remissivas.
+A fonte não foi substituída por PDF, índices ou outros léxicos.
+
+Cabeçalhos consecutivos 01–20:
+01 ἐθελοδιδάσκαλος, ου, ὁ
+02 ἐθελοθρησκία, ας, ἡ
+03 ἐθέλω
+04 ἐθέμην, ἔθηκα
+05 ἐθίζω
+06 ἐθνάρχης, ου, ὁ
+07 ἐθνικός, ή, όν
+08 ἐθνικῶς
+09 ἔθνος, ους, τό
+10 ἔθος, ους, τό
+11 ἔθρεψα
+12 ἔθω
+13 εἰ
+14 εἰ μήν
+15 εἴα, ἔιασα
+16 εἶδα
+17 εἰδέα, ας, ἡ
+18 εἰδέναι, εἰδήσω
+19 -ειδής
+20 εἶδον
+
+Primeiro lema posterior, fora do lote: εἰδός.
+Novo módulo lexicons/bdag-part-0101.js com tradução portuguesa de todos
+os 20 artigos, preservadas suas distinções semânticas, construções,
+variantes, testemunhos, referências e remissões.
+O artigo ἔθνος conserva as duas grandes acepções, incluindo as
+subdivisões dos grupos externos a Israel e dos cristãos não israelitas.
+O artigo εἰ conserva sete seções, subdivisões gramaticais de tempo e
+modo verbal, partículas associadas e referências bibliográficas.
+O artigo εἶδον mantém a morfologia variante e cinco acepções.
+εἰδέα conserva a advertência de grafia incorreta no contexto de Mt 28:3.
+Foi resolvida previamente colisão potencial de ID com ἐθελο-,
+usando entry-ethelo-verb-bdag para o verbo ἐθέλω.
+
+Controles estáticos pré-publicação:
+- 100 arquivos BDAG anteriores, total de 2224 pares busca/cartão;
+- 99 blobs históricos conferidos contra inventário anterior por SHA
+  e mesmo HEAD da base; bdag-part-0100.js conferido separadamente;
+- nenhum ID novo duplicado ou colidente com BDAG, index.html ou LEH;
+- 20 linhas novas e 20 cartões novos, data-target/id 1:1;
+- HTML da nova tabela e dos cartões estruturalmente equilibrado;
+- todos data-source=BDAG e IDs terminados em -bdag;
+- nenhuma referência ao domínio beta.perseus.tufts.edu adicionada;
+- manifesto 2127 -> 2128 caminhos, bdag-part-0101 após 0100;
+- arquivos protegidos e todos os módulos históricos intocados.
+
+Progresso condicionado à confirmação da publicação remota:
+2224 -> 2244 / 8287 (~27,08%); 6043 restantes.
+Novo total de módulos BDAG: 101.
+Publicar em um único commit: novo módulo, manifesto, checkpoint Rbdag;
+commit com pai EXPECTED_HEAD e lease exacto expected_sha, force=false.
+Revalidar HEAD, árvore, parent, diff e blobs após o fast-forward.
+A correção de ID não altera o registro preexistente de ἐθελο-.
+
+PENDÊNCIAS SEGUNDO regras/Rauditoria.txt:
+colação filológica externa independente com ficha individual por verbete;
+execução de DOM real, testes funcionais de busca/cartão, teclado,
+acessibilidade e CI; integração por PR/merge verificada ainda não feita.
+Nenhum teste ausente foi rotulado como aprovado.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO εἰδός → εἴκω — 06/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial (EXPECTED_HEAD): bd231f91c62c90ec50a8a6d8cb4fe9214455e641.
+Árvore base: ec17c3e77aaf9a88e925c0950860609422dfbfdc.
+Fonte exclusiva: Biblioteca Scriptura Lexicon, HTML canônico do BDAG:
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+aproximadamente linhas 29249–29363.
+Nenhuma substituição do HTML por PDF, dicionário concorrente ou conjectura.
+
+20 cabeçalhos consecutivos, inclusive remissões e compostos:
+01 εἰδός
+02 εἶδος, ους, τό
+03 εἰδυῖα, εἰδῶ
+04 εἰδωλεῖον, ου, τό
+05 εἰδωλόθυτος, ον
+06 εἰδωλολατρέω
+07 εἰδωλολάτρης, ου, ὁ
+08 εἰδωλολατρία, ας, ἡ
+09 εἰδωλομανής,-ές
+10 εἴδωλον, ου, τό
+11 εἰδώς, υῖα, ός
+12 εἴθισμαι
+13 εἰκάζω
+14 εἰκαιότης, ητος, ἡ
+15 εἰκῇ
+16 εἰκός
+17 εἴκοσι
+18 εἰκοσιπέντε, εἰκοσιτέσσαρες, εἰκοσιτρεῖς
+19 εἰκτικῶς
+20 εἴκω
+
+Próximo lema após o lote: εἰκών, όνος, ἡ.
+Módulo incorporado: lexicons/bdag-part-0102.js.
+A tradução preserva a tripartição de εἶδος, a oposição entre imagem
+material e divindade representada em εἴδωλον, as quatro distinções
+adverbiais de εἰκῇ, remissões, formas, variantes, textos em grego,
+hebraico onde houver, exemplificação, bibliografia e referências.
+Mantém as discussões de cultos e sacrifícios no contexto lexical da fonte,
+sem resolver questões filológicas por conjectura. Distinções específicas
+de variantes e restaurações não são convertidas em leituras certas.
+
+Validação estática e regressão pré-publicação:
+- inventário de 99 módulos prévios confrontado com os blobs da árvore
+  remota atual por SHA, sem divergências; bdag-part-0100.js e
+  bdag-part-0101.js também conferidos pelos blobs individuais;
+- 101 módulos BDAG anteriores, com 2244 search-row e 2244 entry-card;
+- todos os IDs e alvos anteriores únicos; nenhuma linha ou cartão órfão;
+- novo módulo com 20 linhas, 20 cartões e correspondência por posição 1:1;
+- IDs novos exclusivos no conjunto BDAG e sem colisão com index e LEH;
+- zero nomes de ID sem sufixo -bdag; data-source=BDAG em todos os pares;
+- HTML de linhas e cartões balanceado, sem tags pendentes;
+- 20 cabeçalhos de cartões; sem links beta.perseus.tufts.edu acrescentados;
+- manifesto de 2128 para 2129 arquivos, com 0102 depois de 0101;
+- arquivos base e todos os 101 módulos BDAG prévios sem alterações.
+
+Progresso condicionado à publicação remota: 2244 -> 2264 / 8287
+(27,32%; 6023 verbetes restantes); 102 módulos BDAG previstos.
+
+IMPORTANTE — AUDITORIA NÃO CONCLUÍDA:
+Verificações realizadas são estáticas e não equivalem à colação filológica
+independente e integral, nem substituem fichas individuais por verbete,
+testes funcionais/DOM, CI, acessibilidade, PR e merge exigidos por
+regras/Rauditoria.txt. Nenhuma execução ausente foi certificada.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+
+Publicar exclusivamente 3 arquivos (módulo, manifesto e Rbdag) num único
+commit com parent_sha=EXPECTED_HEAD, expected_sha exato e force=false.
+Revalidar HEAD remoto, pais, árvore, diff e blobs após fast-forward.
+================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO εἰκών → εἴπως — 06/11/2026
+================================================================================
+Branch: chat-gpt-bdag. HEAD inicial (EXPECTED_HEAD):
+545d8a3c73a1259c7149cfa091793eaddeb6f704
+Árvore base: e8832658e7d1bcda72bab4e03d74f6e12b67e395.
+Fonte exclusiva: HTML canônico BDAG, Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+cabeçalhos nas linhas 29364–29580, confirmados sem PDF substitutivo.
+
+20 cabeçalhos consecutivos (remissões incluídas):
+01 εἰκών, όνος, ἡ
+02 εἱλάμην
+03 εἰλευθέρωσεν
+04 εἰλέω
+05 εἴλημμαι, εἴληπται, εἴληφα
+06 εἰλικρίνεια, ας, ἡ
+07 εἰλικρινής, ές,
+08 εἰλικρινῶς
+09 εἱλίσσω
+10 εἷλκον, εἵλκυσα
+11 εἵλκωμαι
+12 εἱλόμην
+13 εἰμί
+14 εἶμι
+15 εἵνεκεν
+16 εἶξα
+17 εἶπα, εἰπεῖν
+18 εἴπερ
+19 εἶπον
+20 εἴπως
+
+Primeiro cabeçalho posterior: εἰργασάμην, εἴγασμαι.
+Novo arquivo lexicons/bdag-part-0103.js, com 20 traduções ao português,
+sem recorrer a obras externas para inventar acepções, leituras ou fontes.
+εἰκών: 3 acepções, inclusive imagens vivas e discussão de imago Dei.
+εἰμί: 11 seções e todas as subdivisões, paradigmas, variantes,
+construções copulativas, existenciais, temporais, locais, auxiliares,
+exemplos, referências e material bibliográfico.
+εἶπον: seis acepções, flexão, formas passivas, contexto discursivo,
+usos reflexivos, variantes manuscritas e remissões.
+Os demais artigos, inclusive remissivos, conservaram suas particularidades.
+
+Verificações estáticas:
+- 102 arquivos BDAG anteriores, com 2264 search-row e 2264 entry-card;
+- 99 blobs do inventário histórico verificados por SHA contra árvore
+  remota e blobs de 0100, 0101 e 0102 conferidos separadamente;
+- zero divergências, IDs repetidos ou alvos duplicados anteriores;
+- novo módulo tem 20 linhas search-row e 20 cartões entry-card;
+- 20 pares data-target/id em sequência 1:1; IDs novos únicos globalmente;
+- ausência de alvos ou cartões órfãos e de colisões com index/LEH;
+- todas as linhas e cartões com data-source=BDAG e sufixos ID -bdag;
+- HTML estático de linhas e cartões com tags corretamente balanceadas;
+- 20 cabeçalhos e sem link novo ao domínio beta.perseus.tufts.edu;
+- manifesto 2129 -> 2130 itens, inserção de 0103 após 0102;
+- nenhum dos 102 módulos BDAG prévios ou arquivos protegidos alterado.
+
+Progresso condicionado à publicação: 2264 -> 2284 / 8287
+(27,56%; restantes 6003); 103 módulos BDAG após publicação.
+
+AUDITORIA_CONCLUIDA = NÃO.
+A análise realizada NÃO prova auditoria individual concluída. Permanecem
+pendentes colação independente exaustiva, fichas individuais por verbete,
+testes reais DOM/busca/cartões, acessibilidade, CI, revisão funcional,
+abertura/integração de PR e merge segundo regras/Rauditoria.txt.
+Não incrementar total_auditoria_concluida.
+
+Publicação única de módulo, manifesto e Rbdag, parent=EXPECTED_HEAD,
+update_ref com expected_sha exato e force=false. Revalidar HEAD,
+parent, árvore e blobs depois do fast-forward; evitar commits extras.
+================================================================================
+
+================================================================================
+BDAG — LOTE 104 — εἰργασάμην, εἴγασμαι → εἰσηγέομαι — 07/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial esperado (EXPECTED_HEAD): a611d48ba05090522a7fc54bf02a0513e93b9714.
+Árvore base: f1580250f7523172ea9a7033de4139f499ea29e9.
+
+Fonte exclusiva para artigos: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", versão 1,
+aproximadamente linhas 29585–29965.
+Falha temporária de leitura foi superada; leitura recuperada antes
+da conclusão. Não se substituiu conteúdo faltante por conjectura.
+
+20 cabeçalhos consecutivos do HTML (inclusive remissivos):
+01 εἰργασάμην, εἴγασμαι
+02 εἴρηκα, εἰρήκει, εἴρημαι
+03 Εἰρηναῖος, ου, ὁ
+04 εἰρήναρχος, ου, ὁ
+05 εἰρηνεύω
+06 εἰρήνη, ης, ἡ
+07 εἰρηνικός, ή, όν
+08 εἰρηνοποιέω
+09 εἰρηνοποιός, όν
+10 εἴρυσμαι
+11 εἰρωνεία, ας, ἡ
+12 εἰς
+13 εἷς, μία, ἕν
+14 εἰσάγω
+15 εἰσακούω
+16 εἰσδέχομαι
+17 εἴσειμι
+18 εἰσέρχομαι
+19 εἰσηγαγον
+20 εἰσηγέομαι
+
+Próximo cabeçalho canônico: εἰσῄει.
+Novo módulo: lexicons/bdag-part-0104.js.
+Todos os vinte artigos traduzidos em português, com formas gregas,
+acepções, subacepções, variantes textuais, exemplos, bibliografia
+e remissões, conforme a fonte. Artigos especialmente extensos:
+εἰρήνη (2 acepções principais), εἰς (10 divisões principais),
+εἷς (5 divisões principais), εἰσέρχομαι (3 divisões principais).
+Tratamentos concorrentes (p.ex., preposição εἰς e nomes de interpretação
+de μιᾶς γυναικὸς ἀνήρ) documentados sem decisão conjectural.
+Não confundir εἶμι com εἰμί ou εἰς com εἷς.
+
+Validação estrutural pré-publicação e regressão:
+- 103 módulos BDAG anteriores conferidos por SHA contra a árvore remota:
+  99 históricos por inventário e 0100–0103 individualmente;
+- 2284 buscas e 2284 cartões anteriores conferidos;
+- nenhum ID, alvo ou destino anterior duplicado ou órfão;
+- módulo 0104: 20 search-row e 20 entry-card com correspondência 1:1;
+- novos IDs únicos no conjunto BDAG e sem colisão em index/LEH;
+- todas linhas e cartões data-source=BDAG e IDs terminados em -bdag;
+- HTML estático de linhas e cartões equilibrado;
+- 20 cabeçalhos preservados na sequência e sem domínio proibido;
+- manifesto 2130 -> 2131 itens, 0104 após 0103 e antes de LEH;
+- módulos BDAG antigos, arquivos protegidos e outras regras preservados.
+
+Progresso condicionado a publicação remota confirmada:
+2284 -> 2304 / 8287 (27,80%); 5983 verbetes restantes;
+104 módulos BDAG após a publicação.
+
+AUDITORIA_CONCLUIDA = NÃO.
+A validação estática e tradução não suprem a colação filológica
+independente individual com fichas e correções, testes reais de DOM,
+navegação e acessibilidade, CI, PR e merge prescritos por
+regras/Rauditoria.txt. Não atribuir conclusão à auditoria.
+Não incrementar total_auditoria_concluida.
+
+Publicar EXATAMENTE um commit de três arquivos: módulo, manifesto e
+checkpoint Rbdag, com parent_sha=EXPECTED_HEAD,
+expected_sha exato e force=false. Revalidar depois da publicação
+o HEAD, commit-pai, árvore, diff e blobs remotos.
+================================================================================
+
+================================================================================
+BDAG — CORREÇÃO COMPLEMENTAR LOTE 104 — 07/11/2026
+================================================================================
+HEAD de partida: 8bfb6fdd3a68a702e171d4ef542d0b8c1066220b. Correção de texto de quatro passagens gregas já incorporadas; nenhum novo verbete.
+Fonte exclusiva: HTML canônico BDAG da Biblioteca Scriptura Lexicon, versão 1, linhas aproximadamente 29580–29974.
+Em εἰς, restauradas as citações gregas da passagem de Est 1:5 e a construção ἐπαίρειν τοὺς ὀφθαλμοὺς εἴς τινα (Lc 6:20). Em εἰρήνη, restituído τινί em ἀφιέναι εἰ.; em εἰρηνικός, restaurado σοφία (Tg 3:17).
+Correções exclusivamente em cardsHtml de lexicons/bdag-part-0104.js; rowsHtml intocado. HTML e 20 pares busca/cartão submetidos à verificação estática, IDs preservados. Todos os 103 módulos BDAG anteriores e o manifesto devem permanecer idênticos, a comprovar pela árvore do commit publicado.
+Contagem permanece 2304/8287; próximo verbete εἰσῄει.
+Testes em DOM/navegador, CI, integração PR/merge e auditoria filológica independente ainda não comprovados. Não somar ao total auditado.
+AUDITORIA_CONCLUIDA = NÃO.
+================================================================================
+
+================================================================================
+BDAG — LOTE 105 — εἰσῄει → ἑκάστοτε — 07/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag. HEAD remoto de partida: 6b74908f106cade96e7b992a72c73c9909b2bfae.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, versão 1, linhas aproximadas 29969–30205.
+20 cabeçalhos autônomos consecutivos (inclusive remissões):
+01. εἰσῄει
+02. εἰσήκω
+03. εἰσήνεγκον
+04. εἰσιέναι
+05. εἰσκαλέομαι
+06. εἴσοδος, ου, ἡ
+07. εἰσπηδάω
+08. εἰσπορεύομαι
+09. εἱστήκειν
+10. εἰστρέχω
+11. εἰσφέρω
+12. εἶτα
+13. εἴτε
+14. εἶτεν
+15. εἶχον
+16. εἴωθα
+17. εἴων
+18. ἐκ
+19. ἕκαστος, η, ον
+20. ἑκάστοτε
+Próximo cabeçalho após este lote: ἑκάτερος, α, ον.
+Tradução em português brasileiro preparada para todos os vinte artigos, com morfologia, acepções, citações gregas, remissões, graus de certeza e bibliografia conforme os textos HTML consultados. ἐκ possui seis acepções principais, com todas as subdivisões indicadas pela fonte.
+Validação estática: módulo BDAG_PART_0105 criado; 20 linhas de busca e 20 cartões; todos os data-target pareados aos IDs; IDs únicos no módulo e sem colisões com os 2.304 registros preexistentes; cabeçalhos em ordem idêntica nos cartões e linhas; estrutura HTML equilibrada.
+Regressão: 104 módulos BDAG preexistentes lidos diretamente de seus blobs SHA no HEAD remoto; 2.304 linhas, 2.304 cartões, 2.304 IDs únicos, sem divergências de paridade ou duplicações; 104 módulos anteriores devem permanecer com SHA inalterado na árvore publicada.
+Manifesto: inserir exatamente lexicons/bdag-part-0105.js após bdag-part-0104.js e antes de lexicons/leh.js; 2131 → 2132 entradas; não tocar outros léxicos.
+Progresso condicionado a publicação remota confirmada: 2.304 → 2324 / 8.287 (28,04%); 5963 verbetes restantes.
+Pendências editoriais: uma segunda colação mecânica exaustiva do HTML com todos os caracteres e referências não pôde ser concluída por falhas intermitentes no serviço de leitura; o texto foi examinado na fonte canônica e traduzido manualmente. Testes reais em DOM/navegador, CI, auditoria filológica independente e integração PR/merge permanecem não comprovados. Não confundir verificação estática com auditoria concluída.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Publicar um único commit contendo lexicons/bdag-part-0105.js, lexicon-modules.json e regras/Rbdag.txt, parent_sha=HEAD real, update_ref com expected_sha exato e force=false; revalidar HEAD, árvore e blobs posteriormente.
+================================================================================
+
+================================================================================
+BDAG — LOTE 106 — ἑκάτερος, α, ον → ἐκδημέω — 07/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag. HEAD remoto inicial de trabalho: 70b8dbbe573ffc7d50a7b3251e073484005a70ec.
+Fonte exclusiva: HTML canônico A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, arquivo disponível na Biblioteca Scriptura Lexicon, linhas 30206–30321. Cabeçalho seguinte, fora do lote: ἐκδίδωμι, linha 30322.
+20 cabeçalhos autônomos consecutivos, incluindo as remissões:
+01. ἑκάτερος, α, ον
+02. ἑκατέστησας
+03. ἑκατόν
+04. ἑκατονταετής, ές
+05. ἑκατονταπλασίων, ον
+06. ἑκατοντάρχης, ου, ὁ
+07. ἑκατόνταρχος
+08. ἐκβαίνω
+09. ἐκβάλλω
+10. ἔκβασις, εως, ἡ
+11. ἐκβλαστάνω
+12. ἐκβολή, ῆς, ἡ
+13. ἔκβολος, ον
+14. ἐκγαμίζω
+15. ἔκγονος, ον
+16. ἐκδαπανάω
+17. ἐκδέχομαι
+18. ἔκδηλος, ον
+19. ἐκδηλόω
+20. ἐκδημέω
+Tradução para o português brasileiro dos 20 artigos baseada exclusivamente no HTML canônico. Preservadas as cinco acepções de ἐκβάλλω, as três de ἔκβασις e as duas de ἐκδημέω, além das referências, variantes, remissões e graus de certeza.
+Novo módulo: lexicons/bdag-part-0106.js, BDAG_PART_0106; exatamente 20 search-row/entry-card, paridade de data-target e IDs, lemas em ordem de fonte, IDs próprios e HTML estruturalmente equilibrado.
+Regressão estática dos 105 módulos BDAG anteriores no HEAD remoto: 2324 linhas de busca, 2324 cartões, 2324 identificadores em verificações por segmentos, sem divergências detectadas. Nenhum módulo anterior deve ser modificado.
+Manifesto: inserir lexicons/bdag-part-0106.js imediatamente depois de lexicons/bdag-part-0105.js e antes de lexicons/leh.js; 2132 → 2133 caminhos; sem alteração de outros léxicos.
+Progresso após confirmação de publicação: 2324 → 2344 / 8287 (28,29%); 5943 verbetes restantes; próximo verbete ἐκδίδωμι.
+Limites de verificação: a regressão estrutural estática e a revisão de fonte durante a tradução NÃO constituem auditoria individual integral independente. Testes funcionais reais de DOM/navegador, CI e confirmação de PR/merge ainda não realizados. Não declarar controles ausentes como aprovados.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida até cumprimento de regras/Rauditoria.txt e integração comprovada.
+Publicação somente mediante commit único sobre HEAD real, com expected_sha exato, force=false, seguido de revalidação de HEAD, diff, manifesto e blobs remotos.
+================================================================================
+
+================================================================================
+BDAG — LOTE 107 — ἐκδίδωμι → ἐκθαμβέω — 07/11/2026
+================================================================================
+Branch única: chat-gpt-bdag. HEAD remoto inicial: 8d8bf9d1bc735d216c8d73fed127e982ac7ed5e4.
+Fonte exclusiva de conteúdo: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, versão 1, linhas 30322–30507; próximo cabeçalho, fora do lote: ἔκθαμβος, ον, linha 30508. Nenhum PDF foi usado em substituição ao HTML.
+Cabeçalhos autônomos consecutivos (remissões incluídas):
+01. ἐκδίδωμι
+02. ἐκδιηγέομαι
+03. ἐκδικέω
+04. ἐκδίκησις, εως, ἡ
+05. ἔκδικος, ον
+06. ἐκδιώκω
+07. ἔκδοτος, ον
+08. ἐκδοχή, ῆς, ἡ
+09. ἐκδύω
+10. ἐκεῖ
+11. ἐκεῖθεν
+12. ἐκείνης
+13. ἐκεῖνος, η, ο
+14. ἐκεῖσε
+15. ἐκέκραξα
+16. ἐκέρασα
+17. ἐκέρδησα
+18. ἐκζητέω
+19. ἐκζήτησις, εως, ἡ
+20. ἐκθαμβέω
+Foram preparados 20 cartões de tradução em português brasileiro: morfologia, todas as acepções/subacepções, citações e construções gregas, referências, siglas, variantes e graus de certeza conforme leitura do HTML. Verbetes extensos: ἐκδικέω (3 sentidos), ἐκδίκησις (3), ἐκδύω (2), ἐκεῖ (2), ἐκεῖνος (ⓐ e ⓑ, subdivisões e ⓒ), ἐκεῖσε (2), ἐκζητέω (4).
+Anomalia preservada da fonte: entrada autônoma ἐκέρδησα remete literalmente a κράζω no HTML canônico, embora a forma também conste na flexão de κερδαίνω. Não emendar silenciosamente; observação editorial em seção independente e pendência para auditoria filológica futura. Da mesma forma, respeitar as demais grafias do original.
+Módulo previsto: lexicons/bdag-part-0107.js, window.ScripturaLexicons.BDAG_PART_0107. Controles estáticos preparatórios: 20 search-row e 20 entry-card; todos data-target correspondem a IDs distintos, com lemas em ordem idêntica à fonte, HTML com tags estruturais equilibradas e checagens de subdivisões.
+Regressão estática de TODOS os 106 módulos BDAG anteriores no HEAD remoto: 2.344 linhas, 2.344 cartões, paridade/ordem e IDs únicos em grupos contíguos; não foram detectadas colisões com os 20 novos IDs. Não alterar nenhum módulo anterior, outros léxicos nem infraestrutura.
+Manifesto: inserir exatamente lexicons/bdag-part-0107.js depois de bdag-part-0106.js e antes de lexicons/leh.js; 2.133 → 2.134 caminhos, sem perda ou reordenação de terceiros.
+Progresso SOMENTE após confirmação da publicação: 2.344 → 2.364 / 8.287 (28,53%), 5.923 verbetes restantes. Próximo ἔκθαμβος, ον.
+Pendências: leitura/cotejo visual da fonte ocorreu, porém comparação mecânica suplementar independente e exaustiva foi prejudicada por falhas intermitentes em files.read; não atestar equivalência integral automatizada nem auditoria individual independente. Testes DOM/navegador, CI, PR/merge e integração final não comprovados; não declarar verificações não realizadas como aprovadas.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida. Publicar somente um commit atômico diretamente sobre o HEAD remoto com expected_sha exato e force=false, seguido de revalidação do novo HEAD, arquivos e blobs.
+================================================================================
+
+================================================================================
+BDAG — LOTE 108 — ἔκθαμβος → ἐκκρεμάννυμι — 07/11/2026
+================================================================================
+Branch de publicação: chat-gpt-bdag. HEAD remoto inicial de trabalho: 2488bf4e8476d8f8a6e9b0998650ef4f881aec54.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, linhas 30508–30679. Próximo verbete, fora do lote: ἐκλαλέω, linha 30680. Não utilizar PDF nem conteúdo externo em substituição ao HTML.
+20 cabeçalhos autônomos consecutivos:
+01. ἔκθαμβος, ον
+02. ἐκθαυμάζω
+03. ἔκθετος, ον
+04. ἐκκαθαίρω
+05. ἐκκαίω
+06. ἐκκακέω
+07. ἐκκεντέω
+08. ἐκκλάω
+09. ἐκκλείω
+10. ἐκκλησία, ας, ἡ
+11. ἐκκλησιάζω
+12. ἐκκλησιαστικός, ή, όν
+13. ἐκκλίνω
+14. ἐκκολάπτω
+15. ἐκκόλαψις, εως, ἡ
+16. ἐκκολυμβάω
+17. ἐκκομίζω
+18. ἐκκοπή, ῆς, ἡ
+19. ἐκκόπτω
+20. ἐκκρεμάννυμι
+Tradução portuguesa dos 20 verbetes baseada exclusivamente no HTML original; preserva referências gregas, citações e suas variantes, informações morfológicas, bibliografia e graus de certeza. Em particular, o artigo ἐκκλησία mantém três acepções (assembleia legislativa, reunião ocasional e comunidade/congregação), e as subdivisões relativas a Israel, assembleias cristãs locais, congregações territoriais e Igreja universal, além da bibliografia especializada do original.
+Novo módulo lexicons/bdag-part-0108.js registra window.ScripturaLexicons.BDAG_PART_0108. Verificações pré-publicação do módulo: 20 linhas search-row, 20 cartões entry-card; 20 IDs ASCII únicos; data-target em correspondência 1:1 com id; ordem de lemas idêntica à fonte; HTML de tags balanceadas e checagem das acepções numeradas principais.
+Regressão estática de todos os 107 módulos BDAG anteriores no HEAD remoto: 2364 pares linha/cartão, IDs e destinos correspondentes, nenhum erro detectado dentro dos lotes contíguos de verificação. Módulos anteriores não modificados. A ausência de colisões globais entre todos os lotes anteriores NÃO foi examinada em um único índice agregado, devido ao limite de chamadas por operação; não declarar que isso tenha sido testado globalmente. Os 20 IDs novos foram comparados a cada módulo anterior, sem colisões.
+Manifesto lexicon-modules.json: inserir somente lexicons/bdag-part-0108.js imediatamente após bdag-part-0107.js, antes de lexicons/leh.js, sem reordenar os demais; 2134 → 2135 caminhos.
+Progresso após publicação e conferência remota: 2364 → 2384 de 8287 (28,77%), restam 5903. Próximo cabeçalho a incorporar: ἐκλαλέω.
+Limites de certificação: a tradução foi preparada mediante leitura da fonte canônica, mas a auditoria lexical independente atomizada não foi concluída. Testes reais de DOM/navegador, CI, PR/merge e integração na branch principal não foram demonstrados. NÃO marcar essas verificações como aprovadas.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida sem auditoria individual integral e integração comprovada.
+Publicar em commit único do HEAD remoto confirmado, com expected_sha exato e force=false; depois revalidar HEAD, diff, arquivos e blobs remotos.
+================================================================================
+
+================================================================================
+BDAG — LOTE 109 — ἐκλαλέω → ἐκπειράζω — 07/11/2026
+================================================================================
+Branch: chat-gpt-bdag; HEAD remoto inicial de trabalho: cfd44e6d3e9b879becdbfd8379ee56c30c5ac1b4.
+Fonte textual EXCLUSIVA: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, linhas 30680–30852. Próximo cabeçalho, fora do lote: ἐκπέμπω, linha 30853. Nenhum PDF ou tradução externa usado em substituição ao HTML.
+20 cabeçalhos autônomos consecutivos, com remissões preservadas:
+01. ἐκλαλέω
+02. ἐκλάμπω
+03. ἐκλανθάνομαι
+04. ἐκλέγομαι
+05. ἐκλείπω
+06. ἐκλεκτός, ή, όν
+07. ἐκλελεγμένος
+08. ἐκλέλησμαι
+09. ἐκλήθην
+10. ἐκλιπαρέω
+11. ἐκλογή, ῆς, ἡ
+12. ἐκλύω
+13. ἐκμάσσω
+14. ἐκμυκτηρίζω
+15. ἐκνεύω
+16. ἐκνήφω
+17. ἑκούσιος, ία, ιον
+18. ἑκουσίως
+19. ἔκπαλαι
+20. ἐκπειράζω
+Os 20 verbetes foram traduzidos para o português brasileiro diretamente do HTML; sentidos e subacepções numeradas, referências bibliográficas, citações e suas variantes, termos gregos, informações morfológicas e reservas de certeza preservados. Destaques: ἐκλέγομαι (3 sentidos e subcategorias), ἐκλείπω (4), ἐκλεκτός (3), ἐκλογή (2), ἔκπαλαι (2) e ἐκπειράζω (3). Três remissões próprias: ἐκλελεγμένος, ἐκλέλησμαι e ἐκλήθην.
+Novo módulo lexicons/bdag-part-0109.js define window.ScripturaLexicons.BDAG_PART_0109. Verificações estáticas do módulo: 20 search-row, 20 entry-card; ordem de lemas fiel ao original; 20 identificadores ASCII exclusivos; data-target = id em todos os pares; HTML com tags equilibradas e presença das divisões principais.
+Regressão estrutural de todos os 108 módulos BDAG anteriores: 2384 linhas, 2384 cartões e 2384 IDs globais distintos; conferências por oito grupos com posterior agregação global dos IDs; nenhum erro de correspondência, quantidade nem colisão com os novos IDs detectado. Os módulos existentes não foram editados.
+Manifesto: adicionar lexicons/bdag-part-0109.js imediatamente após bdag-part-0108.js e antes de lexicons/leh.js, de 2135 para 2136 caminhos, sem alterações nos outros léxicos.
+Progresso SOMENTE depois de confirmar publicação: 2384 → 2404 / 8287 (29,01%), faltam 5883; próximo verbete ἐκπέμπω.
+Limites de verificação: cotejo filológico preparado mediante leitura direta dos artigos no HTML canônico; uma comparação mecânica suplementar e exaustiva de formas gregas não pôde ser concluída por falhas internas intermitentes no leitor files.read. Não declarar auditoria filológica integral independente. Testes funcionais DOM/navegador, CI, confirmação de PR/merge e integração final não executados/comprovados. Não certificar verificações ausentes.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida até verificação e correção individuais integrais, regressão, documentação e integração confirmada, conforme regras/Rauditoria.txt.
+Publicar somente em um commit atômico após conferir HEAD remoto, com expected_sha exato e force=false, e revalidar HEAD, diff, manifestos e blobs após publicação.
+================================================================================
+
+================================================================================
+BDAG — LOTE 110 — ἐκπέμπω → ἐκπορεύομαι — 07/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD remoto inicial confirmado: e07010b8df7971c3e4ba2bcbc2e612568cfb5885.
+Fonte única para a incorporação: HTML canônico da Biblioteca Scriptura Lexicon, A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, linhas 30853–30974 (20 cabeçalhos autônomos consecutivos). Próximo lema NÃO incorporado: ἐκπορνεύω, linha 30975. Não substituir o HTML por PDF, outro léxico ou reconstrução.
+Cabeçalhos autônomos (incluídas as remissões):
+01. ἐκπέμπω
+02. ἐκπέπτωκα
+03. ἐκπερισσοῦ
+04. ἐκπερισσῶς
+05. ἐκπεσεῖν
+06. ἐκπετάννυμι
+07. ἐκπέτασις, εως, ἡ
+08. ἐκπέτομαι
+09. ἐκπηδάω
+10. ἐκπίπτω
+11. ἐκπλέκω
+12. ἐκπλέω
+13. ἔκπληκτος, ον
+14. ἔκπληξις, εως, ἡ
+15. ἐκπληρόω
+16. ἐκπλήρωσις, εως, ἡ
+17. ἐκπλήσσω
+18. ἐκπλοκή, ῆς, ἡ
+19. ἐκπνέω
+20. ἐκπορεύομαι
+20 verbetes traduzidos para português brasileiro com preservação de acepções, subdivisões, exemplos gregos, construções, referências escriturísticas e literárias, variantes, bibliografia e reservas de certeza. Verbetes extensos: ἐκπηδάω (3 acepções, incluindo leitura fragmentária e notas críticas), ἐκπίπτω (4 acepções), ἐκπορεύομαι (2 acepções e subdivisões ⓐ–ⓒ); três remissões plenas a outros lemas mais uma remissão ἐκπλοκή (total quatro remissões). Sem emendas conjecturais silenciosas.
+Módulo novo: lexicons/bdag-part-0110.js, window.ScripturaLexicons.BDAG_PART_0110. Pré-validação estrutural: 20 search-row; 20 entry-card; IDs ASCII distintos e data-target=id par a par, lemas em ordem de fonte; HTML com tags equilibradas; acepções principais preservadas.
+Regressão estática integral dos 109 módulos BDAG anteriores no HEAD de partida: 2.404 search-row, 2.404 entry-card, paridade 1:1; 2.404 identificadores globalmente distintos após agrupar todos os IDs dos 8 blocos e verificar colisões entre blocos. 20 novos IDs comparados com cada módulo anterior, nenhuma colisão encontrada. Nenhum arquivo de módulo anterior alterado.
+Manifesto: inserir somente lexicons/bdag-part-0110.js imediatamente depois de bdag-part-0109.js e antes de lexicons/leh.js; 2.136 → 2.137 caminhos, sem modificar outros léxicos nem reordenar entradas.
+Progresso somente após HEAD e blobs de publicação revalidados: 2.404 → 2.424 / 8.287 (29,25%); faltam 5.863 cabeçalhos; próximo ἐκπορνεύω.
+Limitações: colação e tradução a partir do HTML não equivalem à auditoria independente integral, individual e atomizada. Testes reais de DOM/navegador, build/CI, PR/merge e confirmação da integração em branch principal não executados/comprovados; não declarar esses controles aprovados. Verificações estruturais estáticas e regressão documentadas, sem certificação filológica integral.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida enquanto não estiverem satisfeitas todas as exigências de regras/Rauditoria.txt, incluindo correções e integração confirmada.
+Publicação condicionada a commit único sobre o HEAD remoto atual com expected_sha exato e force=false. Após publicar, revalidar HEAD, diff, manifesto e SHA dos blobs. A confirmação separada da árvore do commit pode estar limitada pela API; relatar com precisão.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 111 — ἐκπορνεύω → ἐκτινάσσω — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD remoto inicial verificado: 17e06b8c7011c92dbdbd281f471492e79ff123e1.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+A Greek-English Lexicon of the New Testament and Other Early Christian Literature
+- Frederick William Danker, Walter Bauer.html, linhas 30975–31107.
+Sequência confirmada de 20 cabeçalhos autônomos, sem saltos:
+01. ἐκπορνεύω
+02. ἐκπρεπής, ές
+03. ἐκπτύω
+04. ἐκπυρόω
+05. ἐκριζόω
+06. ἐκρίπτω
+07. ἔκρυσις, εως, ἡ
+08. ἔκστασις, εως, ἡ
+09. ἐκστρέφω
+10. ἐκσφενδονάω
+11. ἐκσῴζω
+12. ἐκταράσσω
+13. ἐκτείνω
+14. ἐκτελέω
+15. ἐκτένεια, ας, ἡ
+16. ἐκτενής, ές
+17. ἐκτενῶς
+18. ἐκτίθημι
+19. ἐκτίλλω
+20. ἐκτινάσσω
+Traduções editoriais em português brasileiro, seguindo os vinte artigos da fonte
+com morfologia, distinções de acepções, construções gregas, citações,
+referências antigas, variantes e bibliografia; sem usar PDFs para completar
+o conteúdo. É material lexical incorporado, não certificação de auditoria
+filológica individual e integral.
+Módulo preparado: lexicons/bdag-part-0111.js; identificador:
+window.ScripturaLexicons.BDAG_PART_0111; 20 linhas de busca e 20 cartões.
+Verificação estática do HTML novo: tags equilibradas, 20 IDs e alvos
+correspondentes, sem ocorrências novas de beta.perseus.tufts.edu.
+Regressão estática de TODOS os 110 módulos BDAG anteriores mais o novo:
+2.444 linhas de busca, 2.444 cartões, 2.444 IDs únicos, 2.444 data-target
+únicos; duplicações 0, cartões órfãos 0, linhas órfãs 0, divergência de
+contagens 0. Blobs anteriores preservados.
+Manifesto: inserir apenas lexicons/bdag-part-0111.js imediatamente após
+lexicons/bdag-part-0110.js e antes de lexicons/leh.js; 2137 → 2138
+entradas. Nenhum módulo preexistente modificado.
+Progresso após confirmação de publicação: 2.424 → 2.444 / 8.287
+(29,49%); 5.843 cabeçalhos restantes. Próximo: ἐκτιτρώσκω.
+Limitações honestas: ausência de certificado de colação filológica
+independente integral por verbete; DOM/navegador e CI não executados; PR/merge
+e integração à branch consolidada não comprovados nesta etapa. Esses controles
+não devem ser declarados aprovados.
+AUDITORIA_CONCLUIDA = NÃO.
+Publicação condicionada a commit único sobre HEAD remoto com expected_sha exato
+e force=false. Revalidar remotamente HEAD, árvore e blobs após publicação.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 112 — ἐκτιτρώσκω → ἐκχωρέω — 09/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD remoto inicial verificado: de224c545d99a85f64bfeee60274d1a1d602789c.
+Fonte exclusiva de incorporação: HTML canônico da Biblioteca Scriptura Lexicon:
+A Greek-English Lexicon of the New Testament and Other Early Christian Literature
+- Frederick William Danker, Walter Bauer.html.
+20 cabeçalhos autônomos sucessivos do HTML, do verbete ἐκτιτρώσκω até
+ἐκχωρέω, inclusive; próximo verbete não incorporado: ἐκψύχω.
+LISTA ORDENADA:
+01. ἐκτιτρώσκω
+02. ἕκτος, η, ον
+03. ἐκτός
+04. ἐκτρέπω
+05. ἐκτρέφω
+06. ἐκτρίβω
+07. ἔκτρομος, ον
+08. ἔκτρωμα, ατος, τό
+09. ἐκτυπόω
+10. ἐκφέρω
+11. ἐκφεύγω
+12. ἐκφοβέω
+13. ἔκφοβος, ον
+14. ἔκφρικτος, ον
+15. ἐκφύω
+16. ἐκφωνέω
+17. ἐκχέω
+18. ἐκχύν(ν)ω
+19. ἔκχυσις, εως, ἡ
+20. ἐκχωρέω
+A entrada remissiva independente ἐκχύν(ν)ω conta como um verbete.
+Tradução editorial de todos os 20 artigos para português brasileiro, com
+morfologia, acepções, subdivisões, construções gregas, variantes e testemunhos,
+referências bíblicas, patrísticas, literárias, epigráficas, papirológicas e
+bibliografia da fonte. Casos filológicos de destaque: ἐκτρέπω (Hb 12:13,
+interpretações alternativas e preferência contextual); ἔκτρωμα (1Co 15:8,
+hipóteses de insulto e deficiência); ἐκφύω (acentuações alternativas);
+ἐκχέω (três sentidos, subdivisões, variantes e distinção cultual).
+Fonte original consultada via Files; uma segunda colação MECÂNICA integral
+foi bloqueada por erro interno intermitente no leitor. Não certificar tal
+colação como realizada. Não foram usados PDF nem outros léxicos como
+substitutos do HTML.
+Módulo: lexicons/bdag-part-0112.js e BDAG_PART_0112, composto por 20
+search-row e 20 entry-card. Verificações estruturais estáticas do módulo:
+20 IDs únicos com sufixo -bdag, 20 alvos correspondentes, tags HTML
+equilibradas, strings de dados decodificáveis e nenhuma URL nova para
+beta.perseus.tufts.edu. Popups BDAG adicionados: nenhum.
+Regressão do conjunto BDAG: comparar os SHA dos 111 módulos anteriores,
+a partir da árvore Git remota do HEAD de partida, contra checkpoint global
+de 2.444 pares/IDs unívocos. Todos os 111 blobs conferem, sem alterações.
+Os 20 novos IDs e alvos não colidem com os 2.444 anteriores: 2.464 linhas,
+2.464 cartões, 2.464 IDs globais BDAG e 2.464 alvos exclusivos; divergências,
+órfãos e colisões: 0. Consulta cruzada sem colisões também em index.html e
+lexicons/leh.js para os IDs novos. Inspeção estática, NÃO teste DOM funcional.
+Manifesto: lexicon-modules.json, 2138 → 2139 itens;
+inserir somente lexicons/bdag-part-0112.js depois de bdag-part-0111.js e
+antes de lexicons/leh.js. Blobs antigos preservados, demais fontes intactas.
+Progresso APÓS confirmação remota de publicação: 2.444 → 2.464 / 8.287,
+29,73% incorporados, 5.823 restantes. Próximo cabeçalho: ἐκψύχω.
+AUDITORIA_CONCLUIDA = NÃO.
+A auditoria filológica individual independente, ensaios reais DOM/navegador,
+CI e integração PR/merge na branch consolidada não foram comprovados nesta
+etapa. Não promover nenhum verbete a AUDITORIA_CONCLUIDA sem todas as etapas
+de regras/Rauditoria.txt concluídas com evidência.
+Publicar somente um commit atômico com expected_sha do HEAD remoto exato e
+force=false; após publicação revalidar HEAD, árvore e blobs.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 113 — ἐκψύχω → ἐλεάω — 09/11/2026
+================================================================================
+DESTINO AUTORIZADO: chat-gpt-bdag.
+HEAD remoto inicial efetivamente verificado: fa09ab92014000e2867381f04abe5c81f25ec1d4.
+BASE TREE: 5a5234208d85695c2cef7427eb0472b39ef0c5ca.
+FONTE ÚNICA DE CONTEÚDO: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html", linhas aproximadas
+31278–31426. Sem uso de PDF ou fontes lexicográficas substitutas.
+Foram identificados e traduzidos os vinte cabeçalhos autônomos consecutivos:
+01. ἐκψύχω
+02. ἑκών, οῦσα, όν
+03. ἔλαθον
+04. ἐλαία, ας, ἡ
+05. ἔλαιον, ου, τό
+06. ἐλαιών, ῶνος, ὁ
+07. Ἐλαμ(ε)ίτης, ου, ὁ
+08. ἐλάσσων, ἔλασσον
+09. ἐλαττονέω
+10. ἐλαττόω
+11. ἐλάττωμα, ατος, τό
+12. ἐλάττων
+13. ἐλαύνω
+14. ἐλαφρία, ας, ἡ
+15. ἐλαφρός, ά, όν
+16. ἔλαχε
+17. ἐλάχιστος, ίστη, ον
+18. Ἐλδάδ, ὁ
+19. Ἐλεάζαρ, ὁ
+20. ἐλεάω
+Remissões autônomas: ἔλαθον → λανθάνω; ἐλάττων → ἐλάσσων;
+ἔλαχε → λαγχάνω. Não confundir remissões com inexistência de verbete.
+Próximo cabeçalho fora do lote: ἐλεγμός, οῦ, ὁ.
+
+TRADUÇÃO EDITORIAL: equivalentes portugueses e morfologia; preservação das
+acepções e subacepções, citações e expressões gregas, referências bíblicas
+e extrabíblicas, variantes e bibliografia indicada pela fonte. Destaques:
+ἐλαία (oliveira e azeitona); ἔλαιον (azeite e olival); ἐλαιών
+(olival/topônimo, com ressalva de acentuação); ἐλάσσων e ἐλαττόω
+(três acepções cada); ἐλαφρός (três acepções); ἐλάχιστος (três
+acepções, subdivisões e bibliografia); ἐλεάω (mistura paradigmática,
+formas concorrentes em Jd 22–23). Preservação de graus de certeza e
+distinção entre leituras e conjecturas.
+Foi realizada leitura diretamente do HTML canônico por trechos. Colação
+SUPLEMENTAR MECÂNICA completa dos termos gregos da fonte com a tradução
+NÃO EXECUTADA: falha interna no leitor files.read ao tentar repetir
+a aquisição dos intervalos. Não afirmar auditoria filológica integral.
+
+MÓDULO: lexicons/bdag-part-0113.js, objeto global
+window.ScripturaLexicons.BDAG_PART_0113, com 20 search-row e 20
+entry-card, 20 lemas distintos, 20 IDs exclusivos, 20 data-target
+correspondentes, marcação HTML estaticamente equilibrada, sem URLs novas
+ou remissões externas automáticas. Testes reais de navegador/DOM e
+CI/build NÃO executados.
+REGRESSÃO ESTÁTICA GLOBAL BDAG: checkpoint anterior de 2.444 registros
+(111 módulos até bdag-part-0111.js) comparado por SHA de TODOS os seus
+blobs com a árvore remota vigente; zero mudanças. Módulo 112 lido
+diretamente e SHA revalidado, contendo outros 20 pares e IDs únicos.
+Os 20 novos pares não colidem nem com os 2.464 IDs/alvos anteriores,
+nem com IDs de index.html e lexicons/leh.js consultados; após o lote:
+2.484 linhas de busca, 2.484 cartões, 2.484 IDs BDAG e 2.484
+data-target globalmente distintos, sem linhas/cartões órfãos.
+Metodologia: checkpoint global anterior + SHA de todos os 111 módulos
+anteriores + leitura separada do módulo 112 + novo módulo. É regressão
+ESTÁTICA documentada, não uma auditoria atômica.
+MANIFESTO: lexicon-modules.json, 2139 → 2140
+caminhos; inserir somente lexicons/bdag-part-0113.js imediatamente
+depois de bdag-part-0112.js e antes de lexicons/leh.js; não alterar
+módulos BDAG anteriores, terceiros léxicos ou infraestrutura.
+PROGRESSO A PUBLICAR SOMENTE APÓS CONFIRMAÇÃO GIT:
+2.464 → 2.484 / 8.287 (29,97%),
+5.803 verbetes restantes. Próximo ἐλεγμός, οῦ, ὁ.
+AUDITORIA_CONCLUIDA = NÃO.
+Os 20 itens têm incorporação editorial e verificações estáticas, não
+auditoria filológica independente integral com provas individuais.
+Sem DOM funcional, CI e confirmação de integração PR/merge em
+chat-gpt-commits, nenhum item conta como auditoria concluída.
+Publicar em exatamente um commit com expected_sha remoto exato e
+force=false, revalidando HEAD, árvore e blobs imediatamente após.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 114 — ἐλεγμός → Ἐλιακίμ — 09/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag. HEAD inicial confirmado: d2768b910f36ef071e70e7921fcf9af46ec95fe0.
+Árvore Git inicial: 5720b9ba3c8752b9ef4792934109df5dfa56d18d.
+Fonte EXCLUSIVA do conteúdo: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html"; excertos
+localizados e lidos nas linhas 31424–31550 aproximadamente.
+Nenhum outro léxico, PDF ou reconstrução substituiu o texto do HTML.
+Os 20 cabeçalhos autônomos consecutivos, sem saltos nem duplicações:
+01. ἐλεγμός, οῦ, ὁ
+02. ἔλεγξις, εως, ἡ
+03. ἔλεγχος, ου, ὁ
+04. ἐλέγχω
+05. ἐλεεινός, ή, όν
+06. ἐλεέω
+07. ἐλεημοσύνη, ης, ἡ
+08. ἐλεήμων, ον
+09. ἔλεος, ους, τό
+10. ἐλευθερία, ας, ἡ
+11. ἐλευθέριος, (α), ον
+12. ἐλεύθερος, έρα, ον
+13. ἐλευθερόω
+14. ἔλευσις, εως, ἡ
+15. ἐλεύσομαι
+16. ἐλεφάντινος, η, ον
+17. ἐλήλακα
+18. ἐλήλυθα
+19. ἐλθεῖν
+20. Ἐλιακίμ, ὁ
+Remissões autônomas mantidas: ἐλεύσομαι → ἔρχομαι;
+ἐλήλακα → ἐλαύνω; ἐλήλυθα → ἔρχομαι; ἐλθεῖν → ἔρχομαι.
+Próximo cabeçalho fora do lote: ἕλιγμα, ατος, τό.
+As traduções portuguesas foram compostas a partir da leitura direta do
+HTML, preservando acepções e subdivisões da fonte, construções e expressões
+gregas, dados morfológicos, citações bíblicas e extrabíblicas, testemunhos,
+variantes críticas, bibliografia e ressalvas de certeza.
+Pontos complexos: ἔλεγχος (três acepções e interpretações concorrentes
+de Hv 1, 1, 6 e Hb 11:1); ἐλέγχω (quatro acepções, passivos e variantes);
+ἐλεέω (uso pessoal e divino, passivo e concessão graciosa);
+ἐλεημοσύνη (caridade como atividade ou objeto doado);
+ἔλεος (neutro, variante masculina, misericórdia humana/divina);
+ἐλευθερία (liberdade jurídica, espiritual, bibliografia extensa);
+ἐλεύθερος (duas acepções, construções gramaticais e paradoxo).
+Módulo novo: lexicons/bdag-part-0114.js,
+window.ScripturaLexicons.BDAG_PART_0114. 20 search-row e
+20 entry-card; 20 IDs distintos, 20 data-target correspondentes, HTML
+estaticamente equilibrado, dados de busca na ordem original, zero
+duplicação interna, zero novos links beta.perseus.tufts.edu, zero popups
+bibliográficos adicionados.
+REGRESSÃO GLOBAL BDAG: checkpoint anterior de 2.444 linhas/cartões,
+IDs e destinos globalmente únicos, abrangendo os 111 módulos até
+bdag-part-0111.js; comparação dos SHA de TODOS esses módulos à árvore
+remota atual: zero diferenças, checkpoint sem problemas. Módulos 112 e
+113 lidos e conferidos individualmente, 20 pares cada. Acrescidos
+20 pares do lote 114, os 2.504 IDs globais e os 2.504 destinos
+são distintos e têm correspondência por ordem, sem colisões nem órfãos.
+Os novos IDs não colidem com index.html ou lexicons/leh.js examinados.
+A regressão é ESTÁTICA e usa SHA de módulos inalterados e índice global
+previamente verificado; não se deve chamá-la de teste de DOM/CI.
+MANIFESTO: lexicon-modules.json, 2140 → 2141
+caminhos, somente lexicons/bdag-part-0114.js inserido imediatamente
+após bdag-part-0113.js e antes de lexicons/leh.js. Nenhum módulo antigo,
+outro léxico ou infraestrutura modificado.
+PROGRESSO somente após confirmação remota de publicação:
+2.484 → 2.504 de 8.287 (30,22%), restando 5.783 verbetes.
+AVALIAÇÃO: colação preparatória por leitura direta do HTML canônico,
+mas tentativa de colação mecânica suplementar exaustiva de formas e
+expressões gregas falhou por indisponibilidade interna do files.read.
+NÃO TESTADOS: execução real de DOM/navegador, build/CI, PR e merge
+em chat-gpt-commits. Sem auditoria filológica independente integral
+individual e integração confirmada; nenhum verbete novo é homologado.
+AUDITORIA_CONCLUIDA = NÃO.
+Publicar somente em um único commit a partir do HEAD remoto atual,
+com expected_sha exato e force=false; revalidar HEAD, árvore e blobs.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 115 — ἕλιγμα → ἐλλογέω — 09/11/2026
+================================================================================
+RAMO AUTORIZADO: chat-gpt-bdag.
+HEAD remoto inicial e pré-revalidação: 838258ad537639e5d30f1b0d6787606f318e3130.
+Árvore base Git: ec38a2de1ed7149341f46fc2654a65744883de0f.
+FONTE EXCLUSIVA DE INCORPORAÇÃO:
+HTML canônico da Biblioteca Scriptura Lexicon,
+A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html,
+arquivo file_00000000429c820eb5aa2bcab96f1572, linhas de HTML
+31552–31672 aproximadamente. Não se empregaram PDFs nem outros
+dicionários para completar a leitura.
+SEQUÊNCIA DE VINTE CABEÇALHOS AUTÔNOMOS:
+01. ἕλιγμα, ατος, τό
+02. Ἐλιέζερ, ὁ
+03. Ἐλιούδ, ὁ
+04. Ἐλισάβετ, ἡ
+05. Ἐλισαιέ, ὁ
+06. Ἐλισαῖος, ου, ὁ
+07. ἑλίσσω
+08. ἕλκος, ους, τό
+09. ἑλκόω
+10. ἑλκύω
+11. ἕλκω
+12. Ἑλλάς, άδος, ἡ
+13. ἐλλείπω
+14. ἔλλειψις, εως, ἡ
+15. Ἕλλην, ηνος, ὁ
+16. Ἑλληνικός, ή, όν
+17. Ἑλληνίς, ίδος, ἡ
+18. Ἑλληνιστής, οῦ, ὁ
+19. Ἑλληνιστί
+20. ἐλλογέω
+O próximo verbete NÃO incorporado é: ἐλλόγιμος, ον.
+Incluídas sem supressão as remissões ἑλκύω, os nomes próprios e as
+formas gregas com suas variantes; Ἐλισαιέ e Ἐλισαῖος são cabeçalhos
+independentes consecutivos na fonte.
+
+CONTEÚDO: tradução editorial de todos os vinte artigos do HTML para
+português brasileiro, preservando dados gramaticais, construções gregas,
+acepções e subacepções, referências bíblicas e extrabíblicas, variantes
+textuais, bibliografia e reservas de certeza. Exemplos de diferenciação:
+ἕλκος (ferida vs. chaga/úlcera), ἑλκόω (termo médico), ἕλκω
+(três acepções, discussão de Ox 654 sem suprimento textual conjectural),
+Ἕλλην (grego quanto a língua/cultura versus gentio; interesse cultual
+de não israelitas), Ἑλληνίς (adjetivo e substantivo), Ἑλληνιστής
+(uso linguístico e etnocultural distinto), ἐλλογέω (terminologia
+comercial e aplicação figurada em Rm 5:13).
+Conservados graus de certeza, formas do grego politônico e escrita
+hebraica com span específico e direção RTL.
+
+COLAÇÃO SUPLEMENTAR: um confronto automatizado com o HTML canônico
+conseguiu percorrer os vinte artigos e identificar três diferenças de
+representação de frases gregas. As três foram corrigidas antes da
+publicação do módulo definitivo:
+(1) ἔστρωσεν τὸν ὸ̓νον mantido na grafia peculiar do HTML;
+(2) ἕλκ. πρός mantido como expressão conjunta;
+(3) Ἑβραϊστί, Ῥωμαϊστί mantidos como expressão conjunta.
+Uma segunda tentativa de colação mecânica após os ajustes foi
+bloqueada por erro interno do leitor; NÃO declarar segunda passagem
+automaticamente aprovada. Não houve auditoria filológica independente,
+individual e atômica certificada.
+
+ARQUIVO: lexicons/bdag-part-0115.js, registrando
+window.ScripturaLexicons.BDAG_PART_0115, 20 search-row e 20
+entry-card; 20 IDs ASCII com sufixo -bdag e 20 data-target exatamente
+correspondentes, HTML equilibrado, campos de busca, rótulos de fonte,
+sem novas URLs beta.perseus.tufts.edu e sem popups novos.
+REGRESSÃO GLOBAL: checkpoint de 2.444 pares/IDs/alvos únicos abrangendo
+os 111 módulos até bdag-part-0111.js. Os SHA de todos esses 111
+módulos foram comparados com a árvore remota e coincidiam; problemas
+preexistentes no checkpoint: zero. Módulos 112, 113, 114 lidos
+diretamente, cada um com 20 pares válidos. Novo módulo 115 somado
+e comparado com todo o índice anterior: 2.524 linhas de busca,
+2.524 cartões, 2.524 IDs BDAG distintos, 2.524 destinos distintos,
+zero duplicações, divergências ou órfãos. Nenhuma colisão dos novos
+IDs com index.html e lexicons/leh.js examinados.
+Isto é VERIFICAÇÃO ESTÁTICA e regressão por SHA, NÃO teste funcional
+real de DOM, busca, links, teclado ou popup, nem build/CI.
+MANIFESTO: lexicon-modules.json, 2141 → 2142
+itens; inserir somente lexicons/bdag-part-0115.js após
+bdag-part-0114.js e antes de lexicons/leh.js, preservando os outros
+módulos e dicionários, além dos arquivos de infraestrutura.
+PROGRESSO APLICÁVEL SOMENTE DEPOIS DE PUBLICAR E REVALIDAR:
+2.504 → 2.524 / 8.287 (30,46%), restam 5763 verbetes.
+AUDITORIA_CONCLUIDA = NÃO.
+A auditoria individual integral, o teste funcional real, o CI e
+a integração PR/merge na branch consolidada chat-gpt-commits não
+estão comprovados. Não incrementar total_auditoria_concluida.
+Publicação somente por commit atômico com expected_sha exato do HEAD
+e force=false; revalidar SHA do HEAD, árvore e blobs no remoto.
+================================================================================
+
+================================================================================
+BDAG — CONTINUIDADE DO LOTE 116 — 09/11/2026 (PUBLICAÇÃO PREVISTA NESTE COMMIT)
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD anterior verificado: e95945d3c315dabce2aff7edc4775fe3a1b0391c.
+Fonte: HTML canônico fornecido pelo mantenedor, sem uso de PDF substituto.
+Lote 116: 20 cabeçalhos autônomos, de ἐλλόγιμος, ον a ἐμβροχή, ῆς, ἡ.
+Ordem dos 20: ἐλλόγιμος; Ἐλμαδάμ; ἑλόμενος; ἐλπίζω; ἐλπίς;
+Ἐλύμας; ἐλωί̈; ἔμαθον; ἐμαυτοῦ; ἐμβαίνω; ἐμβάλλω; ἐμβαπτίζω;
+ἐμβάπτω; ἐμβατεύω; ἐμβιβάζω; ἐμβλέπω; ἐμβριθής;
+ἐμβριμάομαι; ἐμβριμῶς; ἐμβροχή.
+Próximo cabeçalho no HTML canônico: ἐμέω.
+Novo módulo: lexicons/bdag-part-0116.js, registrado imediatamente
+após lexicons/bdag-part-0115.js em lexicon-modules.json.
+Base conferida: 115 módulos BDAG, 2524 pares busca/cartão.
+Projeção após publicação: 116 módulos, 2544/8287 verbetes
+(30,70%), 2544 linhas e 2544 cartões, desde que a verificação
+pós-publicação confirme o estado remoto.
+Testes preparatórios: 115 módulos antigos em regressão estática,
+unicidade global de 2524 IDs anteriores, 20 novos IDs sem colisão,
+20 pares linha/cartão novos, balanceamento de HTML dos novos pares,
+manifesto de módulos conferido. Estes resultados NÃO constituem
+teste funcional real de navegador nem certificação de auditoria.
+AUDITORIA_CONCLUIDA = NÃO.
+Motivos: ainda não foram comprovados para cada verbete a auditoria
+integral do protocolo Rauditoria, os testes funcionais de navegador
+e a integração PR/merge em chat-gpt-commits.
+Não incrementar total_auditoria_concluida.
+A publicação deve ser um único commit com parent exato no HEAD,
+expected_sha exato e force=false; validar HEAD, árvore, blobs e diff
+após publicação. O SHA definitivo deverá ser consultado no GitHub;
+não gravar SHA autorreferencial neste arquivo.
+================================================================================
+
+================================================================================
+BDAG — LOTE 117 — ἐμέω → ἐμπί(μ)πλημι — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD base: c49093af683c0a35b081fec76b411ca11408fdb6.
+Fonte exclusiva: HTML canônico do BDAG, biblioteca do projeto, cabeçalhos entre ἐμέω e ἐμπί(μ)πλημι. Nenhum PDF ou outro léxico foi usado para completar conteúdo.
+Cabeçalhos (20): ἐμέω; ἐμμαίνομαι; Ἐμμανουήλ; Ἐμμαοῦς; ἐμμένω; ἐμμέσῳ; Ἑμμώρ; ἐμνήσθην; ἐμοί; ἐμός; ἐμπαιγμονή; ἐμπαιγμός; ἐμπαίζω; ἐμπαίκτης; ἐμπέμπω; ἐμπεπλησμένος; ἐμπεριέχω; ἐμπεριπατέω; ἐμπερίτομος; ἐμπί(μ)πλημι.
+Módulo novo: lexicons/bdag-part-0117.js, com BDAG_PART_0117, 20 linhas de busca e 20 cartões de conteúdo. Divisões e referências documentadas em português e grego original conservado.
+Manifesto: lexicon-modules.json recebe o módulo 117 imediatamente após o 116 e antes de lexicons/leh.js; nenhum módulo de outra fonte foi reordenado.
+Regressão estática: lidos 116 módulos anteriores; total 2.544 linhas e cartões, pares alinhados por módulo; IDs reunidos de oito grupos, 2.544 únicos. Novo lote: 20 novos alvos e IDs sem colisões, total 2.564 alvos/IDs únicos. HTML do novo módulo: tags equilibradas, 20 cartões, 20 linhas, 20 marcadores de fonte, sem IDs órfãos.
+Progresso condicionado à publicação e revalidação: 2.544 → 2.564 de 8.287 (30,94%), restantes 5.723. Próximo cabeçalho não publicado: ἐμπί(μ)πρημι.
+AUDITORIA_CONCLUIDA = NÃO. Não declarar auditoria individual integral, teste funcional real de navegador, CI ou integração/merge em chat-gpt-commits; não incrementar total_auditoria_concluida. A colação automática de elementos gregos adicionais enfrentou erro interno na ferramenta de leitura; manter cautela editorial e reabrir conferência nessa etapa.
+Publicação apenas com commit único e update_ref com expected_sha exato, force=false; pós-publicação verificar HEAD, blobs, manifesto e diff. Nenhum SHA autorreferencial é registrado.
+================================================================================
+
+================================================================================
+BDAG — LOTE 118 — ἐμπί(μ)πρημι → ἐμφυσάω — 09/11/2026
+================================================================================
+Branch de trabalho exclusiva: chat-gpt-bdag.
+HEAD anterior confirmado: 6e9b8966607b5cabc62602fc4c75f4270384ec7d.
+Fonte exclusiva de leitura e tradução: HTML canônico do BDAG, biblioteca do projeto; artigos entre ἐμπί(μ)πρημι e ἐμφυσάω.
+Vinte cabeçalhos autônomos em ordem: ἐμπί(μ)πρημι; ἐμπίπτω; ἔμπλαστρος; ἐμπλέκω; ἐμπλοκή; ἐμπνέω; ἐμποδίζω; ἐμπολιτεύω; ἐμπορεύομαι; ἐμπορία; ἐμπόριον; ἔμπορος; ἔμπροσθεν; ἐμπτύω; ἐμφανής; ἐμφανίζω; ἔμφοβος; ἐμφράσσω; ἐμφύρω; ἐμφυσάω.
+Próximo cabeçalho não incorporado: ἔμφυτος, ον.
+Arquivo lexicográfico: lexicons/bdag-part-0118.js, BDAG_PART_0118, 20 linhas HTML de busca e 20 cartões correspondentes, em sequência idêntica.
+Transposição editorial feita por leitura direta dos artigos do HTML canônico, abrangendo acepções e subdivisões, dados morfológicos, grego original, citações, referências, variantes, ressalvas e bibliografia. Não foram utilizados PDFs substitutivos. Foi tentada colação automática adicional dos spans gregos; a leitura da ferramenta falhou internamente. NÃO apresentar essa etapa mecânica como certificada; manter aberta a auditoria filológica individual.
+Regressão estrutural: 116 módulos anteriores foram conferidos no HEAD imediatamente anterior por grupos, com 2544 pares; módulo 117 validado no último commit com 20 pares. IDs de todos os 117 módulos anteriores conferidos contra os 20 novos (total esperado 2584): nenhuma duplicação global. HTML e pares novos revalidados estruturalmente.
+Manifesto: inserir apenas lexicons/bdag-part-0118.js após lexicons/bdag-part-0117.js e antes de lexicons/leh.js, mantendo a ordem e os módulos de outras fontes.
+Progresso SOMENTE após publicação e revalidação remota: 2564 → 2584 de 8287, 31,18%, restam 5703.
+AUDITORIA_CONCLUIDA = NÃO; sem teste funcional real de DOM, links, popups e teclado, CI, auditoria atômica individual completa e integração/merge comprovada em chat-gpt-commits. Não incrementar total_auditoria_concluida.
+Publicar em commit único sobre HEAD real, update_ref expected_sha exato e force=false. Revalidar HEAD, blobs, manifesto e diff após publicar.
+================================================================================
+
+================================================================================
+BDAG — LOTE 119 — ἔμφυτος, ον → ἔνδειγμα, ατος, τό — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. Base HEAD verificada: fd841e8aacf28178c2cc5a2c965c2bd4940b3d7b.
+Fonte textual exclusiva: HTML canônico A Greek-English Lexicon of the New
+Testament and Other Early Christian Literature - Frederick William Danker,
+Walter Bauer.html, Biblioteca Scriptura Lexicon, versão 1 (30.790.409 bytes).
+Artigos localizados no trecho do HTML a partir da linha 32148; nenhum PDF,
+léxico alternativo ou conteúdo de memória usado para suprir a fonte.
+Cabeçalhos (20) em ordem: ἔμφυτος; ἐν; ἐναγκαλίζομαι; ἐνάλιος;
+ἐναλλάξ; ἐνάλλομαι; ἐνανθρωπέω; ἔναντι; ἐναντίον;
+ἐναντιόομαι; ἐναντίος; ἐναργής; ἐνάρετος; ἐναρμόνιος;
+ἐνάρχομαι; ἔνατος; ἐναφίημι; ἐνγ-; ἐνδεής; ἔνδειγμα.
+Próximo cabeçalho fora deste lote: ἐνδείκνυμι.
+Verbete extenso ἐν: tradução preparada de suas 12 divisões numeradas
+e subdivisões; preservadas referências, construções gregas, variantes,
+ressalvas de probabilidade e bibliografia. Os demais 19 artigos foram
+traduzidos seguindo o HTML canônico, inclusive o cabeçalho remissivo.
+Colação editorial de conteúdo feita contra os trechos recuperados do HTML.
+A leitura programática suplementar de todo o arquivo sofreu falhas internas
+intermitentes; não declarar conferência mecânica exaustiva nem auditoria
+filológica individual independente como concluídas por causa disso.
+Novo módulo: lexicons/bdag-part-0119.js (BDAG_PART_0119).
+Estrutura preparada: 20 linhas de pesquisa, 20 cartões BDAG, correspondência
+exata linha/cartão, IDs únicos, termos gregos conservados e estrutura de
+HTML equilibrada; sintaxe JavaScript verificada. As 12 divisões e 18
+subdivisões semânticas de ἐν estão identificadas no conteúdo.
+Regressão pré-publicação: leitura de 118 módulos BDAG históricos diretamente
+dos blobs do HEAD; 2584 linhas e 2584 cartões; unicidade global de 2584 IDs,
+pareamento 1:1 e nenhum erro detectado. Os vinte IDs novos não colidem
+com nenhum dos 2584 anteriores; projeção: 2604 IDs distintos e 2604 pares.
+Manifesto: inserir apenas lexicons/bdag-part-0119.js depois de
+lexicons/bdag-part-0118.js e antes de lexicons/leh.js, sem reordenar
+outros módulos e mantendo bibliographicTerms do BDAG sem modificação.
+Popups bibliográficos novos: nenhum; não houve expansão não verificada.
+Observação de fidelidade textual: o HTML contém no artigo ἐν a
+referência "ἐν ἡμῖν Hb 13:26", aparentemente inconsistente com a extensão
+do livro de Hebreus. A referência foi conservada literalmente, sem emenda
+conjectural; exigir revisão editorial separada antes de certificação
+filológica independente.
+Progresso condicionado à publicação e revalidação remota:
+2584 → 2604 de 8287 verbetes (31,42%), restantes 5683.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida:
+não foram demonstrados testes funcionais completos em DOM/navegador,
+testes de CI, auditoria atômica independente de cada artigo nem
+integração/merge em chat-gpt-commits conforme regras/Rauditoria.txt.
+A publicação só é admitida com um commit direto sobre o HEAD exato e
+update_ref expected_sha exato, force=false, seguida de verificação
+do novo HEAD, árvore, manifesto, blobs e diff; nenhum SHA autorreferencial.
+================================================================================
+
+================================================================================
+BDAG — LOTE 120 — ἐνδείκνυμι → ἔνδυσις, εως, ἡ — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag; HEAD-base remoto conferido:
+f5050387e18765bc299f6fd0eb417e4c8b902f43. Lote exato de 20 cabeçalhos consecutivos
+do HTML canônico BDAG, arquivo de Biblioteca intitulado
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html" (versão 1).
+Fonte HTML consultada nas linhas 32363–32521, incluindo 20 artigos
+e a fronteira com o próximo lema, ἐνδύω. PDFs, outros léxicos e
+pesquisas externas não foram usados como substitutos da fonte.
+Verbetes autônomos (20), em ordem:
+01 ἐνδείκνυμι; 02 ἔνδειξις, εως, ἡ; 03 ἕνδεκα;
+04 ἑνδέκατος, η, ον; 05 ἐνδελεχισμός, οῦ, ὁ;
+06 ἐνδέχομαι; 07 I. ἐνδέω; 08 II. ἐνδέω;
+09 ἐνδημέω; 10 ἐνδιδύσκω; 11 ἔνδικος, ον;
+12 ἔνδοθεν; 13 ἐνδόμησις; 14 ἐνδοξάζομαι;
+15 ἔνδοξος, ον; 16 ἐνδόξως; 17 ἔνδυμα, ατος, τό;
+18 ἐνδυναμόω; 19 ἐνδύνω; 20 ἔνδυσις, εως, ἡ.
+Próximo cabeçalho não incorporado: ἐνδύω.
+Dois artigos homógrafos ἐνδέω distinguidos por I e II, sem
+fusão de sentidos e com IDs independentes. A remissão
+ἐνδόμησις → ἐνδώμησις preserva a grafia e o caráter de variante.
+O texto grego de ἔνδοθεν, inclusive reconstruções entre sinais
+críticos, foi preservado sem conjecturas.
+Novo arquivo lexicográfico: lexicons/bdag-part-0120.js,
+window.ScripturaLexicons.BDAG_PART_0120, 20 search-row e
+20 entry-card, alinhados 1:1, sem IDs repetidos. Tradução das
+acepções, subdivisões, regência, variantes, morfologia, comentários,
+autores, datas, exemplos gregos e bibliografia segundo o HTML.
+Uma referência interna em ἐνδημέω foi explicitada como 2Co 5:9.
+Regressão: 118 módulos BDAG históricos cotejados a partir das
+evidências de verificação de IDs e SHA, contra a árvore real,
+mais bdag-part-0119.js; todos os seus blobs permaneceram intactos;
+2604 pares existentes, sem duplicatas; com 20 novos, resultado
+projetado de 2624 IDs globais distintos, 2624 linhas e cartões,
+sem divergência de data-target. Sintaxe de JavaScript verificada,
+tags e estrutura HTML equilibradas; sem domínio proibido.
+O leitor do HTML canônico teve falhas intermitentes na colação
+programática suplementar, após a recuperação e leitura dos textos
+necessários. Não considerar verificação mecânica exaustiva ou
+auditoria filológica independente por verbete como certificadas.
+Manifesto lexicon-modules.json: inserir somente
+lexicons/bdag-part-0120.js imediatamente após
+lexicons/bdag-part-0119.js e antes de lexicons/leh.js.
+Popups BDAG adicionados: nenhum; bibliographicTerms inalterado.
+Arquivos de infraestrutura e módulos de outras fontes intocados.
+Progresso APÓS publicação e revalidação remota:
+2604 → 2624 de 8287 (31,66%); restantes 5663.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Sem execução confirmada de teste funcional de navegador/DOM, CI,
+auditoria atômica independente artigo a artigo ou integração/merge
+comprovada em chat-gpt-commits. A conclusão editorial deste lote
+não deve ser apresentada como auditoria atômica concluída.
+Publicação apenas em um commit direto no HEAD remoto exato,
+sem force e com expected_sha preciso; revalidar após commit:
+HEAD, árvore, blobs, manifesto, diff e integridade dos módulos.
+Nenhum SHA autorreferencial será inserido neste registro.
+================================================================================
+
+================================================================================
+BDAG — LOTE 121 — ἐνδύω → ἐνεργέω — 09/11/2026
+================================================================================
+Branch: chat-gpt-bdag. HEAD-base:
+99478b1a4cef7faba331a56a5b57b3e5ae0f0fb4.
+Fonte exclusiva: HTML canônico BDAG, arquivo de Biblioteca
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html" (versão 1).
+Trecho do documento indexado: linhas aproximadamente 32515–32640;
+fronteiras consultadas diretamente no HTML, não em outro léxico ou PDF.
+20 cabeçalhos consecutivos:
+01 ἐνδύω; 02 ἐνδώμησις, εως, ἡ; 03 ἐνεγκ-;
+04 ἐνέδρα, ας, ἡ; 05 ἐνεδρεύω; 06 ἔνεδρον, ου, τό;
+07 ἐνειλέω; 08 ἔνειμι; 09 ἕνεκα; 10 ἐνέκρυψα;
+11 ἐνελίσσω; 12 ἐνέμεινα; 13 ἐνενήκοντα;
+14 ἐνεός, ά, όν; 15 ἐνέπαιξα, ἐνεπαίχθην;
+16 ἐνέπεσον; 17 ἐνέπλησα, ἐνεπλήσθην;
+18 ἐνέπρησε; 19 ἐνέργεια, ας, ἡ; 20 ἐνεργέω.
+Próximo lema ainda não incorporado: ἐνέργημα, ατος, τό.
+
+Arquivo de publicação: lexicons/bdag-part-0121.js, chave JS
+window.ScripturaLexicons.BDAG_PART_0121; manifesto inclui o
+módulo imediatamente após bdag-part-0120.js, antes de leh.js.
+20 linhas de pesquisa e 20 cartões BDAG; IDs únicos, pareamento
+1:1, HTML equilibrado, sintaxe JS verificada; links bíblicos
+explícitos em die-bibel.de/en/bible/NA28 e letras gregas preservadas.
+Os verbetes extensos ἐνδύω, ἕνεκα, ἐνέργεια e ἐνεργέω
+mantêm subdivisões, regências, formas morfológicas, variantes,
+ressalvas e referências; remissões curtas mantidas como artigos.
+Na colação editorial com o HTML, preservaram-se deliberadamente as
+siglas Wsd e 1 Km da fonte, sem expansão conjectural.
+As consultas complementares ao arquivo canônico tiveram falhas
+intermitentes após leitura efetiva do trecho; não declarar
+cotejo automatizado absolutamente exaustivo nem certificação
+filológica atômica individual concluída.
+
+Regressão estática pré-publicação: inventário dos 118 primeiros
+módulos e seus SHA, conferido com árvore do HEAD-base, além dos
+módulos 119 e 120. Todos os 2624 IDs preexistentes diferentes e
+pares linha/cartão coerentes, sem blobs anteriores modificados.
+Com o lote 121: 2644 IDs globalmente distintos e 2644 pares.
+Verificações lexicais pontuais executadas; alterações estruturais
+restritas ao novo módulo, manifesto e esta regra.
+Popups BDAG adicionados: nenhum; bibliographicTerms preservado.
+Progresso condicionado ao commit e à revalidação do HEAD remoto:
+2624 → 2644 de 8287 (31,91%); restantes 5643.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida:
+sem auditoria individual completa, testes funcionais reais em DOM,
+CI demonstrado e integração/merge no destino chat-gpt-commits.
+A publicação do lote de incorporação não implica aprovação dos
+critérios atômicos de regras/Rauditoria.txt.
+Publicação autorizada somente em commit único sobre HEAD remoto
+exato com expected_sha e force=false. Verificar em seguida
+HEAD, árvore, blobs e diff; não autorreferenciar SHA futuro.
+================================================================================
+
+================================================================================
+BDAG — LOTE 122 — ἐνέργημα, ατος, τό → ἐνίστημι — 09/11/2026
+================================================================================
+Branch exclusiva chat-gpt-bdag; HEAD inicial:
+e0d735d76df32e2a501e1e4c61c68dde58bc05f2.
+Fonte exclusiva: HTML canônico "A Greek-English Lexicon of the
+New Testament and Other Early Christian Literature - Frederick
+William Danker, Walter Bauer.html", Biblioteca Scriptura Lexicon,
+versão 1, a partir da linha indexada 32655 até antes de ἐνισχύω.
+Nenhum PDF ou outro léxico substituiu esta fonte.
+20 artigos consecutivos e autônomos:
+01 ἐνέργημα, ατος, τό; 02 ἐνεργής, ές; 03 ἐνερείδω;
+04 ἐνεστηκώς, ἐνεστώς; 05 ἐνευλογέω; 06 ἐνεχθείς;
+07 ἐνέχω; 08 ἔνθα; 09 ἐνθάδε; 10 ἔνθεν;
+11 ἔνθεος, ον; 12 ἐνθυμέομαι; 13 ἐνθύμησις, εως, ἡ;
+14 ἐνί; 15 ἔνι; 16 ἐνιαυτός, οῦ, ὁ;
+17 ἐνιδρύω; 18 ἔνιοι, αι, α; 19 ἐνίοτε; 20 ἐνίστημι.
+Próximo artigo ainda não incorporado: ἐνισχύω.
+ἐνί e ἔνι mantidos separados, com acentuação e IDs individuais;
+formas puramente remissivas conservadas como artigos, sem
+inferir novas acepções; ἐνίστημι com 3 sentidos separados.
+O texto-fonte foi lido na íntegra desses 20 artigos; traduções
+editoriais portuguesas preparadas, colacionadas com os lemas,
+divisões, referências, formas gregas e ressalvas de leitura.
+Triagem programática de 119 segmentos gregos marcados
+resultou em zero ausências, após três reparos fiéis ao HTML
+em pontuação ou acento. Matriz adicional de 82 controles
+pontuais de acepções, variantes e citações: sem falhas finais.
+Isto não equivale a auditoria filológica atômica integral.
+
+Novo módulo: lexicons/bdag-part-0122.js, chave
+window.ScripturaLexicons.BDAG_PART_0122, 20 search-row,
+20 entry-card, pareamento 1:1, tags HTML equilibradas,
+script sintaticamente válido. 51 links bíblicos têm URL
+estruturalmente conforme o padrão NA28 do projeto;
+não declarar teste de navegação ou de rede dos destinos.
+Regressão BDAG: cotejados os SHA de 118 módulos históricos
+com inventário de auditoria e árvore-base, e lidos/verificados
+os módulos 119, 120, 121; 2644 IDs BDAG anteriores
+únicos e pareados. Projeção do lote: 2664 IDs BDAG distintos,
+2664 pares de linha/cartão e ausência de colisões internas.
+Não declarar varredura exaustiva de IDs de todos os demais
+léxicos como concluída.
+Manifesto: adicionar exclusivamente lexicons/bdag-part-0122.js
+após bdag-part-0121.js e antes de lexicons/leh.js.
+Outros módulos lexicográficos, arquivos de infraestrutura,
+bibliographicTerms e regras/Rauditoria.txt preservados.
+Acesso complementar ao HTML apresentou falhas intermitentes,
+mas os artigos e destaques gregos foram recuperados; nenhuma
+certificação de colação automática exaustiva é reivindicada.
+Progresso APÓS publicação e verificação remota:
+2644 → 2664 de 8287 (32,15%); restantes 5623.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+Pendentes auditoria atomizada por verbete conforme checklist
+A–J, testes funcionais no DOM/browser, CI executado
+comprovadamente e integração/merge verificado em
+chat-gpt-commits. Commit de incorporação não equivale
+a certificação da auditoria.
+Publicar somente por commit único no HEAD remoto exato,
+update_ref expected_sha igual ao HEAD e force=false.
+Revalidar HEAD, árvore, manifesto, blobs e diff e
+comprovar ausência de alterações em módulos anteriores.
+================================================================================
+
+================================================================================
+BDAG — LOTE 123 — ἐνισχύω → ἑνόω — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD-base remoto conferido:
+35ae46e16890a6eb00e166e96d416c1334156667.
+Fonte exclusivamente canônica: documento HTML BDAG em Biblioteca,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas indexadas 32775–32919. A delimitação dos
+20 cabeçalhos começa em ἐνισχύω e termina em ἑνόω;
+o próximo artigo fora deste lote é ἐνπ-.
+Nenhum PDF nem outro léxico foi usado para completar leituras.
+
+Artigos incorporados, em ordem estrita:
+01 ἐνισχύω; 02 ἐνκ-; 03 ἐννέα; 04 ἐννεός;
+05 ἐννεύω; 06 ἐννοέω; 07 ἔννοια, ας, ἡ;
+08 ἔννομος, ον; 09 ἐννόμως; 10 ἔννυχος, ον;
+11 ἐνοικέω; 12 ἐνοξίζω; 13 ἔνοπλος, ον;
+14 ἐνοπτρίζομαι; 15 ἐνοράω; 16 ἐνορκίζω;
+17 ἑνότης, ητος, ἡ; 18 ἐνοχλέω;
+19 ἔνοχος, ον; 20 ἑνόω.
+Os verbetes remissivos ἐνκ- e ἐννεός foram mantidos
+como artigos autônomos. ἔνοχος conserva duas acepções,
+incluindo subdivisões ⓐ, ⓑ (α, β, γ) e ⓒ; ἔννομος
+conserva as interpretações alternativas e a discussão
+da jurisdição mosaica/cristológica, sem impor conclusão.
+Preservados argumentos de tradução, referências
+bíblicas e patrísticas, variantes críticas, flexões,
+regências, comentários, fontes gregas e bibliografia.
+
+Colação do HTML: 20/20 lemas e ordem confirmados;
+115 segmentos gregos destacados conferidos, com
+reparação de uma sequência abreviada em ἔνοχος.
+62 referências bíblicas/patrísticas explícitas extraídas
+mecanicamente da fonte cotejadas com a tradução, sem
+ausências após revisão; isso é checagem parcial de
+referências explicitamente nomeadas, não exame de todos
+os possíveis remissivos abreviados e variantes.
+A sigla 1 Kgm 30:13 do texto da fonte foi preservada.
+A remissão interna Ef 4:13 em ἑνότης foi expandida
+a partir do contexto 'v. 13' sem inferência de novo verso.
+
+Novo módulo: lexicons/bdag-part-0123.js;
+chave window.ScripturaLexicons.BDAG_PART_0123;
+20 search-row e 20 entry-card, alinhados 1:1,
+IDs e data-target únicos, HTML estruturalmente
+balanceado, JavaScript sintaticamente válido.
+33 links bíblicos com URL no padrão NA28 do
+projeto; não há prova de teste da URL no navegador.
+Nenhum popup bibliográfico novo; bibliographicTerms
+preservado sem modificação.
+Manifesto: inserir somente lexicons/bdag-part-0123.js
+após bdag-part-0122.js, antes de lexicons/leh.js.
+Outros módulos, regras/Rauditoria.txt e infraestrutura
+devem permanecer intactos.
+Regressão: 118 módulos históricos cotejados por SHA
+de sua árvore real com registros prévios de inventário,
+mais os módulos 119–122 lidos e conferidos. Antes do
+lote, 2664 pares e IDs BDAG únicos; com o lote,
+projeção de 2684 IDs BDAG únicos, 2684 pares.
+Ausência dos 20 IDs novos confirmada também
+em index.html, lexicons/bdag.js e lexicons/leh.js.
+Não declarar varredura global de todos os 2566
+arquivos de léxicos nem testes DOM/CI como concluídos.
+
+Progresso condicionado à publicação e revalidação:
+2664 → 2684 de 8287 (32,39%);
+5603 ainda não incorporados.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Permanecem pendentes auditoria atômica independente
+para cada verbete (checklist A–J), testes funcionais reais,
+validação de todos os links no navegador, CI comprovado
+e integração/merge em chat-gpt-commits.
+A tradução e o commit de lote são fases editoriais
+distintas da auditoria atômica concluída.
+
+Publicar unicamente commit direto em chat-gpt-bdag
+sobre o HEAD remoto exato, com expected_sha igual à
+base e force=false. Revalidar HEAD, árvore, blobs,
+manifesto, diff e proteção dos arquivos anteriores.
+Não inserir SHA futuro autorreferencial neste registro.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 124 — ἐνπ- → ἔντρομος — 09/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD-base remoto consultado: cbe3462fb238703fb04f6fc8ff1644a731c2ba4b.
+Fonte filológica exclusiva: HTML canônico da Biblioteca do projeto,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas indexadas 32902–33079. Nenhum PDF ou outro
+léxico foi usado como substituto de texto-fonte.
+20 verbetes consecutivos, pela ordem de seus cabeçalhos:
+01 ἐνπ-
+02 ἐνσκιρόω
+03 ἐνστερνίζομαι
+04 ἔνταλμα, ατος, τό
+05 ἐντάσσω
+06 ἐνταῦθα
+07 ἐνταφιάζω
+08 ἐνταφιασμός, οῦ, ὁ
+09 ἐντέλλω
+10 ἔντερον, ου, τό
+11 ἐντεῦθεν
+12 ἔντευξις, εως, ἡ
+13 ἐντίθημι
+14 ἔντιμος, ον
+15 ἐντολή, ῆς, ἡ
+16 ἐντόπιος, ία, ιον
+17 ἐντός
+18 ἐντρέπω
+19 ἐντρέφω
+20 ἔντρομος, ον
+Próximo lema da fonte, ainda fora do lote: ἐντροπή, ῆς, ἡ.
+
+Colação editorial do HTML: lemas e sequência conferidos; tradução
+das formas, acepções, variantes, graus de certeza, grego e
+bibliografia preparada com o conteúdo dos 20 artigos.
+Especial atenção a ἔντευξις (petição/oração/intercessão);
+ἐντολή (mandado/mandamento e sua hierarquia de sentidos);
+ἐντός (interpretações de Lc 17:21 e debate bibliográfico);
+ἐντρέπω (envergonhar e demonstrar deferência).
+A remissão ἐνπ- foi mantida como verbete autônomo.
+Foram corrigidas na preparação duas leituras editoriais
+pontuais de ἔντερον e ἐντόπιος para aderência à fonte.
+Não se reivindica colação automática exaustiva de cada
+marca tipográfica, nem auditoria atômica A–J concluída.
+
+Novo módulo lexicons/bdag-part-0124.js, registrado imediatamente
+após bdag-part-0123.js e antes de lexicons/leh.js no manifesto.
+Módulo BDAG_PART_0124: 20 search-row e 20 entry-card, 20
+IDs distintos e data-target alinhados 1:1, HTML com tags
+corretamente aninhadas, conteúdo JSON/JavaScript estruturado
+validado, 93 referências do NT com URLs estruturalmente
+conformes ao padrão NA28 do projeto. Destinos e navegação
+em navegador real NÃO TESTADOS.
+Todos os 123 módulos BDAG pré-existentes foram lidos e
+comparados quanto a seus IDs e alinhamento, totalizando
+2684 linhas, 2684 cartões e 2684 IDs distintos.
+Com o candidato: 2704 linhas, 2704 cartões e 2704 IDs
+distintos; duplicatas, linhas órfãs e cartões órfãos: zero.
+Os 20 IDs candidatos também não ocorrem nos arquivos-base
+index.html, script.js, lexicons/leh.js, lexicons/dgp.js e
+lexicons/pereira.js. Esta verificação não abrange cada
+arquivo de todas as demais fontes auxiliares.
+A árvore-base de 8968 entradas deve ser preservada, exceto
+pelos três arquivos deste commit; módulos anteriores e
+bibliographicTerms ficam intocados.
+Progresso condicionado à publicação e verificação remota:
+2684 → 2704 de 8287 (32,63%); restantes 5583.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida; pendentes
+auditoria atômica individual, testes funcionais de browser,
+validação externa de links, CI comprovado e integração por
+rotina autorizada em chat-gpt-commits.
+Publicar exclusivamente por commit único, parent_sha igual
+ao HEAD remoto exato, e update_ref com expected_sha exato
+e force=false; revalidar HEAD, árvore, blobs e diff.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 125 — ἐντροπή → ἐξαγγέλλω — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto verificado: 4ce48d31a941c4dc6f7c2a68c970e09f74efcb10.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1; artigos indexados nas linhas 33082–33225,
+sem recorrer ao PDF ou a outros léxicos.
+Lista integral dos 20 verbetes consecutivos:
+01 ἐντροπή, ῆς, ἡ
+02 ἐντρυφάω
+03 ἐντυγχάνω
+04 ἐντυλίσσω
+05 ἐντυπόω
+06 ἐνυβρίζω
+07 ἔνυδρος, ον
+08 ἐνυπνιάζομαι
+09 ἐνύπνιον, ου, τό
+10 ἐνφωνέω
+11 ἐνών
+12 ἐνώπιον
+13 ἐνωρίστερον
+14 Ἐνώς, ὁ
+15 ἕνωσις, εως, ἡ
+16 ἐνωτίζομαι
+17 Ἑνώχ, ὁ
+18 ἐξ
+19 ἕξ
+20 ἐξαγγέλλω
+Próximo artigo reservado: ἐξαγοράζω.
+
+As 20 entradas foram traduzidas para português técnico segundo o
+HTML, mantendo regência, formas, variantes, qualificações de
+incerteza, hierarquia de sentidos, grego e bibliografia.
+Em ἐνώπιον, quatro acepções e subacepções preservadas;
+em ἐντυγχάνω, usos de recurso, intercessão, oração e leitura;
+em Ἑνώχ, a atribuição conjectural em 1Pe 3:19 permanece
+explicitamente conjectural. Remissões ἐνών e ἐξ
+conservadas como artigos próprios.
+Colação automatizada localizada: 20/20 lemas em ordem e
+78/78 segmentos gregos destacados presentes na tradução.
+A consulta complementar da Biblioteca para automatizar todo
+o inventário de citações apresentou falha intermitente:
+não declarar cobertura mecânica exaustiva de todas as referências.
+Foi feita revisão textual editorial, sem certificação
+de auditoria filológica atômica individual.
+Duas correções durante a preparação: preservar a sigla
+Hes. 19:3 sem conjeturar sua expansão e manter a remissão
+a προσκυνέω, a. Foram corrigidos ainda cinco links
+indevidos de referências patrísticas a 1 Clemente que
+apontavam para Colossenses: tais referências permanecem
+em texto, sem hiperligação conjectural.
+
+Novo módulo: lexicons/bdag-part-0125.js, chave
+window.ScripturaLexicons.BDAG_PART_0125. Manifesto:
+incluir somente depois de bdag-part-0124.js, antes
+de lexicons/leh.js. 20 search-row, 20 entry-card;
+20 IDs novos com sufixo -bdag e data-target alinhados 1:1;
+HTML com tags balanceadas e bem aninhadas; sintaxe
+de representação de dados JSON/JavaScript validada.
+95 links do NT estruturalmente conforme padrão NA28;
+não declarar visitas reais a seus destinos.
+Regressão: todos os 124 módulos BDAG anteriores recuperados
+pelo SHA da árvore-base e conferidos, 2704 linhas/cartões,
+2704 IDs distintos, zero pares órfãos. Projeção com o
+novo módulo: 2724 linhas e cartões BDAG, 2724 IDs únicos,
+nenhuma colisão dentro do BDAG. IDs candidatos buscados
+ainda em index.html, script.js e oito arquivos-base,
+sem colisões. Não houve varredura de todos os demais
+arquivos modulares de léxicos diferentes.
+Popups BDAG: nenhum; bibliographicTerms inalterado.
+Arquivos protegidos e módulos anteriores preservados.
+A árvore-base tem 8969 entradas; apenas três caminhos
+de arquivos devem ser modificados nesta publicação:
+lexicons/bdag-part-0125.js, lexicon-modules.json e
+regras/Rbdag.txt.
+Progresso condicionado à publicação e releitura remota:
+2704 → 2724 dos 8287 verbetes previstos (32,87%);
+restantes 5563.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Pendências: auditoria atômica individual A–J, testes
+funcionais reais no DOM e em navegador, verificação real
+de links, CI comprovado e integração/merge confirmada
+pelo integrador exclusivo em chat-gpt-commits.
+Publicação somente por commit único, parent_sha igual
+ao HEAD remoto e update_ref(expected_sha=HEAD exato,
+force=false). Revalidar HEAD final, árvore, blobs e diff.
+================================================================================
+
+================================================================================
+BDAG — LOTE 126 — ἐξαγοράζω → ἑξάμηνος — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto verificado: 86b3e78bfd3d1749a63e14bcb219f488a2b69aff.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, trecho sequencial a partir da linha indexada 33225.
+Não substituir por PDF, repertórios auxiliares ou reconstrução textual.
+20 verbetes consecutivos:
+01 ἐξαγοράζω
+02 ἐξάγω
+03 ἐξαίρετος, ον
+04 ἐξαιρέτως
+05 ἐξαιρέω
+06 ἐξαίρω
+07 ἐξαιτέω
+08 ἐξαίφνης
+09 ἑξάκις
+10 ἑξακισχίλιοι, αι, α
+11 ἐξακολουθέω
+12 ἐξακοντίζω
+13 ἑξακόσιοι, αι, α
+14 ἐξακριβάζομαι
+15 ἐξαλείφω
+16 ἐξάλλομαι
+17 ἐξαμαρτάνω
+18 ἐξαμβλόω
+19 ἑξαμηνιαῖος, α, ον
+20 ἑξάμηνος, ον
+Próximo lema após o lote: ἐξανάστασις, εως, ἡ.
+
+Preparação editorial: preservação de paradigmas, sentidos e subacepções,
+variantes textuais, gradações de certeza, citações gregas e bibliografia
+visíveis no HTML consultado. Atenção especial ao emprego metafórico
+de ἐξαγοράζω, à variante ζωήν/κόλασιν em MPol 2:3, à divergência
+interpretativa de At 26:17 em ἐξαιρέω e aos subitens de ἐξαλείφω.
+Corrigidas na preparação a sigla original Wsd 10:1, uma expansão
+bibliográfica de Ath. não autorizada pelo contexto e a tradução
+imprecisa de cause to miscarry. Não declarar colação mecânica integral
+de todas as marcas do HTML nem auditoria filológica atômica.
+
+Novo módulo lexicons/bdag-part-0126.js, chave BDAG_PART_0126,
+registrado imediatamente após 0125, antes de lexicons/leh.js.
+20 search-row, 20 entry-card, pares e alvos 1:1, zero colisões;
+normalização Unicode NFC para cabeçalhos;
+aninhamento de tags validado por parser de pilha;
+57 URLs bíblicas com padrão NA28 estruturalmente válido;
+destinos remotos e navegação em navegador real NÃO TESTADOS.
+Regressão estrutural do HTML: 124 partes modulares anteriores e
+arquivo-base lidos no HEAD; 2724 pares existentes, todos alinhados.
+IDs de todo o BDAG, inclusive módulo novo: 2744 únicos, zero
+duplicações e zero pares órfãos. Manifesto: somente uma entrada
+adicionada, sem deslocar as demais.
+Sem popup bibliográfico novo; bibliographicTerms preservado.
+Outros léxicos, scripts e infraestrutura não devem ser modificados.
+Progresso após publicação E APENAS se o HEAD final for confirmado:
+2724 → 2744 de 8287 verbetes previstos; restam 5543.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Permanecem pendentes checklist A–J por verbete, testes funcionais
+reais de navegador/DOM, validação externa de links, CI comprovado
+e integração confirmada pelo integrador exclusivo em chat-gpt-commits.
+Publicar em um único commit sobre o HEAD exato, expected_sha
+igual ao HEAD-base e force=false; após revalidar HEAD, árvore,
+blobs, diff e integridade. Não inserir SHA futuro autorreferencial.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 127 — ἐξανάστασις → ἐξέβαλον — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto consultado e reconfirmado: 9a5763d39f3e418b95fd9eb03d75a39d8bdef9d5.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos indexados nas linhas 33378–33521. Nenhum PDF nem
+outro léxico utilizado como fonte substituta.
+Os 20 verbetes consecutivos efetivamente incorporados:
+01 ἐξανάστασις, εως, ἡ
+02 ἐξανατέλλω
+03 ἐξανίστημι
+04 ἐξανοίγω
+05 ἐξαπατάω
+06 ἐξάπινα
+07 ἐξαπλόω
+08 ἐξαπορέω
+09 ἐξαποστέλλω
+10 ἐξάπτω
+11 ἐξάρατε, ἐξαρθῇ
+12 ἐξαριθμέω
+13 ἐξαρπάζω
+14 ἐξαρτάω
+15 ἐξαρτίζω
+16 ἐξασθενέω
+17 ἐξαστράπτω
+18 ἐξαυτῆς
+19 ἐξαφίημι
+20 ἐξέβαλον
+Próximo verbete reservado, fora do lote: ἐξέβην.
+
+Colação editorial: lemas e sequência conferidos diretamente com
+a fonte. Todos os 20 artigos traduzidos, sem omitir artigos
+remissivos; mantidas as formas flexionadas, distinções semânticas,
+subdivisões ① ② ③ e ⓐ ⓑ, leitura variante (v.l.),
+testemunhos antigos, interpretações qualificadas, notas e
+bibliografia tal como atribuídas na fonte. Cautela com:
+ἐξανάστασις (significado contextual em Fl 3:11);
+ἐξανίστημι (descendência vs. erguer-se);
+ἐξαπατάω (regências e uso reflexivo);
+ἐξαποστέλλω (três acepções e subdivisões, fontes
+neotestamentárias, patrísticas e papirológicas);
+ἐξαυτῆς (variante ἐξ αὐτῶν);
+ἐξέβαλον e ἐξάρατε (remissões autônomas).
+Revisão editorial e estrutural, sem reivindicar colação
+tipográfica ou crítica automática exaustiva de cada marca.
+
+Novo arquivo: lexicons/bdag-part-0127.js, chave
+window.ScripturaLexicons.BDAG_PART_0127, source: BDAG,
+20 search-row e 20 entry-card, data-target/ID alinhados,
+20 IDs novos, nenhum repetido no BDAG; HTML equilibrado
+e bem aninhado, representação JavaScript/JSON válida.
+40 hiperligações do NT estruturalmente conformes ao padrão
+NA28 do projeto. Alvos não acessados em navegador real.
+Regressão: 126 arquivos BDAG preexistentes lidos
+(lexicons/bdag.js e 125 módulos 0002–0126):
+2744 search-row, 2744 entry-card, 2744 IDs distintos,
+zero pares órfãos e zero duplicatas. Após o candidato:
+2764 linhas e cartões, 2764 IDs distintos; colisões,
+órfãos e duplicatas: zero. Verificados adicionalmente
+index.html, script.js, lexicons/leh.js, lexicons/dgp.js
+e lexicons/pereira.js quanto aos 20 novos IDs, sem colisão.
+Não alegar cobertura estática de todos os demais léxicos.
+Manifesto: inserir part-0127 imediatamente após part-0126,
+antes de lexicons/leh.js. Preservar módulos preexistentes,
+bibliographicTerms, regras/Rauditoria.txt e infraestrutura.
+A árvore-base remota contém 8971 entradas; apenas 3
+arquivos desta publicação podem mudar:
+lexicons/bdag-part-0127.js, lexicon-modules.json e regras/Rbdag.txt.
+
+Contagem editorial, condicionada a commit remoto validado:
+2744 → 2764 de 8287 (33,35%); restantes 5523.
+AUDITORIA_CONCLUIDA = NÃO.
+total_auditoria_concluida permanece inalterado;
+auditagem individual A–J, testes funcionais DOM/browser,
+verificação real de links, CI e integração/merge em
+chat-gpt-commits pendentes. Não confundir colação editorial
+de incorporação com auditoria atômica concluída.
+Publicar diretamente por um único commit em chat-gpt-bdag,
+usando parent_sha = HEAD-base exato, expected_sha exato
+e force=false. Após publicação, consultar de novo HEAD,
+árvore, blobs, diff e manifesto, sem PR/merge por esta rotina.
+================================================================================
+
+
+================================================================================
+BDAG — LOTE 128 — ἐξέβην → ἐξέπνευσα — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto consultado e reconfirmado: f711cb85b4cb212136b9f29061d6a909113c990f.
+Árvore-base: 919ce8bc12906089ae0f61a73219b7fca6bc504e.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura
+Lexicon, "A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos indexados nas linhas 33522–33618. Nenhum PDF ou
+outro léxico utilizado como texto-fonte.
+20 verbetes consecutivos, na ordem original:
+01 ἐξέβην
+02 ἐξεγείρω
+03 ἐξέδετο, ἐξεδόμην
+04 ἐξειλάμην, ἐξείλατο, ἐξεῖλον
+05 ἔξειμι (I, de εἶμι)
+06 ἔξειμι (II, de εἰμί)
+07 ἐξεῖπον
+08 ἔξελε, ἐξελέσθαι
+09 ἐξελέγχω
+10 ἐξελήλυθα
+11 ἐξελίσσω
+12 ἐξέλκω
+13 ἐξέμασα
+14 ἐξεμπλάριον, ίου, τό
+15 ἐξενεγκ-
+16 ἐξέπεσα
+17 ἐξεπέτασα
+18 ἐξεπλάγην
+19 ἐξέπλευσα
+20 ἐξέπνευσα
+Próximo artigo, ainda fora do lote: ἐξέραμα, ατος, τό.
+
+Colação editorial: 20 lemas e ordem confirmados diretamente no
+HTML; 60/60 segmentos gregos destacados recuperados nos respectivos
+cartões após correção pontual de τὶ e da sequência
+σελήνη: τὸν αὑτῆς κύκλον ἐξελίσσει. Os artigos remissivos foram
+mantidos autônomos, inclusive flexões e radical ἐξενεγκ-.
+Os dois homógrafos ἔξειμι foram separados por IDs distintos,
+preservando suas origens εἶμι e εἰμί.
+ἐξεγείρω: cinco acepções, incluindo interpretações concorrentes
+de Rm 9:17 (④/⑤); ἐξεῖπον: aoristo de ἐξαγορεύω, que não aparece
+como verbo usado na literatura considerada; ἐξελέγχω: Jd 15 como
+variante; ἐξέλκω: regência, ideia de arrastamento e exemplos
+antigos; ἐξεμπλάριον: empréstimo latino, atestações e ressalva
+de incerteza JHS. Variantes, flexões, casos, citações patrísticas,
+fontes gregas e notas bibliográficas preservadas.
+A colação mecânica de segmentos gregos não prova, por si só,
+colação filológica exaustiva de toda pontuação/referência:
+aplicada ainda revisão textual editorial de todos os artigos.
+
+Módulo novo: lexicons/bdag-part-0128.js;
+chave window.ScripturaLexicons.BDAG_PART_0128;
+source BDAG, 20 search-row e 20 entry-card,
+20 IDs/data-target exclusivos com correspondência 1:1;
+HTML balanceado, dados JSON/JavaScript serializáveis,
+13 URLs bíblicas conforme formato NA28 do projeto.
+Destinos remotos não visitados, DOM e navegação real NÃO TESTADOS.
+Regressão: base remota contém 127 arquivos BDAG (base +
+partes 0002–0127) registrados no manifesto; os 126 módulos
+anteriores à parte 0127 estão preservados por seus SHA de Git
+e seu inventário de 2744 IDs validado integralmente no lote
+anterior; a parte 0127 foi relida por blob e confere 20 pares.
+IDs existentes: 2764; com o candidato: 2784 IDs BDAG
+distintos, sem duplicatas e sem pares órfãos nos módulos
+conferidos. Busca de colisão adicional em index.html,
+script.js, lexicons/leh.js, lexicons/dgp.js,
+lexicons/pereira.js e lexicons/bdag.js: nenhuma.
+Não afirmar varredura integral dos outros milhares de
+módulos não BDAG nem regressão DOM/CI funcional.
+Manifesto recebe exclusivamente part-0128 após part-0127,
+antes de lexicons/leh.js, sem deslocar módulos existentes;
+bibliographicTerms e scripts preservados.
+Arquivos alteráveis: somente lexicons/bdag-part-0128.js,
+lexicon-modules.json e regras/Rbdag.txt.
+Árvore-base remota continha 8972 entradas.
+
+Progresso condicionado a publicação e revalidação:
+2764 → 2784 de 8287 (33,59%); faltam 5503.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria atômica individual A–J, teste funcional
+real de busca/cartões/links/popups no navegador, CI validado
+e merge comprovado por integrador autorizado em
+chat-gpt-commits. Colação editorial não é auditoria concluída.
+Publicar em commit único diretamente em chat-gpt-bdag,
+parent_sha = HEAD remoto exato, expected_sha exato e
+force=false; revalidar commit, HEAD, árvore, blobs e diff.
+Proibidos PR, merge, alterações em main e escrita em
+outros léxicos por este executor.
+================================================================================
+
+================================================================================
+BDAG — LOTE 129 — ἐξέραμα → ἐξίημι — 10/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base e pai obrigatório do commit de lote:
+7bff23b1200ed3d42f6123ca476f8eb76b5a31f1.
+Árvore-base: b3ed727e86819f9af44b3288ba600edee5b1b9a9.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos nas linhas 33619–33810. Não usar o PDF.
+Sequência integral de 20 artigos independentes:
+01 ἐξέραμα, ατος, τό
+02 ἐξεραυνάω
+03 ἐξερευνάω
+04 ἐξερίζω
+05 ἐξέρχομαι
+06 ἐξεστακέναι
+07 ἔξεστιν
+08 ἐξετάζω
+09 ἐξετασμός, οῦ, ὁ
+10 ἐξεταστικῶς
+11 ἐξέφνης
+12 ἐξεχύθην
+13 ἐξέχω
+14 ἐξηγέομαι
+15 ἐξήγησις, εως, ἡ
+16 ἐξῄειν, ἐξήεσαν
+17 ἑξήκοντα
+18 ἑξῆς
+19 ἐξηχέω
+20 ἐξίημι
+Próximo artigo reservado: ἐξιλάσκομαι.
+
+Tradução editorial para português brasileiro das 54 unidades textuais
+contínuas que compõem os 20 verbetes no HTML, incluindo lemas,
+etimologias, flexões, cinco acepções de ἐξέρχομαι, duas de ἔξεστιν,
+duas de ἐξετάζω, duas de ἐξηγέομαι, duas de ἐξήγησις,
+subacepções, remissões autônomas, variantes, citações gregas e
+hebraicas, referências e notas bibliográficas. BibliographicTerms
+preservado; nenhum popup bibliográfico novo.
+
+Novo módulo: lexicons/bdag-part-0129.js, fonte BDAG, chave
+window.ScripturaLexicons.BDAG_PART_0129. Manifesto
+lexicon-modules.json com uma única inserção após part-0128 e antes
+de lexicons/leh.js. O conteúdo preexistente permanece inalterado.
+Verificação global remota integral: 128 arquivos BDAG preexistentes
+(representando 2784 search-row, 2784 entry-card), todos acessíveis,
+sem módulos ausentes. Com o candidato: 2804 linhas e 2804 cartões,
+2804 IDs únicos, zero data-targets duplicados, zero IDs duplicados,
+zero linhas/cartões órfãos. 20 novos pares 1:1, 40 marcadores
+data-source=BDAG. HTML de linhas/cartões com aninhamento de tags
+equilibrado. Todos os novos IDs terminam em -bdag; lemas em NFC.
+151 ocorrências de links neotestamentários estruturalmente válidos
+no padrão NA28. Novas ocorrências beta.perseus.tufts.edu: zero.
+Formatos de URLs validados sem teste de destino remoto real.
+Preservação estrutural dos 128 arquivos preexistentes comprovada
+por seus blobs/Git SHA; sem alterações em outros léxicos ou scripts.
+
+Contagem editorial condicionada à publicação e à revalidação
+do HEAD remoto: 2784 → 2804 de 8287; restarão 5483.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar
+total_auditoria_concluida. Permanecem pendentes a auditoria
+atômica individual A–J, os testes funcionais de DOM/navegador,
+a confirmação externa de links, a CI comprovada e a integração
+efetuada exclusivamente pelo integrador em chat-gpt-commits.
+A regressão estática realizada NÃO certifica funcionalidade.
+Publicar em commit único com parent_sha igual ao HEAD real,
+expected_sha exato e force=false; após publicar confirmar HEAD,
+árvore, blobs e diff. Não abrir PR ou realizar merge nesta rotina.
+================================================================================
+
+================================================================================
+BDAG — LOTE 130 — ἐξιλάσκομαι → ἐξουσία — 10/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base remoto consultado: e9697a6dea2df026a10a703249ebd287dca912e8.
+Árvore-base: c06a813f176e984909492623c1cfa5b4d49220e8.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos e segmentos nas linhas 33811–33987.
+Nenhum conteúdo do PDF ou de outro léxico utilizado como substituto.
+Vinte artigos consecutivos independentes, na ordem canônica:
+01 ἐξιλάσκομαι
+02 ἕξις, εως, ἡ
+03 ἐξίστημι
+04 ἐξισχύω
+05 ἔξοδος, ου, ἡ
+06 ἐξοιδέω
+07 ἐξοίσουσι
+08 ἐξολεθρεύω
+09 ἐξομοιόω
+10 ἐξομολογέω
+11 ἐξομολόγησις, εως, ἡ
+12 ἐξόν
+13 ἐξορίζω
+14 ἐξορκίζω
+15 ἐξορκιστής, οῦ, ὁ
+16 ἐξορύσσω
+17 ἐξουδενέω/ἐξουδενόω
+18 ἐξουθενέω/ἐξουθενόω
+19 ἐξουθένημα, ατος, τό
+20 ἐξουσία, ας, ἡ
+Próximo artigo reservado, fora do lote: ἐξουσιάζω.
+
+Os 48 segmentos de texto do HTML distribuídos pelos 20 artigos
+foram traduzidos ao português brasileiro em camada editorial.
+Preservados os cabeçalhos morfológicos, variantes e grafias,
+citações gregas e hebraicas, testemunhos antigos, remissões
+independentes, referências bíblicas e bibliografia. Em especial:
+ἐξίστημι: contraste transitivo e intransitivo, e suas subdivisões.
+ἐξομολογέω: quatro acepções e semântica de confissão/louvor.
+ἐξουδενέω e ἐξουθενέω: grafias distintas, sem fusão de verbetes.
+ἐξουσία: sete acepções, subdivisões ⓐ/ⓑ na acepção ⑤,
+distinções de direito, poder, autoridade, jurisdição e domínio;
+alternativas interpretativas de 1Co 11:10 e bibliografia integral.
+Não inventar página impressa, expansão incerta de abreviaturas
+ou transformação de uma hipótese em fato.
+
+Módulo: lexicons/bdag-part-0130.js, chave BDAG_PART_0130;
+20 search-row, 20 entry-card, pares data-target/id 1:1,
+todas as fontes marcadas BDAG, IDs terminados em -bdag.
+Manifesto lexicon-modules.json atualizado com entrada única
+imediatamente após part-0129 e antes de lexicons/leh.js.
+Arquivo lexicons/bdag.js e bibliographicTerms preservados.
+Popups BDAG adicionados: nenhum.
+HTML candidato testado com verificador de pilha para tags de
+linhas (240 tags) e cartões (2284 tags), sem erro de fechamento;
+lemas gregos dos cartões em Unicode NFC. 118 links NT com
+formato NA28 válido; nenhum formato inválido e zero novas
+ocorrências de beta.perseus.tufts.edu. Destinos remotos NÃO
+verificados individualmente, testes DOM/navegador NÃO executados.
+Regressão global BDAG: inventário de 128 módulos precedentes
+reconciliado por SHA com a árvore do HEAD, sem divergências;
+módulo part-0129 relido integralmente, 129 módulos BDAG
+preexistentes, 2804 pares existentes. Com o candidato:
+2824 search-row, 2824 entry-card, 2824 IDs distintos,
+zero data-target duplicado, zero IDs duplicados e zero pares
+órfãos. BibliographicTerms, scripts, outros léxicos e arquivos
+de infraestrutura não alterados. Preservar exatamente estes
+três caminhos no commit do lote: lexicons/bdag-part-0130.js,
+lexicon-modules.json e regras/Rbdag.txt.
+
+Progresso condicionado à publicação e conferência remota:
+2804 → 2824 de 8287 verbetes (34,08%); restantes 5463.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar
+total_auditoria_concluida. O lote publicado não equivale a
+auditoria atômica por verbete: checklist A–J, testes funcionais
+reais DOM/navegador, confirmação externa de destino de links,
+CI e integração/merge em chat-gpt-commits permanecem pendentes.
+Publicar apenas um commit diretamente em chat-gpt-bdag
+com parent_sha = HEAD real, expected_sha exato, force=false.
+Revalidar HEAD, árvore, blobs e diff; sem PR/merge nesta rotina.
+================================================================================
+
+================================================================================
+BDAG — LOTE 131 — ἐξουσιάζω → Ἐπαίνετος — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto consultado: fda26d71007e73eddb176ab45d5b7c9a4062d54f.
+Árvore-base: 97650c814e6e30f7fa35b0facf4042c27efdc331.
+Fonte filológica única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos e segmentos nas linhas 33989–34187.
+Não utilizar PDF ou outro léxico como fonte substituta.
+20 artigos canônicos consecutivos, na sequência original:
+01 ἐξουσιάζω
+02 ἐξουσιαστικός, ή, όν
+03 ἐξοχή, ῆς, ἡ
+04 ἔξοχος, ον
+05 ἐξυπνίζω
+06 ἔξυπνος, ον
+07 ἔξω
+08 ἔξωθεν
+09 ἐξωθέω
+10 ἐξώτερος, α, ον
+11 ἔοικα
+12 ἑορτάζω
+13 ἑορτή, ῆς, ἡ
+14 ἐπαγγελία, ας, ἡ
+15 ἐπαγγέλλομαι
+16 ἐπάγγελμα, ατος, τό
+17 ἐπάγω
+18 ἐπαγωνίζομαι
+19 ἐπαθροίζω
+20 Ἐπαίνετος, ου, ὁ
+Próximo verbete, fora do lote: ἐπαινέω.
+
+Tradução editorial para o português brasileiro, artigo a artigo,
+dos 55 segmentos da fonte distribuídos nos 20 verbetes.
+Mantidas acepções numeradas, subdivisões ⓐ/ⓑ e α/β,
+remissões, flexões, alternativas semânticas, variantes de leitura,
+notas, referências bíblicas, testemunhos antigos e bibliografia.
+Especial atenção a ἔξω (três acepções com usos adverbiais e
+preposicionais), ἔξωθεν (cinco acepções); ἑορτή (celebrações,
+diferenciações pascais/tabernáculos e variações textuais);
+ἐπαγγελία (promessa versus objeto prometido; genitivos e
+promessas humanas/divinas) e ἐπαγγέλλομαι (prometer e
+professar competência), sem fundir os artigos; e ἐπαγωνίζομαι,
+com o sentido contextual de empenhar-se pela fé em Jd 3.
+Não declarar colação tipográfica automática exaustiva de todas
+as marcas, nem auditoria filológica atômica concluída.
+
+Módulo preparado: lexicons/bdag-part-0131.js; chave
+window.ScripturaLexicons.BDAG_PART_0131, source BDAG.
+20 search-row e 20 entry-card com data-target/ID 1:1;
+20 novos IDs exclusivos sufixados -bdag, cabeçalhos Unicode NFC,
+fontes BDAG em todos os pares. HTML das linhas: 240 tags
+verificadas; HTML dos cartões: 2396 tags verificadas, zero
+desequilíbrio ou aninhamento incorreto, conforme parser de pilha.
+161 links do NT com formato NA28 válido, nenhum formato inválido,
+zero novas ocorrências de beta.perseus.tufts.edu.
+Destinos reais não visitados; testes DOM/navegador não executados.
+
+Regressão estrutural BDAG: inventário histórico dos 128
+módulos iniciais reconciliado com SHA da árvore remota atual;
+os módulos 0129 e 0130 também relidos e verificados por SHA.
+130 arquivos BDAG preexistentes, 2824 pares de linhas/cartões,
+zero diferença de SHA; com o candidato: 2844 search-row e
+2844 entry-card, 2844 IDs únicos, zero colisão e zero pares
+órfãos. A validação é estática e não comprova CI funcional.
+Manifesto lexicon-modules.json: única inserção part-0131
+imediatamente após part-0130 e antes de lexicons/leh.js.
+Não alterar bibliographicTerms, arquivo-base bdag.js,
+outros léxicos, scripts, infraestrutura ou Rauditoria.
+Somente três caminhos alteráveis neste commit:
+lexicons/bdag-part-0131.js, lexicon-modules.json,
+regras/Rbdag.txt.
+
+Progresso condicionado ao commit remoto efetivo e revalidação:
+2824 → 2844 de 8287 verbetes (34,32%); restantes 5443.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria atômica individual A–J; testes funcionais
+reais DOM/navegador; verificação externa dos links; CI
+comprovado e integração/merge autorizada em chat-gpt-commits.
+Publicar apenas um commit na branch chat-gpt-bdag, com
+parent_sha = HEAD-base remoto exato, expected_sha exato e
+force=false. Revalidar HEAD, árvore, blobs e diff.
+Sem PR, sem merge e sem escrita em main por esta rotina.
+================================================================================
+
+================================================================================
+BDAG — LOTE 132 — ἐπαινέω → ἐπανόρθωσις — 10/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base remoto: 3f165573c3cf12a45b56219fc8781a02da813ce2.
+Árvore-base: 605be56daed6bd165e73f3e0f1bf2edb87dce91b.
+Fonte filológica única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas 34188–34347; último artigo na linha 34344.
+Não usar PDF ou conteúdo de outros léxicos como substituto.
+
+20 artigos canônicos independentes e consecutivos:
+01 ἐπαινέω
+02 ἔπαινος, ου, ὁ
+03 ἐπαίρω
+04 ἐπαισχύνομαι
+05 ἐπαιτέω
+06 ἐπακολουθέω
+07 ἐπακούω
+08 ἐπακροάομαι
+09 ἐπάλληλος, ον
+10 ἐπάν
+11 ἐπάναγκες
+12 ἐπανάγω
+13 ἐπανακάμπτω
+14 ἐπαναμιμνῄσκω
+15 ἐπαναπαύομαι
+16 ἐπανατρέχω
+17 ἐπανέρχομαι
+18 ἐπανήκω
+19 ἐπανίστημι
+20 ἐπανόρθωσις, εως, ἡ
+Próximo artigo reservado, fora do lote: ἐπάνω.
+
+Tradução editorial de 42 unidades contínuas de texto do HTML,
+distribuídas pelos 20 verbetes. Mantidas formas gregas,
+flexões, variantes, sentidos numerados, subacepções, argumentos
+semânticos e sintáticos, referências do NT e de outras fontes,
+documentação dos testemunhos e notas bibliográficas.
+Em especial: ἔπαινος com louvor de origem humana/divina e
+louvor dirigido a Deus; ἐπαίρω com três sentidos;
+ἐπαισχύνομαι com quatro construções; ἐπακολουθέω com
+três acepções; ἐπακούω com duas; ἐπανάγω com duas; e
+ἐπαναπαύομαι com duas. A nota ambígua "not pap" da fonte
+permaneceu identificada como abreviatura original não
+expandida, sem interpretação lexicográfica inventada.
+Tradução e revisão editorial não equivalem à auditoria
+atômica filológica integral A–J.
+
+Módulo: lexicons/bdag-part-0132.js; chave
+window.ScripturaLexicons.BDAG_PART_0132; source BDAG.
+20 search-row e 20 entry-card com data-target/id 1:1;
+IDs exclusivos com sufixo -bdag e lemas em Unicode NFC.
+Todas as 20 linhas e 20 cartões marcados como BDAG.
+Tags verificadas por parser de pilha: 240 nas linhas,
+1660 nos cartões, sem erros de fechamento ou aninhamento.
+65 links NT no padrão estrutural NA28, nenhum inválido;
+zero novas referências ao domínio beta.perseus.tufts.edu.
+Nenhum destino remoto de link é certificado nesta rodada;
+teste funcional DOM/navegador não executado.
+
+Verificação global remota: inventário de 128 módulos
+históricos BDAG confrontado com SHA da árvore-base,
+sem divergências; part-0129, part-0130 e part-0131
+relidos diretamente, com SHA confirmado. Total de
+131 módulos existentes, 2844 search-row e 2844
+entry-card preexistentes. Com o candidato:
+2864 search-row e 2864 entry-card; 2864 IDs distintos,
+zero colisões e zero pares órfãos; nenhuma alteração
+aos arquivos preexistentes.
+Manifesto lexicon-modules.json: inserção única de
+part-0132 após part-0131 e antes de lexicons/leh.js.
+BibliographicTerms, lexicons/bdag.js, scripts, outros
+léxicos e infraestrutura preservados.
+Arquivos alteráveis nesta publicação, exclusivamente:
+lexicons/bdag-part-0132.js, lexicon-modules.json,
+regras/Rbdag.txt.
+
+Progresso condicionado ao commit remoto e revalidação:
+2844 → 2864 de 8287 verbetes (34,56%); faltam 5423.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria A–J individual de cada verbete;
+testes DOM/browser; verificação real dos links;
+CI validada e integração confirmada por integrador
+autorizado na branch chat-gpt-commits.
+Publicar em commit único, com parent_sha exatamente
+igual ao HEAD-base, expected_sha exato e force=false.
+Revalidar HEAD, árvore, blobs e diff após publicação.
+Proibidos PR e merge por este executor, e escrita em main.
+================================================================================
+
+================================================================================
+BDAG — LOTE 133 — ἐπάνω → ἐπεί — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto: 632dafef85f24d1ae9445ecfaf98d44fe88ab0c2.
+Árvore-base: 1fbd6783d9ca9a5db98e67d922d2f47f6c02da29.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon:
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, segmentos iniciados nas linhas 34349–34448,
+intervalo de artigos até antes de 34453 (ἐπείγω).
+Nenhum PDF ou outro léxico utilizado como fonte substituta.
+
+20 artigos consecutivos do HTML:
+01 ἐπάνω
+02 ἐπάνωθεν
+03 ἐπάξας
+04 ἐπαοιδός, οῦ, ὁ
+05 ἐπᾶραι, ἔπαρον, ἐπάρας
+06 ἐπάρατος, ον
+07 ἐπαρκέω
+08 ἐπαρχεία, ας, ἡ
+09 ἐπάρχειος, ον
+10 ἐπαρχικός, ή, όν
+11 ἔπαρχος, ου, ὁ
+12 ἔπαυλις, εως, ἡ
+13 ἐπαύριον
+14 ἐπαφίημι
+15 Ἐπαφρᾶς, ᾶ, ὁ
+16 ἐπαφρίζω
+17 Ἐπαφρόδιτος, ου, ὁ
+18 ἐπέβην
+19 ἐπεγείρω
+20 ἐπεί
+Próximo verbete fora do lote: ἐπείγω.
+
+Tradução editorial integral dos 27 segmentos canônicos,
+distribuídos nos vinte artigos independentes.
+Mantidos os cabeçalhos morfológicos, flexões, variantes
+gráficas ou textuais, remissões independentes, notas,
+citações gregas, referências bíblicas, testemunhos antigos
+e bibliografia. Especialmente: ἐπάνω, três acepções,
+com uso adverbial e preposicional na acepção ①;
+ἐπεί, duas acepções e locuções causais, inferenciais e
+elípticas; ἐπαρχεία/ἐπάρχειος/ἐπαρχικός/ἔπαρχος
+mantidos como artigos distintos; Ἐπαφρᾶς e
+Ἐπαφρόδιτος não fundidos; remissões ἐπάξας,
+ἐπᾶραι/ἔπαρον/ἐπάρας e ἐπέβην mantidas separadas.
+Tradução editorial não é certificação filológica
+atômica individual A–J.
+
+Módulo: lexicons/bdag-part-0133.js, chave
+window.ScripturaLexicons.BDAG_PART_0133, source BDAG;
+20 search-row, 20 entry-card, IDs exclusivos -bdag,
+pareamento data-target/id 1:1, lemas Unicode NFC.
+Todas as linhas e os cartões marcados como BDAG.
+Verificador estrutural de tags HTML: 240 tags de linhas
+e 1152 de cartões; nenhuma tag mal aninhada ou aberta.
+45 links neotestamentários no padrão formal NA28;
+zero URLs novas em formato inválido, nenhuma ocorrência
+do domínio beta.perseus.tufts.edu.
+Não foi verificado individualmente o destino remoto
+dos links; não foram executados testes DOM/navegador.
+
+Regressão global: inventário consolidado de 128 módulos
+históricos conferido por SHA com árvore do HEAD-base;
+part-0129, 0130, 0131 e 0132 relidos por SHA remoto,
+sem divergências. Antes, 132 módulos, 2864 search-row
+e 2864 entry-card. Após inclusão do candidato, 2884
+search-row e 2884 entry-card, 2884 IDs distintos,
+zero duplicatas e zero pares órfãos. Nenhuma alteração
+a módulos precedentes.
+Manifesto lexicon-modules.json: única inserção do
+part-0133 imediatamente após part-0132 e antes
+de lexicons/leh.js; entradas preexistentes intactas.
+Arquivos permitidos nesta publicação, somente:
+lexicons/bdag-part-0133.js, lexicon-modules.json,
+regras/Rbdag.txt. Preservar lexicons/bdag.js,
+bibliographicTerms, regras/Rauditoria.txt, outras
+fontes, scripts e infraestrutura.
+
+Progresso condicionado à publicação e conferência:
+2864 → 2884 de 8287 verbetes (34,80%); restam 5403.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Continuam pendentes: auditoria individual A–J,
+testes funcionais reais DOM/browser, verificação
+externa de destinos de URLs, CI comprovada e
+integração/merge autorizado em chat-gpt-commits.
+Publicar um único commit diretamente em chat-gpt-bdag,
+com parent_sha = HEAD real, expected_sha exato
+e force=false. Revalidar HEAD, árvore, blobs e diff.
+Sem PR, sem merge e sem escrita em main nesta rotina.
+================================================================================
+
+================================================================================
+BDAG — LOTE 134 — ἐπείγω → ἐπένειμα — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto: 3a9181bf85c967d711aaf9fc090c6bd69a2eb090.
+Árvore-base: fa80f33f3c1053b436416b021df1d38b2532d316.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon:
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, segmentos nas linhas 34453–34551,
+intervalo até antes da linha 34555 (ἐπεξεργάζομαι).
+Não houve utilização de PDF nem de outro léxico como fonte.
+
+20 artigos consecutivos do HTML:
+01 ἐπείγω
+02 ἐπειδή
+03 ἐπειδήπερ
+04 ἐπεῖδον
+05 ἔπειμι
+06 ἐπείπερ
+07 ἐπεισαγωγή, ῆς, ἡ
+08 ἐπεισέρχομαι
+09 ἔπειτα
+10 ἐπέκεινα
+11 ἐπεκλήθην
+12 ἐπεκτείνομαι
+13 ἐπελαβόμην
+14 ἐπελαθόμην
+15 ἐπελεύσομαι
+16 ἐπέλθοι
+17 ἐπενδύομαι
+18 ἐπενδύτης, ου, ὁ
+19 ἐπενεγκεῖν
+20 ἐπένειμα
+Próximo artigo fora do lote: ἐπεξεργάζομαι.
+
+Tradução editorial ao português brasileiro dos 26 segmentos
+consecutivos presentes no HTML canônico para os 20 artigos.
+Verificação mecânica comparativa dos tokens gregos completos:
+26 segmentos, nenhuma omissão de token grego original com
+comprimento igual ou superior a 2 caracteres, após normalização
+Unicode NFC. Mantidos os lemas, variantes, formas verbais,
+remissões, sentidos, subacepções, citações gregas,
+referências bíblicas e bibliografia da fonte.
+ἐπειδή: dois sentidos; ἐπειδήπερ e ἐπείπερ:
+conjunções preservadas como artigos distintos;
+ἔπειτα: sequência temporal e enumeração, com ⓐ/ⓑ;
+ἐπεῖδον: flexão do verbo ἐφοράω;
+ἔπειμι: descrição do particípio e usos temporais;
+ἐπενδύομαι e ἐπενδύτης permanecem distintos;
+remissões flexionais individuais preservadas.
+A conferência mecânica do grego e a revisão editorial
+não certificam colação automática exaustiva de todas
+as referências, nem auditoria individual integral A–J.
+
+Módulo: lexicons/bdag-part-0134.js, chave
+window.ScripturaLexicons.BDAG_PART_0134, fonte BDAG.
+20 search-row e 20 entry-card, correspondência
+data-target/id 1:1, 20 IDs exclusivos -bdag, lemas
+em Unicode NFC e metadados BDAG em todas as linhas
+e cartões. Verificação estática de HTML: 240 tags
+nas linhas e 944 nos cartões; zero aninhamento
+incorreto e zero tags abertas. 35 links do NT em
+formato NA28 estruturalmente válido, zero formatos
+inválidos. Destinos remotos de links não verificados;
+não foram executados testes funcionais DOM/browser.
+
+Regressão global: inventário dos 128 módulos BDAG
+históricos comparado por SHA com a árvore do HEAD-base;
+part-0129 a part-0133 relidos e confrontados por SHA.
+133 módulos anteriores, 2884 search-row e 2884
+entry-card; após inclusão do candidato, 2904 search-row
+e 2904 entry-card, 2904 IDs distintos, zero colisões
+e zero pares órfãos. Arquivos preexistentes intactos.
+Manifesto lexicon-modules.json: inserção única
+de part-0134 logo após part-0133 e antes de
+lexicons/leh.js. Preservar bdag.js, bibliographicTerms,
+Rauditoria.txt, outras fontes, scripts e infraestrutura.
+Arquivos autorizados no commit, exclusivamente:
+lexicons/bdag-part-0134.js, lexicon-modules.json
+e regras/Rbdag.txt.
+
+Progresso condicionado à publicação e conferência:
+2884 → 2904 de 8287 verbetes (35,04%); restam 5383.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria A–J atômica individual, testes
+funcionais reais DOM/browser, verificação de destinos
+das URLs, CI comprovada e integração/merge autorizado
+em chat-gpt-commits.
+Publicar somente um commit em chat-gpt-bdag,
+com parent_sha do HEAD-base, expected_sha exato
+e force=false. Revalidar HEAD, árvore, blobs e diff.
+Sem PR, sem merge e sem escrita em main neste processo.
+================================================================================
+
+================================================================================
+BDAG — LOTE 135 — ἐπεξεργάζομαι → ἔπηξα — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: 5c2f53c70b68cd1567e0af8f27e84214a64e2caa.
+Árvore-base: c284170fb897760b3e15d0b1d0858900e26d9239.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon:
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas 34555–34699, 39 segmentos textuais.
+Não utilizados PDFs nem fontes externas substitutivas.
+
+20 verbetes/artigos consecutivos:
+01 ἐπεξεργάζομαι
+02 ἐπεποίθειν
+03 ἐπέρχομαι
+04 ἐπερωτάω
+05 ἐπερώτημα, ατος, τό
+06 ἔπεσα, ἔπεσον
+07 ἐπέστειλα
+08 ἐπέστην
+09 ἐπεστράφην
+10 ἐπετίθεσαν
+11 ἐπετράπην
+12 ἐπέτυχον
+13 ἐπεφάνην
+14 ἐπέχω
+15 ἐπηγγειλάμην, ἐπήγγελμαι
+16 ἐπήγειρα
+17 ἐπῆλθον
+18 ἐπήλυτος, ον
+19 ἐπῄνεσα
+20 ἔπηξα
+Próximo artigo, excluído do lote: ἐπῆρα (linha 34700).
+
+Tradução editorial de 39 unidades canônicas em 20 entradas.
+Conferência automatizada dos tokens gregos com duas ou mais
+unidades Unicode normalizadas NFC no original e na tradução:
+39 segmentos confrontados; zero tokens gregos omitidos.
+Preservados lemas, flexões, variantes, acepções, remissões,
+citações gregas, exemplos de construções, testemunhos e
+bibliografia. ἐπέρχομαι: três acepções, subdivisões
+ⓐ/ⓑ e α/β; ἐπερωτάω: questionamento, consulta judicial
+e religiosa, pedido; ἐπερώτημα: pergunta, solicitação e
+as interpretações alternativas de 1Pe 3:21 com bibliografia,
+sem falsear consenso; ἐπέχω: três acepções.
+Remissões autônomas preservadas como entradas individuais.
+Conferência dos tokens gregos e revisão editorial não
+equivalem a auditoria filológica individual e atômica A–J,
+nem a comparação automática integral de todas as
+abreviaturas, referências e dados bibliográficos.
+
+Módulo: lexicons/bdag-part-0135.js, chave
+window.ScripturaLexicons.BDAG_PART_0135; source BDAG.
+20 search-row e 20 entry-card, data-target/id 1:1;
+20 IDs exclusivos sufixados -bdag; lemas Unicode NFC.
+Verificador de tags de pilha: 240 tags nas linhas,
+1138 tags nos cartões; nenhuma tag desbalanceada.
+43 links NT com formato sintático NA28 válido;
+nenhum URL novo em formato inválido.
+Destinos remotos não foram visitados/testados e
+navegação DOM/browser não foi executada.
+
+Regressão global dos 134 módulos anteriores:
+inventário dos 128 módulos históricos confrontado
+por SHA com árvore-base, módulos 0129–0134
+relidos e confirmados por SHA, zero divergência.
+Antes: 2904 linhas e 2904 cartões.
+Depois: 2924 linhas e 2924 cartões, 2924 IDs
+distintos, zero duplicatas e zero pares órfãos.
+Nenhuma modificação aos módulos anteriores.
+Manifesto lexicon-modules.json: inserção única
+de part-0135 após part-0134 e antes de lexicons/leh.js.
+Escopo de commit, apenas três caminhos:
+lexicons/bdag-part-0135.js, lexicon-modules.json,
+regras/Rbdag.txt. Preservados bdag.js, outros
+léxicos, bibliographicTerms, Rauditoria.txt e
+infraestrutura.
+
+Progresso sujeito à publicação efetiva:
+2904 → 2924 de 8287 verbetes (35,28%);
+restam 5363.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDÊNCIAS: auditoria A–J individual, testes DOM,
+verificação dos alvos de links, CI comprovada,
+integração autorizada e confirmada em chat-gpt-commits.
+Publicação em um único commit com parent_sha e
+expected_sha iguais ao HEAD-base e force=false.
+Revalidar HEAD remoto, árvore, blobs e diff após escrita.
+Proibido PR, merge e escrita em main nesta rotina.
+================================================================================
