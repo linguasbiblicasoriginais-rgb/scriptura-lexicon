@@ -5867,3 +5867,82 @@ base e force=false. Revalidar HEAD, árvore, blobs,
 manifesto, diff e proteção dos arquivos anteriores.
 Não inserir SHA futuro autorreferencial neste registro.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 124 — ἐνπ- → ἔντρομος — 09/11/2026
+================================================================================
+Branch autorizada: chat-gpt-bdag.
+HEAD-base remoto consultado: cbe3462fb238703fb04f6fc8ff1644a731c2ba4b.
+Fonte filológica exclusiva: HTML canônico da Biblioteca do projeto,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas indexadas 32902–33079. Nenhum PDF ou outro
+léxico foi usado como substituto de texto-fonte.
+20 verbetes consecutivos, pela ordem de seus cabeçalhos:
+01 ἐνπ-
+02 ἐνσκιρόω
+03 ἐνστερνίζομαι
+04 ἔνταλμα, ατος, τό
+05 ἐντάσσω
+06 ἐνταῦθα
+07 ἐνταφιάζω
+08 ἐνταφιασμός, οῦ, ὁ
+09 ἐντέλλω
+10 ἔντερον, ου, τό
+11 ἐντεῦθεν
+12 ἔντευξις, εως, ἡ
+13 ἐντίθημι
+14 ἔντιμος, ον
+15 ἐντολή, ῆς, ἡ
+16 ἐντόπιος, ία, ιον
+17 ἐντός
+18 ἐντρέπω
+19 ἐντρέφω
+20 ἔντρομος, ον
+Próximo lema da fonte, ainda fora do lote: ἐντροπή, ῆς, ἡ.
+
+Colação editorial do HTML: lemas e sequência conferidos; tradução
+das formas, acepções, variantes, graus de certeza, grego e
+bibliografia preparada com o conteúdo dos 20 artigos.
+Especial atenção a ἔντευξις (petição/oração/intercessão);
+ἐντολή (mandado/mandamento e sua hierarquia de sentidos);
+ἐντός (interpretações de Lc 17:21 e debate bibliográfico);
+ἐντρέπω (envergonhar e demonstrar deferência).
+A remissão ἐνπ- foi mantida como verbete autônomo.
+Foram corrigidas na preparação duas leituras editoriais
+pontuais de ἔντερον e ἐντόπιος para aderência à fonte.
+Não se reivindica colação automática exaustiva de cada
+marca tipográfica, nem auditoria atômica A–J concluída.
+
+Novo módulo lexicons/bdag-part-0124.js, registrado imediatamente
+após bdag-part-0123.js e antes de lexicons/leh.js no manifesto.
+Módulo BDAG_PART_0124: 20 search-row e 20 entry-card, 20
+IDs distintos e data-target alinhados 1:1, HTML com tags
+corretamente aninhadas, conteúdo JSON/JavaScript estruturado
+validado, 93 referências do NT com URLs estruturalmente
+conformes ao padrão NA28 do projeto. Destinos e navegação
+em navegador real NÃO TESTADOS.
+Todos os 123 módulos BDAG pré-existentes foram lidos e
+comparados quanto a seus IDs e alinhamento, totalizando
+2684 linhas, 2684 cartões e 2684 IDs distintos.
+Com o candidato: 2704 linhas, 2704 cartões e 2704 IDs
+distintos; duplicatas, linhas órfãs e cartões órfãos: zero.
+Os 20 IDs candidatos também não ocorrem nos arquivos-base
+index.html, script.js, lexicons/leh.js, lexicons/dgp.js e
+lexicons/pereira.js. Esta verificação não abrange cada
+arquivo de todas as demais fontes auxiliares.
+A árvore-base de 8968 entradas deve ser preservada, exceto
+pelos três arquivos deste commit; módulos anteriores e
+bibliographicTerms ficam intocados.
+Progresso condicionado à publicação e verificação remota:
+2684 → 2704 de 8287 (32,63%); restantes 5583.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida; pendentes
+auditoria atômica individual, testes funcionais de browser,
+validação externa de links, CI comprovado e integração por
+rotina autorizada em chat-gpt-commits.
+Publicar exclusivamente por commit único, parent_sha igual
+ao HEAD remoto exato, e update_ref com expected_sha exato
+e force=false; revalidar HEAD, árvore, blobs e diff.
+================================================================================
