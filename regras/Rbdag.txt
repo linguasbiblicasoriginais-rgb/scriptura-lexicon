@@ -6910,3 +6910,84 @@ expected_sha iguais ao HEAD-base e force=false.
 Revalidar HEAD remoto, árvore, blobs e diff após escrita.
 Proibido PR, merge e escrita em main nesta rotina.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 136 — ἐπῆρα → ἐπιγραφή — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: f7f5e54f3a8e413e92f19ace8fc50b81de348ebd.
+Árvore-base: ee6f1789bbdcaee0038452a53f598ba917a53f19.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian
+Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas 34700–35032 (a numeração final é delimitada pelo
+cabeçalho seguinte ἐπιγράφω). Não se utilizaram PDFs como substitutos.
+
+20 artigos consecutivos:
+01 ἐπῆρα
+02 ἐπηρεάζω
+03 ἐπήρεια, ας, ἡ
+04 ἐπήρθην
+05 ἐπί
+06 ἐπιβαίνω
+07 ἐπιβάλλω
+08 ἐπιβαρέω
+09 ἐπιβιβάζω
+10 ἐπιβλέπω
+11 ἐπίβλημα, ατος, τό
+12 ἐπιβοάω
+13 ἐπιβουλή, ῆς, ἡ
+14 ἐπιγαμβρεύω
+15 ἐπίγειος, ον
+16 ἐπιγελάω
+17 ἐπιγίνομαι
+18 ἐπιγινώσκω
+19 ἐπίγνωσις, εως, ἡ
+20 ἐπιγραφή, ῆς, ἡ
+Próximo artigo, excluído do lote: ἐπιγράφω.
+
+Tradução editorial portuguesa da sequência canônica. O extenso artigo
+ἐπί conserva 18 acepções principais, suas subdivisões e os casos
+genitivo, dativo e acusativo. Conservam-se remissões flexionais
+independentes, alternativas e incertezas lexicográficas, citações
+gregas, referências bíblicas e bibliografia na camada de tradução.
+A fonte foi lida por faixas do HTML e cotejada editorialmente; isto
+não equivale a certificado de auditoria atômica A–J. A verificação
+automática exaustiva de todas as referências da fonte, uma a uma,
+não foi certificada, e não deve ser assim declarada.
+
+Módulo: lexicons/bdag-part-0136.js;
+chave window.ScripturaLexicons.BDAG_PART_0136;
+source BDAG, 20 linhas de pesquisa, 20 cartões, ID/data-target
+pareados na ordem, 20 IDs inéditos sufixados por -bdag.
+Estrutura HTML equilibrada, JavaScript sintaticamente compilável;
+565 links NT com formato sintático NA28 válido, sem URL inválida,
+sem referência ao domínio beta.perseus.tufts.edu.
+Os destinos não foram visitados; testes DOM, navegador e CI não
+foram executados nesta rodada. Nenhum popup bibliográfico novo.
+O arquivo base lexicons/bdag.js e bibliographicTerms são preservados.
+
+Regressão global na árvore-base: 135 módulos BDAG (bdag.js,
+part-0002 ... part-0135) relidos, com SHA confrontado contra a
+árvore original; 2924 linhas e 2924 cartões, 2924 IDs únicos,
+zero duplicatas e zero pares órfãos. Candidato acresce 20 pares:
+2944 linhas, 2944 cartões, 2944 IDs globais, zero colisões.
+Manifesto: inclusão única de part-0136 após part-0135 e antes
+de lexicons/leh.js; os demais caminhos permanecem na mesma ordem.
+Únicos caminhos autorizados neste commit:
+lexicons/bdag-part-0136.js, lexicon-modules.json, regras/Rbdag.txt.
+
+Progresso condicionado à publicação e confirmação:
+2924 → 2944 de 8287 verbetes (35,53%); restam 5343.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria A–J individual com evidência integral,
+conferência automática independente e exaustiva de testemunhos,
+teste funcional real DOM/navegador, confirmação de destinos dos
+links, CI e integração/merge autorizado em chat-gpt-commits.
+Publicar em commit único na própria branch com parent_sha
+correspondente ao HEAD-base, expected_sha exato e force=false.
+Revalidar HEAD remoto, árvore, blobs e diff após a publicação.
+Não criar PR, merge, branches auxiliares nem escrever em main.
+================================================================================
