@@ -6108,3 +6108,90 @@ Publicar em um único commit sobre o HEAD exato, expected_sha
 igual ao HEAD-base e force=false; após revalidar HEAD, árvore,
 blobs, diff e integridade. Não inserir SHA futuro autorreferencial.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 127 — ἐξανάστασις → ἐξέβαλον — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto consultado e reconfirmado: 9a5763d39f3e418b95fd9eb03d75a39d8bdef9d5.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos indexados nas linhas 33378–33521. Nenhum PDF nem
+outro léxico utilizado como fonte substituta.
+Os 20 verbetes consecutivos efetivamente incorporados:
+01 ἐξανάστασις, εως, ἡ
+02 ἐξανατέλλω
+03 ἐξανίστημι
+04 ἐξανοίγω
+05 ἐξαπατάω
+06 ἐξάπινα
+07 ἐξαπλόω
+08 ἐξαπορέω
+09 ἐξαποστέλλω
+10 ἐξάπτω
+11 ἐξάρατε, ἐξαρθῇ
+12 ἐξαριθμέω
+13 ἐξαρπάζω
+14 ἐξαρτάω
+15 ἐξαρτίζω
+16 ἐξασθενέω
+17 ἐξαστράπτω
+18 ἐξαυτῆς
+19 ἐξαφίημι
+20 ἐξέβαλον
+Próximo verbete reservado, fora do lote: ἐξέβην.
+
+Colação editorial: lemas e sequência conferidos diretamente com
+a fonte. Todos os 20 artigos traduzidos, sem omitir artigos
+remissivos; mantidas as formas flexionadas, distinções semânticas,
+subdivisões ① ② ③ e ⓐ ⓑ, leitura variante (v.l.),
+testemunhos antigos, interpretações qualificadas, notas e
+bibliografia tal como atribuídas na fonte. Cautela com:
+ἐξανάστασις (significado contextual em Fl 3:11);
+ἐξανίστημι (descendência vs. erguer-se);
+ἐξαπατάω (regências e uso reflexivo);
+ἐξαποστέλλω (três acepções e subdivisões, fontes
+neotestamentárias, patrísticas e papirológicas);
+ἐξαυτῆς (variante ἐξ αὐτῶν);
+ἐξέβαλον e ἐξάρατε (remissões autônomas).
+Revisão editorial e estrutural, sem reivindicar colação
+tipográfica ou crítica automática exaustiva de cada marca.
+
+Novo arquivo: lexicons/bdag-part-0127.js, chave
+window.ScripturaLexicons.BDAG_PART_0127, source: BDAG,
+20 search-row e 20 entry-card, data-target/ID alinhados,
+20 IDs novos, nenhum repetido no BDAG; HTML equilibrado
+e bem aninhado, representação JavaScript/JSON válida.
+40 hiperligações do NT estruturalmente conformes ao padrão
+NA28 do projeto. Alvos não acessados em navegador real.
+Regressão: 126 arquivos BDAG preexistentes lidos
+(lexicons/bdag.js e 125 módulos 0002–0126):
+2744 search-row, 2744 entry-card, 2744 IDs distintos,
+zero pares órfãos e zero duplicatas. Após o candidato:
+2764 linhas e cartões, 2764 IDs distintos; colisões,
+órfãos e duplicatas: zero. Verificados adicionalmente
+index.html, script.js, lexicons/leh.js, lexicons/dgp.js
+e lexicons/pereira.js quanto aos 20 novos IDs, sem colisão.
+Não alegar cobertura estática de todos os demais léxicos.
+Manifesto: inserir part-0127 imediatamente após part-0126,
+antes de lexicons/leh.js. Preservar módulos preexistentes,
+bibliographicTerms, regras/Rauditoria.txt e infraestrutura.
+A árvore-base remota contém 8971 entradas; apenas 3
+arquivos desta publicação podem mudar:
+lexicons/bdag-part-0127.js, lexicon-modules.json e regras/Rbdag.txt.
+
+Contagem editorial, condicionada a commit remoto validado:
+2744 → 2764 de 8287 (33,35%); restantes 5523.
+AUDITORIA_CONCLUIDA = NÃO.
+total_auditoria_concluida permanece inalterado;
+auditagem individual A–J, testes funcionais DOM/browser,
+verificação real de links, CI e integração/merge em
+chat-gpt-commits pendentes. Não confundir colação editorial
+de incorporação com auditoria atômica concluída.
+Publicar diretamente por um único commit em chat-gpt-bdag,
+usando parent_sha = HEAD-base exato, expected_sha exato
+e force=false. Após publicação, consultar de novo HEAD,
+árvore, blobs, diff e manifesto, sem PR/merge por esta rotina.
+================================================================================
