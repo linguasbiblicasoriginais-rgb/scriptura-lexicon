@@ -7,7 +7,8 @@
   const LIMIT = 16;
   const metadata = ["ScripturaScriptureTexts", "ScripturaScriptureParagraphBreaks",
     "ScripturaScriptureParashahTypes", "ScripturaScriptureInlineParashahTypes",
-    "ScripturaScriptureEditorialSeparators", "ScripturaScriptureHeadings"];
+    "ScripturaScriptureEditorialSeparators", "ScripturaScriptureHeadings",
+    "ScripturaScriptureUnnumberedPassages"];
   function key(edition, bookId, chapter) { return edition+"/"+bookId+"/"+chapter; }
   function location(edition, bookId, chapter) {
     const record = Object.hasOwn(manifest,edition) && manifest[edition][bookId];

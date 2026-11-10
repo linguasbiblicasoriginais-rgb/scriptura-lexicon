@@ -1,0 +1,77 @@
+/* UBS5 — Romanos 9. Texto grego fornecido pelo usuário em 09/11/2026.
+ * Referência UBS5 conforme o projeto; sem cotejo independente com a edição impressa.
+ * Texto grego, títulos traduzidos e divisões editoriais conservados em campos distintos.
+ */
+(function () {
+    "use strict";
+    const verses = {
+    "1": "Ἀλήθειαν λέγω ἐν Χριστῷ, οὐ ψεύδομαι, συμμαρτυρούσης μοι τῆς συνειδήσεώς μου ἐν πνεύματι ἁγίῳ,",
+    "2": "ὅτι λύπη μοί ἐστιν μεγάλη καὶ ἀδιάλειπτος ὀδύνη τῇ καρδίᾳ μου.",
+    "3": "ηὐχόμην γὰρ ἀνάθεμα εἶναι αὐτὸς ἐγὼ ἀπὸ τοῦ Χριστοῦ ὑπὲρ τῶν ἀδελφῶν μου τῶν συγγενῶν μου κατὰ σάρκα,",
+    "4": "οἵτινές εἰσιν Ἰσραηλῖται, ὧν ἡ υἱοθεσία καὶ ἡ δόξα καὶ αἱ διαθῆκαι καὶ ἡ νομοθεσία καὶ ἡ λατρεία καὶ αἱ ἐπαγγελίαι,",
+    "5": "ὧν οἱ πατέρες καὶ ἐξ ὧν ὁ Χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας, ἀμήν.",
+    "6": "Οὐχ οἷον δὲ ὅτι ἐκπέπτωκεν ὁ λόγος τοῦ θεοῦ. οὐ γὰρ πάντες οἱ ἐξ Ἰσραὴλ οὗτοι Ἰσραήλ·",
+    "7": "οὐδ᾽ ὅτι εἰσὶν σπέρμα Ἀβραὰμ πάντες τέκνα, ἀλλ᾽, Ἐν Ἰσαὰκ κληθήσεταί σοι σπέρμα.",
+    "8": "τοῦτ᾽ ἔστιν, οὐ τὰ τέκνα τῆς σαρκὸς ταῦτα τέκνα τοῦ θεοῦ ἀλλὰ τὰ τέκνα τῆς ἐπαγγελίας λογίζεται εἰς σπέρμα.",
+    "9": "ἐπαγγελίας γὰρ ὁ λόγος οὗτος, Κατὰ τὸν καιρὸν τοῦτον ἐλεύσομαι καὶ ἔσται τῇ Σάρρᾳ υἱός.",
+    "10": "οὐ μόνον δέ, ἀλλὰ καὶ Ῥεβέκκα ἐξ ἑνὸς κοίτην ἔχουσα, Ἰσαὰκ τοῦ πατρὸς ἡμῶν·",
+    "11": "μήπω γὰρ γεννηθέντων μηδὲ πραξάντων τι ἀγαθὸν ἢ φαῦλον, ἵνα ἡ κατ᾽ ἐκλογὴν πρόθεσις τοῦ θεοῦ μένῃ,",
+    "12": "οὐκ ἐξ ἔργων ἀλλ᾽ ἐκ τοῦ καλοῦντος, ἐρρέθη αὐτῇ ὅτι Ὁ μείζων δουλεύσει τῷ ἐλάσσονι,",
+    "13": "καθὼς γέγραπται,\nΤὸν Ἰακὼβ ἠγάπησα,\nτὸν δὲ Ἠσαῦ ἐμίσησα.",
+    "14": "Τί οὖν ἐροῦμεν; μὴ ἀδικία παρὰ τῷ θεῷ; μὴ γένοιτο.",
+    "15": "τῷ Μωϋσεῖ γὰρ λέγει,\nἘλεήσω ὃν ἂν ἐλεῶ\nκαὶ οἰκτιρήσω ὃν ἂν οἰκτίρω.",
+    "16": "ἄρα οὖν οὐ τοῦ θέλοντος οὐδὲ τοῦ τρέχοντος ἀλλὰ τοῦ ἐλεῶντος θεοῦ.",
+    "17": "λέγει γὰρ ἡ γραφὴ τῷ Φαραὼ ὅτι Εἰς αὐτὸ τοῦτο ἐξήγειρά σε ὅπως ἐνδείξωμαι ἐν σοὶ τὴν δύναμίν μου καὶ ὅπως διαγγελῇ τὸ ὄνομά μου ἐν πάσῃ τῇ γῇ.",
+    "18": "ἄρα οὖν ὃν θέλει ἐλεεῖ, ὃν δὲ θέλει σκληρύνει.",
+    "19": "Ἐρεῖς μοι οὖν, Τί [οὖν] ἔτι μέμφεται; τῷ γὰρ βουλήματι αὐτοῦ τίς ἀνθέστηκεν;",
+    "20": "ὦ ἄνθρωπε, μενοῦνγε σὺ τίς εἶ ὁ ἀνταποκρινόμενος τῷ θεῷ; μὴ ἐρεῖ τὸ πλάσμα τῷ πλάσαντι, Τί με ἐποίησας οὕτως;",
+    "21": "ἢ οὐκ ἔχει ἐξουσίαν ὁ κεραμεὺς τοῦ πηλοῦ ἐκ τοῦ αὐτοῦ φυράματος ποιῆσαι ὃ μὲν εἰς τιμὴν σκεῦος ὃ δὲ εἰς ἀτιμίαν;",
+    "22": "εἰ δὲ θέλων ὁ θεὸς ἐνδείξασθαι τὴν ὀργὴν καὶ γνωρίσαι τὸ δυνατὸν αὐτοῦ ἤνεγκεν ἐν πολλῇ μακροθυμίᾳ σκεύη ὀργῆς κατηρτισμένα εἰς ἀπώλειαν,",
+    "23": "καὶ ἵνα γνωρίσῃ τὸν πλοῦτον τῆς δόξης αὐτοῦ ἐπὶ σκεύη ἐλέους ἃ προητοίμασεν εἰς δόξαν;",
+    "24": "οὓς καὶ ἐκάλεσεν ἡμᾶς οὐ μόνον ἐξ Ἰουδαίων ἀλλὰ καὶ ἐξ ἐθνῶν,",
+    "25": "ὡς καὶ ἐν τῷ Ὡσηὲ λέγει,\nΚαλέσω τὸν οὐ λαόν μου λαόν μου\nκαὶ τὴν οὐκ ἠγαπημένην ἠγαπημένην·",
+    "26": "καὶ ἔσται ἐν τῷ τόπῳ οὗ ἐρρέθη αὐτοῖς, Οὐ λαός μου ὑμεῖς,\nἐκεῖ κληθήσονται υἱοὶ θεοῦ ζῶντος.",
+    "27": "Ἠσαΐας δὲ κράζει ὑπὲρ τοῦ Ἰσραήλ, Ἐὰν ᾖ ὁ ἀριθμὸς τῶν υἱῶν Ἰσραὴλ ὡς ἡ ἄμμος τῆς θαλάσσης, τὸ ὑπόλειμμα σωθήσεται·",
+    "28": "λόγον γὰρ συντελῶν καὶ συντέμνων ποιήσει κύριος ἐπὶ τῆς γῆς.",
+    "29": "καὶ καθὼς προείρηκεν Ἠσαΐας,\nΕἰ μὴ κύριος Σαβαὼθ ἐγκατέλιπεν ἡμῖν σπέρμα,\nὡς Σόδομα ἂν ἐγενήθημεν\nκαὶ ὡς Γόμορρα ἂν ὡμοιώθημεν.",
+    "30": "Τί οὖν ἐροῦμεν; ὅτι ἔθνη τὰ μὴ διώκοντα δικαιοσύνην κατέλαβεν δικαιοσύνην, δικαιοσύνην δὲ τὴν ἐκ πίστεως,",
+    "31": "Ἰσραὴλ δὲ διώκων νόμον δικαιοσύνης εἰς νόμον οὐκ ἔφθασεν.",
+    "32": "διὰ τί; ὅτι οὐκ ἐκ πίστεως ἀλλ᾽ ὡς ἐξ ἔργων· προσέκοψαν τῷ λίθῳ τοῦ προσκόμματος,",
+    "33": "καθὼς γέγραπται,\nἸδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου,\nκαὶ ὁ πιστεύων ἐπ᾽ αὐτῷ οὐ καταισχυνθήσεται."
+};
+    const paragraphEnds = [5,13,15,18,25,26,29,33];
+    const headings = [
+    {
+        "beforeVerse": 1,
+        "title": "A eleição de Israel por Deus",
+        "sourceTitle": "God’s Election of Israel"
+    },
+    {
+        "beforeVerse": 19,
+        "title": "A ira e a misericórdia de Deus",
+        "sourceTitle": "God’s Wrath and Mercy"
+    },
+    {
+        "beforeVerse": 30,
+        "title": "Israel e o Evangelho",
+        "sourceTitle": "Israel and the Gospel"
+    }
+];
+    const unnumberedPassages = [];
+    window.ScripturaScriptureTexts = window.ScripturaScriptureTexts || {};
+    window.ScripturaScriptureTexts.UBS5 = window.ScripturaScriptureTexts.UBS5 || {};
+    window.ScripturaScriptureTexts.UBS5.ROM = window.ScripturaScriptureTexts.UBS5.ROM || {};
+    window.ScripturaScriptureTexts.UBS5.ROM[9] = verses;
+    window.ScripturaScriptureParagraphBreaks = window.ScripturaScriptureParagraphBreaks || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5 = window.ScripturaScriptureParagraphBreaks.UBS5 || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5.ROM = window.ScripturaScriptureParagraphBreaks.UBS5.ROM || {};
+    window.ScripturaScriptureParagraphBreaks.UBS5.ROM[9] = paragraphEnds;
+    window.ScripturaScriptureHeadings = window.ScripturaScriptureHeadings || {};
+    window.ScripturaScriptureHeadings.UBS5 = window.ScripturaScriptureHeadings.UBS5 || {};
+    window.ScripturaScriptureHeadings.UBS5.ROM = window.ScripturaScriptureHeadings.UBS5.ROM || {};
+    window.ScripturaScriptureHeadings.UBS5.ROM[9] = headings;
+    window.ScripturaScriptureUnnumberedPassages = window.ScripturaScriptureUnnumberedPassages || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5 = window.ScripturaScriptureUnnumberedPassages.UBS5 || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5.ROM = window.ScripturaScriptureUnnumberedPassages.UBS5.ROM || {};
+    window.ScripturaScriptureUnnumberedPassages.UBS5.ROM[9] = unnumberedPassages;
+})();

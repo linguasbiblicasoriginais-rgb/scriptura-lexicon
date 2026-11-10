@@ -521,3 +521,175 @@
  .scripture-reader .scripture-paragraph{font-size:1rem;line-height:1.9}
  .scripture-reader .scripture-paragraph .scripture-verse-line{padding:.1em 0}
 }
+
+
+/* UBS5 — títulos editoriais inequívocos, não confundidos com a Escritura. */
+.scripture-reader .scripture-section-heading--editorial {
+    margin: 1.65rem 0 .8rem;
+    padding: .85rem 1rem 1rem;
+    border: 1px solid var(--border);
+    border-inline-start: 3px solid var(--text-muted);
+    background: var(--surface-2);
+    border-radius: 9px;
+}
+.scripture-section-editorial-label {
+    display: block;
+    color: var(--text-muted);
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    font-size: .67rem;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0 0 .38rem;
+}
+.scripture-reader .scripture-section-heading--editorial h3 {
+    font-family: "Noto Serif", Georgia, serif;
+    font-size: clamp(1.08rem, 1.6vw, 1.29rem);
+    font-weight: 700;
+    line-height: 1.45;
+    color: var(--text-primary);
+    margin: 0 0 .4rem;
+}
+.scripture-reader .scripture-section-heading--editorial .scripture-section-parallel {
+    display: flex;
+    align-items: baseline;
+    gap: .25rem .7rem;
+    flex-wrap: wrap;
+    margin-top: .18rem;
+    color: var(--text-muted);
+    font: .77rem/1.6 system-ui, sans-serif;
+}
+.scripture-section-parallel-label { color: var(--text-muted); }
+.scripture-reader .scripture-crossref-link {
+    display: inline;
+    width: auto;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px dotted currentColor;
+    border-radius: 0;
+    background: transparent;
+    color: var(--text-secondary);
+    font: inherit;
+    font-size: .82rem;
+    font-weight: 500;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+.scripture-reader .scripture-crossref-link:hover,
+.scripture-reader .scripture-crossref-link[aria-expanded="true"] {
+    color: var(--accent-light);
+    border-bottom-style: solid;
+}
+.scripture-reader .scripture-crossref-link:focus-visible,
+.scripture-reader .scripture-crossref-close:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+/* Leitura paralela: exatamente 2/3 à esquerda e 1/3 à direita no desktop.
+   Não altera a fonte nem a seleção principal de livro/capítulo/versículo. */
+.scripture-reading-layout { min-width: 0; }
+.scripture-reading-layout--open {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: clamp(10px, 1.4vw, 18px);
+    align-items: start;
+}
+.scripture-reading-layout > .scripture-reader-result { min-width: 0; }
+.scripture-crossref-panel[hidden] { display: none !important; }
+.scripture-crossref-panel {
+    position: sticky;
+    top: 18px;
+    align-self: start;
+    min-width: 0;
+    max-height: calc(100dvh - 36px);
+    overflow: auto;
+    padding: clamp(12px, 1.6vw, 21px);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    scrollbar-width: thin;
+    overscroll-behavior: contain;
+}
+.scripture-crossref-panel:focus { outline: none; }
+.scripture-crossref-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: .65rem;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid var(--border-soft);
+}
+.scripture-crossref-kicker {
+    display: block;
+    color: var(--text-muted);
+    font: 650 .68rem/1.5 system-ui, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+.scripture-crossref-panel h3 {
+    color: var(--text-primary);
+    font: 700 1.12rem/1.35 "Noto Serif", Georgia, serif;
+    margin: .25rem 0 0;
+}
+.scripture-reader .scripture-crossref-close {
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    font: 1.4rem/1 system-ui, sans-serif;
+    cursor: pointer;
+}
+.scripture-reader .scripture-crossref-close:hover {
+    color: var(--text-primary);
+    border-color: var(--accent);
+}
+.scripture-crossref-edition {
+    margin: .6rem 0 .8rem;
+    color: var(--text-muted);
+    font: .71rem/1.5 system-ui, sans-serif;
+}
+.scripture-crossref-chapter {
+    margin: 1rem 0 .5rem;
+    font: 700 .87rem/1.4 system-ui, sans-serif;
+    color: var(--text-secondary);
+}
+.scripture-crossref-verse {
+    margin: 0 0 .9rem;
+    padding: 0;
+    color: var(--text-primary);
+    font: .96rem/1.85 "Noto Serif", Georgia, serif;
+    overflow-wrap: anywhere;
+    text-align: left;
+}
+.scripture-crossref-verse bdi[lang="grc"] {
+    white-space: pre-line;
+    unicode-bidi: isolate;
+}
+.scripture-crossref-number {
+    margin-inline-end: .35em;
+    color: var(--accent);
+    font: 600 .76em/1.5 system-ui, sans-serif;
+}
+.scripture-crossref-message {
+    color: var(--text-secondary);
+    font: .85rem/1.65 system-ui, sans-serif;
+    margin: .55rem 0;
+}
+@media (max-width: 850px) {
+    .scripture-reading-layout--open { grid-template-columns: minmax(0, 1fr); }
+    .scripture-crossref-panel {
+        position: static;
+        max-height: min(65dvh, 540px);
+    }
+}
