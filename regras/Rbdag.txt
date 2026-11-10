@@ -6721,3 +6721,99 @@ com parent_sha = HEAD real, expected_sha exato
 e force=false. Revalidar HEAD, árvore, blobs e diff.
 Sem PR, sem merge e sem escrita em main nesta rotina.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 134 — ἐπείγω → ἐπένειμα — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto: 3a9181bf85c967d711aaf9fc090c6bd69a2eb090.
+Árvore-base: fa80f33f3c1053b436416b021df1d38b2532d316.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon:
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, segmentos nas linhas 34453–34551,
+intervalo até antes da linha 34555 (ἐπεξεργάζομαι).
+Não houve utilização de PDF nem de outro léxico como fonte.
+
+20 artigos consecutivos do HTML:
+01 ἐπείγω
+02 ἐπειδή
+03 ἐπειδήπερ
+04 ἐπεῖδον
+05 ἔπειμι
+06 ἐπείπερ
+07 ἐπεισαγωγή, ῆς, ἡ
+08 ἐπεισέρχομαι
+09 ἔπειτα
+10 ἐπέκεινα
+11 ἐπεκλήθην
+12 ἐπεκτείνομαι
+13 ἐπελαβόμην
+14 ἐπελαθόμην
+15 ἐπελεύσομαι
+16 ἐπέλθοι
+17 ἐπενδύομαι
+18 ἐπενδύτης, ου, ὁ
+19 ἐπενεγκεῖν
+20 ἐπένειμα
+Próximo artigo fora do lote: ἐπεξεργάζομαι.
+
+Tradução editorial ao português brasileiro dos 26 segmentos
+consecutivos presentes no HTML canônico para os 20 artigos.
+Verificação mecânica comparativa dos tokens gregos completos:
+26 segmentos, nenhuma omissão de token grego original com
+comprimento igual ou superior a 2 caracteres, após normalização
+Unicode NFC. Mantidos os lemas, variantes, formas verbais,
+remissões, sentidos, subacepções, citações gregas,
+referências bíblicas e bibliografia da fonte.
+ἐπειδή: dois sentidos; ἐπειδήπερ e ἐπείπερ:
+conjunções preservadas como artigos distintos;
+ἔπειτα: sequência temporal e enumeração, com ⓐ/ⓑ;
+ἐπεῖδον: flexão do verbo ἐφοράω;
+ἔπειμι: descrição do particípio e usos temporais;
+ἐπενδύομαι e ἐπενδύτης permanecem distintos;
+remissões flexionais individuais preservadas.
+A conferência mecânica do grego e a revisão editorial
+não certificam colação automática exaustiva de todas
+as referências, nem auditoria individual integral A–J.
+
+Módulo: lexicons/bdag-part-0134.js, chave
+window.ScripturaLexicons.BDAG_PART_0134, fonte BDAG.
+20 search-row e 20 entry-card, correspondência
+data-target/id 1:1, 20 IDs exclusivos -bdag, lemas
+em Unicode NFC e metadados BDAG em todas as linhas
+e cartões. Verificação estática de HTML: 240 tags
+nas linhas e 944 nos cartões; zero aninhamento
+incorreto e zero tags abertas. 35 links do NT em
+formato NA28 estruturalmente válido, zero formatos
+inválidos. Destinos remotos de links não verificados;
+não foram executados testes funcionais DOM/browser.
+
+Regressão global: inventário dos 128 módulos BDAG
+históricos comparado por SHA com a árvore do HEAD-base;
+part-0129 a part-0133 relidos e confrontados por SHA.
+133 módulos anteriores, 2884 search-row e 2884
+entry-card; após inclusão do candidato, 2904 search-row
+e 2904 entry-card, 2904 IDs distintos, zero colisões
+e zero pares órfãos. Arquivos preexistentes intactos.
+Manifesto lexicon-modules.json: inserção única
+de part-0134 logo após part-0133 e antes de
+lexicons/leh.js. Preservar bdag.js, bibliographicTerms,
+Rauditoria.txt, outras fontes, scripts e infraestrutura.
+Arquivos autorizados no commit, exclusivamente:
+lexicons/bdag-part-0134.js, lexicon-modules.json
+e regras/Rbdag.txt.
+
+Progresso condicionado à publicação e conferência:
+2884 → 2904 de 8287 verbetes (35,04%); restam 5383.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria A–J atômica individual, testes
+funcionais reais DOM/browser, verificação de destinos
+das URLs, CI comprovada e integração/merge autorizado
+em chat-gpt-commits.
+Publicar somente um commit em chat-gpt-bdag,
+com parent_sha do HEAD-base, expected_sha exato
+e force=false. Revalidar HEAD, árvore, blobs e diff.
+Sem PR, sem merge e sem escrita em main neste processo.
+================================================================================
