@@ -5783,3 +5783,87 @@ update_ref expected_sha igual ao HEAD e force=false.
 Revalidar HEAD, árvore, manifesto, blobs e diff e
 comprovar ausência de alterações em módulos anteriores.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 123 — ἐνισχύω → ἑνόω — 09/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD-base remoto conferido:
+35ae46e16890a6eb00e166e96d416c1334156667.
+Fonte exclusivamente canônica: documento HTML BDAG em Biblioteca,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas indexadas 32775–32919. A delimitação dos
+20 cabeçalhos começa em ἐνισχύω e termina em ἑνόω;
+o próximo artigo fora deste lote é ἐνπ-.
+Nenhum PDF nem outro léxico foi usado para completar leituras.
+
+Artigos incorporados, em ordem estrita:
+01 ἐνισχύω; 02 ἐνκ-; 03 ἐννέα; 04 ἐννεός;
+05 ἐννεύω; 06 ἐννοέω; 07 ἔννοια, ας, ἡ;
+08 ἔννομος, ον; 09 ἐννόμως; 10 ἔννυχος, ον;
+11 ἐνοικέω; 12 ἐνοξίζω; 13 ἔνοπλος, ον;
+14 ἐνοπτρίζομαι; 15 ἐνοράω; 16 ἐνορκίζω;
+17 ἑνότης, ητος, ἡ; 18 ἐνοχλέω;
+19 ἔνοχος, ον; 20 ἑνόω.
+Os verbetes remissivos ἐνκ- e ἐννεός foram mantidos
+como artigos autônomos. ἔνοχος conserva duas acepções,
+incluindo subdivisões ⓐ, ⓑ (α, β, γ) e ⓒ; ἔννομος
+conserva as interpretações alternativas e a discussão
+da jurisdição mosaica/cristológica, sem impor conclusão.
+Preservados argumentos de tradução, referências
+bíblicas e patrísticas, variantes críticas, flexões,
+regências, comentários, fontes gregas e bibliografia.
+
+Colação do HTML: 20/20 lemas e ordem confirmados;
+115 segmentos gregos destacados conferidos, com
+reparação de uma sequência abreviada em ἔνοχος.
+62 referências bíblicas/patrísticas explícitas extraídas
+mecanicamente da fonte cotejadas com a tradução, sem
+ausências após revisão; isso é checagem parcial de
+referências explicitamente nomeadas, não exame de todos
+os possíveis remissivos abreviados e variantes.
+A sigla 1 Kgm 30:13 do texto da fonte foi preservada.
+A remissão interna Ef 4:13 em ἑνότης foi expandida
+a partir do contexto 'v. 13' sem inferência de novo verso.
+
+Novo módulo: lexicons/bdag-part-0123.js;
+chave window.ScripturaLexicons.BDAG_PART_0123;
+20 search-row e 20 entry-card, alinhados 1:1,
+IDs e data-target únicos, HTML estruturalmente
+balanceado, JavaScript sintaticamente válido.
+33 links bíblicos com URL no padrão NA28 do
+projeto; não há prova de teste da URL no navegador.
+Nenhum popup bibliográfico novo; bibliographicTerms
+preservado sem modificação.
+Manifesto: inserir somente lexicons/bdag-part-0123.js
+após bdag-part-0122.js, antes de lexicons/leh.js.
+Outros módulos, regras/Rauditoria.txt e infraestrutura
+devem permanecer intactos.
+Regressão: 118 módulos históricos cotejados por SHA
+de sua árvore real com registros prévios de inventário,
+mais os módulos 119–122 lidos e conferidos. Antes do
+lote, 2664 pares e IDs BDAG únicos; com o lote,
+projeção de 2684 IDs BDAG únicos, 2684 pares.
+Ausência dos 20 IDs novos confirmada também
+em index.html, lexicons/bdag.js e lexicons/leh.js.
+Não declarar varredura global de todos os 2566
+arquivos de léxicos nem testes DOM/CI como concluídos.
+
+Progresso condicionado à publicação e revalidação:
+2664 → 2684 de 8287 (32,39%);
+5603 ainda não incorporados.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Permanecem pendentes auditoria atômica independente
+para cada verbete (checklist A–J), testes funcionais reais,
+validação de todos os links no navegador, CI comprovado
+e integração/merge em chat-gpt-commits.
+A tradução e o commit de lote são fases editoriais
+distintas da auditoria atômica concluída.
+
+Publicar unicamente commit direto em chat-gpt-bdag
+sobre o HEAD remoto exato, com expected_sha igual à
+base e force=false. Revalidar HEAD, árvore, blobs,
+manifesto, diff e proteção dos arquivos anteriores.
+Não inserir SHA futuro autorreferencial neste registro.
+================================================================================
