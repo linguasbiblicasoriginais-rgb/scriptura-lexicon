@@ -7067,3 +7067,85 @@ Publicação em commit único com parent_sha igual ao HEAD-base,
 expected_sha igual ao HEAD remoto reconsultado e force=false.
 Confirmar HEAD, árvore, blobs e diff após a atualização.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 138 — ἐπιθυμία → ἐπιλάμπω — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: c76090f5c81f28b9db1aa28b78ecbec7882b6e92.
+Árvore-base: 797a17eeff8d444435671befe9d3c9555302efb1.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas 35196–35351 (o artigo seguinte inicia na linha
+35352). Nenhum PDF nem léxico substitutivo foi empregado.
+
+20 verbetes consecutivos:
+01 ἐπιθυμία, ας, ἡ
+02 ἐπιθύω
+03 ἐπικαθίζω
+04 ἐπικαθυπνόω
+05 ἐπικαίω
+06 ἐπικαλέω
+07 ἐπικάλυμμα, ατος, τό
+08 ἐπικαλύπτω
+09 ἐπικαταλλάσσομαι
+10 ἐπικατάρατος, ον
+11 ἐπίκειμαι
+12 ἐπικέλλω
+13 ἐπικερδαίνω
+14 ἐπικεφάλαιον, ου, τό
+15 Ἐπικούρειος, ου, ὁ
+16 ἐπικουρία, ας, ἡ
+17 ἐπικράζω
+18 ἐπικρίνω
+19 ἐπιλαμβάνομαι
+20 ἐπιλάμπω
+Próximo artigo excluído do lote: ἐπιλανθάνομαι.
+
+Tradução editorial preparada diretamente do HTML canônico.
+Acepções e subdivisões de ἐπιθυμία (①/ⓐ/ⓑ e ②), ἐπικαλέω
+(①–④), ἐπίκειμαι (①–⑤ e ②ⓐ/ⓑ), ἐπιλαμβάνομαι (①–⑤)
+preservadas, além dos artigos menores, citações gregas,
+referências bíblicas/patrísticas, ressalvas e bibliografia.
+Controle automatizado de vocabulário grego: todos os 20 cabeçalhos
+na mesma ordem; comparação por tokens gregos Unicode NFC de duas
+ou mais unidades: nenhum token distinto da fonte ausente na
+tradução preliminar. Isto NÃO é prova de equivalência semântica
+ou de colação de todas as referências bibliográficas uma a uma.
+Tentativa suplementar de confronto numérico retornou erro interno
+da ferramenta de arquivos; não declarar tal teste concluído.
+
+Módulo: lexicons/bdag-part-0138.js;
+chave window.ScripturaLexicons.BDAG_PART_0138.
+Testes estáticos executados: 20 search-row e 20 entry-card,
+20 IDs exclusivos no lote, paridade de data-target/id, tags HTML
+equilibradas (240 tags nas linhas, 2094 nos cartões), serialização
+de objeto válida; 97 links NT em padrão sintático NA28, zero URLs
+com formato inválido. Nenhum teste real de browser/DOM, execução
+de CI nem acesso aos destinos das URLs foi realizado.
+Regressão da árvore-base: 2964 pares segundo contagem remota dos
+136 módulos anteriores no checkpoint 137 e do módulo 0137, sem
+mudança desses arquivos no HEAD-base; acrescentados 20 pares,
+resultado esperado: 2984 linhas e 2984 cartões.
+Auditoria exaustiva global de todas as IDs e referências
+anteriores não certificada nesta execução.
+
+Arquivos autorizados:
+lexicons/bdag-part-0138.js, lexicon-modules.json, regras/Rbdag.txt.
+Manifesto: incluir part-0138 uma vez após part-0137 e antes de
+lexicons/leh.js; não modificar bibliographicTerms nem outros léxicos.
+
+Progresso condicionado à publicação: 2964 → 2984 de 8287
+(36,01%); restam 5303.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar total_auditoria_concluida.
+PENDÊNCIAS: auditoria A–J individual, colação independente exaustiva
+de referências e bibliografia, teste funcional DOM/navegador,
+CI comprovada, verificação de destinos dos links e integração
+autorizada em chat-gpt-commits.
+Publicar em um commit único, parent_sha igual ao HEAD-base,
+expected_sha igual ao HEAD remoto revalidado, force=false.
+Revalidar commit, parent, árvore, blobs e diff após a publicação.
+Não criar PR, merge, branch auxiliar nem escrever em main.
+================================================================================
