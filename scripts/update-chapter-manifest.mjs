@@ -72,9 +72,9 @@ for (const edition of ["NA28", "UBS5"]) {
         throw Error("Módulo crítico inexistente ou duplicado: " + relative);
       const content = fs.readFileSync(path.join(root, relative), "utf8");
       // Aceitar os dois modos de serialização do código canônico: MAT e ["1CO"].
-      const accessor = '(?:\\\\.' + bookId + '|\\\\["' + bookId + '"\\\\])';
-      const pattern = new RegExp('ScripturaScriptureTexts\\\\.' + edition + accessor +
-        '\\\\[' + chapter + '\\\\]\\\\s*=');
+      const accessor = '(?:\\.' + bookId + '|\\["' + bookId + '"\\])';
+      const pattern = new RegExp('ScripturaScriptureTexts\\.' + edition + accessor +
+        '\\[' + chapter + '\\]\\s*=');
       if (!pattern.test(content))
         throw Error("Módulo crítico não registra o versículo esperado: " + relative);
       registered.add(filename);
