@@ -5946,3 +5946,96 @@ Publicar exclusivamente por commit único, parent_sha igual
 ao HEAD remoto exato, e update_ref com expected_sha exato
 e force=false; revalidar HEAD, árvore, blobs e diff.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 125 — ἐντροπή → ἐξαγγέλλω — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto verificado: 4ce48d31a941c4dc6f7c2a68c970e09f74efcb10.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1; artigos indexados nas linhas 33082–33225,
+sem recorrer ao PDF ou a outros léxicos.
+Lista integral dos 20 verbetes consecutivos:
+01 ἐντροπή, ῆς, ἡ
+02 ἐντρυφάω
+03 ἐντυγχάνω
+04 ἐντυλίσσω
+05 ἐντυπόω
+06 ἐνυβρίζω
+07 ἔνυδρος, ον
+08 ἐνυπνιάζομαι
+09 ἐνύπνιον, ου, τό
+10 ἐνφωνέω
+11 ἐνών
+12 ἐνώπιον
+13 ἐνωρίστερον
+14 Ἐνώς, ὁ
+15 ἕνωσις, εως, ἡ
+16 ἐνωτίζομαι
+17 Ἑνώχ, ὁ
+18 ἐξ
+19 ἕξ
+20 ἐξαγγέλλω
+Próximo artigo reservado: ἐξαγοράζω.
+
+As 20 entradas foram traduzidas para português técnico segundo o
+HTML, mantendo regência, formas, variantes, qualificações de
+incerteza, hierarquia de sentidos, grego e bibliografia.
+Em ἐνώπιον, quatro acepções e subacepções preservadas;
+em ἐντυγχάνω, usos de recurso, intercessão, oração e leitura;
+em Ἑνώχ, a atribuição conjectural em 1Pe 3:19 permanece
+explicitamente conjectural. Remissões ἐνών e ἐξ
+conservadas como artigos próprios.
+Colação automatizada localizada: 20/20 lemas em ordem e
+78/78 segmentos gregos destacados presentes na tradução.
+A consulta complementar da Biblioteca para automatizar todo
+o inventário de citações apresentou falha intermitente:
+não declarar cobertura mecânica exaustiva de todas as referências.
+Foi feita revisão textual editorial, sem certificação
+de auditoria filológica atômica individual.
+Duas correções durante a preparação: preservar a sigla
+Hes. 19:3 sem conjeturar sua expansão e manter a remissão
+a προσκυνέω, a. Foram corrigidos ainda cinco links
+indevidos de referências patrísticas a 1 Clemente que
+apontavam para Colossenses: tais referências permanecem
+em texto, sem hiperligação conjectural.
+
+Novo módulo: lexicons/bdag-part-0125.js, chave
+window.ScripturaLexicons.BDAG_PART_0125. Manifesto:
+incluir somente depois de bdag-part-0124.js, antes
+de lexicons/leh.js. 20 search-row, 20 entry-card;
+20 IDs novos com sufixo -bdag e data-target alinhados 1:1;
+HTML com tags balanceadas e bem aninhadas; sintaxe
+de representação de dados JSON/JavaScript validada.
+95 links do NT estruturalmente conforme padrão NA28;
+não declarar visitas reais a seus destinos.
+Regressão: todos os 124 módulos BDAG anteriores recuperados
+pelo SHA da árvore-base e conferidos, 2704 linhas/cartões,
+2704 IDs distintos, zero pares órfãos. Projeção com o
+novo módulo: 2724 linhas e cartões BDAG, 2724 IDs únicos,
+nenhuma colisão dentro do BDAG. IDs candidatos buscados
+ainda em index.html, script.js e oito arquivos-base,
+sem colisões. Não houve varredura de todos os demais
+arquivos modulares de léxicos diferentes.
+Popups BDAG: nenhum; bibliographicTerms inalterado.
+Arquivos protegidos e módulos anteriores preservados.
+A árvore-base tem 8969 entradas; apenas três caminhos
+de arquivos devem ser modificados nesta publicação:
+lexicons/bdag-part-0125.js, lexicon-modules.json e
+regras/Rbdag.txt.
+Progresso condicionado à publicação e releitura remota:
+2704 → 2724 dos 8287 verbetes previstos (32,87%);
+restantes 5563.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Pendências: auditoria atômica individual A–J, testes
+funcionais reais no DOM e em navegador, verificação real
+de links, CI comprovado e integração/merge confirmada
+pelo integrador exclusivo em chat-gpt-commits.
+Publicação somente por commit único, parent_sha igual
+ao HEAD remoto e update_ref(expected_sha=HEAD exato,
+force=false). Revalidar HEAD final, árvore, blobs e diff.
+================================================================================
