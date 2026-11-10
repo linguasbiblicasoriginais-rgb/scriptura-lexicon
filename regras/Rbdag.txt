@@ -6533,3 +6533,96 @@ parent_sha = HEAD-base remoto exato, expected_sha exato e
 force=false. Revalidar HEAD, árvore, blobs e diff.
 Sem PR, sem merge e sem escrita em main por esta rotina.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 132 — ἐπαινέω → ἐπανόρθωσις — 10/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base remoto: 3f165573c3cf12a45b56219fc8781a02da813ce2.
+Árvore-base: 605be56daed6bd165e73f3e0f1bf2edb87dce91b.
+Fonte filológica única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, linhas 34188–34347; último artigo na linha 34344.
+Não usar PDF ou conteúdo de outros léxicos como substituto.
+
+20 artigos canônicos independentes e consecutivos:
+01 ἐπαινέω
+02 ἔπαινος, ου, ὁ
+03 ἐπαίρω
+04 ἐπαισχύνομαι
+05 ἐπαιτέω
+06 ἐπακολουθέω
+07 ἐπακούω
+08 ἐπακροάομαι
+09 ἐπάλληλος, ον
+10 ἐπάν
+11 ἐπάναγκες
+12 ἐπανάγω
+13 ἐπανακάμπτω
+14 ἐπαναμιμνῄσκω
+15 ἐπαναπαύομαι
+16 ἐπανατρέχω
+17 ἐπανέρχομαι
+18 ἐπανήκω
+19 ἐπανίστημι
+20 ἐπανόρθωσις, εως, ἡ
+Próximo artigo reservado, fora do lote: ἐπάνω.
+
+Tradução editorial de 42 unidades contínuas de texto do HTML,
+distribuídas pelos 20 verbetes. Mantidas formas gregas,
+flexões, variantes, sentidos numerados, subacepções, argumentos
+semânticos e sintáticos, referências do NT e de outras fontes,
+documentação dos testemunhos e notas bibliográficas.
+Em especial: ἔπαινος com louvor de origem humana/divina e
+louvor dirigido a Deus; ἐπαίρω com três sentidos;
+ἐπαισχύνομαι com quatro construções; ἐπακολουθέω com
+três acepções; ἐπακούω com duas; ἐπανάγω com duas; e
+ἐπαναπαύομαι com duas. A nota ambígua "not pap" da fonte
+permaneceu identificada como abreviatura original não
+expandida, sem interpretação lexicográfica inventada.
+Tradução e revisão editorial não equivalem à auditoria
+atômica filológica integral A–J.
+
+Módulo: lexicons/bdag-part-0132.js; chave
+window.ScripturaLexicons.BDAG_PART_0132; source BDAG.
+20 search-row e 20 entry-card com data-target/id 1:1;
+IDs exclusivos com sufixo -bdag e lemas em Unicode NFC.
+Todas as 20 linhas e 20 cartões marcados como BDAG.
+Tags verificadas por parser de pilha: 240 nas linhas,
+1660 nos cartões, sem erros de fechamento ou aninhamento.
+65 links NT no padrão estrutural NA28, nenhum inválido;
+zero novas referências ao domínio beta.perseus.tufts.edu.
+Nenhum destino remoto de link é certificado nesta rodada;
+teste funcional DOM/navegador não executado.
+
+Verificação global remota: inventário de 128 módulos
+históricos BDAG confrontado com SHA da árvore-base,
+sem divergências; part-0129, part-0130 e part-0131
+relidos diretamente, com SHA confirmado. Total de
+131 módulos existentes, 2844 search-row e 2844
+entry-card preexistentes. Com o candidato:
+2864 search-row e 2864 entry-card; 2864 IDs distintos,
+zero colisões e zero pares órfãos; nenhuma alteração
+aos arquivos preexistentes.
+Manifesto lexicon-modules.json: inserção única de
+part-0132 após part-0131 e antes de lexicons/leh.js.
+BibliographicTerms, lexicons/bdag.js, scripts, outros
+léxicos e infraestrutura preservados.
+Arquivos alteráveis nesta publicação, exclusivamente:
+lexicons/bdag-part-0132.js, lexicon-modules.json,
+regras/Rbdag.txt.
+
+Progresso condicionado ao commit remoto e revalidação:
+2844 → 2864 de 8287 verbetes (34,56%); faltam 5423.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+PENDENTES: auditoria A–J individual de cada verbete;
+testes DOM/browser; verificação real dos links;
+CI validada e integração confirmada por integrador
+autorizado na branch chat-gpt-commits.
+Publicar em commit único, com parent_sha exatamente
+igual ao HEAD-base, expected_sha exato e force=false.
+Revalidar HEAD, árvore, blobs e diff após publicação.
+Proibidos PR e merge por este executor, e escrita em main.
+================================================================================
