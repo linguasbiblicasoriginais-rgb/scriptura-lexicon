@@ -7339,3 +7339,98 @@ Publicação em commit único com parent_sha e expected_sha
 correspondentes ao HEAD remoto revalidado. Confirmar árvore,
 blobs e diff após publicação. Reconsultar HEAD a cada lote.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 141 — ἐπισιτισμός → ἐπιστήμων — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: 4c1cd75fdfd8a01df310b3e484a09162815eba2e.
+Árvore-base: 79b9026ad8623deb60f403d083b550783f8bed8a.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1. Janela de consulta: linhas 35600–35854.
+Sequência delimitada pelos cabeçalhos ἐπισιτισμός, οῦ, ὁ
+e ἐπιστήμων, ον; artigo seguinte excluído: ἐπιστηρίζω.
+Nenhum PDF ou outro léxico substituiu a fonte canônica.
+
+20 cabeçalhos autônomos consecutivos da fonte:
+01 ἐπισιτισμός, οῦ, ὁ
+02 ἐπισκέπτομαι
+03 ἐπισκευάζομαι
+04 ἐπισκηνόω
+05 ἐπισκιάζω
+06 ἐπισκοπέω
+07 ἐπισκοπή, ῆς, ἡ
+08 ἐπίσκοπος, ου, ὁ
+09 ἐπισκοτέω
+10 ἐπισπάω
+11 ἐπισπείρω
+12 ἐπισπουδάζω
+13 ἐπίσταμαι
+14 ἐπιστάς
+15 ἐπίστασις, εως, ἡ
+16 ἐπιστάτης, ου, ὁ
+17 ἐπιστέλλω
+18 ἐπιστῇ, ἐπίστηθι
+19 ἐπιστήμη, ης, ἡ
+20 ἐπιστήμων, ον
+Próximo lema excluído: ἐπιστηρίζω.
+
+Tradução editorial de todos os 20 artigos pela leitura direta do
+HTML canônico, preservando formas flexionadas, regências, acepções,
+subacepções, variantes, testemunhos, ressalvas e bibliografia.
+Incluídas as discussões terminológicas de ἐπισκοπή e ἐπίσκοπος,
+inclusive a ressalva do BDAG contra a retroprojeção automática
+do termo tardio "bispo" no NT; a interpretação da visitação
+divina em ἐπισκέπτομαι e ἐπισκιάζω; e os diferentes usos de
+ἐπίσταμαι e ἐπίστασις. As remissões autônomas permaneceram
+como verbetes próprios.
+
+A fonte foi lida para preparar cada artigo. Tentativas posteriores
+de reler o HTML para colação mecânica exaustiva de tokens e números
+falharam internamente, inclusive após nova referência de arquivos.
+A tradução, portanto, NÃO é certificada como colação exaustiva de
+todos os testemunhos, números, segmentos gregos e bibliografia,
+nem como auditoria atômica individual A–J. Nenhuma leitura
+perdida foi reconstruída a partir de outra obra.
+
+Módulo: lexicons/bdag-part-0141.js;
+chave window.ScripturaLexicons.BDAG_PART_0141, source BDAG.
+Testes estáticos efetuados:
+- 20 search-row e 20 entry-card, IDs distintos, data-target/id 1:1.
+- 240 tags HTML nas linhas, 1994 tags HTML nos cartões,
+  estrutura equilibrada e objeto JSON serializável.
+- 53 links NT com sintaxe NA28 válida, zero capítulos
+  fora dos limites por livro e zero URLs sintaticamente inválidas.
+- O gerador inicial confundiu 10 citações de 1 Cl com
+  Colossenses; todas foram corrigidas antes da publicação,
+  mantendo "1 Cl" sem links incorretos.
+- Módulos históricos 0127–0140 consultados individualmente:
+  280 linhas e 280 cartões, nenhuma divergência por módulo;
+  zero colisão com IDs desses 14 módulos.
+- Nenhum navegador, DOM, CI ou destino remoto de URL testado.
+- Nenhuma contagem global exaustiva das IDs históricas certificada.
+
+Manifesto: inserir part-0141 exatamente uma vez após part-0140,
+antes de lexicons/leh.js; não tocar em bibliographicTerms.
+Únicos caminhos permitidos neste commit:
+lexicons/bdag-part-0141.js
+lexicon-modules.json
+regras/Rbdag.txt
+Preservar os módulos anteriores, bdag.js, Rauditoria.txt,
+outros léxicos e todos os arquivos compartilhados.
+
+Progresso condicionado à publicação: 3024 → 3044 de 8287
+(36,73%); restam 5243.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Pendências: auditoria A–J individual e evidenciada,
+colação exaustiva de referências, bibliografia e termos gregos,
+verificação real de destinos NA28, testes DOM/navegador,
+execução de CI e integração autorizada em chat-gpt-commits.
+Publicar em único commit atômico com expected_sha do HEAD
+revalidado e force=false; nenhum PR, merge ou rebase.
+Confirmar novo HEAD, commit, parent, árvore, blobs e diff.
+================================================================================
