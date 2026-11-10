@@ -7149,3 +7149,101 @@ expected_sha igual ao HEAD remoto revalidado, force=false.
 Revalidar commit, parent, árvore, blobs e diff após a publicação.
 Não criar PR, merge, branch auxiliar nem escrever em main.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 139 — ἐπιλανθάνομαι → ἐπινομή — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base: 5cebbd770447d0b6f2d97f0db4a7944e51cf3938.
+Árvore-base: e8d3188f723e8d5851d52c6b1767f068d292a0b2.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura
+Lexicon, "A Greek-English Lexicon of the New Testament and Other
+Early Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1; artigo inicial na linha 35352, sequência delimitada pelo
+cabeçalho seguinte ἐπιορκέω. Nenhum PDF, léxico externo nem texto
+reconstruído foi usado como substituto.
+
+20 cabeçalhos autônomos na ordem canônica:
+01 ἐπιλανθάνομαι
+02 ἐπιλέγω
+03 ἐπιλείπω
+04 ἐπιλείχω
+05 ἐπιλελησμένος
+06 ἐπιλησμονή, ῆς, ἡ
+07 ἐπίλοιπος, ον
+08 ἐπίλυσις, εως, ἡ
+09 ἐπιλύω
+10 ἐπιμαρτυρέω
+11 ἐπιμέλεια, ας, ἡ
+12 ἐπιμελέομαι
+13 ἐπιμελής, ές
+14 ἐπιμελῶς
+15 ἐπιμένω
+16 ἐπίμονος, ον
+17 ἐπινεύω
+18 ἐπινοέω
+19 ἐπίνοια, ας, ἡ
+20 ἐπινομή, ῆς, ἡ
+Próximo artigo, excluído: ἐπιορκέω.
+
+Tradução editorial dos 20 artigos preparada pela leitura direta
+do HTML canônico; preservadas remissões flexionais independentes,
+significações, construções, formas verbais, variantes de leitura,
+testemunhos bíblicos/patrísticos/papirológicos e bibliografia.
+Para ἐπιμένω preservadas as duas acepções e as regências;
+para ἐπινομή registradas a interpretação provável, o Códice
+Alexandrino, variantes gregas e siríaca, a dificuldade copta e
+a conjectura de Lightfoot, sem transformá-las em certeza.
+Colação mecânica preliminar por lema encontrou uma forma grega
+diferente (τὶ) e cinco divergências de grafia numérica/intervalos
+editoriais, todas corrigidas na preparação; verificou-se a
+presença literal dessas correções no módulo candidato.
+A releitura suplementar do HTML para uma segunda colação
+automatizada falhou internamente, por isso NÃO se certifica
+colação exaustiva automática de todas as unidades, testemunhos,
+referências e bibliografia; a auditoria A–J individual permanece
+pendente.
+
+Módulo: lexicons/bdag-part-0139.js;
+window.ScripturaLexicons.BDAG_PART_0139, source BDAG.
+Verificações estáticas realizadas: 20 search-row e 20 entry-card;
+20 IDs distintos no lote, correspondência data-target/id 1:1;
+HTML equilibrado (240 tags nas linhas, 1490 tags nos cartões);
+objeto JSON serializável. 43 links do NT no padrão sintático
+NA28, zero endereços sintaticamente inválidos.
+Revisão das abreviaturas identificou e corrigiu 8 links indevidos
+que confundiam 1/2 Clemente (1 Cl / 2 Cl) com Colossenses (Cl).
+Permaneceu 1 link legítimo a Colossenses; checagem de limites\nde capítulo/versículo dos 43 links: zero irregularidades.\nNovos IDs confrontados com módulos 0127–0138: nenhuma colisão.
+Destinos externos não visitados; testes funcionais reais
+DOM/navegador e CI NÃO executados.
+
+Regressão: bdag-part-0127 ... bdag-part-0138 relidos do HEAD-base;
+240 linhas e 240 cartões, 20 pares por módulo, nenhum desvio.
+Total anterior 2984 pares conforme HEAD e checkpoint do lote
+anterior; novo módulo acrescenta 20 pares, total 3004.
+Não foi certificada nova verificação exaustiva de todas as IDs
+e referências dos 138 módulos históricos.
+O diff da publicação deve confirmar que os módulos existentes
+permanecem sem modificações.
+
+Manifesto: inclusão única de part-0139 após part-0138,
+antes de lexicons/leh.js.
+Caminhos autorizados exclusivamente:
+lexicons/bdag-part-0139.js
+lexicon-modules.json
+regras/Rbdag.txt
+Não alterar outros léxicos, bdag.js, bibliographicTerms,
+Rauditoria.txt, scripts ou infraestrutura.
+
+Progresso condicionado à publicação: 2984 → 3004 de 8287
+(36,25%); restam 5283.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Pendências: auditoria filológica A–J por verbete com provas,
+colação exaustiva de referências e bibliografia, teste DOM,
+navegador, destinos dos links, CI e integração autorizada
+em chat-gpt-commits. Sem PR, merge, rebase ou force.
+Publicação única com parent_sha/expected_sha do HEAD validado.
+Conferir HEAD remoto, árvore, blobs e diff depois da publicação.
+================================================================================
