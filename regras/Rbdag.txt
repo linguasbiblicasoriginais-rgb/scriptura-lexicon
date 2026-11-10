@@ -6991,3 +6991,79 @@ correspondente ao HEAD-base, expected_sha exato e force=false.
 Revalidar HEAD remoto, árvore, blobs e diff após a publicação.
 Não criar PR, merge, branches auxiliares nem escrever em main.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 137 — ἐπιγράφω → ἐπιθυμητής — 10/11/2026
+================================================================================
+Branch única autorizada: chat-gpt-bdag.
+HEAD-base: 3936b9314c017156d098df86443f981c625bb05e.
+Árvore-base: 835cc3951e52942f54677c4e2c5e44331c6561a3.
+Fonte única: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html".
+Sequência imediatamente posterior a ἐπιγραφή, começando no cabeçalho
+ἐπιγράφω, e encerrando antes do cabeçalho ἐπιθυμία, ας, ἡ.
+
+20 lemas consecutivos na fonte:
+01 ἐπιγράφω
+02 ἔπιδε
+03 ἐπιδείκνυμι
+04 ἐπιδέομαι
+05 ἐπιδέχομαι
+06 ἐπιδημέω
+07 ἐπιδημία, ας, ἡ
+08 ἐπιδιατάσσομαι
+09 ἐπιδίδωμι
+10 ἐπιδιορθόω
+11 ἐπιδύω
+12 ἐπιείκεια, ας, ἡ
+13 ἐπιεικής, ές
+14 ἐπιεικία
+15 ἐπιζητέω
+16 ἐπιθανάτιος, ον
+17 ἐπιθεῖναι, ἐπιθείς, ἐπίθες
+18 ἐπίθεσις, εως, ἡ
+19 ἐπιθυμέω
+20 ἐπιθυμητής, οῦ, ὁ
+Próximo artigo excluído do lote: ἐπιθυμία, ας, ἡ.
+
+Tradução editorial preliminar completa dos 20 artigos por leitura
+direta do texto da fonte HTML, preservando remissões autônomas,
+distinções semânticas, variantes, construções e referências.
+Houve revisão manual dos 20 artigos exibidos da fonte.
+A tentativa de materializar cópia local do HTML foi bloqueada e
+a releitura pela ferramenta de arquivos falhou posteriormente.
+Por isso NÃO se certificam como executadas a colação automatizada
+exaustiva de todos os segmentos gregos e bibliográficos, nem a
+auditoria atômica individual A–J. Tais controles permanecem pendentes.
+
+Módulo: lexicons/bdag-part-0137.js; chave
+window.ScripturaLexicons.BDAG_PART_0137; source BDAG.
+Verificação estática do candidato: 20 search-row e 20 entry-card,
+IDs distintos e correspondência data-target/id 1:1, HTML com tags
+equilibradas, objeto JSON serializável, 67 links do NT no padrão
+sintático NA28 e nenhuma URL de formato inválido.
+Navegador, DOM, destino das URLs e CI NÃO foram executados.
+
+Contagem da árvore-base: consulta remota individual de bdag.js e
+part-0002 ... part-0136: 2944 search-row e 2944 entry-card,
+sem divergências nas contagens por arquivo.
+Novo candidato: 2964 search-row e 2964 entry-card.
+Verificação completa independente de todos os IDs anteriores
+e colação de todos os testemunhos bibliográficos: não certificadas.
+Manifesto atualizado somente uma vez, após part-0136.
+
+Somente estes três caminhos podem mudar:
+lexicons/bdag-part-0137.js, lexicon-modules.json, regras/Rbdag.txt.
+Os outros léxicos e bibliographicTerms devem permanecer intactos.
+
+Progresso condicionado à publicação: 2944 → 2964 de 8287
+(35,77%); restam 5323 verbetes.
+AUDITORIA_CONCLUIDA = NÃO.
+Pendências: auditoria filológica integral individual A–J, colação
+automática exaustiva, testes DOM/navegador, CI, destino dos
+hiperlinks e integração por rotina autorizada em chat-gpt-commits.
+Publicação em commit único com parent_sha igual ao HEAD-base,
+expected_sha igual ao HEAD remoto reconsultado e force=false.
+Confirmar HEAD, árvore, blobs e diff após a atualização.
+================================================================================
