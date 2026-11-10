@@ -95,6 +95,53 @@ for (const edition of ["NA28", "UBS5"]) {
 const output = "/* Gerado automaticamente por scripts/update-chapter-manifest.mjs. Não editar manualmente. */\n"+
   "window.ScripturaChapterManifest = Object.freeze("+JSON.stringify(manifest)+");\n";
 fs.writeFileSync(path.join(root,"scriptures/chapter-manifest.js"),output,"utf8");
+// Inventário de cobertura crítica: explicitar as lacunas sem inventar texto.
+const canonicalNT = [["MAT","Mateus",28],["MRK","Marcos",16],["LUK","Lucas",24],["JHN","João",21],["ACT","Atos",28],["ROM","Romanos",16],["1CO","1 Coríntios",16],["2CO","2 Coríntios",13],["GAL","Gálatas",6],["EPH","Efésios",6],["PHP","Filipenses",4],["COL","Colossenses",4],["1TH","1 Tessalonicenses",5],["2TH","2 Tessalonicenses",3],["1TI","1 Timóteo",6],["2TI","2 Timóteo",4],["TIT","Tito",3],["PHM","Filemom",1],["HEB","Hebreus",13],["JAS","Tiago",5],["1PE","1 Pedro",5],["2PE","2 Pedro",3],["1JN","1 João",5],["2JN","2 João",1],["3JN","3 João",1],["JUD","Judas",1],["REV","Apocalipse",22]];
+const canonicalIds = new Set(canonicalNT.map(([id]) => id));
+const expectedNT = canonicalNT.reduce((sum, [, , chapters]) => sum + chapters, 0);
+if (canonicalNT.length !== 27 || expectedNT !== 260)
+  throw Error("Cânon de referência inválido para o relatório crítico.");
+
+const criticalCoverage = {
+  schemaVersion: 1,
+  scope: "Novo Testamento, 27 livros / 260 capítulos por edição",
+  expectedChaptersPerEdition: expectedNT,
+  verification: "presença e registro de módulos; não certifica o texto versículo por versículo",
+  editions: {}
+};
+for (const edition of ["NA28", "UBS5"]) {
+  const inventory = manifest[edition];
+  const unexpected = Object.keys(inventory).filter(id => !canonicalIds.has(id));
+  if (unexpected.length)
+    throw Error("Livros fora do cânon crítico " + edition + ": " + unexpected.join(", "));
+  const missing = [];
+  let present = 0;
+  for (const [id, book, expected] of canonicalNT) {
+    const registered = inventory[id]?.[1] ?? 0;
+    if (!Number.isInteger(registered) || registered < 0 || registered > expected)
+      throw Error("Cobertura crítica inválida para " + edition + "/" + id);
+    present += registered;
+    if (registered < expected) {
+      missing.push({
+        bookId: id, book, expectedChapters: expected, registeredChapters: registered,
+        missingChapters: Array.from(
+          {length: expected - registered}, (_, index) => registered + index + 1
+        )
+      });
+    }
+  }
+  criticalCoverage.editions[edition] = {
+    booksWithText: Object.keys(inventory).length,
+    registeredChapters: present, expectedChapters: expectedNT,
+    missingChapters: expectedNT - present, complete: present === expectedNT, missing
+  };
+  console.log("COBERTURA_CRITICA " + edition + ": " + present + "/" + expectedNT +
+    " capítulos; faltam " + (expectedNT - present) + ".");
+}
+fs.writeFileSync(
+  path.join(root, "scriptures", "critical-coverage.json"),
+  JSON.stringify(criticalCoverage, null, 2) + "\n", "utf8"
+);
 const htmlFile = path.join(root,"index.html");
 const html = fs.readFileSync(htmlFile,"utf8");
 const cleaned = html.replace(/^[ \t]*<script defer src="scriptures\/texts\/(?:uxlc|lxx|vulj|vul|tr|sblgnt|na28|ubs5)-[^"]+\.js"><\/script>[ \t]*\r?\n/gm,"");

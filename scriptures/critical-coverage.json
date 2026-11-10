@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "scope": "Novo Testamento, 27 livros / 260 capítulos por edição",
+  "expectedChaptersPerEdition": 260,
+  "verification": "presença e registro de módulos; não certifica o texto versículo por versículo",
+  "editions": {
+    "NA28": {
+      "booksWithText": 25,
+      "registeredChapters": 254,
+      "expectedChapters": 260,
+      "missingChapters": 6,
+      "complete": false,
+      "missing": [
+        {
+          "bookId": "1TH",
+          "book": "1 Tessalonicenses",
+          "expectedChapters": 5,
+          "registeredChapters": 0,
+          "missingChapters": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "bookId": "PHM",
+          "book": "Filemom",
+          "expectedChapters": 1,
+          "registeredChapters": 0,
+          "missingChapters": [
+            1
+          ]
+        }
+      ]
+    },
+    "UBS5": {
+      "booksWithText": 27,
+      "registeredChapters": 233,
+      "expectedChapters": 260,
+      "missingChapters": 27,
+      "complete": false,
+      "missing": [
+        {
+          "bookId": "MAT",
+          "book": "Mateus",
+          "expectedChapters": 28,
+          "registeredChapters": 1,
+          "missingChapters": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      ]
+    }
+  }
+}
