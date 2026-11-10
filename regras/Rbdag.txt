@@ -6626,3 +6626,98 @@ igual ao HEAD-base, expected_sha exato e force=false.
 Revalidar HEAD, árvore, blobs e diff após publicação.
 Proibidos PR e merge por este executor, e escrita em main.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 133 — ἐπάνω → ἐπεί — 10/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base remoto: 632dafef85f24d1ae9445ecfaf98d44fe88ab0c2.
+Árvore-base: 1fbd6783d9ca9a5db98e67d922d2f47f6c02da29.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon:
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, segmentos iniciados nas linhas 34349–34448,
+intervalo de artigos até antes de 34453 (ἐπείγω).
+Nenhum PDF ou outro léxico utilizado como fonte substituta.
+
+20 artigos consecutivos do HTML:
+01 ἐπάνω
+02 ἐπάνωθεν
+03 ἐπάξας
+04 ἐπαοιδός, οῦ, ὁ
+05 ἐπᾶραι, ἔπαρον, ἐπάρας
+06 ἐπάρατος, ον
+07 ἐπαρκέω
+08 ἐπαρχεία, ας, ἡ
+09 ἐπάρχειος, ον
+10 ἐπαρχικός, ή, όν
+11 ἔπαρχος, ου, ὁ
+12 ἔπαυλις, εως, ἡ
+13 ἐπαύριον
+14 ἐπαφίημι
+15 Ἐπαφρᾶς, ᾶ, ὁ
+16 ἐπαφρίζω
+17 Ἐπαφρόδιτος, ου, ὁ
+18 ἐπέβην
+19 ἐπεγείρω
+20 ἐπεί
+Próximo verbete fora do lote: ἐπείγω.
+
+Tradução editorial integral dos 27 segmentos canônicos,
+distribuídos nos vinte artigos independentes.
+Mantidos os cabeçalhos morfológicos, flexões, variantes
+gráficas ou textuais, remissões independentes, notas,
+citações gregas, referências bíblicas, testemunhos antigos
+e bibliografia. Especialmente: ἐπάνω, três acepções,
+com uso adverbial e preposicional na acepção ①;
+ἐπεί, duas acepções e locuções causais, inferenciais e
+elípticas; ἐπαρχεία/ἐπάρχειος/ἐπαρχικός/ἔπαρχος
+mantidos como artigos distintos; Ἐπαφρᾶς e
+Ἐπαφρόδιτος não fundidos; remissões ἐπάξας,
+ἐπᾶραι/ἔπαρον/ἐπάρας e ἐπέβην mantidas separadas.
+Tradução editorial não é certificação filológica
+atômica individual A–J.
+
+Módulo: lexicons/bdag-part-0133.js, chave
+window.ScripturaLexicons.BDAG_PART_0133, source BDAG;
+20 search-row, 20 entry-card, IDs exclusivos -bdag,
+pareamento data-target/id 1:1, lemas Unicode NFC.
+Todas as linhas e os cartões marcados como BDAG.
+Verificador estrutural de tags HTML: 240 tags de linhas
+e 1152 de cartões; nenhuma tag mal aninhada ou aberta.
+45 links neotestamentários no padrão formal NA28;
+zero URLs novas em formato inválido, nenhuma ocorrência
+do domínio beta.perseus.tufts.edu.
+Não foi verificado individualmente o destino remoto
+dos links; não foram executados testes DOM/navegador.
+
+Regressão global: inventário consolidado de 128 módulos
+históricos conferido por SHA com árvore do HEAD-base;
+part-0129, 0130, 0131 e 0132 relidos por SHA remoto,
+sem divergências. Antes, 132 módulos, 2864 search-row
+e 2864 entry-card. Após inclusão do candidato, 2884
+search-row e 2884 entry-card, 2884 IDs distintos,
+zero duplicatas e zero pares órfãos. Nenhuma alteração
+a módulos precedentes.
+Manifesto lexicon-modules.json: única inserção do
+part-0133 imediatamente após part-0132 e antes
+de lexicons/leh.js; entradas preexistentes intactas.
+Arquivos permitidos nesta publicação, somente:
+lexicons/bdag-part-0133.js, lexicon-modules.json,
+regras/Rbdag.txt. Preservar lexicons/bdag.js,
+bibliographicTerms, regras/Rauditoria.txt, outras
+fontes, scripts e infraestrutura.
+
+Progresso condicionado à publicação e conferência:
+2864 → 2884 de 8287 verbetes (34,80%); restam 5403.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Continuam pendentes: auditoria individual A–J,
+testes funcionais reais DOM/browser, verificação
+externa de destinos de URLs, CI comprovada e
+integração/merge autorizado em chat-gpt-commits.
+Publicar um único commit diretamente em chat-gpt-bdag,
+com parent_sha = HEAD real, expected_sha exato
+e force=false. Revalidar HEAD, árvore, blobs e diff.
+Sem PR, sem merge e sem escrita em main nesta rotina.
+================================================================================
