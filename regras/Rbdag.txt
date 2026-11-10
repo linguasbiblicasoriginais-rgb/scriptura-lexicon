@@ -6289,3 +6289,75 @@ force=false; revalidar commit, HEAD, árvore, blobs e diff.
 Proibidos PR, merge, alterações em main e escrita em
 outros léxicos por este executor.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 129 — ἐξέραμα → ἐξίημι — 10/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base e pai obrigatório do commit de lote:
+7bff23b1200ed3d42f6123ca476f8eb76b5a31f1.
+Árvore-base: b3ed727e86819f9af44b3288ba600edee5b1b9a9.
+Fonte exclusiva: HTML canônico da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1, artigos nas linhas 33619–33810. Não usar o PDF.
+Sequência integral de 20 artigos independentes:
+01 ἐξέραμα, ατος, τό
+02 ἐξεραυνάω
+03 ἐξερευνάω
+04 ἐξερίζω
+05 ἐξέρχομαι
+06 ἐξεστακέναι
+07 ἔξεστιν
+08 ἐξετάζω
+09 ἐξετασμός, οῦ, ὁ
+10 ἐξεταστικῶς
+11 ἐξέφνης
+12 ἐξεχύθην
+13 ἐξέχω
+14 ἐξηγέομαι
+15 ἐξήγησις, εως, ἡ
+16 ἐξῄειν, ἐξήεσαν
+17 ἑξήκοντα
+18 ἑξῆς
+19 ἐξηχέω
+20 ἐξίημι
+Próximo artigo reservado: ἐξιλάσκομαι.
+
+Tradução editorial para português brasileiro das 54 unidades textuais
+contínuas que compõem os 20 verbetes no HTML, incluindo lemas,
+etimologias, flexões, cinco acepções de ἐξέρχομαι, duas de ἔξεστιν,
+duas de ἐξετάζω, duas de ἐξηγέομαι, duas de ἐξήγησις,
+subacepções, remissões autônomas, variantes, citações gregas e
+hebraicas, referências e notas bibliográficas. BibliographicTerms
+preservado; nenhum popup bibliográfico novo.
+
+Novo módulo: lexicons/bdag-part-0129.js, fonte BDAG, chave
+window.ScripturaLexicons.BDAG_PART_0129. Manifesto
+lexicon-modules.json com uma única inserção após part-0128 e antes
+de lexicons/leh.js. O conteúdo preexistente permanece inalterado.
+Verificação global remota integral: 128 arquivos BDAG preexistentes
+(representando 2784 search-row, 2784 entry-card), todos acessíveis,
+sem módulos ausentes. Com o candidato: 2804 linhas e 2804 cartões,
+2804 IDs únicos, zero data-targets duplicados, zero IDs duplicados,
+zero linhas/cartões órfãos. 20 novos pares 1:1, 40 marcadores
+data-source=BDAG. HTML de linhas/cartões com aninhamento de tags
+equilibrado. Todos os novos IDs terminam em -bdag; lemas em NFC.
+151 ocorrências de links neotestamentários estruturalmente válidos
+no padrão NA28. Novas ocorrências beta.perseus.tufts.edu: zero.
+Formatos de URLs validados sem teste de destino remoto real.
+Preservação estrutural dos 128 arquivos preexistentes comprovada
+por seus blobs/Git SHA; sem alterações em outros léxicos ou scripts.
+
+Contagem editorial condicionada à publicação e à revalidação
+do HEAD remoto: 2784 → 2804 de 8287; restarão 5483.
+AUDITORIA_CONCLUIDA = NÃO. Não incrementar
+total_auditoria_concluida. Permanecem pendentes a auditoria
+atômica individual A–J, os testes funcionais de DOM/navegador,
+a confirmação externa de links, a CI comprovada e a integração
+efetuada exclusivamente pelo integrador em chat-gpt-commits.
+A regressão estática realizada NÃO certifica funcionalidade.
+Publicar em commit único com parent_sha igual ao HEAD real,
+expected_sha exato e force=false; após publicar confirmar HEAD,
+árvore, blobs e diff. Não abrir PR ou realizar merge nesta rotina.
+================================================================================
