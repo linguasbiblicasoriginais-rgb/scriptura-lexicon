@@ -7525,3 +7525,87 @@ igual ao HEAD-base, expected_sha conferido e force=false;
 sem PR, merge, rebase, force ou branch auxiliar.
 Conferir HEAD, parent, árvore, blobs e diff após a publicação.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 143 — ἐπιτηρέω → ἐπιφώσκω — 11/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag. HEAD-base remoto: 6e1aa8b7f4f452456edd5fd01ce351b87a306778.
+Tree-base: f987ed47cc4fe3aab2845bf11a7312d4e26e3def.
+Fonte canônica única: HTML da Biblioteca Scriptura Lexicon
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html"
+(id file_00000000429c820eb5aa2bcab96f1572).
+Consulta efetiva da janela HTML: linhas 35890–36124.
+Os 20 cabeçalhos consecutivos foram delimitados pelos
+marcadores originais: ἐπιτηρέω, ἐπιτίθημι, ἐπιτιμάω,
+ἐπιτιμία, ἐπιτοαυτό, ἐπιτρέπω, ἐπιτροπεύω, ἐπιτροπή,
+ἐπίτροπος, Ἐπίτροπος, ἐπιτυγχάνω, ἐπιφαίνω, ἐπιφάνεια,
+Ἐπιφάν(ε)ιος, ἐπιφανής, ἐπιφαύσκω, ἐπιφέρω,
+ἐπιφράσσω, ἐπιφωνέω, ἐπιφώσκω.
+Primeiro: ἐπιτηρέω; vigésimo: ἐπιφώσκω;
+seguinte excluído: ἐπιχειρέω.
+
+Incorporação: 20 artigos traduzidos em português em módulo
+lexicons/bdag-part-0143.js (BDAG_PART_0143).
+A tradução mantém acepções, subacepções, morfologia,
+regências, testemunhos, variantes, remissões e bibliografia
+da fonte. Em especial, ἐπιτίθημι: acepção ①, subclasses
+ⓐ/ⓑ/ⓒ, uso literal/figurado e ②; ἐπιτιμάω: repreender
+versus punir; ἐπιτρέπω: permitir versus instruir;
+ἐπιφάνεια: aparição primeira, manifestação no juízo
+e aspecto superficial; ἐπιφέρω: cinco acepções.
+Preservados dois verbetes autônomos com lema distinto
+apenas por inicial maiúscula, ἐπίτροπος (substantivo comum)
+e Ἐπίτροπος (nome próprio), IDs distintos com sufixo -person.
+
+Verificação de origem: capturado inventário de 319 formas
+gregas distintas (contagem de conjuntos por artigo)
+e 408 tokens numéricos distintos (por artigo) a partir
+do HTML. Blob auxiliar não referenciado
+fae7ac7707af9cc2058526a681e386bc5833104d.
+Comparação automatizada: 0 formas gregas ausentes na
+tradução; 21 alertas numéricos explicados pela expansão
+editorial de datas abreviadas e extremos de intervalos,
+por exemplo 235–50 → 235–250, ’68 → 1968.
+Esta colação de tokens NÃO substitui cotejo bilíngue
+exaustivo palavra por palavra, revisão de cada testemunho
+ou auditoria individual A–J.
+
+Validação estática:
+- 20 linhas search-row e 20 cartões entry-card, 20 IDs únicos,
+  correspondência data-target/id 1:1, ordem preservada;
+- 240 tags nas linhas e 1810 tags nos cartões, HTML equilibrado;
+  JSON serializável, chave ScripturaLexicons.BDAG_PART_0143;
+- 88 links NA28 gerados, zero URL sintaticamente malformada
+  e zero capítulo fora da faixa por livro no controle estático;
+- 8 referências explícitas a 1/2 Clemente protegidas,
+  sem falso link para Colossenses;
+- conferidos módulos 0127–0142: 320 search-rows e
+  320 entry-cards, sem desvio de pares ou colisão dos novos IDs.
+Revisão global de todo o legado, teste de links online
+e execução no navegador/DOM/CI: NÃO REALIZADOS.
+
+Arquivos exclusivos autorizados para publicação:
+lexicons/bdag-part-0143.js
+lexicon-modules.json
+regras/Rbdag.txt
+Manifesto: inserir part-0143 uma única vez depois de
+part-0142 e antes de leh.js; preservar bdag.js e
+bibliographicTerms. Não modificar Rauditoria, outros
+léxicos, infraestrutura, scripts, main ou branches alheias.
+
+Progresso condicionado à publicação: 3064 → 3084 de 8287
+(37,21%); restam 5203 verbetes.
+AUDITORIA_CONCLUIDA = NÃO.
+Não incrementar total_auditoria_concluida.
+Pendências obrigatórias: auditoria individual A–J,
+colação filológica/bibliográfica integral por testemunho,
+revisão de traduções e regências por leitura independente,
+checagem real dos destinos NA28, regressão no DOM,
+navegação e acessibilidade, CI e integração confirmada.
+Commit único, sem PR, merge, rebase, force ou nova branch;
+revalidar HEAD antes de update_ref, expected_sha=HEAD-base,
+force=false. Após publicação, confirmar HEAD, parent,
+árvore, blobs e diff; nenhum selo de auditoria sem evidência.
+================================================================================
