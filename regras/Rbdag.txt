@@ -7609,3 +7609,110 @@ revalidar HEAD antes de update_ref, expected_sha=HEAD-base,
 force=false. Após publicação, confirmar HEAD, parent,
 árvore, blobs e diff; nenhum selo de auditoria sem evidência.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 144 — ἐπιχειρέω → ἑπτάκις — 11/11/2026
+================================================================================
+Branch única autorizada: chat-gpt-bdag.
+HEAD-base remoto: 9f0214dbae816db3eb18608eb3375848916fd415.
+Árvore-base: c4726f1699849b45d9b1f802403d80f835968c6a.
+Fonte canônica: HTML da Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html"
+(id file_00000000429c820eb5aa2bcab96f1572).
+Faixa efetivamente consultada: linhas 36030–36299.
+Próximo artigo após o lote, EXCLUÍDO: ἑπτακισχίλιοι, αι, α.
+
+20 artigos autônomos consecutivos identificados no HTML:
+01 ἐπιχειρέω
+02 ἐπιχείρησις, εως, ἡ
+03 ἐπιχέω
+04 ἐπιχορηγέω
+05 ἐπιχορηγία, ας, ἡ
+06 ἐπιχρίω
+07 ἐπιχωρέω
+08 ἐπιψαύω
+09 ἔπλησα
+10 ἐποικοδομέω
+11 ἐποκέλλω
+12 ἐπονομάζω
+13 ἐποπτεύω
+14 ἐπόπτης, ου, ὁ
+15 ἔπος, ους, τό
+16 ἐπουράνιος, ον
+17 ἐπράθην
+18 ἐπρήσθησαν, ἐπρίσθησαν
+19 ἑπτά
+20 ἑπτάκις
+
+Novo módulo editorial: lexicons/bdag-part-0144.js,
+window.ScripturaLexicons.BDAG_PART_0144, source BDAG.
+Tradução para português dos 20 artigos, preservadas divisões
+de acepções e subacepções, flexão, construções, regências,
+leituras variantes, autores antigos, referências bíblicas,
+papiros/inscrições e bibliografia da fonte consultada.
+Enfoques: ἐπιχορηγέω ①–③; ἐποικοδομέω ①ⓐ/ⓑ e ②;
+ἐπόπτης ①–②; ἐπουράνιος ①, ②ⓐα/β/γ,
+②ⓑαא/ב e β; ἑπτά: testemunhos de sete em narrativas
+e em Apocalipse. Três artigos de remissão mantidos
+como itens autônomos.
+
+Colação de formas e referências:
+Inventário de fonte em blob auxiliar NÃO REFERENCIADO
+177a8031fe62a10f72bf58b95f35a6c40a861576.
+289 tokens gregos distintos somados por verbete,
+277 tokens numéricos distintos somados por verbete.
+Todos os 289 tokens gregos fonte aparecem nos cartões.
+Foi inserido explicitamente χεεῖ como abreviação da
+forma verbal de ἐπιχέω; colação novamente: 0 ausências.
+A comparação numérica apontou 8 valores não idênticos
+no texto de destino: 93 (ἐπιχειρέω), 84 (ἐπόπτης),
+68/73/83 (ἐπουράνιος), 43/58/35 (ἑπτά).
+Os 8 alertas foram confrontados com os contextos de
+origem já lidos e resultam de expansão editorial de
+abreviações: 93→1993 (ἐπιχειρέω), 84→1984 (ἐπόπτης);
+68→368, 73→1973, 83→483 (ἐπουράνιος);
+43→1943, 58→1958, 35→135 (ἑπτά).
+Não se identificou omissão nesses 8 tokens; o cotejo
+numérico baseado em conjuntos, porém, não equivale à
+releitura independente de toda a bibliografia.
+A leitura inicial completa do recorte foi bem-sucedida;
+a releitura automática posterior retornou erro interno
+da ferramenta. Não inferir que o cotejo é integral.
+
+Testes estáticos sobre o módulo:
+- 20 search-row / 20 entry-card, IDs únicos e data-target/id
+  pareados 1:1;
+- 240 tags nas linhas e 1806 tags nos cartões,
+  estrutura equilibrada; JS com JSON serializável;
+- 82 links NA28, zero URLs sintaticamente inválidas;
+  zero capítulo fora do total do livro e zero versículo
+  fora do limite amplo de sanidade (não teste do destino);
+- 6 referências explícitas a 1/2 Clemente mantidas
+  sem link falso para Colossenses;
+- 17 módulos 0127–0143 reconsultados: 340 search-rows,
+  340 entry-cards, sem diferença e sem colisão de IDs.
+Regressão completa dos 143 módulos históricos, links ao vivo,
+CI, navegador/DOM e acessibilidade: NÃO TESTADOS.
+
+Manifesto: inserir bdag-part-0144.js uma vez após
+bdag-part-0143.js e antes de lexicons/leh.js; bdag.js e
+bibliographicTerms permanecem inalterados.
+Únicos caminhos autorizados para um commit atômico:
+lexicons/bdag-part-0144.js
+lexicon-modules.json
+regras/Rbdag.txt
+Não escrever em Rauditoria, outros léxicos, infraestrutura,
+main, chat-gpt-commits ou qualquer outra branch.
+Progresso condicionado à publicação: 3084 → 3104 de 8287
+(37,46%); restam 5183.
+AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida
+inalterado. Pendências obrigatórias: colação bibliográfica contextual integral,
+cotejo filológico integral por
+artigo e testemunho, auditoria individual A–J, testes
+reais de links, DOM e CI, e integração verificada.
+Publicação somente em 1 commit, parent_sha=HEAD-base,
+expected_sha=HEAD-base, force=false; sem PR/merge/rebase.
+Conferir novamente HEAD e blobs e comparar diff após update.
+================================================================================
