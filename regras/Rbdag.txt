@@ -7434,3 +7434,94 @@ Publicar em único commit atômico com expected_sha do HEAD
 revalidado e force=false; nenhum PR, merge ou rebase.
 Confirmar novo HEAD, commit, parent, árvore, blobs e diff.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 142 — ἐπιστηρίζω → ἐπιτηδεύω — 11/11/2026
+================================================================================
+Branch única autorizada: chat-gpt-bdag.
+HEAD-base real: 76eab680406c46f2e4811f84babe42e77bec4beb.
+Tree-base: aa807aa58cec17319eaaa44b38194970030657f1.
+Fonte filológica exclusiva: HTML canônico da Biblioteca Scriptura Lexicon
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+versão 1; leitura da janela de linhas 35750–35999.
+O primeiro cabeçalho foi ἐπιστηρίζω; o vigésimo, ἐπιτηδεύω;
+o próximo, EXCLUÍDO deste lote, ἐπιτηρέω.
+
+20 artigos autônomos consecutivos cotejados em ordem de cabeçalho:
+01 ἐπιστηρίζω
+02 ἐπιστολή, ῆς, ἡ
+03 ἐπιστομίζω
+04 ἐπιστρέφω
+05 ἐπιστροφή, ῆς, ἡ
+06 ἐπισυνάγω
+07 ἐπισυναγωγή, ῆς, ἡ
+08 ἐπισυντρέχω
+09 ἐπισυρράπτω
+10 ἐπισύστασις, εως, ἡ
+11 ἐπισφαλής, ές
+12 ἐπισφραγίζω
+13 ἐπισχύω
+14 ἐπισωρεύω
+15 ἐπιταγή, ῆς, ἡ
+16 ἐπιτάσσω
+17 ἐπιτελέω
+18 ἐπιτήδειος, εία, ον
+19 ἐπιτήδευμα, ατος, τό
+20 ἐπιτηδεύω
+
+Tradução editorial em português de 20 artigos a partir do HTML,
+preservando a ordem, os quatro sentidos e subdivisões de
+ἐπιστρέφω, os três de ἐπιτελέω, construções sintáticas,
+flexões, leituras alternativas, fontes antigas, remissões e
+bibliografia registradas na fonte. Referências a literatura
+patrística e judaica não foram tratadas como livros do NT.
+A leitura inicial do HTML foi bem-sucedida; tentativas
+subsequentes de releitura para colação mecânica exaustiva
+de todos os tokens gregos, números, testemunhos e bibliografia
+falharam internamente, mesmo em janelas pequenas. Por isso
+NÃO se atesta colação automática exaustiva e NÃO se certifica
+a auditoria individual A–J.
+
+Novo módulo: lexicons/bdag-part-0142.js,
+window.ScripturaLexicons.BDAG_PART_0142, source BDAG.
+Verificações estáticas efetuadas sobre o blob candidato:
+- 20 search-row e 20 entry-card;
+- 20 IDs distintos, data-target/id pareados 1:1;
+- HTML equilibrado com 240 tags nas linhas e 2226 nos cartões;
+- objeto JSON serializável;
+- 109 links do NT com sintaxe NA28 válida, nenhum capítulo
+  fora do intervalo de seu livro e nenhum versículo fora
+  do limite genérico de sanidade aplicado;
+- uma referência legítima a Cl 4:16 linkada a Colossenses;
+- 20 referências explícitas a 1/2 Clemente ficaram sem
+  links espúrios a Colossenses;
+- módulos BDAG 0127–0141 reconsultados: 300 linhas e
+  300 cartões, sem desvio por módulo nem colisão de IDs
+  com o lote 142.
+Verificação dos destinos externos, DOM real e CI: NÃO EXECUTADOS.
+Os testes estáticos não certificam filologia integral nem
+regressão de todos os módulos históricos.
+
+Manifesto: inserir part-0142 uma vez depois de part-0141,
+antes de lexicons/leh.js, preservando bibliographicTerms.
+Caminhos exclusivos para esta publicação:
+lexicons/bdag-part-0142.js
+lexicon-modules.json
+regras/Rbdag.txt
+Proibido alterar outros léxicos, bdag.js, Rauditoria,
+scripts, infraestrutura, main ou branches de integração.
+
+Progresso condicionado à publicação: 3044 → 3064 de 8287
+(36,97%); restam 5223 verbetes.
+AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida inalterado.
+Pendências: colação filológica independente exaustiva por artigo,
+conferência integral dos testemunhos e bibliografia, auditoria
+A–J individual com evidências, testes funcionais DOM/navegador,
+verificação efetiva dos links NA28, CI e integração confirmada.
+Publicação exclusivamente com commit único, parent_sha
+igual ao HEAD-base, expected_sha conferido e force=false;
+sem PR, merge, rebase, force ou branch auxiliar.
+Conferir HEAD, parent, árvore, blobs e diff após a publicação.
+================================================================================
