@@ -7716,3 +7716,111 @@ Publicação somente em 1 commit, parent_sha=HEAD-base,
 expected_sha=HEAD-base, force=false; sem PR/merge/rebase.
 Conferir novamente HEAD e blobs e comparar diff após update.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 145 — ἑπτακισχίλιοι → ἐρημία — 11/11/2026
+================================================================================
+Branch exclusiva de publicação: chat-gpt-bdag.
+HEAD-base remoto: b7c38126e3f4480f3e7d35dacd5129a7c775a58f.
+Árvore-base: 6a5a0d97420631b2c8fbade1c80af989dc5eb3cb.
+Fonte lexical exclusiva: HTML canônico da Biblioteca Scriptura Lexicon
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html",
+id file_00000000429c820eb5aa2bcab96f1572.
+Janela efetivamente consultada: linhas 36250–36524.
+20 artigos delimitados por cabeçalhos HTML consecutivos:
+01 ἑπτακισχίλιοι, αι, α
+02 ἑπταπλασίων, ον,
+03 ἑπταπλασίως
+04 Ἔραστος, ου, ὁ
+05 ἐραυνάω
+06 ἐραυνητής, οῦ, ὁ
+07 ἐράω
+08 ἐργάζομαι
+09 ἐργασία, ας, ἡ
+10 ἐργαστήριον, ίου, τό
+11 ἔργαστρα, ων, τά
+12 ἐργάτης, ου, ὁ
+13 ἔργον, ου, τό
+14 ἐργοπαρέκτης, ου, ὁ
+15 ἐρεθίζω
+16 ἐρείδω
+17 ἐρεύγομαι
+18 ἐρευνάω
+19 ἐρευνητής
+20 ἐρημία, ας, ἡ
+Próximo artigo EXCLUÍDO: ἔρημος, ον.
+
+Tradução editorial dos 20 artigos a partir do recorte canônico;
+manter acepções, subacepções, morfologia, variantes, construções,
+testemunhos LXX/NT/patrística e referências bibliográficas.
+Destaques de polissemia: ἐργάζομαι — ① trabalho,
+②ⓐ realização, ②ⓑ serviço, ②ⓒ produção,
+②ⓓ trabalhar em algo, ②ⓔ alimento;
+ἐργασία — ①–⑤; ἐργάτης — ①ⓐ/ⓑ e ②;
+ἔργον — ①ⓐ/ⓑ/ⓒα/β, ②, ③, ④.
+Preservar artigos de remissão autônomos ἐρευνάω e
+ἐρευνητής, além de distorções variantes atestadas.
+Em Ἔραστος, separar os dois testemunhos sem presumir
+identidade histórica dos portadores do nome.
+
+Colação de inventário feito do próprio HTML: blob auxiliar
+não referenciado a79ce4dec63ebf0c069da7d81709c2a696899d89.
+418 formas gregas distintas, somadas individualmente por artigo,
+363 tokens numéricos distintos, também somados por artigo.
+Conferência no HTML final: zero forma grega ausente após
+restituir Χριστοῦ, originalmente traduzido sem a forma grega.
+14 alertas numéricos decorrem de formas bibliográficas
+abreviadas versus expansões editoriais:
+- ἑπταπλασίων: 69→1969;
+- Ἔραστος: 31→1931; 46→346 (342–46);
+- ἐραυνάω: 176 f→176s.;
+- ἐργάζομαι: 52→152 (140–52); 50→1950;
+- ἐργάτης: 93→1993; 95→195 (178–95); 67→1967;
+- ἔργον: 75→1975; 54→1954; 91→1991;
+  97→1997; 62→1962.
+A comparação de conjuntos de tokens não demonstra, por si,
+fidelidade semântica, bibliografia integral exaustiva ou
+auditoria individual A–J. Registar colação PARCIAL.
+
+Novo módulo: lexicons/bdag-part-0145.js, propriedade
+window.ScripturaLexicons.BDAG_PART_0145, source BDAG.
+Verificações estáticas executadas:
+- 20 search-row e 20 entry-card; 20 IDs distintos,
+  data-target/id pareados 1:1, ordem preservada;
+- 240 tags HTML nas linhas, 2720 tags HTML nos cartões,
+  nenhuma tag desequilibrada; JSON serializável;
+- 186 links NT NA28, sem erros de formato, capítulo
+  fora da faixa do livro ou versículo fora do limite
+  amplo de sanidade; destinos externos não acessados;
+- 13 referências explícitas a 1 e 2 Clemente
+  preservadas sem link espúrio de Colossenses;
+- módulos 0127–0144 comparados: 360 linhas e 360 cartões,
+  nenhum desvio por módulo, nenhuma colisão de ID.
+Sem certificação de regressão histórica integral
+dos módulos 0001–0126 nem de bdag.js;
+não houve CI, DOM/navegação, acessibilidade ou consulta
+real aos destinos dos links.
+
+Atualizar somente:
+lexicons/bdag-part-0145.js
+lexicon-modules.json
+regras/Rbdag.txt
+Manifesto: part-0145 uma única vez após part-0144
+e antes de leh.js; preservados bdag.js e
+bibliographicTerms, Rauditoria e todos os demais léxicos.
+Progresso condicionado à publicação: 3104 → 3124
+de 8287 verbetes (37,70%), faltam 5163.
+AUDITORIA_CONCLUIDA = NÃO;
+total_auditoria_concluida permanece inalterado.
+Pendências: revisão independente e integral dos
+testemunhos e traduções, auditoria A–J individual,
+testes funcionais reais de busca/cartão/links/DOM,
+CI, navegação e acessibilidade e integração autorizada.
+Publicar um único commit atômico com HEAD-base
+revalidado imediatamente antes do update_ref;
+expected_sha=HEAD-base, force=false. Sem PR, merge,
+rebase nem atualização de outras branches.
+Depois verificar HEAD, parent, árvore, blobs e diff.
+================================================================================
