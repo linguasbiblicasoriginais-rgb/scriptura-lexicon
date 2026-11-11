@@ -7824,3 +7824,79 @@ expected_sha=HEAD-base, force=false. Sem PR, merge,
 rebase nem atualização de outras branches.
 Depois verificar HEAD, parent, árvore, blobs e diff.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 146 — ἔρημος → ἔρρηξα — 11/11/2026
+================================================================================
+Branch exclusiva: chat-gpt-bdag.
+HEAD-base observado na preparação: 9799e5db314b520c71b8a5eee5e9e1610c5f35ae.
+Fonte canônica consultada: Biblioteca Scriptura Lexicon,
+"A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html"
+(id file_00000000429c820eb5aa2bcab96f1572).
+Faixa de cabeçalhos e artigos: linhas 36426–36550 do HTML.
+A extração consultada permite delimitar vinte cabeçalhos consecutivos;
+a cópia binária integral e seu SHA não puderam ser materializados.
+
+Relação exata dos vinte artigos:
+01 ἔρημος, ον
+02 ἐρημόω
+03 ἐρημώδης, ες
+04 ἐρήμωσις, εως, ἡ
+05 ἐρίζω
+06 ἐριθεία, ας, ἡ
+07 ἔριον, ου, τό
+08 ἔρις, ιδος, ἡ
+09 ἐριστικός, ή, όν
+10 ἐρίφιον, ου, τό
+11 ἔριφος, ου, ὁ
+12 Ἑρμᾶς, ᾶ, ὁ
+13 ἑρμηνεία, ας, ἡ
+14 ἑρμηνευτής, οῦ, ὁ
+15 ἑρμηνεύω
+16 Ἑρμῆς, οῦ, ὁ
+17 Ἑρμογένης, ους, ὁ
+18 ἑρπετόν, οῦ, τό
+19 ἐρρέθην
+20 ἔρρηξα
+Próximo cabeçalho, EXCLUÍDO: ἐρρίζωμαι.
+
+Módulo: lexicons/bdag-part-0146.js.
+Objeto: window.ScripturaLexicons.BDAG_PART_0146;
+source BDAG, searchAnchorId e entryAnchorId herdados da convenção.
+20 linhas de pesquisa e 20 cartões lexicográficos;
+20 IDs distintos, data-target/id em ordem um a um;
+HTML das linhas e cartões com fechamento de tags conferido
+por verificador estático; 84 links NA28 com sintaxe válida.
+Os 20 artigos foram preparados em português, incluindo divisões
+e ressalvas semânticas, testemunhos e bibliografia da fonte.
+Foram conservadas como verbetes independentes as remissões
+ἐρρέθην e ἔρρηξα.
+Revisão independente e exaustiva palavra a palavra, conferência
+com fac-símile e comparação automatizada de todos os tokens
+gregos e numéricos: NÃO COMPROVADAS; colação apenas parcial.
+Teste efetivo de DOM, interface, CI, links remotos, acessibilidade,
+ou regressão integral da base histórica: NÃO REALIZADOS.
+Não atribuir selo de qualidade integral a esses testes estáticos.
+
+Arquivos destinados ao único commit atômico:
+lexicons/bdag-part-0146.js
+lexicon-modules.json
+regras/Rbdag.txt
+Não editar bibliographicTerms, bdag.js, Rauditoria, outros léxicos,
+infraestrutura, main ou branches alheias.
+Manifesto: parte 0146 exatamente uma vez após a parte 0145.
+Contagem anterior DECLARADA pelo checkpoint do lote 145: 3124.
+Projeção após a efetiva publicação: 3144 / 8287.
+A contagem global integral de todas as partes BDAG ainda demanda
+verificação independente; não apresentar o total projetado como
+auditoria concluída.
+AUDITORIA_CONCLUIDA = NÃO.
+total_auditoria_concluida: inalterado.
+Pendências: cotejo integral de cada artigo e de todos os testemunhos,
+auditoria individual A–J, regressão integral, teste de links de destino,
+DOM/CI e integração autorizada comprovada.
+Publicação somente se HEAD remoto ainda igual ao HEAD-base, com
+parent_sha=HEAD-base, expected_sha=HEAD-base e force=false;
+verificar parent, árvore, blobs e diff depois.
+================================================================================
