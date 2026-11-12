@@ -8029,3 +8029,17 @@ Testes estáticos pré-commit: APROVADOS conforme verificação no ciclo de prep
 Progresso estrutural condicionado à publicação: 3164 → 3184 / 8287 (38,42%). DGP, LEH e PEREIRA: não verificados neste ciclo.
 Publicação autorizada apenas por um commit direto, com expected_sha do HEAD revalidado e force=false, sem PR nem merge.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 149 — ἑτερόγλωσσος → εὐαγγελίζω — 12/11/2026
+================================================================================
+HEAD-base revalidado: f17a3ae46fe3ac57bd14b3be01ffefcda5c33674.
+Fonte exclusiva: HTML canônico do BDAG, Biblioteca Scriptura Lexicon, versão 1, linhas 36861–37070; 20 cabeçalhos autônomos consecutivos, desde ἑτερόγλωσσος, ον até εὐαγγελίζω. Próximo cabeçalho fora do lote: εὐαγγέλιον, ου, τό (linha 37071).
+Lemas (ordem): 1. ἑτερόγλωσσος, ον; 2. ἑτερογνωμονέω; 3. ἑτερογνώμων, ον,; 4. ἑτεροδιδασκαλέω; 5. ἑτεροδοξέω; 6. ἑτεροδοξία, ας, ἡ; 7. ἑτεροζυγέω; 8. ἑτεροκλινής, ές,; 9. ἕτερος, α, ον; 10. ἑτέρως; 11. ἔτι; 12. ἑτοιμάζω; 13. Ἕτοιμας; 14. ἑτοιμασία, ας, ἡ; 15. ἕτοιμος, η, ον; 16. ἑτοίμως; 17. ἔτος, ους, τό; 18. εὖ; 19. Εὕα, ας, ἡ; 20. εὐαγγελίζω.
+Novo módulo: lexicons/bdag-part-0149.js, window.ScripturaLexicons.BDAG_PART_0149, incluído em lexicon-modules.json após bdag-part-0148.js.
+Leitura integral da regra Rbdag e Rauditoria; Rbdag base SHA 51a28b5845efc7db27bfde975d068e6a585e061a; Rauditoria SHA 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67 preservado.
+20 search-row / 20 entry-card; IDs únicos e pareados; 259 links de referências explícitas do NT no domínio NA28, sem criar links patrísticos, LXX ou outros por analogia.
+Tradução editorial integral preparada para os vinte verbetes com acepções/subacepções, paradigmas, exemplos, variantes, referências antigas e bibliografia; glosas e aparato preservados na extensão verificável. Colação automática de tokens gregos: 957 tokens da transcrição HTML, 0 ocorrências gregas com diferença de multiplicidade na redação (incluindo repetições e lema), sem perda de formas lexicais distintas.
+Verificações estáticas de pareamento de 20/20, JSON/JS como literal serializado, links NT e não colisão com lote 148 realizadas. Colação filológica de todas as citações, regressão funcional em navegador, teste em CI, validação online de URLs, fac-símile e integração confirmada ainda pendentes: AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida NÃO se altera.
+Contagem projetada após commit e sua verificação: 3184 → 3204 / 8287 (38,66%). Nenhuma entrada do lote seguinte incorporada. Sem PR, merge ou alteração de outras fontes. Commit direto exclusivo com expected_sha e force=false.
+================================================================================
