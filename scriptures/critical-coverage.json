@@ -14,47 +14,11 @@
     },
     "UBS5": {
       "booksWithText": 27,
-      "registeredChapters": 233,
+      "registeredChapters": 260,
       "expectedChapters": 260,
-      "missingChapters": 27,
-      "complete": false,
-      "missing": [
-        {
-          "bookId": "MAT",
-          "book": "Mateus",
-          "expectedChapters": 28,
-          "registeredChapters": 1,
-          "missingChapters": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28
-          ]
-        }
-      ]
+      "missingChapters": 0,
+      "complete": true,
+      "missing": []
     }
   }
 }
