@@ -8013,3 +8013,19 @@ e expected_sha idênticos ao HEAD validado, force=false.
 Após publicação verificar SHA, parent, árvore, blobs, diff,
 manifesto e próximo lema. Não fazer PR nem merge.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 148 — ἑσπερινός → ἔτεκον — 12/11/2026
+================================================================================
+HEAD-base: f7ac7c8fec6769a78efcae76ba9b910eae2e62cc.
+Fonte exclusiva: HTML A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html; Biblioteca Scriptura Lexicon, versão 1, linhas 36748–36857. Nenhum PDF empregado como substituto.
+20 cabeçalhos autônomos, na ordem exata: 1. ἑσπερινός, ή, όν; 2. Ἑσρώμ, ὁ; 3. ἑσσόομαι; 4. ἐστάθην, ἑστάναι, ἕστηκα, ἔστην, ἔστησα; 5. ἐστράφην; 6. ἐστρωμένος, ἔστωσαν; 7. ἔστω; 8. ἑστώς; 9. ἔστωσαν; 10. ἐσφάγη; 11. ἔσχατος, η, ον; 12. ἐσχάτως; 13. ἔσω; 14. ἔσωθεν; 15. ἐσώτερος, α, ον; 16. ἑταῖρος, ου, ὁ; 17. ἐταράχθην; 18. ἐτάφη; 19. ἐτέθην; 20. ἔτεκον.
+Último incorporado anteriormente: ἑσπέρα, ας, ἡ.
+Novo módulo: lexicons/bdag-part-0148.js (BDAG_PART_0148).
+Próximo cabeçalho na fonte: ἑτερόγλωσσος, ον (verificar novamente antes do lote seguinte).
+20 linhas/20 cartões, IDs alinhados, 65 links NA28 construídos somente para referências NT explicitamente identificadas. Referências patrísticas conservadas como texto, sem links NA28.
+Tradução editorial com distinção das três acepções principais de ἔσχατος e suas subacepções; morfologia, variantes, testemunhos e bibliografia transferidos. Controles automáticos de tokens da fonte e links em navegador requerem conferência complementar; não declarar colação A–J concluída.
+Testes estáticos pré-commit: APROVADOS conforme verificação no ciclo de preparação; a publicação requer inspeção posterior do commit, HEAD e blobs. Não houve teste DOM funcional, CI, validação online de links nem integração PR/merge. AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida não foi incrementado.
+Progresso estrutural condicionado à publicação: 3164 → 3184 / 8287 (38,42%). DGP, LEH e PEREIRA: não verificados neste ciclo.
+Publicação autorizada apenas por um commit direto, com expected_sha do HEAD revalidado e force=false, sem PR nem merge.
+================================================================================
