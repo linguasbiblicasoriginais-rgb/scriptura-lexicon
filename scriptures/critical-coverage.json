@@ -5,25 +5,12 @@
   "verification": "presença e registro de módulos; não certifica o texto versículo por versículo",
   "editions": {
     "NA28": {
-      "booksWithText": 25,
-      "registeredChapters": 254,
+      "booksWithText": 26,
+      "registeredChapters": 259,
       "expectedChapters": 260,
-      "missingChapters": 6,
+      "missingChapters": 1,
       "complete": false,
       "missing": [
-        {
-          "bookId": "1TH",
-          "book": "1 Tessalonicenses",
-          "expectedChapters": 5,
-          "registeredChapters": 0,
-          "missingChapters": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
         {
           "bookId": "PHM",
           "book": "Filemom",
