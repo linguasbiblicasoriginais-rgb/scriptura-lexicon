@@ -5,22 +5,12 @@
   "verification": "presença e registro de módulos; não certifica o texto versículo por versículo",
   "editions": {
     "NA28": {
-      "booksWithText": 26,
-      "registeredChapters": 259,
+      "booksWithText": 27,
+      "registeredChapters": 260,
       "expectedChapters": 260,
-      "missingChapters": 1,
-      "complete": false,
-      "missing": [
-        {
-          "bookId": "PHM",
-          "book": "Filemom",
-          "expectedChapters": 1,
-          "registeredChapters": 0,
-          "missingChapters": [
-            1
-          ]
-        }
-      ]
+      "missingChapters": 0,
+      "complete": true,
+      "missing": []
     },
     "UBS5": {
       "booksWithText": 27,
