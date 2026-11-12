@@ -7900,3 +7900,116 @@ Publicação somente se HEAD remoto ainda igual ao HEAD-base, com
 parent_sha=HEAD-base, expected_sha=HEAD-base e force=false;
 verificar parent, árvore, blobs e diff depois.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 147 — ἐρρίζωμαι → ἑσπέρα — 11/11/2026
+================================================================================
+Branch exclusiva de trabalho: chat-gpt-bdag.
+HEAD-base observado antes da preparação: cf80084185b52b068e1703f3680064ef6ff034bf.
+HTML canônico da Biblioteca do Scriptura Lexicon:
+A Greek-English Lexicon of the New Testament and Other Early
+Christian Literature - Frederick William Danker, Walter Bauer.html
+id da Biblioteca: file_00000000429c820eb5aa2bcab96f1572.
+Fonte efetivamente lida: linhas 36551–36750; os 20
+artigos publicados abrangem 36551–36747.
+Fonte segmentada em 20 janelas de dez linhas; objetos auxiliares
+não referenciados: e1e337841ce58afb7c2721f60c1f49920032f7c4
+(36551–36650) e 302c00ea66bdf7c290e64fdeb6aa67658455ccb4
+(36651–36750). Esses blobs são checkpoints não publicados;
+não presumir retenção permanente de objetos soltos.
+O SHA dos bytes originais completos do arquivo da Biblioteca
+não pôde ser obtido; os dois blobs acima documentam a leitura
+dos excertos, não substituem o original integral.
+
+20 cabeçalhos autônomos consecutivos:
+01 ἐρρίζωμαι
+02 ἔρριμαι, ἐ(ρ)ριμμένος
+03 ἐρρυσάμην, ἐρρύσθην
+04 ἔρρωσθε, ἔρρωσο
+05 ἐρυθρός, ά, όν
+06 ἔρχομαι
+07 ἐρῶ
+08 ἔρως, ωτος, ὁ
+09 ἐρωτάω
+10 ἐρώτησις, εως, ἡ
+11 ἔσβεσα
+12 ἐσήμανα
+13 Ἐσθήρ, ἡ
+14 ἐσθής, ῆτος, ἡ
+15 ἐσθίω
+16 ἔσθω
+17 Ἑσλί, ὁ
+18 ἐσόμενος
+19 ἔσοπτρον, ου, τό
+20 ἑσπέρα, ας, ἡ
+Próximo cabeçalho ainda não incorporado: ἑσπερινός, ή, όν.
+
+Tradução editorial em português brasileiro, conservando as
+formas gregas, acepções, graus de certeza, citações e
+bibliografia colacionadas nos trechos recuperados.
+Os dois artigos extensos, ἔρχομαι e ἐσθίω, foram divididos
+na preparação em parágrafos de subdivisões ①–⑤ e ①–②,
+mantidas as subpartes e regências. As remissões autônomas
+foram preservadas como verbetes separados.
+
+Novo módulo: lexicons/bdag-part-0147.js,
+window.ScripturaLexicons.BDAG_PART_0147, source BDAG;
+20 linhas de pesquisa, 20 cartões, vinte IDs distintos,
+pares data-target/id corretos; tags estruturais equilibradas;
+objeto serializado em JSON dentro de JS.
+369 links de referências NT NA28 gerados; formato das URLs
+e limites de capítulo verificados estaticamente, destinos
+online e limites exatos de versículo não testados.
+1 e 2 Clemente preservados como fontes patrísticas sem
+links falsos para Colossenses.
+
+Colação automática de formas gregas por verbete:
+553 tokens gregos distintos somados por artigo na fonte
+e zero tokens ausentes nos cartões após três correções
+de transcrição (δόξη, τὶ, ἔκ).
+Oito alertas de tokens numéricos não idênticos:
+- ἐρυθρός: 62→1962; 65→1965;
+- ἔρχομαι: 75 de P com sobrescrito → P75;
+- ἐρωτάω: 75 de P com sobrescrito → P75;
+- ἐσθής: 60 de 159/60 → 159/160;
+- ἐσθίω: 403→403s. (paginação);
+- ἔσοπτρον: 57→1957;
+- ἑσπέρα: 8 fragmentado no HTML de «Kl. Texte 83»
+  reunido com o 3 em 83.
+Estas equivalências não implicam omissão numérica demonstrada.
+A comparação de conjuntos de tokens não constitui revisão
+contextual independente exaustiva de cada testemunho,
+acepção, opção tradutória ou bibliografia.
+COLAÇÃO FILOLÓGICA INTEGRAL: NÃO CERTIFICADA.
+
+Testes estáticos: 20/20 pares, IDs únicos dentro do lote,
+HTML equilibrado, JS serializado, URLs de formato válido,
+manifesto com módulo 0147 uma vez após 0146, sem alteração
+do objeto BDAG bibliographicTerms.
+Não executados no contexto deste lote: DOM de navegador,
+interface, acessibilidade, CI, checagem real de links
+e testes funcionais completos; sem afirmar aprovação.
+A regressão integral dos arquivos históricos necessita
+de validação suplementar; HEAD remoto anterior foi
+anteriormente inventariado com 3144 pares BDAG e será
+revalidado por ausência de alteração nos arquivos legados.
+
+Arquivos autorizados para único commit:
+lexicons/bdag-part-0147.js
+lexicon-modules.json
+regras/Rbdag.txt
+Não alterar Rauditoria, bdag.js, bibliographicTerms, outros
+léxicos, infraestrutura nem outras branches.
+Progresso estrutural condicionado à efetiva publicação:
+3144 → 3164 de 8287 (38,18%); restantes 5123.
+DGP, LEH e PEREIRA: totais não verificados neste ciclo.
+AUDITORIA_CONCLUIDA = NÃO.
+total_auditoria_concluida permanece inalterado.
+Pendências: auditoria filológica integral por testemunho e
+por artigo, checklist A–J, regressão funcional real,
+verificação de links, CI e integração comprovada.
+Reconsultar HEAD antes de update_ref; parent_sha
+e expected_sha idênticos ao HEAD validado, force=false.
+Após publicação verificar SHA, parent, árvore, blobs, diff,
+manifesto e próximo lema. Não fazer PR nem merge.
+================================================================================
