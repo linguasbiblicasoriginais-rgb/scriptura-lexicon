@@ -32,8 +32,11 @@
     </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="scriptures/reader.css">
+    <link rel="stylesheet" href="josefo/reader.css">
     <link rel="stylesheet" href="patristics/reader.css">
+    <link rel="stylesheet" href="filon/reader.css">
     <link rel="stylesheet" href="lexicons/dgp-format.css">
+    <link rel="stylesheet" href="ui/form-controls.css">
 </head>
 
 <body>
@@ -64,51 +67,76 @@
 
         <nav class="site-menu-nav" aria-label="Seções principais">
             <button type="button" class="site-menu-item" data-site-section="escrituras"><span class="site-scripture-icon" aria-hidden="true"></span><span>Escrituras Sagradas</span></button>
-            <button type="button" class="site-menu-item" data-site-section="patristica"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M5 21V4l7-2 7 2v17l-7 2-7-2ZM12 2v21M8 9h2m4 0h2m-8 4h2m4 0h2'/></svg><span>Literatura patrística</span></button>
-            <button type="button" class="site-menu-item" data-site-section="apocrifos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M6 3h13v18H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3ZM3 18a3 3 0 0 1 3-3h13M9 8h7m-7 3h5'/></svg><span>Literatura apócrifa</span></button>
-            <button type="button" class="site-menu-item" data-site-section="pseudepigrafos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M5 2h11l4 4v15H5V2Zm11 0v4h4M8 11h9m-9 4h9m-9 3h6'/></svg><span>Textos pseudepigráficos</span></button>
-            <button type="button" class="site-menu-item" data-site-section="josefo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h13v18H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm0 0a4 4 0 0 0 0 8h13M10 15h7m-7 3h5"/></svg><span>Obras de Flávio Josefo</span></button>
-            <button type="button" class="site-menu-item" data-site-section="filon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 18V8h14v10M3 8l9-5 9 5M9 11v5m6-5v5"/></svg><span>Obras de Fílon de Alexandria</span></button>
-            <button type="button" class="site-menu-item" data-site-section="dicionarios"><svg viewBox="0 0 24 24" aria-hidden="true"><path d='M3 5h7a4 4 0 0 1 4 4v12a4 4 0 0 0-4-4H3V5Zm18 0h-3a4 4 0 0 0-4 4v12a4 4 0 0 1 4-4h3V5ZM6 9h5m-5 3h5'/></svg><span>Dicionários e Léxicos</span></button>
-            <button type="button" class="site-menu-item" data-site-section="configuracoes"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx='12' cy='12' r='3'/><path d='M10 2h4l.6 2.4 2 1 2.2-1 2 3.3-1.7 1.8v2.3l1.7 1.8-2 3.3-2.2-1-2 1L14 20h-4l-.6-2.4-2-1-2.2 1-2-3.3 1.7-1.8v-2.3L3.2 8l2-3.3 2.2 1 2-1L10 2Z'/></svg><span>Configurações</span></button>
+            <button type="button" class="site-menu-item" data-site-section="patristica"><span class="site-patristic-icon" aria-hidden="true"></span><span>Literatura patrística</span></button>
+            <button type="button" class="site-menu-item" data-site-section="apocrifos"><span class="site-apocrypha-icon" aria-hidden="true"></span><span>Literatura apócrifa</span></button>
+            <button type="button" class="site-menu-item" data-site-section="pseudepigrafos"><span class="site-pseudepigrapha-icon" aria-hidden="true"></span><span>Textos pseudepigráficos</span></button>
+            <button type="button" class="site-menu-item" data-site-section="autores-gregos"><span class="site-greek-authors-icon" aria-hidden="true"></span><span>Escritores gregos</span></button>
+            <button type="button" class="site-menu-item" data-site-section="dicionarios"><span class="site-lexicons-icon" aria-hidden="true"></span><span>Dicionários e Léxicos</span></button>
+            <button type="button" class="site-menu-item" data-site-section="configuracoes"><span class="site-settings-icon" aria-hidden="true"></span><span>Configurações</span></button>
         </nav>
     </aside>
 
 
     <main class="container">
 
-        <header class="header">
+        <header class="header" aria-label="Navegação principal">
             <div class="header-main">
-                <button
-                    id="menu-toggle"
-                    class="menu-toggle"
-                    type="button"
-                    aria-label="Abrir menu de navegação"
-                    aria-controls="dictionary-menu"
-                    aria-expanded="false"
-                >
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M4 7h16M4 12h16M4 17h16"/>
-                    </svg>
-                </button>
-
-                <div>
-                    <div class="project-name">Scriptura Lexicon</div>
-                    <div class="project-subtitle">
-                        Hebraico–Português · Aramaico–Português · Grego–Português · Latim–Português
-                    </div>
+                <div class="site-brand" role="img" aria-label="Scriptura Lexicon">
+                    <!-- Mesmo desenho e tipografia vetorial original do SVG fornecido. -->
+                    <img id="site-brand-logo" class="site-brand-logo site-brand-logo--dark"
+                         src="imagens/logo-dark.svg" alt="" aria-hidden="true"
+                         width="300" height="190">
+                    <img class="site-brand-logo site-brand-logo--light"
+                         src="imagens/logo-light.svg" alt="" aria-hidden="true"
+                         width="300" height="190">
+                </div>
+                <div class="header-actions" role="group" aria-label="Atalhos de navegação">
+                    <button id="menu-toggle" class="menu-toggle" type="button"
+                            aria-label="Abrir menu de navegação"
+                            aria-controls="dictionary-menu" aria-expanded="false">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 7h16M4 12h16M4 17h16"/>
+                        </svg>
+                    </button>
+                    <button id="home-button" class="menu-toggle home-button"
+                            type="button" data-site-section="inicio"
+                            aria-label="Voltar à página inicial" title="Página inicial">
+                        <span class="home-icon" aria-hidden="true"></span>
+                    </button>
                 </div>
             </div>
-
-            <div class="project-short">LEXICON</div>
         </header>
 
         <section id="site-section-hub" class="site-section-hub" aria-labelledby="site-section-title" hidden>
-            <button type="button" class="site-back-link" data-site-section="inicio">← Página inicial</button>
-            <div class="site-section-kicker">Scriptura Lexicon · Biblioteca</div>
             <h1 id="site-section-title">Biblioteca</h1>
             <p id="site-section-description"></p>
+            <div id="site-philo-profile" class="site-philo-profile" hidden>
+                <figure class="site-philo-profile__portrait">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/PhiloThevet.jpg" alt="Representação artística de Fílon de Alexandria em gravura do século XVI" width="140" height="170" loading="lazy" decoding="async">
+                    <figcaption><a href="https://commons.wikimedia.org/wiki/File:PhiloThevet.jpg" target="_blank" rel="noopener noreferrer">Gravura de André Thevet (1584)</a> — representação posterior.</figcaption>
+                </figure>
+                <p class="site-philo-profile__bio author-biography" lang="pt-BR">Fílon de Alexandria (c. 20 a.C.–c. 50 d.C.) foi um filósofo e exegeta judeu de língua grega, ativo em Alexandria, no Egito romano. Representou sua comunidade numa embaixada ao imperador Calígula, por volta de 40 d.C. Seus tratados interpretam sobretudo o Pentateuco, articulando a tradição bíblica judaica e conceitos da filosofia grega, inclusive por meio da alegoria. Sua obra exerceu influência duradoura sobre a exegese e o pensamento religioso da Antiguidade.</p>
+            </div>
             <div id="site-section-cards" class="site-section-cards"></div>
+            <section id="site-greek-authors-content" class="site-subsection-content greek-authors-panel" aria-labelledby="greek-authors-search-title" hidden>
+                <h2 id="greek-authors-search-title">Escritores gregos — obras cadastradas</h2>
+                <p class="greek-authors-intro">Autores de língua grega, com as obras originais acessíveis nos leitores existentes. A numeração de cada edição é preservada.</p>
+                <form id="greek-authors-search" class="greek-authors-form">
+                    <div class="greek-authors-field">
+                        <label for="greek-author">Autor</label>
+                        <select id="greek-author" name="author" required><option value="">Selecione um autor</option></select>
+                    </div>
+                    <div class="greek-authors-field">
+                        <label for="greek-work">Obra</label>
+                        <select id="greek-work" name="work" disabled required><option value="">Selecione uma obra</option></select>
+                    </div>
+                    <div id="greek-authors-reference-fields" class="greek-authors-reference-fields" aria-label="Divisões da obra"></div>
+                    <div class="greek-authors-actions"><button type="submit" id="greek-authors-submit" disabled>Abrir texto integral</button></div>
+                </form>
+                <p id="greek-authors-status" class="greek-authors-status" role="status" aria-live="polite"></p>
+                <div id="greek-authors-results" class="greek-authors-results" aria-label="Trechos encontrados"></div>
+                <div id="greek-inline-reader" class="greek-inline-reader" role="region" aria-label="Leitor da obra selecionada" hidden></div>
+            </section>
             <div id="site-dictionary-options" class="site-subsection-content" hidden>        <nav class="dictionary-nav" aria-label="Escolher dicionário">
             <button class="dictionary-option" type="button" data-dictionary-target="hebraico">
                 <span class="dictionary-option-name">Hebraico–Português</span>
@@ -4235,6 +4263,18 @@
 
     </main>
 
+    <button
+        id="back-to-top"
+        class="back-to-top"
+        type="button"
+        aria-label="Voltar ao topo da página"
+        title="Voltar ao topo"
+        hidden
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 14l7-7 7 7M12 7v12"/>
+        </svg>
+    </button>
 
     <div
         id="lexical-tooltip"
@@ -4248,11 +4288,34 @@
     <script defer src="scriptures/chapter-manifest.js"></script>
     <script defer src="scriptures/chapter-loader.js"></script>
     <script defer src="scriptures/word-popups.js"></script>
+    <script defer src="scriptures/paragraphs.js"></script>
     <script defer src="scriptures/reader.js"></script>
     <script defer src="patristics/reader.js"></script>
+    <script defer src="patristics/paedagogus-reader.js"></script>
+    <script defer src="josefo/catalog.js"></script>
+    <script defer src="josefo/reader.js"></script>
+    <script defer src="josefo/historia-catalog.js"></script>
+    <script defer src="josefo/linguagem-apiao.js"></script>
+    <script defer src="josefo/historia-reader.js"></script>
+    <script defer src="filon/reader.js"></script>
+    <script defer src="filon/aeternitate-reader.js"></script>
+    <script defer src="filon/agricultura-reader.js"></script>
+    <script defer src="filon/opificio-reader.js"></script>
+    <script defer src="filon/legum-l1-reader.js"></script>
+    <script defer src="filon/cherubim-reader.js"></script>
+    <script defer src="filon/confusione-reader.js"></script>
+    <script defer src="filon/congressu-reader.js"></script>
+    <script defer src="filon/decalogo-reader.js"></script>
+    <script defer src="filon/ebrietate-reader.js"></script>
+    <script defer src="filon/fuga-reader.js"></script>
+    <script defer src="filon/gigantibus-reader.js"></script>
+    <script defer src="scriptures/greek-authors.js"></script>
     <script defer src="scriptures/sections.js"></script>
+    <script defer src="scriptures/greek-inline-reader.js"></script>
+    <script defer src="scriptures/back-to-top.js"></script>
     <script defer src="script.js"></script>
     <script defer src="lexicons/dgp-format.js"></script>
     <script defer src="lexicons/on-demand-search.js"></script>
+    <script defer src="ui/form-controls.js"></script>
 </body>
 </html>

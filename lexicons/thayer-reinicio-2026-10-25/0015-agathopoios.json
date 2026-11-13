@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0015",
+  "ordinal": 15,
+  "lemma_original": "ἀγαθοποιός, -όν",
+  "card_title": "ἀγαθοποιός, -όν",
+  "grammatical_class": "Adjetivo de duas terminações",
+  "printed_page": 2,
+  "source_english_full": "ἀγαθοποιός, -όν, acting rightly, doing well: 1 Pet. ii. 14. [Sir. xlii. 14; Plut. de Is. et Osir. § 42.]*",
+  "translation_portuguese_full": [
+    "Que age corretamente, que procede bem: 1Pe 2.14.",
+    "[Sr 42.14; Plutarco, De Iside et Osiride, § 42.]"
+  ],
+  "biblical_references": [
+    "1Pe 2.14",
+    "Sr 42.14"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Transcrição do verbete na fotografia fornecida pelo usuário, com manutenção literal das referências entre colchetes. Tradução portuguesa previamente apresentada no chat e expressamente aprovada para incorporação."
+    },
+    {
+      "type": "citacao_bibliografica",
+      "note": "A referência de Plutarco, De Iside et Osiride, § 42, permanece entre colchetes, conforme a edição impressa. Trata-se de testemunho literário, não de uma nova acepção."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0015\" data-lemma-alias=\"agathopoios\" data-search=\"ἀγαθοποιός ἀγαθοποιος agathopoios agir corretamente proceder bem doing well acting rightly adjetivo duas terminações 1Pe 2.14 Sr 42.14 Plutarco De Iside et Osiride 42\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγαθοποιός, -όν</td><td>Adjetivo de duas terminações</td><td>Que age corretamente; que procede bem</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0015\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγαθοποιός, -όν</h1><div class=\"entry-meta\">Adjetivo de duas terminações</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\"><em>Que age corretamente, que procede bem</em>: 1Pe 2.14.</p><p class=\"entry-text\">[Sr 42.14; Plutarco, <em>De Iside et Osiride</em>, § 42.]</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Fotografia original de Thayer, tradução portuguesa exibida e aprovada pelo usuário no chat. Texto inglês e tradução armazenados separadamente.",
+  "notes": "O lema com a terminação -όν consta somente no título; classificação gramatical apenas no subtítulo; corpo corresponde aos dois parágrafos aprovados.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0017"
+    ],
+    "requires_exact_card_match": true
+  }
+}

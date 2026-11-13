@@ -10,6 +10,7 @@ on:
       - 'lexicons/on-demand-search.js'
       - 'style.css'
       - 'tests/thayer-publication-smoke.mjs'
+      - 'tests/thayer-browser-smoke.mjs'
       - '.github/workflows/thayer-publication-validation.yml'
   pull_request:
     branches:
@@ -20,6 +21,7 @@ on:
       - 'lexicons/on-demand-search.js'
       - 'style.css'
       - 'tests/thayer-publication-smoke.mjs'
+      - 'tests/thayer-browser-smoke.mjs'
       - '.github/workflows/thayer-publication-validation.yml'
 
 permissions:
@@ -39,10 +41,21 @@ jobs:
           node --check scripts/build-on-demand.mjs
           node --check lexicons/on-demand-search.js
           node --check tests/thayer-publication-smoke.mjs
+          node --check tests/thayer-browser-smoke.mjs
       - name: Gerar catálogo completo
         run: node --max-old-space-size=4096 scripts/build-on-demand.mjs > /tmp/thayer-build.log 2>&1 || (tail -n 120 /tmp/thayer-build.log; exit 1)
       - name: Conferir verbetes integrais e busca
         run: node tests/thayer-publication-smoke.mjs
+      - name: Instalar Playwright e Chromium
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Iniciar servidor estático de testes
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/scriptura-thayer-http.log 2>&1 &
+          sleep 2
+      - name: Conferir pesquisa e cartões reais no Chromium
+        run: node tests/thayer-browser-smoke.mjs
       - name: Resumo da compilação
         if: always()
         run: tail -n 4 /tmp/thayer-build.log || true

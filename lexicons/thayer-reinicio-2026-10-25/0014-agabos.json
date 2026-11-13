@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0014",
+  "ordinal": 14,
+  "lemma_original": "Ἄγαβος",
+  "card_title": "Ἄγαβος",
+  "grammatical_class": "Nome próprio masculino (ὁ; genitivo -ου)",
+  "printed_page": 2,
+  "source_english_full": "Ἄγαβος [on the breathing see WH. Intr. § 408], -ου, ὁ, the name of a Christian prophet, Agabus: Acts xi. 28; xxi. 10. (Perhaps from עָגַב to love [cf. B. D. s. v.]).*",
+  "translation_portuguese_full": [
+    "[Sobre o espírito inicial, ver WH, Introdução, § 408.] Nome de um profeta cristão, Ágabo: At 11.28; 21.10.",
+    "(Talvez derivado do hebraico עָגַב, amar [cf. B. D., s. v.])."
+  ],
+  "biblical_references": [
+    "At 11.28",
+    "At 21.10"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "O original inglês foi transcrito da fotografia do impresso apresentada anteriormente no chat. A tradução portuguesa segue integralmente a versão aprovada pelo usuário. Abreviaturas e referência ao espírito inicial são preservadas."
+    },
+    {
+      "type": "variacao_do_espirito",
+      "note": "O lema aprovado da fotografia é Ἄγαβος; no acervo histórico a entrada é Ἅγαβος. A diferença de espírito está explicitamente discutida na observação de Thayer sobre WH Intr. § 408. As grafias são mantidas, sem apagar a fonte histórica; o mapeamento é apenas para a apresentação."
+    },
+    {
+      "type": "hipotese_etimologica",
+      "note": "A derivação do hebraico עָגַב é expressamente conjectural ('Perhaps'), traduzida como 'Talvez', e não é tratada como etimologia estabelecida."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0014\" data-lemma-alias=\"agabo;agabus;Ἅγαβος\" data-search=\"Ἄγαβος Ἅγαβος Ágabo Agabus profeta cristão At 11.28 At 21.10 עָגַב hebraico amar Westcott Hort WH Introdução 408 Thayer\" tabindex=\"0\"><td class=\"table-lemma greek\">Ἄγαβος</td><td>Nome próprio masculino</td><td>Ágabo, profeta cristão</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0014\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἄγαβος</h1><div class=\"entry-meta\">Nome próprio masculino (ὁ; genitivo -ου)</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">[Sobre o espírito inicial, ver WH, <em>Introdução</em>, § 408.] Nome de um profeta cristão, <strong>Ágabo</strong>: At 11.28; 21.10.</p><p class=\"entry-text\">(Talvez derivado do hebraico <span lang=\"he\" dir=\"rtl\">עָגַב</span>, <em>amar</em> [cf. B. D., <em>s. v.</em>]).</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Fotografia da página impressa enviada pelo usuário; transcrição de trabalho, tradução já apresentada no chat e expressamente aprovada para incorporação.",
+  "notes": "Classe gramatical no subtítulo; artigo original, português e metadados editoriais em camadas separadas; nenhuma informação editorial no cartão.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0013"
+    ],
+    "requires_exact_card_match": true
+  }
+}

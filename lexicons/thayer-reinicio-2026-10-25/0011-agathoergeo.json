@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0011",
+  "ordinal": 11,
+  "lemma_original": "ἀγαθοεργέω, -ῶ",
+  "card_title": "ἀγαθοεργέω, -ῶ",
+  "grammatical_class": "Verbo",
+  "printed_page": 2,
+  "source_english_full": "ἀγαθοεργέω, -ῶ; (fr. the unused ΕΡΓΩ — equiv. to ἔρδω, ἐργάζομαι — and ἀγαθόν); to be ἀγαθοεργός, beneficent (towards the poor, the needy): 1 Tim. vi. 18 [A. V. do good]. Cf. ἀγαθουργέω. Found besides only in eccl. writ., but in the sense to do well, act rightly.*",
+  "translation_portuguese_full": [
+    "(Derivado da forma não atestada ΕΡΓΩ — equivalente a ἔρδω, ἐργάζομαι — e de ἀγαθόν); ser ἀγαθοεργός, beneficente (para com os pobres, os necessitados): 1Tm 6.18 [A. V.: fazer o bem].",
+    "Cf. ἀγαθουργέω. Encontra-se, além disso, somente em escritos eclesiásticos, porém com o sentido de fazer bem, agir retamente."
+  ],
+  "biblical_references": [
+    "1Tm 6.18"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Transcrição inglesa de trabalho preparada a partir da fotografia enviada pelo usuário. A tradução foi apresentada no chat e posteriormente aprovada para commit. O texto original e o português permanecem em campos distintos."
+    },
+    {
+      "type": "abreviatura",
+      "note": "A. V. = Authorized Version, tal como o impresso. A glosa do good foi traduzida no corpo como fazer o bem, sem acrescentar explicação editorial no cartão."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0011\" data-lemma-alias=\"agathoergeo;agathoergeo;beneficente\" data-search=\"ἀγαθοεργέω ἀγαθοεργῶ agathoergeo beneficente fazer o bem agir retamente ἀγαθοεργός ΕΡΓΩ ἔρδω ἐργάζομαι ἀγαθόν ἀγαθουργέω 1Tm 6.18 verbo A. V.\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγαθοεργέω, -ῶ</td><td>Verbo</td><td>Ser beneficente; fazer o bem; agir retamente</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0011\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγαθοεργέω, -ῶ</h1><div class=\"entry-meta\">Verbo</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(Derivado da forma não atestada <span lang=\"grc\">ΕΡΓΩ</span> — equivalente a <span lang=\"grc\">ἔρδω, ἐργάζομαι</span> — e de <span lang=\"grc\">ἀγαθόν</span>); ser <span lang=\"grc\">ἀγαθοεργός</span>, <em>beneficente</em> (para com os pobres, os necessitados): 1Tm 6.18 [A. V.: <em>fazer o bem</em>].</p><p class=\"entry-text\">Cf. <span lang=\"grc\">ἀγαθουργέω</span>. Encontra-se, além disso, somente em escritos eclesiásticos, porém com o sentido de <em>fazer bem, agir retamente</em>.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Fotografia do exemplar impresso apresentada pelo usuário em 2026-10-26; tradução aprovada posteriormente. Verbete Ἄγαβος permanece pendente de incorporação, não entra nesta operação.",
+  "notes": "Lema no título; classe verbal somente no subtítulo; definições e todas as citações do verbete traduzido preservadas.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0014"
+    ],
+    "requires_exact_card_match": true
+  }
+}

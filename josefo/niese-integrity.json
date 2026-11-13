@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "hash": "FNV-1a 64-bit over UTF-16 code units; each TEI section normalized as a whole after joining its paragraphs; lines are chapter:number<TAB>text<LF>",
+  "basis": "Source Perseus TEI/XML, SHA git blob verificadas em 26/10/2026",
+  "works": {
+    "guerra": {
+      "source": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0526/tlg004/tlg0526.tlg004.perseus-grc2.xml",
+      "cts": "urn:cts:greekLit:tlg0526.tlg004.perseus-grc2",
+      "sourceBlobSha": "335a9957e05242bbba3f7ada9a4c80978d15c7f6",
+      "books": {
+        "1": {
+          "sections": 673,
+          "chapters": 33,
+          "first": 1,
+          "last": 673,
+          "fingerprint": "19c86415257c3ec5"
+        },
+        "2": {
+          "sections": 654,
+          "chapters": 22,
+          "first": 1,
+          "last": 654,
+          "fingerprint": "7f3b477e4e5dcc69"
+        },
+        "3": {
+          "sections": 542,
+          "chapters": 10,
+          "first": 1,
+          "last": 542,
+          "fingerprint": "59a99639532edb46"
+        },
+        "4": {
+          "sections": 663,
+          "chapters": 11,
+          "first": 1,
+          "last": 663,
+          "fingerprint": "21a6b5075848b472"
+        },
+        "5": {
+          "sections": 572,
+          "chapters": 13,
+          "first": 1,
+          "last": 572,
+          "fingerprint": "7a20c6630fa9ee88"
+        },
+        "6": {
+          "sections": 442,
+          "chapters": 10,
+          "first": 1,
+          "last": 442,
+          "fingerprint": "80a6a5181ed3a43c"
+        },
+        "7": {
+          "sections": 455,
+          "chapters": 11,
+          "first": 1,
+          "last": 455,
+          "fingerprint": "8620602a974c1888"
+        }
+      },
+      "bookCount": 7,
+      "sectionCount": 4001,
+      "chapterCount": 110
+    },
+    "antiguidades": {
+      "source": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0526/tlg001/tlg0526.tlg001.perseus-grc2.xml",
+      "cts": "urn:cts:greekLit:tlg0526.tlg001.perseus-grc2",
+      "sourceBlobSha": "b7311f2559afeb84a9f95484d8d02d04a0bad86c",
+      "books": {
+        "1": {
+          "sections": 346,
+          "chapters": 22,
+          "first": 1,
+          "last": 346,
+          "fingerprint": "c17c15daae0131a8",
+          "argumentFingerprint": "f657b0d3bd441aba"
+        },
+        "2": {
+          "sections": 349,
+          "chapters": 16,
+          "first": 1,
+          "last": 349,
+          "fingerprint": "ab9c4f62271b9e14",
+          "argumentFingerprint": "efe57592d452f32c"
+        },
+        "3": {
+          "sections": 322,
+          "chapters": 15,
+          "first": 1,
+          "last": 322,
+          "fingerprint": "e0b8abc4a92d8452",
+          "argumentFingerprint": "055396d1a5b8d4e6"
+        },
+        "4": {
+          "sections": 331,
+          "chapters": 8,
+          "first": 1,
+          "last": 331,
+          "fingerprint": "3cd92bd458dd7d18",
+          "argumentFingerprint": "0ddfd7237100dd67"
+        },
+        "5": {
+          "sections": 362,
+          "chapters": 11,
+          "first": 1,
+          "last": 362,
+          "fingerprint": "c9fe6d9de6fe938a",
+          "argumentFingerprint": "9b82caeaf94b134a"
+        },
+        "6": {
+          "sections": 378,
+          "chapters": 14,
+          "first": 1,
+          "last": 378,
+          "fingerprint": "602fc7f95e3b12fb",
+          "argumentFingerprint": "2347ce42f105c670"
+        },
+        "7": {
+          "sections": 394,
+          "chapters": 15,
+          "first": 1,
+          "last": 394,
+          "fingerprint": "571ce3731ac71c53",
+          "argumentFingerprint": "11e2b34cc113f600"
+        },
+        "8": {
+          "sections": 420,
+          "chapters": 15,
+          "first": 1,
+          "last": 420,
+          "fingerprint": "037a57fd79221ad3",
+          "argumentFingerprint": "3c2da9f509121e52"
+        },
+        "9": {
+          "sections": 291,
+          "chapters": 14,
+          "first": 1,
+          "last": 291,
+          "fingerprint": "e2013d5f6062cb51",
+          "argumentFingerprint": "0a5589f3f163fba9"
+        },
+        "10": {
+          "sections": 281,
+          "chapters": 11,
+          "first": 1,
+          "last": 281,
+          "fingerprint": "4c5eda2a6c3fbd56",
+          "argumentFingerprint": "55e68a7a77be1d3c"
+        },
+        "11": {
+          "sections": 347,
+          "chapters": 8,
+          "first": 1,
+          "last": 347,
+          "fingerprint": "d356faf017761929",
+          "argumentFingerprint": "47acd7d50a65433b"
+        },
+        "12": {
+          "sections": 434,
+          "chapters": 11,
+          "first": 1,
+          "last": 434,
+          "fingerprint": "69497ce7f798e0c3",
+          "argumentFingerprint": "a6f5fdb1a0580e7d"
+        },
+        "13": {
+          "sections": 433,
+          "chapters": 16,
+          "first": 1,
+          "last": 433,
+          "fingerprint": "fbbd02d4953ec198",
+          "argumentFingerprint": "0955638b772da49f"
+        },
+        "14": {
+          "sections": 491,
+          "chapters": 16,
+          "first": 1,
+          "last": 491,
+          "fingerprint": "7f3ce6796563ce16",
+          "argumentFingerprint": "76c564300ed2721f"
+        },
+        "15": {
+          "sections": 425,
+          "chapters": 11,
+          "first": 1,
+          "last": 425,
+          "fingerprint": "9bb2cff8397dd461",
+          "argumentFingerprint": "c9c0544637a9fd5c"
+        },
+        "16": {
+          "sections": 404,
+          "chapters": 11,
+          "first": 1,
+          "last": 404,
+          "fingerprint": "081bad2d6aba567d",
+          "argumentFingerprint": "4f4fc00a3f0f9f5e"
+        },
+        "17": {
+          "sections": 355,
+          "chapters": 13,
+          "first": 1,
+          "last": 355,
+          "fingerprint": "08bd7b12baaca8f1",
+          "argumentFingerprint": "e770f3db537a39d0"
+        },
+        "18": {
+          "sections": 379,
+          "chapters": 9,
+          "first": 1,
+          "last": 379,
+          "fingerprint": "ec35cfd72cabd537",
+          "argumentFingerprint": "cbe81ad1c7842900"
+        },
+        "19": {
+          "sections": 366,
+          "chapters": 9,
+          "first": 1,
+          "last": 366,
+          "fingerprint": "3150f576979a3364",
+          "argumentFingerprint": "966a9dba5bb78065"
+        },
+        "20": {
+          "sections": 268,
+          "chapters": 12,
+          "first": 1,
+          "last": 268,
+          "fingerprint": "4819550c6b163747",
+          "argumentFingerprint": "91af46a40b20c3d0"
+        }
+      },
+      "bookCount": 20,
+      "sectionCount": 7376,
+      "chapterCount": 257
+    }
+  }
+}

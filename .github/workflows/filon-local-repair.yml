@@ -1,0 +1,36 @@
+name: Filon - reparo local dos leitores
+on:
+  pull_request:
+    branches: [chat-gpt-commits]
+    paths:
+      - 'scripts/reparar-leitores-filon-local.ps1'
+      - '.github/workflows/filon-local-repair.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-local-repair:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir sintaxe PowerShell
+        shell: pwsh
+        run: |
+          $tokens=$null
+          $errors=$null
+          [System.Management.Automation.Language.Parser]::ParseFile('scripts/reparar-leitores-filon-local.ps1',[ref]$tokens,[ref]$errors) | Out-Null
+          if($errors.Count -gt 0){ $errors | ForEach-Object { Write-Error $_.Message }; exit 1 }
+      - name: Simular pasta local antiga e conferir incorporacao
+        shell: pwsh
+        run: |
+          $root=Join-Path $env:RUNNER_TEMP 'filon-site-antigo'
+          New-Item -ItemType Directory -Path (Join-Path $root 'scriptures') -Force | Out-Null
+          Set-Content -Path (Join-Path $root 'index.html') -Value '<html>old</html>'
+          Set-Content -Path (Join-Path $root 'scriptures/greek-authors.js') -Value '// old'
+          & ./scripts/reparar-leitores-filon-local.ps1 -PastaSite $root
+          $fuga=Get-Content -Raw -Encoding UTF8 -Path (Join-Path $root 'filon/data/tlg0018.tlg017.1st1K-grc1.xml')
+          $gig=Get-Content -Raw -Encoding UTF8 -Path (Join-Path $root 'filon/data/tlg0018.tlg007.1st1K-grc1.xml')
+          $catalog=Get-Content -Raw -Encoding UTF8 -Path (Join-Path $root 'scriptures/greek-authors.js')
+          if(-not ($fuga.Contains('De fuga et inventione') -and $gig.Contains('De gigantibus') -and $catalog.Contains('ScripturaPhiloFuga') -and $catalog.Contains('ScripturaPhiloGigantibus'))) { throw 'Corpus nao incorporado no ambiente de teste' }
+          Write-Host 'FILON_LOCAL_REPAIR_PASS: TEI integral e dois leitores instalados em raiz antiga'

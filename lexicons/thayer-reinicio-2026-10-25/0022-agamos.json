@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0022",
+  "ordinal": 22,
+  "lemma_original": "ἄ-γαμος, -ον",
+  "card_title": "ἄ-γαμος, -ον",
+  "grammatical_class": "Adjetivo de duas terminações",
+  "printed_page": 3,
+  "source_english_full": "ἄ-γαμος, -ον, (γάμος), unmarried: 1 Co. vii. 8, 32; used even of women, 1 Co. vii. 11, 34 (Eur. Hel. 690 [and elsewhere]), where the Grks. commonly said ἄνανδρος.",
+  "translation_portuguese_full": [
+    "(De γάμος.) Não casado, solteiro: 1Co 7.8,32.",
+    "Empregado também a respeito de mulheres, 1Co 7.11,34 (Eurípides, Helena, 690 [e em outras passagens]), casos em que os gregos geralmente empregavam ἄνανδρος."
+  ],
+  "biblical_references": [
+    "1Co 7.8,32",
+    "1Co 7.11,34"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Texto original transcrito da fotografia impressa fornecida pelo usuário. Tradução portuguesa integral apresentada em chat, aprovada em lote, preservada em campo próprio."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0022\" data-lemma-alias=\"agamos;solteiro\" data-search=\"ἄ-γαμος, -ον Adjetivo de duas terminações Não casado; solteiro 1Co 7.8,32 1Co 7.11,34 agamos;solteiro\" tabindex=\"0\"><td class=\"table-lemma greek\">ἄ-γαμος, -ον</td><td>Adjetivo de duas terminações</td><td>Não casado; solteiro</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0022\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἄ-γαμος, -ον</h1><div class=\"entry-meta\">Adjetivo de duas terminações</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(De γάμος.) Não casado, solteiro: 1Co 7.8,32.</p><p class=\"entry-text\">Empregado também a respeito de mulheres, 1Co 7.11,34 (Eurípides, Helena, 690 [e em outras passagens]), casos em que os gregos geralmente empregavam ἄνανδρος.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO; INDEXAÇÃO SUJEITA A VALIDAÇÃO",
+  "provenance": "Fotografias impressas e tradução aprovada no chat em 28/10/2026",
+  "notes": "Lema apenas no título; categoria apenas no subtítulo; preservar citações e ressalvas.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0024"
+    ],
+    "requires_exact_card_match": true,
+    "legacy_lookup_lemma": "ἄγαμος"
+  }
+}

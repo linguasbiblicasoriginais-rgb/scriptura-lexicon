@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0008",
+  "ordinal": 8,
+  "lemma_original": "Ἀβιά",
+  "card_title": "Ἀβιά",
+  "grammatical_class": "Nome próprio indeclinável",
+  "printed_page": 1,
+  "source_english_full": "Ἀβιά, indecl. prop. name (Joseph. antt. 7, 10, 3; 8, 10, 1 ὁ Ἀβίας [W. § 6, 1 n.], -α), אֲבִיָּה and אֲבִיָּהוּ (my father is Jehovah), Abia [or Abijah, cf. B. D. s. v.], 1. a king of Judah, son of Rehoboam: Mt. i. 7 (1 K. xiv. 31; xv. 1). 2. a priest, the head of a sacerdotal family, from whom, when David divided the priests into twenty-four classes (1 Chr. xxiv. 10), the class Abia, the eighth in order, took its name: Lk. i. 5.*",
+  "translation_portuguese_full": [
+    "(Em Josefo, Antiguidades Judaicas, 7.10.3; 8.10.1, ὁ Ἀβίας [W., § 6, 1, n.], -α), do hebraico אֲבִיָּה e אֲבִיָּהוּ (meu pai é Jeová), Abia [ou Abias; cf. B. D., s. v.]:",
+    "1. Um rei de Judá, filho de Roboão: Mt 1.7 (1Re 14.31; 15.1).",
+    "2. Um sacerdote, chefe de uma família sacerdotal, da qual, quando Davi dividiu os sacerdotes em vinte e quatro turmas (1Cr 24.10), a turma de Abia, a oitava na ordem, recebeu seu nome: Lc 1.5."
+  ],
+  "biblical_references": [
+    "Mt 1.7",
+    "1Re 14.31",
+    "1Re 15.1",
+    "1Cr 24.10",
+    "Lc 1.5"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Transcrição de trabalho conferida visualmente com a fotografia do verbete impresso enviada pelo usuário em 2026-10-26. Transliterações, interpretações e referências registradas conforme a fotografia e a tradução já apresentada."
+    },
+    {
+      "type": "sigla_bibliografica",
+      "note": "A pequena indicação após W. § 6, 1 tem legibilidade limitada na fotografia; a tradução conserva a leitura 'n.' já apresentada ao usuário. Conferir essa letra diretamente no exemplar impresso se necessário, sem atribuir certeza maior à fotografia."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0008\" data-lemma-alias=\"abia;abias\" data-search=\"Ἀβιά Ἀβίας Abia Abias אֲבִיָּה אֲבִיָּהוּ Jeová nome próprio rei Judá Roboão sacerdote família turma Davi Mt 1.7 1Re 14.31 1Re 15.1 1Cr 24.10 Lc 1.5 Josefo\" tabindex=\"0\"><td class=\"table-lemma greek\">Ἀβιά</td><td>Nome próprio indeclinável</td><td>Abia; rei de Judá e chefe de família sacerdotal</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0008\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἀβιά</h1><div class=\"entry-meta\">Nome próprio indeclinável</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(Em Josefo, <em>Antiguidades Judaicas</em>, 7.10.3; 8.10.1, <span lang=\"grc\">ὁ Ἀβίας</span> [W., § 6, 1, n.], -α), do hebraico <span lang=\"he\" dir=\"rtl\">אֲבִיָּה</span> e <span lang=\"he\" dir=\"rtl\">אֲבִיָּהוּ</span> (<em>meu pai é Jeová</em>), <strong>Abia</strong> [ou <strong>Abias</strong>; cf. B. D., <em>s. v.</em>]:</p><p class=\"entry-text\"><strong>1.</strong> Um rei de Judá, filho de Roboão: Mt 1.7 (1Re 14.31; 15.1).</p><p class=\"entry-text\"><strong>2.</strong> Um sacerdote, chefe de uma família sacerdotal, da qual, quando Davi dividiu os sacerdotes em vinte e quatro turmas (1Cr 24.10), a turma de Abia, a oitava na ordem, recebeu seu nome: Lc 1.5.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Fotografia da edição impressa fornecida pelo usuário na conversa. Tradução formatada apresentada e continuidade autorizada. Metadados não exibidos no corpo.",
+  "notes": "Lema exclusivamente no título; classe gramatical somente no subtítulo; acepções 1 e 2 completas.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0007"
+    ],
+    "requires_exact_card_match": true
+  }
+}

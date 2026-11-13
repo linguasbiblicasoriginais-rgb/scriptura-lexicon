@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0009",
+  "ordinal": 9,
+  "lemma_original": "Ἀβιούδ",
+  "card_title": "Ἀβιούδ",
+  "grammatical_class": "Nome próprio masculino indeclinável (ὁ)",
+  "printed_page": 2,
+  "source_english_full": "Ἀβιούδ, ὁ, indecl. prop. name, אֲבִיהוּד (father of the Jews [al. of glory]), Abiud, son of Zorobabel or Zerubbabel: Mt. i. 13.*",
+  "translation_portuguese_full": [
+    "Do hebraico אֲבִיהוּד (pai dos judeus [ou, segundo outra interpretação, pai da glória]), Abiúde, filho de Zorobabel ou Zerubabel: Mt 1.13."
+  ],
+  "biblical_references": [
+    "Mt 1.13"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Artigo transcrito da fotografia da edição impressa fornecida pelo usuário. A tradução reproduz integralmente a versão já apresentada e aprovada; inclui o artigo grego ὁ na classificação do cabeçalho."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0009\" data-lemma-alias=\"abiude;abiud\" data-search=\"Ἀβιούδ Abiud Abiúde אֲבִיהוּד pai dos judeus pai da glória Zorobabel Zerubabel nome próprio masculino indeclinável Mt 1.13 Thayer\" tabindex=\"0\"><td class=\"table-lemma greek\">Ἀβιούδ</td><td>Nome próprio masculino indeclinável</td><td>Abiúde, filho de Zorobabel</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0009\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">Ἀβιούδ</h1><div class=\"entry-meta\">Nome próprio masculino indeclinável (ὁ)</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">Do hebraico <span lang=\"he\" dir=\"rtl\">אֲבִיהוּד</span> (<em>pai dos judeus</em> [ou, segundo outra interpretação, <em>pai da glória</em>]), <strong>Abiúde</strong>, filho de Zorobabel ou Zerubabel: Mt 1.13.</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Fotografia do impresso apresentada e tradução aprovada no chat; sem repetição da categoria gramatical no corpo.",
+  "notes": "A classe gramatical e o artigo ὁ aparecem no subtítulo; corpo apenas a definição integral aprovada. A forma inglesa source_english_full constitui transcrição da fotografia, não OCR do BibleWorks.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0010"
+    ],
+    "requires_exact_card_match": true
+  }
+}

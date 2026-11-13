@@ -2071,9 +2071,25 @@ tbody tr:last-child td {
 .site-menu-item:hover,.site-menu-item:focus-visible,.site-menu-item.active{color:var(--text-primary);background:var(--surface-3);border-color:var(--border);outline:none}
 .site-section-hub[hidden],.site-subsection-content[hidden],.site-back-link[hidden]{display:none!important}
 .site-section-hub{padding:20px 0 50px;color:var(--text-primary)}
-.site-section-kicker{font-size:.73rem;color:var(--accent-light);letter-spacing:.1em;font-weight:700;text-transform:uppercase}
 .site-section-hub h1{font-size:clamp(1.6rem,4vw,2.4rem);margin:12px 0;line-height:1.3}
 #site-section-description{max-width:760px;color:var(--text-secondary);margin:0 0 30px}
+#site-section-description[hidden],#site-philo-profile[hidden]{display:none!important}
+.site-philo-profile{display:flex;align-items:flex-start;gap:24px;max-width:960px;margin:10px 0 30px}
+.site-philo-profile__portrait{flex:0 0 140px;width:140px;margin:0}
+.site-philo-profile__portrait img{display:block;width:140px;height:170px;object-fit:cover;object-position:50% 16%;border:1px solid var(--border);border-radius:9px;background:var(--surface-1);filter:grayscale(1)}
+.site-philo-profile__portrait figcaption{margin-top:7px;font-size:.69rem;line-height:1.4;color:var(--text-secondary)}
+.site-philo-profile__portrait figcaption a{color:inherit;text-underline-offset:2px}
+.site-philo-profile__bio{flex:1;min-width:0;margin:0;color:var(--text-secondary);line-height:1.72;font-size:.98rem}
+/* Regra editorial reutilizável para TODOS os escritores atuais e futuros.
+   Adicionar class="author-biography" a cada minibiografia. Não afeta
+   legendas de retratos, títulos, notas editoriais nem texto grego. */
+.author-biography{
+ text-align:justify;
+ text-align-last:start;
+ hyphens:auto;
+ overflow-wrap:break-word;
+}
+@media(max-width:560px){.site-philo-profile{flex-direction:column;gap:15px}.site-philo-profile__portrait{width:125px;flex-basis:auto}.site-philo-profile__portrait img{width:125px;height:153px}.site-philo-profile__bio{font-size:.94rem}}
 .site-section-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:15px}
 .site-section-card{min-height:125px;display:grid;gap:9px;align-content:start;border:1px solid var(--border);border-radius:13px;background:var(--surface-1);color:var(--text-primary);padding:20px;font:inherit;text-align:left;cursor:pointer}
 .site-section-card strong{line-height:1.45;font-size:1.02rem}.site-section-card span{color:var(--text-secondary);font-size:.82rem;line-height:1.5}
@@ -2114,3 +2130,424 @@ tbody tr:last-child td {
     width:25px;
     height:25px;
 }
+
+
+/* Biblioteca bíblica — cartões editoriais por sigla e edição. */
+.site-section-cards--editions {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 235px), 1fr));
+    gap: 16px;
+}
+.site-section-card--edition {
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 26px 20px 18px;
+    text-align: center;
+    transition: border-color .2s, background .2s, transform .2s;
+}
+.site-section-card--edition .edition-sigla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 112px;
+    font-size: clamp(4.2rem, 8vw, 6.6rem);
+    line-height: 1;
+    font-weight: 700;
+    margin: 0 0 18px;
+    color: var(--text-primary);
+    letter-spacing: -.045em;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+/* As siglas longas usam tamanhos proporcionais à largura dos cartões. */
+.site-section-card--edition[data-site-edition="LXX"] .edition-sigla,
+.site-section-card--edition[data-site-edition="VUL"] .edition-sigla {
+    font-size: clamp(3.8rem, 6vw, 5rem);
+}
+.site-section-card--edition[data-site-edition="VULJ"] .edition-sigla,
+.site-section-card--edition[data-site-edition="NA28"] .edition-sigla,
+.site-section-card--edition[data-site-edition="UBS5"] .edition-sigla {
+    font-size: clamp(3.2rem, 4.5vw, 3.8rem);
+}
+.site-section-card--edition[data-site-edition="SBLGNT"] .edition-sigla {
+    font-size: clamp(2.6rem, 3.8vw, 3.1rem);
+}
+.site-section-card--edition .edition-name {
+    display: block;
+    color: var(--text-primary);
+    font-size: .97rem;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.site-section-card--edition .edition-subtitle {
+    display: block;
+    color: var(--text-secondary);
+    font-size: .8rem;
+    line-height: 1.4;
+    margin-top: 4px;
+}
+.site-section-card--edition .edition-description {
+    align-self: stretch;
+    margin-top: auto;
+    padding-top: 24px;
+    text-align: left;
+    color: var(--text-secondary);
+    font-size: .76rem;
+    line-height: 1.4;
+}
+.site-section-card--edition:hover { transform: translateY(-3px); }
+.site-section-card--edition:focus-visible {
+    outline: 2px solid var(--accent-light);
+    outline-offset: 3px;
+}
+@media (max-width: 600px) {
+    .site-section-card--edition {
+        min-height: 250px;
+    }
+    .site-section-card--edition .edition-sigla {
+        min-height: 92px;
+        font-size: clamp(3.4rem, 12vw, 5.2rem);
+    }
+}
+
+/* Literatura patrística — SVG original aplicado ao menu e ao cartão inicial.
+   A máscara utiliza a transparência e acompanha a cor dos temas. */
+.site-patristic-icon,
+.site-section-card--patristic strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/literatura-patristica.svg");
+    mask-image:url("imagens/icones/literatura-patristica.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--patristic strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--patristic strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
+
+/* Configurações — ícone SVG vetorial monocromático no menu e cartão inicial. */
+.site-settings-icon,
+.site-section-card--settings strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/configuracoes.svg");
+    mask-image:url("imagens/icones/configuracoes.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:84% 84%;
+    mask-size:84% 84%;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--settings strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--settings strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
+
+/* Flávio Josefo — retrato vetorial original, adaptado ao tema por máscara CSS. */
+.site-josephus-icon,
+.site-section-card--josephus strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/flavio-josefo.svg");
+    mask-image:url("imagens/icones/flavio-josefo.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--josephus strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--josephus strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
+
+/* Autores gregos — identidade clássica e pesquisa hierárquica por obra. */
+.site-greek-authors-icon,
+.site-section-card--greek-authors strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask:url("imagens/icones/autores-gregos.svg") center / contain no-repeat;
+    mask:url("imagens/icones/autores-gregos.svg") center / contain no-repeat;
+}
+.site-section-card--greek-authors strong {display:flex;align-items:center;gap:10px}
+.site-section-card--greek-authors strong::before {content:"";width:25px;height:25px}
+#site-greek-authors-content[hidden]{display:none!important}
+.greek-authors-panel h2{font-size:1.12rem;line-height:1.35;margin:0 0 8px;color:var(--text-primary)}
+.greek-authors-intro{color:var(--text-secondary);font-size:.88rem;line-height:1.55;margin:0 0 22px}
+.greek-authors-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:end}
+.greek-authors-field{display:grid;gap:6px;min-width:0}
+.greek-authors-field label{font-size:.83rem;font-weight:700;color:var(--text-primary)}
+.greek-authors-field select,.greek-authors-field input{
+    width:100%;min-height:42px;border:1px solid var(--border);border-radius:9px;
+    background:var(--surface-2);color:var(--text-primary);font:inherit;
+    padding:8px 10px;box-sizing:border-box;
+}
+.greek-authors-field select:focus-visible,.greek-authors-field input:focus-visible,
+.greek-authors-actions button:focus-visible{outline:2px solid var(--accent-light);outline-offset:2px}
+.greek-authors-field select:disabled,.greek-authors-field input:disabled{opacity:.65;cursor:not-allowed}
+.greek-authors-reference-fields{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.greek-authors-actions{grid-column:1/-1}
+.greek-authors-actions button{background:var(--accent-dark);color:white;border:0;border-radius:9px;min-height:42px;padding:9px 18px;font:inherit;font-weight:700;cursor:pointer}
+.greek-authors-actions button:disabled{opacity:.5;cursor:not-allowed}
+.greek-authors-status{margin:17px 0 0;color:var(--text-secondary);font-size:.86rem;line-height:1.5}
+.greek-authors-results{margin-top:18px;display:grid;gap:12px}
+.greek-authors-result{border:1px solid var(--border);border-radius:10px;background:var(--surface-2);padding:15px}
+.greek-authors-result strong{display:block;color:var(--text-primary);margin-bottom:8px}
+.greek-authors-result p{margin:7px 0 0;line-height:1.6;white-space:pre-wrap;color:var(--text-primary)}
+.greek-authors-result .greek-authors-translation{font-size:.91rem;color:var(--text-secondary)}
+@media(max-width:600px){.greek-authors-form,.greek-authors-reference-fields{grid-template-columns:minmax(0,1fr)}}
+/* Dicionários e Léxicos — SVG original, cor adaptável aos temas claro/escuro. */
+.site-lexicons-icon,
+.site-section-card--lexicons strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/dicionarios-lexicos.svg");
+    mask-image:url("imagens/icones/dicionarios-lexicos.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--lexicons strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--lexicons strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
+/* Literatura apócrifa — SVG original aplicado ao menu lateral e ao cartão inicial.
+   O formato monocromático acompanha os temas claro e escuro por currentColor. */
+.site-apocrypha-icon,
+.site-section-card--apocrypha strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/literatura-apocrifa.svg");
+    mask-image:url("imagens/icones/literatura-apocrifa.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--apocrypha strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--apocrypha strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
+/* Textos pseudepigráficos — curvas vetoriais do SVG original, ajustadas pela cor do tema. */
+.site-pseudepigrapha-icon,
+.site-section-card--pseudepigrapha strong::before {
+    display:inline-block;
+    flex:none;
+    width:22px;
+    height:22px;
+    background-color:currentColor;
+    -webkit-mask-image:url("imagens/icones/textos-pseudepigraficos.svg");
+    mask-image:url("imagens/icones/textos-pseudepigraficos.svg");
+    -webkit-mask-position:center;
+    mask-position:center;
+    -webkit-mask-size:contain;
+    mask-size:contain;
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    vertical-align:middle;
+}
+.site-section-card--pseudepigrapha strong {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.site-section-card--pseudepigrapha strong::before {
+    content:"";
+    width:25px;
+    height:25px;
+}
+
+/* Cabeçalho no fluxo normal: não acompanha a rolagem. */
+.header {
+    position: static;
+    display: block;
+    min-height: 0;
+    margin: 0 0 28px;
+    padding: 14px 0 18px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-width: 0;
+}
+.site-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 0;
+}
+.site-brand-logo {
+    display: block;
+    width: clamp(220px, 28vw, 300px);
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    filter: none;
+}
+.site-brand-logo--light { display: none; }
+:root[data-theme="light"] .site-brand-logo--dark { display: none; }
+:root[data-theme="light"] .site-brand-logo--light { display: block; }
+.header-actions {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 12px;
+}
+.header .menu-toggle {
+    margin-top: 0;
+    color: var(--interactive);
+    background: var(--surface-1);
+    border-color: var(--border);
+}
+.header .menu-toggle:hover,
+.header .menu-toggle:focus-visible {
+    color: var(--interactive-hover);
+    border-color: var(--accent);
+}
+.home-icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: currentColor;
+    -webkit-mask: url("imagens/icones/home.svg") center / contain no-repeat;
+    mask: url("imagens/icones/home.svg") center / contain no-repeat;
+}
+#site-section-cards[hidden] { display: none !important; }
+#site-section-hub[data-active-section="autores-gregos"] #site-section-cards,
+#site-section-hub[data-active-section="patristica"] #site-section-cards { display: none !important; }
+#site-section-hub[data-active-section="autores-gregos"] #site-greek-authors-content,
+#site-section-hub[data-active-section="patristica"] #site-greek-authors-content { margin-top: 0; }
+
+/* Navegação independente de rolagem: botão de retorno ao topo. */
+.back-to-top {
+    position: fixed;
+    right: max(20px, env(safe-area-inset-right, 0px));
+    bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    z-index: 90;
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    color: var(--interactive);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    transition: color .15s ease, background-color .15s ease, border-color .15s ease;
+}
+.back-to-top[hidden] { display: none !important; }
+.back-to-top:hover,
+.back-to-top:focus-visible {
+    color: var(--interactive-hover);
+    background: var(--surface-3);
+    border-color: var(--accent);
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+.back-to-top svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+@media (max-width: 720px) {
+    .header { flex-direction: column; gap: 0; padding: 12px 0 15px; }
+    .header-main { gap: 10px; }
+    .site-brand-logo { width: clamp(208px, 55vw, 260px); }
+    .header-actions { gap: 9px; }
+    .header .menu-toggle { width: 40px; height: 40px; }
+}
+
+/* Consulta contínua: autor, obra, referência e leitura no mesmo painel. */
+#greek-inline-reader[hidden]{display:none!important}
+.greek-inline-reader{min-width:0;margin-top:1.5rem;border-top:1px solid var(--border);padding-top:1.2rem}
+.greek-inline-reader>.scripture-reader{display:block;min-width:0;margin:0;padding:0;border:0;background:transparent;box-shadow:none}
+.greek-inline-reader>.scripture-reader[hidden]{display:none!important}
+.greek-inline-reader>.scripture-reader>.site-back-link{display:inline-block;margin-bottom:.8rem}
+.greek-inline-reader .scripture-reader-controls,.greek-inline-reader .scripture-reader-result{min-width:0}
+.greek-authors-panel:has(.greek-inline-reader:not([hidden])) .greek-authors-status{display:none}
+@media(max-width:600px){.greek-inline-reader{margin-top:1rem;padding-top:1rem}}

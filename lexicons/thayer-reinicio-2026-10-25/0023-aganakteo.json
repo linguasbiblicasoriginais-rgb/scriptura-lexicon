@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0023",
+  "ordinal": 23,
+  "lemma_original": "ἀγανακτέω, -ῶ",
+  "card_title": "ἀγανακτέω, -ῶ",
+  "grammatical_class": "Verbo; primeiro aoristo: ἠγανάκτησα",
+  "printed_page": 3,
+  "source_english_full": "ἀγανακτέω, -ῶ; 1 aor. ἠγανάκτησα; (as πλεονεκτέω comes fr. πλεονέκτης, and this fr. πλέον and ἔχω, so through a conjectural ἀγανάκτης fr. ἄγαν and ἄχομαι to feel pain, grieve, [al. al.]); to be indignant, moved with indignation: Mt. xxi. 15; xxvi. 8; Mk. x. 14; xiv. 4; περί τινος [cf. W. § 33 a.], Mt. xx. 24; Mk. x. 41; foll. by ὅτι, Lk. xiii. 14. (From Hdt. down.)",
+  "translation_portuguese_full": [
+    "(Assim como πλεονεκτέω deriva de πλεονέκτης, e este, por sua vez, de πλέον e ἔχω, também ἀγανακτέω derivaria, por intermédio da forma conjectural ἀγανάκτης, de ἄγαν e ἄχομαι, sentir dor, afligir-se [al. al.].)",
+    "Indignar-se, ser tomado de indignação: Mt 21.15; 26.8; Mc 10.14; 14.4.",
+    "Com περί τινος [cf. W., § 33a], Mt 20.24; Mc 10.41.",
+    "Seguido de ὅτι, Lc 13.14.",
+    "(Desde Heródoto.)"
+  ],
+  "biblical_references": [
+    "Mt 21.15",
+    "Mt 26.8",
+    "Mc 10.14",
+    "Mc 14.4",
+    "Mt 20.24",
+    "Mc 10.41",
+    "Lc 13.14"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Texto original transcrito da fotografia impressa fornecida pelo usuário. Tradução portuguesa integral apresentada em chat, aprovada em lote, preservada em campo próprio."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0023\" data-lemma-alias=\"aganakteo\" data-search=\"ἀγανακτέω, -ῶ Verbo; primeiro aoristo: ἠγανάκτησα Indignar-se; ser tomado de indignação Mt 21.15 Mt 26.8 Mc 10.14 Mc 14.4 Mt 20.24 Mc 10.41 Lc 13.14 aganakteo\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγανακτέω, -ῶ</td><td>Verbo; primeiro aoristo: ἠγανάκτησα</td><td>Indignar-se; ser tomado de indignação</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0023\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγανακτέω, -ῶ</h1><div class=\"entry-meta\">Verbo; primeiro aoristo: ἠγανάκτησα</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">(Assim como πλεονεκτέω deriva de πλεονέκτης, e este, por sua vez, de πλέον e ἔχω, também ἀγανακτέω derivaria, por intermédio da forma conjectural ἀγανάκτης, de ἄγαν e ἄχομαι, sentir dor, afligir-se [al. al.].)</p><p class=\"entry-text\">Indignar-se, ser tomado de indignação: Mt 21.15; 26.8; Mc 10.14; 14.4.</p><p class=\"entry-text\">Com περί τινος [cf. W., § 33a], Mt 20.24; Mc 10.41.</p><p class=\"entry-text\">Seguido de ὅτι, Lc 13.14.</p><p class=\"entry-text\">(Desde Heródoto.)</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO; INDEXAÇÃO SUJEITA A VALIDAÇÃO",
+  "provenance": "Fotografias impressas e tradução aprovada no chat em 28/10/2026",
+  "notes": "Lema apenas no título; categoria apenas no subtítulo; preservar citações e ressalvas.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0025"
+    ],
+    "requires_exact_card_match": true
+  }
+}

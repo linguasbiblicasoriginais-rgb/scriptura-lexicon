@@ -32,5 +32,12 @@
   },
   "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
   "provenance": "Texto integral em inglês enviado pelo usuário nesta conversa; tradução portuguesa aprovada no cartão correspondente. Não reutilizado OCR antigo.",
-  "notes": "Novo registro independente dos 557 cartões da importação anterior; nenhuma alteração no acervo histórico. Título exclusivamente no cabeçalho do cartão."
+  "notes": "Novo registro independente dos 557 cartões da importação anterior; nenhuma alteração no acervo histórico. Título exclusivamente no cabeçalho do cartão.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0001"
+    ],
+    "requires_exact_card_match": true
+  }
 }

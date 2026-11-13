@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": "Scriptura Lexicon",
+  "source": "THAYER",
+  "collection": "Reinício independente de 2026-10-25",
+  "entry_id": "entry-thayer-reinicio-0013",
+  "ordinal": 13,
+  "lemma_original": "ἀγαθοποιΐα",
+  "card_title": "ἀγαθοποιΐα",
+  "grammatical_class": "Substantivo feminino (-ας, ἡ)",
+  "source_english_full": "ἀγαθοποιΐα [WH -ποιία (see ι, ι)], -ας, ἡ, a course of right action, well-doing: ἐν ἀγαθοποιΐᾳ, 1 Pet. iv. 19 i. q. ἀγαθοποιοῦντες acting uprightly [cf. xii. Patr. Jos. § 18]; if we read here with L Tr mrg. ἐν ἀγαθοποιίαις we must understand it of single acts of rectitude [cf. W. § 27, 3; B. § 123, 2]. (In eccl. writ. ἀγαθοπ. denotes beneficence.)*",
+  "translation_portuguese_full": [
+    "[WH: -ποιία (ver ι, ι)], conduta reta, prática do bem: ἐν ἀγαθοποιΐᾳ, 1Pe 4.19, equivalente a ἀγαθοποιοῦντες, agindo retamente [cf. XII Patr. Jos., § 18].",
+    "Se, porém, adotarmos aqui, com L e Tr (margem), a leitura ἐν ἀγαθοποιίαις, devemos entendê-la como referente a atos individuais de retidão [cf. W., § 27, 3; B., § 123, 2].",
+    "(Nos escritos eclesiásticos, ἀγαθοπ. significa beneficência.)"
+  ],
+  "biblical_references": [
+    "1Pe 4.19"
+  ],
+  "editorial_notes": [
+    {
+      "type": "fonte_fotografica",
+      "note": "Duas fotografias consecutivas enviadas pelo usuário, com o verbete começando na primeira e terminando na segunda. A transcrição inglesa corresponde ao conteúdo legível na sequência das fotografias; a tradução portuguesa segue a versão integral apresentada e aprovada no chat."
+    },
+    {
+      "type": "variante_textual",
+      "note": "Na tradução aprovada distinguem-se ἐν ἀγαθοποιΐᾳ e a leitura ἐν ἀγαθοποιίαις de L/Tr (margem). A interpretação de Thayer sobre atos individuais de retidão não foi alterada nem elevada a certeza editorial."
+    }
+  ],
+  "render": {
+    "search_row_html": "<tr class=\"search-row\" data-dictionary=\"grego\" data-source=\"THAYER\" data-target=\"entry-thayer-reinicio-0013\" data-lemma-alias=\"agathopoiia;ἀγαθοποιία\" data-search=\"ἀγαθοποιΐα ἀγαθοποιία ἐν ἀγαθοποιΐᾳ ἐν ἀγαθοποιίαις ἀγαθοποιοῦντες agathopoiia subst feminino conduta reta prática do bem beneficência agir retamente atos individuais de retidão 1Pe 4.19 WH L Tr XII Patr. Jos.\" tabindex=\"0\"><td class=\"table-lemma greek\">ἀγαθοποιΐα</td><td>Substantivo feminino</td><td>Conduta reta; prática do bem; beneficência</td><td><span class=\"source-pill\">THAYER</span></td></tr>",
+    "entry_card_html": "<article id=\"entry-thayer-reinicio-0013\" class=\"entry-card\" data-dictionary=\"grego\" data-source=\"THAYER\" hidden><header class=\"entry-header\"><div><h1 class=\"entry-title greek\" lang=\"grc\">ἀγαθοποιΐα</h1><div class=\"entry-meta\">Substantivo feminino (-ας, ἡ)</div></div><div class=\"source-tag\">THAYER</div></header><div class=\"entry-divider\"></div><section class=\"entry-section\"><p class=\"entry-text\">[WH: <span lang=\"grc\">-ποιία</span> (ver <span lang=\"grc\">ι, ι</span>)], <em>conduta reta, prática do bem</em>: <span lang=\"grc\">ἐν ἀγαθοποιΐᾳ</span>, 1Pe 4.19, equivalente a <span lang=\"grc\">ἀγαθοποιοῦντες</span>, <em>agindo retamente</em> [cf. <em>XII Patr. Jos.</em>, § 18].</p><p class=\"entry-text\">Se, porém, adotarmos aqui, com L e Tr (margem), a leitura <span lang=\"grc\">ἐν ἀγαθοποιίαις</span>, devemos entendê-la como referente a <em>atos individuais de retidão</em> [cf. W., § 27, 3; B., § 123, 2].</p><p class=\"entry-text\">(Nos escritos eclesiásticos, <span lang=\"grc\">ἀγαθοπ.</span> significa <em>beneficência</em>.)</p></section></article>"
+  },
+  "editorial_status": "TRADUCAO_APROVADA_PELO_USUARIO_COMMITADA_NA_BRANCH; AINDA_NAO_INDEXADA_NEM_PUBLICADA_NA_INTERFACE",
+  "provenance": "Artigo integral apresentado em duas fotografias da edição impressa; tradução publicada para conferência e aprovada expressamente pelo usuário para commit.",
+  "notes": "Classificação apenas no subtítulo; três unidades textuais completas no cartão; variante WH, citações, referências e terminologia dos escritos eclesiásticos preservadas.",
+  "publication": {
+    "approval": "approved_in_chat",
+    "supersedes_legacy_targets": [
+      "entry-thayer-0016"
+    ],
+    "requires_exact_card_match": true
+  }
+}
