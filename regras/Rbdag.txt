@@ -8196,3 +8196,18 @@ COLAÇÃO NUMÉRICA: comparação lexical de multiplicidade registrou 20 diferen
 NÃO EXECUTADOS: CI, teste DOM/navegador real, validação online dos destinos NA28, auditoria intermodular global, colação fac-similar integral, auditoria filológica A–J por verbete, PR, merge ou integração. AUDITORIA_CONCLUIDA=NÃO; nenhum contador de auditoria incrementado.
 PROGRESSO PROJETADO APÓS CONFIRMAÇÃO REMOTA: 3404 → 3424 / 8287 = 41,32%; restam 4863 artigos. Um commit atômico, parent_sha=expected_sha=a61d7eec57ac2c50deb005e7ff0b656353177e21, force=false; nenhum PR/merge.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 161 — ἡδυπάθεια → ἡμερόω — 13/11/2026
+================================================================================
+BASE REVALIDADA: HEAD fb75d52dba41df0d523e2a8edbc555eac0905508; tree 7c1b6696cff0b2090f4d4bf65fd6bbc8384ff08e.
+REGRAS DE REFERÊNCIA LIDAS: Rbdag.txt blob f5e06152f6f0e69aef3904d2547d5cb77335ce06; Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE: HTML canônico de BDAG, linhas 38997–39183, vinte verbetes autônomos, de ἡδυπάθεια, ας, ἡ até ἡμερόω. O próximo artigo, ainda NÃO incorporado neste lote, é ἡμέτερος, α, ον (linha 39184).
+TRADUÇÃO: 20 verbetes com flexões, sentidos, subdivisões, construções, variantes, remissões e referências bibliográficas. Corrigidos por confronto: ἦθος (Carondas, Diodoro, variantes), ἥκω (tribulações finais), Ἠλίας (expressão paulina e bibliografia), ἡλικία (testemunho Ox 655, juventude/velhice), ἥλιος (testemunhos, construções verbais, usos derivados e bibliografia), ἡμέρα (formas abreviadas e casos especiais).
+COLAÇÃO GREGA ESTÁTICA: 999 ocorrências de tokens gregos da fonte, comparadas por artigo com os cartões HTML; ZERO ocorrências gregas ausentes após correções. A colação preserva a separação entre artigos. A presença de token isolado não certifica sua posição ou leitura paleográfica.
+COLAÇÃO NUMÉRICA ESTÁTICA: 32 diferenças remanescentes de multiplicidade literal ao comparar fonte e cartões ANTES da última nota complementar e limpeza editorial; incluem referências repetidas em forma abreviada, anos abreviados ('38, '42, '47, '53, '55, '62, '63, '68, '72, '85, '91, '95), conversão para quatro algarismos, números por extenso (por exemplo, 40), e variações de notação. Exame contextual realizado: não se deve considerar estas diferenças automaticamente erros ou prova de total conformidade numérica. Colação numérica exaustiva e fac-similar continua PENDENTE.
+CONTROLES ESTRUTURAIS: 20 search-row, 20 entry-card; 20 IDs únicos, alvos correspondentes e sem colisão detectada com lote 160; 258 links NA28 sintaticamente válidos; tags de article, p, span e a balanceadas; 40 identificadores data-source BDAG. URLs não foram abertas nem sua destinação certificada em navegador.
+ARTEFATOS: lexicons/bdag-part-0161.js; lexicon-modules.json; regras/Rbdag.txt; nada além destes. SEM PR/merge, SEM alterações a outros léxicos.
+PENDÊNCIAS EXPLICITAS: auditoria A–J NÃO concluída; validação DOM/navegador/CI não executada; exame visual e cotejo fac-similar, além da auditoria exaustiva de números, ainda necessários. Não incrementar contador de verbetes AUDITADOS. Publicação corresponde apenas a incorporação de 20 novos verbetes.
+PROGRESSO PROJETADO após confirmação do commit: 3.424 → 3.444 de 8.287 (=41,56%); faltam 4.843. Commit atômico com parent_sha e expected_sha = fb75d52dba41df0d523e2a8edbc555eac0905508, force=false; avanço deve ser confirmado depois da atualização do ref remoto.
+================================================================================
