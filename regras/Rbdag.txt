@@ -8225,3 +8225,17 @@ ARQUIVOS DESTINADOS AO ÚNICO COMMIT: lexicons/bdag-part-0162.js; lexicon-module
 AUDITORIA A–J: NÃO CONCLUÍDA; NÃO incrementar contadores de verbetes auditados. Colação estrutural/lexical não substitui cotejo filológico integral, testes funcionais e certificação atômica por verbete.
 PROGRESSO PROJETADO, A CONFIRMAR APÓS COMMIT: 3444 → 3464 / 8287 (41,80%); 4823 verbetes restantes.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 163 — Ἡρῳδίων → ἤφιε — 13/11/2026
+================================================================================
+BASE REMOTA: HEAD 3c8075471c4bbb5621bb65fdcd0df088ff96ac0a; tree 961a0c9a8bda1ad600bbdcf3d67538167d2b25c9. Regras lidas integralmente: Rbdag.txt blob 1a2f4e0cee66b6b7958b0eaae4fbc80b22503e72; Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. O lote 163 não estava incorporado ao manifesto ao início.
+FONTE BDAG: HTML canônico linhas 39286–39395 (exclusive próximo cabeçalho ἠχέω, linha 39396). 20 artigos autônomos e consecutivos: Ἡρῳδίων; Ἠσαί̈ας; Ἠσαῦ; ἦσθα; ἥσσων; ἡσυχάζω; ἡσυχία; ἡσύχιος; ἡσύχως; ἦτα; ἤτε; ἥτις; ἤτοι; ἡττάομαι; ἥττημα; ἥττων; ἤτω; ηὐξήθην, ηὔξησα; ηὐφράνθην; ἤφιε.
+TRADUÇÃO: 20 artigos convertidos ao português, preservando formas, variantes, estrutura de sentidos (quatro em ἡσυχάζω, dois em ἡσυχία, dois em ἡττάομαι), testemunhos, expressões gregas e bibliografia. Artigos exclusivamente remissivos mantidos como remissões e não inventados.
+COLAÇÃO ESTÁTICA: 196 ocorrências gregas na fonte, comparadas individualmente por multiconjunto ao texto dos cartões; nenhuma ocorrência ausente. Esse teste não verifica colocação paleográfica, acentuação contextual, identidade semântica ou toda a bibliografia em fac-símile.
+COLAÇÃO NUMÉRICA AUTOMÁTICA: nove diferenças de multiplicidade literal na versão HTML: artigo 5 (uma ocorrência de 44 em referência bibliográfica abreviada ’44 expandida para 1944); artigo 6 (duas ocorrências de 1, uma de 15, uma de 8); artigo 8 (uma ocorrência de 5, outra de 12); artigo 14 (duas ocorrências de 1). Algumas surgem de transformação editorial (primeiro aoristo escrito por extenso, outras citações preservadas por intervalos/siglas). Não foi certificada correspondência integral número por número; diferenças requerem revalidação específica. A contagem literal não deve ser tomada como auditoria concluída.
+MÓDULO: lexicons/bdag-part-0163.js; 20 search-row e 20 entry-card, 20 IDs únicos e alvos correspondentes; 40 data-source BDAG, nenhuma colisão identificada com módulo 162; 30 URLs NA28 com sintaxe válida; article/p/span/a balanceadas. Sem testes de navegador/DOM, CI ou clique efetivo nos URLs.
+ARQUIVOS DESTE COMMIT: lexicons/bdag-part-0163.js; lexicon-modules.json; regras/Rbdag.txt. Rauditoria.txt inalterado. Sem PR, merge, main, force push ou modificação de outros léxicos.
+AUDITORIA FILOLÓGICA A–J: NÃO CONCLUÍDA; não incrementar total_auditoria_concluida. Incorporação não constitui certificação da auditoria atômica de verbetes. Faltam exame fac-similar, testes funcionais e colação numérica exaustiva.
+PROGRESSO PROJETADO, CONDICIONADO À VERIFICAÇÃO DA PUBLICAÇÃO: 3464→3484 / 8287 (42,04%), restam 4803. Publicação única com expected_sha=3c8075471c4bbb5621bb65fdcd0df088ff96ac0a, force=false.
+================================================================================
