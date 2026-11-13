@@ -6,19 +6,19 @@
   "translation_branch": "chat-gpt-bdbh-pt",
   "source_module": "lexicons/bdbh-batch-001.js",
   "source_module_blob_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "registered_translation_drafts": 3,
-  "fully_collated": 7,
+  "registered_translation_drafts": 0,
+  "fully_collated": 10,
   "validated": 0,
   "validated_published": 0,
   "audit_completed": 0,
-  "next_pending_ordinal": 8,
-  "next_pending_ref": "BDB, אָבַד",
+  "next_pending_ordinal": 11,
+  "next_pending_ref": "BDB, אֲבַדֹּה",
   "first_unit": {
     "ordinals": [
       1,
       10
     ],
-    "status": "REGULARIZACAO_PARCIAL_00001_A_00007",
+    "status": "REGULARIZACAO_EDITORIAL_CONCLUIDA_AUDITORIA_PENDENTE",
     "source_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
     "editorially_collated_ordinals": [
       1,
@@ -27,24 +27,23 @@
       4,
       5,
       6,
-      7
-    ],
-    "pending_ordinals": [
+      7,
       8,
       9,
       10
-    ]
+    ],
+    "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "Ordinais 1–7 com tradução integral e colação inglesa-portuguesa comprovada e verificações estáticas; sem teste funcional DOM, sem integração e sem auditoria atômica. Ordinais 8–10 permanecem pendentes de regularização.",
+  "publication_note": "Dez traduções integralmente colacionadas contra o registro digital do BDB e verificadas estaticamente; integração, DOM e auditoria atômica pendentes.",
   "untouched_original": true,
   "last_source_blob_verified": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "last_working_commit_parent": "a3765974edbaff1cd09bc4fe72e7d3dd0af671f0",
-  "last_round_status": "00001_A_00007_COLACIONADOS; AUDITORIA_E_INTEGRACAO_PENDENTES",
+  "last_working_commit_parent": "1481628e9151cde74e672479c3578a15dfc49426",
+  "last_round_status": "00008_A_00010_COLACIONADOS; REGULARIZACAO_EDITORIAL_00001_A_00010_CONCLUIDA",
   "registered_translation_records": 10,
-  "editorially_collated": 7,
-  "validated_statically": 7,
+  "editorially_collated": 10,
+  "validated_statically": 10,
   "last_round_source_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "last_round_parent_head": "8e81595f3b72cb3531d39c584f63270a02ce7083",
-  "last_round_evidence": "relatorios/bdbh-pt-2026-11-13-ordinais-00001-00007.md"
+  "last_round_parent_head": "1481628e9151cde74e672479c3578a15dfc49426",
+  "last_round_evidence": "relatorios/bdbh-pt-2026-11-13-ordinais-00008-00010.md"
 }
