@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source": "BDB Dictionary",
+  "source_total": 11015,
+  "original_incorporated": 11015,
+  "translation_branch": "chat-gpt-bdbh-pt",
+  "source_module": "lexicons/bdbh-batch-001.js",
+  "source_module_blob_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
+  "registered_translation_drafts": 7,
+  "fully_collated": 0,
+  "validated": 0,
+  "validated_published": 0,
+  "audit_completed": 0,
+  "next_pending_ordinal": 8,
+  "next_pending_ref": "BDB, אָבַד",
+  "first_unit": {
+    "ordinals": [
+      1,
+      7
+    ],
+    "status": "REVISAO_EDITORIAL_PENDENTE",
+    "source_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926"
+  },
+  "unintegrated": true,
+  "publication_note": "Camada de traduções preliminares na branch de origem. Não homologada; falta colação completa, validação funcional no navegador e integração.",
+  "untouched_original": true
+}
