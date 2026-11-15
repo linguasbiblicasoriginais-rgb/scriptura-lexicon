@@ -7,12 +7,12 @@
   "source_module": "lexicons/bdbh-batch-001.js",
   "source_module_blob_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
   "registered_translation_drafts": 0,
-  "fully_collated": 10,
+  "fully_collated": 18,
   "validated": 0,
   "validated_published": 0,
   "audit_completed": 0,
-  "next_pending_ordinal": 11,
-  "next_pending_ref": "BDB, אֲבַדֹּה",
+  "next_pending_ordinal": 19,
+  "next_pending_ref": "BDB, אָב²",
   "first_unit": {
     "ordinals": [
       1,
@@ -35,15 +35,19 @@
     "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "Dez traduções integralmente colacionadas contra o registro digital do BDB e verificadas estaticamente; integração, DOM e auditoria atômica pendentes.",
+  "publication_note": "18 verbetes com tradução integral portuguesa, colação digital e validação estática na origem; 11–18 adicionados em 15/11/2026. Não há certificação de testes DOM, fac-símile impresso, integração ou auditoria atômica.",
   "untouched_original": true,
   "last_source_blob_verified": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "last_working_commit_parent": "1481628e9151cde74e672479c3578a15dfc49426",
-  "last_round_status": "00008_A_00010_COLACIONADOS; REGULARIZACAO_EDITORIAL_00001_A_00010_CONCLUIDA",
-  "registered_translation_records": 10,
-  "editorially_collated": 10,
-  "validated_statically": 10,
+  "last_working_commit_parent": "4d71427ec24df26de95700ac7e2dfade7854a0a5",
+  "last_round_status": "BDBH_PT_00011_A_00018_TRADUZIDOS_INTEGRALMENTE_COLACIONADOS_VALIDACAO_ESTATICA",
+  "registered_translation_records": 18,
+  "editorially_collated": 18,
+  "validated_statically": 18,
   "last_round_source_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "last_round_parent_head": "1481628e9151cde74e672479c3578a15dfc49426",
-  "last_round_evidence": "relatorios/bdbh-pt-2026-11-13-ordinais-00008-00010.md"
+  "last_round_parent_head": "4d71427ec24df26de95700ac7e2dfade7854a0a5",
+  "last_round_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00011-00018.md",
+  "last_completed_ordinal": 18,
+  "last_completed_ref": "BDB, אבה",
+  "last_round_translated_count": 8,
+  "last_round_verified_scope": "8 artigos (ordinais 11 a 18) comparados integralmente com o texto digital BDB; 0 auditorias atômicas"
 }
