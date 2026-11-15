@@ -469,6 +469,231 @@ window.ScripturaBDBHpt.batch002={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinal-00131.md"
+    },
+    {
+      "ordinal": 132,
+      "headword": "אַדְמָה",
+      "ref": "BDB, אַדְמָה",
+      "preview": "Admá: cidade no vale de Sidim.",
+      "html": "† <big><span dir=\"rtl\">אַדְמָה</span></big>  <strong>nome próprio geográfico</strong> cidade no vale de Sidim <a data-ref=\"Genesis 10:19\" href=\"/Genesis.10.19\">Gn 10:19</a>; <a data-ref=\"Genesis 14:2\" href=\"/Genesis.14.2\">14:2</a>, <a data-ref=\"Genesis 14:8\" href=\"/Genesis.14.8\">8</a> <a data-ref=\"Deuteronomy 29:22\" href=\"/Deuteronomy.29.22\">Dt 29:22</a> <a data-ref=\"Hosea 11:8\" href=\"/Hosea.11.8\">Ho 11:8</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 133,
+      "headword": "אֲדָמִי הַנֶּ֫קֶב",
+      "ref": "BDB, אֲדָמִי הַנֶּ֫קֶב",
+      "preview": "Adami-Hanéquebe: passagem em Naftali.",
+      "html": "<big><span dir=\"rtl\">אֲדָמִי הַנֶּ֫קֶב</span></big>  <strong>nome próprio geográfico</strong> passagem montanhosa em Naftali, <a data-ref=\"Joshua 19:33\" href=\"/Joshua.19.33\">Jos 19:33</a> ver <a data-ref=\"BDB, נָקַב\" href=\"/BDB,_נָקַב\", dir=\"rtl\">נקב</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 134,
+      "headword": "אדם²",
+      "ref": "BDB, אדם²",
+      "preview": "Raiz אדם II: árabe, etiópico e comparação conjectural assíria.",
+      "html": "II. <big><big><span dir=\"rtl\">אדם</span></big></big>  <strong>(</strong><span dir=\"rtl\">أَدُمَ</span>, <span dir=\"rtl\">أَدِمَ</span>, <span dir=\"rtl\">إِدَامٌ</span> fulvo, etiópico አደመ (apenas em derivados), assírio <em>adâmu</em>? Dl<sup>W</sup>; cf. Lag<sup>BN 28</sup><strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 135,
+      "headword": "אָדֹם",
+      "ref": "BDB, אָדֹם",
+      "preview": "Ser vermelho: Qal, Pual, Hitpael e Hifil.",
+      "html": "† <big>[<span dir=\"rtl\">אָדֹם</span>, <span dir=\"rtl\">אָדֵם</span>]</big>  <strong>verbo: ser vermelho (</strong>sobre a formação, cf. Lag<sup>BN 83 cf. 120</sup><strong>)</strong>—<br><strong>Qal</strong>  perfeito da 3.ª pessoa do plural: <span dir=\"rtl\">אָֽדְמוּ</span> <em>avermelhados</em>, acerca dos nazireus <a data-ref=\"Lamentations 4:7\" href=\"/Lamentations.4.7\">La 4:7</a>;<br><strong>Pual</strong>  particípio: <em>avermelhado, tingido de vermelho</em>, <span dir=\"rtl\">מְאָדָּם</span> <a data-ref=\"Nahum 2:4\" href=\"/Nahum.2.4\">Na 2:4</a> (a respeito de escudo), <span dir=\"rtl\">מְאָדָּמִים</span> aplicado a peles de carneiros <a data-ref=\"Exodus 25:5\" href=\"/Exodus.25.5\">Ex 25:5</a>; <a data-ref=\"Exodus 26:14\" href=\"/Exodus.26.14\">26:14</a>; <a data-ref=\"Exodus 35:7\" href=\"/Exodus.35.7\">35:7</a>, <a data-ref=\"Exodus 35:23\" href=\"/Exodus.35.23\">23</a>; <a data-ref=\"Exodus 36:19\" href=\"/Exodus.36.19\">36:19</a>; <a data-ref=\"Exodus 39:34\" href=\"/Exodus.39.34\">39:34</a> (todos em P).<br><strong>Hitpael</strong>  imperfeito: <em>avermelhar-se, tornar-se</em> ou <em>parecer vermelho</em>, <span dir=\"rtl\">יִתְאַדָּ֑ם</span> <a data-ref=\"Proverbs 23:31\" href=\"/Proverbs.23.31\">Pr 23:31</a> (a respeito do vinho);<br><strong>Hifil</strong>  imperfeito: <em>emitir</em> (<em>manifestar</em>) <em>vermelhidão</em> (cf. Lag<sup>BN 120</sup>) <span dir=\"rtl\">יַאְדִּימוּ כַתּוֹלָע</span> <a data-ref=\"Isaiah 1:18\" href=\"/Isaiah.1.18\">Is 1:18</a> (a respeito dos pecados), isto é, ser evidente, flagrante (cf. também o versículo <a data-ref=\"Isaiah 1:15\" href=\"/Isaiah.1.15\">15</a>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 136,
+      "headword": "אָדֹם²",
+      "ref": "BDB, אָדֹם²",
+      "preview": "Vermelho/avermelhado: pessoas, cavalos, novilha, água e lentilhas.",
+      "html": "† <big><span dir=\"rtl\">אָדֹם</span></big>  <strong>adjetivo: vermelho</strong>—<span dir=\"rtl\">א׳</span> <a data-ref=\"Isaiah 63:2\" href=\"/Isaiah.63.2\">Is 63:2</a> <a data-ref=\"Zechariah 1:8\" href=\"/Zechariah.1.8\">Zc 1:8</a> + <a data-ref=\"Genesis 25:30\" href=\"/Genesis.25.30\">Gn 25:30</a><sup>(×2)</sup>, ver adiante; <span dir=\"rtl\">אָדוֹם</span> <a data-ref=\"Song of Songs 5:10\" href=\"/Song_of_Songs.5.10\">Ct 5:10</a>; feminino: <span dir=\"rtl\">אֲדֻמָּה</span> <a data-ref=\"Numbers 19:2\" href=\"/Numbers.19.2\">Nu 19:2</a>, plural: <span dir=\"rtl\">אֲדֻמִּים</span> <a data-ref=\"II Kings 3:22\" href=\"/II_Kings.3.22\">2 K 3:22</a> + 2 ocorrências textuais;—<em>avermelhado, vermelho</em>, aplicado a homem <a data-ref=\"Song of Songs 5:10\" href=\"/Song_of_Songs.5.10\">Ct 5:10</a>; cavalo <a data-ref=\"Zechariah 1:8\" href=\"/Zechariah.1.8\">Zc 1:8</a><sup>(×2)</sup> (‖ <span dir=\"rtl\">שָׂרֹק</span>; cf. assírio, Dl<sup>W 87</sup> <a data-ref=\"Zechariah 6:2\" href=\"/Zechariah.6.2\">6:2</a> (‖ <span dir=\"rtl\">שָׁחֹר</span>); novilha <a data-ref=\"Numbers 19:2\" href=\"/Numbers.19.2\">Nu 19:2</a>; água <a data-ref=\"II Kings 3:22\" href=\"/II_Kings.3.22\">2 K 3:22</a> <span dir=\"rtl\">(א׳ כַּדָּם)</span>; cf. como substantivo <em>vermelho, vermelhidão</em> em vestimenta <a data-ref=\"Isaiah 63:2\" href=\"/Isaiah.63.2\">Is 63:2</a>; <span dir=\"rtl\">הָאָדֹם</span> = <em>as</em> (<em>vermelhas</em>) <em>lentilhas</em> <a data-ref=\"Genesis 25:30\" href=\"/Genesis.25.30\">Gn 25:30</a><sup>(×2)</sup>, mas leia-se <span dir=\"rtl\">הָאֱדֹם</span> ver adiante; cf. também <a data-ref=\"BDB, מַעֲלֶה\" href=\"/BDB,_מַעֲלֶה\", dir=\"rtl\">מַעֲלֶה</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 137,
+      "headword": "אֹ֫דֶם",
+      "ref": "BDB, אֹ֫דֶם",
+      "preview": "Cornalina: σάρδιον e etimologia.",
+      "html": "† <big><span dir=\"rtl\">אֹ֫דֶם</span></big>  <strong>substantivo</strong>[<strong>feminino</strong>] <strong>cornalina (</strong>derivado de <em>vermelhidão;</em>  𝔊 σάρδιον; sobre a formação, cf. Lag<sup>BN 144</sup><strong>)</strong> <a data-ref=\"Exodus 28:17\" href=\"/Exodus.28.17\">Ex 28:17</a>; <a data-ref=\"Exodus 39:10\" href=\"/Exodus.39.10\">39:10</a> (P) <a data-ref=\"Ezekiel 28:13\" href=\"/Ezekiel.28.13\">Ez 28:13</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 138,
+      "headword": "אֱדֹם",
+      "ref": "BDB, אֱדֹם",
+      "preview": "Condimento: comparações semíticas e nota de leitura.",
+      "html": "† <big><span dir=\"rtl\">אֱדֹם</span></big>  <strong>substantivo</strong>[<strong>masculino</strong>] nome de um <strong>condimento (</strong>árabe <span dir=\"rtl\">إِدَامٌ</span> ver Anderson em Di; cf. assírio <em>adumatu</em>? Dl<sup>W</sup><strong>)</strong> <span dir=\"rtl\">הָאֱ׳</span> <a data-ref=\"Genesis 25:30\" href=\"/Genesis.25.30\">Gn 25:30</a><sup>(×2)</sup> (J; assim deve ser lido em lugar de <span dir=\"rtl\">הָאָ׳</span> no texto massorético; ver Di).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 139,
+      "headword": "אֱדוֹם",
+      "ref": "BDB, אֱדוֹם",
+      "preview": "Edom: Esaú, edomitas e território de Edom; três acepções.",
+      "html": "<big><span dir=\"rtl\">אֱדוֹם</span></big>  (†<span dir=\"rtl\">אֱדֹם</span> <a data-ref=\"Ezekiel 25:14\" href=\"/Ezekiel.25.14\">Ez 25:14</a>) <strong>nome próprio masculino</strong><br><strong>1.</strong>  <strong>Edom (</strong>nome de um deus? ver Sta<sup>G.1, 121</sup> RS<sup>Sem 43</sup>; ver nome próprio <span dir=\"rtl\">עבדאדם</span>; mas Bae<sup>Rel 10</sup> considera uma variante dialetal de <span dir=\"rtl\">אָדָם</span>, <span dir=\"rtl\">בני אדום</span> = <span dir=\"rtl\">בְנֵי אָדָם</span><strong>)</strong> = Esaú, filho mais velho de Isaque <a data-ref=\"Genesis 25:30\" href=\"/Genesis.25.30\">Gn 25:30</a> (J) (etimologia aqui = <em>vermelho</em>, cf. o versículo <a data-ref=\"Genesis 25:25\" href=\"/Genesis.25.25\">25</a> (E?) e a entrada <span dir=\"rtl\">אַדְמוֹנִי</span>) <a data-ref=\"Genesis 36:1\" href=\"/Genesis.36.1\">36:1</a>, <a data-ref=\"Genesis 36:8\" href=\"/Genesis.36.8\">8</a>, <a data-ref=\"Genesis 36:19\" href=\"/Genesis.36.19\">19</a> (P).<br><strong>2.</strong> uso coletivo (<strong>masculino</strong> mas <strong>feminino</strong> <a data-ref=\"Malachi 1:4\" href=\"/Malachi.1.4\">Mal 1:4</a>) <em>edomitas, idumeus</em> como descendentes de Esaú, <a data-ref=\"Genesis 36:9\" href=\"/Genesis.36.9\">36:9</a>, <a data-ref=\"Genesis 36:43\" href=\"/Genesis.36.43\">43</a> (P); também <a data-ref=\"I Samuel 14:47\" href=\"/I_Samuel.14.47\">1 S 14:47</a> + 31 ocorrências textuais + <a data-ref=\"II Samuel 8:13\" href=\"/II_Samuel.8.13\">2 S 8:13</a> (em lugar do TM <span dir=\"rtl\">ארם</span>; 𝔊𝔖, ver <a data-ref=\"I Chronicles 18:12\" href=\"/I_Chronicles.18.12\">1 Ch 18:12</a> <a data-ref=\"Psalms 60:2\" href=\"/Psalms.60.2\">ψ 60:2</a>, We Dr); talvez também o versículo <a data-ref=\"Psalms 60:12\" href=\"/Psalms.60.12\">12</a> (𝔊𝔖 <a data-ref=\"I Chronicles 18:11\" href=\"/I_Chronicles.18.11\">1 Ch 18:11</a>; TM <span dir=\"rtl\">ארם</span> mas ver We Dr); também <a data-ref=\"II Chronicles 20:2\" href=\"/II_Chronicles.20.2\">2 Ch 20:2</a> (ver Be); <span dir=\"rtl\">א׳</span> = rei de Edom <a data-ref=\"Numbers 20:18\" href=\"/Numbers.20.18\">Nu 20:18</a>, <a data-ref=\"Numbers 20:20\" href=\"/Numbers.20.20\">20</a>, <a data-ref=\"Numbers 20:21\" href=\"/Numbers.20.21\">21</a>; em poesia <span dir=\"rtl\">בְּנֵי א׳</span> <a data-ref=\"Psalms 137:7\" href=\"/Psalms.137.7\">ψ 137:7</a> <span dir=\"rtl\">בַּת א׳</span> <a data-ref=\"Lamentations 4:21\" href=\"/Lamentations.4.21\">La 4:21</a>, <a data-ref=\"Lamentations 4:22\" href=\"/Lamentations.4.22\">22</a>. ver agora F. Buhl<sup>Gesch. Edomiter (1893)</sup>.<br><strong>3.</strong>  <em>terra de Edom</em>, <em>Idumeia (</em>feminino<a data-ref=\"Ezekiel 32:29\" href=\"/Ezekiel.32.29\">Ez 32:29</a>; <a data-ref=\"Ezekiel 35:15\" href=\"/Ezekiel.35.15\">35:15</a> and <a data-ref=\"Ezekiel 36:5\" href=\"/Ezekiel.36.5\">36:5</a>) ao sul e sudeste da Palestina <a data-ref=\"Genesis 36:32\" href=\"/Genesis.36.32\">Gn 36:32</a>, <a data-ref=\"Genesis 36:43\" href=\"/Genesis.36.43\">43</a> + 32 ocorrências textuais (incluindo <span dir=\"rtl\">שְׂדֵה א׳</span> <a data-ref=\"Genesis 32:4\" href=\"/Genesis.32.4\">Gn 32:4</a>; <span dir=\"rtl\">אֶרֶץ א׳</span> <a data-ref=\"Genesis 36:16\" href=\"/Genesis.36.16\">Gn 36:16</a>, <a data-ref=\"Genesis 36:17\" href=\"/Genesis.36.17\">17</a>, <a data-ref=\"Genesis 36:21\" href=\"/Genesis.36.21\">21</a>, <a data-ref=\"Genesis 36:31\" href=\"/Genesis.36.31\">31</a> <a data-ref=\"Numbers 20:23\" href=\"/Numbers.20.23\">Nu 20:23</a> <a data-ref=\"Numbers 21:4\" href=\"/Numbers.21.4\">21:4</a> <a data-ref=\"Numbers 33:37\" href=\"/Numbers.33.37\">33:37</a> +);—é incerto se se trata da acepção <strong>2</strong> ou da acepção <strong>3</strong> nas seguintes passagens: <a data-ref=\"Exodus 15:15\" href=\"/Exodus.15.15\">Ex 15:15</a> <a data-ref=\"Numbers 20:14\" href=\"/Numbers.20.14\">Nu 20:14</a>; <a data-ref=\"Numbers 24:18\" href=\"/Numbers.24.18\">24:18</a> + 9 ocorrências textuais (principalmente na expressão <span dir=\"rtl\">מֶלֶךְ א׳</span> etc.)",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 140,
+      "headword": "אֲדֹמִי",
+      "ref": "BDB, אֲדֹמִי",
+      "preview": "Gentílico edomita: Qerê/Ketiv e flexões.",
+      "html": "† <big><span dir=\"rtl\">אֲדֹמִי</span></big>  <strong>adjetivo gentílico: edomita</strong> <a data-ref=\"Deuteronomy 23:8\" href=\"/Deuteronomy.23.8\">Dt 23:8</a> <a data-ref=\"I Samuel 21:8\" href=\"/I_Samuel.21.8\">1 S 21:8</a>; <a data-ref=\"I Samuel 22:9\" href=\"/I_Samuel.22.9\">22:9</a>, <a data-ref=\"I Samuel 22:18\" href=\"/I_Samuel.22.18\">18</a>, <a data-ref=\"I Samuel 22:22\" href=\"/I_Samuel.22.22\">22</a> <a data-ref=\"I Kings 11:14\" href=\"/I_Kings.11.14\">1 K 11:14</a> <a data-ref=\"Psalms 52:2\" href=\"/Psalms.52.2\">ψ 52:2</a>; <span dir=\"rtl\">אֲדוֹמִים</span> <a data-ref=\"II Chronicles 25:14\" href=\"/II_Chronicles.25.14\">2 Ch 25:14</a>; <a data-ref=\"II Chronicles 28:17\" href=\"/II_Chronicles.28.17\">28:17</a>; assim também <a data-ref=\"II Kings 16:6\" href=\"/II_Kings.16.6\">2 K 16:6</a> (Qerê; Ketiv <span dir=\"rtl\">ארומים</span>, ver <a data-ref=\"BDB, ארם\" href=\"/BDB,_ארם\", dir=\"rtl\">ארם</a>); <span dir=\"rtl\">אֲדֹמִיִּים</span> <a data-ref=\"I Kings 11:17\" href=\"/I_Kings.11.17\">1 K 11:17</a>; feminino: <span dir=\"rtl\">אֲדֹמִיּוֹת</span> <a data-ref=\"I Kings 11:1\" href=\"/I_Kings.11.1\">1 K 11:1</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 141,
+      "headword": "אֲדַמִדָּם",
+      "ref": "BDB, אֲדַמִדָּם",
+      "preview": "Avermelhado: lesões de lepra e flexões.",
+      "html": "† <big><span dir=\"rtl\">אֲדַמִדָּם</span></big>  <strong>adjetivo: avermelhado (</strong>cf. assírio <em>ada(m)mumu</em>? Dl<sup>W</sup><strong>)</strong> aplicado às lesões da lepra <a data-ref=\"Leviticus 13:42\" href=\"/Leviticus.13.42\">Lv 13:42</a> <span dir=\"rtl\">(־דָּ֑ם)</span> versículo <a data-ref=\"Leviticus 13:49\" href=\"/Leviticus.13.49\">49</a> <span dir=\"rtl\">(־דָֹם)</span>; feminino: <span dir=\"rtl\">אֲדַמְדֶּמֶת</span> versículo <a data-ref=\"Leviticus 13:24\" href=\"/Leviticus.13.24\">24</a>, <a data-ref=\"Leviticus 13:43\" href=\"/Leviticus.13.43\">43</a>; <span dir=\"rtl\">־דָ֑מֶת</span> versículo <a data-ref=\"Leviticus 13:19\" href=\"/Leviticus.13.19\">19</a>; feminino plural: <span dir=\"rtl\">אֲדַמְדַּמֹּת</span> <a data-ref=\"Leviticus 14:37\" href=\"/Leviticus.14.37\">14:37</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 142,
+      "headword": "אַדְמוֹנִי",
+      "ref": "BDB, אַדְמוֹנִי",
+      "preview": "Vermelho, ruivo: Esaú e um jovem.",
+      "html": "† <big><span dir=\"rtl\">אַדְמוֹנִי</span></big>  <strong>adjetivo: vermelho, ruivo</strong>, aplicado a Esaú recém-nascido <a data-ref=\"Genesis 25:25\" href=\"/Genesis.25.25\">Gn 25:25</a> (daí, segundo E?, o nome Edom; cf. Di); aplicado a um jovem <a data-ref=\"I Samuel 16:12\" href=\"/I_Samuel.16.12\">1 S 16:12</a>; <a data-ref=\"I Samuel 17:42\" href=\"/I_Samuel.17.42\">17:42</a> <span dir=\"rtl\">(אַדְמֹנִי)</span>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 143,
+      "headword": "אֲדֻמִּים",
+      "ref": "BDB, אֲדֻמִּים",
+      "preview": "Topônimo com remissão a מַעֲלֶה sob עלה.",
+      "html": "<big><span dir=\"rtl\">אֲדֻמִּים</span></big>  <strong>nome próprio geográfico</strong> ver <a data-ref=\"BDB, מַעֲלֶה\" href=\"/BDB,_מַעֲלֶה\", dir=\"rtl\">מַעֲלֶה</a> na entrada <a data-ref=\"BDB, מַעֲלֶה\" href=\"/BDB,_מַעֲלֶה\", dir=\"rtl\">עלה</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 144,
+      "headword": "אַדְמָתָא",
+      "ref": "BDB, אַדְמָתָא",
+      "preview": "Príncipe persa e medo; etimologia persa.",
+      "html": "† <big><span dir=\"rtl\">אַדְמָתָא</span></big>  <strong>nome próprio masculino</strong> príncipe da Pérsia e da Média <a data-ref=\"Esther 1:14\" href=\"/Esther.1.14\">Est 1:14</a> (cf. persa <em>admâta</em>, <em>não refreado</em>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 145,
+      "headword": "אדן",
+      "ref": "BDB, אדן",
+      "preview": "Raiz אדן: quatro hipóteses etimológicas.",
+      "html": "<big><big><span dir=\"rtl\">אדן</span></big></big>  <strong>(</strong>(significado controverso; (1) cf. assírio [<em>adannu</em>] <em>firme, forte;</em>  advérbio <em>adanniš</em>, <em>fortemente, excessivamente</em> Dl<sup>W</sup> > (2) Fü. (<em>a</em>) <em>tornar firme, fixar</em> (cf. <span dir=\"rtl\">عدن</span>) de onde procede <span dir=\"rtl\">אֶדֶן</span>; (<em>b</em>) <em>determinar, ordenar, governar</em>, de onde procede <span dir=\"rtl\">אָדוֹן</span>; (3) Thes Add., MV e outros (<em>a</em>) intransitivo: <em>estar embaixo, ser baixo, inferior</em> (cf. <a data-ref=\"BDB, דּוּן\" href=\"/BDB,_דּוּן\", dir=\"rtl\">דּוּן</a>, <span dir=\"rtl\">دان</span>), de onde procede <span dir=\"rtl\">אֶדֶן</span>; (<em>b</em>) transitivo: <em>submeter ao comando, exercer domínio sobre</em> (cf. <a data-ref=\"BDB, דִּין²\" href=\"/BDB,_דִּין²\", dir=\"rtl\">דִּין</a>), de onde procede <span dir=\"rtl\">אָדוֹן</span>; ver também (4) Lag<sup>M i. 102</sup>, <span dir=\"rtl\">אָדוֹן</span> derivado de <span dir=\"rtl\">ادى</span> <strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
+    },
+    {
+      "ordinal": 146,
+      "headword": "אֶ֫דֶן",
+      "ref": "BDB, אֶ֫דֶן",
+      "preview": "Base, pedestal, encaixe: usos em poesia e no tabernáculo.",
+      "html": "<big>[<span dir=\"rtl\">אֶ֫דֶן</span></big><sub>57</sub><big>]</big>  <strong>substantivo masculino</strong> <a data-ref=\"Exodus 26:19\" href=\"/Exodus.26.19\">Ex 26:19</a> <strong>base, pedestal</strong>—<span dir=\"rtl\">אָדֶ֑ן</span> <a data-ref=\"Exodus 38:27\" href=\"/Exodus.38.27\">Ex 38:27</a>; plural <span dir=\"rtl\">אֲדָנִים</span> <a data-ref=\"Exodus 26:19\" href=\"/Exodus.26.19\">Ex 26:19</a> +; estado construto <span dir=\"rtl\">אַדְנֵי</span> <a data-ref=\"Song of Songs 5:15\" href=\"/Song_of_Songs.5.15\">Ct 5:15</a> +, etc.<br><strong>1.</strong>  <em>pedestais</em> de ouro fino, sobre os quais se assentavam colunas de mármore <a data-ref=\"Song of Songs 5:15\" href=\"/Song_of_Songs.5.15\">Ct 5:15</a>.<br><strong>2.</strong>  <em>pedestais</em> da terra, sobre os quais suas colunas foram colocadas <a data-ref=\"Job 38:6\" href=\"/Job.38.6\">Jb 38:6</a> (em paralelo com a pedra angular).<br><strong>3.</strong>  (de metal) <em>pedestais, bases</em> ou <em>encaixes</em> nos quais se fixavam as espigas das tábuas e colunas do tabernáculo; dois para cada tábua e um para cada coluna <a data-ref=\"Exodus 26:19\" href=\"/Exodus.26.19\">Ex 26:19</a><sup>(×3)</sup> + 52 ocorrências textuais em <a data-ref=\"Exodus 26\" href=\"/Exodus.26\">Ex 26</a>.<a data-ref=\"Exodus 27\" href=\"/Exodus.27\">27</a>.<a data-ref=\"Exodus 35-40\" href=\"/Exodus.35-40\">35–40</a> <a data-ref=\"Numbers 3\" href=\"/Numbers.3\">Nu 3</a>.<a data-ref=\"Numbers 4\" href=\"/Numbers.4\">4</a> (todos em P); cf. 𝔊 Sm Co a respeito de <span dir=\"rtl\">אָרְכּוֹ</span> <a data-ref=\"Ezekiel 41:22\" href=\"/Ezekiel.41.22\">Ez 41:22</a>, a respeito do altar.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00132-00146.md"
     }
   ]
 };
@@ -492,7 +717,19 @@ function overlayBdbhTranslations(mod, translated){
     const label=status==="COLACIONADO"
       ?"Tradução portuguesa — colacionada (auditoria pendente)"
       :"Tradução portuguesa — revisão editorial pendente";
-    let portuguese=window.ScripturaBDBHptFormat.format(item.html,item);
+    let html=item.html;
+    if(item.ordinal===146){
+      const from='<a data-ref="Exodus 35-40" href="/Exodus.35-40">35–40</a>';
+      if(!html.includes(from))throw Error("Fonte Exodus 35–40 ausente");
+      html=html.replace(from,"__BDB_PT_EXO_RANGE__");
+    }
+    let portuguese=window.ScripturaBDBHptFormat.format(html,item);
+    if(item.ordinal===146){
+      // Êx 35–40: capítulo inicial como destino, intervalo esclarecido no popup.
+      const to='<a class="reference-link bdbh-pt-link bdbh-pt-bible-link tooltip-trigger" href="#escrituras/UXLC/EXO.35.1" data-ref="Exodus 35-40" data-bdbh-source-href="/Exodus.35-40" data-bdbh-citation="Êx 35–40" aria-label="Êxodo, capítulos 35 a 40" data-tooltip-type="abbr" data-tooltip-label="Êx 35–40" data-tooltip-text="Êxodo, capítulos 35 a 40. Este link abre o início do capítulo 35 no leitor hebraico do Scriptura Lexicon; a referência histórica abrange também os capítulos 36 a 40.">Êx 35–40</a>';
+      if(!portuguese.includes("__BDB_PT_EXO_RANGE__"))throw Error("Substituição de faixa ausente");
+      portuguese=portuguese.replace("__BDB_PT_EXO_RANGE__",to);
+    }
     if(item.ordinal===121){
       // Colação: גרף está no texto visível; data-ref original remete incorretamente a גֹּ֫רֶן.
       // Preservar data-ref e o href original em data-bdbh-source-href; corrigir apenas o destino pesquisável.
