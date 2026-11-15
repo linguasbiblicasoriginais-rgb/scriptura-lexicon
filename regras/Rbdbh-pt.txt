@@ -25,6 +25,9 @@ Ex.: "1Cr 1.2", não "1 Ch 1:2"; "Gn 11.26", não "Gn 11:26".
 Até quando a fonte usa somente o número do versículo numa sequência,
 cada link visível recebe a forma autossuficiente (ex.: Gn 11.27).
 Uma referência só ao capítulo permanece como "Gn 11".
+Preservar subdivisões explícitas de versículo, por exemplo Js 7.25a e
+Js 7.25b: ambas apontam para o versículo 25, sem omitir a letra visível.
+O popup deve identificar a parte a/b, mantendo data-ref documental intacto.
 As abreviações BDB-H adotadas nos 39 livros:
 Gn, Êx, Lv, Nm, Dt, Js, Jz, Rt, 1Sm, 2Sm, 1Rs, 2Rs, 1Cr, 2Cr,
 Ed, Ne, Et, Jó, Sl, Pv, Ec, Ct, Is, Jr, Lm, Ez, Dn, Os, Jl,
