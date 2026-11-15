@@ -304,6 +304,141 @@ window.ScripturaBDBHpt.batch002={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00101-00120.md"
+    },
+    {
+      "ordinal": 121,
+      "headword": "אֶגְרֹף",
+      "ref": "BDB, אֶגְרֹף",
+      "preview": "Remissão de אֶגְרֹף ao radical גרף; alvo lexical corrigido exclusivamente na apresentação.",
+      "html": "<big><span dir=\"rtl\">אֶגְרֹף</span></big>  ver <a data-ref=\"BDB, גֹּ֫רֶן\" href=\"/BDB,_גֹּ֫רֶן\" dir=\"rtl\">גרף</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 122,
+      "headword": "אֵד",
+      "ref": "BDB, אֵד",
+      "preview": "Remissões das variantes אֵד, אוֹדוֹת e אֹדוֹת a אוד.",
+      "html": "<big><span dir=\"rtl\">אֵד</span>, <span dir=\"rtl\">אוֹדוֹת</span>, <span dir=\"rtl\">אֹדוֹת</span></big>  ver <a data-ref=\"BDB, אוד\" href=\"/BDB,_אוד\" dir=\"rtl\">אוד</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 123,
+      "headword": "אָדַב",
+      "ref": "BDB, אָדַב",
+      "preview": "Verbo: entristecer; Hifil e variante proposta por Driver.",
+      "html": "† <big><big>[<span dir=\"rtl\">אָדַב</span>]</big></big>  <strong>verbo: entristecer</strong>;<br><strong>Hifil</strong>  infinitivo <span dir=\"rtl\">לַאֲדִיב</span> (= <span dir=\"rtl\">לְהַאֲדִיב</span> Ges<sup>§ 53.3.R 7</sup>) <em>causar tristeza</em> <a data-ref=\"I Samuel 2:33\" href=\"/I_Samuel.2.33\">1 S 2:33</a>. (Mas Dr propõe <span dir=\"rtl\">לְהָדִיב</span> a partir de <span dir=\"rtl\">דוב</span>; ver o respectivo verbete.)",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 124,
+      "headword": "אַדְבְּאֵל",
+      "ref": "BDB, אַדְבְּאֵל",
+      "preview": "Nome próprio masculino: terceiro filho de Ismael; paralelos árabe, assírio e mineu.",
+      "html": "† <big><span dir=\"rtl\">אַדְבְּאֵל</span></big>  <strong>nome próprio masculino</strong> terceiro filho de Ismael <strong>(</strong>cf. árabe <span dir=\"rtl\">أَدَبَ</span> <em>convidar, disciplinar</em>?<strong>)</strong> <a data-ref=\"Genesis 25:13\" href=\"/Genesis.25.13\">Gn 25:13</a> <a data-ref=\"I Chronicles 1:29\" href=\"/I_Chronicles.1.29\">1 Ch 1:29</a> <strong>(</strong>assírio <em>Idibaʾil</em> etc.; nome de tribo árabe setentrional, Dl<sup>Pa 301</sup>; cf. mineu <span dir=\"rtl\">אדבל</span> DHM em MV<strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 125,
+      "headword": "אדד",
+      "ref": "BDB, אדד",
+      "preview": "Radical comparado hipoteticamente ao árabe أَدٌّ, força.",
+      "html": "<big><big><span dir=\"rtl\">אדד</span></big></big>  <strong>(</strong>? cf. árabe <span dir=\"rtl\">أَدٌّ</span> <em>força</em><strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 126,
+      "headword": "אִדּוֹ",
+      "ref": "BDB, אִדּוֹ",
+      "preview": "Nome próprio masculino: chefe israelita citado em Esdras.",
+      "html": "† <big><span dir=\"rtl\">אִדּוֹ</span></big>  <strong>nome próprio masculino</strong> um chefe israelita <a data-ref=\"Ezra 8:17\" href=\"/Ezra.8.17\">Ezr 8:17</a><sup>(×2)</sup>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 127,
+      "headword": "אֲדַד",
+      "ref": "BDB, אֲדַד",
+      "preview": "Nome próprio masculino: remissão a הדד.",
+      "html": "<big><span dir=\"rtl\">אֲדַד</span></big>  <strong>nome próprio masculino</strong>  ver <a data-ref=\"BDB, הדד\" href=\"/BDB,_הדד\" dir=\"rtl\">הדד</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 128,
+      "headword": "אֲדַלְיָא",
+      "ref": "BDB, אֲדַלְיָא",
+      "preview": "Nome próprio masculino: quinto filho de Hamã; origem persa proposta como hipótese.",
+      "html": "<big><span dir=\"rtl\">אֲדַלְיָא</span></big>  <strong>nome próprio masculino</strong> quinto filho de Hamã <a data-ref=\"Esther 9:8\" href=\"/Esther.9.8\">Est 9:8</a> <strong>(</strong>persa?<strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
+    },
+    {
+      "ordinal": 129,
+      "headword": "אדם",
+      "ref": "BDB, אדם",
+      "preview": "Radical I. אדם: comparação conjectural com o assírio adâmu, fazer, produzir.",
+      "html": "I. <big><big><span dir=\"rtl\">אדם</span></big></big>  <strong>(</strong>cf. assírio [<em>adâmu</em>] <em>fazer, produzir</em> (?) Dl<sup>W & Pr 104</sup><strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00121-00129.md"
     }
   ]
 };
@@ -327,7 +462,15 @@ function overlayBdbhTranslations(mod, translated){
     const label=status==="COLACIONADO"
       ?"Tradução portuguesa — colacionada (auditoria pendente)"
       :"Tradução portuguesa — revisão editorial pendente";
-    const portuguese=window.ScripturaBDBHptFormat.format(item.html,item);
+    let portuguese=window.ScripturaBDBHptFormat.format(item.html,item);
+    if(item.ordinal===121){
+      // Colação: גרף está no texto visível; data-ref original remete incorretamente a גֹּ֫רֶן.
+      // Preservar data-ref e o href original em data-bdbh-source-href; corrigir apenas o destino pesquisável.
+      const old='data-bdbh-lemma="גֹּ֫רֶן"';
+      if(!portuguese.includes(old))throw Error('BDB-H/PT: remissão 121 não comprovada');
+      portuguese=portuguese.replace(old,'data-bdbh-lemma="גָּרַף"')
+        .replace('Remissão ao verbete BDB-H גֹּ֫רֶן.','Remissão ao verbete BDB-H גָּרַף.');
+    }
     const ptSection='<section class="entry-section bdbh-pt-section" lang="pt-BR"'
       +' data-bdbh-ui="2026-11-15" data-bdbh-pt-state="'+status+'">'
       +'<div class="section-title">'+label+'</div>'
