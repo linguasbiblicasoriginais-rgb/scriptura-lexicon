@@ -908,39 +908,49 @@ window.ScripturaBDBHpt.batch001={
   ]
 };
 function overlayBdbhTranslations(mod, translated){
-  if(!mod)throw new Error("BDBH: módulo original indisponível");
+  if(!mod||!window.ScripturaBDBHptFormat)
+    throw new Error("BDB-H/PT: módulo de origem ou formatador canônico indisponível");
   const originalLength=mod.sourceRecords.length;
   for(const item of translated){
+    if(item.translation_status!=="TRADUCAO_INTEGRAL")
+      throw new Error("BDB-H/PT: não publicar tradução incompleta "+item.ordinal);
     const cardExpression=new RegExp('<article id="([^"]+)"[^>]*data-bdbh-ordinal="'+item.ordinal+'"[^>]*>');
     const match=mod.cardsHtml.match(cardExpression);
-    if(!match)throw new Error("BDBH: artigo ausente "+item.ordinal);
+    if(!match)throw new Error("BDB-H/PT: artigo ausente "+item.ordinal);
     const cardId=match[1],start=mod.cardsHtml.indexOf(match[0]),end=mod.cardsHtml.indexOf("</article>",start);
-    if(end<0)throw new Error("BDBH: artigo não fechado");
-    if(!mod.cardsHtml.slice(start,end).includes('bdbh-pt-section')){
-      const divider='<div class="entry-divider"></div>';
-      const insert=mod.cardsHtml.indexOf(divider,start);
-      if(insert<0||insert>end)throw new Error("BDBH: divisor ausente");
-      const statusConferido=item.collation_status==="COLACIONADO";
-      const estadoVisual=statusConferido?"COLACIONADO":"REVISAO";
-      const tituloVisual=statusConferido?"Tradução portuguesa — colacionada (auditoria pendente)":"Tradução portuguesa — revisão editorial pendente";
-      const pt='<section class="entry-section bdbh-pt-section" lang="pt-BR" data-bdbh-pt-state="'+estadoVisual+'"><div class="section-title">'+tituloVisual+'</div><div class="entry-text">'+item.html+'</div></section>';
-      const p=insert+divider.length;
-      mod.cardsHtml=mod.cardsHtml.slice(0,p)+pt+mod.cardsHtml.slice(p);
-    }
-    const token='data-target="'+cardId+'"';
-    const at=mod.rowsHtml.indexOf(token);
-    if(at<0)throw new Error("BDBH: linha ausente "+item.ordinal);
+    if(end<0)throw new Error("BDB-H/PT: artigo não fechado "+item.ordinal);
+    const card=mod.cardsHtml.slice(start,end+10);
+    const english=/<section class="entry-section" lang="en">[\s\S]*?<\/section>/g;
+    const hits=card.match(english);
+    if(!hits||hits.length!==1)throw new Error("BDB-H/PT: seção inglesa original ambígua "+item.ordinal);
+    const status=item.collation_status==="COLACIONADO"?"COLACIONADO":"REVISAO";
+    const label=status==="COLACIONADO"
+      ?"Tradução portuguesa — colacionada (auditoria pendente)"
+      :"Tradução portuguesa — revisão editorial pendente";
+    const portuguese=window.ScripturaBDBHptFormat.format(item.html,item);
+    const ptSection='<section class="entry-section bdbh-pt-section" lang="pt-BR"'
+      +' data-bdbh-ui="2026-11-15" data-bdbh-pt-state="'+status+'">'
+      +'<div class="section-title">'+label+'</div>'
+      +'<div class="entry-text">'+portuguese+'</div></section>';
+    // Substituição, NÃO sobreposição: o inglês permanece só em sourceRecords.
+    const clean=card.replace(english,ptSection);
+    if(clean.includes('Fonte original (inglês) — Brown–Driver–Briggs'))
+      throw new Error("BDB-H/PT: inglês indevidamente visível em "+item.ordinal);
+    mod.cardsHtml=mod.cardsHtml.slice(0,start)+clean+mod.cardsHtml.slice(end+10);
+    const token='data-target="'+cardId+'"',at=mod.rowsHtml.indexOf(token);
+    if(at<0)throw new Error("BDB-H/PT: linha de pesquisa ausente "+item.ordinal);
     const rowStart=mod.rowsHtml.lastIndexOf("<tr ",at),rowEnd=mod.rowsHtml.indexOf("</tr>",at)+5;
-    if(rowStart<0||rowEnd<5)throw new Error("BDBH: limites de linha inválidos");
+    if(rowStart<0||rowEnd<5)throw new Error("BDB-H/PT: limites de linha inválidos");
     let row=mod.rowsHtml.slice(rowStart,rowEnd);
     const esc=v=>v.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
     if(!row.includes("data-bdbh-pt-row")){
-      row=row.replace('class="search-row"','class="search-row" data-bdbh-pt-row="'+(item.collation_status==="COLACIONADO"?"COLACIONADO":"REVISAO")+'"');
+      row=row.replace('class="search-row"','class="search-row" data-bdbh-pt-row="'+status+'"');
       row=row.replace(/data-search="([^"]*)"/,(m,s)=>'data-search="'+s+" "+esc(item.preview)+'"');
       row=row.replace(/<td lang="en">[\s\S]*?<\/td>/,'<td lang="pt-BR">'+esc(item.preview)+'</td>');
       mod.rowsHtml=mod.rowsHtml.slice(0,rowStart)+row+mod.rowsHtml.slice(rowEnd);
     }
   }
-  if(mod.sourceRecords.length!==originalLength)throw new Error("BDBH: fonte alterada");
+  if(mod.sourceRecords.length!==originalLength)
+    throw new Error("BDB-H/PT: número de fontes inglesas alterado");
 }
 overlayBdbhTranslations(window.ScripturaLexicons && window.ScripturaLexicons["bdbh-batch-001"], window.ScripturaBDBHpt.batch001.records);

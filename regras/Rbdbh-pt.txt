@@ -1,0 +1,112 @@
+SCRIPTURA LEXICON — BDB-H/PORTUGUÊS
+NORMA CANÔNICA DE APRESENTAÇÃO E CONTINUIDADE
+Versão: 2026-11-15. Escopo: 60 verbetes já traduzidos e 10.955 pendentes.
+
+1. CAMADAS E PROVENIÊNCIA
+Manter estritamente independentes FONTE, TRADUÇÃO, ANÁLISE e GDHAGP.
+A transcrição inglesa BDB (Brown–Driver–Briggs, 1906; base digital Sefaria)
+permanece arquivada em sourceRecords, sem alteração, mas não é apresentada
+em cartões de verbetes cuja tradução portuguesa integral foi incorporada.
+Não duplicar a seção inglesa "Fonte original (inglês) — Brown–Driver–Briggs".
+A revisão visual não constitui retradução e não incrementa o progresso.
+Não inventar significados, etimologias, transliterações ou testemunhos.
+
+2. TRADUÇÃO INTEGRAL
+Traduzir todas as acepções, subacepções, morfologia, paradigmas, etimologias,
+variantes, hipóteses, notas de crítica textual, referências e bibliografia.
+Conservar rigorosamente as formas hebraicas, árabes, gregas, siríacas,
+etiópicas e demais testemunhos. Preservar qualificadores conjecturais
+(talvez, provável, duvidoso etc.). Corrigir somente com evidência.
+
+3. PADRÃO DAS CITAÇÕES BÍBLICAS
+A referência VISÍVEL usa o nome abreviado do livro em português, sem espaços
+internos nos numerais, e ponto entre capítulo e versículo.
+Ex.: "1Cr 1.2", não "1 Ch 1:2"; "Gn 11.26", não "Gn 11:26".
+Até quando a fonte usa somente o número do versículo numa sequência,
+cada link visível recebe a forma autossuficiente (ex.: Gn 11.27).
+Uma referência só ao capítulo permanece como "Gn 11".
+As abreviações BDB-H adotadas nos 39 livros:
+Gn, Êx, Lv, Nm, Dt, Js, Jz, Rt, 1Sm, 2Sm, 1Rs, 2Rs, 1Cr, 2Cr,
+Ed, Ne, Et, Jó, Sl, Pv, Ec, Ct, Is, Jr, Lm, Ez, Dn, Os, Jl,
+Am, Ob, Jn, Mq, Na, Hc, Sf, Ag, Zc, Ml.
+Os identificadores de destino usam os códigos efetivos do leitor
+Scriptura (GEN, EXO, 1CH, NEH etc.), nunca traduções inventadas.
+Os atributos data-ref originais permanecem nos registros de apresentação
+para rastreabilidade; o original Sefaria permanece em data-bdbh-source-href.
+Não alterar a referência histórica citada por suposta correção de versificação.
+
+4. LINKS FUNCIONAIS
+Proibido deixar links BDB-H/PT com href relativo importado da Sefaria,
+como /Nehemiah.9.7, que devolve 404 no Vercel.
+Referência bíblica hebraica: #escrituras/UXLC/LIVRO.CAPÍTULO.VERSÍCULO.
+Remissão lexical BDB-H: #hebraico com data-bdbh-lemma e tratamento de
+clique que efetivamente pesquisa a entrada no índice BDB do site.
+Quando a fonte citar 1 Macabeus, o portal tem leitor LXX em
+#apocrifos/LXX/1MA.CAPÍTULO.VERSÍCULO. Alertar no popup que a LXX
+não é a tradução de Kahana citada pelo BDB.
+Não criar link cujo livro/código não esteja mapeado: falhar fechado,
+investigar a fonte e testar antes de publicar. Não declarar testado
+um destino para o qual não haja prova.
+
+5. POPUPS E ACESSIBILIDADE
+Todo termo hebraico visível no corpo da tradução, inclusive fora
+de <span dir="rtl">, deve receber marcação lang="he", direção RTL,
+classe tooltip-trigger, tabindex e data-tooltip-type="hebrew".
+Hebraico não lematizado não recebe "significado" inferido; popup apresenta
+sua origem e a dependência do contexto. Para remissão lexical, informar
+que o clique abre a pesquisa da entrada BDB correspondente.
+Cada citação bíblica clicável usa a classe global reference-link,
+a classe tooltip-trigger, expansão do nome do livro, capítulo/versículo
+e indicação do leitor; acionável com mouse e teclado.
+Gatilhos siríacos recebem lang="syr" e popup contextual identificado.
+Usar a infraestrutura de popup existente do site, sem duplicar leitores.
+
+6. TIPOGRAFIA E CORES
+Fonte hebraica Noto Serif Hebrew, maior que o corpo latino (aprox.
+1,34 em desktop e 1,29 em telas pequenas), espaçamento vertical generoso
+para sinais vocálicos e cantilação; direção RTL isolada.
+Não ampliar indiscriminadamente caracteres de outras línguas.
+Links BDB-H/PT usam as mesmas variáveis globais var(--reference) e
+var(--reference-hover) dos demais léxicos; :visited preserva a cor normal,
+sem roxo, sem azul externo discordante. Foco visível obrigatório.
+CSS estritamente delimitado aos artigos .entry-card[data-bdbh-ordinal]
+e .bdbh-pt-section; temas claro/escuro e responsividade preservados.
+
+7. IMPLEMENTAÇÃO CANÔNICA
+lexicons/bdbh-pt-ui.js: formatador independente do DOM, executado no build,
+responsável pela padronização das 60 traduções e das futuras.
+lexicons/bdbh-pt-batch-001.js: dados portugueses e overlay que SUBSTITUI
+a seção inglesa da apresentação pelo texto português; conserva
+sourceRecords ingleses intocados; atualiza apenas a linha de busca do artigo.
+lexicons/bdbh-pt.css: tipografia, responsividade, cores e estados.
+lexicons/bdbh-pt-runtime.js: navegação de remissões lexicais no navegador.
+lexicon-modules.json: carregar bdbh-batch-001.js, depois bdbh-pt-ui.js,
+depois bdbh-pt-batch-001.js.
+index.html: carregar CSS e runtime BDB-H/PT após os respectivos scripts-base.
+Nenhuma alteração em outros léxicos, no ramo main ou no texto de origem.
+
+8. VERIFICAÇÕES ANTES DE PUBLICAR
+Em cada verbete: (a) todo conteúdo traduzido sem resumo;
+(b) lemas e escritas antigas preservados; (c) número/ordem de acepções;
+(d) todas as referências data-ref preservadas; (e) nenhuma href /... quebrada
+na versão portuguesa; (f) cada link com URL interna verificável;
+(g) sigla bíblica portuguesa e ponto antes do versículo;
+(h) popup do hebraico, das abreviações e remissões;
+(i) CSS com cor uniforme nos estados normal, hover, foco e visitado;
+(j) nenhuma seção inglesa duplicada; (k) HTML equilibrado, linha/cartão;
+(l) regressão de busca, teclado, toque, responsividade e temas;
+(m) comparação de contadores e origem.
+O teste de estrutura do build não equivale a teste de navegador. Quando
+a verificação funcional não for realizada, registrar expressamente
+"NÃO TESTADO" e manter auditoria atômica pendente.
+
+9. PUBLICAÇÃO E PROGRESSO
+Usar sempre HEAD remoto da origem chat-gpt-bdbh-pt, SHA do BDB inglês,
+checkpoint, criação atômica, expected_sha e force=false.
+Integrar via PR revisto para chat-gpt-commits, confirmar merged=true e HEAD,
+acionar implantação no projeto Vercel scriptura-lexicon do SHA exato.
+Declarar o site atualizado apenas após status READY e alias de produção.
+Próxima tradução ordinal 61, אָבַל. Denominador fixo 11.015.
+Contadores separados: traduzidos, colacionados, estáticos, auditados
+atomicamente, integrados e publicados. O lote de correção visual 1–60
+NÃO soma novas traduções: permanece 60/11.015 (0,54%).
