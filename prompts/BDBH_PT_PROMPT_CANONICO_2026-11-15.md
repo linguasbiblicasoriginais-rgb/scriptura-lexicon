@@ -54,6 +54,8 @@ canônico vigente.
    Expanda também referências curtas dentro de sequências para que cada
    link seja autossuficiente; capítulo citado sem versículo permanece
    "Gn 11", não inventar versículo na referência exibida.
+   Preservar subdivisões de versículos como Js 7.25a e Js 7.25b;
+   ambas levam ao versículo 25 e o popup identifica a parte.
 10. Referências bíblicas da BDB-H levam ao leitor interno em
     #escrituras/UXLC/GEN.11.26, #escrituras/UXLC/1CH.1.2 etc.
     Não publicar URLs relativas de origem como /Nehemiah.9.7 (404).

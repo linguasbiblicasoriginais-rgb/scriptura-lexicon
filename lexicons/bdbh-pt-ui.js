@@ -59,8 +59,9 @@
       if(!Number.isSafeInteger(chapter)||chapter<1||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))){
         throw Error("BDB-H/PT: capítulo/versículo inválido: "+ref);
       }
-      const readable=book.abbr+" "+chapter+(verse===null?"":"."+verse);
-      const full=book.full+", capítulo "+chapter+(verse===null?"":", versículo "+verse);
+      const subdivision=verse===null?"":(originalLabel.match(/\d+([a-d])$/i)?.[1]||"");
+      const readable=book.abbr+" "+chapter+(verse===null?"":"."+verse+subdivision);
+      const full=book.full+", capítulo "+chapter+(verse===null?"":", versículo "+verse+(subdivision?" (parte "+subdivision+")":""));
       const note=book.apocryphal
         ? ". A passagem é aberta no leitor da Septuaginta, não na tradução de Kahana citada na fonte BDB."
         : ". Ativar para abrir a passagem no leitor hebraico UXLC do Scriptura Lexicon.";
