@@ -1,0 +1,79 @@
+/* BDB-H/PT — apresentação canônica, isolada dos outros dicionários.
+   Regras editoriais em regras/Rbdbh-pt.txt. */
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section .entry-text {
+  line-height: 2.08;
+  overflow-wrap: anywhere;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* Noto Serif Hebrew: ampliar caracteres e dar folga vertical aos niqqud e cantilação. */
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section .entry-text
+  :is([lang="he"], .bdbh-pt-hebrew, .bdbh-pt-xref) {
+  font-family: var(--font-hebrew);
+  font-size: 1.34em;
+  font-weight: 500;
+  line-height: 1.75;
+  font-feature-settings: "mark" 1, "mkmk" 1;
+  vertical-align: baseline;
+  unicode-bidi: isolate;
+}
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section .entry-text big {
+  font-size: 1em;
+}
+/* Mesmas cores e estados das referências de todo o Scriptura Lexicon.
+   Visited NÃO muda a cor, independentemente do navegador ou do tema. */
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-link,
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-link:link,
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-link:visited {
+  color: var(--reference);
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-link:hover,
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-link:focus-visible {
+  color: var(--reference-hover);
+  background: rgba(117, 170, 255, 0.09);
+  text-decoration: underline;
+  text-underline-offset: 0.17em;
+}
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section
+  :is(a.bdbh-pt-link, .bdbh-pt-hebrew, .bdbh-pt-syriac):focus-visible {
+  outline: 2px solid var(--interactive);
+  outline-offset: 3px;
+}
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section .bdbh-pt-hebrew,
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section .bdbh-pt-syriac {
+  cursor: help;
+}
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section .bdbh-pt-syriac {
+  font-family: var(--font-syriac);
+  font-size: 1.26em;
+  line-height: 1.6;
+}
+/* A regra mais específica também cobre o hover genérico de .tooltip-trigger. */
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-link.tooltip-trigger:visited:not(:hover):not(:focus-visible) {
+  color: var(--reference);
+}
+@media (max-width: 640px) {
+  .entry-card[data-bdbh-ordinal] .bdbh-pt-section .entry-text {
+    line-height: 2.13;
+    overflow-wrap: anywhere;
+  }
+  .entry-card[data-bdbh-ordinal] .bdbh-pt-section .entry-text
+    :is([lang="he"], .bdbh-pt-hebrew, .bdbh-pt-xref) {
+    font-size: 1.29em;
+    line-height: 1.85;
+  }
+}
+
+/* Remissões hebraicas mantêm o aumento, não herdando o corpo latino. */
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-xref,
+.entry-card[data-bdbh-ordinal] .bdbh-pt-section a.bdbh-pt-xref:visited {
+  font-family: var(--font-hebrew);
+  font-size: 1.34em;
+  line-height: 1.75;
+  unicode-bidi: isolate;
+}

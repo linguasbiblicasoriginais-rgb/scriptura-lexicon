@@ -35,19 +35,21 @@
     "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "Sessenta verbetes BDB-H traduzidos e colacionados na branch de origem; integração explicitamente solicitada, pendente de merge GitHub verificado nesta execução; auditoria atômica e fac-símile impresso ainda não verificados.",
+  "publication_note": "Correção de apresentação e navegação para as 60 traduções BDB-H: inglês oculto nos cartões publicados, siglas PT e capítulo.versículo, links internos, tipografia RTL e popups; tradução/colação: 60/11015, sem incremento; auditoria funcional DOM e fac-símile impressos ainda pendentes.",
   "untouched_original": true,
   "last_source_blob_verified": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "last_working_commit_parent": "722fe44cd9fe121d43fafdab7440f2f5f2c6d8b4",
-  "last_round_status": "BDBH_PT_00041_A_00060_TRADUCAO_INTEGRAL_COLACIONADA_ESTATICA",
+  "last_working_commit_parent": "70827fd686a77884d103ab7d29b884d6586bcb27",
+  "last_round_status": "BDBH_PT_00001_A_00060_INTERFACE_CANONICA_CORRIGIDA",
   "registered_translation_records": 60,
   "editorially_collated": 60,
   "validated_statically": 60,
   "last_round_source_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
-  "last_round_parent_head": "722fe44cd9fe121d43fafdab7440f2f5f2c6d8b4",
-  "last_round_evidence": "relatorios/bdbh-pt-2026-11-15-ordinais-00041-00060.md",
+  "last_round_parent_head": "70827fd686a77884d103ab7d29b884d6586bcb27",
+  "last_round_evidence": "relatorios/bdbh-pt-2026-11-15-correcoes-visuais-00001-00060.md",
   "last_completed_ordinal": 60,
   "last_completed_ref": "BDB, אָבַךְ",
-  "last_round_translated_count": 20,
-  "last_round_verified_scope": "20 verbetes consecutivos (41–60) traduzidos, colacionados contra a fonte digital e validados estaticamente; testes DOM e auditoria atômica pendentes"
+  "last_round_translated_count": 0,
+  "last_round_verified_scope": "60 traduções renderizadas sem inglês; 840 data-ref e 840 links normalizados; 802 popups bíblicos e 393 gatilhos hebraicos; códigos de 39 livros UXLC mais 1 Macabeus LXX; regressão real DOM não executada",
+  "presentation_canonical_version": "2026-11-15-bdbh-pt-01",
+  "presentation_canonical_rule": "regras/Rbdbh-pt.txt"
 }
