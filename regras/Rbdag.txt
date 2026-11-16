@@ -8629,3 +8629,40 @@ SEGURANÇA OBRIGATÓRIA: um único commit filho de d15c97d19d0abcfd61f846f193fbc
 AUDITORIA_CONCLUIDA=NÃO; pendem: revisão semântica e gramático-filológica independente por artigo, verificação de fac-símile/paginação e SHA integral do HTML canônico, testemunhos gregos/hebraicos, siglas e bibliografia, checagem HTTP das URLs, navegação DOM/busca/teclado/popups/acessibilidade/responsividade, CI/regressão funcional global, fichas A–J e integração pelo integrador autorizado com merge confirmado. Sem essas etapas não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONAL APÓS CONFIRMAÇÃO REMOTA: BDAG 3924 → 3944/8287 = 47,59%; restam 4343. OUTROS LÉXICOS: DGP branch chat-gpt-dgp HEAD 581ad921b47e3b0e7f28b279b83ed19e508da68b; total NÃO VERIFICADO por contagem independente. LEH chat-gpt-leh e PEREIRA chat-gpt-pereira retornaram 422; totais NÃO VERIFICADOS. Não confundir incorporação técnica com auditoria concluída.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 187 — 16/11/2026 — INCORPORAÇÃO DO HTML CANÔNICO; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL: 75a59c66325b4fc31b1b807209b2b996112a74b4; BASE_TREE da branch no commit do lote 186: 0ddade8f757e14e6d1e9a949a2f5038f0995ec89.
+NORMAS VIGENTES CONSULTADAS: regras/Rbdag.txt blob a55cbe3ea46945caa567e8c97cace49a9b75bbe8, com histórico preservado; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67, sem alterações. Não alterar bdag.js ou bibliographicTerms.
+FONTE EXCLUSIVA: HTML canônico BDAG da Biblioteca do projeto, 30.790.409 bytes, linhas 43663–43911, 20 cabeçalhos autônomos <span class="c71">; o próximo artigo, κατάγνωσις, inicia em 43912, RESERVADO para o lote 188. Não atribuir hash do conteúdo editado ao arquivo HTML original integral, cujo SHA permanece NÃO VERIFICADO.
+ARTIGOS COMPLETOS EM ORDEM: 01 κάρφος; 02 καρχηδών; 03 κατά; 04 καταβαίνω; 05 καταβάλλω; 06 καταβαρέω; 07 καταβαρύνω; 08 κατάβασις; 09 καταβῇ; 10 καταβιβάζω; 11 καταβοάω; 12 καταβολή; 13 καταβραβεύω; 14 καταγγελεύς; 15 καταγγέλλω; 16 καταγέλαστος; 17 καταγελάω; 18 καταγίνομαι; 19 καταγινώσκω; 20 κατάγνυμι.
+TRADUÇÃO EDITORIAL: reproduz o conteúdo integral de cada artigo do HTML em português, inclusive as estruturas do artigo κατά (com genitivo/acusativo, construções e subdivisões) e de καταβαίνω, sem condensar exemplos, variantes, testemunhos e referências. Títulos de obras bibliográficas, abreviaturas do original e citações gregas preservados conforme a fonte. Algumas abreviaturas estrangeiras foram mantidas como identificadores bibliográficos; não declará-las como falhas corrigidas mediante conjecturas.
+COLAÇÃO AUTOMATIZADA NFC POR ARTIGO: fonte textual -> tradução -> texto reconstituído dos cartões: 1631/1631 sequências gregas, 1/1 hebraica e 2261/2261 sequências numéricas, sem divergências; o único hebraico do lote ocorre em καταβαίνω. A identidade de tokens e a completude estrutural não equivalem a revisão semântica independente por acepção nem a cotejo do fac-símile.
+EVIDÊNCIA INDIVIDUAL: nº | lema | linhas HTML | tokens grego/hebraico/números (mesma sequência no original, tradução e cartão):
+01 | κάρφος | 43663–43666 | 13/0/22
+02 | καρχηδών | 43667–43671 | 2/0/0
+03 | κατά | 43672–43794 | 1113/0/1359
+04 | καταβαίνω | 43795–43824 | 193/1/379
+05 | καταβάλλω | 43825–43835 | 21/0/58
+06 | καταβαρέω | 43836–43839 | 10/0/16
+07 | καταβαρύνω | 43840–43843 | 9/0/16
+08 | κατάβασις | 43844–43847 | 13/0/18
+09 | καταβῇ | 43848–43851 | 2/0/0
+10 | καταβιβάζω | 43852–43855 | 15/0/17
+11 | καταβοάω | 43856–43860 | 4/0/19
+12 | καταβολή | 43861–43871 | 61/0/108
+13 | καταβραβεύω | 43872–43875 | 4/0/10
+14 | καταγγελεύς | 43876–43880 | 6/0/9
+15 | καταγγέλλω | 43881–43891 | 73/0/72
+16 | καταγέλαστος | 43892–43895 | 4/0/15
+17 | καταγελάω | 43896–43899 | 8/0/38
+18 | καταγίνομαι | 43900–43903 | 11/0/13
+19 | καταγινώσκω | 43904–43907 | 40/0/55
+20 | κατάγνυμι | 43908–43911 | 29/0/37
+ANOMALIAS DO HTML ORIGINAL PARA APURAÇÃO, SEM EMENDAS CONJECTURAIS: o artigo κατά informa no início 391 ocorrências de κατά com acusativo no NT e adiante, na seção B, 399 ocorrências; preservar ambas as informações até conferência da edição e do método de contagem. O texto original também contém algumas grafias gregas e variantes críticas potencialmente irregulares; mantê-las sem normalização especulativa. Separar testemunho documental, tradução editorial e inferência.
+TESTES ESTÁTICOS: novo módulo lexicons/bdag-part-0187.js blob 4dcc8cba036974468889c16e22bbfacbb50ff16d (20 search-row, 20 entry-card, data-target/id 1:1 e IDs entry-bdag-0187-01 a -20 únicos no módulo); tags HTML equilibradas, serialização JS conferida por JSON.parse, texto reconstituído do HTML igual à tradução, tokens colacionados por artigo; 307 hyperlinks explícitos de referências do NT com URLs sintaticamente válidas no padrão https://www.die-bibel.de/en/bible/NA28, 294 URLs distintas. Validar sintaxe e faixas de capítulos/versículos NÃO substitui teste HTTP do destino; não houve confirmação remota de acesso URL, teste DOM ou CI.
+ESCOPO DE ALTERAÇÃO EXCLUSIVO: adicionar lexicons/bdag-part-0187.js; registrar exatamente uma vez em lexicon-modules.json após part-0186.js e antes de leh.js; acrescentar este checkpoint ao final de regras/Rbdag.txt preservando integralmente o conteúdo anterior. Não alterar módulos anteriores, outros léxicos, infraestrutura, main ou quaisquer outras branches.
+PUBLICAÇÃO: criar um ÚNICO commit filho do HEAD 75a59c66325b4fc31b1b807209b2b996112a74b4, revalidar HEAD imediatamente antes de update_ref, e executar update_ref exclusivamente na branch chat-gpt-bdag com expected_sha=75a59c66325b4fc31b1b807209b2b996112a74b4 e force=false. Se HEAD divergir, ABORTAR sem force e sem sobrescrever trabalho concorrente. NÃO criar PR, realizar merge, rebase, ou abrir branches.
+AUDITORIA_CONCLUIDA=NÃO. PENDENTES: cotejo do fac-símile e paginação com SHA do original, análise semântica/filológica independente por acepção, conferência de variantes e testemunhos, desambiguação do conflito 391/399 em κατά, revisão bibliográfica completa e notas, validação HTTP dos links, testes funcionais de navegador/DOM/busca/teclado/foco/popups/acessibilidade/responsividade, CI e regressão global, fichas A–J individuais e integração pelo integrador com merge de PR verificado. Sem isso, não incrementar total_auditoria_concluida.
+PROGRESSO APENAS APÓS CONFIRMAÇÃO REMOTA: BDAG 3944 → 3964/8287 = 47,83%; restam 4323. Totais dos demais léxicos NÃO REVALIDADOS independentemente; não inferir auditoria concluída de incorporação estática.
+================================================================================
