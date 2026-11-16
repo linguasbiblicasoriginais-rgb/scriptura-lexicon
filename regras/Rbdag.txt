@@ -9090,3 +9090,36 @@ ESCOPO E PUBLICAÇÃO PROTEGIDA: somente novo lexicons/bdag-part-0199.js, única
 AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile/paginação e SHA integral do HTML, revisão filológica/semântica e bibliográfica independente, cotejo crítico de variantes/testemunhos, HTTP, navegador, CI e regressão global, fichas A–J e integração autorizada e confirmada. Não incrementar total_auditoria_concluida.
 PROGRESSO SOMENTE APÓS CONFIRMAÇÃO DO COMMIT E BLOBS REMOTOS: BDAG 4184 → 4204/8287 = 50,73%, restam 4083.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 200 — 16/11/2026 — INCORPORAÇÃO DE 20 ARTIGOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: cb0a05d37c797e46581540e6935a584b18ae7d32; Rbdag relido, blob 35f4c2f6e1ac58321910cef62981947326afe077; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML BDAG canônico indexado na Biblioteca, informado com 30.790.409 bytes, linhas 45586–45713, vinte artigos autônomos de κέντρον, ου, τό a κερματιστής, οῦ, ὁ. Próximo artigo Κέσκος inicia na linha 45714 e pertence ao lote 201. Não foi obtido SHA bruto do HTML integral, nem fac-símile.
+TRADUÇÃO INTEGRAL: os vinte artigos vertidos ao português, incluindo paradigmas, acepções, subdivisões, variantes, bibliografia e referências; κέντρον preserva expressão proverbial e leitura variante; κέραμος conserva incerteza textual e leitura conjectural; κεράννυμι mantém alternativas semânticas sobre misturar/derramar; κερδαίνω distingue ganhar e evitar perda. Κενχρεαί e κερέα mantidos como remissões, sem acepções inventadas. Sem introduzir leitura de outra fonte.
+COLAÇÃO SEQUENCIAL NFC INDIVIDUAL HTML → TRADUÇÃO → CARTÃO RECONSTRUÍDO: 302 sequências gregas, 0 hebraicas, 589 numéricas preservadas exatamente e em ordem nos vinte artigos, sem divergências formais. Não equivale a auditoria semântica independente nem verificação do fac-símile.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | κέντρον, ου, τό | 45586–45596 | 39/0/87 | 3
+02 | κεντυρίων, ωνος, ὁ | 45597–45600 | 5/0/34 | 1
+03 | Κενχρεαί | 45601–45604 | 2/0/0 | 0
+04 | κένωμα, ατος, τό | 45605–45608 | 7/0/21 | 0
+05 | κενῶς | 45609–45612 | 10/0/20 | 1
+06 | κεραία, ας, ἡ | 45613–45616 | 31/0/22 | 2
+07 | κεραμεύς, έως, ὁ | 45617–45620 | 9/0/33 | 2
+08 | κεραμικός, ή, όν | 45621–45624 | 11/0/9 | 1
+09 | κεράμιον, ου, τό | 45625–45629 | 14/0/38 | 2
+10 | κέραμος, ου, ὁ | 45630–45641 | 13/0/46 | 1
+11 | κεράννυμι | 45642–45653 | 44/0/29 | 1
+12 | κέρας, ατος, τό | 45654–45667 | 18/0/69 | 3
+13 | κεράτιον, ου, τό | 45668–45671 | 5/0/22 | 1
+14 | κερβικάριον, ου, τό | 45672–45676 | 7/0/13 | 0
+15 | κερδαίνω | 45677–45693 | 29/0/72 | 11
+16 | κερδαλέος, α, ον | 45694–45697 | 8/0/5 | 0
+17 | κέρδος, ους, τό | 45698–45701 | 21/0/36 | 3
+18 | κερέα | 45702–45705 | 2/0/0 | 0
+19 | κέρμα, ατος, τό | 45706–45709 | 19/0/21 | 1
+20 | κερματιστής, οῦ, ὁ | 45710–45713 | 8/0/12 | 1
+TESTES ESTÁTICOS: objeto JS/JSON reconstruído, HTML balanceado por pilha, 20 search-row / 20 entry-card, IDs entry-bdag-0200-01 a -20 únicos e ligados por data-target 1:1, sequências dos cartões conferidas; 34 links NA28 sintaticamente válidos (34 URLs distintas), limites estáticos de livro/capítulo/versículo verificados. HTTP, DOM/navegador, teclado/foco, popup, acessibilidade, CI e regressão global não testados.
+ESCOPO PROTEGIDO: criar só lexicons/bdag-part-0200.js, incluir unicamente a nova linha em lexicon-modules.json imediatamente após part-0199 e antes de leh.js e apensar este checkpoint a regras/Rbdag.txt. Não tocar bdag.js, bibliographicTerms, outros léxicos, scripts, infra, branches. Publicar um commit direto a partir do HEAD revalidado com expected_sha=cb0a05d37c797e46581540e6935a584b18ae7d32, force=false, sem PR, merge, rebase, branch auxiliar ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendentes SHA/fac-símile e paginação, revisão filológica/semântica e bibliográfica independente, exame crítico de variantes e testemunhos, testes HTTP, navegador, CI e regressão global, fichas A–J e integração confirmada. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO COMMIT: BDAG 4204 → 4224/8287 = 50,97%; 4063 artigos restantes.
+================================================================================
