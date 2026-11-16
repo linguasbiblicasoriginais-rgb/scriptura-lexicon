@@ -9156,3 +9156,36 @@ ESCOPO DE PUBLICAÇÃO PROTEGIDA: criar apenas lexicons/bdag-part-0201.js, acres
 AUDITORIA_CONCLUIDA=NÃO: fac-símile/paginação, SHA do HTML integral, revisão filológica, bibliográfica e semântica independente, cotejo crítico de variantes e testemunhos, HTTP/DOM, CI, regressão global, fichas A–J e integração por responsável confirmada continuam pendentes. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE HEAD/COMMIT/BLOBS REMOTOS: BDAG 4224 → 4244/8287 = 51,21%; 4043 restantes.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 202 — 16/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: 12d9e28cc930084537dd5dfdc47b0d713bcb0ecf. Rbdag relido, blob 7041af99c647ea585291f31d1edc2c9af60af45c; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML BDAG canônico indexado na Biblioteca, 30.790.409 bytes de tamanho informado, linhas 45869–46004, vinte artigos autônomos desde κιβώριον, ου, τό até Κλαῦδα. Próxima entrada Κλαυδία, ας, ἡ inicia na linha 46005, lote 203. SHA bruto integral da fonte não obtido, sem cotejo de fac-símile.
+TRADUÇÃO: tradução portuguesa integral dos 20 artigos, preservando acepções, subclasses, morfologia, remissões, variantes, bibliografia e referências. κιβωτός distingue arca de Noé e arca da aliança com dois diferentes vocábulos hebraicos; κιθάρα apresenta várias possibilidades semânticas para κ. τοῦ θεοῦ; κιννάμωμον e Κίς conservam cognatos/nomes hebraicos; κλάσις separa o ato de partir o pão da interpretação cultual, sem declarar certeza eucarística; Κλαῦδα é remissão simples. Em κινέω, restaurado τὶ (com acento grave) do HTML após primeira colação; segunda colação sem divergências.
+COLAÇÃO FORMAL SEQUENCIAL NFC POR ARTIGO HTML → TRADUÇÃO → CARTÃO RECUPERADO: 351 sequências gregas, 4 hebraicas, 817 numéricas conferidas com identidade e ordem preservadas, zero divergências remanescentes. Esta verificação não equivale à auditoria semântica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | κιβώριον, ου, τό | 45869–45873 | 12/0/17 | 1
+02 | κιβωτός, οῦ, ἡ | 45874–45884 | 8/2/43 | 6
+03 | κιθάρα, ας, ἡ | 45885–45888 | 18/0/38 | 5
+04 | κιθαρίζω | 45889–45892 | 9/0/27 | 2
+05 | κιθαρῳδός, οῦ, ὁ | 45893–45896 | 10/0/26 | 1
+06 | Κιλικία, ας, ἡ | 45897–45900 | 4/0/27 | 2
+07 | Κίλιξ, ικος, ὁ | 45901–45904 | 3/0/9 | 1
+08 | κινδυνεύω | 45905–45908 | 23/0/56 | 3
+09 | κίνδυνος, ου, ὁ | 45909–45913 | 65/0/57 | 2
+10 | κινέω | 45914–45942 | 78/0/110 | 7
+11 | κίνησις, εως, ἡ | 45943–45946 | 12/0/29 | 1
+12 | κιννάμωμον, ου, τό | 45947–45950 | 4/1/19 | 1
+13 | Κίς, ὁ | 45951–45954 | 6/1/11 | 1
+14 | κισσάω | 45955–45958 | 5/0/11 | 0
+15 | κίχρημι | 45959–45962 | 5/0/15 | 1
+16 | κλάδος, ου, ὁ | 45963–45967 | 18/0/45 | 6
+17 | κλαίω | 45968–45979 | 41/0/199 | 30
+18 | κλάσις, εως, ἡ | 45980–45996 | 21/0/26 | 3
+19 | κλάσμα, ατος, τό | 45997–46000 | 7/0/52 | 4
+20 | Κλαῦδα | 46001–46004 | 2/0/0 | 0
+TESTES ESTÁTICOS: parse do objeto JS/JSON e reconstrução serializada, HTML balanceado por pilha, 20 search-row e 20 entry-card, IDs entry-bdag-0202-01 a -20 únicos e ligados 1:1 por data-target, restauração textual do cartão com sequências preservadas, 77 links NA28 sintaticamente válidos (70 URLs distintas) e livro/capítulo/versículo dentro de limites estáticos. Sem testes HTTP, navegador/DOM, teclado/foco, popups/acessibilidade, CI ou regressão global.
+ESCOPO PROTEGIDO: criar apenas lexicons/bdag-part-0202.js, acrescentar só um registro em lexicon-modules.json imediatamente depois de part-0201 e antes de leh.js, apensar somente este checkpoint em regras/Rbdag.txt, preservando integralmente o histórico. Não alterar bdag.js, bibliographicTerms, outros léxicos, infraestrutura, scripts nem outras branches. Um commit filho do HEAD revalidado com expected_sha=12d9e28cc930084537dd5dfdc47b0d713bcb0ecf e force=false; sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendentes SHA bruto e fac-símile/paginação; revisão filológica, semântica e bibliográfica independente; cotejo crítico de variantes/testemunhos; testes HTTP, DOM, CI, regressão global; fichas A–J e integração confirmada. Não incrementar total_auditoria_concluida.
+PROGRESSO SOMENTE APÓS HEAD/COMMIT/BLOBS CONFIRMADOS: BDAG 4244 → 4264/8287 = 51,45%; faltam 4023 artigos.
+================================================================================
