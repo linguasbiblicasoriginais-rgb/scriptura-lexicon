@@ -8919,3 +8919,38 @@ PUBLICAÇÃO SEGURA: único commit descendente do HEAD verificado, update_ref ap
 AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile e paginação, hash SHA da fonte original, revisão individual semântica/filológica independente, conferência exegética dos testemunhos, HTTP dos links, DOM/teclado/popups/acessibilidade/responsividade, CI e regressão global, fichas A–J, integração pela rotina própria com merge confirmado. Não incrementar total_auditoria_concluida.
 PROGRESSO SUJEITO À VERIFICAÇÃO DO COMMIT E DOS BLOBS REMOTOS: BDAG 4084 → 4104/8287 = 49,52%; 4183 restantes.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 195 — 16/11/2026 — INCORPORAÇÃO DE 20 ARTIGOS CANÔNICOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: 8ca7a194c459d2d1727465f58d78f3a00c34cc1a. Normas relidas diretamente: Rbdag blob 70a556a712b451842caa58d71b5aa527213bdb89; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML BDAG canônico indexado na Biblioteca do projeto (30.790.409 bytes informados), linhas 44921–45000, vinte cabeçalhos autônomos <span class="c71">; próximo artigo κατέλιπον inicia em 45001 e fica reservado ao lote 196. SHA integral do HTML original NÃO recalculado por ausência de acesso aos bytes brutos.
+ARTIGOS EM ORDEM: 01 καταχθόνιος, ον; 02 καταχορεύω; 03 καταχράομαι; 04 κατάχυμα, ατος, τό; 05 καταψεύδομαι; 06 καταψηφίζομαι; 07 καταψύχω; 08 κατεάγην, -εαγῶσιν, -έαξα, -έαξω; 09 κατέβην; 10 κατεγέλων; 11 κατέγνωσμαι; 12 κατέδραμον; 13 κατείδωλος, ον; 14 κατειλημμένος, κατείληφα; 15 κάτειμι; 16 κατείργω; 17 κατεκάην; 18 κατεκρίθην; 19 κατελαβόμην, κατέλαβον, κατελήμφθην; 20 κατελθεῖν.
+TRADUÇÃO EDITORIAL: prosa dos 20 artigos traduzida para português, com formas, paradigmas, contextos, variantes, hipóteses, testemunhos, siglas, fontes, bibliografia, remissões e todas as referências preservadas. Dez entradas remissivas permanecem remissões e não recebem acepções arbitrárias. No artigo κάτειμι foi restituída na preparação a referência TestJos 9:4; 12:1 que faltava no rascunho inicial; a colação final não apresentou divergências.
+COLAÇÃO FORMAL NFC INDIVIDUAL FONTE HTML → TRADUÇÃO → TEXTO RESTITUÍDO DE CARTÃO: 132 sequências gregas, 0 hebraicas, 174 numéricas em ordem idêntica. Não equivale à revisão semântica independente nem ao cotejo de fac-símile.
+ARTIGOS (nº | lema | linhas do HTML | grego/hebraico/números | links NA28):
+01 | καταχθόνιος, ον | 44921–44924 | 22/0/26 | 1
+02 | καταχορεύω | 44925–44928 | 7/0/4 | 0
+03 | καταχράομαι | 44929–44932 | 27/0/37 | 1
+04 | κατάχυμα, ατος, τό | 44933–44936 | 8/0/8 | 0
+05 | καταψεύδομαι | 44937–44940 | 15/0/44 | 0
+06 | καταψηφίζομαι | 44941–44944 | 4/0/8 | 1
+07 | καταψύχω | 44945–44948 | 8/0/20 | 1
+08 | κατεάγην, -εαγῶσιν, -έαξα, -έαξω | 44949–44952 | 5/0/0 | 0
+09 | κατέβην | 44953–44956 | 2/0/0 | 0
+10 | κατεγέλων | 44957–44960 | 2/0/0 | 0
+11 | κατέγνωσμαι | 44961–44964 | 2/0/0 | 0
+12 | κατέδραμον | 44965–44968 | 2/0/0 | 0
+13 | κατείδωλος, ον | 44969–44972 | 3/0/7 | 1
+14 | κατειλημμένος, κατείληφα | 44973–44976 | 3/0/0 | 0
+15 | κάτειμι | 44977–44980 | 6/0/12 | 0
+16 | κατείργω | 44981–44984 | 6/0/8 | 0
+17 | κατεκάην | 44985–44988 | 2/0/0 | 0
+18 | κατεκρίθην | 44989–44992 | 2/0/0 | 0
+19 | κατελαβόμην, κατέλαβον, κατελήμφθην | 44993–44996 | 4/0/0 | 0
+20 | κατελθεῖν | 44997–45000 | 2/0/0 | 0
+VALIDAÇÕES ESTÁTICAS: JS e JSON.parse do objeto serializado, HTML balanceado por pilha, 20 linhas search-row e 20 cartões entry-card; IDs entry-bdag-0195-01 a -20 únicos e vinculados 1:1; colação dos textos reconstituídos; 5 links NA28 sintaticamente válidos (5 URLs únicas), com livro/capítulo/versículo dentro dos limites estáticos. Sem testes HTTP, DOM real, CI ou regressão global.
+ESCOPO RESTRITO: adicionar lexicons/bdag-part-0195.js; inserir caminho único em lexicon-modules.json imediatamente após part-0194 e antes de leh.js; anexar exclusivamente este checkpoint a regras/Rbdag.txt, preservando histórico anterior; não modificar bdag.js, metadados bibliográficos globais, outros léxicos, scripts ou branches.
+PUBLICAÇÃO PROTEGIDA: um único commit sobre o HEAD confirmado, atualização direta de chat-gpt-bdag via expected_sha e force=false; sem PR, merge, rebase, branches auxiliares ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem fac-símile e página impressa, SHA do HTML original, revisão semântica e bibliográfica por artigo, conferência de testemunhos e variantes, HTTP dos links, DOM/navegador/teclado/popups/acessibilidade, CI, regressão global, fichas A–J e integração com merge confirmado. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONAL À CONFIRMAÇÃO REMOTA: BDAG 4104 → 4124/8287 = 49,76%; restam 4163.
+================================================================================
