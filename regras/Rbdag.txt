@@ -9123,3 +9123,36 @@ ESCOPO PROTEGIDO: criar só lexicons/bdag-part-0200.js, incluir unicamente a nov
 AUDITORIA_CONCLUIDA=NÃO: pendentes SHA/fac-símile e paginação, revisão filológica/semântica e bibliográfica independente, exame crítico de variantes e testemunhos, testes HTTP, navegador, CI e regressão global, fichas A–J e integração confirmada. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO COMMIT: BDAG 4204 → 4224/8287 = 50,97%; 4063 artigos restantes.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 201 — 16/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: 0302092f3b43e288740f4ff1d937934c3373fd90; Rbdag relido, blob 31af9e808fe49109d22c77b85769c92787d2f86e; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML BDAG canônico disponível na Biblioteca, com tamanho informado de 30.790.409 bytes e linhas 45714–45868, vinte artigos autônomos de Κέσκος até Κηφᾶς, ᾶ, ὁ. Artigo seguinte κιβώριον, ου, τό inicia na linha 45869 e pertence ao lote 202. SHA bruto do HTML integral não calculado.
+TRADUÇÃO INTEGRAL: os 20 artigos foram traduzidos sem abreviar matéria lexicográfica, conservando paradigmas, gramática, variantes, indicações de testemunhos e conjecturas, bibliografia e referências. Κέσκος e κέχρημαι mantidos como remissões. κεφαλή conserva distinções sobre cabeça, autoridade, extremidade, pedra angular e a discussão histórica ‘não fonte’; κηρύσσω conserva construções gramaticais e ampla documentação; κῆτος e Κηφᾶς conservam o hebraico e os qualificadores de origem aramaica, sem acrescentar identificações não presentes na fonte. Corrigida uma omissão grega (ἡ κ.) detectada na colação do rascunho de κεφαλή antes da composição definitiva.
+COLAÇÃO INDIVIDUAL NFC HTML → TRADUÇÃO → TEXTO RECUPERADO DO CARTÃO: 601 sequências gregas, 3 hebraicas, 1152 numéricas conservadas literalmente e em ordem nos vinte artigos; zero diferenças residuais. Validação formal não substitui auditoria semântica e filológica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | Κέσκος | 45714–45717 | 2/0/0 | 0
+02 | Κέστος, ου | 45718–45722 | 5/0/10 | 0
+03 | κεφάλαιον, ου, τό | 45723–45734 | 45/0/95 | 2
+04 | κεφαλαιόω | 45735–45746 | 5/0/12 | 1
+05 | κεφαλή, ῆς, ἡ | 45747–45769 | 152/0/347 | 39
+06 | κεφαλιόω | 45770–45773 | 4/0/12 | 1
+07 | κεφαλίς, ίδος, ἡ | 45774–45777 | 7/0/24 | 1
+08 | κεφαλοδέσμιον, ου, το | 45778–45781 | 3/0/2 | 0
+09 | κέχρημαι | 45782–45785 | 2/0/0 | 0
+10 | κηδεύω | 45786–45789 | 5/0/36 | 1
+11 | κημόω | 45790–45793 | 6/0/8 | 2
+12 | κῆνσος, ου, ὁ | 45794–45797 | 16/0/22 | 3
+13 | κῆπος, ου, ὁ | 45798–45801 | 3/0/14 | 2
+14 | κηπουρός, οῦ, ὁ | 45802–45805 | 6/0/34 | 1
+15 | κηρίον, ου, τό | 45806–45810 | 5/0/11 | 1
+16 | κήρυγμα, ατος, τό | 45811–45822 | 65/0/88 | 7
+17 | κῆρυξ, υκος, ὁ | 45823–45837 | 41/0/69 | 3
+18 | κηρύσσω | 45838–45860 | 208/0/315 | 51
+19 | κῆτος, ους, τό | 45861–45864 | 13/2/29 | 1
+20 | Κηφᾶς, ᾶ, ὁ | 45865–45868 | 8/1/24 | 3
+TESTES ESTÁTICOS: JS/JSON serializado e reconstituído, HTML balanceado por pilha, 20 search-row e 20 entry-card, IDs entry-bdag-0201-01 a -20 únicos e pareados 1:1 com data-target, tokens dos cartões recolacionados, 119 links NA28 sintaticamente válidos (115 URLs distintas), limites estáticos de livro/capítulo/versículo. Sem HTTP, browser/DOM, testes de teclado/foco/popups/acessibilidade, CI ou regressão global.
+ESCOPO DE PUBLICAÇÃO PROTEGIDA: criar apenas lexicons/bdag-part-0201.js, acrescentar apenas sua entrada ao lexicon-modules.json após part-0200 e antes de leh.js, apensar apenas este checkpoint a regras/Rbdag.txt. Não alterar lexicons/bdag.js, bibliographicTerms, outros léxicos, infraestrutura, regras anteriores ou qualquer outra branch. Um commit filho do HEAD revalidado com expected_sha=0302092f3b43e288740f4ff1d937934c3373fd90, force=false. Sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: fac-símile/paginação, SHA do HTML integral, revisão filológica, bibliográfica e semântica independente, cotejo crítico de variantes e testemunhos, HTTP/DOM, CI, regressão global, fichas A–J e integração por responsável confirmada continuam pendentes. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE HEAD/COMMIT/BLOBS REMOTOS: BDAG 4224 → 4244/8287 = 51,21%; 4043 restantes.
+================================================================================
