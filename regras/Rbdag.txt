@@ -8849,3 +8849,38 @@ PUBLICAÇÃO: exatamente UM commit descendente de 3c5eef84fc555c5586575e8cf32258
 AUDITORIA_CONCLUIDA=NÃO: restam cotejo do fac-símile/paginação, SHA integral do HTML original, revisão filológica/semântica independente e por artigo, verificação de variantes/testemunhos/notas bibliográficas, HTTP real, DOM/teclado/foco/popups/acessibilidade/responsividade, CI/regressão global, fichas individuais A–J e integração por responsável com merged=true. NÃO incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONAL À RELEITURA DO COMMIT E DOS BLOB SHAs REMOTOS: BDAG 4044 → 4064/8287 = 49,04%; 4223 restantes. Incorporar NÃO equivale a auditar.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 193 — 16/11/2026 — PREPARADO PARA COMMIT ATÔMICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD DE BASE: d3151d86a15b4839f1d7ad3d580e67d17b1d2f15; árvore Git validada por consulta direta à API antes da criação do commit.
+FONTE EXCLUSIVA: BDAG HTML canônico da Biblioteca do projeto, 30.790.409 bytes, linhas 44657–44789 inclusas. Vinte cabeçalhos autônomos <span class="c71">. O 21º, κατασφραγίζω, inicia na linha 44790 e é reservado ao lote 194. Hash integral do HTML canônico original não calculado: fonte indexada, sem acesso materializável aos bytes brutos.
+ARTIGOS: 01 κατασκευάζω; 02 κατασκηνόω; 03 κατασκήνωσις, εως, ἡ; 04 κατασκιάζω; 05 κατάσκιος, ον; 06 κατασκοπεύω; 07 κατασκοπέω; 08 κατάσκοπος, ου, ὁ; 09 κατασοφίζομαι; 10 κατασπείρω; 11 κατάστασις, εως, ἡ; 12 καταστέλλω; 13 κατάστημα, ατος, τό; 14 καταστολή, ῆς, ἡ; 15 καταστρέφω; 16 καταστρηνιάω; 17 καταστροφή, ῆς, ἡ; 18 καταστρώννυμι; 19 κατασύρω; 20 κατασφάζω.
+TRADUÇÃO: texto lexical dos 20 artigos traduzido integralmente para o português; manutenção de formas, paradigmas, divisões semânticas ①/②/③, variantes, hipóteses, regências, testemunhos, referências e bibliografia; nenhuma substituição por fontes auxiliares.
+COLAÇÃO SEQUENCIAL NFC POR ARTIGO FONTE HTML → TRADUÇÃO → CARTÃO RESTITUÍDO: 284 sequências gregas, 0 hebraicas, 537 numéricas em ordem idêntica. Teste estático de preservação; não equivale a auditoria semântica independente nem a confronto com fac-símile.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | κατασκευάζω | 44657–44671 | 54/0/108 | 9
+02 | κατασκηνόω | 44672–44683 | 31/0/78 | 6
+03 | κατασκήνωσις, εως, ἡ | 44684–44694 | 7/0/15 | 2
+04 | κατασκιάζω | 44695–44698 | 16/0/9 | 1
+05 | κατάσκιος, ον | 44699–44702 | 3/0/8 | 0
+06 | κατασκοπεύω | 44703–44706 | 8/0/14 | 0
+07 | κατασκοπέω | 44707–44710 | 6/0/10 | 1
+08 | κατάσκοπος, ου, ὁ | 44711–44714 | 7/0/23 | 2
+09 | κατασοφίζομαι | 44715–44718 | 8/0/13 | 1
+10 | κατασπείρω | 44719–44722 | 6/0/9 | 1
+11 | κατάστασις, εως, ἡ | 44723–44726 | 9/0/10 | 0
+12 | καταστέλλω | 44727–44730 | 20/0/28 | 2
+13 | κατάστημα, ατος, τό | 44731–44734 | 7/0/22 | 1
+14 | καταστολή, ῆς, ἡ | 44735–44739 | 12/0/26 | 1
+15 | καταστρέφω | 44740–44753 | 32/0/54 | 4
+16 | καταστρηνιάω | 44754–44758 | 8/0/7 | 1
+17 | καταστροφή, ῆς, ἡ | 44759–44770 | 12/0/23 | 2
+18 | καταστρώννυμι | 44771–44781 | 19/0/40 | 1
+19 | κατασύρω | 44782–44785 | 9/0/15 | 1
+20 | κατασφάζω | 44786–44789 | 10/0/25 | 1
+TESTES ESTÁTICOS: JSON do objeto JS serializado e reconstruído; 20 search-row; 20 entry-card; IDs entry-bdag-0193-01 a -20 únicos e vinculados por data-target; ausência de órfãos; pilha de tags HTML equilibrada; atributos escapados; 37 links NA28 sintaticamente válidos (35 URLs distintas). Testes HTTP, DOM/navegador, acessibilidade, CI e regressão global não executados nesta fase.
+ESCOPO AUTORIZADO: somente novo lexicons/bdag-part-0193.js, manifesto lexicon-modules.json com caminho único após 0192 e apêndice aditivo a regras/Rbdag.txt; sem modificar bibliographicTerms, léxicos alheios, scripts, infraestrutura ou outras branches.
+PUBLICAÇÃO PROTEGIDA: criar um único commit filho do HEAD revalidado, comparar lease remota e atualizar apenas chat-gpt-bdag com expected_sha e force=false; nenhum PR, merge, rebase, branch ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem fac-símile/paginação, SHA dos bytes do HTML, revisão semântica e bibliográfica independente, teste HTTP dos links, DOM/navegador/teclado/foco/popups, CI, regressão global, fichas A–J, integração e merge comprovados.
+PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT REMOTO: BDAG 4064 → 4084/8287 = 49,28%, restam 4203. INCORPORADO não significa AUDITADO.
+================================================================================
