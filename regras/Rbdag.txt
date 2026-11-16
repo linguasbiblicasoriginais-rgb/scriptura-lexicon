@@ -8559,3 +8559,38 @@ PUBLICAÇÃO SEGURA: um único commit filho do HEAD inicial em chat-gpt-bdag, up
 AUDITORIA_CONCLUIDA=NÃO. Pendentes: cotejo visual da edição, exatidão semântica por acepção, identificação e validação da anomalia SibOr, revisão bibliográfica e textual independente A–J, hash do arquivo HTML integral, testes HTTP de destinos, DOM/busca/cartão/teclado/popups/acessibilidade/responsividade, CI e regressão global, integração pelo integrador autorizado com confirmação de merge.
 PROGRESSO SOMENTE APÓS CONFIRMAÇÃO REMOTA: 3884 → 3904 / 8287 = 47,11%; restam 4383. DGP branch chat-gpt-dgp HEAD 581ad921b47e3b0e7f28b279b83ed19e508da68b (total NÃO VERIFICADO independentemente); LEH chat-gpt-leh e PEREIRA chat-gpt-pereira consultas retornaram 422; totais NÃO VERIFICADOS. Não confundir incorporação com auditoria concluída.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 185 — 16/11/2026 — INCORPORAÇÃO FILOLÓGICA DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD remoto inicial: c03406612af1fdb9b4cdea6d42274b21c17fbef6. BASE_TREE validada do commit 184: e1dff1752a1170e19a748c4078550f3d49be52b6.
+NORMAS VIGENTES LIDAS INTEGRALMENTE: regras/Rbdag.txt blob 4147c2e0798c1b22687020d7ed834fac614a2204, íntegro com histórico preservado; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Não alterar Rauditoria, bdag.js nem bibliographicTerms.
+FONTE EXCLUSIVA: HTML BDAG canônico da Biblioteca do projeto, extensão total 30.790.409 bytes, linhas 43309–43502. A delimitação do lote deriva dos 20 cabeçalhos <span class="c71">, excluindo o próximo artigo Κανά, ἡ, que começa em 43503. SHA do HTML original integral NÃO conferido; não confundir hashes de blobs derivados com o original.
+ARTIGOS, ORDEM EXATA: 01 καλοδιδάσκαλος; 02 Καλοὶ λιμένες; 03 καλοκἀγαθία; 04 καλοποιέω; 05 καλός; 06 κάλπις; 07 κάλυμμα; 08 καλύπτω; 09 καλῶς; 10 καμάρα; 11 κἀμέ; 12 κάμηλος; 13 κάμιλος; 14 κάμινος; 15 καμμύω; 16 κάμνω; 17 κἀμοί; 18 Καμπανός; 19 κάμπτω; 20 κἄν.
+TRADUÇÃO E EDIÇÃO: texto integral por artigo do HTML, sem omitir níveis ①/②/③, subacepções, expressões e demonstrações exemplificativas, testemunhos, variantes ou bibliografia; títulos de obras estrangeiras mantidos em suas línguas. Cotejo automatizado sequencial NFC fonte -> português -> texto reconstituído dos cartões: 633/633 sequências gregas iguais, 2/2 hebraicas iguais e 1330/1330 sequências numéricas iguais, individualmente nos 20 artigos. Colação estática de tokens não substitui auditoria semântica editorial e não comprova exatidão do fac-símile.
+REGISTRO POR ARTIGO: nº | lema | linhas HTML | tokens gregos/hebraicos/numéricos preservados (identidade fonte/tradução/cartão):
+01 | καλοδιδάσκαλος | 43309–43312 | 5/0/2
+02 | Καλοὶ λιμένες | 43313–43316 | 12/0/21
+03 | καλοκἀγαθία | 43317–43320 | 11/0/27
+04 | καλοποιέω | 43321–43325 | 3/0/11
+05 | καλός | 43326–43363 | 199/1/457
+06 | κάλπις | 43364–43367 | 3/0/5
+07 | κάλυμμα | 43368–43372 | 20/0/52
+08 | καλύπτω | 43373–43393 | 39/0/83
+09 | καλῶς | 43394–43428 | 129/0/226
+10 | καμάρα | 43429–43432 | 3/0/16
+11 | κἀμέ | 43433–43436 | 2/0/0
+12 | κάμηλος | 43437–43440 | 27/1/67
+13 | κάμιλος | 43441–43444 | 5/0/21
+14 | κάμινος | 43445–43448 | 10/0/53
+15 | καμμύω | 43449–43453 | 12/0/50
+16 | κάμνω | 43454–43467 | 57/0/88
+17 | κἀμοί | 43468–43471 | 2/0/0
+18 | Καμπανός | 43472–43476 | 7/0/8
+19 | κάμπτω | 43477–43488 | 32/0/40
+20 | κἄν | 43489–43502 | 55/0/103
+ESTRUTURA E TESTES: módulo lexicons/bdag-part-0185.js blob 14754a922cefcf31b2d95123c4fb29dd12a0b473; 20 linhas search-row e 20 cartões entry-card; data-target/id correspondentes, exclusivos no módulo e sem buracos (entry-bdag-0185-01 a -20); fechamento das tags HTML conferido por pilha; objeto JS serializado/reanalisado por JSON.parse; texto editorial igual ao reconstruído após remoção de marcação; 158 hiperlinks explícitos de referências NT para padrão sintático NA28, 138 URLs distintas, siglas/livros/capítulos/versículos conferidos em intervalo estrutural. Os 2 hebraicos foram preservados exatamente. URLs não tiveram teste HTTP real; não afirmar que a página individual exista ou responda. Não houve navegador real, inspeção DOM, teste de acessibilidade ou CI/regressão global comprovado.
+ESCOPO EXATO: NOVO lexicons/bdag-part-0185.js; ÚNICA inserção de registro correspondente em lexicon-modules.json após part-0184.js e antes de leh.js; checkpoint acrescentado somente ao fim de regras/Rbdag.txt. Nenhuma alteração em outros módulos, léxicos, scripts, infraestrutura, main ou branches alheias.
+PUBLICAÇÃO PERMITIDA: somente um commit filho do HEAD c03406612af1fdb9b4cdea6d42274b21c17fbef6 com tree base adequada à branch; atualizar exclusivamente chat-gpt-bdag após revalidar HEAD, com expected_sha=c03406612af1fdb9b4cdea6d42274b21c17fbef6, force=false, sem PR, sem merge/rebase. Confirmar depois branch/commit/diff e blobs desses 3 arquivos.
+AUDITORIA_CONCLUIDA=NÃO. PENDÊNCIAS: inspeção visual do original impresso/páginas e hash integral do HTML, reavaliação filológica semântica independente por acepção, conferência de testemunhos/variantes e bibliografia, verificação HTTP real e destinos exatos dos links, teste DOM/busca/teclado/foco/popups/contraste/responsividade, execução CI e regressão funcional completa, fichas A–J e integração pelo integrador autorizado com merge verificado em chat-gpt-commits. Marcar checagem estática/conteúdo e NÃO confundir com auditoria homologada.
+PROGRESSO APENAS SE O HEAD REMOTO CONFIRMAR ESTE COMMIT: 3904 -> 3924/8287 = 47,35%; faltam 4363. OUTROS LÉXICOS: DGP HEAD chat-gpt-dgp 581ad921b47e3b0e7f28b279b83ed19e508da68b, total NÃO VERIFICADO por contagem independente; LEH chat-gpt-leh e PEREIRA chat-gpt-pereira consultas retornaram 422, totais NÃO VERIFICADOS.
+================================================================================
