@@ -8777,3 +8777,39 @@ PUBLICAÇÃO SEGURA: criar um só commit filho de f6d50e3bfbb1c49dda9b8f60ba052f
 AUDITORIA_CONCLUIDA=NÃO: faltam conferência de fac-símile/páginas, SHA do HTML integral original, revisão filológica/semântica independente por acepção, verificações de variantes e testemunhos, testes HTTP reais dos links, testes DOM/navegador/acessibilidade, CI/regressão global, fichas A–J e integração pelo integrador com merge confirmado. Não incrementar total_auditoria_concluida.
 PROGRESSO APENAS APÓS RELEITURA DE COMMIT E BLOBS PUBLICADOS: BDAG 4004 → 4024/8287 = 48,56%, restam 4263. Incorporação não equivale a auditoria concluída; demais léxicos NÃO revalidados.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 191 — 16/11/2026 — INCORPORAÇÃO INTEGRAL DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD remoto inicial/revalidado: 8c29cbc4d6b13ccc73d1d3a4cac29656bf847a74. Base-tree do commit 190: eb73dd61155929bf5f94ca1f40cc04ab0d4afdd5.
+NORMAS RELIDAS: regras/Rbdag.txt blob 218c96d85acba598c55bc65cdac1a1058a5df411 (histórico anterior inalterado) e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67 (não alterada). Não alterar lexicons/bdag.js, bibliographicTerms, scripts ou léxicos alheios.
+FONTE ÚNICA: BDAG HTML canônico do projeto, 30.790.409 bytes, linhas 44362–44508, vinte cabeçalhos originais <span class="c71">; próximo verbete καταπίμπρημι inicia à linha 44509, exclusivo do lote 192. SHA integral do HTML canônico original NÃO calculado/verificado (não confundir SHA de blob derivado).
+ARTIGOS AUTÔNOMOS EM ORDEM: 01 κατανάθεμα; 02 καταναθεματίζω; 03 καταναλίσκω; 04 καταναρκάω; 05 κατανδραποδίζω; 06 κατανεύω; 07 κατανοέω; 08 καταντάω; 09 καταντικρύ; 10 κατάνυξις; 11 κατανύσσομαι; 12 καταξαίνω; 13 καταξιοπιστεύομαι; 14 καταξιόω; 15 καταπαλαίω; 16 καταπατέω; 17 κατάπαυσις; 18 καταπαύω; 19 καταπέμπω; 20 καταπέτασμα.
+TRADUÇÃO: tradução editorial integral da prosa inglesa de todos os vinte artigos, preservando paradigmas, flexões, marcas, subdivisões ①/②/③ e ⓐ/ⓑ/ⓒ, regências, passagens, variantes, citações, testemunhos e bibliografia. Atenção especial: καταναρκάω mantém a discussão do latim gravare e dos equivalentes coloquiais; κατανοέω preserva três acepções; καταντάω conserva distinção entre deslocamento e obtenção figurada; κατανύσσομαι distingue sentido literal de ferir e figurado de compunção; καταπατέω diferencia pisotear literal e desprezar figurado; κατάπαυσις/καταπαύω distinguem descanso, lugar de repouso e cessação da atividade; καταπέτασμα mantém diferença entre véu interior e véu de acesso, e os elementos hebraicos פָּרֹכֶת, כַּפְתֹּר, כַּפְתֹּר com a ressalva expressa no original de que כַּפְתֹּר não significa 'verga', mas 'capitel de coluna'. A edição original não foi emendada por conjectura.
+COLAÇÃO NFC INDIVIDUAL EM TRÊS CAMADAS — FONTE HTML -> TRADUÇÃO -> CARTÃO RESTITUÍDO: 387/387 sequências gregas, 3/3 hebraicas, 728/728 numéricas, identidade de sequência e ordem por artigo. Isto NÃO é uma auditoria semântica independente nem comparação com fac-símile.
+CONTAGENS POR ARTIGO: nº | lema | linhas HTML | grego/hebraico/números | links NA28:
+01 | κατανάθεμα | 44362–44365 | 7/0/2 | 1
+02 | καταναθεματίζω | 44366–44369 | 2/0/3 | 1
+03 | καταναλίσκω | 44370–44373 | 15/0/23 | 1
+04 | καταναρκάω | 44374–44377 | 7/0/20 | 1
+05 | κατανδραποδίζω | 44378–44381 | 8/0/3 | 0
+06 | κατανεύω | 44382–44386 | 7/0/15 | 1
+07 | κατανοέω | 44387–44401 | 39/0/113 | 10
+08 | καταντάω | 44402–44418 | 75/0/93 | 6
+09 | καταντικρύ | 44419–44422 | 7/0/20 | 0
+10 | κατάνυξις | 44423–44426 | 6/0/17 | 1
+11 | κατανύσσομαι | 44427–44430 | 23/0/28 | 1
+12 | καταξαίνω | 44431–44434 | 8/0/8 | 0
+13 | καταξιοπιστεύομαι | 44435–44438 | 6/0/5 | 0
+14 | καταξιόω | 44439–44442 | 28/0/76 | 3
+15 | καταπαλαίω | 44443–44447 | 4/0/8 | 0
+16 | καταπατέω | 44448–44465 | 35/0/72 | 6
+17 | κατάπαυσις | 44466–44477 | 16/0/47 | 2
+18 | καταπαύω | 44478–44500 | 42/0/79 | 3
+19 | καταπέμπω | 44501–44504 | 20/0/13 | 0
+20 | καταπέτασμα | 44505–44508 | 32/3/83 | 5
+VALIDAÇÃO ESTÁTICA: módulo novo lexicons/bdag-part-0191.js blob 19005342c64edf27606f401d7cd0262959ceb1bb, 20 linhas search-row e 20 cartões entry-card, IDs entry-bdag-0191-01 a 20 únicos, pareamento data-target/id 1:1, tags HTML balanceadas, atributos escapados, objeto JS reconstruído com JSON.parse, texto editorial reconstruído dos cartões idêntico ao texto de tradução, 42 URLs NA28 distintas no formato https://www.die-bibel.de/en/bible/NA28, livros/capítulos/versículos limitados estaticamente. NÃO houve acesso HTTP, teste do navegador/DOM, buscas, teclado, foco, popups, acessibilidade, CI e regressão global; não alegar realização de teste inexistente.
+ESCRITA RESTRITA: adicionar somente lexicons/bdag-part-0191.js, inserir um registro único em lexicon-modules.json imediatamente após part-0190.js e antes de leh.js, acrescentar exclusivamente este checkpoint ao final de regras/Rbdag.txt sem substituir histórico. Nenhum outro arquivo ou branch.
+PUBLICAÇÃO PROTEGIDA: publicar um único commit-filho de 8c29cbc4d6b13ccc73d1d3a4cac29656bf847a74, após nova verificação de HEAD, exclusivamente na branch chat-gpt-bdag via expected_sha=8c29cbc4d6b13ccc73d1d3a4cac29656bf847a74 e force=false, abortando caso haja alteração concorrente; sem PR, merge, rebase, force, branch nova ou escrita em main.
+AUDITORIA_CONCLUIDA=NÃO: pendem cotejo de fac-símile e paginação, SHA do HTML integral original, exame filológico independente das acepções e variantes, verificação dos testemunhos e bibliografia, testes HTTP reais dos links, DOM/teclado/foco/popups/acessibilidade/responsividade, CI/regressão global, fichas A–J individuais e integração pelo integrador com merged=true. Não incrementar total_auditoria_concluida.
+PROGRESSO APENAS COM CONFIRMAÇÃO DE COMMIT E BLOBS REMOTOS: 4024 -> 4044/8287 = 48,80%, restam 4243. Não confundir 'incorporado' com 'auditado'.
+================================================================================
