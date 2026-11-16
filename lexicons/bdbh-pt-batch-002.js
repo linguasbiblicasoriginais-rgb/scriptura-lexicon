@@ -889,6 +889,126 @@ window.ScripturaBDBHpt.batch002={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 160,
+      "headword": "אַדִּיר",
+      "ref": "BDB, אַדִּיר",
+      "preview": "Adjetivo majestoso; águas, navio, árvore, videira, reis, povos, deuses e chefes; duas acepções.",
+      "html": "† <big><span dir=\"rtl\">אַדִּיר</span></big>  <strong>adj. majestoso</strong>—<span dir=\"rtl\">א׳</span> <a data-ref=\"Psalms 8:2\" href=\"/Psalms.8.2\">ψ 8:2</a> + (outras ocorrências); <strong>fem.</strong> <span dir=\"rtl\">אַדֶּ֫רֶת</span> <a data-ref=\"Ezekiel 17:8\" href=\"/Ezekiel.17.8\">Ez 17:8</a>? (ver abaixo) etc.—<br><strong>1.</strong>  <strong> majestoso</strong> (amplo, elevado), aplicado às águas do mar <a data-ref=\"Exodus 15:10\" href=\"/Exodus.15.10\">Ex 15:10</a> <a data-ref=\"Psalms 93:4\" href=\"/Psalms.93.4\">ψ 93:4</a>; a um navio <a data-ref=\"Isaiah 33:21\" href=\"/Isaiah.33.21\">Is 33:21</a>; a uma árvore <a data-ref=\"Ezekiel 17:23\" href=\"/Ezekiel.17.23\">Ez 17:23</a>; a uma videira <a data-ref=\"Ezekiel 17:8\" href=\"/Ezekiel.17.8\">Ez 17:8</a> (<span dir=\"rtl\">גֶּפֶן אַדֶּרֶת</span>, assim Fü; ou <span dir=\"rtl\">א׳</span> substantivo abstrato; ver sob <a data-ref=\"BDB, אַדֶּ֫רֶת\" href=\"/BDB,_אַדֶּ֫רֶת\", dir=\"rtl\">אַדֶּרֶת</a> abaixo); também figuradamente, a respeito de reis <a data-ref=\"Psalms 136:18\" href=\"/Psalms.136.18\">ψ 136:18</a>; de nações <a data-ref=\"Ezekiel 32:18\" href=\"/Ezekiel.32.18\">Ez 32:18</a>; de deuses <a data-ref=\"I Samuel 4:8\" href=\"/I_Samuel.4.8\">1 S 4:8</a>; de <span dir=\"rtl\">י׳</span> <a data-ref=\"Psalms 93:4\" href=\"/Psalms.93.4\">ψ 93:4</a>; <a data-ref=\"Psalms 76:5\" href=\"/Psalms.76.5\">76:5</a>; do nome de <span dir=\"rtl\">י׳</span> <a data-ref=\"Psalms 8:2\" href=\"/Psalms.8.2\">ψ 8:2</a>, <a data-ref=\"Psalms 8:10\" href=\"/Psalms.8.10\">10</a>.<br><strong>2.</strong>  substantivado: <em>ser majestoso</em>, aplicado a nobres, chefes etc., <a data-ref=\"Judges 5:13\" href=\"/Judges.5.13\">Ju 5:13</a>, <a data-ref=\"Judges 5:25\" href=\"/Judges.5.25\">25</a> <a data-ref=\"Nahum 2:6\" href=\"/Nahum.2.6\">Na 2:6</a>, <a data-ref=\"Nahum 3:18\" href=\"/Nahum.3.18\">3:18</a> <a data-ref=\"Jeremiah 14:3\" href=\"/Jeremiah.14.3\">Je 14:3</a>; <a data-ref=\"Jeremiah 25:34\" href=\"/Jeremiah.25.34\">25:34</a> (<span dir=\"rtl\">אַדִּירֵי הַצֹּאן</span> também figuradamente) <a data-ref=\"Jeremiah 25:35\" href=\"/Jeremiah.25.35\">35</a>, <a data-ref=\"Jeremiah 25:36\" href=\"/Jeremiah.25.36\">36</a>; <a data-ref=\"Jeremiah 30:21\" href=\"/Jeremiah.30.21\">30:21</a> <a data-ref=\"Zechariah 11:2\" href=\"/Zechariah.11.2\">Zc 11:2</a> <a data-ref=\"II Chronicles 23:20\" href=\"/II_Chronicles.23.20\">2 Ch 23:20</a> <a data-ref=\"Nehemiah 3:5\" href=\"/Nehemiah.3.5\">Ne 3:5</a>; <a data-ref=\"Nehemiah 10:30\" href=\"/Nehemiah.10.30\">10:30</a>; de <span dir=\"rtl\">י׳</span> <a data-ref=\"Isaiah 10:34\" href=\"/Isaiah.10.34\">Is 10:34</a>; <a data-ref=\"Isaiah 33:21\" href=\"/Isaiah.33.21\">33:21</a>; dos servos de <span dir=\"rtl\">י׳</span> <a data-ref=\"Psalms 16:3\" href=\"/Psalms.16.3\">ψ 16:3</a> (= sacerdotes? cf. <a data-ref=\"I Chronicles 24:5\" href=\"/I_Chronicles.24.5\">1 Ch 24:5</a> e ver Che).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 161,
+      "headword": "אַדֶּ֫רֶת",
+      "ref": "BDB, אַדֶּ֫רֶת",
+      "preview": "Substantivo feminino: glória, magnificência; manto, capa; variantes e interpretação textual.",
+      "html": "† <big><span dir=\"rtl\">אַדֶּ֫רֶת</span></big>  <strong>subst. fem.: glória, manto</strong>—<span dir=\"rtl\">א׳</span> no estado absoluto <a data-ref=\"Joshua 7:24\" href=\"/Joshua.7.24\">Jos 7:24</a>; <span dir=\"rtl\">אַדָּ֑רֶת</span> <a data-ref=\"Ezekiel 17:8\" href=\"/Ezekiel.17.8\">Ez 17:8</a>; no estado construto <a data-ref=\"Genesis 25:25\" href=\"/Genesis.25.25\">Gn 25:25</a> + 4 ocorrências; <span dir=\"rtl\">אַדַּרְתּוֹ</span> <a data-ref=\"I Kings 19:13\" href=\"/I_Kings.19.13\">1 K 19:13</a> + 3 ocorrências; <span dir=\"rtl\">אַדַּרתָּם</span> <a data-ref=\"Zechariah 11:3\" href=\"/Zechariah.11.3\">Zc 11:3</a>—<br><strong>1.</strong>  <em>glória, magnificência</em>, de uma videira <a data-ref=\"Ezekiel 17:8\" href=\"/Ezekiel.17.8\">Ez 17:8</a> (assim Thes e MV, mas, preferivelmente, adjetivo feminino derivado de <span dir=\"rtl\">אַדִּיר</span>; ver esse verbete), dos pastores <a data-ref=\"Zechariah 11:3\" href=\"/Zechariah.11.3\">Zc 11:3</a> (ou <em>sob a acepção </em> <strong>2</strong>).<br><strong>2.</strong>  <em>manto, capa</em> (vestimenta ampla) de pelos <span dir=\"rtl\">שֵׂעָר</span> <a data-ref=\"Genesis 25:25\" href=\"/Genesis.25.25\">Gn 25:25</a> <a data-ref=\"Zechariah 13:4\" href=\"/Zechariah.13.4\">Zc 13:4</a> (como manto profético; assim, talvez, <a data-ref=\"Zechariah 11:3\" href=\"/Zechariah.11.3\">11:3</a> dos pastores = falsos profetas); cf. o manto de Elias <a data-ref=\"I Kings 19:13\" href=\"/I_Kings.19.13\">1 K 19:13</a>, <a data-ref=\"I Kings 19:19\" href=\"/I_Kings.19.19\">19</a> <a data-ref=\"II Kings 2:8\" href=\"/II_Kings.2.8\">2 K 2:8</a>, <a data-ref=\"II Kings 2:13\" href=\"/II_Kings.2.13\">13</a>, <a data-ref=\"II Kings 2:14\" href=\"/II_Kings.2.14\">14</a>; mas <span dir=\"rtl\">אַדֶּרֶת שִׁנְעָר טוֹבָה</span> (belo manto de Sinar = manto babilônico — sem dúvida valioso) <a data-ref=\"Joshua 7:21\" href=\"/Joshua.7.21\">Jos 7:21</a>, <a data-ref=\"Joshua 7:24\" href=\"/Joshua.7.24\">24</a> (J) e (em texto tardio) <span dir=\"rtl\">א׳</span> isoladamente <a data-ref=\"Jonah 3:6\" href=\"/Jonah.3.6\">Jon 3:6</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 162,
+      "headword": "אֲדָר",
+      "ref": "BDB, אֲדָר",
+      "preview": "Adar, décimo segundo mês babilônico; empréstimo hebraico tardio e etimologia duvidosa.",
+      "html": "† <big><span dir=\"rtl\">אֲדָר</span></big>  <strong>nome próprio</strong>[<strong>masc.</strong>] décimo segundo mês (babilônico) = março–abril <strong>(</strong>empréstimo tardio no hebraico, = babilônico <em>A(d)-daru</em>; ver Dl<sup>W p. 188, cf. Al3 93</sup>, significado duvidoso; talvez <em>adâru</em>, 'escurecer', <em>'ser eclipsado'</em>, mas ver Dl<sup>W p. 190</sup><strong>)</strong> <a data-ref=\"Esther 3:7\" href=\"/Esther.3.7\">Est 3:7</a>, <a data-ref=\"Esther 3:13\" href=\"/Esther.3.13\">13</a>; <a data-ref=\"Esther 8:12\" href=\"/Esther.8.12\">8:12</a>; <a data-ref=\"Esther 9:1\" href=\"/Esther.9.1\">9:1</a>, <a data-ref=\"Esther 9:15\" href=\"/Esther.9.15\">15</a>, <a data-ref=\"Esther 9:17\" href=\"/Esther.9.17\">17</a>, <a data-ref=\"Esther 9:19\" href=\"/Esther.9.19\">19</a>, <a data-ref=\"Esther 9:21\" href=\"/Esther.9.21\">21</a>; cf. palmireno e nabateu <span dir=\"rtl\">אדר</span> Vog<sup>8</sup> Eut<sup>Nab 24</sup>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 163,
+      "headword": "אַדְרַמֶּ֫לֶךְ",
+      "ref": "BDB, אַדְרַמֶּ֫לֶךְ",
+      "preview": "Adrameleque: etimologias alternativas, testemunhos assírios, deus e filho de Senaqueribe.",
+      "html": "† <big><span dir=\"rtl\">אַדְרַמֶּ֫לֶךְ</span></big>  <strong>nome próprio masculino (</strong><em>Adar é príncipe</em>, assírio <em>Adar-malik</em> (?) ver KAT<sup>2 284</sup>, cf. ABK<sup>140</sup>; ou <em>Adar é conselheiro, aquele que decide</em>, cf. Dl<sup>K 52 f</sup>; segundo outra interpretação, Sayce<sup>Rel.Bab. 7</sup>; acerca do deus babilônico <em>Adar</em> ver Schr<sup>KSGW 1880, 19 f</sup> Dl<sup>K 52 f</sup>, mas Sayce<sup>Rel.Bab. 151 f</sup>; Jen;<sup>Ko 457 f</sup> e outros leem o nome assírio <em>Ninib;</em> acerca do cartaginês <span dir=\"rtl\">יתנאדר</span> ver Bae<sup>Rel. 54</sup><strong>) </strong><br><strong>1.</strong> um deus de Sefarvaim <a data-ref=\"II Kings 17:31\" href=\"/II_Kings.17.31\">2 K 17:31</a>.<br><strong>2.</strong> filho parricida de Senaqueribe <a data-ref=\"II Kings 19:37\" href=\"/II_Kings.19.37\">2 K 19:37</a> <a data-ref=\"Isaiah 37:38\" href=\"/Isaiah.37.38\">Is 37:38</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 164,
+      "headword": "אֲדַרְכּוֹן",
+      "ref": "BDB, אֲדַרְכּוֹן",
+      "preview": "Remissão de adarcon a darquemom.",
+      "html": "<big><span dir=\"rtl\">אֲדַרְכּוֹן</span></big>  ver <a data-ref=\"BDB, דַּרְכְּמוֹן\" href=\"/BDB,_דַּרְכְּמוֹן\", dir=\"rtl\">דרכמון</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 165,
+      "headword": "אֲדֹרָם²",
+      "ref": "BDB, אֲדֹרָם²",
+      "preview": "Remissão de Adorão a Adonirão, sob o lema adon.",
+      "html": "<big><span dir=\"rtl\">אֲדֹרָם</span></big>  ver <a data-ref=\"BDB, אֲדֹנִירָם\" href=\"/BDB,_אֲדֹנִירָם\", dir=\"rtl\">אדנירם</a> sob <a data-ref=\"BDB, אֲדֹנִירָם\" href=\"/BDB,_אֲדֹנִירָם\", dir=\"rtl\">אדון</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 166,
+      "headword": "אֶדְרֶ֑עִי",
+      "ref": "BDB, אֶדְרֶ֑עִי",
+      "preview": "Remissão do nome Edrei à raiz hebraica דרע.",
+      "html": "<big><span dir=\"rtl\">אֶדְרֶ֑עִי</span></big>  ver <a data-ref=\"BDB, דרע\" href=\"/BDB,_דרע\", dir=\"rtl\">דרע</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
+    },
+    {
+      "ordinal": 167,
+      "headword": "אדשׁ",
+      "ref": "BDB, אדשׁ",
+      "preview": "Forma remissiva com infinitivo absoluto אָדוֹשׁ; consultar דּוּשׁ.",
+      "html": "<big><big><span dir=\"rtl\">אדשׁ</span></big></big>  somente no infinitivo absoluto <span dir=\"rtl\">אָדוֹשׁ</span> ver <a data-ref=\"BDB, דּוּשׁ\" href=\"/BDB,_דּוּשׁ\", dir=\"rtl\">דושׁ</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00160-00167.md"
     }
   ]
 };
@@ -961,6 +1081,17 @@ function overlayBdbhTranslations(mod, translated){
       else target=target.replaceAll("Números, capítulo 7","Neemias, capítulo 7");
       if(target.includes(oldTarget)||target.includes(oldLabel))throw Error("BDB-H/PT: remissão não normalizada");
       portuguese=portuguese.replace(a[0],target);
+    }
+    // Ordinal 165: o segundo rótulo impresso é אדון, mas o data-ref Sefaria
+    // repete erroneamente אֲדֹנִירָם. Preservar os metadados da fonte,
+    // corrigir APENAS a pesquisa interna e seu popup.
+    if(item.ordinal===165){
+      const match=portuguese.match(/<a\b[^>]*data-ref="BDB, אֲדֹנִירָם"[^>]*>אדון<\/a>/);
+      if(!match||!match[0].includes('data-bdbh-lemma="אֲדֹנִירָם"'))throw Error("BDB-H/PT: remissão do ordinal 165 não comprovada");
+      const fixed=match[0].replace('data-bdbh-lemma="אֲדֹנִירָם"','data-bdbh-lemma="אָדוֹן"')
+        .replace('Remissão ao verbete BDB-H אֲדֹנִירָם.', 'Remissão ao verbete BDB-H אָדוֹן.');
+      if(!fixed.includes('data-bdbh-lemma="אָדוֹן"'))throw Error("BDB-H/PT: correção do ordinal 165 falhou");
+      portuguese=portuguese.replace(match[0],fixed);
     }
     const ptSection='<section class="entry-section bdbh-pt-section" lang="pt-BR"'
       +' data-bdbh-ui="2026-11-15" data-bdbh-pt-state="'+status+'">'
