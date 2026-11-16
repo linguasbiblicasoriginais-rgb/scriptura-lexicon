@@ -9057,3 +9057,36 @@ ESCOPO PROTEGIDO: apenas lexicons/bdag-part-0198.js novo, um registro em lexicon
 AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile e paginação, SHA integral do HTML canônico, revisão semântica/filológica/bibliográfica independente por artigo, exame crítico de testemunhos e variantes, HTTP, navegador/DOM/acessibilidade, CI, regressão global, fichas A–J e integração confirmada pelo responsável. Não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DE HEAD E BLOBS REMOTOS: BDAG 4164 → 4184/8287 = 50,49%; 4103 restantes.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 199 — 16/11/2026 — 20 ARTIGOS DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: 5fbda5dc9f014bd2d30bbc4509c0c4cc921100e0. Norma Rbdag relida, blob ddf33c0c5a4ef957782dbcd09070b879114f1c02; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML BDAG canônico da Biblioteca, tamanho informado 30.790.409 bytes, linhas 45443–45585, 20 artigos autônomos entre κε´ e κενόω. Em κέλευσις, εως, ἡ dois spans c71 do MESMO cabeçalho não significam artigos distintos; devem contar como um só. Próximo artigo κέντρον, ου, τό inicia na linha 45586, reservado ao lote 200. Não foi calculado SHA bruto do HTML integral (bytes não materializados).
+TRADUÇÃO EDITORIAL: vinte verbetes vertidos integralmente ao português, com paradigmas, regências, acepções, subdivisões, hipóteses, variantes, testemunhos, bibliografia e referências. Uma remissão autônoma (κέκμηκα → κάμνω) permanece remissão. κενεμβατεύω explicitamente apresentado como forma conjectural; κενόω em Phil 2:7 conserva os argumentos/alternativas do original, sem homologação doutrinária; Κεδρών conserva o hebraico קִדְרוֹן.
+COLAÇÃO SEQUENCIAL NFC INDIVIDUAL HTML → TRADUÇÃO → CARTÃO RESTITUÍDO: 493 sequências gregas, 1 hebraicas, 930 numéricas preservadas em identidade e ordem nos vinte artigos. NÃO é revisão independente de semântica ou cotejo de fac-símile.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | κε´ | 45443–45446 | 1/0/9 | 0
+02 | Κεγχρεαί, ῶν, αἱ | 45447–45450 | 13/0/24 | 2
+03 | κέδρος, ου, ἡ | 45451–45454 | 3/0/15 | 1
+04 | Κεδρών, ὁ | 45455–45459 | 19/1/23 | 1
+05 | κεῖμαι | 45460–45485 | 146/0/174 | 19
+06 | κειμήλιον, ου, τό | 45486–45489 | 4/0/7 | 1
+07 | κειρία, ας, ἡ | 45490–45493 | 16/0/16 | 1
+08 | κείρω | 45494–45497 | 14/0/47 | 3
+09 | κέκμηκα | 45498–45501 | 2/0/0 | 0
+10 | κέλευσις, εως, ἡ | 45502–45505 | 6/0/16 | 0
+11 | κέλευσμα, ατος, τό | 45506–45509 | 14/0/21 | 1
+12 | κελεύω | 45510–45513 | 52/0/187 | 12
+13 | κενεμβατεύω | 45514–45517 | 4/0/6 | 1
+14 | κενοδοξέω | 45518–45522 | 2/0/16 | 0
+15 | κενοδοξία, ας, ἡ | 45523–45533 | 15/0/47 | 1
+16 | κενόδοξος, ον | 45534–45538 | 9/0/25 | 1
+17 | κενός, ή, όν | 45539–45558 | 114/0/209 | 18
+18 | κενόσπουδος, ον | 45559–45562 | 7/0/8 | 0
+19 | κενοφωνία, ας, ἡ | 45563–45567 | 11/0/9 | 2
+20 | κενόω | 45568–45585 | 41/0/71 | 6
+VALIDAÇÃO ESTÁTICA: JS e objeto JSON serializado/reconstruído, HTML com tags balanceadas por pilha, 20 linhas search-row e 20 cartões entry-card, IDs entry-bdag-0199-01 a -20 únicos e vinculados por data-target 1:1, texto recuperado dos cartões confrontado por token em NFC, 70 links NA28 sintaticamente válidos (66 URLs distintas) com livro/capítulo/versículo validados em limites estáticos. Sem HTTP, DOM/navegador/teclado/foco/popups/acessibilidade, CI ou regressão global.
+ESCOPO E PUBLICAÇÃO PROTEGIDA: somente novo lexicons/bdag-part-0199.js, única inclusão em lexicon-modules.json após part-0198 e antes de leh.js, checkpoint APENSADO a regras/Rbdag.txt mantendo todo histórico. Não modificar lexicons/bdag.js, bibliographicTerms, outros léxicos, scripts ou branches. Um commit filho do HEAD revalidado, update_ref em chat-gpt-bdag com expected_sha=5fbda5dc9f014bd2d30bbc4509c0c4cc921100e0, force=false, sem PR, merge, rebase, branch auxiliar nem deploy.
+AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile/paginação e SHA integral do HTML, revisão filológica/semântica e bibliográfica independente, cotejo crítico de variantes/testemunhos, HTTP, navegador, CI e regressão global, fichas A–J e integração autorizada e confirmada. Não incrementar total_auditoria_concluida.
+PROGRESSO SOMENTE APÓS CONFIRMAÇÃO DO COMMIT E BLOBS REMOTOS: BDAG 4184 → 4204/8287 = 50,73%, restam 4083.
+================================================================================
