@@ -8524,3 +8524,38 @@ PUBLICAÇÃO REQUERIDA: criar árvore sobre HEAD validado e um único commit com
 AUDITORIA_CONCLUIDA = NÃO. Pendências obrigatórias A–J: revisão semântica filológica independente de cada acepção, cotejo visual de fac-símile e paginação da edição, auditoria das referências bibliográficas e siglas, SHA integral da fonte HTML, checagem HTTP real dos links, DOM/busca/cartão/teclado/popups/acessibilidade/responsividade, CI/regressão funcional global, integração PR/merge pelo integrador autorizado com confirmação no destino. A incorporação técnica/colação de tokens NÃO constitui auditoria integral homologada.
 PROGRESSO A COMPUTAR SOMENTE SE O COMMIT FOR PUBLICADO: BDAG 3864 → 3884 / 8287 = 46,87%; restam 4403. Outros totais consultados: DGP branch chat-gpt-dgp HEAD 581ad921b47e3b0e7f28b279b83ed19e508da68b, contagem independente NÃO VERIFICADA; LEH chat-gpt-leh e PEREIRA chat-gpt-pereira não encontrados pela consulta a commit (422), totais NÃO VERIFICADOS.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 184 — 16/11/2026 — INCORPORAÇÃO DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD inicial remoto: 00118f16d7aa180e268e8f71a41171ac0afa50ec; árvore de base f18b4f5cbc7692c8f348ee7b090364f3ab5821cf (lote 183). RBDAG integralmente recuperado: blob 3a82a953cc115778148a6c8e5a97e2c4c731a8d2; RAUDITORIA integralmente recuperado: blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Não se altera RAUDITORIA, bdag.js nem bibliographicTerms.
+FONTE EXCLUSIVA: arquivo HTML canônico do BDAG na Biblioteca do projeto, 30.790.409 bytes, linhas 43131–43308. Cabeçalhos autônomos <span class="c71"> definem os 20 artigos. O 21º cabeçalho, καλοδιδάσκαλος, começa na linha 43309 e não pertence ao lote. O SHA do arquivo HTML ORIGINAL INTEGRAL não foi confirmado; não substituir pelo blob da edição nem atribuir falso hash.
+ARTIGOS COMPLETOS EM ORDEM: 01 κακοποιέω; 02 κακοποιός; 03 κακός; 04 κακοτεχνία; 05 κακουργέω; 06 κακοῦργος; 07 κακουχέω; 08 κακόω; 09 κακῶς; 10 κάκωσις; 11 καλάμη; 12 κάλαμος; 13 καλάνδαι; 14 καλέω; 15 καλιά; 16 καλλιέλαιος; 17 κάλλιον; 18 καλλονή; 19 κάλλος; 20 καλλωπίζω.
+TRADUÇÃO INTEGRAL: cada texto editorial foi confrontado ao artigo inteiro no HTML canônico, preservando marcações hierárquicas (①, ⓐ etc.), grego, números, testemunhos, graus de incerteza, remissões, variantes e títulos bibliográficos estrangeiros. Colação automatizada por artigo, em NFC, entre fonte textual, tradução e texto reconstituído do HTML dos cartões: 811/811 sequências gregas idênticas, 0/0 sequências hebraicas (não presentes), 1431/1431 sequências numéricas idênticas. A colação de tokens não homologa interpretação semântica de cada termo.
+EVIDÊNCIA INDIVIDUAL: artigo nº | lema | linhas da fonte | tokens gregos/hebraicos/numéricos (preservação integral em cada etapa):
+01 | κακοποιέω | 43131–43141 | 4/0/42
+02 | κακοποιός | 43142–43146 | 3/0/38
+03 | κακός | 43147–43169 | 197/0/317
+04 | κακοτεχνία | 43170–43173 | 7/0/9
+05 | κακουργέω | 43174–43177 | 8/0/9
+06 | κακοῦργος | 43178–43181 | 9/0/51
+07 | κακουχέω | 43182–43186 | 3/0/18
+08 | κακόω | 43187–43198 | 12/0/44
+09 | κακῶς | 43199–43215 | 27/0/66
+10 | κάκωσις | 43216–43219 | 7/0/22
+11 | καλάμη | 43220–43224 | 10/0/9
+12 | κάλαμος | 43225–43241 | 21/0/82
+13 | καλάνδαι | 43242–43246 | 11/0/22
+14 | καλέω | 43247–43284 | 432/0/589
+15 | καλιά | 43285–43288 | 7/0/6
+16 | καλλιέλαιος | 43289–43292 | 20/0/21
+17 | κάλλιον | 43293–43296 | 2/0/1
+18 | καλλονή | 43297–43300 | 11/0/20
+19 | κάλλος | 43301–43304 | 7/0/31
+20 | καλλωπίζω | 43305–43308 | 13/0/34
+ANOMALIA A APURAR: o HTML canônico de κακοῦργος apresenta 'SibOr 5:386419; ;' na linha 43178; mantido literalmente, sem emenda conjectural, por requerer cotejo visual com a edição. Não declarar o testemunho numericamente certificado por consulta independente a SibOr.
+VALIDAÇÃO ESTÁTICA: módulo lexicons/bdag-part-0184.js, blob 29479b579ccc4c04e723ac028cb7a8acca5f8f0b, com 20/20 linhas <tr.search-row> e 20/20 cartões <article.entry-card>; IDs entry-bdag-0184-01 até entry-bdag-0184-20, únicos no módulo e correspondência data-target/id 1:1 na ordem; HTML balanceado; objeto JavaScript serializado e reanalisado por JSON.parse; preservação integral do texto editorial após strip das tags; 170 links neotestamentários explícitos no padrão die-bibel.de/en/bible/NA28, 160 URLs distintas, com siglas, capítulos e versículos dentro dos limites de formato. Referências patrísticas e não-neotestamentárias não receberam links inventados. Não foram testados HTTP individual de URLs, execução em navegador/DOM ou CI.
+ESCOPO: SOMENTE adicionar lexicons/bdag-part-0184.js; acrescentar UM registro em lexicon-modules.json imediatamente após part-0183.js e antes de leh.js; apendicular este checkpoint a regras/Rbdag.txt sem remover histórico anterior. Não modificar outros léxicos, módulos anteriores, scripts, front-end, main ou outras branches.
+PUBLICAÇÃO SEGURA: um único commit filho do HEAD inicial em chat-gpt-bdag, update_ref(expected_sha=00118f16d7aa180e268e8f71a41171ac0afa50ec,force=false). NÃO criar PR, merge, rebase ou branches. Confirmar HEAD e 3 blobs depois da gravação.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes: cotejo visual da edição, exatidão semântica por acepção, identificação e validação da anomalia SibOr, revisão bibliográfica e textual independente A–J, hash do arquivo HTML integral, testes HTTP de destinos, DOM/busca/cartão/teclado/popups/acessibilidade/responsividade, CI e regressão global, integração pelo integrador autorizado com confirmação de merge.
+PROGRESSO SOMENTE APÓS CONFIRMAÇÃO REMOTA: 3884 → 3904 / 8287 = 47,11%; restam 4383. DGP branch chat-gpt-dgp HEAD 581ad921b47e3b0e7f28b279b83ed19e508da68b (total NÃO VERIFICADO independentemente); LEH chat-gpt-leh e PEREIRA chat-gpt-pereira consultas retornaram 422; totais NÃO VERIFICADOS. Não confundir incorporação com auditoria concluída.
+================================================================================
