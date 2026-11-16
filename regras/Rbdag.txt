@@ -9189,3 +9189,36 @@ ESCOPO PROTEGIDO: criar apenas lexicons/bdag-part-0202.js, acrescentar só um re
 AUDITORIA_CONCLUIDA=NÃO: pendentes SHA bruto e fac-símile/paginação; revisão filológica, semântica e bibliográfica independente; cotejo crítico de variantes/testemunhos; testes HTTP, DOM, CI, regressão global; fichas A–J e integração confirmada. Não incrementar total_auditoria_concluida.
 PROGRESSO SOMENTE APÓS HEAD/COMMIT/BLOBS CONFIRMADOS: BDAG 4244 → 4264/8287 = 51,45%; faltam 4023 artigos.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 203 — 16/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: f7883a037138c46ad89550733d58fa682785fbef. Rbdag relido, blob 90290cec6966fc81fb2bf64a5ef3125671494957; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico do BDAG disponibilizado na Biblioteca, tamanho informado 30.790.409 bytes, linhas 46005–46190, 20 artigos autônomos de Κλαυδία, ας, ἡ até κληρόω. O próximo artigo κλῆσις, εως, ἡ inicia na linha 46191 e pertence ao lote 204. SHA integral bruto da fonte e fac-símile não verificados.
+TRADUÇÃO INTEGRAL: os vinte artigos foram vertidos ao português, preservando paradigmas, remissões, acepções e subdivisões, variantes, grafias, bibliografia e referências. κλείς preserva flexões, sentidos concreto e figurado, paralelos e indicações bibliográficas; κλείω preserva distinções de voz, construções e variantes; Κλήμης mantém separação dos dois portadores de nome e cautela sobre identificá-los; κληρονομέω, κληρονομία, κληρονόμος, κλῆρος e κληρόω distinguem herança, posse, sorteio, porção e destino; κληρόω conserva a alternativa interpretativa de Eph 1:11.
+COLAÇÃO INDIVIDUAL NFC HTML ORIGINAL → TRADUÇÃO → TEXTO RECUPERADO DO CARTÃO: 549 sequências gregas, 3 hebraicas, 1099 numéricas preservadas na exata ordem por artigo, sem divergências formais. Colação formal não equivale à auditoria filológica e semântica independente.
+ARTIGOS (nº | lema | linhas HTML | sequências gregas/hebraicas/numéricas | links NA28):
+01 | Κλαυδία, ας, ἡ | 46005–46009 | 3/0/3 | 1
+02 | Κλαύδιος, ου, ὁ | 46010–46026 | 6/0/51 | 5
+03 | κλαυθμός, οῦ, ὁ | 46027–46030 | 18/0/31 | 5
+04 | κλάω | 46031–46034 | 14/3/54 | 6
+05 | κλεῖθρον, ου, τό | 46035–46039 | 11/0/18 | 0
+06 | κλείς, κλειδός, ἡ | 46040–46051 | 83/0/142 | 11
+07 | κλείω | 46052–46068 | 46/0/95 | 14
+08 | κλέμμα, ατος, τό | 46069–46072 | 9/0/6 | 2
+09 | Κλεόβιος, ου | 46073–46076 | 5/0/11 | 0
+10 | Κλεοπᾶς, ᾶ, ὁ | 46077–46080 | 6/0/17 | 1
+11 | κλέος, ους, τό | 46081–46084 | 14/0/21 | 1
+12 | κλέπτης, ου, ὁ | 46085–46088 | 10/0/73 | 12
+13 | κλέπτω | 46089–46092 | 11/0/55 | 8
+14 | κλῆμα, ατος, τό | 46093–46097 | 12/0/26 | 1
+15 | Κλήμης, εντος, ὁ | 46098–46109 | 3/0/25 | 1
+16 | κληρονομέω | 46110–46127 | 46/0/148 | 14
+17 | κληρονομία, ας, ἡ | 46128–46145 | 61/0/97 | 14
+18 | κληρονόμος, ου, ὁ | 46146–46163 | 61/0/69 | 13
+19 | κλῆρος, ου, ὁ | 46164–46178 | 86/0/110 | 8
+20 | κληρόω | 46179–46190 | 44/0/47 | 2
+TESTES ESTÁTICOS: serialização e reconstrução de JS/JSON, HTML balanceado por pilha, 20 linhas search-row e 20 cartões entry-card com IDs entry-bdag-0203-01 a -20 exclusivos e data-target 1:1, tokens dos cartões conferidos; 119 links NA28 sintaticamente válidos (105 URLs distintas), limites estáticos livro/capítulo/versículo. Não houve testes HTTP de destinos, DOM/navegador/teclado/foco/popups/acessibilidade, CI ou regressão global.
+ESCOPO PROTEGIDO: criar somente lexicons/bdag-part-0203.js, registrar uma única inserção em lexicon-modules.json depois de part-0202 e antes de leh.js, e APENSAR apenas este checkpoint em regras/Rbdag.txt. Não alterar lexicons/bdag.js, bibliographicTerms, outros léxicos, infra, scripts, Rauditoria nem outras branches. Exatamente um commit filho do HEAD revalidado, update_ref expected_sha=f7883a037138c46ad89550733d58fa682785fbef, force=false; sem PR, merge, rebase, branch adicional ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto integral e cotejo de fac-símile/paginação, revisão independente filológica, semântica e bibliográfica, exame crítico de variantes/testemunhos, HTTP, DOM, CI, regressão global, fichas A–J e integração confirmada. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE HEAD/COMMIT/BLOBS NO GITHUB: BDAG 4264 → 4284/8287 = 51,70%; 4003 artigos restantes.
+================================================================================
