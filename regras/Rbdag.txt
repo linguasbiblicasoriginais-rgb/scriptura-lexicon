@@ -8740,3 +8740,40 @@ SEGURANÇA: criar exatamente um commit com parent c6b69b9e198e96a3a05aa54d6955e6
 AUDITORIA_CONCLUIDA=NÃO; pendem o cotejo de fac-símile/paginação, SHA integral do original canônico, revisão independente semântica e gramático-filológica, conferência de variantes, referências e testemunhos, links HTTP, DOM/teclado/foco/popups/acessibilidade/responsividade, CI e regressão global, fichas A–J individuais e integração pelo integrador autorizado com merged=true. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONAL À CONFIRMAÇÃO REMOTA: BDAG 3984 → 4004/8287 = 48,32%; restam 4283. Contagens de outros léxicos NÃO revalidadas; incorporação não equivale a auditoria concluída.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 190 — 16/11/2026 — INCORPORAÇÃO DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD inicial e revalidado: f6d50e3bfbb1c49dda9b8f60ba052fe813c1be35; árvore-base do commit 189: 6dd3529b1fa8c746db3efa874bf594ab9976ab47.
+NORMAS REABERTAS: regras/Rbdag.txt blob a539ea548d6be681242d997625913309809a4551 (histórico integral preservado) e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67, sem alterações. bdag.js e bibliographicTerms não alterados.
+FONTE CANÔNICA EXCLUSIVA: HTML BDAG da Biblioteca do projeto, 30.790.409 bytes, linhas 44150–44361, vinte artigos autônomos identificados por <span class="c71">. O próximo, κατανάθεμα, ατος, τό, começa à linha 44362; reservado ao lote 191. SHA do HTML integral original NÃO calculado/confirmado; não confundir SHA de módulo derivado com SHA da fonte.
+ORDEM DE ARTIGOS: 01 κατακυριεύω; 02 καταλαλέω; 03 καταλαλιά; 04 κατάλαλος; 05 καταλαμβάνω; 06 καταλάμπω; 07 καταλέγω; 08 κατάλειμμα; 09 καταλείπω; 10 καταλιθάζω; 11 καταλλαγή; 12 καταλλάσσω; 13 κατάλοιπος; 14 κατάλυμα; 15 κατάλυσις; 16 καταλύω; 17 καταμανθάνω; 18 καταμαρτυρέω; 19 καταμένω; 20 καταμόνας.
+TRADUÇÃO EDITORIAL INTEGRAL: traduzidos o texto integral de cada artigo HTML, suas informações gramaticais, exemplos, testemunhos, variantes, remissões, subdivisões ①–⑦/ⓐ–ⓒ/α–β e explicações lexicográficas. Siglas e títulos bibliográficos preservados enquanto identificadores. Atenção especial: καταλαμβάνω mantém interpretações rivais em João 1:5 (apreender/compreender, vencer/subjugar, dominar), sem resolver divergência por conjectura; καταλείπω mantém as sete acepções principais e subclasses; καταλλαγή e καταλλάσσω distinguem reconciliação com Deus e entre humanos; κατάλυμα diferencia hospedaria, alojamento e quarto de hóspedes, sem reduzir a uma acepção exclusiva; καταλύω distingue demolir, destruir, abolir, cessar e buscar hospedagem. καταμόνας é artigo autônomo apenas remissivo; não inventar acepções ausentes.
+COLAÇÃO ESTÁTICA NFC INDIVIDUAL FONTE HTML → TRADUÇÃO EDITORIAL → TEXTO RESTITUÍDO DOS CARTÕES: 618/618 sequências gregas, 0/0 hebraicas (não ocorrem neste lote), 1090/1090 numéricas, comparadas por ordem e por artigo; sem divergências. Isso não atesta por si só interpretação semântica ou colação de fac-símile.
+REGISTRO DE EVIDÊNCIA POR ARTIGO: nº | lema | linhas canônicas | sequências grego/hebraico/números | links NA28:
+01 | κατακυριεύω | 44150–44160 | 41/0/64 | 4
+02 | καταλαλέω | 44161–44164 | 34/0/61 | 4
+03 | καταλαλιά | 44165–44168 | 27/0/45 | 2
+04 | κατάλαλος | 44169–44173 | 8/0/13 | 1
+05 | καταλαμβάνω | 44174–44211 | 105/0/220 | 16
+06 | καταλάμπω | 44212–44215 | 10/0/20 | 0
+07 | καταλέγω | 44216–44219 | 14/0/35 | 1
+08 | κατάλειμμα | 44220–44224 | 5/0/8 | 1
+09 | καταλείπω | 44225–44277 | 159/0/220 | 24
+10 | καταλιθάζω | 44278–44281 | 7/0/8 | 1
+11 | καταλλαγή | 44282–44286 | 25/0/33 | 3
+12 | καταλλάσσω | 44287–44303 | 45/0/63 | 6
+13 | κατάλοιπος | 44304–44307 | 8/0/4 | 1
+14 | κατάλυμα | 44308–44311 | 10/0/51 | 4
+15 | κατάλυσις | 44312–44316 | 8/0/21 | 0
+16 | καταλύω | 44317–44345 | 72/0/159 | 16
+17 | καταμανθάνω | 44346–44349 | 20/0/29 | 1
+18 | καταμαρτυρέω | 44350–44353 | 7/0/24 | 2
+19 | καταμένω | 44354–44357 | 11/0/11 | 2
+20 | καταμόνας | 44358–44361 | 2/0/1 | 0
+TESTES ESTÁTICOS: novo lexicons/bdag-part-0190.js blob 19874d665a7c39e24c1076b7dbebfa0db7883903, 20 search-row e 20 entry-card; IDs únicos entry-bdag-0190-01 a 20 e correspondência 1:1 data-target/id; tags equilibradas por pilha; serialização JS conferida por JSON.parse; restituição textual de cada cartão idêntica à tradução; 89 hyperlinks NT sintaticamente válidos no padrão https://www.die-bibel.de/en/bible/NA28, 78 URLs únicas, limites estáticos de livro/capítulo/versículo examinados. URLs NÃO TESTADAS com HTTP. Testes funcionais DOM/teclado/foco, busca, popups, acessibilidade, responsividade, CI e regressão global NÃO comprovados.
+NOTAS DE FONTE: καταμόνας traz exclusivamente remissão t.r.; s. μόνος 3, que se deve manter como remissão. A fonte original no fim de καταλείπω apresenta DELG s.v. λίθος: preservar como testemunho do HTML, não corrigir especulativamente. Distinguir sempre tradução editorial de leitura literalmente atestada e de conjectura.
+ESCOPO EXCLUSIVO DE ALTERAÇÕES: adicionar lexicons/bdag-part-0190.js; inserir uma vez o caminho em lexicon-modules.json após part-0189.js e antes de leh.js; anexar apenas este checkpoint ao final de regras/Rbdag.txt, mantendo o histórico anterior. Não mudar outros módulos, léxicos, scripts, infraestrutura, main ou branches alheias.
+PUBLICAÇÃO SEGURA: criar um só commit filho de f6d50e3bfbb1c49dda9b8f60ba052fe813c1be35, revisar HEAD remoto imediatamente antes do update_ref, atualizar exclusivamente chat-gpt-bdag com expected_sha=f6d50e3bfbb1c49dda9b8f60ba052fe813c1be35 e force=false; se houver conflito concorrente, abortar sem force. NÃO criar PR, merge, rebase ou nova branch.
+AUDITORIA_CONCLUIDA=NÃO: faltam conferência de fac-símile/páginas, SHA do HTML integral original, revisão filológica/semântica independente por acepção, verificações de variantes e testemunhos, testes HTTP reais dos links, testes DOM/navegador/acessibilidade, CI/regressão global, fichas A–J e integração pelo integrador com merge confirmado. Não incrementar total_auditoria_concluida.
+PROGRESSO APENAS APÓS RELEITURA DE COMMIT E BLOBS PUBLICADOS: BDAG 4004 → 4024/8287 = 48,56%, restam 4263. Incorporação não equivale a auditoria concluída; demais léxicos NÃO revalidados.
+================================================================================
