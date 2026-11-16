@@ -8703,3 +8703,40 @@ PUBLICAÇÃO SEGURA: criar um único commit com parent 27f951c6bc6a6018214aa3eb0
 AUDITORIA_CONCLUIDA=NÃO; pendências: inspeção visual da edição/fac-símile, paginação e SHA do original; reavaliação filológica independente de cada acepção, das variantes, testemunhos, siglas e bibliografia; verificação do caso [III b.c.) no original; teste HTTP real dos URLs; DOM/teclado/acessibilidade; CI, regressão global, fichas A–J e integração pelo integrador com merge confirmado. Não alterar total_auditoria_concluida.
 PROGRESSO SOMENTE APÓS CONFIRMAÇÃO DO HEAD E DOS BLOB SHAs: BDAG 3964 → 3984/8287 = 48,08%; faltam 4303. Não confundir total incorporado com total auditado.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 189 — 16/11/2026 — INCORPORAÇÃO FILOLÓGICA DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD INICIAL E REVALIDADO: c6b69b9e198e96a3a05aa54d6955e617da4e5061. ÁRVORE BASE DO COMMIT 188: 5dc340706b738ccfe21ffecf786c358ebd5d6f9e.
+NORMAS VIGENTES EFETIVAMENTE RELIDAS: regras/Rbdag.txt blob 9247927cf0a29ac1015d4bae6c5bbcb4faf0fa7a, histórico preservado, e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67, inalterada. bdag.js e bibliographicTerms não alterados.
+FONTE EXCLUSIVA: HTML canônico BDAG da Biblioteca do projeto, 30.790.409 bytes, linhas 44017–44149 inclusas, cabeçalhos originais <span class="c71">. O 21º artigo, κατακυριεύω, inicia na linha 44150 e fica EXCLUÍDO deste lote. SHA integral do HTML original NÃO foi calculado nem confirmado.
+ARTIGOS EM ORDEM: 01 κατάκαρπος; 02 κατακαυχάομαι; 03 κατάκειμαι; 04 κατακεντέω; 05 κατακλάω; 06 κατακλείω; 07 κατακληροδοτέω; 08 κατακληρονομέω; 09 κατακλίνω; 10 κατακλύζω; 11 κατακλυσμός; 12 κατακολουθέω; 13 κατακόπτω; 14 κατακρημνίζω; 15 κατάκριμα; 16 κατακρίνω; 17 κατάκρισις; 18 κατάκριτος; 19 κατακροάομαι; 20 κατακύπτω.
+TRADUÇÃO EDITORIAL: todo o texto de cada artigo HTML foi vertido ao português, incluindo divisões ①/②/③, ⓐ/ⓑ, α/β, paradigmas, condições de regência, exemplos, bibliografia, variantes, testemunhos e remissões. Preservadas as grafias gregas/hebraicas e referências numéricas. Particular atenção às acepções jurídicas de κατάκριμα, κατακρίνω, κατάκρισις e κατάκριτος e às distinções de κληρονομέω entre sorteio, herança e direito de posse. Títulos e siglas bibliográficos permanecem como na fonte; a transcrição de siglas não comprova revisão independente de suas atribuições.
+COLAÇÃO NFC INDIVIDUAL EM TRÊS CAMADAS, TEXTO DA FONTE HTML -> TRADUÇÃO -> TEXTO RECONSTRUÍDO DOS CARTÕES: 275/275 tokens gregos, 2/2 hebraicos e 580/580 numéricos preservados, com as mesmas sequências por artigo. Os dois tokens hebraicos נָחַל e יָרַשׁ estão no artigo κατακληρονομέω. Atenção: colação de tokens não certifica automaticamente a análise semântica ou o fac-símile.
+EVIDÊNCIA POR ARTIGO: nº | lema | linhas originais HTML | tokens grego/hebraico/números (source/pt/cartão equivalentes):
+01 | κατάκαρπος | 44017–44021 | 4/0/12
+02 | κατακαυχάομαι | 44022–44033 | 18/0/27
+03 | κατάκειμαι | 44034–44050 | 21/0/78
+04 | κατακεντέω | 44051–44054 | 6/0/17
+05 | κατακλάω | 44055–44058 | 6/0/14
+06 | κατακλείω | 44059–44062 | 29/0/21
+07 | κατακληροδοτέω | 44063–44067 | 5/0/14
+08 | κατακληρονομέω | 44068–44079 | 12/2/21
+09 | κατακλίνω | 44080–44096 | 21/0/35
+10 | κατακλύζω | 44097–44100 | 6/0/10
+11 | κατακλυσμός | 44101–44104 | 11/0/54
+12 | κατακολουθέω | 44105–44109 | 8/0/18
+13 | κατακόπτω | 44110–44120 | 14/0/26
+14 | κατακρημνίζω | 44121–44124 | 6/0/28
+15 | κατάκριμα | 44125–44128 | 20/0/22
+16 | κατακρίνω | 44129–44132 | 54/0/108
+17 | κατάκρισις | 44133–44136 | 21/0/29
+18 | κατάκριτος | 44137–44140 | 2/0/23
+19 | κατακροάομαι | 44141–44144 | 6/0/7
+20 | κατακύπτω | 44145–44149 | 5/0/16
+VALIDAÇÕES ESTÁTICAS: novo módulo lexicons/bdag-part-0189.js blob c23692a75b77046f841c78d9d0f05150cb8e68c4; exatamente 20 linhas <tr class="search-row">, 20 cartões <article class="entry-card"> com data-target/id 1:1 e IDs exclusivos entry-bdag-0189-01 a entry-bdag-0189-20; HTML balanceado por pilha de tags; serialização JS/JSON.parse conferida; recuperação do texto da tradução a partir dos cartões comparada por artigo; 54 URLs de referências do NT sintaticamente válidas no padrão https://www.die-bibel.de/en/bible/NA28, 50 destinos distintos, faixa estática de livro/capítulo/versículo verificada. Não houve requisição HTTP para testar URLs, CI, teste real de DOM/navegador, busca, popups ou acessibilidade.
+FONTE/NOTAS DE RISCO: o original contém a grafia inglesa 'lacereate' em κατακόπτω, corretamente interpretada como 'lacerar' na tradução; não alterar a fonte original por conjectura. O texto original de κατάκριμα distingue sentença judicial e aplicação da pena, não simplesmente 'declaração de culpa'; preservar essa diferença. Citações e variantes críticas requerem exame independente.
+ESCOPO EXCLUSIVO: novo lexicons/bdag-part-0189.js; registro único após part-0188.js e antes de leh.js em lexicon-modules.json; checkpoint aditivo em regras/Rbdag.txt preservando todo histórico. Não tocar módulos anteriores, outros léxicos, infraestrutura, main nem qualquer outra branch.
+SEGURANÇA: criar exatamente um commit com parent c6b69b9e198e96a3a05aa54d6955e617da4e5061, revalidar HEAD imediatamente antes de update_ref, atualizar somente chat-gpt-bdag usando expected_sha=c6b69b9e198e96a3a05aa54d6955e617da4e5061, force=false; se houver divergência, abortar sem force. Não abrir PR, executar merge/rebase ou criar branch.
+AUDITORIA_CONCLUIDA=NÃO; pendem o cotejo de fac-símile/paginação, SHA integral do original canônico, revisão independente semântica e gramático-filológica, conferência de variantes, referências e testemunhos, links HTTP, DOM/teclado/foco/popups/acessibilidade/responsividade, CI e regressão global, fichas A–J individuais e integração pelo integrador autorizado com merged=true. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONAL À CONFIRMAÇÃO REMOTA: BDAG 3984 → 4004/8287 = 48,32%; restam 4283. Contagens de outros léxicos NÃO revalidadas; incorporação não equivale a auditoria concluída.
+================================================================================
