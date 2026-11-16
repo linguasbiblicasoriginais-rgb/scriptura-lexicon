@@ -8989,3 +8989,37 @@ PUBLICAÇÃO PROTEGIDA: único commit direto filho do HEAD revalidado, update_re
 AUDITORIA_CONCLUIDA=NÃO: falta fac-símile/páginas, SHA integral do HTML original, revisão filológica e semântica por acepção independente, verificação de testemunhos/variantes, HTTP, navegador/DOM/acessibilidade, CI e regressão global, fichas A–J e integração autorizada com merge confirmado. Não incrementar auditoria concluída.
 PROGRESSO SOMENTE APÓS RELEITURA DE COMMIT E BLOBS REMOTOS: BDAG 4124 → 4144/8287 = 50,01%, restam 4143.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 197 — 16/11/2026 — 20 ARTIGOS CANÔNICOS PREPARADOS PARA COMMIT PROTEGIDO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: e8d6f46faa5f2c1385aae331a34e0ed6c148d7d4. Norma Rbdag relida, blob 43f943f66002789c0fe5fc1afec256d61a47be3a; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML BDAG canônico indexado na Biblioteca, com 30.790.409 bytes informados. Linhas 45148–45330 inclusas, 20 cabeçalhos autônomos. O cabeçalho seguinte κατοπτρίζω inicia em 45331, lote 198. Bytes integrais do HTML não materializáveis neste ambiente; SHA bruto não calculado.
+LEMAS: 01 κατευωχέω; 02 κατεφίσταμαι; 03 κατέχω; 04 κατηγορέω; 05 κατηγορία, ας, ἡ; 06 κατήγορος, ου, ὁ; 07 κατήγωρ, ορος, ὁ; 08 κατήφεια, ας, ἡ; 09 κατηφής, ές; 10 κατηχέω; 11 κατήχθημεν; 12 κατ’ ἰδίαν; 13 κατιόω; 14 κατισχύω; 15 κατοικέω; 16 κατοίκησις, εως, ἡ; 17 κατοικητήριον, ου, τό; 18 κατοικία, ας, ἡ; 19 κατοικίζω; 20 κατοικτίρω.
+TRADUÇÃO FILOLÓGICA: prosa lexicográfica de todos os 20 artigos vertida integralmente ao português, com paradigmas, acepções e subacepções, variantes de leitura, testemunhos, bibliografia, cautelas semânticas e distinções entre hipóteses interpretativas; as duas remissões autônomas (κατήχθημεν, κατ’ ἰδίαν) permanecem remissões. Foi restituído o algarismo de uma remissão à acepção 1 em κατηχέω durante a colação do rascunho.
+COLAÇÃO SEQUENCIAL NFC INDIVIDUAL FONTE HTML → TRADUÇÃO → TEXTO RECONSTRUÍDO DOS CARTÕES: 673 sequências gregas, 0 hebraicas, 954 numéricas preservadas identicamente e na mesma ordem, em cada um dos 20 artigos. Não substitui auditoria semântica independente nem conferência do fac-símile.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | κατευωχέω | 45148–45151 | 3/0/7 | 1
+02 | κατεφίσταμαι | 45152–45156 | 4/0/3 | 1
+03 | κατέχω | 45157–45213 | 194/0/255 | 17
+04 | κατηγορέω | 45214–45230 | 85/0/126 | 17
+05 | κατηγορία, ας, ἡ | 45231–45234 | 29/0/33 | 5
+06 | κατήγορος, ου, ὁ | 45235–45238 | 7/0/29 | 3
+07 | κατήγωρ, ορος, ὁ | 45239–45242 | 10/0/20 | 1
+08 | κατήφεια, ας, ἡ | 45243–45246 | 17/0/17 | 1
+09 | κατηφής, ές | 45247–45251 | 21/0/15 | 0
+10 | κατηχέω | 45252–45268 | 54/0/64 | 8
+11 | κατήχθημεν | 45269–45272 | 2/0/0 | 0
+12 | κατ’ ἰδίαν | 45273–45276 | 3/0/1 | 0
+13 | κατιόω | 45277–45281 | 4/0/14 | 1
+14 | κατισχύω | 45282–45293 | 30/0/43 | 2
+15 | κατοικέω | 45294–45310 | 120/0/201 | 20
+16 | κατοίκησις, εως, ἡ | 45311–45314 | 20/0/21 | 1
+17 | κατοικητήριον, ου, τό | 45315–45318 | 19/0/18 | 2
+18 | κατοικία, ας, ἡ | 45319–45322 | 6/0/56 | 1
+19 | κατοικίζω | 45323–45326 | 31/0/14 | 1
+20 | κατοικτίρω | 45327–45330 | 14/0/17 | 0
+TESTES ESTÁTICOS: JSON do objeto JS serializado/restituído, 20 search-row e 20 entry-card, IDs entry-bdag-0197-01 a -20 únicos e pareados 1:1, pilha de tags HTML equilibrada, atributos escapados, tokens nos cartões conferidos, 82 links NA28 sintaticamente válidos (71 URLs distintas), livro/capítulo/versículo verificados em limites estáticos. Não executados testes HTTP, browser/DOM, teclado, foco, popups, acessibilidade, CI ou regressão global.
+ESCOPO E SEGURANÇA: somente criar lexicons/bdag-part-0197.js, inserir 1 item em lexicon-modules.json após part-0196 e antes de leh.js, apensar este checkpoint a regras/Rbdag.txt sem substituir histórico; não modificar bdag.js, bibliographicTerms, outros léxicos, infraestrutura ou branches. Um único commit atômico filho do HEAD revalidado; update_ref apenas chat-gpt-bdag com expected_sha=e8d6f46faa5f2c1385aae331a34e0ed6c148d7d4, force=false, sem PR, merge, branch auxiliar, rebase ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile/paginação, SHA integral do HTML canônico, revisão semântica/filológica independente por artigo, checagem crítica de testemunhos, testes HTTP/DOM/navegador/teclado/popups/acessibilidade, CI, regressão global, fichas A–J e integração por responsável com merge comprovado. Não incrementar total_auditoria_concluida.
+PROGRESSO SUJEITO À CONFIRMAÇÃO REMOTA DO COMMIT: BDAG 4144 → 4164/8287 = 50,25%; 4123 restantes.
+================================================================================
