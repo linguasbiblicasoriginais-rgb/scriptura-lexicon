@@ -8813,3 +8813,39 @@ PUBLICAÇÃO PROTEGIDA: publicar um único commit-filho de 8c29cbc4d6b13ccc73d1d
 AUDITORIA_CONCLUIDA=NÃO: pendem cotejo de fac-símile e paginação, SHA do HTML integral original, exame filológico independente das acepções e variantes, verificação dos testemunhos e bibliografia, testes HTTP reais dos links, DOM/teclado/foco/popups/acessibilidade/responsividade, CI/regressão global, fichas A–J individuais e integração pelo integrador com merged=true. Não incrementar total_auditoria_concluida.
 PROGRESSO APENAS COM CONFIRMAÇÃO DE COMMIT E BLOBS REMOTOS: 4024 -> 4044/8287 = 48,80%, restam 4243. Não confundir 'incorporado' com 'auditado'.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 192 — 16/11/2026 — INCORPORAÇÃO DE 20 ARTIGOS CANÔNICOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL E REVALIDADO: 3c5eef84fc555c5586575e8cf32258a59a63944b; árvore base do commit do lote 191: 0a5144d9613e35f1bc96d3dc0000d8212121109c.
+NORMAS VIGENTES RELIDAS: regras/Rbdag.txt blob 04ee8e27c21404077681fa66e33ccd500d5ee9ea, preservado o histórico anterior integral; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67, sem alterações. bdag.js e bibliographicTerms não alterados.
+FONTE EXCLUSIVA: BDAG HTML canônico da Biblioteca deste projeto, 30.790.409 bytes, linhas 44509–44656 inclusas, delimitadas por 20 marcadores de cabeçalho <span class="c71">. O próximo artigo, κατασκευάζω, começa na linha 44657 e fica reservado para o lote 193. SHA integral do HTML original NÃO calculado/verificado; não confundir SHA de módulo derivado com hash da fonte.
+ARTIGOS EM ORDEM: 01 καταπίμπρημι; 02 καταπίνω; 03 καταπίπτω; 04 καταπιστεύω; 05 καταπλέω; 06 κατάπληξις; 07 καταπλήσσω; 08 καταπονέω; 09 καταποντίζω; 10 κατάρα; 11 καταράομαι; 12 καταργέω; 13 καταριθμέω; 14 καταρρέω; 15 καταρτίζω; 16 κατάρτισις; 17 καταρτισμός; 18 κατασβέννυμι; 19 κατασείω; 20 κατασκάπτω.
+TRADUÇÃO INTEGRAL EDITORIAL: todos os trechos de prosa lexicográfica dos 20 artigos do HTML canônico foram vertidos ao português, preservando títulos e siglas bibliográficas, paradigmas, variantes, todas as divisões originais ①–④/ⓐ–ⓑ, casos e regências, todas as referências, os testemunhos e citações, os elementos gregos e as sequências numéricas. Em καταπίνω distinguem-se tragar, destruir e aniquilar; em κατάρα e καταράομαι, as distintas construções e a maldição da lei, inclusive a cautela semântica da locução curse-offering (ou object of a curse); em καταργέω, quatro acepções: tornar improdutivo, invalidar, abolir e libertar de obrigação; em καταρτίζω, restauração, aperfeiçoamento e preparação, com as subdivisões da fonte; em καταρτισμός, capacitação, treinamento e disciplina mantidos como alternativas discutidas. Não substituir variante ou bibliografia por conjectura.
+COLAÇÃO SEQUENCIAL POR ARTIGO (NORMALIZAÇÃO UNICODE NFC) FONTE HTML → TRADUÇÃO EDITORIAL → TEXTO RESTITUÍDO DE CADA CARTÃO: 567/567 sequências gregas, 0/0 sequências hebraicas (ausentes em todo o lote) e 773/773 sequências numéricas. Mesma ordem e teor em todas as três camadas. Isso NÃO certifica sozinho qualidade de análise filológica ou comparação com fac-símile.
+EVIDÊNCIA INDIVIDUAL (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | καταπίμπρημι | 44509–44513 | 6/0/10 | 1
+02 | καταπίνω | 44514–44533 | 74/0/89 | 7
+03 | καταπίπτω | 44534–44537 | 15/0/21 | 3
+04 | καταπιστεύω | 44538–44541 | 3/0/9 | 0
+05 | καταπλέω | 44542–44545 | 24/0/20 | 1
+06 | κατάπληξις | 44546–44549 | 4/0/17 | 0
+07 | καταπλήσσω | 44550–44553 | 12/0/22 | 0
+08 | καταπονέω | 44554–44557 | 17/0/32 | 3
+09 | καταποντίζω | 44558–44561 | 21/0/26 | 2
+10 | κατάρα | 44562–44565 | 57/0/68 | 4
+11 | καταράομαι | 44566–44570 | 30/0/124 | 8
+12 | καταργέω | 44571–44588 | 107/0/109 | 20
+13 | καταριθμέω | 44589–44599 | 24/0/31 | 1
+14 | καταρρέω | 44600–44604 | 8/0/20 | 0
+15 | καταρτίζω | 44605–44627 | 86/0/72 | 13
+16 | κατάρτισις | 44628–44631 | 10/0/9 | 1
+17 | καταρτισμός | 44632–44635 | 16/0/16 | 1
+18 | κατασβέννυμι | 44636–44640 | 8/0/17 | 0
+19 | κατασείω | 44641–44651 | 32/0/34 | 2
+20 | κατασκάπτω | 44652–44656 | 13/0/27 | 2
+VERIFICAÇÕES ESTÁTICAS: módulo lexicons/bdag-part-0192.js blob 79bb9d0ac1e3bbe93bda5ebfff12fd56dcb91176; exatamente 20 linhas search-row e 20 cartões entry-card; IDs entry-bdag-0192-01 a entry-bdag-0192-20 únicos e ordenados, data-target/id pareados, HTML equilibrado por pilha de tags, atributos escapados, JS/JSON.parse serialização conferida, correspondência texto de cartão/tradução, 69 links do NT no padrão sintático https://www.die-bibel.de/en/bible/NA28, 67 URLs distintas, limites estáticos dos livros/capítulos/versículos aplicados. SEM TESTES HTTP reais dos links, navegador/DOM, busca, teclado, foco, popups, acessibilidade ou responsividade. CI e regressão global NÃO comprovados.
+ESCOPO RESTRITO DE ALTERAÇÃO: somente criar lexicons/bdag-part-0192.js; inserir uma vez em lexicon-modules.json após part-0191.js e antes de leh.js; apensar este checkpoint ao final de regras/Rbdag.txt sem substituir qualquer histórico anterior. Não modificar outros módulos, outros léxicos, scripts, infraestrutura ou main.
+PUBLICAÇÃO: exatamente UM commit descendente de 3c5eef84fc555c5586575e8cf32258a59a63944b, revalidar HEAD imediatamente antes de update_ref, atualizar exclusivamente chat-gpt-bdag com expected_sha=3c5eef84fc555c5586575e8cf32258a59a63944b e force=false. Se o HEAD mudar, abortar sem force. NÃO criar PR, merge, rebase ou branch adicional.
+AUDITORIA_CONCLUIDA=NÃO: restam cotejo do fac-símile/paginação, SHA integral do HTML original, revisão filológica/semântica independente e por artigo, verificação de variantes/testemunhos/notas bibliográficas, HTTP real, DOM/teclado/foco/popups/acessibilidade/responsividade, CI/regressão global, fichas individuais A–J e integração por responsável com merged=true. NÃO incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONAL À RELEITURA DO COMMIT E DOS BLOB SHAs REMOTOS: BDAG 4044 → 4064/8287 = 49,04%; 4223 restantes. Incorporar NÃO equivale a auditar.
+================================================================================
