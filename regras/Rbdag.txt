@@ -8666,3 +8666,40 @@ PUBLICAÇÃO: criar um ÚNICO commit filho do HEAD 75a59c66325b4fc31b1b807209b2b
 AUDITORIA_CONCLUIDA=NÃO. PENDENTES: cotejo do fac-símile e paginação com SHA do original, análise semântica/filológica independente por acepção, conferência de variantes e testemunhos, desambiguação do conflito 391/399 em κατά, revisão bibliográfica completa e notas, validação HTTP dos links, testes funcionais de navegador/DOM/busca/teclado/foco/popups/acessibilidade/responsividade, CI e regressão global, fichas A–J individuais e integração pelo integrador com merge de PR verificado. Sem isso, não incrementar total_auditoria_concluida.
 PROGRESSO APENAS APÓS CONFIRMAÇÃO REMOTA: BDAG 3944 → 3964/8287 = 47,83%; restam 4323. Totais dos demais léxicos NÃO REVALIDADOS independentemente; não inferir auditoria concluída de incorporação estática.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 188 — 16/11/2026 — INCORPORAÇÃO FILOLÓGICA DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL E REVALIDADO: 27f951c6bc6a6018214aa3eb06daf12e9c8a81dd. BASE_TREE conhecida do commit 187: 36dfbdc3a905fa6ba44b3fbe5f51cc616187fc44.
+NORMAS VIGENTES CONSULTADAS INTEGRALMENTE: regras/Rbdag.txt blob 9a3f9b9614caea8acc833102347bc9ed7e254e7f (histórico preservado), regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67, inalterada. Não alterar bdag.js nem bibliographicTerms.
+FONTE EXCLUSIVA: HTML canônico BDAG da Biblioteca do projeto, 30.790.409 bytes, linhas 43912–44016 inclusive, delimitadas por 20 cabeçalhos <span class="c71">. Próximo artigo κατάκαρπος, ον começa à linha 44017 e fica fora do lote 188. O SHA integral do HTML original NÃO foi calculado/confirmado, não substituir por SHA de blob derivado.
+ARTIGOS AUTÔNOMOS, ORDEM: 01 κατάγνωσις; 02 καταγράφω; 03 κατάγω; 04 καταγωνίζομαι; 05 καταδέχομαι; 06 καταδέω; 07 κατάδηλος; 08 καταδιαιρέω; 09 καταδικάζω; 10 καταδίκη; 11 καταδιώκω; 12 καταδουλόω; 13 καταδυναστεύω; 14 κατάθεμα; 15 καταθεματίζω; 16 καταιγίς; 17 καταισχύνω; 18 κατακαίω; 19 κατακαλύπτω; 20 κατακάλυψις.
+TRADUÇÃO: prosa integral editada em português para cada artigo, sem omitir acepções ①/②/③, alíneas, citações, testemunhos, variantes, referências e bibliografia; títulos bibliográficos e abreviaturas da fonte preservados. Distinções semânticas de condenação, perseguição, escravização, maldição, vergonha, decepção, queima e cobertura mantidas. Algumas grafias/bibliografias latinas preservadas como identificadores. Não afirmar revisão filológica independente concluída.
+COLAÇÃO ESTÁTICA INDIVIDUAL DE SEQUÊNCIAS NORMALIZADAS EM NFC, FONTE -> TRADUÇÃO -> HTML RESTITUÍDO: 351/351 gregas, 1/1 hebraica e 680/680 numéricas idênticas em ordem nos 20 artigos. Único token hebraico do lote: חֵרֶם, artigo κατάθεμα. Colação estrutural não é exame semântico nem verificação visual do fac-símile.
+EVIDÊNCIAS POR ARTIGO: nº | lema | linhas do HTML | grego/hebraico/número (sequências exatamente preservadas):
+01 | κατάγνωσις | 43912–43915 | 12/0/17
+02 | καταγράφω | 43916–43919 | 19/0/25
+03 | κατάγω | 43920–43923 | 51/0/55
+04 | καταγωνίζομαι | 43924–43927 | 8/0/34
+05 | καταδέχομαι | 43928–43931 | 11/0/15
+06 | καταδέω | 43932–43935 | 8/0/14
+07 | κατάδηλος | 43936–43939 | 9/0/14
+08 | καταδιαιρέω | 43940–43943 | 9/0/27
+09 | καταδικάζω | 43944–43947 | 16/0/51
+10 | καταδίκη | 43948–43951 | 7/0/23
+11 | καταδιώκω | 43952–43955 | 17/0/29
+12 | καταδουλόω | 43956–43959 | 11/0/22
+13 | καταδυναστεύω | 43960–43963 | 9/0/33
+14 | κατάθεμα | 43964–43967 | 12/1/15
+15 | καταθεματίζω | 43968–43971 | 7/0/18
+16 | καταιγίς | 43972–43976 | 5/0/23
+17 | καταισχύνω | 43977–43996 | 36/0/94
+18 | κατακαίω | 43997–44001 | 62/0/131
+19 | κατακαλύπτω | 44002–44012 | 31/0/31
+20 | κατακάλυψις | 44013–44016 | 11/0/9
+TESTES ESTÁTICOS: módulo novo lexicons/bdag-part-0188.js blob 680285fc630f3cf47875a0cd66db405ff876d731, 20 linhas search-row e 20 cartões entry-card; correspondência data-target/id e sequência única de IDs entry-bdag-0188-01 a entry-bdag-0188-20; tags HTML equilibradas por pilha; objeto JS serializado/validado por JSON.parse; texto editorial reconstituído sem perda pelo HTML; colação fonte/tradução/cartão por artigo aprovada; 45 links explícitos de referências NT no padrão sintático https://www.die-bibel.de/en/bible/NA28, 43 URLs distintas, livro/capítulo/versículo em intervalos estáticos. NÃO houve teste HTTP real dos destinos, CI, teste real de DOM, busca, teclado, foco, popups, contraste ou responsividade.
+OBSERVAÇÃO FONTE: em καταγωνίζομαι existe grafia de referência antiga com colchete/parêntese aparentemente irregular [III b.c.) (transposto como [século III a.C.)); preservada sem correção conjectural da fonte; pendente de conferência com fac-símile. Não confundir irregularidade da pontuação editorial com quebra do HTML. Revisar interpretação das variantes e notas sem substituição silenciosa.
+ESCOPO DE ESCRITA APENAS TRÊS ARQUIVOS: criar lexicons/bdag-part-0188.js; inserir o novo registro exatamente uma vez em lexicon-modules.json após part-0187.js e antes de leh.js; anexar este checkpoint ao final de regras/Rbdag.txt preservando todo histórico. Não tocar outros léxicos, módulos anteriores, scripts, infraestrutura, main ou branches alheias.
+PUBLICAÇÃO SEGURA: criar um único commit com parent 27f951c6bc6a6018214aa3eb06daf12e9c8a81dd, revalidar HEAD imediatamente antes da publicação, executar update_ref SOMENTE em chat-gpt-bdag com expected_sha=27f951c6bc6a6018214aa3eb06daf12e9c8a81dd, force=false. Se HEAD mudar, abortar e não sobrescrever concorrência. NÃO fazer PR, merge, rebase ou criar branch.
+AUDITORIA_CONCLUIDA=NÃO; pendências: inspeção visual da edição/fac-símile, paginação e SHA do original; reavaliação filológica independente de cada acepção, das variantes, testemunhos, siglas e bibliografia; verificação do caso [III b.c.) no original; teste HTTP real dos URLs; DOM/teclado/acessibilidade; CI, regressão global, fichas A–J e integração pelo integrador com merge confirmado. Não alterar total_auditoria_concluida.
+PROGRESSO SOMENTE APÓS CONFIRMAÇÃO DO HEAD E DOS BLOB SHAs: BDAG 3964 → 3984/8287 = 48,08%; faltam 4303. Não confundir total incorporado com total auditado.
+================================================================================
