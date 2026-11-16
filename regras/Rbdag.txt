@@ -9023,3 +9023,37 @@ ESCOPO E SEGURANÇA: somente criar lexicons/bdag-part-0197.js, inserir 1 item em
 AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile/paginação, SHA integral do HTML canônico, revisão semântica/filológica independente por artigo, checagem crítica de testemunhos, testes HTTP/DOM/navegador/teclado/popups/acessibilidade, CI, regressão global, fichas A–J e integração por responsável com merge comprovado. Não incrementar total_auditoria_concluida.
 PROGRESSO SUJEITO À CONFIRMAÇÃO REMOTA DO COMMIT: BDAG 4144 → 4164/8287 = 50,25%; 4123 restantes.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 198 — 16/11/2026 — 20 ARTIGOS CANÔNICOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: 7be331ad774c88b5bbe6f045a857603c12109e1d. Rbdag relido, blob 0dd4489c18f9164b3bcdfa197c41c8939be42169; Rauditoria relido, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico BDAG indexado na Biblioteca (tamanho informado 30.790.409 bytes), linhas 45331–45442. Vinte artigos autônomos de κατοπτρίζω a Καφαρναούμ, ἡ. O artigo seguinte κε´ inicia em 45443, reservado ao lote 199. Os bytes integrais da fonte não foram materializados, e nenhum SHA da fonte integral é alegado.
+LEMAS EM ORDEM: 01 κατοπτρίζω; 02 κατορθόω; 03 κατόρθωμα, ατος, τό; 04 κάτω; 05 κατώτατος, η, ον; 06 κατώτερος, α, ον; 07 κατωτέρω; 08 Καῦδα; 09 καῦμα, ατος, τό; 10 καυματίζω; 11 καυματόω; 12 καῦσις, εως, ἡ; 13 καυσόω; 14 καυστηριάζω; 15 καύσων, ωνος, ὁ; 16 καυτηριάζω; 17 καυχάομαι; 18 καύχημα, ατος, τό; 19 καύχησις, εως, ἡ; 20 Καφαρναούμ, ἡ.
+COLAÇÃO E TRADUÇÃO: vinte artigos integralmente traduzidos ao português, inclusive paradigmas, acepções, subacepções, variantes textuais, referências, testemunhos, bibliografia e qualificadores de incerteza. Mantidas alternativas interpretativas em κατοπτρίζω (contemplar/refletir), κατώτερος (sepultamento/Hades/encarnação), variante de leitura em καυτηριάζω, e o topônimo Καφαρναούμ com כְּפַר נַחוּם. Uma remissão autônoma (καυτηριάζω) não recebeu acepção fictícia. No rascunho, corrigiu-se a referência numérica à acepção 2 no artigo κάτω.
+COLAÇÃO SEQUENCIAL NFC INDIVIDUAL FONTE HTML → TRADUÇÃO → CARTÃO RECONSTRUÍDO: 453 sequências gregas, 2 hebraicas, 852 numéricas, todas preservadas em ordem e identidade nos vinte artigos. Isso não equivale a auditoria semântica independente ou cotejo de fac-símile.
+ARTIGOS (nº | lema | linhas do HTML | grego/hebraico/números | links NA28):
+01 | κατοπτρίζω | 45331–45334 | 13/0/61 | 2
+02 | κατορθόω | 45335–45338 | 17/0/33 | 0
+03 | κατόρθωμα, ατος, τό | 45339–45343 | 11/0/19 | 1
+04 | κάτω | 45344–45354 | 61/0/84 | 13
+05 | κατώτατος, η, ον | 45355–45358 | 10/0/10 | 0
+06 | κατώτερος, α, ον | 45359–45362 | 33/0/36 | 1
+07 | κατωτέρω | 45363–45366 | 12/0/17 | 1
+08 | Καῦδα | 45367–45370 | 6/0/24 | 1
+09 | καῦμα, ατος, τό | 45371–45374 | 13/0/22 | 1
+10 | καυματίζω | 45375–45378 | 11/0/21 | 4
+11 | καυματόω | 45379–45382 | 6/0/5 | 1
+12 | καῦσις, εως, ἡ | 45383–45386 | 15/0/28 | 1
+13 | καυσόω | 45387–45390 | 6/0/31 | 2
+14 | καυστηριάζω | 45391–45394 | 11/0/22 | 1
+15 | καύσων, ωνος, ὁ | 45395–45398 | 18/0/30 | 3
+16 | καυτηριάζω | 45399–45403 | 3/0/4 | 1
+17 | καυχάομαι | 45404–45415 | 98/0/195 | 24
+18 | καύχημα, ατος, τό | 45416–45427 | 64/0/60 | 11
+19 | καύχησις, εως, ἡ | 45428–45438 | 35/0/58 | 8
+20 | Καφαρναούμ, ἡ | 45439–45442 | 10/2/92 | 7
+VERIFICAÇÕES ESTÁTICAS: parse do objeto serializado JS/JSON, HTML balanceado por pilha, 20 search-row, 20 entry-card, IDs entry-bdag-0198-01 a -20 únicos e data-target 1:1, recuperação textual dos cartões colacionada, 83 links NA28 sintaticamente válidos (72 URLs distintas), livros/capítulos/versículos com limites estáticos. Sem HTTP, browser/DOM/teclado/foco/popups/acessibilidade, CI ou regressão global.
+ESCOPO PROTEGIDO: apenas lexicons/bdag-part-0198.js novo, um registro em lexicon-modules.json imediatamente após part-0197 e antes de leh.js, e este checkpoint aditivo em regras/Rbdag.txt. Não alterar bdag.js, bibliographicTerms, outros léxicos, scripts, infraestrutura nem branches alheias. Um único commit com expected_sha=7be331ad774c88b5bbe6f045a857603c12109e1d e force=false; sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile e paginação, SHA integral do HTML canônico, revisão semântica/filológica/bibliográfica independente por artigo, exame crítico de testemunhos e variantes, HTTP, navegador/DOM/acessibilidade, CI, regressão global, fichas A–J e integração confirmada pelo responsável. Não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DE HEAD E BLOBS REMOTOS: BDAG 4164 → 4184/8287 = 50,49%; 4103 restantes.
+================================================================================
