@@ -8594,3 +8594,38 @@ PUBLICAÇÃO PERMITIDA: somente um commit filho do HEAD c03406612af1fdb9b4cdea6d
 AUDITORIA_CONCLUIDA=NÃO. PENDÊNCIAS: inspeção visual do original impresso/páginas e hash integral do HTML, reavaliação filológica semântica independente por acepção, conferência de testemunhos/variantes e bibliografia, verificação HTTP real e destinos exatos dos links, teste DOM/busca/teclado/foco/popups/contraste/responsividade, execução CI e regressão funcional completa, fichas A–J e integração pelo integrador autorizado com merge verificado em chat-gpt-commits. Marcar checagem estática/conteúdo e NÃO confundir com auditoria homologada.
 PROGRESSO APENAS SE O HEAD REMOTO CONFIRMAR ESTE COMMIT: 3904 -> 3924/8287 = 47,35%; faltam 4363. OUTROS LÉXICOS: DGP HEAD chat-gpt-dgp 581ad921b47e3b0e7f28b279b83ed19e508da68b, total NÃO VERIFICADO por contagem independente; LEH chat-gpt-leh e PEREIRA chat-gpt-pereira consultas retornaram 422, totais NÃO VERIFICADOS.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 186 — 16/11/2026 — INCORPORAÇÃO FILOLÓGICA DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL E VERIFICADO: d15c97d19d0abcfd61f846f193fbc911e7d635b3; árvore base do lote anterior dd4463ef29e93f7bf9e543e8357a5a299630163d.
+REGRAS VIGENTES INTEGRALMENTE CONSULTADAS: regras/Rbdag.txt blob 26931275370db7670a4af5e388e890fae9e9a69e (histórico intacto), regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67 (não alterado); bdag.js e bibliographicTerms não alterados.
+FONTE EXCLUSIVA: arquivo HTML BDAG canônico na Biblioteca do projeto, 30.790.409 bytes, linhas 43503–43662; artigos autônomos identificados por cabeçalhos <span class="c71">. O 21º começa na linha 43663, κάρφος, EXCLUÍDO e reservado ao lote 187. SHA integral do arquivo original HTML NÃO confirmado; não presumir hash.
+ARTIGOS NA ORDEM CANÔNICA: 01 Κανά; 02 Καναναῖος; 03 Κανανίτης; 04 Κανδάκη; 05 κανών; 06 Καπερναούμ; 07 καπηλεύω; 08 καπνός; 09 Καππαδοκία; 10 καραδοκία; 11 καρδία; 12 καρδιογνώστης; 13 καροῦχα; 14 καρπάσινος; 15 Κάρπος; 16 καρπός; 17 καρποφορέω; 18 καρποφόρος; 19 καρτερέω; 20 [ἀπὸ] Καρυώτου.
+TRADUÇÃO E COLAÇÃO: tradução editorial do texto integral de cada artigo do HTML (sem condensação de acepções ou testemunhos), mantendo divisões ①/②/③, subacepções, glossas, aspectos de incerteza, notas e bibliografia (títulos originais preservados). Colação sequencial automatizada, NFC, das sequências originais no texto canônico, traduzido e reconstruído dos cartões: 874/874 tokens gregos, 6/6 hebraicos, 1537/1537 numéricos, incluindo sinais diacríticos nos tokens normalizados. Identidade demonstrada em todos os 20 artigos individualmente. Não reivindicar que comparação de tokens substitua revisão filológica independente da semântica ou cotejo visual da edição.
+EVIDÊNCIA POR ARTIGO: nº | lema | linhas canônicas | sequências gregas/hebraicas/numéricas (fonte/tradução/cartão coincidentes):
+01 | Κανά | 43503–43506 | 4/0/35
+02 | Καναναῖος | 43507–43510 | 6/1/31
+03 | Κανανίτης | 43511–43514 | 7/0/9
+04 | Κανδάκη | 43515–43519 | 7/0/38
+05 | κανών | 43520–43533 | 68/0/90
+06 | Καπερναούμ | 43534–43537 | 2/0/0
+07 | καπηλεύω | 43538–43541 | 34/0/29
+08 | καπνός | 43542–43545 | 11/0/46
+09 | Καππαδοκία | 43546–43549 | 5/0/29
+10 | καραδοκία | 43550–43554 | 9/0/12
+11 | καρδία | 43555–43595 | 458/0/686
+12 | καρδιογνώστης | 43596–43599 | 6/0/13
+13 | καροῦχα | 43600–43603 | 3/0/8
+14 | καρπάσινος | 43604–43607 | 7/1/15
+15 | Κάρπος | 43608–43612 | 3/0/10
+16 | καρπός | 43613–43639 | 166/4/342
+17 | καρποφορέω | 43640–43650 | 36/0/63
+18 | καρποφόρος | 43651–43654 | 7/0/34
+19 | καρτερέω | 43655–43658 | 32/0/47
+20 | [ἀπὸ] Καρυώτου | 43659–43662 | 3/0/0
+VALIDAÇÕES ESTÁTICAS: módulo novo lexicons/bdag-part-0186.js blob 0cf80c4fb7236a79792bc7d852d680f2ea041a2e; 20 linhas <tr.search-row>, 20 cartões <article.entry-card>, IDs únicos e ordenados entry-bdag-0186-01 a -20, correspondentes 1:1 data-target/id; HTML balanceado por pilha de tags, tradução restituída após remoção de tags, objeto JavaScript serializado/reinterpretado por JSON.parse; 198 hiperlinks explícitos do NT no padrão sintático NA28 e 186 URLs distintas, com capítulo e versículo dentro de limites estáticos de livros. Não supor acessibilidade HTTP real: NÃO TESTADA. Referências indiretas e não-neotestamentárias não foram artificialmente convertidas em URL. Não executados CI nem testes reais DOM/navegador.
+ESCOPO DE ESCRITA: APENAS novo lexicons/bdag-part-0186.js, registro único do módulo após part-0185.js e antes de leh.js em lexicon-modules.json, e acréscimo aditivo deste checkpoint a regras/Rbdag.txt. Não modificar arquivos anteriores, normas transversais, léxicos alheios, scripts, infraestrutura, main ou qualquer outra branch.
+SEGURANÇA OBRIGATÓRIA: um único commit filho de d15c97d19d0abcfd61f846f193fbc911e7d635b3 no ramo chat-gpt-bdag, atualizar a referência com expected_sha=d15c97d19d0abcfd61f846f193fbc911e7d635b3, force=false, imediatamente depois de última leitura HEAD; não abrir PR, fazer merge/rebase, criar branch, nem publicar em main. Confirmar HEAD, diff de 3 arquivos e os blobs após publicação.
+AUDITORIA_CONCLUIDA=NÃO; pendem: revisão semântica e gramático-filológica independente por artigo, verificação de fac-símile/paginação e SHA integral do HTML canônico, testemunhos gregos/hebraicos, siglas e bibliografia, checagem HTTP das URLs, navegação DOM/busca/teclado/popups/acessibilidade/responsividade, CI/regressão funcional global, fichas A–J e integração pelo integrador autorizado com merge confirmado. Sem essas etapas não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONAL APÓS CONFIRMAÇÃO REMOTA: BDAG 3924 → 3944/8287 = 47,59%; restam 4343. OUTROS LÉXICOS: DGP branch chat-gpt-dgp HEAD 581ad921b47e3b0e7f28b279b83ed19e508da68b; total NÃO VERIFICADO por contagem independente. LEH chat-gpt-leh e PEREIRA chat-gpt-pereira retornaram 422; totais NÃO VERIFICADOS. Não confundir incorporação técnica com auditoria concluída.
+================================================================================
