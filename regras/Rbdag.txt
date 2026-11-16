@@ -8884,3 +8884,38 @@ PUBLICAÇÃO PROTEGIDA: criar um único commit filho do HEAD revalidado, compara
 AUDITORIA_CONCLUIDA=NÃO: pendem fac-símile/paginação, SHA dos bytes do HTML, revisão semântica e bibliográfica independente, teste HTTP dos links, DOM/navegador/teclado/foco/popups, CI, regressão global, fichas A–J, integração e merge comprovados.
 PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT REMOTO: BDAG 4064 → 4084/8287 = 49,28%, restam 4203. INCORPORADO não significa AUDITADO.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 194 — 16/11/2026 — 20 ARTIGOS DO HTML CANÔNICO; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE: 81bb5f6aafe51413a2ed30a37c55e1dc95417d5b. Regras relidas diretamente dessa branch: Rbdag 2fbf2e1352e25f3a4d793d2ab01fd511b436280d; Rauditoria 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico BDAG disponível como arquivo indexado da Biblioteca, tamanho informado 30.790.409 bytes, linhas 44790–44920, vinte cabeçalhos independentes. O artigo seguinte é καταχθόνιος (linha 44921), reservado ao lote 195. Bytes integrais do HTML indisponíveis para cálculo de SHA neste ambiente; nenhum SHA da fonte alegado.
+VERBETES AUTÔNOMOS, NA ORDEM: 01 κατασφραγίζω; 02 κατάσχεσις, εως, ἡ; 03 κατάσχωμεν; 04 κατατίθημι; 05 κατατομή, ῆς, ἡ; 06 κατατοξεύω; 07 κατατρέχω; 08 κατατρίβω; 09 καταυγάζω; 10 καταφαγεῖν; 11 καταφέρω; 12 καταφεύγω; 13 καταφθείρω; 14 καταφθορά, ᾶς, ἡ; 15 καταφιλέω; 16 καταφρονέω; 17 καταφρονητής, οῦ, ὁ; 18 καταφωνέω; 19 καταχαίρω; 20 καταχέω.
+CONTROLE EDITORIAL: tradução integral da prosa lexicográfica dos vinte artigos, preservadas todas as categorias semânticas, variantes, hipóteses, paradigmas, siglas, bibliografia, testemunhos, referências, sequências gregas e valores numéricos. κατασφραγίζω–καταχέω. As remissões κατάσχωμεν → κατέχω e καταφαγεῖν → κατεσθίω são artigos autônomos breves, sem adição de acepções.
+COLAÇÃO SEQUENCIAL NFC INDIVIDUAL (FONTE HTML → TRADUÇÃO → CARTÃO RESTITUÍDO): 328 sequências gregas, 0 hebraicas, 558 numéricas, preservadas em identidade e ordem nos 20 artigos. Colação formal não substitui revisão semântica independente nem fac-símile.
+CONTAGENS (nº | lema | linhas HTML | grego/hebraico/números | links NA28):
+01 | κατασφραγίζω | 44790–44794 | 10/0/10 | 1
+02 | κατάσχεσις, εως, ἡ | 44795–44805 | 22/0/37 | 3
+03 | κατάσχωμεν | 44806–44810 | 2/0/0 | 0
+04 | κατατίθημι | 44811–44821 | 27/0/40 | 2
+05 | κατατομή, ῆς, ἡ | 44822–44825 | 17/0/15 | 1
+06 | κατατοξεύω | 44826–44829 | 8/0/5 | 1
+07 | κατατρέχω | 44830–44833 | 4/0/17 | 1
+08 | κατατρίβω | 44834–44837 | 6/0/21 | 0
+09 | καταυγάζω | 44838–44841 | 5/0/18 | 1
+10 | καταφαγεῖν | 44842–44846 | 2/0/0 | 0
+11 | καταφέρω | 44847–44861 | 42/0/41 | 2
+12 | καταφεύγω | 44862–44873 | 27/0/30 | 2
+13 | καταφθείρω | 44874–44884 | 36/0/62 | 2
+14 | καταφθορά, ᾶς, ἡ | 44885–44888 | 12/0/20 | 0
+15 | καταφιλέω | 44889–44893 | 12/0/69 | 5
+16 | καταφρονέω | 44894–44904 | 59/0/110 | 10
+17 | καταφρονητής, οῦ, ὁ | 44905–44908 | 4/0/23 | 1
+18 | καταφωνέω | 44909–44912 | 4/0/2 | 1
+19 | καταχαίρω | 44913–44916 | 6/0/8 | 0
+20 | καταχέω | 44917–44920 | 23/0/30 | 2
+TESTES ESTÁTICOS: módulo JavaScript parseado com JSON.parse; HTML verificado por pilha de tags; 20 search-row e 20 entry-card; IDs entry-bdag-0194-01 a -20 únicos; data-target pareado 1:1; restauração textual dos cartões conferida; 35 links NA28 para referências explícitas do NT (35 URLs distintas), esquema e limites de livros, capítulos e versículos validados estaticamente. Não realizados testes HTTP, DOM de navegador, acessibilidade, CI ou regressão global.
+ALTERAÇÃO RESTRITA: lexicons/bdag-part-0194.js novo; lexicon-modules.json recebe exclusivamente registro após part-0193 e antes de leh.js, sem alteração da ordem anterior; regras/Rbdag.txt recebe este apêndice; bdag.js e bibliographicTerms, outros léxicos, arquivos compartilhados e demais branches não alterados.
+PUBLICAÇÃO SEGURA: único commit descendente do HEAD verificado, update_ref apenas chat-gpt-bdag com expected_sha=81bb5f6aafe51413a2ed30a37c55e1dc95417d5b, force=false; sem PR, merge, rebase, branch auxiliar ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: faltam fac-símile e paginação, hash SHA da fonte original, revisão individual semântica/filológica independente, conferência exegética dos testemunhos, HTTP dos links, DOM/teclado/popups/acessibilidade/responsividade, CI e regressão global, fichas A–J, integração pela rotina própria com merge confirmado. Não incrementar total_auditoria_concluida.
+PROGRESSO SUJEITO À VERIFICAÇÃO DO COMMIT E DOS BLOBS REMOTOS: BDAG 4084 → 4104/8287 = 49,52%; 4183 restantes.
+================================================================================
