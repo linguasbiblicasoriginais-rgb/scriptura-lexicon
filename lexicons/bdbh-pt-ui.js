@@ -51,17 +51,17 @@
           +' data-meanings="'+encode(lexicalTip)+'" lang="he" dir="rtl">'
           +label+'</a>';
       }
-      const match=/^(.+?) (\d+)(?::(\d+))?$/.exec(ref);
+      const match=/^(.+?) (\d+)(?::(\d+)(?:-(\d+))?)?$/.exec(ref);
       if(!match||!books.has(match[1])){
         throw Error("BDB-H/PT: referência sem mapeamento certificado: "+ref);
       }
-      const book=books.get(match[1]),chapter=Number(match[2]),verse=match[3]?Number(match[3]):null;
-      if(!Number.isSafeInteger(chapter)||chapter<1||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))){
+      const book=books.get(match[1]),chapter=Number(match[2]),verse=match[3]?Number(match[3]):null,verseEnd=match[4]?Number(match[4]):null;
+      if(!Number.isSafeInteger(chapter)||chapter<1||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))||(verseEnd!==null&&(!Number.isSafeInteger(verseEnd)||verseEnd<verse))){
         throw Error("BDB-H/PT: capítulo/versículo inválido: "+ref);
       }
-      const subdivision=verse===null?"":(originalLabel.match(/\d+([a-d])$/i)?.[1]||"");
-      const readable=book.abbr+" "+chapter+(verse===null?"":"."+verse+subdivision);
-      const full=book.full+", capítulo "+chapter+(verse===null?"":", versículo "+verse+(subdivision?" (parte "+subdivision+")":""));
+      const subdivision=verse===null?"":(originalLabel.match(/\d+([a-d]|ff?)$/i)?.[1]||"");
+      const readable=book.abbr+" "+chapter+(verse===null?"":"."+verse+subdivision+(verseEnd===null?"":"–"+verseEnd));
+      const full=book.full+", capítulo "+chapter+(verse===null?"":verseEnd!==null?", versículos "+verse+" a "+verseEnd:", versículo "+verse+(subdivision?(subdivision==="f"?" e seguinte":subdivision==="ff"?" e seguintes":" (parte "+subdivision+")"):""));
       const note=book.apocryphal
         ? ". A passagem é aberta no leitor da Septuaginta, não na tradução de Kahana citada na fonte BDB."
         : ". Ativar para abrir a passagem no leitor hebraico UXLC do Scriptura Lexicon.";
