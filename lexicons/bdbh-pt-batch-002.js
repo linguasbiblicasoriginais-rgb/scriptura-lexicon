@@ -709,6 +709,186 @@ window.ScripturaBDBHpt.batch002={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinal-00147.md"
+    },
+    {
+      "ordinal": 148,
+      "headword": "אַדָּן",
+      "ref": "BDB, אַדָּן",
+      "preview": "Nome próprio de localidade na Babilônia; Esdras 2.59 e remissão a Querube.",
+      "html": "† <big><span dir=\"rtl\">אַדָּן</span></big>  <strong>nome próprio de lugar</strong> na Babilônia <a data-ref=\"Ezra 2:59\" href=\"/Ezra.2.59\">Ezr 2:59</a> (ver <a data-ref=\"BDB, כְּרוּב\" href=\"/BDB,_כְּרוּב\", dir=\"rtl\">כְּרוּב</a>; nome próprio.)",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 149,
+      "headword": "אַדּוֹן",
+      "ref": "BDB, אַדּוֹן",
+      "preview": "Nome da mesma localidade babilônica; Neemias 7.61.",
+      "html": "† <big><span dir=\"rtl\">אַדּוֹן</span></big>  <em>idem</em>: a mesma localidade mencionada no verbete precedente <a data-ref=\"Nehemiah 7:60\" href=\"/Nehemiah.7.60\">Ne 7:61</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 150,
+      "headword": "אֲדֹנִי־בֶ֫זֶק",
+      "ref": "BDB, אֲדֹנִי־בֶ֫זֶק",
+      "preview": "Adoni-Bezeque: nome ou título do rei cananeu de Bezeque; nota crítica.",
+      "html": "† <big><span dir=\"rtl\">אֲדֹנִי־בֶ֫זֶק</span></big>  <strong>nome próprio masculino</strong> (ou título), rei da cidade cananeia de Bezeque <a data-ref=\"Judges 1:7\" href=\"/Judges.1.7\">Ju 1:7</a>; sem maqqef nos versículos <a data-ref=\"Judges 1:5\" href=\"/Judges.1.5\">5</a>, <a data-ref=\"Judges 1:6\" href=\"/Judges.1.6\">6</a>. * Provavelmente se deve ler <span dir=\"rtl\">א׳־צֶ֫דֶק</span>; ver GFM sobre <a data-ref=\"Judges 1:5\" href=\"/Judges.1.5\">Ju 1:5</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 151,
+      "headword": "אֲדֹנִי־צֶ֫דֶק",
+      "ref": "BDB, אֲדֹנִי־צֶ֫דֶק",
+      "preview": "Adoni-Zedeque: rei cananeu de Jerusalém; interpretações do nome.",
+      "html": "† <big><span dir=\"rtl\">אֲדֹנִי־צֶ֫דֶק</span></big>  <strong>nome próprio masculino</strong>, rei cananeu de Jerusalém <a data-ref=\"Joshua 10:1\" href=\"/Joshua.10.1\">Jos 10:1</a>, <a data-ref=\"Joshua 10:3\" href=\"/Joshua.10.3\">3</a> <strong>(</strong><em>Senhor da justiça; meu Senhor é justo</em>, ou <em>meu Senhor é Ṣidiq</em>—nome divino—; cf. <span dir=\"rtl\">מַלְכִּי צֶדֶק</span>, <span dir=\"rtl\">אֲדֹנִיָּהוּ</span>, fenício <span dir=\"rtl\">אדנבעל</span> etc.<strong>)</strong>",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 152,
+      "headword": "אֲדֹנִיָּ֫הוּ",
+      "ref": "BDB, אֲדֹנִיָּ֫הוּ",
+      "preview": "Adonias: filho de Davi, um levita e um chefe do povo; variantes onomásticas.",
+      "html": "<big><span dir=\"rtl\">אֲדֹנִיָּ֫הוּ</span></big>  <span dir=\"rtl\">(אֲדֹנִיָּה)</span> <strong>nome próprio masculino (</strong><em>meu Senhor é YHWH</em>; cf. fenício <span dir=\"rtl\">אדנאשמן</span>, <span dir=\"rtl\">אדנבעל</span>, <span dir=\"rtl\">אדנשמש</span> etc.; em assírio <em>Adunibaʾal</em> Schr<sup>KB II, 172</sup><strong>) </strong><br><strong>1.</strong>  quarto filho de Davi <a data-ref=\"I Kings 1:8\" href=\"/I_Kings.1.8\">1 K 1:8</a> + 11 ocorrências, <a data-ref=\"I Kings 2:13\" href=\"/I_Kings.2.13\">2:13</a> + 5 ocorrências (= <span dir=\"rtl\">אֲדֹנִיָּה</span> <a data-ref=\"II Samuel 3:4\" href=\"/II_Samuel.3.4\">2 S 3:4</a> <a data-ref=\"I Kings 1:5\" href=\"/I_Kings.1.5\">1 K 1:5</a>, <a data-ref=\"I Kings 1:7\" href=\"/I_Kings.1.7\">7</a>, <a data-ref=\"I Kings 1:18\" href=\"/I_Kings.1.18\">18</a>; <a data-ref=\"I Kings 2:28\" href=\"/I_Kings.2.28\">2:28</a> <a data-ref=\"I Chronicles 3:2\" href=\"/I_Chronicles.3.2\">1 Ch 3:2</a>).<br><strong>2.</strong>  um levita †<a data-ref=\"II Chronicles 17:8\" href=\"/II_Chronicles.17.8\">2 Ch 17:8</a>.<br><strong>3.</strong>  um chefe do povo †<a data-ref=\"Nehemiah 10:17\" href=\"/Nehemiah.10.17\">Ne 10:17</a> (= <span dir=\"rtl\">אֲדֹנִיקָם</span> <a data-ref=\"Numbers 7:18\" href=\"/Numbers.7.18\">7:18</a> <a data-ref=\"Ezra 2:13\" href=\"/Ezra.2.13\">Ezr 2:13</a> cf. <a data-ref=\"Ezra 8:13\" href=\"/Ezra.8.13\">8:13</a>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 153,
+      "headword": "אֲדֹנִיקָם",
+      "ref": "BDB, אֲדֹנִיקָם",
+      "preview": "Adonicão: chefe de uma família; significado do nome e referências.",
+      "html": "† <big><span dir=\"rtl\">אֲדֹנִיקָם</span></big>  <strong>nome próprio masculino (</strong><em>meu Senhor se levantou</em><strong>)</strong>, chefe de uma família <a data-ref=\"Ezra 2:13\" href=\"/Ezra.2.13\">Ezr 2:13</a>; <a data-ref=\"Ezra 8:13\" href=\"/Ezra.8.13\">8:13</a> <a data-ref=\"Nehemiah 7:18\" href=\"/Nehemiah.7.18\">Ne 7:18</a> (<span dir=\"rtl\">אֲדֹנִיָּהוּ</span> <a data-ref=\"Nehemiah 10:17\" href=\"/Nehemiah.10.17\">Ne 10:17</a>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 154,
+      "headword": "אֲדֹנִירָם",
+      "ref": "BDB, אֲדֹנִירָם",
+      "preview": "Adonirão: oficial de Salomão; atestação e testemunhos textuais.",
+      "html": "† <big><span dir=\"rtl\">אֲדֹנִירָם</span></big>  <strong>nome próprio masculino (</strong><em>meu Senhor é exaltado</em><strong>)</strong>, funcionário de Salomão <a data-ref=\"I Kings 4:6\" href=\"/I_Kings.4.6\">1 K 4:6</a>; <a data-ref=\"I Kings 5:28\" href=\"/I_Kings.5.28\">5:28</a>; assim também <a data-ref=\"II Samuel 20:24\" href=\"/II_Samuel.20.24\">2 S 20:24</a> <a data-ref=\"I Kings 12:18\" href=\"/I_Kings.12.18\">1 K 12:18</a> 𝔊 We Dr<sup>Sm</sup>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 155,
+      "headword": "אֲדֹרָם",
+      "ref": "BDB, אֲדֹרָם",
+      "preview": "Adorão: variante contraída ou corrompida; oficial de Davi e Roboão.",
+      "html": "† <big><span dir=\"rtl\">אֲדֹרָם</span></big>  <strong>(</strong>forma contraída ou corrompida; cf. o verbete anterior<strong>)</strong> o mesmo oficial, sob Davi <a data-ref=\"II Samuel 20:24\" href=\"/II_Samuel.20.24\">2 S 20:24</a>, e sob Roboão <a data-ref=\"I Kings 12:18\" href=\"/I_Kings.12.18\">1 K 12:18</a> (= <span dir=\"rtl\">הֲדֹרָם</span> <a data-ref=\"II Chronicles 10:18\" href=\"/II_Chronicles.10.18\">2 Ch 10:18</a>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 156,
+      "headword": "אָדַר",
+      "ref": "BDB, אָדַר",
+      "preview": "Verbo poético: ser amplo e elevado; Nifal e Hifil, com formas e exemplos.",
+      "html": "† <big><big>[<span dir=\"rtl\">אָדַר</span>]</big></big>  <strong>verbo</strong> (poético): <strong>ser amplo, grande</strong> e, por extensão, <strong>elevado, nobre (</strong>talvez assírio <em>adâru</em> Dl<sup>W</sup><strong>)</strong>—<br><strong>Nifal.</strong> particípio <em>majestoso, glorioso</em>, referido a <span dir=\"rtl\">י׳</span>, <span dir=\"rtl\">נֶאְדָּר</span> <a data-ref=\"Exodus 15:11\" href=\"/Exodus.15.11\">Ex 15:11</a>; no estado construto <span dir=\"rtl\">נֶאְדָּרִי</span> versículo <a data-ref=\"Exodus 15:6\" href=\"/Exodus.15.6\">6</a> (ver Di);<br><strong>Hifil.</strong> imperfeito <span dir=\"rtl\">יַאְדִּיר</span> <em>tornar glorioso</em> o ensinamento <a data-ref=\"Isaiah 42:21\" href=\"/Isaiah.42.21\">Is 42:21</a> (<span dir=\"rtl\">י׳</span> como sujeito)",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 157,
+      "headword": "אֶ֫דֶר",
+      "ref": "BDB, אֶ֫דֶר",
+      "preview": "Substantivo masculino: glória, magnificência; manto, capa; crítica textual.",
+      "html": "† <big><span dir=\"rtl\">אֶ֫דֶר</span></big>  <strong>subst.</strong> [<strong>masc.</strong>]<br><strong>1.</strong>  <strong> glória, magnificência</strong> (assírio <em>aduru, adiru</em>) ironicamente, do preço do pastor (simbólico) <a data-ref=\"Zechariah 11:13\" href=\"/Zechariah.11.13\">Zc 11:13</a><br><strong>2.</strong>  <strong> manto, capa</strong> (por ser <em>amplo</em>) <a data-ref=\"Micah 2:8\" href=\"/Micah.2.8\">Mi 2:8</a> (‖ <span dir=\"rtl\">שַׂלְמָה</span>), mas leia-se <span dir=\"rtl\">אדרת</span> (<span dir=\"rtl\">ת</span> perdido antes do <span dir=\"rtl\">ת</span> seguinte), assim WRS<sup>Proph 247</sup>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 158,
+      "headword": "אֲדוֹרַ֫יִם",
+      "ref": "BDB, אֲדוֹרַ֫יִם",
+      "preview": "Adoraim: cidade de Judá; hipótese etimológica e identificação geográfica.",
+      "html": "† <big><span dir=\"rtl\">אֲדוֹרַ֫יִם</span></big>  <strong>nome próprio de lugar</strong> (<em>duas colinas</em>?) cidade de Judá <a data-ref=\"II Chronicles 11:9\" href=\"/II_Chronicles.11.9\">2 Ch 11:9</a> (cf. Ἀδωρα, Δωρα, Josefo,<sup>Ant. viii, 10, 1, xiv, 5, 3</sup>); atualmente <em>Dûra</em>, a oeste de Hebrom, Rob<sup>BR II, 215</sup>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
+    },
+    {
+      "ordinal": 159,
+      "headword": "אַדָּר",
+      "ref": "BDB, אַדָּר",
+      "preview": "Adar: personagem benjamita e cidade de Judá; hipótese de transmissão textual.",
+      "html": "† <big><span dir=\"rtl\">אַדָּר</span></big>  <strong>nome próprio masculino</strong> (<em>nobre</em>?).<br><strong>1.</strong>  filho de Bela, neto de Benjamim <a data-ref=\"I Chronicles 8:3\" href=\"/I_Chronicles.8.3\">1 Ch 8:3</a> (talvez erro de transmissão; cf. Be; em lugar de <span dir=\"rtl\">אַרְדְּ</span> veja o verbete <a data-ref=\"Numbers 26:40\" href=\"/Numbers.26.40\">Nu 26:40</a> <a data-ref=\"Genesis 46:21\" href=\"/Genesis.46.21\">Gn 46:21</a>).<br><strong>2.</strong>  cidade de Judá <a data-ref=\"Joshua 15:3\" href=\"/Joshua.15.3\">Jos 15:3</a> <span dir=\"rtl\">(אַדָּ֫רָה)</span>; = <span dir=\"rtl\">חֲצַר אַדָּר</span> (veja o verbete) <a data-ref=\"Numbers 34:4\" href=\"/Numbers.34.4\">Nu 34:4</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "5a1fce0c1a900ce1aa8cbfda1061b059f4ab95f6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00148-00159.md"
     }
   ]
 };
@@ -765,6 +945,22 @@ function overlayBdbhTranslations(mod, translated){
       if(patch.includes("Êx 20.21")||patch.includes("EXO.20.21")||patch.includes("versículo 21"))
         throw Error("BDB-H/PT: remissão Êx 20.24 não normalizada");
       portuguese=portuguese.replace(match[0],patch);
+    }
+    // Divergências da indexação Sefaria: o data-ref documental permanece intacto;
+    // apenas rótulo, tooltip e destino público refletem a citação impressa.
+    if(item.ordinal===149||item.ordinal===152){
+      const sourceRef=item.ordinal===149?"Nehemiah 7:60":"Numbers 7:18";
+      const oldTarget=item.ordinal===149?"#escrituras/UXLC/NEH.7.60":"#escrituras/UXLC/NUM.7.18";
+      const newTarget=item.ordinal===149?"#escrituras/UXLC/NEH.7.61":"#escrituras/UXLC/NEH.7.18";
+      const oldLabel=item.ordinal===149?"Ne 7.60":"Nm 7.18";
+      const newLabel=item.ordinal===149?"Ne 7.61":"Ne 7.18";
+      const a=portuguese.match(new RegExp('<a\\b[^>]*data-ref="'+sourceRef+'"[^>]*>[\\s\\S]*?<\\/a>'));
+      if(!a||!a[0].includes(oldTarget))throw Error("BDB-H/PT: divergência de referência não localizável: "+item.ordinal);
+      let target=a[0].replaceAll(oldTarget,newTarget).replaceAll(oldLabel,newLabel);
+      if(item.ordinal===149)target=target.replaceAll("versículo 60","versículo 61");
+      else target=target.replaceAll("Números, capítulo 7","Neemias, capítulo 7");
+      if(target.includes(oldTarget)||target.includes(oldLabel))throw Error("BDB-H/PT: remissão não normalizada");
+      portuguese=portuguese.replace(a[0],target);
     }
     const ptSection='<section class="entry-section bdbh-pt-section" lang="pt-BR"'
       +' data-bdbh-ui="2026-11-15" data-bdbh-pt-state="'+status+'">'
