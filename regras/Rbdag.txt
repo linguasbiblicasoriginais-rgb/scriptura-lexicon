@@ -9222,3 +9222,37 @@ ESCOPO PROTEGIDO: criar somente lexicons/bdag-part-0203.js, registrar uma única
 AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto integral e cotejo de fac-símile/paginação, revisão independente filológica, semântica e bibliográfica, exame crítico de variantes/testemunhos, HTTP, DOM, CI, regressão global, fichas A–J e integração confirmada. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE HEAD/COMMIT/BLOBS NO GITHUB: BDAG 4264 → 4284/8287 = 51,70%; 4003 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 204 — 16/11/2026 — 20 ARTIGOS PREPARADOS PARA PUBLICAÇÃO ATÔMICA; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: f8e1316f9375885b7ea3a03a2a1afe99b68d8098. Rbdag relido, blob c72bbc80b83ee8f691ca01057fababff7216e7f1; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico do BDAG na Biblioteca, arquivo "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", versão consultada 1, tamanho informado 30.790.409 bytes, linhas 46191–46303; 20 artigos autônomos desde κλῆσις, εως, ἡ até Κοδράτος, ου, ὁ. O 21º, κοιλία, ας, ἡ, inicia na linha 46304 e pertence ao lote 205. Não foi possível obter o SHA bruto integral nem fac-símile da fonte.
+TRADUÇÃO INTEGRAL: artigos vertidos para português brasileiro, conservando morfologia, paradigmas, remissões, distinções de acepção, divergências, comentários de variantes, autoria de testemunhos, bibliografia e referências. Em κλῆσις distinguem-se o chamamento divino e a condição ocupada; em κλίνη distinguem-se leito, maca e divã de refeição; κλίνω conserva as cinco categorias semânticas; Κλωπᾶς conserva a cautela contra identificação segura e a origem semítica apenas provável; κοδράντης conserva o valor monetário e a documentação. Colação formal realizada por artigo, não equivalente à auditoria semântica e filológica independente.
+COLAÇÃO INDIVIDUAL NFC HTML → TRADUÇÃO → TEXTO RECUPERADO DO CARTÃO: 393 sequências gregas, 1 hebraica e 524 numéricas, identidade literal e ordem conservadas por artigo, com zero divergências residuais.
+ARTIGOS (nº | lema | linhas HTML | sequências gregas/hebraicas/numéricas):
+01 | κλῆσις, εως, ἡ | 46191–46201 | 106/0/83
+02 | κλητός, ή, όν | 46202–46205 | 46/0/51
+03 | κλίβανος, ου, ὁ | 46206–46209 | 11/0/24
+04 | κλίμα, ατος, τό | 46210–46213 | 24/0/35
+05 | κλῖμαξ, ακος, ἡ | 46214–46217 | 5/0/2
+06 | κλινάριον, ου, τό | 46218–46222 | 6/0/22
+07 | κλίνη, ης, ἡ | 46223–46233 | 22/0/69
+08 | κλινίδιον, ου, τό | 46234–46238 | 6/0/23
+09 | κλίνω | 46239–46258 | 51/0/50
+10 | κλισία, ας, ἡ | 46259–46262 | 8/0/17
+11 | κλοπή, ῆς, ἡ | 46263–46266 | 4/0/16
+12 | κλύδων, ωνος, ὁ | 46267–46270 | 9/0/25
+13 | κλυδωνίζομαι | 46271–46274 | 16/0/12
+14 | κλώθω | 46275–46278 | 4/0/7
+15 | Κλωπᾶς, ᾶ, ὁ | 46279–46282 | 10/1/17
+16 | κνήθω | 46283–46286 | 19/0/15
+17 | Κνίδος, ου, ἡ | 46287–46290 | 7/0/11
+18 | κνῖσα, ης, ἡ | 46291–46294 | 9/0/8
+19 | κοδράντης, ου, ὁ | 46295–46298 | 26/0/22
+20 | Κοδράτος, ου, ὁ | 46299–46303 | 4/0/15
+TESTES ESTÁTICOS: estrutura JS/JSON reconstruível, HTML balanceado por pilha, 20 search-row e 20 entry-card, IDs entry-bdag-0204-01 a -20 únicos e alinhados por data-target 1:1; colação de tokens do texto recuperado dos cartões; 53 links NA28 com sintaxe válida (51 URLs distintas). Não foram executados testes HTTP, testes reais de navegador/DOM, acessibilidade, teclado/foco/popups, CI ou regressão global.
+ESCOPO PROTEGIDO: criar exclusivamente lexicons/bdag-part-0204.js, inserir uma única linha imediatamente após part-0203 em lexicon-modules.json e apensar este checkpoint a regras/Rbdag.txt, preservando normas e histórico anteriores. Exatamente um commit com parent igual ao HEAD remoto revalidado, update_ref com expected_sha igual ao HEAD e force=false. Sem PR, merge/rebase, branch auxiliar ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: SHA/fac-símile e paginação impressa, revisão filológica, semântica e bibliográfica independente, exame crítico de variantes/testemunhos, testes HTTP, navegador, CI, regressão global, fichas A–J e integração confirmada continuam pendentes. Não incrementar total_auditoria_concluida.
+PROGRESSO APENAS APÓS CONFIRMAÇÃO DE SHA/COMMIT/BLOBS REMOTOS: BDAG 4284 → 4304/8287 = 51,94%; restam 3983 artigos.
+================================================================================
