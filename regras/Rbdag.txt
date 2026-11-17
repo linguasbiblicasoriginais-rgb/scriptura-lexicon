@@ -9528,3 +9528,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0212.js, inserir UMA linha no lex
 AUDITORIA_CONCLUIDA=NÃO; permanecem pendentes SHA bruto/fac-símile/páginas impressas, colação filológica e bibliográfica independente e fichas A–J, conferência crítica de variantes e testemunhos, testes HTTP e DOM reais, CI, regressão global, integração final comprovada. NÃO incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO A HEAD/COMMIT/BLOBS CONFIRMADOS REMOTAMENTE: BDAG 4444 → 4464/8287 = 53,87%; faltam 3823.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 213 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: 1c25ee1a5886dae11f6ec3b08ed606c745e6975b. Releitura das normas: Rbdag blob 84ac2b2bfa81f656da5be7fc5e03ba9b3a0c0373; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca v. 1 (tamanho informado 30.790.409 bytes), linhas 47760–47924. Delimitados 20 artigos autônomos de κυνάριον, ου, τό a κυρόω, incluindo duas entradas homógrafas independentes κύριος, ία, ιον e κύριος, ου, ὁ. O 21º, κυσί, inicia na linha 47925, não incluído. Não usado PDF; SHA bruto integral da fonte, fac-símile e página impressa ainda não verificados.
+TRADUÇÃO INTEGRAL EM PORTUGUÊS BRASILEIRO: preservados paradigmas, formas gregas, hebraicas e aramaicas quando presentes, variantes, remissões, acepções/subacepções, regências, bibliografia, testemunhos, referências bíblicas e extrabíblicas. κυνάριον: distinção entre diminutivo e sentido não diminutivo; κυνηγία: duas restaurações alternativas e suas interpretações; Κυρήνιος: variantes onomásticas sem corrigir a fonte; κυρία: interpretação literal como senhora versus figurativa como congregação; κυριακός: registro da interpretação domingo de Rv 1:10 como afirmação da fonte e usos do adjetivo; κύριος adjetivo e substantivo mantidos como artigos separados. κύριος, ου, ὁ: distinções históricas e semânticas completas de propriedade, autoridade humana, título de Deus, governantes divinizados, título de Jesus, fórmulas paulinas, dúvidas de referente, seres transcendentes e bibliografia; 507 sequências gregas, 5 hebraicas, 1.361 numéricas desse artigo. κυριότης: natureza senhorial, domínio e dominações angélicas, com alternativas preservadas. Não realizar inferências interpretativas ocultas.
+COLAÇÃO INDIVIDUAL NFC: HTML → tradução → texto recuperado do cartão: 838 sequências gregas, 6 hebraicas, 2.032 numéricas preservadas, em ordem, sem divergências formais. Durante a colação foram detectados e corrigidos dois ordinais bibliográficos em inglês (6th, 8th) e a forma grega κεῖμαι, antes da geração final. Colação de tokens não substitui auditoria semântica e bibliográfica independente.
+RELAÇÃO DOS 20 ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κυνάριον, ου, τό | 47760–47763 | 21/0/31
+02 | κυνηγέσιον, ου, τό | 47764–47767 | 3/0/6
+03 | κυνηγέω | 47768–47771 | 7/0/15
+04 | κυνηγία | 47772–47775 | 11/0/9
+05 | κυνήγιον, ου, τό | 47776–47779 | 6/0/4
+06 | κυοφορέω | 47780–47783 | 20/0/20
+07 | Κύπριος, ου, ὁ | 47784–47787 | 11/0/11
+08 | Κύπρος, ου, ἡ | 47788–47791 | 4/0/40
+09 | κύπτω | 47792–47795 | 4/0/23
+10 | Κυρεῖνος | 47796–47799 | 2/0/2
+11 | Κυρηναῖος, ου, ὁ | 47800–47803 | 13/0/44
+12 | Κυρήνη, ης, ἡ | 47804–47807 | 10/0/27
+13 | Κυρήνιος | 47808–47812 | 8/0/43
+14 | κυρία, ας, ἡ | 47813–47823 | 19/0/121
+15 | κυριακός, ή, όν | 47824–47828 | 47/0/72
+16 | κυριεύω | 47829–47839 | 56/0/92
+17 | κύριος, ία, ιον | 47840–47844 | 12/0/19
+18 | κύριος, ου, ὁ | 47845–47898 | 507/5/1361
+19 | κυριότης, ητος, ἡ | 47899–47913 | 59/1/44
+20 | κυρόω | 47914–47924 | 18/0/48
+CONTROLES ESTÁTICOS: módulo JS BDAG_PART_0213 com propriedades JSON reconstruíveis source, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card, IDs únicos entry-bdag-0213-01 a -20, data-target e cartão associados 1:1; HTML balanceado; texto do cartão recotejado; escapes de atributos. Links NA28: 259 ocorrências, 252 URLs distintas, teste estático de sintaxe e capítulo/versículo. Não realizado HTTP real nem testes em navegador, DOM, acessibilidade, teclado/foco, popups, CI ou regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0213.js, uma inclusão em lexicon-modules.json após part-0212 antes de leh.js, apensar somente este checkpoint a regras/Rbdag.txt. Preservar bdag.js e bibliographicTerms, Rauditoria, todos os outros léxicos, infraestrutura e branches. Publicar UM único commit filho do HEAD revalidado com expected_sha=1c25ee1a5886dae11f6ec3b08ed606c745e6975b, force=false; nenhum PR, merge, rebase, branch auxiliar ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto da fonte, fac-símile/páginas impressas, revisão filológica e bibliográfica independente por artigo e fichas A–J, validação externa das variantes/testemunhos, testes HTTP e DOM reais, CI e regressão global, integração final comprovada. Não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO REMOTA DE COMMIT/HEAD/BLOBS: BDAG 4464 → 4484/8287 = 54,11%; faltam 3803.
+================================================================================
