@@ -9290,3 +9290,37 @@ ESCOPO PROTEGIDO: criar somente lexicons/bdag-part-0205.js, inserir uma única l
 AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto integral do HTML, fac-símile/paginação impressa, auditoria filológica e bibliográfica independente, exame crítico das variantes/testemunhos, testes reais de HTTP/DOM, CI, regressão global, fichas A–J e integração pelo responsável. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE HEAD/COMMIT/BLOBS NO GITHUB: BDAG 4304 → 4324/8287 = 52,18%; restantes 3963.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 206 — 16/11/2026 — 20 ARTIGOS INCORPORADOS, COLAÇÃO ESTÁTICA; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE: 1c3b9575a6bdc477009d5cfb27597992a7097281. Rbdag relido, blob 6f8a6f09b7e811e2cab2fc6298393ad2c36b836a; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico do BDAG, "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", versão 1 na Biblioteca, tamanho informado 30.790.409 bytes; linhas HTML 46568–46751. Primeiro lema κολαβρίζω; vigésimo κολωνία, ας, ἡ; próximo artigo, fora deste lote: κομάω, linha 46752. PDF não usado. SHA bruto do HTML integral, fac-símile e paginação impressa não obtidos.
+TRADUÇÃO: todos os 20 artigos autônomos traduzidos integralmente ao português brasileiro, incluindo paradigmas, acepções e subacepções, abreviaturas relevantes, variantes, referências bíblicas e extrabíblicas, bibliografia, remissões e hipóteses identificadas como tais. Em κολάζω e κόλασις conservadas distinções entre punição geral e escatológica, sem reduzir o uso a ação apenas disciplinar; em κολαφίζω conservadas todas as hipóteses diagnósticas e a advertência quanto à escassez de dados; em κολλάω conservadas construções e regências; em κολλούριον/κολλύριον e Κολασσαεύς/Κολοσσαεύς conservadas variantes; em κόλπος conservados sentidos seio/colo, dobra da roupa e baía.
+COLAÇÃO INDIVIDUAL NFC HTML→TRADUÇÃO→TEXTO RECUPERADO DOS CARTÕES: identidade literal e ordem verificadas em cada artigo, para 449 sequências gregas, 0 hebraicas (ausência constatada) e 913 sequências numéricas, 0 diferenças. Não confundir controle lexical formal com auditoria filológica independente.
+ARTIGOS (nº | lema | linhas HTML | sequências grego/hebraico/números):
+01 | κολαβρίζω | 46568–46571 | 3/0/6
+02 | κολάζω | 46572–46575 | 30/0/104
+03 | κολακεία, ας, ἡ | 46576–46579 | 11/0/21
+04 | κολακεύω | 46580–46584 | 14/0/21
+05 | κόλασις, εως, ἡ | 46585–46595 | 99/0/142
+06 | Κολασσαεύς | 46596–46599 | 7/0/5
+07 | Κολασσαί | 46600–46604 | 2/0/0
+08 | κολαφίζω | 46605–46637 | 16/0/73
+09 | κολλάω | 46638–46672 | 117/0/173
+10 | κολλούριον, ου, τό | 46673–46676 | 6/0/58
+11 | κολλυβιστής, οῦ, ὁ | 46677–46680 | 5/0/15
+12 | κολλύριον | 46681–46685 | 2/0/0
+13 | κολοβός, όν | 46686–46697 | 13/0/33
+14 | κολοβόω | 46698–46708 | 19/0/41
+15 | Κολοσσαεύς, έως | 46709–46712 | 7/0/5
+16 | Κολοσσαί, ῶν, αἱ | 46713–46717 | 6/0/26
+17 | κόλπος, ου, ὁ | 46718–46732 | 75/0/143
+18 | κολυμβάω | 46733–46743 | 4/0/14
+19 | κολυμβήθρα, ας, ἡ | 46744–46747 | 9/0/28
+20 | κολωνία, ας, ἡ | 46748–46751 | 4/0/5
+TESTES ESTÁTICOS: módulo JS com objeto JSON reconstruível, 20 search-row e 20 entry-card pareados 1:1, IDs entry-bdag-0206-01 a -20 exclusivos, HTML balanceado, colação do texto recuperado do cartão; 40 links NA28 com sintaxe de URL válida, 36 destinos distintos, verificação estática de limites livro/capítulo/versículo. Sem prova HTTP dos URLs, sem testes funcionais em navegador/DOM, teclado/foco/popups/acessibilidade, CI ou regressão global.
+ESCOPO PROTEGIDO: criar exclusivamente lexicons/bdag-part-0206.js, acrescentar somente a linha lexicons/bdag-part-0206.js imediatamente depois de part-0205 em lexicon-modules.json, e acrescentar apenas este checkpoint a regras/Rbdag.txt. Preservar íntegros outros léxicos, bdag.js, bibliographicTerms, scripts, Rauditoria e demais branches. Publicação de exatamente um commit filho do HEAD revalidado, ref update expected_sha=1c3b9575a6bdc477009d5cfb27597992a7097281, force=false; sem PR, merge/rebase ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA de fonte integral e fac-símile/pagina impressa, auditoria editorial independente A–J por artigo, exame crítico de variantes/testemunhos, URLs reais HTTP, DOM/navegador/teclado, CI, regressão global e integração pelo responsável. Não aumentar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE COMMIT, HEAD E BLOBS REMOTOS: BDAG 4324 → 4344/8287 = 52,42%; restantes 3943.
+================================================================================
