@@ -9799,3 +9799,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0220.js, inserir uma única entra
 AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto da fonte, fac-símile e páginas impressas, colação semântica e bibliográfica independente, fichas A–J por artigo, crítica das variantes e testemunhos, HTTP/DOM reais, CI/regressão global e confirmação da integração final. Não incrementar total_auditoria_concluida.
 PROGRESSO SOMENTE APÓS CONFIRMAÇÃO REMOTA: BDAG 4604 → 4624/8287 = 55,80%; faltam 3663.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 221 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO ORIGINAL: dae6abb1868ff0bcc199b749f737aa75c610b066. Normas relidas: regras/Rbdag.txt SHA 3ef878cdf8965556999f1d5d9cba49bdf7008ac0 e regras/Rauditoria.txt SHA 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico do usuário "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 49158–49298; 20 artigos autônomos, de Λουκᾶς, ᾶ, ὁ a Λύστρα. Próximo artigo λύτρον, ου, τό começa na linha 49299 e não foi incluído. Nem PDF nem fontes substitutas utilizados. SHA bruto integral do HTML e fac-símile/páginas impressas não aferidos.
+TRADUÇÃO INTEGRAL PORTUGUESA: preservados paradigmas, formas gregas e hebraicas, variantes, regências, acepções e subacepções, remissões, referências bíblicas e extrabíblicas, títulos bibliográficos originais e graus de incerteza. λούω conserva lavagem comum, purificação ritual e emprego figurado do sangue; λυπέω conserva usos ativos e passivos, ofensa e tristeza; Λυσανίας conserva a distinção historiográfica entre dois personagens e o tratamento condicional da cronologia; λύπη distingue tristeza segundo Deus e tristeza do mundo; Λύδδα conserva o hebraico לוֹד. Referências bibliográficas e discussões concorrentes não resolvidas de maneira editorial.
+COLAÇÃO FORMAL INDIVIDUAL NFC: fonte → tradução → texto extraído de cada cartão: 527 sequências gregas, 1 hebraica e 1028 numéricas, mesma ordem e identidade, sem divergências de tokens. Não equivale a auditoria filológica, semântica ou bibliográfica independente.
+ARTIGOS (nº | lema | linhas HTML | sequências gregas/hebraicas/numéricas):
+01 | Λουκᾶς, ᾶ, ὁ | 49158–49162 | 19/0/86
+02 | Λούκιος, ου, ὁ | 49163–49173 | 6/0/36
+03 | λουτρόν, οῦ, τό | 49174–49178 | 35/0/38
+04 | λούω | 49179–49204 | 114/0/147
+05 | Λύδδα | 49205–49208 | 9/1/30
+06 | Λυδία, ας, ἡ | 49209–49212 | 8/0/31
+07 | Λυκαονία, ας, ἡ | 49213–49216 | 4/0/7
+08 | Λυκαονιστί | 49217–49220 | 1/0/7
+09 | Λυκία, ας, ἡ | 49221–49225 | 3/0/9
+10 | λύκος, ου, ὁ | 49226–49236 | 10/0/62
+11 | λυμαίνω | 49237–49241 | 35/0/44
+12 | λυπέω | 49242–49258 | 89/0/222
+13 | λύπη, ης, ἡ | 49259–49263 | 126/0/145
+14 | λυπηρός, ά, όν | 49264–49274 | 18/0/19
+15 | Λυσανίας, ου, ὁ | 49275–49278 | 10/0/36
+16 | Λυσίας, ου, ὁ | 49279–49282 | 4/0/6
+17 | λύσις, εως, ἡ | 49283–49286 | 8/0/16
+18 | λυσιτελέω | 49287–49290 | 16/0/21
+19 | λυσσάω | 49291–49294 | 4/0/6
+20 | Λύστρα | 49295–49298 | 8/0/60
+CONTROLES ESTÁTICOS: módulo BDAG_PART_0221 com source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0221-01 a -20, correspondência 1:1 dos data-target, HTML equilibrado, caracteres HTML escapados, texto integral de cartões igual ao rascunho português; 70 âncoras NA28, 61 URLs únicas, somente sintaxe dos links aferida. Não executados HTTP, navegador/DOM, busca funcional, navegação por teclado, acessibilidade, CI ou regressão global.
+ESCOPO RESTRITO: adicionar lexicons/bdag-part-0221.js, inserir uma única referência em lexicon-modules.json imediatamente depois de part-0220 e antes de leh.js, apensar este checkpoint em regras/Rbdag.txt. Preservar regras/Rauditoria.txt, lexicons/bdag.js, bibliographicTerms, demais léxicos e infraestrutura. Exatamente um commit, parent=dae6abb1868ff0bcc199b749f737aa75c610b066, update_ref expected_sha=dae6abb1868ff0bcc199b749f737aa75c610b066, force=false, sem PR, merge, deploy ou branch adicional.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto integral da fonte, cotejo facsimilar, revisão filológica/semântica/bibliográfica independente, critérios A–J individualizados, crítica de testemunhos e variantes, HTTP/DOM reais, CI e regressão global, confirmação de integração final. Não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO NOVO HEAD REMOTO: BDAG 4624 → 4644/8287 = 56,04%; 3643 artigos restantes.
+================================================================================
