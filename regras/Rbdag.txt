@@ -9256,3 +9256,37 @@ ESCOPO PROTEGIDO: criar exclusivamente lexicons/bdag-part-0204.js, inserir uma �
 AUDITORIA_CONCLUIDA=NÃO: SHA/fac-símile e paginação impressa, revisão filológica, semântica e bibliográfica independente, exame crítico de variantes/testemunhos, testes HTTP, navegador, CI, regressão global, fichas A–J e integração confirmada continuam pendentes. Não incrementar total_auditoria_concluida.
 PROGRESSO APENAS APÓS CONFIRMAÇÃO DE SHA/COMMIT/BLOBS REMOTOS: BDAG 4284 → 4304/8287 = 51,94%; restam 3983 artigos.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 205 — 16/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE: 8f8be1a87c50987bf0a569ed998c4f107b3fe81f. Rbdag relido, blob 4e6137a51bb4b64bad849c2ffb7428c4d67d3e2b; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico do BDAG na Biblioteca, "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", versão consultada 1, tamanho informado de 30.790.409 bytes, linhas 46304–46567; 20 artigos autônomos de κοιλία, ας, ἡ a κοκκύζω. O próximo artigo, κολαβρίζω, inicia na linha 46568 e pertence ao lote 206. SHA bruto integral do HTML e cotejo de fac-símile/página impressa não obtidos. O PDF não foi usado.
+TRADUÇÃO INTEGRAL: os 20 artigos foram vertidos ao português brasileiro, conservando subdivisões, paradigmas, variantes, remissões, qualificadores de certeza, documentação bíblica, patrística e bibliográfica. Em κοιλία, as distinções anatômicas e a interpretação alternativa de J 7:38 foram mantidas; em κοιμάω, morte como extensão figurada de sono; em κοινός, comum/ordinário/impuro cultualmente; em κοινωνέω e κοινωνία, os sentidos de participação/comunhão/contribuição, inclusive alternativas para 1 Cor 10:16, 2 Cor 13:13 e Ro 15:26; em κοινωνός, regências e possibilidades semânticas; em κοίτη, usos literal, matrimonial e sexual; em κόκκος, a matéria corante derivada do inseto e a acepção botânica. Formas hebraicas preservadas do HTML sem normalização conjectural.
+COLAÇÃO INDIVIDUAL NFC HTML ORIGINAL → TRADUÇÃO → TEXTO RECUPERADO DO CARTÃO: 861 sequências gregas, 2 hebraicas, 1413 numéricas, identidade literal e ordem conservadas em todos os 20 artigos. Em rascunho, corrigidas diferenças de ordinais numéricos e uma etiqueta grega adicional; restaurada a ordem canônica dos sinais hebraicos no artigo κοιλία após confronto com HTML. Zero divergências residuais formais.
+ARTIGOS (nº | lema | linhas HTML | sequências gregas/hebraicas/numéricas):
+01 | κοιλία, ας, ἡ | 46304–46324 | 82/1/139
+02 | κοιμάω | 46325–46342 | 63/0/155
+03 | κοίμησις, εως, ἡ | 46343–46353 | 13/0/31
+04 | κοιμητήριον, ου, τό | 46354–46357 | 7/0/9
+05 | κοινῇ | 46358–46362 | 2/0/1
+06 | κοινός, ή, όν | 46363–46389 | 115/0/190
+07 | κοινόω | 46390–46412 | 24/0/63
+08 | Κόϊντος, ου, ὁ | 46413–46417 | 3/0/17
+09 | κοινωνέω | 46418–46447 | 104/0/132
+10 | κοινωνία, ας, ἡ | 46448–46464 | 173/1/236
+11 | κοινωνικός, ή, όν | 46465–46469 | 10/0/21
+12 | κοινωνός, οῦ, ὁ | 46470–46507 | 145/0/132
+13 | κοινῶς | 46508–46511 | 2/0/4
+14 | κοινωφελής, ές | 46512–46516 | 9/0/26
+15 | κοίτη, ης, ἡ | 46517–46539 | 45/0/65
+16 | κοιτών, ῶνος, ὁ | 46540–46543 | 25/0/29
+17 | κοκκάριον, ου, τό | 46544–46547 | 4/0/5
+18 | κόκκινος, η, ον | 46548–46552 | 25/0/86
+19 | κόκκος, ου, ὁ | 46553–46563 | 7/0/58
+20 | κοκκύζω | 46564–46567 | 3/0/14
+TESTES ESTÁTICOS: JS/JSON reconstruível, HTML balanceado por pilha, 20 search-row e 20 entry-card com IDs entry-bdag-0205-01 a -20 exclusivos e pareados por data-target 1:1, texto recuperado dos cartões colacionado; 109 links NA28 sintaticamente válidos com 94 URLs distintas e limites estáticos de livros/capítulos/versículos. Não houve testes HTTP dos links nem navegador/DOM, teclado/foco/popups/acessibilidade, CI ou regressão global.
+ESCOPO PROTEGIDO: criar somente lexicons/bdag-part-0205.js, inserir uma única linha em lexicon-modules.json imediatamente depois de part-0204 e antes de leh.js, apensar somente este checkpoint ao final de regras/Rbdag.txt. Não modificar bdag.js, bibliographicTerms, outros léxicos, scripts, infraestrutura, Rauditoria ou outra branch. Exatamente um commit filho do HEAD remoto revalidado, update_ref expected_sha=8f8be1a87c50987bf0a569ed998c4f107b3fe81f, force=false, sem PR, merge, rebase, branch adicional ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto integral do HTML, fac-símile/paginação impressa, auditoria filológica e bibliográfica independente, exame crítico das variantes/testemunhos, testes reais de HTTP/DOM, CI, regressão global, fichas A–J e integração pelo responsável. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE HEAD/COMMIT/BLOBS NO GITHUB: BDAG 4304 → 4324/8287 = 52,18%; restantes 3963.
+================================================================================
