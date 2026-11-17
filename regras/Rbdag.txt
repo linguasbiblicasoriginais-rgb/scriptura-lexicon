@@ -9765,3 +9765,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0219.js, inserir uma linha em lex
 AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto da fonte, fac-símile e páginas impressas, revisão e cotejo filológico/bibliográfico independente por artigo, controles A–J, confirmação crítica das variantes e testemunhos, testes HTTP/DOM/CI/regressão, integração definitiva confirmada. Não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT REMOTO: BDAG 4584 → 4604/8287 = 55,56%; 3683 restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 220 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: 0ad3cbaf74b7ad78e0ece5090ef03250ecdb6a68. Regras relidas diretamente no repositório: regras/Rbdag.txt blob c2020fe79e5651085c329fa130888edb3e45042d; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: arquivo HTML do usuário "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 48946–49157; exatamente 20 artigos autônomos de λίψ, λιβός, ὁ a λοιπός, ή, όν. Próximo artigo Λουκᾶς, ᾶ, ὁ na linha 49158 não incluído. PDF e fontes externas não substituíram o original. SHA bruto integral do HTML, fac-símile e páginas impressas não aferidos.
+TRADUÇÃO EM PORTUGUÊS: mantidos lemas, formas gregas e hebraicas, paradigmas, variantes, regências, acepções e subacepções, remissões, referências bíblicas e extrabíblicas, bibliografia e cautelas interpretativas. λογίζομαι contém sentidos matemático-contábeis, avaliação, reflexão e opinião; λόγος conserva as três seções fundamentais (comunicação, cálculo/prestação de contas e Logos independente personificado), as subacepções, o tratamento da mensagem cristã, do Logos do quarto Evangelho e as advertências textuais sobre 1J 5:7; λοιπός conserva usos adjetivais, substantivos e adverbiais, nuances temporais e interpretativas. λοιμός mantém separados o substantivo pestilência e o adjetivo/inimigo público. Bibliografias preservadas, inclusive os títulos originais das obras.
+COLAÇÃO FORMAL INDIVIDUAL NFC: fonte → tradução → conteúdo recuperado de cada cartão HTML, 1552 sequências gregas, 1 hebraica e 2521 numéricas, mesma ordem e conteúdo em cada passagem, sem diferenças formais. Não equivale a auditoria filológica, teológica ou bibliográfica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | λίψ, λιβός, ὁ | 48946–48949 | 8/0/20
+02 | Λογγῖνος, ου, ὁ | 48950–48953 | 10/0/16
+03 | Λόγγος, ου, ὁ | 48954–48957 | 3/0/6
+04 | λογεία, ας, ἡ | 48958–48962 | 12/0/31
+05 | λογίζομαι | 48963–48982 | 217/0/235
+06 | λογικός, ή, όν | 48983–48986 | 50/0/50
+07 | λόγιον, ου, τό | 48987–48991 | 40/0/109
+08 | λόγιος, ία, ιον | 48992–49003 | 11/0/49
+09 | λογισμός, οῦ, ὁ | 49004–49014 | 46/0/42
+10 | λογομαχέω | 49015–49018 | 1/0/5
+11 | λογομαχία, ας, ἡ | 49019–49023 | 5/0/22
+12 | λόγος, ου, ὁ | 49024–49076 | 871/1/1365
+13 | λόγχη, ης, ἡ | 49077–49080 | 3/0/24
+14 | λοιδορέω | 49081–49084 | 16/0/47
+15 | λοιδορία, ας, ἡ | 49085–49088 | 21/0/24
+16 | λοίδορος, ου, ὁ | 49089–49092 | 4/0/12
+17 | λοιμικός, ή, όν | 49093–49096 | 6/0/14
+18 | λοιμός, οῦ, ὁ | 49097–49101 | 8/0/21
+19 | λοιμός, ή, όν | 49102–49113 | 22/0/26
+20 | λοιπός, ή, όν | 49114–49157 | 198/0/403
+CONTROLES ESTÁTICOS: novo módulo BDAG_PART_0220 com source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card, IDs únicos entry-bdag-0220-01 a -20, data-target 1:1; HTML equilibrado, conteúdo integral dos cartões idêntico à tradução preparada; 303 links NA28, 284 destinos distintos, formato de URL validado estaticamente. Não verificados HTTP reais, acessibilidade, pesquisa, teclado/foco, popups, navegador/DOM, CI ou regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0220.js, inserir uma única entrada em lexicon-modules.json imediatamente após part-0219 e antes de leh.js, apensar este checkpoint em regras/Rbdag.txt. Preservados lexicons/bdag.js, Rauditoria, demais léxicos e infraestrutura. Um único commit descendente do HEAD verificado, update_ref com expected_sha=0ad3cbaf74b7ad78e0ece5090ef03250ecdb6a68 e force=false; sem PR, merge, rebase, criação de branch ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto da fonte, fac-símile e páginas impressas, colação semântica e bibliográfica independente, fichas A–J por artigo, crítica das variantes e testemunhos, HTTP/DOM reais, CI/regressão global e confirmação da integração final. Não incrementar total_auditoria_concluida.
+PROGRESSO SOMENTE APÓS CONFIRMAÇÃO REMOTA: BDAG 4604 → 4624/8287 = 55,80%; faltam 3663.
+================================================================================
