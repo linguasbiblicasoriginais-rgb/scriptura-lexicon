@@ -9324,3 +9324,37 @@ ESCOPO PROTEGIDO: criar exclusivamente lexicons/bdag-part-0206.js, acrescentar s
 AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA de fonte integral e fac-símile/pagina impressa, auditoria editorial independente A–J por artigo, exame crítico de variantes/testemunhos, URLs reais HTTP, DOM/navegador/teclado, CI, regressão global e integração pelo responsável. Não aumentar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DE COMMIT, HEAD E BLOBS REMOTOS: BDAG 4324 → 4344/8287 = 52,42%; restantes 3943.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 207 — 16/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE: 606c2ad42d04ca25f9081e7622e1a46549d3c304. Rbdag relido, blob 1c7f4ffde06ff200eafb04dd9cdcf01a289f4ddb; Rauditoria relida, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico do BDAG na Biblioteca, "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", versão 1, tamanho informado de 30.790.409 bytes; linhas HTML 46752–46874; 20 artigos autônomos de κομάω a κοράσιον, ου, τό. Próximo artigo κορβᾶν inicia na linha 46875 e fica fora deste lote. Sem consulta ao PDF, SHA bruto integral da fonte e cotejo de fac-símile/paginação impressa.
+TRADUÇÃO INTEGRAL: traduções para português brasileiro dos 20 artigos, conservando suas acepções, subacepções, paradigmas, notas críticas, referências, variantes, siglas e testemunhos bibliográficos. Em κομάω são mantidas reservas quanto ao entendimento de Paulo; em κομίζω, os sentidos levar, recuperar e receber; em κοπιάω e κόπος, fadiga e trabalho; em κόπτω, cortar, bater no peito e lamentar; em κόπρον e κόπρος, incerteza gramatical acerca do gênero; em κοράσιον, duas formas aramaicas e a atribuição da hipótese de emenda a Wellhausen, sem substituir a leitura original.
+COLAÇÃO POR ARTIGO: HTML canônico normalizado NFC → tradução → texto recuperado dos cartões. 420 sequências gregas, 2 hebraicas, 910 numéricas idênticas e ordenadas em todos os 20 artigos, zero divergências formais após duas passagens.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κομάω | 46752–46755 | 7/0/40
+02 | κόμη, ης, ἡ | 46756–46760 | 10/0/21
+03 | κομίζω | 46761–46774 | 58/0/129
+04 | κόμπος, ου, ὁ | 46775–46778 | 4/0/15
+05 | κομφέκτωρ, ορος, ὁ | 46779–46782 | 3/0/5
+06 | κομψότερον | 46783–46786 | 19/0/17
+07 | κονιάω | 46787–46790 | 12/0/24
+08 | κονιορτός, οῦ, ὁ | 46791–46794 | 41/0/48
+09 | κοπάζω | 46795–46798 | 14/0/21
+10 | κοπετός, οῦ, ὁ | 46799–46802 | 20/0/37
+11 | κοπή, ῆς, ἡ | 46803–46807 | 14/0/11
+12 | κοπιάω | 46808–46819 | 57/0/125
+13 | κόπος, ου, ὁ | 46820–46830 | 58/0/136
+14 | κοπρία, ας, ἡ | 46831–46835 | 4/0/25
+15 | κόπριον, ου, τό | 46836–46846 | 14/0/30
+16 | κόπρον, ου, τό | 46847–46850 | 12/0/24
+17 | κόπρος, ου, ἡ | 46851–46855 | 4/0/11
+18 | κόπτω | 46856–46866 | 58/0/126
+19 | κόραξ, ακος, ὁ | 46867–46870 | 3/0/21
+20 | κοράσιον, ου, τό | 46871–46874 | 8/2/44
+TESTES ESTÁTICOS: módulo JS com objeto JSON reconstruível, 20 search-row e 20 entry-card com IDs entry-bdag-0207-01 a -20 únicos e data-target pareados 1:1; HTML balanceado por pilha, texto dos cartões conferido por extração. 74 links NA28 com 69 URLs distintas, sintaxe e limites estáticos livro/capítulo/versículo conferidos. Não executados HTTP de URLs, navegador/DOM, teclado/foco/popups/acessibilidade, CI nem regressão global.
+ESCOPO ÚNICO: acrescentar lexicons/bdag-part-0207.js, inserir uma linha lexicons/bdag-part-0207.js imediatamente após part-0206 e antes de leh.js no lexicon-modules.json, apensar somente este checkpoint em regras/Rbdag.txt. Não alterar bdag.js, bibliographicTerms, scripts, infra, Rauditoria, outro léxico ou branch. Publicar um único commit filho do HEAD revalidado, update_ref expected_sha=606c2ad42d04ca25f9081e7622e1a46549d3c304 e force=false, sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem fonte bruta/SHA, fac-símile e paginação, revisão independente filológica/semântica/bibliográfica, exame crítico de variantes e testemunhos, HTTP, DOM real, CI, regressão global, fichas A–J e integração. Não alterar total_auditoria_concluida.
+PROGRESSO APENAS APÓS VERIFICAÇÃO REMOTA DO COMMIT E BLOBS: BDAG 4344 → 4364/8287 = 52,66%; restantes 3923.
+================================================================================
