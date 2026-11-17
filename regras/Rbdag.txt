@@ -9460,3 +9460,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0210.js; inserir um item em lexic
 AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto da fonte, fac-símile/páginas impressas, cotejo filológico e bibliográfico independente por artigo e fichas A–J, validação crítica de variantes/testemunhos, testes HTTP e DOM reais, CI e regressão global, integração final verificada. NÃO incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO COMMIT/HEAD/BLOBS REMOTOS: BDAG 4404 → 4424/8287 = 53,38%; faltam 3863.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 211 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE: 4822effa5e409928166a642b4d05b135aef6348f. Normas relidas: Rbdag blob 98826ce3375ba5d296a3d6b953243610d0ff6943; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE EXCLUSIVA: HTML canônico "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca versão 1, tamanho informado 30.790.409 bytes, linhas 47473–47622. Vinte artigos autônomos de κριτικός, ή, όν até κτίσμα, ατος, τό. O próximo κτίστης, ου, ὁ inicia na linha 47623, fora do lote. Não utilizado PDF. Não obtidos SHA bruto integral do HTML, fac-símile ou confirmação das páginas impressas.
+TRADUÇÃO INTEGRAL AO PORTUGUÊS BRASILEIRO: vinte artigos completos com paradigmas, variantes, acepções, subacepções, notas críticas, distinção entre fato e alternativa, remissões, citações antigas, bibliografia e referências bíblicas/extrabíblicas. κρυπτός: adjetivo e substantivo, pensamentos secretos e lugares ocultos; κρύπτω: sentidos de ocultar, guardar, esconder-se e esconder algo em lugar determinado, formas helenísticas de κρύβω; κρυσταλλος: cristal de rocha ou gelo, escolha não resolvida pelo texto; κτάομαι: adquirir, atrair sobre si e possuir, com alternativas para 1 Th 4:4; κτίζω: ação criadora divina e vida interior; κτίσις: ato de criação, resultado criado (individual e totalidade) e instituição/autoridade governamental, com questão de Ro 8:19–22 mantida como disputa interpretativa; κτίσμα: criatura, inclusive limite antropológico em Js 1:18.
+COLAÇÃO INDIVIDUAL NFC: HTML canônico → tradução → texto recuperado de cada cartão; 855 sequências gregas, 1 hebraica e 1.155 numéricas idênticas e ordenadas, zero divergências formais. São sequências de caracteres e referências, não certificação semântica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κριτικός, ή, όν | 47473–47476 | 10/0/3
+02 | Κρόκος, ου, ὁ | 47477–47480 | 12/0/18
+03 | κροκώδης, ες | 47481–47484 | 5/0/14
+04 | κρούω | 47485–47488 | 40/0/55
+05 | κρύβω | 47489–47492 | 2/0/0
+06 | κρύπτη, ης, ἡ | 47493–47497 | 13/0/20
+07 | κρυπτός, ή, όν | 47498–47515 | 98/0/126
+08 | κρύπτω | 47516–47538 | 189/0/202
+09 | κρυσταλλίζω | 47539–47542 | 1/0/2
+10 | κρύσταλλος, ου, ὁ | 47543–47546 | 16/0/59
+11 | κρυφαῖος, αία, αῖον | 47547–47550 | 18/0/14
+12 | κρυφῇ | 47551–47554 | 9/0/17
+13 | κρύφιος, ία, ιον | 47555–47559 | 11/0/17
+14 | κτάομαι | 47560–47574 | 77/0/85
+15 | κτῆμα, ατος, τό | 47575–47585 | 21/0/52
+16 | κτῆνος, ους, τό | 47586–47589 | 17/0/63
+17 | κτήτωρ, ορος, ὁ | 47590–47593 | 7/0/20
+18 | κτίζω | 47594–47598 | 150/1/139
+19 | κτίσις, εως, ἡ | 47599–47618 | 119/0/172
+20 | κτίσμα, ατος, τό | 47619–47622 | 40/0/77
+VALIDAÇÃO ESTÁTICA: módulo JS com objeto JSON reconstruível, 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0211-01 a -20, par data-target e cartão correspondente, HTML equilibrado, escaping de atributos e extração fiel do corpo. Links NA28: 91 ocorrências, 87 URLs distintas; apenas formato e limites fixos livro/capítulo/versículo. Sem verificação HTTP, DOM de navegador, teclado, foco, acessibilidade, popups, CI ou regressão global.
+ESCOPO RESTRITO: adicionar apenas lexicons/bdag-part-0211.js, uma linha em lexicon-modules.json após part-0210 e antes de leh.js, apensar exclusivamente este checkpoint em regras/Rbdag.txt. Preservar bdag.js e bibliographicTerms, Rauditoria, outros léxicos, scripts, infraestrutura e branches. Um único commit filho do HEAD remoto revalidado e update_ref com expected_sha=4822effa5e409928166a642b4d05b135aef6348f, force=false; nenhum PR/merge/rebase/branch extra/deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes proveniência SHA bruto, página impressa e fac-símile, revisão filológica e bibliográfica independente e fichas A–J individualizadas, validação crítica de variantes e testemunhos, testes HTTP e DOM, CI e regressão global, integração final confirmada. NÃO incrementar total_auditoria_concluida.
+PROGRESSO SOMENTE APÓS REVALIDAR HEAD E BLOBS NO GITHUB: 4424 → 4444/8287 = 53,63%; faltam 3843.
+================================================================================
