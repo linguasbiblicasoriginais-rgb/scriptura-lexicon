@@ -9426,3 +9426,37 @@ ESCOPO EXCLUSIVO: criar lexicons/bdag-part-0209.js, adicionar apenas "lexicons/b
 AUDITORIA_CONCLUIDA=NÃO. Pendentes obtenção SHA bruto integral e fac-símile/páginas, cotejo de variantes/testemunhos, revisão editorial independente e fichas A–J, HTTP, DOM, CI/regressão e integração confirmada. NÃO incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO HEAD E BLOBS NO GITHUB: 4384 → 4404/8287 = 53,14%; faltam 3883.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 210 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE: c22578029702ebfa91e8fa1dc4d3c1d4bc3b2023. Rbdag relido (blob 957acef6d98256f252fbee0e5fe0581626203a52); Rauditoria relida (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca versão 1 (tamanho informado 30.790.409 bytes), linhas 47252–47472; 20 artigos autônomos de κρέμαμαι até κριτής, οῦ, ὁ. Próximo artigo κριτικός, ή, όν inicia na linha 47473 e está fora deste lote. Não foi usado PDF; SHA bruto integral do HTML, fac-símile e páginas impressas ainda não conferidos.
+TRADUÇÃO INTEGRAL: todos os 20 artigos traduzidos para português brasileiro, sem síntese substitutiva; preservados paradigmas, grafias, variantes, regências, subacepções, reservas interpretativas, remissões, dados semíticos, bibliografia, citações antigas, referências bíblicas e extrabíblicas. Em κρεμάννυμι diferenciados transitivo e depoente intransitivo; κρεπάλη é remissão com ressalva prosódica; em κρίνον preservada a incerteza sobre a espécie botânica. κρίμα mantém seis grandes acepções e respectivas subacepções; κρίνω mantém escolha, juízo interpessoal, avaliação, decisão, processo judicial e garantia de justiça, com as distinções dos tribunais humano e divino; κρίσις distingue julgamento, condenação, separação e justiça, preservando alternativas filológicas; κριτήριον inclui duas análises possíveis de 1 Cor 6; κριτής mantém juiz judicial, sentido amplo e governador israelita.
+COLAÇÃO DE CADA ARTIGO (NFC): HTML canônico → tradução integral → texto recuperado do cartão: 1.026 sequências gregas, 1 hebraica, 1.503 numéricas idênticas e ordenadas; zero divergências formais. κρίνω: 408/0/529; κρίσις: 257/1/319. Uma discrepância de abreviação κ. em κριτήριον foi detectada e corrigida antes da geração final.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κρέμαμαι | 47252–47256 | 2/0/1
+02 | κρεμάννυμι | 47257–47273 | 73/0/119
+03 | κρεπάλη | 47274–47277 | 2/0/3
+04 | κρημνός, οῦ, ὁ | 47278–47281 | 11/0/26
+05 | κρημνώδης, ες | 47282–47285 | 14/0/11
+06 | Κρής, ητός, ὁ | 47286–47289 | 5/0/34
+07 | Κρήσκης, εντος, ὁ | 47290–47293 | 5/0/10
+08 | Κρήτη, ης, ἡ | 47294–47297 | 3/0/20
+09 | κριθή, ῆς, ἡ | 47298–47301 | 11/0/25
+10 | κρίθινος, η, ον | 47302–47305 | 5/0/21
+11 | κρίκος, ου, ὁ | 47306–47310 | 8/0/7
+12 | κρίμα, ατος, τό | 47311–47339 | 110/0/141
+13 | κρίνον, ου, τό | 47340–47344 | 8/0/49
+14 | κρίνω | 47345–47391 | 408/0/529
+15 | κριός, οῦ, ὁ | 47392–47396 | 4/0/7
+16 | κρίσις, εως, ἡ | 47397–47428 | 257/1/319
+17 | κρίσμα | 47429–47432 | 2/0/0
+18 | Κρίσπος, ου, ὁ | 47433–47437 | 4/0/18
+19 | κριτήριον, ου, τό | 47438–47449 | 45/0/49
+20 | κριτής, οῦ, ὁ | 47450–47472 | 49/0/114
+TESTES ESTÁTICOS: objeto JS JSON reconstruível, 20 search-row e 20 entry-card, IDs únicos entry-bdag-0210-01 a -20 e data-target correspondentes; HTML balanceado e extração do corpo de cada cartão. 164 links NA28, 152 URLs distintas, validados somente por sintaxe e limites de capítulo/versículo; NÃO testada acessibilidade HTTP das URLs nem ambiente DOM, navegador, teclado, foco, popups, CI, regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0210.js; inserir um item em lexicon-modules.json imediatamente depois de part-0209 e antes de leh.js; apensar somente este checkpoint a regras/Rbdag.txt. Não tocar bdag.js ou bibliographicTerms, Rauditoria, outras fontes lexicais, infraestrutura, scripts ou branches. Um commit filho do HEAD remoto revalidado e publicação protegida com expected_sha=c22578029702ebfa91e8fa1dc4d3c1d4bc3b2023, force=false; sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto da fonte, fac-símile/páginas impressas, cotejo filológico e bibliográfico independente por artigo e fichas A–J, validação crítica de variantes/testemunhos, testes HTTP e DOM reais, CI e regressão global, integração final verificada. NÃO incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO COMMIT/HEAD/BLOBS REMOTOS: BDAG 4404 → 4424/8287 = 53,38%; faltam 3863.
+================================================================================
