@@ -9629,3 +9629,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0215.js, inserir uma linha em lex
 AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto da fonte, fac-símile e páginas impressas, revisão filológica e bibliográfica independente por artigo e fichas A–J, verificação crítica das variantes e testemunhos, HTTP e testes funcionais DOM, CI e regressão global, integração final comprovada. NÃO incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT NO HEAD: BDAG 4504 → 4524/8287 = 54,59%; 3763 restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 216 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: e380dd37e93a0132078b73155920a27060a9aa55. Regras relidas: Rbdag blob 55cb4f476eda2c07f74d3a4bc4fa324f332616e9; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca v. 1, tamanho informado 30.790.409 bytes, linhas 48291–48502. 20 artigos autônomos de λαξευτός, ή, όν até λεῖος, α, ον, abrangendo λαός, λατρεύω e λέγω. Próximo artigo λειποτακτέω na linha 48503, não incluído. Não usado PDF nem outras fontes. SHA bruto integral HTML, fac-símile e páginas impressas ainda não aferidos.
+TRADUÇÃO EM PORTUGUÊS BRASILEIRO: preservados lemas, paradigmas, significados e subdivisões, construções, formas gregas, hebraicas e aramaicas quando existentes, variantes, remissões, referências bíblicas/extrabíblicas, bibliografia, atribuições interpretativas e graus de certeza. λαός: povo geral, comunidade, nação, povo de Deus, Israel e cristãos mantidos como divisões distintas. λατρεία e λατρεύω: sentido cultual e regências. λεγιών: empréstimo latino, variantes ortográficas, dados militares e sentidos espirituais. λέγω: quatro grupos de acepções e subdivisões, construções de discurso direto/indireto, regências, usos hebraizantes e exemplos onomásticos. λε´ mantido como sinal numeral (=35), λαχ- como remissão.
+COLAÇÃO INDIVIDUAL NFC: fonte → tradução → texto recuperado de cada cartão HTML: 1.050 sequências gregas, 9 hebraicas, 2.177 numéricas em ordem e identidade de conteúdo, zero divergências formais. Colação formal não constitui auditoria filológica e bibliográfica independente.
+ARTIGOS (nº | lema | linhas do HTML | grego/hebraico/números):
+01 | λαξευτός, ή, όν | 48291–48294 | 7/0/15
+02 | Λαοδίκεια, ας, ἡ | 48295–48298 | 5/0/58
+03 | Λαοδικεύς, έως, ὁ | 48299–48303 | 3/0/14
+04 | λαός, οῦ, ὁ | 48304–48341 | 151/0/396
+05 | λάρυγξ, γγος, ὁ | 48342–48345 | 9/0/16
+06 | Λασαία, ας | 48346–48349 | 5/0/3
+07 | λάσκω | 48350–48354 | 4/0/3
+08 | λατομέω | 48355–48365 | 20/0/72
+09 | λατόμος, ου, ὁ | 48366–48369 | 4/0/17
+10 | λατρεία, ας, ἡ | 48370–48373 | 22/1/35
+11 | λατρεύω | 48374–48377 | 72/0/107
+12 | λαχ- | 48378–48381 | 2/0/0
+13 | λάχανον, ου, τό | 48382–48385 | 14/0/23
+14 | λαχμός, οῦ, ὁ | 48386–48389 | 9/0/10
+15 | λε´ | 48390–48393 | 1/0/10
+16 | Λεββαῖος, ου, ὁ | 48394–48397 | 4/1/8
+17 | λεγιών, ῶνος, ἡ | 48398–48402 | 22/0/57
+18 | λέγω | 48403–48494 | 675/7/1289
+19 | λεῖμμα, ατος, τό | 48495–48498 | 17/0/24
+20 | λεῖος, α, ον | 48499–48502 | 4/0/20
+CONTROLES ESTÁTICOS: módulo JS BDAG_PART_0216 com JSON reconstruível, source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0216-01 a -20 e data-target pareados 1:1; HTML equilibrado; atributos escapados; texto recuperado de cartões idêntico às traduções; links NA28: 315 ocorrências e 302 destinos distintos, sintaxe e padrões verificados. Não houve verificação HTTP de links, DOM de navegador, teclado/foco, busca real, acessibilidade, popups, CI ou regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0216.js, inserir UMA linha em lexicon-modules.json após part-0215 antes de leh.js e apensar somente este checkpoint em regras/Rbdag.txt. Preservar lexicons/bdag.js, bibliographicTerms, Rauditoria, outros léxicos e infraestrutura. Publicar UM único commit filho do HEAD remoto revalidado com expected_sha=e380dd37e93a0132078b73155920a27060a9aa55 e force=false; sem PR, merge, rebase, branches extras ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes prova da fonte original (SHA bruto/fac-símile/páginas impressas), cotejo semântico-filológico e bibliográfico independente, fichas individuais A–J, confirmação crítica de variantes/testemunhos, HTTP e DOM reais, CI/regressão global, integração final confirmada. Não incrementar total_auditoria_concluida.
+PROGRESSO SOMENTE APÓS CONFIRMAÇÃO DE HEAD, COMMIT E BLOBS REMOTOS: BDAG 4524 → 4544/8287 = 54,83%; faltam 3743.
+================================================================================
