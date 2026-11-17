@@ -9596,3 +9596,36 @@ ESCOPO: acrescentar exclusivamente lexicons/bdag-part-0214.js, inserir uma linha
 AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto da fonte, fac-símile e paginação impressa, revisão filológica e bibliográfica independente e fichas A–J individuais, verificação externa de variantes e testemunhos, testes HTTP e DOM, CI e regressão global, integração final comprovada. Não incrementar total_auditoria_concluida.
 PROGRESSO SUJEITO À CONFIRMAÇÃO REMOTA POSTERIOR: BDAG 4484 → 4504/8287 = 54,35%; restantes 3783.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 215 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: bf21e1990b8de54f1067879c73185aaa495392bf. Normas lidas: Rbdag blob 825bb8f66724b1627a3afc0b7666119b67118b55; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", arquivo da Biblioteca, tamanho informado 30.790.409 bytes, linhas 48080–48290. 20 artigos autônomos de λαθ- até λανθάνω; artigo seguinte λαξευτός, ή, όν na linha 48291, não incluído. PDF e outras fontes não usados. SHA bruto integral, fac-símile e página impressa não aferidos.
+TRADUÇÃO EM PORTUGUÊS: paradigmas, acepções, subacepções, construções, variantes, referências, bibliografia, remissões e graus de certeza preservados. λαθ- como remissão; λάθρᾳ com usos adverbial e preposicional; λαϊκός como termo de condição; λαλέω com seus usos sonoros e verbais e distinções de regência; λαμά com hebraico e aramaico; λαμβάνω com dez divisões semânticas, paradigmas e referências; λαμπάς com distinção tocha/lâmpada e incerteza interpretativa; λανθάνω com estruturas de ocultação e particípio.
+COLAÇÃO INDIVIDUAL FORMAL: fonte → tradução → texto extraído dos cartões HTML: 1.273 sequências gregas, 5 hebraicas, 2.037 numéricas; ordem e conteúdos idênticos, zero diferenças formais. Colação formal não equivale à auditoria independente de conteúdo semântico e bibliográfico.
+ARTIGOS (nº | lema | linhas | grego/hebraico/números):
+01 | λαθ- | 48080–48084 | 2/0/0
+02 | λάθρᾳ | 48085–48095 | 23/0/66
+03 | λαθροδήκτης, ου, ὁ | 48096–48099 | 15/0/13
+04 | λαϊκός, ή, όν | 48100–48103 | 11/0/26
+05 | λαῖλαψ, απος, ἡ | 48104–48107 | 17/0/24
+06 | λακάω | 48108–48111 | 14/0/20
+07 | λάκκος, ου, ὁ | 48112–48115 | 6/0/24
+08 | λακτίζω | 48116–48120 | 6/0/13
+09 | λαλέω | 48121–48156 | 338/1/563
+10 | λαλιά, ᾶς, ἡ | 48157–48173 | 19/0/46
+11 | λαμά | 48174–48178 | 2/2/4
+12 | λαμβάνω | 48179–48222 | 598/0/779
+13 | Λάμεχ, ὁ | 48223–48227 | 6/2/18
+14 | λαμπάς, άδος, ἡ | 48228–48238 | 44/0/98
+15 | λαμπηδών, όνος, ἡ | 48239–48243 | 6/0/24
+16 | λαμπρός, ά, όν | 48244–48267 | 42/0/104
+17 | λαμπρότης, ητος, ἡ | 48268–48278 | 10/0/32
+18 | λαμπρῶς | 48279–48282 | 11/0/16
+19 | λάμπω | 48283–48286 | 46/0/79
+20 | λανθάνω | 48287–48290 | 57/0/88
+CONTROLES ESTÁTICOS: novo módulo BDAG_PART_0215 com JSON reconstruível, source BDAG, searchAnchorId, entryAnchorId, rowsHtml, cardsHtml; 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0215-01 a -20; data-target 1:1, HTML equilibrado, atributos escapados. Links NA28: 269 ocorrências, 256 URLs distintas, testados estaticamente por formato. Não verificados por HTTP real, DOM/navegador, pesquisa efetiva, teclado/foco, acessibilidade, popups nem CI/revisão independente.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0215.js, inserir uma linha em lexicon-modules.json após part-0214 e antes de leh.js, apensar este checkpoint em regras/Rbdag.txt. Nenhuma alteração em bdag.js, bibliographicTerms, Rauditoria, outros léxicos ou infraestrutura. Um commit filho do HEAD revalidado, update_ref com expected_sha=bf21e1990b8de54f1067879c73185aaa495392bf e force=false, sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto da fonte, fac-símile e páginas impressas, revisão filológica e bibliográfica independente por artigo e fichas A–J, verificação crítica das variantes e testemunhos, HTTP e testes funcionais DOM, CI e regressão global, integração final comprovada. NÃO incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT NO HEAD: BDAG 4504 → 4524/8287 = 54,59%; 3763 restantes.
+================================================================================
