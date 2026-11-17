@@ -9562,3 +9562,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0213.js, uma inclusão em lexicon
 AUDITORIA_CONCLUIDA=NÃO: pendem SHA bruto da fonte, fac-símile/páginas impressas, revisão filológica e bibliográfica independente por artigo e fichas A–J, validação externa das variantes/testemunhos, testes HTTP e DOM reais, CI e regressão global, integração final comprovada. Não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO REMOTA DE COMMIT/HEAD/BLOBS: BDAG 4464 → 4484/8287 = 54,11%; faltam 3803.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 214 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: fda40eaf9d06e435eaa2468d7960194a8695435c. Normas relidas: Rbdag blob 12b7c589edbde630fa9dba264ba982afa0a2a25f; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca v. 1, tamanho informado 30.790.409 bytes, linhas 47925–48079. 20 artigos autônomos de κυσί até Λάζαρος, ου, ὁ, incluindo a transição alfabética κωφόω → λ´ → λαβ-. Próximo artigo λαθ-, linha 48080, fora do lote. Não usado PDF. SHA bruto integral HTML, fac-símile e paginação impressa não aferidos.
+TRADUÇÃO INTEGRAL EM PORTUGUÊS BRASILEIRO: preservados paradigmas, variantes, lemas, formas gregas, hebraicas, remissões, bibliografia, citações bíblicas e extrabíblicas, contextos e subacepções. κυσί e λαβ- mantidas como remissões; λ´ como sinal numeral = 30 e não item de vocabulário comum. κύων: cão literal, pessoa cultualmente impura, insulto figurado, incluindo contraste de Mt 7:6 e D 9:5. κωλύω: impedir/proibir pessoa ou coisa e reter/recusar, com sintaxe, variantes e contextos de línguas e batismo. κώμη: povoado e habitantes. κωφός: mudo, surdo e surdo-mudo, inclusive usos figurados. λαγχάνω: obter por sorte, ser selecionado por sorteio e lançar sortes, preservando as variantes de GJs 10:2. Λάζαρος: irmão de Maria e Marta em J e mendigo na parábola de Lk, referentes separados, hipóteses bibliográficas atribuídas, hebraico לַעְזָר e אֶלְעָזָר sem alteração.
+COLAÇÃO INDIVIDUAL NFC: HTML → tradução → texto recuperado de cada cartão: 274 sequências gregas, 4 hebraicas, 654 numéricas, ordem e conteúdo idênticos, zero divergências formais. Colação de tokens não constitui auditoria semântica, testemunhal e bibliográfica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κυσί | 47925–47928 | 2/0/0
+02 | κύτος, ους, τό | 47929–47932 | 11/0/11
+03 | κύω | 47933–47937 | 10/0/23
+04 | κύων, κυνός, ὁ | 47938–47951 | 26/0/67
+05 | κῶλον, ου, τό | 47952–47956 | 10/0/12
+06 | κωλύω | 47957–47974 | 63/0/165
+07 | κώμη, ης, ἡ | 47975–47985 | 9/0/82
+08 | κωμόπολις, εως, ἡ | 47986–47989 | 7/0/6
+09 | κῶμος, ου, ὁ | 47990–47993 | 11/0/35
+10 | κώνωψ, ωπος, ὁ | 47994–47997 | 8/0/8
+11 | Κῶς, Κῶ, ἡ | 47998–48001 | 7/0/13
+12 | Κωσάμ, ὁ | 48002–48006 | 2/1/2
+13 | κωφός, ή, όν | 48007–48021 | 30/0/83
+14 | κωφόω | 48022–48036 | 5/0/14
+15 | λ´ | 48037–48040 | 2/0/6
+16 | λαβ- | 48041–48044 | 2/0/0
+17 | Λαβάν, ὁ | 48045–48049 | 4/1/10
+18 | λαγχάνω | 48050–48063 | 50/0/56
+19 | λαγωός, οῦ, ὁ | 48064–48068 | 7/0/9
+20 | Λάζαρος, ου, ὁ | 48069–48079 | 8/2/52
+VALIDAÇÃO ESTÁTICA: módulo JS BDAG_PART_0214 com JSON reconstruível (source BDAG, searchAnchorId, entryAnchorId, rowsHtml, cardsHtml); 20 search-row e 20 entry-card, IDs únicos entry-bdag-0214-01 a -20, pareamento data-target/carta 1:1, HTML balanceado, atributos com escape, verificação de sequência fonte/tradução e corpo renderizável. Links NA28: 65 ocorrências, 60 URLs distintas, formato e limites livro/capítulo/versículo verificados estaticamente. Sem validação HTTP real, DOM, pesquisa real, teclado, foco, acessibilidade, popups, CI ou regressão global.
+ESCOPO: acrescentar exclusivamente lexicons/bdag-part-0214.js, inserir uma linha em lexicon-modules.json após part-0213 antes de leh.js e apensar este checkpoint em regras/Rbdag.txt. Nenhuma alteração em bdag.js, bibliographicTerms, Rauditoria, outros léxicos, infraestrutura ou outras branches. Um commit filho de HEAD revalidado com expected_sha=fda40eaf9d06e435eaa2468d7960194a8695435c, force=false; vedados PR, merge, rebase, branches auxiliares e deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto da fonte, fac-símile e paginação impressa, revisão filológica e bibliográfica independente e fichas A–J individuais, verificação externa de variantes e testemunhos, testes HTTP e DOM, CI e regressão global, integração final comprovada. Não incrementar total_auditoria_concluida.
+PROGRESSO SUJEITO À CONFIRMAÇÃO REMOTA POSTERIOR: BDAG 4484 → 4504/8287 = 54,35%; restantes 3783.
+================================================================================
