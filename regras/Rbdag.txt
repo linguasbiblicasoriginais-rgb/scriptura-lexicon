@@ -9663,3 +9663,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0216.js, inserir UMA linha em lex
 AUDITORIA_CONCLUIDA=NÃO. Pendentes prova da fonte original (SHA bruto/fac-símile/páginas impressas), cotejo semântico-filológico e bibliográfico independente, fichas individuais A–J, confirmação crítica de variantes/testemunhos, HTTP e DOM reais, CI/regressão global, integração final confirmada. Não incrementar total_auditoria_concluida.
 PROGRESSO SOMENTE APÓS CONFIRMAÇÃO DE HEAD, COMMIT E BLOBS REMOTOS: BDAG 4524 → 4544/8287 = 54,83%; faltam 3743.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 217 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: f6b5e8b35751e688b4fe0662ce47d79eae5266e0. Regras relidas: Rbdag blob d1c4a53491ff0a92cdc6a9e83e50538e62beb3cd; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca do usuário, tamanho informado 30.790.409 bytes, linhas 48503–48671. 20 artigos autônomos de λειποτακτέω a λευκαίνω. O artigo seguinte λευκοβύσσινος na linha 48672 não está incluído. PDF ou outras fontes não empregados. SHA bruto integral do arquivo, fac-símile e páginas impressas ainda não aferidos.
+TRADUÇÃO EM PORTUGUÊS: lemas, paradigmas e variantes preservados; sentidos e subacepções, regências, morfologia, nomes próprios, bibliografia e referências traduzidos com manutenção das citações, graus de certeza, formas gregas e hebraicas. λειτουργέω / λειτουργία / λειτουργικός / λειτουργός conservam as distinções entre serviço público, dever religioso/cultual e assistência pessoal. λέπρα e λεπρός conservam a ressalva do BDAG sobre a ausência de identificação necessária de todos os casos com hanseníase moderna. Λευί mantém cinco usos onomásticos distintos. λεμά mantém o aramaico לְמָא. λεπτός mantém a proporção monetária 1/128 e Λευί mantém os paradigmas. 
+COLAÇÃO INDIVIDUAL FORMAL NFC: 462 sequências gregas, 3 hebraicas, 843 numéricas; ordem e conteúdo idênticos na fonte, tradução e texto recuperado dos 20 cartões HTML; zero divergências formais. Uma colação formal de tokens não substitui auditoria filológica, sintática e bibliográfica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | λειποτακτέω | 48503–48507 | 19/0/20
+02 | λείπω | 48508–48525 | 69/0/88
+03 | λειτουργέω | 48526–48543 | 78/0/157
+04 | λειτουργία, ας, ἡ | 48544–48560 | 76/0/110
+05 | λειτουργικός, ή, όν | 48561–48565 | 13/0/37
+06 | λειτουργός, οῦ, ὁ | 48566–48582 | 48/0/63
+07 | λείχω | 48583–48586 | 4/0/7
+08 | Λέκτρα, ας, ἡ | 48587–48590 | 3/0/8
+09 | λεμά | 48591–48594 | 4/1/6
+10 | λέντιον, ου, τό | 48595–48598 | 8/0/19
+11 | λεόπαρδος, ου, ὁ | 48599–48603 | 11/0/24
+12 | λεπίς, ίδος, ἡ | 48604–48614 | 18/0/30
+13 | λέπρα, ας, ἡ | 48615–48618 | 15/1/72
+14 | λεπράω | 48619–48622 | 6/0/9
+15 | λεπρός, ά, όν | 48623–48627 | 17/0/62
+16 | λεπτός, ή, όν | 48628–48639 | 14/0/42
+17 | Λευί, ὁ | 48640–48659 | 26/1/35
+18 | Λευίτης, ου, ὁ | 48660–48663 | 6/0/17
+19 | Λευιτικός, ή, όν | 48664–48667 | 10/0/7
+20 | λευκαίνω | 48668–48671 | 17/0/30
+CONTROLES ESTÁTICOS: módulo BDAG_PART_0217 com JSON reconstruível, source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0217-01 a -20 com data-target 1:1; HTML equilibrado e atributos escapados; comparação de conteúdo integral dos cartões; links NA28: 55 ocorrências e 51 destinos distintos, sintaxe de URLs validada estaticamente. Não realizados testes HTTP, DOM, pesquisa/teclado/foco, acessibilidade, popups, CI ou regressão global.
+ESCOPO: adicionar apenas lexicons/bdag-part-0217.js; inserir uma entrada em lexicon-modules.json após part-0216 antes de leh.js; apensar somente este checkpoint em regras/Rbdag.txt. Nenhuma alteração em bdag.js, bibliographicTerms, Rauditoria, outros léxicos ou infraestrutura. Um commit filho do HEAD revalidado, update_ref com expected_sha=f6b5e8b35751e688b4fe0662ce47d79eae5266e0 e force=false; sem PR, merge, rebase ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto da fonte, páginas impressas e fac-símile, colação semântica e bibliográfica independente por artigo, fichas A–J, crítica de variantes/testemunhos, HTTP/DOM reais, CI e regressão global, integração final comprovada; NÃO incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT NO HEAD: BDAG 4544 → 4564/8287 = 55,07%; faltam 3723.
+================================================================================
