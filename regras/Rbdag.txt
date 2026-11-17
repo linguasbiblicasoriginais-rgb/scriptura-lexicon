@@ -9358,3 +9358,37 @@ ESCOPO ÚNICO: acrescentar lexicons/bdag-part-0207.js, inserir uma linha lexicon
 AUDITORIA_CONCLUIDA=NÃO: pendem fonte bruta/SHA, fac-símile e paginação, revisão independente filológica/semântica/bibliográfica, exame crítico de variantes e testemunhos, HTTP, DOM real, CI, regressão global, fichas A–J e integração. Não alterar total_auditoria_concluida.
 PROGRESSO APENAS APÓS VERIFICAÇÃO REMOTA DO COMMIT E BLOBS: BDAG 4344 → 4364/8287 = 52,66%; restantes 3923.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 208 — 16/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J PENDENTE
+HEAD REMOTO BASE: 64121f85f176b0c67b88ab2559d96b76b0a55a9a. Normas relidas: Rbdag blob 54330ee0bbc7bc4713e9427840565a620b70387b; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca, versão 1, tamanho informado 30.790.409 bytes; linhas HTML 46875–47054. Primeiro artigo κορβᾶν; vigésimo Κοῦμαι, ῶν, αἱ. O próximo artigo autônomo é κουμι, linha 47055, FORA deste lote. PDF não utilizado; SHA bruto integral do HTML e cotejo do fac-símile/páginas impressas não obtidos.
+TRADUÇÃO INTEGRAL AO PORTUGUÊS BRASILEIRO: 20 artigos, sem amalgamar entradas homógrafas ou abreviar as acepções do original. Paradigmas, morfologia, variantes, glosas, indicações filológicas, testemunhos, números, remissões e bibliografia preservados. κορβᾶν e κορβανᾶς mantêm distinção entre oferta e tesouro; preservadas as dez sequências semíticas do lote. Κόρινθος preserva a ressalva sobre inferência histórica inadequada de prostituição cultual. Em κοσμέω conservadas distinções arrumação/ornamentação/virtude; em κοσμικός, físico terrestre versus moral mundano; em κοσμοκράτωρ, usos pré-cristãos e demonológicos. κόσμος traz INTEGRALMENTE 8 sentidos principais, subacepções, alternativas, reservas e documentos, sem substituí-los por resumo. Remissões de κοσμοπλάνος preservadas.
+COLAÇÃO INDIVIDUAL NFC HTML → TRADUÇÃO → TEXTO RECUPERADO DOS CARTÕES: 849 sequências gregas, 10 hebraicas/aramaicas em caracteres hebraicos, 1.310 numéricas, todas idênticas e na mesma ordem, zero divergências formais. O artigo κόσμος inclui 524 sequências gregas, 2 hebraicas e 726 numéricas, preservadas.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κορβᾶν | 46875–46878 | 19/1/41
+02 | κορβανᾶς, ᾶ, ὁ | 46879–46882 | 15/2/8
+03 | Κόρε, ὁ | 46883–46887 | 5/1/9
+04 | κορέννυμι | 46888–46898 | 10/0/22
+05 | κόρη, ης, ἡ | 46899–46902 | 10/1/31
+06 | Κορίνθιος, ου, ὁ | 46903–46906 | 6/0/21
+07 | Κόρινθος, ου, ἡ | 46907–46910 | 17/0/71
+08 | Κορνήλιος, ου, ὁ | 46911–46914 | 4/0/21
+09 | κόρος, ου, ὁ | 46915–46919 | 5/1/19
+10 | κοσμέω | 46920–46949 | 120/0/175
+11 | κοσμικός, ή, όν | 46950–46961 | 41/0/45
+12 | κόσμιος, (ία), ον | 46962–46972 | 17/0/31
+13 | κοσμίως | 46973–46976 | 5/0/7
+14 | κοσμοκράτωρ, ορος, ὁ | 46977–46980 | 32/0/57
+15 | κοσμοπλανής, ῆτος, ὁ | 46981–46984 | 6/0/2
+16 | κοσμοπλάνος | 46985–46989 | 2/0/0
+17 | κόσμος, ου, ὁ | 46990–47042 | 524/2/726
+18 | Κούαρτος, ου, ὁ | 47043–47046 | 4/0/7
+19 | κουμ | 47047–47050 | 4/2/3
+20 | Κοῦμαι, ῶν, αἱ | 47051–47054 | 3/0/14
+TESTES ESTÁTICOS: objeto JS reconstruível, 20 search-row, 20 entry-card, IDs exclusivos entry-bdag-0208-01 a -20, pareamento data-target 1:1, HTML balanceado por pilha; texto do cartão cotejado contra tradução. 131 links NA28, 121 URLs distintas, apenas validade sintática e limites estáticos de livro/capítulo/versículo. Não há comprovação de funcionamento HTTP das URLs, navegador/DOM/teclado/foco/popups/acessibilidade, regressão global ou execução de GitHub Actions neste ponto.
+ESCOPO: somente adicionar lexicons/bdag-part-0208.js, inserir uma linha no lexicon-modules.json após part-0207 e antes de leh.js, e apensar somente este checkpoint ao fim de regras/Rbdag.txt. NÃO modificar bdag.js, bibliographicTerms, outro léxico, scripts, infraestrutura, Rauditoria, outra branch; um único commit filho do HEAD remoto revalidado e atualização de ref por expected_sha=64121f85f176b0c67b88ab2559d96b76b0a55a9a, force=false, sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem SHA da fonte e fac-símile/páginas impressas; revisão filológica, bibliográfica, variantes e testemunhos independentemente; testes de HTTP e navegador/DOM; CI e regressão global; fichas A–J e integração final confirmada pelo integrador. Nenhum contador de auditoria concluída deve ser incrementado.
+PROGRESSO SOMENTE APÓS RECONFIRMAÇÃO REMOTA COMMIT/HEAD/BLOBS: 4364 → 4384/8287 = 52,90%; faltam 3903 artigos.
+================================================================================
