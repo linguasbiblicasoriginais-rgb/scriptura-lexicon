@@ -9494,3 +9494,37 @@ ESCOPO RESTRITO: adicionar apenas lexicons/bdag-part-0211.js, uma linha em lexic
 AUDITORIA_CONCLUIDA=NÃO. Pendentes proveniência SHA bruto, página impressa e fac-símile, revisão filológica e bibliográfica independente e fichas A–J individualizadas, validação crítica de variantes e testemunhos, testes HTTP e DOM, CI e regressão global, integração final confirmada. NÃO incrementar total_auditoria_concluida.
 PROGRESSO SOMENTE APÓS REVALIDAR HEAD E BLOBS NO GITHUB: 4424 → 4444/8287 = 53,63%; faltam 3843.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 212 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: c2192250129d667eeff89f207f8d76dca50db5bc. Normas efetivamente relidas: Rbdag blob e4f8193a574e3b2c36804cf6ee6bbbf9f5224acd; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca v. 1, tamanho informado 30.790.409 bytes, linhas 47623–47759. 20 artigos autônomos de κτίστης, ου, ὁ até κύμινον, ου, τό; artigo seguinte κυνάριον, ου, τό, na linha 47760, não incluído. Não utilizado PDF. SHA bruto integral da fonte, fac-símile e páginas impressas ainda não verificados.
+TRADUÇÃO INTEGRAL EM PORTUGUÊS BRASILEIRO: preservados paradigmas, formas gregas e semíticas, variantes e remissões, acepções e subacepções, regências, bibliografia, dados documentais, citações bíblicas e extrabíblicas. κτίστης: título de fundadores/governantes em outras fontes e o Criador na literatura abrangida pelo léxico. κυβεία: jogo de dados, metáfora de trapaça, empréstimo talmúdico קוביא. κυβερνήτης: piloto naval e guia figurado. κύκλῳ: advérbio/preposição e alternativas interpretativas de Ro 15:19 mantidas. κυλίω: ação transitiva de fazer rolar e passiva em sentido ativo. κυλλός: adjetivo e substantivado. κυμαίνω: transcrição fragmentária fiel. κύμβαλον: instrumento musical metálico. κύμινον: registro botânico, origem fenícia e hebraico כַּמֹּן.
+COLAÇÃO INDIVIDUAL NFC: HTML → tradução → texto do cartão: 337 sequências gregas, 2 hebraicas, 590 numéricas idênticas na ordem, zero divergências formais. Colação de caracteres não certifica semanticamente cada testemunho.
+RELAÇÃO DOS 20 ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κτίστης, ου, ὁ | 47623–47626 | 57/0/77
+02 | κυβεία, ας, ἡ | 47627–47630 | 13/1/19
+03 | κυβερνάω | 47631–47634 | 18/0/8
+04 | κυβέρνησις, εως, ἡ | 47635–47639 | 6/0/12
+05 | κυβερνήτης, ου, ὁ | 47640–47650 | 22/0/28
+06 | κυβία | 47651–47654 | 2/0/0
+07 | κυέω | 47655–47658 | 2/0/0
+08 | κύθρα, ας, ἡ | 47659–47663 | 6/0/19
+09 | κυκλεύω | 47664–47675 | 14/0/23
+10 | κυκλόθεν | 47676–47687 | 8/0/30
+11 | κυκλόω | 47688–47705 | 20/0/55
+12 | κύκλῳ | 47706–47719 | 78/0/136
+13 | κύλισμα, ματος, τό | 47720–47723 | 4/0/0
+14 | κυλισμός, οῦ, ὁ | 47724–47728 | 12/0/12
+15 | κυλίω | 47729–47739 | 19/0/66
+16 | κυλλός, ή, όν | 47740–47743 | 13/0/20
+17 | κῦμα, ατος, τό | 47744–47747 | 23/0/38
+18 | κυμαίνω | 47748–47751 | 9/0/2
+19 | κύμβαλον, ου, τό | 47752–47755 | 8/0/29
+20 | κύμινον, ου, τό | 47756–47759 | 3/1/16
+CONTROLES ESTÁTICOS: módulo JavaScript que atribui BDAG_PART_0212 com JSON reconstruível, source BDAG e anchors canônicos, 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0212-01 a -20, data-target pareados e texto do cartão colacionado, HTML balanceado, atributos escapados. 34 links NA28, 30 URLs distintas: somente padrões sintáticos, limites de capítulo/versículo; NÃO testada a disponibilidade HTTP nem interfaces DOM, pesquisa real, teclado/foco, acessibilidade, popups, CI ou regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0212.js, inserir UMA linha no lexicon-modules.json após part-0211 antes de leh.js e apensar somente este checkpoint em regras/Rbdag.txt. Não alterar lexicons/bdag.js nem bibliographicTerms, regras/Rauditoria.txt, outros léxicos ou infraestrutura. UM commit filho do HEAD remoto revalidado, update_ref com expected_sha=c2192250129d667eeff89f207f8d76dca50db5bc e force=false, nenhum PR/merge/rebase/branch adicional/deploy.
+AUDITORIA_CONCLUIDA=NÃO; permanecem pendentes SHA bruto/fac-símile/páginas impressas, colação filológica e bibliográfica independente e fichas A–J, conferência crítica de variantes e testemunhos, testes HTTP e DOM reais, CI, regressão global, integração final comprovada. NÃO incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO A HEAD/COMMIT/BLOBS CONFIRMADOS REMOTAMENTE: BDAG 4444 → 4464/8287 = 53,87%; faltam 3823.
+================================================================================
