@@ -760,7 +760,7 @@ window.ScripturaBDBHpt.batch004={
       "headword": "אַחְוָה",
       "ref": "BDB, אַחְוָה",
       "preview": "אַחְוָה: remissão ao radical III. הוה.",
-      "html": "<big><span dir=\"rtl\">אַחְוָה</span></big>  ver <a data-ref=\"BDB Aramaic, קִרְיָה\" href=\"/BDB Aramaic,_קִרְיָה\", dir=\"rtl\">III</a>. <span dir=\"rtl\">הוה</span>.",
+      "html": "<big><span dir=\"rtl\">אַחְוָה</span></big>  ver <span class=\"bdbh-pt-unresolved-xref\" role=\"note\" data-ref=\"BDB Aramaic, קִרְיָה\" data-bdbh-source-href=\"/BDB Aramaic,_קִרְיָה\" title=\"Remissão sem destino certificado na fonte digital; colação material pendente\" aria-label=\"Remissão III de referência incerta; destino não certificado\">III</span>. <span dir=\"rtl\">הוה</span>.",
       "translation_status": "TRADUCAO_INTEGRAL",
       "collation_status": "COLACIONADO",
       "validation_status": "VALIDADO_ESTATICAMENTE",
