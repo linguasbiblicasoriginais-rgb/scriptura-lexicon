@@ -40,7 +40,15 @@
     return html.replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi,function(original,attrs,label){
       const refMatch=attrs.match(/\bdata-ref="([^"]*)"/),urlMatch=attrs.match(/\bhref="([^"]*)"/);
       if(!refMatch||!urlMatch) return original;
-      const ref=refMatch[1],sourceHref=urlMatch[1],originalLabel=label.replace(/<[^>]*>/g,"").trim();
+      const sourceRef=refMatch[1],cert=attrs.match(/\bdata-bdbh-verified-ref="([^"]+)"/);
+      const certifiedCorrections=Object.freeze({
+        "Nehemiah 7:20":"Nehemiah 7:21",
+        "Nehemiah 7:44":"Nehemiah 7:45",
+        "Job 30:19":"Job 38:19",
+        "Job 30:24":"Job 38:24"
+      });
+      if(cert&&certifiedCorrections[sourceRef]!==cert[1])throw Error("BDB-H/PT: emenda de destino não autorizada "+sourceRef+" → "+cert[1]);
+      const ref=cert?cert[1]:sourceRef,sourceHref=urlMatch[1],originalLabel=label.replace(/<[^>]*>/g,"").trim();
       if(ref.startsWith("BDB, ")){
         const lemma=ref.slice(5);
         const lexicalTip="Remissão ao verbete BDB-H "+lemma+". Ativar para pesquisar a entrada no próprio Scriptura Lexicon.";
@@ -68,7 +76,8 @@
       const prefix=book.apocryphal?"#apocrifos/LXX/":"#escrituras/UXLC/";
       const target=prefix+book.id+"."+chapter+"."+(verse===null?1:verse);
       return '<a class="reference-link bdbh-pt-link bdbh-pt-bible-link tooltip-trigger"'
-         +' href="'+target+'" data-ref="'+encode(ref)+'"'
+         +' href="'+target+'" data-ref="'+encode(sourceRef)+'"'
+         +(cert?' data-bdbh-verified-ref="'+encode(ref)+'"':'')
          +' data-bdbh-source-href="'+encode(sourceHref)+'"'
          +' data-bdbh-citation="'+encode(readable)+'"'
          +' aria-label="'+encode(full)+'"'
