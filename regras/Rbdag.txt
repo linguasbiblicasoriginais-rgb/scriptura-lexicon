@@ -9697,3 +9697,37 @@ ESCOPO: adicionar apenas lexicons/bdag-part-0217.js; inserir uma entrada em lexi
 AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto da fonte, páginas impressas e fac-símile, colação semântica e bibliográfica independente por artigo, fichas A–J, crítica de variantes/testemunhos, HTTP/DOM reais, CI e regressão global, integração final comprovada; NÃO incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT NO HEAD: BDAG 4544 → 4564/8287 = 55,07%; faltam 3723.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 218 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: 02874b0e47b6f7e9a3417ad27ff568fe0a2eb13f. Normas relidas: regras/Rbdag.txt blob 57276fcce620c89aa8d33ede21b29472d6b7f173; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", arquivo do usuário, tamanho informado 30.790.409 bytes, linhas 48672–48792. Exatamente 20 artigos autônomos, de λευκοβύσσινος até λιθάζω. Artigo seguinte λίθινος, ίνη, ον na linha 48793 não incluído. PDF e fontes substitutas não utilizados. SHA bruto integral do HTML e fac-símile/páginas impressas não aferidos.
+TRADUÇÃO INTEGRAL PORTUGUESA: lemas, paradigmas, divisões e subacepções, regências, grafias variantes, citações e formas gregas, remissões, bibliografia e graus de certeza preservados. O lote não contém sequências hebraicas na extração canônica. λευκός conserva as duas acepções, brilho e cor branca, com variedade de contextos. λέων conserva os usos literais, simbólicos, apocalípticos e figurados. λῃστής distingue bandido/salteador de insurgente/guerrilheiro, com a cautela historiográfica da fonte. λίαν conserva usos com verbos, adjetivos e advérbios, inclusive posição e função. λίβανος e λιβανωτός distinguem incenso de incensário. Λιβερτῖνος conserva discussão textual Λιβυστῖνος e seu grau de incerteza. λιθάζω conserva contextos jurídico-históricos e referências.
+COLAÇÃO FORMAL INDIVIDUAL NFC: fonte → tradução → texto extraído de cada cartão HTML: 393 sequências gregas, 0 hebraicas e 901 numéricas, mesma ordem e identidade de conteúdo, zero divergências formais. Não equivale a auditoria filológica, semântica, bibliográfica e documental independente.
+ARTIGOS (nº | lema | linhas do HTML | grego/hebraico/números):
+01 | λευκοβύσσινος | 48672–48676 | 2/0/1
+02 | λευκός, ή, όν | 48677–48687 | 55/0/203
+03 | λέων, οντος, ὁ | 48688–48691 | 47/0/101
+04 | λήθη, ης, ἡ | 48692–48695 | 11/0/18
+05 | λῆμμα, ατος, τό | 48696–48699 | 10/0/7
+06 | λῆμψις, εως, ἡ | 48700–48703 | 22/0/10
+07 | ληνός, οῦ, ἡ | 48704–48707 | 25/0/44
+08 | λῆρος, ου, ὁ | 48708–48711 | 12/0/18
+09 | ληρώδης, ες | 48712–48716 | 9/0/11
+10 | λῃστής, οῦ, ὁ | 48717–48727 | 16/0/107
+11 | λῆψις | 48728–48732 | 2/0/0
+12 | λίαν | 48733–48752 | 123/0/196
+13 | λίβα | 48753–48756 | 2/0/0
+14 | Λίβανος, ου, ὁ | 48757–48760 | 3/0/15
+15 | λίβανος, ου, ὁ | 48761–48765 | 5/0/58
+16 | λιβανωτός, οῦ, ὁ | 48766–48776 | 19/0/30
+17 | Λιβερτῖνος, ου, ὁ | 48777–48780 | 5/0/28
+18 | Λιβύη, ης, ἡ | 48781–48784 | 14/0/8
+19 | Λιβυστῖνος | 48785–48788 | 2/0/0
+20 | λιθάζω | 48789–48792 | 9/0/46
+CONTROLES ESTÁTICOS: novo módulo BDAG_PART_0218 com source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0218-01 a -20; data-target 1:1, HTML equilibrado e atributos escapados; texto integral dos cartões idêntico ao rascunho traduzido; links NA28 61 ocorrências e 53 URLs distintas, validado somente o formato. Sem testes HTTP, navegador/DOM, navegação real, busca, teclado/foco, acessibilidade, popups, CI ou regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0218.js, inserir uma linha em lexicon-modules.json após part-0217 antes de leh.js e apensar este checkpoint em regras/Rbdag.txt. Preservados lexicons/bdag.js, bibliographicTerms, Rauditoria, demais léxicos e infraestrutura. Um único commit filho do HEAD remoto revalidado, expected_sha=02874b0e47b6f7e9a3417ad27ff568fe0a2eb13f, force=false; sem PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto da fonte, fac-símile e páginas impressas, cotejo filológico/semântico e bibliográfico independente, fichas A–J, exame crítico de variantes e testemunhos, HTTP/DOM reais, CI/regressão global e confirmação da integração final. NÃO incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT NO HEAD REMOTO: BDAG 4564 → 4584/8287 = 55,32%; 3703 artigos restantes.
+================================================================================
