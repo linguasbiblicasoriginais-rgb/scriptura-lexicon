@@ -49,7 +49,10 @@
   "last_completed_ordinal": 351,
   "last_completed_ref": "BDB, אַחְוָה",
   "last_round_translated_count": 11,
-  "last_round_verified_scope": "341–351: 11 verbetes completos; 129 atributos data-ref (127 bíblicos, 2 lexicais) e 65 sequências em escritas antigas preservados; HTML 11/11 e 11/11 pares de cartões/linhas; 340 traduções anteriores intactas. Anomalia original no ordinal 351: texto III. הוה vs data-ref BDB Aramaic, קִרְיָה, preservada e pendente de verificação material. Não testados fac-símile, navegador real, links, popups, teclado, toque, foco, temas e responsividade.",
+  "last_round_verified_scope": "341–351: 11 verbetes completos; 129 atributos data-ref (127 bíblicos, 2 lexicais) e 65 sequências em escritas antigas preservados; HTML 11/11 e 11/11 pares de cartões/linhas; 340 traduções anteriores intactas. Anomalia original no ordinal 351: texto III. הוה vs data-ref BDB Aramaic, קִרְיָה, preservada e pendente de verificação material. Não testados fac-símile, navegador real, links, popups, teclado, toque, foco, temas e responsividade. Correção posterior de impedimento real de build: remissão BDB Aramaic, קִרְיָה (ordinal 351) é exibida como span não navegável; data-ref e source-href originais preservados; um <a> não certificado foi desativado; sem mudança do inglês ou da contagem de 351.",
   "presentation_canonical_version": "2026-11-15-bdbh-pt-02",
-  "presentation_canonical_rule": "regras/Rbdbh-pt.txt"
+  "presentation_canonical_rule": "regras/Rbdbh-pt.txt",
+  "last_fix_status": "BDBH_PT_00351_UNMAPPED_ARAMAIC_REFERENCE_SAFE_SPAN",
+  "last_fix_commit_parent": "d2ecac0cf5e8cc77e97e9981b56e28f8bb151458",
+  "last_fix_evidence": "relatorios/bdbh-pt-2026-11-16-ordinais-00341-00351.md"
 }
