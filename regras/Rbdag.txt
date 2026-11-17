@@ -9392,3 +9392,37 @@ ESCOPO: somente adicionar lexicons/bdag-part-0208.js, inserir uma linha no lexic
 AUDITORIA_CONCLUIDA=NÃO: pendem SHA da fonte e fac-símile/páginas impressas; revisão filológica, bibliográfica, variantes e testemunhos independentemente; testes de HTTP e navegador/DOM; CI e regressão global; fichas A–J e integração final confirmada pelo integrador. Nenhum contador de auditoria concluída deve ser incrementado.
 PROGRESSO SOMENTE APÓS RECONFIRMAÇÃO REMOTA COMMIT/HEAD/BLOBS: 4364 → 4384/8287 = 52,90%; faltam 3903 artigos.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 209 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE: 5cff42338dc2f0327a8da76d8a6ec9b35f076ea4. Norma Rbdag relida (blob 88705298468a5344c1d70329fd8ff123d05475b2); norma Rauditoria relida (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE EXCLUSIVA: HTML canônico "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Biblioteca versão 1 (tamanho informado 30.790.409 bytes), linhas 47055–47251. Vinte artigos de κουμι até κρείττων, ον,; próximo autônomo κρέμαμαι na linha 47252 (fora do lote). Não usado PDF. Não obtidos SHA bruto integral do HTML, fac-símile nem páginas impressas verificadas.
+TRADUÇÃO INTEGRAL: 20 artigos vertidos ao português brasileiro com paradigmas, regências, nuances, acepções, subacepções, variações textuais, formas gregas e semíticas, remissões lexicais, autores antigos, bibliografia, notações e referências bíblicas e extrabíblicas. Em κράζω diferenciados grito inarticulado, clamor verbal e usos figurados. Em κράσπεδον preservada a ambiguidade entre borda/bainha e franja ritual. Em κρατέω mantidas sete acepções e subacepções α/β/γ com as regências. Em κράτος mantidos poder inerente, feito poderoso e domínio/soberania. Em κράτιστος preservada a ressalva sobre título oficial e uso cortês. Em κρείττων e κρείσσων mantida a distinção do estatuto de remissão e as variantes gráficas, adjetivo e advérbio.
+COLAÇÃO POR ARTIGO: HTML fonte com NFC → tradução integral → texto recuperado dos cartões, 648 sequências gregas, 3 hebraicas (incluindo vocábulo hebraico ritual e expressão de Salmos) e 1.163 numéricas idênticas, ordenadas; zero divergências formais em duas verificações. Controle de caracteres/números não equivale à revisão crítica semântica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | κουμι | 47055–47058 | 2/0/0
+02 | κουστωδία, ας, ἡ | 47059–47062 | 5/0/17
+03 | κουφίζω | 47063–47066 | 10/0/22
+04 | κούφισμα, ατος, τό | 47067–47070 | 13/0/11
+05 | κόφινος, ου, ὁ | 47071–47074 | 14/0/45
+06 | κράβαττος, ου, ὁ | 47075–47079 | 32/0/48
+07 | κράζω | 47080–47102 | 113/0/211
+08 | κραιπάλη, ης, ἡ | 47103–47106 | 16/0/19
+09 | κρανίον, ου, τό | 47107–47111 | 21/0/22
+10 | κράσπεδον, ου, τό | 47112–47122 | 22/1/38
+11 | κραταιός, ά, όν | 47123–47126 | 18/0/49
+12 | κραταιόω | 47127–47131 | 15/0/26
+13 | κρατέω | 47132–47178 | 124/0/219
+14 | κράτιστος, η, ον | 47179–47183 | 14/0/65
+15 | κράτος, ους, τό | 47184–47203 | 70/2/115
+16 | κραυγάζω | 47204–47208 | 26/0/48
+17 | κραυγή, ῆς, ἡ | 47209–47225 | 37/0/82
+18 | κρέας, κρέως | 47226–47229 | 11/0/29
+19 | κρείσσων | 47230–47234 | 2/0/0
+20 | κρείττων, ον, | 47235–47251 | 83/0/97
+VALIDAÇÕES ESTÁTICAS: módulo JS contendo JSON reconstruível, 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0209-01 a -20, pareamento data-target, HTML balanceado por pilha e extração de texto dos cartões. Links NA28: 129 ocorrências, 126 URLs distintas, somente sintaxe e limites estáticos de livros/capítulos/versículos; não comprovada disponibilidade HTTP. Sem testes DOM/navegador, teclado/foco/acessibilidade, CI, regressão global ou auditoria filológica independente.
+ESCOPO EXCLUSIVO: criar lexicons/bdag-part-0209.js, adicionar apenas "lexicons/bdag-part-0209.js" depois de part-0208 em lexicon-modules.json, apensar somente este checkpoint a regras/Rbdag.txt. Preservar bdag.js e bibliographicTerms, Rauditoria, outros léxicos, scripts, infraestrutura e branches. Um commit filho do HEAD remoto revalidado, atualização com expected_sha=5cff42338dc2f0327a8da76d8a6ec9b35f076ea4 e force=false. Nenhum PR, merge, rebase, branch extra ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes obtenção SHA bruto integral e fac-símile/páginas, cotejo de variantes/testemunhos, revisão editorial independente e fichas A–J, HTTP, DOM, CI/regressão e integração confirmada. NÃO incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO HEAD E BLOBS NO GITHUB: 4384 → 4404/8287 = 53,14%; faltam 3883.
+================================================================================
