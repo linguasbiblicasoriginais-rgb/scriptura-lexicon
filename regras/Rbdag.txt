@@ -9731,3 +9731,37 @@ ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0218.js, inserir uma linha em lex
 AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto da fonte, fac-símile e páginas impressas, cotejo filológico/semântico e bibliográfico independente, fichas A–J, exame crítico de variantes e testemunhos, HTTP/DOM reais, CI/regressão global e confirmação da integração final. NÃO incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT NO HEAD REMOTO: BDAG 4564 → 4584/8287 = 55,32%; 3703 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 219 — 17/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: 313a79bbdce0473df133c97594b6d9b525b60182. Normas relidas: regras/Rbdag.txt blob 8852bc5b61043ed2632e791ed3d493aa10059d99; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html" do usuário, linhas 48793–48945, exatamente 20 artigos autônomos de λίθινος, ίνη, ον até λίτρα, ας, ἡ. O próximo artigo λίψ, λιβός, ὁ começa na linha 48946 e não foi incluído. Não se usaram PDF ou fontes substitutas. SHA bruto integral do HTML, fac-símile e páginas impressas não aferidos.
+TRADUÇÃO EM PORTUGUÊS: preservados todos os lemas, paradigmas, grafias gregas e hebraicas, variantes, acepções e subacepções, regências, referências bíblicas e extrabíblicas, remissões, bibliografia e cautelas interpretativas. λίθος conserva os usos de pedra geral, materiais de construção, gemas, mós, pedras sepulcrais, imagens pétreas, metáforas cristológicas e de pedras vivas. λιθοβολέω mantém atirar pedras e apedrejar até a morte como acepções distintas. λίμνη mantém lago natural, lago de fogo e lago de salvação. λιμός distingue fome individual e carestia. λίνον distingue pavio, vestimenta e rede. λίτρα preserva a medida romana 327.45 gramas.
+COLAÇÃO FORMAL INDIVIDUAL NFC: fonte → tradução → texto extraído de cada cartão HTML: 378 sequências gregas, 1 hebraica e 917 numéricas, mesma identidade e ordem, zero divergências formais. Esta colação não constitui auditoria independente semântica, filológica e bibliográfica.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/números):
+01 | λίθινος, ίνη, ον | 48793–48797 | 28/0/62
+02 | λιθοβολέω | 48798–48808 | 13/0/41
+03 | λιθοξόος, ου, ὁ | 48809–48813 | 5/0/10
+04 | λίθος, ου, ὁ | 48814–48842 | 111/0/311
+05 | λιθόστρωτος, ον | 48843–48846 | 20/0/55
+06 | λικμάω | 48847–48850 | 22/0/26
+07 | λιμά, | 48851–48854 | 3/0/0
+08 | λιμήν, ένος, ὁ | 48855–48858 | 13/0/30
+09 | λίμμα | 48859–48863 | 2/0/0
+10 | λίμνη, ης, ἡ | 48864–48887 | 40/1/49
+11 | λιμός, οῦ, ὁ | 48888–48898 | 45/0/149
+12 | λινοκαλάμη, ης, ἡ | 48899–48903 | 5/0/7
+13 | λίνον, ου, τό | 48904–48917 | 13/0/39
+14 | Λίνος, ου, ὁ | 48918–48921 | 4/0/16
+15 | λινοῦς, ῆ, οῦν | 48922–48925 | 11/0/30
+16 | λιπαίνω | 48926–48929 | 7/0/18
+17 | λιπαρός, ά, όν | 48930–48933 | 15/0/17
+18 | λιποτακτέω | 48934–48937 | 2/0/0
+19 | λιτανεύω | 48938–48941 | 16/0/20
+20 | λίτρα, ας, ἡ | 48942–48945 | 3/0/37
+CONTROLES ESTÁTICOS: módulo BDAG_PART_0219 com source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0219-01 a -20 e data-target 1:1; HTML equilibrado, atributos escapados, texto integral dos cartões coincidente com o rascunho; 71 links NA28 e 65 destinos distintos, somente padrões de URLs testados. Sem execução de testes HTTP, navegador/DOM, pesquisa real, teclado/foco, acessibilidade, popups ou regressão global.
+ESCOPO EXCLUSIVO: adicionar lexicons/bdag-part-0219.js, inserir uma linha em lexicon-modules.json imediatamente após part-0218 e antes de leh.js e apensar este checkpoint em regras/Rbdag.txt. Preservar lexicons/bdag.js, bibliographicTerms, Rauditoria, demais léxicos e infraestrutura. Um commit com parent HEAD remoto atual, update_ref expected_sha=313a79bbdce0473df133c97594b6d9b525b60182 e force=false, sem PR, merge, rebase, branch nova ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto da fonte, fac-símile e páginas impressas, revisão e cotejo filológico/bibliográfico independente por artigo, controles A–J, confirmação crítica das variantes e testemunhos, testes HTTP/DOM/CI/regressão, integração definitiva confirmada. Não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO COMMIT REMOTO: BDAG 4584 → 4604/8287 = 55,56%; 3683 restantes.
+================================================================================
