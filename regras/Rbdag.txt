@@ -9901,3 +9901,37 @@ ESCOPO RESTRITO: módulo lexicons/bdag-part-0223.js, entrada única em lexicon-m
 AUDITORIA_CONCLUIDA=NÃO: pendem cotejo facsimilar, revisão independente dos 20 artigos, requisitos A–J, testes reais HTTP/DOM/CI, regressão e integração confirmada.
 PROGRESSO CONDICIONAL À CONFIRMAÇÃO REMOTA: BDAG 4664 → 4684/8287 = 56,52%; 3603 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 224 — 18/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL E PAI DO COMMIT: e76eff947f2829f75c938edeea12b76b3f14d4f9. Fontes normativas relidas no mesmo HEAD: regras/Rbdag.txt blob 0428266821befa791b2e412cda75d713ec0916e3; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML do usuário "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 49586–49777; 20 artigos autônomos consecutivos de μαίνομαι a μαλακός, ή, όν. Próximo lema excluído: Μαλελεήλ, ὁ, linha 49778. Não recorrer a PDFs nem a outros léxicos; o SHA bruto integral do HTML e cotejo facsimilar ainda não foram verificados.
+TRADUÇÃO: 20 artigos completos preparados em português brasileiro com lemas, paradigmas, regências, divisão de sentidos, variantes, testemunhos, remissões e bibliografia conservados. μακάριος conserva as duas acepções gerais e subgrupos; μάκελλον distingue testemunhos e propostas etimológicas; μακράν distingue emprego espacial literal, transferido, preposicional e temporal; μακροθυμέω preserva interpretação discutida de Lk 18:7; μαλακός conserva a delimitação semântica do segundo sentido e as ressalvas tradutórias do léxico. A expressão textual "the transl. 0" na fonte de μακάριος foi representada pelo número literal 0, sem emenda silenciosa.
+COLAÇÃO FORMAL INDIVIDUAL EM NFC: comparações fonte → tradução → texto efetivamente extraído do cartão renderizado (controle estático). 636 sequências gregas, 2 hebraicas, 1.307 numéricas: identidade e ordem exatas em cada um dos 20 artigos. Os nomes de obras e os títulos bibliográficos originais foram mantidos. A colação formal não substitui cotejo facsimilar nem auditoria filológica, semântica e bibliográfica independente.
+ARTIGOS (nº | lema | linhas HTML | grego/hebraico/número):
+01 | μαίνομαι | 49586–49589 | 34/0/51
+02 | μακαρίζω | 49590–49594 | 28/0/67
+03 | μακάριος, ία, ιον | 49595–49626 | 149/1/338
+04 | μακαρισμός, οῦ, ὁ | 49627–49630 | 11/1/41
+05 | Μακεδονία, ας, ἡ | 49631–49634 | 4/0/46
+06 | Μακεδών, όνος, ὁ | 49635–49638 | 6/0/26
+07 | μάκελλον, ου, τό | 49639–49643 | 22/0/70
+08 | μακράν | 49644–49666 | 165/0/148
+09 | μακρόβιος, ον | 49667–49670 | 6/0/7
+10 | μακρόθεν | 49671–49675 | 44/0/95
+11 | μακροθυμέω | 49676–49690 | 33/0/90
+12 | μακροθυμία, ας, ἡ | 49691–49714 | 31/0/114
+13 | μακρόθυμος, ον | 49715–49725 | 11/0/50
+14 | μακροθύμως | 49726–49730 | 4/0/2
+15 | μακρός, ά, όν | 49731–49741 | 23/0/25
+16 | μακροχρόνιος, ον | 49742–49745 | 13/0/12
+17 | μάλα | 49746–49750 | 2/0/0
+18 | μαλακία, ας, ἡ | 49751–49761 | 9/0/41
+19 | μαλακίζομαι | 49762–49766 | 18/0/32
+20 | μαλακός, ή, όν | 49767–49777 | 23/0/52
+CONTROLES ESTÁTICOS REALIZADOS: módulo BDAG_PART_0224, source=BDAG, searchAnchorId, entryAnchorId, rowsHtml, cardsHtml; 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0224-01 a entry-bdag-0224-20; data-target e id 1:1, nenhum órfão, HTML estruturalmente equilibrado, caracteres escapados e texto de cartões integralmente igual à tradução. Referências do NT em 107 âncoras NA28, 96 URLs distintas, sintaxe verificada, sem teste HTTP dos destinos. Módulo registrado uma única vez após part-0223 no manifesto; nenhuma edição de bibliographicTerms.
+ESCOPO RESTRITO A TRÊS ARQUIVOS: lexicons/bdag-part-0224.js, lexicon-modules.json, regras/Rbdag.txt. Preservar regras/Rauditoria.txt, lexicons/bdag.js, outros léxicos e infraestrutura. Exatamente um commit com parent=e76eff947f2829f75c938edeea12b76b3f14d4f9, expected_sha=e76eff947f2829f75c938edeea12b76b3f14d4f9, force=false, sem PR, merge, rebase, branches auxiliares ou deploy.
+TESTES NÃO EXECUTADOS: links HTTP, navegador real/DOM, busca e seleção, navegação por teclado/foco, acessibilidade, CI, regressão funcional global. AUDITORIA_CONCLUIDA=NÃO. Pendem SHA integral da fonte, cotejo com páginas impressas, revisão independente, requisitos A–J por verbete e comprovação da integração final; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO NOVO HEAD REMOTO: BDAG 4684 → 4704/8287 = 56,76%; 3583 artigos restantes.
+================================================================================
