@@ -9833,3 +9833,37 @@ ESCOPO RESTRITO: adicionar lexicons/bdag-part-0221.js, inserir uma única refer�
 AUDITORIA_CONCLUIDA=NÃO. Pendentes SHA bruto integral da fonte, cotejo facsimilar, revisão filológica/semântica/bibliográfica independente, critérios A–J individualizados, crítica de testemunhos e variantes, HTTP/DOM reais, CI e regressão global, confirmação de integração final. Não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO NOVO HEAD REMOTO: BDAG 4624 → 4644/8287 = 56,04%; 3643 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 222 — 18/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: 3e9ce37a63dedb465d2957775cf4ef016d84d444. Normas relidas: regras/Rbdag.txt blob 55578b9f33f7759c39b569d55c16722c9c99a43e; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML do usuário "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 49299–49449, 20 artigos autônomos, de λύτρον, ου, τό a μάγος, οὑ, ὁ. O artigo seguinte Μαγώγ, ὁ começa na linha 49450 e não foi incluído. Sem substituir a fonte por PDF ou fonte externa; SHA bruto integral do HTML, fac-símile e paginação impressa não aferidos.
+TRADUÇÃO PORTUGUESA: mantidos lemas, paradigmas, formas gregas e hebraicas, variantes, acepções e subacepções, regências, remissões, bibliografia e referências canônicas e extrabíblicas. Distinções preservadas: λύτρον como quantia de resgate e seu emprego redentivo; λυτρόω e λύτρωσις, usos literais, figurados e técnicos; λύχνος versus λυχνία; λύω nas acepções ①–⑤ (desatar, libertar, desmantelar, abolir e a fórmula ligar/desligar); Μαγαδάν e variantes locais; μάγος como sacerdote-sábio dos magos e como praticante de magia. As possibilidades e reservas filológicas e históricas foram conservadas.
+COLAÇÃO FORMAL INDIVIDUAL NFC: fonte → tradução → texto extraído de cada cartão HTML, 617 sequências gregas, 3 hebraicas e 1110 numéricas, em mesma identidade e ordem nos 20 artigos, sem divergências de tokens. Colação formal não substitui auditoria independente semântica, filológica e bibliográfica.
+ARTIGOS (número | lema | intervalo das linhas HTML | sequências grego/hebraico/número):
+01 | λύτρον, ου, τό | 49299–49303 | 56/1/108
+02 | λυτρόω | 49304–49321 | 88/0/118
+03 | λύτρωσις, εως, ἡ | 49322–49332 | 29/0/21
+04 | λυτρωτής, οῦ, ὁ | 49333–49336 | 4/0/14
+05 | λυχνία, ας, ἡ | 49337–49341 | 22/0/46
+06 | λύχνος, ου, ὁ | 49342–49353 | 80/0/141
+07 | λύω | 49354–49385 | 191/0/318
+08 | Λωί̈ς, ί̈δος, ἡ | 49386–49389 | 17/0/10
+09 | Λώτ, ὁ | 49390–49397 | 5/1/28
+10 | μ´ | 49398–49401 | 4/0/21
+11 | Μάαθ, ὁ | 49402–49405 | 4/1/10
+12 | Μαγαδάν, ἡ | 49406–49409 | 9/0/14
+13 | Μαγδαλά(ν) | 49410–49413 | 3/0/0
+14 | Μαγδαληνή, ῆς, ἡ | 49414–49417 | 8/0/27
+15 | Μαγεδών | 49418–49421 | 4/0/0
+16 | μαγεία, ας, ἡ | 49422–49425 | 29/0/41
+17 | μαγεύω | 49426–49429 | 9/0/18
+18 | μαγία | 49430–49433 | 2/0/0
+19 | Μαγνησία, ας, ἡ | 49434–49438 | 20/0/28
+20 | μάγος, οὑ, ὁ | 49439–49449 | 33/0/147
+CONTROLES ESTÁTICOS: módulo BDAG_PART_0222 com source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0222-01 até -20 e data-target 1:1; HTML equilibrado, atributos escapados, texto integral dos cartões idêntico à tradução; 76 links NA28 e 72 destinos distintos com sintaxe de URL validada. Não foram executados HTTP, testes reais de links, DOM, navegador, teclado/foco, acessibilidade, CI ou regressão global.
+ESCOPO E SEGURANÇA: adicionar lexicons/bdag-part-0222.js; inserir uma entrada em lexicon-modules.json após bdag-part-0221.js e antes de leh.js; apensar este checkpoint a regras/Rbdag.txt. Preservar regras/Rauditoria.txt, lexicons/bdag.js, bibliographicTerms, demais léxicos e infraestrutura. Um commit, parent remoto atual 3e9ce37a63dedb465d2957775cf4ef016d84d444, update_ref com expected_sha=3e9ce37a63dedb465d2957775cf4ef016d84d444, force=false; nenhum PR, merge, rebase, branch adicional ou deploy.
+AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto integral da fonte, cotejo com fac-símile e páginas impressas, revisão semântica/filológica/bibliográfica independente, critérios A–J individualizados, crítica das variantes e testemunhos, testes HTTP/DOM e CI, regressão global e confirmação da integração final. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO A CONFIRMAÇÃO REMOTA: BDAG 4644 → 4664/8287 = 56,28%; 3623 artigos restantes.
+================================================================================
