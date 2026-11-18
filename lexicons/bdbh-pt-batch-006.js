@@ -1,0 +1,454 @@
+"use strict";
+/* BDB-H/PT 006: traduções integrais dos ordinais 501–527; fonte inglesa congelada e independente. */
+window.ScripturaBDBHpt=window.ScripturaBDBHpt||{};
+window.ScripturaBDBHpt.batch006={
+  "sourceModule": "bdbh-batch-006",
+  "sourceBlobSha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+  "records": [
+    {
+      "ordinal": 501,
+      "headword": "אֱלִיפָל",
+      "ref": "BDB, אֱלִיפָל",
+      "preview": "אֱלִיפָל: Deus julgou; um dos valentes de Davi.",
+      "html": "† <big><span dir=\"rtl\">אֱלִיפָל</span></big>  <strong>s.pr.m. (</strong><em>Deus julgou</em><strong>)</strong> um dos valentes de Davi <a data-ref=\"I Chronicles 11:35\" href=\"/I_Chronicles.11.35\">1 Ch 11:35</a> (mas ver <span class=\"bdbh-pt-unresolved-xref\" role=\"note\" lang=\"he\" dir=\"rtl\" data-ref=\"BDB, אלה\" data-bdbh-source-href=\"/BDB,_אלה\" title=\"Texto visível e destino lexical divergem; remissão original preservada, clique suspenso\">אֱלִיפֶלֶט</span> <a data-ref=\"II Samuel 23:34\" href=\"/II_Samuel.23.34\">2 S 23:34</a>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 502,
+      "headword": "אֱלִיפְלֵ֫הוּ",
+      "ref": "BDB, אֱלִיפְלֵ֫הוּ",
+      "preview": "אֱלִיפְלֵ֫הוּ: que Deus o distinga; um dos porteiros.",
+      "html": "† <big><span dir=\"rtl\">אֱלִיפְלֵ֫הוּ</span></big>  <strong>s.pr.m. (</strong><em>que Deus o distinga</em><strong>)</strong> um dos porteiros <a data-ref=\"I Chronicles 15:18\" href=\"/I_Chronicles.15.18\">1 Ch 15:18</a>, <a data-ref=\"I Chronicles 15:21\" href=\"/I_Chronicles.15.21\">21</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 503,
+      "headword": "אֱלִיפֶ֫לֶט",
+      "ref": "BDB, אֱלִיפֶ֫לֶט",
+      "preview": "אֱלִיפֶ֫לֶט: Deus é libertação; cinco pessoas, variantes e referências.",
+      "html": "† <big><span dir=\"rtl\">אֱלִיפֶ֫לֶט</span></big>  (<span dir=\"rtl\">־פָ֑לֶט</span> <a data-ref=\"II Samuel 5:16\" href=\"/II_Samuel.5.16\">2 S 5:16</a> +) <strong>s.pr.m. (</strong><em>Deus é libertação</em>, cf. <a data-ref=\"BDB, פַּלְטִיאֵל\" href=\"/BDB,_פַּלְטִיאֵל\", dir=\"rtl\">פַּלְטִיאֵל</a><strong>) </strong><br><strong>a.</strong> filho de Davi <a data-ref=\"II Samuel 5:16\" href=\"/II_Samuel.5.16\">2 S 5:16</a> <a data-ref=\"I Chronicles 3:6\" href=\"/I_Chronicles.3.6\">1 Ch 3:6</a>, <a data-ref=\"I Chronicles 3:8\" href=\"/I_Chronicles.3.8\">8</a>; <a data-ref=\"I Chronicles 14:7\" href=\"/I_Chronicles.14.7\">14:7</a>; = <span dir=\"rtl\">אֶלְפָּ֑לֶט</span> <a data-ref=\"I Chronicles 14:5\" href=\"/I_Chronicles.14.5\">1 Ch 14:5</a>.<br><strong>b.</strong> um dos valentes de Davi <a data-ref=\"II Samuel 23:34\" href=\"/II_Samuel.23.34\">2 S 23:34</a> (cf. também <a data-ref=\"BDB, אֱלִיפָל\" href=\"/BDB,_אֱלִיפָל\", dir=\"rtl\">אֱלִיפָל</a> <a data-ref=\"I Chronicles 11:35\" href=\"/I_Chronicles.11.35\">1 Ch 11:35</a>).<br><strong>c.</strong> um benjamita <a data-ref=\"I Chronicles 8:39\" href=\"/I_Chronicles.8.39\">1 Ch 8:39</a>.<br><strong>d.</strong> um descendente de Adonicão <a data-ref=\"Ezra 8:13\" href=\"/Ezra.8.13\">Ezr 8:13</a>.<br><strong>e.</strong> um descendente de Hasum <a data-ref=\"Ezra 10:33\" href=\"/Ezra.10.33\">Ezr 10:33</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 504,
+      "headword": "אֱלִיצוּר",
+      "ref": "BDB, אֱלִיצוּר",
+      "preview": "אֱלִיצוּר: Rocha é Deus; chefe de Rúben.",
+      "html": "† <big><span dir=\"rtl\">אֱלִיצוּר</span></big>  <strong>s.pr.m. (</strong><span dir=\"rtl\">צור</span> <em>Rocha é Deus</em>, cf. <a data-ref=\"Deuteronomy 32:4\" href=\"/Deuteronomy.32.4\">Dt 32:4</a>; ver também <a data-ref=\"BDB, צוּרִיאֵל\" href=\"/BDB,_צוּרִיאֵל\", dir=\"rtl\">צוּרִיאֵל</a><strong>)</strong> chefe de Rúben <a data-ref=\"Numbers 1:5\" href=\"/Numbers.1.5\">Nu 1:5</a>; <a data-ref=\"Numbers 2:10\" href=\"/Numbers.2.10\">2:10</a>; <a data-ref=\"Numbers 7:30\" href=\"/Numbers.7.30\">7:30</a>, <a data-ref=\"Numbers 7:35\" href=\"/Numbers.7.35\">35</a>; <a data-ref=\"Numbers 10:18\" href=\"/Numbers.10.18\">10:18</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 505,
+      "headword": "אֱלִיצָפָן",
+      "ref": "BDB, אֱלִיצָפָן",
+      "preview": "אֱלִיצָפָן: Deus protegeu; chefes coatita e zebulonita.",
+      "html": "† <big><span dir=\"rtl\">אֱלִיצָפָן</span></big>  <strong>s.pr.m. (</strong><em>Deus protegeu</em>, cf. fenício <span dir=\"rtl\">צפנבעל</span><strong>) </strong><br><strong>a.</strong> chefe dos coatitas <a data-ref=\"Numbers 3:30\" href=\"/Numbers.3.30\">Nu 3:30</a> <a data-ref=\"I Chronicles 15:8\" href=\"/I_Chronicles.15.8\">1 Ch 15:8</a> <a data-ref=\"II Chronicles 29:13\" href=\"/II_Chronicles.29.13\">2 Ch 29:13</a>; = <span dir=\"rtl\">אֶלְצָפָן</span> <a data-ref=\"Exodus 6:22\" href=\"/Exodus.6.22\">Ex 6:22</a> <a data-ref=\"Leviticus 10:4\" href=\"/Leviticus.10.4\">Lv 10:4</a>.<br><strong>b.</strong> chefe de Zebulom <a data-ref=\"Numbers 34:25\" href=\"/Numbers.34.25\">Nu 34:25</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 506,
+      "headword": "אֱלִיקָא",
+      "ref": "BDB, אֱלִיקָא",
+      "preview": "אֱלִיקָא: nome masculino de etimologia incerta; valente de Davi.",
+      "html": "† <big><span dir=\"rtl\">אֱלִיקָא</span></big>  <strong>s.pr.m. (</strong>? ausente da 𝔊, <a data-ref=\"I Chronicles 11:27\" href=\"/I_Chronicles.11.27\">1 Ch 11:27</a> Dr<strong>)</strong> um dos valentes de Davi <a data-ref=\"II Samuel 23:25\" href=\"/II_Samuel.23.25\">2 S 23:25</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 507,
+      "headword": "אֶלְיָקִים",
+      "ref": "BDB, אֶלְיָקִים",
+      "preview": "אֶלְיָקִים: Deus estabelece; administrador, rei e sacerdote.",
+      "html": "† <big><span dir=\"rtl\">אֶלְיָקִים</span></big>  <strong>s.pr.m. (</strong><em>Deus estabelece</em>, cf. sabeu <span dir=\"rtl\">הקמאל</span>, <span dir=\"rtl\">יקמאל</span> Hal<sup>615</sup><strong>) </strong><br><strong>a.</strong> administrador do palácio de Ezequias <a data-ref=\"II Kings 18:18\" href=\"/II_Kings.18.18\">2 K 18:18</a>, <a data-ref=\"II Kings 18:26\" href=\"/II_Kings.18.26\">26</a>, <a data-ref=\"II Kings 18:37\" href=\"/II_Kings.18.37\">37</a>; <a data-ref=\"II Kings 19:2\" href=\"/II_Kings.19.2\">19:2</a> <a data-ref=\"Isaiah 22:20\" href=\"/Isaiah.22.20\">Is 22:20</a>; <a data-ref=\"Isaiah 36:3\" href=\"/Isaiah.36.3\">36:3</a>, <a data-ref=\"Isaiah 36:11\" href=\"/Isaiah.36.11\">11</a>, <a data-ref=\"Isaiah 36:22\" href=\"/Isaiah.36.22\">22</a>; <a data-ref=\"Isaiah 37:2\" href=\"/Isaiah.37.2\">37:2</a>.<br><strong>b.</strong> filho de Josias, constituído rei pelo faraó <a data-ref=\"II Kings 23:34\" href=\"/II_Kings.23.34\">2 K 23:34</a> <a data-ref=\"II Chronicles 36:4\" href=\"/II_Chronicles.36.4\">2 Ch 36:4</a>; = <span dir=\"rtl\">יְהוֹיָקִים</span> <a data-ref=\"II Kings 24:1\" href=\"/II_Kings.24.1\">2 K 24:1</a> <a data-ref=\"Jeremiah 1:3\" href=\"/Jeremiah.1.3\">Je 1:3</a> <a data-ref=\"I Chronicles 3:15\" href=\"/I_Chronicles.3.15\">1 Ch 3:15</a>.<br><strong>c.</strong> um sacerdote <a data-ref=\"Nehemiah 12:41\" href=\"/Nehemiah.12.41\">Ne 12:41</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 508,
+      "headword": "אֱלִישֶׁ֫בַע",
+      "ref": "BDB, אֱלִישֶׁ֫בַע",
+      "preview": "אֱלִישֶׁ֫בַע: Deus é juramento; esposa de Arão.",
+      "html": "† <big><span dir=\"rtl\">אֱלִישֶׁ֫בַע</span></big>  <strong>s.pr.f. (</strong><em>Deus é juramento</em>, pelo qual se jura, cf. <a data-ref=\"Isaiah 19:18\" href=\"/Isaiah.19.18\">Is 19:18</a> <a data-ref=\"Amos 8:14\" href=\"/Amos.8.14\">Am 8:14</a> <a data-ref=\"Zephaniah 1:5\" href=\"/Zephaniah.1.5\">Zp 1:5</a><strong>)</strong> esposa de Arão <a data-ref=\"Exodus 6:23\" href=\"/Exodus.6.23\">Ex 6:23</a>; = Ἐλεισαβεθ na 𝔊; cf. Lc <span class=\"bdbh-pt-unresolved-xref\" role=\"note\" data-ref=\"Exodus 1:5\" data-bdbh-source-href=\"/Exodus.1.5\" title=\"Fonte cita Lu 1:5, mas o metadado digital aponta para Êxodo 1.5; clique suspenso\">1.5</span>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 509,
+      "headword": "אֱלִישׁוּעַ",
+      "ref": "BDB, אֱלִישׁוּעַ",
+      "preview": "אֱלִישׁוּעַ: Deus é salvação, ou prosperidade; filho de Davi.",
+      "html": "† <big><span dir=\"rtl\">אֱלִישׁוּעַ</span></big>  <strong>s.pr.m. (</strong><em>Deus é salvação</em>, cf. <a data-ref=\"BDB, אֱלִישָׁע\" href=\"/BDB,_אֱלִישָׁע\", dir=\"rtl\">אֱלִישָׁע</a> abaixo; ou <em>é prosperidade</em>, cf. <a data-ref=\"BDB, אֲבִישׁוּעַ\" href=\"/BDB,_אֲבִישׁוּעַ\", dir=\"rtl\">אֲבִישׁוּעַ</a><strong>)</strong> filho de Davi <a data-ref=\"II Samuel 5:15\" href=\"/II_Samuel.5.15\">2 S 5:15</a>; <a data-ref=\"I Chronicles 14:5\" href=\"/I_Chronicles.14.5\">1 Ch 14:5</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 510,
+      "headword": "אֶלְיָשִׁיב",
+      "ref": "BDB, אֶלְיָשִׁיב",
+      "preview": "אֶלְיָשִׁיב: Deus restaura; seis personagens.",
+      "html": "† <big><span dir=\"rtl\">אֶלְיָשִׁיב</span></big>  <strong>s.pr.m. (</strong><em>Deus restaura</em>, cf. Nes<sup>Eg194</sup> e sabeu <span dir=\"rtl\">תֿובאל</span> DHM<sup>ZMG 1883, 16</sup><strong>) </strong><br><strong>a.</strong> um descendente de Davi <a data-ref=\"I Chronicles 3:24\" href=\"/I_Chronicles.3.24\">1 Ch 3:24</a>.<br><strong>b.</strong> sacerdote do tempo de Davi <a data-ref=\"I Chronicles 24:12\" href=\"/I_Chronicles.24.12\">1 Ch 24:12</a>.<br><strong>c.</strong> sumo sacerdote do tempo de Neemias <a data-ref=\"Ezra 10:6\" href=\"/Ezra.10.6\">Ezr 10:6</a>; <a data-ref=\"Nehemiah 3:1\" href=\"/Nehemiah.3.1\">Ne 3:1</a>, <a data-ref=\"Nehemiah 3:20\" href=\"/Nehemiah.3.20\">20</a>, <a data-ref=\"Nehemiah 3:21\" href=\"/Nehemiah.3.21\">21</a><sup>(×2)</sup>; <a data-ref=\"Nehemiah 12:10\" href=\"/Nehemiah.12.10\">12:10</a><sup>(×2)</sup>, <a data-ref=\"Nehemiah 12:22\" href=\"/Nehemiah.12.22\">22</a>, <a data-ref=\"Nehemiah 12:23\" href=\"/Nehemiah.12.23\">23</a>; <a data-ref=\"Nehemiah 13:4\" href=\"/Nehemiah.13.4\">13:4</a>, <a data-ref=\"Nehemiah 13:7\" href=\"/Nehemiah.13.7\">7</a>, <a data-ref=\"Nehemiah 13:28\" href=\"/Nehemiah.13.28\">28</a>.<br><strong>d.</strong> um cantor <a data-ref=\"Ezra 10:24\" href=\"/Ezra.10.24\">Ezr 10:24</a>.<br><strong>e.</strong> um descendente de Zatu <a data-ref=\"Ezra 10:27\" href=\"/Ezra.10.27\">Ezr 10:27</a>.<br><strong>f.</strong> um descendente de Bani <a data-ref=\"Ezra 10:36\" href=\"/Ezra.10.36\">Ezr 10:36</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 511,
+      "headword": "אֱלִישָׁמָע",
+      "ref": "BDB, אֱלִישָׁמָע",
+      "preview": "אֱלִישָׁמָע: Deus ouviu; seis personagens.",
+      "html": "† <big><span dir=\"rtl\">אֱלִישָׁמָע</span></big>  <strong>(</strong><em>Deus ouviu</em>, cf. <a data-ref=\"BDB, יִשְׁמָעֵאל\" href=\"/BDB,_יִשְׁמָעֵאל\", dir=\"rtl\">יִשְׁמָעֵאל</a>, e sabeu <span dir=\"rtl\">אלסמע</span>, <span dir=\"rtl\">יסמעאל</span> Hal<sup>187, 193</sup><strong>) </strong><br><strong>a.</strong> chefe de Efraim <a data-ref=\"Numbers 1:10\" href=\"/Numbers.1.10\">Nu 1:10</a>; <a data-ref=\"Numbers 2:18\" href=\"/Numbers.2.18\">2:18</a>; <a data-ref=\"Numbers 7:48\" href=\"/Numbers.7.48\">7:48</a>, <a data-ref=\"Numbers 7:53\" href=\"/Numbers.7.53\">53</a>; <a data-ref=\"Numbers 10:22\" href=\"/Numbers.10.22\">10:22</a>; <a data-ref=\"I Chronicles 7:26\" href=\"/I_Chronicles.7.26\">1 Ch 7:26</a>.<br><strong>b.</strong> filho de Davi <a data-ref=\"II Samuel 5:16\" href=\"/II_Samuel.5.16\">2 S 5:16</a> <a data-ref=\"I Chronicles 3:6\" href=\"/I_Chronicles.3.6\">1 Ch 3:6</a>, <a data-ref=\"I Chronicles 3:8\" href=\"/I_Chronicles.3.8\">8</a>; <a data-ref=\"I Chronicles 14:7\" href=\"/I_Chronicles.14.7\">14:7</a>.<br><strong>c.</strong> escriba de Jeoaquim <a data-ref=\"Jeremiah 36:12\" href=\"/Jeremiah.36.12\">Je 36:12</a>, <a data-ref=\"Jeremiah 36:20\" href=\"/Jeremiah.36.20\">20</a>, <a data-ref=\"Jeremiah 36:21\" href=\"/Jeremiah.36.21\">21</a>.<br><strong>d.</strong> um membro da linhagem real <a data-ref=\"II Kings 25:25\" href=\"/II_Kings.25.25\">2 K 25:25</a>; <a data-ref=\"Jeremiah 41:1\" href=\"/Jeremiah.41.1\">Je 41:1</a>.<br><strong>e.</strong> um homem de Judá <a data-ref=\"I Chronicles 2:41\" href=\"/I_Chronicles.2.41\">1 Ch 2:41</a>.<br><strong>f.</strong> um sacerdote <a data-ref=\"II Chronicles 17:8\" href=\"/II_Chronicles.17.8\">2 Ch 17:8</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 512,
+      "headword": "אֱלִישָׁע",
+      "ref": "BDB, אֱלִישָׁע",
+      "preview": "אֱלִישָׁע: Deus é salvação; o profeta Eliseu.",
+      "html": "<big><span dir=\"rtl\">אֱלִישָׁע</span></big>  <strong>s.pr.m. (</strong><em>Deus é salvação</em>, cf. <a data-ref=\"BDB, אֱלִישׁוּעַ\" href=\"/BDB,_אֱלִישׁוּעַ\", dir=\"rtl\">אֱלִישׁוּעַ</a>, sabeu <span dir=\"rtl\">יתֿעאל</span> DHM<sup>ZMG 1883, 15</sup><strong>)</strong> o profeta Eliseu, sucessor de Elias <a data-ref=\"I Kings 19:16\" href=\"/I_Kings.19.16\">1 K 19:16</a> + 57 ocorrências, todas em Reis; Ἐλισα, Ἐλισαιε na 𝔊; Ἐλισαιος em Lc 4.27.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 513,
+      "headword": "אֱלִישָׁפָט",
+      "ref": "BDB, אֱלִישָׁפָט",
+      "preview": "אֱלִישָׁפָט: Deus julgou; capitão do tempo de Joiada.",
+      "html": "† <big><span dir=\"rtl\">אֱלִישָׁפָט</span></big>  <strong>s.pr.m. (</strong><em>Deus julgou</em>, fenício <span dir=\"rtl\">בעלשפט</span>, <span dir=\"rtl\">שפטבעל</span><strong>)</strong> um capitão no tempo de Joiada <a data-ref=\"II Chronicles 23:1\" href=\"/II_Chronicles.23.1\">2 Ch 23:1</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 514,
+      "headword": "אֱלִיָּתָה",
+      "ref": "BDB, אֱלִיָּתָה",
+      "preview": "אֱלִיָּתָה: remissão para אֱלִיאָ֫תָה.",
+      "html": "<big><span dir=\"rtl\">אֱלִיָּתָה</span></big> ver <a data-ref=\"BDB, אֱלִיאָ֫תָה\" href=\"/BDB,_אֱלִיאָ֫תָה\", dir=\"rtl\">אֱלִיאָתָה</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 515,
+      "headword": "אֶלְמוֹדָד",
+      "ref": "BDB, אֶלְמוֹדָד",
+      "preview": "אֶלְמוֹדָד: remissão para o verbete אַל.",
+      "html": "<big><span dir=\"rtl\">אֶלְמוֹדָד</span></big> ver sob <a data-ref=\"BDB, אַל\" href=\"/BDB,_אַל\", dir=\"rtl\">I. אַל</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 516,
+      "headword": "אֶלְנָ֑עַם",
+      "ref": "BDB, אֶלְנָ֑עַם",
+      "preview": "אֶלְנָ֑עַם: Deus é deleite; pai de dois valentes de Davi.",
+      "html": "† <big><span dir=\"rtl\">אֶלְנָ֑עַם</span></big>  <strong>s.pr.m. (</strong><em>Deus é deleite</em><strong>)</strong> pai de dois dos valentes de Davi <a data-ref=\"I Chronicles 11:46\" href=\"/I_Chronicles.11.46\">1 Ch 11:46</a> (não mencionado em Samuel).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 517,
+      "headword": "אֶלְנָתָן",
+      "ref": "BDB, אֶלְנָתָן",
+      "preview": "אֶלְנָתָן: Deus deu; paralelos semíticos e personagens.",
+      "html": "† <big><span dir=\"rtl\">אֶלְנָתָן</span></big>  <strong>(</strong><em>Deus deu</em>, cf. <a data-ref=\"BDB, נְתַנְאֵל\" href=\"/BDB,_נְתַנְאֵל\", dir=\"rtl\">נְתַנְאֵל</a>, e em assírio <em>Ilu-iddin</em> Dl<sup>Pr 207</sup>, fenício <span dir=\"rtl\">בעליתן</span>, <span dir=\"rtl\">יתנבעל</span>, palmireno <span dir=\"rtl\">עתנתן</span>, <span dir=\"rtl\">והבלת</span> Vog<sup>Pal. 30 & p. 31 f</sup>, nabateu <span dir=\"rtl\">והבאל</span>, <span dir=\"rtl\">קסנתן</span> Eut<sup>Nab12, 1</sup>, sabeu <span dir=\"rtl\">והבאל</span>, <span dir=\"rtl\">אלוהב</span> DHM<sup>ZMG 1883, 15, 361, 388</sup> CIS<sup>iv. 1, 1.2.6</sup>, Teodoro, Diodato<strong>)</strong>.<br><strong>a.</strong> avô de Jeoaquim <a data-ref=\"II Kings 24:8\" href=\"/II_Kings.24.8\">2 K 24:8</a>; cf. <a data-ref=\"Jeremiah 26:22\" href=\"/Jeremiah.26.22\">Je 26:22</a>; <a data-ref=\"Jeremiah 36:12\" href=\"/Jeremiah.36.12\">36:12</a>, <a data-ref=\"Jeremiah 36:25\" href=\"/Jeremiah.36.25\">25</a>(?).<br><strong>b.</strong> levitas do tempo de Esdras <a data-ref=\"Ezra 8:16\" href=\"/Ezra.8.16\">Ezr 8:16</a><sup>(×3)</sup>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 518,
+      "headword": "אֶלְעָד",
+      "ref": "BDB, אֶלְעָד",
+      "preview": "אֶלְעָד: Deus testemunhou; um efraimita.",
+      "html": "† <big><span dir=\"rtl\">אֶלְעָד</span></big>  <strong>s.pr.m. (</strong><em>Deus testemunhou</em><strong>)</strong> um efraimita <a data-ref=\"I Chronicles 7:21\" href=\"/I_Chronicles.7.21\">1 Ch 7:21</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 519,
+      "headword": "אֶלְעָדָה",
+      "ref": "BDB, אֶלְעָדָה",
+      "preview": "אֶלְעָדָה: Deus adornou; um efraimita.",
+      "html": "† <big><span dir=\"rtl\">אֶלְעָדָה</span></big>  <strong>s.pr.m. (</strong><em>Deus adornou</em>, cf. <a data-ref=\"BDB, עֲדִיאֵל\" href=\"/BDB,_עֲדִיאֵל\", dir=\"rtl\">עֲדִיאֵל</a><strong>)</strong> um efraimita <a data-ref=\"I Chronicles 7:20\" href=\"/I_Chronicles.7.20\">1 Ch 7:20</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 520,
+      "headword": "אֶלְעוּזַי",
+      "ref": "BDB, אֶלְעוּזַי",
+      "preview": "אֶלְעוּזַי: Deus é minha força; valente de Davi.",
+      "html": "† <big><span dir=\"rtl\">אֶלְעוּזַי</span></big>  <strong>s.pr.m. (</strong><em>Deus é minha força</em> = <span dir=\"rtl\">אֶלְעֻזּי</span>, cf. <a data-ref=\"BDB, עֻזִּיאֵל\" href=\"/BDB,_עֻזִּיאֵל\", dir=\"rtl\">עֻזּיאֵל</a>, sabeu <span dir=\"rtl\">אלעת֡ (אלעז)</span> DHM<sup>ZMG 1883, 15</sup><strong>)</strong> um dos valentes de Davi <a data-ref=\"I Chronicles 12:5\" href=\"/I_Chronicles.12.5\">1 Ch 12:5</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 521,
+      "headword": "אֶלְעָזָר",
+      "ref": "BDB, אֶלְעָזָר",
+      "preview": "אֶלְעָזָר: Deus ajudou; seis personagens.",
+      "html": "<big><span dir=\"rtl\">אֶלְעָזָר</span></big>  <strong>s.pr.m. (</strong><em>Deus ajudou</em>, cf. <a data-ref=\"BDB, אֱלִיעֶ֫זֶר\" href=\"/BDB,_אֱלִיעֶ֫זֶר\", dir=\"rtl\">אֱלִיעֶזֶר</a> acima.<strong>) </strong><br><strong>a.</strong> Eleazar, o sacerdote <a data-ref=\"Exodus 6:23\" href=\"/Exodus.6.23\">Ex 6:23</a> + (50 ocorrências no Hexateuco) <a data-ref=\"Judges 20:28\" href=\"/Judges.20.28\">Ju 20:28</a>; <a data-ref=\"I Chronicles 5:29\" href=\"/I_Chronicles.5.29\">1 Ch 5:29</a>, <a data-ref=\"I Chronicles 5:30\" href=\"/I_Chronicles.5.30\">30</a>; <a data-ref=\"I Chronicles 6:35\" href=\"/I_Chronicles.6.35\">6:35</a>; <a data-ref=\"I Chronicles 9:20\" href=\"/I_Chronicles.9.20\">9:20</a>; <a data-ref=\"I Chronicles 24:1\" href=\"/I_Chronicles.24.1\">24:1</a>, <a data-ref=\"I Chronicles 24:2\" href=\"/I_Chronicles.24.2\">2</a>, <a data-ref=\"I Chronicles 24:3\" href=\"/I_Chronicles.24.3\">3</a>, <a data-ref=\"I Chronicles 24:4\" href=\"/I_Chronicles.24.4\">4</a><sup>(×2)</sup>, <a data-ref=\"I Chronicles 24:5\" href=\"/I_Chronicles.24.5\">5</a>, <a data-ref=\"I Chronicles 24:6\" href=\"/I_Chronicles.24.6\">6</a> <a data-ref=\"Ezra 7:5\" href=\"/Ezra.7.5\">Ezr 7:5</a>.<br><strong>b.</strong> filho de Abinadabe <a data-ref=\"I Samuel 7:1\" href=\"/I_Samuel.7.1\">1 S 7:1</a>.<br><strong>c.</strong> um dos valentes de Davi <a data-ref=\"II Samuel 23:9\" href=\"/II_Samuel.23.9\">2 S 23:9</a>; <a data-ref=\"I Chronicles 11:12\" href=\"/I_Chronicles.11.12\">1 Ch 11:12</a>; incluir também <a data-ref=\"I Chronicles 27:4\" href=\"/I_Chronicles.27.4\">1 Ch 27:4</a> cf. Dr<sup>Sm 280</sup>.<br><strong>d.</strong> um levita <a data-ref=\"I Chronicles 23:21\" href=\"/I_Chronicles.23.21\">1 Ch 23:21</a>, <a data-ref=\"I Chronicles 23:22\" href=\"/I_Chronicles.23.22\">22</a>; <a data-ref=\"I Chronicles 24:28\" href=\"/I_Chronicles.24.28\">24:28</a>.<br><strong>e.</strong> sacerdote do tempo de Esdras <a data-ref=\"Ezra 8:33\" href=\"/Ezra.8.33\">Ezr 8:33</a> <a data-ref=\"Nehemiah 12:42\" href=\"/Nehemiah.12.42\">Ne 12:42</a>.<br><strong>f.</strong> um descendente de Parós <a data-ref=\"Ezra 10:25\" href=\"/Ezra.10.25\">Ezr 10:25</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 522,
+      "headword": "אֶלְעָלֵא",
+      "ref": "BDB, אֶלְעָלֵא",
+      "preview": "אֶלְעָלֵא: topônimo da tribo de Rúben, perto de Hesbom.",
+      "html": "† <big><span dir=\"rtl\">אֶלְעָלֵא</span></big>  ‖ <span dir=\"rtl\">אֶלְעָלֵה</span> <strong>s.pr.loc. (</strong><em>Deus ascende</em>?<strong>)</strong> nome de uma aldeia da tribo de Rúben, perto de Hesbom, hoje em ruínas, <em>el Âl</em> (ver Rb<sup>BR ii, 278</sup>) <a data-ref=\"Numbers 32:3\" href=\"/Numbers.32.3\">Nu 32:3</a>, <a data-ref=\"Numbers 32:37\" href=\"/Numbers.32.37\">37</a> <a data-ref=\"Isaiah 15:4\" href=\"/Isaiah.15.4\">Is 15:4</a>; <a data-ref=\"Isaiah 16:9\" href=\"/Isaiah.16.9\">16:9</a> <a data-ref=\"Jeremiah 48:34\" href=\"/Jeremiah.48.34\">Je 48:34</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 523,
+      "headword": "אֶלְעָשָׂה",
+      "ref": "BDB, אֶלְעָשָׂה",
+      "preview": "אֶלְעָשָׂה: Deus fez; quatro personagens.",
+      "html": "† <big><span dir=\"rtl\">אֶלְעָשָׂה</span></big>  <strong>s.pr.m. (</strong><em>Deus fez</em>, cf. <a data-ref=\"BDB, עֲשָׂהאֵל\" href=\"/BDB,_עֲשָׂהאֵל\", dir=\"rtl\">עֲשָׂהאֵל</a>, <a data-ref=\"BDB, יַעֲשִׂיאֵל\" href=\"/BDB,_יַעֲשִׂיאֵל\", dir=\"rtl\">יַעֲשִׂיאֵל</a> etc.<strong>) </strong><br><strong>a.</strong> descendente de Judá <a data-ref=\"I Chronicles 2:39\" href=\"/I_Chronicles.2.39\">1 Ch 2:39</a>, <a data-ref=\"I Chronicles 2:40\" href=\"/I_Chronicles.2.40\">40</a>.<br><strong>b.</strong> um benjamita <a data-ref=\"I Chronicles 8:37\" href=\"/I_Chronicles.8.37\">1 Ch 8:37</a>; <a data-ref=\"I Chronicles 9:43\" href=\"/I_Chronicles.9.43\">9:43</a>.<br><strong>c.</strong> um descendente de Pasur <a data-ref=\"Ezra 10:22\" href=\"/Ezra.10.22\">Ezr 10:22</a>.<br><strong>d.</strong> filho de Safã <a data-ref=\"Jeremiah 29:3\" href=\"/Jeremiah.29.3\">Je 29:3</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 524,
+      "headword": "אֶלְפֶּלֶט",
+      "ref": "BDB, אֶלְפֶּלֶט",
+      "preview": "אֶלְפֶּלֶט: remissão para אֱלִיפֶ֫לֶט.",
+      "html": "<big><span dir=\"rtl\">אֶלְפֶּלֶט</span></big> ver <a data-ref=\"BDB, אֱלִיפֶ֫לֶט\" href=\"/BDB,_אֱלִיפֶ֫לֶט\", dir=\"rtl\">אֱלִיפֶלֶט</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 525,
+      "headword": "אֶלְפַּ֫עַל",
+      "ref": "BDB, אֶלְפַּ֫עַל",
+      "preview": "אֶלְפַּ֫עַל: Deus de agir?; um benjamita.",
+      "html": "† <big><span dir=\"rtl\">אֶלְפַּ֫עַל</span></big>  <strong>s.pr.m. (</strong><em>Deus de agir</em>? cf. fenício <span dir=\"rtl\">פעלאבסת</span><strong>)</strong> um benjamita <a data-ref=\"I Chronicles 8:11\" href=\"/I_Chronicles.8.11\">1 Ch 8:11</a>, <a data-ref=\"I Chronicles 8:12\" href=\"/I_Chronicles.8.12\">12</a>, <a data-ref=\"I Chronicles 8:18\" href=\"/I_Chronicles.8.18\">18</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 526,
+      "headword": "אֶלְצָפָן",
+      "ref": "BDB, אֶלְצָפָן",
+      "preview": "אֶלְצָפָן: remissão para אֱלִיצָפָן.",
+      "html": "<big><span dir=\"rtl\">אֶלְצָפָן</span></big> ver <a data-ref=\"BDB, אֱלִיצָפָן\" href=\"/BDB,_אֱלִיצָפָן\", dir=\"rtl\">אֱלִיצָפָן</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    },
+    {
+      "ordinal": 527,
+      "headword": "אֶלְקָנָה",
+      "ref": "BDB, אֶלְקָנָה",
+      "preview": "אֶלְקָנָה: Deus criou, ou tomou posse; cinco grupos de personagens.",
+      "html": "<big><span dir=\"rtl\">אֶלְקָנָה</span></big>  <strong>s.pr.m. (</strong><em>Deus criou</em>, ou <em>tomou posse</em><strong>) </strong><br><strong>a.</strong> pai de Samuel <span class=\"bdbh-pt-unresolved-xref\" role=\"note\" data-ref=\"I Samuel 1-2\" data-bdbh-source-href=\"/I_Samuel.1-2\" title=\"Intervalo de capítulos não possui destino interno certificado; texto original preservado\">1Sm 1–2</span> (oito ocorrências) <a data-ref=\"I Chronicles 6:12\" href=\"/I_Chronicles.6.12\">1 Ch 6:12</a>, <a data-ref=\"I Chronicles 6:19\" href=\"/I_Chronicles.6.19\">19</a>.<br><strong>b.</strong> filho de Corá <a data-ref=\"Exodus 6:24\" href=\"/Exodus.6.24\">Ex 6:24</a>.<br><strong>c.</strong> um governante em Jerusalém no tempo de Acaz <a data-ref=\"II Chronicles 28:7\" href=\"/II_Chronicles.28.7\">2 Ch 28:7</a>.<br><strong>d.</strong> um dos guerreiros de Davi <a data-ref=\"I Chronicles 12:6\" href=\"/I_Chronicles.12.6\">1 Ch 12:6</a>.<br><strong>e.</strong> diversos levitas (α) <a data-ref=\"I Chronicles 6:8\" href=\"/I_Chronicles.6.8\">1 Ch 6:8</a>, <a data-ref=\"I Chronicles 6:10\" href=\"/I_Chronicles.6.10\">10</a>, <a data-ref=\"I Chronicles 6:21\" href=\"/I_Chronicles.6.21\">21</a> (β) ver <a data-ref=\"I Chronicles 6:11\" href=\"/I_Chronicles.6.11\">11</a>, <a data-ref=\"I Chronicles 6:20\" href=\"/I_Chronicles.6.20\">20</a> (γ) <a data-ref=\"I Chronicles 9:16\" href=\"/I_Chronicles.9.16\">9:16</a> (δ) <a data-ref=\"I Chronicles 15:23\" href=\"/I_Chronicles.15.23\">15:23</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c19bfb26696892108cdb6ba2345bb9a7770d1f0e",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-18-ordinais-00501-00527.md"
+    }
+  ]
+};
+function overlayBdbhPt006(mod,translations){
+  if(!mod||!window.ScripturaBDBHptFormat)throw Error("BDB-H/PT: módulo 006 indisponível");
+  const count=mod.sourceRecords.length;
+  for(const item of translations){
+    if(item.translation_status!=="TRADUCAO_INTEGRAL")throw Error("BDB-H/PT: registro incompleto "+item.ordinal);
+    const re=new RegExp('<article id="([^"]+)"[^>]*data-bdbh-ordinal="'+item.ordinal+'"[^>]*>');
+    const match=mod.cardsHtml.match(re);
+    if(!match)throw Error("BDB-H/PT: artigo ausente "+item.ordinal);
+    const id=match[1],start=mod.cardsHtml.indexOf(match[0]),end=mod.cardsHtml.indexOf("</article>",start);
+    if(end<0)throw Error("BDB-H/PT: artigo não fechado "+item.ordinal);
+    const card=mod.cardsHtml.slice(start,end+10),sourceStart=card.indexOf('<section class="entry-section" lang="en">');
+    const sourceEnd=card.indexOf("</section>",sourceStart);
+    if(sourceStart<0||sourceEnd<0||card.indexOf('<section class="entry-section" lang="en">',sourceStart+1)>=0)throw Error("BDB-H/PT: seção inglesa ambígua "+item.ordinal);
+    const english=card.slice(sourceStart,sourceEnd+10);
+    const status=item.collation_status==="COLACIONADO"?"COLACIONADO":"REVISAO";
+    const label=status==="COLACIONADO"?"Tradução portuguesa — colacionada (auditoria pendente)":"Tradução portuguesa — revisão editorial pendente";
+    let portuguese=window.ScripturaBDBHptFormat.format(item.html,item);
+    const section='<section class="entry-section bdbh-pt-section" lang="pt-BR" data-bdbh-ui="2026-11-15" data-bdbh-pt-state="'+status+'">'
+      +'<div class="section-title">'+label+'</div><div class="entry-text">'+portuguese+'</div></section>';
+    const clean=card.replace(english,section);
+    if(clean.includes('Fonte original (inglês) — Brown–Driver–Briggs'))throw Error("BDB-H/PT: inglês duplicado "+item.ordinal);
+    mod.cardsHtml=mod.cardsHtml.slice(0,start)+clean+mod.cardsHtml.slice(end+10);
+    const at=mod.rowsHtml.indexOf('data-target="'+id+'"');
+    if(at<0)throw Error("BDB-H/PT: linha ausente "+item.ordinal);
+    const rowStart=mod.rowsHtml.lastIndexOf("<tr ",at),rowEnd=mod.rowsHtml.indexOf("</tr>",at)+5;
+    if(rowStart<0||rowEnd<5)throw Error("BDB-H/PT: linha malformada "+item.ordinal);
+    let row=mod.rowsHtml.slice(rowStart,rowEnd);
+    if(!row.includes("data-bdbh-pt-row")){
+      const esc=v=>v.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+      row=row.replace('class="search-row"','class="search-row" data-bdbh-pt-row="'+status+'"');
+      row=row.replace(/data-search="([^"]*)"/,(m,s)=>'data-search="'+s+" "+esc(item.preview)+'"');
+      const tdStart=row.indexOf('<td lang="en">'),tdEnd=row.indexOf("</td>",tdStart)+5;
+      if(tdStart<0||tdEnd<5)throw Error("BDB-H/PT: busca inglesa não encontrada "+item.ordinal);
+      row=row.slice(0,tdStart)+'<td lang="pt-BR">'+esc(item.preview)+'</td>'+row.slice(tdEnd);
+      mod.rowsHtml=mod.rowsHtml.slice(0,rowStart)+row+mod.rowsHtml.slice(rowEnd);
+    }
+  }
+  if(mod.sourceRecords.length!==count)throw Error("BDB-H/PT: fontes inglesas alteradas");
+}
+overlayBdbhPt006(window.ScripturaLexicons && window.ScripturaLexicons["bdbh-batch-006"],window.ScripturaBDBHpt.batch006.records);
