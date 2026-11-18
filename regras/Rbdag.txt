@@ -9867,3 +9867,37 @@ ESCOPO E SEGURANÇA: adicionar lexicons/bdag-part-0222.js; inserir uma entrada e
 AUDITORIA_CONCLUIDA=NÃO. Pendem SHA bruto integral da fonte, cotejo com fac-símile e páginas impressas, revisão semântica/filológica/bibliográfica independente, critérios A–J individualizados, crítica das variantes e testemunhos, testes HTTP/DOM e CI, regressão global e confirmação da integração final. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO A CONFIRMAÇÃO REMOTA: BDAG 4644 → 4664/8287 = 56,28%; 3623 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 223 — 18/11/2026 — 20 ARTIGOS PREPARADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL: 27eab8ef71b2c08fe3c74f6a4a357dbf5c110e60. Normas relidas: Rbdag.txt blob 9d87d4f7cd9f02e66e6b835cd386289b08f6372f; Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 49450–49585, Μαγώγ, ὁ → Μαϊνάν. Próximo lema, excluído do lote: μαίνομαι, linha 49586. Sem PDF ou fonte substitutiva; SHA integral bruto do HTML e cotejo facsimilar/paginação não aferidos.
+TRADUÇÃO PORTUGUESA: todos os 20 artigos autônomos, inclusive remissões. Mantidos lemas, paradigmas, formas gregas e hebraicas, variantes, regências, hierarquia de acepções e subacepções, testemunhos, bibliografia e graus de incerteza. μαθητεύω conserva ①–②, ⓐ–ⓑ; μαθητής conserva ①–②, ⓐ–ⓑ, α–δ e as ressalvas sobre grupos de discípulos. Não há inclusão do 21º artigo.
+COLAÇÃO FORMAL INDIVIDUAL NFC: 292 sequências gregas, 4 hebraicas e 486 numéricas preservadas por identidade e ordem, desde a fonte à tradução. Exige-se ainda verificação do HTML gerado. A colação formal não substitui auditoria semântica, filológica e bibliográfica independente.
+ARTIGOS (número | lema | linhas HTML | sequências gregas/hebraicas/numéricas):
+01 | Μαγώγ, ὁ | 49450–49453 | 10/1/13
+02 | Μαδιάμ, ὁ | 49454–49458 | 9/1/9
+03 | μαζός, οῦ, ὁ | 49459–49469 | 17/0/36
+04 | Μαθαῖος | 49470–49473 | 2/0/0
+05 | μαθεῖν | 49474–49477 | 2/0/0
+06 | μάθημα, ατος, τό | 49478–49481 | 5/0/4
+07 | μαθηματικός, ή, όν | 49482–49485 | 7/0/7
+08 | μαθητεία, ας, ἡ | 49486–49490 | 10/0/9
+09 | μαθητεύω | 49491–49508 | 71/0/54
+10 | μαθητής, οῦ, ὁ | 49509–49537 | 110/0/264
+11 | μαθήτρια, ας, ἡ | 49538–49541 | 9/0/14
+12 | Μαθθάθ | 49542–49545 | 2/0/0
+13 | Μαθθαῖος, ου, ὁ | 49546–49549 | 9/0/35
+14 | Μαθθάν | 49550–49554 | 2/0/0
+15 | Μαθθάτ | 49555–49565 | 5/1/3
+16 | Μαθθίας, ου, ὁ | 49566–49569 | 5/0/11
+17 | Μαθουσαλά, ὁ | 49570–49573 | 8/1/9
+18 | μαῖα, ας, ἡ | 49574–49577 | 3/0/15
+19 | Μαίανδρος, ου, ὁ | 49578–49581 | 4/0/3
+20 | Μαϊνάν | 49582–49585 | 2/0/0
+CONTROLES ESTÁTICOS: 20 search-row e 20 entry-card, IDs entry-bdag-0223-01 a -20, correspondência data-target/id; links NA28 no padrão atual; sem alteração de bibliographicTerms. HTTP/DOM/navegador, teclado/foco, acessibilidade, CI e regressão global NÃO EXECUTADOS. Conferir SHA e contagem final de links no commit.
+ESCOPO RESTRITO: módulo lexicons/bdag-part-0223.js, entrada única em lexicon-modules.json após part-0222, e este checkpoint em regras/Rbdag.txt. Rauditoria, bdag.js, outros léxicos e infraestrutura preservados. Publicação somente com HEAD reconfirmado, exatamente um commit, parent igual ao HEAD, expected_sha igual ao HEAD e force=false; sem PR/merge/rebase/deploy.
+AUDITORIA_CONCLUIDA=NÃO: pendem cotejo facsimilar, revisão independente dos 20 artigos, requisitos A–J, testes reais HTTP/DOM/CI, regressão e integração confirmada.
+PROGRESSO CONDICIONAL À CONFIRMAÇÃO REMOTA: BDAG 4664 → 4684/8287 = 56,52%; 3603 artigos restantes.
+================================================================================
