@@ -9935,3 +9935,37 @@ ESCOPO RESTRITO A TRÊS ARQUIVOS: lexicons/bdag-part-0224.js, lexicon-modules.js
 TESTES NÃO EXECUTADOS: links HTTP, navegador real/DOM, busca e seleção, navegação por teclado/foco, acessibilidade, CI, regressão funcional global. AUDITORIA_CONCLUIDA=NÃO. Pendem SHA integral da fonte, cotejo com páginas impressas, revisão independente, requisitos A–J por verbete e comprovação da integração final; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO NOVO HEAD REMOTO: BDAG 4684 → 4704/8287 = 56,76%; 3583 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 225 — 18/11/2026 — 20 ARTIGOS PUBLICÁVEIS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL E PAI DO COMMIT: c4b3cb3c2a11294c93022e7979096a654f953876. Normas relidas no HEAD: regras/Rbdag.txt blob 242104470f9eb5148a479e527f992d1f21896186; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML fornecido pelo mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", consultado diretamente nas linhas 49778–49961 para os 20 artigos de Μαλελεήλ, ὁ a μαργαρίτης, ου, ὁ. O artigo seguinte, Μάρθα, ας, ἡ, inicia na linha 49962 e ficou excluído. Fonte HTML sem SHA bruto integral comprovado; nenhum PDF ou léxico substituto utilizado.
+TRADUÇÃO: 20 artigos autônomos vertidos integralmente para o português brasileiro, incluindo o remissivo μαλία; paradigmas e regências, subdivisões de acepção, testemunhos, variantes, referências e bibliografia. μᾶλλον mantém a hierarquia ①–③, ⓐ–ⓓ e α–β; μανθάνω mantém ①–④ e ⓐ–ⓑ; μάννα mantém o caráter hipotético da explicação etimológica; μαράνα θά conserva as duas segmentações aramaicas, suas interpretações alternativas e bibliografia.
+COLAÇÃO FORMAL POSSÍVEL NESTA EXECUÇÃO: confronto individual TRADUÇÃO → TEXTO EXTRAÍDO DO CARTÃO HTML: 614 sequências gregas, 15 hebraicas e 1.045 numéricas com ordem e identidade mantidas nos 20 artigos, após normalização NFC. O cotejo automático INDEPENDENTE das mesmas sequências FONTE HTML → TRADUÇÃO NÃO PÔDE SER CONCLUÍDO: após consulta efetiva da fonte para elaboração dos artigos, novas chamadas files.read e files.find retornaram erro interno repetidamente, inclusive para intervalos mínimos. Portanto NÃO atestar colação integral tríplice fonte → tradução → cartão, nem números de tokens de origem, nem certificação filológica independente. A leitura e tradução manuais da fonte ocorreram, mas não equivalem à colação formal automática de todos os tokens.
+ARTIGOS (nº | lema | linhas HTML da fonte | sequências G/H/N da tradução e do cartão, NÃO da origem):
+01 | Μαλελεήλ, ὁ | 49778–49781 | 4/1/7
+02 | μαλία | 49782–49786 | 2/0/0
+03 | μάλιστα | 49787–49798 | 14/0/82
+04 | μᾶλλον | 49799–49836 | 264/0/289
+05 | Μάλχος, ου, ὁ | 49837–49840 | 6/0/27
+06 | μάμμη, ης, ἡ | 49841–49844 | 21/0/32
+07 | μαμωνᾶς, ᾶ, ὁ | 49845–49848 | 3/3/45
+08 | Μαναήν, ὁ | 49849–49852 | 9/1/13
+09 | Μανάϊμος, ου | 49853–49857 | 11/0/2
+10 | Μανασσῆς, ῆ, | 49858–49868 | 5/1/29
+11 | μάνδρα, ας, ἡ | 49869–49873 | 3/0/5
+12 | μανθάνω | 49874–49896 | 171/0/243
+13 | μανία, ας, ἡ | 49897–49901 | 23/0/9
+14 | μάννα, τό | 49902–49922 | 16/1/46
+15 | μαντεύομαι | 49923–49933 | 3/0/27
+16 | μάντις, εως, ὁ | 49934–49937 | 4/0/12
+17 | Μάξιμος, ου, ὁ | 49938–49941 | 3/0/6
+18 | μαραίνω | 49942–49945 | 31/0/47
+19 | μαράνα θά | 49946–49950 | 4/8/71
+20 | μαργαρίτης, ου, ὁ | 49951–49961 | 17/0/53
+CONTROLES ESTÁTICOS: módulo BDAG_PART_0225 com source BDAG, searchAnchorId, entryAnchorId, rowsHtml e cardsHtml; 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0225-01 até -20; data-target/id 1:1, zero duplicados, HTML estruturalmente equilibrado, conteúdo de cartões idêntico ao texto traduzido. 121 âncoras NA28, 116 URLs distintas: validada somente a sintaxe, sem HTTP. Manifesto registra o módulo uma vez imediatamente após part-0224 e antes de leh.js.
+ESCOPO DE PUBLICAÇÃO RESTRITO: lexicons/bdag-part-0225.js; lexicon-modules.json; regras/Rbdag.txt. Preservar Rauditoria, bdag.js, os módulos anteriores, demais léxicos e infraestrutura. Publicar exatamente um commit parent=c4b3cb3c2a11294c93022e7979096a654f953876 e atualizar a referência com expected_sha=c4b3cb3c2a11294c93022e7979096a654f953876 e force=false, sem PR/merge/deploy/branch auxiliar.
+TESTES NÃO EXECUTADOS: cotejo bruto do HTML e cotejo facsimilar das páginas, colação automática FONTE→TRADUÇÃO (impedimento por erro interno do leitor), inspeção filológica independente A–J, HTTP/DOM/navegador, busca, teclado/foco, acessibilidade, CI e regressão global. AUDITORIA_CONCLUIDA=NÃO; NÃO incrementar total_auditoria_concluida e não declarar certificação. Pendem também integração final autorizada e confirmação funcional.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO REMOTA: BDAG 4.704 → 4.724 / 8.287 = 57,00%; restantes 3.563 artigos.
+================================================================================
