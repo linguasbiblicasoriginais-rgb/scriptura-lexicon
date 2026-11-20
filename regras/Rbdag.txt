@@ -10277,3 +10277,37 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0234.js, lexicon-modules.json, regras/Rbdag
 PENDÊNCIAS SEM CERTIFICAÇÃO: SHA bruto do HTML canônico; exame do fac-símile e páginas impressas; revisão semântica/morfológica/bibliográfica independente artigo a artigo; HTTP real dos links NA28; testes em navegador/DOM, pesquisa, teclado, foco, acessibilidade; execução GitHub Actions/CI, regressão global, checklist da auditoria atômica A–J e integração/homologação. AUDITORIA_CONCLUIDA=NÃO para todos os 20 artigos; não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 4884 → 4904 / 8287 = 59,18%; 3383 artigos restantes; próximo lema μηθέν, linha 51762.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 235 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE / PARENT / EXPECTED_SHA: 2761bbc98f3b88833f524b5ad5896f2d16526e81. Normas relidas neste HEAD: regras/Rbdag.txt (blob 274eb4240002352769d2621a7073d9227f26dfff) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67). Publicação direta e atômica na branch chat-gpt-bdag, exatamente um commit e force=false, sem PR, merge, deploy, branch auxiliar ou rebase.
+FONTE CANÔNICA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 51762–51974; vinte artigos autônomos e consecutivos de μηθέν a μήτιγε. Próxima entrada excluída: μήτρα, linha 51975. Leitura do HTML do Projeto das linhas 51762–51975 sem advertências. Não foi usada outra edição ou léxico substituto; SHA bruto original e cotejo físico/facsimilar ainda não certificados.
+TRADUÇÃO INTEGRAL: português brasileiro, preservando acepções, subdivisões, regências, paradigmas, casos, variantes, remissões, etimologia, textos gregos, aramaico רוּחָא דְּקֻדְּשָׁא em μήτηρ, hebraico אֵם em μήτηρ e מָסוֹר em μηνύω, citações e referências numéricas e bibliografia. Distinguem-se os homógrafos μήν (partícula enfática) e μήν, μηνός (mês e lua nova). μηκέτι conserva os usos com particípio, infinitivo, oração independente, imperativo, optativo e subjuntivo; μήποτε conserva os quatro sentidos e seus modos; μήτε as múltiplas combinações de negações; μήτηρ os sentidos literal e figurados; μήτι o valor interrogativo e os efeitos pragmáticos. As remissões μηθέν, μὴ οὐ, μήπου, μήπως e μήτιγε são artigos autônomos.
+COLAÇÃO FORMAL DIRETA HTML → TRADUÇÃO → CONTEÚDO TEXTUAL DOS CARTÕES, com normalização Unicode NFC: 369 sequências gregas, 4 sequências de escrita hebraica/aramaica e 852 numéricas; integral identidade e ordem, nos 20 artigos. Nenhuma divergência formal identificada. Equivalência de sequências NÃO significa revisão semântica independente, cotejo facsimilar ou aprovação em auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas do HTML | G/H/N coincidentes em todas as camadas):
+01 | μηθέν | 51762–51766 | 2/0/0
+02 | μηκέτι | 51767–51798 | 32/0/134
+03 | μῆκος, ους, τό | 51799–51802 | 16/0/26
+04 | μηκύνω | 51803–51806 | 2/0/10
+05 | μηλωτή, ῆς, ἡ | 51807–51811 | 6/0/25
+06 | μήν | 51812–51835 | 18/0/57
+07 | μήν, μηνός, ὁ | 51836–51846 | 29/0/68
+08 | μηνιάω | 51847–51850 | 7/0/20
+09 | μῆνις, ιος | 51851–51854 | 11/0/26
+10 | μηνύω | 51855–51858 | 23/1/54
+11 | μὴ οὐ | 51859–51863 | 3/0/1
+12 | μήποτε | 51864–51922 | 67/0/133
+13 | μήπου | 51923–51926 | 2/0/0
+14 | μήπω | 51927–51930 | 11/0/19
+15 | μήπως | 51931–51934 | 2/0/0
+16 | μηρός, οῦ, ὁ | 51935–51938 | 7/0/16
+17 | μήτε | 51939–51943 | 63/0/73
+18 | μήτηρ, τρός, ἡ | 51944–51966 | 38/3/96
+19 | μήτι | 51967–51970 | 28/0/94
+20 | μήτιγε | 51971–51974 | 2/0/0
+CONTROLES ESTÁTICOS DO MÓDULO BDAG_PART_0235: 20 search-row e 20 entry-card, ids entry-bdag-0235-01 até -20 sem duplicações, correspondência data-target/id 1:1; HTML estruturado e equilibrado; texto do cartão idêntico à tradução portuguesa; source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor. 92 âncoras NA28 e 91 URLs distintas, com sintaxe verificada e acesso HTTP não verificado. Manifesto inclui exatamente bdag-part-0235 após bdag-part-0234 e antes de leh.js, mantendo bibliographicTerms de bdag.js inalterados.
+ESCOPO RESTRITO DE PUBLICAÇÃO: lexicons/bdag-part-0235.js, lexicon-modules.json, regras/Rbdag.txt. Preservar regras/Rauditoria.txt, módulos anteriores, outros léxicos e infraestrutura. Commit único com parent_sha=2761bbc98f3b88833f524b5ad5896f2d16526e81, expected_sha=2761bbc98f3b88833f524b5ad5896f2d16526e81, force=false.
+PENDÊNCIAS EXPLICITAMENTE NÃO CERTIFICADAS: SHA bruto do HTML e cotejo impresso/facsimilar; revisão semântica/morfológica/bibliográfica independente artigo por artigo; acesso HTTP dos links, execução real DOM/navegador e teclado/foco/acessibilidade; GitHub Actions/CI e testes de regressão global; auditoria atômica A–J, PR/integração e homologação posterior. AUDITORIA_CONCLUIDA=NÃO para todos os vinte; não aumentar total_auditoria_concluida.
+PROGRESSO CONDICIONADO AO HEAD PÓS-COMMIT: BDAG 4.904 → 4.924 / 8.287 = 59,42%; 3.363 artigos restantes; próximo lema μήτρα, linha 51975.
+================================================================================
