@@ -10004,3 +10004,38 @@ ESCOPO LIMITADO A TRÊS ARQUIVOS: lexicons/bdag-part-0226.js, lexicon-modules.js
 TESTES NÃO EXECUTADOS/IMPEDIMENTOS: SHA bruto da fonte; segunda colação independente FONTE→TRADUÇÃO; confronto com fac-símile; revisão filológica, semântica e bibliográfica independente e checklist A–J por artigo; HTTP real dos links; execução de DOM/navegador, teclado/foco, acessibilidade, CI e regressão global; integração final confirmada. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO DO NOVO HEAD REMOTO: BDAG 4724 → 4744 / 8287 = 57,25%; 3543 artigos restantes.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 227 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO REAL ANTES DA PUBLICAÇÃO E PAI DO COMMIT: 000b8d2b19332622e1c5ab24e8f1c11874890044.
+NORMAS RELIDAS NESTE HEAD: regras/Rbdag.txt, blob 74defbf26ffa9dce0d5e307c8ce2c5bdf52766cb; regras/Rauditoria.txt, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Preservada a norma de auditoria atômica, sem certificação ou incremento de contadores de auditoria A–J.
+FONTE EXCLUSIVA: HTML canônico do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", consultado diretamente no bloco de linhas 50212–50327. Os 20 artigos autônomos começam em μαστώδης, ες e terminam em μεγαλαυχέω. O artigo seguinte, μεγαλεῖος, α, ον (linha 50328), ficou excluído. O SHA bruto integral do arquivo HTML e a colação com fac-símile impresso não foram comprovados.
+TRADUÇÃO: 20 artigos integralmente vertidos em português brasileiro, preservando lemas, paradigmas, formas gregas e hebraicas, variantes, remissões, referências bíblicas e extrabíblicas, bibliografia, hierarquias semânticas e ressalvas editoriais; três artigos são remissivos (Ματθαῖος, Ματθάτ, Ματθίας). μάχαιρα conserva as acepções ①–② e subdivisões ⓐ–ⓓ e a controvérsia “facas” / “escalpelo” / “bisturi”; μάχομαι preserva a distinção entre combate físico e disputa sem armas.
+COLAÇÃO FORMAL DIRETA E INDIVIDUAL EM NFC, FONTE HTML → TRADUÇÃO → TEXTO EXTRAÍDO DO CARTÃO: 317 sequências gregas, 4 hebraicas e 558 numéricas, cada uma em ordem e identidade exatas nos 20 artigos, nenhuma divergência. A fonte foi relida em três janelas (50212–50243; 50244–50284; 50285–50328), com verificação individual por lema. Esse controle de equivalência formal não equivale à auditoria filológica independente, crítica bibliográfica, fac-símile ou certificação semântica absoluta.
+REGISTRO INDIVIDUAL: nº | lema | linhas HTML de origem | contagem G/H/N, igual nos três estratos:
+01 | μαστώδης, ες | 50212–50215 | 10/0/13
+02 | ματαιολογία, ας, ἡ | 50216–50219 | 11/0/20
+03 | ματαιολόγος, ον | 50220–50223 | 4/0/10
+04 | ματαιοπονία, ας, ἡ | 50224–50227 | 6/0/9
+05 | μάταιος, αία, αιον | 50228–50231 | 61/0/124
+06 | ματαιότης, ητος, ἡ | 50232–50235 | 37/0/31
+07 | ματαιόω | 50236–50239 | 19/0/17
+08 | ματαίωμα, ατος, τό | 50240–50243 | 10/0/5
+09 | μάτην | 50244–50247 | 5/0/47
+10 | Ματθαῖος, ου | 50248–50251 | 3/0/0
+11 | Ματθάν, ὁ | 50252–50255 | 5/1/9
+12 | Ματθάτ | 50256–50259 | 2/0/0
+13 | Ματθίας | 50260–50263 | 2/0/0
+14 | ματρῶνα, ης, ἡ | 50264–50267 | 3/0/5
+15 | Ματταθά, ὁ | 50268–50272 | 4/1/5
+16 | Ματταθίας, ου, ὁ | 50273–50284 | 7/1/18
+17 | μάχαιρα, ης, ἡ | 50285–50307 | 67/1/154
+18 | μάχη, ης, ἡ | 50308–50312 | 29/0/31
+19 | μάχομαι | 50313–50323 | 27/0/41
+20 | μεγαλαυχέω | 50324–50327 | 5/0/19
+CONTROLES ESTÁTICOS: lexicons/bdag-part-0227.js, exportação window.ScripturaLexicons.BDAG_PART_0227, source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor, rowsHtml e cardsHtml; 20 linhas de pesquisa e 20 cartões; IDs únicos entry-bdag-0227-01 a -20; data-target/id 1:1, nenhum órfão, HTML estruturalmente equilibrado, texto de cartões preservado integralmente sem perdas; 50 links NA28 gerados, 47 URLs distintas, sintaxe validada, sem HTTP. Manifesto com uma entrada única imediatamente depois de bdag-part-0226.js e antes de leh.js. Sem alterações de bibliographicTerms.
+ESCOPO DE PUBLICAÇÃO: três arquivos somente, lexicons/bdag-part-0227.js, lexicon-modules.json, regras/Rbdag.txt; preservar regras/Rauditoria.txt, lexicons/bdag.js, módulos anteriores, outros léxicos e infraestrutura. Exatamente um commit atômico na branch chat-gpt-bdag com parent e expected_sha iguais ao HEAD real acima, force=false, sem PR/merge/deploy/rebase/branch auxiliar.
+PENDÊNCIAS OBRIGATÓRIAS: cotejo com fac-símile, SHA bruto integral da fonte, revisão independente gramatical/semântica/bibliográfica A–J por artigo, confirmação de funcionalidade via DOM e navegador, HTTP dos links, CI GitHub Actions, regressão global, evidência de integração e homologação quando autorizadas. AUDITORIA_CONCLUIDA=NÃO. Não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO REMOTA: BDAG 4744 → 4764 / 8287 = 57,49%; 3523 artigos restantes. Próximo lema: μεγαλεῖος, α, ον na linha 50328.
+================================================================================
