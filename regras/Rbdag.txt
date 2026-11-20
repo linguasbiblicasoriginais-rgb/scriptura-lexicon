@@ -10039,3 +10039,37 @@ ESCOPO DE PUBLICAÇÃO: três arquivos somente, lexicons/bdag-part-0227.js, lexi
 PENDÊNCIAS OBRIGATÓRIAS: cotejo com fac-símile, SHA bruto integral da fonte, revisão independente gramatical/semântica/bibliográfica A–J por artigo, confirmação de funcionalidade via DOM e navegador, HTTP dos links, CI GitHub Actions, regressão global, evidência de integração e homologação quando autorizadas. AUDITORIA_CONCLUIDA=NÃO. Não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO REMOTA: BDAG 4744 → 4764 / 8287 = 57,49%; 3523 artigos restantes. Próximo lema: μεγαλεῖος, α, ον na linha 50328.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 228 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL E PAI DO COMMIT: 227569aef2802b7cfeea36b7a638b1ae3adfd321. Normas relidas no mesmo HEAD: regras/Rbdag.txt blob f27ab7abc916ab006043854d087532fd3d503600; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67.
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 50328–50480. Os 20 artigos autônomos consecutivos se estendem de μεγαλεῖος, α, ον até μεθοδεύω. O lema de μεγαλεῖος está repartido em dois spans c71 no mesmo cabeçalho da linha 50328 e foi corretamente reunificado; o próximo artigo, μεθόριον, ου, τό, inicia na linha 50481 e ficou excluído. Não se usou PDF nem outro léxico, e não houve cotejo facsimilar ou SHA bruto integral do HTML.
+TRADUÇÃO: 20 artigos autônomos integralmente vertidos para português brasileiro, com lemas, paradigmas, regências, divisões de acepções, variantes, remissões, testemunhos de manuscritos, referências bíblicas e patrísticas e bibliografia mantidos. O artigo μέγας preserva ①–⑤, subdivisões ⓐ–ⓓ e todas as remissões; μεγαλύνω distingue o sentido de aumentar daquele de glorificar; μεθίστημι distingue a transferência física da mudança figurada de orientação; μεθοδεία e μεθοδεύω conservam a valência desfavorável do uso da fonte. Três remissões/empregos breves estão preservados conforme fonte, inclusive μέγιστος e μεθιστάνω.
+COLAÇÃO FORMAL INDIVIDUAL NFC FONTE HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 742 sequências gregas, 0 hebraicas e 1.390 numéricas idênticas e na mesma ordem para todos os 20 artigos, sem divergências. Fonte efetivamente relida de modo independente em quatro janelas de artigos (50328–50364; 50365–50384; 50385–50423; 50424–50480), confronto por entrada original. Não declarar por esse resultado auditoria filológica atômica nem cotejo semântico/visual independente.
+ARTIGOS (nº | lema | linhas originais | grego/hebraico/número):
+01 | μεγαλεῖος, α, ον | 50328–50332 | 31/0/59
+02 | μεγαλειότης, ητος, ἡ | 50333–50343 | 11/0/33
+03 | μεγαλοπρέπεια, ας, ἡ | 50344–50347 | 6/0/5
+04 | μεγαλοπρεπής, ές | 50348–50351 | 33/0/39
+05 | μεγαλο(ρ)ρημονέω | 50352–50355 | 6/0/13
+06 | μεγαλο(ρ)ρημοσύνη, ης, ἡ | 50356–50359 | 6/0/21
+07 | μεγαλο(ρ)ρήμων, ονος | 50360–50364 | 5/0/14
+08 | μεγαλύνω | 50365–50375 | 71/0/79
+09 | μεγάλως | 50376–50379 | 34/0/54
+10 | μεγαλωσύνη, ης, ἡ | 50380–50384 | 32/0/50
+11 | μέγας, μεγάλη, μέγα | 50385–50423 | 283/0/748
+12 | μέγεθος, ους, τό | 50424–50434 | 64/0/49
+13 | μεγιστάν, ᾶνος, ὁ | 50435–50438 | 14/0/36
+14 | μέγιστος | 50439–50442 | 2/0/1
+15 | μεθερμηνεύω | 50443–50446 | 13/0/37
+16 | μέθη, ης, ἡ | 50447–50450 | 18/0/40
+17 | μεθιστάνω | 50451–50455 | 1/0/0
+18 | μεθίστημι | 50456–50472 | 59/0/74
+19 | μεθοδεία, ας, ἡ | 50473–50476 | 33/0/19
+20 | μεθοδεύω | 50477–50480 | 20/0/19
+CONTROLES ESTÁTICOS: lexicons/bdag-part-0228.js exporta window.ScripturaLexicons.BDAG_PART_0228 com source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor, rowsHtml e cardsHtml. 20 search-row e 20 entry-card, IDs únicos entry-bdag-0228-01 a -20; data-target/id 1:1; HTML estruturalmente equilibrado e conteúdo dos cartões idêntico às traduções. Links NA28: 153 âncoras, 146 URLs distintas, sintaxe validada, mas nenhuma requisição HTTP comprovada. Manifesto recebe 1 caminho após part-0227 e antes de leh.js; nenhum bibliographicTerms duplicado ou alterado.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0228.js, lexicon-modules.json, regras/Rbdag.txt. Preservar regras/Rauditoria.txt, lexicons/bdag.js, demais léxicos, módulos anteriores e infraestrutura. Publicar exatamente um commit com parent=227569aef2802b7cfeea36b7a638b1ae3adfd321, expected_sha=227569aef2802b7cfeea36b7a638b1ae3adfd321, force=false, sem PR, merge, rebase, branch auxiliar ou deploy.
+PENDÊNCIAS: SHA bruto da fonte HTML, cotejo facsimilar, revisão filológica/semântica/bibliográfica independente de cada artigo, checklist A–J de Rauditoria, testes funcionais DOM/navegador/teclado/foco, HTTP dos links, GitHub Actions/CI, regressão global e homologação da integração. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA: BDAG 4764 → 4784 / 8287 = 57,73%; 3503 artigos restantes. Próximo lema: μεθόριον, ου, τό, linha 50481.
+================================================================================
