@@ -10243,3 +10243,37 @@ ESCOPO EXCLUSIVO DE PUBLICAÇÃO: lexicons/bdag-part-0233.js, lexicon-modules.js
 PENDÊNCIAS E NÃO CERTIFICAÇÕES: SHA bruto da fonte HTML; cotejo físico/facsimilar; revisão independente semântica, morfológica e bibliográfica; HTTP real de 74 links NA28; testes funcionais DOM/navegador, pesquisa, foco, teclado, acessibilidade, CI e regressão global; validação de integração e homologação. AUDITORIA_CONCLUIDA=NÃO em todos os 20 artigos conforme Rauditoria A–J; não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFERÊNCIA DO HEAD PÓS-PUBLICAÇÃO: BDAG 4864 → 4884 / 8287 = 58,94%; restantes 3403 artigos; próximo lema μετοπωρινός, όν na linha 51437.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 234 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO REAL INICIAL / PARENT / EXPECTED_SHA: c190e486c7a85e05be7fdc5d1c56a0791a06629c. Regras relidas no HEAD: regras/Rbdag.txt (blob aceb006ee2634372a3114b418afec80f03ada252) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67). Regime: exatamente um commit em chat-gpt-bdag, force=false, sem PR, merge, deploy, rebase nem branch auxiliar.
+FONTE CANÔNICA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 51437–51761, 20 artigos autônomos consecutivos de μετοπωρινός, όν a μηθαμῶς. Artigo seguinte EXCLUÍDO: μηθέν, linha 51762. Leitura direta do arquivo HTML do Projeto no intervalo 51437–51762 sem avisos; SHA bruto da fonte e cotejo com fac-símile não certificados. Não substituir pela edição em PDF nem por outro léxico.
+TRADUÇÃO: versão integral em português brasileiro dos 20 artigos, preservando todos os sentidos e subdivisões, paradigmas gregos, hebraico בַּת, rótulos das subdivisões hebraicos, citações, variantes, notas, referências numeradas, bibliografia, etimologia e remissões. μέτρον distingue instrumento e resultado de medição; μέχρι distingue limite espacial, temporal e de grau. O extenso μή conserva as quatro grandes áreas ① negação, ② conjunção, ③ pergunta com expectativa de resposta negativa, ④ negação reforçada οὐ μή, suas subdivisões, todas as construções gramaticais e testemunhos. Preservada a diferença entre μηδέ, μηδείς, μηδέποτε e μηδέπω; entradas de remissão μήγε e μηθαμῶς permanecem artigos autônomos.
+COLAÇÃO FORMAL DIRETA HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 1.208 sequências gregas, 19 hebraicas (incluindo marcadores de subdivisão de μή) e 2.196 sequências numéricas; ordem e conteúdo idênticos após normalização Unicode NFC nos 20 artigos. Nenhuma divergência formal restante. A identidade de tokens não equivale a auditoria filológica independente, verificação de contexto impresso, teste funcional nem certificação A–J.
+ARTIGOS (nº | lema | linhas HTML | G/H/N, idênticos nos três estratos):
+01 | μετοπωρινός, όν | 51437–51440 | 7/0/7
+02 | μετοχή, ῆς, ἡ | 51441–51445 | 30/0/22
+03 | μέτοχος, ον | 51446–51457 | 23/0/67
+04 | μετρέω | 51458–51474 | 71/0/76
+05 | μετρητής, οῦ, ὁ | 51475–51478 | 4/1/36
+06 | μετριοπαθέω | 51479–51482 | 10/0/11
+07 | μέτριος, ία, ιον | 51483–51486 | 10/0/17
+08 | μετρίως | 51487–51491 | 14/0/29
+09 | μέτρον, ου, τό | 51492–51514 | 96/0/86
+10 | μέτωπον, ου, τό | 51515–51519 | 7/0/46
+11 | μέχρι | 51520–51540 | 153/0/223
+12 | μή | 51541–51686 | 611/18/1159
+13 | μήγε | 51687–51690 | 7/0/1
+14 | μηδαμῶς | 51691–51695 | 2/0/39
+15 | μηδέ | 51696–51716 | 60/0/121
+16 | μηδείς, μηδεμία, μηδέν | 51717–51745 | 90/0/200
+17 | μηδέποτε | 51746–51749 | 3/0/28
+18 | μηδέπω | 51750–51753 | 5/0/17
+19 | Μῆδος, ου, ὁ | 51754–51757 | 3/0/11
+20 | μηθαμῶς | 51758–51761 | 2/0/0
+VALIDAÇÃO ESTÁTICA DO MÓDULO BDAG_PART_0234: source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor; 20 search-row, 20 entry-card; ids exclusivos entry-bdag-0234-01 a -20, data-target/id 1:1; HTML de linhas/cartões equilibrado, escape de atributos e pesquisa, texto integral das traduções igual ao conteúdo dos cartões. 345 âncoras NA28, 319 URLs distintas, sintaxe válida; nenhum teste de HTTP de destino. Manifesto inclui exatamente uma linha bdag-part-0234 após bdag-part-0233 e antes de leh.js; bibliographicTerms em bdag.js não alterados.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0234.js, lexicon-modules.json, regras/Rbdag.txt. Preservados Rauditoria, módulos anteriores, todos os demais léxicos e infraestrutura. Segurança de publicação: um único commit parent_sha=c190e486c7a85e05be7fdc5d1c56a0791a06629c, expected_sha=c190e486c7a85e05be7fdc5d1c56a0791a06629c, force=false.
+PENDÊNCIAS SEM CERTIFICAÇÃO: SHA bruto do HTML canônico; exame do fac-símile e páginas impressas; revisão semântica/morfológica/bibliográfica independente artigo a artigo; HTTP real dos links NA28; testes em navegador/DOM, pesquisa, teclado, foco, acessibilidade; execução GitHub Actions/CI, regressão global, checklist da auditoria atômica A–J e integração/homologação. AUDITORIA_CONCLUIDA=NÃO para todos os 20 artigos; não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 4884 → 4904 / 8287 = 59,18%; 3383 artigos restantes; próximo lema μηθέν, linha 51762.
+================================================================================
