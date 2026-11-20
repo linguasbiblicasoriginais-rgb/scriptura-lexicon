@@ -10209,3 +10209,37 @@ ESCOPO EXCLUSIVO DE PUBLICAÇÃO: lexicons/bdag-part-0232.js, lexicon-modules.js
 PENDÊNCIAS: SHA bruto da fonte; comparação com fac-símile; revisão semântica/morfológica/bibliográfica independente por artigo; testes DOM/navegador, teclado, foco e acessibilidade; acesso HTTP real aos links NA28; CI/regressão global; auditoria atômica A–J, integração e homologação posteriores. AUDITORIA_CONCLUIDA=NÃO. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 4844 → 4864 / 8287 = 58,69%; 3423 artigos restantes; próximo lema μετανοέω, linha 51294.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 233 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL REAL, PAI DO COMMIT E EXPECTED_SHA: 41cf24daf08bc5005d25516974e1155373a62f80. Regras relidas neste HEAD: regras/Rbdag.txt (blob 442d5de1df67c8936598412a807d6b2aa80a332c) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 51294–51436, exatamente 20 artigos autônomos consecutivos, de μετανοέω a μετοικίζω. Próximo artigo excluído: μετοπωρινός, όν, linha 51437. Fonte lida diretamente como arquivo do Projeto no intervalo 51294–51437, sem advertências de leitura; SHA de bytes do HTML original e confronto com fac-símile ainda não certificados. Nenhum PDF ou outro léxico foi utilizado para substituir a fonte.
+TRADUÇÃO: 20 artigos integralmente vertidos ao português brasileiro com sentidos e subdivisões, formas e paradigmas flexionais, casos e regências, variantes, remissões, testemunhos bíblicos e patrísticos, bibliografia, numerais e reservas interpretativas preservados. μετανοέω distingue mudar de opinião e arrepender-se/converter-se, com relações sintáticas; μετάνοια preserva extensão da mudança de pensamento à conversão religiosa e usos específicos; μεταξύ conserva valor espacial, temporal e recíproco; μετασχηματίζω distingue transformação, disfarce e aplicação retórica; μετατίθημι distingue mudança de lugar/condição/lealdade; μετεωρίζομαι conserva o juízo argumentado do BDAG sobre Lk 12:29. Mantidos os artigos remissivos μετέβη e μετῆρα como autônomos.
+COLAÇÃO INDIVIDUAL DIRETA HTML CANÔNICO → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 765 sequências gregas, 0 hebraicas/aramaicas na fonte deste intervalo e 1323 sequências numéricas; identidade de conteúdo e de ordem em todos os 20 artigos após normalização NFC. Zero divergências detectadas. Este controle formal não demonstra revisão independente de todos os sentidos, cotejo facsimilar, acesso HTTP ou auditoria A–J.
+ARTIGOS (nº | lema | linhas HTML | G/H/N, mesmas contagens nos três estratos):
+01 | μετανοέω | 51294–51304 | 131/0/431
+02 | μετάνοια, ας, ἡ | 51305–51309 | 181/0/339
+03 | μεταξύ | 51310–51338 | 104/0/116
+04 | μεταπαραδίδωμι | 51339–51342 | 2/0/9
+05 | μεταπέμπω | 51343–51346 | 27/0/35
+06 | μεταστρέφω | 51347–51351 | 25/0/28
+07 | μετασχηματίζω | 51352–51366 | 49/0/89
+08 | μετατίθημι | 51367–51380 | 86/0/82
+09 | μετατρέπω | 51381–51384 | 5/0/9
+10 | μεταυτίκα | 51385–51388 | 7/0/6
+11 | μεταφέρω | 51389–51392 | 6/0/14
+12 | μεταφυτεύω | 51393–51396 | 4/0/11
+13 | μετέβη | 51397–51400 | 2/0/0
+14 | μετενδύω | 51401–51404 | 8/0/2
+15 | μετέπειτα | 51405–51409 | 2/0/13
+16 | μετέχω | 51410–51420 | 62/0/56
+17 | μετεωρίζομαι | 51421–51424 | 14/0/37
+18 | μετῆρα | 51425–51428 | 2/0/0
+19 | μετοικεσία, ας, ἡ | 51429–51432 | 24/0/21
+20 | μετοικίζω | 51433–51436 | 24/0/25
+VALIDAÇÃO ESTÁTICA BDAG_PART_0233: source=BDAG; searchAnchorId=bdag-search-anchor; entryAnchorId=bdag-entry-anchor; 20 search-row, 20 entry-card; IDs entry-bdag-0233-01 a -20 exclusivos; data-target/id 1:1, sem duplicatas nem órfãos; HTML estruturalmente equilibrado; conteúdo integral dos cartões idêntico às traduções; 74 âncoras NA28 e 68 URLs distintas com sintaxe validada, HTTP não testado. O manifesto recebe apenas bdag-part-0233 após bdag-part-0232 e antes de leh.js; bibliographicTerms e bdag.js preservados.
+ESCOPO EXCLUSIVO DE PUBLICAÇÃO: lexicons/bdag-part-0233.js, lexicon-modules.json, regras/Rbdag.txt; conservar regras/Rauditoria.txt, demais módulos BDAG, outros léxicos e infraestrutura. Um único commit direto em chat-gpt-bdag, esperado pai/expected_sha=41cf24daf08bc5005d25516974e1155373a62f80, force=false; sem PR, merge, deploy, rebase ou branch auxiliar.
+PENDÊNCIAS E NÃO CERTIFICAÇÕES: SHA bruto da fonte HTML; cotejo físico/facsimilar; revisão independente semântica, morfológica e bibliográfica; HTTP real de 74 links NA28; testes funcionais DOM/navegador, pesquisa, foco, teclado, acessibilidade, CI e regressão global; validação de integração e homologação. AUDITORIA_CONCLUIDA=NÃO em todos os 20 artigos conforme Rauditoria A–J; não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFERÊNCIA DO HEAD PÓS-PUBLICAÇÃO: BDAG 4864 → 4884 / 8287 = 58,94%; restantes 3403 artigos; próximo lema μετοπωρινός, όν na linha 51437.
+================================================================================
