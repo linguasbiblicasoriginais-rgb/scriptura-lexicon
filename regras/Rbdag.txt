@@ -10141,3 +10141,37 @@ ESCOPO DE PUBLICAÇÃO: três arquivos exclusivamente, lexicons/bdag-part-0230.j
 PENDÊNCIAS: SHA bruto da fonte, cotejo do fac-símile original, revisão independente morfológica, semântica e bibliográfica completa de cada artigo conforme A–J, testes de DOM/navegador/teclado/foco/acessibilidade, HTTP dos links NA28, CI e regressão global, verificação de integração/homologação. AUDITORIA_CONCLUIDA=NÃO. Não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA: BDAG 4804 → 4824 / 8287 = 58,21%; 3463 artigos restantes. Próximo lema: Μεννά, ὁ, linha 50784.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 231 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO REAL ANTERIOR E PAI DO COMMIT: 7e644b06c0fa06eff831a799128e4e0c59dc1313. Regras relidas diretamente deste HEAD: regras/Rbdag.txt (blob ec7e06349c98dd444398337ca321f1db0f15d2bd) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE CANÔNICA EXCLUSIVA: HTML disponibilizado pelo mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 50784–51037, exatamente 20 artigos autônomos de Μεννά, ὁ até μεσουράνημα, ατος, τό. O 21º, μεσόω, começa na linha 51038 e fica fora deste lote. Sem uso de PDFs ou substituições por outros léxicos. O SHA bruto do HTML completo e cotejo facsimilar impresso não foram certificados.
+TRADUÇÃO: 20 artigos integralmente traduzidos ao português brasileiro, respeitando paradigmas, flexão, regências, subdivisões de acepções, grego, hebraico, variantes, testemunhos, bibliografia e referências numeradas. Os verbetes extensos μένω, μέρος e μέσος preservam hierarquias e exemplos; μερίς mantém explicitamente o debate crítico de Ac 16:12 sem falsificar certeza; μεσίτης mantém interpretação contestada de Gal 3:20; μεσημβρία mantém ambas as leituras (tempo e lugar) de Ac 8:26.
+COLAÇÃO FORMAL DIRETA INDIVIDUAL HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 1538 sequências gregas, 1 hebraica e 2003 numéricas, identidade e ordem exatas nos 20 artigos após normalização Unicode NFC, sem divergências restantes. Em μερίζω, corrigida antes da publicação a indicação numeral do primeiro futuro passivo (1); em μέσος, recuperada a explicitação numérica original “1 ou 2” da abertura, anteriormente substituída por sinais tipográficos ① e ②. Nenhuma alteração conjectural de leitura grega. O controle formal não certifica verificação do fac-símile, revisão semântica/bibliográfica independente ou o checklist atômico A–J.
+ARTIGOS (nº | lema | linhas originais | sequências G/H/N, iguais nos três estratos):
+01 | Μεννά, ὁ | 50784–50787 | 5/0/2
+02 | μενοῦν | 50788–50792 | 15/0/20
+03 | μέντοι | 50793–50804 | 15/0/37
+04 | μένω | 50805–50843 | 348/0/493
+05 | μερίζω | 50844–50872 | 115/0/91
+06 | μέριμνα, ης, ἡ | 50873–50877 | 28/0/42
+07 | μεριμνάω | 50878–50889 | 61/0/77
+08 | μερίς, ίδος, ἡ | 50890–50901 | 120/0/138
+09 | μερισμός, οῦ, ὁ | 50902–50918 | 24/0/39
+10 | μεριστής, οῦ, ὁ | 50919–50923 | 5/0/10
+11 | μέρος, ους, τό | 50924–50970 | 379/0/379
+12 | μεσάζω | 50971–50975 | 6/0/14
+13 | μεσημβρία, ας, ἡ | 50976–50986 | 11/0/55
+14 | μεσιτεύω | 50987–50990 | 5/0/16
+15 | μεσίτης, ου, ὁ | 50991–50994 | 37/0/61
+16 | μεσονύκτιον, ου, τό | 50995–50998 | 20/0/45
+17 | Μεσοποταμία, ας, ἡ | 50999–51003 | 9/0/48
+18 | μέσος, η, ον | 51004–51029 | 304/1/402
+19 | μεσότοιχον, ου, τό | 51030–51033 | 25/0/18
+20 | μεσουράνημα, ατος, τό | 51034–51037 | 6/0/16
+TESTES ESTÁTICOS DO MÓDULO BDAG_PART_0231: source=BDAG; searchAnchorId=bdag-search-anchor; entryAnchorId=bdag-entry-anchor; rowsHtml/cardsHtml; 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0231-01 a -20, data-target/id 1:1, HTML estruturalmente equilibrado e texto de cartão igual à tradução. 222 âncoras para NA28, 209 URLs distintas e sintaxe válida, mas nenhum acesso HTTP real. Manifesto adiciona 1 entrada única bdag-part-0231 imediatamente após bdag-part-0230 e antes de leh.js, sem alterar bibliographicTerms.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0231.js, lexicon-modules.json e regras/Rbdag.txt. Preservar regras/Rauditoria.txt, lexicons/bdag.js, módulos anteriores, demais léxicos e infraestrutura. Publicação de exatamente um commit com parent_sha=7e644b06c0fa06eff831a799128e4e0c59dc1313, expected_sha=7e644b06c0fa06eff831a799128e4e0c59dc1313, force=false, sem PR, merge, deploy, rebase nem branch auxiliar.
+PENDÊNCIAS: SHA do HTML bruto, fac-símile, revisão independente filológica semântica/bibliográfica, checklist A–J atômico, DOM/navegador, foco/teclado/acessibilidade, HTTP de links NA28, execução CI/GitHub Actions, regressão global e homologação da integração. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO REMOTA: BDAG 4824 → 4844 / 8287 = 58,45%; 3443 artigos restantes. Próximo lema: μεσόω na linha 51038.
+================================================================================
