@@ -10073,3 +10073,37 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0228.js, lexicon-modules.json, regras/Rbdag
 PENDÊNCIAS: SHA bruto da fonte HTML, cotejo facsimilar, revisão filológica/semântica/bibliográfica independente de cada artigo, checklist A–J de Rauditoria, testes funcionais DOM/navegador/teclado/foco, HTTP dos links, GitHub Actions/CI, regressão global e homologação da integração. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA: BDAG 4764 → 4784 / 8287 = 57,73%; 3503 artigos restantes. Próximo lema: μεθόριον, ου, τό, linha 50481.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 229 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE REMOTA REAL E PAI DO COMMIT: 0aaafd77ef10b30f455c103fcaa6abc049b0e9f8. Normas relidas diretamente neste HEAD: regras/Rbdag.txt (blob 12ed7027e07e85494701014ad4934d28d16d5706) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 50481–50605, com 20 artigos autônomos consecutivos de μεθόριον, ου, τό até μελέτη, ης, ἡ. Próximo artigo excluído: μέλι, ιτος, τό, linha 50606. Não foram utilizados PDFs nem outros léxicos. Não houve obtenção de SHA bruto integral do HTML ou cotejo direto do fac-símile impresso.
+TRADUÇÃO: 20 artigos traduzidos integralmente em português brasileiro, incluindo remissões autônomas μειγνύμι/μειγνύω (grafia de lema conforme fonte μείγνυμι, μειγνύω), μειζότερος, μείζων, μέλαν, Μελελεήλ; preservar gênero, paradigmas, regências, formas gregas, hebraico com niqqud, variantes, bibliografia e referências. μεθύσκω distingue causativo e passivo de sentido ativo; μέλας distingue cor negra, simbologia moral/apocalíptica e tinta; μέλει preserva ①–② e ⓐ–ⓓ, construções impessoais e pessoais; μελετάω conserva ①–③; μείλισσω (lema: μειλίσσω) mantém marca explícita de reconstituição de texto fragmentário no AcPl BMM.
+COLAÇÃO PROGRAMÁTICA INDIVIDUAL COMPLETA FONTE HTML → TRADUÇÃO → TEXTO EXTRAÍDO DO CARTÃO: 323 sequências gregas, 5 hebraicas e 533 numéricas, com identidade e ordem exatas nos 20 artigos após normalização NFC; nenhuma divergência. A fonte foi relida para colação em três janelas consecutivas 50481–50533 (artigos 01–13), 50533–50583 (14–17) e 50583–50606 (18–20). O controle formal não substitui revisão semântica, filológica, facsimilar ou auditoria A–J.
+ARTIGOS (nº | lema | linhas HTML | G/H/N, mesma contagem nos três estratos):
+01 | μεθόριον, ου, τό | 50481–50484 | 10/0/14
+02 | μεθύσκω | 50485–50488 | 19/2/46
+03 | μέθυσμα, ατος, τό | 50489–50492 | 7/0/10
+04 | μέθυσος, ου, ὁ | 50493–50496 | 5/0/25
+05 | μεθύω | 50497–50500 | 30/0/49
+06 | μείγνυμι, μειγνύω | 50501–50504 | 3/0/0
+07 | μειδιάω | 50505–50508 | 6/0/7
+08 | μειζότερος | 50509–50512 | 2/0/0
+09 | μείζων | 50513–50516 | 2/0/0
+10 | μειλίσσω | 50517–50520 | 15/0/8
+11 | μειόω | 50521–50524 | 16/0/22
+12 | μείωσις, εως, ἡ | 50525–50528 | 7/0/11
+13 | μέλαν, τό | 50529–50532 | 3/0/0
+14 | μελανέω | 50533–50537 | 8/0/19
+15 | μέλας, μέλαινα, μέλαν | 50538–50554 | 59/0/135
+16 | Μελεά, ὁ | 50555–50559 | 4/1/2
+17 | μέλει | 50560–50582 | 87/0/105
+18 | Μελελεήλ | 50583–50587 | 2/0/0
+19 | μελετάω | 50588–50601 | 32/2/63
+20 | μελέτη, ης, ἡ | 50602–50605 | 6/0/17
+CONTROLES ESTÁTICOS DO MÓDULO BDAG_PART_0229: source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor, rowsHtml e cardsHtml. 20 search-row e 20 entry-card; IDs exclusivos entry-bdag-0229-01 até -20; data-target/id 1:1, nenhum órfão nem duplicata, HTML estruturalmente equilibrado, textos dos cartões idênticos às traduções. 29 links NA28, 28 URLs distintas, validação somente de sintaxe, SEM acesso HTTP. Manifesto recebe exatamente um caminho part-0229 após part-0228 e antes de leh.js, sem duplicar bibliographicTerms.
+ESCOPO EXCLUSIVO DE PUBLICAÇÃO: lexicons/bdag-part-0229.js, lexicon-modules.json e regras/Rbdag.txt; preservar regras/Rauditoria.txt, lexicons/bdag.js, módulos anteriores, outros léxicos e infraestrutura. Exatamente um commit, parent=0aaafd77ef10b30f455c103fcaa6abc049b0e9f8, expected_sha=0aaafd77ef10b30f455c103fcaa6abc049b0e9f8, force=false; nenhum PR, merge, deploy, rebase ou branch auxiliar.
+PENDÊNCIAS: SHA bruto do arquivo HTML de origem; confronto com fac-símile; revisão independente semântica, morfológica, de citações e bibliografia; auditoria A–J individual de Rauditoria; HTTP real dos links; execução de testes DOM/navegador, foco/teclado/acessibilidade, CI e regressão global; homologação e integração autorizadas. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO REMOTA: BDAG 4784 → 4804 / 8287 = 57,97%; restantes 3483 artigos. Próximo lema: μέλι, ιτος, τό, linha 50606.
+================================================================================
