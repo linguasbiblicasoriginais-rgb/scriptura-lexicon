@@ -10107,3 +10107,37 @@ ESCOPO EXCLUSIVO DE PUBLICAÇÃO: lexicons/bdag-part-0229.js, lexicon-modules.js
 PENDÊNCIAS: SHA bruto do arquivo HTML de origem; confronto com fac-símile; revisão independente semântica, morfológica, de citações e bibliografia; auditoria A–J individual de Rauditoria; HTTP real dos links; execução de testes DOM/navegador, foco/teclado/acessibilidade, CI e regressão global; homologação e integração autorizadas. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO REMOTA: BDAG 4784 → 4804 / 8287 = 57,97%; restantes 3483 artigos. Próximo lema: μέλι, ιτος, τό, linha 50606.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 230 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO REAL ANTERIOR E PAI DO COMMIT: bebe607732f65bef6d15ed837acb4b34bec6bc29. Regras relidas nesse HEAD: regras/Rbdag.txt (blob 2e92fa6c4dd29760381d38113d1b6fea45926062) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE CANÔNICA EXCLUSIVA: HTML disponibilizado pelo mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 50606–50783, com exatamente 20 artigos consecutivos de μέλι, ιτος, τό até μέν. O 21º, Μεννά, ὁ, inicia na linha 50784 e não foi incorporado neste lote. Sem recurso a PDFs ou a outros léxicos. SHA bruto da fonte e cotejo facsimilar ainda não certificados.
+TRADUÇÃO: cada um dos 20 artigos traduzido integralmente para português brasileiro com paradigmas, formas gregas e hebraicas, variantes textuais, remissões, hierarquia de acepções, paralelos, numerais e referências bibliográficas preservados. O longo artigo μέλλω diferencia (1) futuridade, (2) destino/necessidade, (3) particípio futuro substantivado e (4) demora; o longo μέν mantém usos correlativos e não correlativos, subdivisões α–γ e ⓐ–ⓕ e anacolutos; μέλος preserva membro corporal e integrante da comunidade, Melquisedeque mantém a nota de tipologia e fontes; μεμβράνα conserva o debate entre rolos e códices.
+COLAÇÃO INDEPENDENTE INDIVIDUAL DO TEXTO HTML FONTE → TRADUÇÃO → TEXTO EXTRAÍDO DO CARTÃO: 819 sequências gregas, 2 hebraicas e 1.369 numéricas, identidade e ordem integralmente confirmadas em todos os 20 artigos após normalização Unicode NFC. Divergências detectadas e resolvidas ANTES DA PUBLICAÇÃO: em μέλος, a referência literal à acepção 1 faltava como numeral comum porque fora usada a marca ①; corrigido para “acepção 1”. Em μέμφομαι, duas referências bibliográficas foram realocadas para restaurar a ordem exata da fonte. Em μέν, o texto HTML reparte o sinal ῾ e Η em dois spans inline adjacentes: a colação reconstruiu ῾Η antes da comparação; nenhuma emenda especulativa às letras gregas. Nenhuma divergência restante de sequências após esses ajustes. Esse controle formal não equivale a revisão linguística independente, fac-símile ou auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas originais | contagens G/H/N, iguais na fonte, tradução e cartão):
+01 | μέλι, ιτος, τό | 50606–50609 | 15/0/51
+02 | μέλισσα, ης, ἡ | 50610–50613 | 5/0/15
+03 | μελίσσιος, ιον | 50614–50617 | 15/0/31
+04 | Μελίτη, ης, ἡ | 50618–50621 | 3/0/35
+05 | Μελιτήνη | 50622–50626 | 2/0/0
+06 | μέλλω | 50627–50667 | 261/0/501
+07 | μέλομαι | 50668–50672 | 14/0/11
+08 | μέλος, ους, τό | 50673–50684 | 47/0/114
+09 | Μελχί, ὁ | 50685–50695 | 2/1/3
+10 | Μελχισέδεκ, ὁ | 50696–50699 | 17/1/66
+11 | μέλω | 50700–50703 | 2/0/0
+12 | μεμβράνα, ης, ἡ | 50704–50707 | 41/0/39
+13 | μεμενήκεισαν | 50708–50711 | 2/0/0
+14 | μέμιγμαι | 50712–50715 | 2/0/0
+15 | μεμμίαμαι | 50716–50719 | 2/0/0
+16 | μέμνημαι | 50720–50723 | 2/0/0
+17 | μέμφομαι | 50724–50727 | 41/0/68
+18 | μεμψίμοιρος, ον | 50728–50731 | 17/0/19
+19 | μέμψις, εως, ἡ | 50732–50736 | 5/0/11
+20 | μέν | 50737–50783 | 324/0/405
+CONTROLES ESTÁTICOS DO MÓDULO: lexicons/bdag-part-0230.js exporta window.ScripturaLexicons.BDAG_PART_0230, source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor, rowsHtml e cardsHtml; 20 search-row e 20 entry-card, IDs únicos entry-bdag-0230-01 até -20, correspondência data-target/id exata, nenhum órfão, HTML equilibrado, conteúdo textual de cada cartão idêntico à tradução. 172 âncoras NA28 e 161 URLs distintas com sintaxe validada, sem consulta HTTP. Manifesto terá exatamente uma entrada bdag-part-0230 imediatamente após bdag-part-0229 e antes de leh.js, sem modificar bibliographicTerms.
+ESCOPO DE PUBLICAÇÃO: três arquivos exclusivamente, lexicons/bdag-part-0230.js, lexicon-modules.json e regras/Rbdag.txt. Preservar regras/Rauditoria.txt, lexicons/bdag.js, módulos anteriores, demais léxicos e infraestrutura. Um único commit com parent_sha=bebe607732f65bef6d15ed837acb4b34bec6bc29, expected_sha=bebe607732f65bef6d15ed837acb4b34bec6bc29, force=false; sem PR, merge, deploy, rebase nem branches auxiliares.
+PENDÊNCIAS: SHA bruto da fonte, cotejo do fac-símile original, revisão independente morfológica, semântica e bibliográfica completa de cada artigo conforme A–J, testes de DOM/navegador/teclado/foco/acessibilidade, HTTP dos links NA28, CI e regressão global, verificação de integração/homologação. AUDITORIA_CONCLUIDA=NÃO. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA: BDAG 4804 → 4824 / 8287 = 58,21%; 3463 artigos restantes. Próximo lema: Μεννά, ὁ, linha 50784.
+================================================================================
