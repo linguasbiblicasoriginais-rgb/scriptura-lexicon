@@ -196,4 +196,4 @@ function overlayBdbhPt007(mod,translations){
   }
   if(mod.sourceRecords.length!==count)throw Error("BDB-H/PT: fontes inglesas alteradas");
 }
-overlayBdbhPt007(window.ScripturaLexicons && window.ScripturaLexicons["bdbh-batch-007"],window.ScripturaBDBHpt.batch006.records);
+overlayBdbhPt007(window.ScripturaLexicons && window.ScripturaLexicons["bdbh-batch-007"],window.ScripturaBDBHpt.batch007.records);
