@@ -10175,3 +10175,37 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0231.js, lexicon-modules.json e regras/Rbda
 PENDÊNCIAS: SHA do HTML bruto, fac-símile, revisão independente filológica semântica/bibliográfica, checklist A–J atômico, DOM/navegador, foco/teclado/acessibilidade, HTTP de links NA28, execução CI/GitHub Actions, regressão global e homologação da integração. AUDITORIA_CONCLUIDA=NÃO; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO REMOTA: BDAG 4824 → 4844 / 8287 = 58,45%; 3443 artigos restantes. Próximo lema: μεσόω na linha 51038.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 232 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO BASE (pai esperado): c63c08a1a533d6c05ac6b103176a39bda30e7b7d. Normas lidas diretamente no HEAD: regras/Rbdag.txt (blob 1350032e5c5d8bf913d3577ecdabfc8442037400) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67).
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 51038–51293, exatamente 20 artigos autônomos de μεσόω até μεταμορφόω. Próxima entrada excluída: μετανοέω, linha 51294. Consulta direta ao arquivo HTML disponível no Projeto; janelas consultadas sem advertências; SHA bruto do arquivo e cotejo de fac-símile não certificados. Não foi utilizado o PDF nem qualquer léxico substitutivo.
+TRADUÇÃO E COLAÇÃO: tradução integral em português brasileiro com preservação de todas as acepções, subdivisões, regências, paradigmas, referências, bibliografia, variantes e textos em grego/hebraico/aramaico. Em μετά preservadas as seções A (genitivo, sentidos ①–③) e B (acusativo, sentidos ①–②), além das subdivisões gregas e referências semânticas; a nota do hebraico אֶת־פָּנֶיךָ foi conservada. Corrigida antes da publicação a representação numérica de ordinais em paradigmas dos artigos μεταβαίνω, μεταβάλλω, μεταγράφω, μετάγω e μεταδίδωμι, para preservar também a sequência exata dos algarismos da fonte.
+COLAÇÃO INDIVIDUAL FONTE HTML → TRADUÇÃO → TEXTO EXTRAÍDO DO CARTÃO: 1.122 sequências gregas, 14 hebraicas e 1.862 numéricas; identidade e ordem completas nos 20 artigos sob normalização Unicode NFC. Conferência estática de tokens e correspondência de conteúdo não substitui revisão filológica independente, cotejo impresso, teste funcional real ou auditoria A–J.
+ARTIGOS (nº | lema | linhas HTML | G/H/N, mesmas contagens nos três estratos):
+01 | μεσόω | 51038–51041 | 14/0/20
+02 | Μεσσίας, ου, ὁ | 51042–51046 | 4/2/26
+03 | μεστός, ή, όν | 51047–51063 | 78/0/79
+04 | μεστόω | 51064–51068 | 9/0/14
+05 | μετά | 51069–51167 | 688/11/1161
+06 | μεταβαίνω | 51168–51196 | 74/0/74
+07 | μεταβάλλω | 51197–51200 | 20/0/32
+08 | μεταγράφω | 51201–51205 | 6/0/15
+09 | μετάγω | 51206–51216 | 14/0/36
+10 | μεταδίδωμι | 51217–51221 | 23/0/50
+11 | μετάθεσις, εως, ἡ | 51222–51232 | 8/0/22
+12 | μεταίρω | 51233–51236 | 6/0/17
+13 | μετακαλέω | 51237–51240 | 11/0/16
+14 | μετακινέω | 51241–51244 | 8/0/17
+15 | μετακόσμιος, ον | 51245–51249 | 5/0/11
+16 | μεταλαμβάνω | 51250–51260 | 62/0/81
+17 | μετάλημψις | 51261–51264 | 16/0/13
+18 | μεταλλάσσω | 51265–51269 | 29/0/37
+19 | μεταμέλομαι | 51270–51281 | 11/1/49
+20 | μεταμορφόω | 51282–51293 | 36/0/92
+CONTROLES ESTÁTICOS DO MÓDULO BDAG_PART_0232: source=BDAG; searchAnchorId=bdag-search-anchor; entryAnchorId=bdag-entry-anchor; rowsHtml/cardsHtml; 20 search-row e 20 entry-card; 20 IDs exclusivos entry-bdag-0232-01 até -20; data-target/id 1:1, sem órfãos ou duplicatas; HTML estruturalmente equilibrado; texto de cartão idêntico à tradução; 246 âncoras NA28 e 237 URLs distintas com sintaxe validada (HTTP não testado). O manifesto recebe exatamente uma linha bdag-part-0232 após bdag-part-0231 e antes de leh.js; bibliographicTerms permanece inalterado.
+ESCOPO EXCLUSIVO DE PUBLICAÇÃO: lexicons/bdag-part-0232.js, lexicon-modules.json e regras/Rbdag.txt. Preservar Rauditoria, bdag.js, módulos anteriores, outros léxicos e infraestrutura. Exatamente UM commit Git com parent_sha=c63c08a1a533d6c05ac6b103176a39bda30e7b7d, expected_sha=c63c08a1a533d6c05ac6b103176a39bda30e7b7d, force=false; sem PR, merge, deploy, rebase ou branch auxiliar.
+PENDÊNCIAS: SHA bruto da fonte; comparação com fac-símile; revisão semântica/morfológica/bibliográfica independente por artigo; testes DOM/navegador, teclado, foco e acessibilidade; acesso HTTP real aos links NA28; CI/regressão global; auditoria atômica A–J, integração e homologação posteriores. AUDITORIA_CONCLUIDA=NÃO. Não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 4844 → 4864 / 8287 = 58,69%; 3423 artigos restantes; próximo lema μετανοέω, linha 51294.
+================================================================================
