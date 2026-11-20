@@ -10311,3 +10311,37 @@ ESCOPO RESTRITO DE PUBLICAÇÃO: lexicons/bdag-part-0235.js, lexicon-modules.jso
 PENDÊNCIAS EXPLICITAMENTE NÃO CERTIFICADAS: SHA bruto do HTML e cotejo impresso/facsimilar; revisão semântica/morfológica/bibliográfica independente artigo por artigo; acesso HTTP dos links, execução real DOM/navegador e teclado/foco/acessibilidade; GitHub Actions/CI e testes de regressão global; auditoria atômica A–J, PR/integração e homologação posterior. AUDITORIA_CONCLUIDA=NÃO para todos os vinte; não aumentar total_auditoria_concluida.
 PROGRESSO CONDICIONADO AO HEAD PÓS-COMMIT: BDAG 4.904 → 4.924 / 8.287 = 59,42%; 3.363 artigos restantes; próximo lema μήτρα, linha 51975.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 236 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: e15fd397b94a44043852e81e814ad84357857082. Regras relidas diretamente no HEAD: regras/Rbdag.txt (blob 7a3ec131aa5ef499765ddf83d698e33236a74580) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67). Não publicar sem controles formais; um único commit, force=false; sem PR, merge ou deploy.
+FONTE CANÔNICA EXCLUSIVA: arquivo HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 51975–52152, de μήτρα, ας, ἡ a μιμνῄσκομαι, exatamente 20 artigos autônomos consecutivos. Próxima entrada EXCLUÍDA: Μισαήλ, ὁ, linha 52153. Fonte lida no Projeto diretamente no intervalo 51975–52153, sem advertências. SHA dos bytes originais do HTML e comparação com o fac-símile não obtidos; nenhum outro léxico foi usado como substituto.
+TRADUÇÃO: versão integral em português brasileiro dos 20 artigos e de todas as acepções/subdivisões, preservando formas gregas e paradigmas, etimologia, variantes, remissões, bibliografia, testemunhos bíblicos e patrísticos e sequências de números. μητρολῴας conserva variantes manuscritas; μηχανή conserva a imagem do guindaste de Cristo e o Espírito Santo como corda; μιαίνω distingue impureza ritual e profanação moral e mantém o contexto cultural greco-romano; μίγνυμι mantém as formas verbais e as construções com dativo/preposições; μικρός distingue tamanho, idade, distância, tempo, quantidade, insignificância e pequenez; μιμνῄσκομαι mantém as três acepções e regências (genitivo, acusativo, ὅτι/ὡς, oração relativa, passivo).
+COLAÇÃO FORMAL INDIVIDUAL HTML CANÔNICO → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 638 sequências gregas, zero sequências de escrita hebraica/aramaica presentes nesse intervalo e 1078 sequências numéricas, todas na mesma ordem e conteúdo, normalizadas em Unicode NFC; 20/20 artigos sem divergência. Isso não é cotejo facsimilar, auditoria semântica independente nem prova da auditoria atômica A–J.
+ARTIGOS (número | lema | linhas do HTML | contagens G/H/N idênticas em fonte e produto):
+01 | μήτρα, ας, ἡ | 51975–51978 | 20/0/30
+02 | μητρολῴας, ου, ὁ | 51979–51982 | 31/0/20
+03 | μητρόπολις, εως, ἡ | 51983–51986 | 6/0/28
+04 | μηχανάομαι | 51987–51990 | 15/0/20
+05 | μηχανή, ῆς, ἡ | 51991–51995 | 23/0/20
+06 | μιαίνω | 51996–52006 | 49/0/95
+07 | μιαρός, ά, όν | 52007–52010 | 13/0/30
+08 | μίασμα, ατος, τό | 52011–52014 | 21/0/29
+09 | μιασμός, οῦ, ὁ | 52015–52018 | 21/0/23
+10 | μίγμα, ατος, τό | 52019–52022 | 13/0/13
+11 | μίγνυμι | 52023–52026 | 64/0/45
+12 | μικρολογία, ας, ἡ | 52027–52031 | 4/0/7
+13 | μικρός, ά, όν | 52032–52084 | 131/0/271
+14 | μικρῶς | 52085–52088 | 8/0/13
+15 | Μίλητος, ου, ἡ | 52089–52092 | 3/0/31
+16 | μίλιον, ου, τό | 52093–52096 | 3/0/35
+17 | μιμέομαι | 52097–52100 | 44/0/67
+18 | μίμημα, ατος, τό | 52101–52105 | 16/0/24
+19 | μιμητής, οῦ, ὁ | 52106–52117 | 55/0/90
+20 | μιμνῄσκομαι | 52118–52152 | 98/0/187
+VERIFICAÇÕES ESTÁTICAS BDAG_PART_0236: 20 search-row, 20 entry-card, 20 IDs exclusivos entry-bdag-0236-01 a -20; 20 data-target correspondentes 1:1, HTML de linhas e cartões balanceado; conteúdo integral dos cartões corresponde à tradução. Metadados source=BDAG; searchAnchorId=bdag-search-anchor; entryAnchorId=bdag-entry-anchor. 73 âncoras NA28 e 70 URLs distintas, com sintaxe de URL validada, sem teste HTTP. Manifesto inclui exatamente bdag-part-0236 depois de bdag-part-0235 e antes de leh.js, bibliographicTerms de bdag.js não alterados.
+ESCOPO ÚNICO DE PUBLICAÇÃO: lexicons/bdag-part-0236.js, lexicon-modules.json, regras/Rbdag.txt. Não alterar regras/Rauditoria.txt, léxicos adjacentes, módulos anteriores, infraestrutura ou projeto Noda. Um commit direto em chat-gpt-bdag com parent_sha=e15fd397b94a44043852e81e814ad84357857082 e expected_sha=e15fd397b94a44043852e81e814ad84357857082, force=false; sem PR, merge, rebase, branch auxiliar, nem deploy.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico; cotejo com fac-símile; revisão independente semântica, morfológica e bibliográfica por artigo; testes de navegador/DOM, pesquisa, teclado, foco, acessibilidade; HTTP real dos links; CI, regressão global, homologação e checklist de auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os vinte artigos; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO REMOTA DA PUBLICAÇÃO: BDAG 4924 → 4944 / 8287 = 59,66%; 3343 artigos restantes. Próximo artigo: Μισαήλ, ὁ, linha 52153.
+================================================================================
