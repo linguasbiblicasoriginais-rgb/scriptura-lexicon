@@ -10615,3 +10615,36 @@ ESCOPO EXCLUSIVO DOS TRÊS ARQUIVOS A PUBLICAR: lexicons/bdag-part-0244.js, lexi
 PENDÊNCIAS NÃO CERTIFICADAS: hash bruto HTML canônico, cotejo facsimilar/impresso, revisão independente semântica/filológica/bibliográfica por verbete, verificações HTTP dos links, teste em navegador/DOM real de busca, teclado, foco, popups e acessibilidade, GitHub Actions/CI, regressão global, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar total_auditoria_concluida.
 PROGRESSO SE HEAD REMOTO CONFIRMAR PUBLICAÇÃO: BDAG 5084 → 5104 / 8287 = 61,59%; 3183 artigos restantes. Próximo artigo: νῆσος, ου, ἡ, linha 53282.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 245 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 7080b2fecaa5d9901e1ebaf632c04a892dd9e889. SHA de regras/Rbdag.txt pré-lote 5c2e8681cf02612a6404317c4953ca776f82f4d1; regras/Rauditoria.txt 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicar estritamente um único commit na branch chat-gpt-bdag, expected_sha igual ao HEAD real, force=false; sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", recuperado por Files/Library, linhas 53282–53414, exatamente 20 artigos autônomos consecutivos, desde νῆσος, ου, ἡ até Νινευή. Próximo artigo EXCLUÍDO: Νινευής, linha 53415. Fonte lida diretamente, mas hash bruto dos bytes do HTML e cotejo facsimilar impresso não certificados. Outros léxicos não substituíram a fonte.
+TRADUÇÃO: vinte artigos traduzidos integralmente para o português brasileiro, com formas e paradigmas gregos, hebraico, variantes textuais, referências e bibliografia, acepções e subdivisões, hipóteses e remissões preservados. νηστεία distingue privação involuntária ① de jejum devocional ②ⓐⓑ, incluindo lacunas papiráceas e expressão hebraica. νηστεύω conserva paradigmas, práticas judaicas e cristãs e incerteza interpretativa final. νηφάλιος apresenta sobriedade literal e figurada. νικάω mantém ①ⓐⓑ, ②ⓐⓑ e ③, inclusive sentido forense e construções passivas. νῖκος mantém ① vitória e ② prêmio da vitória, testemunhos textuais e νῖκος/νεῖκος. Νικόδημος mantém ressalva sobre identificação talmúdica; Νικολαί̈της e Νικόλαος conservam hipóteses distintas sobre a seita; Νινευή conserva נִינְוֵה e remissão textual.
+COLAÇÃO FORMAL POR ARTIGO, HTML → TRADUÇÃO → CARTÃO: exatamente 480 sequências gregas, 7 em escrita hebraica e 945 numéricas em conteúdo e ordem idênticos (Unicode NFC) nos 20 artigos, zero discrepâncias finais. Uma inversão preliminar da sequência νῖκος/δίκη foi corrigida na tradução de νῖκος ANTES da gravação. A comparação formal não equivale a revisão semântica independente, cotejo facsimilar ou auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas | G/H/N):
+01 | νῆσος, ου, ἡ | 53282–53286 | 3/0/27
+02 | νηστεία, ας, ἡ | 53287–53303 | 93/4/153
+03 | νηστεύω | 53304–53307 | 60/0/181
+04 | νῆστις, ὁ, ἡ | 53308–53311 | 11/0/20
+05 | νηφαλέος | 53312–53316 | 1/0/0
+06 | νηφάλιος, ία, ον | 53317–53327 | 9/0/51
+07 | νήφω | 53328–53331 | 53/0/57
+08 | νήχομαι | 53332–53335 | 5/0/23
+09 | Νίγερ, ὁ | 53336–53339 | 4/0/21
+10 | Νικάνωρ, ορος, ὁ | 53340–53344 | 3/1/23
+11 | νικάω | 53345–53370 | 147/0/179
+12 | νίκη, ης, ἡ | 53371–53374 | 7/0/19
+13 | Νικήτης, ου | 53375–53378 | 2/0/12
+14 | νικητής, ου, ὁ | 53379–53382 | 5/0/3
+15 | Νικόδημος, ου, ὁ | 53383–53386 | 5/1/30
+16 | Νικολαί̈της, ου, ὁ | 53387–53390 | 11/0/28
+17 | Νικόλαος, ου, ὁ | 53391–53394 | 4/0/11
+18 | Νικόπολις, εως, ἡ | 53395–53399 | 5/0/21
+19 | νῖκος, ους, τό | 53400–53410 | 49/0/68
+20 | Νινευή | 53411–53414 | 3/1/18
+VALIDAÇÕES ESTÁTICAS: BDAG_PART_0245 com source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor. 20 tr.search-row e 20 article.entry-card; IDs entry-bdag-0245-01 até -20, exclusivos no lote e data-target/id bijetivos; HTML balanceado; texto extraído de cada cartão igual à tradução; 61 âncoras NA28 (53 URLs únicas), sintaxe validada, HTTP não testado. Manifesto inclui apenas lexicons/bdag-part-0245.js imediatamente depois de part-0244.js e antes de leh.js, sem duplicações. bibliographicTerms em bdag.js preservado.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0245.js, lexicon-modules.json e regras/Rbdag.txt (anexação deste checkpoint), em um único commit; não alterar regras/Rauditoria.txt, módulos anteriores, outros léxicos ou infraestrutura.
+PENDÊNCIAS: hash bruto HTML, confronto facsimilar/impresso, revisão independente semântica e bibliográfica por verbete, HTTP real dos links, DOM/navegador (pesquisa, teclado, foco, popups e acessibilidade), GitHub Actions/CI, regressão global, homologação, integração e checklist A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar total_auditoria_concluida. Após commit, a existência do módulo na branch de origem ainda não constitui integração.
+PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA FINAL: BDAG 5104 → 5124 / 8287 = 61,83%; 3163 artigos restantes. Próximo lema: Νινευής, linha 53415.
+================================================================================
