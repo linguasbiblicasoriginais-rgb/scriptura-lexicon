@@ -10379,3 +10379,37 @@ ESCOPO ÚNICO DE PUBLICAÇÃO: lexicons/bdag-part-0237.js, lexicon-modules.json,
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML, cotejo facsimilar, revisão semântica/morfológica/bibliográfica independente, HTTP real dos links, testes em navegador/DOM, pesquisa, teclado, foco, acessibilidade, CI, regressão global, homologação e checklist da auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos, não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 4944 → 4964 / 8287 = 59,90%; 3323 artigos restantes; próximo artigo μνημονεύω, linha 52300.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 238 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO REAL INICIAL / PARENT / EXPECTED_SHA: b7189ad0525a5cb76d8715e8180e6e2302f19481. Normas relidas no HEAD: regras/Rbdag.txt (blob e818ebb6c36c1cd1c6aa7b32aed1e71003624855); regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67). Um só commit diretamente em chat-gpt-bdag com expected_sha exato e force=false; sem PR, merge, deploy, rebase ou branch auxiliar.
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 52300–52476, 20 artigos autônomos consecutivos de μνημονεύω a Μόλοχ. Próximo artigo EXCLUÍDO: μολύνω, linha 52477. Leitura direta do HTML do Projeto no intervalo 52300–52477 sem avisos. SHA bruto da fonte e cotejo impresso/facsimilar não certificados. Não substituir por PDFs nem fontes lexicográficas auxiliares.
+TRADUÇÃO: os 20 artigos integralmente vertidos ao português brasileiro, com toda a estrutura de acepções, subacepções, flexão, regências, semântica, variantes, remissões, testemunhos, referências e bibliografia. μνημονεύω conserva usos com genitivo, acusativo, ὅτι, περί, interrogativa indireta e oração temporal; μνημόσυνον preserva memória, lembrança e oferta memorial hebraica אַזְכָּרָה; μνησικακέω / μνησικακία / μνησίκακος distinguem verbo, nome e adjetivo; μνηστεύω registra formas média e passiva; μογγιλάλος e μογιλάλος permanecem artigos separados, preservando a diferença entre voz rouca, distúrbio da articulação e mudez; μόδιος mantém medida e bibliografia; μοιχαλίς mantém literal e metáfora profética da infidelidade; μοιχάω, μοιχεία, μοιχεύω, μοιχός conservam cada nuance e variante; μόλις distingue dificuldade, raridade de ocorrência e raridade de expectativa; Μόλοχ mantém todas as formas hebraicas, a versão grega do trecho de Amós e as referências acadêmicas sem conjectura.
+COLAÇÃO FORMAL INDIVIDUAL HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES (normalização Unicode NFC): 343 sequências gregas, 7 hebraicas e 930 numéricas, todas presentes na mesma ordem e com mesmo conteúdo nos três estratos em 20/20 artigos. Nenhuma divergência formal encontrada. A colação de sequências não é revisão filológica independente, cotejo facsimilar nem auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas canônicas | contagem G/H/N fonte=tradução=cartão):
+01 | μνημονεύω | 52300–52319 | 88/0/159
+02 | μνημοσύνη, ης, ἡ | 52320–52324 | 8/0/3
+03 | μνημόσυνον, ου, τό | 52325–52338 | 38/1/45
+04 | μνησικακέω | 52339–52342 | 29/0/39
+05 | μνησικακία, ας, ἡ | 52343–52346 | 5/0/12
+06 | μνησίκακος, ον | 52347–52350 | 6/0/8
+07 | μνηστεύω | 52351–52354 | 10/0/41
+08 | μογγιλάλος, ον | 52355–52359 | 5/0/16
+09 | μογιλάλος, ον | 52360–52370 | 9/0/34
+10 | μόγις | 52371–52374 | 3/0/34
+11 | μόδιος, ίου, ὁ | 52375–52378 | 4/0/44
+12 | μοῖρα, ας, ἡ | 52379–52383 | 5/0/13
+13 | μοιχαλίς, ίδος, ἡ | 52384–52395 | 30/0/67
+14 | μοιχάω | 52396–52415 | 20/0/43
+15 | μοιχεία, ας, ἡ | 52416–52420 | 21/0/115
+16 | μοιχεύω | 52421–52441 | 29/0/106
+17 | μοιχός, οῦ, ὁ | 52442–52452 | 9/0/37
+18 | μόλιβος, ου, ὁ | 52453–52457 | 5/0/18
+19 | μόλις | 52458–52471 | 11/0/80
+20 | Μόλοχ, ὁ | 52472–52476 | 8/6/16
+VALIDAÇÃO ESTÁTICA BDAG_PART_0238: 20 tr.search-row, 20 article.entry-card, IDs únicos entry-bdag-0238-01 a -20, correspondência data-target/id 1:1, HTML bem equilibrado, texto integral dos cartões corresponde a traduções, metadados source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor. 63 âncoras NA28, 55 URLs distintas, sintaxe verificada; HTTP não testado. Manifesto recebe exclusivamente bdag-part-0238 após bdag-part-0237 e antes de leh.js, sem duplicações. Mantidos metadados bibliographicTerms em bdag.js.
+ESCOPO RESTRITO DE PUBLICAÇÃO: lexicons/bdag-part-0238.js, lexicon-modules.json, regras/Rbdag.txt. Conservar regras/Rauditoria.txt intacto, demais módulos BDAG e léxicos e infraestrutura inalterados. Um único commit com parent_sha=b7189ad0525a5cb76d8715e8180e6e2302f19481, expected_sha=b7189ad0525a5cb76d8715e8180e6e2302f19481, force=false.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico; cotejo facsimilar; revisão semântica, morfológica e bibliográfica independente por artigo; HTTP real das âncoras NA28; execução em navegador/DOM, pesquisa, foco, teclado e acessibilidade; GitHub Actions/CI e regressão global; auditoria atômica A–J e homologação/integração posteriores. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS HEAD CONFIRMADO: BDAG 4964 → 4984 / 8287 = 60,14%; 3303 artigos restantes. Próximo lema μολύνω na linha 52477.
+================================================================================
