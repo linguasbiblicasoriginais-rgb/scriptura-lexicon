@@ -10413,3 +10413,37 @@ ESCOPO RESTRITO DE PUBLICAÇÃO: lexicons/bdag-part-0238.js, lexicon-modules.jso
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico; cotejo facsimilar; revisão semântica, morfológica e bibliográfica independente por artigo; HTTP real das âncoras NA28; execução em navegador/DOM, pesquisa, foco, teclado e acessibilidade; GitHub Actions/CI e regressão global; auditoria atômica A–J e homologação/integração posteriores. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS HEAD CONFIRMADO: BDAG 4964 → 4984 / 8287 = 60,14%; 3303 artigos restantes. Próximo lema μολύνω na linha 52477.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 239 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE / PAI / EXPECTED_SHA: 976c9b2662a0d83490a5933e2e9cbeee47dd5c03. Normas relidas diretamente nesta revisão: regras/Rbdag.txt, blob 670d43298c054f470e60d44201e9e7756897edc1; regras/Rauditoria.txt, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Atualização permitida apenas com um commit em chat-gpt-bdag, expected_sha exato e force=false; sem PR, merge, deploy ou rebase.
+FONTE CANÔNICA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 52477–52629, exatamente 20 artigos consecutivos de μολύνω a μοχλός. Primeira entrada EXCLUÍDA do lote: μυελός, οῦ, ὁ, linha 52630. Leitura direta das linhas 52477–52630, sem advertências. SHA bruto original e confronto facsimilar/impresso ainda não certificados. Nenhum léxico substituto foi usado como fonte.
+TRADUÇÃO: os vinte artigos foram vertidos integralmente para português brasileiro, com paradigmas, variantes, níveis e subdivisões de acepções, sintaxe, textos gregos, bibliografia, referências numéricas, testemunhos e remissões. μολύνω distingue sujeira física de impureza ritual; μονή distingue permanência e morada; μονογενής conserva as duas acepções e as distintas leituras e análises de João 1:18, inclusive μονογενὴς θεός e ὁ μονογενὴς υἱός; μόνος mantém as 3 acepções, numerosas subacepções gramaticais e combinações negativas; μορφή preserva as discussões filológicas de Phil 2:6–7 sem omitir as referências; μορφόω e μόρφωσις preservam suas diferentes construções; μουσικός registra o uso substantivado em Rv 18:22.
+COLAÇÃO INDIVIDUAL HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES, com NFC: 659 sequências gregas, zero sequências hebraicas/aramaicas presentes neste intervalo e 1193 numéricas; conteúdo e ordem idênticos nos vinte artigos, sem divergência detectada. Não equivale a exame facsimilar, auditoria lexical independente ou auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas da fonte | contagens G/H/N fonte=tradução=cartão):
+01 | μολύνω | 52477–52487 | 45/0/61
+02 | μολυσμός, οῦ, ὁ | 52488–52491 | 11/0/32
+03 | μομφή, ῆς, ἡ | 52492–52495 | 11/0/2
+04 | μονάζω | 52496–52500 | 2/0/28
+05 | μονή, ῆς, ἡ | 52501–52512 | 16/0/42
+06 | μονογενής, ές | 52513–52523 | 100/0/152
+07 | μονόλιθος, ον | 52524–52527 | 2/0/18
+08 | μόνον | 52528–52531 | 2/0/1
+09 | μονοούσιος, ον | 52532–52536 | 8/0/4
+10 | μόνος, η, ον | 52537–52589 | 298/0/505
+11 | μονόφθαλμος, ον | 52590–52593 | 3/0/26
+12 | μονόω | 52594–52597 | 5/0/27
+13 | μορφή, ῆς, ἡ | 52598–52601 | 56/0/129
+14 | μορφόω | 52602–52605 | 20/0/38
+15 | μόρφωσις, εως, ἡ | 52606–52609 | 30/0/18
+16 | μοσχοποιέω | 52610–52613 | 7/0/5
+17 | μόσχος, ου, ὁ | 52614–52617 | 12/0/31
+18 | μουσικός, ή, όν | 52618–52621 | 17/0/21
+19 | μόχθος, ου, ὁ | 52622–52625 | 6/0/41
+20 | μοχλός, οῦ, ὁ | 52626–52629 | 8/0/12
+VALIDAÇÕES ESTÁTICAS DO MÓDULO BDAG_PART_0239: source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor; 20 search-row e 20 entry-card, IDs exclusivos entry-bdag-0239-01 a -20, data-target/id em bijeção, HTML equilibrado, texto completo dos cartões correspondente às traduções. 126 links NA28, 119 URLs distintas, sintaxe validada; HTTP dos destinos não testado. Manifesto inclui somente bdag-part-0239 após bdag-part-0238 e antes de leh.js; metadados bibliographicTerms de bdag.js inalterados.
+ESCOPO DOS TRÊS ÚNICOS ARQUIVOS ALTERADOS: lexicons/bdag-part-0239.js, lexicon-modules.json, regras/Rbdag.txt. Preservados regras/Rauditoria.txt, BDAG anterior, demais léxicos e infraestrutura. Publicação única com parent_sha=976c9b2662a0d83490a5933e2e9cbeee47dd5c03, expected_sha=976c9b2662a0d83490a5933e2e9cbeee47dd5c03, force=false.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico, confronto facsimilar/impresso, revisão semântica/morfológica/bibliográfica independente artigo a artigo, acesso HTTP dos links, navegador/DOM real, pesquisa, teclado, foco, acessibilidade, GitHub Actions/CI, regressão global, homologação e checklist completo A–J. AUDITORIA_CONCLUIDA=NÃO nos 20; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO HEAD REMOTO: BDAG 4984 → 5004 / 8287 = 60,38%; 3283 artigos restantes. Próximo artigo: μυελός, οῦ, ὁ, linha 52630.
+================================================================================
