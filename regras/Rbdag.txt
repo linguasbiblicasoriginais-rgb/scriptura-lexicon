@@ -10345,3 +10345,37 @@ ESCOPO ÚNICO DE PUBLICAÇÃO: lexicons/bdag-part-0236.js, lexicon-modules.json,
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico; cotejo com fac-símile; revisão independente semântica, morfológica e bibliográfica por artigo; testes de navegador/DOM, pesquisa, teclado, foco, acessibilidade; HTTP real dos links; CI, regressão global, homologação e checklist de auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os vinte artigos; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO REMOTA DA PUBLICAÇÃO: BDAG 4924 → 4944 / 8287 = 59,66%; 3343 artigos restantes. Próximo artigo: Μισαήλ, ὁ, linha 52153.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 237 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 18ac09af21a48c637eafc894cbc64543be3b7f32. Regras relidas diretamente no HEAD: regras/Rbdag.txt (blob a979f9bf2ec849f53e438abfa69d3147492fcf76) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67). Um único commit permitido, com força desabilitada (force=false), sem PR, merge ou deploy.
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 52153–52299, exatamente 20 artigos autônomos consecutivos, de Μισαήλ, ὁ a μνήμη, ης, ἡ. Próximo artigo EXCLUÍDO: μνημονεύω, linha 52300. Leitura direta do HTML do Projeto das linhas 52153–52300 sem advertências. SHA bruto dos bytes originais do HTML e cotejo com fac-símile não certificados; não substituído por outros léxicos.
+TRADUÇÃO: 20 artigos integralmente vertidos para português brasileiro, incluindo paradigmas e formas gregas, etimologias, distinções de acepções/subacepções, hebraico מִישָׁאֵל, שָׂנֵא, שָׂנֵא חִנָּם e מִיכָאֵל, variantes textuais, notas, remissões, bibliografia, referências bíblicas e extra-bíblicas. Em μισέω distingue-se a aversão intensa de desfavor em contexto semítico de honra/vergonha; μισθός distingue pagamento por trabalho de recompensa moral favorável e retribuição punitiva; μισθαποδοσία mantém recompensa versus punição; μίσθωμα mantém especificidade semântica de Ac 28:30; μνᾶ registra o empréstimo semítico e a medida de 100 dracmas; μνῆμα e μνημεῖον permanecem distintos; μνήμη conserva lembrança versus memorial.
+COLAÇÃO FORMAL INDIVIDUAL HTML CANÔNICO → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 604 sequências gregas, cinco sequências de escrita hebraica/aramaica e 1099 sequências numéricas; conteúdo e ordem idênticos após normalização Unicode NFC em 20/20 artigos. Nenhuma divergência formal encontrada. Isso não substitui revisão semântica independente nem auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas do HTML | sequências G/H/N conferidas):
+01 | Μισαήλ, ὁ | 52153–52157 | 3/1/25
+02 | μισέω | 52158–52178 | 120/3/268
+03 | μισθαποδοσία, ας, ἡ | 52179–52189 | 20/0/7
+04 | μισθαποδότης, ου, ὁ | 52190–52193 | 14/0/13
+05 | μίσθιος | 52194–52198 | 18/0/29
+06 | μισθός, οῦ, ὁ | 52199–52218 | 156/0/242
+07 | μισθόω | 52219–52222 | 22/0/20
+08 | μίσθωμα, ατος, τό | 52223–52226 | 9/0/13
+09 | μισθωτός | 52227–52230 | 13/0/17
+10 | μῖσος, ους, τό | 52231–52234 | 9/0/15
+11 | μίτρα, ας, ἡ | 52235–52238 | 15/0/22
+12 | Μιτυλήνη, ης, ἡ | 52239–52242 | 4/0/17
+13 | Μιχαήλ, ὁ | 52243–52246 | 10/1/46
+14 | μνᾶ, μνᾶς, ἡ | 52247–52250 | 5/0/23
+15 | μνάομαι | 52251–52254 | 6/0/4
+16 | Μνάσων, ωνος, ὁ | 52255–52259 | 7/0/27
+17 | μνεία, ας, ἡ | 52260–52270 | 61/0/73
+18 | μνῆμα, ατος, τό | 52271–52275 | 18/0/49
+19 | μνημεῖον, ου, τό | 52276–52287 | 49/0/153
+20 | μνήμη, ης, ἡ | 52288–52299 | 45/0/36
+VALIDAÇÃO ESTÁTICA BDAG_PART_0237: 20 search-row e 20 entry-card, IDs únicos entry-bdag-0237-01 a -20, correspondência 1:1 com data-target e sem órfãos; HTML estruturalmente balanceado; texto completo extraído do cartão idêntico à tradução. source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor. 85 âncoras NA28, 83 URLs distintas, sintaxe validada, acesso HTTP não testado. Manifesto registra exatamente bdag-part-0237 imediatamente após bdag-part-0236 e antes de leh.js; metadados bibliographicTerms em bdag.js preservados.
+ESCOPO ÚNICO DE PUBLICAÇÃO: lexicons/bdag-part-0237.js, lexicon-modules.json, regras/Rbdag.txt. Não alterar regras/Rauditoria.txt, demais módulos BDAG, outros léxicos ou infraestrutura. Commit direto em chat-gpt-bdag com parent_sha=18ac09af21a48c637eafc894cbc64543be3b7f32, expected_sha=18ac09af21a48c637eafc894cbc64543be3b7f32, force=false, sem PR, merge, rebase, branch auxiliar ou deploy.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML, cotejo facsimilar, revisão semântica/morfológica/bibliográfica independente, HTTP real dos links, testes em navegador/DOM, pesquisa, teclado, foco, acessibilidade, CI, regressão global, homologação e checklist da auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos, não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 4944 → 4964 / 8287 = 59,90%; 3323 artigos restantes; próximo artigo μνημονεύω, linha 52300.
+================================================================================
