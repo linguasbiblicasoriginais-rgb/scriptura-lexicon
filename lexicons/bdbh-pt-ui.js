@@ -59,21 +59,23 @@
           +' data-meanings="'+encode(lexicalTip)+'" lang="he" dir="rtl">'
           +label+'</a>';
       }
+      const crossChapterVerseRange=/^(.+?) (\d+):(\d+)-(\d+):(\d+)$/.exec(ref);
       const chapterRange=/^(.+?) (\d+)-(\d+)$/.exec(ref);
-      const match=/^(.+?) (\d+)(?::(\d+)(?:-(\d+))?)?$/.exec(ref)||chapterRange;
+      const match=crossChapterVerseRange||/^(.+?) (\d+)(?::(\d+)(?:-(\d+))?)?$/.exec(ref)||chapterRange;
       if(!match||!books.has(match[1])){
         throw Error("BDB-H/PT: referência sem mapeamento certificado: "+ref);
       }
-      const book=books.get(match[1]),chapter=Number(match[2]),chapterEnd=chapterRange?Number(chapterRange[3]):null;
-      const verse=chapterRange?null:(match[3]?Number(match[3]):null),verseEnd=chapterRange?null:(match[4]?Number(match[4]):null);
+      const book=books.get(match[1]),chapter=Number(match[2]),chapterEnd=crossChapterVerseRange?Number(match[4]):chapterRange?Number(chapterRange[3]):null;
+      const verse=chapterRange?null:(match[3]?Number(match[3]):null),verseEnd=crossChapterVerseRange?Number(match[5]):chapterRange?null:(match[4]?Number(match[4]):null);
       if(!Number.isSafeInteger(chapter)||chapter<1
         ||(chapterEnd!==null&&(!Number.isSafeInteger(chapterEnd)||chapterEnd<chapter))
-        ||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))||(verseEnd!==null&&(!Number.isSafeInteger(verseEnd)||verseEnd<verse))){
+        ||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))||(verseEnd!==null&&(!Number.isSafeInteger(verseEnd)||verseEnd<1||(crossChapterVerseRange?chapterEnd===chapter&&verseEnd<verse:verseEnd<verse)))){
         throw Error("BDB-H/PT: capítulo/versículo inválido: "+ref);
       }
       const subdivision=verse===null?"":(originalLabel.match(/\d+([a-d]|ff?)$/i)?.[1]||"");
-      const readable=book.abbr+" "+chapter+(chapterEnd!==null?"–"+chapterEnd:verse===null?"":"."+verse+subdivision+(verseEnd===null?"":"–"+verseEnd));
-      const full=book.full+(chapterEnd!==null?", capítulos "+chapter+" a "+chapterEnd
+      const readable=book.abbr+" "+chapter+(crossChapterVerseRange?"."+verse+"–"+chapterEnd+"."+verseEnd:chapterEnd!==null?"–"+chapterEnd:verse===null?"":"."+verse+subdivision+(verseEnd===null?"":"–"+verseEnd));
+      const full=book.full+(crossChapterVerseRange?", do capítulo "+chapter+", versículo "+verse+", ao capítulo "+chapterEnd+", versículo "+verseEnd
+        :chapterEnd!==null?", capítulos "+chapter+" a "+chapterEnd
         :", capítulo "+chapter+(verse===null?"":verseEnd!==null?", versículos "+verse+" a "+verseEnd:", versículo "+verse+(subdivision?(subdivision==="f"?" e seguinte":subdivision==="ff"?" e seguintes":" (parte "+subdivision+")"):"")));
       const note=book.apocryphal
         ? ". A passagem é aberta no leitor da Septuaginta, não na tradução de Kahana citada na fonte BDB."
