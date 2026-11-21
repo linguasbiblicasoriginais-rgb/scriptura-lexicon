@@ -10681,3 +10681,36 @@ ESCOPO EXCLUSIVO DE MODIFICAÇÃO: lexicons/bdag-part-0246.js, lexicon-modules.j
 PENDÊNCIAS: SHA bruto da fonte HTML, colação facsimilar/impresso, revisão filológica/semântica/bibliográfica independente por artigo, verificação real HTTP dos links, navegador/DOM, pesquisa, foco, teclado, acessibilidade e popups, execução GitHub Actions/CI e testes globais, homologação, integração e auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os vinte artigos; NÃO incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA FINAL: BDAG 5124 → 5144 / 8287 = 62,07%; 3143 artigos restantes. Próximo artigo: νόσος, ου, ἡ, linha 53620.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 247 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 735ff519f71226020d9df5ad42e14d388d40834d; árvore Git inicial 4ef65f2492659e860c15138108727bd1b36a1515. Normas consultadas no mesmo HEAD: regras/Rbdag.txt blob a23c2537b93e01345b7459c71fa26ae642bf06fe; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Um único commit exclusivo em chat-gpt-bdag, expected_sha exato, force=false, sem PR, merge, rebase ou deploy.
+FONTE EXCLUSIVA: HTML canônico do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", recuperado por Files/Library, linhas 53620–53815, contendo exatamente 20 artigos autônomos consecutivos desde νόσος, ου, ἡ até νῦν. O artigo EXCLUÍDO seguinte é νυνί, linha 53816. Uma triagem inicial incorretamente apontou νυμφών como 20º; a recontagem confirmou que é o 19º e acrescentou νῦν, antes de qualquer publicação. Fonte efetivamente relida, mas SHA dos bytes brutos do HTML e cotejo com fac-símile não certificados.
+TRADUÇÃO: 20 artigos traduzidos integralmente para português brasileiro, preservando lemas, paradigmas, morfologia e construções, todas as acepções/subacepções, formas gregas, testemunhos em escrita hebraica, variantes de leitura, abreviaturas, citações, bibliografia, remissões e ressalvas autorais. νόσος distingue enfermidade física e moral; νοσσιά distingue ninho e ninhada; νοσφίζω distingue retenção de valor e significado de apropriação indevida, preservando a ressalva editorial sobre Ac 5:2f. νότος distingue vento, direção e país meridional; νουθεσία/νουθετέω conservam contextos de admoestação. νοῦς distingue ①ⓐⓑ percepção intelectual, ②ⓐⓑ disposição mental e ③ resultado do pensamento, inclusive glossolalia, Pneuma e teologia paulina como interpretação atribuída ao BDAG. Νύμφα/Νυμφᾶς conservam a ambiguidade textual em Col 4:15, sem decidir a variante. νυμφών distingue salão de bodas e câmara nupcial. νῦν preserva ①ⓐ α א ב ג ד β א ב ג, ①ⓑ e ②ⓐⓑ, com partículas, valores temporais e marcadores hebraicos e וְעַתָּה. Nenhuma análise externa substituiu a fonte.
+COLAÇÃO FORMAL INDIVIDUAL HTML → TRADUÇÃO → CARTÃO: 731 sequências gregas, 10 em escrita hebraica e 1195 numéricas, iguais em ordem e conteúdo após normalização Unicode NFC em 20/20 artigos, zero divergências finais. Uma sigla de referência do artigo νουθετέω (m 8:10) foi corrigida para corresponder à fonte antes da publicação. Esta colação é formal e não substitui auditoria semântica independente, fac-símile, homologação ou integração.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | νόσος, ου, ἡ | 53620–53631 | 61/0/47
+02 | νοσσιά, ᾶς, ἡ | 53632–53642 | 8/0/14
+03 | νοσσίον, ου, τό | 53643–53646 | 9/0/5
+04 | νοσσός, οῦ, ὁ | 53647–53650 | 14/0/17
+05 | νοσφίζω | 53651–53655 | 21/0/51
+06 | νότος, ου, ὁ | 53656–53672 | 23/0/51
+07 | νουθεσία, ας, ἡ | 53673–53676 | 18/0/31
+08 | νουθετέω | 53677–53680 | 29/0/81
+09 | νουθέτημα, ατος, τό | 53681–53684 | 6/0/7
+10 | νουθέτησις, εως, ἡ | 53685–53688 | 12/0/19
+11 | νουμηνία | 53689–53692 | 3/0/3
+12 | νουνεχῶς | 53693–53697 | 7/0/17
+13 | νοῦς, νοός, νοί̈, νοῦν, ὁ | 53698–53723 | 205/0/192
+14 | Νύμφα, ας, ἡ | 53724–53727 | 14/0/16
+15 | Νυμφᾶς, ᾶ, ὀ | 53728–53732 | 6/0/6
+16 | νύμφη, ης, ἡ | 53733–53743 | 7/0/68
+17 | νυμφικός, ή, όν | 53744–53747 | 9/0/4
+18 | νυμφίος, ου, ὁ | 53748–53752 | 14/1/52
+19 | νυμφών, ῶνος, ὁ | 53753–53764 | 13/0/37
+20 | νῦν | 53765–53815 | 252/9/477
+CONTROLES ESTÁTICOS: BDAG_PART_0247 registra source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor, 20 tr.search-row e 20 article.entry-card; IDs exclusivos entry-bdag-0247-01 a -20 em correspondência bijetiva data-target/id; HTML equilibrado, textos extraídos dos 20 cartões idênticos às traduções. 154 links NA28, 139 URLs distintas: sintaxe validada; HTTP real não verificado. Manifesto contém lexicons/bdag-part-0247.js uma vez imediatamente após part-0246.js e antes de leh.js, sem duplicações; bdag.js e bibliographicTerms intocados.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0247.js, lexicon-modules.json, regras/Rbdag.txt (anexação deste checkpoint). Não modificar regras/Rauditoria.txt, módulos anteriores, outros léxicos, infraestrutura.
+PENDÊNCIAS: hash bruto HTML canônico, cotejo facsimilar/impresso, revisão individual filológica/semântica/bibliográfica independente e aparato, verificação HTTP real dos 154 links, regressão em navegador/DOM incluindo pesquisa/teclado/foco/acessibilidade/popups, execução CI/GitHub Actions/testes globais, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para todos os 20; não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 5144 → 5164 / 8287 = 62,31%; 3123 artigos restantes. Próximo artigo νυνί, linha 53816.
+================================================================================
