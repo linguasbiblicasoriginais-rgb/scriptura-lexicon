@@ -59,20 +59,27 @@
           +' data-meanings="'+encode(lexicalTip)+'" lang="he" dir="rtl">'
           +label+'</a>';
       }
-      const match=/^(.+?) (\d+)(?::(\d+)(?:-(\d+))?)?$/.exec(ref);
+      const chapterRange=/^(.+?) (\d+)-(\d+)$/.exec(ref);
+      const match=/^(.+?) (\d+)(?::(\d+)(?:-(\d+))?)?$/.exec(ref)||chapterRange;
       if(!match||!books.has(match[1])){
         throw Error("BDB-H/PT: referência sem mapeamento certificado: "+ref);
       }
-      const book=books.get(match[1]),chapter=Number(match[2]),verse=match[3]?Number(match[3]):null,verseEnd=match[4]?Number(match[4]):null;
-      if(!Number.isSafeInteger(chapter)||chapter<1||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))||(verseEnd!==null&&(!Number.isSafeInteger(verseEnd)||verseEnd<verse))){
+      const book=books.get(match[1]),chapter=Number(match[2]),chapterEnd=chapterRange?Number(chapterRange[3]):null;
+      const verse=chapterRange?null:(match[3]?Number(match[3]):null),verseEnd=chapterRange?null:(match[4]?Number(match[4]):null);
+      if(!Number.isSafeInteger(chapter)||chapter<1
+        ||(chapterEnd!==null&&(!Number.isSafeInteger(chapterEnd)||chapterEnd<chapter))
+        ||(verse!==null&&(!Number.isSafeInteger(verse)||verse<1))||(verseEnd!==null&&(!Number.isSafeInteger(verseEnd)||verseEnd<verse))){
         throw Error("BDB-H/PT: capítulo/versículo inválido: "+ref);
       }
       const subdivision=verse===null?"":(originalLabel.match(/\d+([a-d]|ff?)$/i)?.[1]||"");
-      const readable=book.abbr+" "+chapter+(verse===null?"":"."+verse+subdivision+(verseEnd===null?"":"–"+verseEnd));
-      const full=book.full+", capítulo "+chapter+(verse===null?"":verseEnd!==null?", versículos "+verse+" a "+verseEnd:", versículo "+verse+(subdivision?(subdivision==="f"?" e seguinte":subdivision==="ff"?" e seguintes":" (parte "+subdivision+")"):""));
+      const readable=book.abbr+" "+chapter+(chapterEnd!==null?"–"+chapterEnd:verse===null?"":"."+verse+subdivision+(verseEnd===null?"":"–"+verseEnd));
+      const full=book.full+(chapterEnd!==null?", capítulos "+chapter+" a "+chapterEnd
+        :", capítulo "+chapter+(verse===null?"":verseEnd!==null?", versículos "+verse+" a "+verseEnd:", versículo "+verse+(subdivision?(subdivision==="f"?" e seguinte":subdivision==="ff"?" e seguintes":" (parte "+subdivision+")"):"")));
       const note=book.apocryphal
         ? ". A passagem é aberta no leitor da Septuaginta, não na tradução de Kahana citada na fonte BDB."
-        : ". Ativar para abrir a passagem no leitor hebraico UXLC do Scriptura Lexicon.";
+        : chapterEnd!==null
+          ? ". Ativar para abrir o início do intervalo no leitor hebraico UXLC do Scriptura Lexicon."
+          : ". Ativar para abrir a passagem no leitor hebraico UXLC do Scriptura Lexicon.";
       const prefix=book.apocryphal?"#apocrifos/LXX/":"#escrituras/UXLC/";
       const target=prefix+book.id+"."+chapter+"."+(verse===null?1:verse);
       return '<a class="reference-link bdbh-pt-link bdbh-pt-bible-link tooltip-trigger"'
