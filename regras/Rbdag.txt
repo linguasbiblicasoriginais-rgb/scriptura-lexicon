@@ -10582,3 +10582,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0243.js, lexicon-modules.json, regras/Rbdag
 PENDÊNCIAS: SHA bruto do HTML, colação com edição impressa, revisão semântica/bibliográfica independente por verbete, HTTP real das URLs, testes de navegador/DOM, foco, pesquisa, teclado, acessibilidade, execução CI e regressão global, homologação e integração. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos, não incrementar total_auditoria_concluida.
 PROGRESSO SE PUBLICAÇÃO CONFIRMADA NO HEAD REMOTO: BDAG 5064 → 5084 / 8287 = 61,35%; 3203 artigos restantes. Próximo lema νεῦρον, ου, τό, linha 53182.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 244 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL / PAI / EXPECTED_SHA: c006859c1a8a12315bd39b8b3f43cab3929a4005. SHA inicial regras/Rbdag.txt: b471f2648da2b853ee411af612cc7d849afda76e; regras/Rauditoria.txt: 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Um único commit exclusivo em chat-gpt-bdag com expected_sha idêntico ao HEAD inicial e force=false; sem PR, merge ou deploy.
+FONTE EXCLUSIVA: HTML canônico do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 53182–53281; 20 artigos autônomos de νεῦρον, ου, τό até νησίον, ου, τό. Próximo artigo EXCLUÍDO: νῆσος, ου, ἡ, linha 53282. Fonte relida diretamente na Library, sem uso de outros dicionários como substitutos. SHA bruto do HTML não obtido; fac-símile da edição impressa não cotejado.
+TRADUÇÃO: todos os 20 artigos traduzidos integralmente para português brasileiro, preservando lemas, flexões, paradigmas, acepções, exemplos gregos, hebraico, citações, bibliografia, variantes, hipóteses e remissões. νεφέλη conserva referências às nuvens na Transfiguração, Ascensão, Parusia e batismo figurado; Νεφθαλίμ e Νηρί conservam grafias e nomes semíticos. νήπιος preserva ①ⓐⓑαβ e ②, incluindo os testemunhos concorrentes νήπιοι / ἤπιοι de 1 Th 2:7, sem decidir pela substituição da fonte; νεώτερος é remissão autônoma.
+COLAÇÃO FORMAL INDIVIDUAL HTML → TRADUÇÃO → CARTÃO: 361 sequências gregas, 2 hebraicas, 566 numéricas, idênticas em ordem e conteúdo por normalização Unicode NFC, 20/20 artigos e zero discrepâncias. Este exame de tokens não equivale a revisão semântica independente nem à auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | νεῦρον, ου, τό | 53182–53185 | 6/0/13
+02 | νεύω | 53186–53189 | 4/0/25
+03 | νεφέλη, ης, ἡ | 53190–53193 | 69/0/90
+04 | Νεφθαλίμ, ὁ | 53194–53197 | 14/1/43
+05 | νέφος, ους, τό | 53198–53201 | 30/0/41
+06 | νεφρός, οῦ, ὁ | 53202–53205 | 12/0/20
+07 | νέω | 53206–53209 | 13/0/7
+08 | νεωκόρος, ου, ὁ | 53210–53213 | 24/0/33
+09 | νεωτερικός, ή, όν | 53214–53217 | 12/0/18
+10 | νεωτερισμός, οῦ, ὁ | 53218–53221 | 5/0/20
+11 | νεώτερος | 53222–53225 | 2/0/0
+12 | νή | 53226–53229 | 18/0/21
+13 | νήθω | 53230–53233 | 12/0/26
+14 | νηκτός, ή, όν | 53234–53237 | 11/0/15
+15 | νηπιάζω | 53238–53242 | 9/0/23
+16 | νήπιος, ία, ιον | 53243–53265 | 87/0/126
+17 | νηπιότης, ητος, ἡ | 53266–53269 | 12/0/19
+18 | Νηρεύς, έως, ὁ | 53270–53273 | 10/0/11
+19 | Νηρί, ὁ | 53274–53277 | 3/1/2
+20 | νησίον, ου, τό | 53278–53281 | 8/0/13
+CONTROLES ESTÁTICOS: BDAG_PART_0244 registra source=BDAG e as âncoras bdag-search-anchor e bdag-entry-anchor, 20 tr.search-row e 20 article.entry-card; IDs exclusivos entry-bdag-0244-01 a -20 e data-target/id bijetivos, HTML equilibrado, texto extraído dos 20 cartões igual ao original das traduções. 45 âncoras NA28, 43 URLs únicas, sintaxe validada, destinos HTTP não testados. Manifesto com bdag-part-0244.js uma vez, imediatamente após part-0243.js e antes de leh.js, sem duplicações. bibliographicTerms de bdag.js inalterados.
+ESCOPO EXCLUSIVO DOS TRÊS ARQUIVOS A PUBLICAR: lexicons/bdag-part-0244.js, lexicon-modules.json e regras/Rbdag.txt (somente anexação deste checkpoint). regras/Rauditoria.txt, módulos anteriores, outros léxicos e infraestrutura preservados.
+PENDÊNCIAS NÃO CERTIFICADAS: hash bruto HTML canônico, cotejo facsimilar/impresso, revisão independente semântica/filológica/bibliográfica por verbete, verificações HTTP dos links, teste em navegador/DOM real de busca, teclado, foco, popups e acessibilidade, GitHub Actions/CI, regressão global, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar total_auditoria_concluida.
+PROGRESSO SE HEAD REMOTO CONFIRMAR PUBLICAÇÃO: BDAG 5084 → 5104 / 8287 = 61,59%; 3183 artigos restantes. Próximo artigo: νῆσος, ου, ἡ, linha 53282.
+================================================================================
